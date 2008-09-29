@@ -1,0 +1,42 @@
+<!ENTITY caption.label			"#1 を開く">
+
+<!-- Localization note: The default intro text has 3 "inserts":
+        #1 - replaced with the descriptive text that describes the mime type
+             (e.g., "MSWord Document")
+        #2 - replaced with the mime type (e.g., "application/ms-word")
+        #3 - replaced with the filename (e.g., "manual.doc")
+        #4 - will be replaced by the brand name (e.g., "Mozilla")
+     If there is no descriptive text, then the alternative text is used which
+     has only insert #2.
+ -->
+<!ENTITY intro.label		"&quot;#3&quot; は #2 (#1) タイプのファイルです。#4 はこのファイルタイプの処理方法を知りません。ファイルロケーション:">
+<!ENTITY intro.noDesc.label		"&quot;#3&quot; は #2 タイプのファイルです。#4 はこのファイルタイプの処理方法を知りません。ファイルロケーション:">
+
+<!ENTITY intro.attachment.label		"サイトは &quot;#3&quot; を添付として扱うように提案しています。#2 (#1) タイプのファイル、ファイルロケーション:">
+<!ENTITY intro.attachment.noDesc.label		"サイトは &quot;#3&quot; を添付として扱うように提案しています。#2 タイプのファイル、ファイルロケーション:">
+
+<!ENTITY intro.sniffed.label		"次の場所にあるファイル &quot;#3&quot; のファイルタイプは #2 (#1) であると思われます。">
+<!ENTITY intro.sniffed.noDesc.label	"次の場所にあるファイル &quot;#3&quot; のファイルタイプは #2 であると思われます。">
+
+<!ENTITY prompt.label			"このファイルをどのように処理しますか？">
+
+<!ENTITY alwaysHandle.label		"このタイプのファイルを操作するときに常にこの動作を実行する">
+<!ENTITY alwaysHandle.accesskey		"A">
+
+<!ENTITY saveToDisk.label		"このファイルをディスクに保存する">
+<!ENTITY saveToDisk.accesskey		"S">
+
+<!ENTITY useSystemDefault.label		"@@DefaultApplication@@ (#1)で開く">
+<!ENTITY useSystemDefault.noDesc.label	"@@DefaultApplication@@で開く">
+<!ENTITY useSystemDefault.accesskey	"O">
+
+<!ENTITY openUsing.label		"次で開く">
+<!ENTITY openUsing.accesskey		"w">
+
+<!ENTITY chooseApp.label		"選択...">
+<!ENTITY chooseApp.accesskey		"C">
+
+<!ENTITY chooseAppFilePickerTitle	"@@Application@@の選択">
+
+<!ENTITY badApp				"指定した@@Application@@ (#1) が見つかりません。ファイル名を確認するか、他の@@Application@@を選択してください。">
+<!ENTITY badApp.title			"@@Application@@が見つかりません">

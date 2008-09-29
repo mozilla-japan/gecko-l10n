@@ -1,0 +1,83 @@
+<!ENTITY itemGeneral.label			"一般">
+<!ENTITY itemUpdate.label			"更新">
+<!ENTITY itemNetworking.label			"ネットワークとディスク領域">
+<!ENTITY itemCertificates.label			"証明書">
+
+<!-- General Settings -->
+
+<!ENTITY showCondensedAddresses.label		"アドレス帳に登録されている人については宛先フィールドで &lt;メールアドレス&gt; 部を表示しない"><!-- (^^; en-US: Show only display name for people in my address book. -->
+<!ENTITY showCondensedAddresses.accesskey	"p">
+
+<!ENTITY autoMarkAsRead.label			"メッセージを自動的に既読とする">
+<!ENTITY autoMarkAsRead.accesskey		"A">
+<!ENTITY markAsReadNoDelay.label		"メッセージの表示直後に既読とする">
+<!ENTITY markAsReadNoDelay.accesskey		"d">
+<!-- LOCALIZATION NOTE (markAsReadDelay.label): This will concatenate to
+     "After displaying for [___] seconds",
+     using (markAsReadDelay.label) and a number (secondsLabel.label). -->
+<!ENTITY markAsReadDelay.label			"メッセージを">
+<!ENTITY markAsReadDelay.accesskey		"e">
+<!ENTITY secondsLabel.label			"秒間以上表示していたら既読とする">
+<!ENTITY showFolderColumns.label		"フォルダペインにメッセージ数などの列を表示できるようにする">
+<!ENTITY showFolderColumns.accesskey		"l">
+<!ENTITY rememberLastMsg.label			"最後に選択したメッセージを記憶する"><!-- (^^; Remember the last selected message セッション間のみフォルダごとの機能である模様 -->
+<!ENTITY rememberLastMsg.accesskey		"b">
+<!ENTITY openMsgIn.label			"メッセージは次の場所に開く:">
+<!ENTITY reuseExpRadio0.label			"新しいメッセージ@@Window@@で開く">
+<!ENTITY reuseExpRadio0.accesskey		"i">
+<!ENTITY reuseExpRadio1.label			"既存のメッセージ@@Window@@で開く">
+<!ENTITY reuseExpRadio1.accesskey		"x">
+<!ENTITY reuseExpRadio2.label			"@@NewMessage@@タブ">
+<!ENTITY reuseExpRadio2.accesskey		"Z">
+<!ENTITY connectionTimeout.label		"接続のタイムアウト時間: ">
+<!ENTITY connectionTimeout.accesskey		"C">
+<!ENTITY connectionSeconds.label		"秒">
+<!ENTITY configEditDesc.label			"高度な設定">
+<!ENTITY configEdit.label			"設定エディタ..."><!-- (^^; 要するに about:config -->
+<!ENTITY configEdit.accesskey			"g">
+<!ENTITY returnReceiptsInfo.label		"開封確認の取り扱い方を設定します。">
+<!ENTITY showReturnReceipts.label		"開封確認...">
+<!ENTITY showReturnReceipts.accesskey		"R">
+
+<!-- Update -->
+<!ENTITY autoCheck.label			"次のソフトウェアの更新を定期的に確認する:">
+<!ENTITY enableAppUpdate.label			"&brandShortName;">
+<!ENTITY enableAppUpdate.accesskey		"h">
+<!ENTITY enableAddonsUpdate.label		"アドオン">
+<!ENTITY enableAddonsUpdate.accesskey		"t">
+<!ENTITY checkNow.label				"今すぐ確認...">
+<!ENTITY whenUpdatesFound.label			"&brandShortName; の更新が見つかったとき:">
+<!ENTITY modeAskMe.label			"どうするか確認する">
+<!ENTITY modeAskMe.accesskey			"k">
+<!ENTITY modeAutomatic.label			"自動的に更新をダウンロードしてインストールする">
+<!ENTITY modeAutomatic.accesskey		"m">
+<!ENTITY modeAutoAddonWarn.label		"更新によりアドオンが無効化される場合は警告する">
+<!ENTITY modeAutoAddonWarn.accesskey		"-">
+<!ENTITY showUpdates.label			"更新履歴を表示...">
+<!ENTITY showUpdates.accesskey			"y">
+
+<!-- Networking and Disk Space -->
+<!ENTITY showConnections.label			"接続設定...">
+<!ENTITY showConnections.accesskey		"n">
+<!ENTITY proxiesInfo.label			"インターネット接続に使用するプロキシを設定します。">
+<!ENTITY connectionsInfo.caption		"接続">
+<!ENTITY offlineInfo.caption			"オフライン">
+<!ENTITY offlineInfo.label			"オフライン時の動作を設定します。">
+<!ENTITY showOffline.label			"オフライン設定...">
+<!ENTITY showOffline.accesskey			"O">
+
+<!ENTITY Diskspace				"ディスク領域">
+<!ENTITY offlineCompact.label			"ディスク領域を"><!-- (^^; offlineCompact.label 〜 kb.label -->
+<!ENTITY offlineCompact.accesskey		"v">
+<!ENTITY kb.label				"KB 以上節約できるときはフォルダを最適化する">
+
+<!-- Certificates -->
+<!ENTITY certificatesInfo2.label		"デジタル証明書、失効リスト、証明書の検証方法やセキュリティデバイスを管理します。">
+<!ENTITY viewCertificates.label			"証明書を表示">
+<!ENTITY viewCertificates.accesskey		"a">
+<!ENTITY viewCRLs.label				"失効リスト">
+<!ENTITY viewCRLs.accesskey			"e">
+<!ENTITY validation.label			"検証">
+<!ENTITY validation.accesskey			"f">
+<!ENTITY viewSecurityDevices.label		"セキュリティデバイス">
+<!ENTITY viewSecurityDevices.accesskey		"u">

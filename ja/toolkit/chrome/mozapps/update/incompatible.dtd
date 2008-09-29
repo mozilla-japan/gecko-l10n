@@ -1,0 +1,8 @@
+
+<!ENTITY  incompatible.title	"互換性のないアドオン">
+<!ENTITY  incompatible.intro	"インストールしようとしている &brandShortName; の更新と以下のアドオンとは互換性がありません。更新をインストールするとこれらは無効化されます:">
+<!ENTITY  incompatible.update	"&brandShortName; を更新しても、これらのアドオンについて互換性のあるバージョンが公開されていないか定期的に確認されます。">
+<!ENTITY  incompatible.suffix	"&brandShortName; の更新には重要なセキュリティの向上が含まれています。あなたの安全を保つため、一部の拡張機能やテーマが使用できなくなる場合であっても、&brandShortName; を更新することを強く推奨します。">
+
+<!ENTITY  closebutton.label	"閉じる">
+

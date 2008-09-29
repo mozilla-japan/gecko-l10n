@@ -1,0 +1,3 @@
+<!-- folder pane context menu item -->
+<!ENTITY folderContextRSSSubscribe.label	"購読...">
+<!ENTITY folderContextRSSSubscribe.accesskey	"b">

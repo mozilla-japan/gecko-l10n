@@ -1,0 +1,7 @@
+
+<!ENTITY editPageCmd.label		"ページを Composer で編集"> 
+<!ENTITY editPageCmd.accesskey		"e">
+
+<!ENTITY editLinkCmd.label		"リンク先を Composer で編集">
+<!ENTITY editLinkCmd.accesskey		"E">
+

@@ -1,0 +1,55 @@
+<!ENTITY  history.label			"履歴">
+
+<!-- LOCALIZATION NOTE:
+  The entities rememberDaysBefore.label and rememberDaysAfter2.label appear on a single
+  line in preferences as follows:
+
+  &rememberDaysBefore.label  [ textbox for number of days ]  &rememberDaysAfter2.label;
+-->
+<!ENTITY  rememberDaysBefore.label	"表示したページの履歴を少なくとも">
+<!ENTITY  rememberDaysBefore.accesskey	"h">
+<!ENTITY  rememberDaysAfter2.label	"日分は残す">
+
+<!ENTITY  rememberForms.label		"Web ページのフォームや検索バーに入力した内容を記憶する">
+<!ENTITY  rememberForms.accesskey	"f">
+
+<!ENTITY  rememberDownloads.label	"ダウンロードしたファイルを記憶する">
+<!ENTITY  rememberDownloads.accesskey	"d">
+
+
+<!ENTITY  cookies.label			"Cookie">
+
+<!ENTITY  acceptCookies.label		"サイトから送られてきた Cookie を保存する">
+<!ENTITY  acceptCookies.accesskey	"c">
+
+<!ENTITY  acceptThirdParty.label	"サードパーティの Cookie も保存する">
+<!ENTITY  acceptThirdParty.accesskey	"p">
+
+<!ENTITY  keepUntil.label               "Cookie を保存する期間:">
+<!ENTITY  keepUntil.accesskey           "K">
+
+<!ENTITY  expire.label                  "サイトが指定した期限まで">
+<!ENTITY  close.label                   "&brandShortName; を終了するまで">
+<!ENTITY  askEachTime.label             "毎回確認する">
+
+<!ENTITY  cookieExceptions.label	"例外サイト...">
+<!ENTITY  cookieExceptions.accesskey	"E">
+
+<!ENTITY  showCookies.label		"Cookie を表示...">
+<!ENTITY  showCookies.accesskey		"S">
+
+
+<!ENTITY  privateData.label             "プライバシー情報">
+
+<!ENTITY  alwaysClear.label		"&brandShortName; の終了時にプライバシー情報を消去する">
+<!ENTITY  alwaysClear.accesskey		"w">
+
+<!ENTITY  askBeforeClear.label		"プライバシー情報を消去する前に確認する">
+<!ENTITY  askBeforeClear.accesskey	"A">
+
+<!ENTITY  clearDataSettings.label	"設定...">
+<!ENTITY  clearDataSettings.accesskey	"t">
+
+<!ENTITY  clearDataNow.label		"今すぐ消去...">
+<!ENTITY  clearDataNow.label2		"今すぐ消去">
+<!ENTITY  clearDataNow.accesskey	"N">

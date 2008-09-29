@@ -1,0 +1,14 @@
+<!ENTITY Inspector.label		"DOM インスペクタ">
+<!ENTITY Sidebar.label			"サイドバー">
+<!ENTITY elementBlinking.label		"要素を点滅させる">
+<!ENTITY blinkSelectedElement.label	"選択した要素を点滅させる">
+<!ENTITY borderColor.label		"枠の色">
+<!ENTITY borderWidth.label		"枠の幅">
+<!ENTITY px.label			"(ピクセル)">
+<!ENTITY blinkDuration.label		"点滅間隔">
+<!ENTITY ms.label			"(ミリ秒)">
+<!ENTITY blinkSpeed.label		"点滅速度">
+<!ENTITY invertColors.label		"色を反転">
+<!ENTITY installHowTo.label		"DOM インスペクタサイドバーは現在インストールされていません。@@[@@インストール@@]@@ をクリックするとサイドバーに追加されます。">
+<!ENTITY install.label			"インストール">
+<!ENTITY addNavigatorHooks.label	"ブラウザのコンテキストメニューに追加">

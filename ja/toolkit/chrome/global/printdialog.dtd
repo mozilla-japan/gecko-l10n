@@ -1,0 +1,28 @@
+<!-- extracted from printdialog.xul -->
+
+<!ENTITY printButton.label		"@@Print@@">
+
+<!ENTITY printDialog.title		"@@Print@@">
+
+<!ENTITY fpDialog.title			"ファイルに保存">
+
+<!ENTITY fileCheck.label		"ファイルに保存">
+<!ENTITY propertiesButton.label		"@@PropertyCMD@@...">
+<!ENTITY descText.label			"プリンタの説明:">
+<!ENTITY printer.label			"プリンタ">
+<!ENTITY printerInput.label		"プリンタ名:">
+
+<!ENTITY printrangeGroup.label		"印刷範囲">
+<!ENTITY allpagesRadio.label		"すべてのページ">
+<!ENTITY rangeRadio.label		"ページ">
+<!ENTITY frompageInput.label		"次のページから">
+<!ENTITY topageInput.label		"次のページまで">
+<!ENTITY selectionRadio.label		"選択領域">
+
+<!ENTITY copies.label			"部数">
+<!ENTITY numCopies.label		"印刷部数:">
+
+<!ENTITY printframeGroup.label		"フレームを@@Print@@">
+<!ENTITY aslaidoutRadio.label		"画面表示に合わせる">
+<!ENTITY selectedframeRadio.label	"選択されたフレーム">
+<!ENTITY eachframesepRadio.label	"フレームごとに別々に">

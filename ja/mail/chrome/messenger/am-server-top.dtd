@@ -1,0 +1,94 @@
+<!-- extracted from am-server-top.xul -->
+
+<!ENTITY securitySettings.label		"セキュリティ設定">
+<!ENTITY serverSettings.label		"サーバ設定">
+<!-- LOCALIZATION NOTE (popServer.label) : do not translate "POP" in below line -->
+<!ENTITY popServer.label		"POP メールサーバ">
+<!-- LOCALIZATION NOTE (imapServer.label) : do not translate "IMAP" in below line -->
+<!ENTITY imapServer.label		"IMAP メールサーバ">
+<!-- LOCALIZATION NOTE (newsServer.label) : do not translate "NNTP" in below line -->
+<!ENTITY newsServer.label		"ニュースサーバ (NNTP)">
+<!ENTITY webmail.label			"Web メールアカウント">
+<!ENTITY serverType.label		"サーバの種類:">
+<!ENTITY serverName.label		"サーバ名:">
+<!ENTITY serverName.accesskey		"S">
+<!ENTITY userName.label			"ユーザ名:">
+<!ENTITY userName.accesskey		"N">
+<!ENTITY port.label			"ポート:">
+<!ENTITY port.accesskey			"P">
+<!ENTITY serverPortDefault.label	"@@DefaultValue@@:">
+<!ENTITY savePassword.label		"パスワードを保存する">
+<!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammer dependency
+        For example, in Japanese cases:
+                biffStart.label "every"
+                biffEnd.label   "minutes for new messages Check"
+-->
+<!ENTITY biffStart.label		"新着メッセージがないか">
+<!ENTITY biffStart.accesskey		"y">
+<!ENTITY biffEnd.label			"分ごとに確認する">
+<!ENTITY isSecure.label			"保護された接続 (SSL) を使用する">
+<!ENTITY isSecure.accesskey		"U">
+<!ENTITY socketType.label		"保護された接続 (SSL, TLS) を使用する:">
+<!ENTITY neverSecure.label		"使用しない">
+<!ENTITY neverSecure.accesskey		"N">
+<!ENTITY sometimesSecure.label		"可能なら TLS を使用する">
+<!ENTITY sometimesSecure.accesskey	"a">
+<!ENTITY alwaysSecure.label		"TLS を使用する">
+<!ENTITY alwaysSecure.accesskey		"T">
+<!ENTITY alwaysSSL.label		"SSL を使用する">
+<!ENTITY alwaysSSL.accesskey		"L">
+<!ENTITY useSecAuth.label		"保護された認証 (APOP, NTLM, CRAM-MD5 や Kerberos) を使用する"><!-- (^^; http://lxr.mozilla.org/mozilla1.8/source/mailnews/local/src/nsPop3Protocol.cpp#1422 -->
+<!ENTITY useSecAuth.accesskey		"i">
+<!ENTITY leaveOnServer.label		"ダウンロード後もサーバにメッセージを残す">
+<!ENTITY leaveOnServer.accesskey	"g">
+<!ENTITY headersOnly.label		"ヘッダのみ取得する">
+<!ENTITY headersOnly.accesskey		"f">
+<!ENTITY deleteByAgeFromServer.label	"ダウンロードしてから"><!-- (^^; deleteByAgeFromServer.label 〜 daysEnd.label -->
+<!ENTITY deleteByAgeFromServer.accesskey "o">
+<!ENTITY daysEnd.label			"日以上経過したメッセージは削除する">
+<!ENTITY deleteOnServer2.label		"ダウンロードしたメッセージを削除したらサーバからも削除する">
+<!ENTITY deleteOnServer2.accesskey	"d">
+<!ENTITY downloadOnBiff.label		"新着メッセージを自動的にダウンロードする">
+<!ENTITY downloadOnBiff.accesskey	"m">
+<!ENTITY hostname.label			"サーバのホスト名">
+<!ENTITY username.label			"ログイン名">
+<!-- LOCALIZATION NOTE (popServerTitle.label) : do not translate "POP" in below line -->
+<!ENTITY popServerTitle.label		"POP サーバの情報">
+<!ENTITY deleteMessagePrefix.label	"メッセージを削除する時:">
+<!ENTITY modelMoveToTrash.label		"次のフォルダに移動する:">
+<!ENTITY modelMoveToTrash.accesskey	"o">
+<!ENTITY modelMarkDeleted.label		"削除済みとマークする">
+<!ENTITY modelMarkDeleted.accesskey	"k">
+<!ENTITY modelDeleteImmediately.label	"すぐに削除する">
+<!ENTITY modelDeleteImmediately.accesskey "d">
+<!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
+<!ENTITY expungeOnExit.label		"終了時に受信トレイを整理 (expunge) する"><!-- &quot; 除去可 -->
+<!ENTITY expungeOnExit.accesskey	"E">
+<!ENTITY emptyTrashOnExit.label		"終了時に@@TrashFolder@@を空にする">
+<!ENTITY emptyTrashOnExit.accesskey	"x">
+<!ENTITY loginAtStartup.label		"新着メッセージがないか起動時に確認する">
+<!ENTITY loginAtStartup.accesskey	"C">
+<!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
+    maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
+    of messages between them
+-->
+<!ENTITY maxMessagesStart.label		"ダウンロードするメッセージ数が">
+<!ENTITY maxMessagesStart.accesskey	"m">
+<!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
+<!ENTITY maxMessagesEnd.label		"以上になる場合は確認する">
+<!ENTITY alwaysAuthenticate.label	"サーバへ接続するときは必ず認証を要求する">
+<!ENTITY alwaysAuthenticate.accesskey	"w">
+<!ENTITY newsrcFilePath.label		"newsrc ファイル:">
+<!ENTITY localPath.label		"メッセージの保存先:"><!-- en-US: Local directory -->
+<!ENTITY abbreviate.label		"ニュースグループ名の表示形式:">
+<!ENTITY abbreviateOn.label		"完全名 (例: netscape.public.mozilla.mail-news)">
+<!ENTITY abbreviateOff.label		"短縮名 (例: n.p.m.mail-news)">
+<!ENTITY advancedButton.label		"詳細...">
+<!ENTITY advancedButton.accesskey	"v">
+<!ENTITY serverDefaultCharset.label	"@@Default-@@@@CharacterEncoding@@:">
+<!ENTITY localFolderPicker.label	"メッセージデータの保存先を選択してください">
+<!ENTITY browseFolder.label		"@@Browse@@...">
+<!ENTITY browseFolder.accesskey		"B">
+<!ENTITY newsrcPicker.label		"newsrc ファイルを選択してください">
+<!ENTITY browseNewsrc.label		"@@Browse@@...">
+<!ENTITY browseNewsrc.accesskey		"e">

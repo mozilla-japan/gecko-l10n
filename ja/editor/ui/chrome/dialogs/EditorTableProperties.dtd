@@ -1,0 +1,116 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either of the GNU General Public License Version 2 or later (the "GPL"),
+   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY tableWindow.title		"表の@@Property@@">
+<!ENTITY applyButton.label		"適用">
+<!ENTITY applyButton.accesskey		"A">
+<!ENTITY closeButton.label		"閉じる">
+<!ENTITY tableTab.label			"表">
+<!ENTITY cellTab.label			"セル">
+<!ENTITY tableRows.label		"行数:">
+<!ENTITY tableRows.accessKey		"R">
+<!ENTITY tableColumns.label		"列数:">
+<!ENTITY tableColumns.accessKey		"C">
+<!ENTITY tableHeight.label		"高さ:">
+<!ENTITY tableHeight.accessKey		"G">
+<!ENTITY tableWidth.label		"幅:">
+<!ENTITY tableWidth.accessKey		"W">
+<!ENTITY tableBorderSpacing.label	"枠線と余白">
+<!ENTITY tableBorderWidth.label		"枠線の太さ:">
+<!ENTITY tableBorderWidth.accessKey	"B">
+<!ENTITY tableSpacing.label		"セルとセルの間隔:">
+<!ENTITY tableSpacing.accessKey		"S">
+<!ENTITY tablePadding.label		"枠線内側の余白:">
+<!ENTITY tablePadding.accessKey		"P">
+<!ENTITY tablePxBetwCells.label		"px">
+<!ENTITY tablePxBetwBrdrCellContent.label "px">
+<!ENTITY tableAlignment.label		"表の配置:">
+<!ENTITY tableAlignment.accessKey	"T">
+<!ENTITY tableCaption.label		"表題">
+<!ENTITY tableCaption.accessKey		"N">
+<!ENTITY tableCaptionAbove.label	"表の上">
+<!ENTITY tableCaptionBelow.label	"表の下">
+<!ENTITY tableCaptionLeft.label		"表の左">
+<!ENTITY tableCaptionRight.label	"表の右">
+<!ENTITY tableCaptionNone.label		"無し">
+<!ENTITY tableInheritColor.label	"(ページ背景を透過表示)"><!-- (^^; 透過するのは色だけじゃない -->
+
+<!ENTITY cellPercent.label		"表幅との割合">
+<!ENTITY cellSelection.label		"編集対象の選択">
+<!ENTITY cellSelectCell.label		"セル">
+<!ENTITY cellSelectRow.label		"行">
+<!ENTITY cellSelectColumn.label		"列">
+<!ENTITY cellSelectNext.label		"次へ">
+<!ENTITY cellSelectNext.accessKey	"N">
+<!ENTITY cellSelectPrevious.label	"前へ">
+<!ENTITY cellSelectPrevious.accessKey	"P">
+<!ENTITY cellApplyBeforeMove.label	"選択対象の変更前に設定を適用する">
+<!ENTITY cellKeepCurrentData.label	"現在の設定を保持">
+<!-- LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap) -->
+<!ENTITY applyBeforeChange1.label	"選択対象を変更すると">
+<!ENTITY applyBeforeChange2.label	"現在の設定が適用されます。">
+<!ENTITY cellRowSpan.label		"行の幅:">
+<!ENTITY cellColSpan.label		"列の幅:">
+<!ENTITY cellContentAlignment.label	"配置:">
+<!ENTITY cellHorizontal.label		"水平位置:">
+<!ENTITY cellHorizontal.accessKey	"Z">
+<!ENTITY cellVertical.label		"垂直位置:">
+<!ENTITY cellVertical.accessKey		"V">
+<!ENTITY cellStyle.label		"セルの種別:">
+<!ENTITY cellStyle.accessKey		"C">
+<!ENTITY cellNormal.label		"通常">
+<!ENTITY cellHeader.label		"見出し">
+<!ENTITY cellTextWrap.label		"テキストの折り返し:">
+<!ENTITY cellTextWrap.accessKey		"T">
+<!ENTITY cellWrap.label			"折り返す">
+<!ENTITY cellNoWrap.label		"折り返さない">
+<!ENTITY cellAlignTop.label		"上">
+<!ENTITY cellAlignMiddle.label		"中央">
+<!ENTITY cellAlignBottom.label		"下">
+<!ENTITY cellAlignJustify.label		"均等配置">
+<!ENTITY cellAlignAtChar.label		"文字で:"><!-- (^^; ？ -->
+<!ENTITY cellInheritColor.label		"(表の背景を透過表示)">
+<!ENTITY cellUseCheckboxHelp.label	"選択中のセルに適用するプロパティをチェックボックスで指定してください。">
+
+<!-- Used in both Table and Cell panels  -->
+<!ENTITY size.label			"サイズ">
+<!ENTITY pixels.label			"px">
+<!ENTITY backgroundColor.label		"背景色:">
+<!ENTITY backgroundColor.accessKey	"B">
+<!ENTITY AlignLeft.label		"左">
+<!ENTITY AlignCenter.label		"中央">
+<!ENTITY AlignRight.label		"右">

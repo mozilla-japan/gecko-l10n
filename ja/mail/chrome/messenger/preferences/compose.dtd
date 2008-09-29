@@ -1,0 +1,64 @@
+<!ENTITY itemGeneral.label			"一般">
+<!ENTITY itemAutoComplete.label			"編集とアドレス入力">
+<!ENTITY itemSpellCheck.label			"スペルチェック">
+<!ENTITY itemSendFormat.label			"送信形式">
+
+<!ENTITY forwardReply.label			"メッセージの転送">
+<!ENTITY forwardMsg.label			"転送元のメッセージを:">
+<!ENTITY forwardMsg.accesskey			"w">
+<!ENTITY inline.label				"メール本文に含める">
+<!ENTITY inline.accesskey			"I">
+<!ENTITY asAttachment.label			"ファイルとして添付">
+<!ENTITY asAttachment.accesskey			"A">
+<!ENTITY addExtension.label			"ファイル名に拡張子を付加する">
+<!ENTITY addExtension.accesskey			"f">
+
+<!ENTITY htmlComposeHeader.label		"HTML">
+<!ENTITY font.label				"フォント:">
+<!ENTITY font.accesskey				"n">
+<!ENTITY size.label				"サイズ:">
+<!ENTITY size.accesskey				"z">
+<!ENTITY fontColor.label			"文字色:">
+<!ENTITY fontColor.accesskey			"x">
+<!ENTITY bgColor.label				"背景色:">
+<!ENTITY bgColor.accesskey			"B">
+<!ENTITY restoreHTMLDefaults.label		"@@RestoreDefaults@@">
+<!ENTITY restoreHTMLDefaults.accesskey		"R">
+
+<!ENTITY sendingMessagesHeader.label		"メッセージの編集">
+<!ENTITY spellCheck.label			"送信前にスペルチェックを行う">
+<!ENTITY spellCheck.accesskey			"C">
+<!ENTITY spellCheckInline.label			"自動スペルチェックを有効にする">
+<!ENTITY spellCheckInline1.accesskey		"k">
+<!ENTITY languagePopup.label			"辞書の言語:">
+<!ENTITY languagePopup.accessKey		"g">
+<!ENTITY downloadDictionaries.label		"新しい辞書を入手する"><!-- (^^; 拡張機能マネージャなどに合わせる -->
+
+<!ENTITY warnOnSendAccelKey.label		"キーボードショートカットでメッセージを送信するときは確認する">
+<!ENTITY warnOnSendAccelKey.accesskey		"i">
+<!ENTITY autoSave.label				""><!-- (^^; Auto Save every -->
+<!ENTITY autoSave.accesskey			"u">
+<!ENTITY autoSaveEnd.label			"分ごとに自動保存する"><!-- (^^; minutes -->
+<!-- LOCALIZATION NOTE (wrapOutMsg.label): This will concatenate with "xxx characters", using a number and (char.label). -->
+<!ENTITY wrapOutMsg.label			"プレーンテキストメッセージを">
+<!ENTITY wrapOutMsg.accesskey			"l">
+<!ENTITY char.label				"文字で改行する">
+
+<!ENTITY emailCollectionPicker.label		"送信メールアドレスを次のアドレス帳に自動で追加する:">
+<!ENTITY emailCollectionPicker.accesskey	"t">
+<!ENTITY addressingTitle.label			"アドレスの自動補完">
+<!ENTITY autocompleteText.label			"メールアドレスの入力時に、以下に登録されたものと一致したら自動補完する:">
+<!ENTITY addressingEnable.label			"ローカルのアドレス帳">
+<!ENTITY addressingEnable.accesskey		"A">
+<!ENTITY directories.label			"ディレクトリサーバ:">
+<!ENTITY directories.accesskey			"D">
+<!ENTITY directoriesNone.label			"なし">
+<!ENTITY editDirectories.label			"ディレクトリサーバの設定...">
+<!ENTITY editDirectories.accesskey		"E">
+<!ENTITY matchText.label			"ローカルのアドレス帳に検索条件に一致するアドレスがある場合:">
+<!ENTITY skipDirectory.label			"LDAP サーバを検索しない">
+
+<!ENTITY sendOptionsCaption.label		"メッセージの形式"><!-- (^^; Send and HTML Options -->
+<!ENTITY sendOptionsDescription.label		"送信するメッセージの形式を設定します。">
+<!ENTITY sendOptions.label			"送信テキスト形式..."><!-- (^^; Send Options... -->
+<!ENTITY sendOptions.accesskey			"S">

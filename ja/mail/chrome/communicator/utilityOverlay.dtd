@@ -1,0 +1,75 @@
+<!-- these things need to move into utilityOverlay.xul -->
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
+
+<!ENTITY fileMenu.label			"ファイル">
+<!ENTITY fileMenu.accesskey		"f">
+<!ENTITY newMenu.label			"新規作成">
+<!ENTITY newMenu.accesskey		"N">
+
+<!ENTITY editMenu.label			"編集">
+<!ENTITY editMenu.accesskey		"e">
+<!ENTITY undoCmd.label			"@@Undo@@">
+<!ENTITY undoCmd.key			"Z">
+<!ENTITY undoCmd.accesskey		"u">
+<!ENTITY redoCmd.label			"@@Redo@@">
+<!ENTITY redoCmd.key			"Y">
+<!ENTITY redoCmd.accesskey		"r">
+<!ENTITY cutCmd.label			"@@Cut@@">
+<!ENTITY cutCmd.key			"X">
+<!ENTITY cutCmd.accesskey		"t">
+<!ENTITY copyCmd.label			"コピー">
+<!ENTITY copyCmd.key			"C">
+<!ENTITY copyCmd.accesskey		"c">
+<!ENTITY pasteCmd.label			"@@Paste@@">
+<!ENTITY pasteCmd.key			"V">
+<!ENTITY pasteCmd.accesskey		"p">
+<!ENTITY deleteCmd.label		"削除">
+<!ENTITY deleteCmd.key			"D">
+<!ENTITY deleteCmd.accesskey		"d">
+<!ENTITY selectAllCmd.label		"@@SelectAll@@">
+<!ENTITY selectAllCmd.key		"A">
+<!ENTITY selectAllCmd.accesskey		"a">
+<!ENTITY preferencesCmd.label		"オプション...">
+<!ENTITY preferencesCmd.accesskey	"O">
+<!ENTITY preferencesCmdUnix.label	"設定">
+<!ENTITY preferencesCmdUnix.accesskey	"n">
+
+<!ENTITY findTypeTextCmd.label		"文字入力からテキストを検索"><!-- (^^; Find Text As You Type -->
+<!ENTITY findTypeTextCmd.accesskey	"x">
+
+<!ENTITY viewMenu.label			"表示">
+<!ENTITY viewMenu.accesskey		"v">
+<!ENTITY viewToolbarsMenu.label		"ツールバー">
+<!ENTITY viewToolbarsMenu.accesskey	"T">
+<!ENTITY showTaskbarCmd.label		"ステータスバー">
+<!ENTITY showTaskbarCmd.accesskey	"S">
+
+<!ENTITY direct.label			"オンライン (プロキシ: なし)">
+<!ENTITY direct.accesskey		"n">
+<!ENTITY manual.label			"オンライン (プロキシ: 手動)">
+<!ENTITY manual.accesskey		"m">
+<!ENTITY pac.label			"オンライン (プロキシ: 自動)">
+<!ENTITY pac.accesskey			"a">
+
+<!ENTITY proxy.label			"プロキシ設定...">
+<!ENTITY proxy.accesskey		"C">
+
+<!ENTITY findTypeTextCmd.key		"/">
+<!ENTITY findTypeLinksCmd.key		"'">
+
+<!ENTITY closeCmd.label			"閉じる">
+<!ENTITY closeCmd.key			"W">
+<!ENTITY closeCmd.accesskey		"c">
+
+<!ENTITY closeWindow.label		"@@Window@@を閉じる">
+
+<!ENTITY quitApplicationCmd.label	"終了">
+<!ENTITY quitApplicationCmd.key		"Q">
+<!ENTITY quitApplicationCmd.accesskey	"x">
+
+<!ENTITY quitApplicationCmdUnix.label	"終了">
+<!ENTITY quitApplicationCmdUnix.accesskey	"q">
+
+<!ENTITY quitApplicationCmdMac.label		"&brandShortName; を終了">
+<!ENTITY quitApplicationCmdMac.accesskey	"q">

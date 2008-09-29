@@ -1,0 +1,11 @@
+<!ENTITY editContactName.label			"名前:">
+<!ENTITY editContactName.accesskey		"N">
+
+<!ENTITY editContactEmail.label			"メール:">
+<!ENTITY editContactEmail.accesskey		"E">
+
+<!ENTITY editContactPanelCancel.label		"キャンセル">
+<!ENTITY editContactPanelCancel.accesskey	"C">
+
+<!ENTITY editContactPanelDone.label		"完了">
+<!ENTITY editContactPanelDone.accesskey		"D">

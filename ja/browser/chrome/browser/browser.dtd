@@ -1,0 +1,396 @@
+<!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items -->
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
+
+<!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
+<!ENTITY mainWindow.title "&brandFullName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifiermenuseparator " - ">
+
+<!ENTITY tabCmd.label			"@@NewTab@@"><!-- 表示カ所によりアクセスキーが異なる -->
+<!ENTITY tabCmd.accesskey		"T">
+<!ENTITY tabCmd.commandkey		"t">
+<!ENTITY openLocationCmd.label		"URL を開く...">
+<!ENTITY openLocationCmd.accesskey	"L">
+<!ENTITY openFileCmd.label		"ファイルを開く...">
+<!ENTITY openFileCmd.accesskey		"O">
+<!ENTITY openFileCmd.commandkey		"o">
+<!ENTITY printSetupCmd.label		"ページ設定...">
+<!ENTITY printSetupCmd.accesskey	"u">
+<!ENTITY printPreviewCmd.label		"@@Print@@プレビュー">
+<!ENTITY printPreviewCmd.accesskey	"v">
+<!ENTITY printCmd.label			"@@Print@@...">
+<!ENTITY printCmd.accesskey		"P">
+<!ENTITY printCmd.commandkey		"p">
+<!ENTITY import.label			"設定とデータ@@-ImportCMD@@...">
+<!ENTITY import.accesskey		"I">
+
+<!ENTITY goOfflineCmd.label		"オフライン作業">
+<!ENTITY goOfflineCmd.accesskey		"w">
+
+<!ENTITY navbarCmd.label		"ナビゲーションツールバー">
+<!ENTITY navbarCmd.accesskey		"N">
+<!ENTITY personalbarCmd.label		"ブックマークツールバー">
+<!ENTITY personalbarCmd.accesskey	"B">
+<!ENTITY bookmarksToolbarItem.label	"ブックマークツールバーの項目">
+<!ENTITY taskbarCmd.label		"ステータスバー">
+<!ENTITY taskbarCmd.accesskey		"B">
+
+<!ENTITY pageSourceCmd.label		"ページのソース">
+<!ENTITY pageSourceCmd.accesskey	"o">
+<!ENTITY pageSourceCmd.commandkey	"u">
+<!ENTITY pageInfoCmd.label		"ページの情報">
+<!ENTITY pageInfoCmd.accesskey		"I">
+<!ENTITY pageInfoCmd.commandkey		"i">
+<!ENTITY fullScreenCmd.label		"@@FullScreen@@">
+<!ENTITY fullScreenCmd.accesskey	"F">
+
+<!ENTITY fullScreenMinimize.tooltip	"@@Minimize@@">
+<!ENTITY fullScreenRestore.tooltip	"元に戻す">
+<!ENTITY fullScreenClose.tooltip	"閉じる">
+<!ENTITY fullScreenAutohide.label	"ツールバーを隠す">
+<!ENTITY fullScreenAutohide.accesskey	"H">
+<!ENTITY fullScreenExit.label		"フルスクリーンモードを終了">
+<!ENTITY fullScreenExit.accesskey	"F">
+
+<!ENTITY closeWindow.label		"@@Window@@を閉じる">
+<!ENTITY closeWindow.accesskey 		"d">
+
+<!ENTITY bookmarksMenu.label		"ブックマーク">
+<!ENTITY bookmarksMenu.accesskey	"B">
+<!ENTITY bookmarkThisPageCmd.label	"このページをブックマーク">
+<!ENTITY bookmarkThisPageCmd.commandkey	"d">
+<!ENTITY subscribeToPageMenupopup.label	"このページを購読">
+<!ENTITY subscribeToPageMenuitem.label	"このページを購読...">
+<!ENTITY addCurPagesCmd.label		"すべてのタブをブックマーク...">
+<!ENTITY organizeBookmarks.label	"ブックマークの管理...">
+<!ENTITY bookmarkAllCmd.label		"すべてのタブをブックマーク...">
+
+<!ENTITY backCmd.label			"戻る">
+<!ENTITY backCmd.accesskey		"B">
+<!ENTITY backButton.tooltip		"前のページへ戻ります">
+<!ENTITY forwardCmd.label		"進む">
+<!ENTITY forwardCmd.accesskey		"F">
+<!ENTITY forwardButton.tooltip		"次のページへ進みます">
+<!ENTITY backForwardMenu.tooltip	"最近表示したページ">
+<!ENTITY reloadCmd.label		"更新">
+<!ENTITY reloadCmd.accesskey		"R">
+<!ENTITY reloadButton.tooltip		"このページを再読み込みします">
+<!ENTITY stopCmd.label			"中止">
+<!ENTITY stopCmd.accesskey		"S">
+<!ENTITY stopCmd.macCommandKey		".">
+<!ENTITY stopButton.tooltip		"このページの読み込みを中止します">
+<!ENTITY goEndCap.tooltip		"ロケーションバーに入力された URL に移動します">
+<!ENTITY printButton.label		"@@Print@@">
+<!ENTITY printButton.tooltip		"このページを@@Print@@します">
+
+<!ENTITY locationItem.title		"ロケーションバー">
+<!ENTITY searchItem.title		"検索">
+<!ENTITY throbberItem.title		"読み込み中アイコン">
+<!ENTITY bookmarksItem.title		"ブックマーク">
+
+<!-- Toolbar items -->
+<!ENTITY  homeButton.label		"ホーム">
+
+<!ENTITY bookmarksButton.label		"ブックマーク">
+<!ENTITY bookmarksButton.tooltip	"ブックマークをサイドバーに表示します">
+<!ENTITY bookmarksSidebarCmd.accesskey	"B">
+<!ENTITY bookmarksSidebarCmd.commandkey	"b">
+<!ENTITY bookmarksSidebarWinCmd.commandkey	"i">
+
+<!ENTITY historyButton.label		"履歴">
+<!ENTITY historyButton.tooltip		"最近表示したページの履歴をサイドバーに表示します">
+<!ENTITY historySidebarCmd.accesskey	"s">
+<!ENTITY historySidebarCmd.commandKey	"h">
+
+<!ENTITY toolsMenu.label		"ツール">
+<!ENTITY toolsMenu.accesskey		"T">
+
+<!ENTITY keywordfield.label		"この検索にキーワードを設定...">
+<!ENTITY keywordfield.accesskey		"K">
+<!ENTITY search.label			"Web 検索">
+<!ENTITY search.accesskey		"S">
+<!ENTITY downloads.label		"ダウンロード">
+<!ENTITY downloads.tooltip		"ダウンロードの進捗状況を表示します">
+<!ENTITY downloads.accesskey		"D">
+<!ENTITY downloads.commandkey		"J">
+<!ENTITY downloadsUnix.commandkey	"y">
+<!ENTITY addons.label			"アドオン">
+<!ENTITY addons.tooltip			"インストールされている拡張機能やテーマを管理します">
+<!ENTITY addons.accesskey		"A">
+
+<!ENTITY errorConsoleCmd.label		"エラーコンソール">
+<!ENTITY errorConsoleCmd.accesskey	"C">
+<!ENTITY errorConsoleCmd.commandkey	"j">
+
+<!ENTITY fileMenu.label			"ファイル">
+<!ENTITY fileMenu.accesskey		"F">
+<!ENTITY newNavigatorCmd.label		"@@NewWindow@@">
+<!ENTITY newNavigatorCmd.key		"N">
+<!ENTITY newNavigatorCmd.accesskey	"N">
+
+<!ENTITY editMenu.label			"編集">
+<!ENTITY editMenu.accesskey		"E">
+<!ENTITY undoCmd.label			"@@Undo@@">
+<!ENTITY undoCmd.key			"Z">
+<!ENTITY undoCmd.accesskey		"U">
+<!ENTITY redoCmd.label			"@@Redo@@">
+<!ENTITY redoCmd.key			"Y">
+<!ENTITY redoCmd.accesskey		"R">
+<!ENTITY cutCmd.label			"@@Cut@@">
+<!ENTITY cutCmd.key			"X">
+<!ENTITY cutCmd.accesskey		"t">
+<!ENTITY copyCmd.label			"コピー">
+<!ENTITY copyCmd.key			"C">
+<!ENTITY copyCmd.accesskey		"C">
+<!ENTITY pasteCmd.label			"@@Paste@@">
+<!ENTITY pasteCmd.key			"V">
+<!ENTITY pasteCmd.accesskey		"P">
+<!ENTITY deleteCmd.label		"削除">
+<!ENTITY deleteCmd.key			"D">
+<!ENTITY deleteCmd.accesskey		"D">
+<!ENTITY selectAllCmd.label		"@@SelectAll@@">
+<!ENTITY selectAllCmd.key		"A">
+<!ENTITY selectAllCmd.accesskey		"A">
+<!ENTITY preferencesCmd.label		"オプション...">
+<!ENTITY preferencesCmd.accesskey	"O">
+<!ENTITY preferencesCmdUnix.label	"設定">
+<!ENTITY preferencesCmdUnix.accesskey	"n">
+
+<!ENTITY clearPrivateDataCmd.label	"プライバシー情報の消去">
+<!ENTITY clearPrivateDataCmd.accesskey	"P">
+
+<!ENTITY viewMenu.label			"表示">
+<!ENTITY viewMenu.accesskey		"V">
+<!ENTITY viewToolbarsMenu.label		"ツールバー">
+<!ENTITY viewToolbarsMenu.accesskey	"T">
+<!ENTITY viewSidebarMenu.label		"サイドバー">
+<!ENTITY viewSidebarMenu.accesskey	"e">
+<!ENTITY viewCustomizeToolbar.label	"カスタマイズ...">
+<!ENTITY viewCustomizeToolbar.accesskey	"C">
+
+<!ENTITY historyMenu.label		"履歴">
+<!ENTITY historyMenu.accesskey		"s">
+<!ENTITY historyUndoMenu.label		"最近閉じたタブ">
+
+<!ENTITY historyHomeCmd.label		"ホーム">
+<!ENTITY showAllHistoryCmd2.label	"すべての履歴を表示"><!-- (^^; -->
+<!ENTITY showAllHistoryCmd.commandkey	"H">
+
+<!ENTITY openCmd.commandkey		"l">
+<!ENTITY urlbar.emptyText		"ブックマークと履歴を検索">
+<!ENTITY urlbar.accesskey		"d">
+
+<!-- 
+  Comment duplicated from browser-sets.inc:
+
+  Search Command Key Logic works like this:
+  
+  Unix: Ctrl+J (0.8, 0.9 support)
+        Ctrl+K (cross platform binding)
+  Mac:  Ctrl+K (cross platform binding)
+  Win:  Ctrl+K (cross platform binding)
+        Ctrl+E (IE compat) 
+
+  We support Ctrl+K on all platforms now and advertise it in the menu since it is
+  our standard - it is a "safe" choice since it is near no harmful keys like "W" as
+  "E" is. People mourning the loss of Ctrl+K for emacs compat can switch their GTK
+  system setting to use emacs emulation, and we should respect it. Focus-Search-Box
+  is a fundamental keybinding and we are maintaining a XP binding so that it is easy
+  for people to switch to Linux.
+
+  Do *not* tamper with these values without talking to ben@mozilla.org
+  
+ -->
+<!ENTITY searchFocus.commandkey		"k">
+<!ENTITY searchFocus.commandkey2	"e">
+<!ENTITY searchFocusUnix.commandkey	"j">
+
+<!ENTITY openLinkCmd.label		"リンクを@@NewWindow@@で開く">
+<!ENTITY openLinkCmd.accesskey		"W">
+<!ENTITY openLinkCmdInTab.label		"リンクを@@NewTab@@で開く">
+<!ENTITY openLinkCmdInTab.accesskey	"T">
+<!ENTITY openFrameCmd.label		"フレームを@@NewWindow@@で開く">
+<!ENTITY openFrameCmd.accesskey		"W">
+<!ENTITY openFrameCmdInTab.label	"フレームを@@NewTab@@で開く">
+<!ENTITY openFrameCmdInTab.accesskey	"T">
+<!ENTITY showOnlyThisFrameCmd.label	"このフレームだけを表示">
+<!ENTITY showOnlyThisFrameCmd.accesskey	"S">
+<!ENTITY reloadCmd.commandkey		"r">
+<!ENTITY reloadFrameCmd.label		"フレームの再読み込み">
+<!ENTITY reloadFrameCmd.accesskey	"R">
+<!ENTITY viewPartialSourceForSelectionCmd.label	"選択した部分のソースを表示">
+<!ENTITY viewPartialSourceForMathMLCmd.label	"MathML のソースを表示">
+<!ENTITY viewPartialSourceCmd.accesskey	"e">
+<!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
+         viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
+<!ENTITY viewPageSourceCmd.label	"ページのソースを表示">
+<!ENTITY viewPageSourceCmd.accesskey	"V">
+<!ENTITY viewFrameSourceCmd.label	"フレームのソースを表示">
+<!ENTITY viewFrameSourceCmd.accesskey	"V">
+<!ENTITY viewPageInfoCmd.label		"ページの情報を表示">
+<!ENTITY viewPageInfoCmd.accesskey	"I">
+<!ENTITY viewFrameInfoCmd.label		"フレームの情報を表示">
+<!ENTITY viewFrameInfoCmd.accesskey	"I">
+<!ENTITY showImageCmd.label		"画像を読み込む">
+<!ENTITY showImageCmd.accesskey		"S">
+<!ENTITY viewImageCmd.label		"画像だけを表示">
+<!ENTITY viewImageCmd.accesskey		"I">
+<!ENTITY viewBGImageCmd.label		"背景画像だけを表示">
+<!ENTITY viewBGImageCmd.accesskey	"w">
+<!ENTITY setDesktopBackgroundCmd.label		"デスクトップの背景に設定...">
+<!ENTITY setDesktopBackgroundCmd.accesskey	"S">
+<!ENTITY bookmarkPageCmd2.label		"このページをブックマーク">
+<!ENTITY bookmarkPageCmd2.accesskey	"m">
+<!ENTITY bookmarkThisLinkCmd.label	"このリンクをブックマーク">
+<!ENTITY bookmarkThisLinkCmd.accesskey	"L">
+<!ENTITY bookmarkThisFrameCmd.label	"このフレームをブックマーク">
+<!ENTITY bookmarkThisFrameCmd.accesskey	"m">
+<!ENTITY sendPageCmd.label		"ページの URL をメールで送信...">
+<!ENTITY sendPageCmd.accesskey		"e">
+<!ENTITY savePageCmd.label		"@@SavePageAs@@...">
+<!ENTITY savePageCmd.accesskey		"A">
+<!-- alternate for content area context menu -->
+<!ENTITY savePageCmd.accesskey2		"P">
+<!ENTITY savePageCmd.commandkey		"s">
+<!ENTITY saveFrameCmd.label		"@@SaveFrameAs@@...">
+<!ENTITY saveFrameCmd.accesskey		"F">
+<!ENTITY printFrameCmd.label		"フレームを@@Print@@...">
+<!ENTITY printFrameCmd.accesskey	"P">
+<!ENTITY saveLinkCmd.label		"@@SaveLinkTargetAs@@...">
+<!ENTITY saveLinkCmd.accesskey		"k">
+<!ENTITY sendLinkCmd.label		"リンクの URL をメールで送信...">
+<!ENTITY sendLinkCmd.accesskey		"d">
+<!ENTITY saveImageCmd.label		"@@SaveImageAs@@...">
+<!ENTITY saveImageCmd.accesskey		"v">
+<!ENTITY sendImageCmd.label		"画像をメールで送信...">
+<!ENTITY sendImageCmd.accesskey		"n">
+<!ENTITY copyLinkCmd.label		"リンクの URL をコピー">
+<!ENTITY copyLinkCmd.accesskey		"a">
+<!ENTITY copyLinkTextCmd.label		"リンクテキストをコピー">
+<!ENTITY copyLinkTextCmd.accesskey	"x">
+<!ENTITY copyImageCmd.label		"画像の URL をコピー">
+<!ENTITY copyImageCmd.accesskey		"o">
+<!ENTITY copyImageContentsCmd.label	"画像をコピー">
+<!ENTITY copyImageContentsCmd.accesskey	"y">
+<!ENTITY blockImageCmd.accesskey	"B">
+<!ENTITY metadataCmd.label		"@@PropertyCMD@@">
+<!ENTITY metadataCmd.accesskey		"P">
+<!ENTITY copyEmailCmd.label		"メールアドレスをコピー">
+<!ENTITY copyEmailCmd.accesskey		"E">
+<!ENTITY thisFrameMenu.label		"このフレーム">
+<!ENTITY thisFrameMenu.accesskey	"h">
+
+<!-- LOCALIZATION NOTE :
+fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
+fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
+If shift key is needed with your locale popular keyboard for them,
+you can use these alternative items. Otherwise, their values should be empty.  -->
+
+<!ENTITY fullZoomEnlargeCmd.label	"拡大">
+<!ENTITY fullZoomEnlargeCmd.accesskey	"I">
+<!ENTITY fullZoomEnlargeCmd.commandkey	"+">
+<!ENTITY fullZoomEnlargeCmd.commandkey2	"=">
+<!ENTITY fullZoomEnlargeCmd.commandkey3	";"><!-- JIS キーボード用 -->
+
+<!ENTITY fullZoomReduceCmd.label	"縮小">
+<!ENTITY fullZoomReduceCmd.accesskey	"O">
+<!ENTITY fullZoomReduceCmd.commandkey	"-">
+<!ENTITY fullZoomReduceCmd.commandkey2	"">
+
+<!ENTITY fullZoomResetCmd.label		"リセット">
+<!ENTITY fullZoomResetCmd.accesskey	"R">
+<!ENTITY fullZoomResetCmd.commandkey    "0">
+<!ENTITY fullZoomResetCmd.commandkey2   "">
+
+<!ENTITY fullZoomToggleCmd.label	"文字サイズだけ変更"><!-- (^^; -->
+<!ENTITY fullZoomToggleCmd.accesskey	"T">
+<!ENTITY fullZoom.label			"ズーム">
+<!ENTITY fullZoom.accesskey		"Z">
+
+<!ENTITY newTabButton.tooltip		"@@NewTab@@を開きます">
+<!ENTITY newWindowButton.tooltip	"@@NewWindow@@を開きます">
+<!ENTITY sidebarCloseButton.tooltip	"サイドバーを閉じます">
+
+<!ENTITY cutButton.tooltip		"@@Cut@@">
+<!ENTITY copyButton.tooltip		"コピー">
+<!ENTITY pasteButton.tooltip		"@@Paste@@">
+
+<!ENTITY quitApplicationCmdWin.label	"終了">
+<!ENTITY quitApplicationCmdWin.accesskey	"x">
+<!ENTITY goBackCmd.commandKey		"[">
+<!ENTITY goForwardCmd.commandKey	"]">
+<!ENTITY quitApplicationCmd.label	"終了">
+<!ENTITY quitApplicationCmd.accesskey	"Q">
+<!ENTITY quitApplicationCmdMac.label	"&brandShortName; を終了">
+<!ENTITY quitApplicationCmdMac.key	"Q">
+
+<!ENTITY closeCmd.label			"@@CloseCMD@@">
+<!ENTITY closeCmd.key			"W">
+<!ENTITY closeCmd.accesskey		"C">
+
+<!ENTITY pageStyleMenu.label		"スタイルシート">
+<!ENTITY pageStyleMenu.accesskey	"y">
+<!ENTITY pageStyleNoStyle.label		"スタイルシートを使用しない">
+<!ENTITY pageStyleNoStyle.accesskey	"n">
+<!ENTITY pageStylePersistentOnly.label	"標準スタイルシート">
+<!ENTITY pageStylePersistentOnly.accesskey	"b">
+
+<!ENTITY pageReportIcon.tooltip		"この Web サイトでのポップアップブロック設定を変更します">
+
+<!ENTITY allowPopups.accesskey		"p">
+<!-- On Windows we use the term "Options" to describe settings, but
+     on Linux and Mac OS X we use "Preferences" - carry that distinction
+     over into this string, which is used in the "popup blocked" info bar . -->
+<!ENTITY editPopupSettingsUnix.label	"ポップアップブロック設定を変更...">
+<!ENTITY editPopupSettings.label	"ポップアップブロック設定を変更...">
+<!ENTITY editPopupSettings.accesskey	"E">
+<!ENTITY dontShowMessage.accesskey	"D">
+
+<!ENTITY bidiSwitchPageDirectionItem.label	"ページの方向を切り替える">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey	"g">
+<!ENTITY bidiSwitchTextDirectionItem.label	"テキストの方向を切り替える">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey	"w">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey	"X">
+
+<!ENTITY findOnCmd.label		"このページを検索...">
+<!ENTITY findOnCmd.accesskey		"F">
+<!ENTITY findOnCmd.commandkey		"f">
+<!ENTITY findAgainCmd.label		"次を検索">
+<!ENTITY findAgainCmd.accesskey		"g">
+<!ENTITY findAgainCmd.commandkey	"g">
+<!ENTITY findAgainCmd.commandkey2	"VK_F3">
+
+<!ENTITY spellAddDictionaries.label	"辞書を追加...">
+<!ENTITY spellAddDictionaries.accesskey	"A">
+
+<!ENTITY editBookmark.done.label		"完了">
+<!ENTITY editBookmark.cancel.label		"キャンセル">
+<!ENTITY editBookmark.removeBookmark.label	"ブックマークを削除">
+<!ENTITY editBookmark.removeBookmark.accessKey	"R">
+<!ENTITY editBookmark.undo.label		"@@Undo@@">
+<!ENTITY editBookmark.undo.accessKey		"U">
+<!ENTITY editBookmark.edit.label		"編集...">
+<!ENTITY editBookmark.edit.accessKey		"E">
+
+<!ENTITY identity.unverifiedsite2		"この Web サイトは認証されていません。"><!-- (^^; identity.connectedTo は通常の SSL 認証(ドメイン認証のみ) と EVSSL による認証(法人登記なども確認して実在証明) で共通  -->
+
+<!ENTITY identity.connectedTo			"この Web サイトは認証されています">
+<!-- Localization note (identity.runBy) : This string appears between a
+domain name (above) and an organization name (below). E.g.
+
+example.com
+which is run by
+Example Enterprises, Inc.
+
+The layout of the identity dialog prevents combining this into a single string with
+substitution variables.  If it is difficult to translate the sense of the string
+with that structure, consider a translation which ignores the preceding domain and
+just addresses the organization to follow, e.g. "This site is run by " -->
+<!-- (^^; EVSSL の場合のみ identity.runBy の値に組織名を出力 -->
+<!ENTITY identity.runBy				"このサイトの運営者:">
+
+<!ENTITY identity.moreInfoLinkText		"詳細を表示...">
+
+<!ENTITY downloadMonitor2.tooltip		"クリックするとダウンロード@@Window@@を開きます">

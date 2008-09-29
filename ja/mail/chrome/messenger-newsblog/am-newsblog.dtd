@@ -1,0 +1,21 @@
+<!ENTITY newsblogTitle.label		"フィードアカウントの設定">
+
+<!ENTITY biffStart.label		"新着記事を">
+<!ENTITY biffStart.accesskey		"k">
+<!ENTITY biffEnd.label			"分ごとに確認する">
+
+<!ENTITY loginAtStartup.label		"起動時に新着記事がないか確認する">
+<!ENTITY loginAtStartup.accesskey	"C">
+
+<!ENTITY useQuickMode.label		"標準では Web ページを読み込まずに記事の要約を表示する">
+<!ENTITY useQuickMode.accesskey		"B">
+
+<!ENTITY manageSubscriptions.label	"フィード購読の管理..."> 
+<!ENTITY manageSubscriptions.accesskey	"M">
+
+<!-- entities from defaults/isp/rss.rdf -->
+<!ENTITY rss.accountName		"ニュースとブログ">
+<!ENTITY rss.wizardShortName		"フィード">
+<!ENTITY rss.wizardLongName		"ニュースとブログ (フィード)">
+<!ENTITY rss.wizardLongName.accesskey	"R">
+<!ENTITY rss.hostName			"News &amp; Blogs"><!-- (^^; 日本語化するとフォルダ名が文字化け -->

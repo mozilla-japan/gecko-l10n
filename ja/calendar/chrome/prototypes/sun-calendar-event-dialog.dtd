@@ -1,0 +1,210 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Sun Microsystems code.
+   -
+   - The Initial Developer of the Original Code is Sun Microsystems.
+   - Portions created by the Initial Developer are Copyright (C) 2006
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s): Michael Büttner <michael.buettner@sun.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- Menubar -->
+<!ENTITY  event.menu.file.label                           "ファイル">
+<!ENTITY  event.menu.file.new.label                       "新規作成">
+<!ENTITY  event.menu.file.new.event.label                 "イベント">
+<!ENTITY  event.menu.file.new.message.label               "メッセージ">
+<!ENTITY  event.menu.file.new.address.label               "アドレス帳カード">
+<!ENTITY  event.menu.file.close.label                     "閉じる">
+<!ENTITY  event.menu.file.save.label                      "保存">
+<!ENTITY  event.menu.file.page.setup.label                "ページ設定">
+<!ENTITY  event.menu.file.print.label                     "印刷">
+<!ENTITY  event.menu.file.exit.label                      "終了">
+
+<!ENTITY  event.menu.edit.label                           "編集">
+<!ENTITY  event.menu.edit.undo.label                      "@@Undo@@">
+<!ENTITY  event.menu.edit.redo.label                      "やり直し">
+<!ENTITY  event.menu.edit.cut.label                       "@@Cut@@">
+<!ENTITY  event.menu.edit.copy.label                      "コピー">
+<!ENTITY  event.menu.edit.paste.label                     "@@Paste@@">
+<!ENTITY  event.menu.edit.select.all.label                "@@SelectAll@@">
+
+<!ENTITY  event.menu.view.label                           "表示">
+<!ENTITY  event.menu.view.toolbars.label                  "ツールバー">
+<!ENTITY  event.menu.view.toolbars.event.label            "イベントツールバー">
+<!ENTITY  event.menu.view.toolbars.customize.label        "カスタマイズ">
+
+<!ENTITY  event.menu.options.label                        "オプション">
+<!ENTITY  event.menu.options.spellcheck.label             "スペルチェック...">
+<!ENTITY  event.menu.options.inline.spellcheck.label      "自動スペルチェック">
+<!ENTITY  event.menu.options.url.label                    "文書とリンク">
+<!ENTITY  event.menu.options.timezone.label               "タイムゾーン">
+<!ENTITY  event.menu.options.priority.label               "優先度">
+<!ENTITY  event.menu.options.priority.none.label          "なし">
+<!ENTITY  event.menu.options.priority.low.label           "低">
+<!ENTITY  event.menu.options.priority.normal.label        "中">
+<!ENTITY  event.menu.options.priority.high.label          "高">
+<!ENTITY  event.menu.options.privacy.label                "プライバシー">
+<!ENTITY  event.menu.options.privacy.public.label         "公開">
+<!ENTITY  event.menu.options.privacy.confidential.label   "日時のみ公開">
+<!ENTITY  event.menu.options.privacy.private.label        "プライベート">
+<!ENTITY  event.menu.options.show.time.label              "この時間の表示">
+<!ENTITY  event.menu.options.show.time.busy.label         "予定あり">
+<!ENTITY  event.menu.options.show.time.free.label         "空き">
+
+<!ENTITY event.help.label                                 "ヘルプ">
+<!ENTITY event.help.release.notes.label                   "リリースノート">
+<!ENTITY event.help.help.label                            "&brandShortName; ヘルプ">
+<!ENTITY event.help.about.label                           "&brandShortName; について">
+
+<!-- Toolbar -->
+<!ENTITY  event.command.save.label                      "保存">
+
+<!ENTITY  event.toolbar.save.label                        "保存して閉じる">
+<!ENTITY  event.toolbar.attendees.label                   "参加者を招待">
+<!ENTITY  event.toolbar.spellcheck.label                  "スペル">
+<!ENTITY  event.toolbar.privacy.label                     "プライバシー">
+<!ENTITY  event.toolbar.document.label                    "文書">
+
+
+<!-- Main page -->
+<!ENTITY event.tab.main.label                           "イベント">
+<!ENTITY event.tab.recurrence.label                     "繰り返し">
+<!ENTITY event.tab.attendees.label                      "参加者">
+<!ENTITY event.tab.timezone.label                       "タイムゾーン">
+
+<!ENTITY event.title.textbox.label                        "タイトル:" >
+<!ENTITY event.location.label                             "ロケーション:" >
+<!ENTITY event.categories.label                           "カテゴリ:">
+<!ENTITY event.calendar.label                             "カレンダー:" >
+<!ENTITY event.attendees.label                            "参加者:" >
+<!ENTITY event.alldayevent.label                          "終日イベント" >
+<!ENTITY event.from.label                                 "開始日:" >
+<!ENTITY task.from.label                                  "開始日:" >
+<!ENTITY event.to.label                                   "終了日:" >
+<!ENTITY task.to.label                                    "期日:" >
+<!ENTITY task.status.label                                "ステータス:" >
+<!ENTITY event.repeat.label                               "繰り返し:" >
+<!ENTITY event.reminder.label                             "アラーム:" >
+<!ENTITY event.description.label                          "詳細:" >
+<!ENTITY event.document.label                             "添付:" >
+<!ENTITY event.document.change.label                      "変更..." >
+
+<!ENTITY event.private.label      "プライベート" >
+<!ENTITY event.public.label       "公開" >
+<!ENTITY event.confidential.label "日時のみ" >
+
+<!ENTITY event.reminder.none.label                        "通知しない" >
+<!ENTITY event.reminder.5minutes.before.label             "5 分前" >
+<!ENTITY event.reminder.10minutes.before.label            "10 分前" >
+<!ENTITY event.reminder.15minutes.before.label            "15 分前" >
+<!ENTITY event.reminder.30minutes.before.label            "30 分前" >
+<!ENTITY event.reminder.45minutes.before.label            "45 分前" >
+<!ENTITY event.reminder.1hour.before.label                "1 時間前" >
+<!ENTITY event.reminder.2hours.before.label               "2 時間前" >
+<!ENTITY event.reminder.5hours.before.label               "5 時間前" >
+<!ENTITY event.reminder.15hours.before.label              "15 時間前" >
+<!ENTITY event.reminder.1day.before.label                 "1 日前" >
+<!ENTITY event.reminder.2days.before.label                "2 日前" >
+<!ENTITY event.reminder.1week.before.label                "1 週間前" >
+<!ENTITY event.reminder.custom.label                      "手動設定..." >
+
+<!-- Recurrence page -->
+<!-- Recurrence dialog -->
+<!ENTITY event.repeat.does.not.repeat.label             "繰り返さない">
+<!ENTITY event.repeat.daily.label                       "毎日">
+<!ENTITY event.repeat.weekly.label                      "毎週">
+<!ENTITY event.repeat.every.weekday.label               "平日">
+<!ENTITY event.repeat.bi.weekly.label                   "隔週">
+<!ENTITY event.repeat.monthly.label                     "毎月">
+<!ENTITY event.repeat.yearly.label                      "毎年">
+<!ENTITY event.repeat.custom.label                      "手動設定...">
+
+<!ENTITY event.recurrence.pattern.label                 "繰り返す周期">
+<!ENTITY event.recurrence.occurs.label                  "周期" >
+<!ENTITY event.recurrence.none.label                    "繰り返さない" >
+<!ENTITY event.recurrence.day.label                     "毎日" >
+<!ENTITY event.recurrence.week.label                    "毎週" >
+<!ENTITY event.recurrence.month.label                   "毎月" >
+<!ENTITY event.recurrence.year.label                    "毎年" >
+<!ENTITY event.recurrence.pattern.every.label           "間隔:" >
+<!ENTITY event.recurrence.pattern.every.weekday.label   "平日" >
+<!ENTITY event.recurrence.on.label                      "曜日:" >
+<!ENTITY event.recurrence.the.label                     "" >
+<!ENTITY event.recurrence.repeat.first.label            "第 1 週" >
+<!ENTITY event.recurrence.repeat.second.label           "第 2 週" >
+<!ENTITY event.recurrence.repeat.third.label            "第 3 週" >
+<!ENTITY event.recurrence.repeat.fourth.label           "第 4 週" >
+<!ENTITY event.recurrence.repeat.last.label             "最後の週" >
+<!ENTITY event.recurrence.repeat.recur.label            "指定日" >
+<!ENTITY event.recurrence.every.label                   "間隔:" >
+<!ENTITY event.recurrence.of.label                      "of" >
+<!ENTITY event.recurrence.range.label                   "繰り返す期間">
+<!ENTITY event.recurrence.forever.label                 "永久に繰り返す" >
+<!ENTITY event.recurrence.repeat.for.label              "" >
+<!ENTITY event.recurrence.appointments.label            "回繰り返す" >
+<!ENTITY event.repeat.until.label                       "期日まで繰り返す" >
+<!ENTITY event.recurrence.preview.label                 "プレビュー">
+
+<!ENTITY month.1.name "1月" >
+<!ENTITY month.2.name "2月" >
+<!ENTITY month.3.name "3月" >
+<!ENTITY month.4.name "4月" >
+<!ENTITY month.5.name "5月" >
+<!ENTITY month.6.name "6月" >
+<!ENTITY month.7.name "7月" >
+<!ENTITY month.8.name "8月" >
+<!ENTITY month.9.name "9月" >
+<!ENTITY month.10.name "10月" >
+<!ENTITY month.11.name "11月" >
+<!ENTITY month.12.name "12月" >
+
+<!-- Reminder dialog -->
+
+<!ENTITY reminder.title.label                           "アラームの設定">
+<!ENTITY reminder.reminder.label                        "アラーム">
+<!ENTITY reminder.due.label                             "期限になったときの通知">
+<!ENTITY reminder.action.alert.label                    "警告を表示する">
+<!ENTITY reminder.action.sound.label                    "サウンドを鳴らす">
+<!ENTITY reminder.action.email.label                    "メールを送る">
+<!ENTITY reminder.new.label                             "新規作成">
+<!ENTITY reminder.delete.label                          "削除">
+<!ENTITY reminder.rename.label                          "名前を変更">
+
+<!-- Attendees page -->
+<!ENTITY  event.organizer.label          "主催者">
+<!ENTITY event.freebusy.next.slot        "次の時間帯" >
+<!ENTITY event.freebusy.previous.slot    "前の時間帯" >
+<!ENTITY event.freebusy.plus             "次の時間" >
+<!ENTITY event.freebusy.minus            "前の時間" >
+
+<!-- Timezone dialog -->
+
+<!ENTITY timezone.title.label            "タイムゾーンを指定してください">
+
+
+

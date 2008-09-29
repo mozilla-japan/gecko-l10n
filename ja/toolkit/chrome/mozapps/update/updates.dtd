@@ -1,0 +1,71 @@
+<!ENTITY  updateWizard.title		"ソフトウェアの更新">
+
+<!ENTITY  window.width			"36em">
+<!ENTITY  window.macWidth		"39em">
+
+<!ENTITY  checking.title		"更新の確認">
+<!ENTITY  checking.label		"&brandShortName; は更新がないか確認しています...">
+
+<!ENTITY  cancel.label			"キャンセル">
+<!ENTITY  cancel.accesskey		"C">
+
+<!ENTITY  noupdatesfound.title		"更新が見つかりませんでした">
+<!ENTITY  noupdatesautoenabled.intro	"更新が見つかりませんでした。&brandShortName; は定期的に更新を確認します。">
+<!ENTITY  noupdatesautodisabled.intro	"更新が見つかりませんでした。後で再度試すか、&brandShortName; の自動更新を有効化してください。">
+
+<!ENTITY  incompatibleChecking.label	"この更新により拡張機能やテーマに問題が起きないか確認しています...">
+<!ENTITY  clickHere.label		"更新の詳細を表示する">
+
+<!ENTITY  incompatible.warning		"この更新をインストールすると、一部の拡張機能やテーマは対応バージョンに更新するまで機能しなくなります。">
+<!ENTITY  listIncompatible.label	"一覧を表示">
+<!ENTITY  listIncompatible.accesskey	"L">
+
+<!ENTITY  upgrade.evangelism		"できるだけ早く &brandShortName; をアップグレードしてください。">
+
+<!ENTITY  license.instructions		"規約に同意する場合は @@[@@同意する@@]@@ をクリックして、この更新のインストールを続けてください。">
+
+<!ENTITY  license.titleText		"ソフトウェア使用許諾書">
+<!ENTITY  license.introText		"このソフトウェアを使用するための条項">
+<!ENTITY  license.instructionText	"スクロールバーを使用して次の使用許諾書をよくお読みください。">
+<!ENTITY  license.accept		"使用許諾書に同意する">
+<!ENTITY  license.accept.accesskey	"c">
+<!ENTITY  license.decline		"使用許諾書に同意しない">
+<!ENTITY  license.decline.accesskey	"T">
+
+<!ENTITY  downloading.title		"更新をダウンロード">
+<!ENTITY  downloading.intro		"更新をダウンロードしています...">
+<!ENTITY  connecting.label		"更新サーバに接続しています...">
+<!ENTITY  verificationFailedText.label	"ダウンロードした差分更新の完全性を確認できなかったため、完全更新パッケージをダウンロードしています。">
+
+<!ENTITY  details.link			"詳細">
+<!ENTITY  pause.label			"中断">
+<!ENTITY  pause.accesskey		"e">
+<!ENTITY  close.label			"閉じる">
+<!ENTITY  close.accesskey		"C">
+
+<!ENTITY  error.label			"次の問題が発生したため、この更新を正しくダウンロードまたはインストールできませんでした:">
+
+<!ENTITY  errorManual.label		"このリンクを開いて最新バージョンをダウンロードすれば、手動で &brandShortName; を更新できます:">
+
+<!ENTITY  errorpatching.title		"更新できませんでした">
+<!ENTITY  errorpatching.intro		"差分更新を適用できませんでした。完全更新をダウンロードしてインストールします。">
+
+<!ENTITY  finished.title		"更新をダウンロードしました">
+<!ENTITY  finished.text			"更新のダウンロードと検証を完了しました。この更新は次の &brandShortName; 起動時にインストールされます。">
+
+<!ENTITY  finishedBackground.title	"更新をインストールする準備ができました">
+<!ENTITY  finishedBackground.text	"重要な更新のダウンロードと検証を完了しました。下のリンクをクリックすると詳細が表示されます。">
+
+<!ENTITY  finishedBackground.name	"更新:">
+<!-- LOCALIZATION NOTE (finishedBackground.more1): This string describes the button label defined by restartButton in updates.properties. -->
+<!ENTITY  finishedBackground.more1	"今すぐ更新をインストールする場合は @@[@@&brandShortName; を今すぐ再起動@@]@@ をクリックしてください。"><!-- (^^; updates.properties の restartButton と合わせる -->
+<!-- LOCALIZATION NOTE (finishedBackground.textNotNow): This string describes the button label defined by notNowButton in updates.properties. -->
+<!ENTITY  finishedBackground.textNotNow	"このダイアログを閉じて作業を続けるには @@[@@後で@@]@@ をクリックしてください。更新は次の &brandShortName; 起動時にインストールされます。"><!-- (^^; updates.properties の laterButton と合わせる -->
+
+<!ENTITY  installed.title		"更新をインストールしました">
+<!ENTITY  installed.intro		"更新を正常にインストールしました。">
+<!ENTITY  whatsnew.label		"更新の詳細...">
+
+<!ENTITY  update.details.label		"詳細">
+<!ENTITY  update.installedOn.label	"インストール日時:">
+<!ENTITY  update.status.label		"状態:">

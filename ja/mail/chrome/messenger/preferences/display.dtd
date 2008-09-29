@@ -1,0 +1,52 @@
+<!ENTITY itemFormatting.label		"書式">
+<!ENTITY itemTags.label			"タグ">
+<!ENTITY itemFonts.label		"フォント">
+
+<!ENTITY textBegin.label		"引用文の表示">
+<!ENTITY style.label			"書式:">
+<!ENTITY style.accesskey		"y">
+<!ENTITY regularStyle.label		"標準">
+<!ENTITY bold.label			"太字">
+<!ENTITY italic.label			"斜体">
+<!ENTITY boldItalic.label		"太字斜体">
+<!ENTITY size.label			"サイズ:">
+<!ENTITY size.accesskey			"s">
+<!ENTITY regularSize.label		"標準">
+<!ENTITY bigger.label			"大きく">
+<!ENTITY smaller.label			"小さく">
+<!ENTITY color.label			"@@Color@@:"><!-- (^^;何の色？ -->
+<!ENTITY color.accesskey		"c">
+<!ENTITY displayWidth.label		"プレーンテキストメッセージ">
+<!ENTITY plainText.label		"使用するフォントの種類:">
+<!ENTITY displayText.label		"引用されたテキストメッセージの表示:">
+<!ENTITY viewingPlainText.label		"プレーンテキストメッセージの表示:">
+<!ENTITY fixedWidth.label		"@@Monospace@@">
+<!ENTITY fixedWidth.accesskey		"x">
+<!ENTITY variableWidth.label		"@@Proportional@@">
+<!ENTITY variableWidth.accesskey	"V">
+<!ENTITY readingMessagesHeader.label	"受信メッセージ">
+<!ENTITY colors.label			"@@Colors@@">
+<!ENTITY overrideColors.label		"メッセージの表示時に次の@@Colors@@を使用します:">
+<!ENTITY textColor.label		"文字色:">
+<!ENTITY textColor.accesskey		"T">
+<!ENTITY backgroundColor.label		"背景色:">
+<!ENTITY backgroundColor.accesskey	"b">
+
+<!-- LOCALIZATION NOTE : (emoticonsAndStructs.label) 'Emoticons' are also known as 'Smileys', e.g. :-)   -->
+<!ENTITY convertEmoticons.label		"顔文字をアイコンで表示する">
+<!ENTITY convertEmoticons.accesskey	"D">
+
+<!-- labels -->
+<!ENTITY displayTagsText.label		"タグを使ってメッセージを分類したり印を付けたりできます。">
+<!ENTITY addTagButton.label		"追加">
+<!ENTITY addTagButton.accesskey		"A">
+<!ENTITY editTagButton.label		"編集">
+<!ENTITY editTagButton.accesskey	"E">
+<!ENTITY removeTagButton.label		"削除">
+<!ENTITY removeTagButton.accesskey	"l">
+
+<!-- Fonts -->
+<!ENTITY fontAndEncodingsDescription.label	"&brandShortName; で使用するフォントと@@CharacterEncoding@@を指定します。">
+<!ENTITY fontsAndEncodingsCaption.label	"フォントと@@CharacterEncoding@@">
+<!ENTITY fontOptions.accesskey		"F">
+<!ENTITY fontOptions.label		"フォント...">

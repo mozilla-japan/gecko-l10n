@@ -1,0 +1,34 @@
+<!-- (^^; browser/preferences/downloading.dtd とほぼ同一 -->
+
+<!ENTITY  downloadactionsWindow.title	"添付ファイルを開く時の動作設定">
+<!ENTITY  window.width			"480">
+<!ENTITY  window.height			"310">
+
+<!ENTITY  fileTypesDescription.label	"次の種類のファイルでは決められた処理を自動的に実行する:">
+
+<!ENTITY  fileHandlerColumn.label	"動作設定">
+<!ENTITY  fileHandlerColumn.accesskey	"A">
+<!ENTITY  fileTypeColumn.label		"ファイルの種類">
+<!ENTITY  fileTypeColumn.accesskey	"T">
+<!ENTITY  fileMIMETypeColumn.label	"MIME タイプ">
+<!ENTITY  fileMIMETypeColumn.accesskey	"M">
+<!ENTITY  fileExtensionColumn.label	"拡張子">
+<!ENTITY  fileExtensionColumn.accesskey	"E">
+
+<!ENTITY  remove.label			"動作設定を削除">
+<!ENTITY  remove.accesskey		"R">
+<!ENTITY  edit.label			"動作設定を変更...">
+<!ENTITY  edit.accesskey		"C">
+
+<!ENTITY  windowClose.key		"w">
+<!ENTITY  focusSearch1.key		"f">
+<!ENTITY  focusSearch2.key		"k">
+
+<!ENTITY  filter.label			"検索:">
+<!ENTITY  filter.accesskey		"S">
+<!ENTITY  clear.label			"@@Clear@@">
+<!ENTITY  clear.accesskey		"l">
+
+<!ENTITY  button.close.label		"閉じる">
+<!ENTITY  button.close.accesskey	"o">
+

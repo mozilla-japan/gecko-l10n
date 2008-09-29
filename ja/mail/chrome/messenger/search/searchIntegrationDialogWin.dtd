@@ -1,0 +1,6 @@
+<!ENTITY searchIntegration.engineName	"Windows Search">
+<!ENTITY searchIntegration.title	"&searchIntegration.engineName; の統合">
+<!ENTITY searchIntegration.description	"&brandShortName; のメールとニュースのメッセージのインデックス化と検索に &searchIntegration.engineName; を有効化しますか？">
+
+<!ENTITY searchIntegration.accept	"&searchIntegration.engineName; を有効化">
+<!ENTITY searchIntegration.cancel	"&searchIntegration.engineName; を無効化">
