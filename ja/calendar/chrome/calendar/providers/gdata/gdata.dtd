@@ -11,11 +11,11 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is mozilla.org code.
+   - The Original Code is Google Calendar Provider code.
    -
    - The Initial Developer of the Original Code is
-   - the Mozilla Organization.
-   - Portions created by the Initial Developer are Copyright (C) 1998-2002
+   -   Philipp Kewisch <mozilla@kewis.ch>
+   - Portions created by the Initial Developer are Copyright (C) 2006
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
@@ -34,6 +34,16 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY calendarCmd.label  "カレンダー">
-<!ENTITY calendarCmd.accesskey  "r">
-<!ENTITY calendarCmd.commandkey "8">
+<!ENTITY gdata-provider.label "Google カレンダー">
+
+<!ENTITY gdata.privacy.default.label "Google の初期値">
+<!ENTITY gdata.privacy.default.accesskey "D">
+
+<!ENTITY gdata.migration.title "読み込み専用のカレンダーの移行">
+<!ENTITY gdata.migration.description "Provider for Google Calendar は、読み込み専用モードでのみアクセスできる Google カレンダーを検出しました。アップグレードするには以下のカレンダーを選択してください:">
+<!ENTITY gdata.migration.upgrade.label "アップグレード">
+<!ENTITY gdata.migration.upgrade.accesskey "U">
+<!ENTITY gdata.migration.showagain.label "毎回確認する ">
+
+<!-- (^a^) おそらく Google カレンダーで言う「モバイル」のことだと思うが未確認 -->
+<!ENTITY gdata.reminder.action.sms.label "モバイルに通知する">

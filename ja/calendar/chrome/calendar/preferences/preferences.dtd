@@ -38,7 +38,7 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  prefWindow.titleWin     "設定">
+<!ENTITY  prefWindow.titleWin     "オプション">
 <!ENTITY  prefWindow.titleGNOME   "&brandShortName; の設定">
 <!ENTITY  prefWindow.styleWin     "width: 47em; height: 37em;">
 <!ENTITY  prefWindow.styleMac     "width: 47em;">

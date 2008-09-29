@@ -23,7 +23,7 @@
    -   ArentJan Banck <ajbanck@planet.nl>
    -   Eric Belhaire <belhaire@ief.u-psud.fr>
    -   Matthew Willis <mattwillis@gmail.com>
-   -   Cﾃｩdric Corazza <cedric.corazza@wanadoo.fr>
+   -   Cédric Corazza <cedric.corazza@wanadoo.fr>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -44,15 +44,24 @@
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
 
-<!ENTITY pref.calendar.view.allview.caption "全般">
-<!ENTITY pref.calendar.view.multiweekview.caption "マルチウィークビュー">
-<!ENTITY pref.calendar.view.workweek.caption "1 週間の勤務日">
+<!ENTITY pref.calendar.view.allview.caption		"全般">
+<!ENTITY pref.calendar.view.dayandweekviews.caption	"日表示と週表示">
+<!ENTITY pref.calendar.view.multiweekview.caption	"多週表示">
+<!ENTITY pref.calendar.view.workweek.caption		"1 週間の勤務日">
 
-<!ENTITY pref.weekstarts.label     "週の開始日:" >
-<!ENTITY pref.weekstarts.accesskey "r">
-<!ENTITY pref.daysoff.label     "勤務日:" >
+<!ENTITY pref.weekstarts.label		"週の開始日:" >
+<!ENTITY pref.weekstarts.accesskey	"r">
+<!ENTITY pref.daysoff.label		"勤務日:" >
 
-<!ENTITY pref.numberofweeks.label "週の総数(デフォルト):" >
+<!ENTITY pref.calendar.view.daystart.label		"1 日の開始:">
+<!ENTITY pref.calendar.view.daystart.accesskey		"D">
+<!ENTITY pref.calendar.view.dayend.label		"1 日の終了:">
+<!ENTITY pref.calendar.view.dayend.accesskey		"y">
+<!ENTITY pref.calendar.view.visiblehours.label		"1 度に表示する範囲:">
+<!ENTITY pref.calendar.view.visiblehours.accesskey	"o">
+<!ENTITY pref.calendar.view.visiblehoursend.label	"時間">
+
+<!ENTITY pref.numberofweeks.label "起動時に表示する週の総数:" >
 <!ENTITY pref.numberofweeks.accesskey "e">
 <!ENTITY pref.numberofpreviousweeks.label     "前に表示する週の数:" >
 <!ENTITY pref.numberofpreviousweeks.accesskey "P">

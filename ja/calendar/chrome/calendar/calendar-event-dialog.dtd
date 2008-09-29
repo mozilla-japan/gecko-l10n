@@ -1,4 +1,4 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
+ <!-- ***** BEGIN LICENSE BLOCK *****
    - Version: MPL 1.1/GPL 2.0/LGPL 2.1
    -
    - The contents of this file are subject to the Mozilla Public License Version
@@ -11,14 +11,14 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is Mozilla Calendar Preferences
+   - The Original Code is OEone Calendar Code, released October 31st, 2001.
    -
    - The Initial Developer of the Original Code is
-   - Matthew Willis
-   - Portions created by the Initial Developer are Copyright (C) 2006
+   - OEone Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 2001
    - the Initial Developer. All Rights Reserved.
    -
-   - Contributor(s): 
+   - Contributor(s):
    -   Cédric Corazza <cedric.corazza@wanadoo.fr>
    -
    - Alternatively, the contents of this file may be used under the terms of
@@ -35,20 +35,29 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!-- WARNING! This file contains UTF-8 encoded characters!
-   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
-   - your editor isn't using UTF-8 encoding and may munge up the document!
-  -->
+<!ENTITY event.title.label                  "項目を編集" >
 
-<!ENTITY pref.mainbox.label "一般設定" >
-<!ENTITY pref.dateformat.label "日付の形式:" >
-<!ENTITY pref.dateformat.accesskey "D">
-<!ENTITY pref.dateformat.long "長い形式" >
-<!ENTITY pref.dateformat.short "短い形式"  >
-<!ENTITY pref.defaultlength.label   "予定の@@Default-@@期間:" >
-<!ENTITY pref.defaultlength.accesskey "E">
-<!ENTITY pref.defaultsnoozelength.label   "アラーム再通知の@@Default-@@間隔:" >
-<!ENTITY pref.defaultsnoozelength.accesskey "S">
-<!ENTITY pref.refreshbox.label "更新の設定" >
-<!ENTITY pref.autorefresh.label "すべてのカレンダーを更新する間隔:" >
-<!ENTITY pref.autorefresh.accesskey "R" >
+<!ENTITY newevent.from.label                "開始日時" >
+<!ENTITY newevent.to.label                  "終了日時" >
+<!ENTITY newevent.attendees.sendEmail.label "参加者へ参加依頼をメールで送信する">
+
+<!ENTITY newevent.status.label              "状態" >
+<!ENTITY newevent.status.accesskey          "S" >
+<!ENTITY newevent.status.none.label         "指定なし" >
+<!ENTITY newevent.status.cancelled.label    "キャンセル" >
+<!ENTITY newevent.status.tentative.label    "未確認" >
+<!ENTITY newevent.status.confirmed.label    "確認済み" >
+<!ENTITY newevent.status.needsaction.label  "行動が必要" >
+<!ENTITY newevent.status.inprogress.label   "進行中" >
+<!ENTITY newevent.status.completed.label    "完了" >
+
+<!-- The following entity is for New Task dialog only -->
+<!ENTITY newtodo.percentcomplete.label      "&#37;">
+
+<!-- Alarm -->
+<!ENTITY alarm.units.minutes                "分" >
+<!ENTITY alarm.units.hours                  "時間" >
+<!ENTITY alarm.units.days                   "日" >
+
+<!ENTITY newevent.before.label              "前" >
+<!ENTITY newevent.after.label               "後" >
