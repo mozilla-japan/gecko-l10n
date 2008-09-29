@@ -1,0 +1,103 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2000
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   David Bienvenu <bienvenu@netscape.com>
+   -   Mohan Bhamidipati <mohanb@netscape.com>
+   -   Lorenzo Colitti   <lorenzo@colitti.com>
+   -   Stefan Borggraefe <Stefan.Borggraefe@gmx.de>
+   -
+   - Localizer(s):
+   -   dynamis
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either of the GNU General Public License Version 2 or later (the "GPL"),
+   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY folderProps.windowtitle.label		"@@Property@@">
+
+<!ENTITY generalInfo.label			"一般情報">
+<!ENTITY folderCharsetTab.label			"@@Default-@@@@CharacterEncoding@@:">
+<!ENTITY folderCharsetTab.accesskey		"E">
+<!ENTITY folderCharsetOverride.label		"この設定をフォルダ内のすべてのメッセージに適用する (各メッセージの@@CharacterEncoding@@指定や自動判別結果を無視する)">
+<!ENTITY folderCharsetOverride.accesskey	"A">
+<!ENTITY folderRebuildSummaryFile.label		"索引を再構築">
+<!ENTITY folderRebuildSummaryFile.accesskey	"R">
+<!ENTITY folderRebuildSummaryFileTip.label	"要約ファイルを再構築します">
+
+<!ENTITY retention.label			"保管ポリシー"><!-- (^^; Retention Policy -->
+<!ENTITY retentionUseDefault.label		"サーバの設定を使用する">
+<!ENTITY retentionUseDefault.accesskey		"d"><!-- (^^; 以下 am-offline.dtd と同一 -->
+<!ENTITY days.label				"日">
+<!ENTITY daysOld.label				"日">
+<!ENTITY message.label				"メッセージ">
+<!ENTITY retentionCleanup.label			"古いメッセージを恒久的に削除してディスク領域を開放できます。">
+<!-- (^^; 以下 am-offline.dtd にもあり -->
+<!ENTITY retentionDeleteMsg.label		"送信日時から次の日数以上経過したメッセージを削除する">
+<!ENTITY retentionDeleteMsg.accesskey		"m">
+<!ENTITY retentionKeepAll.label			"メッセージを自動削除しない">
+<!ENTITY retentionKeepAll.accesskey		"A">
+<!ENTITY retentionKeepNew.label			"次の数のメッセージを残して削除する">
+<!ENTITY retentionKeepNew.accesskey		"l">
+<!ENTITY retentionKeepUnread.label		"既読のメッセージは常に削除する">
+<!ENTITY retentionKeepUnread.accesskey		"r">
+
+<!ENTITY folderOfflineTab.label			"オフライン">
+<!ENTITY folderCheckForNewMessages.label	"このフォルダに新着メッセージがないか確認する">
+<!ENTITY folderCheckForNewMessages.accesskey	"C">
+
+<!ENTITY offlineFolder.check.label		"このフォルダをオフラインで使用する">
+<!ENTITY offlineFolder.check.accesskey		"S">
+<!ENTITY offlineFolder.button.label		"今すぐダウンロード">
+<!ENTITY offlineFolder.button.accesskey		"D">
+
+<!ENTITY selectofflineNewsgroup.check.label	"このニュースグループをオフラインで使用する">
+<!ENTITY selectofflineNewsgroup.check.accesskey	"o">
+<!ENTITY UseDefaultofflineNewsgroup.check.label	"アカウント設定の@@DefaultValue@@を使用する">
+<!ENTITY offlineNewsgroup.button.label		"今すぐダウンロード">
+<!ENTITY offlineNewsgroup.button.accesskey	"D">
+
+<!ENTITY folderProps.information.label		"情報:">
+<!ENTITY folderProps.name.label			"名前:">
+<!ENTITY folderProps.name.accesskey		"N">
+<!ENTITY folderProps.location.label		"場所:">
+<!ENTITY folderProps.location.accesskey		"L">
+
+<!ENTITY folderSharingTab.label			"共有">
+<!ENTITY privilegesDesc.label			"フォルダをネットワークユーザと共有し、アクセス権を表示や設定する">
+<!ENTITY privileges.button.label		"アクセス権限...">
+<!ENTITY privileges.button.accesskey		"P">
+<!ENTITY permissionsDesc.label			"以下のアクセス権限があります:">
+<!ENTITY folderType.label			"フォルダの種類:">
+
+<!ENTITY folderQuotaTab.label			"クォータ"><!-- (^^; RFC 2087 -->
+<!ENTITY folderQuotaRoot.label			"クォータルート:">
+<!ENTITY folderQuotaUsage.label			"使用容量:">
+<!ENTITY folderQuotaStatus.label		"状態割合:">

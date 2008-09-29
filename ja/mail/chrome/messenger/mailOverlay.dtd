@@ -1,0 +1,9 @@
+<!-- create by matsuba -->
+<!ENTITY  newMessageCmd2.key              "N">
+<!ENTITY  newMessageCmd.key               "M">
+<!ENTITY  newMessageCmd.label             "メッセージ">
+<!ENTITY  newMessageCmd.accesskey         "m">
+ 
+<!ENTITY  newCardCmd.label                "アドレス帳カード...">
+<!ENTITY  newCardCmd.accesskey            "c">
+

@@ -1,0 +1,9 @@
+<!ENTITY aboutDialog.title	"&brandFullName; について">
+<!ENTITY credits.label		"クレジット">
+<!ENTITY credits.accesskey	"C">
+<!ENTITY aboutLink.label	"&brandFullName; について">
+<!ENTITY aboutLink.accesskey	"A">
+<!ENTITY aboutVersion		"バージョン">
+<!ENTITY copyrightText		"&#169;1998-2007 Contributors. All Rights Reserved. Mozilla Thunderbird and the
+                                 Thunderbird logos are trademarks of the Mozilla Foundation.  All rights
+                                 reserved.">

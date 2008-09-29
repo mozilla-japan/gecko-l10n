@@ -1,0 +1,42 @@
+<!ENTITY systemDefaults.label		"@@Default-@@クライアント">
+<!ENTITY alwaysCheckDefault.label	"起動時に &brandShortName; が@@Default-@@クライアントとして設定されているか確認する">
+<!ENTITY alwaysCheckDefault.accesskey	"l">
+<!-- LOCALIZATION NOTE (alwaysCheckDefault.height):
+  There's some sort of bug which makes wrapping checkboxes not properly reflow,
+  causing the bottom border of the groupbox to be cut off; set this
+  appropriately if your localization causes this checkbox to wrap.
+-->
+<!ENTITY alwaysCheckDefault.height	"3em">
+<!ENTITY checkNow.label			"今すぐ確認">
+<!ENTITY checkNow.accesskey		"N">
+
+<!ENTITY messengerStartPage.label	"&brandShortName; スタートページ">
+<!ENTITY enableStartPage.label		"起動時にメッセージペインにスタートページを表示する">
+<!ENTITY enableStartPage.accesskey	"W">
+<!ENTITY location.label			"URL:">
+<!ENTITY location1.accesskey		"o">
+<!ENTITY useDefault.label		"@@RestoreDefaults@@">
+<!ENTITY useDefault.accesskey		"R">
+
+<!ENTITY bounceSystemDockIcon.label	"Dock のアイコンをバウンドさせる"><!-- (^^; Dock は Mac 用語、訳さない -->
+<!ENTITY bounceSystemDockIcon.accesskey	"i">
+
+<!ENTITY newMessagesArrive.label	"新着メッセージの通知"><!-- (^^; When new messages arrive: -->
+<!ENTITY playSound.label		"音を鳴らす">
+<!ENTITY playSound1.accesskey		"d">
+<!ENTITY showAnimatedAlert.label	"デスクトップ通知を表示する">
+<!ENTITY showAnimatedAlert.accesskey	"S">
+<!ENTITY customizeMailAlert.label	"設定...">
+<!ENTITY customizeMailAlert.accesskey	"C">
+
+<!ENTITY soundNotification1.caption	"サウンド">
+<!ENTITY play.label			"再生">
+<!ENTITY play.accesskey			"P">
+<!ENTITY systemsound.label		"システムの新着メール通知音">
+<!ENTITY systemsoundMac.label		"システムの警告音">
+<!ENTITY systemsoundMac.accesskey	"y">
+<!ENTITY systemsound.accesskey		"y">
+<!ENTITY customsound.label		"次のサウンドファイルを使用する:">
+<!ENTITY customsound.accesskey		"U">
+<!ENTITY browse.label			"@@Browse@@...">
+<!ENTITY browse.accesskey		"B">

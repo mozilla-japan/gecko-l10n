@@ -1,0 +1,87 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+#if 0
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is DOM Inspector.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 2003
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+#endif
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY cmdShowFindDialog.label	"ノードを検索...">
+<!ENTITY cmdShowFindDialog.accesskey	"f">
+<!ENTITY cmdShowFindDialog.accelkey	"f">
+
+<!ENTITY cmdFindNext.label		"次を検索">
+<!ENTITY cmdFindNext.accesskey		"n">
+
+<!ENTITY cmdToggleAnonContent.label	"無名内容を表示">
+<!ENTITY cmdToggleAnonContent.accesskey	"a">
+
+<!ENTITY cmdToggleWhitespaceNodes.label	"空白ノードを表示">
+<!ENTITY cmdToggleWhitespaceNodes.accesskey "W">
+
+<!ENTITY cmdFlashSelected.label		"選択した要素を点滅">
+
+<!ENTITY cmdToggleAttributes.label	"属性を表示">
+<!ENTITY cmdToggleAttributes.accesskey	"r">
+
+<!ENTITY cmdSelectByClick.label		"マウスで要素を選択">
+<!ENTITY cmdSelectByClick.accesskey	"s">
+
+<!ENTITY ColumnsDialog.title		"列">
+
+<!ENTITY cmdShowColumnsDialog.label	"列...">
+<!ENTITY cmdShowColumnsDialog.accesskey	"c">
+
+<!ENTITY cmdInsertNode.label		"挿入...">
+<!ENTITY cmdDeleteNode.label		"削除">
+<!ENTITY cmdCopyXML.label		"XML をコピー">
+<!ENTITY cmdBlink.label			"要素を点滅">
+<!ENTITY cmdInspectBrowser.label	"含まれているドキュメントを調査">
+<!ENTITY cmdInspectInNewWindow.label	"@@NewWindow@@で調査">
+
+<!ENTITY cmdShowPseudoClasses.label	"疑似クラスを設定...">
+<!ENTITY cmdShowPseudoClasses.accesskey	"p">
+
+<!ENTITY pseudoClasses.title		"疑似クラス">
+
+<!ENTITY findNodes.title		"ノードの検索">
+<!ENTITY findNodesById.label		"ID">
+<!ENTITY findNodesByTag.label		"要素名">
+<!ENTITY findNodesByAttr.label		"属性名">
+<!ENTITY findNodesByAttrValue.label	"属性値">
+<!ENTITY findNodesSearchBy.label	"検索対象">
+<!ENTITY findNodesDirection.label	"方向">
+<!ENTITY findNodesDirectionUp.label	"上へ">
+<!ENTITY findNodesDirectionDown.label	"下へ">
+<!ENTITY findNodesFind.label		"検索">
+<!ENTITY findNodesCancel.label		"キャンセル">

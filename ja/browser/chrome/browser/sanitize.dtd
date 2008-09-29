@@ -1,0 +1,24 @@
+<!ENTITY sanitizeDialog.title			"プライバシー情報の消去">
+
+<!ENTITY sanitizeItems.label			"次のプライバシー情報を今すぐ消去:">
+<!ENTITY clearDataSettings.label		"プライバシー情報の消去時には次のデータを対象とする:">
+
+<!-- XXX rearrange entities to match physical layout when l10n isn't an issue -->
+
+<!ENTITY itemHistory.label			"表示したページの履歴">
+<!ENTITY itemHistory.accesskey			"B">
+<!ENTITY itemFormSearchHistory.label		"保存されているフォーム情報と検索語句">
+<!ENTITY itemFormSearchHistory.accesskey	"F">
+<!ENTITY itemPasswords.label			"保存されているパスワード">
+<!ENTITY itemPasswords.accesskey		"P">
+<!ENTITY itemCookies.label			"Cookie">
+<!ENTITY itemCookies.accesskey			"C">
+<!ENTITY itemCache.label			"キャッシュ">
+<!ENTITY itemCache.accesskey			"a">
+<!ENTITY itemOfflineApps.label			"Web サイトのオフライン作業用データ"><!-- (^^; オフライン Web アプリケーションデータ -->
+<!ENTITY itemOfflineApps.accesskey		"O">
+<!ENTITY itemDownloads.label			"ダウンロード履歴">
+<!ENTITY itemDownloads.accesskey		"D">
+<!ENTITY itemSessions.label			"認証済みのセッション">
+<!ENTITY itemSessions.accesskey			"S">
+<!ENTITY window.width				"30em">

@@ -1,0 +1,25 @@
+<!ENTITY settings.caption		"設定">
+<!ENTITY security.caption		"セキュリティと認証">
+<!ENTITY serverName.label		"サーバ名:">
+<!ENTITY serverName.accesskey		"S">
+<!ENTITY serverDescription.label	"説明:">
+<!ENTITY serverDescription.accesskey	"D">
+<!ENTITY serverPort.label		"ポート番号:">
+<!ENTITY serverPort.accesskey		"P">
+<!ENTITY alwaysUseUsername.label	"ユーザ名とパスワードを使用する">
+<!ENTITY alwaysUseUsername.accesskey	"U">
+<!ENTITY userName.label			"ユーザ名:">
+<!ENTITY userName.accesskey		"m">
+<!ENTITY useSecAuth.label		"保護された認証を使用する">
+<!ENTITY useSecAuth.accesskey		"i">
+<!ENTITY isSecure.label			"保護された接続を使用する:">
+<!ENTITY neverSecure.label		"いいえ">
+<!ENTITY neverSecure.accesskey		"N">
+<!ENTITY sometimesSTARTTLS.label	"STARTTLS (利用可能な場合)">
+<!ENTITY sometimesSTARTTLS.accesskey	"a">
+<!ENTITY alwaysSTARTTLS.label		"STARTTLS">
+<!ENTITY alwaysSTARTTLS.accesskey	"T">
+<!ENTITY alwaysSMTPOverSSL.label	"SMTP-over-SSL">
+<!ENTITY alwaysSMTPOverSSL.accesskey	"L">
+<!ENTITY smtpEditTitle.label		"SMTP サーバ">
+<!ENTITY serverPortDefault.label	"@@DefaultValue@@:">

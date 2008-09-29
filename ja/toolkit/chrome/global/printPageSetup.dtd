@@ -1,0 +1,53 @@
+<!-- extracted from printjoboptions.xul -->
+
+<!ENTITY printSetup.title	"ページ設定">
+
+<!ENTITY basic.tab		"書式とオプション">
+
+<!ENTITY formatGroup.label	"書式">
+
+<!ENTITY orientation.label	"@@Print@@方向:">
+<!ENTITY portrait		"縦">
+<!ENTITY landscape		"横">
+
+<!ENTITY scale.label		"@@Zoom@@:">
+<!ENTITY scalePercent		"&#037;">
+
+<!ENTITY shrinkToFit.label	"用紙に合わせて縮小"><!-- (^^; 長い表現禁止 -->
+
+<!ENTITY optionsGroup.label	"オプション">
+
+<!ENTITY printBG.label		"背景色と背景画像も@@Print@@">
+
+<!ENTITY advanced.tab		"余白とヘッダ/フッタ">
+
+<!ENTITY marginGroup.label	"余白 (#1)">
+<!ENTITY marginUnits.inches	"インチ">
+<!ENTITY marginUnits.metric	"ミリメートル">
+<!ENTITY marginTop.label	"上:">
+<!ENTITY marginBottom.label	"下:">
+<!ENTITY marginLeft.label	"左:">
+<!ENTITY marginRight.label	"右:">
+
+<!ENTITY headerFooter.label	"ヘッダとフッタ">
+
+<!ENTITY hfLeft.label		"左:">
+<!ENTITY hfCenter.label		"中央:">
+<!ENTITY headerLeft.tip		"左ヘッダ">
+<!ENTITY headerCenter.tip	"中央ヘッダ">
+<!ENTITY headerRight.tip	"右ヘッダ">
+<!ENTITY footerLeft.tip		"左フッタ">
+<!ENTITY footerCenter.tip	"中央フッタ">
+<!ENTITY footerRight.tip	"右フッタ">
+
+<!ENTITY hfRight.label		"右:">
+<!ENTITY hfTitle		"タイトル">
+<!ENTITY hfURL			"URL">
+<!ENTITY hfDateAndTime		"日付/時間">
+<!ENTITY hfPage			"ページ #">
+<!ENTITY hfPageAndTotal		"ページ # / #">
+<!ENTITY hfBlank		"--なし--">
+<!ENTITY hfCustom		"ユーザ設定...">
+
+<!ENTITY customPrompt.title	"ユーザ設定...">
+<!ENTITY customPrompt.prompt	"ヘッダ/フッタのテキストを入力してください">

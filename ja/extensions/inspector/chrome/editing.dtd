@@ -1,0 +1,16 @@
+<!ENTITY mnEditUndo.label		"@@Undo@@">
+<!ENTITY mnEditUndo.accesskey		"u">
+<!ENTITY mnEditRedo.label		"@@Redo@@">
+<!ENTITY mnEditRedo.accesskey		"r">
+<!ENTITY mnEditCut.label		"@@Cut@@">
+<!ENTITY mnEditCut.accesskey		"t">
+<!ENTITY mnEditCopy.label		"コピー">
+<!ENTITY mnEditCopy.accesskey		"c">
+<!ENTITY mnEditPaste.label		"@@Paste@@">
+<!ENTITY mnEditPaste.accesskey		"p">
+<!ENTITY mnEditInsert.label		"挿入">
+<!ENTITY mnEditInsert.accesskey		"i">
+<!ENTITY mnEditEdit.label		"編集">
+<!ENTITY mnEditEdit.accesskey		"e">
+<!ENTITY mnEditDelete.label		"削除">
+<!ENTITY mnEditDelete.accesskey		"d">

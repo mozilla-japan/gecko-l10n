@@ -1,0 +1,617 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is OEone Calendar Code, released October 31st, 2001.
+   -
+   - The Initial Developer of the Original Code is
+   - OEone Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s): Garth Smedley <garths@oeone.com>
+   -                 Mike Potter <mikep@oeone.com>
+   -                 Chris Charabaruk <coldacid@meldstar.com>
+   -                 ArentJan Banck <ajbanck@planet.nl>
+   -                 Eric Belhaire <belhaire@ief.u-psud.fr>
+   -                 Matthew Willis <mattwillis@gmail.com>
+   -                 Simon Paquet <bugzilla@babylonsounds.com>
+   -                 Stefan Sitter <ssitter@googlemail.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- General -->
+<!ENTITY calendar.file.default.name  "マイカレンダー">
+
+<!-- Alarm -->
+<!ENTITY alarm.units.minutes  "分">
+<!ENTITY alarm.units.hours    "時">
+<!ENTITY alarm.units.days     "日">
+
+<!ENTITY alarm.units.minutes.singular  "分">
+<!ENTITY alarm.units.hours.singular    "時">
+<!ENTITY alarm.units.days.singular     "日">
+
+<!ENTITY alarm.start.warning     "このアラームには開始日が必要です">
+<!ENTITY alarm.due.warning     "このアラームには期日が必要です">
+
+<!ENTITY repeat.units.occurence.both         "回">
+
+<!-- 未使用 -->
+<!ENTITY repeat.units.days.both         "Day(s)">
+<!ENTITY repeat.units.weeks.both        "Week(s)">
+<!ENTITY repeat.units.months.both       "Month(s)">
+<!ENTITY repeat.units.years.both        "Year(s)">
+
+
+<!ENTITY repeat.units.days     "日">
+<!ENTITY repeat.units.weeks    "週">
+<!ENTITY repeat.units.months   "月">
+<!ENTITY repeat.units.years    "年">
+
+<!ENTITY repeat.units.days.singular    "日">
+<!ENTITY repeat.units.weeks.singular    "週">
+<!ENTITY repeat.units.months.singular   "月">
+<!ENTITY repeat.units.years.singular    "年">
+
+<!ENTITY priority.level.none              "なし">
+<!ENTITY priority.level.none.accesskey    "N">
+<!ENTITY priority.level.low               "低">
+<!ENTITY priority.level.low.accesskey     "L">
+<!ENTITY priority.level.medium            "中">
+<!ENTITY priority.level.medium.accesskey  "M">
+<!ENTITY priority.level.high              "高">
+<!ENTITY priority.level.high.accesskey    "H">
+
+<!ENTITY newevent.title.label        "タイトル">
+<!ENTITY newevent.title.accesskey    "i">
+<!ENTITY newevent.location.label     "ロケーション">
+<!ENTITY newevent.location.accesskey "L">
+<!ENTITY newevent.start.label        "開始">
+<!ENTITY newevent.date.label         "開始日">
+<!ENTITY newevent.date.accesskey     "a">
+<!ENTITY newevent.startdate.label    "開始日">
+<!ENTITY newevent.from.label         "開始日">
+<!ENTITY newevent.from.accesskey     "F">
+<!ENTITY newevent.to.label           "終了日">
+<!ENTITY newevent.to.accesskey       "T">
+<!ENTITY newevent.enddate.label      "終了日">
+<!ENTITY newevent.set.label          "周期の設定...">
+<!ENTITY newevent.set.accesskey      "n">
+<!ENTITY newevent.settings.label     "一般的な設定">
+<!ENTITY newevent.none.label         "なし">
+<!ENTITY newevent.custom.label       "手動設定...">
+<!ENTITY newevent.alldayevent.label  "終日イベント">
+<!ENTITY newevent.alldayevent.accesskey "A">
+<!ENTITY newevent.description.label  "詳細">
+<!ENTITY newevent.uri.label          "URL">
+<!ENTITY newevent.description.accesskey "D">
+<!ENTITY newevent.uri.accesskey      "U">
+<!ENTITY newevent.uri.visit.label    "URL を訪問">
+<!ENTITY newevent.uri.visit.accesskey "V">
+<!ENTITY newevent.before.label       "前">
+<!ENTITY newevent.after.label        "後">
+<!ENTITY newevent.after.label        "after">
+<!ENTITY newevent.private.label      "プライベート">
+<!ENTITY newevent.privacy.accesskey  "P">
+<!ENTITY newevent.privacy.label      "プライバシー">
+<!ENTITY newevent.private.note       "プライベートなイベント">
+<!ENTITY newevent.public.label       "公開">
+<!ENTITY newevent.confidential.label "秘密">
+<!ENTITY newevent.alarm.label        "アラーム">
+<!ENTITY newevent.alarm.accesskey    "m">
+<!ENTITY newevent.server.label       "カレンダー">
+<!ENTITY newevent.server.accesskey   "C">
+<!ENTITY newevent.invite.label       "招待">
+<!ENTITY newevent.details.label      "詳細">
+<!ENTITY newevent.email.label        "通知先メールアドレス:">
+<!ENTITY newevent.beforealarm.label  "イベント開始前">
+<!ENTITY newevent.begin.label        "開始">
+<!ENTITY newevent.end.label          "終了">
+<!ENTITY newevent.isdue.label        "is due">  <!-- 未使用 -->
+<!ENTITY newevent.repeat.label       "次の周期で繰り返す">
+<!ENTITY newevent.repeat.label2      "繰り返す">
+<!ENTITY newevent.repeat2.label      "繰り返す">
+<!ENTITY newevent.repeat2.accesskey  "R">
+<!ENTITY newevent.until.label        "次の期日まで繰り返す">
+<!ENTITY newevent.forever.label      "永久に繰り返す">
+<!ENTITY newevent.numberoftimes.label "次の回数繰り返す">
+<!ENTITY newevent.category.label      "カテゴリ">
+<!ENTITY newevent.popup.label         "ポップアップ">
+<!ENTITY newevent.popupsound.label    "ポップアップとサウンド">
+<!ENTITY newevent.sendmail.label      "Eメールを送信：">
+<!ENTITY newevent.exceptions.caption "例外">
+<!ENTITY newevent.addexceptions.label "例外を追加">
+<!ENTITY newevent.deleteexceptions.label "例外を削除">
+<!ENTITY newevent.endtime.warning    "開始時間が終了時間後です。">
+<!ENTITY newevent.enddate.warning    "開始日が終了日後です。">
+<!ENTITY newevent.repeatdate.tooltip    "終了日を選択してください">
+<!ENTITY newevent.recurend.warning    "終了期間前に繰り返し時間は終了しています。">
+<!ENTITY newevent.15minutes.before.label        "15 分前">
+<!ENTITY newevent.30minutes.before.label        "30 分前">
+<!ENTITY newevent.recurnumberoftimes.warning    "何回繰り返すか指定しなければなりません。">
+<!ENTITY newevent.readonly.item.warning    "これは読み込み専用のカレンダーのアイテムです。編集することができません。">
+<!ENTITY newevent.readonly.cal.warning    "このカレンダーは読み込み専用です。">
+<!ENTITY newevent.recurinterval.warning    "繰り返す頻度を指定しなければなりません。">
+<!ENTITY newevent.endtime.tooltip    "イベントの終了時間を選択してください">
+<!ENTITY newevent.starttimeerror.alertmessage "イベントは開始前に終了することができません。開始時間あるいは終了時間を修正してください。">
+<!ENTITY newevent.recurendtimeerror.alertmessage "イベントの繰り返し時間はイベント終了時間前です。設定を修正するか、繰り返しを無効にしてください。">
+<!ENTITY newevent.general.tab.label         "一般">
+
+<!ENTITY newevent.recurrence.tab.label      "繰り返し">
+<!ENTITY newevent.recurrence.title          "周期の設定">
+<!ENTITY newevent.recurrence.remove.label   "削除">
+<!ENTITY newevent.recurrence.occurs.label   "周期:">
+<!ENTITY newevent.recurrence.day.label      "毎日">
+<!ENTITY newevent.recurrence.week.label     "毎週">
+<!ENTITY newevent.recurrence.weeks.label    "週間隔の">
+<!ENTITY newevent.recurrence.month.label    "毎月">
+<!ENTITY newevent.recurrence.months.label   "月間隔の">
+<!ENTITY newevent.recurrence.year.label     "毎年">
+<!ENTITY newevent.recurrence.on.label       "曜日:">
+<!ENTITY newevent.recurrence.every.label    "間隔:">
+<!ENTITY newevent.recurrence.lastday.label  "最終日">
+<!ENTITY newevent.repeat.onthe.label        "Repeat on the">  <!-- 未使用 -->
+<!ENTITY newevent.repeat.forever.label      "永久に繰り返す">
+<!ENTITY newevent.repeat.for.label          "次の回数繰り返す:">
+<!ENTITY newevent.repeat.until.label        "次の期日まで繰り返す:">
+<!ENTITY newevent.recurrence.exceptions.label    "例外：">
+
+<!ENTITY newevent.attendees.tab.label       "参加者">
+<!ENTITY newevent.attendees.label           "参加者">
+<!ENTITY newevent.attendees.accesskey       "e">
+<!ENTITY calendar.edit.attendees            "参加者を編集">
+<!ENTITY newevent.attachments.tab.label     "添付">
+<!ENTITY newevent.advanced.tab.label        "拡張">
+<!ENTITY newevent.completed.label           "完了">
+<!ENTITY newevent.status.label "ステータス">
+<!ENTITY newevent.status.accesskey "S">
+<!ENTITY newevent.status.longlabel "イベントステータス">
+<!ENTITY newevent.status.needsaction.label "アクションが必要">
+<!ENTITY newevent.status.inprogress.label  "進行中">
+<!ENTITY newevent.status.completed.label   "完了">
+<!ENTITY newevent.status.cancelled.label   "キャンセル">
+<!ENTITY newevent.status.tentative.label   "未確認">
+<!ENTITY newevent.status.confirmed.label   "確認済み">
+<!ENTITY newevent.status.none.label        "なし">
+<!ENTITY newevent.itemType.label            "アイテムの種類">
+<!ENTITY newevent.itemType.event.label      "イベント">
+<!ENTITY newevent.itemType.todo.label       "ToDo">
+<!ENTITY newevent.itemType.journal.label    "日記">
+<!ENTITY newevent.add.contact.label         "追加">
+<!ENTITY newevent.attach.file.label         "ファイルを添付...">
+
+<!ENTITY newevent.removeselectedfile.label "選択ファイルを削除">
+
+<!ENTITY newtodo.completed.label "完了">
+<!ENTITY newtodo.duedate.label "期日">
+<!ENTITY newtodo.duedate.accesskey "t">
+<!ENTITY newtodo.startdate.label "開始日">
+<!ENTITY newtodo.priority.label "優先度">
+<!ENTITY newtodo.priority.accesskey "y">
+<!ENTITY newtodo.percentcomplete.label "&#37;">
+<!ENTITY newtodo.categories.label "カテゴリ">
+<!ENTITY newtodo.categories.accesskey "o">
+<!ENTITY newtodo.starttime.warning "開始日が期日後です。">
+<!ENTITY newtodo.cancelled.label "キャンセル">
+<!ENTITY newtodo.status.label "ステータス">
+<!ENTITY newtodo.beforealarm.label  "タスク開始前">
+<!ENTITY newtodo.beforealarmends.label  "タスク期限前">
+<!ENTITY newtodo.newtodo.tab.label "タスク">
+<!ENTITY newtodo.status.longlabel "タスクステータス">
+<!ENTITY newtodo.duetime.warning    "開始時間が予定時間後です。">
+<!ENTITY newtodo.duedate.warning    "開始日が期日後です。">
+<!ENTITY newtodo.repeatstart.warning "開始日が周期設定に必要です。">
+
+<!ENTITY calendar.confirm.deleteallevents  "選択イベントすべてを削除しますか？">
+<!ENTITY calendar.confirm.deleteevent "このタイトルのイベントを削除しますか: ">
+<!ENTITY calendar.confirm.deleteuntitledevent "タイトルなしのイベントを削除しますか？">
+
+<!ENTITY event.alarm.checkbox.label "次のタイミングで再通知する">
+
+<!ENTITY event.title.alarm         "アラーム">
+<!ENTITY event.title.new         "新しいイベント">
+<!ENTITY event.title.label       "アイテムを編集">
+<!ENTITY event.title.edit        "イベントを編集">
+
+<!ENTITY onthe-text            "その月の ">
+<!ENTITY last-text             "この前の ">
+<!ENTITY ofthemonth-text       " に">
+
+
+<!ENTITY todo.title.new         "新しい ToDo">
+<!ENTITY todo.title.edit        "ToDo を編集">
+
+<!ENTITY event.tip.new         "新しいイベントを作成します。">
+<!ENTITY event.tip.edit        "既存のイベントを編集します。">
+<!ENTITY todo.tip.new         "新しい ToDo を作成します。">
+<!ENTITY todo.tip.edit        "既存の ToDo を編集します。">
+<!ENTITY event.tip.alert       "警告！">
+
+
+<!ENTITY calendar.flat.topbar.new              "新しいイベント">
+<!ENTITY calendar.flat.topbar.gototoday        "今日に移動">
+<!ENTITY calendar.flat.topbar.choosedate       "日付に移動...">
+<!ENTITY calendar.flat.topbar.dayview          "デー 表示">
+<!ENTITY calendar.dayview.accesskey            "D">
+<!ENTITY calendar.flat.topbar.weekview         "ウィーク 表示">
+<!ENTITY calendar.weekview.accesskey           "W">
+<!ENTITY calendar.flat.topbar.monthview        "マンス 表示">
+<!ENTITY calendar.monthview.accesskey          "M">
+<!ENTITY calendar.flat.topbar.multiweekview    "マルチウィーク">
+<!ENTITY calendar.multiweekview.accesskey      "u">
+<!ENTITY calendar.dayView.key                  "1">
+<!ENTITY calendar.weekView.key                 "2">
+<!ENTITY calendar.multiweekView.key            "3">
+<!ENTITY calendar.monthView.key                "4">
+
+<!ENTITY calendar.tools.delete.tooltip         "イベントを削除します">
+<!ENTITY calendar.tools.modify.tooltip         "イベントを修正します">
+
+<!ENTITY calendar.newtask.button.tooltip          "新しい ToDo を作成します">
+<!ENTITY calendar.newevent.button.tooltip         "新しいイベントを作成します">
+<!ENTITY calendar.delete.button.tooltip           "選択イベントを削除します">
+<!ENTITY calendar.edit.button.tooltip             "選択イベントを編集します">
+
+<!ENTITY calendar.unifinder.withalarms.label      "アラームで通知">
+<!ENTITY calendar.unifinder.todayandfuture.label  "過去のイベントを隠す">
+<!ENTITY calendar.unifinder.todoitems.label       " ToDo ">
+<!ENTITY calendar.unifinder.hidecompletedtodos.label "完了した ToDo を隠す">
+
+<!ENTITY calendar.calendartab.label "日付">
+<!ENTITY calendar.listofcalendarstab.label "カレンダーリスト">
+<!ENTITY calendar.gototoday.button.label        "今日に移動">
+
+<!ENTITY calendar.more.label "拡張設定">
+<!ENTITY calendar.less.label "簡易設定">
+
+<!ENTITY calendar.calendarlistbox.label "カレンダー">
+
+<!ENTITY calendar.events.filter.all.label "すべてのイベント">
+<!ENTITY calendar.events.filter.today.label "今日のイベント">
+<!ENTITY calendar.events.filter.week.label "今週のイベント">
+<!ENTITY calendar.events.filter.2weeks.label "翌 2 週のイベント">
+<!ENTITY calendar.events.filter.month.label "翌月のイベント">
+<!ENTITY calendar.events.filter.future.label "今後のすべてのイベント">
+<!ENTITY calendar.events.filter.current.label "選択した日のイベント">
+<!ENTITY calendar.events.filter.next7Days.label "次の 7 日間のイベント">
+<!ENTITY calendar.events.filter.next14Days.label "次の 14 日間のイベント">
+<!ENTITY calendar.events.filter.next31Days.label "次の 31 日間のイベント">
+<!ENTITY calendar.events.filter.thisCalendarMonth.label "今月のイベント">
+
+<!ENTITY calendar.unifinder.tree.done.label          "完了">
+<!ENTITY calendar.unifinder.tree.priority.label      "優先度">
+<!ENTITY calendar.unifinder.tree.title.label         "タイトル">
+<!ENTITY calendar.unifinder.tree.percentcomplete.label "&#37; 完了">
+<!ENTITY calendar.unifinder.tree.startdate.label     "開始日">
+<!ENTITY calendar.unifinder.tree.enddate.label       "終了日">
+<!ENTITY calendar.unifinder.tree.duedate.label       "期日">
+<!ENTITY calendar.unifinder.tree.completeddate.label "完了日">
+<!ENTITY calendar.unifinder.tree.categories.label    "カテゴリ">
+<!ENTITY calendar.unifinder.tree.location.label    "ロケーション">
+<!ENTITY calendar.unifinder.tree.status.label    "ステータス">
+<!ENTITY calendar.unifinder.tree.calendarname.label    "カレンダー名">
+<!ENTITY calendar.find.key  "F">
+
+<!ENTITY calendar.gototoday.button.tooltip        "今日に移動します">
+<!ENTITY calendar.choosedate.button.tooltip       "移動する日を選択します">
+
+<!ENTITY calendar.dayview.button.tooltip          "デー 表示に切り替えます">
+<!ENTITY calendar.weekview.button.tooltip         "ウィーク 表示に切り替えます">
+<!ENTITY calendar.monthview.button.tooltip        "マンス 表示に切り替えます">
+<!ENTITY calendar.multiweekview.button.tooltip        "マルチウィーク 表示に切り替えます">
+
+<!ENTITY calendar.nextday.button.tooltip        "次の日">
+<!ENTITY calendar.prevday.button.tooltip        "前の日">
+<!ENTITY calendar.nextweek.button.tooltip       "次の週">
+<!ENTITY calendar.prevweek.button.tooltip       "前の週">
+<!ENTITY calendar.nextmonth.button.tooltip      "次の月">
+<!ENTITY calendar.prevmonth.button.tooltip      "前の月">
+
+<!ENTITY calendar.newtask.button.label          "新しい ToDo">
+<!ENTITY calendar.newevent.button.label         "新しいイベント">
+<!ENTITY calendar.delete.button.label           "削除">
+<!ENTITY calendar.edit.button.label             "編集">
+
+<!ENTITY calendar.choosedate.button.label       "日付を選択">
+
+<!ENTITY calendar.cut.button.tooltip            "@@Cut@@">
+<!ENTITY calendar.copy.button.tooltip           "コピー">
+<!ENTITY calendar.paste.button.tooltip          "@@Paste@@">
+<!ENTITY calendar.print.button.tooltip          "カレンダー印刷">
+
+<!ENTITY calendar.cut.button.label              "@@Cut@@">
+<!ENTITY calendar.copy.button.label             "コピー">
+<!ENTITY calendar.paste.button.label            "@@Paste@@">
+<!ENTITY calendar.print.button.label            "印刷">
+
+<!ENTITY calendar.import.into.label              "このカレンダーにインポート...">
+<!ENTITY calendar.export.specific.calendar       "このカレンダーをエクスポート...">
+<!ENTITY calendar.import.calendar                "カレンダーにインポート...">
+<!ENTITY calendar.export.calendar                "カレンダーをエクスポート...">
+
+<!ENTITY calendar.import.button.tooltip            "インポート: ローカルファイルからイベントをインポートします">
+<!ENTITY calendar.export.button.tooltip            "エクスポート: ローカルファイルにイベントをエクスポートします">
+<!ENTITY calendar.subscribe.button.tooltip         "購読: リモートマシン上のカレンダーファイルを購読します">
+<!ENTITY calendar.publish.button.tooltip            "公開: リモートマシンにイベントを公開します">
+
+<!ENTITY calendar.import.button.label              "インポート">
+<!ENTITY calendar.export.button.label              "エクスポート">
+<!ENTITY calendar.subscribe.button.label           "購読">
+<!ENTITY calendar.publish.button.label             "公開">
+
+<!ENTITY calendar.localreload.button.label   "ローカルの再読み込み">
+<!ENTITY calendar.localreload.button.tooltip  "このコンピュータのすべてのカレンダーを再読み込みします">
+<!ENTITY calendar.remotereload.button.label   "更新">
+<!ENTITY calendar.remotereload.button.tooltip   "リモートのすべてのカレンダーを再読み込みします">
+
+<!ENTITY calendar.dayview.button.label          "デー">
+<!ENTITY calendar.weekview.button.label         "ウィーク">
+<!ENTITY calendar.monthview.button.label        "マンス">
+<!ENTITY calendar.multiweekview.button.label        "マルチウィーク">
+<!ENTITY calendar.onlyworkday.checkbox.label    "勤務日のみ表示">
+<!ENTITY calendar.onlyworkday.checkbox.accesskey  "r">
+<!ENTITY calendar.displaytodos.checkbox.label   "ビューに ToDo を表示">
+<!ENTITY calendar.displaytodos.checkbox.accesskey "V">
+
+<!ENTITY calendar.menu.options.modify           "修正">
+<!ENTITY calendar.menu.options.remove           "削除">
+<!ENTITY calendar.menu.options.close            "@@Window@@を閉じる">
+<!ENTITY calendar.menu.options.close.mac        "閉じる">
+<!ENTITY calendar.menu.options.close.key        "W">
+<!ENTITY calendar.menu.options.close.accesskey  "C">
+
+<!ENTITY calendar.main.tab.label        "イベント">
+<!ENTITY calendar.search.tab.label      "検索">
+
+<!ENTITY calendar.search.options.searchfor " に含まれる">
+
+<!ENTITY calendar.menu.numberofweeks.label     "週数">
+<!ENTITY calendar.menu.numberofweeks.1      "1 週">
+<!ENTITY calendar.menu.numberofweeks.2      "2 週">
+<!ENTITY calendar.menu.numberofweeks.3      "3 週">
+<!ENTITY calendar.menu.numberofweeks.4      "4 週">
+<!ENTITY calendar.menu.numberofweeks.5      "5 週">
+<!ENTITY calendar.menu.numberofweeks.6      "6 週">
+
+<!-- Month View Entities -->
+<!ENTITY calendar.monthview.column.1.name "日">
+<!ENTITY calendar.monthview.column.2.name "月">
+<!ENTITY calendar.monthview.column.3.name "火">
+<!ENTITY calendar.monthview.column.4.name "水">
+<!ENTITY calendar.monthview.column.5.name "木">
+<!ENTITY calendar.monthview.column.6.name "金">
+<!ENTITY calendar.monthview.column.7.name "土">
+<!ENTITY week.short "W">
+
+<!-- Statusbar -->
+<!ENTITY statusText.label            "ドキュメント: 完了">
+
+<!-- Window Title -->
+<!ENTITY window.title            "Mozilla Calendar">
+
+<!-- customizable toolbars -->
+<!ENTITY calendar.context.customize.label             "カスタマイズ...">
+<!ENTITY calendar.context.customize.accesskey         "C">
+<!ENTITY calendar.menu.customize.label                "ツールバーをカスタマイズ...">
+<!ENTITY calendar.menu.customize.accesskey            "C">
+<!ENTITY calendar.maintoolbar.name                    "メインツールバー">
+<!ENTITY calendar.maintoolbar.accesskey               "M">
+
+<!-- Context Menu -->
+<!ENTITY calendar.context.newevent.label              "新しいイベント...">
+<!ENTITY calendar.context.newevent.accesskey          "N">
+<!ENTITY calendar.context.newtodo.label               "新しい ToDo...">
+<!ENTITY calendar.context.newtodo.accesskey           "k">
+<!ENTITY calendar.context.modifyevent.label           "選択イベントを編集...">
+<!ENTITY calendar.context.modifyevent.accesskey       "E">
+<!ENTITY calendar.context.modifytask.label            "ToDo を編集...">
+<!ENTITY calendar.context.modifytask.accesskey        "E">
+<!ENTITY calendar.context.modifyitem.label            "アイテムを編集">
+<!ENTITY calendar.context.modifyitem.accesskey        "E">
+<!ENTITY calendar.context.deleteevent.label           "選択イベントを削除">
+<!ENTITY calendar.context.deleteevent.accesskey       "l">
+<!ENTITY calendar.context.deletetask.label            "ToDo を削除">
+<!ENTITY calendar.context.deletetask.accesskey        "l">
+<!ENTITY calendar.context.deleteitem.label            "アイテムを削除">
+<!ENTITY calendar.context.deleteitem.accesskey        "l">
+<!ENTITY calendar.context.cutevent.label              "@@Cut@@">
+<!ENTITY calendar.context.cutevent.accesskey          "t">
+<!ENTITY calendar.context.copyevent.label             "コピー">
+<!ENTITY calendar.context.copyevent.accesskey         "C">
+<!ENTITY calendar.context.pasteevent.label            "@@Paste@@">
+<!ENTITY calendar.context.pasteevent.accesskey        "P">
+<!ENTITY calendar.context.selectall.label             "@@SelectAll@@">
+<!ENTITY calendar.context.selectall.accesskey         "A">
+<!ENTITY calendar.context.gototoday.label             "今日に移動">
+<!ENTITY calendar.context.gototoday.accesskey         "T">
+<!ENTITY calendar.context.dayview.label               "デー 表示に切り替える">
+<!ENTITY calendar.context.dayview.accesskey           "D">
+<!ENTITY calendar.context.weekview.label              "ウィーク 表示に切り替える">
+<!ENTITY calendar.context.weekview.accesskey          "W">
+<!ENTITY calendar.context.monthview.label             "マンス 表示に切り替える">
+<!ENTITY calendar.context.monthview.accesskey         "M">
+<!ENTITY calendar.context.multiweekview.label        "マルチウィーク 表示に切り替える">
+<!ENTITY calendar.context.multiweekview.accesskey    "u">
+<!ENTITY calendar.context.reload.label                "再読み込み">
+<!ENTITY calendar.context.reload.accesskey            "R">
+<!ENTITY calendar.context.emailevent.label            "選択イベントをメール">
+<!ENTITY calendar.context.emailevent.accesskey        "i">
+<!ENTITY calendar.context.emailtask.label             "ToDo をメール">
+<!ENTITY calendar.context.emailtask.accesskey         "i">
+
+<!-- Task Context Menu -->
+<!ENTITY calendar.context.progress.label              "進行">
+<!ENTITY calendar.context.progress.accesskey          "P">
+<!ENTITY calendar.context.priority.label              "優先度">
+<!ENTITY calendar.context.priority.accesskey          "r">
+
+<!ENTITY percnt "&#38;#37;"><!--=percent sign-->
+
+<!ENTITY progress.level.0             "0&percnt;">
+<!ENTITY progress.level.0.accesskey   "0">
+<!ENTITY progress.level.25            "25&percnt;">
+<!ENTITY progress.level.25.accesskey  "2">
+<!ENTITY progress.level.50            "50&percnt;">
+<!ENTITY progress.level.50.accesskey  "5">
+<!ENTITY progress.level.75            "75&percnt;">
+<!ENTITY progress.level.75.accesskey  "7">
+<!ENTITY progress.level.100            "100&percnt;">
+<!ENTITY progress.level.100.accesskey  "1">
+                                                                 
+<!-- Server Context Menu -->
+<!ENTITY calendar.context.newserver.label              "新しいカレンダー...">
+<!ENTITY calendar.context.newserver.accesskey          "N">
+<!ENTITY calendar.context.editserver.label             "カレンダーを編集">
+<!ENTITY calendar.context.editserver.accesskey         "E">
+<!ENTITY calendar.context.deleteserver.label           "カレンダーを削除">
+<!ENTITY calendar.context.deleteserver.accesskey       "D">
+<!ENTITY calendar.context.reloadserver.label           "リモートのカレンダーを更新">
+<!ENTITY calendar.context.reloadserver.accesskey       "R">
+<!ENTITY calendar.context.publish.label                "カレンダーを公開...">
+<!ENTITY calendar.context.publish.accesskey            "b">
+<!ENTITY calendar.context.export.label                 "カレンダーをエクスポート...">
+<!ENTITY calendar.context.export.accesskey             "E">
+<!ENTITY calendar.context.properties.label             "プロパティ">
+<!ENTITY calendar.context.properties.accesskey         "P">
+
+<!-- About Dialog -->
+<!ENTITY calendar.about.title "Mozilla Calendar について">
+<!ENTITY calendar.about.tab   "About">  <!-- 未使用 -->
+
+<!ENTITY throbber.tooltip "Mozilla ホームページに移動します">
+<!ENTITY menuBar.tooltip "メニューバー">
+<!ENTITY navigationToolbar.tooltip "ナビゲーションツールバー">
+
+
+<!-- Calendar Alarm Dialog -->
+<!ENTITY calendar.alarm.acknowledge.label           "承認">
+<!ENTITY calendar.alarm.editevent.label             "イベントを編集">
+<!ENTITY calendar.alarm.acknowledgeall.label        "すべてのアラームを承認">
+<!ENTITY calendar.alarm.snooze.label                "スヌーズする">
+<!ENTITY calendar.alarm.title.label                "カレンダーアラーム">
+<!ENTITY calendar.alarm.dismiss.label               "無視する">
+<!ENTITY calendar.alarm.dismissall.label            "すべて無視する">
+<!ENTITY calendar.alarm.for.label  "次の通知まで">
+<!ENTITY calendar.alarm.5minutes  "5 分">
+<!ENTITY calendar.alarm.15minutes  "15 分">
+<!ENTITY calendar.alarm.30minutes  "30 分">
+<!ENTITY calendar.alarm.1hour  "1 時間">
+<!ENTITY calendar.alarm.1day  "1 日">
+
+
+<!-- Calendar Server Dialog -->
+<!ENTITY calendar.server.dialog.title.new           "新しいカレンダーファイル">
+<!ENTITY calendar.server.dialog.title.open          "カレンダーファイルを開く">
+<!ENTITY calendar.server.dialog.title.edit          "カレンダーを編集">
+<!ENTITY calendar.server.dialog.name.label          "名前">
+<!ENTITY calendar.server.dialog.publish.label       "自動的に変更を公開しますか？サーバにある新しいカレンダーをダウンロードして、追加や編集、イベント削除を行い、その新しいファイルをアップロードします。">
+<!ENTITY calendar.server.dialog.location.label      "ロケーション">
+<!ENTITY calendar.server.dialog.local.location.label "ローカルファイルのフォルダ">
+<!ENTITY calendar.server.dialog.browse.label        "ファイルをブラウズ...">
+<!ENTITY calendar.server.dialog.help.label          "ローカルファイルパスを入力してください。 URL (例: http://www.mozilla.org/projects/calendar/caldata/CanadaHolidays.ics) を入力することもできます。">
+<!ENTITY calendar.local.calendar.dialog.help.label  "カレンダーファイルの作成フォルダを任意に指定することができます。">
+<!ENTITY calendar.local.calendar.dialog.optional.label "次のフィールドはサーバへカレンダーを公開するときに使用するオプションです。">
+
+<!-- Calendar Properties -->
+<!ENTITY calendarproperties.color.label    "色:">
+<!ENTITY calendarproperties.webdav.label   "iCalendar (ICS)">
+<!ENTITY calendarproperties.caldav.label   "CalDAV">
+<!ENTITY calendarproperties.wcap.label     "Sun Java System Calendar Server (WCAP)">
+<!ENTITY calendarproperties.format.label   "フォーマット:">
+<!ENTITY calendarproperties.location.label "場所:">
+<!ENTITY calendarproperties.name.label     "名前:">
+<!ENTITY calendarproperties.readonly.label "読み込み専用">
+
+<!-- Sunbird Help -->
+<!ENTITY calendar.help.label               "ヘルプ目次">
+
+<!-- Calendar Publish Dialog -->
+<!ENTITY calendar.publish.dialog.title              "カレンダーを公開">
+<!ENTITY calendar.publish.url.label                 "公開 URL">
+<!ENTITY calendar.publish.publish.button      "公開">
+<!ENTITY calendar.publish.close.button      "閉じる">
+
+<!ENTITY calendar.publish.example.url.description   "例: http://www.myserver.com/webdav/test.ics">
+
+<!-- Select Calendar Dialog -->
+<!ENTITY calendar.select.dialog.title    "カレンダーを選択">
+
+<!-- TRANSLATORS: this label must be short to keep a reasonable column width in the week view -->
+<!ENTITY allDayEvents.label "終日イベント">
+
+<!-- Calendar Wizard Dialog -->
+<!ENTITY calendar.wizard.import.label              "インポート: ローカルファイルから既存のカレンダーにイベントをインポートします。">
+<!ENTITY calendar.wizard.export.label              "エクスポート: 既存のカレンダーからローカルファイルにイベントをエクスポートします。">
+<!ENTITY calendar.wizard.subscribe.label           "購読: サーバ上(インターネット上)のカレンダーを購読します。">  <!-- 未使用 -->
+<!ENTITY calendar.wizard.publish.label             "公開: サーバ上(インターネット上) の購読している人たちにイベントを公開します。">  <!-- 未使用 -->
+
+<!-- Calendar Import Outlook CSV Dialog -->
+<!-- TRANSLATORS: all outlook*.label -fields should be translated word to word (or if possible
+                  copied from outlook csv file headers -->
+<!ENTITY calendar.importoutlook.dialog.title "Outlook CSV のインポート">
+<!ENTITY calendar.importoutlook.mapconcepts.label "Outlook CSV を以下のカレンダー項目に対応させてください:">
+<!ENTITY calendar.importoutlook.outlooksubject.label "件名">
+<!ENTITY calendar.importoutlook.outlookstartdate.label "開始日">
+<!ENTITY calendar.importoutlook.outlookstarttime.label "開始時刻">
+<!ENTITY calendar.importoutlook.outlookenddate.label "終了日">
+<!ENTITY calendar.importoutlook.outlookendtime.label "終了時刻">
+<!ENTITY calendar.importoutlook.outlooklocation.label "場所">
+<!ENTITY calendar.importoutlook.outlookdescription.label "内容">
+<!ENTITY calendar.importoutlook.outlookallday.label "終日イベント">
+<!ENTITY calendar.importoutlook.outlookprivate.label "プライベート">
+<!ENTITY calendar.importoutlook.outlookalarm.label "アラーム オン/オフ">
+<!ENTITY calendar.importoutlook.outlookalarmdate.label "アラーム日付">
+<!ENTITY calendar.importoutlook.outlookalarmtime.label "アラーム時刻">
+<!ENTITY calendar.importoutlook.outlookcategories.label "分類">
+<!ENTITY calendar.importoutlook.selectmeaning.label "方法を選択してください:">
+<!ENTITY calendar.importoutlook.true.label "有効">
+<!ENTITY calendar.importoutlook.false.label "無効">
+
+<!-- Calendar Printing -->
+<!ENTITY calendar.print.window.title "カレンダー印刷">
+<!ENTITY calendar.print.title.label "タイトル:">
+<!ENTITY calendar.print.layout.label "レイアウト:">
+<!ENTITY calendar.print.range.label "印刷範囲">
+<!ENTITY calendar.print.currentview.label "表示しているイベント">
+<!ENTITY calendar.print.selected.label "選択したイベント">
+<!ENTITY calendar.print.custom.label "日付で範囲を指定:">
+<!ENTITY calendar.print.from.label "開始日:">
+<!ENTITY calendar.print.to.label "終了日:">
+<!ENTITY calendar.print.settingsGroup.label "印刷の設定">
+
+<!-- Error reporting -->
+<!ENTITY calendar.error.detail "詳細...">
+<!ENTITY calendar.error.number "エラー番号：">
+<!ENTITY calendar.error.description "記述：">
+<!ENTITY calendar.error.title "エラーが発生しました">
+
+
+<!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
+<!ENTITY mainWindow.title "&brandFullName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifiermenuseparator " - ">
+
