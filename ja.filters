@@ -1,0 +1,336 @@
+#		filter definition for langpack
+
+
+ja.general.useragent.locale		= ja
+ja-JP-mac.general.useragent.locale	= ja-JP-mac
+
+
+
+#
+#	symbol
+#
+ja.[					= [
+ja.]					= ]
+
+#ja-JP-mac.[				= 「
+#ja-JP-mac.]				= 」
+ja-JP-mac.[				= “
+ja-JP-mac.]				= ”
+
+
+#
+#	general words
+#
+# 文字エンコーディング、エンコード、文字コード、テキストエンコーディング
+CharacterEncoding			= 文字エンコーディング
+
+# プロポーショナル 可変幅 可変長
+Proportional				= プロポーショナル
+# Serif セリフ 明朝 明朝系
+Serif					= 明朝体 (Serif)
+# Sans-serif サンセリフ ゴシック ゴシック系
+Sans-serif				= ゴシック体 (Sans-serif)
+# モノスペース 等幅 固定幅
+Monospace				= 等幅 (Monospace)
+
+
+# 普通デフォルトだが Win は既定が慣例
+ja.Default				= 既定
+ja.Default-				= 既定の
+ja.DefaultApplication			= 既定のプログラム
+ja.DefaultBrowser			= 既定のブラウザ
+ja.DefaultColor				= 既定の色
+ja.DefaultClient			= 既定のクライアント
+ja.DefaultFolder			= 既定のフォルダ
+ja.DefaultFont				= 既定のフォント
+ja.DefaultSetting			= 既定の設定
+ja.DefaultValue				= 既定値
+ja.RestoreDefaults			= 既定値に戻す
+
+ja-JP-mac.Default			= デフォルト
+ja-JP-mac.Default-			= デフォルト
+ja-JP-mac.DefaultApplication		= デフォルトのアプリケーション
+ja-JP-mac.DefaultBrowser		= デフォルト Web ブラウザ
+ja-JP-mac.DefaultColor			= デフォルトカラー
+ja-JP-mac.DefaultClient			= デフォルトクライアント
+ja-JP-mac.DefaultFolder			= デフォルトフォルダ
+ja-JP-mac.DefaultFont			= デフォルトフォント
+ja-JP-mac.DefaultSetting		= デフォルト設定
+ja-JP-mac.DefaultValue			= デフォルト
+ja-JP-mac.RestoreDefaults		= デフォルトに戻す
+
+
+# アプリケーションソフトのことを Win では(主に)プログラム、Mac ではアプリケーション
+# 関連づけやプラグイン、連携ソフトについての記述でのみ使い分け
+ja.Application				= プログラム
+ja.Program				= プログラム
+ja-JP-mac.Application			= アプリケーション
+ja-JP-mac.Program			= アプリケーション
+
+
+# その他一般に使用される用語の区別
+ja.Color				= 色
+ja.Colors				= 配色
+ja.Window				= ウィンドウ
+ja.Front				= 前面
+ja.Back					= 背面
+ja.Property				= プロパティ
+ja.ViewProperty				= プロパティを表示
+ja.Print				= 印刷
+ja.Top					= 最前面
+ja.TrashFolder				= ごみ箱
+ja.Wizard				= ウィザード
+
+ja-JP-mac.Color				= カラー
+ja-JP-mac.Colors			= カラー
+ja-JP-mac.Window			= ウインドウ
+ja-JP-mac.Front				= 手前
+ja-JP-mac.Back				= 後ろ
+ja-JP-mac.Property			= 情報
+ja-JP-mac.ViewProperty			= 情報を見る
+ja-JP-mac.Print				= プリント
+ja-JP-mac.Top				= 一番手前
+ja-JP-mac.TrashFolder			= ゴミ箱
+ja-JP-mac.Wizard			= アシスタント
+
+
+#
+#	general commands
+#
+# コマンドやメニュー名(またはそれを指す場合)にのみ使用。
+Revert					= 入力の取り消し
+Clear					= 消去
+ClearAll				= すべてを消去
+
+
+ja.BringAllToFront			= すべてを前面に移動
+ja.Browse				= 参照
+# ウィンドウを対象とした閉じるコマンドのみ
+ja.CloseCMD				= 閉じる
+ja.Cut					= 切り取り
+ja.FullScreen				= 全画面表示
+ja.Minimize				= 最小化
+ja.Paste				= 貼り付け
+ja.PropertyCMD				= プロパティ
+ja.Redo					= やり直し
+ja.SelectAll				= すべて選択
+ja.Undo					= 元に戻す
+ja.Zoom					= 拡大/縮小
+
+# Mac OS X 10.4 or earlier: 取り消し 10.5 or later: 取り消す
+ja-JP-mac.BringAllToFront		= すべてを手前に移動
+ja-JP-mac.Browse			= 選択
+ja-JP-mac.CloseCMD			= ウインドウを閉じる
+ja-JP-mac.Cut				= カット
+ja-JP-mac.FullScreen			= フルスクリーン
+ja-JP-mac.Minimize			= しまう
+ja-JP-mac.Paste				= ペースト
+ja-JP-mac.PropertyCMD			= 情報を見る
+# Mac OS X 10.4 or earlier: やり直し 10.5 or later: やり直す
+ja-JP-mac.Redo				= やり直す
+ja-JP-mac.SelectAll			= すべてを選択
+ja-JP-mac.Undo				= 取り消す
+ja-JP-mac.Zoom				= 拡大／縮小
+
+
+ja.New-CMD				= 新しい
+ja.NewAccount				= 新しいアカウント
+ja.NewAddressBook			= 新しいアドレス帳
+ja.NewBookmark				= 新しいブックマーク
+ja.NewCard				= 新しいカード
+ja.NewDirectory				= 新しいディレクトリ
+ja.NewFolder				= 新しいフォルダ
+ja.NewList				= 新しいリスト
+ja.NewLiveBookmark			= 新しいライブブックマーク
+ja.NewMessage				= 新しいメッセージ
+ja.NewProfile				= 新しいプロファイル
+ja.NewSubFolder				= 新しいサブフォルダ
+ja.NewTab				= 新しいタブ
+ja.NewTag				= 新しいタグ
+ja.NewWindow				= 新しいウィンドウ
+
+ja-JP-mac.New-CMD			= 新規
+ja-JP-mac.NewAccount			= 新規アカウント
+ja-JP-mac.NewAddressBook		= 新規アドレス帳
+ja-JP-mac.NewBookmark			= 新規ブックマーク
+ja-JP-mac.NewCard			= 新規カード
+ja-JP-mac.NewDirectory			= 新規ディレクトリ
+ja-JP-mac.NewFolder			= 新規フォルダ
+ja-JP-mac.NewList			= 新規リスト
+ja-JP-mac.NewLiveBookmark		= 新規ライブブックマーク
+ja-JP-mac.NewMessage			= 新規メッセージ
+ja-JP-mac.NewProfile			= 新規プロファイル
+ja-JP-mac.NewSubFolder			= 新規サブフォルダ
+ja-JP-mac.NewTab			= 新規タブ
+ja-JP-mac.NewTag			= 新規タグ
+ja-JP-mac.NewWindow			= 新規ウインドウ
+
+
+ja.SaveAs				= 名前を付けて保存
+ja.SaveFrameAs				= 名前を付けてフレームを保存
+ja.SaveImageAs				= 名前を付けて画像を保存
+ja.SaveLinkTargetAs			= 名前を付けてリンク先を保存
+ja.SaveMessageAs			= 名前を付けてメッセージを保存
+ja.SavePageAs				= 名前を付けてページを保存
+
+ja-JP-mac.SaveAs			= 別名で保存
+ja-JP-mac.SaveFrameAs			= 別名でフレームを保存
+ja-JP-mac.SaveImageAs			= 別名で画像を保存
+ja-JP-mac.SaveLinkTargetAs		= 別名でリンク先を保存
+ja-JP-mac.SaveMessageAs			= 別名でメッセージを保存
+ja-JP-mac.SavePageAs			= 別名でページを保存
+
+
+# Import/Export の使い分け
+ja.-ImportCMD				= のインポート
+ja.Import				= インポート
+ja.ImportNoun				= インポート
+ja.Import-sare				= インポートされ
+ja.Import-sinai				= インポートしない
+ja.Import-simasu			= インポートします
+ja.Import-simasita			= インポートしました
+ja.Import-sita				= インポートした
+ja.Import-site				= インポートして
+ja.Import-suru				= インポートする
+# Mac OS X 10.4 or earlier: 読み込み 10.5 or later: 読み込む
+ja-JP-mac.-ImportCMD			= を読み込む
+ja-JP-mac.Import			= 読み込む
+ja-JP-mac.ImportNoun			= 読み込み
+ja-JP-mac.Import-sare			= 読み込まれ
+ja-JP-mac.Import-sinai			= 読み込まない
+ja-JP-mac.Import-simasu			= 読み込みます
+ja-JP-mac.Import-simasita		= 読み込みました
+ja-JP-mac.Import-sita			= 読み込んだ
+ja-JP-mac.Import-site			= 読み込んで
+ja-JP-mac.Import-suru			= 読み込む
+
+ja.-ExportCMD				= のエクスポート
+ja.Export				= エクスポート
+ja.ExportNoun				= エクスポート
+# Mac OS X 10.4 or earlier: 書き出し 10.5 or later: 書き出す
+ja-JP-mac.-ExportCMD			= を書き出す
+ja-JP-mac.Export			= 書き出す
+ja-JP-mac.ExportNoun			= 書き出し
+
+
+
+#
+#	default name
+#
+ja.NewFolderDefault			= 新しいフォルダ
+ja-JP-mac.NewFolderDefault		= 名称未設定フォルダ
+
+
+
+#	[ browser module ]
+
+browser.credits.dtd			= <ul>\
+					  <li>Mozilla Japan</li>\
+					  <li>Tomoya Asai</li>\
+					  <li>Shaw Hosaka</li>\
+					  <li>Joji Ikeda</li>\
+					  <li>Masahiko Imanaka</li>\
+					  <li>Kosuke Kaizuka</li>\
+					  <li>Hidehiro Kozawa</li>\
+					  <li>Takeshi Nishimura</li>\
+					  <li>Atsushi Sakai</li>\
+					  </ul>
+
+#browser.credits.dtd			= <ul>\
+#					  <li>Mozilla Japan</li>\
+#					  <li>Makoto Arai</li>\
+#					  <li>Tomoya Asai</li>\
+#					  <li>Hideyuki EMURA</li>\
+#					  <li>Shaw Hosaka</li>\
+#					  <li>Joji Ikeda</li>\
+#					  <li>Masahiko Imanaka</li>\
+#					  <li>Kosuke Kaizuka</li>\
+#					  <li>Hidehiro Kozawa</li>\
+#					  <li>Teiji Matsuba</li>\
+#					  <li>Shigeki Narisawa</li>\
+#					  <li>Takeshi Nishimura</li>\
+#					  <li>Toshiyuki Oka</li>\
+#					  <li>Atsushi Sakai</li>\
+#					  <li>Hiroshi Sekiya</li>\
+#					  <li>Youhei Tooyama</li>\
+#					  <li>Satoru Yamaguchi</li>\
+#					  </ul>
+
+#	[ mail module ]
+
+mail.credits.dtd			= <ul>\
+					  <li>Mozilla Japan</li>\
+					  <li>Makoto Arai</li>\
+					  <li>Tomoya Asai</li>\
+					  <li>Hideyuki EMURA</li>\
+					  <li>Shaw Hosaka</li>\
+					  <li>Joji Ikeda</li>\
+					  <li>Masahiko Imanaka</li>\
+					  <li>Kosuke Kaizuka</li>\
+					  <li>Hidehiro Kozawa</li>\
+					  <li>Teiji Matsuba</li>\
+					  <li>Shigeki Narisawa</li>\
+					  <li>Takeshi Nishimura</li>\
+					  <li>Atsushi Sakai</li>\
+					  <li>Hiroshi Sekiya</li>\
+					  <li>Youhei Tooyama</li>\
+					  <li>Satoru Yamaguchi</li>\
+					  </ul>
+
+
+
+#	[ toolkit module ]
+
+# toolkit/chrome/global/finddialog.dtd
+firefox.finddialog.findDialog.title	= このページ内で検索
+thunderbird.finddialog.findDialog.title	= このメッセージ内を検索
+sunbird.finddialog.findDialog.title	= このページ内で検索
+
+
+# security/manager/chrome/pippki/pippki.dtd
+firefox.pippki.resetPassword.text	= マスターパスワードをリセットすると、保存されているすべての Web やメールのパスワード、フォームデータ、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？
+thunderbird.pippki.resetPassword.text	= マスターパスワードをリセットすると、保存されているすべてのメールパスワード、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？
+sunbird.pippki.resetPassword.text	= マスターパスワードをリセットすると、保存されているすべてのメールパスワード、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？
+
+
+
+# toolkit/chrome/global/customizeToolbar.dtd
+ja.customizeToolbar.nstructions.description		= ドラッグ &amp; ドロップによりツールバーのアイテムを追加、削除や移動できます。
+ja-JP-mac.customizeToolbar.nstructions.description	= よく使う項目をツールバーにドラッグしてください...
+
+
+# toolkit/chrome/global/customizeToolbar.properties
+ja.customizeToolbar.separatorTitle		= 区切り
+ja-JP-mac.customizeToolbar.separatorTitle	= 区切り線
+
+
+# toolkit/chrome/global/intl.css
+intl.css.common				= \
+					/* see bug-jp 4303 */\n\
+					#autoSelectLastProfile {\n  \
+					  white-space: nowrap;\n\
+					}\n\
+					\n\
+					/* not to show scroll bar in the reporter form */\n\
+					#reportForm #description {\n  \
+					  max-height: 6.8em;\n\
+					}\n
+
+ja.intl.css.locale			= \
+					/* workaround for Vista's Meiryo font */\n\
+					#aboutDialog #userAgent {\n  \
+					  min-height: 5em;\n\
+					}\n
+
+
+ja-JP-mac.intl.css.locale		= 
+
+
+# toolkit/chrome/mozapps/downloads/downloads.properties
+ja.downloads.stateBlocked		= 保護者による制限でブロックされました
+ja-JP-mac.downloads.stateBlocked	= ペアレンタルコントロールによりブロックされました
+ja.downloads.monthDate			= #1#2日
+ja-JP-mac.downloads.monthDate		= #1 #2
+
+
+
