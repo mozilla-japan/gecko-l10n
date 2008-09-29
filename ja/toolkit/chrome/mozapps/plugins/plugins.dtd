@@ -21,3 +21,5 @@
 <!ENTITY pluginWizard.finalPage.restart.label			"プラグインを有効にするには &brandShortName; を再起動する必要があります。">
 
 <!ENTITY missingPlugin.label					"ここをクリックするとプラグインをダウンロードします。">
+<!ENTITY disabledPlugin.label					"このコンテンツのためのプラグインは無効化されています。設定を変更するにはここをクリックしてください。">
+<!ENTITY blockedPlugin.label					"このプラグインは安全のためにブロックされました。">
