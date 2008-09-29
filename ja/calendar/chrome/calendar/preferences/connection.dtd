@@ -39,26 +39,19 @@
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
 
-<!ENTITY pref.showConnections.label      "接続設定...">
-<!ENTITY pref.showConnections.accesskey  "o">
-<!ENTITY pref.proxiesInfo.label          "インターネット接続に使用するプロキシを設定します。">
-<!ENTITY pref.connectionsInfo.caption    "接続">
-
 <!ENTITY  connectionsDialog.title       "接続設定">
 <!ENTITY  window.width                  "43em">
 <!ENTITY  window.macWidth               "43em">
 
 <!ENTITY  proxyTitle.label              "インターネット接続">
-<!ENTITY  directTypeRadio.label         "インターネットに直接接続する">
+<!ENTITY  directTypeRadio.label         "プロキシを使用しない"><!-- prev: インターネットに直接接続する -->
 <!ENTITY  directTypeRadio.accesskey     "d">
 <!ENTITY  WPADTypeRadio.label           "このネットワークのプロキシ設定を自動検出する">
 <!ENTITY  WPADTypeRadio.accesskey       "w">
 <!ENTITY  manualTypeRadio.label         "手動でプロキシを設定する:">
 <!ENTITY  manualTypeRadio.accesskey     "m">
 <!ENTITY  autoTypeRadio.label           "自動プロキシ設定スクリプト URL:">
-<!ENTITY  autoTypeRadio.accesskey       "a">
-<!ENTITY  configAutoconfigText.label    "">
-<!ENTITY  configAutoconfigText.accesskey "">
+<!ENTITY  autoTypeRadio.accesskey       "A">
 <!ENTITY  reload.label                  "再読み込み">
 <!ENTITY  reload.accesskey              "e">
 <!ENTITY  ftp.label                     "FTP プロキシ:">
@@ -82,7 +75,7 @@
 <!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
 <!ENTITY  gopherPort.accesskey          "">
 <!ENTITY  SOCKSport.accesskey           "t">
-<!ENTITY  noproxy.label                 "直接接続するサーバ:">
+<!ENTITY  noproxy.label                 "プロキシなしで接続:"><!-- prev: 直接接続するサイト: -->
 <!ENTITY  noproxy.accesskey             "n">
 <!ENTITY  noproxyExplain.label          "例: .mozilla.org, .net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "すべてのプロトコルでこのプロキシを使用する">

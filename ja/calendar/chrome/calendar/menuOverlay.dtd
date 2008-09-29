@@ -23,6 +23,9 @@
    -                 Chris Charabaruk <coldacid@meldstar.com>
    -                 Matthew Willis <mattwillis@gmail.com>
    -                 Stefan Sitter <ssitter@googlemail.com>
+   -                 Berend Cornelius <berend.cornelius@sun.com>
+   -                 Philipp Kewisch <mozilla@kewis.ch>
+   -                 Simon Paquet <bugzilla@babylonsounds.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -39,67 +42,46 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!-- Event Menu -->
-<!ENTITY event.menu.title                       "イベント">
-<!ENTITY eventMenuCmd.accesskey                 "v">
-
-<!ENTITY event.new.event                        "新しいイベント...">
+<!ENTITY event.new.event                        "@@NewEvent@@...">
 <!ENTITY event.new.event.key                    "N">
 <!ENTITY event.new.event.accesskey              "N">
 
-<!ENTITY event.new.todo                         "新しい ToDo...">
+<!ENTITY event.new.todo                         "@@NewTask@@...">
 <!ENTITY event.new.todo.key                     "T">
 <!ENTITY event.new.todo.accesskey               "T">
 
-<!ENTITY calendar.new.server.label              "新しいカレンダー...">
+<!ENTITY calendar.new.server.label              "@@NewCalendar@@...">
 <!ENTITY calendar.new.server.key                "L">
 <!ENTITY calendar.new.server.accesskey          "l">
 
-<!ENTITY calendar.new.journal.label              "新しい日記...">
-<!ENTITY calendar.new.journal.key                "J">
-<!ENTITY calendar.new.journal.accesskey          "j">
-
 <!ENTITY calendar.open.file.label               "カレンダーファイルを開く...">
 <!ENTITY calendar.open.file.key                 "O">
-<!ENTITY calendar.open.file.accesskey "O">
+<!ENTITY calendar.open.file.accesskey           "O">
 
 <!ENTITY event.edit.event                       "編集...">
 <!ENTITY event.edit.event.key                   "E">
 <!ENTITY event.edit.event.accesskey             "E">
 
-<!ENTITY event.delete.event                     "選択イベントを削除">
+<!ENTITY event.delete.event                     "選択した予定を削除">
 <!ENTITY event.delete.event.accesskey           "D">
 
 <!ENTITY event.delete.tasks                     "選択 ToDo を削除">
 <!ENTITY event.delete.tasks.accesskey           "T">
 
-<!ENTITY event.mail.event                       "選択イベントを送信...">
-<!ENTITY event.mail.event.key                   "M">
-<!ENTITY event.mail.event.accesskey             "M">
-
-<!ENTITY calendar.print.label                   "印刷...">
+<!ENTITY calendar.print.label                   "@@Print@@...">
 <!ENTITY calendar.print.key                     "P">
 <!ENTITY calendar.print.accesskey               "P">
-
-<!ENTITY calendar.printpreview.label            "印刷プレビュー">
-<!ENTITY calendar.printpreview.accesskey        "v">
 
 <!ENTITY calendar.pagesetup.label               "ページ設定...">
 <!ENTITY calendar.pagesetup.accesskey           "u">
 
-<!ENTITY calendar.import.label                  "ファイルからインポート...">
+<!ENTITY calendar.import.label                  "ファイルから@@Import@@...">
 <!ENTITY calendar.import.key                    "I">
 <!ENTITY calendar.import.accesskey              "I">
 
-<!ENTITY calendar.wizard.label                  "@@Wizard@@起動">
-<!ENTITY calendar.wizard.accesskey              "W">
-
-<!ENTITY calendar.export.label                  "選択イベントをエクスポート...">
-<!ENTITY calendar.export.accesskey              "E">
-
-<!ENTITY calendar.export.calendar.label         "カレンダーをエクスポート...">
+<!ENTITY calendar.export.calendar.label         "カレンダーを@@Export@@...">
 <!ENTITY calendar.export.calendar.accesskey     "E">
-
-<!ENTITY calendar.export.selection.label        "選択イベントをエクスポート...">
+<!ENTITY calendar.export.selection.label        "選択した予定を@@Export@@...">
 <!ENTITY calendar.export.selection.accesskey    "S">
 
 <!ENTITY calendar.subscribe.label               "別のカレンダーを購読...">
@@ -109,32 +91,26 @@
 <!ENTITY calendar.reloadserver.key              "R">
 <!ENTITY calendar.reloadserver.accesskey        "R">
 
-<!ENTITY calendar.publish.label                 "選択イベントを公開...">
-<!ENTITY calendar.publish.accesskey             "S">
-
+<!ENTITY calendar.publish.label                 "選択した予定を公開...">
+<!ENTITY calendar.publish.accesskey             "b">
 <!ENTITY calendar.publish.calendar.label        "カレンダーを公開...">
 <!ENTITY calendar.publish.calendar.accesskey    "b">
-
-<!ENTITY calendar.publish.selection.label       "選択イベントを公開...">
+<!ENTITY calendar.publish.selection.label       "選択した予定を公開...">
 <!ENTITY calendar.publish.selection.accesskey   "c">
 
 <!ENTITY calendar.quit.label                    "終了">
 <!ENTITY calendar.quit.accesskey                "Q">
+<!ENTITY calendar.quit.key                      "Q">
 <!ENTITY calendar.quit.label.mac                "Quit &brandShortName;">
-<!ENTITY calendar.quit.key.mac                  "Q">
-<!ENTITY calendar.quit.modifiers.mac            "accel">
 
 <!ENTITY calendar.exit.label                    "終了">
 <!ENTITY calendar.exit.accesskey                "x">
-
-<!ENTITY calendar.about.label                   "Calendar について">
-<!ENTITY calendar.about.accesskey               "C">
 
 <!ENTITY calendar.undo.label                    "@@Undo@@">
 <!ENTITY calendar.undo.key                      "Z">
 <!ENTITY calendar.undo.accesskey                "u">
 
-<!ENTITY calendar.redo.label                    "やり直し">
+<!ENTITY calendar.redo.label                    "@@Redo@@">
 <!ENTITY calendar.redo.key                      "Y">
 <!ENTITY calendar.redo.accesskey                "r">
 
@@ -158,33 +134,36 @@
 <!ENTITY toolbarsMenu.accesskey                 "T">
 
 <!ENTITY calendar.toolbar.label                 "カレンダーツールバー">
+<!ENTITY calendar.toolbar.accesskey             "T">
+<!ENTITY task.toolbar.label                     "ToDo ツールバー">
+<!ENTITY task.toolbar.accesskey                 "b">
 
-<!ENTITY calendar.menu.customize.label          "詳細設定...">
+<!ENTITY mode.toolbar.label                     "モードツールバー">
+<!ENTITY mode.toolbar.accesskey                 "M">
+
+<!ENTITY calendar.menu.customize.label          "カスタマイズ...">
 <!ENTITY calendar.menu.customize.accesskey      "C">
-
-<!ENTITY calendar.preferences.label             "設定">
-<!ENTITY calendar.preferences.accesskey         "e">
-
-<!ENTITY showSearchToolbarCmd.label             "検索バー">
-<!ENTITY showSearchToolbarCmd.accesskey         "S">
 
 <!ENTITY showStatusBarCmd.label                 "ステータスバー">
 <!ENTITY showStatusBarCmd.accesskey             "B">
 
-<!ENTITY showTaskBoxCmd.label                   "ToDoリスト">
+<!ENTITY showTaskBoxCmd.label                   "ToDo リスト">
 <!ENTITY showTaskBoxCmd.accesskey               "L">
 
-<!ENTITY calendar.displaytodos.checkbox.label       "カレンダーにToDoを表示">
+<!ENTITY showUnifinderCmd.label                 "予定を検索">
+<!ENTITY showUnifinderCmd.accesskey             "F">
+
+<!ENTITY calendar.displaytodos.checkbox.label       "ToDo を表示">
 <!ENTITY calendar.displaytodos.checkbox.accesskey   "T">
 
-<!ENTITY calendar.menu.numberofweeks.label      "マルチウィークの週数">
+<!ENTITY calendar.menu.numberofweeks.label      "多週表示の週数">
 <!ENTITY calendar.menu.numberofweeks.2          "2週">
 <!ENTITY calendar.menu.numberofweeks.3          "3週">
 <!ENTITY calendar.menu.numberofweeks.4          "4週">
 <!ENTITY calendar.menu.numberofweeks.5          "5週">
 <!ENTITY calendar.menu.numberofweeks.6          "6週">
 
-<!ENTITY calendar.fullscreen.label              "全画面">
+<!ENTITY calendar.fullscreen.label              "@@FullScreen@@">
 <!ENTITY calendar.fullscreen.accesskey          "F">
 
 <!ENTITY calendar.addons.label                  "アドオン">
@@ -193,36 +172,28 @@
 <!ENTITY goMenu.label                           "移動">
 <!ENTITY goMenu.accesskey                       "G">
 
-<!ENTITY goTodayCmd.label                       "今日へ移動">
+<!ENTITY goTodayCmd.label                       "今日に移動">
 <!ENTITY goTodayCmd.accesskey                   "T">
 
-<!ENTITY goDateCmd.label                        "日付に移動">
+<!ENTITY goDateCmd.label                        "日付に移動...">
 <!ENTITY goDateCmd.accesskey                    "D">
 
-<!ENTITY goPreviousCmd.day.label                "前日">
-<!ENTITY goPreviousCmd.week.label               "先週">
-<!ENTITY goPreviousCmd.month.label              "先月">
+<!-- (^a^) 基準は、今日/今週/今月 ではなくて 選択されている日/週/月 -->
+<!ENTITY goPreviousCmd.day.label                "前の日">
+<!ENTITY goPreviousCmd.week.label               "前の週">
+<!ENTITY goPreviousCmd.month.label              "前の月">
 <!ENTITY goPreviousCmd.accesskey                "P">
 
-<!ENTITY goNextCmd.day.label                    "明日">
-<!ENTITY goNextCmd.week.label                   "次週">
-<!ENTITY goNextCmd.month.label                  "次月">
-<!ENTITY goNextCmd.accesskey                    "N">
-
-<!ENTITY taskMenu.label                         "タスク">
-<!ENTITY taskMenu.accesskey                     "k">
+<!ENTITY goNextCmd.day.label                    "次の日">
+<!ENTITY goNextCmd.week.label                   "次の週">
+<!ENTITY goNextCmd.month.label                  "次の月">
+<!ENTITY goNextCmd.all.accesskey                "e">
 
 <!ENTITY toolsMenu.label                        "ツール">
 <!ENTITY toolsMenu.accesskey                    "T">
 
 <!ENTITY errorConsoleCmd.label                  "エラーコンソール">
 <!ENTITY errorConsoleCmd.accesskey              "C">
-
-<!ENTITY navigatorCmd.label                     "ブラウザ">
-<!ENTITY navigatorCmd.accesskey                 "B">
-
-<!ENTITY messengerCmd.label                     "メール">
-<!ENTITY messengerCmd.accesskey                 "M">
 
 <!ENTITY addressBookCmd.label                   "アドレス帳">
 <!ENTITY addressBookCmd.accesskey               "A">
@@ -233,9 +204,6 @@
            for the help button in the menubar but Gnome does not.   -->
 <!ENTITY helpMenuWin.label                      "ヘルプ"> 
 <!ENTITY helpMenuWin.accesskey                  "H">
-
-<!ENTITY walletPasswordManager.label            "パスワードマネージャ">
-<!ENTITY walletPasswordManager.accesskey        "p">
 
 <!-- Toolbar items -->
 <!ENTITY fileMenu.label                         "ファイル">
@@ -258,11 +226,13 @@
 <!ENTITY releaseCmd.accesskey                   "R">
 <!ENTITY aboutCmd.label                         "&brandFullName; について">
 <!ENTITY aboutCmd.accesskey                     "A">
+<!ENTITY updateCmd.label                        "ソフトウェアの更新を確認...">
+<!ENTITY updateCmd.accesskey                    "o">
 
 <!-- Mac OS X "Window" menu items -->
 <!ENTITY windowMenu.label                       "@@Window@@">
 <!ENTITY minimizeWindow.label                   "@@Minimize@@">
-<!ENTITY zoomWindow.label                       "ズーム">
+<!ENTITY zoomWindow.label                       "@@Zoom@@">
 <!ENTITY minimizeWindow.key                     "M">
 <!ENTITY bringAllToFront.label                  "@@BringAllToFront@@">
 
@@ -275,3 +245,11 @@
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
 <!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
 <!ENTITY showAllAppsCmdMac.label        "すべてを表示">
+
+<!ENTITY calendar.importcalendar.label          "カレンダーを@@Import@@...">
+
+<!ENTITY showCurrentView.label                  "表示形式">
+<!ENTITY showCurrentView.accesskey              "V">
+
+<!ENTITY calendar.properties.label              "@@PropertyCMD@@..."> <!-- calendar propertie -->
+<!ENTITY calendar.properties.accesskey          "C">

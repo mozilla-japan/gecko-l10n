@@ -59,7 +59,9 @@
 <!ENTITY time.22 "午後 10 時" >
 <!ENTITY time.23 "午後 11 時" >
 
-<!-- Month Names -->
+<!-- Day Names -->
+<!-- LOCALIZATION NOTE : Accesskeys for day.1.Ddd to day.7.Ddd are currently
+     only used in Preferences > Views > Workweek groupbox -->
 <!ENTITY day.1.Ddd "日" >
 <!ENTITY day.1.Ddd.accesskey "S">
 <!ENTITY day.2.Ddd "月" >
@@ -75,14 +77,6 @@
 <!ENTITY day.7.Ddd "土" >
 <!ENTITY day.7.Ddd.accesskey "a">
 
-<!ENTITY day.1.DDD "SUN" >
-<!ENTITY day.2.DDD "MON" >
-<!ENTITY day.3.DDD "TUE" >
-<!ENTITY day.4.DDD "WED" >
-<!ENTITY day.5.DDD "THU" >
-<!ENTITY day.6.DDD "FRI" >
-<!ENTITY day.7.DDD "SAT" >
-
 <!ENTITY day.1.name "日曜日" >
 <!ENTITY day.2.name "月曜日" >
 <!ENTITY day.3.name "火曜日" >
@@ -91,40 +85,30 @@
 <!ENTITY day.6.name "金曜日" >
 <!ENTITY day.7.name "土曜日" >
 
-<!ENTITY time.am "午前" >
-<!ENTITY time.pm "午後" >
-
-<!ENTITY month.1.MMM "1 月" >
-<!ENTITY month.2.MMM "2 月" >
-<!ENTITY month.3.MMM "3 月" >
-<!ENTITY month.4.MMM "4 月" >
-<!ENTITY month.5.MMM "5 月" >
-<!ENTITY month.6.MMM "6 月" >
-<!ENTITY month.7.MMM "7 月" >
-<!ENTITY month.8.MMM "8 月" >
-<!ENTITY month.9.MMM "9 月" >
-<!ENTITY month.10.MMM "10月" >
-<!ENTITY month.11.MMM "11月" >
-<!ENTITY month.12.MMM "12月" >
-
-<!ENTITY time.AM "午前" >
-<!ENTITY time.PM "午後" >
-
-<!ENTITY more.label "詳細" >
-<!ENTITY less.label "簡易" >
-
 <!-- Units -->
-<!ENTITY calendar.global.units.second   "秒">
-<!ENTITY calendar.global.units.seconds  "秒">
 <!ENTITY calendar.global.units.minute   "分">
 <!ENTITY calendar.global.units.minutes  "分">
 <!ENTITY calendar.global.units.hour     "時間">
 <!ENTITY calendar.global.units.hours    "時間">
 <!ENTITY calendar.global.units.day      "日">
 <!ENTITY calendar.global.units.days     "日">
-<!ENTITY calendar.global.units.week     "週">
-<!ENTITY calendar.global.units.weeks    "週">
-<!ENTITY calendar.global.units.month    "月">
-<!ENTITY calendar.global.units.months   "月">
-<!ENTITY calendar.global.units.year     "年">
-<!ENTITY calendar.global.units.years    "年">
+
+<!ENTITY month.1.name "1月" >
+<!ENTITY month.2.name "2月" >
+<!ENTITY month.3.name "3月" >
+<!ENTITY month.4.name "4月" >
+<!ENTITY month.5.name "5月" >
+<!ENTITY month.6.name "6月" >
+<!ENTITY month.7.name "7月" >
+<!ENTITY month.8.name "8月" >
+<!ENTITY month.9.name "9月" >
+<!ENTITY month.10.name "10月" >
+<!ENTITY month.11.name "11月" >
+<!ENTITY month.12.name "12月" >
+
+<!ENTITY onemonthbackward.tooltip "前の月へ移動します" >
+<!ENTITY onemonthforward.tooltip "次の月へ移動します" >
+<!ENTITY showToday.tooltip "今日へ移動します">
+<!ENTITY onedayforward.tooltip "次の日へ移動します">
+<!ENTITY onedaybackward.tooltip "前の日へ移動します">
+<!ENTITY showselectedday.tooltip "選択した日の予定を表示します">

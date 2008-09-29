@@ -11,13 +11,14 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is Sun Microsystems code.
+   - The Original Code is Calendar migration code.
    -
-   - The Initial Developer of the Original Code is Sun Microsystems.
+   - The Initial Developer of the Original Code is
+   -   Joey Minta <jminta@gmail.com>
    - Portions created by the Initial Developer are Copyright (C) 2006
    - the Initial Developer. All Rights Reserved.
    -
-   - Contributor(s): Thomas Benisch <thomas.benisch@sun.com>
+   - Contributor(s):
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -31,8 +32,10 @@
    - the provisions above, a recipient may use your version of this file under
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
-   - ***** END LICENSE BLOCK *****
--->
+   - ***** END LICENSE BLOCK ***** -->
 
-<!-- Messenger Sidebar -->
-<!ENTITY lightning.sidebar.invitations.label "Invitations">
+<!ENTITY migration.title "&brandFullName;: データの@@ImportNoun@@">
+<!ENTITY migration.welcome "データの@@ImportNoun@@の開始">
+<!ENTITY migration.importing "@@ImportNoun@@">
+<!ENTITY migration.list.description "&brandShortName; は他の@@Application@@からデータを@@ImportNoun@@できます。以下の@@Application@@のデータが見つかりました。どのデータを@@Import-suru@@か選択してください。">
+<!ENTITY migration.progress.description "選択したデータの@@ImportNoun@@">

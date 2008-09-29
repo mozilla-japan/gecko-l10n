@@ -33,22 +33,22 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY wizard.title             "新しいカレンダー">
-<!ENTITY wizard.label             "新しいカレンダーを作成します">
-<!ENTITY wizard.description       "カレンダーの保存先">
+<!ENTITY wizard.title             "@@NewCalendar@@" >
+<!ENTITY wizard.label             "@@NewCalendar@@を作成します" >
+<!ENTITY wizard.description       "カレンダーの保存先" >
 
 <!-- ENTITY initialpage.description    "カレンダーをあなたのコンピュータに保存するか、サーバに保存することでリモートからアクセスしたり友人や同僚と共有することができます。" -->
 <!ENTITY initialpage.description    "カレンダーをこのコンピュータに保存するか、サーバに保存することができます。サーバのカレンダーはリモートからアクセスしたり、友人や同僚と共有することができます。">
 <!ENTITY initialpage.computer.label	"このコンピュータに保存する">
 <!ENTITY initialpage.network.label	"ネットワークのサーバに保存する">
 
-<!ENTITY locationpage.description         "リモートのカレンダーに接続するために必要な情報を入力してください。">
-<!ENTITY locationpage.login.description   "オプション: ユーザ名とパスワードを入力">
-<!ENTITY locationpage.username.label      "ユーザ名:">
-<!ENTITY locationpage.password.label      "パスワード:">
+<!ENTITY locationpage.description         "リモートのカレンダーに接続するために必要な情報を入力してください。" >
+<!ENTITY locationpage.login.description   "オプション: ユーザ名とパスワードを入力" >
+<!ENTITY locationpage.username.label      "ユーザ名:" >
+<!ENTITY locationpage.password.label      "パスワード:" >
 
-<!ENTITY custompage.shortdescription  "カレンダーをカスタマイズ">
-<!ENTITY custompage.longdescription   "カレンダーにニックネームをつけたり、このカレンダーのイベントに色付けをすることができます。">
+<!ENTITY custompage.shortdescription  "カレンダーをカスタマイズ" >
+<!ENTITY custompage.longdescription   "カレンダーにニックネームをつけたり、このカレンダーの予定に色付けをすることができます。" >
 
-<!ENTITY finishpage.shortdescription  "カレンダーの作成が完了">
-<!ENTITY finishpage.longdescription   "カレンダーが作成されました。">
+<!ENTITY finishpage.shortdescription  "カレンダーの作成が完了" >
+<!ENTITY finishpage.longdescription   "カレンダーが作成されました。" >

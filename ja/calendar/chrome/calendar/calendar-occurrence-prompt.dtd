@@ -11,15 +11,14 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is Mozilla Calendar Preferences
+   - The Original Code is Sun Microsystems code.
    -
    - The Initial Developer of the Original Code is
-   - Matthew Willis
-   - Portions created by the Initial Developer are Copyright (C) 2006
+   -   Philipp Kewisch <mozilla@kewis.ch>
+   - Portions created by the Initial Developer are Copyright (C) 2008
    - the Initial Developer. All Rights Reserved.
    -
-   - Contributor(s): 
-   -   Cédric Corazza <cedric.corazza@wanadoo.fr>
+   - Contributor(s):
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -35,20 +34,6 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!-- WARNING! This file contains UTF-8 encoded characters!
-   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
-   - your editor isn't using UTF-8 encoding and may munge up the document!
-  -->
-
-<!ENTITY pref.mainbox.label "一般設定" >
-<!ENTITY pref.dateformat.label "日付の形式:" >
-<!ENTITY pref.dateformat.accesskey "D">
-<!ENTITY pref.dateformat.long "長い形式" >
-<!ENTITY pref.dateformat.short "短い形式"  >
-<!ENTITY pref.defaultlength.label   "予定の@@Default-@@期間:" >
-<!ENTITY pref.defaultlength.accesskey "E">
-<!ENTITY pref.defaultsnoozelength.label   "アラーム再通知の@@Default-@@間隔:" >
-<!ENTITY pref.defaultsnoozelength.accesskey "S">
-<!ENTITY pref.refreshbox.label "更新の設定" >
-<!ENTITY pref.autorefresh.label "すべてのカレンダーを更新する間隔:" >
-<!ENTITY pref.autorefresh.accesskey "R" >
+<!ENTITY buttons.occurrence.accesskey "t">
+<!ENTITY buttons.allfollowing.accesskey "f">
+<!ENTITY buttons.parent.accesskey "a">
