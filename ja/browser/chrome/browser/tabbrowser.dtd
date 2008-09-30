@@ -16,3 +16,4 @@
 <!ENTITY  bookmarkThisTab.accesskey	"B">
 <!ENTITY  undoCloseTab.label		"閉じたタブを元に戻す">
 <!ENTITY  undoCloseTab.accesskey	"U">
+<!ENTITY  newTabButton.tooltip		"@@NewTab@@を開きます">
