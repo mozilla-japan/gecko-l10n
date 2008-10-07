@@ -7,7 +7,7 @@
 <!ENTITY helpMenuWin.accesskey		"H">
 <!ENTITY releaseCmd.label		"リリースノート">
 <!ENTITY releaseCmd.accesskey		"R">
-<!ENTITY openHelp.label			"ヘルプ目次">
+<!ENTITY openHelp.label			"&brandShortName; ヘルプ">
 <!ENTITY openHelp.accesskey		"H">
 <!ENTITY openHelp.commandkey		"VK_F1">
 <!ENTITY openHelpMac.label		"&brandShortName; ヘルプ">
