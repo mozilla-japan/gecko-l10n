@@ -115,6 +115,7 @@ ja.PropertyCMD				= プロパティ
 ja.Redo					= やり直し
 ja.SelectAll				= すべて選択
 ja.Undo					= 元に戻す
+ja.Undo-simasu				= 元に戻します
 ja.Zoom					= 拡大/縮小
 
 # Mac OS X 10.4 or earlier: 取り消し 10.5 or later: 取り消す
@@ -130,6 +131,7 @@ ja-JP-mac.PropertyCMD			= 情報を見る
 ja-JP-mac.Redo				= やり直す
 ja-JP-mac.SelectAll			= すべてを選択
 ja-JP-mac.Undo				= 取り消す
+ja-JP-mac.Undo-simasu			= 取り消します
 ja-JP-mac.Zoom				= 拡大／縮小
 
 

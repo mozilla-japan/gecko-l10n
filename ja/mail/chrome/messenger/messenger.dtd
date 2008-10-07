@@ -106,12 +106,12 @@
 <!ENTITY accountManagerCmd.label	"アカウント設定...">
 <!ENTITY accountManagerCmd.accesskey	"c">
 <!ENTITY accountManagerCmdUnix.accesskey "A">
-<!ENTITY undoDeleteMsgCmd.label		"メッセージの削除を@@Undo@@">
-<!ENTITY redoDeleteMsgCmd.label		"メッセージの削除の@@Redo@@">
-<!ENTITY undoMoveMsgCmd.label		"メッセージの移動を@@Undo@@">
-<!ENTITY redoMoveMsgCmd.label		"メッセージの移動の@@Redo@@">
-<!ENTITY undoCopyMsgCmd.label		"メッセージのコピーを@@Undo@@">
-<!ENTITY redoCopyMsgCmd.label		"メッセージのコピーの@@Redo@@">
+<!ENTITY undoDeleteMsgCmd.label		"@@Undo@@ - メッセージの削除">
+<!ENTITY redoDeleteMsgCmd.label		"@@Redo@@ - メッセージの削除">
+<!ENTITY undoMoveMsgCmd.label		"@@Undo@@ - メッセージの移動">
+<!ENTITY redoMoveMsgCmd.label		"@@Redo@@ - メッセージの移動">
+<!ENTITY undoCopyMsgCmd.label		"@@Undo@@ - メッセージのコピー">
+<!ENTITY redoCopyMsgCmd.label		"@@Redo@@ - メッセージのコピー">
 <!ENTITY undoDefaultCmd.label		"@@Undo@@">
 <!ENTITY undoDefaultCmd.accesskey	"U">
 <!ENTITY redoDefaultCmd.label		"@@Redo@@">
@@ -474,7 +474,7 @@
 <!ENTITY goForwardButton.tooltip	"メッセージ表示履歴を次に進みます"><!-- 一つ次以外も -->
 <!ENTITY goBackButton.tooltip		"メッセージ表示履歴を前に戻ります"><!-- 一つ前以外も -->
 <!ENTITY deleteButton.tooltip		"メッセージまたはフォルダを削除します">
-<!ENTITY undeleteButton.tooltip		"メッセージの削除を@@Undo@@します">
+<!ENTITY undeleteButton.tooltip		"メッセージの削除を@@Undo-simasu@@">
 <!ENTITY markButton.tooltip		"メッセージにマークを付けます">
 <!ENTITY printButton.tooltip		"メッセージを@@Print@@します">
 <!ENTITY stopButton.tooltip		"送受信処理を中止します">
@@ -687,10 +687,10 @@
 <!ENTITY preferencesCmdMac.commandkey	",">
 <!ENTITY preferencesCmdMac.modifiers	"accel">
 <!ENTITY servicesMenuMac.label		"サービス">
-<!ENTITY hideThisAppCmdMac.label	"&brandShortName; をしまう">
+<!ENTITY hideThisAppCmdMac.label	"&brandShortName; を隠す">
 <!ENTITY hideThisAppCmdMac.commandkey	"H">
 <!ENTITY hideThisAppCmdMac.modifiers	"accel">
-<!ENTITY hideOtherAppsCmdMac.label	"他をしまう">
+<!ENTITY hideOtherAppsCmdMac.label	"ほかを隠す">
 <!ENTITY hideOtherAppsCmdMac.commandkey	"H">
 <!ENTITY hideOtherAppsCmdMac.modifiers	"accel,alt">
-<!ENTITY showAllAppsCmdMac.label	"すべて表示">
+<!ENTITY showAllAppsCmdMac.label	"すべてを表示">
