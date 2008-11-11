@@ -22,9 +22,8 @@
 <!ENTITY printButton.tooltip		"このページを@@Print@@します">
 <!ENTITY closeWindow.commandkey		"W">
 
-<!ENTITY searchtab.label		"検索">
-<!ENTITY searchtab.accesskey		"S">
-<!ENTITY searchClose.tooltip		"検索結果を閉じる">
+<!ENTITY search.emptytext		"検索">
+<!ENTITY searchHeader.label		"検索結果">
 <!ENTITY toctab.label			"目次">
 <!ENTITY toctab.accesskey		"C">
 

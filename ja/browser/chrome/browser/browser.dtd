@@ -7,7 +7,10 @@
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
-
+<!-- LOCALIZATION NOTE (mainWindowPrivateBrowsing.titlemodifier): This will be appended to the window's title
+                                                                  inside the private browsing mode -->
+<!ENTITY mainWindowPrivateBrowsing.titlemodifier "&mainWindow.titlemodifier; (プライベートブラウジング)">
+ 
 <!ENTITY tabCmd.label			"@@NewTab@@"><!-- 表示カ所によりアクセスキーが異なる -->
 <!ENTITY tabCmd.accesskey		"T">
 <!ENTITY tabCmd.commandkey		"t">
@@ -158,8 +161,11 @@
 <!ENTITY preferencesCmdUnix.label	"設定">
 <!ENTITY preferencesCmdUnix.accesskey	"n">
 
-<!ENTITY clearPrivateDataCmd.label	"プライバシー情報の消去">
-<!ENTITY clearPrivateDataCmd.accesskey	"P">
+<!ENTITY clearRecentHistoryCmd.label	"最近の履歴を消去">
+<!ENTITY clearRecentHistoryCmd.accesskey	"H">
+
+<!ENTITY privateBrowsingCmd.label	"プライベートブラウジング">
+<!ENTITY privateBrowsingCmd.accesskey	"B">
 
 <!ENTITY viewMenu.label			"表示">
 <!ENTITY viewMenu.accesskey		"V">
@@ -233,10 +239,12 @@
 <!ENTITY viewPageInfoCmd.accesskey	"I">
 <!ENTITY viewFrameInfoCmd.label		"フレームの情報を表示">
 <!ENTITY viewFrameInfoCmd.accesskey	"I">
-<!ENTITY showImageCmd.label		"画像を読み込む">
-<!ENTITY showImageCmd.accesskey		"S">
+<!ENTITY reloadImageCmd.label		"画像を再読み込み">
+<!ENTITY reloadImageCmd.accesskey	"R">
 <!ENTITY viewImageCmd.label		"画像だけを表示">
 <!ENTITY viewImageCmd.accesskey		"I">
+<!ENTITY viewVideoCmd.label		"ビデオだけを表示">
+<!ENTITY viewVideoCmd.accesskey		"I">
 <!ENTITY viewBGImageCmd.label		"背景画像だけを表示">
 <!ENTITY viewBGImageCmd.accesskey	"w">
 <!ENTITY setDesktopBackgroundCmd.label		"デスクトップの背景に設定...">
@@ -264,8 +272,16 @@
 <!ENTITY sendLinkCmd.accesskey		"d">
 <!ENTITY saveImageCmd.label		"@@SaveImageAs@@...">
 <!ENTITY saveImageCmd.accesskey		"v">
+<!ENTITY saveVideoCmd.label		"@@SaveVideoAs@@...">
+<!ENTITY saveVideoCmd.accesskey		"v">
+<!ENTITY saveAudioCmd.label		"@@SaveAudioAs@@...">
+<!ENTITY saveAudioCmd.accesskey		"v">
 <!ENTITY sendImageCmd.label		"画像をメールで送信...">
 <!ENTITY sendImageCmd.accesskey		"n">
+<!ENTITY sendVideoCmd.label		"ビデオをメールで送信...">
+<!ENTITY sendVideoCmd.accesskey		"n">
+<!ENTITY sendAudioCmd.label		"オーディオをメールで送信...">
+<!ENTITY sendAudioCmd.accesskey		"n">
 <!ENTITY copyLinkCmd.label		"リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey		"a">
 <!ENTITY copyLinkTextCmd.label		"リンクテキストをコピー">
@@ -274,6 +290,10 @@
 <!ENTITY copyImageCmd.accesskey		"o">
 <!ENTITY copyImageContentsCmd.label	"画像をコピー">
 <!ENTITY copyImageContentsCmd.accesskey	"y">
+<!ENTITY copyVideoURLCmd.label		"ビデオの URL をコピー">
+<!ENTITY copyVideoURLCmd.accesskey	"o">
+<!ENTITY copyAudioURLCmd.label		"オーディオの URL をコピー">
+<!ENTITY copyAudioURLCmd.accesskey	"o">
 <!ENTITY blockImageCmd.accesskey	"B">
 <!ENTITY metadataCmd.label		"@@PropertyCMD@@">
 <!ENTITY metadataCmd.accesskey		"P">
@@ -281,6 +301,21 @@
 <!ENTITY copyEmailCmd.accesskey		"E">
 <!ENTITY thisFrameMenu.label		"このフレーム">
 <!ENTITY thisFrameMenu.accesskey	"h">
+
+<!-- Media (video/audio) controls -->
+<!ENTITY mediaPlay.label		"再生">
+<!ENTITY mediaPlay.accesskey		"P">
+<!ENTITY mediaPause.label		"一時停止">
+<!ENTITY mediaPause.accesskey		"P">
+<!ENTITY mediaMute.label		"ミュート">
+<!ENTITY mediaMute.accesskey		"M">
+<!ENTITY mediaUnmute.label		"ミュート解除">
+<!ENTITY mediaUnmute.accesskey		"m">
+<!ENTITY mediaShowControls.label	"コントロールを表示">
+<!ENTITY mediaShowControls.accesskey	"C">
+<!ENTITY mediaHideControls.label	"コントロールを隠す">
+<!ENTITY mediaHideControls.accesskey	"C">
+
 
 <!-- LOCALIZATION NOTE :
 fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
@@ -301,8 +336,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY fullZoomResetCmd.label		"リセット">
 <!ENTITY fullZoomResetCmd.accesskey	"R">
-<!ENTITY fullZoomResetCmd.commandkey    "0">
-<!ENTITY fullZoomResetCmd.commandkey2   "">
+<!ENTITY fullZoomResetCmd.commandkey	"0">
+<!ENTITY fullZoomResetCmd.commandkey2	"">
 
 <!ENTITY fullZoomToggleCmd.label	"文字サイズだけ変更"><!-- (^^; -->
 <!ENTITY fullZoomToggleCmd.accesskey	"T">
@@ -393,3 +428,5 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity.moreInfoLinkText		"詳細を表示...">
 
 <!ENTITY downloadMonitor2.tooltip		"クリックするとダウンロード@@Window@@を開きます">
+
+<!ENTITY ctrlTab.search.emptyText		"タブを検索">

@@ -1,0 +1,18 @@
+<!ENTITY restorepage.tabtitle       "セッションの復元">
+<!ENTITY restorepage.pagetitle      "前回終了時の状態を復元しますか？">
+<!-- LOCALIZATION NOTE: If "closed unexpectedly" sounds too awkward in the translation,
+                        you may translate "crash" instead (even though it's IT-speak) -->
+<!ENTITY restorepage.issueDesc      "&brandShortName; は前回正常に終了されませんでした。ご迷惑をおかけして申し訳ありません。前回終了時の@@Window@@とタブを復元するか、必要なければ状態を復元せず新しいセッションで起動してください。">
+<!ENTITY restorepage.remedies       "&brandShortName; が繰り返し異常終了してしまう場合:">
+<!ENTITY restorepage.dueToChrome    "アドオンマネージャで最近追加した拡張機能を無効化してみてください。">
+<!ENTITY restorepage.dueToContent   "問題の原因と思われる Web ページ以外の状態を復元してみてください:">
+
+<!ENTITY restorepage.restoreButton  "前回終了時の状態を復元">
+<!ENTITY restorepage.restore.access "R">
+<!ENTITY restorepage.cancelButton   "状態を復元せずに起動">
+<!ENTITY restorepage.cancel.access  "S">
+
+<!ENTITY restorepage.restoreHeader  "復元">
+<!ENTITY restorepage.listHeader     "@@Window@@ とタブ">
+<!-- LOCALIZATION NOTE: &#37;S will be replaced with a number. -->
+<!ENTITY restorepage.windowLabel    "@@Window@@ &#37;S">

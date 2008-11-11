@@ -48,6 +48,7 @@
 
 <!ENTITY filterPrefs.label	"フィルタ:">
 <!ENTITY filterPrefs.accesskey	"F">
+<!ENTITY focusFilter.key	"f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label	"設定名">
