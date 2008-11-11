@@ -20,7 +20,7 @@ was trying to connect. -->
 <!ENTITY certerror.getMeOutOfHere.label		"ホームページに戻る">
 
 <!ENTITY certerror.expert.heading		"危険性を理解して通信">
-<!ENTITY certerror.expert.content		"何が起きていて何が問題なのか理解できているのであれば、このサイトの証明書を信頼するよう &brandShortName; にセキュリティ例外を追加することもできます。<b>但し、たとえサイトが信頼できるサイトであっても、このエラーが表示されるのは誰かが通信を改ざんしている可能性があるということです。</b>">
+<!ENTITY certerror.expert.content		"何が起きていて何が問題なのか理解できているのであれば、このサイトの証明書を信頼するよう &brandShortName; にセキュリティ例外を追加することもできます。<b>ただし、たとえサイトが信頼できるサイトであっても、このエラーが表示されるのは誰かが通信を改ざんしている可能性があるということです。</b>">
 <!ENTITY certerror.expert.contentPara2		"このサイトが信頼できる証明書を使用しないもっともな理由がない限り、例外として追加しないでください。">
 <!ENTITY certerror.addException.label		"例外を追加...">
 
