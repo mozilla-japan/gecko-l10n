@@ -113,6 +113,7 @@
 <!ENTITY insecureUpdate.label			"このアドオンには安全な更新方法が用意されていません。">
 <!ENTITY needsDependencies.label		"このアドオンの動作に必要なアドオンがありません。">
 <!ENTITY blocklisted.label			"ユーザ保護のために無効化されています。">
+<!ENTITY softBlocklisted.label			"セキュリティまたは安定性に問題を生じることが知られています。">
 <!ENTITY toBeDisabled.label			"このアドオンは &brandShortName; の再起動後に無効になります。">
 <!ENTITY toBeEnabled.label			"このアドオンは &brandShortName; の再起動後に有効になります。">
 <!ENTITY toBeInstalled.label			"このアドオンは &brandShortName; の再起動後にインストールされます。">
@@ -169,3 +170,6 @@
 <!ENTITY eula.width				"560px">
 <!ENTITY eula.height				"400px">
 <!ENTITY eula.accept				"同意してインストール...">
+
+<!ENTITY blocklist.blocked.label		"ブロックされています">
+<!ENTITY blocklist.checkbox.label		"無効化">

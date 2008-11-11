@@ -71,6 +71,11 @@
 <!ENTITY cmd.edit_redo.accesskey		"R">
 <!ENTITY cmd.edit_redo.key			"y">
 
+<!ENTITY cmd.delete.label			"このページを削除">
+<!ENTITY cmd.delete.accesskey			"D">
+<!ENTITY cmd.deleteDomainData.label		"このサイトの履歴を消去">
+<!ENTITY cmd.deleteDomainData.accesskey		"F">
+
 <!ENTITY cmd.open.label				"開く">
 <!ENTITY cmd.open.accesskey			"O">
 <!ENTITY cmd.open_window.label			"@@NewWindow@@で開く">
