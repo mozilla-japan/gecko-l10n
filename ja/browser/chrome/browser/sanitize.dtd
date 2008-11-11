@@ -6,12 +6,6 @@
 
 <!-- XXX rearrange entities to match physical layout when l10n isn't an issue -->
 
-<!ENTITY itemHistory.label			"表示したページの履歴">
-<!ENTITY itemHistory.accesskey			"B">
-<!ENTITY itemFormSearchHistory.label		"保存されているフォーム情報と検索語句">
-<!ENTITY itemFormSearchHistory.accesskey	"F">
-
-
 <!ENTITY clearDuration.label			"履歴を消去する期間: ">
 <!ENTITY clearDuration.lastHour			"1 時間以内">
 <!ENTITY clearDuration.last2Hours		"2 時間以内">
