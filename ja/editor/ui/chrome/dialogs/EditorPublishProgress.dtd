@@ -43,8 +43,6 @@
 
 <!ENTITY status.label			"アップロードしています...">
 <!ENTITY fileList.label			"アップロードの状況">
-<!ENTITY statusHeader.label		"結果">
-<!ENTITY filenameHeader.label		"ファイル名">
 <!ENTITY succeeded.label		"成功">
 <!ENTITY failed.label			"失敗">
 

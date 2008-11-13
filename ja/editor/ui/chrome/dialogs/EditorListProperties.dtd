@@ -53,7 +53,6 @@
 <!ENTITY bulletList.value		"行頭文字付きリスト">
 <!ENTITY numberList.value		"番号付きリスト">
 <!ENTITY definitionList.value		"定義リスト">
-<!ENTITY changeListMsg.label		"リストの種類を変更するとき:">
 <!ENTITY changeEntireListRadio.label	"リスト全体を変更する">
 <!ENTITY changeEntireListRadio.accessKey "C">
 <!ENTITY changeSelectedRadio.label	"選択された項目だけを変更する">

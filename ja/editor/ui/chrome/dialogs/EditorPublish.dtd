@@ -76,10 +76,8 @@
 <!ENTITY filename.accesskey		"F">
 <!ENTITY filename.tooltip		"Web ページの '.html' も含めて、このファイルのファイル名を入力します">
 <!ENTITY filenameExample.label		"例: &quot;mypage.html&quot;">
-<!ENTITY relatedDocs.label		"アップロードする他のファイル">
 <!ENTITY setDefaultButton.label		"@@DefaultValue@@に設定">
 <!ENTITY setDefaultButton.accesskey	"D">
-<!ENTITY setDefSiteAndDir.label		"サイトとディレクトリを@@DefaultValue@@に設定">
 <!ENTITY removeButton.label		"サイトを削除">
 <!ENTITY removeButton.accesskey		"R">
 

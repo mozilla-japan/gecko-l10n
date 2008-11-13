@@ -20,7 +20,7 @@
    - the Initial Developer. All Rights Reserved.
    - 
    - Contributor(s):
-   -   Charles Manxke (cmanske@netscape.com)
+   -   Charles Manske (cmanske@netscape.com)
    - 
    - Translated to Japanese by
    -   Kazu Yamamoto <kazu@mozilla.gr.jp>
@@ -44,9 +44,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label     "画像とリンクの場所を確認">
-<!ENTITY urlsNotFound.label    "以下の画像またはリンクの場所が見つかりませんでした:">
-<!ENTITY notFoundKey.label     "(&quot;X&quot; = ファイルが見つかりません, &quot;?&quot; = 接続を試みましたがタイムアウトしました)">
-<!ENTITY changeUrlButton.label "選択した項目の場所を変更">
 <!ENTITY succeeded.label       "成功">
 <!ENTITY failed.label          "失敗">
 <!ENTITY closeButton.label     "閉じる">

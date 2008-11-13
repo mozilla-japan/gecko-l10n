@@ -69,7 +69,6 @@
 <!ENTITY tableCaptionNone.label		"なし">
 <!ENTITY tableInheritColor.label	"(ページ背景を透過表示)"><!-- (^^; 透過するのは色だけじゃない -->
 
-<!ENTITY cellPercent.label		"表幅との割合">
 <!ENTITY cellSelection.label		"編集対象の選択">
 <!ENTITY cellSelectCell.label		"セル">
 <!ENTITY cellSelectRow.label		"行">
@@ -78,13 +77,7 @@
 <!ENTITY cellSelectNext.accessKey	"N">
 <!ENTITY cellSelectPrevious.label	"前へ">
 <!ENTITY cellSelectPrevious.accessKey	"P">
-<!ENTITY cellApplyBeforeMove.label	"選択対象の変更前に設定を適用する">
-<!ENTITY cellKeepCurrentData.label	"現在の設定を保持">
-<!-- LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap) -->
-<!ENTITY applyBeforeChange1.label	"選択対象を変更すると">
-<!ENTITY applyBeforeChange2.label	"現在の設定が適用されます。">
-<!ENTITY cellRowSpan.label		"行の幅:">
-<!ENTITY cellColSpan.label		"列の幅:">
+<!ENTITY applyBeforeChange.label	"選択対象を変更すると現在の設定が適用されます。">
 <!ENTITY cellContentAlignment.label	"配置:">
 <!ENTITY cellHorizontal.label		"水平位置:">
 <!ENTITY cellHorizontal.accessKey	"Z">
@@ -101,8 +94,7 @@
 <!ENTITY cellAlignTop.label		"上">
 <!ENTITY cellAlignMiddle.label		"中央">
 <!ENTITY cellAlignBottom.label		"下">
-<!ENTITY cellAlignJustify.label		"均等配置">
-<!ENTITY cellAlignAtChar.label		"文字で:"><!-- (^^; ？ -->
+<!ENTITY cellAlignJustify.label		"両端揃え">
 <!ENTITY cellInheritColor.label		"(表の背景を透過表示)">
 <!ENTITY cellUseCheckboxHelp.label	"選択中のセルに適用するプロパティをチェックボックスで指定してください。">
 

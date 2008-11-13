@@ -43,24 +43,15 @@
 <!-- Menu items:  the . means that the menu item isn't implemented yet -->
 
 <!-- View menu items -->
-<!ENTITY viewMenu.label			"表示">
-<!ENTITY viewmenu.accesskey		"v">
-<!ENTITY compositionToolbarCmd.label	"編集ツールバー">
-<!ENTITY compositiontb.accesskey	"c">
-<!ENTITY formattingToolbarCmd.label	"書式ツールバー">
-<!ENTITY formattingtb.accesskey		"f">
-<!ENTITY editmodeToolbarCmd.label	"編集モードツールバー">
-<!ENTITY editmodetb.accesskey		"E">
+<!ENTITY viewMenu.label "表示">
+<!ENTITY viewMenu.accesskey "V">
+<!ENTITY compositionToolbarCmd.label "編集ツールバー">
+<!ENTITY compositionToolbarCmd.accesskey "C">
+<!ENTITY formattingToolbarCmd.label "書式ツールバー">
+<!ENTITY formattingToolbarCmd.accesskey "F">
+<!ENTITY editmodeToolbarCmd.label "編集モードツールバー">
+<!ENTITY editmodeToolbarCmd.accesskey "E">
 
 <!-- Format menu items -->
-<!ENTITY formatMenu.label	"書式">
-<!ENTITY formatmenu.accesskey	"o">
-
-<!ENTITY helpMenu.label		"ヘルプ">
-<!ENTITY aboutCmd.label		".バージョン情報">
-
-<!-- Display Mode Toolbar -->
-<!ENTITY editMode.label		"編集モード:">
-
-<!ENTITY statusText.label	"ページの読み込み完了">
-
+<!ENTITY formatMenu.label "書式">
+<!ENTITY formatMenu.accesskey "o">

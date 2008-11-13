@@ -39,8 +39,7 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY Window.title        "目次">
-<!ENTITY buildToc.label      "右の項目から目次作成:">
-<!ENTITY style.label         "スタイル:">
+<!ENTITY buildToc.label      "以下の項目から目次作成:">
 <!ENTITY tag.label           "タグ:">
 <!ENTITY class.label         "クラス:">
 <!ENTITY header1.label       "レベル 1">
@@ -50,4 +49,4 @@
 <!ENTITY header5.label       "レベル 5">
 <!ENTITY header6.label       "レベル 6">
 <!ENTITY makeReadOnly.label  "読み取り専用で目次を作成する">
-<!ENTITY orderedList.label   "目次に番号付けを行う">
+<!ENTITY orderedList.label   "目次に番号を付ける">

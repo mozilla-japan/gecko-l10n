@@ -85,7 +85,6 @@
 
 <!ENTITY zoominCmd.label "拡大">
 <!ENTITY zoomoutCmd.label "縮小">
-<!ENTITY delSpotCmd.label "スポットを削除">
 
 <!-- Keys -->
 <!ENTITY clear.key "d">
