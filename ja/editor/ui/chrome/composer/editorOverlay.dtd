@@ -139,7 +139,7 @@
 <!ENTITY insertHLineCmd.accesskey "o">
 <!ENTITY insertTableCmd.label "表...">
 <!ENTITY insertTableCmd.accesskey "T">
-<!ENTITY insertHTMLCmd.label "HTML…">
+<!ENTITY insertHTMLCmd.label "HTML...">
 <!ENTITY insertHTMLCmd.accesskey "H">
 <!ENTITY insertCharsCmd.label "文字や記号...">
 <!ENTITY insertCharsCmd.accesskey "C">

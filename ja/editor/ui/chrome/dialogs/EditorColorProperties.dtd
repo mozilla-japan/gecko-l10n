@@ -43,10 +43,10 @@
 <!ENTITY pageColors.label		"ページの@@Colors@@">
 <!ENTITY defaultColorsRadio.label	"ページで@@Colors@@を指定しない">
 <!ENTITY defaultColorsRadio.accessKey	"D">
-<!ENTITY defaultColorsRadio.tooltip	"受信者の使用する@@DefaultColor@@を使用します">
+<!ENTITY defaultColorsRadio.tooltip	"受信者側の@@Color@@設定が使用されます">
 <!ENTITY customColorsRadio.label	"@@Colors@@を指定する:">
 <!ENTITY customColorsRadio.accessKey	"C">
-<!ENTITY customColorsRadio.tooltip	"受信者の使用する@@DefaultColor@@を上書き指定します">
+<!ENTITY customColorsRadio.tooltip	"受信者側の@@Color@@設定を上書き指定します">
 
 <!ENTITY normalText.label		"通常のテキスト">
 <!ENTITY normalText.accessKey		"N">
