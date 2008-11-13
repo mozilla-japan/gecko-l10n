@@ -42,9 +42,9 @@
 <!-- extracted from EdReplace.xul -->
 
 <!ENTITY replaceDialog.title "検索と置換">
-<!ENTITY findField.label "検索する文字:">
+<!ENTITY findField.label "検索文字:">
 <!ENTITY findField.accesskey "n">
-<!ENTITY replaceField.label "置換する文字:">
+<!ENTITY replaceField.label "置換文字:">
 <!ENTITY replaceField.accesskey "e">
 <!ENTITY caseSensitiveCheckbox.label "大文字/小文字を区別する">
 <!ENTITY caseSensitiveCheckbox.accesskey "c">
@@ -61,4 +61,3 @@
 <!ENTITY replaceAllButton.label "すべて置換">
 <!ENTITY replaceAllButton.accesskey "A">
 <!ENTITY closeButton.label "閉じる">
-<!ENTITY notFoundWarning.label "入力したテキストは見つかりません。">

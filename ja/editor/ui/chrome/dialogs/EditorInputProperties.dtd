@@ -42,10 +42,10 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY windowTitle.label		"フォーム要素のプロパティ">
-<!ENTITY windowTitleImage.label		"イメージボタンのプロパティ">
+<!ENTITY windowTitleImage.label	"イメージボタンのプロパティ">
 
 <!ENTITY InputType.label		"フォーム要素の種類">
-<!ENTITY InputType.accesskey		"T">
+<!ENTITY InputType.accesskey	"T">
 <!ENTITY text.value			"一行入力フィールド">
 <!ENTITY password.value			"パスワード入力フィールド">
 <!ENTITY checkbox.value			"チェックボックス">
@@ -57,13 +57,15 @@
 <!ENTITY image.value			"イメージボタン">
 <!ENTITY button.value			"ボタン">
 
-<!ENTITY InputSettings.label		"入力設定">
+<!ENTITY InputSettings.label	"入力設定">
 <!ENTITY InputName.label		"名前:">
+<!ENTITY InputName.accesskey	"N">
 <!ENTITY GroupName.label		"グループ名:">
-<!ENTITY Name.accesskey			"N">
+<!ENTITY GroupName.accesskey	"N">
 <!ENTITY InputValue.label		"値:">
+<!ENTITY InputValue.accesskey	"V">
 <!ENTITY InitialValue.label		"初期値:">
-<!ENTITY Value.accesskey		"V">
+<!ENTITY InitialValue.accesskey	"V">
 <!ENTITY InputChecked.label		"初期値を選択に">
 <!ENTITY InputChecked.accesskey		"C">
 <!ENTITY InputSelected.label		"初期値を選択に">
@@ -77,9 +79,9 @@
 <!ENTITY TextSize.label			"フィールドの幅:">
 <!ENTITY TextSize.accesskey		"F">
 <!ENTITY TextLength.label		"最大文字数:">
-<!ENTITY TextLength.accesskey		"L">
+<!ENTITY TextLength.accesskey	"L">
 <!ENTITY AccessKey.label		"アクセスキー:">
-<!ENTITY AccessKey.accesskey		"K">
+<!ENTITY AccessKey.accesskey	"K">
 <!ENTITY Accept.label			"MIME タイプ:">
 <!ENTITY Accept.accesskey		"A">
 
