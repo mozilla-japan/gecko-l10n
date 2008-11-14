@@ -62,8 +62,8 @@
 <!ENTITY bullets.label		"行頭文字付きリスト">
 <!ENTITY numbers.label		"番号付きリスト">
 <!ENTITY italic.label		"斜体">
-<!ENTITY outdent.label		"左インデント">
-<!ENTITY indent.label		"右インデント">
+<!ENTITY outdent.label		"インデント解除">
+<!ENTITY indent.label		"インデント">
 <!ENTITY underline.label	"下線">
 
 <!ENTITY absolutePosition.label	"絶対位置指定">
