@@ -5,15 +5,11 @@
 <!ENTITY searchSubfolders.accesskey	"e">
 <!ENTITY resetButton.label		"リセット">
 <!ENTITY resetButton.accesskey		"C">
-<!ENTITY optionsButton.label		"オプション">
-<!ENTITY closeButton.label		"閉じる">
 <!ENTITY openButton.label		"開く">
 <!ENTITY openButton.accesskey		"n">
 <!ENTITY deleteButton.label		"削除">
 <!ENTITY deleteButton.accesskey		"D">
 <!ENTITY searchDialogTitle.label	"メッセージを検索">
-<!ENTITY conditionDesc.label		"メッセージの検索条件:">
-<!ENTITY conditions.label		"検索条件">
 <!ENTITY results.label			"検索結果">
 <!ENTITY fileHereMenu.label		"ここへ移動">
 <!ENTITY fileHereMenu.accesskey		"F">
@@ -46,7 +42,6 @@
 <!ENTITY statusColumn.label		"状態"> 
 <!ENTITY sizeColumn.label		"サイズ">
 <!ENTITY junkStatusColumn.label		"迷惑マーク">
-<!ENTITY linesColumn.label		"行">
 <!ENTITY unreadColumn.label		"未読">
 <!ENTITY totalColumn.label		"合計">
 <!ENTITY readColumn.label		"既読">

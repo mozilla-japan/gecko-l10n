@@ -20,9 +20,6 @@
 <!ENTITY filterActionDesc.label		"以下の動作を実行する:">
 <!ENTITY filterActionDesc.accesskey	"P">
 
-<!ENTITY newFolderButton.label		"@@NewFolder@@...">
-<!ENTITY newFolderButton.accesskey	"N">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label		"メッセージを移動する">
 <!ENTITY copyMessage.label		"メッセージをコピーする">

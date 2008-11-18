@@ -2,13 +2,6 @@
 
 <!ENTITY securitySettings.label		"セキュリティ設定">
 <!ENTITY serverSettings.label		"サーバ設定">
-<!-- LOCALIZATION NOTE (popServer.label) : do not translate "POP" in below line -->
-<!ENTITY popServer.label		"POP メールサーバ">
-<!-- LOCALIZATION NOTE (imapServer.label) : do not translate "IMAP" in below line -->
-<!ENTITY imapServer.label		"IMAP メールサーバ">
-<!-- LOCALIZATION NOTE (newsServer.label) : do not translate "NNTP" in below line -->
-<!ENTITY newsServer.label		"ニュースサーバ (NNTP)">
-<!ENTITY webmail.label			"Web メールアカウント">
 <!ENTITY serverType.label		"サーバの種類:">
 <!ENTITY serverName.label		"サーバ名:">
 <!ENTITY serverName.accesskey		"S">
@@ -50,10 +43,7 @@
 <!ENTITY deleteOnServer2.accesskey	"d">
 <!ENTITY downloadOnBiff.label		"新着メッセージを自動的にダウンロードする">
 <!ENTITY downloadOnBiff.accesskey	"m">
-<!ENTITY hostname.label			"サーバのホスト名">
 <!ENTITY username.label			"ログイン名">
-<!-- LOCALIZATION NOTE (popServerTitle.label) : do not translate "POP" in below line -->
-<!ENTITY popServerTitle.label		"POP サーバの情報">
 <!ENTITY deleteMessagePrefix.label	"メッセージを削除する時:">
 <!ENTITY modelMoveToTrash.label		"次のフォルダに移動する:">
 <!ENTITY modelMoveToTrash.accesskey	"o">

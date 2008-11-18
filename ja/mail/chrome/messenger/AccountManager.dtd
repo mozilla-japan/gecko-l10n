@@ -6,12 +6,8 @@
 <!ENTITY addAccountButton.accesskey	"A">
 <!ENTITY setDefaultButton.label		"@@Default-@@アカウントに設定">
 <!ENTITY setDefaultButton.accesskey	"f">
-<!ENTITY duplicateButton.label		"複製">
 <!ENTITY removeButton.label		"アカウントを削除">
 <!ENTITY removeButton.accesskey		"R">
-
-<!ENTITY nameCol.label			"名前">
-<!ENTITY duplicate.label		"複製">
 
 <!-- AccountManager.xul -->
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the account

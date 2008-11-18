@@ -1,6 +1,4 @@
 <!ENTITY serverAdvanced.label		"アカウントの詳細設定">
-<!-- LOCALIZATION NOTE (imapAdvanced.label): Do not translate "IMAP" -->
-<!ENTITY imapAdvanced.label		"IMAP サーバの詳細設定">
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
 <!ENTITY serverDirectory.label		"IMAP サーバディレクトリ:">
 <!ENTITY serverDirectory.accesskey	"d">
@@ -23,7 +21,6 @@
 <!ENTITY overrideNamespaces.label	"サーバによる名前空間の上書きを許可する">
 <!ENTITY overrideNamespaces.accesskey	"A">
 <!ENTITY pop3Desc.label			"このサーバの POP メールをダウンロードするとき、新着メールを次のフォルダに保存する">
-<!ENTITY folderStorage.label		"メールの保存先">
 <!ENTITY globalInbox.label		"共通受信トレイ (ローカルフォルダアカウント)">
 <!ENTITY globalInbox.accesskey		"G">
 <!ENTITY accountDirectory.label		"このサーバアカウントの受信トレイ">

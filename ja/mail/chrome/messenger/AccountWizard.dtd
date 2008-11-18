@@ -31,24 +31,17 @@
 
 <!ENTITY emailLabel.label		"メールアドレス:">
 <!ENTITY emailLabel.accesskey		"E">
-<!ENTITY emailDesc.label		"このアカウントで使用するメールアドレスを入力してください。">
-<!-- LOCALIZATION NOTE (emailExample.label) : do not translate "user@example.net" in below line -->
-<!ENTITY emailExample.label		"(例: tyamada@example.jp)">
 
 <!-- Entities for Server page -->
 
 <!ENTITY serverTitle.label		"サーバ情報">
-<!ENTITY incomingServerTitle.label	"メール受信サーバ">
 <!ENTITY incomingServerTypeDesc.label	"メール受信サーバの種類を選択してください。">
-<!ENTITY incomingServerTypeLabel.label	"サーバの種類:">
 <!-- LOCALIZATION NOTE (incomingServerNameDesc.label) : Do not translate "&quot;pop.example.net&quot;" in below line -->
 <!ENTITY incomingServerNameDesc.label	"メール受信サーバの名前を入力してください。(例: mail.example.jp)">
 <!ENTITY incomingServerLabel.label	"メール受信サーバ:">
 <!ENTITY incomingServerLabel.accesskey	"S">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label	"ニュース (NNTP) サーバ の名前を入力してください。(例: news.example.jp)">
-<!-- LOCALIZATION NOTE (smtpServerTitle.label) : Do not translate "SMTP" in below line -->
-<!ENTITY smtpServerTitle.label		"メール送信 (SMTP) サーバ">
 <!-- LOCALIZATION NOTE (smtpServerDesc.label) : Do not translate "SMTP" and "&quot;smtp.example.net&quot;" in below line -->
 <!ENTITY smtpServerDesc.label		"メール送信 (SMTP) サーバの名前を入力してください。(例: smtp.example.jp)">
 <!ENTITY smtpServerLabel.label		"メール送信サーバ:">
@@ -61,13 +54,6 @@
 <!-- LOCALIZATION NOTE (popType.label) : Do not translate "POP" in below line -->
 <!ENTITY popType.label			"POP">
 <!ENTITY popType.accesskey		"P">
-<!ENTITY nntpType.label			"ニュースサーバ">
-
-<!-- for when the user has an SMTP server pre-configured -->
-<!-- LOCALIZATION NOTE (currentSmtpBefore.label) : Do not translate "SMTP" and "&quot;" in
-     this variable. Also, translate currentSmtpBefore.label and currentSmtpAfter.label as a single sentence,
-	  inserting text after the "&quot;" entity in currentSmtpAfter.label, if required grammatically
--->
 <!-- LOCALIZATION NOTE (haveSmtp1.prefix and haveSmtp1.suffix) : Do not translate "SMTP" and "&quot;" in
      these variables. Also, translate haveSmtp1.prefix and haveSmtp1.suffix as a single sentence, inserting
      text after the "&quot;" entity in haveSmtp1.suffix, if required grammatically.
@@ -104,7 +90,6 @@
 <!ENTITY accnameTitle.label		"アカウント名">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label		"このアカウントに分かりやすい名前を付けてください。(例: 仕事用、プライベート、ニュース)">
-<!ENTITY accnameExample.label		"例: 仕事用、プライベート、ニュース">
 <!ENTITY accnameLabel.label		"アカウント名:">
 <!ENTITY accnameLabel.accesskey		"A">
 

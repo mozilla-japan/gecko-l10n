@@ -6,7 +6,6 @@
 <!ENTITY offlineNotDownload.label		"メッセージのサイズが"><!-- (^^; 〜 kb.label -->
 <!ENTITY offlineNotDownload.accesskey		"M">
 <!ENTITY kb.label				"KB 以上">
-<!ENTITY days.label				"日"><!-- (^^; 単位を共有されているので自由が利かない -->
 <!ENTITY daysOld.label				"日"><!-- (^^; "days old" -->
 <!ENTITY message.label				"メッセージ">
 <!ENTITY nntpNotDownloadRead.label		"既読メッセージ"><!-- (^^; 動作を要確認 -->

@@ -38,7 +38,3 @@
 <!ENTITY unreadColumn.label	"未読"> 
 <!ENTITY totalColumn.label	"合計"> 
 <!ENTITY folderSizeColumn.label	"サイズ"> 
-<!ENTITY accounts.label		"アカウント">
-<!-- LOCALIZATION NOTE (accounts.img) : DONT_TRANSLATE -->
-<!ENTITY accounts.img		"chrome://messenger/skin/local-mailhost.gif">
-
