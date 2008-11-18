@@ -36,4 +36,4 @@
 <!ENTITY ignoreThread.label		"スレッドを無視する">
 <!ENTITY ignoreSubthread.label		"サブスレッドを無視する">
 <!ENTITY watchThread.label		"注目スレッドに設定する"><!-- (^^; 要チェック -->
-<!ENTITY stopExecution.label		"フィルタの例外を中止する">
+<!ENTITY stopExecution.label		"フィルタの実行を中止する">

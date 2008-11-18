@@ -4,7 +4,7 @@
 <!ENTITY accountName.label		"アカウント名:">
 <!ENTITY accountName.accesskey		"N">
 <!ENTITY identityTitle.label		"@@Default-@@差出人情報">
-<!ENTITY identityDesc.label		"このアカウントで使用する@@Default-@@差出人情報を設定してください。これはメッセージの送信者が誰であるかを表すために使用されます。"><!-- (^^; 表現変更 en-US: Each account has an identity, which is the information that other people see when they read your messages. -->
+<!ENTITY identityDesc.label		"このアカウントで使用する@@Default-@@差出人情報を設定してください。これはメッセージの差出人が誰であるかを表すために使用されます。"><!-- (^^; 表現変更 en-US: Each account has an identity, which is the information that other people see when they read your messages. -->
 <!ENTITY name.label			"名前:">
 <!ENTITY name.accesskey			"Y">
 <!ENTITY email.label			"メールアドレス:">
