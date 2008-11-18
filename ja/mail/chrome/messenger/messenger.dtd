@@ -229,7 +229,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomEnlargeCmd.accesskey		"I">
 <!ENTITY fullZoomEnlargeCmd.commandkey		"+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2		"="> <!-- + is above this key on many keyboards -->
-<!ENTITY fullZoomEnlargeCmd.commandkey3		"">
+<!ENTITY fullZoomEnlargeCmd.commandkey3		";"><!-- JIS キーボード用 -->
 
 <!ENTITY fullZoomReduceCmd.label		"縮小">
 <!ENTITY fullZoomReduceCmd.accesskey		"O">
