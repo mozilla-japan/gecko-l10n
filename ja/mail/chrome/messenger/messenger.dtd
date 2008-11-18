@@ -6,15 +6,12 @@
 <!ENTITY newFolderCmd.label		"フォルダ...">
 <!ENTITY newFolderCmd.accesskey		"F">
 <!ENTITY newFolderCmd.accesskey		"F">
-<!ENTITY newTabCmd.label		"@@NewTab@@">
-<!ENTITY newTabCmd.accesskey		"T">
 <!ENTITY closeTabCmd.label		"タブを閉じる">
 <!ENTITY closeTabCmd.accesskey		"e">
 <!ENTITY newVirtualFolderCmd.label	"検索フォルダ...">
 <!ENTITY newVirtualFolderCmd.accesskey	"S">
 <!ENTITY newAccountCmd.label		"アカウント...">
 <!ENTITY newAccountCmd.accesskey	"A">
-<!ENTITY openMessageMenu.label		"開く">
 <!ENTITY openMessageFileCmd.label	"メッセージファイルを開く...">
 <!ENTITY openMessageFileCmd.accesskey	"O">
 <!ENTITY openAttachmentCmd.label	"添付">
@@ -45,7 +42,7 @@
 <!ENTITY renameFolder.accesskey		"R">
 <!ENTITY renameFolder.key		"VK_F2">
 <!ENTITY compactFolders.label		"フォルダを最適化">
-<!ENTITY compactFolder.accesskey	"F">
+<!ENTITY compactFolders.accesskey.accesskey	"F">
 <!ENTITY emptyTrashCmd.label		"@@TrashFolder@@を空にする">
 <!ENTITY emptyTrashCmd.accesskey	"y">
 <!ENTITY importCmd.label		"設定とデータ@@-ImportCMD@@...">
@@ -67,7 +64,6 @@
 <!ENTITY printCmd.key			"p">
 <!ENTITY printPreviewCmd.label		"@@Print@@プレビュー">
 <!ENTITY printPreviewCmd.accesskey	"v">
-<!ENTITY printPreviewCmd.key		"v">
 <!ENTITY printSetupCmd.label		"ページ設定...">
 <!ENTITY printSetupCmd.accesskey	"u">
 
@@ -127,8 +123,6 @@
 <!ENTITY messagePaneLayoutStyle.accesskey	"L">
 <!ENTITY messagePaneClassic.label		"クラシック表示">
 <!ENTITY messagePaneClassic.accesskey		"C">
-<!ENTITY messagePaneWide.label			"ワイド表示">
-<!ENTITY messagePaneWide.accesskey		"W">
 <!ENTITY messagePaneVertical.label		"縦表示">
 <!ENTITY messagePaneVertical.accesskey		"V">
 <!ENTITY threadPaneWide.label			"ワイドリスト表示">
@@ -188,15 +182,12 @@
 <!ENTITY sortUnthreaded.accesskey		"h">
 <!ENTITY groupBySort.label			"グループ化"><!-- (^^; en-US: Grouped By Sort | ref: http://level.s69.xrea.com/mozilla/index.cgi?id=20041009_GroupBySort ソート結果でグループ化orスレッド表示 ということなんだけど長い:cry: :pink -->
 <!ENTITY groupBySort.accesskey			"G">
-<!ENTITY groupBySortCmd.key			"G">
 <!ENTITY msgsMenu.label				"絞り込み">
 <!ENTITY msgsMenu.accesskey			"M">
 <!ENTITY threads.label				"スレッド">
 <!ENTITY threads.accesskey			"e">
 <!ENTITY allMsgsCmd.label			"すべて">
 <!ENTITY allMsgsCmd.accesskey			"A">
-<!ENTITY expandOrCollapseMenu.label		"広げる/たたむ">
-<!ENTITY expandOrCollapseMenu.accesskey		"x">
 <!ENTITY expandAllThreadsCmd.label		"すべてのスレッドを広げる">
 <!ENTITY expandAllThreadsCmd.accesskey		"E">
 <!ENTITY expandAllThreadsCmd.key		"*">
@@ -227,31 +218,39 @@
 <!ENTITY bodyAsPlaintext.accesskey		"P">
 <!ENTITY viewAttachmentsInlineCmd.label		"添付をインラインで表示">
 <!ENTITY viewAttachmentsInlineCmd.accesskey	"A">
-<!ENTITY reloadCmd.label			"再読み込み">
-<!ENTITY reloadCmd.accesskey			"R">
-<!ENTITY stopCmd.label				"停止">
-<!ENTITY stopCmd.accesskey			"S">
-<!ENTITY textZoomEnlargeCmd.label		"大きく">
-<!ENTITY textZoomEnlargeCmd.accesskey		"I">
-<!ENTITY textZoomEnlargeCmd.commandkey		"+">
-<!ENTITY textZoomEnlargeCmd.commandkey2		"="> <!-- + is above this key on many keyboards --><!-- それは US キーボードだけの話ですが… (^^; -->
-<!ENTITY textZoomReduceCmd.label		"小さく">
-<!ENTITY textZoomReduceCmd.accesskey		"D">
-<!ENTITY textZoomReduceCmd.commandkey		"-">
-<!ENTITY textZoomResetCmd.commandkey		"0">
-<!ENTITY textZoomResetCmd.label			"標準サイズ">
-<!ENTITY textZoomResetCmd.accesskey		"N">
-<!ENTITY textSize.label				"文字サイズ">
-<!ENTITY textSize.accesskey			"x">
+
+<!-- LOCALIZATION NOTE :
+fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and
+fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
+If shift key is needed with your locale popular keyboard for them,
+you can use these alternative items. Otherwise, their values should be empty.  -->
+
+<!ENTITY fullZoomEnlargeCmd.label		"拡大">
+<!ENTITY fullZoomEnlargeCmd.accesskey		"I">
+<!ENTITY fullZoomEnlargeCmd.commandkey		"+">
+<!ENTITY fullZoomEnlargeCmd.commandkey2		"="> <!-- + is above this key on many keyboards -->
+<!ENTITY fullZoomEnlargeCmd.commandkey3		"">
+
+<!ENTITY fullZoomReduceCmd.label		"縮小">
+<!ENTITY fullZoomReduceCmd.accesskey		"O">
+<!ENTITY fullZoomReduceCmd.commandkey		"-">
+<!ENTITY fullZoomReduceCmd.commandkey2		"">
+
+<!ENTITY fullZoomResetCmd.label			"リセット">
+<!ENTITY fullZoomResetCmd.accesskey		"R">
+<!ENTITY fullZoomResetCmd.commandkey		"0">
+<!ENTITY fullZoomResetCmd.commandkey2		"">
+
+<!ENTITY fullZoomToggleCmd.label		"文字サイズだけ変更">
+<!ENTITY fullZoomToggleCmd.accesskey		"T">
+<!ENTITY fullZoom.label				"ズーム">
+<!ENTITY fullZoom.accesskey			"Z">
 
 <!ENTITY pageSourceCmd.label			"メッセージのソース">
 <!ENTITY pageSourceCmd.accesskey		"o">
 <!ENTITY pageSourceCmd.key			"u">
 
 <!-- Search Menu -->
-<!ENTITY searchMenu.label		"検索">
-<!ENTITY searchMenu.accesskey		"S">
-
 <!ENTITY findMenu.label			"検索">
 <!ENTITY findMenu.accesskey		"F">
 <!ENTITY findCmd.label			"このメッセージ内を検索...">
@@ -283,8 +282,8 @@
 <!ENTITY nextStarredMsgCmd.label	"スター付きメッセージ">
 <!ENTITY nextStarredMsgCmd.accesskey	"S">
 <!ENTITY nextUnreadThread.label		"未読スレッド">
-<!ENTITY nextUnreadThreadCmd.accesskey	"T">
-<!ENTITY nextUnreadThreadCmd.key	"t">
+<!ENTITY nextUnreadThread.accesskey	"T">
+<!ENTITY nextUnreadThread.key		"t">
 <!ENTITY prevMenu.label			"前へ">
 <!ENTITY prevMenu.accesskey		"P">
 <!ENTITY prevMsgCmd.label		"メッセージ">
@@ -333,15 +332,15 @@
 <!ENTITY editMsgAsNewCmd.key		"e">
 <!ENTITY createFilter.label		"メッセージからフィルタを作成...">
 <!ENTITY createFilter.accesskey		"a">
-<!ENTITY moveMsgMenu.label		"移動">
-<!ENTITY moveMsgMenu.accesskey		"M">
+<!ENTITY moveMsgToMenu.label		"別のフォルダに移動">
+<!ENTITY moveMsgToMenu.accesskey	"M">
 <!ENTITY moveCopyMsgRecentMenu.label	"履歴">
 <!ENTITY moveCopyMsgRecentMenu.accesskey	"R">
 <!ENTITY copyMessageLocation.label	"メッセージの場所をコピー">
 <!ENTITY copyMessageLocation.accesskey	"M">
-<!ENTITY copyMsgMenu.label		"コピー">
-<!ENTITY copyMsgMenu.accesskey		"C">
-<!ENTITY moveToFolderAgain.label	"もう一度移動">
+<!ENTITY copyMsgToMenu.label		"別のフォルダにコピー">
+<!ENTITY copyMsgToMenu.accesskey	"C">
+<!ENTITY moveToFolderAgain.label	"同じフォルダに移動">
 <!ENTITY moveToFolderAgain.accesskey	"i">
 <!ENTITY moveToFolderAgainCmd.key	"m">
 <!ENTITY killThreadMenu.label		"スレッドを無視">
@@ -374,8 +373,6 @@
 <!ENTITY markAsReadCmd.label		"既読にする">
 <!ENTITY markAsReadCmd.accesskey	"R">
 <!ENTITY markAsReadCmd.key		"m">
-<!ENTITY markAsUnreadCmd.label		"未読にする">
-<!ENTITY markAsUnreadCmd.accesskey	"U">
 <!ENTITY markThreadAsReadCmd.label	"スレッドを既読にする">
 <!ENTITY markThreadAsReadCmd.accesskey	"T">
 <!ENTITY markThreadAsReadCmd.key	"r">
@@ -402,8 +399,6 @@
 
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label		"@@Window@@">
-<!ENTITY windowMenu.accesskey		"W">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label		"ツール">
 <!ENTITY tasksMenu.accesskey		"T">
@@ -447,7 +442,6 @@
 <!ENTITY printButton.label		"@@Print@@">
 <!ENTITY stopButton.label		"停止">
 <!ENTITY throbberItem.title		"アクティブインジケータ">
-<!ENTITY updatesItem.title		"更新">
 <!ENTITY junkButton.label		"迷惑メール">
 <!ENTITY notJunkButton.label		"非迷惑メール">
 <!ENTITY addressBookButton.label	"アドレス帳">
@@ -459,7 +453,6 @@
 
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip		"メッセージを詳細に検索します">
-<!ENTITY clearButton.tooltip		"検索結果を@@Clear@@して、すべてのメッセージを表示します">
 <!ENTITY getMsgButton.tooltip		"メッセージを受信します">
 <!ENTITY getAllNewMsgCmd.label		"新しいメッセージをすべて受信">
 <!ENTITY getAllNewMsgCmd.accesskey	"G">
@@ -533,8 +526,6 @@
 <!-- Search Bar-->
 <!ENTITY SearchNameOrEmail.label		"名前やメールに含まれる単語:">
 <!ENTITY SearchNameOrEmail.accesskey		"N">
-<!ENTITY clearButton.label			"@@Clear@@">
-<!ENTITY clearButton.accesskey			"C">
 
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label		"件名">
@@ -557,7 +548,6 @@
 <!ENTITY statusColumn.label		"状態">
 <!ENTITY sizeColumn.label		"サイズ">
 <!ENTITY junkStatusColumn.label		"迷惑マーク">
-<!ENTITY linesColumn.label		"行">
 <!ENTITY unreadColumn.label		"未読">
 <!ENTITY totalColumn.label		"合計">
 <!ENTITY readColumn.label		"既読">
@@ -618,8 +608,6 @@
 <!ENTITY contextPrint.accesskey			"P">
 <!ENTITY contextPrintPreview.label		"@@Print@@プレビュー">
 <!ENTITY contextPrintPreview.accesskey		"v">
-<!ENTITY contextDelete.label			"削除">
-<!ENTITY contextDelete.accesskey		"D">
 
 <!-- Junk Bar -->
 <!ENTITY junkBarMessage1.label		"迷惑メール">
@@ -653,8 +641,6 @@
 <!ENTITY CopyEmailAddress.accesskey	"C">
 <!ENTITY CreateFilterFrom.label		"フィルタを作成...">
 <!ENTITY CreateFilterFrom.accesskey	"F">
-<!ENTITY BlockAddress.label		"アドレスを拒否">
-<!ENTITY BlockAddress.accesskey		"A">
 <!ENTITY reportPhishingURL.label	"偽装サイトの URL を報告"><!-- en-US: Report E-mail Scam -->
 <!ENTITY reportPhishingURL.accesskey	"o">
 
