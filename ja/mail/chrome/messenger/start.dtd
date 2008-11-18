@@ -1,4 +1,4 @@
-<!-- (^^; http://lxr.mozilla.org/mozilla/source/mail/base/content/start.xhtml -->
+<!-- (^^; http://hg.mozilla.org/comm-central/file/641c14ca5210/mail/base/content/start.xhtml -->
 
 <!ENTITY startpage.welcome		"&brandFullName; へようこそ！">
 <!ENTITY startpage.intro		"&brandFullName; はオープンソースのメール、フィード、ニュースクライアントです。">
@@ -30,5 +30,3 @@
 <!ENTITY startpage.pageURL		"http://mozilla.jp/thunderbird/">
 
 <!ENTITY startpage.extra		'<div id="indent"><p>日本語環境での問題点について<a href="http://mozilla.jp/thunderbird/troubleshooting.html">トラブルシューティング</a>を用意しております。</p></div>'>
-
-<!ENTITY startpage.poweredByGecko	"Powered by Gecko.">

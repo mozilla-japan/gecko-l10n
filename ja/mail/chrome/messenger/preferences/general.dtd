@@ -1,5 +1,5 @@
-<!ENTITY systemDefaults.label		"@@Default-@@クライアント">
-<!ENTITY alwaysCheckDefault.label	"起動時に &brandShortName; が@@Default-@@クライアントとして設定されているか確認する">
+<!ENTITY systemDefaults.label		"@@DefaultClient@@">
+<!ENTITY alwaysCheckDefault.label	"起動時に &brandShortName; が@@DefaultClient@@として設定されているか確認する">
 <!ENTITY alwaysCheckDefault.accesskey	"l">
 <!-- LOCALIZATION NOTE (alwaysCheckDefault.height):
   There's some sort of bug which makes wrapping checkboxes not properly reflow,
@@ -29,7 +29,6 @@
 <!ENTITY customizeMailAlert.label	"設定...">
 <!ENTITY customizeMailAlert.accesskey	"C">
 
-<!ENTITY soundNotification1.caption	"サウンド">
 <!ENTITY play.label			"再生">
 <!ENTITY play.accesskey			"P">
 <!ENTITY systemsound.label		"システムの新着メール通知音">
@@ -40,3 +39,9 @@
 <!ENTITY customsound.accesskey		"U">
 <!ENTITY browse.label			"@@Browse@@...">
 <!ENTITY browse.accesskey		"B">
+
+<!ENTITY addonsMgr.label                  "アドオン">
+<!ENTITY manageAddonsDescWin.label        "アドオンの設定を変更できます。">
+<!ENTITY manageAddonsDescUnix2.label      "アドオンの設定を変更できます。">
+<!ENTITY manageAddons.label               "アドオンを管理...">
+<!ENTITY manageAddons.accesskey           "M">

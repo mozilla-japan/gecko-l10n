@@ -36,14 +36,5 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!-- Labels -->
-<!ENTITY subscribechoosethis.label	"ニュースサーバを選択">
-<!ENTITY subscribeclickhere.label	"ニュースサーバを選択するにはここをクリックしてください">
 <!ENTITY newfolderchoosethis.label	"親フォルダを選択">
-<!ENTITY newfolderclickhere.label	"親フォルダを選択するにはここをクリックしてください">
-<!ENTITY renamefolderchoosethis.label	"フォルダを選択">
-<!ENTITY renamefolderclickhere.label	"フォルダを選択するにはここをクリックしてください">
 <!ENTITY filemessageschoosethis.label	"フォルダを選択">
-<!ENTITY filemessagesclickhere.label	"フォルダを選択するにはここをクリックしてください">
-<!ENTITY chooseaccountclickhere.label	"アカウントを選択するにはここをクリックしてください">
-<!ENTITY choosefolderclickhere.label	"フォルダを選択するにはここをクリックしてください">
-<!ENTITY chooseserverToDeferTo.label	"メッセージを保管するアカウントを選択するにはここをクリックしてください">

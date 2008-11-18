@@ -3,9 +3,6 @@
 <!ENTITY securityMenu.label			"セキュリティ">
 <!ENTITY securityMenu.accesskey			"e">
 
-<!ENTITY menu_securityEncryptIfPossible.label	"可能であれば暗号化する">
-<!ENTITY menu_securityEncryptIfPossible.accesskey "P">
-
 <!ENTITY menu_securityEncryptRequire.label	"このメッセージを暗号化する">
 <!ENTITY menu_securityEncryptRequire.accesskey	"E">
 

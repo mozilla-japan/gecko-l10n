@@ -16,10 +16,6 @@
 <!ENTITY  autoTypeRadio.accesskey	"A">
 <!ENTITY  reload.label			"再読み込み">
 <!ENTITY  reload.accesskey		"l">
-<!ENTITY  ftp.label			"FTP プロキシ:">
-<!ENTITY  ftp.accesskey			"f">
-<!ENTITY  gopher.label			"Gopher プロキシ:">
-<!ENTITY  gopher.accesskey		"g">
 <!ENTITY  http.label			"HTTP プロキシ:">
 <!ENTITY  http.accesskey		"h">
 <!ENTITY  ssl.label			"SSL プロキシ:">
