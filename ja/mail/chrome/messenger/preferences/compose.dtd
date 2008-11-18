@@ -33,9 +33,9 @@
 
 <!ENTITY warnOnSendAccelKey.label		"キーボードショートカットでメッセージを送信するときは確認する">
 <!ENTITY warnOnSendAccelKey.accesskey		"i">
-<!ENTITY autoSave.label				"下書きを"><!-- (^^; Auto Save every -->
+<!ENTITY autoSave.label				"編集中のメッセージを"><!-- (^^; Auto Save every -->
 <!ENTITY autoSave.accesskey			"u">
-<!ENTITY autoSaveEnd.label			"分ごとに自動保存する"><!-- (^^; minutes -->
+<!ENTITY autoSaveEnd.label			"分ごとに下書きとして自動保存する"><!-- (^^; minutes -->
 
 <!ENTITY emailCollectionPicker.label		"送信メールアドレスを次のアドレス帳に自動で追加する:">
 <!ENTITY emailCollectionPicker.accesskey	"t">
