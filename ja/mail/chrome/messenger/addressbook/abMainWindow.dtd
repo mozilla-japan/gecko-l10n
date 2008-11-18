@@ -35,12 +35,6 @@
 <!ENTITY printAddressBook.label			"アドレス帳を@@Print@@...">
 <!ENTITY printAddressBook.accesskey		"A">
 
-<!ENTITY quitApplicationCmdWin.label		"終了">
-<!ENTITY quitApplicationCmdWin.accesskey	"x">
-<!ENTITY quitApplicationCmd.label		"終了">
-<!ENTITY quitApplicationCmd.accesskey		"Q">
-<!ENTITY quitApplicationCmd.key			"Q">
-
 <!-- Edit Menu -->
 <!ENTITY editMenu.label				"編集">
 <!ENTITY editMenu.accesskey			"e">
@@ -60,7 +54,6 @@
 <!ENTITY pasteCmd.key				"V">
 <!ENTITY pasteCmd.accesskey			"p">
 <!ENTITY deleteCmd.label			"削除">
-<!ENTITY deleteCmd.key				"D">
 <!ENTITY deleteCmd.accesskey			"d">
 <!ENTITY deleteAbCmd.label			"アドレス帳を削除">
 <!ENTITY deleteCardCmd.label			"カードを削除">
@@ -118,7 +111,6 @@
 <!ENTITY exportCmd.label			"@@Export@@...">
 <!ENTITY exportCmd.accesskey			"E">
 <!ENTITY preferencesCmd.label			"オプション...">
-<!ENTITY preferencesCmd.key			"O">
 <!ENTITY preferencesCmd.accesskey		"O">
 <!ENTITY preferencesCmdUnix.label		"設定">
 <!ENTITY preferencesCmdUnix.accesskey		"n">

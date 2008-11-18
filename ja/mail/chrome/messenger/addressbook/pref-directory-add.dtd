@@ -48,12 +48,9 @@
 <!ENTITY directorySecure.accesskey	"U">
 <!ENTITY directoryLogin.label		"バインド識別名: ">
 <!ENTITY directoryLogin.accesskey	"i">
-<!ENTITY advancedOptionsButton.label	"詳細設定">
-<!ENTITY advancedOptionsButton.accesskey "a">
 <!ENTITY General.tab			"一般">
 <!ENTITY Offline.tab			"オフライン">
 <!ENTITY Advanced.tab			"詳細">
-<!ENTITY advancedOptionsTitle.label	"詳細オプション">
 <!ENTITY portNumber.label		"ポート番号: ">
 <!ENTITY portNumber.accesskey		"p">
 <!ENTITY searchFilter.label		"検索フィルタ: ">

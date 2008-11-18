@@ -73,17 +73,17 @@
 <!ENTITY SecondEmail.label		"別のメールアドレス:">
 <!ENTITY SecondEmail.accesskey		"i">
 <!ENTITY PreferMailFormat.label		"使用メール形式:">
-<!ENTITY PreferMailFormat.accesskey	"r">
+<!ENTITY PreferMailFormat.accesskey	"v">
 <!ENTITY PlainText.label		"テキスト">
 <!ENTITY HTML.label			"HTML">
 <!ENTITY Unknown.label			"不明">
 <!ENTITY ScreenName.label		"スクリーンネーム:">
 <!ENTITY ScreenName.accesskey		"S">
 
-<!ENTITY allowRemoteContent.label	"HTML メールでリモート画像の使用を許可する">
-<!ENTITY allowRemoteContent.accesskey	"w">
+<!ENTITY allowRemoteContent.label	"リモート画像の使用を許可する">
+<!ENTITY allowRemoteContent.accesskey	"r">
+<!ENTITY allowRemoteContent.tooltip	"HTML メールではリモート画像を埋め込むことができます。リモート画像を埋め込まれたメッセージを開くとインターネットに接続して画像を取得しますが、それを利用してあなたがメッセージを開いたことを記録される可能性もあります。このチェックボックスをオンにすると、この連絡先から送られてきた HTML メールではリモート画像の読み込みを許可します。">
 
-<!ENTITY Phones.box			"電話番号">
 <!ENTITY WorkPhone.label		"勤務先:">
 <!ENTITY WorkPhone.accesskey		"k">
 <!ENTITY HomePhone.label		"自宅:">
@@ -91,15 +91,14 @@
 <!ENTITY FaxNumber.label		"FAX:">
 <!ENTITY FaxNumber.accesskey		"x">
 <!ENTITY PagerNumber.label		"ポケットベル:">
-<!ENTITY PagerNumber.accesskey		"P">
+<!ENTITY PagerNumber.accesskey		"g">
 <!ENTITY CellularNumber.label		"携帯電話:">
 <!ENTITY CellularNumber.accesskey	"M">
 
-<!ENTITY Address.tab			"住所">
-<!ENTITY Address.accesskey		"A">
-<!ENTITY Home.box			"自宅">
+<!ENTITY Home.tab			"プライベート">
+<!ENTITY Home.accesskey			"P">
 <!ENTITY HomeAddress.label		"番地:">
-<!ENTITY HomeAddress.accesskey		"d">
+<!ENTITY HomeAddress.accesskey		"A">
 <!ENTITY HomeAddress2.label		"">
 <!ENTITY HomeAddress2.accesskey		"">
 <!ENTITY HomeCity.label			"市区町村:">
@@ -111,36 +110,38 @@
 <!ENTITY HomeCountry.label		"国:">
 <!ENTITY HomeCountry.accesskey		"u">
 <!ENTITY HomeWebPage.label		"Web ページ:">
-<!ENTITY HomeWebPage.accesskey		"W">
-<!ENTITY Work.box			"勤務先">
-<!ENTITY JobTitle.label			"役職:">
-<!ENTITY JobTitle.accesskey		"e">
-<!ENTITY Department.label		"部門:">
-<!ENTITY Department.accesskey		"m">
-<!ENTITY Company.label			"組織:">
-<!ENTITY Company.accesskey		"O">
-<!ENTITY WorkAddress.label		"番地:">
-<!ENTITY WorkAddress.accesskey		"r">
-<!ENTITY WorkAddress2.label		"">
-<!ENTITY WorkAddress2.accesskey		"">
-<!ENTITY WorkCity.label			"市区町村:">
-<!ENTITY WorkCity.accesskey		"i">
-<!ENTITY WorkState.label		"都道府県:">
-<!ENTITY WorkState.accesskey		"v">
-<!ENTITY WorkZipCode.label		"郵便番号:">
-<!ENTITY WorkZipCode.accesskey		"P">
-<!ENTITY WorkCountry.label		"国:">
-<!ENTITY WorkCountry.accesskey		"n">
-<!ENTITY WorkWebPage.label		"Web ページ:">
-<!ENTITY WorkWebPage.accesskey		"b">
-
-<!ENTITY Other.tab			"その他">
-<!ENTITY Other.accesskey		"h">
+<!ENTITY HomeWebPage.accesskey		"e">
 <!ENTITY Birthday.label			"誕生日:">
 <!ENTITY Birthday.accesskey		"B">
 <!ENTITY Year.emptytext			"年">
 <!ENTITY Or.value			"または"><!-- (^^; localizability? -->
 <!ENTITY Age.emptytext			"年齢">
+
+<!ENTITY Work.tab			"仕事">
+<!ENTITY Work.accesskey			"W">
+<!ENTITY JobTitle.label			"役職:">
+<!ENTITY JobTitle.accesskey		"i">
+<!ENTITY Department.label		"部門:">
+<!ENTITY Department.accesskey		"m">
+<!ENTITY Company.label			"組織:">
+<!ENTITY Company.accesskey		"O">
+<!ENTITY WorkAddress.label		"番地:">
+<!ENTITY WorkAddress.accesskey		"A">
+<!ENTITY WorkAddress2.label		"">
+<!ENTITY WorkAddress2.accesskey		"">
+<!ENTITY WorkCity.label			"市区町村:">
+<!ENTITY WorkCity.accesskey		"y">
+<!ENTITY WorkState.label		"都道府県:">
+<!ENTITY WorkState.accesskey		"S">
+<!ENTITY WorkZipCode.label		"郵便番号:">
+<!ENTITY WorkZipCode.accesskey		"Z">
+<!ENTITY WorkCountry.label		"国:">
+<!ENTITY WorkCountry.accesskey		"u">
+<!ENTITY WorkWebPage.label		"Web ページ:">
+<!ENTITY WorkWebPage.accesskey		"e">
+
+<!ENTITY Other.tab			"その他">
+<!ENTITY Other.accesskey		"h">
 <!ENTITY Custom1.label			"追加情報 1:">
 <!ENTITY Custom1.accesskey		"1">
 <!ENTITY Custom2.label			"追加情報 2:">
@@ -149,5 +150,5 @@
 <!ENTITY Custom3.accesskey		"3">
 <!ENTITY Custom4.label			"追加情報 4:">
 <!ENTITY Custom4.accesskey		"4">
-<!ENTITY Notes.box			"メモ">
+<!ENTITY Notes.label			"メモ:">
 <!ENTITY Notes.accesskey		"N">

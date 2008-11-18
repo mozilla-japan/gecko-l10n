@@ -55,7 +55,6 @@
 <!ENTITY retention.label			"保管ポリシー"><!-- (^^; Retention Policy -->
 <!ENTITY retentionUseDefault.label		"サーバの設定を使用する">
 <!ENTITY retentionUseDefault.accesskey		"d"><!-- (^^; 以下 am-offline.dtd と同一 -->
-<!ENTITY days.label				"日">
 <!ENTITY daysOld.label				"日">
 <!ENTITY message.label				"メッセージ">
 <!ENTITY retentionCleanup.label			"古いメッセージを恒久的に削除してディスク領域を開放できます。">
@@ -80,18 +79,15 @@
 
 <!ENTITY selectofflineNewsgroup.check.label	"このニュースグループをオフラインで使用する">
 <!ENTITY selectofflineNewsgroup.check.accesskey	"o">
-<!ENTITY UseDefaultofflineNewsgroup.check.label	"アカウント設定の@@DefaultValue@@を使用する">
 <!ENTITY offlineNewsgroup.button.label		"今すぐダウンロード">
 <!ENTITY offlineNewsgroup.button.accesskey	"D">
 
-<!ENTITY folderProps.information.label		"情報:">
 <!ENTITY folderProps.name.label			"名前:">
 <!ENTITY folderProps.name.accesskey		"N">
 <!ENTITY folderProps.location.label		"場所:">
 <!ENTITY folderProps.location.accesskey		"L">
 
 <!ENTITY folderSharingTab.label			"共有">
-<!ENTITY privilegesDesc.label			"フォルダをネットワークユーザと共有し、アクセス権を表示や設定する">
 <!ENTITY privileges.button.label		"アクセス権限...">
 <!ENTITY privileges.button.accesskey		"P">
 <!ENTITY permissionsDesc.label			"以下のアクセス権限があります:">

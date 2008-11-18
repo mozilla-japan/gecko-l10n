@@ -25,7 +25,6 @@
 <!ENTITY pasteCmd.key			"V">
 <!ENTITY pasteCmd.accesskey		"p">
 <!ENTITY deleteCmd.label		"削除">
-<!ENTITY deleteCmd.key			"D">
 <!ENTITY deleteCmd.accesskey		"d">
 <!ENTITY selectAllCmd.label		"@@SelectAll@@">
 <!ENTITY selectAllCmd.key		"A">
@@ -35,9 +34,6 @@
 <!ENTITY preferencesCmdUnix.label	"設定">
 <!ENTITY preferencesCmdUnix.accesskey	"n">
 
-<!ENTITY findTypeTextCmd.label		"文字入力からテキストを検索"><!-- (^^; Find Text As You Type -->
-<!ENTITY findTypeTextCmd.accesskey	"x">
-
 <!ENTITY viewMenu.label			"表示">
 <!ENTITY viewMenu.accesskey		"v">
 <!ENTITY viewToolbarsMenu.label		"ツールバー">
@@ -45,18 +41,8 @@
 <!ENTITY showTaskbarCmd.label		"ステータスバー">
 <!ENTITY showTaskbarCmd.accesskey	"S">
 
-<!ENTITY direct.label			"オンライン (プロキシ: なし)">
-<!ENTITY direct.accesskey		"n">
-<!ENTITY manual.label			"オンライン (プロキシ: 手動)">
-<!ENTITY manual.accesskey		"m">
-<!ENTITY pac.label			"オンライン (プロキシ: 自動)">
-<!ENTITY pac.accesskey			"a">
-
 <!ENTITY proxy.label			"プロキシ設定...">
 <!ENTITY proxy.accesskey		"C">
-
-<!ENTITY findTypeTextCmd.key		"/">
-<!ENTITY findTypeLinksCmd.key		"'">
 
 <!ENTITY closeCmd.label			"閉じる">
 <!ENTITY closeCmd.key			"W">

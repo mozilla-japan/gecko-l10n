@@ -46,7 +46,6 @@
 <!ENTITY ListDescription.label		"説明: ">
 <!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
 <!ENTITY AddressTitle.label		"アドレスリストに追加するメールアドレスを入力してください:">
-<!ENTITY RemoveButton.label		"削除">
 <!ENTITY UpButton.label			"上へ">
 <!ENTITY DownButton.label		"下へ">
 

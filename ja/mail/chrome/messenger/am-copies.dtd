@@ -6,13 +6,9 @@
 <!ENTITY fccMailFolder.accesskey	"P">
 <!ENTITY fccReplyFollowsParent.label	"返信元のメッセージと同じフォルダに返信を保存する">
 <!ENTITY fccReplyFollowsParent.accesskey "c">
-<!ENTITY chooseFolderButton.label	"フォルダを選択...">
 <!-- LOCALIZATION NOTE (bccAddress.label): do not translate "Bcc" in below line -->
 <!ENTITY bccAddress.label		"このメールアドレスを Bcc に追加:">
 <!ENTITY bccAddress.accesskey		"B">
-<!ENTITY specialFolderTitle.label	"特別なフォルダ">
-<!ENTITY draftMailFolder.label		"下書きの保存先:">
-<!ENTITY templateMailFolder.label	"テンプレートの保存先:">
 <!ENTITY saveMessageDlg.label		"メッセージを保存するとき確認ダイアログを表示する">
 <!ENTITY saveMessageDlg.accesskey	"w">
 <!-- LOCALIZATION NOTE (sentFolderOn.label): OK to translate this, bug #57440 -->

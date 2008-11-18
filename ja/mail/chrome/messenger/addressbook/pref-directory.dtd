@@ -37,14 +37,11 @@
 
 <!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
 <!ENTITY pref.ldap.window.title		"LDAP ディレクトリサーバ">
-<!ENTITY directory.label		"ディレクトリを追加">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
 <!ENTITY directories.label		"LDAP サーバ:">
 <!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
 <!ENTITY directoriesText.label		"LDAP サーバを選んでください:">
 <!ENTITY directoriesText.accesskey	"S">
-<!-- LOCALIZATION NOTE (autocomplete.title) : do not translate "LDAP" in below line -->
-<!ENTITY autocomplete.title		"LDAP サーバ">
 <!ENTITY addDirectory.label		"追加">
 <!ENTITY addDirectory.accesskey		"a">
 <!ENTITY editDirectory.label		"編集">
