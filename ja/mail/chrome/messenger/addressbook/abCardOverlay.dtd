@@ -113,8 +113,8 @@
 <!ENTITY HomeWebPage.accesskey		"e">
 <!ENTITY Birthday.label			"誕生日:">
 <!ENTITY Birthday.accesskey		"B">
-<!ENTITY Year.emptytext			"年">
-<!ENTITY Or.value			"または"><!-- (^^; localizability? -->
+<!ENTITY Year.emptytext			"西暦">
+<!ENTITY Or.value			"年生まれ/満"><!-- (^^; localizability? -->
 <!ENTITY Age.emptytext			"年齢">
 
 <!ENTITY Work.tab			"仕事">

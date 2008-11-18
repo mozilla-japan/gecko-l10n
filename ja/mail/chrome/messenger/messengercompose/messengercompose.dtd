@@ -125,7 +125,7 @@
 
 <!ENTITY returnReceiptMenu.label	"開封確認の返送を求める"><!-- en-US Return Receipt -->
 <!ENTITY returnReceiptMenu.accesskey	"t">
-<!ENTITY dsnMenu.label			"Delivery Status Notification"><!-- (^^; -->
+<!ENTITY dsnMenu.label			"配信状態通知の返送を求める"><!-- en-US Delivery Status Notification -->
 <!ENTITY dsnMenu.accesskey		"N">
 <!ENTITY outputFormatMenu.label		"書式">
 <!ENTITY outputFormatMenu.accesskey	"f">
