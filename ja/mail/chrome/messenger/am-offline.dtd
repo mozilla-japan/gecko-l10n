@@ -3,7 +3,7 @@
 <!ENTITY doNotDownload.label			"次のメッセージはオフライン表示用にダウンロードしない:">
 <!ENTITY allFoldersOffline.label		"このアカウントのメッセージをこのコンピュータに保存する">
 <!ENTITY allFoldersOffline.accesskey		"o">
-<!ENTITY offlineNotDownload.label		"メッセージのサイズが"><!-- (^^; 〜 kb.label -->
+<!ENTITY offlineNotDownload.label		"メッセージのサイズが"><!-- (^^; ... kb.label -->
 <!ENTITY offlineNotDownload.accesskey		"M">
 <!ENTITY kb.label				"KB 以上">
 <!ENTITY daysOld.label				"日"><!-- (^^; "days old" -->

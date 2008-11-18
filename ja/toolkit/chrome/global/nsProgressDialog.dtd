@@ -129,7 +129,7 @@
 
     #1 will be replaced by the elapsed time
     #2 will be replaced by the size of the file in Kilobytes -->
-<!ENTITY completeMsg		"完了 — サイズ： #2 KB (経過時間： #1)">
+<!ENTITY completeMsg		"完了 — サイズ: #2 KB (経過時間: #1)">
 
 <!-- LOCALIZATION NOTE (percentMsg):
 

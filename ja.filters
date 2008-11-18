@@ -256,6 +256,7 @@ browser.credits.dtd			= <ul>\
 					  <li>Atsushi Sakai</li>\
 					  </ul>
 
+# old credits for Firefox 2.0
 #browser.credits.dtd			= <ul>\
 #					  <li>Mozilla Japan</li>\
 #					  <li>Makoto Arai</li>\
@@ -300,19 +301,6 @@ mail.credits.dtd			= <ul>\
 
 
 #	[ toolkit module ]
-
-# toolkit/chrome/global/finddialog.dtd
-firefox.finddialog.findDialog.title	= このページ内で検索
-thunderbird.finddialog.findDialog.title	= このメッセージ内を検索
-sunbird.finddialog.findDialog.title	= このページ内で検索
-
-
-# security/manager/chrome/pippki/pippki.dtd
-firefox.pippki.resetPassword.text	= マスターパスワードをリセットすると、保存されているすべての Web やメールのパスワード、フォームデータ、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？
-thunderbird.pippki.resetPassword.text	= マスターパスワードをリセットすると、保存されているすべてのメールパスワード、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？
-sunbird.pippki.resetPassword.text	= マスターパスワードをリセットすると、保存されているすべてのメールパスワード、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？
-
-
 
 # toolkit/chrome/global/customizeToolbar.dtd
 ja.customizeToolbar.nstructions.description		= ドラッグ &amp; ドロップによりツールバーのアイテムを追加、削除や移動できます。
