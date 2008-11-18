@@ -1,6 +1,6 @@
 <!-- extracted from finddialog.xul -->
 
-<!ENTITY findDialog.title		"@@finddialog.findDialog.title@@">
+<!ENTITY findDialog.title		"このページ内で検索"><!-- (^^; ページかどうかはアプリ依存だが使われてないから問題なし -->
 <!ENTITY findField.label		"検索する語句:">
 <!ENTITY findField.accesskey		"n">
 <!ENTITY caseSensitiveCheckbox.label	"大文字/小文字を区別">
