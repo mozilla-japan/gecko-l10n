@@ -6,7 +6,7 @@
 
 <!-- General Settings -->
 
-<!ENTITY enableGloda.label             "メッセージの索引データベースを有効にする">
+<!ENTITY enableGloda.label             "メッセージの索引データベースを有効にする"><!-- (^^; Enable Message Indexer -->
 <!ENTITY enableGloda.accesskey         "i">
 <!ENTITY showCondensedAddresses.label		"アドレス帳に登録されている人については宛先フィールドで &lt;メールアドレス&gt; 部を表示しない"><!-- (^^; en-US: Show only display name for people in my address book. -->
 <!ENTITY showCondensedAddresses.accesskey	"p">
@@ -67,7 +67,7 @@
 <!ENTITY showOffline.accesskey			"O">
 
 <!ENTITY Diskspace				"ディスク領域">
-<!ENTITY offlineCompact.label			"ディスク領域を"><!-- (^^; offlineCompact.label ? kb.label -->
+<!ENTITY offlineCompact.label			"ディスク領域を"><!-- (^^; offlineCompact.label [ ] kb.label -->
 <!ENTITY offlineCompact.accesskey		"v">
 <!ENTITY kb.label				"KB 以上節約できるときはフォルダを最適化する">
 
