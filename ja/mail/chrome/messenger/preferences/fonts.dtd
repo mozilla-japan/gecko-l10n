@@ -8,7 +8,6 @@
 <!ENTITY  language.label		"対象言語:">
 <!ENTITY  language.accesskey		"t">
 
-<!ENTITY  typefaces.label		"Typeface">
 <!ENTITY  sizes.label			"サイズ:">
 <!ENTITY  proportionalSize.accesskey	"e">
 <!ENTITY  monospaceSize.accesskey	"x">
@@ -22,8 +21,6 @@
 <!ENTITY  sans-serif.accesskey		"n">
 <!ENTITY  monospace.label		"@@Monospace@@:">
 <!ENTITY  monospace.accesskey		"m">
-
-<!ENTITY  fontsize.units		"ピクセル">
 
 <!ENTITY  font.langGroup.latin1		"西欧">
 <!ENTITY  font.langGroup.latin2		"中欧">
@@ -61,8 +58,6 @@
 <!-- default font type -->
 <!ENTITY  useDefaultFontSerif.label	"@@Serif@@">
 <!ENTITY  useDefaultFontSansSerif.label	"@@Sans-serif@@">
-
-<!ENTITY  newLanguages.label		"言語パネルを使って新しい言語を設定できます。">
 
 <!ENTITY  useDocumentFonts.label	"メッセージが指定したフォントを優先する">
 <!ENTITY  useDocumentFonts.accesskey	"o">

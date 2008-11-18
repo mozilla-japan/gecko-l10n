@@ -3,8 +3,6 @@
 <!ENTITY alwaysAsk.accesskey		"A">
 <!ENTITY neverAsk.label			"すべての添付ファイルをこのフォルダに保存する:">
 <!ENTITY neverAsk.accesskey		"S">
-<!ENTITY desktop.label			"デスクトップ">
-<!ENTITY downloads.label		"マイダウンロード"><!-- (^^; TB では使われていないから放置でよいか… -->
 <!ENTITY chooseFolderWin.label		"@@Browse@@...">
 <!ENTITY chooseFolderWin.accesskey	"B">
 <!ENTITY chooseFolderMac.label		"選択...">
@@ -14,10 +12,3 @@
 <!ENTITY configureActions.label		"動作設定の表示と変更...">
 <!ENTITY configureActions.accesskey	"V">
 <!ENTITY fileTypesDescription.label	"添付ファイルの種類に応じて決められた処理を実行します。">
-
-<!ENTITY fileTypeColName.label		"ファイルの種類">
-<!ENTITY fileHandlerColName.label	"@@Application@@">
-<!ENTITY editFileHandler.label		"動作設定を変更...">
-<!ENTITY editFileHandler.accesskey	"a">
-<!ENTITY removeFileHandler.label	"削除">
-<!ENTITY removeFileHandler.accesskey	"r">

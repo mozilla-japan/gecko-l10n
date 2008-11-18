@@ -57,7 +57,6 @@
 <!ENTITY messageIdField2.label			"message-id ">
 <!ENTITY inReplyToField2.label			"in-reply-to ">
 <!ENTITY originalWebsite2.label			"Web サイト ">
-<!ENTITY saveAll.label				"すべて保存...">
 
 <!ENTITY editMessageDescription.label		"このメッセージは下書きです">
 <!ENTITY editMessageButton.label		"編集...">

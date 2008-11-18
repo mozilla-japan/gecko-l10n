@@ -1,12 +1,2 @@
-<!ENTITY  untitledTab              "(無題)">
-<!ENTITY  newTab.label             "@@NewTab@@">
-<!ENTITY  newTab.accesskey         "N">
 <!ENTITY  closeTab.label           "タブを閉じる">
-<!ENTITY  closeTab.accesskey       "c">
-<!ENTITY  closeOtherTabs.accesskey "o">
-<!ENTITY  closeOtherTabs.label     "他のタブをすべて閉じる">
-<!ENTITY  reloadAllTabs.label      "すべてのタブを再読み込み">
-<!ENTITY  reloadAllTabs.accesskey  "A">
-<!ENTITY  reloadTab.label          "タブを再読み込み">
-<!ENTITY  reloadTab.accesskey      "r">
 <!ENTITY  listAllTabs.label        "すべてのタブを一覧表示">

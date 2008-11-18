@@ -43,12 +43,3 @@
 <!ENTITY antiVirus.intro			"ウィルス対策ソフトがウィルスを検出したとき、感染したメッセージだけを処理できるようにします。"><!-- en-US: &brandShortName; can make it easy for anti-virus software to analyze incoming mail messages for viruses before they are stored locally. 直訳: 受信メッセージを保存する前に、それをウィルス対策ソフトで分析しやすくなるようにできます。 -->
 <!ENTITY antiVirus.label			"受信したメッセージは一旦個別の一時ファイルとして保存してからメールボックスに移動させる"><!-- en-US: Allow anti-virus clients to quarantine individual incoming messages 直訳: ウィルス対策ソフトが個別の受信メッセージを隔離できるようにする -->
 <!ENTITY antiVirus.accesskey			"l">
-
-<!-- Extra strings we might use after the l10n string freeze in the preferences dialog -->
-<!ENTITY antiVirusCaption.label			"ウィルス対策">
-<!ENTITY paswords.label				"パスワード">
-<!ENTITY emailScams.label			"詐欺メール">
-<!ENTITY junkMail.label				"迷惑メール">
-<!ENTITY itemIntrusions.label			"不正侵入"><!-- (^^;  -->
-<!ENTITY itemIntrusionsAndPasswords.label	"不正侵入とパスワード"><!-- (^^;  -->
-<!ENTITY itemJunkMail.label			"迷惑メール">

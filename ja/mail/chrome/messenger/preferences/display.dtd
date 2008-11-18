@@ -1,8 +1,6 @@
 <!ENTITY itemFormatting.label		"書式">
 <!ENTITY itemTags.label			"タグ">
-<!ENTITY itemFonts.label		"フォント">
 
-<!ENTITY textBegin.label		"引用文の表示">
 <!ENTITY style.label			"書式:">
 <!ENTITY style.accesskey		"y">
 <!ENTITY regularStyle.label		"標準">
@@ -19,12 +17,10 @@
 <!ENTITY displayWidth.label		"プレーンテキストメッセージ">
 <!ENTITY plainText.label		"使用するフォントの種類:">
 <!ENTITY displayText.label		"引用されたテキストメッセージの表示:">
-<!ENTITY viewingPlainText.label		"プレーンテキストメッセージの表示:">
 <!ENTITY fixedWidth.label		"@@Monospace@@">
 <!ENTITY fixedWidth.accesskey		"x">
 <!ENTITY variableWidth.label		"@@Proportional@@">
 <!ENTITY variableWidth.accesskey	"V">
-<!ENTITY readingMessagesHeader.label	"受信メッセージ">
 <!ENTITY colors.label			"@@Colors@@">
 <!ENTITY overrideColors.label		"メッセージの表示時に次の@@Colors@@を使用します:">
 <!ENTITY textColor.label		"文字色:">

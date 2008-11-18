@@ -47,11 +47,6 @@
 <!ENTITY printCmd.label			"@@Print@@...">
 <!ENTITY printCmd.key			"P">
 <!ENTITY printCmd.accesskey		"P">
-<!ENTITY quitApplicationCmdWin.label	"終了">
-<!ENTITY quitApplicationCmdWin.accesskey "x">
-<!ENTITY quitApplicationCmd.label	"終了">
-<!ENTITY quitApplicationCmd.accesskey	"Q">
-<!ENTITY quitApplicationCmd.key		"Q">
 
 <!-- Edit Menu -->
 <!ENTITY editMenu.label			"編集">
@@ -71,11 +66,11 @@
 <!ENTITY pasteCmd.label			"@@Paste@@">
 <!ENTITY pasteCmd.key			"V">
 <!ENTITY pasteCmd.accesskey		"p">
+<!ENTITY pasteNoFormattingCmd.key	"V">
 <!ENTITY editRewrapCmd.label		"再改行">
 <!ENTITY editRewrapCmd.key		"R">
 <!ENTITY editRewrapCmd.accesskey	"w">
 <!ENTITY deleteCmd.label		"削除">
-<!ENTITY deleteCmd.key			"D">
 <!ENTITY deleteCmd.accesskey		"d">
 <!ENTITY selectAllCmd.label		"@@SelectAll@@">
 <!ENTITY selectAllCmd.key		"A">
@@ -98,7 +93,6 @@
 <!ENTITY viewToolbarsMenuNew.label		"ツールバー">
 <!ENTITY viewToolbarsMenuNew.accesskey		"T">
 <!ENTITY showCompositionToolbarCmd.label	"編集ツールバー">
-<!ENTITY showCompositionToolbarCmd.accesskey	"o">
 <!ENTITY showFormattingBarCmd.label		"書式バー">
 <!ENTITY showFormattingBarCmd.accesskey		"F">
 <!ENTITY showTaskbarCmd.label			"ステータスバー">
@@ -173,7 +167,6 @@
 <!ENTITY accountManagerCmd.accesskey	"c">
 <!ENTITY accountManagerCmdUnix.accesskey "S">
 <!ENTITY preferencesCmd.label		"オプション...">
-<!ENTITY preferencesCmd.key		"O">
 <!ENTITY preferencesCmd.accesskey	"O">
 <!ENTITY preferencesCmdUnix.label	"設定">
 <!ENTITY preferencesCmdUnix.accesskey	"n">
@@ -220,10 +213,6 @@
 <!ENTITY attachments.accesskey		"c">
 
 <!-- Format Toolbar, imported from editorAppShell.xul -->
-<!--LOCALIZATION NOTE formatToolbar. Don't change any of these Style Characters -->
-<!ENTITY formatToolbar.boldChar		"B">
-<!ENTITY formatToolbar.italicChar	"I">
-<!ENTITY formatToolbar.underlineChar	"U">
 <!ENTITY SmileButton.tooltip		"顔文字を挿入">
 <!ENTITY smiley1Cmd.label		"スマイル">
 <!ENTITY smiley2Cmd.label		"しかめっ面">
