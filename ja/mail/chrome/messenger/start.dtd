@@ -1,4 +1,4 @@
-<!-- (^^; http://hg.mozilla.org/comm-central/file/641c14ca5210/mail/base/content/start.xhtml -->
+<!-- (^^; http://hg.mozilla.org/comm-central/file/tip/mail/base/content/start.xhtml -->
 
 <!ENTITY startpage.welcome		"&brandFullName; へようこそ！">
 <!ENTITY startpage.intro		"&brandFullName; はオープンソースのメール、フィード、ニュースクライアントです。">
@@ -22,11 +22,11 @@
 <!ENTITY startpage.moreInfo		"詳細情報">
 
 <!ENTITY startpage.help			"Thunderbird Help">
-<!ENTITY startpage.helpInfo		"よくある質問やヒント、その他一般的なヘルプは次のページをご覧ください。"><!-- (^^; よくある質問やヒント、その他一般的なヘルプは～をご覧ください。 -->
+<!ENTITY startpage.helpInfo		"よくある質問やヒント、その他一般的なヘルプは次のページをご覧ください。">
 <!ENTITY startpage.helpURL		"http://mozilla.jp/support/thunderbird/">
 
 <!ENTITY startpage.page			"Thunderbird 製品情報ページ">
-<!ENTITY startpage.pageInfo		"製品情報については次のページをご覧ください。"><!-- (^^; 製品情報については～をご覧ください。 -->
+<!ENTITY startpage.pageInfo		"製品情報については次のページをご覧ください。">
 <!ENTITY startpage.pageURL		"http://mozilla.jp/thunderbird/">
 
 <!ENTITY startpage.extra		'<div id="indent"><p>日本語環境での問題点について<a href="http://mozilla.jp/thunderbird/troubleshooting.html">トラブルシューティング</a>を用意しております。</p></div>'>
