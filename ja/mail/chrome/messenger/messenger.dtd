@@ -42,7 +42,7 @@
 <!ENTITY renameFolder.accesskey		"R">
 <!ENTITY renameFolder.key		"VK_F2">
 <!ENTITY compactFolders.label		"フォルダを最適化">
-<!ENTITY compactFolders.accesskey.accesskey	"F">
+<!ENTITY compactFolders.accesskey	"F">
 <!ENTITY emptyTrashCmd.label		"@@TrashFolder@@を空にする">
 <!ENTITY emptyTrashCmd.accesskey	"y">
 <!ENTITY importCmd.label		"設定とデータ@@-ImportCMD@@...">
@@ -123,10 +123,10 @@
 <!ENTITY messagePaneLayoutStyle.accesskey	"L">
 <!ENTITY messagePaneClassic.label		"クラシック表示">
 <!ENTITY messagePaneClassic.accesskey		"C">
+<!ENTITY messagePaneWide.label			"横長表示">
+<!ENTITY messagePaneWide.accesskey		"W">
 <!ENTITY messagePaneVertical.label		"縦表示">
 <!ENTITY messagePaneVertical.accesskey		"V">
-<!ENTITY threadPaneWide.label			"ワイドリスト表示">
-<!ENTITY threadPaneWide.accesskey		"i">
 <!ENTITY showMessageCmd.label			"メッセージペイン">
 <!ENTITY showMessageCmd.accesskey		"M">
 
