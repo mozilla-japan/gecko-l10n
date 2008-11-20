@@ -13,4 +13,4 @@
 <!ENTITY sortOptions.label "並べ替えのオプション">
 <!ENTITY sortOrder.label "昇順 / 降順:">
 <!ENTITY sortRecursively.label "この順序を崩さない">
-<!ENTITY window.title "フォルダを並び替え">
+<!ENTITY window.title "フォルダを並べ替え">

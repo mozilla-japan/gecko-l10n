@@ -36,7 +36,7 @@
 <!ENTITY url.label               "URL">
 <!ENTITY mode.label              "モード">
 <!ENTITY topic.label             "トピック">
-<!ENTITY users.label             "ユーザー">
+<!ENTITY users.label             "ユーザ">
 <!ENTITY lag.label               "ラグ">
 
 <!ENTITY OptionsCmd.label        "オプション">
@@ -60,7 +60,7 @@
 <!ENTITY ShowCmd.akey            "S">
 <!ENTITY ShowTabStripCmd.label   "タブ">
 <!ENTITY ShowTabStripCmd.aKey    "T">
-<!ENTITY ShowUserlistCmd.label   "ユーザーリスト">
+<!ENTITY ShowUserlistCmd.label   "ユーザリスト">
 <!ENTITY ShowUserlistCmd.aKey    "U">
 <!ENTITY ShowHeaderCmd.label     "ヘッダー">
 <!ENTITY ShowHeaderCmd.aKey      "H">
@@ -90,7 +90,7 @@
 <!ENTITY StatusCmd.label         "接続の状態">
 <!ENTITY StatusCmd.aKey          "C">
 
-<!ENTITY CloseCmd.label          "ウィンドウを閉じる">
+<!ENTITY CloseCmd.label          "@@Window@@を閉じる">
 <!ENTITY CloseCmd.aKey           "C">
 
 <!ENTITY PopupQueryCmd.label         "``$nick'' とプライベート チャット">

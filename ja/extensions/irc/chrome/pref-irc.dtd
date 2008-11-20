@@ -1,7 +1,7 @@
 <!ENTITY pref-irc.window.title   "ChatZilla">
 
 <!ENTITY pref-irc.open.title     "ChatZilla の設定">
-<!ENTITY pref-irc.open.desc      "ChatZilla の設定は量が多いため、このウィンドウには収まりません。専用のウィンドウを開いてください。">
+<!ENTITY pref-irc.open.desc      "ChatZilla の設定は量が多いため、この@@Window@@には収まりません。専用の@@Window@@を開いてください。">
 <!ENTITY pref-irc.open.label     "ChatZilla の設定を開く">
 <!ENTITY pref-irc.open.accesskey "O">
 <!ENTITY startup.chat.label      "ChatZilla">

@@ -7,5 +7,5 @@
 <!ENTITY emptyTrashOnExit.accesskey "x">
 <!ENTITY localPath.label "Local directory:">
 <!ENTITY localFolderPicker.label "Select Local Directory">
-<!ENTITY browseFolder.label "Browse…">
+<!ENTITY browseFolder.label "Browse...">
 <!ENTITY browseFolder.accesskey "B">

@@ -10,8 +10,8 @@
 <!ENTITY enableJavaScript.label "JavaScript を有効にする:">
 <!ENTITY allowScripts.label "以下のスクリプトを許可:">
 <!ENTITY allowScripts.accesskey "s">
-<!ENTITY allowWindowMoveResize.label "ウィンドウの移動または大きさの変更">
-<!ENTITY allowWindowFlip.label "ウィンドウの上下(focus)を切り換える">
+<!ENTITY allowWindowMoveResize.label "@@Window@@の移動または大きさの変更">
+<!ENTITY allowWindowFlip.label "@@Window@@の上下(focus)を切り換える">
 <!ENTITY allowWindowStatusChange.label "ステータス バーのテキストの変更">
 <!ENTITY allowWindowImageSrcChange.label "画像の変更">
 <!ENTITY allowContextmenuDisable.label "ページ独自のコンテキスト メニュー設定を無効にする">

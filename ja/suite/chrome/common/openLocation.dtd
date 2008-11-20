@@ -10,5 +10,5 @@
 <!ENTITY editNewWindow.label "新しい Composerで編集する">
 <!ENTITY open.label "開く">
 <!ENTITY caption.label "ウェブ ページを開く">
-<!ENTITY openWhere.label "このウィンドウで開く:">
+<!ENTITY openWhere.label "この@@Window@@で開く:">
 <!ENTITY openWhere.accesskey "O">

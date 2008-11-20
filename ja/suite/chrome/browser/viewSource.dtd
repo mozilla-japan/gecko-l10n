@@ -19,9 +19,9 @@
 <!ENTITY findNextCmd.label "次を検索">
 <!ENTITY findNextCmd.accesskey "n">
 
-<!ENTITY goToLineCmd.label "行に移動…">
+<!ENTITY goToLineCmd.label "行に移動...">
 <!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY printSetupCmd.label "ページ設定…">
+<!ENTITY printSetupCmd.label "ページ設定...">
 <!ENTITY printSetupCmd.accesskey "u">

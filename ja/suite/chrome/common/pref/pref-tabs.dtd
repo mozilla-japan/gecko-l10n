@@ -13,13 +13,13 @@
 <!ENTITY loadGroupReplace.accesskey "R">
 <!ENTITY loadGroupReplace.label "すべてのタブを置き換える">
 <!ENTITY newWindow.label "リンクの開き方">
-<!ENTITY newWindowDescription.label "本来は新しいウィンドウで開くリンクを">
+<!ENTITY newWindowDescription.label "本来は新しい@@Window@@で開くリンクを">
 <!ENTITY newWindowGroupCurrent.accesskey "c">
 <!ENTITY newWindowGroupTab.accesskey "n">
 <!ENTITY newWindowGroupWindow.accesskey "w">
-<!ENTITY openCurrent.label "一番手前のタブまたはウィンドウで開く">
-<!ENTITY openTab.label "一番手前のウィンドウで新しいタブとして開く">
-<!ENTITY openTabs.label "ウィンドウの代わりにタブを開く場合">
-<!ENTITY openWindow.label "新しいウィンドウで開く">
+<!ENTITY openCurrent.label "一番手前のタブまたは@@Window@@で開く">
+<!ENTITY openTab.label "一番手前の@@Window@@で新しいタブとして開く">
+<!ENTITY openTabs.label "@@Window@@の代わりにタブを開く場合">
+<!ENTITY openWindow.label "新しい@@Window@@で開く">
 <!ENTITY tabDisplay.label "タブ表示">
 <!ENTITY tabHeader.label "タブ ブラウズ">

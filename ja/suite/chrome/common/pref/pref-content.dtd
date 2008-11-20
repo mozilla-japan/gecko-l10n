@@ -14,7 +14,7 @@
 <!ENTITY tbIconsCache.accesskey                 "O">
 <!ENTITY tbIconsAlways.label                    "ブックマークにウェブサイトアイコンをいつもロードする">
 <!ENTITY tbIconsAlways.accesskey                "w">
-<!ENTITY enableAutomaticImageResizing.label     "大きな画像をブラウザ ウィンドウに合わせて縮小表示する">
+<!ENTITY enableAutomaticImageResizing.label     "大きな画像をブラウザ @@Window@@に合わせて縮小表示する">
 <!ENTITY enableAutomaticImageResizing.accesskey "R">
 <!ENTITY useSmoothScroll.label                  "スムーズ スクロールを使用する">
 <!ENTITY useSmoothScroll.accesskey              "U">

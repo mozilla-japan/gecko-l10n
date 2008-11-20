@@ -13,7 +13,7 @@
 <!ENTITY insdel-date.label     "Date:">
 <!ENTITY link-sec.label        "リンクのプロパティ">
 <!ENTITY link-url.label        "アドレス:">
-<!ENTITY link-target.label     "開くウィンドウ:">
+<!ENTITY link-target.label     "開く@@Window@@:">
 <!ENTITY link-type.label       "ターゲットのタイプ:">
 <!ENTITY link-lang.label       "ターゲットの言語:">
 <!ENTITY link-rel.label        "関係:">

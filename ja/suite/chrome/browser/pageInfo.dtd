@@ -100,7 +100,7 @@
 <!ENTITY  mediaTitle            "タイトル属性:">
 <!ENTITY  mediaLongdesc         "詳しい説明:">
 <!ENTITY  mediaBlockImage.accesskey "B">
-<!ENTITY  mediaSaveAs           "名前をつけて保存…">
+<!ENTITY  mediaSaveAs           "名前をつけて保存...">
 <!ENTITY  mediaSaveAs.accesskey "A">
 <!ENTITY  mediaSaveAs2.accesskey "e">
 <!ENTITY  mediaPreview          "メディアプレビュー:">
@@ -118,7 +118,7 @@
 <!ENTITY  permBlock             "ブロック">
 <!ENTITY  permissionsFor        "許可情報:">
 <!ENTITY  permImage             "画像を読み込む">
-<!ENTITY  permPopup             "ポップアップウィンドウを開く">
+<!ENTITY  permPopup             "ポップアップ@@Window@@を開く">
 <!ENTITY  permCookie            "Cookieの保存">
 <!ENTITY  permInstall           "拡張機能またはテーマのインストール">
 
@@ -133,7 +133,7 @@
 <!ENTITY  securityView.identity.header   "Web サイトの識別情報">
 <!ENTITY  securityView.identity.owner    "運営者: ">
 <!ENTITY  securityView.identity.domain   "Web サイト: ">
-<!ENTITY  securityView.identity.verifier "発行元: ">
+<!ENTITY  securityView.identity.verifier "認証局: ">
 
 <!ENTITY  securityView.privacy.header                   "プライバシーと履歴">
 <!ENTITY  securityView.privacy.history                  "昨日までに何回このサイトを訪問したことがあるか？">
