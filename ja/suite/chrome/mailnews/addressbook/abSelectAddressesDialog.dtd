@@ -39,11 +39,11 @@
 <!ENTITY selectAddressWindow.title           "Select Addresses">
 
 <!-- Buttons -->
-<!ENTITY toButton.label                      "To->"> 
+<!ENTITY toButton.label                      "To-&gt;"> 
 <!ENTITY toButton.accesskey                  "T"> 
-<!ENTITY ccButton.label                      "Cc->"> 
+<!ENTITY ccButton.label                      "Cc-&gt;"> 
 <!ENTITY ccButton.accesskey                  "C"> 
-<!ENTITY bccButton.label                     "Bcc->">  
+<!ENTITY bccButton.label                     "Bcc-&gt;">  
 <!ENTITY bccButton.accesskey                 "B">  
 <!ENTITY newButton.label                     "New…"> 
 <!ENTITY newButton.accesskey                 "N"> 

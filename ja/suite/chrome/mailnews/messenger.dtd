@@ -571,7 +571,7 @@
 <!ENTITY folderContextProperties.label "Properties…">
 <!ENTITY folderContextProperties.accesskey "P">
 
-<!---SearchBar-->
+<!-- SearchBar -->
 <!-- also used by addressbook -->
 <!ENTITY SearchSubjectOrFrom.label "Subject or From contains:">
 <!ENTITY SearchSubjectOrFrom.accesskey "S">
