@@ -1,0 +1,60 @@
+<!ENTITY cursive.accesskey "c">
+<!ENTITY cursive.label "筆記体:">
+<!ENTITY fantasy.accesskey "f">
+<!ENTITY fantasy.label "ファンタジー:">
+<!ENTITY font.langGroup.arabic "アラビア語">
+<!ENTITY font.langGroup.armenian "アルメニア語">
+<!ENTITY font.langGroup.baltic "バルト語">
+<!ENTITY font.langGroup.bengali "ベンガル語">
+<!ENTITY font.langGroup.canadian "統合カナダ音節">
+<!ENTITY font.langGroup.cyrillic "キリル文字">
+<!ENTITY font.langGroup.devanagari "デバナーガリー文字">
+<!ENTITY font.langGroup.el "ギリシア語">
+<!ENTITY font.langGroup.ethiopic "アムハラ文字">
+<!ENTITY font.langGroup.georgian "グルジア語">
+<!ENTITY font.langGroup.gujarati "グジャラート語">
+<!ENTITY font.langGroup.gurmukhi "グルムキー文字">
+<!ENTITY font.langGroup.hebrew "ヘブライ語">
+<!ENTITY font.langGroup.japanese "日本語">
+<!ENTITY font.langGroup.khmer "クメール語">
+<!ENTITY font.langGroup.korean "韓国語">
+<!ENTITY font.langGroup.latin1 "西欧">
+<!ENTITY font.langGroup.latin2 "中欧">
+<!ENTITY font.langGroup.malayalam "マラヤラム語">
+<!ENTITY font.langGroup.simpl-chinese "簡体字中国語">
+<!ENTITY font.langGroup.tamil "タミル語">
+<!ENTITY font.langGroup.thai "タイ語">
+<!ENTITY font.langGroup.trad-chinese "繁体字中国語 (台湾)">
+<!ENTITY font.langGroup.trad-chinese-hk "繁体字中国語 (香港)">
+<!ENTITY font.langGroup.turkish "トルコ語">
+<!ENTITY font.langGroup.unicode "他の言語">
+<!ENTITY font.langGroup.user-def "ユーザ定義">
+<!ENTITY fontsize.units "ピクセル">
+<!ENTITY header2 "ウェブ ページによってはフォントが指定されていることがあります。">
+<!ENTITY language.accesskey "t">
+<!ENTITY language.label "言語用のフォント:">
+<!ENTITY minSize.accesskey "z">
+<!ENTITY minSize.label "最小フォント サイズ:">
+<!ENTITY minSize.none "なし">
+<!ENTITY monospace.accesskey "m">
+<!ENTITY monospace.label "モノスペース:">
+<!ENTITY newLanguages.label "言語パネルを使って新しい言語を設定できます。">
+<!ENTITY pref.fonts.title "フォント">
+<!ENTITY proportional.accesskey "P">
+<!ENTITY proportional.label "可変ピッチ:">
+<!ENTITY sans-serif.accesskey "n">
+<!ENTITY sans-serif.label "サンセリフ:">
+<!ENTITY serif.accesskey "s">
+<!ENTITY serif.label "セリフ:">
+<!ENTITY sizes.label "サイズ (ピクセル)">
+<!ENTITY typefaces.label "書体">
+<!ENTITY useDefaultFont.accesskey "u">
+<!ENTITY useDefaultFont.label "ページで指定されたフォントを無視してデフォルトのフォントを使用する">
+<!ENTITY useDefaultFontSansSerif.label "サンセリフ">
+<!ENTITY useDefaultFontSerif.label "セリフ">
+<!ENTITY useDocFontDynamic.accesskey "a">
+<!ENTITY useDocFontDynamic.label "ページによって指定されたすべてのフォントを使用する">
+<!ENTITY useDocFontNonDynamic.accesskey "p">
+<!ENTITY useDocFontNonDynamic.label "ページによって指定されたフォントを使用する">
+<!ENTITY useDocumentFonts.accesskey "o">
+<!ENTITY useDocumentFonts.label "ウェブ ページで他のフォントを使用できる">

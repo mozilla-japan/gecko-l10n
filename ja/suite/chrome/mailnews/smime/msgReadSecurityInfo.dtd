@@ -1,0 +1,10 @@
+<!--LOCALIZATION NOTE msgReadSecurityInfo.dtd UI for viewing security status when reading a received message -->
+
+<!ENTITY status.label "メッセージのセキュリティ">
+<!ENTITY signatureCert.label "署名の証明書を表示">
+<!ENTITY encryptionCert.label "暗号の証明書を表示">
+
+<!ENTITY signer.name "署名者:">
+<!ENTITY recipient.name "暗号化:">
+<!ENTITY email.address "電子メール アドレス:">
+<!ENTITY issuer.name "証明書発行者:">

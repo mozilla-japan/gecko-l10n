@@ -1,0 +1,17 @@
+<!ENTITY allengines.label "すべての検索エンジン">
+<!ENTITY checkbox.column.label "使用">
+<!ENTITY choose.label "検索エンジンを選択して検索をクリックしてください">
+<!ENTITY customize.menuitem.label "カテゴリを編集...">
+<!ENTITY engine.column.label "検索エンジン">
+<!ENTITY next.button.label "次へ">
+<!ENTITY next.button.tooltip "次の検索結果を表示">
+<!ENTITY previous.button.label "前">
+<!ENTITY previous.button.tooltip "前の検索結果を表示">
+<!ENTITY results.label "検索結果">
+<!ENTITY savesearch.button.label "検索結果をブックマークする">
+<!ENTITY search.advanced.tab "拡張">
+<!ENTITY search.button.label "検索">
+<!ENTITY search.results.tab "適用">
+<!ENTITY stop.button.label "中止">
+<!ENTITY using.label "検索エンジン">
+<!ENTITY within.label "検索カテゴリ">

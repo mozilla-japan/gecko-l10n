@@ -1,0 +1,43 @@
+<!-- extracted from tasksOverlay.xul -->
+<!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
+<!ENTITY navigatorCmd.label "Browser">
+<!ENTITY navigatorCmd.accesskey "B">
+<!ENTITY navigatorCmd.commandkey "1">
+<!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
+<!ENTITY editorCmd.label "Composer">
+<!ENTITY editorCmd.accesskey "c">
+<!ENTITY editorCmd.commandkey "4">
+
+<!ENTITY securityInfoCmd.label ".セキュリティ情報">
+<!ENTITY securityInfoCmd.accesskey "s">
+<!ENTITY javaConsoleCmd.label "Java コンソール">
+<!ENTITY javaConsoleCmd.accesskey "j">
+
+<!ENTITY errorConsoleCmd.accesskey				"C">
+<!ENTITY errorConsoleCmd.label                                  "エラー コンソール">
+
+<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
+<!ENTITY privacyMenu.label "Privacy &amp; Security">
+<!ENTITY privacyMenu.accesskey "p">
+
+<!ENTITY taskComposer.tooltip "Composer">
+<!ENTITY taskNavigator.tooltip "Browser">
+<!ENTITY taskBar.tooltip "ステータス バー">
+
+<!ENTITY webDevelopment.label "ウェブ開発">
+<!ENTITY webDevelopment.accesskey "W">
+
+<!ENTITY windowMenu.label "ウィンドウ">
+<!ENTITY windowMenu.accesskey "W">
+
+<!ENTITY tasksMenu.label "ツール">
+<!ENTITY tasksMenu.accesskey "T">
+
+<!ENTITY downloadManagerCmd.label "ダウンロード マネージャ">
+<!ENTITY downloadManagerCmd.accesskey "D">
+
+<!ENTITY addonsManagerCmd.label "アドオン マネージャ">
+<!ENTITY addonsManagerCmd.accesskey "A">
+
+<!ENTITY switchProfileCmd.label "プロファイルの切り換え...">
+<!ENTITY switchProfileCmd.accesskey "h">

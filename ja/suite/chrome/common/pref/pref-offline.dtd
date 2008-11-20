@@ -1,0 +1,6 @@
+<!ENTITY boxHeader "オフライン">
+<!ENTITY rHeader "オフライン">
+<!ENTITY radioAskMode "オフラインとオンラインのどちらにするか確認する">
+<!ENTITY radioUsePrev "前回のオフライン / オンライン状態と同じにする">
+<!ENTITY textStart "&brandShortName; が起動時に:">
+<!ENTITY window.title "オフライン">

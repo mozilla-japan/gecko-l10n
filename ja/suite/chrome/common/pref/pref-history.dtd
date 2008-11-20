@@ -1,0 +1,12 @@
+<!ENTITY clearHistory.accesskey "r">
+<!ENTITY clearHistory.label "履歴をクリア">
+<!ENTITY clearLocationBar.label "アドレス バー メニューに保存されているサイト一覧をクリアします。">
+<!ENTITY clearLocationBarButton.accesskey "b">
+<!ENTITY clearLocationBarButton.label "アドレス バーのクリア">
+<!ENTITY days.label "日">
+<!ENTITY historyPages.label "履歴は過去に訪問したページの一覧です。">
+<!ENTITY locationBarHistory.caption "アドレス バーの履歴">
+<!ENTITY pageHis.accesskey "a">
+<!ENTITY pageHis.label "訪問したページを次の日数だけ記憶する:">
+<!ENTITY pref.history.caption "履歴">
+<!ENTITY pref.history.title "履歴">

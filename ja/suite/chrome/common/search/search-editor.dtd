@@ -1,0 +1,16 @@
+<!ENTITY add.accesskey "a">
+<!ENTITY add.label "追加">
+<!ENTITY allengines.label "すべての検索エンジン">
+<!ENTITY category.accesskey "c">
+<!ENTITY category.label "カテゴリ">
+<!ENTITY done.label "完了">
+<!ENTITY engine.column.label "このカテゴリの検索エンジン">
+<!ENTITY new.category.accesskey "n">
+<!ENTITY new.category.label "新規...">
+<!ENTITY remove.accesskey "r">
+<!ENTITY remove.category.accesskey "d">
+<!ENTITY remove.category.label "削除">
+<!ENTITY remove.label "削除">
+<!ENTITY rename.category.accesskey "e">
+<!ENTITY rename.category.label "名前の変更...">
+<!ENTITY window.title.label "カテゴリを編集">

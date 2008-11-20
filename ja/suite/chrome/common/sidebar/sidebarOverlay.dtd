@@ -1,0 +1,23 @@
+<!ENTITY sidebar.close.tooltip "Sidebar を閉じる">
+<!ENTITY sidebar.customize.accesskey "u">
+<!ENTITY sidebar.customize.label "Sidebar の設定...">
+<!ENTITY sidebar.hide.accesskey "H">
+<!ENTITY sidebar.hide.label "Sidebar タブを隠す">
+<!ENTITY sidebar.loading.label "読み込み中...">
+<!ENTITY sidebar.loading.stop.accesskey "S">
+<!ENTITY sidebar.loading.stop.label "中止">
+<!ENTITY sidebar.loadstopped.label "読み込み中止">
+<!ENTITY sidebar.no-panels.add "上の [タブ] ボタンをクリックすることでタブを追加できます。">
+<!ENTITY sidebar.no-panels.hide "Sidebar を表示したくない場合は、“表示”メニューをクリックし、“表示 / 隠す”サブメニューの“Sidebar”を選択してください。">
+<!ENTITY sidebar.no-panels.state "Sidebar は、現在空白です。">
+<!ENTITY sidebar.open.tooltip "Sidebar を開く">
+<!ENTITY sidebar.pagenotfound.label "このタブは現在有効ではありません。">
+<!ENTITY sidebar.panels.label "Sidebar">
+<!ENTITY sidebar.picker.label "タブ">
+<!ENTITY sidebar.reload.accesskey "R">
+<!ENTITY sidebar.reload.label "再読み込み">
+<!ENTITY sidebar.sbDirectory.label "Sidebar ディレクトリ...">
+<!ENTITY sidebar.switch.accesskey "T">
+<!ENTITY sidebar.switch.label "Sidebar タブを切り換える">
+<!ENTITY sidebarCmd.accesskey "b">
+<!ENTITY sidebarCmd.label "Sidebar">

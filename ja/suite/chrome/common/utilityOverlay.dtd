@@ -1,0 +1,93 @@
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY offlineGoOfflineCmd.label "オフラインにする">
+<!ENTITY offlineGoOfflineCmd.accesskey "k">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label "ファイル">
+<!ENTITY fileMenu.accesskey "f">
+<!ENTITY newMenu.label "新規作成">
+<!ENTITY newMenu.accesskey "N">
+<!ENTITY newBlankPageCmd.label "ページを作成">
+<!ENTITY newBlankPageCmd.accesskey "P">
+<!ENTITY newBlankPageCmd.key "n">
+<!ENTITY newPageFromTemplateCmd.label "テンプレートからページを作成">
+<!ENTITY newPageFromTemplateCmd.accesskey "t">
+<!ENTITY newPageFromDraftCmd.label "下書きからページを作成">
+<!ENTITY newPageFromDraftCmd.accesskey "d">
+<!ENTITY newNavigatorCmd.label "Browser ウィンドウ">
+<!ENTITY newNavigatorCmd.accesskey "N">
+<!ENTITY newNavigatorCmd.key "B">
+
+<!ENTITY editMenu.label "編集">
+<!ENTITY editMenu.accesskey "e">
+<!ENTITY undoCmd.label "元に戻す">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.accesskey "U">
+<!ENTITY redoCmd.label "やり直し">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.accesskey "R">
+<!ENTITY cutCmd.label "切り取り">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.accesskey "t">
+<!ENTITY copyCmd.label "コピー">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.accesskey "c">
+<!ENTITY pasteCmd.label "貼り付け">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.accesskey "p">
+<!ENTITY deleteCmd.label "削除">
+<!ENTITY deleteCmd.key "D">
+<!ENTITY deleteCmd.accesskey "d">
+<!ENTITY selectAllCmd.label "すべて選択">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.accesskey "a">
+<!ENTITY preferencesCmd.label "設定...">
+<!ENTITY preferencesCmd.key "E">
+<!ENTITY preferencesCmd.accesskey "e">
+<!ENTITY findTypeTextCmd.label "テキストをタイプ検索">
+<!ENTITY findTypeTextCmd.accesskey "x">
+<!ENTITY findTypeLinksCmd.label "リンクをタイプ検索">
+<!ENTITY findTypeLinksCmd.accesskey "k">
+
+<!ENTITY viewMenu.label "表示">
+<!ENTITY viewMenu.accesskey "v">
+<!ENTITY viewToolbarsMenu.label "表示 / 隠す">
+<!ENTITY viewToolbarsMenu.accesskey "w">
+<!ENTITY showTaskbarCmd.label "ステータス バー">
+<!ENTITY showTaskbarCmd.accesskey "S">
+
+<!ENTITY helpMenu.label "ヘルプ">
+<!ENTITY helpMenu.accesskey "h">
+
+<!ENTITY releaseCmd.label "リリース ノート">
+<!ENTITY releaseCmd.accesskey "N">
+<!ENTITY updateCmd.label "更新を確認...">
+<!ENTITY updateCmd.accesskey "C">
+<!ENTITY aboutCmd.label "&brandShortName; について">
+<!ENTITY aboutCmd.accesskey "A">
+<!ENTITY aboutCommPluginsCmd.label "プラグインについて">
+<!ENTITY aboutCommPluginsCmd.accesskey "p">
+
+<!ENTITY direct.label "オンライン (プロキシ: なし)">
+<!ENTITY direct.accesskey "N">
+<!ENTITY manual.label "オンライン (プロキシ: 手動設定)">
+<!ENTITY manual.accesskey "M">
+<!ENTITY pac.label "オンライン (プロキシ: 設定ファイルの URL を指定)">
+<!ENTITY pac.accesskey "A">
+<!ENTITY wpad.label "オンライン (プロキシ: 自動検出)">
+<!ENTITY wpad.accesskey "D">
+
+<!ENTITY proxy.label "プロキシ設定...">
+<!ENTITY proxy.accesskey "C">
+
+<!ENTITY bidiSwitchTextDirectionItem.label "テキストの書記方向を切り換え">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey "w">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey "X">
+
+<!-- Popup Blocked notification menu -->
+<!ENTITY allowPopups.accesskey        "p">
+<!ENTITY showPopupManager.label       "ポップアップマネージャ">
+<!ENTITY showPopupManager.accesskey   "M">
+<!ENTITY dontShowMessage.label        "ポップアップブロックしたときにこのメッセージを表示しない。">
+<!ENTITY dontShowMessage.accesskey    "D">

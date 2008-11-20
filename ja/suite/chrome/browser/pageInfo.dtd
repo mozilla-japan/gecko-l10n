@@ -1,0 +1,147 @@
+<!--
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is Mozilla Communicator client code.
+#
+# The Initial Developer of the Original Code is Daniel Brooks.
+# Portions created by the Initial Developer are Copyright (C) 2001-2007
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s): Daniel Brooks <db48x@yahoo.com>
+#                 Florian QUEZE <f.qu@queze.net>
+#                 Ehsan Akhgari <ehsan.akhgari@gmail.com>
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the LGPL or the GPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+-->
+
+<!-- Note to localizers, don't localize the strings 'width' or 'height' -->
+<!ENTITY  pageInfoWindow.dimensions  "width: 100ch; height: 30em;">
+
+<!ENTITY  copy.key              "C">
+<!ENTITY  copy.label            "コピー">
+<!ENTITY  copy.accesskey        "C">
+<!ENTITY  selectall.key         "A">
+<!ENTITY  selectall.label       "すべて選択">
+<!ENTITY  selectall.accesskey   "A">
+<!ENTITY  closeWindow.key       "w">
+
+<!ENTITY  generalTab            "一般">
+<!ENTITY  generalTab.accesskey  "G">
+<!ENTITY  generalURL            "アドレス:">
+<!ENTITY  generalType           "MIMEタイプ:">
+<!ENTITY  generalMode           "描画モード:">
+<!ENTITY  generalSize           "サイズ:">
+<!ENTITY  generalReferrer       "参照元 URL:">
+<!ENTITY  generalSource         "ソース:">
+<!ENTITY  generalModified       "更新日時:">
+<!ENTITY  generalEncoding       "文字コード:">
+<!ENTITY  generalMetaName       "名前">
+<!ENTITY  generalMetaContent    "コンテンツ">
+<!ENTITY  generalSecurityMore   "その他">
+<!ENTITY  generalSecurityMore.accesskey "o">
+
+<!ENTITY  formsTab              "フォーム">
+<!ENTITY  formsTab.accesskey    "F">
+<!ENTITY  formAction            "フォームの動作">
+<!ENTITY  formMethod            "メソッド">
+<!ENTITY  formName              "名前">
+<!ENTITY  formNo                "番号">
+<!ENTITY  formEncoding          "文字コード:">
+<!ENTITY  formTarget            "ターゲット:">
+<!ENTITY  formFields            "フィールド:">
+<!ENTITY  formLabel             "ラベル">
+<!ENTITY  formFName             "フィールドの名前">
+<!ENTITY  formType              "種類">
+<!ENTITY  formCValue            "現在値">
+
+<!ENTITY  linksTab              "リンク">
+<!ENTITY  linksTab.accesskey    "L">
+<!ENTITY  linkNo                "No.">
+<!ENTITY  linkName              "名前">
+<!ENTITY  linkAddress           "アドレス">
+<!ENTITY  linkType              "種類">
+<!ENTITY  linkTarget            "ターゲット">
+<!ENTITY  linkAccessKey         "アクセスキー">
+
+<!ENTITY  mediaTab              "メディア">
+<!ENTITY  mediaTab.accesskey    "M">
+<!ENTITY  mediaURL              "アドレス:">
+<!ENTITY  mediaAlt              "関連テキスト:">
+<!ENTITY  mediaAltHeader        "関連テキスト">
+<!ENTITY  mediaAddress          "アドレス">
+<!ENTITY  mediaType             "種類">
+<!ENTITY  mediaSize             "サイズ">
+<!ENTITY  mediaCount            "訪問回数">
+<!ENTITY  mediaDimensions       "指定した寸法:">
+<!ENTITY  mediaPhysDimensions   "実寸:">
+<!ENTITY  mediaTitle            "タイトル属性:">
+<!ENTITY  mediaLongdesc         "詳しい説明:">
+<!ENTITY  mediaBlockImage.accesskey "B">
+<!ENTITY  mediaSaveAs           "名前をつけて保存…">
+<!ENTITY  mediaSaveAs.accesskey "A">
+<!ENTITY  mediaSaveAs2.accesskey "e">
+<!ENTITY  mediaPreview          "メディアプレビュー:">
+
+<!ENTITY  feedTab               "フィード">
+<!ENTITY  feedTab.accesskey     "F">
+<!ENTITY  feedSubscribe         "購読">
+<!ENTITY  feedSubscribe.accesskey "u">
+
+<!ENTITY  permTab               "許可">
+<!ENTITY  permTab.accesskey     "P">
+<!ENTITY  permUseDefault        "Use Default">
+<!ENTITY  permAllow             "許可">
+<!ENTITY  permAllowSession      "セッション中のみ許可">
+<!ENTITY  permBlock             "ブロック">
+<!ENTITY  permissionsFor        "許可情報:">
+<!ENTITY  permImage             "画像を読み込む">
+<!ENTITY  permPopup             "ポップアップウィンドウを開く">
+<!ENTITY  permCookie            "Cookieの保存">
+<!ENTITY  permInstall           "拡張機能またはテーマのインストール">
+
+<!ENTITY  securityTab           "セキュリティ">
+<!ENTITY  securityTab.accesskey "S">
+<!ENTITY  securityHeader        "このページのセキュリティ情報">
+<!ENTITY  securityView.certView "証明書の表示">
+<!ENTITY  securityView.accesskey "V">
+<!ENTITY  securityView.unknown   "不明">
+
+
+<!ENTITY  securityView.identity.header   "Web サイトの識別情報">
+<!ENTITY  securityView.identity.owner    "運営者: ">
+<!ENTITY  securityView.identity.domain   "Web サイト: ">
+<!ENTITY  securityView.identity.verifier "発行元: ">
+
+<!ENTITY  securityView.privacy.header                   "プライバシーと履歴">
+<!ENTITY  securityView.privacy.history                  "昨日までに何回このサイトを訪問したことがあるか？">
+<!ENTITY  securityView.privacy.cookies                  "このサイトはコンピュータに情報 (cookie) を保存しているか？">
+<!ENTITY  securityView.privacy.viewCookies              "Cookieを表示">
+<!ENTITY  securityView.privacy.viewCookies.accessKey    "k">
+<!ENTITY  securityView.privacy.passwords                "このサイトのパスワードを保存しているか？">
+<!ENTITY  securityView.privacy.viewPasswords            "パスワードを表示">
+<!ENTITY  securityView.privacy.viewPasswords.accessKey  "w">
+
+<!ENTITY  securityView.technical.header                 "技術情報">

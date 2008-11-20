@@ -1,0 +1,19 @@
+<!ENTITY sidebar.customize.add.accesskey "A">
+<!ENTITY sidebar.customize.add.label "追加">
+<!ENTITY sidebar.customize.additional.accesskey "v">
+<!ENTITY sidebar.customize.additional.label "使用可能なタブ:">
+<!ENTITY sidebar.customize.current.accesskey "T">
+<!ENTITY sidebar.customize.current.label "&sidebarName; のタブ:">
+<!ENTITY sidebar.customize.customize.accesskey "C">
+<!ENTITY sidebar.customize.customize.label "タブを設定...">
+<!ENTITY sidebar.customize.down.accesskey "D">
+<!ENTITY sidebar.customize.down.label "下へ">
+<!ENTITY sidebar.customize.preview.accesskey "P">
+<!ENTITY sidebar.customize.preview.label "プレビュー...">
+<!ENTITY sidebar.customize.remove.accesskey "R">
+<!ENTITY sidebar.customize.remove.label "削除">
+<!ENTITY sidebar.customize.title.label "&sidebarName; の設定">
+<!ENTITY sidebar.customize.up.accesskey "U">
+<!ENTITY sidebar.customize.up.label "上へ">
+<!ENTITY sidebar.more.accesskey "F">
+<!ENTITY sidebar.more.label "さらにタブを検索...">

@@ -1,0 +1,31 @@
+<!ENTITY autoDownload.accesskey "A">
+<!ENTITY autoDownload.label "すぐにダウンロード フォルダへ保存">
+<!ENTITY browse.accesskey "B">
+<!ENTITY browse.label "参照...">
+<!ENTITY chooseDownloadFolder.accesskey "C">
+<!ENTITY chooseDownloadFolder.label "フォルダを選択...">
+<!ENTITY doNothing.accesskey "D">
+<!ENTITY doNothing.label "何も開かない">
+<!ENTITY downloadBehavior.label "ダウンロードを始めるとき">
+<!ENTITY downloadFolder.label "現在のダウンロード フォルダ">
+<!ENTITY downloadLocation.label "ファイル保存時の設定">
+<!ENTITY finishedBehavior.label "ダウンロードが完了したとき">
+<!ENTITY lastLocation.accesskey "L">
+<!ENTITY lastLocation.label "前回と同じフォルダ">
+<!ENTITY openDM.accesskey "m">
+<!ENTITY openDM.label "ダウンロード マネージャを開く">
+<!ENTITY openProgressDialog.accesskey "O">
+<!ENTITY openProgressDialog.label "進捗ダイアログを開く">
+<!ENTITY playSound.accesskey "s">
+<!ENTITY playSound.label "音を鳴らす">
+<!ENTITY pref.download.title "ダウンロード">
+<!ENTITY preview.accesskey "v">
+<!ENTITY preview.label "プレビュー">
+<!ENTITY promptDownload.accesskey "P">
+<!ENTITY promptDownload.label "ダウンロード時に保存先を確認する">
+<!ENTITY showAlert.accesskey "n">
+<!ENTITY showAlert.label "警告を表示">
+<!ENTITY soundURL.accesskey "U">
+<!ENTITY soundURL.label "サウンドの URL:">
+<!ENTITY specifiedLocation.accesskey "e">
+<!ENTITY specifiedLocation.label "ダウンロード フォルダ">
