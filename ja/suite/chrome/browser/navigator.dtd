@@ -12,15 +12,15 @@
 
 <!ENTITY nothingAvailable.label "(Nothing Available)">
 
-<!ENTITY browserCmd.label	"新しいブラウザウィンドウ">
+<!ENTITY browserCmd.label	"新しいブラウザ@@Window@@">
 <!ENTITY browserCmd.accesskey	"N">
 <!ENTITY tabCmd.label "ブラウザタブ">
 <!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
-<!ENTITY openCmd.label "URLを開く…">
+<!ENTITY openCmd.label "URLを開く...">
 <!ENTITY openCmd.accesskey "l">
 <!ENTITY openCmd.commandkey "l">
-<!ENTITY openFileCmd.label "ファイルを開く…">
+<!ENTITY openFileCmd.label "ファイルを開く...">
 <!ENTITY openFileCmd.accesskey "o">
 <!ENTITY openFileCmd.commandkey "o">
 <!ENTITY recentTabs.label "最近閉じたタブ">
@@ -34,14 +34,14 @@
 <!ENTITY editFrameSetCmd.label "フレームセットを編集">
 <!ENTITY editFrameSetCmd.accesskey "t">
 
-<!ENTITY uploadFile.label "ファイルをアップロード…">
+<!ENTITY uploadFile.label "ファイルをアップロード...">
 <!ENTITY uploadFile.accesskey "F">
 
-<!ENTITY printSetupCmd.label "ページ設定…">
+<!ENTITY printSetupCmd.label "ページ設定...">
 <!ENTITY printSetupCmd.accesskey "u">
 <!ENTITY printPreviewCmd.label "印刷プレビュー">
 <!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "印刷…">
+<!ENTITY printCmd.label "印刷...">
 <!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.commandkey "p">
 
@@ -81,7 +81,7 @@
 
 <!ENTITY closeOtherTabs.label "他のタブを閉じる">
 <!ENTITY closeOtherTabs.accesskey "T">
-<!ENTITY closeWindow.label "ウインドウを閉じる">
+<!ENTITY closeWindow.label "@@Window@@を閉じる">
 <!ENTITY closeWindow.accesskey "W">
 
 <!ENTITY minimizeButton.tooltip       "最小化">
@@ -119,7 +119,7 @@
 <!ENTITY getNewThemesCmd.accesskey "G">
 <!ENTITY searchMenu.label "検索">
 <!ENTITY searchMenu.accesskey "S">
-<!ENTITY findOnCmd.label "ページ内を検索…">
+<!ENTITY findOnCmd.label "ページ内を検索...">
 <!ENTITY findOnCmd.accesskey "f">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label "再検索">
@@ -135,7 +135,7 @@
 <!ENTITY searchInternetCmd.accesskey "S">
 <!ENTITY searchInternet.commandKey "s">
 
-<!ENTITY clearPrivateDataCmd.label "プライバシー情報を消去…">
+<!ENTITY clearPrivateDataCmd.label "プライバシー情報を消去...">
 <!ENTITY clearPrivateDataCmd.accesskey "e">
 
 <!ENTITY goMenu.label "移動">
@@ -147,12 +147,12 @@
 <!ENTITY bookmarksMenu.accesskey "B">
 <!ENTITY addCurPageCmd.label "このページをブックマーク">
 <!ENTITY addCurPageCmd.accesskey "B">
-<!ENTITY addCurPageAsCmd.label "ブックマークに追加…">
+<!ENTITY addCurPageAsCmd.label "ブックマークに追加...">
 <!ENTITY addCurPageAsCmd.accesskey "F">
 <!ENTITY addCurPageAsCmd.commandkey "d">
-<!ENTITY addCurTabsAsCmd.label "このタブグループをブックマークに追加…">
+<!ENTITY addCurTabsAsCmd.label "このタブグループをブックマークに追加...">
 <!ENTITY addCurTabsAsCmd.accesskey "G">
-<!ENTITY manBookmarksCmd.label "ブックマークの管理…">
+<!ENTITY manBookmarksCmd.label "ブックマークの管理...">
 <!ENTITY manBookmarksCmd.accesskey "M">
 <!ENTITY manBookmarksCmd.commandkey "b">
 <!ENTITY feedsMenu.label "このページを購読する">

@@ -1,15 +1,15 @@
 <!-- Context Menu -->
-<!ENTITY popupWindowRejectCmd.label "このサイトのポップアップ ウィンドウを自動的に閉じる">
+<!ENTITY popupWindowRejectCmd.label "このサイトのポップアップ @@Window@@を自動的に閉じる">
 <!ENTITY popupWindowRejectCmd.accesskey "">
-<!ENTITY popupWindowAllowCmd.label "このサイトのポップアップ ウィンドウを許可する">
+<!ENTITY popupWindowAllowCmd.label "このサイトのポップアップ @@Window@@を許可する">
 <!ENTITY popupWindowAllowCmd.accesskey "">
-<!ENTITY openLinkCmd.label "新しいウィンドウで開く">
+<!ENTITY openLinkCmd.label "新しい@@Window@@で開く">
 <!ENTITY openLinkCmd.accesskey "W">
 <!ENTITY openLinkCmdInTab.label "新しいタブで開く">
 <!ENTITY openLinkCmdInTab.accesskey "T">
 <!ENTITY openLinkInWindowCmd.label "開く">
 <!ENTITY openLinkInWindowCmd.accesskey "p">
-<!ENTITY openFrameCmd.label "フレームを新しいウィンドウで開く">
+<!ENTITY openFrameCmd.label "フレームを新しい@@Window@@で開く">
 <!ENTITY openFrameCmd.accesskey "W">
 <!ENTITY openFrameCmdInTab.label "フレームを新しいタブで開く">
 <!ENTITY openFrameCmdInTab.accesskey "T">
@@ -41,7 +41,7 @@
 <!ENTITY viewPageInfoCmd.accesskey "I">
 <!ENTITY viewFrameInfoCmd.label "フレームの情報を表示">
 <!ENTITY viewFrameInfoCmd.accesskey "I">
-<!ENTITY fitImageCmd.label "画像サイズをウィンドウに合わせる">
+<!ENTITY fitImageCmd.label "画像サイズを@@Window@@に合わせる">
 <!ENTITY fitImageCmd.accesskey "F">
 <!ENTITY reloadImageCmd.label         "画像の再読込">
 <!ENTITY reloadImageCmd.accesskey     "e">

@@ -45,7 +45,7 @@
 <!ENTITY shortcutURL.accesskey      "K">
 <!ENTITY destination.label          "フォルダ:">
 <!ENTITY destination.accesskey      "D">
-<!ENTITY newFolder.label            "新しい…">
+<!ENTITY newFolder.label            "新しい...">
 <!ENTITY newFolder.accesskey        "w">
 <!ENTITY addGroup.label             "このタブのグループをブックマークする">
 <!ENTITY addGroup.accesskey         "B">

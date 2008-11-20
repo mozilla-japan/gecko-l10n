@@ -27,7 +27,7 @@
 <!ENTITY webDevelopment.label "ウェブ開発">
 <!ENTITY webDevelopment.accesskey "W">
 
-<!ENTITY windowMenu.label "ウィンドウ">
+<!ENTITY windowMenu.label "@@Window@@">
 <!ENTITY windowMenu.accesskey "W">
 
 <!ENTITY tasksMenu.label "ツール">

@@ -56,7 +56,7 @@
 <!ENTITY notification.sound.accesskey "P">
 <!ENTITY notification.sound.label "音を鳴らす">
 <!ENTITY notification.window.accesskey "O">
-<!ENTITY notification.window.label "ウェブ ページを新しいウィンドウで開く">
+<!ENTITY notification.window.label "ウェブ ページを新しい@@Window@@で開く">
 <!ENTITY notifications.legend.label "通知">
 <!ENTITY to.accesskey "t">
 <!ENTITY to.label "終了時刻:">
