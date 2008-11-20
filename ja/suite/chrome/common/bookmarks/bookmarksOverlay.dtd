@@ -1,0 +1,18 @@
+<!ENTITY exportBookmarks.accesskey "x">
+<!ENTITY exportBookmarks.label "エクスポート...">
+<!ENTITY findABookmark.accesskey "f">
+<!ENTITY findABookmark.label "ブックマークを検索...">
+<!ENTITY importBookmarks.accesskey "i">
+<!ENTITY importBookmarks.label "インポート...">
+<!ENTITY newBookmark.accesskey "n">
+<!ENTITY newBookmark.label "新しいブックマーク...">
+<!ENTITY newFolder.accesskey "e">
+<!ENTITY newFolder.label "新しいフォルダ...">
+<!ENTITY newSeparator.accesskey "s">
+<!ENTITY newSeparator.label "新しい区切り">
+<!ENTITY setAsNewBookmarkFolder.accesskey "b">
+<!ENTITY setAsNewBookmarkFolder.label "新しいブックマークフォルダとして設定">
+<!ENTITY setAsNewSearchFolder.accesskey "r">
+<!ENTITY setAsNewSearchFolder.label "新しい検索結果フォルダとして設定">
+<!ENTITY setAsNewToolbarFolder.accesskey "p">
+<!ENTITY setAsNewToolbarFolder.label "新しいパーソナル ツールバー フォルダとして設定">

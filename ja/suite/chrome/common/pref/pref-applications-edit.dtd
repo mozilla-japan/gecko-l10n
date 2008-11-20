@@ -1,0 +1,19 @@
+<!ENTITY application.accesskey "w">
+<!ENTITY application.label "アプリケーション:">
+<!ENTITY askBeforeOpen.accesskey "k">
+<!ENTITY askBeforeOpen.label "このタイプのファイルを扱うときは毎回どうしたらいいか聞いて欲しい">
+<!ENTITY browse.accesskey "c">
+<!ENTITY browse.label "選択...">
+<!ENTITY description.accesskey "d">
+<!ENTITY description.label "詳細:">
+<!ENTITY editType.label "編集">
+<!ENTITY extension.accesskey "E">
+<!ENTITY extension.label "拡張子:">
+<!ENTITY handling.label "このタイプのファイルの処理方法">
+<!ENTITY mimetype.accesskey "m">
+<!ENTITY mimetype.label "MIME タイプ:">
+<!ENTITY newType.label "追加">
+<!ENTITY saveToDisk.accesskey "s">
+<!ENTITY saveToDisk.label "ディスクに保存">
+<!ENTITY useDefault.accesskey "o">
+<!ENTITY useDefault.label "システムの標準設定を使用">

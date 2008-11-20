@@ -1,0 +1,17 @@
+<!ENTITY  untitledTab            "(タイトル無し)">
+<!ENTITY  newTab.label           "新しいタブ">
+<!ENTITY  newTab.accesskey       "N">
+<!ENTITY  closeTab.label         "タブを閉じる">
+<!ENTITY  closeTab.accesskey         "C">
+<!ENTITY  closeOtherTabs.label   "他のタブを閉じる">
+<!ENTITY  closeOtherTabs.accesskey         "O">
+<!ENTITY  reloadAllTabs.label    "すべてのタブを再読込">
+<!ENTITY  reloadAllTabs.accesskey         "A">
+<!ENTITY  reloadTab.label        "このタブを再読込">
+<!ENTITY  reloadTab.accesskey         "R">
+<!ENTITY  bookmarkGroup.label    "このタブグループをブックマークする">
+<!ENTITY  bookmarkGroup.accesskey  "B">
+<!ENTITY  closeTabButton.tooltip   "このタブを閉じる">
+<!ENTITY  newTabButton.tooltip   "新しいタブを開く">
+<!ENTITY  undoCloseTab.label    "閉じたタブを元に戻す">
+<!ENTITY  undoCloseTab.accesskey  "U">

@@ -1,0 +1,5 @@
+<!ENTITY sidebar.client-addressbook.label "アドレス帳">
+<!ENTITY sidebar.client-bookmarks.label "ブックマーク">
+<!ENTITY sidebar.client-history.label "履歴">
+<!ENTITY sidebar.search.label "検索">
+<!ENTITY sidebar.whats-related.label "関連サイト">

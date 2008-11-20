@@ -1,0 +1,22 @@
+<!--LOCALIZATION NOTE : FILE UI for Software Updates prefs -->
+<!ENTITY pref.smartUpdate.title "ソフトウェア インストール">
+<!ENTITY smartTitle.label "ソフトウェアのインストールと更新を管理します">
+<!ENTITY enableSU.label "拡張機能や更新のインストールを許可する">
+<!ENTITY enableSU.accesskey "e">
+<!ENTITY allowedSites.label "許可されたサイト">
+<!ENTITY allowedSites.accesskey "A">
+
+<!ENTITY verifyUpdates.caption                "更新">
+<!ENTITY autoUpdates.label                    "次の更新を自動的にチェックする:">
+<!ENTITY appUpdates.label                     "&brandShortName;">
+<!ENTITY appUpdates.accesskey                 "S">
+<!ENTITY daily.label                          "毎日">
+<!ENTITY appDaily.accesskey                   "d">
+<!ENTITY weekly.label                         "毎週">
+<!ENTITY appWeekly.accesskey                  "w">
+<!ENTITY extensionsUpdates.label              "インストールしているアドオン">
+<!ENTITY extensionsUpdates.accesskey          "n">
+<!ENTITY extensionsDaily.accesskey            "i">
+<!ENTITY extensionsWeekly.accesskey           "k">
+<!ENTITY addonManagerButton.label             "アドオンマネージャ">
+<!ENTITY addonManagerButton.accesskey         "M">

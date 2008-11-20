@@ -1,0 +1,21 @@
+<!-- extracted from content/pref-scripts.xul -->
+
+<!--LOCALIZATION NOTE : FILE The 'Scripts & Plug-ins' preferences dialog -->
+<!ENTITY pref.scripts.title "スクリプトとプラグイン">
+
+<!ENTITY navigator.label "Browser">
+<!ENTITY navigator.accesskey "B">
+
+<!--LOCALIZATION NOTE (enableJavaScript.label): 'JavaScript' should never be translated -->
+<!ENTITY enableJavaScript.label "JavaScript を有効にする:">
+<!ENTITY allowScripts.label "以下のスクリプトを許可:">
+<!ENTITY allowScripts.accesskey "s">
+<!ENTITY allowWindowMoveResize.label "ウィンドウの移動または大きさの変更">
+<!ENTITY allowWindowFlip.label "ウィンドウの上下(focus)を切り換える">
+<!ENTITY allowWindowStatusChange.label "ステータス バーのテキストの変更">
+<!ENTITY allowWindowImageSrcChange.label "画像の変更">
+<!ENTITY allowContextmenuDisable.label "ページ独自のコンテキスト メニュー設定を無効にする">
+<!ENTITY allowHideStatusBar.label "ステータス バーを隠す">
+
+<!ENTITY enablePlugin.label "プラグインを有効にする:">
+

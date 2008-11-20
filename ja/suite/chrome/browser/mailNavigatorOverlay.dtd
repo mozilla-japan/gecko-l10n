@@ -1,0 +1,20 @@
+<!ENTITY newMessageCmd.label             "メッセージ">
+<!ENTITY newMessageCmd.accesskey         "M">
+<!ENTITY newMessageCmd.key               "M">
+
+<!ENTITY newCardCmd.label                "アドレス帳のカード…">
+<!ENTITY newCardCmd.accesskey            "C">
+
+<!ENTITY sendPage.label                  "ページを送る…">
+<!ENTITY sendPage.accesskey              "S">
+
+<!ENTITY contextSendPage.label           "ページを送る…">
+<!ENTITY contextSendPage.accesskey       "d">
+<!ENTITY contextSendImage.label          "画像を送る…">
+<!ENTITY contextSendImage.accesskey      "n">
+<!ENTITY contextSendFrame.label          "フレームを送る…">
+<!ENTITY contextSendFrame.accesskey      "d">
+
+<!ENTITY sendLinkCmd.label               "リンクを送る…"> 
+<!ENTITY sendLinkCmd.accesskey           "d">
+

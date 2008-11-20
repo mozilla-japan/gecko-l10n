@@ -1,0 +1,31 @@
+<!ENTITY view.header.name.label          "名前">
+<!ENTITY view.header.progress.label      "進行状況">
+<!ENTITY view.header.status.label        "状態">
+<!ENTITY view.header.timeremaining.label "残り時間">
+<!ENTITY view.header.transferred.label   "転送済み">
+<!ENTITY view.header.transferrate.label  "速度">
+<!ENTITY view.header.timeelapsed.label   "経過時間">
+<!ENTITY view.header.progresstext.label  "&#37;">
+<!ENTITY view.header.source.label        "供給元">
+
+<!ENTITY downloadManager.title           "ダウンロード マネージャ">
+
+<!ENTITY cmd.properties.label            "プロパティ">
+<!ENTITY cmd.properties.accesskey        "i">
+<!ENTITY cmd.properties.keybinding       "i">
+<!ENTITY cmd.pause.label                 "一時停止">
+<!ENTITY cmd.pause.accesskey             "P">
+<!ENTITY cmd.remove.label                "リストから削除">
+<!ENTITY cmd.remove.accesskey            "R">
+<!ENTITY cmd.copyurl.label               "URL をコピー">
+<!ENTITY cmd.copyurl.accesskey           "U">
+<!ENTITY cmd.cancel.label                "キャンセル">
+<!ENTITY cmd.cancel.accesskey            "C">
+<!ENTITY cmd.openfile.label              "ファイルを起動">
+<!ENTITY cmd.openfile.accesskey          "L">
+<!ENTITY cmd.showinshell.label           "ファイルの場所を表示">
+<!ENTITY cmd.showinshell.accesskey       "F">
+<!ENTITY dm.tooltip                      "ツールバー">
+<!ENTITY confirmCancel     "このファイルの保存をキャンセルしてもよろしいですか?">
+<!ENTITY progressMsgNoRate "#1KB / #2KB">
+<!ENTITY rateMsg           "#1KB/秒">

@@ -1,0 +1,13 @@
+<!ENTITY allresults.title.label "すべての結果">
+<!ENTITY availability.column.label "利用性">
+<!ENTITY date.column.label "日付">
+<!ENTITY engine.column.label "検索エンジン">
+<!ENTITY internetresults.title "検索結果">
+<!ENTITY name.column.label "名前">
+<!ENTITY pagerank.column.label "ページランキング">
+<!ENTITY price.column.label "価値">
+<!ENTITY relevance.column.label "関連度">
+<!ENTITY results.header.label "検索結果">
+<!ENTITY results.title.label "結果:">
+<!ENTITY site.column.label "インターネットの場所">
+<!ENTITY viewbyprovider.label "検索エンジンのページで表示:">

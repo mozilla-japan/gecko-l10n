@@ -1,0 +1,47 @@
+<!ENTITY pref.navigator.title "Browser">
+
+<!ENTITY navRadio "右の場合:">
+<!ENTITY navStartPageMenu.label "Browser を起動">
+<!ENTITY newWinPageMenu.label "新しいウィンドウ">
+<!ENTITY newTabPageMenu.label "新しいタブを開く">
+
+<!ENTITY blankPageRadio.label "空白ページ">
+<!ENTITY blankPageRadio.accesskey "B">
+<!ENTITY homePageRadio.label "ホームページ">
+<!ENTITY homePageRadio.accesskey "m">
+<!ENTITY lastPageRadio.label "最後に訪問したページ">
+<!ENTITY lastPageRadio.accesskey "L">
+
+<!ENTITY header2.label "ホームページ">
+<!ENTITY homePageIntro.label "パーソナルツールバーの[ホーム]をクリックするとこのページのグループへ移動します。">
+<!ENTITY useCurrent.label "現在のページを使用する">
+<!ENTITY useCurrent.accesskey "U">
+<!ENTITY useCurrentGroup.label "現在のページのグループを使用する">
+<!ENTITY useCurrentGroup.accesskey "G">
+<!ENTITY browseFile.label "ファイルを選択...">
+<!ENTITY browseFile.accesskey "C">
+<!ENTITY useDefault.label "デフォルトに戻す">
+<!ENTITY useDefault.accesskey "R">
+
+<!ENTITY toolbarIntro.label "ツールバーに表示するボタンを選択してください:">
+
+<!ENTITY navToolbarIntro.label "ナビゲーション ツールバー">
+<!ENTITY goButton.label "移動">
+<!ENTITY goButton.accesskey "o">
+<!ENTITY searchButton.label "検索">
+<!ENTITY searchButton.accesskey "S">
+<!ENTITY printButton.label "印刷">
+<!ENTITY printButton.accesskey "P">
+
+<!ENTITY persToolbarIntro.label "パーソナル ツールバー">
+<!ENTITY homeButton.label "ホーム">
+<!ENTITY homeButton.accesskey "e">
+<!ENTITY bookmarksButton.label "ブックマーク">
+<!ENTITY bookmarksButton.accesskey "k">
+
+<!ENTITY defaultBrowserGroup.label      "既定のブラウザ">
+<!ENTITY defaultBrowserButton.label     "既定のブラウザに設定">
+<!ENTITY defaultBrowserButton.accesskey "D">
+<!ENTITY alreadyDefaultText             "&brandShortName; はすでに既定のブラウザ設定されています。">
+<!ENTITY defaultPendingText             "OKをクリックすると &brandShortName; は既定のブラウザに設定されます。">
+<!ENTITY makeDefaultText                "&brandShortName; を既定のブラウザに設定します。">

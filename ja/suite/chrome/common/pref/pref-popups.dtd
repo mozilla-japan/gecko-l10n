@@ -1,0 +1,27 @@
+<!ENTITY pref.popups.title "ポップアップ ウィンドウ">
+
+<!ENTITY pref.popups.caption "ポップアップ ウィンドウ">
+
+<!ENTITY popupDesc.label "browser ウィンドウの上、あるいは下に表示されるように作られている、ポップアップ ウィンドウをどのように扱ったらいいですか:">
+
+<!ENTITY popupBlock.label "要求していないポップアップ ウィンドウを自動的に閉じる">
+<!ENTITY popupBlock.accesskey "B">
+
+<!ENTITY popupExceptions.label "許可されたサイト">
+<!ENTITY popupExceptions.accesskey "A">
+
+<!ENTITY whenBlock.description "ポップアップ ウィンドウを自動的に閉じた場合:">
+<!ENTITY playSound.label "音を鳴らす:">
+<!ENTITY playSound.accesskey            "s">
+
+<!ENTITY selectSound.label "参照...">
+<!ENTITY selectSound.accesskey "r">
+<!ENTITY previewSound.label "プレビュー">
+<!ENTITY previewSound.accesskey "P">
+<!ENTITY selectSound.title "ブロックしたときに鳴らす音を選択してください">
+
+<!ENTITY displayIcon.label "ステータス バーにアイコンを表示する">
+<!ENTITY displayIcon.accesskey          "D">
+
+<!ENTITY popupNote.description "注: 銀行やショップ等では、ポップアップ ウィンドウが表示されないことでログインなどの重要な機能が損なわれることがあります。その場合は、許可するサイトに加えてください。ポップアップ ブロック機能を有効にしたまま、特定のサイトのみポップアップを有効にする方法の詳細は [ヘルプ] をクリックしてください。また、サイトによっては、別の方法を使ってポップアップ ブロック機能を回避する場合があります。">
+

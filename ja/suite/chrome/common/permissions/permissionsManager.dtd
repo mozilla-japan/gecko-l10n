@@ -1,0 +1,14 @@
+<!ENTITY address.label "ウェブ サイトのアドレス:">
+<!ENTITY allow.accesskey "A">
+<!ENTITY allow.label "許可">
+<!ENTITY block.accesskey "B">
+<!ENTITY block.label "拒否">
+<!ENTITY remove.accesskey "R">
+<!ENTITY remove.label "サイトを削除">
+<!ENTITY removeall.accesskey "e">
+<!ENTITY removeall.label "すべてのサイトを削除">
+<!ENTITY session.accesskey "S">
+<!ENTITY session.label "受け入れるが、ブラウザ終了時にリセット">
+<!ENTITY treehead.sitename.label "サイト">
+<!ENTITY treehead.status.label "状況">
+<!ENTITY windowtitle.label "例外">
