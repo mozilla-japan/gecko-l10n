@@ -17,7 +17,7 @@ was trying to connect. -->
 
 <!ENTITY certerror.whatShouldIDo.heading	"どうすればよいのか？">
 <!ENTITY certerror.whatShouldIDo.content	"これまでこのサイトに問題なく接続できていた場合、このエラーが表示されるのは誰かがこのサイトになりすましている可能性があるということであり、接続すべきではありません。">
-<!ENTITY certerror.getMeOutOfHere.label		"ホームページに戻る">
+<!ENTITY certerror.getMeOutOfHere.label		"スタートページに戻る">
 
 <!ENTITY certerror.expert.heading		"危険性を理解して通信">
 <!ENTITY certerror.expert.content		"何が起きていて何が問題なのか理解できているのであれば、このサイトの証明書を信頼するよう &brandShortName; にセキュリティ例外を追加することもできます。<b>ただし、たとえサイトが信頼できるサイトであっても、このエラーが表示されるのは誰かが通信を改ざんしている可能性があるということです。</b>">
