@@ -5,8 +5,8 @@
 <!ENTITY privatebrowsingpage.issueDesc			"&brandShortName; はこのセッション中にはブラウズ履歴を一切保存しません。">
 <!ENTITY privatebrowsingpage.longDesc			"&brandShortName; はこのセッション中にはブラウズ履歴を一切保存しません。表示ページの履歴、検索履歴、ダウンロード履歴、Web フォーム履歴、Cookie、一時ファイルについては一切保存されませんが、ダウンロードしたファイルと作成したブックマークについては保存されます。">
 
-<!ENTITY privatebrowsingpage.clearRecentHistoryDesc	"最近の履歴を消去して起動できます。"><!-- (^^; -->
-<!ENTITY privatebrowsingpage.recentHistory.label	"最近の表示履歴を消去">
+<!ENTITY privatebrowsingpage.clearRecentHistoryDesc	"最近の履歴を消去することもできます。">
+<!ENTITY privatebrowsingpage.recentHistory.label	"最近の履歴を消去...">
 <!ENTITY privatebrowsingpage.recentHistory.accesskey	"C">
 
 <!ENTITY privatebrowsingpage.howToStopDesc		"プライベートブラウジングを終了するにはツールメニューの@@[@@プライベートブラウジング@@]@@のチェックを外してください。">

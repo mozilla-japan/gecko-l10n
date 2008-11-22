@@ -21,7 +21,7 @@ that require it.  -->
 
 <!ENTITY itemVisitedPages.label			"表示したページの履歴">
 <!ENTITY itemVisitedPages.accesskey		"V">
-<!ENTITY itemFormSearchEntries.label		"フォームと検索エントリーの履歴">
+<!ENTITY itemFormSearchEntries.label		"フォーム履歴と検索履歴">
 <!ENTITY itemFormSearchEntries.accesskey	"F">
 <!ENTITY itemPasswords.label			"保存されているパスワード">
 <!ENTITY itemPasswords.accesskey		"P">
