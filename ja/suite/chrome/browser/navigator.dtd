@@ -175,8 +175,8 @@
 <!ENTITY backButton.tooltip           "ひとつ前のページにもどる">
 <!ENTITY forwardButton.label          "次へ">
 <!ENTITY forwardButton.tooltip        "一つ先のページへ進む">
-<!ENTITY reloadButton.label           "再読込">
-<!ENTITY reloadButton.tooltip         "現在のページを再読込する">
+<!ENTITY reloadButton.label           "再読み込み">
+<!ENTITY reloadButton.tooltip         "現在のページを再読み込みする">
 <!ENTITY stopButton.label             "中止">
 <!ENTITY stopButton.tooltip           "ページの読み込みを中止">
 <!ENTITY searchButton.label           "検索">

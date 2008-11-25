@@ -28,7 +28,6 @@
 <!ENTITY bookmarks.name.label "名前:">
 <!ENTITY bookmarks.shortcut.accesskey "K">
 <!ENTITY bookmarks.shortcut.label "キーワード:">
-<!ENTITY bookmarks.windowtitle.label "“**bm_title**”のプロパティ">
 <!ENTITY checkeveryday.label "毎日">
 <!ENTITY checkforupdates.legend.label "更新確認を有効にする">
 <!ENTITY checkfridays.label "金曜日">
