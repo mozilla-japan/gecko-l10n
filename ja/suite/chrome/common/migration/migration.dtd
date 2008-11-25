@@ -1,4 +1,4 @@
-<!ENTITY migrationWizard.title          "設定移行ウィザード">
+<!ENTITY migrationWizard.title          "設定移行@@Wizard@@">
 
 <!ENTITY importAllFrom.label            "オプション、ブックマーク、履歴、パスワードその他のデータをインポートする対象を選んでください:">
 <!ENTITY importBookmarksFrom.label      "ブックマークをインポートする対象を選んでください:">

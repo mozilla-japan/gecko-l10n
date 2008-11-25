@@ -1,6 +1,6 @@
 <!ENTITY closeCmd.label "閉じる">
 <!ENTITY copyCmd.label "コピー">
-<!ENTITY cutCmd.label "切り取り">
+<!ENTITY cutCmd.label "@@Cut@@">
 <!ENTITY deleteCmd.label "削除">
 <!ENTITY deleteDomainCmd.accesskey "s">
 <!ENTITY deleteHostnameCmd.accesskey "H">
@@ -23,11 +23,11 @@
 <!ENTITY menuitem.view.show_columns.label "列を表示">
 <!ENTITY menuitem.view.unsorted.accesskey "u">
 <!ENTITY menuitem.view.unsorted.label "(自動で並べ直さない)">
-<!ENTITY pasteCmd.label "貼り付け">
-<!ENTITY redoCmd.label "やり直し">
-<!ENTITY selAllCmd.label "すべて選択">
+<!ENTITY pasteCmd.label "@@Paste@@">
+<!ENTITY redoCmd.label "@@Redo@@">
+<!ENTITY selAllCmd.label "@@SelectAll@@">
 <!ENTITY sortAscending.accesskey "A">
 <!ENTITY sortAscending.label "昇順">
 <!ENTITY sortDescending.accesskey "D">
 <!ENTITY sortDescending.label "降順">
-<!ENTITY undoCmd.label "元に戻す">
+<!ENTITY undoCmd.label "@@Undo@@">

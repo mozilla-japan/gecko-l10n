@@ -57,22 +57,22 @@
 <!ENTITY bookmarkLinkCmd.accesskey "L">
 <!ENTITY bookmarkFrameCmd.label "フレームをブックマーク">
 <!ENTITY bookmarkFrameCmd.accesskey "m">
-<!ENTITY savePageAsCmd.label "名前を付けてページを保存...">
+<!ENTITY savePageAsCmd.label "@@SavePageAs@@...">
 <!ENTITY savePageCmd.label "ページを保存">
 <!ENTITY savePageCmd.accesskey "a">
 <!ENTITY savePageCmd.commandkey "s">
-<!ENTITY saveFrameAsCmd.label "フレームを名前を付けて保存...">
+<!ENTITY saveFrameAsCmd.label "@@SaveFrameAs@@...">
 <!ENTITY saveFrameCmd.label "フレームを保存">
 <!ENTITY saveFrameCmd.accesskey "m">
-<!ENTITY saveLinkAsCmd.label "リンク先を名前を付けて保存...">
+<!ENTITY saveLinkAsCmd.label "@@SaveLinkAs@@...">
 <!ENTITY saveLinkCmd.label "リンク先を保存">
 <!ENTITY saveLinkCmd.accesskey "r">
-<!ENTITY saveImageAsCmd.label "画像を名前を付けて保存...">
+<!ENTITY saveImageAsCmd.label "@@SaveImageAs@@...">
 <!ENTITY saveImageCmd.label "画像を保存">
 <!ENTITY saveImageCmd.accesskey "v">
 <!ENTITY copyCmd.label "コピー">
 <!ENTITY copyCmd.accesskey "C">
-<!ENTITY selectAllCmd.label "すべて選択">
+<!ENTITY selectAllCmd.label "@@SelectAll@@">
 <!ENTITY selectAllCmd.accesskey "A">
 <!ENTITY copyLinkCmd.label "リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey "C">
@@ -82,15 +82,15 @@
 <!ENTITY metadataCmd.accesskey "P">
 <!ENTITY copyEmailCmd.label "メール アドレスをコピー">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY pasteCmd.label "貼り付け">
+<!ENTITY pasteCmd.label "@@Paste@@">
 <!ENTITY pasteCmd.accesskey "P">
-<!ENTITY cutCmd.label "切り取り">
+<!ENTITY cutCmd.label "@@Cut@@">
 <!ENTITY cutCmd.accesskey "t">
 <!ENTITY deleteCmd.label "削除">
 <!ENTITY deleteCmd.accesskey "D">
-<!ENTITY undoCmd.label "元に戻す">
+<!ENTITY undoCmd.label "@@Undo@@">
 <!ENTITY undoCmd.accesskey "U">
-<!ENTITY redoCmd.label "やり直し">
+<!ENTITY redoCmd.label "@@Redo@@">
 <!ENTITY redoCmd.accesskey "R">
 <!ENTITY thisFrameMenu.label "フレーム">
 <!ENTITY thisFrameMenu.accesskey "h">

@@ -50,7 +50,7 @@
 <!ENTITY object.del.accesskey   "R">
 
 <!ENTITY object.reset.label     "リセット">
-<!ENTITY object.reset.hint      "このオブジェクトの環境設定を既定値にリセット">
+<!ENTITY object.reset.hint      "このオブジェクトの環境設定を@@DefaultValue@@にリセット">
 <!ENTITY object.reset.accesskey "s">
 
 <!ENTITY dialog.apply           "適用">
