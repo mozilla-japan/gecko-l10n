@@ -1,7 +1,7 @@
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
 <!ENTITY title.label "メッセージのセキュリティ">
-<!ENTITY subject.plaintextWarning "注意: 電子メールの件名(Subject) 行は暗号化されることはありません。">
+<!ENTITY subject.plaintextWarning "注意: メールの件名 (Subject) 行は暗号化されることはありません。">
 <!ENTITY status.heading "メッセージの内容は、以下のように送信されます:">
 <!ENTITY status.signed "デジタル署名:">
 <!ENTITY status.encrypted "暗号化:">

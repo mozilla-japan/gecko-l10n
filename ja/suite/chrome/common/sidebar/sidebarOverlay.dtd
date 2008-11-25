@@ -7,8 +7,8 @@
 <!ENTITY sidebar.loading.stop.accesskey "S">
 <!ENTITY sidebar.loading.stop.label "中止">
 <!ENTITY sidebar.loadstopped.label "読み込み中止">
-<!ENTITY sidebar.no-panels.add "上の [タブ] ボタンをクリックすることでタブを追加できます。">
-<!ENTITY sidebar.no-panels.hide "Sidebar を表示したくない場合は、“表示”メニューをクリックし、“表示 / 隠す”サブメニューの“Sidebar”を選択してください。">
+<!ENTITY sidebar.no-panels.add "上の @@[@@タブ@@]@@ ボタンをクリックすることでタブを追加できます。">
+<!ENTITY sidebar.no-panels.hide "Sidebar を表示したくない場合は、@@[@@表示@@]@@ メニューをクリックし、@@[@@表示 / 隠す@@]@@ サブメニューの @@[@@Sidebar@@]@@ を選択してください。">
 <!ENTITY sidebar.no-panels.state "Sidebar は、現在空白です。">
 <!ENTITY sidebar.open.tooltip "Sidebar を開く">
 <!ENTITY sidebar.pagenotfound.label "このタブは現在有効ではありません。">

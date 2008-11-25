@@ -27,7 +27,7 @@
 <!ENTITY languages.customize.DefaultCharset.accesskey "C">
 <!ENTITY languages.customize.DefaultCharset.label "デフォルトの文字コード:">
 <!-- LOCALIZATION NOTE  Character Encoding Preferences Dialog: Do NOT localize the terms "en-bz, ar-jo"  -->
-<!ENTITY languages.customize.others.examples "例：en-bz, ar-jo">
+<!ENTITY languages.customize.others.examples "例: en-bz, ar-jo">
 <!ENTITY languages.customize.cancel.label "キャンセル">
 <!ENTITY languages.customize.save.label "保存">
 <!ENTITY languages.customize.ok.label "OK">

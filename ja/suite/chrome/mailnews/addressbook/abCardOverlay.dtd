@@ -102,7 +102,7 @@
 <!ENTITY HomeAddress.accesskey          "d">
 <!ENTITY HomeAddress2.label             "">
 <!ENTITY HomeAddress2.accesskey         "">
-<!ENTITY HomeCity.label			"市町村:"> 
+<!ENTITY HomeCity.label			"市区町村:"> 
 <!ENTITY HomeCity.accesskey             "y">
 <!ENTITY HomeState.label		"都道府県:"> 
 <!ENTITY HomeState.accesskey            "S">
@@ -123,7 +123,7 @@
 <!ENTITY WorkAddress.accesskey          "r">
 <!ENTITY WorkAddress2.label             "">
 <!ENTITY WorkAddress2.accesskey         "">
-<!ENTITY WorkCity.label			"市町村:"> 
+<!ENTITY WorkCity.label			"市区町村:"> 
 <!ENTITY WorkCity.accesskey             "i">
 <!ENTITY WorkState.label		"都道府県:"> 
 <!ENTITY WorkState.accesskey            "v">

@@ -6,7 +6,7 @@
 <!ENTITY description.label "ポリシーの説明:">
 <!ENTITY policies.label "ポリシー:">
 <!ENTITY pref.policies.title "セキュリティ ポリシー">
-<!ENTITY restricted.label "制限・禁止する Web サイト">
+<!ENTITY restricted.label "制限、禁止する Web サイト">
 <!ENTITY settings.accesskey "s">
 <!ENTITY settings.label "以下を設定 ">
 <!ENTITY trusted.label "信頼できる Web サイト">
