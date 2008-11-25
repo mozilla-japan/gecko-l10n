@@ -43,7 +43,7 @@
 <!ENTITY viewFrameInfoCmd.accesskey "I">
 <!ENTITY fitImageCmd.label "画像サイズを@@Window@@に合わせる">
 <!ENTITY fitImageCmd.accesskey "F">
-<!ENTITY reloadImageCmd.label         "画像の再読込">
+<!ENTITY reloadImageCmd.label         "画像の再読み込み">
 <!ENTITY reloadImageCmd.accesskey     "e">
 <!ENTITY viewImageCmd.label "画像を表示">
 <!ENTITY viewImageCmd.accesskey "I">
