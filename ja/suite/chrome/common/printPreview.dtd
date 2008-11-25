@@ -2,7 +2,7 @@
 <!ENTITY ShrinkToFit.label "用紙に合わせて縮める">
 <!ENTITY close.accesskey "C">
 <!ENTITY close.label "閉じる">
-<!ENTITY customPrompt.title "拡大/縮小を設定...">
+<!ENTITY customPrompt.title "@@Zoom@@を設定...">
 <!ENTITY endarrow.tooltip "最後のページ">
 <!ENTITY homearrow.tooltip "最初のページ">
 <!ENTITY landscape.accesskey "L">
@@ -31,4 +31,4 @@
 <!ENTITY print.label "印刷...">
 <!ENTITY rightarrow.tooltip "次のページ">
 <!ENTITY scale.accesskey "S">
-<!ENTITY scale.label "拡大/縮小:">
+<!ENTITY scale.label "@@Zoom@@:">

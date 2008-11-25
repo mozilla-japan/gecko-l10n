@@ -35,5 +35,5 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY askViewZoom.title "拡大/縮小">
-<!ENTITY selectZoom.label "拡大/縮小率 (&#37;) を入力:">
+<!ENTITY askViewZoom.title "@@Zoom@@">
+<!ENTITY selectZoom.label "@@Zoom@@率 (&#37;) を入力:">

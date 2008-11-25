@@ -39,7 +39,7 @@
 
 <!ENTITY minimizeWindowCmd.label        "しまう">
 <!ENTITY minimizeWindowCmd.key          "M">
-<!ENTITY zoomWindowCmd.label            "拡大/縮小">
+<!ENTITY zoomWindowCmd.label            "@@Zoom@@">
 
 <!-- Help viewer -->
 <!ENTITY openHelpCmd.label              "&brandShortName; ヘルプ">

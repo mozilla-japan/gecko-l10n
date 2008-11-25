@@ -1,14 +1,14 @@
 <!ENTITY winhooks.label                   "システム">
 
-<!ENTITY defaultBrowserGroup.label  "既定のブラウザ">
-<!ENTITY defaultBrowserButton.label "既定のブラウザに設定">
-<!ENTITY alreadyDefaultText         "&brandShortName; は既定のブラウザに設定されています。">
-<!ENTITY defaultPendingText         "&brandShortName; は OK をクリックすると既定のブラウザになります。">
-<!ENTITY makeDefaultText            "&brandShortName; を既定のブラウザに設定する。">
+<!ENTITY defaultBrowserGroup.label  "@@DefaultBrowser@@">
+<!ENTITY defaultBrowserButton.label "@@DefaultBrowser@@に設定">
+<!ENTITY alreadyDefaultText         "&brandShortName; は@@DefaultBrowser@@に設定されています。">
+<!ENTITY defaultPendingText         "&brandShortName; は OK をクリックすると@@DefaultBrowser@@になります。">
+<!ENTITY makeDefaultText            "&brandShortName; を@@DefaultBrowser@@に設定する。">
 
 <!ENTITY urlbar.label "ロケーションバーでCtrl+Enter">
 <!ENTITY urlbar.accesskey "L">
-<!ENTITY middleClick.label "Web ページでリンクを中クリックまたは Ctrl+ クリック あるいは Ctrl+Enter">
+<!ENTITY middleClick.label "Web ページでリンクを中クリックまたは Ctrl+クリック あるいは Ctrl+Enter">
 <!ENTITY middleClick.accesskey "M">
 
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
