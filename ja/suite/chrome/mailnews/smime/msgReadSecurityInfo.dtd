@@ -6,5 +6,5 @@
 
 <!ENTITY signer.name "署名者:">
 <!ENTITY recipient.name "暗号化:">
-<!ENTITY email.address "電子メール アドレス:">
+<!ENTITY email.address "メール アドレス:">
 <!ENTITY issuer.name "証明書発行者:">

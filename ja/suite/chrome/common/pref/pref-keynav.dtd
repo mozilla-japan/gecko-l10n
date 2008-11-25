@@ -14,7 +14,7 @@
 <!ENTITY tabNavigationBehavior.label "タブ キー ナビゲーション">
 <!ENTITY tabNavigationDesc.label "Tab か Shift+Tab を押したときの移動先:">
 <!ENTITY tabNavigationForms.accesskey "B">
-<!ENTITY tabNavigationForms.label "ボタン・ラジオ ボタン・チェック ボックス・リスト要素">
+<!ENTITY tabNavigationForms.label "ボタン、ラジオボタン、チェックボックス、リスト要素">
 <!ENTITY tabNavigationLinks.accesskey "L">
 <!ENTITY tabNavigationLinks.label "リンク">
 <!ENTITY tabNavigationTextboxes.label "注: いずれの設定でもテキスト ボックスとフレーム類は含まれます。">

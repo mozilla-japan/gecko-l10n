@@ -16,7 +16,7 @@
 <!ENTITY showSearchEngine.accesskey            "e">
 
 <!ENTITY unknownLocations.label                "ロケーション設定">
-<!ENTITY domainGuessing.label                  "アドレス (URL) が間違っていたときは、“www.”、“.com”を補う。">
+<!ENTITY domainGuessing.label                  "アドレス (URL) が間違っていたときは、&quot;www.&quot;、&quot;.com&quot;を補う。">
 <!ENTITY domainGuessing.accesskey              "d">
 <!ENTITY keywords.label                        "入力されたテキストが Web ロケーション(URL)ではないとき、Web検索を行なう。">
 <!ENTITY keywords.accesskey                    "P">

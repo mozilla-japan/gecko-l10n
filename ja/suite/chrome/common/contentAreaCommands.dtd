@@ -80,7 +80,7 @@
 <!ENTITY copyImageCmd.accesskey "o">
 <!ENTITY metadataCmd.label "プロパティ">
 <!ENTITY metadataCmd.accesskey "P">
-<!ENTITY copyEmailCmd.label "電子メール アドレスをコピー">
+<!ENTITY copyEmailCmd.label "メール アドレスをコピー">
 <!ENTITY copyEmailCmd.accesskey "E">
 <!ENTITY pasteCmd.label "貼り付け">
 <!ENTITY pasteCmd.accesskey "P">
