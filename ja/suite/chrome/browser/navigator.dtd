@@ -109,7 +109,7 @@
 <!ENTITY doccharactersetBidiCmd.label "ドキュメントで指定された文字コードを使用">
 <!ENTITY defaultcharactersetBidiCmd.label "デフォルトの文字コードを使い、ドキュメントで指定された文字コードを上書きする">
 
-<!ENTITY webContentMenu.label "言語とウェブコンテンツ">
+<!ENTITY webContentMenu.label "言語と Web コンテンツ">
 <!ENTITY webContentMenu.accesskey "l">
 <!ENTITY downloadMore.label "追加ダウンロード">
 <!ENTITY downloadMore.accesskey "D">

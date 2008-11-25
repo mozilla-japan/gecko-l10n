@@ -7,7 +7,7 @@
 <!ENTITY accAllCookiesRadio.label "すべてのクッキーを許可">
 <!ENTITY accAllCookiesRadio.accesskey "c">
 
-<!ENTITY accOrgCookiesRadio.label "文書があるウェブ サイトから送信されてくるクッキーのみ許可">
+<!ENTITY accOrgCookiesRadio.label "文書がある Web サイトから送信されてくるクッキーのみ許可">
 <!ENTITY accOrgCookiesRadio.accesskey "o">
 
 <!ENTITY disableCookies.label "すべてのクッキーを拒否">

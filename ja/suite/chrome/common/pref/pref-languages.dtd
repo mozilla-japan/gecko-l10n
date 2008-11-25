@@ -2,8 +2,8 @@
 
 <!ENTITY languages.customize.prefLangDescript "同じアドレス (URL) で、複数の言語版のページが用意されている場合があります。その場合に表示する言語を順番に選択してください。">
 <!ENTITY languages.customize.lHeader "言語">
-<!ENTITY languages.customize.rHeader "ウェブ ページの表示言語">
-<!ENTITY langtitle.label "ウェブ ページの言語">
+<!ENTITY languages.customize.rHeader " Web ページの表示言語">
+<!ENTITY langtitle.label "Web ページの言語">
 <!ENTITY languages.customize.prefAddLangDescript "追加したい言語を選択してください。">
 <!ENTITY languages.customize.engOrder.label "1">
 <!ENTITY languages.customize.engOption.label "英語">

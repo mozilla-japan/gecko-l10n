@@ -1,13 +1,13 @@
 <!ENTITY addSite.accesskey "a">
 <!ENTITY addSite.label "サイトを追加...">
-<!ENTITY allWebsites.label "すべてのウェブ サイト">
-<!ENTITY annoyances.label "不快なウェブ サイト">
+<!ENTITY allWebsites.label "すべての Web サイト">
+<!ENTITY annoyances.label "不快な Web サイト">
 <!ENTITY default.label "デフォルトのポリシー">
 <!ENTITY description.label "ポリシーの説明:">
 <!ENTITY policies.label "ポリシー:">
 <!ENTITY pref.policies.title "セキュリティ ポリシー">
-<!ENTITY restricted.label "制限・禁止するウェブ サイト">
+<!ENTITY restricted.label "制限・禁止する Web サイト">
 <!ENTITY settings.accesskey "s">
 <!ENTITY settings.label "以下を設定 ">
-<!ENTITY trusted.label "信頼できるウェブ サイト">
+<!ENTITY trusted.label "信頼できる Web サイト">
 <!ENTITY zoneIntro.label "&brandShortName; には、あなたのポリシーに合わせて、スクリプトや Java に対するものを含む、多くの機能を有効あるいは無効に設定できます。">
