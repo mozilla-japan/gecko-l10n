@@ -8,7 +8,7 @@
 <!ENTITY autoCompleteAutoFill.accesskey        "u">
 <!ENTITY autoCompleteShowPopup.label           "一致する単語のリストを表示">
 <!ENTITY autoCompleteShowPopup.accesskey       "S">
-<!ENTITY autoCompleteMatchOnlyTyped.label      "以前に入力したウェブ サイトにのみ一致するリストを表示">
+<!ENTITY autoCompleteMatchOnlyTyped.label      "以前に入力した Web サイトにのみ一致するリストを表示">
 <!ENTITY autoCompleteMatchOnlyTyped.accesskey  "M">
 
 <!ENTITY searchEngine.label                    "インターネット サーチ エンジン">
@@ -18,5 +18,5 @@
 <!ENTITY unknownLocations.label                "ロケーション設定">
 <!ENTITY domainGuessing.label                  "アドレス (URL) が間違っていたときは、“www.”、“.com”を補う。">
 <!ENTITY domainGuessing.accesskey              "d">
-<!ENTITY keywords.label                        "入力されたテキストがウェブロケーション(URL)ではないとき、Web検索を行なう。">
+<!ENTITY keywords.label                        "入力されたテキストが Web ロケーション(URL)ではないとき、Web検索を行なう。">
 <!ENTITY keywords.accesskey                    "P">

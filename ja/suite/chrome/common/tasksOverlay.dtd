@@ -24,7 +24,7 @@
 <!ENTITY taskNavigator.tooltip "Browser">
 <!ENTITY taskBar.tooltip "ステータス バー">
 
-<!ENTITY webDevelopment.label "ウェブ開発">
+<!ENTITY webDevelopment.label "Web 開発">
 <!ENTITY webDevelopment.accesskey "W">
 
 <!ENTITY windowMenu.label "@@Window@@">

@@ -30,7 +30,7 @@
 <!ENTITY font.langGroup.unicode "他の言語">
 <!ENTITY font.langGroup.user-def "ユーザ定義">
 <!ENTITY fontsize.units "ピクセル">
-<!ENTITY header2 "ウェブ ページによってはフォントが指定されていることがあります。">
+<!ENTITY header2 " Web ページによってはフォントが指定されていることがあります。">
 <!ENTITY language.accesskey "t">
 <!ENTITY language.label "言語用のフォント:">
 <!ENTITY minSize.accesskey "z">
@@ -57,4 +57,4 @@
 <!ENTITY useDocFontNonDynamic.accesskey "p">
 <!ENTITY useDocFontNonDynamic.label "ページによって指定されたフォントを使用する">
 <!ENTITY useDocumentFonts.accesskey "o">
-<!ENTITY useDocumentFonts.label "ウェブ ページで他のフォントを使用できる">
+<!ENTITY useDocumentFonts.label "Web ページで他のフォントを使用できる">

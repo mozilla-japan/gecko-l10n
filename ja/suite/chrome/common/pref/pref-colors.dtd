@@ -1,7 +1,7 @@
 <!ENTITY activeLinkColor.accesskey "c">
 <!ENTITY activeLinkColor.label "アクティブなリンク:">
 <!ENTITY alwaysUseDocumentColors.accesskey "A">
-<!ENTITY alwaysUseDocumentColors.label "常にウェブ ページで指定された配色と背景を使用する">
+<!ENTITY alwaysUseDocumentColors.label "常に Web ページで指定された配色と背景を使用する">
 <!ENTITY backgroundColor.accesskey "B">
 <!ENTITY backgroundColor.label "背景:">
 <!ENTITY color "テキストと背景">
@@ -9,7 +9,7 @@
 <!ENTITY linkColor.label "未訪問のリンク:">
 <!ENTITY links "リンクの色">
 <!ENTITY pref.colors.title "配色">
-<!ENTITY someProvColors "ウェブ ページが独自の配色と背景を提供する場合">
+<!ENTITY someProvColors "Web ページが独自の配色と背景を提供する場合">
 <!ENTITY textColor.accesskey "T">
 <!ENTITY textColor.label "普通のテキスト:">
 <!ENTITY underlineLinks.accesskey "U">

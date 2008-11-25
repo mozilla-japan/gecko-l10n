@@ -1,18 +1,18 @@
 <!--LOCALIZATION NOTE : FILE The Appearance > Content prefs dialog.  -->
 
 <!ENTITY pref.content.title                     "コンテンツ">
-<!ENTITY pref.content.description               "これらの設定は &brandShortName; でウェブサイトやメッセージがどのように表示されるかを決めます。">
-<!ENTITY siteIcons.label                        "ウェブサイトのアイコン">
-<!ENTITY useSiteIcons.label                     "ウェブサイトのアイコンを表示する">
+<!ENTITY pref.content.description               "これらの設定は &brandShortName; で Web サイトやメッセージがどのように表示されるかを決めます。">
+<!ENTITY siteIcons.label                        "Web サイトのアイコン">
+<!ENTITY useSiteIcons.label                     "Web サイトのアイコンを表示する">
 <!ENTITY useSiteIcons.accesskey                 "S">
-<!ENTITY useFavIcons.label                      "ページが設定していないときウェブサイトアイコンを探す">
+<!ENTITY useFavIcons.label                      "ページが設定していないとき Web サイトアイコンを探す">
 <!ENTITY useFavIcons.accesskey                  "A">
-<!ENTITY tbIconsDescription.label               "ブックマークメニューとツールバーにウェブサイトのアイコン表示する:">
+<!ENTITY tbIconsDescription.label               "ブックマークメニューとツールバーに Web サイトのアイコン表示する:">
 <!ENTITY tbIconsNever.label                     "ブックマークにアイコンを表示しない">
 <!ENTITY tbIconsNever.accesskey                 "N">
-<!ENTITY tbIconsCache.label                     "ウェブサイトを訪れたときだけ">
+<!ENTITY tbIconsCache.label                     "Web サイトを訪れたときだけ">
 <!ENTITY tbIconsCache.accesskey                 "O">
-<!ENTITY tbIconsAlways.label                    "ブックマークにウェブサイトアイコンをいつもロードする">
+<!ENTITY tbIconsAlways.label                    "ブックマークに Web サイトアイコンをいつもロードする">
 <!ENTITY tbIconsAlways.accesskey                "w">
 <!ENTITY enableAutomaticImageResizing.label     "大きな画像をブラウザ @@Window@@に合わせて縮小表示する">
 <!ENTITY enableAutomaticImageResizing.accesskey "R">

@@ -3,7 +3,7 @@
 <!ENTITY legendHeader "デフォルトの検索エンジン">
 <!ENTITY openSidebarSearchPanel.accesskey "O">
 <!ENTITY openSidebarSearchPanel.label "検索時には Sidebar の検索タブを開き検索結果を表示する">
-<!ENTITY openContextSearchTab.label       "コンテキスト メニューのウェブ検索結果を@@Window@@の代わりにタブで開く">
+<!ENTITY openContextSearchTab.label       "コンテキスト メニューの Web 検索結果を@@Window@@の代わりにタブで開く">
 <!ENTITY openContextSearchTab.accesskey   "t">
 <!ENTITY pref.search.title "インターネット検索">
 <!ENTITY searchModeAdvanced.accesskey "A">
