@@ -24,9 +24,7 @@
    -  Robert Ginda, <rginda@netscape.com>, original author
    - 
    - Javanese Localization by
-   -  dynamis, <venkman[at]skillup[dot]jp>
-   - To get latest Japanese localized file or further info,
-   - please visit <http://skillup.jp/venkman/>.
+   -  dynamis
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -43,7 +41,7 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY venkmanCmd.label	"JavaScript デバッガ">
-<!ENTITY venkmanCmd.akey	"D">
+<!ENTITY venkmanCmd.accesskey	"D">
 
 <!ENTITY vnkButton.label	"JavaScript デバッガ">
   
