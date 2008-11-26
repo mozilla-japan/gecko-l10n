@@ -66,8 +66,8 @@
 <!ENTITY calendar.multiweekView.key            "3" >
 <!ENTITY calendar.monthView.key                "4" >
 
-<!ENTITY calendar.newtask.button.tooltip          "@@NewTask@@ を作成します" >
-<!ENTITY calendar.newevent.button.tooltip         "@@NewEvent@@を作成します" >
+<!ENTITY calendar.newtask.button.tooltip          "@@New-CMD@@タスクを作成します" >
+<!ENTITY calendar.newevent.button.tooltip         "@@New-CMD@@イベントを作成します" >
 <!ENTITY calendar.delete.button.tooltip           "選択した予定を削除します" >
 <!ENTITY calendar.edit.button.tooltip             "選択した予定を編集します" >
 
@@ -122,8 +122,8 @@
 <!ENTITY calendar.nextmonth.button.tooltip      "次の月" >
 <!ENTITY calendar.prevmonth.button.tooltip      "前の月" >
 
-<!ENTITY calendar.newtask.button.label          "@@NewTask@@" >
-<!ENTITY calendar.newevent.button.label         "@@NewEvent@@" >
+<!ENTITY calendar.newtask.button.label          "@@New-CMD@@タスク" >
+<!ENTITY calendar.newevent.button.label         "@@New-CMD@@イベント" >
 <!ENTITY calendar.delete.button.label           "削除" >
 <!ENTITY calendar.edit.button.label             "編集" >
 
@@ -230,9 +230,9 @@
 <!ENTITY calendar.context.modifyorviewitem.accesskey  "O">
 <!ENTITY calendar.context.modifyorviewtask.label      "ToDo を開く...">
 <!ENTITY calendar.context.modifyorviewtask.accesskey  "O">
-<!ENTITY calendar.context.newevent.label              "@@NewEvent@@...">
+<!ENTITY calendar.context.newevent.label              "@@New-CMD@@イベント...">
 <!ENTITY calendar.context.newevent.accesskey          "N">
-<!ENTITY calendar.context.newtodo.label               "@@NewTask@@...">
+<!ENTITY calendar.context.newtodo.label               "@@New-CMD@@タスク...">
 <!ENTITY calendar.context.newtodo.accesskey           "k">
 <!ENTITY calendar.context.modifytask.label            "ToDo を編集...">
 <!ENTITY calendar.context.modifytask.accesskey        "E">
@@ -295,7 +295,7 @@
 <!ENTITY priority.level.high.accesskey      "H">
 
 <!-- Server Context Menu -->
-<!ENTITY calendar.context.newserver.label              "@@NewCalendar@@...">
+<!ENTITY calendar.context.newserver.label              "@@New-CMD@@カレンダー...">
 <!ENTITY calendar.context.newserver.accesskey          "N">
 <!ENTITY calendar.context.findcalendar.label           "カレンダーを検索..." >
 <!ENTITY calendar.context.findcalendar.accesskey       "F" >

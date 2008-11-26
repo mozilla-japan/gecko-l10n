@@ -44,7 +44,7 @@
 <!ENTITY  copy.label            "コピー">
 <!ENTITY  copy.accesskey        "C">
 <!ENTITY  selectall.key         "A">
-<!ENTITY  selectall.label       "すべて選択">
+<!ENTITY  selectall.label       "@@SelectAll@@">
 <!ENTITY  selectall.accesskey   "A">
 <!ENTITY  closeWindow.key       "w">
 
@@ -57,7 +57,7 @@
 <!ENTITY  generalReferrer       "参照元 URL:">
 <!ENTITY  generalSource         "ソース:">
 <!ENTITY  generalModified       "更新日時:">
-<!ENTITY  generalEncoding       "文字コード:">
+<!ENTITY  generalEncoding       "@@CharacterEncoding@@:">
 <!ENTITY  generalMetaName       "名前">
 <!ENTITY  generalMetaContent    "コンテンツ">
 <!ENTITY  generalSecurityMore   "その他">
@@ -69,7 +69,7 @@
 <!ENTITY  formMethod            "メソッド">
 <!ENTITY  formName              "名前">
 <!ENTITY  formNo                "番号">
-<!ENTITY  formEncoding          "文字コード:">
+<!ENTITY  formEncoding          "@@CharacterEncoding@@:">
 <!ENTITY  formTarget            "ターゲット:">
 <!ENTITY  formFields            "フィールド:">
 <!ENTITY  formLabel             "ラベル">

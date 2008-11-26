@@ -48,7 +48,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 -->
 
 <!ENTITY importDialog.windowTitle	"設定とデータの@@ImportNoun@@">
-<!ENTITY importDialog.allTitle		"すべてインポート">
+<!ENTITY importDialog.allTitle		"すべて@@Import@@">
 <!ENTITY importDialog.mailTitle		"メールボックス">
 <!ENTITY importDialog.addressbookTitle	"アドレス帳">
 <!ENTITY importDialog.settingsTitle	"設定">

@@ -51,7 +51,7 @@
 <!ENTITY availprofiles.label	"プロファイル一覧">
 
 
-<!ENTITY newButton.label	"@@NewProfile@@を作成...">
+<!ENTITY newButton.label	"@@New-CMD@@プロファイルを作成...">
 <!ENTITY newButton.accesskey	"C">
 <!ENTITY renameButton.label	"プロファイル名を変更...">
 <!ENTITY renameButton.accesskey	"R">

@@ -73,7 +73,7 @@
 <!ENTITY pageInfoCmd.label "ページの情報">
 <!ENTITY pageInfoCmd.accesskey "i">
 <!ENTITY pageInfoCmd.commandkey "i">
-<!ENTITY fullScreenCmd.label "全画面表示">
+<!ENTITY fullScreenCmd.label "@@FullScreen@@">
 <!ENTITY fullScreenCmd.accesskey "f">
 <!ENTITY translateMenu.label "ページを翻訳">
 <!ENTITY translateMenu.accesskey "T">
@@ -84,7 +84,7 @@
 <!ENTITY closeWindow.label "@@Window@@を閉じる">
 <!ENTITY closeWindow.accesskey "W">
 
-<!ENTITY minimizeButton.tooltip       "最小化">
+<!ENTITY minimizeButton.tooltip       "@@Minimize@@">
 <!ENTITY restoreButton.tooltip        "戻す">
 
 <!-- I'd like all this to move to an overlay or something -->
@@ -93,7 +93,7 @@
 <!ENTITY directionRTLBidiCmd.label "右から左へ">
 <!ENTITY directionLTRBidiCmd.label "左から右へ">
 <!ENTITY texttypeBidiMenu.label "テキストの形式">
-<!ENTITY charsettexttypeBidiCmd.label "元の文字コード">
+<!ENTITY charsettexttypeBidiCmd.label "元の@@CharacterEncoding@@">
 <!ENTITY logicaltexttypeBidiCmd.label "論理的">
 <!ENTITY visualtexttypeBidiCmd.label "見たまま">
 <!ENTITY numeralBidiMenu.label "数字の形">
@@ -105,9 +105,9 @@
 <!ENTITY logicalcontrolstextmodeBidiCmd.label "論理的">
 <!ENTITY visiualcontrolstextmodeBidiCmd.label "見たまま">
 <!ENTITY containercontrolstextmodeBidiCmd.label "ドキュメントに合わせる">
-<!ENTITY charactersetBidiMenu.label "文字コード">
-<!ENTITY doccharactersetBidiCmd.label "ドキュメントで指定された文字コードを使用">
-<!ENTITY defaultcharactersetBidiCmd.label "デフォルトの文字コードを使い、ドキュメントで指定された文字コードを上書きする">
+<!ENTITY charactersetBidiMenu.label "@@CharacterEncoding@@">
+<!ENTITY doccharactersetBidiCmd.label "ドキュメントで指定された@@CharacterEncoding@@を使用">
+<!ENTITY defaultcharactersetBidiCmd.label "デフォルトの@@CharacterEncoding@@を使い、ドキュメントで指定された@@CharacterEncoding@@を上書きする">
 
 <!ENTITY webContentMenu.label "言語と Web コンテンツ">
 <!ENTITY webContentMenu.accesskey "l">

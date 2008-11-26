@@ -116,9 +116,9 @@
 <!ENTITY preferencesCmdUnix.accesskey		"n">
 
 <!-- Address Book Toolbar and Context Menus -->
-<!ENTITY newcardButton.label			"@@NewCard@@">
+<!ENTITY newcardButton.label			"@@New-CMD@@カード">
 <!ENTITY newcardButton.accesskey		"C">
-<!ENTITY newlistButton.label			"@@NewList@@">
+<!ENTITY newlistButton.label			"@@New-CMD@@リスト">
 <!ENTITY newlistButton.accesskey		"L">
 <!ENTITY editButton.label			"@@PropertyCMD@@">
 <!ENTITY editButton.accesskey			"P">
