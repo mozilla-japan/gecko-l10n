@@ -304,7 +304,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY startPageCmd.accesskey		"S">
 <!ENTITY msgMenu.label			"メッセージ">
 <!ENTITY msgMenu.accesskey		"M">
-<!ENTITY newMsgCmd.label		"@@NewMessage@@">
+<!ENTITY newMsgCmd.label		"@@New-CMD@@メッセージ">
 <!ENTITY newMsgCmd.accesskey		"N">
 <!ENTITY newNewMsgCmd.label		"メッセージ">
 <!ENTITY newNewMsgCmd.accesskey		"M">
@@ -327,7 +327,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY forwardAsInline.accesskey	"I">
 <!ENTITY forwardAsAttachmentCmd.label	"添付">
 <!ENTITY forwardAsAttachmentCmd.accesskey "A">
-<!ENTITY editMsgAsNewCmd.label		"@@NewMessage@@として編集">
+<!ENTITY editMsgAsNewCmd.label		"@@New-CMD@@メッセージとして編集">
 <!ENTITY editMsgAsNewCmd.accesskey	"E">
 <!ENTITY editMsgAsNewCmd.key		"e">
 <!ENTITY createFilter.label		"メッセージからフィルタを作成...">
@@ -478,7 +478,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY compactButton.tooltip		"削除したメッセージをフォルダから消去します"><!-- (^^; わかりにくい… -->
 
 <!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label		"@@NewTag@@...">
+<!ENTITY addNewTag.label		"@@New-CMD@@タグ...">
 <!ENTITY addNewTag.accesskey		"N">
 
 <!-- Folder Pane -->
@@ -492,7 +492,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY folderContextOpenNewWindow.accesskey		"O">
 <!ENTITY folderContextOpenNewTab.label			"@@NewTab@@で開く">
 <!ENTITY folderContextOpenNewTab.accesskey		"T">
-<!ENTITY folderContextNew.label				"@@NewSubFolder@@...">
+<!ENTITY folderContextNew.label				"@@New-CMD@@サブフォルダ...">
 <!ENTITY folderContextNew.accesskey			"N">
 <!ENTITY folderContextRename.label			"名前を変更">
 <!ENTITY folderContextRename.accesskey			"R">
@@ -654,7 +654,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY saveImageAsCmd.accesskey	"v">
 <!ENTITY copyCmd.label			"コピー">
 <!ENTITY copyCmd.accesskey		"C">
-<!ENTITY selectAllCmd.label		"すべて選択">
+<!ENTITY selectAllCmd.label		"@@SelectAll@@">
 <!ENTITY selectAllCmd.accesskey		"A">
 <!ENTITY copyLinkCmd.label		"リンク URL をコピー">
 <!ENTITY copyLinkCmd.accesskey		"C">

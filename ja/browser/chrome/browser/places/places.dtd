@@ -101,7 +101,7 @@
 <!ENTITY cmd.new_bookmark.accesskey		"B">
 <!ENTITY cmd.new_livemark.label			"@@New-CMD@@ライブブックマーク...">
 <!ENTITY cmd.new_livemark.accesskey		"L">
-<!ENTITY cmd.new_folder.label			"@@NewFolder@@...">
+<!ENTITY cmd.new_folder.label			"@@New-CMD@@フォルダ...">
 <!ENTITY cmd.new_folder.accesskey		"o">
 <!ENTITY cmd.context_new_folder.accesskey	"F">
 <!ENTITY cmd.new_separator.label		"@@New-CMD@@区切り">

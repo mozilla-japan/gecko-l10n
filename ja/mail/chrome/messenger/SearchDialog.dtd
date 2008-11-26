@@ -26,7 +26,7 @@
 <!ENTITY abSearchHeading.accesskey	"h"> 
 <!ENTITY propertiesButton.label		"@@PropertyCMD@@">
 <!ENTITY propertiesButton.accesskey	"P">
-<!ENTITY composeButton.label		"@@NewMessage@@">
+<!ENTITY composeButton.label		"@@New-CMD@@メッセージ">
 <!ENTITY composeButton.accesskey	"W">
 <!ENTITY abSearchDialogTitle.label	"アドレスを検索">
 

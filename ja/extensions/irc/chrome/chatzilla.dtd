@@ -11,7 +11,7 @@
 <!ENTITY Bold.label                  "太字">
 <!ENTITY Reverse.label               "反転">
 <!ENTITY Normal.label                "通常">
-<!ENTITY Color.label                 "配色">
+<!ENTITY Color.label                 "@@Colors@@">
 <!ENTITY ForeBack.label              "xx=進む yy=戻る">
 
 <!-- 以下はen-USにはない    -->

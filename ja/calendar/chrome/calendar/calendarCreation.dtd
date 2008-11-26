@@ -33,8 +33,8 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY wizard.title             "@@NewCalendar@@" >
-<!ENTITY wizard.label             "@@NewCalendar@@を作成します" >
+<!ENTITY wizard.title             "@@New-CMD@@カレンダー" >
+<!ENTITY wizard.label             "@@New-CMD@@カレンダーを作成します" >
 <!ENTITY wizard.description       "カレンダーの保存先" >
 
 <!-- ENTITY initialpage.description    "カレンダーをあなたのコンピュータに保存するか、サーバに保存することでリモートからアクセスしたり友人や同僚と共有することができます。" -->

@@ -21,5 +21,5 @@
 <!ENTITY editBookmarkOverlay.loadInSidebar.label		"このブックマークはサイドバーに読み込む">
 <!ENTITY editBookmarkOverlay.loadInSidebar.accesskey		"h">
 <!ENTITY editBookmarkOverlay.choose.label			"選択...">
-<!ENTITY editBookmarkOverlay.newFolderButton.label		"@@NewFolder@@">
+<!ENTITY editBookmarkOverlay.newFolderButton.label		"@@New-CMD@@フォルダ">
 <!ENTITY editBookmarkOverlay.newFolderButton.accesskey		"o">

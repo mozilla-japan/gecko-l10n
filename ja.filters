@@ -115,6 +115,7 @@ ja.PropertyCMD				= プロパティ
 ja.Redo					= やり直し
 ja.SelectAll				= すべて選択
 ja.Undo					= 元に戻す
+ja.Undo-sare				= 元に戻され
 ja.Undo-simasu				= 元に戻します
 ja.Zoom					= 拡大/縮小
 
@@ -131,46 +132,18 @@ ja-JP-mac.PropertyCMD			= 情報を見る
 ja-JP-mac.Redo				= やり直す
 ja-JP-mac.SelectAll			= すべてを選択
 ja-JP-mac.Undo				= 取り消す
+ja-JP-mac.Undo-sare			= 取り消され
 ja-JP-mac.Undo-simasu			= 取り消します
 ja-JP-mac.Zoom				= 拡大／縮小
 
 
+# 新規〜作成コマンド、タブ、ウィンドウ以外は "@@New-CMD@@フォルダ" などとする
 ja.New-CMD				= 新しい
-ja.NewAccount				= 新しいアカウント
-ja.NewAddressBook			= 新しいアドレス帳
-ja.NewBookmark				= 新しいブックマーク
-ja.NewCalendar				= 新しいカレンダー
-ja.NewCard				= 新しいカード
-ja.NewDirectory				= 新しいディレクトリ
-ja.NewEvent				= 新しい予定
-ja.NewFolder				= 新しいフォルダ
-ja.NewList				= 新しいリスト
-ja.NewLiveBookmark			= 新しいライブブックマーク
-ja.NewMessage				= 新しいメッセージ
-ja.NewProfile				= 新しいプロファイル
-ja.NewSubFolder				= 新しいサブフォルダ
 ja.NewTab				= 新しいタブ
-ja.NewTag				= 新しいタグ
-ja.NewTask				= 新しい ToDo
 ja.NewWindow				= 新しいウィンドウ
 
 ja-JP-mac.New-CMD			= 新規
-ja-JP-mac.NewAccount			= 新規アカウント
-ja-JP-mac.NewAddressBook		= 新規アドレス帳
-ja-JP-mac.NewBookmark			= 新規ブックマーク
-ja-JP-mac.NewCalendar			= 新規カレンダー
-ja-JP-mac.NewCard			= 新規カード
-ja-JP-mac.NewDirectory			= 新規ディレクトリ
-ja-JP-mac.NewEvent			= 新規予定
-ja-JP-mac.NewFolder			= 新規フォルダ
-ja-JP-mac.NewList			= 新規リスト
-ja-JP-mac.NewLiveBookmark		= 新規ライブブックマーク
-ja-JP-mac.NewMessage			= 新規メッセージ
-ja-JP-mac.NewProfile			= 新規プロファイル
-ja-JP-mac.NewSubFolder			= 新規サブフォルダ
 ja-JP-mac.NewTab			= 新規タブ
-ja-JP-mac.NewTag			= 新規タグ
-ja-JP-mac.NewTask			= 新規 ToDo
 ja-JP-mac.NewWindow			= 新規ウインドウ
 
 
@@ -222,11 +195,13 @@ ja.-ExportCMD				= のエクスポート
 ja.Export				= エクスポート
 ja.ExportNoun				= エクスポート
 ja.Export-simasu			= エクスポートします
+ja.Export-suru				= エクスポートする
 # Mac OS X 10.4 or earlier: 書き出し 10.5 or later: 書き出す
 ja-JP-mac.-ExportCMD			= を書き出す
 ja-JP-mac.Export			= 書き出す
 ja-JP-mac.ExportNoun			= 書き出し
 ja-JP-mac.Export-simasu			= 書き出します
+ja-JP-mac.Export-suru			= 書き出す
 
 
 

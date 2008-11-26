@@ -99,9 +99,9 @@
 <!ENTITY displayNameCmd.accesskey                       "d"> 
 
 <!-- Tasks Menu -->
-<!ENTITY importCmd.label                                "インポート...">
+<!ENTITY importCmd.label                                "@@Import@@...">
 <!ENTITY importCmd.accesskey                            "I">
-<!ENTITY exportCmd.label                                "エクスポート...">
+<!ENTITY exportCmd.label                                "@@Export@@...">
 <!ENTITY exportCmd.accesskey                            "E">
 <!ENTITY allowOnlineCheck.label                         "オンラインかどうか確認する (AOL)">
 <!ENTITY allowOnlineCheck.accesskey                     "C">

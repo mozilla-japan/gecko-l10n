@@ -3,15 +3,15 @@
 <!ENTITY popupWindowRejectCmd.accesskey "">
 <!ENTITY popupWindowAllowCmd.label "このサイトのポップアップ @@Window@@を許可する">
 <!ENTITY popupWindowAllowCmd.accesskey "">
-<!ENTITY openLinkCmd.label "新しい@@Window@@で開く">
+<!ENTITY openLinkCmd.label "@@NewWindow@@で開く">
 <!ENTITY openLinkCmd.accesskey "W">
-<!ENTITY openLinkCmdInTab.label "新しいタブで開く">
+<!ENTITY openLinkCmdInTab.label "@@NewTab@@で開く">
 <!ENTITY openLinkCmdInTab.accesskey "T">
 <!ENTITY openLinkInWindowCmd.label "開く">
 <!ENTITY openLinkInWindowCmd.accesskey "p">
-<!ENTITY openFrameCmd.label "フレームを新しい@@Window@@で開く">
+<!ENTITY openFrameCmd.label "フレームを@@NewWindow@@で開く">
 <!ENTITY openFrameCmd.accesskey "W">
-<!ENTITY openFrameCmdInTab.label "フレームを新しいタブで開く">
+<!ENTITY openFrameCmdInTab.label "フレームを@@NewTab@@で開く">
 <!ENTITY openFrameCmdInTab.accesskey "T">
 <!ENTITY showOnlyThisFrameCmd.label "このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
@@ -64,7 +64,7 @@
 <!ENTITY saveFrameAsCmd.label "@@SaveFrameAs@@...">
 <!ENTITY saveFrameCmd.label "フレームを保存">
 <!ENTITY saveFrameCmd.accesskey "m">
-<!ENTITY saveLinkAsCmd.label "@@SaveLinkAs@@...">
+<!ENTITY saveLinkAsCmd.label "@@SaveLinkTargetAs@@...">
 <!ENTITY saveLinkCmd.label "リンク先を保存">
 <!ENTITY saveLinkCmd.accesskey "r">
 <!ENTITY saveImageAsCmd.label "@@SaveImageAs@@...">

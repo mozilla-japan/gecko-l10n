@@ -111,7 +111,7 @@
 
 <!-- Account Central page -->
 <!-- (^a^) mail/chrome/messenger/msgAccountCentral.dtd と表現を揃える -->
-<!ENTITY lightning.acctCentral.newCalendar.label "@@NewCalendar@@を作成する">
+<!ENTITY lightning.acctCentral.newCalendar.label "@@New-CMD@@カレンダーを作成する">
 
 <!-- today-pane-specific -->
 <!ENTITY todaypane.showMinimonth.label "日付選択を表示">
