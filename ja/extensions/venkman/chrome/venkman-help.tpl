@@ -1,10 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
 <!-- Contributor(s):
    -   Robert Ginda, <rginda@netscape.com>, original author
-   - Javanese Localization (venkman-help.tpl 1.3.3, 2003/08/30) by
-   -   dynamis, <venkman[at]skillup[dot]jp>
-   - To get latest Japanese localized file or further info,
-   - please visit <http://skillup.jp/venkman/>.
+   - Javanese Localization by
+   -   dynamis
    - 
    - According to HTML DTD definition, block level element cannnot appear in SPAN element.
    - But original file use SPAN as container of P or UL and the forth, and I replaced some SPAN with DIV except SPANs defined as block level by css.
@@ -110,13 +108,11 @@
           <b>Venkman ヘルプシステム</b> へようこそ。ここでは Venkman で利用できる様々なコマンドの解説を検索できます。特定のコマンドを検索するには下のテキストボックスに検索キーを入力し、 <b>検索</b> ボタンをクリックするか <b>Enter</b> キーを押してください。</p>
         <p>
           このヘルプシステムの他には
+          <a href="https://developer.mozilla.org/ja/Venkman">MDC の Venkman ページ</a>
+          <!-- (^^; どこかに Venkman 関連資料を復活させてから…
           <a href="http://jt.mozilla.gr.jp/projects/venkman/">Venkman ホームページ</a> や
-          <a href="http://skillup.jp/venkman/faq/venkman-faq.html">Venkman FAQ</a>
-          などをご覧ください。<br>
-          日本語版 Venkman に関しては
-          <a href="http://skillup.jp/venkman/">Venkman-JP</a> とその
-          <a href="http://skillup.jp/forum/">サポートフォーラム</a>
-          をご覧ください。</p>
+          <a href="http://skillup.jp/venkman/faq/venkman-faq.html">Venkman FAQ</a> -->
+          などをご覧ください。</p>
       </div>
       <div class="newbie-help">
         チェックボックスで検索対象フィールドを指定できます。

@@ -116,6 +116,7 @@ ja.Redo					= やり直し
 ja.SelectAll				= すべて選択
 ja.Undo					= 元に戻す
 ja.Undo-sare				= 元に戻され
+ja.Undo-sita				= 元に戻した
 ja.Undo-simasu				= 元に戻します
 ja.Zoom					= 拡大/縮小
 
@@ -133,11 +134,12 @@ ja-JP-mac.Redo				= やり直す
 ja-JP-mac.SelectAll			= すべてを選択
 ja-JP-mac.Undo				= 取り消す
 ja-JP-mac.Undo-sare			= 取り消され
+ja-JP-mac.Undo-sita			= 取り消した
 ja-JP-mac.Undo-simasu			= 取り消します
 ja-JP-mac.Zoom				= 拡大／縮小
 
 
-# 新規〜作成コマンド、タブ、ウィンドウ以外は "@@New-CMD@@フォルダ" などとする
+# 新規〜作成 (New~) コマンドではタブ、ウィンドウ以外は "@@New-CMD@@フォルダ" などとする
 ja.New-CMD				= 新しい
 ja.NewTab				= 新しいタブ
 ja.NewWindow				= 新しいウィンドウ
@@ -147,6 +149,8 @@ ja-JP-mac.NewTab			= 新規タブ
 ja-JP-mac.NewWindow			= 新規ウインドウ
 
 
+# 名前を付けて〜を保存 (Save~As) コマンドでは "@@Save-AsCMD@@画像を保存" などとする
+ja.Save-AsCMD				= 名前を付けて
 ja.SaveAs				= 名前を付けて保存
 ja.SaveAudioAs				= 名前を付けてオーディオを保存
 ja.SaveFrameAs				= 名前を付けてフレームを保存
@@ -157,6 +161,7 @@ ja.SavePageAs				= 名前を付けてページを保存
 ja.SaveVideoAs				= 名前を付けてビデオを保存
 ja.SaveViewAs				= 名前を付けてビューを保存
 
+ja-JP-mac.Save-AsCMD			= 別名で
 ja-JP-mac.SaveAs			= 別名で保存
 ja-JP-mac.SaveAudioAs			= 別名でオーディオを保存
 ja-JP-mac.SaveFrameAs			= 別名でフレームを保存

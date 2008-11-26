@@ -2,9 +2,7 @@
 <!-- Contributor(s):
    -   Robert Ginda, <rginda@netscape.com>, original author
    - Japanese Localization by
-   -   dynamis, <venkman[at]skillup[dot]jp>
-   - To get latest Japanese localized file or further info,
-   - please visit <http://skillup.jp/venkman/>.
+   -   dynamis
    -->
 <html>
   <head>

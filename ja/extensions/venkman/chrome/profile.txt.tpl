@@ -15,7 +15,8 @@ $section-number <$full-url>
 @-item-start
     関数名: $function-name  (行番号 $start-line - $end-line)
     呼び出し回数: $call-count (最高再帰レベル $recurse-depth)
-    合計時間: $total-time (最小/最大/平均 $min-time/$max-time/$avg-time)
+    合計処理時間: $total-time (最小/最大/平均 $min-time/$max-time/$avg-time)
+    関数呼び出しを除いた時間: $own-total-time (最小/最大/平均 $own-min-time/$own-max-time/$own-avg-time)
 
 @-item-end
   -------------------------------------------------------------------------------
@@ -27,4 +28,4 @@ $section-number <$full-url>
 
 
 Mozilla JavaScript デバッガ Venkman のご利用ありがとうございます。
-<http://jt.mozilla.gr.jp/projects/venkman/>
+<https://developer.mozilla.org/ja/Venkman>
