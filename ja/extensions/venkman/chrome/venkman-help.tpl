@@ -1,11 +1,20 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-
+<!-- Contributor(s):
+   -   Robert Ginda, <rginda@netscape.com>, original author
+   - Javanese Localization (venkman-help.tpl 1.3.3, 2003/08/30) by
+   -   dynamis, <venkman[at]skillup[dot]jp>
+   - To get latest Japanese localized file or further info,
+   - please visit <http://skillup.jp/venkman/>.
+   - 
+   - According to HTML DTD definition, block level element cannnot appear in SPAN element.
+   - But original file use SPAN as container of P or UL and the forth, and I replaced some SPAN with DIV except SPANs defined as block level by css.
+   -->
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=$report-charset">
     <link rel="stylesheet" href="$css" type="text/css" media="screen">
 
-    <title>Venkman Help System</title>
+    <title>Venkman ヘルプシステム</title>
     <script>
       function onLoad ()
       {
@@ -46,7 +55,8 @@
 
       function onKeyUp (event)
       {
-          if (event.keyCode == 13)
+        //  if (event.keyCode == 13) // original code
+          if ((event.keyCode == 3) || (event.keyCode == 13)) // chado custom for mac enter key
               onSearch();
       }
 
@@ -70,7 +80,7 @@
       {
           var parseResult = new Object();
           var ary = search.match(/([^&]+)/);
-          
+
           while (ary)
           {
               var rest = RegExp.rightContext.substr(1);
@@ -95,43 +105,42 @@
 
     <a name="top"></a>
     <div id="help-menu">
-      <span class="newbie-help">
+      <div class="newbie-help">
         <p>
-          Welcome to the <b>Venkman Help System</b>.  From here you can search
-          for help on the various commands available in Venkman.  To search for a
-          particular command, type your search term in the box below and click
-          <b>Go</b>, or press <b>Enter</b>.
+          <b>Venkman ヘルプシステム</b> へようこそ。ここでは Venkman で利用できる様々なコマンドの解説を検索できます。特定のコマンドを検索するには下のテキストボックスに検索キーを入力し、 <b>検索</b> ボタンをクリックするか <b>Enter</b> キーを押してください。</p>
         <p>
-          Additional help can be found on the
-          <a href="http://www.mozilla.org/projects/venkman/">Venkman Homepage</a>
-          or the
-          <a href="http://www.hacksrus.com/~ginda/venkman/faq/venkman-faq.html">Venkman FAQ</a>.
-      </span>
-      <span class="newbie-help">
-        The check boxes control which fields the search is performed on…
+          このヘルプシステムの他には
+          <a href="http://jt.mozilla.gr.jp/projects/venkman/">Venkman ホームページ</a> や
+          <a href="http://skillup.jp/venkman/faq/venkman-faq.html">Venkman FAQ</a>
+          などをご覧ください。<br>
+          日本語版 Venkman に関しては
+          <a href="http://skillup.jp/venkman/">Venkman-JP</a> とその
+          <a href="http://skillup.jp/forum/">サポートフォーラム</a>
+          をご覧ください。</p>
+      </div>
+      <div class="newbie-help">
+        チェックボックスで検索対象フィールドを指定できます。
         <ul>
-          <li><b>Command Names</b> matches the command name, as you might enter
-            it in the </b>Interactive Session</b>.
-          <li><b>User Interface Labels</b> matches the label used when the
-            command appears in a <b>menu</b> or <b>toolbar button</b>.
-          <li><b>Descriptions</b> matches the body of the help text.
+          <li><b>コマンド名</b>: <b>対話セッション</b> で実際に入力するコマンド名を検索します
+          <li><b>ユーザインタフェイスラベル</b>: コマンドが <b>メニュー</b> や <b>ツールバーボタン</b> に表示される際のラベルを検索します
+          <li><b>解説</b>: コマンド解説の本文を検索します
         </ul>
-      </span>
+      </div>
       <p class="search-input">
-        Search: <input type="text" id="search" onkeyup="onKeyUp(event)"/>
-        <input type="button" onclick="onSearch()" value="Go">
+        検索: <input type="text" id="search" onkeyup="onKeyUp(event)"/>
+        <input type="button" onclick="onSearch()" value="検索">
 
         <input type="checkbox" id="command-names" value="1">
-        <label for="command-names">Command Names</label>
+        <label for="command-names">コマンド名</label>
 
         <input type="checkbox" id="ui-labels" value="1">
-        <label for="ui-labels">User Interface Labels</label>
+        <label for="ui-labels">ユーザインタフェイスラベル</label>
 
         <input type="checkbox" id="help-text" value="1">
-        <label for="help-text">Descriptions</label>
+        <label for="help-text">解説</label>
       <p class="quick-searches">
-        [ <a href="x-jsd:help">Interactive Session Commands</a> |
-         <a href="x-jsd:help?search="><b>All</b> Commands</a> |
+        [ <a href="x-jsd:help">対話セッションコマンド</a> |
+         <a href="x-jsd:help?search="><b>全</b> コマンド</a> |
          <a href="x-jsd:help?search=%5E%5Ba-c%5D&within=2">A-C</a> |
          <a href="x-jsd:help?search=%5E%5Bd-f%5D&within=2">D-F</a> |
          <a href="x-jsd:help?search=%5E%5Bg-i%5D&within=2">G-I</a> |
@@ -140,29 +149,29 @@
          <a href="x-jsd:help?search=%5E%5Bp-r%5D&within=2">P-R</a> |
          <a href="x-jsd:help?search=%5E%5Bs-u%5D&within=2">S-U</a> |
          <a href="x-jsd:help?search=%5E%5Bv-z%5D&within=2">V-Z</a> ]
-    </div>         
+    </div>
        
-    <span id="match-count">Found $match-count matching command(s).</span>
+    <span id="match-count">$match-count のコマンドが見つかりました。</span>
 
     <span id="command-list">
 @-header-end
       <span class="command">
-        <span class="label" item="command-name">Command Name:</span>
+        <span class="label" item="command-name">コマンド名:</span>
         <span class="value" item="command-name"><a href="x-jsd:help?search=$command-name">$command-name</a></span><br>
-        <span class="label" item="ui-label">User Interface Label:</span>
+        <span class="label" item="ui-label">ユーザインタフェイスラベル:</span>
         <span class="value" item="ui-label"><a href="x-jsd:help?search=$ui-label-safe&within=2">$ui-label</a></span><br>
         <br>
-        <span class="label" item="usage">Usage:</span> <span class="value" item="usage">$command-name $params</span><br>
+        <span class="label" item="usage">書式:</span> <span class="value" item="usage">$command-name $params</span><br>
         <br>
-        <span class="label" item="accel-key">Accelerator Key:</span> $key<br>
+        <span class="label" item="accel-key">ショートカットキー:</span> $key<br>
         <br>
-        <span class="label" item="description">Description:</span><br>
+        <span class="label" item="description">解説:</span><br>
         <span class="value" item="description">$desc</span>
-        <span class="goto-top"><a href="#top">Back To Top</a></span>
+        <span class="goto-top"><a href="#top">先頭へ戻る</a></span>
       </span>
       <hr>
 @-command-end
-      <font color="red"><b>No commands found</b></font>
+      <font color="red"><b>コマンドが見つかりませんでした。</b></font>
 @-nomatch-end
     </span>
   </body>

@@ -1,3 +1,8 @@
+@charset "utf-8";
+/* Using @charset is better than just encoding this file into euc-jp.
+ * (euc-jp is default charset of interactive session now.)
+ */
+
 /* -*- tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*-
  *
  * ***** BEGIN LICENSE BLOCK *****
@@ -22,6 +27,10 @@
  *
  * Contributor(s):
  *   Robert Ginda, <rginda@netscape.com>, original author
+ * Japanese Localization (venkman-output-locale.css, 1.0.2, 2003/03/08) by
+ *   dynamis, <venkman[at]skillup[dot]jp>
+ * To get latest Japanese localized file or further info,
+ * please visit <http://skillup.jp/venkman>.
  *
  * Alternatively, the contents of this file may be used under the terms of
  * either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -43,15 +52,15 @@
  */
 
 .msg-data[msg-type="HELP"]:before {
-    content: "Help:";
+    content: "解説:";
 }
 
 .msg-data[msg-type="USAGE"]:before {
-    content: "Usage:";
+    content: "書式:";
 }
 
 .msg-data[msg-type="LOG"]:before {
-    content: "LOG:";
+    content: "ログ:";
 }
 
 .msg-data[msg-type="ETRACE"]:before {

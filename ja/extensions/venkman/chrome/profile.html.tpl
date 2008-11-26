@@ -1,7 +1,18 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Contributor(s):
+   -   Robert Ginda, <rginda@netscape.com>, original author
+   - Japanese Localization by
+   -   dynamis, <venkman[at]skillup[dot]jp>
+   - To get latest Japanese localized file or further info,
+   - please visit <http://skillup.jp/venkman/>.
+   -->
 <html>
   <head>
-    <title>JavaScript Profile Data</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- inserted by dynamis
+      -- This charset must synch with 'msg.report.charset', which is in venkman.properties file.
+      -->
+    <title>JavaScript プロファイルデータ</title>
   </head>
   <style>
     .profile-file-title {
@@ -63,15 +74,25 @@
     }
   </style>
   <body>
-    <h1>JavaScript Profile Data</h1>
-    <span class="label">Collection Date:</span>
-    <span class="value">$full-date</span><br>
-    <span class="label">User Agent:</span>
-    <span class="value">$user-agent</span><br>
-    <span class="label">JavaScript Debugger Version:</span>
-    <span class="value">$venkman-agent</span><br>
-    <span class="label">Sorted By:</span>
-    <span class="value">$sort-key</span><br>
+    <h1 style="text-align: center; margin: 1em 0em;">JavaScript プロファイルデータ</h1><!-- style inserted by dynamis -->
+    <table><!-- placed in table by dynamis -->
+      <tr>
+        <td><span class="label">データ収集日時</span></td><td> : </td>
+        <td><span class="value">$full-date</span></td>
+      </tr>
+      <tr>
+        <td><span class="label">ユーザエージェント</span></td><td> : </td>
+        <td><span class="value">$user-agent</span></td>
+      </tr>
+      <tr>
+        <td><span class="label">デバッガバージョン</span></td><td> : </td>
+        <td><span class="value">$venkman-agent</span></td>
+      </tr>
+      <tr>
+        <td><span class="label">ソート基準項目</span></td><td> : </td>
+        <td><span class="value">$sort-key</span></td>
+      </tr>
+    </table>
     <a name="section0"></a>
 @-section-start
     <hr>
@@ -83,10 +104,10 @@
       <span class="range-box">
         <a name="range$section-number:$range-number"></a>
         <h3>$range-min - $range-max ms</h3>
-        [ <a href="#section$section-number-prev">Previous File</a> |
-        <a href="#section$section-number-next">Next File</a> |
-        <a href="#range$section-number:$range-number-prev">Previous Range</a> |
-        <a href="#range$section-number:$range-number-next">Next Range</a> ]
+        [ <a href="#section$section-number-prev">前のファイル</a> |
+        <a href="#section$section-number-next">次のファイル</a> |
+        <a href="#range$section-number:$range-number-prev">前の範囲</a> |
+        <a href="#range$section-number:$range-number-next">次の範囲</a> ]
 @-item-start
         <span class="graph-box">
           <span class="graph-title">
@@ -112,6 +133,7 @@
     </span>
 @-section-end
     <hr>
+    <a href="http://skillup.jp/venkman/" title="思った通りのプログラムが書けてますか？(笑) - by dynamis" style="font-size: 80%;">プログラムは思った通りに動くのではない。書いた通りに動くのだ。</a><br><!-- inserted by dynamis ;-) -->
     <a href="http://www.mozilla.org/projects/venkman/">No job is too big, no fee is too big.</a>
   </body>
 </html>
