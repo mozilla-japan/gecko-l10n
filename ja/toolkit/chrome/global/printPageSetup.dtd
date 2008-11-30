@@ -7,17 +7,22 @@
 <!ENTITY formatGroup.label	"書式">
 
 <!ENTITY orientation.label	"@@Print@@方向:">
-<!ENTITY portrait		"縦">
-<!ENTITY landscape		"横">
+<!ENTITY portrait.label		"縦">
+<!ENTITY portrait.accesskey	"P">
+<!ENTITY landscape.label	"横">
+<!ENTITY landscape.accesskey	"L">
 
 <!ENTITY scale.label		"@@Zoom@@:">
+<!ENTITY scale.accesskey	"S">
 <!ENTITY scalePercent		"&#037;">
 
 <!ENTITY shrinkToFit.label	"用紙に合わせて縮小"><!-- (^^; 長い表現禁止 -->
+<!ENTITY shrinkToFit.accesskey	"W">
 
 <!ENTITY optionsGroup.label	"オプション">
 
 <!ENTITY printBG.label		"背景色と背景画像も@@Print@@">
+<!ENTITY printBG.accesskey	"B">
 
 <!ENTITY advanced.tab		"余白とヘッダ/フッタ">
 
@@ -25,9 +30,13 @@
 <!ENTITY marginUnits.inches	"インチ">
 <!ENTITY marginUnits.metric	"ミリメートル">
 <!ENTITY marginTop.label	"上:">
+<!ENTITY marginTop.accesskey	"T">
 <!ENTITY marginBottom.label	"下:">
+<!ENTITY marginBottom.accesskey	"B">
 <!ENTITY marginLeft.label	"左:">
+<!ENTITY marginLeft.accesskey	"L">
 <!ENTITY marginRight.label	"右:">
+<!ENTITY marginRight.accesskey	"R">
 
 <!ENTITY headerFooter.label	"ヘッダとフッタ">
 
