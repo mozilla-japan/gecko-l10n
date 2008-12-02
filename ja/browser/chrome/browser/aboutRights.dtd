@@ -16,52 +16,61 @@
 <!ENTITY rights.intro-point1b		"Mozilla Public License">
 <!ENTITY rights.intro-point1c		" の条項下で提供されます。これにより、あなたは &brandShortName; を使用、複製、配布することができます。あなたはまた、&brandShortName; のソースコードを必要に応じて修正することもできます。Mozilla Public License では、あなたが修正したバージョンを配布することも認めています。">
 
-<!ENTITY rights.intro-point2a		"Mozilla はあなたに、Mozill や Firefox の商標およびロゴについては、あなたに何らの権利も与えるものではありません。商標について詳しくは ">
+<!ENTITY rights.intro-point2a		"Mozilla は、Mozill や Firefox の商標およびロゴについては、何らの権利もあなたに与えるものではありません。商標について詳しくは ">
 <!ENTITY rights.intro-point2b		"Mozilla 商標ポリシー">
 <!ENTITY rights.intro-point2c		" をご確認ください。">
 
 <!-- point 3 text for official branded builds -->
-<!ENTITY rights.intro-point3a		"&vendorShortName; 製品に関する ">
-<!ENTITY rights.intro-point3b		"プライバシーポリシー">
+<!ENTITY rights.intro-point3a		"&vendorShortName; の製品における個人情報の取り扱いについては ">
+<!ENTITY rights.intro-point3b		"Mozilla プライバシーポリシー">
 <!ENTITY rights.intro-point3c		" をご確認ください。">
 
 <!-- point 3 text for unbranded builds -->
 <!ENTITY rights.intro-point3-unbranded	"この製品に関する適切なプライバシーポリシーをここに記述すること。">
 
 <!-- point 4 text for official branded builds -->
-<!ENTITY rights.intro-point4a		"&brandShortName; はセーフブラウジングサービスなど、オプションで Web サイト情報サービスも提供しています。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。サービスを無効化する方法を含め、詳しくは ">
-<!ENTITY rights.intro-point4b		"サービス利用条項">
+<!ENTITY rights.intro-point4a		"&brandShortName; は、セーフブラウジングサービスなど、オプションで Web サイト情報サービスも提供しています。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。サービスを無効化する方法を含め、詳しくは ">
+<!ENTITY rights.intro-point4b		"サービス利用規約">
 <!ENTITY rights.intro-point4c		" をご確認ください。">
 
 <!-- point 4 text for unbranded builds -->
-<!ENTITY rights.intro-point4a-unbranded	"この製品が Web サービスと連携する場合、適切な サービス利用条項を ">
+<!ENTITY rights.intro-point4a-unbranded	"この製品が Web サービスと連携する場合、適切なサービス利用規約を ">
 <!ENTITY rights.intro-point4b-unbranded	"Web サイトサービス">
-<!ENTITY rights.intro-point4c-unbranded	" セクションからリンクさせること">
+<!ENTITY rights.intro-point4c-unbranded	" セクションからリンクさせること。">
 
 <!ENTITY rights.webservices-header	"&brandFullName; Web サイトサービス">
 
-<!-- (^^; 以下は参考和訳とするかどうかなど扱い未定 -->
-<!-- (^^; 本訳文は、参考のために作成したものであり、ライセンスの内容を表示するものではありません。ライセンスの内容については英文の契約によるものとします。本訳文と英文の契約に矛盾があった場合には英文の契約が優先します。 -->
 <!-- Note that this paragraph references a couple of entities from
      preferences/security.dtd, so that we can refer to text the user sees in
      the UI, without this page being forgotten every time those strings are
      updated.  -->
 <!-- intro paragraph for branded builds -->
-<!ENTITY rights.webservices-a		"&brandFullName; uses web site information services (&quot;Services&quot;), such as the SafeBrowsing service, that are available for your use with this binary version of &brandShortName; as described below. If you do not want to use the Services or the terms below are unacceptable, you may disable the SafeBrowsing service by opening the application preferences, selecting the ">
-<!ENTITY rights.webservices-b		"Security">
-<!ENTITY rights.webservices-c		" section, and unchecking the options for &quot;&blockAttackSites.label;&quot; and &quot;&blockWebForgeries.label;&quot;">
+<!ENTITY rights.webservices-a		"&brandFullName; は、セーフブラウジングなどの Web サイト情報サービス (以下「本サービス」と呼びます) を利用しており、これらは下記の通り &brandShortName; のバイナリ版とともに利用できます。本サービスをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、アプリケーション設定画面の @@[@@">
+<!ENTITY rights.webservices-b		"セキュリティ">
+<!ENTITY rights.webservices-c		"@@]@@ セクションで @@[@@&blockAttackSites.label;@@]@@ および @@[@@&blockWebForgeries.label;@@]@@ という設定項目のチェックを外していただければ、セーフブラウジングサービスを無効化できます。">
 
 <!-- intro paragraph for unbranded builds -->
-<!ENTITY rights.webservices-unbranded	"An overview of the web site services the product incorporates, along with instructions on how to disable them, if applicable, should be included here.">
+<!ENTITY rights.webservices-unbranded	"この製品と連携する Web サイトサービスの概要と、可能であればそれを無効化する手順をここに記述すること。">
 
 <!-- point 1 text for unbranded builds -->
-<!ENTITY rights.webservices-term1-unbranded		"Any applicable service terms for this product should be listed here.">
+<!ENTITY rights.webservices-term1-unbranded	"この製品に関する適切なサービス利用規約をここに記述すること。">
 
+<!-- 以下サービス利用規約本文(それに合わせた表現に) -->
 <!-- points 1-7 text for branded builds -->
-<!ENTITY rights.webservices-term1	"&vendorShortName; and its contributors, licensors and partners work to provide the most accurate and up-to-date phishing and malware information. However, they cannot guarantee that this information is comprehensive and error-free: some risky sites may not be identified and some safe sites may be identified in error.">
-<!ENTITY rights.webservices-term2	"&vendorShortName; may discontinue or change the Services at its discretion.">
-<!ENTITY rights.webservices-term3	"You are welcome to use these Services with the accompanying version of &brandShortName;, and you have all the rights necessary to do so.  &vendorShortName; and its licensors reserve all other rights in the Services.  These terms are not intended to limit any rights granted under open source licenses applicable to &brandShortName; and to corresponding source code versions of &brandShortName;.">
-<!ENTITY rights.webservices-term4	"The Services are provided &quot;as-is.&quot;  &vendorShortName;, its contributors, licensors, and distributors, disclaim all warranties, whether express or implied, including without limitation, warranties that the Services are merchantable and fit for your particular purposes.  You bear the entire risk as to selecting the Services for your purposes and as to the quality and performance of the Services. Some jurisdictions do not allow the exclusion or limitation of implied warranties, so this disclaimer may not apply to you.">
-<!ENTITY rights.webservices-term5	"Except as required by law, &vendorShortName;, its contributors, licensors, and distributors will not be liable for any indirect, special, incidental, consequential, punitive, or exemplary damages arising out of or in any way relating to the use of &brandShortName; and the Services.  The collective liability under these terms will not exceed $500 (five hundred dollars). Some jurisdictions do not allow the exclusion or limitation of certain damages, so this exclusion and limitation may not apply to you.">
-<!ENTITY rights.webservices-term6	"&vendorShortName; may update these terms as necessary from time to time. These terms may not be modified or cancelled without &vendorShortName;'s written agreement.">
-<!ENTITY rights.webservices-term7	"These terms are governed by the laws of the state of California, U.S.A., excluding its conflict of law provisions. If any portion of these terms is held to be invalid or unenforceable, the remaining portions will remain in full force and effect. In the event of a conflict between a translated version of these terms and the English language version, the English language version shall control.">
+<!ENTITY rights.webservices-term1	"&vendorShortName; ならびにその貢献者、ライセンサ、およびパートナーは、フィッシング詐欺およびマルウェアについて、最も正確かつ最新の情報提供に努めています。ただし、この情報が完全で誤りがないことは保証できません。危険なサイトが適切に識別されない、または安全なサイトが誤って危険なサイトとして識別される可能性があります。">
+<!ENTITY rights.webservices-term2	"&vendorShortName; は、独自の判断に基づいて本サービスを変更または中止することがあります。">
+<!ENTITY rights.webservices-term3	"本サービスは、&brandShortName; に付属するバージョンとともにご利用いただけます。あなたは、そのために必要なすべての権利を保有します。&vendorShortName; およびそのライセンサは、本サービスに関するそれ以外のすべての権利を保留しています。本利用規約の規定は、&brandShortName; および &brandShortName; のソースコードについて、オープンソースライセンスにより許諾される権利を何ら制限するものではありません。">
+<!ENTITY rights.webservices-term4	"本サービスは、「現状のまま」で提供されるものです。&vendorShortName; ならびにその貢献者、ライセンサ、およびディストリビュータは、あらゆる明示的および黙示的な保証を否認します。否認される保証には、本サービスに商業性があること、および本サービスが特定の目的に適合することの保証が含まれますが、これらに限定されません。目的に対するサービスの選択、ならびにサービスの品質および性能に関するリスクは、すべてあなたが負います。国や地域によっては黙示的な保証の除外または制限が法律上認められない場合がありますが、その場合にはこの条項は適用されません。">
+<!ENTITY rights.webservices-term5	"法の定めによる場合を除き、&vendorShortName; ならびにその貢献者、ライセンサ、およびディストリビュータは、&brandShortName;、または本サービスの使用もしくは使用できないことに起因またはいかなる形においても関連して生じた、間接的損害、特別損害、付随的損害、派生的損害、または懲罰的損害に関して一切責任を負いません。本利用規約に基づく責任の総額は、500 米ドルを上限とします。国や地域によっては特定の損害の除外または制限が法律上認められない場合がありますが、その場合にはこの条項は適用されません。">
+<!ENTITY rights.webservices-term6	"&vendorShortName; では、本利用規約を必要に応じて改訂することがあります。本利用規約は、&vendorShortName; の書面による合意なしに変更もしくは終了されることはありません。">
+<!ENTITY rights.webservices-term7	"本利用規約は、法の抵触に関する規定を除いて米国カリフォルニア州法に準拠するものとします。本契約の一部が無効または執行不能と判断された場合でも、残りの部分は引き続き有効に存続するものとします。本利用規約は、参考のために作成した日本語訳文であり、ライセンスの内容を表示するものではありません。利用規約の内容については英文の規約によるものとします。本訳文と英文の規約に矛盾があった場合には英文の規約が優先します。">
+<!-- 利用規約やライセンス関連の参考 URL:
+http://www.mozilla.com/en-US/legal/eula/firefox-ja.html
+http://www.mozilla-japan.org/MPL/MPL-1.1J.html
+http://www.microsoft.com/japan/windows/products/windowsvista/useterms/default.mspx
+http://www.microsoft.com/japan/windowsserver2008/howtobuy/licensing/eula/web.mspx
+http://www.apple.com/jp/legal/
+http://www.apple.com/legal/itunes/jp/service.html
+http://www.google.com/chrome/intl/ja/eula_text.html
+http://www.opensource.jp/gpl/gpl.ja.html
+ -->
