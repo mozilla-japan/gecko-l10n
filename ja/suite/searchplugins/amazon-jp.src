@@ -1,0 +1,35 @@
+# Search Plug-in for Amazon.com (http://www.amazon.com)
+# by Paul Millar <dazzle@edazzle.net> created: 18 January 2003
+# updated by Rafael Ebron <rebron@meer.net>
+# Localized by dynamis
+
+<SEARCH
+    version = "7.1" 
+   name="Amazon.co.jp"
+   description="Amazon.co.jp Search"
+   method="GET"
+   queryCharset="UTF-8"
+   action="http://www.amazon.co.jp/exec/obidos/external-search/"
+>
+
+<input name="field-keywords" user>
+<input name="mode" value="blended">
+#<input name="mode" value="books-jp">
+#<input name="mode" value="books-us">
+<input name="tag" value="mozillajapan-fx-22">
+<input name="sourceid" value="Mozilla-search">
+#<input name="sz" value="25">
+#<input name="rank" value="+salesrank">
+#<input name="rank" value="+pricerank">
+#<input name="rank" value="+inverse-pricerank">
+#<input name="rank" value="+daterank">
+#<input name="rank" value="+titlerank">
+#<input name="rank" value="-titlerank">
+
+
+<BROWSER
+        update="https://addons.mozilla.org/searchplugins/updates/amazon-jp.src"
+        updateIcon="https://addons.mozilla.org/searchplugins/updates/amazon-jp.png"
+        updateCheckDays="3"
+	>
+
