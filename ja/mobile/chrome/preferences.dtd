@@ -8,7 +8,7 @@
 <!ENTITY plugins.enabled.description               "ページが鬱陶しくなります"><!-- Makes websites annoying -->
 <!ENTITY privacy.title                             "プライバシーとセキュリティ">
 <!ENTITY network.cookie.cookieBehavior.title       "Cookies を保存">
-<!ENTITY network.cookie.cookieBehavior.description ""><!-- Delicious delicacies -->
+<!ENTITY network.cookie.cookieBehavior.description "おいしいおやつ"><!-- Delicious delicacies -->
 <!ENTITY clear.private.data.title                  "プライベート情報を消去">
 <!ENTITY clear.private.data.button                 "消去...">
 <!ENTITY clear.private.data.description            "バレないようにします"><!-- Saves your hide -->
