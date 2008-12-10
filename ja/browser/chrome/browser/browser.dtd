@@ -276,11 +276,11 @@
 <!ENTITY saveVideoCmd.accesskey		"v">
 <!ENTITY saveAudioCmd.label		"@@SaveAudioAs@@...">
 <!ENTITY saveAudioCmd.accesskey		"v">
-<!ENTITY sendImageCmd.label		"画像をメールで送信...">
+<!ENTITY sendImageCmd.label		"画像の URL をメールで送信...">
 <!ENTITY sendImageCmd.accesskey		"n">
-<!ENTITY sendVideoCmd.label		"ビデオをメールで送信...">
+<!ENTITY sendVideoCmd.label		"ビデオの URL をメールで送信...">
 <!ENTITY sendVideoCmd.accesskey		"n">
-<!ENTITY sendAudioCmd.label		"オーディオをメールで送信...">
+<!ENTITY sendAudioCmd.label		"オーディオの URL をメールで送信...">
 <!ENTITY sendAudioCmd.accesskey		"n">
 <!ENTITY copyLinkCmd.label		"リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey		"a">
