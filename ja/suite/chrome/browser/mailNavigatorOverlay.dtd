@@ -8,10 +8,16 @@
 <!ENTITY sendPage.label                  "ページを送る...">
 <!ENTITY sendPage.accesskey              "S">
 
-<!ENTITY contextSendPage.label           "ページを送る...">
-<!ENTITY contextSendPage.accesskey       "d">
+<!ENTITY contextSendThisPage.label       "このページを送る...">
+<!ENTITY contextSendThisPage.accesskey   "d">
+<!ENTITY contextSendThisLink.label       "このリンクを送る...">
+<!ENTITY contextSendThisLink.accesskey   "k">
 <!ENTITY contextSendImage.label          "画像を送る...">
 <!ENTITY contextSendImage.accesskey      "n">
+<!ENTITY contextSendVideo.label          "ビデオを送る...">
+<!ENTITY contextSendVideo.accesskey      "n">
+<!ENTITY contextSendAudio.label          "オーディオを送る...">
+<!ENTITY contextSendAudio.accesskey      "n">
 <!ENTITY contextSendFrame.label          "フレームを送る...">
 <!ENTITY contextSendFrame.accesskey      "d">
 
