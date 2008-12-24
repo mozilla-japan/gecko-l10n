@@ -32,10 +32,11 @@
 <!ENTITY noSuggestions.label   "(候補なし)">
 <!ENTITY addToDictionary.label "辞書に追加">
 
-<!ENTITY bookmarkName.label    "名前:">
-<!ENTITY bookmarkFolder.label  "フォルダ:">
-<!ENTITY bookmarkTags.label    "タグ:">
-<!ENTITY bookmarkRemove.label  "ブックマークを削除">
+<!ENTITY editBookmarkName.label    "名前:">
+<!ENTITY editBookmarkURI.label     "アドレス:">
+<!ENTITY editBookmarkTags.label    "タグ:">
+<!ENTITY bookmarkRemove.label      "ブックマークを削除">
+<!ENTITY editBookmarkDone.label    "完了">
 
 <!ENTITY findOnCmd.label     "ページ内を検索...">
 <!ENTITY findOnCmd.accesskey "F">
