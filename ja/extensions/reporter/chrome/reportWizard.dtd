@@ -2,7 +2,7 @@
 <!ENTITY reportWizard.title			"不具合のあるサイトの報告">
 
 <!ENTITY privacyNotice.label			"プライバシーポリシー">
-<!ENTITY reportWizardPrivacy.description	"このツールでは、&brandShortName; で正しく表示されない Web サイトや &brandShortName; を閉め出している Web サイトについてエバンジェリズム(啓蒙)チームに報告します。誰もが快適に Web を利用できるようにするための報告ですのでご協力ください。集められた情報を私達がどのように使用するかについて、次の説明をお読みください。">
+<!ENTITY reportWizardPrivacy.description	"このツールでは、&brandShortName; で正しく表示されない Web サイトや &brandShortName; を閉め出している Web サイトについてエバンジェリズム (啓蒙) チームに報告します。誰もが快適に Web を利用できるようにするための報告ですのでご協力ください。集められた情報を私達がどのように使用するかについて、次の説明をお読みください。">
 <!ENTITY reportWizardMustAgree.description	"レポートを送信するには上記のプライバシーポリシーに同意する必要があります。">
 
 <!ENTITY dontShowPrivacyStatement.label		"上記プライバシーポリシーに同意します。">

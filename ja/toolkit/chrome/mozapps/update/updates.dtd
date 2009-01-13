@@ -10,6 +10,10 @@
 <!ENTITY  noupdatesautoenabled.intro	"更新が見つかりませんでした。&brandShortName; は定期的に更新を確認します。">
 <!ENTITY  noupdatesautodisabled.intro	"更新が見つかりませんでした。後で再度試すか、&brandShortName; の自動更新を有効化してください。">
 
+<!ENTITY  manualUpdate.title		"更新できません">
+<!ENTITY  manualUpdate.desc		"セキュリティと安定性を向上する更新が見つかりましたが、ソフトウェアをインストールする権限がありません。管理者に問い合わせるか、このコンピュータにソフトウェアをインストールする権限を持つアカウントで再度試してください。">
+<!ENTITY  manualUpdateGetMsg.label	"&brandShortName; の最新版は次の URL でダウンロードできます:">
+
 <!ENTITY  incompatibleCheck.title	"アドオンの互換性を確認しています">
 <!ENTITY  incompatibleCheck.label	"インストールされているアドオンに新しいバージョンがないか確認しています...">
 
