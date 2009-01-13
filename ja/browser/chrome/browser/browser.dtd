@@ -7,10 +7,12 @@
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
-<!-- LOCALIZATION NOTE (mainWindowPrivateBrowsing.titlemodifier): This will be appended to the window's title
-                                                                  inside the private browsing mode -->
-<!ENTITY mainWindowPrivateBrowsing.titlemodifier "&mainWindow.titlemodifier; (プライベートブラウジング)">
- 
+<!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
+                                                                inside the private browsing mode -->
+<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(プライベートブラウジング)">
+<!-- LOCALIZATION NOTE (mainWindowPrivateBrowsing.titlemodifier): DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifierPrivateBrowsing "&mainWindow.titlemodifier; &mainWindow.titlePrivateBrowsingSuffix;">
+
 <!ENTITY tabCmd.label			"@@NewTab@@"><!-- 表示カ所によりアクセスキーが異なる -->
 <!ENTITY tabCmd.accesskey		"T">
 <!ENTITY tabCmd.commandkey		"t">
@@ -69,6 +71,7 @@
 <!ENTITY addCurPagesCmd.label		"すべてのタブをブックマーク...">
 <!ENTITY organizeBookmarks.label	"ブックマークの管理...">
 <!ENTITY bookmarkAllCmd.label		"すべてのタブをブックマーク...">
+<!ENTITY bookmarksToolbarChevron.tooltip	"残りのブックマークを表示">
 
 <!ENTITY backCmd.label			"戻る">
 <!ENTITY backCmd.accesskey		"B">
@@ -164,8 +167,12 @@
 <!ENTITY clearRecentHistoryCmd.label	"最近の履歴を消去">
 <!ENTITY clearRecentHistoryCmd.accesskey	"H">
 
-<!ENTITY privateBrowsingCmd.label	"プライベートブラウジング">
-<!ENTITY privateBrowsingCmd.accesskey	"B">
+<!-- LOCALIZATION NOTE : These two strings can share an access key beause they never appear together on the menu -->
+<!ENTITY privateBrowsingCmd.start.label		"プライベートブラウジングを開始">
+<!ENTITY privateBrowsingCmd.start.accesskey	"B">
+<!ENTITY privateBrowsingCmd.stop.label		"プライベートブラウジングを終了">
+<!ENTITY privateBrowsingCmd.stop.accesskey	"B">
+<!ENTITY privateBrowsingCmd.commandkey		"P">
 
 <!ENTITY viewMenu.label			"表示">
 <!ENTITY viewMenu.accesskey		"V">
@@ -401,7 +408,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY editBookmark.done.label		"完了">
 <!ENTITY editBookmark.cancel.label		"キャンセル">
-<!ENTITY editBookmark.removeBookmark.label	"ブックマークを削除">
 <!ENTITY editBookmark.removeBookmark.accessKey	"R">
 <!ENTITY editBookmark.undo.label		"@@Undo@@">
 <!ENTITY editBookmark.undo.accessKey		"U">

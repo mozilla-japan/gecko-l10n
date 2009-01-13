@@ -1,13 +1,22 @@
-<!ENTITY privatebrowsingpage.tabtitle			"プライベートブラウジング">
+<!ENTITY privatebrowsingpage.title		"プライベートブラウジング">
+<!ENTITY privatebrowsingpage.title.normal	"プライベートブラウジングを開始しますか？">
 
-<!ENTITY privatebrowsingpage.pagetitle			"プライベートブラウジング">
+<!ENTITY privatebrowsingpage.issueDesc		"&brandShortName; はこのセッション中にはブラウズ履歴を一切保存しません。">
+<!ENTITY privatebrowsingpage.issueDesc.normal	"&brandShortName; は現在プライベートブラウジングモードではありません。">
 
-<!ENTITY privatebrowsingpage.issueDesc			"&brandShortName; はこのセッション中にはブラウズ履歴を一切保存しません。">
-<!ENTITY privatebrowsingpage.longDesc			"&brandShortName; はこのセッション中にはブラウズ履歴を一切保存しません。表示ページの履歴、検索履歴、ダウンロード履歴、Web フォーム履歴、Cookie、一時ファイルについては一切保存されませんが、ダウンロードしたファイルと作成したブックマークについては保存されます。">
+<!ENTITY privatebrowsingpage.description	"プライベートブラウジング中に &brandShortName; はブラウズ履歴、検索履歴、ダウンロード履歴、Web フォーム履歴、Cookie、一時ファイルは一切保存しませんが、ダウンロードしたファイルと作成したブックマークは保存されます。">
 
-<!ENTITY privatebrowsingpage.clearRecentHistoryDesc	"最近の履歴を消去することもできます。">
-<!ENTITY privatebrowsingpage.recentHistory.label	"最近の履歴を消去...">
-<!ENTITY privatebrowsingpage.recentHistory.accesskey	"C">
+<!-- LOCALIZATION NOTE (privatebrowsingpage.clearRecentHistoryBefore): include a trailing space as needed -->
+<!-- LOCALIZATION NOTE (privatebrowsingpage.clearRecentHistoryAfter): include a starting space as needed -->
+<!ENTITY privatebrowsingpage.clearRecentHistoryBefore		"">
+<!ENTITY privatebrowsingpage.clearRecentHistoryInner		"最近の履歴を消去">
+<!ENTITY privatebrowsingpage.clearRecentHistoryAfter		"してから起動することもできます。">
 
-<!ENTITY privatebrowsingpage.howToStopDesc		"プライベートブラウジングを終了するにはツールメニューの@@[@@プライベートブラウジング@@]@@のチェックを外してください。">
-<!ENTITY privatebrowsingpage.footerDesc			"Enjoy!"><!-- (^^; -->
+<!ENTITY privatebrowsingpage.startPrivateBrowsing.label		"プライベートブラウジングを開始">
+<!ENTITY privatebrowsingpage.startPrivateBrowsing.accesskey	"P">
+
+<!ENTITY privatebrowsingpage.howToStop		"プライベートブラウジングを終了するには、@@[@@&toolsMenu.label;@@]@@ メニューの @@[@@&privateBrowsingCmd.stop.label;@@]@@ を選択するか、&brandShortName; を終了してください。">
+<!ENTITY privatebrowsingpage.howToStart		"プライベートブラウジングは @@[@@&toolsMenu.label;@@]@@ メニューの @@[@@&privateBrowsingCmd.start.label;@@]@@ でも開始できます。">
+
+<!ENTITY privatebrowsingpage.moreInfo		"このコンピュータにはブラウズ履歴は記録されませんが、インターネットサービスプロバイダや会社があなたが閲覧するページを記録している可能性はあります。">
+<!ENTITY privatebrowsingpage.learnMore		"詳細を表示">

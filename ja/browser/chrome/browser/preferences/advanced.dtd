@@ -4,7 +4,7 @@
 
 <!ENTITY accessibility.label			"アクセシビリティ">
 
-<!ENTITY useCursorNavigation.label		"ページ中の移動にカーソルを使用する(キャレットブラウズモード)"><!-- en-US: Always use the cursor keys to navigate within pages -->
+<!ENTITY useCursorNavigation.label		"ページ中の移動にカーソルを使用する (キャレットブラウズモード)"><!-- en-US: Always use the cursor keys to navigate within pages -->
 <!ENTITY useCursorNavigation.accesskey		"c">
 <!ENTITY searchStartTyping.label		"キー入力時に検索を開始する">
 <!ENTITY searchStartTyping.accesskey		"x">
