@@ -306,11 +306,7 @@ intl.css.common				= \
 					  max-height: 6.8em;\n\
 					}\n
 
-ja.intl.css.locale			= \
-					/* workaround for Vista's Meiryo font */\n\
-					#aboutDialog #userAgent {\n  \
-					  min-height: 5em;\n\
-					}\n
+ja.intl.css.locale			= 
 
 
 ja-JP-mac.intl.css.locale		= 
