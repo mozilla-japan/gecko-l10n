@@ -1,0 +1,51 @@
+        言語リソースのディレクトリ構造
+
+英語リポジトリのディレクトリとの対応関係については build.aux.xml の処理を参照
+言語パック中のディレクトリとの対応関係については build.langpack.xml の処理を参照
+
+dirname                 Repo    App             補足
+--------------------------------------------------------------------------------
+browser                 moz     Fx              Firefox
+calendar                comm    Sb              Sunbird/Lightning
+dom                     moz     all             
+editor/ui               comm    Tb, Sm          メール編集画面
+extensions
+  inspector             moz     Fx, Sm          
+  irc                   moz     Sm              IRC Client Chatzilla
+  reporter              moz     Fx, Sm          不具合のあるサイトのレポータ
+  spellcheck            moz     Fx, Tb, Sm      日本語のスペルチェックは無し
+  venkman               moz     Sm              JavaScript Debugger Venkman
+mail                    comm    Tb              Thunderbird
+minimo                  ---     ---             Minimo (過去の遺物)
+mobile                  mobile  Fe              Mobile Firefox (Fennec)
+netwerk                 moz     all             ネットワーク
+other-licenses
+  branding/firefox      moz     Fx              
+  branding/sunbird      comm    Sb              
+  branding/thunderbird  comm    Tb              
+security/manager        moz     all             
+suite                   comm    Sm              Seamonkey
+toolkit
+  chrome                moz     all             
+  crashreporter         moz     Fx, Sm          クラッシュレポータ
+
+
+
+        SVN 導入以降の en-US との同期履歴
+
+英語版と同期した際には対象リビジョンを末尾の行に追記していってください
+ディレクトリ単位ですっきり同期していない場合その旨コメントを書いてください
+
+target dir              mozilla+comm rev  by            comment
+--------------------------------------------------------------------------------
+all Fx                  20100   ????    a
+all Fx                  21386   1030    dynamis
+editor/ui               21566   1136    mar
+mail                    21749   1135    dynamis         部分的
+mail                    21566   1136    mar             残り
+all comm                ?????   1210    a
+toolkit                 22135   1258    mar
+all Fx                  22773   1600    dynamis
+
+
+
