@@ -35,6 +35,8 @@ toolkit
 
 英語版と同期した際には対象リビジョンを末尾の行に追記していってください
 ディレクトリ単位ですっきり同期していない場合その旨コメントを書いてください
+同期対象を mozilla-central と mozilla-X.X.x で切り替えする時はどこからか明記する
+同様に comm-central と comm-X.X.x との切り替え時にも区別できるように記録する
 
 target dir              mozilla+comm rev  by            comment
 --------------------------------------------------------------------------------
@@ -44,7 +46,7 @@ editor/ui               21566   1136    mar
 mail                    21749   1135    dynamis         部分的
 mail                    21566   1136    mar             残り
 all comm                ?????   1210    a
-toolkit                 22135   1258    mar
+toolkit                 22135   1258    mar             mozilla-1.9.1 に切り替え
 all Fx                  22773   1600    dynamis
 
 
