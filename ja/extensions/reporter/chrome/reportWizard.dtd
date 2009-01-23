@@ -47,7 +47,7 @@
 <!ENTITY reportForm.email.accesskey		"E">
 
 <!ENTITY reportForm.privacyPolicy.title		"プライバシーポリシー">
-<!ENTITY reportForm.privacyPolicy.tooltip	"プライバシーポリシーを表示する">
+<!ENTITY reportForm.privacyPolicy.tooltip	"プライバシーポリシーを表示します">
 
 <!ENTITY reportResults.showDetail.title		"詳細を表示">
 <!ENTITY reportResults.showDetail.accesskey	"S">
