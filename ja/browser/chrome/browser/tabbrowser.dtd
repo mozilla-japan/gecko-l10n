@@ -1,7 +1,7 @@
 <!ENTITY  untitledTab			"(無題)">
 <!ENTITY  newTab.label			"@@NewTab@@">
 <!ENTITY  newTab.accesskey		"N">
-<!ENTITY  closeTab.label		"タブを閉じる">
+<!ENTITY  closeTab.label		"タブを閉じる"><!-- (^a^) ツールチップに使われているが、メニューにも兼用されているため 閉じます は不可 -->
 <!ENTITY  closeTab.accesskey		"c">
 <!ENTITY  closeOtherTabs.accesskey	"o">
 <!ENTITY  closeOtherTabs.label		"他のタブをすべて閉じる">
@@ -9,7 +9,7 @@
 <!ENTITY  reloadAllTabs.accesskey	"A">
 <!ENTITY  reloadTab.label		"タブを再読み込み">
 <!ENTITY  reloadTab.accesskey		"r">
-<!ENTITY  listAllTabs.label		"タブの一覧表示">
+<!ENTITY  listAllTabs.label		"タブを一覧表示します">
 <!ENTITY  bookmarkAllTabs.label		"すべてのタブをブックマーク...">
 <!ENTITY  bookmarkAllTabs.accesskey	"T">
 <!ENTITY  bookmarkThisTab.label		"このタブをブックマーク">

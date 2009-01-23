@@ -71,7 +71,7 @@
 <!ENTITY addCurPagesCmd.label		"すべてのタブをブックマーク...">
 <!ENTITY organizeBookmarks.label	"ブックマークの管理...">
 <!ENTITY bookmarkAllCmd.label		"すべてのタブをブックマーク...">
-<!ENTITY bookmarksToolbarChevron.tooltip	"残りのブックマークを表示">
+<!ENTITY bookmarksToolbarChevron.tooltip	"残りのブックマークを表示します">
 
 <!ENTITY backCmd.label			"戻る">
 <!ENTITY backCmd.accesskey		"B">

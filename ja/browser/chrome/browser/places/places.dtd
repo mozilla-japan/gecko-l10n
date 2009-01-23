@@ -193,7 +193,7 @@
 <!ENTITY cmd.find.key				"f">
 
 <!ENTITY feed.subscribe.label			"フィード">
-<!ENTITY feed.subscribe.tooltip			"購読">
+<!ENTITY feed.subscribe.tooltip			"購読します">
 
 <!ENTITY view.detailsMacOSX.label		"リスト">
 <!ENTITY view.details.label			"詳細">
