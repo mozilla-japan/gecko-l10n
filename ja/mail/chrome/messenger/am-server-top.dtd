@@ -10,7 +10,6 @@
 <!ENTITY port.label			"ポート:">
 <!ENTITY port.accesskey			"P">
 <!ENTITY serverPortDefault.label	"@@DefaultValue@@:">
-<!ENTITY savePassword.label		"パスワードを保存する">
 <!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammer dependency
         For example, in Japanese cases:
                 biffStart.label "every"
@@ -19,8 +18,6 @@
 <!ENTITY biffStart.label		"新着メッセージがないか">
 <!ENTITY biffStart.accesskey		"y">
 <!ENTITY biffEnd.label			"分ごとに確認する">
-<!ENTITY isSecure.label			"保護された接続 (SSL) を使用する">
-<!ENTITY isSecure.accesskey		"U">
 <!ENTITY socketType.label		"保護された接続 (SSL, TLS) を使用する:">
 <!ENTITY neverSecure.label		"使用しない">
 <!ENTITY neverSecure.accesskey		"N">

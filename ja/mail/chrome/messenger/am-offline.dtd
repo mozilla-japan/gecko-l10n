@@ -22,6 +22,8 @@
 <!ENTITY retentionKeepNew.accesskey		"b">
 <!ENTITY retentionKeepUnread.label		"既読のメッセージは常に削除する">
 <!ENTITY retentionKeepUnread.accesskey		"w">
+<!ENTITY retentionApplyToFlagged.label		"スター付きのメッセージは残す">
+<!ENTITY retentionApplyToFlagged.accesskey	"e">
 <!ENTITY nntpRemoveBody.label			"送信日時から次の日数以内のメッセージ本文のみ残す"><!-- (^^; Only message bodies less than daysOld.label -->
 <!ENTITY nntpRemoveBody.accesskey		"O">
 <!ENTITY offlineSelectNntp.label		"オフラインで使用するニュースグループを選択してください...">

@@ -28,16 +28,14 @@
 <!ENTITY useDownloadedList.accesskey		"U">
 
 <!-- Passwords -->
-<!ENTITY savedPasswords.intro			"メールを送受信するたびに毎回入力をせずに済むよう、アカウントのパスワードを保存できます。">
-<!ENTITY  encryptEnabled.label			"メールパスワードの暗号化にマスターパスワードを使用する">
-<!ENTITY  encryptEnabled.accesskey		"s">
-<!ENTITY  masterPassword.intro			"マスターパスワードを設定するとすべてのパスワードが保護されます。ただし、セッションごとに一度入力を求められます。">
-<!ENTITY  setMasterPassword.label		"マスターパスワード">
-<!ENTITY  setMasterPassword.accesskey		"M">
-<!ENTITY  removeMasterPassword.label		"マスターパスワードを削除...">
-<!ENTITY  removeMasterPassword.accesskey	"R">
-<!ENTITY  editPasswords.label			"保存されているパスワードを変更">
-<!ENTITY  editPasswords.accesskey		"i">
+<!ENTITY savedPasswords.intro			"&brandShortName; で利用するすべてのアカウントのパスワードを保存できます。">
+<!ENTITY useMasterPassword.label		"マスターパスワードを使用する">
+<!ENTITY useMasterPassword.accesskey		"m">
+<!ENTITY masterPassword.intro			"マスターパスワードはすべてのパスワードを保護します。ただし、セッションごとに入力を求められます。">
+<!ENTITY changeMasterPassword.label		"マスターパスワードを変更...">
+<!ENTITY changeMasterPassword.accesskey		"C">
+<!ENTITY savedPasswords.label			"保存されているパスワード...">
+<!ENTITY savedPasswords.accesskey		"S">
 
 <!-- Anti Virus -->
 <!ENTITY antiVirus.intro			"ウィルス対策ソフトがウィルスを検出したとき、感染したメッセージだけを処理できるようにします。"><!-- en-US: &brandShortName; can make it easy for anti-virus software to analyze incoming mail messages for viruses before they are stored locally. 直訳: 受信メッセージを保存する前に、それをウィルス対策ソフトで分析しやすくなるようにできます。 -->

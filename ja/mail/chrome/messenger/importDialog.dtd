@@ -48,11 +48,16 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 -->
 
 <!ENTITY importDialog.windowTitle	"設定とデータの@@ImportNoun@@">
-<!ENTITY importDialog.allTitle		"すべて@@Import@@">
-<!ENTITY importDialog.mailTitle		"メールボックス">
-<!ENTITY importDialog.addressbookTitle	"アドレス帳">
-<!ENTITY importDialog.settingsTitle	"設定">
-<!ENTITY importDialog.filtersTitle	"フィルタ"><!-- (^^; Mail.app: ルール -->
+<!ENTITY importAll.label		"すべて@@Import@@">
+<!ENTITY importAll.accesskey		"E">
+<!ENTITY importMail.label		"メールボックス">
+<!ENTITY importMail.accesskey		"M">
+<!ENTITY importAddressbook.label	"アドレス帳">
+<!ENTITY importAddressbook.accesskey	"A">
+<!ENTITY importSettings.label		"設定">
+<!ENTITY importSettings.accesskey	"S">
+<!ENTITY importFilters.label		"フィルタ"><!-- (^^; Mail.app: ルール -->
+<!ENTITY importFilters.accesskey	"F">
 
 <!ENTITY  window.width			"51em"><!-- en-US: 40em -->
 <!ENTITY  window.macWidth		"45em"><!-- en-US: 45em -->
@@ -64,6 +69,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY importDescription2.label	"@@ImportNoun@@後は &brandShortName; のメールやアドレス帳からアクセスできるようになります。">
 
 <!ENTITY selectDescription.label	"@@ImportNoun@@元のファイルタイプを選択してください:">
+<!ENTITY selectDescription.accesskey	"P">
 
 <!ENTITY back.label			"戻る">
 <!ENTITY forward.label			"次へ">
@@ -78,5 +84,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY FieldDiscInputText1.label	"Netscape Communicator 4.x ではカードごとに 1 つメールアドレスを書きますが、&brandShortName; では自宅と勤務先の 2 つを書けます。">
 <!ENTITY FieldDiscInputText2.label	"@@Import-sare@@たメールアドレスを保存するカテゴリを選択してください:">
 <!ENTITY FieldDiscWarning.label		"選択されたアドレス帳のすべての項目をこのカテゴリに収めます:">
-<!ENTITY importDialog.homeTitle		"自宅">
-<!ENTITY importDialog.workTitle		"勤務先">
+<!ENTITY importHome.label		"自宅">
+<!ENTITY importHome.accesskey		"H">
+<!ENTITY importWork.label		"勤務先">
+<!ENTITY importWork.accesskey		"W">

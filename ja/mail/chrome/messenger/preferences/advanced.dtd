@@ -6,8 +6,23 @@
 
 <!-- General Settings -->
 
-<!ENTITY enableGloda.label             "メッセージの索引データベースを有効にする"><!-- (^^; Enable Message Indexer -->
-<!ENTITY enableGloda.accesskey         "i">
+<!ENTITY enableGloda.label			"メッセージの索引データベースを有効にする"><!-- (^^; Enable Message Indexer -->
+<!ENTITY enableGloda.accesskey			"i">
+<!ENTITY systemDefaults.label			"@@DefaultClient@@">
+<!ENTITY alwaysCheckDefault.label		"起動時に &brandShortName; が@@DefaultClient@@として設定されているか確認する">
+<!ENTITY alwaysCheckDefault.accesskey		"l">
+<!ENTITY checkNow.label				"今すぐ確認">
+<!ENTITY checkNow.accesskey			"N">
+<!ENTITY configEditDesc.label			"高度な設定">
+<!ENTITY configEdit.label			"設定エディタ..."><!-- (^^; 要するに about:config -->
+<!ENTITY configEdit.accesskey			"g">
+<!ENTITY returnReceiptsInfo.label		"開封確認の取り扱い方を設定します。">
+<!ENTITY showReturnReceipts.label		"開封確認...">
+<!ENTITY showReturnReceipts.accesskey		"R">
+
+<!-- Display and Reading Settings -->
+<!ENTITY reading.caption			"既読">
+<!ENTITY display.caption			"表示">
 <!ENTITY showCondensedAddresses.label		"アドレス帳に登録されている人については宛先フィールドで &lt;メールアドレス&gt; 部を表示しない"><!-- (^^; en-US: Show only display name for people in my address book. -->
 <!ENTITY showCondensedAddresses.accesskey	"p">
 
@@ -21,23 +36,11 @@
 <!ENTITY markAsReadDelay.label			"メッセージを">
 <!ENTITY markAsReadDelay.accesskey		"e">
 <!ENTITY secondsLabel.label			"秒間以上表示していたら既読とする">
-<!ENTITY showFolderColumns.label		"フォルダペインにメッセージ数などの列を表示できるようにする">
-<!ENTITY showFolderColumns.accesskey		"l">
-<!ENTITY openMsgIn.label			"メッセージは次の場所に開く:">
+<!ENTITY openMsgIn.label			"メッセージを次の場所に開く:">
 <!ENTITY reuseExpRadio0.label			"新しいメッセージ@@Window@@で開く">
 <!ENTITY reuseExpRadio0.accesskey		"i">
 <!ENTITY reuseExpRadio1.label			"既存のメッセージ@@Window@@で開く">
 <!ENTITY reuseExpRadio1.accesskey		"x">
-<!ENTITY configEditDesc.label			"高度な設定">
-<!ENTITY configEdit.label			"設定エディタ..."><!-- (^^; 要するに about:config -->
-<!ENTITY configEdit.accesskey			"g">
-<!ENTITY returnReceiptsInfo.label		"開封確認の取り扱い方を設定します。">
-<!ENTITY showReturnReceipts.label		"開封確認...">
-<!ENTITY showReturnReceipts.accesskey		"R">
-
-<!-- Display and Reading Settings -->
-<!ENTITY reading.caption                "既読">
-<!ENTITY display.caption                "表示">
 
 <!-- Update -->
 <!ENTITY autoCheck.label			"次のソフトウェアの更新を定期的に確認する:">
@@ -45,7 +48,6 @@
 <!ENTITY enableAppUpdate.accesskey		"h">
 <!ENTITY enableAddonsUpdate.label		"アドオン">
 <!ENTITY enableAddonsUpdate.accesskey		"t">
-<!ENTITY checkNow.label				"今すぐ確認...">
 <!ENTITY whenUpdatesFound.label			"&brandShortName; の更新が見つかったとき:">
 <!ENTITY modeAskMe.label			"どうするか確認する">
 <!ENTITY modeAskMe.accesskey			"k">
@@ -58,8 +60,8 @@
 
 <!-- Networking and Disk Space -->
 <!ENTITY showSettings.label			"接続設定...">
-<!ENTITY showSettings.accesskey		"n">
-<!ENTITY proxiesConfigure.label		"インターネット接続に使用するプロキシを設定します。">
+<!ENTITY showSettings.accesskey			"n">
+<!ENTITY proxiesConfigure.label			"インターネット接続に使用するプロキシを設定します。">
 <!ENTITY connectionsInfo.caption		"接続">
 <!ENTITY offlineInfo.caption			"オフライン">
 <!ENTITY offlineInfo.label			"オフライン時の動作を設定します。">
@@ -77,11 +79,11 @@
 
   &useCacheBefore.label  [ textbox for cache size in MB ]   &useCacheAfter.label;
 -->
-<!ENTITY useCacheBefore.label            "ページキャッシュとして">
-<!ENTITY useCacheBefore.accesskey        "U">
-<!ENTITY useCacheAfter.label             "MB まで使用する">
-<!ENTITY clearCacheNow.label             "今すぐ消去">
-<!ENTITY clearCacheNow.accesskey         "C">
+<!ENTITY useCacheBefore.label			"ページキャッシュとして">
+<!ENTITY useCacheBefore.accesskey		"U">
+<!ENTITY useCacheAfter.label			"MB まで使用する">
+<!ENTITY clearCacheNow.label			"今すぐ消去">
+<!ENTITY clearCacheNow.accesskey		"C">
 
 <!-- Certificates -->
 <!ENTITY viewCertificates.label			"証明書を表示">
