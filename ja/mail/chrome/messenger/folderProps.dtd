@@ -67,6 +67,8 @@
 <!ENTITY retentionKeepNew.accesskey		"l">
 <!ENTITY retentionKeepUnread.label		"既読のメッセージは常に削除する">
 <!ENTITY retentionKeepUnread.accesskey		"r">
+<!ENTITY retentionApplyToFlagged.label		"スター付きのメッセージは残す">
+<!ENTITY retentionApplyToFlagged.accesskey	"e">
 
 <!ENTITY folderOfflineTab.label			"オフライン">
 <!ENTITY folderCheckForNewMessages.label	"このフォルダに新着メッセージがないか確認する">

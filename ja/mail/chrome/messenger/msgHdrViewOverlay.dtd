@@ -60,8 +60,9 @@
 
 <!ENTITY editMessageDescription.label		"このメッセージは下書きです">
 <!ENTITY editMessageButton.label		"編集...">
-<!ENTITY replyButton.label			"返信...">
-<!ENTITY forwardButton.label			"転送...">
+<!ENTITY archiveButton.label			"アーカイブ">
+<!ENTITY replyButton.label			"返信">
+<!ENTITY forwardButton.label			"転送">
 <!ENTITY junkButton.label			"迷惑メールとしてマーク">
 <!ENTITY trashButton.tooltiptext		"削除">
 

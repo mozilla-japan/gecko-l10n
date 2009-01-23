@@ -67,7 +67,6 @@
 <!ENTITY NickName.label			"ニックネーム:">
 <!ENTITY NickName.accesskey		"N">
 
-<!ENTITY Internet.box			"インターネット">
 <!ENTITY PrimaryEmail.label		"メールアドレス:">
 <!ENTITY PrimaryEmail.accesskey		"E">
 <!ENTITY SecondEmail.label		"別のメールアドレス:">

@@ -119,9 +119,9 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY enableInlineSpellChecker.label "自動スペルチェック">
 <!ENTITY enableInlineSpellChecker.accesskey "S">
-<!ENTITY checkSpellingCmd.label "スペルチェック">
-<!ENTITY checkSpellingCmd.accesskey "h">
-<!ENTITY checkSpellingCmd.key "K">
+<!ENTITY checkSpellingCmd2.label "スペルチェック">
+<!ENTITY checkSpellingCmd2.accesskey "h">
+<!ENTITY checkSpellingCmd2.key "p">
 <!ENTITY validateCmd.label "HTML の妥当性検証">
 <!ENTITY validateCmd.accesskey "V">
 

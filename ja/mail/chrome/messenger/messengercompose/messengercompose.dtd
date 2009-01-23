@@ -11,8 +11,8 @@
 <!ENTITY newMessage.key			"M">
 <!ENTITY newMessageCmd2.key		"N">
 <!ENTITY newMessage.accesskey		"M">
-<!ENTITY newCard.label			"アドレス帳カード...">
-<!ENTITY newCard.accesskey		"c">
+<!ENTITY newContact.label		"連絡先...">
+<!ENTITY newContact.accesskey		"C">
 <!ENTITY attachMenu.label		"添付">
 <!ENTITY attachMenu.accesskey		"t">
 <!ENTITY attachFileCmd.label		"ファイル...">
@@ -93,6 +93,7 @@
 <!ENTITY viewToolbarsMenuNew.label		"ツールバー">
 <!ENTITY viewToolbarsMenuNew.accesskey		"T">
 <!ENTITY showCompositionToolbarCmd.label	"編集ツールバー">
+<!ENTITY showCompositionToolbarCmd.accesskey	"o">
 <!ENTITY showFormattingBarCmd.label		"書式バー">
 <!ENTITY showFormattingBarCmd.accesskey		"F">
 <!ENTITY showTaskbarCmd.label			"ステータスバー">
@@ -110,10 +111,10 @@
 <!-- Options Menu -->
 <!ENTITY optionsMenu.label		"オプション">
 <!ENTITY optionsMenu.accesskey		"p">
-<!ENTITY checkSpellingCmd.label		"スペルチェック...">
-<!ENTITY checkSpellingCmd.key		"K">
-<!ENTITY checkSpellingCmd.key2		"VK_F7">
-<!ENTITY checkSpellingCmd.accesskey	"h">
+<!ENTITY checkSpellingCmd2.label	"スペルチェック...">
+<!ENTITY checkSpellingCmd2.key		"p">
+<!ENTITY checkSpellingCmd2.key2		"VK_F7">
+<!ENTITY checkSpellingCmd2.accesskey	"h">
 <!ENTITY enableInlineSpellChecker.label	"自動スペルチェック"><!-- en-US: Spell Check As You Type -->
 <!ENTITY enableInlineSpellChecker.accesskey	"S">
 <!ENTITY quoteCmd.label			"メッセージを引用">
@@ -185,15 +186,14 @@
 <!ENTITY attachButton.label		"添付">
 <!ENTITY spellingButton.label		"スペル">
 <!ENTITY saveButton.label		"保存">
-<!ENTITY throbberItem.title		"アクティブインジケータ">
 
 <!-- Mail Toolbar Tooltips -->
-<!ENTITY sendButton.tooltip		"このメッセージを今すぐ送信する">
-<!ENTITY sendlaterButton.tooltip	"このメッセージを後で送信する">
-<!ENTITY quoteButton.tooltip		"前のメッセージを引用する">
-<!ENTITY addressButton.tooltip		"アドレス帳から受信者を選択する">
-<!ENTITY attachButton.tooltip		"このメッセージにファイルを添付する">
-<!ENTITY saveButton.tooltip		"このメッセージを保存する">
+<!ENTITY sendButton.tooltip		"このメッセージを今すぐ送信します">
+<!ENTITY sendlaterButton.tooltip	"このメッセージを後で送信します">
+<!ENTITY quoteButton.tooltip		"前のメッセージを引用します">
+<!ENTITY addressButton.tooltip		"アドレス帳から宛先を選択します">
+<!ENTITY attachButton.tooltip		"このメッセージにファイルを添付します">
+<!ENTITY saveButton.tooltip		"このメッセージを保存します">
 <!ENTITY cutButton.tooltip		"@@Cut@@">
 <!ENTITY copyButton.tooltip		"コピー">
 <!ENTITY pasteButton.tooltip		"@@Paste@@">
@@ -213,7 +213,7 @@
 <!ENTITY attachments.accesskey		"c">
 
 <!-- Format Toolbar, imported from editorAppShell.xul -->
-<!ENTITY SmileButton.tooltip		"顔文字を挿入">
+<!ENTITY SmileButton.tooltip		"顔文字を挿入します">
 <!ENTITY smiley1Cmd.label		"スマイル">
 <!ENTITY smiley2Cmd.label		"しかめっ面">
 <!ENTITY smiley3Cmd.label		"ウィンク">

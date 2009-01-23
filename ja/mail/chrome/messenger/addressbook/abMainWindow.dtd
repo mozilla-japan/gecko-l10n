@@ -5,9 +5,9 @@
 <!ENTITY fileMenu.accesskey			"f">
 <!ENTITY newMenu.label				"新規作成">
 <!ENTITY newMenu.accesskey			"N">
-<!ENTITY newCard.label				"アドレス帳カード...">
-<!ENTITY newCard.accesskey			"C">
-<!ENTITY newCard.key				"N">
+<!ENTITY newContact.label			"アドレス帳連絡先...">
+<!ENTITY newContact.accesskey			"C">
+<!ENTITY newContact.key				"N">
 <!ENTITY newListCmd.label			"アドレスリスト..."><!-- (^^; Mailing List -->
 <!ENTITY newListCmd.accesskey			"L">
 <!ENTITY newAddressBookCmd.label		"アドレス帳...">
@@ -25,13 +25,13 @@
 <!ENTITY closeCmd.accesskey			"c">
 <!ENTITY printSetupCmd.label			"ページ設定...">
 <!ENTITY printSetupCmd.accesskey		"u">
-<!ENTITY printPreviewCardViewCmd.label		"カードの@@Print@@プレビュー">
-<!ENTITY printPreviewCardViewCmd.accesskey	"v">
+<!ENTITY printPreviewContactCmd.label		"連絡先の@@Print@@プレビュー">
+<!ENTITY printPreviewContactCmd.accesskey	"v">
 <!ENTITY printPreviewAddressBook.label		"アドレス帳の@@Print@@プレビュー">
 <!ENTITY printPreviewAddressBook.accesskey	"B">
-<!ENTITY printCardViewCmd.label			"カードを@@Print@@...">
-<!ENTITY printCardViewCmd.accesskey		"p">
-<!ENTITY printCardViewCmd.key			"P">
+<!ENTITY printContactCmd.label			"連絡先を@@Print@@...">
+<!ENTITY printContactCmd.accesskey		"P">
+<!ENTITY printContactCmd.key			"P">
 <!ENTITY printAddressBook.label			"アドレス帳を@@Print@@...">
 <!ENTITY printAddressBook.accesskey		"A">
 
@@ -56,8 +56,8 @@
 <!ENTITY deleteCmd.label			"削除">
 <!ENTITY deleteCmd.accesskey			"d">
 <!ENTITY deleteAbCmd.label			"アドレス帳を削除">
-<!ENTITY deleteCardCmd.label			"カードを削除">
-<!ENTITY deleteCardsCmd2.label			"カードを削除">
+<!ENTITY deleteContactCmd.label			"連絡先を削除">
+<!ENTITY deleteContactsCmd.label		"連絡先を削除">
 <!ENTITY deleteListCmd.label			"リストを削除">
 <!ENTITY deleteListsCmd.label			"リストを削除">
 <!ENTITY deleteItemsCmd.label			"項目を削除">
@@ -85,8 +85,8 @@
 <!ENTITY showTaskbarCmd.accesskey		"S"> 
 <!ENTITY customizeToolbar.label			"カスタマイズ...">
 <!ENTITY customizeToolbar.accesskey		"C">
-<!ENTITY showCardPane.label			"カード要約ペイン">
-<!ENTITY showCardPane.accesskey			"C">
+<!ENTITY showContactPane.label			"連絡先要約ペイン">
+<!ENTITY showContactPane.accesskey		"C">
 <!ENTITY menu_ShowNameAs.label			"名前の表示">
 <!ENTITY menu_ShowNameAs.accesskey		"n">
 <!ENTITY firstLastCmd.label			"名前 姓">
@@ -116,27 +116,26 @@
 <!ENTITY preferencesCmdUnix.accesskey		"n">
 
 <!-- Address Book Toolbar and Context Menus -->
-<!ENTITY newcardButton.label			"@@New-CMD@@カード">
-<!ENTITY newcardButton.accesskey		"C">
+<!ENTITY newContactButton.label			"@@New-CMD@@連絡先">
+<!ENTITY newContactButton.accesskey		"C">
 <!ENTITY newlistButton.label			"@@New-CMD@@リスト">
 <!ENTITY newlistButton.accesskey		"L">
-<!ENTITY editButton.label			"@@PropertyCMD@@">
-<!ENTITY editButton.accesskey			"P">
+<!ENTITY editButton2.label			"@@PropertyCMD@@">
+<!ENTITY editButton2.accesskey			"P">
 <!ENTITY newmsgButton.label			"メッセージ作成"><!-- (^^; en-US: Write -->
 <!ENTITY newmsgButton.accesskey			"W">
 <!ENTITY newIM.label				"インスタントメッセージ">
 <!ENTITY newIM.accesskey			"I">
-<!ENTITY deleteButton.label			"削除">
-<!ENTITY deleteButton.accesskey			"D">
-<!ENTITY throbberItem.title			"アクティブインジケータ">
+<!ENTITY deleteButton2.label			"削除">
+<!ENTITY deleteButton2.accesskey		"D">
 
 <!-- Address Book Toolbar Tooltips -->
-<!ENTITY newcardButton.tooltip			"新しいカードを作成">
-<!ENTITY newlistButton.tooltip			"新しいリストを作成">
-<!ENTITY editButton.tooltip			"選択したカードを編集">
-<!ENTITY newmsgButton.tooltip			"メールを送る">
-<!ENTITY newIM.tooltip				"インスタントメッセージを送るかチャットする">
-<!ENTITY deleteButton.tooltip			"選択したカードまたはアドレス帳を削除">
+<!ENTITY newContactButton.tooltip		"新しい連絡先を作成します">
+<!ENTITY newlistButton.tooltip			"新しいリストを作成します">
+<!ENTITY editButton2.tooltip			"選択したアイテムを編集します">
+<!ENTITY newmsgButton.tooltip			"メールを送信します">
+<!ENTITY newIM.tooltip				"インスタントメッセージまたはチャットを送信します">
+<!ENTITY deleteButton2.tooltip			"選択したアイテムを削除します">
 
 <!-- Dir Tree header -->
 <!ENTITY dirTreeHeader.label			"アドレス帳">
@@ -144,7 +143,7 @@
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label		"名前またはメールアドレス">
 <!ENTITY SearchNameOrEmail.accesskey		"N">
-<!ENTITY advancedButton.tooltip			"アドレスを検索">
+<!ENTITY advancedButton.tooltip			"アドレスを検索します">
 <!ENTITY quickSearchCmd.key			"k">
 <!ENTITY searchItem.title			"簡易検索">
 

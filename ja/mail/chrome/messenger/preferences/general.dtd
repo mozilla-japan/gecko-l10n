@@ -1,15 +1,3 @@
-<!ENTITY systemDefaults.label		"@@DefaultClient@@">
-<!ENTITY alwaysCheckDefault.label	"起動時に &brandShortName; が@@DefaultClient@@として設定されているか確認する">
-<!ENTITY alwaysCheckDefault.accesskey	"l">
-<!-- LOCALIZATION NOTE (alwaysCheckDefault.height):
-  There's some sort of bug which makes wrapping checkboxes not properly reflow,
-  causing the bottom border of the groupbox to be cut off; set this
-  appropriately if your localization causes this checkbox to wrap.
--->
-<!ENTITY alwaysCheckDefault.height	"3em">
-<!ENTITY checkNow.label			"今すぐ確認">
-<!ENTITY checkNow.accesskey		"N">
-
 <!ENTITY messengerStartPage.label	"&brandShortName; スタートページ">
 <!ENTITY enableStartPage.label		"起動時にメッセージペインにスタートページを表示する">
 <!ENTITY enableStartPage.accesskey	"W">
@@ -40,8 +28,8 @@
 <!ENTITY browse.label			"@@Browse@@...">
 <!ENTITY browse.accesskey		"B">
 
-<!ENTITY addonsMgr.label                  "アドオン">
-<!ENTITY manageAddonsDescWin.label        "アドオンの設定を変更できます。">
-<!ENTITY manageAddonsDescUnix2.label      "アドオンの設定を変更できます。">
-<!ENTITY manageAddons.label               "アドオンを管理...">
-<!ENTITY manageAddons.accesskey           "M">
+<!ENTITY addonsMgr.label		"アドオン">
+<!ENTITY manageAddonsDescWin.label	"アドオンの設定を変更できます。">
+<!ENTITY manageAddonsDescUnix2.label	"アドオンの設定を変更できます。">
+<!ENTITY manageAddons.label		"アドオンを管理...">
+<!ENTITY manageAddons.accesskey		"M">
