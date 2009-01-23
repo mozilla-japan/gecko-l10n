@@ -10,7 +10,7 @@
 <!-- LOCALIZATION NOTE (privatebrowsingpage.clearRecentHistoryAfter): include a starting space as needed -->
 <!ENTITY privatebrowsingpage.clearRecentHistoryBefore		"">
 <!ENTITY privatebrowsingpage.clearRecentHistoryInner		"最近の履歴を消去">
-<!ENTITY privatebrowsingpage.clearRecentHistoryAfter		"してから起動することもできます。">
+<!ENTITY privatebrowsingpage.clearRecentHistoryAfter		"することもできます。">
 
 <!ENTITY privatebrowsingpage.startPrivateBrowsing.label		"プライベートブラウジングを開始">
 <!ENTITY privatebrowsingpage.startPrivateBrowsing.accesskey	"P">
