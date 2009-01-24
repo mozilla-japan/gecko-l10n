@@ -5,7 +5,7 @@
 <!ENTITY fileMenu.accesskey			"f">
 <!ENTITY newMenu.label				"新規作成">
 <!ENTITY newMenu.accesskey			"N">
-<!ENTITY newContact.label			"アドレス帳連絡先...">
+<!ENTITY newContact.label			"連絡先...">
 <!ENTITY newContact.accesskey			"C">
 <!ENTITY newContact.key				"N">
 <!ENTITY newListCmd.label			"アドレスリスト..."><!-- (^^; Mailing List -->
