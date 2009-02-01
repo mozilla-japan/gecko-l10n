@@ -19,5 +19,5 @@
 <!ENTITY serverName.label		"サーバ名: ">
 <!ENTITY serverPort.label		"ポート: ">
 <!ENTITY userName.label			"ユーザ名: ">
-<!ENTITY useSecureConnection.label	"保護された接続: ">
+<!ENTITY connectionSecurity.label	"接続の保護: ">
 <!ENTITY useSecureAuthentication.label	"保護された認証: ">
