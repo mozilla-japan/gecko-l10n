@@ -409,12 +409,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY tasksMenu.accesskey		"T">
 <!ENTITY addons.label			"アドオン">
 <!ENTITY addons.accesskey		"d">
+<!ENTITY activitymanager.label		"イベントログの管理"><!-- (^^; en-US: Activity Manager -->
+<!ENTITY activitymanager.accesskey	"a">
 <!ENTITY messengerCmd.label		"メールとニュースグループ">
 <!ENTITY messengerCmd.accesskey		"m">
-<!ENTITY messengerCmd.commandkey	"1">
 <!ENTITY addressBookCmd.label		"アドレス帳">
 <!ENTITY addressBookCmd.accesskey	"a">
-<!ENTITY addressBookCmd.commandkey	"2">
 <!ENTITY runJunkControls.label		"迷惑メールフィルタを実行"><!-- (^^; "フォルダに" 削除 -->
 <!ENTITY runJunkControls.accesskey	"u">
 <!ENTITY deleteJunk.label		"迷惑メールとマークされたメールを削除">
