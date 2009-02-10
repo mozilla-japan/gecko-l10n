@@ -318,5 +318,9 @@ ja-JP-mac.downloads.stateBlocked	= ペアレンタルコントロールにより
 ja.downloads.monthDate			= #1#2日
 ja-JP-mac.downloads.monthDate		= #1 #2
 
+# mail/chrome/messenger/activity.properties
+ja.activity.monthDate			= #1#2日
+ja-JP-mac.activity.monthDate		= #1 #2
+
 
 
