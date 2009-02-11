@@ -1,5 +1,5 @@
 <!ENTITY itemGeneral.label			"一般">
-<!ENTITY itemAutoComplete.label			"編集とアドレス入力">
+<!ENTITY itemAutoComplete.label			"アドレス入力">
 <!ENTITY itemSpellCheck.label			"スペルチェック">
 
 <!ENTITY forwardMsg.label			"転送元のメッセージを:">
