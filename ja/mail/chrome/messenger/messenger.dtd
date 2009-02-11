@@ -450,6 +450,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY junkButton.label		"迷惑メール">
 <!ENTITY notJunkButton.label		"非迷惑メール">
 <!ENTITY addressBookButton.label	"アドレス帳">
+<!ENTITY glodaSearch.title		"グローバル検索">
 <!ENTITY searchItem.title		"簡易検索">
 <!ENTITY mailViewsToolbarItem.title	"絞り込みバー">
 <!ENTITY folderLocationToolbarItem.title "フォルダバー">
@@ -532,6 +533,31 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY SearchNameOrEmail.label		"名前やメールに含まれる単語:">
 <!ENTITY SearchNameOrEmail.accesskey		"N">
 
+<!-- Gloda Search Bar -->
+<!ENTITY glodaSearchBar.emptyText		"メッセージ検索...">
+<!ENTITY glodaSearchBar.facet.label		"検索:">
+<!-- LOCALIZATION NOTE (glodaSearchFacet.*) labels specify search constraints.
+       "everything" searches over subject, involves, body, and attachments.
+       "subject" searches only messages subjects.
+       "involves" searches only message to/from/cc/bcc.
+       "to" searches only message to/cc.
+       "from" searches only message using "from" (the message author).
+       "body" searches only message bodies, which does not include message
+           attachment names or the content of the attachments.  Message body
+           basically means a message part with a content-type of text/*.
+    -->
+<!ENTITY glodaSearchFacet.everything.label	"すべて">
+<!ENTITY glodaSearchFacet.subject.label		"件名">
+<!ENTITY glodaSearchFacet.involves.label	"送信者および受信者 (from,to,cc,bcc)"><!--  (^^; en-US: Involves -->
+<!ENTITY glodaSearchFacet.to.label		"受信者 (To, CC)">
+<!ENTITY glodaSearchFacet.from.label		"送信者">
+<!ENTITY glodaSearchFacet.body.label		"メッセージ本文">
+<!ENTITY glodaSearchFacet.attachmentNames.label	"添付ファイル名">
+
+<!ENTITY glodaSearchBar.location.label		"場所:">
+<!ENTITY glodaSearchFacet.everywhere.label	"すべてのフォルダ">
+<!ENTITY glodaSearchFacet.folder.label		"指定したフォルダ...">
+
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label		"件名">
 <!ENTITY searchFromMenu.label			"差出人">
@@ -562,6 +588,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY idColumn.label			"受信順">
 <!ENTITY attachmentColumn.label		"添付">
 
+<!-- LOCALIZATION NOTE (glodaWhyColumn.label): explains why a message is
+     present in the gloda search results.  The values can be found in
+     messenger.properties with a prefix of "glodaSearch_results_why_". -->
+<!ENTITY glodaWhyColumn.label		"該当項目"><!-- (^^; en-US: Why -->
+
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser.tooltip		"クリックすると表示する列を選択できます">
 <!ENTITY threadColumn.tooltip		"クリックするとメッセージをスレッド形式で表示します">
@@ -583,6 +614,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY locationColumn.tooltip		"クリックするとフォルダで並べ替えます">
 <!ENTITY idColumn.tooltip		"クリックすると受信した順で並べ替えます">
 <!ENTITY attachmentColumn.tooltip	"クリックすると添付の有無で並べ替えます">
+<!ENTITY glodaWhyColumn.tooltip		"クリックすると検索結果を該当項目で並べ替えます">
 
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextOpenNewWindow.label		"@@NewWindow@@でメッセージを開く">

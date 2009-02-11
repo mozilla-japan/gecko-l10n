@@ -6,8 +6,8 @@
 
 <!-- General Settings -->
 
-<!ENTITY enableGloda.label			"メッセージの索引データベースを有効にする"><!-- (^^; Enable Message Indexer -->
-<!ENTITY enableGloda.accesskey			"i">
+<!ENTITY enableGlodaSearch.label		"グローバル検索と索引データベースを有効にする"><!-- (^^; Enable Global Search and Indexer -->
+<!ENTITY enableGlodaSearch.accesskey		"i">
 <!ENTITY systemDefaults.label			"@@DefaultClient@@">
 <!ENTITY alwaysCheckDefault.label		"起動時に &brandShortName; が@@DefaultClient@@として設定されているか確認する">
 <!ENTITY alwaysCheckDefault.accesskey		"l">

@@ -11,5 +11,3 @@
 <!ENTITY paneAttachments.title	"添付ファイル">
 <!ENTITY panePrivacy.title	"プライバシー">
 <!ENTITY paneAdvanced.title	"詳細">
-
-<!ENTITY cmdCloseMac.commandKey	"w">

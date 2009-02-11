@@ -61,10 +61,11 @@
 <!ENTITY editMessageDescription.label		"このメッセージは下書きです">
 <!ENTITY editMessageButton.label		"編集...">
 <!ENTITY archiveButton.label			"アーカイブ">
-<!ENTITY replyButton.label			"返信">
-<!ENTITY forwardButton.label			"転送">
-<!ENTITY junkButton.label			"迷惑メールとしてマーク">
-<!ENTITY trashButton.tooltiptext		"削除">
+<!ENTITY hdrReplyButton.label			"返信">
+<!ENTITY hdrReplyAllButton.label		"全員に返信">
+<!ENTITY hdrForwardButton.label			"転送">
+<!ENTITY hdrJunkButton.label			"迷惑メールとしてマーク">
+<!ENTITY trashButton.tooltiptext		"このメッセージを削除します">
 
 <!ENTITY otherActionsButton.label		"その他の動作">
 <!ENTITY saveAsMenuItem.label			"@@SaveAs@@...">
