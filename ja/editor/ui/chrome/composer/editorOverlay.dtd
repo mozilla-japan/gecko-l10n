@@ -322,9 +322,9 @@
 <!ENTITY alignRight.label "右">
 <!ENTITY alignRight.accesskey "R">
 <!ENTITY alignRight.tooltip "右寄せ">
-<!ENTITY alignJustify.label "両端揃え">
+<!ENTITY alignJustify.label "両端そろえ">
 <!ENTITY alignJustify.accesskey "J">
-<!ENTITY alignJustify.tooltip "両端揃え">
+<!ENTITY alignJustify.tooltip "両端そろえ">
 
 <!-- Layer toolbar items -->
 <!ENTITY layer.tooltip "レイヤー">
@@ -453,10 +453,10 @@
 <!ENTITY indentToolbarCmd.tooltip "インデント (右へ移動)">
 <!ENTITY AlignPopupButton.tooltip "テキストの配置を選択します">
 <!ENTITY InsertPopupButton.tooltip "リンク、アンカー、画像、水平線、表を挿入します">
-<!ENTITY alignLeftButton.tooltip "テキストを左に揃えます">
-<!ENTITY alignCenterButton.tooltip "テキストを中央に揃えます">
-<!ENTITY alignRightButton.tooltip "テキストを右に揃えます">
-<!ENTITY alignjustifyButton.tooltip "2 行以上あるテキストの両端を揃えます">
+<!ENTITY alignLeftButton.tooltip "テキストを左にそろえます">
+<!ENTITY alignCenterButton.tooltip "テキストを中央にそろえます">
+<!ENTITY alignRightButton.tooltip "テキストを右にそろえます">
+<!ENTITY alignjustifyButton.tooltip "2 行以上あるテキストの両端をそろえます">
 
 <!-- Display Mode toolbar and View menu items -->
 <!ENTITY NormalModeTab.label "標準">

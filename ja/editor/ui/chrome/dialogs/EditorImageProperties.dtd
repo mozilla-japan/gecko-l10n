@@ -83,9 +83,9 @@
 
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label		"画像周りの文字列配置">
-<!ENTITY bottomPopup.value		"下端を揃える">
-<!ENTITY topPopup.value			"上端を揃える">
-<!ENTITY centerPopup.value		"中心を揃える">
+<!ENTITY bottomPopup.value		"下端をそろえる">
+<!ENTITY topPopup.value			"上端をそろえる">
+<!ENTITY centerPopup.value		"中心をそろえる">
 <!ENTITY wrapRightPopup.value		"右端で折り返す">
 <!ENTITY wrapLeftPopup.value		"左端で折り返す">
 

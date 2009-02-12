@@ -110,7 +110,7 @@
 <!ENTITY lightning.keys.todo.new "D">
 
 <!-- Account Central page -->
-<!-- (^a^) mail/chrome/messenger/msgAccountCentral.dtd と表現を揃える -->
+<!-- (^a^) mail/chrome/messenger/msgAccountCentral.dtd と表現をそろえる -->
 <!ENTITY lightning.acctCentral.newCalendar.label "@@New-CMD@@カレンダーを作成する">
 
 <!-- today-pane-specific -->
