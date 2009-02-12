@@ -15,7 +15,7 @@
 <!ENTITY openDM.accesskey "m">
 <!ENTITY openDM.label "ダウンロード マネージャを開く">
 <!ENTITY openProgressDialog.accesskey "O">
-<!ENTITY openProgressDialog.label "進捗ダイアログを開く">
+<!ENTITY openProgressDialog.label "進行状況ダイアログを開く">
 <!ENTITY playSound.accesskey "s">
 <!ENTITY playSound.label "音を鳴らす">
 <!ENTITY pref.download.title "ダウンロード">

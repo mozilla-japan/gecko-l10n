@@ -118,7 +118,7 @@
 <!ENTITY search.label			"Web 検索">
 <!ENTITY search.accesskey		"S">
 <!ENTITY downloads.label		"ダウンロード">
-<!ENTITY downloads.tooltip		"ダウンロードの進捗状況を表示します">
+<!ENTITY downloads.tooltip		"ダウンロードの進行状況を表示します">
 <!ENTITY downloads.accesskey		"D">
 <!ENTITY downloads.commandkey		"J">
 <!ENTITY downloadsUnix.commandkey	"y">

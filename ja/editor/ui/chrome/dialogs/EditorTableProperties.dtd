@@ -94,7 +94,7 @@
 <!ENTITY cellAlignTop.label		"上">
 <!ENTITY cellAlignMiddle.label		"中央">
 <!ENTITY cellAlignBottom.label		"下">
-<!ENTITY cellAlignJustify.label		"両端揃え">
+<!ENTITY cellAlignJustify.label		"両端そろえ">
 <!ENTITY cellInheritColor.label		"(表の背景を透過表示)">
 <!ENTITY cellUseCheckboxHelp.label	"選択中のセルに適用するプロパティをチェックボックスで指定してください。">
 
