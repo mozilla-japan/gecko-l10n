@@ -134,7 +134,7 @@
 <!ENTITY newlistButton.tooltip			"新しいリストを作成します">
 <!ENTITY editButton2.tooltip			"選択したアイテムを編集します">
 <!ENTITY newmsgButton.tooltip			"メールを送信します">
-<!ENTITY newIM.tooltip				"インスタントメッセージまたはチャットを送信します">
+<!ENTITY newIM.tooltip				"インスタントメッセージを送信またはチャットをします">
 <!ENTITY deleteButton2.tooltip			"選択したアイテムを削除します">
 
 <!-- Dir Tree header -->
