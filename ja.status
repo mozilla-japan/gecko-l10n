@@ -38,18 +38,18 @@ toolkit
 同期対象を mozilla-central と mozilla-X.X.x で切り替えする時はどこからか明記する
 同様に comm-central と comm-X.X.x との切り替え時にも区別できるように記録する
 
-target dir              mozilla+comm rev  by            comment
---------------------------------------------------------------------------------
-all Fx                  20100   ????    a
-all Fx                  21386   1030    dynamis
-editor/ui               21566   1136    mar
-mail                    21749   1135    dynamis         部分的
-mail                    21566   1136    mar             残り
-all comm                ?????   1210    a
-toolkit                 22135   1258    mar             mozilla-1.9.1 に切り替え
-all Fx                  22773   1600    dynamis
-all Tb(mail, editor/ui) 22939   1731    mar
-all Tb(mail)            23094   1816    mar
-all Tb(mail)            23138   1856    mar
-mail                    23192   1869    mar
-mail                    23242   1922    mar             Tb3b2 string freeze?
+target dir              mozilla and comm hg changeset rev:id    by              comment
+----------------------------------------------------------------------------------------------------
+all Fx                  20100:cf9d1780600f  ????:????????????   a
+all Fx                  21386:bd37f61d0b0b  1030:020882e3433b   dynamis
+editor/ui               21566:5dfdad637696  1136:641c14ca5210   mar
+mail                    21749:f88dbbaa6364  1135:9b7fe8e84e72   dynamis         部分的
+mail                    21566:5dfdad637696  1136:641c14ca5210   mar             残り
+all comm                ?????:????????????  1210:a23ff27acc06   a
+toolkit                 22135:4379539c6c7a  1258:5b0a3aaaf950   mar             mozilla-1.9.1 に切り替え
+all Fx                  22773:48ff3611f277  1600:ce533e4625e8   dynamis
+all Tb(mail, editor/ui) 22939:700a7c1a4caa  1731:cdefa5f6cd12   mar
+all Tb(mail)            23094:780ac66c8d2d  1816:a62cac409cf7   mar
+all Tb(mail)            23138:e171fe293271  1856:709d6c67890b   mar
+mail                    23192:273d40213afb  1869:0340ed233627   mar
+mail                    23242:32c6710ef316  1922:829c02e26bd9   mar             Tb3b2 string freeze?
