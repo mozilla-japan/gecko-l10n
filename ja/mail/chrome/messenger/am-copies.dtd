@@ -1,13 +1,13 @@
 <!-- extracted from am-copies.xul -->
 
-<!ENTITY copyAndFolderTitle.label	"コピーと特別なフォルダ"><!-- (^^; Copies &amp; Folders -->
-<!ENTITY sendingPrefix.label		"コピー">
+<!ENTITY copyAndFolderTitle.label	"送信控えと特別なフォルダ"><!-- (^^; Copies &amp; Folders -->
+<!ENTITY sendingPrefix.label		"送信控え">
 <!ENTITY fccMailFolder.label		"メッセージ送信時に自動的にコピーを作成する">
 <!ENTITY fccMailFolder.accesskey	"P">
 <!ENTITY fccReplyFollowsParent.label	"返信元のメッセージと同じフォルダに返信を保存する">
 <!ENTITY fccReplyFollowsParent.accesskey "c">
 <!-- LOCALIZATION NOTE (bccAddress.label): do not translate "Bcc" in below line -->
-<!ENTITY bccAddress.label		"次のメールアドレスを Bcc に追加:">
+<!ENTITY bccAddress.label		"次のメールアドレスを Bcc に追加する:">
 <!ENTITY bccAddress.accesskey		"B">
 <!ENTITY saveMessageDlg.label		"メッセージを保存するとき確認ダイアログを表示する">
 <!ENTITY saveMessageDlg.accesskey	"w">
