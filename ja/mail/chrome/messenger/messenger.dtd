@@ -337,15 +337,15 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editMsgAsNewCmd.key		"e">
 <!ENTITY createFilter.label		"メッセージからフィルタを作成...">
 <!ENTITY createFilter.accesskey		"a">
-<!ENTITY moveMsgToMenu.label		"別のフォルダに移動">
+<!ENTITY moveMsgToMenu.label		"別のフォルダに移動"><!-- contextMoveMsgMenu.label と同じ動作 -->
 <!ENTITY moveMsgToMenu.accesskey	"M">
 <!ENTITY moveCopyMsgRecentMenu.label	"履歴">
 <!ENTITY moveCopyMsgRecentMenu.accesskey	"R">
 <!ENTITY copyMessageLocation.label	"メッセージの場所をコピー">
 <!ENTITY copyMessageLocation.accesskey	"M">
-<!ENTITY copyMsgToMenu.label		"別のフォルダにコピー">
+<!ENTITY copyMsgToMenu.label		"別のフォルダにコピー"><!-- contextCopyMsgMenu.label と同じ動作 -->
 <!ENTITY copyMsgToMenu.accesskey	"C">
-<!ENTITY moveToFolderAgain.label	"同じフォルダに移動">
+<!ENTITY moveToFolderAgain.label	"前回と同じフォルダに移動"><!-- messenger.properties/moveToFolderAgain.label に置き換わる -->
 <!ENTITY moveToFolderAgain.accesskey	"i">
 <!ENTITY moveToFolderAgainCmd.key	"m">
 <!ENTITY killThreadMenu.label		"スレッドを無視">
