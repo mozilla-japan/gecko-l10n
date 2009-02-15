@@ -1,5 +1,5 @@
 <!ENTITY autoHide.accesskey "d">
-<!ENTITY autoHide.label "開くタブが１つだけのとき、タブ バーを隠す">
+<!ENTITY autoHide.label "開くタブが 1 つだけのとき、タブ バーを隠す">
 <!ENTITY background.accesskey "S">
 <!ENTITY background.label "@@NewTab@@を@@Front@@に表示 (リンクを開いたとき)">
 <!ENTITY external.label "他のアプリケーションから開かれたリンクの処理">

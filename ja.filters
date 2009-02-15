@@ -118,6 +118,7 @@ ja.Undo					= 元に戻す
 ja.Undo-sare				= 元に戻され
 ja.Undo-sita				= 元に戻した
 ja.Undo-simasu				= 元に戻します
+ja.Undo-se				= 元に戻せ
 ja.Zoom					= 拡大/縮小
 
 # Mac OS X 10.4 or earlier: 取り消し 10.5 or later: 取り消す
@@ -136,6 +137,7 @@ ja-JP-mac.Undo				= 取り消す
 ja-JP-mac.Undo-sare			= 取り消され
 ja-JP-mac.Undo-sita			= 取り消した
 ja-JP-mac.Undo-simasu			= 取り消します
+ja-JP-mac.Undo-se			= 取り消せ
 ja-JP-mac.Zoom				= 拡大／縮小
 
 
