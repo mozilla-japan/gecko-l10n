@@ -280,6 +280,15 @@ mail.credits.dtd			= <ul>\
 					  <li>Satoru Yamaguchi</li>\
 					  </ul>
 
+# mail/chrome/messenger/activity.properties
+ja.activity.monthDate			= #1#2日
+ja-JP-mac.activity.monthDate		= #1 #2
+
+
+# mail/chrome/messenger/AccountManager.dtd
+ja.AccountManager.accountTree.width		= width: 17em;
+ja-JP-mac.AccountManager.accountTree.width	= width: 19em;
+
 
 
 #	[ toolkit module ]
@@ -317,10 +326,6 @@ ja.downloads.stateBlocked		= 保護者による制限でブロックされまし
 ja-JP-mac.downloads.stateBlocked	= ペアレンタルコントロールによりブロックされました
 ja.downloads.monthDate			= #1#2日
 ja-JP-mac.downloads.monthDate		= #1 #2
-
-# mail/chrome/messenger/activity.properties
-ja.activity.monthDate			= #1#2日
-ja-JP-mac.activity.monthDate		= #1 #2
 
 
 
