@@ -42,11 +42,11 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!-- Event Menu -->
-<!ENTITY event.new.event                        "@@New-CMD@@イベント...">
+<!ENTITY event.new.event                        "@@New-CMD@@予定...">
 <!ENTITY event.new.event.key                    "N">
 <!ENTITY event.new.event.accesskey              "N">
 
-<!ENTITY event.new.todo                         "@@New-CMD@@タスク...">
+<!ENTITY event.new.todo                         "@@New-CMD@@ ToDo...">
 <!ENTITY event.new.todo.key                     "T">
 <!ENTITY event.new.todo.accesskey               "T">
 
