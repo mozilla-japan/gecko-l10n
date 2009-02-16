@@ -66,8 +66,8 @@
 <!ENTITY calendar.multiweekView.key            "3" >
 <!ENTITY calendar.monthView.key                "4" >
 
-<!ENTITY calendar.newtask.button.tooltip          "@@New-CMD@@タスクを作成します" >
-<!ENTITY calendar.newevent.button.tooltip         "@@New-CMD@@イベントを作成します" >
+<!ENTITY calendar.newtask.button.tooltip          "@@New-CMD@@ ToDo を作成します" >
+<!ENTITY calendar.newevent.button.tooltip         "@@New-CMD@@予定を作成します" >
 <!ENTITY calendar.delete.button.tooltip           "選択した予定を削除します" >
 <!ENTITY calendar.edit.button.tooltip             "選択した予定を編集します" >
 
@@ -122,8 +122,8 @@
 <!ENTITY calendar.nextmonth.button.tooltip      "次の月" >
 <!ENTITY calendar.prevmonth.button.tooltip      "前の月" >
 
-<!ENTITY calendar.newtask.button.label          "@@New-CMD@@タスク" >
-<!ENTITY calendar.newevent.button.label         "@@New-CMD@@イベント" >
+<!ENTITY calendar.newtask.button.label          "@@New-CMD@@ ToDo" >
+<!ENTITY calendar.newevent.button.label         "@@New-CMD@@予定" >
 <!ENTITY calendar.delete.button.label           "削除" >
 <!ENTITY calendar.edit.button.label             "編集" >
 
@@ -230,9 +230,9 @@
 <!ENTITY calendar.context.modifyorviewitem.accesskey  "O">
 <!ENTITY calendar.context.modifyorviewtask.label      "ToDo を開く...">
 <!ENTITY calendar.context.modifyorviewtask.accesskey  "O">
-<!ENTITY calendar.context.newevent.label              "@@New-CMD@@イベント...">
+<!ENTITY calendar.context.newevent.label              "@@New-CMD@@予定...">
 <!ENTITY calendar.context.newevent.accesskey          "N">
-<!ENTITY calendar.context.newtodo.label               "@@New-CMD@@タスク...">
+<!ENTITY calendar.context.newtodo.label               "@@New-CMD@@ ToDo...">
 <!ENTITY calendar.context.newtodo.accesskey           "k">
 <!ENTITY calendar.context.modifytask.label            "ToDo を編集...">
 <!ENTITY calendar.context.modifytask.accesskey        "E">
