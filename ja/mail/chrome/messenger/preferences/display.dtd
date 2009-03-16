@@ -39,7 +39,7 @@
 <!ENTITY editTagButton.label		"編集">
 <!ENTITY editTagButton.accesskey	"E">
 <!ENTITY removeTagButton.label		"削除">
-<!ENTITY removeTagButton.accesskey	"l">
+<!ENTITY removeTagButton.accesskey	"D">
 
 <!-- Fonts -->
 <!ENTITY fontAndEncodingsDescription.label	"&brandShortName; で使用するフォントと@@CharacterEncoding@@を指定します。">

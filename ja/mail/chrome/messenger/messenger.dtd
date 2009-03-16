@@ -45,8 +45,6 @@
 <!ENTITY compactFolders.accesskey	"F">
 <!ENTITY emptyTrashCmd.label		"@@TrashFolder@@を空にする">
 <!ENTITY emptyTrashCmd.accesskey	"y">
-<!ENTITY importCmd.label		"設定とデータ@@-ImportCMD@@...">
-<!ENTITY importCmd.accesskey		"I">
 <!ENTITY offlineMenu.label		"オフライン">
 <!ENTITY offlineMenu.accesskey		"l">
 <!ENTITY offlineGoOfflineCmd.label	"オフライン作業">
@@ -94,14 +92,11 @@
 <!ENTITY selectFlaggedCmd.label		"スター付きメッセージ">
 <!ENTITY selectFlaggedCmd.accesskey	"S">
 <!ENTITY menuFavoriteFolder.label	"お気に入り">
-<!ENTITY menuFavoriteFolder.accesskey	"a">
+<!ENTITY menuFavoriteFolder.accesskey	"v">
 <!ENTITY folderPropsCmd.label		"@@PropertyCMD@@...">
 <!ENTITY folderPropsFolderCmd.label	"フォルダの@@PropertyCMD@@...">
 <!ENTITY folderPropsNewsgroupCmd.label	"ニュースグループの@@PropertyCMD@@...">
 <!ENTITY folderPropsCmd.accesskey	"o">
-<!ENTITY accountManagerCmd.label	"アカウント設定...">
-<!ENTITY accountManagerCmd.accesskey	"c">
-<!ENTITY accountManagerCmdUnix.accesskey "A">
 <!ENTITY undoDeleteMsgCmd.label		"@@Undo@@ - メッセージの削除">
 <!ENTITY redoDeleteMsgCmd.label		"@@Redo@@ - メッセージの削除">
 <!ENTITY undoMoveMsgCmd.label		"@@Undo@@ - メッセージの移動">
@@ -407,28 +402,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label		"ツール">
 <!ENTITY tasksMenu.accesskey		"T">
-<!ENTITY addons.label			"アドオン">
-<!ENTITY addons.accesskey		"d">
-<!ENTITY activitymanager.label		"イベントログの管理"><!-- (^^; en-US: Activity Manager -->
-<!ENTITY activitymanager.accesskey	"a">
 <!ENTITY messengerCmd.label		"メールとニュースグループ">
-<!ENTITY messengerCmd.accesskey		"m">
+<!ENTITY messengerCmd.accesskey		"N">
 <!ENTITY addressBookCmd.label		"アドレス帳">
-<!ENTITY addressBookCmd.accesskey	"a">
-<!ENTITY runJunkControls.label		"迷惑メールフィルタを実行"><!-- (^^; "フォルダに" 削除 -->
-<!ENTITY runJunkControls.accesskey	"u">
-<!ENTITY deleteJunk.label		"迷惑メールとマークされたメールを削除">
-<!ENTITY deleteJunk.accesskey		"l">
-<!ENTITY errorConsoleCmd.label		"エラーコンソール">
-<!ENTITY errorConsoleCmd.accesskey	"n">
+<!ENTITY addressBookCmd.accesskey	"B">
+<!ENTITY addressBookCmd.key		"B">
+<!ENTITY addons.label			"アドオン">
+<!ENTITY addons.accesskey		"A">
+<!ENTITY activitymanager.label		"イベントログの管理"><!-- (^^; en-US: Activity Manager -->
+<!ENTITY activitymanager.accesskey	"v">
 <!ENTITY filtersCmd.label		"メッセージフィルタ...">
 <!ENTITY filtersCmd.accesskey		"F">
 <!ENTITY filtersApply.label		"フォルダにフィルタを適用">
 <!ENTITY filtersApply.accesskey		"R">
 <!ENTITY filtersApplyToSelection.label	"選択しているメッセージにフィルタを適用">
-<!ENTITY filtersApplyToSelection.accesskey	"S">
+<!ENTITY filtersApplyToSelection.accesskey	"u">
 <!ENTITY filtersApplyToMessage.label	"メッセージにフィルタを適用">
-<!ENTITY filtersApplyToMessage.accesskey	"s">
+<!ENTITY filtersApplyToMessage.accesskey	"u">
+<!ENTITY runJunkControls.label		"迷惑メールフィルタを実行"><!-- (^^; "フォルダに" 削除 -->
+<!ENTITY runJunkControls.accesskey	"C">
+<!ENTITY deleteJunk.label		"迷惑メールとマークされたメールを削除">
+<!ENTITY deleteJunk.accesskey		"D">
+<!ENTITY importCmd.label		"設定とデータ@@-ImportCMD@@...">
+<!ENTITY importCmd.accesskey		"m">
+<!ENTITY errorConsoleCmd.label		"エラーコンソール">
+<!ENTITY errorConsoleCmd.accesskey	"E">
+<!ENTITY accountManagerCmd.label	"アカウント設定...">
+<!ENTITY accountManagerCmd.accesskey	"S">
+<!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey): belongs to accountManagerCmd.label,
+        which is placed under the Edit menu on Unix systems -->
+<!ENTITY accountManagerCmdUnix.accesskey	"A">
 
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton.label		"受信">

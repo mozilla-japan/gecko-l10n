@@ -9,5 +9,5 @@
 <!ENTITY paneDisplay.title	"表示">
 <!ENTITY paneComposition.title	"編集">
 <!ENTITY paneAttachments.title	"添付ファイル">
-<!ENTITY panePrivacy.title	"プライバシー">
+<!ENTITY paneSecurity.title	"セキュリティ">
 <!ENTITY paneAdvanced.title	"詳細">

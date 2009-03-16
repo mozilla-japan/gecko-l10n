@@ -1,4 +1,4 @@
-<!ENTITY newsblogTitle.label		"フィードアカウントの設定">
+<!ENTITY newsblogTitle.label		"アカウント設定">
 
 <!ENTITY biffStart.label		"新着記事を">
 <!ENTITY biffStart.accesskey		"k">
@@ -13,8 +13,8 @@
 <!ENTITY manageSubscriptions.label	"フィード購読の管理..."> 
 <!ENTITY manageSubscriptions.accesskey	"M">
 
-<!-- entities from defaults/isp/rss.rdf -->
-<!ENTITY rss.accountName		"ニュースとブログ">
-<!ENTITY rss.wizardShortName		"フィード">
-<!ENTITY rss.wizardLongName		"ニュースとブログ (フィード)">
-<!ENTITY rss.wizardLongName.accesskey	"R">
+<!-- entities from rss.rdf -->
+<!ENTITY feeds.accountName		"ブログとニュース">
+<!ENTITY feeds.wizardShortName		"フィード">
+<!ENTITY feeds.wizardLongName		"ブログとニュース (フィード)">
+<!ENTITY feeds.wizardLongName.accesskey	"F">

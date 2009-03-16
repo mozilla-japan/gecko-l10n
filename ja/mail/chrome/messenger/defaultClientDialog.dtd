@@ -3,7 +3,7 @@
 
 <!ENTITY email.label			"メール">
 <!ENTITY newsgroups.label		"ニュース">
-<!ENTITY rss.label			"フィード">
+<!ENTITY feeds.label			"フィード">
 
 <!ENTITY checkOnStartup.label		"起動時に &brandShortName; が@@DefaultClient@@として設定されているか確認する">
 <!ENTITY checkOnStartup.accesskey	"A">
