@@ -41,5 +41,5 @@
 # ***** END LICENSE BLOCK *****
 -->
 
-<!ENTITY  settingsChangePreferences.label  "&brandShortName; の設定画面にある@@Application@@タブでこの設定を変更できます。">
-<!ENTITY  settingsChangeOptions.label      "&brandShortName; のオプション画面にある@@Application@@タブでこの設定を変更できます。">
+<!ENTITY  settingsChangePreferences.label  "この設定は &brandShortName; の@@settingsChange.preferences@@の @@[@@@@Application@@@@]@@ パネルから変更できます。">
+<!ENTITY  settingsChangeOptions.label      "この設定は &brandShortName; のオプションの @@[@@@@Application@@@@]@@ パネルから変更できます。">
