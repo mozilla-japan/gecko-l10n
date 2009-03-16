@@ -41,5 +41,5 @@
 # ***** END LICENSE BLOCK *****
 -->
 
-<!ENTITY  settingsChangePreferences.label	"設定画面で設定変更できます。">
-<!ENTITY  settingsChangeOptions.label		"オプション画面で設定変更できます。">
+<!ENTITY  settingsChangePreferences.label       "この設定は@@settingsChange.preferences@@画面で変更できます。">
+<!ENTITY  settingsChangeOptions.label		"この設定はオプション画面で変更できます。">

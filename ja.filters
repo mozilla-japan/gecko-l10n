@@ -328,4 +328,7 @@ ja.downloads.monthDate			= #1#2日
 ja-JP-mac.downloads.monthDate		= #1 #2
 
 
-
+# toolkit/chrome/mozapps/downloads/settingsChange.dtd
+# @@settingsChange.preferences@@ は Linux/Mac でのみ使用する
+ja.settingsChange.preferences		= 設定
+ja-JP-mac.settingsChange.preferences	= 環境設定
