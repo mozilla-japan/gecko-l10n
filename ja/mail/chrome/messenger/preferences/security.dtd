@@ -10,27 +10,27 @@
 <!ENTITY manualMarkModeMove.label		"@@[@@迷惑メール@@]@@ フォルダへ移動する">
 <!ENTITY manualMarkModeMove.accesskey		"o">
 <!ENTITY manualMarkModeDelete.label		"メッセージを削除する">
-<!ENTITY manualMarkModeDelete.accesskey		"t">
+<!ENTITY manualMarkModeDelete.accesskey		"D">
 <!ENTITY markAsReadOnSpam.label			"迷惑メールと判断したメッセージを既読にする">
-<!ENTITY markAsReadOnSpam.accesskey		"k">
+<!ENTITY markAsReadOnSpam.accesskey		"M">
 <!ENTITY enableJunkLogging.label		"迷惑メールログを有効にする">
-<!ENTITY enableJunkLogging.accesskey		"g">
+<!ENTITY enableJunkLogging.accesskey		"E">
 <!ENTITY openJunkLog.label			"ログを表示">
-<!ENTITY openJunkLog.accesskey			"h">
+<!ENTITY openJunkLog.accesskey			"S">
 <!ENTITY resetTrainingData.label		"判別基準データのリセット">
-<!ENTITY resetTrainingData.accesskey		"D">
+<!ENTITY resetTrainingData.accesskey		"R">
 
 <!-- Phishing Detector -->
 <!ENTITY phishingDetector1.intro		"フィッシング詐欺メールでよく使われる偽装手法が含まれているメッセージを検出できます。">
 <!ENTITY enablePhishingDetector1.label		"表示中のメッセージに詐欺メールの疑いがあるときに知らせる">
-<!ENTITY enablePhishingDetector1.accesskey	"e">
+<!ENTITY enablePhishingDetector1.accesskey	"T">
 <!ENTITY useDownloadedList.label		"偽装の疑いがあるサイトの一覧をダウンロードして詐欺メールの判別に使用する"><!-- en-US: Use a downloaded list of suspected email scams -->
 <!ENTITY useDownloadedList.accesskey		"U">
 
 <!-- Passwords -->
 <!ENTITY savedPasswords.intro			"&brandShortName; で利用するすべてのアカウントのパスワードを保存できます。">
 <!ENTITY useMasterPassword.label		"マスターパスワードを使用する">
-<!ENTITY useMasterPassword.accesskey		"m">
+<!ENTITY useMasterPassword.accesskey		"U">
 <!ENTITY masterPassword.intro			"マスターパスワードはすべてのパスワードを保護します。ただし、セッションごとに入力を求められます。">
 <!ENTITY changeMasterPassword.label		"マスターパスワードを変更...">
 <!ENTITY changeMasterPassword.accesskey		"C">
@@ -40,4 +40,4 @@
 <!-- Anti Virus -->
 <!ENTITY antiVirus.intro			"ウィルス対策ソフトがウィルスを検出したとき、感染したメッセージだけを処理できるようにします。"><!-- en-US: &brandShortName; can make it easy for anti-virus software to analyze incoming mail messages for viruses before they are stored locally. 直訳: 受信メッセージを保存する前に、それをウィルス対策ソフトで分析しやすくなるようにできます。 -->
 <!ENTITY antiVirus.label			"受信したメッセージは一度個別の一時ファイルとして保存してからメールボックスに移動させる"><!-- en-US: Allow anti-virus clients to quarantine individual incoming messages 直訳: ウィルス対策ソフトが個別の受信メッセージを隔離できるようにする -->
-<!ENTITY antiVirus.accesskey			"l">
+<!ENTITY antiVirus.accesskey			"A">

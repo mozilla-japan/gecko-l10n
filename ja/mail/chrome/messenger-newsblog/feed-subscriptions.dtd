@@ -1,6 +1,6 @@
 <!-- Subscription Dialog -->
-<!ENTITY newsBlogSubscriptions.label	"フィードの購読">
-<!ENTITY subscriptionDesc.label		"注意: フィードのフォルダを削除または変更しても、すでにダウンロードした記事はそのまま残ります。">
+<!ENTITY feedSubscriptions.label	"フィードの購読">
+<!ENTITY subscriptionDesc.label		"注意: フィードのフォルダを削除または変更しても、ダウンロードした記事はそのまま残ります。">
 <!ENTITY feedTitle.label		"タイトル:">
 <!ENTITY location.label			"URL:">
 

@@ -163,7 +163,7 @@
 <!ENTITY messengerCmd.commandkey	"1">
 <!ENTITY addressBookCmd.label		"アドレス帳">
 <!ENTITY addressBookCmd.accesskey	"a">
-<!ENTITY addressBookCmd.commandkey	"2">
+<!ENTITY addressBookCmd.key		"B">
 <!ENTITY accountManagerCmd.label	"アカウント設定...">
 <!ENTITY accountManagerCmd.accesskey	"c">
 <!ENTITY accountManagerCmdUnix.accesskey "S">
