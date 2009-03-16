@@ -14,7 +14,7 @@
 <!ENTITY manageSubscriptions.accesskey	"M">
 
 <!-- entities from rss.rdf -->
-<!ENTITY feeds.accountName		"ブログとニュース">
+<!ENTITY feeds.accountName		"ブログとニュース"><!-- en-US: Blogs &amp; News Feeds -->
 <!ENTITY feeds.wizardShortName		"フィード">
 <!ENTITY feeds.wizardLongName		"ブログとニュース (フィード)">
 <!ENTITY feeds.wizardLongName.accesskey	"F">
