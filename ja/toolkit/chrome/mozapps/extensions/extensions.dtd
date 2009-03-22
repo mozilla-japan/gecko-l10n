@@ -35,9 +35,9 @@
 <!ENTITY cmd.skip.label				"スキップ">
 <!ENTITY cmd.skip.accesskey			"k">
 <!ENTITY cmd.skip.tooltip			"更新をインストールせずに起動します">
-<!ENTITY cmd.continue.label			"更新を完了">
+<!ENTITY cmd.continue.label			"続行">
 <!ENTITY cmd.continue.accesskey			"C">
-<!ENTITY cmd.continue.tooltip			"更新を完了して &brandShortName; を起動します">
+<!ENTITY cmd.continue.tooltip			"&brandShortName; を起動します">
 
 <!ENTITY cmd.enableAll.label			"すべて有効">
 <!ENTITY cmd.enableAll.accesskey		"a">
@@ -80,7 +80,7 @@
 <!ENTITY cmd.showUpdateInfo.label		"情報を表示">
 <!ENTITY cmd.showUpdateInfo.accesskey		"S">
 <!ENTITY cmd.showUpdateInfo.tooltip		"更新についての詳細情報を表示します">
-<!ENTITY cmd.hideUpdateInfo.label		"情報を非表示">
+<!ENTITY cmd.hideUpdateInfo.label		"情報を隠す">
 <!ENTITY cmd.hideUpdateInfo.accesskey		"H">
 <!ENTITY cmd.hideUpdateInfo.tooltip		"更新についての詳細情報を表示しません">
 <!ENTITY cmd.installSearchResult.label		"&brandShortName; に追加">

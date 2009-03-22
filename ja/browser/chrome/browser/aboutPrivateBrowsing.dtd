@@ -4,7 +4,7 @@
 <!ENTITY privatebrowsingpage.issueDesc		"&brandShortName; はこのセッション中にはブラウズ履歴を一切保存しません。">
 <!ENTITY privatebrowsingpage.issueDesc.normal	"&brandShortName; は現在プライベートブラウジングモードではありません。">
 
-<!ENTITY privatebrowsingpage.description	"プライベートブラウジング中に &brandShortName; はブラウズ履歴、検索履歴、ダウンロード履歴、Web フォーム履歴、Cookie、一時ファイルは一切保存しませんが、ダウンロードしたファイルと作成したブックマークは保存されます。">
+<!ENTITY privatebrowsingpage.description	"プライベートブラウジング中に &brandShortName; はブラウズ履歴、検索履歴、ダウンロード履歴、Web フォーム履歴、Cookie、ディスクキャッシュは一切保存しませんが、ダウンロードしたファイルと作成したブックマークは保存されます。">
 
 <!-- LOCALIZATION NOTE (privatebrowsingpage.clearRecentHistoryBefore): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (privatebrowsingpage.clearRecentHistoryAfter): include a starting space as needed -->
