@@ -37,6 +37,14 @@
 <!ENTITY editBookmarkTags.label    "タグ:">
 <!ENTITY bookmarkRemove.label      "ブックマークを削除">
 <!ENTITY editBookmarkDone.label    "完了">
+<!ENTITY bookmarksHeader.label     "ブックマーク">
+<!ENTITY bookmarksManage.label     "管理">
+<!ENTITY foldersHeader.label       "フォルダ">
+
+<!ENTITY editBookmarkEdit.label    "編集">
+<!ENTITY editBookmarkMove.label    "移動">
+<!ENTITY editBookmarkDone.label    "完了">
+<!ENTITY editBookmarkTags.label    "ここにタグを入力してください">
 
 <!ENTITY findOnCmd.label     "ページ内を検索...">
 <!ENTITY findOnCmd.accesskey "F">

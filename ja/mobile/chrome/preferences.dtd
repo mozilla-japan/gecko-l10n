@@ -1,11 +1,13 @@
 <!-- (^^; 現状半分冗談 -->
 <!ENTITY content.title                             "ページ内容">
-<!ENTITY permissions.default.image.title           "画像を表示">
+<!ENTITY permissions.default.image.title           "画像を自動的に読み込む">
 <!ENTITY permissions.default.image.description     "ページの見栄えがよくなります"><!-- Makes websites pretty -->
 <!ENTITY javascript.enabled.title                  "Javascript を有効にする">
 <!ENTITY javascript.enabled.description            "ページに動きが加わります"><!-- Makes websites flashy -->
 <!ENTITY plugins.enabled.title                     "プラグインを有効にする">
 <!ENTITY plugins.enabled.description               "ページが鬱陶しくなります"><!-- Makes websites annoying -->
+<!ENTITY javascript.options.jit.content.title      "JavaScript で Tracing を有効にする">
+<!ENTITY javascript.options.jit.content.description "JavaScript の実行時にネイティブコードへのコンパイルを行います">
 <!ENTITY privacy.title                             "プライバシーとセキュリティ">
 <!ENTITY network.cookie.cookieBehavior.title       "Cookies を保存">
 <!ENTITY network.cookie.cookieBehavior.description "おいしいおやつ"><!-- Delicious delicacies -->
