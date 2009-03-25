@@ -7,7 +7,7 @@
 <!ENTITY plugins.enabled.title                     "プラグインを有効にする">
 <!ENTITY plugins.enabled.description               "ページが鬱陶しくなります"><!-- Makes websites annoying -->
 <!ENTITY javascript.options.jit.content.title      "JavaScript で Tracing を有効にする">
-<!ENTITY javascript.options.jit.content.description "JavaScript の実行時にネイティブコードへのコンパイルを行います">
+<!ENTITY javascript.options.jit.content.description "JavaScript をネイティブコードに変換して高速実行します">
 <!ENTITY privacy.title                             "プライバシーとセキュリティ">
 <!ENTITY network.cookie.cookieBehavior.title       "Cookies を保存">
 <!ENTITY network.cookie.cookieBehavior.description "おいしいおやつ"><!-- Delicious delicacies -->
