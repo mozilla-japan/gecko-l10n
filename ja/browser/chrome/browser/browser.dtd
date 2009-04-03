@@ -103,6 +103,10 @@
 <!ENTITY bookmarksButton.tooltip	"ブックマークをサイドバーに表示します">
 <!ENTITY bookmarksSidebarCmd.accesskey	"B">
 <!ENTITY bookmarksSidebarCmd.commandkey	"b">
+<!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
+  -  key should not contain the letters A-F, since these are reserved
+  -  shortcut keys on Linux. -->
+<!ENTITY bookmarksSidebarGtkCmd.commandkey	"o">
 <!ENTITY bookmarksSidebarWinCmd.commandkey	"i">
 
 <!ENTITY historyButton.label		"履歴">
@@ -169,9 +173,9 @@
 
 <!-- LOCALIZATION NOTE : These two strings can share an access key beause they never appear together on the menu -->
 <!ENTITY privateBrowsingCmd.start.label		"プライベートブラウジングを開始">
-<!ENTITY privateBrowsingCmd.start.accesskey	"B">
+<!ENTITY privateBrowsingCmd.start.accesskey	"P">
 <!ENTITY privateBrowsingCmd.stop.label		"プライベートブラウジングを終了">
-<!ENTITY privateBrowsingCmd.stop.accesskey	"B">
+<!ENTITY privateBrowsingCmd.stop.accesskey	"P">
 <!ENTITY privateBrowsingCmd.commandkey		"P">
 
 <!ENTITY viewMenu.label			"表示">
@@ -186,6 +190,8 @@
 <!ENTITY historyMenu.label		"履歴">
 <!ENTITY historyMenu.accesskey		"s">
 <!ENTITY historyUndoMenu.label		"最近閉じたタブ">
+<!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
+<!ENTITY historyUndoWindowMenu.label	"最近閉じた@@Window@@">
 
 <!ENTITY historyHomeCmd.label		"ホーム">
 <!ENTITY showAllHistoryCmd2.label	"すべての履歴を表示"><!-- (^^; -->
@@ -193,6 +199,10 @@
 
 <!ENTITY openCmd.commandkey		"l">
 <!ENTITY urlbar.emptyText		"ブックマークと履歴を検索">
+<!ENTITY urlbar.bookmarkhistory.emptyText "ブックマークと履歴を検索">
+<!ENTITY urlbar.bookmark.emptyText	"ブックマークを検索">
+<!ENTITY urlbar.history.emptyText	"履歴を検索">
+<!ENTITY urlbar.none.emptyText		"ページの URL を入力">
 <!ENTITY urlbar.accesskey		"d">
 
 <!-- 
@@ -351,6 +361,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.label			"ズーム">
 <!ENTITY fullZoom.accesskey		"Z">
 
+<!ENTITY newTabButton.tooltip		"@@NewTab@@を開きます">
 <!ENTITY newWindowButton.tooltip	"@@NewWindow@@を開きます">
 <!ENTITY sidebarCloseButton.tooltip	"サイドバーを閉じます">
 

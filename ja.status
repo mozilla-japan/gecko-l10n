@@ -37,6 +37,8 @@ toolkit
 ディレクトリ単位ですっきり同期していない場合その旨コメントを書いてください
 同期対象を mozilla-central と mozilla-X.X.x で切り替えする時はどこからか明記する
 同様に comm-central と comm-X.X.x との切り替え時にも区別できるように記録する
+リビジョン番号は hg.mozilla.org のリポジトリにおける番号を確認して記録するのが望ましい
+面倒なら取りあえず changesetid が正確でありさえすれば確認できるので問題はない
 
 target dir              mozilla and comm hg changeset rev:id    by              comment
 ----------------------------------------------------------------------------------------------------
@@ -54,3 +56,4 @@ all Tb(mail)            23138:e171fe293271  1856:709d6c67890b   mar
 mail                    23192:273d40213afb  1869:0340ed233627   mar
 mail                    23242:32c6710ef316  1922:829c02e26bd9   mar             Tb3b2 string freeze?
 mail                    23780:6b7dfd9a9c4b  2221:4a8ddefbf08e   mar
+all Fx                  24214:b467060a5be9  2333:a8efffb40b43   dynamis         sync with Fx3.5b4
