@@ -9,6 +9,8 @@
 <!ENTITY  reloadAllTabs.accesskey	"A">
 <!ENTITY  reloadTab.label		"タブを再読み込み">
 <!ENTITY  reloadTab.accesskey		"r">
+<!ENTITY  openTabInNewWindow.label	"@@NewWindow@@で開く">
+<!ENTITY  openTabInNewWindow.accesskey	"W">
 <!ENTITY  listAllTabs.label		"タブを一覧表示します">
 <!ENTITY  bookmarkAllTabs.label		"すべてのタブをブックマーク...">
 <!ENTITY  bookmarkAllTabs.accesskey	"T">

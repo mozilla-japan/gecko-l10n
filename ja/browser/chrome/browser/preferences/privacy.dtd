@@ -1,5 +1,7 @@
 <!ENTITY  history.label			"履歴">
 
+<!ENTITY  locationBar.label		"ロケーションバー">
+
 <!ENTITY  locbar.pre.label		"ロケーションバーには次の中から候補を表示する:">
 <!ENTITY  locbar.pre.accessKey		"l">
 <!ENTITY  locbar.post.label		"">
@@ -45,7 +47,6 @@
 <!ENTITY  showCookies.label		"Cookie を表示...">
 <!ENTITY  showCookies.accesskey		"S">
 
-
 <!ENTITY  privateData.label		"プライバシー情報">
 
 <!ENTITY  alwaysClear.label		"&brandShortName; の終了時にプライバシー情報を消去する">
@@ -54,5 +55,56 @@
 <!ENTITY  clearDataSettings.label	"設定...">
 <!ENTITY  clearDataSettings.accesskey	"t">
 
-<!ENTITY  clearDataNow.label		"今すぐ消去...">
-<!ENTITY  clearDataNow.accesskey	"N">
+<!ENTITY  historyHeader.pre.label		"&brandShortName; に">
+<!ENTITY  historyHeader.pre.accesskey		"F">
+<!ENTITY  historyHeader.remember.label		"履歴を記憶させる">
+<!ENTITY  historyHeader.dontremember.label	"履歴を一切記憶させない">
+<!ENTITY  historyHeader.custom.label		"記憶させる履歴を詳細設定する">
+<!ENTITY  historyHeader.post.label		"">
+
+<!ENTITY  rememberDescription.label		"&brandShortName; には表示したサイトのブラウズ履歴、検索履歴、ダウンロード履歴、Web フォーム履歴や Cookie が保存されます。">
+
+<!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
+<!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
+<!-- LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed -->
+<!ENTITY  rememberActions.pre.label		"">
+<!ENTITY  rememberActions.clearHistory.label	"最近の履歴を消去">
+<!ENTITY  rememberActions.middle.label		" あるいは ">
+<!ENTITY  rememberActions.removeCookies.label	"Cookie を個別に削除">
+<!ENTITY  rememberActions.post.label		" できます。">
+
+<!ENTITY  dontrememberDescription.label		"プライベートブラウジング中と同様に &brandShortName; はブラウズ履歴などのプライバシーデータを一切保存しません。">
+
+<!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
+<!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
+<!ENTITY  dontrememberActions.pre.label			"">
+<!ENTITY  dontrememberActions.clearHistory.label	"現在の履歴をすべて消去">
+<!ENTITY  dontrememberActions.post.label		" できます。">
+
+<!ENTITY  privateBrowsingAutoStart.label		"自動的にプライベートブラウジングモードで &brandShortName; を起動する">
+<!ENTITY  privateBrowsingAutoStart.accesskey		"A">
+
+<!-- LOCALIZATION NOTE:
+  The entities rememberHistory.pre.label and rememberHistory.post.label appear on a single
+  line in preferences as follows:
+
+  &rememberHistory.pre.label  [ textbox for number of days ]  &rememberHistory.post.label;
+-->
+<!ENTITY  rememberHistory.pre.label		"表示したページの履歴を少なくとも">
+<!ENTITY  rememberHistory.pre.accesskey		"h">
+<!ENTITY  rememberHistory.post.label		"日分は残す">
+
+<!ENTITY  rememberDownload.label		"ダウンロード履歴を記憶させる">
+<!ENTITY  rememberDownload.accesskey		"d">
+
+<!ENTITY  rememberSearchForm.label		"検索履歴とフォーム履歴を記憶させる">
+<!ENTITY  rememberSearchForm.accesskey		"f">
+
+<!ENTITY  clearOnClose.label			"&brandShortName; の終了時に履歴を消去する">
+<!ENTITY  clearOnClose.accesskey		"w">
+
+<!ENTITY  clearOnCloseSettings.label		"設定...">
+<!ENTITY  clearOnCloseSettings.accesskey	"t">
+
+<!ENTITY  clearDataNow.label			"今すぐ消去...">
+<!ENTITY  clearDataNow.accesskey		"N">
