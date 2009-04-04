@@ -53,9 +53,9 @@
 <!ENTITY command.newSeparator.accesskey "S">
 <!ENTITY menuitem.open.label           "ブックマークファイルを開く...">
 <!ENTITY menuitem.open.accesskey       "O">
-<!ENTITY menuitem.import.label         "@@Export@@...">
+<!ENTITY menuitem.import.label         "@@Import@@...">
 <!ENTITY menuitem.import.accesskey     "i">
-<!ENTITY menuitem.export.label         "@@Import@@...">
+<!ENTITY menuitem.export.label         "@@Export@@...">
 <!ENTITY menuitem.export.accesskey     "e">
 <!ENTITY menuitem.find.label           "ブックマークを検索...">
 <!ENTITY command.findBookmarks.label   "検索...">
