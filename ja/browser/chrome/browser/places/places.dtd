@@ -166,7 +166,7 @@
 <!ENTITY advancedSearch.time_inlast.label	"次の期間以内である">
 <!ENTITY advancedSearch.last_days.label		"日間">
 <!ENTITY advancedSearch.last_weeks.label	"週間">
-<!ENTITY advancedSearch.last_months.label	"か月">
+<!ENTITY advancedSearch.last_months.label	"カ月">
 <!ENTITY advancedSearch.plus.label		"＋">
 <!ENTITY advancedSearch.minus.label		"－">
 <!ENTITY advancedSearch.groupby.label		"グループ化: ">
