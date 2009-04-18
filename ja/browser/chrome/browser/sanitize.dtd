@@ -8,7 +8,7 @@
 
 <!-- LOCALIZATION NOTE (clearTimeDuration.*): "Time range to clear" dropdown.
      See UI mockup at bug 480169 -->
-<!ENTITY clearTimeDuration.label		"履歴を消去する期間: ">
+<!ENTITY clearTimeDuration.label		"履歴を消去する期間:">
 <!ENTITY clearTimeDuration.accesskey		"T">
 <!ENTITY clearTimeDuration.lastHour		"1 時間以内の履歴">
 <!ENTITY clearTimeDuration.last2Hours		"2 時間以内の履歴">
@@ -59,5 +59,5 @@ that require it.  -->
      mockup at bug 480169 -->
 <!ENTITY sanitizeEverythingUndoWarning		"この操作は取り消せません。">
 
-<!ENTITY dialog.width				"@@sanitize.dialog.width@@"><!-- en-US: 32em -->
+<!ENTITY dialog.width				"28em"><!-- en-US: 32em -->
 <!ENTITY column.width				"@@sanitize.column.width@@"><!-- en-US: 14em -->
