@@ -31,3 +31,7 @@
 <!ENTITY place.accesskey		"s">
 <!ENTITY belowText.label		"引用部の下 (推奨)">
 <!ENTITY aboveText.label		"返信部の下 (引用部の上)">
+<!ENTITY includeSigOnReply.label	"返信メッセージに相手の署名を含める">
+<!ENTITY includeSigOnReply.accesskey	"s">
+<!ENTITY includeSigOnForward.label	"転送メッセージに相手の署名を含める">
+<!ENTITY includeSigOnForward.accesskey	"w">

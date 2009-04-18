@@ -4,4 +4,3 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 
 mar:
 	ja/mail/chrome/messenger/msgmdn.properties の翻訳。
-	toolkit/installer/windows/charset.mk 未削除。

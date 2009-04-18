@@ -13,8 +13,12 @@
 <!ENTITY replyTo.accesskey		"s">
 <!ENTITY organization.label		"組織 (Organization):">
 <!ENTITY organization.accesskey		"O">
-<!ENTITY signature.label		"メッセージに次の署名を挿入する:">
-<!ENTITY signature.accesskey		"t">
+<!ENTITY signatureText.label		"署名編集:">
+<!ENTITY signatureText.accesskey	"x">
+<!ENTITY signatureHtml.label		"HTML タグを使用する (例: &lt;b&gt;太字&lt;/b&gt;)">
+<!ENTITY signatureHtml.accesskey	"L">
+<!ENTITY signatureFile.label		"ファイルから署名を挿入する (テキストまたは HTML、画像ファイル):">
+<!ENTITY signatureFile.accesskey	"t">
 <!ENTITY edit.label			"編集...">
 <!ENTITY choose.label			"@@Browse@@...">
 <!ENTITY choose.accesskey		"C">

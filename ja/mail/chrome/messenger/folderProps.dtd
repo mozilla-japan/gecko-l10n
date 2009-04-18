@@ -72,7 +72,7 @@
 <!ENTITY retentionApplyToFlagged.label		"スター付きのメッセージは残す">
 <!ENTITY retentionApplyToFlagged.accesskey	"e">
 
-<!ENTITY folderOfflineTab.label			"オフライン">
+<!ENTITY folderSynchronizationTab.label		"同期">
 <!ENTITY folderCheckForNewMessages.label	"このフォルダに新着メッセージがないか確認する">
 <!ENTITY folderCheckForNewMessages.accesskey	"C">
 

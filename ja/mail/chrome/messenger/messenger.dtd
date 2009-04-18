@@ -12,6 +12,8 @@
 <!ENTITY newVirtualFolderCmd.accesskey	"S">
 <!ENTITY newAccountCmd.label		"アカウント...">
 <!ENTITY newAccountCmd.accesskey	"A">
+<!ENTITY newMailAccountCmd.label	"メールアカウント (クイック設定)...">
+<!ENTITY newMailAccountCmd.accesskey	"Q">
 <!ENTITY openMessageFileCmd.label	"メッセージファイルを開く...">
 <!ENTITY openMessageFileCmd.accesskey	"O">
 <!ENTITY openAttachmentCmd.label	"添付">
