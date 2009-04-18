@@ -260,8 +260,6 @@ browser.credits.dtd			= <ul>\
 #					  </ul>
 
 # browser/chrome/browser/sanitize.dtd
-ja.sanitize.dialog.width	= 68ch
-ja-JP-mac.sanitize.dialog.width	= 32em
 ja.sanitize.column.width	= 30ch
 ja-JP-mac.sanitize.column.width	= 14em
 
