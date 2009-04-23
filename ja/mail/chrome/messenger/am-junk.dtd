@@ -13,8 +13,8 @@
 <!ENTITY purge1.accesskey	"u">
 <!ENTITY purge2.label		"日以上前のものは自動的に削除する">
 
-<!ENTITY whitelist.label	"送信者が以下に含まれる場合はメッセージが迷惑メールであるとマークしない: ">
+<!ENTITY whitelist.label	"送信者が以下に含まれる場合はメッセージが迷惑メールであるとマークしない:">
 <!ENTITY whitelist.accesskey	"D">
 
-<!ENTITY ispHeaders.label	"次の迷惑メールヘッダを信用する: ">
+<!ENTITY ispHeaders.label	"次の迷惑メールヘッダを信用する:">
 <!ENTITY ispHeaders.accesskey	"T">

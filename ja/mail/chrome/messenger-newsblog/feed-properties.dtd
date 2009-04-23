@@ -1,10 +1,10 @@
 <!-- Feed Properties Dialog -->
 <!ENTITY window.title		"フィードの@@Property@@">
 
-<!ENTITY feedFolder.label	"記事の保存先: ">
+<!ENTITY feedFolder.label	"記事の保存先:">
 <!ENTITY feedFolder.accesskey	"S">
 
-<!ENTITY feedLocation.label	"フィード URL: ">
+<!ENTITY feedLocation.label	"フィード URL:">
 <!ENTITY feedLocation.accesskey	"F">
 
 <!ENTITY choosethisfolder.label	"このフォルダを選択">

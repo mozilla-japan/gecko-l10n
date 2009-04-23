@@ -36,26 +36,26 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY newDirectoryTitle.label	"LDAP ディレクトリサーバの@@Property@@">
-<!ENTITY directoryName.label		"名前: ">
+<!ENTITY directoryName.label		"名前:">
 <!ENTITY directoryName.accesskey	"n">
-<!ENTITY directoryHostname.label	"ホスト名: ">
+<!ENTITY directoryHostname.label	"ホスト名:">
 <!ENTITY directoryHostname.accesskey	"o">
-<!ENTITY directoryBaseDN.label		"ベース識別名: ">
+<!ENTITY directoryBaseDN.label		"ベース識別名:">
 <!ENTITY directoryBaseDN.accesskey	"b">
 <!ENTITY findButton.label		"検索">
 <!ENTITY findButton.accesskey		"f">
 <!ENTITY directorySecure.label		"保護された接続 (SSL) を使う">
 <!ENTITY directorySecure.accesskey	"U">
-<!ENTITY directoryLogin.label		"バインド識別名: ">
+<!ENTITY directoryLogin.label		"バインド識別名:">
 <!ENTITY directoryLogin.accesskey	"i">
 <!ENTITY General.tab			"一般">
 <!ENTITY Offline.tab			"オフライン">
 <!ENTITY Advanced.tab			"詳細">
-<!ENTITY portNumber.label		"ポート番号: ">
+<!ENTITY portNumber.label		"ポート番号:">
 <!ENTITY portNumber.accesskey		"p">
-<!ENTITY searchFilter.label		"検索フィルタ: ">
+<!ENTITY searchFilter.label		"検索フィルタ:">
 <!ENTITY searchFilter.accesskey		"f">
-<!ENTITY scope.label			"スコープ: ">
+<!ENTITY scope.label			"スコープ:">
 <!ENTITY scope.accesskey		"c">
 <!ENTITY scopeOneLevel.label		"1 レベル">
 <!ENTITY scopeOneLevel.accesskey	"L">
@@ -65,7 +65,7 @@
 <!ENTITY return.accesskey		"r">
 <!ENTITY results.label			"件以上は表示しない">
 <!ENTITY offlineText.label		"オフラインでも利用できるようにディレクトリのコピーをローカルにダウンロードしておくことができます。">
-<!ENTITY saslMechanism.label		"認証方法: ">
+<!ENTITY saslMechanism.label		"認証方法:">
 <!ENTITY saslMechanism.accesskey	"m">
 <!ENTITY saslOff.label			"簡易">
 <!ENTITY saslOff.accesskey		"l">
