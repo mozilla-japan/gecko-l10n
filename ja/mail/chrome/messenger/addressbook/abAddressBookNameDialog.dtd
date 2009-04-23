@@ -36,5 +36,5 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!-- Labels -->
-<!ENTITY name.label	"アドレス帳の名前">
+<!ENTITY name.label	"アドレス帳の名前:">
 <!ENTITY name.accesskey	"A">
