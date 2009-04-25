@@ -30,7 +30,7 @@
 <!ENTITY rights.intro-point3-unbranded	"この製品に関する適切なプライバシーポリシーをここに記述すること。">
 
 <!-- point 4 text for official branded builds -->
-<!ENTITY rights.intro-point4a		"&brandShortName; は、アドオン更新サービスなど、任意のサービスも提供しています。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。サービスを無効化する方法を含め、詳しくは ">
+<!ENTITY rights.intro-point4a		"&brandShortName; は、アドオン更新サービスなどをオプションで提供しています。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。サービスを無効化する方法を含め、詳しくは ">
 <!ENTITY rights.intro-point4b		"サービス利用規約">
 <!ENTITY rights.intro-point4c		" をご確認ください。">
 
@@ -46,7 +46,7 @@
      the UI, without this page being forgotten every time those strings are
      updated.  -->
 <!-- intro paragraph for branded builds -->
-<!ENTITY rights.webservices-a		"&brandFullName; は、アドオン更新サービスなどの任意のサービス (以下「本サービス」と呼びます) を提供しており、これらは下記の通り &brandShortName; のバイナリ版とともに利用できます。本サービスをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、アプリケーション設定画面の @@[@@">
+<!ENTITY rights.webservices-a		"&brandFullName; は、アドオン更新サービスなどのサービス (以下「本サービス」と呼びます) をオプションで提供しており、これらは下記の通り &brandShortName; のバイナリ版とともに利用できます。本サービスをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、アプリケーション設定画面の @@[@@">
 <!ENTITY rights.webservices-b		"詳細">
 <!ENTITY rights.webservices-c		"@@]@@ セクションの @@[@@">
 <!ENTITY rights.webservices-d		"更新">
