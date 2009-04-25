@@ -18,13 +18,13 @@ file names and tall enough to hint that there are more activities in the list --
 <!ENTITY cmd.recover.accesskey		"v">
 <!ENTITY cmd.retry.label		"再試行">
 <!ENTITY cmd.retry.accesskey		"R">
-<!ENTITY cmd.removeFromList.label	"一覧から削除">
+<!ENTITY cmd.removeFromList.label	"リストから削除">
 <!ENTITY cmd.removeFromList.accesskey	"e">
 
 <!ENTITY cmd.close.commandkey		"w">
 <!ENTITY cmd.close2.commandkey		"j">
 <!ENTITY cmd.close2Unix.commandkey	"y">
-<!ENTITY cmd.clearList.label		"一覧を消去">
+<!ENTITY cmd.clearList.label		"ログを消去">
 <!ENTITY cmd.clearList.tooltip		"完了およびキャンセル、失敗した項目を一覧から削除します">
 <!ENTITY cmd.clearList.accesskey	"C">
 <!ENTITY cmd.find.commandkey		"f">
