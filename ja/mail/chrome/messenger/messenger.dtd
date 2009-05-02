@@ -5,7 +5,6 @@
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label		"フォルダ...">
 <!ENTITY newFolderCmd.accesskey		"F">
-<!ENTITY newFolderCmd.accesskey		"F">
 <!ENTITY closeTabCmd.label		"タブを閉じる">
 <!ENTITY closeTabCmd.accesskey		"e">
 <!ENTITY newVirtualFolderCmd.label	"検索フォルダ...">
@@ -201,6 +200,7 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey	"W">
 <!ENTITY ignoredThreadsCmd.label		"無視スレッド">
 <!ENTITY ignoredThreadsCmd.accesskey		"i">
+
 <!ENTITY headersMenu.label			"ヘッダ">
 <!ENTITY headersMenu.accesskey			"H">
 <!ENTITY headersAllCmd.label			"すべて">
@@ -215,6 +215,16 @@
 <!ENTITY bodySanitized.accesskey		"S">
 <!ENTITY bodyAsPlaintext.label			"プレーンテキスト">
 <!ENTITY bodyAsPlaintext.accesskey		"P">
+
+<!ENTITY bodyMenuFeed.label			"フィードの表示形式">
+<!ENTITY bodyMenuFeed.accesskey			"B">
+<!ENTITY viewFeedWebPage.label			"Web ページ">
+<!ENTITY viewFeedWebPage.accesskey		"W">
+<!ENTITY viewFeedSummary.label			"要約">
+<!ENTITY viewFeedSummary.accesskey		"m">
+<!ENTITY viewFeedSummaryFeedPropsPref.label	"@@Default-@@形式">
+<!ENTITY viewFeedSummaryFeedPropsPref.accesskey	"D">
+
 <!ENTITY viewAttachmentsInlineCmd.label		"添付をインラインで表示">
 <!ENTITY viewAttachmentsInlineCmd.accesskey	"A">
 
@@ -301,6 +311,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY prevStarredMsgCmd.accesskey	"S">
 <!ENTITY startPageCmd.label		"&brandShortName; スタートページ">
 <!ENTITY startPageCmd.accesskey		"S">
+
+<!-- Message Menu -->
 <!ENTITY msgMenu.label			"メッセージ">
 <!ENTITY msgMenu.accesskey		"M">
 <!ENTITY newMsgCmd.label		"@@New-CMD@@メッセージ">
@@ -398,6 +410,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY openMessageWindowCmd.label	"メッセージを開く">
 <!ENTITY openMessageWindowCmd.accesskey	"O">
 <!ENTITY openMessageWindowCmd.key	"o">
+<!ENTITY openFeedMessage.label		"フィードメッセージを開く">
+<!ENTITY openFeedMessage.accesskey	"O">
+<!ENTITY openFeedWebPageInWindow.label	"Web ページ形式で@@NewWindow@@に開く">
+<!ENTITY openFeedWebPageInWindow.accesskey	"W">
+<!ENTITY openFeedSummaryInWindow.label	"要約形式で@@NewWindow@@に開く">
+<!ENTITY openFeedSummaryInWindow.accesskey	"S">
+<!ENTITY openFeedWebPageInMP.label	"メッセージペインのフィードの表示形式を切り替える">
+<!ENTITY openFeedWebPageInMP.accesskey	"T">
 
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label		"@@Window@@">

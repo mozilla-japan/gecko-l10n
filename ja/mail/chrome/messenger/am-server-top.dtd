@@ -29,7 +29,7 @@
 <!ENTITY leaveOnServer.label		"ダウンロード後もサーバにメッセージを残す">
 <!ENTITY leaveOnServer.accesskey	"g">
 <!ENTITY headersOnly.label		"ヘッダのみ取得する">
-<!ENTITY headersOnly.accesskey		"f">
+<!ENTITY headersOnly.accesskey		"e">
 <!ENTITY deleteByAgeFromServer.label	"ダウンロードしてから"><!-- (^^; deleteByAgeFromServer.label ... daysEnd.label -->
 <!ENTITY deleteByAgeFromServer.accesskey "o">
 <!ENTITY daysEnd.label			"日以上経過したメッセージは削除する">

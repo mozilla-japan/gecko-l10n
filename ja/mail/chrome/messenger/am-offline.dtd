@@ -25,12 +25,12 @@
 <!ENTITY retentionKeepUnread.label		"既読のメッセージは常に削除する">
 <!ENTITY retentionKeepUnread.accesskey		"w">
 <!ENTITY retentionApplyToFlagged.label		"スター付きのメッセージは残す">
-<!ENTITY retentionApplyToFlagged.accesskey	"e">
+<!ENTITY retentionApplyToFlagged.accesskey	"k">
 <!ENTITY nntpRemoveBody.label			"送信日時から次の日数以内のメッセージ本文のみ残す"><!-- (^^; Only message bodies less than daysOld.label -->
 <!ENTITY nntpRemoveBody.accesskey		"O">
 <!ENTITY offlineSelectNntp.label		"オフラインで使用するニュースグループを選択してください...">
 <!ENTITY offlineSelectNntp.accesskey		"S">
 <!ENTITY offlineImapAdvancedOffline.label	"詳細...">
-<!ENTITY offlineImapAdvancedOffline.accesskey	"A">
+<!ENTITY offlineImapAdvancedOffline.accesskey	"v">
 <!ENTITY syncGroupTitle.label			"メッセージを同期しています">
 <!ENTITY diskspaceGroupTitle.label		"ディスク領域">
