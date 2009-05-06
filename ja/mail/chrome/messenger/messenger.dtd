@@ -136,7 +136,7 @@
 <!ENTITY unreadFolders.accesskey		"U">
 <!ENTITY favoriteFolders.label			"お気に入りフォルダ">
 <!ENTITY favoriteFolders.accesskey		"F">
-<!ENTITY recentFolders.label			"最近使ったフォルダ">
+<!ENTITY recentFolders.label			"最近使用したフォルダ">
 <!ENTITY recentFolders.accesskey		"R">
 
 <!-- Sort Menu -->
@@ -348,7 +348,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY createFilter.accesskey		"a">
 <!ENTITY moveMsgToMenu.label		"別のフォルダに移動"><!-- contextMoveMsgMenu.label と同じ動作 -->
 <!ENTITY moveMsgToMenu.accesskey	"M">
-<!ENTITY moveCopyMsgRecentMenu.label	"履歴">
+<!ENTITY moveCopyMsgRecentMenu.label	"使用履歴">
 <!ENTITY moveCopyMsgRecentMenu.accesskey	"R">
 <!ENTITY copyMessageLocation.label	"メッセージの場所をコピー">
 <!ENTITY copyMessageLocation.accesskey	"M">
@@ -660,7 +660,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contextForwardAsAttachment.accesskey	"o">
 <!ENTITY contextMoveMsgMenu.label		"メッセージを移動">
 <!ENTITY contextMoveMsgMenu.accesskey		"M">
-<!ENTITY contextMoveCopyMsgRecentMenu.label	"履歴">
+<!ENTITY contextMoveCopyMsgRecentMenu.label	"使用履歴">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey	"R">
 <!ENTITY contextCopyMsgMenu.label		"メッセージをコピー">
 <!ENTITY contextCopyMsgMenu.accesskey		"C">
