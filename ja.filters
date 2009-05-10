@@ -319,7 +319,32 @@ intl.css.common				= \
 					  max-height: 6.8em;\n\
 					}\n
 
-ja.intl.css.locale			= 
+ja.intl.css.locale			= \
+					/* make Account Settings's height 46em or lower */\n\
+					@-moz-document url(chrome://messenger/content/am-main.xul) {\n  \
+					  :root {\n    \
+					    line-height: 1.2;\n  \
+					  }\n  \
+					  separator.thin:not([orient="vertical"]) {\n    \
+					    max-height: 1px;\n  \
+					  }\n  \
+					  #identity\.htmlSigText {\n    \
+					    height: 5em;\n  \
+					  }\n\
+					}\n\
+					@-moz-document url(chrome://messenger/content/am-server.xul) {\n  \
+					  :root {\n    \
+					    line-height: 1.0;\n  \
+					  }\n  \
+					  separator.thin:not([orient="vertical"]) {\n    \
+					    max-height: 1px;\n  \
+					  }\n\
+					}\n\
+					@-moz-document url(chrome://messenger/content/am-copies.xul) {\n  \
+					  :root {\n    \
+					    line-height: 1.2;\n  \
+					  }\n\
+					}\n
 
 
 ja-JP-mac.intl.css.locale		= 
