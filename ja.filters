@@ -328,7 +328,7 @@ ja.intl.css.locale			= \
 					  separator.thin:not([orient="vertical"]) {\n    \
 					    max-height: 1px;\n  \
 					  }\n  \
-					  #identity\.htmlSigText {\n    \
+					  #identity\\.htmlSigText {\n    \
 					    height: 5em;\n  \
 					  }\n\
 					}\n\
