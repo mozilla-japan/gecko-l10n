@@ -58,7 +58,7 @@
      these variables. Also, translate haveSmtp1.prefix and haveSmtp1.suffix as a single sentence, inserting
      text after the "&quot;" entity in haveSmtp1.suffix, if required grammatically.
 -->
-<!ENTITY haveSmtp1.prefix		"他のアカウントで設定済のメール送信 (SMTP) サーバ &quot;">
+<!ENTITY haveSmtp1.prefix		"他のアカウントで設定済みのメール送信 (SMTP) サーバ &quot;">
 <!ENTITY haveSmtp1.suffix		"&quot; を使用します。メール送信サーバの設定は @@[@@ツール@@]@@ メニューの @@[@@アカウント設定@@]@@ で変更できます。">
 
 <!-- Entities for Login page -->

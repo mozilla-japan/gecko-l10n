@@ -99,7 +99,7 @@
 <!ENTITY borderEditField.accessKey	"B">
 
 <!-- These controls are in the Link Box -->
-<!ENTITY showImageLinkBorder.label	"リンク付の画像の周りに枠線を表示する">
+<!ENTITY showImageLinkBorder.label	"リンク付きの画像の周りに枠線を表示する">
 <!ENTITY showImageLinkBorder.accessKey	"B">
 
 <!-- These tabs are currently used in the image input dialog -->
