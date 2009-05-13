@@ -139,7 +139,7 @@ ja-JP-mac.Undo-simasu			= 取り消します
 ja-JP-mac.Zoom				= 拡大／縮小
 
 
-# 新規〜作成 (New~) コマンドではタブ、ウィンドウ以外は "@@New-CMD@@フォルダ" などとする
+# 新規-作成 (New~) コマンドではタブ、ウィンドウ以外は "@@New-CMD@@フォルダ" などとする
 ja.New-CMD				= 新しい
 ja.NewTab				= 新しいタブ
 ja.NewWindow				= 新しいウィンドウ
@@ -149,7 +149,7 @@ ja-JP-mac.NewTab			= 新規タブ
 ja-JP-mac.NewWindow			= 新規ウインドウ
 
 
-# 名前を付けて〜を保存 (Save~As) コマンドでは "@@Save-AsCMD@@画像を保存" などとする
+# 名前を付けて-を保存 (Save~As) コマンドでは "@@Save-AsCMD@@画像を保存" などとする
 ja.Save-AsCMD				= 名前を付けて
 ja.SaveAs				= 名前を付けて保存
 ja.SaveAudioAs				= 名前を付けてオーディオを保存
@@ -290,7 +290,7 @@ ja-JP-mac.activity.monthDate		= #1 #2
 
 
 # mail/chrome/messenger/AccountManager.dtd
-ja.AccountManager.accountManager.size		= width: 110ch; height: 46.6em;
+ja.AccountManager.accountManager.size		= width: 118ch; height: 46.6em;
 ja-JP-mac.AccountManager.accountManager.size	= width: 110ch; height: 50em;
 ja.AccountManager.accountTree.width		= width: 17em;
 ja-JP-mac.AccountManager.accountTree.width	= width: 19em;
