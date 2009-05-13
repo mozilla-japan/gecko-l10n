@@ -1,6 +1,6 @@
 <!ENTITY  prefWindow.titleWin		"オプション">
 <!ENTITY  prefWindow.titleGNOME		"&brandShortName; の設定">
-<!ENTITY  prefWin.styleWin3		"width: 49em; min-height: 40.5em;"><!-- width: 42em; min-height: 37.5em; -->
+<!ENTITY  prefWin.styleWin3		"width: 49em; min-height: 41em;"><!-- width: 42em; min-height: 37.5em; -->
 <!ENTITY  prefWin.styleMac2		"width: 51em; min-height: 40em;"><!-- en-US: width: 47em; min-height: 40em; -->
 <!ENTITY  prefWin.styleGNOME2		"width: 49em; min-height: 39.5em;"><!-- width: 42em; min-height: 39.5em; -->
 
