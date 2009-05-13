@@ -32,5 +32,5 @@
 <!ENTITY offlineSelectNntp.accesskey		"S">
 <!ENTITY offlineImapAdvancedOffline.label	"詳細...">
 <!ENTITY offlineImapAdvancedOffline.accesskey	"v">
-<!ENTITY syncGroupTitle.label			"メッセージを同期しています">
+<!ENTITY syncGroupTitle.label			"メッセージの同期">
 <!ENTITY diskspaceGroupTitle.label		"ディスク領域">
