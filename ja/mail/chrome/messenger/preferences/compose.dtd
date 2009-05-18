@@ -50,3 +50,8 @@
 <!ENTITY sendOptionsDescription.label		"送信するメッセージの形式を設定します。">
 <!ENTITY sendOptions.label			"送信テキスト形式..."><!-- (^^; Send Options... -->
 <!ENTITY sendOptions.accesskey			"S">
+
+<!ENTITY attachmentReminder.label		"ファイルの添付忘れがないか確認する">
+<!ENTITY attachmentReminder.accesskey		"m">
+<!ENTITY attachmentReminderOptions.label	"キーワード...">
+<!ENTITY attachmentReminderOptions.accesskey	"K">

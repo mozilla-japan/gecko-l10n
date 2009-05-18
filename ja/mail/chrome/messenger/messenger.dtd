@@ -674,11 +674,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Junk Bar -->
 <!ENTITY junkBarMessage1.label		"迷惑メール">
 <!ENTITY junkBarButton1.label		"非迷惑メール">
-<!ENTITY junkInfoButton.label		"?">
+<!ENTITY junkInfoButton.label		"？">
 
 <!-- Remote Content Bar -->
-<!ENTITY remoteContentMessage1.label	"プライバシー保護のため、リモート画像をブロックしました。">
-<!ENTITY loadRemoteContentButton2.label	"今すぐ画像を表示する">
+<!ENTITY remoteContentMessage2.label	"プライバシー保護のため、このメッセージ内のリモートコンテンツをブロックしました。">
+<!ENTITY loadRemoteContentButton3.label	"リモートコンテンツを表示する">
 
 <!-- Phishing Bar -->
 <!ENTITY phishingBarMessage2.label	"このメッセージは詐欺メールの可能性があります。">
