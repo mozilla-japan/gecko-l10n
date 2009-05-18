@@ -8,9 +8,11 @@
 
 <!ENTITY enableGlodaSearch.label		"グローバル検索と索引データベースを有効にする"><!-- (^^; Enable Global Search and Indexer -->
 <!ENTITY enableGlodaSearch.accesskey		"E">
-<!ENTITY systemDefaults.label			"@@DefaultClient@@">
+<!ENTITY systemIntegration.label		"システム統合">
 <!ENTITY alwaysCheckDefault.label		"起動時に &brandShortName; が@@DefaultClient@@として設定されているか確認する">
 <!ENTITY alwaysCheckDefault.accesskey		"A">
+<!ENTITY searchIntegration.label		"&searchIntegration.engineName; によるメッセージの検索を許可する">
+<!ENTITY searchIntegration.accesskey		"S">
 <!ENTITY checkNow.label				"今すぐ確認">
 <!ENTITY checkNow.accesskey			"N">
 <!ENTITY configEditDesc.label			"高度な設定">
