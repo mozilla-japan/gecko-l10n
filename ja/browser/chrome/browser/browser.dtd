@@ -124,7 +124,7 @@
 <!ENTITY downloads.label		"ダウンロード">
 <!ENTITY downloads.tooltip		"ダウンロードの進行状況を表示します">
 <!ENTITY downloads.accesskey		"D">
-<!ENTITY downloads.commandkey		"J">
+<!ENTITY downloads.commandkey		"j">
 <!ENTITY downloadsUnix.commandkey	"y">
 <!ENTITY addons.label			"アドオン">
 <!ENTITY addons.tooltip			"インストールされている拡張機能やテーマを管理します">
