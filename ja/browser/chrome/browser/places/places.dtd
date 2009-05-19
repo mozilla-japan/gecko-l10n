@@ -189,7 +189,7 @@
 
 <!ENTITY view.detailsMacOSX.label		"リスト">
 <!ENTITY view.details.label			"詳細">
-<!ENTITY view.details.accesskey			"">
+<!ENTITY view.details.accesskey			"D">
 
 <!ENTITY view.addons.label			"表示用アドオンを入手">
 

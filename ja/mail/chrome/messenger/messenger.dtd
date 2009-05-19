@@ -55,7 +55,7 @@
 <!ENTITY settingsOfflineCmd.label	"オフライン設定...">
 <!ENTITY settingsOfflineCmd.accesskey	"e">
 <!ENTITY downloadSelectedCmd.label	"選択したメッセージを受信">
-<!ENTITY downloadSelectedCmd.accesskey	"M">
+<!ENTITY downloadSelectedCmd.accesskey	"l">
 <!ENTITY downloadStarredCmd.label	"スターを付けたメッセージを受信">
 <!ENTITY downloadStarredCmd.accesskey	"a">
 <!ENTITY printCmd.label			"@@Print@@...">

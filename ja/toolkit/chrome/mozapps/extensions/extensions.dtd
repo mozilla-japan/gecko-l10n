@@ -137,7 +137,7 @@
 <!ENTITY emptySearch.button			"OK">
 <!ENTITY cancelSearch.button			"キャンセル">
 <!ENTITY searchFailed.button			"OK">
-<!ENTITY searchResultHomepage.value		"もっと詳しく">
+<!ENTITY searchResultHomepage.value		"詳細を表示">
 <!ENTITY searchBox.label			"すべてのアドオンから検索">
 <!ENTITY recommendedResults.label		"すべてのおすすめアドオンを参照">
 <!ENTITY searchResultConnecting.label		"接続しています...">

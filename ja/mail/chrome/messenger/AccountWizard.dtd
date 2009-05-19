@@ -47,7 +47,7 @@
 <!ENTITY smtpServerLabel.label		"メール送信サーバ:">
 <!ENTITY smtpServerLabel.accesskey	"O">
 <!ENTITY newsServerLabel.label		"ニュースサーバ:">
-<!ENTITY newsServerLabel.accesskey	"N">
+<!ENTITY newsServerLabel.accesskey	"w">
 <!-- LOCALIZATION NOTE (imapType.label) : Do not translate "IMAP" in below line -->
 <!ENTITY imapType.label			"IMAP">
 <!ENTITY imapType.accesskey		"I">
