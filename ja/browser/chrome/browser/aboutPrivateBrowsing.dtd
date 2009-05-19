@@ -1,10 +1,10 @@
 <!ENTITY privatebrowsingpage.title		"プライベートブラウジング">
 <!ENTITY privatebrowsingpage.title.normal	"プライベートブラウジングを開始しますか？">
 
-<!ENTITY privatebrowsingpage.issueDesc		"&brandShortName; はこのセッション中にはブラウズ履歴を一切保存しません。">
+<!ENTITY privatebrowsingpage.issueDesc		"&brandShortName; はこのセッション中には表示したページの履歴を一切保存しません。">
 <!ENTITY privatebrowsingpage.issueDesc.normal	"&brandShortName; は現在プライベートブラウジングモードではありません。">
 
-<!ENTITY privatebrowsingpage.description	"プライベートブラウジング中に &brandShortName; はブラウズ履歴、検索履歴、ダウンロード履歴、Web フォーム履歴、Cookie、ディスクキャッシュは一切保存しませんが、ダウンロードしたファイルと作成したブックマークは保存されます。">
+<!ENTITY privatebrowsingpage.description	"プライベートブラウジング中に &brandShortName; は表示したページの履歴、検索履歴、ダウンロード履歴、Web フォーム履歴、Cookie、ディスクキャッシュは一切保存しませんが、ダウンロードしたファイルと作成したブックマークは保存されます。">
 
 <!-- LOCALIZATION NOTE (privatebrowsingpage.clearRecentHistoryBefore): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (privatebrowsingpage.clearRecentHistoryAfter): include a starting space as needed -->
@@ -18,5 +18,5 @@
 <!ENTITY privatebrowsingpage.howToStop		"プライベートブラウジングを終了するには、@@[@@&toolsMenu.label;@@]@@ メニューの @@[@@&privateBrowsingCmd.stop.label;@@]@@ を選択するか、&brandShortName; を終了してください。">
 <!ENTITY privatebrowsingpage.howToStart		"プライベートブラウジングは @@[@@&toolsMenu.label;@@]@@ メニューの @@[@@&privateBrowsingCmd.start.label;@@]@@ でも開始できます。">
 
-<!ENTITY privatebrowsingpage.moreInfo		"このコンピュータにはブラウズ履歴は記録されませんが、インターネットサービスプロバイダや会社があなたが閲覧するページを記録している可能性はあります。">
+<!ENTITY privatebrowsingpage.moreInfo		"表示したページの履歴はこのコンピュータには記録されませんが、インターネットサービスプロバイダや会社が記録している可能性はあります。">
 <!ENTITY privatebrowsingpage.learnMore		"詳細を表示">

@@ -198,8 +198,8 @@
 <!ENTITY showAllHistoryCmd.commandkey	"H">
 
 <!ENTITY openCmd.commandkey		"l">
-<!ENTITY urlbar.emptyText		"ブックマークと履歴を検索">
-<!ENTITY urlbar.bookmarkhistory.emptyText "ブックマークと履歴を検索">
+<!ENTITY urlbar.emptyText		"履歴とブックマークを検索">
+<!ENTITY urlbar.bookmarkhistory.emptyText "履歴とブックマークを検索">
 <!ENTITY urlbar.bookmark.emptyText	"ブックマークを検索">
 <!ENTITY urlbar.history.emptyText	"履歴を検索">
 <!ENTITY urlbar.none.emptyText		"ページの URL を入力">
