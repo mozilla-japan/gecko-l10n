@@ -3,7 +3,7 @@
 <!ENTITY  locationBar.label		"ロケーションバー">
 
 <!ENTITY  locbar.pre.label		"ロケーションバーには次の中から候補を表示する:">
-<!ENTITY  locbar.pre.accessKey		"l">
+<!ENTITY  locbar.pre.accessKey		"u">
 <!ENTITY  locbar.post.label		"">
 <!ENTITY  locbar.both.label		"履歴とブックマーク">
 <!ENTITY  locbar.history.label		"履歴のみ">
@@ -56,7 +56,7 @@
 <!ENTITY  clearDataSettings.accesskey	"t">
 
 <!ENTITY  historyHeader.pre.label		"&brandShortName; に">
-<!ENTITY  historyHeader.pre.accesskey		"F">
+<!ENTITY  historyHeader.pre.accesskey		"w">
 <!ENTITY  historyHeader.remember.label		"履歴を記憶させる">
 <!ENTITY  historyHeader.dontremember.label	"履歴を一切記憶させない">
 <!ENTITY  historyHeader.custom.label		"記憶させる履歴を詳細設定する">
@@ -91,7 +91,7 @@
   &rememberHistory.pre.label  [ textbox for number of days ]  &rememberHistory.post.label;
 -->
 <!ENTITY  rememberHistory.pre.label		"表示したページの履歴を少なくとも">
-<!ENTITY  rememberHistory.pre.accesskey		"h">
+<!ENTITY  rememberHistory.pre.accesskey		"b">
 <!ENTITY  rememberHistory.post.label		"日分は残す">
 
 <!ENTITY  rememberDownload.label		"ダウンロード履歴を記憶させる">
@@ -101,7 +101,7 @@
 <!ENTITY  rememberSearchForm.accesskey		"f">
 
 <!ENTITY  clearOnClose.label			"&brandShortName; の終了時に履歴を消去する">
-<!ENTITY  clearOnClose.accesskey		"w">
+<!ENTITY  clearOnClose.accesskey		"r">
 
 <!ENTITY  clearOnCloseSettings.label		"設定...">
 <!ENTITY  clearOnCloseSettings.accesskey	"t">
