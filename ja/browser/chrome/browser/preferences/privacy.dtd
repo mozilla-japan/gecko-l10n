@@ -62,7 +62,7 @@
 <!ENTITY  historyHeader.custom.label		"記憶させる履歴を詳細設定する">
 <!ENTITY  historyHeader.post.label		"">
 
-<!ENTITY  rememberDescription.label		"&brandShortName; には表示したサイトのブラウズ履歴、検索履歴、ダウンロード履歴、Web フォーム履歴や Cookie が保存されます。">
+<!ENTITY  rememberDescription.label		"&brandShortName; は表示したページの履歴、検索履歴、ダウンロード履歴、Web フォーム履歴や Cookie を保存します。">
 
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
@@ -73,7 +73,7 @@
 <!ENTITY  rememberActions.removeCookies.label	"Cookie を個別に削除">
 <!ENTITY  rememberActions.post.label		" できます。">
 
-<!ENTITY  dontrememberDescription.label		"プライベートブラウジング中と同様に &brandShortName; はブラウズ履歴などのプライバシーデータを一切保存しません。">
+<!ENTITY  dontrememberDescription.label		"&brandShortName; はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。">
 
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
