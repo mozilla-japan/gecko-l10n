@@ -204,7 +204,7 @@
 <!ENTITY forwardCmd.accesskey			"F">
 <!ENTITY forwardButton.tooltip			"フォルダ表示履歴を次に進みます">
 
-<!ENTITY detailsPane.more.label			"詳細を表示"><!-- (^^; -->
+<!ENTITY detailsPane.more.label			"詳細を表示">
 <!ENTITY detailsPane.more.accesskey		"e">
 <!ENTITY detailsPane.less.label			"詳細を隠す">
 <!ENTITY detailsPane.less.accesskey		"e">
