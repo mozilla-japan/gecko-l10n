@@ -8,12 +8,12 @@
 
 <!-- LOCALIZATION NOTE (clearTimeDuration.*): "Time range to clear" dropdown.
      See UI mockup at bug 480169 -->
-<!ENTITY clearTimeDuration.label		"履歴を消去する期間:">
+<!ENTITY clearTimeDuration.label		"消去する履歴の期間:">
 <!ENTITY clearTimeDuration.accesskey		"T">
 <!ENTITY clearTimeDuration.lastHour		"1 時間以内の履歴">
 <!ENTITY clearTimeDuration.last2Hours		"2 時間以内の履歴">
 <!ENTITY clearTimeDuration.last4Hours		"4 時間以内の履歴">
-<!ENTITY clearTimeDuration.today		"今日一日の履歴">
+<!ENTITY clearTimeDuration.today		"今日の履歴">
 <!ENTITY clearTimeDuration.everything		"すべての履歴">
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages
 that require it.  -->
@@ -24,7 +24,7 @@ that require it.  -->
 <!-- LOCALIZATION NOTE (detailsProgressiveDisclosure.*): Labels and accesskeys
      of the "Details" progressive disclosure button.  See UI mockup at bug
      480169 -->
-<!ENTITY detailsProgressiveDisclosure.label		"詳細">
+<!ENTITY detailsProgressiveDisclosure.label		"消去する項目">
 <!ENTITY detailsProgressiveDisclosure.accesskey		"e">
 
 <!ENTITY historySection.label			"履歴">
@@ -37,7 +37,7 @@ that require it.  -->
 <!ENTITY itemHistoryAndDownloads.accesskey	"B">
 <!ENTITY itemBrowsingHistory.label		"表示したページの履歴">
 <!ENTITY itemBrowsingHistory.accesskey		"B">
-<!ENTITY itemFormSearchHistory.label		"フォーム履歴と検索履歴">
+<!ENTITY itemFormSearchHistory.label		"検索やフォームの入力履歴">
 <!ENTITY itemFormSearchHistory.accesskey	"F">
 <!ENTITY itemPasswords.label			"保存されているパスワード">
 <!ENTITY itemPasswords.accesskey		"P">
