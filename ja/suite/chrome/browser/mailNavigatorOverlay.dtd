@@ -14,7 +14,7 @@
 <!ENTITY contextSendThisLink.accesskey   "k">
 <!ENTITY contextSendImage.label          "画像を送る...">
 <!ENTITY contextSendImage.accesskey      "n">
-<!ENTITY contextSendVideo.label          "ビデオを送る...">
+<!ENTITY contextSendVideo.label          "動画を送る...">
 <!ENTITY contextSendVideo.accesskey      "n">
 <!ENTITY contextSendAudio.label          "オーディオを送る...">
 <!ENTITY contextSendAudio.accesskey      "n">

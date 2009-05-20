@@ -260,7 +260,7 @@
 <!ENTITY reloadImageCmd.accesskey	"R">
 <!ENTITY viewImageCmd.label		"画像だけを表示">
 <!ENTITY viewImageCmd.accesskey		"I">
-<!ENTITY viewVideoCmd.label		"ビデオだけを表示">
+<!ENTITY viewVideoCmd.label		"動画だけを表示">
 <!ENTITY viewVideoCmd.accesskey		"I">
 <!ENTITY viewBGImageCmd.label		"背景画像だけを表示">
 <!ENTITY viewBGImageCmd.accesskey	"w">
@@ -295,7 +295,7 @@
 <!ENTITY saveAudioCmd.accesskey		"v">
 <!ENTITY sendImageCmd.label		"画像の URL をメールで送信...">
 <!ENTITY sendImageCmd.accesskey		"n">
-<!ENTITY sendVideoCmd.label		"ビデオの URL をメールで送信...">
+<!ENTITY sendVideoCmd.label		"動画の URL をメールで送信...">
 <!ENTITY sendVideoCmd.accesskey		"n">
 <!ENTITY sendAudioCmd.label		"オーディオの URL をメールで送信...">
 <!ENTITY sendAudioCmd.accesskey		"n">
@@ -307,7 +307,7 @@
 <!ENTITY copyImageCmd.accesskey		"o">
 <!ENTITY copyImageContentsCmd.label	"画像をコピー">
 <!ENTITY copyImageContentsCmd.accesskey	"y">
-<!ENTITY copyVideoURLCmd.label		"ビデオの URL をコピー">
+<!ENTITY copyVideoURLCmd.label		"動画の URL をコピー">
 <!ENTITY copyVideoURLCmd.accesskey	"o">
 <!ENTITY copyAudioURLCmd.label		"オーディオの URL をコピー">
 <!ENTITY copyAudioURLCmd.accesskey	"o">
