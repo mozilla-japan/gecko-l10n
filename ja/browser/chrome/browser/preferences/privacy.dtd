@@ -62,7 +62,7 @@
 <!ENTITY  historyHeader.custom.label		"記憶させる履歴を詳細設定する">
 <!ENTITY  historyHeader.post.label		"">
 
-<!ENTITY  rememberDescription.label		"&brandShortName; は表示したページの履歴、検索履歴、ダウンロード履歴、Web フォーム履歴や Cookie を保存します。">
+<!ENTITY  rememberDescription.label		"&brandShortName; は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴、Web サイトから送られてきた Cookie を保存します。">
 
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
@@ -94,10 +94,10 @@
 <!ENTITY  rememberHistory.pre.accesskey		"b">
 <!ENTITY  rememberHistory.post.label		"日分は残す">
 
-<!ENTITY  rememberDownload.label		"ダウンロード履歴を記憶させる">
+<!ENTITY  rememberDownload.label		"ファイルのダウンロード履歴を記憶させる">
 <!ENTITY  rememberDownload.accesskey		"d">
 
-<!ENTITY  rememberSearchForm.label		"検索履歴とフォーム履歴を記憶させる">
+<!ENTITY  rememberSearchForm.label		"検索やフォームの入力履歴を記憶させる">
 <!ENTITY  rememberSearchForm.accesskey		"f">
 
 <!ENTITY  clearOnClose.label			"&brandShortName; の終了時に履歴を消去する">

@@ -36,7 +36,7 @@
 
 <!ENTITY  warnings.label		"警告メッセージ">
 
-<!ENTITY  chooseWarnings.label		"Web ブラウズ中に表示する警告メッセージを選択してください。">
+<!ENTITY  chooseWarnings.label		"セキュリティ警告を表示する場合を選択できます。">
 
 <!ENTITY  warningSettings.label		"設定...">
 <!ENTITY  warningSettings.accesskey	"S">

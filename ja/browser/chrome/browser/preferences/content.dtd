@@ -32,6 +32,6 @@
 
 
 <!ENTITY languages.label		"言語">
-<!ENTITY chooseLanguage.label		"Web ページの表示に使用する言語の優先順位を設定します。">
+<!ENTITY chooseLanguage.label		"Web ページの表示に使用する言語の優先順位を設定できます。">
 <!ENTITY chooseButton.label		"言語設定...">
 <!ENTITY chooseButton.accesskey		"o">
