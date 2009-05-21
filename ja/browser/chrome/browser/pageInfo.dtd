@@ -59,7 +59,7 @@
 <!ENTITY  generalReferrer		"参照元 URL:">
 <!ENTITY  generalSource			"キャッシュソース:">
 <!ENTITY  generalModified		"更新日時:">
-<!ENTITY  generalEncoding		"@@CharacterEncoding@@:">
+<!ENTITY  generalEncoding		"文字エンコーディング:">
 <!ENTITY  generalMetaName		"名前">
 <!ENTITY  generalMetaContent		"値">
 <!ENTITY  generalSecurityDetails	"詳細">

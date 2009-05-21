@@ -40,11 +40,11 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY title.label		"@@CharacterEncoding@@リストのカスタマイズ">
-<!ENTITY current.label		"リスト中の@@CharacterEncoding@@:">
+<!ENTITY title.label		"文字エンコーディングリストのカスタマイズ">
+<!ENTITY current.label		"リスト中の文字エンコーディング:">
 <!ENTITY remove.label		"削除">
 <!ENTITY remove.accessKey	"R">
-<!ENTITY additional.label	"利用可能な@@CharacterEncoding@@:">
+<!ENTITY additional.label	"利用可能な文字エンコーディング:">
 <!ENTITY add.label		"追加">
 <!ENTITY add.accessKey		"A">
 <!ENTITY moveUp.label		"上へ">

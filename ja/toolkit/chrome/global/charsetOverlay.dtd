@@ -1,9 +1,9 @@
 <!-- extracted from charsetOverlay.xul -->
-<!ENTITY charsetMenu.label		"@@CharacterEncoding@@">
+<!ENTITY charsetMenu.label		"文字エンコーディング">
 <!ENTITY charsetMenu.accesskey		"C">
 <!ENTITY charsetMenuAutodet.label	"自動判別">
 <!ENTITY charsetMenuAutodet.accesskey	"a">
-<!ENTITY charsetMenuMore.label		"他の@@CharacterEncoding@@"> 
+<!ENTITY charsetMenuMore.label		"他の文字エンコーディング"> 
 <!ENTITY charsetMenuMore.accesskey	"m">
 <!ENTITY charsetMenuMore1.label		"西欧">
 <!ENTITY charsetMenuMore1.accesskey	"w">

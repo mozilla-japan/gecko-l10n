@@ -13,19 +13,19 @@
 <!ENTITY languages.customize.deleteButton.accesskey "R">
 <!ENTITY languages.customize.title.label "言語のカスタマイズ">
 <!ENTITY languages.customize.add.title.label "言語を追加">
-<!ENTITY languages.customize.left.header "@@CharacterEncoding@@">
-<!ENTITY charset.customize.right.header "サポートされている@@CharacterEncoding@@から選択">
+<!ENTITY languages.customize.left.header "文字エンコーディング">
+<!ENTITY charset.customize.right.header "サポートされている文字エンコーディングから選択">
 <!ENTITY languages.customize.available.label "言語:">
 <!ENTITY languages.customize.active.label "表示する言語の順序:">
 <!ENTITY languages.customize.reorder.label "並べ直す">
 <!ENTITY languages.customize.remove.label "削除">
 <!ENTITY languages.customize.additional.label "利用可能な文字セット">
 <!ENTITY languages.customize.add.label "追加">
-<!ENTITY languages.customize.Charset.grouplabel "@@CharacterEncoding@@">
+<!ENTITY languages.customize.Charset.grouplabel "文字エンコーディング">
 <!ENTITY languages.customize.others.label "その他:">
 <!ENTITY languages.customize.others.accesskey "O">
 <!ENTITY languages.customize.DefaultCharset.accesskey "C">
-<!ENTITY languages.customize.DefaultCharset.label "デフォルトの@@CharacterEncoding@@:">
+<!ENTITY languages.customize.DefaultCharset.label "デフォルトの文字エンコーディング:">
 <!-- LOCALIZATION NOTE  Character Encoding Preferences Dialog: Do NOT localize the terms "en-bz, ar-jo"  -->
 <!ENTITY languages.customize.others.examples "例: en-bz, ar-jo">
 <!ENTITY languages.customize.cancel.label "キャンセル">

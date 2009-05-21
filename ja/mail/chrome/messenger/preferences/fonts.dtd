@@ -1,6 +1,6 @@
 <!-- (^^; browser/preferences/fonts.dtd と一部同じ -->
 
-<!ENTITY  fontsAndEncodingsDialog.title	"フォントと@@CharacterEncoding@@">
+<!ENTITY  fontsAndEncodingsDialog.title	"フォントと文字エンコーディング">
 <!ENTITY  window.width			"44em"><!-- en-US: 39em -->
 <!ENTITY  window.macWidth		"48em"><!-- en-US: 43em -->
 <!ENTITY  window.unixWidth		"44em"><!-- en-US: 41em -->
@@ -12,14 +12,14 @@
 <!ENTITY  proportionalSize.accesskey	"e">
 <!ENTITY  monospaceSize.accesskey	"x">
 
-<!ENTITY  proportional.label		"@@Proportional@@:">
+<!ENTITY  proportional.label		"プロポーショナル:">
 <!ENTITY  proportional.accesskey	"P">
 
-<!ENTITY  serif.label			"@@Serif@@:">
+<!ENTITY  serif.label			"明朝体 (Serif):">
 <!ENTITY  serif.accesskey		"s">
-<!ENTITY  sans-serif.label		"@@Sans-serif@@:">
+<!ENTITY  sans-serif.label		"ゴシック体 (Sans-serif):">
 <!ENTITY  sans-serif.accesskey		"n">
-<!ENTITY  monospace.label		"@@Monospace@@:">
+<!ENTITY  monospace.label		"等幅 (Monospace):">
 <!ENTITY  monospace.accesskey		"m">
 
 <!ENTITY  font.langGroup.latin1		"西欧">
@@ -56,8 +56,8 @@
 <!ENTITY minSize.none			"なし">
 
 <!-- default font type -->
-<!ENTITY  useDefaultFontSerif.label	"@@Serif@@">
-<!ENTITY  useDefaultFontSansSerif.label	"@@Sans-serif@@">
+<!ENTITY  useDefaultFontSerif.label	"明朝体 (Serif)">
+<!ENTITY  useDefaultFontSansSerif.label	"ゴシック体 (Sans-serif)">
 
 <!ENTITY  useDocumentFonts.label	"メッセージが指定したフォントを優先する">
 <!ENTITY  useDocumentFonts.accesskey	"o">
@@ -65,10 +65,10 @@
 <!-- Language settings -->
 <!ENTITY sendDefaultCharset.label		"送信メッセージ:">
 <!ENTITY sendDefaultCharset.accesskey		"u">
-<!ENTITY languagesTitle1.label			"@@CharacterEncoding@@">
-<!ENTITY composingDescription.label		"メッセージの送受信に使用する@@Default-@@@@CharacterEncoding@@を設定します。">
+<!ENTITY languagesTitle1.label			"文字エンコーディング">
+<!ENTITY composingDescription.label		"メッセージの送受信に使用する@@Default-@@文字エンコーディングを設定します。">
 
 <!ENTITY viewDefaultCharsetList.label		"受信メッセージ:">
 <!ENTITY viewDefaultCharsetList.accesskey	"I">
-<!ENTITY replyInDefaultCharset2.label		"可能であれば返信メッセージに@@Default-@@@@CharacterEncoding@@を使用する">
+<!ENTITY replyInDefaultCharset2.label		"可能であれば返信メッセージに@@Default-@@文字エンコーディングを使用する">
 <!ENTITY replyInDefaultCharset2.accesskey	"h">

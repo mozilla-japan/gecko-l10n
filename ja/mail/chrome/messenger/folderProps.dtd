@@ -44,9 +44,9 @@
 <!ENTITY folderProps.windowtitle.label		"@@Property@@">
 
 <!ENTITY generalInfo.label			"一般情報">
-<!ENTITY folderCharsetTab.label			"@@Default-@@@@CharacterEncoding@@:">
+<!ENTITY folderCharsetTab.label			"@@Default-@@文字エンコーディング:">
 <!ENTITY folderCharsetTab.accesskey		"E">
-<!ENTITY folderCharsetOverride.label		"この設定をフォルダ内のすべてのメッセージに適用する (各メッセージの@@CharacterEncoding@@指定や自動判別結果を無視する)">
+<!ENTITY folderCharsetOverride.label		"この設定をフォルダ内のすべてのメッセージに適用する (各メッセージの文字エンコーディング指定や自動判別結果を無視する)">
 <!ENTITY folderCharsetOverride.accesskey	"A">
 <!ENTITY folderRebuildSummaryFile.label		"索引を再構築">
 <!ENTITY folderRebuildSummaryFile.accesskey	"R">

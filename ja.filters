@@ -18,22 +18,6 @@ ja-JP-mac.[				= “
 ja-JP-mac.]				= ”
 
 
-#
-#	general words
-#
-# 文字エンコーディング、エンコード、文字コード、テキストエンコーディング
-CharacterEncoding			= 文字エンコーディング
-
-# プロポーショナル 可変幅 可変長
-Proportional				= プロポーショナル
-# Serif セリフ 明朝 明朝系
-Serif					= 明朝体 (Serif)
-# Sans-serif サンセリフ ゴシック ゴシック系
-Sans-serif				= ゴシック体 (Sans-serif)
-# モノスペース 等幅 固定幅
-Monospace				= 等幅 (Monospace)
-
-
 # 普通デフォルトだが Win は既定が慣例
 ja.Default				= 既定
 ja.Default-				= 既定の
