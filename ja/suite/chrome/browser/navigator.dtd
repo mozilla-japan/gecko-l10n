@@ -93,7 +93,7 @@
 <!ENTITY directionRTLBidiCmd.label "右から左へ">
 <!ENTITY directionLTRBidiCmd.label "左から右へ">
 <!ENTITY texttypeBidiMenu.label "テキストの形式">
-<!ENTITY charsettexttypeBidiCmd.label "元の@@CharacterEncoding@@">
+<!ENTITY charsettexttypeBidiCmd.label "元の文字エンコーディング">
 <!ENTITY logicaltexttypeBidiCmd.label "論理的">
 <!ENTITY visualtexttypeBidiCmd.label "見たまま">
 <!ENTITY numeralBidiMenu.label "数字の形">
@@ -105,9 +105,9 @@
 <!ENTITY logicalcontrolstextmodeBidiCmd.label "論理的">
 <!ENTITY visiualcontrolstextmodeBidiCmd.label "見たまま">
 <!ENTITY containercontrolstextmodeBidiCmd.label "ドキュメントに合わせる">
-<!ENTITY charactersetBidiMenu.label "@@CharacterEncoding@@">
-<!ENTITY doccharactersetBidiCmd.label "ドキュメントで指定された@@CharacterEncoding@@を使用">
-<!ENTITY defaultcharactersetBidiCmd.label "デフォルトの@@CharacterEncoding@@を使い、ドキュメントで指定された@@CharacterEncoding@@を上書きする">
+<!ENTITY charactersetBidiMenu.label "文字エンコーディング">
+<!ENTITY doccharactersetBidiCmd.label "ドキュメントで指定された文字エンコーディングを使用">
+<!ENTITY defaultcharactersetBidiCmd.label "デフォルトの文字エンコーディングを使い、ドキュメントで指定された文字エンコーディングを上書きする">
 
 <!ENTITY webContentMenu.label "言語と Web コンテンツ">
 <!ENTITY webContentMenu.accesskey "l">

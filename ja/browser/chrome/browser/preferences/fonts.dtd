@@ -12,14 +12,14 @@
 <!ENTITY  sizeProportional.accesskey	"z">
 <!ENTITY  sizeMonospace.accesskey	"e">
 
-<!ENTITY  proportional.label		"@@Proportional@@:">
+<!ENTITY  proportional.label		"プロポーショナル:">
 <!ENTITY  proportional.accesskey	"P">
 
-<!ENTITY  serif.label			"@@Serif@@:">
+<!ENTITY  serif.label			"明朝体 (Serif):">
 <!ENTITY  serif.accesskey		"S">
-<!ENTITY  sans-serif.label		"@@Sans-serif@@:">
+<!ENTITY  sans-serif.label		"ゴシック体 (Sans-serif):">
 <!ENTITY  sans-serif.accesskey		"n">
-<!ENTITY  monospace.label		"@@Monospace@@:">
+<!ENTITY  monospace.label		"等幅 (Monospace):">
 <!ENTITY  monospace.accesskey		"M">
 
 <!ENTITY  font.langGroup.latin1		"西欧">
@@ -59,12 +59,12 @@
 <!ENTITY minSize.none			"なし">
 
 <!-- default font type -->
-<!ENTITY  useDefaultFontSerif.label	"@@Serif@@">
-<!ENTITY  useDefaultFontSansSerif.label	"@@Sans-serif@@">
+<!ENTITY  useDefaultFontSerif.label	"明朝体 (Serif)">
+<!ENTITY  useDefaultFontSansSerif.label	"ゴシック体 (Sans-serif)">
 
 <!ENTITY  allowPagesToUse.label		"Web ページが指定したフォントを優先する">
 <!ENTITY  allowPagesToUse.accesskey	"A">
 
-<!ENTITY languages.customize.Charset.grouplabel		"@@CharacterEncoding@@">
-<!ENTITY languages.customize.DefaultCharset.label	"@@Default-@@@@CharacterEncoding@@:">
+<!ENTITY languages.customize.Charset.grouplabel		"文字エンコーディング">
+<!ENTITY languages.customize.DefaultCharset.label	"@@Default-@@文字エンコーディング:">
 <!ENTITY languages.customize.DefaultCharset.accesskey	"C">

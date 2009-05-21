@@ -8,7 +8,7 @@
 <!ENTITY reportBuildConfig	"ビルド設定">
 <!ENTITY reportUseragent	"ユーザエージェント">
 <!ENTITY reportLanguage		"言語">
-<!ENTITY reportCharset		"@@CharacterEncoding@@">
+<!ENTITY reportCharset		"文字エンコーディング">
 <!ENTITY reportEmail		"メール">
 <!ENTITY error			"エラーの詳細">
 <!ENTITY faultCode		"コード">

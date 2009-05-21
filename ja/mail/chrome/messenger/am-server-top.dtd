@@ -69,7 +69,7 @@
 <!ENTITY abbreviateOff.label		"短縮名 (例: n.p.m.mail-news)">
 <!ENTITY advancedButton.label		"詳細...">
 <!ENTITY advancedButton.accesskey	"v">
-<!ENTITY serverDefaultCharset.label	"@@Default-@@@@CharacterEncoding@@:">
+<!ENTITY serverDefaultCharset.label	"@@Default-@@文字エンコーディング:">
 <!ENTITY localFolderPicker.label	"メッセージデータの保存先を選択してください">
 <!ENTITY browseFolder.label		"@@Browse@@...">
 <!ENTITY browseFolder.accesskey		"B">

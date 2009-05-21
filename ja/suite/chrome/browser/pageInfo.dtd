@@ -57,7 +57,7 @@
 <!ENTITY  generalReferrer       "参照元 URL:">
 <!ENTITY  generalSource         "ソース:">
 <!ENTITY  generalModified       "更新日時:">
-<!ENTITY  generalEncoding       "@@CharacterEncoding@@:">
+<!ENTITY  generalEncoding       "文字エンコーディング:">
 <!ENTITY  generalMetaName       "名前">
 <!ENTITY  generalMetaContent    "コンテンツ">
 <!ENTITY  generalSecurityMore   "その他">
@@ -69,7 +69,7 @@
 <!ENTITY  formMethod            "メソッド">
 <!ENTITY  formName              "名前">
 <!ENTITY  formNo                "番号">
-<!ENTITY  formEncoding          "@@CharacterEncoding@@:">
+<!ENTITY  formEncoding          "文字エンコーディング:">
 <!ENTITY  formTarget            "ターゲット:">
 <!ENTITY  formFields            "フィールド:">
 <!ENTITY  formLabel             "ラベル">
