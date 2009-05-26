@@ -244,7 +244,9 @@ browser.credits.dtd			= <ul>\
 #					  </ul>
 
 # browser/chrome/browser/sanitize.dtd
-ja.sanitize.column.width	= 30ch
+ja.sanitize.dialog.width	= 34em
+ja-JP-mac.sanitize.dialog.width	= 32em
+ja.sanitize.column.width	= 16.5em
 ja-JP-mac.sanitize.column.width	= 14em
 
 #	[ mail module ]
