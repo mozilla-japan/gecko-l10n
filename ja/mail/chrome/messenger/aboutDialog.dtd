@@ -4,7 +4,5 @@
 <!ENTITY aboutLink.label	"&brandFullName; について">
 <!ENTITY aboutLink.accesskey	"A">
 <!ENTITY aboutVersion		"バージョン">
-<!ENTITY copyrightText		"&#169;1998-2009 Contributors. All Rights Reserved. Mozilla Thunderbird and the
-                                 Thunderbird logos are trademarks of the Mozilla Foundation.  All rights
-                                 reserved.">
+<!ENTITY copyrightText		"&#169;1998-2009 Contributors. All Rights Reserved. Mozilla、Thunderbird、Thunderbird ロゴは 米国 Mozilla Foundation の米国およびその他の国における商標または商標登録です。All rights reserved.">
 <!ENTITY cmdCloseMac.commandKey	"w">
