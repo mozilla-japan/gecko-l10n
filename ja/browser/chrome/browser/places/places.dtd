@@ -71,6 +71,8 @@
 <!ENTITY cmd.edit_redo.accesskey		"R">
 <!ENTITY cmd.edit_redo.key			"y">
 
+<!ENTITY cmd.bookmarkLink.label			"このページをブックマーク...">
+<!ENTITY cmd.bookmarkLink.accesskey		"B">
 <!ENTITY cmd.delete.label			"このページを削除">
 <!ENTITY cmd.delete.accesskey			"D">
 <!ENTITY cmd.deleteDomainData.label		"このサイトの履歴を消去">
@@ -197,11 +199,9 @@
 <!ENTITY maintenance.accesskey			"I">
 
 <!ENTITY backCmd.label				"戻る">
-<!ENTITY backCmd.accesskey			"B">
 <!ENTITY backButton.tooltip			"フォルダ表示履歴を前に戻ります">
 
 <!ENTITY forwardCmd.label			"進む">
-<!ENTITY forwardCmd.accesskey			"F">
 <!ENTITY forwardButton.tooltip			"フォルダ表示履歴を次に進みます">
 
 <!ENTITY detailsPane.more.label			"詳細を表示">

@@ -18,31 +18,21 @@
 <!ENTITY helpForIEUsers.label		"Internet Explorer ユーザのために">
 <!ENTITY helpForIEUsers.accesskey	"I">
 <!ENTITY openHelp.commandkey		"VK_F1">
-<!-- LOCALIZATION NOTE openHelpMac.commandkey and openHelpMac.modifiers
-                       are all the necessary keys to hit OS X's open-help 
-                       keyboard (visible) shortcut (that's Cmd+? for most locales) -->
-<!ENTITY openHelpMac.commandkey		"/">
-<!ENTITY openHelpMac.modifiers		"accel,shift">
-<!ENTITY openHelpMac.frontendCommandkey	"?">
-<!ENTITY openHelpMac.frontendModifiers	"accel">
+<!ENTITY helpMac.commandkey		"?">
 
 <!ENTITY helpReleaseNotes.label		"リリースノート">
 <!ENTITY helpReleaseNotes.accesskey	"N">
 <!ENTITY updateCmd.label		"ソフトウェアの更新を確認...">
-<!ENTITY updateCmd.accesskey		"o">
 
 <!ENTITY preferencesCmdMac.label        "環境設定...">
 <!ENTITY preferencesCmdMac.commandkey	",">
-<!ENTITY preferencesCmdMac.modifiers	"accel">
 
 <!ENTITY servicesMenuMac.label		"サービス">
 
 <!ENTITY hideThisAppCmdMac.label	"&brandShortName; を隠す">
 <!ENTITY hideThisAppCmdMac.commandkey	"H">
-<!ENTITY hideThisAppCmdMac.modifiers	"accel">
 
 <!ENTITY hideOtherAppsCmdMac.label	"ほかを隠す">
 <!ENTITY hideOtherAppsCmdMac.commandkey	"H">
-<!ENTITY hideOtherAppsCmdMac.modifiers	"accel,alt">
 
 <!ENTITY showAllAppsCmdMac.label	"すべてを表示">
