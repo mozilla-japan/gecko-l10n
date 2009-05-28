@@ -1,18 +1,15 @@
-<!-- (^^; 現状半分冗談 -->
 <!ENTITY content.title                             "ページ内容">
-<!ENTITY permissions.default.image.title           "画像を自動的に読み込む">
-<!ENTITY permissions.default.image.description     "ページの見栄えがよくなります"><!-- Makes websites pretty -->
-<!ENTITY javascript.enabled.title                  "Javascript を有効にする">
-<!ENTITY javascript.enabled.description            "ページに動きが加わります"><!-- Makes websites flashy -->
-<!ENTITY plugins.enabled.title                     "プラグインを有効にする">
-<!ENTITY plugins.enabled.description               "ページが鬱陶しくなります"><!-- Makes websites annoying -->
+<!ENTITY showImages.title                          "画像を表示する">
+<!ENTITY enableJavaScript.title                    "JavaScript を有効にする">
+<!ENTITY enableJavaScript.description              "対話的なサイトの大半で JavaScript が使われています">
 <!ENTITY javascript.options.jit.content.title      "JavaScript で Tracing を有効にする">
 <!ENTITY javascript.options.jit.content.description "JavaScript をネイティブコードに変換して高速実行します">
+<!ENTITY enablePlugins.title                       "プラグインを有効にする">
+<!ENTITY enablePlugins.description                 "プラグインはビデオなどの特殊なコンテンツで利用されます">
 <!ENTITY privacy.title                             "プライバシーとセキュリティ">
-<!ENTITY network.cookie.cookieBehavior.title       "Cookies を保存">
-<!ENTITY network.cookie.cookieBehavior.description "おいしいおやつ"><!-- Delicious delicacies -->
-<!ENTITY clear.private.data.title                  "プライベート情報を消去">
-<!ENTITY clear.private.data.button                 "消去...">
-<!ENTITY clear.private.data.description            "バレないようにします"><!-- Saves your hide -->
-<!ENTITY signon.rememberSignons.title              "パスワードを保存">
-<!ENTITY signon.rememberSignons.description        "今後の文字入力数が減ります">
+<!ENTITY allowCookies.title                        "Cookie を保存する">
+<!ENTITY allowCookies.description                  "Cookie は利用者の識別や設定の保存に利用されます">
+<!ENTITY clearPrivateData.title                    "最近表示したページの履歴を消去できます">
+<!ENTITY clearPrivateData.button                   "消去">
+<!ENTITY clearPrivateData.description              "履歴を元に次に表示するページが提案されます">
+<!ENTITY rememberPasswords.title                   "パスワードを保存する">
