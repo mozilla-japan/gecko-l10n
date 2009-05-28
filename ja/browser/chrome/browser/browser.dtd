@@ -10,8 +10,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
                                                                 inside the private browsing mode -->
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix "(プライベートブラウジング)">
-<!-- LOCALIZATION NOTE (mainWindowPrivateBrowsing.titlemodifier): DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifierPrivateBrowsing "&mainWindow.titlemodifier; &mainWindow.titlePrivateBrowsingSuffix;">
 
 <!ENTITY tabCmd.label			"@@NewTab@@"><!-- 表示カ所によりアクセスキーが異なる -->
 <!ENTITY tabCmd.accesskey		"T">
@@ -88,6 +86,7 @@
 <!ENTITY stopCmd.macCommandKey		".">
 <!ENTITY stopButton.tooltip		"このページの読み込みを中止します">
 <!ENTITY goEndCap.tooltip		"ロケーションバーに入力された URL に移動します">
+<!ENTITY feedButton.tooltip		"このページを購読...">
 <!ENTITY printButton.label		"@@Print@@">
 <!ENTITY printButton.tooltip		"このページを@@Print@@します">
 
@@ -101,18 +100,18 @@
 
 <!ENTITY bookmarksButton.label		"ブックマーク">
 <!ENTITY bookmarksButton.tooltip	"ブックマークをサイドバーに表示します">
-<!ENTITY bookmarksSidebarCmd.accesskey	"B">
-<!ENTITY bookmarksSidebarCmd.commandkey	"b">
+<!ENTITY bookmarksButton.accesskey	"B">
+<!ENTITY bookmarksCmd.commandkey	"b">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
-<!ENTITY bookmarksSidebarGtkCmd.commandkey	"o">
-<!ENTITY bookmarksSidebarWinCmd.commandkey	"i">
+<!ENTITY bookmarksGtkCmd.commandkey	"o">
+<!ENTITY bookmarksWinCmd.commandkey	"i">
 
 <!ENTITY historyButton.label		"履歴">
 <!ENTITY historyButton.tooltip		"最近表示したページの履歴をサイドバーに表示します">
-<!ENTITY historySidebarCmd.accesskey	"s">
-<!ENTITY historySidebarCmd.commandKey	"h">
+<!ENTITY bookmarksButton.accesskey	"B">
+<!ENTITY bookmarksCmd.commandkey	"b">
 
 <!ENTITY toolsMenu.label		"ツール">
 <!ENTITY toolsMenu.accesskey		"T">
@@ -198,7 +197,6 @@
 <!ENTITY showAllHistoryCmd.commandkey	"H">
 
 <!ENTITY openCmd.commandkey		"l">
-<!ENTITY urlbar.emptyText		"履歴とブックマークを検索">
 <!ENTITY urlbar.bookmarkhistory.emptyText "履歴とブックマークを検索">
 <!ENTITY urlbar.bookmark.emptyText	"ブックマークを検索">
 <!ENTITY urlbar.history.emptyText	"履歴を検索">

@@ -22,7 +22,5 @@
 <!ENTITY openInNewTab.accesskey		"T">
 <!ENTITY openInNewWindow.label		"@@NewWindow@@で開く">
 <!ENTITY openInNewWindow.accesskey	"W">
-<!ENTITY bookmarkLink.label		"このリンクをブックマーク...">
-<!ENTITY bookmarkLink.accesskey		"B">
 <!ENTITY copyLink.label			"リンクの URL をコピー">
 <!ENTITY copyLink.accesskey		"C">

@@ -9,24 +9,6 @@
 <!ENTITY  locbar.history.label		"履歴のみ">
 <!ENTITY  locbar.bookmarks.label	"ブックマークのみ">
 <!ENTITY  locbar.nothing.label		"候補を表示しない">
- 
-<!-- LOCALIZATION NOTE:
-  The entities rememberDaysBefore.label and rememberDaysAfter2.label appear on a single
-  line in preferences as follows:
-
-  &rememberDaysBefore.label  [ textbox for number of days ]  &rememberDaysAfter2.label;
--->
-<!ENTITY  rememberDaysBefore.label	"表示したページの履歴を少なくとも">
-<!ENTITY  rememberDaysBefore.accesskey	"h">
-<!ENTITY  rememberDaysAfter2.label	"日分は残す">
-
-<!ENTITY  rememberForms.label		"Web ページのフォームや検索バーに入力した内容を記憶する">
-<!ENTITY  rememberForms.accesskey	"f">
-
-<!ENTITY  rememberDownloads.label	"ダウンロードしたファイルを記憶する">
-<!ENTITY  rememberDownloads.accesskey	"d">
-
-<!ENTITY  cookies.label			"Cookie">
 
 <!ENTITY  acceptCookies.label		"サイトから送られてきた Cookie を保存する">
 <!ENTITY  acceptCookies.accesskey	"c">
@@ -46,14 +28,6 @@
 
 <!ENTITY  showCookies.label		"Cookie を表示...">
 <!ENTITY  showCookies.accesskey		"S">
-
-<!ENTITY  privateData.label		"プライバシー情報">
-
-<!ENTITY  alwaysClear.label		"&brandShortName; の終了時にプライバシー情報を消去する">
-<!ENTITY  alwaysClear.accesskey		"w">
-
-<!ENTITY  clearDataSettings.label	"設定...">
-<!ENTITY  clearDataSettings.accesskey	"t">
 
 <!ENTITY  historyHeader.pre.label		"&brandShortName; に">
 <!ENTITY  historyHeader.pre.accesskey		"w">
@@ -105,6 +79,3 @@
 
 <!ENTITY  clearOnCloseSettings.label		"設定...">
 <!ENTITY  clearOnCloseSettings.accesskey	"t">
-
-<!ENTITY  clearDataNow.label			"今すぐ消去...">
-<!ENTITY  clearDataNow.accesskey		"N">

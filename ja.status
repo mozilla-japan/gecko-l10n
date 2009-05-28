@@ -62,3 +62,4 @@ mail                    25074:55fddd2e1b17  2527:e3728d17c619   mar             
 mail, toolkit           25458:53f838c7c18b  2651:6786ebf24275   mar             changeset 307
 all Fx                  25468:0b3ba1d05309  ????:????????????   a               sync with Fx3.5RC1, changeset 308
 all                                                             dynamis         create branch for l10n-central
+all Fx                  28805:30aa3539cedc  2718:2457fbd6cc1f   dynamis         diff of mozilla-1.9.1 and mozilla-central
