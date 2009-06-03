@@ -63,6 +63,7 @@
 <!ENTITY archiveButton.label			"アーカイブ">
 <!ENTITY hdrReplyButton.label			"返信">
 <!ENTITY hdrReplyAllButton.label		"全員に返信">
+<!ENTITY hdrReplyListButton.label		"リストに返信">
 <!ENTITY hdrForwardButton.label			"転送">
 <!ENTITY hdrJunkButton.label			"迷惑メールとしてマーク">
 <!ENTITY trashButton.tooltiptext		"このメッセージを削除します">

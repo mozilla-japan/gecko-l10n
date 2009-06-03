@@ -43,6 +43,8 @@
 <!ENTITY reuseExpRadio0.accesskey		"n">
 <!ENTITY reuseExpRadio1.label			"既存のメッセージ@@Window@@で開く">
 <!ENTITY reuseExpRadio1.accesskey		"e">
+<!ENTITY closeMsgWindowOnDelete.label		"削除時にメッセージ@@Window@@を閉じる">
+<!ENTITY closeMsgWindowOnDelete.accesskey	"C">
 
 <!-- Update -->
 <!ENTITY autoCheck.label			"次のソフトウェアの更新を定期的に確認する:">
