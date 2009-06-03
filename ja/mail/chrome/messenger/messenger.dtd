@@ -332,6 +332,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY replyToAllMsgCmd.label		"全員に返信">
 <!ENTITY replyToAllMsgCmd.accesskey	"p">
 <!ENTITY replyToAllMsgCmd.key		"r">
+<!ENTITY replyToListMsgCmd.label	"メーリングリストに返信">
+<!ENTITY replyToListMsgCmd.accesskey	"L">
+<!ENTITY replyToListMsgCmd.key		"l">
 <!ENTITY forwardMsgCmd.label		"転送">
 <!ENTITY forwardMsgCmd.accesskey	"F">
 <!ENTITY forwardMsgCmd.key		"l">
@@ -460,6 +463,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY newMsgButton.label		"作成">
 <!ENTITY replyButton.label		"返信">
 <!ENTITY replyAllButton.label		"全員に返信">
+<!ENTITY replyListButton.label		"リストに返信">
 <!ENTITY forwardButton.label		"転送">
 <!ENTITY fileButton.label		"移動"><!-- (^^; en-US: File -->
 <!ENTITY nextButton.label		"次へ">
@@ -491,6 +495,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY newMsgButton.tooltip		"新しいメッセージを作成します">
 <!ENTITY replyButton.tooltip		"メッセージに返信します">
 <!ENTITY replyAllButton.tooltip		"送受信者全員に返信します">
+<!ENTITY replyListButton.tooltip	"メーリングリストに返信します">
 <!ENTITY forwardButton.tooltip		"メッセージを転送します">
 <!ENTITY fileButton.tooltip		"メッセージを別のフォルダに移します">
 <!ENTITY nextButton.tooltip		"次の未読メッセージに移動します">
@@ -654,6 +659,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contextReplyNewsgroup.accesskey	"y">
 <!ENTITY contextReplyAll.label			"全員に返信">
 <!ENTITY contextReplyAll.accesskey		"A">
+<!ENTITY contextReplyList.label			"メーリングリストに返信">
+<!ENTITY contextReplyList.accesskey		"L">
 <!ENTITY contextForward.label			"転送">
 <!ENTITY contextForward.accesskey		"F">
 <!ENTITY contextForwardAsAttachment.label	"添付として転送">
