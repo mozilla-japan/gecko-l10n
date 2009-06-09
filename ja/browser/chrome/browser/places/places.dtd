@@ -1,6 +1,6 @@
 <!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
 <!ENTITY places.library.title			"履歴とブックマークの管理"><!-- (^^; Library/Archive -->
-<!ENTITY places.library.width			"720"><!-- en-US: 700 -->
+<!ENTITY places.library.width			"750"><!-- en-US: 700 -->
 <!ENTITY places.library.height			"500"><!-- en-US: 500 -->
 <!ENTITY organize.label				"管理">
 <!ENTITY organize.accesskey			"O">
