@@ -489,10 +489,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip		"メッセージを詳細に検索します">
 <!ENTITY getMsgButton.tooltip		"メッセージを受信します">
-<!ENTITY getAllNewMsgCmd.label		"新しいメッセージをすべて受信">
+<!ENTITY getAllNewMsgCmd.label		"新着メッセージをすべて受信">
 <!ENTITY getAllNewMsgCmd.accesskey	"G">
 <!ENTITY getAllNewMsgCmd.key		"t">
-<!ENTITY newMsgButton.tooltip		"新しいメッセージを作成します">
+<!ENTITY newMsgButton.tooltip		"@@New-CMD@@メッセージを作成します">
 <!ENTITY replyButton.tooltip		"メッセージに返信します">
 <!ENTITY replyAllButton.tooltip		"送受信者全員に返信します">
 <!ENTITY replyListButton.tooltip	"メーリングリストに返信します">
@@ -622,6 +622,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      present in the gloda search results.  The values can be found in
      messenger.properties with a prefix of "glodaSearch_results_why_". -->
 <!ENTITY glodaWhyColumn.label		"該当項目"><!-- (^^; en-US: Why -->
+<!-- LOCALIZATION NOTE (glodaScoreColumn.label): provides the numerical
+     score assigned to the message as a result of the search.  The column
+     primarily exists to be sorted by, and its contents will probably have
+     little meaning for most users. -->
+<!ENTITY glodaScoreColumn.label		"スコア">
 
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser.tooltip		"クリックすると表示する列を選択できます">
@@ -645,6 +650,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY idColumn.tooltip		"クリックすると受信した順で並べ替えます">
 <!ENTITY attachmentColumn.tooltip	"クリックすると添付の有無で並べ替えます">
 <!ENTITY glodaWhyColumn.tooltip		"クリックすると検索結果を該当項目で並べ替えます">
+<!ENTITY glodaScoreColumn.tooltip	"クリックすると検索スコアで並べ替えます">
 
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextOpenNewWindow.label		"@@NewWindow@@でメッセージを開く">

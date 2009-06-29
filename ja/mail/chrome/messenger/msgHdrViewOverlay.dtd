@@ -68,14 +68,11 @@
 <!ENTITY hdrJunkButton.label			"迷惑メールとしてマーク">
 <!ENTITY trashButton.tooltiptext		"このメッセージを削除します">
 
-<!ENTITY otherActionsButton.label		"その他の動作">
+<!ENTITY otherActionsButton.label		"その他の操作">
 <!ENTITY saveAsMenuItem.label			"@@SaveAs@@...">
 <!ENTITY saveAsMenuItem.accesskey		"S">
 <!ENTITY viewSourceMenuItem.label		"ソースを表示">
 <!ENTITY viewSourceMenuItem.accesskey		"V">
-
-<!ENTITY hideDetailsButton.label		"詳細を隠す">
-<!ENTITY showDetailsButton.label		"詳細を表示">
 
 <!ENTITY openAttachmentCmd.label		"開く">
 <!ENTITY openAttachmentCmd.accesskey		"O">
