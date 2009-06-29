@@ -40,7 +40,7 @@
 <!ENTITY subscribeButton.accesskey	"S">
 <!ENTITY unsubscribeButton.label	"購読を解除">
 <!ENTITY unsubscribeButton.accesskey	"U">
-<!ENTITY newGroupsTab.label		"新しいグループ">
+<!ENTITY newGroupsTab.label		"@@New-CMD@@グループ">
 <!ENTITY newGroupsTab.accesskey		"N">
 <!ENTITY refreshButton.label		"更新">
 <!ENTITY refreshButton.accesskey	"R">
