@@ -54,10 +54,10 @@
 
 <!ENTITY retention.label			"保管ポリシー"><!-- (^^; Retention Policy -->
 <!ENTITY retentionUseDefault.label		"サーバの設定を使用する">
-<!ENTITY retentionUseDefault.accesskey		"d"><!-- (^^; 以下 am-offline.dtd と同一 -->
+<!ENTITY retentionUseDefault.accesskey		"d">
+<!-- (^^; 以下 am-offline.dtd と同一 -->
 <!ENTITY daysOld.label				"日">
-<!ENTITY message.label				"メッセージ">
-<!-- (^^; 以下 am-offline.dtd にもあり -->
+<!ENTITY message.label				"通">
 <!ENTITY retentionCleanup.label			"古いメッセージを完全に削除してディスク領域を開放できます。">
 <!ENTITY retentionCleanupImap.label		"ローカルのコピーとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
 <!ENTITY retentionCleanupPop.label		"リモートサーバ上のメッセージを含め、古いメッセージを完全に削除してディスク領域を開放できます。">
