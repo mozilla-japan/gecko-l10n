@@ -1,8 +1,15 @@
 <!ENTITY aboutDialog.title	"&brandFullName; について">
 <!ENTITY credits.label		"クレジット">
 <!ENTITY credits.accesskey	"C">
-<!ENTITY aboutLink.label	"&brandFullName; について">
-<!ENTITY aboutLink.accesskey	"A">
+<!ENTITY aboutButton.label	"&lt; 戻る">
+<!ENTITY aboutButton.accesskey	"B">
 <!ENTITY aboutVersion		"バージョン">
-<!ENTITY copyrightText		"&#169;1998-2009 Contributors. All Rights Reserved. Mozilla、Thunderbird、Thunderbird ロゴは 米国 Mozilla Foundation の米国およびその他の国における商標または商標登録です。All rights reserved.">
+<!ENTITY copyrightText		"&#169;1998-2009 Contributors. All Rights Reserved. Mozilla、Thunderbird、Thunderbird ロゴは 米国 Mozilla Foundation の米国およびその他の国における商標または登録商標です。All rights reserved.">
+<!ENTITY aboutMenu.label	"参照">
+<!ENTITY aboutMenu.accesskey	"A">
+<!ENTITY aboutRights.label	"あなたの権利について">
+<!ENTITY aboutRights.accesskey	"R">
+<!ENTITY aboutContributors.label	"貢献者一覧">
+<!ENTITY aboutContributors.accesskey	"o">
+
 <!ENTITY cmdCloseMac.commandKey	"w">
