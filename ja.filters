@@ -277,8 +277,8 @@ ja-JP-mac.activity.monthDate		= #1 #2
 
 # mail/chrome/messenger/AccountManager.dtd
 ja.AccountManager.accountManager.size		= width: 118ch; height: 46.6em;
-ja-JP-mac.AccountManager.accountManager.size	= width: 110ch; height: 50em;
-ja.AccountManager.accountTree.width		= width: 17em;
+ja-JP-mac.AccountManager.accountManager.size	= width: 65em; height: 50em;
+ja.AccountManager.accountTree.width		= width: 32ch;
 ja-JP-mac.AccountManager.accountTree.width	= width: 19em;
 
 
