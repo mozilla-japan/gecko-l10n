@@ -4,3 +4,6 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 
 mar:
 	ja/mail/chrome/messenger/msgmdn.properties の翻訳。
+
+	ja/calendar/chrome/calendar/calendar-event-dialog.properties
+		plural forms をどうするか。

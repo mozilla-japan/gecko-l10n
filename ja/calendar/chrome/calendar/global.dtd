@@ -34,30 +34,8 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY time.midnight "真夜 0 時" >
-<!ENTITY time.1 "午前 1 時" >
-<!ENTITY time.2 "午前 2 時" >
-<!ENTITY time.3 "午前 3 時" >
-<!ENTITY time.4 "午前 4 時" >
-<!ENTITY time.5 "午前 5 時" >
-<!ENTITY time.6 "午前 6 時" >
-<!ENTITY time.7 "午前 7 時" >
-<!ENTITY time.8 "午前 8 時" >
-<!ENTITY time.9 "午前 9 時" >
-<!ENTITY time.10 "午前 10 時" >
-<!ENTITY time.11 "午前 11 時" >
+<!ENTITY time.midnight "子夜 0 時" >
 <!ENTITY time.noon "正午 0 時" >
-<!ENTITY time.13 "午後 1 時" >
-<!ENTITY time.14 "午後 2 時" >
-<!ENTITY time.15 "午後 3 時" >
-<!ENTITY time.16 "午後 4 時" >
-<!ENTITY time.17 "午後 5 時" >
-<!ENTITY time.18 "午後 6 時" >
-<!ENTITY time.19 "午後 7 時" >
-<!ENTITY time.20 "午後 8 時" >
-<!ENTITY time.21 "午後 9 時" >
-<!ENTITY time.22 "午後 10 時" >
-<!ENTITY time.23 "午後 11 時" >
 
 <!-- Day Names -->
 <!-- LOCALIZATION NOTE : Accesskeys for day.1.Ddd to day.7.Ddd are currently
