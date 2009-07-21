@@ -333,6 +333,6 @@
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail				"詳細...">
-<!ENTITY calendar.error.number				"エラー番号:">
+<!ENTITY calendar.error.code				"エラーコード:">
 <!ENTITY calendar.error.description			"説明:">
 <!ENTITY calendar.error.title				"エラーが発生しました">

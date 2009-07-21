@@ -46,7 +46,7 @@
 
 <!ENTITY newevent.from.label				"開始日時" >
 <!ENTITY newevent.to.label				"終了日時" >
-<!ENTITY newevent.attendees.sendEmail.label		"参加者へ参加依頼をメールで送信する">
+<!ENTITY newevent.attendees.notify.label		"参加者に通知する">
 
 <!ENTITY newevent.status.label				"状態" >
 <!ENTITY newevent.status.accesskey			"S" >
