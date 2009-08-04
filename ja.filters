@@ -350,6 +350,7 @@ ja-JP-mac.downloads.monthDate		= #1 #2
 
 
 # toolkit/chrome/mozapps/downloads/settingsChange.dtd
+# mail/chrome/messanger/messangercompose/composeMsgs.properties
 # @@settingsChange.preferences@@ は Linux/Mac でのみ使用する
 ja.settingsChange.preferences		= 設定
 ja-JP-mac.settingsChange.preferences	= 環境設定
