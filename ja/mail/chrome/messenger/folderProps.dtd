@@ -53,8 +53,8 @@
 <!ENTITY folderRebuildSummaryFileTip.label	"要約ファイルを再構築します">
 
 <!ENTITY retention.label			"保管ポリシー"><!-- (^^; Retention Policy -->
-<!ENTITY retentionUseDefault.label		"サーバの設定を使用する">
-<!ENTITY retentionUseDefault.accesskey		"d">
+<!ENTITY retentionUseAccount.label		"アカウント設定に従う">
+<!ENTITY retentionUseAccount.accesskey		"U">
 <!-- (^^; 以下 am-offline.dtd と同一 -->
 <!ENTITY daysOld.label				"日">
 <!ENTITY message.label				"通">

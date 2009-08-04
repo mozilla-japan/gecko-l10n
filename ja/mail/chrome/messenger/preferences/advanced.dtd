@@ -92,6 +92,12 @@
 <!ENTITY clearCacheNow.accesskey		"C">
 
 <!-- Certificates -->
+<!ENTITY certSelection.description		"サーバが個人証明書を要求したとき:">
+<!ENTITY certs.auto				"自動的に選択する">
+<!ENTITY certs.auto.accesskey			"m">
+<!ENTITY certs.ask				"毎回自分で選択する">
+<!ENTITY certs.ask.accesskey			"A">
+
 <!ENTITY viewCertificates.label			"証明書を表示">
 <!ENTITY viewCertificates.accesskey		"C">
 <!ENTITY viewCRLs.label				"失効リスト">
