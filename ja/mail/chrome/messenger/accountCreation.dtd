@@ -1,19 +1,19 @@
-<!ENTITY welcome.description		"ƒNƒCƒbƒNƒAƒJƒEƒ“ƒgÝ’è">
+<!ENTITY welcome.description		"ã‚¯ã‚¤ãƒƒã‚¯ã‚¢ã‚«ã‚¦ãƒ³ãƒˆè¨­å®š">
 <!ENTITY autoconfigWizard.style		"width: 640px; height: 480px;"><!-- en-US: width: 640px; height: 480px; -->
-<!ENTITY name.description		"‚ ‚È‚½‚Ì–¼‘O">
-<!ENTITY email.description		"ƒ[ƒ‹ƒAƒhƒŒƒX">
-<!ENTITY password.description		"ƒpƒXƒ[ƒh">
+<!ENTITY name.description		"ã‚ãªãŸã®åå‰">
+<!ENTITY email.description		"ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹">
+<!ENTITY password.description		"ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰">
 
-<!ENTITY next.label			"ŽŸ‚Ö &#187;">
+<!ENTITY next.label			"æ¬¡ã¸ &#187;">
 <!ENTITY next.accesskey			"N">
-<!ENTITY back.label			"&#171; –ß‚é">
+<!ENTITY back.label			"&#171; æˆ»ã‚‹">
 <!ENTITY back.accesskey			"B">
 
-<!ENTITY accountInformation.label	"ƒAƒJƒEƒ“ƒgî•ñ">
-<!ENTITY username.label			"ƒ†[ƒU–¼">
-<!ENTITY receivingServer.label		"ŽóMƒT[ƒo">
-<!ENTITY sendingServer.label		"‘—MƒT[ƒo">
-<!ENTITY noEncryption.label		"Ú‘±‚Ì•ÛŒì‚È‚µ">
+<!ENTITY accountInformation.label	"ã‚¢ã‚«ã‚¦ãƒ³ãƒˆæƒ…å ±">
+<!ENTITY username.label			"ãƒ¦ãƒ¼ã‚¶å">
+<!ENTITY receivingServer.label		"å—ä¿¡ã‚µãƒ¼ãƒ">
+<!ENTITY sendingServer.label		"é€ä¿¡ã‚µãƒ¼ãƒ">
+<!ENTITY noEncryption.label		"æŽ¥ç¶šã®ä¿è­·ãªã—">
 <!ENTITY starttls.label			"STARTTLS">
 <!ENTITY sslTls.label			"SSL/TLS">
 
@@ -24,51 +24,51 @@
 <!-- LOCALIZATION NOTE (createAndEditSettings.label): This label is a link
      which will create the account and take the user to the account
      configuration screen. -->
-<!ENTITY createAndEditSettings.label	"ƒAƒJƒEƒ“ƒgÝ’è‚Ìì¬‚Æ•ÒW">
-<!ENTITY cancel.label			"ƒLƒƒƒ“ƒZƒ‹">
-<!ENTITY stop.label			"’†Ž~">
+<!ENTITY createAndEditSettings.label	"ã‚¢ã‚«ã‚¦ãƒ³ãƒˆè¨­å®šã®ä½œæˆã¨ç·¨é›†">
+<!ENTITY cancel.label			"ã‚­ãƒ£ãƒ³ã‚»ãƒ«">
+<!ENTITY stop.label			"ä¸­æ­¢">
 <!ENTITY stop.accesskey			"S">
 <!-- LOCALIZATION NOTE (retest.label): This is the text that is
      displayed on the button which will re-guess the account configuration,
      taking into account the settings the user has changed. -->
-<!ENTITY retest.label			"Ý’è‚ðÄƒeƒXƒg">
+<!ENTITY retest.label			"è¨­å®šã‚’å†ãƒ†ã‚¹ãƒˆ">
 <!ENTITY retest.accesskey		"R">
-<!ENTITY edit.label			"•ÒW">
+<!ENTITY edit.label			"ç·¨é›†">
 <!ENTITY edit.accesskey			"E">
 
-<!ENTITY rememberPassword.label		"ƒpƒXƒ[ƒh‚ð‹L‰¯‚·‚é">
+<!ENTITY rememberPassword.label		"ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’è¨˜æ†¶ã™ã‚‹">
 <!ENTITY rememberPassword.accesskey	"m">
 
-<!ENTITY warning.label				"ŒxI">
-<!ENTITY incomingSettings.label			"ŽóMƒT[ƒoÝ’è:">
-<!ENTITY outgoingSettings.label			"‘—MƒT[ƒoÝ’è:">
+<!ENTITY warning.label				"è­¦å‘Šï¼">
+<!ENTITY incomingSettings.label			"å—ä¿¡ã‚µãƒ¼ãƒè¨­å®š:">
+<!ENTITY outgoingSettings.label			"é€ä¿¡ã‚µãƒ¼ãƒè¨­å®š:">
 <!-- LOCALIZATION NOTE (confirmIncomingWarning.label): If there is a security
      warning on the incoming server, then the user will need to check a
      checkbox beside this text before continuing. -->
-<!ENTITY confirmIncomingWarning.label		"Ú‘±ã‚ÌŠëŒ¯«‚ð—‰ð‚µ‚Ü‚µ‚½B">
+<!ENTITY confirmIncomingWarning.label		"æŽ¥ç¶šä¸Šã®å±é™ºæ€§ã‚’ç†è§£ã—ã¾ã—ãŸã€‚">
 <!ENTITY confirmIncomingWarning.accesskey	"u">
 <!-- LOCALIZATION NOTE (confirmOutgoingWarning.label): If there is a security
      warning on the outgoing server, then the user will need to check a
      checkbox beside this text before continuing. -->
-<!ENTITY confirmOutgoingWarning.label		"Ú‘±ã‚ÌŠëŒ¯«‚ð—‰ð‚µ‚Ü‚µ‚½B">
+<!ENTITY confirmOutgoingWarning.label		"æŽ¥ç¶šä¸Šã®å±é™ºæ€§ã‚’ç†è§£ã—ã¾ã—ãŸã€‚">
 <!ENTITY confirmOutgoingWarning.accesskey	"d">
 <!-- LOCALIZATION NOTE (createAccount.label): If there is a security warning
      on the incoming or outgoing servers, then the page that pops up will
      have this text in a button to continue by creating the account. -->
-<!ENTITY createAccount.label			"ƒAƒJƒEƒ“ƒgì¬">
+<!ENTITY createAccount.label			"ã‚¢ã‚«ã‚¦ãƒ³ãƒˆä½œæˆ">
 <!ENTITY createAccount.accesskey		"C">
 <!-- LOCALIZATION NOTE (changeSettings.label): If there is a security warning on
      the incoming or outgoing servers, then the page that pops up will have
      this text in a button to take you back to the previous page to change
      the settings and try again. -->
-<!ENTITY changeSettings.label			"Ý’è•ÏX">
+<!ENTITY changeSettings.label			"è¨­å®šå¤‰æ›´">
 <!ENTITY changeSettings.accesskey		"S">
 
-<!ENTITY contactYourProvider.description	"’ñ‹Ÿ‚³‚ê‚½Ý’è‚ðŽg—p‚µ‚Ä &brandShortName; ‚Å‚ ‚È‚½‚Ìƒ[ƒ‹‚ðŽóM‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B‚½‚¾‚µA‚±‚ê‚ç‚ÌÚ‘±‚ª•s“K“–‚Å‚È‚¢‚©AƒT[ƒo‚ÌŠÇ—ŽÒ‚Ü‚½‚Íƒ[ƒ‹ƒvƒƒoƒCƒ_‚Æ˜A—‚ð‚Æ‚Á‚Ä‚­‚¾‚³‚¢BÚ‚µ‚¢î•ñ‚Í Thunderbird FAQ ‚ð‚²——‚­‚¾‚³‚¢B">
+<!ENTITY contactYourProvider.description	"æä¾›ã•ã‚ŒãŸè¨­å®šã‚’ä½¿ç”¨ã—ã¦ &brandShortName; ã§ã‚ãªãŸã®ãƒ¡ãƒ¼ãƒ«ã‚’å—ä¿¡ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚ãŸã ã—ã€ã“ã‚Œã‚‰ã®æŽ¥ç¶šãŒä¸é©å½“ã§ãªã„ã‹ã€ã‚µãƒ¼ãƒã®ç®¡ç†è€…ã¾ãŸã¯ãƒ¡ãƒ¼ãƒ«ãƒ—ãƒ­ãƒã‚¤ãƒ€ã¨é€£çµ¡ã‚’ã¨ã£ã¦ãã ã•ã„ã€‚è©³ã—ã„æƒ…å ±ã¯ Thunderbird FAQ ã‚’ã”è¦§ãã ã•ã„ã€‚">
 
-<!ENTITY insecureServer.tooltip.title		"ŒxI ‚±‚ÌŽóMƒT[ƒo‚ÍˆÀ‘S‚Å‚Í‚ ‚è‚Ü‚¹‚ñB">
-<!ENTITY insecureServer.tooltip.details		"Ú×‚Í›‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B">
+<!ENTITY insecureServer.tooltip.title		"è­¦å‘Šï¼ ã“ã®å—ä¿¡ã‚µãƒ¼ãƒã¯å®‰å…¨ã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚">
+<!ENTITY insecureServer.tooltip.details		"è©³ç´°ã¯â—‹ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚">
 
-<!ENTITY insecureClearText.description		"ƒ[ƒ‹‚ª•½•¶‚Å‘—M‚³‚ê‚é‚½‚ßAUŒ‚‚ðŽó‚¯‚é‚ÆƒƒbƒZ[ƒW‚Ì“à—e‚ª“Ç‚Ü‚ê‚éŠëŒ¯«‚ª‚ ‚è‚Ü‚·B‚±‚Ì‚Ü‚Ü &brandShortName; ‚Åƒ[ƒ‹‚Ì‘—ŽóM‚ª‚Å‚«‚Ü‚·‚ªAˆÃ†‰»‚³‚ê‚½–{“–‚ÉˆÀ‘S‚ÈÚ‘±‚ªs‚¦‚éƒ[ƒ‹ƒvƒƒoƒCƒ_‚ð—˜—p‚·‚×‚«‚Å‚·B">
-<!ENTITY insecureSelfSigned.description		"ƒT[ƒo‚ªAM—Š‚Å‚«‚È‚¢Ø–¾‘‚ðŽg—p‚µ‚Ä‚¢‚é‚½‚ßA&brandShortName; ‚ÆƒT[ƒo‚ÌŠÔ‚Ì’ÊM‚ª“’®‚³‚ê‚È‚¢‚±‚Æ‚ð•ÛØ‚Å‚«‚Ü‚¹‚ñB‚±‚Ì‚Ü‚Ü &brandShortName; ‚Åƒ[ƒ‹‚Ì‘—ŽóM‚ª‚Å‚«‚Ü‚·‚ªAM—Š‚³‚ê‚½Ø–¾‘‚ðŽg—p‚µ‚Ä‚¢‚éƒ[ƒ‹ƒvƒƒoƒCƒ_‚ð—˜—p‚·‚×‚«‚Å‚·B">
-<!ENTITY secureServer.description		"‚¨‚ß‚Å‚Æ‚¤‚²‚´‚¢‚Ü‚·I ‚±‚ÌƒT[ƒo‚ÍˆÀ‘S‚ÈÚ‘±‚ðs‚¤ƒT[ƒo‚Å‚·B">
+<!ENTITY insecureClearText.description		"ãƒ¡ãƒ¼ãƒ«ãŒå¹³æ–‡ã§é€ä¿¡ã•ã‚Œã‚‹ãŸã‚ã€æ”»æ’ƒã‚’å—ã‘ã‚‹ã¨ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®å†…å®¹ãŒèª­ã¾ã‚Œã‚‹å±é™ºæ€§ãŒã‚ã‚Šã¾ã™ã€‚ã“ã®ã¾ã¾ &brandShortName; ã§ãƒ¡ãƒ¼ãƒ«ã®é€å—ä¿¡ãŒã§ãã¾ã™ãŒã€æš—å·åŒ–ã•ã‚ŒãŸæœ¬å½“ã«å®‰å…¨ãªæŽ¥ç¶šãŒè¡Œãˆã‚‹ãƒ¡ãƒ¼ãƒ«ãƒ—ãƒ­ãƒã‚¤ãƒ€ã‚’åˆ©ç”¨ã™ã¹ãã§ã™ã€‚">
+<!ENTITY insecureSelfSigned.description		"ã‚µãƒ¼ãƒãŒã€ä¿¡é ¼ã§ããªã„è¨¼æ˜Žæ›¸ã‚’ä½¿ç”¨ã—ã¦ã„ã‚‹ãŸã‚ã€&brandShortName; ã¨ã‚µãƒ¼ãƒã®é–“ã®é€šä¿¡ãŒç›—è´ã•ã‚Œãªã„ã“ã¨ã‚’ä¿è¨¼ã§ãã¾ã›ã‚“ã€‚ã“ã®ã¾ã¾ &brandShortName; ã§ãƒ¡ãƒ¼ãƒ«ã®é€å—ä¿¡ãŒã§ãã¾ã™ãŒã€ä¿¡é ¼ã•ã‚ŒãŸè¨¼æ˜Žæ›¸ã‚’ä½¿ç”¨ã—ã¦ã„ã‚‹ãƒ¡ãƒ¼ãƒ«ãƒ—ãƒ­ãƒã‚¤ãƒ€ã‚’åˆ©ç”¨ã™ã¹ãã§ã™ã€‚">
+<!ENTITY secureServer.description		"ãŠã‚ã§ã¨ã†ã”ã–ã„ã¾ã™ï¼ ã“ã®ã‚µãƒ¼ãƒã¯å®‰å…¨ãªæŽ¥ç¶šã‚’è¡Œã†ã‚µãƒ¼ãƒã§ã™ã€‚">
