@@ -15,12 +15,7 @@
 <!ENTITY color.label			"@@Color@@:"><!-- (^^;何の色？ -->
 <!ENTITY color.accesskey		"c">
 <!ENTITY displayWidth.label		"プレーンテキストメッセージ">
-<!ENTITY plainText.label		"使用するフォントの種類:">
 <!ENTITY displayText.label		"引用されたテキストメッセージの表示:">
-<!ENTITY fixedWidth.label		"等幅 (Monospace)">
-<!ENTITY fixedWidth.accesskey		"x">
-<!ENTITY variableWidth.label		"プロポーショナル">
-<!ENTITY variableWidth.accesskey	"V">
 <!ENTITY colors.label			"@@Colors@@">
 <!ENTITY overrideColors.label		"メッセージの表示時に次の@@Colors@@を使用します:">
 <!ENTITY textColor.label		"文字色:">
@@ -42,7 +37,10 @@
 <!ENTITY removeTagButton.accesskey	"D">
 
 <!-- Fonts -->
-<!ENTITY fontAndEncodingsDescription.label	"&brandShortName; で使用するフォントと文字エンコーディングを指定します。">
-<!ENTITY fontsAndEncodingsCaption.label	"フォントと文字エンコーディング">
-<!ENTITY fontOptions.accesskey		"F">
-<!ENTITY fontOptions.label		"フォント...">
+<!ENTITY fontsAndColors.label		"フォント">
+<!ENTITY defaultFont.label		"@@Default-@@フォント:">
+<!ENTITY defaultFont.accesskey		"D">
+<!ENTITY defaultSize.label		"サイズ:">
+<!ENTITY defaultSize.accesskey		"S">
+<!ENTITY fontOptions.accesskey		"A">
+<!ENTITY fontOptions.label		"詳細...">
