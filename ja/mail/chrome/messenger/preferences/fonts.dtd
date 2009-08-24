@@ -8,9 +8,9 @@
 <!ENTITY  language.label		"対象言語:">
 <!ENTITY  language.accesskey		"t">
 
-<!ENTITY  sizes.label			"サイズ:">
+<!ENTITY  size.label			"サイズ:">
 <!ENTITY  proportionalSize.accesskey	"e">
-<!ENTITY  monospaceSize.accesskey	"x">
+<!ENTITY  sizeMono.accesskey		"i">
 
 <!ENTITY  proportional.label		"プロポーショナル:">
 <!ENTITY  proportional.accesskey	"P">
@@ -59,8 +59,12 @@
 <!ENTITY  useDefaultFontSerif.label	"明朝体 (Serif)">
 <!ENTITY  useDefaultFontSansSerif.label	"ゴシック体 (Sans-serif)">
 
-<!ENTITY  useDocumentFonts.label	"メッセージが指定したフォントを優先する">
-<!ENTITY  useDocumentFonts.accesskey	"o">
+<!-- fonts in message -->
+<!ENTITY  fontControl.label			"フォント制御">
+<!ENTITY  useFixedWidthForPlainText.label	"プレーンテキストメッセージは等幅フォントを使用する">
+<!ENTITY  fixedWidth.accesskey			"x">
+<!ENTITY  useDocumentFonts.label		"メッセージが指定したフォントを優先する">
+<!ENTITY  useDocumentFonts.accesskey		"o">
 
 <!-- Language settings -->
 <!ENTITY sendDefaultCharset.label		"送信メッセージ:">
