@@ -61,7 +61,7 @@
 
 <!-- fonts in message -->
 <!ENTITY  fontControl.label			"フォント制御">
-<!ENTITY  useFixedWidthForPlainText.label	"プレーンテキストメッセージは等幅フォントを使用する">
+<!ENTITY  useFixedWidthForPlainText.label	"プレーンテキストメッセージに等幅フォントを使用する">
 <!ENTITY  fixedWidth.accesskey			"x">
 <!ENTITY  useDocumentFonts.label		"メッセージが指定したフォントを優先する">
 <!ENTITY  useDocumentFonts.accesskey		"o">
