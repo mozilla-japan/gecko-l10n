@@ -42,16 +42,12 @@
 <!ENTITY warning.label				"警告！">
 <!ENTITY incomingSettings.label			"受信サーバ設定:">
 <!ENTITY outgoingSettings.label			"送信サーバ設定:">
-<!-- LOCALIZATION NOTE (confirmIncomingWarning.label): If there is a security
-     warning on the incoming server, then the user will need to check a
-     checkbox beside this text before continuing. -->
-<!ENTITY confirmIncomingWarning.label		"接続上の危険性を理解しました。">
-<!ENTITY confirmIncomingWarning.accesskey	"u">
-<!-- LOCALIZATION NOTE (confirmOutgoingWarning.label): If there is a security
+<!ENTITY technicaldetails.label			"技術的な詳細">
+<!-- LOCALIZATION NOTE (confirmWarning.label): If there is a security
      warning on the outgoing server, then the user will need to check a
      checkbox beside this text before continuing. -->
-<!ENTITY confirmOutgoingWarning.label		"接続上の危険性を理解しました。">
-<!ENTITY confirmOutgoingWarning.accesskey	"d">
+<!ENTITY confirmWarning.label			"接続する上での危険性を理解しました">
+<!ENTITY confirmWarning.accesskey		"u">
 <!-- LOCALIZATION NOTE (createAccount.label): If there is a security warning
      on the incoming or outgoing servers, then the page that pops up will
      have this text in a button to continue by creating the account. -->
