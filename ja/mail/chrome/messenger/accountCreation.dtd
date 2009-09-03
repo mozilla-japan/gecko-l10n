@@ -66,5 +66,5 @@
 <!ENTITY insecureServer.tooltip.details		"詳細は丸印をクリックしてください。">
 
 <!ENTITY insecureClearText.description		"メールが平文で送信されるため、攻撃を受けるとメッセージの内容が読まれる危険性があります。このまま &brandShortName; でメールの送受信ができますが、暗号化された本当に安全な接続が行えるメールプロバイダを利用すべきです。">
-<!ENTITY insecureSelfSigned.description		"サーバが、信頼できない証明書を使用しているため、&brandShortName; とサーバの間の通信が盗聴されないことを保証できません。このまま &brandShortName; でメールの送受信ができますが、信頼された証明書を使用しているメールプロバイダを利用すべきです。">
+<!ENTITY insecureSelfSigned.description		"サーバが、自己署名された信頼できない証明書を使用しているため、&brandShortName; とサーバの間の通信が盗聴されないことを保証できません。このまま &brandShortName; でメールの送受信ができますが、信頼できる証明書を使用しているメールプロバイダを利用すべきです。">
 <!ENTITY secureServer.description		"おめでとうございます！ このサーバは安全な接続を行うサーバです。">
