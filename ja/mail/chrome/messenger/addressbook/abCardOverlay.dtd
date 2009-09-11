@@ -157,15 +157,15 @@
 <!ENTITY Photo.tab			"顔写真">
 <!ENTITY Photo.accesskey		"o">
 <!ENTITY PhotoDesc.label		"次のいずれかを選択してください:">
-<!ENTITY GenericPhoto.label		"一般的な写真">
+<!ENTITY GenericPhoto.label		"汎用の写真">
 <!ENTITY GenericPhoto.accesskey		"G">
 <!ENTITY DefaultPhoto.label		"@@Default@@">
-<!ENTITY PhotoFile.label		"コンピュータ上の写真">
+<!ENTITY PhotoFile.label		"コンピュータ上">
 <!ENTITY PhotoFile.accesskey		"n">
 <!ENTITY BrowsePhoto.label		"@@Browse@@">
 <!ENTITY BrowsePhoto.accesskey		"r">
-<!ENTITY PhotoURL.label			"Web 上の写真">
+<!ENTITY PhotoURL.label			"Web 上">
 <!ENTITY PhotoURL.accesskey		"b">
-<!ENTITY PhotoURL.emptytext		"写真の Web 上の URL を入力してください">
+<!ENTITY PhotoURL.emptytext		"Web 上の写真ファイルの URL を入力してください">
 <!ENTITY UpdatePhoto.label		"更新">
 <!ENTITY UpdatePhoto.accesskey		"u">

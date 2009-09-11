@@ -34,3 +34,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey	"v">
 <!ENTITY syncGroupTitle.label			"メッセージの同期">
 <!ENTITY diskspaceGroupTitle.label		"ディスク領域">
+
+<!-- LOCALIZATION NOTE: (useAutosyncBefore.label, useAutosyncMiddle.label, useAutosyncAfter.label):
+  The entities useAutosyncBefore.label, useAutosyncMiddle.label, and
+  useAutosyncAfter.label appear on a single line in preferences as follows:
+
+  &useAutosyncBefore.label [textbox for autosync value] &useAutosyncMiddle.label; [dropdown for autosync interval] &useAutosyncAfter.label;
+-->
+<!ENTITY useAutosyncBefore.label		"このコンピュータに">
+<!ENTITY useAutosyncMiddle.label		"">
+<!ENTITY allInterval.label			"すべて">
+<!ENTITY dayInterval.label			"日分">
+<!ENTITY weekInterval.label			"週分">
+<!ENTITY monthInterval.label			"カ月分">
+<!ENTITY yearInterval.label			"カ年分">
+<!ENTITY useAutosyncAfter.label			"のメッセージを保存する"><!-- "email will be stored on disk" -->
