@@ -196,9 +196,9 @@
 <!ENTITY collapseAllThreadsCmd.key		"\">
 <!ENTITY unreadMsgsCmd.label			"未読">
 <!ENTITY unreadMsgsCmd.accesskey		"U">
-<!ENTITY threadsWithUnreadCmd.label		"未読のあるスレッド">
+<!ENTITY threadsWithUnreadCmd.label		"未読を含むスレッド">
 <!ENTITY threadsWithUnreadCmd.accesskey		"T">
-<!ENTITY watchedThreadsWithUnreadCmd.label	"未読のある注目スレッド">
+<!ENTITY watchedThreadsWithUnreadCmd.label	"未読を含む注目スレッド">
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey	"W">
 <!ENTITY ignoredThreadsCmd.label		"無視スレッド">
 <!ENTITY ignoredThreadsCmd.accesskey		"i">
@@ -593,7 +593,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY totalColumn.label		"合計">
 <!ENTITY readColumn.label		"既読">
 <!ENTITY receivedColumn.label		"受信日時">
-<!ENTITY starredColumn.label		"スターあり">
+<!ENTITY starredColumn.label		"スター">
 <!ENTITY locationColumn.label		"フォルダ">
 <!ENTITY idColumn.label			"受信順">
 <!ENTITY attachmentColumn.label		"添付">
