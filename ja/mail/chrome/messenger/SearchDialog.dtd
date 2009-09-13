@@ -47,7 +47,7 @@
 <!ENTITY unreadColumn.label		"未読">
 <!ENTITY totalColumn.label		"合計">
 <!ENTITY readColumn.label		"既読">
-<!ENTITY starredColumn.label		"スターあり">
+<!ENTITY starredColumn.label		"スター">
 <!ENTITY receivedColumn.label		"受信日時">
 <!ENTITY locationColumn.label		"フォルダ">
 <!ENTITY idColumn.label			"受信順">

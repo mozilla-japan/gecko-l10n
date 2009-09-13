@@ -44,7 +44,7 @@
 <!ENTITY antiVirus.accesskey			"A">
 
 <!-- Cookies -->
-<!ENTITY cookies.intro				"&brandShortName; は、ブログやニュースフィード、他の Web サイトなど、Cookie を許可するサイトを設定できます。">
+<!ENTITY cookies.intro				"ブログやニュースフィード、他の Web サイトなど、Cookie を許可するサイトを設定できます。">
 <!ENTITY acceptCookies.label			"サイトから送られてきた Cookie を保存する">
 <!ENTITY acceptCookies.accesskey		"c">
 <!ENTITY keepUntil.label			"Cookie を保存する期間:">
