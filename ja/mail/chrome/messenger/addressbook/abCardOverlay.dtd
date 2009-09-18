@@ -86,13 +86,13 @@
 <!ENTITY WorkPhone.label		"勤務先:">
 <!ENTITY WorkPhone.accesskey		"k">
 <!ENTITY HomePhone.label		"自宅:">
-<!ENTITY HomePhone.accesskey		"o">
+<!ENTITY HomePhone.accesskey		"m">
 <!ENTITY FaxNumber.label		"FAX:">
 <!ENTITY FaxNumber.accesskey		"x">
 <!ENTITY PagerNumber.label		"ポケットベル:">
 <!ENTITY PagerNumber.accesskey		"g">
 <!ENTITY CellularNumber.label		"携帯電話:">
-<!ENTITY CellularNumber.accesskey	"M">
+<!ENTITY CellularNumber.accesskey	"b">
 
 <!ENTITY Home.tab			"プライベート">
 <!ENTITY Home.accesskey			"P">
@@ -125,7 +125,7 @@
 <!ENTITY Department.label		"部門:">
 <!ENTITY Department.accesskey		"m">
 <!ENTITY Company.label			"組織:">
-<!ENTITY Company.accesskey		"O">
+<!ENTITY Company.accesskey		"n">
 <!ENTITY WorkAddress.label		"番地:">
 <!ENTITY WorkAddress.accesskey		"A">
 <!ENTITY WorkAddress2.label		"">
@@ -153,3 +153,19 @@
 <!ENTITY Custom4.accesskey		"4">
 <!ENTITY Notes.label			"メモ:">
 <!ENTITY Notes.accesskey		"N">
+
+<!ENTITY Photo.tab			"顔写真">
+<!ENTITY Photo.accesskey		"o">
+<!ENTITY PhotoDesc.label		"次のいずれかを選択してください:">
+<!ENTITY GenericPhoto.label		"汎用の写真">
+<!ENTITY GenericPhoto.accesskey		"G">
+<!ENTITY DefaultPhoto.label		"@@Default@@">
+<!ENTITY PhotoFile.label		"コンピュータ上">
+<!ENTITY PhotoFile.accesskey		"n">
+<!ENTITY BrowsePhoto.label		"@@Browse@@">
+<!ENTITY BrowsePhoto.accesskey		"r">
+<!ENTITY PhotoURL.label			"Web 上">
+<!ENTITY PhotoURL.accesskey		"b">
+<!ENTITY PhotoURL.emptytext		"Web 上の写真ファイルの URL を入力してください">
+<!ENTITY UpdatePhoto.label		"更新">
+<!ENTITY UpdatePhoto.accesskey		"u">

@@ -63,18 +63,22 @@
 <!ENTITY archiveButton.label			"アーカイブ">
 <!ENTITY hdrReplyButton.label			"返信">
 <!ENTITY hdrReplyAllButton.label		"全員に返信">
+<!ENTITY hdrReplyListButton.label		"リストに返信">
 <!ENTITY hdrForwardButton.label			"転送">
-<!ENTITY hdrJunkButton.label			"迷惑メールとしてマーク">
+<!ENTITY hdrJunkButton.label			"迷惑マークを付ける">
 <!ENTITY trashButton.tooltiptext		"このメッセージを削除します">
 
-<!ENTITY otherActionsButton.label		"その他の動作">
+<!ENTITY otherActionsButton.label		"その他の操作">
+<!ENTITY otherActionsOpenInNewWindow.label	"@@NewWindow@@で開く">
+<!ENTITY otherActionsOpenInNewWindow.accesskey	"w">
+<!ENTITY otherActionsOpenInNewTab.label		"@@NewTab@@で開く">
+<!ENTITY otherActionsOpenInNewTab.accesskey	"t">
 <!ENTITY saveAsMenuItem.label			"@@SaveAs@@...">
-<!ENTITY saveAsMenuItem.accesskey		"S">
+<!ENTITY saveAsMenuItem.accesskey		"s">
 <!ENTITY viewSourceMenuItem.label		"ソースを表示">
-<!ENTITY viewSourceMenuItem.accesskey		"V">
-
-<!ENTITY hideDetailsButton.label		"詳細を隠す">
-<!ENTITY showDetailsButton.label		"詳細を表示">
+<!ENTITY viewSourceMenuItem.accesskey		"v">
+<!ENTITY otherActionsPrint.label		"@@Print@@...">
+<!ENTITY otherActionsPrint.accesskey		"p">
 
 <!ENTITY openAttachmentCmd.label		"開く">
 <!ENTITY openAttachmentCmd.accesskey		"O">
@@ -89,7 +93,7 @@
 <!ENTITY deleteAllAttachmentsCmd.label		"すべて削除...">
 <!ENTITY deleteAllAttachmentsCmd.accesskey	"E">
 
-<!ENTITY copyLinkCmd.label			"リンク URL をコピー">
+<!ENTITY copyLinkCmd.label			"リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey			"C">
 
 <!ENTITY CopyMessageId.label			"メッセージ ID をコピー">

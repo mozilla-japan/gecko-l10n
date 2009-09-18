@@ -36,28 +36,32 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY aboutDialog.title      "&brandFullName; について">
-<!ENTITY copyright.label        "クレジット">
-<!ENTITY copyright.accesskey    "C">
-<!ENTITY aboutLink.label        "&lt; &brandFullName; について">
-<!ENTITY aboutLink.accesskey    "A">
-<!ENTITY aboutVersion           "バージョン">
-<!ENTITY copyrightText          "&#169;1998-2008 Contributors. All rights
-                                 reserved. Mozilla Sunbird, Sunbird, and the
-                                 Sunbird logos are trademarks of the Mozilla
-                                 Foundation. All rights reserved.">
+<!ENTITY aboutDialog.title	"&brandFullName; について">
+<!ENTITY copyright.label	"クレジット">
+<!ENTITY copyright.accesskey	"C">
+<!ENTITY aboutLink.label	"&lt; &brandFullName; について">
+<!ENTITY aboutLink.accesskey	"A">
+<!ENTITY aboutVersion		"バージョン">
+<!ENTITY copyrightText		"&#169;1998-2009 Contributors. All rights
+				 reserved. Mozilla Sunbird, Sunbird, and the
+				 Sunbird logos are trademarks of the Mozilla
+				 Foundation. All rights reserved.">
 
-<!ENTITY brandMotto       "it's about time">
-<!ENTITY credit.thanks    "Special Thanks To">
+<!ENTITY brandMotto		"it's about time">
+<!ENTITY credit.thanks		"Special Thanks To">
 
 <!-- localization credits look like this: -->
 <!--
 <!ENTITY credit.translation
   "<h3>Translators</h3><ul><li>Name Here</li></ul>">
 -->
-<!ENTITY credit.translation
-  "<h3>Translators</h3><ul><li>mike</li><li>Mozilla Japan Localize Center</li></ul>">
+<!ENTITY credit.translation	"<h3>Translators</h3><ul>
+	<li>mike</li>
+	<li>Atsushi Sakai</li>
+	<li>Masahiko Imanaka</li>
+	<li>and, Mozilla Japan Localize Center</li>
+	</ul>">
 
-<!ENTITY credit.powered     "Powered by">
-<!ENTITY license.and        "and">
-<!ENTITY cmdClose.macKey  "W">
+<!ENTITY credit.powered		"Powered by">
+<!ENTITY license.and		"and">
+<!ENTITY cmdClose.macKey	"W">
