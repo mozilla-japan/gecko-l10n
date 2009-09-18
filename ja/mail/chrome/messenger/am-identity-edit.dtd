@@ -1,3 +1,4 @@
+<!ENTITY identityDialog.style	"width: 70ch;"><!-- en-US: 67ch; -->
 <!ENTITY identityTitle.label	"差出人情報の設定">
 <!ENTITY identityListDesc.label	"差出人情報を設定してください:">
 

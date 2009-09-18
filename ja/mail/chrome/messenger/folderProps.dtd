@@ -53,22 +53,22 @@
 <!ENTITY folderRebuildSummaryFileTip.label	"要約ファイルを再構築します">
 
 <!ENTITY retention.label			"保管ポリシー"><!-- (^^; Retention Policy -->
-<!ENTITY retentionUseDefault.label		"サーバの設定を使用する">
-<!ENTITY retentionUseDefault.accesskey		"d"><!-- (^^; 以下 am-offline.dtd と同一 -->
+<!ENTITY retentionUseAccount.label		"アカウント設定に従う">
+<!ENTITY retentionUseAccount.accesskey		"U">
+<!-- (^^; 以下 am-offline.dtd と同一 -->
 <!ENTITY daysOld.label				"日">
-<!ENTITY message.label				"メッセージ">
-<!-- (^^; 以下 am-offline.dtd にもあり -->
-<!ENTITY retentionCleanup.label			"古いメッセージを恒久的に削除してディスク領域を開放できます。">
-<!ENTITY retentionCleanupImap.label		"ローカルのコピーとリモートサーバ上の古いメッセージを恒久的に削除してディスク領域を開放できます。">
-<!ENTITY retentionCleanupPop.label		"リモートサーバ上のメッセージを含め、古いメッセージを恒久的に削除してディスク領域を開放できます。">
+<!ENTITY message.label				"通">
+<!ENTITY retentionCleanup.label			"古いメッセージを完全に削除してディスク領域を開放できます。">
+<!ENTITY retentionCleanupImap.label		"ローカルのコピーとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
+<!ENTITY retentionCleanupPop.label		"リモートサーバ上のメッセージを含め、古いメッセージを完全に削除してディスク領域を開放できます。">
 <!ENTITY retentionDeleteMsg.label		"送信日時から次の日数以上経過したメッセージを削除する">
 <!ENTITY retentionDeleteMsg.accesskey		"m">
 <!ENTITY retentionKeepAll.label			"メッセージを自動削除しない">
 <!ENTITY retentionKeepAll.accesskey		"A">
-<!ENTITY retentionKeepNew.label			"次の数のメッセージを残して削除する">
-<!ENTITY retentionKeepNew.accesskey		"l">
-<!ENTITY retentionKeepUnread.label		"既読のメッセージは常に削除する">
-<!ENTITY retentionKeepUnread.accesskey		"r">
+<!ENTITY retentionKeepRecent.label		"最近のメッセージを次の数だけ残して削除する">
+<!ENTITY retentionKeepRecent.accesskey		"l">
+<!-- LOCALIZATION NOTE: Unhide with .keepUnreadOnly { display: -moz-box; } -->
+<!ENTITY retentionKeepUnreadHidden.label	"既読のメッセージは常に削除する (最優先)">
 <!ENTITY retentionApplyToFlagged.label		"スター付きのメッセージは残す">
 <!ENTITY retentionApplyToFlagged.accesskey	"e">
 
