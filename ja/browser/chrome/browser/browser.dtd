@@ -2,14 +2,14 @@
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
-<!ENTITY mainWindow.title "&brandFullName;">
+<!ENTITY mainWindow.title		"&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifier "&brandFullName;">
+<!ENTITY mainWindow.titlemodifier	"&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifiermenuseparator " - ">
+<!ENTITY mainWindow.titlemodifiermenuseparator	" - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
                                                                 inside the private browsing mode -->
-<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(プライベートブラウジング)">
+<!ENTITY mainWindow.titlePrivateBrowsingSuffix	"(プライベートブラウジング)">
 
 <!ENTITY tabCmd.label			"@@NewTab@@"><!-- 表示カ所によりアクセスキーが異なる -->
 <!ENTITY tabCmd.accesskey		"T">
@@ -32,6 +32,8 @@
 <!ENTITY goOfflineCmd.label		"オフライン作業">
 <!ENTITY goOfflineCmd.accesskey		"w">
 
+<!ENTITY menubarCmd.label		"メニューバー">
+<!ENTITY menubarCmd.accesskey		"M">
 <!ENTITY navbarCmd.label		"ナビゲーションツールバー">
 <!ENTITY navbarCmd.accesskey		"N">
 <!ENTITY personalbarCmd.label		"ブックマークツールバー">
@@ -48,6 +50,9 @@
 <!ENTITY pageInfoCmd.commandkey		"i">
 <!ENTITY fullScreenCmd.label		"@@FullScreen@@">
 <!ENTITY fullScreenCmd.accesskey	"F">
+<!ENTITY fullScreenCmd.macCommandKey	"f">
+<!ENTITY showAllTabsCmd.label		"すべてのタブを表示">
+<!ENTITY showAllTabsCmd.accesskey	"A">
 
 <!ENTITY fullScreenMinimize.tooltip	"@@Minimize@@">
 <!ENTITY fullScreenRestore.tooltip	"元に戻す">
@@ -110,8 +115,8 @@
 
 <!ENTITY historyButton.label		"履歴">
 <!ENTITY historyButton.tooltip		"最近表示したページの履歴をサイドバーに表示します">
-<!ENTITY bookmarksButton.accesskey	"B">
-<!ENTITY bookmarksCmd.commandkey	"b">
+<!ENTITY historySidebarCmd.accesskey	"s">
+<!ENTITY historySidebarCmd.commandKey	"h">
 
 <!ENTITY toolsMenu.label		"ツール">
 <!ENTITY toolsMenu.accesskey		"T">
@@ -197,7 +202,7 @@
 <!ENTITY showAllHistoryCmd.commandkey	"H">
 
 <!ENTITY openCmd.commandkey		"l">
-<!ENTITY urlbar.bookmarkhistory.emptyText "履歴とブックマークを検索">
+<!ENTITY urlbar.bookmarkhistory.emptyText	"履歴とブックマークを検索">
 <!ENTITY urlbar.bookmark.emptyText	"ブックマークを検索">
 <!ENTITY urlbar.history.emptyText	"履歴を検索">
 <!ENTITY urlbar.none.emptyText		"ページの URL を入力">
@@ -310,8 +315,6 @@
 <!ENTITY copyAudioURLCmd.label		"オーディオの URL をコピー">
 <!ENTITY copyAudioURLCmd.accesskey	"o">
 <!ENTITY blockImageCmd.accesskey	"B">
-<!ENTITY metadataCmd.label		"@@PropertyCMD@@">
-<!ENTITY metadataCmd.accesskey		"P">
 <!ENTITY copyEmailCmd.label		"メールアドレスをコピー">
 <!ENTITY copyEmailCmd.accesskey		"E">
 <!ENTITY thisFrameMenu.label		"このフレーム">
@@ -366,6 +369,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY cutButton.tooltip		"@@Cut@@">
 <!ENTITY copyButton.tooltip		"コピー">
 <!ENTITY pasteButton.tooltip		"@@Paste@@">
+<!ENTITY fullScreenButton.tooltip	"@@Window@@を画面全体に表示します">
 
 <!ENTITY quitApplicationCmdWin.label	"終了">
 <!ENTITY quitApplicationCmdWin.accesskey	"x">
@@ -444,4 +448,4 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY downloadMonitor2.tooltip		"クリックするとダウンロード@@Window@@を開きます">
 
-<!ENTITY ctrlTab.search.emptyText		"タブを検索">
+<!ENTITY allTabs.filter.emptyText		"タブを検索">

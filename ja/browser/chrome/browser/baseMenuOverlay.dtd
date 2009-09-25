@@ -12,9 +12,8 @@
 <!ENTITY helpMenuWin.accesskey		"H">
 <!ENTITY aboutCmd.label			"&brandFullName; について">
 <!ENTITY aboutCmd.accesskey		"A">
-<!ENTITY helpContents.label		"&brandShortName; ヘルプ">
-<!ENTITY helpContents.accesskey		"H">
-<!ENTITY helpContentsMac.label		"&brandShortName; ヘルプ">
+<!ENTITY productHelp.label		"&brandShortName; ヘルプ">
+<!ENTITY productHelp.accesskey		"H">
 <!ENTITY helpForIEUsers.label		"Internet Explorer ユーザのために">
 <!ENTITY helpForIEUsers.accesskey	"I">
 <!ENTITY openHelp.commandkey		"VK_F1">
@@ -22,6 +21,10 @@
 
 <!ENTITY helpReleaseNotes.label		"リリースノート">
 <!ENTITY helpReleaseNotes.accesskey	"N">
+
+<!ENTITY helpTroubleshooting.label	"トラブルシューティング情報...">
+<!ENTITY helpTroubleshooting.accesskey	"T">
+
 <!ENTITY updateCmd.label		"ソフトウェアの更新を確認...">
 
 <!ENTITY preferencesCmdMac.label        "環境設定...">
