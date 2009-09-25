@@ -48,8 +48,8 @@
 <!ENTITY resetToolbars.label		"ツールバーとコントロールをリセットする"><!-- Reset toolbars and controls -->
 <!ENTITY resetToolbars.accesskey	"R">
 
-<!ENTITY resetBookmarks.label		"ブックマークをリセットする">
-<!ENTITY resetBookmarks.accesskey	"b">
+<!ENTITY deleteBookmarks.label		"バックアップ以外すべてのブックマークを削除する">
+<!ENTITY deleteBookmarks.accesskey	"b">
 
 <!ENTITY resetUserPrefs.label		"すべてのユーザ設定をリセットする">
 <!ENTITY resetUserPrefs.accesskey	"p">
