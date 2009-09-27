@@ -36,7 +36,7 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!-- Title -->
-<!ENTITY selectAddressWindow.title           "Select Addresses">
+<!ENTITY selectAddressWindow.title           "アドレスの選択">
 
 <!-- Buttons -->
 <!ENTITY toButton.label                      "To-&gt;"> 
@@ -45,21 +45,21 @@
 <!ENTITY ccButton.accesskey                  "C"> 
 <!ENTITY bccButton.label                     "Bcc-&gt;">  
 <!ENTITY bccButton.accesskey                 "B">  
-<!ENTITY newButton.label                     "New..."> 
+<!ENTITY newButton.label                     "新規..."> 
 <!ENTITY newButton.accesskey                 "N"> 
-<!ENTITY editButton.label                    "Edit..."> 
+<!ENTITY editButton.label                    "編集..."> 
 <!ENTITY editButton.accesskey                "E">
-<!ENTITY removeButton.label                  "Remove"> 
+<!ENTITY removeButton.label                  "削除"> 
 <!ENTITY removeButton.accesskey              "R"> 
 <!ENTITY lookIn.label                        "Look in:"> 
 <!ENTITY lookIn.accesskey                    "L"> 
 <!ENTITY for.label                           "for:"> 
 <!ENTITY for.accesskey                       "f"> 
-<!ENTITY clearButton.label                   "Clear">
+<!ENTITY clearButton.label                   "クリア">
 <!ENTITY clearButton.accesskey               "a">
 <!ENTITY addressMessageTo.label              "Address message to:"> 
 
 <!-- Tooltips items -->  
-<!ENTITY addressPickerNewButton.tooltip      "Create a new address book card"> 
-<!ENTITY addressPickerEditButton.tooltip     "Edit the selected card"> 
+<!ENTITY addressPickerNewButton.tooltip      "新しいアドレスブックを作成"><!--Create a new address book card--> 
+<!ENTITY addressPickerEditButton.tooltip     "選択したカードを編集"><!--Edit the selected card-->
 

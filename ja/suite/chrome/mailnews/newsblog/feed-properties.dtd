@@ -1,19 +1,19 @@
 <!-- Feed Properties Dialog -->
-<!ENTITY window.title             "Feed Properties">
+<!ENTITY window.title             "フィードの@@Property@@">
 
-<!ENTITY feedFolder.label         "Store Articles in: ">
+<!ENTITY feedFolder.label         "記事の保存先: ">
 <!ENTITY feedFolder.accesskey     "S">
 
-<!ENTITY feedLocation.label       "Feed URL: ">
+<!ENTITY feedLocation.label       "フィード URL: ">
 <!ENTITY feedLocation.accesskey   "F">
 
-<!ENTITY choosethisfolder.label   "choose this folder">
+<!ENTITY choosethisfolder.label   "このフォルダを選択">
 
-<!ENTITY quickMode.label          "Show the article summary instead of loading the web page">
+<!ENTITY quickMode.label          "Web ページを読み込まずに記事の要約を表示する">
 <!ENTITY quickMode.accesskey      "h">
 
-<!ENTITY copyLinkCmd.label        "Copy Link Location">
+<!ENTITY copyLinkCmd.label        "リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey    "C">
 
-<!ENTITY pasteLinkCmd.label       "Paste">
+<!ENTITY pasteLinkCmd.label       "@@Paste@@">
 <!ENTITY pasteLinkCmd.accesskey   "P">
