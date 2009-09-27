@@ -37,24 +37,24 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY emailSectionHdr.label        "Email"> 
-<!ENTITY readMsgsLink.label           "Read messages"> 
-<!ENTITY composeMsgLink.label         "Compose a new message"> 
+<!ENTITY emailSectionHdr.label        "メール"> 
+<!ENTITY readMsgsLink.label           "メッセージを読む"> 
+<!ENTITY composeMsgLink.label         "新しいメッセージを書く"> 
 
-<!ENTITY newsSectionHdr.label         "Newsgroups"> 
-<!ENTITY subscribeNewsLink.label      "Manage newsgroup subscriptions"> 
+<!ENTITY newsSectionHdr.label         "ニュースグループ"> 
+<!ENTITY subscribeNewsLink.label      "購読するニュースグループを管理"> 
 
-<!ENTITY accountsSectionHdr.label     "Accounts"> 
-<!ENTITY subscribeImapFolders.label   "Manage folder subscriptions"> 
-<!ENTITY settingsLink.label           "View settings for this account"> 
-<!ENTITY newAcctLink.label            "Create a new account"> 
+<!ENTITY accountsSectionHdr.label     "アカウント"> 
+<!ENTITY subscribeImapFolders.label   "購読するフォルダを管理"> 
+<!ENTITY settingsLink.label           "このアカウント設定を表示"> 
+<!ENTITY newAcctLink.label            "@@New-CMD@@アカウントを作成する"> 
 
-<!ENTITY advFeaturesSectionHdr.label  "Advanced Features"> 
-<!ENTITY searchMsgsLink.label         "Search messages"> 
-<!ENTITY filtersLink.label            "Manage message filters">
-<!ENTITY junkSettings.label           "Junk mail settings">
-<!ENTITY offlineLink.label            "Offline settings">
+<!ENTITY advFeaturesSectionHdr.label  "高度な機能"> 
+<!ENTITY searchMsgsLink.label         "メッセージを検索"> 
+<!ENTITY filtersLink.label            "メッセージフィルタの設定を変更">
+<!ENTITY junkSettings.label           "迷惑メールフィルタの設定を変更">
+<!ENTITY offlineLink.label            "オフライン作業の設定を変更">
 
-<!ENTITY rssSectionHdr.label          "RSS News &amp; Blogs"> 
-<!ENTITY subscibeRSS.label            "Manage subscriptions"> 
+<!ENTITY rssSectionHdr.label          "RSS ニュース &amp; ブログ"> 
+<!ENTITY subscibeRSS.label            "購読するニュースやブログを管理"> 
 

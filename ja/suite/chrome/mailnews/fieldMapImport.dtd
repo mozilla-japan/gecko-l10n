@@ -35,21 +35,21 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY fieldMapImport.title "Import Address Book">
+<!ENTITY fieldMapImport.title "アドレス帳を@@ImportNoun@@">
 <!ENTITY fieldMapImport.size "width: 40em; height: 30em;">
-<!ENTITY fieldMapImport.recordNumber "Imported data for Record: ">
-<!ENTITY fieldMapImport.next.label "Next">
+<!ENTITY fieldMapImport.recordNumber "@@Import-suru@@データを取り込み中: ">
+<!ENTITY fieldMapImport.next.label "次">
 <!ENTITY fieldMapImport.next.accesskey "N">
-<!ENTITY fieldMapImport.previous.label "Previous">
+<!ENTITY fieldMapImport.previous.label "戻る">
 <!ENTITY fieldMapImport.previous.accesskey "P">
-<!ENTITY fieldMapImport.text "Use Move Up and Move Down to match the address book fields on the left to the correct data for import on the right. Uncheck items you do not want to import.">
-<!ENTITY fieldMapImport.up.label "Move Up">
+<!ENTITY fieldMapImport.text "左右に表示されたアドレス帳のフィールドを @@[@@上へ@@]@@ ボタンと @@[@@下へ@@]@@ ボタンで適切に合わせてください。">
+<!ENTITY fieldMapImport.up.label "上へ移動">
 <!ENTITY fieldMapImport.up.accesskey "U">
-<!ENTITY fieldMapImport.down.label "Move Down">
+<!ENTITY fieldMapImport.down.label "下へ移動">
 <!ENTITY fieldMapImport.down.accesskey "D">
-<!ENTITY fieldMapImport.fieldListTitle "Address Book fields">
-<!ENTITY fieldMapImport.dataTitle "Record data to import">
-<!ENTITY fieldMapImport.skipFirstRecord.label "First record contains field names">
+<!ENTITY fieldMapImport.fieldListTitle "アドレス帳のフィールド">
+<!ENTITY fieldMapImport.dataTitle "@@Import-suru@@記録データ">
+<!ENTITY fieldMapImport.skipFirstRecord.label "最初の記録は、フィールド名を含みます">
 <!ENTITY fieldMapImport.skipFirstRecord.accessKey "F">
 
 
