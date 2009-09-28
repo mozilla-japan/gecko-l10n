@@ -1,4 +1,4 @@
-google
+google-jp
 amazon-jp
 excite_eiwa
 excite_enja
@@ -6,5 +6,3 @@ excite_jaen
 excite_waei
 wni
 yahoo-jp
-dmoz
-jeeves
