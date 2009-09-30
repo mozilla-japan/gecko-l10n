@@ -65,3 +65,4 @@ all                                                             dynamis         
 all Fx                  28805:30aa3539cedc  2718:2457fbd6cc1f   dynamis         diff of mozilla-1.9.1 and mozilla-central
 all except Fx           -----:------------  3750:363607117bbb   mar             merge from mozilla-1.9.1, changeset 369
 all Fx                  31908:ad95be4fe45d  3893:f0c54256d80a   dynamis         sync with Fx3.6b1, changeset 376
+all Fx                  31975:23ede72138f8  3987:22ea93f331b0   dynamis         sync with mozilla-1.9.2, changeset 390
