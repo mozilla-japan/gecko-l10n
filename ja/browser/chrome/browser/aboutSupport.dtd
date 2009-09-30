@@ -7,7 +7,6 @@
 <!ENTITY aboutSupport.extensionName		"名前">
 <!ENTITY aboutSupport.extensionEnabled		"有効">
 <!ENTITY aboutSupport.extensionVersion		"バージョン">
-<!ENTITY aboutSupport.extensionFirstRun		"初回起動">
 <!ENTITY aboutSupport.extensionId		"ID">
 
 <!ENTITY aboutSupport.appBasicsTitle		"アプリケーション基本情報">
