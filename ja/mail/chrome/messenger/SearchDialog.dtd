@@ -18,8 +18,8 @@
 <!ENTITY fileButton.label		"移動">
 <!ENTITY fileButton.accesskey		"i">
 <!ENTITY closeCmd.key			"W"> 
-<!ENTITY goToFolderButton.label		"メッセージフォルダを開く">
-<!ENTITY goToFolderButton.accesskey	"r">
+<!ENTITY openInFolder.label		"フォルダを開く">
+<!ENTITY openInFolder.accesskey		"r">
 <!ENTITY saveAsVFButton.label		"検索フォルダとして保存"><!-- (^^; Save as Search Folder -->
 <!ENTITY saveAsVFButton.accesskey	"v">
 

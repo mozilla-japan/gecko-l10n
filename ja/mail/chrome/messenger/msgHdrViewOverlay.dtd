@@ -60,19 +60,41 @@
 
 <!ENTITY editMessageDescription.label		"このメッセージは下書きです">
 <!ENTITY editMessageButton.label		"編集...">
-<!ENTITY archiveButton.label			"アーカイブ">
+<!ENTITY hdrArchiveButton.label			"アーカイブ">
+<!ENTITY hdrArchiveButton.tooltip		"このメッセージをアーカイブに移動します">
 <!ENTITY hdrReplyButton.label			"返信">
+<!ENTITY hdrReplyButton.tooltip			"このメッセージの差出人に返信します">
 <!ENTITY hdrReplyAllButton.label		"全員に返信">
+<!ENTITY hdrReplyAllButton.tooltip		"このメッセージの差出人と他の受信者全員に返信します">
 <!ENTITY hdrReplyListButton.label		"リストに返信">
+<!ENTITY hdrReplyListButton.tooltip		"メーリングリストに返信します">
 <!ENTITY hdrForwardButton.label			"転送">
+<!ENTITY hdrForwardButton.tooltip		"このメッセージを転送します">
 <!ENTITY hdrJunkButton.label			"迷惑マークを付ける">
-<!ENTITY trashButton.tooltiptext		"このメッセージを削除します">
+<!ENTITY hdrJunkButton.tooltip			"このメッセージに迷惑マークを付けます">
+<!ENTITY hdrTrashButton.label			"削除">
+<!ENTITY hdrTrashButton.tooltip			"このメッセージを削除します">
+
+<!ENTITY hdrViewToolbarShowFull.label		"アイコンとテキストを表示">
+<!ENTITY hdrViewToolbarShowFull.accesskey	"a">
+<!ENTITY hdrViewToolbarShowIcons.label		"アイコンのみを表示">
+<!ENTITY hdrViewToolbarShowIcons.accesskey	"I">
+<!ENTITY hdrViewToolbarShowText.label		"テキストのみを表示">
+<!ENTITY hdrViewToolbarShowText.accesskey	"T">
+<!ENTITY hdrViewToolbarAlwaysReplySender.label	"差出人への返信ボタンを常に表示">
+<!ENTITY hdrViewToolbarAlwaysReplySender.accesskey	"R">
 
 <!ENTITY otherActionsButton.label		"その他の操作">
+<!ENTITY otherActionsShowConversation.label	"スレッドを@@NewTab@@で開く">
+<!ENTITY otherActionsShowConversation.accesskey	"c">
 <!ENTITY otherActionsOpenInNewWindow.label	"@@NewWindow@@で開く">
 <!ENTITY otherActionsOpenInNewWindow.accesskey	"w">
 <!ENTITY otherActionsOpenInNewTab.label		"@@NewTab@@で開く">
 <!ENTITY otherActionsOpenInNewTab.accesskey	"t">
+<!ENTITY markAsReadMenuItem.label		"既読にする">
+<!ENTITY markAsReadMenuItem.accesskey		"r">
+<!ENTITY markAsUnreadMenuItem.label		"未読にする">
+<!ENTITY markAsUnreadMenuItem.accesskey		"r">
 <!ENTITY saveAsMenuItem.label			"@@SaveAs@@...">
 <!ENTITY saveAsMenuItem.accesskey		"s">
 <!ENTITY viewSourceMenuItem.label		"ソースを表示">

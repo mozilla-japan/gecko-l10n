@@ -39,7 +39,7 @@
 <!ENTITY viewToolbarsMenu.label		"ツールバー">
 <!ENTITY viewToolbarsMenu.accesskey	"T">
 <!ENTITY showTaskbarCmd.label		"ステータスバー">
-<!ENTITY showTaskbarCmd.accesskey	"S">
+<!ENTITY showTaskbarCmd.accesskey	"u">
 
 <!ENTITY proxy.label			"プロキシ設定...">
 <!ENTITY proxy.accesskey		"C">
