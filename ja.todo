@@ -3,6 +3,8 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 その他単純な差分以外でやり残しについてのメモもこのファイルにどうぞ
 
 mar:
+	ja/mail/chrome/messenger/featureConfigurator.dtd の翻訳。
+
 	ja/mail/chrome/messenger/msgmdn.properties の翻訳。
 
 	ja/calendar/chrome/calendar/calendar-event-dialog.properties

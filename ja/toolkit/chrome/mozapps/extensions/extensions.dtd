@@ -54,7 +54,7 @@
 <!ENTITY cmd.options.accesskey			"O">
 <!ENTITY cmd.options.tooltip			"選択した拡張機能の設定を変更します">
 <!ENTITY cmd.optionsUnix.label			"設定">
-<!ENTITY cmd.optionsUnix.accesskey		"r">
+<!ENTITY cmd.optionsUnix.accesskey		"P">
 <!ENTITY cmd.optionsUnix.tooltip		"選択した拡張機能の設定を変更します">
 <!ENTITY cmd.enable.label			"有効化">
 <!ENTITY cmd.enable.accesskey			"E">

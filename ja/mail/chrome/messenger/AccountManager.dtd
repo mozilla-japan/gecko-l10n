@@ -2,10 +2,14 @@
 
 <!ENTITY accountManagerTitle.label	"アカウント設定">
 
-<!ENTITY addAccountButton.label		"アカウントを追加...">
-<!ENTITY addAccountButton.accesskey	"A">
+<!ENTITY accountActionsButton.label	"アカウント操作">
+<!ENTITY accountActionsButton.accesskey	"A">
+<!ENTITY addMailAccountButton.label	"メールアカウントを追加...">
+<!ENTITY addMailAccountButton.accesskey	"A">
+<!ENTITY addOtherAccountButton.label	"他のサービスのアカウントを追加...">
+<!ENTITY addOtherAccountButton.accesskey "O">
 <!ENTITY setDefaultButton.label		"@@Default-@@アカウントに設定">
-<!ENTITY setDefaultButton.accesskey	"f">
+<!ENTITY setDefaultButton.accesskey	"D">
 <!ENTITY removeButton.label		"アカウントを削除">
 <!ENTITY removeButton.accesskey		"R">
 
