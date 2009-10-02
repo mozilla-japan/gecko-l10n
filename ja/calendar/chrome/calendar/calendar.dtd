@@ -203,7 +203,7 @@
 <!ENTITY calendar.context.button.accesskey		"T" >
 
 <!-- Task Context Menu -->
-<!ENTITY calendar.context.progress.label		"進捗">
+<!ENTITY calendar.context.progress.label		"進行状況">
 <!ENTITY calendar.context.progress.accesskey		"P">
 <!ENTITY calendar.context.priority.label		"重要度">
 <!ENTITY calendar.context.priority.accesskey		"r">
