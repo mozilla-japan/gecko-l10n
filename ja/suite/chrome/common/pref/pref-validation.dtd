@@ -73,7 +73,7 @@
 <!ENTITY  edit.button                             "設定">
 
 <!ENTITY validation.ocsp.caption                  "OCSP">
-<!ENTITY enableOCSP.label                         "Use the Online Certificate Status Protocol (OCSP) to confirm the current validity of certificates">
+<!ENTITY enableOCSP.label                         "オンライン証明書状態プロトコル (OCSP) を使用すると、証明書の現在の正当性を検証できます。">
 <!ENTITY enableOCSP.accesskey                     "U">
 <!ENTITY certOCSP2.label                          "OCSP サーバが指定されている証明書だけを検証する">
 <!ENTITY certOCSP2.accesskey                      "V">
