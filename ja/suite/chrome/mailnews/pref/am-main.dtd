@@ -17,7 +17,7 @@
 <!ENTITY organization.accesskey "O">
 <!ENTITY signature.label "メッセージに次の署名を挿入する:">
 <!ENTITY signature.accesskey "t">
-<!ENTITY edit.label "変種...">
+<!ENTITY edit.label "編集...">
 <!ENTITY choose.label "@@Browse@@...">
 <!ENTITY choose.accesskey "C">
 <!ENTITY editVCard.label "vCard を編集...">
