@@ -68,15 +68,15 @@
 <!ENTITY sortDescending.accesskey              "D">
 
 <!-- context menu -->
-<!ENTITY composeEmail.label                    "Compose Email To">
+<!ENTITY composeEmail.label                    "メッセージを作成"><!-- "Compose Email To" -->
 <!ENTITY composeEmail.accesskey                "C">
-<!ENTITY copyAddress.label                     "Copy Email Address">
+<!ENTITY copyAddress.label                     "メールアドレスをコピー">
 <!ENTITY copyAddress.accesskey                 "A">
-<!ENTITY deleteAddrBookCard.label              "Delete">
+<!ENTITY deleteAddrBookCard.label              "削除">
 <!ENTITY deleteAddrBookCard.accesskey          "D">
-<!ENTITY newAddrBookCard.label                 "New Card...">
+<!ENTITY newAddrBookCard.label                 "@@New-CMD@@連絡先...">
 <!ENTITY newAddrBookCard.accesskey             "N">
-<!ENTITY newAddrBookMailingList.label          "New Mailing List...">
+<!ENTITY newAddrBookMailingList.label          "@@New-CMD@@アドレスリスト...">
 <!ENTITY newAddrBookMailingList.accesskey      "M">
-<!ENTITY addrBookCardProperties.label          "Properties">
+<!ENTITY addrBookCardProperties.label          "@@PropertyCMD@@">
 <!ENTITY addrBookCardProperties.accesskey      "P">

@@ -39,27 +39,25 @@
 <!ENTITY selectAddressWindow.title           "アドレスの選択">
 
 <!-- Buttons -->
-<!ENTITY toButton.label                      "To-&gt;"> 
-<!ENTITY toButton.accesskey                  "T"> 
-<!ENTITY ccButton.label                      "Cc-&gt;"> 
+<!ENTITY toButton.label                      "To-&gt;">
+<!ENTITY toButton.accesskey                  "T">
+<!ENTITY ccButton.label                      "Cc-&gt;">
 <!ENTITY ccButton.accesskey                  "C"> 
-<!ENTITY bccButton.label                     "Bcc-&gt;">  
+<!ENTITY bccButton.label                     "Bcc-&gt;">
 <!ENTITY bccButton.accesskey                 "B">  
-<!ENTITY newButton.label                     "新規..."> 
-<!ENTITY newButton.accesskey                 "N"> 
-<!ENTITY editButton.label                    "編集..."> 
+<!ENTITY newButton.label                     "新規...">
+<!ENTITY newButton.accesskey                 "N">
+<!ENTITY editButton.label                    "編集...">
 <!ENTITY editButton.accesskey                "E">
-<!ENTITY removeButton.label                  "削除"> 
-<!ENTITY removeButton.accesskey              "R"> 
-<!ENTITY lookIn.label                        "Look in:"> 
-<!ENTITY lookIn.accesskey                    "L"> 
-<!ENTITY for.label                           "for:"> 
-<!ENTITY for.accesskey                       "f"> 
-<!ENTITY clearButton.label                   "クリア">
-<!ENTITY clearButton.accesskey               "a">
+<!ENTITY removeButton.label                  "削除">
+<!ENTITY removeButton.accesskey              "R">
+<!ENTITY lookIn.label                        "Look in:">
+<!ENTITY lookIn.accesskey                    "L">
+<!ENTITY for.label                           "for:">
+<!ENTITY for.accesskey                       "f">
 <!ENTITY addressMessageTo.label              "Address message to:"> 
 
 <!-- Tooltips items -->  
-<!ENTITY addressPickerNewButton.tooltip      "新しいアドレスブックを作成"><!--Create a new address book card--> 
-<!ENTITY addressPickerEditButton.tooltip     "選択したカードを編集"><!--Edit the selected card-->
+<!ENTITY addressPickerNewButton.tooltip      "@@New-CMD@@アドレス帳を作成します"><!--Create a new address book card--> 
+<!ENTITY addressPickerEditButton.tooltip     "選択した連絡先を編集します"><!--Edit the selected card-->
 
