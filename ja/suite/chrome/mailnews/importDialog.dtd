@@ -37,26 +37,31 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY importDialog.windowTitle "設定とデータの@@ImportNoun@@">
-<!ENTITY importDialog.allTitle    "すべて@@Import@@">
-<!ENTITY importDialog.mailTitle   "メール">
-<!ENTITY importDialog.addressbookTitle "アドレス帳">
-<!ENTITY importDialog.settingsTitle "設定">
-<!ENTITY importDialog.filtersTitle "フィルタ(ルール)">
+<!ENTITY importAll.label          "すべて@@Import@@">
+<!ENTITY importAll.accesskey      "E">
+<!ENTITY importMail.label         "メール">
+<!ENTITY importMail.accesskey     "M">
+<!ENTITY importAddressbook.label  "アドレス帳">
+<!ENTITY importAddressbook.accesskey "A">
+<!ENTITY importSettings.label     "設定">
+<!ENTITY importSettings.accesskey "S">
+<!ENTITY importFilters.label      "フィルタ(ルール)">
+<!ENTITY importFilters.accesskey  "F">
 
-<!ENTITY  window.width			"51em"><!-- en-US: 40em -->
-<!ENTITY  window.macWidth		"45em"><!-- en-US: 45em -->
+<!ENTITY  window.width            "51em"><!-- en-US: 40em -->
+<!ENTITY  window.macWidth         "45em"><!-- en-US: 45em -->
 
 <!ENTITY importTitle.label        "&brandShortName; @@ImportNoun@@@@Wizard@@">
 <!ENTITY importShortDesc.label    "他のソフトからメール、アドレス帳、設定やフィルタを@@Import-simasu@@">
 
+<!ENTITY importDescription1.label "他のメールソフトや一般的な形式のアドレス帳からメッセージ、アドレス帳、設定、フィルタなどを@@Import-simasu@@。">
+<!ENTITY importDescription2.label "@@ImportNoun@@後は &brandShortName; のメールやアドレス帳からアクセスできるようになります。">
 
-<!ENTITY importDescription1.label	"他のメールソフトや一般的な形式のアドレス帳からメッセージ、アドレス帳、設定、フィルタなどを取り込みます。">
-<!ENTITY importDescription2.label	"@@ImportNoun@@後は &brandShortName; のメールやアドレス帳からアクセスできるようになります。">
-
-<!ENTITY selectDescription.label	"@@ImportNoun@@元のファイルタイプを選択してください:">
+<!ENTITY selectDescription.label  "@@ImportNoun@@元のファイルタイプを選択してください:">
+<!ENTITY selectDescription.accesskey "P">
 
 <!ENTITY back.label               "&lt; 戻る">
-<!ENTITY forward.label            "次 &gt;">
+<!ENTITY forward.label            "次へ &gt;">
 <!ENTITY finish.label             "完了">
 <!ENTITY cancel.label             "キャンセル">
 
@@ -65,8 +70,10 @@
 <!ENTITY title.label              "タイトル">
 <!ENTITY processing.label         "@@Import-site@@います...">
 
-<!ENTITY FieldDiscInputText1.label	"Netscape Communicator 4.x ではカードごとに 1 つメールアドレスを書きますが、&brandShortName; では自宅と勤務先の 2 つを書けます。">
-<!ENTITY FieldDiscInputText2.label	"@@Import-sare@@たメールアドレスを保存するカテゴリを選択してください:">
-<!ENTITY FieldDiscWarning.label		"選択されたアドレス帳のすべての項目をこのカテゴリに収めます:">
-<!ENTITY importDialog.homeTitle  "自宅">
-<!ENTITY importDialog.workTitle  "勤務先">
+<!ENTITY FieldDiscInputText1.label  "Netscape Communicator 4.x ではカードごとに 1 つメールアドレスしか書けませんが、&brandShortName; では自宅と勤務先の 2 つを書けます。">
+<!ENTITY FieldDiscInputText2.label  "@@Import-sare@@たメールアドレスを保存するカテゴリを選択してください:">
+<!ENTITY FieldDiscWarning.label  "選択されたアドレス帳のすべての項目をこのカテゴリに収めます:">
+<!ENTITY importHome.label        "自宅">
+<!ENTITY importHome.accesskey    "H">
+<!ENTITY importWork.label        "勤務先">
+<!ENTITY importWork.accesskey    "W">

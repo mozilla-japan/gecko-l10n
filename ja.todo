@@ -7,3 +7,27 @@ mar:
 
 	ja/calendar/chrome/calendar/calendar-event-dialog.properties
 		plural forms をどうするか。
+
+
+tooyama さんへ: 未訳リスト(mailnews 直下のファイルのみ)
+  /suite/chrome/mailnews/
+	eudoraImportMsgs.properties
+	filter.properties
+	FilterEditor.dtd
+	FilterListDialog.dtd
+	folderProps.dtd
+	gloda.properties
+	imapMsgs.properties
+	importMsgs.properties
+	messenger.dtd
+	messenger.properties
+	mime.properties
+	news.properties
+	oeImportMsgs.properties
+	offline.properties
+	outlookImportMsgs.properties
+	search-attributes.properties
+	start.dtd
+	textImportMsgs.properties
+	threadpane.dtd
+	vcard.properties

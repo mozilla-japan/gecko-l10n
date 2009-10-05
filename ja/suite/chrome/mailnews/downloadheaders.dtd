@@ -44,11 +44,10 @@
 	 Either label could be set to null ("") if required grammatically.
 -->
 
-<!ENTITY download.label     "ダウンロード">
+<!ENTITY download.label     "">
 <!ENTITY download.accesskey "o">
 <!--LOCALIZATION NOTE (headers.label): see note for download.label -->
-<!ENTITY headers.label      "ヘッダ">
+<!ENTITY headers.label      "個のヘッダをダウンロード">
 <!ENTITY headers.accesskey  "h">
-<!--<!ENTITY mark.label         "Mark remaining headers as read">-->
-<!ENTITY mark.label         "このヘッダを評価">
+<!ENTITY mark.label         "残りのヘッダを既読にする"><!-- "Mark remaining headers as read" -->
 <!ENTITY mark.accesskey     "M">

@@ -31,7 +31,7 @@
 
 <!ENTITY emailLabel.label "メールアドレス:">
 <!ENTITY emailLabel.accesskey "E">
-<!ENTITY emailDesc.label "あなたのメールアドレスを入力してください;これは、他の人があなたにメールを送るために使うアドレスです">
+<!ENTITY emailDesc.label "あなたのメールアドレスを入力してください。これは、他の人があなたにメールを送るために使うアドレスです">
 <!-- LOCALIZATION NOTE (emailExample.label) : do not translate "user@example.net" in below line -->
 <!ENTITY emailExample.label "(例: user@example.net).">
 
