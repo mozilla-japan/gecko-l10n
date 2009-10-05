@@ -1,7 +1,7 @@
 <!-- (^^; en-US の UI 画面自体がイマイチな気がするし、訳しにくすぎ…(>_<) -->
 <!ENTITY doNotDownloadPop3Movemail.label	"次のメッセージはダウンロードしない:">
 <!ENTITY doNotDownloadNntp.label		"次のメッセージはオフライン表示用にダウンロードしない:">
-<!ENTITY doNotDownloadImap.label		"指定したサイズまたは期間のメッセージをオフライン表示用にダウンロードしてローカルにコピーを保存する。">
+<!ENTITY doNotDownloadImap.label		"指定したサイズまたは期間のメッセージをオフライン表示用にダウンロードしてローカルにコピーを保存します。">
 <!ENTITY allFoldersOffline.label		"このアカウントのメッセージをこのコンピュータに保存する">
 <!ENTITY allFoldersOffline.accesskey		"o">
 <!ENTITY offlineNotDownload.label		"メッセージのサイズが"><!-- (^^; ... kb.label -->
