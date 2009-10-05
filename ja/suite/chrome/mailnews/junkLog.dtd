@@ -37,9 +37,9 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY junkLog.title "Junk Mail Log">
-<!ENTITY junkLogInfo.label "Log of junk mail control activity.">
-<!ENTITY clearLog.label "Clear Log">
+<!ENTITY junkLog.title "迷惑メールログ">
+<!ENTITY junkLogInfo.label "迷惑メールフィルタの動作を記録したログ。">
+<!ENTITY clearLog.label "ログを@@Clear@@">
 <!ENTITY clearLog.accesskey "C">
-<!ENTITY closeLog.label "Close">
+<!ENTITY closeLog.label "閉じる">
 <!ENTITY closeLog.accesskey "o">

@@ -36,12 +36,12 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!-- Labels -->
-<!ENTITY newFolderDialog.title      "New Folder">
-<!ENTITY name.label                 "Name:">
+<!ENTITY newFolderDialog.title      "@@New-CMD@@フォルダ">
+<!ENTITY name.label                 "名前:">
 <!ENTITY name.accesskey             "n">
-<!ENTITY description.label          "Create as a subfolder of:">
+<!ENTITY description.label          "作成先:">
 <!ENTITY description.accesskey      "c">
-<!ENTITY folderRestriction1.label   "This server restricts folders to two special kinds.">
-<!ENTITY folderRestriction2.label   "Allow your new folder to contain:">
-<!ENTITY foldersOnly.label          "Folders Only">
-<!ENTITY messagesOnly.label         "Messages Only">
+<!ENTITY folderRestriction1.label   "このサーバではフォルダの中身が制限されています。">
+<!ENTITY folderRestriction2.label   "新しいフォルダに入れるものを選択してください:">
+<!ENTITY foldersOnly.label          "サブフォルダだけを入れる">
+<!ENTITY messagesOnly.label         "メッセージだけを入れる">
