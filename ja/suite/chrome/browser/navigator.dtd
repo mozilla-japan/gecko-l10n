@@ -171,8 +171,8 @@
 <!ENTITY navigationToolbar.tooltip        "ナビゲーションツールバー">
 
 <!-- Toolbar items --> 
-<!ENTITY backButton.label             "もどる">
-<!ENTITY backButton.tooltip           "ひとつ前のページにもどる">
+<!ENTITY backButton.label             "戻る">
+<!ENTITY backButton.tooltip           "ひとつ前のページに戻る">
 <!ENTITY forwardButton.label          "次へ">
 <!ENTITY forwardButton.tooltip        "一つ先のページへ進む">
 <!ENTITY reloadButton.label           "再読み込み">
