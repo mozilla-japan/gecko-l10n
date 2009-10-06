@@ -1,6 +1,4 @@
 <!-- These are added to the Advanced - Scripts & Plugins panel -->
-<!ENTITY enbJsCheckMailNews.label         "Mail &amp; Newsgroups">
-<!ENTITY enbJsCheckMailNews.accesskey     "M">
 <!ENTITY enbPluginCheckMailNews.label     "Mail &amp; Newsgroups">
 <!ENTITY enbPluginCheckMailNews.accesskey "a">
 
@@ -17,8 +15,7 @@
 <!ENTITY composingMessages.label          "Composition">
 <!ENTITY format.label                     "Send Format">
 <!ENTITY return.label                     "Return Receipts">
-<!ENTITY disk.label                       "Disk Space">
-<!ENTITY junk.label                       "Junk Mail">
+<!ENTITY junk.label                       "Junk &amp; Suspect Mail">
 <!ENTITY tags.label                       "Tags">
 <!ENTITY characterEncoding.label          "Character Encoding">
-<!ENTITY offline.label                    "Offline &amp; Disk Space">
+<!ENTITY networkStorage.label             "Network &amp; Storage">
