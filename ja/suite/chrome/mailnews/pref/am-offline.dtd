@@ -1,40 +1,40 @@
-<!ENTITY doNotDownloadPop3Movemail.label "To save disk space, do not download:">
-<!ENTITY doNotDownloadNntp.label "To save disk space, do not download for offline use:">
-<!ENTITY doNotDownloadImap.label "To save disk space, downloading messages from the server and keeping local copies for offline use can be restricted by age or size.">
-<!ENTITY allFoldersOffline.label "Keep messages for this account on this computer">
+<!ENTITY doNotDownloadPop3Movemail.label "次のメッセージはダウンロードしない:">
+<!ENTITY doNotDownloadNntp.label "次のメッセージはオフライン表示用にダウンロードしない:">
+<!ENTITY doNotDownloadImap.label "指定したサイズまたは期間のメッセージをオフライン表示用にダウンロードしてローカルにコピーを保存します。">
+<!ENTITY allFoldersOffline.label "このアカウントのメッセージをこのコンピュータに保存する">
 <!ENTITY allFoldersOffline.accesskey "o">
-<!ENTITY offlineNotDownload.label "Messages larger than">
+<!ENTITY offlineNotDownload.label "メッセージのサイズが">
 <!ENTITY offlineNotDownload.accesskey "M">
-<!ENTITY autosyncNotDownload.label "Don't download messages larger than">
+<!ENTITY autosyncNotDownload.label "次のサイズのメッセージはダウンロードしない:">
 <!ENTITY autosyncNotDownload.accesskey "m">
-<!ENTITY kb.label "KB">
-<!ENTITY daysOld.label "days old">
-<!ENTITY message.label "messages">
-<!ENTITY nntpNotDownloadRead.label "Read messages">
+<!ENTITY kb.label "KB 以上">
+<!ENTITY daysOld.label				"日"><!-- (^^; "days old" -->
+<!ENTITY message.label				"通"><!-- (^^; "messages" -->
+<!ENTITY nntpNotDownloadRead.label "既読メッセージ">
 <!ENTITY nntpNotDownloadRead.accesskey "d">
-<!ENTITY nntpDownloadMsg.label "Messages more than">
+<!ENTITY nntpDownloadMsg.label "送信日時から次の日数以上経過したメッセージ">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "To recover disk space, old messages can be permanently deleted.">
-<!ENTITY retentionCleanupImap.label "To recover disk space, old messages can be permanently deleted, both the local copies and their originals on the server.">
-<!ENTITY retentionCleanupPop.label "To recover disk space, old messages can be permanently deleted, including their originals on the server.">
-<!ENTITY retentionKeepMsg.label "Delete messages more than">
+<!ENTITY retentionCleanup.label "古いメッセージを完全に削除してディスク領域を開放できます。">
+<!ENTITY retentionCleanupImap.label "ローカルのコピーとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
+<!ENTITY retentionCleanupPop.label		"このコンピュータとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
+<!ENTITY retentionKeepMsg.label			"送信日時から次の日数以上経過したメッセージを削除する"><!-- (^^; Delete messages more than ... days.label -->
 <!ENTITY retentionKeepMsg.accesskey "t">
-<!ENTITY retentionKeepAll.label "Don't delete any messages">
+<!ENTITY retentionKeepAll.label "メッセージを自動削除しない">
 <!ENTITY retentionKeepAll.accesskey "n">
-<!ENTITY retentionKeepRecent.label "Delete all but the most recent">
+<!ENTITY retentionKeepRecent.label "最近のメッセージを次の数だけ残して削除する">
 <!ENTITY retentionKeepRecent.accesskey "b">
 <!-- LOCALIZATION NOTE: Unhide with .keepUnreadOnly { display: -moz-box; } -->
-<!ENTITY retentionKeepUnreadHidden.label "Always delete read messages (overrides age settings)">
-<!ENTITY retentionApplyToFlagged.label "Always keep flagged messages">
+<!ENTITY retentionKeepUnreadHidden.label "既読のメッセージは常に削除する (最優先)">
+<!ENTITY retentionApplyToFlagged.label "スター付きのメッセージは残す">
 <!ENTITY retentionApplyToFlagged.accesskey "k">
-<!ENTITY nntpRemoveMsgBody.label "Remove bodies from messages more than">
+<!ENTITY nntpRemoveMsgBody.label "送信日時から次の日数以上経過したメッセージの本文を削除する">
 <!ENTITY nntpRemoveMsgBody.accesskey "o">
-<!ENTITY offlineSelectNntp.label "Select newsgroups for offline use...">
+<!ENTITY offlineSelectNntp.label "オフラインで使用するニュースグループを選択してください...">
 <!ENTITY offlineSelectNntp.accesskey "S">
-<!ENTITY offlineImapAdvancedOffline.label "Advanced...">
+<!ENTITY offlineImapAdvancedOffline.label "詳細...">
 <!ENTITY offlineImapAdvancedOffline.accesskey "v">
-<!ENTITY syncGroupTitle.label "Message Synchronizing">
-<!ENTITY diskspaceGroupTitle.label "Disk Space">
+<!ENTITY syncGroupTitle.label "メッセージの同期">
+<!ENTITY diskspaceGroupTitle.label "ディスク領域">
 
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
@@ -42,13 +42,13 @@
 
   &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
 -->
-<!ENTITY allAutosync.label               "Synchronize all messages locally regardless of age">
+<!ENTITY allAutosync.label		"すべてのメッセージをローカルに同期する"><!-- en-US: Synchronize all messages locally regardless of age -->
 <!ENTITY allAutosync.accesskey           "c">
-<!ENTITY ageAutosyncBefore.label         "Synchronize the most recent">
+<!ENTITY ageAutosyncBefore.label	"最近"><!-- en-US: Synchronize the most recent -->
 <!ENTITY ageAutosync.accesskey           "z">
 <!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Days">
-<!ENTITY weekAgeInterval.label           "Weeks">
-<!ENTITY monthAgeInterval.label          "Months">
-<!ENTITY yearAgeInterval.label           "Years">
-<!ENTITY ageAutosyncAfter.label          "">
+<!ENTITY dayAgeInterval.label            "日">
+<!ENTITY weekAgeInterval.label           "週">
+<!ENTITY monthAgeInterval.label          "カ月">
+<!ENTITY yearAgeInterval.label           "カ年">
+<!ENTITY ageAutosyncAfter.label          "分のメッセージをローカルに同期する">
