@@ -9,7 +9,14 @@ mar:
 		plural forms をどうするか。
 
 
-tooyama さんへ: 未訳リスト(mailnews 直下のファイルのみ)
+tooyama さんへ:
+/suite/chrome 以下の en-US と同期していないディレクトリ:
+	/branding
+	/browser
+	/common
+	/mailnews/pref
+
+未訳リスト(mailnews 直下のファイルのみ)
   /suite/chrome/mailnews/
 	eudoraImportMsgs.properties
 	filter.properties
@@ -31,3 +38,5 @@ tooyama さんへ: 未訳リスト(mailnews 直下のファイルのみ)
 	textImportMsgs.properties
 	threadpane.dtd
 	vcard.properties
+  /suite/chrome/mozldap/
+	ldap.properties
