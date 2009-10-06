@@ -9,7 +9,7 @@
 <!ENTITY itemFormSearchHistory.accesskey "F">
 <!ENTITY itemCache.label                 "キャッシュ">
 <!ENTITY itemCache.accesskey             "a">
-<!ENTITY itemCookies.label               "クッキー">
+<!ENTITY itemCookies.label               "Cookie">
 <!ENTITY itemCookies.accesskey           "C">
 <!ENTITY itemOfflineApps.label           "Web サイトのオフライン用データ">
 <!ENTITY itemOfflineApps.accesskey       "O">
