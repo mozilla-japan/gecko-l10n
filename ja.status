@@ -28,8 +28,7 @@ suite                   comm    Sm              Seamonkey
 toolkit
   chrome                moz     all             
   crashreporter         moz     Fx, Sm          クラッシュレポータ
-
-
+--------------------------------------------------------------------------------
 
         SVN 導入以降の en-US との同期履歴
 
@@ -61,8 +60,29 @@ mail                    24896:aa493c1be6e0  2416:1e4907fbaed7   mar
 mail                    25074:55fddd2e1b17  2527:e3728d17c619   mar             changeset 277
 mail, toolkit           25458:53f838c7c18b  2651:6786ebf24275   mar             changeset 307
 all Fx                  25468:0b3ba1d05309  ????:????????????   a               sync with Fx3.5RC1, changeset 308
-all                                                             dynamis         create branch for l10n-central
+all                     -----:------------  -----:-----------   dynamis         create branch for l10n-central
 all Fx                  28805:30aa3539cedc  2718:2457fbd6cc1f   dynamis         diff of mozilla-1.9.1 and mozilla-central
 all except Fx           -----:------------  3750:363607117bbb   mar             merge from mozilla-1.9.1, changeset 369
 all Fx                  31908:ad95be4fe45d  3893:f0c54256d80a   dynamis         sync with Fx3.6b1, changeset 376
 all Fx                  31975:23ede72138f8  3987:22ea93f331b0   dynamis         sync with mozilla-1.9.2, changeset 390
+
+--------------------------------------------------------------------------------
+
+        現在の同期ターゲットリビジョン
+
+--------------------------------------------------------------------------------
+sync.browser.rev				= 23ede72138f8
+sync.calendar.rev				= 363607117bbb
+sync.dom.rev					= 23ede72138f8
+sync.editor.rev					= 363607117bbb
+sync.extensions.rev				= 23ede72138f8
+sync.mail.rev					= 363607117bbb
+sync.mobile.rev					= 
+sync.netwerk.rev				= 23ede72138f8
+sync.other-licenses.fx.rev		= 23ede72138f8
+sync.other-licenses.tb.rev		= 363607117bbb
+sync.other-licenses.sb.rev		= 363607117bbb
+sync.security.rev				= 23ede72138f8
+sync.suite.rev					= 
+sync.toolkit.rev				= 23ede72138f8
+--------------------------------------------------------------------------------
