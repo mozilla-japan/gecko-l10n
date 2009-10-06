@@ -1,7 +1,7 @@
 <!-- LOCALIZATION NOTE : FILE Mouse-wheel management prefs, for those lucky OSes that support mouse wheels -->
 
-<!ENTITY pref.mouseWheel.title "マウス ホイール">
-<!ENTITY mouseWheelPanel.label "この設定キーを使用した際のマウス ホイールの動きを指定: ">
+<!ENTITY pref.mouseWheel.title "マウスホイール">
+<!ENTITY mouseWheelPanel.label "この設定キーを使用した際のマウスホイールの動きを指定: ">
 <!ENTITY mouseWheelPanel.accesskey "w">
 <!ENTITY usingJustTheWheel.label "設定キーなし">
 <!ENTITY usingWheelAndAlt.label "&altKey.label;">

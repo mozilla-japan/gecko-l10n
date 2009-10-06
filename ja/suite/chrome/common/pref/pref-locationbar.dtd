@@ -1,5 +1,5 @@
 <!--LOCALIZATION NOTE : FILE The Location Bar prefs panel -->
-<!ENTITY pref.locationBar.title                "ロケーション バー">
+<!ENTITY pref.locationBar.title                "ロケーションバー">
 
 <!ENTITY autoComplete.label                    "自動補完">
 <!ENTITY enableAutoComplete.label              "履歴から自動補完する">
@@ -11,7 +11,7 @@
 <!ENTITY autoCompleteMatchOnlyTyped.label      "以前に入力した Web サイトにのみ一致するリストを表示">
 <!ENTITY autoCompleteMatchOnlyTyped.accesskey  "M">
 
-<!ENTITY searchEngine.label                    "インターネット サーチ エンジン">
+<!ENTITY searchEngine.label                    "インターネットサーチエンジン">
 <!ENTITY showSearchEngine.label                "デフォルトのサーチエンジンを表示">
 <!ENTITY showSearchEngine.accesskey            "e">
 

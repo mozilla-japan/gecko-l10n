@@ -192,7 +192,7 @@
 <!ENTITY locationBar.accesskey        "d">
 <!ENTITY locationBar.title            "アドレス (URL)">
 
-<!ENTITY proxyIcon.tooltip            "このアイコンをドラッグ アンド ドロップすると、このページへのリンクが作成されます">
+<!ENTITY proxyIcon.tooltip            "このアイコンをドラッグアンドドロップすると、このページへのリンクが作成されます">
 <!ENTITY internetKeyword.tooltip      "前のページへ戻るかキーワードを選択してください">
 
 <!-- Toolbar items --> 

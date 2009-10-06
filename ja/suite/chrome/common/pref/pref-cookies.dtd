@@ -27,11 +27,11 @@
 
 <!ENTITY warnAboutCookies.label "常に処理方法を確認する">
 <!ENTITY warnAboutCookies.accesskey "A">
-<!ENTITY forCurrentSession.label "セッション クッキーを除く">
+<!ENTITY forCurrentSession.label "セッションクッキーを除く">
 <!ENTITY forCurrentSession.accesskey "e">
 
 <!ENTITY manageCookies.label "クッキーとサイト設定の管理">
-<!ENTITY manageCookiesDescription.label "クッキー マネージャを使用すると、保存されているクッキーを整理したり、サイト設定を見直したりできます。また、上記の設定に関係なく、サイト別の独自の設定を追加することもできます。">
+<!ENTITY manageCookiesDescription.label "クッキーマネージャを使用すると、保存されているクッキーを整理したり、サイト設定を見直したりできます。また、上記の設定に関係なく、サイト別の独自の設定を追加することもできます。">
 
 <!ENTITY viewCookies.label "クッキーの管理">
 <!ENTITY viewCookies.accesskey "M">

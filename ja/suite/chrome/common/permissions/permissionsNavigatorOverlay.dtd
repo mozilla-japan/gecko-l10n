@@ -6,7 +6,7 @@
 <!ENTITY cookieAllowCookiesCmd.label "このサイトからのクッキーを受け入れます">
 <!ENTITY cookieAllowCookiesCmd.accesskey "A">
 <!ENTITY cookieAllowCookiesMsg.label "このサイトからのクッキーを受け入れます">
-<!ENTITY cookieAllowSessionCookiesCmd.label "このサイトからのセッション クッキーを受け入れます">
+<!ENTITY cookieAllowSessionCookiesCmd.label "このサイトからのセッションクッキーを受け入れます">
 <!ENTITY cookieAllowSessionCookiesCmd.accesskey "S">
 <!ENTITY cookieAllowSessionCookiesMsg.label "このサイトからのクッキーは、アプリケーションを終了するまで有効です。">
 <!ENTITY cookieCookiesDefaultCmd.label "デフォルトのクッキー取捨設定を使用">
@@ -37,9 +37,9 @@
 <!ENTITY cookieTutorialCmd.label "プライバシーの理解">
 <!ENTITY cookieTutorialCmd.accesskey "u">
 
-<!ENTITY cookieCookieManager.label "クッキー マネージャ">
+<!ENTITY cookieCookieManager.label "クッキーマネージャ">
 <!ENTITY cookieCookieManager.accesskey "c">
 <!ENTITY cookieImageManager.label "画像マネージャ">
 <!ENTITY cookieImageManager.accesskey "i">
-<!ENTITY cookiePopupManager.label "ポップアップ マネージャ">
+<!ENTITY cookiePopupManager.label "ポップアップマネージャ">
 <!ENTITY cookiePopupManager.accesskey "o">

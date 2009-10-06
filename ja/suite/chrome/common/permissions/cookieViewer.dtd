@@ -18,7 +18,7 @@
 
 <!ENTITY treehead.sitename.label "サイト">
 <!ENTITY treehead.status.label "状況">
-<!ENTITY windowtitle.label "クッキー マネージャ">
+<!ENTITY windowtitle.label "クッキーマネージャ">
 <!ENTITY buttonaccept.label "閉じる">
 
 <!ENTITY blockSite.label "拒否">

@@ -34,7 +34,7 @@
 <!ENTITY language.accesskey "t">
 <!ENTITY language.label "言語用のフォント:">
 <!ENTITY minSize.accesskey "z">
-<!ENTITY minSize.label "最小フォント サイズ:">
+<!ENTITY minSize.label "最小フォントサイズ:">
 <!ENTITY minSize.none "なし">
 <!ENTITY monospace.accesskey "m">
 <!ENTITY monospace.label "モノスペース:">

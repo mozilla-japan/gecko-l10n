@@ -90,7 +90,7 @@
 <!ENTITY menuitem.newbookmarkfolder.accesskey       "b">
 <!ENTITY menuitem.newinternetsearchfolder.label     "新しいインターネット検索フォルダとして設定">
 <!ENTITY menuitem.newinternetsearchfolder.accesskey "i">
-<!ENTITY menuitem.personaltoolbarfolder.label       "パーソナル ツールバーフォルダとして設定">
+<!ENTITY menuitem.personaltoolbarfolder.label       "パーソナルツールバーフォルダとして設定">
 <!ENTITY menuitem.personaltoolbarfolder.accesskey   "p">
 
 <!ENTITY treecol.name.label             "名前">

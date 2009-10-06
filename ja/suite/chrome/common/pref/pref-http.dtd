@@ -12,6 +12,6 @@
 <!ENTITY prefEnablePipelining.accesskey "P">
 <!ENTITY prefEnablePipelining.label "パイプラインを有効にする">
 <!ENTITY prefEnablePipeliningProxy.accesskey "N">
-<!ENTITY prefPara "HTTP 接続はこれらのオプションを使ってパフォーマンスや互換性を向上させることができます。いくつかのプロキシ サーバは、例えば HTTP/1.0 を要求することが知られています。詳細はリリース ノートを参照してください。">
+<!ENTITY prefPara "HTTP 接続はこれらのオプションを使ってパフォーマンスや互換性を向上させることができます。いくつかのプロキシサーバは、例えば HTTP/1.0 を要求することが知られています。詳細はリリースノートを参照してください。">
 <!ENTITY prefPipeWarning "警告: パイプラインは、まだ実験的な機能です。この機能を利用するとページの読み込み速度が向上しますが、一部の Web サーバやプロキシではそれら自身の不具合によって速度が落ちたり、まったく接続できなくなったりします。">
 <!ENTITY prefProxy.label "プロキシ接続設定">

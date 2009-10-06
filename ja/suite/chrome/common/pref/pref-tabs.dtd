@@ -1,5 +1,5 @@
 <!ENTITY autoHide.accesskey "d">
-<!ENTITY autoHide.label "開くタブが 1 つだけのとき、タブ バーを隠す">
+<!ENTITY autoHide.label "開くタブが 1 つだけのとき、タブバーを隠す">
 <!ENTITY background.accesskey "S">
 <!ENTITY background.label "@@NewTab@@を@@Front@@に表示 (リンクを開いたとき)">
 <!ENTITY external.label "他のアプリケーションから開かれたリンクの処理">
@@ -7,7 +7,7 @@
 <!ENTITY externalGroupCurrent.accesskey "u">
 <!ENTITY externalGroupTab.accesskey "e">
 <!ENTITY externalGroupWindow.accesskey "o">
-<!ENTITY loadGroup.label "ブックマーク グループを開くときの処理">
+<!ENTITY loadGroup.label "ブックマークグループを開くときの処理">
 <!ENTITY loadGroupAppend.accesskey "A">
 <!ENTITY loadGroupAppend.label "タブを追加して開く">
 <!ENTITY loadGroupReplace.accesskey "R">
@@ -22,4 +22,4 @@
 <!ENTITY openTabs.label "@@Window@@の代わりにタブを開く場合">
 <!ENTITY openWindow.label "新しい@@Window@@で開く">
 <!ENTITY tabDisplay.label "タブ表示">
-<!ENTITY tabHeader.label "タブ ブラウズ">
+<!ENTITY tabHeader.label "タブブラウズ">

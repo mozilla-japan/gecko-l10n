@@ -1,6 +1,6 @@
 <!ENTITY urlbar.label "ロケーションバーでCtrl+Enter">
 <!ENTITY urlbar.accesskey "L">
-<!ENTITY middleClick.label "Web ページでリンクを中クリックまたは Ctrl+ クリック あるいは Ctrl+Enter">
+<!ENTITY middleClick.label "Web ページでリンクを中クリックまたは Ctrl+クリックあるいは Ctrl+Enter">
 <!ENTITY middleClick.accesskey "M">
 
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the

@@ -18,7 +18,7 @@
 <!ENTITY showHideTooltips.accesskey "T">
 
 <!ENTITY pref.locales.title                     "メニューなどの表示に使用する言語">
-<!ENTITY selectLocale.label                     "ダイアログ ボックス、メニュー、ツールバー、ボタンに使用したい言語を選択してください。">
+<!ENTITY selectLocale.label                     "ダイアログボックス、メニュー、ツールバー、ボタンに使用したい言語を選択してください。">
 <!--LOCALIZATION NOTE (restartOnLangChange.label): Don't translate "&brandShortName;".
     Place &brandShortName; in the phrase where the name of the application should appear
 -->
