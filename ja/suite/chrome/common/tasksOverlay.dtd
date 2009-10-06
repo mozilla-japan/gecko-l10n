@@ -14,7 +14,7 @@
 <!ENTITY javaConsoleCmd.accesskey "j">
 
 <!ENTITY errorConsoleCmd.accesskey				"C">
-<!ENTITY errorConsoleCmd.label                                  "エラー コンソール">
+<!ENTITY errorConsoleCmd.label                                  "エラーコンソール">
 
 <!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
 <!ENTITY privacyMenu.label "Privacy &amp; Security">
@@ -22,7 +22,7 @@
 
 <!ENTITY taskComposer.tooltip "Composer">
 <!ENTITY taskNavigator.tooltip "Browser">
-<!ENTITY taskBar.tooltip "ステータス バー">
+<!ENTITY taskBar.tooltip "ステータスバー">
 
 <!ENTITY webDevelopment.label "Web 開発">
 <!ENTITY webDevelopment.accesskey "W">
@@ -33,10 +33,10 @@
 <!ENTITY tasksMenu.label "ツール">
 <!ENTITY tasksMenu.accesskey "T">
 
-<!ENTITY downloadManagerCmd.label "ダウンロード マネージャ">
+<!ENTITY downloadManagerCmd.label "ダウンロードマネージャ">
 <!ENTITY downloadManagerCmd.accesskey "D">
 
-<!ENTITY addonsManagerCmd.label "アドオン マネージャ">
+<!ENTITY addonsManagerCmd.label "アドオンマネージャ">
 <!ENTITY addonsManagerCmd.accesskey "A">
 
 <!ENTITY switchProfileCmd.label "プロファイルの切り換え...">

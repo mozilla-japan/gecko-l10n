@@ -1,6 +1,6 @@
 <!ENTITY urlbar.label "ロケーションバーで&#8984;+Return">
 <!ENTITY urlbar.accesskey "L">
-<!ENTITY middleClick.label "Web ページでリンクを中クリックまたは &#8984;+クリック あるいは &#8984;+Return">
+<!ENTITY middleClick.label "Web ページでリンクを中クリックまたは&#8984;+クリックあるいは&#8984;+Return">
 <!ENTITY middleClick.accesskey "M">
 
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the

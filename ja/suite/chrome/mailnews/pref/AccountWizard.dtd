@@ -46,7 +46,7 @@
 <!ENTITY incomingServerLabel.label "メール受信サーバ:">
 <!ENTITY incomingServerLabel.accesskey "S">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
-<!ENTITY newsServerNameDesc.label "ニュース (NNTP) サーバ の名前を入力してください。 (例: &quot;news.example.net&quot;).">
+<!ENTITY newsServerNameDesc.label "ニュース (NNTP) サーバの名前を入力してください。 (例: &quot;news.example.net&quot;).">
 <!-- LOCALIZATION NOTE (smtpServerTitle.label) : Do not translate "SMTP" in below line -->
 <!ENTITY smtpServerTitle.label "メール送信サーバ (SMTP)">
 <!-- LOCALIZATION NOTE (smtpServerDesc.label) : Do not translate "SMTP" and "&quot;smtp.example.net&quot;" in below line -->
@@ -119,5 +119,5 @@
 <!ENTITY downloadOnLogin.label "今すぐメッセージをダウンロード">
 <!ENTITY deferStorageDesc.label		"共通受信トレイを使用するアカウントのメールはすべてまとめて保存されます。このアカウントで送受信するメールを個別のディレクトリに分けて保存する場合はチェックを外してください。"><!-- (^^; Uncheck this checkbox to store mail for this account in its own directory. That will make this account appear as a top-level account. Otherwise, it will be part of the Local Folders Global Inbox account. -->
 <!ENTITY deferStorage.label		"共通受信トレイを使用する (&quot;ローカルフォルダ&quot; にメールを保存)"><!-- (^^; Use Global Inbox (store mail in Local Folders) -->
-<!ENTITY clickFinish.label "@@[@@終了@@]@@ をクリックすると設定を保存して アカウントを作成します。">
-<!ENTITY clickFinish.labelMac "@@[@@完了@@]@@ をクリックすると設定を保存して アカウントを作成します。">
+<!ENTITY clickFinish.label "@@[@@終了@@]@@ をクリックすると設定を保存してアカウントを作成します。">
+<!ENTITY clickFinish.labelMac "@@[@@完了@@]@@ をクリックすると設定を保存してアカウントを作成します。">

@@ -54,13 +54,13 @@
 <!ENTITY viewMenu.accesskey "v">
 <!ENTITY viewToolbarsMenu.label "表示 / 隠す">
 <!ENTITY viewToolbarsMenu.accesskey "w">
-<!ENTITY showTaskbarCmd.label "ステータス バー">
+<!ENTITY showTaskbarCmd.label "ステータスバー">
 <!ENTITY showTaskbarCmd.accesskey "S">
 
 <!ENTITY helpMenu.label "ヘルプ">
 <!ENTITY helpMenu.accesskey "h">
 
-<!ENTITY releaseCmd.label "リリース ノート">
+<!ENTITY releaseCmd.label "リリースノート">
 <!ENTITY releaseCmd.accesskey "N">
 <!ENTITY updateCmd.label "更新を確認...">
 <!ENTITY updateCmd.accesskey "C">

@@ -1,7 +1,7 @@
 <!-- Context Menu -->
-<!ENTITY popupWindowRejectCmd.label "このサイトのポップアップ @@Window@@を自動的に閉じる">
+<!ENTITY popupWindowRejectCmd.label "このサイトのポップアップ@@Window@@を自動的に閉じる">
 <!ENTITY popupWindowRejectCmd.accesskey "">
-<!ENTITY popupWindowAllowCmd.label "このサイトのポップアップ @@Window@@を許可する">
+<!ENTITY popupWindowAllowCmd.label "このサイトのポップアップ@@Window@@を許可する">
 <!ENTITY popupWindowAllowCmd.accesskey "">
 <!ENTITY openLinkCmd.label "@@NewWindow@@で開く">
 <!ENTITY openLinkCmd.accesskey "W">
@@ -80,7 +80,7 @@
 <!ENTITY copyImageCmd.accesskey "o">
 <!ENTITY metadataCmd.label "プロパティ">
 <!ENTITY metadataCmd.accesskey "P">
-<!ENTITY copyEmailCmd.label "メール アドレスをコピー">
+<!ENTITY copyEmailCmd.label "メールアドレスをコピー">
 <!ENTITY copyEmailCmd.accesskey "E">
 <!ENTITY pasteCmd.label "@@Paste@@">
 <!ENTITY pasteCmd.accesskey "P">

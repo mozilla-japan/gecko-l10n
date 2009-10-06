@@ -25,7 +25,7 @@
 
 <!ENTITY toolbarIntro.label "ツールバーに表示するボタンを選択してください:">
 
-<!ENTITY navToolbarIntro.label "ナビゲーション ツールバー">
+<!ENTITY navToolbarIntro.label "ナビゲーションツールバー">
 <!ENTITY goButton.label "移動">
 <!ENTITY goButton.accesskey "o">
 <!ENTITY searchButton.label "検索">
@@ -33,7 +33,7 @@
 <!ENTITY printButton.label "印刷">
 <!ENTITY printButton.accesskey "P">
 
-<!ENTITY persToolbarIntro.label "パーソナル ツールバー">
+<!ENTITY persToolbarIntro.label "パーソナルツールバー">
 <!ENTITY homeButton.label "ホーム">
 <!ENTITY homeButton.accesskey "e">
 <!ENTITY bookmarksButton.label "ブックマーク">

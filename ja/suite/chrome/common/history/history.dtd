@@ -18,7 +18,7 @@
 <!ENTITY groupBySite.accesskey "S">
 <!ENTITY groupBySite.label "サイト">
 <!ENTITY historyWindowTitle.label "履歴">
-<!ENTITY menuBar.tooltip "メニュー バー">
+<!ENTITY menuBar.tooltip "メニューバー">
 <!ENTITY menuitem.view.show_columns.accesskey "S">
 <!ENTITY menuitem.view.show_columns.label "列を表示">
 <!ENTITY menuitem.view.unsorted.accesskey "u">

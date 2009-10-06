@@ -38,7 +38,7 @@
 <!ENTITY languages.customize.moveDown.accesskey "d">
 
 <!ENTITY spelling.label "スペル">
-<!ENTITY checkSpelling.label "スペル チェックを実行:">
+<!ENTITY checkSpelling.label "スペルチェックを実行:">
 <!ENTITY checkSpelling.accesskey "W">
 <!ENTITY dontCheckSpelling.label "しない">
 <!ENTITY multilineCheckSpelling.label "複数行の場合のみ">
