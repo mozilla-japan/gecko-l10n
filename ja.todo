@@ -11,7 +11,6 @@ mar:
 
 tooyama さんへ:
 /suite/chrome 以下の en-US と同期していないディレクトリ:
-	/branding
 	/browser
 	/common
 
@@ -38,10 +37,6 @@ tooyama さんへ:
 	threadpane.dtd
 	vcard.properties
   /suite/chrome/mailnews/pref/
-	am-offline.dtd
-	am-server-advanced.dtd
-	am-server-top.dtd
-	am-serverwithnoidentities.dtd
 	mailPrefsOverlay.dtd
 	pref-addressing.dtd
 	pref-character_encoding.dtd
@@ -58,6 +53,5 @@ tooyama さんへ:
 	pref-tags.dtd
 	pref-viewing_messages.dtd
 	replicationProgress.properties
-	smtpEditOverlay.dtd
   /suite/chrome/mozldap/
 	ldap.properties
