@@ -14,7 +14,6 @@ tooyama さんへ:
 	/branding
 	/browser
 	/common
-	/mailnews/pref
 
 未訳リスト(mailnews 直下のファイルのみ)
   /suite/chrome/mailnews/
@@ -38,5 +37,27 @@ tooyama さんへ:
 	textImportMsgs.properties
 	threadpane.dtd
 	vcard.properties
+  /suite/chrome/mailnews/pref/
+	am-offline.dtd
+	am-server-advanced.dtd
+	am-server-top.dtd
+	am-serverwithnoidentities.dtd
+	mailPrefsOverlay.dtd
+	pref-addressing.dtd
+	pref-character_encoding.dtd
+	pref-composing_messages.dtd
+	pref-directory.dtd
+	pref-directory-add.dtd
+	pref-formatting.dtd
+	pref-junk.dtd
+	pref-mailnews.dtd
+	pref-notifications.dtd
+	pref-offline.dtd
+	pref-receipts.dtd
+	prefs.properties
+	pref-tags.dtd
+	pref-viewing_messages.dtd
+	replicationProgress.properties
+	smtpEditOverlay.dtd
   /suite/chrome/mozldap/
 	ldap.properties
