@@ -1,5 +1,5 @@
 <!--LOCALIZATION NOTE : FILE The Applications prefs dialog -->
-<!ENTITY pref.applications.title "Helper Applications">
+<!ENTITY pref.applications.title "ヘルパーアプリケーション">
 
 <!ENTITY typeColumn.label        "ファイルの種類">
 <!ENTITY typeColumn.accesskey    "T">

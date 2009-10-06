@@ -1,5 +1,5 @@
 <!--LOCALIZATION NOTE : FILE UI for Software Updates prefs -->
-<!ENTITY pref.smartUpdate.title "ソフトウェアインストール">
+<!ENTITY pref.smartUpdate.title "ソフトウェアのインストール">
 <!ENTITY smartTitle.label "ソフトウェアのインストールと更新を管理します">
 <!ENTITY enableSU.label "拡張機能や更新のインストールを許可する">
 <!ENTITY enableSU.accesskey "e">
