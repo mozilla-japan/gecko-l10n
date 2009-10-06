@@ -180,9 +180,9 @@
 <!ENTITY stopButton.label             "中止">
 <!ENTITY stopButton.tooltip           "ページの読み込みを中止">
 <!ENTITY searchButton.label           "検索">
-<!ENTITY searchButton.tooltip         "左の領域に単語を入力し、[検索] をクリックしてください">
+<!ENTITY searchButton.tooltip         "左の領域に単語を入力し、@@[@@検索@@]@@ をクリックしてください">
 <!ENTITY goButton.label               "移動">
-<!ENTITY goButton.tooltip             "左の領域に URL を入力し、[移動] をクリックしてください">
+<!ENTITY goButton.tooltip             "左の領域に URL を入力し、@@[@@移動@@]@@ をクリックしてください">
 <!ENTITY printButton.label            "印刷">
 <!ENTITY printButton.tooltip          "このページを印刷する">
 

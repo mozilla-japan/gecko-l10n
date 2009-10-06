@@ -13,7 +13,7 @@
 <!ENTITY lastPageRadio.accesskey "L">
 
 <!ENTITY header2.label "ホームページ">
-<!ENTITY homePageIntro.label "パーソナルツールバーの[ホーム]をクリックするとこのページのグループへ移動します。">
+<!ENTITY homePageIntro.label "パーソナルツールバーの @@[@@ホーム@@]@@ をクリックするとこのページのグループへ移動します。">
 <!ENTITY useCurrent.label "現在のページを使用する">
 <!ENTITY useCurrent.accesskey "U">
 <!ENTITY useCurrentGroup.label "現在のページのグループを使用する">
