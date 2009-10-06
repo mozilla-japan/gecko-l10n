@@ -15,7 +15,7 @@
 <!ENTITY newPageFromTemplateCmd.accesskey "t">
 <!ENTITY newPageFromDraftCmd.label "下書きからページを作成">
 <!ENTITY newPageFromDraftCmd.accesskey "d">
-<!ENTITY newNavigatorCmd.label "Browser @@Window@@">
+<!ENTITY newNavigatorCmd.label "ブラウザ@@Window@@">
 <!ENTITY newNavigatorCmd.accesskey "N">
 <!ENTITY newNavigatorCmd.key "B">
 
