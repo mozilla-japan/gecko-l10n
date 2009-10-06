@@ -36,16 +36,16 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  managecerts.caption      "Manage Certificates">
-<!ENTITY  managecerts.text         "Use the Certificate Manager to manage your personal certificates, as well as those of other people and certificate authorities.">
-<!ENTITY  managecerts.button       "Manage Certificates...">
+<!ENTITY  managecerts.caption      "証明書の管理">
+<!ENTITY  managecerts.text         "証明書マネージャは、あなた自身の証明書を管理するだけでなく、他の人や認証局証明書などを管理するために使用します。">
+<!ENTITY  managecerts.button       "証明書の管理...">
 <!ENTITY  managecerts.accesskey    "M">
-<!ENTITY  managedevices.caption    "Manage Security Devices">
-<!ENTITY  managedevices.text       "Use this button to manage your security devices, such as smart cards.">
-<!ENTITY  managedevices.button     "Manage Security Devices...">
+<!ENTITY  managedevices.caption    "セキュリティデバイスの管理">
+<!ENTITY  managedevices.text       "スマートカードのようなセキュリティデバイスを管理するために使用します。">
+<!ENTITY  managedevices.button     "セキュリティデバイスの管理...">
 <!ENTITY  managedevices.accesskey  "S">
 
 <!ENTITY  ssl.label                "SSL">
 
-<!ENTITY  pref.certs.title         "Certificates">
-<!ENTITY  certs.label              "Certificates">
+<!ENTITY  pref.certs.title         "証明書">
+<!ENTITY  certs.label              "証明書">

@@ -17,7 +17,7 @@
 <!ENTITY errorConsoleCmd.label                                  "エラーコンソール">
 
 <!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
-<!ENTITY privacyMenu.label "Privacy &amp; Security">
+<!ENTITY privacyMenu.label "プライバシー &amp; セキュリティ">
 <!ENTITY privacyMenu.accesskey "p">
 
 <!ENTITY taskComposer.tooltip "Composer">
