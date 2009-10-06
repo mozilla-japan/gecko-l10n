@@ -85,7 +85,7 @@
 <!ENTITY closeWindow.accesskey "W">
 
 <!ENTITY minimizeButton.tooltip       "@@Minimize@@">
-<!ENTITY restoreButton.tooltip        "戻す">
+<!ENTITY restoreButton.tooltip        "元に戻す">
 
 <!-- I'd like all this to move to an overlay or something -->
 <!ENTITY bidiMenu.label "双方向テキスト設定">

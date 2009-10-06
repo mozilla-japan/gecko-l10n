@@ -1,6 +1,6 @@
 <!-- extracted from tasksOverlay.xul -->
 <!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
-<!ENTITY navigatorCmd.label "Browser">
+<!ENTITY navigatorCmd.label "ブラウザ">
 <!ENTITY navigatorCmd.accesskey "B">
 <!ENTITY navigatorCmd.commandkey "1">
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
@@ -21,7 +21,7 @@
 <!ENTITY privacyMenu.accesskey "p">
 
 <!ENTITY taskComposer.tooltip "Composer">
-<!ENTITY taskNavigator.tooltip "Browser">
+<!ENTITY taskNavigator.tooltip "ブラウザ">
 <!ENTITY taskBar.tooltip "ステータスバー">
 
 <!ENTITY webDevelopment.label "Web 開発">

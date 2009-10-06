@@ -1,7 +1,7 @@
-<!ENTITY pref.navigator.title "Browser">
+<!ENTITY pref.navigator.title "ブラウザ">
 
 <!ENTITY navRadio "右の場合:">
-<!ENTITY navStartPageMenu.label "Browser を起動">
+<!ENTITY navStartPageMenu.label "ブラウザを起動">
 <!ENTITY newWinPageMenu.label "@@NewWindow@@">
 <!ENTITY newTabPageMenu.label "@@NewTab@@を開く">
 
@@ -42,6 +42,6 @@
 <!ENTITY defaultBrowserGroup.label      "@@DefaultBrowser@@">
 <!ENTITY defaultBrowserButton.label     "@@DefaultBrowser@@に設定">
 <!ENTITY defaultBrowserButton.accesskey "D">
-<!ENTITY alreadyDefaultText             "&brandShortName; はすでに@@DefaultBrowser@@設定されています。">
+<!ENTITY alreadyDefaultText             "&brandShortName; はすでに@@DefaultBrowser@@に設定されています。">
 <!ENTITY defaultPendingText             "OK をクリックすると &brandShortName; は@@DefaultBrowser@@に設定されます。">
 <!ENTITY makeDefaultText                "&brandShortName; を@@DefaultBrowser@@に設定します。">
