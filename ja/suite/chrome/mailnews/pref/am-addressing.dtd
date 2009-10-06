@@ -17,7 +17,7 @@
 
 <!-- am-addressing.xul -->
 
-<!ENTITY compositionGroupTitle.label "Composition">
+<!ENTITY compositionGroupTitle.label "編集">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label                        "HTML 形式でメッセージを編集する">
 <!ENTITY useHtml.accesskey                    "C">
