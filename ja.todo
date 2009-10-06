@@ -13,6 +13,7 @@ tooyama さんへ:
 /suite/chrome 以下の en-US と同期していないディレクトリ:
 	/browser
 	/common
+上記了解。
 
 未訳リスト(mailnews 直下のファイルのみ)
   /suite/chrome/mailnews/
@@ -28,7 +29,7 @@ tooyama さんへ:
 	messenger.properties
 	mime.properties
 	news.properties
-	oeImportMsgs.properties
+	oeImportMsgs.properties ->20091007_c.449
 	offline.properties
 	outlookImportMsgs.properties
 	search-attributes.properties
@@ -37,7 +38,7 @@ tooyama さんへ:
 	threadpane.dtd
 	vcard.properties
   /suite/chrome/mailnews/pref/
-	mailPrefsOverlay.dtd
+	mailPrefsOverlay.dtd ->20091007_c.446
 	pref-addressing.dtd
 	pref-character_encoding.dtd
 	pref-composing_messages.dtd
@@ -52,6 +53,6 @@ tooyama さんへ:
 	prefs.properties
 	pref-tags.dtd
 	pref-viewing_messages.dtd
-	replicationProgress.properties
+	replicationProgress.properties ->何の画面か要確認(何を複製すると出るのか)
   /suite/chrome/mozldap/
 	ldap.properties
