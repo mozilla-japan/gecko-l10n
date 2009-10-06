@@ -1,18 +1,14 @@
 <!-- extracted from am-copies.xul -->
 
-<!ENTITY copyAndFolderTitle.label	"コピーと特別なフォルダ"><!-- (^^; Copies &amp; Folders -->
-<!ENTITY sendingPrefix.label "自動的にメッセージを送るとき: "><!-- When sending messages, automatically -->
-<!ENTITY fccMailFolder.label "コピーの保存先:"><!-- Place a copy in -->
+<!ENTITY copyAndFolderTitle.label "コピーと特別なフォルダ"><!-- (^^; Copies &amp; Folders -->
+<!ENTITY sendingPrefix.label "メッセージを送信するとき: ">
+<!ENTITY fccMailFolder.label "コピーを次の場所に保存:"><!-- Place a copy in -->
 <!ENTITY fccMailFolder.accesskey "P">
 <!ENTITY fccReplyFollowsParent.label "返信元のメッセージと同じフォルダに返信を保存する">
 <!ENTITY fccReplyFollowsParent.accesskey "c">
-<!ENTITY chooseFolderButton.label "フォルダを選択...">
 <!-- LOCALIZATION NOTE (bccAddress.label): do not translate "Bcc" in below line -->
 <!ENTITY bccAddress.label "次のメールアドレスを Bcc に追加:">
 <!ENTITY bccAddress.accesskey "B">
-<!ENTITY specialFolderTitle.label "特別なフォルダ">
-<!ENTITY draftMailFolder.label "下書きの保存先:">
-<!ENTITY templateMailFolder.label "テンプレートの保存先:">
 <!ENTITY saveMessageDlg.label "メッセージを保存するとき確認ダイアログを表示する">
 <!ENTITY saveMessageDlg.accesskey "w">
 <!-- LOCALIZATION NOTE (sentFolderOn.label): OK to translate this, bug #57440 -->
@@ -22,14 +18,20 @@
 <!ENTITY sentInOtherFolder.accesskey "O">
 <!-- LOCALIZATION NOTE (draftsFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY draftsFolderOn.label "次のアカウントの &quot;下書き&quot; フォルダ:">
-<!ENTITY draftsFolderOn.accesskey "D">
+<!ENTITY draftsFolderOn.accesskey "n">
 <!ENTITY draftInOtherFolder.label "その他のフォルダを指定する:">
 <!ENTITY draftInOtherFolder.accesskey "t">
+<!-- LOCALIZATION NOTE (archivesFolderOn.label): OK to translate this, bug #57440 -->
+<!ENTITY archivesFolderOn.label "次のアカウントの &quot;アーカイブ&quot; フォルダ:">
+<!ENTITY archivesFolderOn.accesskey "v">
+<!ENTITY archiveInOtherFolder.label "その他のフォルダを指定する:">
+<!ENTITY archiveInOtherFolder.accesskey "d">
 <!-- LOCALIZATION NOTE (templatesFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY templatesFolderOn.label "次のアカウントの &quot;テンプレート&quot; フォルダ:">
 <!ENTITY templatesFolderOn.accesskey "m">
 <!ENTITY templateInOtherFolder.label "その他のフォルダを指定する:">
 <!ENTITY templateInOtherFolder.accesskey "e">
-<!ENTITY specialFoldersTitle.label "下書きとテンプレート">
+<!ENTITY specialFoldersTitle.label "下書きとアーカイブ、テンプレート">
 <!ENTITY keepDrafts.label "下書きの保存先:">
+<!ENTITY keepArchives.label "アーカイブの保存先:">
 <!ENTITY keepTempltes.label "テンプレートの保存先:">

@@ -1,7 +1,7 @@
 <!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
-<!ENTITY smtpServer.label "Outgoing Server (SMTP) Settings">
+<!ENTITY smtpServer.label "メール送信 (SMTP) サーバの設定">
 <!-- LOCALIZATION NOTE (smtpDesc.label): do not translate "SMTP" in below line -->
-<!ENTITY smtpDesc.label "Although you can specify more than one outgoing server (SMTP), this is only recommended for advanced users. Setting up multiple SMTP servers can cause errors when sending messages.">
+<!ENTITY smtpDesc.label "アカウントを複数お持ちの場合に複数のメール送信 (SMTP) サーバを設定できますが、これは上級ユーザ向けです。複数の SMTP サーバを設定するとメッセージの送信時にエラーが発生することがあります。">
 
 <!ENTITY smtpListAdd.label  "追加...">
 <!ENTITY smtpListAdd.accesskey  "d">
@@ -16,5 +16,5 @@
 <!ENTITY serverName.label "サーバ名: ">
 <!ENTITY serverPort.label "ポート: ">
 <!ENTITY userName.label   "ユーザ名: ">
-<!ENTITY useSecureConnection.label   "保護された接続: ">
+<!ENTITY connectionSecurity.label "保護された接続: ">
 <!ENTITY useSecureAuthentication.label   "保護された認証: ">

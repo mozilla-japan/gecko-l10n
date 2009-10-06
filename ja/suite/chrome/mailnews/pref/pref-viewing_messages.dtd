@@ -50,26 +50,25 @@
 <!ENTITY color.label                      "Color:">
 <!ENTITY color.accesskey                  "C">
 <!ENTITY displayPlainText.caption         "Plain text messages">
-<!ENTITY plainTextFont.label              "Use the following font width:">
+<!ENTITY fontPlainText.label              "Font:">
+<!ENTITY fontPlainText.accesskey          "F">
 <!ENTITY displayQuoted.label              "Settings for quoted messages:">
-<!ENTITY fixedWidth.label                 "Fixed">
-<!ENTITY fixedWidth.accesskey             "F">
-<!ENTITY variableWidth.label              "Variable">
-<!ENTITY variableWidth.accesskey          "V">
-<!ENTITY readingMessagesHeader.label      "For incoming messages">
-<!ENTITY messageWrapping.label            "Message Wrapping">
 <!ENTITY wrapInMsg.label                  "Wrap text to fit window width">
-<!ENTITY wrapInMsg.accesskey              "t">
+<!ENTITY wrapInMsg.accesskey              "W">
 <!-- LOCALIZATION NOTE : (convertEmoticons.label) 'Emoticons' are also known as 'Smileys', e.g. :-)   -->
 <!ENTITY convertEmoticons.label           "Display emoticons as graphics">
 <!ENTITY convertEmoticons.accesskey       "D">
 <!ENTITY generalMessageDisplay.caption    "General">
-<!-- LOCALIZATION NOTE (markMessagesRead.label): This will concatenate with
-     "xxx seconds before marking a message as read", using a number and
-     (seconds.label). -->
-<!ENTITY markMessagesRead.label           "Wait">
-<!ENTITY markMessagesRead.accesskey       "W">
-<!ENTITY seconds.label                    "seconds before marking a message as read">
+<!ENTITY autoMarkAsRead.label             "Automatically mark messages as read">
+<!ENTITY autoMarkAsRead.accesskey         "A">
+<!ENTITY markAsReadNoDelay.label          "Immediately on display">
+<!ENTITY markAsReadNoDelay.accesskey      "m">
+<!-- LOCALIZATION NOTE (markAsReadDelay.label): This will concatenate to
+     "After displaying for [___] seconds",
+     using (markAsReadDelay.label) and a number (secondsLabel.label). -->
+<!ENTITY markAsReadDelay.label            "After displaying for">
+<!ENTITY markAsReadDelay.accesskey        "t">
+<!ENTITY secondsLabel.label               "seconds">
 
 <!ENTITY openingMessages.label            "When opening messages, display them in:">
 <!ENTITY newWindowRadio.label             "A new message window">
@@ -78,3 +77,7 @@
 <!ENTITY existingWindowRadio.accesskey    "e">
 <!ENTITY disableContent.label             "Block images and other content from remote sources">
 <!ENTITY disableContent.accesskey         "B">
+<!ENTITY showCondensedAddresses.label     "Show only display name for people in my address book">
+<!ENTITY showCondensedAddresses.accesskey "o">
+<!ENTITY closeMsgWindowOnDelete.label     "Close message window when deleting the message">
+<!ENTITY closeMsgWindowOnDelete.accesskey "l">

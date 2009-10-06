@@ -1,5 +1,4 @@
-<!ENTITY identitiesListTitle.label "Identities Associated With This Account">
-<!ENTITY identitiesListDesc.label	"差出人情報を複数用意して使い分けることができます。"><!-- (^^; Multiple Identities Support -->
+<!ENTITY identitiesListDesc.label "差出人情報を複数用意して使い分けることができます。"><!-- (^^; Multiple Identities Support -->
 <!ENTITY identitiesListAdd.label  "追加...">
 <!ENTITY identitiesListAdd.accesskey  "A">
 <!ENTITY identitiesListEdit.label "編集...">

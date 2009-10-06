@@ -48,12 +48,9 @@
 <!ENTITY directorySecure.accesskey         "U">
 <!ENTITY directoryLogin.label              "Bind DN: ">
 <!ENTITY directoryLogin.accesskey          "i">
-<!ENTITY advancedOptionsButton.label       "Advanced Options">
-<!ENTITY advancedOptionsButton.accesskey   "a">
 <!ENTITY General.tab                       "General">
 <!ENTITY Offline.tab                       "Offline">
 <!ENTITY Advanced.tab                      "Advanced">
-<!ENTITY advancedOptionsTitle.label        "Advanced Options">
 <!ENTITY portNumber.label                  "Port number: ">
 <!ENTITY portNumber.accesskey              "p">
 <!ENTITY searchFilter.label                "Search filter: ">
@@ -68,6 +65,13 @@
 <!ENTITY return.accesskey                  "r">
 <!ENTITY results.label                     "results">
 <!ENTITY offlineText.label                 "You can download a local copy of this directory so that it is available for use when you are working offline.">
+<!ENTITY saslMechanism.label               "Login method: ">
+<!ENTITY saslMechanism.accesskey           "m">
+<!ENTITY saslOff.label                     "Simple">
+<!ENTITY saslOff.accesskey		   "l">
+<!ENTITY saslGSSAPI.label                  "Kerberos (GSSAPI)">
+<!ENTITY saslGSSAPI.accesskey		   "K">
+
 <!-- Localization note: this is here because the width of the dialog 
      is determined by the width of the base DN box; and that is likely
      to vary somewhat with the language.
