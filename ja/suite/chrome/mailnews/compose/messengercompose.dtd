@@ -110,7 +110,7 @@
 <!ENTITY autoFormatCmd.accesskey "a">
 <!ENTITY plainTextFormatCmd.label "プレーンテキスト">
 <!ENTITY plainTextFormatCmd.accesskey "p">
-<!ENTITY htmlFormatCmd.label "リッチテキスト (HTM) のみ">
+<!ENTITY htmlFormatCmd.label "リッチテキスト (HTML) のみ">
 <!ENTITY htmlFormatCmd.accesskey "r">
 <!ENTITY bothFormatCmd.label "リッチテキスト (HTML) とプレーンテキスト">
 <!ENTITY bothFormatCmd.accesskey "l">
