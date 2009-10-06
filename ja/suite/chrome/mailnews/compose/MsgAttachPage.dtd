@@ -34,7 +34,7 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY caption.label "Web ページの添付">
-<!ENTITY enter.label "メッセージに添付したいURLを指定するか、ローカルファイルを指定してください:">
+<!ENTITY enter.label "メッセージに添付したい URL を指定するか、ローカルファイルを指定してください:">
 <!ENTITY enter.accesskey "E">
 <!ENTITY chooseFile.label "ファイルの選択...">
 <!ENTITY chooseFile.accesskey "C">
