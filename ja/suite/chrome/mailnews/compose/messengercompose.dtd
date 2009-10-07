@@ -162,7 +162,7 @@
 <!ENTITY delete.accesskey "D">
 <!ENTITY renameAttachment.label "名前変更...">
 <!ENTITY renameAttachment.accesskey "R">
-<!ENTITY selectAll.label "すべて選択">
+<!ENTITY selectAll.label "@@SelectAll@@">
 <!ENTITY selectAll.accesskey "A">
 <!ENTITY attachFile.label "ファイルを添付...">
 <!ENTITY attachFile.accesskey "F">

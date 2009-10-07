@@ -48,11 +48,11 @@
 <!ENTITY  managepassword.timeout.unit            "分後">
 
 <!ENTITY  changepassword.caption                 "マスターパスワードの変更">
-<!ENTITY  changepassword.text                    "マスターパスワードは、ウェブパスワードや証明書のような機密情報を保護します。">
+<!ENTITY  changepassword.text                    "マスターパスワードは、Web パスワードや証明書のような機密情報を保護します。">
 <!ENTITY  changepassword.button                  "パスワードの変更...">
 <!ENTITY  changepassword.accesskey               "C">
 
 <!ENTITY  resetpassword.caption                  "マスターパスワードのリセット">
-<!ENTITY  resetpassword.text                     "マスターパスワードをリセットした場合、保存されているすべてのウェブとメールのパスワード、フォームデータ、個人証明書、秘密鍵は失われます。">
+<!ENTITY  resetpassword.text                     "マスターパスワードをリセットした場合、保存されているすべての Web とメールのパスワード、フォームデータ、個人証明書、秘密鍵は失われます。">
 <!ENTITY  resetpassword.button                   "パスワードのリセット">
 <!ENTITY  resetpassword.accesskey                "R">
