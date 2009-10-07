@@ -1,5 +1,5 @@
 <!ENTITY pane.title			"開封確認">
-<!ENTITY useGlobalPrefs.label		"このアカウントでは共通の開封確認設定を使う">
+<!ENTITY useGlobalPrefs.label		"このアカウントでは共通の開封確認設定に従う">
 <!ENTITY useGlobalPrefs.accesskey	"U">
 <!ENTITY useCustomPrefs.label		"このアカウントでは開封確認の設定を個別に指定する">
 <!ENTITY useCustomPrefs.accesskey	"C">
@@ -9,7 +9,7 @@
 <!ENTITY leaveIt.label			"受信トレイに残す">
 <!ENTITY leaveIt.accesskey		"I">
 <!-- LOCALIZATION NOTE moveToSent.label Translate: 'Sent' according to Netscape glossary -->
-<!ENTITY moveToSent.label		"送信済みトレイに移動する">
+<!ENTITY moveToSent.label		"&quot;送信済みトレイ&quot; フォルダに移動する">
 <!ENTITY moveToSent.accesskey		"M">
 <!ENTITY requestMDN.label		"開封確認の返送を求められたとき:">
 <!ENTITY returnSome.label		"必要に応じて開封確認を返送する">
