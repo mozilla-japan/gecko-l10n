@@ -53,6 +53,7 @@ tooyama さんへ:
 	prefs.properties
 	pref-tags.dtd
 	pref-viewing_messages.dtd
-	replicationProgress.properties ->何の画面か要確認(何を複製すると出るのか)
+	replicationProgress.properties ->何の画面か要確認(何を複製すると出るのか) -> LDAP のアドレス帳です。 /mail/chrome/messenger/addressbook/replicationProgress.properties からコピペすれば良いです。
+# mailnews については、既に /mail 側に全く同じかほぼ同じものがある場合が多いので、うまくコピペすると楽です。
   /suite/chrome/mozldap/
 	ldap.properties
