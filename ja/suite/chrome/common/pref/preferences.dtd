@@ -4,7 +4,7 @@
 <!ENTITY appear.label "表示">
 <!ENTITY content.label "コンテンツ">
 <!ENTITY fonts.label "フォント">
-<!ENTITY colors.label "配色">
+<!ENTITY colors.label "@@Colors@@">
 <!ENTITY navigator.label "ブラウザ">
 <!ENTITY history.label "履歴">
 <!ENTITY languages.label "言語">
