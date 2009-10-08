@@ -11,7 +11,7 @@ mar:
 
 tooyama さんへ:
 /suite/chrome 以下の en-US と同期していないディレクトリ:
-	/browser
+	/browser - done by dynamis ;-)
 	/common
 上記了解。
 
@@ -57,3 +57,673 @@ tooyama さんへ:
 # mailnews については、既に /mail 側に全く同じかほぼ同じものがある場合が多いので、うまくコピペすると楽です。
   /suite/chrome/mozldap/
 	ldap.properties
+
+----------------------------------------
+以下、参考までに svn rev 457 時点での "ant for191 onlysm compare" 実行結果ログ:
+
+Compare Locales Result:
+  includes: dom/, netwerk/, security/, toolkit/, suite/, extensions/irc/, extensions/venkman/, extensions/spellcheck/, editor/
+  excludes: .hg/, minimo/, extensions/irc/, extensions/spellcheck/, extensions/venkman/
+
+Number of files in the /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
+  total: 446, common: 435, unique: 11
+
+Number of files in the /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
+  total: 442, common: 435, unique: 7
+
+Total Number of entities in the /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
+  total: 12555, common: 12114, unique: 441
+
+Total Number of entities in the /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
+  total: 12417, common: 12114, unique: 303
+
+Total Number of same/different/unique entities in the two directory:
+  same: 5823 (48%), different: 6291, unique: 744
+
+
+
+File(s) only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
+  suite/chrome/common/aboutSessionRestore.dtd 	(13 entities)
+  suite/chrome/common/certError.dtd 	(12 entities)
+  suite/chrome/common/downloads/downloadmanager.dtd 	(79 entities)
+  suite/chrome/common/downloads/downloadmanager.properties 	(23 entities)
+  suite/chrome/common/downloads/progressDialog.dtd 	(16 entities)
+  suite/chrome/common/feeds/subscribe.dtd 	(3 entities)
+  suite/chrome/common/feeds/subscribe.properties 	(30 entities)
+  suite/chrome/common/history/places.properties 	(12 entities)
+  suite/chrome/common/passwordManager.dtd 	(4 entities)
+  suite/chrome/common/quitDialog.properties 	(10 entities)
+  suite/chrome/common/search/search-rdf.dtd 	(1 entities)
+File(s) only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
+  suite/chrome/branding/aboutRights.dtd 	(28 entities)
+  suite/chrome/branding/aboutRights.properties 	(3 entities)
+  suite/chrome/common/history/findHistory.dtd 	(11 entities)
+  suite/chrome/common/history/history.properties 	(15 entities)
+  suite/chrome/common/history/historyTreeOverlay.dtd 	(16 entities)
+  suite/chrome/common/overrides/netErrorApp.dtd 	(4 entities)
+  suite/chrome/common/pref/pref-applications-edit.dtd 	(19 entities)
+
+
+
+
+Following 1/389 Entities in this file don't match: editor/ui/chrome/composer/editorOverlay.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/editor/ui/chrome/composer/editorOverlay.dtd:
+    <!ENTITY pasteAsQuotationCmd.key "o">
+
+Following 1/14 Entities in this file don't match: suite/chrome/common/bookmarks/addBookmark.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/bookmarks/addBookmark.dtd:
+    <!ENTITY destination.accesskey      "D">
+
+Following 1/64 Entities in this file don't match: suite/chrome/common/bookmarks/bm-props.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/bookmarks/bm-props.dtd:
+    <!ENTITY bookmarks.windowtitle.label  "Properties for &quot;**bm_title**&quot;">
+
+Following 35/94 Entities in this file don't match: suite/chrome/common/bookmarks/bookmarks.dtd:
+  17 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/bookmarks/bookmarks.dtd:
+    <!ENTITY menuitem.newBookmark.accesskey "B">
+    <!ENTITY menuitem.newFolder.accesskey  "F">
+    <!ENTITY menuitem.newSeparator.accesskey "S">
+    <!ENTITY menuitem.find.find.key        "F">
+    <!ENTITY menuitem.properties.label     "Properties…">
+    <!ENTITY menuitem.properties.accesskey "o">
+    <!ENTITY button.properties.label       "Properties…">
+    <!ENTITY menuitem.properties.key       "I">
+    <!ENTITY button.rename.label           "Rename…">
+    <!ENTITY button.delete.label           "Delete">
+    <!ENTITY menuitem.moveBookmark.label   "Move Bookmark(s)…">
+    <!ENTITY menuitem.moveBookmark.accesskey "M">
+    <!ENTITY button.moveBookmark.label     "Move…">
+    <!ENTITY button.moveBookmark.accesskey "M">
+    <!ENTITY command.sortFolder.key        "S">
+    <!ENTITY search.emptytext               "Search Bookmarks">
+    <!ENTITY search.key                     "f">
+  18 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/bookmarks/bookmarks.dtd:
+    <!ENTITY bookmarksSearch.tooltip       "ブックマーク検索ツールバー">
+    <!ENTITY command.newBookmark.accesskey "B">
+    <!ENTITY command.newFolder.accesskey   "F">
+    <!ENTITY command.newSeparator.accesskey "S">
+    <!ENTITY edit.find.keybinding          "f">
+    <!ENTITY command.properties.label      "プロパティ...">
+    <!ENTITY command.properties.accesskey  "o">
+    <!ENTITY edit.properties.keybinding    "i">
+    <!ENTITY command.rename.label          "名前の変更...">
+    <!ENTITY command.delete.label          "削除">
+    <!ENTITY command.moveBookmark.label    "ブックマークを移動...">
+    <!ENTITY command.moveBookmarkShort.label "移動...">
+    <!ENTITY command.moveBookmark.accesskey "M">
+    <!ENTITY edit.sortFolder.keybinding    "S">
+    <!ENTITY menuitem.view.command.searchbar.label      "検索バー">
+    <!ENTITY menuitem.view.command.searchbar.accesskey  "S">
+    <!ENTITY search.label                     "検索">
+    <!ENTITY search.accesskey                 "S">
+
+Following 5/61 Entities in this file don't match: suite/chrome/common/bookmarks/bookmarks.properties:
+  5 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/bookmarks/bookmarks.properties:
+    ile_newbookmark = 新しいブックマーク
+    newfolder_dialog_title = 新しいフォルダの作成
+    newfolder_dialog_msg = 新しいフォルダの名前:
+    file_in = File in "%S"
+    pleaseEnterALocation = URL を入力してください
+
+Following 2/16 Entities in this file don't match: suite/chrome/common/bookmarks/findBookmark.dtd:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/bookmarks/findBookmark.dtd:
+    <!ENTITY save.query.accesskey           "S">
+    <!ENTITY findButton.accesskey           "F">
+
+Following 4/20 Entities in this file don't match: suite/chrome/common/bookmarks/sortFolder.dtd:
+  4 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/bookmarks/sortFolder.dtd:
+    <!ENTITY sortBy.accesskey "S">
+    <!ENTITY sortOrder.accesskey "o">
+    <!ENTITY sortFoldersFirst.accesskey "d">
+    <!ENTITY sortRecursively.accesskey "c">
+
+Following 24/133 Entities in this file don't match: suite/chrome/common/contentAreaCommands.dtd:
+  22 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/contentAreaCommands.dtd:
+    <!ENTITY viewVideoCmd.label           "View Video">
+    <!ENTITY viewVideoCmd.accesskey       "i">
+    <!ENTITY saveVideoCmd.label           "Save Video As…">
+    <!ENTITY saveVideoCmd.accesskey       "v">
+    <!ENTITY saveAudioCmd.label           "Save Audio As…">
+    <!ENTITY saveAudioCmd.accesskey       "v">
+    <!ENTITY copyVideoURLCmd.label        "Copy Video Location">
+    <!ENTITY copyVideoURLCmd.accesskey    "o">
+    <!ENTITY copyAudioURLCmd.label        "Copy Audio Location">
+    <!ENTITY copyAudioURLCmd.accesskey    "o">
+    <!ENTITY mediaPlay.label              "Play">
+    <!ENTITY mediaPlay.accesskey          "P">
+    <!ENTITY mediaPause.label             "Pause">
+    <!ENTITY mediaPause.accesskey         "P">
+    <!ENTITY mediaMute.label              "Mute">
+    <!ENTITY mediaMute.accesskey          "M">
+    <!ENTITY mediaUnmute.label            "Unmute">
+    <!ENTITY mediaUnmute.accesskey        "m">
+    <!ENTITY mediaShowControls.label      "Show Media Controls">
+    <!ENTITY mediaShowControls.accesskey  "a">
+    <!ENTITY mediaHideControls.label      "Hide Media Controls">
+    <!ENTITY mediaHideControls.accesskey  "a">
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/contentAreaCommands.dtd:
+    <!ENTITY addToBookmarksCmd.label "ページをブックマーク">
+    <!ENTITY addToBookmarksCmd.accesskey "B">
+
+Following 10/21 Entities in this file don't match: suite/chrome/common/contentAreaCommands.properties:
+  7 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/contentAreaCommands.properties:
+    searchText.accesskey=W
+    blockImage=Block Images from %S
+    blockImage.accesskey=B
+    unblockImage=Unblock Images from %S
+    unblockImage.accesskey=b
+    SaveVideoTitle=Save Video
+    SaveAudioTitle=Save Audio
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/contentAreaCommands.properties:
+    SavePageTitle= Web ページを保存
+    saveLinkErrorMsg=リンク先ページを保存できませんでした。 Web ページは削除されたか名前が変更されたかもしれません。
+    saveLinkErrorTitle=リンク先の保存
+
+Following 2/9 Entities in this file don't match: suite/chrome/common/defaultClientDialog.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/defaultClientDialog.dtd:
+    <!ENTITY feeds.label "Feeds">
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/defaultClientDialog.dtd:
+    <!ENTITY rss.label "RSS フィード">
+
+Following 73/75 Entities in this file don't match: suite/chrome/common/history/history.dtd:
+  42 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/history/history.dtd:
+    <!ENTITY searchBar.tooltip              "Search Bar">
+    <!ENTITY search.emptytext               "Search History">
+    <!ENTITY search.key                     "f">
+    <!ENTITY view.label                     "View">
+    <!ENTITY view.columns.label             "Show Columns">
+    <!ENTITY view.columns.accesskey         "C">
+    <!ENTITY view.sortBy.label              "Sort by">
+    <!ENTITY view.sortBy.accesskey          "S">
+    <!ENTITY view.groupBy.label             "Group by">
+    <!ENTITY view.groupBy.accesskey         "G">
+    <!ENTITY view.unsorted.label            "Unsorted">
+    <!ENTITY view.unsorted.accesskey        "U">
+    <!ENTITY view.sortAscending.label       "A > Z Sort Order">
+    <!ENTITY view.sortAscending.accesskey   "A">
+    <!ENTITY view.sortDescending.label      "Z > A Sort Order">
+    <!ENTITY view.sortDescending.accesskey  "Z">
+    <!ENTITY view.groupNone.label           "None">
+    <!ENTITY view.groupNone.accesskey       "N">
+    <!ENTITY view.groupDay.label            "Day">
+    <!ENTITY view.groupDay.accesskey        "D">
+    <!ENTITY view.groupSite.label           "Site">
+    <!ENTITY view.groupSite.accesskey       "S">
+    <!ENTITY view.groupDayAndSite.label     "Day and Site">
+    <!ENTITY view.groupDayAndSite.accesskey "a">
+    <!ENTITY cmd.open.label                 "Open">
+    <!ENTITY cmd.open.accesskey             "O">
+    <!ENTITY cmd.open_window.label          "Open Link in New Window">
+    <!ENTITY cmd.open_window.accesskey      "W">
+    <!ENTITY cmd.open_tab.label             "Open Link in New Tab">
+    <!ENTITY cmd.open_tab.accesskey         "T">
+    <!ENTITY bookmarkLinkCmd.label          "Bookmark This Link…">
+    <!ENTITY bookmarkLinkCmd.accesskey      "B">
+    <!ENTITY bookmarkLinksCmd.label         "Bookmark These Links">
+    <!ENTITY bookmarkLinksCmd.accesskey     "B">
+    <!ENTITY col.title.label                "Title">
+    <!ENTITY col.title.accesskey            "T">
+    <!ENTITY col.url.label                  "Location">
+    <!ENTITY col.url.accesskey              "L">
+    <!ENTITY col.lastvisit.label            "Last Visited">
+    <!ENTITY col.lastvisit.accesskey        "V">
+    <!ENTITY col.visitcount.label           "Visit Count">
+    <!ENTITY col.visitcount.accesskey       "C">
+  31 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/history/history.dtd:
+    <!ENTITY closeCmd.label "閉じる">
+    <!ENTITY copyCmd.label "コピー">
+    <!ENTITY cutCmd.label "切り取り">
+    <!ENTITY deleteCmd.label "削除">
+    <!ENTITY deleteDomainCmd.accesskey "s">
+    <!ENTITY deleteHostnameCmd.accesskey "H">
+    <!ENTITY editMenu.label "編集">
+    <!ENTITY fileMenu.label "ファイル">
+    <!ENTITY findHisCmd.accesskey "S">
+    <!ENTITY findHisCmd.commandkey "f">
+    <!ENTITY findHisCmd.label "履歴を検索...">
+    <!ENTITY groupBy.accesskey "G">
+    <!ENTITY groupBy.label "表示グループ">
+    <!ENTITY groupByDay.accesskey "D">
+    <!ENTITY groupByDay.label "日付">
+    <!ENTITY groupByNone.accesskey "N">
+    <!ENTITY groupByNone.label "なし">
+    <!ENTITY groupBySite.accesskey "S">
+    <!ENTITY groupBySite.label "サイト">
+    <!ENTITY menuitem.view.show_columns.accesskey "S">
+    <!ENTITY menuitem.view.show_columns.label "列を表示">
+    <!ENTITY menuitem.view.unsorted.accesskey "u">
+    <!ENTITY menuitem.view.unsorted.label "(自動で並べ直さない)">
+    <!ENTITY pasteCmd.label "貼り付け">
+    <!ENTITY redoCmd.label "やり直し">
+    <!ENTITY selAllCmd.label "すべて選択">
+    <!ENTITY sortAscending.accesskey "A">
+    <!ENTITY sortAscending.label "昇順">
+    <!ENTITY sortDescending.accesskey "D">
+    <!ENTITY sortDescending.label "降順">
+    <!ENTITY undoCmd.label "元に戻す">
+
+Following 3/37 Entities in this file don't match: suite/chrome/common/mac/platformCommunicatorOverlay.dtd:
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/mac/platformCommunicatorOverlay.dtd:
+    <!ENTITY openHelpFrontend.key            "?">
+    <!ENTITY openHelpFrontend.modifiers      "accel">
+    <!ENTITY openHelp2Cmd.key                "VK_HELP">
+
+Following 7/27 Entities in this file don't match: suite/chrome/common/notification.properties:
+  7 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/notification.properties:
+    geolocation.shareLocation=Share Location
+    geolocation.shareLocation.accesskey=a
+    geolocation.dontShareLocation=Don't Share
+    geolocation.dontShareLocation.accesskey=o
+    geolocation.siteWantsToKnow=%S wants to know your location.
+    geolocation.learnMore=Learn More…
+    geolocation.remember=Remember for this site
+
+Following 17/42 Entities in this file don't match: suite/chrome/common/permissions/cookieViewer.dtd:
+  14 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/permissions/cookieViewer.dtd:
+    <!ENTITY     button.removecookie.accesskey  "R">
+    <!ENTITY     button.removeallcookies.accesskey "e">
+    <!ENTITY     search.emptytext               "Search Cookies">
+    <!ENTITY     focusSearch.key                "f">
+    <!ENTITY     windowClose.key                "w">
+    <!ENTITY     selectAll.key                  "a">
+    <!ENTITY     buttonaccept.accesskey         "C">
+    <!ENTITY     blockSite.accesskey            "B">
+    <!ENTITY     allowSite.accesskey            "A">
+    <!ENTITY     allowSiteSession.accesskey     "S">
+    <!ENTITY     removepermission.accesskey     "R">
+    <!ENTITY     removeallpermissions.accesskey "e">
+    <!ENTITY     futureCookies.label            "Don't allow sites that set removed cookies to set future cookies">
+    <!ENTITY     futureCookies.accesskey        "D">
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/permissions/cookieViewer.dtd:
+    <!ENTITY canSet.label "Cookie を保存できる">
+    <!ENTITY cannotSet.label "Cookie を保存できない">
+    <!ENTITY checkbox.label "削除した Cookie を送信してきたサイトからの Cookie は今後受け入れない">
+
+Following 8/23 Entities in this file don't match: suite/chrome/common/permissions/cookieViewer.properties:
+  7 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/permissions/cookieViewer.properties:
+    expireAtEndOfSession=At end of session
+    deleteSelectedCookies=Are you sure you want to delete the selected cookies?
+    deleteSelectedCookiesTitle=Remove Selected Cookies
+    deleteSelectedCookiesYes=&Remove
+    deleteSelectedCookiesSites=Are you sure you want to delete the selected cookie sites?
+    deleteSelectedSitesTitle=Remove Selected Sites
+    deleteSelectedSitesYes=&Remove
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/permissions/cookieViewer.properties:
+    AtEndOfSession=セッションの終わり
+
+Following 1/15 Entities in this file don't match: suite/chrome/common/permissions/permissionsManager.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/permissions/permissionsManager.dtd:
+    <!ENTITY address.accesskey              "d">
+
+Following 2/39 Entities in this file don't match: suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd:
+    <!ENTITY cookieTutorialCmd.label "プライバシーの理解">
+    <!ENTITY cookieTutorialCmd.accesskey "u">
+
+Following 6/14 Entities in this file don't match: suite/chrome/common/pref/pref-advanced.dtd:
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-advanced.dtd:
+    <!ENTITY prefCheckDefault.caption   "System Integration">
+    <!ENTITY prefCheckDefaultClient.label "Check default application settings on startup">
+    <!ENTITY prefCheckDefaultClient.accesskey "C">
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-advanced.dtd:
+    <!ENTITY prefJvmConf.caption "使用する Java のバージョン (再起動後に有効)">
+    <!ENTITY jvm.name "バージョン">
+    <!ENTITY jvm.home "パス">
+
+Following 5/10 Entities in this file don't match: suite/chrome/common/pref/pref-applications.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-applications.dtd:
+    <!ENTITY search.emptytext        "Search Types and Actions">
+  4 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-applications.dtd:
+    <!ENTITY filter.label            "検索内容:">
+    <!ENTITY filter.accesskey        "S">
+    <!ENTITY clear.label             "クリア">
+    <!ENTITY clear.accesskey         "l">
+
+Following 2/16 Entities in this file don't match: suite/chrome/common/pref/pref-applications.properties:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-applications.properties:
+    addNewsBlogsInApp=Subscribe in %S
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-applications.properties:
+    addLiveBookmarksInApp=%S ライブブックマークに追加する
+
+Following 23/43 Entities in this file don't match: suite/chrome/common/pref/pref-download.dtd:
+  12 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-download.dtd:
+    <!ENTITY focusWhenStarting.label        "Flash the download manager if it is already open, otherwise:">
+    <!ENTITY focusWhenStarting.accesskey    "F">
+    <!ENTITY saveTo.label                   "Save files to">
+    <!ENTITY saveTo.accesskey               "v">
+    <!ENTITY alwaysAsk.label                "Always ask me where to save files">
+    <!ENTITY alwaysAsk.accesskey            "A">
+    <!ENTITY downloadRetention.label        "Download retention">
+    <!ENTITY removeDownloads.label          "Remove downloads">
+    <!ENTITY removeDownloads.accesskey      "R">
+    <!ENTITY whenCompleted.label            "When they have completed">
+    <!ENTITY whenQuittingApp.label          "When quitting &brandShortName;">
+    <!ENTITY neverRemove.label              "Never">
+  11 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-download.dtd:
+    <!ENTITY autoDownload.accesskey "A">
+    <!ENTITY autoDownload.label "すぐにダウンロードフォルダへ保存">
+    <!ENTITY downloadFolder.label "現在のダウンロードフォルダ">
+    <!ENTITY lastLocation.accesskey "L">
+    <!ENTITY lastLocation.label "前回と同じフォルダ">
+    <!ENTITY promptDownload.accesskey "P">
+    <!ENTITY promptDownload.label "ダウンロード時に保存先を確認する">
+    <!ENTITY soundURL.accesskey "U">
+    <!ENTITY soundURL.label "サウンドの URL:">
+    <!ENTITY specifiedLocation.accesskey "e">
+    <!ENTITY specifiedLocation.label "ダウンロードフォルダ">
+
+Following 6/60 Entities in this file don't match: suite/chrome/common/pref/pref-fonts.dtd:
+  6 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-fonts.dtd:
+    <!ENTITY fontsize.units "ピクセル">
+    <!ENTITY newLanguages.label "言語パネルを使って新しい言語を設定できます。">
+    <!ENTITY useDocFontDynamic.accesskey "a">
+    <!ENTITY useDocFontDynamic.label "ページによって指定されたすべてのフォントを使用する">
+    <!ENTITY useDocFontNonDynamic.accesskey "p">
+    <!ENTITY useDocFontNonDynamic.label "ページによって指定されたフォントを使用する">
+
+Following 18/27 Entities in this file don't match: suite/chrome/common/pref/pref-history.dtd:
+  15 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-history.dtd:
+    <!ENTITY  expireDaysMin1.label              "Always remember visited pages for at least">
+    <!ENTITY  expireDaysMin1.accesskey          "R">
+    <!ENTITY  expireDaysMin2.label              "days">
+    <!ENTITY  expireDays1.label                 "Remember visited pages for up to">
+    <!ENTITY  expireDays1.accesskey             "e">
+    <!ENTITY  expireDays2.label                 "days">
+    <!ENTITY  expireSites1.label                "Remember up to">
+    <!ENTITY  expireSites1.accesskey            "m">
+    <!ENTITY  expireSites2.label                "visited pages">
+    <!ENTITY  formfillHistory.caption           "Form and Search History">
+    <!ENTITY  enableFormfill.label              "Enable form and search history">
+    <!ENTITY  enableFormfill.accesskey          "n">
+    <!ENTITY  formfillExpire.label              "Remember form and search history for up to">
+    <!ENTITY  formfillExpire.accesskey          "f">
+    <!ENTITY  formfillDays.label                "days">
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-history.dtd:
+    <!ENTITY days.label "日">
+    <!ENTITY pageHis.accesskey "a">
+    <!ENTITY pageHis.label "訪問したページを次の日数だけ記憶する:">
+
+Following 1/19 Entities in this file don't match: suite/chrome/common/pref/pref-images.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-images.dtd:
+    <!ENTITY viewImagesExplanation.label "画像表示情報が保存されているサイト一覧を表示する">
+
+Following 17/43 Entities in this file don't match: suite/chrome/common/pref/pref-languages.dtd:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-languages.dtd:
+    <!ENTITY languages.customize.title                      "Languages">
+    <!ENTITY languages.customize.active.accesskey           "L">
+  15 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-languages.dtd:
+    <!ENTITY languages.customize.lHeader "言語">
+    <!ENTITY languages.customize.rHeader " Web ページの表示言語">
+    <!ENTITY languages.customize.engOrder.label "1">
+    <!ENTITY languages.customize.engOption.label "英語">
+    <!ENTITY languages.customize.title.label "言語のカスタマイズ">
+    <!ENTITY languages.customize.left.header "文字エンコーディング">
+    <!ENTITY charset.customize.right.header "サポートされている文字エンコーディングから選択">
+    <!ENTITY languages.customize.reorder.label "並べ直す">
+    <!ENTITY languages.customize.remove.label "削除">
+    <!ENTITY languages.customize.additional.label "利用可能な文字セット">
+    <!ENTITY languages.customize.add.label "追加">
+    <!ENTITY languages.customize.cancel.label "キャンセル">
+    <!ENTITY languages.customize.save.label "保存">
+    <!ENTITY languages.customize.ok.label "OK">
+    <!ENTITY languages.customize.save.popup "変更を有効にするためにブラウザを再起動してください...">
+
+Following 8/26 Entities in this file don't match: suite/chrome/common/pref/pref-locationbar.dtd:
+  8 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-locationbar.dtd:
+    <!ENTITY autoCompleteMatchOnlyURLs.label       "Only match locations, not website titles">
+    <!ENTITY autoCompleteMatchOnlyURLs.accesskey   "n">
+    <!ENTITY autoCompleteMatch.label               "Match">
+    <!ENTITY autoCompleteMatch.accesskey           "M">
+    <!ENTITY autoCompleteMatchAnywhere             "Anywhere in the location or title">
+    <!ENTITY autoCompleteMatchWordsFirst           "Anywhere but preferring word boundaries">
+    <!ENTITY autoCompleteMatchWords                "Only on word boundaries">
+    <!ENTITY autoCompleteMatchStart                "Only at the beginning of the location or title">
+
+Following 1/27 Entities in this file don't match: suite/chrome/common/pref/pref-mousewheel.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-mousewheel.dtd:
+    <!ENTITY mouseWheelPanel.accesskey "w">
+
+Following 12/44 Entities in this file don't match: suite/chrome/common/pref/pref-navigator.dtd:
+  4 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-navigator.dtd:
+    <!ENTITY navRadio.label                 "Display on">
+    <!ENTITY navRadio.accesskey             "n">
+    <!ENTITY restoreSessionRadio.label      "Restore Previous Session">
+    <!ENTITY restoreSessionRadio.accesskey  "P">
+  8 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-navigator.dtd:
+    <!ENTITY navRadio "右の場合:">
+    <!ENTITY printButton.label "印刷">
+    <!ENTITY printButton.accesskey "P">
+    <!ENTITY persToolbarIntro.label "パーソナルツールバー">
+    <!ENTITY homeButton.label "ホーム">
+    <!ENTITY homeButton.accesskey "e">
+    <!ENTITY bookmarksButton.label "ブックマーク">
+    <!ENTITY bookmarksButton.accesskey "k">
+
+Following 4/11 Entities in this file don't match: suite/chrome/common/pref/pref-passwords.dtd:
+  4 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-passwords.dtd:
+    <!ENTITY encryptHeader.caption "機密データの暗号化">
+    <!ENTITY encryptDescription.label "あなたのハードディスクに保存された機密データを暗号化し、侵入者によって情報が読み出されないように保護します。データにアクセスするにはパスワードを使用します。">
+    <!ENTITY encryptEnabled.label "機密データを保存する際に暗号を用いる">
+    <!ENTITY encryptEnabled.accesskey "U">
+
+Following 8/25 Entities in this file don't match: suite/chrome/common/pref/pref-popups.dtd:
+  7 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-popups.dtd:
+    <!ENTITY systemSound.label              "System beep">
+    <!ENTITY systemSound.accesskey          "S">
+    <!ENTITY customSound.label              "Custom sound file">
+    <!ENTITY customSound.accesskey          "C">
+    <!ENTITY selectSound.filter             "Sounds">
+    <!ENTITY displayNotification.label      "Display a notification bar at the top of the content area">
+    <!ENTITY displayNotification.accesskey  "N">
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-popups.dtd:
+    <!ENTITY popupDesc.label "ブラウザウィンドウの上、あるいは下に表示されるように作られている、ポップアップウィンドウをどのように扱ったらいいですか:">
+
+Following 7/32 Entities in this file don't match: suite/chrome/common/pref/pref-proxies-advanced.dtd:
+  4 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-proxies-advanced.dtd:
+    <!ENTITY  HTTPPort.accesskey          "P">
+    <!ENTITY  SSLPort.accesskey           "o">
+    <!ENTITY  FTPPort.accesskey           "r">
+    <!ENTITY  gopherPort.accesskey        "">
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-proxies-advanced.dtd:
+    <!ENTITY FTPport.accesskey "r">
+    <!ENTITY HTTPport.accesskey "P">
+    <!ENTITY SSLport.accesskey "o">
+
+Following 4/25 Entities in this file don't match: suite/chrome/common/pref/pref-proxies.dtd:
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-proxies.dtd:
+    <!ENTITY  systemTypeRadio.label         "Use system proxy settings">
+    <!ENTITY  systemTypeRadio.accesskey     "U">
+    <!ENTITY  HTTPPort.accesskey            "o">
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-proxies.dtd:
+    <!ENTITY HTTPport.accesskey "o">
+
+Following 3/16 Entities in this file don't match: suite/chrome/common/pref/pref-scripts.dtd:
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-scripts.dtd:
+    <!ENTITY whenPluginsRequired.label       "When additional plugins are required">
+    <!ENTITY displayNotification.label       "Display a notification bar at the top of the content area">
+    <!ENTITY displayNotification.accesskey   "N">
+
+Following 2/26 Entities in this file don't match: suite/chrome/common/pref/pref-ssl.dtd:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-ssl.dtd:
+    <!ENTITY warn.secureredirect                "暗号化されたページからほかのページにリダイレクトするとき">
+    <!ENTITY warn.secureredirecttoinsecure      "暗号化されたページから暗号化されていないページにリダイレクトするとき">
+
+Following 2/27 Entities in this file don't match: suite/chrome/common/pref/pref-tabs.dtd:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-tabs.dtd:
+    <!ENTITY warnOnClose.label "Warn me when closing a window with multiple tabs">
+    <!ENTITY warnOnClose.accesskey "n">
+
+Following 29/47 Entities in this file don't match: suite/chrome/common/pref/pref-validation.dtd:
+  29 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-validation.dtd:
+    <!ENTITY  validation.crlmanager.label             "CRL の管理">
+    <!ENTITY  validation.crlmanager.description       "証明書データベースに以下の証明書失効リスト (CRL) が保存されています:">
+    <!ENTITY  validation.crlname.label                "名称">
+    <!ENTITY  validation.crllastupdate.label          "最終更新日">
+    <!ENTITY  validation.crlnextupdate.label          "次回更新日">
+    <!ENTITY  validation.crlautoupdateenabled.label   "自動更新">
+    <!ENTITY  validation.crlautoupdatestatus.label    "自動更新状況">
+    <!ENTITY  validation.deletecrl.label              "削除">
+    <!ENTITY  validation.deletecrl.accesskey          "D">
+    <!ENTITY  validation.updatecrl.label              "更新">
+    <!ENTITY  validation.updatecrl.accesskey          "U">
+    <!ENTITY  validation.advanced.label               "設定">
+    <!ENTITY  validation.advanced.accesskey           "S">
+    <!ENTITY  validation.crl.autoupdate.title         "CRL 自動更新の設定">
+    <!ENTITY  validation.crl.autoupdate.enable.label  "この証明書失効リストの自動更新を有効にする">
+    <!ENTITY  validation.crl.autoupdate.time.label1   "次回更新日の">
+    <!ENTITY  validation.crl.autoupdate.time.label2   "日前に更新する">
+    <!ENTITY  validation.crl.autoupdate.freq.label1   "更新間隔を">
+    <!ENTITY  validation.crl.autoupdate.freq.label2   "日毎とする">
+    <!ENTITY  validation.crl.autoupdate.url.label     "CRL の取得先:">
+    <!ENTITY  crl.import.status.title                 "CRL 取得状況">
+    <!ENTITY  crl.import.success.message              "証明書失効リスト (CRL) を正常にインポートしました。">
+    <!ENTITY  crl.issuer.label                        "CRL 発行者:">
+    <!ENTITY  crl.issuer.org.label                    "組織: ">
+    <!ENTITY  crl.issuer.orgunit.label                "部門: ">
+    <!ENTITY  crl.import.nextupdate.label             "次回更新日: ">
+    <!ENTITY  crl.autoupdate.fail.cnt.label           "直前の連続した更新失敗回数: ">
+    <!ENTITY  crl.autoupdate.fail.reason.label        "最後の更新失敗の詳細: ">
+    <!ENTITY  edit.button                             "設定">
+
+Following 1/35 Entities in this file don't match: suite/chrome/common/pref/preferences.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/preferences.dtd:
+    <!ENTITY focusSearch.key "f">
+
+Following 10/16 Entities in this file don't match: suite/chrome/common/pref/prefutilities.properties:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/prefutilities.properties:
+    desktopFolderName=Desktop
+    downloadsFolderName=Downloads
+  8 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/prefutilities.properties:
+    choosefile=ファイルを選択
+    viewrow=表示...
+    hiderow=隠す
+    oldTheme=あなたが選択したテーマは %brand% の以前のヴァージョン用に作成されています。現在の %brand% ヴァージョンでは適用できません。%brand% テーマのページで、新しいヴァージョンが提供されているかもしれません。[テーマをアンインストール] ボタンをクリックして、このテーマをアンインストールすることもできます。
+    languageAlert=言語や地域の設定変更は、%brand% の次回起動時に反映されます。
+    languageTitle=言語の変更
+    prefSaveFailedAlert=設定ファイルの更新に失敗しました。今回起動してから変更された設定は、保存されていないかもしれません。
+    prefSaveFailedTitle=保存エラー
+
+Following 6/11 Entities in this file don't match: suite/chrome/common/pref/win/platformPrefOverlay.dtd:
+  6 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/win/platformPrefOverlay.dtd:
+    <!ENTITY winhooks.label                   "システム">
+    <!ENTITY defaultBrowserGroup.label  "既定のブラウザ">
+    <!ENTITY defaultBrowserButton.label "既定のブラウザに設定">
+    <!ENTITY alreadyDefaultText         "&brandShortName; は既定のブラウザに設定されています。">
+    <!ENTITY defaultPendingText         "&brandShortName; は OK をクリックすると既定のブラウザになります。">
+    <!ENTITY makeDefaultText            "&brandShortName; を既定のブラウザに設定する。">
+
+Following 2/5 Entities in this file don't match: suite/chrome/common/region.properties:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/region.properties:
+    intl.content.langcode=ja-JP
+    update_notifications.provider.0.datasource=http://www.mozilla.org/projects/seamonkey/releases/updates/ja-JP.rdf
+
+Following 2/21 Entities in this file don't match: suite/chrome/common/sanitize.dtd:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/sanitize.dtd:
+    <!ENTITY itemUrlBar.label                "Location Bar History">
+    <!ENTITY itemUrlBar.accesskey            "L">
+
+Following 1/7 Entities in this file don't match: suite/chrome/common/search/search-editor.properties:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/search/search-editor.properties:
+    RemoveCategoryTitle=Delete Category
+
+Following 5/17 Entities in this file don't match: suite/chrome/common/search/search-panel.dtd:
+  5 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/search/search-panel.dtd:
+    <!ENTITY checkbox.column.label "使用">
+    <!ENTITY savesearch.button.label "検索結果をブックマークする">
+    <!ENTITY search.advanced.tab "拡張">
+    <!ENTITY search.results.tab "適用">
+    <!ENTITY stop.button.label "中止">
+
+Following 1/5 Entities in this file don't match: suite/chrome/common/sidebar/local-panels.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/sidebar/local-panels.dtd:
+    <!ENTITY sidebar.whats-related.label "関連サイト">
+
+Following 1/2 Entities in this file don't match: suite/chrome/common/sidebar/preview.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/sidebar/preview.dtd:
+    <!ENTITY sidebar.preview.close.label "閉じる">
+
+Following 13/37 Entities in this file don't match: suite/chrome/common/tasksOverlay.dtd:
+  8 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/tasksOverlay.dtd:
+    <!ENTITY errorConsoleCmd.commandkey				"j">
+    <!ENTITY passwordManagerCmd.label "Password Manager">
+    <!ENTITY passwordManagerCmd.accesskey "P">
+    <!ENTITY passwordDisplayCmd.label "Manage Stored Passwords">
+    <!ENTITY passwordDisplayCmd.accesskey "M">
+    <!ENTITY passwordExpireCmd.label "Log Out">
+    <!ENTITY passwordExpireCmd.accesskey "l">
+    <!ENTITY downloadManagerCmd.commandkey "j">
+  5 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/tasksOverlay.dtd:
+    <!ENTITY securityInfoCmd.label ".セキュリティ情報">
+    <!ENTITY securityInfoCmd.accesskey "s">
+    <!ENTITY privacyMenu.label "プライバシー &amp; セキュリティ">
+    <!ENTITY privacyMenu.accesskey "p">
+    <!ENTITY taskBar.tooltip "ステータスバー">
+
+Following 2/20 Entities in this file don't match: suite/chrome/common/unix/platformCommunicatorOverlay.dtd:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/unix/platformCommunicatorOverlay.dtd:
+    <!ENTITY copyImageURLCmd.label          "Copy Image Location">
+    <!ENTITY copyImageURLCmd.accesskey      "y">
+
+Following 19/98 Entities in this file don't match: suite/chrome/common/utilityOverlay.dtd:
+  18 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/utilityOverlay.dtd:
+    <!ENTITY system.label                                   "Online (Proxy: System Proxy)">
+    <!ENTITY system.accesskey                               "S">
+    <!ENTITY customizeToolbarContext.label            "Customize…">
+    <!ENTITY customizeToolbarContext.accesskey        "C">
+    <!ENTITY customizeToolbar.toolbarmode.label       "Settings for this toolbar">
+    <!ENTITY customizeToolbar.toolbarmode.accesskey   "e">
+    <!ENTITY customizeToolbar.iconsAndText.label      "Icons and Text">
+    <!ENTITY customizeToolbar.iconsAndText.accesskey  "a">
+    <!ENTITY customizeToolbar.icons.label             "Icons">
+    <!ENTITY customizeToolbar.icons.accesskey         "o">
+    <!ENTITY customizeToolbar.text.label              "Text">
+    <!ENTITY customizeToolbar.text.accesskey          "T">
+    <!ENTITY customizeToolbar.useSmallIcons.label     "Use small icons">
+    <!ENTITY customizeToolbar.useSmallIcons.accesskey "s">
+    <!ENTITY customizeToolbar.labelAlignEnd.label     "Show text beside icon">
+    <!ENTITY customizeToolbar.labelAlignEnd.accesskey "b">
+    <!ENTITY customizeToolbar.useDefault.label        "Use default settings">
+    <!ENTITY customizeToolbar.useDefault.accesskey    "U">
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/utilityOverlay.dtd:
+    <!ENTITY deleteCmd.key "D">
+
+Following 1/20 Entities in this file don't match: suite/chrome/common/utilityOverlay.properties:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/utilityOverlay.properties:
+    onlineTooltip5=You are online (proxy: use system proxy). Click the icon to go offline.
+
+Following 2/20 Entities in this file don't match: suite/chrome/common/win/platformCommunicatorOverlay.dtd:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/win/platformCommunicatorOverlay.dtd:
+    <!ENTITY helpForIEUsers.label           "For Internet Explorer Users">
+    <!ENTITY helpForIEUsers.accesskey       "I">
+
+Following 2/222 Entities in this file don't match: suite/chrome/mailnews/messenger.properties:
+  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/mailnews/messenger.properties:
+    feedNoSummaryTitle=No Feed Summary
+    feedNoSummaryAlert=This is a news feed in an old format, which does not store the Summary of the news item. Therefore it cannot be displayed.
+
+Following 23/55 Entities in this file don't match: suite/chrome/mailnews/pref/am-offline.dtd:
+  9 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/mailnews/pref/am-offline.dtd:
+    <!ENTITY doNotDownload.label "To save disk space, do not download for offline use:">
+    <!ENTITY useAutosyncBefore.label         "">
+    <!ENTITY useAutosyncMiddle.label         "">
+    <!ENTITY allInterval.label               "All">
+    <!ENTITY dayInterval.label               "Days of">
+    <!ENTITY weekInterval.label              "Weeks of">
+    <!ENTITY monthInterval.label             "Months of">
+    <!ENTITY yearInterval.label              "Years of">
+    <!ENTITY useAutosyncAfter.label          "email will be stored on disk">
+  14 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/mailnews/pref/am-offline.dtd:
+    <!ENTITY doNotDownloadNntp.label "次のメッセージはオフライン表示用にダウンロードしない:">
+    <!ENTITY doNotDownloadImap.label "指定したサイズまたは期間のメッセージをオフライン表示用にダウンロードしてローカルにコピーを保存します。">
+    <!ENTITY autosyncNotDownload.label "次のサイズのメッセージはダウンロードしない:">
+    <!ENTITY autosyncNotDownload.accesskey "m">
+    <!ENTITY allAutosync.label		"すべてのメッセージをローカルに同期する">
+    <!ENTITY allAutosync.accesskey           "c">
+    <!ENTITY ageAutosyncBefore.label	"最近">
+    <!ENTITY ageAutosync.accesskey           "z">
+    <!ENTITY ageAutosyncMiddle.label         "">
+    <!ENTITY dayAgeInterval.label            "日">
+    <!ENTITY weekAgeInterval.label           "週">
+    <!ENTITY monthAgeInterval.label          "カ月">
+    <!ENTITY yearAgeInterval.label           "カ年">
+    <!ENTITY ageAutosyncAfter.label          "分のメッセージをローカルに同期する">
