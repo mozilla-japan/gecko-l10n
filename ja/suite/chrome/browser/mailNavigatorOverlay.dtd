@@ -2,8 +2,8 @@
 <!ENTITY newMessageCmd.accesskey         "M">
 <!ENTITY newMessageCmd.key               "M">
 
-<!ENTITY newCardCmd.label                "アドレス帳のカード...">
-<!ENTITY newCardCmd.accesskey            "C">
+<!ENTITY newContactCmd.label             "連絡先...">
+<!ENTITY newContactCmd.accesskey         "C">
 
 <!ENTITY sendPage.label                  "ページを送る...">
 <!ENTITY sendPage.accesskey              "S">
