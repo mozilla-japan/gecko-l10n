@@ -3,7 +3,7 @@
 <!ENTITY findAsYouTypeAutoText.accesskey "A">
 <!ENTITY findAsYouTypeAutoText.label "ページ中のすべての文字">
 <!ENTITY findAsYouTypeBehavior.label "タイプ検索 (Find As You Type)">
-<!ENTITY findAsYouTypeEnableAuto.accesskey "a">
+<!ENTITY findAsYouTypeEnableAuto.accesskey "F">
 <!ENTITY findAsYouTypeEnableAuto.label "打った文字と同じ部分を自動的に探す機能:">
 <!ENTITY findAsYouTypeSound.accesskey "P">
 <!ENTITY findAsYouTypeSound.label "見つからなかったときには音を鳴らす">

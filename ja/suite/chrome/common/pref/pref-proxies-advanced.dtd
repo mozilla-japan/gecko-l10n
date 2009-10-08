@@ -6,7 +6,7 @@
 <!ENTITY ftp.label "FTP プロキシ:">
 <!ENTITY gopher.accesskey "G">
 <!ENTITY gopher.label "Gopher プロキシ:">
-<!ENTITY http.accesskey "T">
+<!ENTITY  http.accesskey              "x">
 <!ENTITY http.label "HTTP プロキシ:">
 <!ENTITY port.label "ポート番号:">
 <!ENTITY pref.proxies.advanced.title "プロキシの詳細設定">
@@ -14,7 +14,7 @@
 <!ENTITY protocols.description "ほとんどのプロキシでは、プロトコル別に設定をする必要はありません。">
 <!ENTITY reuseProxy.accesskey "U">
 <!ENTITY reuseProxy.label "すべてのプロトコルで HTTP プロキシと同じ設定を使用">
-<!ENTITY socks.accesskey "O">
+<!ENTITY  socks.accesskey             "S">
 <!ENTITY socks.caption "Generic プロキシ">
 <!ENTITY socks.description "SOCKS プロキシは主に企業などで使用されます。">
 <!ENTITY socks.label "SOCKS プロキシ:">
@@ -24,5 +24,5 @@
 <!ENTITY socks5.label "SOCKS v5">
 <!ENTITY socksRemoteDNS.accesskey "e">
 <!ENTITY socksRemoteDNS.label "ホスト名の解決に使用 (SOCKS v5 で推奨)">
-<!ENTITY ssl.accesskey "S">
+<!ENTITY  ssl.accesskey               "L">
 <!ENTITY ssl.label "SSL プロキシ:">

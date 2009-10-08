@@ -9,7 +9,7 @@
 <!ENTITY autoCompleteShowPopup.label           "一致する単語のリストを表示">
 <!ENTITY autoCompleteShowPopup.accesskey       "S">
 <!ENTITY autoCompleteMatchOnlyTyped.label      "以前に入力した Web サイトにのみ一致するリストを表示">
-<!ENTITY autoCompleteMatchOnlyTyped.accesskey  "M">
+<!ENTITY autoCompleteMatchOnlyTyped.accesskey  "o">
 
 <!ENTITY searchEngine.label                    "インターネットサーチエンジン">
 <!ENTITY showSearchEngine.label                "デフォルトのサーチエンジンを表示">

@@ -15,7 +15,7 @@
 <!ENTITY newWindow.label "リンクの開き方">
 <!ENTITY newWindowDescription.label "本来は新しい@@Window@@で開くリンクを">
 <!ENTITY newWindowGroupCurrent.accesskey "c">
-<!ENTITY newWindowGroupTab.accesskey "n">
+<!ENTITY newWindowGroupTab.accesskey "t">
 <!ENTITY newWindowGroupWindow.accesskey "w">
 <!ENTITY openCurrent.label "現在のタブまたは@@Window@@で開く">
 <!ENTITY openTab.label "現在の@@Window@@で@@NewTab@@として開く">

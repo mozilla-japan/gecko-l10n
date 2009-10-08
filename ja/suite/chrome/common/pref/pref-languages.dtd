@@ -33,9 +33,9 @@
 <!ENTITY languages.customize.ok.label "OK">
 <!ENTITY languages.customize.save.popup "変更を有効にするためにブラウザを再起動してください...">
 <!ENTITY languages.customize.moveUp.label "上へ">
-<!ENTITY languages.customize.moveUp.accesskey "u">
+<!ENTITY languages.customize.moveUp.accesskey           "U">
 <!ENTITY languages.customize.moveDown.label "下へ">
-<!ENTITY languages.customize.moveDown.accesskey "d">
+<!ENTITY languages.customize.moveDown.accesskey         "D">
 
 <!ENTITY spelling.label "スペル">
 <!ENTITY checkSpelling.label "スペルチェックを実行:">
