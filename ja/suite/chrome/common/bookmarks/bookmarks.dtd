@@ -94,25 +94,25 @@
 <!ENTITY menuitem.personaltoolbarfolder.accesskey   "p">
 
 <!ENTITY treecol.name.label             "名前">
-<!ENTITY treecol.name.accesskey         "n">
+<!ENTITY treecol.name.accesskey         "N">
 <!ENTITY treecol.name.tooltip           "名前で並べ替える">
 <!ENTITY treecol.url.label              "アドレス(URL)">
-<!ENTITY treecol.url.accesskey          "l">
+<!ENTITY treecol.url.accesskey          "L">
 <!ENTITY treecol.url.tooltip            "アドレス(URL)で並べ替える">
 <!ENTITY treecol.shortcut.label         "キーワード">
-<!ENTITY treecol.shortcut.accesskey     "k">
+<!ENTITY treecol.shortcut.accesskey     "K">
 <!ENTITY treecol.shortcut.tooltip       "キーワードで並べ替える">
 <!ENTITY treecol.description.label      "説明">
-<!ENTITY treecol.description.accesskey  "d">
+<!ENTITY treecol.description.accesskey  "D">
 <!ENTITY treecol.description.tooltip    "説明で並べ替える">
 <!ENTITY treecol.addedon.label          "追加日時">
-<!ENTITY treecol.addedon.accesskey      "a">
+<!ENTITY treecol.addedon.accesskey      "A">
 <!ENTITY treecol.addedon.tooltip        "追加日時で並べ替える">
 <!ENTITY treecol.lastmod.label          "最終更新日時">
-<!ENTITY treecol.lastmod.accesskey      "m">
+<!ENTITY treecol.lastmod.accesskey      "M">
 <!ENTITY treecol.lastmod.tooltip        "最終更新日時で並べ替える">
 <!ENTITY treecol.lastvisit.label        "最終訪問日時">
-<!ENTITY treecol.lastvisit.accesskey    "b">
+<!ENTITY treecol.lastvisit.accesskey    "V">
 <!ENTITY treecol.lastvisit.tooltip      "最終訪問日時で並べ替える">
 
 <!ENTITY bookmarksWindowTitle.label     "ブックマークマネージャ">

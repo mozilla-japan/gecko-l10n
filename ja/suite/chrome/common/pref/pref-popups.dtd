@@ -12,12 +12,12 @@
 
 <!ENTITY whenBlock.description "ポップアップ@@Window@@を自動的に閉じた場合:">
 <!ENTITY playSound.label "音を鳴らす:">
-<!ENTITY playSound.accesskey            "s">
+<!ENTITY playSound.accesskey            "P">
 
 <!ENTITY selectSound.label "参照...">
-<!ENTITY selectSound.accesskey "r">
+<!ENTITY selectSound.accesskey          "o">
 <!ENTITY previewSound.label "プレビュー">
-<!ENTITY previewSound.accesskey "P">
+<!ENTITY previewSound.accesskey         "v">
 <!ENTITY selectSound.title "ブロックしたときに鳴らす音を選択してください">
 
 <!ENTITY displayIcon.label "ステータスバーにアイコンを表示する">

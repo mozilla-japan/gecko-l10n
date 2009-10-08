@@ -20,7 +20,7 @@
 <!ENTITY scrollPgUpPgDn.label "1ページ単位に上下にスクロールする">
 <!ENTITY scrollPgUpPgDn.accesskey "p">
 <!ENTITY scrollPgLtPgRt.label "左右にスクロール">
-<!ENTITY scrollPgLtPgRt.accesskey "p">
+<!ENTITY scrollPgLtPgRt.accesskey        "r">
 <!ENTITY history.label "履歴の中で 戻る/進む">
 <!ENTITY history.accesskey "M">
 <!ENTITY historyHoriz.accesskey          "b">
