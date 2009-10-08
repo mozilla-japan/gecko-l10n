@@ -300,7 +300,7 @@
     then Browser Tab.</li>
   <li><strong>From the Tab Bar</strong>: If visible, click the <q>new
     tab</q> icon
-    <img src="chrome://global/skin/icons/tab-new.gif" alt="new tab icon"/>
+    <img src="chrome://navigator/skin/icons/tab-new.gif" alt="new tab icon"/>
     on the left side of the Tab Bar.</li>
   <li><strong>From a pop-up menu</strong>: If the Tab Bar is visible,
     right-click on it, and choose New Tab from the pop.</li>
@@ -581,7 +581,7 @@
 <ol>
   <li>Open a web page you want to bookmark.</li>
   <li>Drag the bookmark icon
-    <img src="chrome://communicator/skin/bookmarks/bookmark-item.gif"
+    <img src="chrome://communicator/skin/bookmarks/bookmark-item.png"
     alt="image of bookmark icon"/>(located to the left of URL in the
     Location Bar) to a desired place on the Personal Toolbar. You can drag the
     icon directly to the Personal Toolbar, or to a folder on the Personal
@@ -591,7 +591,7 @@
 </ol>
 
 <p><strong>Note</strong>: The bookmark icon
-  <img src="chrome://communicator/skin/bookmarks/bookmark-item.gif" alt="image
+  <img src="chrome://communicator/skin/bookmarks/bookmark-item.png" alt="image
   of bookmark icon"/> may appear as another page-specific icon if you have
   checked Show Website Icons in preferences. See
   <a href="cs_nav_prefs_appearance.xhtml#appearance">Appearance Preferences -
@@ -682,15 +682,15 @@
     <a href="using_priv_help.xhtml#cookie_notification">Cookie
     Notification</a>.</li>
   <li>Work Offline
-    <img src="chrome://communicator/skin/icons/offline.gif"
+    <img src="chrome://communicator/skin/icons/offline.png"
     alt="work offline icon"/> or Work Online
-    <img src="chrome://communicator/skin/icons/online.gif"
+    <img src="chrome://communicator/skin/icons/online.png"
     alt="work online icon"/> icon: Click the icon to toggle working
     offline or online. Working offline prevents &brandShortName; from
     attempting to connect to the Internet, for example to load images on web
     pages or automatically check email.</li>
   <li>Lock icon (Example:
-    <img src="chrome://communicator/skin/icons/lock-insecure.gif"
+    <img src="chrome://communicator/skin/icons/lock-insecure.png"
     alt="lock icon"/>): Indicates whether the entire contents of the page
     was encrypted while it was being received by your computer. For more
     information, see
@@ -812,7 +812,7 @@
       window.</p>
   </li>
   <li>To add a bookmark to the Personal Toolbar, drag the bookmark icon
-    <img src="chrome://communicator/skin/bookmarks/bookmark-item.gif"
+    <img src="chrome://communicator/skin/bookmarks/bookmark-item.png"
     alt="image of bookmark icon"/> next to the Location Bar to a place on
     the Personal Toolbar. You can drag a bookmark to the following places:
     <ul>
@@ -841,7 +841,7 @@
 <ul>
   <li>To add a bookmark to the Bookmarks tab in Sidebar, open Sidebar, select
     the Bookmarks tab, and drag the bookmark icon
-    <img src="chrome://communicator/skin/bookmarks/bookmark-item.gif"
+    <img src="chrome://communicator/skin/bookmarks/bookmark-item.png"
     alt="image of bookmark icon"/> next to the Location Bar to a place on
     the bookmark list in the Bookmarks tab.
   </li>
@@ -850,7 +850,7 @@
 <p><strong>Notes</strong>:</p>
 <ul>
   <li>The bookmark icon
-    <img src="chrome://communicator/skin/bookmarks/bookmark-item.gif"
+    <img src="chrome://communicator/skin/bookmarks/bookmark-item.png"
     alt="image of bookmark icon"/> may appear as another page-specific
     icon if you have checked Show Website Icons in preferences. See
     <a href="cs_nav_prefs_appearance.xhtml#appearance">Appearance Preferences -
@@ -903,8 +903,11 @@
 <p>To sort your bookmarks in the Manage Bookmarks window:</p>
 
 <ul>
-  <li>Open the View menu and select how you want the list sorted (such as Sort
-    by Name or Sort by Location).
+  <li>Select the folder you want to sort.</li>
+  <li>To sort bookmarks by Name, open the Edit menu and select Sort Folder by
+    Name.</li>
+  <li>To sort bookmarks in other ways, open the Edit menu and select Sort
+    Folder. In the dialog, choose how you want the list sorted.
 
     <p><strong>Tip</strong>: To add more columns, open the View menu, open
       <q>Show columns</q>, and select a column header in the list.</p></li>
@@ -946,11 +949,11 @@
   <li>Open the Bookmarks menu and choose Manage Bookmarks.</li>
   <li>In your Bookmarks window, click a bookmark.</li>
   <li>Click Properties.</li>
-  <li>In the bookmark Properties dialog box, click the Schedule tab.</li>
-  <li>Use the pull down lists to specify how frequently you want
-    &brandShortName; to check the bookmarked page for changes.</li>
-  <li>If you want to be notified when the bookmarked page changes, click the
-    Notify tab and choose a notification option.</li>
+  <li>Use the pull down lists and the textfield under <q>Check this location
+    for updates</q> to specify how often you want &brandShortName; to check the
+    bookmarked page for changes.</li>
+  <li>To be notified when the bookmarked page changes, choose from the options
+    in the <q>Notification</q> section.</li>
 </ol>
 
 <p> [<a href="#bookmarks">Return to beginning of section</a>]</p>
@@ -1003,9 +1006,9 @@
 
 <p>Your &brandShortName; bookmarks are not altered by this procedure.</p>
 
-<p>You can also import bookmarks files from other sources. For example, you can
-  import bookmarks files from earlier &brandShortName; versions, other
-  browsers, or from bookmarks files that your friends send you.</p>
+<p>You can also import bookmarks from other sources. For example, you can
+  import bookmarks from earlier &brandShortName; versions, other browsers, or
+  from bookmarks files that your friends send you.</p>
 
 <p>Before you start, make sure that the bookmarks file you want to import is an
   HTML file.</p>
@@ -1013,13 +1016,19 @@
 <ol>
   <li>Open the Bookmarks menu and choose Manage Bookmarks.</li>
   <li>In your Bookmarks window, open the Tools menu and choose Import.</li>
-  <li>In the <q>Import Bookmarks File</q> dialog box, locate and select
-    the bookmarks file you want to import.</li>
-  <li>Click Open.</li>
+  <li>In the dialog that appears, choose whether you want to import bookmarks
+    from earlier versions of &brandShortName;, or from a bookmarks file on your
+    computer.</li>
+  <li>Click Continue.</li>
+  <li>If you have chosen to import bookmarks from an earlier version of
+    &brandShortName;, select the profile you want to import bookmarks from,
+    then click Continue. If you have chosen to import bookmarks from a
+    file, navigate to and select the bookmarks file you want to import, then
+    click Open.</li>
 </ol>
 
-<p>The imported bookmarks file is treated as a group of new bookmarks and added
-  to the bottom of your bookmarks list. If you have designated a new bookmark
+<p>The imported bookmarks are treated as a group of new bookmarks and added to
+  the bottom of your bookmarks list. If you have designated a new bookmark
   folder, the imported bookmarks are added to that folder.</p>
 
 <p><strong>Note</strong>: Importing a bookmarks file imports the bookmarks and
@@ -1033,6 +1042,7 @@
 <div class="contentsBox">In this section:
   <ul>
     <li><a href="#specifying_a_starting_page">Specifying a Starting Page</a></li>
+    <li><a href="#session_restore">Session Restore</a></li>
     <li><a href="#changing_your_home_page">Changing Your Home Page</a></li>
     <li><a href="#specifying_which_components_open_at_launch">Specifying Which
       Components Open at Launch</a></li>
@@ -1048,10 +1058,30 @@
     <span class="noMac">Edit</span> menu and choose Preferences.</li>
   <li>Under "Display on Browser Startup" choose whether you want a
     blank page, your home page, or the last web page visited to open
-    automatically when you launch your browser.
+    automatically when you launch your browser. Alternatively you can
+    tell &brandShortName; to restore the previous session, i.e. the
+    windows and tabs you had open when you last exited &brandShortName;.
   <p><strong>Note</strong>: If you selected Home Page, type the URL in the
     Location Bar.</p></li>
 </ol>
+
+<p>[<a href="#specifying_how_mozilla_starts_up">Return to beginning of
+  section</a>]</p>
+
+<h3 id="session_restore">Session Restore</h3>
+
+<p>&brandShortName; periodically saves your browsing session (open windows
+  and tabs, including form data) to disk. When you start &brandShortName; with
+  Session Restore enabled, the windows and tabs from your previous session
+  will be restored. This is especially useful if your previous browsing session
+  ended unexpectedly (e.g. your computer crashed or a website you visited forced
+  &brandShortName; to terminate). &brandShortName; will automatically restore
+  the previous session if "Restore Previous Session" under "Display on Browser
+  Startup" has been selected. If you chose to not be warned when you close a
+  browser window with multiple tabs open (see <a href="#tabbed_browsing">Tabbed
+  Browsing</a> preference panel), &brandShortName; will open a page from
+  where you can choose which windows/tabs from the previous session you want to
+  restore. The same will happen if &brandShortName; crashes repeatedly.</p>
 
 <p>[<a href="#specifying_how_mozilla_starts_up">Return to beginning of
   section</a>]</p>
@@ -1081,7 +1111,7 @@
 </ol>
 
 <p><strong>Tip</strong>: To specify your home page quickly, drag the bookmark
-  icon <img src="chrome://communicator/skin/bookmarks/bookmark-item.gif"
+  icon <img src="chrome://communicator/skin/bookmarks/bookmark-item.png"
   alt="image of bookmark icon"/> from the Location Bar to the Home Page
   button on the Personal Toolbar.</p>
 

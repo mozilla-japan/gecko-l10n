@@ -11,9 +11,10 @@ mar:
 
 tooyama さんへ:
 /suite/chrome 以下の en-US と同期していないディレクトリ:
-	/browser - done by dynamis ;-)
 	/common
 上記了解。
+	/browser - done by dynamis ;-)
+	/common/help - done by mar (すべて未訳)
 
 未訳リスト(mailnews 直下のファイルのみ)
   /suite/chrome/mailnews/
