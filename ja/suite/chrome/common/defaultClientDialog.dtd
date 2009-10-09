@@ -4,7 +4,7 @@
 <!ENTITY browser.label "ブラウザ">
 <!ENTITY email.label "メール">
 <!ENTITY newsgroups.label "ニュース">
-<!ENTITY rss.label "RSS フィード">
+<!ENTITY feeds.label "フィード">
 
 <!ENTITY checkOnStartup.label "&brandShortName; を起動するたびに確認する">
 <!ENTITY checkOnStartup.accesskey "A">
