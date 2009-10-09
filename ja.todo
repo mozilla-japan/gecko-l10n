@@ -11,20 +11,12 @@ mar:
 
 tooyama さんへ:
 /suite/chrome 以下の en-US と同期していないディレクトリ:
-	/common/* 
+	/common/* の一部(一部は sync 済み)
 上記了解。
 	/browser - done by dynamis ;-)
 	/common/bookmarks - done by dynamis
+	/common/history - done by dynamis
 	/common/help - done by mar (すべて未訳)
-
-新規ファイル未対応
-Only in en-US/suite/chrome/common: certError.dtd
-Only in en-US/suite/chrome/common: defaultClientDialog.dtd
-Only in en-US/suite/chrome/common: downloads
-Only in en-US/suite/chrome/common: feeds
-Only in en-US/suite/chrome/common/history: places.properties
-Only in en-US-suite20080707/suite/chrome/common: overrides
-Only in en-US/suite/chrome/common: passwordManager.dtd
 
 未訳リスト(mailnews 直下のファイルのみ)
   /suite/chrome/mailnews/
@@ -70,26 +62,26 @@ Only in en-US/suite/chrome/common: passwordManager.dtd
 	ldap.properties
 
 ----------------------------------------
-以下、参考までに svn rev 459 時点での "ant for191 onlysm compare" 実行結果ログ:
+以下、参考までに svn rev 464 時点での "ant for191 onlysm compare" 実行結果ログ:
 
 Compare Locales Result:
   includes: dom/, netwerk/, security/, toolkit/, suite/, extensions/irc/, extensions/venkman/, extensions/spellcheck/, editor/
   excludes: .hg/, minimo/, extensions/irc/, extensions/spellcheck/, extensions/venkman/
 
 Number of files in the /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
-  total: 448, common: 437, unique: 11
+  total: 448, common: 438, unique: 10
 
 Number of files in the /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  total: 442, common: 437, unique: 5
+  total: 439, common: 438, unique: 1
 
 Total Number of entities in the /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
-  total: 12607, common: 12177, unique: 430
+  total: 12724, common: 12420, unique: 304
 
 Total Number of entities in the /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  total: 12433, common: 12177, unique: 256
+  total: 12567, common: 12420, unique: 147
 
 Total Number of same/different/unique entities in the two directory:
-  same: 5838 (48%), different: 6339, unique: 686
+  same: 5909 (48%), different: 6511, unique: 451
 
 
 
@@ -101,15 +93,10 @@ File(s) only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
   suite/chrome/common/downloads/progressDialog.dtd 	(16 entities)
   suite/chrome/common/feeds/subscribe.dtd 	(3 entities)
   suite/chrome/common/feeds/subscribe.properties 	(30 entities)
-  suite/chrome/common/history/places.properties 	(12 entities)
   suite/chrome/common/passwordManager.dtd 	(4 entities)
   suite/chrome/common/quitDialog.properties 	(10 entities)
   suite/chrome/common/search/search-rdf.dtd 	(1 entities)
 File(s) only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  suite/chrome/common/history/findHistory.dtd 	(11 entities)
-  suite/chrome/common/history/history.properties 	(15 entities)
-  suite/chrome/common/history/historyTreeOverlay.dtd 	(16 entities)
-  suite/chrome/common/overrides/netErrorApp.dtd 	(4 entities)
   suite/chrome/common/pref/pref-applications-edit.dtd 	(19 entities)
 
 
@@ -119,106 +106,12 @@ Following 1/64 Entities in this file don't match: suite/chrome/common/bookmarks/
   1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/bookmarks/bm-props.dtd:
     <!ENTITY bookmarks.windowtitle.label  "Properties for &quot;**bm_title**&quot;">
 
-Following 35/94 Entities in this file don't match: suite/chrome/common/bookmarks/bookmarks.dtd:
-  17 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/bookmarks/bookmarks.dtd:
-    <!ENTITY menuitem.newBookmark.accesskey "B">
-    <!ENTITY menuitem.newFolder.accesskey  "F">
-    <!ENTITY menuitem.newSeparator.accesskey "S">
-    <!ENTITY menuitem.find.find.key        "F">
-    <!ENTITY menuitem.properties.label     "Properties…">
-    <!ENTITY menuitem.properties.accesskey "o">
-    <!ENTITY button.properties.label       "Properties…">
-    <!ENTITY menuitem.properties.key       "I">
-    <!ENTITY button.rename.label           "Rename…">
-    <!ENTITY button.delete.label           "Delete">
-    <!ENTITY menuitem.moveBookmark.label   "Move Bookmark(s)…">
-    <!ENTITY menuitem.moveBookmark.accesskey "M">
-    <!ENTITY button.moveBookmark.label     "Move…">
-    <!ENTITY button.moveBookmark.accesskey "M">
-    <!ENTITY command.sortFolder.key        "S">
-    <!ENTITY search.emptytext               "Search Bookmarks">
-    <!ENTITY search.key                     "f">
-  18 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/bookmarks/bookmarks.dtd:
-    <!ENTITY bookmarksSearch.tooltip       "ブックマーク検索ツールバー">
-    <!ENTITY command.newBookmark.accesskey "B">
-    <!ENTITY command.newFolder.accesskey   "F">
-    <!ENTITY command.newSeparator.accesskey "S">
-    <!ENTITY edit.find.keybinding          "f">
-    <!ENTITY command.properties.label      "プロパティ...">
-    <!ENTITY command.properties.accesskey  "o">
-    <!ENTITY edit.properties.keybinding    "i">
-    <!ENTITY command.rename.label          "名前の変更...">
-    <!ENTITY command.delete.label          "削除">
-    <!ENTITY command.moveBookmark.label    "ブックマークを移動...">
-    <!ENTITY command.moveBookmarkShort.label "移動...">
-    <!ENTITY command.moveBookmark.accesskey "M">
-    <!ENTITY edit.sortFolder.keybinding    "S">
-    <!ENTITY menuitem.view.command.searchbar.label      "検索バー">
-    <!ENTITY menuitem.view.command.searchbar.accesskey  "S">
-    <!ENTITY search.label                     "検索">
-    <!ENTITY search.accesskey                 "S">
-
-Following 5/61 Entities in this file don't match: suite/chrome/common/bookmarks/bookmarks.properties:
-  5 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/bookmarks/bookmarks.properties:
-    ile_newbookmark = 新しいブックマーク
-    newfolder_dialog_title = 新しいフォルダの作成
-    newfolder_dialog_msg = 新しいフォルダの名前:
-    file_in = File in "%S"
-    pleaseEnterALocation = URL を入力してください
-
-Following 2/16 Entities in this file don't match: suite/chrome/common/bookmarks/findBookmark.dtd:
-  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/bookmarks/findBookmark.dtd:
-    <!ENTITY save.query.accesskey           "S">
-    <!ENTITY findButton.accesskey           "F">
-
-Following 4/20 Entities in this file don't match: suite/chrome/common/bookmarks/sortFolder.dtd:
-  4 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/bookmarks/sortFolder.dtd:
-    <!ENTITY sortBy.accesskey "S">
-    <!ENTITY sortOrder.accesskey "o">
-    <!ENTITY sortFoldersFirst.accesskey "d">
-    <!ENTITY sortRecursively.accesskey "c">
-
-Following 24/133 Entities in this file don't match: suite/chrome/common/contentAreaCommands.dtd:
-  22 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/contentAreaCommands.dtd:
-    <!ENTITY viewVideoCmd.label           "View Video">
-    <!ENTITY viewVideoCmd.accesskey       "i">
-    <!ENTITY saveVideoCmd.label           "Save Video As…">
-    <!ENTITY saveVideoCmd.accesskey       "v">
-    <!ENTITY saveAudioCmd.label           "Save Audio As…">
-    <!ENTITY saveAudioCmd.accesskey       "v">
-    <!ENTITY copyVideoURLCmd.label        "Copy Video Location">
-    <!ENTITY copyVideoURLCmd.accesskey    "o">
-    <!ENTITY copyAudioURLCmd.label        "Copy Audio Location">
-    <!ENTITY copyAudioURLCmd.accesskey    "o">
-    <!ENTITY mediaPlay.label              "Play">
-    <!ENTITY mediaPlay.accesskey          "P">
-    <!ENTITY mediaPause.label             "Pause">
-    <!ENTITY mediaPause.accesskey         "P">
-    <!ENTITY mediaMute.label              "Mute">
-    <!ENTITY mediaMute.accesskey          "M">
-    <!ENTITY mediaUnmute.label            "Unmute">
-    <!ENTITY mediaUnmute.accesskey        "m">
-    <!ENTITY mediaShowControls.label      "Show Media Controls">
-    <!ENTITY mediaShowControls.accesskey  "a">
-    <!ENTITY mediaHideControls.label      "Hide Media Controls">
-    <!ENTITY mediaHideControls.accesskey  "a">
-  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/contentAreaCommands.dtd:
-    <!ENTITY addToBookmarksCmd.label "ページをブックマーク">
-    <!ENTITY addToBookmarksCmd.accesskey "B">
-
-Following 10/21 Entities in this file don't match: suite/chrome/common/contentAreaCommands.properties:
-  7 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/contentAreaCommands.properties:
-    searchText.accesskey=W
+Following 4/18 Entities in this file don't match: suite/chrome/common/contentAreaCommands.properties:
+  4 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/contentAreaCommands.properties:
     blockImage=Block Images from %S
     blockImage.accesskey=B
     unblockImage=Unblock Images from %S
     unblockImage.accesskey=b
-    SaveVideoTitle=Save Video
-    SaveAudioTitle=Save Audio
-  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/contentAreaCommands.properties:
-    SavePageTitle= Web ページを保存
-    saveLinkErrorMsg=リンク先ページを保存できませんでした。 Web ページは削除されたか名前が変更されたかもしれません。
-    saveLinkErrorTitle=リンク先の保存
 
 Following 2/9 Entities in this file don't match: suite/chrome/common/defaultClientDialog.dtd:
   1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/defaultClientDialog.dtd:
@@ -226,119 +119,11 @@ Following 2/9 Entities in this file don't match: suite/chrome/common/defaultClie
   1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/defaultClientDialog.dtd:
     <!ENTITY rss.label "RSS フィード">
 
-Following 73/75 Entities in this file don't match: suite/chrome/common/history/history.dtd:
-  42 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/history/history.dtd:
-    <!ENTITY searchBar.tooltip              "Search Bar">
-    <!ENTITY search.emptytext               "Search History">
-    <!ENTITY search.key                     "f">
-    <!ENTITY view.label                     "View">
-    <!ENTITY view.columns.label             "Show Columns">
-    <!ENTITY view.columns.accesskey         "C">
-    <!ENTITY view.sortBy.label              "Sort by">
-    <!ENTITY view.sortBy.accesskey          "S">
-    <!ENTITY view.groupBy.label             "Group by">
-    <!ENTITY view.groupBy.accesskey         "G">
-    <!ENTITY view.unsorted.label            "Unsorted">
-    <!ENTITY view.unsorted.accesskey        "U">
-    <!ENTITY view.sortAscending.label       "A > Z Sort Order">
-    <!ENTITY view.sortAscending.accesskey   "A">
-    <!ENTITY view.sortDescending.label      "Z > A Sort Order">
-    <!ENTITY view.sortDescending.accesskey  "Z">
-    <!ENTITY view.groupNone.label           "None">
-    <!ENTITY view.groupNone.accesskey       "N">
-    <!ENTITY view.groupDay.label            "Day">
-    <!ENTITY view.groupDay.accesskey        "D">
-    <!ENTITY view.groupSite.label           "Site">
-    <!ENTITY view.groupSite.accesskey       "S">
-    <!ENTITY view.groupDayAndSite.label     "Day and Site">
-    <!ENTITY view.groupDayAndSite.accesskey "a">
-    <!ENTITY cmd.open.label                 "Open">
-    <!ENTITY cmd.open.accesskey             "O">
-    <!ENTITY cmd.open_window.label          "Open Link in New Window">
-    <!ENTITY cmd.open_window.accesskey      "W">
-    <!ENTITY cmd.open_tab.label             "Open Link in New Tab">
-    <!ENTITY cmd.open_tab.accesskey         "T">
-    <!ENTITY bookmarkLinkCmd.label          "Bookmark This Link…">
-    <!ENTITY bookmarkLinkCmd.accesskey      "B">
-    <!ENTITY bookmarkLinksCmd.label         "Bookmark These Links">
-    <!ENTITY bookmarkLinksCmd.accesskey     "B">
-    <!ENTITY col.title.label                "Title">
-    <!ENTITY col.title.accesskey            "T">
-    <!ENTITY col.url.label                  "Location">
-    <!ENTITY col.url.accesskey              "L">
-    <!ENTITY col.lastvisit.label            "Last Visited">
-    <!ENTITY col.lastvisit.accesskey        "V">
-    <!ENTITY col.visitcount.label           "Visit Count">
-    <!ENTITY col.visitcount.accesskey       "C">
-  31 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/history/history.dtd:
-    <!ENTITY closeCmd.label "閉じる">
-    <!ENTITY copyCmd.label "コピー">
-    <!ENTITY cutCmd.label "切り取り">
-    <!ENTITY deleteCmd.label "削除">
-    <!ENTITY deleteDomainCmd.accesskey "s">
-    <!ENTITY deleteHostnameCmd.accesskey "H">
-    <!ENTITY editMenu.label "編集">
-    <!ENTITY fileMenu.label "ファイル">
-    <!ENTITY findHisCmd.accesskey "S">
-    <!ENTITY findHisCmd.commandkey "f">
-    <!ENTITY findHisCmd.label "履歴を検索...">
-    <!ENTITY groupBy.accesskey "G">
-    <!ENTITY groupBy.label "表示グループ">
-    <!ENTITY groupByDay.accesskey "D">
-    <!ENTITY groupByDay.label "日付">
-    <!ENTITY groupByNone.accesskey "N">
-    <!ENTITY groupByNone.label "なし">
-    <!ENTITY groupBySite.accesskey "S">
-    <!ENTITY groupBySite.label "サイト">
-    <!ENTITY menuitem.view.show_columns.accesskey "S">
-    <!ENTITY menuitem.view.show_columns.label "列を表示">
-    <!ENTITY menuitem.view.unsorted.accesskey "u">
-    <!ENTITY menuitem.view.unsorted.label "(自動で並べ直さない)">
-    <!ENTITY pasteCmd.label "貼り付け">
-    <!ENTITY redoCmd.label "やり直し">
-    <!ENTITY selAllCmd.label "すべて選択">
-    <!ENTITY sortAscending.accesskey "A">
-    <!ENTITY sortAscending.label "昇順">
-    <!ENTITY sortDescending.accesskey "D">
-    <!ENTITY sortDescending.label "降順">
-    <!ENTITY undoCmd.label "元に戻す">
-
 Following 3/37 Entities in this file don't match: suite/chrome/common/mac/platformCommunicatorOverlay.dtd:
   3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/mac/platformCommunicatorOverlay.dtd:
     <!ENTITY openHelpFrontend.key            "?">
     <!ENTITY openHelpFrontend.modifiers      "accel">
     <!ENTITY openHelp2Cmd.key                "VK_HELP">
-
-Following 7/27 Entities in this file don't match: suite/chrome/common/notification.properties:
-  7 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/notification.properties:
-    geolocation.shareLocation=Share Location
-    geolocation.shareLocation.accesskey=a
-    geolocation.dontShareLocation=Don't Share
-    geolocation.dontShareLocation.accesskey=o
-    geolocation.siteWantsToKnow=%S wants to know your location.
-    geolocation.learnMore=Learn More…
-    geolocation.remember=Remember for this site
-
-Following 17/42 Entities in this file don't match: suite/chrome/common/permissions/cookieViewer.dtd:
-  14 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/permissions/cookieViewer.dtd:
-    <!ENTITY     button.removecookie.accesskey  "R">
-    <!ENTITY     button.removeallcookies.accesskey "e">
-    <!ENTITY     search.emptytext               "Search Cookies">
-    <!ENTITY     focusSearch.key                "f">
-    <!ENTITY     windowClose.key                "w">
-    <!ENTITY     selectAll.key                  "a">
-    <!ENTITY     buttonaccept.accesskey         "C">
-    <!ENTITY     blockSite.accesskey            "B">
-    <!ENTITY     allowSite.accesskey            "A">
-    <!ENTITY     allowSiteSession.accesskey     "S">
-    <!ENTITY     removepermission.accesskey     "R">
-    <!ENTITY     removeallpermissions.accesskey "e">
-    <!ENTITY     futureCookies.label            "Don't allow sites that set removed cookies to set future cookies">
-    <!ENTITY     futureCookies.accesskey        "D">
-  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/permissions/cookieViewer.dtd:
-    <!ENTITY canSet.label "Cookie を保存できる">
-    <!ENTITY cannotSet.label "Cookie を保存できない">
-    <!ENTITY checkbox.label "削除した Cookie を送信してきたサイトからの Cookie は今後受け入れない">
 
 Following 8/23 Entities in this file don't match: suite/chrome/common/permissions/cookieViewer.properties:
   7 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/permissions/cookieViewer.properties:
@@ -618,15 +403,6 @@ Following 2/5 Entities in this file don't match: suite/chrome/common/region.prop
     intl.content.langcode=ja-JP
     update_notifications.provider.0.datasource=http://www.mozilla.org/projects/seamonkey/releases/updates/ja-JP.rdf
 
-Following 2/21 Entities in this file don't match: suite/chrome/common/sanitize.dtd:
-  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/sanitize.dtd:
-    <!ENTITY itemUrlBar.label                "Location Bar History">
-    <!ENTITY itemUrlBar.accesskey            "L">
-
-Following 1/7 Entities in this file don't match: suite/chrome/common/search/search-editor.properties:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/search/search-editor.properties:
-    RemoveCategoryTitle=Delete Category
-
 Following 5/17 Entities in this file don't match: suite/chrome/common/search/search-panel.dtd:
   5 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/search/search-panel.dtd:
     <!ENTITY checkbox.column.label "使用">
@@ -634,10 +410,6 @@ Following 5/17 Entities in this file don't match: suite/chrome/common/search/sea
     <!ENTITY search.advanced.tab "拡張">
     <!ENTITY search.results.tab "適用">
     <!ENTITY stop.button.label "中止">
-
-Following 1/5 Entities in this file don't match: suite/chrome/common/sidebar/local-panels.dtd:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/sidebar/local-panels.dtd:
-    <!ENTITY sidebar.whats-related.label "関連サイト">
 
 Following 1/2 Entities in this file don't match: suite/chrome/common/sidebar/preview.dtd:
   1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/sidebar/preview.dtd:
@@ -699,9 +471,682 @@ Following 2/20 Entities in this file don't match: suite/chrome/common/win/platfo
 
 
 
-Accesskey(s) in this file don't match: suite/chrome/common/pref/pref-download.dtd:
-  playSound.accesskey:  "P" != "s"
-Accesskey(s) in this file don't match: suite/chrome/common/pref/pref-download.dtd:
-  showAlert.accesskey:  "S" != "a"
+----------------------------------------
+以下、suite/chrome/common 以下の未対応 diff
 
+diff -ru en-US-suite20080707/suite/chrome/common/permissions/cookieViewer.properties en-US/suite/chrome/common/permissions/cookieViewer.properties
+--- en-US-suite20080707/suite/chrome/common/permissions/cookieViewer.properties	2007-09-03 09:58:03.000000000 +0900
++++ en-US/suite/chrome/common/permissions/cookieViewer.properties	2009-10-09 00:16:02.000000000 +0900
+@@ -46,10 +46,16 @@
+ domainColon=Domain:
+ forSecureOnly=Encrypted connections only
+ forAnyConnection=Any type of connection
+-AtEndOfSession = at end of session
++expireAtEndOfSession=At end of session
+ deleteAllCookies=Are you sure you want to delete all the cookies?
+ deleteAllCookiesTitle=Remove All Cookies
+ deleteAllCookiesYes=&Remove
+ deleteAllCookiesSites=Are you sure you want to delete all of the cookie sites?
+ deleteAllSitesTitle=Remove All Sites
+ deleteAllSitesYes=&Remove
++deleteSelectedCookies=Are you sure you want to delete the selected cookies?
++deleteSelectedCookiesTitle=Remove Selected Cookies
++deleteSelectedCookiesYes=&Remove
++deleteSelectedCookiesSites=Are you sure you want to delete the selected cookie sites?
++deleteSelectedSitesTitle=Remove Selected Sites
++deleteSelectedSitesYes=&Remove
+diff -ru en-US-suite20080707/suite/chrome/common/permissions/permissionsManager.dtd en-US/suite/chrome/common/permissions/permissionsManager.dtd
+--- en-US-suite20080707/suite/chrome/common/permissions/permissionsManager.dtd	2006-07-27 23:48:08.000000000 +0900
++++ en-US/suite/chrome/common/permissions/permissionsManager.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -6,6 +6,7 @@
+ <!ENTITY removeall.label                "Remove All Sites">
+ <!ENTITY removeall.accesskey            "e">
+ <!ENTITY address.label                  "Address of web site:">
++<!ENTITY address.accesskey              "d">
+ <!ENTITY block.label                    "Block">
+ <!ENTITY block.accesskey                "B">
+ <!ENTITY session.label                  "Allow for Session">
+diff -ru en-US-suite20080707/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd en-US/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd
+--- en-US-suite20080707/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd	2008-01-05 07:59:00.000000000 +0900
++++ en-US/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -34,9 +34,6 @@
+ <!ENTITY cookieManagePopups.label                    "Manage Popups">
+ <!ENTITY cookieManagePopups.accesskey                "M">
+ 
+-<!ENTITY cookieTutorialCmd.label "Understanding Privacy">
+-<!ENTITY cookieTutorialCmd.accesskey "u">
+-
+ <!ENTITY cookieCookieManager.label "Cookie Manager">
+ <!ENTITY cookieCookieManager.accesskey "c">
+ <!ENTITY cookieImageManager.label "Image Manager">
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-advanced.dtd en-US/suite/chrome/common/pref/pref-advanced.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-advanced.dtd	2008-05-29 07:53:11.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-advanced.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -10,3 +10,7 @@
+ <!ENTITY systemPrefCheck.label      "Use Preferences from System">
+ <!ENTITY systemPrefCheck.accesskey  "U">
+ <!ENTITY systemPref.desc            "With this option, &brandShortName; inherits preferences from the system. These system settings will override the &brandShortName; preferences.">
++
++<!ENTITY prefCheckDefault.caption   "System Integration">
++<!ENTITY prefCheckDefaultClient.label "Check default application settings on startup">
++<!ENTITY prefCheckDefaultClient.accesskey "C">
+Only in en-US-suite20080707/suite/chrome/common/pref: pref-applications-edit.dtd
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-applications.dtd en-US/suite/chrome/common/pref/pref-applications.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-applications.dtd	2008-03-05 23:29:10.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-applications.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -7,8 +7,4 @@
+ <!ENTITY actionColumn2.label     "Action">
+ <!ENTITY actionColumn2.accesskey "A">
+ 
+-<!ENTITY filter.label            "Search:">
+-<!ENTITY filter.accesskey        "S">
+-
+-<!ENTITY clear.label             "Clear">
+-<!ENTITY clear.accesskey         "l">
++<!ENTITY search.emptytext        "Search Types and Actions">
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-applications.properties en-US/suite/chrome/common/pref/pref-applications.properties
+--- en-US-suite20080707/suite/chrome/common/pref/pref-applications.properties	2008-03-05 23:29:10.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-applications.properties	2009-10-09 00:16:02.000000000 +0900
+@@ -20,9 +20,9 @@
+ # %2$S = brandShortName from brand.properties (for example "Minefield")
+ usePluginIn=Use %S (in %S)
+ 
+-# LOCALIZATION NOTE (previewInApp, addLiveBookmarksInApp): %S = brandShortName
++# LOCALIZATION NOTE (previewInApp, addNewsBlogsInApp): %S = brandShortName
+ previewInApp=Preview in %S
+-addLiveBookmarksInApp=Add Live Bookmarks in %S
++addNewsBlogsInApp=Subscribe in %S
+ 
+ # LOCALIZATION NOTE (typeDescriptionWithType):
+ # %1$S = type description (for example "Portable Document Format")
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-cache.dtd en-US/suite/chrome/common/pref/pref-cache.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-cache.dtd	2008-02-17 05:29:16.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-cache.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -26,4 +26,3 @@
+ <!ENTITY prefetchTitle.label             "Link Prefetching">
+ <!ENTITY enablePrefetch.label            "Prefetch web pages when idle, so that links in web pages designed for prefetching can load more quickly">
+ <!ENTITY enablePrefetch.accesskey        "P">
+-<!-- <!ENTITY prefetchDesc.label              "If you check this item, &brandShortName; will follow special directives from websites to prefetch content while the browser is idle.  Websites designed to take advantage of this feature will appear to load quicker."> -->
+Only in en-US/suite/chrome/common/pref: pref-certs.dtd
+Only in en-US-suite20080707/suite/chrome/common/pref: pref-charset.dtd
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-download.dtd en-US/suite/chrome/common/pref/pref-download.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-download.dtd	2008-02-17 05:29:16.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-download.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -1,31 +1,36 @@
+ <!ENTITY pref.download.title            "Downloads">
++
+ <!ENTITY downloadBehavior.label         "When starting a download">
+-<!ENTITY downloadLocation.label         "When saving a file">
+-<!ENTITY finishedBehavior.label         "When a download completes">
++<!ENTITY focusWhenStarting.label        "Flash the download manager if it is already open, otherwise:">
++<!ENTITY focusWhenStarting.accesskey    "F">
+ <!ENTITY openDM.label                   "Open the download manager">
+ <!ENTITY openDM.accesskey               "m">
+ <!ENTITY openProgressDialog.label       "Open a progress dialog">
+ <!ENTITY openProgressDialog.accesskey   "O">
+ <!ENTITY doNothing.label                "Don't open anything">
+ <!ENTITY doNothing.accesskey            "D">
+-<!ENTITY promptDownload.label           "Prompt for download location and default to">
+-<!ENTITY promptDownload.accesskey       "P">
+-<!ENTITY lastLocation.label             "Last download folder">
+-<!ENTITY lastLocation.accesskey         "L">
+-<!ENTITY specifiedLocation.label        "Specified download folder">
+-<!ENTITY specifiedLocation.accesskey    "e">
+-<!ENTITY autoDownload.label             "Automatically download files to specified download folder">
+-<!ENTITY autoDownload.accesskey         "A">
+-<!ENTITY downloadFolder.label           "Current Download Folder:">
++
++<!ENTITY downloadLocation.label         "When saving a file">
++<!ENTITY saveTo.label                   "Save files to">
++<!ENTITY saveTo.accesskey               "v">
+ <!ENTITY chooseDownloadFolder.label     "Choose Folder…">
+ <!ENTITY chooseDownloadFolder.accesskey "C">
++<!ENTITY alwaysAsk.label                "Always ask me where to save files">
++<!ENTITY alwaysAsk.accesskey            "A">
++
++<!ENTITY downloadRetention.label        "Download retention">
++<!ENTITY removeDownloads.label          "Remove downloads">
++<!ENTITY removeDownloads.accesskey      "R">
++<!ENTITY whenCompleted.label            "When they have completed">
++<!ENTITY whenQuittingApp.label          "When quitting &brandShortName;">
++<!ENTITY neverRemove.label              "Never">
++
++<!ENTITY finishedBehavior.label         "When a download completes">
+ <!ENTITY playSound.label                "Play a sound">
+-<!ENTITY playSound.accesskey            "s">
++<!ENTITY playSound.accesskey            "P">
+ <!ENTITY showAlert.label                "Show an alert">
+-<!ENTITY showAlert.accesskey            "n">
++<!ENTITY showAlert.accesskey            "S">
+ <!ENTITY browse.label                   "Browse…">
+ <!ENTITY browse.accesskey               "B">
+ <!ENTITY preview.label                  "Preview">
+-<!ENTITY preview.accesskey              "v">
+-<!ENTITY soundURL.label                 "Sound URL:">
+-<!ENTITY soundURL.accesskey             "U">
++<!ENTITY preview.accesskey              "e">
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-fonts.dtd en-US/suite/chrome/common/pref/pref-fonts.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-fonts.dtd	2006-05-17 11:22:48.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-fonts.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -24,8 +24,6 @@
+ <!ENTITY  cursive.label                           "Cursive:">
+ <!ENTITY  cursive.accesskey                       "c">
+ 
+-<!ENTITY  fontsize.units                          "pixels">
+-
+ <!ENTITY  font.langGroup.latin1                   "Western">
+ <!ENTITY  font.langGroup.latin2                   "Central European">
+ <!ENTITY  font.langGroup.japanese                 "Japanese">
+@@ -62,8 +60,6 @@
+ <!ENTITY  useDefaultFontSerif.label               "Serif">
+ <!ENTITY  useDefaultFontSansSerif.label           "Sans Serif">
+ 
+-<!ENTITY  newLanguages.label                      "New languages can be configured using the Languages Panel.">
+-
+ <!ENTITY  useDocumentFonts.label                  "Allow documents to use other fonts">
+ <!ENTITY  useDocumentFonts.accesskey              "o">
+ 
+@@ -72,9 +68,3 @@
+ <!ENTITY  header2                                 "When a webpage chooses its own fonts">
+ <!ENTITY  useDefaultFont.label                    "Use my default fonts, ignoring the fonts the page has chosen">
+ <!ENTITY  useDefaultFont.accesskey                "u">
+-<!-- LOCALIZATION NOTE (useDocFontNonDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+-<!ENTITY  useDocFontNonDynamic.label              "Use the fonts chosen by the page">
+-<!ENTITY  useDocFontNonDynamic.accesskey          "p">
+-<!-- LOCALIZATION NOTE (useDocFontDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+-<!ENTITY  useDocFontDynamic.label                 "Use all the fonts chosen by the page">
+-<!ENTITY  useDocFontDynamic.accesskey             "a">
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-history.dtd en-US/suite/chrome/common/pref/pref-history.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-history.dtd	2006-05-17 11:22:48.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-history.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -2,14 +2,25 @@
+ 
+ <!ENTITY  pref.history.caption              "Browsing History">
+ <!ENTITY  historyPages.label                "History is a list of previously visited pages.">
+-<!ENTITY  pageHis.label                     "Remember visited pages for the last">
+-<!ENTITY  pageHis.accesskey                 "a">
+-<!ENTITY  days.label                        "days">
++<!ENTITY  expireDaysMin1.label              "Always remember visited pages for at least">
++<!ENTITY  expireDaysMin1.accesskey          "R">
++<!ENTITY  expireDaysMin2.label              "days">
++<!ENTITY  expireDays1.label                 "Remember visited pages for up to">
++<!ENTITY  expireDays1.accesskey             "e">
++<!ENTITY  expireDays2.label                 "days">
++<!ENTITY  expireSites1.label                "Remember up to">
++<!ENTITY  expireSites1.accesskey            "m">
++<!ENTITY  expireSites2.label                "visited pages">
+ <!ENTITY  clearHistory.label                "Clear History">
+-<!ENTITY  clearHistory.accesskey            "r">
++<!ENTITY  clearHistory.accesskey            "s">
+ 
+ <!ENTITY  locationBarHistory.caption        "Location Bar History">
+ <!ENTITY  clearLocationBar.label            "Clear the list of sites stored in the location bar menu.">
+ <!ENTITY  clearLocationBarButton.label      "Clear Location Bar">
+-<!ENTITY  clearLocationBarButton.accesskey  "b">
+-  
++<!ENTITY  clearLocationBarButton.accesskey  "L">
++<!ENTITY  formfillHistory.caption           "Form and Search History">
++<!ENTITY  enableFormfill.label              "Enable form and search history">
++<!ENTITY  enableFormfill.accesskey          "n">
++<!ENTITY  formfillExpire.label              "Remember form and search history for up to">
++<!ENTITY  formfillExpire.accesskey          "f">
++<!ENTITY  formfillDays.label                "days">
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-images.dtd en-US/suite/chrome/common/pref/pref-images.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-images.dtd	2006-05-17 11:22:49.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-images.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -14,7 +14,6 @@
+ <!ENTITY accOrgImagesRadio.accesskey    "r">
+ <!ENTITY disableImages.label            "Do not load any images">
+ <!ENTITY disableImages.accesskey        "n">
+-<!ENTITY viewImagesExplanation.label    "View list of sites about which image acceptance information is stored">
+ <!ENTITY viewImages.label               "Manage Image Permissions">
+ <!ENTITY viewImages.accesskey           "P">
+ <!ENTITY animLoopingTitle.label         "Animated images should loop">
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-keynav.dtd en-US/suite/chrome/common/pref/pref-keynav.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-keynav.dtd	2006-05-17 11:22:48.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-keynav.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -13,7 +13,7 @@
+ <!ENTITY findAsYouTypeSound.label "Play a sound when typed text isn't found">
+ <!ENTITY findAsYouTypeSound.accesskey "P">
+ <!ENTITY findAsYouTypeEnableAuto.label "Find automatically when typing within a web page:">
+-<!ENTITY findAsYouTypeEnableAuto.accesskey "a">
++<!ENTITY findAsYouTypeEnableAuto.accesskey "F">
+ <!ENTITY findAsYouTypeAutoText.label "Any text in the page">
+ <!ENTITY findAsYouTypeAutoText.accesskey "A">
+ <!ENTITY findAsYouTypeAutoLinks.label "Links only">
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-languages.dtd en-US/suite/chrome/common/pref/pref-languages.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-languages.dtd	2008-02-17 05:29:16.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-languages.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -1,41 +1,28 @@
+ <!-- LOCALIZATION NOTE : FILE 'Languages' preferences dialog -->
+ 
+-<!ENTITY  languages.customize.prefLangDescript          "Web pages are sometimes available in more than one language. Choose languages for displaying web pages, in order of preference.">
+-<!ENTITY languages.customize.lHeader                    "Languages">
+-<!ENTITY languages.customize.rHeader                    "Languages in which webpages are displayed">
++<!ENTITY languages.customize.prefLangDescript           "Web pages are sometimes available in more than one language. Choose languages for displaying web pages, in order of preference.">
++<!ENTITY languages.customize.title                      "Languages">
+ <!ENTITY langtitle.label                                "Languages for Web Pages">
+ <!ENTITY languages.customize.prefAddLangDescript        "Select the language(s) you would like to add.">
+-<!ENTITY languages.customize.engOrder.label             "1">
+-<!ENTITY languages.customize.engOption.label            "English">
+ <!ENTITY languages.customize.addButton.label            "Add…">
+ <!ENTITY languages.customize.addButton.accesskey        "A">
+ <!ENTITY languages.customize.deleteButton.label         "Remove">
+ <!ENTITY languages.customize.deleteButton.accesskey     "R">
+-<!ENTITY languages.customize.title.label			    "Customize Languages">
+-<!ENTITY languages.customize.add.title.label		    "Add Languages">
+-<!ENTITY languages.customize.left.header			    "Character Encoding">
+-<!ENTITY charset.customize.right.header		    "Select Supported Character Encodings">
++<!ENTITY languages.customize.add.title.label            "Add Languages">
+ <!ENTITY languages.customize.available.label            "Languages:">
+ <!ENTITY languages.customize.active.label               "Languages in order of preference:">
+-<!ENTITY languages.customize.reorder.label              "Reorder">
+-<!ENTITY languages.customize.remove.label               "Remove">
+-<!ENTITY languages.customize.additional.label           "Available Charactersets">
+-<!ENTITY languages.customize.add.label                  "Add">
++<!ENTITY languages.customize.active.accesskey           "L">
+ <!ENTITY languages.customize.others.label               "Others:">
+ <!ENTITY languages.customize.others.accesskey           "O">
+-<!ENTITY languages.customize.Charset.grouplabel         "Character Encoding">
+-<!ENTITY languages.customize.DefaultCharset.label       "Default Character Encoding:">
++<!ENTITY languages.customize.Charset.grouplabel         "Default Character Encoding">
++<!ENTITY languages.customize.DefaultCharset.label       "Character Encoding:">
+ <!ENTITY languages.customize.DefaultCharset.accesskey   "C">
+ <!-- LOCALIZATION NOTE  Character Encoding Preferences Dialog: Do NOT localize the terms "en-bz, ar-jo"  -->
+ <!ENTITY languages.customize.others.examples            "e.g.: en-bz, ar-jo">
+-<!ENTITY languages.customize.cancel.label		            "Cancel">
+-<!ENTITY languages.customize.save.label                 "Save">
+-<!ENTITY languages.customize.ok.label                   "OK">
+-<!ENTITY languages.customize.save.popup                 "Please restart the browser for changes to take effect…">
+ <!ENTITY languages.customize.moveUp.label               "Move Up">
+-<!ENTITY languages.customize.moveUp.accesskey           "u">
++<!ENTITY languages.customize.moveUp.accesskey           "U">
+ <!ENTITY languages.customize.moveDown.label             "Move Down">
+-<!ENTITY languages.customize.moveDown.accesskey         "d">
++<!ENTITY languages.customize.moveDown.accesskey         "D">
+ 
+ <!ENTITY spelling.label                                 "Spelling">
+ <!ENTITY checkSpelling.label                            "When typing check my spelling:">
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-locationbar.dtd en-US/suite/chrome/common/pref/pref-locationbar.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-locationbar.dtd	2008-05-07 02:10:04.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-locationbar.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -9,7 +9,19 @@
+ <!ENTITY autoCompleteShowPopup.label           "Show list of matching results">
+ <!ENTITY autoCompleteShowPopup.accesskey       "S">
+ <!ENTITY autoCompleteMatchOnlyTyped.label      "Match only websites you've typed previously">
+-<!ENTITY autoCompleteMatchOnlyTyped.accesskey  "M">
++<!ENTITY autoCompleteMatchOnlyTyped.accesskey  "o">
++<!ENTITY autoCompleteMatchOnlyURLs.label       "Only match locations, not website titles">
++<!ENTITY autoCompleteMatchOnlyURLs.accesskey   "n">
++<!--LOCALIZATION NOTE (autoCompleteMatch.label): This is the common leading
++  part of the menulist items listed below, mainly to make the control available
++  via the accesskey
++-->
++<!ENTITY autoCompleteMatch.label               "Match">
++<!ENTITY autoCompleteMatch.accesskey           "M">
++<!ENTITY autoCompleteMatchAnywhere             "Anywhere in the location or title">
++<!ENTITY autoCompleteMatchWordsFirst           "Anywhere but preferring word boundaries">
++<!ENTITY autoCompleteMatchWords                "Only on word boundaries">
++<!ENTITY autoCompleteMatchStart                "Only at the beginning of the location or title">
+ 
+ <!ENTITY searchEngine.label                    "Internet Search Engine">
+ <!ENTITY showSearchEngine.label                "Show default search engine">
+Only in en-US/suite/chrome/common/pref: pref-masterpass.dtd
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-navigator.dtd en-US/suite/chrome/common/pref/pref-navigator.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-navigator.dtd	2008-02-17 05:29:16.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-navigator.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -1,6 +1,7 @@
+ <!ENTITY pref.navigator.title           "Browser">
+ 
+-<!ENTITY navRadio                       "Display on">
++<!ENTITY navRadio.label                 "Display on">
++<!ENTITY navRadio.accesskey             "n">
+ <!ENTITY navStartPageMenu.label         "Browser Startup">
+ <!ENTITY newWinPageMenu.label           "New Window">
+ <!ENTITY newTabPageMenu.label           "New Tab">
+@@ -11,6 +12,8 @@
+ <!ENTITY homePageRadio.accesskey        "m">
+ <!ENTITY lastPageRadio.label            "Last page visited">
+ <!ENTITY lastPageRadio.accesskey        "L">
++<!ENTITY restoreSessionRadio.label      "Restore Previous Session">
++<!ENTITY restoreSessionRadio.accesskey  "P">
+ 
+ <!ENTITY header2.label                  "Home Page">
+ <!ENTITY homePageIntro.label            "Clicking the Home button takes you to this group of pages:">
+@@ -30,14 +33,6 @@
+ <!ENTITY goButton.accesskey             "o">
+ <!ENTITY searchButton.label             "Search">
+ <!ENTITY searchButton.accesskey         "S">
+-<!ENTITY printButton.label              "Print">
+-<!ENTITY printButton.accesskey          "P">
+-
+-<!ENTITY persToolbarIntro.label         "Personal Toolbar">
+-<!ENTITY homeButton.label               "Home">
+-<!ENTITY homeButton.accesskey           "e">
+-<!ENTITY bookmarksButton.label          "Bookmarks">
+-<!ENTITY bookmarksButton.accesskey      "k">
+ 
+ <!ENTITY defaultBrowserGroup.label      "Default Browser">
+ <!ENTITY defaultBrowserButton.label     "Set Default Browser">
+Only in en-US/suite/chrome/common/pref: pref-passwords.dtd
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-popups.dtd en-US/suite/chrome/common/pref/pref-popups.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-popups.dtd	2008-02-17 05:29:16.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-popups.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -2,8 +2,6 @@
+ 
+ <!ENTITY pref.popups.caption            "Popup Windows">
+ 
+-<!ENTITY popupDesc.label                "Specify how to handle popup windows that appear on top of or under the current browser window:">
+-
+ <!ENTITY popupBlock.label               "Block unrequested popup windows">
+ <!ENTITY popupBlock.accesskey           "B">
+ 
+@@ -12,16 +10,24 @@
+ 
+ <!ENTITY whenBlock.description          "When a popup window has been blocked:">
+ <!ENTITY playSound.label                "Play a sound:">
+-<!ENTITY playSound.accesskey            "s">
++<!ENTITY playSound.accesskey            "P">
++<!ENTITY systemSound.label              "System beep">
++<!ENTITY systemSound.accesskey          "S">
++<!ENTITY customSound.label              "Custom sound file">
++<!ENTITY customSound.accesskey          "C">
+ 
+ <!ENTITY selectSound.label              "Browse…">
+-<!ENTITY selectSound.accesskey          "r">
++<!ENTITY selectSound.accesskey          "o">
+ <!ENTITY previewSound.label             "Preview">
+-<!ENTITY previewSound.accesskey         "P">
++<!ENTITY previewSound.accesskey         "v">
+ <!ENTITY selectSound.title              "Select Popup Block Sound">
++<!ENTITY selectSound.filter             "Sounds">
+ 
+ <!ENTITY displayIcon.label              "Display an icon in the browser status bar">
+ <!ENTITY displayIcon.accesskey          "D">
+ 
++<!ENTITY displayNotification.label      "Display a notification bar at the top of the content area">
++<!ENTITY displayNotification.accesskey  "N">
++
+ <!ENTITY popupNote.description          "Note: Blocking all popups may prevent important features of some websites from working, such as login windows for banks and shopping sites. For details of how to allow specific sites to use popups while blocking all others, click Help. Even if blocked, sites may use other methods to show popups.">
+ 
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-proxies-advanced.dtd en-US/suite/chrome/common/pref/pref-proxies-advanced.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-proxies-advanced.dtd	2006-05-17 11:22:48.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-proxies-advanced.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -2,29 +2,30 @@
+ <!ENTITY  pref.proxies.advanced.title "Advanced Proxy Preferences">
+ <!ENTITY  protocols.caption           "Protocol-Specific Proxies">
+ <!ENTITY  protocols.description       "Normally the same proxy can handle all protocols listed here.">
++<!ENTITY  http.label                  "HTTP Proxy:">
++<!ENTITY  http.accesskey              "x">
++<!ENTITY  ssl.label                   "SSL Proxy:">
++<!ENTITY  ssl.accesskey               "L">
+ <!ENTITY  ftp.label                   "FTP Proxy:">
+ <!ENTITY  ftp.accesskey               "F">
+ <!ENTITY  gopher.label                "Gopher Proxy:">
+ <!ENTITY  gopher.accesskey            "G">
+-<!ENTITY  http.label                  "HTTP Proxy:">
+-<!ENTITY  http.accesskey              "T">
+ <!ENTITY  reuseProxy.label            "Use HTTP Proxy settings for all protocols">
+ <!ENTITY  reuseProxy.accesskey        "U">
+-<!ENTITY  ssl.label                   "SSL Proxy:">
+-<!ENTITY  ssl.accesskey               "S">
++<!ENTITY  port.label                  "Port:">
++<!ENTITY  HTTPPort.accesskey          "P">
++<!ENTITY  SSLPort.accesskey           "o">
++<!ENTITY  FTPPort.accesskey           "r">
++<!ENTITY  gopherPort.accesskey        "">
++
+ <!ENTITY  socks.caption               "Generic Proxy">
+ <!ENTITY  socks.description           "A SOCKS proxy is a generic proxy sometimes used in corporate or similar environments.">
+ <!ENTITY  socks.label                 "SOCKS Proxy:">
+-<!ENTITY  socks.accesskey             "O">
++<!ENTITY  socks.accesskey             "S">
+ <!ENTITY  socks4.label                "SOCKS v4">
+ <!ENTITY  socks4.accesskey            "C">
+ <!ENTITY  socks5.label                "SOCKS v5">
+ <!ENTITY  socks5.accesskey            "K">
+ <!ENTITY  socksRemoteDNS.label        "Use for resolving hostnames (recommended for SOCKS v5)">
+ <!ENTITY  socksRemoteDNS.accesskey    "e">
+-<!ENTITY  port.label                  "Port:">
+-<!ENTITY  HTTPport.accesskey          "P">
+-<!ENTITY  SSLport.accesskey           "o">
+-<!ENTITY  FTPport.accesskey           "r">
+-<!-- No accesskey for gopher (':' doesn't go well) -->
+ <!ENTITY  SOCKSport.accesskey         "t">
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-proxies.dtd en-US/suite/chrome/common/pref/pref-proxies.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-proxies.dtd	2008-02-17 05:29:16.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-proxies.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -6,6 +6,8 @@
+ <!ENTITY  proxyTitle.label              "Configure Proxies to Access the Internet">
+ <!ENTITY  directTypeRadio.label         "Direct connection to the Internet">
+ <!ENTITY  directTypeRadio.accesskey     "D">
++<!ENTITY  systemTypeRadio.label         "Use system proxy settings">
++<!ENTITY  systemTypeRadio.accesskey     "U">
+ <!ENTITY  manualTypeRadio.label         "Manual proxy configuration:">
+ <!ENTITY  manualTypeRadio.accesskey     "M">
+ <!ENTITY  wpadTypeRadio.label           "Automatically discover the proxy configuration">
+@@ -17,7 +19,7 @@
+ <!ENTITY  http.label                    "Proxy:">
+ <!ENTITY  http.accesskey                "P">
+ <!ENTITY  port.label                    "Port:">
+-<!ENTITY  HTTPport.accesskey            "o">
++<!ENTITY  HTTPPort.accesskey            "o">
+ <!ENTITY  advanced.label                "Advanced…">
+ <!ENTITY  advanced.accesskey            "v">
+ <!ENTITY  noproxy.label                 "No Proxy for:">
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-scripts.dtd en-US/suite/chrome/common/pref/pref-scripts.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-scripts.dtd	2007-12-15 13:26:16.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-scripts.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -1,6 +1,6 @@
+ <!-- extracted from content/pref-scripts.xul -->
+ 
+-<!--LOCALIZATION NOTE : FILE The 'Scripts & Plug-ins' preferences dialog -->
++<!--LOCALIZATION NOTE : FILE The 'Scripts & Plugins' preferences dialog -->
+ <!ENTITY pref.scripts.title              "Scripts &amp; Plugins">
+ 
+ <!ENTITY navigator.label                 "Browser">
+@@ -18,3 +18,7 @@
+ <!ENTITY allowHideStatusBar.label        "Hide the status bar">
+ 
+ <!ENTITY enablePlugin.label              "Enable Plugins for">
++
++<!ENTITY whenPluginsRequired.label       "When additional plugins are required">
++<!ENTITY displayNotification.label       "Display a notification bar at the top of the content area">
++<!ENTITY displayNotification.accesskey   "N">
+Only in en-US/suite/chrome/common/pref: pref-ssl.dtd
+diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-tabs.dtd en-US/suite/chrome/common/pref/pref-tabs.dtd
+--- en-US-suite20080707/suite/chrome/common/pref/pref-tabs.dtd	2006-05-17 11:22:48.000000000 +0900
++++ en-US/suite/chrome/common/pref/pref-tabs.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -4,6 +4,8 @@
+ <!ENTITY autoHide.accesskey "d">
+ <!ENTITY background.label "Switch to new tabs opened from links">
+ <!ENTITY background.accesskey "S">
++<!ENTITY warnOnClose.label "Warn me when closing a window with multiple tabs">
++<!ENTITY warnOnClose.accesskey "n">
+ <!ENTITY loadGroup.label "When opening a bookmark group">
+ <!ENTITY loadGroupAppend.label "Add tabs">
+ <!ENTITY loadGroupAppend.accesskey "A">
+@@ -19,7 +21,7 @@
+ <!ENTITY newWindowGroupCurrent.accesskey "c">
+ <!ENTITY externalGroupCurrent.accesskey "u">
+ <!ENTITY openTab.label "A new tab in the current window">
+-<!ENTITY newWindowGroupTab.accesskey "n">
++<!ENTITY newWindowGroupTab.accesskey "t">
+ <!ENTITY externalGroupTab.accesskey "e">
+ <!ENTITY openWindow.label "A new window">
+ <!ENTITY newWindowGroupWindow.accesskey "w">
+Only in en-US/suite/chrome/common/pref: pref-validation.dtd
+Only in en-US-suite20080707/suite/chrome/common/pref: pref-winhooks.dtd
+Only in en-US-suite20080707/suite/chrome/common/pref: pref.dtd
+Only in en-US/suite/chrome/common/pref: preferences.dtd
+Only in en-US-suite20080707/suite/chrome/common/pref: preftree.dtd
+diff -ru en-US-suite20080707/suite/chrome/common/pref/prefutilities.properties en-US/suite/chrome/common/pref/prefutilities.properties
+--- en-US-suite20080707/suite/chrome/common/pref/prefutilities.properties	2008-02-17 05:29:16.000000000 +0900
++++ en-US/suite/chrome/common/pref/prefutilities.properties	2009-10-09 00:16:02.000000000 +0900
+@@ -1,19 +1,10 @@
+ cachefolder=Choose Cache Folder
+ choosehomepage=Choose Home Page
+-choosefile=Choose a file
+ downloadfolder=Choose a Download Folder
++desktopFolderName=Desktop
++downloadsFolderName=Downloads
+ choosesound=Choose a sound
+-viewrow=View…
+-hiderow=Hide
+ 
+ SoundFiles=Sounds
+ 
+-oldTheme=You have selected a theme which was designed for an earlier version of %brand% and is incompatible with your current %brand% version. Please check %brand% theme sites for an updated version of the theme. You can uninstall this theme by clicking \"Uninstall Theme\" button.
+-
+-languageAlert=Please restart %brand% to use the new preferred language or region setting.
+-languageTitle=Change Language
+-
+-prefSaveFailedAlert=Failed to save the preferences file. Any preference changes will be lost at the end of this session.
+-prefSaveFailedTitle=Save Error
+-
+ labelDefaultFont=Default (%font_family%)
+diff -ru en-US-suite20080707/suite/chrome/common/search/search-panel.dtd en-US/suite/chrome/common/search/search-panel.dtd
+--- en-US-suite20080707/suite/chrome/common/search/search-panel.dtd	2008-02-17 05:29:16.000000000 +0900
++++ en-US/suite/chrome/common/search/search-panel.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -36,18 +36,13 @@
+    - ***** END LICENSE BLOCK ***** -->
+ 
+ <!ENTITY search.button.label      "Search">
+-<!ENTITY search.results.tab       "Apply">
+-<!ENTITY search.advanced.tab      "Settings for ">
+ <!ENTITY allengines.label         "All Engines">
+ <!ENTITY within.label             "within">
+ <!ENTITY using.label              "using">
+ <!ENTITY choose.label             "Choose search engines, then click Search">
+ <!ENTITY results.label            "Search Results">
+ <!ENTITY engine.column.label      "Search Engines">
+-<!ENTITY checkbox.column.label    "Use">
+-<!ENTITY stop.button.label        "Stop">
+-<!ENTITY customize.menuitem.label   "Edit Categories …">
+-<!ENTITY savesearch.button.label  "Bookmark this Search">
++<!ENTITY customize.menuitem.label "Edit Categories …">
+ <!ENTITY next.button.label        "Next">
+ <!ENTITY previous.button.label    "Previous">
+ <!ENTITY next.button.tooltip      "Show next search results">
+Only in en-US/suite/chrome/common/search: search-rdf.dtd
+diff -ru en-US-suite20080707/suite/chrome/common/sidebar/preview.dtd en-US/suite/chrome/common/sidebar/preview.dtd
+--- en-US-suite20080707/suite/chrome/common/sidebar/preview.dtd	2006-07-27 23:48:09.000000000 +0900
++++ en-US/suite/chrome/common/sidebar/preview.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -36,4 +36,3 @@
+    - ***** END LICENSE BLOCK ***** -->
+ 
+ <!ENTITY sidebar.preview.title.label          "Tab Preview">
+-<!ENTITY sidebar.preview.close.label          "Close">
+diff -ru en-US-suite20080707/suite/chrome/common/tasksOverlay.dtd en-US/suite/chrome/common/tasksOverlay.dtd
+--- en-US-suite20080707/suite/chrome/common/tasksOverlay.dtd	2008-02-17 05:29:15.000000000 +0900
++++ en-US/suite/chrome/common/tasksOverlay.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -7,21 +7,15 @@
+ <!ENTITY editorCmd.accesskey				"c">
+ <!ENTITY editorCmd.commandkey				"4">
+ 
+-<!ENTITY securityInfoCmd.label					".Security Info">  
+-<!ENTITY securityInfoCmd.accesskey				"s">
+ <!ENTITY javaConsoleCmd.label					"Java Console">
+ <!ENTITY javaConsoleCmd.accesskey				"j">
+ 
+ <!ENTITY errorConsoleCmd.label                                  "Error Console">
+ <!ENTITY errorConsoleCmd.accesskey				"C">
+-
+-<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
+-<!ENTITY privacyMenu.label "Privacy &amp; Security">
+-<!ENTITY privacyMenu.accesskey "p">
++<!ENTITY errorConsoleCmd.commandkey				"j">
+ 
+ <!ENTITY taskNavigator.tooltip  "Browser">
+ <!ENTITY taskComposer.tooltip  "Composer">
+-<!ENTITY taskBar.tooltip  "Status Bar">
+ 
+ <!ENTITY webDevelopment.label "Web Development">
+ <!ENTITY webDevelopment.accesskey "W">
+@@ -32,8 +26,18 @@
+ <!ENTITY tasksMenu.label "Tools">
+ <!ENTITY tasksMenu.accesskey "T"> 
+ 
++<!ENTITY passwordManagerCmd.label "Password Manager">
++<!ENTITY passwordManagerCmd.accesskey "P">
++
++<!ENTITY passwordDisplayCmd.label "Manage Stored Passwords">
++<!ENTITY passwordDisplayCmd.accesskey "M">
++
++<!ENTITY passwordExpireCmd.label "Log Out">
++<!ENTITY passwordExpireCmd.accesskey "l">
++
+ <!ENTITY downloadManagerCmd.label "Download Manager">
+ <!ENTITY downloadManagerCmd.accesskey "D">
++<!ENTITY downloadManagerCmd.commandkey "j">
+ 
+ <!ENTITY addonsManagerCmd.label "Add-on Manager">
+ <!ENTITY addonsManagerCmd.accesskey "A">
+diff -ru en-US-suite20080707/suite/chrome/common/unix/platformCommunicatorOverlay.dtd en-US/suite/chrome/common/unix/platformCommunicatorOverlay.dtd
+--- en-US-suite20080707/suite/chrome/common/unix/platformCommunicatorOverlay.dtd	2006-11-25 18:58:57.000000000 +0900
++++ en-US/suite/chrome/common/unix/platformCommunicatorOverlay.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -27,3 +27,7 @@
+ <!ENTITY ctrlKey.label                  "Ctrl">
+ <!ENTITY altKey.label                   "Alt">
+ <!ENTITY shiftKey.label                 "Shift">
++
++<!-- Copy Image Location (regression fix for bug 469481) -->
++<!ENTITY copyImageURLCmd.label          "Copy Image Location">
++<!ENTITY copyImageURLCmd.accesskey      "y">
+diff -ru en-US-suite20080707/suite/chrome/common/utilityOverlay.dtd en-US/suite/chrome/common/utilityOverlay.dtd
+--- en-US-suite20080707/suite/chrome/common/utilityOverlay.dtd	2008-02-17 05:29:15.000000000 +0900
++++ en-US/suite/chrome/common/utilityOverlay.dtd	2009-10-09 00:16:02.000000000 +0900
+@@ -37,7 +37,6 @@
+ <!ENTITY pasteCmd.key						"V">  
+ <!ENTITY pasteCmd.accesskey					"p"> 
+ <!ENTITY deleteCmd.label					"Delete">  
+-<!ENTITY deleteCmd.key						"D">  
+ <!ENTITY deleteCmd.accesskey				"d"> 
+ <!ENTITY selectAllCmd.label					"Select All">  
+ <!ENTITY selectAllCmd.key					"A">  
+@@ -77,6 +76,8 @@
+ <!ENTITY pac.accesskey                                  "A">
+ <!ENTITY wpad.label                                     "Online (Proxy: Auto Discover)">
+ <!ENTITY wpad.accesskey                                 "D">
++<!ENTITY system.label                                   "Online (Proxy: System Proxy)">
++<!ENTITY system.accesskey                               "S">
+ 
+ <!ENTITY proxy.label                                    "Proxy Configuration…">
+ <!ENTITY proxy.accesskey                                "C">
+@@ -85,6 +86,24 @@
+ <!ENTITY bidiSwitchTextDirectionItem.accesskey    "w">
+ <!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
+ 
++<!ENTITY customizeToolbarContext.label            "Customize…">
++<!ENTITY customizeToolbarContext.accesskey        "C">
++
++<!ENTITY customizeToolbar.toolbarmode.label       "Settings for this toolbar">
++<!ENTITY customizeToolbar.toolbarmode.accesskey   "e">
++<!ENTITY customizeToolbar.iconsAndText.label      "Icons and Text">
++<!ENTITY customizeToolbar.iconsAndText.accesskey  "a">
++<!ENTITY customizeToolbar.icons.label             "Icons">
++<!ENTITY customizeToolbar.icons.accesskey         "o">
++<!ENTITY customizeToolbar.text.label              "Text">
++<!ENTITY customizeToolbar.text.accesskey          "T">
++<!ENTITY customizeToolbar.useSmallIcons.label     "Use small icons">
++<!ENTITY customizeToolbar.useSmallIcons.accesskey "s">
++<!ENTITY customizeToolbar.labelAlignEnd.label     "Show text beside icon">
++<!ENTITY customizeToolbar.labelAlignEnd.accesskey "b">
++<!ENTITY customizeToolbar.useDefault.label        "Use default settings">
++<!ENTITY customizeToolbar.useDefault.accesskey    "U">
++
+ <!-- Popup Blocked notification menu -->
+ <!ENTITY allowPopups.accesskey        "p">
+ <!ENTITY showPopupManager.label       "Manage Popups">
+diff -ru en-US-suite20080707/suite/chrome/common/utilityOverlay.properties en-US/suite/chrome/common/utilityOverlay.properties
+--- en-US-suite20080707/suite/chrome/common/utilityOverlay.properties	2008-02-17 05:29:15.000000000 +0900
++++ en-US/suite/chrome/common/utilityOverlay.properties	2009-10-09 00:16:02.000000000 +0900
+@@ -3,6 +3,7 @@
+ onlineTooltip1=You are online (proxy: manual). Click the icon to go offline.
+ onlineTooltip2=You are online (proxy: auto URL). Click the icon to go offline.
+ onlineTooltip4=You are online (proxy: auto discover). Click the icon to go offline.
++onlineTooltip5=You are online (proxy: use system proxy). Click the icon to go offline.
+ offlineTooltip=You are offline. Click the icon to go online.
+ 
+ # Popup menus
 
