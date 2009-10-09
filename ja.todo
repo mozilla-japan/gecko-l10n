@@ -11,13 +11,8 @@ mar:
 tooyama さんへ:
 /suite/chrome 以下の en-US と同期していないディレクトリ:
 	/common/pref/* の一部 (残りの todo はこのファイル末尾の diff 参照)
-	/common/help - done by mar (すべて未訳)
-	/common/pref/* の一部, /common/download, /common/pref, /common/help 以外 - done by dynamis
-
-/suite/chrome 以下で en-US のみに存在するファイル
-  suite/chrome/common/downloads/downloadmanager.dtd 	(79 entities)
-  suite/chrome/common/downloads/downloadmanager.properties 	(23 entities)
-  suite/chrome/common/downloads/progressDialog.dtd 	(16 entities)
+	/common/help (すべて未訳), /common/download - done by mar
+	/common/pref/* の一部, , /common/pref 以外 - done by dynamis
 
 未訳リスト(mailnews 直下のファイルのみ)
   /suite/chrome/mailnews/
