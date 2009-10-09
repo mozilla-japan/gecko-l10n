@@ -12,18 +12,12 @@ tooyama さんへ:
 /suite/chrome 以下の en-US と同期していないディレクトリ:
 	/common/pref/* の一部 (残りの todo はこのファイル末尾の diff 参照)
 	/common/help - done by mar (すべて未訳)
-	/common/pref, /common/help 以外 - done by dynamis
+	/common/pref/* の一部, /common/download, /common/pref, /common/help 以外 - done by dynamis
 
 /suite/chrome 以下で en-US のみに存在するファイル
-  suite/chrome/common/aboutSessionRestore.dtd 	(13 entities)
-  suite/chrome/common/certError.dtd 	(12 entities)
   suite/chrome/common/downloads/downloadmanager.dtd 	(79 entities)
   suite/chrome/common/downloads/downloadmanager.properties 	(23 entities)
   suite/chrome/common/downloads/progressDialog.dtd 	(16 entities)
-  suite/chrome/common/feeds/subscribe.dtd 	(3 entities)
-  suite/chrome/common/feeds/subscribe.properties 	(30 entities)
-  suite/chrome/common/passwordManager.dtd 	(4 entities)
-  suite/chrome/common/quitDialog.properties 	(10 entities)
 
 未訳リスト(mailnews 直下のファイルのみ)
   /suite/chrome/mailnews/
