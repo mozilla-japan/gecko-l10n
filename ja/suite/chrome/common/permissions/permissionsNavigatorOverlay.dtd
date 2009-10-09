@@ -34,9 +34,6 @@
 <!ENTITY cookieManagePopups.label "ポップアップの管理">
 <!ENTITY cookieManagePopups.accesskey "M">
 
-<!ENTITY cookieTutorialCmd.label "プライバシーの理解">
-<!ENTITY cookieTutorialCmd.accesskey "u">
-
 <!ENTITY cookieCookieManager.label "Cookie マネージャ">
 <!ENTITY cookieCookieManager.accesskey "c">
 <!ENTITY cookieImageManager.label "画像マネージャ">

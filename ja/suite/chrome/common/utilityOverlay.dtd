@@ -37,7 +37,6 @@
 <!ENTITY pasteCmd.key "V">
 <!ENTITY pasteCmd.accesskey "p">
 <!ENTITY deleteCmd.label "削除">
-<!ENTITY deleteCmd.key "D">
 <!ENTITY deleteCmd.accesskey "d">
 <!ENTITY selectAllCmd.label "@@SelectAll@@">
 <!ENTITY selectAllCmd.key "A">
@@ -77,6 +76,8 @@
 <!ENTITY pac.accesskey "A">
 <!ENTITY wpad.label "オンライン (プロキシ: 自動検出)">
 <!ENTITY wpad.accesskey "D">
+<!ENTITY system.label                                   "オンライン (プロキシ: システムの設定)">
+<!ENTITY system.accesskey                               "S">
 
 <!ENTITY proxy.label "プロキシ設定...">
 <!ENTITY proxy.accesskey "C">
@@ -84,6 +85,24 @@
 <!ENTITY bidiSwitchTextDirectionItem.label "テキストの書記方向を切り換え">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey "w">
 <!ENTITY bidiSwitchTextDirectionItem.commandkey "X">
+
+<!ENTITY customizeToolbarContext.label            "カスタマイズ...">
+<!ENTITY customizeToolbarContext.accesskey        "C">
+
+<!ENTITY customizeToolbar.toolbarmode.label       "このツールバーの設定">
+<!ENTITY customizeToolbar.toolbarmode.accesskey   "e">
+<!ENTITY customizeToolbar.iconsAndText.label      "アイコンとテキスト">
+<!ENTITY customizeToolbar.iconsAndText.accesskey  "a">
+<!ENTITY customizeToolbar.icons.label             "アイコンのみ">
+<!ENTITY customizeToolbar.icons.accesskey         "o">
+<!ENTITY customizeToolbar.text.label              "テキストのみ">
+<!ENTITY customizeToolbar.text.accesskey          "T">
+<!ENTITY customizeToolbar.useSmallIcons.label     "小さいアイコンを使用">
+<!ENTITY customizeToolbar.useSmallIcons.accesskey "s">
+<!ENTITY customizeToolbar.labelAlignEnd.label     "アイコンの下にテキストを表示">
+<!ENTITY customizeToolbar.labelAlignEnd.accesskey "b">
+<!ENTITY customizeToolbar.useDefault.label        "初期設定に戻す">
+<!ENTITY customizeToolbar.useDefault.accesskey    "U">
 
 <!-- Popup Blocked notification menu -->
 <!ENTITY allowPopups.accesskey        "p">
