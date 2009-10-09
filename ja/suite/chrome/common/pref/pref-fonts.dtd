@@ -52,9 +52,5 @@
 <!ENTITY useDefaultFont.label "ページで指定されたフォントを無視してデフォルトのフォントを使用する">
 <!ENTITY useDefaultFontSansSerif.label "サンセリフ">
 <!ENTITY useDefaultFontSerif.label "セリフ">
-<!ENTITY useDocFontDynamic.accesskey "a">
-<!ENTITY useDocFontDynamic.label "ページによって指定されたすべてのフォントを使用する">
-<!ENTITY useDocFontNonDynamic.accesskey "p">
-<!ENTITY useDocFontNonDynamic.label "ページによって指定されたフォントを使用する">
 <!ENTITY useDocumentFonts.accesskey "o">
 <!ENTITY useDocumentFonts.label "Web ページで他のフォントを使用できる">
