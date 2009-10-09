@@ -7,7 +7,14 @@
 <!ENTITY treehead.cookieexpires.label "有効期限">
 <!ENTITY treehead.infoselected.label "選択した Cookie に関する情報">
 <!ENTITY button.removecookie.label "Cookie を削除">
+<!ENTITY     button.removecookie.accesskey  "R">
 <!ENTITY button.removeallcookies.label "すべての Cookie を削除">
+<!ENTITY     button.removeallcookies.accesskey "e">
+
+<!ENTITY     search.emptytext               "Cookieを検索">
+<!ENTITY     focusSearch.key                "f">
+<!ENTITY     windowClose.key                "w">
+<!ENTITY     selectAll.key                  "a">
 
 <!ENTITY props.name.label "名前:">
 <!ENTITY props.value.label "情報:">
@@ -20,14 +27,18 @@
 <!ENTITY treehead.status.label "状況">
 <!ENTITY windowtitle.label "Cookie マネージャ">
 <!ENTITY buttonaccept.label "閉じる">
+<!ENTITY     buttonaccept.accesskey         "C">
 
 <!ENTITY blockSite.label "拒否">
+<!ENTITY     blockSite.accesskey            "B">
 <!ENTITY allowSite.label "許可">
+<!ENTITY     allowSite.accesskey            "A">
 <!ENTITY allowSiteSession.label "セッション">
+<!ENTITY     allowSiteSession.accesskey     "S">
 <!ENTITY removepermission.label "サイトを削除">
+<!ENTITY     removepermission.accesskey     "R">
 <!ENTITY removeallpermissions.label "すべてのサイトを削除">
+<!ENTITY     removeallpermissions.accesskey "e">
 
-<!ENTITY canSet.label "Cookie を保存できる">
-<!ENTITY cannotSet.label "Cookie を保存できない">
-
-<!ENTITY checkbox.label "削除した Cookie を送信してきたサイトからの Cookie は今後受け入れない">
+<!ENTITY     futureCookies.label            "削除した Cookie を送信してきたサイトからの Cookie は今後受け入れない">
+<!ENTITY     futureCookies.accesskey        "D">

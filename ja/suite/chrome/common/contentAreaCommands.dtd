@@ -111,9 +111,9 @@
 <!ENTITY mediaUnmute.label		"ミュート解除">
 <!ENTITY mediaUnmute.accesskey		"m">
 <!ENTITY mediaShowControls.label	"コントロールを表示">
-<!ENTITY mediaShowControls.accesskey	"C">
+<!ENTITY mediaShowControls.accesskey  "a">
 <!ENTITY mediaHideControls.label	"コントロールを隠す">
-<!ENTITY mediaHideControls.accesskey	"C">
+<!ENTITY mediaHideControls.accesskey  "a">
 <!ENTITY search.accesskey "W">
 <!ENTITY bidiSwitchPageDirectionItem.label "ページの書記方向を切り換え">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey "g">

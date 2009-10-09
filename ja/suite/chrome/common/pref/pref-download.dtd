@@ -16,14 +16,14 @@
 <!ENTITY openDM.label "ダウンロードマネージャを開く">
 <!ENTITY openProgressDialog.accesskey "O">
 <!ENTITY openProgressDialog.label "進行状況ダイアログを開く">
-<!ENTITY playSound.accesskey "s">
+<!ENTITY playSound.accesskey            "P">
 <!ENTITY playSound.label "音を鳴らす">
 <!ENTITY pref.download.title "ダウンロード">
 <!ENTITY preview.accesskey              "e">
 <!ENTITY preview.label "プレビュー">
 <!ENTITY promptDownload.accesskey "P">
 <!ENTITY promptDownload.label "ダウンロード時に保存先を確認する">
-<!ENTITY showAlert.accesskey            "a">
+<!ENTITY showAlert.accesskey            "S">
 <!ENTITY showAlert.label "警告を表示">
 <!ENTITY soundURL.accesskey "U">
 <!ENTITY soundURL.label "サウンドの URL:">

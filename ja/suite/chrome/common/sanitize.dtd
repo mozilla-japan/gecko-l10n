@@ -3,6 +3,8 @@
 
 <!ENTITY itemHistory.label               "閲覧の履歴">
 <!ENTITY itemHistory.accesskey           "B">
+<!ENTITY itemUrlBar.label                "ロケーションバーの履歴">
+<!ENTITY itemUrlBar.accesskey            "L">
 <!ENTITY itemDownloads.label             "ダウンロードの履歴">
 <!ENTITY itemDownloads.accesskey         "D">
 <!ENTITY itemFormSearchHistory.label     "保存されているフォームと検索の履歴">
