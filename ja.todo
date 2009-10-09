@@ -68,81 +68,54 @@ tooyama さんへ:
   /suite/chrome/mozldap/
 	ldap.properties
 
-----------------------------------------
-charerror について:
-/Users/dynamis/mozdev/lot/build.errorcheck.xml:323: Error Found in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-keynav.dtd:
-@line 12: <!ENTITY findAsYouTypeTip.label "豆知識: 急にタイプ検索 (Find As You Type) をしたくなったときは、[CHARERROR[『]CHARERROR]/[CHARERROR[』]CHARERROR]を押しましょう。リンクだけでよかったら[CHARERROR[『]CHARERROR]'[CHARERROR[』]CHARERROR]です。">
-
-
-Error Found in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/browser/pageInfo.properties:
-@line 79: formPassword=[CHARERROR[••••••••]CHARERROR]
-
-日本語で使用する全角記号文字は ！？～〜－＋×「」—“” だけというのが原則としているため、charcheck で引っかかります。
-ant for191 onlysm convert
-などとするときに -Dnocharcheck=true を指定して
-ant for191 onlysm convert -Dnocharcheck=true
-とすれば charcheck をスキップできますが、 『』 や • も使用許可対象に含めるか、例外使用にするか、他で使われない記号をここだけ使うのは不統一だからこれらの記号を使わないようにするか、いずれかするのが望ましいです。
 
 ----------------------------------------
-以下、参考までに svn rev 465 時点での "ant for191 onlysm compare" 実行結果ログ:
+以下、参考までに svn rev 466 時点での "ant for191 onlysm compare" 実行結果ログ:
 
 Compare Locales Result:
   includes: dom/, netwerk/, security/, toolkit/, suite/, extensions/irc/, extensions/venkman/, extensions/spellcheck/, editor/
   excludes: .hg/, minimo/, extensions/irc/, extensions/spellcheck/, extensions/venkman/
 
 Number of files in the /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
-  total: 448, common: 439, unique: 9
+  total: 448, common: 445, unique: 3
 
 Number of files in the /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  total: 439, common: 439, unique: 0
+  total: 445, common: 445, unique: 0
 
 Total Number of entities in the /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
-  total: 12769, common: 12508, unique: 261
+  total: 12791, common: 12606, unique: 185
 
 Total Number of entities in the /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  total: 12613, common: 12508, unique: 105
+  total: 12709, common: 12606, unique: 103
 
 Total Number of same/different/unique entities in the two directory:
-  same: 5931 (47%), different: 6577, unique: 366
+  same: 5956 (47%), different: 6650, unique: 288
 
 
 
 File(s) only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
-  suite/chrome/common/aboutSessionRestore.dtd 	(13 entities)
-  suite/chrome/common/certError.dtd 	(12 entities)
   suite/chrome/common/downloads/downloadmanager.dtd 	(79 entities)
   suite/chrome/common/downloads/downloadmanager.properties 	(23 entities)
   suite/chrome/common/downloads/progressDialog.dtd 	(16 entities)
-  suite/chrome/common/feeds/subscribe.dtd 	(3 entities)
-  suite/chrome/common/feeds/subscribe.properties 	(30 entities)
-  suite/chrome/common/passwordManager.dtd 	(4 entities)
-  suite/chrome/common/quitDialog.properties 	(10 entities)
 
 
 
 
-Following 1/64 Entities in this file don't match: suite/chrome/common/bookmarks/bm-props.dtd:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/bookmarks/bm-props.dtd:
-    <!ENTITY bookmarks.windowtitle.label  "Properties for &quot;**bm_title**&quot;">
+Following 2/14 Entities in this file don't match: suite/chrome/common/aboutSessionRestore.dtd:
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/aboutSessionRestore.dtd:
+    <!ENTITY restorepage.restoreButton  "Restore Previous Session">
+  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/aboutSessionRestore.dtd:
+    <!ENTITY restorepage.tryagainButton	"タブを復元">
 
-Following 4/18 Entities in this file don't match: suite/chrome/common/contentAreaCommands.properties:
-  4 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/contentAreaCommands.properties:
-    blockImage=Block Images from %S
-    blockImage.accesskey=B
-    unblockImage=Unblock Images from %S
-    unblockImage.accesskey=b
-
-Following 2/9 Entities in this file don't match: suite/chrome/common/defaultClientDialog.dtd:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/defaultClientDialog.dtd:
-    <!ENTITY feeds.label "Feeds">
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/defaultClientDialog.dtd:
-    <!ENTITY rss.label "RSS フィード">
-
-Following 3/37 Entities in this file don't match: suite/chrome/common/mac/platformCommunicatorOverlay.dtd:
-  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/mac/platformCommunicatorOverlay.dtd:
-    <!ENTITY openHelpFrontend.key            "?">
-    <!ENTITY openHelpFrontend.modifiers      "accel">
-    <!ENTITY openHelp2Cmd.key                "VK_HELP">
+Following 6/33 Entities in this file don't match: suite/chrome/common/feeds/subscribe.properties:
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/feeds/subscribe.properties:
+    kilobytes=KB
+    megabytes=MB
+    gigabytes=GB
+  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/feeds/subscribe.properties:
+    kilobyte			= KB
+    megabyte			= MB
+    gigabyte			= GB
 
 Following 23/43 Entities in this file don't match: suite/chrome/common/pref/pref-download.dtd:
   12 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-download.dtd:
@@ -356,7 +329,7 @@ Following 10/16 Entities in this file don't match: suite/chrome/common/pref/pref
     choosefile=ファイルを選択
     viewrow=表示...
     hiderow=隠す
-    oldTheme=あなたが選択したテーマは %brand% の以前のヴァージョン用に作成されています。現在の %brand% ヴァージョンでは適用できません。%brand% テーマのページで、新しいヴァージョンが提供されているかもしれません。[テーマをアンインストール] ボタンをクリックして、このテーマをアンインストールすることもできます。
+    oldTheme=あなたが選択したテーマは %brand% の以前のバージョン用に作成されています。現在の %brand% バージョンでは適用できません。%brand% テーマのページで、新しいバージョンが提供されているかもしれません。[テーマをアンインストール] ボタンをクリックして、このテーマをアンインストールすることもできます。
     languageAlert=言語や地域の設定変更は、%brand% の次回起動時に反映されます。
     languageTitle=言語の変更
     prefSaveFailedAlert=設定ファイルの更新に失敗しました。今回起動してから変更された設定は、保存されていないかもしれません。
@@ -370,16 +343,6 @@ Following 6/11 Entities in this file don't match: suite/chrome/common/pref/win/p
     <!ENTITY alreadyDefaultText         "&brandShortName; は既定のブラウザに設定されています。">
     <!ENTITY defaultPendingText         "&brandShortName; は OK をクリックすると既定のブラウザになります。">
     <!ENTITY makeDefaultText            "&brandShortName; を既定のブラウザに設定する。">
-
-Following 2/5 Entities in this file don't match: suite/chrome/common/region.properties:
-  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/region.properties:
-    intl.content.langcode=ja-JP
-    update_notifications.provider.0.datasource=http://www.mozilla.org/projects/seamonkey/releases/updates/ja-JP.rdf
-
-Following 2/20 Entities in this file don't match: suite/chrome/common/win/platformCommunicatorOverlay.dtd:
-  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/win/platformCommunicatorOverlay.dtd:
-    <!ENTITY helpForIEUsers.label           "For Internet Explorer Users">
-    <!ENTITY helpForIEUsers.accesskey       "I">
 
 
 ----------------------------------------
