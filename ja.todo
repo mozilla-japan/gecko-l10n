@@ -17,6 +17,15 @@ tooyama さんへ:
 	/common/bookmarks - done by dynamis
 	/common/help - done by mar (すべて未訳)
 
+新規ファイル未対応
+Only in en-US/suite/chrome/common: certError.dtd
+Only in en-US/suite/chrome/common: defaultClientDialog.dtd
+Only in en-US/suite/chrome/common: downloads
+Only in en-US/suite/chrome/common: feeds
+Only in en-US/suite/chrome/common/history: places.properties
+Only in en-US-suite20080707/suite/chrome/common: overrides
+Only in en-US/suite/chrome/common: passwordManager.dtd
+
 未訳リスト(mailnews 直下のファイルのみ)
   /suite/chrome/mailnews/
 	eudoraImportMsgs.properties
