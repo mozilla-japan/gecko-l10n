@@ -1,24 +1,28 @@
-<!ENTITY autoRadio.accesskey "W">
-<!ENTITY autoRadio.label "キャッシュしたページが古いとき">
-<!ENTITY cachePara "キャッシュとは、よく見るページのコピーをディスクに記録しておく仕組みのことです。(再読み込みボタンをクリックすると、コピーを捨ててそのページのすべてのデータを読み込み直します)">
+<!-- extracted from content/pref-cache.xul -->
+
+<!--LOCALIZATION NOTE : FILE Cache prefs dialog -->
+<!ENTITY pref.cache.title                "キャッシュ">
+<!ENTITY pref.cache.caption              "キャッシュの設定">
+<!ENTITY cachePara                       "キャッシュとは、よく見るページのコピーをディスクに記録しておく仕組みのことです。(再読み込みボタンをクリックすると、コピーを捨ててそのページのすべてのデータを読み込み直します)">
+<!ENTITY diskCache.label                 "サイズ:">
+<!ENTITY diskCache.accesskey             "S">
+<!ENTITY mbytes                          "MB">
+<!ENTITY diskCacheFolder.label           "キャッシュの保存先:">
+<!ENTITY clearDiskCache.label            "キャッシュをすべて消去">
+<!ENTITY clearDiskCache.accesskey        "C">
+<!ENTITY chooseDiskCacheFolder.label     "フォルダを選択...">
 <!ENTITY chooseDiskCacheFolder.accesskey "F">
-<!ENTITY chooseDiskCacheFolder.label "フォルダを選択...">
-<!ENTITY clearDiskCache.accesskey "C">
-<!ENTITY clearDiskCache.label "キャッシュを全部削除">
-<!ENTITY diskCache.accesskey "S">
-<!ENTITY diskCache.label "サイズ:">
-<!ENTITY diskCacheFolder.label "キャッシュの保存先:">
-<!ENTITY diskCacheFolderExplanation "キャッシュファイルは指定したディレクトリの &quot;Cache&quot; という名前のサブフォルダに保存されます。&brandShortName; を再起動して変更を有効にしてください。">
-<!ENTITY docCache "キャッシュにあるページとネットワーク上のページの比較:">
-<!ENTITY enablePrefetch.accesskey "P">
-<!ENTITY enablePrefetch.label "リンク先読み機能を有効にします。この機能に対応したサイトでは、各ページのダウンロード完了後に、次に表示すると思われるページを先取りして読み込むことで、見かけ上の表示速度を高速化します。">
-<!ENTITY everyTimeRadio.accesskey "E">
-<!ENTITY everyTimeRadio.label "ページにアクセスする毎">
-<!ENTITY mbytes "MB">
-<!ENTITY neverRadio.accesskey "N">
-<!ENTITY neverRadio.label "しない">
-<!ENTITY oncePsessionRadio.accesskey "O">
-<!ENTITY oncePsessionRadio.label "セッション毎">
-<!ENTITY pref.cache.caption "キャッシュの設定">
-<!ENTITY pref.cache.title "キャッシュ">
-<!ENTITY prefetchTitle.label "リンク先読み機能">
+<!ENTITY diskCacheFolderExplanation      "キャッシュファイルは指定したディレクトリ内の &quot;Cache&quot; サブフォルダに保存されます。変更を有効にするには &brandShortName; を再起動してください。">
+<!ENTITY docCache                        "ネットワーク上のページと比較してキャッシュしたページの更新を確認:">
+<!ENTITY oncePsessionRadio.label         "セッションごと">
+<!ENTITY oncePsessionRadio.accesskey     "O">
+<!ENTITY everyTimeRadio.label            "ページを表示するとき">
+<!ENTITY everyTimeRadio.accesskey        "E">
+<!ENTITY neverRadio.label                "確認しない">
+<!ENTITY neverRadio.accesskey            "N">
+<!ENTITY autoRadio.label                 "キャッシュしたページが古いとき">
+<!ENTITY autoRadio.accesskey             "W">
+
+<!ENTITY prefetchTitle.label             "リンク先読み機能">
+<!ENTITY enablePrefetch.label            "リンク先読み機能を有効にします。この機能に対応したサイトでは、各ページのダウンロード完了後に、次に表示すると思われるページを先取りして読み込むことで見かけ上の表示速度を高速化します。">
+<!ENTITY enablePrefetch.accesskey        "P">
