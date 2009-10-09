@@ -3,7 +3,7 @@
 <!ENTITY sortOptions.label "Sort options">
 <!ENTITY description.label "&brandShortName; には、フォルダを使いやすい順番に並べ替える機能があります。並べ替えの順序は、以下のオプションの範囲でカスタマイズできます。">
 
-<!ENTITY sortBy.label "並び替え順序:">
+<!ENTITY sortBy.label "並べ替え順序:">
 <!ENTITY sortBy.accesskey "S">
 <!ENTITY sortBy.name.label "名前">
 <!ENTITY sortBy.url.label "URL">
@@ -20,5 +20,5 @@
 
 <!ENTITY sortFoldersFirst.label "フォルダを先頭に集める">
 <!ENTITY sortFoldersFirst.accesskey "d">
-<!ENTITY sortRecursively.label "再帰的に並び替える">
+<!ENTITY sortRecursively.label "再帰的に並べ替える">
 <!ENTITY sortRecursively.accesskey "c">

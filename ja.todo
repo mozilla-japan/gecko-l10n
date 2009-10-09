@@ -8,15 +8,22 @@ mar:
 	ja/calendar/chrome/calendar/calendar-event-dialog.properties
 		plural forms をどうするか。
 
-
 tooyama さんへ:
 /suite/chrome 以下の en-US と同期していないディレクトリ:
-	/common/* の一部(一部は sync 済み)
-上記了解。
-	/browser - done by dynamis ;-)
-	/common/bookmarks - done by dynamis
-	/common/history - done by dynamis
+	/common/pref/* の一部 (残りの todo はこのファイル末尾の diff 参照)
 	/common/help - done by mar (すべて未訳)
+	/common/pref, /common/help 以外 - done by dynamis
+
+/suite/chrome 以下で en-US のみに存在するファイル
+  suite/chrome/common/aboutSessionRestore.dtd 	(13 entities)
+  suite/chrome/common/certError.dtd 	(12 entities)
+  suite/chrome/common/downloads/downloadmanager.dtd 	(79 entities)
+  suite/chrome/common/downloads/downloadmanager.properties 	(23 entities)
+  suite/chrome/common/downloads/progressDialog.dtd 	(16 entities)
+  suite/chrome/common/feeds/subscribe.dtd 	(3 entities)
+  suite/chrome/common/feeds/subscribe.properties 	(30 entities)
+  suite/chrome/common/passwordManager.dtd 	(4 entities)
+  suite/chrome/common/quitDialog.properties 	(10 entities)
 
 未訳リスト(mailnews 直下のファイルのみ)
   /suite/chrome/mailnews/
@@ -62,26 +69,41 @@ tooyama さんへ:
 	ldap.properties
 
 ----------------------------------------
-以下、参考までに svn rev 464 時点での "ant for191 onlysm compare" 実行結果ログ:
+charerror について:
+/Users/dynamis/mozdev/lot/build.errorcheck.xml:323: Error Found in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-keynav.dtd:
+@line 12: <!ENTITY findAsYouTypeTip.label "豆知識: 急にタイプ検索 (Find As You Type) をしたくなったときは、[CHARERROR[『]CHARERROR]/[CHARERROR[』]CHARERROR]を押しましょう。リンクだけでよかったら[CHARERROR[『]CHARERROR]'[CHARERROR[』]CHARERROR]です。">
+
+
+Error Found in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/browser/pageInfo.properties:
+@line 79: formPassword=[CHARERROR[••••••••]CHARERROR]
+
+日本語で使用する全角記号文字は ！？～〜－＋×「」—“” だけというのが原則としているため、charcheck で引っかかります。
+ant for191 onlysm convert
+などとするときに -Dnocharcheck=true を指定して
+ant for191 onlysm convert -Dnocharcheck=true
+とすれば charcheck をスキップできますが、 『』 や • も使用許可対象に含めるか、例外使用にするか、他で使われない記号をここだけ使うのは不統一だからこれらの記号を使わないようにするか、いずれかするのが望ましいです。
+
+----------------------------------------
+以下、参考までに svn rev 465 時点での "ant for191 onlysm compare" 実行結果ログ:
 
 Compare Locales Result:
   includes: dom/, netwerk/, security/, toolkit/, suite/, extensions/irc/, extensions/venkman/, extensions/spellcheck/, editor/
   excludes: .hg/, minimo/, extensions/irc/, extensions/spellcheck/, extensions/venkman/
 
 Number of files in the /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
-  total: 448, common: 438, unique: 10
+  total: 448, common: 439, unique: 9
 
 Number of files in the /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  total: 439, common: 438, unique: 1
+  total: 439, common: 439, unique: 0
 
 Total Number of entities in the /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
-  total: 12724, common: 12420, unique: 304
+  total: 12769, common: 12508, unique: 261
 
 Total Number of entities in the /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  total: 12567, common: 12420, unique: 147
+  total: 12613, common: 12508, unique: 105
 
 Total Number of same/different/unique entities in the two directory:
-  same: 5909 (48%), different: 6511, unique: 451
+  same: 5931 (47%), different: 6577, unique: 366
 
 
 
@@ -95,9 +117,6 @@ File(s) only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
   suite/chrome/common/feeds/subscribe.properties 	(30 entities)
   suite/chrome/common/passwordManager.dtd 	(4 entities)
   suite/chrome/common/quitDialog.properties 	(10 entities)
-  suite/chrome/common/search/search-rdf.dtd 	(1 entities)
-File(s) only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  suite/chrome/common/pref/pref-applications-edit.dtd 	(19 entities)
 
 
 
@@ -124,52 +143,6 @@ Following 3/37 Entities in this file don't match: suite/chrome/common/mac/platfo
     <!ENTITY openHelpFrontend.key            "?">
     <!ENTITY openHelpFrontend.modifiers      "accel">
     <!ENTITY openHelp2Cmd.key                "VK_HELP">
-
-Following 8/23 Entities in this file don't match: suite/chrome/common/permissions/cookieViewer.properties:
-  7 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/permissions/cookieViewer.properties:
-    expireAtEndOfSession=At end of session
-    deleteSelectedCookies=Are you sure you want to delete the selected cookies?
-    deleteSelectedCookiesTitle=Remove Selected Cookies
-    deleteSelectedCookiesYes=&Remove
-    deleteSelectedCookiesSites=Are you sure you want to delete the selected cookie sites?
-    deleteSelectedSitesTitle=Remove Selected Sites
-    deleteSelectedSitesYes=&Remove
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/permissions/cookieViewer.properties:
-    AtEndOfSession=セッションの終わり
-
-Following 1/15 Entities in this file don't match: suite/chrome/common/permissions/permissionsManager.dtd:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/permissions/permissionsManager.dtd:
-    <!ENTITY address.accesskey              "d">
-
-Following 2/39 Entities in this file don't match: suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd:
-  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd:
-    <!ENTITY cookieTutorialCmd.label "プライバシーの理解">
-    <!ENTITY cookieTutorialCmd.accesskey "u">
-
-Following 6/14 Entities in this file don't match: suite/chrome/common/pref/pref-advanced.dtd:
-  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-advanced.dtd:
-    <!ENTITY prefCheckDefault.caption   "System Integration">
-    <!ENTITY prefCheckDefaultClient.label "Check default application settings on startup">
-    <!ENTITY prefCheckDefaultClient.accesskey "C">
-  3 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-advanced.dtd:
-    <!ENTITY prefJvmConf.caption "使用する Java のバージョン (再起動後に有効)">
-    <!ENTITY jvm.name "バージョン">
-    <!ENTITY jvm.home "パス">
-
-Following 5/10 Entities in this file don't match: suite/chrome/common/pref/pref-applications.dtd:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-applications.dtd:
-    <!ENTITY search.emptytext        "Search Types and Actions">
-  4 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-applications.dtd:
-    <!ENTITY filter.label            "検索内容:">
-    <!ENTITY filter.accesskey        "S">
-    <!ENTITY clear.label             "クリア">
-    <!ENTITY clear.accesskey         "l">
-
-Following 2/16 Entities in this file don't match: suite/chrome/common/pref/pref-applications.properties:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-applications.properties:
-    addNewsBlogsInApp=Subscribe in %S
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/pref/pref-applications.properties:
-    addLiveBookmarksInApp=%S ライブブックマークに追加する
 
 Following 23/43 Entities in this file don't match: suite/chrome/common/pref/pref-download.dtd:
   12 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/pref/pref-download.dtd:
@@ -403,172 +376,15 @@ Following 2/5 Entities in this file don't match: suite/chrome/common/region.prop
     intl.content.langcode=ja-JP
     update_notifications.provider.0.datasource=http://www.mozilla.org/projects/seamonkey/releases/updates/ja-JP.rdf
 
-Following 5/17 Entities in this file don't match: suite/chrome/common/search/search-panel.dtd:
-  5 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/search/search-panel.dtd:
-    <!ENTITY checkbox.column.label "使用">
-    <!ENTITY savesearch.button.label "検索結果をブックマークする">
-    <!ENTITY search.advanced.tab "拡張">
-    <!ENTITY search.results.tab "適用">
-    <!ENTITY stop.button.label "中止">
-
-Following 1/2 Entities in this file don't match: suite/chrome/common/sidebar/preview.dtd:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/sidebar/preview.dtd:
-    <!ENTITY sidebar.preview.close.label "閉じる">
-
-Following 13/37 Entities in this file don't match: suite/chrome/common/tasksOverlay.dtd:
-  8 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/tasksOverlay.dtd:
-    <!ENTITY errorConsoleCmd.commandkey				"j">
-    <!ENTITY passwordManagerCmd.label "Password Manager">
-    <!ENTITY passwordManagerCmd.accesskey "P">
-    <!ENTITY passwordDisplayCmd.label "Manage Stored Passwords">
-    <!ENTITY passwordDisplayCmd.accesskey "M">
-    <!ENTITY passwordExpireCmd.label "Log Out">
-    <!ENTITY passwordExpireCmd.accesskey "l">
-    <!ENTITY downloadManagerCmd.commandkey "j">
-  5 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/tasksOverlay.dtd:
-    <!ENTITY securityInfoCmd.label ".セキュリティ情報">
-    <!ENTITY securityInfoCmd.accesskey "s">
-    <!ENTITY privacyMenu.label "プライバシー &amp; セキュリティ">
-    <!ENTITY privacyMenu.accesskey "p">
-    <!ENTITY taskBar.tooltip "ステータスバー">
-
-Following 2/20 Entities in this file don't match: suite/chrome/common/unix/platformCommunicatorOverlay.dtd:
-  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/unix/platformCommunicatorOverlay.dtd:
-    <!ENTITY copyImageURLCmd.label          "Copy Image Location">
-    <!ENTITY copyImageURLCmd.accesskey      "y">
-
-Following 19/98 Entities in this file don't match: suite/chrome/common/utilityOverlay.dtd:
-  18 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/utilityOverlay.dtd:
-    <!ENTITY system.label                                   "Online (Proxy: System Proxy)">
-    <!ENTITY system.accesskey                               "S">
-    <!ENTITY customizeToolbarContext.label            "Customize…">
-    <!ENTITY customizeToolbarContext.accesskey        "C">
-    <!ENTITY customizeToolbar.toolbarmode.label       "Settings for this toolbar">
-    <!ENTITY customizeToolbar.toolbarmode.accesskey   "e">
-    <!ENTITY customizeToolbar.iconsAndText.label      "Icons and Text">
-    <!ENTITY customizeToolbar.iconsAndText.accesskey  "a">
-    <!ENTITY customizeToolbar.icons.label             "Icons">
-    <!ENTITY customizeToolbar.icons.accesskey         "o">
-    <!ENTITY customizeToolbar.text.label              "Text">
-    <!ENTITY customizeToolbar.text.accesskey          "T">
-    <!ENTITY customizeToolbar.useSmallIcons.label     "Use small icons">
-    <!ENTITY customizeToolbar.useSmallIcons.accesskey "s">
-    <!ENTITY customizeToolbar.labelAlignEnd.label     "Show text beside icon">
-    <!ENTITY customizeToolbar.labelAlignEnd.accesskey "b">
-    <!ENTITY customizeToolbar.useDefault.label        "Use default settings">
-    <!ENTITY customizeToolbar.useDefault.accesskey    "U">
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/utilityOverlay.dtd:
-    <!ENTITY deleteCmd.key "D">
-
-Following 1/20 Entities in this file don't match: suite/chrome/common/utilityOverlay.properties:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/utilityOverlay.properties:
-    onlineTooltip5=You are online (proxy: use system proxy). Click the icon to go offline.
-
 Following 2/20 Entities in this file don't match: suite/chrome/common/win/platformCommunicatorOverlay.dtd:
   2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/win/platformCommunicatorOverlay.dtd:
     <!ENTITY helpForIEUsers.label           "For Internet Explorer Users">
     <!ENTITY helpForIEUsers.accesskey       "I">
 
 
-
 ----------------------------------------
-以下、suite/chrome/common 以下の未対応 diff
+以下、suite/chrome/common/pref 配下の未対応 diff (英語版のこの差分を日本語版にも反映する必要あり)
 
-diff -ru en-US-suite20080707/suite/chrome/common/permissions/cookieViewer.properties en-US/suite/chrome/common/permissions/cookieViewer.properties
---- en-US-suite20080707/suite/chrome/common/permissions/cookieViewer.properties	2007-09-03 09:58:03.000000000 +0900
-+++ en-US/suite/chrome/common/permissions/cookieViewer.properties	2009-10-09 00:16:02.000000000 +0900
-@@ -46,10 +46,16 @@
- domainColon=Domain:
- forSecureOnly=Encrypted connections only
- forAnyConnection=Any type of connection
--AtEndOfSession = at end of session
-+expireAtEndOfSession=At end of session
- deleteAllCookies=Are you sure you want to delete all the cookies?
- deleteAllCookiesTitle=Remove All Cookies
- deleteAllCookiesYes=&Remove
- deleteAllCookiesSites=Are you sure you want to delete all of the cookie sites?
- deleteAllSitesTitle=Remove All Sites
- deleteAllSitesYes=&Remove
-+deleteSelectedCookies=Are you sure you want to delete the selected cookies?
-+deleteSelectedCookiesTitle=Remove Selected Cookies
-+deleteSelectedCookiesYes=&Remove
-+deleteSelectedCookiesSites=Are you sure you want to delete the selected cookie sites?
-+deleteSelectedSitesTitle=Remove Selected Sites
-+deleteSelectedSitesYes=&Remove
-diff -ru en-US-suite20080707/suite/chrome/common/permissions/permissionsManager.dtd en-US/suite/chrome/common/permissions/permissionsManager.dtd
---- en-US-suite20080707/suite/chrome/common/permissions/permissionsManager.dtd	2006-07-27 23:48:08.000000000 +0900
-+++ en-US/suite/chrome/common/permissions/permissionsManager.dtd	2009-10-09 00:16:02.000000000 +0900
-@@ -6,6 +6,7 @@
- <!ENTITY removeall.label                "Remove All Sites">
- <!ENTITY removeall.accesskey            "e">
- <!ENTITY address.label                  "Address of web site:">
-+<!ENTITY address.accesskey              "d">
- <!ENTITY block.label                    "Block">
- <!ENTITY block.accesskey                "B">
- <!ENTITY session.label                  "Allow for Session">
-diff -ru en-US-suite20080707/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd en-US/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd
---- en-US-suite20080707/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd	2008-01-05 07:59:00.000000000 +0900
-+++ en-US/suite/chrome/common/permissions/permissionsNavigatorOverlay.dtd	2009-10-09 00:16:02.000000000 +0900
-@@ -34,9 +34,6 @@
- <!ENTITY cookieManagePopups.label                    "Manage Popups">
- <!ENTITY cookieManagePopups.accesskey                "M">
- 
--<!ENTITY cookieTutorialCmd.label "Understanding Privacy">
--<!ENTITY cookieTutorialCmd.accesskey "u">
--
- <!ENTITY cookieCookieManager.label "Cookie Manager">
- <!ENTITY cookieCookieManager.accesskey "c">
- <!ENTITY cookieImageManager.label "Image Manager">
-diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-advanced.dtd en-US/suite/chrome/common/pref/pref-advanced.dtd
---- en-US-suite20080707/suite/chrome/common/pref/pref-advanced.dtd	2008-05-29 07:53:11.000000000 +0900
-+++ en-US/suite/chrome/common/pref/pref-advanced.dtd	2009-10-09 00:16:02.000000000 +0900
-@@ -10,3 +10,7 @@
- <!ENTITY systemPrefCheck.label      "Use Preferences from System">
- <!ENTITY systemPrefCheck.accesskey  "U">
- <!ENTITY systemPref.desc            "With this option, &brandShortName; inherits preferences from the system. These system settings will override the &brandShortName; preferences.">
-+
-+<!ENTITY prefCheckDefault.caption   "System Integration">
-+<!ENTITY prefCheckDefaultClient.label "Check default application settings on startup">
-+<!ENTITY prefCheckDefaultClient.accesskey "C">
-Only in en-US-suite20080707/suite/chrome/common/pref: pref-applications-edit.dtd
-diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-applications.dtd en-US/suite/chrome/common/pref/pref-applications.dtd
---- en-US-suite20080707/suite/chrome/common/pref/pref-applications.dtd	2008-03-05 23:29:10.000000000 +0900
-+++ en-US/suite/chrome/common/pref/pref-applications.dtd	2009-10-09 00:16:02.000000000 +0900
-@@ -7,8 +7,4 @@
- <!ENTITY actionColumn2.label     "Action">
- <!ENTITY actionColumn2.accesskey "A">
- 
--<!ENTITY filter.label            "Search:">
--<!ENTITY filter.accesskey        "S">
--
--<!ENTITY clear.label             "Clear">
--<!ENTITY clear.accesskey         "l">
-+<!ENTITY search.emptytext        "Search Types and Actions">
-diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-applications.properties en-US/suite/chrome/common/pref/pref-applications.properties
---- en-US-suite20080707/suite/chrome/common/pref/pref-applications.properties	2008-03-05 23:29:10.000000000 +0900
-+++ en-US/suite/chrome/common/pref/pref-applications.properties	2009-10-09 00:16:02.000000000 +0900
-@@ -20,9 +20,9 @@
- # %2$S = brandShortName from brand.properties (for example "Minefield")
- usePluginIn=Use %S (in %S)
- 
--# LOCALIZATION NOTE (previewInApp, addLiveBookmarksInApp): %S = brandShortName
-+# LOCALIZATION NOTE (previewInApp, addNewsBlogsInApp): %S = brandShortName
- previewInApp=Preview in %S
--addLiveBookmarksInApp=Add Live Bookmarks in %S
-+addNewsBlogsInApp=Subscribe in %S
- 
- # LOCALIZATION NOTE (typeDescriptionWithType):
- # %1$S = type description (for example "Portable Document Format")
-diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-cache.dtd en-US/suite/chrome/common/pref/pref-cache.dtd
---- en-US-suite20080707/suite/chrome/common/pref/pref-cache.dtd	2008-02-17 05:29:16.000000000 +0900
-+++ en-US/suite/chrome/common/pref/pref-cache.dtd	2009-10-09 00:16:02.000000000 +0900
-@@ -26,4 +26,3 @@
- <!ENTITY prefetchTitle.label             "Link Prefetching">
- <!ENTITY enablePrefetch.label            "Prefetch web pages when idle, so that links in web pages designed for prefetching can load more quickly">
- <!ENTITY enablePrefetch.accesskey        "P">
--<!-- <!ENTITY prefetchDesc.label              "If you check this item, &brandShortName; will follow special directives from websites to prefetch content while the browser is idle.  Websites designed to take advantage of this feature will appear to load quicker."> -->
-Only in en-US/suite/chrome/common/pref: pref-certs.dtd
-Only in en-US-suite20080707/suite/chrome/common/pref: pref-charset.dtd
 diff -ru en-US-suite20080707/suite/chrome/common/pref/pref-download.dtd en-US/suite/chrome/common/pref/pref-download.dtd
 --- en-US-suite20080707/suite/chrome/common/pref/pref-download.dtd	2008-02-17 05:29:16.000000000 +0900
 +++ en-US/suite/chrome/common/pref/pref-download.dtd	2009-10-09 00:16:02.000000000 +0900
@@ -1005,148 +821,3 @@ diff -ru en-US-suite20080707/suite/chrome/common/pref/prefutilities.properties e
 -prefSaveFailedTitle=Save Error
 -
  labelDefaultFont=Default (%font_family%)
-diff -ru en-US-suite20080707/suite/chrome/common/search/search-panel.dtd en-US/suite/chrome/common/search/search-panel.dtd
---- en-US-suite20080707/suite/chrome/common/search/search-panel.dtd	2008-02-17 05:29:16.000000000 +0900
-+++ en-US/suite/chrome/common/search/search-panel.dtd	2009-10-09 00:16:02.000000000 +0900
-@@ -36,18 +36,13 @@
-    - ***** END LICENSE BLOCK ***** -->
- 
- <!ENTITY search.button.label      "Search">
--<!ENTITY search.results.tab       "Apply">
--<!ENTITY search.advanced.tab      "Settings for ">
- <!ENTITY allengines.label         "All Engines">
- <!ENTITY within.label             "within">
- <!ENTITY using.label              "using">
- <!ENTITY choose.label             "Choose search engines, then click Search">
- <!ENTITY results.label            "Search Results">
- <!ENTITY engine.column.label      "Search Engines">
--<!ENTITY checkbox.column.label    "Use">
--<!ENTITY stop.button.label        "Stop">
--<!ENTITY customize.menuitem.label   "Edit Categories …">
--<!ENTITY savesearch.button.label  "Bookmark this Search">
-+<!ENTITY customize.menuitem.label "Edit Categories …">
- <!ENTITY next.button.label        "Next">
- <!ENTITY previous.button.label    "Previous">
- <!ENTITY next.button.tooltip      "Show next search results">
-Only in en-US/suite/chrome/common/search: search-rdf.dtd
-diff -ru en-US-suite20080707/suite/chrome/common/sidebar/preview.dtd en-US/suite/chrome/common/sidebar/preview.dtd
---- en-US-suite20080707/suite/chrome/common/sidebar/preview.dtd	2006-07-27 23:48:09.000000000 +0900
-+++ en-US/suite/chrome/common/sidebar/preview.dtd	2009-10-09 00:16:02.000000000 +0900
-@@ -36,4 +36,3 @@
-    - ***** END LICENSE BLOCK ***** -->
- 
- <!ENTITY sidebar.preview.title.label          "Tab Preview">
--<!ENTITY sidebar.preview.close.label          "Close">
-diff -ru en-US-suite20080707/suite/chrome/common/tasksOverlay.dtd en-US/suite/chrome/common/tasksOverlay.dtd
---- en-US-suite20080707/suite/chrome/common/tasksOverlay.dtd	2008-02-17 05:29:15.000000000 +0900
-+++ en-US/suite/chrome/common/tasksOverlay.dtd	2009-10-09 00:16:02.000000000 +0900
-@@ -7,21 +7,15 @@
- <!ENTITY editorCmd.accesskey				"c">
- <!ENTITY editorCmd.commandkey				"4">
- 
--<!ENTITY securityInfoCmd.label					".Security Info">  
--<!ENTITY securityInfoCmd.accesskey				"s">
- <!ENTITY javaConsoleCmd.label					"Java Console">
- <!ENTITY javaConsoleCmd.accesskey				"j">
- 
- <!ENTITY errorConsoleCmd.label                                  "Error Console">
- <!ENTITY errorConsoleCmd.accesskey				"C">
--
--<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
--<!ENTITY privacyMenu.label "Privacy &amp; Security">
--<!ENTITY privacyMenu.accesskey "p">
-+<!ENTITY errorConsoleCmd.commandkey				"j">
- 
- <!ENTITY taskNavigator.tooltip  "Browser">
- <!ENTITY taskComposer.tooltip  "Composer">
--<!ENTITY taskBar.tooltip  "Status Bar">
- 
- <!ENTITY webDevelopment.label "Web Development">
- <!ENTITY webDevelopment.accesskey "W">
-@@ -32,8 +26,18 @@
- <!ENTITY tasksMenu.label "Tools">
- <!ENTITY tasksMenu.accesskey "T"> 
- 
-+<!ENTITY passwordManagerCmd.label "Password Manager">
-+<!ENTITY passwordManagerCmd.accesskey "P">
-+
-+<!ENTITY passwordDisplayCmd.label "Manage Stored Passwords">
-+<!ENTITY passwordDisplayCmd.accesskey "M">
-+
-+<!ENTITY passwordExpireCmd.label "Log Out">
-+<!ENTITY passwordExpireCmd.accesskey "l">
-+
- <!ENTITY downloadManagerCmd.label "Download Manager">
- <!ENTITY downloadManagerCmd.accesskey "D">
-+<!ENTITY downloadManagerCmd.commandkey "j">
- 
- <!ENTITY addonsManagerCmd.label "Add-on Manager">
- <!ENTITY addonsManagerCmd.accesskey "A">
-diff -ru en-US-suite20080707/suite/chrome/common/unix/platformCommunicatorOverlay.dtd en-US/suite/chrome/common/unix/platformCommunicatorOverlay.dtd
---- en-US-suite20080707/suite/chrome/common/unix/platformCommunicatorOverlay.dtd	2006-11-25 18:58:57.000000000 +0900
-+++ en-US/suite/chrome/common/unix/platformCommunicatorOverlay.dtd	2009-10-09 00:16:02.000000000 +0900
-@@ -27,3 +27,7 @@
- <!ENTITY ctrlKey.label                  "Ctrl">
- <!ENTITY altKey.label                   "Alt">
- <!ENTITY shiftKey.label                 "Shift">
-+
-+<!-- Copy Image Location (regression fix for bug 469481) -->
-+<!ENTITY copyImageURLCmd.label          "Copy Image Location">
-+<!ENTITY copyImageURLCmd.accesskey      "y">
-diff -ru en-US-suite20080707/suite/chrome/common/utilityOverlay.dtd en-US/suite/chrome/common/utilityOverlay.dtd
---- en-US-suite20080707/suite/chrome/common/utilityOverlay.dtd	2008-02-17 05:29:15.000000000 +0900
-+++ en-US/suite/chrome/common/utilityOverlay.dtd	2009-10-09 00:16:02.000000000 +0900
-@@ -37,7 +37,6 @@
- <!ENTITY pasteCmd.key						"V">  
- <!ENTITY pasteCmd.accesskey					"p"> 
- <!ENTITY deleteCmd.label					"Delete">  
--<!ENTITY deleteCmd.key						"D">  
- <!ENTITY deleteCmd.accesskey				"d"> 
- <!ENTITY selectAllCmd.label					"Select All">  
- <!ENTITY selectAllCmd.key					"A">  
-@@ -77,6 +76,8 @@
- <!ENTITY pac.accesskey                                  "A">
- <!ENTITY wpad.label                                     "Online (Proxy: Auto Discover)">
- <!ENTITY wpad.accesskey                                 "D">
-+<!ENTITY system.label                                   "Online (Proxy: System Proxy)">
-+<!ENTITY system.accesskey                               "S">
- 
- <!ENTITY proxy.label                                    "Proxy Configuration…">
- <!ENTITY proxy.accesskey                                "C">
-@@ -85,6 +86,24 @@
- <!ENTITY bidiSwitchTextDirectionItem.accesskey    "w">
- <!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
- 
-+<!ENTITY customizeToolbarContext.label            "Customize…">
-+<!ENTITY customizeToolbarContext.accesskey        "C">
-+
-+<!ENTITY customizeToolbar.toolbarmode.label       "Settings for this toolbar">
-+<!ENTITY customizeToolbar.toolbarmode.accesskey   "e">
-+<!ENTITY customizeToolbar.iconsAndText.label      "Icons and Text">
-+<!ENTITY customizeToolbar.iconsAndText.accesskey  "a">
-+<!ENTITY customizeToolbar.icons.label             "Icons">
-+<!ENTITY customizeToolbar.icons.accesskey         "o">
-+<!ENTITY customizeToolbar.text.label              "Text">
-+<!ENTITY customizeToolbar.text.accesskey          "T">
-+<!ENTITY customizeToolbar.useSmallIcons.label     "Use small icons">
-+<!ENTITY customizeToolbar.useSmallIcons.accesskey "s">
-+<!ENTITY customizeToolbar.labelAlignEnd.label     "Show text beside icon">
-+<!ENTITY customizeToolbar.labelAlignEnd.accesskey "b">
-+<!ENTITY customizeToolbar.useDefault.label        "Use default settings">
-+<!ENTITY customizeToolbar.useDefault.accesskey    "U">
-+
- <!-- Popup Blocked notification menu -->
- <!ENTITY allowPopups.accesskey        "p">
- <!ENTITY showPopupManager.label       "Manage Popups">
-diff -ru en-US-suite20080707/suite/chrome/common/utilityOverlay.properties en-US/suite/chrome/common/utilityOverlay.properties
---- en-US-suite20080707/suite/chrome/common/utilityOverlay.properties	2008-02-17 05:29:15.000000000 +0900
-+++ en-US/suite/chrome/common/utilityOverlay.properties	2009-10-09 00:16:02.000000000 +0900
-@@ -3,6 +3,7 @@
- onlineTooltip1=You are online (proxy: manual). Click the icon to go offline.
- onlineTooltip2=You are online (proxy: auto URL). Click the icon to go offline.
- onlineTooltip4=You are online (proxy: auto discover). Click the icon to go offline.
-+onlineTooltip5=You are online (proxy: use system proxy). Click the icon to go offline.
- offlineTooltip=You are offline. Click the icon to go online.
- 
- # Popup menus
-

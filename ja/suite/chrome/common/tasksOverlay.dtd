@@ -8,21 +8,16 @@
 <!ENTITY editorCmd.accesskey "c">
 <!ENTITY editorCmd.commandkey "4">
 
-<!ENTITY securityInfoCmd.label ".セキュリティ情報">
-<!ENTITY securityInfoCmd.accesskey "s">
 <!ENTITY javaConsoleCmd.label "Java コンソール">
 <!ENTITY javaConsoleCmd.accesskey "j">
 
 <!ENTITY errorConsoleCmd.accesskey				"C">
 <!ENTITY errorConsoleCmd.label                                  "エラーコンソール">
 
-<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
-<!ENTITY privacyMenu.label "プライバシー &amp; セキュリティ">
-<!ENTITY privacyMenu.accesskey "p">
+<!ENTITY errorConsoleCmd.commandkey				"j">
 
 <!ENTITY taskComposer.tooltip "Composer">
 <!ENTITY taskNavigator.tooltip "ブラウザ">
-<!ENTITY taskBar.tooltip "ステータスバー">
 
 <!ENTITY webDevelopment.label "Web 開発">
 <!ENTITY webDevelopment.accesskey "W">
@@ -33,8 +28,18 @@
 <!ENTITY tasksMenu.label "ツール">
 <!ENTITY tasksMenu.accesskey "T">
 
+<!ENTITY passwordManagerCmd.label "パスワードマネージャ">
+<!ENTITY passwordManagerCmd.accesskey "P">
+
+<!ENTITY passwordDisplayCmd.label "保存されているパスワードを管理">
+<!ENTITY passwordDisplayCmd.accesskey "M">
+ 
+<!ENTITY passwordExpireCmd.label "Log Out">
+<!ENTITY passwordExpireCmd.accesskey "l">
+
 <!ENTITY downloadManagerCmd.label "ダウンロードマネージャ">
 <!ENTITY downloadManagerCmd.accesskey "D">
+<!ENTITY downloadManagerCmd.commandkey "j">
 
 <!ENTITY addonsManagerCmd.label "アドオンマネージャ">
 <!ENTITY addonsManagerCmd.accesskey "A">
