@@ -1,4 +1,4 @@
-<!--LOCALIZATION NOTE : FILE Lists preferences categories that appear on the left of the preferences dialog -->
+<!--LOCALIZATION NOTE (.label): Preferences categories that appear on the left of the preferences dialog -->
 <!ENTITY prefWindow.title "設定">
 <!ENTITY categoryHeader "カテゴリ">
 <!ENTITY appear.label "表示">
@@ -30,6 +30,8 @@
 <!ENTITY download.label "ダウンロード">
 <!ENTITY keynav.label "キーボードナビゲーション">
 <!ENTITY search.label "インターネット検索">
-<!ENTITY policies.label "セキュリティーポリシー">
+<!ENTITY policies.label "セキュリティポリシー">
 <!ENTITY mousewheel.label "マウスホイール">
 <!ENTITY scriptsAndWindows.label "スクリプトとプラグイン">
+
+<!ENTITY focusSearch.key "f">

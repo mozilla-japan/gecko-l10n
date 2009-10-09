@@ -1,22 +1,29 @@
-<!ENTITY activeLinkColor.accesskey "c">
-<!ENTITY activeLinkColor.label "アクティブなリンク:">
+<!-- extracted from content/pref-colors.xul -->
+
+<!-- LOCALIZATION NOTE : FILE Color management prefs -->
+<!ENTITY pref.colors.title                 "@@Colors@@">
+<!ENTITY color                             "テキストと背景の@@Color@@">
+<!ENTITY textColor.label                   "テキスト:">
+<!ENTITY textColor.accesskey               "T">
+<!ENTITY backgroundColor.label             "背景:">
+<!ENTITY backgroundColor.accesskey         "B">
+<!ENTITY useSystemColors.label             "システムの@@Colors@@を使用する">
+<!ENTITY useSystemColors.accesskey         "s">
+
+<!ENTITY underlineLinks.label              "リンクに下線を付ける">
+<!ENTITY underlineLinks.accesskey          "U">
+<!ENTITY links                             "リンクの@@Color@@">
+<!ENTITY linkColor.label                   "未訪問のリンク:">
+<!ENTITY linkColor.accesskey               "L">
+<!ENTITY activeLinkColor.label             "アクティブなリンク:">
+<!ENTITY activeLinkColor.accesskey         "c">
+<!ENTITY visitedLinkColor.label            "訪問したリンク:">
+<!ENTITY visitedLinkColor.accesskey        "V">
+<!-- LOCALIZATION NOTE (someProvColors): This is the start of a sentence and will be followed by the following radio buttons. -->
+<!ENTITY someProvColors                    "When a web page provides its own colors and background">
+<!-- LOCALIZATION NOTE (alwaysUseDocColors.label): This is option one, and it appends to 'someProvColors' above. -->
+<!ENTITY alwaysUseDocumentColors.label     "常に Web ページで指定された@@Colors@@と背景@@Color@@を使用する">
 <!ENTITY alwaysUseDocumentColors.accesskey "A">
-<!ENTITY alwaysUseDocumentColors.label "常に Web ページで指定された@@Colors@@と背景を使用する">
-<!ENTITY backgroundColor.accesskey "B">
-<!ENTITY backgroundColor.label "背景:">
-<!ENTITY color "テキストと背景">
-<!ENTITY linkColor.accesskey "L">
-<!ENTITY linkColor.label "未訪問のリンク:">
-<!ENTITY links "リンクの色">
-<!ENTITY pref.colors.title "@@Colors@@">
-<!ENTITY someProvColors "Web ページが独自の@@Colors@@と背景を提供する場合">
-<!ENTITY textColor.accesskey "T">
-<!ENTITY textColor.label "普通のテキスト:">
-<!ENTITY underlineLinks.accesskey "U">
-<!ENTITY underlineLinks.label "リンクに下線を付ける">
-<!ENTITY useMyColors.accesskey "m">
-<!ENTITY useMyColors.label "指定された@@Colors@@と背景画像を無視して、自分で選択した@@Colors@@を使用する">
-<!ENTITY useSystemColors.accesskey "s">
-<!ENTITY useSystemColors.label "システムカラーを使用">
-<!ENTITY visitedLinkColor.accesskey "V">
-<!ENTITY visitedLinkColor.label "訪問したリンク:">
+<!-- LOCALIZATION NOTE (ignoreDocColors.label): This is option two, and it appends to 'someProvColors' above.  -->
+<!ENTITY useMyColors.label                 "Web ページで指定された@@Colors@@と背景画像を無視して、自分で選択した@@Colors@@を使用する">
+<!ENTITY useMyColors.accesskey             "m">
