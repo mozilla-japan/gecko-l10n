@@ -11,9 +11,10 @@ mar:
 
 tooyama さんへ:
 /suite/chrome 以下の en-US と同期していないディレクトリ:
-	/common
+	/common/* 
 上記了解。
 	/browser - done by dynamis ;-)
+	/common/bookmarks - done by dynamis
 	/common/help - done by mar (すべて未訳)
 
 未訳リスト(mailnews 直下のファイルのみ)
@@ -60,26 +61,26 @@ tooyama さんへ:
 	ldap.properties
 
 ----------------------------------------
-以下、参考までに svn rev 457 時点での "ant for191 onlysm compare" 実行結果ログ:
+以下、参考までに svn rev 459 時点での "ant for191 onlysm compare" 実行結果ログ:
 
 Compare Locales Result:
   includes: dom/, netwerk/, security/, toolkit/, suite/, extensions/irc/, extensions/venkman/, extensions/spellcheck/, editor/
   excludes: .hg/, minimo/, extensions/irc/, extensions/spellcheck/, extensions/venkman/
 
 Number of files in the /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
-  total: 446, common: 435, unique: 11
+  total: 448, common: 437, unique: 11
 
 Number of files in the /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  total: 442, common: 435, unique: 7
+  total: 442, common: 437, unique: 5
 
 Total Number of entities in the /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
-  total: 12555, common: 12114, unique: 441
+  total: 12607, common: 12177, unique: 430
 
 Total Number of entities in the /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  total: 12417, common: 12114, unique: 303
+  total: 12433, common: 12177, unique: 256
 
 Total Number of same/different/unique entities in the two directory:
-  same: 5823 (48%), different: 6291, unique: 744
+  same: 5838 (48%), different: 6339, unique: 686
 
 
 
@@ -96,8 +97,6 @@ File(s) only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US directory:
   suite/chrome/common/quitDialog.properties 	(10 entities)
   suite/chrome/common/search/search-rdf.dtd 	(1 entities)
 File(s) only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
-  suite/chrome/branding/aboutRights.dtd 	(28 entities)
-  suite/chrome/branding/aboutRights.properties 	(3 entities)
   suite/chrome/common/history/findHistory.dtd 	(11 entities)
   suite/chrome/common/history/history.properties 	(15 entities)
   suite/chrome/common/history/historyTreeOverlay.dtd 	(16 entities)
@@ -106,14 +105,6 @@ File(s) only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja directory:
 
 
 
-
-Following 1/389 Entities in this file don't match: editor/ui/chrome/composer/editorOverlay.dtd:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/editor/ui/chrome/composer/editorOverlay.dtd:
-    <!ENTITY pasteAsQuotationCmd.key "o">
-
-Following 1/14 Entities in this file don't match: suite/chrome/common/bookmarks/addBookmark.dtd:
-  1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/common/bookmarks/addBookmark.dtd:
-    <!ENTITY destination.accesskey      "D">
 
 Following 1/64 Entities in this file don't match: suite/chrome/common/bookmarks/bm-props.dtd:
   1 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/common/bookmarks/bm-props.dtd:
@@ -697,34 +688,11 @@ Following 2/20 Entities in this file don't match: suite/chrome/common/win/platfo
     <!ENTITY helpForIEUsers.label           "For Internet Explorer Users">
     <!ENTITY helpForIEUsers.accesskey       "I">
 
-Following 2/222 Entities in this file don't match: suite/chrome/mailnews/messenger.properties:
-  2 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/mailnews/messenger.properties:
-    feedNoSummaryTitle=No Feed Summary
-    feedNoSummaryAlert=This is a news feed in an old format, which does not store the Summary of the news item. Therefore it cannot be displayed.
 
-Following 23/55 Entities in this file don't match: suite/chrome/mailnews/pref/am-offline.dtd:
-  9 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/en-US/suite/chrome/mailnews/pref/am-offline.dtd:
-    <!ENTITY doNotDownload.label "To save disk space, do not download for offline use:">
-    <!ENTITY useAutosyncBefore.label         "">
-    <!ENTITY useAutosyncMiddle.label         "">
-    <!ENTITY allInterval.label               "All">
-    <!ENTITY dayInterval.label               "Days of">
-    <!ENTITY weekInterval.label              "Weeks of">
-    <!ENTITY monthInterval.label             "Months of">
-    <!ENTITY yearInterval.label              "Years of">
-    <!ENTITY useAutosyncAfter.label          "email will be stored on disk">
-  14 entities only in /Users/dynamis/mozdev/lot/l10n/1.9.1/ja/suite/chrome/mailnews/pref/am-offline.dtd:
-    <!ENTITY doNotDownloadNntp.label "次のメッセージはオフライン表示用にダウンロードしない:">
-    <!ENTITY doNotDownloadImap.label "指定したサイズまたは期間のメッセージをオフライン表示用にダウンロードしてローカルにコピーを保存します。">
-    <!ENTITY autosyncNotDownload.label "次のサイズのメッセージはダウンロードしない:">
-    <!ENTITY autosyncNotDownload.accesskey "m">
-    <!ENTITY allAutosync.label		"すべてのメッセージをローカルに同期する">
-    <!ENTITY allAutosync.accesskey           "c">
-    <!ENTITY ageAutosyncBefore.label	"最近">
-    <!ENTITY ageAutosync.accesskey           "z">
-    <!ENTITY ageAutosyncMiddle.label         "">
-    <!ENTITY dayAgeInterval.label            "日">
-    <!ENTITY weekAgeInterval.label           "週">
-    <!ENTITY monthAgeInterval.label          "カ月">
-    <!ENTITY yearAgeInterval.label           "カ年">
-    <!ENTITY ageAutosyncAfter.label          "分のメッセージをローカルに同期する">
+
+Accesskey(s) in this file don't match: suite/chrome/common/pref/pref-download.dtd:
+  playSound.accesskey:  "P" != "s"
+Accesskey(s) in this file don't match: suite/chrome/common/pref/pref-download.dtd:
+  showAlert.accesskey:  "S" != "a"
+
+
