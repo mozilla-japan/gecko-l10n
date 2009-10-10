@@ -1,43 +1,38 @@
-<!ENTITY pref.navigator.title "ブラウザ">
+<!ENTITY pref.navigator.title           "ブラウザ">
 
-<!ENTITY navRadio "右の場合:">
-<!ENTITY navStartPageMenu.label "ブラウザを起動">
-<!ENTITY newWinPageMenu.label "@@NewWindow@@">
-<!ENTITY newTabPageMenu.label "@@NewTab@@を開く">
+<!ENTITY navRadio                       "右の場合:">
+<!ENTITY navRadio.accesskey             "n">
+<!ENTITY navStartPageMenu.label         "ブラウザを起動">
+<!ENTITY newWinPageMenu.label           "@@NewWindow@@">
+<!ENTITY newTabPageMenu.label           "@@NewTab@@を開く">
 
-<!ENTITY blankPageRadio.label "空白ページ">
-<!ENTITY blankPageRadio.accesskey "B">
-<!ENTITY homePageRadio.label "ホームページ">
-<!ENTITY homePageRadio.accesskey "m">
-<!ENTITY lastPageRadio.label "最後に訪問したページ">
-<!ENTITY lastPageRadio.accesskey "L">
+<!ENTITY blankPageRadio.label           "空白ページ">
+<!ENTITY blankPageRadio.accesskey       "B">
+<!ENTITY homePageRadio.label            "ホームページ">
+<!ENTITY homePageRadio.accesskey        "m">
+<!ENTITY lastPageRadio.label            "最後に訪問したページ">
+<!ENTITY lastPageRadio.accesskey        "L">
+<!ENTITY restoreSessionRadio.label      "以前のセッションを復元">
+<!ENTITY restoreSessionRadio.accesskey  "P">
 
-<!ENTITY header2.label "ホームページ">
-<!ENTITY homePageIntro.label "パーソナルツールバーの @@[@@ホーム@@]@@ をクリックするとこのページのグループへ移動します。">
-<!ENTITY useCurrent.label "現在のページを使用する">
-<!ENTITY useCurrent.accesskey "U">
-<!ENTITY useCurrentGroup.label "現在のページのグループを使用する">
-<!ENTITY useCurrentGroup.accesskey "G">
-<!ENTITY browseFile.label "ファイルを選択...">
-<!ENTITY browseFile.accesskey "C">
-<!ENTITY useDefault.label "デフォルトに戻す">
-<!ENTITY useDefault.accesskey "R">
+<!ENTITY header2.label                  "ホームページ">
+<!ENTITY homePageIntro.label            "パーソナルツールバーの @@[@@ホーム@@]@@ をクリックするとこのページのグループへ移動します。">
+<!ENTITY useCurrent.label               "現在のページを使用する">
+<!ENTITY useCurrent.accesskey           "U">
+<!ENTITY useCurrentGroup.label          "現在のページのグループを使用する">
+<!ENTITY useCurrentGroup.accesskey      "G">
+<!ENTITY browseFile.label               "ファイルを選択...">
+<!ENTITY browseFile.accesskey           "C">
+<!ENTITY useDefault.label               "デフォルトに戻す">
+<!ENTITY useDefault.accesskey           "R">
 
-<!ENTITY toolbarIntro.label "ツールバーに表示するボタンを選択してください:">
+<!ENTITY toolbarIntro.label             "ツールバーに表示するボタンを選択してください:">
 
-<!ENTITY navToolbarIntro.label "ナビゲーションツールバー">
-<!ENTITY goButton.label "移動">
-<!ENTITY goButton.accesskey "o">
-<!ENTITY searchButton.label "検索">
-<!ENTITY searchButton.accesskey "S">
-<!ENTITY printButton.label "印刷">
-<!ENTITY printButton.accesskey "P">
-
-<!ENTITY persToolbarIntro.label "パーソナルツールバー">
-<!ENTITY homeButton.label "ホーム">
-<!ENTITY homeButton.accesskey "e">
-<!ENTITY bookmarksButton.label "ブックマーク">
-<!ENTITY bookmarksButton.accesskey "k">
+<!ENTITY navToolbarIntro.label          "ナビゲーションツールバー">
+<!ENTITY goButton.label                 "移動">
+<!ENTITY goButton.accesskey             "o">
+<!ENTITY searchButton.label             "検索">
+<!ENTITY searchButton.accesskey         "S">
 
 <!ENTITY defaultBrowserGroup.label      "@@DefaultBrowser@@">
 <!ENTITY defaultBrowserButton.label     "@@DefaultBrowser@@に設定">
