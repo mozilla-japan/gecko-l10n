@@ -30,7 +30,7 @@
 <!ENTITY playSound.accesskey            "P">
 <!ENTITY showAlert.label                "警告を表示">
 <!ENTITY showAlert.accesskey            "S">
-<!ENTITY browse.label                   "@@Browse@@">
+<!ENTITY browse.label                   "@@Browse@@...">
 <!ENTITY browse.accesskey               "B">
 <!ENTITY preview.label                  "プレビュー">
 <!ENTITY preview.accesskey              "e">
