@@ -3,7 +3,7 @@
 <!--LOCALIZATION NOTE : FILE The 'Scripts & Plug-ins' preferences dialog -->
 <!ENTITY pref.scripts.title "スクリプトとプラグイン">
 
-<!ENTITY navigator.label "Browser">
+<!ENTITY navigator.label "ブラウザ">
 <!ENTITY navigator.accesskey "B">
 
 <!--LOCALIZATION NOTE (enableJavaScript.label): 'JavaScript' should never be translated -->
@@ -19,3 +19,6 @@
 
 <!ENTITY enablePlugin.label "プラグインを有効にする:">
 
+<!ENTITY whenPluginsRequired.label       "プラグインの読込みを要求された時">
+<!ENTITY displayNotification.label       "コンテンツの手前で通知を表示する">
+<!ENTITY displayNotification.accesskey   "N">
