@@ -1,37 +1,37 @@
 <!ENTITY pref.navigator.title           "ブラウザ">
 
-<!ENTITY navRadio                       "右の場合:">
+<!ENTITY navRadio.label                 "次の場合:">
 <!ENTITY navRadio.accesskey             "n">
-<!ENTITY navStartPageMenu.label         "ブラウザを起動">
-<!ENTITY newWinPageMenu.label           "@@NewWindow@@">
-<!ENTITY newTabPageMenu.label           "@@NewTab@@を開く">
+<!ENTITY navStartPageMenu.label         "ブラウザの起動時">
+<!ENTITY newWinPageMenu.label           "@@NewWindow@@を開いたとき">
+<!ENTITY newTabPageMenu.label           "@@NewTab@@を開いたとき">
 
-<!ENTITY blankPageRadio.label           "空白ページ">
+<!ENTITY blankPageRadio.label           "空白ページを表示する">
 <!ENTITY blankPageRadio.accesskey       "B">
-<!ENTITY homePageRadio.label            "ホームページ">
+<!ENTITY homePageRadio.label            "ホームページを表示する">
 <!ENTITY homePageRadio.accesskey        "m">
-<!ENTITY lastPageRadio.label            "最後に訪問したページ">
+<!ENTITY lastPageRadio.label            "最後に訪問したページを表示する">
 <!ENTITY lastPageRadio.accesskey        "L">
-<!ENTITY restoreSessionRadio.label      "以前のセッションを復元">
+<!ENTITY restoreSessionRadio.label      "以前のセッションを復元する">
 <!ENTITY restoreSessionRadio.accesskey  "P">
 
 <!ENTITY header2.label                  "ホームページ">
-<!ENTITY homePageIntro.label            "パーソナルツールバーの @@[@@ホーム@@]@@ をクリックするとこのページのグループへ移動します。">
+<!ENTITY homePageIntro.label            "パーソナルツールバーの @@[@@ホーム@@]@@ をクリックすると、このページのグループを開きます:">
 <!ENTITY useCurrent.label               "現在のページを使用する">
 <!ENTITY useCurrent.accesskey           "U">
 <!ENTITY useCurrentGroup.label          "現在のページのグループを使用する">
 <!ENTITY useCurrentGroup.accesskey      "G">
 <!ENTITY browseFile.label               "ファイルを選択...">
 <!ENTITY browseFile.accesskey           "C">
-<!ENTITY useDefault.label               "デフォルトに戻す">
+<!ENTITY useDefault.label               "初期設定に戻す">
 <!ENTITY useDefault.accesskey           "R">
 
 <!ENTITY toolbarIntro.label             "ツールバーに表示するボタンを選択してください:">
 
 <!ENTITY navToolbarIntro.label          "ナビゲーションツールバー">
-<!ENTITY goButton.label                 "移動">
+<!ENTITY goButton.label                 "移動ボタン">
 <!ENTITY goButton.accesskey             "o">
-<!ENTITY searchButton.label             "検索">
+<!ENTITY searchButton.label             "検索ボタン">
 <!ENTITY searchButton.accesskey         "S">
 
 <!ENTITY defaultBrowserGroup.label      "@@DefaultBrowser@@">
