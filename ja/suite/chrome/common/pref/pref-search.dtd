@@ -16,8 +16,8 @@
 <!ENTITY searchResults.label              "検索結果">
 
 <!ENTITY sidebarSearchTabPref.label       "Sidebar 検索タブの設定">
-<!ENTITY searchModeBasic.label            "シンプル"><!--Basic-->
+<!ENTITY searchModeBasic.label            "通常の検索"><!--Basic-->
 <!ENTITY searchModeBasic.accesskey        "B">
-<!ENTITY searchModeAdvanced.label         "詳細">
+<!ENTITY searchModeAdvanced.label         "複数の検索エンジンで検索">
 <!ENTITY searchModeAdvanced.accesskey     "A">
 
