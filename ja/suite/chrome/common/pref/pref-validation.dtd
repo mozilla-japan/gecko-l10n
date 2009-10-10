@@ -38,7 +38,7 @@
 <!ENTITY  pref.validation.title                   "検証">
 
 <!ENTITY  validation.crl.caption                  "CRL">
-<!ENTITY  validation.crl.description              "CRL マネージャは、あなたの証明書データベースに記録された、証明書失効リスト(CRL) を管理するために使います。">
+<!ENTITY  validation.crl.description              "CRL マネージャは、あなたの証明書データベースに記録された証明書失効リスト (CRL) を管理します。">
 <!ENTITY  validation.managecrls.button            "CRL の管理...">
 <!ENTITY  validation.managecrls.accesskey         "M">
 
