@@ -19,6 +19,6 @@
 
 <!ENTITY enablePlugin.label "プラグインを有効にする:">
 
-<!ENTITY whenPluginsRequired.label       "プラグインの読込みを要求された時">
+<!ENTITY whenPluginsRequired.label       "プラグインの読込みを要求されたとき">
 <!ENTITY displayNotification.label       "コンテンツの手前で通知を表示する">
 <!ENTITY displayNotification.accesskey   "N">
