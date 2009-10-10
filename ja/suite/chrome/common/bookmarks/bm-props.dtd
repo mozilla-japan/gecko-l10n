@@ -42,7 +42,7 @@
 <!ENTITY generalInfo.label            "一般情報">
 <!ENTITY bookmarks.name.label         "名前:">
 <!ENTITY bookmarks.name.accesskey     "N">
-<!ENTITY bookmarks.location.label     "Location:">
+<!ENTITY bookmarks.location.label     "URL:">
 <!ENTITY bookmarks.location.accesskey "L">
 <!ENTITY bookmarks.shortcut.label     "キーワード:">
 <!ENTITY bookmarks.shortcut.accesskey "K">
