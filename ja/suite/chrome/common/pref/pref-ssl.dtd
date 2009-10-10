@@ -55,8 +55,6 @@
 <!ENTITY warn.insecurepost.accesskey        "S">
 <!ENTITY warn.leavingsecure                 "暗号化されたページから離れるとき">
 <!ENTITY warn.leavingsecure.accesskey       "a">
-<!ENTITY warn.secureredirect                "暗号化されたページからほかのページにリダイレクトするとき">
-<!ENTITY warn.secureredirecttoinsecure      "暗号化されたページから暗号化されていないページにリダイレクトするとき">
 <!ENTITY warn.viewmixed                     "暗号化 / 非暗号化されたページが混在するとき">
 <!ENTITY warn.viewmixed.accesskey           "V">
 
@@ -65,4 +63,3 @@
 <!ENTITY certselect.auto.accesskey          "A">
 <!ENTITY certselect.ask                     "毎回確認する">
 <!ENTITY certselect.ask.accesskey           "E">
-

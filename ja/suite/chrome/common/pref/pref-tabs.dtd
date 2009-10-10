@@ -1,25 +1,28 @@
-<!ENTITY autoHide.accesskey "d">
+<!ENTITY tabHeader.label "タブブラウズ">
+<!ENTITY tabDisplay.label "タブ表示">
 <!ENTITY autoHide.label "開くタブが 1 つだけのとき、タブバーを隠す">
-<!ENTITY background.accesskey "S">
+<!ENTITY autoHide.accesskey "d">
 <!ENTITY background.label "@@NewTab@@を@@Front@@に表示 (リンクを開いたとき)">
-<!ENTITY external.label "他のアプリケーションから開かれたリンクの処理">
-<!ENTITY externalDescription.label "他のアプリケーションから開かれたリンクを">
-<!ENTITY externalGroupCurrent.accesskey "u">
-<!ENTITY externalGroupTab.accesskey "e">
-<!ENTITY externalGroupWindow.accesskey "o">
+<!ENTITY background.accesskey "S">
+<!ENTITY warnOnClose.label "同時に複数のタブを閉じるとき警告する">
+<!ENTITY warnOnClose.accesskey "n">
 <!ENTITY loadGroup.label "ブックマークグループを開くときの処理">
-<!ENTITY loadGroupAppend.accesskey "A">
 <!ENTITY loadGroupAppend.label "タブを追加して開く">
-<!ENTITY loadGroupReplace.accesskey "R">
+<!ENTITY loadGroupAppend.accesskey "A">
 <!ENTITY loadGroupReplace.label "すべてのタブを置き換える">
+<!ENTITY loadGroupReplace.accesskey "R">
+<!ENTITY openTab.label "現在の@@Window@@で@@NewTab@@として開く">
+
 <!ENTITY newWindow.label "リンクの開き方">
 <!ENTITY newWindowDescription.label "本来は新しい@@Window@@で開くリンクを">
-<!ENTITY newWindowGroupCurrent.accesskey "c">
-<!ENTITY newWindowGroupTab.accesskey "t">
-<!ENTITY newWindowGroupWindow.accesskey "w">
+<!ENTITY external.label "他のアプリケーションから開かれたリンクの処理">
+<!ENTITY externalDescription.label "他のアプリケーションから開かれたリンクを">
 <!ENTITY openCurrent.label "現在のタブまたは@@Window@@で開く">
-<!ENTITY openTab.label "現在の@@Window@@で@@NewTab@@として開く">
+<!ENTITY newWindowGroupCurrent.accesskey "c">
+<!ENTITY externalGroupCurrent.accesskey "u">
 <!ENTITY openTabs.label "@@Window@@の代わりにタブを開く場合">
+<!ENTITY newWindowGroupTab.accesskey "t">
+<!ENTITY externalGroupTab.accesskey "e">
 <!ENTITY openWindow.label "新しい@@Window@@で開く">
-<!ENTITY tabDisplay.label "タブ表示">
-<!ENTITY tabHeader.label "タブブラウズ">
+<!ENTITY newWindowGroupWindow.accesskey "w">
+<!ENTITY externalGroupWindow.accesskey "o">
