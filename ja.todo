@@ -55,3 +55,18 @@ tooyama さんへ:
   /suite/chrome/mozldap/
 	ldap.properties
 
+SeaMonkey 2.0 確認された問題点
+設定
+カラー設定一部未訳あり
+mailnews 関連設定未訳 -> とりあえず、これから着手
+
+ブラウザ
+ツール - パスワードマネージャ - Log Out
+表示 - Zoom (置換されていない?)
+
+アドレス帳
+表示 - Sort by
+ツール - Searcth Addresses
+
+SeaMonkey Mail
+UI日本語化されていない
