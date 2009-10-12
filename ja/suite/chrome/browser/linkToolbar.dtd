@@ -52,7 +52,7 @@
 <!ENTITY topButton.label "トップ">
 <!ENTITY upButton.label "上へ">
 <!ENTITY firstButton.label "最初">
-<!ENTITY prevButton.label "前">
+<!ENTITY prevButton.label "前へ">
 <!ENTITY nextButton.label "次へ">
 <!ENTITY lastButton.label "最後">
 

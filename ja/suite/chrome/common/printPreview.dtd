@@ -28,7 +28,7 @@
 <!ENTITY portrait.accesskey "o">
 <!ENTITY portrait.label "縦">
 <!ENTITY print.accesskey "P">
-<!ENTITY print.label "印刷...">
+<!ENTITY print.label "@@Print@@...">
 <!ENTITY rightarrow.tooltip "次のページ">
 <!ENTITY scale.accesskey "S">
 <!ENTITY scale.label "@@Zoom@@:">
