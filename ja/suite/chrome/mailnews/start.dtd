@@ -55,12 +55,10 @@
 <!ENTITY dict_intro.label "辞書機能を使えば、あなたのメールのスペルチェックを行うことができます。">
 <!--# LOCALIZATION NOTE (dict_info.label): the URL for <a id="dictURL"> is fetched from brand.properties -->
 <!ENTITY dict_info.label
-'Many additional languages can be installed from the
-<a id="dictURL" href="">dictionaries</a> section on
-<a href="https://addons.mozilla.org/seamonkey/">Mozilla Add-ons</a>.'>
+'多くの <a id="dictURL" href="">スペルチェック辞書</a> は
+<a href="https://addons.mozilla.org/seamonkey/">Mozilla Add-ons</a> からダウンロードできます。'>
 <!ENTITY info.title "More Information">
 <!--# LOCALIZATION NOTE (info_bugs.label): the URL for <a id="releaseNotesURL"> is fetched from brand.properties -->
 <!ENTITY info_bugs.label
-'<a href="http://www.mozilla.org/mailnews/">We</a> welcome bug reports and feature
-requests, but please read the <a id="releaseNotesURL" href="">release notes</a> and query
-<a href="https://bugzilla.mozilla.org/query.cgi">Bugzilla</a> first.'>
+'<a href="http://www.mozilla.org/mailnews/">私たち</a> はバグレポートやリクエストを歓迎しています。
+しかし、<a href="https://bugzilla.mozilla.org/query.cgi">Bugzilla</a> にバグレポートを出す前に、<a id="releaseNotesURL" href="">リリースノート</a> を確認してください。'>
