@@ -270,7 +270,7 @@
 
 <!ENTITY viewAttachmentsInlineCmd.label         "添付をインラインで表示">
 <!ENTITY viewAttachmentsInlineCmd.accesskey     "A">
-<!ENTITY reloadCmd.label                        "再読込">
+<!ENTITY reloadCmd.label                        "再読み込み">
 <!ENTITY reloadCmd.accesskey                    "R">
 <!ENTITY stopCmd.label                          "中止">
 <!ENTITY stopCmd.accesskey                      "S">
