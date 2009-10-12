@@ -20,7 +20,7 @@
  the Initial Developer. All Rights Reserved.
 
  Contributor(s):
-    Karsten Dusterloh <mnyromyr@tprac.de>
+    Karsten Düsterloh <mnyromyr@tprac.de>
     Jeremy Morton <bugzilla@game-point.net>
 
  Alternatively, the contents of this file may be used under the terms of
@@ -37,27 +37,27 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY messengerWindow.title                 "メール &amp; ニュースグループ">
+<!ENTITY messengerWindow.title                 "メールとニュースグループ">
 <!ENTITY titleModifier.label                   "&brandShortName;">
 <!ENTITY titleSeparator.label                  " - ">
 
 <!-- tabmail -->
 <!ENTITY tabmailClose.label                    "タブを閉じる">
-<!ENTITY tabmailClose.tooltip                  "タブを閉じる">
-<!ENTITY tabmailNewButton.tooltip              "このタブを複製">
-<!ENTITY tabmailCloseButton.tooltip            "このタブを閉じる">
-<!ENTITY tabmailAllTabs.tooltip                "すべてのタブをリスト化"><!--List all tabs-->
+<!ENTITY tabmailClose.tooltip                  "タブを閉じます">
+<!ENTITY tabmailNewButton.tooltip              "このタブを複製します">
+<!ENTITY tabmailCloseButton.tooltip            "現在のタブを閉じます">
+<!ENTITY tabmailAllTabs.tooltip                "タブを一覧表示します">
 
 <!-- menu items:  the . means that the menu item isn't implemented yet -->
 
 <!-- File menu items -->
-<!ENTITY newMessage.label                      "新しいメッセージ">
+<!ENTITY newMessage.label                      "@@New-CMD@@メッセージ">
 <!ENTITY newMessage.accesskey                  "N">
 <!ENTITY newFolderCmd.label                    "フォルダ...">
 <!ENTITY newFolderCmd.accesskey                "F">
 <!ENTITY newVirtualFolderCmd.label             "検索フォルダ...">
 <!ENTITY newVirtualFolderCmd.accesskey         "S">
-<!ENTITY newTabCmd.label                       "タブの複製">
+<!ENTITY newTabCmd.label                       "タブを複製">
 <!ENTITY newTabCmd.accesskey                   "T">
 <!ENTITY newTabCmd.key                         "t">
 <!ENTITY closeTabCmd.label                     "タブを閉じる">
@@ -97,7 +97,7 @@
 <!ENTITY emptyTrashCmd.label                   "@@TrashFolder@@を空にする">
 <!ENTITY emptyTrashCmd.accesskey               "y">
 <!ENTITY offlineMenu.label                     "オフライン">
-<!ENTITY offlineMenu.accesskey "l">
+<!ENTITY offlineMenu.accesskey                 "l">
 <!ENTITY synchronizeOfflineCmd.label           "今すぐダウンロードして同期...">
 <!ENTITY synchronizeOfflineCmd.accesskey       "S">
 <!ENTITY settingsOfflineCmd.label              "オフライン設定...">
@@ -142,7 +142,7 @@
 <!ENTITY folderPropsFolderCmd.label            "フォルダの@@PropertyCMD@@...">
 <!ENTITY folderPropsNewsgroupCmd.label         "ニュースグループの@@PropertyCMD@@...">
 <!ENTITY folderPropsCmd.accesskey              "o">
-<!ENTITY accountManagerCmd.label               "メール &amp; ニュースグループのアカウント設定...">
+<!ENTITY accountManagerCmd.label               "メールとニュースグループのアカウント設定...">
 <!ENTITY accountManagerCmd.accesskey           "M">
 <!ENTITY undoDeleteMsgCmd.label                "@@Undo@@ - メッセージの削除">
 <!ENTITY redoDeleteMsgCmd.label                "@@Redo@@ - メッセージの削除">
@@ -160,7 +160,7 @@
 <!ENTITY showMessengerToolbarCmd.accesskey     "o">
  
 <!-- showSearchToolbarCmd is also used by addressbook -->
-<!ENTITY showSearchToolbarCmd.label            "検索ツールバー">
+<!ENTITY showSearchToolbarCmd.label            "検索バー">
 <!ENTITY showSearchToolbarCmd.accesskey        "e">
 
 <!ENTITY showLocationToolbarCmd.label          "ロケーションツールバー">
@@ -231,7 +231,7 @@
 <!ENTITY allMsgsCmd.accesskey                  "A">
 <!ENTITY expandAllThreadsCmd.label             "すべてのスレッドを広げる">
 <!ENTITY expandAllThreadsCmd.accesskey         "E">
-<!ENTITY expandAllThreadsCmd.key "*">
+<!ENTITY expandAllThreadsCmd.key               "*">
 <!ENTITY collapseAllThreadsCmd.label           "すべてのスレッドをたたむ">
 <!ENTITY collapseAllThreadsCmd.accesskey       "C">
 <!ENTITY collapseAllThreadsCmd.key             "\">
@@ -413,7 +413,7 @@
 <!ENTITY markAllReadCmd.label                   "すべてを既読にする">
 <!ENTITY markAllReadCmd.accesskey               "A">
 <!ENTITY markAllReadCmd.key                     "c">
-<!ENTITY markFlaggedCmd.label                   "スターをつける">
+<!ENTITY markFlaggedCmd.label                   "スターを付ける">
 <!ENTITY markFlaggedCmd.accesskey               "F">
 <!ENTITY markFlaggedCmd.key                     "i">
 <!ENTITY markAsJunkCmd.label                    "迷惑メールとしてマーク">
@@ -471,7 +471,7 @@
 <!-- Toolbar items -->
 <!ENTITY getMsgButton.label                  "受信">
 <!ENTITY newMsgButton.label                  "作成">
-<!ENTITY newHTMLMessageCmd.label             "HTML形式で作成">
+<!ENTITY newHTMLMessageCmd.label             "HTML 形式で作成">
 <!ENTITY newHTMLMessageCmd.accesskey         "H">
 <!ENTITY newPlainTextMessageCmd.label        "テキスト形式で作成">
 <!ENTITY newPlainTextMessageCmd.accesskey    "P">
@@ -492,8 +492,8 @@
 
 <!-- Tooltips -->
 <!ENTITY menuBar.tooltip                    "メニューバー">
-<!ENTITY mailToolbar.tooltip                "メール ツールバー">
-<!ENTITY locationToolbar.tooltip            "ロケーション ツールバー">
+<!ENTITY mailToolbar.tooltip                "メールツールバー">
+<!ENTITY locationToolbar.tooltip            "ロケーションツールバー">
 <!ENTITY advancedButton.tooltip             "メッセージを詳細に検索します">
 <!ENTITY getMsgButton.tooltip               "メッセージを受信します">
 <!ENTITY newMsgButton.tooltip               "@@New-CMD@@メッセージを作成します">
@@ -510,7 +510,7 @@
 <!ENTITY markButton.tooltip                 "メッセージにマークを付けます">
 <!ENTITY printButton.tooltip                "メッセージを@@Print@@します">
 <!ENTITY stopButton.tooltip                 "送受信処理を中止します">
-<!ENTITY throbber.tooltip                   "&vendorShortName; ホームページに移動します">
+<!ENTITY throbber.tooltip                   "&vendorShortName; のホームページに移動します">
 <!ENTITY junkButton.tooltip                 "メッセージに迷惑マークを付けます">
 <!ENTITY notJunkButton.tooltip              "メッセージの迷惑マークを外します">
 
@@ -522,7 +522,7 @@
 <!ENTITY contextOpenNewWindow.accesskey           "W">
 <!ENTITY contextOpenNewTab.label                  "メッセージを@@NewTab@@で開く">
 <!ENTITY contextOpenNewTab.accesskey              "T">
-<!ENTITY contextEditAsNew.label                   "新しく編集...">
+<!ENTITY contextEditAsNew.label                   "コピーして編集...">
 <!ENTITY contextEditAsNew.accesskey               "E">
 <!ENTITY contextArchive.label                     "アーカイブ">
 <!ENTITY contextArchive.accesskey                 "A">
@@ -554,7 +554,7 @@
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label            "メッセージを取得する">
 <!ENTITY folderContextGetMessages.accesskey        "G">
-<!ENTITY folderContextOpenNewWindow.label          "新しいメール@@Window@@で開く">
+<!ENTITY folderContextOpenNewWindow.label          "@@New-CMD@@メール@@Window@@で開く">
 <!ENTITY folderContextOpenNewWindow.accesskey      "W">
 <!ENTITY folderContextOpenNewTab.label             "@@NewTab@@で開く">
 <!ENTITY folderContextOpenNewTab.accesskey         "T">
@@ -576,35 +576,35 @@
 <!ENTITY folderContextMarkNewsgroupRead.accesskey  "k">
 <!ENTITY folderContextMarkMailFolderRead.label     "フォルダ内を既読にする">
 <!ENTITY folderContextMarkMailFolderRead.accesskey "k">
-<!ENTITY folderContextNew.label                    "新しいサブフォルダ...">
+<!ENTITY folderContextNew.label                    "@@New-CMD@@サブフォルダ...">
 <!ENTITY folderContextNew.accesskey                "N">
 <!ENTITY folderContextSubscribe.label              "購読...">
 <!ENTITY folderContextSubscribe.accesskey          "b">
 <!ENTITY folderContextSearchMessages.label         "メッセージの検索...">
 <!ENTITY folderContextSearchMessages.accesskey     "S">
 <!ENTITY folderContextProperties.label             "@@PropertyCMD@@...">
-<!ENTITY folderContextProperties.accesskey "P">
-<!ENTITY folderContextSettings.label "設定...">
-<!ENTITY folderContextSettings.accesskey "e">
+<!ENTITY folderContextProperties.accesskey         "P">
+<!ENTITY folderContextSettings.label               "設定...">
+<!ENTITY folderContextSettings.accesskey           "e">
 
 <!-- focusSearchInput.key also used by addressbook -->
 <!ENTITY focusSearchInput.key             "k">
 <!ENTITY searchSubjectOrAddress.emptytext "件名もしくはアドレスを検索">
 <!ENTITY advancedButton.label             "詳細...">
-<!ENTITY advancedButton.accesskey        "A">
+<!ENTITY advancedButton.accesskey         "A">
 
 <!ENTITY all.label     "すべて">
 <!ENTITY all.accesskey "A">
 
 <!-- Junk Bar -->
-<!ENTITY junkBarMessage.label  "&brandShortName; はこのメールを迷惑メールと判定しました。">
-<!ENTITY junkBarButton.label   "非迷惑メールです">
-<!ENTITY junkInfoButton.label  "?">
+<!ENTITY junkBarMessage.label  "このメールは迷惑メールの可能性があります。">
+<!ENTITY junkBarButton.label   "迷惑メールではありません">
+<!ENTITY junkInfoButton.label  "？">
 
 <!-- Remote Content Bar -->
-<!ENTITY remoteContentMessage.label       "プライバシー保護のため、&brandShortName; はメールのリモートコンテンツの表示をブロックしました。">
+<!ENTITY remoteContentMessage.label       "プライバシー保護のため、このメッセージ内のリモートコンテンツをブロックしました。">
 <!ENTITY loadRemoteContentButton.label    "リモートコンテンツを表示">
 
 <!-- Phishing Bar -->
-<!ENTITY phishingBarMessage.label         "&brandShortName; はこのメールをフィッシングメールと判定しました。">
-<!ENTITY removePhishingBarButton.label    "このメールは非フィッシングメールです">
+<!ENTITY phishingBarMessage.label         "このメールは詐欺メールの可能性があります。">
+<!ENTITY removePhishingBarButton.label    "詐欺メールではありません">
