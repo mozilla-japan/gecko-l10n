@@ -20,7 +20,7 @@
 <!ENTITY visitedLinkColor.label            "訪問したリンク:">
 <!ENTITY visitedLinkColor.accesskey        "V">
 <!-- LOCALIZATION NOTE (someProvColors): This is the start of a sentence and will be followed by the following radio buttons. -->
-<!ENTITY someProvColors                    "When a web page provides its own colors and background">
+<!ENTITY someProvColors                    "Web ページが独自の@@Colors@@と背景を提供する場合">
 <!-- LOCALIZATION NOTE (alwaysUseDocColors.label): This is option one, and it appends to 'someProvColors' above. -->
 <!ENTITY alwaysUseDocumentColors.label     "常に Web ページで指定された@@Colors@@と背景@@Color@@を使用する">
 <!ENTITY alwaysUseDocumentColors.accesskey "A">

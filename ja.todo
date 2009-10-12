@@ -52,12 +52,10 @@ tooyama さんへ:
 	pref-viewing_messages.dtd
 	replicationProgress.properties ->何の画面か要確認(何を複製すると出るのか) -> LDAP のアドレス帳です。 /mail/chrome/messenger/addressbook/replicationProgress.properties からコピペすれば良いです。
 # mailnews については、既に /mail 側に全く同じかほぼ同じものがある場合が多いので、うまくコピペすると楽です。
-  /suite/chrome/mozldap/
-	ldap.properties
 
 SeaMonkey 2.0 確認された問題点
 設定
-カラー設定一部未訳あり
+カラー設定一部未訳あり -> done by mar
 mailnews 関連設定未訳 -> とりあえず、これから着手
 
 ブラウザ
@@ -69,4 +67,4 @@ mailnews 関連設定未訳 -> とりあえず、これから着手
 ツール - Searcth Addresses
 
 SeaMonkey Mail
-UI日本語化されていない
+UI日本語化されていない -> messenger.dtd
