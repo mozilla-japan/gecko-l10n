@@ -17,7 +17,7 @@
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
 <!ENTITY goBackCmd.label "戻る">
 <!ENTITY goBackCmd.accesskey "B">
-<!ENTITY goForwardCmd.label "次へ">
+<!ENTITY goForwardCmd.label "進む">
 <!ENTITY goForwardCmd.accesskey "F">
 <!ENTITY goUpCmd.label "上へ">
 <!ENTITY goUpCmd.accesskey "U">

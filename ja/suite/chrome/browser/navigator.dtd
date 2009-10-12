@@ -34,9 +34,9 @@
 
 <!ENTITY printSetupCmd.label "ページ設定...">
 <!ENTITY printSetupCmd.accesskey "u">
-<!ENTITY printPreviewCmd.label "印刷プレビュー">
+<!ENTITY printPreviewCmd.label "@@Print@@プレビュー">
 <!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "印刷...">
+<!ENTITY printCmd.label "@@Print@@...">
 <!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.commandkey "p">
 
@@ -131,9 +131,9 @@
 
 <!-- Toolbar items --> 
 <!ENTITY backButton.label             "戻る">
-<!ENTITY backButton.tooltip           "ひとつ前のページに戻る">
-<!ENTITY forwardButton.label          "次へ">
-<!ENTITY forwardButton.tooltip        "一つ先のページへ進む">
+<!ENTITY backButton.tooltip           "前のページへ戻る">
+<!ENTITY forwardButton.label          "進む">
+<!ENTITY forwardButton.tooltip        "次のページへ進む">
 <!ENTITY reloadButton.label           "再読み込み">
 <!ENTITY reloadButton.tooltip         "現在のページを再読み込みする">
 <!ENTITY stopButton.label             "中止">
@@ -142,8 +142,8 @@
 <!ENTITY searchButton.tooltip         "左の領域に単語を入力し、@@[@@検索@@]@@ をクリックしてください">
 <!ENTITY goButton.label               "移動">
 <!ENTITY goButton.tooltip             "左の領域に URL を入力し、@@[@@移動@@]@@ をクリックしてください">
-<!ENTITY printButton.label            "印刷">
-<!ENTITY printButton.tooltip          "このページを印刷する">
+<!ENTITY printButton.label            "@@Print@@">
+<!ENTITY printButton.tooltip          "このページを@@Print@@する">
 
 <!ENTITY throbber.tooltip             "&vendorShortName; のホームページに移動">
 
