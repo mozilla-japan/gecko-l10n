@@ -50,7 +50,7 @@
 <!ENTITY feat_abook.label "アドレス帳">
 <!ENTITY feat_labels.label "カスタマイズ可能なラベルとメールの表示">
 <!ENTITY feat_integration.label
-"Tight integration with the &brandShortName; application suite との完全な統合">
+"&brandShortName; Application Suite との完全な統合">
 <!ENTITY dict.title "辞書">
 <!ENTITY dict_intro.label "辞書機能を使えば、あなたのメールのスペルチェックを行うことができます。">
 <!--# LOCALIZATION NOTE (dict_info.label): the URL for <a id="dictURL"> is fetched from brand.properties -->
