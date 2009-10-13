@@ -19,7 +19,7 @@ tooyama さんへ:
 	FilterListDialog.dtd
 	folderProps.dtd
 	gloda.properties
-	imapMsgs.properties
+	imapMsgs.properties ->r.517/但todo有
 	mime.properties
 	news.properties
 	offline.properties
@@ -62,3 +62,18 @@ mailnews 関連設定未訳 -> とりあえず、これから着手
 
 SeaMonkey Mail
 UI日本語化されていない -> messenger.dtd ->r.503,504
+
+Tb と書式が異なるのですが、どうすれば良いのでしょうか?
+(それ以外の項目は訳済み。)
+
+/suite/chrome/mailnews/localMsgs.properties
+/mail/chrome/messenger/localMsgs.properties
+以下の2行が Tb とちょっと違う気がするのですが、どう訳せばいいのでしょうか?
+
+## @name COPYING_MSGS_STATUS
+## @loc None
+4027= Copying %S of %S messages to %S
+
+## @name MOVING_MSGS_STATUS
+## @loc None
+4028= Moving %S of %S messages to %S
