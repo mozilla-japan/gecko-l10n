@@ -65,7 +65,7 @@
 <!ENTITY retentionKeepRecent.accesskey           "n">
 <!-- LOCALIZATION NOTE: Unhide with .keepUnreadOnly { display: -moz-box; } -->
 <!ENTITY retentionKeepUnreadHidden.label         "既読のメッセージは常に削除する (最優先)">
-<!ENTITY retentionApplyToFlagged.label           "スター付きのメッセージは残す">
+<!ENTITY retentionApplyToFlagged.label           "フラグ付きのメッセージは残す">
 <!ENTITY retentionApplyToFlagged.accesskey       "e">
 
 <!ENTITY folderSynchronizationTab.label          "同期">

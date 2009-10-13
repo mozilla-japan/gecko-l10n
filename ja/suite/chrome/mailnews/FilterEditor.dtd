@@ -27,7 +27,7 @@
     Gayatri Bhimaraju <gayatrib@netscape.com>
     Stephen Donner <stephend@netscape.com>
     Gervase Markham <gervase.markham@univ.ox.ac.uk>
-    Hakan Waara <hwaara@chello.se>
+    Håkan Waara <hwaara@chello.se>
     Navin Gupta <naving@netscape.com>
     David Bienvenu <bienvenu@netscape.com>
     Sean Su <ssu@netscape.com>
@@ -36,7 +36,7 @@
     Howard Chu <hyc@symas.com>
     Mark Banner <mark@standard8.demon.co.uk>
     Mike Shaver <shaver@mozilla.org>
-    Karsten Dusterloh <mnyromyr@tprac.de>
+    Karsten Düsterloh <mnyromyr@tprac.de>
 
  Alternatively, the contents of this file may be used under the terms of
  either of the GNU General Public License Version 2 or later (the "GPL"),
@@ -81,10 +81,10 @@
 <!ENTITY moveMessage.label           "メッセージを移動する">
 <!ENTITY copyMessage.label           "メッセージをコピーする">
 <!ENTITY forwardTo.label             "メッセージを転送する">
-<!ENTITY replyWithTemplate.label     "テンプレートを使って返信">
+<!ENTITY replyWithTemplate.label     "テンプレートを使用して返信する">
 <!ENTITY markMessageRead.label       "メッセージを既読にする">
-<!ENTITY markMessageStarred.label    "メッセージにスターを付ける">
-<!ENTITY labelMessage.label          "メッセージにラベルをつける"><!--Label Message As-->
+<!ENTITY markMessageStarred.label    "メッセージにフラグを付ける">
+<!ENTITY labelMessage.label          "メッセージにラベルを付ける"><!--Label Message As-->
 <!ENTITY setPriority.label           "重要度を設定する">
 <!ENTITY addTag.label                "メッセージにタグを付ける">
 <!ENTITY setJunkScore.label          "迷惑メールかどうか設定する">
