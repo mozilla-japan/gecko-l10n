@@ -17,7 +17,7 @@ tooyama さんへ:
 	filter.properties
 	FilterEditor.dtd
 	FilterListDialog.dtd
-	folderProps.dtd
+	folderProps.dtd ->r.519
 	gloda.properties
 	imapMsgs.properties ->r.517/但todo有
 	mime.properties
@@ -25,7 +25,7 @@ tooyama さんへ:
 	offline.properties
 	outlookImportMsgs.properties
 	search-attributes.properties
-	start.dtd
+	start.dtd ->r.514/516fix
 	textImportMsgs.properties
 	threadpane.dtd
 	vcard.properties
