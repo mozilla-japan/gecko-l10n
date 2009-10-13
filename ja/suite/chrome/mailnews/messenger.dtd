@@ -104,7 +104,7 @@
 <!ENTITY settingsOfflineCmd.accesskey          "e">
 <!ENTITY downloadSelectedCmd.label             "選択したメッセージを受信">
 <!ENTITY downloadSelectedCmd.accesskey         "t">
-<!ENTITY downloadFlaggedCmd.label              "スターを付けたメッセージを受信">
+<!ENTITY downloadFlaggedCmd.label              "フラグを付けたメッセージを受信">
 <!ENTITY downloadFlaggedCmd.accesskey          "G">
 <!ENTITY printCmd.label                        "@@Print@@...">
 <!ENTITY printCmd.accesskey                    "P">
@@ -136,7 +136,7 @@
 <!ENTITY selectThreadCmd.label                 "スレッド">
 <!ENTITY selectThreadCmd.accesskey             "T">
 <!ENTITY selectThreadCmd.key                   "a">
-<!ENTITY selectFlaggedCmd.label                "スター付きメッセージ">
+<!ENTITY selectFlaggedCmd.label                "フラグ付きメッセージ">
 <!ENTITY selectFlaggedCmd.accesskey            "F">
 <!ENTITY folderPropsCmd.label                  "@@PropertyCMD@@...">
 <!ENTITY folderPropsFolderCmd.label            "フォルダの@@PropertyCMD@@...">
@@ -189,7 +189,7 @@
 <!ENTITY sortByDateCmd.accesskey               "e">
 <!ENTITY sortByReceivedCmd.label               "受信日時">
 <!ENTITY sortByReceivedCmd.accesskey           "v">
-<!ENTITY sortByFlagCmd.label                   "スター">
+<!ENTITY sortByFlagCmd.label                   "フラグ">
 <!ENTITY sortByFlagCmd.accesskey               "l">
 <!ENTITY sortByPriorityCmd.label               "重要度">
 <!ENTITY sortByPriorityCmd.accesskey           "P">
@@ -302,7 +302,7 @@
 <!ENTITY nextUnreadMsgCmd.label                 "未読メッセージ">
 <!ENTITY nextUnreadMsgCmd.accesskey             "U">
 <!ENTITY nextUnreadMsgCmd.key                   "n">
-<!ENTITY nextFlaggedMsgCmd.label                "スター付きメッセージ">
+<!ENTITY nextFlaggedMsgCmd.label                "フラグ付きメッセージ">
 <!ENTITY nextFlaggedMsgCmd.accesskey            "F">
 <!ENTITY nextUnreadThread.label                 "未読スレッド">
 <!ENTITY nextUnreadThread.accesskey             "T">
@@ -321,7 +321,7 @@
 <!ENTITY goForwardCmd.label                     "進む">
 <!ENTITY goForwardCmd.accesskey                 "F">
 <!ENTITY goForwardCmd.commandKey                "]">
-<!ENTITY prevFlaggedMsgCmd.label                "スター付きメッセージ">
+<!ENTITY prevFlaggedMsgCmd.label                "フラグ付きメッセージ">
 <!ENTITY prevFlaggedMsgCmd.accesskey            "F">
 <!ENTITY startPageCmd.label                     "Mail スタートページ">
 <!ENTITY startPageCmd.accesskey                 "S">
@@ -413,7 +413,7 @@
 <!ENTITY markAllReadCmd.label                   "すべてを既読にする">
 <!ENTITY markAllReadCmd.accesskey               "A">
 <!ENTITY markAllReadCmd.key                     "c">
-<!ENTITY markFlaggedCmd.label                   "スターを付ける">
+<!ENTITY markFlaggedCmd.label                   "フラグを付ける">
 <!ENTITY markFlaggedCmd.accesskey               "F">
 <!ENTITY markFlaggedCmd.key                     "i">
 <!ENTITY markAsJunkCmd.label                    "迷惑メールとしてマーク">
