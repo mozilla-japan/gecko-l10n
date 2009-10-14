@@ -14,21 +14,24 @@ tooyama さんへ:
 
 未訳リスト(mailnews 直下のファイルのみ)
   /suite/chrome/mailnews/
-	filter.properties
-	FilterEditor.dtd
-	FilterListDialog.dtd
-	folderProps.dtd ->r.519
-	gloda.properties
-	imapMsgs.properties ->r.517/521fixed
-	mime.properties
 	news.properties
-	offline.properties
-	outlookImportMsgs.properties
 	search-attributes.properties
-	start.dtd ->r.514/516fixed
 	textImportMsgs.properties
 	threadpane.dtd
 	vcard.properties
+	
+../mailnews/ Fixed
+	folderProps.dtd ->r.519
+	gloda.properties ->r.525
+	imapMsgs.properties ->r.517/521fixed
+	mime.properties ->r.525
+	offline.properties ->r.513
+	outlookImportMsgs.properties ->r.525
+	start.dtd ->r.514/516fixed
+	filter.properties ->r.510
+	FilterEditor.dtd ->r.510
+	FilterListDialog.dtd ->r.510
+
   /suite/chrome/mailnews/pref/
 	pref-addressing.dtd
 	pref-character_encoding.dtd
