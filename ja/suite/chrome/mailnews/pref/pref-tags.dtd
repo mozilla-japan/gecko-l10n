@@ -20,7 +20,7 @@
    -
    - Contributor(s):
    -   Sean Su <ssu@netscape.com>
-   -   Karsten Düsterloh <mnyromyr@tprac.de>
+   -   Karsten D端sterloh <mnyromyr@tprac.de>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -36,19 +36,19 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY pref.tags.title            "Tags">
-<!ENTITY pref.tags.caption          "Customize Tags">
-<!ENTITY pref.tags.description      "Tags can be used to categorize and prioritize your messages. Modify the appearance and importance of tags using the settings below. Tags near the top are more important than those further down.">
-<!ENTITY tagColumn.label            "Tag">
-<!ENTITY colorColumn.label          "Color">
-<!ENTITY defaultTagName.label       "Untitled Tag">
-<!ENTITY addTagButton.label         "Add">
+<!ENTITY pref.tags.title            "タグ">
+<!ENTITY pref.tags.caption          "タグのカスタマイズ">
+<!ENTITY pref.tags.description      "あなたのメッセージを分類して、メッセージの優先順位をつけるためにタグを使用できます。以下でタグの概観と重要度を設定してください。">
+<!ENTITY tagColumn.label            "タグ">
+<!ENTITY colorColumn.label          "カラー">
+<!ENTITY defaultTagName.label       "無題のタグ">
+<!ENTITY addTagButton.label         "追加">
 <!ENTITY addTagButton.accesskey     "A">
-<!ENTITY deleteTagButton.label      "Delete">
+<!ENTITY deleteTagButton.label      "削除">
 <!ENTITY deleteTagButton.accesskey  "D">
-<!ENTITY raiseTagButton.label       "Raise Importance">
+<!ENTITY raiseTagButton.label       "重要度を上げる">
 <!ENTITY raiseTagButton.accesskey   "R">
-<!ENTITY lowerTagButton.label       "Lower Importance">
+<!ENTITY lowerTagButton.label       "重要度を下げる">
 <!ENTITY lowerTagButton.accesskey   "L">
-<!ENTITY restoreButton.label        "Restore Defaults">
+<!ENTITY restoreButton.label        "@@Defaults@@に戻す">
 <!ENTITY restoreButton.accesskey    "s">
