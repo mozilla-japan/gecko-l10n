@@ -107,5 +107,5 @@
 <!ENTITY deferStorageDesc.label "共通受信トレイを使用するアカウントのメールはすべてまとめて保存されます。このアカウントで送受信するメールを個別のディレクトリに分けて保存する場合はチェックを外してください。"><!-- en-US: "Check this checkbox to store mail for this account in the Local Folders Global Inbox. Otherwise the account appears as a top-level account and its mail is stored in its own directory." -->
 <!ENTITY deferStorage.label "共通受信トレイを使用する (&quot;ローカルフォルダ&quot; にメールを保存します)">
 <!ENTITY deferStorage.accesskey "G">
-<!ENTITY clickFinish.label "@@[@@終了@@]@@ をクリックすると設定を保存してアカウントを作成します。">
+<!ENTITY clickFinish.label "@@[@@完了@@]@@ をクリックすると設定を保存してアカウントを作成します。">
 <!ENTITY clickFinish.labelMac "@@[@@完了@@]@@ をクリックすると設定を保存してアカウントを作成します。">

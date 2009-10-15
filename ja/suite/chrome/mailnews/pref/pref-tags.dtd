@@ -20,7 +20,7 @@
    -
    - Contributor(s):
    -   Sean Su <ssu@netscape.com>
-   -   Karsten D端sterloh <mnyromyr@tprac.de>
+   -   Karsten Düsterloh <mnyromyr@tprac.de>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -38,10 +38,10 @@
 
 <!ENTITY pref.tags.title            "タグ">
 <!ENTITY pref.tags.caption          "タグのカスタマイズ">
-<!ENTITY pref.tags.description      "あなたのメッセージを分類して、メッセージの優先順位をつけるためにタグを使用できます。以下でタグの概観と重要度を設定してください。">
+<!ENTITY pref.tags.description      "タグは、メッセージを分類して優先順位をつけるために使用されます。以下でタグの@@Color@@と重要度を設定してください。上に位置するものほど重要度が高いタグです。">
 <!ENTITY tagColumn.label            "タグ">
-<!ENTITY colorColumn.label          "カラー">
-<!ENTITY defaultTagName.label       "無題のタグ">
+<!ENTITY colorColumn.label          "@@Color@@">
+<!ENTITY defaultTagName.label       "無名のタグ">
 <!ENTITY addTagButton.label         "追加">
 <!ENTITY addTagButton.accesskey     "A">
 <!ENTITY deleteTagButton.label      "削除">
@@ -50,5 +50,5 @@
 <!ENTITY raiseTagButton.accesskey   "R">
 <!ENTITY lowerTagButton.label       "重要度を下げる">
 <!ENTITY lowerTagButton.accesskey   "L">
-<!ENTITY restoreButton.label        "@@Defaults@@に戻す">
+<!ENTITY restoreButton.label        "@@Default@@に戻す">
 <!ENTITY restoreButton.accesskey    "s">
