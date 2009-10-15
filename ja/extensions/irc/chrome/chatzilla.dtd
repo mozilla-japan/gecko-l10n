@@ -13,7 +13,8 @@
 <!ENTITY Color.label			"@@Colors@@">
 <!ENTITY ForeBack.label			"xx=進む yy=戻る">
 
-<!-- 以下はen-USにはない    -->
+<!-- 以下は en-US にはない    -->
+<!--
 <!ENTITY menuBar.tooltip    "メニューバー">
 <!ENTITY header.tooltip     "ヘッダー">
 <!ENTITY op.value           "Op">
@@ -114,4 +115,4 @@
 <!ENTITY PopupKick.aKey              "K">
 
 <!ENTITY StatusText.label            "ChatZilla にようこそ！">
-
+-->
