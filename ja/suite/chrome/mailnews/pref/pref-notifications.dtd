@@ -35,23 +35,23 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY pref.notifications.title         "Notifications">
-<!ENTITY notifications.caption            "Notifications">
-<!ENTITY newMessagesArrive.label          "When new messages arrive:">
-<!ENTITY playSound.label                  "Play a sound">
+<!ENTITY pref.notifications.title         "通知">
+<!ENTITY notifications.caption            "通知">
+<!ENTITY newMessagesArrive.label          "新しいメッセージが届いたとき:">
+<!ENTITY playSound.label                  "サウンドを鳴らす">
 <!ENTITY playSound.accesskey              "P">
-<!ENTITY showAnimatedAlert.label          "Show an alert">
+<!ENTITY showAnimatedAlert.label          "警告を表示する">
 <!ENTITY showAnimatedAlert.accesskey      "S">
-<!ENTITY showTrayIcon.label               "Show a tray icon">
+<!ENTITY showTrayIcon.label               "システムトレイにアイコンを表示">
 <!ENTITY showTrayIcon.accesskey           "t">
-<!ENTITY bounceSystemDockIcon.label       "Animate the Dock icon">
+<!ENTITY bounceSystemDockIcon.label       "Dock アイコンをバウンドさせる">
 <!ENTITY bounceSystemDockIcon.accesskey   "A">
-<!ENTITY preview.label                    "Preview">
+<!ENTITY preview.label                    "@@Preview@@">
 <!ENTITY preview.accesskey                "v">
-<!ENTITY systemsound.label                "System New Mail Sound">
+<!ENTITY systemsound.label                "システムの新着メール音">
 <!ENTITY systemsound.accesskey            "M">
-<!ENTITY customsound.label                "Custom sound file">
+<!ENTITY customsound.label                "サウンドファイルを指定する">
 <!ENTITY customsound.accesskey            "C">
-<!ENTITY browse.label                     "Browse...">
+<!ENTITY browse.label                     "@@Browse@@...">
 <!ENTITY browse.accesskey                 "B">
-<!ENTITY browse.title                     "Choose file">
+<!ENTITY browse.title                     "ファイルを選択">
