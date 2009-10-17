@@ -33,17 +33,12 @@ tooyama さんへ:
 	FilterListDialog.dtd ->r.510
 
   /suite/chrome/mailnews/pref/
-	pref-addressing.dtd
-	pref-character_encoding.dtd
-	pref-composing_messages.dtd
-	pref-directory.dtd
-	pref-directory-add.dtd
 	pref-formatting.dtd
-	pref-junk.dtd
 	pref-notifications.dtd
 	pref-offline.dtd
 	pref-receipts.dtd
 	pref-viewing_messages.dtd
+	
 	replicationProgress.properties ->何の画面か要確認(何を複製すると出るのか) -> LDAP のアドレス帳です。 /mail/chrome/messenger/addressbook/replicationProgress.properties からコピペすれば良いです。
 # mailnews については、既に /mail 側に全く同じかほぼ同じものがある場合が多いので、うまくコピペすると楽です。
 
@@ -51,6 +46,12 @@ tooyama さんへ:
 	pref-mailnews.dtd ->r.527
 	pref-tags.dtd ->r.527
 	prefs.properties ->r.527
+	pref-addressing.dtd ->r.538
+	pref-character_encoding.dtd ->r.538
+	pref-composing_messages.dtd ->r.538
+	pref-directory.dtd ->r.538(要検証)
+	pref-directory-add.dtd ->r.538(要検証)
+	pref-junk.dtd ->r.538
 
   /suite/chrome/common/help/*
 
