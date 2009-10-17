@@ -16,6 +16,7 @@ tooyama さんへ:
 # mailnews については、既に /mail 側に全く同じかほぼ同じものがある場合が多いので、うまくコピペすると楽です。
 
   /suite/chrome/mailnews/
+	imapMsgs.properties
 	news.properties
 	search-attributes.properties
 	textImportMsgs.properties
@@ -25,7 +26,7 @@ tooyama さんへ:
 ../mailnews/ Fixed
 	folderProps.dtd ->r.519
 	gloda.properties ->r.525
-	imapMsgs.properties ->r.517/521fixed
+	localMsgs.properties ->r.517/521fixed
 	mime.properties ->r.525
 	offline.properties ->r.513
 	outlookImportMsgs.properties ->r.525
