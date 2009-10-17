@@ -36,48 +36,48 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY pref.viewing.messages.title      "Message Display">
-<!ENTITY style.label                      "Style:">
+<!ENTITY pref.viewing.messages.title      "メッセージの表示">
+<!ENTITY style.label                      "スタイル:">
 <!ENTITY style.accesskey                  "S">
-<!ENTITY regular.label                    "Regular">
-<!ENTITY bold.label                       "Bold">
-<!ENTITY italic.label                     "Italic">
-<!ENTITY boldItalic.label                 "Bold Italic">
-<!ENTITY size.label                       "Size:">
+<!ENTITY regular.label                    "標準">
+<!ENTITY bold.label                       "太字">
+<!ENTITY italic.label                     "斜体">
+<!ENTITY boldItalic.label                 "太字斜体">
+<!ENTITY size.label                       "サイズ:">
 <!ENTITY size.accesskey                   "z">
-<!ENTITY bigger.label                     "Bigger">
-<!ENTITY smaller.label                    "Smaller">
-<!ENTITY color.label                      "Color:">
+<!ENTITY bigger.label                     "大きく">
+<!ENTITY smaller.label                    "小さく">
+<!ENTITY color.label                      "@@Color@@:">
 <!ENTITY color.accesskey                  "C">
-<!ENTITY displayPlainText.caption         "Plain text messages">
-<!ENTITY fontPlainText.label              "Font:">
+<!ENTITY displayPlainText.caption         "普通のテキストのみのメッセージを表示するとき">
+<!ENTITY fontPlainText.label              "使用するフォント:">
 <!ENTITY fontPlainText.accesskey          "F">
-<!ENTITY displayQuoted.label              "Settings for quoted messages:">
-<!ENTITY wrapInMsg.label                  "Wrap text to fit window width">
+<!ENTITY displayQuoted.label              "引用文の表示設定:">
+<!ENTITY wrapInMsg.label                  "@@Window@@幅に合わせてテキストを改行する">
 <!ENTITY wrapInMsg.accesskey              "W">
 <!-- LOCALIZATION NOTE : (convertEmoticons.label) 'Emoticons' are also known as 'Smileys', e.g. :-)   -->
-<!ENTITY convertEmoticons.label           "Display emoticons as graphics">
+<!ENTITY convertEmoticons.label           "顔文字を画像で表示する">
 <!ENTITY convertEmoticons.accesskey       "D">
-<!ENTITY generalMessageDisplay.caption    "General">
-<!ENTITY autoMarkAsRead.label             "Automatically mark messages as read">
+<!ENTITY generalMessageDisplay.caption    "全般">
+<!ENTITY autoMarkAsRead.label             "自動的にマークしたメッセージを既読にする">
 <!ENTITY autoMarkAsRead.accesskey         "A">
-<!ENTITY markAsReadNoDelay.label          "Immediately on display">
+<!ENTITY markAsReadNoDelay.label          "すぐに表示する">
 <!ENTITY markAsReadNoDelay.accesskey      "m">
 <!-- LOCALIZATION NOTE (markAsReadDelay.label): This will concatenate to
      "After displaying for [___] seconds",
      using (markAsReadDelay.label) and a number (secondsLabel.label). -->
-<!ENTITY markAsReadDelay.label            "After displaying for">
+<!ENTITY markAsReadDelay.label            "表示してから">
 <!ENTITY markAsReadDelay.accesskey        "t">
-<!ENTITY secondsLabel.label               "seconds">
+<!ENTITY secondsLabel.label               "秒待ったら既読にする">
 
-<!ENTITY openingMessages.label            "When opening messages, display them in:">
-<!ENTITY newWindowRadio.label             "A new message window">
+<!ENTITY openingMessages.label            "メッセージを開くとき、メッセージを以下に表示:">
+<!ENTITY newWindowRadio.label             "新規のメッセージ@@Window@@に表示">
 <!ENTITY newWindowRadio.accesskey         "n">
-<!ENTITY existingWindowRadio.label        "An existing message window">
+<!ENTITY existingWindowRadio.label        "既存のメッセージ@@Window@@に表示">
 <!ENTITY existingWindowRadio.accesskey    "e">
-<!ENTITY disableContent.label             "Block images and other content from remote sources">
+<!ENTITY disableContent.label             "メッセージに含まれるリモート画像などを読み込まない">
 <!ENTITY disableContent.accesskey         "B">
-<!ENTITY showCondensedAddresses.label     "Show only display name for people in my address book">
+<!ENTITY showCondensedAddresses.label     "アドレス帳に登録されているユーザは「表示名」を表示する">
 <!ENTITY showCondensedAddresses.accesskey "o">
-<!ENTITY closeMsgWindowOnDelete.label     "Close message window when deleting the message">
+<!ENTITY closeMsgWindowOnDelete.label     "メッセージを削除するときにはメッセージ@@Window@@を閉じる">
 <!ENTITY closeMsgWindowOnDelete.accesskey "l">
