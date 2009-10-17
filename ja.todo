@@ -13,6 +13,8 @@ tooyama さんへ:
 	svn rev 498 で同期完了 ;-)
 
 未訳リスト(mailnews 直下のファイルのみ)
+# mailnews については、既に /mail 側に全く同じかほぼ同じものがある場合が多いので、うまくコピペすると楽です。
+
   /suite/chrome/mailnews/
 	news.properties
 	search-attributes.properties
@@ -34,11 +36,8 @@ tooyama さんへ:
 
   /suite/chrome/mailnews/pref/
 
-	pref-receipts.dtd
 	pref-viewing_messages.dtd
 	
-	replicationProgress.properties ->何の画面か要確認(何を複製すると出るのか) -> LDAP のアドレス帳です。 /mail/chrome/messenger/addressbook/replicationProgress.properties からコピペすれば良いです。
-# mailnews については、既に /mail 側に全く同じかほぼ同じものがある場合が多いので、うまくコピペすると楽です。
 
 ../mailnews/pref/ Fixed
 	pref-mailnews.dtd ->r.527
@@ -53,6 +52,8 @@ tooyama さんへ:
 	pref-formatting.dtd ->r.541
 	pref-notifications.dtd ->r.543
 	pref-offline.dtd ->r.543
+	pref-receipts.dtd ->r.547
+	replicationProgress.properties->r.547
 
   /suite/chrome/common/help/*
 
