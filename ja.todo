@@ -16,12 +16,10 @@ tooyama さんへ:
 # mailnews については、既に /mail 側に全く同じかほぼ同じものがある場合が多いので、うまくコピペすると楽です。
 
   /suite/chrome/mailnews/
-	imapMsgs.properties
 	news.properties
 	search-attributes.properties
 	textImportMsgs.properties
 	threadpane.dtd
-	vcard.properties
 	
 ../mailnews/ Fixed
 	folderProps.dtd ->r.519
@@ -34,9 +32,10 @@ tooyama さんへ:
 	filter.properties ->r.510
 	FilterEditor.dtd ->r.510
 	FilterListDialog.dtd ->r.510
+	imapMsgs.properties ->r.554
+	vcard.properties ->r.553
 
   /suite/chrome/mailnews/pref/
-
 
 	none.
 
