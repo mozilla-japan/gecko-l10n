@@ -33,7 +33,7 @@ tooyama さんへ:
 	FilterListDialog.dtd ->r.510
 
   /suite/chrome/mailnews/pref/
-	pref-formatting.dtd
+
 	pref-notifications.dtd
 	pref-offline.dtd
 	pref-receipts.dtd
@@ -52,6 +52,7 @@ tooyama さんへ:
 	pref-directory.dtd ->r.538(要検証)
 	pref-directory-add.dtd ->r.538(要検証)
 	pref-junk.dtd ->r.538
+	pref-formatting.dtd ->r.541
 
   /suite/chrome/common/help/*
 
