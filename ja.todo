@@ -34,8 +34,6 @@ tooyama さんへ:
 
   /suite/chrome/mailnews/pref/
 
-	pref-notifications.dtd
-	pref-offline.dtd
 	pref-receipts.dtd
 	pref-viewing_messages.dtd
 	
@@ -53,6 +51,8 @@ tooyama さんへ:
 	pref-directory-add.dtd ->r.538(要検証)
 	pref-junk.dtd ->r.538
 	pref-formatting.dtd ->r.541
+	pref-notifications.dtd ->r.543
+	pref-offline.dtd ->r.543
 
   /suite/chrome/common/help/*
 
