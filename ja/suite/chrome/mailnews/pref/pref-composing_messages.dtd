@@ -36,43 +36,43 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY pref.composing.messages.title        "Composition">
-<!ENTITY generalComposing.label               "General">
-<!ENTITY forwardMsg.label                     "Forward messages:">
-<!ENTITY inline.label                         "Inline">
+<!ENTITY pref.composing.messages.title        "メッセージの作成">
+<!ENTITY generalComposing.label               "一般">
+<!ENTITY forwardMsg.label                     "メッセージの転送:">
+<!ENTITY inline.label                         "本文に挿入">
 <!ENTITY inline.accesskey                     "n">
-<!ENTITY asAttachment.label                   "As Attachment">
+<!ENTITY asAttachment.label                   "添付ファイルにする">
 <!ENTITY asAttachment.accesskey               "A">
 
 <!ENTITY replyQuoteInline.label               "Quote attachments viewed inline in replies">
 <!ENTITY replyQuoteInline.accesskey           "Q">
-<!ENTITY warnOnSendAccelKey.label             "Confirm when using keyboard shortcut to send message">
+<!ENTITY warnOnSendAccelKey.label             "メッセージを送信するキーボードショートカットを使用したときは確認">
 <!ENTITY warnOnSendAccelKey.accesskey         "k">
 <!-- LOCALIZATION NOTE (autoSave.label): This will concatenate with
      "xxx minutes", using a number and (autoSaveEnd.label). -->
-<!ENTITY autoSave.label                       "Automatically save the message every">
+<!ENTITY autoSave.label                       "メッセージを"><!--Automatically save the message every-->
 <!ENTITY autoSave.accesskey                   "u">
-<!ENTITY autoSaveEnd.label                    "minutes">
+<!ENTITY autoSaveEnd.label                    "分ごとに下書きとして自動保存する"><!--minutes-->
 <!-- LOCALIZATION NOTE (wrapOutMsg.label): This will concatenate with "xxx characters", using a number and (char.label). -->
-<!ENTITY wrapOutMsg.label                     "Wrap plain text messages at">
+<!ENTITY wrapOutMsg.label                     "通常のテキストメッセージを"><!--Wrap plain text messages at-->
 <!ENTITY wrapOutMsg.accesskey                 "W">
-<!ENTITY char.label                           "characters">
+<!ENTITY char.label                           "文字目で改行する"><!--characters-->
 
-<!ENTITY spellingHeader.label                 "Spelling">
-<!ENTITY spellCheck.label                     "Check spelling before sending">
+<!ENTITY spellingHeader.label                 "スペル">
+<!ENTITY spellCheck.label                     "メッセージ送信前にスペルチェックを行なう">
 <!ENTITY spellCheck.accesskey                 "C">
-<!ENTITY spellCheckInline.label               "Check spelling as you type">
+<!ENTITY spellCheckInline.label               "自動的にスペルチェックを行なう">
 <!ENTITY spellCheckInline.accesskey           "e">
-<!ENTITY languagePopup.label                  "Language:">
+<!ENTITY languagePopup.label                  "言語:">
 <!ENTITY languagePopup.accessKey              "g">
-<!ENTITY moreDictionaries.label               "Download more dictionaries...">
+<!ENTITY moreDictionaries.label               "他の辞書をダウンロード...">
 
-<!ENTITY defaultMessagesHeader.label          "Defaults for HTML Messages">
-<!ENTITY font.label                           "Font:">
+<!ENTITY defaultMessagesHeader.label          "HTML メッセージの@@DefaultSetting@@">
+<!ENTITY font.label                           "フォント:">
 <!ENTITY font.accesskey                       "F">
-<!ENTITY size.label                           "Size:">
+<!ENTITY size.label                           "文字サイズ:">
 <!ENTITY size.accesskey                       "S">
-<!ENTITY fontColor.label                      "Text:">
+<!ENTITY fontColor.label                      "テキスト:">
 <!ENTITY fontColor.accesskey                  "T">
-<!ENTITY bgColor.label                        "Background:">
+<!ENTITY bgColor.label                        "背景色:">
 <!ENTITY bgColor.accesskey                    "B">

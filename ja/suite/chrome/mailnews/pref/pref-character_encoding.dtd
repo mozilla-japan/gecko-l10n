@@ -37,15 +37,15 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY pref.character.encoding.title   "Character Encoding">
-<!ENTITY messageDisplay.caption          "Message Display">
-<!ENTITY viewDefaultCharset.label        "Default Character Encoding:">
+<!ENTITY pref.character.encoding.title   "文字コード">
+<!ENTITY messageDisplay.caption          "メッセージの表示">
+<!ENTITY viewDefaultCharset.label        "@@Default@@の文字コード:">
 <!ENTITY viewDefaultCharset.accesskey    "D">
 
-<!ENTITY composingMessages.caption       "Composing Messages">
-<!ENTITY useMIME.label                   "For messages that contain 8-bit characters, use 'quoted printable' MIME encoding. Leave unchecked to send the messages as is.">
+<!ENTITY composingMessages.caption       "メッセージの編集">
+<!ENTITY useMIME.label                   "8ビット文字を含むメッセージについて「Quoted-Pritable」MIME エンコードを使用します。この項目をチェックしない場合、メッセージはそのまま送信されます。">
 <!ENTITY useMIME.accesskey               "F">
-<!ENTITY sendDefaultCharset.label        "Default Character Encoding:">
+<!ENTITY sendDefaultCharset.label        "@@Default@@の文字コード:">
 <!ENTITY sendDefaultCharset.accesskey    "C">
-<!ENTITY replyInDefaultCharset2.label    "When possible, use this default character encoding in replies. (When unchecked, only new messages use this default.)">
+<!ENTITY replyInDefaultCharset2.label    "返信時に使用する文字コードを限定します(この項目をチェックしない場合は、新しいメッセージにのみこの@@Default@@の文字コードを使用します)。">
 <!ENTITY replyInDefaultCharset2.accesskey "W">

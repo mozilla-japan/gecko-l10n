@@ -35,39 +35,39 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY newDirectoryTitle.label           "Directory Server Properties">
-<!ENTITY directoryName.label               "Name: ">
+<!ENTITY newDirectoryTitle.label           "ディレクトリサーバーの@@Property@@">
+<!ENTITY directoryName.label               "名前: ">
 <!ENTITY directoryName.accesskey           "n">
-<!ENTITY directoryHostname.label           "Hostname: ">
+<!ENTITY directoryHostname.label           "ホスト名: ">
 <!ENTITY directoryHostname.accesskey       "o">
 <!ENTITY directoryBaseDN.label             "Base DN: ">
 <!ENTITY directoryBaseDN.accesskey         "b">
-<!ENTITY findButton.label                  "Find">
+<!ENTITY findButton.label                  "検索">
 <!ENTITY findButton.accesskey              "f">
-<!ENTITY directorySecure.label             "Use secure connection (SSL)">
+<!ENTITY directorySecure.label             "セキュアな接続(SSL)を使用">
 <!ENTITY directorySecure.accesskey         "U">
 <!ENTITY directoryLogin.label              "Bind DN: ">
 <!ENTITY directoryLogin.accesskey          "i">
-<!ENTITY General.tab                       "General">
-<!ENTITY Offline.tab                       "Offline">
-<!ENTITY Advanced.tab                      "Advanced">
-<!ENTITY portNumber.label                  "Port number: ">
+<!ENTITY General.tab                       "全般">
+<!ENTITY Offline.tab                       "オフライン">
+<!ENTITY Advanced.tab                      "詳細">
+<!ENTITY portNumber.label                  "ポート番号: ">
 <!ENTITY portNumber.accesskey              "p">
-<!ENTITY searchFilter.label                "Search filter: ">
+<!ENTITY searchFilter.label                "検索フィルタ: ">
 <!ENTITY searchFilter.accesskey            "f">
-<!ENTITY scope.label                       "Scope: ">
+<!ENTITY scope.label                       "スコープ: ">
 <!ENTITY scope.accesskey                   "c">
 <!ENTITY scopeOneLevel.label               "One Level">
 <!ENTITY scopeOneLevel.accesskey           "L">
-<!ENTITY scopeSubtree.label                "Subtree">
+<!ENTITY scopeSubtree.label                "サブツリー">
 <!ENTITY scopeSubtree.accesskey            "S">
-<!ENTITY return.label                      "Don't return more than">
+<!ENTITY return.label                      "結果を">
 <!ENTITY return.accesskey                  "r">
-<!ENTITY results.label                     "results">
-<!ENTITY offlineText.label                 "You can download a local copy of this directory so that it is available for use when you are working offline.">
-<!ENTITY saslMechanism.label               "Login method: ">
+<!ENTITY results.label                     "つ以上返さない">
+<!ENTITY offlineText.label                 "オフラインで作業できるように、このディレクトリのデータのローカルコピーをダウンロードしておくことができます。"><!--You can download a local copy of this directory so that it is available for use when you are working offline.-->
+<!ENTITY saslMechanism.label               "ログイン方式: ">
 <!ENTITY saslMechanism.accesskey           "m">
-<!ENTITY saslOff.label                     "Simple">
+<!ENTITY saslOff.label                     "シンプル">
 <!ENTITY saslOff.accesskey		   "l">
 <!ENTITY saslGSSAPI.label                  "Kerberos (GSSAPI)">
 <!ENTITY saslGSSAPI.accesskey		   "K">
