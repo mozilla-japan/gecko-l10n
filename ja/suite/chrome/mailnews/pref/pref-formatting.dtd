@@ -36,38 +36,38 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY pref.formatting.title        "Send Format">
-<!ENTITY sendMaildesc.label           "When sending formatted (HTML) messages and one or more recipients are not listed as being able to receive HTML:">
-<!ENTITY askMe.label                  "Ask me what to do (Mail prompts you to choose a format)">
+<!ENTITY pref.formatting.title        "送信形式">
+<!ENTITY sendMaildesc.label           "HTML 形式のメールを送信する場合、宛先の中に HTML を受け取り可能と設定していない人が含まれている場合:">
+<!ENTITY askMe.label                  "処理方法を確認(形式選択メッセージを表示します)">
 <!ENTITY askMe.accesskey              "k">
-<!ENTITY convertPlain.label           "Convert the message to plain text (some formatting may be lost)">
+<!ENTITY convertPlain.label           "プレーンテキストのみに変換して送信する(書式などは失われます)">
 <!ENTITY convertPlain.accesskey       "C">
-<!ENTITY sendHTML.label               "Send the message as formatted text (HTML) anyway (some mail programs may not be able to display it)">
+<!ENTITY sendHTML.label               "HTML メールのまま送信(古いメールソフトによってはメッセージを表示できません)">
 <!ENTITY sendHTML.accesskey           "S">
-<!ENTITY sendBoth.label               "Send the message in both plain text and HTML (larger message size)">
+<!ENTITY sendBoth.label               "テキストと HTML 両形式で送信する(メッセージサイズが大きくなります)">
 <!ENTITY sendBoth.accesskey           "n">
-<!ENTITY override.label               "You can override these settings for individual messages by using the Options menu while composing a message.">
+<!ENTITY override.label               "メッセージ作成@@Window@@の設定が、ここでの設定よりも優先されます。">
 
 <!-- Html and Plain Text Domains  -->
-<!ENTITY domain.title                 "HTML and Plain Text Domains">
-<!ENTITY domaindesc.label             "When you send a message to an address with one of the domain names listed below, Mail automatically sends the message in the preferred format (formatted text or plain text).">
-<!ENTITY HTMLdomaintitle.label        "HTML Domains">
+<!ENTITY domain.title                 "HTML メールと テキストメールのドメイン設定">
+<!ENTITY domaindesc.label             "送信メールの形式(テキスト / HTML)を、下のリストに従って自動的に選択することができます。">
+<!ENTITY HTMLdomaintitle.label        "HTML メールのドメイン">
 <!ENTITY HTMLdomaintitle.accesskey    "M">
-<!ENTITY PlainTexttitle.label         "Plain Text Domains">
+<!ENTITY PlainTexttitle.label         "テキストのドメイン">
 <!ENTITY PlainTexttitle.accesskey     "P">
-<!ENTITY AddButton.label              "Add...">
+<!ENTITY AddButton.label              "追加...">
 <!ENTITY AddHtmlDomain.accesskey      "A">
 <!ENTITY AddPlainText.accesskey       "d">
-<!ENTITY DeleteButton.label           "Delete">
+<!ENTITY DeleteButton.label           "削除">
 <!ENTITY DeleteHtmlDomain.accesskey   "e">
 <!ENTITY DeletePlainText.accesskey    "t">
 
 <!-- Add Domain Name -->
-<!ENTITY add.htmltitle                "Add HTML Domain Name">
-<!ENTITY add.htmldomain               "HTML Domain Name:">
-<!ENTITY add.plaintexttitle           "Add Plain Text Domain Name">
-<!ENTITY add.plaintextdomain          "Plain Text Domain Name:">
+<!ENTITY add.htmltitle                "HTML メールのドメイン名を追加">
+<!ENTITY add.htmldomain               "HTML メールのドメイン名:">
+<!ENTITY add.plaintexttitle           "テキストメールのドメイン名を追加">
+<!ENTITY add.plaintextdomain          "テキストメールのドメイン名:">
 
-<!ENTITY domainnameError.title        "Domain Name Error">
+<!ENTITY domainnameError.title        "ドメイン名のエラー">
 <!-- LOCALIZATION NOTE: do not translate @string@ -->
-<!ENTITY invalidEntryError.label      "The domain name @string@ is invalid and will be ignored. Valid domain names must include at least one '.' and characters on either side of it.">
+<!ENTITY invalidEntryError.label      "ドメイン名 @string@ は無効で、設定は無視されました。有効などメイン名には少なくともひとつの '.' と文字を含まなければなりません。">
