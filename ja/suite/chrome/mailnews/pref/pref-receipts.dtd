@@ -36,26 +36,26 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!-- LOCALIZATION NOTE pref-receipts.dtd: UI for Mail/News Return Receipts prefs -->
-<!ENTITY pref.receipts.title          "Return Receipts">
-<!ENTITY prefReceipts.caption         "Return Receipts">
-<!ENTITY requestReceipt.label         "When sending messages, always request a return receipt">
+<!ENTITY pref.receipts.title          "開封確認">
+<!ENTITY prefReceipts.caption         "開封確認">
+<!ENTITY requestReceipt.label         "メッセージ送信時に、常に開封確認を要求する">
 <!ENTITY requestReceipt.accesskey     "W">
-<!ENTITY receiptArrive.label          "When a receipt arrives:">
-<!ENTITY leaveIt.label                "Leave it in my Inbox">
+<!ENTITY receiptArrive.label          "開封確認の到着時:">
+<!ENTITY leaveIt.label                "受信トレイに残す">
 <!ENTITY leaveIt.accesskey            "L">
-<!ENTITY moveToSent.label             "Move it to my &quot;Sent&quot; folder">
+<!ENTITY moveToSent.label             "送信済みフォルダに移動"><!--Move it to my &quot;Sent&quot; folder-->
 <!ENTITY moveToSent.accesskey         "M">
-<!ENTITY requestMDN.label             "When I receive a request for a return receipt:">
-<!ENTITY returnSome.label             "Allow return receipts for some messages">
+<!ENTITY requestMDN.label             "開封確認の要求を受け取ったとき:">
+<!ENTITY returnSome.label             "開封確認の要求を許可する">
 <!ENTITY returnSome.accesskey         "A">
-<!ENTITY never.label                  "Never send a return receipt">
+<!ENTITY never.label                  "開封確認を返信しない">
 <!ENTITY never.accesskey              "N">
-<!ENTITY notInToCc.label              "If I'm not in the To or Cc of the message:">
+<!ENTITY notInToCc.label              "メッセージの送信者や CC 欄に自分がいない場合:">
 <!ENTITY notInToCc.accesskey          "T">
-<!ENTITY outsideDomain.label          "If the sender is outside my domain:">
+<!ENTITY outsideDomain.label          "送信者が自分のドメイン以外の場合:">
 <!ENTITY outsideDomain.accesskey      "s">
-<!ENTITY otherCases.label             "In all other cases:">
+<!ENTITY otherCases.label             "その他上記以外のすべてのケース:">
 <!ENTITY otherCases.accesskey         "o">
-<!ENTITY askMe.label                  "Ask me">
-<!ENTITY alwaysSend.label             "Always send">
-<!ENTITY neverSend.label              "Never send">
+<!ENTITY askMe.label                  "確認する">
+<!ENTITY alwaysSend.label             "常に送信する">
+<!ENTITY neverSend.label              "送信しない">
