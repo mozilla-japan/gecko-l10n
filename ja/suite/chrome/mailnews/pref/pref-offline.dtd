@@ -7,8 +7,8 @@
 <!ENTITY textStartUp.accesskey            "W">
 <!ENTITY menuitemRememberPrevState        "前回終了時と同じ">
 <!ENTITY menuitemAskMe                    "起動時、処理方法を確認する">
-<!ENTITY menuitemAlwaysOnline             "起動時は常にオンラインにする">
-<!ENTITY menuitemAlwaysOffline            "起動時は常にオフラインにする">
+<!ENTITY menuitemAlwaysOnline             "常にオンラインで起動する">
+<!ENTITY menuitemAlwaysOffline            "常にオフラインで起動する">
 <!ENTITY menuitemAutomatic                "自動検出 (利用可能であれば)">
 <!ENTITY textGoingOnline                  "オンラインになったら、未送信メッセージを送信しますか？">
 <!ENTITY radioAutoSend                    "はい">
