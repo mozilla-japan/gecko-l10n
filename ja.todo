@@ -36,8 +36,8 @@ tooyama さんへ:
 
   /suite/chrome/mailnews/pref/
 
-	pref-viewing_messages.dtd
-	
+
+	none.
 
 ../mailnews/pref/ Fixed
 	pref-mailnews.dtd ->r.527
@@ -54,7 +54,8 @@ tooyama さんへ:
 	pref-offline.dtd ->r.543
 	pref-receipts.dtd ->r.547
 	replicationProgress.properties->r.547
-
+	pref-viewing_messages.dtd ->r.550
+	
   /suite/chrome/common/help/*
 
 SeaMonkey 2.0 確認された問題点
