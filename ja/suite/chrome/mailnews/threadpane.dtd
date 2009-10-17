@@ -35,44 +35,44 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY threadColumn.label "Thread">
+<!ENTITY threadColumn.label "スレッド">
 <!ENTITY fromColumn.label "From">
-<!ENTITY recipientColumn.label "Recipient">
-<!ENTITY attachmentColumn.label "Attachments">
-<!ENTITY subjectColumn.label "Subject">
-<!ENTITY dateColumn.label "Date">
-<!ENTITY priorityColumn.label "Priority">
-<!ENTITY tagsColumn.label "Tags">
-<!ENTITY accountColumn.label "Account">
-<!ENTITY statusColumn.label "Status">
-<!ENTITY sizeColumn.label "Size">
+<!ENTITY recipientColumn.label "受取人">
+<!ENTITY attachmentColumn.label "添付">
+<!ENTITY subjectColumn.label "件名">
+<!ENTITY dateColumn.label "日付">
+<!ENTITY priorityColumn.label "重要度">
+<!ENTITY tagsColumn.label "タグ">
+<!ENTITY accountColumn.label "アカウント">
+<!ENTITY statusColumn.label "ステータス">
+<!ENTITY sizeColumn.label "サイズ">
 <!ENTITY junkStatusColumn.label "Junk Status">
-<!ENTITY unreadColumn.label "Unread in Thread">
-<!ENTITY totalColumn.label "Total in Thread">
+<!ENTITY unreadColumn.label "スレッド中の未読数">
+<!ENTITY totalColumn.label "スレッド中の合計">
 <!ENTITY readColumn.label "Read">
 <!ENTITY receivedColumn.label "Received">
-<!ENTITY flagColumn.label "Flag">
+<!ENTITY flagColumn.label "フラグ">
 <!ENTITY locationColumn.label "Location">
 <!ENTITY idColumn.label "Order Received">
 
 <!--Tooltips-->
-<!ENTITY columnChooser.tooltip "Click to select columns to display">
-<!ENTITY threadColumn.tooltip "Click to display message threads"> 
+<!ENTITY columnChooser.tooltip "表示するカラムを選択してクリックしてください">
+<!ENTITY threadColumn.tooltip "表示したいメッセージスレッドをクリックしてください"> 
 <!ENTITY fromColumn.tooltip "Click to sort by from">
 <!ENTITY recipientColumn.tooltip "Click to sort by recipient">
-<!ENTITY attachmentColumn.tooltip "Click to sort by attachments">
-<!ENTITY subjectColumn.tooltip "Click to sort by subject">
-<!ENTITY dateColumn.tooltip "Click to sort by date">
-<!ENTITY priorityColumn.tooltip "Click to sort by priority">
-<!ENTITY tagsColumn.tooltip "Click to sort by tags">
-<!ENTITY accountColumn.tooltip "Click to sort by account">
-<!ENTITY statusColumn.tooltip "Click to sort by status">
-<!ENTITY sizeColumn.tooltip "Click to sort by size">
+<!ENTITY attachmentColumn.tooltip "クリックして添付ファイルでソートしてください">
+<!ENTITY subjectColumn.tooltip "クリックして件名でソートしてください">
+<!ENTITY dateColumn.tooltip "クリックして日付でソートしてください">
+<!ENTITY priorityColumn.tooltip "クリックして重要度でソートしてください">
+<!ENTITY tagsColumn.tooltip "クリックしてタグでソートしてください">
+<!ENTITY accountColumn.tooltip "クリックしてアカウントでソートしてください">
+<!ENTITY statusColumn.tooltip "クリックしてステータスでソートしてください">
+<!ENTITY sizeColumn.tooltip "クリックしてサイズでソートしてください">
 <!ENTITY junkStatusColumn.tooltip "Click to sort by junk status">
-<!ENTITY unreadColumn.tooltip "Number of unread messages in thread">
-<!ENTITY totalColumn.tooltip "Total number of messages in thread">
-<!ENTITY readColumn.tooltip "Click to sort by read">
+<!ENTITY unreadColumn.tooltip "スレッド中の未読数">
+<!ENTITY totalColumn.tooltip "スレッド中のメッセージ数">
+<!ENTITY readColumn.tooltip "クリックして既読かどうかでソートしてください">
 <!ENTITY receivedColumn.tooltip "Click to sort by date received">
-<!ENTITY flagColumn.tooltip "Click to sort by flag">
+<!ENTITY flagColumn.tooltip "クリックしてフラグ付かどうかでソートしてください">
 <!ENTITY locationColumn.tooltip "Click to sort by location">
 <!ENTITY idColumn.tooltip "Click to sort by order received">
