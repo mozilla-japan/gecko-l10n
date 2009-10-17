@@ -34,7 +34,7 @@
 <!ENTITY passwordDisplayCmd.label "保存されているパスワードを管理">
 <!ENTITY passwordDisplayCmd.accesskey "M">
  
-<!ENTITY passwordExpireCmd.label "Log Out">
+<!ENTITY passwordExpireCmd.label "ログアウト">
 <!ENTITY passwordExpireCmd.accesskey "l">
 
 <!ENTITY downloadManagerCmd.label "ダウンロードマネージャ">
