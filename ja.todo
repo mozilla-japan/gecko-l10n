@@ -62,12 +62,12 @@ SeaMonkey 2.0 確認された問題点
 mailnews 関連設定未訳 -> とりあえず、これから着手
 
 ブラウザ
-ツール - パスワードマネージャ - Log Out
-表示 - Zoom (置換されていない?)
+ツール - パスワードマネージャ - Log Out -> /common/tasksOverlay.dtd -> done.
+表示 - Zoom (置換されていない?) -> /common/viewZoomOverlay.properties -> done.
 
 アドレス帳
-表示 - Sort by
-ツール - Searcth Addresses
+表示 - Sort by -> sortFolder.dtd -> done.
+ツール - Searcth Addresses -> messenger.dtd -> done.
 
 SeaMonkey Mail
 UI日本語化されていない -> messenger.dtd ->r.503,504
