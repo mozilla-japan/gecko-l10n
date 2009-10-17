@@ -40,17 +40,17 @@
 <!ENTITY recipientColumn.label "宛先">
 <!ENTITY attachmentColumn.label "添付">
 <!ENTITY subjectColumn.label "件名">
-<!ENTITY dateColumn.label "日付">
+<!ENTITY dateColumn.label "送信日時">
 <!ENTITY priorityColumn.label "重要度">
 <!ENTITY tagsColumn.label "タグ">
 <!ENTITY accountColumn.label "アカウント">
 <!ENTITY statusColumn.label "状態">
 <!ENTITY sizeColumn.label "サイズ">
-<!ENTITY junkStatusColumn.label "迷惑メール マーク">
+<!ENTITY junkStatusColumn.label "迷惑メールマーク">
 <!ENTITY unreadColumn.label "スレッド中の未読数">
 <!ENTITY totalColumn.label "スレッド中の合計">
 <!ENTITY readColumn.label "既読">
-<!ENTITY receivedColumn.label "受信">
+<!ENTITY receivedColumn.label "受信日時">
 <!ENTITY flagColumn.label "フラグ">
 <!ENTITY locationColumn.label "フォルダ">
 <!ENTITY idColumn.label "受信順">
