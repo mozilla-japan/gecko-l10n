@@ -36,8 +36,8 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY threadColumn.label "スレッド">
-<!ENTITY fromColumn.label "送信者">
-<!ENTITY recipientColumn.label "宛先">
+<!ENTITY fromColumn.label "差出人">
+<!ENTITY recipientColumn.label "受信者">
 <!ENTITY attachmentColumn.label "添付">
 <!ENTITY subjectColumn.label "件名">
 <!ENTITY dateColumn.label "送信日時">
@@ -46,7 +46,7 @@
 <!ENTITY accountColumn.label "アカウント">
 <!ENTITY statusColumn.label "状態">
 <!ENTITY sizeColumn.label "サイズ">
-<!ENTITY junkStatusColumn.label "迷惑メールマーク">
+<!ENTITY junkStatusColumn.label "迷惑マーク">
 <!ENTITY unreadColumn.label "スレッド中の未読数">
 <!ENTITY totalColumn.label "スレッド中の合計">
 <!ENTITY readColumn.label "既読">
@@ -58,8 +58,8 @@
 <!--Tooltips-->
 <!ENTITY columnChooser.tooltip "クリックして表示する列を選択">
 <!ENTITY threadColumn.tooltip "スレッドで並べ替え"> 
-<!ENTITY fromColumn.tooltip "送信者で並べ替え">
-<!ENTITY recipientColumn.tooltip "宛先で並べ替え">
+<!ENTITY fromColumn.tooltip "差出人で並べ替え">
+<!ENTITY recipientColumn.tooltip "受信者で並べ替え">
 <!ENTITY attachmentColumn.tooltip "添付ファイルの有無で並べ替え">
 <!ENTITY subjectColumn.tooltip "件名で並べ替え">
 <!ENTITY dateColumn.tooltip "日付で並べ替え">
@@ -68,11 +68,11 @@
 <!ENTITY accountColumn.tooltip "アカウントで並べ替え">
 <!ENTITY statusColumn.tooltip "状態で並べ替え">
 <!ENTITY sizeColumn.tooltip "サイズで並べ替え">
-<!ENTITY junkStatusColumn.tooltip "迷惑メール マークで並べ替え">
+<!ENTITY junkStatusColumn.tooltip "迷惑マークの有無で並べ替え">
 <!ENTITY unreadColumn.tooltip "スレッド中の未読メッセージ数">
 <!ENTITY totalColumn.tooltip "スレッド中のメッセージ総数">
-<!ENTITY readColumn.tooltip "既読で並べ替え">
-<!ENTITY receivedColumn.tooltip "受け取った日付で並べ替え"><!--Click to sort by date received-->
+<!ENTITY readColumn.tooltip "既読かどうかで並べ替え">
+<!ENTITY receivedColumn.tooltip "受信した日付で並べ替え">
 <!ENTITY flagColumn.tooltip "フラグの有無で並べ替え">
 <!ENTITY locationColumn.tooltip "フォルダで並べ替え">
 <!ENTITY idColumn.tooltip "受信順で並べ替え">
