@@ -70,4 +70,4 @@
 
 <!ENTITY domainnameError.title        "ドメイン名のエラー">
 <!-- LOCALIZATION NOTE: do not translate @string@ -->
-<!ENTITY invalidEntryError.label      "ドメイン名 @string@ は無効で、設定は無視されました。有効などメイン名には少なくともひとつの '.' と文字を含まなければなりません。">
+<!ENTITY invalidEntryError.label      "ドメイン名 @string@ は無効で、設定は無視されました。有効なドメイン名には少なくともひとつの '.' と文字を含まなければなりません。">
