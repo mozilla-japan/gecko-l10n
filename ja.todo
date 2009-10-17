@@ -17,8 +17,8 @@ tooyama さんへ:
 
   /suite/chrome/mailnews/
 
-	threadpane.dtd
-	
+	none.
+
 ../mailnews/ Fixed
 	folderProps.dtd ->r.519
 	gloda.properties ->r.525
@@ -35,6 +35,7 @@ tooyama さんへ:
 	news.properties ->r.557
 	search-attributes.properties ->r.557
 	textImportMsgs.properties ->r.557
+	threadpane.dtd ->r.560
 	
   /suite/chrome/mailnews/pref/
 
@@ -61,7 +62,7 @@ tooyama さんへ:
 
 SeaMonkey 2.0 確認された問題点
 設定
-mailnews 関連設定未訳 -> とりあえず、これから着手
+mailnews 関連設定未訳 -> とりあえず、これから着手 ->done.
 
 ブラウザ
 ツール - パスワードマネージャ - Log Out -> /common/tasksOverlay.dtd -> done.
