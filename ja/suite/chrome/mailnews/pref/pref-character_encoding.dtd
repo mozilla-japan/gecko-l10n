@@ -37,15 +37,15 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY pref.character.encoding.title   "文字コード">
+<!ENTITY pref.character.encoding.title   "文字エンコーディング">
 <!ENTITY messageDisplay.caption          "メッセージの表示">
-<!ENTITY viewDefaultCharset.label        "@@Default@@の文字コード:">
+<!ENTITY viewDefaultCharset.label        "@@Default-@@文字エンコーディング:">
 <!ENTITY viewDefaultCharset.accesskey    "D">
 
 <!ENTITY composingMessages.caption       "メッセージの編集">
-<!ENTITY useMIME.label                   "8ビット文字を含むメッセージについて「Quoted-Pritable」MIME エンコードを使用します。この項目をチェックしない場合、メッセージはそのまま送信されます。">
+<!ENTITY useMIME.label                   "8 ビット文字を含むメッセージに 'Quoted-Pritable' MIME エンコードを使用する。この項目のチェックを外した場合、メッセージはそのまま送信されます。">
 <!ENTITY useMIME.accesskey               "F">
-<!ENTITY sendDefaultCharset.label        "@@Default@@の文字コード:">
+<!ENTITY sendDefaultCharset.label        "@@Default-@@文字エンコーディング:">
 <!ENTITY sendDefaultCharset.accesskey    "C">
-<!ENTITY replyInDefaultCharset2.label    "返信時に使用する文字コードを限定します(この項目をチェックしない場合は、新しいメッセージにのみこの@@Default@@の文字コードを使用します)。">
+<!ENTITY replyInDefaultCharset2.label    "可能であれば、返信メッセージに@@Default-@@文字エンコーディングを使用する (この項目のチェックを外した場合、@@New-CMD@@メッセージの作成時のみ@@Default-@@文字エンコーディングを使用します)。">
 <!ENTITY replyInDefaultCharset2.accesskey "W">

@@ -44,7 +44,7 @@
 <!ENTITY asAttachment.label                   "添付ファイルにする">
 <!ENTITY asAttachment.accesskey               "A">
 
-<!ENTITY replyQuoteInline.label               "Quote attachments viewed inline in replies">
+<!ENTITY replyQuoteInline.label               "返信時に、本文に表示されている添付ファイルを引用する">
 <!ENTITY replyQuoteInline.accesskey           "Q">
 <!ENTITY warnOnSendAccelKey.label             "メッセージを送信するキーボードショートカットを使用したときは確認">
 <!ENTITY warnOnSendAccelKey.accesskey         "k">
@@ -56,12 +56,12 @@
 <!-- LOCALIZATION NOTE (wrapOutMsg.label): This will concatenate with "xxx characters", using a number and (char.label). -->
 <!ENTITY wrapOutMsg.label                     "通常のテキストメッセージを"><!--Wrap plain text messages at-->
 <!ENTITY wrapOutMsg.accesskey                 "W">
-<!ENTITY char.label                           "文字目で改行する"><!--characters-->
+<!ENTITY char.label                           "文字で改行する"><!--characters-->
 
-<!ENTITY spellingHeader.label                 "スペル">
-<!ENTITY spellCheck.label                     "メッセージ送信前にスペルチェックを行なう">
+<!ENTITY spellingHeader.label                 "スペルチェック">
+<!ENTITY spellCheck.label                     "メッセージ送信前にスペルチェックを行う">
 <!ENTITY spellCheck.accesskey                 "C">
-<!ENTITY spellCheckInline.label               "自動的にスペルチェックを行なう">
+<!ENTITY spellCheckInline.label               "自動的にスペルチェックを行う">
 <!ENTITY spellCheckInline.accesskey           "e">
 <!ENTITY languagePopup.label                  "言語:">
 <!ENTITY languagePopup.accessKey              "g">

@@ -34,39 +34,39 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY pref.junk.title "迷惑メール">
-<!ENTITY junkSettings.caption "迷惑メールの設定(共通)">
-<!ENTITY junkMail.intro "Goto Account Settings to configure account specific junk mail settings.">
+<!ENTITY pref.junk.title "迷惑メールフィルタ">
+<!ENTITY junkSettings.caption "迷惑メールフィルタの設定 (共通)">
+<!ENTITY junkMail.intro "アカウントごとの迷惑メールフィルタの設定はアカウント設定で行ってください。">
 
 <!-- Junk Mail Controls -->
-<!ENTITY manualMark.label               "メッセージを迷惑メールにマークした場合:">
+<!ENTITY manualMark.label               "手動で迷惑マークを付けたときに次の処理を実行する:">
 <!ENTITY manualMark.accesskey           "W">
-<!ENTITY manualMarkModeMove.label       "メッセージをアカウント別の&quot;迷惑メール&quot;フォルダへ移動します">
+<!ENTITY manualMarkModeMove.label       "メッセージをアカウント別の &quot;迷惑メール&quot; フォルダへ移動する">
 <!ENTITY manualMarkModeMove.accesskey   "M">
-<!ENTITY manualMarkModeDelete.label     "メッセージを削除します">
+<!ENTITY manualMarkModeDelete.label     "メッセージを削除する">
 <!ENTITY manualMarkModeDelete.accesskey "D">
 
-<!ENTITY markAsRead.intro               "メッセージの評価:">
+<!ENTITY markAsRead.intro               "次のときメッセージを既読にする:">
 <!ENTITY autoMarkAsRead.label           "&brandShortName; が迷惑メールであると判断したとき">
 <!ENTITY autoMarkAsRead.accesskey       "u">
-<!ENTITY manualMarkAsRead.label         "手動で迷惑マークをつけたとき"><!--When I manually mark them as junk-->
+<!ENTITY manualMarkAsRead.label         "手動で迷惑マークを付けたとき"><!--When I manually mark them as junk-->
 <!ENTITY manualMarkAsRead.accesskey     "k">
 
-<!ENTITY enableJunkLogging.label        "迷惑メールフィルタログを有効にする">
+<!ENTITY enableJunkLogging.label        "迷惑メールフィルタのログを有効にする">
 <!ENTITY enableJunkLogging.accesskey    "E">
 <!ENTITY openJunkLog.label              "ログを表示">
 <!ENTITY openJunkLog.accesskey          "S">
-<!ENTITY resetTrainingData.label        "学習結果をリセット">
+<!ENTITY resetTrainingData.label        "学習データをリセット">
 <!ENTITY resetTrainingData.accesskey    "R">
 
 <!ENTITY pref.suspectMail.caption       "疑いのあるメール">
 
 <!-- Phishing Detector -->
-<!ENTITY pref.phishing.caption            "詐欺メール">
-<!ENTITY enablePhishingDetector.label     "読んでいるメールが詐欺メールである疑いがあるときメッセージを表示する"><!--Tell me if the message I'm reading is a suspected email scam-->
+<!ENTITY pref.phishing.caption            "フィッシング詐欺メール">
+<!ENTITY enablePhishingDetector.label     "表示中のメッセージにフィッシング詐欺の疑いがあるときに知らせる">
 <!ENTITY enablePhishingDetector.accesskey "T">
 
 <!-- Anti Virus -->
-<!ENTITY pref.antivirus.caption           "アンチウィルス">
-<!ENTITY antiVirus.label                  "アンチウィルスクライアントにメッセージをスキャンさせる">
+<!ENTITY pref.antivirus.caption           "ウィルス対策">
+<!ENTITY antiVirus.label                  "ウィルス対策ソフトに受信メッセージをスキャンさせる">
 <!ENTITY antiVirus.accesskey              "A">
