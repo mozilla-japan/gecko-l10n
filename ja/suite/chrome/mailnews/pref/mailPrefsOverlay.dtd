@@ -1,9 +1,9 @@
 <!-- These are added to the Advanced - Scripts & Plugins panel -->
-<!ENTITY enbPluginCheckMailNews.label     "メール &amp; ニュース">
+<!ENTITY enbPluginCheckMailNews.label     "メールとニュースグループ">
 <!ENTITY enbPluginCheckMailNews.accesskey "a">
 
 <!-- These are added to the Window menu -->
-<!ENTITY mail.label                       "メール &amp; ニュース">
+<!ENTITY mail.label                       "メールとニュースグループ">
 <!ENTITY mail.accesskey                   "M">
 <!ENTITY addressbook.label                "アドレス帳">
 <!ENTITY addressbook.accesskey            "A">
@@ -18,4 +18,4 @@
 <!ENTITY junk.label                       "迷惑メール">
 <!ENTITY tags.label                       "タグ">
 <!ENTITY characterEncoding.label          "文字エンコーディング">
-<!ENTITY networkStorage.label             "ネットワーク &amp; ディスク領域">
+<!ENTITY networkStorage.label             "ネットワークとディスク領域">
