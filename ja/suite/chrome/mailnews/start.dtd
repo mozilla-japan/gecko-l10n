@@ -38,7 +38,7 @@
 <!ENTITY startpage.title "&brandShortName; メールとニュースグループへようこそ">
 <!--# LOCALIZATION NOTE (headline.label): the URL for <a id="vendorURL"> is fetched from brand.properties -->
 <!ENTITY headline.label
-'ようこそ、<a id="vendorURL" href="">&brandShortName;</a> メール &amp; ニュースグループへ！'>
+'ようこそ、<a id="vendorURL" href="">&brandShortName;</a> メールとニュースグループへ！'>
 <!ENTITY description.label
 "&brandShortName; メールとニュースグループはパワフルなオープンソースのメールとニュースクライアントです。先進の迷惑メール検知機能と多くの便利な機能をサポートしています。">
 <!ENTITY features.title "特徴">
