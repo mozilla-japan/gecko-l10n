@@ -52,7 +52,7 @@
 <!ENTITY  generalTab            "一般">
 <!ENTITY  generalTab.accesskey  "G">
 <!ENTITY  generalURL            "アドレス:">
-<!ENTITY  generalType           "MIMEタイプ:">
+<!ENTITY  generalType           "MIME タイプ:">
 <!ENTITY  generalMode           "描画モード:">
 <!ENTITY  generalSize           "サイズ:">
 <!ENTITY  generalReferrer       "参照元 URL:">
@@ -95,7 +95,7 @@
 <!ENTITY  mediaType             "種類">
 <!ENTITY  mediaSize             "サイズ">
 <!ENTITY  mediaCount            "訪問回数">
-<!ENTITY  mediaDimensions       "指定した寸法:">
+<!ENTITY  mediaDimensions       "指定された寸法:">
 <!ENTITY  mediaPhysDimensions   "実寸:">
 <!ENTITY  mediaTitle            "タイトル属性:">
 <!ENTITY  mediaLongdesc         "詳しい説明:">
@@ -118,7 +118,7 @@
 <!ENTITY  permAllowSession      "セッション中のみ許可">
 <!ENTITY  permBlock             "ブロック">
 <!ENTITY  permissionsFor        "許可情報:">
-<!ENTITY  permImage             "画像を読み込む">
+<!ENTITY  permImage             "画像の読み込み">
 <!ENTITY  permPopup             "ポップアップ@@Window@@を開く">
 <!ENTITY  permCookie            "Cookie の保存">
 <!ENTITY  permInstall           "拡張機能またはテーマのインストール">
