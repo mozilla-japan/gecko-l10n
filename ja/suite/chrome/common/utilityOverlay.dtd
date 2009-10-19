@@ -99,7 +99,7 @@
 <!ENTITY customizeToolbar.text.accesskey          "T">
 <!ENTITY customizeToolbar.useSmallIcons.label     "小さいアイコンを使用">
 <!ENTITY customizeToolbar.useSmallIcons.accesskey "s">
-<!ENTITY customizeToolbar.labelAlignEnd.label     "アイコンの下にテキストを表示">
+<!ENTITY customizeToolbar.labelAlignEnd.label     "アイコンの横にテキストを表示">
 <!ENTITY customizeToolbar.labelAlignEnd.accesskey "b">
 <!ENTITY customizeToolbar.useDefault.label        "初期設定に戻す">
 <!ENTITY customizeToolbar.useDefault.accesskey    "U">
@@ -108,5 +108,5 @@
 <!ENTITY allowPopups.accesskey        "p">
 <!ENTITY showPopupManager.label       "ポップアップマネージャ">
 <!ENTITY showPopupManager.accesskey   "M">
-<!ENTITY dontShowMessage.label        "ポップアップブロックしたときにこのメッセージを表示しない。">
+<!ENTITY dontShowMessage.label        "ポップアップブロックしたときにこのメッセージを表示しない">
 <!ENTITY dontShowMessage.accesskey    "D">
