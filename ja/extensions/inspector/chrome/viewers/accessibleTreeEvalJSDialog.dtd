@@ -15,11 +15,12 @@
    - The Original Code is DOM Inspector.
    -
    - The Initial Developer of the Original Code is
-   - Netscape Communications Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2003
+   - Mozilla Foundation.
+   - Portions created by the Initial Developer are Copyright (C) 2008
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
+   -   Alexander Surkov <surkov.alexander@gmail.com> (original author)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -36,8 +37,12 @@
 #endif
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY boxPosition.label	"位置">
-<!ENTITY boxDimension.label	"大きさ">
-<!ENTITY boxMargin.label	"Margin">
-<!ENTITY boxBorder.label	"Border">
-<!ENTITY boxPadding.label	"Padding">
+  <!ENTITY evaluateDialog.title "Evaluate JavaScript Dialog">
+
+  <!ENTITY btnEvaluateJS.label "Evaluate">
+  <!ENTITY btnEvaluateJS.accesskey "E">
+  
+  <!ENTITY txtInputArea.label "Input Area (use 'accessible' variable to operate with the selected accessible and 'output' function to write into 'Output Area' window): ">
+  <!ENTITY txtInputArea.accesskey "I">
+  <!ENTITY txtOutputArea.label "Output Area: ">
+  <!ENTITY txtOutputArea.accesskey "O">

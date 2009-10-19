@@ -15,11 +15,12 @@
    - The Original Code is DOM Inspector.
    -
    - The Initial Developer of the Original Code is
-   - Netscape Communications Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2003
+   - Vasiliy Potapenko
+   - Portions created by the Initial Developer are Copyright (C) 2007
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
+   - Vasiliy Potapenko <vasiliy.potapenko@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -35,9 +36,11 @@
    -
 #endif
    - ***** END LICENSE BLOCK ***** -->
+<!ENTITY descRole.label "Role:">
+<!ENTITY descName.label "Name:">
+<!ENTITY descDescription.label "Description:">
+<!ENTITY descValue.label "Value:">
+<!ENTITY descState.label "State:">
+<!ENTITY descActionName.label "Action Name:">
+<!ENTITY descBounds.label "Bounds:">
 
-<!ENTITY boxPosition.label	"位置">
-<!ENTITY boxDimension.label	"大きさ">
-<!ENTITY boxMargin.label	"Margin">
-<!ENTITY boxBorder.label	"Border">
-<!ENTITY boxPadding.label	"Padding">
