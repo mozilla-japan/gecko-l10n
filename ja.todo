@@ -8,6 +8,9 @@ mar:
 	ja/calendar/chrome/calendar/calendar-event-dialog.properties
 		plural forms をどうするか。
 
+	ja/extentions/inspector/chrome/viewers/accessible*.* の翻訳。
+
+
 tooyama さんへ:
 /suite/chrome 以下の en-US と同期していないディレクトリ:
 	svn rev 498 で同期完了 ;-)
