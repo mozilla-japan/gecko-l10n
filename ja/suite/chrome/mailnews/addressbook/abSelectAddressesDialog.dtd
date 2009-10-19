@@ -55,7 +55,7 @@
 <!ENTITY lookIn.accesskey                    "L">
 <!ENTITY for.label                           "検索:">
 <!ENTITY for.accesskey                       "f">
-<!ENTITY addressMessageTo.label              "このアドレスにメッセージを送る:"> 
+<!ENTITY addressMessageTo.label              "メッセージを送信するアドレス:"> 
 
 <!-- Tooltips items -->  
 <!ENTITY addressPickerNewButton.tooltip      "@@New-CMD@@アドレス帳を作成します"><!--Create a new address book card--> 
