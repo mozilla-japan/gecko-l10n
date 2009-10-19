@@ -3,6 +3,7 @@
 
 <!ENTITY thDOMNodes.label		"DOM ノード">
 <!ENTITY btnInspect.label		"調査">
+<!ENTITY btnInspect.accesskey		"I">
 <!ENTITY bxDocPanel.title		"ドキュメント">
 <!ENTITY bxObjectPanel.title		"オブジェクト">
 <!ENTITY btnSelecting.tooltip		"調査対象ノードをマウスで選択します">
