@@ -101,7 +101,7 @@
 <!ENTITY searchInternetCmd.accesskey "S">
 <!ENTITY searchInternet.commandKey "s">
 
-<!ENTITY clearPrivateDataCmd.label "プライバシー情報を消去...">
+<!ENTITY clearPrivateDataCmd.label "プライバシー情報の消去...">
 <!ENTITY clearPrivateDataCmd.accesskey "e">
 
 <!ENTITY goMenu.label "移動">
