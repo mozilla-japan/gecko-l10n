@@ -37,12 +37,12 @@
 #endif
    - ***** END LICENSE BLOCK ***** -->
 
-  <!ENTITY evaluateDialog.title "Evaluate JavaScript Dialog">
+  <!ENTITY evaluateDialog.title "JavaScript の式評価ダイアログ">
 
-  <!ENTITY btnEvaluateJS.label "Evaluate">
+  <!ENTITY btnEvaluateJS.label "評価">
   <!ENTITY btnEvaluateJS.accesskey "E">
   
-  <!ENTITY txtInputArea.label "Input Area (use 'accessible' variable to operate with the selected accessible and 'output' function to write into 'Output Area' window): ">
+  <!ENTITY txtInputArea.label "入力エリア ('accessible' 変数により選択中の accessible へアクセスできます。'output()' 関数により '出力エリア' に結果を書き出します。): ">
   <!ENTITY txtInputArea.accesskey "I">
-  <!ENTITY txtOutputArea.label "Output Area: ">
+  <!ENTITY txtOutputArea.label "出力エリア: ">
   <!ENTITY txtOutputArea.accesskey "O">

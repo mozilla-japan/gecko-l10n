@@ -36,11 +36,11 @@
    -
 #endif
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY descRole.label "Role:">
-<!ENTITY descName.label "Name:">
-<!ENTITY descDescription.label "Description:">
-<!ENTITY descValue.label "Value:">
-<!ENTITY descState.label "State:">
-<!ENTITY descActionName.label "Action Name:">
-<!ENTITY descBounds.label "Bounds:">
+<!ENTITY descRole.label "役割 (Role):">
+<!ENTITY descName.label "ラベル (Name):">
+<!ENTITY descDescription.label "説明:">
+<!ENTITY descValue.label "値:">
+<!ENTITY descState.label "状態 (State):">
+<!ENTITY descActionName.label "作用名:">
+<!ENTITY descBounds.label "位置とサイズ:">
 
