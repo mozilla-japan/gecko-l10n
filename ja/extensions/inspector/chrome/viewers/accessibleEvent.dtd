@@ -35,12 +35,12 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY descIsFromUserInput.label "Is from user input: ">
-<!ENTITY descState.label "State: ">
-<!ENTITY descIsEnabled.label "Is state enabled: ">
-<!ENTITY descStartOffset.label "Start offset: ">
-<!ENTITY descLength.label "Length: ">
-<!ENTITY descIsInserted.label "Is text inserted: ">
-<!ENTITY descModifiedText.label "Modified text: ">
-<!ENTITY descCaretOffset.label "Caret offset: ">
+<!ENTITY descIsFromUserInput.label "ユーザによる入力か: ">
+<!ENTITY descState.label "状態 (State): ">
+<!ENTITY descIsEnabled.label "状態 (State) が有効か: ">
+<!ENTITY descStartOffset.label "開始オフセット位置: ">
+<!ENTITY descLength.label "長さ: ">
+<!ENTITY descIsInserted.label "テキストの挿入か: ">
+<!ENTITY descModifiedText.label "変更されたテキスト: ">
+<!ENTITY descCaretOffset.label "キャレットのオフセット位置: ">
 
