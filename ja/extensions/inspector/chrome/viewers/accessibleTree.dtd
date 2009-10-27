@@ -37,8 +37,8 @@
 #endif
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY role.label "役割 (Role)">
-<!ENTITY name.label "ラベル (Name)">
+<!ENTITY role.label "役割">
+<!ENTITY name.label "ラベル">
 <!ENTITY nodeName.label "ノード名">
 
 <!ENTITY evaluateJS.label "JavaScript の式評価">

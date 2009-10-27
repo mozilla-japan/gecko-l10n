@@ -1,6 +1,6 @@
 <!ENTITY Inspector.label		"DOM インスペクタ">
 <!ENTITY Sidebar.label			"サイドバー">
-<!ENTITY elementBlinking.label		"要素を点滅させる">
+<!ENTITY elementBlinking.label		"要素の点滅">
 <!ENTITY blinkSelectedElement.label	"選択した要素を点滅させる">
 <!ENTITY blinkSelectedElement.accesskey	"B">
 <!ENTITY borderColor.label		"枠線の色">
