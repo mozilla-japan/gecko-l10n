@@ -38,13 +38,13 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY nodeName.label		"ノード名:">
-<!ENTITY localName.label	"Local Name:">
+<!ENTITY localName.label	"ローカル名:">
 <!ENTITY namespaceURI.label	"名前空間 URI:">
-<!ENTITY nodeType.label		"ノードの型:"><!-- (^^; 数値で表示されちゃうバグが… -->
+<!ENTITY nodeType.label		"ノードの型:"><!-- (^^; 数値で表示されちゃうバグが... -->
 <!ENTITY nodeValue.label	"ノードの値:">
 
 <!ENTITY namespaceTitle.null.label	"null">
-<!ENTITY namespaceTitle.default.label	"ドキュメントのデフォルト">
+<!ENTITY namespaceTitle.default.label	"ドキュメントの@@Default@@ URI">
 <!ENTITY namespaceTitle.custom.label	"ユーザ設定">
 
 <!-- LOCALIZATION NOTE: The following entities are names of W3C specifications.

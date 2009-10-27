@@ -36,7 +36,7 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY relationType.label "関連型">
-<!ENTITY role.label "役割 (Role)">
+<!ENTITY role.label "役割">
 <!ENTITY nodeName.label "ノード名">
 <!ENTITY relations.label "関連ノード: ">
 <!ENTITY relationTargets.label "関連ターゲット: ">
