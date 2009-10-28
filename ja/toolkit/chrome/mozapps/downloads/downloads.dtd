@@ -5,7 +5,7 @@ file names and tall enough to hint that there are more downloads in the list -->
 <!ENTITY window.height			"300"> 
 
 <!ENTITY starting.label			"開始しました...">
-<!ENTITY scanning.label			"ウィルススキャンをしています...">
+<!ENTITY scanning.label			"ウイルススキャンをしています...">
 
 <!ENTITY downloads.title		"ダウンロードマネージャ"><!-- (^^; -->
 

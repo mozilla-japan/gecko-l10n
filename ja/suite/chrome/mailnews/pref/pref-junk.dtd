@@ -67,6 +67,6 @@
 <!ENTITY enablePhishingDetector.accesskey "T">
 
 <!-- Anti Virus -->
-<!ENTITY pref.antivirus.caption           "ウィルス対策">
-<!ENTITY antiVirus.label                  "ウィルス対策ソフトに受信メッセージをスキャンさせる">
+<!ENTITY pref.antivirus.caption           "ウイルス対策">
+<!ENTITY antiVirus.label                  "ウイルス対策ソフトに受信メッセージをスキャンさせる">
 <!ENTITY antiVirus.accesskey              "A">
