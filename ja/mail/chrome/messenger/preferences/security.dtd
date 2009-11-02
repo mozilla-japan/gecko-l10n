@@ -32,7 +32,7 @@
 <!ENTITY savedPasswords.intro			"&brandShortName; で利用するすべてのアカウントのパスワードを保存できます。">
 <!ENTITY useMasterPassword.label		"マスターパスワードを使用する">
 <!ENTITY useMasterPassword.accesskey		"U">
-<!ENTITY masterPassword.intro			"マスターパスワードはすべてのパスワードを保護します。ただし、セッションごとに入力を求められます。">
+<!ENTITY masterPassword.intro			"マスターパスワードを使用すると、保存されたすべてのパスワードが保護されます。ただし、セッションごとに入力を求められます。">
 <!ENTITY changeMasterPassword.label		"マスターパスワードを変更...">
 <!ENTITY changeMasterPassword.accesskey		"C">
 <!ENTITY savedPasswords.label			"保存されているパスワード...">
