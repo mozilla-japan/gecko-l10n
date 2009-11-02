@@ -193,7 +193,7 @@
 <!ENTITY expandAllThreadsCmd.label		"すべてのスレッドを広げる">
 <!ENTITY expandAllThreadsCmd.accesskey		"E">
 <!ENTITY expandAllThreadsCmd.key		"*">
-<!ENTITY collapseAllThreadsCmd.label		"すべてのスレッドをたたむ">
+<!ENTITY collapseAllThreadsCmd.label		"すべてのスレッドを折りたたむ">
 <!ENTITY collapseAllThreadsCmd.accesskey	"C">
 <!ENTITY collapseAllThreadsCmd.key		"\">
 <!ENTITY unreadMsgsCmd.label			"未読">
