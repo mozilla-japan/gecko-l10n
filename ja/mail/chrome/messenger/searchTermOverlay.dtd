@@ -2,7 +2,7 @@
 <!ENTITY matchAll.accesskey	"a">
 <!ENTITY matchAny.label		"いずれかの条件に一致">
 <!ENTITY matchAny.accesskey	"o">
-<!ENTITY matchAllMsgs.label	"すべてのメッセージに一致"><!-- (^^; 機能要確認 -->
+<!ENTITY matchAllMsgs.label	"条件なし"><!-- 条件を設定しない場合の選択肢 -->
 <!ENTITY matchAllMsgs.accesskey	"m">
 
 <!-- LOCALIZATION NOTE  
