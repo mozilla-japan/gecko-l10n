@@ -530,7 +530,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label			"メッセージを取得する">
 <!ENTITY folderContextGetMessages.accesskey		"G">
-<!ENTITY folderContextOpenNewWindow.label		"開く">
+<!ENTITY folderContextOpenNewWindow.label		"@@NewWindow@@で開く">
 <!ENTITY folderContextOpenNewWindow.accesskey		"O">
 <!ENTITY folderContextOpenNewTab.label			"@@NewTab@@で開く">
 <!ENTITY folderContextOpenNewTab.accesskey		"T">

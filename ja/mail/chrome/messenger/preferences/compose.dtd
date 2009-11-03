@@ -35,7 +35,7 @@
 <!ENTITY autoSave.accesskey			"A">
 <!ENTITY autoSaveEnd.label			"分ごとに下書きとして自動保存する"><!-- (^^; minutes -->
 
-<!ENTITY emailCollectionPicker.label		"送信メールアドレスを次のアドレス帳に自動で追加する:">
+<!ENTITY emailCollectionPicker.label		"メール送信時に受信者を次のアドレス帳に自動で追加する:">
 <!ENTITY emailCollectionPicker.accesskey	"A">
 <!ENTITY addressingTitle.label			"アドレスの自動補完">
 <!ENTITY autocompleteText.label			"以下に登録されているメールアドレスを宛先等の入力時に自動補完する:">
