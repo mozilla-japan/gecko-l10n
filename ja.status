@@ -65,7 +65,7 @@ all Fx                  28805:30aa3539cedc  2718:2457fbd6cc1f   dynamis         
 all except Fx           -----:------------  3750:363607117bbb   mar             merge from mozilla-1.9.1, changeset 369
 all Fx                  31908:ad95be4fe45d  3893:f0c54256d80a   dynamis         sync with Fx3.6b1, changeset 376
 all Fx                  31975:23ede72138f8  3987:22ea93f331b0   dynamis         sync with mozilla-1.9.2, changeset 390
-
+all Fx                  32764:623cf3215288  4315:039342c0fdc2   dynamis         sync with mozilla-1.9.2, changeset 
 --------------------------------------------------------------------------------
 
         現在の同期ターゲットリビジョン
