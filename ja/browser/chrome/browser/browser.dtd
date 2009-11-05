@@ -263,6 +263,8 @@
 <!ENTITY reloadImageCmd.accesskey	"R">
 <!ENTITY viewImageCmd.label		"画像だけを表示">
 <!ENTITY viewImageCmd.accesskey		"I">
+<!ENTITY viewImageInfoCmd.label		"画像の情報を表示">
+<!ENTITY viewImageInfoCmd.accesskey	"f">
 <!ENTITY viewVideoCmd.label		"動画だけを表示">
 <!ENTITY viewVideoCmd.accesskey		"I">
 <!ENTITY viewBGImageCmd.label		"背景画像だけを表示">
