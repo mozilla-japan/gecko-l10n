@@ -4,7 +4,7 @@
 <!ENTITY addressingGroupTitle.label "アドレス入力">
 <!ENTITY autocompleteToMyDomain.label     "メールアドレスに自分のドメイン名を自動的に追加する">
 <!ENTITY autocompleteToMyDomain.accesskey "o">
-<!ENTITY addressingText.label      "アドレスを検索する際に使用する LDAP ディレクトリサーバ:">
+<!ENTITY addressingText.label      "アドレスを検索する際に使用する LDAP サーバ:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
 <!ENTITY useGlobal.label           "共通の LDAP サーバ設定を使用する">
 <!ENTITY useGlobal.accesskey       "U">
