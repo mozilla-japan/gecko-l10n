@@ -36,11 +36,11 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
-<!ENTITY pref.ldap.window.title    "LDAP ディレクトリサーバ">
+<!ENTITY pref.ldap.window.title    "LDAP サーバ">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label         "LDAP ディレクトリサーバ:">
+<!ENTITY directories.label         "LDAP サーバ:">
 <!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
-<!ENTITY directoriesText.label     "LDAP ディレクトリサーバを選択してください:">
+<!ENTITY directoriesText.label     "LDAP サーバを選択してください:">
 <!ENTITY directoriesText.accesskey "S">
 <!ENTITY addDirectory.label        "追加">
 <!ENTITY addDirectory.accesskey    "a">
