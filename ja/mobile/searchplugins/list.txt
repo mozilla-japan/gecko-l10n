@@ -1,3 +1,5 @@
 google
+amazon-jp
 twitter
 wikipedia-ja
+yahoo-jp
