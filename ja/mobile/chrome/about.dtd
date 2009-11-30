@@ -1,0 +1,14 @@
+<!ENTITY aboutPage.title                        "&brandShortName; について">
+<!ENTITY aboutPage.faq.label                    "よくある質問">
+<!ENTITY aboutPage.support.label                "サポート">
+<!ENTITY aboutPage.privacyPolicy.label          "プライバシーポリシー">
+<!ENTITY aboutPage.rights.label                 "あなたの権利について">
+<!ENTITY aboutPage.relNotes.label               "リリースノート">
+<!ENTITY aboutPage.credits.label                "クレジット">
+
+<!-- LOCALIZATION NOTE:
+     These strings are concatenated in order. Unneeded strings may be left blank.
+  -->
+<!ENTITY aboutPage.copyrightInfo1               "&#169;1998-2009 Contributors. All rights reserved. (">
+<!ENTITY aboutPage.licenseLink                  "ライセンス情報">
+<!ENTITY aboutPage.copyrightInfo2               ").">
