@@ -35,16 +35,16 @@
 <!ENTITY autoSave.accesskey			"A">
 <!ENTITY autoSaveEnd.label			"分ごとに下書きとして自動保存する"><!-- (^^; minutes -->
 
-<!ENTITY emailCollectionPicker.label		"送信メールアドレスを次のアドレス帳に自動で追加する:">
+<!ENTITY emailCollectionPicker.label		"メール送信時に受信者を次のアドレス帳に自動で追加する:">
 <!ENTITY emailCollectionPicker.accesskey	"A">
 <!ENTITY addressingTitle.label			"アドレスの自動補完">
-<!ENTITY autocompleteText.label			"以下に登録されている宛先等の入力時に自動補完する:">
+<!ENTITY autocompleteText.label			"以下に登録されているメールアドレスを宛先等の入力時に自動補完する:">
 <!ENTITY addressingEnable.label			"ローカルのアドレス帳">
 <!ENTITY addressingEnable.accesskey		"L">
-<!ENTITY directories.label			"ディレクトリサーバ:">
+<!ENTITY directories.label			"LDAP サーバ:">
 <!ENTITY directories.accesskey			"D">
 <!ENTITY directoriesNone.label			"なし">
-<!ENTITY editDirectories.label			"ディレクトリサーバの設定...">
+<!ENTITY editDirectories.label			"LDAP サーバの編集...">
 <!ENTITY editDirectories.accesskey		"E">
 
 <!ENTITY sendOptionsDescription.label		"送信するメッセージの形式を設定します。">

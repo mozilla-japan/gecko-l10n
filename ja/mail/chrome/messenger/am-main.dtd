@@ -15,7 +15,7 @@
 <!ENTITY organization.accesskey		"O">
 <!ENTITY signatureText.label		"署名編集:">
 <!ENTITY signatureText.accesskey	"x">
-<!ENTITY signatureHtml.label		"HTML 形式にする (例: &lt;b&gt;太字&lt;/b&gt;、改行は &lt;br&gt;)">
+<!ENTITY signatureHtml.label		"HTML 形式で記述する (例: &lt;b&gt;太字&lt;/b&gt;、改行は &lt;br&gt;)">
 <!ENTITY signatureHtml.accesskey	"L">
 <!ENTITY signatureFile.label		"ファイルから署名を挿入する (テキストまたは HTML、画像ファイル):">
 <!ENTITY signatureFile.accesskey	"t">
