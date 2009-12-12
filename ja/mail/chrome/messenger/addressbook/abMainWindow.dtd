@@ -60,7 +60,7 @@
 <!ENTITY deleteContactsCmd.label		"連絡先を削除">
 <!ENTITY deleteListCmd.label			"リストを削除">
 <!ENTITY deleteListsCmd.label			"リストを削除">
-<!ENTITY deleteItemsCmd.label			"項目を削除">
+<!ENTITY deleteItemsCmd.label			"アイテムを削除">
 <!ENTITY selectAllCmd.label			"@@SelectAll@@">
 <!ENTITY selectAllCmd.key			"A">
 <!ENTITY searchAddressesCmd.key			"f">

@@ -1,7 +1,7 @@
 <!ENTITY autoconfigWizard.title		"メールアカウント設定">
 <!ENTITY name.label			"あなたの名前:">
 <!ENTITY name.accesskey			"n">
-<!ENTITY name.emptytext			"氏名">
+<!ENTITY name.emptytext			"氏名またはニックネーム">
 <!ENTITY name.text			"受信者に表示される名前です。">
 <!ENTITY email.label			"メールアドレス:">
 <!ENTITY email.accesskey		"l">
@@ -67,9 +67,9 @@
 
 <!ENTITY contactYourProvider.description	"提供された設定を使用して &brandShortName; であなたのメールを受信することができます。ただし、これらの接続が不適当でないか、サーバの管理者またはメールプロバイダと連絡をとってください。詳しい情報は Thunderbird FAQ をご覧ください。">
 
-<!ENTITY insecureServer.tooltip.title		"警告！ この受信サーバは安全ではありません。">
+<!ENTITY insecureServer.tooltip.title		"警告！ このサーバは安全ではありません。">
 <!ENTITY insecureServer.tooltip.details		"詳細は丸印をクリックしてください。">
 
-<!ENTITY insecureCleartext.description		"メールが平文で送信されるため、インターネット上の人々にメッセージの内容が読まれる危険性があります。このまま &brandShortName; でメールの送受信ができますが、暗号化された本当に安全な接続が行えるメールプロバイダを利用すべきです。">
+<!ENTITY insecureUnencrypted.description	"あなたのメールと認証情報が暗号化されずに送信されるため、パスワード (およびメッセージの内容) が他の人々に簡単に読まれる危険性があります。このまま &brandShortName; でメールの送受信ができますが、メールプロバイダに、安全な接続を行うサーバを構成するように連絡してください。">
 <!ENTITY insecureSelfSigned.description		"サーバが、自己署名された信頼できない証明書を使用しているため、&brandShortName; とサーバの間の通信が盗聴されないことを保証できません。このまま &brandShortName; でメールの送受信ができますが、信頼できる証明書を使用しているメールプロバイダを利用すべきです。">
 <!ENTITY secureServer.description		"設定が完了しました。このサーバは安全な接続を行うサーバです。">

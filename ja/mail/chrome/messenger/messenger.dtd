@@ -7,6 +7,8 @@
 <!ENTITY newFolderCmd.accesskey			"F">
 <!ENTITY closeTabCmd.label			"タブを閉じる">
 <!ENTITY closeTabCmd.accesskey			"e">
+<!ENTITY closeOtherTabsCmd.label		"他のタブを閉じる">
+<!ENTITY closeOtherTabsCmd.accesskey		"L">
 <!ENTITY newVirtualFolderCmd.label		"検索フォルダ...">
 <!ENTITY newVirtualFolderCmd.accesskey		"S">
 <!ENTITY newOtherAccountsCmd.label		"他のサービスのアカウント...">
@@ -191,7 +193,7 @@
 <!ENTITY expandAllThreadsCmd.label		"すべてのスレッドを広げる">
 <!ENTITY expandAllThreadsCmd.accesskey		"E">
 <!ENTITY expandAllThreadsCmd.key		"*">
-<!ENTITY collapseAllThreadsCmd.label		"すべてのスレッドをたたむ">
+<!ENTITY collapseAllThreadsCmd.label		"すべてのスレッドを折りたたむ">
 <!ENTITY collapseAllThreadsCmd.accesskey	"C">
 <!ENTITY collapseAllThreadsCmd.key		"\">
 <!ENTITY unreadMsgsCmd.label			"未読">
@@ -468,6 +470,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY replyListButton.label		"リストに返信">
 <!ENTITY forwardButton.label		"転送">
 <!ENTITY fileButton.label		"移動"><!-- (^^; en-US: File -->
+<!ENTITY archiveButton.label		"アーカイブ">
 <!ENTITY nextButton.label		"次へ">
 <!ENTITY previousButton.label		"前へ">
 <!ENTITY backButton1.label		"戻る">
@@ -500,6 +503,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY replyListButton.tooltip	"メーリングリストに返信します">
 <!ENTITY forwardButton.tooltip		"メッセージを転送します">
 <!ENTITY fileButton.tooltip		"メッセージを別のフォルダに移します">
+<!ENTITY archiveButton.tooltip		"選択したメッセージをアーカイブに移動します">
 <!ENTITY nextButton.tooltip		"次の未読メッセージに移動します">
 <!ENTITY previousButton.tooltip		"前の未読メッセージに移動します">
 <!ENTITY goForwardButton.tooltip	"メッセージ表示履歴を次に進みます"><!-- 一つ次以外も -->
@@ -526,7 +530,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label			"メッセージを取得する">
 <!ENTITY folderContextGetMessages.accesskey		"G">
-<!ENTITY folderContextOpenNewWindow.label		"開く">
+<!ENTITY folderContextOpenNewWindow.label		"@@NewWindow@@で開く">
 <!ENTITY folderContextOpenNewWindow.accesskey		"O">
 <!ENTITY folderContextOpenNewTab.label			"@@NewTab@@で開く">
 <!ENTITY folderContextOpenNewTab.accesskey		"T">
@@ -627,6 +631,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contextOpenNewTab.accesskey		"T">
 <!ENTITY contextEditAsNew.label			"新しく編集...">
 <!ENTITY contextEditAsNew.accesskey		"E">
+<!ENTITY contextArchive.label			"アーカイブ">
+<!ENTITY contextArchive.accesskey		"h">
 <!ENTITY contextReplySender.label		"送信者だけに返信">
 <!ENTITY contextReplySender.accesskey		"R">
 <!ENTITY contextReplyNewsgroup.label		"ニュースグループに返信">
@@ -681,7 +687,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!-- Quick Search Bar -->
 <!ENTITY quickSearchCmd.key		"k">
-<!ENTITY searchEverywhere.label		"全文検索">
+<!ENTITY searchAllMessages.label	"すべてのメッセージを検索">
 
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label		"アドレス帳に追加...">
@@ -692,10 +698,16 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY EditContact.accesskey		"E">
 <!ENTITY ViewContact.label		"連絡先を表示">
 <!ENTITY ViewContact.accesskey		"V">
-<!ENTITY SendMailTo.label		"メールを作成">
-<!ENTITY SendMailTo.accesskey		"s">
+<!ENTITY SubscribeToNewsgroup.label	"ニュースグループを購読">
+<!ENTITY SubscribeToNewsgroup.accesskey	"N">
+<!ENTITY SendMessageTo.label		"メッセージを作成">
+<!ENTITY SendMessageTo.accesskey	"s">
 <!ENTITY CopyEmailAddress.label		"メールアドレスをコピー">
 <!ENTITY CopyEmailAddress.accesskey	"C">
+<!ENTITY CopyNewsgroupName.label	"ニュースグループ名をコピー">
+<!ENTITY CopyNewsgroupName.accesskey	"C">
+<!ENTITY CopyNewsgroupURL.label		"ニュースグループの URL をコピー">
+<!ENTITY CopyNewsgroupURL.accesskey	"U">
 <!ENTITY CreateFilterFrom.label		"フィルタを作成...">
 <!ENTITY CreateFilterFrom.accesskey	"F">
 <!ENTITY reportPhishingURL.label	"偽装サイトの URL を報告"><!-- en-US: Report E-mail Scam -->
@@ -706,16 +718,28 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY saveLinkAsCmd.accesskey	"k">
 <!ENTITY saveImageAsCmd.label		"@@SaveImageAs@@...">
 <!ENTITY saveImageAsCmd.accesskey	"v">
+<!ENTITY cutCmd.label			"@@Cut@@">
+<!ENTITY cutCmd.accesskey		"u">
 <!ENTITY copyCmd.label			"コピー">
 <!ENTITY copyCmd.accesskey		"C">
+<!ENTITY pasteCmd.label			"@@Paste@@">
+<!ENTITY pasteCmd.accesskey		"P">
 <!ENTITY selectAllCmd.label		"@@SelectAll@@">
 <!ENTITY selectAllCmd.accesskey		"A">
 <!ENTITY copyLinkCmd.label		"リンク URL をコピー">
 <!ENTITY copyLinkCmd.accesskey		"C">
 <!ENTITY copyImageCmd.label		"画像の URL をコピー">
-<!ENTITY copyImageCmd.accesskey		"o">
+<!ENTITY copyImageCmd.accesskey		"I">
 <!ENTITY copyEmailCmd.label		"メールアドレスをコピー">
 <!ENTITY copyEmailCmd.accesskey		"E">
+<!ENTITY stopCmd.label			"中止">
+<!ENTITY stopCmd.accesskey		"S">
+<!ENTITY reloadCmd.label		"更新">
+<!ENTITY reloadCmd.accesskey		"R">
+<!ENTITY openInBrowser.label		"ブラウザで開く">
+<!ENTITY openInBrowser.accesskey	"O">
+<!ENTITY openLinkInBrowser.label	"リンクをブラウザで開く">
+<!ENTITY openLinkInBrowser.accesskey	"O">
 
 <!-- Statusbar -->
 <!ENTITY  statusText.label		"完了">

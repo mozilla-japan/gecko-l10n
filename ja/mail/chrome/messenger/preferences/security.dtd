@@ -6,9 +6,9 @@
 
 <!-- Junk Mail Controls -->
 <!ENTITY manualMark.accesskey			"W">
-<!ENTITY junkMail.intro				"@@Default-@@迷惑メールフィルタを設定します。アカウントごとに迷惑メールフィルタの設定は @@[@@アカウント設定@@]@@ で行います。">
+<!ENTITY junkMail.intro				"@@Default-@@迷惑メールフィルタの動作を設定します。アカウントごとの迷惑メールフィルタの設定は @@[@@アカウント設定@@]@@ で行います。">
 <!ENTITY manualMark.label			"迷惑メールであると手動でマークしたときに次の処理を実行する:">
-<!ENTITY manualMarkModeMove.label		"@@[@@迷惑メール@@]@@ フォルダへ移動する">
+<!ENTITY manualMarkModeMove.label		"&quot;迷惑メール&quot; フォルダへ移動する">
 <!ENTITY manualMarkModeMove.accesskey		"o">
 <!ENTITY manualMarkModeDelete.label		"メッセージを削除する">
 <!ENTITY manualMarkModeDelete.accesskey		"D">
@@ -32,7 +32,7 @@
 <!ENTITY savedPasswords.intro			"&brandShortName; で利用するすべてのアカウントのパスワードを保存できます。">
 <!ENTITY useMasterPassword.label		"マスターパスワードを使用する">
 <!ENTITY useMasterPassword.accesskey		"U">
-<!ENTITY masterPassword.intro			"マスターパスワードはすべてのパスワードを保護します。ただし、セッションごとに入力を求められます。">
+<!ENTITY masterPassword.intro			"マスターパスワードを使用すると、保存されたすべてのパスワードが保護されます。ただし、セッションごとに入力を求められます。">
 <!ENTITY changeMasterPassword.label		"マスターパスワードを変更...">
 <!ENTITY changeMasterPassword.accesskey		"C">
 <!ENTITY savedPasswords.label			"保存されているパスワード...">
@@ -40,7 +40,7 @@
 
 <!-- Anti Virus -->
 <!ENTITY antiVirus.intro			"ウイルス対策ソフトがウイルスを検出したとき、感染したメッセージだけを処理できるようにします。"><!-- en-US: &brandShortName; can make it easy for anti-virus software to analyze incoming mail messages for viruses before they are stored locally. 直訳: 受信メッセージを保存する前に、それをウイルス対策ソフトで分析しやすくなるようにできます。 -->
-<!ENTITY antiVirus.label			"受信したメッセージは一度個別の一時ファイルとして保存してからメールボックスに移動させる"><!-- en-US: Allow anti-virus clients to quarantine individual incoming messages 直訳: ウイルス対策ソフトが個別の受信メッセージを隔離できるようにする -->
+<!ENTITY antiVirus.label			"受信したメッセージは個別の一時ファイルとして保存してからメールボックスに移動させる"><!-- en-US: Allow anti-virus clients to quarantine individual incoming messages 直訳: ウイルス対策ソフトが個別の受信メッセージを隔離できるようにする -->
 <!ENTITY antiVirus.accesskey			"A">
 
 <!-- Cookies -->

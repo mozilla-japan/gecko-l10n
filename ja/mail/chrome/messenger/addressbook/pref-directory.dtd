@@ -36,7 +36,7 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
-<!ENTITY pref.ldap.window.title		"LDAP ディレクトリサーバ">
+<!ENTITY pref.ldap.window.title		"LDAP サーバ">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
 <!ENTITY directories.label		"LDAP サーバ:">
 <!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
