@@ -28,4 +28,4 @@ $section-number <$full-url>
 
 
 Mozilla JavaScript デバッガ Venkman のご利用ありがとうございます。
-<https://developer.mozilla.org/ja/Venkman>
+<http://www.mozilla.org/projects/venkman>
