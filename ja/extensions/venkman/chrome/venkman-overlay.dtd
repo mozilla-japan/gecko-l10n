@@ -40,11 +40,10 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY venkmanCmd.label	"JavaScript デバッガ">
-<!ENTITY venkmanCmd.accesskey	"D">
+<!ENTITY venkmanCmd.label     "JavaScript デバッガ">
+<!ENTITY venkmanCmd.accesskey "D">
 
-<!ENTITY vnkButton.label	"JavaScript デバッガ">
+<!ENTITY vnkButton.label      "JavaScript デバッガ">
   
-<!ENTITY vnkMenu.label		"JavaScript デバッガ">
-<!ENTITY vnkMenu.accesskey	"J">
-
+<!ENTITY vnkMenu.label        "JavaScript デバッガ">
+<!ENTITY vnkMenu.accesskey    "J">
