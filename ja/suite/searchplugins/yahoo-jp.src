@@ -1,8 +1,8 @@
 <SEARCH
-    version = "7.1" 
+    version = "7.2" 
 	name = "Yahoo! JAPAN"
 	description = "Yahoo Search"
-	action = "http://search.yahoo.co.jp/bin/search"
+	action = "http://search.yahoo.co.jp/search"
 	method = get
 	routeType = internet
 	queryEncoding="2336"
@@ -15,7 +15,7 @@
 
 <INTERPRET
 	browserResultType = "result"
-	charset = "EUC-JP" 
+	charset = "UTF-8" 
 	resultEncoding = "2336" 
 	resultTranslationEncoding = "1" 
 	resultListStart = "<!-- /InsideYahooMatchSpace -->"
