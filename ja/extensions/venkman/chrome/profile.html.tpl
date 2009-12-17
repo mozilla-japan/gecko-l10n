@@ -1,6 +1,13 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Japanese Localization:
+   -   dynamis
+   -->
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- inserted by dynamis
+      -- This charset must synch with 'msg.report.charset', which is in venkman.properties file.
+      -->
     <title>JavaScript プロファイルデータ</title>
   </head>
   <style>
@@ -61,17 +68,32 @@
         border-right: 1px black solid;
         background  : darkslategrey;
     }
+    <!-- style inserted by dynamis -->
+    h1 {
+        text-align: center;
+        margin: 1em 0em;
+    }
   </style>
   <body>
-    <h1>JavaScript Profile Data</h1>
-    <span class="label">データ収集日時:</span>
-    <span class="value">$full-date</span><br>
-    <span class="label">ユーザエージェント:</span>
-    <span class="value">$user-agent</span><br>
-    <span class="label">デバッガバージョン:</span>
-    <span class="value">$venkman-agent</span><br>
-    <span class="label">ソート基準項目:</span>
-    <span class="value">$sort-key</span><br>
+    <h1>JavaScript プロファイルデータ</h1>
+    <table><!-- placed in table by dynamis -->
+      <tr>
+        <td><span class="label">データ収集日時</span></td><td> : </td>
+        <td><span class="value">$full-date</span></td>
+      </tr>
+      <tr>
+        <td><span class="label">ユーザエージェント</span></td><td> : </td>
+        <td><span class="value">$user-agent</span></td>
+      </tr>
+      <tr>
+        <td><span class="label">デバッガバージョン</span></td><td> : </td>
+        <td><span class="value">$venkman-agent</span></td>
+      </tr>
+      <tr>
+        <td><span class="label">ソート基準項目</span></td><td> : </td>
+        <td><span class="value">$sort-key</span></td>
+      </tr>
+    </table>
     <a name="section0"></a>
 @-section-start
     <hr>
