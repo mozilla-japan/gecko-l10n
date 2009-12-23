@@ -13,7 +13,7 @@
 <inputnext name="start" factor="10">
 <inputprev name="start" factor="10">
 <input name="hl" value="ja">
-<input name="lr" value="lang_ja">
+<!-- <input name="lr" value="lang_ja"> -->
 <input name="ie" value="utf-8">
 <input name="oe" value="utf-8">
 
