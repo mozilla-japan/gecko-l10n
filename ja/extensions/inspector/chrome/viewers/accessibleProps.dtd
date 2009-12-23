@@ -41,11 +41,13 @@
 <!ENTITY descDescription.label "説明:">
 <!ENTITY descValue.label "値:">
 <!ENTITY descState.label "状態:">
-<!ENTITY descActionName.label "作用名:">
 <!ENTITY descBounds.label "位置と寸法:">
 <!ENTITY tabAttrs.label "オブジェクトの属性">
 <!ENTITY colAttrName.label "名前">
 <!ENTITY colAttrValue.label "値">
+<!ENTITY tabActions.label "作用">
+<!ENTITY descKeyBindings.label "キーバインド:">
+<!ENTITY descInvoke.label "発動">
 <!ENTITY tabTableCell.label "Table セル">
 <!ENTITY descColumnIdx.label "列インデックス:">
 <!ENTITY descRowIdx.label "行インデックス:">
