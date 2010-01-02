@@ -1,6 +1,5 @@
-<!--
-   -
-   - ***** BEGIN LICENSE BLOCK *****
+<!-- ***** BEGIN LICENSE BLOCK *****
+#if 0
    - Version: MPL 1.1/GPL 2.0/LGPL 2.1
    -
    - The contents of this file are subject to the Mozilla Public License Version
@@ -13,18 +12,15 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is The JavaScript Debugger.
+   - The Original Code is DOM Inspector.
    -
    - The Initial Developer of the Original Code is
-   - Netscape Communications Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 1998
+   - Mozilla Foundation.
+   - Portions created by the Initial Developer are Copyright (C) 2008
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -  Robert Ginda, <rginda@netscape.com>, original author
-   - 
-   - Javanese Localization by
-   -  dynamis
+   -   Alexander Surkov <surkov.alexander@gmail.com> (original author)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -34,16 +30,19 @@
    - under the terms of either the GPL or the LGPL, and not to allow others to
    - use your version of this file under the terms of the MPL, indicate your
    - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - and other provisions required by the LGPL or the GPL. If you do not delete
    - the provisions above, a recipient may use your version of this file under
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
+#endif
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY venkmanCmd.label     "JavaScript デバッガ">
-<!ENTITY venkmanCmd.accesskey "D">
+  <!ENTITY evaluateDialog.title "JavaScript の式評価ダイアログ">
 
-<!ENTITY vnkButton.label      "JavaScript デバッガ">
+  <!ENTITY btnEvaluateJS.label "評価">
+  <!ENTITY btnEvaluateJS.accesskey "E">
   
-<!ENTITY vnkMenu.label        "JavaScript デバッガ">
-<!ENTITY vnkMenu.accesskey    "J">
+  <!ENTITY txtInputArea.label "入力エリア ('accessible' 変数により選択中の accessible へアクセスできます。'output()' 関数により '出力エリア' に結果を出力します。): ">
+  <!ENTITY txtInputArea.accesskey "I">
+  <!ENTITY txtOutputArea.label "出力エリア: ">
+  <!ENTITY txtOutputArea.accesskey "O">
