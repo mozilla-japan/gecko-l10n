@@ -1,6 +1,5 @@
-<!--
-   -
-   - ***** BEGIN LICENSE BLOCK *****
+<!-- ***** BEGIN LICENSE BLOCK *****
+#if 0
    - Version: MPL 1.1/GPL 2.0/LGPL 2.1
    -
    - The contents of this file are subject to the Mozilla Public License Version
@@ -13,18 +12,15 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is The JavaScript Debugger.
+   - The Original Code is DOM Inspector.
    -
    - The Initial Developer of the Original Code is
-   - Netscape Communications Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 1998
+   - Vasiliy Potapenko
+   - Portions created by the Initial Developer are Copyright (C) 2007
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -  Robert Ginda, <rginda@netscape.com>, original author
-   - 
-   - Javanese Localization by
-   -  dynamis
+   - Vasiliy Potapenko <vasiliy.potapenko@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -34,16 +30,31 @@
    - under the terms of either the GPL or the LGPL, and not to allow others to
    - use your version of this file under the terms of the MPL, indicate your
    - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - and other provisions required by the LGPL or the GPL. If you do not delete
    - the provisions above, a recipient may use your version of this file under
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
+#endif
    - ***** END LICENSE BLOCK ***** -->
-
-<!ENTITY venkmanCmd.label     "JavaScript デバッガ">
-<!ENTITY venkmanCmd.accesskey "D">
-
-<!ENTITY vnkButton.label      "JavaScript デバッガ">
-  
-<!ENTITY vnkMenu.label        "JavaScript デバッガ">
-<!ENTITY vnkMenu.accesskey    "J">
+<!ENTITY descRole.label "役割:">
+<!ENTITY descName.label "ラベル:">
+<!ENTITY descDescription.label "説明:">
+<!ENTITY descValue.label "値:">
+<!ENTITY descState.label "状態:">
+<!ENTITY descBounds.label "位置と寸法:">
+<!ENTITY tabAttrs.label "オブジェクトの属性">
+<!ENTITY colAttrName.label "名前">
+<!ENTITY colAttrValue.label "値">
+<!ENTITY tabActions.label "作用">
+<!ENTITY descKeyBindings.label "キーバインド:">
+<!ENTITY descInvoke.label "発動">
+<!ENTITY tabTableCell.label "Table セル">
+<!ENTITY descColumnIdx.label "列インデックス:">
+<!ENTITY descRowIdx.label "行インデックス:">
+<!ENTITY descColumnExtent.label "列範囲:">
+<!ENTITY descRowExtent.label "行範囲:">
+<!ENTITY descIsSelected.label "選択中か:">
+<!ENTITY colProp.label "プロパティ">
+<!ENTITY colRole.label "役割">
+<!ENTITY colName.label "ラベル">
+<!ENTITY colNodeName.label "ノード名">

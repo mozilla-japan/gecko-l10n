@@ -1,11 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<!-- Contributor(s):
-   -   Robert Ginda, <rginda@netscape.com>, original author
-   - Javanese Localization by
+<!-- Javanese Localization by
    -   dynamis
-   - 
-   - According to HTML DTD definition, block level element cannnot appear in SPAN element.
-   - But original file use SPAN as container of P or UL and the forth, and I replaced some SPAN with DIV except SPANs defined as block level by css.
    -->
 <html>
   <head>
