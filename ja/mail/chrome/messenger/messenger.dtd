@@ -440,6 +440,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY addons.accesskey		"A">
 <!ENTITY activitymanager.label		"イベントログの管理"><!-- (^^; en-US: Activity Manager -->
 <!ENTITY activitymanager.accesskey	"v">
+<!ENTITY savedFiles.label		"保存したファイル">
+<!ENTITY savedFiles.accesskey		"l">
+<!ENTITY savedFiles.key			"j">
 <!ENTITY filtersCmd.label		"メッセージフィルタ...">
 <!ENTITY filtersCmd.accesskey		"F">
 <!ENTITY filtersApply.label		"フォルダにフィルタを適用">
@@ -728,8 +731,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY selectAllCmd.accesskey		"A">
 <!ENTITY copyLinkCmd.label		"リンク URL をコピー">
 <!ENTITY copyLinkCmd.accesskey		"C">
-<!ENTITY copyImageCmd.label		"画像の URL をコピー">
-<!ENTITY copyImageCmd.accesskey		"I">
+<!ENTITY copyImageAllCmd.label		"画像をコピー">
+<!ENTITY copyImageAllCmd.accesskey	"I">
 <!ENTITY copyEmailCmd.label		"メールアドレスをコピー">
 <!ENTITY copyEmailCmd.accesskey		"E">
 <!ENTITY stopCmd.label			"中止">
