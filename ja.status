@@ -66,7 +66,9 @@ all except Fx           -----:------------  3750:363607117bbb   mar             
 all Fx                  31908:ad95be4fe45d  3893:f0c54256d80a   dynamis         sync with Fx3.6b1, changeset 376
 all Fx                  31975:23ede72138f8  3987:22ea93f331b0   dynamis         sync with mozilla-1.9.2, changeset 390
 all Fx                  32764:623cf3215288  4315:039342c0fdc2   dynamis         sync with mozilla-1.9.2, changeset 
-mail,calendar,editor    -----:------------  -----:-----------   mar             merge from mozilla-1.9.1, changeset 618
+mail,calendar,editor/ui -----:------------  ----:------------   mar             merge from mozilla-1.9.1, changeset 618
+mail, extensions        33471:020a9d1400ba  4613:0e0c0743080f   mar             sync with comm-central, changeset 648
+
 --------------------------------------------------------------------------------
 
         現在の同期ターゲットリビジョン
@@ -77,7 +79,7 @@ sync.calendar.rev				= 363607117bbb
 sync.dom.rev					= 23ede72138f8
 sync.editor.rev					= 363607117bbb
 sync.extensions.rev				= 23ede72138f8
-sync.mail.rev					= 363607117bbb
+sync.mail.rev					= 0e0c0743080f
 sync.mobile.rev					= 
 sync.netwerk.rev				= 23ede72138f8
 sync.other-licenses.fx.rev		= 23ede72138f8
