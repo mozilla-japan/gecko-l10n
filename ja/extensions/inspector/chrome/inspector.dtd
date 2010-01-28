@@ -49,6 +49,8 @@
   <!ENTITY cmdToggleBrowser.label	"ブラウザ">
   <!ENTITY cmdToggleBrowser.accesskey	"B">
   <!ENTITY cmdToggleSearch.label	"検索結果">
+  <!ENTITY cmdFlashOnSelect.label	"選択した要素を点滅">
+  <!ENTITY cmdFlashOnSelect.accesskey	"S">
 
 <!ENTITY browserPanel.label		"ブラウザ">
 

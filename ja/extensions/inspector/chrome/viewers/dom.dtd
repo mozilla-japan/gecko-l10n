@@ -57,9 +57,6 @@
 <!ENTITY cmdToggleProcessingInstructions.label		"処理命令を表示">
 <!ENTITY cmdToggleProcessingInstructions.accesskey	"P">
 
-<!ENTITY cmdFlashSelected.label			"選択した要素を点滅">
-<!ENTITY cmdFlashSelected.accesskey		"S">
-
 <!ENTITY cmdToggleAttributes.label		"属性を表示">
 <!ENTITY cmdToggleAttributes.accesskey		"r">
 

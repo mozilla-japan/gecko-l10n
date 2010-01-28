@@ -38,5 +38,8 @@
 <!ENTITY eventType.label "イベントの種類">
 <!ENTITY eventTime.label "時刻">
 <!ENTITY eventNodeName.label "ノード名">
+<!ENTITY isWatched.label "監視中か">
 <!ENTITY clearEventList.label "イベントリストを@@Clear@@">
-
+<!ENTITY chooseEventsToWatch.label "監視するイベントを選択">
+<!ENTITY selectAll.label "@@SelectAll@@">
+<!ENTITY unselectAll.label "すべての選択を解除">
