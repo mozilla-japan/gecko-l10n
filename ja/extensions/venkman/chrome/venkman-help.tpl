@@ -1,5 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-
+<!-- Javanese Localization by
+   -   dynamis
+   -->
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=$report-charset">
@@ -46,7 +48,8 @@
 
       function onKeyUp (event)
       {
-          if (event.keyCode == 13)
+        //  if (event.keyCode == 13) // original code
+          if ((event.keyCode == 3) || (event.keyCode == 13)) // chado custom for mac enter key
               onSearch();
       }
 

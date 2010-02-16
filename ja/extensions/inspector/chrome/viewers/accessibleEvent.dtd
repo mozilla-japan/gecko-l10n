@@ -1,5 +1,4 @@
 <!-- ***** BEGIN LICENSE BLOCK *****
-#if 0
    - Version: MPL 1.1/GPL 2.0/LGPL 2.1
    -
    - The contents of this file are subject to the Mozilla Public License Version
@@ -15,11 +14,12 @@
    - The Original Code is DOM Inspector.
    -
    - The Initial Developer of the Original Code is
-   - Netscape Communications Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2003
+   - Mozilla Foundation.
+   - Portions created by the Initial Developer are Copyright (C) 2007
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
+   -   Alexander Surkov <surkov.alexander@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -33,8 +33,13 @@
    - the provisions above, a recipient may use your version of this file under
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
-#endif
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY sheetLocation.label	"スタイルシート">
-<!ENTITY sheetRules.label	"規則">
+<!ENTITY descIsFromUserInput.label "ユーザによる入力か: ">
+<!ENTITY descState.label "状態: ">
+<!ENTITY descIsEnabled.label "状態が有効か: ">
+<!ENTITY descStartOffset.label "開始オフセット位置: ">
+<!ENTITY descLength.label "長さ: ">
+<!ENTITY descIsInserted.label "テキストの挿入か: ">
+<!ENTITY descModifiedText.label "変更されたテキスト: ">
+<!ENTITY descCaretOffset.label "キャレットのオフセット位置: ">
