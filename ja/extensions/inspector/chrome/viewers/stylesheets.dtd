@@ -36,5 +36,5 @@
 #endif
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY styleLocation.label	"スタイルシート">
-<!ENTITY styleRules.label	"規則">
+<!ENTITY sheetLocation.label	"スタイルシート">
+<!ENTITY sheetRules.label	"規則">
