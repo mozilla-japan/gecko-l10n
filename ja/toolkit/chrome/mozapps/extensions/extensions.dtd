@@ -22,13 +22,14 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey		"F">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip	"アドオンの更新がないか確認します">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip	"テーマの更新がないか確認します">
+<!ENTITY cmd.checkUpdatesAllPlugin.tooltip	"プラグインの更新がないか確認します">
 <!ENTITY cmd.installLocalFile.label		"インストール...">
 <!ENTITY cmd.installLocalFile.accesskey		"n">
 <!ENTITY cmd.installFileAddon.tooltip		"アドオンをインストールします">
 <!ENTITY cmd.installFileTheme.tooltip		"テーマをインストールします">
-<!ENTITY cmd.installUpdatesAll.label		"更新をインストール">
-<!ENTITY cmd.installUpdatesAll.accesskey	"I">
-<!ENTITY cmd.installUpdatesAll.tooltip		"選択した更新をインストールします">
+<!ENTITY cmd.installUpdatesAll2.label		"更新をインストール">
+<!ENTITY cmd.installUpdatesAll2.accesskey	"I">
+<!ENTITY cmd.installUpdatesAll2.tooltip		"選択した更新をインストールします">
 <!ENTITY cmd.restartApp2.label			"&brandShortName; を再起動">
 <!ENTITY cmd.restartApp2.accesskey		"R">
 <!ENTITY cmd.restartApp2.tooltip		"&brandShortName; を再起動して変更を適用します">
@@ -54,7 +55,7 @@
 <!ENTITY cmd.options.accesskey			"O">
 <!ENTITY cmd.options.tooltip			"選択した拡張機能の設定を変更します">
 <!ENTITY cmd.optionsUnix.label			"設定">
-<!ENTITY cmd.optionsUnix.accesskey		"r">
+<!ENTITY cmd.optionsUnix.accesskey		"P">
 <!ENTITY cmd.optionsUnix.tooltip		"選択した拡張機能の設定を変更します">
 <!ENTITY cmd.enable.label			"有効化">
 <!ENTITY cmd.enable.accesskey			"E">
@@ -114,6 +115,7 @@
 <!ENTITY needsDependencies.label		"このアドオンの動作に必要なアドオンがありません。">
 <!ENTITY blocklisted.label			"ユーザ保護のために無効化されています。">
 <!ENTITY softBlocklisted.label			"セキュリティまたは安定性に問題を生じることが知られています。">
+<!ENTITY outdated.label				"新しくより安全なバージョンがリリースされています。">
 <!ENTITY toBeDisabled.label			"このアドオンは &brandShortName; の再起動後に無効になります。">
 <!ENTITY toBeEnabled.label			"このアドオンは &brandShortName; の再起動後に有効になります。">
 <!ENTITY toBeInstalled.label			"このアドオンは &brandShortName; の再起動後にインストールされます。">

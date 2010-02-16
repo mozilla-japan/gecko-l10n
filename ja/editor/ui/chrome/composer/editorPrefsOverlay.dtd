@@ -4,6 +4,6 @@
 <!ENTITY editorCheck.accesskey	"c">
 
 <!ENTITY compose.label		"Composer">
-<!ENTITY editing.label		"新規ページの設定">
+<!ENTITY editing.label		"新しいページの設定">
 <!ENTITY toolbars.label		"ツールバー">
 <!ENTITY publish.label		"アップロード">
