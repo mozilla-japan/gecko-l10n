@@ -10,7 +10,7 @@ calendar                comm    Sb              Sunbird/Lightning
 dom                     moz     all             
 editor/ui               comm    Tb, Sm          メール編集画面
 extensions
-  inspector             moz     Fx, Sm          
+  inspector             dom-i   Fx, Sm          DOM Inspector
   irc                   moz     Sm              IRC Client Chatzilla
   reporter              moz     Fx, Sm          不具合のあるサイトのレポータ
   spellcheck            moz     Fx, Tb, Sm      日本語のスペルチェックは無し
@@ -68,6 +68,7 @@ all Fx                  31975:23ede72138f8  3987:22ea93f331b0   dynamis         
 all Fx                  32764:623cf3215288  4315:039342c0fdc2   dynamis         sync with mozilla-1.9.2, changeset 
 mail,calendar,editor/ui -----:------------  ----:------------   mar             merge from mozilla-1.9.1, changeset 618
 mail, extensions        33471:020a9d1400ba  4613:0e0c0743080f   mar             sync with comm-central, changeset 648
+inspector               -----:------------  ----:------------   mar             sync domi rev838, changeset 651
 
 --------------------------------------------------------------------------------
 
@@ -76,7 +77,7 @@ mail, extensions        33471:020a9d1400ba  4613:0e0c0743080f   mar             
 --------------------------------------------------------------------------------
 sync.browser.rev				= 23ede72138f8
 sync.calendar.rev				= 363607117bbb
-sync.dom.rev					= 23ede72138f8
+sync.dom.rev					= e71139b4dd49
 sync.editor.rev					= 363607117bbb
 sync.extensions.rev				= 23ede72138f8
 sync.mail.rev					= 0e0c0743080f
