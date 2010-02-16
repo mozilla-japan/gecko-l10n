@@ -20,6 +20,7 @@
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
+   -    Karsten Düsterloh <mnyromy@tprac.de>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -36,12 +37,17 @@
 #endif
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY bindingContent.label		"内容">
-<!ENTITY bindingMethods.label		"メソッド">
-<!ENTITY bindingProperties.label	"プロパティ">
-<!ENTITY bindingGetter.label		"ゲッタ">
-<!ENTITY bindingSetter.label		"セッタ">
-<!ENTITY bindingProperty.label		"プロパティ">
-<!ENTITY bindingHandlers.label		"ハンドラ">
-<!ENTITY bindingResources.label		"リソース">
-<!ENTITY bindingSourceCode.label	"ソースコード">
+<!ENTITY bindingContent.label      "コンテンツ">
+<!ENTITY bindingMethods.label      "メソッド">
+<!ENTITY bindingMethodName.label   "メソッド名">
+<!ENTITY bindingProperties.label   "プロパティ">
+<!ENTITY bindingGetter.label       "ゲッタ">
+<!ENTITY bindingSetter.label       "セッタ">
+<!ENTITY bindingProperty.label     "プロパティ">
+<!ENTITY bindingHandlers.label     "ハンドラ">
+<!ENTITY bindingHandlerEvent.label "イベント">
+<!ENTITY bindingHandlerPhase.label "フェーズ">
+<!ENTITY bindingResources.label    "リソース">
+<!ENTITY bindingResourceType.label "型">
+<!ENTITY bindingResourceSrc.label  "ソース">
+<!ENTITY bindingSourceCode.label   "ソースコード">

@@ -15,11 +15,12 @@
    - The Original Code is DOM Inspector.
    -
    - The Initial Developer of the Original Code is
-   - Netscape Communications Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2003
+   - Mozilla Foundation.
+   - Portions created by the Initial Developer are Copyright (C) 2008
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
+   -   Alexander Surkov <surkov.alexander@gmail.com> (original author)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -36,5 +37,12 @@
 #endif
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY sheetLocation.label	"スタイルシート">
-<!ENTITY sheetRules.label	"規則">
+  <!ENTITY evaluateDialog.title "JavaScript の式評価ダイアログ">
+
+  <!ENTITY btnEvaluateJS.label "評価">
+  <!ENTITY btnEvaluateJS.accesskey "E">
+  
+  <!ENTITY txtInputArea.label "入力エリア ('accessible' 変数により選択中の accessible へアクセスできます。'output()' 関数により '出力エリア' に結果を出力します。): ">
+  <!ENTITY txtInputArea.accesskey "I">
+  <!ENTITY txtOutputArea.label "出力エリア: ">
+  <!ENTITY txtOutputArea.accesskey "O">

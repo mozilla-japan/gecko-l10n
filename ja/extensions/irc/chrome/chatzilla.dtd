@@ -1,119 +1,14 @@
-<!ENTITY Menubar.tooltip    "メイン メニュー">
-<!ENTITY Toolbar.tooltip    "メイン ツールバー">
+<!ENTITY Menubar.tooltip		"メインメニュー">
+<!ENTITY Toolbar.tooltip		"メインツールバー">
 
+<!ENTITY multiline-expand.tooltip	"複数行入力に切り替え (Ctrl+Up)">
+<!ENTITY multiline-contract.tooltip	"1 行入力に切り替え (Ctrl+Down)">
+<!ENTITY multiline-send.tooltip		"このテキストを送信 (Ctrl+Enter)">
+<!ENTITY server-nick.tooltip		"ニックネームの変更または状態の設定。入力ボックスにフォーカスを移動するには ESC キーを押してください。">
 
-<!ENTITY multiline-expand.tooltip   "複数行入力に切り替え (Ctrl＋Up)">
-<!ENTITY multiline-contract.tooltip "1 行入力に切り替え (Ctrl＋Down)">
-<!ENTITY multiline-send.tooltip     "このテキストを送信 (Ctrl＋Enter)">
-<!ENTITY server-nick.tooltip        "Change nickname or set away state. To focus the input box, press Escape.">
-
-<!ENTITY Underline.label             "下線付き">
-<!ENTITY Bold.label                  "太字">
-<!ENTITY Reverse.label               "反転">
-<!ENTITY Normal.label                "通常">
-<!ENTITY Color.label                 "@@Colors@@">
-<!ENTITY ForeBack.label              "xx=進む yy=戻る">
-
-<!-- 以下はen-USにはない    -->
-<!ENTITY menuBar.tooltip    "メニューバー">
-<!ENTITY header.tooltip     "ヘッダー">
-<!ENTITY op.value           "Op">
-<!ENTITY op.accesskey       "o">
-<!ENTITY deop.value         "Deop">
-<!ENTITY deop.accesskey     "d">
-<!ENTITY voice.value        "Voice">
-<!ENTITY voice.accesskey    "v">
-<!ENTITY devoice.value      "Devoice">
-<!ENTITY devoice.accesskey  "e">
-<!ENTITY kick.value         "Kick">
-<!ENTITY kick.accesskey     "k">
-<!ENTITY kick2.value        "理由付き Kick">
-<!ENTITY kick2.accesskey    "r">
-<!ENTITY whois.value        "Whois">
-<!ENTITY whois.accesskey    "w">
-
-
-<!ENTITY url.label               "URL">
-<!ENTITY mode.label              "モード">
-<!ENTITY topic.label             "トピック">
-<!ENTITY users.label             "ユーザ">
-<!ENTITY lag.label               "ラグ">
-
-<!ENTITY OptionsCmd.label        "オプション">
-<!ENTITY OptionsCmd.accesskey    "O">
-<!ENTITY MungerCmd.label         "Munger">
-<!ENTITY MungerCmd.accesskey     "M">
-<!ENTITY DisableMunger.label     "すべて無効化">
-<!ENTITY DisableMunger.accesskey "D">
-<!ENTITY EnableColors.label      "カラー コード">
-<!ENTITY EnableColors.accesskey  "C">
-
-<!ENTITY DebugMsgCmd.label       "デバッグ モード">
-<!ENTITY DebugMsgCmd.aKey        "D">
-<!ENTITY SaveSetNowCmd.label     "設定を今すぐ保存">
-<!ENTITY SaveSetNowCmd.akey      "N">
-<!ENTITY SaveSetExitCmd.label    "設定を終了時に保存">
-<!ENTITY SaveSetExitCmd.akey     "E">
-<!ENTITY ViewCmd.label           "表示">
-<!ENTITY ViewCmd.aKey            "V">
-<!ENTITY ShowCmd.label           "表示/非表示">
-<!ENTITY ShowCmd.akey            "S">
-<!ENTITY ShowTabStripCmd.label   "タブ">
-<!ENTITY ShowTabStripCmd.aKey    "T">
-<!ENTITY ShowUserlistCmd.label   "ユーザリスト">
-<!ENTITY ShowUserlistCmd.aKey    "U">
-<!ENTITY ShowHeaderCmd.label     "ヘッダー">
-<!ENTITY ShowHeaderCmd.aKey      "H">
-<!ENTITY ShowStatusbarCmd.label  "ステータスバー">
-<!ENTITY ShowStatusbarCmd.aKey   "S">
-<!ENTITY CollapseCmd.label       "連続したメッセージを折りたたむ">
-<!ENTITY CollapseCmd.aKey        "N">
-<!ENTITY CopyMessagesCmd.label   "重要なメッセージをコピー">
-<!ENTITY CopyMessagesCmd.aKey    "I">
-<!ENTITY NoneCmd.label           "モチーフなし">
-<!ENTITY NoneCmd.aKey            "N">
-<!ENTITY DefaultCmd.label        "標準のモチーフ">
-<!ENTITY DefaultCmd.aKey         "D">
-<!ENTITY DarkCmd.label           "暗いモチーフ">
-<!ENTITY DarkCmd.aKey            "k">
-<!ENTITY LightCmd.label          "明るいモチーフ">
-<!ENTITY LightCmd.aKey           "L">
-<!ENTITY HideCmd.label           "表示しない">
-<!ENTITY LeaveViewCmd.label      "``$viewname'' から退出">
-<!ENTITY LeaveViewCmd.aKey       "">
-<!ENTITY StartupVisitCmd.label   "起動時に開く">
-<!ENTITY StartupVisitCmd.aKey    "">
-<!ENTITY ClearViewCmd.label      "ビューをクリア">
-<!ENTITY ClearViewCmd.aKey       "e">
-<!ENTITY DeleteViewCmd.label     "ビューを閉じる">
-<!ENTITY DeleteViewCmd.aKey      "V">
-<!ENTITY StatusCmd.label         "接続の状態">
-<!ENTITY StatusCmd.aKey          "C">
-
-<!ENTITY CloseCmd.label          "@@Window@@を閉じる">
-<!ENTITY CloseCmd.aKey           "C">
-
-<!ENTITY PopupQueryCmd.label         "``$nick'' とプライベート チャット">
-<!ENTITY PopupQueryCmd.aKey          "P">
-<!ENTITY PopupWhoisCmd.label         "``$nick'' に Whois">
-<!ENTITY PopupWhoisCmd.aKey          "W">
-<!ENTITY PopupPingCmd.label          "``$nick'' に Ping">
-<!ENTITY PopupPingCmd.aKey           "I">
-<!ENTITY PopupVersionCmd.label       "``$nick'' に Version">
-<!ENTITY PopupVersionCmd.aKey        "V">
-<!ENTITY PopupHighlightStyle.label   "$nick のメッセージを強調表示">
-<!ENTITY PopupHighlightStyle.aKey    "H">
-<!ENTITY PopupHighlightNoStyle.label "なし">
-<!ENTITY PopupGiveOp.label           "オペレータ権限を与える">
-<!ENTITY PopupGiveOp.aKey            "O">
-<!ENTITY PopupTakeOp.label           "オペレータ権限を取り上げ">
-<!ENTITY PopupTakeOp.aKey            "O">
-<!ENTITY PopupGiveVoice.label        "発言権限を与える">
-<!ENTITY PopupGiveVoice.aKey         "V">
-<!ENTITY PopupTakeVoice.label        "発言権限を取り上げ">
-<!ENTITY PopupTakeVoice.aKey         "V">
-<!ENTITY PopupKick.label             "``$nick'' に Kick">
-<!ENTITY PopupKick.aKey              "K">
-
-<!ENTITY StatusText.label            "ChatZilla にようこそ！">
-
+<!ENTITY Underline.label		"下線">
+<!ENTITY Bold.label			"太字">
+<!ENTITY Reverse.label			"反転">
+<!ENTITY Normal.label			"通常">
+<!ENTITY Color.label			"@@Colors@@">
+<!ENTITY ForeBack.label			"xx=進む yy=戻る">

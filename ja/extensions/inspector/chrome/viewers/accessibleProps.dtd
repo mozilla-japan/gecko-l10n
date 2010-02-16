@@ -15,11 +15,12 @@
    - The Original Code is DOM Inspector.
    -
    - The Initial Developer of the Original Code is
-   - Netscape Communications Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2003
+   - Vasiliy Potapenko
+   - Portions created by the Initial Developer are Copyright (C) 2007
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
+   - Vasiliy Potapenko <vasiliy.potapenko@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -35,6 +36,25 @@
    -
 #endif
    - ***** END LICENSE BLOCK ***** -->
-
-<!ENTITY sheetLocation.label	"スタイルシート">
-<!ENTITY sheetRules.label	"規則">
+<!ENTITY descRole.label "役割:">
+<!ENTITY descName.label "ラベル:">
+<!ENTITY descDescription.label "説明:">
+<!ENTITY descValue.label "値:">
+<!ENTITY descState.label "状態:">
+<!ENTITY descBounds.label "位置と寸法:">
+<!ENTITY tabAttrs.label "オブジェクトの属性">
+<!ENTITY colAttrName.label "名前">
+<!ENTITY colAttrValue.label "値">
+<!ENTITY tabActions.label "作用">
+<!ENTITY descKeyBindings.label "キーバインド:">
+<!ENTITY descInvoke.label "発動">
+<!ENTITY tabTableCell.label "Table セル">
+<!ENTITY descColumnIdx.label "列インデックス:">
+<!ENTITY descRowIdx.label "行インデックス:">
+<!ENTITY descColumnExtent.label "列範囲:">
+<!ENTITY descRowExtent.label "行範囲:">
+<!ENTITY descIsSelected.label "選択中か:">
+<!ENTITY colProp.label "プロパティ">
+<!ENTITY colRole.label "役割">
+<!ENTITY colName.label "ラベル">
+<!ENTITY colNodeName.label "ノード名">

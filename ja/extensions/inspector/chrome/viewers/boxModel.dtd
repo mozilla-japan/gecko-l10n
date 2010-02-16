@@ -37,7 +37,7 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY boxPosition.label	"位置">
-<!ENTITY boxDimension.label	"大きさ">
-<!ENTITY boxMargin.label	"マージン">
-<!ENTITY boxBorder.label	"ボーダー">
-<!ENTITY boxPadding.label	"パディング">
+<!ENTITY boxDimension.label	"寸法">
+<!ENTITY boxMargin.label	"Margin">
+<!ENTITY boxBorder.label	"Border">
+<!ENTITY boxPadding.label	"Padding">

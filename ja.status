@@ -10,7 +10,7 @@ calendar                comm    Sb              Sunbird/Lightning
 dom                     moz     all             
 editor/ui               comm    Tb, Sm          メール編集画面
 extensions
-  inspector             moz     Fx, Sm          
+  inspector             dom-i   Fx, Sm          DOM Inspector
   irc                   moz     Sm              IRC Client Chatzilla
   reporter              moz     Fx, Sm          不具合のあるサイトのレポータ
   spellcheck            moz     Fx, Tb, Sm      日本語のスペルチェックは無し
@@ -64,3 +64,4 @@ all Fx                  25468:0b3ba1d05309  ????:????????????   a               
 all                                                             dynamis         create branch for l10n-central
 all Fx                  28805:30aa3539cedc  2718:2457fbd6cc1f   dynamis         diff of mozilla-1.9.1 and mozilla-central
 dom, editor/ui, toolkit -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 650
+extensions              -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 652
