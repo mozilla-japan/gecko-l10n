@@ -105,6 +105,7 @@
 <!ENTITY publishSettings.accesskey "b">
 <!ENTITY pasteAsQuotationCmd.label "引用文として@@Paste@@">
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
+<!ENTITY pasteAsQuotationCmd.key "o">
 <!ENTITY findCmd.label "検索と置換...">
 <!ENTITY findCmd.accesskey "F">
 <!ENTITY findCmd.key "F">

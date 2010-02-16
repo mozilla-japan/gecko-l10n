@@ -6,6 +6,10 @@
 <!ENTITY  checking.title		"更新の確認">
 <!ENTITY  updateCheck.label		"&brandShortName; の新しいバージョンがないか確認しています...">
 
+<!ENTITY  pluginupdatesfound.title	"プラグインの更新が見つかりました">
+<!ENTITY  pluginupdatesfound.label	"インストールされているプラグインの新しいバージョンが見つかりました。">
+<!ENTITY  pluginupdateslink.label	"プラグインの更新手順を確認する">
+
 <!ENTITY  noupdatesfound.title		"更新が見つかりませんでした">
 <!ENTITY  noupdatesautoenabled.intro	"更新が見つかりませんでした。&brandShortName; は定期的に更新を確認します。">
 <!ENTITY  noupdatesautodisabled.intro	"更新が見つかりませんでした。後で再度試すか、&brandShortName; の自動更新を有効化してください。">
