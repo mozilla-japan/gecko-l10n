@@ -27,7 +27,7 @@
 <!ENTITY manualSetup.accesskey		"S">
 <!ENTITY cancel.label			"キャンセル">
 <!ENTITY cancel.accesskey		"a">
-<!ENTITY continue.label			"続行">
+<!ENTITY continue.label			"続ける">
 <!ENTITY continue.accesskey		"C">
 <!ENTITY startOver.label		"はじめからやり直す">
 <!ENTITY startOver.accesskey		"o">
