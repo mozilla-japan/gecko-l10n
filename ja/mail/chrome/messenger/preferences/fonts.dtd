@@ -43,7 +43,7 @@
 <!ENTITY  font.langGroup.armenian	"アルメニア語">
 <!ENTITY  font.langGroup.bengali	"ベンガル語">
 <!ENTITY  font.langGroup.canadian	"統合カナダ先住民音節文字"><!-- win 対応不明 -->
-<!ENTITY  font.langGroup.ethiopic	"エチオピア語"><!-- (^^; win 対応不明 -->
+<!ENTITY  font.langGroup.ethiopic	"アムハラ語"><!-- (^^; win 対応不明 -->
 <!ENTITY  font.langGroup.georgian	"グルジア語">
 <!ENTITY  font.langGroup.gujarati	"グジャラート語">
 <!ENTITY  font.langGroup.gurmukhi	"グルムキー文字"><!-- (^^; win 対応不明 -->

@@ -5,7 +5,7 @@
 
 <!ENTITY pluginWizard.availablePluginsPage.title		"プラグインのダウンロード">
 <!ENTITY pluginWizard.availablePluginsPage.description.label	"以下のプラグインが利用できます:">
-<!ENTITY pluginWizard.availablePluginsPage.continueMsg.label	"インストールするプラグインを選択して @@[@@次へ@@]@@ をクリックしてください。">
+<!ENTITY pluginWizard.availablePluginsPage.continueMsg.label	"インストールするプラグインを選択して @@[@@@@NextButton@@@@]@@ をクリックしてください。">
 <!ENTITY pluginWizard.availablePluginsPage.installerUI		"インストール中にいくつか指示の必要なプラグインもあります。">
 
 <!ENTITY pluginWizard.licensePage.title				"プラグインのライセンス">

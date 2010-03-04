@@ -1,19 +1,19 @@
 <!ENTITY junkSettings.label	"迷惑メールフィルタの設定">
-<!ENTITY trainingWarning.label	"学習フィルタを使う場合、どのようなメッセージが迷惑メールなのか学ばせる必要があります。迷惑メールを受信したらツールバーの @@[@@迷惑メール@@]@@ ボタンを押してください。間違って迷惑メールと判断されてしまったメールがあれば、@@[@@非迷惑メール@@]@@ ボタンで訂正してください。">
-<!ENTITY level.label		"このアカウントで迷惑メールの学習フィルタを有効にする">
+<!ENTITY trainingWarning.label	"フィルタを有効にした場合、どのようなメッセージが迷惑メールなのかを &brandShortName; に学習させる必要があります。迷惑メールを受信したら、ヘッダツールバーの @@[@@迷惑マークを付ける@@]@@ ボタンを押してください。間違って迷惑メールと判断されてしまったメールがあれば、@@[@@非迷惑メール@@]@@ ボタンで訂正してください。">
+<!ENTITY level.label		"このアカウントで迷惑メールの学習を有効にする">
 <!ENTITY level.accesskey	"E">
 
 <!ENTITY move.label		"迷惑メールと判断された受信メッセージを次のフォルダに移動する:">
 <!ENTITY move.accesskey		"M">
-<!ENTITY junkFolderOn.label	"@@[@@迷惑メール@@]@@ フォルダ:">
+<!ENTITY junkFolderOn.label	"次のアカウントの &quot;迷惑メール&quot; フォルダ:">
 <!ENTITY junkFolderOn.accesskey	"J">
-<!ENTITY otherFolder.label	"その他:">
+<!ENTITY otherFolder.label	"その他のフォルダを指定する:">
 <!ENTITY otherFolder.accesskey	"O">
 <!ENTITY purge1.label		"このフォルダの迷惑メールのうち">
 <!ENTITY purge1.accesskey	"u">
 <!ENTITY purge2.label		"日以上前のものは自動的に削除する">
 
-<!ENTITY whitelist.label	"送信者が以下に含まれる場合はメッセージが迷惑メールであるとマークしない:">
+<!ENTITY whitelist.label	"送信者が以下に含まれる場合はメッセージに迷惑マークを付けない:">
 <!ENTITY whitelist.accesskey	"D">
 
 <!ENTITY ispHeaders.label	"次の迷惑メールヘッダを信用する:">

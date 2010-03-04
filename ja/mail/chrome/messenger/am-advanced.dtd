@@ -4,7 +4,7 @@
 <!ENTITY smtpServer.label	"送信 (SMTP) サーバの設定">
 
 <!-- LOCALIZATION NOTE (smtpDesc.label): do not translate "SMTP" in below line -->
-<!ENTITY smtpDesc.label		"アカウントを複数お持ちの場合でも、設定が必要な送信 (SMTP) サーバは 1 つだけです。メッセージ送信に使用するサーバ名を入力してください。">
+<!ENTITY smtpDesc.label		"アカウントを複数お持ちの場合に複数の送信 (SMTP) サーバを設定できますが、これは上級ユーザ向けです。複数の SMTP サーバを設定するとメッセージの送信時にエラーが発生することがあります。">
 
 <!ENTITY smtpListAdd.label		"追加...">
 <!ENTITY smtpListAdd.accesskey		"d">
