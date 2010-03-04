@@ -72,7 +72,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY selectDescription.accesskey	"P">
 
 <!ENTITY back.label			"戻る">
-<!ENTITY forward.label			"次へ">
+<!ENTITY forward.label			"@@NextButton@@">
 <!ENTITY finish.label			"完了">
 <!ENTITY cancel.label			"キャンセル">
 

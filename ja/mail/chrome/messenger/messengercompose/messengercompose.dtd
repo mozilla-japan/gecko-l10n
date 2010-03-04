@@ -67,6 +67,7 @@
 <!ENTITY pasteCmd.key			"V">
 <!ENTITY pasteCmd.accesskey		"p">
 <!ENTITY pasteNoFormattingCmd.key	"V">
+<!ENTITY pasteAsQuotationCmd.key	"o">
 <!ENTITY editRewrapCmd.label		"再改行">
 <!ENTITY editRewrapCmd.key		"R">
 <!ENTITY editRewrapCmd.accesskey	"w">
@@ -128,7 +129,7 @@
 <!ENTITY returnReceiptMenu.accesskey	"t">
 <!ENTITY dsnMenu.label			"配信状態通知の返送を求める"><!-- en-US Delivery Status Notification -->
 <!ENTITY dsnMenu.accesskey		"N">
-<!ENTITY outputFormatMenu.label		"書式">
+<!ENTITY outputFormatMenu.label		"送信形式">
 <!ENTITY outputFormatMenu.accesskey	"f">
 <!ENTITY autoFormatCmd.label		"自動判別">
 <!ENTITY autoFormatCmd.accesskey	"a">
@@ -252,6 +253,8 @@
 <!ENTITY openAttachment.accesskey	"O">
 <!ENTITY delete.label			"削除">
 <!ENTITY delete.accesskey		"D">
+<!ENTITY removeAttachment.label		"添付ファイルを削除">
+<!ENTITY removeAttachment.accesskey	"M">
 <!ENTITY renameAttachment.label		"名前を変更...">
 <!ENTITY renameAttachment.accesskey	"R">
 <!ENTITY selectAll.label		"@@SelectAll@@">

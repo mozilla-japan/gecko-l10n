@@ -1,16 +1,10 @@
 <!--LOCALIZATION NOTE msgCompSMIMEOverlay.dtd UI for s/mime hooks in message composition -->
 
-<!ENTITY securityMenu.label			"セキュリティ">
-<!ENTITY securityMenu.accesskey			"e">
-
 <!ENTITY menu_securityEncryptRequire.label	"このメッセージを暗号化する">
 <!ENTITY menu_securityEncryptRequire.accesskey	"E">
 
-<!ENTITY menu_securityNoEncryption.label	"このメッセージを暗号化しない">
-<!ENTITY menu_securityNoEncryption.accesskey	"N">
-
 <!ENTITY menu_securitySign.label		"このメッセージにデジタル署名する">
-<!ENTITY menu_securitySign.accesskey		"S">
+<!ENTITY menu_securitySign.accesskey		"M">
 
 <!ENTITY menu_securityStatus.label		"セキュリティ情報を見る">
 <!ENTITY menu_securityStatus.accesskey		"I">

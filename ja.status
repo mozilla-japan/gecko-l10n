@@ -65,3 +65,4 @@ all                                                             dynamis         
 all Fx                  28805:30aa3539cedc  2718:2457fbd6cc1f   dynamis         diff of mozilla-1.9.1 and mozilla-central
 dom, editor/ui, toolkit -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 650
 extensions              -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 652
+calendar, mail, toolkit -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 655
