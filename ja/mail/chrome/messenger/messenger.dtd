@@ -132,8 +132,8 @@
 
 <!ENTITY folderView.label			"フォルダ">
 <!ENTITY folderView.accesskey			"F">
-<!ENTITY smartFolders.label			"スマートフォルダ">
-<!ENTITY smartFolders.accesskey			"S">
+<!ENTITY unifiedFolders.label			"統合フォルダ">
+<!ENTITY unifiedFolders.accesskey		"n">
 <!ENTITY allFolders.label			"すべてのフォルダ">
 <!ENTITY allFolders.accesskey			"A">
 <!ENTITY unreadFolders.label			"未読フォルダ">
