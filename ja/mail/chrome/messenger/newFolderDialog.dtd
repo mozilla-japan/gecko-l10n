@@ -47,3 +47,5 @@
 <!ENTITY folderRestriction2.label	"新しいフォルダに入れるものを選択してください:">
 <!ENTITY foldersOnly.label		"サブフォルダだけを入れる">
 <!ENTITY messagesOnly.label		"メッセージだけを入れる">
+<!ENTITY accept.label			"フォルダを作成">
+<!ENTITY accept.accesskey		"r">
