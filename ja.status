@@ -70,6 +70,7 @@ mail,calendar,editor/ui -----:------------  ----:------------   mar             
 mail, extensions        33471:020a9d1400ba  4613:0e0c0743080f   mar             sync with comm-central, changeset 648
 inspector               -----:------------  ----:------------   mar             sync domi rev838, changeset 651
 mail, calendar          -----:------------  5019:e7820375490a   mar             sync with comm-central, changeset 654
+mail                    -----:------------  5253:94242cab35fd   mar             sync with comm-central, changeset 660
 
 --------------------------------------------------------------------------------
 
@@ -81,7 +82,7 @@ sync.calendar.rev				= e7820375490a
 sync.dom.rev					= e71139b4dd49
 sync.editor.rev					= 363607117bbb
 sync.extensions.rev				= 23ede72138f8
-sync.mail.rev					= e7820375490a
+sync.mail.rev					= 94242cab35fd
 sync.mobile.rev					= 
 sync.netwerk.rev				= 23ede72138f8
 sync.other-licenses.fx.rev		= 23ede72138f8
