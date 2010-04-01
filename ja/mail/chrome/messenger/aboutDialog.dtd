@@ -2,7 +2,6 @@
 <!ENTITY aboutButton.label		"&lt; 戻る">
 <!ENTITY aboutButton.accesskey		"B">
 <!ENTITY aboutVersion			"バージョン">
-<!ENTITY copyrightText			"&#169;1998-2010 Contributors. All Rights Reserved. Mozilla Thunderbird および Thunderbird ロゴは 米国 Mozilla Foundation の米国およびその他の国における商標または登録商標です。All rights reserved.">
 <!ENTITY aboutMenu.label		"参照">
 <!ENTITY aboutMenu.accesskey		"A">
 <!ENTITY aboutCredits.label		"クレジット">
