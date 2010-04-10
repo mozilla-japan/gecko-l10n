@@ -72,6 +72,7 @@ inspector               -----:------------  ----:------------   mar             
 mail, calendar          -----:------------  5019:e7820375490a   mar             sync with comm-central, changeset 654
 mail                    -----:------------  5253:94242cab35fd   mar             sync with comm-central, changeset 660
 mail                    -----:------------  5345:b9be42774b92   mar             sync with comm-central, changeset 662
+mail                    34033:f9ba867bf971  5425:b1b40a0933a6   mar             sync with comm-central, changeset 663
 
 --------------------------------------------------------------------------------
 
@@ -83,7 +84,7 @@ sync.calendar.rev				= e7820375490a
 sync.dom.rev					= e71139b4dd49
 sync.editor.rev					= 363607117bbb
 sync.extensions.rev				= 23ede72138f8
-sync.mail.rev					= b9be42774b92
+sync.mail.rev					= b1b40a0933a6
 sync.mobile.rev					= 
 sync.netwerk.rev				= 23ede72138f8
 sync.other-licenses.fx.rev		= 23ede72138f8
