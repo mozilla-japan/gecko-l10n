@@ -1,5 +1,5 @@
-google
+google-jp
 amazon-jp
-twitter
+twitter-ja
 wikipedia-ja
 yahoo-jp
