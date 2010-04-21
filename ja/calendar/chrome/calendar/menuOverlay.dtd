@@ -92,17 +92,6 @@
 <!ENTITY goTodayCmd.label			"今日に移動">
 <!ENTITY goTodayCmd.accesskey			"T">
 
-<!-- (^a^) 基準は、今日/今週/今月 ではなくて 選択されている日/週/月 -->
-<!ENTITY goPreviousCmd.day.label		"前の日">
-<!ENTITY goPreviousCmd.week.label		"前の週">
-<!ENTITY goPreviousCmd.month.label		"前の月">
-<!ENTITY goPreviousCmd.accesskey		"P">
-
-<!ENTITY goNextCmd.day.label			"次の日">
-<!ENTITY goNextCmd.week.label			"次の週">
-<!ENTITY goNextCmd.month.label			"次の月">
-<!ENTITY goNextCmd.all.accesskey		"e">
-
 <!ENTITY showCurrentView.label			"表示形式">
 <!ENTITY showCurrentView.accesskey		"V">
 
