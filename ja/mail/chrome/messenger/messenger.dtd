@@ -695,9 +695,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY mdnBarIgnoreButton.label	"無視する">
 <!ENTITY mdnBarSendButton.label		"開封確認を送付する">
 
-<!-- Message Header Button Box (to show hidden email addresses) -->
-<!ENTITY more.label			"すべて表示">
-
 <!-- Quick Search Bar -->
 <!ENTITY quickSearchCmd.key		"k">
 <!ENTITY searchAllMessages.label	"すべてのメッセージを検索">
