@@ -76,6 +76,7 @@ mail                    34033:f9ba867bf971  5425:b1b40a0933a6   mar             
 all Fx                  34039:1c16bdc50547  5430:e81538bfd96e   dynamis         sync with Fx3.6.4 (lorentz), changeset 665
 mail                    34082:aa6fbe509ca6  5500:bdca8b735557   mar             sync with comm-central, changeset 668
 calendar                -----:------------  5500:bdca8b735557   mar             sync with comm-central, changeset 670
+mail                    -----:------------  5537:f89c1ff316dc   mar             sync with comm-central, changeset 671
 
 --------------------------------------------------------------------------------
 
@@ -87,7 +88,7 @@ sync.calendar.rev				= bdca8b735557
 sync.dom.rev					= e71139b4dd49
 sync.editor.rev					= 363607117bbb
 sync.extensions.rev				= 23ede72138f8
-sync.mail.rev					= bdca8b735557
+sync.mail.rev					= f89c1ff316dc
 sync.mobile.rev					= 
 sync.netwerk.rev				= 23ede72138f8
 sync.other-licenses.fx.rev		= 23ede72138f8
