@@ -77,8 +77,8 @@
 <!ENTITY retentionApplyToFlagged.accesskey	"e">
 
 <!ENTITY folderSynchronizationTab.label		"同期">
-<!ENTITY folderCheckForNewMessages.label	"このフォルダに新着メッセージがないか確認する">
-<!ENTITY folderCheckForNewMessages.accesskey	"C">
+<!ENTITY folderCheckForNewMessages2.label	"このフォルダに新着メッセージがないか確認する"><!-- (^m^) Bug 545469#c23 参照。 en-US: When getting new messages for this account, always check this folder" -->
+<!ENTITY folderCheckForNewMessages2.accesskey	"c">
 
 <!ENTITY offlineFolder.check.label		"このフォルダをオフラインで使用する">
 <!ENTITY offlineFolder.check.accesskey		"S">
