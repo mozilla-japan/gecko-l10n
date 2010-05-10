@@ -50,10 +50,12 @@
 
 <!ENTITY newevent.status.label				"状態" >
 <!ENTITY newevent.status.accesskey			"S" >
-<!ENTITY newevent.status.none.label			"指定なし" >
-<!ENTITY newevent.status.none.accesskey			"o" >
-<!ENTITY newevent.status.cancelled.label		"キャンセル" >
-<!ENTITY newevent.status.cancelled.accesskey		"n" >
+<!ENTITY newevent.eventStatus.none.label		"指定なし" >
+<!ENTITY newevent.eventStatus.none.accesskey		"o" >
+<!ENTITY newevent.todoStatus.none.label			"指定なし" >
+<!ENTITY newevent.eventStatus.cancelled.label		"キャンセル" >
+<!ENTITY newevent.eventStatus.cancelled.accesskey	"n" >
+<!ENTITY newevent.todoStatus.cancelled.label		"キャンセル" >
 <!ENTITY newevent.status.tentative.label		"未確認" >
 <!ENTITY newevent.status.tentative.accesskey		"T" >
 <!ENTITY newevent.status.confirmed.label		"確認済み" >
