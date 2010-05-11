@@ -79,6 +79,7 @@ calendar                -----:------------  5500:bdca8b735557   mar             
 mail                    -----:------------  5537:f89c1ff316dc   mar             sync with comm-central, changeset 671
 calendar                -----:------------  5577:09b9bcff234c   mar             sync with comm-1.9.2, changeset 675
 calendar                -----:------------  5602:81c4ba7dd2d7   mar             sync with comm-1.9.2, changeset 676
+mail                    -----:------------  5602:81c4ba7dd2d7   mar             sync with comm-1.9.2, changeset 677
 
 --------------------------------------------------------------------------------
 
@@ -90,7 +91,7 @@ sync.calendar.rev				= 81c4ba7dd2d7
 sync.dom.rev					= e71139b4dd49
 sync.editor.rev					= 363607117bbb
 sync.extensions.rev				= 23ede72138f8
-sync.mail.rev					= f89c1ff316dc
+sync.mail.rev					= 81c4ba7dd2d7
 sync.mobile.rev					= 
 sync.netwerk.rev				= 23ede72138f8
 sync.other-licenses.fx.rev		= 23ede72138f8

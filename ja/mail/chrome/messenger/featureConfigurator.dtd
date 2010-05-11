@@ -11,11 +11,11 @@
 <!ENTITY featureConfigurator.para.2 "この設定変更ガイドで新機能を設定してください。このページは @@[@@ヘルプ@@]@@ メニューからいつでも開けます。">
 
 <!ENTITY featureConfigurator.toolbar.heading "新メッセージツールバー">
-<!ENTITY featureConfigurator.toolbar.new.status "メッセージボタンツールバー">
+<!ENTITY featureConfigurator.toolbar.new "メッセージボタンツールバー">
 <!ENTITY featureConfigurator.toolbar.new.status.explanation "ツールバーを簡素にし、各メッセージのヘッダにメッセージボタンを表示します。">
 
-<!-- LOCALIZATION NOTE (featureConfigurator.toolbar.original.status): The word 'original' is chosen deliberately to be neutral, vs. 'old' which in English at least had a negative connotation.-->
-<!ENTITY featureConfigurator.toolbar.original.status "元のツールバーボタンを維持">
+<!-- LOCALIZATION NOTE (featureConfigurator.toolbar.original): The word 'original' is chosen deliberately to be neutral, vs. 'old' which in English at least had a negative connotation.-->
+<!ENTITY featureConfigurator.toolbar.original "元のツールバーボタンを維持">
 <!ENTITY featureConfigurator.toolbar.original.status.explanation "ツールバーボタンの位置を維持し、各メッセージのヘッダに新しいメッセージボタンを表示します。">
 
 <!ENTITY featureConfigurator.toolbarBenefits.para "返信や転送などのメッセージ操作を行うボタンは、ツールバーから各メッセージのヘッダへ移動されました。メッセージと操作ボタンを直接結び付け、検索バーやアドオンのためにツールバーの場所を広く取ることができます。">
@@ -54,7 +54,7 @@
 <!ENTITY featureConfigurator.folderColumns.install "Extra Folder Columns アドオンをインストール...">
 
 <!-- LOCALIZATION NOTE (featureConfigurator.autoSync.heading): The heading for the Disk space page. -->
-<!ENTITY featureConfigurator.autoSync.heading "ディスクの空き領域">
+<!ENTITY featureConfigurator.autoSync.heading "メッセージの同期とディスク領域">
 
 <!-- LOCALIZATION NOTE (featureConfigurator.autoSync.para): The paragraph that explains why the user would want to turn on autosync. -->
 <!ENTITY featureConfigurator.autoSync.para "&brandShortName; の新しいバージョンには、新しい検索機能が搭載されています。この新しい検索機能を利用するには、メッセージをダウンロードしてサーバと同期する必要があります。">
@@ -75,10 +75,10 @@
 <!ENTITY featureConfigurator.diskSpace.currentSize "現在の全メッセージの使用量:">
 
 <!-- LOCALIZATION NOTE (featureConfigurator.diskSpace.freeSpace): The label for the current amount of free space available on your hard disk. -->
-<!ENTITY featureConfigurator.diskSpace.freeSpace "空き領域:">
+<!ENTITY featureConfigurator.diskSpace.freeSpace "空き領域のサイズ:">
 
 <!-- LOCALIZATION NOTE (featureConfigurator.diskSpace.requireSpace): The label for the required amount of free space to synchronize all of your IMAP accounts. -->
-<!ENTITY featureConfigurator.diskSpace.requireSpace "必要領域:">
+<!ENTITY featureConfigurator.diskSpace.requireSpace "必要領域のサイズ:">
 
 <!-- LOCALIZATION NOTE (featureConfigurator.diskSpace.warning): The label shown when your estimated available hard disk space if you chose autosync would be less than 50MB or if we estimate turning on autosync would use more than 50% of your free space. -->
 <!ENTITY featureConfigurator.diskSpace.warning "ディスクの空き領域が足りなくなる可能性があります！">
