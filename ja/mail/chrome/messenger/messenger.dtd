@@ -769,7 +769,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      systems.  We use the key defined in the quickSearchCmd.key entity defined
      above, the letter should match it.
      -->
-<!ENTITY searchAllMessages.keyLabel2.mac	"&lt;&#x2318;F&gt;">
+<!ENTITY searchAllMessages.keyLabel2.mac	"&lt;&#x2318;K&gt;">
 
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label		"アドレス帳に追加...">
