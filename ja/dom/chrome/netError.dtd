@@ -72,10 +72,13 @@
 ">
 
 <!ENTITY phishingBlocked.title		"偽装サイトの疑いがあります！">
-<!ENTITY phishingBlocked.longDesc		"
+<!ENTITY phishingBlocked.longDesc	"
 <p>このページで個人情報を入力してしまうと、なりすましや詐欺などの被害に遭う恐れがあります。</p>
 <p>この種の偽装サイトはフィッシングと呼ばれる詐欺に使われています。本物のサイトに見せかけた詐欺ページを作り、あなたに信頼させようとしているのです。</p>
 ">
+
+<!ENTITY cspFrameAncestorBlocked.title	"コンテンツセキュリティポリシーによりブロックされました">
+<!ENTITY cspFrameAncestorBlocked.longDesc	"<p>セキュリティポリシーにより読み込みが禁止されたコンテンツが含まれているため、このページの読み込みを中止しました。</p>">
 
 <!-- Include app-specific error messages - do not change this in localization!
      Some applications might override netErrorApp.dtd with their specific version,
