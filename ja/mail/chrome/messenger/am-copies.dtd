@@ -6,9 +6,14 @@
 <!ENTITY fccMailFolder.accesskey	"P">
 <!ENTITY fccReplyFollowsParent.label	"返信元のメッセージと同じフォルダに返信を保存する">
 <!ENTITY fccReplyFollowsParent.accesskey "c">
+<!-- LOCALIZATION NOTE (ccAddress.label): do not translate "Cc" in below line -->
+<!ENTITY ccAddress.label		"次のメールアドレスを Cc に追加する:">
+<!ENTITY ccAddress.accesskey		"C">
+<!ENTITY ccAddressList.emptytext 	"カンマ区切りで複数入力できます">
 <!-- LOCALIZATION NOTE (bccAddress.label): do not translate "Bcc" in below line -->
 <!ENTITY bccAddress.label		"次のメールアドレスを Bcc に追加する:">
 <!ENTITY bccAddress.accesskey		"B">
+<!ENTITY bccAddressList.emptytext	"カンマ区切りで複数入力できます">
 <!ENTITY saveMessageDlg.label		"メッセージを保存するとき確認ダイアログを表示する">
 <!ENTITY saveMessageDlg.accesskey	"w">
 <!-- LOCALIZATION NOTE (sentFolderOn.label): OK to translate this, bug #57440 -->
