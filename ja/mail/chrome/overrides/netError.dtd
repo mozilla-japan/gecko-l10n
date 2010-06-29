@@ -148,6 +148,9 @@
 <p>この種の偽装サイトはフィッシングと呼ばれる詐欺に使われています。本物のサイトに見せかけた詐欺ページを作り、あなたに信頼させようとしているのです。</p>
 ">
 
+<!ENTITY cspFrameAncestorBlocked.title	"コンテンツセキュリティポリシーによりブロックされました">
+<!ENTITY cspFrameAncestorBlocked.longDesc	"<p>セキュリティポリシーにより読み込みが禁止されたコンテンツが含まれているため、このページの読み込みを中止しました。</p>">
+
 <!ENTITY securityOverride.linkText		"例外として扱うこともできます...">
 <!ENTITY securityOverride.getMeOutOfHereButton	"スタートページに戻る">
 <!ENTITY securityOverride.exceptionButtonLabel	"例外を追加...">
@@ -157,7 +160,7 @@ contents of the <xul:button> tags.  The only language content is the label= fiel
 which uses strings already defined above. The button is included here (instead of
 netError.xhtml) because it exposes functionality specific to thunderbird. -->
 
-<!ENTITY securityOverride.warningText		"
+<!ENTITY securityOverride.warningText	"
 <p>インターネット接続環境を完全には信頼できない場合や、これまでこのサーバではこの警告が表示されなかった場合は、このサイトを例外として追加しないでください。</p>
 
 <xul:button xmlns:xul='http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul' id='getMeOutOfHereButton' label='&securityOverride.getMeOutOfHereButton;'/>

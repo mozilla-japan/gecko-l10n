@@ -26,6 +26,7 @@
    -
    - Localizer(s):
    -   dynamis
+   -   Masahiko Imanaka <chimantaea_mirabilis@yahoo.co.jp>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either of the GNU General Public License Version 2 or later (the "GPL"),
@@ -48,9 +49,12 @@
 <!ENTITY folderCharsetTab.accesskey		"E">
 <!ENTITY folderCharsetOverride.label		"この設定をフォルダ内のすべてのメッセージに適用する (各メッセージの文字エンコーディング指定や自動判別結果を無視する)">
 <!ENTITY folderCharsetOverride.accesskey	"A">
-<!ENTITY folderRebuildSummaryFile.label		"索引を再構築">
-<!ENTITY folderRebuildSummaryFile.accesskey	"R">
-<!ENTITY folderRebuildSummaryFileTip.label	"要約ファイルを再構築します">
+<!ENTITY folderRebuildSummaryFileTip2.label	"要約ファイルの索引を再構築します">
+<!ENTITY folderRebuildSummaryFile2.label	"フォルダを修復">
+<!ENTITY folderRebuildSummaryFile2.accesskey	"R">
+<!ENTITY folderRebuildSummaryFile.explanation	"フォルダの索引ファイル (.msf) が損傷し、削除したはずのメッセージが表示されてしまうことがあります。このような問題が起こったときはフォルダを修復してください。">
+<!ENTITY folderIncludeInGlobalSearch.label	"このフォルダのメッセージをグローバル検索の対象に含める">
+<!ENTITY folderIncludeInGlobalSearch.accesskey	"G">
 
 <!ENTITY retention.label			"保管ポリシー"><!-- (^^; Retention Policy -->
 <!ENTITY retentionUseAccount.label		"アカウント設定に従う">
@@ -73,8 +77,8 @@
 <!ENTITY retentionApplyToFlagged.accesskey	"e">
 
 <!ENTITY folderSynchronizationTab.label		"同期">
-<!ENTITY folderCheckForNewMessages.label	"このフォルダに新着メッセージがないか確認する">
-<!ENTITY folderCheckForNewMessages.accesskey	"C">
+<!ENTITY folderCheckForNewMessages2.label	"このフォルダに新着メッセージがないか確認する"><!-- (^m^) Bug 545469#c23 参照。 en-US: When getting new messages for this account, always check this folder" -->
+<!ENTITY folderCheckForNewMessages2.accesskey	"c">
 
 <!ENTITY offlineFolder.check.label		"このフォルダをオフラインで使用する">
 <!ENTITY offlineFolder.check.accesskey		"S">

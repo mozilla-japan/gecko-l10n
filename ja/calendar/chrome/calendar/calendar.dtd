@@ -18,15 +18,19 @@
    - Portions created by the Initial Developer are Copyright (C) 2001
    - the Initial Developer. All Rights Reserved.
    -
-   - Contributor(s): Garth Smedley <garths@oeone.com>
-   -                 Mike Potter <mikep@oeone.com>
-   -                 Chris Charabaruk <coldacid@meldstar.com>
-   -                 ArentJan Banck <ajbanck@planet.nl>
-   -                 Eric Belhaire <belhaire@ief.u-psud.fr>
-   -                 Matthew Willis <mattwillis@gmail.com>
-   -                 Simon Paquet <bugzilla@babylonsounds.com>
-   -                 Stefan Sitter <ssitter@gmail.com>
-   -                 Philipp Kewisch <mozilla@kewis.ch>
+   - Contributor(s):
+   -   Garth Smedley <garths@oeone.com>
+   -   Mike Potter <mikep@oeone.com>
+   -   Chris Charabaruk <coldacid@meldstar.com>
+   -   ArentJan Banck <ajbanck@planet.nl>
+   -   Eric Belhaire <belhaire@ief.u-psud.fr>
+   -   Matthew Willis <mattwillis@gmail.com>
+   -   Simon Paquet <bugzilla@babylonsounds.com>
+   -   Stefan Sitter <ssitter@gmail.com>
+   -   Philipp Kewisch <mozilla@kewis.ch>
+   -   Diego Mira David <diegomd86@gmail.com>
+   -   Eduardo Teruo Katayama <eduardo@ime.usp.br>
+   -   Glaucus Augustus Grecco Cardoso <glaucus@ime.usp.br>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -45,11 +49,6 @@
 <!-- General -->
 <!ENTITY calendar.calendar.label			"カレンダー">
 <!ENTITY calendar.calendar.accesskey			"C">
-
-<!ENTITY calendar.dayView.key				"1" >
-<!ENTITY calendar.weekView.key				"2" >
-<!ENTITY calendar.multiweekView.key			"3" >
-<!ENTITY calendar.monthView.key				"4" >
 
 <!ENTITY calendar.newevent.button.tooltip		"@@New-CMD@@予定を作成します" >
 <!ENTITY calendar.newtask.button.tooltip		"@@New-CMD@@ ToDo を作成します" >
@@ -93,12 +92,19 @@
 <!ENTITY calendar.month.button.tooltip			"月表示に切り替えます" >
 <!ENTITY calendar.multiweek.button.tooltip		"多週表示に切り替えます" >
 
-<!ENTITY calendar.nextday.button.tooltip		"次の日" >
-<!ENTITY calendar.prevday.button.tooltip		"前の日" >
-<!ENTITY calendar.nextweek.button.tooltip		"次の週" >
-<!ENTITY calendar.prevweek.button.tooltip		"前の週" >
-<!ENTITY calendar.nextmonth.button.tooltip		"次の月" >
-<!ENTITY calendar.prevmonth.button.tooltip		"前の月" >
+<!-- (^a^) 基準は、今日/今週/今月 ではなくて 選択されている日/週/月 -->
+<!ENTITY calendar.nextday.label				"次の日" >
+<!ENTITY calendar.prevday.label				"前の日" >
+<!ENTITY calendar.nextday.accesskey			"x" >
+<!ENTITY calendar.prevday.accesskey			"s" >
+<!ENTITY calendar.nextweek.label			"次の週" >
+<!ENTITY calendar.prevweek.label			"前の週" >
+<!ENTITY calendar.nextweek.accesskey			"x" >
+<!ENTITY calendar.prevweek.accesskey			"s" >
+<!ENTITY calendar.nextmonth.label			"次の月" >
+<!ENTITY calendar.prevmonth.label			"前の月" >
+<!ENTITY calendar.nextmonth.accesskey			"x" >
+<!ENTITY calendar.prevmonth.accesskey			"s" >
 
 <!ENTITY calendar.navigation.nextday.tooltip		"翌日へ進みます" >
 <!ENTITY calendar.navigation.prevday.tooltip		"前日へ戻ります" >
@@ -156,6 +162,7 @@
 <!ENTITY calendar.task-details.status.label		"状態">
 <!ENTITY calendar.task-details.category.label		"カテゴリ">
 <!ENTITY calendar.task-details.repeat.label		"周期">
+<!ENTITY calendar.task-details.attachments.label	"添付">
 
 <!ENTITY calendar.task.category.button.tooltip		"ToDo をカテゴリに分けます">
 <!ENTITY calendar.task.complete.button.tooltip		"選択した ToDo を完了にします">
@@ -324,12 +331,18 @@
 <!ENTITY calendar.print.title.label			"件名:">
 <!ENTITY calendar.print.layout.label			"レイアウト:">
 <!ENTITY calendar.print.range.label			"@@Print@@範囲">
-<!ENTITY calendar.print.currentview.label		"表示している予定">
+<!ENTITY calendar.print.currentView2.label		"現在の表示範囲">
+<!ENTITY calendar.print.selectedEventsAndTasks.label	"選択した予定/ToDo">
+<!ENTITY calendar.print.tasks.label			"ToDo">
+<!ENTITY calendar.print.events.label			"予定">
 <!ENTITY calendar.print.selected.label			"選択した予定">
 <!ENTITY calendar.print.custom.label			"期間を指定:">
 <!ENTITY calendar.print.from.label			"開始日:">
 <!ENTITY calendar.print.to.label			"終了日:">
 <!ENTITY calendar.print.settingsGroup.label		"@@Print@@設定">
+<!ENTITY calendar.print.optionsGroup.label		"オプション">
+<!ENTITY calendar.print.taskswithnoduedate.label	"締め切りのない ToDo">
+<!ENTITY calendar.print.completedtasks.label		"完了した ToDo">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail				"詳細...">

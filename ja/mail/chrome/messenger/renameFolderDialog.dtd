@@ -36,6 +36,8 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY renameFolderDialog.title	"フォルダ名を変更">
+<!ENTITY renameFolderDialog.title	"フォルダ名変更">
 <!ENTITY rename.label			"フォルダの新しい名前を入力してください:">
 <!ENTITY rename.accesskey		"E">
+<!ENTITY accept.label			"名前を変更">
+<!ENTITY accept.accesskey		"R">

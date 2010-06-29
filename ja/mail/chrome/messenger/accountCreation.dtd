@@ -22,8 +22,11 @@
 <!ENTITY imap.label			"IMAP">
 <!ENTITY pop.label			"POP">
 <!ENTITY smtp.label			"SMTP">
+<!ENTITY imap.description		"IMAP - 複数のコンピュータからメッセージとフォルダへアクセスできます。">
+<!ENTITY pop.description		"POP -すべてのメッセージをこのコンピュータにダウンロードします。作成したフォルダはローカル専用です。">
+<!ENTITY recommended-appendix.label	"(推奨)">
 
-<!ENTITY manualSetup.label		"詳細設定...">
+<!ENTITY manualSetup.label		"手動設定...">
 <!ENTITY manualSetup.accesskey		"S">
 <!ENTITY cancel.label			"キャンセル">
 <!ENTITY cancel.accesskey		"a">

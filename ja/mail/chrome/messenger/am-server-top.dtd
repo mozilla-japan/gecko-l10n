@@ -24,8 +24,8 @@
 <!ENTITY connectionSecurityType-1.label	"STARTTLS (可能な場合)">
 <!ENTITY connectionSecurityType-2.label	"STARTTLS">
 <!ENTITY connectionSecurityType-3.label	"SSL/TLS">
-<!ENTITY useSecAuth.label		"保護された認証 (APOP, NTLM, CRAM-MD5 や Kerberos) を使用する"><!-- (^^; http://lxr.mozilla.org/mozilla1.8/source/mailnews/local/src/nsPop3Protocol.cpp#1422 -->
-<!ENTITY useSecAuth.accesskey		"i">
+<!ENTITY authMethod.label		"認証方式:">
+<!ENTITY authMethod.accesskey		"i">
 <!ENTITY leaveOnServer.label		"ダウンロード後もサーバにメッセージを残す">
 <!ENTITY leaveOnServer.accesskey	"g">
 <!ENTITY headersOnly.label		"ヘッダのみ取得する">

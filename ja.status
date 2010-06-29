@@ -66,3 +66,4 @@ all Fx                  28805:30aa3539cedc  2718:2457fbd6cc1f   dynamis         
 dom, editor/ui, toolkit -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 650
 extensions              -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 652
 calendar, mail, toolkit -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 655
+calendar, mail          -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 686

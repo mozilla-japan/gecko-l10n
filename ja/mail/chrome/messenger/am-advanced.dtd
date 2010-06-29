@@ -20,4 +20,4 @@
 <!ENTITY serverPort.label		"ポート: ">
 <!ENTITY userName.label			"ユーザ名: ">
 <!ENTITY connectionSecurity.label	"接続の保護: ">
-<!ENTITY useSecureAuthentication.label	"保護された認証: ">
+<!ENTITY authMethod.label		"認証方式: ">
