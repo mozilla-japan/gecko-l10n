@@ -101,10 +101,8 @@
 
 <!ENTITY certmgr.certname			"証明書名と発行者名"><!-- en-US: Certificate Name -->
 <!ENTITY certmgr.certserver			"サーバ">
-<!ENTITY certmgr.typesofoverrides		"例外">
 <!ENTITY certmgr.override_lifetime		"例外承認期間"><!-- (^^; -->
 <!ENTITY certmgr.tokenname			"セキュリティデバイス">
-<!ENTITY certmgr.purpose			"用途">
 <!ENTITY certmgr.issued				"発行日">
 <!ENTITY certmgr.expires			"有効期限">
 <!ENTITY certmgr.email				"メールアドレス">
@@ -114,8 +112,8 @@
 <!ENTITY certmgr.close.accesskey		"C">
 <!ENTITY certmgr.view2.label			"表示...">
 <!ENTITY certmgr.view2.accesskey		"V">
-<!ENTITY certmgr.edit2.label			"設定...">
-<!ENTITY certmgr.edit2.accesskey		"E">
+<!ENTITY certmgr.edit3.label			"信頼性を設定...">
+<!ENTITY certmgr.edit3.accesskey		"E">
 <!ENTITY certmgr.editca.label			"認証局の信頼性を設定">
 <!ENTITY certmgr.editca.accesskey		"d">
 <!ENTITY certmgr.add.label			"追加">
@@ -124,6 +122,8 @@
 <!ENTITY certmgr.export.accesskey		"x">
 <!ENTITY certmgr.delete2.label			"削除...">
 <!ENTITY certmgr.delete2.accesskey		"D">
+<!ENTITY certmgr.delete_builtin.label		"削除または信頼しない...">
+<!ENTITY certmgr.delete_builtin.accesskey	"D">
 <!ENTITY certmgr.backup2.label			"バックアップ...">
 <!ENTITY certmgr.backup2.accesskey		"B">
 <!ENTITY certmgr.backupall2.label		"すべてバックアップ...">
