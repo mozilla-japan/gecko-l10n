@@ -2,7 +2,6 @@
 <!ENTITY message.label		"ここにサンプルテキストを書きます。">
 <!ENTITY editfield0.label	"ユーザ名:"> 
 <!ENTITY editfield1.label	"パスワード:"> 
-<!ENTITY editfield2.label	"パスワードの確認:"> 
 <!ENTITY checkbox.label		"チェック">
 <!ENTITY copyCmd.label		"コピー">
 <!ENTITY copyCmd.accesskey	"C">

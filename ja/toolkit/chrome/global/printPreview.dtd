@@ -75,5 +75,5 @@
 
 <!ENTITY homearrow.tooltip	"最初のページを表示します">
 <!ENTITY endarrow.tooltip	"最後のページを表示します">
-<!ENTITY rightarrow.tooltip	"次のページを表示します">
-<!ENTITY leftarrow.tooltip	"前のページを表示します">
+<!ENTITY nextarrow.tooltip	"次のページを表示します">
+<!ENTITY previousarrow.tooltip	"前のページを表示します">
