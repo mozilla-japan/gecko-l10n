@@ -16,9 +16,9 @@
 <!ENTITY rights.intro-point1b		"Mozilla Public License">
 <!ENTITY rights.intro-point1c		" の条項下で提供されます。これにより、あなたは &brandShortName; を使用、複製、配布することができます。あなたはまた、&brandShortName; のソースコードを必要に応じて修正することもできます。Mozilla Public License では、あなたが修正したバージョンを配布することも認めています。">
 
-<!ENTITY rights.intro-point2a		"Mozilla は、Mozilla や Firefox の商標およびロゴについては、何らの権利もあなたに与えるものではありません。商標について詳しくは ">
-<!ENTITY rights.intro-point2b		"Mozilla 商標ポリシー">
-<!ENTITY rights.intro-point2c		" をご確認ください。">
+<!ENTITY rights.intro-point2-a		"Mozilla Foundation とその関係団体の商標およびロゴについては、Firefox の製品名およびロゴを含めこれに限定されず、何らの権利もあなたに与えるものではありません。商標について詳しくは ">
+<!ENTITY rights.intro-point2-b		"Mozilla 商標ポリシー">
+<!ENTITY rights.intro-point2-c		" をご確認ください。">
 
 <!-- point 3 text for official branded builds -->
 <!ENTITY rights.intro-point3a		"&vendorShortName; の製品における個人情報の取り扱いについては ">

@@ -69,4 +69,5 @@ calendar, mail, toolkit -----:------------  ----:------------   mar             
 calendar, mail          -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 686
 dom, netwerk            46391:e52ab4f1e8d5  5907:8b1b4701dbab   mar             sync dom and netwerk, chengeset 687
 security                47845:3040b1aebdfa  5972:8b0bbac0f237   mar             sync security, chengeset 689
-dom, security           47917:6b58d2615145  ----:------------   mar             sync security, chengeset 962, 963
+dom, security           47917:6b58d2615145  ----:------------   mar             sync security, chengeset 692, 693
+toolkit (partial)       47956:b816a2d20ac7  5979:ee1f364c20a5   mar             sync toolkit/global*, ./passwordmgr, chengeset 694
