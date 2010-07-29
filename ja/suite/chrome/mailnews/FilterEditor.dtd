@@ -52,41 +52,46 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title "Filter Rules">
+<!ENTITY window.title                "フィルタの設定">
 
-<!ENTITY filterName.label "Filter name:">
-<!ENTITY filterName.accesskey "i">
+<!ENTITY filterName.label            "フィルタ名:">
+<!ENTITY filterName.accesskey        "i">
 
-<!ENTITY junk.label "Junk">
-<!ENTITY notJunk.label "Not Junk">
+<!ENTITY junk.label                  "迷惑メール">
+<!ENTITY notJunk.label               "非迷惑メール">
 
-<!ENTITY lowestPriorityCmd.label "Lowest">
-<!ENTITY lowPriorityCmd.label "Low">
-<!ENTITY normalPriorityCmd.label "Normal">
-<!ENTITY highPriorityCmd.label "High">
-<!ENTITY highestPriorityCmd.label "Highest">
+<!ENTITY lowestPriorityCmd.label     "最低">
+<!ENTITY lowPriorityCmd.label        "低">
+<!ENTITY normalPriorityCmd.label     "標準">
+<!ENTITY highPriorityCmd.label       "高">
+<!ENTITY highestPriorityCmd.label    "最高">
 
-<!ENTITY conditionDesc.label "For incoming messages which:">
-<!ENTITY filterActionDesc.label "Perform these actions:">
-<!ENTITY filterActionDesc.accesskey "P">
+<!ENTITY contextDesc.label           "フィルタを適用するタイミング:">
+<!ENTITY contextDesc.accesskey       "w">
+<!ENTITY contextIncoming.label       "メールチェック時">
+<!ENTITY contextManual.label         "手動で実行">
+<!ENTITY contextBoth.label           "メールチェック時と手動実行">
+<!ENTITY contextPostPlugin.label     "メールチェック時 (迷惑メール分類後)">
+<!ENTITY contextPostPluginBoth.label "メールチェック時 (迷惑メール分類後) または手動実行">
 
-<!ENTITY newFolderButton.label "New Folder...">
-<!ENTITY newFolderButton.accesskey "N">
+<!ENTITY filterActionDesc.label      "以下の動作を実行する:">
+<!ENTITY filterActionDesc.accesskey  "P">
 
 <!-- New Style Filter Rule Actions -->
-<!ENTITY moveMessage.label "Move Message to">
-<!ENTITY copyMessage.label "Copy Message to">
-<!ENTITY forwardTo.label "Forward Message to">
-<!ENTITY replyWithTemplate.label "Reply with Template">
-<!ENTITY markMessageRead.label "Mark As Read">
-<!ENTITY markMessageStarred.label "Mark As Flagged">
-<!ENTITY labelMessage.label "Label Message As">
-<!ENTITY setPriority.label "Set Priority to">
-<!ENTITY addTag.label "Tag Message">
-<!ENTITY setJunkScore.label "Set Junk Status to">
-<!ENTITY deleteMessage.label "Delete Message">
-<!ENTITY deleteFromPOP.label "Delete From POP Server">
-<!ENTITY fetchFromPOP.label "Fetch From POP Server">
-<!ENTITY ignoreThread.label "Ignore Thread">
-<!ENTITY watchThread.label "Watch Thread">
-<!ENTITY stopExecution.label "Stop Filter Execution">
+<!ENTITY moveMessage.label           "メッセージを移動する">
+<!ENTITY copyMessage.label           "メッセージをコピーする">
+<!ENTITY forwardTo.label             "メッセージを転送する">
+<!ENTITY replyWithTemplate.label     "テンプレートを使用して返信する">
+<!ENTITY markMessageRead.label       "メッセージを既読にする">
+<!ENTITY markMessageStarred.label    "メッセージにフラグを付ける">
+<!ENTITY labelMessage.label          "メッセージにラベルを付ける"><!--Label Message As-->
+<!ENTITY setPriority.label           "重要度を設定する">
+<!ENTITY addTag.label                "メッセージにタグを付ける">
+<!ENTITY setJunkScore.label          "迷惑メールかどうか設定する">
+<!ENTITY deleteMessage.label         "メッセージを削除する">
+<!ENTITY deleteFromPOP.label         "メッセージを POP サーバから削除する">
+<!ENTITY fetchFromPOP.label          "POP サーバから本文を取得する">
+<!ENTITY ignoreThread.label          "スレッドを無視する">
+<!ENTITY ignoreSubthread.label       "サブスレッドを無視する">
+<!ENTITY watchThread.label           "注目スレッドに設定する">
+<!ENTITY stopExecution.label         "フィルタの実行を中止する">

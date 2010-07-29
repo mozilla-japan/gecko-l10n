@@ -1,14 +1,17 @@
-<!ENTITY findBookmark.title "ブックマークを検索">
-<!ENTITY findButton.label "検索">
-<!ENTITY save.query.label "ブックマークにクエリを保存">
-<!ENTITY search.contains.label "に以下を含む">
-<!ENTITY search.description.label "説明">
-<!ENTITY search.doesntcontain.label "に以下を含まない">
-<!ENTITY search.endswith.label "が以下で終わる">
-<!ENTITY search.for.label "ブックマークを検索します">
-<!ENTITY search.is.label "が以下と等しい">
-<!ENTITY search.isnot.label "が以下と異なる">
-<!ENTITY search.name.label "名前">
-<!ENTITY search.shortcut.label "キーワード">
-<!ENTITY search.startswith.label "が以下で始まる">
-<!ENTITY search.url.label "アドレス (URL)">
+
+<!ENTITY search.name.label              "名前">
+<!ENTITY search.url.label               "URL">
+<!ENTITY search.shortcut.label          "キーワード">
+<!ENTITY search.description.label       "説明">
+<!ENTITY search.startswith.label        "が以下で始まる">
+<!ENTITY search.endswith.label          "が以下で終わる">
+<!ENTITY search.is.label                "が以下と等しい">
+<!ENTITY search.isnot.label             "が以下と異なる">
+<!ENTITY search.contains.label          "に以下を含む">
+<!ENTITY search.doesntcontain.label     "に以下を含まない">
+<!ENTITY save.query.label               "ブックマークにクエリを保存">
+<!ENTITY save.query.accesskey           "S">
+<!ENTITY search.for.label               "ブックマークを検索します">
+<!ENTITY findBookmark.title             "ブックマークを検索">
+<!ENTITY findButton.label               "検索">
+<!ENTITY findButton.accesskey           "F">

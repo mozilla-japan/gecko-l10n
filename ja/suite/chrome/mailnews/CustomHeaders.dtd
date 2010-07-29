@@ -1,7 +1,7 @@
-<!ENTITY window.title "Customize Headers">
-<!ENTITY addButton.label "Add">
+<!ENTITY window.title "ヘッダのカスタマイズ">
+<!ENTITY addButton.label "追加">
 <!ENTITY addButton.accesskey "A">
-<!ENTITY removeButton.label "Remove">
+<!ENTITY removeButton.label "削除">
 <!ENTITY removeButton.accesskey "R">
-<!ENTITY newMsgHeader.label "New message header:">
+<!ENTITY newMsgHeader.label "新しいメッセージヘッダ:">
 <!ENTITY newMsgHeader.accesskey "N">

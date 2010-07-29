@@ -1,6 +1,13 @@
-<!ENTITY boxHeader "オフライン">
-<!ENTITY rHeader "オフライン">
-<!ENTITY radioAskMode "オフラインとオンラインのどちらにするか確認する">
-<!ENTITY radioUsePrev "前回のオフライン / オンライン状態と同じにする">
-<!ENTITY textStart "&brandShortName; が起動時に:">
-<!ENTITY window.title "オフライン">
+<!-- extracted from content/pref-offline.xul -->
+
+<!--LOCALIZATION NOTE : FILE The 'Offline' preferences dialog -->
+<!ENTITY window.title  "オフライン">
+<!ENTITY boxHeader     "オフライン">
+<!ENTITY rHeader       "オフライン">
+<!--LOCALIZATION NOTE (textStart): Don't translate "&brandShortName;".
+    Place "&brandShortName;" in the phrase where the name of the application should
+	 appear
+-->
+<!ENTITY textStart     "&brandShortName; の起動時に:">
+<!ENTITY radioAskMode  "オフラインとオンラインのどちらにするか確認する">
+<!ENTITY radioUsePrev  "前回のオフライン / オンライン状態と同じにする">

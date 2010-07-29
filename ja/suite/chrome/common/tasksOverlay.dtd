@@ -1,6 +1,6 @@
 <!-- extracted from tasksOverlay.xul -->
 <!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
-<!ENTITY navigatorCmd.label "Browser">
+<!ENTITY navigatorCmd.label "ブラウザ">
 <!ENTITY navigatorCmd.accesskey "B">
 <!ENTITY navigatorCmd.commandkey "1">
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
@@ -8,21 +8,16 @@
 <!ENTITY editorCmd.accesskey "c">
 <!ENTITY editorCmd.commandkey "4">
 
-<!ENTITY securityInfoCmd.label ".セキュリティ情報">
-<!ENTITY securityInfoCmd.accesskey "s">
 <!ENTITY javaConsoleCmd.label "Java コンソール">
 <!ENTITY javaConsoleCmd.accesskey "j">
 
 <!ENTITY errorConsoleCmd.accesskey				"C">
-<!ENTITY errorConsoleCmd.label                                  "エラー コンソール">
+<!ENTITY errorConsoleCmd.label                                  "エラーコンソール">
 
-<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
-<!ENTITY privacyMenu.label "Privacy &amp; Security">
-<!ENTITY privacyMenu.accesskey "p">
+<!ENTITY errorConsoleCmd.commandkey				"j">
 
 <!ENTITY taskComposer.tooltip "Composer">
-<!ENTITY taskNavigator.tooltip "Browser">
-<!ENTITY taskBar.tooltip "ステータス バー">
+<!ENTITY taskNavigator.tooltip "ブラウザ">
 
 <!ENTITY webDevelopment.label "Web 開発">
 <!ENTITY webDevelopment.accesskey "W">
@@ -33,10 +28,20 @@
 <!ENTITY tasksMenu.label "ツール">
 <!ENTITY tasksMenu.accesskey "T">
 
-<!ENTITY downloadManagerCmd.label "ダウンロード マネージャ">
-<!ENTITY downloadManagerCmd.accesskey "D">
+<!ENTITY passwordManagerCmd.label "パスワードマネージャ">
+<!ENTITY passwordManagerCmd.accesskey "P">
 
-<!ENTITY addonsManagerCmd.label "アドオン マネージャ">
+<!ENTITY passwordDisplayCmd.label "保存されているパスワードを管理">
+<!ENTITY passwordDisplayCmd.accesskey "M">
+ 
+<!ENTITY passwordExpireCmd.label "ログアウト">
+<!ENTITY passwordExpireCmd.accesskey "l">
+
+<!ENTITY downloadManagerCmd.label "ダウンロードマネージャ">
+<!ENTITY downloadManagerCmd.accesskey "D">
+<!ENTITY downloadManagerCmd.commandkey "j">
+
+<!ENTITY addonsManagerCmd.label "アドオンマネージャ">
 <!ENTITY addonsManagerCmd.accesskey "A">
 
 <!ENTITY switchProfileCmd.label "プロファイルの切り換え...">

@@ -3,18 +3,18 @@
 <!ENTITY findAsYouTypeAutoText.accesskey "A">
 <!ENTITY findAsYouTypeAutoText.label "ページ中のすべての文字">
 <!ENTITY findAsYouTypeBehavior.label "タイプ検索 (Find As You Type)">
-<!ENTITY findAsYouTypeEnableAuto.accesskey "a">
+<!ENTITY findAsYouTypeEnableAuto.accesskey "F">
 <!ENTITY findAsYouTypeEnableAuto.label "打った文字と同じ部分を自動的に探す機能:">
 <!ENTITY findAsYouTypeSound.accesskey "P">
 <!ENTITY findAsYouTypeSound.label "見つからなかったときには音を鳴らす">
 <!ENTITY findAsYouTypeTimeout.accesskey "C">
 <!ENTITY findAsYouTypeTimeout.label "文字を探しているとき少し時間があいたらリセットする">
-<!ENTITY findAsYouTypeTip.label "豆知識: 急にタイプ検索 (Find As You Type) をしたくなったときは、『/』を押しましょう。リンクだけでよかったら『'』です。">
-<!ENTITY pref.keyNav.title "キーボード ナビゲーション">
-<!ENTITY tabNavigationBehavior.label "タブ キー ナビゲーション">
+<!ENTITY findAsYouTypeTip.label "豆知識: / キーを押すと手動でタイプ検索 (Find As You Type) を開始できます。リンクだけを対象に検索するには ' キーを押してください。">
+<!ENTITY pref.keyNav.title "キーボードナビゲーション">
+<!ENTITY tabNavigationBehavior.label "タブキーナビゲーション">
 <!ENTITY tabNavigationDesc.label "Tab か Shift+Tab を押したときの移動先:">
 <!ENTITY tabNavigationForms.accesskey "B">
 <!ENTITY tabNavigationForms.label "ボタン、ラジオボタン、チェックボックス、リスト要素">
 <!ENTITY tabNavigationLinks.accesskey "L">
 <!ENTITY tabNavigationLinks.label "リンク">
-<!ENTITY tabNavigationTextboxes.label "注: いずれの設定でもテキスト ボックスとフレーム類は含まれます。">
+<!ENTITY tabNavigationTextboxes.label "注: いずれの設定でもテキストボックスとフレーム類は含まれます。">

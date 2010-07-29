@@ -1,38 +1,38 @@
-<!ENTITY pref.cookies.title "クッキー">
+<!ENTITY pref.cookies.title "Cookie">
 
 <!-- cookies -->
 
-<!ENTITY cookiePolicy.label "クッキー受け入れポリシー">
+<!ENTITY cookiePolicy.label "Cookie 受け入れポリシー">
 
-<!ENTITY accAllCookiesRadio.label "すべてのクッキーを許可">
+<!ENTITY accAllCookiesRadio.label "すべての Cookie を許可する">
 <!ENTITY accAllCookiesRadio.accesskey "c">
 
-<!ENTITY accOrgCookiesRadio.label "文書がある Web サイトから送信されてくるクッキーのみ許可">
+<!ENTITY accOrgCookiesRadio.label "文書がある Web サイトから送信される Cookie のみ許可する">
 <!ENTITY accOrgCookiesRadio.accesskey "o">
 
-<!ENTITY disableCookies.label "すべてのクッキーを拒否">
+<!ENTITY disableCookies.label "すべての Cookie を拒否する">
 <!ENTITY disableCookies.accesskey "B">
 
-<!ENTITY cookieRetentionPolicy.label "クッキー保持ポリシー">
+<!ENTITY cookieRetentionPolicy.label "Cookie 保持ポリシー">
 
-<!ENTITY acceptNormally.label "すべてのクッキーを許可 (サイト管理者の指示に従う)">
+<!ENTITY acceptNormally.label "すべての Cookie を許可する (サイト管理者の指示に従う)">
 <!ENTITY acceptNormally.accesskey "n">
 
-<!ENTITY acceptForSession.label "すべてのクッキーを受け入れるが、ブラウザ終了時にリセット">
+<!ENTITY acceptForSession.label "現在のセッションのみ許可する (ブラウザ終了時にリセット)">
 <!ENTITY acceptForSession.accesskey "s">
 
-<!ENTITY acceptforNDays.label "有効期限を限定:">
+<!ENTITY acceptforNDays.label "有効期限を指定する:">
 <!ENTITY acceptforNDays.accesskey "f">
 <!ENTITY days.label "日">
 
 <!ENTITY warnAboutCookies.label "常に処理方法を確認する">
 <!ENTITY warnAboutCookies.accesskey "A">
-<!ENTITY forCurrentSession.label "セッション クッキーを除く">
+<!ENTITY forCurrentSession.label "セッション Cookie を除く">
 <!ENTITY forCurrentSession.accesskey "e">
 
-<!ENTITY manageCookies.label "クッキーとサイト設定の管理">
-<!ENTITY manageCookiesDescription.label "クッキー マネージャを使用すると、保存されているクッキーを整理したり、サイト設定を見直したりできます。また、上記の設定に関係なく、サイト別の独自の設定を追加することもできます。">
+<!ENTITY manageCookies.label "Cookie とサイト設定の管理">
+<!ENTITY manageCookiesDescription.label "Cookie マネージャは、保存されている Cookie を整理したりサイト設定を見直したりできます。また、上記の設定に関係なく、サイト別の設定を追加することもできます。">
 
-<!ENTITY viewCookies.label "クッキーの管理">
+<!ENTITY viewCookies.label "Cookie の管理">
 <!ENTITY viewCookies.accesskey "M">
 

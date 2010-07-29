@@ -1,26 +1,25 @@
-<!ENTITY pref.images.title "画像">
+<!ENTITY pref.images.title              "画像">
 
-<!ENTITY imageBlocking.label "画像アクセスのポリシー">
+<!ENTITY imageBlocking.label            "画像表示の許可ポリシー">
 
 <!--LOCALIZATION NOTE (onStartLegend.label): Don't translate "&brandShortName;".
     Place "&brandShortName;" in the phrase where the name of the application should
 	 appear
 -->
-<!ENTITY imageDetails "&brandShortName; の 画像処理方法を指定する">
+<!ENTITY imageDetails                   "&brandShortName; の画像の取り扱い方法を指定する">
 
-<!ENTITY accAllImagesRadio.label "すべての画像を表示する">
-<!ENTITY accAllImagesRadio.accesskey "A">
-<!ENTITY accOrgImagesRadio.label "元のサーバから送られる画像だけを表示する">
-<!ENTITY accOrgImagesRadio.accesskey "r">
-<!ENTITY disableImages.label "すべての画像を表示しない">
-<!ENTITY disableImages.accesskey "n">
-<!ENTITY viewImagesExplanation.label "画像表示情報が保存されているサイト一覧を表示する">
-<!ENTITY viewImages.label "画像表示の可否設定の管理">
-<!ENTITY viewImages.accesskey "P">
-<!ENTITY animLoopingTitle.label "アニメーション画像の繰り返し:">
-<!ENTITY animLoopAsSpecified.label "画像が指定している回数">
-<!ENTITY animLoopAsSpecified.accesskey "m">
-<!ENTITY animLoopOnce.label "一回のみ">
-<!ENTITY animLoopOnce.accesskey "O">
-<!ENTITY animLoopNever.label "なし">
-<!ENTITY animLoopNever.accesskey "v">
+<!ENTITY accAllImagesRadio.label        "すべての画像を表示する">
+<!ENTITY accAllImagesRadio.accesskey    "A">
+<!ENTITY accOrgImagesRadio.label        "元のサーバから送られる画像だけを表示する">
+<!ENTITY accOrgImagesRadio.accesskey    "r">
+<!ENTITY disableImages.label            "すべての画像を表示しない">
+<!ENTITY disableImages.accesskey        "n">
+<!ENTITY viewImages.label               "画像表示の可否設定の管理">
+<!ENTITY viewImages.accesskey           "P">
+<!ENTITY animLoopingTitle.label         "アニメーション画像の繰り返し">
+<!ENTITY animLoopAsSpecified.label      "画像が指定した回数まで繰り返す">
+<!ENTITY animLoopAsSpecified.accesskey  "m">
+<!ENTITY animLoopOnce.label             "1 回だけ繰り返す">
+<!ENTITY animLoopOnce.accesskey         "O">
+<!ENTITY animLoopNever.label            "繰り返さない">
+<!ENTITY animLoopNever.accesskey        "v">

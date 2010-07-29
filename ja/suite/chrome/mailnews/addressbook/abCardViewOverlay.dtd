@@ -36,15 +36,14 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!-- Box Headings -->
-<!ENTITY contact.heading	"連絡先">
-<!ENTITY home.heading		"自宅">
-<!ENTITY other.heading		"その他">
-<!ENTITY phone.heading		"電話番号">
-<!ENTITY work.heading		"勤務先">
+<!ENTITY contact.heading             "連絡先">
+<!ENTITY home.heading                "自宅">
+<!ENTITY other.heading               "その他">
+<!ENTITY phone.heading               "電話番号">
+<!ENTITY work.heading                "勤務先">
 <!-- Special Box Headings, for mailing lists -->
-<!ENTITY description.heading	"説明">
-<!ENTITY addresses.heading	"メールアドレス">
+<!ENTITY description.heading         "説明">
+<!ENTITY addresses.heading           "メールアドレス">
 <!-- For Map It! -->
-<!ENTITY mapItButton.label	"地図">
-<!ENTITY mapIt.tooltip		"Web でこの場所の地図を表示します">
-
+<!ENTITY mapItButton.label           "地図">
+<!ENTITY mapIt.tooltip               "Web でこの場所の地図を表示します">

@@ -1,28 +1,26 @@
-<!ENTITY window.title "Message Filters">
-<!ENTITY nameColumn.label "Filter Name">
-<!ENTITY activeColumn.label "Enabled">
-<!ENTITY newButton.label "New...">
-<!ENTITY newButton.accesskey "N">
-<!ENTITY editButton.label "Edit...">
-<!ENTITY editButton.accesskey "E">
-<!ENTITY deleteButton.label "Delete">
-<!ENTITY deleteButton.accesskey "t">
-<!ENTITY reorderUpButton.label "Move Up">
-<!ENTITY reorderUpButton.accesskey "U">
-<!ENTITY reorderDownButton.label "Move Down">
-<!ENTITY reorderDownButton.accesskey "D">
-<!ENTITY filterHeader.label "Enabled filters are run automatically in the order shown below.">
-<!ENTITY filtersForPrefix.label "Filters for:">
-<!ENTITY filtersForPrefix.accesskey "F">
-<!ENTITY viewLogButton.label "Filter Log">
-<!ENTITY viewLogButton.accesskey "L">
-<!ENTITY runFilters.label "Run Now">
-<!ENTITY runFilters.accesskey "R">
-<!ENTITY stopFilters.label "Stop">
-<!ENTITY stopFilters.accesskey "S">
-<!ENTITY folderPickerPrefix.label "Run selected filter(s) on:">
+<!ENTITY filterListDialog.title       "メッセージフィルタ">
+<!ENTITY nameColumn.label             "フィルタ名">
+<!ENTITY activeColumn.label           "有効">
+<!ENTITY newButton.label              "新規...">
+<!ENTITY newButton.accesskey          "N">
+<!ENTITY editButton.label             "編集...">
+<!ENTITY editButton.accesskey         "E">
+<!ENTITY deleteButton.label           "削除">
+<!ENTITY deleteButton.accesskey       "t">
+<!ENTITY reorderUpButton.label        "上に移動">
+<!ENTITY reorderUpButton.accesskey    "U">
+<!ENTITY reorderDownButton.label      "下に移動">
+<!ENTITY reorderDownButton.accesskey  "D">
+<!ENTITY filterHeader.label           "自動的にこれらのフィルタが上から順に評価されます。">
+<!ENTITY filtersForPrefix.label       "対象アカウント:">
+<!ENTITY filtersForPrefix.accesskey   "F">
+<!ENTITY viewLogButton.label          "フィルタログ">
+<!ENTITY viewLogButton.accesskey      "L">
+<!ENTITY runFilters.label             "今すぐ実行">
+<!ENTITY runFilters.accesskey         "R">
+<!ENTITY stopFilters.label            "停止">
+<!ENTITY stopFilters.accesskey        "S">
+<!ENTITY folderPickerPrefix.label     "フィルタを使用するフォルダ:">
 <!ENTITY folderPickerPrefix.accesskey "c">
-<!ENTITY choosethis.label "choose this folder">
-<!ENTITY choosethisnewsserver.label "choose this news server">
-<!ENTITY helpButton.label "Help">
-<!ENTITY helpButton.accesskey "H">
+<!ENTITY choosethis.label             "このフォルダを選択">
+<!ENTITY choosethisnewsserver.label   "このニュースサーバを選択">

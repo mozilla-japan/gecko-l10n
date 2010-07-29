@@ -1,16 +1,16 @@
 <!--LOCALIZATION NOTE askSendFormat.dtd UI for dialog that asks the user, which format to use for sending a message -->
-<!ENTITY windowTitle.label "HTML Mail Question">
+<!ENTITY windowTitle.label "HTML メールの確認">
 
-<!ENTITY recipient.label "Some of the recipients are not listed as being able to receive HTML mail.">
+<!ENTITY recipient.label "受信者の中に HTML メールを受信できない人が含まれています。">
 
-<!ENTITY question.label "Would you like to convert the message to plain text or send it in HTML anyway?">
+<!ENTITY question.label "メッセージをプレーンテキストに変換して送信するか、HTML のままで送信するか、送信方法を指定してください。">
 
-<!ENTITY plainTextAndHtml.label "Send in Plain Text and HTML">
+<!ENTITY plainTextAndHtml.label "プレーンテキストと HTML で送信">
 <!ENTITY plainTextAndHtml.accesskey "a">
-<!ENTITY plainTextOnly.label "Send in Plain Text Only">
+<!ENTITY plainTextOnly.label "プレーンテキストのみで送信">
 <!ENTITY plainTextOnly.accesskey "P">
-<!ENTITY htmlOnly.label "Send in HTML Only">
+<!ENTITY htmlOnly.label "HTML のみで送信">
 <!ENTITY htmlOnly.accesskey "H">
 
-<!ENTITY send.label "Send">
+<!ENTITY send.label "送信する">
 <!ENTITY send.accesskey "S">

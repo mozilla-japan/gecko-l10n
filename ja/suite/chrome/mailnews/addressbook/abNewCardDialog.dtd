@@ -36,5 +36,5 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!-- Labels -->
-<!ENTITY chooseAddressBook.label                "Add to: ">
+<!ENTITY chooseAddressBook.label                "連絡先の追加先: ">
 <!ENTITY chooseAddressBook.accesskey            "t">

@@ -1,30 +1,34 @@
 <!-- extracted from content/pref-offline.xul -->
 
 <!--LOCALIZATION NOTE : FILE The 'Offline' preferences dialog -->
-<!ENTITY pref.offline.title               "Offline &amp; Disk Space">
-<!ENTITY pref.offline.caption             "Offline">
-<!ENTITY textStartUp                      "When starting up:">
+<!ENTITY pref.network.title               "ネットワークとディスク領域">
+<!ENTITY pref.offline.caption             "オフライン">
+<!ENTITY textStartUp                      "起動したとき:">
 <!ENTITY textStartUp.accesskey            "W">
-<!ENTITY menuitemRememberPrevState        "Remember previous online state">
-<!ENTITY menuitemAskMe                    "Ask me for online state at startup">
-<!ENTITY menuitemAlwaysOnline             "Always start up online">
-<!ENTITY menuitemAlwaysOffline            "Always start up offline">
-<!ENTITY menuitemAutomatic                "Detect automatically (if available)">
-<!ENTITY textGoingOnline                  "Send unsent messages when going online?">
-<!ENTITY radioAutoSend                    "Yes">
+<!ENTITY menuitemRememberPrevState        "前回終了時と同じ">
+<!ENTITY menuitemAskMe                    "起動時、処理方法を確認する">
+<!ENTITY menuitemAlwaysOnline             "常にオンラインで起動する">
+<!ENTITY menuitemAlwaysOffline            "常にオフラインで起動する">
+<!ENTITY menuitemAutomatic                "自動検出 (利用可能であれば)">
+<!ENTITY textGoingOnline                  "オンラインになったら、未送信メッセージを送信しますか？">
+<!ENTITY radioAutoSend                    "はい">
 <!ENTITY radioAutoSend.accesskey          "Y">
-<!ENTITY radioNotSend                     "No">
+<!ENTITY radioNotSend                     "いいえ">
 <!ENTITY radioNotSend.accesskey           "N">
-<!ENTITY radioAskUnsent                   "Ask me">
+<!ENTITY radioAskUnsent                   "確認する">
 <!ENTITY radioAskUnsent.accesskey         "s">
-<!ENTITY textGoingOffline                 "Download messages for offline use when going offline?">
-<!ENTITY radioAutoDownload                "Yes">
+<!ENTITY textGoingOffline                 "オフラインにする前に、オフラインでも読めるようにメッセージをダウンロードしますか？">
+<!ENTITY radioAutoDownload                "はい">
 <!ENTITY radioAutoDownload.accesskey      "e">
-<!ENTITY radioNotDownload                 "No">
+<!ENTITY radioNotDownload                 "いいえ">
 <!ENTITY radioNotDownload.accesskey       "o">
-<!ENTITY radioAskDownload                 "Ask me">
+<!ENTITY radioAskDownload                 "確認する">
 <!ENTITY radioAskDownload.accesskey       "k">
-<!ENTITY Diskspace                        "Disk Space">
-<!ENTITY offlineCompact.label             "Compact folders when it will save over">
+<!ENTITY mailConnections.caption          "メールの接続">
+<!ENTITY mailnewsTimeout.label            "以下の秒数を経過した場合、接続をタイムアウトと判定します:">
+<!ENTITY mailnewsTimeout.accesskey        "m">
+<!ENTITY mailnewsTimeoutSeconds.label     "秒">
+<!ENTITY Diskspace                        "ディスク領域">
+<!ENTITY offlineCompact.label             "ディスク領域を"><!--Compact folders when it will save over-->
 <!ENTITY offlineCompact.accesskey         "C">
-<!ENTITY kb.label                         "KB">
+<!ENTITY kb.label                         "KB 以上節約できる場合は最適化する"><!--KB-->

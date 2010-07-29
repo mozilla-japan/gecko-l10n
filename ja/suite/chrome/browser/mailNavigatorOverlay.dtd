@@ -2,25 +2,25 @@
 <!ENTITY newMessageCmd.accesskey         "M">
 <!ENTITY newMessageCmd.key               "M">
 
-<!ENTITY newCardCmd.label                "アドレス帳のカード...">
-<!ENTITY newCardCmd.accesskey            "C">
+<!ENTITY newContactCmd.label             "連絡先...">
+<!ENTITY newContactCmd.accesskey         "C">
 
-<!ENTITY sendPage.label                  "ページを送る...">
+<!ENTITY sendPage.label                  "ページをメールで送信...">
 <!ENTITY sendPage.accesskey              "S">
 
-<!ENTITY contextSendThisPage.label       "このページを送る...">
+<!ENTITY contextSendThisPage.label       "このページをメールで送信...">
 <!ENTITY contextSendThisPage.accesskey   "d">
-<!ENTITY contextSendThisLink.label       "このリンクを送る...">
+<!ENTITY contextSendThisLink.label       "このリンクをメールで送信...">
 <!ENTITY contextSendThisLink.accesskey   "k">
-<!ENTITY contextSendImage.label          "画像を送る...">
+<!ENTITY contextSendImage.label          "画像をメールで送信...">
 <!ENTITY contextSendImage.accesskey      "n">
-<!ENTITY contextSendVideo.label          "動画を送る...">
+<!ENTITY contextSendVideo.label          "動画をメールで送信...">
 <!ENTITY contextSendVideo.accesskey      "n">
-<!ENTITY contextSendAudio.label          "オーディオを送る...">
+<!ENTITY contextSendAudio.label          "オーディオをメールで送信...">
 <!ENTITY contextSendAudio.accesskey      "n">
-<!ENTITY contextSendFrame.label          "フレームを送る...">
+<!ENTITY contextSendFrame.label          "フレームをメールで送信...">
 <!ENTITY contextSendFrame.accesskey      "d">
 
-<!ENTITY sendLinkCmd.label               "リンクを送る..."> 
+<!ENTITY sendLinkCmd.label               "リンクをメールで送信..."> 
 <!ENTITY sendLinkCmd.accesskey           "d">
 

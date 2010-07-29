@@ -14,6 +14,11 @@
          nc:name="adding"/>
      </rdf:li>
      <rdf:li>
+       <rdf:Description ID="add-ons"
+         nc:name="add-ons"
+         nc:link="customize_help.xhtml#add-ons"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="address_books"
          nc:name="address books"
          nc:link="mail_help.xhtml#about_address_books"/>
@@ -32,6 +37,11 @@
        <rdf:Description ID="adding:images_to_web_pages"
          nc:name="inserting images to web pages"
          nc:link="composer_help.xhtml#inserting_an_image_into_your_page"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="adding:blog_account"
+         nc:name="creating a new blog account"
+         nc:link="mail_help.xhtml#setting_up_additional_mail_and_news_accounts"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="adding:mail_account"
@@ -87,6 +97,56 @@
        <rdf:Description ID="address_books:searching"
          nc:name="searching your address book"
          nc:link="mail_help.xhtml#searching_address_books_and_directories"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#add-ons">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="add-ons:about"
+         nc:name="about"
+         nc:link="customize_help.xhtml#about_add-ons"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="add-ons:installing"
+         nc:name="installing"
+         nc:link="customize_help.xhtml#installing_add-ons"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="add-ons:manager"
+         nc:name="Add-ons Manager"
+         nc:link="customize_help.xhtml#using_the_add-on_manager"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#add-ons:manager">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="add-ons:get_add-ons"
+         nc:name="Get Add-ons Panel"
+         nc:link="customize_help.xhtml#the_get_add-ons_panel"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="add-ons:extensions_panel"
+         nc:name="Extensions Panel"
+         nc:link="customize_help.xhtml#the_extensions_panel"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="add-ons:themes_panel"
+         nc:name="Themes Panel"
+         nc:link="customize_help.xhtml#the_themes_panel"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="add-ons:languages_panel"
+         nc:name="Languages Panel"
+         nc:link="customize_help.xhtml#the_languages_panel"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="add-ons:plugins_panel"
+         nc:name="Plugins Panel"
+         nc:link="customize_help.xhtml#the_plugins_panel"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
@@ -196,7 +256,7 @@
      <rdf:li>
        <rdf:Description ID="browser:keyboard_shortcuts"
          nc:name="keyboard shortcuts"
-         nc:link="shortcuts-navigator.xhtml"/>
+         nc:link="shortcuts_navigator.xhtml"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="browser:opening_pages"
@@ -217,6 +277,16 @@
        <rdf:Description ID="browser:start_page"
          nc:name="start page"
          nc:link="customize_help.xhtml#specifying_a_starting_page"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="browser:session_restore"
+         nc:name="session restore"
+         nc:link="customize_help.xhtml#session_restore"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="browser:crash_recovery"
+         nc:name="crash recovery"
+         nc:link="customize_help.xhtml#session_restore"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="browser:start_up_components"
@@ -313,6 +383,11 @@
          nc:link="certs_prefs_help.xhtml#client_certificate_selection"/>
      </rdf:li>
      <rdf:li>
+       <rdf:Description ID="Certificates:server"
+         nc:name="server identity"
+         nc:link="using_certs_help.xhtml#managing_certificates_that_identify_servers"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="Certificates:using"
          nc:name="Using Certificates"
          nc:link="using_certs_help.xhtml#using_certificates"/>
@@ -325,7 +400,7 @@
      <rdf:li>
        <rdf:Description ID="Certificates:web_site"
          nc:name="website identity"
-         nc:link="using_certs_help.xhtml#managing_certificates_that_identify_websites"/>
+         nc:link="using_certs_help.xhtml#managing_certificates_that_identify_servers"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="Certificates:your_own"
@@ -415,7 +490,7 @@
      <rdf:li>
        <rdf:Description ID="Composer:keyboard_shortcuts"
          nc:name="keyboard shortcuts"
-         nc:link="shortcuts-composer.xhtml"/>
+         nc:link="shortcuts_composer.xhtml"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="Composer:removing_text_styles"
@@ -484,7 +559,7 @@
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="cookies:managing_per_site"
-         nc:name="managing cookies per site"
+         nc:name="managing cookies per website"
          nc:link="using_priv_help.xhtml#managing_cookies_site-by-site"/>
      </rdf:li>
      <rdf:li>
@@ -496,11 +571,6 @@
        <rdf:Description ID="cookies:preferences"
          nc:name="cookie preferences"
          nc:link="using_priv_help.xhtml#cookies"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="cookies:privacy_levels_for"
-         nc:name="privacy levels"
-         nc:link="using_priv_help.xhtml#setting_privacy_levels"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="cookies:removing"
@@ -569,7 +639,7 @@
    <nc:subheadings>
      <rdf:Seq><rdf:li>
        <rdf:Description ID="Download_Manager:preferences"
-         nc:name="downoad manager preferences"
+         nc:name="download manager preferences"
          nc:link="cs_nav_prefs_navigator.xhtml#downloads"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
@@ -590,6 +660,11 @@
        <rdf:Description ID="JSConsole"
          nc:name="error console"
          nc:link="developer_tools.xhtml#js_console"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="extensions_panel"
+         nc:name="extensions panel"
+         nc:link="customize_help.xhtml#the_extensions_panel"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
@@ -642,6 +717,11 @@
 <rdf:Description about="help-indexAZ.rdf#f">
    <nc:subheadings>
      <rdf:Seq><rdf:li>
+       <rdf:Description ID="feeds"
+         nc:name="Feeds"
+         nc:link="glossary.xhtml#feed"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="file_types"
          nc:name="file types"
          nc:link="nav_help.xhtml#plugins_and_downloads"/>
@@ -670,71 +750,26 @@
        <rdf:Description ID="font_changing_in_composer"
          nc:name="Font changing in Composer"
          nc:link="composer_help.xhtml#changing_text_color_style_and_font"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="Form_Manager"
-         nc:name="Form Manager"
-         nc:link="using_priv_help.xhtml#using_the_form_manager"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
 
-<rdf:Description about="#Form_Manager">
+<rdf:Description about="#feeds">
    <nc:subheadings>
      <rdf:Seq><rdf:li>
-       <rdf:Description ID="Form_Manager:encrypting_stored_information"
-         nc:name="encrypting stored information"
-         nc:link="using_priv_help.xhtml#encrypting_stored_sensitive_information"/>
+       <rdf:Description ID="feeds:subscribing"
+         nc:name="subscribing to a feed"
+         nc:link="mail_help.xhtml#subscribing_to_blogs_and_news_feeds"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="Form_Manager:preferences"
-         nc:name="form manager preferences"
-         nc:link="using_priv_help.xhtml#forms"/>
+       <rdf:Description ID="feeds:reading"
+         nc:name="Reading a feed"
+         nc:link="mail_help.xhtml#reading_blogs_and_news_feed_messages"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="Form_Manager:settings"
-         nc:name="form manager settings"
-         nc:link="using_priv_help.xhtml#form_settings"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="Form_Manager:using"
-         nc:name="using the form manager"
-         nc:link="using_priv_help.xhtml#using_the_form_manager"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="forms"
-         nc:name="forms"
-         nc:link="using_priv_help.xhtml#encrypting_stored_sensitive_information"/>
-     </rdf:li></rdf:Seq>
-   </nc:subheadings>
-</rdf:Description>
-
-<rdf:Description about="#forms">
-   <nc:subheadings>
-     <rdf:Seq><rdf:li>
-       <rdf:Description ID="forms:encrypting_stored_information"
-         nc:name="encrypting stored information"
-         nc:link="using_priv_help.xhtml#encrypting_stored_sensitive_information"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="forms:filling_out_automatically"
-         nc:name="filling out automatically"
-         nc:link="using_priv_help.xhtml#filling_out_forms_automatically"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="forms:preferences"
-         nc:name="form preferences"
-         nc:link="using_priv_help.xhtml#forms"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="forms:saving_data"
-         nc:name="saving data from forms"
-         nc:link="using_priv_help.xhtml#saving_form_data"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="forms:storing_data_from"
-         nc:name="storing data from forms"
-         nc:link="using_priv_help.xhtml#managing_stored_form_data"/>
+       <rdf:Description ID="feeds:exporting_importing"
+         nc:name="exporting and importing feeds"
+         nc:link="mail_help.xhtml#exporting_and_importing_feeds"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
@@ -806,11 +841,6 @@
      <rdf:li>
        <rdf:Description ID="import"
          nc:name="import"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="intermediate_server_CA_certificates"
-         nc:name="intermediate server CA certificates"
-         nc:link="cert_dialog_help.xhtml#web_site_certified_by_an_unknown_authority"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
@@ -884,6 +914,11 @@
          nc:link="using_certs_help.xhtml#importing_crls"/>
      </rdf:li>
      <rdf:li>
+       <rdf:Description ID="import:feeds"
+         nc:name="import feeds"
+         nc:link="mail_help.xhtml#exporting_and_importing_feeds"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="import:mail"
          nc:name="import mail or settings from other programs"
          nc:link="mail_help.xhtml#importing_mail_from_other_programs"/>
@@ -945,7 +980,7 @@
      <rdf:Seq><rdf:li>
        <rdf:Description ID="keyboard_shortcuts:Composer"
          nc:name="Composer keyboard shortcuts"
-         nc:link="shortcuts-composer.xhtml"/>
+         nc:link="shortcuts_composer.xhtml"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="keyboard_shortcuts:general"
@@ -960,12 +995,12 @@
      <rdf:li>
        <rdf:Description ID="keyboard_shortcuts:Mail_and_Newsgroups"
          nc:name="Mail and Newsgroups keyboard shortcuts"
-         nc:link="shortcuts-mailnews.xhtml"/>
+         nc:link="shortcuts_mailnews.xhtml"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="keyboard_shortcuts:Navigator"
          nc:name="Browser keyboard shortcuts"
-         nc:link="shortcuts-navigator.xhtml"/>
+         nc:link="shortcuts_navigator.xhtml"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
@@ -976,6 +1011,11 @@
        <rdf:Description ID="languages"
          nc:name="languages"
          nc:link="nav_help.xhtml#using_languages_and_international_content"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="languages_panel"
+         nc:name="languages panel"
+         nc:link="customize_help.xhtml#the_languages_panel"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="LDAP"
@@ -1020,7 +1060,7 @@
      <rdf:li>
        <rdf:Description ID="LDAP:global_settings"
          nc:name="LDAP settings"
-         nc:link="mail_help.xhtml#addressing_preferences"/>
+         nc:link="mailnews_preferences.xhtml#addressing_preferences"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
@@ -1065,7 +1105,7 @@
      <rdf:li>
        <rdf:Description ID="Mail_and_Newsgroups:address_autocompletion"
          nc:name="address autocompletion"
-         nc:link="mail_help.xhtml#address_autocompletion"/>
+         nc:link="mailnews_preferences.xhtml#address_autocompletion"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="Mail_and_Newsgroups:addressing_messages"
@@ -1075,7 +1115,7 @@
      <rdf:li>
        <rdf:Description ID="Mail_and_Newsgroups:addressing_preferences"
          nc:name="addressing preferences"
-         nc:link="mail_help.xhtml#addressing_preferences"/>
+         nc:link="mailnews_preferences.xhtml#addressing_preferences"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="Mail_and_Newsgroups:Advanced_IMAP_settings"
@@ -1095,7 +1135,7 @@
      <rdf:li>
        <rdf:Description ID="Mail_and_Newsgroups:Character_Encoding"
          nc:name="Character Encoding"
-         nc:link="mail_help.xhtml#character_encoding"/>
+         nc:link="mailnews_preferences.xhtml#character_encoding"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="Mail_and_Newsgroups:Compose_window"
@@ -1133,9 +1173,9 @@
          nc:link="mail_help.xhtml#creating_html_mail_messages"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="Mail_and_Newsgroups:Disk_Space_settings"
-         nc:name="Disk Space settings"
-         nc:link="mail_help.xhtml#offline_and_disk_space"/>
+       <rdf:Description ID="Mail_and_Newsgroups:disk_space_and_storage_settings"
+         nc:name="disk space and storage settings"
+         nc:link="mail_help.xhtml#synchronization_and_storage"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="Mail_and_Newsgroups:filing_messages"
@@ -1150,7 +1190,7 @@
      <rdf:li>
        <rdf:Description ID="Mail_and_Newsgroups:general_preferences"
          nc:name="general mail preferences"
-         nc:link="mail_help.xhtml#mail_and_newsgroup_preferences"/>
+         nc:link="mailnews_preferences.xhtml#mail_and_newsgroup_preferences"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="Mail_and_Newsgroups:getting_new_messages"
@@ -1186,6 +1226,16 @@
        <rdf:Description ID="Mail_and_Newsgroups:message_searching"
          nc:name="message searching"
          nc:link="mail_help.xhtml#searching_through_messages"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:network_preferences"
+         nc:name="Mail and Newsgroups Network preferences"
+         nc:link="mailnews_preferences.xhtml#network_and_storage_preferences"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:offline_synchronization_settings"
+         nc:name="offline synchronization settings"
+         nc:link="mail_help.xhtml#synchronization_and_storage"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="Mail_and_Newsgroups:POP_settings"
@@ -1330,6 +1380,11 @@
      <rdf:li>
        <rdf:Description ID="Offline"
          nc:name="Offline"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="OPML"
+         nc:name="OPML"
+         nc:link="glossary.xhtml#opml"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
@@ -1339,7 +1394,7 @@
      <rdf:Seq><rdf:li>
        <rdf:Description ID="Offline:general_preferences"
          nc:name="offline preferences"
-         nc:link="mail_help.xhtml#offline_and_disk_space_preferences"/>
+         nc:link="mailnews_preferences.xhtml#network_and_storage_preferences"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="Offline:Mail_and_Newsgroups"
@@ -1370,6 +1425,11 @@
        <rdf:Description ID="plugins"
          nc:name="plugins"
          nc:link="nav_help.xhtml#plugins_and_downloads"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="plugins_panel"
+         nc:name="plugins panel"
+         nc:link="customize_help.xhtml#the_plugins_panel"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="POP"
@@ -1537,11 +1597,6 @@
          nc:link="cs_nav_prefs_appearance.xhtml#fonts"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="preferences:forms"
-         nc:name="form preferences"
-         nc:link="using_priv_help.xhtml#forms"/>
-     </rdf:li>
-     <rdf:li>
        <rdf:Description ID="preferences:helper_applications"
          nc:name="helper application preferences"
          nc:link="cs_nav_prefs_navigator.xhtml#helper_applications"/>
@@ -1647,16 +1702,6 @@
          nc:link="privacy_help.xhtml#internet_address"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="privacy:P3P_levels"
-         nc:name="P3P levels"
-         nc:link="using_priv_help.xhtml#setting_privacy_levels"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="privacy:P3P_standard_and"
-         nc:name="P3P standard"
-         nc:link="page_info_help.xhtml"/>
-     </rdf:li>
-     <rdf:li>
        <rdf:Description ID="privacy:preferences"
          nc:name="privacy preferences"
          nc:link="privsec_help.xhtml"/>
@@ -1667,13 +1712,8 @@
          nc:link="privacy_help.xhtml#using_privacy_features"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="privacy:settings"
-         nc:name="privacy settings"
-         nc:link="using_priv_help.xhtml#privacy_settings"/>
-     </rdf:li>
-     <rdf:li>
        <rdf:Description ID="privacy:viewing_site_policy"
-         nc:name="viewing site policy"
+         nc:name="viewing website policy"
          nc:link="page_info_help.xhtml"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
@@ -1700,11 +1740,6 @@
        <rdf:Description ID="profiles:renaming"
          nc:name="renaming a profile"
          nc:link="profiles_help.xhtml#deleting_or_renaming_a_profile"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="profiles:roaming"
-         nc:name="roaming profile"
-         nc:link="profiles_help.xhtml#roaming_profiles"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
@@ -1764,7 +1799,7 @@
      <rdf:Seq><rdf:li>
        <rdf:Description ID="return_receipts:general_preferences"
          nc:name="return receipts preferences"
-         nc:link="mail_help.xhtml#return_receipts_preferences"/>
+         nc:link="mailnews_preferences.xhtml#return_receipts_preferences"/>
      </rdf:li><rdf:li>
        <rdf:Description ID="return_receipts:using"
          nc:name="using return receipts"
@@ -1787,11 +1822,6 @@
        <rdf:Description ID="security_devices"
          nc:name="security devices"
          nc:link="using_certs_help.xhtml#about_security_devices_and_modules"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="server_certificate_problems"
-         nc:name="server certificate problems"
-         nc:link="cert_dialog_help.xhtml#web_site_certified_by_an_unknown_authority"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="settings"
@@ -2048,6 +2078,11 @@
          nc:link="customize_help.xhtml#changing_the_theme"/>
      </rdf:li>
      <rdf:li>
+       <rdf:Description ID="themes_panel"
+         nc:name="themes panel"
+         nc:link="customize_help.xhtml#the_themes_panel"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="toolbar"
          nc:name="toolbar"/>
      </rdf:li></rdf:Seq>
@@ -2099,7 +2134,7 @@
      <rdf:Seq><rdf:li>
        <rdf:Description ID="Tags:general_preferences"
          nc:name="tag preferences"
-         nc:link="mail_help.xhtml#tags"/>
+         nc:link="mailnews_preferences.xhtml#tags"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>

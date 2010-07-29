@@ -1,20 +1,20 @@
 <!-- the following is for the task menu overlay -->
 
-<!ENTITY cookieMessageTitle.label "クッキー取捨設定の変更">
-<!ENTITY cookieDisplayCookiesCmd.label "保存したクッキーの管理">
+<!ENTITY cookieMessageTitle.label "Cookie 取捨設定の変更">
+<!ENTITY cookieDisplayCookiesCmd.label "保存した Cookie の管理">
 <!ENTITY cookieDisplayCookiesCmd.accesskey "M">
-<!ENTITY cookieAllowCookiesCmd.label "このサイトからのクッキーを受け入れます">
+<!ENTITY cookieAllowCookiesCmd.label "このサイトからの Cookie を受け入れます">
 <!ENTITY cookieAllowCookiesCmd.accesskey "A">
-<!ENTITY cookieAllowCookiesMsg.label "このサイトからのクッキーを受け入れます">
-<!ENTITY cookieAllowSessionCookiesCmd.label "このサイトからのセッション クッキーを受け入れます">
+<!ENTITY cookieAllowCookiesMsg.label "このサイトからの Cookie を受け入れます">
+<!ENTITY cookieAllowSessionCookiesCmd.label "このサイトからのセッション Cookie を受け入れます">
 <!ENTITY cookieAllowSessionCookiesCmd.accesskey "S">
-<!ENTITY cookieAllowSessionCookiesMsg.label "このサイトからのクッキーは、アプリケーションを終了するまで有効です。">
-<!ENTITY cookieCookiesDefaultCmd.label "デフォルトのクッキー取捨設定を使用">
+<!ENTITY cookieAllowSessionCookiesMsg.label "このサイトからの Cookie は、アプリケーションを終了するまで有効です。">
+<!ENTITY cookieCookiesDefaultCmd.label "デフォルトの Cookie 取捨設定を使用">
 <!ENTITY cookieCookiesDefaultCmd.accesskey "U">
-<!ENTITY cookieCookiesDefaultMsg.label "このサイトからのクッキーは、デフォルトの設定に基づき自動的に受け取り、または捨てられます。">
-<!ENTITY cookieBlockCookiesCmd.label "このサイトからのクッキーを拒否します">
+<!ENTITY cookieCookiesDefaultMsg.label "このサイトからの Cookie は、デフォルトの設定に基づき自動的に受け取り、または捨てられます。">
+<!ENTITY cookieBlockCookiesCmd.label "このサイトからの Cookie を拒否します">
 <!ENTITY cookieBlockCookiesCmd.accesskey "B">
-<!ENTITY cookieBlockCookiesMsg.label "このサイトからのクッキーは常に拒否します。">
+<!ENTITY cookieBlockCookiesMsg.label "このサイトからの Cookie は常に拒否します。">
 
 <!ENTITY cookieImageMessageTitle.label "画像表示の可否設定の変更">
 <!ENTITY cookieDisplayImagesCmd.label "画像表示の可否設定の管理">
@@ -34,12 +34,9 @@
 <!ENTITY cookieManagePopups.label "ポップアップの管理">
 <!ENTITY cookieManagePopups.accesskey "M">
 
-<!ENTITY cookieTutorialCmd.label "プライバシーの理解">
-<!ENTITY cookieTutorialCmd.accesskey "u">
-
-<!ENTITY cookieCookieManager.label "クッキー マネージャ">
+<!ENTITY cookieCookieManager.label "Cookie マネージャ">
 <!ENTITY cookieCookieManager.accesskey "c">
 <!ENTITY cookieImageManager.label "画像マネージャ">
 <!ENTITY cookieImageManager.accesskey "i">
-<!ENTITY cookiePopupManager.label "ポップアップ マネージャ">
+<!ENTITY cookiePopupManager.label "ポップアップマネージャ">
 <!ENTITY cookiePopupManager.accesskey "o">

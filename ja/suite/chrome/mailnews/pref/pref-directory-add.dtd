@@ -35,39 +35,43 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY newDirectoryTitle.label           "Directory Server Properties">
-<!ENTITY directoryName.label               "Name: ">
+<!ENTITY newDirectoryTitle.label           "LDAP サーバの@@Property@@">
+<!ENTITY directoryName.label               "名前: ">
 <!ENTITY directoryName.accesskey           "n">
-<!ENTITY directoryHostname.label           "Hostname: ">
+<!ENTITY directoryHostname.label           "ホスト名: ">
 <!ENTITY directoryHostname.accesskey       "o">
-<!ENTITY directoryBaseDN.label             "Base DN: ">
+<!ENTITY directoryBaseDN.label             "ベース識別名: ">
 <!ENTITY directoryBaseDN.accesskey         "b">
-<!ENTITY findButton.label                  "Find">
+<!ENTITY findButton.label                  "検索">
 <!ENTITY findButton.accesskey              "f">
-<!ENTITY directorySecure.label             "Use secure connection (SSL)">
+<!ENTITY directorySecure.label             "保護された接続 (SSL) を使用">
 <!ENTITY directorySecure.accesskey         "U">
 <!ENTITY directoryLogin.label              "Bind DN: ">
 <!ENTITY directoryLogin.accesskey          "i">
-<!ENTITY advancedOptionsButton.label       "Advanced Options">
-<!ENTITY advancedOptionsButton.accesskey   "a">
-<!ENTITY General.tab                       "General">
-<!ENTITY Offline.tab                       "Offline">
-<!ENTITY Advanced.tab                      "Advanced">
-<!ENTITY advancedOptionsTitle.label        "Advanced Options">
-<!ENTITY portNumber.label                  "Port number: ">
+<!ENTITY General.tab                       "一般">
+<!ENTITY Offline.tab                       "オフライン">
+<!ENTITY Advanced.tab                      "詳細">
+<!ENTITY portNumber.label                  "ポート番号: ">
 <!ENTITY portNumber.accesskey              "p">
-<!ENTITY searchFilter.label                "Search filter: ">
+<!ENTITY searchFilter.label                "検索フィルタ: ">
 <!ENTITY searchFilter.accesskey            "f">
-<!ENTITY scope.label                       "Scope: ">
+<!ENTITY scope.label                       "スコープ: ">
 <!ENTITY scope.accesskey                   "c">
-<!ENTITY scopeOneLevel.label               "One Level">
+<!ENTITY scopeOneLevel.label               "1 階層">
 <!ENTITY scopeOneLevel.accesskey           "L">
-<!ENTITY scopeSubtree.label                "Subtree">
+<!ENTITY scopeSubtree.label                "サブツリー">
 <!ENTITY scopeSubtree.accesskey            "S">
-<!ENTITY return.label                      "Don't return more than">
+<!ENTITY return.label                      "結果を">
 <!ENTITY return.accesskey                  "r">
-<!ENTITY results.label                     "results">
-<!ENTITY offlineText.label                 "You can download a local copy of this directory so that it is available for use when you are working offline.">
+<!ENTITY results.label                     "件以上は表示しない">
+<!ENTITY offlineText.label                 "オフラインでも利用できるようにディレクトリのコピーをローカルにダウンロードしておくことができます。">
+<!ENTITY saslMechanism.label               "認証方法: ">
+<!ENTITY saslMechanism.accesskey           "m">
+<!ENTITY saslOff.label                     "簡易">
+<!ENTITY saslOff.accesskey		   "l">
+<!ENTITY saslGSSAPI.label                  "Kerberos (GSSAPI)">
+<!ENTITY saslGSSAPI.accesskey		   "K">
+
 <!-- Localization note: this is here because the width of the dialog 
      is determined by the width of the base DN box; and that is likely
      to vary somewhat with the language.

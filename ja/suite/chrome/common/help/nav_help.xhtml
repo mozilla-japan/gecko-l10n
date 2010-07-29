@@ -223,20 +223,16 @@
     visited web pages from the lists.</li>
 </ol>
 
-<p><strong>Tip</strong>: In <q>Remember visited pages for the last [__]
-  days</q>, you can set the number of days pages will remain in the history
-  list.</p>
-
 <p>To selectively delete pages from the history list, do any of the
   following:</p>
 
 <ul>
   <li>To delete all pages from a domain, select a page within that domain
     (folder) in the History list, open the Edit menu, and select <q>Delete
-    entire domain <em>*.[domain name]</em></q>. For example, use this command
+    History for <em>*.[domain name]</em></q>. For example, use this command
     if you want to delete all pages that end in <q>mozilla.org</q>.</li>
   <li>To delete pages from a subdomain, select a page within that subdomain in
-    the History list, open the Edit menu, and select <q>Delete all from
+    the History list, open the Edit menu, and select <q>Delete History for
     <em>[subdomain]</em></q>. For example, use this command if you want to
     delete all pages from <q>bugzilla.mozilla.org</q> but not
     <q>mozilla.org</q>.</li>
@@ -347,7 +343,7 @@
     <td><img src="images/sidebar.png"
       alt="Sidebar Handle"/></td>
     <td style="vertical-align:
-      middle; padding-right: 20px;"><strong>Sidebar<br/>Handle</strong></td>
+      middle; -moz-padding-end: 20px;"><strong>Sidebar<br/>Handle</strong></td>
     <td style="vertical-align: middle;">If it is not already open, open Sidebar
       by clicking its handle. If the handle is missing, open the View menu in
       the browser, choose Show/Hide, and then Sidebar from the submenu.</td>
@@ -421,10 +417,7 @@
   Preferences</a>, you can set up the Location Bar so a search is automatically
   performed if the text you have typed is not a web location. Typing a word in
   the Location Bar and pressing <kbd class="noMac">Enter</kbd><kbd class="mac">
-  Return</kbd> will then perform a search. For a more technical description of
-  this feature, see the online document
-  <a href="http://www.mozilla.org/docs/end-user/internet-keywords.html">
-  Internet Keywords</a>.</p>
+  Return</kbd> will then perform a search.</p>
 
 <h3 id="searching_from_sidebar">Searching from Sidebar</h3>
 
@@ -582,6 +575,8 @@
 
 <p>[<a href="#searching_the_web">Return to beginning of section</a>]</p>
 
+<h2 id="searching_within_a_page">Searching Within a Page</h2>
+
 <p>To find text within the page you are currently viewing in the browser:</p>
 
 <ol>
@@ -592,19 +587,20 @@
   <li>Type the text you want to find.</li>
   <li>Choose from the following search options: 
     <ul>
-      <li><strong>Match exact case</strong>: Choose this to search for a
+      <li><strong>Match case</strong>: Choose this to search for a
         word or phrase that matches the word you typed exactly (including
         uppercase and lowercase letters).</li>
-      <li><strong>Wrap around</strong>: Choose this to allow the browser to
-        search from the where the cursor is to the bottom of the page and then
+      <li><strong>Wrap</strong>: Choose this to allow the browser to
+        search from where the cursor is to the bottom of the page and then
         continue searching from the top of the page. Note: Normally, the page
         is searched from the place where you last clicked your mouse to the
         bottom of the page.</li>
-      <li><strong>Search backwards</strong>: Choose this to search from the
-        insertion point backwards to the top of the page.</li>
+      <li><strong>Direction</strong>: Choose Up to search from the
+        insertion point backwards to the top of the page. The default
+        is Down.</li>
     </ul>
   </li>
-  <li>Click Find to begin the search.</li>
+  <li>Click Find Next to begin the search.</li>
 </ol>
 
 <p>To find the same word or phrase again:</p>
@@ -692,27 +688,10 @@
 
 <ol>
   <li>Open the Go menu and choose History. You see the history list.</li>
-  <li>In the History list, open the Tools menu and choose Search History. You
-    see the Find in History dialog box.</li>
-  <li>Use the drop-down lists to select options to define your search. Choose
-    from the following search options:
-    <ul>
-      <li>Choose <q>title</q> or <q>location</q> to choose where you
-        would like to search.</li>
-      <li>Choose <q>contains</q>, <q>starts with</q>, or <q>ends
-        with</q> if you know only part of the word or phrase for which
-        you&apos;re searching.</li>
-      <li>Choose <q>is</q> if you know exactly what you&apos;re searching
-        for.</li>
-      <li>Choose <q>is not</q> or <q>doesn&apos;t contain</q> to
-        exclude pages.</li>
-      <li>Click in the field and type all or part of word or URL (web address)
-        for the bookmarks or history listings that you want to find or
-        exclude.</li>
-    </ul>
-  </li>
-  <li>Click Find. History listings that match your search criteria are
-    displayed in the Search Results window.</li>
+  <li>Above the actual list, you see a textbox titled <q>Search History</q>.</li>
+  <li>Click into this textbox and type parts of the URL or page title you are
+    searching for.</li>
+  <li>The History list is filtered for those search terms as you type them.</li>
 </ol>
 
 <p>To use the search results:</p>
@@ -727,8 +706,6 @@
 <ul>
   <li>To open the History list quickly, press <kbd class="mac">Cmd</kbd>
     <kbd class="noMac">Ctrl</kbd>+<kbd>H</kbd>.</li>
-  <li>If the list is hard to read, try expanding the Search Results
-    window.</li>
 </ul>
 
 <p>[<a href="#searching_the_web">Return to beginning of section</a>]</p>
@@ -929,11 +906,11 @@
       <li><strong>Orientation</strong>: 
         <ul>
           <li><strong>Portrait</strong>: Choose this
-            <img src="chrome://global/skin/icons/pg-portrait-small.gif"
+            <img src="chrome://global/skin/icons/Portrait.png"
             alt="portrait button"/> to position the page normally, with the
             shorter side facing up.</li>
           <li><strong>Landscape</strong>: Choose this
-            <img src="chrome://global/skin/icons/pg-landscape-small.gif"
+            <img src="chrome://global/skin/icons/Landscape.png"
             alt="landscape button"/> to position the page sideways, with the
             longer side facing up.</li>
         </ul>
@@ -1032,7 +1009,7 @@
   Some languages e.g. most West European languages, share the same encoding
   method. Others such as Chinese, Japanese, and Russian use different methods.
   In contrast, Unicode provides language-independent encoding methods. UTF-8,
-  for examples, can be used for any language document.</p>
+  for example, can be used for any language document.</p>
 
 <p>Your version of &brandShortName; is set to a default character encoding
   appropriate for your region. However, if you use more than one language, you
@@ -1042,7 +1019,8 @@
 <p>To select character encodings, begin from the browser window:</p>
 
 <ol>
-  <li>Open the View menu, choose Character Encoding, and then choose More.</li>
+  <li>Open the View menu, choose Character Encoding, and then choose More
+    Encodings.</li>
   <li>Choose a region from the top section of the submenu.</li>
   <li>Choose a character encoding within the region submenu. Repeat steps
     1-3 for each character encoding method you want.</li>
@@ -1052,6 +1030,15 @@
   Encoding menu. If you have more than one encoding method selected, the active
   one has a bullet (dot) next to it.</p>
 
+<p>If the page, which you are viewing, shows wrong character glyphs with all
+  predefined character encodings, there is a chance that it requires special
+  fonts. Such websites should contain instructions on which fonts to download
+  and/or use in order to view the page correctly. When you have the necessary
+  fonts installed on your system, you can choose User Defined from the More
+  Encodings submenu. &brandShortName; will then use the fonts defined in the <a
+  href="cs_nav_prefs_appearance.xhtml#fonts">Fonts preferences</a> (Fonts for:
+  User Defined).</p>
+
 <p>&brandShortName; can detect which character encoding a document uses, and
   can display it correctly on your screen. To take advantage of this
   capability, begin from the browser window:</p>
@@ -1059,15 +1046,15 @@
 <ol>
   <li>Open the View menu, choose Character Encoding, and then choose
     Auto-Detect.</li>
-  <li>Choose one of the Auto-Detect options, or choose Off from the
+  <li>Choose one of the Auto-Detect options, or choose (Off) from the
     submenu.</li>
 </ol>
 
 <p>To make changes to your list of active character encodings:</p>
 
 <ol>
-  <li>Open the View menu, choose Character Encoding, and then choose Customize.
-    You can see the Customize Encoding dialog box.</li>
+  <li>Open the View menu, choose Character Encoding, and then choose Customize
+    List. You can see the Customize Character Encoding dialog box.</li>
   <li>Choose from the following procedures:
     <ul>
       <li>To add to the list of active character encodings, choose a character
@@ -1076,8 +1063,8 @@
         character encoding from the list on the right and click Remove.</li>
       <li>To change the order in which active encodings appear in the Character
         Encoding menu, highlight character encodings in the list on the right,
-        and use the arrow buttons to move the character encodings up or down in
-        the list.</li>
+        and use the Move Up and Move Down buttons to move the character
+        encodings up or down in the list.</li>
     </ul>
   </li>
 </ol>
@@ -1112,55 +1099,19 @@
 
 <h2 id="setting_language_preferences">Setting Language Preferences</h2>
 
-<p>The language you use for &brandShortName; affects the text of buttons,
-  dialog boxes, menus, tools, and other items. The functionality of these items
-  remains the same.</p>
+<p>The language you use for &brandShortName; affects the user
+  interface&mdash;text of buttons, dialog boxes, menus, tools, and other items.
+  You can download and install language packages from the
+  <a href="http://www.seamonkey-project.org/releases/">SeaMonkey Project
+  Releases</a> page and then use the
+  <a href="cs_nav_prefs_appearance.xhtml#appearance">Appearance Preferences
+  panel</a> to switch user interface language.</p>
 
-<p>To set your preferred language:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences.</li>
-  <li>Under the Appearance category, click Languages/Content. (If no
-    subcategories are visible, double-click Appearance to expand the
-    list.)</li>
-  <li>Under <q>Installed language packs</q> select a language pack.</li>
-  <li>Click OK.
-
-    <p><strong>Note</strong>: You must restart &brandShortName; after you
-      change your preferred language.</p>
-
-  </li>
-</ol>
-
-<p><strong>Tip</strong>: To download more language packs, click Download
-  More.</p>
-
-<p>Web pages are sometimes available in several languages. &brandShortName;
-  presents pages in the language you prefer, if it is available. You can
-  specify the languages you wish to see, in order of preference.</p>
-
-<p>To set language preferences:</p>
-
-<ol>
-  <li>Open the
-    <span class="mac">&brandShortName;</span> <span class="noMac">Edit</span>
-    menu and choose Preferences.</li>
-  <li>Under the Browser category, click Languages. (If no subcategories are
-    visible, double-click Browser to expand the list.)</li>
-  <li>Click Add. You see the Add Languages dialog box.</li>
-  <li>Select a language and its code. If you wish to add a code not on the
-    list, type the language and its code in the Others field (see note below).
-    If you want to reorder the languages in the list, select a language and
-    click Move Up or Move Down.</li>
-  <li>Click OK.</li>
-</ol>
-
-<p><strong>Note</strong>: Two-letter codes enclosed in brackets appear next to
-  each language in the list. These are standard abbreviations for languages.
-  For a complete list, see the online document,
-  <a href="http://www.loc.gov/standards/iso639-2/langcodes.html">Codes for the
-    Representation of Names of Languages</a>.</p>
+<p>A web page can sometimes be available in several languages. In the
+  <a href="cs_nav_prefs_navigator.xhtml#languages">Languages Preferences
+  panel</a>, you can configure &brandShortName; so the page is shown in the
+  language you prefer. You can have multiple languages and list them in order
+  of preference.</p>
 
 <p>[<a href="#using_languages_and_international_content">Return to beginning
   of section</a>]</p>
@@ -1210,6 +1161,14 @@
 
 <ul>
   <li>Open the Help menu and choose About Plugins.</li>
+  <li>Open the Tools menu, choose Add-on Manager, and select the Plugins
+    panel.
+    
+    <p><strong>Tip</strong>: To learn more about the Add-on Manager and its
+      features, see the section
+      <a href="customize_help.xhtml#using_the_add-on_manager">Using the Add-on
+      Manager</a>.</p>
+  </li>
   <li>Click in the Location Bar, type <kbd>about:plugins</kbd> and press
     <kbd class="mac">Return</kbd><kbd class="noMac">Enter</kbd>.</li>
 </ul>
@@ -1219,99 +1178,14 @@
 
 <h2 id="helper_applications">Helper Applications</h2>
 
-<p>When files can not be used within &brandShortName;, you have to option to
+<p>When files can not be used within &brandShortName;, you have the option to
   launch helper applications that open outside of &brandShortName;. For
   example, to play MP3 files, programs like Winamp can be opened outside of
   &brandShortName;.</p>
 
-<p>The settings in the Helper Applications preferences panel tell the browser
-  which helper applications to use on your computer. Usually, these preferences
-  don&apos;t need to be changed since they are preconfigured. Also, if the
-  browser doesn&apos;t know which helper application to use, it allows you to
-  find helper applications within the download dialog box.</p>
-
-<p>The download dialog box has these options:</p>
-
-<ul>
-  <li><strong>Open it with the default application (Application Name)</strong>:
-    &brandShortName; opens the file using the default program in your system
-    settings.
-
-    <p><strong>Note</strong>: You will only see this option if there is a
-      program associated with the filetype in your system settings.</p></li>
-  <li><strong>Open it with</strong>: &brandShortName; allows you to open the
-    file using an application you choose. Clicking Choose to select an
-    application you want the file to be opened with.</li>
-  <li><strong>Save it to disk</strong>: &brandShortName; allows you to
-    select a location to save the file.</li>
-  <li><strong>Always ask before opening this type of file</strong>: When this
-    is selected, &brandShortName; opens the download dialog box when
-    downloading a particular file type.</li>
-</ul>
-
-<p><strong>Tip</strong>: You can clear your saved options for <q>Always ask
-  before opening this type of file</q> in preferences. For more information,
-  see <a href="cs_nav_prefs_navigator.xhtml#helper_applications"> the
-  Preferences - Helper Applications</a>.</p>
-
-<p>For experienced users to fine-tune the Helper Applications preferences:</p>
-
-<ol>
-  <li>Open the
-    <span class="mac">&brandShortName;</span> <span class="noMac">Edit</span>
-    menu and choose Preferences.</li>
-  <li>Under the Browser category, click Helper Applications. (If no
-    subcategories are visible, double-click the Browser to expand the
-    list.)</li>
-  <li>Perform any of the following procedures:
-    
-    <p id="adding_a_new_helper_application">To add a new helper application
-      to the list:</p>
-      
-    <ol>
-      <li>Click New Type. You see the New type dialog box.</li>
-      <li>Type a description of the type of files the application works,with;
-        for instance, <q>movies</q> or <q>sound files</q>.</li>
-      <li>Type the MIME type. MIME types consist of two words separated by
-        a slash. For instance, a TIFF image file&apos;s MIME type is
-        <q>image/tiff</q>.
-
-        <p><strong>Note</strong>: When you download a file, &brandShortName;
-          will show you the MIME type on the download dialog box.</p>
-      </li>
-      <li>Type the file extension (suffix) used by this file type. If this
-        type of file uses more than one extension, type them all, separated
-        by spaces.</li>
-      <li>Click Choose, then select an application that handles files of this
-        type.</li>
-      <li>Click OK.</li>
-    </ol>
-
-    <p>To specify how the browser should handle different file types:</p>
-
-    <ol>
-      <li>Select a file type from the list and click Edit.</li>
-      <li>In the dialog box, type in the MIME type you want this file to
-        use.</li>
-      <li>Choose between having downloaded files saved on your hard disk,
-        opened with the default application in your system settings or
-        opened in an application that you specify. Click Choose to specify
-        the application.</li>
-      <li>Click OK.</li>
-    </ol>
-
-    <p>To remove an item from the list:</p>
-
-    <ol>
-      <li>Select a file type from the list and click Remove.</li>
-      <li>Click OK.</li>
-    </ol>
-  </li>
-</ol>
-
-<p>To learn more about Helper Application preferences, see
-  <a href="cs_nav_prefs_navigator.xhtml#helper_applications">Browser
-  Preferences - Helper Applications</a>.</p>
+<p>The settings for this are explained in detail in
+  <a href="cs_nav_prefs_navigator.xhtml#helper_applications">Preferences
+  - Helper Applications</a>.</p>
 
 <p>[<a href="#plugins_and_downloads">Return to beginning of
   section</a>]</p>
@@ -1570,8 +1444,7 @@
         <ul>
           <li><a href="glossary.xhtml#http">HTTP</a>,
             <a href="glossary.xhtml#https">HTTPS</a>,
-            <a href="glossary.xhtml#ftp">FTP</a>, Chrome,
-            <a href="glossary.xhtml#gopher">Gopher</a></li>
+            <a href="glossary.xhtml#ftp">FTP</a>, Chrome</li>
         </ul>
       </li>
     </ul>
@@ -1611,16 +1484,6 @@
 
 <h1 id="proxies">Proxies</h1>
 
-<div class="contentsBox">In this section:
-  <ul>
-    <li><a href="#setting_proxy_values">Setting Proxy Values</a></li>
-  </ul>
-</div>
-
-<p>This section explains how to work with proxies.</p>
-
-<h2 id="setting_proxy_values">Setting Proxy Values</h2>
-
 <p>Many organizations block access from the Internet to their networks. This
   prevents outside parties from gaining access to sensitive information. The
   protection is called a firewall.</p>
@@ -1629,68 +1492,11 @@
   proxy server before connecting you to the Internet. The proxy server prevents
   outsiders from breaking into your organization&apos;s private network.</p>
 
-<p>Before you start:</p>
-
-<ul>
-  <li>If there&apos;s a proxy configuration file at your workplace, ask the
-    system administrator for its URL.</li>
-  <li>If there&apos;s no proxy configuration file, ask your system
-    administrator for the names and port numbers of the servers running proxy
-    software for each network service.</li>
-</ul>
-
-<p>To set the browser to work with the proxy:</p>
-
-<ol>
-  <li>Open the
-    <span class="mac">&brandShortName;</span> <span class="noMac">Edit</span>
-    menu and choose Preferences.</li>
-  <li>Under the Advanced category, click Proxies. (If no subcategories are
-    visible, double-click Browser to expand the list.)</li>
-  <li>Select one of the following:
-    <ul>
-      <li><strong>Direct connection to the Internet</strong>: Choose this if
-        you don&apos;t want to use a proxy.</li>
-      <li><strong>Automatically discover the proxy configuration</strong>:
-        Choose this if you want &brandShortName; to automatically detect and
-        configure the proxy settings, using the
-        <a href="glossary.xhtml#wpad">WPAD protocol</a>.</li>
-      <li><strong>Automatic proxy configuration URL</strong>: Choose this if
-        you have a proxy configuration file or URL, then enter the
-        configuration URL.</li>
-      <li><strong>Manual proxy configuration</strong>: Choose this if you
-        don&apos;t have a proxy location (URL), or the automatic proxy
-        discovery was unable to setup the proxy settings correctly.
-        <ul>
-          <li><strong>Proxy</strong>: Enter the name or numeric IP address of
-            the proxy server.</li>
-          <li><strong>Port</strong>: Enter the port number in the Port field.
-            Click on <q>Advanced</q> to set
-            <a href="cs_nav_prefs_advanced.xhtml#advanced_proxy_preferences">Advanced
-            Proxy Preferences</a></li>
-          <li><strong>No Proxy for</strong>: Type the domains and/or IP 
-            addresses that you do not want to use a proxy for. Separate each
-            entry with a comma. (Example: <kbd>.mozilla.org, .net.nz,
-            192.168.1.0/24</kbd>.)</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ol>
-
-<p>Domain names are the part of a URL that contains the name of an
-  organization, business, or school&mdash;such as mozilla.org or
-  washington.org. If you use local host names without the domain name, list
-  them the same way. Use commas to separate multiple host names. The wildcard
-  character [*] cannot be used.</p>
-
-<p>For more information on using the Proxy preferences panel, see
+<p>For information on setting your proxy preferences, see
   <a href="cs_nav_prefs_advanced.xhtml#proxies">Advanced Preferences -
   Proxies</a>.</p>
 
 <p>[<a href="#proxies">Return to beginning of section</a>]</p>
-
-<p>&copyright.string;</p>
 
 </body>
 </html>

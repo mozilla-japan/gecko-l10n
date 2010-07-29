@@ -1,7 +1,7 @@
 <!-- Context Menu -->
-<!ENTITY popupWindowRejectCmd.label "このサイトのポップアップ @@Window@@を自動的に閉じる">
+<!ENTITY popupWindowRejectCmd.label "このサイトのポップアップ@@Window@@を自動的に閉じる">
 <!ENTITY popupWindowRejectCmd.accesskey "">
-<!ENTITY popupWindowAllowCmd.label "このサイトのポップアップ @@Window@@を許可する">
+<!ENTITY popupWindowAllowCmd.label "このサイトのポップアップ@@Window@@を許可する">
 <!ENTITY popupWindowAllowCmd.accesskey "">
 <!ENTITY openLinkCmd.label "@@NewWindow@@で開く">
 <!ENTITY openLinkCmd.accesskey "W">
@@ -15,11 +15,9 @@
 <!ENTITY openFrameCmdInTab.accesskey "T">
 <!ENTITY showOnlyThisFrameCmd.label "このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
-<!ENTITY addToBookmarksCmd.label "ページをブックマーク">
-<!ENTITY addToBookmarksCmd.accesskey "B">
 <!ENTITY goBackCmd.label "戻る">
 <!ENTITY goBackCmd.accesskey "B">
-<!ENTITY goForwardCmd.label "次へ">
+<!ENTITY goForwardCmd.label "進む">
 <!ENTITY goForwardCmd.accesskey "F">
 <!ENTITY goUpCmd.label "上へ">
 <!ENTITY goUpCmd.accesskey "U">
@@ -47,6 +45,8 @@
 <!ENTITY reloadImageCmd.accesskey     "e">
 <!ENTITY viewImageCmd.label "画像を表示">
 <!ENTITY viewImageCmd.accesskey "I">
+<!ENTITY viewVideoCmd.label           "動画を表示">
+<!ENTITY viewVideoCmd.accesskey       "i">
 <!ENTITY viewBGImageCmd.label "背景画像を表示">
 <!ENTITY viewBGImageCmd.accesskey "w">
 <!ENTITY setWallpaperCmd.label "壁紙に設定">
@@ -70,6 +70,10 @@
 <!ENTITY saveImageAsCmd.label "@@SaveImageAs@@...">
 <!ENTITY saveImageCmd.label "画像を保存">
 <!ENTITY saveImageCmd.accesskey "v">
+<!ENTITY saveVideoCmd.label           "@@SaveVideoAs@@...">
+<!ENTITY saveVideoCmd.accesskey       "v">
+<!ENTITY saveAudioCmd.label           "@@SaveAudioAs@@...">
+<!ENTITY saveAudioCmd.accesskey       "v">
 <!ENTITY copyCmd.label "コピー">
 <!ENTITY copyCmd.accesskey "C">
 <!ENTITY selectAllCmd.label "@@SelectAll@@">
@@ -78,9 +82,13 @@
 <!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY copyImageCmd.label "画像をコピー">
 <!ENTITY copyImageCmd.accesskey "o">
+<!ENTITY copyVideoURLCmd.label        "動画の URL をコピー">
+<!ENTITY copyVideoURLCmd.accesskey    "o">
+<!ENTITY copyAudioURLCmd.label        "オーディオの URL をコピー">
+<!ENTITY copyAudioURLCmd.accesskey    "o">
 <!ENTITY metadataCmd.label "プロパティ">
 <!ENTITY metadataCmd.accesskey "P">
-<!ENTITY copyEmailCmd.label "メール アドレスをコピー">
+<!ENTITY copyEmailCmd.label "メールアドレスをコピー">
 <!ENTITY copyEmailCmd.accesskey "E">
 <!ENTITY pasteCmd.label "@@Paste@@">
 <!ENTITY pasteCmd.accesskey "P">
@@ -94,6 +102,18 @@
 <!ENTITY redoCmd.accesskey "R">
 <!ENTITY thisFrameMenu.label "フレーム">
 <!ENTITY thisFrameMenu.accesskey "h">
+<!ENTITY mediaPlay.label		"再生">
+<!ENTITY mediaPlay.accesskey		"P">
+<!ENTITY mediaPause.label		"一時停止">
+<!ENTITY mediaPause.accesskey		"P">
+<!ENTITY mediaMute.label		"ミュート">
+<!ENTITY mediaMute.accesskey		"M">
+<!ENTITY mediaUnmute.label		"ミュート解除">
+<!ENTITY mediaUnmute.accesskey		"m">
+<!ENTITY mediaShowControls.label	"コントロールを表示">
+<!ENTITY mediaShowControls.accesskey  "a">
+<!ENTITY mediaHideControls.label	"コントロールを隠す">
+<!ENTITY mediaHideControls.accesskey  "a">
 <!ENTITY search.accesskey "W">
 <!ENTITY bidiSwitchPageDirectionItem.label "ページの書記方向を切り換え">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey "g">

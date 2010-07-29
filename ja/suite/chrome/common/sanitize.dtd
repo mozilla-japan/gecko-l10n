@@ -1,15 +1,17 @@
-<!ENTITY sanitizeDialog.title            "プライベートな情報の消去">
+<!ENTITY sanitizeDialog.title            "プライバシー情報の消去">
 <!ENTITY sanitizeItems.label             "今すぐ消去する項目を選択してください:">
 
 <!ENTITY itemHistory.label               "閲覧の履歴">
 <!ENTITY itemHistory.accesskey           "B">
+<!ENTITY itemUrlBar.label                "ロケーションバーの履歴">
+<!ENTITY itemUrlBar.accesskey            "L">
 <!ENTITY itemDownloads.label             "ダウンロードの履歴">
 <!ENTITY itemDownloads.accesskey         "D">
 <!ENTITY itemFormSearchHistory.label     "保存されているフォームと検索の履歴">
 <!ENTITY itemFormSearchHistory.accesskey "F">
 <!ENTITY itemCache.label                 "キャッシュ">
 <!ENTITY itemCache.accesskey             "a">
-<!ENTITY itemCookies.label               "クッキー">
+<!ENTITY itemCookies.label               "Cookie">
 <!ENTITY itemCookies.accesskey           "C">
 <!ENTITY itemOfflineApps.label           "Web サイトのオフライン用データ">
 <!ENTITY itemOfflineApps.accesskey       "O">
@@ -18,4 +20,4 @@
 <!ENTITY itemSessions.label              "認証セッションのログイン情報">
 <!ENTITY itemSessions.accesskey          "S">
 
-<!ENTITY sanitizeButton.label            "今すぐプライベートデータを削除">
+<!ENTITY sanitizeButton.label            "今すぐプライバシー情報を消去">

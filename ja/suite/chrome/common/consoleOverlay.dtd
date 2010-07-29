@@ -37,7 +37,7 @@
 
 <!ENTITY menuBar.tooltip       "メニューバー">
 <!ENTITY modeToolbar.tooltip   "モードツールバー">
-<!ENTITY entryToolbar.tooltip  "Javaスクリプト入力 ツールバー">
+<!ENTITY entryToolbar.tooltip  "Javaスクリプト入力ツールバー">
 <!ENTITY toolbarsCmd.label     "表示/非表示">
 <!ENTITY toolbarsCmd.accesskey "w">
 <!ENTITY toolbarMode.label     "モード">

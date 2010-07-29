@@ -1,24 +1,22 @@
 <!-- extracted from AccountManager.xul -->
 
-<!ENTITY accountManagerTitle.label "Mail &amp; Newsgroups Account Settings">
+<!ENTITY accountManagerTitle.label "メールとニュースグループのアカウント設定">
 
-<!ENTITY addAccountButton.label "Add Account...">
+<!ENTITY addAccountButton.label "アカウントを追加...">
 <!ENTITY addAccountButton.accesskey "A">
-<!ENTITY setDefaultButton.label "Set as Default">
+<!ENTITY setDefaultButton.label "@@Default-@@に設定">
 <!ENTITY setDefaultButton.accesskey "f">
-<!ENTITY duplicateButton.label "Duplicate">
-<!ENTITY removeButton.label "Remove Account">
+<!ENTITY removeButton.label "アカウントを削除">
 <!ENTITY removeButton.accesskey "R">
-
-<!ENTITY duplicate.label "Duplicate">
 
 <!-- AccountManager.xul -->
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the account
      setting dialog, which specifies the width and height in em units of the dialog.
      Localizers ONLY can increase these widths if they are having difficulty getting
-     panel content to fit. 1em = the width of the letter 'm' in the selected font.
+     panel content to fit.
+     1ch = The width of the "0" (ZERO, U+0030) glyph for the current font.
+     1em = The height of the font.
      XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct size of
      this window for en-US. -->
-<!ENTITY accountManager.size "width: 55em; height: 50em;">
-<!ENTITY macAccountManager.size "width: 60em; height: 50em;">
-<!ENTITY accountTree.width   "width: 17em;">
+<!ENTITY accountManager.size "@@AccountManager.accountManager.size@@"><!-- en-US: width: 97ch; height: 49em; -->
+<!ENTITY accountTree.width "@@AccountManager.accountTree.width@@"><!-- en-US: width: 31ch; -->

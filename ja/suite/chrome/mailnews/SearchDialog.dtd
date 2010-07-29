@@ -1,40 +1,36 @@
 
 <!-- for SearchDialog.xul -->
-<!ENTITY searchHeading.label         "Search for messages in:">
+<!ENTITY searchHeading.label         "次の中からメッセージを検索:">
 <!ENTITY searchHeading.accesskey     "h">
-<!ENTITY searchSubfolders.label      "Search subfolders">
+<!ENTITY searchSubfolders.label      "サブフォルダも検索する">
 <!ENTITY searchSubfolders.accesskey  "e">
-<!ENTITY searchLocalSystem.label     "Search local system">
+<!ENTITY searchLocalSystem.label     "ローカルシステムを検索する">
 <!ENTITY searchLocalSystem.accesskey "y">
-<!ENTITY resetButton.label           "Clear">
+<!ENTITY resetButton.label           "リセット">
 <!ENTITY resetButton.accesskey       "C">
-<!ENTITY helpButton.label            "Help">
+<!ENTITY helpButton.label            "ヘルプ">
 <!ENTITY helpButton.accesskey        "l">
-<!ENTITY optionsButton.label         "Options">
-<!ENTITY closeButton.label           "Close">
-<!ENTITY openButton.label            "Open">
+<!ENTITY openButton.label            "開く">
 <!ENTITY openButton.accesskey        "n">
-<!ENTITY deleteButton.label          "Delete">
+<!ENTITY deleteButton.label          "削除">
 <!ENTITY deleteButton.accesskey      "D">
-<!ENTITY searchDialogTitle.label     "Search Messages">
-<!ENTITY conditionDesc.label         "Search for messages that match:">
-<!ENTITY conditions.label            "Criteria">
-<!ENTITY results.label               "Results">
-<!ENTITY fileHereMenu.label          "File Here">
+<!ENTITY searchDialogTitle.label     "メッセージ検索">
+<!ENTITY results.label               "検索結果">
+<!ENTITY fileHereMenu.label          "ここへ移動">
 <!ENTITY fileHereMenu.accesskey      "F">
-<!ENTITY fileButton.label            "File">
+<!ENTITY fileButton.label            "移動">
 <!ENTITY fileButton.accesskey        "i">
-<!ENTITY goToFolderButton.label      "Open Message Folder">
+<!ENTITY goToFolderButton.label      "フォルダを開く">
 <!ENTITY goToFolderButton.accesskey  "r">
-<!ENTITY saveAsVFButton.label      "Save as Search Folder">
+<!ENTITY saveAsVFButton.label      "検索フォルダとして保存">
 <!ENTITY saveAsVFButton.accesskey  "a">
 
 <!-- for ABSearchDialog.xul -->
-<!ENTITY abSearchHeading.label       "Search in:">
+<!ENTITY abSearchHeading.label       "次の中から連絡先を検索:">
 <!ENTITY abSearchHeading.accesskey   "h">
-<!ENTITY propertiesButton.label      "Properties">
+<!ENTITY propertiesButton.label      "@@PropertyCMD@@">
 <!ENTITY propertiesButton.accesskey  "P">
-<!ENTITY composeButton.label         "Compose">
+<!ENTITY composeButton.label         "@@New-CMD@@メッセージ">
 <!ENTITY composeButton.accesskey     "e">
-<!ENTITY abSearchDialogTitle.label   "Advanced Address Book Search">
+<!ENTITY abSearchDialogTitle.label   "アドレス検索">
 

@@ -9,14 +9,14 @@
 <!ENTITY preferencesCmd.key             ",">
 <!ENTITY preferencesCmd.modifiers       "accel">
 <!ENTITY servicesMenu.label             "サービス">
-<!ENTITY hideThisAppCmd.label           "Hide &brandShortName;">
+<!ENTITY hideThisAppCmd.label           "&brandShortName; を隠す">
 <!ENTITY hideThisAppCmd.key             "H">
 <!ENTITY hideThisAppCmd.modifiers       "accel">
-<!ENTITY hideOtherAppsCmd.label         "Hide Others">
+<!ENTITY hideOtherAppsCmd.label         "ほかを隠す">
 <!ENTITY hideOtherAppsCmd.key           "H">
 <!ENTITY hideOtherAppsCmd.modifiers     "accel,alt">
-<!ENTITY showAllAppsCmd.label           "Show All">
-<!ENTITY quitApplicationCmd.label       "&brandShortName;を終了"> 
+<!ENTITY showAllAppsCmd.label           "すべてを表示">
+<!ENTITY quitApplicationCmd.label       "&brandShortName; を終了"> 
 <!ENTITY quitApplicationCmd.key         "Q">
 <!ENTITY quitApplicationCmd.modifiers   "accel">
 <!-- End of Application menu -->
@@ -27,7 +27,7 @@
 <!ENTITY printSetupCmd.label            "ページ設定...">
 <!ENTITY printSetupCmd.accesskey        "u">
 
-<!ENTITY redoCmd.label                  "やり直し">  
+<!ENTITY redoCmd.label                  "@@Redo@@">  
 <!ENTITY redoCmd.key                    "Z">  
 
 <!ENTITY historyCmd.key                 "H">  
@@ -41,19 +41,11 @@
 <!ENTITY minimizeWindowCmd.key          "M">
 <!ENTITY zoomWindowCmd.label            "@@Zoom@@">
 
-<!-- Help viewer -->
+<!-- Help menu -->
 <!ENTITY openHelpCmd.label              "&brandShortName; ヘルプ">
 <!ENTITY openHelpCmd.accesskey          "H">
-
-<!-- LOCALIZATION NOTE: openHelpFrontend.key and openHelpFrontend.modifiers
-  will show the standard OS X shortcut (Cmd+? on most locales) in the Help
-  menu. To make the shortcut work, mapping (Cmd+Shift+/ on en-US) is done with
-  openHelpCmd.key and openHelpCmd.modifiers. -->
-<!ENTITY openHelpFrontend.key            "?">
-<!ENTITY openHelpFrontend.modifiers      "accel">
-<!ENTITY openHelpCmd.key                 "/">
-<!ENTITY openHelpCmd.modifiers           "accel,shift">
-<!ENTITY openHelp2Cmd.key                "VK_HELP">
+<!ENTITY openHelpCmd.key                "?">
+<!ENTITY openHelpCmd.modifiers          "accel">
 
 <!-- Key labels, for mousewheel prefs -->
 <!ENTITY ctrlKey.label                   "Ctrl">

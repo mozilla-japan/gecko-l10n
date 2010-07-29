@@ -1,5 +1,5 @@
 <!--LOCALIZATION NOTE : FILE The Applications prefs dialog -->
-<!ENTITY pref.applications.title "Helper Applications">
+<!ENTITY pref.applications.title "ヘルパーアプリケーション">
 
 <!ENTITY typeColumn.label        "ファイルの種類">
 <!ENTITY typeColumn.accesskey    "T">
@@ -7,8 +7,4 @@
 <!ENTITY actionColumn2.label     "処理方法">
 <!ENTITY actionColumn2.accesskey "A">
 
-<!ENTITY filter.label            "検索内容:">
-<!ENTITY filter.accesskey        "S">
-
-<!ENTITY clear.label             "クリア">
-<!ENTITY clear.accesskey         "l">
+<!ENTITY search.emptytext        "ファイルの種類と処理方法を検索">

@@ -38,66 +38,62 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY folderProps.windowtitle.label           "Properties">
+<!ENTITY folderProps.windowtitle.label           "@@Property@@">
 
-<!ENTITY generalInfo.label                       "General Information">
-<!ENTITY folderCharsetTab.label                  "Default Character Encoding:">
+<!ENTITY generalInfo.label                       "一般情報">
+<!ENTITY folderCharsetTab.label                  "@@Default-@@文字エンコーディング:">
 <!ENTITY folderCharsetTab.accesskey              "E">
-<!ENTITY folderCharsetOverride.label             "Apply default to all messages in the folder (individual message character encoding settings and auto-detection will be ignored)">
+<!ENTITY folderCharsetOverride.label             "この設定をフォルダ内のすべてのメッセージに適用する (各メッセージの文字エンコーディング指定や自動判別結果を無視する)">
 <!ENTITY folderCharsetOverride.accesskey         "A">
-<!ENTITY folderRebuildSummaryFile.label          "Rebuild Summary File">
+<!ENTITY folderRebuildSummaryFile.label          "索引を再構築">
 <!ENTITY folderRebuildSummaryFile.accesskey      "R">
-<!ENTITY folderRebuildSummaryFileTip.label       "Rebuild Summary File">
+<!ENTITY folderRebuildSummaryFileTip.label       "要約ファイルを再構築します">
 
-<!ENTITY retention.label "Retention Policy">
-<!ENTITY retentionUseDefault.label "Use server defaults">
-<!ENTITY retentionUseDefault.accesskey "d">
-<!ENTITY days.label "days">
-<!ENTITY daysOld.label "days old">
-<!ENTITY message.label "messages">
-<!ENTITY retentionNotDownloadRead.label "Read messages">
-<!ENTITY retentionNotDownloadRead.accesskey "R">
-<!ENTITY retentionDownloadMsg.label "Messages more than">
-<!ENTITY retentionDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Keep:">
-<!ENTITY retentionKeepMsg.label "Messages which have arrived within the last">
-<!ENTITY retentionKeepMsg.accesskey "w">
-<!ENTITY retentionKeepAll.label "All messages">
-<!ENTITY retentionKeepAll.accesskey "A">
-<!ENTITY retentionKeepNew.label "The newest">
-<!ENTITY retentionKeepNew.accesskey "n">
-<!ENTITY retentionKeepUnread.label "Only unread messages">
-<!ENTITY retentionKeepUnread.accesskey "u">
+<!ENTITY retention.label                         "保管ポリシー">
+<!ENTITY retentionUseAccount.label               "アカウント設定に従う">
+<!ENTITY retentionUseAccount.accesskey           "U">
+<!ENTITY daysOld.label                           "日">
+<!ENTITY message.label                           "通">
+<!ENTITY retentionCleanup.label                  "メッセージの保管:">
+<!ENTITY retentionCleanupImap.label              "ローカルのコピーとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
+<!ENTITY retentionCleanupPop.label               "このコンピュータとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
+<!ENTITY retentionDeleteMsg.label                "送信日時から次の日数以上経過したメッセージを削除する">
+<!ENTITY retentionDeleteMsg.accesskey            "m">
+<!ENTITY retentionKeepAll.label                  "メッセージを自動削除しない">
+<!ENTITY retentionKeepAll.accesskey              "A">
+<!ENTITY retentionKeepRecent.label               "最近のメッセージを次の数だけ残して削除する">
+<!ENTITY retentionKeepRecent.accesskey           "n">
+<!-- LOCALIZATION NOTE: Unhide with .keepUnreadOnly { display: -moz-box; } -->
+<!ENTITY retentionKeepUnreadHidden.label         "既読のメッセージは常に削除する (最優先)">
+<!ENTITY retentionApplyToFlagged.label           "フラグ付きのメッセージは残す">
+<!ENTITY retentionApplyToFlagged.accesskey       "e">
 
-<!ENTITY folderOfflineTab.label                  "Offline">
-<!ENTITY folderCheckForNewMessages.label         "Check this folder for new messages">
+<!ENTITY folderSynchronizationTab.label          "同期">
+<!ENTITY folderCheckForNewMessages.label         "このフォルダに新着メッセージがないか確認する">
 <!ENTITY folderCheckForNewMessages.accesskey     "C">
 
-<!ENTITY offlineFolder.check.label               "Select this folder for offline use">
+<!ENTITY offlineFolder.check.label               "このフォルダをオフラインで使用する">
 <!ENTITY offlineFolder.check.accesskey           "S">
-<!ENTITY offlineFolder.button.label              "Download Now">
+<!ENTITY offlineFolder.button.label              "今すぐダウンロード">
 <!ENTITY offlineFolder.button.accesskey          "D">
 
-<!ENTITY selectofflineNewsgroup.check.label      "Select this newsgroup for offline use">
+<!ENTITY selectofflineNewsgroup.check.label      "このニュースグループをオフラインで使用する">
 <!ENTITY selectofflineNewsgroup.check.accesskey  "o">
-<!ENTITY UseDefaultofflineNewsgroup.check.label  "Use the default from account settings ">
-<!ENTITY offlineNewsgroup.button.label           "Download Now">
+<!ENTITY offlineNewsgroup.button.label           "今すぐダウンロード">
 <!ENTITY offlineNewsgroup.button.accesskey       "D">
 
-<!ENTITY folderProps.information.label           "Information:">
-<!ENTITY folderProps.name.label                  "Name:">
+<!ENTITY folderProps.name.label                  "名前:">
 <!ENTITY folderProps.name.accesskey              "N">
-<!ENTITY folderProps.location.label              "Location:">
+<!ENTITY folderProps.location.label              "場所:">
 <!ENTITY folderProps.location.accesskey          "L">
 
-<!ENTITY folderSharingTab.label                  "Sharing">
-<!ENTITY privilegesDesc.label                    "Share this and other folders with network users and display and set access privileges">
-<!ENTITY privileges.button.label                 "Privileges...">
+<!ENTITY folderSharingTab.label                  "共有">
+<!ENTITY privileges.button.label                 "アクセス権限...">
 <!ENTITY privileges.button.accesskey             "P">
-<!ENTITY permissionsDesc.label                   "You have the following permissions:">
-<!ENTITY folderType.label                        "Folder Type:">
+<!ENTITY permissionsDesc.label                   "以下のアクセス権限があります:">
+<!ENTITY folderType.label                        "フォルダの種類:">
 
-<!ENTITY folderQuotaTab.label                    "Quota">
-<!ENTITY folderQuotaRoot.label                   "Quota Root:">
-<!ENTITY folderQuotaUsage.label                  "Usage:">
-<!ENTITY folderQuotaStatus.label                 "Status:">
+<!ENTITY folderQuotaTab.label                    "クォータ">
+<!ENTITY folderQuotaRoot.label                   "クォータルート:">
+<!ENTITY folderQuotaUsage.label                  "使用容量:">
+<!ENTITY folderQuotaStatus.label                 "状態割合:">

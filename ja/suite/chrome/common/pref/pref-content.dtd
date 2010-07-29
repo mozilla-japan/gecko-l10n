@@ -5,18 +5,18 @@
 <!ENTITY siteIcons.label                        "Web サイトのアイコン">
 <!ENTITY useSiteIcons.label                     "Web サイトのアイコンを表示する">
 <!ENTITY useSiteIcons.accesskey                 "S">
-<!ENTITY useFavIcons.label                      "ページが設定していないとき Web サイトアイコンを探す">
+<!ENTITY useFavIcons.label                      "ページにアイコンが設定されていないとき Web サイトアイコンを探す">
 <!ENTITY useFavIcons.accesskey                  "A">
 <!ENTITY tbIconsDescription.label               "ブックマークメニューとツールバーに Web サイトのアイコン表示する:">
 <!ENTITY tbIconsNever.label                     "ブックマークにアイコンを表示しない">
 <!ENTITY tbIconsNever.accesskey                 "N">
-<!ENTITY tbIconsCache.label                     "Web サイトを訪れたときだけ">
+<!ENTITY tbIconsCache.label                     "最近読み込まれた Web サイトのみ">
 <!ENTITY tbIconsCache.accesskey                 "O">
-<!ENTITY tbIconsAlways.label                    "ブックマークに Web サイトアイコンをいつもロードする">
+<!ENTITY tbIconsAlways.label                    "常にブックマークの Web サイトアイコンを読み込む">
 <!ENTITY tbIconsAlways.accesskey                "w">
-<!ENTITY enableAutomaticImageResizing.label     "大きな画像をブラウザ @@Window@@に合わせて縮小表示する">
+<!ENTITY enableAutomaticImageResizing.label     "大きな画像をブラウザ@@Window@@に合わせて縮小表示する">
 <!ENTITY enableAutomaticImageResizing.accesskey "R">
-<!ENTITY useSmoothScroll.label                  "スムーズ スクロールを使用する">
+<!ENTITY useSmoothScroll.label                  "スムーズスクロールを使用する">
 <!ENTITY useSmoothScroll.accesskey              "U">
-<!ENTITY textZoomOnly.label                     "テキストだけをズームする。">
+<!ENTITY textZoomOnly.label                     "テキストだけをズームする">
 <!ENTITY textZoomOnly.accesskey                 "Z">

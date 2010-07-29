@@ -1,16 +1,18 @@
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-<!ENTITY viewPicker.label "View:">
+<!ENTITY viewPicker.label "絞り込み:">
 <!ENTITY viewPicker.accesskey "i">
-<!ENTITY viewAll.label "All">
+<!ENTITY viewAll.label "すべて">
 <!ENTITY viewAll.accesskey "A">
-<!ENTITY viewUnread.label "Unread">
+<!ENTITY viewUnread.label "未読">
 <!ENTITY viewUnread.accesskey "U">
-<!ENTITY viewTags.label "Tags">
+<!ENTITY viewNotDeleted.label "未削除">
+<!ENTITY viewNotDeleted.accesskey "D">
+<!ENTITY viewTags.label "タグ">
 <!ENTITY viewTags.accesskey "T">
-<!ENTITY viewCustomViews.label "Custom Views">
+<!ENTITY viewCustomViews.label "ユーザ設定">
 <!ENTITY viewCustomViews.accesskey "V">
-<!ENTITY viewVirtualFolder.label "Save View as a Folder...">
+<!ENTITY viewVirtualFolder.label "検索フォルダとして保存...">
 <!ENTITY viewVirtualFolder.accesskey "S">
-<!ENTITY viewCustomizeView.label "Customize...">
+<!ENTITY viewCustomizeView.label "カスタマイズ...">
 <!ENTITY viewCustomizeView.accesskey "C">
