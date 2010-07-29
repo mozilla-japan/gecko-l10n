@@ -1,33 +1,53 @@
-<!ENTITY closeCmd.label "閉じる">
-<!ENTITY copyCmd.label "コピー">
-<!ENTITY cutCmd.label "@@Cut@@">
-<!ENTITY deleteCmd.label "削除">
-<!ENTITY deleteDomainCmd.accesskey "s">
-<!ENTITY deleteHostnameCmd.accesskey "H">
-<!ENTITY editMenu.label "編集">
-<!ENTITY fileMenu.label "ファイル">
-<!ENTITY findHisCmd.accesskey "S">
-<!ENTITY findHisCmd.commandkey "f">
-<!ENTITY findHisCmd.label "履歴を検索...">
-<!ENTITY groupBy.accesskey "G">
-<!ENTITY groupBy.label "表示グループ">
-<!ENTITY groupByDay.accesskey "D">
-<!ENTITY groupByDay.label "日付">
-<!ENTITY groupByNone.accesskey "N">
-<!ENTITY groupByNone.label "なし">
-<!ENTITY groupBySite.accesskey "S">
-<!ENTITY groupBySite.label "サイト">
-<!ENTITY historyWindowTitle.label "履歴">
-<!ENTITY menuBar.tooltip "メニュー バー">
-<!ENTITY menuitem.view.show_columns.accesskey "S">
-<!ENTITY menuitem.view.show_columns.label "列を表示">
-<!ENTITY menuitem.view.unsorted.accesskey "u">
-<!ENTITY menuitem.view.unsorted.label "(自動で並べ直さない)">
-<!ENTITY pasteCmd.label "@@Paste@@">
-<!ENTITY redoCmd.label "@@Redo@@">
-<!ENTITY selAllCmd.label "@@SelectAll@@">
-<!ENTITY sortAscending.accesskey "A">
-<!ENTITY sortAscending.label "昇順">
-<!ENTITY sortDescending.accesskey "D">
-<!ENTITY sortDescending.label "降順">
-<!ENTITY undoCmd.label "@@Undo@@">
+<!-- history.xul, history-panel.xul, placesOverlay.xul -->
+
+<!ENTITY historyWindowTitle.label       "履歴">
+<!ENTITY menuBar.tooltip                "メニューバー">
+<!ENTITY searchBar.tooltip              "検索バー">
+
+<!ENTITY search.emptytext               "検索履歴">
+<!ENTITY search.key                     "f">
+<!ENTITY view.label                     "表示">
+
+<!ENTITY view.columns.label             "表示する列">
+<!ENTITY view.columns.accesskey         "C">
+<!ENTITY view.sortBy.label              "項目の表示順序">
+<!ENTITY view.sortBy.accesskey          "S">
+<!ENTITY view.groupBy.label             "グループ分け">
+<!ENTITY view.groupBy.accesskey         "G">
+
+<!ENTITY view.unsorted.label            "並べ替えない">
+<!ENTITY view.unsorted.accesskey        "U">
+<!ENTITY view.sortAscending.label       "昇順 (A &gt; Z)">
+<!ENTITY view.sortAscending.accesskey   "A">
+<!ENTITY view.sortDescending.label      "降順 (Z &gt; A)">
+<!ENTITY view.sortDescending.accesskey  "Z">
+
+<!ENTITY view.groupNone.label           "グループ分けしない">
+<!ENTITY view.groupNone.accesskey       "N">
+<!ENTITY view.groupDay.label            "日付で分類">
+<!ENTITY view.groupDay.accesskey        "D">
+<!ENTITY view.groupSite.label           "サイトで分類">
+<!ENTITY view.groupSite.accesskey       "S">
+<!ENTITY view.groupDayAndSite.label     "日付とサイトで分類">
+<!ENTITY view.groupDayAndSite.accesskey "a">
+
+<!ENTITY cmd.open.label                 "開く">
+<!ENTITY cmd.open.accesskey             "O">
+<!ENTITY cmd.open_window.label          "リンクを@@NewWindow@@で開く">
+<!ENTITY cmd.open_window.accesskey      "W">
+<!ENTITY cmd.open_tab.label             "リンクを@@NewTab@@で開く">
+<!ENTITY cmd.open_tab.accesskey         "T">
+
+<!ENTITY bookmarkLinkCmd.label          "このリンクをブックマーク...">
+<!ENTITY bookmarkLinkCmd.accesskey      "B">
+<!ENTITY bookmarkLinksCmd.label         "これらのリンクをブックマーク...">
+<!ENTITY bookmarkLinksCmd.accesskey     "B">
+
+<!ENTITY col.title.label                "名前">
+<!ENTITY col.title.accesskey            "T">
+<!ENTITY col.url.label                  "URL">
+<!ENTITY col.url.accesskey              "L">
+<!ENTITY col.lastvisit.label            "最後に表示した日時">
+<!ENTITY col.lastvisit.accesskey        "V">
+<!ENTITY col.visitcount.label           "表示回数">
+<!ENTITY col.visitcount.accesskey       "C">

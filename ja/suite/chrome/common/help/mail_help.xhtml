@@ -9,8 +9,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Using &brandShortName; Mail &amp; Newsgroups</title>
-<link rel="stylesheet" href="helpFileLayout.css"
-  type="text/css"/>
+<link rel="stylesheet" href="helpFileLayout.css" type="text/css"/>
+<link rel="stylesheet" href="chrome://communicator/skin/smileys.css"
+      type="text/css"/>
 </head>
 <body>
 
@@ -63,12 +64,14 @@
       Programs</a></li>
     <li><a href="#getting_started_with_newsgroups">Getting Started with
       Newsgroups</a></li>
+    <li><a href="#getting_started_with_blogs_and_news_feeds">Getting Started
+      with Blogs &amp; News Feeds</a></li>
     <li><a href="#working_offline">Working Offline</a></li>
     <li><a href="mail_sec_help.xhtml">Signing &amp; Encrypting
       Messages</a></li>
     <li><a href="#mail_and_newsgroups_account_settings">Mail &amp; Newsgroups
       Account Settings</a></li>
-    <li><a href="#mail_and_newsgroup_preferences">Mail &amp; Newsgroups
+    <li><a href="mailnews_preferences.xhtml">Mail &amp; Newsgroups
       Preferences</a></li>
   </ul>
 </div>
@@ -90,9 +93,10 @@
 <h2 id="using_the_mail_account_setup_wizard">Using the Mail Account Setup
   Wizard</h2>
 
-<p>To set up a mail or newsgroup account, first open the Window menu and choose
-  Mail &amp; Newsgroups. If you haven&apos;t already set up an account, the
-  Account Wizard appears automatically, enabling you to set up an account.</p>
+<p>To set up a mail, newsgroup or blogs &amp; news feeds account, first open
+  the Window menu and choose Mail &amp; Newsgroups. If you haven&apos;t
+  already set up an account, the Account Wizard appears automatically, enabling
+  you to set up an account.</p>
 
 <p>The Account Wizard guides you through the process of creating a new account.
   If you don&apos;t know a setting, click Cancel and ask your Internet service
@@ -102,7 +106,7 @@
   automatically when the Mail window opens. Instead, after opening the Mail
   window, open the File menu and choose New, then Account. For more details,
   see <a href="#setting_up_additional_mail_and_news_accounts">Setting Up
-  Additional Mail &amp; News Accounts</a>.</p>
+  Additional Mail, News &amp; Blogs &amp; News Feeds Accounts</a>.</p>
 
 <h3 id="setting_up_mail_accounts_with_an_isp_or_email_provider">Setting Up Mail
   Accounts with an ISP or Email Provider</h3>
@@ -127,7 +131,8 @@
   <li>account name</li>
 </ul>
 
-<p>To set up a new mail or newsgroup account, begin from the Mail window:</p>
+<p>To set up a new mail, newsgroup or blogs &amp; news feeds account, begin
+  from the Mail window:</p>
 
 <ol>
   <li>Open the Edit menu and choose Mail &amp; Newsgroups Account Settings. You
@@ -142,8 +147,10 @@
   <li><strong>New Account Setup</strong>: Choose the type of account you want
     to set up, then click the right arrow.</li>
   <li><strong>Identity</strong>: Enter the name and email address appropriate
-    for this account, then click the right arrow.</li>
-  <li><strong>Server Information</strong>:
+    for this account, then click the right arrow. This window is not available
+    for the Blogs &amp; News Feeds account type.</li>
+  <li><strong>Server Information</strong>: This window is not available for
+    for the Blogs &amp; News Feeds account type.
     <ul>
       <li>Indicate whether you want a POP account or an IMAP account. Not all
         service providers can support both options. For more information, see
@@ -168,7 +175,8 @@
     </ul>
   </li>
   <li><strong>User Names</strong>: Enter the incoming and outgoing user names
-    provided by your ISP or email provider, then click the right arrow.</li>
+    provided by your ISP or email provider, then click the right arrow. This
+    window is not available for the Blogs &amp; News Feeds account type.</li>
   <li><strong>Account Name</strong>: Enter whatever name you want to use to
     refer to this account, then click the right arrow.</li>
   <li><strong>Congratulations!</strong> Verify that the information you entered
@@ -209,10 +217,10 @@
     see the Mail &amp; Newsgroups Account Settings dialog box. You can perform
     these tasks:
     <ul>
-      <li><strong>Add Account</strong>: Click this button to set up a new mail
-        or news account. Be sure to type the account information exactly as it
-        is given to you. Move through the screens with the arrows, or click
-        Cancel to stop account creation.</li>
+      <li><strong>Add Account</strong>: Click this button to set up a new mail,
+        news or blogs &amp; news feeds account. Be sure to type the account
+        information exactly as it is given to you. Move through the screens
+        with the arrows, or click Cancel to stop account creation.</li>
       <li><strong>Set as Default</strong>: Select an account, then click this
         button to make the selected account appear at the top of your list of
         accounts in the Mail Window. The change takes effect the next time you
@@ -222,6 +230,9 @@
           IMAP accounts only) automatically check for new messages when you
           start Mail &amp; Newsgroups. (For POP accounts, you must always click
           the Get Msg button to get new messages.)</p>
+        
+        <p><strong>Note:</strong> You can&apos;t set a blogs &amp; news feeds
+          account as default.</p>
       </li>
       <li><strong>Remove Account</strong>: Select an account, then click this
         button to remove it completely from your Mail window.</li>
@@ -250,7 +261,7 @@
     see the Mail &amp; Newsgroups Account Settings dialog box.</li>
   <li>Click the account name in the left-hand side of the Account Settings
     dialog box. You see information about the account, such as your email
-    address and signature file, in the right side of the dialog box.</li>
+    address and signature, in the right side of the dialog box.</li>
   <li>Click any of these items beneath the name of an account to see the
     corresponding settings:
     <ul>
@@ -277,18 +288,20 @@
         specified for all address books in the Preferences dialog box. For more
         information, see <a href="#addressing">Mail &amp; Newsgroups Account
         Settings - Composition &amp; Addressing</a>.</li>
-      <li><strong>Offline &amp; Disk Space (IMAP and News accounts
+      <li><strong>Synchronization &amp; Storage (IMAP and News accounts
         only)</strong>: These settings apply when you are working offline
         (disconnected from the Internet) or need to save download time and
         conserve disk space. For more information, see
-        <a href="#offline_and_disk_space_settings_imap">Offline and Disk Space
-        Settings (IMAP)</a> or
-        <a href="#offline_and_disk_space_settings_nntp">Offline and Disk Space
-        Settings (News)</a>.</li>
-      <li><strong>Disk Space (POP accounts only)</strong>: This setting
-        determines the maximum size of messages that you are willing to
-        download to your hard disk. For more information, see
-        <a href="#disk_space_settings">Disk Space Settings (POP)</a>.</li>
+        <a href="#synchronization_and_storage_settings_imap">Synchronization
+        &amp; Storage Settings (IMAP)</a> or
+        <a href="#synchronization_and_storage_settings_nntp">Synchronization
+        &amp; Storage Settings (News)</a>.</li>
+      <li><strong>Disk Space (POP and blogs &amp; news feeds accounts
+        only)</strong>: This setting helps you manage the amount of disk
+        space that downloaded messages take up on your hard disk. For more
+        information, see <a href="#disk_space_settings_pop">Disk Space Settings
+        (POP)</a> or <a href="#disk_space_settings_blog">Disk Space Settings
+        (Blogs)</a>.</li>
       <li><strong>Security</strong>: These settings determine which
         <a href="glossary.xhtml#certificate">certificates</a> are used to
         digitally sign and encrypt mail messages that you send. Digital
@@ -334,6 +347,15 @@
   <a href="#pop_server_settings">change your POP server settings</a> to
   retrieve just the headers and/or store a copy of messages on the server in
   addition to downloading them to your computer.</p>
+  
+<p>For news accounts, expanding the account newsgroups list will automatically
+  check for new items, as it will by just selecting one of the newsgroups.
+  While reading a newsgroup, you can force checking for new items by clicking
+  Get Msgs.</p>
+
+<p>For blogs &amp; feeds accounts, the first time you expand the account, it
+  will be checked for new items. Besides that, you can force checking for new
+  items at any time by clicking Get Msgs.</p>
 
 <p>You can also set up Mail &amp; Newsgroups to get new messages at startup and
   to check for new messages at timed intervals.</p>
@@ -389,8 +411,9 @@
 </ol>
 
 <p>To set up &brandShortName; Mail &amp; Newsgroups to play a sound or display
-  an alert when new mail arrives, see <a href="#notifications">Mail &amp;
-  Newsgroups Preferences - Notifications</a>.</p>
+  an alert when new mail arrives, see <a
+  href="mailnews_preferences.xhtml#notifications">Mail &amp; Newsgroups
+  Preferences - Notifications</a>.</p>
 
 <p>You can always retrieve messages manually at any time. To get new messages
   for the selected account or newsgroup, do one of the following:</p>
@@ -506,13 +529,13 @@
   Sort by submenu.</p>
 
 <p><strong>Tip</strong>: Select <q>Preserve threading when sorting messages</q>
-  in the <a href="#mail_and_newsgroups">Mail &amp; Newsgroups Preferences</a>
-  if you want &brandShortName; to preserve the threaded message grouping when
-  sorting messages with column header clicks. The thread button just toggles
-  between threaded and unthreaded message grouping in this mode. If <q>Preserve
-  threading when sorting messages</q> is not selected, &brandShortName;
-  automatically displays the messages unthreaded when you sort them by clicking
-  on a column header.</p>
+  in the <a href="mailnews_preferences.xhtml#mail_and_newsgroups">Mail &amp;
+  Newsgroups Preferences</a> if you want &brandShortName; to preserve the
+  threaded message grouping when sorting messages with column header clicks. The
+  thread button just toggles between threaded and unthreaded message grouping in
+  this mode. If <q>Preserve threading when sorting messages</q> is not selected,
+  &brandShortName; automatically displays the messages unthreaded when you sort
+  them by clicking on a column header.</p>
 
 <p><strong>Tip</strong>: To help you identify unread messages in a collapsed
   thread where you&apos;ve read the parent message, &brandShortName; Mail &amp;
@@ -557,7 +580,7 @@
     no subcategories are visible, double-click Mail &amp; Newsgroups to
     expand the list.)</li>
   <li>Uncheck <q>Block images and other content from remote sources</q>.</li>
-  <li>Click OK to have your change take affect.</li>
+  <li>Click OK to have your change take effect.</li>
 </ol>
 
 <p><strong>Note</strong>: See <q>Allow remote images in HTML mail</q> in
@@ -565,8 +588,8 @@
   Card</a> for details of how to change which senders can show remote
   content.</p>
 
-<p>By default, JavaScript and plugins are not enabled for mail messages you
-  receive. To change these settings:</p>
+<p>By default, plugins are not enabled for mail messages you receive. To change
+  this setting:</p>
 
 <ol>
   <li>Open the <span class="mac">&brandShortName;</span>
@@ -575,13 +598,11 @@
     subcategories are visible, double-click Advanced to expand the
     list.)
     <ul>
-      <li>Under <q>Enable JavaScript for</q>, check <q>Mail &amp;
-        Newsgroups</q> to enable JavaScript.</li>
       <li>Under <q>Enable Plugins for</q>, check <q>Mail &amp; Newsgroups</q>
         to enable plugins.</li>
     </ul>
   </li>
-  <li>Click OK to have your changes take affect.</li>
+  <li>Click OK to have your changes take effect.</li>
 </ol>
 
 <p>[<a href="#reading_messages">Return to beginning of section</a>]</p>
@@ -630,6 +651,12 @@
   (You can specify a different editor for each of your accounts.) See
   <a href="#changing_the_settings_for_an_account">Changing the Settings for an
   Account</a> for more information.</p>
+
+<p><strong>Note</strong>: It is generally not possible to compose messages for
+  them to be published in blogs &amp; news feeds accounts. If you want to
+  publish posts in a blog (and you have the appropiate rights to do it), you
+  will need to use the mechanisms provided by the specific blog system. In some
+  cases, this can even include sending a mail message to a specific address.</p>
 
 <p>Composing messages in HTML format allows you to use different fonts, text
   styles (such as bold or italic) and text colors, tables, numbered or bulleted
@@ -698,12 +725,14 @@
 <ol>
   <li>Type the name in the addressing area.
 
-    <p>If you have <a href="#address_autocompletion">address autocompletion</a>
-      enabled (it&apos;s enabled by default), type the first few letters of
-      the recipient&apos;s name and wait for Mail &amp; Newsgroups to complete
-      the address. (Or you can type part of the name and immediately press
-      <kbd class="mac">Return</kbd><kbd class="noMac">Enter</kbd> to have Mail
-      &amp; Newsgroups try to complete the address.)</p>
+    <p>If you have <a
+      href="mailnews_preferences.xhtml#address_autocompletion">address
+      autocompletion</a> enabled (it&apos;s enabled by default), type the first
+      few letters of the recipient&apos;s name and wait for Mail &amp;
+      Newsgroups to complete the address. (Or you can type part of the name and
+      immediately press <kbd class="mac">Return</kbd><kbd
+      class="noMac">Enter</kbd> to have Mail &amp; Newsgroups try to complete
+      the address.)</p>
   </li>
   <li>If multiple addresses are displayed, select an address and press
     <kbd class="mac">Return</kbd><kbd class="noMac">Enter</kbd>.
@@ -804,8 +833,8 @@
     This option lets you enable or disable return receipt requests on a
     per-message basis. To automatically request return receipts for all
     messages you send, use the return receipts preferences. See
-    <a href="#return_receipts_preferences">Mail &amp; Newsgroups Preferences -
-    Return Receipts</a> for more information.</li>
+    <a href="mailnews_preferences.xhtml#return_receipts_preferences">Mail &amp;
+    Newsgroups Preferences - Return Receipts</a> for more information.</li>
   <li><strong>Format</strong>: Send the message as plain text, or HTML
     (formatted), or both. If you choose <q>Auto-Detect</q>, Mail &amp;
     Newsgroups prompts you for the format to use if it&apos;s unknown whether
@@ -831,10 +860,10 @@
     plain-text editor, you can use the Rewrap command to rewrap long lines of
     quoted text to fit the Compose window. This command rewraps selected quoted
     text to the number of characters specified by the
-    <a href="#composition">Composition</a> preferences. This command is
-    primarily useful when you are replying to a message where the original
-    message is quoted in your reply, and the original message contains long
-    lines.
+    <a href="mailnews_preferences.xhtml#composition">Composition</a>
+    preferences. This command is primarily useful when you are replying to a
+    message where the original message is quoted in your reply, and the original
+    message contains long lines.
 
     <p>You use the Mail &amp; Newsgroups Account Settings command on the Edit
       menu to specify that you want to use the plain-text editor for composing
@@ -881,6 +910,10 @@
       <li>Select <q>below my reply (above the quote)</q> to place your
         signature between your reply and the quoted text.</li>
     </ul>
+
+    <p><strong>Note</strong>: If you have created a signature, you can
+      optionally <a href="#addressing">omit it</a> when replying to a
+      message.</p>
   </li>
   <li>Click OK.</li>
 </ol>
@@ -907,10 +940,17 @@
   <li>Open the <span class="mac">&brandShortName;</span>
     <span class="noMac">Edit</span> menu and choose Preferences.</li>
   <li>Under the Mail &amp; Newsgroups category, click
-    <a href="#composition">Composition</a>. (If no subcategories are visible,
-    double-click Mail &amp; Newsgroups to expand the list.)</li>
+    <a href="mailnews_preferences.xhtml#composition">Composition</a>. (If no
+    subcategories are visible, double-click Mail &amp; Newsgroups to expand the
+    list.)</li>
   <li>For forwarding messages, choose Inline (in the message body) or As
-    Attachment.</li>
+    Attachment.
+
+    <p><strong>Note</strong>: If you have created a signature and forward
+      inline, its placement depends on the respective reply setting. You can
+      optionally <a href="#addressing">omit the signature</a> when forwarding
+      a message.</p>
+  </li>
   <li>Click OK.</li>
 </ol>
 
@@ -932,9 +972,10 @@
   feature.</p>
 
 <p>To request return receipts for all messages you send, you can use the global
-  <a href="#return_receipts_preferences">Return Receipt</a> preferences to
-  specify how to manage requests you receive for return receipts. You can
-  override these global preferences for individual accounts.</p>
+  <a href="mailnews_preferences.xhtml#return_receipts_preferences">Return
+  Receipt</a> preferences to specify how to manage requests you receive for
+  return receipts. You can override these global preferences for individual
+  accounts.</p>
 
 <p>To request a return receipt on a per-message basis:</p>
 
@@ -950,16 +991,16 @@
   <li>Open the <span class="mac">&brandShortName;</span>
     <span class="noMac">Edit</span> menu and choose Preferences.</li>
   <li>Under the Mail &amp; Newsgroups category, click
-    <a href="#return_receipts_preferences">Return Receipts</a>. (If no
-    subcategories are visible, double-click Mail &amp; Newsgroups to expand the
-    list.)</li>
+    <a href="mailnews_preferences.xhtml#return_receipts_preferences">Return
+    Receipts</a>. (If no subcategories are visible, double-click Mail &amp;
+    Newsgroups to expand the list.)</li>
   <li>Select <q>When sending messages, always request a return receipt</q>.</li>
   <li>Click OK.</li>
 </ol>
 
 <p>For more information on setting return receipt preferences, see
-  <a href="#return_receipts_preferences">Mail &amp; Newsgroups Preferences -
-  Return Receipts</a>.</p>
+  <a href="mailnews_preferences.xhtml#return_receipts_preferences">Mail &amp;
+  Newsgroups Preferences - Return Receipts</a>.</p>
 
 <p>[<a href="#sending_messages">Return to beginning of section</a>]</p>
 
@@ -1146,8 +1187,9 @@
   <li>Open the <span class="mac">&brandShortName;</span>
     <span class="noMac">Edit</span> menu and choose Preferences.</li>
   <li>Under the Mail &amp; Newsgroups category, click
-    <a href="#send_format">Send Format</a>. (If no subcategories are visible,
-    double-click Mail &amp; Newsgroups to expand the list).
+    <a href="mailnews_preferences.xhtml#send_format">Send Format</a>. (If no
+    subcategories are visible, double-click Mail &amp; Newsgroups to expand the
+    list).
 
     <p><strong>Note</strong>: This preference applies only to mail messages,
       not to newsgroup messages.</p>
@@ -1492,7 +1534,8 @@
   addresses of recipients who are not in your locally-stored address books.
   LDAP directories offer you access to large, centrally maintained databases
   of email addresses, which is especially useful with
-  <a href="#address_autocompletion">address autocompletion</a>.</p>
+  <a href="mailnews_preferences.xhtml#address_autocompletion">address
+  autocompletion</a>.</p>
 
 <p>Automatic address collection is enabled by default. To change automatic
   address collection settings, begin in the Mail window:</p>
@@ -2249,7 +2292,7 @@
     can be up to 32 characters long.</li>
   <li>To change the tag color, click the color block next to that tag and
     select a new color.</li>
-  <li>Click the the Move Up and Move Down buttons to reorder the tags. Tags at
+  <li>Click the Move Up and Move Down buttons to reorder the tags. Tags at
     the top will have higher priority when coloring messages.</li>
   <li>Click OK.</li>
 </ol>
@@ -2431,11 +2474,16 @@
   <li>If you have multiple mail accounts, choose the one to which you want to
     apply the filter.</li>
   <li>Click New. You use the Filter Rules dialog box to specify the types of
-    messages to act on, and the action you want the filter to perform.</li>
+    messages to act on, and the actions you want the filter to perform.</li>
   <li>Type a name for the filter.</li>
+  <li>Select when you want the filter to be applied. This setting enables you
+    to define some filters to be applied in an automatic way (when checking
+    mail), on demand (manually run), or both. <q>After classification</q> means
+    that junk and phishing controls will be run before applying the
+    filter.</li>
   <li>Select the matching option you want Mail to use: <q><em>all</em> of the
-    following</q> conditions (criteria) you choose, or <q><em>any</em> of the
-    following</q> conditions.</li>
+    following</q> conditions (criteria) you choose, <q><em>any</em> of the
+    following</q> conditions you choose, or <q><em>all messages</em></q>.</li>
   <li>Use the drop-down lists to choose the search criteria (for example,
     <q>Subject</q>, <q>Sender</q>, <q>contains</q>, <q>doesn&apos;t
     contain</q>) and then type the text or phrase you want to match.
@@ -2451,17 +2499,38 @@
   </li>
   <li>Click <q>+</q> to add criteria and <q>-</q> to remove them.</li>
   <li>Use the list to choose the action you want the filter to perform on the
-    messages (for example, Move to Folder).
+    messages (for example, Move Message To). Use <q>+</q> and <q>-</q> to add
+    or remove additional actions.
 
     <p><strong>Tip</strong>: To automatically tag incoming messages, choose
-      <q>Tag the message</q> from the drop-down list.</p>
+      <q>Tag Message</q> from the drop-down list.</p>
+
+    <p><strong>Tip</strong>: Message filters are applied one after another. It
+      could be that you don&apos;t want all filters to be run if one or more
+      messages match some conditions. For instance, you may want to tag all
+      messages from your boss&apos;s email address as <q>Important</q>, and
+      you may want all messages containing the word <q>Memorandum</q> in their
+      subject to be moved to a folder named <q>Pending Reads</q>, but you
+      don&apos;t want any message from your boss to be moved to another folder,
+      even if it contains <q>Memorandum</q> in the subject. So the first
+      message filter you define should match your boss&apos;s email address,
+      and would contain two actions: <q>Tag Message</q> as <q>Important</q> and
+      <q>Stop Filter Execution</q>.</p>
   </li>
-  <li>Choose a destination folder in which to store the messages, or create a
+  <li>If you have chosen <q>Move</q> or <q>Copy</q> message to a folder, then
+    select a destination folder in which to store the messages, or create a
     new folder.</li>
   <li>Click OK to confirm your settings.</li>
+  <li>To run filters on existing messages in a folder, select the folder
+    in the bottom dropdown list and click the <q>Run Now</q> button.</li>
   <li>Click OK in the Message Filters dialog box. The filter begins filtering
     incoming messages as soon as you click OK.</li>
 </ol>
+
+<p><strong>Note</strong>: You can also run message filters manually at any
+  time. In the Mail window, choose Tools, and then select Run Filters on Folder
+  to apply filters to the current folder, or Run Filters on Message to apply
+  filters to the selected message (if any).</p>
 
 <p>To manage your filters, begin from the Mail window:</p>
 
@@ -2518,12 +2587,18 @@
 
 <ol>
   <li>Select a message from a specific sender.</li>
-  <li>Open the Message menu, and choose Create Filter From Message. You see the
-    Filter Rules dialog box. Using the sender&apos;s email address,
-    &brandShortName; prefills the filter name, the filter matching criteria,
-    and the filter action (Move to folder).</li>
+  <li>Open the Message menu and choose Create Filter From Message. Or, in the
+    message header pane, right click the sender name and choose Create Filter
+    From.</li>
+  <li>You see the Filter Rules dialog box. Using the sender&apos;s email
+    address, &brandShortName; prefills the filter matching criteria and the
+    filter action (Move Message to). You can change or add new rules to the
+    matching criteria.</li>
   <li>Choose a destination folder in which to store the incoming messages from
-    the specified sender, or create a new folder.</li>
+    the specified sender, or create a new folder. You can also choose other
+    actions for this filter, or change the default one.</li>
+  <li>Note that, if you leave the filter name empty, &brandShortName; will
+    provide a name for it based on the first criterion.</li>
   <li>Click OK to confirm your settings. You see the
     <a href="#creating_message_filters">Message Filters</a> dialog box, where
     you can create, delete, or edit message filters.</li>
@@ -2704,20 +2779,22 @@ to filter unwanted mail, and how phishing detection works.</p>
 <h2 id="junk_controls_options">Junk Mail Controls Options</h2>
 
 <p>To fine-tune how Junk Mail Controls work, use the 
-  <a href="#global_junk_settings">global Junk Mail preference panel</a> for
-  account-independent settings and the account manager's 
-  <a href="#junk_settings">Junk Settings</a> for settings of a specific mail
-  account.</p>
+  <a href="mailnews_preferences.xhtml#junk_and_suspect_preferences">Junk &amp;
+  Suspect Mail preference panel</a> for account-independent settings and the
+  account manager's <a href="#junk_settings">Junk Settings</a> for settings of a
+  specific mail account.</p>
 
 <p>[<a href="#controlling_junk_mail">Return to beginning of section</a>]</p>
 
 <h2 id="junk_controls_and_filters">Junk Mail Controls and Filters</h2>
 
-<p>Junk Mail Controls run after mail filters and apply only to the Inbox folder
-  and its sub-folders. Use this to your advantage, for example, you can filter
-  mail you are sure not to be Junk to a special folder outside of Inbox so that
-  the messages will not be classified as Junk (especially useful if you
-  subscribe to newsletters or if you are on a moderated mailing list).</p>
+<p>Junk Mail Controls run after mail filters (unless you set the filter to run
+  after classification, where <q>classification</q> includes junk and phishing
+  scanning) and apply only to the Inbox folder and its sub-folders. Use this to
+  your advantage, for example, you can filter mail you are sure not to be Junk
+  to a special folder outside of Inbox so that the messages will not be
+  classified as Junk (especially useful if you subscribe to newsletters or if
+  you are on a moderated mailing list).</p>
 
 <p>[<a href="#controlling_junk_mail">Return to beginning of section</a>]</p>
 
@@ -2750,7 +2827,7 @@ to filter unwanted mail, and how phishing detection works.</p>
   Scam</q> button, and the warning bar will disappear.</p>
 
 <p>When a user clicks on a link in an email that appears to be a phishing URL,
-  &brandShortName; will prompt the user with a dialog box before the Web site
+  &brandShortName; will prompt the user with a dialog box before the website
   is opened.</p>
 
 <p>This prompt will appear if either of the following is true: the host name of
@@ -2995,14 +3072,381 @@ to filter unwanted mail, and how phishing detection works.</p>
 <p>[<a href="#getting_started_with_newsgroups">Return to beginning of
   section</a>]</p>
 
+<h1 id="getting_started_with_blogs_and_news_feeds">Getting
+  started with Blogs &amp; News Feeds</h1>
+
+<div class="contentsBox">In this section:
+  <ul>
+    <li><a href="#subscribing_to_blogs_and_news_feeds">Subscribing to blogs
+      &amp; news feeds</a></li>
+    <li><a href="#subscribing_to_blogs_and_news_feeds_from_browser">Subscribing
+      to blogs &amp; news feeds from a browser window</a></li>
+    <li><a href="#reading_blogs_and_news_feed_messages">Reading blogs &amp;
+      news feeds messages</a></li>
+    <li><a href="#posting_blog_messages">Posting blog messages</a></li>
+    <li><a href="#adding_comments_to_a_blog_post">Adding comments to a blog
+      post</a></li>
+    <li><a href="#exporting_and_importing_feeds">Exporting and importing
+      feeds</a></li>
+    <li><a href="#editing_a_feed">Editing a feed</a></li>
+    <li><a href="#removing_a_feed">Removing a feed</a></li>
+    <li><a href="#using_different_blogs_and_news_feeds_accounts">Using
+      different blogs &amp; news feeds accounts</a></li>
+    <li><a href="#organizing_your_feeds">Organizing your feeds</a></li>
+  </ul>
+</div>
+
+<h2 id="subscribing_to_blogs_and_news_feeds">Subscribing to blogs &amp; news
+  feeds</h2>
+
+<p>If you have set up a
+  <a href="#setting_up_additional_mail_and_news_accounts">Blogs &amp; News
+  account</a>, you can subscribe to Blogs &amp; News feeds.</p>
+
+<p>To subscribe to a feed, begin from the Mail window:</p>
+
+<ol>
+  <li id="getting_into_the_feed_subscriptions_dialog">Get into the Feed
+    Subscriptions dialog. There are several ways to do this:
+    <ul>
+      <li>In the accounts pane, click your desired Blogs &amp; News Feeds
+        account to manage, then click in the Manage Subscriptions in the right
+        pane.</li>
+      <li>In the accounts pane, click your desired Blogs &amp; News Feeds
+        account to manage, or a feed inside it, then open the File menu and
+        choose Subscribe.</li>
+      <li>In the accounts pane, <strong>right click</strong> your desired Blogs
+        &amp; News Feeds account to manage and choose Subscribe...</li>
+      <li>Open the Edit menu and select the Mail &amp; Newsgroups Account
+        Settings option. In the Mail &amp; Newsgroups Account Settings dialog,
+        click on a Blogs &amp; News Feeds account main section, and then
+        click the Manage Subscriptions... button.</li>
+    </ul>
+  </li>
+  <li>Once in the Feed Subscriptions dialog, click the Add button. The Feed
+    properties dialog will appear.</li>
+  <li>Type (or copy and paste) the feed URL into the Feed URL field.</li>
+  <li>Click <q>Store articles in</q> dropdown list to choose the item list
+    where you want the articles to be stored. This allows you to merge
+    multiple feeds in one list item.</li>
+  <li>Set <q>Show the article summary instead of loading the web page</q> to
+    display a brief summary that blog feeds usually include for each article.
+    
+    <p><strong>Tip:</strong> Showing the article summary reduces the bandwidth
+      traffic and is faster, since the summary is already downloaded when the
+      feed is checked for new items. However, if you usually are interested in
+      the full article, you will save time by unchecking this option.</p>
+  </li>
+  <li>Click OK to confirm the feed addition.</li>
+</ol>
+
+<p>[<a href="#getting_started_with_blogs_and_news_feeds">Return to beginning of
+  section</a>]</p>
+
+<h2 id="subscribing_to_blogs_and_news_feeds_from_browser">Subscribing to blogs
+  &amp; news feeds from a browser window</h2>
+
+<p>While browsing the web using &brandShortName;, you may find the Feed
+  discovery icon (<img src="chrome://communicator/skin/icons/feedIcon.png"
+  style="width: 16px; height: 16px;" />) while visiting a web page. You
+  can click on it to see a list of available feeds and choose one to get it
+  added to your first Blogs &amp; News Feeds account.</p>
+
+<p>[<a href="#getting_started_with_blogs_and_news_feeds">Return to beginning of
+  section</a>]</p>
+
+<h2 id="reading_blogs_and_news_feed_messages">Reading blogs &amp; news feeds
+  messages</h2>
+
+<p>When you open your Blogs &amp; News account, you see the list of feeds to
+  which you subscribed. &brandShortName; checks and downloads every feed for
+  new messages.</p>
+
+<p>To read blogs &amp; news messages, begin from the Mail window:</p>
+
+<ol>
+  <li>Double-click a blogs &amp; news account to see its feeds. (If there are
+    no feeds, you may need to subscribe to one.)</li>
+  <li>Click a feed name to see its messages.</li>
+  <li>Click a message to read it. The header will show the original URL of the
+    article, which you can click to open a browser window with the
+    corresponding webpage.</li>
+</ol>
+
+<p>Depending on your settings for the Blogs &amp; News account and each
+  individual feed, the message will be shown in its summarized view or the
+  full view. You can change it by choosing the menu option View, and then Feed
+  Message Body As. You can then select one of these options:</p>
+
+<ul>
+  <li><strong>Web Page</strong>: Select this to show the full web page of this
+    message.</li>
+  <li><strong>Summary</strong>: Select this to show the summarized, short
+    version of this message.</li>
+  <li><strong>Default format</strong>: Select this to show the article in its
+    default format, as specified in the feed options or, otherwise, the Blogs
+    &amp; News account.</li>
+</ul>
+
+<p>[<a href="#getting_started_with_blogs_and_news_feeds">Return to beginning of
+  section</a>]</p>
+
+<h2 id="posting_blog_messages">Posting blog messages</h2>
+
+<p>To post a blog message, you need an account in the corresponding blog. Also,
+  there is no standardized way to post blog messages, so you won&apos;t
+  normally be able to post messages from &brandShortName; Mail component.
+  Instead, you will need to open a browser window, log in to your blog account
+  and use the web interface.</p>
+ 
+<p>Some blog systems, however, allow posting blog messages by sending an email
+  message to a specific address. You will need to find out if your blog service
+  implements this feature, and the correct email address to use.</p>
+
+<p>[<a href="#getting_started_with_blogs_and_news_feeds">Return to beginning of
+  section</a>]</p>
+
+<h2 id="adding_comments_to_a_blog_post">Adding comments to a blog post</h2>
+
+<p>Since there is no standardized way to add comments to a blog post, you will
+  usually need to open a browser window and use the web interface.</p>
+ 
+<p>Some blog systems, however, allow adding comments by sending an email
+  message to a specific address. You will need to find out if the blog service
+  implements this feature, and the correct email address to use.</p>
+
+<p>[<a href="#getting_started_with_blogs_and_news_feeds">Return to beginning of
+  section</a>]</p>
+
+<h2 id="exporting_and_importing_feeds">Exporting and importing feeds</h2>
+
+<p>If you have set up a
+  <a href="#setting_up_additional_mail_and_news_accounts">Blogs &amp; News
+  account</a>, you can export or import Blogs &amp; News feed collections using
+  the OPML format (Outline Processor Markup Language).</p>
+
+<p>To export the feeds in your selected blogs &amp; news account, begin from
+  the Mail window:</p>
+
+<ol>
+  <li>In the accounts pane, click your desired Blogs &amp; News account to
+    manage, or a feed inside it.</li>
+  <li>Open the File menu and choose Subscribe (or use any other of the
+    <a href="#getting_into_the_feed_subscriptions_dialog">available methods</a>.
+    to access to the Feed Subscriptions dialog box).</li>
+  <li>In the Feed Subscriptions dialog, click the Export button. The Export
+    feeds as an OPML file dialog will appear.</li>
+  <li>Select the directory and filename to save the OPML file, and click
+    Save.</li>
+</ol>
+
+<p>To import the feeds in your selected blogs &amp; news account, begin from
+  the Mail window:</p>
+
+<ol>
+  <li>In the accounts pane, click your desired Blogs &amp; News account to
+    manage, or a feed inside it.</li>
+  <li>Open the File menu and choose Subscribe (or use any other of the
+    <a href="#getting_into_the_feed_subscriptions_dialog">available methods</a>.
+    to access to the Feed Subscriptions dialog box).</li>
+  <li>In the Feed Subscriptions dialog, click the Import button. The Select
+    OPML file to import dialog will appear.</li>
+  <li>Select the directory and filename to load the OPML file, and click
+    Save.</li>
+  <li>All the feeds defined in the OPML file will be added to your blogs &amp;
+    feeds account.</li>
+</ol>
+
+<p>[<a href="#getting_started_with_blogs_and_news_feeds">Return to beginning of
+  section</a>]</p>
+
+<h2 id="editing_a_feed">Editing a feed</h2>
+
+<p>If you want to change the properties of one of the feeds in your blogs &amp;
+  news account, you can edit it.</p>
+
+<p>To edit a feed in your selected blogs &amp; news account, begin from the
+  Mail window:</p>
+
+<ol>
+  <li>In the accounts pane, click your desired Blogs &amp; News account to
+    manage, or a feed inside it.</li>
+  <li>Open the File menu and choose Subscribe (or use any other of the
+    <a href="#getting_into_the_feed_subscriptions_dialog">available methods</a>.
+    to access to the Feed Subscriptions dialog box).</li>
+  <li>In the Feed Subscriptions dialog, click on a feed in the feed list. You
+    may need to expand the folders in the feed list to see each individual
+    feed.</li>
+  <li>Click the Edit button. The Feed properties dialog will appear.</li>
+  <li>You can change where you want the articles to be stored clicking the
+    <q>Store articles in</q> dropdown list.</li>
+  <li>You may mark <q>Show the article summary instead of loading the web
+    page</q> to display a brief summary that blog feeds usually include for
+    each article.
+    
+    <p><strong>Tip:</strong> Showing the article summary reduces the bandwidth
+      traffic and is faster, since the summary is already downloaded when the
+      feed is checked for new items. However, if you usually are interested in
+      the full article, you will save time by unchecking this option.</p>
+  </li>
+  <li>Click OK to confirm the changes.</li>
+</ol>
+
+<p>[<a href="#getting_started_with_blogs_and_news_feeds">Return to beginning of
+  section</a>]</p>
+
+<h2 id="removing_a_feed">Removing a feed</h2>
+
+<p>If you no longer want to follow one of the feeds in your blogs &amp; news
+  account, you can remove it.</p>
+
+<p>To remove a feed in your selected blogs &amp; news account, begin from the
+  Mail window:</p>
+
+<ol>
+  <li>In the accounts pane, click your desired Blogs &amp; News account to
+    manage, or a feed inside it.</li>
+  <li>Open the File menu and choose Subscribe (or use any other of the
+    <a href="#getting_into_the_feed_subscriptions_dialog">available methods</a>.
+    to access to the Feed Subscriptions dialog box).</li>
+  <li>In the Feed Subscriptions dialog, click on a feed in the feed list. You
+    may need to expand the folders in the feed list to see each individual
+    feed.</li>
+  <li>Click the Remove button. You will be asked to confirm the deletion of the
+    feed.</li>
+</ol>
+
+<p><strong>Note:</strong> don&apos;t confuse a feed with a folder in a Blogs
+  &amp; News account. Removing a feed doesn&apos;t delete the folder in which
+  the feed articles are stored, and thus, such articles will stay in the folder
+  until you delete either the whole folder or the articles themselves. To get
+  a better understanding, see <a href="#organizing_your_feeds">Organizing your
+  feeds</a> later in this section.</p>
+
+<p>[<a href="#getting_started_with_blogs_and_news_feeds">Return to beginning of
+  section</a>]</p>
+
+<h2 id="using_different_blogs_and_news_feeds_accounts">Using different blogs
+  &amp; news feeds accounts</h2>
+
+<p>A single blogs &amp; news feeds account can contain any number of feeds in
+  it, so you don&apos;t strictly need more than one blogs &amp; news feeds
+  account. However, you may want to create several blogs &amp; news feeds
+  accounts. Some reasons to do that are:</p>
+
+<ul>
+  <li>You can use different accounts to categorize your feeds. For example, you
+    can create an account named <q>Mozilla News</q> to put in it all your
+    feeds related to Mozilla, and another one named <q>Today Headlines</q> to
+    put in it all your feeds with general news.</li>
+  <li>If you have several accounts, each one can have different settings. This
+    way, you can choose, for example, different time intervals for each account
+    (and, therefore, their feeds.)</li>
+</ul>
+
+<p>[<a href="#getting_started_with_blogs_and_news_feeds">Return to beginning of
+  section</a>]</p>
+
+<h2 id="organizing_your_feeds">Organizing your feeds</h2>
+
+<p>The default operation mode when adding a feed to a Blogs &amp; News Feeds
+  account in &brandShortName; is to create a folder and a feed inside it.
+  However, &brandShortName; allows you a great deal of flexibility. This section
+  helps you to better organize your feeds:</p>
+
+<div class="contentsBox">In this section:
+  <ul>
+    <li><a href="#feeds_vs_folders">Feeds versus folders</a></li>
+    <li><a href="#organizing_folders_in_blogs_and_news_feeds_accounts">Organizing
+      folders in Blogs &amp; News Feeds accounts</a></li>
+    <li><a href="#downloading_multiple_feeds_in_a_single_folder">Downloading
+      multiple feeds in a single folder</a></li>
+    <li><a href="#moving_a_feed_to_another_folder">Moving a feed to another
+      folder</a></li>
+  </ul>
+</div>
+
+<h3 id="feeds_vs_folders">Feeds versus folders</h3>
+
+<p>Blogs &amp; News Feeds accounts are organized through two main concepts:
+  <strong>feeds</strong> and <strong>folders</strong>.</p>
+  
+<ul>
+  <li><strong>Feeds</strong> are sources for articles/posts. They provide
+    the means to get new articles from blogs. You subscribe to feeds.</li>
+  <li><strong>Folders</strong> in Blogs &amp; News Feeds accounts work pretty
+    much like in any other account type. Folders store articles/posts you got
+    through the feeds.</li>
+</ul>
+
+<p>You use the Feed Subscriptions dialog to tell &brandShortName; which feed
+  messages are downloaded in which folders. As feeds provide new articles and
+  folders provide the store to put such articles, you will want to have them
+  connected, usually linking a feed to a folder. However, keep in mind that
+  removing a feed will not automatically delete the associated folder, nor
+  will remove the articles/posts from the removed feed, since they are
+  stored into the folder.</p>
+
+<p>[<a href="#organizing_your_feeds">Return to beginning of section</a>]</p>
+
+<h3 id="organizing_folders_in_blogs_and_news_feeds_accounts">Organizing folders
+  in Blogs &amp; News Feeds accounts</h3>
+
+<p>You can create, rename, move or copy folders in Blogs &amp; News Feeds
+  accounts just like with any other account type. See
+  <a href="#creating_a_folder">Creating a folder</a>,
+  <a href="#renaming_a_folder">Renaming a folder</a> and
+  <a href="#moving_or_copying_a_folder">Moving or copying a folder</a> for more
+  details.</p>
+
+<p>[<a href="#organizing_your_feeds">Return to beginning of section</a>]</p>
+
+<h3 id="downloading_multiple_feeds_in_a_single_folder">Downloading multiple
+  feeds in a single folder</h3>
+
+<p>You may want to use a single folder to store articles/items coming from
+  more than one feed. To do this, you just need to add additional feeds in
+  that folder. Begin from the Mail window:</p>
+
+<ol>
+  <li>In the accounts pane, click your desired Blogs &amp; News Feeds account
+    to manage, or a feed inside it.</li>
+  <li>Open the File menu and choose Subscribe (or use any other of the
+    <a href="#getting_into_the_feed_subscriptions_dialog">available methods</a>.
+    to access to the Feed Subscriptions dialog box).</li>
+  <li>In the Feed Subscriptions dialog, click in the desired folder, then click
+    the Add button. The Feed properties dialog will appear.</li>
+  <li>Type (or copy and paste) the feed URL in the Feed URL field.</li>
+  <li>Click OK to confirm the feed addition.</li>
+</ol>
+
+<p>[<a href="#organizing_your_feeds">Return to beginning of section</a>]</p>
+
+<h3 id="moving_a_feed_to_another_folder">Moving a feed to another folder</h3>
+
+<p>You can move a feed from a folder to another one using any of these
+  methods:</p>
+
+<ul>
+  <li>Drag &amp; drop a feed while inside the Feed Subscriptions window.</li>
+  <li><a href="#editing_a_feed">Edit the feed</a> to change in what folder it
+    downloads articles/items.</li>
+</ul>
+
+<p><strong>Note</strong>: Remember that moving the feed doesn&apos;t move
+  existing articles from the folder in which they have been
+  downloaded.</p>
+
+<p>[<a href="#organizing_your_feeds">Return to beginning of section</a>]</p>
+
 <h1 id="working_offline">Working Offline</h1>
 
 <div class="contentsBox">In this section:
   <ul>
     <li><a href="#setting_up_mozilla_mail_and_newsgroups_to_work_offline">Setting
       Up &brandShortName; Mail &amp; Newsgroups to Work Offline</a></li>
-    <li><a href="#downloading_your_inbox_for_offline_use">Downloading Your
-      Inbox for Offline Use</a></li>
+    <li><a href="#downloading_all_messages_for_offline_use">Downloading All
+      Messages for Offline Use</a></li>
     <li><a href="#downloading_an_individual_folder_for_offline_use">Downloading
       an Individual Folder for Offline Use</a></li>
     <li><a href="#downloading_selected_or_flagged_messages_for_offline_use">Downloading
@@ -3056,37 +3500,40 @@ to filter unwanted mail, and how phishing detection works.</p>
 
 <p>[<a href="#working_offline">Return to beginning of section</a>]</p>
 
-<h2 id="downloading_your_inbox_for_offline_use">Downloading Your Inbox for
+<h2 id="downloading_all_messages_for_offline_use">Downloading All Messages for
   Offline Use</h2>
 
 <p>You can tell &brandShortName; Mail &amp; Newsgroups to automatically
-  download your Inbox messages for offline use. Later, when you go back online,
-  &brandShortName; Mail &amp; Newsgroups automatically synchronizes your Inbox
+  download your messages for offline use. Later, when you go back online,
+  &brandShortName; Mail &amp; Newsgroups automatically synchronizes your
   messages with the server.</p>
 
 <p>Note that the Inbox for POP accounts is downloaded by default, so this
   section does not apply for POP accounts.</p>
 
-<p>To automatically download your Inbox for offline use, begin from the Mail
+<p>To automatically download your messages for offline use, begin from the Mail
   window:</p>
 
 <ol>
   <li>Open the Edit menu and choose Mail &amp; Newsgroups Account Settings. You
     see the Mail &amp; Newsgroups Account Settings dialog box.</li>
   <li>In the left side of the dialog box, under the name of the account you
-    want to use offline, select Offline &amp; Disk Space. (This category is not
-    available for POP accounts.)</li>
-  <li>Check the box labeled <q>Make the messages in my Inbox available when I
-    am working offline</q>.</li>
+    want to use offline, select Synchronization &amp; Storage. (This category
+    is not available for POP accounts.)</li>
+  <li>Check the box labeled <q>Keep messages for this account on this
+    computer</q>.</li>
   <li>Click OK.</li>
-  <li>In the folder pane, under the name of the account you want to use
-    offline, click any folder other than the Inbox. For example, click the Sent
-    or the Drafts folder. Then click the Inbox folder to start downloading its
-    messages.</li>
-  <li>Once downloading is complete, click the Online/Offline indicator
-    <img src="images/online.png" alt=""/> in the lower right corner of the
-    Mail window (to the left of the Cookie icon) to go offline.</li>
+  <li>Click the Online/Offline indicator <img src="images/online.png" alt=""/>
+    in the lower right corner of the Mail window (to the left of the Cookie
+    icon) to go offline. You will be asked to download messages for them to be
+    available while offline. Click on <q>Download</q> to proceed.</li>
 </ol>
+
+<p><strong>Note</strong>: This setting also applies to any new folders
+  created. While the per-account setting can be overridden for an
+  <a href="#downloading_an_individual_folder_for_offline_use">individual
+  folder</a>, those per-folder settings are <em>removed</em> when the
+  <q>Keep messages</q> box is toggled.</p>
 
 <p>&brandShortName; Mail &amp; Newsgroups automatically downloads all messages
   in your Inbox so you can read and respond to them while working offline.
@@ -3111,8 +3558,8 @@ to filter unwanted mail, and how phishing detection works.</p>
   automatically send your unsent messages when you reconnect, use the
   Preferences command on the <span class="mac">&brandShortName;</span>
   <span class="noMac">Edit</span> menu to change the
-  <a href="#offline_and_disk_space_preferences">offline preferences</a> for all
-  your accounts.</p>
+  <a href="mailnews_preferences.xhtml#network_and_storage_preferences">offline
+  preferences</a> for all your accounts.</p>
 
 <p>[<a href="#working_offline">Return to beginning of section</a>]</p>
 
@@ -3130,7 +3577,7 @@ to filter unwanted mail, and how phishing detection works.</p>
     download for offline use.</li>
   <li>Open the Edit menu, and choose Folder Properties. You see the Properties
     dialog box.</li>
-  <li>Click the Offline tab.</li>
+  <li>Click the Synchronization tab.</li>
   <li>Check <q>Select this folder for offline use</q>.</li>
   <li>Click Download Now if you want to immediately begin downloading the
     folder&apos;s messages. Alternatively, you can continue working, and when
@@ -3167,7 +3614,8 @@ to filter unwanted mail, and how phishing detection works.</p>
   Mail &amp; Newsgroups automatically send your unsent messages when you
   reconnect, use the Preferences command on the
   <span class="mac">&brandShortName;</span> <span class="noMac">Edit</span>
-  menu to change your <a href="#offline_and_disk_space_preferences">offline
+  menu to change your <a
+  href="mailnews_preferences.xhtml#network_and_storage_preferences">offline
   preferences</a>.</p>
 
 <p>[<a href="#working_offline">Return to beginning of section</a>]</p>
@@ -3238,7 +3686,8 @@ to filter unwanted mail, and how phishing detection works.</p>
   Mail &amp; Newsgroups automatically send your unsent messages when you
   reconnect, use the Preferences command on the
   <span class="mac">&brandShortName;</span> <span class="noMac">Edit</span>
-  menu to change your <a href="#offline_and_disk_space_preferences">offline
+  menu to change your <a
+  href="mailnews_preferences.xhtml#network_and_storage_preferences">offline
   preferences</a>.</p>
 
 <p>[<a href="#working_offline">Return to beginning of section</a>]</p>
@@ -3293,22 +3742,23 @@ to filter unwanted mail, and how phishing detection works.</p>
 
 <ol>
   <li>For each account that you want to work with while offline, use the Mail
-    &amp; Newsgroups Account Settings dialog box to set the Offline &amp; Disk
-    Space preferences for that account. You must select the items (folders and
-    newsgroups) that you want to download for offline use. See
+    &amp; Newsgroups Account Settings dialog box to set the Synchronization
+    &amp; Storage preferences for that account. You must select the items
+    (folders and newsgroups) that you want to download for offline use. See
     <a href="#selecting_items_for_offline_viewing">Selecting Items for Offline
     Viewing</a> for more information.
 
     <p>Once set, you don&apos;t need to change these settings. See the sections
       below for information on setting offline and disk space preferences for
-      <a href="#offline_and_disk_space_settings_imap">IMAP</a>,
-      <a href="#disk_space_settings">POP</a>, and
-      <a href="#offline_and_disk_space_settings_nntp">Newsgroup</a>
+      <a href="#synchronization_and_storage_settings_imap">IMAP</a>,
+      <a href="#disk_space_settings_pop">POP</a>,
+      <a href="#disk_space_settings_blogs">Blogs</a>, and
+      <a href="#synchronization_and_storage_settings_nntp">Newsgroup</a>
       accounts.</p>
 
-    <p><strong>Tip</strong>: To set the Offline &amp; Disk Space preferences
-      for the current account, open the File menu, choose Offline, and then
-      choose Offline Settings.</p>
+    <p><strong>Tip</strong>: To set the Synchronization &amp; Storage
+      preferences for the current account, open the File menu, choose Offline,
+      and then choose Offline Settings.</p>
   </li>
   <li>Open the File menu, choose Offline, and then choose Download/Sync Now
     from the submenu.</li>
@@ -3345,10 +3795,10 @@ to filter unwanted mail, and how phishing detection works.</p>
 <ol>
   <li>Open the Edit menu, choose Mail &amp; Newsgroups Account Settings. You
     see the Mail &amp; Newsgroups Account Settings dialog box.</li>
-  <li>Choose the Offline &amp; Disk Space category for the account you want to
-    change.</li>
-  <li>Click Select. You see your IMAP accounts, mail folders, and subscribed
-    newsgroups.
+  <li>Choose the Synchronization &amp; Storage category for the account you
+    want to change.</li>
+  <li>Click <q>Advanced</q> to see your IMAP folders, or <q>Select newsgroups
+    for offline use</q> for your subscribed newsgroups.
 
     <p><strong>Note</strong>: You see only the newsgroups and folders that
       you&apos;ve already <a href="#subscribing_to_newsgroups">subscribed</a>
@@ -3434,10 +3884,12 @@ to filter unwanted mail, and how phishing detection works.</p>
 <p><strong>Tip</strong>: To set &brandShortName; Mail &amp; Newsgroups&apos;
   download behavior when going offline, open the
   <span class="mac">&brandShortName;</span> <span class="noMac">Edit</span>
-  menu, choose Preferences, and then click the Offline &amp; Disk Space
-  category. You can choose to have &brandShortName; Mail &amp; Newsgroups
-  prompt you to download messages when going offline, to automatically
-  download messages, or to not download any messages.</p>
+  menu, choose Preferences, and then under the Mail &amp; Newsgroups category,
+  select Network &amp; Storage (if no subcategories are visible, double-click
+  Mail &amp; Newsgroups to expand the list). You can choose to have
+  &brandShortName; Mail &amp; Newsgroups prompt you to download messages when
+  going offline, to automatically download messages, or to not download any
+  messages.</p>
 
 <p>To reconnect and synchronize your messages:</p>
 
@@ -3454,7 +3906,7 @@ to filter unwanted mail, and how phishing detection works.</p>
 <p><strong>Tip</strong>: To set &brandShortName; Mail &amp; Newsgroups&apos;
   behavior when going online, open the
   <span class="mac">&brandShortName;</span> <span class="noMac">Edit</span>
-  menu, choose Preferences, and then choose the Offline &amp; Disk Space
+  menu, choose Preferences, and then choose the Synchronization &amp; Storage
   category. You can choose to have &brandShortName; Mail &amp; Newsgroups
   prompt you to send unsent messages, to automatically send unsent messages,
   or to not send unsent messages.</p>
@@ -3486,7 +3938,7 @@ to filter unwanted mail, and how phishing detection works.</p>
     <li><a href="#server_settings">Server Settings</a></li>
     <li><a href="#copies_and_folders">Copies &amp; Folders</a></li>
     <li><a href="#addressing">Composition &amp; Addressing</a></li>
-    <li><a href="#offline_and_disk_space">Offline &amp; Disk Space</a></li>
+    <li><a href="#synchronization_and_storage">Synchronization &amp; Storage</a></li>
     <li><a href="#junk_settings">Junk Settings</a></li>
     <li><a href="#return_receipts">Return Receipts</a></li>
     <li><a href="#security">Security</a></li>
@@ -3499,7 +3951,7 @@ to filter unwanted mail, and how phishing detection works.</p>
   Settings</h2>
 
 <p>This section describes how to view or change your Account Settings, such as
-  your user name, reply-to address, and signature file. If you are not already
+  your user name, reply-to address, and signature. If you are not already
   viewing the Account Settings, begin from the Mail window:</p>
 
 <ol>
@@ -3511,15 +3963,51 @@ to filter unwanted mail, and how phishing detection works.</p>
 
 <ul>
   <li><strong>Account Name</strong>: The name for this account.</li>
-  <li><strong>Identity</strong>: Stores your name, email address, reply-to
-    address (only if different from your email address), and organization
-    (optional).</li>
-  <li><strong>Attach this signature</strong>: Lets you choose the signature
-    file (in text or HTML format) you want to attach to your outgoing messages.
-    Click Choose to locate the signature file (optional).</li>
-  <li><strong>Attach my vCard to messages</strong>: Lets you choose if your
-    vCard should be attached to your outgoing messages. Click Edit Card to edit
-    the card information (optional).</li>
+  <li>For any type of account but Blogs &amp; News Feeds:
+    <ul>
+      <li><strong>Identity</strong>: Stores your name, email address, reply-to
+        address (only if different from your email address), and organization
+        (optional).</li>
+      <li><strong>Signature text</strong>: If you want to attach a signature to
+        all outgoing messages, type its text into this box. Check <strong>Use
+        HTML</strong> to enable HTML code, e.g., &lt;b&gt;bold&lt;/b&gt;
+        (optional).</li>
+      <li><strong>Attach the signature from a file instead</strong>: Lets you
+        choose to attach the signature from a file (in text, HTML, or image
+        format) rather than entering its text. Checking this option overrides
+        any text entered into the signature box. Click Choose to locate the
+        signature file (optional).
+
+        <p>More signature options are located in
+          <a href="#addressing">Composition &amp; Addressing</a>.</p>
+      </li>
+      <li><strong>Attach my vCard to messages</strong>: Lets you choose if your
+        vCard should be attached to your outgoing messages. Click Edit Card to
+        edit the card information (optional).</li>
+    </ul>
+  </li>
+  <li>For Blogs &amp; News Feeds accounts:
+    <ul>
+      <li><strong>Check for new articles at startup</strong>: Select this
+        checkbox if you want to check this account automatically for new blogs
+        &amp; news messages whenever you start Mail &amp; Newsgroups.</li>
+      <li><strong>Check for new articles every [__] minutes</strong>: Select
+        this checkbox if you want to specify the number of minutes between feed
+        checks. You can also check for new blogs &amp; news messages at any time
+        by clicking Get Msgs in the Mail window.</li>
+      <li><strong>By default, show the article summary instead of loading the
+        web page</strong>: Select this checkbox if you want &brandShortName;
+        to display a brief summary of the article (bundled inside the feed)
+        instead of loading the full web page. Showing the article summary is
+        slightly faster than the full web page, but you may miss part of the
+        article content.</li>
+      <li><strong>Empty Trash on Exit</strong>: Empties the Trash folder
+        whenever you quit Mail &amp; Newsgroups.</li>
+      <li><strong>Manage Subscriptions...</strong>: Shows the Feed Subscriptions
+        dialog, that allows you to add, edit and remove feeds to this blogs
+        &amp; news feeds account.</li>
+    </ul>
+  </li>
 </ul>
 
 <p>[<a href="#mail_and_newsgroups_account_settings">Return to beginning of
@@ -3611,26 +4099,39 @@ to filter unwanted mail, and how phishing detection works.</p>
   <li><strong>Port</strong>: Unless otherwise instructed to do so by your
     service provider or system administrator, leave this setting
     unchanged.</li>
-  <li><strong>Use secure connection (SSL)</strong>: Choose this setting if your
-    mail server is configured to send and receive encrypted messages. If you
-    are unsure, contact your service provider or system administrator.</li>
+  <li><strong>Connection security</strong>: Choose one of the available options
+    to establish a <a href="glossary.xhtml#secure_connection">secure
+    connection</a> to your incoming IMAP server. You can choose one of these:
+    <ul>
+      <li><strong>None</strong>: &brandShortName; will use a plain connection,
+        without encryption at all. You should choose this <strong>only</strong>
+        if your incoming server doesn&apos;t support any type of security.</li>
+      <li><strong>STARTTLS</strong>: Require an encrypted connection, use the
+        <a href="glossary.xhtml#starttls">STARTTLS</a> method. This mechanism
+        will usually run on the standard IMAP port 143.</li>
+      <li><strong>SSL/TLS</strong>: Require an encrypted connection, use the
+        IMAP-over-SSL method. The default port for this is 993.
+      </li>
+    </ul>
+  </li>
   <li><strong>Use secure authentication</strong>: Choose this setting if you
     want to use secure mechanisms for logging in like CRAM-MD5. If you are
     unsure if your service supports this, contact your service provider or
     system administrator.</li>
-  <li><strong>Check for new mail at startup</strong>: Choose this setting if
-    you want Mail &amp; Newsgroups to automatically check this account for new
-    messages whenever you start Mail &amp; Newsgroups.</li>
+  <li><strong>Check for new messages at startup</strong>: Choose this setting
+    if you want Mail &amp; Newsgroups to automatically check this account for
+    new messages whenever you start Mail &amp; Newsgroups.</li>
   <li><strong>Check for new messages every [__] minutes</strong>: Choose this
     setting to automatically check for new messages, and then specify the
     number of minutes between mail checks. If you do not select this setting,
     you can check for new messages at any time by clicking Get Msgs in the Mail
     window.</li>
   <li id="when_i_delete_a_message"><strong>When I delete a message</strong>:
-    Choose the behavior you want for deleted messages. <q>Move it to the Trash
-    folder</q> is recommended unless you are instructed to use a different
-    setting by your system administrator or service provider. Messages marked
-    as deleted are removed only when you compact folders.</li>
+    Choose the behavior you want for deleted messages. <q>Move it to this
+    folder</q>, where you can choose the specific folder to use, is recommended
+    unless you are instructed to use a different setting by your system
+    administrator or service provider. Messages marked as deleted are removed
+    only when you compact folders.</li>
   <li><strong>Clean up (Expunge) Inbox on Exit</strong>: Removes deleted
     messages from the Inbox when you exit Mail &amp; Newsgroups. Choose this
     if you chose to mark messages as deleted.</li>
@@ -3703,18 +4204,30 @@ to filter unwanted mail, and how phishing detection works.</p>
   <li><strong>Port</strong>: Unless otherwise instructed to do so by your
     service provider or system administrator, leave this setting
     unchanged.</li>
-  <li><strong>Use secure connection (SSL)</strong>: Choose this setting if your
-    mail server is configured to send and receive encrypted messages. If you
-    are unsure, contact your service provider or system administrator.</li>
+  <li><strong>Connection security</strong>: Choose one of the available options
+    to establish a <a href="glossary.xhtml#secure_connection">secure
+    connection</a> to your incoming POP server. You can choose one of these:
+    <ul>
+      <li><strong>None</strong>: &brandShortName; will use a plain connection,
+        without encryption at all. You should choose this <strong>only</strong>
+        if your incoming server doesn&apos;t support any type of security.</li>
+      <li><strong>STARTTLS</strong>: Require an encrypted connection, use the
+        <a href="glossary.xhtml#starttls">STARTTLS</a> method. This mechanism
+        will usually run on the standard POP port 110.</li>
+      <li><strong>SSL/TLS</strong>: Require an encrypted connection, use the
+        POP-over-SSL method. The default port for this is 995.
+      </li>
+    </ul>
+  </li>
   <li><strong>Use secure authentication</strong>: Choose this setting if you
     want to use secure mechanisms for logging in like CRAM-MD5 and APOP. If you
     are unsure if your server supports this, contact your service provider or
     system administrator.</li>
-  <li><strong>Check for new mail at startup</strong>: Choose this setting if
-    you want Mail &amp; Newsgroups to automatically check this account for new
-    messages whenever you start Mail &amp; Newsgroups. For POP accounts, Mail
-    &amp; Newsgroups doesn&apos;t download the new messages until you click Get
-    Msgs on the Mail toolbar.</li>
+  <li><strong>Check for new messages at startup</strong>: Choose this setting
+    if you want Mail &amp; Newsgroups to automatically check this account for
+    new messages whenever you start Mail &amp; Newsgroups. For POP accounts,
+    Mail &amp; Newsgroups doesn&apos;t download the new messages until you
+    click Get Msgs on the Mail toolbar.</li>
   <li><strong>Check for new messages every [__] minutes</strong>: Choose this
     setting to automatically check for new messages, and then specify the
     number of minutes between mail checks. If you do not select this setting,
@@ -3735,15 +4248,15 @@ to filter unwanted mail, and how phishing detection works.</p>
       <li><strong>For at most [__] days</strong>: Choose this setting to remove
         messages from the server automatically after the number of days you
         enter here.</li>
-      <li><strong>Until I delete or move them from Inbox</strong>: Choose this
-        setting to remove messages from the server once you delete them or move
-        them from your Inbox into another folder.</li>
+      <li><strong>Until I delete them</strong>: Choose this setting to remove
+        messages from the server once you delete them.</li>
     </ul>
   </li>
   <li><strong>Empty Trash on Exit</strong>: Choose this setting to empty the
     Trash folder whenever you quit Mail &amp; Newsgroups.</li>
-  <li><strong>Advanced</strong>: Lets you choose a different outgoing server
-    (SMTP) for outgoing messages from this account.</li>
+  <li><strong>Advanced</strong>: Lets you choose where new messages should be
+    put. You can also set the server to be queried when checking for new
+    messages.</li>
   <li><strong>Local directory</strong>: The location on your hard disk where
     mail for this account is stored.</li>
 </ul>
@@ -3774,9 +4287,13 @@ to filter unwanted mail, and how phishing detection works.</p>
   <li><strong>Port</strong>: Unless otherwise instructed to do so by your
     service provider or system administrator, leave this setting
     unchanged.</li>
-  <li><strong>Use secure connection (SSL)</strong>: Choose this setting if your
-    news server is configured to send and receive encrypted messages. If you
-    are unsure, contact your service provider or system administrator.</li>
+  <li><strong>Connection security</strong>: Choose &quot;SSL/TLS&quot; if your
+    news server is configured to send and receive encrypted messages, or
+    &quot;None&quot; if it doesn&apos;t support it. If you are unsure, contact
+    your service provider or system administrator.</li>
+  <li><strong>Check for new messages at startup</strong>: Choose this setting
+    to automatically check for new messages when you first open the Mail &amp;
+    Newsgroup component of &brandShortName;.</li>
   <li><strong>Check for new messages every [__] minutes</strong>: Choose this
     setting to automatically check for new messages, and then specify the
     number of minutes between mail checks. If you do not select this setting,
@@ -3791,14 +4308,18 @@ to filter unwanted mail, and how phishing detection works.</p>
     are logged in. Choose this setting to force &brandShortName; to
     authenticate each time it connects to this server even when the server
     doesn&apos;t ask (also called <q>Pushed Authentication</q>).</li>
-  <li><strong>Advanced</strong>: Lets you choose a different outgoing server
-    (SMTP) for outgoing messages from this account.</li>
   <li><strong>newsrc file</strong>: The path to the newsrc file is mostly
     displayed for your information. The newsrc file stores information about
     the newsgroups to which you are subscribed and the messages you have read
     in each newsgroup.</li>
   <li><strong>Local directory</strong>: The location on your hard disk where
     mail for this account is stored.</li>
+  <li><strong>Default Character Encoding</strong>: Click this drop-down list to
+    select the character encoding you want Mail &amp; Newsgroups to use as the
+    default for incoming newsgroup messages. This is recommended if it&apos;s
+    likely you might receive messages in which the character encoding (MIME
+    charset) is not indicated, such as when reading messages in international
+    newsgroups.</li>
 </ul>
 
 <p>[<a href="#mail_and_newsgroups_account_settings">Return to beginning of
@@ -3858,8 +4379,18 @@ to filter unwanted mail, and how phishing detection works.</p>
 <h2 id="addressing">Mail &amp; Newsgroups Account Settings - Composition &amp;
   Addressing</h2>
 
-<p>You use Composition settings to choose how to format text and to handle
-  replies.</p>
+<p>You use Composition settings to choose how to format text, handle replies,
+  and how a signature you defined is included.</p>
+
+<p>If you are not already viewing the Composition settings, begin from the Mail
+  window:</p>
+
+<ol>
+  <li>Open the Edit menu and choose Mail &amp; Newsgroups Account Settings. You
+    see the Mail &amp; Newsgroups Account Settings dialog box.</li>
+  <li>Select the account and click the Composition &amp; Addressing
+    category.</li>
+</ol>
 
 <ul>
   <li><strong>Compose messages in HTML format</strong>: Use the HTML editor as
@@ -3880,17 +4411,30 @@ to filter unwanted mail, and how phishing detection works.</p>
     <ul>
       <li><strong>and place my signature</strong>: This drop-down list lets you
         choose where you want your signature to be placed. It&apos;s only
-        selectable if you decided to <a href="#account_settings">attach a
+        applicable if you decided to <a href="#account_settings">attach a
         signature</a> and to place the cursor above the quoted text.</li>
     </ul>
   </li>
 </ul>
 
+<ul>
+  <li><strong>Include signature for replies</strong>: If you have created a
+    signature, select this option to include it in your reply to a message.
+    The signature is added according to your settings for quote and signature
+    placement.</li>
+  <li><strong>Include signature for forwards</strong>: If you have created a
+    signature, select this option to include it when you forward a message.
+    The signature is placed according to your reply settings when
+    <a href="mailnews_preferences.xhtml#composition">forwarding inline</a>.</li>
+</ul>
+
 <p>You use Addressing settings to override the global LDAP server settings
-  specified for all <a href="#addressing_preferences">address books</a> in the
-  Preferences dialog box. LDAP server settings affect the behavior of
-  <a href="#address_autocompletion">address autocompletion</a>, and you can
-  change these settings for each account if necessary.</p>
+  specified for all <a
+  href="mailnews_preferences.xhtml#addressing_preferences">address books</a> in
+  the Preferences dialog box. LDAP server settings affect the behavior of
+  <a href="mailnews_preferences.xhtml#address_autocompletion">address
+  autocompletion</a>, and you can change these settings for each account if
+  necessary.</p>
 
 <p>Address autocompletion uses your address books to find matching entries when
   you type email addresses in the addressing area of the Compose window.</p>
@@ -3928,63 +4472,80 @@ to filter unwanted mail, and how phishing detection works.</p>
 <p>[<a href="#mail_and_newsgroups_account_settings">Return to beginning of
   section</a>]</p>
 
-<h2 id="offline_and_disk_space">Mail &amp; Newsgroups Account Settings -
-  Offline &amp; Disk Space</h2>
+<h2 id="synchronization_and_storage">Mail &amp; Newsgroups Account Settings -
+  Synchronization &amp; Storage</h2>
 
-<p>Offline &amp; Disk Space settings let you conserve disk space or set up an
-  account so that you can use it while offline (disconnected from the
+<p>Synchronization &amp; Storage settings let you conserve disk space or set
+  up an account so that you can use it while offline (disconnected from the
   Internet). The settings available depend on the mail server type (IMAP, POP,
   or News) associated with the account.</p>
 
 <div class="contentsBox">
   <ul>
-    <li><a href="#offline_and_disk_space_settings_imap">Offline and Disk Space
-      Settings (IMAP)</a></li>
-    <li><a href="#disk_space_settings">Disk Space Settings (POP)</a></li>
-    <li><a href="#offline_and_disk_space_settings_nntp">Offline and Disk Space
-      Settings (News)</a></li>
+    <li><a href="#synchronization_and_storage_settings_imap">Synchronization
+      &amp; Storage Settings (IMAP)</a></li>
+    <li><a href="#disk_space_settings_pop">Disk Space Settings (POP)</a></li>
+    <li><a href="#disk_space_settings_blogs">Disk Space Settings
+      (Blogs)</a></li>
+    <li><a href="#synchronization_and_storage_settings_nntp">Synchronization
+      &amp; Storage Settings (News)</a></li>
+    <li><a href="#retention_policy">Common Retention Policy Settings</a></li>
   </ul>
 </div>
 
 <p>[<a href="#mail_and_newsgroups_account_settings">Return to beginning of
   section</a>]</p>
 
-<h3 id="offline_and_disk_space_settings_imap">Offline and Disk Space Settings
-  (IMAP)</h3>
+<h3 id="synchronization_and_storage_settings_imap">Synchronization &amp;
+  Storage Settings (IMAP)</h3>
 
-<p>If you are not already viewing the offline and disk space preferences for an
-  IMAP account, begin from the Mail window:</p>
+<p>If you are not already viewing the synchronization and storage preferences
+  for an IMAP account, begin from the Mail window:</p>
 
 <ol>
   <li>Open the Edit menu and choose Mail &amp; Newsgroups Account Settings. You
     see the Mail &amp; Newsgroups Account Settings dialog box.</li>
-  <li>Choose the Offline &amp; Disk Space category for an IMAP account.</li>
+  <li>Choose the Synchronization &amp; Storage category for an IMAP
+    account.</li>
 </ol>
 
 <ul>
-  <li><strong>Make the messages in my Inbox available when I am working
-    offline</strong>: Select this option so that messages in your Inbox will be
-    available when you are working offline.</li>
-  <li><strong>When I create new folders, select them for offline use</strong>:
-    Select this option so that new folders you create are automatically
-    selected for offline use. If left unchecked, new folders won&apos;t be
-    automatically selected for offline use. You can manually select folders for
-    offline by choosing the Download/Sync Now command (available from the File
-    menu, under Offline). Click the Select button in the Download/Sync Messages
-    dialog box to select the folders.</li>
-  <li><strong>Select folders for offline use</strong>: Click to select the
+  <li><strong>Keep messages for this account on this computer</strong>: Select
+    this option so that messages in your folders will be available when you
+    are working offline. This setting also applies to any new folders
+    created or subscribed to.</li>
+  <li><strong>Advanced</strong>: Click to open a dialog to select the
     folders that you want to make available for offline use. See
     <a href="#selecting_items_for_offline_viewing">Selecting Items for Offline
-    Viewing</a> for more information.</li>
-  <li><strong>Messages larger than [__] KB</strong>: Select this option to
-    conserve disk space by preventing large messages from being downloaded.
-    Enter the maximum size for downloaded messages.</li>
+    Viewing</a> for more information.
+
+    <p><strong>Note</strong>: While the default setting can be overridden for
+      an individual folder, those per-folder settings are <em>removed</em>
+      whenever the <q>Keep messages for this account</q> box is toggled.</p>
+  </li>
+  <li><strong>Synchronize all messages locally regardless of age</strong>:
+    When synchronization is enabled for an account or a folder, <em>all</em>
+    messages are downloaded and local copies of them kept on disk, unless
+    a size limit is specified.</li>
+  <li><strong>Synchronize the most recent [__] [days]</strong>: Only copies of
+    messages younger than the specified number of days (weeks, months, years)
+    are kept locally for synchronization, after that they are removed from the
+    offline storage. This does <em>not</em> affect the originals on the server,
+    only the local copies are removed if the given age is reached.</li>
+  <li><strong>Don't download messages larger than [__] KB</strong>: Select this
+    option to conserve disk space by preventing large messages from being
+    downloaded. Enter the maximum size for downloaded messages. Changing
+    this option does <em>not</em> affect messages that have already been
+    downloaded.</li>
+  <li>The <a href="#retention_policy">retention settings</a> can be used to
+    free up space by deleting old messages. Note that these settings apply
+    to <em>both</em> local copies and their originals on the server.</li>
 </ul>
 
 <p>[<a href="#mail_and_newsgroups_account_settings">Return to beginning of
   section</a>]</p>
 
-<h3 id="disk_space_settings">Disk Space Settings (POP)</h3>
+<h3 id="disk_space_settings_pop">Disk Space Settings (POP)</h3>
 
 <p>Messages from POP accounts are fully downloaded to your local machine unless
   you have enabled the <q>Fetch headers only</q> setting. This section
@@ -4005,13 +4566,58 @@ to filter unwanted mail, and how phishing detection works.</p>
   <li><strong>Messages larger than [__] KB</strong>: Select this option to
     conserve disk space by preventing large messages from being downloaded.
     Enter the maximum size for downloaded messages.</li>
+  <li>The <a href="#retention_policy">retention settings</a> can be used to
+    free up space by deleting old messages. Note that these settings apply
+    to <em>both</em> local copies and their originals on the server.
+
+    <p><strong>Note</strong>: If your POP account is set up to use a Global
+      Inbox, the retention period settings of the target Inbox apply.</p>
+  </li>
 </ul>
 
 <p>[<a href="#mail_and_newsgroups_account_settings">Return to beginning of
   section</a>]</p>
 
-<h3 id="offline_and_disk_space_settings_nntp">Offline and Disk Space Settings
-  (News)</h3>
+<h3 id="disk_space_settings_blogs">Disk Space Settings (Blogs)</h3>
+
+<p>Messages from blogs &amp; news feeds accounts are only stored in your local
+  machine in their short form, ie. the article summary, regardless of whether
+  your settings are to show the full articles by default. Still, there are
+  options to control how much disk space is used by your blogs &amp; news feeds
+  account. If you are not already viewing the Disk Space preferences for a
+  blogs &amp; news feeds account, follow these steps:</p>
+
+<p>Begin from the Mail window.</p>
+
+<ol>
+  <li>Open the Edit menu, choose Mail &amp; Newsgroups Account Settings. You
+    see the Mail &amp; Newsgroups Account Settings dialog box.</li>
+  <li>Click the Disk Space category for a blogs &amp; news feeds account.</li>
+</ol>
+
+<p>There, you can specify which messages should be deleted to recover disk
+  space:</p>
+
+<ul>
+  <li><strong>Don&apos;t delete any messages</strong>: Select this option to
+    keep all messages forever. Keep in mind that, if you are subscribed to very
+    high-traffic blogs, this will increase the occupied disk space steadily and
+    could eventually fill up your hard disk.</li>
+  <li><strong>Delete all but the most recent [____] messages</strong>: Select this
+    option to keep in each feed only a maximum number of messages. Enter the
+    maximum number of messages (being 1,000 by default).</li>
+  <li><strong>Delete messages more than [__] days old</strong>: Select this
+    option to keep in each feed only messages that are not older than the number
+    of days you enter here (being 30 days by default).</li>
+  <li><strong>Always keep flagged messages</strong>: Check this option to
+    save (not delete) flagged messages, regardless of its age.</li>
+</ul>
+
+<p>[<a href="#mail_and_newsgroups_account_settings">Return to beginning of
+  section</a>]</p>
+
+<h3 id="synchronization_and_storage_settings_nntp">Synchronization &amp;
+  Storage Settings (News)</h3>
 
 <p>If you are not already viewing the offline and disk space settings for a
   News account, begin from the Mail window:</p>
@@ -4019,7 +4625,7 @@ to filter unwanted mail, and how phishing detection works.</p>
 <ol>
   <li>Open the Edit menu, and choose Mail &amp; Newsgroups Account Settings.
     You see the Mail &amp; Newsgroups Account Settings dialog box.</li>
-  <li>Choose the Offline &amp; Disk Space category for a News account.</li>
+  <li>Choose the Synchronization &amp; Storage category for a News account.</li>
 </ol>
 
 <ul>
@@ -4043,31 +4649,45 @@ to filter unwanted mail, and how phishing detection works.</p>
     here.</li>
 </ul>
 
-<p>&brandShortName; can automatically delete newsgroup messages for you. You
+<p>[<a href="#mail_and_newsgroups_account_settings">Return to beginning of
+  section</a>]</p>
+
+<h3 id="retention_policy">Common Retention Policy Settings</h3>
+
+<p>&brandShortName; can automatically delete old messages for you. You
   can configure this process with the options listed below
-  <strong>Keep</strong>:</p>
+  <strong>To recover disk space, old messages can be permanently
+  deleted</strong>:</p>
 
 <ul>
-  <li><strong>All messages</strong>: Keep all messages. Never delete messages 
-    automatically.</li>
-  <li><strong>The newest [__] messages</strong>: Enter the number of messages
-    to keep. With this setting only messages older than these messages are
-    deleted.</li>
-  <li><strong>Messages which have arrived within the last [__] days</strong>:
+  <li><strong>Don't delete any messages</strong>: Keep all messages. Never
+    delete messages automatically based on their age.</li>
+  <li><strong>Delete all but the most recent [__] messages</strong>: Enter the
+    number of messages to keep. With this setting only messages older than these
+    messages are deleted.</li>
+  <li><strong>Delete messages more than [__] days old </strong>:
     Keep all messages that arrived within the given number of days.</li>
 </ul>
 
-<p>With the last two settings you can further constrain the three options to
+<p>With the following settings you can further constrain the three options to
   delete messages automatically. This is especially useful in combination with
   the option to keep all messages.</p> 
 
 <ul>
-  <li><strong>Only unread messages</strong>: Select this option to deny
-    &brandShortName; the deletion of unread messages.</li>
-  <li><strong>Only message bodies less than [__] days old</strong>: Select this
-    option to deny &brandShortName; the deletion of messages that are newer
-    than the number of days you specify here.</li>
+  <li><strong>Always keep flagged messages</strong>: Use this option to deny
+    &brandShortName; to delete any messages you have flagged.</li>
+  <li><strong>Remove bodies from message more than [__] days old</strong>:
+    Select this option to retain all headers but to delete message bodies that
+    are older than the number of days you specify here (news accounts only).
+    Any option to delete the entire message based on age still applies.</li>
 </ul>
+
+<p>This policy can be overridden for an individual folder in the Folder
+  Properties, Retention Policy tab.</p>
+
+<p><strong>Note:</strong> If message synchronization is enabled (for IMAP), or
+  messages are left on the server (for POP accounts), the settings apply to
+  <em>both</em> local copies and their originals on the server.</p>
 
 <p>[<a href="#mail_and_newsgroups_account_settings">Return to beginning of
   section</a>]</p>
@@ -4086,8 +4706,8 @@ to filter unwanted mail, and how phishing detection works.</p>
 
 <p>You use the Junk Settings panel to define your account-specific settings
   for the adaptive mail filter. Global junk settings are changed under
-  <a href="#global_junk_settings">Mail &amp; Newsgroups Preferences -
-  Junk Mail</a>.</p>
+  <a href="mailnews_preferences.xhtml#junk_and_suspect_preferences">Mail &amp;
+  Newsgroups Preferences - Junk &amp; Suspect Mail</a>.</p>
   
 <ul>  
   <li><strong>Enable adaptive junk mail controls for this account</strong>:
@@ -4136,13 +4756,14 @@ to filter unwanted mail, and how phishing detection works.</p>
   outgoing messages from this mail account. You also use the Return Receipt
   settings to specify how to manage requests you receive for return receipts.
   These settings override global return receipt preferences you specified using
-  <a href="#return_receipts_preferences">Mail &amp; Newsgroups Preferences -
-  Return Receipts</a>.</p>
+  <a href="mailnews_preferences.xhtml#return_receipts_preferences">Mail &amp;
+  Newsgroups Preferences - Return Receipts</a>.</p>
 
 <ul>
   <li><strong>Use my global return receipt preferences for this
     account</strong>: By default, this account uses the return receipt
-    preferences specified by <a href="#return_receipts_preferences">Mail &amp;
+    preferences specified by <a
+    href="mailnews_preferences.xhtml#return_receipts_preferences">Mail &amp;
     Newsgroups Preferences - Return Receipts</a>.</li>
   <li><strong>Customize return receipts for this account</strong>: Lets you
     change the return receipt preferences for this account.
@@ -4345,635 +4966,26 @@ to filter unwanted mail, and how phishing detection works.</p>
     unsure if your service supports this, contact your service provider or
     system administrator.</li>
   <li><strong>Use secure connection</strong>: There are two methods for
-    establishing a secure connection to your outgoing server. Pick the one your
-    server supports (if you make a choice for which your server is not configured,
-    you will get an error message when sending mail).
+    establishing a <a href="glossary.xhtml#secure_connection">secure
+    connection</a> to your outgoing server. Pick the one your server supports
+    (if you make a choice for which your server is not configured, you will
+    get an error message when sending mail).
     <ul>
       <li><strong>STARTTLS, if available</strong>: &brandShortName; will try to
-        negotiate encryption using the STARTTLS method. If the server doesn&apos;t
-        support it, an unencrypted connection is used.</li>
-      <li><strong>STARTTLS</strong>: Require an encrypted connection, use the STARTTLS
-        method. This mechanism will mostly run on the standard SMTP port 25.</li>
-      <li><strong>SMTP-over-SSL</strong>: Require an encrypted connection, use the
-        SMTP-over-SSL (also known as SMTPS) method. The default port for this is 465.
-     </li>
+        negotiate encryption using the
+        <a href="glossary.xhtml#starttls">STARTTLS</a> method. If the server
+        doesn&apos;t support it, an unencrypted connection is used.</li>
+      <li><strong>STARTTLS</strong>: Require an encrypted connection, use the
+        <a href="glossary.xhtml#starttls">STARTTLS</a> method. This mechanism
+        will usually run on the standard SMTP port 25.</li>
+      <li><strong>SSL/TLS</strong>: Require an encrypted connection, use the
+        SMTP-over-SSL (also known as SMTPS) method. The default port for this
+        is 465.</li>
     </ul>
   </li>
 </ul>
 
 <p>[<a href="#mail_and_newsgroups_account_settings">Return to beginning of
   section</a>]</p>
-
-<h1 id="mail_and_newsgroup_preferences">Mail &amp; Newsgroup Preferences</h1>
-
-<p>The sections listed below describe the Mail &amp; Newsgroups preferences
-  that apply to all your mail and newsgroup accounts. To see these
-  preferences:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences.</li>
-  <li>Double-click Mail &amp; Newsgroups to expand the list.</li>
-</ol>
-
-<div class="contentsBox">In this section:
-  <ul>
-    <li><a href="#mail_and_newsgroups">Mail &amp; Newsgroups</a></li>
-    <li><a href="#message_display">Message Display</a></li>
-    <li><a href="#notifications">Notifications</a></li>
-    <li><a href="#composition">Composition</a></li>
-    <li><a href="#send_format">Send Format</a></li>
-    <li><a href="#addressing_preferences">Addressing</a></li>
-    <li><a href="#global_junk_settings">Junk Mail</a></li>
-    <li><a href="#tags">Tags</a></li>
-    <li><a href="#return_receipts_preferences">Return Receipts</a></li>
-    <li><a href="#character_encoding">Character Encoding</a></li>
-    <li><a href="#offline_and_disk_space_preferences">Offline &amp; Disk Space
-      Preferences</a></li>
-  </ul>
-</div>
-
-<h2 id="mail_and_newsgroups">Mail &amp; Newsgroups Preferences - Mail &amp;
-  Newsgroups</h2>
-
-<p>This section describes the main Mail &amp; Newsgroups preferences. If you
-  are not already viewing the Mail &amp; Newsgroups main preferences, follow
-  these steps:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences. You see the
-    Preferences dialog box.</li>
-  <li>Click the Mail &amp; Newsgroups category.</li>
-</ol>
-
-<ul>
-  <li><strong>Confirm when moving folders to the Trash</strong>: Choose to
-    allow Mail &amp; Newsgroups to prompt you before deleting folders.</li>
-  <li class="win"><strong>Use &brandShortName; Mail as the default mail
-    application</strong>: Select &brandShortName; Mail &amp; Newsgroups as the
-    default mail application for Windows and from within other applications
-    such as Microsoft Word.
-
-    <p><strong>Note</strong>: Setting &brandShortName; Mail &amp; Newsgroups as
-      the default mail application may disable another mail application. To
-      restore the other mail application as the default, deselect this
-      option.</p>
-  </li>
-  <li><strong>Remember the last selected message</strong>: Choose this option
-    if you want &brandShortName; to select the message you had selected last
-    before leaving a folder when you reenter a folder.</li>
-  <li><strong>Preserve threading when sorting messages</strong>: Select this
-    option if you want &brandShortName; to preserve the threaded message
-    grouping <a href="#sorting_and_threading_messages">when sorting
-    messages</a>. If it is not selected, &brandShortName; automatically
-    displays the messages unthreaded when you sort them by clicking on the
-    column headers.</li>
-  <li><strong>When Mail launches, show the Start Page in the message
-    area</strong>: Select this to enable the Start Page. The Start Page
-    appears in the message area when you first open &brandShortName; Mail &amp;
-    Newsgroups. This page is the default page, but you can enter a different
-    web page or URL of your choice. To disable the Start Page, deselect this
-    option. Click Restore Default to return to the original page provided by
-    &brandShortName;.</li>
-</ul>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-<h2 id="message_display">Mail &amp; Newsgroups Preferences - Message
-  Display</h2>
-
-<p>Message Display preferences allow you to choose how messages are
-  displayed (for example, font style and color) in all accounts. If you are not
-  already viewing the Message Display settings, follow these steps:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences. You see the
-    Preferences dialog box.</li>
-  <li>Under the Mail &amp; Newsgroups category, click Message Display. (If no
-    subcategories are visible, double-click Mail &amp; Newsgroups to expand
-    the list.)</li>
-</ol>
-
-<ul>
-  <li><strong>When opening messages, display them in</strong>: Here you can
-    choose if you want to reuse a message window for the next mail or if you
-    want to open a new one for each.</li>
-  <li><strong>Block images and other content from remote sources</strong>:
-    Select this checkbox if you do not want to display remote images and other
-    content in received messages, except from senders in your address books
-    whom you have allowed. (This checkbox is selected by default.)</li>
-  <li><strong>Wait [__] seconds before marking a message as read</strong>:
-    Choose this option if you do not want a message to be marked as read when
-    you are only taking a brief look at it. Enter the number of seconds you
-    want a message to be displayed before it gets marked as read automatically.
-
-    <p><strong>Tip</strong>: If you do not want Mail &amp; Newsgroups to mark
-      your messages as read automatically at all, you can select this option
-      and enter a very large number of seconds.</p>
-  </li>
-  <li><strong>Plain Text Messages</strong>: Select the font you prefer for
-    viewing plain-text messages: fixed width or variable width. Choosing a font
-    style, size, and color for quoted plain-text messages can help you more
-    easily distinguish quoted text (usually a message that&apos;s been
-    forwarded to you or by you).
-    <ul>
-      <li><strong>Wrap text to fit window width</strong>: Select this so that
-        incoming messages are word-wrapped to fit the width of your Mail
-        window.</li>
-      <li><strong>Display emoticons as graphics</strong>: Select this so that
-        when you receive messages that contain emoticons (also called smiley
-        faces) Mail &amp; Newsgroups can convert them to graphics, for example:
-        <table border="1">
-          <tr align="center">
-            <td><strong>This</strong>:</td>
-            <td><strong>Converts to</strong>:</td>
-          </tr>
-          <tr align="center">
-            <td>:-)</td>
-            <td><img src="images/smile.png" alt=""/></td>
-          </tr>
-          <tr align="center">
-            <td>:)</td>
-            <td><img src="images/smile.png" alt=""/></td>
-          </tr>
-          <tr align="center">
-            <td>:-(</td>
-            <td><img src="images/frown.png" alt=""/></td>
-          </tr>
-          <tr align="center">
-            <td>:(</td>
-            <td><img src="images/frown.png" alt=""/></td>
-          </tr>
-          <tr align="center">
-            <td>;-)</td>
-            <td><img src="images/wink.png" alt=""/></td>
-          </tr>
-          <tr align="center">
-            <td>;-p</td>
-            <td><img src="images/sick.png" alt=""/></td>
-          </tr>
-        </table>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-<h2 id="notifications">Mail &amp; Newsgroups Preferences - Notifications</h2>
-
-<p>Notification preferences allow you to select different methods for informing
-  you on arrival of a new message. So you don&apos;t have to always look in the
-  folders.</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences.</li>
-  <li>Under the Mail &amp; Newsgroups category, click Notifications. (If no
-    subcategories are visible, double-click Mail &amp; Newsgroups to expand
-    the list.)</li>
-</ol>
-
-<ul>
-  <li class="win"><strong>Show an alert</strong>: Select this if you want 
-    &brandShortName; Mail &amp; Newsgroups to display a sliding alert above 
-    your system tray in the lower right corner of your screen when new 
-    messages arrive. The sliding alert only appears once when new messages
-    arrive, and won&apos;t appear again until you bring the Mail &amp;
-    Newsgroups window to the front.
-    <table>
-      <tr>
-        <td colspan="2"><img src="images/mail_newmail_alert.png" alt=""/></td>
-      </tr>
-      <tr>
-        <td style="width: 20px;"></td>
-        <td><strong>Sliding new mail alert</strong></td>
-      </tr>
-    </table>
-
-    <p>When the alert appears, clicking the link displayed in the alert will
-      take you to the first folder that has new mail.
-    </p>
-
-    <p>The new message alert will continue to work even after you close the
-      Mail window (as long as another &brandShortName; application is running).
-    </p>
-  </li>
-
-  <li class="win"><strong>Show a tray icon</strong>: Select this if you want
-    &brandShortName; Mail &amp; Newsgroups to display an icon in your system
-    tray (which is usually found in the lower right corner of your screen) when
-    new messages arrive. This icon will stay in the system tray until you have
-    visited one of your folders with new mail or checked for new messages
-    manually.
-    <p style="text-indent: 20px"><img src="images/mail_newmail_trayicon.png"
-      alt=""/>&nbsp;&nbsp;<strong>New mail tray icon</strong></p>
-    <p>When the icon appears, double-clicking it will open the &brandShortName;
-      Mail &amp; Newsgroups main window.</p>
-  </li>
-
-  <li class="mac"><strong>Animate the Dock icon</strong>: Select this if you
-    want Mail &amp; Newsgroups to bounce the &brandShortName; Dock icon when
-    new messages arrive.</li>
-  <li><strong>Play a sound</strong>: Select this if you want &brandShortName; 
-    Mail &amp; Newsgroups to play a sound when new messages arrive. You can
-    choose between the default system sound and a custom sound in WAV format.
-    If you choose the latter, use the Browse button to select the sound file in
-    the file locator. Click on the Preview button to listen to the chosen sound
-    file.
-
-    <p>Once &brandShortName; Mail has been started, the new messages sound will
-      continue to work even after you close the Mail window (as long as another
-      &brandShortName; application is running).</p>
-
-    <p class="win">If no &brandShortName; applications are running, Quick
-      Launch must be enabled in order to play a sound when new messages
-      arrive.</p>
-
-    <p class="win">If any &brandShortName; application is running, then Quick
-      Launch does not need to be enabled in order to play a sound when new
-      messages arrive. For information on using Quick Launch, see
-      <a href="nav_help.xhtml#using_quick_launch">Using Quick Launch</a>.</p>
-  </li>
-</ul>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-<h2 id="composition">Mail &amp; Newsgroups Preferences - Composition</h2>
-
-<p>Composition preferences affect how you create messages (for example,
-  forwarding options and address autocompletion) in all accounts. If you are
-  not already viewing the Composition settings, follow these steps:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences.</li>
-  <li>Under the Mail &amp; Newsgroups category, click Composition. (If no
-    subcategories are visible, double-click Mail &amp; Newsgroups to expand
-    the list.)</li>
-</ol>
-
-<ul>
-  <li><strong>Forward Messages</strong>: Choose how you want forwarded
-    message text to appear: as an attachment or inline (in the body of your
-    message).</li>
-  <li><strong>Automatically save the message every [__] minutes</strong>:
-    Choose this option if you want Mail &amp; Newsgroups to save the message
-    you are currently composing automatically at the given interval. After a
-    computer crash or program failure you can find the latest saved version of
-    the message in your Drafts folder.</li>
-  <li><strong>Confirm when using keyboard shortcut to send message</strong>:
-    Check this option if want to be asked if you&apos;re sure to be ready to
-    send the message when you&apos;re pressing Ctrl+Return in message editor.
-    This may help you avoid accidentally sending the message if you enter the
-    keyboard shortcut by mistake when composing a message.</li>
-  <li><strong>Wrap plain text messages at [__] characters</strong>: Enter a
-    number to set the right margin for text in the message area.</li>
-  <li><strong>Check spelling before sending</strong>: Select this option to
-    have Mail &amp; Newsgroups always check the spelling of your message before
-    you send it.</li>
-  <li><strong>Check spelling as you type</strong>: Select this option to have
-    Mail &amp; Newsgroups always check the spelling of your message as you type
-    it.</li>
-  <li><strong>Language</strong>: Use the drop-down list to select the language
-    you want to use to check the spelling in your messages or to download more
-    dictionaries.</li>
-  <li><strong>Defaults for HTML Messages</strong>: Here you can define what the
-    defaults are for font, size, text and background color if you choose to
-    send mails in HTML format.</li>
-</ul>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-<h2 id="send_format">Mail &amp; Newsgroups Preferences - Send Format</h2>
-
-<p>Send Format preferences allow you to specify how you want to format your
-  outgoing messages. If you are not already viewing the Send Format settings,
-  follow these steps:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences. You see the
-    Preferences dialog box.</li>
-  <li>Under the Mail &amp; Newsgroups category, click Send Format. (If no
-    subcategories are visible, double-click Mail &amp; Newsgroups to expand
-    the list.)</li>
-</ol>
-
-<ul>
-  <li><strong>Ask me what to do</strong>: This option requires Mail &amp;
-    Newsgroups to prompt you to choose a format before you send the
-    message.</li>
-  <li><strong>Convert the message to plain text</strong>: This option may
-    cause your message to lose formatting such as bold text.</li>
-  <li><strong>Send the message in HTML anyway</strong>: If you select this
-    option, keep in mind that some mail programs may have trouble displaying
-    the message.</li>
-  <li><strong>Send the message in both plain text and HTML</strong>: This
-    option uses more disk space.
-
-    <p>You can always override these preferences for an individual message by
-      using the Options menu in the Mail Compose window.</p>
-  </li>
-  <li><strong>HTML and Plain Text Domains</strong>: Use the Add button to add
-    the domain names that you typically send mail to, if you know which domains
-    can display HTML-formatted mail messages, and which domains can only
-    display plain text.</li>
-</ul>
-
-<p>For example, if you typically send mail to multiple recipients that have the
-  same domain name (for example, your colleagues all have email addresses that
-  end in <q>netscape.net</q>), and you know that this domain name is capable of
-  displaying HTML messages, then you can add the netscape.net domain to the
-  list of HTML Domains so that Mail &amp; Newsgroups will automatically send
-  messages in HTML format to these recipients.</p>
-
-<p>Similarly, if you typically send mail to recipients at a domain that you
-  know can only receive Plain Text messages, you can add that domain name to
-  the list of Plain Text domains, so that Mail &amp; Newsgroups automatically
-  sends messages to that domain in plain-text format.</p>
-
-<p><strong>Note</strong>: If you regularly compose HTML (formatted) mail
-  messages, keep in mind that sometimes not all recipients use mail programs
-  that can display HTML formatting properly. Send Format preferences allow you
-  to specify how you want to format messages that go to recipients who cannot
-  display HTML-formatted mail. You can convert messages to plain text, format
-  them only as HTML, or format them as both HTML and plain text. These
-  preferences apply to all your mail accounts, but only to mail messages and
-  not to newsgroup messages.</p>
-
-<p>Whenever you add a person or address card to your address book, you can
-  specify whether that addressee can receive HTML-formatted messages. However,
-  when this information is unknown, you can set Send Format preferences for how
-  Mail &amp; Newsgroups formats these messages.</p>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-<h2 id="addressing_preferences">Mail &amp; Newsgroups Preferences -
-  Addressing</h2>
-
-<p>Addressing preferences allow you to control the settings for
-  &brandShortName; Mail &amp; Newsgroups address books (for example, email
-  address collection and address autocompletion). If you are not already
-  viewing the Addressing settings, follow these steps:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences. You see the
-    Preferences dialog box.</li>
-  <li>Under the Mail &amp; Newsgroups category, select Addressing. (If no
-    subcategories are visible, double-click Mail &amp; Newsgroups to expand
-    the list.)</li>
-</ol>
-
-<ul>
-  <li><strong>Email Address Collection</strong>: Select this if you want Mail
-    &amp; Newsgroups to automatically collect recipients&apos; email addresses.
-    Use the drop-down list to choose between having the addresses added to your
-    Collected Addresses or your Personal Address Book.</li>
-  <li id="address_autocompletion"><strong>Address Autocompletion</strong>:
-    Address autocompletion allows you to quickly address mail without having to
-    search for names or type names completely. Select from which location Mail
-    &amp; Newsgroups will search for matching addresses: <q>Local Address
-    Books</q> (Personal Address Book, Collected Addresses, or any other local
-    address book) or <q>Directory Server</q> (an available LDAP directory
-    server) or both. If you want Mail &amp; Newsgroups to highlight addresses
-    that do not autocomplete, then select that option.
-
-    <p><strong>Note</strong>: If while addressing mail, multiple email address
-      matches are found, Mail &amp; Newsgroups displays a list of all possible
-      choices.</p>
-
-    <p>If you select Directory Server, choose a directory server from the list.
-      A directory server lets you look up addresses that are not stored in one
-      of your local address books. The directory you select will also be
-      searched for matching certificates when you attempt to send an encrypted
-      message to one or more recipients for whom you don&apos;t have
-      certificates on file.</p>
-
-    <p>See <a href="#adding_and_removing_ldap_directories">Adding and Removing
-      LDAP Directories</a> for information on setting LDAP directory server
-      settings.</p>
-
-    <p><strong>Note</strong>: Directory server settings you enter from the
-      Preferences dialog box apply to all your mail accounts. You can override
-      these settings for individual accounts by specifying different LDAP
-      directory servers or server settings using the Addressing settings for an
-      account in the Mail &amp; Newsgroups Account Settings dialog box. To set
-      different addressing options for a specific account, open the Edit menu
-      and choose Mail &amp; Newsgroups Account Settings.</p>
-  </li>
-</ul>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-<h2 id="global_junk_settings">Mail &amp; Newsgroups Preferences - 
-  Junk Mail</h2>
-
-<p>This section describes how to use the Junk Mail preferences panel. If
-  you are not currently viewing the Junk Mail panel, follow these steps:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences.</li>
-  <li>Under the Mail &amp; Newsgroups category, select Junk Mail. (If no
-    subcategories are visible, double-click Mail &amp; Newsgroups to expand the
-    list.)</li>
-</ol>
-
-<ul>
-  <li><strong>When I manually mark messages as junk</strong>: Choose this to
-    set what you want &brandShortName; to do when you manually mark messages
-    as Junk.
-    <ul>
-      <li><strong>Move them to the account's <q>Junk</q> folder</strong>:
-        Choose this to move manually-marked Junk messages to the Junk folder.
-      </li>
-      <li><strong>Delete them</strong>: Choose this to move manually-marked 
-        Junk messages to the trash folder.</li>
-    </ul>
-  </li>
-  <li><strong>Mark messages determined to be junk as read</strong>: Select this
-    option to mark junk messages as read, so they will not show up as new.</li>
-  <li><strong>Enable junk filter logging</strong>: Select this option to allow
-    logging the history of Junk mail detections. Click the <strong>Show log
-    </strong> button to open a dialog showing this log.</li>
-  <li><strong>Reset training data</strong>: Click this button to clear the
-    training data of the adaptive junk filter. Since this will effectively
-    destroy your personal junk profile, you will be asked for confirmation.
-  </li>
-</ul>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-
-<h2 id="tags">Mail &amp; Newsgroups Preferences - Tags</h2>
-
-<p>This section describes how to use the Tags preferences panel. You use the
-  Tags preferences to define the tag text, colors and order for message tags.
-  If you are not currently viewing the panel, follow these steps:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences.</li>
-  <li>Under the Mail &amp; Newsgroups category, select Tags. (If no options
-    are visible, double-click the Mail &amp; Newsgroups category to expand the
-    list.)</li>
-</ol>
-
-<ul>
-  <li><strong>Customize Tags</strong>: Specifies the tag text and the color
-    for each tag. You can edit or replace the default tag text with your
-    own text (up to 32 characters). To change the tag color, click the color
-    chip next to that tag and select a new color. Use the Move Up and Move Down
-    buttons to order your tags by descending importance. Messages with
-    multiple tags will be colored according to their most important tag.</li>
-  <li><strong>Restore Defaults</strong>: Removes all customized tags and
-    restores just the default tags&apos; text and colors.</li>
-</ul>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-<h2 id="return_receipts_preferences">Mail &amp; Newsgroups Preferences - Return
-  Receipts</h2>
-
-<p>This section describes how to use the Return Receipts preferences panel. If
-  you are not currently viewing the Return Receipts panel, follow these
-  steps:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences.</li>
-  <li>Under the Mail &amp; Newsgroups category, select Return Receipts. (If no
-    subcategories are visible, double-click Mail &amp; Newsgroups to expand the
-    list.)</li>
-</ol>
-
-<p>You use the Return Receipts preferences to define return receipt settings
-  for outgoing messages from all your mail accounts. You also use the Return
-  Receipt preferences to specify how to manage requests you receive for return
-  receipts.</p>
-
-<ul>
-  <li><strong>When sending messages, always request a return receipt</strong>:
-    Enables automatic return receipt requests for all outgoing messages in all
-    your mail accounts.</li>
-  <li><strong>Leave it in my Inbox</strong>: Return receipt confirmation
-    messages are delivered to your Inbox.
-
-    <p><strong>Tip</strong>: Choose this option if you want to use a filter
-      that automatically moves return receipt confirmation messages to a folder
-      you specify. For information on creating and using filters, see
-      <a href="#creating_message_filters">Creating Message Filters</a>.</p>
-  </li>
-  <li><strong>Move it to my Sent Mail folder</strong>: Incoming return receipt
-    confirmation messages are moved to your Sent mail folder.</li>
-  <li><strong>Never send a return receipt</strong>: Choose this option if you
-    do not want to send a return receipt in response to requests for return
-    receipts from others.</li>
-  <li><strong>Allow return receipts for some messages</strong>: Choose how you
-    want to respond to requests you receive for return receipts.</li>
-</ul>
-
-<p>To override these global preferences for individual accounts, see
-  <a href="#return_receipts">Mail &amp; Newsgroups Account Settings - Return
-  Receipts</a>.</p>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-<h2 id="character_encoding">Mail &amp; Newsgroups Preferences - Character
-  Encoding</h2>
-
-<p>Character encoding preferences allow you to choose how messages are encoded
-  when being displayed or created in all accounts. If you are not already
-  viewing the Character Encoding settings, follow these steps:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences. You see the
-    Preferences dialog box.</li>
-  <li>Under the Mail &amp; Newsgroups category, click Character Encoding. (If
-    no subcategories are visible, double-click Mail &amp; Newsgroups to expand
-    the list.)</li>
-</ol>
-
-<ul>
-  <li><strong>Default Character Encoding</strong>: Click this drop-down list to
-    select the character encoding you want Mail &amp; Newsgroups to use as the
-    default for incoming mail and newsgroup messages. This is recommended if
-    it&apos;s likely you might receive messages in which the character encoding
-    (MIME charset) is not indicated, such as when reading messages in
-    international newsgroups.</li>
-  <li><strong>Always use this default character encoding when messages are
-    displayed</strong>: Select this to apply the default character encoding to
-    all messages.
-
-    <p><strong>Tip</strong>: You can later view or change the character
-      encoding for a specific folder. In the Mail window, select a folder from
-      the list of Mail folders. Open the View menu, and choose Character
-      Encoding.</p>
-  </li>
-  <li><strong>For messages that contain 8-bit characters, use &apos;quoted
-    printable&apos; MIME encoding</strong>: Choose to have Mail &amp;
-    Newsgroups use <q>quoted printable</q> MIME encoding when sending regular
-    messages that use an 8-bit character encoding (for example, Latin
-    ISO-8859-3).</li>
-  <li><strong>Default Character Encoding</strong>: Select the character
-    encoding you want Mail &amp; Newsgroups to use as the default for outgoing
-    mail and newsgroup messages. Note that this character encoding is
-    <strong>not</strong> used when replying to a message. Instead, the
-    character encoding of the message being replied to is used by default.
-    Choose <strong>Always use this default character encoding in
-    replies</strong> to use the default character encoding for outgoing
-    messages even when replying.</li>
-</ul>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-<h2 id="offline_and_disk_space_preferences">Mail &amp; Newsgroups Preferences -
-  Offline &amp; Disk Space</h2>
-
-<p>This section describes how to use the Offline &amp; Disk Space preferences
-  panel. If you are not currently viewing the panel, follow these steps:</p>
-
-<ol>
-  <li>Open the <span class="mac">&brandShortName;</span>
-    <span class="noMac">Edit</span> menu and choose Preferences.</li>
-  <li>Under the Mail &amp; Newsgroups category, select Offline &amp; Disk
-    Space. (If no subcategories are visible, double-click Mail &amp;
-    Newsgroups to expand the list.).</li>
-</ol>
-
-<p>The Offline &amp; Disk Space preferences allow you to set preferences for
-  working offline, going online, and disk space.</p>
-
-<ul>
-  <li><strong>Offline</strong>: Select how you want Mail &amp; Newsgroups to
-    handle messages when going online or offline.</li>
-  <li><strong>Disk Space</strong>: Select this to conserve disk space by 
-    automatically compacting message folders when it will save the amount 
-    of disk space you enter.</li>
-</ul>
-
-<p>See <a href="#working_offline">Working Offline</a> for information on
-  working offline.</p>
-
-<p>[<a href="#mail_and_newsgroup_preferences">Return to beginning of
-  section</a>]</p>
-
-<p>&copyright.string;</p>
-
 </body>
 </html>

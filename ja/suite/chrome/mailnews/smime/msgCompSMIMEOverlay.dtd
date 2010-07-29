@@ -3,23 +3,20 @@
 <!ENTITY securityMenu.label "セキュリティ">
 <!ENTITY securityMenu.accesskey "e">
 
-<!ENTITY menu_securityEncryptIfPossible.label "可能ならば暗号化する">
-<!ENTITY menu_securityEncryptIfPossible.accesskey "P">
-
-<!ENTITY menu_securityEncryptRequire.label "このメッセージの暗号化">
+<!ENTITY menu_securityEncryptRequire.label "このメッセージを暗号化する">
 <!ENTITY menu_securityEncryptRequire.accesskey "E">
 
 <!ENTITY menu_securityNoEncryption.label "このメッセージを暗号化しない">
 <!ENTITY menu_securityNoEncryption.accesskey "N">
 
-<!ENTITY menu_securitySign.label "このメッセージへのデジタル署名">
+<!ENTITY menu_securitySign.label "このメッセージにデジタル署名する">
 <!ENTITY menu_securitySign.accesskey "S">
 
 <!ENTITY menu_securityStatus.label "セキュリティ情報を見る">
 <!ENTITY menu_securityStatus.accesskey "I">
 
-<!ENTITY securityButton.label "Security">
-<!ENTITY securityButton.tooltip "セキュリティ設定の表示または変更">
+<!ENTITY securityButton.label "セキュリティ">
+<!ENTITY securityButton.tooltip "セキュリティ設定を表示または変更します">
 
 <!ENTITY menu_viewSecurityStatus.label "メッセージのセキュリティ情報">
 <!ENTITY menu_viewSecurityStatus.accesskey "I">

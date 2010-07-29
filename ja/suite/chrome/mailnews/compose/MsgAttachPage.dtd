@@ -33,8 +33,8 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY caption.label "Attach Web Page">
-<!ENTITY enter.label "Enter the web location (URL), or specify the local file you would like to attach:">
+<!ENTITY caption.label "Web ページの添付">
+<!ENTITY enter.label "メッセージに添付したい URL を指定するか、ローカルファイルを指定してください:">
 <!ENTITY enter.accesskey "E">
-<!ENTITY chooseFile.label "Choose File...">
+<!ENTITY chooseFile.label "ファイルの選択...">
 <!ENTITY chooseFile.accesskey "C">

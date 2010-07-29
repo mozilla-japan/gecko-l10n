@@ -1,8 +1,3 @@
-<!ENTITY urlbar.label "ロケーションバーで&#8984;+Return">
-<!ENTITY urlbar.accesskey "L">
-<!ENTITY middleClick.label "Web ページでリンクを中クリックまたは &#8984;+クリック あるいは &#8984;+Return">
-<!ENTITY middleClick.accesskey "M">
-
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
      preference dialog's <window> node, which specifies the width and height
      in em units of the dialog. Localizers ONLY can increase these widths 
@@ -11,3 +6,9 @@
      XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
      size of this window for en-US. -->
 <!ENTITY  prefWindow.size             "width: 70em; height: 44em;"><!--def"width: 58em; height: 41em;"-->
+
+<!-- pref-tabs.xul -->
+<!ENTITY urlbar.label                 "ロケーションバーで &#8984;+Return">
+<!ENTITY urlbar.accesskey             "L">
+<!ENTITY middleClick.label            "Web ページでリンクを中クリックまたは &#8984;+クリックあるいは &#8984;+Return">
+<!ENTITY middleClick.accesskey        "M">

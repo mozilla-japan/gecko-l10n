@@ -1,8 +1,8 @@
-<!ENTITY matchAll.label     "Match all of the following">
+<!ENTITY matchAll.label     "すべての条件に一致">
 <!ENTITY matchAll.accesskey "a">
-<!ENTITY matchAny.label     "Match any of the following">
+<!ENTITY matchAny.label     "いずれかの条件に一致">
 <!ENTITY matchAny.accesskey "o">
-<!ENTITY matchAllMsgs.label     "Match all messages">
+<!ENTITY matchAllMsgs.label     "すべてのメッセージに一致">
 <!ENTITY matchAllMsgs.accesskey "m">
 <!-- LOCALIZATION NOTE  
   The values below are used to control the widths of the search widgets.

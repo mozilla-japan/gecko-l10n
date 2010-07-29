@@ -4,23 +4,22 @@
 <!--LOCALIZATION NOTE (onStartLegend.label): Don't translate "&brandShortName;".
     Place &brandShortName; in the phrase where the name of the application should appear
 -->
-<!ENTITY onStartLegend.label "&brandShortName; が開始したときに起動">
-<!ENTITY navCheck.label "Browser">
-<!ENTITY navCheck.accesskey "B">
-<!ENTITY showToolsLegend.label "ツールバーの表示">
-<!ENTITY picsNtextRadio.label "絵と文字">
-<!ENTITY picsNtextRadio.accesskey "P">
-<!ENTITY picsOnlyRadio.label "絵">
-<!ENTITY picsOnlyRadio.accesskey "o">
-<!ENTITY textonlyRadio.label "文字">
-<!ENTITY textonlyRadio.accesskey "x">
-<!ENTITY showHideTooltips.label "ツールチップを表示">
-<!ENTITY showHideTooltips.accesskey "T">
+<!ENTITY onStartLegend.label                    "&brandShortName; の起動時に開く">
+<!ENTITY navCheck.label                         "ブラウザ">
+<!ENTITY navCheck.accesskey                     "B">
+<!ENTITY showToolsLegend.label                  "ツールバーの表示">
+<!ENTITY picsNtextRadio.label                   "絵と文字">
+<!ENTITY picsNtextRadio.accesskey               "P">
+<!ENTITY picsOnlyRadio.label                    "絵のみ">
+<!ENTITY picsOnlyRadio.accesskey                "o">
+<!ENTITY textonlyRadio.label                    "文字のみ">
+<!ENTITY textonlyRadio.accesskey                "x">
+<!ENTITY showHideTooltips.label                 "ツールチップを表示">
+<!ENTITY showHideTooltips.accesskey             "T">
 
 <!ENTITY pref.locales.title                     "メニューなどの表示に使用する言語">
-<!ENTITY selectLocale.label                     "ダイアログ ボックス、メニュー、ツールバー、ボタンに使用したい言語を選択してください。">
+<!ENTITY selectLocale.label                     "ダイアログボックス、メニュー、ツールバー、ボタンに使用する言語を選択してください:">
 <!--LOCALIZATION NOTE (restartOnLangChange.label): Don't translate "&brandShortName;".
     Place &brandShortName; in the phrase where the name of the application should appear
 -->
-<!ENTITY restartOnLangChange.label              "言語の設定は、&brandShortName;を再起動した後に有効になります。">
-
+<!ENTITY restartOnLangChange.label              "言語設定は &brandShortName; を再起動した後に有効になります。">

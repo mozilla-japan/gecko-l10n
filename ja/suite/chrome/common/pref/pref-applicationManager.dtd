@@ -1,4 +1,4 @@
-<!ENTITY appManager.title "アプリケーション マネージャ">
-<!ENTITY appManager.style "width: 30em; min-height: 20em;">
-<!ENTITY remove.label     "削除">
-<!ENTITY remove.accesskey "R">
+<!ENTITY appManager.title     "アプリケーションマネージャ">
+<!ENTITY appManager.style     "width: 30em; min-height: 20em;"><!-- en-US: width: 40ch; min-height: 20em; -->
+<!ENTITY remove.label         "削除">
+<!ENTITY remove.accesskey     "R">

@@ -1,10 +1,10 @@
 <!--LOCALIZATION NOTE : FILE UI for Software Updates prefs -->
-<!ENTITY pref.smartUpdate.title "ソフトウェア インストール">
-<!ENTITY smartTitle.label "ソフトウェアのインストールと更新を管理します">
-<!ENTITY enableSU.label "拡張機能や更新のインストールを許可する">
-<!ENTITY enableSU.accesskey "e">
-<!ENTITY allowedSites.label "許可されたサイト">
-<!ENTITY allowedSites.accesskey "A">
+<!ENTITY pref.smartUpdate.title               "ソフトウェアのインストール">
+<!ENTITY smartTitle.label                     "ソフトウェアのインストールと更新を管理します">
+<!ENTITY enableSU.label                       "Web サイトに拡張機能や更新のインストールを許可する">
+<!ENTITY enableSU.accesskey                   "e">
+<!ENTITY allowedSites.label                   "許可されたサイト">
+<!ENTITY allowedSites.accesskey               "A">
 
 <!ENTITY verifyUpdates.caption                "更新">
 <!ENTITY autoUpdates.label                    "次の更新を自動的にチェックする:">

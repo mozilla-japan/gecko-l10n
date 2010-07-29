@@ -1,123 +1,111 @@
 <!-- Entities for AccountWizard -->
 
-<!ENTITY windowTitle.label "Account Wizard">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
+<!ENTITY windowTitle.label		"アカウント@@Wizard@@">
+<!ENTITY accountWizard.size		"width: 42em; height: 38em;"><!-- (^^; en-US: width: 40em; height: 38em; -->
 
 <!-- Entities for Account Type page -->
 
-<!ENTITY accountSetupInfo.label "In order to receive messages, you first need to set up a Mail or Newsgroup account.">
-<!ENTITY accountTypeTitle.label "New Account Setup">
-<!ENTITY accountTypeDesc.label "This Wizard will collect the information necessary to set up a Mail or Newsgroup account. If you do not know the information requested, please contact your System Administrator or Internet Service Provider.">
-<!ENTITY accountTypeDirections.label "Select the type of account you would like to set up:">
-<!ENTITY accountTypeMail.label "Email account">
+<!ENTITY accountSetupInfo.label "メッセージを受信するには、初めにメールまたはニュースグループのアカウント設定をする必要があります。">
+<!ENTITY accountTypeTitle.label "@@New-CMD@@アカウントのセットアップ">
+<!ENTITY accountTypeDesc.label "メールやニュースグループのアカウント設定に必要な情報を入力してください。入力する情報が分からない場合はシステム管理者やインターネットサービスプロバイダに問い合わせてください。">
+<!ENTITY accountTypeDirections.label "設定するアカウントの種類を選択してください:">
+<!ENTITY accountTypeMail.label "メールアカウント">
 <!ENTITY accountTypeMail.accesskey "m">
-<!ENTITY accountTypeNews.label "Newsgroup account">
+<!ENTITY accountTypeNews.label "ニュースグループアカウント">
 <!ENTITY accountTypeNews.accesskey "w">
 
 <!-- Entities for Identity page -->
 
-<!ENTITY identityTitle.label "Identity">
-<!ENTITY identityDesc.label "Each account has an identity, which is the information that identifies you to others when they receive your messages.">
+<!ENTITY identityTitle.label "差出人情報">
+<!ENTITY identityDesc.label "メッセージの差出人についての情報を入力してください。これはアカウントごとに別のものを設定して使い分けることができます。"><!-- (^^; 表現変更 en-US: Each account has an identity, which is the information that identifies you to others when they receive your messages. -->
 
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
-<!ENTITY fullnameDesc.label "Enter the name you would like to appear in the &quot;From&quot; field of your outgoing messages">
+<!ENTITY fullnameDesc.label "あなたの名前を入力してください。ここで設定した名前が送信するメッセージの @@[@@差出人@@]@@ (From) に表示されます。">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
-	1, do not translate two of "&quot;"
-	2, Use localized full name instead of "John Smith"
+  1, do not translate two of "&quot;"
+  2, Use localized full name instead of "John Smith"
 -->
-<!ENTITY fullnameExample.label "(for example, &quot;John Smith&quot;).">
-<!ENTITY fullnameLabel.label "Your Name:">
+<!ENTITY fullnameExample.label "(例: &quot;John Smith&quot;)">
+<!ENTITY fullnameLabel.label "あなたの名前:">
 <!ENTITY fullnameLabel.accesskey "Y">
 
-<!ENTITY emailLabel.label "Email Address:">
+<!ENTITY emailLabel.label "メールアドレス:">
 <!ENTITY emailLabel.accesskey "E">
-<!ENTITY emailDesc.label "Enter your email address; this is the address others will use to send email to you">
-<!-- LOCALIZATION NOTE (emailExample.label) : do not translate "user@example.net" in below line -->
-<!ENTITY emailExample.label "(for example: user@example.net).">
 
 <!-- Entities for Server page -->
 
-<!ENTITY serverTitle.label "Server Information">
-<!ENTITY incomingServerTitle.label "Incoming Server">
-<!ENTITY incomingServerTypeDesc.label "Select the type of incoming server you are using.">
-<!ENTITY incomingServerTypeLabel.label "Server Type:">
+<!ENTITY serverTitle.label "サーバ情報">
+<!ENTITY incomingServerTypeDesc.label "メール受信サーバの種類を選択してください。">
 <!-- LOCALIZATION NOTE (incomingServerNameDesc.label) : Do not translate "&quot;pop.example.net&quot;" in below line -->
-<!ENTITY incomingServerNameDesc.label "Enter the name of your incoming server (for example, &quot;mail.example.net&quot;).">
-<!ENTITY incomingServerLabel.label "Incoming Server:">
+<!ENTITY incomingServerNameDesc.label "メール受信サーバの名前を入力してください (例: &quot;mail.example.net&quot;)。">
+<!ENTITY incomingServerLabel.label "メール受信サーバ:">
 <!ENTITY incomingServerLabel.accesskey "S">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
-<!ENTITY newsServerNameDesc.label "Enter the name of your news server (NNTP) (for example, &quot;news.example.net&quot;).">
-<!-- LOCALIZATION NOTE (smtpServerTitle.label) : Do not translate "SMTP" in below line -->
-<!ENTITY smtpServerTitle.label "Outgoing Server (SMTP)">
+<!ENTITY newsServerNameDesc.label "ニュース (NNTP) サーバの名前を入力してください (例: &quot;news.example.net&quot;)。">
 <!-- LOCALIZATION NOTE (smtpServerDesc.label) : Do not translate "SMTP" and "&quot;smtp.example.net&quot;" in below line -->
-<!ENTITY smtpServerDesc.label "Enter the name of your outgoing server (SMTP) (for example, &quot;smtp.example.net&quot;).">
-<!ENTITY smtpServerLabel.label "Outgoing Server:">
+<!ENTITY smtpServerDesc.label "メール送信 (SMTP) サーバの名前を入力してください (例: &quot;smtp.example.net&quot;)。">
+<!ENTITY smtpServerLabel.label "メール送信サーバ:">
 <!ENTITY smtpServerLabel.accesskey "O">
-<!ENTITY newsServerLabel.label "Newsgroup Server:">
-<!ENTITY newsServerLabel.accesskey "N">
+<!ENTITY newsServerLabel.label "ニュースサーバ:">
+<!ENTITY newsServerLabel.accesskey "w">
 <!-- LOCALIZATION NOTE (imapType.label) : Do not translate "IMAP" in below line -->
 <!ENTITY imapType.label "IMAP">
 <!ENTITY imapType.accesskey "I">
 <!-- LOCALIZATION NOTE (popType.label) : Do not translate "POP" in below line -->
 <!ENTITY popType.label "POP">
 <!ENTITY popType.accesskey "P">
-<!ENTITY nntpType.label "News Server">
 
-<!-- for when the user has an SMTP server pre-configured -->
-<!-- LOCALIZATION NOTE (currentSmtpBefore.label) : Do not translate "SMTP" and "&quot;" in
-     this variable. Also, translate currentSmtpBefore.label and currentSmtpAfter.label as a single sentence,
-	  inserting text after the "&quot;" entity in currentSmtpAfter.label, if required grammatically
+<!-- LOCALIZATION NOTE (haveSmtp1.prefix and haveSmtp1.suffix2) : Do not translate "SMTP" and "&quot;" in
+     these variables. Also, translate haveSmtp1.prefix and haveSmtp1.suffix2 as a single sentence, inserting
+     text after the "&quot;" entity in haveSmtp1.suffix2, if required grammatically.
 -->
-<!-- LOCALIZATION NOTE (haveSmtp1.prefix and haveSmtp1.suffix) : Do not translate "SMTP" and "&quot;" in
-     these variables. Also, translate haveSmtp1.prefix and haveSmtp1.suffix as a single sentence, inserting
-     text after the "&quot;" entity in haveSmtp1.suffix, if required grammatically.
--->
-<!ENTITY haveSmtp1.prefix "Your existing outgoing server (SMTP), &quot;">
-<!ENTITY haveSmtp1.suffix "&quot;, will be used. You can modify outgoing server settings by choosing Mail &amp; Newsgroups Account Settings from the Edit menu.">
+<!ENTITY haveSmtp1.prefix "他のアカウントで設定済みのメール送信 (SMTP) サーバ &quot;">
+<!ENTITY haveSmtp1.suffix2 "&quot; を使用します。メール送信サーバの設定は @@[@@編集@@]@@ メニューの @@[@@メールとニュースグループのアカウント設定@@]@@ で変更できます。">
 
 <!-- Entities for Login page -->
 
-<!ENTITY loginTitle.label "User Names">
-<!ENTITY usernameDesc.label "Enter the incoming user name given to you by your email provider ">
+<!ENTITY loginTitle.label "ユーザ名">
+<!ENTITY usernameDesc.label "プロバイダに指定された受信サーバのユーザ名を入力してください">
 <!-- LOCALIZATION NOTE (usernameExample.label) : do not translate "&quot;jsmith&quot;" in below line -->
-<!ENTITY usernameExample.label "(for example, &quot;jsmith&quot;).">
-<!ENTITY usernameLabel.label "Incoming User Name:">
+<!ENTITY usernameExample.label "(例: &quot;jsmith&quot;).">
+<!ENTITY usernameLabel.label "受信サーバのユーザ名:">
 <!ENTITY usernameLabel.accesskey "I">
-<!ENTITY usernameSmtpDesc.label "Enter the outgoing user name given to you by your email provider (this is typically the same as your incoming user name).">
-<!ENTITY usernameSmtpLabel.label "Outgoing User Name:">
+<!ENTITY usernameSmtpDesc.label "プロバイダに指定された送信サーバのユーザ名を入力してください。(多くの場合これは受信サーバのユーザ名と同じです)">
+<!ENTITY usernameSmtpLabel.label "送信サーバのユーザ名:">
 <!ENTITY usernameSmtpLabel.accesskey "O">
-<!-- LOCALIZATION NOTE (haveSmtp2.prefix and haveSmtp2.suffix) : Do not translate "SMTP" and "&quot;" in
-     these variables. Also, translate haveSmtp2.prefix and haveSmtp2.suffix as a single sentence, inserting
-     text after the "&quot;" entity in haveSmtp2.suffix, if required grammatically.
+<!-- LOCALIZATION NOTE (haveSmtp2.prefix and haveSmtp2.suffix2) : Do not translate "SMTP" and "&quot;" in
+     these variables. Also, translate haveSmtp2.prefix and haveSmtp2.suffix2 as a single sentence, inserting
+     text after the "&quot;" entity in haveSmtp2.suffix2, if required grammatically.
 -->
-<!ENTITY haveSmtp2.prefix "Your existing outgoing (SMTP) username, &quot;">
-<!ENTITY haveSmtp2.suffix "&quot;, will be used. You can modify outgoing server settings by choosing Mail &amp; Newsgroups Account Settings from the Edit menu.">
-<!-- LOCALIZATION NOTE (haveSmtp3.prefix and haveSmtp3.suffix) : Do not translate "SMTP" and "&quot;" in
-     these variables. Also, translate haveSmtp3.prefix and haveSmtp3.suffix as a single sentence, inserting
-     text after the "&quot;" entity in haveSmtp3.suffix, if required grammatically.
+<!ENTITY haveSmtp2.prefix "メール送信 (SMTP) サーバのユーザ名には、&quot;">
+<!ENTITY haveSmtp2.suffix2 "&quot; が使用されます。メール送信サーバの設定は @@[@@編集@@]@@ メニューの @@[@@メールとニュースグループのアカウント設定@@]@@ で変更できます。">
+<!-- LOCALIZATION NOTE (haveSmtp3.prefix and haveSmtp3.suffix2) : Do not translate "SMTP" and "&quot;" in
+     these variables. Also, translate haveSmtp3.prefix and haveSmtp3.suffix2 as a single sentence, inserting
+     text after the "&quot;" entity in haveSmtp3.suffix2, if required grammatically.
 -->
-<!ENTITY haveSmtp3.prefix "Your outgoing (SMTP) server, &quot;">
-<!ENTITY haveSmtp3.suffix "&quot;, is identical to your incoming server, your incoming user name will be used to access it. You can modify outgoing server settings by choosing Mail &amp; Newsgroups Account Settings from the Edit menu.">
+<!ENTITY haveSmtp3.prefix "送信 (SMTP) サーバ &quot;">
+<!ENTITY haveSmtp3.suffix2 "&quot; が受信サーバと同一であるため、送信サーバへのアクセスにも受信サーバのユーザ名を使用します。送信サーバの設定は @@[@@編集@@]@@ メニューの @@[@@メールとニュースグループのアカウント設定@@]@@ で変更できます。">
 
 <!-- Entities for Account name page -->
 
-<!ENTITY accnameTitle.label "Account Name">
+<!ENTITY accnameTitle.label "アカウント名">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
-<!ENTITY accnameDesc.label "Enter the name by which you would like to refer to this account (for example, &quot;Work Account&quot;, &quot;Home Account&quot; or &quot;News Account&quot;).">
-<!ENTITY accnameExample.label "For example, Work Account, Home Account or News Account">
-<!ENTITY accnameLabel.label "Account Name:">
+<!ENTITY accnameDesc.label "このアカウントに分かりやすい名前を付けてください (例: &quot;仕事用&quot;, &quot;プライベート&quot; または &quot;ニュースアカウント&quot;)。">
+<!ENTITY accnameLabel.label "アカウント名:">
 <!ENTITY accnameLabel.accesskey "A">
 
 <!-- Entities for Done (Congratulations) page -->
 
-<!ENTITY completionTitle.label "Congratulations!">
-<!ENTITY completionText.label "Please verify that the information below is correct.">
-<!ENTITY serverTypePrefix.label "Incoming Server Type:">
-<!ENTITY serverNamePrefix.label "Incoming Server Name:">
-<!ENTITY smtpServerNamePrefix.label "Outgoing Server Name (SMTP):">
-<!ENTITY newsServerNamePrefix.label "News Server Name (NNTP):">
-<!ENTITY downloadOnLogin.label "Download messages now">
-<!ENTITY deferStorageDesc.label "Check this checkbox to store mail for this account in the Local Folders Global Inbox. Otherwise the account appears as a top-level account and its mail is stored in its own directory.">
-<!ENTITY deferStorage.label "Use Global Inbox (store mail in Local Folders)">
-<!ENTITY clickFinish.label "Click Finish to save these settings and exit the Account Wizard.">
-<!ENTITY clickFinish.labelMac "Click Done to save these settings and exit the Account Wizard.">
+<!ENTITY completionTitle.label "設定が完了しました！">
+<!ENTITY completionText.label "以下の設定情報が正しいか確認してください。">
+<!ENTITY serverTypePrefix.label "メール受信サーバの種類:">
+<!ENTITY serverNamePrefix.label "メール受信サーバ名:">
+<!ENTITY smtpServerNamePrefix.label "メール送信 (SMTP) サーバ名:">
+<!ENTITY newsServerNamePrefix.label "ニュース (NNTP) サーバ名:">
+<!ENTITY downloadOnLogin.label "今すぐメッセージをダウンロード">
+<!ENTITY downloadOnLogin.accesskey "D">
+<!ENTITY deferStorageDesc.label "共通受信トレイを使用するアカウントのメールはすべてまとめて保存されます。このアカウントで送受信するメールを個別のディレクトリに分けて保存する場合はチェックを外してください。"><!-- en-US: "Check this checkbox to store mail for this account in the Local Folders Global Inbox. Otherwise the account appears as a top-level account and its mail is stored in its own directory." -->
+<!ENTITY deferStorage.label "共通受信トレイを使用する (&quot;ローカルフォルダ&quot; にメールを保存します)">
+<!ENTITY deferStorage.accesskey "G">
+<!ENTITY clickFinish.label "@@[@@完了@@]@@ をクリックすると設定を保存してアカウントを作成します。">
+<!ENTITY clickFinish.labelMac "@@[@@完了@@]@@ をクリックすると設定を保存してアカウントを作成します。">

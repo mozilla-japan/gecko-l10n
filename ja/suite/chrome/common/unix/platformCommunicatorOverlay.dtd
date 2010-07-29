@@ -9,7 +9,7 @@
 <!ENTITY quitApplicationCmd.key         "Q"> 
 <!ENTITY quitApplicationCmd.accesskey   "q">
 
-<!ENTITY redoCmd.label                  "やり直し">  
+<!ENTITY redoCmd.label                  "@@Redo@@">  
 <!ENTITY redoCmd.key                    "Y">  
 <!ENTITY redoCmd.accesskey              "r">
 
@@ -27,3 +27,7 @@
 <!ENTITY ctrlKey.label                  "Ctrl">
 <!ENTITY altKey.label                   "Alt">
 <!ENTITY shiftKey.label                 "Shift">
+
+<!-- Copy Image Location (regression fix for bug 469481) -->
+<!ENTITY copyImageURLCmd.label          "画像の URL をコピー">
+<!ENTITY copyImageURLCmd.accesskey      "y">

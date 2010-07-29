@@ -36,7 +36,6 @@
     <li><a href="#software_installation">Software Installation</a></li>
     <li><a href="#mouse_wheel">Mouse Wheel</a></li>
     <li><a href="#dom_inspector">DOM Inspector</a></li>
-    <li class="win"><a href="#system">System</a></li>
   </ul>
 </div>
 
@@ -83,13 +82,10 @@
   JavaScript and plugins are used:</p>
 
 <ul>
-  <li><strong>Enable JavaScript for</strong>: Select these checkboxes to turn
-    JavaScript on:
+  <li><strong>Enable JavaScript for</strong>:
     <ul>
-      <li><strong>Browser</strong>: Toggles JavaScript for web pages opened
-        in the browser.</li>
-      <li><strong>Mail &amp; Newsgroups</strong>: Toggles JavaScript for web
-        pages opened in Mail &amp; Newsgroups.</li>
+      <li><strong>Browser</strong>: Select this to turn on JavaScript for web
+        pages opened in the browser.</li>
     </ul>
   </li>
   <li><strong>Allow scripts to</strong>: Select these checkboxes to control
@@ -117,6 +113,17 @@
     <ul>
       <li><strong>Mail &amp; Newsgroups</strong>: Allows plugins to be used in
         Mail &amp; Newsgroups.</li>
+    </ul>
+  </li>
+  <li><strong>When additional plugins are required</strong>: Check this
+    checkbox if you want to be informed whenever a website requires additional
+    plugins:
+    <ul>
+      <li><strong>Display a notification bar at the top of the content
+        area</strong>: When a website requires a plugin which is not installed,
+        a notification bar will be displayed above the website content area.
+        From the bar you will be able to download and install the missing
+        plugin.</li>
     </ul>
   </li>
 </ul>
@@ -283,8 +290,8 @@
 
 <ul>
   <li><strong>HTTP Proxy</strong>, <strong>SSL Proxy</strong>,
-    <strong>FTP Proxy</strong>, <strong>Gopher Proxy</strong>: Enter the name
-    or numeric IP address of the proxy server. Type the port in the Port fields.
+    <strong>FTP Proxy</strong>: Enter the name or numeric IP address 
+    of the proxy server. Type the port in the Port fields.
 
     <p><strong>Note</strong>: If you&apos;re using the same settings
       for all types of proxies, click on <q>Use HTTP Proxy settings
@@ -363,20 +370,20 @@
   installation and update notification:</p>
 
 <ul>
-  <li><strong>Allow web sites to install extensions and updates</strong>:
-    Select this if you want to allow web sites to install extensions and
+  <li><strong>Allow websites to install extensions and updates</strong>:
+    Select this if you want to allow websites to install extensions and
     updates to be used with &brandShortName;. You will be prompted before each
     installation.</li>
-  <li><strong>Allowed Sites</strong>: Click this to open the Allowed Sites
-    dialog box, where you can view and edit the list of web sites that you
+  <li><strong>Allowed Websites</strong>: Click this to open the Allowed Websites
+    dialog box, where you can view and edit the list of websites that you
     want to allow to install software:
     <ul>
-      <li><strong>Allow</strong>: Click this to add a typed web site to the
-        list of allowed sites.</li>
-      <li><strong>Remove Site</strong>: Click this to remove a selected web
-        site.</li>
-      <li><strong>Remove All Sites</strong>: Click this to remove all of the
-        web sites in the current list.</li>
+      <li><strong>Allow</strong>: Click this to add a typed website to the
+        list of allowed websites.</li>
+      <li><strong>Remove Website</strong>: Click this to remove a selected
+        website.</li>
+      <li><strong>Remove All Websites</strong>: Click this to remove all of the
+        websites in the current list.</li>
     </ul>
   </li>
   <li><strong>Automatically check for updates to</strong>:
@@ -387,7 +394,7 @@
         &brandShortName;. Choose whether you want &brandShortName; to do a
         <strong>daily</strong> or a <strong>weekly</strong> check for new
         versions.</li>
-      <li><strong>Installed add-ons</strong>: Select this to be notified when a
+      <li><strong>Installed Add-ons</strong>: Select this to be notified when a
         new version of one of your installed add-ons is available. Choose
         whether you want &brandShortName; to do a <strong>daily</strong> or a
         <strong>weekly</strong> check for new versions.</li>
@@ -396,6 +403,34 @@
   <li><strong>Add-on Manager</strong>: Click this to open the
     Add-on Manager, where you can view and manage all your installed
     extensions and themes.</li>
+  <li><strong>When updates to &brandShortName; are found</strong>:
+    <ul>
+      <li><strong>Ask me what I want to do</strong>: Select this to be notified
+        when new versions of &brandShortName; are available.</li>
+      <li><strong>Automatically download and install the update</strong>: Select
+        this if you want &brandShortName; to automatically download and install
+        updates for you when they become available. The download will happen in
+        the background, with low priority. After the download has finished the
+        update will be installed automatically the next time you start
+        &brandShortName;.</li>
+      <li><strong>Warn me if this will disable any of my add-ons</strong>:
+        Select this to be notified if an automatic update will disable any of
+        your installed add-ons. In that case you will be shown a list of
+        incompatible add-ons and you can choose whether you want to download and
+        install the update or not.</li>
+    </ul>
+
+    <p><strong>Note</strong>: You can use Check for Updates from the Help menu
+      to manually initiate the search for a &brandShortName; update. The label
+      of the menu item will change when an update is being downloaded or ready
+      to be applied.</p>
+  </li>
+  <li><strong>Show Update History</strong>: Click this to open the Update
+    History dialog box which shows a list of &brandShortName; updates that have
+    been installed, including the update type (e.g. Security Update), time of
+    installation and installation status. The Details link next to each update
+    takes you to a web page that contains further information regarding the
+    update.</li>
 </ul>
 
 <p>[<a href="#advanced_preferences">Return to beginning of section</a>]</p>
@@ -432,7 +467,9 @@
         <ul>
           <li><strong>Use system default</strong>: Choose this to use your
             system&apos;s default setting&mdash;the number of lines (characters)
-            you may have previously entered will be overridden.</li>
+            you may have previously entered will be overridden. Read your
+            system&apos;s documentation to find out where to change the
+            system default mouse wheel/scroll settings.</li>
         </ul>
       </li>
       <li><strong>Scroll a page up (left) or a page down (right)</strong>:
@@ -493,48 +530,6 @@
     </ul>
   </li>
 </ul>
-
-<p>[<a href="#advanced_preferences">Return to beginning of section</a>]</p>
-
-<div class="win">
-
-  <h2 id="system">Advanced Preferences - System</h2>
-
-    <p>This section describes how to use the System preferences panel. If
-      you&apos;re not already viewing it, follow these steps:</p>
-
-    <ol>
-      <li>Open the Edit menu and choose Preferences.</li>
-      <li>Under the Advanced category, click System. (If no subcategories are
-        visible, double-click Advanced to expand the list.)</li>
-    </ol>
-
-    <p>The System preferences panel allows you to specify what files and
-      protocols are opened using &brandShortName;:</p>
-
-    <ul>
-      <li><strong>Windows should use &brandShortName; to open these file
-        types</strong>: Select the file types that you want to open by default
-        using &brandShortName;.</li>
-      <li><strong>Windows should use &brandShortName; to handle these
-        protocols</strong>: Select the protocols that you want to open by
-        default using &brandShortName;.</li>
-      <li><strong>Alert me if other applications change these
-        settings</strong>: Select this if you want &brandShortName; to alert
-        you when other applications have changed your default &brandShortName;
-        file and protocol settings.</li>
-    </ul>
-
-    <p><strong>Tip</strong>: To make &brandShortName; the default browser
-      easily, see <a href="cs_nav_prefs_navigator.xhtml#navigator">Browser
-      Preferences - Browser</a>. Also select <q>Alert me if other application
-      change these settings</q> to know when other programs become the default
-      programs instead of &brandShortName;.</p>
-
-  <p>[<a href="#advanced_preferences">Return to beginning of section</a>]</p>
-</div>
-
-<p>&copyright.string;</p>
 
 </body>
 </html>

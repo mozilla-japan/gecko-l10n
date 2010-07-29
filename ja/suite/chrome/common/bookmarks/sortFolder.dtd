@@ -1,16 +1,24 @@
+<!ENTITY window.title "Sort Folder">
+
+<!ENTITY sortOptions.label "Sort options">
 <!ENTITY description.label "&brandShortName; には、フォルダを使いやすい順番に並べ替える機能があります。並べ替えの順序は、以下のオプションの範囲でカスタマイズできます。">
-<!ENTITY sortAscending.label "昇順">
-<!ENTITY sortBy.bookmarkAddDate.label "追加日時">
-<!ENTITY sortBy.description.label "説明">
+
 <!ENTITY sortBy.label "並べ替え順序:">
+<!ENTITY sortBy.accesskey "S">
+<!ENTITY sortBy.name.label "名前">
+<!ENTITY sortBy.url.label "URL">
+<!ENTITY sortBy.shortcutUrl.label "キーワード">
+<!ENTITY sortBy.description.label "説明">
+<!ENTITY sortBy.bookmarkAddDate.label "追加日時">
 <!ENTITY sortBy.lastModifiedDate.label "最終更新日時">
 <!ENTITY sortBy.lastVisitDate.label "最終訪問日時">
-<!ENTITY sortBy.name.label "名前">
-<!ENTITY sortBy.shortcutUrl.label "キーワード">
-<!ENTITY sortBy.url.label "アドレス (URL)">
-<!ENTITY sortDescending.label "降順">
-<!ENTITY sortFoldersFirst.label "フォルダを先頭に集める">
-<!ENTITY sortOptions.label "並べ替えのオプション">
+
 <!ENTITY sortOrder.label "昇順 / 降順:">
-<!ENTITY sortRecursively.label "この順序を崩さない">
-<!ENTITY window.title "フォルダを並べ替え">
+<!ENTITY sortOrder.accesskey "o">
+<!ENTITY sortAscending.label "昇順">
+<!ENTITY sortDescending.label "降順">
+
+<!ENTITY sortFoldersFirst.label "フォルダを先頭に集める">
+<!ENTITY sortFoldersFirst.accesskey "d">
+<!ENTITY sortRecursively.label "再帰的に並べ替える">
+<!ENTITY sortRecursively.accesskey "c">

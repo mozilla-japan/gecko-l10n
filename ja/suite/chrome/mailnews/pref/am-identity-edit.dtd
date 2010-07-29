@@ -1,6 +1,7 @@
-<!ENTITY identityTitle.label "Identity Settings">
-<!ENTITY identityListDesc.label "Configure the settings for this identity:">
+<!ENTITY identityDialog.style "width: 72ch;"><!-- en-US: 67ch -->
+<!ENTITY identityTitle.label "差出人情報の設定">
+<!ENTITY identityListDesc.label "差出人情報を設定してください:">
 
-<!ENTITY settingsTab.label       "Settings">
-<!ENTITY copiesFoldersTab.label "Copies &amp; Folders">
-<!ENTITY addressingTab.label    "Composition &amp; Addressing">
+<!ENTITY settingsTab.label       "設定">
+<!ENTITY copiesFoldersTab.label "コピーと特別なフォルダ">
+<!ENTITY addressingTab.label    "編集とアドレス入力">

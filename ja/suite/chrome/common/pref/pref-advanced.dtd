@@ -1,18 +1,16 @@
-
 <!--LOCALIZATION NOTE : FILE 'Advanced' prefs settings -->
-<!ENTITY pref.advanced.title "詳細">
+<!ENTITY pref.advanced.title        "詳細">
 
-<!ENTITY prefEnableJava.caption "Web ページで補助的に利用される機能">
+<!ENTITY prefEnableJava.caption     "Web ページで補助的に利用される機能">
 
-<!ENTITY enbJavaCheck.label "Java を有効にする">
-<!ENTITY enbJavaCheck.accesskey "J">
+<!ENTITY enbJavaCheck.label         "Java を有効にする">
+<!ENTITY enbJavaCheck.accesskey     "J">
 
-<!ENTITY prefJvmConf.caption "使用する Java のバージョン (再起動後に有効)">
-<!ENTITY jvm.name "バージョン">
-<!ENTITY jvm.home "パス">
+<!ENTITY systemPref.caption         "システム設定">
+<!ENTITY systemPrefCheck.label      "システムの標準設定を使用する">
+<!ENTITY systemPrefCheck.accesskey  "U">
+<!ENTITY systemPref.desc            "この項目にチェックを入れると、&brandShortName; 独自の設定よりもシステム標準の設定を優先するようになります。">
 
-<!ENTITY systemPref.caption "システム設定">
-<!ENTITY systemPrefCheck.label "システムの標準設定を使用する">
-<!ENTITY systemPrefCheck.accesskey "U">
-<!ENTITY systemPref.desc "この項目をチェックすると、システム標準の設定を &brandShortName; 独自の設定よりも優先するようになります。">
-
+<!ENTITY prefCheckDefault.caption   "システム統合">
+<!ENTITY prefCheckDefaultClient.label "起動時に@@DefaultApplication@@の設定を確認する">
+<!ENTITY prefCheckDefaultClient.accesskey "C">

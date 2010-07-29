@@ -1,7 +1,7 @@
 <!-- extracted from content/navigator.xul -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items --> 
-<!-- LOCALIZATION NOTE : FILE Do not translate accesskey and commandkey --> 
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE --> 
 <!ENTITY mainWindow.title "&brandShortName;">
@@ -10,10 +10,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 
-<!ENTITY nothingAvailable.label "(Nothing Available)">
-
-<!ENTITY browserCmd.label	"新しいブラウザ@@Window@@">
-<!ENTITY browserCmd.accesskey	"N">
 <!ENTITY tabCmd.label "ブラウザタブ">
 <!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
@@ -26,22 +22,21 @@
 <!ENTITY recentTabs.label "最近閉じたタブ">
 <!ENTITY recentTabs.accesskey "R">
 <!ENTITY recentTabs.commandkey "t">
+<!ENTITY recentWindows.label "最近閉じた@@Window@@">
+<!ENTITY recentWindows.accesskey "y">
+<!ENTITY recentWindows.commandkey "y">
 <!ENTITY editPageCmd.label "ページを編集">
 <!ENTITY editPageCmd.accesskey "E">
 <!ENTITY editPageCmd.commandkey "e">
-<!ENTITY editFrameCmd.label "フレームを編集">
-<!ENTITY editFrameCmd.accesskey "m">
-<!ENTITY editFrameSetCmd.label "フレームセットを編集">
-<!ENTITY editFrameSetCmd.accesskey "t">
 
 <!ENTITY uploadFile.label "ファイルをアップロード...">
 <!ENTITY uploadFile.accesskey "F">
 
 <!ENTITY printSetupCmd.label "ページ設定...">
 <!ENTITY printSetupCmd.accesskey "u">
-<!ENTITY printPreviewCmd.label "印刷プレビュー">
+<!ENTITY printPreviewCmd.label "@@Print@@プレビュー">
 <!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "印刷...">
+<!ENTITY printCmd.label "@@Print@@...">
 <!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.commandkey "p">
 
@@ -77,7 +72,6 @@
 <!ENTITY fullScreenCmd.accesskey "f">
 <!ENTITY translateMenu.label "ページを翻訳">
 <!ENTITY translateMenu.accesskey "T">
-<!ENTITY translate.commandKey "t">
 
 <!ENTITY closeOtherTabs.label "他のタブを閉じる">
 <!ENTITY closeOtherTabs.accesskey "T">
@@ -85,40 +79,12 @@
 <!ENTITY closeWindow.accesskey "W">
 
 <!ENTITY minimizeButton.tooltip       "@@Minimize@@">
-<!ENTITY restoreButton.tooltip        "戻す">
+<!ENTITY restoreButton.tooltip        "元のサイズに戻す">
 
-<!-- I'd like all this to move to an overlay or something -->
-<!ENTITY bidiMenu.label "双方向テキスト設定">
-<!ENTITY directionBidiMenu.label "デフォルトの書記方向">
-<!ENTITY directionRTLBidiCmd.label "右から左へ">
-<!ENTITY directionLTRBidiCmd.label "左から右へ">
-<!ENTITY texttypeBidiMenu.label "テキストの形式">
-<!ENTITY charsettexttypeBidiCmd.label "元の文字エンコーディング">
-<!ENTITY logicaltexttypeBidiCmd.label "論理的">
-<!ENTITY visualtexttypeBidiCmd.label "見たまま">
-<!ENTITY numeralBidiMenu.label "数字の形">
-<!ENTITY regularcontextnumeralBidiCmd.label "文脈に合わせる">
-<!ENTITY hindicontextnumeralBidiCmd.label "右から左に書くページでのヒンディ語の数字">
-<!ENTITY arabicnumeralBidiCmd.label "アラビア語">
-<!ENTITY hindinumeralBidiCmd.label "ヒンディー語">
-<!ENTITY controlstextmodeBidiMenu.label "フォームでのテキストモード">
-<!ENTITY logicalcontrolstextmodeBidiCmd.label "論理的">
-<!ENTITY visiualcontrolstextmodeBidiCmd.label "見たまま">
-<!ENTITY containercontrolstextmodeBidiCmd.label "ドキュメントに合わせる">
-<!ENTITY charactersetBidiMenu.label "文字エンコーディング">
-<!ENTITY doccharactersetBidiCmd.label "ドキュメントで指定された文字エンコーディングを使用">
-<!ENTITY defaultcharactersetBidiCmd.label "デフォルトの文字エンコーディングを使い、ドキュメントで指定された文字エンコーディングを上書きする">
-
-<!ENTITY webContentMenu.label "言語と Web コンテンツ">
-<!ENTITY webContentMenu.accesskey "l">
-<!ENTITY downloadMore.label "追加ダウンロード">
-<!ENTITY downloadMore.accesskey "D">
 <!ENTITY applyTheme.label	"テーマを適用"> 
 <!ENTITY applyTheme.accesskey	"A"> 
 <!ENTITY getNewThemesCmd.label "テーマを入手">
 <!ENTITY getNewThemesCmd.accesskey "G">
-<!ENTITY searchMenu.label "検索">
-<!ENTITY searchMenu.accesskey "S">
 <!ENTITY findOnCmd.label "ページ内を検索...">
 <!ENTITY findOnCmd.accesskey "f">
 <!ENTITY findOnCmd.commandkey "f">
@@ -135,7 +101,7 @@
 <!ENTITY searchInternetCmd.accesskey "S">
 <!ENTITY searchInternet.commandKey "s">
 
-<!ENTITY clearPrivateDataCmd.label "プライバシー情報を消去...">
+<!ENTITY clearPrivateDataCmd.label "プライバシー情報の消去...">
 <!ENTITY clearPrivateDataCmd.accesskey "e">
 
 <!ENTITY goMenu.label "移動">
@@ -159,32 +125,25 @@
 <!ENTITY feedsMenu.accesskey "S">
 <!ENTITY emptyItem.label "(空)">
 
-<!ENTITY helpMenuCmd.label "ヘルプ">
-<!ENTITY helpMenuCmd.accesskey "h">
-<!ENTITY helpContentsCmd.label "ヘルプコンテンツ">
-<!ENTITY softwareUpdatesCmd.label "ソフトウェアの更新を確認">
-<!ENTITY technicalSupportCmd.label "サポート">
-<!ENTITY releaseNotesCmd.label "リリースノート">
-
 <!ENTITY menuBar.tooltip                  "メニューバー">
 <!ENTITY personalToolbar.tooltip          "パーソナルツールバー">
 <!ENTITY navigationToolbar.tooltip        "ナビゲーションツールバー">
 
 <!-- Toolbar items --> 
-<!ENTITY backButton.label             "もどる">
-<!ENTITY backButton.tooltip           "ひとつ前のページにもどる">
-<!ENTITY forwardButton.label          "次へ">
-<!ENTITY forwardButton.tooltip        "一つ先のページへ進む">
+<!ENTITY backButton.label             "戻る">
+<!ENTITY backButton.tooltip           "前のページへ戻る">
+<!ENTITY forwardButton.label          "進む">
+<!ENTITY forwardButton.tooltip        "次のページへ進む">
 <!ENTITY reloadButton.label           "再読み込み">
 <!ENTITY reloadButton.tooltip         "現在のページを再読み込みする">
 <!ENTITY stopButton.label             "中止">
 <!ENTITY stopButton.tooltip           "ページの読み込みを中止">
 <!ENTITY searchButton.label           "検索">
-<!ENTITY searchButton.tooltip         "左の領域に単語を入力し、[検索] をクリックしてください">
+<!ENTITY searchButton.tooltip         "左の領域に単語を入力し、@@[@@検索@@]@@ をクリックしてください">
 <!ENTITY goButton.label               "移動">
-<!ENTITY goButton.tooltip             "左の領域に URL を入力し、[移動] をクリックしてください">
-<!ENTITY printButton.label            "印刷">
-<!ENTITY printButton.tooltip          "このページを印刷する">
+<!ENTITY goButton.tooltip             "左の領域に URL を入力し、@@[@@移動@@]@@ をクリックしてください">
+<!ENTITY printButton.label            "@@Print@@">
+<!ENTITY printButton.tooltip          "このページを@@Print@@する">
 
 <!ENTITY throbber.tooltip             "&vendorShortName; のホームページに移動">
 
@@ -192,13 +151,13 @@
 <!ENTITY locationBar.accesskey        "d">
 <!ENTITY locationBar.title            "アドレス (URL)">
 
-<!ENTITY proxyIcon.tooltip            "このアイコンをドラッグ アンド ドロップすると、このページへのリンクが作成されます">
-<!ENTITY internetKeyword.tooltip      "前のページへ戻るかキーワードを選択してください">
+<!ENTITY proxyIcon.tooltip            "このアイコンをドラッグアンドドロップすると、このページへのリンクが作成されます">
 
 <!-- Toolbar items --> 
 <!ENTITY  bookmarksButton.label       "ブックマーク">
 <!ENTITY  bookmarksButton.tooltip     "ブックマークリスト">
 <!ENTITY  homeButton.label            "ホーム">
+<!ENTITY  bookmarksToolbarItem.label  "ブックマークツールバーの項目">
 
 <!-- Statusbar -->
 <!ENTITY  statusText.label            "完了">

@@ -1,13 +1,13 @@
 
 <!-- LOCALIZATION NOTE (messengerCmd.label): DONT_TRANSLATE -->
-<!ENTITY messengerCmd.label			"メールとニュース">
+<!ENTITY messengerCmd.label			"メールとニュースグループ">
 <!ENTITY messengerCmd.accesskey			"m">
 <!ENTITY messengerCmd.commandkey		"2">
 <!ENTITY addressBookCmd.label			"アドレス帳">
 <!ENTITY addressBookCmd.accesskey		"a">
 <!ENTITY addressBookCmd.commandkey		"5">
 
-<!ENTITY taskMessenger.tooltip			"メールとニュース">
+<!ENTITY taskMessenger.tooltip			"メールとニュースグループ">
 <!ENTITY taskAddressBook.tooltip		"アドレス帳">
 
 <!-- searchAddressesCmd is also used by addressbook -->

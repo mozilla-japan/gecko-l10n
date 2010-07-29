@@ -1,27 +1,32 @@
-<!ENTITY pref.popups.title "ポップアップ @@Window@@">
+<!ENTITY pref.popups.title              "ポップアップ@@Window@@">
 
-<!ENTITY pref.popups.caption "ポップアップ @@Window@@">
+<!ENTITY pref.popups.caption            "ポップアップ@@Window@@">
 
-<!ENTITY popupDesc.label "browser @@Window@@の上、あるいは下に表示されるように作られている、ポップアップ @@Window@@をどのように扱ったらいいですか:">
+<!ENTITY popupBlock.label               "要求していないポップアップ@@Window@@を自動的に閉じる">
+<!ENTITY popupBlock.accesskey           "B">
 
-<!ENTITY popupBlock.label "要求していないポップアップ @@Window@@を自動的に閉じる">
-<!ENTITY popupBlock.accesskey "B">
+<!ENTITY popupExceptions.label          "許可されたサイト">
+<!ENTITY popupExceptions.accesskey      "A">
 
-<!ENTITY popupExceptions.label "許可されたサイト">
-<!ENTITY popupExceptions.accesskey "A">
+<!ENTITY whenBlock.description          "ポップアップ@@Window@@を自動的に閉じた場合:">
+<!ENTITY playSound.label                "サウンドを鳴らす:">
+<!ENTITY playSound.accesskey            "P">
+<!ENTITY systemSound.label              "システムのビープ音">
+<!ENTITY systemSound.accesskey          "S">
+<!ENTITY customSound.label              "次のサウンドファイルを再生する">
+<!ENTITY customSound.accesskey          "C">
 
-<!ENTITY whenBlock.description "ポップアップ @@Window@@を自動的に閉じた場合:">
-<!ENTITY playSound.label "音を鳴らす:">
-<!ENTITY playSound.accesskey            "s">
+<!ENTITY selectSound.label              "@@Browse@@...">
+<!ENTITY selectSound.accesskey          "o">
+<!ENTITY previewSound.label             "プレビュー">
+<!ENTITY previewSound.accesskey         "v">
+<!ENTITY selectSound.title              "ブロックしたときに鳴らすサウンドを選択してください">
+<!ENTITY selectSound.filter             "サウンドの選択">
 
-<!ENTITY selectSound.label "参照...">
-<!ENTITY selectSound.accesskey "r">
-<!ENTITY previewSound.label "プレビュー">
-<!ENTITY previewSound.accesskey "P">
-<!ENTITY selectSound.title "ブロックしたときに鳴らす音を選択してください">
-
-<!ENTITY displayIcon.label "ステータス バーにアイコンを表示する">
+<!ENTITY displayIcon.label              "ステータスバーにアイコンを表示する">
 <!ENTITY displayIcon.accesskey          "D">
 
-<!ENTITY popupNote.description "注: 銀行や通信販売等では、ポップアップ @@Window@@が表示されないことでログインなどの重要な機能が損なわれることがあります。その場合は、許可するサイトに加えてください。ポップアップ ブロック機能を有効にしたまま、特定のサイトのみポップアップを有効にする方法の詳細は [ヘルプ] をクリックしてください。また、サイトによっては、別の方法を使ってポップアップ ブロック機能を回避する場合があります。">
+<!ENTITY displayNotification.label      "コンテンツ領域の上部に通知バーを表示する"><!--Display a notification bar at the top of the content area-->
+<!ENTITY displayNotification.accesskey  "N">
 
+<!ENTITY popupNote.description          "注意: 銀行や通信販売等のサイトでは、ポップアップ@@Window@@が表示されないように設定すると、ログインなどの重要な機能が利用できないことがあります。その場合は、許可するサイトに加えてください。ポップアップブロック機能を有効にしたまま、特定のサイトのみポップアップを有効にする方法についての詳細は @@[@@ヘルプ@@]@@ をクリックしてください。また、サイトによっては別の方法でポップアップブロック機能を回避する場合があります。">

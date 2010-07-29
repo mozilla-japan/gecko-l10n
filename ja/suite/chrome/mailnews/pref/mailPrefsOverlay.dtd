@@ -1,24 +1,21 @@
 <!-- These are added to the Advanced - Scripts & Plugins panel -->
-<!ENTITY enbJsCheckMailNews.label         "Mail &amp; Newsgroups">
-<!ENTITY enbJsCheckMailNews.accesskey     "M">
-<!ENTITY enbPluginCheckMailNews.label     "Mail &amp; Newsgroups">
+<!ENTITY enbPluginCheckMailNews.label     "メールとニュースグループ">
 <!ENTITY enbPluginCheckMailNews.accesskey "a">
 
 <!-- These are added to the Window menu -->
-<!ENTITY mail.label                       "Mail &amp; Newsgroups">
+<!ENTITY mail.label                       "メールとニュースグループ">
 <!ENTITY mail.accesskey                   "M">
-<!ENTITY addressbook.label                "Address Book">
+<!ENTITY addressbook.label                "アドレス帳">
 <!ENTITY addressbook.accesskey            "A">
 
 <!-- These are added to Preferences dialog -->
-<!ENTITY viewingMessages.label            "Message Display">
-<!ENTITY notifications.label              "Notifications">
-<!ENTITY address.label                    "Addressing">
-<!ENTITY composingMessages.label          "Composition">
-<!ENTITY format.label                     "Send Format">
-<!ENTITY return.label                     "Return Receipts">
-<!ENTITY disk.label                       "Disk Space">
-<!ENTITY junk.label                       "Junk Mail">
-<!ENTITY tags.label                       "Tags">
-<!ENTITY characterEncoding.label          "Character Encoding">
-<!ENTITY offline.label                    "Offline &amp; Disk Space">
+<!ENTITY viewingMessages.label            "メッセージの表示">
+<!ENTITY notifications.label              "通知">
+<!ENTITY address.label                    "アドレス帳">
+<!ENTITY composingMessages.label          "メッセージの作成">
+<!ENTITY format.label                     "送信形式">
+<!ENTITY return.label                     "開封確認">
+<!ENTITY junk.label                       "迷惑メール">
+<!ENTITY tags.label                       "タグ">
+<!ENTITY characterEncoding.label          "文字エンコーディング">
+<!ENTITY networkStorage.label             "ネットワークとディスク領域">

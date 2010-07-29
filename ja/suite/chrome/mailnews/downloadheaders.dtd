@@ -35,7 +35,7 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY all.label          "Download all headers">
+<!ENTITY all.label          "すべてのヘッダをダウンロード">
 <!ENTITY all.accesskey      "D">
 <!--LOCALIZATION NOTE (download.label):
     consider the download.label and headers.label as a single sentence
@@ -44,10 +44,10 @@
 	 Either label could be set to null ("") if required grammatically.
 -->
 
-<!ENTITY download.label     "Download">
+<!ENTITY download.label     "">
 <!ENTITY download.accesskey "o">
 <!--LOCALIZATION NOTE (headers.label): see note for download.label -->
-<!ENTITY headers.label      "headers">
+<!ENTITY headers.label      "個のヘッダをダウンロード">
 <!ENTITY headers.accesskey  "h">
-<!ENTITY mark.label         "Mark remaining headers as read">
+<!ENTITY mark.label         "残りのヘッダを既読にする"><!-- "Mark remaining headers as read" -->
 <!ENTITY mark.accesskey     "M">

@@ -1,20 +1,20 @@
-<!ENTITY newsblogTitle.label "RSS Account Settings">
+<!ENTITY accountTitle.label "フィードアカウントの設定">
 
-<!ENTITY biffStart.label "Check for new articles every ">
+<!ENTITY biffStart.label "新着記事を">
 <!ENTITY biffStart.accesskey "k">
-<!ENTITY biffEnd.label "minutes">
+<!ENTITY biffEnd.label "分ごとに確認する">
 
-<!ENTITY loginAtStartup.label "Check for new articles at startup"> 
+<!ENTITY loginAtStartup.label "起動時に新着記事がないか確認する">
 <!ENTITY loginAtStartup.accesskey "C">
 
-<!ENTITY useQuickMode.label "By default, show the article summary instead of loading the web page"> 
+<!ENTITY useQuickMode.label "標準では Web ページを読み込まずに記事の要約を表示する">
 <!ENTITY useQuickMode.accesskey "B">
 
-<!ENTITY manageSubscriptions.label "Manage Subscriptions..."> 
+<!ENTITY manageSubscriptions.label "フィード購読の管理...">
 <!ENTITY manageSubscriptions.accesskey "M">
 
-<!-- entities from defaults/isp/rss.rdf -->
-<!ENTITY rss.accountName            "News &amp; Blogs">
-<!ENTITY rss.wizardShortName        "RSS">  
-<!ENTITY rss.wizardLongName         "RSS News &amp; Blogs">
-<!ENTITY rss.wizardLongName.accesskey "R">
+<!-- entities from rss.rdf -->
+<!ENTITY feeds.accountName "ブログとニュース">
+<!ENTITY feeds.wizardShortName "フィード">
+<!ENTITY feeds.wizardLongName "ブログとニュースのフィード">
+<!ENTITY feeds.wizardLongName.accesskey "F">
