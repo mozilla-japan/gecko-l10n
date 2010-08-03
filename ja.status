@@ -72,3 +72,4 @@ security                47845:3040b1aebdfa  5972:8b0bbac0f237   mar             
 dom, security           47917:6b58d2615145  ----:------------   mar             sync security, chengeset 692, 693
 toolkit (partial)       47956:b816a2d20ac7  5979:ee1f364c20a5   mar             sync toolkit/global*, ./passwordmgr, chengeset 694
 suite                   -----:------------  ----:------------   mar             merge from 1.9.1, chengeset 696
+irc, venkman            -----:------------  ----:------------   mar             sync extensions, chengeset 698
