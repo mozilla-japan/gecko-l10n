@@ -1,8 +1,5 @@
 <!ENTITY  updateWizard.title		"ソフトウェアの更新">
 
-<!ENTITY  window.width			"36em">
-<!ENTITY  window.macWidth		"39em">
-
 <!ENTITY  checking.title		"更新の確認">
 <!ENTITY  updateCheck.label		"&brandShortName; の新しいバージョンがないか確認しています...">
 
@@ -37,7 +34,7 @@
 
 <!ENTITY  incompatibleList.title	"互換性のないアドオンがあります">
 
-<!ENTITY  downloading.title		"更新をダウンロード">
+<!ENTITY  downloadPage.title		"&brandShortName; をダウンロード">
 <!ENTITY  downloading.intro		"更新をダウンロードしています...">
 <!ENTITY  connecting.label		"更新サーバに接続しています...">
 <!ENTITY  verificationFailedText.label	"ダウンロードした差分更新の完全性を確認できなかったため、完全更新パッケージをダウンロードしています。">

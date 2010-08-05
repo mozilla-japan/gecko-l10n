@@ -8,3 +8,6 @@
 
 <!ENTITY blocklist.accept.label		"&brandShortName; を再起動">
 <!ENTITY blocklist.accept.accesskey	"R">
+
+<!ENTITY blocklist.blocked.label	"ブロックしました">
+<!ENTITY blocklist.checkbox.label	"無効化する">
