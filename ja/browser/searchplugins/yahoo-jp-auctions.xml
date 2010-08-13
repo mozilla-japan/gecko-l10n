@@ -7,7 +7,7 @@
 <Url type="text/html" method="GET" template="http://search.auctions.yahoo.co.jp/jp/search/auc">
   <Param name="p" value="{searchTerms}"/>
   <Param name="ei" value="EUC-JP"/>
-  <MozParam name="fr" condition="pref" pref="yahoo-fr-cjkt" />
+  <MozParam name="fr" condition="pref" pref="yahoo-fr-ja" />
   <Param name="rls" value="{moz:distributionID}:ja-JP:{moz:official}"/>
   <Param name="alocale" value="0jp"/>
   <Param name="acc" value="jp"/>

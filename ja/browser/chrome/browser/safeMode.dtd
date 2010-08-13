@@ -40,7 +40,7 @@
 <!ENTITY window.width			"37em">
 
 <!ENTITY safeModeDescription.label	"&brandShortName; はセーフモードで実行されており、ユーザ設定、テーマ、拡張機能はすべて一時的に無効化されています。">
-<!ENTITY safeModeDescription2.label	"これらの一部またはすべてを恒久的に変更できます:">
+<!ENTITY safeModeDescription2.label	"以下の項目については恒久的に変更できます:">
 
 <!ENTITY disableAddons.label		"すべてのアドオンを無効化する">
 <!ENTITY disableAddons.accesskey	"D">
@@ -48,8 +48,8 @@
 <!ENTITY resetToolbars.label		"ツールバーとコントロールをリセットする"><!-- Reset toolbars and controls -->
 <!ENTITY resetToolbars.accesskey	"R">
 
-<!ENTITY resetBookmarks.label		"ブックマークをリセットする">
-<!ENTITY resetBookmarks.accesskey	"b">
+<!ENTITY deleteBookmarks.label		"バックアップ以外すべてのブックマークを削除する">
+<!ENTITY deleteBookmarks.accesskey	"b">
 
 <!ENTITY resetUserPrefs.label		"すべてのユーザ設定をリセットする">
 <!ENTITY resetUserPrefs.accesskey	"p">

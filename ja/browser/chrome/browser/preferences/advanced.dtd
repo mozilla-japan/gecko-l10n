@@ -25,6 +25,8 @@
 <!ENTITY alwaysCheckDefault.accesskey		"w">
 <!ENTITY checkNow.label				"今すぐ確認">
 <!ENTITY checkNow.accesskey			"N">
+<!ENTITY submitCrashes.label			"クラッシュレポートを送信">
+<!ENTITY submitCrashes.accesskey		"S">
 
 <!ENTITY networkTab.label			"ネットワーク">
 
@@ -54,8 +56,8 @@
 <!ENTITY autoCheck.label			"次のソフトウェアの更新を自動的に確認する:">
 <!ENTITY enableAppUpdate.label			"&brandShortName;">
 <!ENTITY enableAppUpdate.accesskey		"F">
-<!ENTITY enableAddonsUpdate.label		"アドオン">
-<!ENTITY enableAddonsUpdate.accesskey		"n">
+<!ENTITY enableAddonsUpdate2.label		"アドオン">
+<!ENTITY enableAddonsUpdate2.accesskey		"n">
 <!ENTITY enableSearchUpdate.label		"検索エンジン">
 <!ENTITY enableSearchUpdate.accesskey		"h">
 <!ENTITY whenUpdatesFound.label			"&brandShortName; の更新が見つかったとき:">
