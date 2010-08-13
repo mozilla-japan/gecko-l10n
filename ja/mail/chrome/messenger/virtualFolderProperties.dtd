@@ -12,3 +12,7 @@
 
 <!ENTITY searchOnline.label		"オンラインで検索 (IMAP や ニュースフォルダでも最新の結果が得られますが、フォルダを開くのに時間がかかります)">
 <!ENTITY searchOnline.accesskey		"S">
+<!ENTITY newFolderButton.label		"作成">
+<!ENTITY newFolderButton.accesskey	"r">
+<!ENTITY editFolderButton.label		"更新">
+<!ENTITY editFolderButton.accesskey	"U">

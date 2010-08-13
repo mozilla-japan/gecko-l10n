@@ -108,6 +108,8 @@
 <!ENTITY saveAsAttachmentCmd.accesskey		"A">
 <!ENTITY detachAttachmentCmd.label		"添付ファイルを分離...">
 <!ENTITY deleteAttachmentCmd.label		"削除">
+<!ENTITY openAllAttachmentsCmd.label		"すべて開く...">
+<!ENTITY openAllAttachmentsCmd.accesskey	"O">
 <!ENTITY saveAllAttachmentsCmd.label		"すべて保存...">
 <!ENTITY saveAllAttachmentsCmd.accesskey	"S">
 <!ENTITY detachAllAttachmentsCmd.label		"すべて分離...">

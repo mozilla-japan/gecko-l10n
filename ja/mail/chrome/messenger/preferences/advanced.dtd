@@ -39,13 +39,13 @@
 <!ENTITY markAsReadDelay.accesskey		"d">
 <!ENTITY secondsLabel.label			"秒間以上表示していたら既読にする">
 <!ENTITY openMsgIn.label			"メッセージを次の場所に開く:">
-<!ENTITY openMsgInNewTab.label			"@@NewTab@@で開く">
+<!ENTITY openMsgInNewTab.label			"@@NewTab@@">
 <!ENTITY openMsgInNewTab.accesskey		"t">
-<!ENTITY reuseExpRadio0.label			"@@New-CMD@@メッセージ@@Window@@で開く">
+<!ENTITY reuseExpRadio0.label			"@@New-CMD@@メッセージ@@Window@@">
 <!ENTITY reuseExpRadio0.accesskey		"n">
-<!ENTITY reuseExpRadio1.label			"既存のメッセージ@@Window@@で開く">
+<!ENTITY reuseExpRadio1.label			"既存のメッセージ@@Window@@">
 <!ENTITY reuseExpRadio1.accesskey		"e">
-<!ENTITY closeMsgWindowOnDelete.label		"削除時にメッセージ@@Window@@を閉じる">
+<!ENTITY closeMsgWindowOnMoveOrDelete.label	"移動時または削除時にメッセージ@@Window@@を閉じる">
 <!ENTITY closeMsgWindowOnDelete.accesskey	"C">
 
 <!-- Update -->
