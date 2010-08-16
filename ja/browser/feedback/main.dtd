@@ -1,0 +1,31 @@
+<!-- (^^; このファイルはまだ作業途中 -->
+<!ENTITY testpilot.brand.label                      "Test Pilot"><!-- (^^;test pilotはあやしい -->
+<!-- browser window: menu and status bar -->
+<!ENTITY testpilot.settings.label                   "設定">
+<!ENTITY testpilot.settings.notifyMeWhen.label      "次のときは通知する">
+<!ENTITY testpilot.settings.readyToSubmit.label     "調査結果を送信する準備ができたとき">
+<!ENTITY testpilot.settings.newStudy.label          "新しい調査があるとき">
+<!ENTITY testpilot.settings.hasNewResults.label     "新しい調査結果があるとき">
+<!ENTITY testpilot.settings.alwaysSubmitData.label  "自動的にデータを送信する (通知しない)">
+<!ENTITY testpilot.allStudies.label                 "All Your User Studies">
+<!ENTITY testpilot.about.label                      "Test Pilotについて">
+
+<!-- all studies window -->
+<!ENTITY testpilot.studiesWindow.title                  "Your Test Pilot Studies">
+<!ENTITY testpilot.studiesWindow.currentStudies.label   "調査中の調査">
+<!ENTITY testpilot.studiesWindow.finishedStudies.label  "終了した調査">
+<!ENTITY testpilot.studiesWindow.studyFindings.label    "Study Findings">
+<!ENTITY testpilot.studiesWindow.settings.label         "設定">
+<!ENTITY testpilot.studiesWindow.stillLoadingMessage    "ロード中">
+
+<!-- raw data dialog -->
+<!ENTITY testpilot.rawDataWindow.title                  "Test Pilot: Raw Data">
+
+<!-- notification -->
+<!ENTITY testpilot.notification.close.tooltip            "閉じる">
+
+<!-- Firefox 4 beta version UI -->
+<!ENTITY testpilot.enable.label                        "Turn On User Studies">
+<!ENTITY testpilot.feedbackbutton.label                "Feedback">
+<!ENTITY testpilot.happy.label        "Firefox Made Me Happy Because…">
+<!ENTITY testpilot.sad.label          "Firefox Made Me Sad Because…">
