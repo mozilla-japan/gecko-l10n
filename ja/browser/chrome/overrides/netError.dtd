@@ -148,6 +148,9 @@
 <p>この種の偽装サイトはフィッシングと呼ばれる詐欺に使われています。本物のサイトに見せかけた詐欺ページを作り、あなたに信頼させようとしているのです。</p>
 ">
 
+<!ENTITY cspFrameAncestorBlocked.title		"Blocked by Content Security Policy"> <!-- (^^h 未訳 -->
+<!ENTITY cspFrameAncestorBlocked.longDesc	"<p>&brandShortName; prevented this page from loading in this way because the page has a content security policy that disallows it.</p>"> <!-- (^^h 未訳 -->
+
 <!ENTITY securityOverride.linkText		"例外として扱うこともできます...">
 <!ENTITY securityOverride.getMeOutOfHereButton	"スタートページに戻る">
 <!ENTITY securityOverride.exceptionButtonLabel	"例外を追加...">

@@ -53,6 +53,7 @@
 <!ENTITY  font.langGroup.telugu		"テルグ語">
 <!ENTITY  font.langGroup.kannada	"カナラ語">
 <!ENTITY  font.langGroup.sinhala	"シンハラ語"><!-- (^^; win 対応不明 -->
+<!ENTITY  font.langGroup.tibetan	"チベット語">
 <!-- Minimum font size -->
 <!ENTITY minSize.label			"最小フォントサイズ:">
 <!ENTITY minSize.accesskey		"o">

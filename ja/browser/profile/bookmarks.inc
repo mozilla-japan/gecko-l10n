@@ -7,10 +7,6 @@
 #define bookmarks_title ブックマーク
 #define bookmarks_heading ブックマーク
 
-# LOCALIZATION NOTE (bookmarks_addons):
-# link title for https://en-US.add-ons.mozilla.com/en-US/firefox/bookmarks/
-#define bookmarks_addons ブックマークのアドオンを入手
-
 #define bookmarks_toolbarfolder ブックマークツールバーフォルダ
 #define bookmarks_toolbarfolder_description このフォルダの中身がブックマークツールバーに表示されます
 
