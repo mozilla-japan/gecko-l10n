@@ -8,4 +8,4 @@
 <!ENTITY closeCmdGNOME.label		"閉じる">
 <!ENTITY closeCmdGNOME.accesskey	"C">
 <!ENTITY licenseLinkText		"ライセンス情報">
-<!ENTITY licenseLinkSuffix		".">
+<!ENTITY licenseLinkSuffix		"">
