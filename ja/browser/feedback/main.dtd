@@ -1,25 +1,27 @@
 <!-- (^^; このファイルはまだ作業途中 -->
-<!ENTITY testpilot.brand.label                      "Test Pilot"><!-- (^^;test pilotはあやしい -->
+<!ENTITY testpilot.brand.label                      "Test Pilot"><!-- (^^; test pilotはあやしい -->
 <!-- browser window: menu and status bar -->
 <!ENTITY testpilot.settings.label                   "設定">
-<!ENTITY testpilot.settings.notifyMeWhen.label      "次のときは通知する">
+<!ENTITY testpilot.settings.dataSubmission.label    "データを送信">
+<!ENTITY testpilot.settings.notifications.label     "通知">
+<!ENTITY testpilot.settings.notifyWhen.label        "次のときに通知する:">
 <!ENTITY testpilot.settings.readyToSubmit.label     "調査結果を送信する準備ができたとき">
 <!ENTITY testpilot.settings.newStudy.label          "新しい調査があるとき">
 <!ENTITY testpilot.settings.hasNewResults.label     "新しい調査結果があるとき">
 <!ENTITY testpilot.settings.alwaysSubmitData.label  "自動的にデータを送信する (通知しない)">
-<!ENTITY testpilot.allStudies.label                 "All Your User Studies">
-<!ENTITY testpilot.about.label                      "Test Pilotについて">
+<!ENTITY testpilot.allYourStudies.label             "All Your User Studies…">
+<!ENTITY testpilot.about.label                      "Test Pilot について">
 
 <!-- all studies window -->
-<!ENTITY testpilot.studiesWindow.title                  "Your Test Pilot Studies">
+<!ENTITY testpilot.studiesWindow.title                  "Test Pilot による調査">
 <!ENTITY testpilot.studiesWindow.currentStudies.label   "調査中の調査">
 <!ENTITY testpilot.studiesWindow.finishedStudies.label  "終了した調査">
 <!ENTITY testpilot.studiesWindow.studyFindings.label    "Study Findings">
 <!ENTITY testpilot.studiesWindow.settings.label         "設定">
-<!ENTITY testpilot.studiesWindow.stillLoadingMessage    "ロード中">
+<!ENTITY testpilot.studiesWindow.stillLoadingMessage    "読み込み中です。しばらくお待ちください...">
 
 <!-- raw data dialog -->
-<!ENTITY testpilot.rawDataWindow.title                  "Test Pilot: Raw Data">
+<!ENTITY testpilot.rawDataWindow.title                  "Test Pilot: 生のデータ">
 
 <!-- notification -->
 <!ENTITY testpilot.notification.close.tooltip            "閉じる">
