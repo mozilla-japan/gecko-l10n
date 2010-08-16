@@ -9,7 +9,7 @@
 <!ENTITY testpilot.settings.newStudy.label          "新しい調査があるとき">
 <!ENTITY testpilot.settings.hasNewResults.label     "新しい調査結果があるとき">
 <!ENTITY testpilot.settings.alwaysSubmitData.label  "自動的にデータを送信する (通知しない)">
-<!ENTITY testpilot.allYourStudies.label             "All Your User Studies…">
+<!ENTITY testpilot.allYourStudies.label             "All Your User Studies...">
 <!ENTITY testpilot.about.label                      "Test Pilot について">
 
 <!-- all studies window -->

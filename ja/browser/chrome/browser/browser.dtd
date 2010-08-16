@@ -14,9 +14,9 @@
 <!-- Tab context menu -->
 <!ENTITY moveTabTo.label		"タブを移動...">
 <!ENTITY moveTabTo.accesskey		"M">
-<!ENTITY createNewGroup.label		"@@NewTab@@グループ"> <!-- (^^h 未使用？ -->
+<!ENTITY createNewGroup.label		"@@NewTab@@グループ">
 <!ENTITY createNewGroup.accesskey	"C">
-<!ENTITY namedGroups.label		"タブグループ"> <!-- (^^h 未使用？ -->
+<!ENTITY namedGroups.label		"名前のついたグループ">
 <!ENTITY reloadTab.label		"タブを再読み込み">
 <!ENTITY reloadTab.accesskey		"R">
 <!ENTITY reloadAllTabs.label		"すべてのタブを再読み込み">
@@ -132,18 +132,18 @@
 
 <!-- Toolbar items -->
 <!ENTITY  homeButton.label		"ホーム">
-<!ENTITY tabViewButton2.label		"Tab Groups"> <!-- (^^h 未使用？ -->
-<!ENTITY tabViewButton2.tooltip		"Group Your Tabs"> <!-- (^^h 未使用？ -->
+<!ENTITY tabViewButton2.label		"タブグループ">
+<!ENTITY tabViewButton2.tooltip		"タブをグループ分けして管理できます">
 
 <!ENTITY bookmarksButton.label		"ブックマーク">
 <!ENTITY bookmarksButton.tooltip	"ブックマークをサイドバーに表示します">
 <!ENTITY bookmarksButton.accesskey	"B">
 <!ENTITY bookmarksCmd.commandkey	"b">
 
-<!ENTITY bookmarksMenuButton.label	"ブックマーク"> <!-- (^^h 画面未確認 -->
-<!ENTITY bookmarksMenuButton.tooltip	"ブックマークをサイドバーに表示します"> <!-- (^^h 画面未確認 -->
-<!ENTITY viewBookmarksSidebar.label	"Show in Sidebar"> <!-- (^^h 画面未確認 -->
-<!ENTITY viewBookmarksToolbar.label	"View Bookmarks Toolbar"> <!-- (^^h 画面未確認 -->
+<!ENTITY bookmarksMenuButton.label	"ブックマーク">
+<!ENTITY bookmarksMenuButton.tooltip	"ブックマークを表示">
+<!ENTITY viewBookmarksSidebar.label	"ブックマークをサイドバーに表示します">
+<!ENTITY viewBookmarksToolbar.label	"ブックマークをツールバーに表示します">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
