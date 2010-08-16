@@ -1,0 +1,44 @@
+<!-- The page shown when not logged in... -->
+<!ENTITY setupButton.label          "&syncBrand.fullName.label;　を設定">
+<!ENTITY setupButton.accesskey      "S">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; を使えば、Firefox の履歴やブックマーク、パスワード、開いているタブに、様々な端末からアクセスできます。">
+
+<!-- The page shown when logged in... -->
+<!ENTITY accountGroupboxCaption.label "&syncBrand.fullName.label; アカウント">
+<!ENTITY currentUser.label            "現在のユーザ:">
+
+<!-- Login error feedback -->
+<!ENTITY updatePass.label             "更新">
+<!ENTITY resetPass.label              "リセット">
+
+<!-- Manage Account -->
+<!ENTITY manageAccount.label          "アカウントを管理">
+<!ENTITY manageAccount.accesskey      "A">
+<!ENTITY changePassword.label         "パスワードを変更">
+<!ENTITY changePassphrase.label       "秘密の言葉を変更">
+<!ENTITY resetSync.label              "同期をリセット">
+<!ENTITY differentAccount.label       "別のアカウントを使用">
+
+<!-- Sync Settings -->
+<!ENTITY syncPrefsCaption.label       "ブラウザの同期">
+<!ENTITY syncComputerName.label       "コンピュータ名:">
+<!ENTITY syncComputerName.accesskey   "c">
+<!ENTITY syncModeSwitchDesc.label     "&brandShortName; will: ">
+<!ENTITY syncModeSwitchDesc.accesskey "w">
+<!ENTITY syncEverything.label         "すべてのデータを同期する">
+<!ENTITY customSync.label             "独自設定を使用する">
+<!ENTITY syncEverythingDescription.label  "あなたのブックマーク、履歴、パスワード、設定、タブが同期されます。">
+<!ENTITY syncItem.bookmarks.label     "ブックマークを同期">
+<!ENTITY syncItem.bookmarks.accesskey "m">
+<!ENTITY syncItem.tabs.label          "タブを同期">
+<!ENTITY syncItem.tabs.accesskey      "T">
+<!ENTITY syncItem.history.label       "履歴を同期">
+<!ENTITY syncItem.history.accesskey   "r">
+<!ENTITY syncItem.passwords.label     "パスワードを同期">
+<!ENTITY syncItem.passwords.accesskey "P">
+<!ENTITY syncItem.prefs.label         "設定を同期">
+<!ENTITY syncItem.prefs.accesskey     "S">
+
+<!-- Footer stuff -->
+<!ENTITY prefs.tosLink.label        "利用規約">
+<!ENTITY prefs.ppLink.label         "プライバシーポリシー">
