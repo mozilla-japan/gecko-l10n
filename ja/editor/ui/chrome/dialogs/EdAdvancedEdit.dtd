@@ -43,7 +43,7 @@
    - 
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY WindowTitle.label		"詳細エディタ"><!-- (^^; Advanced Property Editor というが、Property より Attribute 主体… -->
+<!ENTITY WindowTitle.label		"詳細エディタ"><!-- (^^; Advanced Property Editor というが、Property より Attribute 主体... -->
 <!ENTITY AttName.label			"属性:">
 <!ENTITY AttValue.label			"値:">
 <!ENTITY PropertyName.label		"プロパティ:">

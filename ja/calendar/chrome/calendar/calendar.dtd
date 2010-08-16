@@ -81,7 +81,7 @@
 <!ENTITY calendar.unifinder.tree.location.label		"場所">
 <!ENTITY calendar.unifinder.tree.status.label		"状態">
 <!ENTITY calendar.unifinder.tree.calendarname.label	"カレンダー名">
-<!ENTITY calendar.unifinder.tree.duration.label		"締切まで"><!-- (^a^) 残り時間、締切までの時間、締切まであと、… -->
+<!ENTITY calendar.unifinder.tree.duration.label		"締切まで"><!-- (^a^) 残り時間、締切までの時間、締切まであと -->
 <!ENTITY calendar.unifinder.close.tooltip		"予定検索と予定リストを閉じます">
 
 <!ENTITY calendar.today.button.tooltip			"今日に移動します" >

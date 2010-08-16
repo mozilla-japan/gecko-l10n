@@ -104,7 +104,7 @@
         <p>
           このヘルプシステムの他には
           <a href="https://developer.mozilla.org/ja/Venkman">MDC の Venkman ページ</a>
-          <!-- (^^; どこかに Venkman 関連資料を復活させてから…
+          <!-- (^^; どこかに Venkman 関連資料を復活させてから...
           <a href="http://jt.mozilla.gr.jp/projects/venkman/">Venkman ホームページ</a> や
           <a href="http://skillup.jp/venkman/faq/venkman-faq.html">Venkman FAQ</a> -->
           などをご覧ください。</p>
