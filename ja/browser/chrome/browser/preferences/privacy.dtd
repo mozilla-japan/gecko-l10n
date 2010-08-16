@@ -11,10 +11,10 @@
 <!ENTITY  locbar.nothing.label		"候補を表示しない">
 
 <!ENTITY  acceptCookies.label		"サイトから送られてきた Cookie を保存する">
-<!ENTITY  acceptCookies.accesskey	"c">
+<!ENTITY  acceptCookies.accesskey	"A">
 
 <!ENTITY  acceptThirdParty.label	"サードパーティの Cookie も保存する">
-<!ENTITY  acceptThirdParty.accesskey	"p">
+<!ENTITY  acceptThirdParty.accesskey	"c">
 
 <!ENTITY  keepUntil.label		"Cookie を保存する期間:">
 <!ENTITY  keepUntil.accesskey		"K">
@@ -56,7 +56,7 @@
 <!ENTITY  dontrememberActions.post.label		" できます。">
 
 <!ENTITY  privateBrowsingPermanent.label		"自動的にプライベートブラウジングモードで &brandShortName; を起動する">
-<!ENTITY  privateBrowsingPermanent.accesskey		"A">
+<!ENTITY  privateBrowsingPermanent.accesskey		"P">
 
 <!ENTITY  rememberHistory.label			"表示したページの履歴を残す">
 <!ENTITY  rememberHistory.accesskey		"b">
