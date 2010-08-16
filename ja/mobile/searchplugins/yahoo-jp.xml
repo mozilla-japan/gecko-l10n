@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
-<ShortName>Yahoo! JAPAN</ShortName>
-<Description>Yahoo Search</Description>
+<ShortName>Yahoo!</ShortName>
+<Description>検索エンジン - Yahoo! JAPAN</Description>
 <InputEncoding>UTF-8</InputEncoding>
-<Url type="application/x-suggestions+json" method="GET"
-     template="http://search.yahooapis.jp/AssistSearchService/V2/webassistSearch">
-  <Param name="p" value="{searchTerms}"/>
-  <Param name="output" value="fxjson"/>
-</Url>
-<Image width="16" height="16">data:image/x-icon;base64,R0lGODlhEAAQAJECAP8AAAAAAP///wAAACH5BAEAAAIALAAAAAAQABAAAAIplI+py+0NogQuyBDEnEd2kHkfFWUamEzmpZSfmaIHPHrRguUm/fT+UwAAOw==</Image>
+<Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEX///+AgIDAwMCAAAD/AAAAAAACIauWAAAAAXRSTlMAQObYZgAAAItJREFUKJHFj0EOhCAMRWvEfTMZ917BBXsNn70mcv+r2BZwlAM4fwHl9fOhRP8RVEsL1nL4gqk/gHG/uoHIAR9bAQHR8DplwMBM1XLA7wI2qhZEliowFYsLEtxZRLbAs3bmDMSiBtm36/2kl134Afuai/QEXWrAfUIDdWobGFr4OxBPXzKGpGpSXtYJecAhQ9mJnQUAAAAASUVORK5CYII=</Image>
 <Url type="text/html" method="GET" template="http://search.yahoo.co.jp/search">
   <Param name="p" value="{searchTerms}"/>
   <Param name="ei" value="UTF-8"/>
-  <MozParam name="fr" condition="pref" pref="yahoo-fr-cjkt" />
-  <Param name="rls" value="{moz:distributionID}:ja-JP:{moz:official}"/>
+  <MozParam name="fr" condition="pref" pref="yahoo-fr-ja" />
 </Url>
 <SearchForm>http://search.yahoo.co.jp/</SearchForm>
 </SearchPlugin>

@@ -1,24 +1,10 @@
-<!-- LOCALIZATION NOTE (mainWindow.titleseparator): DONT_TRANSLATE -->
-<!ENTITY mainWindow.titleseparator " - ">
-
 <!ENTITY back.label            "戻る">
-<!ENTITY back.tooltip          "前のページへ戻ります">
 <!ENTITY forward.label         "進む">
-<!ENTITY forward.tooltip       "次のページへ進みます">
 <!ENTITY reload.label          "再読み込み">
-<!ENTITY reload.tooltip        "ページを再読み込みします">
 <!ENTITY stop.label            "中止">
-<!ENTITY stop.tooltip          "ページの読み込みを中止します">
-<!ENTITY search.label          "検索">
-<!ENTITY search.tooltip        "キーワードで検索します">
 <!ENTITY go.label              "移動">
-<!ENTITY go.tooltip            "入力された URL に移動します">
 <!ENTITY openLocation.label    "URL を開く">
-<!ENTITY openLocation.tooltip  "URL を指定してページを開きます">
 <!ENTITY star.label            "星">
-<!ENTITY star.tooltip          "このページをブックマーク">
-<!ENTITY bookmarks.label       "ブックマーク">
-<!ENTITY bookmarks.tooltip     "ブックマークを表示">
 
 <!ENTITY newtab.label          "@@NewTab@@">
 <!ENTITY closetab.label        "タブを閉じる">
@@ -34,62 +20,75 @@
 
 <!ENTITY bookmarksHeader.label     "ブックマーク">
 <!ENTITY bookmarksManage.label     "管理">
-<!ENTITY foldersHeader.label       "フォルダ">
 
-<!ENTITY editBookmarkEdit.label    "編集">
-<!ENTITY editBookmarkMove.label    "移動">
+<!ENTITY editBookmarkRemove.label  "削除">
 <!ENTITY editBookmarkDone.label    "完了">
 <!ENTITY editBookmarkTags.label    "ここにタグを入力してください">
 
-<!ENTITY findOnCmd.label     "ページ内を検索...">
-<!ENTITY findOnCmd.accesskey "F">
-<!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "次を検索">
-<!ENTITY findAgainCmd.accesskey "g">
-<!ENTITY findAgainCmd.commandkey "g">
-<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY helperApp.prompt          "このファイルをどうしますか？">
+<!ENTITY helperApp.open            "開く">
+<!ENTITY helperApp.save            "保存">
+<!ENTITY helperApp.nothing         "何もしない">
+
+<!ENTITY formHelper.previous       "前へ">
+<!ENTITY formHelper.next           "次へ">
+<!ENTITY formHelper.done           "完了">
 
 <!ENTITY addonsHeader.label        "アドオン">
 <!ENTITY addonsLocal.label         "インストールされているアドオン">
+<!ENTITY addonsUpdate.label        "更新">
 <!ENTITY addonsRepo.label          "アドオンを入手">
 <!ENTITY addonsRecommended.label   "おすすめ">
 <!ENTITY addonsSearch.label        "検索">
-<!ENTITY addonsSearch.emptytext    "すべてのアドオンを検索">
+<!ENTITY addonsSearch2.emptytext   "アドオンを検索">
+<!ENTITY addonsSearch.recommended  "おすすめ">
 
 <!ENTITY addonOptions.label        "オプション">
 <!ENTITY addonEnable.label         "有効化">
 <!ENTITY addonDisable.label        "無効化">
-<!ENTITY addonInstall.label        "追加">
+<!ENTITY addonInstall2.label       "&brandShortName; に追加">
 <!ENTITY addonUninstall.label      "削除">
 <!ENTITY addonCancel.label         "キャンセル">
-<!ENTITY addonShowPage.label       "ページを表示">
+<!ENTITY addonShowPage.label       "詳細を表示">
 
 <!ENTITY downloadsHeader.label     "ダウンロード">
-<!ENTITY downloadsSortDate.label   "日時">
-<!ENTITY downloadsSortSite.label   "サイト">
-<!ENTITY downloadsSortName.label   "名前">
-<!ENTITY downloadsSearch.label     "検索">
-<!ENTITY downloadsSearch.emptytext "ダウンロードしたファイルを検索">
 
-<!ENTITY downloadShowPage.label    "ページを表示">
+<!ENTITY downloadShowPage.label    "ページを表示"><!-- ダウンロードしたページを表示 -->
 <!ENTITY downloadShow2.label       "検索">
 <!ENTITY downloadOpen2.label       "開く">
 <!ENTITY downloadCancel.label      "キャンセル">
 <!ENTITY downloadPause.label       "中断">
 <!ENTITY downloadResume.label      "再開">
-<!ENTITY downloadRetry.label       "再試行">
+<!ENTITY downloadRetry.label       "リトライ">
+<!ENTITY downloadRemove.label      "消去"><!-- 履歴を消去(ファイルの削除ではない) -->
+<!ENTITY downloadFailed.label      "ダウンロード失敗">
+
+<!ENTITY noResults.label           "該当する履歴はありません">
+<!ENTITY allBookmarks.label        "すべてのブックマークを表示">
+
+<!ENTITY searchEngine.addSearch    "検索エンジンを追加:">
+
+<!ENTITY bookmarkPopup.label       "ブックマーク">
+<!ENTITY bookmarkRemove.label      "削除">
+<!ENTITY bookmarkEdit.label        "編集">
 
 <!ENTITY identity.unverifiedsite2 "この Web サイトは認証されていません">
-<!ENTITY identity.connectedTo "この Web サイトは認証されています">
-<!-- Localization note (identity.runBy) : This string appears between a
-domain name (above) and an organization name (below). E.g.
+<!ENTITY identity.connectedTo2 "この Web サイトは認証されています">
+<!-- Localization note (identity.runBy2)
+ The layout of the identity dialog prevents combining this into a single string with
+ substitution variables.  If it is difficult to translate the sense of the string
+ with that structure, consider a translation which ignores the preceding domain and
+ just addresses the organization to follow, e.g. "This site is run by " -->
+<!ENTITY identity.runBy2 "このサイトの運営者:">
 
-example.com
-which is run by
-Example Enterprises, Inc.
-
-The layout of the identity dialog prevents combining this into a single string with
-substitution variables.  If it is difficult to translate the sense of the string
-with that structure, consider a translation which ignores the preceding domain and
-just addresses the organization to follow, e.g. "This site is run by " -->
-<!ENTITY identity.runBy "このサイトの運営者:">
+<!ENTITY consoleHeader.label       "エラーコンソール">
+<!ENTITY consoleAll.label          "すべて">
+<!ENTITY consoleErrors.label       "エラー">
+<!ENTITY consoleWarnings.label     "警告">
+<!ENTITY consoleMessages.label     "メッセージ">
+<!ENTITY consoleCodeEval.label     "コード:">
+<!ENTITY consoleClear.label        "消去">
+<!ENTITY consoleEvaluate.label     "...">
+<!ENTITY consoleErrFile.label      "ソースファイル:">
+<!ENTITY consoleErrLine.label      "行:">
+<!ENTITY consoleErrColumn.label    "列:">
