@@ -1,0 +1,10 @@
+<!-- 文化の違いにより原文は半ば無視 -->
+<!ENTITY welcome.title                      "&brandShortName; スタートページ">
+<!ENTITY intro.description                  "
+パソコンの Firefox と自動同期したり、アドオンで自分好みにカスタマイズできます。モバイルでも &brandShortName; で快適な Web ブラウジングをお楽しみください。"><!-- ...履歴や Web の検索が統合されたロケーションバー... -->
+<!ENTITY weave.title                        "データを同期しよう">
+<!ENTITY weave.description                  "パソコンの Firefox と、ブックマーク、ページの表示履歴、保存されているパスワード、開いているタブなどを自動的に同期できます。使い慣れた Firefox を Weave Sync で携帯してください。">
+<!ENTITY weave.linkLabel                    "Weave Sync を入手">
+<!ENTITY getPersonal.title                  "自分らしいブラウザにしよう">
+<!ENTITY getPersonal.description            "&brandShortName; はアドオンをサポートする史上初のモバイルブラウザです。好きなアドオンを追加して自分専用のブラウザを作ってください。">
+<!ENTITY getPersonal.linkLabel              "アドオンを入手">
