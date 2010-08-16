@@ -77,3 +77,4 @@ toolkit                 48929:597d4d94e56c  6081:2d3ab7e88814   mar             
 mail                    -----:------------  6151:8412fc6cd192   mar             sync mail, changeset 704
 browser                 -----:------------  ----:------------   dynamis         merge from 1.9.2 changeset 705
 browser                 50644:db5153579167  6169:e3372ae4c8a8   hATrayflood...  partial sync browser by hATrayflood, akioka, kato, ksakai, mactkg, nakajima, shibata
+services/sync           -----:------------  ----:------------   mar             copy from /branches/weave/ja/services
