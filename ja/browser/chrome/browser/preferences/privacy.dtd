@@ -55,18 +55,11 @@
 <!ENTITY  dontrememberActions.clearHistory.label	"現在の履歴をすべて消去">
 <!ENTITY  dontrememberActions.post.label		" できます。">
 
-<!ENTITY  privateBrowsingAutoStart.label		"自動的にプライベートブラウジングモードで &brandShortName; を起動する">
-<!ENTITY  privateBrowsingAutoStart.accesskey		"A">
+<!ENTITY  privateBrowsingPermanent.label		"自動的にプライベートブラウジングモードで &brandShortName; を起動する">
+<!ENTITY  privateBrowsingPermanent.accesskey		"A">
 
-<!-- LOCALIZATION NOTE:
-  The entities rememberHistory.pre.label and rememberHistory.post.label appear on a single
-  line in preferences as follows:
-
-  &rememberHistory.pre.label  [ textbox for number of days ]  &rememberHistory.post.label;
--->
-<!ENTITY  rememberHistory.pre.label		"表示したページの履歴を少なくとも">
-<!ENTITY  rememberHistory.pre.accesskey		"b">
-<!ENTITY  rememberHistory.post.label		"日分は残す">
+<!ENTITY  rememberHistory.label			"表示したページの履歴を残す">
+<!ENTITY  rememberHistory.accesskey		"b">
 
 <!ENTITY  rememberDownload.label		"ファイルのダウンロード履歴を記憶させる">
 <!ENTITY  rememberDownload.accesskey		"d">

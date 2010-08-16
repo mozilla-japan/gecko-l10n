@@ -21,8 +21,8 @@
 <!ENTITY helpReleaseNotes.label		"リリースノート">
 <!ENTITY helpReleaseNotes.accesskey	"N">
 
-<!ENTITY helpTroubleshooting.label	"トラブルシューティング情報...">
-<!ENTITY helpTroubleshooting.accesskey	"T">
+<!ENTITY helpTroubleshootingInfo.label	"トラブルシューティング情報...">
+<!ENTITY helpTroubleshootingInfo.accesskey "T">
 
 <!ENTITY updateCmd.label		"ソフトウェアの更新を確認...">
 

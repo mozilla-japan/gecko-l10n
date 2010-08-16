@@ -4,7 +4,7 @@
 <!ENTITY places.library.height			"500"><!-- en-US: 500 -->
 <!ENTITY organize.label				"管理">
 <!ENTITY organize.accesskey			"O">
-<!ENTITY organize.tooltip			"ブックマークを管理します">
+<!ENTITY organize.tooltip			"履歴とブックマークを管理します">
 
 <!ENTITY file.accesskey				"F">
 <!ENTITY file.close.label			"@@CloseCMD@@">

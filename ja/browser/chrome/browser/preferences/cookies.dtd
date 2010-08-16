@@ -3,6 +3,7 @@
 <!ENTITY     cookiesonsystem.label		"以下の Cookie が保存されています:">
 <!ENTITY     cookiename.label			"Cookie 名">
 <!ENTITY     cookiedomain.label			"サイト"> 
+<!ENTITY     button.removecookies.label		"Cookie を削除">
 <!ENTITY     button.removecookie.label		"Cookie を削除">
 <!ENTITY     button.removecookie.accesskey	"R">
 <!ENTITY     button.removeallcookies.label	"すべての Cookie を削除">
