@@ -523,7 +523,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY notJunkButton.tooltip		"メッセージの迷惑マークを外します">
 <!ENTITY addressBookButton.tooltip	"アドレス帳を開きます">
 <!ENTITY tagButton.tooltip		"メッセージにタグを付けます">
-<!ENTITY compactButton.tooltip		"削除したメッセージをフォルダから消去します"><!-- (^^; わかりにくい… -->
+<!ENTITY compactButton.tooltip		"削除したメッセージをフォルダから消去します"><!-- (^^; わかりにくい... -->
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label		"@@New-CMD@@タグ...">

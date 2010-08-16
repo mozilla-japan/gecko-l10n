@@ -1,4 +1,4 @@
-<!-- (^^; en-US の UI 画面自体がイマイチな気がするし、訳しにくすぎ…(>_<) -->
+<!-- (^^; en-US の UI 画面自体がイマイチな気がするし、訳しにくすぎ...(>_<) -->
 <!ENTITY doNotDownloadPop3Movemail.label	"次のメッセージはダウンロードしない:">
 <!ENTITY doNotDownloadNntp.label		"次のメッセージはオフライン表示用にダウンロードしない:">
 <!ENTITY doNotDownloadImap.label		"指定したサイズまたは期間のメッセージをオフライン表示用にダウンロードしてローカルにコピーを保存します。">

@@ -54,7 +54,7 @@
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel		"リセット">
 <!ENTITY resetPassword.title			"マスターパスワードのリセット">
-<!ENTITY resetPassword.text			"マスターパスワードをリセットすると、保存されているすべての Web やメールのパスワード、フォームデータ、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？"><!-- (^^; 保護対象はアプリによって異なるが、使われないので問題なし…のハズ -->
+<!ENTITY resetPassword.text			"マスターパスワードをリセットすると、保存されているすべての Web やメールのパスワード、フォームデータ、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？"><!-- (^^; 保護対象はアプリによって異なるが、使われないので問題なし...のハズ -->
 
 <!-- Values for getpassword.xul -->
 <!ENTITY getPassword.title			"マスターパスワードの入力">
