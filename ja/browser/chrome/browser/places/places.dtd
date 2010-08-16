@@ -4,7 +4,7 @@
 <!ENTITY places.library.height			"500"><!-- en-US: 500 -->
 <!ENTITY organize.label				"管理">
 <!ENTITY organize.accesskey			"O">
-<!ENTITY organize.tooltip      "ブックマークを管理します">
+<!ENTITY organize.tooltip			"ブックマークを管理します">
 
 <!ENTITY file.accesskey				"F">
 <!ENTITY file.close.label			"@@CloseCMD@@">
@@ -14,7 +14,7 @@
 <!ENTITY edit.accesskey				"E">
 <!ENTITY views.label				"表示">
 <!ENTITY views.accesskey			"V">
-<!ENTITY views.tooltip                  "ブラウザの表示を変更します">
+<!ENTITY views.tooltip				"履歴とブックマークの表示を変更します">
 <!ENTITY view.columns.label			"表示する列">
 <!ENTITY view.columns.accesskey			"C">
 <!ENTITY view.sort.label			"項目の表示順序">
@@ -109,7 +109,7 @@
 
 <!ENTITY maintenance.label			"@@ImportNoun@@とバックアップ">
 <!ENTITY maintenance.accesskey			"I">
-<!ENTITY maintenance.tooltip    	"ブックマークの@@ImportNoun@@とバックアップをおこないます">
+<!ENTITY maintenance.tooltip			"ブックマークの@@ImportNoun@@とバックアップができます">
 
 <!ENTITY backCmd.label				"戻る">
 <!ENTITY backButton.tooltip			"フォルダ表示履歴を前に戻ります">
