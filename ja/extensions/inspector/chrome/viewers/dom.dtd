@@ -40,10 +40,11 @@
 
 <!ENTITY cmdShowFindDialog.label		"ノードを検索...">
 <!ENTITY cmdShowFindDialog.accesskey		"f">
-<!ENTITY cmdShowFindDialog.accelkey		"f">
+<!ENTITY cmdShowFindDialog.key			"f">
 
-<!ENTITY cmdFindNext.label			"次を検索">
-<!ENTITY cmdFindNext.accesskey			"N">
+<!ENTITY cmdFindAgain.label			"次を検索">
+<!ENTITY cmdFindAgain.accesskey			"g">
+<!ENTITY cmdFindAgain.key			"G">
 
 <!ENTITY cmdToggleAnonContent.label		"無名コンテンツを表示">
 <!ENTITY cmdToggleAnonContent.accesskey		"a">
@@ -147,9 +148,10 @@
 <!ENTITY namespaceTitle.default.label		"ドキュメントのデフォルト">
 <!ENTITY namespaceTitle.custom.label		"ユーザ設定">
 
-<!-- LOCALIZATION NOTE: The following entities are names of W3C specifications.
-                Please consult http://www.w3.org/Consortium/Translation/
-                for appropriate translation or leave unchanged. -->
+<!-- LOCALIZATION NOTE: The following entities are names of W3C
+     specifications.  Please consult
+     http://www.w3.org/Consortium/Translation/ for appropriate translation
+     or leave unchanged. -->
 <!ENTITY namespaceTitle.XMLNS.label		"XMLNS">
 <!ENTITY namespaceTitle.XML.label		"XML">
 <!ENTITY namespaceTitle.XHTML.label		"XHTML">
@@ -164,7 +166,10 @@
 <!ENTITY namespaceTitle.WAIRoles.label		"WAI Roles">
 <!ENTITY namespaceTitle.WAIProperties.label	"WAI Properties">
 
-<!-- LOCALIZATION NOTE: Localizers can choose not to translate the following access keys. For a discussion about the pros and cons of such a decision, see https://bugzilla.mozilla.org/show_bug.cgi?id=398704, comments 1 and 2. -->
+<!-- LOCALIZATION NOTE: Localizers can choose not to translate the following
+     access keys. For a discussion about the pros and cons of such a
+     decision, see https://bugzilla.mozilla.org/show_bug.cgi?id=398704,
+     comments 1 and 2. -->
 <!ENTITY cbxStateHover.accesskey		"h">
 <!ENTITY cbxStateActive.accesskey		"a">
 <!ENTITY cbxStateFocus.accesskey		"f">
