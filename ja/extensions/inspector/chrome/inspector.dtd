@@ -17,8 +17,10 @@
   <!ENTITY mnInspectContentDocument.accesskey	"O">
   <!ENTITY mnInspectChromeDocument.label	"Chrome ドキュメントを調査">
   <!ENTITY mnInspectChromeDocument.accesskey	"H">
-  <!ENTITY cmdShowOpenURLDialog.label		"URL を調査...">
-  <!ENTITY cmdShowOpenURLDialog.accesskey	"U">
+  <!ENTITY cmdEnterLocation.label		"URL を調査">
+  <!ENTITY cmdEnterLocation.accesskey		"U">
+  <!ENTITY cmdEnterLocation.key			"L">
+  <!ENTITY cmdEnterLocation.key2		"D">
   <!ENTITY cmdSave.label			"@@Save-AsCMD@@ DOM を保存...">
   <!ENTITY cmdSave.accesskey			"S">
   <!ENTITY cmdClose.label			"@@CloseCMD@@">
@@ -40,9 +42,6 @@
   <!ENTITY cmdPaste.accesskey		"P">
   <!ENTITY cmdDelete.label		"削除">
   <!ENTITY cmdDelete.accesskey		"D">
-
-<!ENTITY mnSearch.label			"検索">
-<!ENTITY mnSearch.accesskey		"S">
 
 <!ENTITY mnView.label			"表示">
 <!ENTITY mnView.accesskey		"v">
