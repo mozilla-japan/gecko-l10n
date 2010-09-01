@@ -45,5 +45,3 @@
 <!ENTITY  clickFinish.label			"@@[@@完了@@]@@ をクリックすると &brandShortName; を起動します。">
 <!ENTITY  clickFinish.labelMac			"@@[@@完了@@]@@ をクリックすると &brandShortName; を起動します。">
 <!ENTITY  enableChecking.label			"更新を自動的に確認する。">
-<!ENTITY  details.label				"詳細...">
-<!ENTITY  details.accesskey			"D">

@@ -7,22 +7,14 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
  - (^a^)  note by a
  - (^^h   note by hATrayflood
 
-Firefox 4 beta 4 に向けて changeset 706〜720 で行われた変更には一部未訳箇所や UI 未確認箇所、用語不統一などがある。
+Firefox 4 beta 4 に向けて changeset 706?720 で行われた変更には一部未訳箇所や UI 未確認箇所、用語不統一などがある。
 特に未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
 未訳箇所あり:
-  /browser/chrome/browser/aboutSyncTabs.dtd
   /browser/chrome/browser/browser.dtd
   /browser/chrome/browser/browser.properties
-  /browser/chrome/browser/inspector.properties
-  /browser/chrome/browser/preferences/sync.dtd
-  /browser/chrome/browser/syncGenericChange.properties
-  /browser/chrome/browser/syncSetup.properties
-  /browser/chrome/overrides/appstrings.properties
-  /browser/chrome/overrides/netError.dtd
 
   /browser/feedback/main.dtd
   /browser/feedback/main.properties
 
-  /toolkit/chrome/global/headsUpDisplay.properties
   /toolkit/chrome/mozapps/plugins/plugins.dtd

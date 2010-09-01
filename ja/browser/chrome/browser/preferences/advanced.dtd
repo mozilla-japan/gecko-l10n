@@ -17,6 +17,8 @@
 <!ENTITY useAutoScroll.accesskey		"a">
 <!ENTITY useSmoothScrolling.label		"スムーズスクロール機能を使用する">
 <!ENTITY useSmoothScrolling.accesskey		"m">
+<!ENTITY allowHWAccel.label			"ハードウェアアクセラレーション機能を使用する (可能な場合)">
+<!ENTITY allowHWAccel.accesskey			"h">
 <!ENTITY checkSpelling.label			"自動スペルチェック機能を使用する">
 <!ENTITY checkSpelling.accesskey		"t">
 

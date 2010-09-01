@@ -13,4 +13,4 @@
 <!ENTITY  paneAdvanced.title		"詳細">
 
 <!-- LOCALIZATION NOTE (paneSync.title): This should match syncBrand.shortName.label in ../syncBrand.dtd -->
-<!ENTITY  paneSync.title		"同期">
+<!ENTITY  paneSync.title		"Sync">

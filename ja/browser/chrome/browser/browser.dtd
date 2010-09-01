@@ -12,11 +12,6 @@
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix	"(プライベートブラウジング)">
 
 <!-- Tab context menu -->
-<!ENTITY moveTabTo.label		"タブを移動...">
-<!ENTITY moveTabTo.accesskey		"M">
-<!ENTITY createNewGroup.label		"@@NewTab@@グループ">
-<!ENTITY createNewGroup.accesskey	"C">
-<!ENTITY namedGroups.label		"名前のついたグループ">
 <!ENTITY reloadTab.label		"タブを再読み込み">
 <!ENTITY reloadTab.accesskey		"R">
 <!ENTITY reloadAllTabs.label		"すべてのタブを再読み込み">
@@ -29,6 +24,9 @@
 <!ENTITY pinTab.accesskey		"p">
 <!ENTITY unpinTab.label			"アイコンタブを元に戻す">
 <!ENTITY unpinTab.accesskey		"k">
+<!ENTITY moveToGroup.label		"グループへ移動">
+<!ENTITY moveToGroup.accesskey		"M">
+<!ENTITY moveToNewGroup.label		"@@NewTab@@グループ">
 <!ENTITY bookmarkThisTab.label		"このタブをブックマーク">
 <!ENTITY bookmarkThisTab.accesskey	"B">
 <!ENTITY bookmarkAllTabs.label		"すべてのタブをブックマーク...">
@@ -193,6 +191,12 @@
 <!ENTITY inspectStyleButton.label	"スタイルシート">
 <!ENTITY inspectStyleButton.accesskey	"S">
 <!ENTITY inspectStylePanelTitle.label	"スタイルシート">
+<!-- LOCALIZATION NOTE (inspectDOMButton.label): This button label
+  -  stands for Document Object Model and appears on the inspector's toolbar.
+  -  It is used to open and closed the DOM panel. There is also a DOM label in
+  -  inspector.properties for the panel titlebar. -->
+<!ENTITY inspectObjectButton.label	"オブジェクト">
+<!ENTITY inspectObjectButton.accesskey	"O">
 
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
@@ -240,8 +244,8 @@
 
 <!ENTITY viewMenu.label			"表示">
 <!ENTITY viewMenu.accesskey		"V">
-<!ENTITY showTabView2.label		"Group Your Tabs..."> <!-- (^^h 未使用？ -->
-<!ENTITY showTabView2.accesskey		"G"> <!-- (^^h 未使用？ -->
+<!ENTITY showTabView2.label		"タブグループ...">
+<!ENTITY showTabView2.accesskey		"G">
 <!ENTITY viewToolbarsMenu.label		"ツールバー">
 <!ENTITY viewToolbarsMenu.accesskey	"T">
 <!ENTITY viewSidebarMenu.label		"サイドバー">
@@ -261,13 +265,14 @@
 <!ENTITY showAllHistoryCmd2.label	"すべての履歴を表示"><!-- (^^; -->
 <!ENTITY showAllHistoryCmd.commandkey	"H">
 
-<!ENTITY appMenuPrintCmd.label		"@@Print@@">
 <!ENTITY appMenuCustomize.label		"カスタマイズ">
 <!ENTITY appMenuToolbarLayout.label	"ツールバーのレイアウト">
 <!ENTITY appMenuSidebars.label		"サイドバー">
-<!ENTITY appMenuHelp.label		"ヘルプ">
+<!ENTITY appMenuFind.label		"検索...">
+<!ENTITY appMenuUnsorted.label		"未整理のブックマーク">
+<!ENTITY appMenuGettingStarted.label	"使いこなそう">
 
-<!ENTITY developerMenu.label		"開発者メニュー"> <!-- (^^h 未使用？ -->
+<!ENTITY developerMenu.label		"開発者メニュー">
 
 <!ENTITY openCmd.commandkey		"l">
 <!ENTITY urlbar.placeholder		"URL を入力します">
@@ -316,9 +321,9 @@
 <!ENTITY reloadFrameCmd.accesskey	"R">
 <!ENTITY viewPartialSourceForSelectionCmd.label	"選択した部分のソースを表示">
 <!ENTITY viewPartialSourceForMathMLCmd.label	"MathML のソースを表示">
-<!ENTITY viewPartialSourceCmd.accesskey	"e">
 <!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
          viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
+<!ENTITY viewPartialSourceCmd.accesskey	"e">
 <!ENTITY viewPageSourceCmd.label	"ページのソースを表示">
 <!ENTITY viewPageSourceCmd.accesskey	"V">
 <!ENTITY viewFrameSourceCmd.label	"フレームのソースを表示">
