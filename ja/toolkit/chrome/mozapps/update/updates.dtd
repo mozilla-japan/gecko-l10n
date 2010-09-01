@@ -43,12 +43,18 @@
 
 <!ENTITY  details.link			"詳細">
 
+<!ENTITY  error.title			"更新できませんでした">
+
 <!ENTITY  error.label			"次の問題が発生したため、この更新を正しくダウンロードまたはインストールできませんでした:">
 
 <!ENTITY  errorManual.label		"このリンクを開いて最新バージョンをダウンロードすれば、手動で &brandShortName; を更新できます:">
 
-<!ENTITY  errorpatching.title		"更新できませんでした">
 <!ENTITY  errorpatching.intro		"差分更新を適用できませんでした。完全更新をダウンロードしてインストールします。">
+
+<!ENTITY  errorCertAttrNoUpdate.label	"Something is preventing &brandShortName; from updating securely.
+					Please check you have the latest version of &brandShortName; at:"> <!-- (^^h 未使用？ -->
+<!ENTITY  errorCertAttrHasUpdate.label	"Something is trying to trick &brandShortName; into accepting an
+					insecure update. Please contact your network provider and seek help."> <!-- (^^h 未使用？ -->
 
 <!ENTITY  finishedPage.title		"更新をインストールする準備ができました">
 <!ENTITY  finishedPage.text		"この更新は次の &brandShortName; 起動時にインストールされます。&brandShortName; を今すぐ再起動するか、作業を続けてから後で再起動してください。">

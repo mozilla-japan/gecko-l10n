@@ -1,0 +1,20 @@
+<!ENTITY % brandDTD
+    SYSTEM "chrome://branding/locale/brand.dtd">
+  %brandDTD;
+
+<!-- These strings are used in the about:home page -->
+
+<!ENTITY abouthome.pageTitle		"&brandFullName; スタートページ">
+<!ENTITY abouthome.brandLogo.title	"&brandFullName; ロゴ">
+
+<!-- LOCALIZATION NOTE (brandStart): brandShortName must be in a <span/> -->
+<!ENTITY abouthome.brandStart				"<span>&brandShortName;</span> スタート">
+
+<!ENTITY abouthome.searchEngineLogo.title		"検索エンジンロゴ">
+
+<!ENTITY abouthome.searchEngineButton.label		"検索エンジン">
+
+<!ENTITY abouthome.searchEngineLinks.advanced		"詳細な検索">
+<!ENTITY abouthome.searchEngineLinks.preferences	"設定">
+
+<!ENTITY abouthome.aboutMozilla "Mozilla について">

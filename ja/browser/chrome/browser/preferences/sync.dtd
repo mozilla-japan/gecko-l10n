@@ -23,7 +23,7 @@
 <!ENTITY syncPrefsCaption.label       "ブラウザの同期">
 <!ENTITY syncComputerName.label       "コンピュータ名:">
 <!ENTITY syncComputerName.accesskey   "c">
-<!ENTITY syncModeSwitchDesc.label     "&brandShortName; will: ">
+<!ENTITY syncModeSwitchDesc.label     "&brandShortName; は:">
 <!ENTITY syncModeSwitchDesc.accesskey "w">
 <!ENTITY syncEverything.label         "すべてのデータを同期する">
 <!ENTITY customSync.label             "独自設定を使用する">

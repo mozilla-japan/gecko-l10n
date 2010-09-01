@@ -1,0 +1,15 @@
+<!ENTITY networkPanel.requestURL		"リクエスト URL">
+<!ENTITY networkPanel.requestMethod		"リクエストメソッド">
+<!ENTITY networkPanel.statusCode		"ステータスコード">
+
+<!ENTITY networkPanel.requestHeaders		"リクエストヘッダ">
+<!ENTITY networkPanel.requestCookie		"送信 Cookie">
+<!ENTITY networkPanel.requestBody		"リクエストボディ">
+<!ENTITY networkPanel.requestFormData		"送信フォームデータ">
+
+<!ENTITY networkPanel.responseHeaders		"レスポンスヘッダ">
+<!ENTITY networkPanel.responseBody		"レスポンスボディ">
+<!ENTITY networkPanel.responseBodyCached	"キャッシュデータ">
+<!ENTITY networkPanel.responseNoBody		"レスポンスボディなし">
+<!ENTITY networkPanel.responseImage		"画像">
+<!ENTITY networkPanel.responseImageCached	"キャッシュ画像">
