@@ -19,4 +19,4 @@ Firefox 4 beta 4 に向けて changeset 706?720 で行われた変更には一�
 
   /dom/chrome/dom/dom.properties
 
-  /toolkit/chrome/mozapps/plugins/plugins.dtd
+  /toolkit/chrome/global/aboutRights.dtd
