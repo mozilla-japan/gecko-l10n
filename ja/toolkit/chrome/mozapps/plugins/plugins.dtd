@@ -27,8 +27,8 @@
 <!-- LOCALIZATION NOTE (reloadPlugin.middle): avoid leading/trailing spaces, this text is a link -->
 <!-- LOCALIZATION NOTE (reloadPlugin.post): include a starting space as needed -->
 <!ENTITY reloadPlugin.pre					"">
-<!ENTITY reloadPlugin.middle					"Reload the page"> <!-- (^^h 未訳 -->
-<!ENTITY reloadPlugin.post					" to try again."> <!-- (^^h 未訳 -->
+<!ENTITY reloadPlugin.middle					"ページを再読み込み">
+<!ENTITY reloadPlugin.post					" してください。">
 <!-- LOCALIZATION NOTE (report.please): This and the other report.* strings should be as short as possible, ideally 2-3 words. -->
 <!ENTITY report.please						"クラッシュレポートを送信してください">
 <!ENTITY report.submitting					"レポートを送信しています...">

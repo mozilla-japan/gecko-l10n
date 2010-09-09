@@ -13,6 +13,15 @@
 <!ENTITY cmd.back.tooltip			"前のページへ戻ります">
 <!ENTITY cmd.forward.tooltip			"次のページへ進みます">
 
+<!-- global warnings -->
+<!ENTITY warning.safemode.label			"セーフモードによりすべてのアドオンが無効化されています。">
+<!ENTITY warning.checkcompatibility.label	"アドオンの互換性確認は無効化されています。互換性のないアドオンがインストールされています。">
+<!ENTITY warning.checkcompatibility.enable.label	"有効化">
+<!ENTITY warning.checkcompatibility.enable.tooltip	"アドオンの互換性の確認を有効化します">
+<!ENTITY warning.updatesecurity.label		"更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。">
+<!ENTITY warning.updatesecurity.enable.label	"有効化">
+<!ENTITY warning.updatesecurity.enable.tooltip	"アドオンの更新のセキュリティ確認を有効化します">
+
 <!-- categories / views -->
 <!ENTITY view.search.label			"検索">
 <!ENTITY view.discover.label			"アドオン入手">
@@ -56,6 +65,10 @@
 <!ENTITY cmd.enableAddon.accesskey		"E">
 <!ENTITY cmd.disableAddon.label			"無効化">
 <!ENTITY cmd.disableAddon.accesskey		"D">
+<!ENTITY cmd.enableTheme.label			"テーマを適用">
+<!ENTITY cmd.enableTheme.accesskey		"W">
+<!ENTITY cmd.disableTheme.label			"テーマを外す">
+<!ENTITY cmd.disableTheme.accesskey		"W">
 <!ENTITY cmd.installAddon.label			"インストール">
 <!ENTITY cmd.installAddon.accesskey		"I">
 <!ENTITY cmd.uninstallAddon.label		"削除">

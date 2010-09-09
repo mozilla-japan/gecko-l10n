@@ -20,9 +20,13 @@
 <!ENTITY rights.intro-point2-b		"Mozilla 商標ポリシー">
 <!ENTITY rights.intro-point2-c		" をご確認ください。">
 
+<!-- (^m^) 未訳 -->
+<!-- point 2.5 text for official branded builds -->
+<!ENTITY rights.intro-point2.5		"Some features in &brandShortName;, such as the Crash Reporter, give you the option to provide feedback to &vendorShortName;. By choosing to submit feedback, you give &vendorShortName; permission to use the feedback to improve its products, to publish the feedback on its websites, and to distribute the feedback.">
+
 <!-- point 3 text for official branded builds -->
-<!ENTITY rights.intro-point3a		"&vendorShortName; の製品における個人情報の取り扱いについては ">
-<!ENTITY rights.intro-point3b		"Mozilla プライバシーポリシー">
+<!ENTITY rights2.intro-point3a		"あなたの個人情報と &brandShortName; を通して &vendorShortName; へ送信されるフィードバックの取り扱いについては ">
+<!ENTITY rights2.intro-point3b		"&brandShortName; プライバシーポリシー">
 <!ENTITY rights.intro-point3c		" をご確認ください。">
 
 <!-- point 3 text for unbranded builds -->
@@ -30,6 +34,8 @@
 
 <!-- point 4 text for official branded builds -->
 <!ENTITY rights.intro-point4a		"&brandShortName; は、セーフブラウジングサービスなど、オプションで Web サイト情報サービスも提供しています。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。サービスを無効化する方法を含め、詳しくは ">
+
+<!ENTITY rights2.intro-point4a		"&brandShortName; のいくつかの機能は、Web ベースの情報サービスを利用します。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。そららのサービスを利用する機能を無効化する方法を含め、詳しくは ">
 <!ENTITY rights.intro-point4b		"サービス利用規約">
 <!ENTITY rights.intro-point4c		" をご確認ください。">
 
@@ -38,16 +44,37 @@
 <!ENTITY rights.intro-point4b-unbranded	"Web サイトサービス">
 <!ENTITY rights.intro-point4c-unbranded	" セクションからリンクさせること。">
 
-<!ENTITY rights.webservices-header	"&brandFullName; Web サイトサービス">
+<!-- point 3 text for unbranded builds -->
+<!ENTITY rights.intro-point3-unbranded	"この製品に関する適切なプライバシーポリシーをここに記述すること。">
+
+<!ENTITY rights2.webservices-header	"&brandFullName; Web ベースの情報サービス">
 
 <!-- Note that this paragraph references a couple of entities from
      preferences/security.dtd, so that we can refer to text the user sees in
      the UI, without this page being forgotten every time those strings are
      updated.  -->
 <!-- intro paragraph for branded builds -->
-<!ENTITY rights.webservices-a		"&brandFullName; は、セーフブラウジングなどの Web サイト情報サービス (以下「本サービス」と呼びます) を利用しており、これらは下記の通り &brandShortName; のバイナリ版とともに利用できます。本サービスをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、アプリケーション設定画面の @@[@@">
-<!ENTITY rights.webservices-b		"セキュリティ">
-<!ENTITY rights.webservices-c		"@@]@@ セクションで @@[@@&blockAttackSites.label;@@]@@ および @@[@@&blockWebForgeries.label;@@]@@ という設定項目のチェックを外していただければ、セーフブラウジングサービスを無効化できます。">
+<!ENTITY rights2.webservices-a "&brandFullName; は、搭載された機能のために用意された Web ベースの情報サービス (以下「本サービス」と呼びます) を利用しており、これらは下記の通り &brandShortName; のバイナリ版とともに利用できます。本サービスのいずれかをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、その機能またはサービスを無効化できます。 ">
+<!ENTITY rights2.webservices-b "機能やサービスを無効化する手順">
+<!ENTITY rights2.webservices-c " をお読みください。">
+
+<!-- (^m^) 未訳 -->
+<!-- safe browsing points for branded builds -->
+<!ENTITY rights.safebrowsing-a		"SafeBrowsing: ">
+<!ENTITY rights.safebrowsing-b		"Disabling the Safe Browsing feature is not recommended as it may result in you going to unsafe sites.  If you wish to disable the feature completely, follow these steps:">
+<!ENTITY rights.safebrowsing-term1	"Open the application preferences">
+<!ENTITY rights.safebrowsing-term2	"Select the Security selection">
+<!ENTITY rights.safebrowsing-term3	"Uncheck the options to &quot;&blockAttackSites.label;&quot; and &quot;&blockWebForgeries.label;&quot;">
+<!ENTITY rights.safebrowsing-term4	"Safe Browsing is now disabled">
+
+<!-- location aware browsing points for branded builds -->
+<!ENTITY rights.locationawarebrowsing-a		"Location Aware Browsing: ">
+<!ENTITY rights.locationawarebrowsing-b		"is always opt-in.  No location information is ever sent without your permission.  If you wish to disable the feature completely, follow these steps:">
+<!ENTITY rights.locationawarebrowsing-term1a	"In the URL bar, type ">
+<!ENTITY rights.locationawarebrowsing-term1b	"about:config">
+<!ENTITY rights.locationawarebrowsing-term2	"Type geo.enabled">
+<!ENTITY rights.locationawarebrowsing-term3	"Double click on the geo.enabled preference">
+<!ENTITY rights.locationawarebrowsing-term4	"Location-Aware Browsing is now disabled">
 
 <!-- intro paragraph for unbranded builds -->
 <!ENTITY rights.webservices-unbranded	"この製品と連携する Web サイトサービスの概要と、可能であればそれを無効化する手順をここに記述すること。">
@@ -55,11 +82,14 @@
 <!-- point 1 text for unbranded builds -->
 <!ENTITY rights.webservices-term1-unbranded	"この製品に関する適切なサービス利用規約をここに記述すること。">
 
+<!-- (^m^) 未訳あり -->
 <!-- 以下サービス利用規約本文(それに合わせた表現に) -->
 <!-- points 1-7 text for branded builds -->
-<!ENTITY rights.webservices-term1	"&vendorShortName; ならびにその貢献者、ライセンサ、およびパートナーは、フィッシング詐欺およびマルウェアについて、最も正確かつ最新の情報提供に努めています。ただし、この情報が完全で誤りがないことは保証できません。危険なサイトが適切に識別されない、または安全なサイトが誤って危険なサイトとして識別される可能性があります。">
+<!ENTITY rights2.webservices-term1	"&vendorShortName; and its contributors, licensors and partners work to provide the most accurate and up-to-date Services.  However, we cannot guarantee that this information is comprehensive and error-free.  For example, the Safe Browsing Service may not identify some risky sites and may identify some safe sites in error and the Location Aware Service all locations returned by our service providers are estimates only and neither we nor our service providers guarantee the accuracy of the locations provided.">
+<!-- <!ENTITY rights.webservices-term1	"&vendorShortName; ならびにその貢献者、ライセンサ、およびパートナーは、フィッシング詐欺およびマルウェアについて、最も正確かつ最新の情報提供に努めています。ただし、この情報が完全で誤りがないことは保証できません。危険なサイトが適切に識別されない、または安全なサイトが誤って危険なサイトとして識別される可能性があります。"> -->
 <!ENTITY rights.webservices-term2	"&vendorShortName; は、独自の判断に基づいて本サービスを変更または中止することがあります。">
-<!ENTITY rights.webservices-term3	"本サービスは、&brandShortName; に付属するバージョンとともにご利用いただけます。あなたは、そのために必要なすべての権利を保有します。&vendorShortName; およびそのライセンサは、本サービスに関するそれ以外のすべての権利を保留しています。本利用規約の規定は、&brandShortName; および &brandShortName; のソースコードについて、オープンソースライセンスにより許諾される権利を何ら制限するものではありません。">
+<!ENTITY rights2.webservices-term3	"You are welcome to use these Services with the accompanying version of &brandShortName;, and &vendorShortName; grants you its rights to do so.  &vendorShortName; and its licensors reserve all other rights in the Services.  These terms are not intended to limit any rights granted under open source licenses applicable to &brandShortName; and to corresponding source code versions of &brandShortName;.">
+<!-- <!ENTITY rights.webservices-term3	"本サービスは、&brandShortName; に付属するバージョンとともにご利用いただけます。あなたは、そのために必要なすべての権利を保有します。&vendorShortName; およびそのライセンサは、本サービスに関するそれ以外のすべての権利を保留しています。本利用規約の規定は、&brandShortName; および &brandShortName; のソースコードについて、オープンソースライセンスにより許諾される権利を何ら制限するものではありません。"> -->
 <!ENTITY rights.webservices-term4	"本サービスは、「現状のまま」で提供されるものです。&vendorShortName; ならびにその貢献者、ライセンサ、およびディストリビュータは、あらゆる明示的および黙示的な保証を否認します。否認される保証には、本サービスに商業性があること、および本サービスが特定の目的に適合することの保証が含まれますが、これらに限定されません。目的に対するサービスの選択、ならびにサービスの品質および性能に関するリスクは、すべてあなたが負います。国や地域によっては黙示的な保証の除外または制限が法律上認められない場合がありますが、その場合にはこの条項は適用されません。">
 <!ENTITY rights.webservices-term5	"法の定めによる場合を除き、&vendorShortName; ならびにその貢献者、ライセンサ、およびディストリビュータは、&brandShortName;、または本サービスの使用もしくは使用できないことに起因またはいかなる形においても関連して生じた、間接的損害、特別損害、付随的損害、派生的損害、または懲罰的損害に関して一切責任を負いません。本利用規約に基づく責任の総額は、500 米ドルを上限とします。国や地域によっては特定の損害の除外または制限が法律上認められない場合がありますが、その場合にはこの条項は適用されません。">
 <!ENTITY rights.webservices-term6	"&vendorShortName; では、本利用規約を必要に応じて改訂することがあります。本利用規約は、&vendorShortName; の書面による合意なしに変更もしくは終了されることはありません。">
