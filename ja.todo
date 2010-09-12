@@ -17,6 +17,4 @@ Firefox 4 beta 4 に向けて changeset 706?720 で行われた変更には一�
   /browser/feedback/main.dtd
   /browser/feedback/main.properties
 
-  /dom/chrome/dom/dom.properties
-
   /toolkit/chrome/global/aboutRights.dtd
