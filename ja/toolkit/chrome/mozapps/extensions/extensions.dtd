@@ -42,12 +42,20 @@
 <!ENTITY updates.viewUpdates.accesskey		"V">
 <!ENTITY updates.backgroudUpdateCheck.label	"更新を自動的に確認">
 <!ENTITY updates.backgroudUpdateCheck.accesskey	"C">
+<!ENTITY updates.updateAddonsAutomatically.label	"アドオンを自動的に更新">
+<!ENTITY updates.updateAddonsAutomatically.accesskey	"A">
+<!ENTITY updates.resetUpdatesToAutomatic.label	"すべてのアドオンを自動的に更新">
+<!ENTITY updates.resetUpdatesToAutomatic.accesskey	"R">
+<!ENTITY updates.resetUpdatesToManual.label	"すべてのアドオンを手動で更新">
+<!ENTITY updates.resetUpdatesToManual.accesskey	"R">
 <!ENTITY updates.updating.label			"更新がないか確認しています">
 <!ENTITY updates.installed.label		"アドオンが更新されました。">
 <!ENTITY updates.downloaded.label		"アドオンの更新がダウンロードされました。">
 <!ENTITY updates.restart.label			"再起動して更新を完了してください">
 <!ENTITY updates.noneFound.label		"更新は見つかりませんでした">
 <!ENTITY updates.manualUpdatesFound.label	"更新可能なアドオンを表示">
+<!ENTITY updates.updateSelected.label		"更新をインストール">
+<!ENTITY updates.updateSelected.tooltip		"このリストの更新可能なアドオンをインストールします">
 
 <!-- addon actions -->
 <!ENTITY cmd.showDetails.label			"詳細情報を表示">
@@ -96,6 +104,8 @@
 <!ENTITY detail.contributions.description	"このアドオンの開発者が開発を継続するための少額の寄付によるサポートを求めています。">
 
 <!ENTITY detail.updateType			"自動更新">
+<!ENTITY detail.updateDefault.label		"@@Default@@">
+<!ENTITY detail.updateDefault.tooltip		"@@Default@@の場合のみ更新を自動的にインストールします">
 <!ENTITY detail.updateAutomatic.label		"オン">
 <!ENTITY detail.updateAutomatic.tooltip		"更新を自動的にインストールします">
 <!ENTITY detail.updateManual.label		"オフ">
@@ -116,7 +126,7 @@
 
 
 <!-- ratings -->
-<!ENTITY rating.label				"評価:">
+<!ENTITY rating2.label				"評価">
 
 <!-- download/install progress -->
 <!ENTITY progress.pause.tooltip			"中断">
@@ -141,8 +151,14 @@
 <!ENTITY addon.details.label			"詳細">
 <!ENTITY addon.details.tooltip			"このアドオンの詳細を表示します">
 <!ENTITY addon.unknownDate			"不明">
+<!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
+     to signify that an add-on is disabled, in the form
+     "<Addon name> <1.0> (disabled)" -->
 <!ENTITY addon.disabled.postfix			"(無効)">
-<!-- LOCALIZATION NOTE (addon.update.postfix): This is used to signify that an item is an update, in the form "Addon v1.0 Update" -->
+<!-- LOCALIZATION NOTE (addon.update.postfix): This is used in the available
+     updates list to signify that an item is an update, in the form
+     "<Addon name> <1.1> Update". It is fine to use constructs like brackets if
+     necessary -->
 <!ENTITY addon.update.postfix			"更新">
 <!ENTITY addon.undoAction.label			"@@Undo@@">
 <!ENTITY addon.undoAction.tooltip		"この操作を@@Undo-simasu@@">
@@ -153,6 +169,8 @@
 <!ENTITY addon.install.tooltip			"このアドオンをインストールします">
 <!ENTITY addon.updateNow.label			"今すぐ更新">
 <!ENTITY addon.updateNow.tooltip		"このアドオンの更新をインストールします">
+<!ENTITY addon.includeUpdate.label		"更新するアドオンに含める">
+<!ENTITY addon.updateAvailable.label		"更新可能です">
 <!ENTITY addon.checkingForUpdates.label		"更新を確認しています...">
 <!ENTITY addon.releaseNotes.label		"リリースノート:">
 <!ENTITY addon.loadingReleaseNotes.label	"読み込み中...">

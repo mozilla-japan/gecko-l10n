@@ -6,6 +6,7 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
  - (^^;   note by dynamis and others
  - (^a^)  note by a
  - (^^h   note by hATrayflood
+ - (^m^)  note by mar
 
 Firefox 4 beta 4 に向けて changeset 706?720 で行われた変更には一部未訳箇所や UI 未確認箇所、用語不統一などがある。
 特に未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
@@ -16,5 +17,3 @@ Firefox 4 beta 4 に向けて changeset 706?720 で行われた変更には一�
 
   /browser/feedback/main.dtd
   /browser/feedback/main.properties
-
-  /toolkit/chrome/global/aboutRights.dtd

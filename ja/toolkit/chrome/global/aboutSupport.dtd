@@ -28,7 +28,7 @@ variant of aboutSupport.show.label.  This allows us to use the preferred
 <!ENTITY aboutSupport.modifiedPrefsName		"名前">
 <!ENTITY aboutSupport.modifiedPrefsValue	"値">
 
-<!ENTITY aboutSupport.graphicsTitle		"グラフィクス">
+<!ENTITY aboutSupport.graphicsTitle		"グラフィックス">
 
 <!ENTITY aboutSupport.installationHistoryTitle	"インストール履歴">
 <!ENTITY aboutSupport.updateHistoryTitle	"更新履歴">

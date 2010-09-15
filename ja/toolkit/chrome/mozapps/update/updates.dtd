@@ -51,8 +51,10 @@
 
 <!ENTITY  errorpatching.intro		"差分更新を適用できませんでした。完全更新をダウンロードしてインストールします。">
 
+<!-- (^m^) Bug 595455 -->
+<!ENTITY  genericBackgroundError.label	"&brandShortName; の更新を確認できません。&brandShortName; の最新バージョンを次のサイトからダウンロードしてください:">
 <!-- (^m^) Bug 583408#c3 -->
-<!ENTITY  errorCertAttrNoUpdate.label	"更新経路上で &brandShortName; の安全な更新が妨げられています。&brandShortName; の最新バージョンを使用しているか、次のサイトで確認してください:">
+<!ENTITY  errorCertAttrNoUpdate2.label	"更新経路上で &brandShortName; の安全な更新が妨げられています。&brandShortName; の最新バージョンを次のサイトからダウンロードしてください:">
 <!ENTITY  errorCertAttrHasUpdate.label	"何者かが悪意のある更新を &brandShortName; にダウンロードさせようとしています。ネットワーク管理者またはプロバイダに連絡を取り、助けを求めてください。">
 
 <!ENTITY  finishedPage.title		"更新をインストールする準備ができました">
