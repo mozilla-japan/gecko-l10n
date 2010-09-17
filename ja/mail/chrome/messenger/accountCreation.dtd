@@ -1,14 +1,14 @@
 <!ENTITY autoconfigWizard.title		"メールアカウント設定">
 <!ENTITY name.label			"あなたの名前:">
 <!ENTITY name.accesskey			"n">
-<!ENTITY name.emptytext			"氏名またはニックネーム">
+<!ENTITY name.placeholder			"氏名またはニックネーム">
 <!ENTITY name.text			"受信者に表示される名前です。">
 <!ENTITY email.label			"メールアドレス:">
 <!ENTITY email.accesskey		"l">
-<!ENTITY email.emptytext		"email@example.com">
+<!ENTITY email.placeholder		"email@example.com">
 <!ENTITY password.label			"パスワード:">
 <!ENTITY password.accesskey		"P">
-<!ENTITY password.emptytext		"アカウントのパスワード">
+<!ENTITY password.placeholder		"アカウントのパスワード">
 <!ENTITY password.text			"入力は任意です。ユーザ名の確認にのみ使用されます。">
 
 <!ENTITY accountInformation.label	"アカウント情報">

@@ -7,6 +7,9 @@
 <!ENTITY editContactEmail.label				"メール:">
 <!ENTITY editContactEmail.accesskey			"E">
 
+<!ENTITY editContactAddressBook.label			"アドレス帳:">
+<!ENTITY editContactAddressBook.accesskey		"A">
+
 <!ENTITY editContactPanelCancel.label			"キャンセル">
 <!ENTITY editContactPanelCancel.accesskey		"C">
 
