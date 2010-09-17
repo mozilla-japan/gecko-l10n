@@ -576,7 +576,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY SearchNameOrEmail.accesskey		"N">
 
 <!-- Gloda Search Bar -->
-<!ENTITY glodaSearchBar.emptyText		"メッセージ検索...">
+<!ENTITY glodaSearchBar.placeholder		"メッセージ検索...">
 
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label		"件名">
