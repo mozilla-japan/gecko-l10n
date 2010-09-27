@@ -32,8 +32,6 @@
 <!ENTITY rights.intro-point3-unbranded	"この製品に関する適切なプライバシーポリシーをここに記述すること。">
 
 <!-- point 4 text for official branded builds -->
-<!ENTITY rights.intro-point4a		"&brandShortName; は、セーフブラウジングサービスなど、オプションで Web サイト情報サービスも提供しています。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。サービスを無効化する方法を含め、詳しくは ">
-
 <!ENTITY rights2.intro-point4a		"&brandShortName; の一部の機能は、Web ベースの情報サービスを利用します。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。それらのサービスを利用する機能を無効化する方法を含め、詳しくは ">
 <!ENTITY rights.intro-point4b		"サービス利用規約">
 <!ENTITY rights.intro-point4c		" をご確認ください。">
