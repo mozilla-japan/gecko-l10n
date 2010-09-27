@@ -27,6 +27,7 @@
 
 <!ENTITY netOffline.title		"オフラインモードになっています">
 <!ENTITY netOffline.longDesc		"<p>ブラウザは現在オフラインモードで動作しており、リクエスト対象に接続できません。</p><ul><li>コンピュータが有効なネットワークに接続されているか確認してください。</li><li>ブラウザをオンラインモードに切り替えてください。</li></ul>">
+<!ENTITY netOffline.overrideLongDesc	"<p>ブラウザは現在オフラインモードで動作しており、リクエスト対象に接続できません。</p><ul><li>コンピュータが有効なネットワークに接続されているか確認してください。</li><li>ブラウザをオンラインモードに切り替えてください。</li></ul>">
 
 <!ENTITY contentEncodingError.title	"内容符号化 (Content-Encoding) に問題があります">
 <!ENTITY contentEncodingError.longDesc	"<p>不正または不明な形式で圧縮されているため、ページを表示できません。</p><ul><li>この問題については Web サイトの管理者に問い合わせてください。</li></ul>">
