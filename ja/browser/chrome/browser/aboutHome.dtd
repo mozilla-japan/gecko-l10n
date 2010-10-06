@@ -21,7 +21,7 @@
 <!-- LOCALIZATION NOTE (abouthome.defaultSnippet1.v1):
      text in <a/> will be linked to the Firefox features page on mozilla.com
 -->
-<!ENTITY abouthome.defaultSnippet1.v1			"Firefox もっと活用したいなら、<a>使い方のヒント</a> をご覧ください。基本的なキーボードショートカットや主な機能をご説明します。">
+<!ENTITY abouthome.defaultSnippet1.v1			"Firefox をさらに活用したいときは、<a>使い方のヒント</a> をご覧ください。基本的なキーボードショートカットや主な機能をご説明します。">
 <!-- LOCALIZATION NOTE (abouthome.defaultSnippet2.v1):
      text in <a/> will be linked to the featured add-ons on addons.mozilla.org
 -->
