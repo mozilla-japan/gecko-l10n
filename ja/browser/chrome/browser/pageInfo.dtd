@@ -101,6 +101,10 @@
 <!ENTITY  permInstall			"拡張機能やテーマのインストール">
 <!ENTITY  permGeo			"位置情報の送信">
 
+<!ENTITY  permIndexedDB			"オフラインストレージの維持">
+<!ENTITY  permClearStorage		"ストレージを@@Clear@@">
+<!ENTITY  permClearStorage.accesskey	"C">
+
 <!ENTITY  securityTab			"セキュリティ">
 <!ENTITY  securityTab.accesskey		"S">
 <!ENTITY  securityHeader		"このページのセキュリティ情報">

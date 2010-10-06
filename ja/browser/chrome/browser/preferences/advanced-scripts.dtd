@@ -46,7 +46,3 @@
 <!ENTITY raiseLowerWindows.accesskey	"R">
 <!ENTITY disableContextMenus.label	"コンテキストメニューを無効化または変更する">
 <!ENTITY disableContextMenus.accesskey	"D">
-<!ENTITY hideStatusBar.label		"ステータスバーのない@@Window@@を開く">
-<!ENTITY hideStatusBar.accesskey	"H">
-<!ENTITY changeStatusBar.label		"ステータスバーのテキストを変更する">
-<!ENTITY changeStatusBar.accesskey	"C">

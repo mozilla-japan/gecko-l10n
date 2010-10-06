@@ -46,12 +46,13 @@
 
   &useCacheBefore.label  [ textbox for cache size in MB ]   &useCacheAfter.label;
 -->
-<!ENTITY useCacheBefore.label			"ページキャッシュとして ">
-<!ENTITY useCacheBefore.accesskey		"U">
-<!ENTITY useCacheAfter.label			"MB まで使用する">
-
+<!ENTITY limitCacheSizeBefore.label		"ページキャッシュとして ">
+<!ENTITY limitCacheSizeBefore.accesskey		"L">
+<!ENTITY limitCacheSizeAfter.label		"MB まで使用する">
 <!ENTITY clearCacheNow.label			"今すぐ消去">
 <!ENTITY clearCacheNow.accesskey		"C">
+<!ENTITY overrideSmartCacheSize.label		"キャッシュサイズを制限する">
+<!ENTITY overrideSmartCacheSize.accesskey	"O">
 
 <!ENTITY updateTab.label			"更新">
 
