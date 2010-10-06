@@ -5,8 +5,8 @@
 <!ENTITY startupHomePage.label		"ホームページを表示する">
 <!ENTITY startupBlankPage.label		"空白ページを表示する">
 <!ENTITY startupLastSession.label	"前回終了時の@@Window@@とタブを表示する">
-<!ENTITY location.label			"ホームページ:">
-<!ENTITY location.accesskey		"H">
+<!ENTITY homepage.label			"ホームページ:">
+<!ENTITY homepage.accesskey		"P">
 <!ENTITY useCurrentPage.label		"現在のページを使用">
 <!ENTITY useCurrentPage.accesskey	"C">
 <!ENTITY useMultiple.label		"現在のタブグループを使用">

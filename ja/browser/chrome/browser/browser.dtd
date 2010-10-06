@@ -18,17 +18,21 @@
 <!ENTITY reloadAllTabs.accesskey	"A">
 <!ENTITY closeOtherTabs.label		"他のタブをすべて閉じる">
 <!ENTITY closeOtherTabs.accesskey	"o">
-<!ENTITY openTabInNewWindow.label	"新しい@@Window@@で開く">
-<!ENTITY openTabInNewWindow.accesskey	"W">
-<!ENTITY pinTab.label			"アイコンタブ">
-<!ENTITY pinTab.accesskey		"p">
-<!ENTITY unpinTab.label			"アイコンタブを元に戻す">
-<!ENTITY unpinTab.accesskey		"k">
+
+<!-- LOCALIZATION NOTE (pinAppTab.label, unpinAppTab.label): "Pin" is being
+used as a metaphor for expressing the fact that these tabs are "pinned" to the
+left edge of the tabstrip. Really we just want the string to express the idea
+that this is a lightweight and reversible action that keeps your tab where you
+can reach it easily. -->
+<!ENTITY pinAppTab.label		"タブをピン留め">
+<!ENTITY pinAppTab.accesskey		"P">
+<!ENTITY unpinAppTab.label		"タブのピン留めを外す">
+<!ENTITY unpinAppTab.accesskey		"b">
 <!ENTITY moveToGroup.label		"グループへ移動">
 <!ENTITY moveToGroup.accesskey		"M">
 <!ENTITY moveToNewGroup.label		"@@NewTab@@グループ">
-<!ENTITY bookmarkThisTab.label		"このタブをブックマーク">
-<!ENTITY bookmarkThisTab.accesskey	"B">
+<!ENTITY moveToNewWindow.label		"新しい@@Window@@へ移動">
+<!ENTITY moveToNewWindow.accesskey	"W">
 <!ENTITY bookmarkAllTabs.label		"すべてのタブをブックマーク...">
 <!ENTITY bookmarkAllTabs.accesskey	"T">
 <!ENTITY undoCloseTab.label		"閉じたタブを元に戻す">
@@ -66,8 +70,8 @@
 <!ENTITY personalbarCmd.label		"ブックマークツールバー">
 <!ENTITY personalbarCmd.accesskey	"B">
 <!ENTITY bookmarksToolbarItem.label	"ブックマークツールバーの項目">
-<!ENTITY taskbarCmd.label		"ステータスバー">
-<!ENTITY taskbarCmd.accesskey		"B">
+<!ENTITY addonBarCmd.label		"アドオンバー">
+<!ENTITY addonBarCmd.accesskey		"B">
 
 <!ENTITY pageSourceCmd.label		"ページのソース">
 <!ENTITY pageSourceCmd.accesskey	"o">
@@ -99,7 +103,7 @@
 <!ENTITY subscribeToPageMenupopup.label	"このページを購読">
 <!ENTITY subscribeToPageMenuitem.label	"このページを購読...">
 <!ENTITY addCurPagesCmd.label		"すべてのタブをブックマーク...">
-<!ENTITY organizeBookmarks.label	"ブックマークの管理...">
+<!ENTITY showAllBookmarks.label		"すべてのブックマークを開く...">
 <!ENTITY bookmarkAllCmd.label		"すべてのタブをブックマーク...">
 <!ENTITY bookmarksToolbarChevron.tooltip	"残りのブックマークを表示します">
 
@@ -118,7 +122,6 @@
 <!ENTITY stopCmd.macCommandKey		".">
 <!ENTITY stopButton.tooltip		"このページの読み込みを中止します">
 <!ENTITY goEndCap.tooltip		"ロケーションバーに入力された URL に移動します">
-<!ENTITY feedButton.tooltip		"このページを購読...">
 <!ENTITY printButton.label		"@@Print@@">
 <!ENTITY printButton.tooltip		"このページを@@Print@@します">
 
@@ -129,9 +132,15 @@
 <!ENTITY bookmarksItem.title		"ブックマーク">
 
 <!-- Toolbar items -->
+<!ENTITY appMenuButton.label		"メニュー">
+<!ENTITY appMenuButton.tooltip		"&brandShortName; メニューを開く">
 <!ENTITY  homeButton.label		"ホーム">
-<!ENTITY tabViewButton2.label		"タブグループ">
-<!ENTITY tabViewButton2.tooltip		"タブをグループ分けして管理できます">
+
+<!ENTITY tabGroupsButton.label		"タブグループ">
+<!ENTITY tabGroupsButton.tooltip	"タブをグループ分けして管理できます">
+
+<!ENTITY feedButton.label		"購読">
+<!ENTITY feedButton.tooltip		"このページを購読...">
 
 <!ENTITY bookmarksButton.label		"ブックマーク">
 <!ENTITY bookmarksButton.tooltip	"ブックマークをサイドバーに表示します">
@@ -168,6 +177,7 @@
 <!ENTITY downloadsUnix.commandkey	"y">
 <!ENTITY addons.label			"アドオン">
 <!ENTITY addons.accesskey		"A">
+<!ENTITY addons.commandkey		"A">
 
 <!ENTITY errorConsoleCmd.label		"エラーコンソール">
 <!ENTITY errorConsoleCmd.accesskey	"C">
@@ -244,8 +254,8 @@
 
 <!ENTITY viewMenu.label			"表示">
 <!ENTITY viewMenu.accesskey		"V">
-<!ENTITY showTabView2.label		"タブグループ...">
-<!ENTITY showTabView2.accesskey		"G">
+<!ENTITY viewTabGroups.label		"タブグループ...">
+<!ENTITY viewTabGroups.accesskey	"G">
 <!ENTITY viewToolbarsMenu.label		"ツールバー">
 <!ENTITY viewToolbarsMenu.accesskey	"T">
 <!ENTITY viewSidebarMenu.label		"サイドバー">
@@ -260,19 +270,22 @@
 <!ENTITY historyUndoMenu.label		"最近閉じたタブ">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
 <!ENTITY historyUndoWindowMenu.label	"最近閉じた@@Window@@">
+<!ENTITY historyRestoreLastSession.label	"以前のセッションを復元">
 
 <!ENTITY historyHomeCmd.label		"ホーム">
 <!ENTITY showAllHistoryCmd2.label	"すべての履歴を表示"><!-- (^^; -->
 <!ENTITY showAllHistoryCmd.commandkey	"H">
 
+<!ENTITY appMenuEdit.label		"編集">
 <!ENTITY appMenuCustomize.label		"カスタマイズ">
 <!ENTITY appMenuToolbarLayout.label	"ツールバーのレイアウト">
 <!ENTITY appMenuSidebars.label		"サイドバー">
 <!ENTITY appMenuFind.label		"検索...">
 <!ENTITY appMenuUnsorted.label		"未整理のブックマーク">
+<!ENTITY appMenuWebDeveloper.label	"Web 開発">
 <!ENTITY appMenuGettingStarted.label	"使いこなそう">
-
-<!ENTITY developerMenu.label		"開発者メニュー">
+<!ENTITY appMenuSafeMode.label		"アドオンを無効にして再起動...">
+<!ENTITY appMenuSafeMode.accesskey	"R">
 
 <!ENTITY openCmd.commandkey		"l">
 <!ENTITY urlbar.placeholder		"URL を入力します">
@@ -283,12 +296,12 @@
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
-  
+
   Unix: Ctrl+J (0.8, 0.9 support)
         Ctrl+K (cross platform binding)
-  Mac:  Ctrl+K (cross platform binding)
+  Mac:  Cmd+K (cross platform binding)
+        Cmd+Opt+F (platform convention)
   Win:  Ctrl+K (cross platform binding)
-        Ctrl+E (IE compat) 
 
   We support Ctrl+K on all platforms now and advertise it in the menu since it is
   our standard - it is a "safe" choice since it is near no harmful keys like "W" as
@@ -297,12 +310,11 @@
   is a fundamental keybinding and we are maintaining a XP binding so that it is easy
   for people to switch to Linux.
 
-  Do *not* tamper with these values without talking to ben@mozilla.org
-  
  -->
 <!ENTITY searchFocus.commandkey		"k">
-<!ENTITY searchFocus.commandkey2	"e">
 <!ENTITY searchFocusUnix.commandkey	"j">
+
+<!ENTITY tabView.commandkey		"e">
 
 <!ENTITY openLinkCmd.label		"リンクを@@NewWindow@@で開く">
 <!ENTITY openLinkCmd.accesskey		"W">
@@ -443,7 +455,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY cutButton.tooltip		"@@Cut@@">
 <!ENTITY copyButton.tooltip		"コピー">
 <!ENTITY pasteButton.tooltip		"@@Paste@@">
+
 <!ENTITY fullScreenButton.tooltip	"@@Window@@を画面全体に表示します">
+
+<!ENTITY zoomOutButton.tooltip		"縮小">
+<!ENTITY zoomInButton.tooltip		"拡大">
+<!ENTITY zoomControls.label		"@@Zoom@@コントロール">
 
 <!ENTITY quitApplicationCmdWin.label	"終了">
 <!ENTITY quitApplicationCmdWin.accesskey	"x">
@@ -477,7 +494,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY dontShowMessage.accesskey	"D">
 
 <!ENTITY bidiSwitchPageDirectionItem.label	"ページの方向を切り替える">
-<!ENTITY bidiSwitchPageDirectionItem.accesskey	"g">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey	"D">
 <!ENTITY bidiSwitchTextDirectionItem.label	"テキストの方向を切り替える">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey	"w">
 <!ENTITY bidiSwitchTextDirectionItem.commandkey	"X">
@@ -532,15 +549,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY syncBrand.shortName.label		"Sync">
 
-<!ENTITY syncMenu.label				"&syncBrand.shortName.label;">
-<!-- LOCALIZATION NOTE (sync.menu.accesskey): This is part of the tools menu, so
-                                              don't use a conflicting access key -->
-<!ENTITY syncMenu.accesskey			"Y">
 <!ENTITY syncSetup.label			"&syncBrand.shortName.label; を設定...">
 <!ENTITY syncSetup.accesskey			"Y">
-<!ENTITY syncLogInItem.label			"接続">
-<!ENTITY syncLogInItem.accesskey		"C">
-<!ENTITY syncLogOutItem.label			"接続を解除">
-<!ENTITY syncLogOutItem.accesskey		"D">
 <!ENTITY syncSyncNowItem.label			"今すぐ同期">
 <!ENTITY syncSyncNowItem.accesskey		"S">
+<!ENTITY syncToolbarButton.label		"Sync">

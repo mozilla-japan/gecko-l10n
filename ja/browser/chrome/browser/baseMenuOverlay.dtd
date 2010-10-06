@@ -17,6 +17,8 @@
 <!ENTITY helpForIEUsers.label		"Internet Explorer ユーザのために">
 <!ENTITY helpForIEUsers.accesskey	"I">
 <!ENTITY helpMac.commandkey		"?">
+<!ENTITY helpSafeMode.label		"アドオンを無効にして再起動...">
+<!ENTITY helpSafeMode.accesskey		"R">
 
 <!ENTITY helpReleaseNotes.label		"リリースノート">
 <!ENTITY helpReleaseNotes.accesskey	"N">

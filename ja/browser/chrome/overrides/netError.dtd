@@ -47,7 +47,12 @@
 <!ENTITY netInterrupt.longDesc		"&sharedLongDesc;">
 
 <!ENTITY netOffline.title		"オフラインモードになっています">
-<!ENTITY netOffline.longDesc		"
+<!-- LOCALIZATION NOTE (netOffline.overrideLongDesc) - This string should
+     indicate that "Work Offline" is a menu item without being too specific,
+     since it could be in either the normal menu (Mac/Linux) or the Firefox button
+     menu (Windows).
+-->
+<!ENTITY netOffline.overrideLongDesc	"
 <ul>
   <li>@@[@@ファイル@@]@@ メニューの @@[@@オフライン作業@@]@@ のチェックを外してから再度試してください。</li>
 </ul>
