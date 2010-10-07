@@ -95,7 +95,7 @@
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title				"アドオンとは何ですか？">
-<!ENTITY discover.description			"アドオンは、あなたに合わせて Firefox に機能を追加したり Firefox のスタイルを変えたりするものです。各種のサイドバーや天気予報、テーマなどをインストールして、あなただけの Firefox に作り変えてみてください。">
+<!ENTITY discover.description2			"アドオンは、あなたに合わせて &brandShortName; に機能を追加したり &brandShortName; のスタイルを変えたりするものです。各種のサイドバーや天気予報、テーマなどをインストールして、あなただけの &brandShortName; に作り変えてみてください。">
 <!ENTITY discover.footer			"インターネットに接続されていれば、この画面で人気のアドオンを紹介します。ぜひ、お試しください。">
 
 <!-- detail view -->
