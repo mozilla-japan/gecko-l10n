@@ -183,3 +183,8 @@
 <!ENTITY addon.errorLoadingReleaseNotes.label	"エラーが発生したためリリースノートを読み込めませんでした。">
 
 <!ENTITY addon.createdBy.label			"作成者: ">
+
+<!ENTITY eula.title				"エンドユーザライセンス契約">
+<!ENTITY eula.width				"560px">
+<!ENTITY eula.height				"400px">
+<!ENTITY eula.accept				"同意してインストールする...">

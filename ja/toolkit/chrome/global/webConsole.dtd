@@ -10,6 +10,7 @@
 <!ENTITY networkPanel.responseHeaders		"応答ヘッダ">
 <!ENTITY networkPanel.responseBody		"応答ボディ">
 <!ENTITY networkPanel.responseBodyCached	"キャッシュデータ">
+<!ENTITY networkPanel.responseBodyUnknownType	"不明なファイルの種類">
 <!ENTITY networkPanel.responseNoBody		"応答ボディなし">
 <!ENTITY networkPanel.responseImage		"受信画像">
 <!ENTITY networkPanel.responseImageCached	"キャッシュ画像">
