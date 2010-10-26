@@ -12,7 +12,6 @@ editor/ui               comm    Tb, Sm          メール編集画面
 extensions
   inspector             dom-i   Fx, Sm          DOM Inspector
   irc                   moz     Sm              IRC Client Chatzilla
-  reporter              moz     Fx, Sm          不具合のあるサイトのレポータ
   spellcheck            moz     Fx, Tb, Sm      日本語のスペルチェックは無し
   venkman               moz     Sm              JavaScript Debugger Venkman
 mail                    comm    Tb              Thunderbird
@@ -91,3 +90,4 @@ browser                 54942:dee1e01fd8ed  ----:------------   hATrayflood     
 toolkit                 55347:56403a9ae8b6  6544:3fb3186c8172   mar             sync toolkit, chengeset 749
 toolkit                 56394:ec6b12294371  6576:dfde00c9b4fc   mar             sync toolkit, chengeset 753
 venkman                 -----:------------  ----:------------   mar             sync venkman, chengeset 756
+mail                    -----:------------  6598:d657b735d2bb   mar             sync mail, changeset 757
