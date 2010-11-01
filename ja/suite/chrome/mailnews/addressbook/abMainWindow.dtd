@@ -101,8 +101,6 @@
 <!ENTITY importCmd.accesskey                            "I">
 <!ENTITY exportCmd.label                                "@@Export@@...">
 <!ENTITY exportCmd.accesskey                            "E">
-<!ENTITY allowOnlineCheck.label                         "オンラインかどうか確認する (AOL)">
-<!ENTITY allowOnlineCheck.accesskey                     "C">
 
 <!-- Toolbar and Popup items -->  
 <!ENTITY newContactButton.label                         "@@New-CMD@@連絡先">
@@ -117,7 +115,8 @@
 <!ENTITY deleteItemButton.accesskey                     "D">
 <!ENTITY newimButton.label                              "インスタントメッセージ">
 <!ENTITY newimButton.accesskey                          "I">
-<!ENTITY searchNameAndEmail.emptytext                   "名前またはメールアドレスを検索">
+<!ENTITY searchNameAndEmail.placeholder                 "名前またはメールアドレスを検索">
+<!ENTITY searchBox.title                                "検索">
 
 <!-- Tooltips -->
 <!ENTITY addressbookToolbar.tooltip                     "アドレス帳ツールバー">

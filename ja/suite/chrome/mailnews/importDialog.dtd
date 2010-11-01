@@ -61,7 +61,7 @@
 <!ENTITY selectDescription.accesskey "P">
 
 <!ENTITY back.label               "&lt; 戻る">
-<!ENTITY forward.label            "次へ &gt;">
+<!ENTITY forward.label            "@@NextButton@@ &gt;">
 <!ENTITY finish.label             "完了">
 <!ENTITY cancel.label             "キャンセル">
 
