@@ -22,13 +22,12 @@
 
   System Requirements:
 
-  - Mac OS X 10.4 and later
+  - Mac OS X 10.5 and later
 
 
   Hardware Requirements:
 
-  - Macintosh computer with an Intel x86 or PowerPC G3/G4/G5 processor
-  - 256 MB RAM
+  - Macintosh computer with an Intel x86 or PowerPC G4/G5 processor
   - 200 MB of free hard disk space
 
 
@@ -94,11 +93,11 @@
 
   For the very latest builds, see
 
-  http://ftp.mozilla.org/pub/mozilla.org/seamonkey/nightly/latest-trunk/.
+  http://www.seamonkey-project.org/dev/nightly.
 
   If you are looking for a more polished version of SeaMonkey, you can download
   official releases from
-  
+
   http://www.seamonkey-project.org/releases/.
 
   More Information & Feedback

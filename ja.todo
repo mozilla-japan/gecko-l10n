@@ -18,3 +18,18 @@ Firefox 4 beta 4 に向けて changeset 706〜720 で行われた変更には一
 
   /browser/feedback/main.dtd
   /browser/feedback/main.properties
+
+
+
+SeaMonkey 2.1
+
+ changeset 759 の時点で同期済み
+  /chrome/branding
+  /chrome/mailnews
+  /chrome/crashreporter
+  /installer
+
+ 要更新
+  /chrome/browser
+  /chrome/common
+  /searchplugins
