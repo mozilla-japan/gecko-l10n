@@ -1,0 +1,4 @@
+<!ENTITY quota.dialogTitle.label    "サーバクォータ">
+<!ENTITY quota.retrievingInfo.label "クォータを取得しています...">
+<!ENTITY quota.typeColumn.label     "種類">
+<!ENTITY quota.sizeColumn.label     "サイズ">

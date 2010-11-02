@@ -1,0 +1,14 @@
+<!ENTITY syncKey.page.title               "あなたの秘密の言葉">
+<!ENTITY syncKey.page.description         "この秘密の言葉は &syncBrand.fullName.label; アカウントのデータを復号するために使われます。新しいコンピュータや端末上で &syncBrand.fullName.label; を設定するとき毎回入力する必要があります。">
+<!ENTITY syncKey.keepItSecret.heading     "秘密にしてください">
+<!ENTITY syncKey.keepItSecret.description "&syncBrand.fullName.label; アカウントはプライバシー保護のため暗号化されます。この秘密の言葉がなければ、個人情報の解読に何年もかかります。この秘密の言葉はあなただけのものであり、あなたの &syncBrand.fullName.label; データにはあなただけがアクセスできます。">
+<!ENTITY syncKey.keepItSafe.heading       "安全に保管してください">
+<!ENTITY syncKey.keepItSafe1.description  "この秘密の言葉は決してなくさないでください。">
+<!ENTITY syncKey.keepItSafe2.description  " &syncBrand.fullName.label; は秘密の言葉のコピーを保持しません。(それでは秘密にしておくことにはならない！)">
+<!ENTITY syncKey.keepItSafe3.description  " 秘密の言葉をなくすと &syncBrand.fullName.label; アカウントのデータを復元することはできません。">
+<!ENTITY syncKey.keepItSafe4.description  " この秘密の言葉は、新しいコンピュータや端末で &syncBrand.fullName.label; に接続するときに必要になります。">
+<!ENTITY syncKey.findOutMore1.label       "&syncBrand.fullName.label; とあなたのプライバシーについては ">
+<!ENTITY syncKey.findOutMore2.label       " をご確認ください。">
+<!ENTITY syncKey.footer1.label            "&syncBrand.fullName.label; の利用規約については ">
+<!ENTITY syncKey.footer2.label            " をご確認ください。プライバシーポリシーについては ">
+<!ENTITY syncKey.footer3.label            " をご確認ください。">

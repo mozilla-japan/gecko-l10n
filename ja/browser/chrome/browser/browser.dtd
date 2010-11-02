@@ -71,7 +71,7 @@ can reach it easily. -->
 <!ENTITY personalbarCmd.accesskey	"B">
 <!ENTITY bookmarksToolbarItem.label	"ブックマークツールバーの項目">
 <!ENTITY addonBarCmd.label		"アドオンバー">
-<!ENTITY addonBarCmd.accesskey		"B">
+<!ENTITY addonBarCmd.accesskey		"A">
 
 <!ENTITY pageSourceCmd.label		"ページのソース">
 <!ENTITY pageSourceCmd.accesskey	"o">
@@ -113,7 +113,6 @@ can reach it easily. -->
 <!ENTITY forwardCmd.label		"進む">
 <!ENTITY forwardCmd.accesskey		"F">
 <!ENTITY forwardButton.tooltip		"次のページへ進みます">
-<!ENTITY backForwardMenu.tooltip	"最近表示したページ">
 <!ENTITY reloadCmd.label		"更新">
 <!ENTITY reloadCmd.accesskey		"R">
 <!ENTITY reloadButton.tooltip		"このページを再読み込みします">
@@ -149,6 +148,7 @@ can reach it easily. -->
 
 <!ENTITY bookmarksMenuButton.label	"ブックマーク">
 <!ENTITY bookmarksMenuButton.tooltip	"ブックマークを表示">
+<!ENTITY bookmarksMenuButton.unsorted.label	"未整理のブックマーク">
 <!ENTITY viewBookmarksSidebar.label	"ブックマークをサイドバーに表示します">
 <!ENTITY viewBookmarksToolbar.label	"ブックマークをツールバーに表示します">
 
@@ -513,10 +513,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editBookmark.done.label		"完了">
 <!ENTITY editBookmark.cancel.label		"キャンセル">
 <!ENTITY editBookmark.removeBookmark.accessKey	"R">
-<!ENTITY editBookmark.undo.label		"@@Undo@@">
-<!ENTITY editBookmark.undo.accessKey		"U">
-<!ENTITY editBookmark.edit.label		"編集...">
-<!ENTITY editBookmark.edit.accessKey		"E">
 
 <!ENTITY identity.unverifiedsite2		"この Web サイトは認証されていません。"><!-- (^^; identity.connectedTo は通常の SSL 認証(ドメイン認証のみ) と EVSSL による認証(法人登記なども確認して実在証明) で共通  -->
 

@@ -140,8 +140,8 @@
 <!ENTITY certmgr.addException.accesskey		"x">
 
 <!ENTITY exceptionMgr.title			"セキュリティ例外の追加">
-<!ENTITY exceptionMgr.exceptionButton		"セキュリティ例外を承認">
-<!ENTITY exceptionMgr.exceptionButtonAccess	"C">
+<!ENTITY exceptionMgr.exceptionButton.label	"セキュリティ例外を承認">
+<!ENTITY exceptionMgr.exceptionButton.accesskey	"C">
 <!ENTITY exceptionMgr.supplementalWarning	"本物の銀行、通信販売、その他の公開サイトがこの操作を求めることはありません。">
 <!ENTITY exceptionMgr.certlocation.caption2	"サーバ">
 <!ENTITY exceptionMgr.certlocation.url		"URL:">
