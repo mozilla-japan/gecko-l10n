@@ -88,7 +88,7 @@ mail                    -----:------------  5602:81c4ba7dd2d7   mar             
 --------------------------------------------------------------------------------
 sync.browser.rev				= 23ede72138f8
 sync.calendar.rev				= 81c4ba7dd2d7
-sync.dom.rev					= e71139b4dd49
+sync.dom.rev					= c1b38e365772
 sync.editor.rev					= 363607117bbb
 sync.extensions.rev				= 23ede72138f8
 sync.mail.rev					= 81c4ba7dd2d7
