@@ -94,7 +94,7 @@
 
 <!ENTITY search.label				"検索対象:">
 <!ENTITY search.accesskey			"S">
-<!ENTITY search.in.label			"Search in:">
+<!ENTITY search.in.label			"Search in:">	<!-- (^^h 未訳/画面未確認 -->
 
 <!ENTITY search.scopeFolder.label		"選択されているフォルダ">
 <!ENTITY search.scopeFolder.accesskey		"r">
@@ -128,15 +128,15 @@
 
 <!ENTITY find.label					"検索対象:">
 <!ENTITY find.accesskey				"S">
-<!ENTITY view.label					"View">
+<!ENTITY view.label					"View">				<!-- (^^h 未訳/画面未確認 -->
 <!ENTITY view.accesskey				"w">
-<!ENTITY byDate.label				"By Date">
+<!ENTITY byDate.label				"By Date">			<!-- (^^h 未訳/画面未確認 -->
 <!ENTITY byDate.accesskey			"D">
-<!ENTITY bySite.label				"By Site">
+<!ENTITY bySite.label				"By Site">			<!-- (^^h 未訳/画面未確認 -->
 <!ENTITY bySite.accesskey			"S">
-<!ENTITY byMostVisited.label		"By Most Visited">
+<!ENTITY byMostVisited.label		"By Most Visited">	<!-- (^^h 未訳/画面未確認 -->
 <!ENTITY byMostVisited.accesskey	"V">
-<!ENTITY byLastVisited.label		"By Last Visited">
+<!ENTITY byLastVisited.label		"By Last Visited">	<!-- (^^h 未訳/画面未確認 -->
 <!ENTITY byLastVisited.accesskey	"L">
-<!ENTITY byDayAndSite.label			"By Date and Site">
+<!ENTITY byDayAndSite.label			"By Date and Site">	<!-- (^^h 未訳/画面未確認 -->
 <!ENTITY byDayAndSite.accesskey		"t">
