@@ -2,19 +2,19 @@
 
 <!-- First page of the wizard -->
 
-<!ENTITY setup.pickSetupType.description "ようこそ。これまでに &syncBrand.fullName.label; を使用したことがない場合は、アカウントを新規作成してください。">
-<!ENTITY button.createNewAccount.label "アカウントを新規作成">
-<!ENTITY button.haveAccount.label "すでに &syncBrand.fullName.label; アカウントを持っている">
+<!ENTITY setup.pickSetupType.description "ようこそ - これまでに &syncBrand.fullName.label; を使用したことがなければ、アカウントを作成してください。">
+<!ENTITY button.createNewAccount.label "新しいアカウントを作成">
+<!ENTITY button.haveAccount.label "&syncBrand.fullName.label; アカウントを持っています">
 
 <!ENTITY setup.choicePage.title.label     "これまでに &syncBrand.fullName.label; を使用したことはありますか？">
-<!ENTITY setup.choicePage.new.label       "これまでに &syncBrand.fullName.label; を使用したことは一度もありません">
-<!ENTITY setup.choicePage.existing.label  "すでに他のコンピュータで &syncBrand.shortName.label; を使用しています">
+<!ENTITY setup.choicePage.new.label       "これまでに &syncBrand.shortName.label; を使用したことは一度もありません">
+<!ENTITY setup.choicePage.existing.label  "すでにに他のパソコンで &syncBrand.shortName.label; を使用しています">
 
 <!-- New Account AND Existing Account -->
-<!ENTITY server.label               "接続先:">
+<!ENTITY server.label               "サーバ">
 <!ENTITY serverType.main.label      "&syncBrand.fullName.label; サーバ">
 <!ENTITY serverType.custom.label    "独自サーバを使用する">
-<!ENTITY signIn.account.label       "メールアドレスまたはユーザ名">
+<!ENTITY signIn.account.label       "メールアドレス / ユーザ名">
 <!ENTITY signIn.account.accesskey   "E">
 <!ENTITY signIn.password.label      "パスワード">
 <!ENTITY signIn.password.accesskey  "P">
@@ -38,14 +38,14 @@
 <!ENTITY setup.tosAgree2.accesskey  "">
 
 <!-- New Account Page 2: Sync Key -->
-<!ENTITY setup.newSyncKeyPage.title.label "&brandShortName; はあなたのプライバシーを守ります">
-<!ENTITY setup.newSyncKeyPage.description.label "プライバシー確保のため、データは暗号化してアップロードされます。データの復号に必要な秘密の言葉はアップロードされません。">
-<!ENTITY syncKeyEntry.label        "あなたの秘密の言葉">
+<!ENTITY setup.newSyncKeyPage.title.label "&brandShortName; はプライバシーを大切にします">
+<!ENTITY setup.newSyncKeyPage.description.label "あなたのプライバシーを守るため、すべてのデータはアップロード前に暗号化されます。データを復号する際に必要となるキーはアップロードされません。">
+<!ENTITY syncKeyEntry.label        "Sync キー">
 <!ENTITY syncKeyEntry.accesskey    "K">
 <!ENTITY syncKeyGenerate.label     "生成">
-<!ENTITY syncKeyStrength.label     "長さ:">
+<!ENTITY syncKeyStrength.label     "強度:">
 <!ENTITY syncKeyHelp.label         "強度とは？">
-<!ENTITY syncKeyBackup.description "秘密の言葉は他の端末から &syncBrand.fullName.label; にアクセスするのに必要になります。必ずバックアップを作成してください。秘密の言葉をなくすと復元することはできません。">
+<!ENTITY syncKeyBackup.description "Sync キーは、他のパソコンから &syncBrand.fullName.label; へアクセスする際に必要となります。メモとして残しておくことをお勧めします。Sync キーを忘れた場合、元にもどす方法はありません。">
 
 <!ENTITY button.syncKeyBackup.print.label     "@@Print@@...">
 <!ENTITY button.syncKeyBackup.print.accesskey "P">
@@ -53,7 +53,7 @@
 <!ENTITY button.syncKeyBackup.save.accesskey  "S">
 
 <!-- New Account Page 3: Captcha -->
-<!ENTITY setup.captchaPage2.title.label     "あなたがロボットでないことを証明してください ;)">
+<!ENTITY setup.captchaPage2.title.label     "あなたがロボットではないことを確認してください">
 
 <!-- Existing Account Page 1: Login -->
 <!ENTITY setup.existingAccount.title.label "アカウント情報を入力">
@@ -61,18 +61,18 @@
 <!ENTITY connecting.label             "接続中...">
 
 <!-- Existing Account Page 2: Sync Key -->
-<!ENTITY setup.existingSyncKeyPage.title       "秘密の言葉を入力">
-<!ENTITY setup.existingSyncKeyPage.description "秘密の言葉は &syncBrand.fullName.label; の最初の設定のときに、自動生成されたものかあなた自身で決めたものです。あなたのパスワードではありません。">
-<!ENTITY existingSyncKeyHelp.description       "保存されている秘密の言葉は、他のコンピュータでFirefoxを起動し、セキュリティ設定の「保存されているパスワード」を確認することで見つけられます。それでも正しい秘密の言葉が分からない場合は、リセットすることができますが、サーバ上に保存されているデータはすべて失われます。">
-<!ENTITY lostSyncKey.label            "秘密の言葉をなくした">
+<!ENTITY setup.existingSyncKeyPage.title       "Sync キーを入力してください">
+<!ENTITY setup.existingSyncKeyPage.description "Sync キーは、初めて &syncBrand.fullName.label; へログインしたときに、自動生成されたか、あなた自身で入力したものです。これはパスワードとは違います。">
+<!ENTITY existingSyncKeyHelp.description       "Sync キーは、他のパソコンで Firefox を開いて、オプションの [セキュリティ] タブにある [保存されているパスワード] で確認できます。それでも正しい Sync キーが見つからないときはリセットすることも可能ですが、その場合、サーバに保存されているデータは失われます。">
+<!ENTITY lostSyncKey.label            "Sync キーを忘れた場合">
 <!ENTITY verifying.label              "確認中...">
 
 <!-- Sync Options -->
-<!ENTITY setup.optionsPage.title      "Sync 設定">
-<!ENTITY syncComputerName.label       "端末名:">
+<!ENTITY setup.optionsPage.title      "同期オプション">
+<!ENTITY syncComputerName.label       "デバイス名:">
 <!ENTITY syncComputerName.accesskey   "c">
 
-<!ENTITY syncMy.label               "同期する項目">
+<!ENTITY syncMy.label               "同期するデータ">
 <!ENTITY engine.bookmarks.label     "ブックマーク">
 <!ENTITY engine.bookmarks.accesskey "m">
 <!ENTITY engine.tabs.label          "タブ">
@@ -81,24 +81,24 @@
 <!ENTITY engine.history.accesskey   "r">
 <!ENTITY engine.passwords.label     "パスワード">
 <!ENTITY engine.passwords.accesskey "P">
-<!ENTITY engine.prefs.label         "設定">
+<!ENTITY engine.prefs.label         "個人設定">
 <!ENTITY engine.prefs.accesskey     "S">
 
-<!ENTITY choice2.merge.main.label      "このコンピュータ上のデータを &syncBrand.shortName.label; のデータと統合する">
-<!ENTITY choice2.merge.recommended.label "Mozilla ではこのオプションをすべてのユーザに強く推奨します。">
-<!ENTITY choice2.client.main.label     "このコンピュータ上のすべてのデータを &syncBrand.fullName.label; のデータと置き換える">
-<!ENTITY choice2.server.main.label     "他のすべての端末のデータをこのコンピュータ上のデータと置き換える">
+<!ENTITY choice2.merge.main.label      "このパソコンのブラウザデータを、サーバに保存されているデータと統合する">
+<!ENTITY choice2.merge.recommended.label "推奨:">
+<!ENTITY choice2.client.main.label     "このパソコンのブラウザデータを、サーバに保存されているデータと置き換える">
+<!ENTITY choice2.server.main.label     "他のすべてのデバイスのブラウザデータを、このパソコンのデータと置き換える">
 
 <!-- Confirm Merge Options -->
-<!ENTITY setup.optionsConfirmPage.title        "選択内容を確認">
-<!ENTITY confirm.merge.label          "あなたは、このコンピュータ上のデータを &syncBrand.fullName.label; を使用している他の端末上のデータと組み合わせることを選択しました。">
-<!ENTITY confirm.client.label         "このコンピュータ上の &brandShortName; のデータはすべて削除されます。">
-<!ENTITY confirm.client.moreinfo.label "その後 &brandShortName; は &syncBrand.fullName.label; のデータをこのコンピュータにコピーします。">
-<!ENTITY confirm.client.warning.label "警告: これにより、このコンピュータ上の &brandShortName; のデータはすべて置き換えられます!">
-<!ENTITY confirm.server.label         "以下の端末が、このコンピュータ上のデータで上書きされます:">
-<!ENTITY confirm.server.warning.label "警告: これにより、これらの端末上の &brandShortName; のデータはすべてこのコンピュータ上のデータで置き換えられます!">
+<!ENTITY setup.optionsConfirmPage.title        "確認">
+<!ENTITY confirm.merge.label          "このパソコンのすべてのブラウザデータは、サーバに保存されているデータと統合されます。">
+<!ENTITY confirm.client.label         "このパソコンのブラウザデータは、以下の情報を含め、すべて削除されます:">
+<!ENTITY confirm.client.moreinfo.label "その後、サーバに保存されているデータがこのパソコンへコピーされます。">
+<!ENTITY confirm.client.warning.label "警告: これにより、このパソコンのブラウザデータはすべて置き換えられます！">
+<!ENTITY confirm.server.label         "以下のデバイスのブラウザデータが、このパソコンのデータで上書きされます:">
+<!ENTITY confirm.server.warning.label "警告: これにより、これらのデバイス上のブラウザデータは、すべてこのパソコンのデータで置き換えられます！">
 
 <!-- New & Existing Account: Setup Complete -->
-<!ENTITY setup.successPage.title      "設定が完了しました!">
-<!ENTITY changeOptions.label    "この設定はオプションの Sync で変更できます。">
-<!ENTITY continueUsing.label    "これから &brandShortName; を使い続けられます。">
+<!ENTITY setup.successPage.title      "セットアップが完了しました">
+<!ENTITY changeOptions.label    "この設定は、下の同期オプションを選択することで変更できます。">
+<!ENTITY continueUsing.label    "今から &brandShortName; を使い続けることができます。">
