@@ -45,7 +45,7 @@
 <!ENTITY syncKeyGenerate.label     "生成">
 <!ENTITY syncKeyStrength.label     "強度:">
 <!ENTITY syncKeyHelp.label         "強度とは？">
-<!ENTITY syncKeyBackup.description "Sync キーは、他のパソコンから &syncBrand.fullName.label; へアクセスする際に必要となります。メモとして残しておくことをお勧めします。Sync キーを忘れた場合、元にもどす方法はありません。">
+<!ENTITY syncKeyBackup.description "Sync キーは、他のパソコンから &syncBrand.fullName.label; へアクセスする際に必要となります。メモとして残しておくことをお勧めします。Sync キーを失くすと取り戻すことはできません。">
 
 <!ENTITY button.syncKeyBackup.print.label     "@@Print@@...">
 <!ENTITY button.syncKeyBackup.print.accesskey "P">
@@ -63,7 +63,7 @@
 <!-- Existing Account Page 2: Sync Key -->
 <!ENTITY setup.existingSyncKeyPage.title       "Sync キーを入力してください">
 <!ENTITY setup.existingSyncKeyPage.description "Sync キーは、初めて &syncBrand.fullName.label; へログインしたときに、自動生成されたか、あなた自身で入力したものです。これはパスワードとは違います。">
-<!ENTITY existingSyncKeyHelp.description       "Sync キーは、他のパソコンで Firefox を開いて、オプションの [セキュリティ] タブにある [保存されているパスワード] で確認できます。それでも正しい Sync キーが見つからないときはリセットすることも可能ですが、その場合、サーバに保存されているデータは失われます。">
+<!ENTITY existingSyncKeyHelp.description       "Sync キーは、他のパソコンで Firefox を開いて、オプションの @@[@@セキュリティ@@]@@ タブにある @@[@@保存されているパスワード@@]@@ で確認できます。それでも正しい Sync キーが見つからないときはリセットすることも可能ですが、その場合、サーバに保存されているデータは失われます。">
 <!ENTITY lostSyncKey.label            "Sync キーを忘れた場合">
 <!ENTITY verifying.label              "確認中...">
 
