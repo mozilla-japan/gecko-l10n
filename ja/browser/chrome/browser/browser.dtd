@@ -31,7 +31,7 @@ can reach it easily. -->
 <!ENTITY moveToGroup.label		"グループへ移動">
 <!ENTITY moveToGroup.accesskey		"M">
 <!ENTITY moveToNewGroup.label		"@@NewTab@@グループ">
-<!ENTITY moveToNewWindow.label		"新しい@@Window@@へ移動">
+<!ENTITY moveToNewWindow.label		"@@NewWindow@@へ移動">
 <!ENTITY moveToNewWindow.accesskey	"W">
 <!ENTITY bookmarkAllTabs.label		"すべてのタブをブックマーク...">
 <!ENTITY bookmarkAllTabs.accesskey	"T">
@@ -103,7 +103,7 @@ can reach it easily. -->
 <!ENTITY subscribeToPageMenupopup.label	"このページを購読">
 <!ENTITY subscribeToPageMenuitem.label	"このページを購読...">
 <!ENTITY addCurPagesCmd.label		"すべてのタブをブックマーク...">
-<!ENTITY showAllBookmarks.label		"すべてのブックマークを開く...">
+<!ENTITY showAllBookmarks.label		"すべてのブックマークを表示...">
 <!ENTITY bookmarkAllCmd.label		"すべてのタブをブックマーク...">
 <!ENTITY bookmarksToolbarChevron.tooltip	"残りのブックマークを表示します">
 
@@ -290,7 +290,7 @@ can reach it easily. -->
 <!ENTITY openCmd.commandkey		"l">
 <!ENTITY urlbar.placeholder		"URL を入力します">
 <!ENTITY urlbar.accesskey		"d">
-<!ENTITY urlbar.switchToTab.label	"Switch to tab:"> <!-- (^^h 画面未確認 -->
+<!ENTITY urlbar.switchToTab.label	"タブを表示:">
 
 <!-- 
   Comment duplicated from browser-sets.inc:
@@ -320,7 +320,7 @@ can reach it easily. -->
 <!ENTITY openLinkCmd.accesskey		"W">
 <!ENTITY openLinkCmdInTab.label		"リンクを@@NewTab@@で開く">
 <!ENTITY openLinkCmdInTab.accesskey	"T">
-<!ENTITY openLinkCmdInCurrent.label     "リンクを現在のタブに開く"> <!-- (^^h 画面未確認 -->
+<!ENTITY openLinkCmdInCurrent.label     "選択した URL を開く"><!-- (^m^) Bug 454518  en-US: "Open link" -->
 <!ENTITY openLinkCmdInCurrent.accesskey "O">
 <!ENTITY openFrameCmd.label		"フレームを@@NewWindow@@で開く">
 <!ENTITY openFrameCmd.accesskey		"W">
@@ -538,7 +538,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY allTabs.filter.emptyText		"タブを検索">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
-<!ENTITY tabsToolbar.label			"Browser tabs"> <!-- (^^h 未使用？ -->
+<!ENTITY tabsToolbar.label			"ブラウザタブ"><!-- (^m^) Bug 565042  音声読み上げ用ラベル -->
 
 <!-- LOCALIZATION NOTE (syncTabsMenu.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu.label				"他のパソコンで開いていたタブ">
