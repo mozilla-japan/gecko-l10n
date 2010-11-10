@@ -92,9 +92,9 @@
 <!ENTITY col.dateadded.label			"追加日時">
 <!ENTITY col.lastmodified.label			"変更日時">
 
-<!ENTITY search.label				"検索対象:">
+<!ENTITY search.label				"検索:">
 <!ENTITY search.accesskey			"S">
-<!ENTITY search.in.label			"Search in:">	<!-- (^^h 未訳/画面未確認 -->
+<!ENTITY search.in.label			"検索対象:">
 
 <!ENTITY search.scopeFolder.label		"選択されているフォルダ">
 <!ENTITY search.scopeFolder.accesskey		"r">
@@ -126,17 +126,17 @@
 <!ENTITY detailsPane.noPreviewAvailable.label	"プレビュー">
 <!ENTITY detailsPane.selectAnItemText.description "各項目を選択すると、名前や詳細情報の表示や編集ができます">
 
-<!ENTITY find.label					"検索対象:">
+<!ENTITY find.label				"検索:">
 <!ENTITY find.accesskey				"S">
-<!ENTITY view.label					"View">				<!-- (^^h 未訳/画面未確認 -->
+<!ENTITY view.label				"表示">
 <!ENTITY view.accesskey				"w">
-<!ENTITY byDate.label				"By Date">			<!-- (^^h 未訳/画面未確認 -->
+<!ENTITY byDate.label				"日付順に並べる">
 <!ENTITY byDate.accesskey			"D">
-<!ENTITY bySite.label				"By Site">			<!-- (^^h 未訳/画面未確認 -->
+<!ENTITY bySite.label				"サイト名順に並べる">
 <!ENTITY bySite.accesskey			"S">
-<!ENTITY byMostVisited.label		"By Most Visited">	<!-- (^^h 未訳/画面未確認 -->
-<!ENTITY byMostVisited.accesskey	"V">
-<!ENTITY byLastVisited.label		"By Last Visited">	<!-- (^^h 未訳/画面未確認 -->
-<!ENTITY byLastVisited.accesskey	"L">
-<!ENTITY byDayAndSite.label			"By Date and Site">	<!-- (^^h 未訳/画面未確認 -->
-<!ENTITY byDayAndSite.accesskey		"t">
+<!ENTITY byMostVisited.label			"表示回数順に並べる">
+<!ENTITY byMostVisited.accesskey		"V">
+<!ENTITY byLastVisited.label			"最後に表示した日時順に並べる">
+<!ENTITY byLastVisited.accesskey		"L">
+<!ENTITY byDayAndSite.label			"日付とサイト名順に並べる">
+<!ENTITY byDayAndSite.accesskey			"t">
