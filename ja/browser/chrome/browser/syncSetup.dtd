@@ -92,11 +92,9 @@
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title        "確認">
 <!ENTITY confirm.merge.label          "このパソコンのすべてのブラウザデータは、サーバに保存されているデータと統合されます。">
-<!ENTITY confirm.client.label         "このパソコンのブラウザデータは、以下の情報を含め、すべて削除されます:">
+<!ENTITY confirm.client2.label         "警告: このパソコンのブラウザデータは、以下の情報を含め、すべて削除されます:">
 <!ENTITY confirm.client.moreinfo.label "その後、サーバに保存されているデータがこのパソコンへコピーされます。">
-<!ENTITY confirm.client.warning.label "警告: これにより、このパソコンのブラウザデータはすべて置き換えられます！">
-<!ENTITY confirm.server.label         "以下のデバイスのブラウザデータが、このパソコンのデータで上書きされます:">
-<!ENTITY confirm.server.warning.label "警告: これにより、これらのデバイス上のブラウザデータは、すべてこのパソコンのデータで置き換えられます！">
+<!ENTITY confirm.server2.label         "警告: 以下のデバイスのブラウザデータが、このパソコンのデータで上書きされます:">
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title      "セットアップが完了しました">
