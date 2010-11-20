@@ -95,3 +95,4 @@ calendar                -----:------------  6624:26435a548ad9   mar             
 suite                   -----:------------  6624:26435a548ad9   mar             sync suite (部分的), changeset 759
 browser, security       56829:2a4571a9ef2a  6632:55086537a691   hATrayflood     sync browser, pippki/certManager.dtd, chengeset 764
 toolkit                 56838:ec7521865660  6636:b71a8499c3ec   mar             sync toolkit, chengeset 766
+browser, toolkit        57935:b89d1824a762  6726:c785aae4b1d1   hATrayflood     sync browser, toolkit, chengeset 770

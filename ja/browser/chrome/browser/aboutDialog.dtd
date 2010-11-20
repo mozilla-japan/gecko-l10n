@@ -27,7 +27,7 @@
 <!-- LOCALIZATION NOTE (update.checkingAddonCompat): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.checkingAddonCompat	"アドオンの互換性を確認中...">
 <!-- LOCALIZATION NOTE (update.noUpdatesFound): try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.noUpdatesFound		"&brandShortName; は更新されました">
+<!ENTITY update.noUpdatesFound		"&brandShortName; は最新版です">
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.adminDisabled		"システム管理者により、更新は無効化されています">
 
