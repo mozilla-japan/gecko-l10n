@@ -14,7 +14,7 @@
 <!ENTITY  manualUpdate.title		"更新できません">
 <!ENTITY  manualUpdate.desc		"セキュリティと安定性を向上する更新が見つかりましたが、ソフトウェアをインストールする権限がありません。管理者に問い合わせるか、このコンピュータにソフトウェアをインストールする権限を持つアカウントで再度試してください。">
 <!ENTITY  manualUpdate.space.desc	"セキュリティと安定性を向上する更新が見つかりましたが、インストールに必要な空き領域が足りません。">
-<!ENTITY  manualUpdateGetMsg.label	"&brandShortName; の最新版は次の URL でダウンロードできます:">
+<!ENTITY  manualUpdateGetMsg.label	"&brandShortName; の最新バージョンは次の URL からダウンロードできます:">
 
 <!ENTITY  incompatibleCheck.title	"アドオンの互換性を確認しています">
 <!ENTITY  incompatibleCheck.label	"インストールされているアドオンに新しいバージョンがないか確認しています...">
