@@ -1,10 +1,5 @@
-google
-amazon-jp
-excite_eiwa
-excite_enja
-excite_jaen
-excite_waei
-wni
+google-jp
 yahoo-jp
-dmoz
-jeeves
+amazon-jp
+wikipedia-ja
+creativecommons
