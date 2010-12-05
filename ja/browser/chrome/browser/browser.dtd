@@ -103,7 +103,7 @@ can reach it easily. -->
 <!ENTITY subscribeToPageMenupopup.label	"このページを購読">
 <!ENTITY subscribeToPageMenuitem.label	"このページを購読...">
 <!ENTITY addCurPagesCmd.label		"すべてのタブをブックマーク...">
-<!ENTITY showAllBookmarks.label		"すべてのブックマークを表示...">
+<!ENTITY showAllBookmarks2.label		"すべてのブックマークを表示">
 <!ENTITY bookmarkAllCmd.label		"すべてのタブをブックマーク...">
 <!ENTITY bookmarksToolbarChevron.tooltip	"残りのブックマークを表示します">
 
@@ -237,8 +237,8 @@ can reach it easily. -->
 <!ENTITY selectAllCmd.label		"@@SelectAll@@">
 <!ENTITY selectAllCmd.key		"A">
 <!ENTITY selectAllCmd.accesskey		"A">
-<!ENTITY preferencesCmd.label		"オプション...">
-<!ENTITY preferencesCmd.accesskey	"O">
+<!ENTITY preferencesCmd2.label		"オプション">
+<!ENTITY preferencesCmd2.accesskey	"O">
 <!ENTITY preferencesCmdUnix.label	"設定">
 <!ENTITY preferencesCmdUnix.accesskey	"n">
 
