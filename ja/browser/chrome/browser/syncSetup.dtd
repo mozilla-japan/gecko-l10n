@@ -4,7 +4,8 @@
 
 <!ENTITY setup.pickSetupType.description "ようこそ - これまでに &syncBrand.fullName.label; を使用したことがなければ、アカウントを作成してください。">
 <!ENTITY button.createNewAccount.label "新しいアカウントを作成">
-<!ENTITY button.haveAccount.label "&syncBrand.fullName.label; アカウントを持っています">
+<!ENTITY setup.haveAccount.label "&syncBrand.fullName.label; アカウントを持っています">
+<!ENTITY button.connect.label    "接続">
 
 <!ENTITY setup.choicePage.title.label     "これまでに &syncBrand.fullName.label; を使用したことはありますか？">
 <!ENTITY setup.choicePage.new.label       "これまでに &syncBrand.shortName.label; を使用したことは一度もありません">
@@ -13,13 +14,13 @@
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "サーバ">
 <!ENTITY serverType.main.label      "&syncBrand.fullName.label; サーバ">
-<!ENTITY serverType.custom.label    "独自サーバを使用する">
-<!ENTITY signIn.account.label       "メールアドレス / ユーザ名">
-<!ENTITY signIn.account.accesskey   "E">
+<!ENTITY serverType.custom2.label   "独自サーバを使用する...">
+<!ENTITY signIn.account2.label      "アカウント">
+<!ENTITY signIn.account2.accesskey  "A">
 <!ENTITY signIn.password.label      "パスワード">
 <!ENTITY signIn.password.accesskey  "P">
-<!ENTITY signIn.serverURL.label     "サーバ URL">
-<!ENTITY signIn.serverURL.accesskey "L">
+<!ENTITY signIn.syncKey.label       "Sync キー">
+<!ENTITY signIn.syncKey.accesskey   "K">
 
 <!-- New Account Page 1: Basic Account Info -->
 <!ENTITY setup.newAccountDetailsPage.title.label  "アカウントの詳細">
@@ -52,18 +53,25 @@
 
 <!-- New Account Page 3: Captcha -->
 <!ENTITY setup.captchaPage2.title.label     "あなたがロボットではないことを確認してください">
+<!-- Existing Account Page 1: Add Device (incl. Add a Device dialog strings) -->
+<!ENTITY addDevice.title.label              "デバイスを追加する">
+<!ENTITY addDevice.showMeHow.label          "設定方法を確認する。">
+<!ENTITY addDevice.dontHaveDevice.label     "他の Sync デバイスを持っていない">
+<!ENTITY addDevice.setup.description.label  "有効にするには、他の Sync デバイスで &syncBrand.shortName.label; オプション の &#x0022;デバイスを追加する&#x0022; を選択してください。">
+<!ENTITY addDevice.setup.enterCode.label    "表示された画面に、以下のコードを入力してください:">
+<!ENTITY addDevice.dialog.description.label "新たなデバイスを有効にするには、追加するデバイスの &syncBrand.shortName.label; オプションの &#x0022;接続&#x0022; を選択してください。">
+<!ENTITY addDevice.dialog.enterCode.label   "デバイスに表示されたコードを入力してください:">
+<!ENTITY addDevice.dialog.tryAgain.label    "もう一度入力してください。">
+<!ENTITY addDevice.dialog.successful.label  "デバイスの接続に成功しました。最初の同期はバックグラウンドで、数分のうちに完了します。">
+<!ENTITY addDevice.dialog.syncKey.label     "お使いのデバイスで &syncBrand.shortName.label; を有効にするには、Sync キーを入力する必要があります。以下の Sync キーを@@Print@@、または保存して、デバイスに入力してください。">
+<!ENTITY addDevice.dialog.connected.label   "デバイスが接続されました">
 
-<!-- Existing Account Page 1: Login -->
-<!ENTITY setup.existingAccount.title.label "アカウント情報を入力">
-<!ENTITY resetPassword.label          "パスワードをリセット">
-<!ENTITY connecting.label             "接続中...">
-
-<!-- Existing Account Page 2: Sync Key -->
-<!ENTITY setup.existingSyncKeyPage.title       "Sync キーを入力してください">
-<!ENTITY setup.existingSyncKeyPage.description "Sync キーは、初めて &syncBrand.fullName.label; へログインしたときに、自動生成されたか、あなた自身で入力したものです。これはパスワードとは違います。">
-<!ENTITY existingSyncKeyHelp.description       "Sync キーは、他のパソコンで Firefox を開いて、オプションの @@[@@セキュリティ@@]@@ タブにある @@[@@保存されているパスワード@@]@@ で確認できます。それでも正しい Sync キーが見つからないときはリセットすることも可能ですが、その場合、サーバに保存されているデータは失われます。">
-<!ENTITY lostSyncKey.label            "Sync キーを忘れた場合">
+<!-- Existing Account Page 2: Manual Login -->
+<!ENTITY setup.signInPage.title.label "サインイン">
+<!ENTITY existingSyncKey.description  "Sync キーは他の Sync デバイスの &syncBrand.shortName.label; オプションの &#x0022;アカウントを管理&#x0022; の &#x0022;自分の Sync キー&#x0022; で確認できます。">
 <!ENTITY verifying.label              "確認中...">
+<!ENTITY resetPassword.label          "パスワードをリセット">
+<!ENTITY lostSyncKey.label            "Sync キーを忘れた場合">
 
 <!-- Sync Options -->
 <!ENTITY setup.optionsPage.title      "同期オプション">

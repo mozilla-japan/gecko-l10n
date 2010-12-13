@@ -19,6 +19,7 @@
 <!ENTITY mySyncKey.label              "自分の Sync キー">
 <!ENTITY resetSync.label              "Sync をリセット">
 <!ENTITY stopUsingAccount.label       "このアカウントの使用を中止">
+<!ENTITY addDevice.label              "デバイスを追加">
 
 <!-- Sync Settings -->
 <!ENTITY syncPrefsCaption.label       "ブラウザ同期">
