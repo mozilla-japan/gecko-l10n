@@ -4,7 +4,7 @@
 
 <!ENTITY setup.pickSetupType.description "ようこそ - これまでに &syncBrand.fullName.label; を使用したことがなければ、アカウントを作成してください。">
 <!ENTITY button.createNewAccount.label "新しいアカウントを作成">
-<!ENTITY setup.haveAccount.label "&syncBrand.fullName.label; アカウントを持っています">
+<!ENTITY setup.haveAccount.label "すでに &syncBrand.fullName.label; アカウントを持っています">
 <!ENTITY button.connect.label    "接続">
 
 <!ENTITY setup.choicePage.title.label     "これまでに &syncBrand.fullName.label; を使用したことはありますか？">
