@@ -29,8 +29,6 @@
 <!ENTITY helpFeedbackPage.label		"フィードバックを送信...">
 <!ENTITY helpFeedbackPage.accesskey	"S">
 
-<!ENTITY updateCmd.label		"ソフトウェアの更新を確認...">
-
 <!ENTITY preferencesCmdMac.label        "環境設定...">
 <!ENTITY preferencesCmdMac.commandkey	",">
 
