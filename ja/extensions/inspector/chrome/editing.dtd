@@ -14,3 +14,10 @@
 <!ENTITY mnEditEdit.accesskey		"e">
 <!ENTITY mnEditDelete.label		"削除">
 <!ENTITY mnEditDelete.accesskey		"d">
+<!ENTITY mnEditInspectInNewWindow.label	"@@NewWindow@@で調査">
+<!ENTITY mnEditInspectInNewWindow.accesskey	"N">
+<!ENTITY mnEditInspectInNewWindow.key	"I">
+<!ENTITY mnEditCopyFileURI.label	"URI をコピー">
+<!ENTITY mnEditCopyFileURI.accesskey	"U">
+<!ENTITY mnEditViewFileURI.label	"ファイルを表示">
+<!ENTITY mnEditViewFileURI.accesskey	"V">

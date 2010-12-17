@@ -42,8 +42,6 @@
 <!ENTITY newRules.label			"@@New-CMD@@規則">
 <!ENTITY deleteSelectedRules.label	"削除">
 <!ENTITY disableSelectedRules.label	"無効化">
-<!ENTITY copySelectedFileURI.label	"URI をコピー">
-<!ENTITY viewSelectedFileURI.label	"ファイルを表示">
 
 <!-- LOCALIZATION NOTE: DO NOT LOCALIZE "!important" since it is a CSS API -->
 <!ENTITY toggleSelectedImportant.label	"!important を切り替え">

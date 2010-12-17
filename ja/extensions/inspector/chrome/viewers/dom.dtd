@@ -77,8 +77,6 @@
 <!ENTITY cmdBlink.accesskey			"B">
 <!ENTITY cmdInspectBrowser.label		"含まれているドキュメントを調査">
 <!ENTITY cmdInspectBrowser.accesskey		"e">
-<!ENTITY cmdInspectInNewWindow.label		"@@NewWindow@@で調査">
-<!ENTITY cmdInspectInNewWindow.accesskey	"N">
 
 <!ENTITY cmdShowPseudoClasses.label		"疑似クラスを設定...">
 <!ENTITY cmdShowPseudoClasses.accesskey		"S">
