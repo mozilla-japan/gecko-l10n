@@ -17,6 +17,8 @@
   <!ENTITY mnInspectContentDocument.accesskey	"O">
   <!ENTITY mnInspectChromeDocument.label	"Chrome ドキュメントを調査">
   <!ENTITY mnInspectChromeDocument.accesskey	"H">
+  <!ENTITY mnInspectApplicationAccessible.label	"アプリケーションの Accessible を調査">
+  <!ENTITY mnInspectApplicationAccessible.accesskey	"A">
   <!ENTITY cmdEnterLocation.label		"URL を調査">
   <!ENTITY cmdEnterLocation.accesskey		"U">
   <!ENTITY cmdEnterLocation.key			"L">
@@ -52,8 +54,6 @@
   <!ENTITY cmdFlashOnSelect.accesskey	"S">
 
 <!ENTITY browserPanel.label		"ブラウザ">
-
-<!ENTITY inspectNewWindow.label		"@@NewWindow@@で調査">
 
 <!ENTITY saveCmd.key			"S">
 <!ENTITY closeCmd.key			"W">
