@@ -26,7 +26,8 @@
    -   Martin Schroeder <mschroeder@mozilla.x-home.org>
    -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
    -   Fred Jendrzejewski <fred.jen@web.de>
-   -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
+   -   Simon Vaillancourt <simon.at.orcl@gmail.com>
+   -   Gianfranco Balza <bv1578@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -43,6 +44,8 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY event.title.label				"項目を編集" >
+
+<!ENTITY event.dialog.keepDurationButton.tooltip	"">
 
 <!ENTITY newevent.from.label				"開始日時" >
 <!ENTITY newevent.to.label				"終了日時" >
