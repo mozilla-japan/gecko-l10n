@@ -126,8 +126,6 @@
 <!ENTITY deleteMsgsCmd.accesskey               "D">
 <!ENTITY undeleteMsgsCmd.label                 "選択したメッセージを削除しない">
 <!ENTITY undeleteMsgsCmd.accesskey             "d">
-<!ENTITY cancelNewsMsgsCmd.label               "選択したメッセージをキャンセル">
-<!ENTITY cancelNewsMsgsCmd.accesskey           "n">
 <!ENTITY deleteFolderCmd.label                 "フォルダの削除">
 <!ENTITY deleteFolderCmd.accesskey             "D">
 <!ENTITY unsubscribeNewsgroupCmd.label         "購読を解除">

@@ -55,9 +55,10 @@
 <!ENTITY lookIn.accesskey                    "L">
 <!ENTITY for.label                           "検索:">
 <!ENTITY for.accesskey                       "f">
+<!ENTITY for.placeholder                     "名前またはメールアドレス">
 <!ENTITY addressMessageTo.label              "メッセージを送信するアドレス:"> 
 
 <!-- Tooltips items -->  
-<!ENTITY addressPickerNewButton.tooltip      "@@New-CMD@@アドレス帳を作成します"><!--Create a new address book card--> 
-<!ENTITY addressPickerEditButton.tooltip     "選択した連絡先を編集します"><!--Edit the selected card-->
+<!ENTITY addressPickerNewButton.tooltip      "@@New-CMD@@連絡先を作成します">
+<!ENTITY addressPickerEditButton.tooltip     "選択した連絡先を編集します">
 
