@@ -100,3 +100,4 @@ browser                 58617:1f2beffd84ff  ----:------------   hATrayflood     
 browser                 59153:8fba5ba58911  ----:------------   hATrayflood     sync browser, chengeset 775
 toolkit                 59154:210237f7d626  6821:b952a88135d7   mar             sync toolkit, chengeset 776
 inspector               -----:------------  ----:------------   mar             sync inspector, chengeset 778
+mail                    -----:------------  6897:600b8c098a82   mar             sync mail, changeset 781
