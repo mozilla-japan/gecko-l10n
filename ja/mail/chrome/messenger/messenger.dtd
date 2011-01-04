@@ -79,8 +79,6 @@
 <!ENTITY deleteMsgsCmd.accesskey		"D">
 <!ENTITY undeleteMsgsCmd.label			"選択したメッセージを削除しない">
 <!ENTITY undeleteMsgsCmd.accesskey		"d">
-<!ENTITY cancelNewsMsgsCmd.label		"選択したメッセージをキャンセル">
-<!ENTITY cancelNewsMsgsCmd.accesskey		"n">
 <!ENTITY deleteFolderCmd.label			"フォルダを削除">
 <!ENTITY deleteFolderCmd.accesskey		"D">
 <!ENTITY unsubscribeNewsgroupCmd.label		"購読を解除">
@@ -313,6 +311,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goBackCmd.commandKey		"[">
 <!ENTITY prevStarredMsgCmd.label	"スター付きメッセージ">
 <!ENTITY prevStarredMsgCmd.accesskey	"S">
+<!ENTITY folderMenu.label		"フォルダ">
+<!ENTITY folderMenu.accesskey		"O">
+<!ENTITY thisFolder.label		"このフォルダ">
+<!ENTITY thisFolder.accesskey		"F">
 <!ENTITY startPageCmd.label		"&brandShortName; スタートページ">
 <!ENTITY startPageCmd.accesskey		"S">
 
