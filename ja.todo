@@ -27,7 +27,7 @@ Firefox 4 beta 4 に向けて changeset 706〜720 で行われた変更には一
 
 SeaMonkey 2.1
 
- changeset 759 の時点で同期済み
+ changeset 783 の時点で同期済み
   /chrome/branding
   /chrome/mailnews
   /chrome/crashreporter
@@ -36,4 +36,3 @@ SeaMonkey 2.1
  要更新
   /chrome/browser
   /chrome/common
-  /searchplugins
