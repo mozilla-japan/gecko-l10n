@@ -71,7 +71,7 @@
 <!ENTITY existingSyncKey.description  "Sync キーは他の Sync デバイスの &syncBrand.shortName.label; オプションの &#x0022;アカウントを管理&#x0022; の &#x0022;自分の Sync キー&#x0022; で確認できます。">
 <!ENTITY verifying.label              "確認中...">
 <!ENTITY resetPassword.label          "パスワードをリセット">
-<!ENTITY lostSyncKey.label            "Sync キーを忘れた場合">
+<!ENTITY resetSyncKey.label           "他の Sync デバイスをなくした場合。">
 
 <!-- Sync Options -->
 <!ENTITY setup.optionsPage.title      "同期オプション">
