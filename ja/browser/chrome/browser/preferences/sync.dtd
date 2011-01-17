@@ -4,8 +4,6 @@
 <!ENTITY weaveDesc.label            "&syncBrand.fullName.label; を使えば、Firefox の履歴、ブックマーク、パスワード、開いているタブに、様々なデバイスからアクセスできます。">
 
 <!-- The page shown when logged in... -->
-<!ENTITY accountGroupboxCaption.label "&syncBrand.fullName.label; アカウント">
-<!ENTITY currentAccount.label         "現在のアカウント:">
 
 <!-- Login error feedback -->
 <!ENTITY updatePass.label             "更新">
@@ -18,13 +16,7 @@
 <!ENTITY changePassword.label         "パスワードを変更">
 <!ENTITY mySyncKey.label              "自分の Sync キー">
 <!ENTITY resetSync.label              "Sync をリセット">
-<!ENTITY stopUsingAccount.label       "このアカウントの使用を中止">
 <!ENTITY addDevice.label              "デバイスを追加">
-
-<!-- Sync Settings -->
-<!ENTITY syncPrefsCaption.label       "ブラウザ同期">
-<!ENTITY syncComputerName.label       "デバイス名:">
-<!ENTITY syncComputerName.accesskey   "c">
 
 <!ENTITY syncMy.label               "同期するデータ">
 <!ENTITY engine.bookmarks.label     "ブックマーク">
@@ -38,6 +30,10 @@
 <!ENTITY engine.prefs.label         "個人設定">
 <!ENTITY engine.prefs.accesskey     "S">
 
+<!-- Device Settings -->
+<!ENTITY syncComputerName.label       "デバイス名:">
+<!ENTITY syncComputerName.accesskey   "c">
+<!ENTITY deactivateDevice.label       "このデバイスを停止する">
 
 <!-- Footer stuff -->
 <!ENTITY prefs.tosLink.label        "利用規約">
