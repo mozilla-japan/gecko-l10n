@@ -306,7 +306,7 @@
 <!ENTITY calendar.alarm.snooze.1day.label		"1 日" >
 
 <!-- Calendar Server Dialog -->
-<!ENTITY calendar.server.dialog.title.edit		"カレンダーを編集">
+<!ENTITY calendar.server.dialog.title.edit		"カレンダーの編集">
 <!ENTITY calendar.server.dialog.name.label		"カレンダー名:">
 
 <!-- Calendar Properties -->
@@ -326,7 +326,7 @@
 <!ENTITY calendarproperties.unsubscribe.accesskey	"U">
 
 <!-- Calendar Publish Dialog -->
-<!ENTITY calendar.publish.dialog.title			"カレンダーを公開">
+<!ENTITY calendar.publish.dialog.title			"カレンダーの公開">
 <!ENTITY calendar.publish.url.label			"公開 URL">
 <!ENTITY calendar.publish.publish.button		"公開">
 <!ENTITY calendar.publish.close.button			"閉じる">
@@ -334,10 +334,10 @@
 <!ENTITY calendar.publish.example.url.description	"例:  http://www.myserver.com/webdav/test.ics">
 
 <!-- Select Calendar Dialog -->
-<!ENTITY calendar.select.dialog.title			"カレンダーを選択">
+<!ENTITY calendar.select.dialog.title			"カレンダーの選択">
 
 <!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title			"カレンダー@@Print@@">
+<!ENTITY calendar.print.window.title			"カレンダーの@@Print@@">
 <!ENTITY calendar.print.title.label			"件名:">
 <!ENTITY calendar.print.layout.label			"レイアウト:">
 <!ENTITY calendar.print.range.label			"@@Print@@範囲">

@@ -40,10 +40,10 @@
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
 
-<!ENTITY pref.categories.add.title    "カテゴリを追加">
+<!ENTITY pref.categories.add.title    "カテゴリの追加">
 <!ENTITY pref.categories.addButton.label "追加...">
 <!ENTITY pref.categories.addButton.accesskey "A">
-<!ENTITY pref.categories.edit.title   "カテゴリを編集">
+<!ENTITY pref.categories.edit.title   "カテゴリの編集">
 <!ENTITY pref.categories.editButton.label "編集...">
 <!ENTITY pref.categories.editButton.accesskey "E">
 <!ENTITY pref.categories.removeButton.label "削除">
@@ -52,7 +52,7 @@
 <!ENTITY pref.categories.color.label  "@@Color@@">
 <!ENTITY pref.categories.usecolor.label   "@@Color@@を設定する">
 <!ENTITY pref.categories.none.label   "(なし)">
-<!ENTITY pref.categories.overwrite  "すでにそのカテゴリ名は存在しています。\n上書きしてよろしいですか？">
+<!ENTITY pref.categories.overwrite  "そのカテゴリ名はすでに存在しています。\n上書きしてもよろしいですか？">
 <!ENTITY pref.categories.overwrite.title  "警告: 重複した名前">
 <!ENTITY pref.categories.noBlankCategories  "カテゴリ名を入力してください。">
 
