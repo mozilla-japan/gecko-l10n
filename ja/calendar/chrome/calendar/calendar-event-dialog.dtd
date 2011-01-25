@@ -26,7 +26,8 @@
    -   Martin Schroeder <mschroeder@mozilla.x-home.org>
    -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
    -   Fred Jendrzejewski <fred.jen@web.de>
-   -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
+   -   Simon Vaillancourt <simon.at.orcl@gmail.com>
+   -   Gianfranco Balza <bv1578@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -42,7 +43,10 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY event.title.label				"項目を編集" >
+<!ENTITY event.title.label				"項目の編集" >
+
+<!ENTITY event.dialog.keepDurationButton.tooltip	"終了日時を変更しても期間の長さを維持します">
+<!ENTITY event.dialog.keepDurationButton.accesskey	"K">
 
 <!ENTITY newevent.from.label				"開始日時" >
 <!ENTITY newevent.to.label				"終了日時" >
@@ -244,7 +248,7 @@
 <!ENTITY event.reminder.multiple.label			"複数のアラーム..." >
 
 <!-- Recurrence dialog -->
-<!ENTITY recurrence.title.label				"周期を編集">
+<!ENTITY recurrence.title.label				"周期の編集">
 
 <!ENTITY event.repeat.does.not.repeat.label		"繰り返さない">
 <!ENTITY event.repeat.daily.label			"毎日">
