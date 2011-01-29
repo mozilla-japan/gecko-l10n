@@ -20,9 +20,6 @@
 <!ENTITY helpSafeMode.label		"アドオンを無効にして再起動...">
 <!ENTITY helpSafeMode.accesskey		"R">
 
-<!ENTITY helpReleaseNotes.label		"リリースノート">
-<!ENTITY helpReleaseNotes.accesskey	"N">
-
 <!ENTITY helpTroubleshootingInfo.label	"トラブルシューティング情報...">
 <!ENTITY helpTroubleshootingInfo.accesskey "T">
 
