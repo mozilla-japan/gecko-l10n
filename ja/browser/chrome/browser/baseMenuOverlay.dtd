@@ -14,8 +14,6 @@
 <!ENTITY aboutProduct.accesskey		"A">
 <!ENTITY productHelp.label		"&brandShortName; ヘルプ">
 <!ENTITY productHelp.accesskey		"H">
-<!ENTITY helpForIEUsers.label		"Internet Explorer ユーザのために">
-<!ENTITY helpForIEUsers.accesskey	"I">
 <!ENTITY helpMac.commandkey		"?">
 <!ENTITY helpSafeMode.label		"アドオンを無効にして再起動...">
 <!ENTITY helpSafeMode.accesskey		"R">
