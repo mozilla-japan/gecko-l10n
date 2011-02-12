@@ -139,7 +139,7 @@ can reach it easily. -->
 <!ENTITY tabGroupsButton.tooltip	"タブをグループ分けして管理できます">
 
 <!ENTITY feedButton.label		"購読">
-<!ENTITY feedButton.tooltip		"このページを購読...">
+<!ENTITY feedButton.tooltip		"このページのフィードを購読します...">
 
 <!ENTITY bookmarksButton.label		"ブックマーク">
 <!ENTITY bookmarksButton.tooltip	"ブックマークをサイドバーに表示します">
@@ -147,10 +147,10 @@ can reach it easily. -->
 <!ENTITY bookmarksCmd.commandkey	"b">
 
 <!ENTITY bookmarksMenuButton.label	"ブックマーク">
-<!ENTITY bookmarksMenuButton.tooltip	"ブックマークを表示">
+<!ENTITY bookmarksMenuButton.tooltip	"ブックマークを表示します">
 <!ENTITY bookmarksMenuButton.unsorted.label	"未整理のブックマーク">
 <!ENTITY viewBookmarksSidebar.label	"ブックマークをサイドバーに表示します">
-<!ENTITY viewBookmarksToolbar.label	"ブックマークをツールバーに表示します">
+<!ENTITY viewBookmarksToolbar.label	"ブックマークツールバーを表示">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -278,9 +278,9 @@ can reach it easily. -->
 
 <!ENTITY appMenuEdit.label		"編集">
 <!ENTITY appMenuCustomize.label		"カスタマイズ">
-<!ENTITY appMenuToolbarLayout.label	"ツールバーのレイアウト">
+<!ENTITY appMenuToolbarLayout.label	"ツールバーのカスタマイズ...">
 <!ENTITY appMenuSidebars.label		"サイドバー">
-<!ENTITY appMenuFind.label		"検索...">
+<!ENTITY appMenuFind.label		"ページ内検索...">
 <!ENTITY appMenuUnsorted.label		"未整理のブックマーク">
 <!ENTITY appMenuWebDeveloper.label	"Web 開発">
 <!ENTITY appMenuGettingStarted.label	"使いこなそう">
