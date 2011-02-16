@@ -1,0 +1,8 @@
+<!ENTITY aboutHome.header                       "<span>&brandShortName; </span><span id='header-suffix'>スタート</span>">
+<!ENTITY aboutHome.recentTabs                   "前回終了時に開いていたタブ">
+<!ENTITY aboutHome.remoteTabs                   "他のコンピュータで開いているタブ">
+<!ENTITY aboutHome.recommendedAddons2           "&brandShortName; のアドオン">
+<!ENTITY aboutHome.giveFeedback                 "フィードバックを送信する">
+<!ENTITY aboutHome.openAllTabs                  "すべてタブで開く">
+<!ENTITY aboutHome.noTabs                       "前回終了時に開いていたタブはありません">
+<!ENTITY aboutHome.noAddons                     "オススメのアドオンはありません">

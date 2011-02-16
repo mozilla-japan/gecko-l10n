@@ -1,0 +1,12 @@
+<!ENTITY empty.label            "検索">
+<!ENTITY newpref.label          "新しい設定を追加">
+<!ENTITY addpref.name           "名前">
+<!ENTITY addpref.value          "値">
+
+<!ENTITY cancel.label           "キャンセル">
+<!ENTITY reset.label            "リセット">
+<!ENTITY done.label             "完了">
+
+<!ENTITY integer.label          "整数値">
+<!ENTITY string.label           "文字列">
+<!ENTITY boolean.label          "真偽値">

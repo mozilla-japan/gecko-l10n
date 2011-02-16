@@ -1,10 +1,14 @@
-<!-- 文化の違いにより原文は半ば無視 -->
-<!ENTITY welcome.title                      "&brandShortName; スタートページ">
-<!ENTITY intro.description                  "
-パソコンの Firefox と自動同期したり、アドオンで自分好みにカスタマイズできます。モバイルでも &brandShortName; で快適な Web ブラウジングをお楽しみください。"><!-- ...履歴や Web の検索が統合されたロケーションバー... -->
-<!ENTITY weave.title                        "データを同期しよう">
-<!ENTITY weave.description                  "パソコンの Firefox と、ブックマーク、ページの表示履歴、保存されているパスワード、開いているタブなどを自動的に同期できます。使い慣れた Firefox を Weave Sync で携帯してください。">
-<!ENTITY weave.linkLabel                    "Weave Sync を入手">
-<!ENTITY getPersonal.title                  "自分らしいブラウザにしよう">
-<!ENTITY getPersonal.description            "&brandShortName; はアドオンをサポートする史上初のモバイルブラウザです。好きなアドオンを追加して自分専用のブラウザを作ってください。">
-<!ENTITY getPersonal.linkLabel              "アドオンを入手">
+<!ENTITY firstrun.title                "&brandShortName; へようこそ">
+<!ENTITY firstrun.heading2             ""><!-- 折り返しも発生するしページ右上のタイトルはない方がいい(タイトルはロゴだけで十分) -->
+<!-- 初回起動画面で横に三つ並ぶボタンのラベル。原文無視して適切な表現に -->
+<!ENTITY firstrun.sync2.title          "同期設定">
+<!ENTITY firstrun.sync2.description    "Sync アカウントを設定すれば、携帯とパソコンのブックマーク、アクセス履歴、パスワードや開いているタブを同期できます">
+<!ENTITY firstrun.addons2.title        "カスタマイズ">
+<!ENTITY firstrun.addons2.description  "アドオンをインストールすれば &brandShortName; に新しい機能を追加してあなた専用ブラウザにできます">
+<!ENTITY firstrun.home2.title          "ブラウズ">
+<!ENTITY firstrun.home2.description    "同期やカスタマイズは設定画面でいつでも変更できます。スタートページを開いてブラウジングを始めましょう">
+<!ENTITY firstrun.features             "他の機能も確認する">
+<!-- faq, privacy, follow が横に並ぶので文字列長注意 -->
+<!ENTITY firstrun.faq                  "よくある質問">
+<!ENTITY firstrun.privacy              "プライバシーポリシー">
+<!ENTITY firstrun.follow               "フォローする:"><!-- Twitter/Facebook ボタンが続く -->

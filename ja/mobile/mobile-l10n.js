@@ -38,20 +38,6 @@
 
 pref("general.useragent.locale", "@AB_CD@");
 
-pref("font.language.group", "ja");
-pref("font.name.sans-serif.ja", "IPAUIGothic");
-pref("font.name.sans-serif.x-unicode", "IPAUIGothic");
-pref("font.name.sans-serif.x-western", "IPAUIGothic");
-pref("font.name.serif.ja", "IPAUIGothic");
-pref("font.name.serif.x-unicode", "IPAUIGothic");
-pref("font.name.serif.x-western", "IPAUIGothic");
-pref("font.name.monospace.ja", "IPAUIGothic");
-pref("font.name.monospace.x-unicode", "IPAUIGothic");
-pref("font.name.monospace.x-western", "IPAUIGothic");
-pref("font.name-list.serif.ja", "IPAPMincho, IPAMincho, IPAUIGothic, MS PMincho, MS Mincho, MS PGothic, MS Gothic");
-pref("font.name-list.sans-serif.ja", "IPAPGothic, IPAGothic, IPAUIGothic, MS PGothic, MS Gothic, MS PMincho, MS Mincho");
-pref("font.name-list.monospace.ja", "IPAGothic, IPAMincho, MS Gothic, MS Mincho, MS PGothic, MS PMincho");
-
 pref("intl.accept_languages", "ja");
 pref("intl.charset.default", "UTF-8");
 pref("intl.charset.detector", "ja_parallel_state_machine");
