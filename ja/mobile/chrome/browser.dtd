@@ -26,10 +26,9 @@
 <!ENTITY historyHeader.label       "履歴">
 <!ENTITY desktopHeader.label       "パソコン">
 
+<!ENTITY editBookmarkDialog.title  "ブックマークを編集">
 <!ENTITY editBookmarkDone.label    "完了">
 <!ENTITY editBookmarkTags.label    "ここにタグを入力してください">
-
-<!ENTITY selectHelper.done         "完了">
 
 <!ENTITY addonsHeader.label        "アドオン">
 <!ENTITY addonsLocal.label         "インストールされているアドオン">

@@ -19,3 +19,4 @@
 <!ENTITY sync.serverURL             "サーバ URL">
 <!ENTITY sync.setup.connect         "接続">
 <!ENTITY sync.setup.cancel          "キャンセル">
+<!ENTITY sync.setup.tutorial        "説明を表示">
