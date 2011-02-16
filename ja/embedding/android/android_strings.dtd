@@ -1,0 +1,17 @@
+<!ENTITY  splash_screen_label "読み込み中">
+<!ENTITY  splash_screen_installing "ライブラリをインストールしています...">
+<!ENTITY  incompatable_cpu_error "この端末は &brandShortName; の最小システム要件を満たしていません。">
+<!ENTITY  no_space_to_start_error "&brandShortName; を起動するために必要な空き領域が不足しています。">
+<!ENTITY  error_loading_file "&brandShortName; の起動に必要なファイルを読み込めませんでした">
+
+<!ENTITY  crash_reporter_title "&brandShortName; クラッシュレポータ">
+<!ENTITY  crash_message "&brandShortName; がクラッシュしました。次回の起動時には開いていたタブの一覧がスタートページに表示されます。">
+<!ENTITY  crash_help_message "問題の修正にご協力ください！">
+<!ENTITY  crash_send_report_message "Mozilla にクラッシュレポートを送信">
+<!ENTITY  crash_include_url "ページの URL を含める">
+<!ENTITY  crash_close_label "閉じる">
+<!ENTITY  crash_restart_label "&brandShortName; を再起動">
+<!ENTITY  sending_crash_report "クラッシュレポートを送信しています...">
+<!ENTITY  exit_label "終了">
+<!ENTITY  incompatable_device "&brandShortName; はこの端末をサポートしておらず、問題が生じるかもしれません。">
+<!ENTITY  continue_label "続ける">

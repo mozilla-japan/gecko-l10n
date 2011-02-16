@@ -1,4 +1,0 @@
-input[name], input[value], select[name], option, textarea, button, fieldset, label, legend, optgroup[label] {
-  font-family: "IPA UIゴシック", "IPA UIGothic", /* "IPAゴシック","IPAGothic", */ sans-serif;
-  font-size: 12px;
-}
