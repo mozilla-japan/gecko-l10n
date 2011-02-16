@@ -46,17 +46,12 @@
 <!ENTITY netInterrupt.title		"接続が中断されました">
 <!ENTITY netInterrupt.longDesc		"&sharedLongDesc;">
 
-<!-- LOCALIZATION NOTE (netOffline2.longDesc) - Workaround to allow the l10n tools
-to pickup this string change. Please update netOffline.longDesc too -->
-
-<!ENTITY netOffline2.longDesc "
+<!ENTITY netOffline.title "オフラインになっています"><!-- Offline mode: オフラインモードになっています -->
+<!ENTITY netOffline.overrideLongDesc "
 <ul>
   <li>再度試してみてください。ネットワークに接続してページを再読み込みします。</li>
 </ul>
 ">
-
-<!ENTITY netOffline.title "オフラインになっています"><!-- Offline mode: オフラインモードになっています -->
-<!ENTITY netOffline.longDesc "&netOffline2.longDesc;">
 
 <!ENTITY contentEncodingError.title	"内容符号化 (Content-Encoding) に問題があります">
 <!ENTITY contentEncodingError.longDesc	"
@@ -153,6 +148,9 @@ to pickup this string change. Please update netOffline.longDesc too -->
 <p>この種の偽装サイトはフィッシングと呼ばれる詐欺に使われています。本物のサイトに見せかけた詐欺ページを作り、あなたに信頼させようとしているのです。</p>
 ">
 
+<!ENTITY cspFrameAncestorBlocked.title "コンテンツセキュリティポリシーによりブロックされました">
+<!ENTITY cspFrameAncestorBlocked.longDesc "<p>セキュリティポリシーにより読み込みが禁止されたコンテンツが含まれているため、このページの読み込みを中止しました。</p>">
+
 <!ENTITY securityOverride.linkText		"例外として扱うこともできます...">
 <!ENTITY securityOverride.getMeOutOfHereButton	"スタートページに戻る">
 <!ENTITY securityOverride.exceptionButtonLabel	"例外を追加...">
@@ -162,9 +160,9 @@ contents of the <xul:button> tags.  The only language content is the label= fiel
 which uses strings already defined above. The button is included here (instead of
 netError.xhtml) because it exposes functionality specific to firefox. -->
 
-<!ENTITY securityOverride.warningText		"
+<!ENTITY securityOverride.warningContent "
 <p>インターネット接続環境を完全には信頼できない場合や、これまでこのサーバではこの警告が表示されなかった場合は、このサイトを例外として追加しないでください。</p>
 
-<xul:button xmlns:xul='http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul' id='getMeOutOfHereButton' label='&securityOverride.getMeOutOfHereButton;'/>
-<xul:button xmlns:xul='http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul' id='exceptionDialogButton' label='&securityOverride.exceptionButtonLabel;'/>
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
