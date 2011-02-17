@@ -1,0 +1,14 @@
+<!ENTITY aboutSupport.appBasicsAppBuildID	 "アプリケーションのビルド ID">
+
+<!ENTITY aboutSupport.accountsTitle		"メールとニュースアカウント">
+<!ENTITY aboutSupport.showPrivateData.mainText	"アカウント名を含める">
+<!ENTITY aboutSupport.showPrivateData.explanationText "(個人を特定可能な情報です)">
+<!ENTITY aboutSupport.accountsID		"ID">
+<!ENTITY aboutSupport.accountsName		"アカウント名">
+<!ENTITY aboutSupport.accountsIncomingServer	"受信サーバ">
+<!ENTITY aboutSupport.accountsOutgoingServers	"送信サーバ">
+<!ENTITY aboutSupport.accountsConnSecurity	"接続の保護">
+<!ENTITY aboutSupport.accountsAuthMethod	"認証方式">
+<!ENTITY aboutSupport.accountsDefault		"@@Default@@？">
+
+<!ENTITY aboutSupport.sendViaEmail.label	"メールで送信">
