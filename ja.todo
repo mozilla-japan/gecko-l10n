@@ -15,11 +15,13 @@ Firefox 4 beta 4 に向けて changeset 706〜720 で行われた変更には一
   /browser/feedback/main.dtd
   /browser/feedback/main.properties
 
+  /mail/chrome/messenger/aboutSupportMail.properties
+    訳すかどうか検討する
+
 要検討箇所あり:
   /browser/chrome/browser/browser.properties
     addonsInstalled
     addonsInstalledNeedsRestart
-
 
 
 SeaMonkey 2.1

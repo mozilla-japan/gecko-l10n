@@ -80,11 +80,3 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 
 <!ENTITY title.label			"タイトル">
 <!ENTITY processing.label		"@@Import-site@@います...">
-
-<!ENTITY FieldDiscInputText1.label	"Netscape Communicator 4.x ではカードごとに 1 つメールアドレスを書きますが、&brandShortName; では自宅と勤務先の 2 つを書けます。">
-<!ENTITY FieldDiscInputText2.label	"@@Import-sare@@たメールアドレスを保存するカテゴリを選択してください:">
-<!ENTITY FieldDiscWarning.label		"選択されたアドレス帳のすべての項目をこのカテゴリに収めます:">
-<!ENTITY importHome.label		"自宅">
-<!ENTITY importHome.accesskey		"H">
-<!ENTITY importWork.label		"勤務先">
-<!ENTITY importWork.accesskey		"W">

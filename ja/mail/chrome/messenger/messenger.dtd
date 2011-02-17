@@ -396,6 +396,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY markAsReadCmd.label		"既読にする">
 <!ENTITY markAsReadCmd.accesskey	"R">
 <!ENTITY markAsReadCmd.key		"m">
+<!ENTITY markAsUnreadCmd.label		"未読にする">
+<!ENTITY markAsUnreadCmd.accesskey	"U">
+<!ENTITY markAsUnreadCmd.key		"m">
 <!ENTITY markThreadAsReadCmd.label	"スレッドを既読にする">
 <!ENTITY markThreadAsReadCmd.accesskey	"T">
 <!ENTITY markThreadAsReadCmd.key	"r">
