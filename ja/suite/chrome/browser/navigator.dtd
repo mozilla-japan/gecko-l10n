@@ -108,6 +108,8 @@
 <!ENTITY goMenu.accesskey "g">
 <!ENTITY goHomeCmd.label "ホーム">
 <!ENTITY goHomeCmd.accesskey "h">
+<!ENTITY historyRestoreLastSession.label "前のセッションを復元">
+<!ENTITY historyRestoreLastSession.accesskey "R">
 
 <!ENTITY bookmarksMenu.label "ブックマーク">
 <!ENTITY bookmarksMenu.accesskey "B">
@@ -158,6 +160,7 @@
 <!ENTITY  bookmarksButton.tooltip     "ブックマークリスト">
 <!ENTITY  homeButton.label            "ホーム">
 <!ENTITY  bookmarksToolbarItem.label  "ブックマークツールバーの項目">
+<!ENTITY bookmarksToolbarChevron.tooltip "他のブックマークを表示">
 
 <!-- Statusbar -->
 <!ENTITY  statusText.label            "完了">
@@ -170,3 +173,6 @@
 
 <!ENTITY bidiSwitchPageDirectionItem.label        "ページの書記方向を切り換える">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey    "g">
+
+<!-- LOCALIZATION NOTE (syncTabsMenu.label): This appears in the Go menu -->
+<!ENTITY syncTabsMenu.label         "その他のコンピュータのタブと同期">
