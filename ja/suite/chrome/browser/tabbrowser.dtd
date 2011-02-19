@@ -13,5 +13,6 @@
 <!ENTITY  bookmarkGroup.accesskey  "B">
 <!ENTITY  closeTabButton.tooltip   "このタブを閉じる">
 <!ENTITY  newTabButton.tooltip   "@@NewTab@@を開く">
+<!ENTITY  listAllTabs.tooltip    "すべてのタブをリスト表示">
 <!ENTITY  undoCloseTab.label    "閉じたタブを元に戻す">
 <!ENTITY  undoCloseTab.accesskey  "U">

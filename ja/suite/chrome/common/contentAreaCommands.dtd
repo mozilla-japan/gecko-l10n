@@ -13,6 +13,8 @@
 <!ENTITY openFrameCmd.accesskey "W">
 <!ENTITY openFrameCmdInTab.label "フレームを@@NewTab@@で開く">
 <!ENTITY openFrameCmdInTab.accesskey "T">
+<!ENTITY keywordfield.label           "このキーワードを検索…">
+<!ENTITY keywordfield.accesskey       "K">
 <!ENTITY showOnlyThisFrameCmd.label "このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
 <!ENTITY goBackCmd.label "戻る">
@@ -114,6 +116,8 @@
 <!ENTITY mediaShowControls.accesskey  "a">
 <!ENTITY mediaHideControls.label	"コントロールを隠す">
 <!ENTITY mediaHideControls.accesskey  "a">
+<!ENTITY videoFullScreen.label        "フルスクリーン表示">
+<!ENTITY videoFullScreen.accesskey    "F">
 <!ENTITY search.accesskey "W">
 <!ENTITY bidiSwitchPageDirectionItem.label "ページの書記方向を切り換え">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey "g">

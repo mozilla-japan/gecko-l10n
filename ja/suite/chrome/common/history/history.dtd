@@ -4,7 +4,7 @@
 <!ENTITY menuBar.tooltip                "メニューバー">
 <!ENTITY searchBar.tooltip              "検索バー">
 
-<!ENTITY search.emptytext               "検索履歴">
+<!ENTITY search.placeholder             "履歴を検索">
 <!ENTITY search.key                     "f">
 <!ENTITY view.label                     "表示">
 
