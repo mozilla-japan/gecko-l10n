@@ -17,5 +17,5 @@
   <Param name="hl" value="ja"/>
   <MozParam name="client" condition="defaultEngine" trueValue="firefox-a" falseValue="firefox"/>
 </Url>
-<SearchForm>http://www.google.co.jp/firefox</SearchForm>
+<SearchForm>http://www.google.co.jp/</SearchForm>
 </SearchPlugin>
