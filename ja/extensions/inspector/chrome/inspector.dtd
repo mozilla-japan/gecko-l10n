@@ -47,6 +47,10 @@
 
 <!ENTITY mnView.label			"表示">
 <!ENTITY mnView.accesskey		"v">
+  <!ENTITY mnDocViewerList.label	"ドキュメントビューア">
+  <!ENTITY mnDocViewerList.accesskey	"D">
+  <!ENTITY mnObjectViewerList.label	"オブジェクトビューア">
+  <!ENTITY mnObjectViewerList.accesskey	"O">
   <!ENTITY cmdToggleBrowser.label	"ブラウザ">
   <!ENTITY cmdToggleBrowser.accesskey	"B">
   <!ENTITY cmdToggleSearch.label	"検索結果">
