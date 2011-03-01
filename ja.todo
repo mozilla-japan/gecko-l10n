@@ -8,7 +8,7 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
  - (^^h   note by hATrayflood
  - (^m^)  note by mar
 
-Firefox 4 beta 4 に向けて changeset 706〜720 で行われた変更には一部未訳箇所や UI 未確認箇所、用語不統一などがある。
+Firefox 4 beta 4 に向けて changeset 706縲鰀720 で行われた変更には一部未訳箇所や UI 未確認箇所、用語不統一などがある。
 特に未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
 未訳箇所あり:
@@ -32,6 +32,17 @@ SeaMonkey 2.1
   /chrome/crashreporter
   /installer
 
- 要更新
+ 要更新->更新中 by tooyama
   /chrome/browser
   /chrome/common
+
+現在上から順に、pref-keynav.dtdまでen-USと同期完了。
+https://l10n-stage-sj.mozilla.org/dashboard/compare?run=119745
+
+以下のエラーがよくわかっていません。どうすればいい?
+quitDialog.properties
+trailing argument 1 `S` missing at line 9, column 12 within message
+trailing argument 1 `S` missing at line 10, column 19 within messageNoWindows
+
+security/manager/chrome/pippki/pippki.properties
+trailing argument 1 `S` missing at line 212, column 30 within addExceptionBrandedWarning2
