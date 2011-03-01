@@ -7,4 +7,4 @@
 <!ENTITY actionColumn2.label     "処理方法">
 <!ENTITY actionColumn2.accesskey "A">
 
-<!ENTITY search.emptytext        "ファイルの種類と処理方法を検索">
+<!ENTITY search.placeholder      "ファイルの種類と処理方法を検索">

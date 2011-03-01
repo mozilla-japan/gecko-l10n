@@ -14,8 +14,8 @@
 <!ENTITY accOrgImagesRadio.accesskey    "r">
 <!ENTITY disableImages.label            "すべての画像を表示しない">
 <!ENTITY disableImages.accesskey        "n">
-<!ENTITY viewImages.label               "画像表示の可否設定の管理">
-<!ENTITY viewImages.accesskey           "P">
+<!ENTITY viewPermissions.label          "可否設定の管理">
+<!ENTITY viewPermissions.accesskey      "P">
 <!ENTITY animLoopingTitle.label         "アニメーション画像の繰り返し">
 <!ENTITY animLoopAsSpecified.label      "画像が指定した回数まで繰り返す">
 <!ENTITY animLoopAsSpecified.accesskey  "m">
