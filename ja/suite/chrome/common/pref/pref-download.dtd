@@ -18,9 +18,9 @@
 <!ENTITY alwaysAsk.label                "ファイルごとに保存先を指定する">
 <!ENTITY alwaysAsk.accesskey            "A">
 
-<!ENTITY downloadRetention.label        "ダウンロード履歴">
-<!ENTITY removeDownloads.label          "ダウンロード履歴の削除">
-<!ENTITY removeDownloads.accesskey      "R">
+<!ENTITY downloadHistory.label          "ダウンロード履歴">
+<!ENTITY removeEntries.label            "ダウンロード履歴の削除">
+<!ENTITY removeEntries.accesskey        "R">
 <!ENTITY whenCompleted.label            "ダウンロードが完了したとき">
 <!ENTITY whenQuittingApp.label          "&brandShortName; を閉じるとき">
 <!ENTITY neverRemove.label              "削除しない">
