@@ -2,7 +2,7 @@
 <!ENTITY about.title                               "&brandShortName; について">
 <!ENTITY about.button                              "ページを表示">
 <!ENTITY content.title                             "ページ内容">
-<!ENTITY reflowZoom.title                          "拡大時にテキストを再配置する">
+<!ENTITY reflowZoom.title                          "拡大時に文字を再配置"><!-- Max11文字 -->
 <!ENTITY showImages.title                          "画像を表示する">
 <!ENTITY enableJavaScript.title                    "JavaScript を有効化">
 <!ENTITY enablePlugins.title                       "プラグインを有効化">

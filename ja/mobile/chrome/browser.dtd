@@ -19,7 +19,7 @@
 <!ENTITY selectAll.label       "@@SelectAll@@">
 <!ENTITY noSuggestions.label   "(候補なし)">
 <!ENTITY addToDictionary.label "辞書に追加">
-<!ENTITY inputMethod.label     "入力方法の選択">
+<!ENTITY inputMethod.label     "入力方法">
 
 <!ENTITY allPagesHeader.label      "すべてのページ">
 <!ENTITY bookmarksHeader.label     "ブックマーク">
