@@ -109,5 +109,6 @@
 <!ENTITY pageactions.reset           "サイトの設定を消去">
 <!ENTITY pageactions.findInPage      "ページ中を検索">
 <!ENTITY pageactions.search.addNew   "検索エンジンを追加">
+<!ENTITY pageactions.charEncoding    "文字コード"><!-- 設定画面に「文字エンコーディング」では長すぎて使えないところがある -->
 
 <!ENTITY appMenu.siteOptions         "サイトの設定">
