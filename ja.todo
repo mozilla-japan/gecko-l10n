@@ -36,7 +36,7 @@ SeaMonkey 2.1
   /chrome/browser
   /chrome/common
 
-現在上から順に、pref-keynav.dtdまでen-USと同期完了。
+現在上から順に、pref-proxies-advanced.dtdまでen-USと同期完了。
 https://l10n-stage-sj.mozilla.org/dashboard/compare?run=119745
 
 以下のエラーがよくわかっていません。どうすればいい?
