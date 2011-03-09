@@ -26,14 +26,6 @@
 <!ENTITY useDefault.label               "初期設定に戻す">
 <!ENTITY useDefault.accesskey           "R">
 
-<!ENTITY toolbarIntro.label             "ツールバーに表示するボタンを選択してください:">
-
-<!ENTITY navToolbarIntro.label          "ナビゲーションツールバー">
-<!ENTITY goButton.label                 "移動ボタン">
-<!ENTITY goButton.accesskey             "o">
-<!ENTITY searchButton.label             "検索ボタン">
-<!ENTITY searchButton.accesskey         "S">
-
 <!ENTITY defaultBrowserGroup.label      "@@DefaultBrowser@@">
 <!ENTITY defaultBrowserButton.label     "@@DefaultBrowser@@に設定">
 <!ENTITY defaultBrowserButton.accesskey "D">
