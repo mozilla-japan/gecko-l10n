@@ -8,15 +8,12 @@
 <!ENTITY  ssl.accesskey               "L">
 <!ENTITY  ftp.label                   "FTP プロキシ:">
 <!ENTITY  ftp.accesskey               "F">
-<!ENTITY  gopher.label                "Gopher プロキシ:">
-<!ENTITY  gopher.accesskey            "G">
 <!ENTITY  reuseProxy.label            "すべてのプロトコルで HTTP プロキシと同じ設定を使用">
 <!ENTITY  reuseProxy.accesskey        "U">
 <!ENTITY  port.label                  "ポート番号:">
 <!ENTITY  HTTPPort.accesskey          "P">
 <!ENTITY  SSLPort.accesskey           "o">
 <!ENTITY  FTPPort.accesskey           "r">
-<!ENTITY  gopherPort.accesskey        "">
 
 <!ENTITY  socks.caption               "Generic プロキシ">
 <!ENTITY  socks.description           "SOCKS プロキシは主に企業などで使用されます。">

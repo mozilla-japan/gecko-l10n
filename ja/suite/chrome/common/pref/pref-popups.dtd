@@ -5,8 +5,8 @@
 <!ENTITY popupBlock.label               "要求していないポップアップ@@Window@@を自動的に閉じる">
 <!ENTITY popupBlock.accesskey           "B">
 
-<!ENTITY popupExceptions.label          "許可されたサイト">
-<!ENTITY popupExceptions.accesskey      "A">
+<!ENTITY viewPermissions.label          "許可設定の管理">
+<!ENTITY viewPermissions.accesskey      "M">
 
 <!ENTITY whenBlock.description          "ポップアップ@@Window@@を自動的に閉じた場合:">
 <!ENTITY playSound.label                "サウンドを鳴らす:">
@@ -30,3 +30,4 @@
 <!ENTITY displayNotification.accesskey  "N">
 
 <!ENTITY popupNote.description          "注意: 銀行や通信販売等のサイトでは、ポップアップ@@Window@@が表示されないように設定すると、ログインなどの重要な機能が利用できないことがあります。その場合は、許可するサイトに加えてください。ポップアップブロック機能を有効にしたまま、特定のサイトのみポップアップを有効にする方法についての詳細は @@[@@ヘルプ@@]@@ をクリックしてください。また、サイトによっては別の方法でポップアップブロック機能を回避する場合があります。">
+
