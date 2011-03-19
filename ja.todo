@@ -36,8 +36,10 @@ SeaMonkey 2.1
   /chrome/browser
   /chrome/common
 
-現在上から順に、pref-proxies-advanced.dtdまでen-USと同期完了。
+現在上から順に、quitDialog.propertiesまでen-USと同期完了。
 https://l10n-stage-sj.mozilla.org/dashboard/compare?run=119745
+
+ファイル内容変更なしで削除のみのファイルは未処理
 
 以下のエラーがよくわかっていません。どうすればいい?
 quitDialog.properties
