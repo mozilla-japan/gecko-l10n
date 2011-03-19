@@ -6,23 +6,11 @@
 <!ENTITY background.accesskey "S">
 <!ENTITY warnOnClose.label "同時に複数のタブを閉じるときは警告する">
 <!ENTITY warnOnClose.accesskey "n">
+<!ENTITY relatedAfterCurrent.label "@@NewTab@@を今のタブのあとに開く"><!--Open related tabs after current tab-->
+<!ENTITY relatedAfterCurrent.accesskey "O">
 <!ENTITY loadGroup.label "ブックマークグループを開くときの処理">
 <!ENTITY loadGroupAppend.label "@@NewTab@@を追加する">
 <!ENTITY loadGroupAppend.accesskey "A">
 <!ENTITY loadGroupReplace.label "既存のタブを置き換える">
 <!ENTITY loadGroupReplace.accesskey "R">
 <!ENTITY openTabs.label "@@Window@@の代わりにタブを開く場合">
-
-<!ENTITY newWindow.label "リンクの開き方">
-<!ENTITY newWindowDescription.label "本来は新しい@@Window@@で開くリンクを">
-<!ENTITY external.label "他のアプリケーションから開かれたリンクの処理">
-<!ENTITY externalDescription.label "他のアプリケーションから開かれたリンクを">
-<!ENTITY openCurrent.label "現在のタブまたは@@Window@@で開く">
-<!ENTITY newWindowGroupCurrent.accesskey "c">
-<!ENTITY externalGroupCurrent.accesskey "u">
-<!ENTITY openTab.label "現在の@@Window@@で@@NewTab@@として開く">
-<!ENTITY newWindowGroupTab.accesskey "t">
-<!ENTITY externalGroupTab.accesskey "e">
-<!ENTITY openWindow.label "新しい@@Window@@で開く">
-<!ENTITY newWindowGroupWindow.accesskey "w">
-<!ENTITY externalGroupWindow.accesskey "o">
