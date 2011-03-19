@@ -37,6 +37,11 @@
 
 <!--LOCALIZATION NOTE : FILE 'Privacy and Security' prefs settings -->
 <!ENTITY pref.security.title              "プライバシーとセキュリティ">
+
+<!ENTITY tracking.label                   "ユーザーの追跡">
+<!ENTITY doNotTrack.label                 "トラッキングの拒否を Web サイトに通知する">
+<!ENTITY doNotTrack.accesskey             "T">
+
 <!ENTITY privateData.label                "プライバシー情報">
 
 <!ENTITY alwaysClear.label                "&brandShortName; の終了時にプライバシー情報を消去する">
