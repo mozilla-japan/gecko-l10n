@@ -35,6 +35,8 @@
 <!ENTITY copyCmd.accesskey "c">
 <!ENTITY pasteCmd.label "@@Paste@@">
 <!ENTITY pasteCmd.key "V">
+<!ENTITY pasteGoCmd.label	"@@Paste@@して移動">
+<!ENTITY pasteGoCmd.accesskey	"G">
 <!ENTITY pasteCmd.accesskey "p">
 <!ENTITY deleteCmd.label "削除">
 <!ENTITY deleteCmd.accesskey "d">
@@ -59,6 +61,8 @@
 <!ENTITY helpMenu.label "ヘルプ">
 <!ENTITY helpMenu.accesskey "h">
 
+<!ENTITY helpTroubleshootingInfo.label      "トラブルシューティング情報">
+<!ENTITY helpTroubleshootingInfo.accesskey  "T">
 <!ENTITY releaseCmd.label "リリースノート">
 <!ENTITY releaseCmd.accesskey "N">
 <!ENTITY updateCmd.label "更新を確認...">
@@ -110,3 +114,5 @@
 <!ENTITY showPopupManager.accesskey   "M">
 <!ENTITY dontShowMessage.label        "ポップアップブロックしたときにこのメッセージを表示しない">
 <!ENTITY dontShowMessage.accesskey    "D">
+
+<!ENTITY syncToolbarButton.label "Sync">

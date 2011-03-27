@@ -1,5 +1,4 @@
 <!-- extracted from tasksOverlay.xul -->
-<!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
 <!ENTITY navigatorCmd.label "ブラウザ">
 <!ENTITY navigatorCmd.accesskey "B">
 <!ENTITY navigatorCmd.commandkey "1">
@@ -8,12 +7,8 @@
 <!ENTITY editorCmd.accesskey "c">
 <!ENTITY editorCmd.commandkey "4">
 
-<!ENTITY javaConsoleCmd.label "Java コンソール">
-<!ENTITY javaConsoleCmd.accesskey "j">
-
-<!ENTITY errorConsoleCmd.accesskey				"C">
 <!ENTITY errorConsoleCmd.label                                  "エラーコンソール">
-
+<!ENTITY errorConsoleCmd.accesskey				"C">
 <!ENTITY errorConsoleCmd.commandkey				"j">
 
 <!ENTITY taskComposer.tooltip "Composer">
@@ -27,6 +22,9 @@
 
 <!ENTITY tasksMenu.label "ツール">
 <!ENTITY tasksMenu.accesskey "T">
+
+<!ENTITY datamanCmd.label "データマネージャ">
+<!ENTITY datamanCmd.accesskey "M">
 
 <!ENTITY passwordManagerCmd.label "パスワードマネージャ">
 <!ENTITY passwordManagerCmd.accesskey "P">
@@ -43,6 +41,16 @@
 
 <!ENTITY addonsManagerCmd.label "アドオンマネージャ">
 <!ENTITY addonsManagerCmd.accesskey "A">
+<!ENTITY addonsManagerCmd.commandkey "a">
 
 <!ENTITY switchProfileCmd.label "プロファイルの切り換え...">
 <!ENTITY switchProfileCmd.accesskey "h">
+
+<!ENTITY syncBrand.shortName.label "Sync">
+<!-- LOCALIZATION NOTE (syncSetup.accesskey, syncSyncNowItem.accesskey):
+     Only one of these will show at a time (based on setup state),
+     so reusing accesskey is ok. -->
+<!ENTITY syncSetup.label           "Syncをセットアップ…">
+<!ENTITY syncSetup.accesskey       "S">
+<!ENTITY syncSyncNowItem.label     "今すぐSyncする">
+<!ENTITY syncSyncNowItem.accesskey "S">

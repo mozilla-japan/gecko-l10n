@@ -62,3 +62,8 @@
 <!ENTITY sidebar.pagenotfound.label "このタブは現在有効ではありません。">
 <!ENTITY sidebar.close.tooltip "Sidebar を閉じる">
 <!ENTITY sidebar.open.tooltip "Sidebar を開く">
+
+<!ENTITY sidebar.search.label         "検索">
+<!ENTITY sidebar.client-bookmarks.label     "ブックマーク">
+<!ENTITY sidebar.client-history.label       "履歴">
+<!ENTITY sidebar.client-addressbook.label   "アドレス帳">
