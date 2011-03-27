@@ -36,14 +36,5 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY search.button.label      "検索">
-<!ENTITY allengines.label         "すべての検索エンジン">
-<!ENTITY within.label             "検索カテゴリ">
-<!ENTITY using.label              "検索エンジン">
-<!ENTITY choose.label             "検索エンジンを選択して @@[@@検索@@]@@ をクリックしてください">
-<!ENTITY results.label            "検索結果">
-<!ENTITY engine.column.label      "検索エンジン">
-<!ENTITY customize.menuitem.label "カテゴリを編集...">
-<!ENTITY next.button.label        "次へ">
-<!ENTITY previous.button.label    "前へ">
-<!ENTITY next.button.tooltip      "次の検索結果を表示">
-<!ENTITY previous.button.tooltip  "前の検索結果を表示">
+<!ENTITY search.placeholder       "検索語句を入力">
+
