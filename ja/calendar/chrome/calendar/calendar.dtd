@@ -173,6 +173,8 @@
 <!ENTITY calendar.task-details.category.label		"カテゴリ">
 <!ENTITY calendar.task-details.repeat.label		"周期">
 <!ENTITY calendar.task-details.attachments.label	"添付">
+<!ENTITY calendar.task-details.start.label		"着手日時">
+<!ENTITY calendar.task-details.due.label		"締切日時">
 
 <!ENTITY calendar.task.category.button.tooltip		"ToDo をカテゴリに分けます">
 <!ENTITY calendar.task.complete.button.tooltip		"選択した ToDo を完了にします">
@@ -190,24 +192,10 @@
 <!ENTITY calendar.context.newevent.accesskey		"N">
 <!ENTITY calendar.context.newtodo.label			"@@New-CMD@@ ToDo...">
 <!ENTITY calendar.context.newtodo.accesskey		"k">
-<!ENTITY calendar.context.modifytask.label		"ToDo を編集...">
-<!ENTITY calendar.context.modifytask.accesskey		"E">
-<!ENTITY calendar.context.modifyitem.label		"項目を編集...">
-<!ENTITY calendar.context.modifyitem.accesskey		"E">
 <!ENTITY calendar.context.deletetask.label		"ToDo を削除">
 <!ENTITY calendar.context.deletetask.accesskey		"l">
-<!ENTITY calendar.context.deleteitem.label		"削除">
-<!ENTITY calendar.context.deleteitem.accesskey		"l">
 <!ENTITY calendar.context.deleteevent.label		"予定を削除">
 <!ENTITY calendar.context.deleteevent.accesskey		"l">
-<!ENTITY calendar.context.deletethisevent.label		"この予定">
-<!ENTITY calendar.context.deletethisevent.accesskey	"T">
-<!ENTITY calendar.context.deletecompleteseries.label	"すべての繰り返し">
-<!ENTITY calendar.context.deletecompleteseries.accesskey	"S">
-<!ENTITY calendar.context.deletefutureevents.label	"これ以降の予定">
-<!ENTITY calendar.context.deletefutureevents.accesskey	"F">
-<!ENTITY calendar.context.deletefuturetasks.label	"これ以降の ToDo">
-<!ENTITY calendar.context.deletefuturetasks.accesskey	"F">
 <!ENTITY calendar.context.cutevent.label		"@@Cut@@">
 <!ENTITY calendar.context.cutevent.accesskey		"t">
 <!ENTITY calendar.context.copyevent.label		"コピー">
@@ -218,6 +206,10 @@
 <!ENTITY calendar.context.selectall.accesskey		"A">
 <!ENTITY calendar.context.button.label			"Today ペイン" >
 <!ENTITY calendar.context.button.accesskey		"T" >
+<!ENTITY calendar.context.attendance.menu.label		"参加" >
+<!ENTITY calendar.context.attendance.menu.accesskey	"d" >
+<!ENTITY calendar.context.attendance.occurrence.label	"この予定のみ" >
+<!ENTITY calendar.context.attendance.all.label		"すべての予定" >
 
 <!-- Task Context Menu -->
 <!ENTITY calendar.context.progress.label		"進行状況">
@@ -305,6 +297,12 @@
 <!ENTITY calendar.alarm.snooze.2hours.label		"2 時間" >
 <!ENTITY calendar.alarm.snooze.1day.label		"1 日" >
 
+<!-- Task View -->
+<!-- Note that the above *.context.* strings are currently used for the other
+     task action buttons -->
+<!ENTITY calendar.taskview.delete.label			"削除">
+<!ENTITY calendar.taskview.delete.accesskey		"l">
+
 <!-- Calendar Server Dialog -->
 <!ENTITY calendar.server.dialog.title.edit		"カレンダーの編集">
 <!ENTITY calendar.server.dialog.name.label		"カレンダー名:">
@@ -316,6 +314,8 @@
 <!ENTITY calendarproperties.wcap.label			"Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label		"フォーマット:">
 <!ENTITY calendarproperties.location.label		"場所:">
+<!ENTITY calendarproperties.refreshInterval.label	"カレンダーの更新:">
+<!ENTITY calendarproperties.refreshInterval.manual.label	"手動">
 <!ENTITY calendarproperties.name.label			"名前:">
 <!ENTITY calendarproperties.readonly.label		"読み込み専用">
 <!ENTITY calendarproperties.firealarms.label		"アラーム通知する">
