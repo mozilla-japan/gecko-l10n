@@ -49,6 +49,3 @@
 <!ENTITY pref.defaultlength.accesskey "E">
 <!ENTITY pref.defaultsnoozelength.label   "アラーム再通知の@@Default-@@間隔:" >
 <!ENTITY pref.defaultsnoozelength.accesskey "S">
-<!ENTITY pref.refreshbox.label "更新の設定" >
-<!ENTITY pref.autorefresh.label "すべてのカレンダーを更新する間隔:" >
-<!ENTITY pref.autorefresh.accesskey "R" >
