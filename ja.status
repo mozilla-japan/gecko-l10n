@@ -83,6 +83,7 @@ mail                    -----:------------  5602:81c4ba7dd2d7   mar             
 calendar                -----:------------  5898:4043214c5eb4   mar             sync with comm-1.9.2, changeset 773
 calendar                -----:------------  5918:b74c2de39308   mar             sync calendar, changeset 779
 calendar                -----:------------  5942:c96927a7170d   mar             sync calendar and some corrections, changeset 789
+calendar                -----:------------  6002:2d9cfe35a611   mar             sync calendar (1.0b3pre), changeset 827
 
 --------------------------------------------------------------------------------
 
@@ -90,7 +91,7 @@ calendar                -----:------------  5942:c96927a7170d   mar             
 
 --------------------------------------------------------------------------------
 sync.browser.rev				= 23ede72138f8
-sync.calendar.rev				= c96927a7170d
+sync.calendar.rev				= 2d9cfe35a611
 sync.dom.rev					= c1b38e365772
 sync.editor.rev					= 363607117bbb
 sync.extensions.rev				= 23ede72138f8
