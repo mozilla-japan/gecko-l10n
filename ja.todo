@@ -36,14 +36,11 @@ SeaMonkey 2.1
   /chrome/browser
   /chrome/common
 
-現在上から順に、ほぼen-USと同期完了。
-https://l10n-stage-sj.mozilla.org/dashboard/compare?run=119745
+現在上から順に、ほぼen-USと同期完了。(新しく追加されたファイルは未訳)
+https://l10n-stage-sj.mozilla.org/dashboard/compare?run=119745 (2011-02-17 時点)
 ファイル内容変更なしで削除のみのファイルは未処理
 
-以下のエラーがよくわかっていません。どうすればいい?
-quitDialog.properties
-trailing argument 1 `S` missing at line 9, column 12 within message
-trailing argument 1 `S` missing at line 10, column 19 within messageNoWindows
 
-security/manager/chrome/pippki/pippki.properties
-trailing argument 1 `S` missing at line 212, column 30 within addExceptionBrandedWarning2
+
+Firefox 4, Thunderbird 3.3, SeaMonky 2.1 は mozilla-2.0, comm-central に移行された。
+SVN も適当なところで trunk から /branches/l10n-mozilla-2.0 にコピーする必要あり。(^m^)

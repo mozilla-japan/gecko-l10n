@@ -3,13 +3,13 @@
 <!-- LOCALIZATION NOTE : FILE The Search prefs dialog -->
 
 <!ENTITY pref.search.title                "インターネット検索">
-<!ENTITY legendHeader                     "デフォルトの検索エンジン">
+<!ENTITY legendHeader                     "@@Default-@@検索エンジン">
 <!ENTITY defaultSearchEngine.label        "使用する検索エンジン:">
 <!ENTITY defaultSearchEngine.accesskey    "S">
 
 <!ENTITY searchResults.label              "検索結果">
 
-<!ENTITY openInTab.label                  "サイドバーの検索結果を新しいタブで開く">
+<!ENTITY openInTab.label                  "サイドバーの検索結果を@@NewTab@@で開く">
 <!ENTITY openInTab.accesskey              "n">
 <!ENTITY openSidebarSearchPanel.label     "検索時には Sidebar の検索タブを開き検索結果を表示する">
 <!ENTITY openSidebarSearchPanel.accesskey "O">
