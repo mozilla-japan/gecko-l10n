@@ -21,7 +21,7 @@
 <!ENTITY addonManagerButton.label             "アドオンマネージャ">
 <!ENTITY addonManagerButton.accesskey         "M">
 
-<!ENTITY whenUpdatesFound.label               "&brandShortName; の更新が見つかったとき>
+<!ENTITY whenUpdatesFound.label               "&brandShortName; の更新が見つかったとき">
 <!ENTITY askMe.label                          "どうするか確認する">
 <!ENTITY askMe.accesskey                      "n">
 <!ENTITY modeAutomatic.label                  "自動的に更新をダウンロードしてインストールする">
