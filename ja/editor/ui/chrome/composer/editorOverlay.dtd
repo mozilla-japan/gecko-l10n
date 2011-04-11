@@ -97,7 +97,7 @@
 <!ENTITY editMenu.label "編集">
 <!ENTITY editMenu.accesskey "E">
 <!ENTITY pasteNoFormatting.label "整形せずに@@Paste@@">
-<!ENTITY pasteNoFormatting.accesskey "o">
+<!ENTITY pasteNoFormatting.accesskey "n">
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAs.label "指定して@@Paste@@">
 <!ENTITY pasteAs.accesskey "a">
@@ -123,8 +123,6 @@
 <!ENTITY checkSpellingCmd2.label "スペルチェック">
 <!ENTITY checkSpellingCmd2.accesskey "h">
 <!ENTITY checkSpellingCmd2.key "p">
-<!ENTITY validateCmd.label "HTML の妥当性検証">
-<!ENTITY validateCmd.accesskey "V">
 
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "挿入">
@@ -339,11 +337,6 @@
 <!ENTITY decreaseIndent.accesskey "D">
 <!ENTITY decreaseIndent.key "[">
 
-<!ENTITY grid.label "グリッドの位置">
-<!ENTITY grid.accesskey "t">
-
-<!ENTITY pageProperties.label "ページのタイトルと@@Property@@...">
-<!ENTITY pageProperties.accesskey "g">
 <!ENTITY colorsAndBackground.label "ページの@@Colors@@と背景...">
 <!ENTITY colorsAndBackground.accesskey "u">
 
@@ -412,7 +405,6 @@
 
 <!-- Toolbar-only items -->
 <!ENTITY menuBar.tooltip "メニューバー">
-<!ENTITY compositionToolbar.tooltip "一般ツールバー"><!-- Composition Toolbar -->
 <!ENTITY formatToolbar.tooltip "書式ツールバー">
 <!ENTITY newToolbarCmd.tooltip "新しい Composer ページを作成します">
 <!ENTITY openToolbarCmd.label "開く">
@@ -457,33 +449,7 @@
 <!ENTITY alignLeftButton.tooltip "テキストを左にそろえます">
 <!ENTITY alignCenterButton.tooltip "テキストを中央にそろえます">
 <!ENTITY alignRightButton.tooltip "テキストを右にそろえます">
-<!ENTITY alignjustifyButton.tooltip "2 行以上あるテキストの両端をそろえます">
-
-<!-- Display Mode toolbar and View menu items -->
-<!ENTITY NormalModeTab.label "標準">
-<!ENTITY NormalMode.label "通常の編集モード">
-<!ENTITY NormalMode.accesskey "n">
-<!ENTITY NormalMode.tooltip "表の枠と名前付きアンカーを表示します">
-<!ENTITY AllTagsMode.label "HTML タグ">
-<!ENTITY AllTagsMode.accesskey "A">
-<!ENTITY AllTagsMode.tooltip "すべての HTML タグ用にアイコンを表示します">
-
-<!ENTITY HTMLSourceMode.label "HTML ソース">
-<!-- Toolbar has an image with "HTML" text, so don't include it in the string -->
-<!ENTITY SourceMode.label "ソース">
-<!ENTITY HTMLSourceMode.accesskey "h">
-<!ENTITY HTMLSourceMode.tooltip "HTML ソースを編集します">
-<!ENTITY PreviewMode.label "プレビュー">
-<!ENTITY PreviewMode.accesskey "p">
-<!ENTITY PreviewMode.tooltip "ブラウザと同じように表示します (WYSIWYG)"><!-- en-US: Display as WYSIWYG (as in the browser) -->
-
-<!-- LOCALIZATION NOTE: Do NOT translate text for 'SourceTabDirection'
-     Use latin "ltr" if you want the <html> image to left of the 
-     'SourceMode.label' text defined above,
-     or use latin "rtl" if you want this image to the right of text
-     This is the value of the HTML 'dir' attribute
--->
-<!ENTITY SourceTabDirection "ltr">
+<!ENTITY alignJustifyButton.tooltip "2 行以上あるテキストの両端をそろえます">
 
 <!-- Structure Toolbar Context Menu items -->
 <!ENTITY structSelect.label         "選択">

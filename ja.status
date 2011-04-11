@@ -115,3 +115,4 @@ browser                 62096:42c5b5d520cc  ----:------------   hATrayflood     
 mail                    -----:------------  7167:cb713ede0c5c   mar             sync mail, changeset 808
 inspector               -----:------------  ----:------------   mar             sync inspector, chengeset 812
 calendar                -----:------------  7480:d2cd63699d7f   mar             sync calendar, changeset 828
+editor/ui               -----:------------  7539:2fffeac3941c   mar             sync editor/ui, changeset 831
