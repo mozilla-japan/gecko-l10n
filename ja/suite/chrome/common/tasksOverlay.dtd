@@ -7,9 +7,9 @@
 <!ENTITY editorCmd.accesskey "c">
 <!ENTITY editorCmd.commandkey "4">
 
-<!ENTITY errorConsoleCmd.label                                  "エラーコンソール">
-<!ENTITY errorConsoleCmd.accesskey				"C">
-<!ENTITY errorConsoleCmd.commandkey				"j">
+<!ENTITY errorConsoleCmd.label		"エラーコンソール">
+<!ENTITY errorConsoleCmd.accesskey	"C">
+<!ENTITY errorConsoleCmd.commandkey	"j">
 
 <!ENTITY taskComposer.tooltip "Composer">
 <!ENTITY taskNavigator.tooltip "ブラウザ">
@@ -50,7 +50,7 @@
 <!-- LOCALIZATION NOTE (syncSetup.accesskey, syncSyncNowItem.accesskey):
      Only one of these will show at a time (based on setup state),
      so reusing accesskey is ok. -->
-<!ENTITY syncSetup.label           "Syncをセットアップ…">
+<!ENTITY syncSetup.label           "Sync をセットアップ...">
 <!ENTITY syncSetup.accesskey       "S">
-<!ENTITY syncSyncNowItem.label     "今すぐSyncする">
+<!ENTITY syncSyncNowItem.label     "今すぐ同期する">
 <!ENTITY syncSyncNowItem.accesskey "S">
