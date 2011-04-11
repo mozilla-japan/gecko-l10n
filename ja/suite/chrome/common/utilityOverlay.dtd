@@ -35,7 +35,7 @@
 <!ENTITY copyCmd.accesskey "c">
 <!ENTITY pasteCmd.label "@@Paste@@">
 <!ENTITY pasteCmd.key "V">
-<!ENTITY pasteGoCmd.label	"@@Paste@@して移動">
+<!ENTITY pasteGoCmd.label	"@@Paste-site@@移動">
 <!ENTITY pasteGoCmd.accesskey	"G">
 <!ENTITY pasteCmd.accesskey "p">
 <!ENTITY deleteCmd.label "削除">

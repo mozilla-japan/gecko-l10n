@@ -13,7 +13,7 @@
 <!ENTITY openFrameCmd.accesskey "W">
 <!ENTITY openFrameCmdInTab.label "フレームを@@NewTab@@で開く">
 <!ENTITY openFrameCmdInTab.accesskey "T">
-<!ENTITY keywordfield.label           "このキーワードを検索…">
+<!ENTITY keywordfield.label           "このキーワードを検索...">
 <!ENTITY keywordfield.accesskey       "K">
 <!ENTITY showOnlyThisFrameCmd.label "このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
@@ -113,12 +113,12 @@
 <!ENTITY mediaUnmute.label		"ミュート解除">
 <!ENTITY mediaUnmute.accesskey		"m">
 <!ENTITY mediaShowControls.label	"コントロールを表示">
-<!ENTITY mediaShowControls.accesskey  "a">
+<!ENTITY mediaShowControls.accesskey	"a">
 <!ENTITY mediaHideControls.label	"コントロールを隠す">
-<!ENTITY mediaHideControls.accesskey  "a">
-<!ENTITY videoFullScreen.label        "フルスクリーン表示">
-<!ENTITY videoFullScreen.accesskey    "F">
-<!ENTITY search.accesskey "W">
+<!ENTITY mediaHideControls.accesskey	"a">
+<!ENTITY videoFullScreen.label		"@@FullScreen@@">
+<!ENTITY videoFullScreen.accesskey	"F">
+<!ENTITY search.accesskey		"W">
 <!ENTITY bidiSwitchPageDirectionItem.label "ページの書記方向を切り換え">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey "g">
 <!ENTITY bidiSwitchTextDirectionItem.label "テキストの書記方向を切り換え">

@@ -4,7 +4,7 @@
 <!ENTITY tabNavigationLinks.accesskey "L">
 <!ENTITY tabNavigationForms.label "ボタン、ラジオボタン、チェックボックス、リスト要素">
 <!ENTITY tabNavigationForms.accesskey "B">
-<!ENTITY tabNavigationTextboxes.label "注: いずれの設定でもテキストボックスとフレーム類は含まれます。">
+<!ENTITY tabNavigationTextboxes.label "注: いずれの設定でも、テキストボックスとスクロール可能な領域が含まれます。">
 <!ENTITY tabNavigationDesc.label "Tab か Shift+Tab を押したときの移動先:">
 <!ENTITY findAsYouTypeBehavior.label "タイプ検索 (Find As You Type)">
 <!ENTITY findAsYouTypeTip.label "豆知識: / キーを押すと手動でタイプ検索 (Find As You Type) を開始できます。リンクだけを対象に検索するには ' キーを押してください。">
