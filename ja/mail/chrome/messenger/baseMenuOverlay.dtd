@@ -7,8 +7,10 @@
 <!ENTITY helpMenuWin.accesskey			"H">
 <!ENTITY helpTroubleshootingInfo.label		"トラブルシューティング情報">
 <!ENTITY helpTroubleshootingInfo.accesskey	"T">
-<!ENTITY releaseCmd.label			"リリースノート">
-<!ENTITY releaseCmd.accesskey			"R">
+<!ENTITY helpSafeMode.label			"アドオンを無効にして再起動...">
+<!ENTITY helpSafeMode.accesskey			"R">
+<!ENTITY releaseCmd2.label			"リリースノート">
+<!ENTITY releaseCmd2.accesskey			"N">
 <!ENTITY whatsNewCmd.label			"新着情報">
 <!ENTITY whatsNewCmd.accesskey			"W">
 <!-- (^^; featureConfigurator.dtd の featureConfigurator.title と合わせる -->

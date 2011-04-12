@@ -194,6 +194,7 @@
 <!ENTITY quoteButton.tooltip		"前のメッセージを引用します">
 <!ENTITY addressButton.tooltip		"アドレス帳から宛先を選択します">
 <!ENTITY attachButton.tooltip		"このメッセージにファイルを添付します">
+<!ENTITY spellingButton.tooltip		"選択したテキストまたはメッセージ全体のスペルチェックをします">
 <!ENTITY saveButton.tooltip		"このメッセージを保存します">
 <!ENTITY cutButton.tooltip		"@@Cut@@">
 <!ENTITY copyButton.tooltip		"コピー">
@@ -264,6 +265,10 @@
 <!ENTITY attachFile.accesskey		"F">
 <!ENTITY attachPage.label		"Web ページを添付...">
 <!ENTITY attachPage.accesskey		"W">
+
+<!-- Spell checker context menu items -->
+<!ENTITY spellAddDictionaries.label	"辞書を追加...">
+<!ENTITY spellAddDictionaries.accesskey	"A">
 
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label	"アドレス"><!-- (^^; Contacts -->

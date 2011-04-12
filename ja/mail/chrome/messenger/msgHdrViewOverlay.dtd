@@ -23,6 +23,7 @@
 
  Localizer(s):
    dynamis
+   Masahiko Imanaka <chimantaea_mirabilis@yahoo.co.jp>
 
  Alternatively, the contents of this file may be used under the terms of
  either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -102,12 +103,15 @@
 <!ENTITY otherActionsPrint.label		"@@Print@@...">
 <!ENTITY otherActionsPrint.accesskey		"p">
 
+<!-- Attachment context menu items -->
 <!ENTITY openAttachmentCmd.label		"開く">
 <!ENTITY openAttachmentCmd.accesskey		"O">
 <!ENTITY saveAsAttachmentCmd.label		"@@SaveAs@@...">
 <!ENTITY saveAsAttachmentCmd.accesskey		"A">
 <!ENTITY detachAttachmentCmd.label		"添付ファイルを分離...">
+<!ENTITY detachAttachmentCmd.accesskey		"T">
 <!ENTITY deleteAttachmentCmd.label		"削除">
+<!ENTITY deleteAttachmentCmd.accesskey		"L">
 <!ENTITY openAllAttachmentsCmd.label		"すべて開く...">
 <!ENTITY openAllAttachmentsCmd.accesskey	"O">
 <!ENTITY saveAllAttachmentsCmd.label		"すべて保存...">
@@ -116,6 +120,26 @@
 <!ENTITY detachAllAttachmentsCmd.accesskey	"D">
 <!ENTITY deleteAllAttachmentsCmd.label		"すべて削除...">
 <!ENTITY deleteAllAttachmentsCmd.accesskey	"E">
+
+<!-- Attachment toolbar items -->
+<!ENTITY saveAttachmentButton.label		"保存">
+<!ENTITY saveAttachmentButton.tooltip		"添付ファイルを保存します">
+<!ENTITY saveAllAttachmentsButton.label		"すべて保存">
+<!ENTITY saveAllAttachmentsButton.tooltip	"添付されたすべてのファイルを保存します">
+<!ENTITY openAttachmentMenuItem.label		"開く">
+<!ENTITY openAttachmentMenuItem.accesskey	"o">
+<!ENTITY saveAsAttachmentMenuItem.label		"@@SaveAs@@...">
+<!ENTITY saveAsAttachmentMenuItem.accesskey	"s">
+<!ENTITY detachAttachmentMenuItem.label		"分離...">
+<!ENTITY detachAttachmentMenuItem.accesskey	"d">
+<!ENTITY deleteAttachmentMenuItem.label		"削除">
+<!ENTITY deleteAttachmentMenuItem.accesskey	"e">
+<!ENTITY saveAllAttachmentsMenuItem.label	"すべて保存...">
+<!ENTITY saveAllAttachmentsMenuItem.accesskey	"s">
+<!ENTITY detachAllAttachmentsMenuItem.label	"すべて分離...">
+<!ENTITY detachAllAttachmentsMenuItem.accesskey	"d">
+<!ENTITY deleteAllAttachmentsMenuItem.label	"すべて削除...">
+<!ENTITY deleteAllAttachmentsMenuItem.accesskey	"e">
 
 <!ENTITY copyLinkCmd.label			"リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey			"C">

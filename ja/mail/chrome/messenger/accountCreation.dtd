@@ -1,7 +1,7 @@
 <!ENTITY autoconfigWizard.title		"メールアカウント設定">
 <!ENTITY name.label			"あなたの名前:">
 <!ENTITY name.accesskey			"n">
-<!ENTITY name.placeholder			"氏名またはニックネーム">
+<!ENTITY name.placeholder		"氏名またはニックネーム">
 <!ENTITY name.text			"受信者に表示される名前です。">
 <!ENTITY email.label			"メールアドレス:">
 <!ENTITY email.accesskey		"l">
@@ -10,42 +10,45 @@
 <!ENTITY password.accesskey		"P">
 <!ENTITY password.placeholder		"アカウントのパスワード">
 <!ENTITY password.text			"入力は任意です。ユーザ名の確認にのみ使用されます。">
+<!ENTITY rememberPassword.label		"パスワードを記憶する">
+<!ENTITY rememberPassword.accesskey	"m">
 
-<!ENTITY accountInformation.label	"アカウント情報">
-<!ENTITY username2.label		"ユーザ名:">
+<!ENTITY imapLong.label			"IMAP (リモートフォルダ)">
+<!ENTITY pop3Long.label			"POP3 (メールをコンピュータに保存)">
+
 <!ENTITY incoming.label			"受信サーバ:">
 <!ENTITY outgoing.label			"送信サーバ:">
+<!ENTITY username.label			"ユーザ名:">
+<!ENTITY hostname.label			"サーバのホスト名">
+<!ENTITY port.label			"ポート番号">
+<!ENTITY ssl.label			"SSL">
+<!ENTITY auth.label			"認証方式">
+<!ENTITY imap.label			"IMAP">
+<!ENTITY pop3.label			"POP3">
+<!ENTITY smtp.label			"SMTP">
+<!ENTITY autodetect.label		"自動検出">
+<!-- LOCALIZATION NOTE(noEncryption.label): Neither SSL/TLS nor STARTTLS.
+     Transmission of emails in cleartext over the Internet. -->
 <!ENTITY noEncryption.label		"接続の保護なし">
 <!ENTITY starttls.label			"STARTTLS">
 <!ENTITY sslTls.label			"SSL/TLS">
 
-<!ENTITY imap.label			"IMAP">
-<!ENTITY pop.label			"POP">
-<!ENTITY smtp.label			"SMTP">
-<!ENTITY imap.description		"IMAP - 複数のコンピュータからメッセージとフォルダへアクセスできます。">
-<!ENTITY pop.description		"POP -すべてのメッセージをこのコンピュータにダウンロードします。作成したフォルダはローカル専用です。">
-<!ENTITY recommended-appendix.label	"(推奨)">
-
-<!ENTITY manualSetup.label		"手動設定...">
-<!ENTITY manualSetup.accesskey		"S">
+<!ENTITY advancedSetup.label		"詳細設定">
+<!ENTITY advancedSetup.accesskey	"A">
 <!ENTITY cancel.label			"キャンセル">
 <!ENTITY cancel.accesskey		"a">
 <!ENTITY continue.label			"続ける">
 <!ENTITY continue.accesskey		"C">
-<!ENTITY startOver.label		"はじめからやり直す">
-<!ENTITY startOver.accesskey		"o">
 <!ENTITY stop.label			"中止">
 <!ENTITY stop.accesskey			"S">
-<!-- LOCALIZATION NOTE (retest.label): This is the text that is
-     displayed on the button which will re-guess the account configuration,
-     taking into account the settings the user has changed. -->
-<!ENTITY retest.label			"設定を再テスト">
-<!ENTITY retest.accesskey		"R">
-<!ENTITY edit.label			"編集">
-<!ENTITY edit.accesskey			"E">
-
-<!ENTITY rememberPassword.label		"パスワードを記憶する">
-<!ENTITY rememberPassword.accesskey	"m">
+<!-- LOCALIZATION NOTE (half-manual-test.label): This is the text that is
+     displayed on the button in manual edit mode which will re-guess
+     the account configuration, taking into account the settings that
+     the user has manually changed. -->
+<!ENTITY half-manual-test.label		"再テスト">
+<!ENTITY half-manual-test.accesskey	"t">
+<!ENTITY manual-edit.label		"手動設定">
+<!ENTITY manual-edit.accesskey		"M">
 
 <!ENTITY warning.label			"警告！">
 <!ENTITY incomingSettings.label		"受信サーバ設定:">

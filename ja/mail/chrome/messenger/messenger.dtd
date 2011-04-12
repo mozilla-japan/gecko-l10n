@@ -5,10 +5,23 @@
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label			"フォルダ...">
 <!ENTITY newFolderCmd.accesskey			"F">
-<!ENTITY closeTabCmd.label			"タブを閉じる">
-<!ENTITY closeTabCmd.accesskey			"e">
-<!ENTITY closeOtherTabsCmd.label		"他のタブを閉じる">
-<!ENTITY closeOtherTabsCmd.accesskey		"L">
+<!ENTITY closeTabCmd2.label			"タブを閉じる">
+<!ENTITY closeTabCmd2.accesskey			"C">
+<!ENTITY closeOtherTabsCmd2.label		"他のタブを閉じる">
+<!ENTITY closeOtherTabsCmd2.accesskey		"o">
+<!-- LOCALIZATION NOTE (undoCloseTabCmd.label):
+     Menu option to attempt to re-open a recently closed tab.
+     -->
+<!ENTITY recentlyClosedTabsCmd.label		"最近閉じたタブ">
+<!ENTITY recentlyClosedTabsCmd.accesskey	"R">
+
+<!ENTITY undoCloseTabCmd.commandkey		"T">
+<!-- LOCALIZATION NOTE (moveToNewWindow.label):
+     Menu option to cause the current tab to be migrated to a new Thunderbird
+     window.
+     -->
+<!ENTITY moveToNewWindow.label			"@@NewWindow@@へ移動">
+<!ENTITY moveToNewWindow.accesskey		"W">
 <!ENTITY newVirtualFolderCmd.label		"検索フォルダ...">
 <!ENTITY newVirtualFolderCmd.accesskey		"S">
 <!ENTITY newOtherAccountsCmd.label		"他のサービスのアカウント...">
@@ -315,6 +328,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY folderMenu.accesskey		"O">
 <!ENTITY thisFolder.label		"このフォルダ">
 <!ENTITY thisFolder.accesskey		"F">
+<!ENTITY goRecentlyClosedTabs.label	"最近閉じたタブ">
 <!ENTITY startPageCmd.label		"&brandShortName; スタートページ">
 <!ENTITY startPageCmd.accesskey		"S">
 
@@ -393,12 +407,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY tagCmd9.key			"9">
 <!ENTITY markMenu.label			"マーク">
 <!ENTITY markMenu.accesskey		"k">
+<!ENTITY toggleReadCmd.key		"m">
 <!ENTITY markAsReadCmd.label		"既読にする">
 <!ENTITY markAsReadCmd.accesskey	"R">
-<!ENTITY markAsReadCmd.key		"m">
 <!ENTITY markAsUnreadCmd.label		"未読にする">
 <!ENTITY markAsUnreadCmd.accesskey	"U">
-<!ENTITY markAsUnreadCmd.key		"m">
 <!ENTITY markThreadAsReadCmd.label	"スレッドを既読にする">
 <!ENTITY markThreadAsReadCmd.accesskey	"T">
 <!ENTITY markThreadAsReadCmd.key	"r">
@@ -638,6 +651,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextOpenNewWindow.label		"@@NewWindow@@でメッセージを開く">
 <!ENTITY contextOpenNewWindow.accesskey		"W">
+<!-- The key potentially conflicts with cutCmd.accessKey which is defined in
+     textcontext.dtd from toolkit. Right now, both menu items can't be visible
+     at the same time, but should someone enable copy/paste of message, this key
+     would probably need to be changed. -->
 <!ENTITY contextOpenNewTab.label		"@@NewTab@@でメッセージを開く">
 <!ENTITY contextOpenNewTab.accesskey		"T">
 <!ENTITY contextOpenConversation.label		"@@NewTab@@でスレッドを開く"><!-- en-US: "Open Message in Conversation" -->
@@ -800,20 +817,16 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY reportPhishingURL.label	"偽装サイトの URL を報告"><!-- en-US: Report E-mail Scam -->
 <!ENTITY reportPhishingURL.accesskey	"o">
 
+<!-- Spell checker context menu items -->
+<!ENTITY spellAddDictionaries.label	"辞書を追加...">
+<!ENTITY spellAddDictionaries.accesskey	"A">
+
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label		"@@SaveLinkTargetAs@@...">
 <!ENTITY saveLinkAsCmd.accesskey	"k">
 <!ENTITY saveImageAsCmd.label		"@@SaveImageAs@@...">
 <!ENTITY saveImageAsCmd.accesskey	"v">
-<!ENTITY cutCmd.label			"@@Cut@@">
-<!ENTITY cutCmd.accesskey		"u">
-<!ENTITY copyCmd.label			"コピー">
-<!ENTITY copyCmd.accesskey		"C">
-<!ENTITY pasteCmd.label			"@@Paste@@">
-<!ENTITY pasteCmd.accesskey		"P">
-<!ENTITY selectAllCmd.label		"@@SelectAll@@">
-<!ENTITY selectAllCmd.accesskey		"A">
-<!ENTITY copyLinkCmd.label		"リンク URL をコピー">
+<!ENTITY copyLinkCmd.label		"リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey		"C">
 <!ENTITY copyImageAllCmd.label		"画像をコピー">
 <!ENTITY copyImageAllCmd.accesskey	"I">

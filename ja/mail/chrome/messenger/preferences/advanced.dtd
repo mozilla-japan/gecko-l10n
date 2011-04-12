@@ -75,9 +75,9 @@
 <!ENTITY showOffline.accesskey			"O">
 
 <!ENTITY Diskspace				"ディスク領域">
-<!ENTITY offlineCompact.label			"ディスク領域を"><!-- (^^; offlineCompact.label [ ] kb.label -->
+<!ENTITY offlineCompact.label			"ディスク領域を"><!-- (^^; offlineCompact.label [ ] mb.label -->
 <!ENTITY offlineCompact.accesskey		"a">
-<!ENTITY kb.label				"KB 以上節約できるときはフォルダを最適化する">
+<!ENTITY mb.label				"MB 以上節約できるときはフォルダを最適化する">
 
 <!-- LOCALIZATION NOTE:
   The entities useCacheBefore.label and useCacheAfter.label appear on a single
