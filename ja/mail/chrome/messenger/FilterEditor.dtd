@@ -1,5 +1,6 @@
 <!ENTITY window.title			"フィルタの設定">
 
+<!ENTITY filterEditorDialog.dimensions	"width: 100ch;"><!-- en-US: "width: 100ch;" -->
 <!ENTITY filterName.label		"フィルタ名:">
 <!ENTITY filterName.accesskey		"i">
 
