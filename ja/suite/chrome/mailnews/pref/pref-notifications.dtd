@@ -46,8 +46,8 @@
 <!ENTITY showTrayIcon.accesskey           "t">
 <!ENTITY bounceSystemDockIcon.label       "Dock アイコンをバウンドさせる">
 <!ENTITY bounceSystemDockIcon.accesskey   "A">
-<!ENTITY preview.label                    "再生">
-<!ENTITY preview.accesskey                "v">
+<!ENTITY playButton.label                 "再生">
+<!ENTITY playButton.accesskey             "l">
 <!ENTITY systemsound.label                "システムの新着メール音">
 <!ENTITY systemsound.accesskey            "M">
 <!ENTITY customsound.label                "サウンドファイルを指定する">
