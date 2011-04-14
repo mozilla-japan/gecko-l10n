@@ -26,21 +26,23 @@ Firefox 4 beta 4 に向けて changeset 706から720 で行われた変更には
 
 SeaMonkey 2.1
 
- changeset 783 の時点で同期済み
+ changeset 834 の時点で同期済み
   /chrome/branding
   /chrome/mailnews
   /chrome/crashreporter
   /installer
+ /extensions/irc
+ /extensions/venkman
 
  要更新->更新中 by tooyama
   /chrome/browser
   /chrome/common
 
-現在上から順に、ほぼen-USと同期完了。(新しく追加されたファイルは未訳)
-https://l10n-stage-sj.mozilla.org/dashboard/compare?run=119745 (2011-02-17 時点)
-ファイル内容変更なしで削除のみのファイルは未処理
-
-
+1. まず trunk の /suite 以下を en-US と同期する。(※ /dom と /security は更新不要)
+     https://l10n-stage-sj.mozilla.org/dashboard/compare?run=127506 (Comparison for sea22x-ja)
+2. SVN に /branches/l10n-mozilla-2.0 (trunk からのコピー) が作成されたら、
+     http://hg.mozilla.org/releases/l10n-mozilla-2.0/ja/ にコミットする。
+3. Comparison for sea21x-ja を確認してダッシュボードをグリーンにする。
 
 Firefox 4, Thunderbird 3.3, SeaMonky 2.1 は mozilla-2.0, comm-central に移行された。
 SVN も適当なところで trunk から /branches/l10n-mozilla-2.0 にコピーする必要あり。(^m^)
