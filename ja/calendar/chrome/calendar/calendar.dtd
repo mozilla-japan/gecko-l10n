@@ -202,8 +202,6 @@
 <!ENTITY calendar.context.copyevent.accesskey		"C">
 <!ENTITY calendar.context.pasteevent.label		"@@Paste@@">
 <!ENTITY calendar.context.pasteevent.accesskey		"P">
-<!ENTITY calendar.context.selectall.label		"@@SelectAll@@">
-<!ENTITY calendar.context.selectall.accesskey		"A">
 <!ENTITY calendar.context.button.label			"Today ペイン" >
 <!ENTITY calendar.context.button.accesskey		"T" >
 <!ENTITY calendar.context.attendance.menu.label		"参加" >
@@ -241,6 +239,12 @@
 <!ENTITY priority.level.normal.accesskey		"N">
 <!ENTITY priority.level.high				"高">
 <!ENTITY priority.level.high.accesskey			"H">
+
+<!-- Task View -->
+<!-- Note that the above *.context.* strings are currently used for the other
+     task action buttons -->
+<!ENTITY calendar.taskview.delete.label			"削除">
+<!ENTITY calendar.taskview.delete.accesskey		"l">
 
 <!-- Server Context Menu -->
 <!ENTITY calendar.context.newserver.label		"@@New-CMD@@カレンダー...">
@@ -297,11 +301,11 @@
 <!ENTITY calendar.alarm.snooze.2hours.label		"2 時間" >
 <!ENTITY calendar.alarm.snooze.1day.label		"1 日" >
 
-<!-- Task View -->
-<!-- Note that the above *.context.* strings are currently used for the other
-     task action buttons -->
-<!ENTITY calendar.taskview.delete.label			"削除">
-<!ENTITY calendar.taskview.delete.accesskey		"l">
+<!-- LOCALIZATION NOTE (calendar.alarm.snooze.cancel)
+     This string is not seen in the UI, it is read by screen readers when the
+     user focuses the "Cancel" button in the "Snooze for..." popup of the alarm
+     dialog. -->
+<!ENTITY calendar.alarm.snooze.cancel			"スヌーズをキャンセルします">
 
 <!-- Calendar Server Dialog -->
 <!ENTITY calendar.server.dialog.title.edit		"カレンダーの編集">
