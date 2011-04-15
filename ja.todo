@@ -26,7 +26,7 @@ Firefox 4 beta 4 に向けて changeset 706から720 で行われた変更には
 
 SeaMonkey 2.1
 
- changeset 835 の時点で同期済み
+ changeset 835 の時点で同期、push 済み
   /chrome/branding
   /chrome/mailnews
   /chrome/crashreporter
@@ -34,9 +34,20 @@ SeaMonkey 2.1
  /extensions/irc
  /extensions/venkman
 
- 要更新->更新中 by tooyama
-  /chrome/browser
-  /chrome/common
+ 要更新リスト (○済 △更新中 ×未着手)
+△  /chrome/browser
+△  /chrome/common
+○          common/bookmarks
+○          common/dataman
+×          common/downloads
+×          common/feeds
+×          common/help
+○          common/places
+×          common/pref
+×          common/search
+○          common/sidebar
+○          common/sync
+
 
 1. まず trunk の /suite 以下を en-US と同期する。(※ /dom と /security は更新不要)
      https://l10n-stage-sj.mozilla.org/dashboard/compare?run=127506 (Comparison for sea22x-ja)
