@@ -32,5 +32,5 @@
 <!ENTITY showAlert.accesskey            "S">
 <!ENTITY browse.label                   "@@Browse@@...">
 <!ENTITY browse.accesskey               "B">
-<!ENTITY preview.label                  "プレビュー">
-<!ENTITY preview.accesskey              "e">
+<!ENTITY playButton.label               "再生">
+<!ENTITY playButton.accesskey           "l">
