@@ -1,0 +1,25 @@
+<!ENTITY linksHeader.label "リンクの動作">
+<!ENTITY newWindow.label "リンクを開くときの動作">
+<!ENTITY newWindowDescription.label "本来は新しい@@Window@@で開くリンクを:">
+<!ENTITY newWindowRestriction.label "スクリプトが新しい@@Window@@を開こうとするとき:">
+<!ENTITY external.label "他のアプリケーションから開かれたときの動作">
+<!ENTITY externalDescription.label "他のアプリケーションから開かれたリンクを:">
+
+<!ENTITY openCurrent.label "現在のタブ/@@Window@@で開く">
+<!ENTITY newWindowGroupCurrent.accesskey "c">
+<!ENTITY externalGroupCurrent.accesskey "u">
+
+<!ENTITY openTab.label "現在の@@Window@@で@@NewTab@@として開く">
+<!ENTITY newWindowGroupTab.accesskey "t">
+<!ENTITY externalGroupTab.accesskey "a">
+
+<!ENTITY openWindow.label "新しい@@Window@@で開く">
+<!ENTITY newWindowGroupWindow.accesskey "w">
+<!ENTITY externalGroupWindow.accesskey "o">
+
+<!ENTITY divertAll.label "常に@@Window@@をタブで開く">
+<!ENTITY divertAll.accesskey "d">
+<!ENTITY divertNoFeatures.label "タブにカスタム@@Window@@を流用しない">
+<!ENTITY divertNoFeatures.accesskey "s">
+<!ENTITY dontDivert.label "常に新しい@@Window@@を開く">
+<!ENTITY dontDivert.accesskey "n">
