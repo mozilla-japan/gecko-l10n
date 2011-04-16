@@ -1,25 +1,25 @@
-<!ENTITY linksHeader.label "ƒŠƒ“ƒN‚Ì“®ì">
-<!ENTITY newWindow.label "ƒŠƒ“ƒN‚ðŠJ‚­‚Æ‚«‚Ì“®ì">
-<!ENTITY newWindowDescription.label "–{—ˆ‚ÍV‚µ‚¢@@Window@@‚ÅŠJ‚­ƒŠƒ“ƒN‚ð:">
-<!ENTITY newWindowRestriction.label "ƒXƒNƒŠƒvƒg‚ªV‚µ‚¢@@Window@@‚ðŠJ‚±‚¤‚Æ‚·‚é‚Æ‚«:">
-<!ENTITY external.label "‘¼‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚©‚çŠJ‚©‚ê‚½‚Æ‚«‚Ì“®ì">
-<!ENTITY externalDescription.label "‘¼‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚©‚çŠJ‚©‚ê‚½ƒŠƒ“ƒN‚ð:">
+<!ENTITY linksHeader.label "ãƒªãƒ³ã‚¯ã®å‹•ä½œ">
+<!ENTITY newWindow.label "ãƒªãƒ³ã‚¯ã‚’é–‹ãã¨ãã®å‹•ä½œ">
+<!ENTITY newWindowDescription.label "æœ¬æ¥ã¯@@NewWindow@@ã§é–‹ããƒªãƒ³ã‚¯ã‚’:">
+<!ENTITY newWindowRestriction.label "ã‚¹ã‚¯ãƒªãƒ—ãƒˆãŒ@@NewWindow@@ã‚’é–‹ã“ã†ã¨ã™ã‚‹ã¨ã:">
+<!ENTITY external.label "ä»–ã®ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‹ã‚‰é–‹ã„ãŸã¨ãã®å‹•ä½œ">
+<!ENTITY externalDescription.label "ä»–ã®ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‹ã‚‰é–‹ã„ãŸãƒªãƒ³ã‚¯ã‚’:">
 
-<!ENTITY openCurrent.label "Œ»Ý‚Ìƒ^ƒu/@@Window@@‚ÅŠJ‚­">
+<!ENTITY openCurrent.label "ç¾åœ¨ã®ã‚¿ãƒ–/@@Window@@ã§é–‹ã">
 <!ENTITY newWindowGroupCurrent.accesskey "c">
 <!ENTITY externalGroupCurrent.accesskey "u">
 
-<!ENTITY openTab.label "Œ»Ý‚Ì@@Window@@‚Å@@NewTab@@‚Æ‚µ‚ÄŠJ‚­">
+<!ENTITY openTab.label "ç¾åœ¨ã®@@Window@@ã§@@NewTab@@ã¨ã—ã¦é–‹ã">
 <!ENTITY newWindowGroupTab.accesskey "t">
 <!ENTITY externalGroupTab.accesskey "a">
 
-<!ENTITY openWindow.label "V‚µ‚¢@@Window@@‚ÅŠJ‚­">
+<!ENTITY openWindow.label "@@NewWindow@@ã§é–‹ã">
 <!ENTITY newWindowGroupWindow.accesskey "w">
 <!ENTITY externalGroupWindow.accesskey "o">
 
-<!ENTITY divertAll.label "í‚É@@Window@@‚ðƒ^ƒu‚ÅŠJ‚­">
+<!ENTITY divertAll.label "å¸¸ã«@@Window@@ã‚’ã‚¿ãƒ–ã§é–‹ã">
 <!ENTITY divertAll.accesskey "d">
-<!ENTITY divertNoFeatures.label "ƒ^ƒu‚ÉƒJƒXƒ^ƒ€@@Window@@‚ð—¬—p‚µ‚È‚¢">
+<!ENTITY divertNoFeatures.label "ã‚¿ãƒ–ã«ã‚«ã‚¹ã‚¿ãƒ @@Window@@ã‚’æµç”¨ã—ãªã„">
 <!ENTITY divertNoFeatures.accesskey "s">
-<!ENTITY dontDivert.label "í‚ÉV‚µ‚¢@@Window@@‚ðŠJ‚­">
+<!ENTITY dontDivert.label "å¸¸ã«@@NewWindow@@ã‚’é–‹ã">
 <!ENTITY dontDivert.accesskey "n">

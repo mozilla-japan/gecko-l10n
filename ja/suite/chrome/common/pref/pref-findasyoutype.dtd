@@ -1,17 +1,17 @@
-<!ENTITY pref.findAsYouType.title "ƒ^ƒCƒvŒŸõ">
-<!ENTITY findAsYouTypeBehavior.label "ƒ^ƒCƒvŒŸõ">
-<!ENTITY findAsYouTypeTip.label "“¤’mŽ¯: / ƒL[‚ð‰Ÿ‚·‚Æƒ^ƒCƒvŒŸõ‚ðŠJŽn‚Å‚«‚Ü‚·BƒŠƒ“ƒN‚¾‚¯‚ð‘ÎÛ‚ÉŒŸõ‚·‚é‚É‚Í ' ƒL[‚ð‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢B">
-<!ENTITY findAsYouTypeTimeout.label "•¶Žš‚ð’T‚µ‚Ä‚¢‚é‚Æ‚«‚É­‚µŽžŠÔ‚ªŒo‰ß‚µ‚½‚çŒŸõ‚ðŽæ‚è‚â‚ß‚é">
+<!ENTITY pref.findAsYouType.title "ã‚¿ã‚¤ãƒ—æ¤œç´¢ (Find As You Type)">
+<!ENTITY findAsYouTypeBehavior.label "ã‚¿ã‚¤ãƒ—æ¤œç´¢">
+<!ENTITY findAsYouTypeTip.label "è±†çŸ¥è­˜: / ã‚­ãƒ¼ã‚’æŠ¼ã™ã¨ã‚¿ã‚¤ãƒ—æ¤œç´¢ã‚’é–‹å§‹ã§ãã¾ã™ã€‚ãƒªãƒ³ã‚¯ã ã‘ã‚’å¯¾è±¡ã«æ¤œç´¢ã™ã‚‹ã«ã¯ ' ã‚­ãƒ¼ã‚’æŠ¼ã—ã¦ãã ã•ã„ã€‚">
+<!ENTITY findAsYouTypeTimeout.label "æ–‡å­—ã‚’æŽ¢ã—ã¦ã„ã‚‹ã¨ãã«å°‘ã—æ™‚é–“ãŒçµŒéŽã—ãŸã‚‰æ¤œç´¢ã‚’å–ã‚Šã‚„ã‚ã‚‹">
 <!ENTITY findAsYouTypeTimeout.accesskey "C">
-<!ENTITY findAsYouTypeSound.label "Œ©‚Â‚©‚ç‚È‚©‚Á‚½‚Æ‚«‚Í‰¹‚ð–Â‚ç‚·">
+<!ENTITY findAsYouTypeSound.label "è¦‹ã¤ã‹ã‚‰ãªã‹ã£ãŸã¨ãã¯éŸ³ã‚’é³´ã‚‰ã™">
 <!ENTITY findAsYouTypeSound.accesskey "P">
-<!ENTITY findAsYouTypeEnableAuto.label "‘Å‚Á‚½•¶Žš‚Æ“¯‚¶•”•ª‚ðƒy[ƒW‚©‚çŽ©“®“I‚É’T‚·‹@”\:">
+<!ENTITY findAsYouTypeEnableAuto.label "å…¥åŠ›ã—ãŸæ–‡å­—ã¨åŒã˜éƒ¨åˆ†ã‚’ãƒšãƒ¼ã‚¸ã‹ã‚‰è‡ªå‹•çš„ã«æŽ¢ã™æ©Ÿèƒ½ã§ã™:">
 <!ENTITY findAsYouTypeEnableAuto.accesskey "F">
-<!ENTITY findAsYouTypeAutoText.label "ƒy[ƒW’†‚Ì‚·‚×‚Ä‚Ì•¶Žš">
+<!ENTITY findAsYouTypeAutoText.label "ãƒšãƒ¼ã‚¸ä¸­ã®ã™ã¹ã¦ã®æ–‡å­—">
 <!ENTITY findAsYouTypeAutoText.accesskey "A">
-<!ENTITY findAsYouTypeAutoLinks.label "ƒŠƒ“ƒN‚Ì‚Ý">
+<!ENTITY findAsYouTypeAutoLinks.label "ãƒªãƒ³ã‚¯ã®ã¿">
 <!ENTITY findAsYouTypeAutoLinks.accesskey "L">
 
-<!ENTITY findAsYouTypeFindbarEnable.label "ŒŸõ’†‚ÍŒŸõƒc[ƒ‹ƒo[‚ð•\Ž¦‚µ‘±‚¯‚é">
+<!ENTITY findAsYouTypeFindbarEnable.label "æ¤œç´¢ä¸­ã¯æ¤œç´¢ãƒ„ãƒ¼ãƒ«ãƒãƒ¼ã‚’è¡¨ç¤ºã—ç¶šã‘ã‚‹">
 <!ENTITY findAsYouTypeFindbarEnable.accesskey "S">
-<!ENTITY findAsYouTypeFindbarEnableTip.label "Note: Find As You Type ‚ÍŒŸõƒc[ƒ‹ƒo[‚ðŽg‚í‚È‚¢ê‡A‘Û“I‚ÈŒ¾Œê‚É‚æ‚éŒŸõ‚ª‚Å‚«‚Ü‚¹‚ñB">
+<!ENTITY findAsYouTypeFindbarEnableTip.label "æ³¨æ„: æ¤œç´¢ãƒ„ãƒ¼ãƒ«ãƒãƒ¼ã‚’ä½¿ã‚ãªã„å ´åˆã€ã‚¿ã‚¤ãƒ—æ¤œç´¢ã¯å›½éš›çš„ãªæ–‡å­—ã®æ¤œç´¢ãŒã§ãã¾ã›ã‚“ã€‚">
