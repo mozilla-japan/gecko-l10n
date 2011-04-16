@@ -44,7 +44,7 @@ SeaMonkey 2.1
 ○          common/help  (英語のまま)
 ◎          common/places
 ×          common/pref
-×          common/search
+○          common/search
 ◎          common/sidebar
 ◎          common/sync
 
