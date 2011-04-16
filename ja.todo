@@ -34,19 +34,19 @@ SeaMonkey 2.1
  /extensions/irc
  /extensions/venkman
 
- 要更新リスト (○済 △更新中 ×未着手)
+ 要更新リスト (◎push ○済 △更新中 ×未着手)
 △  /chrome/browser
 △  /chrome/common
-○          common/bookmarks
-○          common/dataman
-×          common/downloads
-×          common/feeds
-×          common/help
-○          common/places
+◎          common/bookmarks
+◎          common/dataman
+○          common/downloads
+○          common/feeds
+△          common/help  (英語のまま)
+◎          common/places
 ×          common/pref
 ×          common/search
-○          common/sidebar
-○          common/sync
+◎          common/sidebar
+◎          common/sync
 
 
 1. まず trunk の /suite 以下を en-US と同期する。(※ /dom と /security は更新不要)
