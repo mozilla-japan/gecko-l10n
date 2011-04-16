@@ -18,8 +18,8 @@
 
 <!ENTITY selectSound.label              "@@Browse@@...">
 <!ENTITY selectSound.accesskey          "o">
-<!ENTITY previewSound.label             "プレビュー">
-<!ENTITY previewSound.accesskey         "v">
+<!ENTITY playSoundButton.label          "再生">
+<!ENTITY playSoundButton.accesskey      "l">
 <!ENTITY selectSound.title              "ブロックしたときに鳴らすサウンドを選択してください">
 <!ENTITY selectSound.filter             "サウンドの選択">
 
