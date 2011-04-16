@@ -152,8 +152,9 @@
 <!ENTITY locationBar.tooltip          "検索する用語、キーワード、または Web アドレスを入力">
 <!ENTITY locationBar.accesskey        "d">
 <!ENTITY locationBar.title            "アドレス (URL)">
-
 <!ENTITY proxyIcon.tooltip            "このアイコンをドラッグアンドドロップすると、このページへのリンクが作成されます">
+
+<!ENTITY searchItem.title             "検索">
 
 <!-- Toolbar items --> 
 <!ENTITY  bookmarksButton.label       "ブックマーク">
