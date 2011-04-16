@@ -30,6 +30,7 @@
     <li><a href="#advanced">Advanced</a></li>
     <li><a href="#scripts_and_plugins">Scripts &amp; Plugins</a></li>
     <li><a href="#keyboard_navigation">Keyboard Navigation</a></li>
+    <li><a href="#fayt">Find As You Type</a></li>
     <li><a href="#cache">Cache</a></li>
     <li><a href="#proxies">Proxies</a></li>
     <li><a href="#http_networking">HTTP Networking</a></li>
@@ -147,16 +148,55 @@
 </ol>
 
 <p>The Keyboard Navigation preferences panel allows you to control how you use
-  the keyboard to <span class="noMac">navigate and </span>search for text in
-  web pages:</p>
+  the keyboard to navigate in web pages:</p>
 
 <ul>
-  <li class="noMac"><strong>Links</strong>: If checked, pressing <kbd>Tab</kbd>
-    or <kbd>Shift</kbd>+<kbd>Tab</kbd> moves between links.</li>
-  <li class="noMac"><strong>Buttons, radio buttons, check boxes, and selection
-    lists</strong>: If checked, pressing <kbd>Tab</kbd> or
-    <kbd>Shift</kbd>+<kbd>Tab</kbd> moves between buttons, radio buttons, check
-    boxes, and selection lists.</li>
+  <li class="noMac"><strong>Tab Key Navigation</strong>: Select which elements
+    should be taken into account when using the Tab key on a page:
+    <ul>
+      <li><strong>Links</strong>: If checked, pressing <kbd>Tab</kbd> or
+        <kbd>Shift</kbd>+<kbd>Tab</kbd> moves between links.</li>
+      <li><strong>Buttons, radio buttons, checkboxes, and selection
+        lists</strong>: If checked, pressing <kbd>Tab</kbd> or
+        <kbd>Shift</kbd>+<kbd>Tab</kbd> moves between buttons, radio buttons,
+        check boxes, and selection lists.</li>
+    </ul>
+  </li>
+  <li><strong>Browse With Caret</strong>: Select if and how <a
+    href="glossary.xhtml#caret_browsing">caret browsing</a> should be used:
+    <ul>
+      <li><strong>Use caret browsing</strong>: If checked, caret browsing will
+        be enabled by default when you load a web page.</li>
+      <li><strong>Use the F7 shortcut to toggle caret browsing</strong>: If
+        checked, the F7 shortcut will toggle caret browsing on or off. Otherwise
+        &brandShortName; will not use the shortcut and the below option will
+        have no effect.</li>
+      <li><strong>Warn me before turning on caret browsing</strong>: If checked,
+        &brandShortName; will issue a warning dialog if the caret browsing mode
+        is about to be entered, allowing you to choose whether to proceed or
+        not. (There is no warning when leaving caret browsing mode.)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>[<a href="#advanced_preferences">Return to beginning of section</a>]</p>
+
+<h2 id="fayt">Advanced Preferences - Find As You Type</h2>
+
+<p>This section describes how to use the Find As You Type references
+  panel. If you&apos;re not already viewing it, follow these steps:</p>
+
+<ol>
+  <li>Open the <span class="mac">&brandShortName;</span>
+    <span class="noMac">Edit</span> menu and choose Preferences.</li>
+  <li>Under the Advanced category, click Find As You Type. (If no
+    subcategories are visible, double-click Advanced to expand the list.)</li>
+</ol>
+
+<p>The Find As You Type preferences panel allows you to control how you use
+  the keyboard to search for text in web pages:</p>
+
+<ul>
   <li><strong>Find automatically when typing within a web page</strong>: If
     checked, typing text in a web page automatically activates Find As You Type
     and locates the text you typed (if it exists in the page). Choose whether
@@ -167,8 +207,14 @@
     checked, Find As You Type plays a sound when the typed text isn&apos;t
     found in the web page.</li>
   <li><strong>Clear the current search after a few seconds of
-    inactivity</strong>: If checked, cancels the search after a few seconds of
-    keyboard inactivity.</li>
+    inactivity</strong>: If checked, the search will be cancelled after a few
+    seconds of keyboard inactivity.</li>
+  <li><strong>Show the find toolbar during find as you type</strong>: If
+    checked, the find toolbar will open when Find As You Type is activated and
+    what you type will be entered into the toolbar search field. If unchecked,
+    the find toolbar will not be opened and the search string will be displayed
+    in the status bar. Note that international text entry will not work in this
+    mode.</li>
 </ul>
 
 <p>[<a href="#advanced_preferences">Return to beginning of section</a>]</p>
@@ -189,13 +235,18 @@
   and disk cache:</p>
 
 <ul>
-  <li><strong>Size</strong>: Type in the amount of disk cache you want to
-    allocate for &brandShortName;. Disk cache is saved to your hard disk
-    (drive) and can be used again even if you have turned your computer
-    off.</li>
+  <li><strong>Let &brandShortName; manage the size of my cache</strong>: Select
+    this to let &brandShortName; apply a heuristic based on the space available
+    on your hard disk in order to determine your cache size. (This is the
+    default.)</li>
+  <li><strong>Use up to [__] MB of disk space for the cache</strong>: Type in
+    the amount of disk cache you want to allocate for &brandShortName;. The disk
+    cache is saved to your hard disk (drive) and can be used again, even if you
+    have restarted your computer. (The default is 1024 MB. This preference is
+    ignored if the above checkbox is selected.)</li>
   <li><strong>Clear Cache</strong>: Click this to clear the disk cache.</li>
-  <li><strong>Cache Folder</strong>: Shows the current location of the disk
-    cache folder 
+  <li><strong>Cache Folder Location</strong>: Shows the current location of the
+    disk cache folder 
     <ul>
       <li><strong>Choose Folder</strong>: Click this to choose a folder
         location for the disk cache.</li>
@@ -218,10 +269,10 @@
     </ul>
   </li>
   <li><strong>Prefetch web pages when idle, so that links in web pages
-    designed for prefetching can load faster</strong>: Select this to decrease
-    the time it takes to load web pages when you click a link in a web page
-    that uses prefetching. For more information about Link Prefetching, see the
-    online
+    designed for prefetching can load more quickly</strong>: Select this to
+    decrease the time it takes to load web pages when you click a link in a web
+    page that uses prefetching. For more information about Link Prefetching, see
+    the online
     <a href="http://www.mozilla.org/projects/netlib/Link_Prefetching_FAQ.html">Link
     Prefetching FAQ</a>.</li>
 </ul>
@@ -349,6 +400,17 @@
           HTTP 1.1.</p></li>
     </ul>
   </li>
+  <li><strong>User Agent String</strong>:
+    The identifier sent by &brandShortName; to all websites is used for
+    statistics about website usage but also sometimes to expose certain features
+    only to known browsers (a practice known as "sniffing").
+    <ul>
+      <li><strong>Advertise Firefox compatibility</strong>: If this is enabled,
+        &brandShortName; will identify itself as both &brandShortName; and also
+        compatible with Firefox. This allows websites that check for certain
+        browsers rather than certain functionality to work with &brandShortName;.</li>
+    </ul>
+  </li>
 </ul>
 
 <p>[<a href="#advanced_preferences">Return to beginning of section</a>]</p>
@@ -386,6 +448,24 @@
         websites in the current list.</li>
     </ul>
   </li>
+  <li><strong>Add-on Manager</strong>: Using the Add-on Manager, you can view
+    and manage all your installed extensions and themes.
+    <ul>
+      <li><strong>Personalize Add-on recommendations</strong>: Select this to
+        be offered suggestions for add-ons in the &quot;Get Add-ons&quot; tab
+        of the manager:
+        <ul>
+          <li>Note that this function involves sending a list of your
+            currently installed add-ons to the add-on web site.</li>
+          <li>Disabling this option will also suppress contacting the add-on
+            site periodically for any new information about installed add-ons,
+            but won't affect automated updates.</li>
+        </ul>
+      </li>
+      <li><strong>Manage Add-ons</strong>: Click this link to open the Add-on
+        Manager in a new browser tab.</li>
+    </ul>
+  </li>
   <li><strong>Automatically check for updates to</strong>:
     <ul>
       <li><strong>&brandShortName;</strong>: Select this to be notified when
@@ -400,9 +480,6 @@
         <strong>weekly</strong> check for new versions.</li>
     </ul>
   </li>
-  <li><strong>Add-on Manager</strong>: Click this to open the
-    Add-on Manager, where you can view and manage all your installed
-    extensions and themes.</li>
   <li><strong>When updates to &brandShortName; are found</strong>:
     <ul>
       <li><strong>Ask me what I want to do</strong>: Select this to be notified
@@ -420,10 +497,11 @@
         install the update or not.</li>
     </ul>
 
-    <p><strong>Note</strong>: You can use Check for Updates from the Help menu
-      to manually initiate the search for a &brandShortName; update. The label
-      of the menu item will change when an update is being downloaded or ready
-      to be applied.</p>
+    <p><strong>Note</strong>: You can use Check for Updates from the
+      <span class="mac">&brandShortName;</span><span class="noMac">Help</span>
+      menu to manually initiate the search for a &brandShortName; update.
+      <span class="noMac">The label of the menu item will change when an update
+      is being downloaded or ready to be applied.</span></p>
   </li>
   <li><strong>Show Update History</strong>: Click this to open the Update
     History dialog box which shows a list of &brandShortName; updates that have
