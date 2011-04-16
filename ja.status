@@ -117,4 +117,5 @@ inspector               -----:------------  ----:------------   mar             
 calendar                -----:------------  7480:d2cd63699d7f   mar             sync calendar, changeset 828
 editor/ui               -----:------------  7539:2fffeac3941c   mar             sync editor/ui, changeset 831
 mail                    -----:------------  7548:e927ca37664d   mar             sync mail, changeset 832
-irc                     -----:------------  -----:-----------   mar             sync mail, changeset 834
+irc                     -----:------------  ----:------------   mar             sync mail, changeset 834
+suite                   -----:------------  7564:109f6f7db7fb   tooyama, mar    sync suite, changeset 845

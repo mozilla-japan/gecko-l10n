@@ -8,18 +8,18 @@
 -->
 <!ENTITY imageDetails                   "&brandShortName; の画像の取り扱い方法を指定する">
 
-<!ENTITY accAllImagesRadio.label        "すべての画像を表示する">
-<!ENTITY accAllImagesRadio.accesskey    "A">
-<!ENTITY accOrgImagesRadio.label        "元のサーバから送られる画像だけを表示する">
-<!ENTITY accOrgImagesRadio.accesskey    "r">
-<!ENTITY disableImages.label            "すべての画像を表示しない">
-<!ENTITY disableImages.accesskey        "n">
+<!ENTITY loadAllImagesRadio.label       "すべての画像を読み込む">
+<!ENTITY loadAllImagesRadio.accesskey   "A">
+<!ENTITY loadOrgImagesRadio.label       "元のサーバから送られる画像だけを読み込む">
+<!ENTITY loadOrgImagesRadio.accesskey   "n">
+<!ENTITY loadNoImagesRadio.label        "すべての画像を読み込まない">
+<!ENTITY loadNoImagesRadio.accesskey    "D">
 <!ENTITY viewPermissions.label          "可否設定の管理">
 <!ENTITY viewPermissions.accesskey      "P">
 <!ENTITY animLoopingTitle.label         "アニメーション画像の繰り返し">
-<!ENTITY animLoopAsSpecified.label      "画像が指定した回数まで繰り返す">
+<!ENTITY animLoopAsSpecified.label      "画像が指定した回数まで">
 <!ENTITY animLoopAsSpecified.accesskey  "m">
-<!ENTITY animLoopOnce.label             "1 回だけ繰り返す">
+<!ENTITY animLoopOnce.label             "1 回だけ">
 <!ENTITY animLoopOnce.accesskey         "O">
 <!ENTITY animLoopNever.label            "繰り返さない">
 <!ENTITY animLoopNever.accesskey        "v">
