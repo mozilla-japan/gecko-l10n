@@ -38,3 +38,5 @@
 <!ENTITY search.button.label      "検索">
 <!ENTITY search.placeholder       "検索語句を入力">
 
+<!-- Will be used by bug 595246 -->
+<!ENTITY search.engineManager.label "検索エンジンの管理...">
