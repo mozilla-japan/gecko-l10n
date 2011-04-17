@@ -11,7 +11,7 @@
 <!ENTITY button.removeallcookies.label "すべての Cookie を削除">
 <!ENTITY     button.removeallcookies.accesskey "e">
 
-<!ENTITY     search.placeholder             "Cookieを検索">
+<!ENTITY     search.placeholder             "Cookie を検索">
 <!ENTITY     focusSearch.key                "f">
 <!ENTITY     windowClose.key                "w">
 <!ENTITY     selectAll.key                  "a">
