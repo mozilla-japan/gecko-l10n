@@ -14,4 +14,4 @@
 
 <!ENTITY findAsYouTypeFindbarEnable.label "検索中は検索ツールバーを表示し続ける">
 <!ENTITY findAsYouTypeFindbarEnable.accesskey "S">
-<!ENTITY findAsYouTypeFindbarEnableTip.label "注意: 検索ツールバーを使わない場合、タイプ検索は国際的な文字の検索ができません。">
+<!ENTITY findAsYouTypeFindbarEnableTip.label "注意: 検索ツールバーを使わない場合、タイプ検索では国際的な文字入力による検索ができません。">
