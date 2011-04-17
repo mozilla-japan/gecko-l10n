@@ -65,7 +65,7 @@
 <!ENTITY tab.forget.label "データ消去">
 
 <!-- cookies -->
-<!ENTITY cookies.description "This domain has stored the following cookies on your computer:">
+<!ENTITY cookies.description "このドメインは、以下のクッキーをあなたのコンピュータに保存しました:">
 
 <!ENTITY cookies.tree.host.label "Web サイト">
 <!ENTITY cookies.tree.name.label "Cookie 名">
