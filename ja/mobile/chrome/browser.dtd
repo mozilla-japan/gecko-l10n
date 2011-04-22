@@ -30,7 +30,7 @@
 
 <!ENTITY editBookmarkDialog.title  "ブックマークを編集">
 <!ENTITY editBookmarkDone.label    "完了">
-<!ENTITY editBookmarkTags.label    "ここにタグを入力してください">
+<!ENTITY editBookmarkTags.label    "タグを入力してください"><!-- 全角12文字まで -->
 
 <!ENTITY addonsHeader.label        "アドオン">
 <!ENTITY addonsLocal.label         "インストールされているアドオン">
