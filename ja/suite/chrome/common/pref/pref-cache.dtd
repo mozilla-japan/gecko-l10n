@@ -4,7 +4,7 @@
 <!ENTITY pref.cache.title                "キャッシュ">
 <!ENTITY pref.cache.caption              "キャッシュの設定">
 <!ENTITY cachePara                       "キャッシュとは、よく見るページのコピーをディスクに記録しておく仕組みのことです。(再読み込みボタンをクリックすると、コピーを捨ててそのページのすべてのデータを読み込み直します)">
-<!ENTITY cacheCheck.label                "&brandShortName; キャッシュのサイズの管理を自動で行います。">
+<!ENTITY cacheCheck.label                "&brandShortName; のキャッシュサイズの管理を自動で行います。">
 <!ENTITY cacheCheck.accesskey            "L">
 <!ENTITY diskCacheUpTo.label             "キャッシュの許容サイズ:">
 <!ENTITY diskCacheUpTo.accesskey         "U">
