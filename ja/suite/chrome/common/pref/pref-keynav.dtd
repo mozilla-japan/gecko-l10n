@@ -10,7 +10,7 @@
 <!ENTITY browseWithCaretDesc.label "キャレットブラウズモードをオンにすると、Web ページ中を移動可能なカーソル (キャレット) が表示され、キーボードでテキストを選択できるようになります。">
 <!ENTITY browseWithCaretUse.label "キャレットブラウズを利用する">
 <!ENTITY browseWithCaretUse.accesskey "U">
-<!ENTITY browseWithCaretShortCut.label "F7 キーを押すとキャレットブラウズモードを利用できます">
+<!ENTITY browseWithCaretShortCut.label "F7 キーを押したときキャレットブラウズモードに切り替える">
 <!ENTITY browseWithCaretShortCut.accesskey "F">
 <!ENTITY browseWithCaretWarn.label "キャレットブラウズを有効にする前に警告を出す">
 <!ENTITY browseWithCaretWarn.accesskey "W">

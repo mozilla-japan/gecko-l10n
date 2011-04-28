@@ -9,7 +9,7 @@
 <!ENTITY history.label "履歴">
 <!ENTITY languages.label "言語">
 <!ENTITY applications.label "ヘルパーアプリケーション">
-<!ENTITY locationBar.label "ロケーションバー">
+<!ENTITY locationBar.label "アドレスバー">
 <!ENTITY tabWindows.label "タブブラウズ">
 <!ENTITY links.label "リンクの動作">
 <!ENTITY findAsYouType.label "タイプ検索">

@@ -19,7 +19,7 @@
 <!ENTITY alwaysAsk.accesskey            "A">
 
 <!ENTITY downloadHistory.label          "ダウンロード履歴">
-<!ENTITY removeEntries.label            "ダウンロード履歴の削除">
+<!ENTITY removeEntries.label            "次の時に削除:">
 <!ENTITY removeEntries.accesskey        "R">
 <!ENTITY whenCompleted.label            "ダウンロードが完了したとき">
 <!ENTITY whenQuittingApp.label          "&brandShortName; を閉じるとき">
