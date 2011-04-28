@@ -8,7 +8,7 @@
 <!ENTITY  prefWindow.size             "width: 70em; height: 44em;"><!--def.size"width: 52em; height: 41em;"-->
 
 <!-- pref-tabs.xul -->
-<!ENTITY urlbar.label                 "ロケーションバー で Ctrl+Enter">
+<!ENTITY urlbar.label                 "アドレスバー で Ctrl+Enter">
 <!ENTITY urlbar.accesskey             "L">
 <!ENTITY middleClick.label            "Web ページでリンクを中クリックまたは Ctrl+クリックあるいは Ctrl+Enter">
 <!ENTITY middleClick.accesskey        "M">
