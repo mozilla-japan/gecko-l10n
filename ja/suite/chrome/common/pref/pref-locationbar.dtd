@@ -30,5 +30,5 @@
 <!ENTITY unknownLocations.label                "アドレス入力"><!-- en-US: "Unknown Locations" -->
 <!ENTITY domainGuessing.label                  "Web ページが見つからないときは &quot;www.&quot; と &quot;.com&quot;を補完する">
 <!ENTITY domainGuessing.accesskey              "d">
-<!ENTITY keywords.label                        "入力されたテキストが Web アドレス (URL) でないときは Web 検索を行なう">
+<!ENTITY keywords.label                        "入力されたテキストが Web アドレス (URL) でないときは Web を検索する">
 <!ENTITY keywords.accesskey                    "P">

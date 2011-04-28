@@ -14,7 +14,7 @@
 <!ENTITY picsOnlyRadio.accesskey                "o">
 <!ENTITY textonlyRadio.label                    "文字のみ">
 <!ENTITY textonlyRadio.accesskey                "x">
-<!ENTITY showHideTooltips.label                 "ツールチップを表示">
+<!ENTITY showHideTooltips.label                 "ツールチップを表示する">
 <!ENTITY showHideTooltips.accesskey             "T">
 
 <!ENTITY pref.locales.title                     "メニューなどの表示に使用する言語">

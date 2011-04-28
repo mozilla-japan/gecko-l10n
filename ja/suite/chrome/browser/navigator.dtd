@@ -13,7 +13,7 @@
 <!ENTITY tabCmd.label "ブラウザタブ">
 <!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
-<!ENTITY openCmd.label "URLを開く...">
+<!ENTITY openCmd.label "URL を開く...">
 <!ENTITY openCmd.accesskey "l">
 <!ENTITY openCmd.commandkey "l">
 <!ENTITY openFileCmd.label "ファイルを開く...">
@@ -70,7 +70,7 @@
 <!ENTITY pageInfoCmd.commandkey "i">
 <!ENTITY fullScreenCmd.label "@@FullScreen@@">
 <!ENTITY fullScreenCmd.accesskey "f">
-<!ENTITY translateMenu.label "ページを翻訳">
+<!ENTITY translateMenu.label "ページ翻訳">
 <!ENTITY translateMenu.accesskey "T">
 
 <!ENTITY closeOtherTabs.label "他のタブを閉じる">
@@ -97,7 +97,7 @@
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findPrevCmd.commandkey2 "VK_F3">
 
-<!ENTITY searchInternetCmd.label "Webを検索">
+<!ENTITY searchInternetCmd.label "Web 検索">
 <!ENTITY searchInternetCmd.accesskey "S">
 <!ENTITY searchInternet.commandKey "s">
 
@@ -141,9 +141,9 @@
 <!ENTITY stopButton.label             "中止">
 <!ENTITY stopButton.tooltip           "ページの読み込みを中止">
 <!ENTITY searchButton.label           "検索">
-<!ENTITY searchButton.tooltip         "左の領域に単語を入力し、@@[@@検索@@]@@ をクリックしてください">
+<!ENTITY searchButton.tooltip         "アドレスバーに単語を入力し、@@[@@検索@@]@@ をクリックしてください">
 <!ENTITY goButton.label               "移動">
-<!ENTITY goButton.tooltip             "左の領域に URL を入力し、@@[@@移動@@]@@ をクリックしてください">
+<!ENTITY goButton.tooltip             "アドレスバーに URL を入力し、@@[@@移動@@]@@ をクリックしてください">
 <!ENTITY printButton.label            "@@Print@@">
 <!ENTITY printButton.tooltip          "このページを@@Print@@する">
 
@@ -166,7 +166,7 @@
 <!-- Statusbar -->
 <!ENTITY  statusText.label            "完了">
 
-<!ENTITY historyCmd.label           "履歴">  
+<!ENTITY historyCmd.label           "履歴">
 <!ENTITY historyCmd.accesskey       "i">
 <!ENTITY history.commandKey         "h">
 
@@ -176,4 +176,4 @@
 <!ENTITY bidiSwitchPageDirectionItem.accesskey    "g">
 
 <!-- LOCALIZATION NOTE (syncTabsMenu.label): This appears in the Go menu -->
-<!ENTITY syncTabsMenu.label         "その他のコンピュータのタブと同期">
+<!ENTITY syncTabsMenu.label         "他のコンピュータのタブと同期">
