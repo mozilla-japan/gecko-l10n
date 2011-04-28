@@ -100,7 +100,7 @@
 <!ENTITY  mediaTitle            "タイトル属性:">
 <!ENTITY  mediaLongdesc         "詳しい説明:">
 <!ENTITY  mediaBlockImage.accesskey "B">
-<!ENTITY  mediaSaveAs           "名前をつけて保存...">
+<!ENTITY  mediaSaveAs           "@@SaveAs@@...">
 <!ENTITY  mediaSaveAs.accesskey "A">
 <!ENTITY  mediaSaveAs2.accesskey "e">
 <!ENTITY  mediaPreview          "メディアプレビュー:">
