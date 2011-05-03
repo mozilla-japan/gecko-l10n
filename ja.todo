@@ -8,8 +8,8 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
  - (^^h   note by hATrayflood
  - (^m^)  note by mar
 
-Firefox 4 beta 4 に向けて changeset 706から720 で行われた変更には一部未訳箇所や UI 未確認箇所、用語不統一などがある。
-特に未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
+Firefox 5 メモ。
+未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
 未訳箇所あり:
   /browser/feedback/main.dtd
@@ -24,36 +24,10 @@ Firefox 4 beta 4 に向けて changeset 706から720 で行われた変更には
     addonsInstalledNeedsRestart
 
 
-SeaMonkey 2.1
 
- changeset 835 の時点で同期、push 済み
-  /chrome/branding
-  /chrome/mailnews
-  /chrome/crashreporter
-  /installer
- /extensions/irc
- /extensions/venkman
+◆Firefox 5, Thunderbird 3.3 に向けて
+SVN 側での各リポジトリへの対応について、何かあれば以下に書き残してください。
 
- 要更新リスト (◎push ○済 △更新中 ×未着手)
-○  /chrome/browser
-○  /chrome/common
-◎          common/bookmarks
-◎          common/dataman
-◎          common/downloads
-◎          common/feeds
-◎          common/help  (英語のまま)
-◎          common/places
-○          common/pref
-○          common/search
-◎          common/sidebar
-◎          common/sync
-
-
-1. まず trunk の /suite 以下を en-US と同期する。(※ /dom と /security は更新不要)
-     https://l10n-stage-sj.mozilla.org/dashboard/compare?run=127506 (Comparison for sea22x-ja)
-2. SVN に /branches/l10n-mozilla-2.0 (trunk からのコピー) が作成されたら、
-     http://hg.mozilla.org/releases/l10n-mozilla-2.0/ja/ にコミットする。
-3. Comparison for sea21x-ja を確認してダッシュボードをグリーンにする。
-
-Firefox 4, Thunderbird 3.3, SeaMonky 2.1 は mozilla-2.0, comm-central に移行された。
-SVN も適当なところで trunk から /branches/l10n-mozilla-2.0 にコピーする必要あり。(^m^)
+・当面、mozilla-aurora (=mozilla-miramar), comm-central (>comm-miramar) に同期する。
+　今のところ、それで最低限の作業は可能。 (^m^)
+・mozilla-beta 等のリリース直前の作業は未定。 (^m^)
