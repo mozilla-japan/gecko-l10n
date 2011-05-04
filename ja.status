@@ -23,6 +23,7 @@ other-licenses
   branding/sunbird      comm    Sb              
   branding/thunderbird  comm    Tb              
 security/manager        moz     all             
+services/sync           moz     Fx, Sm          Sync
 suite                   comm    Sm              Seamonkey
 toolkit
   chrome                moz     all             
