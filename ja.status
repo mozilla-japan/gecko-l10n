@@ -23,6 +23,7 @@ other-licenses
   branding/sunbird      comm    Sb              
   branding/thunderbird  comm    Tb              
 security/manager        moz     all             
+services/sync           moz     Fx, Sm          Sync
 suite                   comm    Sm              Seamonkey
 toolkit
   chrome                moz     all             
@@ -119,6 +120,7 @@ editor/ui               -----:------------  7539:2fffeac3941c   mar             
 mail                    -----:------------  7548:e927ca37664d   mar             sync mail, changeset 832
 irc                     -----:------------  ----:------------   mar             sync mail, changeset 834
 suite                   -----:------------  7564:109f6f7db7fb   tooyama, mar    sync suite, changeset 845
+services/sync           67760:5fb27adf75a9  ----:------------   mar             sync services/sync, chengeset 866
 
 
 
