@@ -1,3 +1,8 @@
+<!ENTITY tracking.label			"トラッキング">
+
+<!ENTITY doNotTrack.label		"トラッキングの拒否を Web サイトに通知する">
+<!ENTITY doNotTrack.accesskey		"d">
+
 <!ENTITY  history.label			"履歴">
 
 <!ENTITY  locationBar.label		"ロケーションバー">

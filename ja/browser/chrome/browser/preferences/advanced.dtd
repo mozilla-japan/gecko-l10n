@@ -21,8 +21,6 @@
 <!ENTITY allowHWAccel.accesskey			"h">
 <!ENTITY checkSpelling.label			"自動スペルチェック機能を使用する">
 <!ENTITY checkSpelling.accesskey		"t">
-<!ENTITY doNotTrack.label			"トラッキングの拒否を Web サイトに通知する">
-<!ENTITY doNotTrack.accesskey			"d">
 
 <!ENTITY systemDefaults.label			"@@DefaultBrowser@@">
 <!ENTITY alwaysCheckDefault.label		"起動時に &brandShortName; が@@DefaultBrowser@@であるか確認する"><!--XXX-->
