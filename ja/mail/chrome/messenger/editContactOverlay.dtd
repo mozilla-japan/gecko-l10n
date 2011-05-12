@@ -15,3 +15,5 @@
 
 <!ENTITY editContactPanelDone.label			"完了">
 <!ENTITY editContactPanelDone.accesskey			"D">
+
+<!ENTITY contactMoveDisabledWarning.description		"この連絡先はメーリングリストに含まれているため、別のアドレス帳へ移動することができません。">

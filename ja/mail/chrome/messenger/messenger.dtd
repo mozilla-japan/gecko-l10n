@@ -39,7 +39,6 @@
 <!ENTITY saveAsFileCmd.key			"s">
 <!ENTITY saveAsTemplateCmd.label		"テンプレート">
 <!ENTITY saveAsTemplateCmd.accesskey		"T">
-<!ENTITY getNewMsgCmd.key			"t">
 <!ENTITY getNewMsgForCmd.label			"新着メッセージを受信">
 <!ENTITY getNewMsgForCmd.accesskey		"w">
 <!ENTITY getAllNewMsgCmdPopupMenu.label		"すべてのアカウント">
@@ -520,7 +519,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY getMsgButton.tooltip		"メッセージを受信します">
 <!ENTITY getAllNewMsgCmd.label		"新着メッセージをすべて受信">
 <!ENTITY getAllNewMsgCmd.accesskey	"G">
-<!ENTITY getAllNewMsgCmd.key		"t">
 <!ENTITY newMsgButton.tooltip		"@@New-CMD@@メッセージを作成します">
 <!ENTITY replyButton.tooltip		"メッセージに返信します">
 <!ENTITY replyAllButton.tooltip		"送受信者全員に返信します">
@@ -757,12 +755,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Phishing Bar -->
 <!ENTITY phishingBarMessage2.label	"このメッセージは詐欺メールの可能性があります。">
 <!ENTITY removePhishingBarButton1.label	"警告を無視する">
+<!ENTITY disablePhishingWarning1.label	"すべてのメッセージについて詐欺メールの検出を無効にします">
 <!ENTITY reportPhishingError1.label	"このメッセージは詐欺メールではなさそうです。">
 
 <!-- MDN Bar -->
-<!ENTITY mdnBarMessage.label		"送信者はこのメッセージの開封確認を送付するように求めています。送信者に開封確認を送付してもよろしいですか？">
-<!ENTITY mdnBarIgnoreButton.label	"無視する">
-<!ENTITY mdnBarSendButton.label		"開封確認を送付する">
+<!ENTITY mdnBarIgnoreButton2.label	"無視">
+<!ENTITY mdnBarIgnoreButton2.accesskey	"I">
+<!ENTITY mdnBarSendButton2.label	"開封確認を送付">
+<!ENTITY mdnBarSendButton2.accesskey	"S">
 
 <!-- Quick Search Bar -->
 <!-- LOCALIZATION NOTE (quickSearchCmd.key):

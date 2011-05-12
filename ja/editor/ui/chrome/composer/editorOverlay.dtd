@@ -52,9 +52,6 @@
 <!-- File menu items -->
 <!ENTITY fileMenu.label "ファイル">
 <!ENTITY fileMenu.accesskey "F">
-<!ENTITY newBlankPageCmd.label "ページを作成">
-<!ENTITY newBlankPageCmd.accesskey "P" >
-<!ENTITY newMenu.label "新規作成">
 <!ENTITY openFileCmd.label "ファイルを開く...">
 <!ENTITY openFileCmd.accesskey "O">
 <!ENTITY openFileCmd.key "O">
@@ -76,14 +73,8 @@
 <!ENTITY publishCmd.key "S">
 <!ENTITY publishAsCmd.label "設定して出版...">
 <!ENTITY publishAsCmd.accesskey "h">
-<!ENTITY exportToTextCmd.label "テキストで@@Export@@...">
-<!ENTITY exportToTextCmd.accesskey "T">
 <!ENTITY saveAsChangeEncodingCmd.label "文字エンコーディングを変更して保存">
 <!ENTITY saveAsChangeEncodingCmd.accesskey "E">
-<!ENTITY previewCmd.label "ページをブラウズ">
-<!ENTITY previewCmd.accesskey "w">
-<!ENTITY sendPageCmd.label "ページを送信...">
-<!ENTITY sendPageCmd.accesskey "d">
 <!ENTITY printSetupCmd.label "ページ設定...">
 <!ENTITY printSetupCmd.accesskey "u">
 <!ENTITY printCmd.label "@@Print@@...">
@@ -406,13 +397,12 @@
 <!-- Toolbar-only items -->
 <!ENTITY menuBar.tooltip "メニューバー">
 <!ENTITY formatToolbar.tooltip "書式ツールバー">
+<!ENTITY newToolbarCmd.label "新規作成">
 <!ENTITY newToolbarCmd.tooltip "新しい Composer ページを作成します">
 <!ENTITY openToolbarCmd.label "開く">
 <!ENTITY openToolbarCmd.tooltip "ファイルを開く">
 <!ENTITY saveToolbarCmd.tooltip "ローカル URL にファイルを保存します">
 <!ENTITY publishToolbarCmd.tooltip "リモート URL にファイルをアップロードします">
-<!ENTITY previewToolbarCmd.label "@@Browse@@">
-<!ENTITY previewToolbarCmd.tooltip "このページをブラウザで読み込みます">
 <!ENTITY printToolbarCmd.label "@@Print@@">
 <!ENTITY printToolbarCmd.tooltip "ページを@@Print@@します">
 <!ENTITY findToolbarCmd.label "検索">

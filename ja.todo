@@ -15,9 +15,6 @@ Firefox 5 メモ。
   /browser/feedback/main.dtd
   /browser/feedback/main.properties
 
-  /mail/chrome/messenger/aboutSupportMail.properties
-    訳すかどうか検討する
-
 要検討箇所あり:
   /browser/chrome/browser/browser.properties
     addonsInstalled
@@ -28,6 +25,6 @@ Firefox 5 メモ。
 ◆Firefox 5, Thunderbird 3.3 に向けて
 SVN 側での各リポジトリへの対応について、何かあれば以下に書き残してください。
 
-・当面、mozilla-aurora (=mozilla-miramar), comm-central (>comm-miramar) に同期する。
+・当面、mozilla-aurora (=mozilla-miramar), comm-miramar (<comm-central) に同期する。
 　今のところ、それで最低限の作業は可能。 (^m^)
 ・mozilla-beta 等のリリース直前の作業は未定。 (^m^)

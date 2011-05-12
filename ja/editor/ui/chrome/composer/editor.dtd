@@ -44,10 +44,18 @@
 
 <!-- Toolbar-only items -->
 <!ENTITY compositionToolbar.tooltip	"一般ツールバー"><!-- Composition Toolbar -->
+<!ENTITY previewToolbarCmd.label	"@@Browse@@">
+<!ENTITY previewToolbarCmd.tooltip	"このページをブラウザで読み込みます">
+
+<!-- File menu items -->
+<!ENTITY exportToTextCmd.label		"テキストに@@Export@@...">
+<!ENTITY exportToTextCmd.accesskey	"T">
+<!ENTITY previewCmd.label		"ページをブラウズ">
+<!ENTITY previewCmd.accesskey		"w">
+<!ENTITY sendPageCmd.label		"ページを送信...">
+<!ENTITY sendPageCmd.accesskey		"d">
 
 <!-- View menu items -->
-<!ENTITY viewMenu.label			"表示">
-<!ENTITY viewMenu.accesskey		"V">
 <!ENTITY compositionToolbarCmd.label	"編集ツールバー">
 <!ENTITY compositionToolbarCmd.accesskey	"C">
 <!ENTITY formattingToolbarCmd.label	"書式ツールバー">

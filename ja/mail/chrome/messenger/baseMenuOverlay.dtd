@@ -23,6 +23,5 @@
 <!ENTITY openHelpMac2.commandkey		"?">
 <!ENTITY openHelpMac2.modifiers			"accel">
 
-<!ENTITY updateCmd.label			"更新を確認...">
 <!ENTITY aboutMenuCmd.label			"&brandShortName; について">
 <!ENTITY aboutMenuCmd.accesskey			"A">
