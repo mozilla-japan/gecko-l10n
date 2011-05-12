@@ -121,13 +121,14 @@ mail                    -----:------------  7548:e927ca37664d   mar             
 irc                     -----:------------  ----:------------   mar             sync mail, changeset 834
 suite                   -----:------------  7564:109f6f7db7fb   tooyama, mar    sync suite, changeset 845
 services/sync           67760:5fb27adf75a9  ----:------------   mar             sync services/sync, chengeset 866
-browser                 68093:22c6a5499fd3  ----:------------   hATrayflood     sync browser, changeset 873
-
+security                68069:f69cb6bf0f51  ----:------------   mar             sync security, changeset 864
+editor/ui, mail         -----:------------  7756:22fe617c4cbd   mar             sync editor/ui and mail, changeset 875
 
 
 [TEMPORALY] For "aurora" & "miramar" branches.
 
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
-dom, security           68069:f69cb6bf0f51  ----:------------   mar             sync dom, security, changeset 864
-
+dom                     68069:f69cb6bf0f51  ----:------------   mar             sync dom, changeset 864
+browser                 68093:22c6a5499fd3  ----:------------   hATrayflood     sync browser, changeset 873
+editor/ui, mail         -----:------------  7756:22fe617c4cbd   mar             sync editor/ui and mail, changeset 875

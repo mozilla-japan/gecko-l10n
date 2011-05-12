@@ -134,6 +134,8 @@
 <!ENTITY detachAttachmentMenuItem.accesskey	"d">
 <!ENTITY deleteAttachmentMenuItem.label		"削除">
 <!ENTITY deleteAttachmentMenuItem.accesskey	"e">
+<!ENTITY openAllAttachmentsMenuItem.label	"すべて開く...">
+<!ENTITY openAllAttachmentsMenuItem.accesskey	"o">
 <!ENTITY saveAllAttachmentsMenuItem.label	"すべて保存...">
 <!ENTITY saveAllAttachmentsMenuItem.accesskey	"s">
 <!ENTITY detachAllAttachmentsMenuItem.label	"すべて分離...">
