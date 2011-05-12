@@ -79,3 +79,5 @@
      to a new update channel and starts the application update process. -->
 <!ENTITY channel.selector.applyButton	"適用して更新">
 <!ENTITY channel.selector.cancelButton	"キャンセル">
+
+<!ENTITY cmdCloseMac.commandKey		"w">
