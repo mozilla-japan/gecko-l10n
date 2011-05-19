@@ -95,6 +95,7 @@
 <!ENTITY contextSaveImage.label       "画像を保存">
 <!ENTITY contextShareLink.label       "リンクを共有">
 <!ENTITY contextShareImage.label      "画像を保存">
+<!ENTITY contextBookmarkLink.label    "リンクをブックマーク">
 <!ENTITY contextSaveVideo.label       "ビデオを保存">
 <!ENTITY contextShareVideo.label      "ビデオを共有">
 <!ENTITY contextPlayMedia.label       "再生">

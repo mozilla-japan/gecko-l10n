@@ -8,6 +8,7 @@
 <!ENTITY enablePlugins.title                       "プラグインを有効化">
 <!ENTITY privacy.title                             "プライバシーとセキュリティ">
 <!ENTITY allowCookies.title                        "Cookie を使用する">
+<!ENTITY doNotTrack.title                          "追跡拒否をサイトに通知"><!-- Max11文字 -->
 <!ENTITY clearPrivateData2.title                   "ユーザデータを消去"><!-- 何もかも消してしまうので「プライベートデータ」など限定っぽい表現は不適 -->
 <!ENTITY clearPrivateData.button                   "消去">
 <!ENTITY rememberPasswords.title                   "パスワードを保存する">
