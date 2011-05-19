@@ -166,3 +166,6 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
+
+<!ENTITY remoteXUL.title "リモート XUL">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>この問題を Web サイトの管理者に報告してください。</li></ul></p>">
