@@ -40,9 +40,6 @@
 <!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.commandkey "p">
 
-<!ENTITY viewMenu.label "表示">
-<!ENTITY viewMenu.accesskey "v">
-
 <!ENTITY toolbarsCmd.label "表示/非表示">
 <!ENTITY toolbarsCmd.accesskey "w">
 <!ENTITY navbarCmd.label "ナビゲーションツールバー">

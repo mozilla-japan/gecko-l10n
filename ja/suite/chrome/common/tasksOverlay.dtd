@@ -39,9 +39,9 @@
 <!ENTITY downloadManagerCmd.accesskey "D">
 <!ENTITY downloadManagerCmd.commandkey "j">
 
-<!ENTITY addonsManagerCmd.label "アドオンマネージャ">
-<!ENTITY addonsManagerCmd.accesskey "A">
-<!ENTITY addonsManagerCmd.commandkey "a">
+<!ENTITY addOnsManagerCmd.label "アドオンマネージャ">
+<!ENTITY addOnsManagerCmd.accesskey "A">
+<!ENTITY addOnsManagerCmd.commandkey "a">
 
 <!ENTITY switchProfileCmd.label "プロファイルの切り換え...">
 <!ENTITY switchProfileCmd.accesskey "h">

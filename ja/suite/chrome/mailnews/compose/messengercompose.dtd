@@ -145,25 +145,15 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "辞書に追加">
 <!ENTITY spellCheckAddToDictionary.accesskey "n">
-<!ENTITY undo.label "@@Undo@@">
-<!ENTITY undo.accesskey "U">
-<!ENTITY cut.label "@@Cut@@">
-<!ENTITY cut.accesskey "t">
-<!ENTITY copy.label "コピー">
-<!ENTITY copy.accesskey "C">
-<!ENTITY paste.label "@@Paste@@">
-<!ENTITY paste.accesskey "P">
 <!ENTITY pasteQuote.label "引用文として@@Paste@@">
 <!ENTITY pasteQuote.accesskey "Q">
 
 <!ENTITY openAttachment.label "開く">
 <!ENTITY openAttachment.accesskey "O">
-<!ENTITY delete.label "削除">
-<!ENTITY delete.accesskey "D">
 <!ENTITY renameAttachment.label "名前変更...">
 <!ENTITY renameAttachment.accesskey "R">
-<!ENTITY selectAll.label "@@SelectAll@@">
-<!ENTITY selectAll.accesskey "A">
+<!ENTITY deleteAttachment.accesskey "D">
+<!ENTITY selectAllAttachments.accesskey "A">
 <!ENTITY attachFile.label "ファイルを添付...">
 <!ENTITY attachFile.accesskey "F">
 <!ENTITY attachPage.label "Web ページを添付...">
