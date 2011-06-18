@@ -84,7 +84,6 @@
 <!ENTITY replyWithTemplate.label     "テンプレートを使用して返信する">
 <!ENTITY markMessageRead.label       "メッセージを既読にする">
 <!ENTITY markMessageStarred.label    "メッセージにフラグを付ける">
-<!ENTITY labelMessage.label          "メッセージにラベルを付ける"><!--Label Message As-->
 <!ENTITY setPriority.label           "重要度を設定する">
 <!ENTITY addTag.label                "メッセージにタグを付ける">
 <!ENTITY setJunkScore.label          "迷惑メールかどうか設定する">

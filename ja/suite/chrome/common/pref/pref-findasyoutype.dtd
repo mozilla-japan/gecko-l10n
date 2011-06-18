@@ -5,7 +5,7 @@
 <!ENTITY findAsYouTypeTimeout.accesskey "C">
 <!ENTITY findAsYouTypeSound.label "見つからなかったときは音を鳴らす">
 <!ENTITY findAsYouTypeSound.accesskey "P">
-<!ENTITY findAsYouTypeEnableAuto.label "入力した文字と同じ部分をページから自動的に探す機能です:">
+<!ENTITY findAsYouTypeEnableAuto.label "入力した文字と同じ部分をページから自動的に探す:">
 <!ENTITY findAsYouTypeEnableAuto.accesskey "F">
 <!ENTITY findAsYouTypeAutoText.label "ページ中のすべての文字">
 <!ENTITY findAsYouTypeAutoText.accesskey "A">

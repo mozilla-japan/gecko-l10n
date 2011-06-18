@@ -16,21 +16,20 @@
 <!ENTITY hideOtherAppsCmd.key           "H">
 <!ENTITY hideOtherAppsCmd.modifiers     "accel,alt">
 <!ENTITY showAllAppsCmd.label           "すべてを表示">
-<!ENTITY quitApplicationCmd.label       "&brandShortName; を終了"> 
+<!ENTITY quitApplicationCmd.label       "&brandShortName; を終了">
 <!ENTITY quitApplicationCmd.key         "Q">
 <!ENTITY quitApplicationCmd.modifiers   "accel">
 <!-- End of Application menu -->
 
-<!ENTITY closeCmd.label                 "閉じる">  
-<!ENTITY closeCmd.key                   "W">  
+<!ENTITY closeCmd.label                 "閉じる">
+<!ENTITY closeCmd.key                   "W">
 
 <!ENTITY printSetupCmd.label            "ページ設定...">
 <!ENTITY printSetupCmd.accesskey        "u">
 
-<!ENTITY redoCmd.label                  "@@Redo@@">  
-<!ENTITY redoCmd.key                    "Z">  
+<!ENTITY redoCmd.key                    "Z">
 
-<!ENTITY historyCmd.key                 "H">  
+<!ENTITY historyCmd.key                 "H">
 
 <!ENTITY findTypeTextCmd.key            "">
 <!ENTITY findTypeLinksCmd.key           "">
