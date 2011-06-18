@@ -132,9 +132,11 @@ dom                     68069:f69cb6bf0f51  ----:------------   mar             
 browser                 68093:22c6a5499fd3  ----:------------   hATrayflood     sync browser, changeset 873
 editor/ui, mail         -----:------------  7756:22fe617c4cbd   mar             sync editor/ui and mail, changeset 875
 mobile                  68132:2af5250cb07f  ----:------------   dynamis         sync mobile, changeset 881
+suite                   -----:------------  7809:54a07d87ea36   mar             sync suite for SeaMonkey 2.2 (comm-beta)
 
 
 [l10n-mozilla-6.0] (for aurora)
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, network            70301:7764401216de  ----:------------   mar             hg.mozja repository
+suite                   -----:------------  7809:5af4d0099eaa   mar             same with comm-beta

@@ -1,17 +1,15 @@
 <!-- unix -->
 <!-- LOCALIZATION NOTE : FILE Do not translate all the Cmd.key and accesskey --> 
 
-<!ENTITY closeCmd.label                 "閉じる">  
-<!ENTITY closeCmd.key                   "W">  
+<!ENTITY closeCmd.label                 "閉じる">
+<!ENTITY closeCmd.key                   "W">
 <!ENTITY closeCmd.accesskey             "c">
 
-<!ENTITY quitApplicationCmd.label       "終了"> 
-<!ENTITY quitApplicationCmd.key         "Q"> 
+<!ENTITY quitApplicationCmd.label       "終了">
+<!ENTITY quitApplicationCmd.key         "Q">
 <!ENTITY quitApplicationCmd.accesskey   "q">
 
-<!ENTITY redoCmd.label                  "@@Redo@@">  
-<!ENTITY redoCmd.key                    "Y">  
-<!ENTITY redoCmd.accesskey              "r">
+<!ENTITY redoCmd.key                    "Y">
 
 <!ENTITY findTypeTextCmd.key            "/">
 <!ENTITY findTypeLinksCmd.key           "'">
