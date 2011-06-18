@@ -139,4 +139,4 @@ suite                   -----:------------  7809:54a07d87ea36   mar             
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, network            70301:7764401216de  ----:------------   mar             hg.mozja repository
-suite                   -----:------------  7809:5af4d0099eaa   mar             same with comm-beta
+suite                   -----:------------  7839:5af4d0099eaa   mar             same with comm-beta rev7809
