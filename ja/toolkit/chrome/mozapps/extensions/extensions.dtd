@@ -23,14 +23,13 @@
 <!ENTITY warning.updatesecurity.enable.label		"有効化">
 <!ENTITY warning.updatesecurity.enable.tooltip		"アドオンの更新のセキュリティ確認を有効化します">
 
+<!-- global informations -->
+<!ENTITY info.plugincheck.label			"プラグインが最新バージョンであるか確認する">
+<!ENTITY info.plugincheck.tooltip		"インストールされた有効なプラグインが最新バージョンであるか確認します">
+
 <!-- categories / views -->
 <!ENTITY view.search.label			"検索">
 <!ENTITY view.discover.label			"アドオン入手">
-<!ENTITY view.locales.label			"言語パック">
-<!ENTITY view.searchengines.label		"検索エンジン">
-<!ENTITY view.features.label			"拡張機能">
-<!ENTITY view.appearance2.label			"テーマ">
-<!ENTITY view.plugins.label			"プラグイン">
 <!ENTITY view.recentUpdates.label		"最近の更新">
 <!ENTITY view.availableUpdates.label		"更新可能">
 
