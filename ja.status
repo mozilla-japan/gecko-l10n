@@ -118,7 +118,7 @@ inspector               -----:------------  ----:------------   mar             
 calendar                -----:------------  7480:d2cd63699d7f   mar             sync calendar, changeset 828
 editor/ui               -----:------------  7539:2fffeac3941c   mar             sync editor/ui, changeset 831
 mail                    -----:------------  7548:e927ca37664d   mar             sync mail, changeset 832
-irc                     -----:------------  ----:------------   mar             sync mail, changeset 834
+irc                     -----:------------  ----:------------   mar             sync irc, changeset 834
 suite                   -----:------------  7564:109f6f7db7fb   tooyama, mar    sync suite, changeset 845
 services/sync           67760:5fb27adf75a9  ----:------------   mar             sync services/sync, chengeset 866
 security                68069:f69cb6bf0f51  ----:------------   mar             sync security, changeset 864
@@ -133,6 +133,7 @@ browser                 68093:22c6a5499fd3  ----:------------   hATrayflood     
 editor/ui, mail         -----:------------  7756:22fe617c4cbd   mar             sync editor/ui and mail, changeset 875
 mobile                  68132:2af5250cb07f  ----:------------   dynamis         sync mobile, changeset 881
 suite                   -----:------------  7809:54a07d87ea36   mar             sync suite for SeaMonkey 2.2 (comm-beta)
+irc                     -----:------------  ----:------------   mar             sync irc, for chatzilla 0.9.87
 
 
 [l10n-mozilla-6.0] (for aurora)
@@ -140,3 +141,4 @@ target dir              mozilla and comm hg changeset rev:id    by              
 --------------------------------------------------------------------------------------------------------------
 dom, network            70301:7764401216de  ----:------------   mar             hg.mozja repository
 suite                   -----:------------  7839:5af4d0099eaa   mar             same with comm-beta rev7809
+irc                     -----:------------  ----:------------   mar             sync irc, for chatzilla 0.9.87
