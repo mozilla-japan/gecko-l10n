@@ -20,9 +20,13 @@
 <!ENTITY pluginWizard.finalPage.moreInfo.label			"プラグインについてさらに調べたり、手動でプラグインを導入したりする">
 <!ENTITY pluginWizard.finalPage.restart.label			"プラグインを有効にするには &brandShortName; を再起動する必要があります。">
 
-<!ENTITY missingPlugin.label					"ここをクリックするとプラグインをダウンロードします。">
-<!ENTITY disabledPlugin.label					"このコンテンツのためのプラグインは無効化されています。設定を変更するにはここをクリックしてください。">
+<!ENTITY missingPlugin						"このコンテンツを表示するにはプラグインが必要です。">
+<!ENTITY disabledPlugin						"このプラグインは無効化されています。">
 <!ENTITY blockedPlugin.label					"このプラグインは安全のためにブロックされました。">
+
+<!ENTITY installPlugin						"プラグインをインストール...">
+<!ENTITY managePlugins						"プラグインを管理...">
+
 <!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (reloadPlugin.middle): avoid leading/trailing spaces, this text is a link -->
 <!-- LOCALIZATION NOTE (reloadPlugin.post): include a starting space as needed -->

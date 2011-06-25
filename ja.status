@@ -142,3 +142,4 @@ target dir              mozilla and comm hg changeset rev:id    by              
 dom, network            70301:7764401216de  ----:------------   mar             hg.mozja repository
 suite                   -----:------------  7839:5af4d0099eaa   mar             same with comm-beta rev7809
 irc                     -----:------------  ----:------------   mar             sync irc, for chatzilla 0.9.87
+toolkit                 70336:f69cd8f15cdf  7868:554478ca6204   mar             sync toolkit
