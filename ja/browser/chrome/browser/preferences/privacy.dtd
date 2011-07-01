@@ -15,6 +15,7 @@
 <!ENTITY  locbar.bookmarks.label	"ブックマークのみ">
 <!ENTITY  locbar.nothing.label		"候補を表示しない">
 
+
 <!ENTITY  acceptCookies.label		"サイトから送られてきた Cookie を保存する">
 <!ENTITY  acceptCookies.accesskey	"A">
 
@@ -60,7 +61,7 @@
 <!ENTITY  dontrememberActions.clearHistory.label	"現在の履歴をすべて消去">
 <!ENTITY  dontrememberActions.post.label		" できます。">
 
-<!ENTITY  privateBrowsingPermanent.label		"自動的にプライベートブラウジングモードで &brandShortName; を起動する">
+<!ENTITY  privateBrowsingPermanent.label		"常にプライベートブラウジングモード">
 <!ENTITY  privateBrowsingPermanent.accesskey		"P">
 
 <!ENTITY  rememberHistory.label			"表示したページの履歴を残す">
