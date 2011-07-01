@@ -6,12 +6,9 @@
 <!ENTITY organize.accesskey			"O">
 <!ENTITY organize.tooltip			"履歴とブックマークを管理します">
 
-<!ENTITY file.accesskey				"F">
 <!ENTITY file.close.label			"@@CloseCMD@@">
 <!ENTITY file.close.accesskey			"C">
 <!ENTITY cmd.close.key				"w">
-<!ENTITY edit.label				"編集">
-<!ENTITY edit.accesskey				"E">
 <!ENTITY views.label				"表示">
 <!ENTITY views.accesskey			"V">
 <!ENTITY views.tooltip				"履歴とブックマークの表示を変更します">
@@ -76,8 +73,6 @@
 
 <!ENTITY cmd.reloadLivebookmark.label		"ライブブックマークを再読み込み">
 <!ENTITY cmd.reloadLivebookmark.accesskey	"R">
-<!ENTITY cmd.reloadMicrosummary.label		"ライブタイトルを再読み込み">
-<!ENTITY cmd.reloadMicrosummary.accesskey	"R">
 
 <!ENTITY cmd.moveBookmarks.label		"移動...">
 <!ENTITY cmd.moveBookmarks.accesskey		"M">
@@ -94,8 +89,8 @@
 
 <!ENTITY search.label				"検索:">
 <!ENTITY search.accesskey			"S">
-<!ENTITY search.in.label			"検索対象:">
 
+<!ENTITY search.in.label			"検索対象:">
 <!ENTITY search.scopeFolder.label		"選択されているフォルダ">
 <!ENTITY search.scopeFolder.accesskey		"r">
 <!ENTITY search.scopeBookmarks.label		"ブックマーク">
@@ -113,17 +108,14 @@
 <!ENTITY maintenance.accesskey			"I">
 <!ENTITY maintenance.tooltip			"ブックマークの@@ImportNoun@@とバックアップができます">
 
-<!ENTITY backCmd.label				"戻る">
 <!ENTITY backButton.tooltip			"フォルダ表示履歴を前に戻ります">
 
-<!ENTITY forwardCmd.label			"進む">
 <!ENTITY forwardButton.tooltip			"フォルダ表示履歴を次に進みます">
 
 <!ENTITY detailsPane.more.label			"詳細を表示">
 <!ENTITY detailsPane.more.accesskey		"e">
 <!ENTITY detailsPane.less.label			"詳細を隠す">
 <!ENTITY detailsPane.less.accesskey		"e">
-<!ENTITY detailsPane.noPreviewAvailable.label	"プレビュー">
 <!ENTITY detailsPane.selectAnItemText.description "各項目を選択すると、名前や詳細情報の表示や編集ができます">
 
 <!ENTITY find.label				"検索:">
