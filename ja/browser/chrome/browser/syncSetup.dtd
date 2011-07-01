@@ -43,7 +43,7 @@
 <!ENTITY setup.newSyncKeyPage.description.label "あなたのプライバシーを守るため、すべてのデータはアップロード前に暗号化されます。データを復号する際に必要となるキーはアップロードされません。">
 <!ENTITY syncKeyEntry.label        "Sync キー">
 <!ENTITY syncKeyEntry.accesskey    "K">
-<!ENTITY syncKeyGenerate.label     "生成">
+<!ENTITY syncGenerateNewKey.label  "新規 Sync キーを生成">
 <!ENTITY syncKeyBackup.description "Sync キーは、他のパソコンから &syncBrand.fullName.label; へアクセスする際に必要となります。メモとして残しておくことをお勧めします。Sync キーを失くすと取り戻すことはできません。">
 
 <!ENTITY button.syncKeyBackup.print.label     "@@Print@@...">

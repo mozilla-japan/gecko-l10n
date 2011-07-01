@@ -14,7 +14,7 @@
 <!ENTITY manageAccount.accesskey      "A">
 <!ENTITY viewQuota.label              "サーバ使用量を表示">
 <!ENTITY changePassword.label         "パスワードを変更">
-<!ENTITY mySyncKey.label              "自分の Sync キー">
+<!ENTITY mySyncKey.label              "Sync キーを表示">
 <!ENTITY resetSync.label              "Sync をリセット">
 <!ENTITY addDevice.label              "デバイスを追加">
 

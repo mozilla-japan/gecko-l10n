@@ -6,7 +6,6 @@
 <!ENTITY editBookmarkOverlay.feedLocation.accesskey		"F">
 <!ENTITY editBookmarkOverlay.siteLocation.label			"サイトの URL:">
 <!ENTITY editBookmarkOverlay.siteLocation.accesskey		"S">
-<!ENTITY editBookmarkOverlay.liveTitlesSeparator.label		"ライブタイトル">
 <!ENTITY editBookmarkOverlay.folder.label			"フォルダ:">
 <!ENTITY editBookmarkOverlay.foldersExpanderDown.tooltip	"すべてのブックマークフォルダを表示します">
 <!ENTITY editBookmarkOverlay.expanderUp.tooltip			"一覧を閉じます"><!-- (^^; フォルダとタグで共用 -->
