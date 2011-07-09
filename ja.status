@@ -125,7 +125,7 @@ security                68069:f69cb6bf0f51  ----:------------   mar             
 editor/ui, mail         -----:------------  7756:22fe617c4cbd   mar             sync editor/ui and mail, changeset 875
 
 
-[l10n-mozilla-5.0] (for "beta" & "miramar" branches)
+Released! [l10n-mozilla-5.0] (for "release" & "miramar")
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                     68069:f69cb6bf0f51  ----:------------   mar             sync dom, changeset 864
@@ -136,7 +136,7 @@ suite                   -----:------------  7809:54a07d87ea36   mar             
 irc                     -----:------------  ----:------------   mar             sync irc, for chatzilla 0.9.87
 
 
-[l10n-mozilla-6.0] (for aurora)
+[l10n-mozilla-6.0] (for beta)
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, network            70301:7764401216de  ----:------------   mar             hg.mozja repository
@@ -146,3 +146,9 @@ toolkit                 70336:f69cd8f15cdf  7868:554478ca6204   mar             
 mail                    -----:------------  7872:01ee10211fe3   mar             sync mail
 browser                 70372:4afee8a13b96  ----:------------   hATrayflood     sync browser
 mobile                  70372:4afee8a13b96  ----:------------   dynamis         sync mobile
+
+
+[l10n-mozilla-7.0] (for aurora)
+target dir              mozilla and comm hg changeset rev:id    by              comment
+--------------------------------------------------------------------------------------------------------------
+dom                     72659:8f58f46715a2  ----:------------   mar             sync dom
