@@ -152,3 +152,4 @@ mobile                  70372:4afee8a13b96  ----:------------   dynamis         
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                     72659:8f58f46715a2  ----:------------   mar             sync dom
+toolkit                 72670:335addb86778  8130:a555dac15d90   mar             sync toolkit
