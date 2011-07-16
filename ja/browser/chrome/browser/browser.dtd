@@ -57,8 +57,6 @@ can reach it easily. -->
 <!ENTITY printCmd.label			"@@Print@@...">
 <!ENTITY printCmd.accesskey		"P">
 <!ENTITY printCmd.commandkey		"p">
-<!ENTITY import.label			"設定とデータ@@-ImportCMD@@...">
-<!ENTITY import.accesskey		"I">
 
 <!ENTITY goOfflineCmd.label		"オフライン作業">
 <!ENTITY goOfflineCmd.accesskey		"w">
@@ -212,19 +210,6 @@ can reach it easily. -->
 <!ENTITY inspectPanelTitle.label	"HTML">
 <!ENTITY inspectButton.label		"調査">
 <!ENTITY inspectButton.accesskey	"I">
-<!ENTITY inspectNextButton.label	"次へ">
-<!ENTITY inspectNextButton.accesskey	"N">
-<!ENTITY inspectPreviousButton.label	"戻る">
-<!ENTITY inspectPreviousButton.accesskey	"P">
-<!ENTITY inspectStyleButton.label	"スタイルシート">
-<!ENTITY inspectStyleButton.accesskey	"S">
-<!ENTITY inspectStylePanelTitle.label	"スタイルシート">
-<!-- LOCALIZATION NOTE (inspectDOMButton.label): This button label
-  -  stands for Document Object Model and appears on the inspector's toolbar.
-  -  It is used to open and closed the DOM panel. There is also a DOM label in
-  -  inspector.properties for the panel titlebar. -->
-<!ENTITY inspectObjectButton.label	"オブジェクト">
-<!ENTITY inspectObjectButton.accesskey	"O">
 
 <!ENTITY getMoreDevtoolsCmd.label	"その他のツール">
 <!ENTITY getMoreDevtoolsCmd.accesskey	"M">
