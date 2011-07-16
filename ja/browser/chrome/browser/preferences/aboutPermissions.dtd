@@ -22,9 +22,9 @@
 <!ENTITY password.manage		"保存されているパスワード...">
 
 <!ENTITY cookie.label			"Cookie データの保存">
-<!ENTITY cookie.clear			"Cookie を削除">
+<!ENTITY cookie.remove			"Cookie を削除">
 <!ENTITY cookie.manage			"Cookie を表示...">
-<!ENTITY cookie.clearAll		"すべての Cookie を削除">
+<!ENTITY cookie.removeAll		"すべての Cookie を削除">
 
 <!ENTITY geo.label			"位置情報の送信">
 

@@ -29,6 +29,8 @@
 <!ENTITY checkNow.accesskey			"N">
 <!ENTITY submitCrashes.label			"クラッシュレポートを送信する">
 <!ENTITY submitCrashes.accesskey		"S">
+<!ENTITY submitTelemetry.label			"パフォーマンス情報を送信する">
+<!ENTITY submitTelemetry.accesskey		"P">
 
 <!ENTITY networkTab.label			"ネットワーク">
 
@@ -41,10 +43,10 @@
 <!ENTITY offlineStorage.label			"オフラインデータ"><!-- (^^; キャッシュとオフライン作業用データ -->
 
 <!-- LOCALIZATION NOTE:
-  The entities useCacheBefore.label and useCacheAfter.label appear on a single
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
 
-  &useCacheBefore.label  [ textbox for cache size in MB ]   &useCacheAfter.label;
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
 <!ENTITY limitCacheSizeBefore.label		"ページキャッシュとして ">
 <!ENTITY limitCacheSizeBefore.accesskey		"L">

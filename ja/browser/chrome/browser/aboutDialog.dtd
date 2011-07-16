@@ -60,21 +60,3 @@
      example: You are currently on the _Stable_ update channel. -->
 <!ENTITY channel.description.start	"現在のアップデートチャンネルは ">
 <!ENTITY channel.description.end	" です。 ">
-
-<!ENTITY channel.change			"変更する">
-
-<!ENTITY channel.release.description	"十分なテストを経て公開され、世界中の何億人ものユーザが使う最終リリース版です。最高のスピードと容易なカスタマイズ、先進の Web 技術を体験できます。">
-<!ENTITY channel.beta.description	"最先端の機能を体験できる、比較的安定したバージョンです。洗練された最終リリース版に仕上げるため、フィードバックの送信にご協力ください。">
-<!ENTITY channel.aurora.description	"最新の革新技術を体験できますが、不安定であり、万人向けではありません。リリース版に含める機能を決めるため、機能やパフォーマンスについてフィードバックの送信にご協力ください。">
-
-<!-- LOCALIZATION NOTE (channel.selector.start,channel.selector.end): channel.selector.start and
-     channel.selector.end create one sentence, with a channel selection menulist instered in between.
-     This is all in one line, so try to make the localized text short.
-     example: Switch to the [Stable] update channel. -->
-<!ENTITY channel.selector.start		"更新チャンネルを">
-<!ENTITY channel.selector.end		"に切り替える。">
-
-<!-- LOCALIZATION NOTE (channel.selector.applyButton): This button applies the user's choice to switch
-     to a new update channel and starts the application update process. -->
-<!ENTITY channel.selector.applyButton	"適用して更新">
-<!ENTITY channel.selector.cancelButton	"キャンセル">
