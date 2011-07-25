@@ -154,3 +154,4 @@ target dir              mozilla and comm hg changeset rev:id    by              
 dom                     72659:8f58f46715a2  ----:------------   mar             sync dom
 toolkit                 72670:335addb86778  8130:a555dac15d90   mar             sync toolkit
 browser, services/sync  72682:4d2a4e9e9730  ----:------------   hATrayflood     sync browser, services/sync
+mail                    -----:------------  8144:22a4e7168d11   mar             sync mail
