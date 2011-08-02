@@ -106,6 +106,7 @@
 <!ENTITY pageactions.saveas.pdf      "PDF として保存">
 <!ENTITY pageactions.share.page      "ページを共有">
 <!ENTITY pageactions.password.forget "パスワードを消去">
+<!ENTITY pageactions.quit            "終了">
 <!ENTITY pageactions.reset           "サイトの設定を消去">
 <!ENTITY pageactions.findInPage      "ページ中を検索">
 <!ENTITY pageactions.search.addNew   "検索エンジンを追加">
