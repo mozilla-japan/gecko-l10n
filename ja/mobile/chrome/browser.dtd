@@ -69,13 +69,13 @@
 <!ENTITY bookmarkEdit.label        "編集">
 
 <!ENTITY identity.unverifiedsite2 "この Web サイトは認証されていません">
-<!ENTITY identity.connectedTo2 "この Web サイトは認証されています">
+<!ENTITY identity.connectedTo2 "接続中のサイト:"><!-- SSLありの場合は画面幅制限要注意 -->
 <!-- Localization note (identity.runBy2)
  The layout of the identity dialog prevents combining this into a single string with
  substitution variables.  If it is difficult to translate the sense of the string
  with that structure, consider a translation which ignores the preceding domain and
  just addresses the organization to follow, e.g. "This site is run by " -->
-<!ENTITY identity.runBy2 "このサイトの運営者:">
+<!ENTITY identity.runBy2 "サイトの運営者:"><!-- 画面幅制限要注意 -->
 
 <!ENTITY consoleHeader.label       "エラーコンソール">
 <!ENTITY consoleAll.label          "すべて">
@@ -90,10 +90,10 @@
 <!ENTITY consoleErrColumn.label    "列:">
 
 <!ENTITY contextOpenInNewTab.label    "リンクを@@NewTab@@で開く">
-<!ENTITY contextSaveLink.label        "リンクを保存">
+<!ENTITY contextSaveLink.label        "リンク先を保存">
 <!ENTITY contextSaveImage.label       "画像を保存">
 <!ENTITY contextShareLink.label       "リンクを共有">
-<!ENTITY contextShareImage.label      "画像を保存">
+<!ENTITY contextShareImage.label      "画像を共有">
 <!ENTITY contextBookmarkLink.label    "リンクをブックマーク">
 <!ENTITY contextSaveVideo.label       "ビデオを保存">
 <!ENTITY contextShareVideo.label      "ビデオを共有">
@@ -108,7 +108,7 @@
 <!ENTITY pageactions.password.forget "パスワードを消去">
 <!ENTITY pageactions.quit            "終了">
 <!ENTITY pageactions.reset           "サイトの設定を消去">
-<!ENTITY pageactions.findInPage      "ページ中を検索">
+<!ENTITY pageactions.findInPage      "ページ内検索"><!-- 「ページ中を検索」は画面サイズとフォントによっては切れる -->
 <!ENTITY pageactions.search.addNew   "検索エンジンを追加">
 <!ENTITY pageactions.charEncoding    "文字コード"><!-- 設定画面に「文字エンコーディング」では長すぎて使えないところがある -->
 
