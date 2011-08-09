@@ -24,9 +24,9 @@
 <!ENTITY col.actionStop.label            "キャンセル/削除">
 <!ENTITY col.actionStop.accesskey        "C">
 <!ENTITY col.actionStop.tooltip          "ダウンロードのキャンセル/リストから削除">
-<!ENTITY col.progress.label              "進捗状況">
+<!ENTITY col.progress.label              "進行状況">
 <!ENTITY col.progress.accesskey          "P">
-<!ENTITY col.progress.tooltip            "ダウンロードの進捗状況">
+<!ENTITY col.progress.tooltip            "ダウンロードの進行状況">
 <!ENTITY col.timeremaining.label         "残り時間">
 <!ENTITY col.timeremaining.accesskey     "L">
 <!ENTITY col.timeremaining.tooltip       "ダウンロードの残り時間">
@@ -47,7 +47,7 @@
 <!ENTITY col.endtime.tooltip             "ダウンロードの予想終了時刻">
 <!ENTITY col.progresstext.label          "&#37;">
 <!ENTITY col.progresstext.accesskey      "&#37;">
-<!ENTITY col.progresstext.tooltip        "進捗状況 (&#37;)">
+<!ENTITY col.progresstext.tooltip        "進行状況 (&#37;)">
 <!ENTITY col.source.label                "URL">
 <!ENTITY col.source.accesskey            "o">
 <!ENTITY col.source.tooltip              "ダウンロード元の URL">
@@ -59,9 +59,9 @@
 
 <!ENTITY view.unsorted.label             "並べ替えない">
 <!ENTITY view.unsorted.accesskey         "U">
-<!ENTITY view.sortAscending.label        "昇順 (A → Z)">
+<!ENTITY view.sortAscending.label        "昇順 (A &#x2192; Z)"><!-- A → Z -->
 <!ENTITY view.sortAscending.accesskey    "A">
-<!ENTITY view.sortDescending.label       "降順 (Z → A)">
+<!ENTITY view.sortDescending.label       "降順 (Z &#x2192; A)"><!-- A → Z -->
 <!ENTITY view.sortDescending.accesskey   "Z">
 
 <!ENTITY cmd.pause.label                 "中断">
