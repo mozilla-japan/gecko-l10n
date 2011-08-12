@@ -33,7 +33,7 @@
 <!ENTITY editBookmarkTags.label    "タグを入力してください"><!-- 全角12文字まで -->
 
 <!ENTITY addonsHeader.label        "アドオン">
-<!ENTITY addonsLocal.label         "インストールされているアドオン">
+<!ENTITY addonsLocal.label         "インストールしているアドオン">
 <!ENTITY addonsUpdate.label        "更新">
 <!ENTITY addonsRepo.label          "アドオンを入手">
 <!ENTITY addonsRecommended.label   "おすすめ">
@@ -41,7 +41,7 @@
 <!ENTITY addonsSearch2.emptytext   "アドオンを検索">
 <!ENTITY addonsSearch.recommended  "おすすめ">
 
-<!ENTITY addonOptions.label        "オプション">
+<!ENTITY addonOptions.label        "設定">
 <!ENTITY addonEnable.label         "有効化">
 <!ENTITY addonDisable.label        "無効化">
 <!ENTITY addonInstall2.label       "&brandShortName; に追加">
