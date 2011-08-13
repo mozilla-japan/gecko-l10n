@@ -6,6 +6,7 @@
 <!ENTITY chooseFile.accesskey "C">
 <!ENTITY newWindow.label "新しいブラウザで開く">
 <!ENTITY newTab.label "新しいブラウザのタブで開く">
+<!ENTITY currentTab.label "現在のブラウザのタブ">
 <!ENTITY topWindow.label "現在のブラウザで開く">
 <!ENTITY editNewWindow.label "新しい Composerで編集する">
 <!ENTITY open.label "開く">
