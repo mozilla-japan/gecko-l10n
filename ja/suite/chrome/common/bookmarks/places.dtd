@@ -67,8 +67,6 @@
 
 <!ENTITY cmd.reloadLivebookmark.label      "ライブブックマークを再読み込み">
 <!ENTITY cmd.reloadLivebookmark.accesskey  "R">
-<!ENTITY cmd.reloadMicrosummary.label      "ライブタイトルを再読み込み">
-<!ENTITY cmd.reloadMicrosummary.accesskey  "R">
 
 <!ENTITY cmd.moveBookmarks.label                  "移動...">
 <!ENTITY cmd.moveBookmarks.accesskey              "M">
