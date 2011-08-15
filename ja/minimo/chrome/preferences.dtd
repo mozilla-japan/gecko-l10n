@@ -1,0 +1,69 @@
+
+
+<!ENTITY advanced.label			"詳細">
+<!ENTITY privacy.label			"プライバシー">
+<!ENTITY proxy.label			"プロキシ">
+<!ENTITY general.label			"一般">
+<!ENTITY okayButton.label		"保存">
+<!ENTITY cancelButton.label		"キャンセル">
+
+
+<!-- Toolbar -->
+
+<!ENTITY closeWindow			"C">
+
+<!-- Privacy pane -->
+
+<!ENTITY sanitizeButton.label		"すべて消去"><!-- en-US: Sanitize All -->
+<!ENTITY sanitizeBookmarks.label	"すべてのブックマークを削除">
+
+<!-- ConnectionsDialogPane -->
+
+<!ENTITY networkCaption.label		"ネットワーク">
+<!ENTITY proxyCaption.label		"HTTP プロキシの設定">
+<!ENTITY useproxyCheckbox.label		"プロキシを使用する">
+<!ENTITY proxyPortCaption.label		"ポート">
+<!ENTITY proxyURL.label			"URL">
+
+<!ENTITY downloadMediaCaption.label	"@@Default-@@ダウンロード先">
+<!ENTITY useDownloadDir.label		"ダウンロードフォルダを使用する">
+<!ENTITY dontAskForLaunch.label		"常にメモリカードにダウンロードする">
+<!ENTITY setSaveDirectory.label		"保存先ディレクトリを設定する">
+
+<!-- Home pane -->
+
+<!ENTITY homeCaption.label		"ホームページ">
+<!ENTITY loadHomePageCurrent.label	"現在のページを使用">
+<!ENTITY loadHomePageBlank.label	"空白ページを使用">
+
+<!-- System Integration -->
+
+<!ENTITY systemCaption.label		"システム統合">
+<!ENTITY setDefaultBrowser.label	"Minimo を@@DefaultBrowser@@に設定する">
+
+<!ENTITY fullScreenEnabled.label	"@@FullScreen@@を有効にする">
+<!ENTITY homebarEnabled.label		"ホームバーを表示する">
+
+<!-- Small Screen Settings -->
+
+<!ENTITY sssCaption.label		"小型画面での表示">
+<!ENTITY imagesCheckbox.label		"画像を表示する">
+<!-- (^^; SSR は Small Screen Rendering だけど分かりにくいし、Opera の商標 -->
+<!ENTITY useSSRCheckbox.label		"小型画面用レイアウトを使用する">
+<!ENTITY usesiteSSRCheckbox.label	"サイト専用の小型画面用レイアウトを使用する"><!-- (^^; @media handheld のことか？ -->
+
+<!-- Advanced Settings -->
+
+<!ENTITY miscCaption.label		"その他">
+<!ENTITY useSWKeyboard.label		"ソフトウェアキーボードを使用する">
+<!ENTITY dumpJSConsole.label		"終了時に JavaScript コンソールログを出力する">
+<!ENTITY useDiskCache.label		"ディスクキャッシュを使用する">
+<!ENTITY useDiskCacheNone.label		"ディスクキャッシュを使用しない">
+<!ENTITY downloadPrompt.label		"ファイルの場所を確認する">
+<!ENTITY enablePreFetching.label	"先読みを有効にする">
+<!ENTITY cacheSettings.label		"ディスクキャッシュ">
+<!ENTITY cacheSize.label		"キャッシュサイズ (KB)">
+
+<!-- Summary Pane -->
+
+<!ENTITY summaryCaption.label		"変更点の要約">

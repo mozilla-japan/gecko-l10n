@@ -1,0 +1,41 @@
+en-US との同期が途中である場合は残りの差分をこのファイルに保存してください
+ディレクトリ単位で綺麗に作業が完了している場合には不要です
+その他単純な差分以外でやり残しについてのメモもこのファイルにどうぞ
+
+未訳箇所や重要な要確認事項はコメント中に以下の文字列を含む:
+ - (^^;   note by dynamis and others
+ - (^a^)  note by a
+ - (^^h   note by hATrayflood
+ - (^m^)  note by mar
+
+Firefox 5 メモ。
+未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
+
+未訳箇所あり:
+  
+
+要検討箇所あり:
+  Pluralform 濫用によるもの
+    https://bugzilla.mozilla.org/show_bug.cgi?id=658191
+    /browser/chrome/browser/browser.properties
+      addonsInstalled
+      addonsInstalledNeedsRestart
+
+
+◆Firefox 5, Thunderbird 3.3 に向けて
+SVN 側での各リポジトリへの対応について、何かあれば以下に書き残してください。
+
+・当面、mozilla-aurora (=mozilla-miramar), comm-miramar (<comm-central) に同期する。
+　今のところ、それで最低限の作業は可能。 (^m^)
+・mozilla-beta 等のリリース直前の作業は未定。 (^m^)
+----- START (^^;
+beta だけ変更が必要な事などはあると思うので aurora->beta 切り替え時に毎回ブランチ切るのが良いかと思います。ブランチ名は mozilla-beta にしたくなりますが、それだと次のバージョンの時にまた別のブランチに移動させることになり面倒なので、(mobile-5.0 などに倣って) l10n-mozilla-5.0 などにしてしまう感じで
+
+mozilla-central -> 当面のところ対応予定無し
+mozilla-aurora  -> ja では trunk
+mozilla-beta    -> branches/l10n-mozilla-5.0
+                   branches/l10n-mozilla-6.0
+                     ...
+mozilla-2.0     -> branches/l10n-mozilla-2.0
+----- END (^^;
+

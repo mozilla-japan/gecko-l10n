@@ -1,0 +1,22 @@
+<!ENTITY sync.title                 "同期">
+<!ENTITY sync.notconnected          "接続されていません">
+<!ENTITY sync.connect               "接続">
+<!ENTITY sync.connected             "接続されています">
+<!ENTITY sync.details               "詳細">
+<!ENTITY sync.synchronize           "同期を有効化">
+<!ENTITY sync.deviceName            "このデバイス">
+<!ENTITY sync.disconnect            "切断">
+<!ENTITY sync.syncNow               "今すぐ同期">
+
+<!ENTITY sync.setup.title           "接続して同期">
+<!ENTITY sync.setup.jpake           "Firefox Sync を設定しているコンピュータで、同期設定画面を開き「デバイスを追加」を選択してください。">
+<!ENTITY sync.fallback              "コンピュータの近くにいない...">
+<!ENTITY sync.setup.manual          "Sync アカウントの情報を入力してください">
+<!ENTITY sync.account               "アカウント名">
+<!ENTITY sync.password              "パスワード">
+<!ENTITY sync.syncKey               "同期キー">
+<!ENTITY sync.customServer          "独自のサーバを使用する">
+<!ENTITY sync.serverURL             "サーバ URL">
+<!ENTITY sync.setup.connect         "接続">
+<!ENTITY sync.setup.cancel          "キャンセル">
+<!ENTITY sync.setup.tutorial        "説明を表示">

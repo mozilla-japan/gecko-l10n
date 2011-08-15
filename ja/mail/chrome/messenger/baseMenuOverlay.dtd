@@ -1,0 +1,27 @@
+<!-- Help Menu -->
+<!ENTITY helpMenu.label				"ヘルプ">
+<!ENTITY helpMenu.accesskey			"H">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label			"ヘルプ">
+<!ENTITY helpMenuWin.accesskey			"H">
+<!ENTITY helpTroubleshootingInfo.label		"トラブルシューティング情報">
+<!ENTITY helpTroubleshootingInfo.accesskey	"T">
+<!ENTITY helpSafeMode.label			"アドオンを無効にして再起動...">
+<!ENTITY helpSafeMode.accesskey			"R">
+<!ENTITY releaseCmd2.label			"リリースノート">
+<!ENTITY releaseCmd2.accesskey			"N">
+<!ENTITY whatsNewCmd.label			"新着情報">
+<!ENTITY whatsNewCmd.accesskey			"W">
+<!-- (^^; featureConfigurator.dtd の featureConfigurator.title と合わせる -->
+<!ENTITY featureConfiguratorCmd.label		"設定変更ガイド"><!-- en-US: "Migration Assistant" -->
+<!ENTITY featureConfiguratorCmd.accesskey	"M">
+<!ENTITY openHelp.label				"&brandShortName; ヘルプ">
+<!ENTITY openHelp.accesskey			"H">
+<!ENTITY openHelp.commandkey			"VK_F1">
+<!ENTITY openHelpMac.label			"&brandShortName; ヘルプ">
+<!ENTITY openHelpMac2.commandkey		"?">
+<!ENTITY openHelpMac2.modifiers			"accel">
+
+<!ENTITY aboutMenuCmd.label			"&brandShortName; について">
+<!ENTITY aboutMenuCmd.accesskey			"A">

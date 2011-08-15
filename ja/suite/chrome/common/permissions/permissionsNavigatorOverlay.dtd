@@ -1,0 +1,42 @@
+<!-- the following is for the task menu overlay -->
+
+<!ENTITY cookieMessageTitle.label "Cookie 取捨設定の変更">
+<!ENTITY cookieDisplayCookiesCmd.label "保存した Cookie の管理">
+<!ENTITY cookieDisplayCookiesCmd.accesskey "M">
+<!ENTITY cookieAllowCookiesCmd.label "このサイトからの Cookie を受け入れる">
+<!ENTITY cookieAllowCookiesCmd.accesskey "A">
+<!ENTITY cookieAllowCookiesMsg.label "このサイトからの Cookie は常に受け入れます。">
+<!ENTITY cookieAllowSessionCookiesCmd.label "このサイトからのセッション Cookie を受け入れる">
+<!ENTITY cookieAllowSessionCookiesCmd.accesskey "S">
+<!ENTITY cookieAllowSessionCookiesMsg.label "このサイトからの Cookie は現在のセッションのみ有効です。">
+<!ENTITY cookieCookiesDefaultCmd.label "@@Default@@の Cookie の取捨設定を使用する">
+<!ENTITY cookieCookiesDefaultCmd.accesskey "U">
+<!ENTITY cookieCookiesDefaultMsg.label "このサイトからの Cookie は@@Default-@@設定に基づいて受け入れ、または捨てられます。">
+<!ENTITY cookieBlockCookiesCmd.label "このサイトからの Cookie を拒否する">
+<!ENTITY cookieBlockCookiesCmd.accesskey "B">
+<!ENTITY cookieBlockCookiesMsg.label "このサイトからの Cookie は常に拒否します。">
+
+<!ENTITY cookieImageMessageTitle.label "画像表示の可否設定の変更">
+<!ENTITY cookieDisplayImagesCmd.label "画像表示の可否設定の管理">
+<!ENTITY cookieDisplayImagesCmd.accesskey "M">
+<!ENTITY cookieAllowImagesCmd.label "このサイトの画像を表示する">
+<!ENTITY cookieAllowImagesCmd.accesskey "A">
+<!ENTITY cookieAllowImagesMsg.label "このサイトの画像は常に表示します。">
+<!ENTITY cookieImagesDefaultCmd.label "@@Default@@の画像表示の可否設定を使用する">
+<!ENTITY cookieImagesDefaultCmd.accesskey "U">
+<!ENTITY cookieImagesDefaultMsg.label "このサイトの画像は、@@Default-@@設定に基づいて表示、または無効化されます。">
+<!ENTITY cookieBlockImagesCmd.label "このサイトの画像を表示しない">
+<!ENTITY cookieBlockImagesCmd.accesskey "B">
+<!ENTITY cookieBlockImagesMsg.label "このサイトの画像は一切表示しません。">
+
+<!ENTITY cookieAllowPopupsCmd.label "このサイトのポップアップ表示を許可する">
+<!ENTITY cookieAllowPopupsCmd.accesskey "A">
+<!ENTITY cookieManagePopups.label "ポップアップの管理">
+<!ENTITY cookieManagePopups.accesskey "M">
+
+<!ENTITY cookieCookieManager.label "Cookie マネージャ">
+<!ENTITY cookieCookieManager.accesskey "c">
+<!ENTITY cookieImageManager.label "画像マネージャ">
+<!ENTITY cookieImageManager.accesskey "i">
+<!ENTITY cookiePopupManager.label "ポップアップマネージャ">
+<!ENTITY cookiePopupManager.accesskey "o">

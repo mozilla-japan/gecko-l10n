@@ -1,0 +1,159 @@
+        言語リソースのディレクトリ構造
+
+英語リポジトリのディレクトリとの対応関係については build.aux.xml の処理を参照
+言語パック中のディレクトリとの対応関係については build.langpack.xml の処理を参照
+
+dirname                 Repo    App             補足
+--------------------------------------------------------------------------------
+browser                 moz     Fx              Firefox
+calendar                comm    Sb              Sunbird/Lightning
+dom                     moz     all             
+editor/ui               comm    Tb, Sm          メール編集画面
+extensions
+  inspector             dom-i   Fx, Sm          DOM Inspector
+  irc                   moz     Sm              IRC Client Chatzilla
+  spellcheck            moz     Fx, Tb, Sm      日本語のスペルチェックは無し
+  venkman               moz     Sm              JavaScript Debugger Venkman
+mail                    comm    Tb              Thunderbird
+minimo                  ---     ---             Minimo (過去の遺物)
+mobile                  mobile  Fe              Mobile Firefox (Fennec)
+netwerk                 moz     all             ネットワーク
+other-licenses
+  branding/firefox      moz     Fx              
+  branding/sunbird      comm    Sb              
+  branding/thunderbird  comm    Tb              
+security/manager        moz     all             
+services/sync           moz     Fx, Sm          Sync
+suite                   comm    Sm              Seamonkey
+toolkit
+  chrome                moz     all             
+  crashreporter         moz     Fx, Sm          クラッシュレポータ
+
+
+
+        SVN 導入以降の en-US との同期履歴
+
+英語版と同期した際には対象リビジョンを末尾の行に追記していってください
+ディレクトリ単位ですっきり同期していない場合その旨コメントを書いてください
+同期対象を mozilla-central と mozilla-X.X.x で切り替えする時はどこからか明記する
+同様に comm-central と comm-X.X.x との切り替え時にも区別できるように記録する
+リビジョン番号は hg.mozilla.org のリポジトリにおける番号を確認して記録するのが望ましい
+面倒なら取りあえず changesetid が正確でありさえすれば確認できるので問題はない
+
+target dir              mozilla and comm hg changeset rev:id    by              comment
+----------------------------------------------------------------------------------------------------
+all Fx                  20100:cf9d1780600f  ????:????????????   a
+all Fx                  21386:bd37f61d0b0b  1030:020882e3433b   dynamis
+editor/ui               21566:5dfdad637696  1136:641c14ca5210   mar
+mail                    21749:f88dbbaa6364  1135:9b7fe8e84e72   dynamis         部分的
+mail                    21566:5dfdad637696  1136:641c14ca5210   mar             残り
+all comm                ?????:????????????  1210:a23ff27acc06   a
+toolkit                 22135:4379539c6c7a  1258:5b0a3aaaf950   mar             mozilla-1.9.1 に切り替え
+all Fx                  22773:48ff3611f277  1600:ce533e4625e8   dynamis
+all Tb(mail, editor/ui) 22939:700a7c1a4caa  1731:cdefa5f6cd12   mar
+all Tb(mail)            23094:780ac66c8d2d  1816:a62cac409cf7   mar
+all Tb(mail)            23138:e171fe293271  1856:709d6c67890b   mar
+mail                    23192:273d40213afb  1869:0340ed233627   mar
+mail                    23242:32c6710ef316  1922:829c02e26bd9   mar             Tb3b2 string freeze?
+mail                    23780:6b7dfd9a9c4b  2221:4a8ddefbf08e   mar
+all Fx                  24214:b467060a5be9  2333:a8efffb40b43   dynamis         sync with Fx3.5b4
+mail                    24896:aa493c1be6e0  2416:1e4907fbaed7   mar
+mail                    25074:55fddd2e1b17  2527:e3728d17c619   mar             changeset 277
+mail, toolkit           25458:53f838c7c18b  2651:6786ebf24275   mar             changeset 307
+all Fx                  25468:0b3ba1d05309  ????:????????????   a               sync with Fx3.5RC1, changeset 308
+all                                                             dynamis         create branch for l10n-central
+all Fx                  28805:30aa3539cedc  2718:2457fbd6cc1f   dynamis         diff of mozilla-1.9.1 and mozilla-central
+dom, editor/ui, toolkit -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 650
+extensions              -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 652
+calendar, mail, toolkit -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 655
+calendar, mail          -----:------------  ----:------------   mar             merge from 1.9.2, chengeset 686
+dom, netwerk            46391:e52ab4f1e8d5  5907:8b1b4701dbab   mar             sync dom and netwerk, chengeset 687
+security                47845:3040b1aebdfa  5972:8b0bbac0f237   mar             sync security, chengeset 689
+dom, security           47917:6b58d2615145  ----:------------   mar             sync security, chengeset 692, 693
+toolkit (partial)       47956:b816a2d20ac7  5979:ee1f364c20a5   mar             sync toolkit/global*, ./passwordmgr, chengeset 694
+suite                   -----:------------  ----:------------   mar             merge from 1.9.1, chengeset 696
+irc, venkman            -----:------------  ----:------------   mar             sync extensions, chengeset 698
+toolkit                 48929:597d4d94e56c  6081:2d3ab7e88814   mar             sync toolkit, chengeset 700
+mail                    -----:------------  6151:8412fc6cd192   mar             sync mail, changeset 704
+browser                 -----:------------  ----:------------   dynamis         merge from 1.9.2 changeset 705
+browser                 50644:db5153579167  6169:e3372ae4c8a8   hATrayflood...  partial sync browser by hATrayflood, akioka, kato, ksakai, mactkg, nakajima, shibata
+services/sync           -----:------------  ----:------------   mar             copy from /branches/weave/ja/services
+toolkit                 52278:84fdf8e52709  6337:e4fba053742f   mar             sync toolkit, chengeset 730
+dom, security           53657:484bd866905e  ----:------------   mar             sync dom and security, chengeset 731
+toolkit                 53897:713b60f14ff8  6371:eb620e91a171   mar             sync toolkit, chengeset 732
+mail                    -----:------------  6373:bcc0a391a42b   mar             sync mail, changeset 734
+dom, security           54660:6272ce1da6f5  ----:------------   mar             sync dom and security, chengeset 735
+extensions              54660:6272ce1da6f5  ----:------------   mar             remove extensions/reporter, chengeset 736
+toolkit                 54660:6272ce1da6f5  6437:d9d42538b019   mar             sync toolkit, chengeset 737
+services/sync           54899:bb18e81ea0f8  ----:------------   mar             sync services/sync, chengeset 738
+toolkit                 54941:13b0effff79d  6496:6d5edabbcbe8   mar             sync toolkit, chengeset 739
+browser                 54942:dee1e01fd8ed  ----:------------   hATrayflood     sync browser, chengeset 740
+toolkit                 55347:56403a9ae8b6  6544:3fb3186c8172   mar             sync toolkit, chengeset 749
+toolkit                 56394:ec6b12294371  6576:dfde00c9b4fc   mar             sync toolkit, chengeset 753
+venkman                 -----:------------  ----:------------   mar             sync venkman, chengeset 756
+mail                    -----:------------  6598:d657b735d2bb   mar             sync mail, changeset 757
+calendar                -----:------------  6624:26435a548ad9   mar             sync calendar, changeset 758
+suite                   -----:------------  6624:26435a548ad9   mar             sync suite (部分的), changeset 759
+browser, security       56829:2a4571a9ef2a  6632:55086537a691   hATrayflood     sync browser, pippki/certManager.dtd, chengeset 764
+toolkit                 56838:ec7521865660  6636:b71a8499c3ec   mar             sync toolkit, chengeset 766
+browser, toolkit        57935:b89d1824a762  6726:c785aae4b1d1   hATrayflood     sync browser, toolkit, chengeset 770
+browser                 58617:1f2beffd84ff  ----:------------   hATrayflood     sync browser, chengeset 774
+browser                 59153:8fba5ba58911  ----:------------   hATrayflood     sync browser, chengeset 775
+toolkit                 59154:210237f7d626  6821:b952a88135d7   mar             sync toolkit, chengeset 776
+inspector               -----:------------  ----:------------   mar             sync inspector, chengeset 778
+mail                    -----:------------  6897:600b8c098a82   mar             sync mail, changeset 781
+suite                   -----:------------  6897:600b8c098a82   mar             sync suite (部分的), changeset 783
+toolkit                 60070:9be0e81cb86e  6913:590ed57dd254   mar             sync toolkit, chengeset 784
+browser                 60257:df3c1150dd7a  ----:------------   hATrayflood     sync browser, chengeset 785
+browser                 60694:b27366868c80  ----:------------   hATrayflood     sync browser, chengeset 787
+browser                 60909:05e7db79b2aa  ----:------------   hATrayflood     sync browser, chengeset 788
+calendar                -----:------------  6999:c02a54dd69d0   mar             sync calendar, changeset 790
+toolkit                 61533:a84260b56b08  7031:0f313f7b192e   mar             sync toolkit, chengeset 791
+browser                 61535:332b2da9de82  ----:------------   hATrayflood     sync browser, chengeset 792
+browser                 61727:296a46e08491  ----:------------   hATrayflood     sync browser, chengeset 793
+browser                 61961:6176d7a437b5  ----:------------   hATrayflood     sync browser, chengeset 794
+browser                 62096:42c5b5d520cc  ----:------------   hATrayflood     sync browser, chengeset 795
+mail                    -----:------------  7167:cb713ede0c5c   mar             sync mail, changeset 808
+inspector               -----:------------  ----:------------   mar             sync inspector, chengeset 812
+calendar                -----:------------  7480:d2cd63699d7f   mar             sync calendar, changeset 828
+editor/ui               -----:------------  7539:2fffeac3941c   mar             sync editor/ui, changeset 831
+mail                    -----:------------  7548:e927ca37664d   mar             sync mail, changeset 832
+irc                     -----:------------  ----:------------   mar             sync irc, changeset 834
+suite                   -----:------------  7564:109f6f7db7fb   tooyama, mar    sync suite, changeset 845
+services/sync           67760:5fb27adf75a9  ----:------------   mar             sync services/sync, chengeset 866
+security                68069:f69cb6bf0f51  ----:------------   mar             sync security, changeset 864
+editor/ui, mail         -----:------------  7756:22fe617c4cbd   mar             sync editor/ui and mail, changeset 875
+
+
+Released! [l10n-mozilla-5.0] (for "release" & "miramar")
+target dir              mozilla and comm hg changeset rev:id    by              comment
+--------------------------------------------------------------------------------------------------------------
+dom                     68069:f69cb6bf0f51  ----:------------   mar             sync dom, changeset 864
+browser                 68093:22c6a5499fd3  ----:------------   hATrayflood     sync browser, changeset 873
+editor/ui, mail         -----:------------  7756:22fe617c4cbd   mar             sync editor/ui and mail, changeset 875
+mobile                  68132:2af5250cb07f  ----:------------   dynamis         sync mobile, changeset 881
+suite                   -----:------------  7809:54a07d87ea36   mar             sync suite for SeaMonkey 2.2 (comm-beta)
+irc                     -----:------------  ----:------------   mar             sync irc, for chatzilla 0.9.87
+
+
+[l10n-mozilla-6.0] (for beta)
+target dir              mozilla and comm hg changeset rev:id    by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, network            70301:7764401216de  ----:------------   mar             hg.mozja repository
+suite                   -----:------------  7839:5af4d0099eaa   mar             same with comm-beta rev7809
+irc                     -----:------------  ----:------------   mar             sync irc, for chatzilla 0.9.87
+toolkit                 70336:f69cd8f15cdf  7868:554478ca6204   mar             sync toolkit
+mail                    -----:------------  7872:01ee10211fe3   mar             sync mail
+browser                 70372:4afee8a13b96  ----:------------   hATrayflood     sync browser
+mobile                  70372:4afee8a13b96  ----:------------   dynamis         sync mobile
+
+
+[l10n-mozilla-7.0] (for aurora)
+target dir              mozilla and comm hg changeset rev:id    by              comment
+--------------------------------------------------------------------------------------------------------------
+dom                     72659:8f58f46715a2  ----:------------   mar             sync dom
+toolkit                 72670:335addb86778  8130:a555dac15d90   mar             sync toolkit
+browser, services/sync  72682:4d2a4e9e9730  ----:------------   hATrayflood     sync browser, services/sync
+mail                    -----:------------  8144:22a4e7168d11   mar             sync mail
+embedding,mobile        72731:e0521aa0fec0  ----:------------   knagato         sync embedding, mobile
+suite                   -----:------------  8210:271501c7d9a2   tooyama, mar    sync suite

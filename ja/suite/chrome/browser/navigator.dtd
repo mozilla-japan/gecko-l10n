@@ -1,0 +1,176 @@
+<!-- extracted from content/navigator.xul -->
+
+<!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items --> 
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
+
+<!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE --> 
+<!ENTITY mainWindow.title "&brandShortName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE --> 
+<!ENTITY mainWindow.titlemodifier "&brandShortName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifiermenuseparator " - ">
+
+<!ENTITY tabCmd.label "ブラウザタブ">
+<!ENTITY tabCmd.accesskey "T">
+<!ENTITY tabCmd.commandkey "t">
+<!ENTITY openCmd.label "URL を開く...">
+<!ENTITY openCmd.accesskey "l">
+<!ENTITY openCmd.commandkey "l">
+<!ENTITY openFileCmd.label "ファイルを開く...">
+<!ENTITY openFileCmd.accesskey "o">
+<!ENTITY openFileCmd.commandkey "o">
+<!ENTITY recentTabs.label "最近閉じたタブ">
+<!ENTITY recentTabs.accesskey "R">
+<!ENTITY recentTabs.commandkey "t">
+<!ENTITY recentWindows.label "最近閉じた@@Window@@">
+<!ENTITY recentWindows.accesskey "y">
+<!ENTITY recentWindows.commandkey "y">
+<!ENTITY editPageCmd.label "ページを編集">
+<!ENTITY editPageCmd.accesskey "E">
+<!ENTITY editPageCmd.commandkey "e">
+
+<!ENTITY uploadFile.label "ファイルをアップロード...">
+<!ENTITY uploadFile.accesskey "F">
+
+<!ENTITY printSetupCmd.label "ページ設定...">
+<!ENTITY printSetupCmd.accesskey "u">
+<!ENTITY printPreviewCmd.label "@@Print@@プレビュー">
+<!ENTITY printPreviewCmd.accesskey "v">
+<!ENTITY printCmd.label "@@Print@@...">
+<!ENTITY printCmd.accesskey "p">
+<!ENTITY printCmd.commandkey "p">
+
+<!ENTITY toolbarsCmd.label "表示/非表示">
+<!ENTITY toolbarsCmd.accesskey "w">
+<!ENTITY navbarCmd.label "ナビゲーションツールバー">
+<!ENTITY navbarCmd.accesskey "N">
+<!ENTITY personalbarCmd.label "パーソナルツールバー">
+<!ENTITY personalbarCmd.accesskey "p">
+<!ENTITY tabbarCmd.label "タブバー">
+<!ENTITY tabbarCmd.accesskey "T">
+<!ENTITY taskbarCmd.label "ステータスバー">
+<!ENTITY taskbarCmd.accesskey "S">
+<!ENTITY componentbarCmd.label "コンポーネントバー">
+<!ENTITY componentbarCmd.accesskey "C">
+
+<!ENTITY useStyleSheetMenu.label "スタイルを適用">
+<!ENTITY useStyleSheetMenu.accesskey "u">
+<!ENTITY useStyleSheetNone.label "使用しない">
+<!ENTITY useStyleSheetNone.accesskey "N">
+<!ENTITY useStyleSheetPersistentOnly.label "標準のスタイル">
+<!ENTITY useStyleSheetPersistentOnly.accesskey "d">
+<!ENTITY pageSourceCmd.label "ページのソース">
+<!ENTITY pageSourceCmd.accesskey "o">
+<!ENTITY pageSourceCmd.commandkey "u">
+<!ENTITY pageInfoCmd.label "ページの情報">
+<!ENTITY pageInfoCmd.accesskey "i">
+<!ENTITY pageInfoCmd.commandkey "i">
+<!ENTITY fullScreenCmd.label "@@FullScreen@@">
+<!ENTITY fullScreenCmd.accesskey "f">
+<!ENTITY translateMenu.label "ページ翻訳">
+<!ENTITY translateMenu.accesskey "T">
+
+<!ENTITY closeOtherTabs.label "他のタブを閉じる">
+<!ENTITY closeOtherTabs.accesskey "T">
+<!ENTITY closeWindow.label "@@Window@@を閉じる">
+<!ENTITY closeWindow.accesskey "W">
+
+<!ENTITY minimizeButton.tooltip       "@@Minimize@@">
+<!ENTITY restoreButton.tooltip        "元のサイズに戻す">
+
+<!ENTITY applyTheme.label	"テーマを適用"> 
+<!ENTITY applyTheme.accesskey	"A"> 
+<!ENTITY getNewThemesCmd.label "テーマを入手">
+<!ENTITY getNewThemesCmd.accesskey "G">
+<!ENTITY findOnCmd.label "ページ内を検索...">
+<!ENTITY findOnCmd.accesskey "f">
+<!ENTITY findOnCmd.commandkey "f">
+<!ENTITY findAgainCmd.label "再検索">
+<!ENTITY findAgainCmd.accesskey "g">
+<!ENTITY findAgainCmd.commandkey "g">
+<!ENTITY findPrevCmd.label "前を検索">
+<!ENTITY findPrevCmd.accesskey "v">
+<!ENTITY findPrevCmd.commandkey "g">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findPrevCmd.commandkey2 "VK_F3">
+
+<!ENTITY searchInternetCmd.label "Web 検索">
+<!ENTITY searchInternetCmd.accesskey "S">
+<!ENTITY searchInternet.commandKey "s">
+
+<!ENTITY clearPrivateDataCmd.label "プライバシー情報の消去...">
+<!ENTITY clearPrivateDataCmd.accesskey "e">
+
+<!ENTITY goMenu.label "移動">
+<!ENTITY goMenu.accesskey "g">
+<!ENTITY goHomeCmd.label "ホーム">
+<!ENTITY goHomeCmd.accesskey "h">
+<!ENTITY historyRestoreLastSession.label "前のセッションを復元">
+<!ENTITY historyRestoreLastSession.accesskey "R">
+
+<!ENTITY bookmarksMenu.label "ブックマーク">
+<!ENTITY bookmarksMenu.accesskey "B">
+<!ENTITY addCurPageCmd.label "このページをブックマーク">
+<!ENTITY addCurPageCmd.accesskey "B">
+<!ENTITY addCurPageAsCmd.label "ブックマークに追加...">
+<!ENTITY addCurPageAsCmd.accesskey "F">
+<!ENTITY addCurPageAsCmd.commandkey "d">
+<!ENTITY addCurTabsAsCmd.label "このタブグループをブックマークに追加...">
+<!ENTITY addCurTabsAsCmd.accesskey "G">
+<!ENTITY manBookmarksCmd.label "ブックマークの管理...">
+<!ENTITY manBookmarksCmd.accesskey "M">
+<!ENTITY manBookmarksCmd.commandkey "b">
+<!ENTITY feedsMenu.label "このページを購読する">
+<!ENTITY feedsMenu.accesskey "S">
+<!ENTITY emptyItem.label "(空)">
+
+<!ENTITY menuBar.tooltip                  "メニューバー">
+<!ENTITY personalToolbar.tooltip          "パーソナルツールバー">
+<!ENTITY navigationToolbar.tooltip        "ナビゲーションツールバー">
+
+<!-- Toolbar items --> 
+<!ENTITY backButton.label             "戻る">
+<!ENTITY backButton.tooltip           "前のページへ戻る">
+<!ENTITY forwardButton.label          "進む">
+<!ENTITY forwardButton.tooltip        "次のページへ進む">
+<!ENTITY reloadButton.label           "再読み込み">
+<!ENTITY reloadButton.tooltip         "現在のページを再読み込みする">
+<!ENTITY stopButton.label             "中止">
+<!ENTITY stopButton.tooltip           "ページの読み込みを中止">
+<!ENTITY searchButton.label           "検索">
+<!ENTITY searchButton.tooltip         "アドレスバーに単語を入力し、@@[@@検索@@]@@ をクリックしてください">
+<!ENTITY goButton.label               "移動">
+<!ENTITY goButton.tooltip             "アドレスバーに URL を入力し、@@[@@移動@@]@@ をクリックしてください">
+<!ENTITY printButton.label            "@@Print@@">
+<!ENTITY printButton.tooltip          "このページを@@Print@@する">
+
+<!ENTITY throbber.tooltip             "&vendorShortName; のホームページに移動">
+
+<!ENTITY locationBar.tooltip          "検索する用語、キーワード、または Web アドレスを入力">
+<!ENTITY locationBar.accesskey        "d">
+<!ENTITY locationBar.title            "アドレス (URL)">
+<!ENTITY proxyIcon.tooltip            "このアイコンをドラッグアンドドロップすると、このページへのリンクが作成されます">
+
+<!ENTITY searchItem.title             "検索">
+
+<!-- Toolbar items --> 
+<!ENTITY  bookmarksButton.label       "ブックマーク">
+<!ENTITY  bookmarksButton.tooltip     "ブックマークリスト">
+<!ENTITY  homeButton.label            "ホーム">
+<!ENTITY  bookmarksToolbarItem.label  "ブックマークツールバーの項目">
+<!ENTITY bookmarksToolbarChevron.tooltip "他のブックマークを表示">
+
+<!-- Statusbar -->
+<!ENTITY  statusText.label            "完了">
+
+<!ENTITY historyCmd.label           "履歴">
+<!ENTITY historyCmd.accesskey       "i">
+<!ENTITY history.commandKey         "h">
+
+<!ENTITY popupIcon.tooltiptext      "このサイトのポップアップはブロックされません">
+
+<!ENTITY bidiSwitchPageDirectionItem.label        "ページの書記方向を切り換える">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "g">
+
+<!-- LOCALIZATION NOTE (syncTabsMenu.label): This appears in the Go menu -->
+<!ENTITY syncTabsMenu.label         "他のコンピュータのタブと同期">

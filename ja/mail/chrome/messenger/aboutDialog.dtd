@@ -1,0 +1,83 @@
+<!ENTITY aboutDialog.title		"&brandFullName; について">
+
+<!ENTITY community.start2		"&brandShortName; は ">
+<!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
+<!ENTITY community.mozillaLink		"&vendorShortName;">
+<!ENTITY community.middle2		" によってデザインされ、インターネットをより良いものにするため、">
+<!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
+<!ENTITY community.creditsLink		"グローバルなコミュニティ">
+<!ENTITY community.end2			"が一つに集まり作られています。私たちは、インターネットが公開され、公衆のためにあり、すべての人々が何の制限もなくアクセスできるものであると信じています。">
+
+<!ENTITY contribute.start		"興味があれば、">
+<!-- LOCALIZATION NOTE (contribute.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
+<!ENTITY contribute.getInvolvedLink	"どなたでも参加できます！">
+<!ENTITY contribute.end			"">
+
+<!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
+<!ENTITY bottomLinks.license		"ライセンス情報">
+
+<!-- LOCALIZATION NOTE (bottomLinks.rights): This is a link title that links to about:rights. -->
+<!ENTITY bottomLinks.rights		"あなたの権利について">
+
+<!-- LOCALIZATION NOTE (bottomLinks.privacy): This is a link title that links to http://www.mozilla.com/legal/privacy/. -->
+<!ENTITY bottomLinks.privacy		"プライバシーポリシー">
+
+<!-- LOCALIZATION NOTE (update.checkingForUpdates): try to make the localized text short (see bug 596813 for screenshots). -->
+<!ENTITY update.checkingForUpdates	"ソフトウェアの更新を確認中...">
+<!-- LOCALIZATION NOTE (update.checkingAddonCompat): try to make the localized text short (see bug 596813 for screenshots). -->
+<!ENTITY update.checkingAddonCompat	"アドオンの互換性を確認中...">
+<!-- LOCALIZATION NOTE (update.noUpdatesFound): try to make the localized text short (see bug 596813 for screenshots). -->
+<!ENTITY update.noUpdatesFound		"&brandShortName; は最新バージョンです">
+<!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
+<!ENTITY update.adminDisabled		"システム管理者により、更新が無効化されています">
+
+<!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
+     update.failed.start, update.failed.linkText, and update.failed.end all go into
+     one line with linkText being wrapped in an anchor that links to a site to download
+     the latest version of Firefox (e.g. http://www.firefox.com). As this is all in
+     one line, try to make the localized text short (see bug 596813 for screenshots). -->
+<!ENTITY update.failed.start		"更新に失敗しました。 ">
+<!ENTITY update.failed.linkText		"最新バージョンをダウンロード">
+<!ENTITY update.failed.end		"してください">
+
+<!-- LOCALIZATION NOTE (update.manual.start,update.manual.end): update.manual.start and update.manual.end
+     all go into one line and have an anchor in between with text that is the same as the link to a site
+     to download the latest version of Firefox (e.g. http://www.firefox.com). As this is all in one line,
+     try to make the localized text short (see bug 596813 for screenshots). -->
+<!ENTITY update.manual.start		"">
+<!ENTITY update.manual.linkText		"最新バージョンをダウンロード">
+<!ENTITY update.manual.end		"してください">
+
+<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and 
+     update.downloading.end all go into one line, with the amount downloaded inserted in between. As this
+     is all in one line, try to make the localized text short (see bug 596813 for screenshots). The — is
+     the "em dash" (long dash).
+     example: Downloading update — 111 KB of 13 MB -->
+<!ENTITY update.downloading.start	"更新をダウンロード中 — ">
+<!ENTITY update.downloading.end		"">
+
+<!-- LOCALIZATION NOTE (channel.description.start,channel.description.end): channel.description.start and
+     channel.description.end create one sentence, with the current channel label inserted in between.
+     example: You are currently on the _Stable_ update channel. -->
+<!ENTITY channel.description.start	"現在の更新チャンネルは ">
+<!ENTITY channel.description.end	" です。">
+
+<!ENTITY channel.change			"変更する">
+
+<!ENTITY channel.release.description	"世界中の数多くの人に使用されている最終リリース版をお楽しみください。驚くほどの速さと簡単に行えるカスタマイズ、最新の Web テクノロジーがあなたのものになります。">
+<!ENTITY channel.beta.description	"より安定した先端機能を体験してください。最終リリース版に向けて、洗練され磨き上げられた機能にするためのフィードバックを提供してください。">
+<!ENTITY channel.aurora.description	"最新のイノベーションを体験できますが、バグが多く不安定な環境で使用されるため気弱な人には向きません。最終リリース版に向けて、必要な機能とパフォーマンスを決定するためのフィードバックを提供してください。">
+
+<!-- LOCALIZATION NOTE (channel.selector.start,channel.selector.end): channel.selector.start and
+     channel.selector.end create one sentence, with a channel selection menulist instered in between.
+     This is all in one line, so try to make the localized text short.
+     example: Switch to the [Stable] update channel. -->
+<!ENTITY channel.selector.start          "更新チャンネルを">
+<!ENTITY channel.selector.end            "に切り替える。">
+
+<!-- LOCALIZATION NOTE (channel.selector.applyButton): This button applies the user's choice to switch
+     to a new update channel and starts the application update process. -->
+<!ENTITY channel.selector.applyButton	"適用して更新">
+<!ENTITY channel.selector.cancelButton	"キャンセル">
+
+<!ENTITY cmdCloseMac.commandKey		"w">
