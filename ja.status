@@ -135,8 +135,7 @@ mobile                  68132:2af5250cb07f  ----:------------   dynamis         
 suite                   -----:------------  7809:54a07d87ea36   mar             sync suite for SeaMonkey 2.2 (comm-beta)
 irc                     -----:------------  ----:------------   mar             sync irc, for chatzilla 0.9.87
 
-
-[l10n-mozilla-6.0] (for beta)
+Released! [l10n-mozilla-6.0]
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, network            70301:7764401216de  ----:------------   mar             hg.mozja repository
@@ -148,12 +147,18 @@ browser                 70372:4afee8a13b96  ----:------------   hATrayflood     
 mobile                  70372:4afee8a13b96  ----:------------   dynamis         sync mobile
 
 
-[l10n-mozilla-7.0] (for aurora)
+[l10n-mozilla-7.0] (for beta)
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                     72659:8f58f46715a2  ----:------------   mar             sync dom
 toolkit                 72670:335addb86778  8130:a555dac15d90   mar             sync toolkit
 browser, services/sync  72682:4d2a4e9e9730  ----:------------   hATrayflood     sync browser, services/sync
 mail                    -----:------------  8144:22a4e7168d11   mar             sync mail
-embedding,mobile        72731:e0521aa0fec0  ----:------------   knagato         sync embedding, mobile
+embedding, mobile       72731:e0521aa0fec0  ----:------------   knagato         sync embedding, mobile
 suite                   -----:------------  8210:271501c7d9a2   tooyama, mar    sync suite
+
+[l10n-mozilla-8.0] (for aurora)
+target dir              mozilla and comm hg changeset rev:id    by              comment
+--------------------------------------------------------------------------------------------------------------
+
+
