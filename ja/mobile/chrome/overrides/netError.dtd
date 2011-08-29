@@ -7,17 +7,16 @@
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title	"正常に接続できませんでした">
-<!ENTITY connectionFailure.longDesc	"&sharedLongDesc;">
+<!ENTITY connectionFailure.longDesc	"&sharedLongDesc2;">
 
 <!ENTITY deniedPortAccess.title		"このアドレスへの接続は制限されています">
 <!ENTITY deniedPortAccess.longDesc	"">
 
 <!ENTITY dnsNotFound.title		"サーバが見つかりませんでした">
-<!ENTITY dnsNotFound.longDesc		"
+<!ENTITY dnsNotFound.longDesc2		"
 <ul>
   <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>
-  <li>他のサイトも表示できない場合、コンピュータのネットワーク接続を確認してください。</li>
-  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; による Web アクセスが許可されているか確認してください。</li>
+  <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。</li>
 </ul>
 ">
 
@@ -44,7 +43,7 @@
 ">
 
 <!ENTITY netInterrupt.title		"接続が中断されました">
-<!ENTITY netInterrupt.longDesc		"&sharedLongDesc;">
+<!ENTITY netInterrupt.longDesc		"&sharedLongDesc2;">
 
 <!ENTITY netOffline.title "オフラインになっています"><!-- Offline mode: オフラインモードになっています -->
 <!ENTITY netOffline.longDesc2 "
@@ -68,10 +67,10 @@
 ">
 
 <!ENTITY netReset.title			"接続がリセットされました">
-<!ENTITY netReset.longDesc		"&sharedLongDesc;">
+<!ENTITY netReset.longDesc		"&sharedLongDesc2;">
 
 <!ENTITY netTimeout.title		"接続がタイムアウトしました">
-<!ENTITY netTimeout.longDesc		"&sharedLongDesc;">
+<!ENTITY netTimeout.longDesc		"&sharedLongDesc2;">
 
 <!ENTITY protocolNotFound.title		"アドレスのプロトコルが不明です">
 <!ENTITY protocolNotFound.longDesc	"
@@ -89,11 +88,10 @@
 ">
 
 <!ENTITY proxyResolveFailure.title	"プロキシサーバが見つかりませんでした">
-<!ENTITY proxyResolveFailure.longDesc	"
+<!ENTITY proxyResolveFailure.longDesc2	"
 <ul>
   <li>プロキシ設定が正しいか確認してください。</li>
-  <li>コンピュータが有効なネットワークに接続されているか確認してください。</li>
-  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; による Web アクセスが許可されているか確認してください。</li>
+  <li>デバイスのデータ接続や Wi-Fi 接続が有効であるか確認してください。</li>
 </ul>
 ">
 
@@ -128,24 +126,11 @@
 </ul>
 ">
 
-<!ENTITY sharedLongDesc			"
+<!ENTITY sharedLongDesc2			"
 <ul>
   <li>このサイトが一時的に利用できなくなっていたり、サーバの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>
-  <li>他のサイトも表示できない場合、コンピュータのネットワーク接続を確認してください。</li>
-  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; による Web アクセスが許可されているか確認してください。</li>
+  <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。</li>
 </ul>
-">
-
-<!ENTITY malwareBlocked.title		"攻撃サイトの疑いがあります！">
-<!ENTITY malwareBlocked.longDesc	"
-<p>攻撃サイトはあなたの個人情報を盗んだり、コンピュータを乗っ取って他のコンピュータへの攻撃に利用したり、あなたのシステムを破壊するための@@Program@@をインストールしようとします。</p>
-<p>あなたがこのサイトの管理者で、この警告が誤りである場合は<a href='http://www.stopbadware.org/home/reviewinfo'>再審査を求める</a>ことができます。</p>
-">
-
-<!ENTITY phishingBlocked.title		"偽装サイトの疑いがあります！">
-<!ENTITY phishingBlocked.longDesc	"
-<p>このページで個人情報を入力してしまうと、なりすましや詐欺などの被害に遭う恐れがあります。</p>
-<p>この種の偽装サイトはフィッシングと呼ばれる詐欺に使われています。本物のサイトに見せかけた詐欺ページを作り、あなたに信頼させようとしているのです。</p>
 ">
 
 <!ENTITY cspFrameAncestorBlocked.title "コンテンツセキュリティポリシーによりブロックされました">

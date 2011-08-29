@@ -160,5 +160,6 @@ suite                   -----:------------  8210:271501c7d9a2   tooyama, mar    
 [l10n-mozilla-8.0] (for aurora)
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
+mobile                  75786:2564751174a2  ----:------------   knagato         sync mobile
 
 

@@ -5,10 +5,10 @@
 <!ENTITY reflowZoom.title                          "拡大時に文字を再配置"><!-- Max11文字 -->
 <!ENTITY showImages.title                          "画像を表示する">
 <!ENTITY enableJavaScript.title                    "JavaScript を有効化">
-<!ENTITY enablePlugins.title                       "プラグインを有効化">
 <!ENTITY privacy.title                             "プライバシーとセキュリティ">
 <!ENTITY allowCookies.title                        "Cookie を使用する">
 <!ENTITY doNotTrack.title                          "追跡拒否をサイトに通知"><!-- Max11文字 -->
+<!ENTITY masterPassword.title                      "マスターパスワード利用"><!-- Max11文字 -->
 <!ENTITY clearPrivateData2.title                   "ユーザデータを消去"><!-- 何もかも消してしまうので「プライベートデータ」など限定っぽい表現は不適 -->
 <!ENTITY clearPrivateData.button                   "消去">
 <!ENTITY rememberPasswords.title                   "パスワードを保存する">
@@ -20,4 +20,4 @@
 <!ENTITY homepage.none                             "空白ページ">
 <!ENTITY homepage.default                          "&brandShortName; スタート">
 <!ENTITY homepage.currentpage                      "現在のページ">
-<!ENTITY showCharset.title                         "文字コードを表示する"><!-- 11字までなので「文字エンコーディング」は使えない -->
+<!ENTITY showCharsetEncoding.title                 "文字コードを表示する"><!-- 11字までなので「文字エンコーディング」は使えない -->

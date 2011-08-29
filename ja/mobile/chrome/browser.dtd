@@ -7,6 +7,7 @@
 <!ENTITY go.label              "移動">
 <!ENTITY star.label            "星">
 
+<!ENTITY showTabs.label        "タブを見る">
 <!ENTITY newtab.label          "@@NewTab@@">
 <!ENTITY closetab.label        "タブを閉じる">
 
@@ -15,6 +16,7 @@
 <!ENTITY copyAll.label         "すべてコピー">
 <!ENTITY copylink.label        "リンクの URL をコピー">
 <!ENTITY paste.label           "@@Paste@@">
+<!ENTITY pasteAndGo.label      "@@Paste@@後に実行">
 <!ENTITY delete.label          "削除">
 <!ENTITY selectAll.label       "@@SelectAll@@">
 <!ENTITY noSuggestions.label   "(候補なし)">
@@ -67,6 +69,7 @@
 <!ENTITY bookmarkPopup.label       "ブックマーク">
 <!ENTITY bookmarkRemove.label      "削除">
 <!ENTITY bookmarkEdit.label        "編集">
+<!ENTITY bookmarkShortcut.label    "ホーム画面に追加">
 
 <!ENTITY identity.unverifiedsite2 "この Web サイトは認証されていません">
 <!ENTITY identity.connectedTo2 "接続中のサイト:"><!-- SSLありの場合は画面幅制限要注意 -->
@@ -92,6 +95,7 @@
 <!ENTITY contextOpenInNewTab.label    "リンクを@@NewTab@@で開く">
 <!ENTITY contextSaveLink.label        "リンク先を保存">
 <!ENTITY contextSaveImage.label       "画像を保存">
+<!ENTITY contextCopyLink.label        "リンクをコピー">
 <!ENTITY contextShareLink.label       "リンクを共有">
 <!ENTITY contextShareImage.label      "画像を共有">
 <!ENTITY contextBookmarkLink.label    "リンクをブックマーク">
@@ -102,6 +106,7 @@
 <!ENTITY contextFullScreen.label      "@@FullScreen@@">
 <!ENTITY contextEditBookmark.label    "編集">
 <!ENTITY contextRemoveBookmark.label  "削除">
+<!ENTITY contextShortcutBookmark.label "ホーム画面に追加">
 
 <!ENTITY pageactions.saveas.pdf      "PDF として保存">
 <!ENTITY pageactions.share.page      "ページを共有">
@@ -111,5 +116,6 @@
 <!ENTITY pageactions.findInPage      "ページ内検索"><!-- 「ページ中を検索」は画面サイズとフォントによっては切れる -->
 <!ENTITY pageactions.search.addNew   "検索エンジンを追加">
 <!ENTITY pageactions.charEncoding    "文字コード"><!-- 設定画面に「文字エンコーディング」では長すぎて使えないところがある -->
+<!ENTITY pageactions.webapps.install "アプリとしてインストール">
 
 <!ENTITY appMenu.siteOptions         "サイトの設定">
