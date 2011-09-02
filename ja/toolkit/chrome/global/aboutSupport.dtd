@@ -16,6 +16,7 @@
 <!ENTITY aboutSupport.appBasicsEnabledPlugins	"有効なプラグイン">
 <!ENTITY aboutSupport.appBasicsBuildConfig	"ビルド設定">
 <!ENTITY aboutSupport.appBasicsUserAgent	"ユーザエージェント">
+<!ENTITY aboutSupport.appBasicsCrashIDs		"クラッシュレポート">
 
 <!ENTITY aboutSupport.show.label		"フォルダを開く">
 
