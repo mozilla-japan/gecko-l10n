@@ -18,7 +18,7 @@
 <!ENTITY useSmoothScrolling.label		"スムーズスクロール機能を使用する">
 <!ENTITY useSmoothScrolling.accesskey		"m">
 <!ENTITY allowHWAccel.label			"ハードウェアアクセラレーション機能を使用する (可能な場合)">
-<!ENTITY allowHWAccel.accesskey			"h">
+<!ENTITY allowHWAccel.accesskey			"r">
 <!ENTITY checkSpelling.label			"自動スペルチェック機能を使用する">
 <!ENTITY checkSpelling.accesskey		"t">
 
@@ -64,7 +64,7 @@
 <!ENTITY enableAddonsUpdate2.label		"アドオン">
 <!ENTITY enableAddonsUpdate2.accesskey		"n">
 <!ENTITY enableSearchUpdate.label		"検索エンジン">
-<!ENTITY enableSearchUpdate.accesskey		"h">
+<!ENTITY enableSearchUpdate.accesskey		"E">
 <!ENTITY whenUpdatesFound.label			"&brandShortName; の更新が見つかったとき:">
 <!ENTITY askMe.label				"どうするか確認する">
 <!ENTITY askMe.accesskey			"k">

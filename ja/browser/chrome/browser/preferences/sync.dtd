@@ -13,9 +13,10 @@
 <!ENTITY manageAccount.label          "アカウントを管理">
 <!ENTITY manageAccount.accesskey      "A">
 <!ENTITY viewQuota.label              "サーバ使用量を表示">
-<!ENTITY changePassword.label         "パスワードを変更">
+<!ENTITY changePassword2.label        "パスワードを変更...">
 <!ENTITY mySyncKey.label              "Sync キーを表示">
-<!ENTITY resetSync.label              "Sync をリセット">
+<!ENTITY resetSync2.label             "Sync をリセット...">
+
 <!ENTITY addDevice.label              "デバイスを追加">
 
 <!ENTITY syncMy.label               "同期するデータ">
@@ -33,7 +34,7 @@
 <!-- Device Settings -->
 <!ENTITY syncComputerName.label       "デバイス名:">
 <!ENTITY syncComputerName.accesskey   "c">
-<!ENTITY deactivateDevice.label       "このデバイスを停止する">
+<!ENTITY unlinkDevice.label           "このデバイスを切り離す">
 
 <!-- Footer stuff -->
 <!ENTITY prefs.tosLink.label        "利用規約">

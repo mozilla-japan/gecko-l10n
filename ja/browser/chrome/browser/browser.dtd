@@ -1,5 +1,5 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items -->
-<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
 <!ENTITY mainWindow.title		"&brandFullName;">
@@ -111,6 +111,8 @@ can reach it easily. -->
 <!ENTITY forwardCmd.label		"進む">
 <!ENTITY forwardCmd.accesskey		"F">
 <!ENTITY forwardButton.tooltip		"次のページへ進みます">
+<!ENTITY backForwardButtonMenu.tooltip		"右クリックかプルダウンで履歴を表示します">
+<!ENTITY backForwardButtonMenuMac.tooltip	"プルダウンで履歴を表示します">
 <!ENTITY reloadCmd.label		"更新">
 <!ENTITY reloadCmd.accesskey		"R">
 <!ENTITY reloadButton.tooltip		"このページを再読み込みします">
@@ -308,6 +310,7 @@ can reach it easily. -->
   Mac:  Cmd+K (cross platform binding)
         Cmd+Opt+F (platform convention)
   Win:  Ctrl+K (cross platform binding)
+        Ctrl+E (IE compat)
 
   We support Ctrl+K on all platforms now and advertise it in the menu since it is
   our standard - it is a "safe" choice since it is near no harmful keys like "W" as
@@ -318,6 +321,7 @@ can reach it easily. -->
 
  -->
 <!ENTITY searchFocus.commandkey		"k">
+<!ENTITY searchFocus.commandkey2	"e">
 <!ENTITY searchFocusUnix.commandkey	"j">
 
 <!ENTITY tabView.commandkey		"e">
@@ -521,7 +525,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editBookmark.removeBookmark.accessKey	"R">
 
 <!ENTITY identity.unverifiedsite2		"この Web サイトは認証されていません。"><!-- (^^; identity.connectedTo は通常の SSL 認証(ドメイン認証のみ) と EVSSL による認証(法人登記なども確認して実在証明) で共通  -->
-
 <!ENTITY identity.connectedTo			"この Web サイトは認証されています">
 <!-- Localization note (identity.runBy) : This string appears between a
 domain name (above) and an organization name (below). E.g.
