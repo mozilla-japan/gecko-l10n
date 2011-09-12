@@ -111,8 +111,8 @@ can reach it easily. -->
 <!ENTITY forwardCmd.label		"進む">
 <!ENTITY forwardCmd.accesskey		"F">
 <!ENTITY forwardButton.tooltip		"次のページへ進みます">
-<!ENTITY backForwardButtonMenu.tooltip		"右クリックかプルダウンで履歴を表示します">
-<!ENTITY backForwardButtonMenuMac.tooltip	"プルダウンで履歴を表示します">
+<!ENTITY backForwardButtonMenu.tooltip		"右クリック、または長押しで履歴を表示します">
+<!ENTITY backForwardButtonMenuMac.tooltip	"長押しで履歴を表示します">
 <!ENTITY reloadCmd.label		"更新">
 <!ENTITY reloadCmd.accesskey		"R">
 <!ENTITY reloadButton.tooltip		"このページを再読み込みします">
