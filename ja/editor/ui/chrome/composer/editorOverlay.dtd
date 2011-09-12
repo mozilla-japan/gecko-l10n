@@ -80,9 +80,6 @@
 <!ENTITY printCmd.label "@@Print@@...">
 <!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.key "P">
-<!ENTITY closeCmd.label "閉じる">
-<!ENTITY closeCmd.accesskey "C">
-<!ENTITY closeCmd.key "W">
 
 <!-- Edit menu items -->
 <!ENTITY editMenu.label "編集">
@@ -98,17 +95,6 @@
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
 <!ENTITY pasteAsQuotationCmd.key "o">
 <!ENTITY findCmd.label "検索と置換...">
-<!ENTITY findCmd.accesskey "F">
-<!ENTITY findCmd.key "F">
-<!ENTITY findCmd.key2 "VK_F19">
-<!ENTITY findAgainCmd.label "次を検索">
-<!ENTITY findAgainCmd.accesskey "g">
-<!ENTITY findAgainCmd.key "G">
-<!ENTITY findAgainCmd.key2 "VK_F3">
-<!ENTITY findPrevCmd.label "前を検索">
-<!ENTITY findPrevCmd.accesskey "v">
-<!ENTITY findPrevCmd.key "G">
-<!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY enableInlineSpellChecker.label "自動スペルチェック">
 <!ENTITY enableInlineSpellChecker.accesskey "S">
 <!ENTITY checkSpellingCmd2.label "スペルチェック">
@@ -146,23 +132,6 @@
 <!ENTITY createLinkCmd.accesskey "k">
 <!ENTITY editLinkCmd.label "リンクを新しい Composer で編集">
 <!ENTITY editLinkCmd.accesskey "i">
-<!-- (Toplevel Edit menu uses utilityOverlay) -->
-<!ENTITY undoCmd.label "@@Undo@@">
-<!ENTITY undoCmd.accesskey "U">
-<!ENTITY redoCmd.label "@@Redo@@">
-<!ENTITY redoCmd.accesskey "R">
-<!ENTITY cutCmd.label "@@Cut@@">
-<!ENTITY cutCmd.accesskey "t">
-<!ENTITY copyCmd.label "コピー">
-<!ENTITY copyCmd.accesskey "C">
-<!ENTITY pasteCmd.label "@@Paste@@">
-<!ENTITY pasteCmd.accesskey "P">
-<!ENTITY deleteCmd.label "削除">
-<!ENTITY deleteCmd.accesskey "D">
-<!ENTITY clearCmd.label "消去">
-<!ENTITY clearCmd.accesskey "l">
-<!ENTITY selectAllCmd.label "@@SelectAll@@">
-<!ENTITY selectAllCmd.accesskey "A">
 
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "フォントを選択">
@@ -403,6 +372,9 @@
 <!ENTITY openToolbarCmd.tooltip "ファイルを開く">
 <!ENTITY saveToolbarCmd.tooltip "ローカル URL にファイルを保存します">
 <!ENTITY publishToolbarCmd.tooltip "リモート URL にファイルをアップロードします">
+<!ENTITY cutToolbarCmd.tooltip "@@Cut@@">
+<!ENTITY copyToolbarCmd.tooltip "コピー">
+<!ENTITY pasteToolbarCmd.tooltip "@@Paste@@">
 <!ENTITY printToolbarCmd.label "@@Print@@">
 <!ENTITY printToolbarCmd.tooltip "ページを@@Print@@します">
 <!ENTITY findToolbarCmd.label "検索">

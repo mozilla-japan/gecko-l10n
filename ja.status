@@ -163,3 +163,4 @@ target dir              mozilla and comm hg changeset rev:id    by              
 mobile                  75786:2564751174a2  ----:------------   knagato         sync mobile
 toolkit                 75826:95f04aa2a1c4  8522:f7580538c795   mar             sync toolkit
 browser, dom            75846:b1d382004d3f  ----:------------   hATrayflood     sync browser, dom
+editor/ui               -----:------------  8537:265622251756   mar             sync editor/ui
