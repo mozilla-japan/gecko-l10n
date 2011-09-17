@@ -229,6 +229,8 @@
 <!ENTITY bodySanitized.accesskey		"S">
 <!ENTITY bodyAsPlaintext.label			"プレーンテキスト">
 <!ENTITY bodyAsPlaintext.accesskey		"P">
+<!ENTITY bodyAllParts.label			"すべての本文パーツ">
+<!ENTITY bodyAllParts.accesskey			"A">
 
 <!ENTITY bodyMenuFeed.label			"フィードの表示形式">
 <!ENTITY bodyMenuFeed.accesskey			"B">

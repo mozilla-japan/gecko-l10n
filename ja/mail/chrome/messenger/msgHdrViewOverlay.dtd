@@ -63,6 +63,7 @@
 <!ENTITY editMessageButton.label		"編集...">
 <!ENTITY hdrArchiveButton.label			"アーカイブ">
 <!ENTITY hdrArchiveButton.tooltip		"このメッセージをアーカイブに移動します">
+<!ENTITY hdrSmartReplyButton.label		"適宜返信"><!-- en-US: "smart reply" -->
 <!ENTITY hdrReplyButton.label			"返信">
 <!ENTITY hdrReplyButton.tooltip			"このメッセージの差出人に返信します">
 <!ENTITY hdrReplyAllButton.label		"全員に返信">
