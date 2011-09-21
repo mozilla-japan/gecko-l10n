@@ -17,3 +17,5 @@
 <!ENTITY textZoomOnly.accesskey                 "Z">
 <!ENTITY blockAutoRefresh.label                 "Web サイトがリダイレクトや再読み込みを繰り返すときに警告する">
 <!ENTITY blockAutoRefresh.accesskey             "W">
+<!ENTITY siteSpecific.label                     "サイト別のズームレベルを記憶する">
+<!ENTITY siteSpecific.accesskey                 "m">
