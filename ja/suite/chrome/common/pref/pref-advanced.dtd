@@ -1,11 +1,6 @@
 <!--LOCALIZATION NOTE : FILE 'Advanced' prefs settings -->
 <!ENTITY pref.advanced.title        "詳細">
 
-<!ENTITY prefEnableJava.caption     "Web ページで補助的に利用される機能">
-
-<!ENTITY enbJavaCheck.label         "Java を有効にする">
-<!ENTITY enbJavaCheck.accesskey     "J">
-
 <!ENTITY systemPref.caption         "システム設定">
 <!ENTITY systemPrefCheck.label      "システムの標準設定を使用する">
 <!ENTITY systemPrefCheck.accesskey  "U">

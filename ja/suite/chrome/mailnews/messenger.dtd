@@ -252,6 +252,8 @@
 <!ENTITY bodySanitized.accesskey               "S">
 <!ENTITY bodyAsPlaintext.label                 "プレーンテキスト">
 <!ENTITY bodyAsPlaintext.accesskey             "P">
+<!ENTITY bodyAllParts.label                    "すべての本文パーツ">
+<!ENTITY bodyAllParts.accesskey                "A">
 
 <!ENTITY bodyMenuFeed.label                     "フィードの表示形式">
 <!ENTITY bodyMenuFeed.accesskey                 "B">
@@ -273,16 +275,6 @@
 <!ENTITY pageSourceCmd.key                      "u">
 
 <!ENTITY findCmd.label                          "このメッセージを検索...">
-<!ENTITY findCmd.accesskey                      "F">
-<!ENTITY findCmd.key                            "f">
-<!ENTITY findAgainCmd.label                     "次を検索">
-<!ENTITY findAgainCmd.accesskey                 "g">
-<!ENTITY findAgainCmd.key                       "g">
-<!ENTITY findAgainCmd.key2                      "VK_F3">
-<!ENTITY findPrevCmd.label                      "前を検索"><!--Find Previous-->
-<!ENTITY findPrevCmd.accesskey                  "v">
-<!ENTITY findPrevCmd.key                        "g">
-<!ENTITY findPrevCmd.key2                       "VK_F3">
 
 <!-- Go Menu -->
 
