@@ -20,16 +20,6 @@
 
 <!-- Edit Menu -->
 <!ENTITY findOnCmd.label "ページ内を検索...">
-<!ENTITY findOnCmd.accesskey "f">
-<!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label "再検索">
-<!ENTITY findAgainCmd.accesskey "g">
-<!ENTITY findAgainCmd.commandkey "g">
-<!ENTITY findPrevCmd.label "前を検索">
-<!ENTITY findPrevCmd.accesskey "v">
-<!ENTITY findPrevCmd.commandkey "g">
-<!ENTITY findAgainCmd.commandkey2 "VK_F3">
-<!ENTITY findPrevCmd.commandkey2 "VK_F3">
 
 <!-- View Menu -->
 <!ENTITY toolbarsCmd.label "表示/非表示">
