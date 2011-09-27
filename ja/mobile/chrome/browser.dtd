@@ -16,7 +16,7 @@
 <!ENTITY copyAll.label         "すべてコピー">
 <!ENTITY copylink.label        "リンクの URL をコピー">
 <!ENTITY paste.label           "@@Paste@@">
-<!ENTITY pasteAndGo.label      "@@Paste@@後に実行">
+<!ENTITY pasteAndGo.label      "@@Paste@@て移動">
 <!ENTITY delete.label          "削除">
 <!ENTITY selectAll.label       "@@SelectAll@@">
 <!ENTITY noSuggestions.label   "(候補なし)">
