@@ -22,20 +22,73 @@ Firefox 5 メモ。
       addonsInstalledNeedsRestart
 
 
-◆Firefox 5, Thunderbird 3.3 に向けて
-SVN 側での各リポジトリへの対応について、何かあれば以下に書き残してください。
 
-・当面、mozilla-aurora (=mozilla-miramar), comm-miramar (<comm-central) に同期する。
-　今のところ、それで最低限の作業は可能。 (^m^)
-・mozilla-beta 等のリリース直前の作業は未定。 (^m^)
+◆各リポジトリへの対応について、何かあれば以下に書き残してください。
+
+・default ブランチで mozilla-aurora, comm-aurora に同期する。
+・mozilla-beta 等のリリース直前の作業は未定。
+
 ----- START (^^;
 beta だけ変更が必要な事などはあると思うので aurora->beta 切り替え時に毎回ブランチ切るのが良いかと思います。ブランチ名は mozilla-beta にしたくなりますが、それだと次のバージョンの時にまた別のブランチに移動させることになり面倒なので、(mobile-5.0 などに倣って) l10n-mozilla-5.0 などにしてしまう感じで
 
 mozilla-central -> 当面のところ対応予定無し
-mozilla-aurora  -> ja では trunk
+mozilla-aurora  -> ja では default
 mozilla-beta    -> branches/l10n-mozilla-5.0
                    branches/l10n-mozilla-6.0
                      ...
 mozilla-2.0     -> branches/l10n-mozilla-2.0
 ----- END (^^;
+
+
+
+
+◆Mercurial コマンドメモ
+
+・ローカルリポジトリの更新
+> hg pull
+> hg update
+ または
+> hg pull -u
+
+・現在の作業リビジョンの確認
+> hg parent
+
+・現在の作業状態の確認
+> hg status
+
+・ファイルの追加と削除 (一括)
+> hg addremove
+
+・コミット
+> hg commit -m "[commit log]"
+ または
+> hg ci -m "[commit log]"
+
+・サーバに push
+> hg push
+
+・コミットログの表示
+> hg log -l [num]
+
+・コミットログのグラフ表示 (※hgrc に hgext.graphlog= を記述)
+> hg glog -l [num]
+
+
+
+◇ あまり使わないコマンド
+
+・作業ブランチの切り替え
+> hg update [branch name]
+
+・現在の作業ブランチの確認
+> hg branch
+
+・ブランチの作成
+> hg branch [branch name]
+
+・作業リビジョンの切り替え
+> hg update -r [rev]
+
+・default ブランチからの移植 (※hgrc に transplant= を記述)
+> hg transplant -b default -m [rev] --log
 
