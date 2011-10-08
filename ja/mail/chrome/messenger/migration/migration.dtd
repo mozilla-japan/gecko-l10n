@@ -1,0 +1,29 @@
+
+<!ENTITY migrationWizard.title		"設定移行@@Wizard@@">
+
+<!ENTITY importFromWin.label		"オプション、アカウント設定、アドレス帳、フィルタ、その他のデータの@@Import-suru@@対象を選んでください:">
+<!ENTITY importFromNonWin.label		"設定、アカウント設定、アドレス帳、フィルタ、その他のデータの@@Import-suru@@対象を選んでください:">
+
+<!ENTITY importFromNothing.label	"設定を@@Import-sinai@@">
+<!ENTITY importFromNothing.accesskey	"D">
+<!ENTITY importFromSeamonkey2.label	"Netscape 6, 7 または Mozilla 1.x, SeaMonkey">
+<!ENTITY importFromSeamonkey2.accesskey	"s">
+<!ENTITY importFromOExpress.label	"Outlook Express">
+<!ENTITY importFromOExpress.accesskey	"u">
+<!ENTITY importFromOutlook.label	"Outlook">
+<!ENTITY importFromOutlook.accesskey	"O">
+<!ENTITY importFromEudora.label		"Eudora">
+<!ENTITY importFromEudora.accesskey	"E">
+
+<!ENTITY importSource.title		"設定とデータの@@ImportNoun@@元">
+<!ENTITY importItems.title		"@@Import-suru@@項目">
+<!ENTITY importItems.label		"@@Import-suru@@項目を選択してください:">
+
+<!ENTITY migrating.title		"@@Import-site@@います...">
+<!ENTITY migrating.label		"次の項目を現在@@Import-site@@います...">
+
+<!ENTITY selectProfile.title		"プロファイルの選択">
+<!ENTITY selectProfile.label		"@@Import-suru@@プロファイルを選択してください:">
+
+<!ENTITY done.title			"@@ImportNoun@@完了">
+<!ENTITY done.label			"次のデータが正常に@@Import-sare@@ました:">

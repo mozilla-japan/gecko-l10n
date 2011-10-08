@@ -1,0 +1,108 @@
+<!ENTITY itemGeneral.label			"一般">
+<!ENTITY itemDisplay.label			"既読と表示">
+<!ENTITY itemUpdate.label			"更新">
+<!ENTITY itemNetworking.label			"ネットワークとディスク領域">
+<!ENTITY itemCertificates.label			"証明書">
+
+<!-- General Settings -->
+
+<!ENTITY enableGlodaSearch.label		"グローバル検索と索引データベースを有効にする"><!-- (^^; Enable Global Search and Indexer -->
+<!ENTITY enableGlodaSearch.accesskey		"E">
+<!ENTITY systemIntegration.label		"システム統合">
+<!ENTITY alwaysCheckDefault.label		"起動時に &brandShortName; が@@DefaultClient@@として設定されているか確認する">
+<!ENTITY alwaysCheckDefault.accesskey		"A">
+<!ENTITY searchIntegration.label		"&searchIntegration.engineName; によるメッセージの検索を許可する">
+<!ENTITY searchIntegration.accesskey		"S">
+<!ENTITY checkNow.label				"今すぐ確認">
+<!ENTITY checkNow.accesskey			"N">
+<!ENTITY configEditDesc.label			"高度な設定">
+<!ENTITY configEdit.label			"設定エディタ..."><!-- (^^; 要するに about:config -->
+<!ENTITY configEdit.accesskey			"C">
+<!ENTITY returnReceiptsInfo.label		"開封確認の取り扱い方を設定します。">
+<!ENTITY showReturnReceipts.label		"開封確認...">
+<!ENTITY showReturnReceipts.accesskey		"R">
+
+<!-- Display and Reading Settings -->
+<!ENTITY reading.caption			"既読">
+<!ENTITY display.caption			"表示">
+<!ENTITY showCondensedAddresses.label		"アドレス帳に登録されている人については宛先フィールドで &lt;メールアドレス&gt; 部を表示しない"><!-- (^^; en-US: Show only display name for people in my address book. -->
+<!ENTITY showCondensedAddresses.accesskey	"S">
+
+<!ENTITY autoMarkAsRead.label			"メッセージを自動的に既読にする">
+<!ENTITY autoMarkAsRead.accesskey		"A">
+<!ENTITY markAsReadNoDelay.label		"メッセージの表示直後に既読にする">
+<!ENTITY markAsReadNoDelay.accesskey		"o">
+<!-- LOCALIZATION NOTE (markAsReadDelay.label): This will concatenate to
+     "After displaying for [___] seconds",
+     using (markAsReadDelay.label) and a number (secondsLabel.label). -->
+<!ENTITY markAsReadDelay.label			"メッセージを">
+<!ENTITY markAsReadDelay.accesskey		"d">
+<!ENTITY secondsLabel.label			"秒間以上表示していたら既読にする">
+<!ENTITY openMsgIn.label			"メッセージを次の場所に開く:">
+<!ENTITY openMsgInNewTab.label			"@@NewTab@@">
+<!ENTITY openMsgInNewTab.accesskey		"t">
+<!ENTITY reuseExpRadio0.label			"@@New-CMD@@メッセージ@@Window@@">
+<!ENTITY reuseExpRadio0.accesskey		"n">
+<!ENTITY reuseExpRadio1.label			"既存のメッセージ@@Window@@">
+<!ENTITY reuseExpRadio1.accesskey		"e">
+<!ENTITY closeMsgOnMoveOrDelete.label		"移動時または削除時にメッセージ@@Window@@またはタブを閉じる">
+<!ENTITY closeMsgOnMoveOrDelete.accesskey	"C">
+
+<!-- Update -->
+<!ENTITY autoCheck.label			"次のソフトウェアの更新を定期的に確認する:">
+<!ENTITY enableAppUpdate.label			"&brandShortName;">
+<!ENTITY enableAppUpdate.accesskey		"h">
+<!ENTITY enableAddonsUpdate.label		"アドオン">
+<!ENTITY enableAddonsUpdate.accesskey		"A">
+<!ENTITY whenUpdatesFound.label			"&brandShortName; の更新が見つかったとき:">
+<!ENTITY modeAskMe.label			"どうするか確認する">
+<!ENTITY modeAskMe.accesskey			"m">
+<!ENTITY modeAutomatic.label			"自動的に更新をダウンロードしてインストールする">
+<!ENTITY modeAutomatic.accesskey		"d">
+<!ENTITY modeAutoAddonWarn.label		"更新によりアドオンが無効化される場合は警告する">
+<!ENTITY modeAutoAddonWarn.accesskey		"W">
+<!ENTITY showUpdates.label			"更新履歴を表示...">
+<!ENTITY showUpdates.accesskey			"S">
+
+<!-- Networking and Disk Space -->
+<!ENTITY showSettings.label			"接続設定...">
+<!ENTITY showSettings.accesskey			"S">
+<!ENTITY proxiesConfigure.label			"インターネット接続に使用するプロキシを設定できます。">
+<!ENTITY connectionsInfo.caption		"接続">
+<!ENTITY offlineInfo.caption			"オフライン">
+<!ENTITY offlineInfo.label			"オフライン時の動作を設定します。">
+<!ENTITY showOffline.label			"オフライン設定...">
+<!ENTITY showOffline.accesskey			"O">
+
+<!ENTITY Diskspace				"ディスク領域">
+<!ENTITY offlineCompact.label			"ディスク領域を"><!-- (^^; offlineCompact.label [ ] mb.label -->
+<!ENTITY offlineCompact.accesskey		"a">
+<!ENTITY mb.label				"MB 以上節約できるときはフォルダを最適化する">
+
+<!-- LOCALIZATION NOTE:
+  The entities useCacheBefore.label and useCacheAfter.label appear on a single
+  line in preferences as follows:
+
+  &useCacheBefore.label  [ textbox for cache size in MB ]   &useCacheAfter.label;
+-->
+<!ENTITY useCacheBefore.label			"ページキャッシュとして">
+<!ENTITY useCacheBefore.accesskey		"U">
+<!ENTITY useCacheAfter.label			"MB まで使用する">
+<!ENTITY clearCacheNow.label			"今すぐ消去">
+<!ENTITY clearCacheNow.accesskey		"C">
+
+<!-- Certificates -->
+<!ENTITY certSelection.description		"サーバが個人証明書を要求したとき:">
+<!ENTITY certs.auto				"自動的に選択する">
+<!ENTITY certs.auto.accesskey			"m">
+<!ENTITY certs.ask				"毎回自分で選択する">
+<!ENTITY certs.ask.accesskey			"A">
+
+<!ENTITY viewCertificates.label			"証明書を表示">
+<!ENTITY viewCertificates.accesskey		"C">
+<!ENTITY viewCRLs.label				"失効リスト">
+<!ENTITY viewCRLs.accesskey			"R">
+<!ENTITY validation.label			"検証">
+<!ENTITY validation.accesskey			"V">
+<!ENTITY viewSecurityDevices.label		"セキュリティデバイス">
+<!ENTITY viewSecurityDevices.accesskey		"S">

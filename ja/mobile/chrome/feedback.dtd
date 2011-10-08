@@ -1,0 +1,11 @@
+<!ENTITY feedbackHeader2.label           "フィードバックツール">
+
+<!ENTITY feedback.communicate.title     "ユーザのご意見をお寄せください">
+<!ENTITY feedback.feedback.title        "フィードバックを送信">
+<!ENTITY feedback.feedback.good         "いいね">
+<!ENTITY feedback.feedback.bad          "ダメ">
+
+<!ENTITY feedback.tools.title           "ツール">
+<!ENTITY feedback.allowTelemetry.title  "パフォーマンス情報を送信">
+<!ENTITY feedback.forceCompat.title     "アドオンの互換性確認を無視">
+<!ENTITY feedback.errorConsole.title    "エラーコンソールを有効化">

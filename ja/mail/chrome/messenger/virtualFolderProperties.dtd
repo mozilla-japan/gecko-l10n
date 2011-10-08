@@ -1,0 +1,18 @@
+<!ENTITY virtualFolderProperties.title	"@@New-CMD@@検索フォルダ">
+<!ENTITY name.label			"名前:">
+<!ENTITY name.accesskey			"N">
+<!ENTITY description.label		"作成先:">
+<!ENTITY description.accesskey		"C">
+
+<!ENTITY searchTermCaption.label	"検索フォルダで使用する検索条件を設定してください:">
+
+<!ENTITY folderSelectionCaption.label	"検索対象: ">
+<!ENTITY chooseFoldersButton.label	"選択...">
+<!ENTITY chooseFoldersButton.accesskey	"h">
+
+<!ENTITY searchOnline.label		"オンラインで検索 (IMAP や ニュースフォルダでも最新の結果が得られますが、フォルダを開くのに時間がかかります)">
+<!ENTITY searchOnline.accesskey		"S">
+<!ENTITY newFolderButton.label		"作成">
+<!ENTITY newFolderButton.accesskey	"r">
+<!ENTITY editFolderButton.label		"更新">
+<!ENTITY editFolderButton.accesskey	"U">

@@ -1,0 +1,121 @@
+<!--
+   -
+   - ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is The JavaScript Debugger.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Robert Ginda, <rginda@netscape.com>, original author
+   -
+   - Javanese Localization by
+   -  dynamis
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY MainWindow.title	"JavaScript デバッガ">
+
+<!-- floating views -->
+<!ENTITY ViewFloat.tooltip	"このビューを分離するかどうか切り替えるにはここをクリックしてください">
+<!ENTITY ViewGrippy.tooltip	"このビューを移動するにはタイトルバーをドラッグしてください">
+<!ENTITY ViewClose.tooltip	"このビューを閉じるにはここをクリックしてください">
+
+<!-- help menu -->
+<!ENTITY Help.commands		"コマンドリファレンス">
+<!ENTITY Help.about		"Venkman について">
+
+<!-- toolips -->
+<!-- 日本語特有表現に変更 -->
+<!ENTITY MenuBar.tooltip	"メニューバー">
+<!ENTITY DebugBar.tooltip	"デバッグツールバー">
+
+<!-- breakpoint view -->
+<!ENTITY Break.label		"ブレークポイント">
+<!ENTITY BreakCol0.label	"名前">
+<!ENTITY BreakCol1.label	"行/PC"><!-- ProgramCounter -->
+
+<!-- locals view -->
+<!ENTITY Locals.label		"ローカル変数">
+<!ENTITY LocalsCol0.header	"名前">
+<!ENTITY LocalsCol1.header	"型">
+<!ENTITY LocalsCol2.header	"値">
+<!ENTITY LocalsCol3.header	"フラグ">
+
+<!-- session view -->
+<!ENTITY Session.label		"対話セッション">
+
+<!-- script view -->
+<!ENTITY Scripts.label		"読み込まれているスクリプト">
+<!ENTITY ScriptsSearch.label	"検索">
+<!ENTITY ScriptsSearch.tooltip	"検索フィールドを消去するにはここをクリックしてください">
+<!ENTITY ScriptsCol0.header	"名前">
+<!ENTITY ScriptsCol1.header	"行番号">
+<!ENTITY ScriptsCol2.header	"行数">
+
+<!-- source view -->
+<!ENTITY Source.label		"ソースコード">
+<!ENTITY SourceHeader.tip	"ソースツールバー">
+<!ENTITY SourceCol0.display	"余白">
+<!ENTITY SourceCol1.display	"行番号">
+
+<!-- stack view -->
+<!ENTITY Stack.label		"コールスタック">
+<!ENTITY StackCol0.header	"名前">
+<!ENTITY StackCol1.header	"位置">
+
+<!-- watch view -->
+<!ENTITY Watch.label		"監視点">
+<!ENTITY WatchCol0.header	"名前">
+<!ENTITY WatchCol1.header	"型">
+<!ENTITY WatchCol2.header	"値">
+<!ENTITY WatchCol3.header	"フラグ">
+
+<!-- window view -->
+<!ENTITY Windows.label		"開いている@@Window@@">
+<!ENTITY WindowsCol0.label	"ファイル">
+
+<!-- breakpoint properties window -->
+<!ENTITY BPProps.URL.label			"URL">
+<!ENTITY BPProps.Line.label			"行">
+<!ENTITY BPProps.PC.label			"PC">
+<!ENTITY BPProps.FunctionName.label		"関数">
+<!ENTITY BPProps.TriggerCount.label		"トリガカウント">
+<!ENTITY BPProps.OneTime.label			"初回起動時にブレークポイントを削除">
+<!ENTITY BPProps.Then.label			"そして...">
+<!ENTITY BPProps.ConditionalCheck.label		"起動時に次を実行し...">
+<!ENTITY BPProps.NeverStopRadio.label		"結果に依らず続行">
+<!ENTITY BPProps.AlwaysStopRadio.label		"結果に依らず停止">
+<!ENTITY BPProps.ConditionalBreakRadio.label	"結果が真の場合に停止">
+<!ENTITY BPProps.EarlyReturnRadio.label		"結果をその場で呼び出し元に返す">
+<!ENTITY BPProps.PassExceptionsCheck.label	"例外を呼び出し元に渡す">
+<!ENTITY BPProps.LogResultCheck.label		"結果を記録">
+<!ENTITY BPProps.Apply.label			"適用">
+<!ENTITY BPProps.Revert.label			"戻す">
+<!ENTITY BPProps.Close.label			"閉じる">

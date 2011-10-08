@@ -1,0 +1,92 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is OEone Calendar Code, released October 31st, 2001.
+   -
+   - The Initial Developer of the Original Code is
+   - OEone Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s): Garth Smedley <garths@oeone.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY time.midnight "子夜 0 時" >
+<!ENTITY time.noon "正午 0 時" >
+
+<!-- Day Names -->
+<!-- LOCALIZATION NOTE : Accesskeys for day.1.Ddd to day.7.Ddd are currently
+     only used in Preferences > Views > Workweek groupbox -->
+<!ENTITY day.1.Ddd "日" >
+<!ENTITY day.1.Ddd.accesskey "S">
+<!ENTITY day.2.Ddd "月" >
+<!ENTITY day.2.Ddd.accesskey "M">
+<!ENTITY day.3.Ddd "火" >
+<!ENTITY day.3.Ddd.accesskey "T">
+<!ENTITY day.4.Ddd "水" >
+<!ENTITY day.4.Ddd.accesskey "W">
+<!ENTITY day.5.Ddd "木" >
+<!ENTITY day.5.Ddd.accesskey "h">
+<!ENTITY day.6.Ddd "金" >
+<!ENTITY day.6.Ddd.accesskey "F">
+<!ENTITY day.7.Ddd "土" >
+<!ENTITY day.7.Ddd.accesskey "a">
+
+<!ENTITY day.1.name "日曜日" >
+<!ENTITY day.2.name "月曜日" >
+<!ENTITY day.3.name "火曜日" >
+<!ENTITY day.4.name "水曜日" >
+<!ENTITY day.5.name "木曜日" >
+<!ENTITY day.6.name "金曜日" >
+<!ENTITY day.7.name "土曜日" >
+
+<!-- Units -->
+<!ENTITY calendar.global.units.minute   "分">
+<!ENTITY calendar.global.units.minutes  "分">
+<!ENTITY calendar.global.units.hour     "時間">
+<!ENTITY calendar.global.units.hours    "時間">
+<!ENTITY calendar.global.units.day      "日">
+<!ENTITY calendar.global.units.days     "日">
+
+<!ENTITY month.1.name "1月" >
+<!ENTITY month.2.name "2月" >
+<!ENTITY month.3.name "3月" >
+<!ENTITY month.4.name "4月" >
+<!ENTITY month.5.name "5月" >
+<!ENTITY month.6.name "6月" >
+<!ENTITY month.7.name "7月" >
+<!ENTITY month.8.name "8月" >
+<!ENTITY month.9.name "9月" >
+<!ENTITY month.10.name "10月" >
+<!ENTITY month.11.name "11月" >
+<!ENTITY month.12.name "12月" >
+
+<!ENTITY onemonthbackward.tooltip "前の月へ移動します" >
+<!ENTITY onemonthforward.tooltip "次の月へ移動します" >
+<!ENTITY showToday.tooltip "今日へ移動します">
+<!ENTITY onedayforward.tooltip "次の日へ移動します">
+<!ENTITY onedaybackward.tooltip "前の日へ移動します">
+<!ENTITY showselectedday.tooltip "選択した日の予定を表示します">

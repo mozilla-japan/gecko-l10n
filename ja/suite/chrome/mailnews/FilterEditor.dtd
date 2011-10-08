@@ -1,0 +1,96 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+
+ The contents of this file are subject to the Mozilla Public License Version
+ 1.1 (the "License"); you may not use this file except in compliance with
+ the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+
+ Software distributed under the License is distributed on an "AS IS" basis,
+ WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ for the specific language governing rights and limitations under the
+ License.
+
+ The Original Code is Mozilla Communicator client code, released
+ March 31, 1998.
+
+ The Initial Developer of the Original Code is
+ Netscape Communications Corporation.
+ Portions created by the Initial Developer are Copyright (C) 1998-1999
+ the Initial Developer. All Rights Reserved.
+
+ Contributor(s):
+    Alec Flett <alecf@netscape.com>
+    Seth Spitzer <sspitzer@netscape.com>
+    Allan Masri <amasri@netscape.com>
+    Henrik Gemal <bugzilla@gemal.dk>
+    Gayatri Bhimaraju <gayatrib@netscape.com>
+    Stephen Donner <stephend@netscape.com>
+    Gervase Markham <gervase.markham@univ.ox.ac.uk>
+    Håkan Waara <hwaara@chello.se>
+    Navin Gupta <naving@netscape.com>
+    David Bienvenu <bienvenu@netscape.com>
+    Sean Su <ssu@netscape.com>
+    Serge Gautheri <gautheri@noos.fr>
+    Scott MacGregor <scott@scott-macgregor.org>
+    Howard Chu <hyc@symas.com>
+    Mark Banner <mark@standard8.demon.co.uk>
+    Mike Shaver <shaver@mozilla.org>
+    Karsten Düsterloh <mnyromyr@tprac.de>
+
+ Alternatively, the contents of this file may be used under the terms of
+ either of the GNU General Public License Version 2 or later (the "GPL"),
+ or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ in which case the provisions of the GPL or the LGPL are applicable instead
+ of those above. If you wish to allow use of your version of this file only
+ under the terms of either the GPL or the LGPL, and not to allow others to
+ use your version of this file under the terms of the MPL, indicate your
+ decision by deleting the provisions above and replace them with the notice
+ and other provisions required by the GPL or the LGPL. If you do not delete
+ the provisions above, a recipient may use your version of this file under
+ the terms of any one of the MPL, the GPL or the LGPL.
+
+ ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY window.title                "フィルタの設定">
+<!ENTITY filterEditorDialog.dimensions "width: 105ch;"><!-- en-US: "width: 105ch;" -->
+<!ENTITY filterName.label            "フィルタ名:">
+<!ENTITY filterName.accesskey        "i">
+
+<!ENTITY junk.label                  "迷惑メール">
+<!ENTITY notJunk.label               "非迷惑メール">
+
+<!ENTITY lowestPriorityCmd.label     "最低">
+<!ENTITY lowPriorityCmd.label        "低">
+<!ENTITY normalPriorityCmd.label     "標準">
+<!ENTITY highPriorityCmd.label       "高">
+<!ENTITY highestPriorityCmd.label    "最高">
+
+<!ENTITY contextDesc.label           "フィルタを適用するタイミング:">
+<!ENTITY contextDesc.accesskey       "w">
+<!ENTITY contextIncoming.label       "メールチェック時">
+<!ENTITY contextManual.label         "手動で実行">
+<!ENTITY contextBoth.label           "メールチェック時と手動実行">
+<!ENTITY contextPostPlugin.label     "メールチェック時 (迷惑メール分類後)">
+<!ENTITY contextPostPluginBoth.label "メールチェック時 (迷惑メール分類後) または手動実行">
+
+<!ENTITY filterActionDesc.label      "以下の動作を実行する:">
+<!ENTITY filterActionDesc.accesskey  "P">
+
+<!-- New Style Filter Rule Actions -->
+<!ENTITY moveMessage.label           "メッセージを移動する">
+<!ENTITY copyMessage.label           "メッセージをコピーする">
+<!ENTITY forwardTo.label             "メッセージを転送する">
+<!ENTITY replyWithTemplate.label     "テンプレートを使用して返信する">
+<!ENTITY markMessageRead.label       "メッセージを既読にする">
+<!ENTITY markMessageStarred.label    "メッセージにフラグを付ける">
+<!ENTITY setPriority.label           "重要度を設定する">
+<!ENTITY addTag.label                "メッセージにタグを付ける">
+<!ENTITY setJunkScore.label          "迷惑メールかどうか設定する">
+<!ENTITY deleteMessage.label         "メッセージを削除する">
+<!ENTITY deleteFromPOP.label         "メッセージを POP サーバから削除する">
+<!ENTITY fetchFromPOP.label          "POP サーバから本文を取得する">
+<!ENTITY ignoreThread.label          "スレッドを無視する">
+<!ENTITY ignoreSubthread.label       "サブスレッドを無視する">
+<!ENTITY watchThread.label           "注目スレッドに設定する">
+<!ENTITY stopExecution.label         "フィルタの実行を中止する">
