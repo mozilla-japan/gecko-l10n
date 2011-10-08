@@ -49,7 +49,7 @@
 
 <!-- File menu items -->
 <!ENTITY exportToTextCmd.label		"テキストに@@Export@@...">
-<!ENTITY exportToTextCmd.accesskey	"T">
+<!ENTITY exportToTextCmd.accesskey	"x">
 <!ENTITY previewCmd.label		"ページをブラウズ">
 <!ENTITY previewCmd.accesskey		"w">
 <!ENTITY sendPageCmd.label		"ページを送信...">
