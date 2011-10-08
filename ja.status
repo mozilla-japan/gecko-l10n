@@ -173,4 +173,5 @@ suite                   -----:------------  8560:bc61f0aededf   mar             
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                     78238:b3b15c400d3f  ----:------------   mar             sync dom
+editor/ui               -----:------------  8855:4cd6e224028d   mar             sync editor/ui
 

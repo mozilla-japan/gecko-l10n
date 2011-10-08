@@ -51,4 +51,4 @@
 
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField.label		"Web ページやローカルファイルの場所を入力するか、ポップアップリストから名前付きアンカーもしくは見出しを選択してください:">
-<!ENTITY LinkURLEditField.accessKey	"L">
+<!ENTITY LinkURLEditField.accessKey	"w">

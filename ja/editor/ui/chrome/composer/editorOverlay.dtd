@@ -61,7 +61,7 @@
 <!ENTITY fileRecentMenu.label "最近使用したページ">
 <!ENTITY fileRecentMenu.accesskey "R">
 <!ENTITY fileRevert.label "@@Revert@@">
-<!ENTITY fileRevert.accesskey "v">
+<!ENTITY fileRevert.accesskey "t">
 <!ENTITY saveCmd.label "保存">
 <!ENTITY saveCmd.accesskey "S">
 <!ENTITY saveCmd.key "S">
@@ -75,11 +75,6 @@
 <!ENTITY publishAsCmd.accesskey "h">
 <!ENTITY saveAsChangeEncodingCmd.label "文字エンコーディングを変更して保存">
 <!ENTITY saveAsChangeEncodingCmd.accesskey "E">
-<!ENTITY printSetupCmd.label "ページ設定...">
-<!ENTITY printSetupCmd.accesskey "u">
-<!ENTITY printCmd.label "@@Print@@...">
-<!ENTITY printCmd.accesskey "P">
-<!ENTITY printCmd.key "P">
 
 <!-- Edit menu items -->
 <!ENTITY editMenu.label "編集">

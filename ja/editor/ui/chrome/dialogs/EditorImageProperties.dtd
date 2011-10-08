@@ -62,17 +62,17 @@
 <!ENTITY actualSize.label		"実際のサイズ:">
 <!ENTITY actualSizeRadio.label		"実際のサイズ">
 <!ENTITY actualSizeRadio.accessKey	"A">
-<!ENTITY actualSizeRadio.tooltip	"画像を実際のサイズに戻す">
+<!ENTITY actualSizeRadio.tooltip	"画像を実際のサイズに戻します">
 <!ENTITY customSizeRadio.label		"カスタムサイズ"><!-- (^^; -->
 <!ENTITY customSizeRadio.accessKey	"S">
-<!ENTITY customSizeRadio.tooltip	"ページに表示されるときの画像サイズを変更する">
+<!ENTITY customSizeRadio.tooltip	"ページに表示されるときの画像サイズを変更します">
 <!ENTITY heightEditField.label		"高さ:">
 <!ENTITY heightEditField.accessKey	"G">
 <!ENTITY widthEditField.label		"幅:">
 <!ENTITY widthEditField.accessKey	"W">
 <!ENTITY constrainCheckbox.label	"縦横比固定"><!-- (^^; Constrain -->
 <!ENTITY constrainCheckbox.accessKey	"C">
-<!ENTITY constrainCheckbox.tooltip	"画像の縦横比を固定する">
+<!ENTITY constrainCheckbox.tooltip	"画像の縦横比を固定します">
 
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label		"イメージマップ">
@@ -99,8 +99,11 @@
 <!ENTITY borderEditField.accessKey	"B">
 
 <!-- These controls are in the Link Box -->
-<!ENTITY showImageLinkBorder.label	"リンク付きの画像の周りに枠線を表示する">
+<!ENTITY showImageLinkBorder.label	"リンク付き画像の周りに枠線を表示する">
 <!ENTITY showImageLinkBorder.accessKey	"B">
+<!ENTITY LinkAdvancedEditButton.label	"リンクの詳細...">
+<!ENTITY LinkAdvancedEditButton.accessKey "L">
+<!ENTITY LinkAdvancedEditButton.tooltip	"HTML 属性、スタイル属性、JavaScript を追加または編集します">
 
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label		"フォーム">
