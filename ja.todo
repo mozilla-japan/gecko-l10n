@@ -22,6 +22,15 @@ Firefox 5 メモ。
       addonsInstalledNeedsRestart
 
 
+Fennec 8.0 メモ
+
+(^m^) Aurora には間に合わなかったようなので、default と l10n-mozilla-8.0 (mozilla-beta/ja) の両方にコミットしてください。(default にコミットして 8.0 に transplant でも可)
+
+8.0 ブランチには、以下も含めてください。
+changeset: 730:027b6b38aee9 (by dynamis)
+fix translation of Paste and Go
+http://code.google.com/p/mozja/source/detail?r=027b6b38aee9c3096cba369a85b9939095be0501
+
 
 ◆各リポジトリへの対応について、何かあれば以下に書き残してください。
 
@@ -33,10 +42,10 @@ beta だけ変更が必要な事などはあると思うので aurora->beta 切�
 
 mozilla-central -> 当面のところ対応予定無し
 mozilla-aurora  -> ja では default
-mozilla-beta    -> branches/l10n-mozilla-5.0
-                   branches/l10n-mozilla-6.0
+mozilla-beta    -> l10n-mozilla-5.0
+                   l10n-mozilla-6.0
                      ...
-mozilla-2.0     -> branches/l10n-mozilla-2.0
+mozilla-2.0     -> l10n-mozilla-2.0
 ----- END (^^;
 
 
