@@ -1,0 +1,14 @@
+<!ENTITY dom.label			"DOM ノード">
+<!ENTITY stylesheets.label		"スタイルシート">
+<!ENTITY domNode.label			"DOM ノード">
+<!ENTITY boxModel.label			"ボックスモデル">
+<!ENTITY xblBindings.label		"XBL バインディング">
+<!ENTITY styleRules.label		"CSS 規則">
+<!ENTITY computedStyle.label		"計算されたスタイル">
+<!ENTITY jsObject.label			"JavaScript オブジェクト">
+<!ENTITY accessibleEvent.label		"Accessible イベント">
+<!ENTITY accessibleObject.label		"Accessible オブジェクト">
+<!ENTITY accessibleProps.label		"Accessible プロパティ">
+<!ENTITY accessibleRelations.label	"Accessible リレーション">
+<!ENTITY accessibleEvents.label		"Accessible イベント">
+<!ENTITY accessibleTree.label		"Accessible ツリー">

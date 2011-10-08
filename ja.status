@@ -158,6 +158,7 @@ mail                    -----:------------  8144:22a4e7168d11   mar             
 embedding, mobile       72731:e0521aa0fec0  ----:------------   knagato         sync embedding, mobile
 suite                   -----:------------  8210:271501c7d9a2   tooyama, mar    sync suite
 
+
 [l10n-mozilla-8.0] (for beta)
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
@@ -174,4 +175,5 @@ target dir              mozilla and comm hg changeset rev:id    by              
 --------------------------------------------------------------------------------------------------------------
 dom                     78238:b3b15c400d3f  ----:------------   mar             sync dom
 editor/ui               -----:------------  8855:4cd6e224028d   mar             sync editor/ui
+inspector               -----:------------  ----:------------   mar             sync inspector for 2.0.11pre
 
