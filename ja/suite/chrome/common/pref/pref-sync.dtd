@@ -20,8 +20,8 @@
 <!ENTITY viewQuota.accesskey          "V">
 <!ENTITY changePassword.label         "パスワードを変更">
 <!ENTITY changePassword.accesskey     "C">
-<!ENTITY mySyncKey.label              "自分の Sync キー">
-<!ENTITY mySyncKey.accesskey          "M">
+<!ENTITY myRecoveryKey.label          "自分のリカバリキー">
+<!ENTITY myRecoveryKey.accesskey      "M">
 <!ENTITY resetSync.label              "Sync をリセット">
 <!ENTITY resetSync.accesskey          "R">
 <!ENTITY deactivateDevice.label       "このデバイスの同期を停止">

@@ -14,12 +14,6 @@
 <!ENTITY editPageCmd.accesskey "E">
 <!ENTITY editPageCmd.commandkey "e">
 
-<!ENTITY printPreviewCmd.label "@@Print@@プレビュー">
-<!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "@@Print@@...">
-<!ENTITY printCmd.accesskey "p">
-<!ENTITY printCmd.commandkey "p">
-
 <!ENTITY navbarCmd.label "ナビゲーションツールバー">
 <!ENTITY navbarCmd.accesskey "N">
 <!ENTITY personalbarCmd.label "パーソナルツールバー">
