@@ -21,3 +21,4 @@
 <!ENTITY homepage.default                          "&brandShortName; スタート">
 <!ENTITY homepage.currentpage                      "現在のページ">
 <!ENTITY showCharsetEncoding.title                 "文字コードを表示する"><!-- 11字までなので「文字エンコーディング」は使えない -->
+<!ENTITY actionbar.default                         "&brandShortName; 設定">

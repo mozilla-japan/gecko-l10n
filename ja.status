@@ -176,4 +176,5 @@ target dir              mozilla and comm hg changeset rev:id    by              
 dom                     78238:b3b15c400d3f  ----:------------   mar             sync dom
 editor/ui               -----:------------  8855:4cd6e224028d   mar             sync editor/ui
 inspector               -----:------------  ----:------------   mar             sync inspector for 2.0.11pre
+mobile                  78206:79eab065f0d0  ----:------------   knagato         sync mobile
 

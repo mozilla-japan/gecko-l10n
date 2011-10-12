@@ -9,3 +9,13 @@
 <!ENTITY aboutHome.noTabs                       "前回終了時に開いていたタブはありません">
 <!ENTITY aboutHome.noAddons                     "オススメのアドオンはありません">
 <!ENTITY aboutHome.getLocale                    "言語を変更する">
+<!ENTITY aboutHome.getInBeforeBeta              "ベータ版より先に試す。">
+<!ENTITY aboutHome.tryAurora                    "Firefox Aurora を試して、 Firefox の未来を創り上げる協力をしてください。">
+<!-- LOCALIZATION NOTE:
+     (aboutHome.downloadAurora): First line of a multi-line button. Treat as a title.
+-->
+<!ENTITY aboutHome.downloadAurora		"Aurora をダウンロード">
+<!-- LOCALIZATION NOTE:
+     (aboutHome.forAndroid): Second line of a multi-line button. Treat as a subtitle.
+-->
+<!ENTITY aboutHome.forAndroid			"Android 版">

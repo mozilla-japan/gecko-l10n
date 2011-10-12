@@ -93,9 +93,11 @@
 <!ENTITY consoleErrColumn.label    "列:">
 
 <!ENTITY contextOpenInNewTab.label    "リンクを@@NewTab@@で開く">
-<!ENTITY contextSaveLink.label        "リンク先を保存">
 <!ENTITY contextSaveImage.label       "画像を保存">
 <!ENTITY contextCopyLink.label        "リンクをコピー">
+<!ENTITY contextCopyEmail.label       "メールアドレスをコピー">
+<!ENTITY contextCopyPhone.label       "電話番号をコピー">
+<!ENTITY contextCopyImageLocation.label       "画像の URL をコピー">
 <!ENTITY contextShareLink.label       "リンクを共有">
 <!ENTITY contextShareImage.label      "画像を共有">
 <!ENTITY contextBookmarkLink.label    "リンクをブックマーク">
@@ -116,6 +118,5 @@
 <!ENTITY pageactions.findInPage      "ページ内検索"><!-- 「ページ中を検索」は画面サイズとフォントによっては切れる -->
 <!ENTITY pageactions.search.addNew   "検索エンジンを追加">
 <!ENTITY pageactions.charEncoding    "文字コード"><!-- 設定画面に「文字エンコーディング」では長すぎて使えないところがある -->
-<!ENTITY pageactions.webapps.install "アプリとしてインストール">
 
 <!ENTITY appMenu.siteOptions         "サイトの設定">
