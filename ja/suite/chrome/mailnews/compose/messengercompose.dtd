@@ -11,10 +11,7 @@
 <!-- menu items:  the . means that the menu item isn't implemented yet -->
 
 <!-- File menu items -->
-<!ENTITY newMessage.label "メッセージ">
-<!ENTITY newMessage.accesskey "M">
 <!ENTITY saveCmd.label "保存">
-<!ENTITY saveCmd.key "S">
 <!ENTITY saveCmd.accesskey "s">
 <!ENTITY saveAsCmd.label "選択して保存">
 <!ENTITY saveAsCmd.accesskey "A">
@@ -39,11 +36,6 @@
 <!ENTITY sendLaterCmd.label "後で送信">
 <!ENTITY sendLaterCmd.keycode "VK_RETURN">
 <!ENTITY sendLaterCmd.accesskey "L">
-<!ENTITY printSetupCmd.label "ページ設定...">
-<!ENTITY printSetupCmd.accesskey "u">
-<!ENTITY printCmd.label "@@Print@@...">
-<!ENTITY printCmd.key "P">
-<!ENTITY printCmd.accesskey "P">
 
 <!-- Edit menu items -->
 <!ENTITY editRewrapCmd.label "再改行">
@@ -74,7 +66,7 @@
 <!ENTITY selectAddressCmd.accesskey "A">
 
 <!ENTITY checkSpellingCmd2.label "スペルチェック...">
-<!ENTITY checkSpellingCmd2.key "p">
+
 <!ENTITY checkSpellingCmd2.accesskey "h">
 <!ENTITY enableInlineSpellChecker.label "自動スペルチェック"><!-- en-US: Spell Check As You Type -->
 <!ENTITY enableInlineSpellChecker.accesskey "S">
@@ -135,8 +127,6 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "辞書に追加">
 <!ENTITY spellCheckAddToDictionary.accesskey "n">
-<!ENTITY pasteQuote.label "引用文として@@Paste@@">
-<!ENTITY pasteQuote.accesskey "Q">
 
 <!ENTITY openAttachment.label "開く">
 <!ENTITY openAttachment.accesskey "O">
