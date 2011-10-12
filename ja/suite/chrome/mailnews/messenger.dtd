@@ -107,13 +107,6 @@
 <!ENTITY downloadSelectedCmd.accesskey         "t">
 <!ENTITY downloadFlaggedCmd.label              "フラグを付けたメッセージを受信">
 <!ENTITY downloadFlaggedCmd.accesskey          "G">
-<!ENTITY printCmd.label                        "@@Print@@...">
-<!ENTITY printCmd.accesskey                    "P">
-<!ENTITY printCmd.key                          "p">
-<!ENTITY printPreviewCmd.label                 "@@Print@@プレビュー">
-<!ENTITY printPreviewCmd.accesskey             "v">
-<!ENTITY printSetupCmd.label                   "ページ設定...">
-<!ENTITY printSetupCmd.accesskey               "u">
 
 <!-- Edit Menu -->
 <!ENTITY deleteMsgCmd.label                    "メッセージを削除">

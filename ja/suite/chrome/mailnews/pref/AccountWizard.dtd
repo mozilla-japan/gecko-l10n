@@ -5,9 +5,9 @@
 
 <!-- Entities for Account Type page -->
 
-<!ENTITY accountSetupInfo.label "メッセージを受信するには、初めにメールまたはニュースグループのアカウント設定をする必要があります。">
+<!ENTITY accountSetupInfo2.label "メッセージを受信するには、まずアカウントを設定する必要があります。">
 <!ENTITY accountTypeTitle.label "@@New-CMD@@アカウントのセットアップ">
-<!ENTITY accountTypeDesc.label "メールやニュースグループのアカウント設定に必要な情報を入力してください。入力する情報が分からない場合はシステム管理者やインターネットサービスプロバイダに問い合わせてください。">
+<!ENTITY accountTypeDesc2.label "このウィザードは、アカウントを設定するために必要な情報を収集します。 入力する情報が分からない場合はシステム管理者やインターネットサービスプロバイダに問い合わせてください。">
 <!ENTITY accountTypeDirections.label "設定するアカウントの種類を選択してください:">
 <!ENTITY accountTypeMail.label "メールアカウント">
 <!ENTITY accountTypeMail.accesskey "m">

@@ -63,8 +63,6 @@
 <!ENTITY printAddressBook.accesskey                     "A">
 <!ENTITY printPreviewAddressBook.label                  "アドレス帳の@@Print@@プレビュー">
 <!ENTITY printPreviewAddressBook.accesskey              "B">
-<!ENTITY printSetupCmd.label                            "ページ設定...">
-<!ENTITY printSetupCmd.accesskey                        "u">
 
 <!-- Edit Menu -->
 <!ENTITY deleteAbCmd.label                              "アドレス帳を削除">
@@ -128,6 +126,9 @@
 <!ENTITY deleteItemButton.tooltip                       "選択した連絡先またはアドレス帳を削除します">
 <!ENTITY throbber.tooltip                               "&vendorShortName; ホームページを表示します">
 <!ENTITY advancedButton.tooltip                         "アドレスを検索します">
+
+<!-- Dir Tree header -->
+<!ENTITY dirTreeHeader.label                            "アドレス帳">
 
 <!-- Status Bar -->  
 <!ENTITY statusText.label                               "">
