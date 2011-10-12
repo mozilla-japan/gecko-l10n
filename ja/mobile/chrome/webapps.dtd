@@ -4,3 +4,4 @@
 <!ENTITY webapps.perm.offline		"オフラインデータストレージ">
 <!ENTITY webapps.perm.notifications	"デスクトップ通知">
 <!ENTITY webapps.perm.requestedHint	"(推奨)">
+<!ENTITY webapps.add-homescreen	"ホーム画面に追加">
