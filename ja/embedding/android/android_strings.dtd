@@ -15,3 +15,9 @@
 <!ENTITY  sending_crash_report "クラッシュレポートを送信しています...">
 <!ENTITY  exit_label "終了">
 <!ENTITY  continue_label "続ける">
+
+<!-- ホーム画面長押ししてショートカット作成するメニュー、長いと改行される -->
+<!ENTITY  launcher_shortcuts_title "&brandShortName; Web アプリ">
+<!ENTITY  launcher_shortcuts_empty "Web アプリは登録されていません">
+
+<!ENTITY choose_file "ファイルを選んでください">

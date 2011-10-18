@@ -9,6 +9,7 @@ browser                 moz     Fx              Firefox
 calendar                comm    Sb              Sunbird/Lightning
 dom                     moz     all             
 editor/ui               comm    Tb, Sm          メール編集画面
+embedding               moz     Fe              Android
 extensions
   inspector             dom-i   Fx, Sm          DOM Inspector
   irc                   moz     Sm              IRC Client Chatzilla
@@ -160,9 +161,10 @@ suite                   -----:------------  8210:271501c7d9a2   tooyama, mar    
 [l10n-mozilla-8.0] (for aurora)
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
-mobile                  75786:2564751174a2  ----:------------   knagato         sync mobile
+mobil                   75786:2564751174a2  ----:------------   knagato         sync mobile
 toolkit                 75826:95f04aa2a1c4  8522:f7580538c795   mar             sync toolkit
 browser, dom            75846:b1d382004d3f  ----:------------   hATrayflood     sync browser, dom
 editor/ui               -----:------------  8537:265622251756   mar             sync editor/ui
 mail                    -----:------------  8551:826ae0ae8d33   mar             sync mail
 suite                   -----:------------  8560:bc61f0aededf   mar             sync suite
+embedding               76331:522217082f0d  -----:-----------   dynamis         sync mobile
