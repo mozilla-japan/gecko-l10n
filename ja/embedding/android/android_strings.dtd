@@ -1,5 +1,3 @@
-<!ENTITY  splash_screen_loading "読み込み中...">
-<!ENTITY  splash_screen_installing_libs "ライブラリをインストール中..."><!-- 〜していますだと長すぎる -->
 <!ENTITY  splash_firstrun "&brandShortName; を設定しています...">
 
 <!ENTITY  no_space_to_start_error "&brandShortName; を起動するために必要な空き領域が不足しています。">
@@ -15,3 +13,9 @@
 <!ENTITY  sending_crash_report "クラッシュレポートを送信しています...">
 <!ENTITY  exit_label "終了">
 <!ENTITY  continue_label "続ける">
+
+<!-- ホーム画面長押ししてショートカット作成するメニュー、長いと改行される -->
+<!ENTITY  launcher_shortcuts_title "&brandShortName; Web アプリ">
+<!ENTITY  launcher_shortcuts_empty "Web アプリは登録されていません">
+
+<!ENTITY choose_file "ファイルを選んでください">
