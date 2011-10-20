@@ -179,3 +179,4 @@ editor/ui               -----:------------  8855:4cd6e224028d   mar             
 inspector               -----:------------  ----:------------   mar             sync inspector for 2.0.11pre
 mobile                  78206:79eab065f0d0  ----:------------   knagato         sync mobile
 embedding               78275:598684717e50  ----:------------   dynamis         sync embedding
+mail                    -----:------------  8885:603a1f04140b   mar             sync mail

@@ -39,43 +39,42 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY toField2.label				"宛先 ">
-<!ENTITY fromField2.label			"差出人 ">
-<!ENTITY senderField2.label			"送信者 ">
-<!ENTITY organizationField2.label		"組織 ">
-<!ENTITY replyToField2.label			"返信先 ">
+<!ENTITY toField3.label				"宛先 ">
+<!ENTITY fromField3.label			"差出人 ">
+<!ENTITY senderField3.label			"送信者 ">
+<!ENTITY organizationField3.label		"組織 ">
+<!ENTITY replyToField3.label			"返信先 ">
 
-<!ENTITY subjectField2.label			"件名 ">
-<!--# LOCALIZATION NOTE (ccField.label): DONT_TRANSLATE -->
-<!ENTITY ccField2.label				"Cc ">
-<!ENTITY bccField2.label			"Bcc ">
-<!ENTITY newsgroupsField2.label			"ニュースグループ ">
-<!ENTITY followupToField2.label			"Followup-To ">
-<!ENTITY tagsHdr2.label				"タグ ">
-<!ENTITY dateField2.label			"送信日時 ">
-<!ENTITY userAgentField2.label			"User-Agent ">
-<!ENTITY referencesField2.label			"references ">
-<!ENTITY messageIdField2.label			"message-id ">
-<!ENTITY inReplyToField2.label			"in-reply-to ">
-<!ENTITY originalWebsite2.label			"Web サイト ">
+<!ENTITY subjectField3.label			"件名 ">
+<!ENTITY ccField3.label				"Cc ">
+<!ENTITY bccField3.label			"Bcc ">
+<!ENTITY newsgroupsField3.label			"ニュースグループ ">
+<!ENTITY followupToField3.label			"Followup To ">
+<!ENTITY tagsHdr3.label				"タグ ">
+<!ENTITY dateField3.label			"送信日時 ">
+<!ENTITY userAgentField3.label			"User Agent ">
+<!ENTITY referencesField3.label			"References ">
+<!ENTITY messageIdField3.label			"Message ID ">
+<!ENTITY inReplyToField3.label			"In Reply To ">
+<!ENTITY originalWebsite3.label			"Web サイト ">
 
 <!ENTITY editMessageDescription.label		"このメッセージは下書きです">
 <!ENTITY editMessageButton.label		"編集...">
-<!ENTITY hdrArchiveButton.label			"アーカイブ">
-<!ENTITY hdrArchiveButton.tooltip		"このメッセージをアーカイブに移動します">
-<!ENTITY hdrSmartReplyButton.label		"適宜返信"><!-- en-US: "smart reply" -->
-<!ENTITY hdrReplyButton.label			"返信">
-<!ENTITY hdrReplyButton.tooltip			"このメッセージの差出人に返信します">
-<!ENTITY hdrReplyAllButton.label		"全員に返信">
-<!ENTITY hdrReplyAllButton.tooltip		"このメッセージの差出人と他の受信者全員に返信します">
-<!ENTITY hdrReplyListButton.label		"リストに返信">
-<!ENTITY hdrReplyListButton.tooltip		"メーリングリストに返信します">
-<!ENTITY hdrForwardButton.label			"転送">
-<!ENTITY hdrForwardButton.tooltip		"このメッセージを転送します">
-<!ENTITY hdrJunkButton.label			"迷惑マークを付ける">
-<!ENTITY hdrJunkButton.tooltip			"このメッセージに迷惑マークを付けます">
-<!ENTITY hdrTrashButton.label			"削除">
-<!ENTITY hdrTrashButton.tooltip			"このメッセージを削除します">
+<!ENTITY hdrArchiveButton1.label		"アーカイブ">
+<!ENTITY hdrArchiveButton1.tooltip		"このメッセージをアーカイブに移動します">
+<!ENTITY hdrSmartReplyButton1.label		"適宜返信"><!-- en-US: "Smart Reply" -->
+<!ENTITY hdrReplyButton1.label			"返信">
+<!ENTITY hdrReplyButton1.tooltip		"このメッセージの差出人に返信します">
+<!ENTITY hdrReplyAllButton1.label		"全員に返信">
+<!ENTITY hdrReplyAllButton1.tooltip		"このメッセージの差出人と他の受信者全員に返信します">
+<!ENTITY hdrReplyListButton1.label		"リストに返信">
+<!ENTITY hdrReplyListButton1.tooltip		"メーリングリストに返信します">
+<!ENTITY hdrForwardButton1.label		"転送">
+<!ENTITY hdrForwardButton1.tooltip		"このメッセージを転送します">
+<!ENTITY hdrJunkButton1.label			"迷惑マークを付ける">
+<!ENTITY hdrJunkButton1.tooltip			"このメッセージに迷惑マークを付けます">
+<!ENTITY hdrTrashButton1.label			"削除">
+<!ENTITY hdrTrashButton1.tooltip		"このメッセージを削除します">
 
 <!ENTITY hdrViewToolbarShowFull.label		"アイコンとテキストを表示">
 <!ENTITY hdrViewToolbarShowFull.accesskey	"a">
@@ -86,33 +85,33 @@
 <!ENTITY hdrViewToolbarAlwaysReplySender.label	"差出人への返信ボタンを常に表示">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey	"R">
 
-<!ENTITY otherActionsButton.label		"その他の操作">
-<!ENTITY otherActionsOpenConversation.label	"スレッドを@@NewTab@@で開く"><!-- en-US: "open in conversation" -->
-<!ENTITY otherActionsOpenConversation.accesskey	"c">
-<!ENTITY otherActionsOpenInNewWindow.label	"@@NewWindow@@で開く">
-<!ENTITY otherActionsOpenInNewWindow.accesskey	"w">
-<!ENTITY otherActionsOpenInNewTab.label		"@@NewTab@@で開く">
-<!ENTITY otherActionsOpenInNewTab.accesskey	"t">
-<!ENTITY markAsReadMenuItem.label		"既読にする">
-<!ENTITY markAsReadMenuItem.accesskey		"r">
-<!ENTITY markAsUnreadMenuItem.label		"未読にする">
-<!ENTITY markAsUnreadMenuItem.accesskey		"r">
-<!ENTITY saveAsMenuItem.label			"@@SaveAs@@...">
-<!ENTITY saveAsMenuItem.accesskey		"s">
-<!ENTITY viewSourceMenuItem.label		"ソースを表示">
-<!ENTITY viewSourceMenuItem.accesskey		"v">
-<!ENTITY otherActionsPrint.label		"@@Print@@...">
-<!ENTITY otherActionsPrint.accesskey		"p">
+<!ENTITY otherActionsButton1.label		"その他の操作">
+<!ENTITY otherActionsOpenConversation1.label	"スレッドを@@NewTab@@で開く"><!-- en-US: "open in conversation" -->
+<!ENTITY otherActionsOpenConversation1.accesskey	"C">
+<!ENTITY otherActionsOpenInNewWindow1.label	"@@NewWindow@@で開く">
+<!ENTITY otherActionsOpenInNewWindow1.accesskey	"W">
+<!ENTITY otherActionsOpenInNewTab1.label	"@@NewTab@@で開く">
+<!ENTITY otherActionsOpenInNewTab1.accesskey	"T">
+<!ENTITY markAsReadMenuItem1.label		"既読にする">
+<!ENTITY markAsReadMenuItem1.accesskey		"R">
+<!ENTITY markAsUnreadMenuItem1.label		"未読にする">
+<!ENTITY markAsUnreadMenuItem1.accesskey	"r">
+<!ENTITY saveAsMenuItem1.label			"@@SaveAs@@...">
+<!ENTITY saveAsMenuItem1.accesskey		"S">
+<!ENTITY viewSourceMenuItem1.label		"ソースを表示">
+<!ENTITY viewSourceMenuItem1.accesskey		"V">
+<!ENTITY otherActionsPrint1.label		"@@Print@@...">
+<!ENTITY otherActionsPrint1.accesskey		"P">
 
 <!-- Attachment context menu items -->
 <!ENTITY openAttachmentCmd.label		"開く">
 <!ENTITY openAttachmentCmd.accesskey		"O">
 <!ENTITY saveAsAttachmentCmd.label		"@@SaveAs@@...">
-<!ENTITY saveAsAttachmentCmd.accesskey		"A">
+<!ENTITY saveAsAttachmentCmd.accesskey		"S">
 <!ENTITY detachAttachmentCmd.label		"添付ファイルを分離...">
-<!ENTITY detachAttachmentCmd.accesskey		"T">
+<!ENTITY detachAttachmentCmd.accesskey		"D">
 <!ENTITY deleteAttachmentCmd.label		"削除">
-<!ENTITY deleteAttachmentCmd.accesskey		"L">
+<!ENTITY deleteAttachmentCmd.accesskey		"e">
 <!ENTITY openAllAttachmentsCmd.label		"すべて開く...">
 <!ENTITY openAllAttachmentsCmd.accesskey	"O">
 <!ENTITY saveAllAttachmentsCmd.label		"すべて保存...">
@@ -120,29 +119,13 @@
 <!ENTITY detachAllAttachmentsCmd.label		"すべて分離...">
 <!ENTITY detachAllAttachmentsCmd.accesskey	"D">
 <!ENTITY deleteAllAttachmentsCmd.label		"すべて削除...">
-<!ENTITY deleteAllAttachmentsCmd.accesskey	"E">
+<!ENTITY deleteAllAttachmentsCmd.accesskey	"e">
 
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton.label		"保存">
-<!ENTITY saveAttachmentButton.tooltip		"添付ファイルを保存します">
-<!ENTITY saveAllAttachmentsButton.label		"すべて保存">
-<!ENTITY saveAllAttachmentsButton.tooltip	"添付されたすべてのファイルを保存します">
-<!ENTITY openAttachmentMenuItem.label		"開く">
-<!ENTITY openAttachmentMenuItem.accesskey	"o">
-<!ENTITY saveAsAttachmentMenuItem.label		"@@SaveAs@@...">
-<!ENTITY saveAsAttachmentMenuItem.accesskey	"s">
-<!ENTITY detachAttachmentMenuItem.label		"分離...">
-<!ENTITY detachAttachmentMenuItem.accesskey	"d">
-<!ENTITY deleteAttachmentMenuItem.label		"削除">
-<!ENTITY deleteAttachmentMenuItem.accesskey	"e">
-<!ENTITY openAllAttachmentsMenuItem.label	"すべて開く...">
-<!ENTITY openAllAttachmentsMenuItem.accesskey	"o">
-<!ENTITY saveAllAttachmentsMenuItem.label	"すべて保存...">
-<!ENTITY saveAllAttachmentsMenuItem.accesskey	"s">
-<!ENTITY detachAllAttachmentsMenuItem.label	"すべて分離...">
-<!ENTITY detachAllAttachmentsMenuItem.accesskey	"d">
-<!ENTITY deleteAllAttachmentsMenuItem.label	"すべて削除...">
-<!ENTITY deleteAllAttachmentsMenuItem.accesskey	"e">
+<!ENTITY saveAttachmentButton1.label		"保存">
+<!ENTITY saveAttachmentButton1.tooltip		"添付ファイルを保存します">
+<!ENTITY saveAllAttachmentsButton1.label	"すべて保存">
+<!ENTITY saveAllAttachmentsButton1.tooltip	"添付されたすべてのファイルを保存します">
 
 <!ENTITY copyLinkCmd.label			"リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey			"C">

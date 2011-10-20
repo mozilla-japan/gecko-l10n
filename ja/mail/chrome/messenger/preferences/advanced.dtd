@@ -6,6 +6,9 @@
 
 <!-- General Settings -->
 
+<!ENTITY submitTelemetry.label			"パフォーマンス情報を送信する">
+<!ENTITY submitTelemetry.accesskey		"P">
+<!ENTITY telemetryInfoLink.label		"送信される情報についての詳細">
 <!ENTITY enableGlodaSearch.label		"グローバル検索と索引データベースを有効にする"><!-- (^^; Enable Global Search and Indexer -->
 <!ENTITY enableGlodaSearch.accesskey		"E">
 <!ENTITY systemIntegration.label		"システム統合">

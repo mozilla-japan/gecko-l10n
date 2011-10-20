@@ -93,6 +93,8 @@
 <!ENTITY viewMenu.accesskey			"v">
 <!ENTITY viewToolbarsMenuNew.label		"ツールバー">
 <!ENTITY viewToolbarsMenuNew.accesskey		"T">
+<!ENTITY menubarCmd.label			"メニューバー">
+<!ENTITY menubarCmd.accesskey			"M">
 <!ENTITY showCompositionToolbarCmd.label	"編集ツールバー">
 <!ENTITY showCompositionToolbarCmd.accesskey	"o">
 <!ENTITY showFormattingBarCmd.label		"書式バー">
