@@ -11,6 +11,7 @@
 <!ENTITY email.accesskey		"E">
 <!ENTITY replyTo.label			"返信先 (Reply-to):">
 <!ENTITY replyTo.accesskey		"s">
+<!ENTITY replyTo.placeholder		"受信者からの返信を受け取るアドレス">
 <!ENTITY organization.label		"組織 (Organization):">
 <!ENTITY organization.accesskey		"O">
 <!ENTITY signatureText.label		"署名編集:">

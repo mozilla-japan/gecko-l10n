@@ -22,16 +22,6 @@ Firefox 5 メモ。
       addonsInstalledNeedsRestart
 
 
-Fennec 8.0 メモ
-
-(^m^) Aurora には間に合わなかったようなので、default と l10n-mozilla-8.0 (mozilla-beta/ja) の両方にコミットしてください。(default にコミットして 8.0 に transplant でも可)
-
-8.0 ブランチには、以下も含めてください。
-changeset: 730:027b6b38aee9 (by dynamis)
-fix translation of Paste and Go
-http://code.google.com/p/mozja/source/detail?r=027b6b38aee9c3096cba369a85b9939095be0501
-
-
 ◆各リポジトリへの対応について、何かあれば以下に書き残してください。
 
 ・default ブランチで mozilla-aurora, comm-aurora に同期する。

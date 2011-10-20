@@ -1,4 +1,4 @@
 <!ENTITY window.title		"メッセージの要約">
 <!ENTITY selectedmessages.label	"選択したメッセージ">
-<!ENTITY archive.label		"アーカイブ">
-<!ENTITY delete.label		"削除">
+<!ENTITY archiveButton.label	"アーカイブ">
+<!ENTITY deleteButton.label	"削除">

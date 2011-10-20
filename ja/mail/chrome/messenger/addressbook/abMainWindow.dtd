@@ -79,6 +79,8 @@
 <!ENTITY viewMenu.accesskey			"v">
 <!ENTITY viewToolbarsMenu.label			"ツールバー">
 <!ENTITY viewToolbarsMenu.accesskey		"T"> 
+<!ENTITY menubarCmd.label			"メニューバー">
+<!ENTITY menubarCmd.accesskey			"M">
 <!ENTITY showAbToolbarCmd.label			"アドレス帳ツールバー">
 <!ENTITY showAbToolbarCmd.accesskey		"o">
 <!ENTITY showTaskbarCmd.label			"ステータスバー">
