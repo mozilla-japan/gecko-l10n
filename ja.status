@@ -148,7 +148,7 @@ browser                 70372:4afee8a13b96  ----:------------   hATrayflood     
 mobile                  70372:4afee8a13b96  ----:------------   dynamis         sync mobile
 
 
-[l10n-mozilla-7.0] (for beta)
+Released! [l10n-mozilla-7.0]
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                     72659:8f58f46715a2  ----:------------   mar             sync dom
@@ -158,13 +158,14 @@ mail                    -----:------------  8144:22a4e7168d11   mar             
 embedding, mobile       72731:e0521aa0fec0  ----:------------   knagato         sync embedding, mobile
 suite                   -----:------------  8210:271501c7d9a2   tooyama, mar    sync suite
 
-[l10n-mozilla-8.0] (for aurora)
+[l10n-mozilla-8.0] (for beta)
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
-mobil                   75786:2564751174a2  ----:------------   knagato         sync mobile
+mobile                  75786:2564751174a2  ----:------------   knagato         sync mobile
 toolkit                 75826:95f04aa2a1c4  8522:f7580538c795   mar             sync toolkit
 browser, dom            75846:b1d382004d3f  ----:------------   hATrayflood     sync browser, dom
 editor/ui               -----:------------  8537:265622251756   mar             sync editor/ui
 mail                    -----:------------  8551:826ae0ae8d33   mar             sync mail
 suite                   -----:------------  8560:bc61f0aededf   mar             sync suite
-embedding               76331:522217082f0d  -----:-----------   dynamis         sync mobile
+embedding               76331:522217082f0d  ----:------------   dynamis         sync mobile
+calendar                -----:------------  8942:09bcb1cd1240   mar             sync calendar (1.0rc2)
