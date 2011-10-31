@@ -13,8 +13,8 @@
 <!ENTITY useCurrentPage.label		"現在のページを使用">
 <!ENTITY useCurrentPage.accesskey	"C">
 <!ENTITY useMultiple.label		"現在のタブグループを使用">
-<!ENTITY useBookmark.label		"ブックマークから選択...">
-<!ENTITY useBookmark.accesskey		"B">
+<!ENTITY chooseBookmark.label		"ブックマークを使う...">
+<!ENTITY chooseBookmark.accesskey	"B">
 <!ENTITY restoreDefault.label		"初期設定に戻す">
 <!ENTITY restoreDefault.accesskey	"R">
 
