@@ -170,7 +170,7 @@ editor/ui               -----:------------  8537:265622251756   mar             
 mail                    -----:------------  8551:826ae0ae8d33   mar             sync mail
 suite                   -----:------------  8560:bc61f0aededf   mar             sync suite
 embedding               76331:522217082f0d  ----:------------   dynamis         sync embedding
-
+calendar                -----:------------  8942:09bcb1cd1240   mar             sync calendar (1.0rc2)
 
 [l10n-mozilla-9.0] (for aurora)
 target dir              mozilla and comm hg changeset rev:id    by              comment
@@ -182,3 +182,4 @@ mobile                  78206:79eab065f0d0  ----:------------   knagato         
 embedding               78275:598684717e50  ----:------------   dynamis         sync embedding
 mail                    -----:------------  8885:603a1f04140b   mar             sync mail
 toolkit                 78298:10dca99e30c4  8889:5b6c8298edbc   mar             sync toolkit
+calendar                -----:------------  8892:80e15b7801d2   mar             sync calendar
