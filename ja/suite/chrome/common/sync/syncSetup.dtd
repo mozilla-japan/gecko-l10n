@@ -40,14 +40,13 @@
 <!ENTITY setup.tosAgree2.accesskey  "">
 
 <!-- New Account Page 2: Recovery Key -->
-
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; はあなたのプライバシーを大切にします">
-<!ENTITY setup.newRecoveryKeyPage.description.label "あなたのプライバシーを守るため、すべてのデータはアップロード前に暗号化されます。データを復号する際に必要となる Sync キーはアップロードされません。">
+<!ENTITY setup.newRecoveryKeyPage.description.label "あなたのプライバシーを守るため、すべてのデータはアップロード前に暗号化されます。データを復号する際に必要となるリカバリキーはアップロードされません。">
 <!ENTITY recoveryKeyEntry.label        "リカバリキー">
 <!ENTITY recoveryKeyEntry.accesskey    "K">
 <!ENTITY recoveryKeyGenerate.label     "生成">
 <!ENTITY recoveryKeyGenerate.accesskey "G">
-<!ENTITY recoveryKeyBackup.description "リカバリキーは、他のパソコンから &syncBrand.fullName.label; へアクセスする際に必要となります。バックアップを残しておくことをお勧めします。リカバリキーを失くすと取り戻すことはできません。">
+<!ENTITY recoveryKeyBackup.description "リカバリキーは、他のパソコンから &syncBrand.fullName.label; へアクセスする際に必要となります。メモとして残しておくことをお勧めします。リカバリキーを失くすと取り戻すことはできません。">
 
 <!ENTITY button.syncKeyBackup.print.label     "@@Print@@...">
 <!ENTITY button.syncKeyBackup.print.accesskey "P">
@@ -67,12 +66,12 @@
 <!ENTITY addDevice.dialog.enterCode.label   "デバイスに表示されたコードを入力してください:">
 <!ENTITY addDevice.dialog.tryAgain.label    "もう一度入力してください。">
 <!ENTITY addDevice.dialog.successful.label  "デバイスの接続に成功しました。最初の同期はバックグラウンドで、数分のうちに完了します。">
-<!ENTITY addDevice.dialog.recoveryKey.label "お使いのデバイスを有効にするには、あなたの回復キーを入力する必要があります。以下のリカバリキーを@@Print@@または保存して、デバイスに入力してください。">
+<!ENTITY addDevice.dialog.recoveryKey.label "お使いのデバイスで &syncBrand.shortName.label; を有効にするには、リカバリキーを入力する必要があります。以下のリカバリキーを@@Print@@または保存して、デバイスに入力してください。">
 <!ENTITY addDevice.dialog.connected.label   "デバイスが接続されました">
 
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "サインイン">
-<!ENTITY existingRecoveryKey.description "リカバリキーは他の Sync デバイスの &syncBrand.shortName.label; 設定の &#x0022;アカウントを管理&#x0022; の &#x0022;自分の Sync キー&#x0022; で確認できます。">
+<!ENTITY existingRecoveryKey.description "リカバリキーは他の Sync デバイスの &syncBrand.shortName.label; 設定の &#x0022;アカウントを管理&#x0022; の &#x0022;自分のリカバリキー&#x0022; で確認できます。">
 
 <!ENTITY verifying.label              "確認中...">
 <!ENTITY resetPassword.label          "パスワードをリセット">

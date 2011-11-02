@@ -18,13 +18,13 @@
 <!ENTITY newNavigatorCmd.label		"ブラウザ@@Window@@">
 <!ENTITY newNavigatorCmd.key		"N">
 <!ENTITY newNavigatorCmd.accesskey	"B">
-<!ENTITY printSetupCmd.label "ページ設定…">
-<!ENTITY printSetupCmd.accesskey "u">
-<!ENTITY printPreviewCmd.label "@@Print@@プレビュー">
-<!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "@@Print@@">
-<!ENTITY printCmd.accesskey "P">
-<!ENTITY printCmd.key "P">
+<!ENTITY printSetupCmd.label		"ページ設定...">
+<!ENTITY printSetupCmd.accesskey	"u">
+<!ENTITY printPreviewCmd.label		"@@Print@@プレビュー">
+<!ENTITY printPreviewCmd.accesskey	"v">
+<!ENTITY printCmd.label			"@@Print@@">
+<!ENTITY printCmd.accesskey		"P">
+<!ENTITY printCmd.key			"P">
 
 <!ENTITY editMenu.label			"編集">
 <!ENTITY editMenu.accesskey		"E">
