@@ -1,0 +1,6 @@
+<!ENTITY applyTheme.label		"テーマを適用">
+<!ENTITY applyTheme.accesskey		"A">
+<!ENTITY getNewThemesCmd.label		"テーマを入手">
+<!ENTITY getNewThemesCmd.accesskey	"G">
+<!ENTITY getPersonasCmd.label		"Personas を入手">
+<!ENTITY getPersonasCmd.accesskey	"P">
