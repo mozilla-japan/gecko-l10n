@@ -9,7 +9,7 @@
 
 <!ENTITY setup.choicePage.title.label     "これまでに &syncBrand.fullName.label; を使用したことはありますか？">
 <!ENTITY setup.choicePage.new.label       "これまでに &syncBrand.shortName.label; を使用したことは一度もありません">
-<!ENTITY setup.choicePage.existing.label  "すでにに他のパソコンで &syncBrand.shortName.label; を使用しています">
+<!ENTITY setup.choicePage.existing.label  "すでに他のパソコンで &syncBrand.shortName.label; を使用しています">
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "サーバ">
@@ -65,7 +65,7 @@
 <!ENTITY addDevice.dialog.enterCode.label   "デバイスに表示されたコードを入力してください:">
 <!ENTITY addDevice.dialog.tryAgain.label    "もう一度入力してください。">
 <!ENTITY addDevice.dialog.successful.label  "デバイスの接続に成功しました。最初の同期はバックグラウンドで、数分のうちに完了します。">
-<!ENTITY addDevice.dialog.recoveryKey.label "お使いのデバイスで &syncBrand.shortName.label; を有効にするには、リカバリキーを入力する必要があります。以下の リカバリキーを@@Print@@、または保存して、デバイスに入力してください。">
+<!ENTITY addDevice.dialog.recoveryKey.label "お使いのデバイスで &syncBrand.shortName.label; を有効にするには、リカバリキーを入力する必要があります。以下のリカバリキーを@@Print@@または保存して、デバイスに入力してください。">
 <!ENTITY addDevice.dialog.connected.label   "デバイスが接続されました">
 
 <!-- Existing Account Page 2: Manual Login -->
