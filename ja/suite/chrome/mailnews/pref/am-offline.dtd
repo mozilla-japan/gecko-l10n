@@ -45,7 +45,7 @@
 <!ENTITY allAutosync.label		"すべてのメッセージをローカルに同期する"><!-- en-US: Synchronize all messages locally regardless of age -->
 <!ENTITY allAutosync.accesskey           "c">
 <!ENTITY ageAutosyncBefore.label	"最近"><!-- en-US: Synchronize the most recent -->
-<!ENTITY ageAutosync.accesskey           "z">
+<!ENTITY ageAutosync.accesskey           "S">
 <!ENTITY ageAutosyncMiddle.label         "">
 <!ENTITY dayAgeInterval.label            "日">
 <!ENTITY weekAgeInterval.label           "週">
