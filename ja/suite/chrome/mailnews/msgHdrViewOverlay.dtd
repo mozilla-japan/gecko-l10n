@@ -60,7 +60,7 @@
 <!ENTITY editMessage.accesskey             "D">
 
 <!ENTITY attachmentsTree.label             "添付:">
-<!ENTITY attachmentsTree.accesskey         "A">
+<!ENTITY attachmentsTree.accesskey         "c">
 <!ENTITY openAttachmentCmd.label           "開く">
 <!ENTITY openAttachmentCmd.accesskey       "O">
 <!ENTITY viewAttachmentCmd.label           "ソースを表示">

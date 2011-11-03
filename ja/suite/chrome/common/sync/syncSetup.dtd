@@ -80,7 +80,7 @@
 <!-- Sync Options -->
 <!ENTITY setup.optionsPage.title      "同期オプション">
 <!ENTITY syncComputerName.label       "デバイス名:">
-<!ENTITY syncComputerName.accesskey   "c">
+<!ENTITY syncComputerName.accesskey   "C">
 
 <!ENTITY syncMy.label               "同期するデータ">
 <!ENTITY engine.bookmarks.label     "ブックマーク">

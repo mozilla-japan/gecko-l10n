@@ -27,7 +27,7 @@
 <!ENTITY view.groupDay.label            "日付で分類">
 <!ENTITY view.groupDay.accesskey        "D">
 <!ENTITY view.groupSite.label           "サイトで分類">
-<!ENTITY view.groupSite.accesskey       "S">
+<!ENTITY view.groupSite.accesskey       "W">
 <!ENTITY view.groupDayAndSite.label     "日付とサイトで分類">
 <!ENTITY view.groupDayAndSite.accesskey "a">
 
