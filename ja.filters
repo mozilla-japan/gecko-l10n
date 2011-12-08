@@ -359,6 +359,9 @@ ja.downloads.stateBlocked		= 保護者による制限でブロックされまし
 ja-JP-mac.downloads.stateBlocked	= ペアレンタルコントロールによりブロックされました
 ja.downloads.monthDate			= #1#2日
 ja-JP-mac.downloads.monthDate		= #1 #2
+## Firefox 10 以降
+ja.downloads.monthDate2			= %1$S%2$S日
+ja-JP-mac.downloads.monthDate2		= %1$S %2$S
 
 
 # toolkit/chrome/mozapps/downloads/settingsChange.dtd
