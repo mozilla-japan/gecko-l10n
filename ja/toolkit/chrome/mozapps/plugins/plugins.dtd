@@ -21,6 +21,8 @@
 <!ENTITY pluginWizard.finalPage.restart.label			"プラグインを有効にするには &brandShortName; を再起動する必要があります。">
 
 <!ENTITY missingPlugin						"このコンテンツを表示するにはプラグインが必要です。">
+<!-- (^m^) "clickToPlayPlugin" for mobile only. (Bug 687265) -->
+<!ENTITY clickToPlayPlugin					"ここをタップするとプラグインを実行します。">
 <!ENTITY disabledPlugin						"このプラグインは無効化されています。">
 <!ENTITY blockedPlugin.label					"このプラグインは安全のためにブロックされました。">
 
@@ -33,8 +35,8 @@
 <!ENTITY reloadPlugin.pre					"">
 <!ENTITY reloadPlugin.middle					"ページを再読み込み">
 <!ENTITY reloadPlugin.post					" してください。">
-<!-- LOCALIZATION NOTE (report.please): This and the other report.* strings should be as short as possible, ideally 2-3 words. -->
-<!ENTITY report.please						"クラッシュレポートを送信してください">
+<!-- LOCALIZATION NOTE: report.* strings should be as short as possible, ideally 2-3 words. -->
+<!ENTITY report.checkbox					"クラッシュレポートを送信する">
 <!ENTITY report.submitting					"レポートを送信しています...">
 <!ENTITY report.submitted					"クラッシュレポートを送信しました">
 <!ENTITY report.disabled					"クラッシュレポートの送信は無効になっています">

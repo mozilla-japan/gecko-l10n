@@ -160,7 +160,7 @@ embedding, mobile       72731:e0521aa0fec0  ----:------------   knagato         
 suite                   -----:------------  8210:271501c7d9a2   tooyama, mar    sync suite
 
 
-[l10n-mozilla-8.0] (for beta)
+Released! [l10n-mozilla-8.0]
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 mobile                  75786:2564751174a2  ----:------------   knagato         sync mobile
@@ -172,7 +172,7 @@ suite                   -----:------------  8560:bc61f0aededf   mar             
 embedding               76331:522217082f0d  ----:------------   dynamis         sync embedding
 calendar                -----:------------  8942:09bcb1cd1240   mar             sync calendar (1.0rc2)
 
-[l10n-mozilla-9.0] (for aurora)
+[l10n-mozilla-9.0] (for beta)
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                     78238:b3b15c400d3f  ----:------------   mar             sync dom
@@ -185,3 +185,8 @@ toolkit                 78298:10dca99e30c4  8889:5b6c8298edbc   mar             
 calendar                -----:------------  8892:80e15b7801d2   mar             sync calendar
 browser, services/sync  78318:532d27c289de  ----:------------   hATrayflood     sync browser, services/sync
 suite                   -----:------------  8913:aee8961b8055   tooyama, mar    sync suite
+
+[l10n-mozilla-10.0] (for aurora)
+target dir              mozilla and comm hg changeset rev:id    by              comment
+--------------------------------------------------------------------------------------------------------------
+toolkit                 80735:9d149d145f6c  9217:494757cf43d9   mar             sync toolkit(, browser/devtools)
