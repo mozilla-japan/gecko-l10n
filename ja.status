@@ -191,3 +191,4 @@ target dir              mozilla and comm hg changeset rev:id    by              
 --------------------------------------------------------------------------------------------------------------
 toolkit                 80735:9d149d145f6c  9217:494757cf43d9   mar             sync toolkit(, browser/devtools)
 security                80735:9d149d145f6c  ----:------------   mar             sync security
+editor/ui               -----:------------  9217:494757cf43d9   mar             sync editor/ui
