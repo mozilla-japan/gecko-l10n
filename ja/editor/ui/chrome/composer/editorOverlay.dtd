@@ -50,49 +50,21 @@
 <!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
 
 <!-- File menu items -->
-<!ENTITY fileMenu.label "ファイル">
-<!ENTITY fileMenu.accesskey "F">
-<!ENTITY openFileCmd.label "ファイルを開く...">
-<!ENTITY openFileCmd.accesskey "O">
-<!ENTITY openFileCmd.key "O">
-<!ENTITY openRemoteCmd.label "Web ページを開く...">
-<!ENTITY openRemoteCmd.accesskey "L">
-<!ENTITY openRemoteCmd.key "L">
-<!ENTITY fileRecentMenu.label "最近使用したページ">
-<!ENTITY fileRecentMenu.accesskey "R">
-<!ENTITY fileRevert.label "@@Revert@@">
-<!ENTITY fileRevert.accesskey "t">
-<!ENTITY saveCmd.label "保存">
-<!ENTITY saveCmd.accesskey "S">
 <!ENTITY saveCmd.key "S">
-<!ENTITY saveAsCmd.label "@@SaveAs@@...">
-<!ENTITY saveAsCmd.accesskey "A">
-
-<!ENTITY publishCmd.label "出版">
-<!ENTITY publishCmd.accesskey "b">
-<!ENTITY publishCmd.key "S">
-<!ENTITY publishAsCmd.label "設定して出版...">
-<!ENTITY publishAsCmd.accesskey "h">
-<!ENTITY saveAsChangeEncodingCmd.label "文字エンコーディングを変更して保存">
-<!ENTITY saveAsChangeEncodingCmd.accesskey "E">
 
 <!-- Edit menu items -->
-<!ENTITY editMenu.label "編集">
-<!ENTITY editMenu.accesskey "E">
 <!ENTITY pasteNoFormatting.label "整形せずに@@Paste@@">
 <!ENTITY pasteNoFormatting.accesskey "n">
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAs.label "指定して@@Paste@@">
 <!ENTITY pasteAs.accesskey "a">
-<!ENTITY publishSettings.label "出版サイトの設定...">
-<!ENTITY publishSettings.accesskey "b">
 <!ENTITY pasteAsQuotationCmd.label "引用文として@@Paste@@">
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
 <!ENTITY pasteAsQuotationCmd.key "o">
 <!ENTITY findCmd.label "検索と置換...">
 <!ENTITY enableInlineSpellChecker.label "自動スペルチェック">
 <!ENTITY enableInlineSpellChecker.accesskey "S">
-<!ENTITY checkSpellingCmd2.label "スペルチェック">
+<!ENTITY checkSpellingCmd2.label "スペルチェック...">
 <!ENTITY checkSpellingCmd2.accesskey "h">
 <!ENTITY checkSpellingCmd2.key "p">
 
@@ -217,11 +189,11 @@
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "名前付きアンカーを削除">
 <!ENTITY formatRemoveNamedAnchors.accesskey "R">
-<!ENTITY formatRemoveNamedAnchors.key "A">
+<!ENTITY formatRemoveNamedAnchors2.key "R">
 
 <!ENTITY paragraphMenu.label "段落">
 <!ENTITY paragraphMenu.accesskey "P">
-<!ENTITY paragraphParagraphCmd.label "段落 &lt;p&gt;">  
+<!ENTITY paragraphParagraphCmd.label "段落 &lt;p&gt;">
 <!ENTITY paragraphParagraphCmd.accesskey "P">
 <!ENTITY heading1Cmd.label "見出し1 &lt;h1&gt;">
 <!ENTITY heading1Cmd.accesskey "1">

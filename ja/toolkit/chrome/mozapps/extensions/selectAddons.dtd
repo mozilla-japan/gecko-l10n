@@ -33,7 +33,7 @@
 <!ENTITY action.enable.heading		"次のアドオンは有効化されます:">
 
 <!ENTITY update.heading			"使用するアドオンの更新">
-<!ENTITY update.progress.label		"選択したアドオンをダウンロードとインストールを行っています。">
+<!ENTITY update.progress.label		"選択したアドオンのダウンロードとインストールを行っています。">
 
 <!ENTITY errors.heading			"アドオンの更新失敗">
 <!ENTITY errors.description		"いくつかのアドオンが更新できませんでした。これらのアドオンは後で自動的に更新が確認されます。">

@@ -35,7 +35,7 @@
 
 <!ENTITY  incompatibleList.title	"互換性のないアドオンがあります">
 
-<!ENTITY  downloadPage.title		"&brandShortName; をダウンロード">
+<!ENTITY  downloadPage.title		"&brandShortName; をダウンロードしています">
 <!ENTITY  downloading.intro		"更新をダウンロードしています...">
 <!ENTITY  connecting.label		"更新サーバに接続しています...">
 <!ENTITY  verificationFailedText.label	"ダウンロードした差分更新の完全性を確認できなかったため、完全更新パッケージをダウンロードしています。">
