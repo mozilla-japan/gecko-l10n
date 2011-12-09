@@ -45,6 +45,9 @@
 <!ENTITY netInterrupt.title		"接続が中断されました">
 <!ENTITY netInterrupt.longDesc		"&sharedLongDesc2;">
 
+<!ENTITY notCached.title "期限切れのドキュメント">
+<!ENTITY notCached.longDesc "<p>リクエストされたドキュメントは、 &brandShortName; のキャッシュ内で、すでに利用できなくなりました。</p><ul><li>安全対策のため、 &brandShortName; は機密ドキュメントを自動的には再読み込みしません。</li><li>ドキュメントを Web サイトから再読み込みするためには、再試行をクリックしてください。</li></ul>">
+
 <!ENTITY netOffline.title "オフラインになっています"><!-- Offline mode: オフラインモードになっています -->
 <!ENTITY netOffline.longDesc2 "
 <ul>
