@@ -1,0 +1,135 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+
+ The contents of this file are subject to the Mozilla Public License Version
+ 1.1 (the "License"); you may not use this file except in compliance with
+ the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+
+ Software distributed under the License is distributed on an "AS IS" basis,
+ WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ for the specific language governing rights and limitations under the
+ License.
+
+ The Original Code is Mozilla Communicator client code, released
+ March 31, 1998.
+
+ The Initial Developer of the Original Code is
+ Netscape Communications Corporation.
+ Portions created by the Initial Developer are Copyright (C) 1998-1999
+ the Initial Developer. All Rights Reserved.
+
+ Contributor(s):
+
+ Localizer(s):
+   dynamis
+   Masahiko Imanaka <chimantaea_mirabilis@yahoo.co.jp>
+
+ Alternatively, the contents of this file may be used under the terms of
+ either the GNU General Public License Version 2 or later (the "GPL"), or
+ the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ in which case the provisions of the GPL or the LGPL are applicable instead
+ of those above. If you wish to allow use of your version of this file only
+ under the terms of either the GPL or the LGPL, and not to allow others to
+ use your version of this file under the terms of the MPL, indicate your
+ decision by deleting the provisions above and replace them with the notice
+ and other provisions required by the GPL or the LGPL. If you do not delete
+ the provisions above, a recipient may use your version of this file under
+ the terms of any one of the MPL, the GPL or the LGPL.
+
+ ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY toField3.label				"宛先 ">
+<!ENTITY fromField3.label			"差出人 ">
+<!ENTITY senderField3.label			"送信者 ">
+<!ENTITY organizationField3.label		"組織 ">
+<!ENTITY replyToField3.label			"返信先 ">
+
+<!ENTITY subjectField3.label			"件名 ">
+<!ENTITY ccField3.label				"Cc ">
+<!ENTITY bccField3.label			"Bcc ">
+<!ENTITY newsgroupsField3.label			"ニュースグループ ">
+<!ENTITY followupToField3.label			"Followup To ">
+<!ENTITY tagsHdr3.label				"タグ ">
+<!ENTITY dateField3.label			"送信日時 ">
+<!ENTITY userAgentField3.label			"User Agent ">
+<!ENTITY referencesField3.label			"References ">
+<!ENTITY messageIdField3.label			"Message ID ">
+<!ENTITY inReplyToField3.label			"In Reply To ">
+<!ENTITY originalWebsite3.label			"Web サイト ">
+
+<!ENTITY editMessageDescription.label		"このメッセージは下書きです">
+<!ENTITY editMessageButton.label		"編集...">
+<!ENTITY hdrArchiveButton1.label		"アーカイブ">
+<!ENTITY hdrArchiveButton1.tooltip		"このメッセージをアーカイブに移動します">
+<!ENTITY hdrSmartReplyButton1.label		"適宜返信"><!-- en-US: "Smart Reply" -->
+<!ENTITY hdrReplyButton1.label			"返信">
+<!ENTITY hdrReplyButton1.tooltip		"このメッセージの差出人に返信します">
+<!ENTITY hdrReplyAllButton1.label		"全員に返信">
+<!ENTITY hdrReplyAllButton1.tooltip		"このメッセージの差出人と他の受信者全員に返信します">
+<!ENTITY hdrReplyListButton1.label		"リストに返信">
+<!ENTITY hdrReplyListButton1.tooltip		"メーリングリストに返信します">
+<!ENTITY hdrForwardButton1.label		"転送">
+<!ENTITY hdrForwardButton1.tooltip		"このメッセージを転送します">
+<!ENTITY hdrJunkButton1.label			"迷惑マークを付ける">
+<!ENTITY hdrJunkButton1.tooltip			"このメッセージに迷惑マークを付けます">
+<!ENTITY hdrTrashButton1.label			"削除">
+<!ENTITY hdrTrashButton1.tooltip		"このメッセージを削除します">
+
+<!ENTITY hdrViewToolbarShowFull.label		"アイコンとテキストを表示">
+<!ENTITY hdrViewToolbarShowFull.accesskey	"a">
+<!ENTITY hdrViewToolbarShowIcons.label		"アイコンのみを表示">
+<!ENTITY hdrViewToolbarShowIcons.accesskey	"I">
+<!ENTITY hdrViewToolbarShowText.label		"テキストのみを表示">
+<!ENTITY hdrViewToolbarShowText.accesskey	"T">
+<!ENTITY hdrViewToolbarAlwaysReplySender.label	"差出人への返信ボタンを常に表示">
+<!ENTITY hdrViewToolbarAlwaysReplySender.accesskey	"R">
+
+<!ENTITY otherActionsButton1.label		"その他の操作">
+<!ENTITY otherActionsOpenConversation1.label	"スレッドを@@NewTab@@で開く"><!-- en-US: "open in conversation" -->
+<!ENTITY otherActionsOpenConversation1.accesskey	"C">
+<!ENTITY otherActionsOpenInNewWindow1.label	"@@NewWindow@@で開く">
+<!ENTITY otherActionsOpenInNewWindow1.accesskey	"W">
+<!ENTITY otherActionsOpenInNewTab1.label	"@@NewTab@@で開く">
+<!ENTITY otherActionsOpenInNewTab1.accesskey	"T">
+<!ENTITY markAsReadMenuItem1.label		"既読にする">
+<!ENTITY markAsReadMenuItem1.accesskey		"R">
+<!ENTITY markAsUnreadMenuItem1.label		"未読にする">
+<!ENTITY markAsUnreadMenuItem1.accesskey	"r">
+<!ENTITY saveAsMenuItem1.label			"@@SaveAs@@...">
+<!ENTITY saveAsMenuItem1.accesskey		"S">
+<!ENTITY viewSourceMenuItem1.label		"ソースを表示">
+<!ENTITY viewSourceMenuItem1.accesskey		"V">
+<!ENTITY otherActionsPrint1.label		"@@Print@@...">
+<!ENTITY otherActionsPrint1.accesskey		"P">
+
+<!-- Attachment context menu items -->
+<!ENTITY openAttachmentCmd.label		"開く">
+<!ENTITY openAttachmentCmd.accesskey		"O">
+<!ENTITY saveAsAttachmentCmd.label		"@@SaveAs@@...">
+<!ENTITY saveAsAttachmentCmd.accesskey		"S">
+<!ENTITY detachAttachmentCmd.label		"添付ファイルを分離...">
+<!ENTITY detachAttachmentCmd.accesskey		"D">
+<!ENTITY deleteAttachmentCmd.label		"削除">
+<!ENTITY deleteAttachmentCmd.accesskey		"e">
+<!ENTITY openAllAttachmentsCmd.label		"すべて開く...">
+<!ENTITY openAllAttachmentsCmd.accesskey	"O">
+<!ENTITY saveAllAttachmentsCmd.label		"すべて保存...">
+<!ENTITY saveAllAttachmentsCmd.accesskey	"S">
+<!ENTITY detachAllAttachmentsCmd.label		"すべて分離...">
+<!ENTITY detachAllAttachmentsCmd.accesskey	"D">
+<!ENTITY deleteAllAttachmentsCmd.label		"すべて削除...">
+<!ENTITY deleteAllAttachmentsCmd.accesskey	"e">
+
+<!-- Attachment toolbar items -->
+<!ENTITY saveAttachmentButton1.label		"保存">
+<!ENTITY saveAttachmentButton1.tooltip		"添付ファイルを保存します">
+<!ENTITY saveAllAttachmentsButton1.label	"すべて保存">
+<!ENTITY saveAllAttachmentsButton1.tooltip	"添付されたすべてのファイルを保存します">
+
+<!ENTITY copyLinkCmd.label			"リンクの URL をコピー">
+<!ENTITY copyLinkCmd.accesskey			"C">
+
+<!ENTITY CopyMessageId.label			"メッセージ ID をコピー">
+<!ENTITY OpenMessageForMsgId.label		"次の ID のメッセージを開く">
+<!ENTITY OpenBrowserWithMsgId.label		"次のメッセージ ID をブラウザで開く">

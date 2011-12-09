@@ -1,0 +1,5 @@
+<!ENTITY attachImageSource.label         "この画像をメッセージに添付">
+<!ENTITY attachImageSource.accesskey     "s">
+
+<!ENTITY attachLinkSource.label          "このリンクをメッセージに添付">
+<!ENTITY attachLinkSource.accesskey      "s">

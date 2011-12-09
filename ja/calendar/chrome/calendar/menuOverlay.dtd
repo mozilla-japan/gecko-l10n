@@ -1,0 +1,99 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is OEone Calendar Code, released October 31st, 2001.
+   -
+   - The Initial Developer of the Original Code is
+   - OEone Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s): Garth Smedley <garths@oeone.com>
+   -                 Mike Potter <mikep@oeone.com>
+   -                 Chris Charabaruk <coldacid@meldstar.com>
+   -                 Matthew Willis <mattwillis@gmail.com>
+   -                 Stefan Sitter <ssitter@googlemail.com>
+   -                 Berend Cornelius <berend.cornelius@sun.com>
+   -                 Philipp Kewisch <mozilla@kewis.ch>
+   -                 Simon Paquet <bugzilla@babylonsounds.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- Event Menu -->
+<!ENTITY event.new.event			"@@New-CMD@@予定...">
+<!ENTITY event.new.event.key			"N">
+<!ENTITY event.new.event.accesskey		"N">
+
+<!ENTITY event.new.task				"@@New-CMD@@ ToDo...">
+<!ENTITY event.new.task.key			"K">
+<!ENTITY event.new.task.accesskey		"k">
+
+<!ENTITY calendar.new.server.label		"@@New-CMD@@カレンダー...">
+<!ENTITY calendar.new.server.key		"L">
+<!ENTITY calendar.new.server.accesskey		"l">
+
+<!ENTITY calendar.print.label			"@@Print@@...">
+<!ENTITY calendar.print.key			"P">
+<!ENTITY calendar.print.accesskey		"P">
+
+<!ENTITY calendar.import.label			"ファイルから@@Import@@...">
+<!ENTITY calendar.import.key			"I">
+<!ENTITY calendar.import.accesskey		"I">
+
+<!ENTITY calendar.export.label			"カレンダーを@@Export@@...">
+<!ENTITY calendar.export.accesskey		"E">
+<!ENTITY calendar.export.selection.label	"選択した予定を@@Export@@...">
+<!ENTITY calendar.export.selection.accesskey	"S">
+
+<!ENTITY calendar.publish.label			"予定を公開...">
+<!ENTITY calendar.publish.accesskey		"b">
+
+<!ENTITY calendar.deletecalendar.label		"選択したカレンダーを削除...">
+<!ENTITY calendar.deletecalendar.accesskey	"D">
+
+<!ENTITY calendar.menu.customize.label		"カスタマイズ...">
+<!ENTITY calendar.menu.customize.accesskey	"C">
+
+<!ENTITY showUnifinderCmd.label			"予定を検索">
+<!ENTITY showUnifinderCmd.accesskey		"F">
+
+<!ENTITY calendar.displaytodos.checkbox.label	"ToDo を表示">
+<!ENTITY calendar.displaytodos.checkbox.accesskey 	"T">
+
+<!ENTITY calendar.menu.numberofweeks.label	"多週表示の週数">
+<!ENTITY calendar.menu.numberofweeks.2		"2週">
+<!ENTITY calendar.menu.numberofweeks.3		"3週">
+<!ENTITY calendar.menu.numberofweeks.4		"4週">
+<!ENTITY calendar.menu.numberofweeks.5		"5週">
+<!ENTITY calendar.menu.numberofweeks.6		"6週">
+
+<!ENTITY goTodayCmd.label			"今日に移動">
+<!ENTITY goTodayCmd.accesskey			"T">
+
+<!ENTITY showCurrentView.label			"表示形式">
+<!ENTITY showCurrentView.accesskey		"V">
+
+<!ENTITY calendar.properties.label		"@@PropertyCMD@@..."><!-- Calendar Properties -->
+<!ENTITY calendar.properties.accesskey		"C">

@@ -1,0 +1,185 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is OEone Calendar Code, released October 31st, 2001.   -
+   -
+   - The Initial Developer of the Original Code is
+   -   OEone Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Garth Smedley <garths@oeone.com>
+   -   Mike Potter <mikep@oeone.com>
+   -   Chris Charabaruk <coldacid@meldstar.com>
+   -   Matthew Willis <mattwillis@gmail.com>
+   -   Stefan Sitter <ssitter@googlemail.com>
+   -   Berend Cornelius <berend.cornelius@sun.com>
+   -   Philipp Kewisch <mozilla@kewis.ch>
+   -   Simon Paquet <bugzilla@babylonsounds.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY calendar.open.file.label		"カレンダーファイルを開く...">
+<!ENTITY calendar.open.file.key			"O">
+<!ENTITY calendar.open.file.accesskey		"O">
+
+<!ENTITY event.edit.event			"編集...">
+<!ENTITY event.edit.event.key			"E">
+<!ENTITY event.edit.event.accesskey		"E">
+
+<!ENTITY event.delete.event			"選択した予定を削除">
+<!ENTITY event.delete.event.accesskey		"D">
+
+<!ENTITY event.delete.tasks			"選択した ToDo を削除">
+<!ENTITY event.delete.tasks.accesskey		"T">
+
+<!ENTITY calendar.pagesetup.label		"ページ設定...">
+<!ENTITY calendar.pagesetup.accesskey		"u">
+
+<!ENTITY calendar.subscribe.label		"別のカレンダーを購読...">
+<!ENTITY calendar.subscribe.accesskey		"R">
+
+<!ENTITY calendar.reloadserver.label		"リモートのカレンダーを更新">
+<!ENTITY calendar.reloadserver.key		"R">
+<!ENTITY calendar.reloadserver.accesskey	"R">
+
+<!ENTITY calendar.publish.calendar.label	"カレンダーを公開...">
+<!ENTITY calendar.publish.calendar.accesskey	"b">
+<!ENTITY calendar.publish.selection.label	"選択した予定を公開...">
+<!ENTITY calendar.publish.selection.accesskey	"c">
+
+<!ENTITY calendar.quit.label			"終了">
+<!ENTITY calendar.quit.accesskey		"Q">
+<!ENTITY calendar.quit.key			"Q">
+<!ENTITY calendar.quit.label.mac		"&brandShortName; を終了">
+
+<!ENTITY calendar.exit.label			"終了">
+<!ENTITY calendar.exit.accesskey		"x">
+
+<!ENTITY calendar.undo.label			"@@Undo@@">
+<!ENTITY calendar.undo.key			"Z">
+<!ENTITY calendar.undo.accesskey		"u">
+
+<!ENTITY calendar.redo.label			"@@Redo@@">
+<!ENTITY calendar.redo.key			"Y">
+<!ENTITY calendar.redo.accesskey		"r">
+
+<!ENTITY calendar.cut.label			"@@Cut@@">
+<!ENTITY calendar.cut.key			"X">
+<!ENTITY calendar.cut.accesskey			"t">
+
+<!ENTITY calendar.copy.label			"コピー">
+<!ENTITY calendar.copy.key			"C">
+<!ENTITY calendar.copy.accesskey		"C">
+
+<!ENTITY calendar.paste.label			"@@Paste@@">
+<!ENTITY calendar.paste.key			"V">
+<!ENTITY calendar.paste.accesskey		"P">
+
+<!ENTITY calendar.selectall.label		"@@SelectAll@@">
+<!ENTITY calendar.selectall.key			"A">
+<!ENTITY calendar.selectall.accesskey		"A">
+
+<!ENTITY toolbarsMenu.label			"ツールバー">
+<!ENTITY toolbarsMenu.accesskey			"T">
+
+<!ENTITY showStatusBarCmd.label			"ステータスバー">
+<!ENTITY showStatusBarCmd.accesskey		"B">
+
+<!ENTITY showTaskBoxCmd.label			"ToDo リスト">
+<!ENTITY showTaskBoxCmd.accesskey		"L">
+
+<!ENTITY calendar.fullscreen.label		"@@FullScreen@@">
+<!ENTITY calendar.fullscreen.accesskey		"F">
+
+<!ENTITY calendar.addons.label			"アドオン">
+<!ENTITY calendar.addons.accesskey		"d">
+
+<!ENTITY goMenu.label				"移動">
+<!ENTITY goMenu.accesskey			"G">
+
+<!ENTITY goDateCmd.label			"日付に移動...">
+<!ENTITY goDateCmd.accesskey			"D">
+
+<!ENTITY toolsMenu.label			"ツール">
+<!ENTITY toolsMenu.accesskey			"T">
+
+<!ENTITY errorConsoleCmd.label			"エラーコンソール">
+<!ENTITY errorConsoleCmd.accesskey		"C">
+
+<!ENTITY helpMenu.label				"ヘルプ">
+<!ENTITY helpMenu.accesskey			"H">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+           for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label			"ヘルプ">
+<!ENTITY helpMenuWin.accesskey			"H">
+
+<!ENTITY fileMenu.label				"ファイル">
+<!ENTITY fileMenu.accesskey			"F">
+
+<!ENTITY editMenu.label				"編集">
+<!ENTITY editMenu.accesskey			"E">
+
+<!ENTITY optionsCmd.label			"オプション...">
+<!ENTITY optionsCmd.accesskey			"O">
+
+<!ENTITY preferencesCmd.label			"設定">
+<!ENTITY preferencesCmd.accesskey		"n">
+<!ENTITY preferencesCmdMac.label		"環境設定...">
+<!ENTITY preferencesCmdMac.commandkey		",">
+<!ENTITY preferencesCmdMac.modifiers		"accel">
+
+<!ENTITY viewMenu.label				"表示">
+<!ENTITY viewMenu.accesskey			"V">
+
+<!ENTITY releaseCmd.label			"リリースノート">
+<!ENTITY releaseCmd.accesskey			"R">
+
+<!ENTITY aboutCmd.label				"&brandFullName; について">
+<!ENTITY aboutCmd.accesskey			"A">
+
+<!ENTITY updateCmd.label			"ソフトウェアの更新を確認...">
+<!ENTITY updateCmd.accesskey			"o">
+
+<!ENTITY sunbird.export.calendar.label		"カレンダーを@@Export@@...">
+<!ENTITY sunbird.export.calendar.accesskey	"E">
+
+<!-- Mac OS X "Window" menu items -->
+<!ENTITY windowMenu.label			"@@Window@@">
+<!ENTITY minimizeWindow.label			"@@Minimize@@">
+<!ENTITY zoomWindow.label			"@@Zoom@@">
+<!ENTITY minimizeWindow.key			"M">
+<!ENTITY bringAllToFront.label			"@@BringAllToFront@@">
+
+<!-- Mac OS X Application menu items -->
+<!ENTITY servicesMenuMac.label			"サービス">
+<!ENTITY hideThisAppCmdMac.label		"&brandShortName; を隠す">
+<!ENTITY hideThisAppCmdMac.commandkey		"H">
+<!ENTITY hideThisAppCmdMac.modifiers		"accel">
+<!ENTITY hideOtherAppsCmdMac.label		"ほかを隠す">
+<!ENTITY hideOtherAppsCmdMac.commandkey		"H">
+<!ENTITY hideOtherAppsCmdMac.modifiers		"accel,alt">
+<!ENTITY showAllAppsCmdMac.label		"すべてを表示">

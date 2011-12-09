@@ -1,0 +1,27 @@
+<!ENTITY sync.title                 "同期">
+<!ENTITY sync.notconnected          "接続されていません">
+<!ENTITY sync.connect               "接続">
+<!ENTITY sync.connected             "接続されています">
+<!ENTITY sync.details               "詳細">
+<!ENTITY sync.deviceName            "このデバイス">
+<!ENTITY sync.disconnect            "切断">
+<!ENTITY sync.syncNow               "今すぐ同期">
+
+<!ENTITY sync.setup.title           "接続して同期">
+<!ENTITY sync.setup.pair            "デバイスの有効化のために、他のデバイス上で「デバイスを同期」を選択してください。">
+<!ENTITY sync.fallback              "コンピュータの近くにいない...">
+<!ENTITY sync.setup.manual          "Sync アカウントの情報を入力してください">
+<!ENTITY sync.account               "アカウント名">
+<!ENTITY sync.password              "パスワード">
+<!ENTITY sync.recoveryKey           "復元キー">
+<!ENTITY sync.customServer          "独自のサーバを使用する">
+<!ENTITY sync.serverURL             "サーバ URL">
+<!ENTITY sync.setup.connect         "接続">
+<!ENTITY sync.setup.cancel          "キャンセル">
+<!ENTITY sync.setup.tutorial        "説明を表示">
+<!ENTITY sync.setup.waiting2        "他のデバイスを待っています...">
+
+<!ENTITY sync.pair.title            "デバイスを同期">
+<!ENTITY sync.pair.description      "新しいデバイスを有効化するためには、デバイス上で「 Sync をセットアップ」を選択してください。">
+<!ENTITY sync.setup.close           "閉じる">
+<!ENTITY sync.setup.waitingdownload "バックグラウンドであなたのデータをダウンロードしています。このウィンドウはいつでも閉じることができます。">

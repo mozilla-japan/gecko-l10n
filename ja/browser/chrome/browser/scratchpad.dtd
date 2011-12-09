@@ -1,0 +1,116 @@
+<!-- LOCALIZATION NOTE : FILE This file contains the Scratchpad window strings -->
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
+
+<!-- LOCALIZATION NOTE (scratchpad.title):
+  -  The Scratchpad is intended to provide a simple text editor for creating
+  -  and evaluating bits of JavaScript code for the purposes of function
+  -  prototyping, experimentation and convenient scripting.
+  -
+  -  It's quite possible that you won't have a good analogue for the word
+  -  "Scratchpad" in your locale. You should feel free to find a close
+  -  approximation to it or choose a word (or words) that means
+  -  "simple discardable text editor". -->
+<!ENTITY window.title			"スクラッチパッド">
+
+<!ENTITY fileMenu.label			"ファイル">
+<!ENTITY fileMenu.accesskey		"F">
+
+<!ENTITY newWindowCmd.label		"@@NewWindow@@">
+<!ENTITY newWindowCmd.accesskey		"N">
+<!ENTITY newWindowCmd.commandkey	"n">
+
+<!ENTITY openFileCmd.label		"ファイルを開く...">
+<!ENTITY openFileCmd.accesskey		"O">
+<!ENTITY openFileCmd.commandkey		"o">
+
+<!ENTITY saveFileCmd.label		"保存">
+<!ENTITY saveFileCmd.accesskey		"S">
+<!ENTITY saveFileCmd.commandkey		"s">
+
+<!ENTITY saveFileAsCmd.label		"@@SaveAs@@...">
+<!ENTITY saveFileAsCmd.accesskey	"A">
+
+<!ENTITY closeCmd.label			"@@CloseCMD@@">
+<!ENTITY closeCmd.key			"W">
+<!ENTITY closeCmd.accesskey		"C">
+
+<!ENTITY editMenu.label			"編集">
+<!ENTITY editMenu.accesskey		"E">
+
+<!ENTITY undoCmd.label			"@@Undo@@">
+<!ENTITY undoCmd.key			"Z">
+<!ENTITY undoCmd.accesskey		"U">
+
+<!ENTITY redoCmd.label			"@@Redo@@">
+<!ENTITY redoCmd.key			"Y">
+<!ENTITY redoCmd.accesskey		"R">
+
+<!ENTITY cutCmd.label			"@@Cut@@">
+<!ENTITY cutCmd.key			"X">
+<!ENTITY cutCmd.accesskey		"t">
+
+<!ENTITY copyCmd.label			"コピー">
+<!ENTITY copyCmd.key			"C">
+<!ENTITY copyCmd.accesskey		"C">
+
+<!ENTITY pasteCmd.label			"@@Paste@@">
+<!ENTITY pasteCmd.key			"V">
+<!ENTITY pasteCmd.accesskey		"P">
+
+<!ENTITY selectAllCmd.label		"@@SelectAll@@">
+<!ENTITY selectAllCmd.key		"A">
+<!ENTITY selectAllCmd.accesskey		"A">
+
+<!ENTITY run.label			"実行">
+<!ENTITY run.accesskey			"R">
+<!ENTITY run.key			"r">
+
+<!ENTITY inspect.label			"調査">
+<!ENTITY inspect.accesskey		"I">
+<!ENTITY inspect.key			"i">
+
+<!ENTITY display.label			"表示">
+<!ENTITY display.accesskey		"D">
+<!ENTITY display.key			"l">
+
+<!-- LOCALIZATION NOTE (environmentMenu.label, accesskey): This menu item was
+  -  renamed from "Context" to avoid confusion with the right-click context
+  -  menu in the text area. It refers to the JavaScript Environment (or context)
+  -  the user is evaluating against. I.e., Content (current tab) or Chrome
+  -  (browser).
+  -->
+<!ENTITY environmentMenu.label		"実行環境">
+<!ENTITY environmentMenu.accesskey	"N">
+
+
+<!ENTITY contentContext.label		"Web ページ">
+<!ENTITY contentContext.accesskey	"C">
+
+<!-- LOCALIZATION NOTE (browserContext.label, accesskey): This menu item is used
+  -  to select an execution environment for the browser window itself as opposed
+  -  to content. This is a feature for browser and addon developers and only
+  -  enabled via the devtools.chrome.enabled preference. Formerly, this label
+  -  was called "Chrome".
+  -->
+<!ENTITY browserContext.label		"ブラウザ">
+<!ENTITY browserContext.accesskey	"B">
+
+<!-- LOCALIZATION NOTE (resetContext.label): This command allows the developer
+  -  to reset/clear the global object of the environment where the code executes.
+  -->
+<!ENTITY resetContext.label		"リセット">
+<!ENTITY resetContext.accesskey		"R">
+
+<!ENTITY executeMenu.label		"実行メニュー">
+<!ENTITY executeMenu.accesskey		"X">
+
+<!ENTITY toolsMenu.label		"ツール">
+<!ENTITY toolsMenu.accesskey		"T">
+
+<!ENTITY errorConsoleCmd.label		"エラーコンソール">
+<!ENTITY errorConsoleCmd.accesskey	"C">
+<!ENTITY errorConsoleCmd.commandkey	"j">
+
+<!ENTITY webConsoleCmd.label		"Web コンソール">
+<!ENTITY webConsoleCmd.accesskey	"W">
+<!ENTITY webConsoleCmd.commandkey	"k">

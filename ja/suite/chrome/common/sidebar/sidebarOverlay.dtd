@@ -1,0 +1,69 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Stephen Lamm <slamm@netscape.com>
+   -   Blake Ross <BlakeR1234@aol.com>
+   -   Samir Gehani <sgehani@netscape.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either of the GNU General Public License Version 2 or later (the "GPL"),
+   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY sidebar.panels.label "Sidebar">
+<!ENTITY sidebar.reload.label "再読み込み">
+<!ENTITY sidebar.reload.accesskey "R">
+<!ENTITY sidebar.picker.label "タブ">
+<!ENTITY sidebar.customize.label "Sidebar の設定...">
+<!ENTITY sidebar.customize.accesskey "u">
+<!ENTITY sidebar.hide.label "Sidebar タブを隠す">
+<!ENTITY sidebar.hide.accesskey "H">
+<!ENTITY sidebar.switch.label "Sidebar タブを切り換える">
+<!ENTITY sidebar.switch.accesskey "T">
+<!ENTITY sidebarCmd.label "Sidebar">
+<!ENTITY sidebarCmd.accesskey "b">
+<!ENTITY sidebar.loading.label "読み込み中...">
+<!ENTITY sidebar.loadstopped.label "読み込み中止">
+<!ENTITY sidebar.loading.stop.label "中止">
+<!ENTITY sidebar.loading.stop.accesskey "S">
+
+<!ENTITY sidebar.no-panels.state "Sidebar は、現在空白です。">
+<!ENTITY sidebar.no-panels.add "上の @@[@@タブ@@]@@ ボタンをクリックすることでタブを追加できます。">
+<!ENTITY sidebar.no-panels.hide "Sidebar を表示したくない場合は、@@[@@表示@@]@@ メニューをクリックし、@@[@@表示 / 隠す@@]@@ サブメニューの @@[@@Sidebar@@]@@ を選択してください。">
+<!ENTITY sidebar.sbDirectory.label "Sidebar ディレクトリ...">
+
+<!ENTITY sidebar.pagenotfound.label "このタブは現在有効ではありません。">
+<!ENTITY sidebar.close.tooltip "Sidebar を閉じる">
+<!ENTITY sidebar.open.tooltip "Sidebar を開く">
+
+<!ENTITY sidebar.search.label         "検索">
+<!ENTITY sidebar.client-bookmarks.label     "ブックマーク">
+<!ENTITY sidebar.client-history.label       "履歴">
+<!ENTITY sidebar.client-addressbook.label   "アドレス帳">

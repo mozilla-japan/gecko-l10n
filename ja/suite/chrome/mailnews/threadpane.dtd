@@ -1,0 +1,78 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+
+ The contents of this file are subject to the Mozilla Public License Version
+ 1.1 (the "License"); you may not use this file except in compliance with
+ the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+
+ Software distributed under the License is distributed on an "AS IS" basis,
+ WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ for the specific language governing rights and limitations under the
+ License.
+
+ The Original Code is Mozilla Communicator client code, released
+ March 31, 1998.
+
+ The Initial Developer of the Original Code is
+ Netscape Communications Corporation.
+ Portions created by the Initial Developer are Copyright (C) 1998-1999
+ the Initial Developer. All Rights Reserved.
+
+ Contributor(s):
+
+ Alternatively, the contents of this file may be used under the terms of
+ either of the GNU General Public License Version 2 or later (the "GPL"),
+ or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ in which case the provisions of the GPL or the LGPL are applicable instead
+ of those above. If you wish to allow use of your version of this file only
+ under the terms of either the GPL or the LGPL, and not to allow others to
+ use your version of this file under the terms of the MPL, indicate your
+ decision by deleting the provisions above and replace them with the notice
+ and other provisions required by the GPL or the LGPL. If you do not delete
+ the provisions above, a recipient may use your version of this file under
+ the terms of any one of the MPL, the GPL or the LGPL.
+
+ ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY threadColumn.label "スレッド">
+<!ENTITY fromColumn.label "差出人">
+<!ENTITY recipientColumn.label "受信者">
+<!ENTITY attachmentColumn.label "添付">
+<!ENTITY subjectColumn.label "件名">
+<!ENTITY dateColumn.label "送信日時">
+<!ENTITY priorityColumn.label "重要度">
+<!ENTITY tagsColumn.label "タグ">
+<!ENTITY accountColumn.label "アカウント">
+<!ENTITY statusColumn.label "状態">
+<!ENTITY sizeColumn.label "サイズ">
+<!ENTITY junkStatusColumn.label "迷惑マーク">
+<!ENTITY unreadColumn.label "スレッド中の未読数">
+<!ENTITY totalColumn.label "スレッド中の合計">
+<!ENTITY readColumn.label "既読">
+<!ENTITY receivedColumn.label "受信日時">
+<!ENTITY flagColumn.label "フラグ">
+<!ENTITY locationColumn.label "フォルダ">
+<!ENTITY idColumn.label "受信順">
+
+<!--Tooltips-->
+<!ENTITY columnChooser.tooltip "クリックして表示する列を選択">
+<!ENTITY threadColumn.tooltip "スレッドで並べ替え"> 
+<!ENTITY fromColumn.tooltip "差出人で並べ替え">
+<!ENTITY recipientColumn.tooltip "受信者で並べ替え">
+<!ENTITY attachmentColumn.tooltip "添付ファイルの有無で並べ替え">
+<!ENTITY subjectColumn.tooltip "件名で並べ替え">
+<!ENTITY dateColumn.tooltip "日付で並べ替え">
+<!ENTITY priorityColumn.tooltip "重要度で並べ替え">
+<!ENTITY tagsColumn.tooltip "タグで並べ替え">
+<!ENTITY accountColumn.tooltip "アカウントで並べ替え">
+<!ENTITY statusColumn.tooltip "状態で並べ替え">
+<!ENTITY sizeColumn.tooltip "サイズで並べ替え">
+<!ENTITY junkStatusColumn.tooltip "迷惑マークの有無で並べ替え">
+<!ENTITY unreadColumn.tooltip "スレッド中の未読メッセージ数">
+<!ENTITY totalColumn.tooltip "スレッド中のメッセージ総数">
+<!ENTITY readColumn.tooltip "既読かどうかで並べ替え">
+<!ENTITY receivedColumn.tooltip "受信した日付で並べ替え">
+<!ENTITY flagColumn.tooltip "フラグの有無で並べ替え">
+<!ENTITY locationColumn.tooltip "フォルダで並べ替え">
+<!ENTITY idColumn.tooltip "受信順で並べ替え">

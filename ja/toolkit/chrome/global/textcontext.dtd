@@ -1,0 +1,20 @@
+<!ENTITY cutCmd.label			"@@Cut@@">
+<!ENTITY cutCmd.accesskey		"t">
+<!ENTITY copyCmd.label			"コピー">
+<!ENTITY copyCmd.accesskey		"c">
+<!ENTITY pasteCmd.label			"@@Paste@@">
+<!ENTITY pasteCmd.accesskey		"p">
+<!ENTITY undoCmd.label			"@@Undo@@">
+<!ENTITY undoCmd.accesskey		"u">
+<!ENTITY selectAllCmd.label		"@@SelectAll@@">
+<!ENTITY selectAllCmd.accesskey		"a">
+<!ENTITY deleteCmd.label		"削除">
+<!ENTITY deleteCmd.accesskey		"d">
+<!-- 以下、browser/chrome/browser/browser.dtd と要同期 -->
+<!ENTITY spellAddToDictionary.label	"辞書に追加">
+<!ENTITY spellAddToDictionary.accesskey	"o">
+<!ENTITY spellCheckEnable.label		"スペルチェックを行う">
+<!ENTITY spellCheckEnable.accesskey	"S">
+<!ENTITY spellNoSuggestions.label	"(修正候補がありません)">
+<!ENTITY spellDictionaries.label	"言語">
+<!ENTITY spellDictionaries.accesskey	"l">

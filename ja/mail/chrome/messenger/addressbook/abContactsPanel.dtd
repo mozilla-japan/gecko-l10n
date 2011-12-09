@@ -1,0 +1,18 @@
+<!ENTITY addressbookPicker.label	"アドレス帳:">
+<!ENTITY addressbookPicker.accesskey	"k">
+<!ENTITY searchInput.label		"次を検索:">
+<!ENTITY searchInput.accesskey		"o">
+<!ENTITY SearchNameOrEmail.label	"名前またはメールアドレス">
+
+<!ENTITY deleteAddrBookCard.label	"削除">
+<!ENTITY addrBookCardProperties.label	"@@PropertyCMD@@">
+<!ENTITY addtoToFieldMenu.label		"宛先フィールドに追加">
+<!ENTITY addtoCcFieldMenu.label		"Cc フィールドに追加">
+<!ENTITY addtoBccFieldMenu.label	"Bcc フィールドに追加">
+
+<!ENTITY toButton.label			"宛先に追加:">
+<!ENTITY toButton.accesskey		"A">
+<!ENTITY ccButton.label			"Cc に追加:">
+<!ENTITY ccButton.accesskey		"d">
+<!ENTITY bccButton.label		"Bcc に追加:">
+<!ENTITY bccButton.accesskey		"B">
