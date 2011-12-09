@@ -13,8 +13,10 @@ Firefox 5 メモ。
 
 未訳箇所あり:
 (^^h styleinspectorはfirefox-10に見送りとなったため未訳
-    browser\chrome\browser\styleinspector.dtd
-    browser\chrome\browser\styleinspector.properties
+    browser\chrome\browser\devtools\styleinspector.dtd
+    browser\chrome\browser\devtools\styleinspector.properties
+    browser\chrome\browser\devtools\gcli.properties
+    browser\chrome\browser\devtools\gclicommands.properties
 
 要検討箇所あり:
   Pluralform 濫用によるもの
