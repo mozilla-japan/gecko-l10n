@@ -193,3 +193,4 @@ toolkit                 80735:9d149d145f6c  9217:494757cf43d9   mar             
 security                80735:9d149d145f6c  ----:------------   mar             sync security
 editor/ui               -----:------------  9217:494757cf43d9   mar             sync editor/ui
 mobile                  80713:53b1db0a0d4b  ----:------------   knagato         sync mobile
+calendar                -----:------------  9217:494757cf43d9   mar             sync calendar
