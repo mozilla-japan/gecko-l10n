@@ -1,0 +1,10 @@
+<!ENTITY defaultClient.title  "@@DefaultClient@@">
+<!ENTITY defaultClient.intro  "&brandShortName; を @@DefaultClient@@ に設定する:">
+
+<!ENTITY browser.label "ブラウザ">
+<!ENTITY email.label "メール">
+<!ENTITY newsgroups.label "ニュース">
+<!ENTITY feeds.label "フィード">
+
+<!ENTITY checkOnStartup.label "&brandShortName; を起動するたびに確認する">
+<!ENTITY checkOnStartup.accesskey "A">

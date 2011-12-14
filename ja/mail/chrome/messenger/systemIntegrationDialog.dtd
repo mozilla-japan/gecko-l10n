@@ -1,0 +1,12 @@
+<!ENTITY systemIntegration.title	"システム統合">
+<!ENTITY defaultClient.intro		"&brandShortName; を次の@@DefaultClient@@として使用する:">
+
+<!ENTITY email.label			"メール">
+<!ENTITY newsgroups.label		"ニュース">
+<!ENTITY feeds.label			"フィード">
+
+<!ENTITY checkOnStartup.label		"起動時に &brandShortName; が@@DefaultClient@@として設定されているか確認する">
+<!ENTITY checkOnStartup.accesskey	"A">
+
+<!ENTITY searchIntegration.label	"&searchIntegration.engineName; によるメッセージの検索を許可する">
+<!ENTITY searchIntegration.accesskey	"S">

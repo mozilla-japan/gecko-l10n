@@ -1,0 +1,28 @@
+<!ENTITY securityTitle.label		"セキュリティ">
+<!ENTITY securityTab.label		"セキュリティ">
+<!ENTITY securityHeading.label		"署名や暗号化されたメッセージを送受信するには、デジタル署名証明書と暗号化証明書の両方を指定する必要があります。">
+<!ENTITY encryptionGroupTitle.label	"暗号化">
+<!ENTITY encryptionChoiceLabel.label	"メッセージ送信時に使用する@@Default-@@暗号化設定:">
+<!ENTITY neverEncrypt.label		"暗号化しない">
+<!ENTITY neverEncrypt.accesskey		"N">
+<!ENTITY alwaysEncryptMessage.label	"暗号化する (すべての受信者が証明書を持っていなければ送信できません)">
+<!ENTITY alwaysEncryptMessage.accesskey	"u">
+<!ENTITY encryptionCert.message		"あなたへのメッセージの暗号化と復号に使用する証明書:">
+<!ENTITY digitalSign.certificate.button	"選択...">
+<!ENTITY digitalSign.certificate.accesskey	"S">
+<!ENTITY digitalSign.certificate_clear.button	"@@Clear@@">
+<!ENTITY digitalSign.certificate_clear.accesskey	"C">
+<!ENTITY encryption.certificate.button	"選択...">
+<!ENTITY encryption.certificate.accesskey	"t">
+<!ENTITY encryption.certificate_clear.button	"@@Clear@@">
+<!ENTITY encryption.certificate_clear.accesskey	"e">
+<!ENTITY signingGroupTitle.label	"デジタル署名">
+<!ENTITY signMessage.label		"メッセージにデジタル署名する (@@Default@@の動作)">
+<!ENTITY signMessage.accesskey		"D">
+<!ENTITY signingCert.message		"メッセージのデジタル署名に使用する証明書:">
+
+<!ENTITY certificates.label		"証明書">
+<!ENTITY manageCerts.label		"証明書を表示">
+<!ENTITY manageCerts.accesskey		"V">
+<!ENTITY manageDevices.label		"セキュリティデバイス">
+<!ENTITY manageDevices.accesskey	"y">

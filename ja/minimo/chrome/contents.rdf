@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+
+  <!-- list all the packages being supplied by this jar -->
+  <RDF:Seq about="urn:mozilla:locale:root">
+    <RDF:li resource="urn:mozilla:locale:ja"/>
+  </RDF:Seq>
+
+  <!-- locale information -->
+  <RDF:Description about="urn:mozilla:locale:ja"
+        chrome:displayName="Japanese(JP)"
+        chrome:author="mozilla.org"
+        chrome:name="ja"
+        chrome:previewURL="http://www.mozilla.org/locales/ja.gif">
+    <chrome:packages>
+      <RDF:Seq about="urn:mozilla:locale:ja:packages">
+        <RDF:li resource="urn:mozilla:locale:ja:minimo"/>
+      </RDF:Seq>
+    </chrome:packages>
+  </RDF:Description>
+
+</RDF:RDF>

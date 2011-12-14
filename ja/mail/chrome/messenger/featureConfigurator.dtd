@@ -1,0 +1,95 @@
+<!-- LOCALIZATION NOTE (featureConfigurator.title): Title for the Migration Assistant page. It should match featureConfiguratorCmd.label in baseMenuOverlay.dtd -->
+<!ENTITY featureConfigurator.title "設定変更ガイド">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.heading1): Heading for the page -->
+<!ENTITY featureConfigurator.heading1 "&brandShortName; に追加されたおすすめの新機能">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.para.1): The tone of this paragraph is important: we tried for a tone that promotes the new features (which we believe are good and worth users learning about), but also emphasizing that we think it's important to preserve user choice. -->
+<!ENTITY featureConfigurator.para.1 "&brandShortName; の新しいバージョンには、誇るべきパワフルな新機能が含まれています。多くの人々がこれらを気に入ることでしょう。誰でも新機能を試せるように、&brandShortName; を簡単にカスタマイズできるようにしました。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.para.2): This paragraph explains that this page is active (the buttons change the UI), and that they can get back to it if they change their mind later.-->
+<!ENTITY featureConfigurator.para.2 "この設定変更ガイドで新機能を設定してください。このページは @@[@@ヘルプ@@]@@ メニューからいつでも開けます。">
+
+<!ENTITY featureConfigurator.toolbar.heading "新メッセージツールバー">
+<!ENTITY featureConfigurator.toolbar.new "メッセージボタンツールバー">
+<!ENTITY featureConfigurator.toolbar.new.status.explanation "ツールバーを簡素にし、各メッセージのヘッダにメッセージボタンを表示します。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.toolbar.original): The word 'original' is chosen deliberately to be neutral, vs. 'old' which in English at least had a negative connotation.-->
+<!ENTITY featureConfigurator.toolbar.original "元のツールバーボタンを維持">
+<!ENTITY featureConfigurator.toolbar.original.status.explanation "ツールバーボタンの位置を維持し、各メッセージのヘッダに新しいメッセージボタンを表示します。">
+
+<!ENTITY featureConfigurator.toolbarBenefits.para "返信や転送などのメッセージ操作を行うボタンは、ツールバーから各メッセージのヘッダへ移動されました。メッセージと操作ボタンを直接結び付け、検索バーやアドオンのためにツールバーの場所を広く取ることができます。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.addOn.downloading): The text to display while downloading the addon. -->
+<!ENTITY featureConfigurator.addOn.downloading "ダウンロードしています...">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.addOn.installing): The text to display while installing the addon. -->
+<!ENTITY featureConfigurator.addOn.installing "インストールしています...">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.addOn.installed): The text to display after the user installs the addon from the configurator. -->
+<!ENTITY featureConfigurator.addOn.installed "インストール完了">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.addOn.failure): The text to display when there is a problem installing the addon. -->
+<!ENTITY featureConfigurator.addOn.failure "この拡張機能のインストール中にエラーが発生しました！">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.addOn.alreadyInstalled): The label to display when the addon is already installed. -->
+<!ENTITY featureConfigurator.addOn.alreadyInstalled "この拡張機能はすでにインストールされています。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.collapsedHeaders.heading): The heading for the Compact Header page. -->
+<!ENTITY featureConfigurator.collapsedHeaders.heading "ヘッダ表示"><!-- en-US: "Compact Header" -->
+
+<!-- LOCALIZATION NOTE (featureConfigurator.collapsedHeaders.para.weak): The paragraph to display if the user hadn't previously used the collapsed headers feature. -->
+<!ENTITY featureConfigurator.collapsedHeaders.para.weak "メッセージヘッダを折りたたむ機能は拡張機能へ分離されました。この拡張機能によって使いやすくなる機能とオプションが追加されます。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.collapsedHeaders.para.strong): The paragraph to display if the user had previously used the collapsed headers feature. -->
+<!ENTITY featureConfigurator.collapsedHeaders.para.strong "メッセージヘッダを折りたたむ機能は拡張機能へ分離されました。従来どおりメッセージヘッダをコンパクトに表示する場合は、この拡張機能をインストールしてください。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.collapsedHeaders.install): The text for the button that will install the Compact Headers addon. -->
+<!ENTITY featureConfigurator.collapsedHeaders.install "Compact Header アドオンをインストール...">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.folderColumns.heading): The heading for the Folder Columns page. -->
+<!ENTITY featureConfigurator.folderColumns.heading "フォルダの詳細表示"><!-- en-US: "Advanced Folder Columns" -->
+
+<!-- LOCALIZATION NOTE (featureConfigurator.folderColumns.para.weak): The paragraph to display if the user hadn't previously used the folder columns feature. -->
+<!ENTITY featureConfigurator.folderColumns.para.weak "Extra Folder Columns アドオンは詳細設定にあった機能を分離したものです。フォルダペインに各フォルダのメッセージ数とディスク使用量の列を表示するには、この拡張機能をインストールしてください。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.folderColumns.para.strong): The paragraph to display if the user had previously used the folder columns feature. -->
+<!ENTITY featureConfigurator.folderColumns.para.strong "フォルダペインの詳細表示 (各フォルダのメッセージ数とディスク使用量の列の表示) 機能は拡張機能へ分離されました。従来どおりフォルダペインに詳細表示する場合は、この拡張機能をインストールしてください。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.folderColumns.install): The text for the button that will install the Extra Folder Columns addon. -->
+<!ENTITY featureConfigurator.folderColumns.install "Extra Folder Columns アドオンをインストール...">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.autoSync.heading): The heading for the Disk space page. -->
+<!ENTITY featureConfigurator.autoSync.heading "メッセージの同期とディスク領域">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.autoSync.para): The paragraph that explains why the user would want to turn on autosync. -->
+<!ENTITY featureConfigurator.autoSync.para "&brandShortName; の新しいバージョンには、新しい検索機能が搭載されています。この新しい検索機能を利用するには、メッセージをダウンロードしてサーバと同期する必要があります。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.autoSync.on): The label for the radio button for synchronizing all the accounts. -->
+<!ENTITY featureConfigurator.autoSync.on "同期する">
+<!ENTITY featureConfigurator.autoSync.on.explanation "メッセージの読み込みと検索結果の表示が速くなります。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.autoSync.off): The label for the radio button that will synchronize none of the accounts. -->
+<!ENTITY featureConfigurator.autoSync.off "同期しない">
+<!ENTITY featureConfigurator.autoSync.off.explanation "メッセージの読み込みが遅くなり、すべてを検索することはできません。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.autoSync.some): The label for the radio button that will let you customize the synchronize for each account. -->
+<!ENTITY featureConfigurator.autoSync.some "アカウントごとに設定する">
+<!ENTITY featureConfigurator.autoSync.some.explanation "同期するアカウントとフォルダを指定してください。">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.diskSpace.currentSize): The label for the current amount of disk space your accounts are consuming. -->
+<!ENTITY featureConfigurator.diskSpace.currentSize "現在の全メッセージの使用量:">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.diskSpace.freeSpace): The label for the current amount of free space available on your hard disk. -->
+<!ENTITY featureConfigurator.diskSpace.freeSpace "空き領域のサイズ:">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.diskSpace.requireSpace): The label for the required amount of free space to synchronize all of your IMAP accounts. -->
+<!ENTITY featureConfigurator.diskSpace.requireSpace "必要領域のサイズ:">
+
+<!-- LOCALIZATION NOTE (featureConfigurator.diskSpace.warning): The label shown when your estimated available hard disk space if you chose autosync would be less than 50MB or if we estimate turning on autosync would use more than 50% of your free space. -->
+<!ENTITY featureConfigurator.diskSpace.warning "ディスクの空き領域が足りなくなる可能性があります！">
+
+
+<!ENTITY featureConfigurator.previousButton "前へ">
+<!ENTITY featureConfigurator.nextButton "@@NextButton@@">
+<!ENTITY featureConfigurator.closeButton "閉じる">
