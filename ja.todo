@@ -8,7 +8,7 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
  - (^^h   note by hATrayflood
  - (^m^)  note by mar
 
-Firefox 5 メモ。
+Firefox メモ。
 未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
 未訳箇所あり:
@@ -17,6 +17,8 @@ Firefox 5 メモ。
     browser\chrome\browser\devtools\styleinspector.properties
     browser\chrome\browser\devtools\gcli.properties
     browser\chrome\browser\devtools\gclicommands.properties
+
+    dom\chrome\layout\htmlparser.properties
 
 要検討箇所あり:
   Pluralform 濫用によるもの
