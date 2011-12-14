@@ -194,3 +194,4 @@ security                80735:9d149d145f6c  ----:------------   mar             
 editor/ui               -----:------------  9217:494757cf43d9   mar             sync editor/ui
 mobile                  80713:53b1db0a0d4b  ----:------------   knagato         sync mobile
 calendar                -----:------------  9217:494757cf43d9   mar             sync calendar
+dom, services/sync      80767:fbda7c5fe59c  ----:------------   hATrayflood     sync dom, services/sync without htmlparser.properties
