@@ -368,21 +368,8 @@
 <!ENTITY tagMenu.accesskey                      "g">
 <!ENTITY tagCustomize.label                     "カスタマイズ...">
 <!ENTITY tagCustomize.accesskey                 "C">
-<!ENTITY tagCmd0.key                            "0">
-<!ENTITY tagCmd1.key                            "1">
-<!ENTITY tagCmd2.key                            "2">
-<!ENTITY tagCmd3.key                            "3">
-<!ENTITY tagCmd4.key                            "4">
-<!ENTITY tagCmd5.key                            "5">
-<!ENTITY tagCmd6.key                            "6">
-<!ENTITY tagCmd7.key                            "7">
-<!ENTITY tagCmd8.key                            "8">
-<!ENTITY tagCmd9.key                            "9">
 <!ENTITY markMenu.label                         "マーク">
 <!ENTITY markMenu.accesskey                     "k">
-<!ENTITY markAsReadCmd.label                    "既読にする">
-<!ENTITY markAsReadCmd.accesskey                "R">
-<!ENTITY markAsReadCmd.key                      "m">
 <!ENTITY markThreadAsReadCmd.label              "スレッドを既読にする">
 <!ENTITY markThreadAsReadCmd.accesskey          "T">
 <!ENTITY markThreadAsReadCmd.key                "r">
@@ -392,9 +379,6 @@
 <!ENTITY markAllReadCmd.label                   "すべてを既読にする">
 <!ENTITY markAllReadCmd.accesskey               "A">
 <!ENTITY markAllReadCmd.key                     "c">
-<!ENTITY markFlaggedCmd.label                   "フラグを付ける">
-<!ENTITY markFlaggedCmd.accesskey               "F">
-<!ENTITY markFlaggedCmd.key                     "i">
 <!ENTITY markAsJunkCmd.label                    "迷惑メールとしてマーク">
 <!ENTITY markAsJunkCmd.accesskey                "J">
 <!ENTITY markAsJunkCmd.key                      "j">
@@ -409,9 +393,6 @@
 <!ENTITY markAsNotPhishCmd.label                "フィッシングメールマークを解除">
 <!ENTITY markAsNotPhishCmd.accesskey            "S">
 <!ENTITY markAsNotPhishCmd.key                  "p">
-<!ENTITY openMessageWindowCmd.label             "メッセージを開く">
-<!ENTITY openMessageWindowCmd.accesskey         "O">
-<!ENTITY openMessageWindowCmd.key               "o">
 <!ENTITY openFeedMessage.label                  "フィードメッセージを開く">
 <!ENTITY openFeedMessage.accesskey              "O">
 <!ENTITY openFeedWebPageInWindow.label          "Web ページ形式で@@NewWindow@@に開く">

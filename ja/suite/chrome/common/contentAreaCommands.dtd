@@ -104,6 +104,12 @@
 <!ENTITY mediaHideControls.accesskey  "a">
 <!ENTITY videoFullScreen.label        "@@FullScreen@@">
 <!ENTITY videoFullScreen.accesskey    "F">
+<!ENTITY videoSaveImage.label         "@@Save-AsCMD@@スナップショットを保存...">
+<!ENTITY videoSaveImage.accesskey     "S">
+<!ENTITY videoShowStats.label         "統計情報を表示">
+<!ENTITY videoShowStats.accesskey     "t">
+<!ENTITY videoHideStats.label         "統計情報を隠す">
+<!ENTITY videoHideStats.accesskey     "t">
 <!ENTITY search.accesskey             "W">
 <!ENTITY bidiSwitchPageDirectionItem.label        "ページの書記方向を切り換え">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey    "g">
