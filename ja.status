@@ -197,3 +197,4 @@ calendar                -----:------------  9217:494757cf43d9   mar             
 dom, services/sync      80767:fbda7c5fe59c  ----:------------   hATrayflood     sync dom, services/sync without htmlparser.properties
 mail                    -----:------------  9226:cc60f45fcbd1   mar             sync mail
 irc                     -----:------------  ----:------------   mar             sync irc for SM 2.7
+suite                   -----:------------  9226:0c2f7e874143   mar             sync suite

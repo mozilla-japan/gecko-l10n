@@ -41,7 +41,6 @@
 <!ENTITY editRewrapCmd.label "再改行">
 <!ENTITY editRewrapCmd.key "R">
 <!ENTITY editRewrapCmd.accesskey  "w">
-<!ENTITY findCmd.label "検索と置換...">
 <!ENTITY accountManagerCmd.label "メールとニュースグループのアカウント設定...">
 <!ENTITY accountManagerCmd.accesskey "m">
 
@@ -64,11 +63,6 @@
 <!ENTITY selectAddressCmd.label "メールアドレスを選択...">
 <!ENTITY selectAddressCmd.key "">
 <!ENTITY selectAddressCmd.accesskey "A">
-
-<!ENTITY checkSpellingCmd2.label "スペルチェック...">
-<!ENTITY checkSpellingCmd2.accesskey "h">
-<!ENTITY enableInlineSpellChecker.label "自動スペルチェック"><!-- en-US: Spell Check As You Type -->
-<!ENTITY enableInlineSpellChecker.accesskey "S">
 
 <!ENTITY priorityMenu.label "重要度">
 <!ENTITY priorityMenu.accesskey "p">
