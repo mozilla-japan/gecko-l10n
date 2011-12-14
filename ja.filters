@@ -275,8 +275,9 @@ mail.credits.dtd			= <ul>\
 					  </ul>
 
 # mail/chrome/messenger/activity.properties
-ja.activity.monthDate			= #1#2日
-ja-JP-mac.activity.monthDate		= #1 #2
+# mail/chrome/messenger/templateUtils.properties
+ja.mail.monthDate		= #1#2日
+ja-JP-mac.mail.monthDate	= #1 #2
 
 
 # mail/chrome/messenger/AccountManager.dtd
@@ -357,8 +358,6 @@ ja-JP-mac.intl.css.locale		=
 # toolkit/chrome/mozapps/downloads/downloads.properties
 ja.downloads.stateBlocked		= 保護者による制限でブロックされました
 ja-JP-mac.downloads.stateBlocked	= ペアレンタルコントロールによりブロックされました
-ja.downloads.monthDate			= #1#2日
-ja-JP-mac.downloads.monthDate		= #1 #2
 ## Firefox 10 以降
 ja.downloads.monthDate2			= %1$S%2$S日
 ja-JP-mac.downloads.monthDate2		= %1$S %2$S

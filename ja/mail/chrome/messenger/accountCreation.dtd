@@ -1,5 +1,5 @@
 <!ENTITY autoconfigWizard.title		"メールアカウント設定">
-<!ENTITY name.label			"あなたの名前:">
+<!ENTITY name.label			"あなたのお名前:">
 <!ENTITY name.accesskey			"n">
 <!ENTITY name.placeholder		"氏名またはニックネーム">
 <!ENTITY name.text			"受信者に表示される名前です。">
@@ -49,6 +49,8 @@
 <!ENTITY half-manual-test.accesskey	"t">
 <!ENTITY manual-edit.label		"手動設定">
 <!ENTITY manual-edit.accesskey		"M">
+<!ENTITY switch-to-provisioner.label	"@@New-CMD@@アカウントを取得">
+<!ENTITY switch-to-provisioner.accesskey	"G">
 
 <!ENTITY warning.label			"警告！">
 <!ENTITY incomingSettings.label		"受信サーバ設定:">

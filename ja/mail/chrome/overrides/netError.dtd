@@ -18,7 +18,7 @@
 <ul>
   <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>
   <li>他のサイトも表示できない場合、コンピュータのネットワーク接続を確認してください。</li>
-  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; による Web アクセスが許可されているか確認してください。</li>
+  <li>ファイアウォールやプロキシでネットワークが保護されている場合、&brandShortName; による Web アクセスが許可されているか確認してください。</li>
 </ul>
 ">
 
@@ -45,6 +45,9 @@
 
 <!ENTITY netInterrupt.title		"接続が中断されました">
 <!ENTITY netInterrupt.longDesc		"&sharedLongDesc;">
+
+<!ENTITY notCached.title		"ドキュメントが有効期限切れです">
+<!ENTITY notCached.longDesc "<p>リクエストされたキャッシュ内のドキュメントは利用できません。</p><ul><li>セキュリティ上の予防策として、&brandShortName; は注意を要するドキュメントを自動的に再リクエストしません。</li><li>&quot;再試行&quot; ボタンをクリックしてドキュメントを Web サイトから読み込んでください。</li></ul>">
 
 <!ENTITY netOffline.title		"オフラインモードです">
 <!ENTITY netOffline.longDesc2		"
