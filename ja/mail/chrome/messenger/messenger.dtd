@@ -26,8 +26,10 @@
 <!ENTITY newVirtualFolderCmd.accesskey		"S">
 <!ENTITY newOtherAccountsCmd.label		"他のサービスのアカウント...">
 <!ENTITY newOtherAccountsCmd.accesskey		"O">
-<!ENTITY newEmailAccountCmd.label		"メールアカウント...">
-<!ENTITY newEmailAccountCmd.accesskey		"A">
+<!ENTITY newCreateEmailAccountCmd.label		"@@New-CMD@@メールアカウントを取得...">
+<!ENTITY newCreateEmailAccountCmd.accesskey	"G">
+<!ENTITY newExistingEmailAccountCmd.label	"既存のメールアカウント...">
+<!ENTITY newExistingEmailAccountCmd.accesskey	"E">
 <!ENTITY openMessageFileCmd.label		"メッセージファイルを開く...">
 <!ENTITY openMessageFileCmd.accesskey		"O">
 <!ENTITY openAttachmentCmd.label		"添付">
@@ -139,6 +141,8 @@
 <!ENTITY messagePaneWide.accesskey		"W">
 <!ENTITY messagePaneVertical.label		"縦表示">
 <!ENTITY messagePaneVertical.accesskey		"V">
+<!ENTITY showFolderPaneCmd.label		"フォルダペイン">
+<!ENTITY showFolderPaneCmd.accesskey		"F">
 <!ENTITY showMessageCmd.label			"メッセージペイン">
 <!ENTITY showMessageCmd.accesskey		"M">
 

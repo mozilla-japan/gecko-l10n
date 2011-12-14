@@ -87,8 +87,12 @@
 <!ENTITY showTaskbarCmd.accesskey		"S"> 
 <!ENTITY customizeToolbar.label			"カスタマイズ...">
 <!ENTITY customizeToolbar.accesskey		"C">
-<!ENTITY showContactPane.label			"連絡先要約ペイン">
-<!ENTITY showContactPane.accesskey		"C">
+<!ENTITY layoutMenu.label			"レイアウト">
+<!ENTITY layoutMenu.accesskey			"L">
+<!ENTITY showDirectoryPane.label		"アドレス帳ペイン"><!-- en-US: "Directory Pane" -->
+<!ENTITY showDirectoryPane.accesskey		"D">
+<!ENTITY showContactPane2.label			"連絡先ペイン">
+<!ENTITY showContactPane2.accesskey		"C">
 <!ENTITY menu_ShowNameAs.label			"名前の表示">
 <!ENTITY menu_ShowNameAs.accesskey		"n">
 <!ENTITY firstLastCmd.label			"名前 姓">
