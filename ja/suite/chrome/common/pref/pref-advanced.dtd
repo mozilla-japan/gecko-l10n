@@ -9,3 +9,7 @@
 <!ENTITY prefCheckDefault.caption   "システム統合">
 <!ENTITY prefCheckDefaultClient.label "起動時に@@DefaultApplication@@の設定を確認する">
 <!ENTITY prefCheckDefaultClient.accesskey "C">
+
+<!ENTITY crashReports.caption       "クラッシュレポータ">
+<!ENTITY submitCrashes.label        "クラッシュレポートを送信する">
+<!ENTITY submitCrashes.accesskey    "S">

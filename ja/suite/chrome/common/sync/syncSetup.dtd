@@ -44,8 +44,7 @@
 <!ENTITY setup.newRecoveryKeyPage.description.label "あなたのプライバシーを守るため、すべてのデータはアップロード前に暗号化されます。データを復号する際に必要となるリカバリキーはアップロードされません。">
 <!ENTITY recoveryKeyEntry.label        "リカバリキー">
 <!ENTITY recoveryKeyEntry.accesskey    "K">
-<!ENTITY recoveryKeyGenerate.label     "生成">
-<!ENTITY recoveryKeyGenerate.accesskey "G">
+<!ENTITY recoveryGenerateNewKey.label  "新しいキーを生成する">
 <!ENTITY recoveryKeyBackup.description "リカバリキーは、他のパソコンから &syncBrand.fullName.label; へアクセスする際に必要となります。メモとして残しておくことをお勧めします。リカバリキーを失くすと取り戻すことはできません。">
 
 <!ENTITY button.syncKeyBackup.print.label     "@@Print@@...">
