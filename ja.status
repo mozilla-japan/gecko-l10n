@@ -198,3 +198,4 @@ dom, services/sync      80767:fbda7c5fe59c  ----:------------   hATrayflood     
 mail                    -----:------------  9226:cc60f45fcbd1   mar             sync mail
 irc                     -----:------------  ----:------------   mar             sync irc for SM 2.7
 browser                 80767:fbda7c5fe59c  ----:------------   hATrayflood     sync browser without devtools
+suite                   -----:------------  9226:0c2f7e874143   mar             sync suite
