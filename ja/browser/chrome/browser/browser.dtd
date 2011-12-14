@@ -90,6 +90,7 @@ can reach it easily. -->
 <!ENTITY fullScreenAutohide.accesskey	"H">
 <!ENTITY fullScreenExit.label		"@@FullScreen@@モードを終了">
 <!ENTITY fullScreenExit.accesskey	"F">
+<!ENTITY domFullScreenWarning.label	"@@FullScreen@@モードを終了するには、ESC キーを押してください。">
 
 <!ENTITY closeWindow.label		"@@Window@@を閉じる">
 <!ENTITY closeWindow.accesskey 		"d">
@@ -215,6 +216,9 @@ can reach it easily. -->
 <!ENTITY inspectPanelTitle.label	"HTML">
 <!ENTITY inspectButton.label		"調査">
 <!ENTITY inspectButton.accesskey	"I">
+<!ENTITY inspectCloseButton.tooltiptext	"調査を閉じる">
+<!ENTITY inspectStyleButton.label		"スタイル">
+<!ENTITY inspectStyleButton.accesskey	"S">
 
 <!ENTITY getMoreDevtoolsCmd.label	"その他のツール">
 <!ENTITY getMoreDevtoolsCmd.accesskey	"M">
@@ -432,7 +436,12 @@ can reach it easily. -->
 <!ENTITY mediaHideControls.accesskey	"C">
 <!ENTITY videoFullScreen.label		"@@FullScreen@@">
 <!ENTITY videoFullScreen.accesskey	"F">
-
+<!ENTITY videoSaveImage.label		"スナップショットを保存...">
+<!ENTITY videoSaveImage.accesskey	"S">
+<!ENTITY videoShowStats.label		"統計情報を表示">
+<!ENTITY videoShowStats.accesskey	"t">
+<!ENTITY videoHideStats.label		"統計情報を閉じる">
+<!ENTITY videoHideStats.accesskey	"t">
 
 <!-- LOCALIZATION NOTE :
 fullZoomEnlargeCmd.commandkey3, fullZoomReduceCmd.commandkey2 and

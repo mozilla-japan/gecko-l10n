@@ -4,8 +4,7 @@
 
 <!ENTITY setup.pickSetupType.description "ようこそ - これまでに &syncBrand.fullName.label; を使用したことがなければ、アカウントを作成してください。">
 <!ENTITY button.createNewAccount.label "新しいアカウントを作成">
-<!ENTITY setup.haveAccount.label "すでに &syncBrand.fullName.label; アカウントを持っています">
-<!ENTITY button.connect.label    "接続">
+<!ENTITY button.haveAccount.label      "アカウントを持っています">
 
 <!ENTITY setup.choicePage.title.label     "これまでに &syncBrand.fullName.label; を使用したことはありますか？">
 <!ENTITY setup.choicePage.new.label       "これまでに &syncBrand.shortName.label; を使用したことは一度もありません">
@@ -40,7 +39,7 @@
 <!ENTITY setup.tosAgree3.label      "に同意します">
 <!ENTITY setup.tosAgree2.accesskey  "">
 
-<!-- New Account Page 2: Sync Key -->
+<!-- My Recovery Key dialog -->
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; はプライバシーを大切にします">
 <!ENTITY setup.newRecoveryKeyPage.description.label "あなたのプライバシーを守るため、すべてのデータはアップロード前に暗号化されます。データを復号する際に必要となるリカバリキーはアップロードされません。">
 <!ENTITY recoveryKeyEntry.label        "リカバリキー">
@@ -53,15 +52,13 @@
 <!ENTITY button.syncKeyBackup.save.label      "保存...">
 <!ENTITY button.syncKeyBackup.save.accesskey  "S">
 
-<!-- New Account Page 3: Captcha -->
-<!ENTITY setup.captchaPage2.title.label     "あなたがロボットではないことを確認してください">
-<!-- Existing Account Page 1: Add Device (incl. Add a Device dialog strings) -->
-<!ENTITY addDevice.title.label              "デバイスを追加する">
+<!-- Existing Account Page 1: Pair a Device (incl. Pair a Device dialog strings) -->
+<!ENTITY pairDevice.title.label              "デバイスと連携">
 <!ENTITY addDevice.showMeHow.label          "設定方法を確認する。">
 <!ENTITY addDevice.dontHaveDevice.label     "他の Sync デバイスを持っていない">
-<!ENTITY addDevice.setup.description.label  "有効にするには、他の Sync デバイスで &syncBrand.shortName.label; オプション の &#x0022;デバイスを追加する&#x0022; を選択してください。">
+<!ENTITY pairDevice.setup.description.label  "有効にするには、他のデバイスで &#x0022;デバイスと連携&#x0022; を選択してください。">
 <!ENTITY addDevice.setup.enterCode.label    "表示された画面に、以下のコードを入力してください:">
-<!ENTITY addDevice.dialog.description.label "新たなデバイスを有効にするには、追加するデバイスの &syncBrand.shortName.label; オプションの &#x0022;接続&#x0022; を選択してください。">
+<!ENTITY pairDevice.dialog.description.label "新たなデバイスを有効にするには、追加するデバイスで &#x0022;Sync をセットアップ&#x0022; を選択してください。">
 <!ENTITY addDevice.dialog.enterCode.label   "デバイスに表示されたコードを入力してください:">
 <!ENTITY addDevice.dialog.tryAgain.label    "もう一度入力してください。">
 <!ENTITY addDevice.dialog.successful.label  "デバイスの接続に成功しました。最初の同期はバックグラウンドで、数分のうちに完了します。">

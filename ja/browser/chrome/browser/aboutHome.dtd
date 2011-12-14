@@ -18,3 +18,6 @@
      text in <a/> will be linked to the featured add-ons on addons.mozilla.org
 -->
 <!ENTITY abouthome.defaultSnippet2.v1			"<a>Firefox をカスタマイズしてみましょう</a>。たくさんの無料のアドオンの中から気に入ったものを選べば、自分好みのブラウザを作ることができます。">
+
+<!ENTITY abouthome.syncSetup.label				"Sync をセットアップ">
+<!ENTITY abouthome.pairDevice.label				"デバイスと連携">

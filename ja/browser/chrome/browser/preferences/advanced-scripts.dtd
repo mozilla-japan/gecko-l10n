@@ -40,8 +40,8 @@
 
 <!ENTITY allowScripts.label		"次のスクリプトを許可する:">
 
-<!ENTITY moveResizeWindows.label	"@@Window@@の移動または大きさの変更">
-<!ENTITY moveResizeWindows.accesskey	"M">
+<!ENTITY moveResizePopupWindows.label		"ポップアップ@@Window@@の移動または大きさの変更">
+<!ENTITY moveResizePopupWindows.accesskey	"M">
 <!ENTITY raiseLowerWindows.label	"@@Window@@のフォーカス(@@Front@@か@@Back@@か)を切り替える">
 <!ENTITY raiseLowerWindows.accesskey	"R">
 <!ENTITY disableContextMenus.label	"コンテキストメニューを無効化または変更する">

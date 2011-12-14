@@ -17,7 +17,7 @@
 <!ENTITY myRecoveryKey.label          "リカバリキー">
 <!ENTITY resetSync2.label             "Sync をリセット...">
 
-<!ENTITY addDevice.label              "デバイスを追加">
+<!ENTITY pairDevice.label             "デバイスと連携">
 
 <!ENTITY syncMy.label               "同期するデータ">
 <!ENTITY engine.bookmarks.label     "ブックマーク">
