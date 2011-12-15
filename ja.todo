@@ -12,12 +12,6 @@ Firefox メモ。
 未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
 未訳箇所あり:
-(^^h styleinspectorはfirefox-10に見送りとなったため未訳
-    browser\chrome\browser\devtools\styleinspector.dtd
-    browser\chrome\browser\devtools\styleinspector.properties
-    browser\chrome\browser\devtools\gcli.properties
-    browser\chrome\browser\devtools\gclicommands.properties
-
     dom\chrome\layout\htmlparser.properties
 
 要検討箇所あり:
