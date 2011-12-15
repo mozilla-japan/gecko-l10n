@@ -22,7 +22,7 @@
 <!ENTITY existing.header		"すでにメールアドレスをお持ちの方">
 <!ENTITY tinyheader.title		"すでに取得済み？">
 <!ENTITY tinyheader.existing		"メールアカウントを設定する">
-<!ENTITY content.close			"この[[T:Window]]を閉じて後で設定する">
+<!ENTITY content.close			"この@@Window@@を閉じて後で設定する">
 <!ENTITY successful.title		"アカウント作成完了"><!-- en-US: "Congratulations!" -->
 <!ENTITY successful.successMessage	"アカウントのセットアップが完了しました。">
 <!ENTITY successful.write		"メールを書く">
