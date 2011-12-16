@@ -8,7 +8,7 @@
 <!ENTITY sync.syncNow               "今すぐ同期">
 
 <!ENTITY sync.setup.title           "接続して同期">
-<!ENTITY sync.setup.pair            "デバイスの有効化のために、他のデバイス上で「デバイスを同期」を選択してください。">
+<!ENTITY sync.setup.pair            "デバイスの有効化のために、他のデバイス上で @@[@@デバイスを同期@@]@@ を選択してください。">
 <!ENTITY sync.fallback              "コンピュータの近くにいない...">
 <!ENTITY sync.setup.manual          "Sync アカウントの情報を入力してください">
 <!ENTITY sync.account               "アカウント名">
@@ -22,6 +22,6 @@
 <!ENTITY sync.setup.waiting2        "他のデバイスを待っています...">
 
 <!ENTITY sync.pair.title            "デバイスを同期">
-<!ENTITY sync.pair.description      "新しいデバイスを有効化するためには、デバイス上で「 Sync をセットアップ」を選択してください。">
+<!ENTITY sync.pair.description      "新しいデバイスを有効化するためには、デバイス上で @@[@@Sync をセットアップ@@]@@ を選択してください。">
 <!ENTITY sync.setup.close           "閉じる">
-<!ENTITY sync.setup.waitingdownload "バックグラウンドであなたのデータをダウンロードしています。このウィンドウはいつでも閉じることができます。">
+<!ENTITY sync.setup.waitingdownload "バックグラウンドであなたのデータをダウンロードしています。この@@Window@@はいつでも閉じることができます。">
