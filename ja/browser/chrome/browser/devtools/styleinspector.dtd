@@ -1,7 +1,7 @@
 <!-- LOCALIZATION NOTE (userStylesLabel): This is the label for the checkbox
   -  that specifies whether the styles that are not from the user's stylesheet
   -  should be displayed or not. -->
-<!ENTITY userStylesLabel	"ユーザCSSのみ">
+<!ENTITY userStylesLabel	"ユーザ CSS のみ">
 
 <!-- LOCALIZATION NOTE (userStylesSearch): This is the placeholder that goes in
   -  the search box when no search term has been entered. -->
