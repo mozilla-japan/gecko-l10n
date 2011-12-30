@@ -75,3 +75,11 @@
 <!-- Edit menu items -->
 <!ENTITY publishSettings.label "出版サイトの設定...">
 <!ENTITY publishSettings.accesskey "b">
+
+<!-- Toolbar-only items -->
+<!ENTITY newToolbarCmd.label "新規作成">
+<!ENTITY newToolbarCmd.tooltip "新しい Composer ページを作成します">
+<!ENTITY openToolbarCmd.label "開く">
+<!ENTITY openToolbarCmd.tooltip "ファイルを開く">
+<!ENTITY saveToolbarCmd.tooltip "ローカル URL にファイルを保存します">
+<!ENTITY publishToolbarCmd.tooltip "リモート URL にファイルをアップロードします">
