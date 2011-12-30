@@ -18,7 +18,7 @@
 <!ENTITY permission.allowForSession	"セッション中のみ許可">
 <!ENTITY permission.block		"ブロック">
 
-<!ENTITY password.label			"パスワードを保存">
+<!ENTITY password.label			"パスワードの保存">
 <!ENTITY password.manage		"保存されているパスワード...">
 
 <!ENTITY cookie.label			"Cookie データの保存">
