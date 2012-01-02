@@ -205,3 +205,4 @@ browser/devtools        80767:fbda7c5fe59c  ----:------------   hATrayflood     
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 editor/ui               -----:------------  9473:00a50ae8e19e   mar             sync editor/ui
+toolkit                 83974:e2fe885dce01  9475:afe3fbe2d324   mar             sync toolkit

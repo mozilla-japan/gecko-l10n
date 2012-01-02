@@ -1,5 +1,9 @@
 <!ENTITY addons.windowTitle			"アドオンマネージャ">
+
 <!ENTITY search.placeholder			"アドオンを検索">
+<!-- LOCALIZATION NOTE (search.commandKey):
+     The search command key should match findOnCmd.commandkey from browser.dtd -->
+<!ENTITY search.commandkey			"f">
 <!ENTITY loading.label				"読み込み中...">
 <!ENTITY listEmpty.installed.label		"この種類のアドオンはインストールされていません">
 <!ENTITY listEmpty.availableUpdates.label	"更新は見つかりませんでした">
@@ -44,7 +48,7 @@
 <!ENTITY updates.resetUpdatesToAutomatic.accesskey	"R">
 <!ENTITY updates.resetUpdatesToManual.label	"すべてのアドオンを手動で更新">
 <!ENTITY updates.resetUpdatesToManual.accesskey	"R">
-<!ENTITY updates.updating.label			"更新がないか確認しています">
+<!ENTITY updates.updating.label			"更新を確認しています">
 <!ENTITY updates.installed.label		"アドオンが更新されました。">
 <!ENTITY updates.downloaded.label		"アドオンの更新がダウンロードされました。">
 <!ENTITY updates.restart.label			"再起動して更新を完了してください">

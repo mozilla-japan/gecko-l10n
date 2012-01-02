@@ -46,9 +46,9 @@
 <!ENTITY aboutWarningButton.label	"細心の注意を払って使用する">
 <!ENTITY aboutWarningCheckbox.label	"次回もこの警告を表示する">
 
-<!ENTITY filterPrefs.label	"フィルタ:">
-<!ENTITY filterPrefs.accesskey	"F">
-<!ENTITY focusFilter.key	"f">
+<!ENTITY searchPrefs.label	"検索:">
+<!ENTITY searchPrefs.accesskey	"r">
+<!ENTITY focusSearch.key	"r">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label	"設定名">

@@ -422,14 +422,23 @@ can reach it easily. -->
 <!ENTITY thisFrameMenu.accesskey	"h">
 
 <!-- Media (video/audio) controls -->
+<!-- LOCALIZATION NOTE: The access keys for "Play" and
+"Pause" are the same because the two context-menu
+items are mutually exclusive. -->
 <!ENTITY mediaPlay.label		"再生">
 <!ENTITY mediaPlay.accesskey		"P">
 <!ENTITY mediaPause.label		"一時停止">
 <!ENTITY mediaPause.accesskey		"P">
+<!-- LOCALIZATION NOTE: The access keys for "Mute" and
+"Unmute" are the same because the two context-menu
+items are mutually exclusive. -->
 <!ENTITY mediaMute.label		"ミュート">
 <!ENTITY mediaMute.accesskey		"M">
 <!ENTITY mediaUnmute.label		"ミュート解除">
 <!ENTITY mediaUnmute.accesskey		"m">
+<!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
+"Hide Controls" are the same because the two context-menu
+items are mutually exclusive. -->
 <!ENTITY mediaShowControls.label	"コントロールを表示">
 <!ENTITY mediaShowControls.accesskey	"C">
 <!ENTITY mediaHideControls.label	"コントロールを隠す">
@@ -438,6 +447,9 @@ can reach it easily. -->
 <!ENTITY videoFullScreen.accesskey	"F">
 <!ENTITY videoSaveImage.label		"スナップショットを保存...">
 <!ENTITY videoSaveImage.accesskey	"S">
+<!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
+"Hide Statistics" are the same because the two context-menu
+items are mutually exclusive. -->
 <!ENTITY videoShowStats.label		"統計情報を表示">
 <!ENTITY videoShowStats.accesskey	"t">
 <!ENTITY videoHideStats.label		"統計情報を閉じる">
