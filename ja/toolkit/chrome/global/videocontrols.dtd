@@ -2,6 +2,8 @@
 <!ENTITY playButton.pauseLabel "一時停止">
 <!ENTITY muteButton.muteLabel "ミュート">
 <!ENTITY muteButton.unmuteLabel "ミュート解除">
+<!ENTITY fullscreenButton.enterfullscreenlabel "@@FullScreen@@">
+<!ENTITY fullscreenButton.exitfullscreenlabel "@@FullScreen@@を解除">
 
 <!ENTITY stats.media "メディア">
 <!ENTITY stats.size "サイズ">
@@ -17,6 +19,13 @@
 <!ENTITY stats.framesDecoded "デコード済みフレーム">
 <!ENTITY stats.framesPresented "再生済みフレーム">
 <!ENTITY stats.framesPainted "描画済みフレーム">
+
+<!ENTITY error.aborted "動画の読み込みを中止しました。">
+<!ENTITY error.network "ネットワークエラーが発生したため動画の再生を中止しました。">
+<!ENTITY error.decode "ファイルが壊れているため動画を再生できません。">
+<!ENTITY error.srcNotSupported "この動画のファイル形式または MIME タイプはサポートされていません。">
+<!ENTITY error.noSource2 "サポートされたファイル形式および MIME タイプの動画が見つかりませんでした。">
+<!ENTITY error.generic "不明なエラーが発生したため動画の再生を中止しました。">
 
 <!-- LOCALIZATION NOTE (scrubberScale.nameFormat): the #1 string is the current
 media position, and the #2 string is the total duration. For example, when at
