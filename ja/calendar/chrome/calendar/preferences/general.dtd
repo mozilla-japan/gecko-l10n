@@ -45,7 +45,11 @@
 <!ENTITY pref.dateformat.accesskey "D">
 <!ENTITY pref.dateformat.long "長い形式" >
 <!ENTITY pref.dateformat.short "短い形式"  >
-<!ENTITY pref.defaultlength.label   "予定の@@Default-@@期間:" >
+<!ENTITY pref.defaultlength.label "予定の@@Default-@@期間:" >
 <!ENTITY pref.defaultlength.accesskey "E">
-<!ENTITY pref.defaultsnoozelength.label   "アラーム再通知の@@Default-@@間隔:" >
+<!ENTITY pref.defaultsnoozelength.label "アラーム再通知の@@Default-@@間隔:" >
 <!ENTITY pref.defaultsnoozelength.accesskey "S">
+
+<!ENTITY pref.accessibility.label "アクセシビリティ" >
+<!ENTITY pref.systemcolors.label "システムの@@Colors@@に最適化する" >
+<!ENTITY pref.systemcolors.accesskey "c">

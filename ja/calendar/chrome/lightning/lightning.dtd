@@ -78,8 +78,10 @@
 <!ENTITY lightning.toolbar.mail.label			"メール">
 <!ENTITY lightning.toolbar.mail.accesskey		"M">
 <!ENTITY lightning.toolbar.calendar.label		"カレンダー">
+<!ENTITY lightning.toolbar.calendar.tooltip		"カレンダータブに切り替えます">
 <!ENTITY lightning.toolbar.calendar.accesskey		"C">
 <!ENTITY lightning.toolbar.task.label			"ToDo">
+<!ENTITY lightning.toolbar.task.tooltip			"ToDo タブに切り替えます">
 <!ENTITY lightning.toolbar.task.accesskey		"T">
 
 <!-- Toolbar write button -->
