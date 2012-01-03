@@ -207,3 +207,4 @@ target dir              mozilla and comm hg changeset rev:id    by              
 editor/ui               -----:------------  9473:00a50ae8e19e   mar             sync editor/ui
 toolkit                 83974:e2fe885dce01  9475:afe3fbe2d324   mar             sync toolkit
 calendar                -----:------------  9475:afe3fbe2d324   mar             sync calendar
+dom, services/sync      83974:e2fe885dce01  ----:------------   mar             sync dom, services/sync
