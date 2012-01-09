@@ -56,6 +56,10 @@
 <!ENTITY popType.accesskey		"P">
 <!ENTITY leaveMsgsOnSrvr.label		"サーバにメッセージを残す">
 <!ENTITY leaveMsgsOnSrvr.accesskey	"L">
+<!ENTITY portNum.label			"ポート番号:">
+<!ENTITY portNum.accesskey		"o">
+<!ENTITY defaultPortLabel.label		"@@Default@@:">
+<!ENTITY defaultPortValue.label		"">
 
 <!-- LOCALIZATION NOTE (haveSmtp1.prefix and haveSmtp1.suffix2) : Do not translate "SMTP" and "&quot;" in
      these variables. Also, translate haveSmtp1.prefix and haveSmtp1.suffix2 as a single sentence, inserting
@@ -109,5 +113,5 @@
 <!ENTITY deferStorageDesc.label		"共通受信トレイを使用するアカウントのメールはすべてまとめて保存されます。このアカウントで送受信するメールを個別のディレクトリに分けて保存する場合はチェックを外してください。"><!-- (^^; Uncheck this checkbox to store mail for this account in its own directory. That will make this account appear as a top-level account. Otherwise, it will be part of the Local Folders Global Inbox account. -->
 <!ENTITY deferStorage.label		"共通受信トレイを使用する (&quot;ローカルフォルダ&quot; にメールを保存)"><!-- (^^; Use Global Inbox (store mail in Local Folders) -->
 <!ENTITY deferStorage.accesskey		"G">
-<!ENTITY clickFinish.label		"@@[@@完了@@]@@ をクリックすると設定を保存して アカウントを作成します。">
-<!ENTITY clickFinish.labelMac		"@@[@@完了@@]@@ をクリックすると設定を保存して アカウントを作成します。">
+<!ENTITY clickFinish.label		"@@[@@完了@@]@@ をクリックすると、設定を保存してアカウントを作成します。">
+<!ENTITY clickFinish.labelMac		"@@[@@完了@@]@@ をクリックすると、設定を保存してアカウントを作成します。">
