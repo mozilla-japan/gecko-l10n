@@ -209,3 +209,4 @@ toolkit                 83974:e2fe885dce01  9475:afe3fbe2d324   mar             
 calendar                -----:------------  9475:afe3fbe2d324   mar             sync calendar
 dom, services/sync      83974:e2fe885dce01  ----:------------   mar             sync dom, services/sync
 mail                    -----:------------  9495:44a93d2f172d   mar             sync mail
+mobile                  84037:1e8584b9d3b1  ----:------------   knagato         sync mobile
