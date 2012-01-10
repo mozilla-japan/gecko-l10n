@@ -1,4 +1,3 @@
-<!ENTITY messengerWindow.title			"メールとニュースグループ">
 <!ENTITY titledefault.label			"&brandFullName;">
 <!ENTITY titleSeparator.label			" - ">
 
@@ -590,8 +589,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY folderContextMarkMailFolderRead.accesskey	"k">
 <!ENTITY folderContextSubscribe.label			"購読...">
 <!ENTITY folderContextSubscribe.accesskey		"b">
-<!ENTITY folderContextSearchMessages.label		"検索...">
-<!ENTITY folderContextSearchMessages.accesskey		"S">
+<!ENTITY folderContextSearchForMessages.label		"メッセージを検索...">
+<!ENTITY folderContextSearchForMessages.accesskey	"S">
 <!ENTITY folderContextProperties.label			"@@PropertyCMD@@...">
 <!ENTITY folderContextProperties.accesskey		"P">
 <!ENTITY folderContextFavoriteFolder.label		"お気に入りフォルダ">
