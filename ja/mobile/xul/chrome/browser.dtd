@@ -1,0 +1,122 @@
+<!ENTITY urlbar.emptytext      "検索語句や URL を入力してください">
+
+<!ENTITY back.label            "戻る">
+<!ENTITY forward.label         "進む">
+<!ENTITY reload.label          "再読み込み">
+<!ENTITY stop.label            "中止">
+<!ENTITY go.label              "移動">
+<!ENTITY star.label            "星">
+
+<!ENTITY showTabs.label        "タブを見る">
+<!ENTITY newtab.label          "@@NewTab@@">
+<!ENTITY closetab.label        "タブを閉じる">
+
+<!ENTITY cut.label             "@@Cut@@">
+<!ENTITY copy.label            "コピー">
+<!ENTITY copyAll.label         "すべてコピー">
+<!ENTITY copylink.label        "リンクの URL をコピー">
+<!ENTITY paste.label           "@@Paste@@">
+<!ENTITY pasteAndGo.label      "@@Paste@@て移動">
+<!ENTITY delete.label          "削除">
+<!ENTITY selectAll.label       "@@SelectAll@@">
+<!ENTITY noSuggestions.label   "(候補なし)">
+<!ENTITY addToDictionary.label "辞書に追加">
+<!ENTITY inputMethod.label     "入力方法">
+
+<!ENTITY allPagesHeader.label      "すべてのページ">
+<!ENTITY bookmarksHeader.label     "ブックマーク">
+<!ENTITY historyHeader.label       "履歴">
+<!ENTITY desktopHeader.label       "パソコン">
+
+<!ENTITY selectHelper.done         "完了">
+
+<!ENTITY editBookmarkDialog.title  "ブックマークを編集">
+<!ENTITY editBookmarkDone.label    "完了">
+<!ENTITY editBookmarkTags.label    "タグを入力してください"><!-- 全角12文字まで -->
+
+<!ENTITY addonsHeader.label        "アドオン">
+<!ENTITY addonsLocal.label         "インストールしているアドオン"><!-- 全角14文字まで -->
+<!ENTITY addonsUpdate.label        "更新">
+<!ENTITY addonsRepo.label          "アドオンを入手">
+<!ENTITY addonsRecommended.label   "おすすめ">
+<!ENTITY addonsSearch.label        "検索">
+<!ENTITY addonsSearch2.emptytext   "アドオンを検索">
+<!ENTITY addonsSearch.recommended  "おすすめ">
+
+<!ENTITY addonOptions.label        "設定">
+<!ENTITY addonEnable.label         "有効化">
+<!ENTITY addonDisable.label        "無効化">
+<!ENTITY addonInstall2.label       "&brandShortName; に追加">
+<!ENTITY addonUninstall.label      "削除">
+<!ENTITY addonCancel.label         "キャンセル">
+<!ENTITY addonShowPage.label       "詳細を表示">
+
+<!ENTITY downloadsHeader.label     "ダウンロード">
+<!ENTITY downloadShowPage.label    "ページを表示">
+<!ENTITY downloadShow2.label       "検索">
+<!ENTITY downloadOpen2.label       "開く">
+<!ENTITY downloadCancel.label      "キャンセル">
+<!ENTITY downloadPause.label       "中断">
+<!ENTITY downloadResume.label      "再開">
+<!ENTITY downloadRetry.label       "リトライ">
+<!ENTITY downloadRemove.label      "履歴を消去"><!-- 履歴を消去(ファイルの削除ではない) -->
+<!ENTITY downloadDelete.label      "削除">
+<!ENTITY downloadFailed.label      "ダウンロード失敗">
+
+<!ENTITY noResults.label           "該当する履歴はありません">
+<!ENTITY allBookmarks.label        "すべてのブックマークを表示">
+
+<!ENTITY bookmarkPopup.label       "ブックマーク">
+<!ENTITY bookmarkRemove.label      "削除">
+<!ENTITY bookmarkEdit.label        "編集">
+<!ENTITY bookmarkShortcut.label    "ホーム画面に追加">
+
+<!ENTITY identity.unverifiedsite2 "この Web サイトは認証されていません">
+<!ENTITY identity.connectedTo2 "接続中のサイト:"><!-- SSLありの場合は画面幅制限要注意 -->
+<!-- Localization note (identity.runBy2)
+ The layout of the identity dialog prevents combining this into a single string with
+ substitution variables.  If it is difficult to translate the sense of the string
+ with that structure, consider a translation which ignores the preceding domain and
+ just addresses the organization to follow, e.g. "This site is run by " -->
+<!ENTITY identity.runBy2 "サイトの運営者:"><!-- 画面幅制限要注意 -->
+
+<!ENTITY consoleHeader.label       "エラーコンソール">
+<!ENTITY consoleAll.label          "すべて">
+<!ENTITY consoleErrors.label       "エラー">
+<!ENTITY consoleWarnings.label     "警告">
+<!ENTITY consoleMessages.label     "メッセージ">
+<!ENTITY consoleCodeEval.label     "コード:">
+<!ENTITY consoleClear.label        "消去">
+<!ENTITY consoleEvaluate.label     "...">
+<!ENTITY consoleErrFile.label      "ソースファイル:">
+<!ENTITY consoleErrLine.label      "行:">
+<!ENTITY consoleErrColumn.label    "列:">
+
+<!ENTITY contextOpenInNewTab.label    "リンクを@@NewTab@@で開く">
+<!ENTITY contextSaveImage.label       "画像を保存">
+<!ENTITY contextCopyLink.label        "リンクをコピー">
+<!ENTITY contextCopyEmail.label       "メールアドレスをコピー">
+<!ENTITY contextCopyPhone.label       "電話番号をコピー">
+<!ENTITY contextCopyImageLocation.label       "画像の URL をコピー">
+<!ENTITY contextShareLink.label       "リンクを共有">
+<!ENTITY contextShareImage.label      "画像を共有">
+<!ENTITY contextBookmarkLink.label    "リンクをブックマーク">
+<!ENTITY contextSaveVideo.label       "ビデオを保存">
+<!ENTITY contextShareVideo.label      "ビデオを共有">
+<!ENTITY contextPlayMedia.label       "再生">
+<!ENTITY contextPauseMedia.label      "一時停止">
+<!ENTITY contextFullScreen.label      "@@FullScreen@@">
+<!ENTITY contextEditBookmark.label    "編集">
+<!ENTITY contextRemoveBookmark.label  "削除">
+<!ENTITY contextShortcutBookmark.label "ホーム画面に追加">
+
+<!ENTITY pageactions.saveas.pdf      "PDF として保存">
+<!ENTITY pageactions.share.page      "ページを共有">
+<!ENTITY pageactions.password.forget "パスワードを消去">
+<!ENTITY pageactions.quit            "終了">
+<!ENTITY pageactions.reset           "サイトの設定を消去">
+<!ENTITY pageactions.findInPage      "ページ内検索"><!-- 「ページ中を検索」は画面サイズとフォントによっては切れる -->
+<!ENTITY pageactions.search.addNew   "検索エンジンを追加">
+<!ENTITY pageactions.charEncoding    "文字コード"><!-- 設定画面に「文字エンコーディング」では長すぎて使えないところがある -->
+
+<!ENTITY appMenu.siteOptions         "サイトの設定">
