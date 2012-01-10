@@ -1,18 +1,12 @@
 <!ENTITY aboutPage.title                        "&brandShortName; について">
+<!ENTITY aboutPage.checkForUpdates.link         "更新を確認">
+<!ENTITY aboutPage.checkForUpdates.checking     "更新がないか確認しています...">
+<!ENTITY aboutPage.checkForUpdates.none         "更新が見つかりませんでした">
+<!ENTITY aboutPage.checkForUpdates.found        "更新が見つかりました">
 <!ENTITY aboutPage.faq.label                    "よくある質問">
 <!ENTITY aboutPage.support.label                "サポート">
 <!ENTITY aboutPage.privacyPolicy.label          "プライバシーポリシー">
 <!ENTITY aboutPage.rights.label                 "あなたの権利について">
 <!ENTITY aboutPage.relNotes.label               "リリースノート">
 <!ENTITY aboutPage.credits.label                "クレジット">
-<!ENTITY aboutPage.checkForUpdates.button       "更新を確認">
-<!ENTITY aboutPage.checkForUpdates.checking     "更新がないか確認しています...">
-<!ENTITY aboutPage.checkForUpdates.none         "更新が見つかりませんでした">
-<!ENTITY aboutPage.checkForUpdates.found        "更新が見つかりました">
-
-
-<!-- LOCALIZATION NOTE:
-     These strings are concatenated in order. Unneeded strings may be left blank.
--->
-<!ENTITY aboutPage.licenseLink                  "ライセンス情報">
-<!ENTITY aboutPage.licenseLinkSuffix            "">
+<!ENTITY aboutPage.license.label                "ライセンス情報">
