@@ -1,0 +1,73 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+
+ The contents of this file are subject to the Mozilla Public License Version
+ 1.1 (the "License"); you may not use this file except in compliance with
+ the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+
+ Software distributed under the License is distributed on an "AS IS" basis,
+ WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ for the specific language governing rights and limitations under the
+ License.
+
+ The Original Code is Mozilla Communicator client code, released
+ March 31, 1998.
+
+ The Initial Developer of the Original Code is
+ Netscape Communications Corporation.
+ Portions created by the Initial Developer are Copyright (C) 1998-1999
+ the Initial Developer. All Rights Reserved.
+
+ Contributor(s):
+   Ian Neal <iann_bugzilla@blueyonder.co.uk>
+
+ Alternatively, the contents of this file may be used under the terms of
+ either of the GNU General Public License Version 2 or later (the "GPL"),
+ or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ in which case the provisions of the GPL or the LGPL are applicable instead
+ of those above. If you wish to allow use of your version of this file only
+ under the terms of either the GPL or the LGPL, and not to allow others to
+ use your version of this file under the terms of the MPL, indicate your
+ decision by deleting the provisions above and replace them with the notice
+ and other provisions required by the GPL or the LGPL. If you do not delete
+ the provisions above, a recipient may use your version of this file under
+ the terms of any one of the MPL, the GPL or the LGPL.
+
+ ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY pref.formatting.title        "送信形式">
+<!ENTITY sendMaildesc.label           "HTML 形式のメールを送信するとき、宛先の中に HTML を受け取り可能でない人が含まれている場合:">
+<!ENTITY askMe.label                  "処理方法を確認する (送信形式を選択します)">
+<!ENTITY askMe.accesskey              "k">
+<!ENTITY convertPlain.label           "プレーンテキストのみに変換して送信する (一部の書式が失われます)">
+<!ENTITY convertPlain.accesskey       "C">
+<!ENTITY sendHTML.label               "HTML メールのまま送信する (メールクライアントによってはメッセージを表示できません)">
+<!ENTITY sendHTML.accesskey           "S">
+<!ENTITY sendBoth.label               "テキストと HTML の両形式を送信する (メッセージサイズが大きくなります)">
+<!ENTITY sendBoth.accesskey           "n">
+<!ENTITY override.label               "メッセージ作成@@Window@@の設定が、ここでの設定よりも優先されます。">
+
+<!-- Html and Plain Text Domains  -->
+<!ENTITY domain.title                 "HTML メールとテキストメールのドメイン設定">
+<!ENTITY domaindesc.label             "以下のリストのドメインにメールを送信する場合、リストに従って送信メールの形式 (テキスト/HTML) を自動的に選択します。">
+<!ENTITY HTMLdomaintitle.label        "HTML 形式を使用するドメイン">
+<!ENTITY HTMLdomaintitle.accesskey    "M">
+<!ENTITY PlainTexttitle.label         "プレーンテキスト形式を使用するドメイン">
+<!ENTITY PlainTexttitle.accesskey     "P">
+<!ENTITY AddButton.label              "追加...">
+<!ENTITY AddHtmlDomain.accesskey      "A">
+<!ENTITY AddPlainText.accesskey       "d">
+<!ENTITY DeleteButton.label           "削除">
+<!ENTITY DeleteHtmlDomain.accesskey   "e">
+<!ENTITY DeletePlainText.accesskey    "t">
+
+<!-- Add Domain Name -->
+<!ENTITY add.htmltitle                "HTML 形式を使用するドメインの追加">
+<!ENTITY add.htmldomain               "HTML メールのドメイン名:">
+<!ENTITY add.plaintexttitle           "プレーンテキスト形式を使用するドメイン名の追加">
+<!ENTITY add.plaintextdomain          "テキストメールのドメイン名:">
+
+<!ENTITY domainnameError.title        "ドメイン名のエラー">
+<!-- LOCALIZATION NOTE: do not translate @string@ -->
+<!ENTITY invalidEntryError.label      "ドメイン名 @string@ が無効なため設定は無視されます。有効なドメイン名は、文字の間に少なくとも一つの '.' を含まなければなりません。">

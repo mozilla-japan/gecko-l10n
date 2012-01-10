@@ -1,0 +1,19 @@
+<!ENTITY  typeColumn.label		"ファイルの種類">
+<!ENTITY  typeColumn.accesskey		"T">
+
+<!ENTITY  actionColumn2.label		"動作設定">
+<!ENTITY  actionColumn2.accesskey	"A">
+
+<!ENTITY  focusSearch1.key		"f">
+<!ENTITY  focusSearch2.key		"k">
+
+<!ENTITY  filter.placeholder		"検索">
+
+<!ENTITY saveTo.label			"次のフォルダに保存する:">
+<!ENTITY saveTo.accesskey		"S">
+<!ENTITY alwaysAsk.label		"ファイルごとに保存先を指定する">
+<!ENTITY alwaysAsk.accesskey		"A">
+<!ENTITY chooseFolderWin.label		"参照...">
+<!ENTITY chooseFolderWin.accesskey	"B">
+<!ENTITY chooseFolderMac.label		"選択...">
+<!ENTITY chooseFolderMac.accesskey	"C">

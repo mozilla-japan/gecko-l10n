@@ -1,0 +1,33 @@
+<!-- for SearchDialog.xul -->
+<!ENTITY searchHeading.label         "次の中からメッセージを検索:">
+<!ENTITY searchHeading.accesskey     "e">
+<!ENTITY searchSubfolders.label      "サブフォルダも検索する">
+<!ENTITY searchSubfolders.accesskey  "u">
+<!ENTITY searchLocalSystem.label     "ローカルシステムを検索する">
+<!ENTITY searchLocalSystem.accesskey "y">
+<!ENTITY resetButton.label           "リセット">
+<!ENTITY resetButton.accesskey       "C">
+<!ENTITY openButton.label            "開く">
+<!ENTITY openButton.accesskey        "O">
+<!ENTITY deleteButton.label          "削除">
+<!ENTITY deleteButton.accesskey      "D">
+<!ENTITY searchDialogTitle.label     "メッセージ検索">
+<!ENTITY results.label               "検索結果">
+<!ENTITY fileHereMenu.label          "ここへ移動">
+<!ENTITY fileHereMenu.accesskey      "r">
+<!ENTITY fileButton.label            "移動">
+<!ENTITY fileButton.accesskey        "F">
+<!ENTITY goToFolderButton.label      "フォルダを開く">
+<!ENTITY goToFolderButton.accesskey  "n">
+<!ENTITY saveAsVFButton.label      "検索フォルダとして保存">
+<!ENTITY saveAsVFButton.accesskey  "v">
+
+<!-- for ABSearchDialog.xul -->
+<!ENTITY abSearchHeading.label       "次の中から連絡先を検索:">
+<!ENTITY abSearchHeading.accesskey   "e">
+<!ENTITY propertiesButton.label      "@@PropertyCMD@@">
+<!ENTITY propertiesButton.accesskey  "P">
+<!ENTITY composeButton.label         "@@New-CMD@@メッセージ">
+<!ENTITY composeButton.accesskey     "o">
+<!ENTITY abSearchDialogTitle.label   "アドレス検索">
+

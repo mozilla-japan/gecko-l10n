@@ -1,0 +1,214 @@
+<!ENTITY addressbookWindow.title		"アドレス帳"><!-- (^^; Mac: アドレスブック に切り分けも検討 -->
+
+<!-- File Menu -->
+<!ENTITY fileMenu.label				"ファイル">
+<!ENTITY fileMenu.accesskey			"f">
+<!ENTITY newMenu.label				"新規作成">
+<!ENTITY newMenu.accesskey			"N">
+<!ENTITY newContact.label			"連絡先...">
+<!ENTITY newContact.accesskey			"C">
+<!ENTITY newContact.key				"N">
+<!ENTITY newListCmd.label			"アドレスリスト..."><!-- (^^; Mailing List -->
+<!ENTITY newListCmd.accesskey			"L">
+<!ENTITY newAddressBookCmd.label		"アドレス帳...">
+<!ENTITY newAddressBookCmd.accesskey		"B">
+<!ENTITY newLDAPDirectoryCmd.label		"LDAP ディレクトリ...">
+<!ENTITY newLDAPDirectoryCmd.accesskey		"D">
+<!ENTITY newMessageCmd.label			"メッセージ">
+<!ENTITY newMessageCmd.key			"M">
+<!ENTITY newMessageCmd.accesskey		"m">
+<!-- LOCALIZATION NOTE (osxAddressBook) : These entities are only used on Mac -->
+<!ENTITY osxAddressBook.label			"Mac OS X のアドレスブックを使用する">
+<!ENTITY osxAddressBook.accesskey		"O">
+<!ENTITY closeCmd.label				"閉じる">
+<!ENTITY closeCmd.key				"W">
+<!ENTITY closeCmd.accesskey			"c">
+<!ENTITY printSetupCmd.label			"ページ設定...">
+<!ENTITY printSetupCmd.accesskey		"u">
+<!ENTITY printPreviewContactCmd.label		"連絡先の@@Print@@プレビュー">
+<!ENTITY printPreviewContactCmd.accesskey	"v">
+<!ENTITY printPreviewAddressBook.label		"アドレス帳の@@Print@@プレビュー">
+<!ENTITY printPreviewAddressBook.accesskey	"B">
+<!ENTITY printContactCmd.label			"連絡先を@@Print@@...">
+<!ENTITY printContactCmd.accesskey		"P">
+<!ENTITY printContactCmd.key			"P">
+<!ENTITY printAddressBook.label			"アドレス帳を@@Print@@...">
+<!ENTITY printAddressBook.accesskey		"A">
+
+<!-- Edit Menu -->
+<!ENTITY editMenu.label				"編集">
+<!ENTITY editMenu.accesskey			"e">
+<!ENTITY undoCmd.label				"@@Undo@@">
+<!ENTITY undoCmd.key				"Z">
+<!ENTITY undoCmd.accesskey			"u">
+<!ENTITY redoCmd.label				"@@Redo@@">
+<!ENTITY redoCmd.key				"Y">
+<!ENTITY redoCmd.accesskey			"r">
+<!ENTITY cutCmd.label				"@@Cut@@">
+<!ENTITY cutCmd.key				"X">
+<!ENTITY cutCmd.accesskey			"t">
+<!ENTITY copyCmd.label				"コピー">
+<!ENTITY copyCmd.key				"C">
+<!ENTITY copyCmd.accesskey			"c">
+<!ENTITY pasteCmd.label				"@@Paste@@">
+<!ENTITY pasteCmd.key				"V">
+<!ENTITY pasteCmd.accesskey			"p">
+<!ENTITY deleteCmd.label			"削除">
+<!ENTITY deleteCmd.accesskey			"d">
+<!ENTITY deleteAbCmd.label			"アドレス帳を削除">
+<!ENTITY deleteContactCmd.label			"連絡先を削除">
+<!ENTITY deleteContactsCmd.label		"連絡先を削除">
+<!ENTITY deleteListCmd.label			"リストを削除">
+<!ENTITY deleteListsCmd.label			"リストを削除">
+<!ENTITY deleteItemsCmd.label			"アイテムを削除">
+<!ENTITY selectAllCmd.label			"@@SelectAll@@">
+<!ENTITY selectAllCmd.key			"A">
+<!ENTITY searchAddressesCmd.key			"f">
+<!ENTITY selectAllCmd.accesskey			"a">
+<!ENTITY swapFirstNameLastNameCmd.label		"姓と名を入れ換える">
+<!ENTITY swapFirstNameLastNameCmd.accesskey	"w">  
+<!-- LOCALIZATION NOTE (hideSwapFnLnUI) : DONT_TRANSLATE -->
+<!-- Swap FN/LN UI  Set to "false" to show swap fn/ln UI -->
+<!ENTITY hideSwapFnLnUI				"true">
+<!ENTITY propertiesCmd.label			"@@PropertyCMD@@...">
+<!ENTITY propertiesCmd.accesskey		"i">
+<!ENTITY propertiesCmd.key			"i">
+
+<!-- View Menu -->
+<!ENTITY viewMenu.label				"表示">
+<!ENTITY viewMenu.accesskey			"v">
+<!ENTITY viewToolbarsMenu.label			"ツールバー">
+<!ENTITY viewToolbarsMenu.accesskey		"T"> 
+<!ENTITY menubarCmd.label			"メニューバー">
+<!ENTITY menubarCmd.accesskey			"M">
+<!ENTITY showAbToolbarCmd.label			"アドレス帳ツールバー">
+<!ENTITY showAbToolbarCmd.accesskey		"o">
+<!ENTITY showTaskbarCmd.label			"ステータスバー">
+<!ENTITY showTaskbarCmd.accesskey		"S"> 
+<!ENTITY customizeToolbar.label			"カスタマイズ...">
+<!ENTITY customizeToolbar.accesskey		"C">
+<!ENTITY layoutMenu.label			"レイアウト">
+<!ENTITY layoutMenu.accesskey			"L">
+<!ENTITY showDirectoryPane.label		"アドレス帳ペイン"><!-- en-US: "Directory Pane" -->
+<!ENTITY showDirectoryPane.accesskey		"D">
+<!ENTITY showContactPane2.label			"連絡先ペイン">
+<!ENTITY showContactPane2.accesskey		"C">
+<!ENTITY menu_ShowNameAs.label			"名前の表示">
+<!ENTITY menu_ShowNameAs.accesskey		"n">
+<!-- LOCALIZATION NOTE (firstLastCmd2.label): We're not including a comma here
+because displayed names don't have the comma in between. -->
+<!ENTITY firstLastCmd2.label			"名前 姓">
+<!ENTITY firstLastCmd2.accesskey		"f">
+<!ENTITY lastFirstCmd.label			"姓 名前">
+<!ENTITY lastFirstCmd.accesskey			"l">
+<!ENTITY displayNameCmd.label			"表示名">
+<!ENTITY displayNameCmd.accesskey		"d">
+<!ENTITY sortMenu.label				"並べ替え順序">
+<!ENTITY sortMenu.accesskey			"S">
+
+<!-- Tools Menu -->
+<!ENTITY tasksMenu.label			"ツール">
+<!ENTITY tasksMenu.accesskey			"T"> 
+<!ENTITY messengerCmd.label			"メールとニュースグループ">
+<!ENTITY messengerCmd.accesskey			"m">
+<!ENTITY messengerCmd.commandkey		"1">
+<!ENTITY searchAddressesCmd.label		"アドレスを検索...">
+<!ENTITY searchAddressesCmd.accesskey		"S">
+<!ENTITY importCmd.label			"@@Import@@...">
+<!ENTITY importCmd.accesskey			"I">
+<!ENTITY exportCmd.label			"@@Export@@...">
+<!ENTITY exportCmd.accesskey			"E">
+<!ENTITY preferencesCmd.label			"オプション...">
+<!ENTITY preferencesCmd.accesskey		"O">
+<!ENTITY preferencesCmdUnix.label		"設定">
+<!ENTITY preferencesCmdUnix.accesskey		"n">
+
+<!-- Address Book Toolbar and Context Menus -->
+<!ENTITY newContactButton.label			"@@New-CMD@@連絡先">
+<!ENTITY newContactButton.accesskey		"C">
+<!ENTITY newlistButton.label			"@@New-CMD@@リスト">
+<!ENTITY newlistButton.accesskey		"L">
+<!ENTITY editButton2.label			"@@PropertyCMD@@">
+<!ENTITY editButton2.accesskey			"P">
+<!ENTITY newmsgButton.label			"メッセージ作成"><!-- (^^; en-US: Write -->
+<!ENTITY newmsgButton.accesskey			"W">
+<!ENTITY newIM.label				"インスタントメッセージ">
+<!ENTITY newIM.accesskey			"I">
+<!ENTITY deleteButton2.label			"削除">
+<!ENTITY deleteButton2.accesskey		"D">
+
+<!-- Address Book Toolbar Tooltips -->
+<!ENTITY newContactButton.tooltip		"新しい連絡先を作成します">
+<!ENTITY newlistButton.tooltip			"新しいリストを作成します">
+<!ENTITY editButton2.tooltip			"選択したアイテムを編集します">
+<!ENTITY newmsgButton.tooltip			"メールを送信します">
+<!ENTITY newIM.tooltip				"インスタントメッセージを送信またはチャットをします">
+<!ENTITY deleteButton2.tooltip			"選択したアイテムを削除します">
+
+<!-- Dir Tree header -->
+<!ENTITY dirTreeHeader.label			"アドレス帳">
+
+<!-- Search Bar -->
+<!ENTITY SearchNameOrEmail.label		"名前またはメールアドレス">
+<!ENTITY SearchNameOrEmail.accesskey		"N">
+<!ENTITY advancedButton.tooltip			"アドレスを検索します">
+<!ENTITY quickSearchCmd.key			"k">
+<!ENTITY searchItem.title			"簡易検索">
+
+<!-- Results Pane -->
+<!ENTITY GeneratedName.label			"名前">
+<!ENTITY GeneratedName.accesskey		"N">
+<!ENTITY PrimaryEmail.label			"メールアドレス">
+<!ENTITY PrimaryEmail.accesskey			"E">
+<!ENTITY ScreenName.label			"スクリーンネーム">
+<!ENTITY ScreenName.accesskey			"S">
+<!ENTITY Company.label				"組織">
+<!ENTITY Company.accesskey			"z">
+<!ENTITY NickName.label				"ニックネーム">
+<!ENTITY NickName.accesskey			"i">
+<!ENTITY SecondEmail.label			"別のメールアドレス">
+<!ENTITY SecondEmail.accesskey			"l">
+<!ENTITY Department.label			"部門">
+<!ENTITY Department.accesskey			"r">
+<!ENTITY JobTitle.label				"役職">
+<!ENTITY JobTitle.accesskey			"T">
+<!ENTITY CellularNumber.label			"携帯電話">
+<!ENTITY CellularNumber.accesskey		"M">
+<!ENTITY PagerNumber.label			"ポケットベル">
+<!ENTITY PagerNumber.accesskey			"P">
+<!ENTITY FaxNumber.label			"FAX">
+<!ENTITY FaxNumber.accesskey			"F">
+<!ENTITY HomePhone.label			"電話(自宅)">
+<!ENTITY HomePhone.accesskey			"H">
+<!ENTITY WorkPhone.label			"電話(会社)">
+<!ENTITY WorkPhone.accesskey			"W">
+<!ENTITY sortAscending.label			"昇順">
+<!ENTITY sortAscending.accesskey		"A">
+<!ENTITY sortDescending.label			"降順">
+<!ENTITY sortDescending.accesskey		"D">
+<!ENTITY _PhoneticName.label			"よみがな">
+<!ENTITY _PhoneticName.accesskey		"o">
+
+<!-- Card Summary Pane -->
+<!-- Box Headings -->
+<!ENTITY contact.heading			"連絡先">
+<!ENTITY home.heading				"自宅">
+<!ENTITY other.heading				"その他">
+<!ENTITY phone.heading				"電話番号">
+<!ENTITY work.heading				"勤務先">
+<!-- Special Box Headings, for mailing lists -->
+<!ENTITY description.heading			"説明">
+<!ENTITY addresses.heading			"住所">
+<!-- For Map It! -->
+<!ENTITY mapItButton.label			"地図">
+<!ENTITY mapIt.tooltip				"Web でこの場所の地図を表示します">
+
+<!-- Status Bar -->  
+<!ENTITY statusText.label			"">
+
+<!--  Mac OS X Window Menu -->
+<!ENTITY windowMenu.label			"@@Window@@">
+<!ENTITY minimizeWindow.label			"@@Minimize@@">
+<!ENTITY minimizeWindow.key			"m">
+<!ENTITY bringAllToFront.label			"@@BringAllToFront@@">
+<!ENTITY zoomWindow.label			"@@Zoom@@">

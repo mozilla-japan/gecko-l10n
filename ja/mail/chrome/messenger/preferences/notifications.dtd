@@ -1,0 +1,10 @@
+<!ENTITY notificationsDialog2.title	"デスクトップ通知">
+<!ENTITY window.width			"30em">
+
+<!ENTITY alertCustomization.intro	"デスクトップ通知に表示する内容:">
+<!ENTITY previewText.label		"メッセージプレビュー">
+<!ENTITY previewText.accesskey		"M">
+<!ENTITY subject.label			"件名">
+<!ENTITY subject.accesskey		"S">
+<!ENTITY sender.label			"送信者">
+<!ENTITY sender.accesskey		"e">

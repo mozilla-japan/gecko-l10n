@@ -1,0 +1,128 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is calendar views.
+   -
+   - The Initial Developer of the Original Code is
+   - Oracle Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 2005
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Mike Shaver <shaver@mozilla.org>
+   -   Simon Paquet <bugzilla@babylonsounds.com>
+   -   Matthew Willis <mattwillis@mac.com>
+   -   Philipp Kewisch <mozilla@kewis.ch>
+   -   Martin Schroeder <mschroeder@mozilla.x-home.org>
+   -   Berend Cornelius <berend.cornelius@sun.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- WARNING! This file contains UTF-8 encoded characters!
+   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
+   - your editor isn't using UTF-8 encoding and may munge up the document!
+  -->
+
+<!-- Tools menu -->
+<!ENTITY lightning.taskLabel				"Lightning">
+
+<!-- New menu popup in File menu -->
+<!ENTITY lightning.menupopup.new.event.label		"予定...">
+<!ENTITY lightning.menupopup.new.event.accesskey	"E">
+<!ENTITY lightning.menupopup.new.task.label		"ToDo...">
+<!ENTITY lightning.menupopup.new.task.accesskey		"T">
+<!ENTITY lightning.menupopup.new.calendar.label		"カレンダー...">
+<!ENTITY lightning.menupopup.new.calendar.accesskey	"n">
+
+<!-- Open menu popup in File menu -->
+<!ENTITY lightning.menupopup.open.label			"開く">
+<!ENTITY lightning.menupopup.open.accesskey		"O">
+<!ENTITY lightning.menupopup.open.message.label		"メッセージを開く...">
+<!ENTITY lightning.menupopup.open.message.accesskey	"M">
+<!ENTITY lightning.menupopup.open.calendar.label	"カレンダーファイルを開く...">
+<!ENTITY lightning.menupopup.open.calendar.accesskey	"C">
+
+<!-- View Menu -->
+<!ENTITY lightning.menu.view.calendar.label		"カレンダー">
+<!ENTITY lightning.menu.view.calendar.accesskey		"n">
+<!ENTITY lightning.menu.view.tasks.label		"ToDo">
+<!ENTITY lightning.menu.view.tasks.accesskey		"k">
+
+<!-- Events and Tasks menu -->
+<!ENTITY lightning.menu.eventtask.label			"予定とToDo">
+<!ENTITY lightning.menu.eventtask.accesskey		"n">
+
+<!-- Mode Toolbar -->
+<!ENTITY lightning.toolbar.mail.label			"メール">
+<!ENTITY lightning.toolbar.mail.accesskey		"M">
+<!ENTITY lightning.toolbar.calendar.label		"カレンダー">
+<!ENTITY lightning.toolbar.calendar.tooltip		"カレンダータブに切り替えます">
+<!ENTITY lightning.toolbar.calendar.accesskey		"C">
+<!ENTITY lightning.toolbar.task.label			"ToDo">
+<!ENTITY lightning.toolbar.task.tooltip			"ToDo タブに切り替えます">
+<!ENTITY lightning.toolbar.task.accesskey		"T">
+
+<!-- Toolbar write button -->
+<!ENTITY lightning.toolbar.newevent.label		"予定">
+<!ENTITY lightning.toolbar.newtask.label		"ToDo">
+
+<!-- Messenger Toolbar -->
+<!ENTITY lightning.toolbar.day.label			"日表示">
+<!ENTITY lightning.toolbar.day.accesskey		"D">
+<!ENTITY lightning.toolbar.week.label			"週表示">
+<!ENTITY lightning.toolbar.week.accesskey		"W">
+<!ENTITY lightning.toolbar.multiweek.label		"多週表示">
+<!ENTITY lightning.toolbar.multiweek.accesskey		"u">
+<!ENTITY lightning.toolbar.month.label			"月表示">
+<!ENTITY lightning.toolbar.month.accesskey		"M">
+
+<!-- properties dialog, calendar creation wizard -->
+<!ENTITY lightning.calendarproperties.showevents.inagenda.label	"Today ペインに予定を表示する">
+<!ENTITY lightning.calendarproperties.showtasks.label		"Today ペインと ToDo モードに ToDo を表示する">
+<!ENTITY lightning.calendarproperties.email.label		"メール:">
+
+<!-- iMIP Bar (meeting support) -->
+<!ENTITY lightning.imipbar.description			"メッセージに参加依頼が含まれています。">
+
+<!-- Lightning specific keybindings -->
+<!ENTITY lightning.keys.event.showCalendar.key		"C">
+<!ENTITY lightning.keys.event.showTasks.key		"D">
+<!ENTITY lightning.keys.event.new			"I">
+<!ENTITY lightning.keys.todo.new			"D">
+
+<!-- Account Central page -->
+<!-- (^a^) mail/chrome/messenger/msgAccountCentral.dtd と表現をそろえる -->
+<!ENTITY lightning.acctCentral.newCalendar.label	"@@New-CMD@@カレンダーを作成する">
+
+<!-- today-pane-specific -->
+<!ENTITY todaypane.showMinimonth.label			"日付選択を表示">
+<!ENTITY todaypane.showMinimonth.accesskey		"M">
+<!ENTITY todaypane.showMiniday.label			"日付を表示">
+<!ENTITY todaypane.showMiniday.accesskey		"d">
+<!ENTITY todaypane.showNone.label			"表示なし">
+<!ENTITY todaypane.showNone.accesskey			"N">
+<!ENTITY todaypane.showTodayPane.label			"Today ペインを表示">
+<!ENTITY todaypane.showTodayPane.accesskey		"o">
+<!ENTITY todaypane.statusButton.label			"Today ペイン">
