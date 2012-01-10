@@ -29,6 +29,7 @@
 <!ENTITY forwardTo.label		"メッセージを転送する">
 <!ENTITY replyWithTemplate.label	"テンプレートを使用して返信する">
 <!ENTITY markMessageRead.label		"メッセージを既読にする">
+<!ENTITY markMessageUnread.label	"メッセージを未読にする">
 <!ENTITY markMessageStarred.label	"メッセージにスターを付ける">
 <!ENTITY setPriority.label		"重要度を設定する">
 <!ENTITY addTag.label			"メッセージにタグを付ける">

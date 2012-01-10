@@ -6,8 +6,8 @@
 
 <!ENTITY importFromNothing.label	"設定を@@Import-sinai@@">
 <!ENTITY importFromNothing.accesskey	"D">
-<!ENTITY importFromSeamonkey2.label	"Netscape 6, 7 または Mozilla 1.x, SeaMonkey">
-<!ENTITY importFromSeamonkey2.accesskey	"s">
+<!ENTITY importFromSeamonkey3.label	"SeaMonkey 2 以降">
+<!ENTITY importFromSeamonkey3.accesskey	"S">
 <!ENTITY importFromOExpress.label	"Outlook Express">
 <!ENTITY importFromOExpress.accesskey	"u">
 <!ENTITY importFromOutlook.label	"Outlook">
