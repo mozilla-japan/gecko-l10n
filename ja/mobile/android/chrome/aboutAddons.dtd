@@ -1,0 +1,8 @@
+<!ENTITY aboutAddons.title                      "アドオンマネージャ">
+<!ENTITY aboutAddons.header                     "アドオン">
+<!ENTITY aboutAddons.options                    "設定">
+
+<!ENTITY addonAction.enable                     "有効化">
+<!ENTITY addonAction.disable                    "無効化">
+<!ENTITY addonAction.uninstall                  "削除">
+<!ENTITY addonAction.cancel                     "キャンセル">
