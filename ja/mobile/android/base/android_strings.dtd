@@ -1,7 +1,13 @@
+
 <!ENTITY  splash_firstrun "&brandShortName; を設定しています...">
 
 <!ENTITY  no_space_to_start_error "&brandShortName; を起動するために必要な空き領域が不足しています。">
 <!ENTITY  error_loading_file "&brandShortName; の起動に必要なファイルを読み込めませんでした">
+
+<!ENTITY  awesomebar_all_pages_title "Top Sites">
+<!ENTITY  awesomebar_bookmarks_title "ブックマーク">
+<!ENTITY  awesomebar_history_title "履歴">
+<!ENTITY  awesomebar_search_engine "\&quot;&#037;s\&quot; を検索">
 
 <!ENTITY  crash_reporter_title "&brandShortName; クラッシュレポータ">
 <!ENTITY  crash_message "&brandShortName; がクラッシュしました。次回の起動時には開いていたタブの一覧がスタートページに表示されます。">
@@ -14,8 +20,77 @@
 <!ENTITY  exit_label "終了">
 <!ENTITY  continue_label "続ける">
 
-<!-- ホーム画面長押ししてショートカット作成するメニュー、長いと改行される -->
 <!ENTITY  launcher_shortcuts_title "&brandShortName; Web アプリ">
 <!ENTITY  launcher_shortcuts_empty "Web アプリは登録されていません">
 
 <!ENTITY choose_file "ファイルを選んでください">
+
+<!ENTITY awesomebar_default_text "検索語句や URL を入力してください">
+
+<!ENTITY bookmarks_title "ブックマーク">
+<!ENTITY bookmark_add "ブックマークする">
+<!ENTITY bookmark_remove "削除">
+<!ENTITY bookmark_added "ブックマークを追加">
+<!ENTITY bookmark_removed "ブックマークを削除">
+
+<!ENTITY history_today_section "今日">
+<!ENTITY history_yesterday_section "昨日">
+<!ENTITY history_week_section "7 日以内">
+<!ENTITY history_older_section "7 日以上前">
+
+<!ENTITY reload "再読み込み">
+<!ENTITY forward "進む">
+
+<!ENTITY new_tab "新しいタブ">
+
+<!ENTITY settings "設定">
+<!ENTITY settings_title "設定">
+<!ENTITY pref_category_general "一般">
+<!ENTITY pref_category_privacy "プライバシーとセキュリティ">
+<!ENTITY pref_category_content "コンテンツ">
+<!ENTITY pref_about_firefox "&brandShortName; について">
+<!ENTITY pref_do_not_track "トラッキングの拒否を Web サイトに通知する">
+<!ENTITY pref_telemetry "パフォーマンス情報を送信する">
+<!ENTITY pref_remember_signons "パスワードを保存する">
+<!ENTITY pref_cookies "Cookie を有効化する">
+<!ENTITY pref_char_encoding "文字エンコーディングを表示する">
+<!ENTITY pref_clear_history "履歴を消去する">
+<!ENTITY pref_clear_history_confirm "履歴が消去されます">
+<!ENTITY pref_clear_private_data "プライベートデータを消去する">
+<!ENTITY pref_clear_private_data_confirm "パスワードや Cookie などの設定が消去されます">
+<!ENTITY pref_enable_plugins "プラグインを有効化する">
+<!ENTITY pref_enable_plugins_yes "はい">
+<!ENTITY pref_enable_plugins_tap_to_play "タップして実行">
+<!ENTITY pref_enable_plugins_no "いいえ">
+<!ENTITY pref_font_size "フォントサイズ">
+<!ENTITY pref_font_size_small "小">
+<!ENTITY pref_font_size_medium "中">
+<!ENTITY pref_font_size_large "大">
+<!ENTITY pref_font_size_xlarge "最大">
+<!ENTITY pref_use_master_password "マスターパスワードを使用する。">
+
+<!ENTITY quit "終了">
+
+<!ENTITY addons "アドオン">
+
+<!ENTITY share "共有">
+<!ENTITY save_as_pdf "PDF として保存">
+<!ENTITY agent_request_desktop "PC 用サイトを表示">
+<!ENTITY agent_request_mobile "モバイル用サイトを表示">
+
+<!ENTITY contextmenu_open_new_tab "新しいタブで開く">
+<!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
+<!ENTITY contextmenu_share "共有">
+
+<!ENTITY site_settings_title        "サイトの設定を消去する">
+<!ENTITY site_settings_cancel       "キャンセル">
+<!ENTITY site_settings_clear        "消去">
+<!ENTITY site_settings_no_settings  "消去する設定がありません。">
+
+<!ENTITY masterpassword_create_title "マスターパスワードを作成">
+<!ENTITY masterpassword_remove_title "マスターパスワードを削除">
+<!ENTITY masterpassword_password "パスワード">
+<!ENTITY masterpassword_confirm "パスワードを再度入力">
+
+<!ENTITY button_ok "OK">
+<!ENTITY button_cancel "キャンセル">
