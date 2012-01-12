@@ -79,7 +79,6 @@
 
 <!ENTITY  linksTab              "リンク">
 <!ENTITY  linksTab.accesskey    "L">
-<!ENTITY  linkNo                "No.">
 <!ENTITY  linkName              "名前">
 <!ENTITY  linkAddress           "アドレス">
 <!ENTITY  linkType              "種類">
