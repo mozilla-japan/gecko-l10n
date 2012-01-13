@@ -3,8 +3,6 @@
 <!ENTITY importAllFrom.label            "オプション、ブックマーク、履歴、パスワードその他のデータを@@Import-suru@@対象を選んでください:">
 <!ENTITY importBookmarksFrom.label      "ブックマークを@@Import-suru@@対象を選んでください:">
 
-<!ENTITY importFromSeamonkey.label       "SeaMonkey 1.x, Netscape 6/7 または Mozilla 1.x">
-<!ENTITY importFromSeamonkey.accesskey   "S">
 <!ENTITY importFromThunderbird.label     "Thunderbird">
 <!ENTITY importFromThunderbird.accesskey "T">
 <!ENTITY importFromFile.label            "ファイルから@@Import@@">
