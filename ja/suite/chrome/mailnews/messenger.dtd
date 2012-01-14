@@ -407,7 +407,7 @@
 <!ENTITY searchMailCmd.accesskey              "M">
 <!ENTITY searchMailCmd.key                    "s">
 <!ENTITY searchAddressesCmd.label             "アドレスの検索...">
-<!ENTITY searchAddressesCmd.accesskey         "S">
+<!ENTITY searchAddressesCmd.accesskey         "c">
 <!ENTITY filtersCmd.label                     "メッセージフィルタ...">
 <!ENTITY filtersCmd.accesskey                 "F">
 <!ENTITY filtersApply.label                   "フォルダにフィルタを適用">
