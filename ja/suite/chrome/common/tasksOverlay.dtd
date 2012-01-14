@@ -24,7 +24,7 @@
 <!ENTITY tasksMenu.accesskey "T">
 
 <!ENTITY datamanCmd.label "データマネージャ">
-<!ENTITY datamanCmd.accesskey "M">
+<!ENTITY datamanCmd.accesskey "D">
 
 <!ENTITY passwordManagerCmd.label "パスワードマネージャ">
 <!ENTITY passwordManagerCmd.accesskey "P">
@@ -36,7 +36,7 @@
 <!ENTITY passwordExpireCmd.accesskey "l">
 
 <!ENTITY downloadManagerCmd.label "ダウンロードマネージャ">
-<!ENTITY downloadManagerCmd.accesskey "D">
+<!ENTITY downloadManagerCmd.accesskey "n">
 <!ENTITY downloadManagerCmd.commandkey "j">
 
 <!ENTITY addOnsManagerCmd.label "アドオンマネージャ">
