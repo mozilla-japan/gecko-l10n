@@ -2,7 +2,7 @@
 
 <!-- First page of the wizard -->
 
-<!ENTITY setup.pickSetupType.description "ようこそ - これまでに &syncBrand.fullName.label; を使用したことがなければ、アカウントを作成してください。">
+<!ENTITY setup.pickSetupType.description2 "ようこそ！ - これまでに &syncBrand.fullName.label; を使用したことがなければ、アカウントを作成してください。">
 <!ENTITY button.createNewAccount.label "新しいアカウントを作成">
 <!ENTITY button.haveAccount.label      "アカウントを持っています">
 
@@ -88,6 +88,8 @@
 <!ENTITY engine.passwords.accesskey "P">
 <!ENTITY engine.prefs.label         "個人設定">
 <!ENTITY engine.prefs.accesskey     "S">
+<!ENTITY engine.addons.label        "アドオン">
+<!ENTITY engine.addons.accesskey    "A">
 
 <!ENTITY choice2.merge.main.label      "このパソコンのブラウザデータを、サーバに保存されているデータと統合する">
 <!ENTITY choice2.merge.recommended.label "推奨:">
