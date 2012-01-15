@@ -20,6 +20,9 @@ Firefox メモ。
     /browser/chrome/browser/browser.properties
       addonsInstalled
       addonsInstalledNeedsRestart
+  画面未確認
+    /browser/chrome/browser/devtools/styleeditor.dtd
+      scoped.label
 
 
 ◆各リポジトリへの対応について、何かあれば以下に書き残してください。
