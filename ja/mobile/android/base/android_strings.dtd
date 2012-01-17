@@ -27,9 +27,7 @@
 
 <!ENTITY awesomebar_default_text "検索語句や URL を入力してください">
 
-<!ENTITY bookmarks_title "ブックマーク">
-<!ENTITY bookmark_add "ブックマークする">
-<!ENTITY bookmark_remove "削除">
+<!ENTITY bookmark "ブックマーク">
 <!ENTITY bookmark_added "ブックマークを追加">
 <!ENTITY bookmark_removed "ブックマークを削除">
 
@@ -72,6 +70,7 @@
 <!ENTITY quit "終了">
 
 <!ENTITY addons "アドオン">
+<!ENTITY downloads "ダウンロード">
 
 <!ENTITY share "共有">
 <!ENTITY save_as_pdf "PDF として保存">
