@@ -41,7 +41,7 @@
 <!ENTITY reload "再読み込み">
 <!ENTITY forward "進む">
 
-<!ENTITY new_tab "新しいタブ">
+<!ENTITY new_tab "@@NewTab@@">
 
 <!ENTITY settings "設定">
 <!ENTITY settings_title "設定">
@@ -78,7 +78,7 @@
 <!ENTITY agent_request_desktop "PC 用サイトを表示">
 <!ENTITY agent_request_mobile "モバイル用サイトを表示">
 
-<!ENTITY contextmenu_open_new_tab "新しいタブで開く">
+<!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
 <!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
 <!ENTITY contextmenu_share "共有">
 
