@@ -56,10 +56,10 @@
 <!ENTITY pref_clear_history_confirm "履歴が消去されます">
 <!ENTITY pref_clear_private_data "プライベートデータを消去する">
 <!ENTITY pref_clear_private_data_confirm "パスワードや Cookie などの設定が消去されます">
-<!ENTITY pref_enable_plugins "プラグインを有効化する">
-<!ENTITY pref_enable_plugins_yes "はい">
-<!ENTITY pref_enable_plugins_tap_to_play "タップして実行">
-<!ENTITY pref_enable_plugins_no "いいえ">
+<!ENTITY pref_plugins "プラグイン">
+<!ENTITY pref_plugins_enabled "有効化">
+<!ENTITY pref_plugins_tap_to_play "タップして実行">
+<!ENTITY pref_plugins_disabled "無効化">
 <!ENTITY pref_font_size "フォントサイズ">
 <!ENTITY pref_font_size_small "小">
 <!ENTITY pref_font_size_medium "中">
