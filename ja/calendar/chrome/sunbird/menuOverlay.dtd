@@ -62,9 +62,9 @@
 <!ENTITY calendar.subscribe.label		"別のカレンダーを購読...">
 <!ENTITY calendar.subscribe.accesskey		"R">
 
-<!ENTITY calendar.reloadserver.label		"リモートのカレンダーを更新">
-<!ENTITY calendar.reloadserver.key		"R">
-<!ENTITY calendar.reloadserver.accesskey	"R">
+<!ENTITY calendar.synccalendars.label		"カレンダーを同期">
+<!ENTITY calendar.synccalendars.key		"R">
+<!ENTITY calendar.synccalendars.accesskey	"S">
 
 <!ENTITY calendar.publish.calendar.label	"カレンダーを公開...">
 <!ENTITY calendar.publish.calendar.accesskey	"b">

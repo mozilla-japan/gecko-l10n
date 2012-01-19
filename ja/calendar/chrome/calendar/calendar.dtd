@@ -253,8 +253,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey	"F" >
 <!ENTITY calendar.context.deleteserver.label		"カレンダーを削除">
 <!ENTITY calendar.context.deleteserver.accesskey	"D">
-<!ENTITY calendar.context.reloadserver.label		"リモートのカレンダーを更新">
-<!ENTITY calendar.context.reloadserver.accesskey	"R">
+<!ENTITY calendar.context.synccalendars.label		"カレンダーを同期">
+<!ENTITY calendar.context.synccalendars.accesskey	"S">
 <!ENTITY calendar.context.publish.label			"カレンダーを公開...">
 <!ENTITY calendar.context.publish.accesskey		"b">
 <!ENTITY calendar.context.export.label			"カレンダーを@@Export@@...">
