@@ -35,8 +35,8 @@
 <!ENTITY reloadPlugin.pre					"">
 <!ENTITY reloadPlugin.middle					"ページを再読み込み">
 <!ENTITY reloadPlugin.post					" してください。">
-<!-- LOCALIZATION NOTE: report.* strings should be as short as possible, ideally 2-3 words. -->
-<!ENTITY report.checkbox					"クラッシュレポートを送信する">
+<!-- LOCALIZATION NOTE (report.please): This and the other report.* strings should be as short as possible, ideally 2-3 words. -->
+<!ENTITY report.please						"クラッシュレポートを送信する">
 <!ENTITY report.submitting					"レポートを送信しています...">
 <!ENTITY report.submitted					"クラッシュレポートを送信しました">
 <!ENTITY report.disabled					"クラッシュレポートの送信は無効になっています">
