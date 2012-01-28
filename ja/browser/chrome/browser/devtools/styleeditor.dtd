@@ -22,18 +22,7 @@
 <!ENTITY importButton.accesskey		"I">
 <!ENTITY importButton.commandkey	"i">
 
-<!ENTITY searchInput.tooltip		"名前でスタイルシートを検索">
-<!ENTITY searchInput.placeholder	"スタイルシートを検索">
-
-<!-- LOCALIZATION NOTE  (searchNoResults): This is shown when searching a term
-     that is not found in any stylesheet or stylesheet name. -->
-<!ENTITY searchNoResults.label		"一致するスタイルシートはありませんでした。">
-
-<!-- LOCALIZATION NOTE  (searchClearButton): This button clears the search input
-     box and is visible only when a search term has been typed. -->
-<!ENTITY searchClearButton.label	"@@Clear@@">
-
-<!ENTITY visibilityToggle.tooltip	"スタイルシートの可視性を切り替える">
+<!ENTITY visibilityToggle.tooltip	"スタイルシートのオン/オフを切り替える">
 <!ENTITY visibilityToggle.accesskey	"V">
 
 <!ENTITY saveButton.label		"保存">
@@ -61,3 +50,6 @@
 <!ENTITY noStyleSheet-tip-action.label	"@@New-CMD@@スタイルシートを追加">
 <!-- LOCALICATION NOTE  (noStyleSheet-tip-end.label): End of the tip sentence -->
 <!ENTITY noStyleSheet-tip-end.label	"しますか？">
+
+<!-- LOCALIZATION NOTE  (closeCmd.key): Accel + this key closes the window. -->
+<!ENTITY closeCmd.key			"W">
