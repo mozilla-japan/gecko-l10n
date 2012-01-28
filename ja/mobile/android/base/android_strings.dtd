@@ -60,7 +60,8 @@
 <!ENTITY pref_plugins_enabled "有効化">
 <!ENTITY pref_plugins_tap_to_play "タップして実行">
 <!ENTITY pref_plugins_disabled "無効化">
-<!ENTITY pref_font_size "フォントサイズ">
+<!ENTITY pref_text_size "テキストサイズ">
+<!ENTITY pref_font_size_tiny "最小">
 <!ENTITY pref_font_size_small "小">
 <!ENTITY pref_font_size_medium "中">
 <!ENTITY pref_font_size_large "大">
@@ -74,10 +75,9 @@
 
 <!ENTITY share "共有">
 <!ENTITY save_as_pdf "PDF として保存">
-<!ENTITY agent_request_desktop "PC 用サイトを表示">
-<!ENTITY agent_request_mobile "モバイル用サイトを表示">
 
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
+<!ENTITY contextmenu_remove_bookmark "削除">
 <!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
 <!ENTITY contextmenu_share "共有">
 
@@ -93,3 +93,13 @@
 
 <!ENTITY button_ok "OK">
 <!ENTITY button_cancel "キャンセル">
+
+<!ENTITY abouthome_addons_title "&brandShortName; のためのアドオン">
+<!ENTITY abouthome_addons_browse "&brandShortName; のアドオンをすべて見る">
+<!ENTITY abouthome_last_tabs_title "最後に閉じたタブ">
+<!ENTITY abouthome_last_tabs_open "最後に閉じたタブをすべて開く">
+<!ENTITY abouthome_top_sites_title "トップサイト">
+<!ENTITY abouthome_top_sites_browse "トップサイトをすべて見る">
+<!ENTITY abouthome_no_top_sites "まだトップサイトがありません。タイトルバーをタップしてブラウジングを始めてください。">
+<!ENTITY abouthome_about_sync "Firefox Sync を設定し、他のデバイスからブックマークや履歴、タブなどにアクセスできるようにします">
+<!ENTITY abouthome_sync_bold_name "Firefox Sync">
