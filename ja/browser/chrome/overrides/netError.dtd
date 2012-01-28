@@ -43,11 +43,11 @@
 </ul>
 ">
 
-<!ENTITY notCached.title		"ドキュメントが有効期限切れです">
-<!ENTITY notCached.longDesc		"<p>リクエストされた &brandShortName; のキャッシュ内のドキュメントは、利用できません。</p><ul><li>安全対策のため、&brandShortName; は注意を要するドキュメントを自動的に再リクエストしません。</li><li>&quot;再試行&quot; ボタンをクリックしてドキュメントを Web サイトから読み込んでください。</li></ul>">
-
 <!ENTITY netInterrupt.title		"接続が中断されました">
 <!ENTITY netInterrupt.longDesc		"&sharedLongDesc;">
+
+<!ENTITY notCached.title		"ドキュメントが有効期限切れです">
+<!ENTITY notCached.longDesc		"<p>リクエストされた &brandShortName; のキャッシュ内のドキュメントは、利用できません。</p><ul><li>安全対策のため、&brandShortName; は注意を要するドキュメントを自動的に再リクエストしません。</li><li>&quot;再試行&quot; ボタンをクリックしてドキュメントを Web サイトから読み込んでください。</li></ul>">
 
 <!ENTITY netOffline.title		"オフラインモードです">
 <!ENTITY netOffline.longDesc2	"
