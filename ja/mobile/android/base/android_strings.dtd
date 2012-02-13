@@ -40,6 +40,7 @@
 <!ENTITY forward "進む">
 
 <!ENTITY new_tab "@@NewTab@@">
+<!ENTITY new_tab_opened "@@NewTab@@を開きました">
 
 <!ENTITY settings "設定">
 <!ENTITY settings_title "設定">
@@ -52,6 +53,8 @@
 <!ENTITY pref_remember_signons "パスワードを保存する">
 <!ENTITY pref_cookies "Cookie を有効化する">
 <!ENTITY pref_char_encoding "文字エンコーディングを表示する">
+<!ENTITY pref_char_encoding_on "メニューを表示する">
+<!ENTITY pref_char_encoding_off "メニューを表示しない">
 <!ENTITY pref_clear_history "履歴を消去する">
 <!ENTITY pref_clear_history_confirm "履歴が消去されます">
 <!ENTITY pref_clear_private_data "プライベートデータを消去する">
@@ -67,11 +70,13 @@
 <!ENTITY pref_font_size_large "大">
 <!ENTITY pref_font_size_xlarge "最大">
 <!ENTITY pref_use_master_password "マスターパスワードを使用する。">
+<!ENTITY pref_sync "同期">
 
 <!ENTITY quit "終了">
 
 <!ENTITY addons "アドオン">
 <!ENTITY downloads "ダウンロード">
+<!ENTITY char_encoding "文字エンコーディング">
 
 <!ENTITY share "共有">
 <!ENTITY save_as_pdf "PDF として保存">
