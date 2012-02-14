@@ -74,30 +74,6 @@
 <!ENTITY lightning.menu.eventtask.label			"予定とToDo">
 <!ENTITY lightning.menu.eventtask.accesskey		"n">
 
-<!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.mail.label			"メール">
-<!ENTITY lightning.toolbar.mail.accesskey		"M">
-<!ENTITY lightning.toolbar.calendar.label		"カレンダー">
-<!ENTITY lightning.toolbar.calendar.tooltip		"カレンダータブに切り替えます">
-<!ENTITY lightning.toolbar.calendar.accesskey		"C">
-<!ENTITY lightning.toolbar.task.label			"ToDo">
-<!ENTITY lightning.toolbar.task.tooltip			"ToDo タブに切り替えます">
-<!ENTITY lightning.toolbar.task.accesskey		"T">
-
-<!-- Toolbar write button -->
-<!ENTITY lightning.toolbar.newevent.label		"予定">
-<!ENTITY lightning.toolbar.newtask.label		"ToDo">
-
-<!-- Messenger Toolbar -->
-<!ENTITY lightning.toolbar.day.label			"日表示">
-<!ENTITY lightning.toolbar.day.accesskey		"D">
-<!ENTITY lightning.toolbar.week.label			"週表示">
-<!ENTITY lightning.toolbar.week.accesskey		"W">
-<!ENTITY lightning.toolbar.multiweek.label		"多週表示">
-<!ENTITY lightning.toolbar.multiweek.accesskey		"u">
-<!ENTITY lightning.toolbar.month.label			"月表示">
-<!ENTITY lightning.toolbar.month.accesskey		"M">
-
 <!-- properties dialog, calendar creation wizard -->
 <!ENTITY lightning.calendarproperties.showevents.inagenda.label	"Today ペインに予定を表示する">
 <!ENTITY lightning.calendarproperties.showtasks.label		"Today ペインと ToDo モードに ToDo を表示する">

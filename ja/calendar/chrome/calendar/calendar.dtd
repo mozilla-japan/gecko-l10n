@@ -64,6 +64,7 @@
 <!ENTITY calendar.events.filter.today.label		"今日の予定">
 <!ENTITY calendar.events.filter.future.label		"今後すべての予定">
 <!ENTITY calendar.events.filter.current.label		"選択した日の予定">
+<!ENTITY calender.events.filter.currentview.label	"現在のビューの予定">
 <!ENTITY calendar.events.filter.next7Days.label		"1 週間後までの予定">
 <!ENTITY calendar.events.filter.next14Days.label	"2 週間後までの予定">
 <!ENTITY calendar.events.filter.next31Days.label	"今後 1 カ月間の予定">
@@ -180,6 +181,10 @@
 <!ENTITY calendar.task.complete.button.tooltip		"選択した ToDo を完了にします">
 <!ENTITY calendar.task.priority.button.tooltip		"重要度を変更します">
 
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base		"タスクの絞り込み... #1">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac	"&lt;Ctrl+Shift+K&gt;">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac	"&lt;&#x21E7;&#x2318;K&gt;">
+
 <!-- Statusbar -->
 <!ENTITY statusText.label				"ドキュメント: 完了">
 
@@ -214,6 +219,8 @@
 <!ENTITY calendar.context.progress.accesskey		"P">
 <!ENTITY calendar.context.priority.label		"重要度">
 <!ENTITY calendar.context.priority.accesskey		"r">
+<!ENTITY calendar.context.postpone.label		"ToDo を延期">
+    5.13 +<!ENTITY calendar.context.postpone.accesskey	"s">
 
 <!ENTITY percnt						"&#38;#37;" ><!--=percent sign-->
 
@@ -239,6 +246,13 @@
 <!ENTITY priority.level.normal.accesskey		"N">
 <!ENTITY priority.level.high				"高">
 <!ENTITY priority.level.high.accesskey			"H">
+
+<!ENTITY calendar.context.postpone.1hour.label		"1 時間">
+<!ENTITY calendar.context.postpone.1hour.accesskey	"H">
+<!ENTITY calendar.context.postpone.1day.label		"1 日">
+<!ENTITY calendar.context.postpone.1day.accesskey	"D">
+<!ENTITY calendar.context.postpone.1week.label		"1 週間">
+<!ENTITY calendar.context.postpone.1week.accesskey	"W">
 
 <!-- Task View -->
 <!-- Note that the above *.context.* strings are currently used for the other
