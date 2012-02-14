@@ -192,7 +192,7 @@
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label			"件名:" >
-<!ENTITY event.title.textbox.accesskey			"T">
+<!ENTITY event.title.textbox.accesskey			"I">
 <!ENTITY event.location.label				"場所:" >
 <!ENTITY event.location.accesskey			"L">
 <!ENTITY event.categories.label				"カテゴリ:">
@@ -360,8 +360,6 @@
 <!ENTITY event.freebusy.next.slot			"次の時間帯 " >
 <!ENTITY event.freebusy.previous.slot			" 前の時間帯" >
 <!ENTITY event.freebusy.zoom				"@@Zoom@@:">
-<!ENTITY event.freebusy.plus				"次の時間" >
-<!ENTITY event.freebusy.minus				"前の時間" >
 <!ENTITY event.freebusy.legend.free			"空き" >
 <!ENTITY event.freebusy.legend.busy			"予定あり" >
 <!ENTITY event.freebusy.legend.busy_tentative		"未確認" >

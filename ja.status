@@ -186,7 +186,7 @@ calendar                -----:------------  8892:80e15b7801d2   mar             
 browser, services/sync  78318:532d27c289de  ----:------------   hATrayflood     sync browser, services/sync
 suite                   -----:------------  8913:aee8961b8055   tooyama, mar    sync suite
 
-[l10n-mozilla-10.0] (for beta)
+Released! [l10n-mozilla-10.0]
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                 80735:9d149d145f6c  9217:494757cf43d9   mar             sync toolkit(, browser/devtools)
@@ -201,7 +201,7 @@ browser                 80767:fbda7c5fe59c  ----:------------   hATrayflood     
 suite                   -----:------------  9226:0c2f7e874143   mar             sync suite
 browser/devtools        80767:fbda7c5fe59c  ----:------------   hATrayflood     sync browser/devtools
 
-[l10n-mozilla-11.0] (for aurora)
+[l10n-mozilla-11.0] (for beta)
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 editor/ui               -----:------------  9473:00a50ae8e19e   mar             sync editor/ui
@@ -218,3 +218,8 @@ toolkit                 84225:9d5ede8cb11a  9544:67f886f2f49a   hATrayflood     
 browser                 84295:62fc7d5a3085  ----:------------   hATrayflood     sync browser
 mobile                  84296:d5db8b8f8c8a  ----:------------   knagato         sync mobile
 mobile                  85373:9f4a06e3fdb0  ----:------------   knagato         sync mobile with mozilla-beta
+
+[l10n-mozilla-12.0] (for aurora)
+target dir              mozilla and comm hg changeset rev:id    by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar                -----:------------  9863:785cee15cf2b   mar             sync calendar
