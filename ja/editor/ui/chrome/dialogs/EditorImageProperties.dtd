@@ -78,8 +78,6 @@
 <!ENTITY imagemapBox.label		"イメージマップ">
 <!ENTITY removeImageMapButton.label	"削除">
 <!ENTITY removeImageMapButton.accessKey	"R">
-<!ENTITY editImageMapButton.label	"編集...">
-<!ENTITY editImageMapButton.tooltip	"この画像にクリックできる部分を作成"><!-- (^^; Create clickable hotspots for this image -->
 
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label		"画像周りの文字列配置">
