@@ -10,9 +10,11 @@
 <!ENTITY selectAllCmd.accesskey		"a">
 <!ENTITY deleteCmd.label		"削除">
 <!ENTITY deleteCmd.accesskey		"d">
-<!-- 以下、browser/chrome/browser/browser.dtd と要同期 -->
+
 <!ENTITY spellAddToDictionary.label	"辞書に追加">
 <!ENTITY spellAddToDictionary.accesskey	"o">
+<!ENTITY spellUndoAddToDictionary.label	"辞書への追加を@@Undo@@">
+<!ENTITY spellUndoAddToDictionary.accesskey	"n">
 <!ENTITY spellCheckEnable.label		"スペルチェックを行う">
 <!ENTITY spellCheckEnable.accesskey	"S">
 <!ENTITY spellNoSuggestions.label	"(修正候補がありません)">
