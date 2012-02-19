@@ -4,7 +4,6 @@
 <!ENTITY props.path.label		"パス:">
 <!ENTITY props.secure.label		"送信制限:">
 <!ENTITY props.expires.label		"有効期限:">
-<!ENTITY props.policy.label		"ポリシー:"> 
 
 <!ENTITY button.allow.label		"許可">
 <!ENTITY button.allow.accesskey		"A">
