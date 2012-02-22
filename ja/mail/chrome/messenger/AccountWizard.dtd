@@ -61,12 +61,16 @@
 <!ENTITY defaultPortLabel.label		"@@Default@@:">
 <!ENTITY defaultPortValue.label		"">
 
-<!-- LOCALIZATION NOTE (haveSmtp1.prefix and haveSmtp1.suffix2) : Do not translate "SMTP" and "&quot;" in
-     these variables. Also, translate haveSmtp1.prefix and haveSmtp1.suffix2 as a single sentence, inserting
-     text after the "&quot;" entity in haveSmtp1.suffix2, if required grammatically.
+<!-- LOCALIZATION NOTE (modifyOutgoing.suffix) : This string will be appended after each of
+     haveSmtp1.suffix3, haveSmtp2.suffix3, haveSmtp3.suffix3 .
+-->
+<!ENTITY modifyOutgoing.suffix		"メール送信サーバの設定は @@[@@アカウント設定@@]@@ で変更できます。">
+<!-- LOCALIZATION NOTE (haveSmtp1.prefix and haveSmtp1.suffix3) : Do not translate "SMTP" and "&quot;" in
+     these variables. Also, translate haveSmtp1.prefix and haveSmtp1.suffix3 as a single sentence, inserting
+     text after the "&quot;" entity in haveSmtp1.suffix3, if required grammatically.
 -->
 <!ENTITY haveSmtp1.prefix		"他のアカウントで設定済みのメール送信 (SMTP) サーバ &quot;">
-<!ENTITY haveSmtp1.suffix2		"&quot; を使用します。メール送信サーバの設定は @@[@@アカウント設定@@]@@ で変更できます。">
+<!ENTITY haveSmtp1.suffix3		"&quot; を使用します。">
 
 <!-- Entities for Login page -->
 
@@ -79,18 +83,18 @@
 <!ENTITY usernameSmtpDesc.label		"プロバイダに指定された送信サーバのユーザ名を入力してください。多くの場合これは受信サーバのユーザ名と同じです。">
 <!ENTITY usernameSmtpLabel.label	"送信サーバのユーザ名:">
 <!ENTITY usernameSmtpLabel.accesskey	"O">
-<!-- LOCALIZATION NOTE (haveSmtp2.prefix and haveSmtp2.suffix2) : Do not translate "SMTP" and "&quot;" in
-     these variables. Also, translate haveSmtp2.prefix and haveSmtp2.suffix2 as a single sentence, inserting
-     text after the "&quot;" entity in haveSmtp2.suffix2, if required grammatically.
+<!-- LOCALIZATION NOTE (haveSmtp2.prefix and haveSmtp2.suffix3) : Do not translate "SMTP" and "&quot;" in
+     these variables. Also, translate haveSmtp2.prefix and haveSmtp2.suffix3 as a single sentence, inserting
+     text after the "&quot;" entity in haveSmtp2.suffix3, if required grammatically.
 -->
 <!ENTITY haveSmtp2.prefix		"メール送信 (SMTP) サーバのユーザ名には &quot;">
-<!ENTITY haveSmtp2.suffix2		"&quot; が使用されます。メール送信サーバの設定は @@[@@アカウント設定@@]@@ で変更できます。">
-<!-- LOCALIZATION NOTE (haveSmtp3.prefix and haveSmtp3.suffix2) : Do not translate "SMTP" and "&quot;" in
-     these variables. Also, translate haveSmtp3.prefix and haveSmtp3.suffix2 as a single sentence, inserting
-     text after the "&quot;" entity in haveSmtp3.suffix2, if required grammatically.
+<!ENTITY haveSmtp2.suffix3		"&quot; が使用されます。">
+<!-- LOCALIZATION NOTE (haveSmtp3.prefix and haveSmtp3.suffix3) : Do not translate "SMTP" and "&quot;" in
+     these variables. Also, translate haveSmtp3.prefix and haveSmtp3.suffix3 as a single sentence, inserting
+     text after the "&quot;" entity in haveSmtp3.suffix3, if required grammatically.
 -->
 <!ENTITY haveSmtp3.prefix		"送信 (SMTP) サーバ &quot;">
-<!ENTITY haveSmtp3.suffix2		"&quot; が受信サーバと同一であるため、送信サーバへのアクセスにも受信サーバのユーザ名を使用します。送信サーバの設定は @@[@@アカウント設定@@]@@ で変更できます。">
+<!ENTITY haveSmtp3.suffix3		"&quot; が受信サーバと同一であるため、送信サーバへのアクセスにも受信サーバのユーザ名を使用します。">
 
 <!-- Entities for Account name page -->
 
