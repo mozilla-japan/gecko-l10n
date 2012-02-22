@@ -337,6 +337,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY thisFolder.label		"このフォルダ">
 <!ENTITY thisFolder.accesskey		"F">
 <!ENTITY goRecentlyClosedTabs.label	"最近閉じたタブ">
+<!ENTITY goRecentlyClosedTabs.accesskey	"R">
 <!ENTITY startPageCmd.label		"&brandShortName; スタートページ">
 <!ENTITY startPageCmd.accesskey		"S">
 

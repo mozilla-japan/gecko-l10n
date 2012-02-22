@@ -69,11 +69,13 @@
 <!ENTITY pasteCmd.accesskey		"p">
 <!ENTITY pasteNoFormattingCmd.key	"V">
 <!ENTITY pasteAsQuotationCmd.key	"o">
+<!ENTITY deleteCmd.label		"削除">
+<!ENTITY deleteCmd.accesskey		"d">
 <!ENTITY editRewrapCmd.label		"再改行">
 <!ENTITY editRewrapCmd.key		"R">
 <!ENTITY editRewrapCmd.accesskey	"w">
-<!ENTITY deleteCmd.label		"削除">
-<!ENTITY deleteCmd.accesskey		"d">
+<!ENTITY renameAttachment.label		"添付ファイルを名前変更...">
+<!ENTITY renameAttachment.accesskey	"e">
 <!ENTITY selectAllCmd.label		"@@SelectAll@@">
 <!ENTITY selectAllCmd.key		"A">
 <!ENTITY selectAllCmd.accesskey		"a">

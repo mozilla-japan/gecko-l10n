@@ -133,5 +133,8 @@
 <!ENTITY copyLinkCmd.accesskey			"C">
 
 <!ENTITY CopyMessageId.label			"メッセージ ID をコピー">
+<!ENTITY CopyMessageId.accesskey		"C">
 <!ENTITY OpenMessageForMsgId.label		"次の ID のメッセージを開く">
+<!ENTITY OpenMessageForMsgId.accesskey		"O">
 <!ENTITY OpenBrowserWithMsgId.label		"次のメッセージ ID をブラウザで開く">
+<!ENTITY OpenBrowserWithMsgId.accesskey		"B">
