@@ -74,8 +74,8 @@
 <!ENTITY editRewrapCmd.label		"再改行">
 <!ENTITY editRewrapCmd.key		"R">
 <!ENTITY editRewrapCmd.accesskey	"w">
-<!ENTITY renameAttachment.label		"添付ファイルを名前変更...">
-<!ENTITY renameAttachment.accesskey	"e">
+<!ENTITY renameAttachmentCmd.label	"添付ファイルを名前変更...">
+<!ENTITY renameAttachmentCmd.accesskey	"e">
 <!ENTITY selectAllCmd.label		"@@SelectAll@@">
 <!ENTITY selectAllCmd.key		"A">
 <!ENTITY selectAllCmd.accesskey		"a">
