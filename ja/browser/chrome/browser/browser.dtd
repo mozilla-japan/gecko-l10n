@@ -217,8 +217,13 @@ can reach it easily. -->
 <!ENTITY inspectButton.label		"調査">
 <!ENTITY inspectButton.accesskey	"I">
 <!ENTITY inspectCloseButton.tooltiptext	"調査を閉じる">
-<!ENTITY inspect3DButton.label		"3D">
-<!ENTITY inspect3DButton.accesskey	"M">
+
+<!-- LOCALIZATION NOTE (inspect3DViewButton.label): This button shows an
+  -  alternate view for the Inspector, creating a 3D visualization of the
+  -  webpage. -->
+<!ENTITY inspect3DViewButton.label	"3D ビュー">
+<!ENTITY inspect3DViewButton.accesskey	"W">
+
 <!ENTITY inspectStyleButton.label	"スタイル">
 <!ENTITY inspectStyleButton.accesskey	"S">
 

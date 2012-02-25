@@ -226,3 +226,5 @@ calendar                -----:------------  9863:785cee15cf2b   mar             
 editor/ui               -----:------------  9872:3d07b19ee18d   mar             sync editor/ui
 toolkit                 87214:57a4882d9b78  9872:3d07b19ee18d   mar             sync toolkit
 mail                    -----:------------  9889:2464602e9a8f   mar             sync mail
+browser                 87248:5da86f8addbb  ----:------------   hATrayflood     sync browser
+dom, services/sync      87248:5da86f8addbb  ----:------------   hATrayflood     sync dom, services/sync
