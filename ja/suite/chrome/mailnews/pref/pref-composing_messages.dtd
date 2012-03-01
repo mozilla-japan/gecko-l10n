@@ -58,15 +58,6 @@
 <!ENTITY wrapOutMsg.accesskey                 "W">
 <!ENTITY char.label                           "文字で改行する"><!--characters-->
 
-<!ENTITY spellingHeader.label                 "スペルチェック">
-<!ENTITY spellCheck.label                     "メッセージ送信前にスペルチェックを行う">
-<!ENTITY spellCheck.accesskey                 "C">
-<!ENTITY spellCheckInline.label               "自動的にスペルチェックを行う">
-<!ENTITY spellCheckInline.accesskey           "e">
-<!ENTITY languagePopup.label                  "言語:">
-<!ENTITY languagePopup.accessKey              "g">
-<!ENTITY moreDictionaries.label               "他の辞書をダウンロード...">
-
 <!ENTITY defaultMessagesHeader.label          "HTML メッセージの@@DefaultSetting@@">
 <!ENTITY font.label                           "フォント:">
 <!ENTITY font.accesskey                       "F">
