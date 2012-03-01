@@ -82,6 +82,8 @@
 <!ENTITY syncComputerName.accesskey   "C">
 
 <!ENTITY syncMy.label               "同期するデータ">
+<!ENTITY engine.addons.label        "アドオン">
+<!ENTITY engine.addons.accesskey    "A">
 <!ENTITY engine.bookmarks.label     "ブックマーク">
 <!ENTITY engine.bookmarks.accesskey "B">
 <!ENTITY engine.tabs.label          "タブ">

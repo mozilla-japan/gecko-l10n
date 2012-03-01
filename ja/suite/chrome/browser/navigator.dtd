@@ -16,8 +16,8 @@
 
 <!ENTITY navbarCmd.label "ナビゲーションツールバー">
 <!ENTITY navbarCmd.accesskey "N">
-<!ENTITY personalbarCmd.label "パーソナルツールバー">
-<!ENTITY personalbarCmd.accesskey "P">
+<!ENTITY bookmarksToolbarCmd.label     "ブックマークツールバー">
+<!ENTITY bookmarksToolbarCmd.accesskey "m">
 
 <!ENTITY closeWindow.label "@@Window@@を閉じる">
 <!ENTITY closeWindow.accesskey "W">
@@ -29,7 +29,7 @@
 <!ENTITY feedsMenu.accesskey "S">
 
 <!ENTITY menuBar.tooltip                  "メニューバー">
-<!ENTITY personalToolbar.tooltip          "パーソナルツールバー">
+<!ENTITY bookmarksToolbar.tooltip         "ブックマークツールバー">
 <!ENTITY navigationToolbar.tooltip        "ナビゲーションツールバー">
 
 <!-- Toolbar items --> 

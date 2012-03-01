@@ -36,5 +36,6 @@
 <!ENTITY policies.label "セキュリティポリシー">
 <!ENTITY mousewheel.label "マウスホイール">
 <!ENTITY scriptsAndWindows.label "スクリプトとプラグイン">
+<!ENTITY spellingPane.label  "スペルチェック">
 
 <!ENTITY focusSearch.key "f">

@@ -18,6 +18,8 @@
 <!ENTITY allowHideStatusBar.label        "ステータスバーを隠す">
 
 <!ENTITY enablePlugin.label              "プラグインを有効にする:">
+<!ENTITY enablePluginForSuite.label      "Suite">
+<!ENTITY enablePluginForSuite.accesskey  "u">
 
 <!ENTITY whenPluginsRequired.label       "プラグインの読み込みを要求されたとき">
 <!ENTITY displayNotification.label       "コンテンツ領域の上部に通知バーを表示する">

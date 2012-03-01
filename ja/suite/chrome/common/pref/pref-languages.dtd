@@ -24,10 +24,3 @@
 <!ENTITY languages.customize.moveUp.accesskey           "U">
 <!ENTITY languages.customize.moveDown.label             "下へ">
 <!ENTITY languages.customize.moveDown.accesskey         "D">
-
-<!ENTITY spelling.label                                 "スペルチェック">
-<!ENTITY checkSpelling.label                            "次の場所への入力時にスペルチェックを行う:">
-<!ENTITY checkSpelling.accesskey                        "W">
-<!ENTITY dontCheckSpelling.label                        "スペルチェックしない">
-<!ENTITY multilineCheckSpelling.label                   "複数行のテキストボックスのみ">
-<!ENTITY alwaysCheckSpelling.label                      "すべてのテキストボックス">

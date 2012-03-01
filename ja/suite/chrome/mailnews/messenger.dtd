@@ -269,6 +269,10 @@
 
 <!ENTITY findCmd.label                          "このメッセージを検索...">
 
+<!-- LOCALIZATION NOTE (quickFilterBar.show.key2):
+     This is the key used to show the Lightning quick filter bar. -->
+<!ENTITY quickFilterBar.show.key2               "K">
+
 <!-- Go Menu -->
 
 <!ENTITY goMenu.label                           "移動">
@@ -445,7 +449,6 @@
 <!ENTITY deleteButton.label                  "削除">
 <!ENTITY undeleteButton.label                "削除を@@Undo@@">
 <!ENTITY markButton.label                    "マーク">
-<!ENTITY printButton.label                   "@@Print@@">
 <!ENTITY stopButton.label                    "中止">
 <!ENTITY junkButton.label                    "迷惑メール">
 <!ENTITY notJunkButton.label                 "非迷惑メール">
@@ -469,7 +472,6 @@
 <!ENTITY deleteButton.tooltip               "メッセージまたはフォルダを削除します">
 <!ENTITY undeleteButton.tooltip             "メッセージの削除を@@Undo-simasu@@">
 <!ENTITY markButton.tooltip                 "メッセージにマークを付けます">
-<!ENTITY printButton.tooltip                "メッセージを@@Print@@します">
 <!ENTITY stopButton.tooltip                 "送受信処理を中止します">
 <!ENTITY throbber.tooltip                   "&vendorShortName; のホームページに移動します">
 <!ENTITY junkButton.tooltip                 "メッセージに迷惑マークを付けます">
