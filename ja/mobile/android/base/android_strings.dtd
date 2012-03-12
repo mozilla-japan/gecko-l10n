@@ -52,7 +52,7 @@
 <!ENTITY pref_telemetry "パフォーマンス情報を送信する">
 <!ENTITY pref_remember_signons "パスワードを保存する">
 <!ENTITY pref_cookies "Cookie を有効化する">
-<!ENTITY pref_char_encoding "文字エンコーディングを表示する">
+<!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
 <!ENTITY pref_char_encoding_off "メニューを表示しない">
 <!ENTITY pref_clear_history "履歴を消去する">
