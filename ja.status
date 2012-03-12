@@ -229,3 +229,4 @@ mail                    -----:------------  9889:2464602e9a8f   mar             
 browser                 87248:5da86f8addbb  ----:------------   hATrayflood     sync browser
 dom, services/sync      87248:5da86f8addbb  ----:------------   hATrayflood     sync dom, services/sync
 suite                   -----:------------  9906:79790980748a   mar             sync suite
+mobile                  87312:054df423ec81  ----:------------   knagato         sync mobile
