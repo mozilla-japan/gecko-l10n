@@ -23,6 +23,10 @@
 <!ENTITY autoCompleteMatchWords                "単語の先頭または末尾のみに一致"><!-- en-US: "Only on word boundaries"-->
 <!ENTITY autoCompleteMatchStart                "アドレス (URL) またはタイトルの先頭に一致">
 
+<!ENTITY formatting.label                      "フォーマット">
+<!ENTITY domainFormatting.label                "Web サイトや FTP サーバーなどのドメインを強調する"><!--en-US: "Highlight the effective domain for websites and FTP servers" -->
+<!ENTITY domainFormatting.accesskey            "d">
+
 <!ENTITY searchEngine.label                    "インターネット検索エンジン">
 <!ENTITY showSearchEngine.label                "@@Default-@@検索エンジンを表示">
 <!ENTITY showSearchEngine.accesskey            "e">
