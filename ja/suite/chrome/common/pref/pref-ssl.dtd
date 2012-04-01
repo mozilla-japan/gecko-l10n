@@ -41,10 +41,10 @@
 <!ENTITY  SSLClientAuthMethod.caption       "クライアント証明書の選択">
 
 <!ENTITY pref.ssl.title                     "Secure Sockets Layer (SSL)">
-<!ENTITY enable.ssl3                        "SSL version 3 を有効にする">
-<!ENTITY enable.ssl3.accesskey              "3">
-<!ENTITY enable.tls                         "TLS を有効にする">
-<!ENTITY enable.tls.accesskey               "T">
+<!ENTITY enable.ssl30.label                 "SSL 3.0 を有効にする">
+<!ENTITY enable.ssl30.accesskey             "3">
+<!ENTITY enable.tls10.label                 "TLS 1.0 を有効にする">
+<!ENTITY enable.tls10.accesskey             "T">
 
 <!ENTITY warn.description                   "&brandShortName; はあなたが見ている Web ページのセキュリティ状態を警告することができます。警告もしくは事前に許可を求めるダイアログを表示させたいケースを、&brandShortName; に設定します:">
 <!ENTITY warn.enteringsecure                "暗号化されたページを読み込むとき">
