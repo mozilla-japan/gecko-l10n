@@ -64,7 +64,7 @@
 <!ENTITY calendar.events.filter.today.label		"今日の予定">
 <!ENTITY calendar.events.filter.future.label		"今後すべての予定">
 <!ENTITY calendar.events.filter.current.label		"選択した日の予定">
-<!ENTITY calender.events.filter.currentview.label	"現在のビューの予定">
+<!ENTITY calendar.events.filter.currentview.label	"現在のビューの予定">
 <!ENTITY calendar.events.filter.next7Days.label		"1 週間後までの予定">
 <!ENTITY calendar.events.filter.next14Days.label	"2 週間後までの予定">
 <!ENTITY calendar.events.filter.next31Days.label	"今後 1 カ月間の予定">
@@ -253,6 +253,9 @@
 <!ENTITY calendar.context.postpone.1day.accesskey	"D">
 <!ENTITY calendar.context.postpone.1week.label		"1 週間">
 <!ENTITY calendar.context.postpone.1week.accesskey	"W">
+
+<!ENTITY calendar.copylink.label			"リンク先の URL をコピー">
+<!ENTITY calendar.copylink.accesskey			"C">
 
 <!-- Task View -->
 <!-- Note that the above *.context.* strings are currently used for the other
