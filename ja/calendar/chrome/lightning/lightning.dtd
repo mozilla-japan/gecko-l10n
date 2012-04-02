@@ -75,8 +75,6 @@
 <!ENTITY lightning.menu.eventtask.accesskey		"n">
 
 <!-- properties dialog, calendar creation wizard -->
-<!ENTITY lightning.calendarproperties.showevents.inagenda.label	"Today ペインに予定を表示する">
-<!ENTITY lightning.calendarproperties.showtasks.label		"Today ペインと ToDo モードに ToDo を表示する">
 <!ENTITY lightning.calendarproperties.email.label		"メール:">
 
 <!-- iMIP Bar (meeting support) -->

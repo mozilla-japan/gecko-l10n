@@ -148,8 +148,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey	"S">
 <!ENTITY  event.menu.options.link.label				"リンクを追加...">
 <!ENTITY  event.menu.options.link.accesskey			"L">
-<!ENTITY  event.menu.options.timezone.label			"タイムゾーン">
-<!ENTITY  event.menu.options.timezone.accesskey			"z">
+<!ENTITY  event.menu.options.timezone2.label			"タイムゾーンを表示">
+<!ENTITY  event.menu.options.timezone2.accesskey		"z">
 <!ENTITY  event.menu.options.priority2.label			"重要度">
 <!ENTITY  event.menu.options.priority2.accesskey		"y">
 <!ENTITY  event.menu.options.priority.notspecified.label	"指定なし">
@@ -372,6 +372,7 @@
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label				"タイムゾーンを指定してください">
+<!ENTITY event.timezone.custom.label			"他のタイムゾーン...">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label			"一般">
