@@ -1,5 +1,6 @@
 
-<!ENTITY  splash_firstrun "&brandShortName; を設定しています...">
+<!ENTITY  splash_settingup "&brandShortName; を設定しています...">
+<!ENTITY  splash_bookmarks_history "ブックマークと履歴を更新しています。この作業には数分かかることがあります。">
 
 <!ENTITY  no_space_to_start_error "&brandShortName; を起動するために必要な空き領域が不足しています。">
 <!ENTITY  error_loading_file "&brandShortName; の起動に必要なファイルを読み込めませんでした">
@@ -27,9 +28,13 @@
 
 <!ENTITY awesomebar_default_text "検索語句や URL を入力してください">
 
+<!ENTITY remote_tabs "同期されたタブ">
+<!ENTITY remote_tabs_show_all "すべてのタブを表示">
+
 <!ENTITY bookmark "ブックマーク">
 <!ENTITY bookmark_added "ブックマークを追加">
 <!ENTITY bookmark_removed "ブックマークを削除">
+<!ENTITY bookmark_updated "ブックマークを更新">
 
 <!ENTITY history_today_section "今日">
 <!ENTITY history_yesterday_section "昨日">
@@ -79,12 +84,19 @@
 <!ENTITY char_encoding "文字エンコーディング">
 
 <!ENTITY share "共有">
+<!ENTITY share_title "共有方法を選択">
 <!ENTITY save_as_pdf "PDF として保存">
 
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
 <!ENTITY contextmenu_remove_bookmark "削除">
 <!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
 <!ENTITY contextmenu_share "共有">
+<!ENTITY contextmenu_edit_bookmark "編集">
+
+<!ENTITY bookmark_edit_title "ブックマークを編集">
+<!ENTITY bookmark_edit_name "名前">
+<!ENTITY bookmark_edit_location "ロケーション">
+<!ENTITY bookmark_edit_keyword "キーワード">
 
 <!ENTITY site_settings_title        "サイトの設定を消去する">
 <!ENTITY site_settings_cancel       "キャンセル">
@@ -108,3 +120,8 @@
 <!ENTITY abouthome_no_top_sites "まだトップサイトがありません。タイトルバーをタップしてブラウジングを始めてください。">
 <!ENTITY abouthome_about_sync "Firefox Sync を設定し、他のデバイスからブックマークや履歴、タブなどにアクセスできるようにします">
 <!ENTITY abouthome_sync_bold_name "Firefox Sync">
+
+<!ENTITY filepicker_title "ファイル選択">
+<!ENTITY filepicker_audio_title "音声を選択または録音する">
+<!ENTITY filepicker_image_title "写真を選択または撮影する">
+<!ENTITY filepicker_video_title "ビデオを選択または録画する">
