@@ -236,3 +236,4 @@ target dir              mozilla and comm hg changeset rev:id     by             
 --------------------------------------------------------------------------------------------------------------
 calendar                -----:------------  10320:83d79bf3774b   mar             sync calendar
 mobile                  90698:cc4adc5927c7  -----:------------   knagato         sync mobile
+dom, toolkit            90726:e158b91dd28a  10359:0a45ae40a58b   hATrayflood     sync dom, toolkit
