@@ -15,7 +15,6 @@
 <!ENTITY  locbar.bookmarks.label	"ブックマークのみ">
 <!ENTITY  locbar.nothing.label		"候補を表示しない">
 
-
 <!ENTITY  acceptCookies.label		"サイトから送られてきた Cookie を保存する">
 <!ENTITY  acceptCookies.accesskey	"A">
 
@@ -64,11 +63,8 @@
 <!ENTITY  privateBrowsingPermanent2.label		"常にプライベートブラウジングモード">
 <!ENTITY  privateBrowsingPermanent2.accesskey		"p">
 
-<!ENTITY  rememberHistory.label			"表示したページの履歴を残す">
-<!ENTITY  rememberHistory.accesskey		"b">
-
-<!ENTITY  rememberDownload.label		"ファイルのダウンロード履歴を記憶させる">
-<!ENTITY  rememberDownload.accesskey		"d">
+<!ENTITY  rememberHistory2.label			"表示したページとファイルのダウンロードの履歴を残す">
+<!ENTITY  rememberHistory2.accesskey			"b">
 
 <!ENTITY  rememberSearchForm.label		"検索やフォームの入力履歴を記憶させる">
 <!ENTITY  rememberSearchForm.accesskey		"f">

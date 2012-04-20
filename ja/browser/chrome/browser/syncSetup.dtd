@@ -12,7 +12,7 @@
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "サーバ">
-<!ENTITY serverType.main.label      "&syncBrand.fullName.label; サーバ">
+<!ENTITY serverType.default.label      "@@Default@@: Mozilla &syncBrand.fullName.label; サーバ">
 <!ENTITY serverType.custom2.label   "独自サーバを使用する...">
 <!ENTITY signIn.account2.label      "アカウント">
 <!ENTITY signIn.account2.accesskey  "A">

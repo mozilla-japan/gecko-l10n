@@ -39,6 +39,9 @@
 <!ENTITY safeModeDialog.title		"&brandShortName; セーフモード">
 <!ENTITY window.width			"37em">
 
+<!ENTITY autoSafeModeIntro.label	"&brandShortName; は正常に起動できませんでした。">
+<!ENTITY autoSafeModeDescription.label	"ご不便をおかけしまして、誠に申し訳ありません。&brandShortName; はセーフモードで実行されており、ユーザ設定、テーマ、拡張機能はすべて一時的に無効化されています。">
+
 <!ENTITY safeModeDescription.label	"&brandShortName; はセーフモードで実行されており、ユーザ設定、テーマ、拡張機能はすべて一時的に無効化されています。">
 <!ENTITY safeModeDescription2.label	"以下の項目については恒久的に変更できます:">
 
