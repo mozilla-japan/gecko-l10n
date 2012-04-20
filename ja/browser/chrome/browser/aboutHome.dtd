@@ -1,14 +1,13 @@
-<!ENTITY % brandDTD
-    SYSTEM "chrome://branding/locale/brand.dtd">
-  %brandDTD;
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+<!ENTITY % syncBrandDTD SYSTEM "chrome://browser/locale/syncBrand.dtd">
+%syncBrandDTD;
 
 <!-- These strings are used in the about:home page -->
 
 <!ENTITY abouthome.pageTitle		"&brandFullName; スタートページ">
 
 <!ENTITY abouthome.searchEngineButton.label		"検索">
-
-<!ENTITY abouthome.aboutMozilla "Mozilla について">
 
 <!-- LOCALIZATION NOTE (abouthome.defaultSnippet1.v1):
      text in <a/> will be linked to the Firefox features page on mozilla.com
@@ -19,5 +18,10 @@
 -->
 <!ENTITY abouthome.defaultSnippet2.v1			"<a>Firefox をカスタマイズしてみましょう</a>。たくさんの無料のアドオンの中から気に入ったものを選べば、自分好みのブラウザを作ることができます。">
 
-<!ENTITY abouthome.syncSetup.label				"Sync をセットアップ">
-<!ENTITY abouthome.pairDevice.label				"デバイスと連携">
+<!ENTITY abouthome.bookmarksButton.label		"ブックマーク">
+<!ENTITY abouthome.historyButton.label			"履歴">
+<!ENTITY abouthome.settingsButton.label			"オプション">
+<!ENTITY abouthome.addonsButton.label			"アドオン">
+<!ENTITY abouthome.appsButton.label			"Marketplace">
+<!ENTITY abouthome.downloadsButton.label		"ダウンロード">
+<!ENTITY abouthome.syncButton.label			"&syncBrand.shortName.label;">

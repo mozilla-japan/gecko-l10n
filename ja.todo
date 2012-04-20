@@ -20,9 +20,13 @@ Firefox メモ。
     /browser/chrome/browser/browser.properties
       addonsInstalled
       addonsInstalledNeedsRestart
-  画面未確認
+  画面未確認 (今のところ定義のみ存在)
     /browser/chrome/browser/devtools/styleeditor.dtd
       scoped.label
+  画面未確認 (Windows 7での確認が必要)
+    /browser/chrome/browser/setDesktopBackground.dtd
+      fill.label
+      fit.label
 
 (Thunderbird 13) 未訳箇所あり:
     /chat/*
