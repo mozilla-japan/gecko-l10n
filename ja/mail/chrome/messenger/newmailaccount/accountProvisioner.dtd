@@ -1,5 +1,5 @@
 <!ENTITY window.title			"&brandShortName; のご利用ありがとうございます">
-<!ENTITY header.label			"&brandShortName; で新しいメールアドレスを使いたい方">
+<!ENTITY header2.label			"新しいメールアドレスを使いたい方">
 <!ENTITY other.languages		"あなたの地域で提供されているプロバイダのみが表示されています。すべてのプロバイダを表示するには、ここをクリックしてください。">
 <!ENTITY error.line1			"申し訳ありませんが、提案されたメールアドレスを見つけることができませんでした。">
 <!ENTITY error.line2			"ニックネームや他の単語でメールアドレスを検索してみてください。">

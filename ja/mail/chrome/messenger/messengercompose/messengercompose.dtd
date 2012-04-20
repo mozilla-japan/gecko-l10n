@@ -18,6 +18,8 @@
 <!ENTITY attachFileCmd.label		"ファイル...">
 <!ENTITY attachFileCmd.accesskey	"F">
 <!ENTITY attachFileCmd.key		"A">
+<!ENTITY attachCloudCmd.label		"Filelink">
+<!ENTITY attachCloudCmd.accesskey	"i">
 <!ENTITY attachPageCmd.label		"Web ページ...">
 <!ENTITY attachPageCmd.accesskey	"W">
 <!--LOCALIZATION NOTE attachVCardCmd.label Don't translate the term 'vCard' -->
@@ -271,6 +273,14 @@
 <!ENTITY selectAll.accesskey		"A">
 <!ENTITY attachFile.label		"ファイルを添付...">
 <!ENTITY attachFile.accesskey		"F">
+<!ENTITY attachCloud.label		"Filelink...">
+<!ENTITY attachCloud.accesskey		"i">
+<!ENTITY convertCloud.label		"添付転換...">
+<!ENTITY convertCloud.accesskey		"C">
+<!ENTITY cancelUpload.label		"アップロードをキャンセル">
+<!ENTITY cancelUpload.accesskey		"n">
+<!ENTITY convertRegularAttachment.label	"通常の添付">
+<!ENTITY convertRegularAttachment.accesskey	"A">
 <!ENTITY attachPage.label		"Web ページを添付...">
 <!ENTITY attachPage.accesskey		"W">
 

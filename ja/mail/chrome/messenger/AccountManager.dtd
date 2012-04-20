@@ -6,6 +6,8 @@
 <!ENTITY accountActionsButton.accesskey	"A">
 <!ENTITY addMailAccountButton.label	"メールアカウントを追加...">
 <!ENTITY addMailAccountButton.accesskey	"A">
+<!ENTITY addIMAccountButton.label	"チャットアカウントを追加...">
+<!ENTITY addIMAccountButton.accesskey	"C">
 <!ENTITY addOtherAccountButton.label	"他のサービスのアカウントを追加...">
 <!ENTITY addOtherAccountButton.accesskey "O">
 <!ENTITY setDefaultButton.label		"@@Default-@@アカウントに設定">

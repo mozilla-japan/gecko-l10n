@@ -7,6 +7,7 @@ dirname                 Repo    App             補足
 --------------------------------------------------------------------------------
 browser                 moz     Fx              Firefox
 calendar                comm    Sb              Sunbird/Lightning
+chat                    comm    Tb              Instant Messaging
 dom                     moz     all             
 editor/ui               comm    Tb, Sm          メール編集画面
 embedding               moz     Fe              Android
@@ -234,6 +235,8 @@ mobile                  87312:054df423ec81  ----:------------   knagato         
 [l10n-mozilla-13.0] (for aurora)
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
+editor/ui               -----:------------  10308:57bfc276a84b   tooyama         sync editor/ui
 calendar                -----:------------  10320:83d79bf3774b   mar             sync calendar
 mobile                  90698:cc4adc5927c7  -----:------------   knagato         sync mobile
 dom, toolkit            90726:e158b91dd28a  10359:0a45ae40a58b   hATrayflood     sync dom, toolkit
+mail                    -----:------------  10410:c43089235c4e   mar             sync mail
