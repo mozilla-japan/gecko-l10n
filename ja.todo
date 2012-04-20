@@ -24,6 +24,11 @@ Firefox メモ。
     /browser/chrome/browser/devtools/styleeditor.dtd
       scoped.label
 
+(Thunderbird 13) 未訳箇所あり:
+    /chat/*
+    /mail/chrome/messenger/imAccounts.properties
+
+
 
 ◆各リポジトリへの対応について、何かあれば以下に書き残してください。
 

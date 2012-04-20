@@ -8,6 +8,7 @@
 <!ENTITY paneGeneral.title	"一般">
 <!ENTITY paneDisplay.title	"表示">
 <!ENTITY paneComposition.title	"編集">
+<!ENTITY paneChat.title		"チャット">
 <!ENTITY paneAttachments.title	"添付ファイル">
 <!ENTITY paneSecurity.title	"セキュリティ">
 <!ENTITY paneAdvanced.title	"詳細">
