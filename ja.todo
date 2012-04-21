@@ -25,7 +25,10 @@ Firefox メモ。
       scoped.label
 
 (Thunderbird 13) 未訳箇所あり:
-    /chat/*
+    /chat/conversations.properties
+    /chat/irc.properties
+    /chat/xmpp.properties
+      connection.error.*
 
 
 
