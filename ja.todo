@@ -24,9 +24,7 @@ Firefox メモ。
     /browser/chrome/browser/devtools/styleeditor.dtd
       scoped.label
 
-(Thunderbird 13) 未訳箇所あり:
-    /chat/conversations.properties
-    /chat/irc.properties
+(Thunderbird 13) 訳の要確認箇所あり:
     /chat/xmpp.properties
       connection.error.*
 

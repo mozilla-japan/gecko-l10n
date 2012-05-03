@@ -9,7 +9,7 @@ displayed at the end of the line. The translations of the
 reportIdleAfter.label and idleTime parts don't have to mean the exact
 same thing as in English; please try instead to translate the whole
 sentence. -->
-<!ENTITY  reportIdleAfter.label		"アイドル状態が"><!-- en-US: "Let my contacts know that I am Idle after" -->
+<!ENTITY  reportIdleAfter.label		"待機状態が"><!-- en-US: "Let my contacts know that I am Idle after" -->
 <!ENTITY  reportIdleAfter.accesskey	"I">
 <!ENTITY  idleTime			"分間続いたらそれを相手に知らせる"><!-- en-US: "minutes of inactivity" -->
 
