@@ -1,4 +1,8 @@
 <!ENTITY aboutPage.title                        "&brandShortName; について">
+<!ENTITY aboutPage.warningVersion               "&brandShortName; は開発版であり不安定なことがあります。">
+<!ENTITY aboutPage.telemetryStart               "&brandShortName; の改善のため、パフォーマンス、ハードウェア、使用状況や設定などの情報を自動的に ">
+<!ENTITY aboutPage.telemetryMozillaLink         "&vendorShortName;">
+<!ENTITY aboutPage.telemetryEnd                 " に送信します。">
 <!ENTITY aboutPage.checkForUpdates.link         "更新を確認">
 <!ENTITY aboutPage.checkForUpdates.checking     "更新がないか確認しています...">
 <!ENTITY aboutPage.checkForUpdates.none         "更新が見つかりませんでした">

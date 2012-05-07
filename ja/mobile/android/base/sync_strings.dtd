@@ -70,3 +70,6 @@
 
 <!-- Notification strings -->
 <!ENTITY sync.notification.oneaccount.label '一つの &syncBrand.fullName.label; アカウントのみがサポートされています。'>
+
+<!-- Incorrect settings and changing credentials. -->
+<!ENTITY sync.new.recoverykey.status.incorrect 'リカバリキーが正しくありません。再度試してください。'>
