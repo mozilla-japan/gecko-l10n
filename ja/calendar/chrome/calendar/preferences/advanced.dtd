@@ -1,0 +1,102 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Thunderbird Preferences System
+   -
+   - The Initial Developer of the Original Code is
+   - Scott MacGregor
+   - Portions created by the Initial Developer are Copyright (C) 2005
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Matthew Willis <lilmatt@mozilla.com>
+   -   Philipp Kewisch <mozilla@kewis.ch>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- WARNING! This file contains UTF-8 encoded characters!
+   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
+   - your editor isn't using UTF-8 encoding and may munge up the document!
+  -->
+
+<!ENTITY pref.calendar.advanced.generalTab.label "一般">
+<!ENTITY pref.calendar.advanced.passwordsTab.label "パスワード">
+<!ENTITY pref.calendar.advanced.updateTab.label "更新">
+<!ENTITY pref.calendar.advanced.encryptionTab.label "暗号化">
+
+<!-- General -->
+<!ENTITY pref.calendar.advanced.showConnections.label     "接続設定...">
+<!ENTITY pref.calendar.advanced.showConnections.accesskey "o">
+<!ENTITY pref.calendar.advanced.proxiesInfo.label         "&brandShortName; がインターネット接続に使用するプロキシを設定します。">
+<!ENTITY pref.calendar.advanced.configEdit.caption "高度な設定">
+<!ENTITY pref.calendar.advanced.configEdit.button "設定エディタ...">
+<!ENTITY pref.calendar.advanced.configEdit.accesskey "g">
+
+<!-- Passwords -->
+<!ENTITY pref.calendar.advanced.savedPasswords.intro "ログインするたびに毎回入力をせずに済むよう、カレンダーのパスワードを保存できます。">
+<!ENTITY pref.calendar.advanced.useMasterPassword.label "パスワードの暗号化にマスターパスワードを使用する">
+<!ENTITY pref.calendar.advanced.useMasterPassword.accesskey "P">
+<!ENTITY pref.calendar.advanced.masterPassword.intro "マスターパスワードを設定するとすべてのパスワードが保護されます。ただし、セッションごとに一度入力を求められます。">
+<!ENTITY pref.calendar.advanced.changeMasterPassword.label "マスターパスワードを変更...">
+<!ENTITY pref.calendar.advanced.changeMasterPassword.accesskey "M">
+<!ENTITY pref.calendar.advanced.viewPasswords.label "保存されているパスワードを表示...">
+<!ENTITY pref.calendar.advanced.viewPasswords.accesskey "V">
+
+<!-- Update -->
+<!ENTITY pref.calendar.advanced.update.autoCheck.label "次のソフトウェアの更新を自動的に確認する:">
+<!ENTITY pref.calendar.advanced.update.enableAppUpdate.label "&brandShortName;">
+<!ENTITY pref.calendar.advanced.update.enableAppUpdate.accesskey "r">
+<!ENTITY pref.calendar.advanced.update.enableAddonsUpdate.label "アドオン">
+<!ENTITY pref.calendar.advanced.update.enableAddonsUpdate.accesskey "n">
+<!ENTITY pref.calendar.advanced.update.whenUpdatesFound.label "&brandShortName; の更新が見つかったとき:">
+<!ENTITY pref.calendar.advanced.update.modeAskMe.label "どうするか確認する">
+<!ENTITY pref.calendar.advanced.update.modeAskMe.accesskey "k">
+<!ENTITY pref.calendar.advanced.update.modeAuto.label "自動的に更新をダウンロードしてインストールする">
+<!ENTITY pref.calendar.advanced.update.modeAuto.accesskey "d">
+<!ENTITY pref.calendar.advanced.update.modeAutoWarn.label "更新によりアドオンが無効化される場合は警告する">
+<!ENTITY pref.calendar.advanced.update.modeAutoWarn.accesskey "W">
+<!ENTITY pref.calendar.advanced.update.showHistory.label "更新履歴を表示...">
+<!ENTITY pref.calendar.advanced.update.showHistory.accesskey "U">
+
+<!-- Encryption -->
+<!ENTITY pref.calendar.advanced.encryption.protocols.label "プロトコル">
+<!ENTITY pref.calendar.advanced.encryption.useSSL3.label "SSL 3.0 を使用する">
+<!ENTITY pref.calendar.advanced.encryption.useSSL3.accesskey "3">
+<!ENTITY pref.calendar.advanced.encryption.useTLS1.label "TLS 1.0 を使用する">
+<!ENTITY pref.calendar.advanced.encryption.useTLS1.accesskey "1">
+<!ENTITY pref.calendar.advanced.encryption.certificates.label "証明書">
+<!ENTITY pref.calendar.advanced.encryption.certSelection.description "サーバが個人証明書を要求したとき:">
+<!ENTITY pref.calendar.advanced.encryption.certs.auto "自動的に選択する">
+<!ENTITY pref.calendar.advanced.encryption.certs.auto.accesskey "l">
+<!ENTITY pref.calendar.advanced.encryption.certs.ask "毎回自分で選択する">
+<!ENTITY pref.calendar.advanced.encryption.certs.ask.accesskey "i">
+<!ENTITY pref.calendar.advanced.encryption.viewCerts.label "証明書を表示...">
+<!ENTITY pref.calendar.advanced.encryption.viewCerts.accesskey "s">
+<!ENTITY pref.calendar.advanced.encryption.viewCRLs.label "失効リスト...">
+<!ENTITY pref.calendar.advanced.encryption.viewCRLs.accesskey "R">
+<!ENTITY pref.calendar.advanced.encryption.verify2.label "検証...">
+<!ENTITY pref.calendar.advanced.encryption.verify2.accesskey "V">
+<!ENTITY pref.calendar.advanced.encryption.viewSecurityDevices.label "セキュリティデバイス...">
+<!ENTITY pref.calendar.advanced.encryption.viewSecurityDevices.accesskey "y">

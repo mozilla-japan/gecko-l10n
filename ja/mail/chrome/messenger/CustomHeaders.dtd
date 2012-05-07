@@ -1,0 +1,7 @@
+<!ENTITY window.title		"カスタムヘッダ">
+<!ENTITY addButton.label	"追加">
+<!ENTITY addButton.accesskey	"A">
+<!ENTITY removeButton.label	"削除">
+<!ENTITY removeButton.accesskey	"R">
+<!ENTITY newMsgHeader.label	"追加するカスタムヘッダ:">
+<!ENTITY newMsgHeader.accesskey	"N">

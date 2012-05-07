@@ -1,0 +1,4 @@
+<!-- New Tag Dialog -->
+<!ENTITY newTagDialog.title	"@@New-CMD@@タグ">
+<!ENTITY name.label		"タグ名:">
+<!ENTITY name.accesskey		"T">

@@ -1,0 +1,7 @@
+<!ENTITY identityDialog.style	"width: 70ch;"><!-- en-US: 67ch; -->
+<!ENTITY identityTitle.label	"差出人情報の設定">
+<!ENTITY identityListDesc.label	"差出人情報を設定してください:">
+
+<!ENTITY settingsTab.label	"設定">
+<!ENTITY copiesFoldersTab.label	"送信控えと特別なフォルダ">
+<!ENTITY addressingTab.label	"編集とアドレス入力">

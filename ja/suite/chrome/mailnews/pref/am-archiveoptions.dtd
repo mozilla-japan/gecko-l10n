@@ -1,0 +1,19 @@
+<!-- extracted from am-archiveoptions.xul -->
+
+<!ENTITY dialogTitle.label		"アーカイブオプション">
+<!ENTITY archiveGranularityPrefix.label	"アーカイブメッセージを次の場所に保存します:">
+<!ENTITY archiveFlat.label		"単独のフォルダ">
+<!ENTITY archiveFlat.accesskey		"s">
+<!ENTITY archiveYearly.label		"年別のフォルダ">
+<!ENTITY archiveYearly.accesskey	"Y">
+<!ENTITY archiveMonthly.label		"月別のフォルダ">
+<!ENTITY archiveMonthly.accesskey	"M">
+<!ENTITY keepFolderStructure.label	"アーカイブされたメッセージのフォルダ構造を維持する">
+<!ENTITY keepFolderStructure.accesskey	"K">
+<!ENTITY archiveExample.label "Example">
+<!-- LOCALIZATION NOTE (archiveFolderName.label): this should match the default
+     name for the "Archives" folder -->
+<!ENTITY archiveFolderName.label	"アーカイブ">
+<!-- LOCALIZATION NOTE (inboxFolderName.label): this should match the default
+     name for the "Inbox" folder -->
+<!ENTITY inboxFolderName.label		"受信トレイ">
