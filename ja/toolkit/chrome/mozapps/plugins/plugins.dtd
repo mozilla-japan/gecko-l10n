@@ -21,8 +21,9 @@
 <!ENTITY pluginWizard.finalPage.restart.label			"プラグインを有効にするには &brandShortName; を再起動する必要があります。">
 
 <!ENTITY missingPlugin						"このコンテンツを表示するにはプラグインが必要です。">
-<!-- (^m^) "clickToPlayPlugin" for mobile only. (Bug 687265) -->
-<!ENTITY clickToPlayPlugin					"ここをタップするとプラグインを実行します。">
+<!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
+<!ENTITY tapToPlayPlugin					"ここをタップするとプラグインを実行します。">
+<!ENTITY clickToPlayPlugins					"ここをクリックするとプラグインを実行します。">
 <!ENTITY disabledPlugin						"このプラグインは無効化されています。">
 <!ENTITY blockedPlugin.label					"このプラグインは安全のためにブロックされました。">
 
