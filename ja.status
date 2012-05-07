@@ -246,3 +246,4 @@ chat                    -----:------------  10410:c43089235c4e   mar            
 [l10n-mozilla-14.0] (for aurora)
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
+mobile                  94134:30d0f3aa2836  -----:------------   dynamis         sync mobile (for14beta)

@@ -1,4 +1,8 @@
 <!ENTITY aboutPage.title                        "&brandShortName; について">
+<!ENTITY aboutPage.warningVersion               "&brandShortName; は開発版であり不安定なことがあります。">
+<!ENTITY aboutPage.telemetryStart               "&brandShortName; の改善のため、パフォーマンス、ハードウェア、使用状況や設定などの情報を自動的に ">
+<!ENTITY aboutPage.telemetryMozillaLink         "&vendorShortName;">
+<!ENTITY aboutPage.telemetryEnd                 " に送信します。">
 <!ENTITY aboutPage.faq.label                    "よくある質問">
 <!ENTITY aboutPage.support.label                "サポート">
 <!ENTITY aboutPage.privacyPolicy.label          "プライバシーポリシー">
