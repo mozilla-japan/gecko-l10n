@@ -1,0 +1,11 @@
+<!-- LOCALIZATION NOTE: do not use digits "0"-"9" as accesskeys -->
+<!ENTITY zoomEnlargeCmd.label       "大きく">
+<!ENTITY zoomEnlargeCmd.accesskey   "L">
+<!ENTITY zoomEnlargeCmd.commandkey  "+">
+<!ENTITY zoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+
+<!ENTITY zoomReduceCmd.label        "小さく">
+<!ENTITY zoomReduceCmd.accesskey    "S">
+<!ENTITY zoomReduceCmd.commandkey   "-">
+
+<!ENTITY zoomResetCmd.commandkey    "0">

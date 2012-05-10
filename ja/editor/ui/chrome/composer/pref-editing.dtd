@@ -1,0 +1,27 @@
+<!ENTITY  pref.editing.title		"新しいページの設定">
+
+<!ENTITY  authorName.label		"作成者:">
+<!ENTITY  authorName.accesskey		"u">
+<!ENTITY  pageColorHeader		"@@Default-@@ページ設定">
+
+<!ENTITY defaultColors.label	"ページで@@Colors@@を指定しない">
+<!ENTITY defaultColors.accesskey	"d">
+<!ENTITY customColors.label		"@@Colors@@を指定する:">
+<!ENTITY customColors.accesskey		"c">
+
+<!ENTITY normalText.label		"通常のテキスト">
+<!ENTITY normalText.accesskey		"N">
+<!ENTITY linkText.label			"リンクテキスト">
+<!ENTITY linkText.accesskey		"L">
+<!ENTITY activeLinkText.label		"アクティブリンク">
+<!ENTITY activeLinkText.accesskey	"A">
+<!ENTITY visitedLinkText.label		"訪問済リンク">
+<!ENTITY visitedLinkText.accesskey	"V">
+<!ENTITY background.label		"背景:">
+<!ENTITY background.accesskey		"B">
+<!ENTITY colon.character		":">
+
+<!ENTITY backgroundImage.label		"背景画像:">
+<!ENTITY backgroundImage.accesskey	"m">
+<!ENTITY chooseFile.label		"ファイルを選択...">
+<!ENTITY chooseFile.accesskey		"o">

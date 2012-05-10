@@ -1,0 +1,6 @@
+<!ENTITY joinChatWindow.title	"チャット参加">
+<!ENTITY name.label		"部屋">
+<!ENTITY optional.label		"(任意)">
+<!ENTITY account.label		"アカウント">
+<!ENTITY autojoin.label		"このチャット部屋に自動参加する">
+<!ENTITY autojoin.accesskey	"A">
