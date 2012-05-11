@@ -97,7 +97,7 @@
 <!ENTITY contextCopyLink.label        "リンクをコピー">
 <!ENTITY contextCopyEmail.label       "メールアドレスをコピー">
 <!ENTITY contextCopyPhone.label       "電話番号をコピー">
-<!ENTITY contextCopyImageLocation.label       "画像の URL をコピー">
+<!ENTITY contextCopyImageLocation.label "画像の URL をコピー">
 <!ENTITY contextShareLink.label       "リンクを共有">
 <!ENTITY contextShareImage.label      "画像を共有">
 <!ENTITY contextBookmarkLink.label    "リンクをブックマーク">
