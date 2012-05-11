@@ -32,9 +32,9 @@
 <!ENTITY remote_tabs_show_all "すべてのタブを表示">
 
 <!ENTITY bookmark "ブックマーク">
-<!ENTITY bookmark_added "ブックマークを追加">
-<!ENTITY bookmark_removed "ブックマークを削除">
-<!ENTITY bookmark_updated "ブックマークを更新">
+<!ENTITY bookmark_added "ブックマークを追加しました">
+<!ENTITY bookmark_removed "ブックマークを削除しました">
+<!ENTITY bookmark_updated "ブックマークを更新しました">
 
 <!ENTITY history_today_section "今日">
 <!ENTITY history_yesterday_section "昨日">
@@ -74,7 +74,7 @@
 <!ENTITY pref_font_size_medium "中">
 <!ENTITY pref_font_size_large "大">
 <!ENTITY pref_font_size_xlarge "最大">
-<!ENTITY pref_use_master_password "マスターパスワードを使用する。">
+<!ENTITY pref_use_master_password "マスターパスワードを使用する">
 <!ENTITY pref_sync "同期">
 
 <!ENTITY quit "終了">
@@ -98,7 +98,7 @@
 <!ENTITY bookmark_edit_location "ロケーション">
 <!ENTITY bookmark_edit_keyword "キーワード">
 
-<!ENTITY site_settings_title        "サイトの設定を消去する">
+<!ENTITY site_settings_title        "サイトの設定を消去">
 <!ENTITY site_settings_cancel       "キャンセル">
 <!ENTITY site_settings_clear        "消去">
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
