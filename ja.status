@@ -242,6 +242,7 @@ dom, toolkit            90726:e158b91dd28a  10359:0a45ae40a58b   hATrayflood    
 mail                    -----:------------  10410:c43089235c4e   mar             sync mail
 browser                 90743:e13879b89d80  -----:------------   hATrayflood     sync browser
 chat                    -----:------------  10410:c43089235c4e   mar             sync chat
+suite                   -----:------------  10410:c43089235c4e   mar             sync suite
 
 [l10n-mozilla-14.0] (for aurora)
 target dir              mozilla and comm hg changeset rev:id     by              comment

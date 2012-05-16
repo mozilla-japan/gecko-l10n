@@ -23,8 +23,8 @@
 <!ENTITY autoCompleteMatchWords                "単語の先頭または末尾のみに一致"><!-- en-US: "Only on word boundaries"-->
 <!ENTITY autoCompleteMatchStart                "アドレス (URL) またはタイトルの先頭に一致">
 
-<!ENTITY formatting.label                      "フォーマット">
-<!ENTITY domainFormatting.label                "Web サイトや FTP サーバなどのドメインを強調する"><!--en-US: "Highlight the effective domain for websites and FTP servers" -->
+<!ENTITY formatting.label                      "表示形式">
+<!ENTITY domainFormatting.label                "Web サイトや FTP サーバのドメインを強調する"><!--en-US: "Highlight the effective domain for websites and FTP servers" -->
 <!ENTITY domainFormatting.accesskey            "d">
 
 <!ENTITY searchEngine.label                    "インターネット検索エンジン">
@@ -33,6 +33,6 @@
 
 <!ENTITY unknownLocations.label                "アドレス入力"><!-- en-US: "Unknown Locations" -->
 <!ENTITY domainGuessing.label                  "Web ページが見つからないときは &quot;www.&quot; と &quot;.com&quot;を補完する">
-<!ENTITY domainGuessing.accesskey              "d">
+<!ENTITY domainGuessing.accesskey              "w">
 <!ENTITY keywords.label                        "入力されたテキストが Web アドレス (URL) でないときは Web を検索する">
 <!ENTITY keywords.accesskey                    "P">

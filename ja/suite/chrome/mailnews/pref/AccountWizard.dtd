@@ -32,22 +32,9 @@
 <!ENTITY emailLabel.label "メールアドレス:">
 <!ENTITY emailLabel.accesskey "E">
 
-<!-- Entities for Server page -->
+<!-- Entities for Incoming Server page -->
 
-<!ENTITY serverTitle.label "サーバ情報">
-<!ENTITY incomingServerTypeDesc.label "メール受信サーバの種類を選択してください。">
-<!-- LOCALIZATION NOTE (incomingServerNameDesc.label) : Do not translate "&quot;pop.example.net&quot;" in below line -->
-<!ENTITY incomingServerNameDesc.label "メール受信サーバの名前を入力してください (例: &quot;mail.example.net&quot;)。">
-<!ENTITY incomingServerLabel.label "メール受信サーバ:">
-<!ENTITY incomingServerLabel.accesskey "S">
-<!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
-<!ENTITY newsServerNameDesc.label "ニュース (NNTP) サーバの名前を入力してください (例: &quot;news.example.net&quot;)。">
-<!-- LOCALIZATION NOTE (smtpServerDesc.label) : Do not translate "SMTP" and "&quot;smtp.example.net&quot;" in below line -->
-<!ENTITY smtpServerDesc.label "メール送信 (SMTP) サーバの名前を入力してください (例: &quot;smtp.example.net&quot;)。">
-<!ENTITY smtpServerLabel.label "メール送信サーバ:">
-<!ENTITY smtpServerLabel.accesskey "O">
-<!ENTITY newsServerLabel.label "ニュースサーバ:">
-<!ENTITY newsServerLabel.accesskey "w">
+<!ENTITY incomingTitle.label "受信サーバ情報">
 <!-- LOCALIZATION NOTE (imapType.label) : Do not translate "IMAP" in below line -->
 <!ENTITY imapType.label "IMAP">
 <!ENTITY imapType.accesskey "I">
@@ -58,8 +45,31 @@
 <!ENTITY portNum.accesskey "o">
 <!ENTITY defaultPortLabel.label "@@Default@@のポート番号:">
 <!ENTITY defaultPortValue.label "">
+<!-- LOCALIZATION NOTE (incomingServerNameDesc.label) : Do not translate "&quot;pop.example.net&quot;" in below line -->
+<!ENTITY incomingServer.description "メール受信サーバの名前を入力してください。(例: &quot;mail.example.jp&quot;)">
+<!ENTITY incomingServer.label "メール受信サーバ:">
+<!ENTITY incomingServer.accesskey "S">
 <!ENTITY leaveMsgsOnSrvr.label "サーバ上にメッセージを残す">
 <!ENTITY leaveMsgsOnSrvr.accesskey "L">
+<!-- LOCALIZATION NOTE (incomingUsername.description) : do not translate "&quot;jsmith&quot;" in below line -->
+<!ENTITY incomingUsername.description "プロバイダに指定された受信サーバのユーザ名を入力してください。(例: &quot;jsmith&quot;)">
+<!ENTITY incomingUsername.label "ユーザ名:">
+<!ENTITY incomingUsername.accesskey "U">
+<!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
+<!ENTITY newsServerNameDesc.label "ニュース (NNTP) サーバ の名前を入力してください。(例: news.example.jp)">
+<!ENTITY newsServerLabel.label "ニュースサーバ:">
+<!ENTITY newsServerLabel.accesskey "S">
+
+<!-- Entities for Outgoing Server page -->
+
+<!ENTITY outgoingTitle.label "送信サーバ情報">
+<!-- LOCALIZATION NOTE (outgoingServer.description) : Do not translate "SMTP" and "&quot;smtp.example.net&quot;" in below line -->
+<!ENTITY outgoingServer.description "メール送信 (SMTP) サーバの名前を入力してください。(例: smtp.example.jp)">
+<!ENTITY outgoingServer.label "メール送信サーバ:">
+<!ENTITY outgoingServer.accesskey "S">
+<!ENTITY outgoingUsername.description "プロバイダに指定された送信サーバのユーザ名を入力してください (一般的に受信サーバのユーザ名と同じです)。">
+<!ENTITY outgoingUsername.label "送信サーバのユーザ名:">
+<!ENTITY outgoingUsername.accesskey "U">
 
 <!-- LOCALIZATION NOTE (modifyOutgoing.suffix) : This string will be appended after each of
      haveSmtp1.suffix3, haveSmtp2.suffix3, haveSmtp3.suffix3 .
@@ -72,17 +82,6 @@
 <!ENTITY haveSmtp1.prefix "他のアカウントで設定済みのメール送信 (SMTP) サーバ &quot;">
 <!ENTITY haveSmtp1.suffix3 "&quot; を使用します。">
 
-<!-- Entities for Login page -->
-
-<!ENTITY loginTitle.label "ユーザ名">
-<!ENTITY usernameDesc.label "プロバイダに指定された受信サーバのユーザ名を入力してください">
-<!-- LOCALIZATION NOTE (usernameExample.label) : do not translate "&quot;jsmith&quot;" in below line -->
-<!ENTITY usernameExample.label "(例: &quot;jsmith&quot;).">
-<!ENTITY usernameLabel.label "受信サーバのユーザ名:">
-<!ENTITY usernameLabel.accesskey "I">
-<!ENTITY usernameSmtpDesc.label "プロバイダに指定された送信サーバのユーザ名を入力してください。(多くの場合これは受信サーバのユーザ名と同じです)">
-<!ENTITY usernameSmtpLabel.label "送信サーバのユーザ名:">
-<!ENTITY usernameSmtpLabel.accesskey "O">
 <!-- LOCALIZATION NOTE (haveSmtp2.prefix and haveSmtp2.suffix3) : Do not translate "SMTP" and "&quot;" in
      these variables. Also, translate haveSmtp2.prefix and haveSmtp2.suffix3 as a single sentence, inserting
      text after the "&quot;" entity in haveSmtp2.suffix3, if required grammatically.
