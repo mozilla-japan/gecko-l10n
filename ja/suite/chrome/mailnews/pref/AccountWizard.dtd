@@ -35,6 +35,7 @@
 <!-- Entities for Incoming Server page -->
 
 <!ENTITY incomingTitle.label "受信サーバ情報">
+<!ENTITY incomingServerTypeDesc.label "メール受信サーバの種類を選択してください。">
 <!-- LOCALIZATION NOTE (imapType.label) : Do not translate "IMAP" in below line -->
 <!ENTITY imapType.label "IMAP">
 <!ENTITY imapType.accesskey "I">
