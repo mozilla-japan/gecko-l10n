@@ -220,7 +220,7 @@ browser                 84295:62fc7d5a3085  ----:------------   hATrayflood     
 mobile                  84296:d5db8b8f8c8a  ----:------------   knagato         sync mobile
 mobile                  85373:9f4a06e3fdb0  ----:------------   knagato         sync mobile with mozilla-beta
 
-[l10n-mozilla-12.0] (for beta)
+Released! [l10n-mozilla-12.0]
 target dir              mozilla and comm hg changeset rev:id    by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar                -----:------------  9863:785cee15cf2b   mar             sync calendar
@@ -232,7 +232,7 @@ dom, services/sync      87248:5da86f8addbb  ----:------------   hATrayflood     
 suite                   -----:------------  9906:79790980748a   mar             sync suite
 mobile                  87312:054df423ec81  ----:------------   knagato         sync mobile
 
-[l10n-mozilla-13.0] (for aurora)
+[l10n-mozilla-13.0] (for beta)
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 editor/ui               -----:------------  10308:57bfc276a84b   tooyama         sync editor/ui
@@ -242,3 +242,4 @@ dom, toolkit            90726:e158b91dd28a  10359:0a45ae40a58b   hATrayflood    
 mail                    -----:------------  10410:c43089235c4e   mar             sync mail
 browser                 90743:e13879b89d80  -----:------------   hATrayflood     sync browser
 chat                    -----:------------  10410:c43089235c4e   mar             sync chat
+suite                   -----:------------  10410:c43089235c4e   mar             sync suite
