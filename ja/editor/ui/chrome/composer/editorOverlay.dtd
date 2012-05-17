@@ -90,11 +90,6 @@
 <!ENTITY insertBreakAllCmd.accesskey "k">
 
 <!-- Used just in context popup. -->
-<!ENTITY spellCheckNoSuggestions.label "(候補なし)">
-<!ENTITY spellCheckIgnoreWord.label "単語を無視">
-<!ENTITY spellCheckIgnoreWord.accesskey "I">
-<!ENTITY spellCheckAddToDictionary.label "辞書に追加">
-<!ENTITY spellCheckAddToDictionary.accesskey "n">
 <!ENTITY createLinkCmd.label "リンクを作成...">
 <!ENTITY createLinkCmd.accesskey "k">
 <!ENTITY editLinkCmd.label "リンクを新しい Composer で編集">
