@@ -61,11 +61,11 @@
      checkbox beside this text before continuing. -->
 <!ENTITY confirmWarning.label		"接続する上での危険性を理解しました">
 <!ENTITY confirmWarning.accesskey	"u">
-<!-- LOCALIZATION NOTE (createAccount.label): If there is a security warning
+<!-- LOCALIZATION NOTE (doneAccount.label): If there is a security warning
      on the incoming or outgoing servers, then the page that pops up will
      have this text in a button to continue by creating the account. -->
-<!ENTITY createAccount.label		"アカウント作成">
-<!ENTITY createAccount.accesskey	"C">
+<!ENTITY doneAccount.label		"完了">
+<!ENTITY doneAccount.accesskey		"D">
 <!-- LOCALIZATION NOTE (changeSettings.label): If there is a security warning on
      the incoming or outgoing servers, then the page that pops up will have
      this text in a button to take you back to the previous page to change

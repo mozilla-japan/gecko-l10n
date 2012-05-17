@@ -361,8 +361,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY replyMsgCmd.key		"r">
 <!ENTITY replySenderCmd.label		"送信者にだけ返信">
 <!ENTITY replySenderCmd.accesskey	"R">
-<!ENTITY replyNewsgroupCmd.label	"ニュースグループに返信">
-<!ENTITY replyNewsgroupCmd.accesskey	"y">
+<!-- (^m^) 下の contextReplyNewsgroup2.label も同じ -->
+<!ENTITY replyNewsgroupCmd2.label	"ニュースグループをフォローアップ">
+<!ENTITY replyNewsgroupCmd2.accesskey	"u">
 <!ENTITY replyToAllMsgCmd.label		"全員に返信">
 <!ENTITY replyToAllMsgCmd.accesskey	"p">
 <!ENTITY replyToAllMsgCmd.key		"r">
@@ -500,6 +501,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY importCmd.accesskey		"m">
 <!ENTITY errorConsoleCmd.label		"エラーコンソール">
 <!ENTITY errorConsoleCmd.accesskey	"E">
+<!ENTITY errorConsoleCmd.commandkey	"j">
 <!ENTITY accountManagerCmd.label	"アカウント設定...">
 <!ENTITY accountManagerCmd.accesskey	"S">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey): belongs to accountManagerCmd.label,
@@ -694,8 +696,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contextArchive.accesskey		"h">
 <!ENTITY contextReplySender.label		"送信者だけに返信">
 <!ENTITY contextReplySender.accesskey		"R">
-<!ENTITY contextReplyNewsgroup.label		"ニュースグループに返信">
-<!ENTITY contextReplyNewsgroup.accesskey	"y">
+<!ENTITY contextReplyNewsgroup2.label		"ニュースグループをフォローアップ">
+<!ENTITY contextReplyNewsgroup2.accesskey	"u">
 <!ENTITY contextReplyAll.label			"全員に返信">
 <!ENTITY contextReplyAll.accesskey		"A">
 <!ENTITY contextReplyList.label			"メーリングリストに返信">
