@@ -248,3 +248,5 @@ suite                   -----:------------  10410:c43089235c4e   mar            
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mobile,dom,toolkit      94134:30d0f3aa2836  -----:------------   dynamis         sync mobile (for fe14beta)
+dom                     94283:ccc582a7974f  10827:5bf0a1a16590   mar             update dom (late-l10n)
+editor/ui               -----:------------  10827:5bf0a1a16590   mar             sync editor/ui
