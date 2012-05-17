@@ -6,7 +6,9 @@
 <!ENTITY addAccountDialog.style			"width: 40em; min-height: 20em;"><!-- en-US: "width: 40em; min-height: 20em;" -->
 <!ENTITY addAccountDialog.accountName.label	"アカウント名:">
 <!ENTITY addAccountDialog.noAccountText		"申し訳ありませんが、&brandShortName; の現在のバージョンはサービスごとに一つのアカウントしか利用できません。">
-<!ENTITY addAccountDialog.createAccountText	"この機能は、ファイルサイズの大きな添付ファイルをオンラインストレージサービスを利用して送信します。サービスの既存のアカウントに接続するか、新しいアカウントを登録してください。">
+<!ENTITY addAccountDialog.createAccountText2	"ファイルサイズの大きな添付ファイルは、オンラインストレージサービスを利用して送信することができます。サービスの既存のアカウントをセットアップするか、新しいアカウントを登録してください。">
 <!ENTITY addAccountDialog.authorizing		"アカウント認証中です...">
 <!ENTITY addAccountDialog.error			"アカウントのセットアップ中にエラーが発生しました。">
 <!ENTITY addAccountDialog.acceptButton.label	"セットアップ"><!-- "Set up Account" -->
+<!ENTITY addAccountDialog.learnMore		"機能紹介..."><!-- "Learn more..." -->
+

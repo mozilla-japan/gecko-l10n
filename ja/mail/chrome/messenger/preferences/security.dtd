@@ -14,8 +14,8 @@
 <!ENTITY manualMarkModeDelete.accesskey		"D">
 <!ENTITY markAsReadOnSpam.label			"迷惑メールと判断したメッセージを既読にする">
 <!ENTITY markAsReadOnSpam.accesskey		"M">
-<!ENTITY enableJunkLogging.label		"迷惑メールログを有効にする">
-<!ENTITY enableJunkLogging.accesskey		"E">
+<!ENTITY enableAdaptiveJunkLogging.label	"迷惑メール適応フィルタのログを有効にする">
+<!ENTITY enableAdaptiveJunkLogging.accesskey	"E">
 <!ENTITY openJunkLog.label			"ログを表示">
 <!ENTITY openJunkLog.accesskey			"S">
 <!ENTITY resetTrainingData.label		"判別基準データのリセット">
