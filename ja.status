@@ -251,3 +251,4 @@ mobile,dom,toolkit      94134:30d0f3aa2836  -----:------------   dynamis        
 dom                     94283:ccc582a7974f  10827:5bf0a1a16590   mar             update dom (late-l10n)
 editor/ui               -----:------------  10827:5bf0a1a16590   mar             sync editor/ui
 mail                    -----:------------  10827:5bf0a1a16590   mar             sync mail
+browser                 94387:7f3c5dd8e78f  -----:------------   hATrayflood     sync browser
