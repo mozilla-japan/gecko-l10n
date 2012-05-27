@@ -15,8 +15,6 @@
 <!ENTITY importFromChrome.accesskey	"C">
 <!ENTITY importFromFirefox.label	"Firefox">
 <!ENTITY importFromFirefox.accesskey	"X">
-<!ENTITY importFromHTMLFile.label	"HTML ファイルから@@Import@@">
-<!ENTITY importFromHTMLFile.accesskey	"F">
 
 <!ENTITY noMigrationSources.label	"ブックマーク、履歴やパスワードなどの@@Import-suru@@設定やデータを持つ@@Program@@が見つかりませんでした。">
 

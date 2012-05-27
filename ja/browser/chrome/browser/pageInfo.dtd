@@ -100,6 +100,7 @@
 <!ENTITY  permCookie			"Cookie データの保存">
 <!ENTITY  permInstall			"拡張機能やテーマのインストール">
 <!ENTITY  permGeo			"位置情報の送信">
+<!ENTITY  permPlugins			"プラグインの実行">
 
 <!ENTITY  permIndexedDB			"オフラインストレージの維持">
 <!ENTITY  permClearStorage		"ストレージを@@Clear@@">
