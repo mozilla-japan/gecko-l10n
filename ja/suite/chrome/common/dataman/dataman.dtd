@@ -97,6 +97,7 @@
 <!ENTITY perm.AskAlways "毎回確認する">
 <!ENTITY perm.NeverSave "保存しない">
 <!ENTITY perm.Allow "許可">
+<!ENTITY perm.AllowSameDomain "同じドメインのみ許可">
 <!ENTITY perm.AllowSession "セッション中のみ許可">
 <!ENTITY perm.Block "ブロック">
 
