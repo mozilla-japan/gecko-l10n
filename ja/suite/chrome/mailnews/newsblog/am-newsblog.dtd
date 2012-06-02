@@ -1,5 +1,3 @@
-<!ENTITY accountTitle.label "フィードアカウントの設定">
-
 <!ENTITY biffStart.label "新着記事を">
 <!ENTITY biffStart.accesskey "k">
 <!ENTITY biffEnd.label "分ごとに確認する">
