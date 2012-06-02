@@ -115,12 +115,6 @@
 <!ENTITY stopButton.tooltip "送受信を中止します">
 
 <!-- context menu items -->
-<!ENTITY spellCheckNoSuggestions.label "(候補が見つかりません)">
-<!ENTITY spellCheckIgnoreWord.label "単語を無視">
-<!ENTITY spellCheckIgnoreWord.accesskey "I">
-<!ENTITY spellCheckAddToDictionary.label "辞書に追加">
-<!ENTITY spellCheckAddToDictionary.accesskey "n">
-
 <!ENTITY openAttachment.label "開く">
 <!ENTITY openAttachment.accesskey "O">
 <!ENTITY renameAttachment.label "名前変更...">
