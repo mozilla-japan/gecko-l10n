@@ -64,18 +64,19 @@
 <!ENTITY alwaysAuthenticate.label "サーバへ接続するときは必ず認証を要求する">
 <!ENTITY alwaysAuthenticate.accesskey "w">
 <!ENTITY newsrcFilePath.label "newsrc ファイル:">
-<!ENTITY localPath.label		"メッセージの保存先:"><!-- en-US: Local directory -->
+<!ENTITY newsrcPicker.label "newsrc ファイルを選択してください">
 <!ENTITY abbreviate.label "ニュースグループ名の表示形式:">
 <!ENTITY abbreviateOn.label "Full names (For example, 'netscape.public.mozilla.mail-news')">
 <!ENTITY abbreviateOff.label "完全名 (例: netscape.public.mozilla.mail-news)">
 <!ENTITY advancedButton.label "詳細...">
 <!ENTITY serverDefaultCharset.label "@@Default-@@文字エンコーディング:">
 <!ENTITY advancedButton.accesskey "v">
+<!ENTITY localPath.label "メッセージの保存先:"><!-- en-US: Local directory -->
 <!ENTITY localFolderPicker.label "メッセージデータの保存先を選択してください">
 <!ENTITY browseFolder.label "@@Browse@@...">
 <!ENTITY browseFolder.accesskey "B">
-<!ENTITY newsrcPicker.label "newsrc ファイルを選択してください">
 <!ENTITY browseNewsrc.label "@@Browse@@...">
 <!ENTITY browseNewsrc.accesskey "e">
-<!ENTITY accountTitle.label		"アカウント設定">
-<!ENTITY accountSettingsDesc.label	"これは特殊なアカウントであり、特定の差出人情報はありません。">
+
+<!ENTITY accountTitle.label "アカウント設定">
+<!ENTITY accountSettingsDesc.label "これは特殊なアカウントであり、特定の差出人情報はありません。">
