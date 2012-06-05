@@ -33,7 +33,7 @@ google の https 関係 (Bug 736260):
 http://code.google.com/p/mozja/source/detail?r=2ce9324969f384506f0d2454540382450c6ade40#
 http://code.google.com/p/mozja/source/detail?r=449f031e45baa6ee6f17e5b2e5a3c6befafb8051
 
-    14.0 の現状 (○:完了 △:Google Reader がまだ ×:変更なし ※:Bug 757979)
+    14.0 の現状 (○:完了 △:Google Reader がまだ ×:未変更 ※:Bug 757979)
     △	/browser/chrome/browser-region/region.properties
     ○	/browser/searchplugins/google-jp.xml
     ×	/mail/chrome/messenger-region/region.properties
@@ -42,6 +42,7 @@ http://code.google.com/p/mozja/source/detail?r=449f031e45baa6ee6f17e5b2e5a3c6bef
     ※	/mobile/searchplugins/google-jp.xml
     ×	/suite/chrome/browser/region.properties
     ×	/suite/chrome/mailnews/region.properties
+    ×	/suite/searchplugins/google-jp.xml
 
 
 
