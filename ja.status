@@ -232,7 +232,7 @@ dom, services/sync      87248:5da86f8addbb  ----:------------   hATrayflood     
 suite                   -----:------------  9906:79790980748a   mar             sync suite
 mobile                  87312:054df423ec81  ----:------------   knagato         sync mobile
 
-[l10n-mozilla-13.0] (for beta)
+Released! [l10n-mozilla-13.0]
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 editor/ui               -----:------------  10308:57bfc276a84b   tooyama         sync editor/ui
@@ -244,7 +244,7 @@ browser                 90743:e13879b89d80  -----:------------   hATrayflood    
 chat                    -----:------------  10410:c43089235c4e   mar             sync chat
 suite                   -----:------------  10410:c43089235c4e   mar             sync suite
 
-[l10n-mozilla-14.0] (for aurora)
+[l10n-mozilla-14.0] (for beta)
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mobile,dom,toolkit      94134:30d0f3aa2836  -----:------------   dynamis         sync mobile (for fe14beta)
@@ -253,3 +253,8 @@ editor/ui               -----:------------  10827:5bf0a1a16590   mar            
 mail                    -----:------------  10827:5bf0a1a16590   mar             sync mail
 browser                 94387:7f3c5dd8e78f  -----:------------   hATrayflood     sync browser
 suite                   -----:6ff18e684b3e  10904:648090f7ec78   tooyama         sync suite
+dom                     95970:ee6af303bd9f  -----:------------   mar             sync dom (late-l10n)
+
+[l10n-mozilla-15.0] (for aurora)
+target dir              mozilla and comm hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
