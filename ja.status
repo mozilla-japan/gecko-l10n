@@ -253,7 +253,7 @@ editor/ui               -----:------------  10827:5bf0a1a16590   mar            
 mail                    -----:------------  10827:5bf0a1a16590   mar             sync mail
 browser                 94387:7f3c5dd8e78f  -----:------------   hATrayflood     sync browser
 suite                   -----:6ff18e684b3e  10904:648090f7ec78   tooyama         sync suite
-dom                     95970:ee6af303bd9f  -----:------------   mar             sync dom (late-l10n)
+dom                     98042:fcf10dd798a1  -----:------------   mar             sync dom (late-l10n)
 
 [l10n-mozilla-15.0] (for aurora)
 target dir              mozilla and comm hg changeset rev:id     by              comment
