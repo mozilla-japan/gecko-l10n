@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
-<ShortName>Yahoo!</ShortName>
-<Description>検索エンジン - Yahoo! JAPAN</Description>
+<ShortName>Yahoo! JAPAN</ShortName>
+<Description>検索エンジン - Yahoo!検索</Description>
 <InputEncoding>UTF-8</InputEncoding>
 <Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEX///+AgIDAwMCAAAD/AAAAAAACIauWAAAAAXRSTlMAQObYZgAAAItJREFUKJHFj0EOhCAMRWvEfTMZ917BBXsNn70mcv+r2BZwlAM4fwHl9fOhRP8RVEsL1nL4gqk/gHG/uoHIAR9bAQHR8DplwMBM1XLA7wI2qhZEliowFYsLEtxZRLbAs3bmDMSiBtm36/2kl134Afuai/QEXWrAfUIDdWobGFr4OxBPXzKGpGpSXtYJecAhQ9mJnQUAAAAASUVORK5CYII=</Image>
 <Url type="text/html" method="GET" template="http://search.yahoo.co.jp/search">

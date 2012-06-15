@@ -1,4 +1,4 @@
-google
+google-jp
 amazon-jp
 twitter-ja
 wikipedia-ja
