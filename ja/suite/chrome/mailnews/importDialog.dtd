@@ -41,6 +41,8 @@
 <!ENTITY importAll.accesskey      "E">
 <!ENTITY importMail.label         "メール">
 <!ENTITY importMail.accesskey     "M">
+<!ENTITY importFeeds.label        "フィードの購読">
+<!ENTITY importFeeds.accesskey    "d">
 <!ENTITY importAddressbook.label  "アドレス帳">
 <!ENTITY importAddressbook.accesskey "A">
 <!ENTITY importSettings.label     "設定">
@@ -58,7 +60,10 @@
 <!ENTITY importDescription2.label "@@ImportNoun@@後は &brandShortName; のメールやアドレス帳からアクセスできるようになります。">
 
 <!ENTITY selectDescription.label  "@@ImportNoun@@元のファイルタイプを選択してください:">
+<!ENTITY selectDescriptionB.label "既存のアカウントを選択するか、新しいアカウントを作成してください:">
 <!ENTITY selectDescription.accesskey "P">
+<!ENTITY acctName.label           "名前:">
+<!ENTITY acctName.accesskey       "N">
 
 <!ENTITY back.label               "&lt; 戻る">
 <!ENTITY forward.label            "@@NextButton@@ &gt;">

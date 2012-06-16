@@ -48,6 +48,12 @@
 <!ENTITY  selectall.accesskey   "A">
 <!ENTITY  openHelpMac.key       "?">
 <!ENTITY  closeWindow.key       "w">
+<!ENTITY  copyLinks.label       "リンクのコピー">
+<!ENTITY  copyLinks.accesskey       "L">
+<!ENTITY  openInNewTab.label        "@@NewTab@@で開く">
+<!ENTITY  openInNewTab.accesskey    "T">
+<!ENTITY  openInNewWindow.label     "@@NewWindow@@で開く">
+<!ENTITY  openInNewWindow.accesskey "W">
 
 <!ENTITY  generalTab            "一般">
 <!ENTITY  generalTab.accesskey  "G">

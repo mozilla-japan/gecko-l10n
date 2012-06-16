@@ -126,3 +126,5 @@
 <!ENTITY spellDictionaries.accesskey    "L">
 <!ENTITY spellAddDictionaries.label     "他の辞書をダウンロード...">
 <!ENTITY spellAddDictionaries.accesskey "D">
+<!ENTITY spellUndoAddToDictionary.label      "辞書に追加するのを@@Undo@@">
+<!ENTITY spellUndoAddToDictionary.accesskey  "t">
