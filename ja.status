@@ -258,3 +258,4 @@ dom                     98042:fcf10dd798a1  -----:------------   mar            
 [l10n-mozilla-15.0] (for aurora)
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
+suite                   11300:4517e86cbcf6  -----:------------   tooyama         sync suite
