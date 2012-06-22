@@ -5,7 +5,7 @@
 <!ENTITY  no_space_to_start_error "&brandShortName; を起動するために必要な空き領域が不足しています。">
 <!ENTITY  error_loading_file "&brandShortName; の起動に必要なファイルを読み込めませんでした">
 
-<!ENTITY  awesomebar_all_pages_title "Top Sites">
+<!ENTITY  awesomebar_all_pages_title "トップサイト"><!-- Max6文字 -->
 <!ENTITY  awesomebar_bookmarks_title "ブックマーク">
 <!ENTITY  awesomebar_history_title "履歴">
 <!ENTITY  awesomebar_search_engine "\&quot;&#037;s\&quot; を検索">
@@ -53,7 +53,7 @@
 <!ENTITY pref_category_privacy "プライバシーとセキュリティ">
 <!ENTITY pref_category_content "コンテンツ">
 <!ENTITY pref_about_firefox "&brandShortName; について">
-<!ENTITY pref_do_not_track "トラッキングの拒否を Web サイトに通知する">
+<!ENTITY pref_do_not_track "追跡拒否をサイトに通知する"><!-- 文字数注意 -->
 <!ENTITY pref_telemetry "パフォーマンス情報を送信する">
 <!ENTITY pref_remember_signons "パスワードを保存する">
 <!ENTITY pref_cookies "Cookie を有効化する">
@@ -75,7 +75,7 @@
 <!ENTITY pref_font_size_large "大">
 <!ENTITY pref_font_size_xlarge "最大">
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
-<!ENTITY pref_sync "同期">
+<!ENTITY pref_sync "Firefox Sync で同期">
 
 <!ENTITY quit "終了">
 
@@ -115,9 +115,9 @@
 <!ENTITY abouthome_addons_browse "&brandShortName; のアドオンをすべて見る">
 <!ENTITY abouthome_last_tabs_title "最後に閉じたタブ">
 <!ENTITY abouthome_last_tabs_open "最後に閉じたタブをすべて開く">
-<!ENTITY abouthome_top_sites_title "トップサイト">
+<!ENTITY abouthome_top_sites_title "トップサイト (よく見るページ)"><!-- awesomebar_all_pages_titleがMax6文字 -->
 <!ENTITY abouthome_top_sites_browse "トップサイトをすべて見る">
-<!ENTITY abouthome_no_top_sites "まだトップサイトがありません。タイトルバーをタップしてブラウジングを始めてください。">
+<!ENTITY abouthome_no_top_sites "トップサイトはまだありません。タイトルバーをタップしてブラウジングを始めてください。">
 <!ENTITY abouthome_about_sync "Firefox Sync を設定し、他のデバイスからブックマークや履歴、タブなどにアクセスできるようにします">
 <!ENTITY abouthome_sync_bold_name "Firefox Sync">
 
