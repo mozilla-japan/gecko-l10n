@@ -11,6 +11,13 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 Firefox メモ。
 未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
+
+◆15.0対応作業関連
+
+すべてのファイルを MPL 2.0 に書き換える
+
+
+
 未訳箇所あり:
     dom\chrome\layout\htmlparser.properties
 
@@ -114,20 +121,4 @@ mozilla-2.0     -> l10n-mozilla-2.0
 
 ・default ブランチからの移植 (※hgrc に transplant= を記述)
 > hg transplant -b default -m [rev] --log
-
-◆15.0対応作業関連
-ja.statusの書き方がよく分かりません。言語ソースは以下と同期しました。
-changeset 11300 4517e86cbcf6
-http://hg.mozilla.org/releases/comm-aurora/file/4517e86cbcf6/suite/locales/en-US/
-
-mozilla and comm hgとchangeset rev:idは何を書く?
-
-以下は手をつけていません。
-ja
-dom/
-security/manager/chrome/pipnss/nsserrors.properties
-toolkit/chrome
-
-行頭「MPL 1.1/GPL 2.0/LGPL 2.1」の部分は手をつけていません。
-ソースより行数が多いのはそのためです。
 
