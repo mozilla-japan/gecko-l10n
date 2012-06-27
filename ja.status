@@ -261,3 +261,4 @@ target dir              mozilla and comm hg changeset rev:id     by             
 suite                   -----:------------  11300:4517e86cbcf6   tooyama         sync suite
 calendar                -----:------------  11318:f6389f1cc164   mar             sync calendar
 dom                     98270:ce812b5b6ab1  11318:f6389f1cc164   mar             sync dom
+security                98270:ce812b5b6ab1  11318:f6389f1cc164   mar             sync security
