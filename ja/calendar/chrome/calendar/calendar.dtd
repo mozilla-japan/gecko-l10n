@@ -71,18 +71,31 @@
 <!ENTITY calendar.events.filter.thisCalendarMonth.label	"今月の予定">
 
 <!ENTITY calendar.unifinder.tree.done.label		"完了">
+<!ENTITY calendar.unifinder.tree.done.tooltip		"クリックすると完了マークで並べ替えます">
 <!ENTITY calendar.unifinder.tree.priority.label		"重要度">
+<!ENTITY calendar.unifinder.tree.priority.tooltip	"クリックすると重要度で並べ替えます">
 <!ENTITY calendar.unifinder.tree.title.label		"件名">
+<!ENTITY calendar.unifinder.tree.title.tooltip		"クリックすると件名で並べ替えます">
 <!ENTITY calendar.unifinder.tree.percentcomplete.label	"&#37; 完了">
+<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip	"クリックすると進行状況で並べ替えます">
 <!ENTITY calendar.unifinder.tree.startdate.label	"開始日時">
+<!ENTITY calendar.unifinder.tree.startdate.tooltip	"クリックすると開始日時で並べ替えます">
 <!ENTITY calendar.unifinder.tree.enddate.label		"終了日時">
+<!ENTITY calendar.unifinder.tree.enddate.tooltip	"クリックすると終了日時で並べ替えます">
 <!ENTITY calendar.unifinder.tree.duedate.label		"締切日時">
+<!ENTITY calendar.unifinder.tree.duedate.tooltip	"クリックすると締切日時で並べ替えます">
 <!ENTITY calendar.unifinder.tree.completeddate.label	"完了日時">
+<!ENTITY calendar.unifinder.tree.completeddate.tooltip	"クリックすると完了日時で並べ替えます">
 <!ENTITY calendar.unifinder.tree.categories.label	"カテゴリ">
+<!ENTITY calendar.unifinder.tree.categories.tooltip	"クリックするとカテゴリ名で並べ替えます">
 <!ENTITY calendar.unifinder.tree.location.label		"場所">
+<!ENTITY calendar.unifinder.tree.location.tooltip	"クリックすると場所で並べ替えます">
 <!ENTITY calendar.unifinder.tree.status.label		"状態">
+<!ENTITY calendar.unifinder.tree.status.tooltip		"クリックすると状態で並べ替えます">
 <!ENTITY calendar.unifinder.tree.calendarname.label	"カレンダー名">
+<!ENTITY calendar.unifinder.tree.calendarname.tooltip	"クリックするとカレンダー名で並べ替えます">
 <!ENTITY calendar.unifinder.tree.duration.label		"締切まで"><!-- (^a^) 残り時間、締切までの時間、締切まであと -->
+<!ENTITY calendar.unifinder.tree.duration.tooltip	"クリックすると締切までの時間で並べ替えます">
 <!ENTITY calendar.unifinder.close.tooltip		"予定検索と予定リストを閉じます">
 
 <!ENTITY calendar.today.button.tooltip			"今日に移動します" >
