@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 
 <!ENTITY  splash_settingup "&brandShortName; を設定しています...">
 <!ENTITY  splash_bookmarks_history "ブックマークと履歴を更新しています。この作業には数分かかることがあります。">
@@ -44,7 +48,11 @@
 <!ENTITY reload "再読み込み">
 <!ENTITY forward "進む">
 
+<!ENTITY close_tab "タブを閉じる">
 <!ENTITY new_tab "@@NewTab@@">
+<!-- Localization note (num_tabs) : Number of tabs is always more than one. 
+     We can't use android plural forms, sadly. See bug #753859. -->
+<!ENTITY num_tabs "&#037;d 個のタブ">
 <!ENTITY new_tab_opened "@@NewTab@@を開きました">
 
 <!ENTITY settings "設定">
@@ -86,12 +94,25 @@
 <!ENTITY share "共有">
 <!ENTITY share_title "共有方法を選択">
 <!ENTITY save_as_pdf "PDF として保存">
+<!ENTITY find_in_page "ページ内検索">
+
+<!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+<!ENTITY find_text "ページ内検索">
+<!ENTITY find_prev "前を検索">
+<!ENTITY find_next "次を検索">
+<!ENTITY find_close "閉じる">
 
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
+<!ENTITY contextmenu_remove_history "削除">
 <!ENTITY contextmenu_remove_bookmark "削除">
 <!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
 <!ENTITY contextmenu_share "共有">
 <!ENTITY contextmenu_edit_bookmark "編集">
+
+<!-- Localization note (history_removed) : Shown in a toast notificaion
+	 after a page is removed from browser history. -->
+<!ENTITY history_removed "履歴からページが削除されました">
 
 <!ENTITY bookmark_edit_title "ブックマークを編集">
 <!ENTITY bookmark_edit_name "名前">
@@ -102,6 +123,11 @@
 <!ENTITY site_settings_cancel       "キャンセル">
 <!ENTITY site_settings_clear        "消去">
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
+
+<!ENTITY add_to_reading_list "リーディングリストに追加">
+<!ENTITY reading_list_added "ページがリーディングリストに追加されました">
+<!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
+<!ENTITY reader_mode "リーダーモード">
 
 <!ENTITY masterpassword_create_title "マスターパスワードを作成">
 <!ENTITY masterpassword_remove_title "マスターパスワードを削除">
@@ -125,3 +151,18 @@
 <!ENTITY filepicker_audio_title "音声を選択または録音する">
 <!ENTITY filepicker_image_title "写真を選択または撮影する">
 <!ENTITY filepicker_video_title "ビデオを選択または録画する">
+
+<!-- Site identity popup -->
+<!ENTITY identity_connected_to "この Web サイトは認証されています">
+<!-- Localization note (identity_run_by) : This string appears between a
+domain name (above) and an organization name (below). E.g.
+
+example.com
+which is run by
+Example Enterprises, Inc.
+
+The layout of the identity dialog prevents combining this into a single string with
+substitution variables.  If it is difficult to translate the sense of the string
+with that structure, consider a translation which ignores the preceding domain and
+just addresses the organization to follow, e.g. "This site is run by " -->
+<!ENTITY identity_run_by "このサイトの運営者：">
