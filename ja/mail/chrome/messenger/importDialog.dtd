@@ -52,6 +52,8 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY importAll.accesskey		"E">
 <!ENTITY importMail.label		"メールボックス">
 <!ENTITY importMail.accesskey		"M">
+<!ENTITY importFeeds.label		"購読フィード">
+<!ENTITY importFeeds.accesskey		"d">
 <!ENTITY importAddressbook.label	"アドレス帳">
 <!ENTITY importAddressbook.accesskey	"A">
 <!ENTITY importSettings.label		"設定">
@@ -65,11 +67,14 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY importTitle.label		"@@ImportNoun@@@@Wizard@@">
 <!ENTITY importShortDesc.label		"他のソフトからメール、アドレス帳、設定やフィルタを@@Import-simasu@@">
 
-<!ENTITY importDescription1.label	"他のメールソフトや一般的な形式のアドレス帳からメッセージ、アドレス帳、設定、フィルタなどを取り込みます。">
+<!ENTITY importDescription1.label	"この@@Wizard@@は、他のメールソフトや一般的な形式のアドレス帳からメッセージ、アドレス帳、購読フィード、設定、フィルタなどを &brandShortName; に@@Import-simasu@@。">
 <!ENTITY importDescription2.label	"@@ImportNoun@@後は &brandShortName; のメールやアドレス帳からアクセスできるようになります。">
 
-<!ENTITY selectDescription.label	"@@ImportNoun@@元のファイルタイプを選択してください:">
+<!ENTITY selectDescription.label	"@@ImportNoun@@元のファイル形式を選択してください:">
+<!ENTITY selectDescriptionB.label	"既存のアカウントを選択するか新しいアカウントを作成してください:">
 <!ENTITY selectDescription.accesskey	"P">
+<!ENTITY acctName.label			"アカウント名:">
+<!ENTITY acctName.accesskey		"N">
 
 <!ENTITY back.label			"戻る">
 <!ENTITY forward.label			"@@NextButton@@">

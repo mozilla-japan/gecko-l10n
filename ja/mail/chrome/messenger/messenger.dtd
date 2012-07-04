@@ -31,6 +31,8 @@
 <!ENTITY newExistingEmailAccountCmd.accesskey	"E">
 <!ENTITY newIMAccountCmd.label			"チャットアカウント...">
 <!ENTITY newIMAccountCmd.accesskey		"C">
+<!ENTITY newIMContactCmd.label			"チャット連絡先...">
+<!ENTITY newIMContactCmd.accesskey		"h">
 <!ENTITY openMessageFileCmd.label		"メッセージファイルを開く...">
 <!ENTITY openMessageFileCmd.accesskey		"O">
 <!ENTITY openAttachmentCmd.label		"添付">
@@ -482,6 +484,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY imStatus.unavailable		"利用不可">
 <!ENTITY imStatus.offline		"オフライン">
 <!ENTITY imStatus.showAccounts		"アカウントを表示...">
+<!ENTITY joinChatCmd.label		"チャットに参加...">
+<!ENTITY joinChatCmd.accesskey		"o">
 <!ENTITY savedFiles.label		"保存したファイル">
 <!ENTITY savedFiles.accesskey		"l">
 <!ENTITY savedFiles.key			"j">
@@ -777,7 +781,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contextUnmute.accesskey	"m">
 
 <!-- Junk Bar -->
-<!ENTITY junkBarMessage1.label		"迷惑メール">
+<!ENTITY junkBarMessage2.label		"このメッセージは迷惑メールであると思われます。">
 <!ENTITY junkBarButton1.label		"非迷惑メール">
 <!ENTITY junkInfoButton.label		"？">
 

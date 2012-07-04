@@ -56,3 +56,7 @@
 <!ENTITY cookieExceptions.accesskey		"E">
 <!ENTITY showCookies.label			"Cookie を表示...">
 <!ENTITY showCookies.accesskey			"S">
+
+<!-- Do Not Track -->
+<!ENTITY doNotTrack.label			"トラッキングの拒否を Web サイトに通知する">
+<!ENTITY doNotTrack.accesskey			"d">

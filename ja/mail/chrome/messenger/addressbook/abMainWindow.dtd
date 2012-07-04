@@ -160,8 +160,8 @@ because displayed names don't have the comma in between. -->
 <!ENTITY GeneratedName.accesskey		"N">
 <!ENTITY PrimaryEmail.label			"メールアドレス">
 <!ENTITY PrimaryEmail.accesskey			"E">
-<!ENTITY ScreenName.label			"スクリーンネーム">
-<!ENTITY ScreenName.accesskey			"S">
+<!ENTITY ChatName.label				"チャットネーム">
+<!ENTITY ChatName.accesskey			"C">
 <!ENTITY Company.label				"組織">
 <!ENTITY Company.accesskey			"z">
 <!ENTITY NickName.label				"ニックネーム">
@@ -193,6 +193,7 @@ because displayed names don't have the comma in between. -->
 <!-- Box Headings -->
 <!ENTITY contact.heading			"連絡先">
 <!ENTITY home.heading				"自宅">
+<!ENTITY chat.heading				"チャット">
 <!ENTITY other.heading				"その他">
 <!ENTITY phone.heading				"電話番号">
 <!ENTITY work.heading				"勤務先">

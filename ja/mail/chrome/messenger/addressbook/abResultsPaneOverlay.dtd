@@ -64,8 +64,8 @@
 <!ENTITY HomePhone.accesskey			"H">
 <!ENTITY WorkPhone.label			"電話 (会社)">
 <!ENTITY WorkPhone.accesskey			"W">
-<!ENTITY ScreenName.label			"スクリーンネーム">
-<!ENTITY ScreenName.accesskey			"S">
+<!ENTITY ChatName.label				"チャットネーム">
+<!ENTITY ChatName.accesskey			"C">
 <!ENTITY sortAscending.label			"昇順">
 <!ENTITY sortAscending.accesskey		"A">
 <!ENTITY sortDescending.label			"降順">
