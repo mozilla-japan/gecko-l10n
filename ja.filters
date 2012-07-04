@@ -189,12 +189,14 @@ ja.Export				= エクスポート
 ja.ExportNoun				= エクスポート
 ja.Export-simasu			= エクスポートします
 ja.Export-suru				= エクスポートする
+ja.Export-simasita			= エクスポートしました
 # Mac OS X 10.4 or earlier: 書き出し 10.5 or later: 書き出す
 ja-JP-mac.-ExportCMD			= を書き出す
 ja-JP-mac.Export			= 書き出す
 ja-JP-mac.ExportNoun			= 書き出し
 ja-JP-mac.Export-simasu			= 書き出します
 ja-JP-mac.Export-suru			= 書き出す
+ja-JP-mac.Export-simasita		= 書き出しました
 
 
 

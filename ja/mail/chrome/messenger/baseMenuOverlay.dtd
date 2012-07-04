@@ -13,9 +13,6 @@
 <!ENTITY releaseCmd2.accesskey			"N">
 <!ENTITY whatsNewCmd.label			"新着情報">
 <!ENTITY whatsNewCmd.accesskey			"W">
-<!-- (^^; featureConfigurator.dtd の featureConfigurator.title と合わせる -->
-<!ENTITY featureConfiguratorCmd.label		"設定変更ガイド"><!-- en-US: "Migration Assistant" -->
-<!ENTITY featureConfiguratorCmd.accesskey	"M">
 <!ENTITY openHelp.label				"&brandShortName; ヘルプ">
 <!ENTITY openHelp.accesskey			"H">
 <!ENTITY openHelp.commandkey			"VK_F1">

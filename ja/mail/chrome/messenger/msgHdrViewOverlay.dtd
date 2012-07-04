@@ -64,7 +64,7 @@
 <!ENTITY hdrArchiveButton1.tooltip		"このメッセージをアーカイブに移動します">
 <!ENTITY hdrSmartReplyButton1.label		"適宜返信"><!-- en-US: "Smart Reply" -->
 <!ENTITY hdrReplyButton1.label			"返信">
-<!ENTITY hdrReplyButton1.tooltip		"このメッセージの差出人に返信します">
+<!ENTITY hdrReplyButton2.tooltip		"このメッセージの差出人に返信します">
 <!ENTITY hdrReplyAllButton1.label		"全員に返信">
 <!ENTITY hdrReplyAllButton1.tooltip		"このメッセージの差出人と他の受信者全員に返信します">
 <!ENTITY hdrReplyListButton1.label		"リストに返信">

@@ -78,8 +78,7 @@
 <!ENTITY PlainText.label		"テキスト">
 <!ENTITY HTML.label			"HTML">
 <!ENTITY Unknown.label			"不明">
-<!ENTITY ScreenName.label		"スクリーンネーム:">
-<!ENTITY ScreenName.accesskey		"S">
+<!ENTITY chatName.label                 "チャットネーム:">
 
 <!ENTITY allowRemoteContent1.label	"リモートコンテンツの使用を許可する">
 <!ENTITY allowRemoteContent1.accesskey	"r">
@@ -155,6 +154,25 @@
 <!ENTITY Custom4.accesskey		"4">
 <!ENTITY Notes.label			"メモ:">
 <!ENTITY Notes.accesskey		"N">
+
+<!ENTITY Chat.tab			"チャット">
+<!ENTITY Chat.accesskey			"a">
+<!ENTITY Gtalk.label			"Google Talk:">
+<!ENTITY Gtalk.accesskey		"G">
+<!ENTITY AIM.label			"AIM:">
+<!ENTITY AIM.accesskey			"r">
+<!ENTITY Yahoo.label			"Yahoo!:">
+<!ENTITY Yahoo.accesskey		"Y">
+<!ENTITY Skype.label			"Skype:">
+<!ENTITY Skype.accesskey		"S">
+<!ENTITY QQ.label			"QQ:">
+<!ENTITY QQ.accesskey			"Q">
+<!ENTITY MSN.label			"MSN:">
+<!ENTITY MSN.accesskey			"M">
+<!ENTITY ICQ.label			"ICQ:">
+<!ENTITY ICQ.accesskey			"I">
+<!ENTITY XMPP.label			"Jabber ID:">
+<!ENTITY XMPP.accesskey			"J">
 
 <!ENTITY Photo.tab			"顔写真">
 <!ENTITY Photo.accesskey		"o">

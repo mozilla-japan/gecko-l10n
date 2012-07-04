@@ -67,6 +67,9 @@
 <!ENTITY showUpdates.label			"更新履歴を表示...">
 <!ENTITY showUpdates.accesskey			"S">
 
+<!ENTITY useService.label			"更新のインストールにバックグラウンドサービスを使用する">
+<!ENTITY useService.accesskey			"b">
+
 <!-- Networking and Disk Space -->
 <!ENTITY showSettings.label			"接続設定...">
 <!ENTITY showSettings.accesskey			"S">

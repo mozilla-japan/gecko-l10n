@@ -3,8 +3,8 @@
 <!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpServer.label	"送信 (SMTP) サーバの設定">
 
-<!-- LOCALIZATION NOTE (smtpDesc.label): do not translate "SMTP" in below line -->
-<!ENTITY smtpDesc.label		"アカウントを複数お持ちの場合に複数の送信 (SMTP) サーバを設定できますが、これは上級ユーザ向けです。複数の SMTP サーバを設定するとメッセージの送信時にエラーが発生することがあります。">
+<!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
+<!ENTITY smtpDescription.label	"複数の差出人情報を管理している場合、使用する送信 (SMTP) サーバをこのリストから選択できます。@@[@@@@Default-@@サーバを使用する@@]@@ を選択すると、このリストの@@Default-@@サーバを使用します。">
 
 <!ENTITY smtpListAdd.label		"追加...">
 <!ENTITY smtpListAdd.accesskey		"d">
