@@ -47,6 +47,10 @@
 
 <!ENTITY reload "再読み込み">
 <!ENTITY forward "進む">
+<!ENTITY menu "メニュー">
+<!ENTITY back "戻る">
+<!ENTITY stop "中止">
+<!ENTITY site_security "サイトセキュリティ">
 
 <!ENTITY close_tab "タブを閉じる">
 <!ENTITY new_tab "@@NewTab@@">
