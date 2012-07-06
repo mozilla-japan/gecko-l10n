@@ -20,7 +20,6 @@ Firefox メモ。
 
 未訳箇所あり:
     dom\chrome\layout\htmlparser.properties
-    mobile\android\chrome\browser.properties
 
 要検討箇所あり:
   Pluralform 濫用によるもの
