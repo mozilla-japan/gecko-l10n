@@ -64,6 +64,7 @@
 <!ENTITY pref_category_general "一般">
 <!ENTITY pref_category_privacy "プライバシーとセキュリティ">
 <!ENTITY pref_category_content "コンテンツ">
+<!ENTITY pref_category_importexport "@@ImportNoun@@と@@ExportNoun@@">
 <!ENTITY pref_about_firefox "&brandShortName; について">
 <!ENTITY pref_do_not_track "追跡拒否をサイトに通知する"><!-- 文字数注意 -->
 <!ENTITY pref_telemetry "パフォーマンス情報を送信する">
@@ -72,10 +73,7 @@
 <!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
 <!ENTITY pref_char_encoding_off "メニューを表示しない">
-<!ENTITY pref_clear_history "履歴を消去する">
-<!ENTITY pref_clear_history_confirm "履歴が消去されます">
 <!ENTITY pref_clear_private_data "プライベートデータを消去する">
-<!ENTITY pref_clear_private_data_confirm "パスワードや Cookie などの設定が消去されます">
 <!ENTITY pref_plugins "プラグイン">
 <!ENTITY pref_plugins_enabled "有効化">
 <!ENTITY pref_plugins_tap_to_play "タップして実行">
@@ -88,6 +86,15 @@
 <!ENTITY pref_font_size_xlarge "最大">
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
 <!ENTITY pref_sync "Firefox Sync で同期">
+<!ENTITY pref_import_android "Android から@@Import-suru@@">
+<!ENTITY pref_private_data_history "閲覧とダウンロードの履歴">
+<!ENTITY pref_private_data_formdata "フォームと検索の履歴">
+<!ENTITY pref_private_data_cookies "Cookie">
+<!ENTITY pref_private_data_cache "キャッシュ">
+<!ENTITY pref_private_data_sessions "現在のログイン情報">
+<!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
+<!ENTITY pref_private_data_siteSettings "サイト設定">
+<!ENTITY pref_search_suggestions "検索語句の候補を表示">
 
 <!ENTITY quit "終了">
 
@@ -99,6 +106,7 @@
 <!ENTITY share_title "共有方法を選択">
 <!ENTITY save_as_pdf "PDF として保存">
 <!ENTITY find_in_page "ページ内検索">
+<!ENTITY desktop_mode "PC 用サイトを表示">
 
 <!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
@@ -112,6 +120,9 @@
 <!ENTITY contextmenu_remove_bookmark "削除">
 <!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
 <!ENTITY contextmenu_share "共有">
+<!ENTITY contextmenu_pasteandgo "@@Paste-site@@移動">
+<!ENTITY contextmenu_paste "@@Paste@@">
+<!ENTITY contextmenu_copyurl "アドレスをコピー">
 <!ENTITY contextmenu_edit_bookmark "編集">
 
 <!-- Localization note (history_removed) : Shown in a toast notificaion
@@ -140,6 +151,7 @@
 
 <!ENTITY button_ok "OK">
 <!ENTITY button_cancel "キャンセル">
+<!ENTITY button_clear_data "データを消去">
 
 <!ENTITY abouthome_addons_title "&brandShortName; のためのアドオン">
 <!ENTITY abouthome_addons_browse "&brandShortName; のアドオンをすべて見る">
@@ -170,3 +182,15 @@ substitution variables.  If it is difficult to translate the sense of the string
 with that structure, consider a translation which ignores the preceding domain and
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_run_by "このサイトの運営者:">
+
+<!ENTITY bookmarkhistory_button_import "@@Import@@">
+<!ENTITY bookmarkhistory_import_both "Android からブックマークと履歴を
+                                      @@Import-site@@います">
+<!ENTITY bookmarkhistory_import_bookmarks "Android からブックマークを
+                                           @@Import-site@@います">
+<!ENTITY bookmarkhistory_import_history "Android から履歴を
+                                         @@Import-site@@います">
+<!ENTITY bookmarkhistory_import_wait "しばらくお待ちください...">
+
+<!ENTITY private_data_success "プライバシー情報が消去されました">
+<!ENTITY private_data_fail "いくつかのプライバシー情報が消去されませんでした">
