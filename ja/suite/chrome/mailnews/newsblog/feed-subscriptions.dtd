@@ -28,6 +28,6 @@
 <!ENTITY button.importOPML.accesskey "I">
 <!ENTITY button.exportOPML.label     "@@Export@@">
 <!ENTITY button.exportOPML.accesskey "X">
-<!ENTITY button.exportOPML.tooltip   "Export Feeds with folder structure; ctrl click or ctrl enter to export Feeds as a list"><!--動きを見ないと分からん(^^; フォルダ構造でフィードをエクスポートするには、Ctrlを押しながらフィードをクリックするか、Ctrlキーを押しながらエクスポートしたいフィードをリストから選択します?-->
+<!ENTITY button.exportOPML.tooltip   "フィードをフォルダ構成で@@Export-simasu@@。フィードをリストで@@Export-suru@@には、Ctrl キーを押しながらクリックするか Enter キーを押します">
 
 <!ENTITY cmd.close.commandKey        "w">
