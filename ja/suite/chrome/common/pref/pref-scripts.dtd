@@ -1,0 +1,26 @@
+<!-- extracted from content/pref-scripts.xul -->
+
+<!--LOCALIZATION NOTE : FILE The 'Scripts & Plugins' preferences dialog -->
+<!ENTITY pref.scripts.title              "スクリプトとプラグイン">
+
+<!ENTITY navigator.label                 "ブラウザ">
+<!ENTITY navigator.accesskey             "B">
+
+<!--LOCALIZATION NOTE (enableJavaScript.label): 'JavaScript' should never be translated -->
+<!ENTITY enableJavaScript.label          "JavaScript を有効にする:">
+<!ENTITY allowScripts.label              "以下のスクリプトを許可する:">
+<!ENTITY allowScripts.accesskey          "s">
+<!ENTITY allowWindowMoveResize.label     "@@Window@@の移動または大きさを変更する">
+<!ENTITY allowWindowFlip.label           "@@Window@@のフォーカス (@@Front@@か@@Back@@か) を切り換える">
+<!ENTITY allowWindowStatusChange.label   "ステータスバーのテキストを変更する">
+<!ENTITY allowWindowImageSrcChange.label "画像を変更する">
+<!ENTITY allowContextmenuDisable.label   "コンテキストメニューを無効化または変更する">
+<!ENTITY allowHideStatusBar.label        "ステータスバーを隠す">
+
+<!ENTITY enablePlugin.label              "プラグインを有効にする:">
+<!ENTITY enablePluginForSuite.label      "Suite">
+<!ENTITY enablePluginForSuite.accesskey  "u">
+
+<!ENTITY whenPluginsRequired.label       "プラグインの読み込みを要求されたとき">
+<!ENTITY displayNotification.label       "コンテンツ領域の上部に通知バーを表示する">
+<!ENTITY displayNotification.accesskey   "N">

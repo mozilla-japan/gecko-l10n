@@ -1,0 +1,24 @@
+<!ENTITY offlineDialog.title		"オフライン設定">
+
+<!ENTITY textStartUp			"起動時のオンライン状態を選んでください:">
+<!ENTITY radioRememberPrevState.label	"前回終了時と同じ状態で起動する">
+<!ENTITY radioRememberPrevState.accesskey	"R">
+<!ENTITY radioAskMe.label		"起動時に毎回確認する">
+<!ENTITY radioAskMe.accesskey		"u">
+<!ENTITY radioAlwaysOnline.label	"常にオンラインで起動する">
+<!ENTITY radioAlwaysOnline.accesskey	"l">
+
+<!ENTITY textGoingOnline		"オンラインになったらすぐに未送信メッセージを送信しますか？">
+<!ENTITY radioAutoSend.label		"はい">
+<!ENTITY radioAutoSend.accesskey	"Y">
+<!ENTITY radioNotSend.label		"いいえ">
+<!ENTITY radioNotSend.accesskey		"N">
+<!ENTITY radioAskUnsent.label		"確認する">
+<!ENTITY radioAskUnsent.accesskey	"s">
+<!ENTITY textGoingOffline		"オフラインになる前にオフラインで使用するメッセージをダウンロードしますか？">
+<!ENTITY radioAutoDownload.label	"はい">
+<!ENTITY radioAutoDownload.accesskey	"e">
+<!ENTITY radioNotDownload.label		"いいえ">
+<!ENTITY radioNotDownload.accesskey	"o">
+<!ENTITY radioAskDownload.label		"確認する">
+<!ENTITY radioAskDownload.accesskey	"a">

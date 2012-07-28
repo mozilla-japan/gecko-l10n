@@ -1,0 +1,57 @@
+<!ENTITY itemGeneral.label			"一般">
+<!ENTITY itemAutoComplete.label			"アドレス入力">
+<!ENTITY itemSpellCheck.label			"スペルチェック">
+
+<!ENTITY forwardMsg.label			"転送元のメッセージを:">
+<!ENTITY forwardMsg.accesskey			"F">
+<!ENTITY inline.label				"メール本文に含める">
+<!ENTITY asAttachment.label			"ファイルとして添付">
+<!ENTITY addExtension.label			"ファイル名に拡張子を付加する">
+<!ENTITY addExtension.accesskey			"e">
+
+<!ENTITY htmlComposeHeader.label		"HTML">
+<!ENTITY font.label				"フォント:">
+<!ENTITY font.accesskey				"n">
+<!ENTITY size.label				"サイズ:">
+<!ENTITY size.accesskey				"z">
+<!ENTITY fontColor.label			"文字色:">
+<!ENTITY fontColor.accesskey			"T">
+<!ENTITY bgColor.label				"背景色:">
+<!ENTITY bgColor.accesskey			"B">
+<!ENTITY restoreHTMLDefaults.label		"@@RestoreDefaults@@">
+<!ENTITY restoreHTMLDefaults.accesskey		"R">
+
+<!ENTITY spellCheck.label			"送信前にスペルチェックを行う">
+<!ENTITY spellCheck.accesskey			"C">
+<!ENTITY spellCheckInline.label			"自動スペルチェックを有効にする">
+<!ENTITY spellCheckInline1.accesskey		"E">
+<!ENTITY languagePopup.label			"辞書の言語:">
+<!ENTITY languagePopup.accessKey		"L">
+<!ENTITY downloadDictionaries.label		"スペルチェックに必要な辞書を追加する"><!-- (^^; 拡張機能マネージャなどに合わせる -->
+
+<!ENTITY warnOnSendAccelKey.label		"キーボードショートカットでメッセージを送信するときは確認する">
+<!ENTITY warnOnSendAccelKey.accesskey		"C">
+<!ENTITY autoSave.label				"編集中のメッセージを"><!-- (^^; Auto Save every -->
+<!ENTITY autoSave.accesskey			"A">
+<!ENTITY autoSaveEnd.label			"分ごとに下書きとして自動保存する"><!-- (^^; minutes -->
+
+<!ENTITY emailCollectionPicker.label		"メール送信時に受信者を次のアドレス帳に自動で追加する:">
+<!ENTITY emailCollectionPicker.accesskey	"A">
+<!ENTITY addressingTitle.label			"アドレスの自動補完">
+<!ENTITY autocompleteText.label			"以下に登録されているメールアドレスを宛先等の入力時に自動補完する:">
+<!ENTITY addressingEnable.label			"ローカルのアドレス帳">
+<!ENTITY addressingEnable.accesskey		"L">
+<!ENTITY directories.label			"LDAP サーバ:">
+<!ENTITY directories.accesskey			"D">
+<!ENTITY directoriesNone.label			"なし">
+<!ENTITY editDirectories.label			"LDAP サーバの編集...">
+<!ENTITY editDirectories.accesskey		"E">
+
+<!ENTITY sendOptionsDescription.label		"送信するメッセージの形式を設定します。">
+<!ENTITY sendOptions.label			"送信テキスト形式..."><!-- (^^; Send Options... -->
+<!ENTITY sendOptions.accesskey			"S">
+
+<!ENTITY attachmentReminder.label		"ファイルの添付忘れがないか確認する">
+<!ENTITY attachmentReminder.accesskey		"m">
+<!ENTITY attachmentReminderOptions.label	"キーワード...">
+<!ENTITY attachmentReminderOptions.accesskey	"K">
