@@ -95,5 +95,6 @@
 <!ENTITY ignoreSubthread.label       "サブスレッドを無視する">
 <!ENTITY watchThread.label           "注目スレッドに設定する">
 <!ENTITY stopExecution.label         "フィルタの実行を中止する">
-<!ENTITY addAction.tooltip           "新しい動作を追加">
-<!ENTITY removeAction.tooltip        "この動作を削除">
+
+<!ENTITY addAction.tooltip           "@@New-CMD@@動作を追加します">
+<!ENTITY removeAction.tooltip        "この動作を削除します">
