@@ -90,6 +90,7 @@
 <!ENTITY pref_private_data_history "閲覧とダウンロードの履歴">
 <!ENTITY pref_private_data_formdata "フォームと検索の履歴">
 <!ENTITY pref_private_data_cookies "Cookie">
+<!ENTITY pref_private_data_passwords "保存されたパスワード">
 <!ENTITY pref_private_data_cache "キャッシュ">
 <!ENTITY pref_private_data_sessions "現在のログイン情報">
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
