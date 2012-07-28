@@ -1,0 +1,124 @@
+en-US との同期が途中である場合は残りの差分をこのファイルに保存してください
+ディレクトリ単位で綺麗に作業が完了している場合には不要です
+その他単純な差分以外でやり残しについてのメモもこのファイルにどうぞ
+
+未訳箇所や重要な要確認事項はコメント中に以下の文字列を含む:
+ - (^^;   note by dynamis and others
+ - (^a^)  note by a
+ - (^^h   note by hATrayflood
+ - (^m^)  note by mar
+
+Firefox メモ。
+未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
+
+
+◆15.0対応作業関連
+
+すべてのファイルを MPL 2.0 に書き換える
+
+
+
+未訳箇所あり:
+    dom\chrome\layout\htmlparser.properties
+
+要検討箇所あり:
+  Pluralform 濫用によるもの
+    https://bugzilla.mozilla.org/show_bug.cgi?id=658191
+    /browser/chrome/browser/browser.properties
+      addonsInstalled
+      addonsInstalledNeedsRestart
+  画面未確認 (13時点で定義のみ存在)
+    /browser/chrome/browser/devtools/styleeditor.dtd
+      scoped.label
+
+(Thunderbird 13) 訳の要確認箇所あり:
+    /chat/xmpp.properties
+      connection.error.*
+
+
+google の https 関係 (Bug 736260):
+http://code.google.com/p/mozja/source/detail?r=2ce9324969f384506f0d2454540382450c6ade40#
+http://code.google.com/p/mozja/source/detail?r=449f031e45baa6ee6f17e5b2e5a3c6befafb8051
+
+    14.0 の現状 (○:完了 △:Google Reader がまだ ×:未変更 ※:Bug 757979)
+    △	/browser/chrome/browser-region/region.properties
+    ○	/browser/searchplugins/google-jp.xml
+    ×	/mail/chrome/messenger-region/region.properties
+    ×	/mail/searchplugins/google-jp.xml
+    △	/mobile/chrome/region.properties
+    ※	/mobile/searchplugins/google-jp.xml
+    ×	/suite/chrome/browser/region.properties
+    ×	/suite/chrome/mailnews/region.properties
+    ×	/suite/searchplugins/google-jp.xml
+
+
+
+◆各リポジトリへの対応について、何かあれば以下に書き残してください。
+
+・default ブランチで mozilla-aurora, comm-aurora に同期する。
+・mozilla-beta 等のリリース直前の作業は未定。
+
+----- START (^^;
+beta だけ変更が必要な事などはあると思うので aurora->beta 切り替え時に毎回ブランチ切るのが良いかと思います。ブランチ名は mozilla-beta にしたくなりますが、それだと次のバージョンの時にまた別のブランチに移動させることになり面倒なので、(mobile-5.0 などに倣って) l10n-mozilla-5.0 などにしてしまう感じで
+
+mozilla-central -> 当面のところ対応予定無し
+mozilla-aurora  -> ja では default
+mozilla-beta    -> l10n-mozilla-5.0
+                   l10n-mozilla-6.0
+                     ...
+mozilla-2.0     -> l10n-mozilla-2.0
+----- END (^^;
+
+
+
+
+◆Mercurial コマンドメモ
+
+・ローカルリポジトリの更新
+> hg pull
+> hg update
+ または
+> hg pull -u
+
+・現在の作業リビジョンの確認
+> hg parent
+
+・現在の作業状態の確認
+> hg status
+
+・ファイルの追加と削除 (一括)
+> hg addremove
+
+・コミット
+> hg commit -m "[commit log]"
+ または
+> hg ci -m "[commit log]"
+
+・サーバに push
+> hg push
+
+・コミットログの表示
+> hg log -l [num]
+
+・コミットログのグラフ表示 (※hgrc に hgext.graphlog= を記述)
+> hg glog -l [num]
+
+
+
+◇ あまり使わないコマンド
+
+・作業ブランチの切り替え
+> hg update [branch name]
+
+・現在の作業ブランチの確認
+> hg branch
+
+・ブランチの作成
+> hg branch [branch name]
+
+・作業リビジョンの切り替え
+> hg update -r [rev]
+
+・default ブランチからの移植 (※hgrc に transplant= を記述)
+> hg transplant -b default -m [rev] --log
+

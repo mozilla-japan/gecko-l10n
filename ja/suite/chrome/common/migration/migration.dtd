@@ -1,0 +1,24 @@
+<!ENTITY migrationWizard.title          "設定移行@@Wizard@@">
+
+<!ENTITY importAllFrom.label            "オプション、ブックマーク、履歴、パスワードその他のデータを@@Import-suru@@対象を選んでください:">
+<!ENTITY importBookmarksFrom.label      "ブックマークを@@Import-suru@@対象を選んでください:">
+
+<!ENTITY importFromThunderbird.label     "Thunderbird">
+<!ENTITY importFromThunderbird.accesskey "T">
+<!ENTITY importFromFile.label            "ファイルから@@Import@@">
+<!ENTITY importFromFile.accesskey        "F">
+<!ENTITY importFromNothing.label         "設定を@@Import-sinai@@">
+<!ENTITY importFromNothing.accesskey     "D">
+
+<!ENTITY importSource.title             "設定とデータの@@ImportNoun@@元">
+<!ENTITY importItems.title              "@@Import-suru@@項目">
+<!ENTITY importItems.label              "@@Import-suru@@項目を選択してください:">
+
+<!ENTITY selectProfile.title            "プロファイルの選択">
+<!ENTITY selectProfile.label            "@@Import-suru@@プロファイルを選択してください:">
+
+<!ENTITY migrating.title                "@@Import-site@@います...">
+<!ENTITY migrating.label                "次の項目を現在@@Import-site@@います...">
+
+<!ENTITY done.title                     "@@ImportNoun@@完了">
+<!ENTITY done.label                     "次のデータが正常に@@Import-sare@@ました:">

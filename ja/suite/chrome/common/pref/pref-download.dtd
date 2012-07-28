@@ -1,0 +1,36 @@
+<!ENTITY pref.download.title            "ダウンロード">
+
+<!ENTITY downloadBehavior.label         "ダウンロードの開始時">
+<!ENTITY focusWhenStarting.label        "ダウンロードマネージャがすでに開いている場合は点滅させる:">
+<!ENTITY focusWhenStarting.accesskey    "F">
+<!ENTITY openDM.label                   "ダウンロードマネージャを開く">
+<!ENTITY openDM.accesskey               "m">
+<!ENTITY openProgressDialog.label       "進行状況ダイアログを開く">
+<!ENTITY openProgressDialog.accesskey   "O">
+<!ENTITY doNothing.label                "何も開かない">
+<!ENTITY doNothing.accesskey            "D">
+
+<!ENTITY downloadLocation.label         "ファイルの保存時">
+<!ENTITY saveTo.label                   "次のフォルダに保存">
+<!ENTITY saveTo.accesskey               "v">
+<!ENTITY chooseDownloadFolder.label     "フォルダを選択...">
+<!ENTITY chooseDownloadFolder.accesskey "C">
+<!ENTITY alwaysAsk.label                "ファイルごとに保存先を指定する">
+<!ENTITY alwaysAsk.accesskey            "A">
+
+<!ENTITY downloadHistory.label          "ダウンロード履歴">
+<!ENTITY removeEntries.label            "次の時に削除:">
+<!ENTITY removeEntries.accesskey        "R">
+<!ENTITY whenCompleted.label            "ダウンロードが完了したとき">
+<!ENTITY whenQuittingApp.label          "&brandShortName; を閉じるとき">
+<!ENTITY neverRemove.label              "削除しない">
+
+<!ENTITY finishedBehavior.label         "ダウンロードの完了時">
+<!ENTITY playSound.label                "音を鳴らす">
+<!ENTITY playSound.accesskey            "P">
+<!ENTITY showAlert.label                "警告を表示">
+<!ENTITY showAlert.accesskey            "S">
+<!ENTITY browse.label                   "@@Browse@@...">
+<!ENTITY browse.accesskey               "B">
+<!ENTITY playButton.label               "再生">
+<!ENTITY playButton.accesskey           "l">

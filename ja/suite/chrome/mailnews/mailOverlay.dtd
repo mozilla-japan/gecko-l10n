@@ -1,0 +1,10 @@
+
+<!ENTITY  newMessageCmd.key               "M">
+<!ENTITY  newMessageCmd.label             "メッセージ">
+<!ENTITY  newMessageCmd.accesskey         "m">
+ 
+<!ENTITY  newContactCmd.label             "連絡先...">
+<!ENTITY  newContactCmd.accesskey         "C">
+
+<!ENTITY printButton.label                "@@Print@@">
+<!ENTITY printButton.tooltip              "メッセージを@@Print@@します">
