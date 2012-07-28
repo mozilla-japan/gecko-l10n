@@ -1,5 +1,6 @@
 <!ENTITY junkSettings.label "迷惑メールフィルタの設定">
-<!ENTITY trainingDescription.label "この設定を有効にした場合は、迷惑メール判別を正しく識別するために &brandShortName; を訓練しなければなりません。メッセージは@@[@@迷惑メール@@]@@ツールバーボタンを使用して迷惑メールを識別できます。あなたは迷惑メールか迷惑メールでないか、訓練中は自己で識別する必要があります。これを ＆&brandShortName; が学習すれば、自動的に迷惑メールにマークを付けることができるようになります。">
+<!ENTITY trainingDescription.label "この設定を有効にした場合は、迷惑メール判別を正しく識別するために &brandShortName; を訓練しなければなりません。迷惑メールは @@[@@迷惑メール@@]@@ ツールバーボタンを使用して学習させます。迷惑メールか迷惑メールでないかを両方学習させる必要があります。これを &brandShortName; が学習すれば、自動的に迷惑メールにマークを付けられるようになります。">
+
 <!ENTITY level.label "このアカウントで迷惑メールの学習を有効にする">
 <!ENTITY level.accesskey "E">
 
@@ -13,12 +14,12 @@
 <!ENTITY purge1.accesskey "u">
 <!ENTITY purge2.label "日以上前のものは自動的に削除する">
 
-<!ENTITY whitelistHeader.label "次の送信者からのメールは自動的に迷惑メールとしてマークしない: ">
+<!ENTITY whitelistHeader.label "次の送信者からのメールは迷惑マークを自動的に付けない: ">
 <!ENTITY whitelistHeader.accesskey "D">
 
-<!ENTITY ispHeadersWarning.label "この設定が有効になっていると &brandShortName; は、選択したメールヘッダの情報によって迷惑メールを自動的に判別します。">
+<!ENTITY ispHeadersWarning.label "この設定を有効にすると、選択したメールヘッダの情報によって &brandShortName; が迷惑メールを自動的に判別します。">
 <!ENTITY ispHeaders.label "次の迷惑メールヘッダを信用する: ">
 <!ENTITY ispHeaders.accesskey "T">
 
-<!ENTITY junkClassification.label "選択"><!--Selection-->
-<!ENTITY junkActions.label "転送・保存先"><!--Destination and Retention-->
+<!ENTITY junkClassification.label "選別">
+<!ENTITY junkActions.label "移動先と保存期間">
