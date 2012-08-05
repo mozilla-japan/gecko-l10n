@@ -17,10 +17,12 @@
 <!ENTITY allowContextmenuDisable.label   "コンテキストメニューを無効化または変更する">
 <!ENTITY allowHideStatusBar.label        "ステータスバーを隠す">
 
-<!ENTITY enablePlugin.label              "プラグインを有効にする:">
+<!ENTITY enablePlugins.label             "プラグインを有効にする:">
 <!ENTITY enablePluginForSuite.label      "Suite">
 <!ENTITY enablePluginForSuite.accesskey  "u">
 
-<!ENTITY whenPluginsRequired.label       "プラグインの読み込みを要求されたとき">
-<!ENTITY displayNotification.label       "コンテンツ領域の上部に通知バーを表示する">
-<!ENTITY displayNotification.accesskey   "N">
+<!ENTITY whenPageRequiresPlugins.label   "プラグインの読み込みを要求されたとき">
+<!ENTITY activateAllPlugins.label        "@@default@@ですべてのプラグインを有効化">
+<!ENTITY activateAllPlugins.accesskey    "d">
+<!ENTITY warnPluginsRequired.label       "プラグインを追加する必要があるときは警告する">
+<!ENTITY warnPluginsRequired.accesskey   "W">
