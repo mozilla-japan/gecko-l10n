@@ -27,6 +27,7 @@
 <!ENTITY advance.label "詳細">
 <!ENTITY down.label "ダウンロード">
 <!ENTITY cache.label "キャッシュ">
+<!ENTITY offlineApps.label "オフラインアプリケーション">
 <!ENTITY proxies.label "プロキシ">
 <!ENTITY httpnetworking.label "HTTP ネットワーク">
 <!ENTITY smart.label "ソフトウェアのインストール">
@@ -37,5 +38,4 @@
 <!ENTITY mousewheel.label "マウスホイール">
 <!ENTITY scriptsAndWindows.label "スクリプトとプラグイン">
 <!ENTITY spellingPane.label  "スペルチェック">
-
 <!ENTITY focusSearch.key "f">
