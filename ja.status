@@ -244,7 +244,7 @@ browser                 90743:e13879b89d80  -----:------------   hATrayflood    
 chat                    -----:------------  10410:c43089235c4e   mar             sync chat
 suite                   -----:------------  10410:c43089235c4e   mar             sync suite
 
-[l10n-mozilla-14.0]
+Released! [l10n-mozilla-14.0]
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mobile,dom,toolkit      94134:30d0f3aa2836  -----:------------   dynamis         sync mobile (for fe14beta)
@@ -273,3 +273,4 @@ mobile                  98473:d6c338ecc273  -----:------------   knagato        
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 suite                   -----:------------  11739:c5f625462e29   tooyama         sync suite
+calendar                -----:------------  11746:0ae2de397154   mar             sync calendar
