@@ -244,7 +244,7 @@ browser                 90743:e13879b89d80  -----:------------   hATrayflood    
 chat                    -----:------------  10410:c43089235c4e   mar             sync chat
 suite                   -----:------------  10410:c43089235c4e   mar             sync suite
 
-[l10n-mozilla-14.0] (for beta)
+Released! [l10n-mozilla-14.0]
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mobile,dom,toolkit      94134:30d0f3aa2836  -----:------------   dynamis         sync mobile (for fe14beta)
@@ -255,7 +255,7 @@ browser                 94387:7f3c5dd8e78f  -----:------------   hATrayflood    
 suite                   -----:6ff18e684b3e  10904:648090f7ec78   tooyama         sync suite
 dom                     98042:fcf10dd798a1  -----:------------   mar             sync dom (late-l10n)
 
-[l10n-mozilla-15.0] (for aurora)
+[l10n-mozilla-15.0] (for beta)
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 suite                   -----:------------  11300:4517e86cbcf6   tooyama         sync suite
@@ -269,3 +269,4 @@ mobile                  98329:079ad5847a2e  -----:------------   knagato        
 browser                 98343:6926dd115351  -----:------------   hATrayflood     sync browser
 mobile                  98473:d6c338ecc273  -----:------------   knagato         sync mobile
 mobile, toolkit         100371:5a85437b01b9 -----:------------   knagato         sync mobile (for fe15beta)
+dom                     100418:8f991bfecae8 -----:------------   mar             sync dom
