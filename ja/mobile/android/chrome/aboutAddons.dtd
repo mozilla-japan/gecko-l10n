@@ -9,4 +9,4 @@
 <!ENTITY addonAction.enable                     "有効化">
 <!ENTITY addonAction.disable                    "無効化">
 <!ENTITY addonAction.uninstall                  "削除">
-<!ENTITY addonAction.cancel                     "キャンセル">
+<!ENTITY addonAction.undo                       "@@Undo@@">
