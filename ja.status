@@ -270,7 +270,8 @@ browser                 98343:6926dd115351  -----:------------   hATrayflood    
 mobile                  98473:d6c338ecc273  -----:------------   knagato         sync mobile
 
 [l10n-mozilla-16.0] (for aurora)
-target dir              mozilla and comm hg changeset rev:id     by              comment
+target dir              mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
-suite                   -----:------------  11739:c5f625462e29   tooyama         sync suite
-calendar                -----:------------  11746:0ae2de397154   mar             sync calendar
+suite                   ------:------------  11739:c5f625462e29   tooyama         sync suite
+calendar                ------:------------  11746:0ae2de397154   mar             sync calendar
+mobile                  102421:4baf783709af  -----:------------   knagato         sync mobile

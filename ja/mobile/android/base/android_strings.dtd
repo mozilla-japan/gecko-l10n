@@ -54,6 +54,7 @@
 
 <!ENTITY close_tab "タブを閉じる">
 <!ENTITY new_tab "@@NewTab@@">
+<!ENTITY one_tab "1 個のタブ">
 <!-- Localization note (num_tabs) : Number of tabs is always more than one. 
      We can't use android plural forms, sadly. See bug #753859. -->
 <!ENTITY num_tabs "&#037;d 個のタブ">
@@ -86,24 +87,27 @@
 <!ENTITY pref_font_size_xlarge "最大">
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
 <!ENTITY pref_sync "Firefox Sync で同期">
+<!ENTITY pref_search_suggestions "検索語句の候補を表示">
 <!ENTITY pref_import_android "Android から@@Import-suru@@">
 <!ENTITY pref_private_data_history "閲覧とダウンロードの履歴">
 <!ENTITY pref_private_data_formdata "フォームと検索の履歴">
 <!ENTITY pref_private_data_cookies "Cookie">
+<!ENTITY pref_private_data_passwords "保存されたパスワード">
 <!ENTITY pref_private_data_cache "キャッシュ">
 <!ENTITY pref_private_data_sessions "現在のログイン情報">
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
 <!ENTITY pref_private_data_siteSettings "サイト設定">
-<!ENTITY pref_search_suggestions "検索語句の候補を表示">
 
 <!ENTITY quit "終了">
 
 <!ENTITY addons "アドオン">
 <!ENTITY downloads "ダウンロード">
+<!ENTITY apps "アプリ">
 <!ENTITY char_encoding "文字エンコーディング">
 
 <!ENTITY share "共有">
 <!ENTITY share_title "共有方法を選択">
+<!ENTITY share_image_failed "この画像を共有できません">
 <!ENTITY save_as_pdf "PDF として保存">
 <!ENTITY find_in_page "ページ内検索">
 <!ENTITY desktop_mode "PC サイトモード">
@@ -139,9 +143,10 @@
 <!ENTITY site_settings_clear        "消去">
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
 
-<!ENTITY add_to_reading_list "リーディングリストに追加">
+<!ENTITY reading_list "リーディングリスト">
 <!ENTITY reading_list_added "ページがリーディングリストに追加されました">
 <!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
+<!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
 <!ENTITY reader_mode "リーダーモード">
 
 <!ENTITY masterpassword_create_title "マスターパスワードを作成">
@@ -183,6 +188,9 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_run_by "このサイトの運営者:">
 
+<!ENTITY private_data_success "プライベートデータを消去しました">
+<!ENTITY private_data_fail "一部のプライベートデータが消去できませんでした">
+
 <!ENTITY bookmarkhistory_button_import "@@Import@@">
 <!ENTITY bookmarkhistory_import_both "Android からブックマークと履歴を
                                       @@Import-site@@います">
@@ -192,5 +200,4 @@ just addresses the organization to follow, e.g. "This site is run by " -->
                                          @@Import-site@@います">
 <!ENTITY bookmarkhistory_import_wait "しばらくお待ちください...">
 
-<!ENTITY private_data_success "プライバシー情報が消去されました">
-<!ENTITY private_data_fail "いくつかのプライバシー情報が消去されませんでした">
+<!ENTITY webapp_generic_name "アプリ">

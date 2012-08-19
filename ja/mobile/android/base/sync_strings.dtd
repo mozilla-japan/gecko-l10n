@@ -41,6 +41,8 @@
 <!ENTITY sync.button.tryagain.label 'もう一度試す'>
 <!ENTITY sync.button.manual.label '手動でセットアップする'>
 <!ENTITY sync.subtitle.nointernet.label 'インターネット接続が利用できません。'>
+<!ENTITY sync.subtitle.failaccount.label 'デバイス上でのアカウント作成に失敗しました。'>
+<!ENTITY sync.subtitle.failmultiple.label '複数の Firefox がインストールされていませんか？ 現在、 &syncBrand.fullName.label; は同時に一つだけの Firefox のインストールをサポートしています。&syncBrand.shortName.label; を使用するには、他の Firefox をアンインストールしてください。'>
   
 <!-- Setup Success -->
 <!ENTITY sync.title.success.label 'セットアップ完了'>
@@ -78,4 +80,15 @@
 <!ENTITY sync.notification.oneaccount.label '一つの &syncBrand.fullName.label; アカウントのみがサポートされています。'>
 
 <!-- Incorrect settings and changing credentials. -->
+<!ENTITY sync.invalidcreds.label 'アカウント名もしくはパスワードが間違っています。'>
+<!ENTITY sync.invalidserver.label '正しいサーバ URL を入力してください'>
+<!ENTITY sync.verifying.label '確認中...'>
 <!ENTITY sync.new.recoverykey.status.incorrect 'リカバリキーが正しくありません。再度試してください。'>
+
+<!-- Send tab to device. -->
+<!ENTITY sync.title.send.tab.label 'タブをデバイスに送信'>
+<!ENTITY sync.button.send.label '送信'>
+<!ENTITY sync.button.set.up.sync.label '&syncBrand.shortName.label; の設定'>
+<!ENTITY sync.title.redirect.to.set.up.sync.label 'タブ送信のための &syncBrand.shortName.label; の設定'>
+<!ENTITY sync.text.redirect.to.set.up.sync.label '他のデバイスにタブを送信するために、このデバイス上で &syncBrand.fullName.label; を設定する。'>
+<!ENTITY sync.text.tab.sent.label 'タブが送信されました！'>
