@@ -12,13 +12,14 @@ Firefox メモ。
 未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
 ◆16.0対応作業関連
+未訳:
+    dom/chrome/security/csp.properties
 
 ・suite
-suite以下は11739:c5f625462e29と同期済み
-以下は未
--dom/chrome
--mailnews
--toolkit/chrome
+suite以下は common のみ 11739:c5f625462e29と同期済み
+ → mailnews 未対応
+ → convert 時のエラー要修正
+
 
 ◆15.0対応作業関連
 

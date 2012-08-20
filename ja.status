@@ -268,10 +268,13 @@ toolkit                 98325:f770790a44cb  11337:c23fbddb47f4   mar            
 mobile                  98329:079ad5847a2e  -----:------------   knagato         sync mobile
 browser                 98343:6926dd115351  -----:------------   hATrayflood     sync browser
 mobile                  98473:d6c338ecc273  -----:------------   knagato         sync mobile
+mobile, toolkit        100371:5a85437b01b9  -----:------------   knagato         sync mobile (for fe15beta)
+dom                    100418:8f991bfecae8  -----:------------   mar             sync dom (late-l10n)
 
 [l10n-mozilla-16.0] (for aurora)
-target dir              mozilla and comm hg changeset rev:id      by              comment
+target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
-suite                   ------:------------  11739:c5f625462e29   tooyama         sync suite
-calendar                ------:------------  11746:0ae2de397154   mar             sync calendar
-mobile                  102421:4baf783709af  -----:------------   knagato         sync mobile
+suite                  ------:------------  11739:c5f625462e29   tooyama         sync suite
+calendar               ------:------------  11746:0ae2de397154   mar             sync calendar
+mobile                 102421:4baf783709af  -----:------------   knagato         sync mobile
+dom                    102425:95a9ef9dfc3d  11754:f002c6cc2214   mar             sync dom
