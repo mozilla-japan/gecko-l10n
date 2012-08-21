@@ -40,7 +40,7 @@
 # ***** END LICENSE BLOCK *****
 -->
 
-<!ENTITY  intro.label			"次のファイルを開こうとしています:">
+<!ENTITY  intro2.label			"次のファイルを開こうとしています:">
 <!ENTITY  from.label			"ファイルの場所:">
 <!ENTITY  actionQuestion.label		"このファイルをどのように処理するか選んでください">
 

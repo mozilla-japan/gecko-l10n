@@ -58,6 +58,8 @@
 <!ENTITY codeEval.accesskey	"o">
 <!ENTITY evaluate.label		"コードを評価">
 <!ENTITY evaluate.accesskey	"v">
+<!ENTITY filter.label		"検索">
+<!ENTITY filter.accesskey	"F">
 
 <!ENTITY copyCmd.label		"コピー">  
 <!ENTITY copyCmd.accesskey	"C"> 
