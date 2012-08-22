@@ -9,8 +9,8 @@
 
 <!ENTITY restorepage.tryagainButton	"タブを復元">
 <!ENTITY restorepage.restore.access	"R">
-<!ENTITY restorepage.cancelButton	"新しいセッションを開始する">
-<!ENTITY restorepage.cancel.access	"S">
+<!ENTITY restorepage.closeButton	"閉じる">
+<!ENTITY restorepage.close.access	"C">
 
 <!ENTITY restorepage.restoreHeader	"復元">
 <!ENTITY restorepage.listHeader		"@@Window@@とタブ">
