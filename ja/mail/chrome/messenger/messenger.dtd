@@ -581,7 +581,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label		"@@New-CMD@@タグ...">
 <!ENTITY addNewTag.accesskey		"N">
-
+<!ENTITY manageTags.label		"タグを管理...">
+<!ENTITY manageTags.accesskey		"M">
 <!-- Folder Pane -->
 <!ENTITY folderColumn.label		"名前">
 <!ENTITY folderSizeColumn.label		"サイズ">

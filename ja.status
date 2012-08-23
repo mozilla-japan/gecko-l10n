@@ -281,3 +281,4 @@ dom                    102425:95a9ef9dfc3d  11754:f002c6cc2214   mar            
 security               102438:08d03be346d4  -----:------------   hATrayflood     sync security
 toolkit                102438:08d03be346d4  -----:------------   hATrayflood     sync toolkit
 browser                102438:08d03be346d4  -----:------------   hATrayflood     sync browser (exclude devtools)
+mail                   ------:------------  11763:5bfe2d757514   mar             sync mail
