@@ -58,16 +58,16 @@
 <!ENTITY codeEval.accesskey	"o">
 <!ENTITY evaluate.label		"コードを評価">
 <!ENTITY evaluate.accesskey	"v">
-<!ENTITY filter.label		"検索">
+<!ENTITY filter.label		"絞り込み">
 <!ENTITY filter.accesskey	"F">
 
-<!ENTITY copyCmd.label		"コピー">  
-<!ENTITY copyCmd.accesskey	"C"> 
-<!ENTITY copyCmd.commandkey	"C"> 
+<!ENTITY copyCmd.label		"コピー">
+<!ENTITY copyCmd.accesskey	"C">
+<!ENTITY copyCmd.commandkey	"C">
 <!ENTITY sortFirst.label	"最初 &gt; 最後の順に並べる">
 <!ENTITY sortFirst.accesskey	"f">
 <!ENTITY sortLast.label		"最後 &gt; 最初の順に並べる">
 <!ENTITY sortLast.accesskey	"l">
-<!ENTITY closeCmd.commandkey	"w">  
-<!ENTITY focus1.commandkey	"l">  
-<!ENTITY focus2.commandkey	"d">  
+<!ENTITY closeCmd.commandkey	"w">
+<!ENTITY focus1.commandkey	"l">
+<!ENTITY focus2.commandkey	"d">
