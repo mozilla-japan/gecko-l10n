@@ -282,3 +282,4 @@ security               102438:08d03be346d4  -----:------------   hATrayflood    
 toolkit                102438:08d03be346d4  -----:------------   hATrayflood     sync toolkit
 browser                102438:08d03be346d4  -----:------------   hATrayflood     sync browser (exclude devtools)
 mail                   ------:------------  11763:5bfe2d757514   mar             sync mail
+browser/devtools       102438:08d03be346d4  -----:------------   hATrayflood     sync browser/devtools
