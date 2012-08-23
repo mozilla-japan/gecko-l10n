@@ -98,7 +98,7 @@
 <!ENTITY Home.tab			"プライベート">
 <!ENTITY Home.accesskey			"P">
 <!ENTITY HomeAddress.label		"番地:">
-<!ENTITY HomeAddress.accesskey		"A">
+<!ENTITY HomeAddress.accesskey		"d">
 <!ENTITY HomeAddress2.label		"">
 <!ENTITY HomeAddress2.accesskey		"">
 <!ENTITY HomeCity.label			"市区町村:">
@@ -128,7 +128,7 @@
 <!ENTITY Company.label			"組織:">
 <!ENTITY Company.accesskey		"n">
 <!ENTITY WorkAddress.label		"番地:">
-<!ENTITY WorkAddress.accesskey		"A">
+<!ENTITY WorkAddress.accesskey		"d">
 <!ENTITY WorkAddress2.label		"">
 <!ENTITY WorkAddress2.accesskey		"">
 <!ENTITY WorkCity.label			"市区町村:">

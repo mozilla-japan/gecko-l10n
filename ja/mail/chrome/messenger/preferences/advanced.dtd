@@ -11,6 +11,13 @@
 <!ENTITY telemetryInfoLink.label		"送信される情報についての詳細">
 <!ENTITY enableGlodaSearch.label		"グローバル検索と索引データベースを有効にする"><!-- (^^; Enable Global Search and Indexer -->
 <!ENTITY enableGlodaSearch.accesskey		"E">
+
+<!ENTITY scrolling.label			"スクロール">
+<!ENTITY useAutoScroll.label			"自動スクロール機能を使用する">
+<!ENTITY useAutoScroll.accesskey		"U">
+<!ENTITY useSmoothScrolling.label		"スムーズスクロール機能を使用する">
+<!ENTITY useSmoothScrolling.accesskey		"m">
+
 <!ENTITY systemIntegration.label		"システム統合">
 <!ENTITY alwaysCheckDefault.label		"起動時に &brandShortName; が@@DefaultClient@@として設定されているか確認する">
 <!ENTITY alwaysCheckDefault.accesskey		"A">
@@ -81,9 +88,9 @@
 <!ENTITY showOffline.accesskey			"O">
 
 <!ENTITY Diskspace				"ディスク領域">
-<!ENTITY offlineCompact.label			"ディスク領域を"><!-- (^^; offlineCompact.label [ ] mb.label -->
-<!ENTITY offlineCompact.accesskey		"a">
-<!ENTITY mb.label				"MB 以上節約できるときはフォルダを最適化する">
+<!ENTITY offlineCompactFolders.label		"ディスク領域を合計"><!-- offlineCompactFolders.label [ ] offlineCompactFoldersMB.label -->
+<!ENTITY offlineCompactFolders.accesskey	"a">
+<!ENTITY offlineCompactFoldersMB.label		"MB 以上節約できるときはフォルダを最適化する">
 
 <!-- LOCALIZATION NOTE:
   The entities useCacheBefore.label and useCacheAfter.label appear on a single
