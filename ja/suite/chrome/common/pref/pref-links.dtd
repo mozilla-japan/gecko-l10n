@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY linksHeader.label "リンクの動作">
 <!ENTITY newWindow.label "リンクを開くときの動作">
 <!ENTITY newWindowDescription.label "本来は@@NewWindow@@で開くリンクを:">

@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY tab.cookiesonsystem.label "保存済み Cookie">
 <!ENTITY tab.bannedservers.label "サイトの Cookie の設定">
 <!ENTITY div.bannedservers.label "Cookie を受け入れる、または捨てるサイトの管理。">

@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY migrationWizard.title          "設定移行@@Wizard@@">
 
 <!ENTITY importAllFrom.label            "オプション、ブックマーク、履歴、パスワードその他のデータを@@Import-suru@@対象を選んでください:">
