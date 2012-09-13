@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- (^^; 用語の関係などから対訳は無視 -->
 <!ENTITY window.title	"迷惑メールフィルタについて">
 <!ENTITY window.width	"600"><!-- en-US: 450 -->
