@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY securityTitle.label		"セキュリティ">
 <!ENTITY securityTab.label		"セキュリティ">
 <!ENTITY securityHeading.label		"署名や暗号化されたメッセージを送受信するには、デジタル署名証明書と暗号化証明書の両方を指定する必要があります。">

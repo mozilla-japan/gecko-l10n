@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- (^^; en-US の UI 画面自体がイマイチな気がするし、訳しにくすぎ...(>_<) -->
 <!ENTITY doNotDownloadPop3Movemail.label	"次のメッセージはダウンロードしない:">
 <!ENTITY doNotDownloadNntp.label		"次のメッセージはオフライン表示用にダウンロードしない:">
