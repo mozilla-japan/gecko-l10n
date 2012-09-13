@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY junkSettings.label "迷惑メールフィルタの設定">
 <!ENTITY trainingDescription.label "この設定を有効にした場合は、迷惑メール判別を正しく識別するために &brandShortName; を訓練しなければなりません。迷惑メールは @@[@@迷惑メール@@]@@ ツールバーボタンを使用して学習させます。迷惑メールか迷惑メールでないかを両方学習させる必要があります。これを &brandShortName; が学習すれば、自動的に迷惑メールにマークを付けられるようになります。">
 

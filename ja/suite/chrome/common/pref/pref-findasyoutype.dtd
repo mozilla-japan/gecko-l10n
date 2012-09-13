@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY pref.findAsYouType.title "タイプ検索 (Find As You Type)">
 <!ENTITY findAsYouTypeBehavior.label "タイプ検索">
 <!ENTITY findAsYouTypeTip.label "豆知識: / キーを押すとタイプ検索を開始できます。リンクだけを対象に検索するには ' キーを押してください。">

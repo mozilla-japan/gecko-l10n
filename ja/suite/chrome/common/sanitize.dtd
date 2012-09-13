@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY sanitizeDialog.title            "プライバシー情報の消去">
 <!ENTITY sanitizeItems.label             "今すぐ消去する項目を選択してください:">
 
