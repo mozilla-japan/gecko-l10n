@@ -47,5 +47,5 @@
 <!ENTITY screenXCoord.label	"screen x">
 <!ENTITY screenYCoord.label	"screen y">
 
-<!ENTITY dimensionWidth.label	"box width">
-<!ENTITY dimensionHeight.label	"box height">
+<!ENTITY dimensionWidth.label	"box 幅">
+<!ENTITY dimensionHeight.label	"box 高さ">

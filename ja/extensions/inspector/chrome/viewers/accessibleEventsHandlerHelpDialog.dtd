@@ -1,5 +1,4 @@
 <!-- ***** BEGIN LICENSE BLOCK *****
-#if 0
    - Version: MPL 1.1/GPL 2.0/LGPL 2.1
    -
    - The contents of this file are subject to the Mozilla Public License Version
@@ -15,12 +14,12 @@
    - The Original Code is DOM Inspector.
    -
    - The Initial Developer of the Original Code is
-   - Netscape Communications Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2003
+   - Mozilla Foundation.
+   - Portions created by the Initial Developer are Copyright (C) 2010
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Shawn Wilsher <me@shawnwilsher.com>
+   -   Alexander Surkov <surkov.alexander@gmail.com> (original author)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -34,33 +33,19 @@
    - the provisions above, a recipient may use your version of this file under
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
-#endif
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY nodeName.label		"ノード名:">
-<!ENTITY localName.label	"ローカル名:">
-<!ENTITY namespaceURI.label	"名前空間 URI:">
-<!ENTITY nodeType.label		"ノードの型:"><!-- (^^; 数値で表示されちゃうバグが... -->
-<!ENTITY nodeValue.label	"ノードの値:">
-<!ENTITY grpAttr.label		"属性">
+  <!ENTITY helpDialog.title "ハンドラのヘルプダイアログ">
 
-<!ENTITY namespaceTitle.null.label	"null">
-<!ENTITY namespaceTitle.default.label	"ドキュメントの@@Default@@ URI">
-<!ENTITY namespaceTitle.custom.label	"ユーザ設定">
+  <!ENTITY general.descr "アクセシビリティのイベントハンドラを書いて取り付けてください。イベントが発生した場合、イベントリストから選択して、リンクされた Accessible イベントビューアでハンドラの評価結果を知ることができます。">
+  <!ENTITY helpers.descr "次のオブジェクトと関数はハンドラエディタ内で使用できます:">
 
-<!-- LOCALIZATION NOTE: The following entities are names of W3C specifications.
-                        Please consult http://www.w3.org/Consortium/Translation/
-                        for appropriate translation or leave unchanged. -->
-<!ENTITY namespaceTitle.XMLNS.label	"XMLNS">
-<!ENTITY namespaceTitle.XML.label	"XML">
-<!ENTITY namespaceTitle.XHTML.label	"XHTML">
-<!ENTITY namespaceTitle.XLink.label	"XLink">
-<!ENTITY namespaceTitle.XSLT.label	"XSLT">
-<!ENTITY namespaceTitle.XBL.label	"XBL">
-<!ENTITY namespaceTitle.MathML.label	"MathML">
-<!ENTITY namespaceTitle.RDF.label	"RDF">
-<!ENTITY namespaceTitle.XUL.label	"XUL">
-<!ENTITY namespaceTitle.SVG.label	"SVG">
-<!ENTITY namespaceTitle.XMLEvents.label	"XML Events">
-<!ENTITY namespaceTitle.WAIRoles.label	"WAI Roles">
-<!ENTITY namespaceTitle.WAIProperties.label	"WAI Properties">
+  <!ENTITY event.descr "アクセシビリティのイベントオブジェクト">
+  <!ENTITY target.descr "アクセシビリティの対象オブジェクト">
+  <!ENTITY accRetrieval.descr "nsIAccessibleRetrieval アクセシビリティサービス">
+  <!ENTITY output.descr "与えられた文字列を出力">
+  <!ENTITY outputAttrs.descr "与えられた accessible オブジェクトのオブジェクト属性を出力">
+  <!ENTITY outputRole.descr "与えられた accessible オブジェクトの役割を出力">
+  <!ENTITY outputStates.descr "与えられた accessible オブジェクトの状態を出力">
+  <!ENTITY outputTree.descr "与えられた accessible オブジェクトのツリーを出力し、与えられた配列からの accessible を強調表示">
+  <!ENTITY outputDOMAttrs.descr "与えられた accessible オブジェクトの DOM 属性を出力">
