@@ -36,8 +36,11 @@
 
 <!ENTITY window.title       "チャンネルに参加">
 
-<!ENTITY qsearch.label      "クイック検索:">
-<!ENTITY qsearch.accesskey  "S">
+<!ENTITY network.label     "ネットワーク:">
+<!ENTITY network.accesskey "N">
+
+<!ENTITY channel.label     "チャンネル:">
+<!ENTITY channel.accesskey "C">
 
 <!ENTITY topics.label       "チャンネル名だけでなくトピックも検索">
 <!ENTITY topics.accesskey   "t">
@@ -46,14 +49,16 @@
 <!ENTITY join.accesskey     "J">
 
 <!ENTITY minusers.label     "最少ユーザ数:">
-<!ENTITY minusers.accesskey "n">
+<!ENTITY minusers.accesskey "M">
 
 <!ENTITY maxusers.label     "最多ユーザ数:">
 <!ENTITY maxusers.accesskey "x">
 
 <!ENTITY refresh.label      "今すぐ更新">
 <!ENTITY refresh.accesskey  "">
+<!ENTITY network.hint.label "ネットワーク名またはサーバ名 (ポート番号も含む) と参加するチャンネルを入力してください。">
 
+<!ENTITY col.network        "ネットワーク">
 <!ENTITY col.name           "名前">
 <!ENTITY col.users          "人数">
 <!ENTITY col.topic          "トピック">
