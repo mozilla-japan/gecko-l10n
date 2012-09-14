@@ -35,11 +35,21 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
+<!ENTITY eventList.label "イベントリスト">
+<!ENTITY watchedEvents.label "監視中のイベント">
+<!ENTITY handledEvents.label "処理中のイベント:">
 <!ENTITY eventType.label "イベントの種類">
 <!ENTITY eventTime.label "時刻">
-<!ENTITY eventNodeName.label "ノード名">
-<!ENTITY isWatched.label "監視中か">
+<!ENTITY eventTargetNodeName.label "ノード名">
+<!ENTITY eventTargetNodeID.label "ID">
+<!ENTITY eventTargetRole.label "役割">
+<!ENTITY eventTargetName.label "名前">
+<!ENTITY isWatched.label "監視中">
+<!ENTITY isHandlerEnabled.label "ハンドラ有効">
 <!ENTITY clearEventList.label "イベントリストを@@Clear@@">
 <!ENTITY chooseEventsToWatch.label "監視するイベントを選択">
-<!ENTITY selectAll.label "@@SelectAll@@">
-<!ENTITY unselectAll.label "すべての選択を解除">
+<!ENTITY watchAll.label "すべて監視">
+<!ENTITY watchNone.label "監視を解除">
+<!ENTITY editHandler.label "ハンドラを編集">
+<!ENTITY contextHelp.label "?">
+<!ENTITY handlerEditorNoEvent.label "ハンドラを追加するイベントの種類を選んでください。">

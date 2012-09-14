@@ -43,3 +43,5 @@
 <!ENTITY descIsInserted.label "テキストの挿入か: ">
 <!ENTITY descModifiedText.label "変更されたテキスト: ">
 <!ENTITY descCaretOffset.label "キャレットのオフセット位置: ">
+
+<!ENTITY descrHandlerOutput.label "イベントハンドラの出力: ">
