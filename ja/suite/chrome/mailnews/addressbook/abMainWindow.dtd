@@ -48,10 +48,12 @@
 <!-- View Menu -->
 <!ENTITY showAbToolbarCmd.label                         "アドレス帳ツールバー">
 <!ENTITY showAbToolbarCmd.accesskey                     "o">
-
-<!ENTITY showCardPane.label                             "連絡先要約ペイン">
-<!ENTITY showCardPane.accesskey                         "C">
-
+<!ENTITY layoutMenu.label                               "レイアウト">
+<!ENTITY layoutMenu.accesskey                           "L">
+<!ENTITY showDirectoryPane.label                        "アドレス帳ペイン">
+<!ENTITY showDirectoryPane.accesskey                    "D">
+<!ENTITY showContactPane2.label                         "連絡先ペイン">
+<!ENTITY showContactPane2.accesskey                     "C">
 <!ENTITY menu_ShowNameAs.label                          "名前の表示">
 <!ENTITY menu_ShowNameAs.accesskey                      "n">
 <!ENTITY firstLastCmd.label                             "名前 姓">
@@ -96,6 +98,20 @@
 
 <!-- Dir Tree header -->
 <!ENTITY dirTreeHeader.label                            "アドレス帳">
+
+<!-- Card Summary Pane -->
+<!-- Box Headings -->
+<!ENTITY contact.heading                                "連絡先">
+<!ENTITY home.heading                                   "自宅">
+<!ENTITY other.heading                                  "その他">
+<!ENTITY phone.heading                                  "電話番号">
+<!ENTITY work.heading                                   "勤務先">
+<!-- Special Box Headings, for mailing lists -->
+<!ENTITY description.heading                            "説明">
+<!ENTITY addresses.heading                              "メールアドレス">
+<!-- For Map It! -->
+<!ENTITY mapItButton.label                              "地図">
+<!ENTITY mapIt.tooltip                                  "Web でこの場所の地図を表示します">
 
 <!-- Status Bar -->  
 <!ENTITY statusText.label                               "">

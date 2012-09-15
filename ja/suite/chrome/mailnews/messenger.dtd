@@ -540,6 +540,7 @@
 <!ENTITY removePhishingBarButton.label    "詐欺メールではありません">
 
 <!-- MDN Bar -->
-<!ENTITY mdnBarMessage.label              "送信者はこのメッセージの開封確認を送付するように求めています。送信者に開封確認を送付してもよろしいですか？">
 <!ENTITY mdnBarIgnoreButton.label         "無視する">
+<!ENTITY mdnBarIgnoreButton.accesskey     "I">
 <!ENTITY mdnBarSendButton.label           "開封確認を送付する">
+<!ENTITY mdnBarSendButton.accesskey       "S">

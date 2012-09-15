@@ -286,3 +286,4 @@ browser/devtools       102438:08d03be346d4  -----:------------   hATrayflood    
 inspector              ------:------------  -----:------------   mar             sync inspector for 2.0.13
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.88
 venkman                ------:------------  -----:------------   mar             sync venkman for Venkman 0.9.88
+suite                  ------:------------  13004:f5417d9241fe   mar             re-sync suite (comm-beta)

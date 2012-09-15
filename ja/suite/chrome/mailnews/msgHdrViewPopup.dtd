@@ -5,6 +5,10 @@
 <!-- Message Header View Popup -->
 <!ENTITY AddToAddressBook.label            "アドレス帳に追加...">
 <!ENTITY AddToAddressBook.accesskey        "B">
+<!ENTITY EditContact.label                 "連絡先を編集...">
+<!ENTITY EditContact.accesskey             "E">
+<!ENTITY ViewContact.label                 "連絡先を表示">
+<!ENTITY ViewContact.accesskey             "V">
 <!ENTITY SendMailTo.label                  "メッセージを作成...">
 <!ENTITY SendMailTo.accesskey              "s">
 <!ENTITY CopyEmailAddress.label            "メールアドレスをコピー">
