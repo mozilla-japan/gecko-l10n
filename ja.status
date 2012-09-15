@@ -255,7 +255,7 @@ browser                 94387:7f3c5dd8e78f  -----:------------   hATrayflood    
 suite                   -----:6ff18e684b3e  10904:648090f7ec78   tooyama         sync suite
 dom                     98042:fcf10dd798a1  -----:------------   mar             sync dom (late-l10n)
 
-[l10n-mozilla-15.0] (for beta)
+Released! [l10n-mozilla-15.0]
 target dir              mozilla and comm hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 suite                   -----:------------  11300:4517e86cbcf6   tooyama         sync suite
@@ -271,7 +271,7 @@ mobile                  98473:d6c338ecc273  -----:------------   knagato        
 mobile, toolkit        100371:5a85437b01b9  -----:------------   knagato         sync mobile (for fe15beta)
 dom                    100418:8f991bfecae8  -----:------------   mar             sync dom (late-l10n)
 
-[l10n-mozilla-16.0] (for aurora)
+[l10n-mozilla-16.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 suite                  ------:------------  11739:c5f625462e29   tooyama         sync suite
@@ -287,3 +287,7 @@ inspector              ------:------------  -----:------------   mar            
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.88
 venkman                ------:------------  -----:------------   mar             sync venkman for Venkman 0.9.88
 suite                  ------:------------  13004:f5417d9241fe   mar             re-sync suite (comm-beta)
+
+[l10n-mozilla-17.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
