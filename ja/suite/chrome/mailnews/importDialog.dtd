@@ -1,0 +1,42 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY importDialog.windowTitle "設定とデータの@@ImportNoun@@">
+<!ENTITY importAll.label          "すべて@@Import@@">
+<!ENTITY importAll.accesskey      "E">
+<!ENTITY importMail.label         "メール">
+<!ENTITY importMail.accesskey     "M">
+<!ENTITY importFeeds.label        "購読フィード">
+<!ENTITY importFeeds.accesskey    "d">
+<!ENTITY importAddressbook.label  "アドレス帳">
+<!ENTITY importAddressbook.accesskey "A">
+<!ENTITY importSettings.label     "設定">
+<!ENTITY importSettings.accesskey "S">
+<!ENTITY importFilters.label      "フィルタ(ルール)">
+<!ENTITY importFilters.accesskey  "F">
+
+<!ENTITY  window.width            "51em"><!-- en-US: 40em -->
+<!ENTITY  window.macWidth         "45em"><!-- en-US: 45em -->
+
+<!ENTITY importTitle.label        "&brandShortName; @@ImportNoun@@@@Wizard@@">
+<!ENTITY importShortDesc.label    "他のソフトからメール、アドレス帳、設定やフィルタを@@Import-simasu@@">
+
+<!ENTITY importDescription1.label "他のメールソフトや一般的な形式のアドレス帳からメッセージ、アドレス帳、購読フィード、設定、フィルタなどを@@Import-simasu@@。">
+<!ENTITY importDescription2.label "@@ImportNoun@@後は &brandShortName; のメールやアドレス帳からアクセスできるようになります。">
+
+<!ENTITY selectDescription.label  "@@ImportNoun@@元のファイルタイプを選択してください:">
+<!ENTITY selectDescriptionB.label "既存のアカウントを選択するか、新しいアカウントを作成してください:">
+<!ENTITY selectDescription.accesskey "P">
+<!ENTITY acctName.label           "アカウント名:">
+<!ENTITY acctName.accesskey       "N">
+
+<!ENTITY back.label               "&lt; 戻る">
+<!ENTITY forward.label            "@@NextButton@@ &gt;">
+<!ENTITY finish.label             "完了">
+<!ENTITY cancel.label             "キャンセル">
+
+<!ENTITY select.label             "@@Import-suru@@項目を選択してください:">
+
+<!ENTITY title.label              "タイトル">
+<!ENTITY processing.label         "@@Import-site@@います...">

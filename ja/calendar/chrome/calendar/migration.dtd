@@ -1,0 +1,9 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY migration.title "&brandFullName;: データの@@ImportNoun@@">
+<!ENTITY migration.welcome "データの@@ImportNoun@@の開始">
+<!ENTITY migration.importing "@@ImportNoun@@">
+<!ENTITY migration.list.description "&brandShortName; は他の@@Application@@からデータを@@ImportNoun@@できます。以下の@@Application@@のデータが見つかりました。どのデータを@@Import-suru@@か選択してください。">
+<!ENTITY migration.progress.description "選択したデータの@@ImportNoun@@">

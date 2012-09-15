@@ -1,0 +1,121 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Title -->
+<!ENTITY addressbookWindow.title                        "アドレス帳">
+
+<!-- Menus:  the . means that the menu item isn't implemented yet -->
+
+<!-- File Menu -->
+<!ENTITY newContact.label                               "連絡先...">
+
+<!-- LOCALIZATION NOTE (newContact.accesskey) : DONT_TRANSLATE -->
+<!ENTITY newContact.accesskey                           "C">
+<!ENTITY newListCmd.label                               "アドレスリスト..."><!-- (^^; Mailing List -->
+<!-- LOCALIZATION NOTE (newListCmd.accesskey) : DONT_TRANSLATE -->
+<!ENTITY newListCmd.accesskey                           "L">
+<!ENTITY newAddressBookCmd.label                        "アドレス帳..."> 
+<!ENTITY newAddressBookCmd.accesskey                    "o">
+<!ENTITY newLDAPDirectoryCmd.label                      "LDAP ディレクトリ...">
+<!-- LOCALIZATION NOTE (newLDAPDirectoryCmd.accesskey) : DONT_TRANSLATE -->
+<!ENTITY newLDAPDirectoryCmd.accesskey                  "D">
+<!ENTITY newIM.label                                    "インスタントメッセージ">
+<!ENTITY printContactViewCmd.label                      "連絡先を@@Print@@...">
+<!ENTITY printContactViewCmd.accesskey                  "p">
+<!ENTITY printPreviewContactViewCmd.label               "連絡先の@@Print@@プレビュー">
+<!ENTITY printPreviewContactViewCmd.accesskey           "v">
+<!ENTITY printContactViewCmd.key                        "P">
+<!ENTITY printAddressBook.label                         "アドレス帳を@@Print@@..."> 
+<!ENTITY printAddressBook.accesskey                     "A">
+<!ENTITY printPreviewAddressBook.label                  "アドレス帳の@@Print@@プレビュー">
+<!ENTITY printPreviewAddressBook.accesskey              "B">
+
+<!-- Edit Menu -->
+<!ENTITY deleteAbCmd.label                              "アドレス帳を削除">
+<!ENTITY deleteContactCmd.label                         "連絡先を削除">
+<!ENTITY deleteContactsCmd.label                        "選択した連絡先を削除">
+<!ENTITY deleteListCmd.label                            "リストを削除">
+<!ENTITY deleteListsCmd.label                           "選択したリストを削除">
+<!ENTITY deleteItemsCmd.label                           "選択したアイテムを削除">
+<!ENTITY swapFirstNameLastNameCmd.label                 "姓と名を入れ換える">
+<!ENTITY swapFirstNameLastNameCmd.accesskey             "w">
+<!ENTITY propertiesCmd.label                            "@@PropertyCMD@@...">
+<!-- LOCALIZATION NOTE (propertiesCmd.accesskey) : DONT_TRANSLATE -->
+<!ENTITY propertiesCmd.accesskey                        "i">
+<!ENTITY propertiesCmd.key                              "i">
+
+<!-- View Menu -->
+<!ENTITY showAbToolbarCmd.label                         "アドレス帳ツールバー">
+<!ENTITY showAbToolbarCmd.accesskey                     "o">
+<!ENTITY layoutMenu.label                               "レイアウト">
+<!ENTITY layoutMenu.accesskey                           "L">
+<!ENTITY showDirectoryPane.label                        "アドレス帳ペイン">
+<!ENTITY showDirectoryPane.accesskey                    "D">
+<!ENTITY showContactPane2.label                         "連絡先ペイン">
+<!ENTITY showContactPane2.accesskey                     "C">
+<!ENTITY menu_ShowNameAs.label                          "名前の表示">
+<!ENTITY menu_ShowNameAs.accesskey                      "n">
+<!ENTITY firstLastCmd.label                             "名前 姓">
+<!ENTITY firstLastCmd.accesskey                         "f">
+<!ENTITY lastFirstCmd.label                             "姓 名前">
+<!ENTITY lastFirstCmd.accesskey                         "l">
+<!ENTITY displayNameCmd.label                           "表示名">
+<!ENTITY displayNameCmd.accesskey                       "d">
+
+<!-- Tasks Menu -->
+<!ENTITY importCmd.label                                "@@Import@@...">
+<!ENTITY importCmd.accesskey                            "I">
+<!ENTITY exportCmd.label                                "@@Export@@...">
+<!ENTITY exportCmd.accesskey                            "E">
+
+<!-- Toolbar and Popup items -->  
+<!ENTITY newContactButton.label                         "@@New-CMD@@連絡先">
+<!ENTITY newContactButton.accesskey                     "C">
+<!ENTITY newlistButton.label                            "@@New-CMD@@リスト">
+<!ENTITY newlistButton.accesskey                        "L">
+<!ENTITY editItemButton.label                           "@@PropertyCMD@@">
+<!ENTITY editItemButton.accesskey                       "P">
+<!ENTITY newmsgButton.label                             "メッセージ作成">
+<!ENTITY newmsgButton.accesskey                         "C">
+<!ENTITY deleteItemButton.label                         "削除">
+<!ENTITY deleteItemButton.accesskey                     "D">
+<!ENTITY newimButton.label                              "インスタントメッセージ">
+<!ENTITY newimButton.accesskey                          "I">
+<!ENTITY searchNameAndEmail.placeholder                 "名前またはメールアドレスを検索">
+<!ENTITY searchBox.title                                "検索">
+
+<!-- Tooltips -->
+<!ENTITY addressbookToolbar.tooltip                     "アドレス帳ツールバー">
+<!ENTITY newContactButton.tooltip                       "新しい連絡先を作成します">
+<!ENTITY newlistButton.tooltip                          "新しいリストを作成します">
+<!ENTITY editItemButton.tooltip                         "選択した連絡先を編集します">
+<!ENTITY newmsgButton.tooltip                           "メールを送信します"> 
+<!ENTITY newIM.tooltip                                  "インスタントメッセージを送信またはチャットをします">
+<!ENTITY deleteItemButton.tooltip                       "選択した連絡先またはアドレス帳を削除します">
+<!ENTITY throbber.tooltip                               "&vendorShortName; ホームページを表示します">
+<!ENTITY advancedButton.tooltip                         "アドレスを検索します">
+
+<!-- Dir Tree header -->
+<!ENTITY dirTreeHeader.label                            "アドレス帳">
+
+<!-- Card Summary Pane -->
+<!-- Box Headings -->
+<!ENTITY contact.heading                                "連絡先">
+<!ENTITY home.heading                                   "自宅">
+<!ENTITY other.heading                                  "その他">
+<!ENTITY phone.heading                                  "電話番号">
+<!ENTITY work.heading                                   "勤務先">
+<!-- Special Box Headings, for mailing lists -->
+<!ENTITY description.heading                            "説明">
+<!ENTITY addresses.heading                              "メールアドレス">
+<!-- For Map It! -->
+<!ENTITY mapItButton.label                              "地図">
+<!ENTITY mapIt.tooltip                                  "Web でこの場所の地図を表示します">
+
+<!-- Status Bar -->  
+<!ENTITY statusText.label                               "">
+
+<!-- LOCALIZATION NOTE (hideSwapFnLnUI) : DONT_TRANSLATE -->
+<!-- Swap FN/LN UI  Set to "false" to show swap fn/ln UI -->
+<!ENTITY  hideSwapFnLnUI                                "false">

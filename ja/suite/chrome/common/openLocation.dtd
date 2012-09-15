@@ -1,0 +1,21 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- extracted from content/openLocation.xul -->
+
+<!ENTITY enter.label "開く Web ページ (URL), またはローカルファイルを指定してください:">
+<!-- LOCALIZATION NOTE (enter.accesskey): should be present in both enter.label
+     as defined above and attachEnterLabel as defined in
+     openLocation.properties -->
+<!ENTITY enter.accesskey "E">
+<!ENTITY chooseFile.label "ファイルを選択...">
+<!ENTITY chooseFile.accesskey "C">
+<!ENTITY newWindow.label "@@New-CMD@@ブラウザ@@Window@@">
+<!ENTITY newTab.label "@@New-CMD@@ブラウザのタブ">
+<!ENTITY currentTab.label "現在のブラウザのタブ">
+<!ENTITY editNewWindow.label "新しい Composer @@Window@@">
+<!ENTITY open.label "開く">
+<!ENTITY caption.label "Web ページを開く">
+<!ENTITY openWhere.label "次の場所に開く:">
+<!ENTITY openWhere.accesskey "O">
