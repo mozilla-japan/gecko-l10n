@@ -2,8 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY junkLog.title "迷惑メールログ">
-<!ENTITY junkLogInfo.label "迷惑メールフィルタの動作を記録したログ。">
+<!ENTITY adaptiveJunkLog.title "迷惑メールログ"><!-- en-US: "Adaptive Junk Mail Log" -->
+<!ENTITY adaptiveJunkLogInfo.label "迷惑メール適応フィルタの動作を記録したログです。">
 <!ENTITY clearLog.label "ログを@@Clear@@">
 <!ENTITY clearLog.accesskey "C">
 <!ENTITY closeLog.label "閉じる">

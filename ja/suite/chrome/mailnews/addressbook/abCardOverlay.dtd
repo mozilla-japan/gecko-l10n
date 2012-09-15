@@ -31,6 +31,8 @@
 <!ENTITY PhoneticField2.label           "よみがな:">
 <!ENTITY DisplayName.label              "表示名:">
 <!ENTITY DisplayName.accesskey          "D">
+<!ENTITY preferDisplayName.label        "メッセージヘッダでは常に表示名を優先する">
+<!ENTITY preferDisplayName.accesskey    "A">
 <!ENTITY NickName.label                 "ニックネーム:">
 <!ENTITY NickName.accesskey             "N">
 
@@ -64,7 +66,7 @@
 <!ENTITY Home.tab                       "自宅">
 <!ENTITY Home.accesskey                 "P">
 <!ENTITY HomeAddress.label              "番地:">
-<!ENTITY HomeAddress.accesskey          "A">
+<!ENTITY HomeAddress.accesskey          "d">
 <!ENTITY HomeAddress2.label             "">
 <!ENTITY HomeAddress2.accesskey         "">
 <!ENTITY HomeCity.label                 "市区町村:">
@@ -94,7 +96,7 @@
 <!ENTITY Company.label                  "組織:">
 <!ENTITY Company.accesskey              "n">
 <!ENTITY WorkAddress.label              "番地:">
-<!ENTITY WorkAddress.accesskey          "A">
+<!ENTITY WorkAddress.accesskey          "d">
 <!ENTITY WorkAddress2.label             "">
 <!ENTITY WorkAddress2.accesskey         "">
 <!ENTITY WorkCity.label                 "市区町村:">

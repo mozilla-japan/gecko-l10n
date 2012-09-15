@@ -33,6 +33,6 @@
 <!ENTITY mailnewsTimeout.accesskey        "m">
 <!ENTITY mailnewsTimeoutSeconds.label     "秒">
 <!ENTITY Diskspace                        "ディスク領域">
-<!ENTITY offlineCompact.label             "ディスク領域を"><!-- en-US: "Compact folders when it will save over" -->
-<!ENTITY offlineCompact.accesskey         "C">
-<!ENTITY mb.label                         "MB 以上節約できる場合は最適化する"><!-- en-US: "MB" -->
+<!ENTITY offlineCompactFolders.label      "ディスク領域を合計"><!-- offlineCompactFolders.label [ ] offlineCompactFoldersMB.label -->
+<!ENTITY offlineCompactFolders.accesskey  "C">
+<!ENTITY offlineCompactFoldersMB.label    "MB 以上節約できるときはフォルダを最適化する">

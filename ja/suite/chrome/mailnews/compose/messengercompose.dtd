@@ -83,6 +83,9 @@
 
 <!ENTITY returnReceiptMenu.label "開封確認の返送を求める">
 <!ENTITY returnReceiptMenu.accesskey "t">
+<!ENTITY dsnMenu.label "配信状態通知の返送を求める">
+<!ENTITY dsnMenu.accesskey "N">
+
 <!ENTITY outputFormatMenu.label "送信形式">
 <!ENTITY outputFormatMenu.accesskey  "f">
 <!ENTITY autoFormatCmd.label "自動判別">
