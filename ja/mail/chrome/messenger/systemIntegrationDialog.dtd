@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY systemIntegration.title	"システム統合">
+<!ENTITY defaultClient.intro		"&brandShortName; を次の@@DefaultClient@@として使用する:">
+
+<!ENTITY email.label			"メール">
+<!ENTITY newsgroups.label		"ニュース">
+<!ENTITY feeds.label			"フィード">
+
+<!ENTITY checkOnStartup.label		"起動時に &brandShortName; が@@DefaultClient@@として設定されているか確認する">
+<!ENTITY checkOnStartup.accesskey	"A">
+
+<!ENTITY searchIntegration.label	"&searchIntegration.engineName; によるメッセージの検索を許可する">
+<!ENTITY searchIntegration.accesskey	"S">

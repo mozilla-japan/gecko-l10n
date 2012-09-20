@@ -1,0 +1,24 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY pref.notifications.title         "通知">
+<!ENTITY notifications.caption            "通知">
+<!ENTITY newMessagesArrive.label          "新着メッセージが届いたとき:">
+<!ENTITY playSound.label                  "サウンドを鳴らす">
+<!ENTITY playSound.accesskey              "P">
+<!ENTITY showAnimatedAlert.label          "警告を表示する">
+<!ENTITY showAnimatedAlert.accesskey      "S">
+<!ENTITY showTrayIcon.label               "システムトレイにアイコンを表示する">
+<!ENTITY showTrayIcon.accesskey           "t">
+<!ENTITY bounceSystemDockIcon.label       "Dock アイコンをバウンドさせる">
+<!ENTITY bounceSystemDockIcon.accesskey   "A">
+<!ENTITY playButton.label                 "再生">
+<!ENTITY playButton.accesskey             "l">
+<!ENTITY systemsound.label                "システムの新着メール音">
+<!ENTITY systemsound.accesskey            "M">
+<!ENTITY customsound.label                "サウンドファイルを指定する">
+<!ENTITY customsound.accesskey            "C">
+<!ENTITY browse.label                     "@@Browse@@...">
+<!ENTITY browse.accesskey                 "B">
+<!ENTITY browse.title                     "ファイルを選択">

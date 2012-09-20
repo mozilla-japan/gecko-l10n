@@ -1,0 +1,72 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY sunbird.choosedate.button.tooltip	"選択した日付に移動します" >
+<!ENTITY sunbird.cut.button.tooltip		"@@Cut@@" >
+<!ENTITY sunbird.copy.button.tooltip		"コピー" >
+<!ENTITY sunbird.paste.button.tooltip		"@@Paste@@" >
+<!ENTITY sunbird.print.button.tooltip		"カレンダーを@@Print@@します" >
+<!ENTITY sunbird.delete.button.tooltip		"選択した予定を削除します" >
+<!ENTITY sunbird.remotereload.button.tooltip	"リモートのすべてのカレンダーを再度読み込みます" >
+<!ENTITY sunbird.import.button.tooltip		"予定をローカルファイルから@@Import-simasu@@" >
+<!ENTITY sunbird.export.button.tooltip		"予定をローカルファイルに@@Export-simasu@@" >
+<!ENTITY sunbird.subscribe.button.tooltip	"リモートマシン上のカレンダーファイルを購読します" >
+<!ENTITY sunbird.publish.button.tooltip		"リモートマシンに予定を公開します" >
+<!ENTITY sunbird.unifinder.button.tooltip	"予定を検索して絞り込みます" >
+<!ENTITY sunbird.edit.button.tooltip		"選択した予定を編集します" >
+
+<!ENTITY sunbird.choosedate.button.label	"日付に移動" >
+<!ENTITY sunbird.cut.button.label		"@@Cut@@" >
+<!ENTITY sunbird.copy.button.label		"コピー" >
+<!ENTITY sunbird.paste.button.label		"@@Paste@@" >
+<!ENTITY sunbird.delete.button.label		"削除" >
+<!ENTITY sunbird.remotereload.button.label	"更新" >
+<!ENTITY sunbird.import.button.label		"@@Import@@" >
+<!ENTITY sunbird.export.button.label		"@@Export@@" >
+<!ENTITY sunbird.subscribe.button.label		"購読" >
+<!ENTITY sunbird.publish.button.label		"公開" >
+<!ENTITY sunbird.unifinder.button.label		"予定検索" >
+<!ENTITY sunbird.edit.button.label		"編集" >
+
+<!ENTITY sunbird.flat.topbar.choosedate		"日付に移動" >
+<!ENTITY sunbird.flat.topbar.dayview		"日表示" >
+<!ENTITY sunbird.flat.topbar.weekview		"週表示" >
+<!ENTITY sunbird.flat.topbar.monthview		"月表示" >
+<!ENTITY sunbird.flat.topbar.multiweekview	"多週表示" >
+
+<!ENTITY sunbird.dayview.accesskey		"D" >
+<!ENTITY sunbird.weekview.accesskey		"W" >
+<!ENTITY sunbird.monthview.accesskey		"M" >
+<!ENTITY sunbird.multiweekview.accesskey	"u" >
+
+
+<!ENTITY sunbird.calendartab.label		"日付">
+<!ENTITY sunbird.listofcalendarstab.label	"カレンダーリスト">
+
+<!ENTITY sunbird.find.key			"F">
+<!ENTITY sunbird.close.key			"W">
+
+<!ENTITY sunbird.menu.numberofweeks.label	"多週表示の週数" >
+<!ENTITY sunbird.menu.numberofweeks.accesskey	"N" >
+<!ENTITY sunbird.menu.numberofweeks.1		"1 週" >
+<!ENTITY sunbird.menu.numberofweeks.2		"2 週" >
+<!ENTITY sunbird.menu.numberofweeks.3		"3 週" >
+<!ENTITY sunbird.menu.numberofweeks.4		"4 週" >
+<!ENTITY sunbird.menu.numberofweeks.5		"5 週" >
+<!ENTITY sunbird.menu.numberofweeks.6		"6 週" >
+
+<!-- customizable toolbars -->
+<!ENTITY sunbird.context.customize.label	"カスタマイズ...">
+<!ENTITY sunbird.context.customize.accesskey	"C">
+<!ENTITY sunbird.menu.customize.label		"カスタマイズ...">
+<!ENTITY sunbird.menu.customize.accesskey	"C">
+<!ENTITY sunbird.maintoolbar.name		"メインツールバー">
+<!ENTITY sunbird.maintoolbar.accesskey		"M">
+
+<!-- Sunbird Help -->
+<!ENTITY sunbird.help.label			"&brandShortName; ヘルプ">
+<!ENTITY sunbird.help.accesskey			"H">
+
+<!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
+<!ENTITY mainWindow.title			"&brandFullName;">
