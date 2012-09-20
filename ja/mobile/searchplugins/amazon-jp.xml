@@ -2,7 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
 <ShortName>Amazon.co.jp</ShortName>
 <Description>検索エンジン - Amazon.co.jp 検索</Description>
