@@ -294,3 +294,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 toolkit                106924:3c38673c4b1c  -----:------------   hATrayflood     sync toolkit
 security               106924:3c38673c4b1c  -----:------------   hATrayflood     sync security
 dom                    106924:3c38673c4b1c  -----:------------   hATrayflood     sync dom
+browser                106924:3c38673c4b1c  -----:------------   hATrayflood     sync browser (exclude devtools)
