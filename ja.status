@@ -291,3 +291,4 @@ suite                  ------:------------  13004:f5417d9241fe   mar            
 [l10n-mozilla-17.0] (for aurora)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
+toolkit                106924:3c38673c4b1c  -----:------------   hATrayflood     sync toolkit
