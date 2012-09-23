@@ -295,3 +295,4 @@ toolkit                106924:3c38673c4b1c  -----:------------   hATrayflood    
 security               106924:3c38673c4b1c  -----:------------   hATrayflood     sync security
 dom                    106924:3c38673c4b1c  -----:------------   hATrayflood     sync dom
 browser                106924:3c38673c4b1c  -----:------------   hATrayflood     sync browser (exclude devtools)
+suite                  ------:------------  12122:c6c65a22ceef   tooyama         sync suite
