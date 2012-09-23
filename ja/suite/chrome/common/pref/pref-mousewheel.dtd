@@ -10,23 +10,21 @@
 <!ENTITY usingWheelAndAlt.label          "&altKey.label;">
 <!ENTITY usingWheelAndCtrl.label         "&ctrlKey.label;">
 <!ENTITY usingWheelAndShft.label         "&shiftKey.label;">
-<!ENTITY mousewheelGroup.label           "垂直スクロール">
-<!ENTITY mousewheelHorizGroup.label      "水平スクロール">
-<!ENTITY scroll.label                    "ドキュメントを">
-<!ENTITY scroll.accesskey                "S">
-<!ENTITY scrollHoriz.accesskey           "c">
-<!ENTITY scrollLines.label               "行ずつスクロールする">
-<!ENTITY scrollChars.label               "文字ずつスクロールする">
-<!ENTITY useSystemDefault.label          "システムの標準設定を使用する">
-<!ENTITY useSystemDefault.accesskey      "U">
-<!ENTITY useSystemDefaultHoriz.accesskey "d">
-<!ENTITY scrollPgUpPgDn.label            "1 ページ単位で上下にスクロールする">
-<!ENTITY scrollPgUpPgDn.accesskey        "p">
-<!ENTITY scrollPgLtPgRt.label            "1 ページ単位で左右にスクロールする">
-<!ENTITY scrollPgLtPgRt.accesskey        "r">
+<!ENTITY mouseWheelAction.label          "マウスホイールの動作を指定">
+<!ENTITY doNothing.label                 "何もしない">
+<!ENTITY doNothing.accesskey             "D">
+<!ENTITY scrollDocument.label            "ドキュメントのスクロール">
+<!ENTITY scrollDocument.accesskey        "S">
 <!ENTITY history.label                   "訪問履歴を移動する (戻る/進む)">
 <!ENTITY history.accesskey               "M">
-<!ENTITY historyHoriz.accesskey          "b">
 <!ENTITY zoom.label                      "ページの表示をズームする">
 <!ENTITY zoom.accesskey                  "Z">
-<!ENTITY zoomHoriz.accesskey             "e">
+<!ENTITY mouseWheelSpeed.label           "マウスホイールの速度">
+<!ENTITY verticalSpeed.label             "垂直スクロール:">
+<!ENTITY verticalSpeed.accesskey         "V">
+<!ENTITY verticalReverse.label           "方向を反転する">
+<!ENTITY verticalReverse.accesskey       "R">
+<!ENTITY horizontalSpeed.label           "水平スクロール:">
+<!ENTITY horizontalSpeed.accesskey       "o">
+<!ENTITY horizontalReverse.label         "方向を反転する">
+<!ENTITY horizontalReverse.accesskey     "e">

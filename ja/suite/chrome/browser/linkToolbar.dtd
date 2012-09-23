@@ -5,6 +5,7 @@
 <!-- Link Toolbar Title -->
 <!ENTITY linkToolbar.label "サイトナビゲーションバー">
 <!ENTITY linkToolbar.accesskey "a">
+<!ENTITY linkToolbar.tooltip "サイトナビゲーションバー">
 
 <!-- Link Toolbar visibility options -->
 <!ENTITY linkToolbarAlways.label "常に表示">

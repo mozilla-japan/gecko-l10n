@@ -8,8 +8,25 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
  - (^^h   note by hATrayflood
  - (^m^)  note by mar
 
-Firefox メモ。
+翻訳作業時のメモ。
 未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
+
+◆17.0対応作業関連
+・SeaMonkey関連(2012/9/23現在)
+
+完了:
+suite/
+ en-USと同期済み
+
+未訳:
+dom/chrome
+ en-USと非同期
+security/
+ en-USと非同期
+mailnews/
+ en-USと非同期
+toolkit/chrome
+ en-USと非同期
 
 ◆16.0対応作業関連
 未訳:
