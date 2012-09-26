@@ -309,7 +309,7 @@
 <!ENTITY calendarproperties.name.label			"名前:">
 <!ENTITY calendarproperties.readonly.label		"読み込み専用">
 <!ENTITY calendarproperties.firealarms.label		"アラーム通知する">
-<!ENTITY calendarproperties.cache2.label		"キャッシュ">
+<!ENTITY calendarproperties.cache3.label		"オフラインサポート">
 <!ENTITY calendarproperties.enabled.label		"このカレンダーを有効にする">
 <!ENTITY calendarproperties.forceDisabled.label		"このカレンダーのプロバイダが見つかりませんでした。対象のアドオンが無効にされているかアンインストールされています。">
 <!ENTITY calendarproperties.unsubscribe.label		"登録解除">
