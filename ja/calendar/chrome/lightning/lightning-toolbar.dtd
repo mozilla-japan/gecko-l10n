@@ -3,9 +3,9 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY lightning.toolbar.calendar.name	"カレンダーツールバー">
-<!ENTITY lightning.toolbar.calendar.accesskey	"C">
+<!ENTITY lightning.toolbar.calendar.name.accesskey	"C">
 <!ENTITY lightning.toolbar.task.name		"ToDo ツールバー">
-<!ENTITY lightning.toolbar.task.accesskey	"T">
+<!ENTITY lightning.toolbar.task.name.accesskey	"T">
 
 <!ENTITY lightning.toolbar.sync.label		"同期">
 <!ENTITY lightning.toolbar.delete.label		"削除">
@@ -14,8 +14,6 @@
 <!ENTITY lightning.toolbar.print.label		"@@Print@@">
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.mail.label		"メール">
-<!ENTITY lightning.toolbar.mail.accesskey	"M">
 <!ENTITY lightning.toolbar.calendar.label	"カレンダー">
 <!ENTITY lightning.toolbar.calendar.tooltip	"カレンダータブに切り替えます">
 <!ENTITY lightning.toolbar.calendar.accesskey	"C">
