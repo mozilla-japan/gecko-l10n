@@ -1,0 +1,17 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY gdata-provider.label "Google カレンダー">
+
+<!ENTITY gdata.privacy.default.label "Google の初期値">
+<!ENTITY gdata.privacy.default.accesskey "D">
+
+<!ENTITY gdata.migration.title "読み込み専用のカレンダーの移行">
+<!ENTITY gdata.migration.description "Provider for Google Calendar は、読み込み専用モードでのみアクセスできる Google カレンダーを検出しました。アップグレードするには以下のカレンダーを選択してください:">
+<!ENTITY gdata.migration.upgrade.label "アップグレード">
+<!ENTITY gdata.migration.upgrade.accesskey "U">
+<!ENTITY gdata.migration.showagain.label "毎回確認する ">
+
+<!-- (^a^) おそらく Google カレンダーで言う「モバイル」のことだと思うが未確認 -->
+<!ENTITY gdata.reminder.action.sms.label "モバイルに通知する">
