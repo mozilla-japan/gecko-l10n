@@ -97,8 +97,6 @@
 
 <!ENTITY  event.menu.options.label				"オプション">
 <!ENTITY  event.menu.options.accesskey				"O">
-<!ENTITY  event.menu.options.attachments.label			"URL を添付..."><!-- (^a^) en-US: Attach Webpage… https://bugzilla.mozilla.org/show_bug.cgi?id=319909#c25 Tb とは機能が違うので、合わせない -->
-<!ENTITY  event.menu.options.attachments.accesskey		"W">
 <!ENTITY  event.menu.options.attendees.label			"参加者を追加...">
 <!ENTITY  event.menu.options.attendees.accesskey		"I">
 <!ENTITY  event.menu.options.spellcheck.label			"スペルチェック...">
@@ -147,7 +145,6 @@
 <!ENTITY  event.toolbar.attendees.label			"参加者を追加">
 <!ENTITY  event.toolbar.spellcheck.label		"スペル">
 <!ENTITY  event.toolbar.privacy.label			"プライバシー">
-<!ENTITY  event.toolbar.attachments.label		"URL 添付">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label			"件名:" >
@@ -180,11 +177,6 @@
 <!ENTITY event.description.accesskey			"p">
 <!ENTITY event.attachments.label			"添付:" >
 <!ENTITY event.attachments.accesskey			"h" >
-
-<!-- LOCALIZATION NOTE - These 4 strings are not in production yet,
-  but I want to land Filelink support for Lightning soon. The attach
-  button will become a dropdown button that allows to attach links
-  as usual, but also files via the Filelink providers. -->
 <!ENTITY event.attachments.menubutton.label		"添付">
 <!ENTITY event.attachments.menubutton.accesskey		"A">
 <!ENTITY event.attachments.url.label			"Web ページ...">
@@ -338,6 +330,10 @@
 <!ENTITY event.attendee.role.optional			"参加任意">
 <!ENTITY event.attendee.role.chair			"司会者">
 <!ENTITY event.attendee.role.nonparticipant		"参加者なし">
+<!ENTITY event.attendee.usertype.individual		"個人">
+<!ENTITY event.attendee.usertype.group			"グループ">
+<!ENTITY event.attendee.usertype.resource		"リソース">
+<!ENTITY event.attendee.usertype.room			"部屋">
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label				"タイムゾーンを指定してください">
