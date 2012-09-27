@@ -45,6 +45,8 @@
 <!ENTITY history_week_section "7 日以内">
 <!ENTITY history_older_section "7 日以上前">
 
+<!ENTITY go "移動">
+<!ENTITY search "検索">
 <!ENTITY reload "再読み込み">
 <!ENTITY forward "進む">
 <!ENTITY menu "メニュー">
@@ -85,16 +87,27 @@
 <!ENTITY pref_font_size_medium "中">
 <!ENTITY pref_font_size_large "大">
 <!ENTITY pref_font_size_xlarge "最大">
+<!ENTITY pref_font_size_set "設定">
+<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
+(or combination of characters) is used to decrease the preview font size; a larger version of the
+same character/combination is used to increase the preview font size. It should be a concise
+representation of the language it is used in that will help show the text in the preview will change
+size. -->
+<!ENTITY pref_font_size_adjust_char "A">
+
+<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
+    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+<!ENTITY pref_font_size_preview_text "The quick orange fox jumps over your expectations with more speed, more flexibility and more security. As a non-profit, we\'re free to innovate on your behalf without any pressure to compromise. That means a better experience for you and a brighter future for the Web.">
+
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
 <!ENTITY pref_sync "Firefox Sync で同期">
 <!ENTITY pref_search_suggestions "検索語句の候補を表示">
 <!ENTITY pref_import_android "Android から@@Import-suru@@">
 <!ENTITY pref_private_data_history "閲覧とダウンロードの履歴">
 <!ENTITY pref_private_data_formdata "フォームと検索の履歴">
-<!ENTITY pref_private_data_cookies "Cookie">
+<!ENTITY pref_private_data_cookies2 "Cookie">
 <!ENTITY pref_private_data_passwords "保存されたパスワード">
 <!ENTITY pref_private_data_cache "キャッシュ">
-<!ENTITY pref_private_data_sessions "現在のログイン情報">
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
 <!ENTITY pref_private_data_siteSettings "サイト設定">
 
@@ -138,7 +151,7 @@
 <!ENTITY bookmark_edit_location "ロケーション">
 <!ENTITY bookmark_edit_keyword "キーワード">
 
-<!ENTITY site_settings_title        "サイトの設定を消去">
+<!ENTITY site_settings_title2       "サイトの設定...">
 <!ENTITY site_settings_cancel       "キャンセル">
 <!ENTITY site_settings_clear        "消去">
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
@@ -164,9 +177,19 @@
 <!ENTITY abouthome_last_tabs_open "最後に閉じたタブをすべて開く">
 <!ENTITY abouthome_top_sites_title "トップサイト (よく見るページ)"><!-- awesomebar_all_pages_titleがMax6文字 -->
 <!ENTITY abouthome_top_sites_browse "トップサイトをすべて見る">
-<!ENTITY abouthome_no_top_sites "トップサイトはまだありません。タイトルバーをタップしてブラウジングを始めてください。">
-<!ENTITY abouthome_about_sync "Firefox Sync を設定し、他のデバイスからブックマークや履歴、タブなどにアクセスできるようにします">
+<!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
+     chevron (ex: "»"; unicode= U+00BB) is used as an arrow to show that
+     clicking this text in the promotions box will perform some action. Note
+     that a non-breaking space (unicode= U+00A0) should be used between this
+     character and the remainder of the string to prevent word wrap. -->
+<!ENTITY abouthome_about_sync3 "Firefox Sync を設定し、あなたの他のデバイスからブックマークや履歴、タブなどにアクセスできるようにします&#x00A0;»">
+<!ENTITY abouthome_about_apps2 "Marketplace からアプリを入手し、 Web の持つ素晴らしさを発掘しましょう&#x00A0;»">
+<!-- Localization note (abouthome_sync_bold_name, abouthome_apps_bold_name):
+     These strings are accentuated as bold text in the "abouthome_about_..."
+     strings above. These strings should be a subset of the strings above and
+     generally be the name of the product the string describes. -->
 <!ENTITY abouthome_sync_bold_name "Firefox Sync">
+<!ENTITY abouthome_apps_bold_name "Mozilla Marketplace">
 
 <!ENTITY filepicker_title "ファイル選択">
 <!ENTITY filepicker_audio_title "音声を選択または録音する">
@@ -201,3 +224,19 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY bookmarkhistory_import_wait "しばらくお待ちください...">
 
 <!ENTITY webapp_generic_name "アプリ">
+
+<!-- Updater notifications -->
+<!ENTITY updater_start_title "&brandShortName;">
+<!ENTITY updater_start_ticker "&brandShortName; の利用可能な更新">
+<!ENTITY updater_start_select "更新をダウンロードします。">
+
+<!ENTITY updater_downloading_title "&brandShortName; のダウンロード中">
+<!ENTITY updater_downloading_ticker "&brandShortName; の更新をダウンロード中...">
+<!ENTITY updater_downloading_ticker_failed "&brandShortName; の更新のダウンロードに失敗しました...">
+<!ENTITY updater_downloading_select "ダウンロードの完了時に更新を適用します。">
+<!ENTITY updater_downloading_retry "更新をダウンロードし直します。">
+<!ENTITY updater_downloading_willapply "ダウンロードの完了を待っています。">
+
+<!ENTITY updater_apply_title "&brandShortName;">
+<!ENTITY updater_apply_ticker "&brandShortName; の利用可能な更新">
+<!ENTITY updater_apply_select "ダウンロードした更新を適用します。">

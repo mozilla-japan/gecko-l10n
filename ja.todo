@@ -19,6 +19,9 @@ suite/
  en-USと同期済み
 
 未訳:
+mobile/android/base/android_strings.dtd
+ pref_font_size_adjust_char
+ pref_font_size_preview_text
 dom/chrome
  en-USと非同期
 security/
