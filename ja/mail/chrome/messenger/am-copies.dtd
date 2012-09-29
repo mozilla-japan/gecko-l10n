@@ -4,12 +4,12 @@
 
 <!-- extracted from am-copies.xul -->
 
-<!ENTITY copyAndFolderTitle.label	"送信控えと特別なフォルダ"><!-- (^^; Copies &amp; Folders -->
+<!ENTITY copyAndFolderTitle.label	"送信控えと特別なフォルダ"><!-- en-US: "Copies &amp; Folders" -->
 <!ENTITY sendingPrefix.label		"送信控え">
 <!ENTITY fccMailFolder.label		"メッセージ送信時に自動的にコピーを作成する">
 <!ENTITY fccMailFolder.accesskey	"P">
 <!ENTITY fccReplyFollowsParent.label	"返信元のメッセージと同じフォルダに返信を保存する">
-<!ENTITY fccReplyFollowsParent.accesskey "c">
+<!ENTITY fccReplyFollowsParent.accesskey	"R">
 <!-- LOCALIZATION NOTE (ccAddress.label): do not translate "Cc" in below line -->
 <!ENTITY ccAddress.label		"次のメールアドレスを Cc に追加する:">
 <!ENTITY ccAddress.accesskey		"C">
