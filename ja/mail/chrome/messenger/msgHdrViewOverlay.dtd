@@ -68,6 +68,10 @@
 <!ENTITY otherActionsPrint1.label		"@@Print@@...">
 <!ENTITY otherActionsPrint1.accesskey		"P">
 
+<!-- Attachment bar context menu items -->
+<!ENTITY startExpandedCmd.label			"添付ペインを初めから表示する">
+<!ENTITY startExpandedCmd.accesskey		"S">
+
 <!-- Attachment context menu items -->
 <!ENTITY openAttachmentCmd.label		"開く">
 <!ENTITY openAttachmentCmd.accesskey		"O">

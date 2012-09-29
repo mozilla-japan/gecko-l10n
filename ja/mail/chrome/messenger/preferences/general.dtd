@@ -31,9 +31,3 @@
 <!ENTITY customsound.accesskey		"U">
 <!ENTITY browse.label			"@@Browse@@...">
 <!ENTITY browse.accesskey		"B">
-
-<!ENTITY addonsMgr.label		"アドオン">
-<!ENTITY manageAddonsDescWin.label	"アドオンの設定を変更できます。">
-<!ENTITY manageAddonsDescUnix2.label	"アドオンの設定を変更できます。">
-<!ENTITY manageAddons.label		"アドオンを管理...">
-<!ENTITY manageAddons.accesskey		"M">

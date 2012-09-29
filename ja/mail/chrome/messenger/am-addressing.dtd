@@ -36,6 +36,6 @@
 <!ENTITY belowText.label		"引用部の下 (推奨)">
 <!ENTITY aboveText.label		"返信部の下 (引用部の上)">
 <!ENTITY includeSigOnReply.label	"返信メッセージに自分の署名を挿入する">
-<!ENTITY includeSigOnReply.accesskey	"s">
+<!ENTITY includeSigOnReply.accesskey	"I">
 <!ENTITY includeSigOnForward.label	"転送メッセージに自分の署名を挿入する">
 <!ENTITY includeSigOnForward.accesskey	"w">

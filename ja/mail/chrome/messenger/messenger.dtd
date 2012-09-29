@@ -94,8 +94,6 @@
 <!ENTITY deleteMsgCmd.accesskey			"D">
 <!ENTITY undeleteMsgCmd.label			"メッセージを削除しない">
 <!ENTITY undeleteMsgCmd.accesskey		"d">
-<!ENTITY cancelNewsMsgCmd.label			"メッセージをキャンセル">
-<!ENTITY cancelNewsMsgCmd.accesskey		"M">
 <!ENTITY deleteMsgsCmd.label			"選択したメッセージを削除">
 <!ENTITY deleteMsgsCmd.accesskey		"D">
 <!ENTITY undeleteMsgsCmd.label			"選択したメッセージを削除しない">
@@ -362,6 +360,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY archiveMsgCmd.label		"アーカイブ">
 <!ENTITY archiveMsgCmd.accesskey	"A">
 <!ENTITY archiveMsgCmd.key		"a">
+<!ENTITY cancelNewsMsgCmd.label		"メッセージをキャンセル">
+<!ENTITY cancelNewsMsgCmd.accesskey	"C">
 <!ENTITY replyMsgCmd.label		"返信">
 <!ENTITY replyMsgCmd.accesskey		"R">
 <!ENTITY replyMsgCmd.key		"r">
@@ -510,6 +510,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY errorConsoleCmd.label		"エラーコンソール">
 <!ENTITY errorConsoleCmd.accesskey	"E">
 <!ENTITY errorConsoleCmd.commandkey	"j">
+<!ENTITY clearRecentHistory.label	"最近の履歴を消去...">
+<!ENTITY clearRecentHistory.accesskey	"H">
 <!ENTITY accountManagerCmd.label	"アカウント設定...">
 <!ENTITY accountManagerCmd.accesskey	"S">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey): belongs to accountManagerCmd.label,
@@ -551,6 +553,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY folderLocationToolbarItem.title "フォルダバー">
 <!ENTITY tagButton.label		"タグ">
 <!ENTITY compactButton.label		"最適化">
+<!ENTITY appmenuButton.label		"アプリメニュー">
 
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip		"メッセージを詳細に検索します">
@@ -581,6 +584,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY chatButton.tooltip		"チャットタブを開きます">
 <!ENTITY tagButton.tooltip		"メッセージにタグを付けます">
 <!ENTITY compactButton.tooltip		"削除したメッセージをフォルダから消去します"><!-- (^^; わかりにくい... -->
+<!ENTITY appmenuButton.tooltip		"アプリケーションのメニューを表示します">
+
+<!-- AppMenu Popup -->
+<!ENTITY appmenuNewMsgCmd.label		"新規作成"><!-- en-US: "New Message" -->
+<!ENTITY appmenuNewContactCmd.label	"アドレス帳の連絡先...">
+<!ENTITY appmenuEditMenu.label		"編集">
+<!ENTITY appmenuQFBMenu.label		"クイックフィルタバー">
+<!ENTITY appmenuToolbarLayout.label	"ツールバーのカスタマイズ...">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label		"@@New-CMD@@タグ...">
