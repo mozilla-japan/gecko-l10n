@@ -224,7 +224,7 @@
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "D">
 
 <!ENTITY viewAttachmentsInlineCmd.label         "添付をインラインで表示">
-<!ENTITY viewAttachmentsInlineCmd.accesskey     "A">
+<!ENTITY viewAttachmentsInlineCmd.accesskey     "D">
 <!ENTITY reloadCmd.label                        "再読み込み">
 <!ENTITY reloadCmd.accesskey                    "R">
 <!ENTITY stopCmd.label                          "中止">

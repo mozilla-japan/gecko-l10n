@@ -55,7 +55,7 @@
 <!ENTITY viewVideoCmd.accesskey       "i">
 <!ENTITY viewBGImageCmd.label         "背景画像を表示">
 <!ENTITY viewBGImageCmd.accesskey     "w">
-<!ENTITY setDesktopBackgroundCmd.label     "デスクトップの背景に設定…">
+<!ENTITY setDesktopBackgroundCmd.label     "デスクトップの背景に設定...">
 <!ENTITY setDesktopBackgroundCmd.accesskey "a">
 <!ENTITY bookmarkPageCmd.label        "ページをブックマーク">
 <!ENTITY bookmarkPageCmd.accesskey    "m">

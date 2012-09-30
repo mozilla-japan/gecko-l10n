@@ -5,6 +5,8 @@
 <!ENTITY pane.title                   "開封確認">
 <!ENTITY useGlobalPrefs.label         "このアカウントでは共通の開封確認設定に従う">
 <!ENTITY useGlobalPrefs.accesskey     "U">
+<!ENTITY globalReceipts.label         "共通の開封確認設定...">
+<!ENTITY globalReceipts.accesskey     "G">
 <!ENTITY useCustomPrefs.label         "このアカウントでは開封確認の設定を個別に指定する">
 <!ENTITY useCustomPrefs.accesskey     "C">
 <!ENTITY requestReceipt.label         "送信メッセージについて、毎回開封確認の返送を求める">

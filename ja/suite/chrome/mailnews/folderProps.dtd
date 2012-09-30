@@ -64,3 +64,10 @@
 <!ENTITY folderQuotaRoot.label                   "クォータルート:">
 <!ENTITY folderQuotaUsage.label                  "使用容量:">
 <!ENTITY folderQuotaStatus.label                 "状態割合:">
+
+<!ENTITY numberOfMessages.label                  "メッセージ数:">
+<!-- LOCALIZATION NOTE: When the number of messages can't be determined, this string is displayed as the number -->
+<!ENTITY numberUnknown.label                     "不明">
+<!ENTITY sizeOnDisk.label                        "ディスク上のサイズ:">
+<!-- LOCALIZATION NOTE: When the size can't be determined, this string is displayed as the size -->
+<!ENTITY sizeUnknown.label                       "不明">
