@@ -287,6 +287,7 @@ inspector              ------:------------  -----:------------   mar            
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.88
 venkman                ------:------------  -----:------------   mar             sync venkman for Venkman 0.9.88
 suite                  ------:------------  13004:f5417d9241fe   mar             re-sync suite (comm-beta)
+mobile                 104765:b1fdd5de6678  -----:------------   knagato         re-sync mobile (mozilla-beta)
 
 [l10n-mozilla-17.0] (for aurora)
 target dir             mozilla and comm hg changeset rev:id      by              comment
