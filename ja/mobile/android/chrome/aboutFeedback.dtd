@@ -17,7 +17,7 @@
 <!-- LOCALIZATION NOTE (support.pre): Include a trailing space as needed. -->
 <!-- LOCALIZATION NOTE (support.link): Avoid leading/trailing spaces, this text is a link. -->
 <!-- LOCALIZATION NOTE (support.post): Include a starting space as needed. -->
-<!ENTITY support.pre               "もし、 &brandShortName; について質問や問題があれば、">
+<!ENTITY support.pre               "もし、&brandShortName; について質問や問題があれば、">
 <!ENTITY support.link              "&brandShortName; サポート">
 <!ENTITY support.post              "にアクセスしてください。">
 
@@ -25,19 +25,19 @@
 
 <!-- LOCALIZATION NOTE (happy.message): "share the love" — This feels purposely exaggerated in English,
      but essentially it means that we want you to let others know how much you love Firefox. -->
-<!ENTITY happy.message             "あなたの愛をシェアするために、 Google Play で星五つの評価をしませんか？">
+<!ENTITY happy.message             "あなたのご好意をシェアするために、Google Play で星五つの評価をしませんか？">
 
 <!-- LOCALIZATION NOTE (happy.finePrint): "feels great" — Another exaggeration where we're trying to
      get people to rate us by playfully telling them there's a benefit in it for them as well. -->
-<!ENTITY happy.finePrint           "評価に時間はかかりませんし、その評価はきっとみんなのために役立ちます。">
+<!ENTITY happy.finePrint           "評価に時間はかかりません。その評価はきっとみんなのために役立ちます。">
 
-<!ENTITY happy.ratingLink          "はい、 Google Play に行きます">
+<!ENTITY happy.ratingLink          "はい、Google Play に行きます">
 <!ENTITY happy.maybeLater          "あとで考えます">
 <!ENTITY happy.noThanks            "いいえ、結構です">
 
-<!ENTITY sad.message               "&brandShortName; に関して問題があったことをお詫びいたします。問題の解決のために、どのような問題が起こったのかを教えてください。">
+<!ENTITY sad.message               "&brandShortName; に問題があり申し訳ありません。問題解決のために、どのような問題が起こったのかを教えてください。">
 <!ENTITY sad.placeholder           "ここにあなたのフィードバックを入力してください">
-<!ENTITY sad.lastSite              "最後に訪れたサイト（任意）">
+<!ENTITY sad.lastSite              "最後に訪れたサイト (任意)">
 
 <!-- LOCALIZATION NOTE (sad.urlPlaceholder): Placeholder text that appears in "Last visited site" input box when there is no text. -->
 <!ENTITY sad.urlPlaceholder        "http://">
@@ -45,7 +45,7 @@
 
 <!-- LOCALIZATION NOTE (sad.thanksMessageTop): "real people" — We're stating that an actual human will look at the feedback
      and that it doesn't just go to some automated system that looks for keywords, or something like that. -->
-<!ENTITY sad.thanksMessageTop      "私たちはつねに &brandShortName; をより良くしていくための努力をしています。あなたのフィードバックは実際に働く人々のもとに届けられ、彼らは必ずや問題解決のために尽力してくれるでしょう。">
+<!ENTITY sad.thanksMessageTop      "私たちは常に &brandShortName; の改善に取り組んでいます。あなたのフィードバックは実際に働く人々のもとに届けられ、彼らは必ずや問題解決のために尽力してくれるでしょう。">
 
 <!-- LOCALIZATION NOTE (sad.thanksMessageBottom): We're suggesting that there will be consequences for the people working
      on Firefox if they don't resolve the user's problem, like "or if they don't fix it, we'll fire them." If this doesn't
@@ -55,11 +55,11 @@
 <!-- LOCALIZATION NOTE (idea.message): In English, "please share your thoughts" could mean that we're asking the user to
      tell us any thoughts or ideas they have about anything, so we're jokingly telling them not to use the space below
      to tell us anything they're thinking about. -->
-<!ENTITY idea.message              "提案をしてもらうことは大歓迎です！ &brandShortName; に関するあなたの考えを聞かせてください。">
+<!ENTITY idea.message              "提案をしてもらうことは大歓迎です！ &brandShortName; に関するあなたの考えをお聞かせください。">
 <!ENTITY idea.placeholder          "ここにあなたの提案を入力してください">
 <!ENTITY idea.thanksHeader         "ありがとうございます！">
 
-<!ENTITY idea.thanksMessageTop     "あなたのご意見を聞かせていただくのに、お時間をいただきありがとうございます。私たちはつねに &brandShortName; をより良くしていくための努力をしており、あなたにしていただいたようなご協力は素晴らしい役に立つでしょう。">
+<!ENTITY idea.thanksMessageTop     "ご意見をお聞かせいただき、ありがとうございます。私たちは常に &brandShortName; の改善に取り組んでおり、あなたのご協力はとても役に立ちます。">
 
 <!-- LOCALIZATION NOTE (idea.thanksMessageBottom): "high five" — This is a celebratory or congratulatory gesture.
      It could also be a handshake, a pat on the back, a thumbs up or something similar. The idea is that it's
