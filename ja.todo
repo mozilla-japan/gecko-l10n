@@ -119,6 +119,10 @@ mozilla-2.0     -> l10n-mozilla-2.0
 ・ブランチの作成
 > hg branch [branch name]
 
+・作成したブランチをGoogle Codeへpush
+> hg ci -m "create l10n-mozilla-XX.X branch"
+> hg push --new-branch
+
 ・作業リビジョンの切り替え
 > hg update -r [rev]
 
