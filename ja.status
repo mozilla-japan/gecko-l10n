@@ -271,7 +271,7 @@ mobile                  98473:d6c338ecc273  -----:------------   knagato        
 mobile, toolkit        100371:5a85437b01b9  -----:------------   knagato         sync mobile (for fe15beta)
 dom                    100418:8f991bfecae8  -----:------------   mar             sync dom (late-l10n)
 
-[l10n-mozilla-16.0] (for beta)
+Released! [l10n-mozilla-16.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 suite                  ------:------------  11739:c5f625462e29   tooyama         sync suite
@@ -288,7 +288,7 @@ irc                    ------:------------  -----:------------   mar            
 venkman                ------:------------  -----:------------   mar             sync venkman for Venkman 0.9.88
 suite                  ------:------------  13004:f5417d9241fe   mar             re-sync suite (comm-beta)
 
-[l10n-mozilla-17.0] (for aurora)
+[l10n-mozilla-17.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                106924:3c38673c4b1c  -----:------------   hATrayflood     sync toolkit
@@ -304,3 +304,8 @@ mail                   ------:------------  12140:d3a7e5bec562   mar            
 suite                  ------:------------  12143:5bb30d69b276   hATrayflood     re-sync suite
 toolkit                107038:a4880b03634f  -----:------------   hATrayflood     re-sync toolkit
 browser                107038:a4880b03634f  -----:------------   hATrayflood     re-sync browser
+
+[l10n-mozilla-18.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar               ------:------------  12512:6726e97a0d3c   mar             sync calendar
