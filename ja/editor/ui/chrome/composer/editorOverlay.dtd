@@ -70,11 +70,12 @@
 <!ENTITY FontSizeSelect.tooltip "フォントサイズを選択してください">
 <!ENTITY decreaseFontSize.label "小さくする">
 <!ENTITY decreaseFontSize.accesskey "r">
-<!ENTITY decreaseFontSize.key "-">
+<!ENTITY decreaseFontSize.key "&lt;">
+<!ENTITY decreaseFontSize.key2 ","> <!-- < is above this key on many keyboards -->
 <!ENTITY increaseFontSize.label "大きくする">
 <!ENTITY increaseFontSize.accesskey "g">
-<!ENTITY increaseFontSize.key "+">
-<!ENTITY increaseFontSize.key2 "="> <!-- + is above this key on many keyboards -->
+<!ENTITY increaseFontSize.key "&gt;">
+<!ENTITY increaseFontSize.key2 "."> <!-- > is above this key on many keyboards -->
 
 <!ENTITY fontSizeMenu.label "サイズ">
 <!ENTITY fontSizeMenu.accesskey "z">
