@@ -309,3 +309,4 @@ browser                107038:a4880b03634f  -----:------------   hATrayflood    
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  12512:6726e97a0d3c   mar             sync calendar
+chat, editor/ui        ------:------------  12537:34d83739a9e9   mar             sync chat, editor/ui
