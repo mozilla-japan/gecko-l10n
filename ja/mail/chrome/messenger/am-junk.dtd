@@ -26,3 +26,6 @@
 
 <!ENTITY junkClassification.label	"選別">
 <!ENTITY junkActions.label		"移動先と保存期間">
+
+<!ENTITY globalJunkPrefs.label		"共通の迷惑メール設定...">
+<!ENTITY globalJunkPrefs.accesskey	"G">
