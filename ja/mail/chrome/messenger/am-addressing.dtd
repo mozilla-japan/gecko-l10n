@@ -39,3 +39,9 @@
 <!ENTITY includeSigOnReply.accesskey	"I">
 <!ENTITY includeSigOnForward.label	"転送メッセージに自分の署名を挿入する">
 <!ENTITY includeSigOnForward.accesskey	"w">
+
+<!ENTITY globalComposingPrefs.label	"共通の編集設定...">
+<!ENTITY globalComposingPrefs.accesskey	"G">
+
+<!ENTITY globalAddressingPrefs.label		"共通のアドレス入力設定...">
+<!ENTITY globalAddressingPrefs.accesskey	"P">
