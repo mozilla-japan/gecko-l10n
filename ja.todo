@@ -34,10 +34,6 @@ l10n-central にマージする
     /browser/chrome/browser/devtools/styleeditor.dtd
       scoped.label
 
-(Thunderbird 13) 訳の要確認箇所あり:
-    /chat/xmpp.properties
-      connection.error.*
-
 
 google の https 関係 (Bug 736260):
 http://code.google.com/p/mozja/source/detail?r=2ce9324969f384506f0d2454540382450c6ade40#
