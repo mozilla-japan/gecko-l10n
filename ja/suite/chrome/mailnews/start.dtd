@@ -8,23 +8,24 @@
 'ようこそ、<a id="vendorURL" href="">&brandShortName;</a> メールとニュースグループへ！'>
 <!ENTITY description.label
 "&brandShortName; メールとニュースグループはパワフルなオープンソースのメールとニュースクライアントです。先進の迷惑メール検知機能と多くの便利な機能をサポートしています。">
-<!ENTITY features.title "特徴">
-<!ENTITY feat_multiacc.label "マルチアカウントに対応">
-<!ENTITY feat_junk.label "先進の迷惑メール検知機能">
-<!ENTITY feat_feeds.label "フィード (RSS) リーダー">
-<!ENTITY feat_filters.label "メッセージフィルタ">
-<!ENTITY feat_htmlmsg.label "HTML メールのサポート">
-<!ENTITY feat_abook.label "アドレス帳">
-<!ENTITY feat_labels.label "カスタマイズ可能なラベルとメール表示">
+
+<!ENTITY features.title		"特徴">
+<!ENTITY feat_multiacc.label	"マルチアカウントに対応">
+<!ENTITY feat_junk.label	"先進の迷惑メール検知機能">
+<!ENTITY feat_feeds.label	"フィード (RSS) リーダー">
+<!ENTITY feat_filters.label	"メッセージフィルタ">
+<!ENTITY feat_htmlmsg.label	"HTML メールのサポート">
+<!ENTITY feat_abook.label	"アドレス帳">
+<!ENTITY feat_tags.label	"カスタマイズ可能なラベルとメール表示">
 <!ENTITY feat_integration.label
 "&brandShortName; アプリケーションスイートとの密接な統合">
-<!ENTITY dict.title "辞書">
-<!ENTITY dict_intro.label "辞書は、あなたのメールのスペルチェックに使用されます。">
+<!ENTITY dict.title		"辞書">
+<!ENTITY dict_intro.label	"辞書は、あなたのメールのスペルチェックに使用されます。">
 <!--# LOCALIZATION NOTE (dict_info.label): the URL for <a id="dictURL"> is fetched from brand.properties -->
 <!ENTITY dict_info.label
 '<a href="https://addons.mozilla.org/seamonkey/">Mozilla Add-ons</a> から多くの
 <a id="dictURL" href="">スペルチェック用の辞書</a> がダウンロードできます。'>
-<!ENTITY info.title "More Information">
+<!ENTITY info.title		"詳細情報">
 <!--# LOCALIZATION NOTE (info_bugs.label): the URL for <a id="releaseNotesURL"> is fetched from brand.properties -->
 <!ENTITY info_bugs.label
 '<a href="http://www.mozilla.org/mailnews/">私たち</a> はバグ報告や新機能の提案を歓迎しています。
