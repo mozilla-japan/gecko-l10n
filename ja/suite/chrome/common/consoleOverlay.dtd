@@ -4,12 +4,12 @@
 
 <!ENTITY menuBar.tooltip       "メニューバー">
 <!ENTITY modeToolbar.tooltip   "モードツールバー">
-<!ENTITY entryToolbar.tooltip  "Javaスクリプト入力ツールバー">
+<!ENTITY entryToolbar.tooltip  "Javascript入力ツールバー">
 <!ENTITY toolbarsCmd.label     "表示/非表示">
 <!ENTITY toolbarsCmd.accesskey "w">
 <!ENTITY toolbarMode.label     "モード">
 <!ENTITY toolbarMode.accesskey "M">
-<!ENTITY toolbarEval.label     "Javaスクリプト入力">
+<!ENTITY toolbarEval.label     "Javascript入力">
 <!ENTITY toolbarEval.accesskey "J">
 
 <!ENTITY all.accesskey         "A">
@@ -18,3 +18,4 @@
 <!ENTITY messages.accesskey    "M">
 <!ENTITY clear.accesskey       "l">
 <!ENTITY evaluate.accesskey    "u">
+<!ENTITY filter.accesskey      "k">
