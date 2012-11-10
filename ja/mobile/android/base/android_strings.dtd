@@ -226,17 +226,13 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY webapp_generic_name "アプリ">
 
 <!-- Updater notifications -->
-<!ENTITY updater_start_title "&brandShortName;">
-<!ENTITY updater_start_ticker "&brandShortName; の利用可能な更新">
-<!ENTITY updater_start_select "更新をダウンロードします。">
-
-<!ENTITY updater_downloading_title "&brandShortName; のダウンロード中">
-<!ENTITY updater_downloading_ticker "&brandShortName; の更新をダウンロード中...">
-<!ENTITY updater_downloading_ticker_failed "&brandShortName; の更新のダウンロードに失敗しました...">
-<!ENTITY updater_downloading_select "ダウンロードの完了時に更新を適用します。">
-<!ENTITY updater_downloading_retry "更新をダウンロードし直します。">
-<!ENTITY updater_downloading_willapply "ダウンロードの完了を待っています。">
-
-<!ENTITY updater_apply_title "&brandShortName;">
-<!ENTITY updater_apply_ticker "&brandShortName; の利用可能な更新">
-<!ENTITY updater_apply_select "ダウンロードした更新を適用します。">
+<!ENTITY updater_start_title2 "&brandShortName; の利用可能な更新">
+<!ENTITY updater_start_select2 "タッチしてダウンロードを開始します">
+ 
+<!ENTITY updater_downloading_title2 "&brandShortName; のダウンロード中">
+<!ENTITY updater_downloading_title_failed2 "ダウンロードに失敗しました">
+<!ENTITY updater_downloading_select2 "タッチしてダウンロードした更新を適用します">
+<!ENTITY updater_downloading_retry2 "タッチして再試行します">
+ 
+<!ENTITY updater_apply_title2 "&brandShortName; の利用可能な更新">
+<!ENTITY updater_apply_select2 "タッチしてアップデートを開始します">
