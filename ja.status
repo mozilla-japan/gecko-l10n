@@ -315,3 +315,4 @@ dom, security          114006:d0a3931168de  12547:4f3140a9ed92   mar            
 toolkit, services/sync 114029:8ae22fe748fc  ------:-----------   hATrayflood     sync toolkit, services/sync
 suite                  ------:------------  12547:4f3140a9ed92   hATrayflood     sync suite
 mobile                 113748:029f67cb42b7  -----:------------   Kechol          sync mobile
+browser                114029:8ae22fe748fc  -----:------------   hATrayflood     sync browser (exclude devtools)
