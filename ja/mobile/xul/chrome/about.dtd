@@ -1,3 +1,6 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY aboutPage.title                        "&brandShortName; について">
 <!ENTITY aboutPage.warningVersion               "&brandShortName; は開発版であり不安定なことがあります。">
 <!ENTITY aboutPage.telemetryStart               "&brandShortName; の改善のため、パフォーマンス、ハードウェア、使用状況や設定などの情報を自動的に ">

@@ -12,7 +12,6 @@
 <!ENTITY  awesomebar_all_pages_title "トップサイト"><!-- Max6文字 -->
 <!ENTITY  awesomebar_bookmarks_title "ブックマーク">
 <!ENTITY  awesomebar_history_title "履歴">
-<!ENTITY  awesomebar_search_engine "\&quot;&#037;s\&quot; を検索">
 
 <!ENTITY  crash_reporter_title "&brandShortName; クラッシュレポータ">
 <!ENTITY  crash_message "&brandShortName; がクラッシュしました。次回の起動時には開いていたタブの一覧がスタートページに表示されます。">
@@ -100,6 +99,7 @@ size. -->
 <!ENTITY pref_font_size_preview_text "The quick orange fox jumps over your expectations with more speed, more flexibility and more security. As a non-profit, we\'re free to innovate on your behalf without any pressure to compromise. That means a better experience for you and a brighter future for the Web.">
 
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
+<!ENTITY pref_show_product_announcements "製品のお知らせを表示する">
 <!ENTITY pref_sync "Firefox Sync で同期">
 <!ENTITY pref_search_suggestions "検索語句の候補を表示">
 <!ENTITY pref_import_android "Android から@@Import-suru@@">
@@ -124,6 +124,7 @@ size. -->
 <!ENTITY save_as_pdf "PDF として保存">
 <!ENTITY find_in_page "ページ内検索">
 <!ENTITY desktop_mode "PC サイトモード">
+<!ENTITY tools "ツール">
 
 <!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
@@ -133,6 +134,7 @@ size. -->
 <!ENTITY find_close "閉じる">
 
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
+<!ENTITY contextmenu_open_in_reader "リーダーで開く">
 <!ENTITY contextmenu_remove_history "削除">
 <!ENTITY contextmenu_remove_bookmark "削除">
 <!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
@@ -160,7 +162,7 @@ size. -->
 <!ENTITY reading_list_added "ページがリーディングリストに追加されました">
 <!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
 <!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
-<!ENTITY reader_mode "リーダーモード">
+<!ENTITY reader "リーダー">
 
 <!ENTITY masterpassword_create_title "マスターパスワードを作成">
 <!ENTITY masterpassword_remove_title "マスターパスワードを削除">
@@ -169,7 +171,11 @@ size. -->
 
 <!ENTITY button_ok "OK">
 <!ENTITY button_cancel "キャンセル">
+<!ENTITY button_yes "はい">
+<!ENTITY button_no "いいえ">
 <!ENTITY button_clear_data "データを消去">
+<!ENTITY button_set "設定">
+<!ENTITY button_clear "消去">
 
 <!ENTITY abouthome_addons_title "&brandShortName; のためのアドオン">
 <!ENTITY abouthome_addons_browse "&brandShortName; のアドオンをすべて見る">
@@ -183,13 +189,13 @@ size. -->
      that a non-breaking space (unicode= U+00A0) should be used between this
      character and the remainder of the string to prevent word wrap. -->
 <!ENTITY abouthome_about_sync3 "Firefox Sync を設定し、あなたの他のデバイスからブックマークや履歴、タブなどにアクセスできるようにします&#x00A0;&#x00BB;"><!-- "»" を実体参照に置き換えた -->
-<!ENTITY abouthome_about_apps2 "Marketplace からアプリを入手し、 Web の持つ素晴らしさを発掘しましょう&#x00A0;&#x00BB;"><!-- "»" を実体参照に置き換えた -->
+<!ENTITY abouthome_about_apps3 "Marketplace からアプリを入手し、 Web の持つ素晴らしさを発掘しましょう&#x00A0;&#x00BB;"><!-- "»" を実体参照に置き換えた -->
 <!-- Localization note (abouthome_sync_bold_name, abouthome_apps_bold_name):
      These strings are accentuated as bold text in the "abouthome_about_..."
      strings above. These strings should be a subset of the strings above and
      generally be the name of the product the string describes. -->
 <!ENTITY abouthome_sync_bold_name "Firefox Sync">
-<!ENTITY abouthome_apps_bold_name "Mozilla Marketplace">
+<!ENTITY abouthome_apps_bold_name2 "Firefox Marketplace">
 
 <!ENTITY filepicker_title "ファイル選択">
 <!ENTITY filepicker_audio_title "音声を選択または録音する">
@@ -223,20 +229,23 @@ just addresses the organization to follow, e.g. "This site is run by " -->
                                          @@Import-site@@います">
 <!ENTITY bookmarkhistory_import_wait "しばらくお待ちください...">
 
+<!-- Localization note (suggestions_prompt): The placeholder (&#037;s) should
+     be kept in the string; this will be replaced with the name of the search
+     engine. -->
+<!ENTITY suggestions_prompt "&#037; で検索語句の候補を表示しますか？">
+
 <!ENTITY webapp_generic_name "アプリ">
 
-<!-- Updater notifications -->
-<!ENTITY updater_start_title "&brandShortName;">
-<!ENTITY updater_start_ticker "&brandShortName; の利用可能な更新">
-<!ENTITY updater_start_select "更新をダウンロードします。">
+<!ENTITY searchable_description "ブックマークと履歴">
 
-<!ENTITY updater_downloading_title "&brandShortName; のダウンロード中">
-<!ENTITY updater_downloading_ticker "&brandShortName; の更新をダウンロード中...">
-<!ENTITY updater_downloading_ticker_failed "&brandShortName; の更新のダウンロードに失敗しました...">
-<!ENTITY updater_downloading_select "ダウンロードの完了時に更新を適用します。">
-<!ENTITY updater_downloading_retry "更新をダウンロードし直します。">
-<!ENTITY updater_downloading_willapply "ダウンロードの完了を待っています。">
-
-<!ENTITY updater_apply_title "&brandShortName;">
-<!ENTITY updater_apply_ticker "&brandShortName; の利用可能な更新">
-<!ENTITY updater_apply_select "ダウンロードした更新を適用します。">
+ <!-- Updater notifications -->
+<!ENTITY updater_start_title2 "&brandShortName; の利用可能な更新">
+<!ENTITY updater_start_select2 "タッチしてダウンロードを開始します">
+ 
+<!ENTITY updater_downloading_title2 "&brandShortName; のダウンロード中">
+<!ENTITY updater_downloading_title_failed2 "ダウンロードに失敗しました">
+<!ENTITY updater_downloading_select2 "タッチしてダウンロードした更新を適用します">
+<!ENTITY updater_downloading_retry2 "タッチして再試行します">
+ 
+<!ENTITY updater_apply_title2 "&brandShortName; の利用可能な更新">
+<!ENTITY updater_apply_select2 "タッチしてアップデートを開始します">
