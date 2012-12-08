@@ -319,3 +319,4 @@ browser                114029:8ae22fe748fc  -----:------------   hATrayflood    
 toolkit, services/sync 114029:8ae22fe748fc  ------:-----------   hATrayflood     re-sync toolkit, services/sync
 browser/devtools       114029:8ae22fe748fc  -----:------------   hATrayflood     sync browser/devtools
 mail, suite            ------:------------  12561:92762a5802d4   mar             re-sync mail, suite
+irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.89
