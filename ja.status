@@ -288,7 +288,7 @@ irc                    ------:------------  -----:------------   mar            
 venkman                ------:------------  -----:------------   mar             sync venkman for Venkman 0.9.88
 suite                  ------:------------  13004:f5417d9241fe   mar             re-sync suite (comm-beta)
 
-[l10n-mozilla-17.0] (for beta)
+Released! [l10n-mozilla-17.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                106924:3c38673c4b1c  -----:------------   hATrayflood     sync toolkit
@@ -305,7 +305,7 @@ suite                  ------:------------  12143:5bb30d69b276   hATrayflood    
 toolkit                107038:a4880b03634f  -----:------------   hATrayflood     re-sync toolkit
 browser                107038:a4880b03634f  -----:------------   hATrayflood     re-sync browser
 
-[l10n-mozilla-18.0] (for aurora)
+[l10n-mozilla-18.0]  (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  12512:6726e97a0d3c   mar             sync calendar
@@ -320,3 +320,8 @@ toolkit, services/sync 114029:8ae22fe748fc  ------:-----------   hATrayflood    
 browser/devtools       114029:8ae22fe748fc  -----:------------   hATrayflood     sync browser/devtools
 mail, suite            ------:------------  12561:92762a5802d4   mar             re-sync mail, suite
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.89
+
+[l10n-mozilla-19.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, security          119017:eaccb5edc854  12916:90249d084a38   mar             sync dom, security
