@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
@@ -32,6 +36,7 @@
     <li><a href="#content">Content</a></li>
     <li><a href="#fonts">Fonts</a></li>
     <li><a href="#colors">Colors</a></li>
+    <li><a href="#spelling">Spelling</a></li>
   </ul>
 </div>
 
@@ -55,7 +60,7 @@
   <li>Show toolbars as: 
     <ul>
       <li><strong>Pictures and text</strong>: Select this to see text
-        underneath each of the toolbar buttons..</li>
+        underneath each of the toolbar buttons.</li>
       <li><strong>Pictures only</strong>: Select this to show the toolbar
         buttons only.</li>
       <li><strong>Text only</strong>: Select this to show text buttons
@@ -97,7 +102,7 @@
     <ul>
       <li><strong>Show website icons</strong>: Select this if you want see
         site-specific icons, if available, in place of the bookmark icon
-        <img src="chrome://communicator/skin/bookmarks/bookmark-item.gif"
+        <img src="chrome://communicator/skin/bookmarks/bookmark-item.png"
         alt="Bookmark item icon"/>. Website icons are shown to the left of the
         Location Bar and Browser tabs.</li>
       <li><strong>Aggressively look for website icons when the page does not
@@ -124,6 +129,10 @@
     scrolling. Pressing the Page Down key when this is enabled
     will&mdash;instead of an immediate jump&mdash;smoothly scroll the content
     down to the next page.</li>
+  <li><strong>Use hardware acceleration when available</strong>: Select this to
+    let &brandShortName; use hardware acceleration (if available) to render web
+    sites. If you experience problems with the visual presentation of web
+    content, disabling hardware acceleration may solve the issue.</li>
   <li><strong>Resize large images to fit in the browser window</strong>: Select
     this if you want &brandShortName; to automatically shrink large stand-alone
     images so they will fit in the browser window. Clicking on the resized
@@ -132,6 +141,14 @@
     want &brandShortName; to only resize text of websites when using the
     &quot;Zoom&quot; function. If this is not selected, the whole page,
     including images, will be zoomed.</li>
+  <li><strong>Warn me when web sites try to redirect or reload the
+    page</strong>: Select this to let &brandShortName; block automatic meta
+    redirection (HTTP-EQUIV=refresh) requests by default. When a redirect is
+    supposed to be executed, a notification bar is shown instead which allows
+    you to permit the redirect on a case-by-case basis.</li>
+  <li><strong>Remember zoom levels on a per-site basis</strong>: Select
+    this if you want the system to remember the specific zoom level for
+    each website you visit.</li>
 </ul>
 
 <p><strong>Note</strong>: See the separate preferences panels for colors, fonts
@@ -161,8 +178,12 @@
 <ul>
   <li><strong>Fonts for</strong>: Choose a language group/script. For instance,
     to set default fonts for West European languages/script (Latin), choose
-    <q>Western.</q>  For a language/script not yet in the list, choose <q>Other
-    Languages.</q>
+    <q>Western.</q> For Unicode or a language/script not yet in the list, choose
+    <q>Unicode.</q> For more information, including <q>User Defined</q>,
+    see <a href="nav_help.xhtml#selecting_character_encodings_and_fonts">Selecting
+    Character Encodings and Fonts</a>.<br/>
+    All settings below, except for the checkbox, are stored per language group;
+    each can have its own set of font definitions.
     <ul>
       <li><strong>Proportional</strong>: Select whether proportional text
         should be serif (like Times Roman) or sans-serif (like Arial). You can
@@ -236,7 +257,44 @@
 
 <p>[<a href="#appearance_preferences">Return to beginning of section</a>]</p>
 
-<p>&copyright.string;</p>
+<h2 id="spelling">Appearance Preferences - Spelling</h2>
+
+<p>This section describes how to use the Spelling preferences panel. If
+  you&apos;re not already viewing it, follow these steps:</p>
+
+<ol>
+  <li>Open the <span class="mac">&brandShortName;</span>
+    <span class="noMac">Edit</span> menu and choose Preferences.</li>
+  <li>Under the Appearance category, click Spelling. (If no subcategories are
+    visible, double-click Appearance to expand the list.)</li>
+</ol>
+
+<p>The Spelling preferences panel allows you to determine how spelling is
+  handled throughout &brandShortName;:</p>
+
+<ul>
+  <li><strong>General</strong>:
+    <ul>
+      <li><strong>Language</strong>: Use the drop-down list to select the language
+        you want to use to check the spelling in your messages or to download more
+        dictionaries.</li>
+      <li><strong>When typing, check my spelling</strong>: Use the drop-down
+        list to select if and how your typing is spell checked.</li>
+    </ul>
+  </li>
+    <li><strong>Mail &amp; Newsgroups</strong>:
+    <ul>
+      <li><strong>Check spelling before sending</strong>: Select this option to
+        have Mail &amp; Newsgroups always check the spelling of your message before
+        you send it.</li>
+      <li><strong>Check spelling as you type</strong>: Select this option to have
+        Mail &amp; Newsgroups always check the spelling of your message as you type
+        it.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>[<a href="#appearance_preferences">Return to beginning of section</a>]</p>
 
 </body>
 </html>

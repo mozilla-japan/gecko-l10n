@@ -1,5 +1,10 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY window.title			"フィルタの設定">
 
+<!ENTITY filterEditorDialog.dimensions	"width: 100ch;"><!-- en-US: "width: 100ch;" -->
 <!ENTITY filterName.label		"フィルタ名:">
 <!ENTITY filterName.accesskey		"i">
 
@@ -26,8 +31,9 @@
 <!ENTITY moveMessage.label		"メッセージを移動する">
 <!ENTITY copyMessage.label		"メッセージをコピーする">
 <!ENTITY forwardTo.label		"メッセージを転送する">
-<!ENTITY replyWithTemplate.label	"テンプレートを使って返信">
+<!ENTITY replyWithTemplate.label	"テンプレートを使用して返信する">
 <!ENTITY markMessageRead.label		"メッセージを既読にする">
+<!ENTITY markMessageUnread.label	"メッセージを未読にする">
 <!ENTITY markMessageStarred.label	"メッセージにスターを付ける">
 <!ENTITY setPriority.label		"重要度を設定する">
 <!ENTITY addTag.label			"メッセージにタグを付ける">
@@ -39,3 +45,15 @@
 <!ENTITY ignoreSubthread.label		"サブスレッドを無視する">
 <!ENTITY watchThread.label		"注目スレッドに設定する"><!-- (^^; 要チェック -->
 <!ENTITY stopExecution.label		"フィルタの実行を中止する">
+
+<!ENTITY addAction.tooltip		"@@New-CMD@@動作を追加します">
+<!ENTITY removeAction.tooltip		"この動作を削除します">
+
+<!-- LOCALIZATION NOTE
+  The values below are used to control the widths of the filter action widgets.
+  Change the values only when the localized strings in the popup menus
+  are truncated in the widgets.
+ -->
+<!-- Bug 743974 参照 -->
+<!ENTITY filterActionTypeFlexValue	"1">
+<!ENTITY filterActionTargetFlexValue	"4">

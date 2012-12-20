@@ -1,10 +1,14 @@
-<!ENTITY defaultClient.title  "Default Client">
-<!ENTITY defaultClient.intro  "Use &brandShortName; as the default client for:">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY browser.label "Browser">
-<!ENTITY email.label "E-Mail">
-<!ENTITY newsgroups.label "Newsgroups">
-<!ENTITY rss.label "RSS Feeds">
+<!ENTITY defaultClient.title  "@@DefaultClient@@">
+<!ENTITY defaultClient.intro  "&brandShortName; を @@DefaultClient@@ に設定する:">
 
-<!ENTITY checkOnStartup.label "Always perform this check when starting &brandShortName;">
+<!ENTITY browser.label "ブラウザ">
+<!ENTITY email.label "メール">
+<!ENTITY newsgroups.label "ニュース">
+<!ENTITY feeds.label "フィード">
+
+<!ENTITY checkOnStartup.label "&brandShortName; を起動するたびに確認する">
 <!ENTITY checkOnStartup.accesskey "A">

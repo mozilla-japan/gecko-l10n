@@ -1,39 +1,6 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is Mozilla Communicator client code, released
-   - March 31, 1998.
-   -
-   - The Initial Developer of the Original Code is
-   - Netscape Communications Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 1998-2000
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either of the GNU General Public License Version 2 or later (the "GPL"),
-   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the GPL or the LGPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- These strings are for use specifically in the editor's image and form image dialogs. -->
 
@@ -62,24 +29,22 @@
 <!ENTITY actualSize.label		"実際のサイズ:">
 <!ENTITY actualSizeRadio.label		"実際のサイズ">
 <!ENTITY actualSizeRadio.accessKey	"A">
-<!ENTITY actualSizeRadio.tooltip	"画像を実際のサイズに戻す">
+<!ENTITY actualSizeRadio.tooltip	"画像を実際のサイズに戻します">
 <!ENTITY customSizeRadio.label		"カスタムサイズ"><!-- (^^; -->
 <!ENTITY customSizeRadio.accessKey	"S">
-<!ENTITY customSizeRadio.tooltip	"ページに表示されるときの画像サイズを変更する">
+<!ENTITY customSizeRadio.tooltip	"ページに表示されるときの画像サイズを変更します">
 <!ENTITY heightEditField.label		"高さ:">
 <!ENTITY heightEditField.accessKey	"G">
 <!ENTITY widthEditField.label		"幅:">
 <!ENTITY widthEditField.accessKey	"W">
 <!ENTITY constrainCheckbox.label	"縦横比固定"><!-- (^^; Constrain -->
 <!ENTITY constrainCheckbox.accessKey	"C">
-<!ENTITY constrainCheckbox.tooltip	"画像の縦横比を固定する">
+<!ENTITY constrainCheckbox.tooltip	"画像の縦横比を固定します">
 
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label		"イメージマップ">
 <!ENTITY removeImageMapButton.label	"削除">
 <!ENTITY removeImageMapButton.accessKey	"R">
-<!ENTITY editImageMapButton.label	"編集...">
-<!ENTITY editImageMapButton.tooltip	"この画像にクリックできる部分を作成"><!-- (^^; Create clickable hotspots for this image -->
 
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label		"画像周りの文字列配置">
@@ -99,8 +64,11 @@
 <!ENTITY borderEditField.accessKey	"B">
 
 <!-- These controls are in the Link Box -->
-<!ENTITY showImageLinkBorder.label	"リンク付きの画像の周りに枠線を表示する">
+<!ENTITY showImageLinkBorder.label	"リンク付き画像の周りに枠線を表示する">
 <!ENTITY showImageLinkBorder.accessKey	"B">
+<!ENTITY LinkAdvancedEditButton.label	"リンクの詳細...">
+<!ENTITY LinkAdvancedEditButton.accessKey "L">
+<!ENTITY LinkAdvancedEditButton.tooltip	"HTML 属性、スタイル属性、JavaScript を追加または編集します">
 
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label		"フォーム">

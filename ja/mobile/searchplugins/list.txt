@@ -1,7 +1,5 @@
+google
 amazon-jp
-creativecommons
-google-jp
-oshiete-goo
-rakuten
+twitter-ja
 wikipedia-ja
 yahoo-jp

@@ -1,0 +1,95 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Don't localize these. They're here until they have
+     a better place to live. -->
+<!ENTITY syncBrand.fullName.label "Firefox Sync">
+<!ENTITY syncBrand.shortName.label "Sync">
+
+<!-- Main titles. -->
+<!ENTITY sync.app.name.label '&syncBrand.fullName.label;'>
+<!ENTITY sync.title.connect.label '&syncBrand.shortName.label; に接続'>
+<!ENTITY sync.title.adddevice.label '&syncBrand.fullName.label; のアカウントを追加'>
+<!ENTITY sync.title.pair.label 'デバイスと連携'>
+
+<!-- J-PAKE Key Screen -->
+<!ENTITY sync.subtitle.connect.label '新しいデバイスを有効化するために、デバイス上で @@[@@&syncBrand.shortName.label; をセットアップ@@]@@ を選択してください。'>
+<!ENTITY sync.subtitle.header2.label 'このコードをコンピュータ上で入力してください'>
+<!ENTITY sync.subtitle.connectlocation2.label 'デスクトップの Firefox のオプション中の &syncBrand.shortName.label; から、 @@[@@&sync.title.pair.label;@@]@@ を選択してください。'>
+<!ENTITY sync.subtitle.pair.label '有効化のために、他のデバイス上で @@[@@デバイスと連携@@]@@ を選択してください。'>
+<!ENTITY sync.pin.default.label '...\n...\n...\n'>
+<!ENTITY sync.pin.oneline.label '...'>
+<!ENTITY sync.link.show.label '説明を表示'>
+<!ENTITY sync.link.advancedsetup.label '詳細設定...'>
+<!ENTITY sync.link.nodevice.label 'デバイスを持っていない...'>
+
+<!-- J-PAKE Waiting Screen -->
+<!ENTITY sync.jpake.subtitle.waiting.label '他のデバイスを待っています...'>
+
+<!-- Account Login Screen -->
+<!ENTITY sync.subtitle.account.label '&syncBrand.fullName.label; アカウントの情報を入力してください'>
+<!ENTITY sync.input.username.label 'アカウント名'>
+<!ENTITY sync.input.password.label 'パスワード'>
+<!ENTITY sync.input.key.label '復元キー'>
+<!ENTITY sync.checkbox.server.label '独自のサーバを使用する'>
+<!ENTITY sync.input.server.label 'サーバ URL'>
+  
+<!-- Setup Fail -->
+<!ENTITY sync.title.fail.label '&syncBrand.shortName.label; をセットアップできません'>
+<!ENTITY sync.subtitle.fail.label '&syncBrand.fullName.label; はサーバに接続できませんでした。もう一度試しますか？'>
+<!ENTITY sync.button.tryagain.label 'もう一度試す'>
+<!ENTITY sync.button.manual.label '手動でセットアップする'>
+<!ENTITY sync.subtitle.nointernet.label 'インターネット接続が利用できません。'>
+<!ENTITY sync.subtitle.failaccount.label 'デバイス上でのアカウント作成に失敗しました。'>
+<!ENTITY sync.subtitle.failmultiple.label '複数の Firefox がインストールされていませんか？ 現在、 &syncBrand.fullName.label; は同時に一つだけの Firefox のインストールをサポートしています。&syncBrand.shortName.label; を使用するには、他の Firefox をアンインストールしてください。'>
+  
+<!-- Setup Success -->
+<!ENTITY sync.title.success.label 'セットアップ完了'>
+<!ENTITY sync.subtitle.success.label1 'あなたの情報はバックグラウンドでダウンロードされています。アカウントの管理は設定から行うことができます。'>
+<!ENTITY sync.settings.label '設定'>
+<!ENTITY sync.subtitle.manage.label1 'あなたの &syncBrand.fullName.label; アカウントはすでにセットアップされています。アカウントの管理は設定から行なってください。'>
+
+<!-- Pair Device -->
+<!ENTITY sync.pair.tryagain.label 'もう一度試してください。'>
+<!ENTITY sync.pair.connectlocation.label '新しいデバイスを有効化するためには、デバイス上で @@[@@Sync をセットアップ@@]@@ を選択し、 @@[@@すでにアカウントを持っています@@]@@ を選択してください。'>
+
+<!-- Firefox SyncAdapter Settings Screen -->
+<!ENTITY sync.settings.options.label 'オプション'>
+<!ENTITY sync.summary.pair.label '&syncBrand.shortName.label; アカウントに他のデバイスを接続する'>
+
+<!-- Common text -->
+<!ENTITY sync.button.cancel.label 'キャンセル'>
+<!ENTITY sync.button.connect.label '接続'>
+<!ENTITY sync.button.ok.label 'OK'>
+  
+<!-- Account strings -->
+<!ENTITY sync.account.label.label '&syncBrand.fullName.label;'>
+  
+<!-- Bookmark folder strings -->
+<!ENTITY bookmarks.folder.menu.label 'ブックマークメニュー'>
+<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.tags.label 'タグ'>
+<!ENTITY bookmarks.folder.toolbar.label 'ブックマークツールバー'>
+<!ENTITY bookmarks.folder.unfiled.label '未整理のブックマーク'>
+<!ENTITY bookmarks.folder.desktop.label 'デスクトップブックマーク'>
+<!ENTITY bookmarks.folder.mobile.label 'モバイルブックマーク'>
+<!ENTITY bookmarks.folder.readinglist.label 'リーディングリスト'>
+
+<!-- Notification strings -->
+<!ENTITY sync.notification.oneaccount.label '一つの &syncBrand.fullName.label; アカウントのみがサポートされています。'>
+
+<!-- Incorrect settings and changing credentials. -->
+<!ENTITY sync.invalidcreds.label 'アカウント名もしくはパスワードが間違っています。'>
+<!ENTITY sync.invalidserver.label '正しいサーバ URL を入力してください'>
+<!ENTITY sync.verifying.label '確認中...'>
+<!ENTITY sync.new.recoverykey.status.incorrect 'リカバリキーが正しくありません。再度試してください。'>
+
+<!-- Send tab to device. -->
+<!ENTITY sync.title.send.tab.label 'タブをデバイスに送信'>
+<!ENTITY sync.button.send.label '送信'>
+<!ENTITY sync.button.set.up.sync.label '&syncBrand.shortName.label; の設定'>
+<!ENTITY sync.title.redirect.to.set.up.sync.label 'タブ送信のための &syncBrand.shortName.label; の設定'>
+<!ENTITY sync.text.redirect.to.set.up.sync.label '他のデバイスにタブを送信するために、このデバイス上で &syncBrand.fullName.label; を設定する。'>
+<!ENTITY sync.text.tab.sent.label 'タブが送信されました！'>
+<!ENTITY sync.text.tab.not.sent.label 'タブの送信に問題が発生しました。'>

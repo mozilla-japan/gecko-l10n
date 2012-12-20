@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY addressbookPicker.label	"アドレス帳:">
 <!ENTITY addressbookPicker.accesskey	"k">
 <!ENTITY searchInput.label		"次を検索:">
@@ -5,14 +9,19 @@
 <!ENTITY SearchNameOrEmail.label	"名前またはメールアドレス">
 
 <!ENTITY deleteAddrBookCard.label	"削除">
+<!ENTITY deleteAddrBookCard.accesskey	"D">
 <!ENTITY addrBookCardProperties.label	"@@PropertyCMD@@">
+<!ENTITY addrBookCardProperties.accesskey	"P">
 <!ENTITY addtoToFieldMenu.label		"宛先フィールドに追加">
+<!ENTITY addtoToFieldMenu.accesskey	"A">
 <!ENTITY addtoCcFieldMenu.label		"Cc フィールドに追加">
+<!ENTITY addtoCcFieldMenu.accesskey	"C">
 <!ENTITY addtoBccFieldMenu.label	"Bcc フィールドに追加">
+<!ENTITY addtoBccFieldMenu.accesskey	"B">
 
 <!ENTITY toButton.label			"宛先に追加:">
 <!ENTITY toButton.accesskey		"A">
 <!ENTITY ccButton.label			"Cc に追加:">
-<!ENTITY ccButton.accesskey		"d">
+<!ENTITY ccButton.accesskey		"C">
 <!ENTITY bccButton.label		"Bcc に追加:">
 <!ENTITY bccButton.accesskey		"B">

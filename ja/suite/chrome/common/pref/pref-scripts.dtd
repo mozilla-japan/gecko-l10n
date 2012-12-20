@@ -1,21 +1,32 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- extracted from content/pref-scripts.xul -->
 
-<!--LOCALIZATION NOTE : FILE The 'Scripts & Plug-ins' preferences dialog -->
-<!ENTITY pref.scripts.title "スクリプトとプラグイン">
+<!--LOCALIZATION NOTE : FILE The 'Scripts & Plugins' preferences dialog -->
+<!ENTITY pref.scripts.title              "スクリプトとプラグイン">
 
-<!ENTITY navigator.label "Browser">
-<!ENTITY navigator.accesskey "B">
+<!ENTITY navigator.label                 "ブラウザ">
+<!ENTITY navigator.accesskey             "B">
 
 <!--LOCALIZATION NOTE (enableJavaScript.label): 'JavaScript' should never be translated -->
-<!ENTITY enableJavaScript.label "JavaScript を有効にする:">
-<!ENTITY allowScripts.label "以下のスクリプトを許可:">
-<!ENTITY allowScripts.accesskey "s">
-<!ENTITY allowWindowMoveResize.label "@@Window@@の移動または大きさの変更">
-<!ENTITY allowWindowFlip.label "@@Window@@の上下(focus)を切り換える">
-<!ENTITY allowWindowStatusChange.label "ステータス バーのテキストの変更">
-<!ENTITY allowWindowImageSrcChange.label "画像の変更">
-<!ENTITY allowContextmenuDisable.label "ページ独自のコンテキスト メニュー設定を無効にする">
-<!ENTITY allowHideStatusBar.label "ステータス バーを隠す">
+<!ENTITY enableJavaScript.label          "JavaScript を有効にする:">
+<!ENTITY allowScripts.label              "以下のスクリプトを許可する:">
+<!ENTITY allowScripts.accesskey          "s">
+<!ENTITY allowWindowMoveResize.label     "@@Window@@の移動または大きさを変更する">
+<!ENTITY allowWindowFlip.label           "@@Window@@のフォーカス (@@Front@@か@@Back@@か) を切り換える">
+<!ENTITY allowWindowStatusChange.label   "ステータスバーのテキストを変更する">
+<!ENTITY allowWindowImageSrcChange.label "画像を変更する">
+<!ENTITY allowContextmenuDisable.label   "コンテキストメニューを無効化または変更する">
+<!ENTITY allowHideStatusBar.label        "ステータスバーを隠す">
 
-<!ENTITY enablePlugin.label "プラグインを有効にする:">
+<!ENTITY enablePlugins.label             "プラグインを有効にする">
+<!ENTITY enablePluginForSuite.label      "Suite">
+<!ENTITY enablePluginForSuite.accesskey  "u">
 
+<!ENTITY whenPageRequiresPlugins.label   "プラグインの読み込みを要求されたとき">
+<!ENTITY activateAllPlugins.label        "@@Default@@ですべてのプラグインを有効化">
+<!ENTITY activateAllPlugins.accesskey    "d">
+<!ENTITY warnPluginsRequired.label       "プラグインを追加する必要があるときは警告する">
+<!ENTITY warnPluginsRequired.accesskey   "W">

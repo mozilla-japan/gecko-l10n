@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY  updateWizard.title			"&brandShortName; の更新">
 
 <!ENTITY  offline.title				"&brandShortName; はオフラインモードで動作しています">
@@ -45,5 +49,3 @@
 <!ENTITY  clickFinish.label			"@@[@@完了@@]@@ をクリックすると &brandShortName; を起動します。">
 <!ENTITY  clickFinish.labelMac			"@@[@@完了@@]@@ をクリックすると &brandShortName; を起動します。">
 <!ENTITY  enableChecking.label			"更新を自動的に確認する。">
-<!ENTITY  details.label				"詳細...">
-<!ENTITY  details.accesskey			"D">

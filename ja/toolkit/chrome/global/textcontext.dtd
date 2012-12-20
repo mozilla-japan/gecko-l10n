@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY cutCmd.label			"@@Cut@@">
 <!ENTITY cutCmd.accesskey		"t">
 <!ENTITY copyCmd.label			"コピー">
@@ -10,9 +14,11 @@
 <!ENTITY selectAllCmd.accesskey		"a">
 <!ENTITY deleteCmd.label		"削除">
 <!ENTITY deleteCmd.accesskey		"d">
-<!-- 以下、browser/chrome/browser/browser.dtd と要同期 -->
+
 <!ENTITY spellAddToDictionary.label	"辞書に追加">
 <!ENTITY spellAddToDictionary.accesskey	"o">
+<!ENTITY spellUndoAddToDictionary.label	"辞書への追加を@@Undo@@">
+<!ENTITY spellUndoAddToDictionary.accesskey	"n">
 <!ENTITY spellCheckEnable.label		"スペルチェックを行う">
 <!ENTITY spellCheckEnable.accesskey	"S">
 <!ENTITY spellNoSuggestions.label	"(修正候補がありません)">

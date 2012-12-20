@@ -64,6 +64,7 @@ ja.Print				= 印刷
 ja.Top					= 最前面
 ja.TrashFolder				= ごみ箱
 ja.Wizard				= ウィザード
+ja.NextButton				= 次へ
 
 ja-JP-mac.Color				= カラー
 ja-JP-mac.Colors			= カラー
@@ -76,6 +77,7 @@ ja-JP-mac.Print				= プリント
 ja-JP-mac.Top				= 一番手前
 ja-JP-mac.TrashFolder			= ゴミ箱
 ja-JP-mac.Wizard			= アシスタント
+ja-JP-mac.NextButton			= 続ける
 
 
 #
@@ -95,6 +97,7 @@ ja.Cut					= 切り取り
 ja.FullScreen				= 全画面表示
 ja.Minimize				= 最小化
 ja.Paste				= 貼り付け
+ja.Paste-site				= 貼り付けて
 ja.PropertyCMD				= プロパティ
 ja.Redo					= やり直し
 ja.SelectAll				= すべて選択
@@ -112,6 +115,7 @@ ja-JP-mac.Cut				= カット
 ja-JP-mac.FullScreen			= フルスクリーン
 ja-JP-mac.Minimize			= しまう
 ja-JP-mac.Paste				= ペースト
+ja-JP-mac.Paste-site			= ペーストして
 ja-JP-mac.PropertyCMD			= 情報を見る
 # Mac OS X 10.4 or earlier: やり直し 10.5 or later: やり直す
 ja-JP-mac.Redo				= やり直す
@@ -185,12 +189,14 @@ ja.Export				= エクスポート
 ja.ExportNoun				= エクスポート
 ja.Export-simasu			= エクスポートします
 ja.Export-suru				= エクスポートする
+ja.Export-simasita			= エクスポートしました
 # Mac OS X 10.4 or earlier: 書き出し 10.5 or later: 書き出す
 ja-JP-mac.-ExportCMD			= を書き出す
 ja-JP-mac.Export			= 書き出す
 ja-JP-mac.ExportNoun			= 書き出し
 ja-JP-mac.Export-simasu			= 書き出します
 ja-JP-mac.Export-suru			= 書き出す
+ja-JP-mac.Export-simasita		= 書き出しました
 
 
 
@@ -243,7 +249,7 @@ browser.credits.dtd			= <ul>\
 #					  <li>Satoru Yamaguchi</li>\
 #					  </ul>
 
-# browser/chrome/browser/sanitize.dtd
+# browser/chrome/browser/sanitize.dtd, mail/chrome/messenger/sanitize.dtd
 ja.sanitize.dialog.width	= 34em
 ja-JP-mac.sanitize.dialog.width	= 32em
 ja.sanitize.column.width	= 16.5em
@@ -271,8 +277,9 @@ mail.credits.dtd			= <ul>\
 					  </ul>
 
 # mail/chrome/messenger/activity.properties
-ja.activity.monthDate			= #1#2日
-ja-JP-mac.activity.monthDate		= #1 #2
+# mail/chrome/messenger/templateUtils.properties
+ja.mail.monthDate		= #1#2日
+ja-JP-mac.mail.monthDate	= #1 #2
 
 
 # mail/chrome/messenger/AccountManager.dtd
@@ -305,6 +312,13 @@ intl.css.common				= \
 					/* not to show scroll bar in the reporter form */\n\
 					#reportForm #description {\n  \
 					  max-height: 6.8em;\n\
+					}\n\
+					\n\
+					/* Workaround for SeaMonkey's Preferences dialog */\n\
+					@-moz-document url(chrome://communicator/content/pref/preferences.xul) {\n  \
+					  #prefsTree {\n  \
+					    width: 17em !important;\n  \
+					  }\n\
 					}\n
 
 ja.intl.css.locale			= \
@@ -336,7 +350,8 @@ ja.intl.css.locale			= \
 					/* Workaround for master password dialog with Meiryo */\n\
 					#changemp {\n  \
 					  min-width: 39em;\n\
-					}\n
+					}\n\
+					\n
 
 
 ja-JP-mac.intl.css.locale		= 
@@ -345,8 +360,9 @@ ja-JP-mac.intl.css.locale		=
 # toolkit/chrome/mozapps/downloads/downloads.properties
 ja.downloads.stateBlocked		= 保護者による制限でブロックされました
 ja-JP-mac.downloads.stateBlocked	= ペアレンタルコントロールによりブロックされました
-ja.downloads.monthDate			= #1#2日
-ja-JP-mac.downloads.monthDate		= #1 #2
+## Firefox 10 以降
+ja.downloads.monthDate2			= %1$S%2$S日
+ja-JP-mac.downloads.monthDate2		= %1$S %2$S
 
 
 # toolkit/chrome/mozapps/downloads/settingsChange.dtd

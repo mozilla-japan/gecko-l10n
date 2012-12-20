@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY newWindowsAsTabs.label		"@@NewWindow@@ではなく@@NewTab@@で開く">
 <!ENTITY newWindowsAsTabs.accesskey	"t">
 
@@ -10,5 +14,11 @@
 <!ENTITY showTabBar.label		"常にタブバーを表示する">
 <!ENTITY showTabBar.accesskey		"b">
 
+<!ENTITY restoreTabsOnDemand.label	"タブが選択されるまでページを読み込まない">
+<!ENTITY restoreTabsOnDemand.accesskey	"l">
+
 <!ENTITY switchToNewTabs.label		"リンクを@@NewTab@@で開いたとき、すぐにそのタブに切り替える">
 <!ENTITY switchToNewTabs.accesskey	"s">
+
+<!ENTITY showTabsInTaskbar.label	"タスクバーにタブのプレビューを表示する">
+<!ENTITY showTabsInTaskbar.accesskey	"k">

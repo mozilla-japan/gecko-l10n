@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- (^^; messenger/preferences/fonts.dtd とほぼ同じ -->
 
 <!ENTITY  fontsDialog.title		"フォント">
@@ -43,7 +47,7 @@
 <!ENTITY  font.langGroup.armenian	"アルメニア語">
 <!ENTITY  font.langGroup.bengali	"ベンガル語">
 <!ENTITY  font.langGroup.canadian	"統合カナダ先住民音節文字"><!-- win 対応不明 -->
-<!ENTITY  font.langGroup.ethiopic	"エチオピア語"><!-- (^^; win 対応不明 -->
+<!ENTITY  font.langGroup.ethiopic	"アムハラ語"><!-- (^^; win 対応不明 -->
 <!ENTITY  font.langGroup.georgian	"グルジア語">
 <!ENTITY  font.langGroup.gujarati	"グジャラート語">
 <!ENTITY  font.langGroup.gurmukhi	"グルムキー文字"><!-- (^^; win 対応不明 -->
@@ -53,6 +57,7 @@
 <!ENTITY  font.langGroup.telugu		"テルグ語">
 <!ENTITY  font.langGroup.kannada	"カナラ語">
 <!ENTITY  font.langGroup.sinhala	"シンハラ語"><!-- (^^; win 対応不明 -->
+<!ENTITY  font.langGroup.tibetan	"チベット語">
 <!-- Minimum font size -->
 <!ENTITY minSize.label			"最小フォントサイズ:">
 <!ENTITY minSize.accesskey		"o">
