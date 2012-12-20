@@ -1,47 +1,50 @@
-<!ENTITY pref.navigator.title "Browser">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY navRadio "右の場合:">
-<!ENTITY navStartPageMenu.label "Browser を起動">
-<!ENTITY newWinPageMenu.label "@@NewWindow@@">
-<!ENTITY newTabPageMenu.label "@@NewTab@@を開く">
+<!ENTITY pref.navigator.title           "ブラウザ">
 
-<!ENTITY blankPageRadio.label "空白ページ">
-<!ENTITY blankPageRadio.accesskey "B">
-<!ENTITY homePageRadio.label "ホームページ">
-<!ENTITY homePageRadio.accesskey "m">
-<!ENTITY lastPageRadio.label "最後に訪問したページ">
-<!ENTITY lastPageRadio.accesskey "L">
+<!ENTITY navRadio.label                 "次の場合:">
+<!ENTITY navRadio.accesskey             "n">
+<!ENTITY navStartPageMenu.label         "ブラウザの起動時">
+<!ENTITY newWinPageMenu.label           "@@NewWindow@@を開いたとき">
+<!ENTITY newTabPageMenu.label           "@@NewTab@@を開いたとき">
 
-<!ENTITY header2.label "ホームページ">
-<!ENTITY homePageIntro.label "パーソナルツールバーの[ホーム]をクリックするとこのページのグループへ移動します。">
-<!ENTITY useCurrent.label "現在のページを使用する">
-<!ENTITY useCurrent.accesskey "U">
-<!ENTITY useCurrentGroup.label "現在のページのグループを使用する">
-<!ENTITY useCurrentGroup.accesskey "G">
-<!ENTITY browseFile.label "ファイルを選択...">
-<!ENTITY browseFile.accesskey "C">
-<!ENTITY useDefault.label "デフォルトに戻す">
-<!ENTITY useDefault.accesskey "R">
+<!ENTITY blankPageRadio.label           "空白ページを表示する">
+<!ENTITY blankPageRadio.accesskey       "B">
+<!ENTITY homePageRadio.label            "ホームページを表示する">
+<!ENTITY homePageRadio.accesskey        "m">
+<!ENTITY lastPageRadio.label            "最後に訪問したページを表示する">
+<!ENTITY lastPageRadio.accesskey        "L">
+<!ENTITY restoreSessionRadio.label      "以前のセッションを復元する">
+<!ENTITY restoreSessionRadio.accesskey  "P">
 
-<!ENTITY toolbarIntro.label "ツールバーに表示するボタンを選択してください:">
+<!ENTITY restoreSessionIntro.label      "セッションと@@Window@@を復元する時">
+<!ENTITY restoreImmediately.label       "すぐにすべてのタブを復元する">
+<!ENTITY restoreImmediately.accesskey   "e">
+<!-- LOCALIZATION NOTE (restoreTabs.label): This will concatenate to
+     "Restore [___] tab(s) at a time",
+     using (restoreTabs.label) and a number (restoreTabsAtATime.label). -->
+<!ENTITY restoreTabs.label              "一度に">
+<!ENTITY restoreTabs.accesskey          "s">
+<!ENTITY restoreTabsAtATime.label       "個のタブまでを復元する">
+<!ENTITY restoreDeferred.label          "必要な時のみタブを復元する">
+<!ENTITY restoreDeferred.accesskey      "O">
 
-<!ENTITY navToolbarIntro.label "ナビゲーション ツールバー">
-<!ENTITY goButton.label "移動">
-<!ENTITY goButton.accesskey "o">
-<!ENTITY searchButton.label "検索">
-<!ENTITY searchButton.accesskey "S">
-<!ENTITY printButton.label "印刷">
-<!ENTITY printButton.accesskey "P">
-
-<!ENTITY persToolbarIntro.label "パーソナル ツールバー">
-<!ENTITY homeButton.label "ホーム">
-<!ENTITY homeButton.accesskey "e">
-<!ENTITY bookmarksButton.label "ブックマーク">
-<!ENTITY bookmarksButton.accesskey "k">
+<!ENTITY homePageIntro.label            "パーソナルツールバーの @@[@@ホーム@@]@@ をクリックすると、このページのグループを開きます:">
+<!ENTITY useCurrent.label               "現在のページを使用">
+<!ENTITY useCurrent.accesskey           "U">
+<!ENTITY useCurrentGroup.label          "現在のページのグループを使用">
+<!ENTITY useCurrentGroup.accesskey      "G">
+<!ENTITY browseFile.label               "ファイルを選択...">
+<!ENTITY browseFile.accesskey           "C">
+<!ENTITY useDefault.label               "初期設定に戻す">
+<!ENTITY useDefault.accesskey           "R">
 
 <!ENTITY defaultBrowserGroup.label      "@@DefaultBrowser@@">
 <!ENTITY defaultBrowserButton.label     "@@DefaultBrowser@@に設定">
 <!ENTITY defaultBrowserButton.accesskey "D">
-<!ENTITY alreadyDefaultText             "&brandShortName; はすでに@@DefaultBrowser@@設定されています。">
+<!ENTITY alreadyDefaultText             "&brandShortName; はすでに@@DefaultBrowser@@に設定されています。">
 <!ENTITY defaultPendingText             "OK をクリックすると &brandShortName; は@@DefaultBrowser@@に設定されます。">
+<!ENTITY wasMadeDefaultText             "&brandShortName; は@@DefaultBrowser@@に設定されています。">
 <!ENTITY makeDefaultText                "&brandShortName; を@@DefaultBrowser@@に設定します。">

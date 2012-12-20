@@ -1,15 +1,6 @@
-<!ENTITY winhooks.label                   "システム">
-
-<!ENTITY defaultBrowserGroup.label  "@@DefaultBrowser@@">
-<!ENTITY defaultBrowserButton.label "@@DefaultBrowser@@に設定">
-<!ENTITY alreadyDefaultText         "&brandShortName; は@@DefaultBrowser@@に設定されています。">
-<!ENTITY defaultPendingText         "&brandShortName; は OK をクリックすると@@DefaultBrowser@@になります。">
-<!ENTITY makeDefaultText            "&brandShortName; を@@DefaultBrowser@@に設定する。">
-
-<!ENTITY urlbar.label "ロケーションバーでCtrl+Enter">
-<!ENTITY urlbar.accesskey "L">
-<!ENTITY middleClick.label "Web ページでリンクを中クリックまたは Ctrl+クリック あるいは Ctrl+Enter">
-<!ENTITY middleClick.accesskey "M">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
      preference dialog's <window> node, which specifies the width and height
@@ -19,3 +10,9 @@
      XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
      size of this window for en-US. -->
 <!ENTITY  prefWindow.size             "width: 70em; height: 44em;"><!--def.size"width: 52em; height: 41em;"-->
+
+<!-- pref-tabs.xul -->
+<!ENTITY urlbar.label                 "アドレスバー で Ctrl+Enter">
+<!ENTITY urlbar.accesskey             "L">
+<!ENTITY middleClick.label            "Web ページでリンクを中クリックまたは Ctrl+クリックあるいは Ctrl+Enter">
+<!ENTITY middleClick.accesskey        "M">

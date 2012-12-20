@@ -1,8 +1,12 @@
-<!ENTITY viewLog.title "Filter Log">
-<!ENTITY viewLogInfo.text "The Filter Log documents the filters that have been run for this account. Use the check box below to enable logging.">
-<!ENTITY clearLog.label "Clear Log">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY viewLog.title "フィルタログ">
+<!ENTITY viewLogInfo.text	"フィルタログではどのフィルタが使われたか記録します。"><!-- (^^; "Use the check box below to enable logging." はチェックボックスのラベルから自明なので削除 -->
+<!ENTITY clearLog.label "ログの@@Clear@@">
 <!ENTITY clearLog.accesskey "C">
-<!ENTITY enableLog.label "Enable the Filter Log">
+<!ENTITY enableLog.label "フィルタログを有効にする">
 <!ENTITY enableLog.accesskey "E">
-<!ENTITY closeLog.label "Close">
+<!ENTITY closeLog.label "閉じる">
 <!ENTITY closeLog.accesskey "o">

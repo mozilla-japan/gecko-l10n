@@ -1,3 +1,12 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY tracking.label			"トラッキング">
+
+<!ENTITY doNotTrack.label		"トラッキングの拒否を Web サイトに通知する">
+<!ENTITY doNotTrack.accesskey		"d">
+
 <!ENTITY  history.label			"履歴">
 
 <!ENTITY  locationBar.label		"ロケーションバー">
@@ -11,10 +20,10 @@
 <!ENTITY  locbar.nothing.label		"候補を表示しない">
 
 <!ENTITY  acceptCookies.label		"サイトから送られてきた Cookie を保存する">
-<!ENTITY  acceptCookies.accesskey	"c">
+<!ENTITY  acceptCookies.accesskey	"A">
 
 <!ENTITY  acceptThirdParty.label	"サードパーティの Cookie も保存する">
-<!ENTITY  acceptThirdParty.accesskey	"p">
+<!ENTITY  acceptThirdParty.accesskey	"c">
 
 <!ENTITY  keepUntil.label		"Cookie を保存する期間:">
 <!ENTITY  keepUntil.accesskey		"K">
@@ -55,21 +64,11 @@
 <!ENTITY  dontrememberActions.clearHistory.label	"現在の履歴をすべて消去">
 <!ENTITY  dontrememberActions.post.label		" できます。">
 
-<!ENTITY  privateBrowsingAutoStart.label		"自動的にプライベートブラウジングモードで &brandShortName; を起動する">
-<!ENTITY  privateBrowsingAutoStart.accesskey		"A">
+<!ENTITY  privateBrowsingPermanent2.label		"常にプライベートブラウジングモード">
+<!ENTITY  privateBrowsingPermanent2.accesskey		"p">
 
-<!-- LOCALIZATION NOTE:
-  The entities rememberHistory.pre.label and rememberHistory.post.label appear on a single
-  line in preferences as follows:
-
-  &rememberHistory.pre.label  [ textbox for number of days ]  &rememberHistory.post.label;
--->
-<!ENTITY  rememberHistory.pre.label		"表示したページの履歴を少なくとも">
-<!ENTITY  rememberHistory.pre.accesskey		"b">
-<!ENTITY  rememberHistory.post.label		"日分は残す">
-
-<!ENTITY  rememberDownload.label		"ファイルのダウンロード履歴を記憶させる">
-<!ENTITY  rememberDownload.accesskey		"d">
+<!ENTITY  rememberHistory2.label			"表示したページとファイルのダウンロードの履歴を残す">
+<!ENTITY  rememberHistory2.accesskey			"b">
 
 <!ENTITY  rememberSearchForm.label		"検索やフォームの入力履歴を記憶させる">
 <!ENTITY  rememberSearchForm.accesskey		"f">

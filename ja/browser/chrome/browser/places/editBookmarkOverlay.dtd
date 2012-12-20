@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY editBookmarkOverlay.name.label				"名前:">
 <!ENTITY editBookmarkOverlay.name.accesskey			"N">
 <!ENTITY editBookmarkOverlay.location.label			"URL:">
@@ -6,7 +10,6 @@
 <!ENTITY editBookmarkOverlay.feedLocation.accesskey		"F">
 <!ENTITY editBookmarkOverlay.siteLocation.label			"サイトの URL:">
 <!ENTITY editBookmarkOverlay.siteLocation.accesskey		"S">
-<!ENTITY editBookmarkOverlay.liveTitlesSeparator.label		"ライブタイトル">
 <!ENTITY editBookmarkOverlay.folder.label			"フォルダ:">
 <!ENTITY editBookmarkOverlay.foldersExpanderDown.tooltip	"すべてのブックマークフォルダを表示します">
 <!ENTITY editBookmarkOverlay.expanderUp.tooltip			"一覧を閉じます"><!-- (^^; フォルダとタグで共用 -->

@@ -1,46 +1,6 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is mozilla.org code.
-   -
-   - The Initial Developer of the Original Code is
-   - Netscape Communications Corp.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Ian McGreer <mcgreer@netscape.com>
-   -
-   - Localizer(s):
-   -   Kazu Yamamoto <kazu@mozilla.gr.jp>
-   -   Ryoichi Furukawa <furu@mozilla.gr.jp>
-   -   Tsukasa Maruyama <mal@mozilla.gr.jp>
-   -   Teiji Matsuba <matsuba@dream.com>
-   -   dynamis
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the GPL or the LGPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY certmgr.title			"証明書マネージャ">
 
@@ -101,10 +61,8 @@
 
 <!ENTITY certmgr.certname			"証明書名と発行者名"><!-- en-US: Certificate Name -->
 <!ENTITY certmgr.certserver			"サーバ">
-<!ENTITY certmgr.typesofoverrides		"例外">
 <!ENTITY certmgr.override_lifetime		"例外承認期間"><!-- (^^; -->
 <!ENTITY certmgr.tokenname			"セキュリティデバイス">
-<!ENTITY certmgr.purpose			"用途">
 <!ENTITY certmgr.issued				"発行日">
 <!ENTITY certmgr.expires			"有効期限">
 <!ENTITY certmgr.email				"メールアドレス">
@@ -114,8 +72,8 @@
 <!ENTITY certmgr.close.accesskey		"C">
 <!ENTITY certmgr.view2.label			"表示...">
 <!ENTITY certmgr.view2.accesskey		"V">
-<!ENTITY certmgr.edit2.label			"設定...">
-<!ENTITY certmgr.edit2.accesskey		"E">
+<!ENTITY certmgr.edit3.label			"信頼性を設定...">
+<!ENTITY certmgr.edit3.accesskey		"E">
 <!ENTITY certmgr.editca.label			"認証局の信頼性を設定">
 <!ENTITY certmgr.editca.accesskey		"d">
 <!ENTITY certmgr.add.label			"追加">
@@ -124,6 +82,8 @@
 <!ENTITY certmgr.export.accesskey		"x">
 <!ENTITY certmgr.delete2.label			"削除...">
 <!ENTITY certmgr.delete2.accesskey		"D">
+<!ENTITY certmgr.delete_builtin.label		"削除または信頼しない...">
+<!ENTITY certmgr.delete_builtin.accesskey	"D">
 <!ENTITY certmgr.backup2.label			"バックアップ...">
 <!ENTITY certmgr.backup2.accesskey		"B">
 <!ENTITY certmgr.backupall2.label		"すべてバックアップ...">
@@ -140,8 +100,8 @@
 <!ENTITY certmgr.addException.accesskey		"x">
 
 <!ENTITY exceptionMgr.title			"セキュリティ例外の追加">
-<!ENTITY exceptionMgr.exceptionButton		"セキュリティ例外を承認">
-<!ENTITY exceptionMgr.exceptionButtonAccess	"C">
+<!ENTITY exceptionMgr.exceptionButton.label	"セキュリティ例外を承認">
+<!ENTITY exceptionMgr.exceptionButton.accesskey	"C">
 <!ENTITY exceptionMgr.supplementalWarning	"本物の銀行、通信販売、その他の公開サイトがこの操作を求めることはありません。">
 <!ENTITY exceptionMgr.certlocation.caption2	"サーバ">
 <!ENTITY exceptionMgr.certlocation.url		"URL:">

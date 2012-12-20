@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY  untitledTab            "(タイトル無し)">
 <!ENTITY  newTab.label           "@@NewTab@@">
 <!ENTITY  newTab.accesskey       "N">
@@ -13,5 +17,6 @@
 <!ENTITY  bookmarkGroup.accesskey  "B">
 <!ENTITY  closeTabButton.tooltip   "このタブを閉じる">
 <!ENTITY  newTabButton.tooltip   "@@NewTab@@を開く">
+<!ENTITY  listAllTabs.tooltip    "すべてのタブをリスト表示">
 <!ENTITY  undoCloseTab.label    "閉じたタブを元に戻す">
 <!ENTITY  undoCloseTab.accesskey  "U">

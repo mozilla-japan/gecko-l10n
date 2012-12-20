@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY addressbookWindow.title		"アドレス帳"><!-- (^^; Mac: アドレスブック に切り分けも検討 -->
 
 <!-- File Menu -->
@@ -60,7 +64,7 @@
 <!ENTITY deleteContactsCmd.label		"連絡先を削除">
 <!ENTITY deleteListCmd.label			"リストを削除">
 <!ENTITY deleteListsCmd.label			"リストを削除">
-<!ENTITY deleteItemsCmd.label			"項目を削除">
+<!ENTITY deleteItemsCmd.label			"アイテムを削除">
 <!ENTITY selectAllCmd.label			"@@SelectAll@@">
 <!ENTITY selectAllCmd.key			"A">
 <!ENTITY searchAddressesCmd.key			"f">
@@ -79,18 +83,26 @@
 <!ENTITY viewMenu.accesskey			"v">
 <!ENTITY viewToolbarsMenu.label			"ツールバー">
 <!ENTITY viewToolbarsMenu.accesskey		"T"> 
+<!ENTITY menubarCmd.label			"メニューバー">
+<!ENTITY menubarCmd.accesskey			"M">
 <!ENTITY showAbToolbarCmd.label			"アドレス帳ツールバー">
 <!ENTITY showAbToolbarCmd.accesskey		"o">
 <!ENTITY showTaskbarCmd.label			"ステータスバー">
 <!ENTITY showTaskbarCmd.accesskey		"S"> 
 <!ENTITY customizeToolbar.label			"カスタマイズ...">
 <!ENTITY customizeToolbar.accesskey		"C">
-<!ENTITY showContactPane.label			"連絡先要約ペイン">
-<!ENTITY showContactPane.accesskey		"C">
+<!ENTITY layoutMenu.label			"レイアウト">
+<!ENTITY layoutMenu.accesskey			"L">
+<!ENTITY showDirectoryPane.label		"アドレス帳ペイン"><!-- en-US: "Directory Pane" -->
+<!ENTITY showDirectoryPane.accesskey		"D">
+<!ENTITY showContactPane2.label			"連絡先ペイン">
+<!ENTITY showContactPane2.accesskey		"C">
 <!ENTITY menu_ShowNameAs.label			"名前の表示">
 <!ENTITY menu_ShowNameAs.accesskey		"n">
-<!ENTITY firstLastCmd.label			"名前 姓">
-<!ENTITY firstLastCmd.accesskey			"f">
+<!-- LOCALIZATION NOTE (firstLastCmd2.label): We're not including a comma here
+because displayed names don't have the comma in between. -->
+<!ENTITY firstLastCmd2.label			"名前 姓">
+<!ENTITY firstLastCmd2.accesskey		"f">
 <!ENTITY lastFirstCmd.label			"姓 名前">
 <!ENTITY lastFirstCmd.accesskey			"l">
 <!ENTITY displayNameCmd.label			"表示名">
@@ -152,8 +164,8 @@
 <!ENTITY GeneratedName.accesskey		"N">
 <!ENTITY PrimaryEmail.label			"メールアドレス">
 <!ENTITY PrimaryEmail.accesskey			"E">
-<!ENTITY ScreenName.label			"スクリーンネーム">
-<!ENTITY ScreenName.accesskey			"S">
+<!ENTITY ChatName.label				"チャットネーム">
+<!ENTITY ChatName.accesskey			"C">
 <!ENTITY Company.label				"組織">
 <!ENTITY Company.accesskey			"z">
 <!ENTITY NickName.label				"ニックネーム">
@@ -185,6 +197,7 @@
 <!-- Box Headings -->
 <!ENTITY contact.heading			"連絡先">
 <!ENTITY home.heading				"自宅">
+<!ENTITY chat.heading				"チャット">
 <!ENTITY other.heading				"その他">
 <!ENTITY phone.heading				"電話番号">
 <!ENTITY work.heading				"勤務先">

@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- Note: each tab panel must contain unique accesskeys -->
 
 <!ENTITY generalTab.label			"一般">
@@ -17,14 +21,21 @@
 <!ENTITY useAutoScroll.accesskey		"a">
 <!ENTITY useSmoothScrolling.label		"スムーズスクロール機能を使用する">
 <!ENTITY useSmoothScrolling.accesskey		"m">
+<!ENTITY allowHWAccel.label			"ハードウェアアクセラレーション機能を使用する (可能な場合)">
+<!ENTITY allowHWAccel.accesskey			"r">
 <!ENTITY checkSpelling.label			"自動スペルチェック機能を使用する">
 <!ENTITY checkSpelling.accesskey		"t">
 
 <!ENTITY systemDefaults.label			"@@DefaultBrowser@@">
 <!ENTITY alwaysCheckDefault.label		"起動時に &brandShortName; が@@DefaultBrowser@@であるか確認する"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey		"w">
-<!ENTITY checkNow.label				"今すぐ確認">
-<!ENTITY checkNow.accesskey			"N">
+<!ENTITY setDefault.label			"&brandShortName; を@@DefaultBrowser@@に設定する">
+<!ENTITY setDefault.accesskey			"d">
+<!ENTITY isDefault.label			"&brandShortName; は@@DefaultBrowser@@に設定されています">
+<!ENTITY submitCrashes.label			"クラッシュレポートを送信する">
+<!ENTITY submitCrashes.accesskey		"S">
+<!ENTITY submitTelemetry.label			"パフォーマンス情報を送信する">
+<!ENTITY submitTelemetry.accesskey		"P">
 
 <!ENTITY networkTab.label			"ネットワーク">
 
@@ -34,46 +45,55 @@
 <!ENTITY connectionSettings.label		"接続設定...">
 <!ENTITY connectionSettings.accesskey		"e">
 
-<!ENTITY offlineStorage.label			"オフラインデータ"><!-- (^^; キャッシュとオフライン作業用データ -->
+<!ENTITY httpCache.label			"キャッシュされた Web ページ">
+
+<!ENTITY offlineStorage2.label			"オフライン Web ページとユーザデータ">
 
 <!-- LOCALIZATION NOTE:
-  The entities useCacheBefore.label and useCacheAfter.label appear on a single
+  The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
 
-  &useCacheBefore.label  [ textbox for cache size in MB ]   &useCacheAfter.label;
+  &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-<!ENTITY useCacheBefore.label			"ページキャッシュとして ">
-<!ENTITY useCacheBefore.accesskey		"U">
-<!ENTITY useCacheAfter.label			"MB まで使用する">
-
+<!ENTITY limitCacheSizeBefore.label		"ページキャッシュとして ">
+<!ENTITY limitCacheSizeBefore.accesskey		"L">
+<!ENTITY limitCacheSizeAfter.label		"MB まで使用する">
 <!ENTITY clearCacheNow.label			"今すぐ消去">
 <!ENTITY clearCacheNow.accesskey		"C">
+<!ENTITY clearOfflineAppCacheNow.label		"今すぐ消去">
+<!ENTITY clearOfflineAppCacheNow.accesskey	"N">
+<!ENTITY overrideSmartCacheSize.label		"キャッシュサイズを制限する">
+<!ENTITY overrideSmartCacheSize.accesskey	"O">
 
 <!ENTITY updateTab.label			"更新">
 
-<!ENTITY autoCheck.label			"次のソフトウェアの更新を自動的に確認する:">
-<!ENTITY enableAppUpdate.label			"&brandShortName;">
-<!ENTITY enableAppUpdate.accesskey		"F">
-<!ENTITY enableAddonsUpdate.label		"アドオン">
-<!ENTITY enableAddonsUpdate.accesskey		"n">
-<!ENTITY enableSearchUpdate.label		"検索エンジン">
-<!ENTITY enableSearchUpdate.accesskey		"h">
-<!ENTITY whenUpdatesFound.label			"&brandShortName; の更新が見つかったとき:">
-<!ENTITY askMe.label				"どうするか確認する">
-<!ENTITY askMe.accesskey			"k">
-<!ENTITY modeAutomatic.label			"自動的に更新をダウンロードしてインストールする">
-<!ENTITY modeAutomatic.accesskey		"d">
-<!ENTITY modeAutoAddonWarn.label		"更新によりアドオンが無効化される場合は警告する">
-<!ENTITY modeAutoAddonWarn.accesskey		"W">
+<!ENTITY updateApp.label			"&brandShortName; の更新:">
+<!ENTITY updateAuto.label			"自動的に更新をインストールする (推奨: セキュリティ向上)">
+<!ENTITY updateAuto.accesskey			"A">
+<!ENTITY updateCheck.label			"更新の確認は行うが、インストールするかどうかを選択する">
+<!ENTITY updateCheck.accesskey			"C">
+<!ENTITY updateManual.label			"更新の確認は行わない (非推奨: セキュリティリスク)">
+<!ENTITY updateManual.accesskey			"N">
+
+<!ENTITY updateAutoAddonWarn.label		"更新によりアドオンが無効化される場合は警告する">
+<!ENTITY updateAutoAddonWarn.accesskey		"W">
+
 <!ENTITY updateHistory.label			"更新履歴を表示...">
 <!ENTITY updateHistory.accesskey		"p">
+
+<!ENTITY useService.label			"更新のインストールにバックグラウンドサービスを使用する">
+<!ENTITY useService.accesskey			"b">
+
+<!ENTITY updateOthers.label			"次のソフトウェアを自動的に更新する:">
+<!ENTITY enableSearchUpdate.label		"検索エンジン">
+<!ENTITY enableSearchUpdate.accesskey		"E">
 
 <!ENTITY offlineNotify.label			"Web サイトがオフライン作業用データの保存を求めてきたときに知らせる">
 <!ENTITY offlineNotify.accesskey		"T">
 <!ENTITY offlineNotifyExceptions.label		"例外サイト...">
 <!ENTITY offlineNotifyExceptions.accesskey	"x">
 
-<!ENTITY offlineAppsList.label			"オフライン作業用のデータを保存している Web サイト:">
+<!ENTITY offlineAppsList2.label			"オフライン作業用のデータの保存を許可している Web サイト:">
 <!ENTITY offlineAppsList.height			"7em"><!-- en-US: 7em -->
 <!ENTITY offlineAppsListRemove.label		"削除...">
 <!ENTITY offlineAppsListRemove.accesskey	"R">

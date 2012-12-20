@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY settings.caption		"設定">
 <!ENTITY security.caption		"セキュリティと認証">
 <!ENTITY serverName.label		"サーバ名:">
@@ -6,12 +10,8 @@
 <!ENTITY serverDescription.accesskey	"D">
 <!ENTITY serverPort.label		"ポート番号:">
 <!ENTITY serverPort.accesskey		"P">
-<!ENTITY alwaysUseUsername.label	"ユーザ名とパスワードを使用する">
-<!ENTITY alwaysUseUsername.accesskey	"U">
 <!ENTITY userName.label			"ユーザ名:">
 <!ENTITY userName.accesskey		"m">
-<!ENTITY useSecAuth.label		"保護された認証を使用する">
-<!ENTITY useSecAuth.accesskey		"i">
 <!ENTITY connectionSecurity.label	"接続の保護:">
 <!ENTITY connectionSecurity.accesskey	"n">
 <!ENTITY connectionSecurityType-0.label	"なし">
@@ -20,3 +20,5 @@
 <!ENTITY connectionSecurityType-3.label	"SSL/TLS">
 <!ENTITY smtpEditTitle.label		"送信 (SMTP) サーバ">
 <!ENTITY serverPortDefault.label	"@@DefaultValue@@:">
+<!ENTITY authMethod.label		"認証方式:">
+<!ENTITY authMethod.accesskey		"i">

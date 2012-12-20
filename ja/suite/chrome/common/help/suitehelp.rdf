@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 
 <!DOCTYPE window [
     <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
@@ -31,7 +35,7 @@
                         nc:datasources="rdf:null"
                         nc:platform="win mac os2 unix"
                         nc:emptysearchtext="[No matching items found.]"
-                        nc:emptysearchlink="chrome://help/locale/welcome.xhtml#search_tips"/>
+                        nc:emptysearchlink="help_help.xhtml#search_tips"/>
                 </li>
                 <li>
                     <Description nc:panelid="glossary"

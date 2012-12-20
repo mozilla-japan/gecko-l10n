@@ -1,18 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!--LOCALIZATION NOTE : FILE 'Advanced' prefs settings -->
-<!ENTITY pref.advanced.title "詳細">
+<!ENTITY pref.advanced.title        "詳細">
 
-<!ENTITY prefEnableJava.caption "Web ページで補助的に利用される機能">
+<!ENTITY systemPref.caption         "システム設定">
+<!ENTITY systemPrefCheck.label      "システムの標準設定を使用する">
+<!ENTITY systemPrefCheck.accesskey  "U">
+<!ENTITY systemPref.desc            "この項目にチェックを入れると、&brandShortName; 独自の設定よりもシステム標準の設定を優先するようになります。">
 
-<!ENTITY enbJavaCheck.label "Java を有効にする">
-<!ENTITY enbJavaCheck.accesskey "J">
+<!ENTITY prefCheckDefault.caption   "システム統合">
+<!ENTITY prefCheckDefaultClient.label "起動時に@@DefaultApplication@@の設定を確認する">
+<!ENTITY prefCheckDefaultClient.accesskey "C">
 
-<!ENTITY prefJvmConf.caption "使用する Java のバージョン (再起動後に有効)">
-<!ENTITY jvm.name "バージョン">
-<!ENTITY jvm.home "パス">
-
-<!ENTITY systemPref.caption "システム設定">
-<!ENTITY systemPrefCheck.label "システムの標準設定を使用する">
-<!ENTITY systemPrefCheck.accesskey "U">
-<!ENTITY systemPref.desc "この項目をチェックすると、システム標準の設定を &brandShortName; 独自の設定よりも優先するようになります。">
-
+<!ENTITY crashReports.caption       "クラッシュレポータ">
+<!ENTITY submitCrashes.label        "クラッシュレポートを送信する">
+<!ENTITY submitCrashes.accesskey    "S">

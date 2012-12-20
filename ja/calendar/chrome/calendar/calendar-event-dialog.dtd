@@ -1,48 +1,11 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Cedric Corazza <cedric.corazza@wanadoo.fr>
-   -   Michael Buettner <michael.buettner@sun.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
-   -   Stefan Sitter <ssitter@gmail.com>
-   -   Martin Schroeder <mschroeder@mozilla.x-home.org>
-   -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
-   -   Fred Jendrzejewski <fred.jen@web.de>
-   -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY event.title.label				"項目を編集" >
+<!ENTITY event.title.label				"項目の編集" >
+
+<!ENTITY event.dialog.keepDurationButton.tooltip	"終了日時を変更しても期間の長さを維持します">
+<!ENTITY event.dialog.keepDurationButton.accesskey	"K">
 
 <!ENTITY newevent.from.label				"開始日時" >
 <!ENTITY newevent.to.label				"終了日時" >
@@ -50,10 +13,12 @@
 
 <!ENTITY newevent.status.label				"状態" >
 <!ENTITY newevent.status.accesskey			"S" >
-<!ENTITY newevent.status.none.label			"指定なし" >
-<!ENTITY newevent.status.none.accesskey			"o" >
-<!ENTITY newevent.status.cancelled.label		"キャンセル" >
-<!ENTITY newevent.status.cancelled.accesskey		"n" >
+<!ENTITY newevent.eventStatus.none.label		"指定なし" >
+<!ENTITY newevent.eventStatus.none.accesskey		"o" >
+<!ENTITY newevent.todoStatus.none.label			"指定なし" >
+<!ENTITY newevent.eventStatus.cancelled.label		"キャンセル" >
+<!ENTITY newevent.eventStatus.cancelled.accesskey	"n" >
+<!ENTITY newevent.todoStatus.cancelled.label		"キャンセル" >
 <!ENTITY newevent.status.tentative.label		"未確認" >
 <!ENTITY newevent.status.tentative.accesskey		"T" >
 <!ENTITY newevent.status.confirmed.label		"確認済み" >
@@ -65,27 +30,44 @@
 <!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label			"&#37;">
 
+<!-- Keyboard Shortcuts -->
+<!ENTITY event.dialog.new.event.key2			"I">
+<!ENTITY event.dialog.new.task.key2			"D">
+<!ENTITY event.dialog.new.message.key2			"N">
+<!ENTITY event.dialog.close.key				"W">
+<!ENTITY event.dialog.save.key				"S">
+<!ENTITY event.dialog.saveandclose.key			"L">
+<!ENTITY event.dialog.print.key				"P">
+<!ENTITY event.dialog.undo.key				"Z">
+<!ENTITY event.dialog.redo.key				"Y">
+<!ENTITY event.dialog.cut.key				"X">
+<!ENTITY event.dialog.copy.key				"C">
+<!ENTITY event.dialog.paste.key				"V">
+<!ENTITY event.dialog.select.all.key			"A">
+
 <!-- Menubar -->
-<!ENTITY  event.menu.file.label				"ファイル">
-<!ENTITY  event.menu.file.accesskey			"F">
-<!ENTITY  event.menu.file.new.label			"新規作成">
-<!ENTITY  event.menu.file.new.accesskey			"N">
-<!ENTITY  event.menu.file.new.event.label		"予定">
-<!ENTITY  event.menu.file.new.event.accesskey		"E">
-<!ENTITY  event.menu.file.new.message.label		"メッセージ">
-<!ENTITY  event.menu.file.new.message.accesskey		"M">
-<!ENTITY  event.menu.file.new.contact.label		"アドレス帳の連絡先">
-<!ENTITY  event.menu.file.new.contact.accesskey		"C">
-<!ENTITY  event.menu.file.close.label			"閉じる">
-<!ENTITY  event.menu.file.close.accesskey		"C">
-<!ENTITY  event.menu.file.save.label			"保存">
-<!ENTITY  event.menu.file.save.accesskey		"S">
+<!ENTITY  event.menu.item.new.label			"新規作成">
+<!ENTITY  event.menu.item.new.accesskey			"N">
+<!ENTITY  event.menu.item.new.event.label		"予定">
+<!ENTITY  event.menu.item.new.event.accesskey		"E">
+<!ENTITY  event.menu.item.new.task.label		"ToDo">
+<!ENTITY  event.menu.item.new.task.accesskey		"T">
+<!ENTITY  event.menu.item.new.message.label		"メッセージ">
+<!ENTITY  event.menu.item.new.message.accesskey		"M">
+<!ENTITY  event.menu.item.new.contact.label		"アドレス帳の連絡先">
+<!ENTITY  event.menu.item.new.contact.accesskey		"C">
+<!ENTITY  event.menu.item.close.label			"閉じる">
+<!ENTITY  event.menu.item.close.accesskey		"C">
+<!ENTITY  event.menu.item.save.label			"保存">
+<!ENTITY  event.menu.item.save.accesskey		"S">
+<!ENTITY  event.menu.item.saveandclose.label		"保存して閉じる">
+<!ENTITY  event.menu.item.saveandclose.accesskey	"l">
 <!ENTITY  event.menu.item.delete.label			"削除...">
 <!ENTITY  event.menu.item.delete.accesskey		"D">
-<!ENTITY  event.menu.file.page.setup.label		"ページ設定">
-<!ENTITY  event.menu.file.page.setup.accesskey		"u">
-<!ENTITY  event.menu.file.print.label			"@@Print@@">
-<!ENTITY  event.menu.file.print.accesskey		"P">
+<!ENTITY  event.menu.item.page.setup.label		"ページ設定">
+<!ENTITY  event.menu.item.page.setup.accesskey		"u">
+<!ENTITY  event.menu.item.print.label			"@@Print@@">
+<!ENTITY  event.menu.item.print.accesskey		"P">
 
 <!ENTITY  event.menu.edit.label				"編集">
 <!ENTITY  event.menu.edit.accesskey			"E">
@@ -115,8 +97,6 @@
 
 <!ENTITY  event.menu.options.label				"オプション">
 <!ENTITY  event.menu.options.accesskey				"O">
-<!ENTITY  event.menu.options.attachments.label			"URL を添付..."><!-- (^a^) en-US: Attach Webpage… https://bugzilla.mozilla.org/show_bug.cgi?id=319909#c25 Tb とは機能が違うので、合わせない -->
-<!ENTITY  event.menu.options.attachments.accesskey		"W">
 <!ENTITY  event.menu.options.attendees.label			"参加者を追加...">
 <!ENTITY  event.menu.options.attendees.accesskey		"I">
 <!ENTITY  event.menu.options.spellcheck.label			"スペルチェック...">
@@ -125,8 +105,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey	"S">
 <!ENTITY  event.menu.options.link.label				"リンクを追加...">
 <!ENTITY  event.menu.options.link.accesskey			"L">
-<!ENTITY  event.menu.options.timezone.label			"タイムゾーン">
-<!ENTITY  event.menu.options.timezone.accesskey			"z">
+<!ENTITY  event.menu.options.timezone2.label			"タイムゾーンを表示">
+<!ENTITY  event.menu.options.timezone2.accesskey		"z">
 <!ENTITY  event.menu.options.priority2.label			"重要度">
 <!ENTITY  event.menu.options.priority2.accesskey		"y">
 <!ENTITY  event.menu.options.priority.notspecified.label	"指定なし">
@@ -152,15 +132,6 @@
 <!ENTITY  event.menu.options.show.time.free.label		"空き">
 <!ENTITY  event.menu.options.show.time.free.accesskey		"F">
 
-<!ENTITY event.help.label				"ヘルプ">
-<!ENTITY event.help.accesskey				"H">
-<!ENTITY event.help.release.notes.label			"リリースノート">
-<!ENTITY event.help.release.notes.accesskey		"R">
-<!ENTITY event.help.help.label				"&brandShortName; ヘルプ">
-<!ENTITY event.help.help.accesskey			"H">
-<!ENTITY event.help.about.label				"&brandShortName; について">
-<!ENTITY event.help.about.accesskey			"A">
-
 <!ENTITY event.invite.attendees.label			"参加者を追加...">
 <!ENTITY event.invite.attendees.accesskey		"I">
 <!ENTITY event.email.attendees.label			"参加者全員にメッセージを作成...">
@@ -174,11 +145,10 @@
 <!ENTITY  event.toolbar.attendees.label			"参加者を追加">
 <!ENTITY  event.toolbar.spellcheck.label		"スペル">
 <!ENTITY  event.toolbar.privacy.label			"プライバシー">
-<!ENTITY  event.toolbar.attachments.label		"URL 添付">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label			"件名:" >
-<!ENTITY event.title.textbox.accesskey			"T">
+<!ENTITY event.title.textbox.accesskey			"I">
 <!ENTITY event.location.label				"場所:" >
 <!ENTITY event.location.accesskey			"L">
 <!ENTITY event.categories.label				"カテゴリ:">
@@ -207,6 +177,11 @@
 <!ENTITY event.description.accesskey			"p">
 <!ENTITY event.attachments.label			"添付:" >
 <!ENTITY event.attachments.accesskey			"h" >
+<!ENTITY event.attachments.menubutton.label		"添付">
+<!ENTITY event.attachments.menubutton.accesskey		"A">
+<!ENTITY event.attachments.url.label			"Web ページ...">
+<!ENTITY event.attachments.url.accesskey		"W">
+
 <!ENTITY event.attachments.popup.remove.label		"削除" >
 <!ENTITY event.attachments.popup.remove.accesskey	"R" >
 <!ENTITY event.attachments.popup.open.label		"開く" >
@@ -219,15 +194,13 @@
 <!ENTITY event.priority2.label				"重要度:">
 
 <!ENTITY event.reminder.none.label			"通知しない" >
+<!ENTITY event.reminder.0minutes.before.label		"0 分前" >
 <!ENTITY event.reminder.5minutes.before.label		"5 分前" >
-<!ENTITY event.reminder.10minutes.before.label		"10 分前" >
 <!ENTITY event.reminder.15minutes.before.label		"15 分前" >
 <!ENTITY event.reminder.30minutes.before.label		"30 分前" >
-<!ENTITY event.reminder.45minutes.before.label		"45 分前" >
 <!ENTITY event.reminder.1hour.before.label		"1 時間前" >
 <!ENTITY event.reminder.2hours.before.label		"2 時間前" >
-<!ENTITY event.reminder.5hours.before.label		"5 時間前" >
-<!ENTITY event.reminder.15hours.before.label		"15 時間前" >
+<!ENTITY event.reminder.12hours.before.label		"12 時間前" >
 <!ENTITY event.reminder.1day.before.label		"1 日前" >
 <!ENTITY event.reminder.2days.before.label		"2 日前" >
 <!ENTITY event.reminder.1week.before.label		"1 週間前" >
@@ -236,7 +209,7 @@
 <!ENTITY event.reminder.multiple.label			"複数のアラーム..." >
 
 <!-- Recurrence dialog -->
-<!ENTITY recurrence.title.label				"周期を編集">
+<!ENTITY recurrence.title.label				"周期の編集">
 
 <!ENTITY event.repeat.does.not.repeat.label		"繰り返さない">
 <!ENTITY event.repeat.daily.label			"毎日">
@@ -348,8 +321,6 @@
 <!ENTITY event.freebusy.next.slot			"次の時間帯 " >
 <!ENTITY event.freebusy.previous.slot			" 前の時間帯" >
 <!ENTITY event.freebusy.zoom				"@@Zoom@@:">
-<!ENTITY event.freebusy.plus				"次の時間" >
-<!ENTITY event.freebusy.minus				"前の時間" >
 <!ENTITY event.freebusy.legend.free			"空き" >
 <!ENTITY event.freebusy.legend.busy			"予定あり" >
 <!ENTITY event.freebusy.legend.busy_tentative		"未確認" >
@@ -358,13 +329,23 @@
 <!ENTITY event.attendee.role.required			"参加必須">
 <!ENTITY event.attendee.role.optional			"参加任意">
 <!ENTITY event.attendee.role.chair			"司会者">
+<!ENTITY event.attendee.role.nonparticipant		"参加者なし">
+<!ENTITY event.attendee.usertype.individual		"個人">
+<!ENTITY event.attendee.usertype.group			"グループ">
+<!ENTITY event.attendee.usertype.resource		"リソース">
+<!ENTITY event.attendee.usertype.room			"部屋">
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label				"タイムゾーンを指定してください">
+<!ENTITY event.timezone.custom.label			"他のタイムゾーン...">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label			"一般">
 <!ENTITY read.only.title.label				"件名:">
+<!ENTITY read.only.event.start.label			"開始日時:">
+<!ENTITY read.only.task.start.label			"着手日時:">
+<!ENTITY read.only.event.end.label			"終了日時:">
+<!ENTITY read.only.task.due.label			"締切日時:">
 <!ENTITY read.only.repeat.label				"繰り返し:">
 <!ENTITY read.only.location.label			"場所:">
 <!ENTITY read.only.category.label			"カテゴリ:">

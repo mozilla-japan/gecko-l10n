@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY messengerStartPage.label	"&brandShortName; スタートページ">
 <!ENTITY enableStartPage.label		"起動時にメッセージペインにスタートページを表示する">
 <!ENTITY enableStartPage.accesskey	"W">
@@ -27,9 +31,3 @@
 <!ENTITY customsound.accesskey		"U">
 <!ENTITY browse.label			"@@Browse@@...">
 <!ENTITY browse.accesskey		"B">
-
-<!ENTITY addonsMgr.label		"アドオン">
-<!ENTITY manageAddonsDescWin.label	"アドオンの設定を変更できます。">
-<!ENTITY manageAddonsDescUnix2.label	"アドオンの設定を変更できます。">
-<!ENTITY manageAddons.label		"アドオンを管理...">
-<!ENTITY manageAddons.accesskey		"M">

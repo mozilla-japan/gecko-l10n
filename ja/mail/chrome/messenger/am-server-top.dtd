@@ -1,5 +1,10 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- extracted from am-server-top.xul -->
 
+<!ENTITY messageStorage.label		"メッセージの保存">
 <!ENTITY securitySettings.label		"セキュリティ設定">
 <!ENTITY serverSettings.label		"サーバ設定">
 <!ENTITY serverType.label		"サーバの種類:">
@@ -24,8 +29,8 @@
 <!ENTITY connectionSecurityType-1.label	"STARTTLS (可能な場合)">
 <!ENTITY connectionSecurityType-2.label	"STARTTLS">
 <!ENTITY connectionSecurityType-3.label	"SSL/TLS">
-<!ENTITY useSecAuth.label		"保護された認証 (APOP, NTLM, CRAM-MD5 や Kerberos) を使用する"><!-- (^^; http://lxr.mozilla.org/mozilla1.8/source/mailnews/local/src/nsPop3Protocol.cpp#1422 -->
-<!ENTITY useSecAuth.accesskey		"i">
+<!ENTITY authMethod.label		"認証方式:">
+<!ENTITY authMethod.accesskey		"i">
 <!ENTITY leaveOnServer.label		"ダウンロード後もサーバにメッセージを残す">
 <!ENTITY leaveOnServer.accesskey	"g">
 <!ENTITY headersOnly.label		"ヘッダのみ取得する">
@@ -63,16 +68,19 @@
 <!ENTITY alwaysAuthenticate.label	"サーバへ接続するときは必ず認証を要求する">
 <!ENTITY alwaysAuthenticate.accesskey	"w">
 <!ENTITY newsrcFilePath.label		"newsrc ファイル:">
-<!ENTITY localPath.label		"メッセージの保存先:"><!-- en-US: Local directory -->
+<!ENTITY newsrcPicker.label		"newsrc ファイルを選択してください">
 <!ENTITY abbreviate.label		"ニュースグループ名の表示形式:">
 <!ENTITY abbreviateOn.label		"完全名 (例: netscape.public.mozilla.mail-news)">
 <!ENTITY abbreviateOff.label		"短縮名 (例: n.p.m.mail-news)">
 <!ENTITY advancedButton.label		"詳細...">
 <!ENTITY advancedButton.accesskey	"v">
 <!ENTITY serverDefaultCharset.label	"@@Default-@@文字エンコーディング:">
+<!ENTITY localPath.label		"メッセージの保存先:"><!-- en-US: Local directory -->
 <!ENTITY localFolderPicker.label	"メッセージデータの保存先を選択してください">
 <!ENTITY browseFolder.label		"@@Browse@@...">
 <!ENTITY browseFolder.accesskey		"B">
-<!ENTITY newsrcPicker.label		"newsrc ファイルを選択してください">
 <!ENTITY browseNewsrc.label		"@@Browse@@...">
 <!ENTITY browseNewsrc.accesskey		"e">
+
+<!ENTITY accountTitle.label		"アカウント設定">
+<!ENTITY accountSettingsDesc.label	"これは特殊なアカウントであり、特定の差出人情報はありません。">

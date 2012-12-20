@@ -1,4 +1,0 @@
-<!ENTITY findFiles.title	"ファイルを検索...">
-<!ENTITY txSearchFor.label	"検索:">
-<!ENTITY txSearchPath.label	"検索フォルダ:">
-<!ENTITY cbRecurse.label	"サブフォルダも検索">

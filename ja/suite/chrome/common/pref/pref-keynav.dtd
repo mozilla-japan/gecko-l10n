@@ -1,20 +1,20 @@
-<!ENTITY findAsYouTypeAutoLinks.accesskey "o">
-<!ENTITY findAsYouTypeAutoLinks.label "リンクのみ">
-<!ENTITY findAsYouTypeAutoText.accesskey "A">
-<!ENTITY findAsYouTypeAutoText.label "ページ中のすべての文字">
-<!ENTITY findAsYouTypeBehavior.label "タイプ検索 (Find As You Type)">
-<!ENTITY findAsYouTypeEnableAuto.accesskey "a">
-<!ENTITY findAsYouTypeEnableAuto.label "打った文字と同じ部分を自動的に探す機能:">
-<!ENTITY findAsYouTypeSound.accesskey "P">
-<!ENTITY findAsYouTypeSound.label "見つからなかったときには音を鳴らす">
-<!ENTITY findAsYouTypeTimeout.accesskey "C">
-<!ENTITY findAsYouTypeTimeout.label "文字を探しているとき少し時間があいたらリセットする">
-<!ENTITY findAsYouTypeTip.label "豆知識: 急にタイプ検索 (Find As You Type) をしたくなったときは、『/』を押しましょう。リンクだけでよかったら『'』です。">
-<!ENTITY pref.keyNav.title "キーボード ナビゲーション">
-<!ENTITY tabNavigationBehavior.label "タブ キー ナビゲーション">
-<!ENTITY tabNavigationDesc.label "Tab か Shift+Tab を押したときの移動先:">
-<!ENTITY tabNavigationForms.accesskey "B">
-<!ENTITY tabNavigationForms.label "ボタン、ラジオボタン、チェックボックス、リスト要素">
-<!ENTITY tabNavigationLinks.accesskey "L">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY pref.keyNav.title "キーボードナビゲーション">
+<!ENTITY tabNavigationBehavior.label "タブキーナビゲーション">
 <!ENTITY tabNavigationLinks.label "リンク">
-<!ENTITY tabNavigationTextboxes.label "注: いずれの設定でもテキスト ボックスとフレーム類は含まれます。">
+<!ENTITY tabNavigationLinks.accesskey "L">
+<!ENTITY tabNavigationForms.label "ボタン、ラジオボタン、チェックボックス、リスト要素">
+<!ENTITY tabNavigationForms.accesskey "B">
+<!ENTITY tabNavigationTextboxes.label "注: いずれの設定でも、テキストボックスとスクロール可能な領域が含まれます。">
+<!ENTITY tabNavigationDesc.label "Tab か Shift+Tab を押したときの移動先:">
+<!ENTITY accessibilityBrowseWithCaret.label "キャレットブラウズ">
+<!ENTITY browseWithCaretDesc.label "キャレットブラウズモードをオンにすると、Web ページ中を移動可能なカーソル (キャレット) が表示され、キーボードでテキストを選択できるようになります。">
+<!ENTITY browseWithCaretUse.label "キャレットブラウズを利用する">
+<!ENTITY browseWithCaretUse.accesskey "U">
+<!ENTITY browseWithCaretShortCut.label "F7 キーを押したときキャレットブラウズモードに切り替える">
+<!ENTITY browseWithCaretShortCut.accesskey "F">
+<!ENTITY browseWithCaretWarn.label "キャレットブラウズを有効にする前に警告を出す">
+<!ENTITY browseWithCaretWarn.accesskey "W">

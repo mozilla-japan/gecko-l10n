@@ -1,22 +1,33 @@
-<!--LOCALIZATION NOTE : FILE UI for Software Updates prefs -->
-<!ENTITY pref.smartUpdate.title "ソフトウェア インストール">
-<!ENTITY smartTitle.label "ソフトウェアのインストールと更新を管理します">
-<!ENTITY enableSU.label "拡張機能や更新のインストールを許可する">
-<!ENTITY enableSU.accesskey "e">
-<!ENTITY allowedSites.label "許可されたサイト">
-<!ENTITY allowedSites.accesskey "A">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY verifyUpdates.caption                "更新">
-<!ENTITY autoUpdates.label                    "次の更新を自動的にチェックする:">
-<!ENTITY appUpdates.label                     "&brandShortName;">
-<!ENTITY appUpdates.accesskey                 "S">
+<!--LOCALIZATION NOTE : FILE UI for Software Updates prefs -->
+<!ENTITY pref.smartUpdate.title               "ソフトウェアのインストール">
+<!ENTITY addOnsTitle.label                    "アドオン">
+<!ENTITY addOnsAllow.label                    "この Web サイトからアドオンのインストールと更新を許可する">
+<!ENTITY addOnsAllow.accesskey                "b">
+<!ENTITY allowedSitesLink.label               "許可された Web サイト">
+<!ENTITY autoAddOnsUpdates.label              "更新を自動で確認">
+<!ENTITY autoAddOnsUpdates.accesskey          "o">
 <!ENTITY daily.label                          "毎日">
-<!ENTITY appDaily.accesskey                   "d">
+<!ENTITY addOnsDaily.accesskey                "d">
 <!ENTITY weekly.label                         "毎週">
-<!ENTITY appWeekly.accesskey                  "w">
-<!ENTITY extensionsUpdates.label              "インストールしているアドオン">
-<!ENTITY extensionsUpdates.accesskey          "n">
-<!ENTITY extensionsDaily.accesskey            "i">
-<!ENTITY extensionsWeekly.accesskey           "k">
-<!ENTITY addonManagerButton.label             "アドオンマネージャ">
-<!ENTITY addonManagerButton.accesskey         "M">
+<!ENTITY addOnsWeekly.accesskey               "k">
+<!ENTITY addOnsModeAutomatic.label            "自動で更新をダウンロードしてインストールする">
+<!ENTITY addOnsModeAutomatic.accesskey        "m">
+<!ENTITY enablePersonalized.label             "推奨するアドオン"><!--en-US "Personalize add-on recommendations" (^^;-->
+<!ENTITY enablePersonalized.accesskey         "P">
+<!ENTITY addonManagerLink.label               "アドオンの管理">
+
+<!ENTITY appUpdates.caption                   "&brandShortName;">
+<!ENTITY autoAppUpdates.label                 "更新を自動で確認する">
+<!ENTITY autoAppUpdates.accesskey             "t">
+<!ENTITY appDaily.accesskey                   "a">
+<!ENTITY appWeekly.accesskey                  "e">
+<!ENTITY appModeAutomatic.label               "自動で更新をダウンロードしてインストールする">
+<!ENTITY appModeAutomatic.accesskey           "u">
+<!ENTITY appModeAutoAddonWarn.label           "アドオンが無効化される場合は警告する">
+<!ENTITY appModeAutoAddonWarn.accesskey       "n">
+<!ENTITY updateHistoryButton.label            "更新履歴を表示...">
+<!ENTITY updateHistoryButton.accesskey        "S">

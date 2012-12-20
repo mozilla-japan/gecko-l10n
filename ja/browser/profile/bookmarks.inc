@@ -1,3 +1,6 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #filter emptyLines
 
 # LOCALIZATION NOTE: The 'en-US' strings in the URLs will be replaced with
@@ -7,22 +10,12 @@
 #define bookmarks_title ブックマーク
 #define bookmarks_heading ブックマーク
 
-# LOCALIZATION NOTE (bookmarks_addons):
-# link title for https://en-US.add-ons.mozilla.com/en-US/firefox/bookmarks/
-#define bookmarks_addons ブックマークのアドオンを入手
-
 #define bookmarks_toolbarfolder ブックマークツールバーフォルダ
 #define bookmarks_toolbarfolder_description このフォルダの中身がブックマークツールバーに表示されます
 
 # LOCALIZATION NOTE (getting_started):
 # link title for http://en-US.www.mozilla.com/en-US/firefox/central/
 #define getting_started Firefox を使いこなそう
-
-# LOCALIZATION NOTE (latest_headlines):
-# link title for the live bookmarks sample, a redirect on
-# http://en-US.fxfeeds.mozilla.com/en-US/firefox/headlines.xml
-# Changing the redirect is subject to approval of l10n-drivers.
-#define latest_headlines 最新ニュース
 
 # LOCALIZATION NOTE (firefox_heading):
 # Firefox links folder name

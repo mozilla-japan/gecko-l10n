@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY mnEditUndo.label		"@@Undo@@">
 <!ENTITY mnEditUndo.accesskey		"u">
 <!ENTITY mnEditRedo.label		"@@Redo@@">
@@ -14,3 +18,10 @@
 <!ENTITY mnEditEdit.accesskey		"e">
 <!ENTITY mnEditDelete.label		"削除">
 <!ENTITY mnEditDelete.accesskey		"d">
+<!ENTITY mnEditInspectInNewWindow.label	"@@NewWindow@@で調査">
+<!ENTITY mnEditInspectInNewWindow.accesskey	"N">
+<!ENTITY mnEditInspectInNewWindow.key	"I">
+<!ENTITY mnEditCopyFileURI.label	"URI をコピー">
+<!ENTITY mnEditCopyFileURI.accesskey	"U">
+<!ENTITY mnEditViewFileURI.label	"ファイルを表示">
+<!ENTITY mnEditViewFileURI.accesskey	"V">

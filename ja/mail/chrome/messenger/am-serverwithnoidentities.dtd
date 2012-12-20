@@ -1,11 +1,6 @@
-<!ENTITY accountTitle.label		"アカウントの設定">
-<!ENTITY accountSettingsDesc.label	"これは特殊なアカウントであり、特定の差出人情報はありません。">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY accountName.label		"アカウント名:">
 <!ENTITY accountName.accesskey		"N">
-<!ENTITY messageStorage.label		"メッセージの保存">
-<!ENTITY emptyTrashOnExit.label		"終了時に@@TrashFolder@@を空にする">
-<!ENTITY emptyTrashOnExit.accesskey	"x">
-<!ENTITY localPath.label		"メッセージの保存先:">
-<!ENTITY localFolderPicker.label	"メッセージデータの保存先を選択してください">
-<!ENTITY browseFolder.label		"@@Browse@@...">
-<!ENTITY browseFolder.accesskey		"B">

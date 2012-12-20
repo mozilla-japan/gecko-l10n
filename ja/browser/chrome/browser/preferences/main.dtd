@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY startup.label			"起動">
 
 <!ENTITY startupPage.label		"&brandShortName; を起動するとき:">
@@ -5,13 +9,14 @@
 <!ENTITY startupHomePage.label		"ホームページを表示する">
 <!ENTITY startupBlankPage.label		"空白ページを表示する">
 <!ENTITY startupLastSession.label	"前回終了時の@@Window@@とタブを表示する">
-<!ENTITY location.label			"ホームページ:">
-<!ENTITY location.accesskey		"H">
+
+<!ENTITY homepage.label			"ホームページ:">
+<!ENTITY homepage.accesskey		"P">
 <!ENTITY useCurrentPage.label		"現在のページを使用">
 <!ENTITY useCurrentPage.accesskey	"C">
 <!ENTITY useMultiple.label		"現在のタブグループを使用">
-<!ENTITY useBookmark.label		"ブックマークから選択...">
-<!ENTITY useBookmark.accesskey		"B">
+<!ENTITY chooseBookmark.label		"ブックマークを使う...">
+<!ENTITY chooseBookmark.accesskey	"B">
 <!ENTITY restoreDefault.label		"初期設定に戻す">
 <!ENTITY restoreDefault.accesskey	"R">
 
@@ -29,9 +34,3 @@
 <!ENTITY chooseFolderMac.accesskey	"e">
 <!ENTITY alwaysAsk.label		"ファイルごとに保存先を指定する">
 <!ENTITY alwaysAsk.accesskey		"A">
-
-<!ENTITY addonsMgr.label		"アドオン">
-<!ENTITY manageAddonsDescWin.label	"アドオンの設定を変更できます。">
-<!ENTITY manageAddonsDescUnix2.label	"アドオンの設定を変更できます。">
-<!ENTITY manageAddons.label		"アドオンを管理...">
-<!ENTITY manageAddons.accesskey		"M">

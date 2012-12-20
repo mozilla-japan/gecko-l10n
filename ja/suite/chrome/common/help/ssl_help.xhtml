@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
@@ -47,14 +51,14 @@
   protocol is an IETF standard based on SSL. TLS 1.0 can be thought of as SSL
   3.1.</p>
 
-<p>You should normally leave these three checkboxes selected to ensure that
-  both older and newer web servers can work with the browser:</p>
+<p>You should normally leave all of the following checkboxes selected to ensure
+  that both older and newer web servers can work with the browser:</p>
 
 <ul>
-  <li><strong>Enable SSL version 3</strong>: Allows newer web servers to work
-    with the browser.</li>
-  <li><strong>Enable TLS</strong>: Allows web servers that support TLS to take
-    advantage of it.</li>
+  <li><strong>Enable SSL 3.0</strong>: Allows web servers that support SSL 3.0
+    to work with the browser.</li>
+  <li><strong>Enable TLS 1.0</strong>: Allows newer web servers that support TLS
+    to take advantage of it.</li>
 </ul>
 
 <p><strong>Important note regarding TLS</strong>: Some servers that do not
@@ -62,10 +66,10 @@
   software (such as the browser) that supports TLS. Such servers are known as
   <q>TLS intolerant</q>.</p>
 
-<p>When the Enable TLS option in the SSL preferences panel is selected, the
+<p>When the Enable TLS 1.0 option in the SSL preferences panel is selected, the
   browser attempts to use the TLS protocol when making secure connections with
   a server. If that connection fails because the server is TLS intolerant, the
-  browser will fall back to using SSL 3.0.</p>
+  browser will fall back to using SSL 3.0 (if enabled).</p>
 
 <h3 id="ssl_warnings">SSL Warnings</h3>
 
@@ -111,17 +115,15 @@
 
 <ul>
   <li>
-    <a href="http://developer.mozilla.org/en/docs/Introduction_to_Public-Key_Cryptography">Introduction
+    <a href="http://developer.mozilla.org/en/Introduction_to_Public-Key_Cryptography">Introduction
     to Public-Key Cryptography</a></li>
   <li>
-    <a href="http://developer.mozilla.org/en/docs/Introduction_to_SSL">Introduction
+    <a href="http://developer.mozilla.org/en/Introduction_to_SSL">Introduction
     to SSL</a></li>
   <li>
     <a href="http://www.mozilla.org/projects/security/pki/nss/nss-3.11/nss-3.11-algorithms.html">Encryption
     Technologies Available in NSS 3.11</a>.</li>
 </ul>
-
-<p>&copyright.string;</p>
 
 </body>
 </html>

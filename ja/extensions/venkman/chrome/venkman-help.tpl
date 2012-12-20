@@ -1,11 +1,10 @@
+{# This Source Code Form is subject to the terms of the Mozilla Public
+ # License, v. 2.0. If a copy of the MPL was not distributed with this
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/. #}
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
-<!-- Contributor(s):
-   -   Robert Ginda, <rginda@netscape.com>, original author
-   - Javanese Localization by
+<!-- Javanese Localization by
    -   dynamis
-   - 
-   - According to HTML DTD definition, block level element cannnot appear in SPAN element.
-   - But original file use SPAN as container of P or UL and the forth, and I replaced some SPAN with DIV except SPANs defined as block level by css.
    -->
 <html>
   <head>
@@ -109,7 +108,7 @@
         <p>
           このヘルプシステムの他には
           <a href="https://developer.mozilla.org/ja/Venkman">MDC の Venkman ページ</a>
-          <!-- (^^; どこかに Venkman 関連資料を復活させてから…
+          <!-- (^^; どこかに Venkman 関連資料を復活させてから...
           <a href="http://jt.mozilla.gr.jp/projects/venkman/">Venkman ホームページ</a> や
           <a href="http://skillup.jp/venkman/faq/venkman-faq.html">Venkman FAQ</a> -->
           などをご覧ください。</p>

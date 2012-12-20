@@ -1,7 +1,6 @@
-<!ENTITY urlbar.label "ロケーションバーで&#8984;+Return">
-<!ENTITY urlbar.accesskey "L">
-<!ENTITY middleClick.label "Web ページでリンクを中クリックまたは &#8984;+クリック あるいは &#8984;+Return">
-<!ENTITY middleClick.accesskey "M">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
      preference dialog's <window> node, which specifies the width and height
@@ -11,3 +10,9 @@
      XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
      size of this window for en-US. -->
 <!ENTITY  prefWindow.size             "width: 70em; height: 44em;"><!--def"width: 58em; height: 41em;"-->
+
+<!-- pref-tabs.xul -->
+<!ENTITY urlbar.label                 "アドレスバーで &#8984;+Return">
+<!ENTITY urlbar.accesskey             "L">
+<!ENTITY middleClick.label            "Web ページでリンクを中クリックまたは &#8984;+クリックあるいは &#8984;+Return">
+<!ENTITY middleClick.accesskey        "M">

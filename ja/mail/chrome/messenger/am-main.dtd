@@ -1,3 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- extracted from am-main.xul -->
 
 <!ENTITY accountTitle.label		"アカウント設定">
@@ -11,11 +15,12 @@
 <!ENTITY email.accesskey		"E">
 <!ENTITY replyTo.label			"返信先 (Reply-to):">
 <!ENTITY replyTo.accesskey		"s">
+<!ENTITY replyTo.placeholder		"受信者からの返信を受け取るアドレス">
 <!ENTITY organization.label		"組織 (Organization):">
 <!ENTITY organization.accesskey		"O">
 <!ENTITY signatureText.label		"署名編集:">
 <!ENTITY signatureText.accesskey	"x">
-<!ENTITY signatureHtml.label		"HTML 形式にする (例: &lt;b&gt;太字&lt;/b&gt;、改行は &lt;br&gt;)">
+<!ENTITY signatureHtml.label		"HTML 形式で記述する (例: &lt;b&gt;太字&lt;/b&gt;、改行は &lt;br&gt;)">
 <!ENTITY signatureHtml.accesskey	"L">
 <!ENTITY signatureFile.label		"ファイルから署名を挿入する (テキストまたは HTML、画像ファイル):">
 <!ENTITY signatureFile.accesskey	"t">

@@ -1,21 +1,6 @@
-<!ENTITY  untitledTab			"(無題)">
-<!ENTITY  newTab.label			"@@NewTab@@">
-<!ENTITY  newTab.accesskey		"N">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY  closeTab.label		"タブを閉じる"><!-- (^a^) ツールチップに使われているが、メニューにも兼用されているため 閉じます は不可 -->
-<!ENTITY  closeTab.accesskey		"c">
-<!ENTITY  closeOtherTabs.accesskey	"o">
-<!ENTITY  closeOtherTabs.label		"他のタブをすべて閉じる">
-<!ENTITY  reloadAllTabs.label		"すべてのタブを再読み込み">
-<!ENTITY  reloadAllTabs.accesskey	"A">
-<!ENTITY  reloadTab.label		"タブを再読み込み">
-<!ENTITY  reloadTab.accesskey		"r">
-<!ENTITY  openTabInNewWindow.label	"@@NewWindow@@で開く">
-<!ENTITY  openTabInNewWindow.accesskey	"W">
-<!ENTITY  listAllTabs.label		"タブを一覧表示します">
-<!ENTITY  bookmarkAllTabs.label		"すべてのタブをブックマーク...">
-<!ENTITY  bookmarkAllTabs.accesskey	"T">
-<!ENTITY  bookmarkThisTab.label		"このタブをブックマーク">
-<!ENTITY  bookmarkThisTab.accesskey	"B">
-<!ENTITY  undoCloseTab.label		"閉じたタブを元に戻す">
-<!ENTITY  undoCloseTab.accesskey	"U">
 <!ENTITY  newTabButton.tooltip		"@@NewTab@@を開きます">

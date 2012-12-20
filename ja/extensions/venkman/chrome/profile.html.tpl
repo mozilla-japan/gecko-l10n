@@ -1,7 +1,9 @@
+{# This Source Code Form is subject to the terms of the Mozilla Public
+ # License, v. 2.0. If a copy of the MPL was not distributed with this
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/. #}
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- Contributor(s):
-   -   Robert Ginda, <rginda@netscape.com>, original author
-   - Japanese Localization by
+<!-- Japanese Localization:
    -   dynamis
    -->
 <html>
@@ -70,9 +72,14 @@
         border-right: 1px black solid;
         background  : darkslategrey;
     }
+    <!-- style inserted by dynamis -->
+    h1 {
+        text-align: center;
+        margin: 1em 0em;
+    }
   </style>
   <body>
-    <h1 style="text-align: center; margin: 1em 0em;">JavaScript プロファイルデータ</h1><!-- style inserted by dynamis -->
+    <h1>JavaScript プロファイルデータ</h1>
     <table><!-- placed in table by dynamis -->
       <tr>
         <td><span class="label">データ収集日時</span></td><td> : </td>
@@ -131,7 +138,6 @@
     </span>
 @-section-end
     <hr>
-    <a href="http://skillup.jp/venkman/" title="思った通りのプログラムが書けてますか？(笑) - by dynamis" style="font-size: 80%;">プログラムは思った通りに動くのではない。書いた通りに動くのだ。</a><br><!-- inserted by dynamis ;-) -->
     <a href="http://www.mozilla.org/projects/venkman/">No job is too big, no fee is too big.</a>
   </body>
 </html>
