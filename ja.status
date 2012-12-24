@@ -312,11 +312,11 @@ calendar               ------:------------  12512:6726e97a0d3c   mar            
 chat, editor/ui        ------:------------  12537:34d83739a9e9   mar             sync chat, editor/ui
 mail                   ------:------------  12547:4f3140a9ed92   mar             sync mail
 dom, security          114006:d0a3931168de  12547:4f3140a9ed92   mar             sync dom, security
-toolkit, services/sync 114029:8ae22fe748fc  ------:-----------   hATrayflood     sync toolkit, services/sync
+toolkit, services/sync 114029:8ae22fe748fc  -----:------------   hATrayflood     sync toolkit, services/sync
 suite                  ------:------------  12547:4f3140a9ed92   hATrayflood     sync suite
 mobile                 113748:029f67cb42b7  -----:------------   Kechol          sync mobile
 browser                114029:8ae22fe748fc  -----:------------   hATrayflood     sync browser (exclude devtools)
-toolkit, services/sync 114029:8ae22fe748fc  ------:-----------   hATrayflood     re-sync toolkit, services/sync
+toolkit, services/sync 114029:8ae22fe748fc  -----:------------   hATrayflood     re-sync toolkit, services/sync
 browser/devtools       114029:8ae22fe748fc  -----:------------   hATrayflood     sync browser/devtools
 mail, suite            ------:------------  12561:92762a5802d4   mar             re-sync mail, suite
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.89
@@ -326,3 +326,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 dom, security          119017:eaccb5edc854  12916:90249d084a38   mar             sync dom, security
 browser                119068:a122b3c03b4c  -----:------------   hATrayflood     sync browser (exclude devtools)
+toolkit                119068:a122b3c03b4c  -----:------------   hATrayflood     sync toolkit
