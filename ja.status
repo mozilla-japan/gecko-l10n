@@ -327,3 +327,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 dom, security          119017:eaccb5edc854  12916:90249d084a38   mar             sync dom, security
 browser                119068:a122b3c03b4c  -----:------------   hATrayflood     sync browser (exclude devtools)
 toolkit                119068:a122b3c03b4c  -----:------------   hATrayflood     sync toolkit
+browser/devtools       119068:a122b3c03b4c  -----:------------   hATrayflood     sync browser/devtools
