@@ -12,9 +12,10 @@
 <!ENTITY image-width.label     "幅:">
 <!ENTITY image-height.label    "高さ:">
 <!ENTITY image-filesize.label  "ファイルサイズ:">
+<!ENTITY image-filesize.value  "不明">
 <!ENTITY insdel-sec.label      "挿入/削除のプロパティ">
 <!ENTITY insdel-cite.label     "情報:">
-<!ENTITY insdel-date.label     "Date:">
+<!ENTITY insdel-date.label     "日時:">
 <!ENTITY link-sec.label        "リンクのプロパティ">
 <!ENTITY link-url.label        "アドレス:">
 <!ENTITY link-target.label     "開く@@Window@@:">

@@ -13,9 +13,6 @@
 <!ENTITY prefEnableHTTP11.label              "HTTP 1.1 を使用する">
 <!ENTITY prefEnableHTTP11.accesskey          "E">
 <!ENTITY prefEnableHTTP11Proxy.accesskey     "T">
-<!ENTITY prefEnableKeepAlive.label           "接続の維持 (KeepAlive) を有効にする">
-<!ENTITY prefEnableKeepAlive.accesskey       "K">
-<!ENTITY prefEnableKeepAliveProxy.accesskey  "A">
 <!ENTITY prefEnablePipelining.label          "パイプラインを有効にする">
 <!ENTITY prefEnablePipelining.accesskey      "P">
 <!ENTITY prefEnablePipeliningProxy.accesskey "N">
