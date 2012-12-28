@@ -1,0 +1,28 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!--LOCALIZATION NOTE : FILE 'Privacy and Security' prefs settings -->
+<!ENTITY pref.security.title              "プライバシーとセキュリティ">
+
+<!ENTITY tracking.label                   "ユーザの追跡">
+<!ENTITY doNotTrack.label                 "トラッキングの拒否を Web サイトに通知する">
+<!ENTITY doNotTrack.accesskey             "T">
+
+<!ENTITY privateData.label                "プライバシー情報">
+
+<!ENTITY alwaysClear.label                "&brandShortName; の終了時にプライバシー情報を消去する">
+<!ENTITY alwaysClear.accesskey            "w">
+
+<!ENTITY askBeforeClear.label             "消去する前に確認ダイアログを表示する">
+<!ENTITY askBeforeClear.accesskey         "A">
+
+<!ENTITY clearDataSettings.label          "次のプライバシー情報を消去する:">
+
+<!--LOCALIZATION NOTE (clearDataDialog.label, clearDataSilent.label, clearDataDialog.accesskey):
+  The only difference bettween the two labels is that one calls a dialog, the other doesn't.
+  The same accesskey is used for both labels.
+-->
+<!ENTITY clearDataDialog.label            "今すぐ@@Clear@@...">
+<!ENTITY clearDataSilent.label            "今すぐ@@Clear@@">
+<!ENTITY clearDataDialog.accesskey        "N">

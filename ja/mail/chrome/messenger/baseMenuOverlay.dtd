@@ -1,0 +1,28 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Help Menu -->
+<!ENTITY helpMenu.label				"ヘルプ">
+<!ENTITY helpMenu.accesskey			"H">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label			"ヘルプ">
+<!ENTITY helpMenuWin.accesskey			"H">
+<!ENTITY helpTroubleshootingInfo.label		"トラブルシューティング情報">
+<!ENTITY helpTroubleshootingInfo.accesskey	"T">
+<!ENTITY helpSafeMode.label			"アドオンを無効にして再起動...">
+<!ENTITY helpSafeMode.accesskey			"R">
+<!ENTITY releaseCmd2.label			"リリースノート">
+<!ENTITY releaseCmd2.accesskey			"N">
+<!ENTITY whatsNewCmd.label			"新着情報">
+<!ENTITY whatsNewCmd.accesskey			"W">
+<!ENTITY openHelp.label				"&brandShortName; ヘルプ">
+<!ENTITY openHelp.accesskey			"H">
+<!ENTITY openHelp.commandkey			"VK_F1">
+<!ENTITY openHelpMac.label			"&brandShortName; ヘルプ">
+<!ENTITY openHelpMac2.commandkey		"?">
+<!ENTITY openHelpMac2.modifiers			"accel">
+
+<!ENTITY aboutMenuCmd.label			"&brandShortName; について">
+<!ENTITY aboutMenuCmd.accesskey			"A">
