@@ -332,3 +332,4 @@ suite/browser, suite/common
                        119100:c02926efc5fa  12920:1204aac48e3a   hATrayflood     sync suite/browser, suite/common
 chat                   ------:------------  12920:1204aac48e3a   mar             sync chat
 mail                   ------:------------  12920:1204aac48e3a   mar             sync mail
+suite/mailnews         ------:------------  12920:1204aac48e3a   mar             sync suite/mailnews

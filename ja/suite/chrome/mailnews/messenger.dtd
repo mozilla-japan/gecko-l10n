@@ -285,10 +285,12 @@
 <!ENTITY replyMsgCmd.label                      "返信">
 <!ENTITY replyMsgCmd.accesskey                  "R">
 <!ENTITY replyMsgCmd.key                        "r">
-<!ENTITY replySenderCmd.label                   "送信者にだけ返信">
-<!ENTITY replySenderCmd.accesskey               "R">
+<!ENTITY replyListCmd.label                     "メーリングリストに返信">
+<!ENTITY replyListCmd.accesskey                 "y">
 <!ENTITY replyNewsgroupCmd.label                "ニュースグループに返信">
 <!ENTITY replyNewsgroupCmd.accesskey            "y">
+<!ENTITY replySenderCmd.label                   "送信者にだけ返信">
+<!ENTITY replySenderCmd.accesskey               "R">
 <!ENTITY replyToAllMsgCmd.label                 "全員に返信">
 <!ENTITY replyToAllMsgCmd.accesskey             "p">
 <!ENTITY replyToAllMsgCmd.key                   "r">
@@ -455,6 +457,8 @@
 <!ENTITY contextEditAsNew.accesskey               "E">
 <!ENTITY contextReplySender.label                 "送信者だけに返信">
 <!ENTITY contextReplySender.accesskey             "O">
+<!ENTITY contextReplyList.label                   "メーリングリストに返信">
+<!ENTITY contextReplyList.accesskey               "y">
 <!ENTITY contextReplyNewsgroup.label              "ニュースグループに返信">
 <!ENTITY contextReplyNewsgroup.accesskey          "y">
 <!ENTITY contextReplyAll.label                    "全員に返信">
