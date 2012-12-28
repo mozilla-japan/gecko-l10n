@@ -330,3 +330,4 @@ toolkit                119068:a122b3c03b4c  -----:------------   hATrayflood    
 browser/devtools       119068:a122b3c03b4c  -----:------------   hATrayflood     sync browser/devtools
 suite/browser, suite/common
                        119100:c02926efc5fa  12920:1204aac48e3a   hATrayflood     sync suite/browser, suite/common
+chat                   ------:------------  12920:1204aac48e3a   mar             sync chat
