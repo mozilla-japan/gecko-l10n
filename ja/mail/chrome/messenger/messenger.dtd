@@ -311,7 +311,7 @@
 <!ENTITY goBackCmd.commandKey		"[">
 <!ENTITY goChatCmd.label		"チャット">
 <!ENTITY goChatCmd.accesskey		"c">
-<!ENTITY goChatCmd.commandKey		"C">
+<!ENTITY goChatCmd.key			"I">
 <!ENTITY prevStarredMsgCmd.label	"スター付きメッセージ">
 <!ENTITY prevStarredMsgCmd.accesskey	"S">
 <!ENTITY folderMenu.label		"フォルダ">
@@ -462,7 +462,7 @@
 <!ENTITY imStatus.offline		"オフライン">
 <!ENTITY imStatus.showAccounts		"アカウントを表示...">
 <!ENTITY joinChatCmd.label		"チャットに参加...">
-<!ENTITY joinChatCmd.accesskey		"o">
+<!ENTITY joinChatCmd.accesskey		"t">
 <!ENTITY savedFiles.label		"保存したファイル">
 <!ENTITY savedFiles.accesskey		"l">
 <!ENTITY savedFiles.key			"j">
@@ -853,7 +853,7 @@
 <!ENTITY saveImageAsCmd.label		"@@SaveImageAs@@...">
 <!ENTITY saveImageAsCmd.accesskey	"v">
 <!ENTITY copyLinkCmd.label		"リンクの URL をコピー">
-<!ENTITY copyLinkCmd.accesskey		"C">
+<!ENTITY copyLinkCmd.accesskey		"L">
 <!ENTITY copyImageAllCmd.label		"画像をコピー">
 <!ENTITY copyImageAllCmd.accesskey	"I">
 <!ENTITY copyEmailCmd.label		"メールアドレスをコピー">
