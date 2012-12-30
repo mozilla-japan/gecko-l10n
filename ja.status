@@ -333,3 +333,4 @@ suite/browser, suite/common
 chat                   ------:------------  12920:1204aac48e3a   mar             sync chat
 mail                   ------:------------  12920:1204aac48e3a   mar             sync mail
 suite/mailnews         ------:------------  12920:1204aac48e3a   mar             sync suite/mailnews
+mobile/android         119127:bdca00e901f1  -----:------------   Kechol          sync mobile/android
