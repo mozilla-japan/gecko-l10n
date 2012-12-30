@@ -58,6 +58,14 @@
 <!ENTITY sync.settings.options.label 'オプション'>
 <!ENTITY sync.summary.pair.label '&syncBrand.shortName.label; アカウントに他のデバイスを接続する'>
 
+<!-- Configure Engines -->
+<!ENTITY sync.configure.engines.title.label '同期オプション'>
+<!ENTITY sync.configure.engines.sync.my.title.label '同期するデータ'>
+<!ENTITY sync.configure.engines.title.bookmarks 'ブックマーク'>
+<!ENTITY sync.configure.engines.title.passwords 'パスワード'>
+<!ENTITY sync.configure.engines.title.history '履歴'>
+<!ENTITY sync.configure.engines.title.tabs 'タブ'>
+
 <!-- Common text -->
 <!ENTITY sync.button.cancel.label 'キャンセル'>
 <!ENTITY sync.button.connect.label '接続'>
@@ -78,6 +86,7 @@
 
 <!-- Notification strings -->
 <!ENTITY sync.notification.oneaccount.label '一つの &syncBrand.fullName.label; アカウントのみがサポートされています。'>
+<!ENTITY sync.notification.configure.saved '選択された項目を保存しました。'>
 
 <!-- Incorrect settings and changing credentials. -->
 <!ENTITY sync.invalidcreds.label 'アカウント名もしくはパスワードが間違っています。'>
