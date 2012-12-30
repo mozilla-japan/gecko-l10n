@@ -56,7 +56,7 @@
 <!ENTITY close_tab "タブを閉じる">
 <!ENTITY new_tab "@@NewTab@@">
 <!ENTITY one_tab "1 個のタブ">
-<!-- Localization note (num_tabs) : Number of tabs is always more than one. 
+<!-- Localization note (num_tabs) : Number of tabs is always more than one.
      We can't use android plural forms, sadly. See bug #753859. -->
 <!ENTITY num_tabs "&#037;d 個のタブ">
 <!ENTITY new_tab_opened "@@NewTab@@を開きました">
@@ -71,7 +71,12 @@
 <!ENTITY pref_do_not_track "追跡拒否をサイトに通知する"><!-- 文字数注意 -->
 <!ENTITY pref_telemetry "パフォーマンス情報を送信する">
 <!ENTITY pref_remember_signons "パスワードを保存する">
-<!ENTITY pref_cookies "Cookie を有効化する">
+
+<!ENTITY pref_cookies_menu "Cookie">
+<!ENTITY pref_cookies_accept_all "すべてのサイトで有効">
+<!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
+<!ENTITY pref_cookies_disabled "無効">
+
 <!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
 <!ENTITY pref_char_encoding_off "メニューを表示しない">
@@ -81,6 +86,7 @@
 <!ENTITY pref_plugins_tap_to_play "タップして実行">
 <!ENTITY pref_plugins_disabled "無効化">
 <!ENTITY pref_text_size "テキストサイズ">
+<!ENTITY pref_reflow_on_zoom2 "拡大時にテキストを再配置する">
 <!ENTITY pref_font_size_tiny "最小">
 <!ENTITY pref_font_size_small "小">
 <!ENTITY pref_font_size_medium "中">
@@ -111,6 +117,11 @@ size. -->
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
 <!ENTITY pref_private_data_siteSettings "サイト設定">
 
+<!ENTITY pref_update_autodownload "自動で更新をダウンロードする">
+<!ENTITY pref_update_autodownload_wifi "Wi-Fi 環境でのみ有効にする">
+<!ENTITY pref_update_autodownload_disabled "無効">
+<!ENTITY pref_update_autodownload_enabled "有効">
+
 <!ENTITY quit "終了">
 
 <!ENTITY addons "アドオン">
@@ -125,6 +136,7 @@ size. -->
 <!ENTITY find_in_page "ページ内検索">
 <!ENTITY desktop_mode "PC サイトモード">
 <!ENTITY tools "ツール">
+<!ENTITY new_pb_tab "@@NewTab@@ (プライベートブラウジング)">
 
 <!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
@@ -182,7 +194,6 @@ size. -->
 <!ENTITY abouthome_last_tabs_title "最後に閉じたタブ">
 <!ENTITY abouthome_last_tabs_open "最後に閉じたタブをすべて開く">
 <!ENTITY abouthome_top_sites_title "トップサイト (よく見るページ)"><!-- awesomebar_all_pages_titleがMax6文字 -->
-<!ENTITY abouthome_top_sites_browse "トップサイトをすべて見る">
 <!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
      chevron (ex: "»"; unicode= U+00BB) is used as an arrow to show that
      clicking this text in the promotions box will perform some action. Note
@@ -241,11 +252,11 @@ just addresses the organization to follow, e.g. "This site is run by " -->
  <!-- Updater notifications -->
 <!ENTITY updater_start_title2 "&brandShortName; の利用可能な更新">
 <!ENTITY updater_start_select2 "タッチしてダウンロードを開始します">
- 
+
 <!ENTITY updater_downloading_title2 "&brandShortName; のダウンロード中">
 <!ENTITY updater_downloading_title_failed2 "ダウンロードに失敗しました">
 <!ENTITY updater_downloading_select2 "タッチしてダウンロードした更新を適用します">
 <!ENTITY updater_downloading_retry2 "タッチして再試行します">
- 
+
 <!ENTITY updater_apply_title2 "&brandShortName; の利用可能な更新">
 <!ENTITY updater_apply_select2 "タッチしてアップデートを開始します">
