@@ -11,15 +11,30 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 翻訳作業時のメモ。
 未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
-◆17.0対応作業関連
-l10n-central にマージする
+◆20.0 対応作業関連
+次の 21.0 の作業前に、default ブランチから l10n-mozilla-20.0 ブランチに transplant する。
+	rev 1011 ～ rev ????
 
+L10N フォーラム対応
+・http://forums.firehacks.org/l10n/viewtopic.php?t=17174
+	Bug 795528 を /browser にもコミットすること。
+	"RESOLVED FIXED" にされてしまったが、まだ更新されてない。
 
-◆16.0対応作業関連
+・http://forums.firehacks.org/l10n/viewtopic.php?t=17177
+	typo.
+
+・http://forums.firehacks.org/l10n/viewtopic.php?t=17187
+	typo.
+	
+・http://forums.firehacks.org/l10n/viewtopic.php?t=17175
+	まず Thunderbird の該当バグを確認する。
+
+・http://forums.firehacks.org/l10n/viewtopic.php?t=17171
+	要検討。
+
+◆16.0 対応作業関連
 未訳:
     dom/chrome/security/csp.properties
-
-
 
 未訳箇所あり:
     dom\chrome\layout\htmlparser.properties
