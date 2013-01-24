@@ -34,7 +34,7 @@
 <!ENTITY lightning.toolbar.multiweek.accesskey	"u">
 <!ENTITY lightning.toolbar.month.label		"月表示">
 <!ENTITY lightning.toolbar.month.accesskey	"M">
-<!-- LOCALIZATION NOTE: the same as appmenuButton.label and appmenuButton.tooltip
+<!-- LOCALIZATION NOTE: the same as appmenuButton.label and appmenuButton1.tooltip
      from messenger.dtd -->
 <!ENTITY lightning.toolbar.appmenuButton.label	"アプリメニュー">
-<!ENTITY lightning.toolbar.appmenuButton.tooltip	"アプリケーションのメニューを表示します">
+<!ENTITY lightning.toolbar.appmenuButton1.tooltip	"&brandShortName; のメニューを表示します">

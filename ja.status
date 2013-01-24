@@ -338,3 +338,4 @@ mobile/android         119127:bdca00e901f1  -----:------------   Kechol         
 [l10n-mozilla-20.0] (for aurora)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
+calendar               ------:------------  13144:c7cf156f150a   mar             sync calendar
