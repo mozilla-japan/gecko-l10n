@@ -557,7 +557,7 @@
 <!ENTITY chatButton.tooltip		"チャットタブを開きます">
 <!ENTITY tagButton.tooltip		"メッセージにタグを付けます">
 <!ENTITY compactButton.tooltip		"削除したメッセージをフォルダから消去します"><!-- (^^; わかりにくい... -->
-<!ENTITY appmenuButton.tooltip		"アプリケーションのメニューを表示します">
+<!ENTITY appmenuButton1.tooltip		"&brandShortName; のメニューを表示します">
 
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label		"新規作成"><!-- en-US: "New Message" -->
