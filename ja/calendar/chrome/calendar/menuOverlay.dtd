@@ -1,0 +1,60 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Event Menu -->
+<!ENTITY event.new.event			"@@New-CMD@@予定...">
+<!ENTITY event.new.event.key			"N">
+<!ENTITY event.new.event.accesskey		"N">
+
+<!ENTITY event.new.task				"@@New-CMD@@ ToDo...">
+<!ENTITY event.new.task.key			"K">
+<!ENTITY event.new.task.accesskey		"k">
+
+<!ENTITY calendar.new.server.label		"@@New-CMD@@カレンダー...">
+<!ENTITY calendar.new.server.key		"L">
+<!ENTITY calendar.new.server.accesskey		"l">
+
+<!ENTITY calendar.print.label			"@@Print@@...">
+<!ENTITY calendar.print.key			"P">
+<!ENTITY calendar.print.accesskey		"P">
+
+<!ENTITY calendar.import.label			"ファイルから@@Import@@...">
+<!ENTITY calendar.import.key			"I">
+<!ENTITY calendar.import.accesskey		"I">
+
+<!ENTITY calendar.export.label			"カレンダーを@@Export@@...">
+<!ENTITY calendar.export.accesskey		"E">
+<!ENTITY calendar.export.selection.label	"選択した予定を@@Export@@...">
+<!ENTITY calendar.export.selection.accesskey	"S">
+
+<!ENTITY calendar.publish.label			"予定を公開...">
+<!ENTITY calendar.publish.accesskey		"b">
+
+<!ENTITY calendar.deletecalendar.label		"選択したカレンダーを削除...">
+<!ENTITY calendar.deletecalendar.accesskey	"D">
+
+<!ENTITY calendar.menu.customize.label		"カスタマイズ...">
+<!ENTITY calendar.menu.customize.accesskey	"C">
+
+<!ENTITY showUnifinderCmd.label			"予定を検索">
+<!ENTITY showUnifinderCmd.accesskey		"F">
+
+<!ENTITY calendar.displaytodos.checkbox.label	"ToDo を表示">
+<!ENTITY calendar.displaytodos.checkbox.accesskey 	"T">
+
+<!ENTITY calendar.menu.numberofweeks.label	"多週表示の週数">
+<!ENTITY calendar.menu.numberofweeks.2		"2週">
+<!ENTITY calendar.menu.numberofweeks.3		"3週">
+<!ENTITY calendar.menu.numberofweeks.4		"4週">
+<!ENTITY calendar.menu.numberofweeks.5		"5週">
+<!ENTITY calendar.menu.numberofweeks.6		"6週">
+
+<!ENTITY goTodayCmd.label			"今日に移動">
+<!ENTITY goTodayCmd.accesskey			"T">
+
+<!ENTITY showCurrentView.label			"表示形式">
+<!ENTITY showCurrentView.accesskey		"V">
+
+<!ENTITY calendar.properties.label		"@@PropertyCMD@@..."><!-- Calendar Properties -->
+<!ENTITY calendar.properties.accesskey		"C">

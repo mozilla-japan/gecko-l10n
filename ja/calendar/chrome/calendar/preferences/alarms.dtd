@@ -1,0 +1,35 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- WARNING! This file contains UTF-8 encoded characters!
+   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
+   - your editor isn't using UTF-8 encoding and may munge up the document!
+  -->
+<!-- (^m^) "Alarm" -> "Reminder"? (Bug 475376) -->
+<!ENTITY pref.alarmgoesoff.label "通知方法">
+<!ENTITY pref.playasound  "音を鳴らす" >
+<!ENTITY pref.calendar.alarms.playsound.accessKey "s">
+<!ENTITY pref.calendar.alarms.sound.useDefault.label "@@Default-@@音を使用">
+<!ENTITY pref.calendar.alarms.sound.useDefault.accessKey "d">
+<!ENTITY pref.calendar.alarms.sound.browse.label "@@Browse@@...">
+<!ENTITY pref.calendar.alarms.sound.browse.accessKey "B">
+<!ENTITY pref.calendar.alarms.sound.preview.label "再生">
+<!ENTITY pref.calendar.alarms.sound.preview.accessKey "P">
+<!ENTITY pref.showalarmbox    "アラームボックスを表示する" >
+<!ENTITY pref.calendar.alarms.showAlarmBox.accessKey "x">
+<!ENTITY pref.missedalarms    "失敗したアラームを表示する" >
+<!ENTITY pref.calendar.alarms.missedAlarms.accessKey "m">
+<!ENTITY pref.calendar.alarms.defaults.label "@@Default-@@アラーム設定">
+<!ENTITY pref.defalarm4events.label "予定のアラーム設定:">
+<!ENTITY pref.defalarm4events.accesskey "e">
+<!ENTITY pref.defalarm4todos.label "ToDo のアラーム設定:">
+<!ENTITY pref.defalarm4todos.accesskey "a">
+<!ENTITY pref.alarm.on "オン">
+<!ENTITY pref.alarm.off "オフ">
+<!ENTITY pref.defalarmlen4events.label "アラーム通知から予定までの時間:">
+<!ENTITY pref.defalarmlen4events.accesskey "u">
+<!ENTITY pref.defalarmlen4todos.label "アラーム通知から ToDo までの時間:">
+<!ENTITY pref.defalarmlen4todos.accesskey "o">
+<!ENTITY pref.defaultemail.label "アラームを通知するメールアドレス:">
+<!ENTITY pref.defaulttext.label "アラーム通知の文章:">

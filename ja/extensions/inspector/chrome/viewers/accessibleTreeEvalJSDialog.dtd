@@ -1,0 +1,13 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+  <!ENTITY evaluateDialog.title "JavaScript の式評価ダイアログ">
+
+  <!ENTITY btnEvaluateJS.label "評価">
+  <!ENTITY btnEvaluateJS.accesskey "E">
+  
+  <!ENTITY txtInputArea.label "入力エリア ('accessible' 変数により選択中の accessible へアクセスできます。'output()' 関数により '出力エリア' に結果を出力します。'tree.search(accessible, filterfunc)' により検索します。'tree.clearSearch()' により検索結果を消去します。): ">
+  <!ENTITY txtInputArea.accesskey "I">
+  <!ENTITY txtOutputArea.label "出力エリア: ">
+  <!ENTITY txtOutputArea.accesskey "O">

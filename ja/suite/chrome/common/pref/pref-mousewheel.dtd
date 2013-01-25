@@ -1,0 +1,30 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE : FILE Mouse-wheel management prefs, for those lucky OSes that support mouse wheels -->
+
+<!ENTITY pref.mouseWheel.title           "マウスホイール">
+<!ENTITY mouseWheelPanel.label           "この装飾キーを使用した際のマウスホイールの動きを指定:">
+<!ENTITY usingJustTheWheel.label         "装飾キーなし">
+<!ENTITY usingWheelAndAlt.label          "&altKey.label;">
+<!ENTITY usingWheelAndCtrl.label         "&ctrlKey.label;">
+<!ENTITY usingWheelAndShft.label         "&shiftKey.label;">
+<!ENTITY mouseWheelAction.label          "マウスホイールの動作を指定">
+<!ENTITY doNothing.label                 "何もしない">
+<!ENTITY doNothing.accesskey             "D">
+<!ENTITY scrollDocument.label            "ドキュメントのスクロール">
+<!ENTITY scrollDocument.accesskey        "S">
+<!ENTITY history.label                   "訪問履歴を移動する (戻る/進む)">
+<!ENTITY history.accesskey               "M">
+<!ENTITY zoom.label                      "ページの表示をズームする">
+<!ENTITY zoom.accesskey                  "Z">
+<!ENTITY mouseWheelSpeed.label           "マウスホイールの速度">
+<!ENTITY verticalSpeed.label             "垂直スクロール:">
+<!ENTITY verticalSpeed.accesskey         "V">
+<!ENTITY verticalReverse.label           "方向を反転する">
+<!ENTITY verticalReverse.accesskey       "R">
+<!ENTITY horizontalSpeed.label           "水平スクロール:">
+<!ENTITY horizontalSpeed.accesskey       "o">
+<!ENTITY horizontalReverse.label         "方向を反転する">
+<!ENTITY horizontalReverse.accesskey     "e">
