@@ -1,0 +1,13 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY privatebrowsingpage.title                  "プライベートブラウジング">
+
+<!ENTITY privatebrowsingpage.issueDesc.private      "新しいプライベートタブを開いています。">
+<!ENTITY privatebrowsingpage.issueDesc.normal       "プライベートタブで開いていません。">
+
+<!ENTITY privatebrowsingpage.description            "プライベートブラウジングでは、 &brandShortName; は表示したページの履歴、検索履歴、ダウンロード履歴、フォームへの入力履歴、Cookie、そして一時的なインターネットファイルは保存されません。しかし、ダウンロードしたファイルとブックマークしたサイトは保存されます。">
+<!ENTITY privatebrowsingpage.description.private    "&privatebrowsingpage.issueDesc.private; &privatebrowsingpage.description;">
+
+<!ENTITY privatebrowsingpage.moreInfo               "このデバイスにはブラウジングの履歴が残りませんが、契約されているインターネットサービスプロバイダは訪問するページを追跡することが可能です。">
