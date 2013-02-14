@@ -54,11 +54,10 @@
 <!ENTITY site_security "サイトセキュリティ">
 
 <!ENTITY close_tab "タブを閉じる">
-<!ENTITY new_tab "@@NewTab@@">
 <!ENTITY one_tab "1 個のタブ">
-<!-- Localization note (num_tabs) : Number of tabs is always more than one.
+<!-- Localization note (num_tabs2) : Number of tabs is always more than one.
      We can't use android plural forms, sadly. See bug #753859. -->
-<!ENTITY num_tabs "&#037;d 個のタブ">
+<!ENTITY num_tabs2 "&formatD; 個のタブ">
 <!ENTITY new_tab_opened "@@NewTab@@を開きました">
 
 <!ENTITY settings "設定">
@@ -136,7 +135,15 @@ size. -->
 <!ENTITY find_in_page "ページ内検索">
 <!ENTITY desktop_mode "PC サイトモード">
 <!ENTITY tools "ツール">
-<!ENTITY new_pb_tab "@@NewTab@@ (プライベートブラウジング)">
+<!ENTITY new_tab "@@NewTab@@">
+<!ENTITY new_private_tab "@@New-CMD@@プライベートタブ">
+<!ENTITY close_all_tabs "すべてのタブを閉じる">
+<!ENTITY tabs_normal "タブ">
+<!ENTITY tabs_private "プライベートタブ">
+<!ENTITY tabs_synced "同期したタブ">
+<!ENTITY wallpaper_success "壁紙を設定しました">
+<!ENTITY wallpaper_progress "壁紙を設定中">
+<!ENTITY wallpaper_fail "壁紙を設定できません">
 
 <!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
@@ -146,6 +153,7 @@ size. -->
 <!ENTITY find_close "閉じる">
 
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
+<!ENTITY contextmenu_open_private_tab "プライベートタブで開く">
 <!ENTITY contextmenu_open_in_reader "リーダーで開く">
 <!ENTITY contextmenu_remove_history "削除">
 <!ENTITY contextmenu_remove_bookmark "削除">
@@ -156,8 +164,6 @@ size. -->
 <!ENTITY contextmenu_copyurl "アドレスをコピー">
 <!ENTITY contextmenu_edit_bookmark "編集">
 
-<!-- Localization note (history_removed) : Shown in a toast notificaion
-	 after a page is removed from browser history. -->
 <!ENTITY history_removed "履歴からページが削除されました">
 
 <!ENTITY bookmark_edit_title "ブックマークを編集">
@@ -194,6 +200,10 @@ size. -->
 <!ENTITY abouthome_last_tabs_title "最後に閉じたタブ">
 <!ENTITY abouthome_last_tabs_open "最後に閉じたタブをすべて開く">
 <!ENTITY abouthome_top_sites_title "トップサイト (よく見るページ)"><!-- awesomebar_all_pages_titleがMax6文字 -->
+<!ENTITY abouthome_topsites_edit "編集">
+<!ENTITY abouthome_topsites_pin "タブをピン留め">
+<!ENTITY abouthome_topsites_unpin "ピンを戻す">
+<!ENTITY abouthome_topsites_unpinall "すべてのピンを戻す">
 <!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
      chevron (ex: "»"; unicode= U+00BB) is used as an arrow to show that
      clicking this text in the promotions box will perform some action. Note
@@ -240,9 +250,9 @@ just addresses the organization to follow, e.g. "This site is run by " -->
                                          @@Import-site@@います">
 <!ENTITY bookmarkhistory_import_wait "しばらくお待ちください...">
 
-<!-- Localization note (suggestions_prompt): The placeholder (&#037;s) should
-     be kept in the string; this will be replaced with the name of the search
-     engine. -->
+<!-- Localization note (suggestions_prompt2): The placeholder &formatS; will be
+     replaced with the name of the search engine. -->
+<!ENTITY suggestions_prompt2 "&formatS; で検索語句の候補を表示しますか？">
 <!ENTITY suggestions_prompt "&#037;s で検索語句の候補を表示しますか？">
 
 <!ENTITY webapp_generic_name "アプリ">
