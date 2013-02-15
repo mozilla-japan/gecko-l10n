@@ -345,3 +345,4 @@ toolkit                123846:6f2c8a3ad078  13148:5c432757a604   mar            
 browser                123954:4fd7553bfa40  -----:------------   hATrayflood     sync browser (exclude devtools)
 suite                  ------:------------  13158:3c479c9f8c57   hATrayflood     sync suite
 mobile/android         123951:c4aa14e5e8eb  -----:------------   Kechol          sync mobile/android
+browser/devtools       123954:4fd7553bfa40  -----:------------   hATrayflood     sync browser/devtools
