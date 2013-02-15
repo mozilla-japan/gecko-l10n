@@ -17,8 +17,8 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 
 L10N フォーラム対応
 ・http://forums.firehacks.org/l10n/viewtopic.php?t=17174
-	Bug 795528 を /browser にもコミットすること。
-	"RESOLVED FIXED" にされてしまったが、まだ更新されてない。
+	Bug 795528 を /browser にコミットした。20.0から
+	http://code.google.com/p/mozja/source/detail?r=9ad461b2555b2864bb10ef3a16ceb79a004e87cf
 
 ・[fixed] http://forums.firehacks.org/l10n/viewtopic.php?t=17177
 	/toolkit の typo.
@@ -120,6 +120,9 @@ mozilla-2.0     -> l10n-mozilla-2.0
 
 
 ◇ あまり使わないコマンド
+
+・コミットの取り消し (ただしpush前限定)
+> hg rollback
 
 ・作業ブランチの切り替え
 > hg update [branch name]
