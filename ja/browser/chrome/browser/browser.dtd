@@ -276,7 +276,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newNavigatorCmd.label		"@@NewWindow@@">
 <!ENTITY newNavigatorCmd.key		"N">
 <!ENTITY newNavigatorCmd.accesskey	"N">
-<!ENTITY newPrivateWindow.label		"@@New-CMD@@プライベートブラウジング@@Window@@">
+<!ENTITY newPrivateWindow.label		"@@New-CMD@@プライベート@@Window@@">
 <!ENTITY newPrivateWindow.accesskey	"W">
 
 <!ENTITY editMenu.label			"編集">
