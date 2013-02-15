@@ -248,7 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newNavigatorCmd.label		"@@NewWindow@@">
 <!ENTITY newNavigatorCmd.key		"N">
 <!ENTITY newNavigatorCmd.accesskey	"N">
-<!ENTITY newPrivateWindow.label		"@@New-CMD@@プライベートブラウジング@@Window@@">
+<!ENTITY newPrivateWindow.label		"@@New-CMD@@プライベート@@Window@@">
 <!ENTITY newPrivateWindow.accesskey	"W">
 
 <!ENTITY editMenu.label			"編集">
@@ -359,7 +359,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmdInTab.accesskey	"T">
 <!ENTITY openLinkCmd.label		"リンクを@@NewWindow@@で開く">
 <!ENTITY openLinkCmd.accesskey		"W">
-<!ENTITY openLinkInPrivateWindowCmd.label	"リンクを@@New-CMD@@プライベートブラウジング@@Window@@で開く">
+<!ENTITY openLinkInPrivateWindowCmd.label	"リンクを@@New-CMD@@プライベート@@Window@@で開く">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey	"P">
 <!ENTITY openLinkCmdInCurrent.label	"選択した URL を開く"><!-- (^m^) Bug 454518  en-US: "Open link" -->
 <!ENTITY openLinkCmdInCurrent.accesskey	"O">
