@@ -253,7 +253,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- Localization note (suggestions_prompt2): The placeholder &formatS; will be
      replaced with the name of the search engine. -->
 <!ENTITY suggestions_prompt2 "&formatS; で検索語句の候補を表示しますか？">
-<!ENTITY suggestions_prompt "&#037;s で検索語句の候補を表示しますか？">
 
 <!ENTITY webapp_generic_name "アプリ">
 
