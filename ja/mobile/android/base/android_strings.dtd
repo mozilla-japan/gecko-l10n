@@ -202,15 +202,15 @@ size. -->
 <!ENTITY abouthome_top_sites_title "トップサイト (よく見るページ)"><!-- awesomebar_all_pages_titleがMax6文字 -->
 <!ENTITY abouthome_topsites_edit "編集">
 <!ENTITY abouthome_topsites_pin "タブをピン留め">
-<!ENTITY abouthome_topsites_unpin "ピンを戻す">
-<!ENTITY abouthome_topsites_unpinall "すべてのピンを戻す">
+<!ENTITY abouthome_topsites_unpin "ピンを外す">
+<!ENTITY abouthome_topsites_unpinall "すべてのピンを外す">
 <!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
      chevron (ex: "»"; unicode= U+00BB) is used as an arrow to show that
      clicking this text in the promotions box will perform some action. Note
      that a non-breaking space (unicode= U+00A0) should be used between this
      character and the remainder of the string to prevent word wrap. -->
 <!ENTITY abouthome_about_sync3 "Firefox Sync を設定し、あなたの他のデバイスからブックマークや履歴、タブなどにアクセスできるようにします&#x00A0;&#x00BB;"><!-- "»" を実体参照に置き換えた -->
-<!ENTITY abouthome_about_apps3 "Marketplace からアプリを入手し、 Web の持つ素晴らしさを発掘しましょう&#x00A0;&#x00BB;"><!-- "»" を実体参照に置き換えた -->
+<!ENTITY abouthome_about_apps3 "Marketplace からアプリを入手し、Web の持つ素晴らしさを発掘しましょう&#x00A0;&#x00BB;"><!-- "»" を実体参照に置き換えた -->
 <!-- Localization note (abouthome_sync_bold_name, abouthome_apps_bold_name):
      These strings are accentuated as bold text in the "abouthome_about_..."
      strings above. These strings should be a subset of the strings above and
@@ -268,4 +268,4 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_retry2 "タッチして再試行します">
 
 <!ENTITY updater_apply_title2 "&brandShortName; の利用可能な更新">
-<!ENTITY updater_apply_select2 "タッチしてアップデートを開始します">
+<!ENTITY updater_apply_select2 "タッチして更新を開始します">

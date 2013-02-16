@@ -16,7 +16,7 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 	rev 1011 ～ rev ????
 
 L10N フォーラム対応
-・http://forums.firehacks.org/l10n/viewtopic.php?t=17174
+・[fixed] http://forums.firehacks.org/l10n/viewtopic.php?t=17174
 	Bug 795528 を /browser にコミットした。20.0から
 	http://code.google.com/p/mozja/source/detail?r=9ad461b2555b2864bb10ef3a16ceb79a004e87cf
 
