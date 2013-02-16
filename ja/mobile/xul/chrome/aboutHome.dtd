@@ -14,7 +14,7 @@
 <!ENTITY aboutHome.noAddons                     "オススメのアドオンはありません">
 <!ENTITY aboutHome.getLocale                    "言語を変更する">
 <!ENTITY aboutHome.getInBeforeBeta              "ベータ版より先に試す。">
-<!ENTITY aboutHome.tryAurora                    "Firefox Aurora を試して、 Firefox の未来を創り上げる協力をしてください。">
+<!ENTITY aboutHome.tryAurora                    "Firefox Aurora を試して、Firefox の未来を創り上げる協力をしてください。">
 <!-- LOCALIZATION NOTE:
      (aboutHome.downloadAurora): First line of a multi-line button. Treat as a title.
 -->

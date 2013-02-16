@@ -16,7 +16,7 @@
 <!-- J-PAKE Key Screen -->
 <!ENTITY sync.subtitle.connect.label '新しいデバイスを有効化するために、デバイス上で @@[@@&syncBrand.shortName.label; をセットアップ@@]@@ を選択してください。'>
 <!ENTITY sync.subtitle.header2.label 'このコードをコンピュータ上で入力してください'>
-<!ENTITY sync.subtitle.connectlocation2.label 'デスクトップの Firefox のオプション中の &syncBrand.shortName.label; から、 @@[@@&sync.title.pair.label;@@]@@ を選択してください。'>
+<!ENTITY sync.subtitle.connectlocation2.label 'デスクトップの Firefox のオプション中の &syncBrand.shortName.label; から、@@[@@&sync.title.pair.label;@@]@@ を選択してください。'>
 <!ENTITY sync.subtitle.pair.label '有効化のために、他のデバイス上で @@[@@デバイスと連携@@]@@ を選択してください。'>
 <!ENTITY sync.pin.default.label '...\n...\n...\n'>
 <!ENTITY sync.pin.oneline.label '...'>
@@ -42,7 +42,7 @@
 <!ENTITY sync.button.manual.label '手動でセットアップする'>
 <!ENTITY sync.subtitle.nointernet.label 'インターネット接続が利用できません。'>
 <!ENTITY sync.subtitle.failaccount.label 'デバイス上でのアカウント作成に失敗しました。'>
-<!ENTITY sync.subtitle.failmultiple.label '複数の Firefox がインストールされていませんか？ 現在、 &syncBrand.fullName.label; は同時に一つだけの Firefox のインストールをサポートしています。&syncBrand.shortName.label; を使用するには、他の Firefox をアンインストールしてください。'>
+<!ENTITY sync.subtitle.failmultiple.label '複数の Firefox がインストールされていませんか？ 現在、&syncBrand.fullName.label; は同時に一つだけの Firefox のインストールをサポートしています。&syncBrand.shortName.label; を使用するには、他の Firefox をアンインストールしてください。'>
   
 <!-- Setup Success -->
 <!ENTITY sync.title.success.label 'セットアップ完了'>
@@ -52,7 +52,7 @@
 
 <!-- Pair Device -->
 <!ENTITY sync.pair.tryagain.label 'もう一度試してください。'>
-<!ENTITY sync.pair.connectlocation.label '新しいデバイスを有効化するためには、デバイス上で @@[@@Sync をセットアップ@@]@@ を選択し、 @@[@@すでにアカウントを持っています@@]@@ を選択してください。'>
+<!ENTITY sync.pair.connectlocation.label '新しいデバイスを有効化するためには、デバイス上で @@[@@Sync をセットアップ@@]@@ を選択し、@@[@@すでにアカウントを持っています@@]@@ を選択してください。'>
 
 <!-- Firefox SyncAdapter Settings Screen -->
 <!ENTITY sync.settings.options.label 'オプション'>
