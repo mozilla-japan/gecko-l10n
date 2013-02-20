@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY systemIntegration.title	"システム統合">
-<!ENTITY acceptIntegration.label	"@Default@として設定">
+<!ENTITY acceptIntegration.label	"@@Default@@として設定">
 <!ENTITY cancelIntegration.label	"統合をスキップ">
 <!ENTITY defaultClient.intro		"&brandShortName; を次の@@DefaultClient@@として使用する:">
 
