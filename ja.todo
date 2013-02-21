@@ -12,22 +12,8 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
 ◆20.0 対応作業関連
-次の 21.0 の作業前に、default ブランチから l10n-mozilla-20.0 ブランチに transplant する。
-	rev 1011 ～ rev ????
-
-L10N フォーラム対応
-・[fixed] http://forums.firehacks.org/l10n/viewtopic.php?t=17174
-	Bug 795528 を /browser にコミットした。20.0から
-	http://code.google.com/p/mozja/source/detail?r=9ad461b2555b2864bb10ef3a16ceb79a004e87cf
-
-・[fixed] http://forums.firehacks.org/l10n/viewtopic.php?t=17177
-	/toolkit の typo.
-
-・[fixed] http://forums.firehacks.org/l10n/viewtopic.php?t=17187
-	/dom の typo.
-
 ・http://forums.firehacks.org/l10n/viewtopic.php?t=17175
-	まず Thunderbird の該当バグを確認する。
+	まず Thunderbird の該当バグを確認する。 -> バグ登録なし
 
 ・http://forums.firehacks.org/l10n/viewtopic.php?t=17171
 	要検討。

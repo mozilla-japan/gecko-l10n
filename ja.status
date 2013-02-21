@@ -321,7 +321,7 @@ browser/devtools       114029:8ae22fe748fc  -----:------------   hATrayflood    
 mail, suite            ------:------------  12561:92762a5802d4   mar             re-sync mail, suite
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.89
 
-[l10n-mozilla-19.0] (for beta)
+Released! [l10n-mozilla-19.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security          119017:eaccb5edc854  12916:90249d084a38   mar             sync dom, security
@@ -335,7 +335,7 @@ mail                   ------:------------  12920:1204aac48e3a   mar            
 suite/mailnews         ------:------------  12920:1204aac48e3a   mar             sync suite/mailnews
 mobile/android         119127:bdca00e901f1  -----:------------   Kechol          sync mobile/android
 
-[l10n-mozilla-20.0] (for aurora)
+[l10n-mozilla-20.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  13144:c7cf156f150a   mar             sync calendar
@@ -344,5 +344,10 @@ dom, security          123846:6f2c8a3ad078  13148:5c432757a604   mar            
 toolkit                123846:6f2c8a3ad078  13148:5c432757a604   mar             sync toolkit
 browser                123954:4fd7553bfa40  -----:------------   hATrayflood     sync browser (exclude devtools)
 suite                  ------:------------  13158:3c479c9f8c57   hATrayflood     sync suite
+mail                   ------:------------  13158:3c479c9f8c57   hATrayflood     re-sync mail
 mobile/android         123951:c4aa14e5e8eb  -----:------------   Kechol          sync mobile/android
 browser/devtools       123954:4fd7553bfa40  -----:------------   hATrayflood     sync browser/devtools
+
+[l10n-mozilla-21.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
