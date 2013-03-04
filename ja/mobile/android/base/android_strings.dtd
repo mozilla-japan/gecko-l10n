@@ -136,7 +136,7 @@ size. -->
 <!ENTITY desktop_mode "PC サイトモード">
 <!ENTITY tools "ツール">
 <!ENTITY new_tab "@@NewTab@@">
-<!ENTITY new_private_tab "@@New-CMD@@プライベートタブ">
+<!ENTITY new_private_tab "プライベートタブ">
 <!ENTITY close_all_tabs "すべてのタブを閉じる">
 <!ENTITY tabs_normal "タブ">
 <!ENTITY tabs_private "プライベートタブ">
