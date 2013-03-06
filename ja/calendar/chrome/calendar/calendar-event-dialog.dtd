@@ -171,6 +171,8 @@
 <!ENTITY task.status.accesskey				"a">
 <!ENTITY event.repeat.label				"繰り返し:" >
 <!ENTITY event.repeat.accesskey				"R">
+<!ENTITY event.until.label				"終了日:">
+<!ENTITY event.until.accesskey				"i">
 <!ENTITY event.reminder.label				"アラーム:" >
 <!ENTITY event.reminder.accesskey			"m">
 <!ENTITY event.description.label			"詳細:" >
