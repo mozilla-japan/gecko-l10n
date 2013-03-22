@@ -565,6 +565,8 @@
 <!ENTITY appmenuEditMenu.label		"編集">
 <!ENTITY appmenuQFBMenu.label		"クイックフィルタバー">
 <!ENTITY appmenuToolbarLayout.label	"ツールバーのカスタマイズ...">
+<!ENTITY appmenuSelectThread.label	"スレッドを選択">
+<!ENTITY appmenuSelectFlagged.label	"スター付きのメッセージを選択">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label		"@@New-CMD@@タグ...">
