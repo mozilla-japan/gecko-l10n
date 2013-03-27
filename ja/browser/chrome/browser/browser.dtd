@@ -280,13 +280,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY preferencesCmdUnix.accesskey	"n">
 
 <!ENTITY clearRecentHistory.label	"最近の履歴を消去">
-<!ENTITY clearRecentHistory.accesskey	"H">
 
-<!-- LOCALIZATION NOTE : These two strings can share an access key because they never appear together on the menu -->
-<!ENTITY privateBrowsingCmd.start.label		"プライベートブラウジングを開始">
-<!ENTITY privateBrowsingCmd.start.accesskey	"P">
-<!ENTITY privateBrowsingCmd.stop.label		"プライベートブラウジングを終了">
-<!ENTITY privateBrowsingCmd.stop.accesskey	"P">
 <!ENTITY privateBrowsingCmd.commandkey		"P">
 
 <!ENTITY viewMenu.label			"表示">
@@ -325,7 +319,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuSafeMode.accesskey	"R">
 
 <!ENTITY openCmd.commandkey		"l">
-<!ENTITY urlbar.placeholder		"URL を入力します">
+<!ENTITY urlbar.placeholder2		"URL または検索語句を入力します">
 <!ENTITY urlbar.accesskey		"d">
 <!ENTITY urlbar.switchToTab.label	"タブを表示:">
 
@@ -363,10 +357,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkInPrivateWindowCmd.accesskey	"P">
 <!ENTITY openLinkCmdInCurrent.label	"選択した URL を開く"><!-- (^m^) Bug 454518  en-US: "Open link" -->
 <!ENTITY openLinkCmdInCurrent.accesskey	"O">
-<!ENTITY openFrameCmd.label		"フレームを@@NewWindow@@で開く">
-<!ENTITY openFrameCmd.accesskey		"W">
 <!ENTITY openFrameCmdInTab.label	"フレームを@@NewTab@@で開く">
 <!ENTITY openFrameCmdInTab.accesskey	"T">
+<!ENTITY openFrameCmd.label		"フレームを@@NewWindow@@で開く">
+<!ENTITY openFrameCmd.accesskey		"W">
 <!ENTITY showOnlyThisFrameCmd.label	"このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey	"S">
 <!ENTITY reloadCmd.commandkey		"r">
@@ -428,6 +422,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailVideoCmd.accesskey	"a">
 <!ENTITY emailAudioCmd.label		"オーディオの URL をメールで送信...">
 <!ENTITY emailAudioCmd.accesskey	"a">
+<!ENTITY playPluginCmd.label		"このプラグインを有効化">
+<!ENTITY playPluginCmd.accesskey	"c">
+<!ENTITY hidePluginCmd.label		"このプラグインを非表示">
+<!ENTITY hidePluginCmd.accesskey	"H">
 <!ENTITY copyLinkCmd.label		"リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey		"a">
 <!ENTITY copyImageCmd.label		"画像の URL をコピー">
@@ -588,7 +586,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY identity.moreInfoLinkText		"詳細を表示...">
 
-<!ENTITY allTabs.filter.emptyText		"タブを検索">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label			"ブラウザタブ"><!-- (^m^) Bug 565042  音声読み上げ用ラベル -->
@@ -633,3 +630,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY webrtcIndicatorButton.label		"カメラ、マイクへのアクセス">
 <!ENTITY webrtcIndicatorButton.tooltip		"カメラかマイクを共有しているサイトを表示します">
+
+<!ENTITY mixedContentBlocked.helplink		"詳細">
+<!ENTITY mixedContentBlocked.moreinfo		"ほとんどの Web サイトは、このコンテンツがブロックされても、正しく表示されます。">

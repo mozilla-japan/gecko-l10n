@@ -4,7 +4,13 @@
 <!ENTITY inspectorHTMLCopyOuter.label       "外側の HTML をコピー">
 <!ENTITY inspectorHTMLCopyOuter.accesskey   "O">
 
+<!ENTITY inspectorCopyUniqueSelector.label       "一意なセレクタをコピー">
+<!ENTITY inspectorCopyUniqueSelector.accesskey   "U">
+
 <!ENTITY inspectorHTMLDelete.label          "ノードを削除">
 <!ENTITY inspectorHTMLDelete.accesskey      "D">
 
 <!ENTITY inspector.selectButton.tooltip     "マウスで要素を選択">
+
+<!ENTITY inspectorSearchHTML.label          "HTML を検索">
+<!ENTITY inspectorSearchHTML.key            "F">
