@@ -11,6 +11,11 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 翻訳作業時のメモ。
 未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
+◆21.0 対応作業関連
+・The Book of Mozilla, 15.1
+	http://forums.firehacks.org/l10n/viewtopic.php?t=17204
+	toolkit/chrome/global/mozilla.dtd
+
 ◆20.0 対応作業関連
 ・http://forums.firehacks.org/l10n/viewtopic.php?t=17175
 	まず Thunderbird の該当バグを確認する。 -> バグ登録なし
