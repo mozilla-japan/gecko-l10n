@@ -115,6 +115,7 @@ size. -->
 <!ENTITY pref_private_data_cache "キャッシュ">
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
 <!ENTITY pref_private_data_siteSettings "サイト設定">
+<!ENTITY pref_private_data_downloadFiles "ダウンロードしたファイル">
 
 <!ENTITY pref_update_autodownload "自動で更新をダウンロードする">
 <!ENTITY pref_update_autodownload_wifi "Wi-Fi 環境でのみ有効にする">
@@ -203,7 +204,8 @@ size. -->
 <!ENTITY abouthome_topsites_edit "編集">
 <!ENTITY abouthome_topsites_pin "タブをピン留め">
 <!ENTITY abouthome_topsites_unpin "ピンを外す">
-<!ENTITY abouthome_topsites_unpinall "すべてのピンを外す">
+<!ENTITY abouthome_topsites_remove "削除">
+
 <!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
      chevron (ex: "»"; unicode= U+00BB) is used as an arrow to show that
      clicking this text in the promotions box will perform some action. Note

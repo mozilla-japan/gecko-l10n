@@ -11,3 +11,5 @@
 <!ENTITY aboutApps.noApps.pre "アプリケーションはインストールされていません。">
 <!ENTITY aboutApps.noApps.middle3 "Firefox Marketplace">
 <!ENTITY aboutApps.noApps.post " で入手できます。">
+<!ENTITY aboutApps.uninstall "アンインストール">
+<!ENTITY aboutApps.addToHomescreen "ホーム画面に追加">
