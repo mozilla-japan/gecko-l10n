@@ -354,3 +354,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 calendar               ------:------------  13408:64b92b660066   mar             sync calendar
 chat, mail             ------:------------  13422:56a4332c907e   mar             sync chat, mail
 dom                    128678:286f3ec182e8  13424:18954405c22e   mar             sync dom
+mobile/android         128693:34f00081ec61  -----:------------   Kechol          sync mobile/android

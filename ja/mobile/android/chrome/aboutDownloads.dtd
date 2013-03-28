@@ -5,3 +5,11 @@
 <!ENTITY aboutDownloads.title                      "ダウンロード">
 <!ENTITY aboutDownloads.header                     "ダウンロードしたファイル">
 <!ENTITY aboutDownloads.empty                      "ダウンロードしたファイルはありません">
+
+<!ENTITY aboutDownloads.open                       "開く">
+<!ENTITY aboutDownloads.remove                     "削除">
+<!ENTITY aboutDownloads.removeAll                  "すべて削除">
+<!ENTITY aboutDownloads.pause                      "中断">
+<!ENTITY aboutDownloads.resume                     "再開">
+<!ENTITY aboutDownloads.cancel                     "キャンセル">
+<!ENTITY aboutDownloads.retry                      "再接続">
