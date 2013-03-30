@@ -5,7 +5,7 @@
 <!-- extracted from content/navigator.xul -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items --> 
-<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE --> 
 <!ENTITY mainWindow.title "&brandShortName;">
@@ -13,6 +13,8 @@
 <!ENTITY mainWindow.titlemodifier "&brandShortName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
+
+<!ENTITY mainWindow.titleprivate "プライベートブラウジング">
 
 <!ENTITY editPageCmd.label "ページを編集">
 <!ENTITY editPageCmd.accesskey "E">
