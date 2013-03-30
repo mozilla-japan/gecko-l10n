@@ -1,0 +1,18 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY privatebrowsingpage.title			"プライベートブラウジング">
+<!-- LOCALIZATION NOTE: The experimental title is temporary -->
+<!ENTITY privatebrowsingpage.experimental		"&privatebrowsingpage.title;はまだ実験的な機能です。">
+<!ENTITY privatebrowsingpage.description		"&privatebrowsingpage.title;@@Window@@では、&brandShortName; は表示したページの履歴、検索履歴、ダウンロード履歴、Web フォーム履歴、Cookie、ディスクキャッシュは一切保存しませんが、ダウンロードしたファイルと作成したブックマークは保存されます。">
+<!ENTITY privatebrowsingpage.moreinfo			"表示したページの履歴はこのコンピュータには記録されませんが、インターネットサービスプロバイダや会社が記録している可能性はあります。">
+<!ENTITY privatebrowsingpage.learnmore.label		"詳細">
+<!ENTITY privatebrowsingpage.learnmore.accesskey	"L">
+<!ENTITY privatebrowsingpage.private			"&brandShortName; はこの@@Window@@の履歴を一切保存しません。この@@Window@@を閉じると、&privatebrowsingpage.title;を終了します。">
+<!ENTITY privatebrowsingpage.switch.label		"通常の@@Window@@に切り替える">
+<!ENTITY privatebrowsingpage.switch.accesskey		"S">
+<!ENTITY privatebrowsingpage.normal			"現在&privatebrowsingpage.title;ではありません。">
+<!ENTITY privatebrowsingpage.private.label		"プライベート@@Window@@を開く">
+<!ENTITY privatebrowsingpage.private.accesskey		"O">
+<!ENTITY privatebrowsingpage.info			"@@[@@ファイル@@]@@メニューの@@[@@新規作成@@]@@から@@[@@プライベート@@Window@@@@]@@を選択すると、&privatebrowsingpage.title;を開始します。">

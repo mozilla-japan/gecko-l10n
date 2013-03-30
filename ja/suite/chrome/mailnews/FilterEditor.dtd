@@ -27,6 +27,9 @@
 <!ENTITY filterActionDesc.label		"以下の動作を実行する:">
 <!ENTITY filterActionDesc.accesskey	"P">
 
+<!ENTITY filterActionOrderWarning.label	"補足: フィルタ動作は異なる順で実行されます。">
+<!ENTITY filterActionOrder.label	"実行順を見る">
+
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label           "メッセージを移動する">
 <!ENTITY copyMessage.label           "メッセージをコピーする">
