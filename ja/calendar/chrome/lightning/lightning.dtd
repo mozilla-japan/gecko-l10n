@@ -1,0 +1,64 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- WARNING! This file contains UTF-8 encoded characters!
+   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
+   - your editor isn't using UTF-8 encoding and may munge up the document!
+  -->
+
+<!-- Tools menu -->
+<!ENTITY lightning.preferencesLabel			"カレンダー">
+
+<!-- New menu popup in File menu -->
+<!ENTITY lightning.menupopup.new.event.label		"予定...">
+<!ENTITY lightning.menupopup.new.event.accesskey	"E">
+<!ENTITY lightning.menupopup.new.task.label		"ToDo...">
+<!ENTITY lightning.menupopup.new.task.accesskey		"T">
+<!ENTITY lightning.menupopup.new.calendar.label		"カレンダー...">
+<!ENTITY lightning.menupopup.new.calendar.accesskey	"n">
+
+<!-- Open menu popup in File menu -->
+<!ENTITY lightning.menupopup.open.label			"開く">
+<!ENTITY lightning.menupopup.open.accesskey		"O">
+<!ENTITY lightning.menupopup.open.message.label		"メッセージを開く...">
+<!ENTITY lightning.menupopup.open.message.accesskey	"M">
+<!ENTITY lightning.menupopup.open.calendar.label	"カレンダーファイルを開く...">
+<!ENTITY lightning.menupopup.open.calendar.accesskey	"C">
+
+<!-- View Menu -->
+<!ENTITY lightning.menu.view.calendar.label		"カレンダー">
+<!ENTITY lightning.menu.view.calendar.accesskey		"n">
+<!ENTITY lightning.menu.view.tasks.label		"ToDo">
+<!ENTITY lightning.menu.view.tasks.accesskey		"k">
+
+<!-- Events and Tasks menu -->
+<!ENTITY lightning.menu.eventtask.label			"予定とToDo">
+<!ENTITY lightning.menu.eventtask.accesskey		"n">
+
+<!-- properties dialog, calendar creation wizard -->
+<!ENTITY lightning.calendarproperties.email.label		"メール:">
+
+<!-- iMIP Bar (meeting support) -->
+<!ENTITY lightning.imipbar.description			"メッセージに参加依頼が含まれています。">
+
+<!-- Lightning specific keybindings -->
+<!ENTITY lightning.keys.event.showCalendar.key		"C">
+<!ENTITY lightning.keys.event.showTasks.key		"D">
+<!ENTITY lightning.keys.event.new			"I">
+<!ENTITY lightning.keys.todo.new			"D">
+
+<!-- Account Central page -->
+<!-- (^a^) mail/chrome/messenger/msgAccountCentral.dtd と表現をそろえる -->
+<!ENTITY lightning.acctCentral.newCalendar.label	"@@New-CMD@@カレンダーを作成する">
+
+<!-- today-pane-specific -->
+<!ENTITY todaypane.showMinimonth.label			"日付選択を表示">
+<!ENTITY todaypane.showMinimonth.accesskey		"M">
+<!ENTITY todaypane.showMiniday.label			"日付を表示">
+<!ENTITY todaypane.showMiniday.accesskey		"d">
+<!ENTITY todaypane.showNone.label			"表示なし">
+<!ENTITY todaypane.showNone.accesskey			"N">
+<!ENTITY todaypane.showTodayPane.label			"Today ペインを表示">
+<!ENTITY todaypane.showTodayPane.accesskey		"o">
+<!ENTITY todaypane.statusButton.label			"Today ペイン">
