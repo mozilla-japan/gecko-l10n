@@ -11,9 +11,9 @@
   <Param name="action" value="opensearch"/>
   <Param name="search" value="{searchTerms}"/>
 </Url>
-<Url type="text/html" method="GET" template="http://ja.wikipedia.org/wiki/%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2">
+<Url type="text/html" method="GET" template="http://ja.wikipedia.org/wiki/特別:検索">
   <Param name="search" value="{searchTerms}"/>
   <Param name="sourceid" value="Mozilla-search"/>
 </Url>
-<SearchForm>http://ja.wikipedia.org/wiki/%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2</SearchForm>
+<SearchForm>http://ja.wikipedia.org/wiki/特別:検索</SearchForm>
 </SearchPlugin>
