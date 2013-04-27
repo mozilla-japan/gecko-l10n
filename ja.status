@@ -362,3 +362,4 @@ suite                  ------:------------  13424:18954405c22e   hATrayflood    
 [l10n-mozilla-22.0] (for aurora)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
+irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.90
