@@ -114,7 +114,7 @@ size. -->
 <!ENTITY pref_private_data_passwords "保存されたパスワード">
 <!ENTITY pref_private_data_cache "キャッシュ">
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
-<!ENTITY pref_private_data_siteSettings "サイト設定">
+<!ENTITY pref_private_data_siteSettings2 "サイト設定">
 <!ENTITY pref_private_data_downloadFiles "ダウンロードしたファイル">
 
 <!ENTITY pref_update_autodownload "自動で更新をダウンロードする">
