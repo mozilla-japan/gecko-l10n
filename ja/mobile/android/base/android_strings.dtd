@@ -101,7 +101,7 @@ size. -->
 
 <!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
     demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "オレンジ色のすばしっこいきつねは、みんなの期待をこえて、たゆまぬ成長をつづける。よりはやく、よりフレキシブルに、そして、より安全に。わたしたちには、ほんの少しのあきらめも許されない。ひとびとのよりよい体験と、あかるい Web の未来へむかって。"> <!-- Japanese pangram -->
+<!ENTITY pref_font_size_preview_text "オレンジ色のすばしこいキツネは、みんなの期待をこえて、たゆまぬ成長を続ける。より早く、よりフレキシブルに、そして、より安全に。私たちには、ほんの少しのあきらめも許されない。人々のよりよい体験と、明るい Web の未来へ向かって。"> <!-- Japanese pangram -->
 
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
 <!ENTITY pref_show_product_announcements "製品のお知らせを表示する">
