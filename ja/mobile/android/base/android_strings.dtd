@@ -97,11 +97,11 @@
 same character/combination is used to increase the preview font size. It should be a concise
 representation of the language it is used in that will help show the text in the preview will change
 size. -->
-<!ENTITY pref_font_size_adjust_char "A">
+<!ENTITY pref_font_size_adjust_char "あ">
 
 <!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
     demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "The quick orange fox jumps over your expectations with more speed, more flexibility and more security. As a non-profit, we\'re free to innovate on your behalf without any pressure to compromise. That means a better experience for you and a brighter future for the Web.">
+<!ENTITY pref_font_size_preview_text "オレンジ色のすばしっこいきつねは、みんなの期待をこえて、たゆまぬ成長をつづける。よりはやく、よりフレキシブルに、そして、より安全に。わたしたちには、ほんの少しのあきらめも許されない。ひとびとのよりよい体験と、あかるい Web の未来へむかって。"> <!-- Japanese pangram -->
 
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
 <!ENTITY pref_show_product_announcements "製品のお知らせを表示する">
