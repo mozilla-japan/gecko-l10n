@@ -364,3 +364,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.90
 mobile/android         133523:bf17ffb21f5e  -----:------------   Kechol          sync mobile/android
+venkman                ------:------------  -----:------------   mar             sync venkman for SeaMonkey 2.19
