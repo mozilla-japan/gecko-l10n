@@ -12,11 +12,12 @@ em {
   font-style: normal;
 }
 </style>
-<span style="font-style: normal;" id="nabetaro">マンモンの<em>双児</em>は争った。この争いは世界を<em>新たな暗闇</em>に陥れ、獣はこの暗闇を憎悪した。よって、獣は<em>迅速に</em>動き出し、力を蓄え、進軍した。そして獣は<em>炎</em>と光を暗闇にもたらした。 </span>
+<span style="font-style: normal;" id="nabetaro">マンモンの<em>双児</em>は争った。この争いは世界を<em>新たな暗闇</em>に陥れ、獣はこの暗闇を憎悪した。よって、獣は<em>迅速に</em>動き出し、力を蓄え、進軍した。そして獣は<em>炎</em>と光を暗闇にもたらした。</span>
 <span style="font-style: normal; display: none;" id="dskmori">マモンの<em>双生</em>は口争した。彼らの交戦により世界に<em>新たな暗闇</em>が訪れた。獣はその暗闇を忌み、<em>迅速に</em>動き出した。強靭な成長を遂げ、勇進した。そして、暗闇に<em>炎</em>と光を享受した。</span>
-<span style="font-style: normal; display: none;" id="saneyuki_s">マモンの<em>双児</em>は相争い、其が為に世界は<em>新たな暗闇</em>へと失墜する。獣はそれを忌み嫌い、<em>速やかに</em>歩き出で、力を富ませ進み征く。ああ、獣は<em>火</em>と光明で暗闇を照らすのだ。</span>
+<span style="font-style: normal; display: none;" id="saneyuki_s">マモンの<em>双児</em>は相争い、其がために世界は<em>新たな暗闇</em>へと失墜する。獣はそれを忌み嫌い、<em>速やかに</em>歩き出で、力を富ませ進み征く。ああ、獣は<em>火</em>と光明で暗闇を照らすのだ。</span>
+<span style="font-style: normal; display: none;" id="h_rayflood">マモンが<em>双児</em>争へり。この争ひ世を<em>新しう闇</em>に覆ひ、獣闇を憎めり。獣<em>疾く</em>動き出で、力増さり、進発し、茂りたり。さては獣、<em>火</em>と光を闇に奉れり。</span>
 <script type="text/javascript">
-showid = ["nabetaro", "dskmori", "saneyuki_s"][Math.floor(Math.random()*3)];
+showid = ["nabetaro", "dskmori", "saneyuki_s", "h_rayflood"][Math.floor(Math.random()*4)];
 document.getElementById("nabetaro").style.display = "none";
 document.getElementById(showid).style.display = "block";
 </script>
