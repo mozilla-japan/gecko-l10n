@@ -16,8 +16,9 @@ em {
 <span style="font-style: normal; display: none;" id="dskmori">マモンの<em>双生</em>は口争した。彼らの交戦により世界に<em>新たな暗闇</em>が訪れた。獣はその暗闇を忌み、<em>迅速に</em>動き出した。強靭な成長を遂げ、勇進した。そして、暗闇に<em>炎</em>と光を享受した。</span>
 <span style="font-style: normal; display: none;" id="saneyuki_s">マモンの<em>双児</em>は相争い、其が為に世界は<em>新たな暗闇</em>へと失墜する。獣はそれを忌み嫌い、<em>速やかに</em>歩き出で、力を富ませ進み征く。ああ、獣は<em>火</em>と光明で暗闇を照らすのだ。</span>
 <span style="font-style: normal; display: none;" id="h_rayflood">マモンが<em>双児</em>争へり。この争ひ世を<em>新しう闇</em>に覆ひて、獣闇を憎めり。獣<em>疾く</em>動き出で、力増さり、進発し、茂りたり。さては獣、<em>火</em>と光を闇に奉れり。</span>
+<span style="font-style: normal; display: none;" id="marsf">マモンの <em>双児</em> は口論を始めた。彼らの対立は世を <em>新たな暗闇</em> に陥れたが、野獣は暗闇を憎んだ。<em>迅速に</em> 動き出した野獣は、その勢力を増し、さらに前進して群れを成した。野獣の群れは世に <em>炎</em> をもたらし、暗闇を照らした。</span>
 <script type="text/javascript">
-showid = ["nabetaro", "dskmori", "saneyuki_s", "h_rayflood"][Math.floor(Math.random()*4)];
+showid = ["nabetaro", "dskmori", "saneyuki_s", "h_rayflood", "marsf"][Math.floor(Math.random()*5)];
 document.getElementById("nabetaro").style.display = "none";
 document.getElementById(showid).style.display = "block";
 </script>
