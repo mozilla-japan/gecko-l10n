@@ -17,10 +17,10 @@
 <!ENTITY deleteButton.accesskey		"D">
 <!ENTITY searchDialogTitle.label	"メッセージを検索">
 <!ENTITY results.label			"検索結果">
-<!ENTITY fileHereMenu.label		"ここへ移動">
-<!ENTITY fileHereMenu.accesskey		"F">
-<!ENTITY fileButton.label		"移動">
-<!ENTITY fileButton.accesskey		"i">
+<!ENTITY moveHereMenu.label		"ここへ移動">
+<!ENTITY moveHereMenu.accesskey		"H">
+<!ENTITY moveButton.label		"移動">
+<!ENTITY moveButton.accesskey		"T">
 <!ENTITY closeCmd.key			"W"> 
 <!ENTITY openInFolder.label		"フォルダを開く">
 <!ENTITY openInFolder.accesskey		"r">

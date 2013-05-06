@@ -5,6 +5,7 @@
 <!ENTITY systemIntegration.title	"システム統合">
 <!ENTITY acceptIntegration.label	"@@Default@@として設定">
 <!ENTITY cancelIntegration.label	"統合をスキップ">
+<!ENTITY cancelIntegration2.label	"キャンセル">
 <!ENTITY defaultClient.intro		"&brandShortName; を次の@@DefaultClient@@として使用する:">
 
 <!ENTITY email.label			"メール">
