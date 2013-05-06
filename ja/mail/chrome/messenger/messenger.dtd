@@ -432,12 +432,12 @@
 <!ENTITY openConversationCmd.label	"スレッドを@@NewTab@@で開く"><!-- en-US: "Open in Conversation" -->
 <!ENTITY openConversationCmd.accesskey	"s">
 <!ENTITY openConversationCmd.key	"o">
-<!ENTITY openFeedMessage.label		"フィードメッセージを開く">
-<!ENTITY openFeedMessage.accesskey	"O">
-<!ENTITY openFeedWebPageInWindow.label	"Web ページ形式で@@NewWindow@@に開く">
-<!ENTITY openFeedWebPageInWindow.accesskey	"W">
-<!ENTITY openFeedSummaryInWindow.label	"要約形式で@@NewWindow@@に開く">
-<!ENTITY openFeedSummaryInWindow.accesskey	"S">
+<!ENTITY openFeedMessage1.label		"フィードメッセージを開く">
+<!ENTITY openFeedMessage1.accesskey	"O">
+<!ENTITY openFeedWebPage.label		"Web ページ形式で開く">
+<!ENTITY openFeedWebPage.accesskey	"W">
+<!ENTITY openFeedSummary.label		"要約形式で開く">
+<!ENTITY openFeedSummary.accesskey	"S">
 <!ENTITY openFeedWebPageInMP.label	"メッセージペインのフィードの表示形式を切り替える">
 <!ENTITY openFeedWebPageInMP.accesskey	"T">
 
