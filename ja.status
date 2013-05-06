@@ -366,3 +366,4 @@ irc                    ------:------------  -----:------------   mar            
 mobile/android         133523:bf17ffb21f5e  -----:------------   Kechol          sync mobile/android
 venkman                ------:------------  -----:------------   mar             sync venkman for SeaMonkey 2.19
 calendar               ------:------------  13690:ccaa321bf930   mar             sync calendar
+dom                    133599:d98584bb5fe9  13696:329ad226ac9a   mar             sync dom
