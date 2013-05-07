@@ -368,3 +368,4 @@ venkman                ------:------------  -----:------------   mar            
 calendar               ------:------------  13690:ccaa321bf930   mar             sync calendar
 dom                    133599:d98584bb5fe9  13696:329ad226ac9a   mar             sync dom
 chat, mail             ------:------------  13696:329ad226ac9a   mar             sync chat, mail
+toolkit                133599:d98584bb5fe9  13696:329ad226ac9a   mar             sync toolkit
