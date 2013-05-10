@@ -28,6 +28,11 @@
          nc:link="mailnews_addressbooks.xhtml#about_address_books"/>
      </rdf:li>
      <rdf:li>
+       <rdf:Description ID="appearance_panel"
+         nc:name="appearance panel"
+         nc:link="customize_help.xhtml#the_appearance_panel"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="attaching_files_to_messages"
          nc:name="attaching files to messages"
          nc:link="mailnews_using_mail.xhtml#attaching_a_file_or_web_page"/>
@@ -120,7 +125,7 @@
      <rdf:li>
        <rdf:Description ID="add-ons:manager"
          nc:name="Add-ons Manager"
-         nc:link="customize_help.xhtml#using_the_add-on_manager"/>
+         nc:link="customize_help.xhtml#using_the_add-ons_manager"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
@@ -128,6 +133,11 @@
 <rdf:Description about="#add-ons:manager">
    <nc:subheadings>
      <rdf:Seq><rdf:li>
+       <rdf:Description ID="add-ons:searching_for_add-ons"
+         nc:name="Searching for Add-ons"
+         nc:link="customize_help.xhtml#searching_for_add-ons"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="add-ons:get_add-ons"
          nc:name="Get Add-ons Panel"
          nc:link="customize_help.xhtml#the_get_add-ons_panel"/>
@@ -138,9 +148,14 @@
          nc:link="customize_help.xhtml#the_extensions_panel"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="add-ons:themes_panel"
-         nc:name="Themes Panel"
-         nc:link="customize_help.xhtml#the_themes_panel"/>
+       <rdf:Description ID="add-ons:appearance_panel"
+         nc:name="Appearance Panel"
+         nc:link="customize_help.xhtml#the_appearance_panel"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="add-ons:plugins_panel"
+         nc:name="Plugins Panel"
+         nc:link="customize_help.xhtml#the_plugins_panel"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="add-ons:languages_panel"
@@ -148,9 +163,9 @@
          nc:link="customize_help.xhtml#the_languages_panel"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="add-ons:plugins_panel"
-         nc:name="Plugins Panel"
-         nc:link="customize_help.xhtml#the_plugins_panel"/>
+       <rdf:Description ID="add-ons:updating_add-ons"
+         nc:name="Updating Add-ons"
+         nc:link="customize_help.xhtml#updating_add-ons"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>
@@ -408,7 +423,7 @@
          nc:link="using_certs_help.xhtml#controlling_validation"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="Certificates:web_site"
+       <rdf:Description ID="Certificates:website"
          nc:name="website identity"
          nc:link="using_certs_help.xhtml#managing_certificates_that_identify_servers"/>
      </rdf:li>
@@ -563,11 +578,6 @@
          nc:link="privacy_help.xhtml#how_can_i_control_web_pages_in_email_messages"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="cookies:foreign"
-         nc:name="foreign cookies"
-         nc:link="privacy_help.xhtml#what_are_third-party_cookies"/>
-     </rdf:li>
-     <rdf:li>
        <rdf:Description ID="cookies:managing_per_site"
          nc:name="managing cookies per website"
          nc:link="using_priv_help.xhtml#managing_cookies_site-by-site"/>
@@ -581,6 +591,11 @@
        <rdf:Description ID="cookies:removing"
          nc:name="removing cookies"
          nc:link="using_priv_help.xhtml#removing_cookies"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="cookies:third-party"
+         nc:name="third-party cookies"
+         nc:link="privacy_help.xhtml#what_are_third-party_cookies"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="cookies:viewing"
@@ -1407,6 +1422,11 @@
          nc:link="mailnews_preferences.xhtml#network_and_storage_preferences"/>
      </rdf:li>
      <rdf:li>
+        <rdf:Description ID="Offline:offline_apps"
+          nc:name="Offline Web Applications"
+          nc:link="cs_nav_prefs_advanced.xhtml#offline_apps"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="Offline:Mail_and_Newsgroups"
          nc:name="Offline Mail and News"
          nc:link="mailnews_offline.xhtml#working_offline"/>
@@ -1821,6 +1841,11 @@
 <rdf:Description about="help-indexAZ.rdf#s">
    <nc:subheadings>
      <rdf:Seq><rdf:li>
+       <rdf:Description ID="safe_browsing"
+         nc:name="safe browsing preferences"
+         nc:link="privsec_help.xhtml#safe_browsing"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="save"
          nc:name="save"/>
      </rdf:li>
@@ -1846,6 +1871,11 @@
        <rdf:Description ID="search"
          nc:name="search"
          nc:link="nav_help.xhtml#searching_the_web"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="searching_for_add-ons"
+         nc:name="searching for add-ons"
+         nc:link="customize_help.xhtml#searching_for_add-ons"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="Sidebar"
@@ -2088,11 +2118,6 @@
          nc:link="customize_help.xhtml#changing_the_theme"/>
      </rdf:li>
      <rdf:li>
-       <rdf:Description ID="themes_panel"
-         nc:name="themes panel"
-         nc:link="customize_help.xhtml#the_themes_panel"/>
-     </rdf:li>
-     <rdf:li>
        <rdf:Description ID="toolbar"
          nc:name="toolbar"/>
      </rdf:li></rdf:Seq>
@@ -2172,9 +2197,19 @@
 <rdf:Description about="help-indexAZ.rdf#u">
    <nc:subheadings>
      <rdf:Seq><rdf:li>
+       <rdf:Description ID="updating_add-ons"
+         nc:name="updating add-ons"
+         nc:link="customize_help.xhtml#updating_add-ons"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="uploading_pages"
          nc:name="uploading pages"
          nc:link="composer_help.xhtml#publishing_your_pages_on_the_web"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="user_tracking"
+         nc:name="user tracking preferences"
+         nc:link="privsec_help.xhtml#privacy_and_security"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>

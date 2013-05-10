@@ -763,7 +763,7 @@
       <rdf:Seq>
         <rdf:li> <rdf:Description ID="cust-addons-about" nc:name="About Add-ons"  nc:link="customize_help.xhtml#about_add-ons"/> </rdf:li>
         <rdf:li> <rdf:Description ID="cust-addons-installing" nc:name="Installing Add-ons"  nc:link="customize_help.xhtml#installing_add-ons"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="cust-addons-manager" nc:name="Using the Add-on Manager"  nc:link="customize_help.xhtml#using_the_add-on_manager"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="cust-addons-manager" nc:name="Using the Add-ons Manager"  nc:link="customize_help.xhtml#using_the_add-ons_manager"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>
@@ -811,6 +811,7 @@
         <rdf:li><rdf:Description ID="advanced_pref_keyboard_nav" nc:name="Keyboard Navigation" nc:link="cs_nav_prefs_advanced.xhtml#keyboard_navigation"/> </rdf:li>
         <rdf:li><rdf:Description ID="advanced_pref_find_as_you_type" nc:name="Find As You Type" nc:link="cs_nav_prefs_advanced.xhtml#fayt"/> </rdf:li>
         <rdf:li><rdf:Description ID="advanced_pref_cache" nc:name="Cache" nc:link="cs_nav_prefs_advanced.xhtml#cache"/> </rdf:li>
+        <rdf:li><rdf:Description ID="advanced_pref_offlineapps" nc:name="Offline Apps" nc:link="cs_nav_prefs_advanced.xhtml#offline_apps"/> </rdf:li>
         <rdf:li><rdf:Description ID="advanced_pref_proxies" nc:name="Proxies" nc:link="cs_nav_prefs_advanced.xhtml#proxies"/> </rdf:li>
         <rdf:li><rdf:Description ID="advanced_http_networking" nc:name="HTTP Networking" nc:link="cs_nav_prefs_advanced.xhtml#http_networking"/> </rdf:li>
         <rdf:li><rdf:Description ID="advanced_pref_installation" nc:name="Software Installation" nc:link="cs_nav_prefs_advanced.xhtml#software_installation"/> </rdf:li>
@@ -830,6 +831,7 @@
         <rdf:li><rdf:Description ID="privacy-doc" nc:name="Privacy on the Internet" nc:link="privacy_help.xhtml#privacy_on_the_internet"/> </rdf:li>
         <rdf:li><rdf:Description ID="using-priv-help-cookies" nc:name="Using the Cookie Manager" nc:link="using_priv_help.xhtml#using_the_cookie_manager"/> </rdf:li>
         <rdf:li><rdf:Description ID="using-priv-help-password" nc:name="Using the Password Manager" nc:link="using_priv_help.xhtml#using_the_password_manager"/> </rdf:li>
+        <rdf:li><rdf:Description ID="using-priv-help-private-data" nc:name="Clearing Private Data" nc:link="using_priv_help.xhtml#clearing_private_data"/> </rdf:li>
         <rdf:li><rdf:Description ID="using-priv-help-encrypt" nc:name="Encrypting Stored Sensitive Information" nc:link="using_priv_help.xhtml#encrypting_stored_sensitive_information"/> </rdf:li>
         <rdf:li><rdf:Description ID="images-help-managing" nc:name="Managing Images" nc:link="using_priv_help.xhtml#managing_images"/> </rdf:li>
         <rdf:li><rdf:Description ID="pop_up_blocking" nc:name="Controlling Popups" nc:link="cs_priv_prefs_popup.xhtml"/> </rdf:li>
@@ -841,8 +843,9 @@
 <rdf:Description about="#privacy-doc">
     <nc:subheadings>
       <rdf:Seq>
-        <rdf:li><rdf:Description ID="privacy-doc-visit" nc:name="What Information Does My Browser Give to a Website?"  		nc:link="privacy_help.xhtml#what_information_does_my_browser_give_to_a_web_site"/> </rdf:li>
+        <rdf:li><rdf:Description ID="privacy-doc-visit" nc:name="What Information Does My Browser Give to a Website?"  		nc:link="privacy_help.xhtml#what_information_does_my_browser_give_to_a_website"/> </rdf:li>
         <rdf:li><rdf:Description ID="privacy-doc-cookies" nc:name="What Are Cookies, and How Do They Work?"  		nc:link="privacy_help.xhtml#what_are_cookies_and_how_do_they_work"/> </rdf:li>
+        <rdf:li><rdf:Description ID="privacy-doc-tracking" nc:name="Why and How Are Websites Tracking Me?"  		nc:link="privacy_help.xhtml#why_and_how_are_websites_tracking_me"/> </rdf:li>
         <rdf:li><rdf:Description ID="privacy-doc-email" nc:name="How Can I Control Web Pages in Email Messages?"  		nc:link="privacy_help.xhtml#how_can_i_control_web_pages_in_email_messages"/> </rdf:li>
         <rdf:li><rdf:Description ID="privacy-doc-unauth" nc:name="How Can I Make Sure Unauthorized People Don't Use Information About Me?"  		nc:link="privacy_help.xhtml#how_can_i_make_sure_unauthorized_people_dont_use_information_about_me"/> </rdf:li>
       </rdf:Seq>
@@ -897,6 +900,16 @@
     </nc:subheadings>
   </rdf:Description>
 
+<rdf:Description about="#using-priv-help-private-data">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li><rdf:Description ID="types_of_private_data" nc:name="Types of Private Data" nc:link="using_priv_help.xhtml#types_of_private_data"/> </rdf:li>
+        <rdf:li><rdf:Description ID="privatedata_prefs" nc:name="Private Data Preferences" nc:link="using_priv_help.xhtml#private_data_prefs"/> </rdf:li>
+        <rdf:li><rdf:Description ID="clear_private_data_now" nc:name="Clear Private Data Now" nc:link="using_priv_help.xhtml#clear_private_data_now"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
 <rdf:Description about="#using-priv-help-encrypt">
     <nc:subheadings>
       <rdf:Seq>
@@ -925,6 +938,21 @@
     </nc:subheadings>
   </rdf:Description>
 
+<rdf:Description about="#sec_gen">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li><rdf:Description ID="sec_gen_private_data" nc:name="Private Data" nc:link="using_priv_help.xhtml#private_data_prefs"/> </rdf:li>
+        <rdf:li><rdf:Description ID="sec_gen_cookies" nc:name="Cookies" nc:link="using_priv_help.xhtml#cookies"/> </rdf:li>
+        <rdf:li><rdf:Description ID="sec_gen_images" nc:name="Images" nc:link="using_priv_help.xhtml#images"/> </rdf:li>
+        <rdf:li><rdf:Description ID="sec_gen_popup_windows" nc:name="Popup Windows" nc:link="cs_priv_prefs_popup.xhtml#privacy_and_security_preferences_popup_windows"/> </rdf:li>
+        <rdf:li><rdf:Description ID="sec_gen_passwords" nc:name="Passwords" nc:link="passwords_help.xhtml#passwords"/> </rdf:li>
+        <rdf:li><rdf:Description ID="sec_gen_master_passwords" nc:name="Master Passwords" nc:link="passwords_help.xhtml#master_passwords"/> </rdf:li>
+        <rdf:li><rdf:Description ID="sec_gen_ssl" nc:name="SSL" nc:link="ssl_help.xhtml#privacy_and_security_preferences_ssl"/> </rdf:li>
+        <rdf:li><rdf:Description ID="sec_gen_certificates" nc:name="Certificates" nc:link="certs_prefs_help.xhtml#privacy_and_security_preferences_certificates"/> </rdf:li>
+        <rdf:li><rdf:Description ID="sec_gen_validation" nc:name="Validation" nc:link="validation_help.xhtml#privacy_and_security_preferences_validation"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
 
 <!-- USING CERTIFICATES CONTENT -->
 <rdf:Description about="#using-help-certs">
@@ -1060,8 +1088,8 @@
 <rdf:Description about="#web_certs">
     <nc:subheadings>
       <rdf:Seq>
-        <rdf:li><rdf:Description ID="edit_web_certs" nc:name="Edit Website Certificate Settings" nc:link="certs_help.xhtml#edit_web_site_certificate_trust_settings"/> </rdf:li>
-        <rdf:li><rdf:Description ID="delete_web_certs" nc:name="Delete Website Certificate" nc:link="certs_help.xhtml#delete_web_site_certificates"/> </rdf:li>
+        <rdf:li><rdf:Description ID="edit_web_certs" nc:name="Edit Website Certificate Settings" nc:link="certs_help.xhtml#edit_website_certificate_trust_settings"/> </rdf:li>
+        <rdf:li><rdf:Description ID="delete_web_certs" nc:name="Delete Website Certificate" nc:link="certs_help.xhtml#delete_website_certificates"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>
@@ -1085,7 +1113,7 @@
         <rdf:li><rdf:Description ID="backup_your_cert" nc:name="Certificate Backup" nc:link="cert_dialog_help.xhtml#certificate_backup"/> </rdf:li>
         <rdf:li><rdf:Description ID="which_cert" nc:name="User Identification Request" nc:link="cert_dialog_help.xhtml#user_identification_request"/> </rdf:li>
         <rdf:li><rdf:Description ID="new_ca" nc:name="New Certificate Authority" nc:link="cert_dialog_help.xhtml#new_certificate_authority"/> </rdf:li>
-        <rdf:li><rdf:Description ID="cert-dialog-help-website" nc:name="Website Certificates" nc:link="cert_dialog_help.xhtml#web_site_certificates"/> </rdf:li>
+        <rdf:li><rdf:Description ID="cert-dialog-help-website" nc:name="Website Certificates" nc:link="cert_dialog_help.xhtml#website_certificates"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>
