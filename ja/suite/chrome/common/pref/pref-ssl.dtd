@@ -4,6 +4,7 @@
 
 <!ENTITY  SSLProtocolVersions.caption       "SSL プロトコルのバージョン">
 <!ENTITY  SSLWarnings.caption               "SSL の警告">
+<!ENTITY  SSLMixedContent.caption           "SSL 混在コンテンツ">
 <!ENTITY  SSLClientAuthMethod.caption       "クライアント証明書の選択">
 
 <!ENTITY pref.ssl.title                     "Secure Sockets Layer (SSL)">
@@ -21,6 +22,15 @@
 <!ENTITY warn.leavingsecure.accesskey       "a">
 <!ENTITY warn.viewmixed                     "暗号化されたページと暗号化されていないページが混在するとき">
 <!ENTITY warn.viewmixed.accesskey           "V">
+
+<!ENTITY warn.mixedactivecontent            "暗号化されたページに安全でないコンテンツが含まれるとき警告する">
+<!ENTITY warn.mixedactivecontent.accesskey  "W">
+<!ENTITY block.activecontent                "暗号化されたページ上の安全でないコンテンツは読み込まない">
+<!ENTITY block.activecontent.accesskey      "D">
+<!ENTITY warn.mixeddisplaycontent           "暗号化されたページに他の混在コンテンツが含まれるとき警告する">
+<!ENTITY warn.mixeddisplaycontent.accesskey "c">
+<!ENTITY block.displaycontent               "暗号化されたページ上の混在コンテンツは読み込まない">
+<!ENTITY block.displaycontent.accesskey     "m">
 
 <!ENTITY certselect.description             "個人証明書を要求されたとき、&brandShortName; がどのように Web サイトにセキュリティ証明書を提示するか決定してください:">
 <!ENTITY certselect.auto                    "自動選択する">

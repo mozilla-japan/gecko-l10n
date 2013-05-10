@@ -43,7 +43,7 @@
 <!ENTITY rights.webservices-b "詳細">
 <!ENTITY rights.webservices-c "@@]@@ セクションの @@[@@ ">
 <!ENTITY rights.webservices-d "ソフトウェアのインストール">
-<!ENTITY rights.webservices-e "@@]@@ エントリで、@@[@@次の更新を自動的にチェックする@@]@@ の設定項目のチェックを外していただければ、アドオン更新サービスを無効化できます。">
+<!ENTITY rights.webservices-e "@@]@@ エントリで、@@[@@次の更新を自動的に確認する@@]@@ の設定項目のチェックを外していただければ、アドオン更新サービスを無効化できます。">
 
 <!-- points 1-6 text for branded builds -->
 <!ENTITY rights.webservices-term1 "&vendorShortName; は、独自の判断に基づいて本サービスを変更または中止することがあります。">
