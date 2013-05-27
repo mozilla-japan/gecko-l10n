@@ -6,7 +6,7 @@
 <!ENTITY  offlineGoOfflineCmd.label	"オフラインにする">
 <!ENTITY  offlineGoOfflineCmd.accesskey	"k">
 
-<!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
 
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
@@ -22,6 +22,9 @@
 <!ENTITY newNavigatorCmd.label		"ブラウザ@@Window@@">
 <!ENTITY newNavigatorCmd.key		"N">
 <!ENTITY newNavigatorCmd.accesskey	"B">
+<!ENTITY newPrivateWindowCmd.label	"プライベート@@Window@@">
+<!ENTITY newPrivateWindowCmd.key	"P">
+<!ENTITY newPrivateWindowCmd.accesskey	"W">
 <!ENTITY printSetupCmd.label		"ページ設定...">
 <!ENTITY printSetupCmd.accesskey	"u">
 <!ENTITY printPreviewCmd.label		"@@Print@@プレビュー">

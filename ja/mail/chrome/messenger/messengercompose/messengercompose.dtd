@@ -136,12 +136,12 @@
 <!ENTITY attachVCard.label		"vCard を添付">
 <!ENTITY attachVCard.accesskey		"v">
 
-<!ENTITY returnReceiptMenu.label	"開封確認の返送を求める"><!-- en-US Return Receipt -->
+<!ENTITY returnReceiptMenu.label	"開封確認の返送を求める"><!-- en-US: Return Receipt -->
 <!ENTITY returnReceiptMenu.accesskey	"t">
-<!ENTITY dsnMenu.label			"配信状態通知の返送を求める"><!-- en-US Delivery Status Notification -->
+<!ENTITY dsnMenu.label			"配信状態通知の返送を求める"><!-- en-US: Delivery Status Notification -->
 <!ENTITY dsnMenu.accesskey		"N">
-<!ENTITY outputFormatMenu.label		"送信形式">
-<!ENTITY outputFormatMenu.accesskey	"f">
+<!ENTITY deliveryFormatMenu.label	"送信形式">
+<!ENTITY deliveryFormatMenu.accesskey	"F">
 <!ENTITY autoFormatCmd.label		"自動判別">
 <!ENTITY autoFormatCmd.accesskey	"a">
 <!ENTITY plainTextFormatCmd.label	"プレーンテキスト">

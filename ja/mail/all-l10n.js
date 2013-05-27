@@ -6,3 +6,10 @@
 
 pref("general.useragent.locale", "@AB_CD@");
 pref("spellchecker.dictionary", "en-US");
+
+pref("browser.search.order.3", "chrome://messenger-region/locale/region.properties");
+pref("browser.search.order.4", "chrome://messenger-region/locale/region.properties");
+pref("browser.search.order.5", "chrome://messenger-region/locale/region.properties");
+pref("browser.search.order.6", "chrome://messenger-region/locale/region.properties");
+pref("browser.search.order.7", "chrome://messenger-region/locale/region.properties");
+pref("browser.search.order.8", "chrome://messenger-region/locale/region.properties");

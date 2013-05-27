@@ -5,3 +5,4 @@
 <!-- Labels -->
 <!ENTITY newfolderchoosethis.label	"親フォルダを選択">
 <!ENTITY filemessageschoosethis.label	"フォルダを選択">
+<!ENTITY recentfolders.label		"最近使用したフォルダ">

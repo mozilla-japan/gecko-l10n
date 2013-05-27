@@ -311,7 +311,7 @@
 <!ENTITY goBackCmd.commandKey		"[">
 <!ENTITY goChatCmd.label		"チャット">
 <!ENTITY goChatCmd.accesskey		"c">
-<!ENTITY goChatCmd.commandKey		"C">
+<!ENTITY goChatCmd.key			"I">
 <!ENTITY prevStarredMsgCmd.label	"スター付きメッセージ">
 <!ENTITY prevStarredMsgCmd.accesskey	"S">
 <!ENTITY folderMenu.label		"フォルダ">
@@ -432,12 +432,12 @@
 <!ENTITY openConversationCmd.label	"スレッドを@@NewTab@@で開く"><!-- en-US: "Open in Conversation" -->
 <!ENTITY openConversationCmd.accesskey	"s">
 <!ENTITY openConversationCmd.key	"o">
-<!ENTITY openFeedMessage.label		"フィードメッセージを開く">
-<!ENTITY openFeedMessage.accesskey	"O">
-<!ENTITY openFeedWebPageInWindow.label	"Web ページ形式で@@NewWindow@@に開く">
-<!ENTITY openFeedWebPageInWindow.accesskey	"W">
-<!ENTITY openFeedSummaryInWindow.label	"要約形式で@@NewWindow@@に開く">
-<!ENTITY openFeedSummaryInWindow.accesskey	"S">
+<!ENTITY openFeedMessage1.label		"フィードメッセージを開く">
+<!ENTITY openFeedMessage1.accesskey	"O">
+<!ENTITY openFeedWebPage.label		"Web ページ形式で開く">
+<!ENTITY openFeedWebPage.accesskey	"W">
+<!ENTITY openFeedSummary.label		"要約形式で開く">
+<!ENTITY openFeedSummary.accesskey	"S">
 <!ENTITY openFeedWebPageInMP.label	"メッセージペインのフィードの表示形式を切り替える">
 <!ENTITY openFeedWebPageInMP.accesskey	"T">
 
@@ -462,7 +462,7 @@
 <!ENTITY imStatus.offline		"オフライン">
 <!ENTITY imStatus.showAccounts		"アカウントを表示...">
 <!ENTITY joinChatCmd.label		"チャットに参加...">
-<!ENTITY joinChatCmd.accesskey		"o">
+<!ENTITY joinChatCmd.accesskey		"t">
 <!ENTITY savedFiles.label		"保存したファイル">
 <!ENTITY savedFiles.accesskey		"l">
 <!ENTITY savedFiles.key			"j">
@@ -557,7 +557,7 @@
 <!ENTITY chatButton.tooltip		"チャットタブを開きます">
 <!ENTITY tagButton.tooltip		"メッセージにタグを付けます">
 <!ENTITY compactButton.tooltip		"削除したメッセージをフォルダから消去します"><!-- (^^; わかりにくい... -->
-<!ENTITY appmenuButton.tooltip		"アプリケーションのメニューを表示します">
+<!ENTITY appmenuButton1.tooltip		"&brandShortName; のメニューを表示します">
 
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label		"新規作成"><!-- en-US: "New Message" -->
@@ -565,6 +565,8 @@
 <!ENTITY appmenuEditMenu.label		"編集">
 <!ENTITY appmenuQFBMenu.label		"クイックフィルタバー">
 <!ENTITY appmenuToolbarLayout.label	"ツールバーのカスタマイズ...">
+<!ENTITY appmenuSelectThread.label	"スレッドを選択">
+<!ENTITY appmenuSelectFlagged.label	"スター付きのメッセージを選択">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label		"@@New-CMD@@タグ...">
@@ -853,7 +855,7 @@
 <!ENTITY saveImageAsCmd.label		"@@SaveImageAs@@...">
 <!ENTITY saveImageAsCmd.accesskey	"v">
 <!ENTITY copyLinkCmd.label		"リンクの URL をコピー">
-<!ENTITY copyLinkCmd.accesskey		"C">
+<!ENTITY copyLinkCmd.accesskey		"L">
 <!ENTITY copyImageAllCmd.label		"画像をコピー">
 <!ENTITY copyImageAllCmd.accesskey	"I">
 <!ENTITY copyEmailCmd.label		"メールアドレスをコピー">

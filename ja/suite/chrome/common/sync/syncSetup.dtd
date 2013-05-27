@@ -60,29 +60,29 @@
 <!ENTITY setup.captchaPage2.title.label     "あなたがロボットではないことを確認してください">
 
 <!-- Existing Account Page 1: Add Device (incl. Add a Device dialog strings) -->
-<!ENTITY addDevice.title.label              "デバイスを追加する">
+<!ENTITY addDevice.title.label              "端末を追加する">
 <!ENTITY addDevice.showMeHow.label          "設定方法を確認する。">
-<!ENTITY addDevice.dontHaveDevice.label     "他の Sync デバイスを持っていない">
-<!ENTITY addDevice.setup.description.label  "有効にするには、他の Sync デバイスで &syncBrand.shortName.label; 設定の &#x0022;デバイスを追加する&#x0022; を選択してください。">
+<!ENTITY addDevice.dontHaveDevice.label     "他の Sync 端末を持っていない">
+<!ENTITY addDevice.setup.description.label  "有効にするには、他の Sync 端末で &syncBrand.shortName.label; 設定の &#x0022;端末を追加する&#x0022; を選択してください。">
 <!ENTITY addDevice.setup.enterCode.label    "表示された画面に、以下のコードを入力してください:">
-<!ENTITY addDevice.dialog.description.label "新たなデバイスを有効にするには、追加するデバイスの &syncBrand.shortName.label; 設定の &#x0022;接続&#x0022; を選択してください。">
-<!ENTITY addDevice.dialog.enterCode.label   "デバイスに表示されたコードを入力してください:">
+<!ENTITY addDevice.dialog.description.label "新たな端末を有効にするには、追加する端末の &syncBrand.shortName.label; 設定の &#x0022;接続&#x0022; を選択してください。">
+<!ENTITY addDevice.dialog.enterCode.label   "端末に表示されたコードを入力してください:">
 <!ENTITY addDevice.dialog.tryAgain.label    "もう一度入力してください。">
-<!ENTITY addDevice.dialog.successful.label  "デバイスの接続に成功しました。最初の同期はバックグラウンドで、数分のうちに完了します。">
-<!ENTITY addDevice.dialog.recoveryKey.label "お使いのデバイスで &syncBrand.shortName.label; を有効にするには、リカバリキーを入力する必要があります。以下のリカバリキーを@@Print@@または保存して、デバイスに入力してください。">
-<!ENTITY addDevice.dialog.connected.label   "デバイスが接続されました">
+<!ENTITY addDevice.dialog.successful.label  "端末の接続に成功しました。最初の同期はバックグラウンドで、数分のうちに完了します。">
+<!ENTITY addDevice.dialog.recoveryKey.label "お使いの端末で &syncBrand.shortName.label; を有効にするには、リカバリキーを入力する必要があります。以下のリカバリキーを@@Print@@または保存して、端末に入力してください。">
+<!ENTITY addDevice.dialog.connected.label   "端末が接続されました">
 
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "サインイン">
-<!ENTITY existingRecoveryKey.description "リカバリキーは他の Sync デバイスの &syncBrand.shortName.label; 設定の &#x0022;アカウントを管理&#x0022; の &#x0022;自分のリカバリキー&#x0022; で確認できます。">
+<!ENTITY existingRecoveryKey.description "リカバリキーは他の Sync 端末の &syncBrand.shortName.label; 設定の &#x0022;アカウントを管理&#x0022; の &#x0022;自分のリカバリキー&#x0022; で確認できます。">
 
 <!ENTITY verifying.label              "確認中...">
 <!ENTITY resetPassword.label          "パスワードをリセット">
-<!ENTITY resetSyncKey.label           "他の Sync デバイスをなくした場合。">
+<!ENTITY resetSyncKey.label           "他の Sync 端末をなくした場合。">
 
 <!-- Sync Options -->
 <!ENTITY setup.optionsPage.title      "同期オプション">
-<!ENTITY syncComputerName.label       "デバイス名:">
+<!ENTITY syncComputerName.label       "端末名:">
 <!ENTITY syncComputerName.accesskey   "C">
 
 <!ENTITY syncMy.label               "同期するデータ">
@@ -102,14 +102,14 @@
 <!ENTITY choice2.merge.main.label      "このパソコンのブラウザデータを、サーバに保存されているデータと統合する">
 <!ENTITY choice2.merge.recommended.label "推奨:">
 <!ENTITY choice2.client.main.label     "このパソコンのブラウザデータを、サーバに保存されている &syncBrand.shortName.label; データと置き換える">
-<!ENTITY choice2.server.main.label     "他のすべてのデバイスのブラウザデータを、このパソコンのデータと置き換える">
+<!ENTITY choice2.server.main.label     "他のすべての端末のブラウザデータを、このパソコンのデータと置き換える">
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title        "確認">
 <!ENTITY confirm.merge.label          "このパソコンのすべてのブラウザデータは、サーバに保存されているあなたの Sync アカウントのデータと統合されます。">
 <!ENTITY confirm.client2.label         "警告: このパソコンのブラウザデータは、以下の情報を含め、すべて削除されます:">
 <!ENTITY confirm.client.moreinfo.label "その後、サーバに保存されているあなたの &syncBrand.fullName.label; データがこのパソコンへコピーされます。">
-<!ENTITY confirm.server2.label         "警告: 以下のデバイスのブラウザデータが、このパソコンのデータで上書きされます:">
+<!ENTITY confirm.server2.label         "警告: 以下の端末のブラウザデータが、このパソコンのデータで上書きされます:">
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "セットアップが完了しました">

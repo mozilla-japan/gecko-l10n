@@ -10,9 +10,9 @@
 
 <!ENTITY window.title				"Web コンソール">
 
-<!ENTITY networkPanel.requestURL		"要求 URL">
-<!ENTITY networkPanel.requestMethod		"要求メソッド">
-<!ENTITY networkPanel.statusCode		"ステータスコード">
+<!ENTITY networkPanel.requestURLColon		"要求 URL:">
+<!ENTITY networkPanel.requestMethodColon	"要求メソッド:">
+<!ENTITY networkPanel.statusCodeColon		"ステータスコード:">
 
 <!ENTITY networkPanel.requestHeaders		"要求ヘッダ">
 <!ENTITY networkPanel.requestCookie		"送信 Cookie">
@@ -20,6 +20,7 @@
 <!ENTITY networkPanel.requestFormData		"送信フォームデータ">
 
 <!ENTITY networkPanel.responseHeaders		"応答ヘッダ">
+<!ENTITY networkPanel.responseCookie		"受信 Cookie">
 <!ENTITY networkPanel.responseBody		"応答ボディ">
 <!ENTITY networkPanel.responseBodyCached	"キャッシュデータ">
 <!ENTITY networkPanel.responseBodyUnknownType	"不明なファイルの種類">
@@ -59,30 +60,9 @@
 <!ENTITY btnConsoleWarnings			"警告">
 <!ENTITY btnConsoleLog				"ログ">
 
-<!-- LOCALIZATION NOTE (btnPosition.label): The label shown for the menu which
-  -  allows the user to toggle between the Web Console positioning types. -->
-<!ENTITY btnPosition.label			"表示位置">
-
-<!-- LOCALIZATION NOTE (btnPosition.tooltip): The tooltip shown when the user
-  -  hovers the Position button in the Web Console toolbar. -->
-<!ENTITY btnPosition.tooltip			"Web コンソールの表示位置を指定します">
-
-<!-- LOCALIZATION NOTE (positionMenu.above): When this option is selected the
-  -  Web Console interface is displayed above the web page. -->
-<!ENTITY positionMenu.above			"上側">
-
-<!-- LOCALIZATION NOTE (positionMenu.below): When this option is selected the
-  -  Web Console interface is displayed below the web page. -->
-<!ENTITY positionMenu.below			"下側">
-
-<!-- LOCALIZATION NOTE (positionMenu.window): When this option is selected the
-  -  Web Console interface is displayed in a floating panel. -->
-<!ENTITY positionMenu.window			"@@Window@@">
-
 <!ENTITY filterBox.placeholder			"フィルタ">
 <!ENTITY btnClear.label				"消去">
 <!ENTITY btnClear.tooltip			"Web コンソールの内容を消去します">
-<!ENTITY btnClose.tooltip			"Web コンソールを閉じます">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey		"+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2		"="> <!-- + is above this key on many keyboards -->

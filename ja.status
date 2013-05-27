@@ -288,7 +288,7 @@ irc                    ------:------------  -----:------------   mar            
 venkman                ------:------------  -----:------------   mar             sync venkman for Venkman 0.9.88
 suite                  ------:------------  13004:f5417d9241fe   mar             re-sync suite (comm-beta)
 
-[l10n-mozilla-17.0] (for beta)
+Released! [l10n-mozilla-17.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                106924:3c38673c4b1c  -----:------------   hATrayflood     sync toolkit
@@ -305,18 +305,69 @@ suite                  ------:------------  12143:5bb30d69b276   hATrayflood    
 toolkit                107038:a4880b03634f  -----:------------   hATrayflood     re-sync toolkit
 browser                107038:a4880b03634f  -----:------------   hATrayflood     re-sync browser
 
-[l10n-mozilla-18.0] (for aurora)
+Released! [l10n-mozilla-18.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  12512:6726e97a0d3c   mar             sync calendar
 chat, editor/ui        ------:------------  12537:34d83739a9e9   mar             sync chat, editor/ui
 mail                   ------:------------  12547:4f3140a9ed92   mar             sync mail
 dom, security          114006:d0a3931168de  12547:4f3140a9ed92   mar             sync dom, security
-toolkit, services/sync 114029:8ae22fe748fc  ------:-----------   hATrayflood     sync toolkit, services/sync
+toolkit, services/sync 114029:8ae22fe748fc  -----:------------   hATrayflood     sync toolkit, services/sync
 suite                  ------:------------  12547:4f3140a9ed92   hATrayflood     sync suite
 mobile                 113748:029f67cb42b7  -----:------------   Kechol          sync mobile
 browser                114029:8ae22fe748fc  -----:------------   hATrayflood     sync browser (exclude devtools)
-toolkit, services/sync 114029:8ae22fe748fc  ------:-----------   hATrayflood     re-sync toolkit, services/sync
+toolkit, services/sync 114029:8ae22fe748fc  -----:------------   hATrayflood     re-sync toolkit, services/sync
 browser/devtools       114029:8ae22fe748fc  -----:------------   hATrayflood     sync browser/devtools
 mail, suite            ------:------------  12561:92762a5802d4   mar             re-sync mail, suite
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.89
+
+Released! [l10n-mozilla-19.0]
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, security          119017:eaccb5edc854  12916:90249d084a38   mar             sync dom, security
+browser                119068:a122b3c03b4c  -----:------------   hATrayflood     sync browser (exclude devtools)
+toolkit                119068:a122b3c03b4c  -----:------------   hATrayflood     sync toolkit
+browser/devtools       119068:a122b3c03b4c  -----:------------   hATrayflood     sync browser/devtools
+suite/browser, suite/common
+                       119100:c02926efc5fa  12920:1204aac48e3a   hATrayflood     sync suite/browser, suite/common
+chat                   ------:------------  12920:1204aac48e3a   mar             sync chat
+mail                   ------:------------  12920:1204aac48e3a   mar             sync mail
+suite/mailnews         ------:------------  12920:1204aac48e3a   mar             sync suite/mailnews
+mobile/android         119127:bdca00e901f1  -----:------------   Kechol          sync mobile/android
+
+Released! [l10n-mozilla-20.0]
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar               ------:------------  13144:c7cf156f150a   mar             sync calendar
+mail, editor/ui        ------:------------  13144:c7cf156f150a   mar             sync mail, editor/ui
+dom, security          123846:6f2c8a3ad078  13148:5c432757a604   mar             sync dom, security
+toolkit                123846:6f2c8a3ad078  13148:5c432757a604   mar             sync toolkit
+browser                123954:4fd7553bfa40  -----:------------   hATrayflood     sync browser (exclude devtools)
+suite                  ------:------------  13158:3c479c9f8c57   hATrayflood     sync suite
+mail                   ------:------------  13158:3c479c9f8c57   hATrayflood     re-sync mail
+mobile/android         123951:c4aa14e5e8eb  -----:------------   Kechol          sync mobile/android
+browser/devtools       123954:4fd7553bfa40  -----:------------   hATrayflood     sync browser/devtools
+
+[l10n-mozilla-21.0] (for beta)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar               ------:------------  13408:64b92b660066   mar             sync calendar
+chat, mail             ------:------------  13422:56a4332c907e   mar             sync chat, mail
+dom                    128678:286f3ec182e8  13424:18954405c22e   mar             sync dom
+toolkit                128693:34f00081ec61  13424:18954405c22e   mar             sync toolkit
+browser                128693:34f00081ec61  -----:------------   hATrayflood     sync browser
+mobile/android         128693:34f00081ec61  -----:------------   Kechol          sync mobile/android
+suite                  ------:------------  13424:18954405c22e   hATrayflood     sync suite
+
+[l10n-mozilla-22.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.90
+mobile/android         133523:bf17ffb21f5e  -----:------------   Kechol          sync mobile/android
+venkman                ------:------------  -----:------------   mar             sync venkman for SeaMonkey 2.19
+calendar               ------:------------  13690:ccaa321bf930   mar             sync calendar
+dom                    133599:d98584bb5fe9  13696:329ad226ac9a   mar             sync dom
+chat, mail             ------:------------  13696:329ad226ac9a   mar             sync chat, mail
+toolkit                133599:d98584bb5fe9  13696:329ad226ac9a   mar             sync toolkit
+suite                  ------:------------  13702:a02b40a24fec   mar             sync suite
+browser                133624:581ea0e6531e  -----:------------   hATrayflood     sync browser

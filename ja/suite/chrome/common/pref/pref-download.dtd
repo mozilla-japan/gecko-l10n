@@ -5,14 +5,14 @@
 <!ENTITY pref.download.title            "ダウンロード">
 
 <!ENTITY downloadBehavior.label         "ダウンロードの開始時">
-<!ENTITY focusWhenStarting.label        "ダウンロードマネージャがすでに開いている場合は点滅させる:">
-<!ENTITY focusWhenStarting.accesskey    "F">
-<!ENTITY openDM.label                   "ダウンロードマネージャを開く">
-<!ENTITY openDM.accesskey               "m">
-<!ENTITY openProgressDialog.label       "進行状況ダイアログを開く">
-<!ENTITY openProgressDialog.accesskey   "O">
 <!ENTITY doNothing.label                "何も開かない">
 <!ENTITY doNothing.accesskey            "D">
+<!ENTITY openProgressDialog.label       "進行状況ダイアログを開く">
+<!ENTITY openProgressDialog.accesskey   "O">
+<!ENTITY openDM.label                   "ダウンロードマネージャを開く">
+<!ENTITY openDM.accesskey               "m">
+<!ENTITY flashWhenOpen.label            "ダウンロードマネージャがすでに開いている場合は点滅させる">
+<!ENTITY flashWhenOpen.accesskey        "f">
 
 <!ENTITY downloadLocation.label         "ファイルの保存時">
 <!ENTITY saveTo.label                   "次のフォルダに保存">

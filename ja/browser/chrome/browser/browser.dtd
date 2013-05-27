@@ -63,7 +63,7 @@ can reach it easily. -->
 <!ENTITY printCmd.commandkey		"p">
 
 <!ENTITY goOfflineCmd.label		"オフライン作業">
-<!ENTITY goOfflineCmd.accesskey		"w">
+<!ENTITY goOfflineCmd.accesskey		"k">
 
 <!ENTITY menubarCmd.label		"メニューバー">
 <!ENTITY menubarCmd.accesskey		"M">
@@ -161,7 +161,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksButton.label		"ブックマーク">
 <!ENTITY bookmarksButton.tooltip	"ブックマークをサイドバーに表示します">
-<!ENTITY bookmarksButton.accesskey	"B">
 <!ENTITY bookmarksCmd.commandkey	"b">
 
 <!ENTITY bookmarksMenuButton.label	"ブックマーク">
@@ -178,7 +177,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY historyButton.label		"履歴">
 <!ENTITY historyButton.tooltip		"最近表示したページの履歴をサイドバーに表示します">
-<!ENTITY historySidebarCmd.accesskey	"s">
 <!ENTITY historySidebarCmd.commandKey	"h">
 
 <!ENTITY toolsMenu.label		"ツール">
@@ -200,17 +198,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label		"Web 開発">
 <!ENTITY webDeveloperMenu.accesskey	"W">
 
+<!ENTITY devtoolsConnect.label		"接続...">
+<!ENTITY devtoolsConnect.accesskey	"e">
+
 <!ENTITY errorConsoleCmd.label		"エラーコンソール">
 <!ENTITY errorConsoleCmd.accesskey	"C">
 <!ENTITY errorConsoleCmd.commandkey	"j">
 
-<!ENTITY webConsoleCmd.label		"Web コンソール">
-<!ENTITY webConsoleCmd.accesskey	"W">
-<!ENTITY webConsoleCmd.commandkey	"k">
-
-<!ENTITY inspectMenu.label		"調査">
-<!ENTITY inspectMenu.accesskey		"I">
-<!ENTITY inspectMenu.commandkey		"I">
+<!ENTITY remoteWebConsoleCmd.label	"リモート Web コンソール">
 
 <!ENTITY inspectContextMenu.label	"要素を調査">
 <!ENTITY inspectContextMenu.accesskey	"Q">
@@ -234,40 +229,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY scratchpad.keycode           "VK_F4">
 <!ENTITY scratchpad.keytext           "F4">
 
-<!ENTITY inspectCloseButton.tooltiptext		"調査を閉じる">
-<!ENTITY inspectSidebarCloseButton.tooltiptext	"サイドバーを閉じる">
-
 <!ENTITY devToolbarCloseButton.tooltiptext	"開発ツールバーを閉じる">
 <!ENTITY devToolbarMenu.label			"開発ツールバー">
 <!ENTITY devToolbarMenu.accesskey		"v">
 <!ENTITY devToolbar.keycode			"VK_F2">
 <!ENTITY devToolbar.keytext			"F2">
+<!ENTITY devToolboxMenuItem.label		"開発ツールを表示">
+<!ENTITY devToolboxMenuItem.accesskey		"T">
+
+<!ENTITY devToolbarToolsButton.tooltip		"開発ツールを表示">
 <!ENTITY devToolbarOtherToolsButton.label	"その他のツール">
-
-<!ENTITY inspectorHTMLCopyInner.label		"内側の HTML をコピー">
-<!ENTITY inspectorHTMLCopyInner.accesskey	"I">
-
-<!ENTITY inspectorHTMLCopyOuter.label		"外側の HTML をコピー">
-<!ENTITY inspectorHTMLCopyOuter.accesskey	"O">
-
-<!ENTITY inspectorHTMLDelete.label		"ノードを削除">
-<!ENTITY inspectorHTMLDelete.accesskey		"D">
-
-<!-- LOCALIZATION NOTE (inspect3DViewButton.label): This button shows an
-  -  alternate view for the Inspector, creating a 3D visualization of the
-  -  webpage. -->
-<!ENTITY inspect3DViewButton.label	"3D ビュー">
-<!ENTITY inspect3DViewButton.accesskey	"W">
-
-<!ENTITY inspectStyleButton.label	"スタイル">
-<!ENTITY inspectStyleButton.accesskey	"S">
-
-<!-- LOCALIZATION NOTE (styleeditor.label): This menu item label appears
-  -  in the Tools menu. -->
-<!ENTITY styleeditor.label		"スタイルエディタ">
-<!ENTITY styleeditor.accesskey		"y">
-<!ENTITY styleeditor.keycode		"VK_F7">
-<!ENTITY styleeditor.keytext		"F7">
 
 <!ENTITY getMoreDevtoolsCmd.label	"その他のツールを入手">
 <!ENTITY getMoreDevtoolsCmd.accesskey	"M">
@@ -277,6 +248,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newNavigatorCmd.label		"@@NewWindow@@">
 <!ENTITY newNavigatorCmd.key		"N">
 <!ENTITY newNavigatorCmd.accesskey	"N">
+<!ENTITY newPrivateWindow.label		"@@New-CMD@@プライベート@@Window@@">
+<!ENTITY newPrivateWindow.accesskey	"W">
 
 <!ENTITY editMenu.label			"編集">
 <!ENTITY editMenu.accesskey		"E">
@@ -307,13 +280,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY preferencesCmdUnix.accesskey	"n">
 
 <!ENTITY clearRecentHistory.label	"最近の履歴を消去">
-<!ENTITY clearRecentHistory.accesskey	"H">
 
-<!-- LOCALIZATION NOTE : These two strings can share an access key because they never appear together on the menu -->
-<!ENTITY privateBrowsingCmd.start.label		"プライベートブラウジングを開始">
-<!ENTITY privateBrowsingCmd.start.accesskey	"P">
-<!ENTITY privateBrowsingCmd.stop.label		"プライベートブラウジングを終了">
-<!ENTITY privateBrowsingCmd.stop.accesskey	"P">
 <!ENTITY privateBrowsingCmd.commandkey		"P">
 
 <!ENTITY viewMenu.label			"表示">
@@ -352,7 +319,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuSafeMode.accesskey	"R">
 
 <!ENTITY openCmd.commandkey		"l">
-<!ENTITY urlbar.placeholder		"URL を入力します">
+<!ENTITY urlbar.placeholder2		"URL または検索語句を入力します">
 <!ENTITY urlbar.accesskey		"d">
 <!ENTITY urlbar.switchToTab.label	"タブを表示:">
 
@@ -382,16 +349,18 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY tabView.commandkey		"e">
 
-<!ENTITY openLinkCmd.label		"リンクを@@NewWindow@@で開く">
-<!ENTITY openLinkCmd.accesskey		"W">
 <!ENTITY openLinkCmdInTab.label		"リンクを@@NewTab@@で開く">
 <!ENTITY openLinkCmdInTab.accesskey	"T">
-<!ENTITY openLinkCmdInCurrent.label     "選択した URL を開く"><!-- (^m^) Bug 454518  en-US: "Open link" -->
-<!ENTITY openLinkCmdInCurrent.accesskey "O">
-<!ENTITY openFrameCmd.label		"フレームを@@NewWindow@@で開く">
-<!ENTITY openFrameCmd.accesskey		"W">
+<!ENTITY openLinkCmd.label		"リンクを@@NewWindow@@で開く">
+<!ENTITY openLinkCmd.accesskey		"W">
+<!ENTITY openLinkInPrivateWindowCmd.label	"リンクを@@New-CMD@@プライベート@@Window@@で開く">
+<!ENTITY openLinkInPrivateWindowCmd.accesskey	"P">
+<!ENTITY openLinkCmdInCurrent.label	"選択した URL を開く"><!-- (^m^) Bug 454518  en-US: "Open link" -->
+<!ENTITY openLinkCmdInCurrent.accesskey	"O">
 <!ENTITY openFrameCmdInTab.label	"フレームを@@NewTab@@で開く">
 <!ENTITY openFrameCmdInTab.accesskey	"T">
+<!ENTITY openFrameCmd.label		"フレームを@@NewWindow@@で開く">
+<!ENTITY openFrameCmd.accesskey		"W">
 <!ENTITY showOnlyThisFrameCmd.label	"このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey	"S">
 <!ENTITY reloadCmd.commandkey		"r">
@@ -453,6 +422,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailVideoCmd.accesskey	"a">
 <!ENTITY emailAudioCmd.label		"オーディオの URL をメールで送信...">
 <!ENTITY emailAudioCmd.accesskey	"a">
+<!ENTITY playPluginCmd.label		"このプラグインを有効化">
+<!ENTITY playPluginCmd.accesskey	"c">
+<!ENTITY hidePluginCmd.label		"このプラグインを非表示">
+<!ENTITY hidePluginCmd.accesskey	"H">
 <!ENTITY copyLinkCmd.label		"リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey		"a">
 <!ENTITY copyImageCmd.label		"画像の URL をコピー">
@@ -483,6 +456,19 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey		"M">
 <!ENTITY mediaUnmute.label		"ミュート解除">
 <!ENTITY mediaUnmute.accesskey		"m">
+<!ENTITY mediaPlaybackRate.label		"再生スピード">
+<!ENTITY mediaPlaybackRate.accesskey		"l">
+<!ENTITY mediaPlaybackRate050x.label		"スローモーション (0.5×)">
+<!ENTITY mediaPlaybackRate050x.accesskey	"S">
+<!ENTITY mediaPlaybackRate100x.label		"通常">
+<!ENTITY mediaPlaybackRate100x.accesskey	"N">
+<!ENTITY mediaPlaybackRate150x.label		"早送り (1.5×)">
+<!ENTITY mediaPlaybackRate150x.accesskey	"H">
+<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+movie "Space Balls" and is meant to say that this speed is very
+fast. -->
+<!ENTITY mediaPlaybackRate200x.label		"なんて速さだ！ (2×)">
+<!ENTITY mediaPlaybackRate200x.accesskey	"L">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -613,9 +599,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY identity.moreInfoLinkText		"詳細を表示...">
 
-<!ENTITY downloadMonitor2.tooltip		"クリックするとダウンロード@@Window@@を開きます">
-
-<!ENTITY allTabs.filter.emptyText		"タブを検索">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label			"ブラウザタブ"><!-- (^m^) Bug 565042  音声読み上げ用ラベル -->
@@ -634,15 +617,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY addonBarCloseButton.tooltip	"アドオンバーを閉じます">
 <!ENTITY toggleAddonBarCmd.key			"/">
 
-<!-- LOCALIZATION NOTE (markupButton.arialabel): The markup button is the button
-located in front of the breadcrumbs display in the inspector toolbar. The button
-doesn't display any label, but exposes a label to screen-readers with "aria-label".
--->
-<!ENTITY markupButton.arialabel			"マークアップ">
-<!-- LOCALIZATION NOTE (markupButton.accesskey): The key bound to the Markup panel's
-toolbar button -->
-<!ENTITY markupButton.accesskey			"M">
-
 <!ENTITY socialToolbar.title			"ソーシャルツールバーボタン">
 <!ENTITY social.notLoggedIn.label		"ログインしていません">
 
@@ -652,8 +626,27 @@ toolbar button -->
 <!ENTITY social.toggleSidebar.label		"サイドバーを表示する">
 <!ENTITY social.toggleSidebar.accesskey		"s">
 
+<!ENTITY social.addons.label			"サービスを管理...">
+
 <!ENTITY social.toggleNotifications.label	"デスクトップ通知を表示する">
 <!ENTITY social.toggleNotifications.accesskey	"n">
 
 <!ENTITY social.activated.undobutton.label	"@@Undo@@">
 <!ENTITY social.activated.undobutton.accesskey	"U">
+
+<!ENTITY social.chatBar.commandkey		"c">
+<!ENTITY social.chatBar.label			"チャットを入力">
+<!ENTITY social.chatBar.accesskey		"c">
+
+<!ENTITY getUserMedia.selectCamera.label		"共有するカメラ:">
+<!ENTITY getUserMedia.selectCamera.accesskey		"C">
+<!ENTITY getUserMedia.selectMicrophone.label		"共有するマイク:">
+<!ENTITY getUserMedia.selectMicrophone.accesskey	"M">
+
+<!ENTITY webrtcIndicatorButton.label		"カメラ、マイクへのアクセス">
+<!ENTITY webrtcIndicatorButton.tooltip		"カメラかマイクを共有しているサイトを表示します">
+
+<!ENTITY mixedContentBlocked.helplink		"詳細">
+<!ENTITY mixedContentBlocked.moreinfo		"ほとんどの Web サイトは、このコンテンツがブロックされても、正しく表示されます。">
+
+<!ENTITY pointerLock.notification.message	"ESC キーを押すと、毎回確認するようになります。">

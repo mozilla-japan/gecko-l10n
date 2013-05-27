@@ -11,6 +11,7 @@
 <!ENTITY enter.accesskey "E">
 <!ENTITY chooseFile.label "ファイルを選択...">
 <!ENTITY chooseFile.accesskey "C">
+<!ENTITY newPrivate.label "@@New-CMD@@プライベート@@Window@@">
 <!ENTITY newWindow.label "@@New-CMD@@ブラウザ@@Window@@">
 <!ENTITY newTab.label "@@New-CMD@@ブラウザのタブ">
 <!ENTITY currentTab.label "現在のブラウザのタブ">
