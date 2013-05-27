@@ -11,15 +11,26 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 翻訳作業時のメモ。
 未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
-◆17.0対応作業関連
-l10n-central にマージする
+◆21.0 対応作業関連
+・The Book of Mozilla, 15.1
+	http://forums.firehacks.org/l10n/viewtopic.php?t=17204
+	toolkit/chrome/global/mozilla.dtd
 
+・Bug 858952 - [ja] Rename Yahoo! Auctions
+	mail はレビュー待ち
+・Bug 863681 - [ja] Fix sorting of search engines for Thunderbird
+	レビュー待ち
 
-◆16.0対応作業関連
+◆20.0 対応作業関連
+・http://forums.firehacks.org/l10n/viewtopic.php?t=17175
+	まず Thunderbird の該当バグを確認する。 -> バグ登録なし
+
+・http://forums.firehacks.org/l10n/viewtopic.php?t=17171
+	要検討。
+
+◆16.0 対応作業関連
 未訳:
     dom/chrome/security/csp.properties
-
-
 
 未訳箇所あり:
     dom\chrome\layout\htmlparser.properties
@@ -105,6 +116,9 @@ mozilla-2.0     -> l10n-mozilla-2.0
 
 
 ◇ あまり使わないコマンド
+
+・コミットの取り消し (ただしpush前限定)
+> hg rollback
 
 ・作業ブランチの切り替え
 > hg update [branch name]

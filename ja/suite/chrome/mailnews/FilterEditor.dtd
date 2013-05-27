@@ -16,16 +16,19 @@
 <!ENTITY highPriorityCmd.label       "高">
 <!ENTITY highestPriorityCmd.label    "最高">
 
-<!ENTITY contextDesc.label           "フィルタを適用するタイミング:">
-<!ENTITY contextDesc.accesskey       "w">
-<!ENTITY contextIncoming.label       "メールチェック時">
-<!ENTITY contextManual.label         "手動で実行">
-<!ENTITY contextBoth.label           "メールチェック時と手動実行">
-<!ENTITY contextPostPlugin.label     "メールチェック時 (迷惑メール分類後)">
-<!ENTITY contextPostPluginBoth.label "メールチェック時 (迷惑メール分類後) または手動実行">
+<!ENTITY contextDesc.label		"フィルタを適用するタイミング:">
+<!ENTITY contextIncomingMail.label	"新着メール受信時:">
+<!ENTITY contextIncomingMail.accesskey	"G">
+<!ENTITY contextManual.label		"手動で実行する">
+<!ENTITY contextManual.accesskey	"R">
+<!ENTITY contextBeforeCls.label		"迷惑メール分類前に実行">
+<!ENTITY contextAfterCls.label		"迷惑メール分類後に実行">
 
-<!ENTITY filterActionDesc.label      "以下の動作を実行する:">
-<!ENTITY filterActionDesc.accesskey  "P">
+<!ENTITY filterActionDesc.label		"以下の動作を実行する:">
+<!ENTITY filterActionDesc.accesskey	"P">
+
+<!ENTITY filterActionOrderWarning.label	"補足: フィルタ動作は異なる順で実行されます。">
+<!ENTITY filterActionOrder.label	"実行順を見る">
 
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label           "メッセージを移動する">

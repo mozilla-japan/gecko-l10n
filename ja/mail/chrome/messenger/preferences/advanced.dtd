@@ -27,8 +27,8 @@
 <!ENTITY alwaysCheckDefault.accesskey		"A">
 <!ENTITY searchIntegration.label		"&searchIntegration.engineName; によるメッセージの検索を許可する">
 <!ENTITY searchIntegration.accesskey		"S">
-<!ENTITY checkNow.label				"今すぐ確認">
-<!ENTITY checkNow.accesskey			"N">
+<!ENTITY checkDefaultsNow.label			"今すぐ確認...">
+<!ENTITY checkDefaultsNow.accesskey		"N">
 <!ENTITY configEditDesc.label			"高度な設定">
 <!ENTITY configEdit.label			"設定エディタ..."><!-- (^^; 要するに about:config -->
 <!ENTITY configEdit.accesskey			"C">

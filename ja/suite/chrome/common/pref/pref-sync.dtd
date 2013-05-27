@@ -5,7 +5,7 @@
 <!-- The page shown when not logged in... -->
 <!ENTITY setupButton.label          "&syncBrand.fullName.label; をセットアップ">
 <!ENTITY setupButton.accesskey      "S">
-<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; を使えば、SeaMonkey の履歴、ブックマーク、パスワード、開いているタブに、様々なデバイスからアクセスできます。">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; を使えば、SeaMonkey の履歴、ブックマーク、パスワード、開いているタブに、様々な端末からアクセスできます。">
 
 <!-- The page shown when logged in... -->
 <!ENTITY accountGroupboxCaption.label "&syncBrand.fullName.label; アカウント">
@@ -28,13 +28,13 @@
 <!ENTITY myRecoveryKey.accesskey      "M">
 <!ENTITY resetSync.label              "Sync をリセット">
 <!ENTITY resetSync.accesskey          "R">
-<!ENTITY deactivateDevice.label       "このデバイスの同期を停止">
-<!ENTITY deactivateDevice.accesskey   "D">
-<!ENTITY addDevice.label              "デバイスを追加">
+<!ENTITY unlinkDevice.label           "この端末を切り離す">
+<!ENTITY unlinkDevice.accesskey       "D">
+<!ENTITY addDevice.label              "端末を追加">
 <!ENTITY addDevice.accesskey          "A">
 
 <!-- Sync Settings -->
-<!ENTITY syncComputerName.label       "デバイス名:">
+<!ENTITY syncComputerName.label       "端末名:">
 <!ENTITY syncComputerName.accesskey   "N">
 
 <!ENTITY syncMy2.label              "同期するデータ:">

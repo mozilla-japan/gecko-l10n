@@ -16,9 +16,9 @@
 <!ENTITY locationBar.label "アドレスバー">
 <!ENTITY tabWindows.label "タブブラウズ">
 <!ENTITY links.label "リンクの動作">
-<!ENTITY findAsYouType.label "タイプ検索">
 <!ENTITY offline.label "オフライン">
 <!ENTITY security.label "プライバシーとセキュリティ">
+<!ENTITY privatedata.label "プライバシー情報">
 <!ENTITY cookies.label "Cookie">
 <!ENTITY images.label "画像">
 <!ENTITY popups.label "ポップアップ@@Window@@">
@@ -37,9 +37,11 @@
 <!ENTITY smart.label "ソフトウェアのインストール">
 <!ENTITY download.label "ダウンロード">
 <!ENTITY keynav.label "キーボードナビゲーション">
+<!ENTITY findAsYouType.label "タイプ検索">
 <!ENTITY search.label "インターネット検索">
 <!ENTITY policies.label "セキュリティポリシー">
 <!ENTITY mousewheel.label "マウスホイール">
 <!ENTITY scriptsAndWindows.label "スクリプトとプラグイン">
 <!ENTITY spellingPane.label  "スペルチェック">
+
 <!ENTITY focusSearch.key "f">

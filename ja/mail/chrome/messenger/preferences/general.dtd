@@ -21,6 +21,9 @@
 <!ENTITY customizeMailAlert.label	"設定...">
 <!ENTITY customizeMailAlert.accesskey	"C">
 
+<!ENTITY showTrayIcon.label		"トレイアイコンを表示する">
+<!ENTITY showTrayIcon.accesskey		"t">
+
 <!ENTITY play.label			"再生">
 <!ENTITY play.accesskey			"P">
 <!ENTITY systemsound.label		"システムの新着メール通知音">

@@ -11,6 +11,7 @@
 <!ENTITY select.permissions.label "許可設定のみ">
 <!ENTITY select.preferences.label "個人設定のみ">
 <!ENTITY select.passwords.label "パスワードのみ">
+<!ENTITY select.storage.label "ストレージのみ">
 
 <!ENTITY domain.search.placeholder "ドメインを検索">
 <!ENTITY domain.search.key "f">
@@ -28,6 +29,7 @@
 <!ENTITY tab.permissions.label "許可設定">
 <!ENTITY tab.preferences.label "個人設定">
 <!ENTITY tab.passwords.label "パスワード">
+<!ENTITY tab.storage.label "ストレージ">
 <!ENTITY tab.formdata.label "フォームデータ">
 <!ENTITY tab.forget.label "データ消去">
 
@@ -104,6 +106,21 @@
 <!ENTITY pwd.button.remove.label "削除">
 <!ENTITY pwd.button.remove.accesskey "R">
 
+<!-- storage -->
+<!ENTITY storage.description "このドメインは、あなたのコンピュータに保存された次の Web ストレージを使用します:">
+
+<!ENTITY storage.tree.host.label "Web サイト">
+<!ENTITY storage.tree.type.label "種類">
+<!ENTITY storage.tree.size.label "サイズ">
+
+<!ENTITY storage.ctx.remove.label "削除">
+<!ENTITY storage.ctx.remove.accesskey "R">
+<!ENTITY storage.ctx.selectAll.label "@@SelectAll@@">
+<!ENTITY storage.ctx.selectAll.accesskey "A">
+
+<!ENTITY storage.button.remove.label "削除">
+<!ENTITY storage.button.remove.accesskey "R">
+
 <!-- form data -->
 <!ENTITY fdata.search.placeholder "フィールドデータを検索">
 
@@ -130,6 +147,8 @@
 <!ENTITY forget.preferences.accesskey "o">
 <!ENTITY forget.passwords.label "パスワード">
 <!ENTITY forget.passwords.accesskey "a">
+<!ENTITY forget.storage.label "ストレージ">
+<!ENTITY forget.storage.accesskey "S">
 <!ENTITY forget.formdata.label "フォームデータ">
 <!ENTITY forget.formdata.accesskey "D">
 

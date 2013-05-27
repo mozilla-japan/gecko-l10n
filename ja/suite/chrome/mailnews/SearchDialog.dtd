@@ -17,14 +17,14 @@
 <!ENTITY deleteButton.accesskey      "D">
 <!ENTITY searchDialogTitle.label     "メッセージ検索">
 <!ENTITY results.label               "検索結果">
-<!ENTITY fileHereMenu.label          "ここへ移動">
-<!ENTITY fileHereMenu.accesskey      "r">
-<!ENTITY fileButton.label            "移動">
-<!ENTITY fileButton.accesskey        "F">
+<!ENTITY moveHereMenu.label          "ここへ移動">
+<!ENTITY moveHereMenu.accesskey      "H">
+<!ENTITY moveButton.label            "移動">
+<!ENTITY moveButton.accesskey        "T">
 <!ENTITY goToFolderButton.label      "フォルダを開く">
 <!ENTITY goToFolderButton.accesskey  "n">
-<!ENTITY saveAsVFButton.label      "検索フォルダとして保存">
-<!ENTITY saveAsVFButton.accesskey  "v">
+<!ENTITY saveAsVFButton.label        "検索フォルダとして保存">
+<!ENTITY saveAsVFButton.accesskey    "v">
 
 <!-- for ABSearchDialog.xul -->
 <!ENTITY abSearchHeading.label       "次の中から連絡先を検索:">

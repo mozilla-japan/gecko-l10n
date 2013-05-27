@@ -9,7 +9,9 @@
 <!ENTITY aboutPage.checkForUpdates.link         "更新を確認">
 <!ENTITY aboutPage.checkForUpdates.checking     "更新がないか確認しています...">
 <!ENTITY aboutPage.checkForUpdates.none         "更新が見つかりませんでした">
-<!ENTITY aboutPage.checkForUpdates.found        "更新が見つかりました">
+<!ENTITY aboutPage.checkForUpdates.available    "更新が見つかりました。クリックしてダウンロード">
+<!ENTITY aboutPage.checkForUpdates.downloading  "更新をダウンロードしています...">
+<!ENTITY aboutPage.checkForUpdates.downloaded   "更新をダウンロードしました。クリックしてインストール">
 <!ENTITY aboutPage.faq.label                    "よくある質問">
 <!ENTITY aboutPage.support.label                "サポート">
 <!ENTITY aboutPage.privacyPolicy.label          "プライバシーポリシー">
