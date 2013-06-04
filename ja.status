@@ -348,7 +348,7 @@ mail                   ------:------------  13158:3c479c9f8c57   hATrayflood    
 mobile/android         123951:c4aa14e5e8eb  -----:------------   Kechol          sync mobile/android
 browser/devtools       123954:4fd7553bfa40  -----:------------   hATrayflood     sync browser/devtools
 
-[l10n-mozilla-21.0] (for beta)
+Released! [l10n-mozilla-21.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  13408:64b92b660066   mar             sync calendar
@@ -359,7 +359,7 @@ browser                128693:34f00081ec61  -----:------------   hATrayflood    
 mobile/android         128693:34f00081ec61  -----:------------   Kechol          sync mobile/android
 suite                  ------:------------  13424:18954405c22e   hATrayflood     sync suite
 
-[l10n-mozilla-22.0] (for aurora)
+[l10n-mozilla-22.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.90
@@ -371,3 +371,8 @@ chat, mail             ------:------------  13696:329ad226ac9a   mar            
 toolkit                133599:d98584bb5fe9  13696:329ad226ac9a   mar             sync toolkit
 suite                  ------:------------  13702:a02b40a24fec   mar             sync suite
 browser                133624:581ea0e6531e  -----:------------   hATrayflood     sync browser
+
+[l10n-mozilla-23.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+dom                    138647:536e5dd30998  13933:22eb4f29fa78   mar             sync dom
