@@ -16,11 +16,6 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 	http://forums.firehacks.org/l10n/viewtopic.php?t=17204
 	toolkit/chrome/global/mozilla.dtd
 
-・Bug 858952 - [ja] Rename Yahoo! Auctions
-	mail はレビュー待ち
-・Bug 863681 - [ja] Fix sorting of search engines for Thunderbird
-	レビュー待ち
-
 ◆20.0 対応作業関連
 ・http://forums.firehacks.org/l10n/viewtopic.php?t=17175
 	まず Thunderbird の該当バグを確認する。 -> バグ登録なし
