@@ -39,8 +39,6 @@
 <!ENTITY newIMContactCmd.accesskey		"h">
 <!ENTITY openMessageFileCmd.label		"メッセージファイルを開く...">
 <!ENTITY openMessageFileCmd.accesskey		"O">
-<!ENTITY openAttachmentCmd.label		"添付">
-<!ENTITY openAttachmentCmd.accesskey		"A">
 <!ENTITY saveAsMenu.label			"@@SaveAs@@">
 <!ENTITY saveAsMenu.accesskey			"S">
 <!ENTITY saveAsFileCmd.label			"ファイル">
@@ -432,6 +430,8 @@
 <!ENTITY openConversationCmd.label	"スレッドを@@NewTab@@で開く"><!-- en-US: "Open in Conversation" -->
 <!ENTITY openConversationCmd.accesskey	"s">
 <!ENTITY openConversationCmd.key	"o">
+<!ENTITY openAttachmentListCmd.label	"添付ファイル">
+<!ENTITY openAttachmentListCmd.accesskey "h">
 <!ENTITY openFeedMessage1.label		"フィードメッセージを開く">
 <!ENTITY openFeedMessage1.accesskey	"O">
 <!ENTITY openFeedWebPage.label		"Web ページ形式で開く">
