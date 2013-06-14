@@ -377,3 +377,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 dom                    138647:536e5dd30998  13933:22eb4f29fa78   mar             sync dom
 toolkit                138671:a40cd59ba7f7  13933:22eb4f29fa78   mar             sync toolkit
+mail                   ------:------------  13935:468eda0bcf7e   mar             sync mail
