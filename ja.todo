@@ -39,6 +39,9 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
   画面未確認 (13時点で定義のみ存在)
     /browser/chrome/browser/devtools/styleeditor.dtd
       scoped.label
+  画面未確認 (23時点で定義のみ存在)
+    /browser/chrome/browser/browser.dtd
+      social.closeNotificationItem.label
 
 
 google の https 関係 (Bug 736260):
