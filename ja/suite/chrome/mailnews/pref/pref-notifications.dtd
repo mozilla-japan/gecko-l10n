@@ -5,14 +5,34 @@
 <!ENTITY pref.notifications.title         "通知">
 <!ENTITY notifications.caption            "通知">
 <!ENTITY newMessagesArrive.label          "新着メッセージが届いたとき:">
-<!ENTITY playSound.label                  "サウンドを鳴らす">
-<!ENTITY playSound.accesskey              "P">
-<!ENTITY showAnimatedAlert.label          "警告を表示する">
-<!ENTITY showAnimatedAlert.accesskey      "S">
+
+<!-- LOCALIZATION NOTE: (showAlertFor.label, showAlertTimeEnd.label)
+     showAlertFor.label is associated with the checkbox to show the alert,
+     leading into a numerical field to enter a time in seconds, followed by
+     showAlertTimeEnd.label which in en-US is the unit of the value -->
+
+<!ENTITY showAlertFor.label               "警告を">
+<!ENTITY showAlertFor.accesskey           "S">
+<!ENTITY showAlertTimeEnd.label           "秒間表示する">
+<!ENTITY showAlertTimeEnd.accesskey       "d">
+
+<!ENTITY showAlertPreviewText.label       "メッセージテキストのプレビューを表示する">
+<!ENTITY showAlertPreviewText.accesskey   "v">
+<!ENTITY showAlertSubject.label           "件名を表示する">
+<!ENTITY showAlertSubject.accesskey       "u">
+<!ENTITY showAlertSender.label            "送信者を表示する">
+<!ENTITY showAlertSender.accesskey        "n">
+
 <!ENTITY showTrayIcon.label               "システムトレイにアイコンを表示する">
 <!ENTITY showTrayIcon.accesskey           "t">
+<!ENTITY showBalloon.label                "バルーンを表示する">
+<!ENTITY showBalloon.accesskey            "o">
 <!ENTITY bounceSystemDockIcon.label       "Dock アイコンをバウンドさせる">
 <!ENTITY bounceSystemDockIcon.accesskey   "A">
+
+
+<!ENTITY playSound.label                  "サウンドを鳴らす">
+<!ENTITY playSound.accesskey              "P">
 <!ENTITY playButton.label                 "再生">
 <!ENTITY playButton.accesskey             "l">
 <!ENTITY systemsound.label                "システムの新着メール音">

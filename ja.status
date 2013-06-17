@@ -380,3 +380,4 @@ toolkit                138671:a40cd59ba7f7  13933:22eb4f29fa78   mar            
 mail                   ------:------------  13935:468eda0bcf7e   mar             sync mail
 webapprt               138710:40c9d5acd1b7  -----:------------   mar             move from borwser/webapprt
 browser                138727:e33bd71d1e01  -----:------------   hATrayflood     sync browser (exclude devtools)
+suite                  ------:------------  13937:1eda7c30ee58   mar             sync suite
