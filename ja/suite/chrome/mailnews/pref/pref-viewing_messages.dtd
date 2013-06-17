@@ -27,14 +27,12 @@
 <!ENTITY generalMessageDisplay.caption    "一般">
 <!ENTITY autoMarkAsRead.label             "メッセージを自動的に既読にする">
 <!ENTITY autoMarkAsRead.accesskey         "A">
-<!ENTITY markAsReadNoDelay.label          "メッセージを表示してすぐ">
-<!ENTITY markAsReadNoDelay.accesskey      "m">
-<!-- LOCALIZATION NOTE (markAsReadDelay.label): This will concatenate to
-     "After displaying for [___] seconds",
-     using (markAsReadDelay.label) and a number (secondsLabel.label). -->
-<!ENTITY markAsReadDelay.label            "メッセージを">
-<!ENTITY markAsReadDelay.accesskey        "t">
-<!ENTITY secondsLabel.label               "秒間以上表示した後">
+<!-- LOCALIZATION NOTE (markAsReadAfter.label): This will concatenate to
+     "Only after displaying for [___] seconds",
+     using (markAsReadAfter.label) and a number (secondsLabel.label). -->
+<!ENTITY markAsReadAfter.label            "メッセージを表示してから">
+<!ENTITY markAsReadAfter.accesskey        "t">
+<!ENTITY secondsLabel.label               "秒後">
 
 <!ENTITY openingMessages.label            "メッセージを次の場所に開く:">
 <!ENTITY newWindowRadio.label             "@@New-CMD@@メッセージ@@Window@@">
