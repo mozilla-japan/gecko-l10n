@@ -480,7 +480,7 @@ items are mutually exclusive. -->
 <!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label            "&quot;バカみたい&quot;速度 (2倍)">
+<!ENTITY mediaPlaybackRate200x.label            "ウルトラスーパーハイ (2倍)">
 <!ENTITY mediaPlaybackRate200x.accesskey        "L">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
@@ -646,11 +646,11 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY social.toggleNotifications.accesskey	"n">
 
 <!ENTITY social.activated.description		"<label/> からのサービスが有効になりました。<label class='text-link'>アドオンマネージャ</label>のサービスで、設定を変更できます。">
-<!ENTITY social.activated.undo.label		"おっと、@@Undo@@！">
+<!ENTITY social.activated.undo.label		"@@Undo@@">
 <!ENTITY social.activated.undo.accesskey	"U">
 <!ENTITY social.learnMore.label			"詳細...">
 <!ENTITY social.learnMore.accesskey		"l">
-<!ENTITY social.closeNotificationItem.label	"Not Now">
+<!ENTITY social.closeNotificationItem.label	"後で">
 
 <!ENTITY social.chatBar.commandkey		"c">
 <!ENTITY social.chatBar.label			"チャットを入力">
