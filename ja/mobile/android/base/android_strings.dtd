@@ -12,17 +12,21 @@
 <!ENTITY  awesomebar_all_pages_title "トップサイト"><!-- Max6文字 -->
 <!ENTITY  awesomebar_bookmarks_title "ブックマーク">
 <!ENTITY  awesomebar_history_title "履歴">
+<!ENTITY  awesomebar_switch_to_tab "タブに切り換え">
 
 <!ENTITY  crash_reporter_title "&brandShortName; クラッシュレポータ">
-<!ENTITY  crash_message "&brandShortName; がクラッシュしました。次回の起動時には開いていたタブの一覧がスタートページに表示されます。">
-<!ENTITY  crash_help_message "問題の修正にご協力ください！">
-<!ENTITY  crash_send_report_message "Mozilla にクラッシュレポートを送信">
-<!ENTITY  crash_include_url "ページの URL を含める">
+<!ENTITY  crash_message2 "&brandShortName; がクラッシュしました。次回の起動時には開いていたタブの一覧が &brandShortName; のスタートページに表示されます。">
+<!ENTITY  crash_send_report_message2 "問題の修正のため、このクラッシュに関する情報を Mozilla に送信してください">
+<!ENTITY  crash_include_url2 "閲覧していたページの URL を含める">
+<!ENTITY  crash_sorry "申し訳ありません">
+<!ENTITY  crash_comment "コメントを追加する (コメントは公開されます)">
+<!ENTITY  crash_allow_contact "このレポートに関する Mozilla からの連絡を許可する">
+<!ENTITY  crash_email "あなたのメールアドレス">
+<!ENTITY  crash_closing_alert "クラッシュレポートを送信せずに終了しますか？">
+<!ENTITY  sending_crash_report "クラッシュレポートを送信しています...">
 <!ENTITY  crash_close_label "閉じる">
 <!ENTITY  crash_restart_label "&brandShortName; を再起動">
-<!ENTITY  sending_crash_report "クラッシュレポートを送信しています...">
 <!ENTITY  exit_label "終了">
-<!ENTITY  continue_label "続ける">
 
 <!ENTITY  launcher_shortcuts_title "&brandShortName; Web アプリ">
 <!ENTITY  launcher_shortcuts_empty "Web アプリは登録されていません">
@@ -65,16 +69,27 @@
 <!ENTITY pref_category_general "一般">
 <!ENTITY pref_category_privacy "プライバシーとセキュリティ">
 <!ENTITY pref_category_content "コンテンツ">
-<!ENTITY pref_category_importexport "@@ImportNoun@@と@@ExportNoun@@">
+<!-- Localization note (datareporting_title) : This string matches
+     (dataChoicesTab.label) in chrome/browser/preferences/advanced.dtd except in
+     capitalization. -->
+<!ENTITY pref_category_datareporting "データの選択">
 <!ENTITY pref_about_firefox "&brandShortName; について">
-<!ENTITY pref_do_not_track "追跡拒否をサイトに通知する"><!-- 文字数注意 -->
-<!ENTITY pref_telemetry "パフォーマンス情報を送信する">
 <!ENTITY pref_remember_signons "パスワードを保存する">
+
+<!-- Localization note: These are shown in the left sidebar on tablets -->
+<!ENTITY pref_header_general "一般">
+<!ENTITY pref_header_privacy "プライバシーとセキュリティ">
+<!ENTITY pref_header_content "コンテンツ">
 
 <!ENTITY pref_cookies_menu "Cookie">
 <!ENTITY pref_cookies_accept_all "すべてのサイトで有効">
 <!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
 <!ENTITY pref_cookies_disabled "無効">
+
+<!ENTITY pref_donottrack_menu "トラッキング">
+<!ENTITY pref_donottrack_disallow_tracking "トラッキングの拒否をサイトに通知する">
+<!ENTITY pref_donottrack_allow_tracking "トラッキングの許可をサイトに通知する">
+<!ENTITY pref_donottrack_no_pref "トラッキングの設定についてサイトに通知しない">
 
 <!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
@@ -116,6 +131,27 @@ size. -->
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
 <!ENTITY pref_private_data_siteSettings2 "サイト設定">
 <!ENTITY pref_private_data_downloadFiles "ダウンロードしたファイル">
+
+<!ENTITY datareporting_notification_title "&brandShortName; 統計とデータ">
+<!ENTITY datareporting_notification_action "共有するものを選択してください">
+<!ENTITY datareporting_notification_summary "ユーザ体験の向上のため、 &brandShortName; は情報を自動的に &vendorShortName; へ送信します">
+<!ENTITY datareporting_notification_summary_short "ユーザ体験の向上のため、 &brandShortName; は...">
+
+<!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary,
+     reporting_telemetry_title, datareporting_telemetry_summary,
+     datareporting_crashreporter_summary) : These match the strings in
+     chrome/browser/preferences/advanced.dtd (healthReportSection.label,
+     healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
+     crashReporterDesc.label). -->
+<!ENTITY datareporting_fhr_title "&brandShortName; ヘルスレポート">
+<!ENTITY datareporting_fhr_summary "ブラウザのパフォーマンス状態の取得と、ブラウザの健康状態を &vendorShortName; と共有するのに役立ちます">
+<!ENTITY datareporting_telemetry_title "パフォーマンス情報の送信">
+<!ENTITY datareporting_telemetry_summary "&brandShortName; をよりよいものにするため、パフォーマンス情報、使用状況、ハードウェア情報、設定したデータを &vendorShortName; と共有します">
+<!ENTITY datareporting_crashreporter_summary "&vendorShortName; がブラウザをより安定した、セキュアなものにするため、 &brandShortName; はクラッシュレポートを送信します">
+<!-- Localization note (datareporting_crashreporter_title) : This string matches
+     (crashReporterSection.label) in chrome/browser/preferences/advanced.dtd
+     except in branding. -->
+<!ENTITY datareporting_crashreporter_title "&brandShortName; クラッシュレポータ">
 
 <!ENTITY pref_update_autodownload "自動で更新をダウンロードする">
 <!ENTITY pref_update_autodownload_wifi "Wi-Fi 環境でのみ有効にする">
@@ -164,6 +200,12 @@ size. -->
 <!ENTITY contextmenu_paste "@@Paste@@">
 <!ENTITY contextmenu_copyurl "アドレスをコピー">
 <!ENTITY contextmenu_edit_bookmark "編集">
+<!ENTITY contextmenu_subscribe "このページを購読">
+<!ENTITY contextmenu_site_settings "サイトの設定を編集">
+
+<!ENTITY pref_titlebar_mode "タイトルバー">
+<!ENTITY pref_titlebar_mode_title "ページのタイトルを表示">
+<!ENTITY pref_titlebar_mode_url "ページのアドレスを表示">
 
 <!ENTITY history_removed "履歴からページが削除されました">
 
@@ -172,7 +214,9 @@ size. -->
 <!ENTITY bookmark_edit_location "ロケーション">
 <!ENTITY bookmark_edit_keyword "キーワード">
 
-<!ENTITY site_settings_title2       "サイトの設定...">
+<!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
+     dialog that appears after selecting the "Edit Site Settings" context menu item. -->
+<!ENTITY site_settings_title3       "サイトの設定">
 <!ENTITY site_settings_cancel       "キャンセル">
 <!ENTITY site_settings_clear        "消去">
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
@@ -181,6 +225,7 @@ size. -->
 <!ENTITY reading_list_added "ページがリーディングリストに追加されました">
 <!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
 <!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
+<!ENTITY reading_list_duplicate "ページはすでにリーディングリストに追加されています">
 <!ENTITY reader "リーダー">
 
 <!ENTITY masterpassword_create_title "マスターパスワードを作成">
@@ -204,7 +249,6 @@ size. -->
 <!ENTITY abouthome_topsites_edit "編集">
 <!ENTITY abouthome_topsites_pin "タブをピン留め">
 <!ENTITY abouthome_topsites_unpin "ピンを外す">
-<!ENTITY abouthome_topsites_remove "削除">
 
 <!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
      chevron (ex: "»"; unicode= U+00BB) is used as an arrow to show that
