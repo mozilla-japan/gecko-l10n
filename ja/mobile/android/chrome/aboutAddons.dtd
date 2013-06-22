@@ -10,3 +10,4 @@
 <!ENTITY addonAction.disable                    "無効化">
 <!ENTITY addonAction.uninstall                  "削除">
 <!ENTITY addonAction.undo                       "@@Undo@@">
+<!ENTITY addonAction.setDefault                 "デフォルトに設定">
