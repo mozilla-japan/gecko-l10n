@@ -134,8 +134,8 @@ size. -->
 
 <!ENTITY datareporting_notification_title "&brandShortName; 統計とデータ">
 <!ENTITY datareporting_notification_action "共有するものを選択してください">
-<!ENTITY datareporting_notification_summary "ユーザ体験の向上のため、 &brandShortName; は情報を自動的に &vendorShortName; へ送信します">
-<!ENTITY datareporting_notification_summary_short "ユーザ体験の向上のため、 &brandShortName; は...">
+<!ENTITY datareporting_notification_summary "ユーザ体験の向上のため、&brandShortName; は情報を自動的に &vendorShortName; へ送信します">
+<!ENTITY datareporting_notification_summary_short "ユーザ体験の向上のため、&brandShortName; は...">
 
 <!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary,
      reporting_telemetry_title, datareporting_telemetry_summary,
@@ -147,7 +147,7 @@ size. -->
 <!ENTITY datareporting_fhr_summary "ブラウザのパフォーマンス状態の取得と、ブラウザの健康状態を &vendorShortName; と共有するのに役立ちます">
 <!ENTITY datareporting_telemetry_title "パフォーマンス情報の送信">
 <!ENTITY datareporting_telemetry_summary "&brandShortName; をよりよいものにするため、パフォーマンス情報、使用状況、ハードウェア情報、設定したデータを &vendorShortName; と共有します">
-<!ENTITY datareporting_crashreporter_summary "&vendorShortName; がブラウザをより安定した、セキュアなものにするため、 &brandShortName; はクラッシュレポートを送信します">
+<!ENTITY datareporting_crashreporter_summary "&vendorShortName; がブラウザをより安定した、セキュアなものにするため、&brandShortName; はクラッシュレポートを送信します">
 <!-- Localization note (datareporting_crashreporter_title) : This string matches
      (crashReporterSection.label) in chrome/browser/preferences/advanced.dtd
      except in branding. -->
