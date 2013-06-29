@@ -359,7 +359,7 @@ browser                128693:34f00081ec61  -----:------------   hATrayflood    
 mobile/android         128693:34f00081ec61  -----:------------   Kechol          sync mobile/android
 suite                  ------:------------  13424:18954405c22e   hATrayflood     sync suite
 
-[l10n-mozilla-22.0] (for beta)
+Released! [l10n-mozilla-22.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.90
@@ -372,7 +372,7 @@ toolkit                133599:d98584bb5fe9  13696:329ad226ac9a   mar            
 suite                  ------:------------  13702:a02b40a24fec   mar             sync suite
 browser                133624:581ea0e6531e  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-23.0] (for aurora)
+[l10n-mozilla-23.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                    138647:536e5dd30998  13933:22eb4f29fa78   mar             sync dom
@@ -383,3 +383,8 @@ browser                138727:e33bd71d1e01  -----:------------   hATrayflood    
 suite                  ------:------------  13937:1eda7c30ee58   mar             sync suite
 browser/devtools       138727:e33bd71d1e01  -----:------------   hATrayflood     sync browser/devtools
 mobile/android         138769:ce308537fba9  -----:------------   Kechol          sync mobile/android
+
+[l10n-mozilla-24.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+security               143410:767c0dbc8cf2  -----:------------   hATrayflood     sync security
