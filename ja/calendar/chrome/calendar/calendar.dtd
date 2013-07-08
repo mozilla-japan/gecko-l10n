@@ -349,3 +349,9 @@
 <!ENTITY calendar.error.code				"エラーコード:">
 <!ENTITY calendar.error.description			"説明:">
 <!ENTITY calendar.error.title				"エラーが発生しました">
+
+<!-- Extract buttons in message header -->
+<!ENTITY calendar.extract.event.button			"予定に追加">
+<!ENTITY calendar.extract.task.button			"ToDo に追加">
+<!ENTITY calendar.extract.event.button.tooltip		"メッセージからカレンダー情報を抽出し、カレンダーの予定に追加します">
+<!ENTITY calendar.extract.task.button.tooltip		"メッセージからカレンダー情報を抽出し、カレンダーの ToDo に追加します">

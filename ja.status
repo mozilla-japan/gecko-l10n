@@ -389,3 +389,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 security               143410:767c0dbc8cf2  -----:------------   hATrayflood     sync security
 toolkit                143410:767c0dbc8cf2  -----:------------   hATrayflood     sync toolkit
+calendar               ------:------------  14173:2bf197959dba   mar             sync calendar
