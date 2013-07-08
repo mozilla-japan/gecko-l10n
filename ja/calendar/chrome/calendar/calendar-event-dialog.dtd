@@ -153,6 +153,8 @@
 <!ENTITY event.location.accesskey			"L">
 <!ENTITY event.categories.label				"カテゴリ:">
 <!ENTITY event.categories.accesskey			"y">
+<!ENTITY event.categories.textbox.label			"@@New-CMD@@カテゴリを追加" >
+<!ENTITY event.categories.textbox.accesskey		"A">
 <!ENTITY event.calendar.label				"カレンダー:" >
 <!ENTITY event.calendar.accesskey			"C">
 <!ENTITY event.attendees.label				"参加者:" >
