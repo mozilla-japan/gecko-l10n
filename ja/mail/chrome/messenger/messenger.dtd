@@ -35,6 +35,8 @@
 <!ENTITY newExistingEmailAccountCmd.accesskey	"E">
 <!ENTITY newIMAccountCmd.label			"チャットアカウント...">
 <!ENTITY newIMAccountCmd.accesskey		"C">
+<!ENTITY newFeedAccountCmd.label		"フィードアカウント...">
+<!ENTITY newFeedAccountCmd.accesskey		"d">
 <!ENTITY newIMContactCmd.label			"チャット連絡先...">
 <!ENTITY newIMContactCmd.accesskey		"h">
 <!ENTITY openMessageFileCmd.label		"メッセージファイルを開く...">
@@ -250,7 +252,7 @@
 <!ENTITY viewFeedSummaryFeedPropsPref.label	"@@Default-@@形式">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey	"D">
 
-<!ENTITY viewAttachmentsInlineCmd.label		"添付をインラインで表示">
+<!ENTITY viewAttachmentsInlineCmd.label		"添付をメッセージ本文に表示">
 <!ENTITY viewAttachmentsInlineCmd.accesskey	"A">
 
 <!ENTITY pageSourceCmd.label			"メッセージのソース">
@@ -352,9 +354,9 @@
 <!ENTITY forwardMsgCmd.key		"l">
 <!ENTITY forwardAsMenu.label		"形式を指定して転送">
 <!ENTITY forwardAsMenu.accesskey	"w">
-<!ENTITY forwardAsInline.label		"インライン">
+<!ENTITY forwardAsInline.label		"メッセージ本文"><!-- en-US: "Inline" -->
 <!ENTITY forwardAsInline.accesskey	"I">
-<!ENTITY forwardAsAttachmentCmd.label	"添付">
+<!ENTITY forwardAsAttachmentCmd.label	"添付ファイル">
 <!ENTITY forwardAsAttachmentCmd.accesskey "A">
 <!ENTITY editMsgAsNewCmd.label		"@@New-CMD@@メッセージとして編集">
 <!ENTITY editMsgAsNewCmd.accesskey	"E">
@@ -490,6 +492,8 @@
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey): belongs to accountManagerCmd.label,
         which is placed under the Edit menu on Unix systems -->
 <!ENTITY accountManagerCmdUnix.accesskey	"A">
+<!ENTITY allowRemoteDebugging.label	"リモートデバッグを許可">
+<!ENTITY allowRemoteDebugging.accesskey	"g">
 
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton.label		"受信">
@@ -538,6 +542,8 @@
 <!ENTITY replyAllButton.tooltip		"送受信者全員に返信します">
 <!ENTITY replyListButton.tooltip	"メーリングリストに返信します">
 <!ENTITY forwardButton.tooltip		"メッセージを転送します">
+<!ENTITY forwardAsInline.tooltip	"選択したメッセージをメッセージ本文として転送します">
+<!ENTITY forwardAsAttachment.tooltip	"選択したメッセージを添付ファイルとして転送します">
 <!ENTITY fileButton.tooltip		"メッセージを別のフォルダに移します">
 <!ENTITY archiveButton.tooltip		"選択したメッセージをアーカイブに移動します">
 <!ENTITY nextButton.tooltip		"次の未読メッセージに移動します">
@@ -558,6 +564,10 @@
 <!ENTITY tagButton.tooltip		"メッセージにタグを付けます">
 <!ENTITY compactButton.tooltip		"削除したメッセージをフォルダから消去します"><!-- (^^; わかりにくい... -->
 <!ENTITY appmenuButton1.tooltip		"&brandShortName; のメニューを表示します">
+
+<!-- Toolbar Button Popup -->
+<!ENTITY buttonMenuForwardAsInline.label	"メッセージ本文として転送"><!-- en-US: "Forward Inline" -->
+<!ENTITY buttonMenuForwardAsAttachment.label	"添付ファイルとして転送">
 
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label		"新規作成"><!-- en-US: "New Message" -->
@@ -580,8 +590,8 @@
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label			"メッセージを取得する">
 <!ENTITY folderContextGetMessages.accesskey		"G">
-<!ENTITY folderContextOpenNewWindow.label		"@@NewWindow@@で開く">
-<!ENTITY folderContextOpenNewWindow.accesskey		"O">
+<!ENTITY folderContextOpenInNewWindow.label		"@@NewWindow@@で開く">
+<!ENTITY folderContextOpenInNewWindow.accesskey		"O">
 <!ENTITY folderContextOpenNewTab.label			"@@NewTab@@で開く">
 <!ENTITY folderContextOpenNewTab.accesskey		"T">
 <!ENTITY folderContextNew.label				"@@New-CMD@@サブフォルダ...">
@@ -699,14 +709,24 @@
 <!ENTITY contextReplyList.accesskey		"L">
 <!ENTITY contextForward.label			"転送">
 <!ENTITY contextForward.accesskey		"F">
-<!ENTITY contextForwardAsAttachment.label	"添付として転送">
-<!ENTITY contextForwardAsAttachment.accesskey	"o">
+<!ENTITY contextForwardAsMenu.label		"形式を指定して転送">
+<!ENTITY contextForwardAsMenu.accesskey		"o">
+<!ENTITY contextForwardAsInline.label		"メッセージ本文"><!-- en-US: "Inline" -->
+<!ENTITY contextForwardAsInline.accesskey	"I">
+<!ENTITY contextForwardAsAttachmentItem.label	"添付ファイル">
+<!ENTITY contextForwardAsAttachmentItem.accesskey	"A">
+<!ENTITY contextMultiForwardAsAttachment.label	"添付にまとめて転送">
+<!ENTITY contextMultiForwardAsAttachment.accesskey	"o">
 <!ENTITY contextMoveMsgMenu.label		"メッセージを移動">
 <!ENTITY contextMoveMsgMenu.accesskey		"M">
 <!ENTITY contextMoveCopyMsgRecentMenu.label	"使用履歴">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey	"R">
 <!ENTITY contextCopyMsgMenu.label		"メッセージをコピー">
 <!ENTITY contextCopyMsgMenu.accesskey		"C">
+<!ENTITY contextKillThreadMenu.label		"スレッドを無視">
+<!ENTITY contextKillThreadMenu.accesskey	"I">
+<!ENTITY contextKillSubthreadMenu.label		"サブスレッドを無視">
+<!ENTITY contextWatchThreadMenu.label		"注目スレッドに設定">
 <!ENTITY contextSaveAs.label			"メッセージを保存...">
 <!ENTITY contextSaveAs.accesskey		"S">
 <!ENTITY contextPrint.label			"メッセージを@@Print@@...">

@@ -88,6 +88,7 @@
 <!ENTITY findCmd.label			"検索と置換...">
 <!ENTITY findCmd.key			"F">
 <!ENTITY findCmd.accesskey		"F">
+<!ENTITY findReplaceCmd.key		"H">
 <!ENTITY findAgainCmd.label		"次を検索">
 <!ENTITY findAgainCmd.key		"G">
 <!ENTITY findAgainCmd.accesskey		"g">

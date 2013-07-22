@@ -2,24 +2,24 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY toField3.label				"宛先 ">
-<!ENTITY fromField3.label			"差出人 ">
-<!ENTITY senderField3.label			"送信者 ">
-<!ENTITY organizationField3.label		"組織 ">
-<!ENTITY replyToField3.label			"返信先 ">
+<!ENTITY toField4.label				"宛先">
+<!ENTITY fromField4.label			"差出人">
+<!ENTITY senderField4.label			"送信者">
+<!ENTITY organizationField4.label		"組織">
+<!ENTITY replyToField4.label			"返信先">
 
-<!ENTITY subjectField3.label			"件名 ">
-<!ENTITY ccField3.label				"Cc ">
-<!ENTITY bccField3.label			"Bcc ">
-<!ENTITY newsgroupsField3.label			"ニュースグループ ">
-<!ENTITY followupToField3.label			"Followup To ">
-<!ENTITY tagsHdr3.label				"タグ ">
-<!ENTITY dateField3.label			"送信日時 ">
-<!ENTITY userAgentField3.label			"User Agent ">
-<!ENTITY referencesField3.label			"References ">
-<!ENTITY messageIdField3.label			"Message ID ">
-<!ENTITY inReplyToField3.label			"In Reply To ">
-<!ENTITY originalWebsite3.label			"Web サイト ">
+<!ENTITY subjectField4.label			"件名">
+<!ENTITY ccField4.label				"Cc">
+<!ENTITY bccField4.label			"Bcc">
+<!ENTITY newsgroupsField4.label			"ニュースグループ">
+<!ENTITY followupToField4.label			"Followup To">
+<!ENTITY tagsHdr4.label				"タグ">
+<!ENTITY dateField4.label			"送信日時">
+<!ENTITY userAgentField4.label			"User Agent">
+<!ENTITY referencesField4.label			"References">
+<!ENTITY messageIdField4.label			"Message ID">
+<!ENTITY inReplyToField4.label			"In Reply To">
+<!ENTITY originalWebsite4.label			"Web サイト">
 
 <!ENTITY editMessageDescription.label		"このメッセージは下書きです">
 <!ENTITY editMessageButton.label		"編集...">
@@ -34,6 +34,7 @@
 <!ENTITY hdrReplyListButton1.tooltip		"メーリングリストに返信します">
 <!ENTITY hdrFollowupButton1.label		"フォローアップ">
 <!ENTITY hdrFollowupButton1.tooltip		"このニュースグループにフォローアップの投稿をします">
+<!ENTITY hdrMenuForwardButton.label		"転送"><!-- (^m^) en-US: "Forward As" (形式を指定して転送) -->
 <!ENTITY hdrForwardButton1.label		"転送">
 <!ENTITY hdrForwardButton1.tooltip		"このメッセージを転送します">
 <!ENTITY hdrJunkButton1.label			"迷惑マークを付ける">

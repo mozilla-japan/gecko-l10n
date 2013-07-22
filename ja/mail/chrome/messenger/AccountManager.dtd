@@ -12,6 +12,8 @@
 <!ENTITY addMailAccountButton.accesskey	"A">
 <!ENTITY addIMAccountButton.label	"チャットアカウントを追加...">
 <!ENTITY addIMAccountButton.accesskey	"C">
+<!ENTITY addFeedAccountButton.label	"フィードアカウントを追加...">
+<!ENTITY addFeedAccountButton.accesskey	"F">
 <!ENTITY addOtherAccountButton.label	"他のサービスのアカウントを追加...">
 <!ENTITY addOtherAccountButton.accesskey "O">
 <!ENTITY setDefaultButton.label		"@@Default-@@アカウントに設定">

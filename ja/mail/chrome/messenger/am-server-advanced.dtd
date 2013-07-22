@@ -25,8 +25,6 @@
 <!ENTITY overrideNamespaces.label	"サーバによる名前空間の上書きを許可する">
 <!ENTITY overrideNamespaces.accesskey	"A">
 <!ENTITY pop3Desc.label			"このサーバの POP メールをダウンロードするとき、新着メールを次のフォルダに保存する">
-<!ENTITY globalInbox.label		"共通受信トレイ (ローカルフォルダアカウント)">
-<!ENTITY globalInbox.accesskey		"G">
 <!ENTITY accountDirectory.label		"このサーバアカウントの受信トレイ">
 <!ENTITY accountDirectory.accesskey	"S">
 <!ENTITY deferToServer.label		"別のアカウントの受信トレイ">
