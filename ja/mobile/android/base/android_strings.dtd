@@ -16,11 +16,11 @@
 
 <!ENTITY  crash_reporter_title "&brandShortName; クラッシュレポータ">
 <!ENTITY  crash_message2 "&brandShortName; がクラッシュしました。次回の起動時には開いていたタブの一覧が &brandShortName; のスタートページに表示されます。">
-<!ENTITY  crash_send_report_message2 "問題の修正のため、このクラッシュに関する情報を Mozilla に送信してください">
+<!ENTITY  crash_send_report_message3 "問題の修正のため、このクラッシュに関する情報を &vendorShortName; に送信してください">
 <!ENTITY  crash_include_url2 "閲覧していたページの URL を含める">
 <!ENTITY  crash_sorry "申し訳ありません">
 <!ENTITY  crash_comment "コメントを追加する (コメントは公開されます)">
-<!ENTITY  crash_allow_contact "このレポートに関する Mozilla からの連絡を許可する">
+<!ENTITY  crash_allow_contact2 "このレポートに関する &vendorShortName; からの連絡を許可する">
 <!ENTITY  crash_email "あなたのメールアドレス">
 <!ENTITY  crash_closing_alert "クラッシュレポートを送信せずに終了しますか？">
 <!ENTITY  sending_crash_report "クラッシュレポートを送信しています...">
@@ -42,6 +42,7 @@
 <!ENTITY bookmark_added "ブックマークを追加しました">
 <!ENTITY bookmark_removed "ブックマークを削除しました">
 <!ENTITY bookmark_updated "ブックマークを更新しました">
+<!ENTITY bookmark_options "オプション">
 
 <!ENTITY history_today_section "今日">
 <!ENTITY history_yesterday_section "昨日">
@@ -100,7 +101,7 @@
 <!ENTITY pref_plugins_tap_to_play "タップして実行">
 <!ENTITY pref_plugins_disabled "無効化">
 <!ENTITY pref_text_size "テキストサイズ">
-<!ENTITY pref_reflow_on_zoom2 "拡大時にテキストを再配置する">
+<!ENTITY pref_reflow_on_zoom3 "ダブルタップしてテキストを再配置">
 <!ENTITY pref_font_size_tiny "最小">
 <!ENTITY pref_font_size_small "小">
 <!ENTITY pref_font_size_medium "中">
@@ -133,25 +134,29 @@ size. -->
 <!ENTITY pref_private_data_downloadFiles "ダウンロードしたファイル">
 
 <!ENTITY datareporting_notification_title "&brandShortName; 統計とデータ">
+<!ENTITY datareporting_notification_action_long "共有する情報を選択してください">
 <!ENTITY datareporting_notification_action "共有するものを選択してください">
 <!ENTITY datareporting_notification_summary "ユーザ体験の向上のため、&brandShortName; は情報を自動的に &vendorShortName; へ送信します">
 <!ENTITY datareporting_notification_summary_short "ユーザ体験の向上のため、&brandShortName; は...">
+<!ENTITY datareporting_notification_ticker_text "&datareporting_notification_title;: &datareporting_notification_action_long;">
 
-<!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary,
+<!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary2,
      reporting_telemetry_title, datareporting_telemetry_summary,
      datareporting_crashreporter_summary) : These match the strings in
-     chrome/browser/preferences/advanced.dtd (healthReportSection.label,
+     en-US/chrome/browser/preferences/advanced.dtd (healthReportSection.label,
      healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
      crashReporterDesc.label). -->
 <!ENTITY datareporting_fhr_title "&brandShortName; ヘルスレポート">
-<!ENTITY datareporting_fhr_summary "ブラウザのパフォーマンス状態の取得と、ブラウザの健康状態を &vendorShortName; と共有するのに役立ちます">
+<!ENTITY datareporting_fhr_summary2 "ブラウザの健康状態を &vendorShortName; と共有し、ブラウザのパフォーマンス状態の確認に役立ちます">
+<!ENTITY datareporting_abouthr_title "ヘルスレポートを見る">
 <!ENTITY datareporting_telemetry_title "パフォーマンス情報の送信">
 <!ENTITY datareporting_telemetry_summary "&brandShortName; をよりよいものにするため、パフォーマンス情報、使用状況、ハードウェア情報、設定したデータを &vendorShortName; と共有します">
 <!ENTITY datareporting_crashreporter_summary "&vendorShortName; がブラウザをより安定した、セキュアなものにするため、&brandShortName; はクラッシュレポートを送信します">
-<!-- Localization note (datareporting_crashreporter_title) : This string matches
-     (crashReporterSection.label) in chrome/browser/preferences/advanced.dtd
-     except in branding. -->
-<!ENTITY datareporting_crashreporter_title "&brandShortName; クラッシュレポータ">
+<!-- Localization note (datareporting_crashreporter_title_short) : This string matches
+     (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
+<!ENTITY datareporting_crashreporter_title_short "クラッシュレポータ">
+<!ENTITY datareporting_wifi_title "&vendorShortName; 位置情報サービス">
+<!ENTITY datareporting_wifi_summary "基地局のデータを匿名で &brandShortName; に収集し送信させることにより、オープンな Web のための位置情報サービスの向上に役立ちます">
 
 <!ENTITY pref_update_autodownload "自動で更新をダウンロードする">
 <!ENTITY pref_update_autodownload_wifi "Wi-Fi 環境でのみ有効にする">
@@ -283,6 +288,15 @@ substitution variables.  If it is difficult to translate the sense of the string
 with that structure, consider a translation which ignores the preceding domain and
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_run_by "このサイトの運営者:">
+
+<!-- Mixed content notifications in site identity popup -->
+<!ENTITY loaded_mixed_content_message "このページは安全でないコンテンツを表示しようとしています。">
+<!ENTITY blocked_mixed_content_message_top "&brandShortName; は安全でないコンテンツをブロックしました。">
+<!ENTITY blocked_mixed_content_message_bottom "ほとんどの Web サイトはこのコンテンツをブロックしても正しく動作します。">
+<!ENTITY learn_more "詳細を表示">
+<!ENTITY enable_protection "保護を有効化">
+<!ENTITY disable_protection "保護を無効化">
+<!ENTITY keep_blocking "ブロックを継続">
 
 <!ENTITY private_data_success "プライベートデータを消去しました">
 <!ENTITY private_data_fail "一部のプライベートデータが消去できませんでした">
