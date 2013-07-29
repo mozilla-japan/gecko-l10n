@@ -117,8 +117,6 @@
 
 <!ENTITY viewCertificates.label			"証明書を表示">
 <!ENTITY viewCertificates.accesskey		"C">
-<!ENTITY viewCRLs.label				"失効リスト">
-<!ENTITY viewCRLs.accesskey			"R">
 <!ENTITY validation.label			"検証">
 <!ENTITY validation.accesskey			"V">
 <!ENTITY viewSecurityDevices.label		"セキュリティデバイス">
