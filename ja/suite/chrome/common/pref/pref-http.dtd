@@ -1,0 +1,23 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY pref.http.title                     "HTTP ネットワーク">
+
+<!-- Network-->
+<!ENTITY prefDirect.label                    "直接接続設定">
+<!ENTITY prefProxy.label                     "プロキシ接続設定">
+<!ENTITY prefEnableHTTP10.label              "HTTP 1.0 を使用する">
+<!ENTITY prefEnableHTTP10.accesskey          "U">
+<!ENTITY prefEnableHTTP10Proxy.accesskey     "S">
+<!ENTITY prefEnableHTTP11.label              "HTTP 1.1 を使用する">
+<!ENTITY prefEnableHTTP11.accesskey          "E">
+<!ENTITY prefEnableHTTP11Proxy.accesskey     "T">
+<!ENTITY prefEnablePipelining.label          "パイプラインを有効にする">
+<!ENTITY prefEnablePipelining.accesskey      "P">
+<!ENTITY prefEnablePipeliningProxy.accesskey "N">
+<!ENTITY prefPara                            "これらのオプションで HTTP 接続のパフォーマンスや互換性を向上させることができます。いくつかのプロキシサーバは、例えば HTTP/1.0 を要求することが知られています (詳細はリリースノートを参照してください)。">
+<!ENTITY prefPipeWarning                     "警告: パイプラインは実験的な機能です。この機能を利用するとページの読み込み速度が向上しますが、一部の Web サーバやプロキシではサポートされておらず、それらの不具合によって速度が低下したり全く接続できなったりすることがあります。">
+<!ENTITY prefUseragent.label                 "ユーザエージェント文字列の設定">
+<!ENTITY prefFirefoxCompat.label             "ユーザエージェントに Firefox 互換ブラウザであることを追記する"><!--Advertise Firefox compatibility-->
+<!ENTITY prefFirefoxCompat.accesskey         "F">

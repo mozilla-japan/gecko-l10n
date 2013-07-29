@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* Using @charset is better than just encoding this file into euc-jp.
+ * (euc-jp is default charset of interactive session now.)
+ */
+
+/* -*- tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*-
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/*
+ * Note to translators: Only localize the text after "content:", don't touch
+ * the [msg-type="FOO"] selectors.
+ */
+
+.msg-data[msg-type="HELP"]:before {
+    content: "解説:";
+}
+
+.msg-data[msg-type="USAGE"]:before {
+    content: "書式:";
+}
+
+.msg-data[msg-type="LOG"]:before {
+    content: "ログ:";
+}
+
+.msg-data[msg-type="ETRACE"]:before {
+    content: "X";  /* X is a mnemonic for eXception */
+}

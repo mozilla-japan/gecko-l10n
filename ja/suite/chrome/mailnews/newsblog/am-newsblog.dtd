@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY biffStart.label "新着記事を">
+<!ENTITY biffStart.accesskey "k">
+<!ENTITY biffEnd.label "分ごとに確認する">
+
+<!ENTITY loginAtStartup.label "起動時に新着記事がないか確認する">
+<!ENTITY loginAtStartup.accesskey "C">
+
+<!ENTITY useQuickMode.label "標準では Web ページを読み込まずに記事の要約を表示する">
+<!ENTITY useQuickMode.accesskey "B">
+
+<!ENTITY manageSubscriptions.label "フィード購読の管理...">
+<!ENTITY manageSubscriptions.accesskey "M">
+
+<!-- entities from rss.rdf -->
+<!ENTITY feeds.accountName "ブログとニュース">
+<!ENTITY feeds.wizardShortName "フィード">
+<!ENTITY feeds.wizardLongName "ブログとニュースのフィード">
+<!ENTITY feeds.wizardLongName.accesskey "F">
