@@ -25,8 +25,8 @@
 
 <!ENTITY  manualUpdateGetMsg.label	"&brandShortName; の最新バージョンは次の URL からダウンロードできます:">
 
-<!ENTITY  unsupported.title		"サポート外のシステムです">
-<!ENTITY  unsupported.label		"&brandShortName; の更新がありますが、このシステムでは最新バージョンはサポートされていません。システムをアップグレードしてから試してください。この通知は再表示しません。">
+<!ENTITY  unsupported.title		"サポート対象外のシステムです">
+<!ENTITY  unsupported.label		"&brandShortName; の更新がありますが、最新バージョンはご使用のシステムに対応していません。システムをアップグレードしてから試してください。この通知は再度表示しません。">
 
 
 <!ENTITY  unsupportedLink.label		"詳細を確認する。">
