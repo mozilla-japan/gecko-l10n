@@ -14,7 +14,6 @@
 <!ENTITY showAlertFor.label               "警告を">
 <!ENTITY showAlertFor.accesskey           "S">
 <!ENTITY showAlertTimeEnd.label           "秒間表示する">
-<!ENTITY showAlertTimeEnd.accesskey       "d">
 
 <!ENTITY showAlertPreviewText.label       "メッセージテキストのプレビューを表示する">
 <!ENTITY showAlertPreviewText.accesskey   "v">

@@ -93,6 +93,7 @@
 <!ENTITY  permImage             "画像の読み込み">
 <!ENTITY  permPopup             "ポップアップ@@Window@@を開く">
 <!ENTITY  permCookie            "Cookie の保存">
+<!ENTITY  permNotifications     "通知の表示">
 <!ENTITY  permInstall           "拡張機能またはテーマのインストール">
 <!ENTITY  permGeo               "位置情報の送信">
 
