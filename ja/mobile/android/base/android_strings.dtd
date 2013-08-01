@@ -252,7 +252,7 @@ size. -->
 <!ENTITY abouthome_last_tabs_open "最後に閉じたタブをすべて開く">
 <!ENTITY abouthome_top_sites_title "トップサイト (よく見るページ)"><!-- awesomebar_all_pages_titleがMax6文字 -->
 <!ENTITY abouthome_topsites_edit "編集">
-<!ENTITY abouthome_topsites_pin "タブをピン留め">
+<!ENTITY abouthome_topsites_pin "サイトをピン留め">
 <!ENTITY abouthome_topsites_unpin "ピンを外す">
 
 <!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
