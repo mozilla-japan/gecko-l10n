@@ -13,7 +13,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.emptyNotice2): This is the label displayed
   -  in the network table when empty. -->
-<!ENTITY netmonitorUI.emptyNotice2        "リクエストを送信するかページを更新すると、ネットワークの稼働状況を確認できます。">
+<!ENTITY netmonitorUI.emptyNotice2        "要求を送信するかページを更新すると、ネットワークの稼働状況を確認できます。">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.status): This is the label displayed
   -  in the network table toolbar, above the "status" column. -->
