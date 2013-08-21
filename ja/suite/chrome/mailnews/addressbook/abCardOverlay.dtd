@@ -15,13 +15,13 @@
 -->
 
 <!-- LOCALIZATION NOTE (NameField1.id) : DONT_TRANSLATE -->
-<!ENTITY NameField1.id                  "FirstName">
+<!ENTITY NameField1.id                  "LastName">
 <!-- LOCALIZATION NOTE (NameField2.id) : DONT_TRANSLATE -->
-<!ENTITY NameField2.id                  "LastName">
+<!ENTITY NameField2.id                  "FirstName">
 <!-- LOCALIZATION NOTE (PhoneticField1.id) : DONT_TRANSLATE -->
-<!ENTITY PhoneticField1.id              "PhoneticFirstName">
+<!ENTITY PhoneticField1.id              "PhoneticLastName">
 <!-- LOCALIZATION NOTE (PhoneticField2.id) : DONT_TRANSLATE -->
-<!ENTITY PhoneticField2.id              "PhoneticLastName">
+<!ENTITY PhoneticField2.id              "PhoneticFirstName">
 
 <!ENTITY NameField1.label               "姓:">
 <!ENTITY NameField1.accesskey           "F">
