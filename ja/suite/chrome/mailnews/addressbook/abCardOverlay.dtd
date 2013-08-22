@@ -24,9 +24,9 @@
 <!ENTITY PhoneticField2.id              "PhoneticFirstName">
 
 <!ENTITY NameField1.label               "姓:">
-<!ENTITY NameField1.accesskey           "F">
+<!ENTITY NameField1.accesskey           "L">
 <!ENTITY NameField2.label               "名:">
-<!ENTITY NameField2.accesskey           "L">
+<!ENTITY NameField2.accesskey           "F">
 <!ENTITY PhoneticField1.label           "よみがな:">
 <!ENTITY PhoneticField2.label           "よみがな:">
 <!ENTITY DisplayName.label              "表示名:">
