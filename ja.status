@@ -372,7 +372,7 @@ toolkit                133599:d98584bb5fe9  13696:329ad226ac9a   mar            
 suite                  ------:------------  13702:a02b40a24fec   mar             sync suite
 browser                133624:581ea0e6531e  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-23.0] (for beta)
+Released! [l10n-mozilla-23.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                    138647:536e5dd30998  13933:22eb4f29fa78   mar             sync dom
@@ -384,7 +384,7 @@ suite                  ------:------------  13937:1eda7c30ee58   mar            
 browser/devtools       138727:e33bd71d1e01  -----:------------   hATrayflood     sync browser/devtools
 mobile/android         138769:ce308537fba9  -----:------------   Kechol          sync mobile/android
 
-[l10n-mozilla-24.0] (for aurora) (ESR)
+[l10n-mozilla-24.0] (for beta) (ESR)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 security               143410:767c0dbc8cf2  -----:------------   hATrayflood     sync security
@@ -395,3 +395,8 @@ dom                    143751:79d58dbe9336  14209:d4eb28c60ab5   mar            
 mobile                 143741:541b80da91fa  -----:------------   knagato         sync mobile
 suite                  ------:------------  14213:6129078bfffc   mar             sync suite
 browser                143410:767c0dbc8cf2  -----:------------   hATrayflood     sync browser
+
+[l10n-mozilla-25.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+dom                    149159:83ae78484491  14505:9ce5f85470dd   mar             sync dom
