@@ -1,0 +1,11 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this file,
+   - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
+<!ENTITY fileExceedsQuota.title		"YouSendIt">
+<!ENTITY fileExceedsQuota.storageLimitReached	"格納サイズの制限に達しました">
+<!ENTITY fileExceedsQuota.accept	"アップグレード">
+<!ENTITY fileExceedsQuota.cancel	"キャンセル">
+<!ENTITY fileExceedsQuota.description	"アカウントが格納サイズの制限である 2GB に達しました。">
+<!ENTITY fileExceedsQuota.description1	"現在の使用量は #XXX GB です。">
+<!ENTITY fileExceedsQuota.description2	"Pro Plus アカウントにアップグレードすると容量を増やせます。">
+<!ENTITY fileExceedsQuota.description3	"または、ファイルを削除して空き領域を増やしてください。">

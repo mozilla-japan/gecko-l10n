@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY jsCopyValue.label	"値をコピー">
+<!ENTITY jsEval.label		"JavaScript を評価...">
+
+<!ENTITY jsProperty.label	"プロパティ">
+<!ENTITY jsValue.label		"値">
+
+<!ENTITY evaluateDialog.title		"式の評価">
+<!ENTITY jsEval.desc			"JavaScript の式を入力してください。&quot;target&quot; 変数により現在選択中のプロパティにアクセスできます。">
+<!ENTITY jsExecute.label		"実行">
+<!ENTITY inspectReturn.label		"評価結果の表示先"><!-- en-US: "Inspect return in" -->
+<!ENTITY inspectReturnNew.label		"@@NewWindow@@">
+<!ENTITY inspectReturnExisting.label	"既存の@@Window@@">

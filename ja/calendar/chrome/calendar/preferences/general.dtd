@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- WARNING! This file contains UTF-8 encoded characters!
+   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
+   - your editor isn't using UTF-8 encoding and may munge up the document!
+  -->
+
+<!ENTITY pref.mainbox.label "一般設定" >
+<!ENTITY pref.dateformat.label "日付の形式:" >
+<!ENTITY pref.dateformat.accesskey "D">
+<!ENTITY pref.dateformat.long "長い形式" >
+<!ENTITY pref.dateformat.short "短い形式"  >
+<!ENTITY pref.defaultlength.label "予定の@@Default-@@期間:" >
+<!ENTITY pref.defaultlength.accesskey "E">
+<!ENTITY pref.defaultsnoozelength.label "アラーム再通知の@@Default-@@間隔:" >
+<!ENTITY pref.defaultsnoozelength.accesskey "S">
+
+<!ENTITY pref.accessibility.label "アクセシビリティ" >
+<!ENTITY pref.systemcolors.label "システムの@@Colors@@に最適化する" >
+<!ENTITY pref.systemcolors.accesskey "c">
