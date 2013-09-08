@@ -12,13 +12,14 @@
 <!ENTITY intro.message             "Android 版 &brandShortName; について、これまでの感想を教えてください。">
 <!ENTITY intro.happyLink           "大好きです">
 <!ENTITY intro.sadLink             "いくつか問題がありました">
+<!ENTITY intro.maybeLater          "あとで考えます">
 
 <!-- LOCALIZATION NOTE (support.pre): Include a trailing space as needed. -->
 <!-- LOCALIZATION NOTE (support.link): Avoid leading/trailing spaces, this text is a link. -->
 <!-- LOCALIZATION NOTE (support.post): Include a starting space as needed. -->
-<!ENTITY support.pre               "もし、&brandShortName; について質問や問題があれば、">
+<!ENTITY support.pre2              "また、">
 <!ENTITY support.link              "&brandShortName; サポート">
-<!ENTITY support.post              "にアクセスしてください。">
+<!ENTITY support.post2             "にアクセスして、より多くの情報を入手できます。">
 
 <!ENTITY happy.header              "それは素晴らしいですね！">
 
@@ -31,7 +32,7 @@
 <!ENTITY happy.finePrint           "評価に時間はかかりません。その評価はきっとみんなのために役立ちます。">
 
 <!ENTITY happy.ratingLink          "はい、Google Play に行きます">
-<!ENTITY happy.maybeLater          "あとで考えます">
+<!ENTITY happy.maybeLater2         "あとで考えます">
 <!ENTITY happy.noThanks            "いいえ、結構です">
 
 <!ENTITY sad.message               "&brandShortName; に問題があり申し訳ありません。問題解決のために、どのような問題が起こったのかを教えてください。">

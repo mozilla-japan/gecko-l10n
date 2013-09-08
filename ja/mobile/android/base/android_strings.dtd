@@ -3,9 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY  splash_settingup "&brandShortName; を設定しています...">
-<!ENTITY  splash_bookmarks_history "ブックマークと履歴を更新しています。この作業には数分かかることがあります。">
-
 <!ENTITY  no_space_to_start_error "&brandShortName; を起動するために必要な空き領域が不足しています。">
 <!ENTITY  error_loading_file "&brandShortName; の起動に必要なファイルを読み込めませんでした">
 
@@ -67,20 +64,26 @@
 
 <!ENTITY settings "設定">
 <!ENTITY settings_title "設定">
-<!ENTITY pref_category_general "一般">
-<!ENTITY pref_category_privacy "プライバシーとセキュリティ">
-<!ENTITY pref_category_content "コンテンツ">
-<!-- Localization note (datareporting_title) : This string matches
-     (dataChoicesTab.label) in chrome/browser/preferences/advanced.dtd except in
-     capitalization. -->
+<!ENTITY pref_category_advanced "詳細">
+<!ENTITY pref_category_customize "カスタマイズ">
+<!ENTITY pref_category_search2 "検索設定">
+<!ENTITY pref_category_display "表示">
+<!ENTITY pref_category_privacy_short "プライバシー">
+<!ENTITY pref_category_vendor "&vendorShortName;">
 <!ENTITY pref_category_datareporting "データの選択">
-<!ENTITY pref_about_firefox "&brandShortName; について">
+<!ENTITY pref_category_installed_search_engines "インストール済みの検索エンジン">
+<!ENTITY pref_category_devtools "デベロッパーツール">
+<!ENTITY pref_developer_remotedebugging "リモートデバッグ">
+<!ENTITY pref_developer_remotedebugging_docs "さらに詳しく">
 <!ENTITY pref_remember_signons "パスワードを保存する">
 
 <!-- Localization note: These are shown in the left sidebar on tablets -->
-<!ENTITY pref_header_general "一般">
-<!ENTITY pref_header_privacy "プライバシーとセキュリティ">
-<!ENTITY pref_header_content "コンテンツ">
+<!ENTITY pref_header_customize "カスタマイズ">
+<!ENTITY pref_header_display "表示">
+<!ENTITY pref_header_privacy_short "プライバシー">
+<!ENTITY pref_header_help "ヘルプ">
+<!ENTITY pref_header_vendor "&vendorShortName;">
+<!ENTITY pref_header_devtools "デベロッパーツール">
 
 <!ENTITY pref_cookies_menu "Cookie">
 <!ENTITY pref_cookies_accept_all "すべてのサイトで有効">
@@ -101,7 +104,11 @@
 <!ENTITY pref_plugins_tap_to_play "タップして実行">
 <!ENTITY pref_plugins_disabled "無効化">
 <!ENTITY pref_text_size "テキストサイズ">
-<!ENTITY pref_reflow_on_zoom3 "ダブルタップしてテキストを再配置">
+<!ENTITY pref_reflow_on_zoom4 "テキストの再配置">
+<!ENTITY pref_restore "タブ">
+<!ENTITY pref_restore_always "常に復元">
+<!ENTITY pref_restore_crash "クラッシュしたら復元">
+<!ENTITY pref_restore_never "復元しない">
 <!ENTITY pref_font_size_tiny "最小">
 <!ENTITY pref_font_size_small "小">
 <!ENTITY pref_font_size_medium "中">
@@ -132,6 +139,11 @@ size. -->
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
 <!ENTITY pref_private_data_siteSettings2 "サイト設定">
 <!ENTITY pref_private_data_downloadFiles "ダウンロードしたファイル">
+
+
+<!ENTITY pref_about_firefox "&brandShortName; について">
+<!ENTITY pref_vendor_faqs "FAQ">
+<!ENTITY pref_vendor_feedback "フィードバックをください">
 
 <!ENTITY datareporting_notification_title "&brandShortName; 統計とデータ">
 <!ENTITY datareporting_notification_action_long "共有する情報を選択してください">
@@ -183,9 +195,8 @@ size. -->
 <!ENTITY tabs_normal "タブ">
 <!ENTITY tabs_private "プライベートタブ">
 <!ENTITY tabs_synced "同期したタブ">
-<!ENTITY wallpaper_success "壁紙を設定しました">
-<!ENTITY wallpaper_progress "壁紙を設定中">
-<!ENTITY wallpaper_fail "壁紙を設定できません">
+<!ENTITY set_image_fail "画像を設定できません">
+<!ENTITY set_image_chooser_title "画像を次に設定">
 
 <!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
@@ -231,7 +242,10 @@ size. -->
 <!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
 <!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
 <!ENTITY reading_list_duplicate "ページはすでにリーディングリストに追加されています">
-<!ENTITY reader "リーダー">
+
+<!-- Localization note : These strings are used as alternate text for accessibility.
+     They are not visible in the UI. -->
+<!ENTITY page_action_dropmarker_description "追加の操作">
 
 <!ENTITY masterpassword_create_title "マスターパスワードを作成">
 <!ENTITY masterpassword_remove_title "マスターパスワードを削除">
@@ -318,6 +332,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY searchable_description "ブックマークと履歴">
 
+<!ENTITY devtools_remote_debugging_forward "ポートフォワーディングの設定を忘れないでください！">
+
  <!-- Updater notifications -->
 <!ENTITY updater_start_title2 "&brandShortName; の利用可能な更新">
 <!ENTITY updater_start_select2 "タッチしてダウンロードを開始します">
@@ -329,3 +345,14 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY updater_apply_title2 "&brandShortName; の利用可能な更新">
 <!ENTITY updater_apply_select2 "タッチして更新を開始します">
+
+<!-- Guest mode -->
+<!ENTITY new_guest_session "新しいゲストセッション">
+<!ENTITY exit_guest_session "ゲストセッションを終了">
+<!ENTITY guest_session_dialog_continue "継続">
+<!ENTITY guest_session_dialog_cancel "キャンセル">
+<!ENTITY new_guest_session_title "&brandShortName; は今すぐ再起動します">
+<!ENTITY new_guest_session_text "このモードを使う人は、あなたの個人的な閲覧データ（保存されたパスワードや履歴、ブックマークなど）にはアクセスできません。\n\nゲストモードが終了した時、その閲覧データは削除され、元のセッションが復元されます。">
+
+<!ENTITY exit_guest_session_title "&brandShortName; は今すぐ再起動します">
+<!ENTITY exit_guest_session_text "このセッションの閲覧データは削除されます。">
