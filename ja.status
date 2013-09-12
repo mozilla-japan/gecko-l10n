@@ -402,3 +402,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 dom                    149159:83ae78484491  14505:9ce5f85470dd   mar             sync dom
 mobile                 149223:91e513122ea5  -----:------------   Kechol          sync mobile
 toolkit                149289:f67ee08f57de  14529:5c633bc9ae1e   mar             sync toolkit
+mail                   ------:------------  14537:2026e78b9555   mar             sync mail

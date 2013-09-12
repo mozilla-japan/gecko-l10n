@@ -496,7 +496,7 @@
 <!ENTITY allowRemoteDebugging.accesskey	"g">
 
 <!-- Mail Toolbar -->
-<!ENTITY getMsgButton.label		"受信">
+<!ENTITY getMsgButton1.label		"受信">
 <!ENTITY newMsgButton.label		"作成">
 <!ENTITY replyButton.label		"返信">
 <!ENTITY replyAllButton.label		"全員に返信">
