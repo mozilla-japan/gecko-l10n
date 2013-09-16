@@ -7,8 +7,10 @@
 <!ENTITY searchHeading.accesskey     "e">
 <!ENTITY searchSubfolders.label      "サブフォルダも検索する">
 <!ENTITY searchSubfolders.accesskey  "u">
-<!ENTITY searchLocalSystem.label     "ローカルシステムを検索する">
-<!ENTITY searchLocalSystem.accesskey "y">
+<!ENTITY searchOnHeading.label       "検索対象:">
+<!ENTITY searchOnHeading.accesskey   "P">
+<!ENTITY searchOnRemote.label        "リモートサーバ">
+<!ENTITY searchOnLocal.label         "ローカルシステム">
 <!ENTITY resetButton.label           "リセット">
 <!ENTITY resetButton.accesskey       "C">
 <!ENTITY openButton.label            "開く">
