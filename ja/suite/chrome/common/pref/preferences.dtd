@@ -26,7 +26,6 @@
 <!ENTITY masterpass.label "マスターパスワード">
 <!ENTITY ssl.label "SSL">
 <!ENTITY certs.label "証明書">
-<!ENTITY validation.label "検証">
 <!ENTITY sync.label "Sync">
 <!ENTITY advance.label "詳細">
 <!ENTITY down.label "ダウンロード">
