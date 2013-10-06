@@ -412,3 +412,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 toolkit                155627:a4b7282df517  14751:d892a07dc424   mar             sync toolkit
 security               155627:a4b7282df517  14751:d892a07dc424   mar             sync security
+browser/metro          155627:a4b7282df517  -----:------------   hATrayflood     sync browser/metro
