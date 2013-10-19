@@ -2,4 +2,3 @@ google-jp
 yahoo-jp
 amazon-jp
 wikipedia-ja
-creativecommons
