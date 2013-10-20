@@ -1,0 +1,24 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  startupAction.label		"&brandShortName; の起動時:">
+<!ENTITY  startupAction.accesskey	"s">
+<!ENTITY  startupOffline.label		"チャットアカウントをオフラインにする">
+<!ENTITY  startupConnectAuto.label	"チャットアカウントを自動的に接続する">
+
+<!-- LOCALIZATION NOTE: reportIdleAfter.label is displayed first, then
+there's a field where the user can enter a number, and itemTime is
+displayed at the end of the line. The translations of the
+reportIdleAfter.label and idleTime parts don't have to mean the exact
+same thing as in English; please try instead to translate the whole
+sentence. -->
+<!ENTITY  reportIdleAfter.label		"待機状態が"><!-- en-US: "Let my contacts know that I am Idle after" -->
+<!ENTITY  reportIdleAfter.accesskey	"I">
+<!ENTITY  idleTime			"分間続いたらそれを相手に知らせる"><!-- en-US: "minutes of inactivity" -->
+
+<!ENTITY  andSetStatusToAway.label	"さらに次のステータスメッセージを送信して離席状態にする:">
+<!ENTITY  andSetStatusToAway.accesskey	"A">
+
+<!ENTITY  sendTyping.label		"会話中のタイピング通知を送信する">
+<!ENTITY  sendTyping.accesskey		"t">

@@ -1,0 +1,18 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD
+     SYSTEM "chrome://branding/locale/brand.dtd">
+   %brandDTD;
+
+<!ENTITY aboutAddons.title              "&brandShortName; アドオン管理は開発中です">
+<!ENTITY aboutAddons.messageTitle       "申し訳ありません">
+<!ENTITY aboutAddons.message            "&brandShortName; はアドオンのサポートに向けて、ただいま作業中です。">
+<!-- LOCALIZATION NOTE (aboutAddons.goBackToStartStart, aboutAddons.goBacktoStartLink, aboutAddons.goBacktoStartEnd):
+     These three entities form a single sentence. aboutAddons.goBackToStartStart is the start of the sentence,
+     aboutAddons.goBacktoStartLink is a clickable link the middle and aboutAddons.goBacktoStartEnd is the end of the sentence.
+     -->
+<!ENTITY aboutAddons.goBackToStartStart "">
+<!ENTITY aboutAddons.goBacktoStartLink  "&brandShortName; スタートページ ">
+<!ENTITY aboutAddons.goBacktoStartEnd   "へ戻る。">
