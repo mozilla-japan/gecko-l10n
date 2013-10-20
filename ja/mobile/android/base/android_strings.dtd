@@ -6,10 +6,13 @@
 <!ENTITY  no_space_to_start_error "&brandShortName; を起動するために必要な空き領域が不足しています。">
 <!ENTITY  error_loading_file "&brandShortName; の起動に必要なファイルを読み込めませんでした">
 
-<!ENTITY  awesomebar_all_pages_title "トップサイト"><!-- Max6文字 -->
-<!ENTITY  awesomebar_bookmarks_title "ブックマーク">
-<!ENTITY  awesomebar_history_title "履歴">
-<!ENTITY  awesomebar_switch_to_tab "タブに切り換え">
+<!-- Localization note: These are used as the titles of different pages on the home screen.
+     They are automatically converted to all caps by the Android platform. -->
+<!ENTITY  bookmarks_title "ブックマーク">
+<!ENTITY  history_title "履歴">
+<!ENTITY  reading_list_title "リーディングリスト">
+
+<!ENTITY  switch_to_tab "タブに切り換え">
 
 <!ENTITY  crash_reporter_title "&brandShortName; クラッシュレポータ">
 <!ENTITY  crash_message2 "&brandShortName; がクラッシュしました。次回の起動時には開いていたタブの一覧が &brandShortName; のスタートページに表示されます。">
@@ -30,10 +33,7 @@
 
 <!ENTITY choose_file "ファイルを選んでください">
 
-<!ENTITY awesomebar_default_text "検索語句や URL を入力してください">
-
-<!ENTITY remote_tabs "同期されたタブ">
-<!ENTITY remote_tabs_show_all "すべてのタブを表示">
+<!ENTITY url_bar_default_text "検索語句や URL を入力してください">
 
 <!ENTITY bookmark "ブックマーク">
 <!ENTITY bookmark_added "ブックマークを追加しました">
@@ -72,6 +72,11 @@
 <!ENTITY pref_category_vendor "&vendorShortName;">
 <!ENTITY pref_category_datareporting "データの選択">
 <!ENTITY pref_category_installed_search_engines "インストール済みの検索エンジン">
+<!ENTITY pref_category_add_search_providers "検索プロバイダを追加">
+<!-- Localization note (pref_search_tip) : "TIP" as in "hint", "clue" etc. Displayed as an
+     advisory message on the customise search providers settings page explaining how to add new
+     search providers.-->
+<!ENTITY pref_search_tip "ヒント: サイトの検索フィールド上で長押しすることで、どのサイトでも検索プロバイダに追加できます">
 <!ENTITY pref_category_devtools "デベロッパーツール">
 <!ENTITY pref_developer_remotedebugging "リモートデバッグ">
 <!ENTITY pref_developer_remotedebugging_docs "さらに詳しく">
@@ -107,8 +112,7 @@
 <!ENTITY pref_reflow_on_zoom4 "テキストの再配置">
 <!ENTITY pref_restore "タブ">
 <!ENTITY pref_restore_always "常に復元">
-<!ENTITY pref_restore_crash "クラッシュしたら復元">
-<!ENTITY pref_restore_never "復元しない">
+<!ENTITY pref_restore_quit "&brandShortName; の終了後、復元しない">
 <!ENTITY pref_font_size_tiny "最小">
 <!ENTITY pref_font_size_small "小">
 <!ENTITY pref_font_size_medium "中">
@@ -144,6 +148,10 @@ size. -->
 <!ENTITY pref_about_firefox "&brandShortName; について">
 <!ENTITY pref_vendor_faqs "FAQ">
 <!ENTITY pref_vendor_feedback "フィードバックをください">
+<!ENTITY pref_search_set_default "デフォルトに設定">
+<!ENTITY pref_search_default "デフォルト">
+<!ENTITY pref_search_remove "削除">
+<!ENTITY pref_search_last_toast "最後の検索エンジンを削除や無効化することはできません">
 
 <!ENTITY datareporting_notification_title "&brandShortName; 統計とデータ">
 <!ENTITY datareporting_notification_action_long "共有する情報を選択してください">
@@ -208,8 +216,7 @@ size. -->
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
 <!ENTITY contextmenu_open_private_tab "プライベートタブで開く">
 <!ENTITY contextmenu_open_in_reader "リーダーで開く">
-<!ENTITY contextmenu_remove_history "削除">
-<!ENTITY contextmenu_remove_bookmark "削除">
+<!ENTITY contextmenu_remove "Remove">
 <!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
 <!ENTITY contextmenu_share "共有">
 <!ENTITY contextmenu_pasteandgo "@@Paste-site@@移動">
@@ -218,6 +225,9 @@ size. -->
 <!ENTITY contextmenu_edit_bookmark "編集">
 <!ENTITY contextmenu_subscribe "このページを購読">
 <!ENTITY contextmenu_site_settings "サイトの設定を編集">
+<!ENTITY contextmenu_top_bookmarks_edit "編集">
+<!ENTITY contextmenu_top_bookmarks_pin "サイトをピン留め">
+<!ENTITY contextmenu_top_bookmarks_unpin "サイトのピンを外す">
 
 <!ENTITY pref_titlebar_mode "タイトルバー">
 <!ENTITY pref_titlebar_mode_title "ページのタイトルを表示">
@@ -225,6 +235,7 @@ size. -->
 
 <!ENTITY history_removed "履歴からページが削除されました">
 
+<!ENTITY bookmark_add "ブックマークを追加">
 <!ENTITY bookmark_edit_title "ブックマークを編集">
 <!ENTITY bookmark_edit_name "名前">
 <!ENTITY bookmark_edit_location "ロケーション">
@@ -237,7 +248,6 @@ size. -->
 <!ENTITY site_settings_clear        "消去">
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
 
-<!ENTITY reading_list "リーディングリスト">
 <!ENTITY reading_list_added "ページがリーディングリストに追加されました">
 <!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
 <!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
@@ -260,28 +270,30 @@ size. -->
 <!ENTITY button_set "設定">
 <!ENTITY button_clear "消去">
 
-<!ENTITY abouthome_addons_title "&brandShortName; のためのアドオン">
-<!ENTITY abouthome_addons_browse "&brandShortName; のアドオンをすべて見る">
-<!ENTITY abouthome_last_tabs_title "最後に閉じたタブ">
-<!ENTITY abouthome_last_tabs_open "最後に閉じたタブをすべて開く">
-<!ENTITY abouthome_top_sites_title "トップサイト (よく見るページ)"><!-- awesomebar_all_pages_titleがMax6文字 -->
-<!ENTITY abouthome_topsites_edit "編集">
-<!ENTITY abouthome_topsites_pin "サイトをピン留め">
-<!ENTITY abouthome_topsites_unpin "ピンを外す">
+<!ENTITY home_top_sites_title "トップサイト (よく見るページ)">
+<!-- Localization note (home_top_sites_add): This string is used as placeholder
+     text underneath empty thumbnails in the Top Sites page on about:home. -->
+<!ENTITY home_top_sites_add "サイトを追加">
 
-<!-- Localization note (abouthome_about_sync3, abouthome_about_apps2): The
-     chevron (ex: "»"; unicode= U+00BB) is used as an arrow to show that
-     clicking this text in the promotions box will perform some action. Note
-     that a non-breaking space (unicode= U+00A0) should be used between this
-     character and the remainder of the string to prevent word wrap. -->
-<!ENTITY abouthome_about_sync3 "Firefox Sync を設定し、あなたの他のデバイスからブックマークや履歴、タブなどにアクセスできるようにします&#x00A0;&#x00BB;"><!-- "»" を実体参照に置き換えた -->
-<!ENTITY abouthome_about_apps3 "Marketplace からアプリを入手し、Web の持つ素晴らしさを発掘しましょう&#x00A0;&#x00BB;"><!-- "»" を実体参照に置き換えた -->
-<!-- Localization note (abouthome_sync_bold_name, abouthome_apps_bold_name):
-     These strings are accentuated as bold text in the "abouthome_about_..."
-     strings above. These strings should be a subset of the strings above and
-     generally be the name of the product the string describes. -->
-<!ENTITY abouthome_sync_bold_name "Firefox Sync">
-<!ENTITY abouthome_apps_bold_name2 "Firefox Marketplace">
+<!ENTITY home_history_title "履歴">
+<!ENTITY home_last_tabs_title "前回のタブ">
+<!ENTITY home_last_tabs_open "前回のタブをすべて開く">
+<!ENTITY home_last_tabs_empty "あなたが最近開いたタブが表示されます。">
+<!ENTITY home_most_recent_title "最近開いたサイト">
+<!ENTITY home_most_recent_empty "あなたが最近開いたサイトが表示されます。">
+<!ENTITY home_most_visited_title "もっとも多く訪れたページ">
+<!ENTITY home_reading_list_empty "あなたが保存した記事が表示されます。">
+<!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
+     as an advisory message on how to add content to the reading list when the reading list empty.
+     The "&#37;I" in the string will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. Please keep the spacing around the "&#37;I" string. -->
+<!ENTITY home_reading_list_hint "ヒント: タイトルバーに表示される &#37;I アイコンを長押しすることで、記事をリーディングリストに保存できます。">
+<!-- Localization note (home_reading_list_hint_accessible): This string is used
+     as alternate text for accessibility. It is not visible in the UI. -->
+<!ENTITY home_reading_list_hint_accessible "ヒント: タイトルバーに表示されるリーダーモードボタンを長押しすることで、記事をリーディングリストに保存できます。">
+
+<!ENTITY home_most_visited_empty "もっとも頻繁に訪れたページを表示します。">
+<!ENTITY pin_bookmark_dialog_hint "検索キーワードを入力してください">
 
 <!ENTITY filepicker_title "ファイル選択">
 <!ENTITY filepicker_audio_title "音声を選択または録音する">
@@ -327,6 +339,11 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- Localization note (suggestions_prompt2): The placeholder &formatS; will be
      replaced with the name of the search engine. -->
 <!ENTITY suggestions_prompt2 "&formatS; で検索語句の候補を表示しますか？">
+
+<!-- Localization note (suggestion_for_engine): The placeholder &formatS1; will be
+     replaced with the name of the search engine. The placeholder &formatS2; will be
+     replaced with the search query. -->
+<!ENTITY suggestion_for_engine " &formatS1; で &formatS2; を検索">
 
 <!ENTITY webapp_generic_name "アプリ">
 
