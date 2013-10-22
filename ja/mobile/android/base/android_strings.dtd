@@ -216,7 +216,7 @@ size. -->
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
 <!ENTITY contextmenu_open_private_tab "プライベートタブで開く">
 <!ENTITY contextmenu_open_in_reader "リーダーで開く">
-<!ENTITY contextmenu_remove "Remove">
+<!ENTITY contextmenu_remove "削除">
 <!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
 <!ENTITY contextmenu_share "共有">
 <!ENTITY contextmenu_pasteandgo "@@Paste-site@@移動">
