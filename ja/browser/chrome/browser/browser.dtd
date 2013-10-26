@@ -46,7 +46,12 @@ can reach it easily. -->
 <!ENTITY  bookmarkAllTabs.accesskey	"T">
 <!ENTITY  undoCloseTab.label		"閉じたタブを元に戻す">
 <!ENTITY  undoCloseTab.accesskey		"U">
-<!ENTITY  closeTab.label			"タブを閉じる">
+<!-- LOCALIZATION NOTE (undoCloseTabs.label) : This label is used
+when the previous tab-closing operation closed more than one tab. It
+replaces the undoCloseTab.label and will use the same accesskey as the
+undoCloseTab.label so users will not need to learn new keyboard controls. -->
+<!ENTITY  undoCloseTabs.label		"閉じたタブを戻す">
+<!ENTITY  closeTab.label		"タブを閉じる">
 <!ENTITY  closeTab.accesskey		"c">
 
 <!ENTITY  listAllTabs.label		"タブを一覧表示します">
@@ -244,6 +249,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarCloseButton.tooltiptext	"開発ツールバーを閉じる">
 <!ENTITY devToolbarMenu.label			"開発ツールバー">
 <!ENTITY devToolbarMenu.accesskey		"v">
+<!ENTITY devAppMgrMenu.label			"アプリマネージャ">
+<!ENTITY devAppMgrMenu.accesskey		"a">
 <!ENTITY devToolbar.keycode			"VK_F2">
 <!ENTITY devToolbar.keytext			"F2">
 <!ENTITY devToolboxMenuItem.label		"開発ツールを表示">
@@ -638,9 +645,10 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY social.chatBar.label			"チャットを入力">
 <!ENTITY social.chatBar.accesskey		"c">
 
-<!-- labels are set dynamically, see browser.properties -->
-<!ENTITY social.markpage.accesskey		"m">
-<!ENTITY social.marklink.accesskey		"M">
+<!ENTITY social.markpageMenu.accesskey		"P">
+<!ENTITY social.markpageMenu.label		"ページを保存する...">
+<!ENTITY social.marklinkMenu.accesskey		"L">
+<!ENTITY social.marklinkMenu.label		"リンクを保存する...">
 
 <!ENTITY getUserMedia.selectCamera.label		"共有するカメラ:">
 <!ENTITY getUserMedia.selectCamera.accesskey		"C">
@@ -662,6 +670,18 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY pluginActivateNow.label		"今すぐ許可">
 <!ENTITY pluginActivateAlways.label		"常に許可">
 <!ENTITY pluginBlockNow.label			"プラグインをブロック">
+
+<!-- LOCALIZATION NOTE: (pluginNotification.width): This is used to determine the
+     width of the plugin popup notification that can appear if a plugin has been
+     blocked on a page. Should be wide enough to fit the pluginActivateNow.label
+     and pluginActivateAlways.label strings above on a single line. This must be
+     a CSS length value. -->
+<!ENTITY pluginNotification.width		"28em">
+
+<!ENTITY tabCrashed.header			"クラッシュしたタブ">
+<!ENTITY tabCrashed.message			"申し訳ありません。Web ページを表示しようとしましたが、応答がありませんでした。">
+<!ENTITY tabCrashed.checkSendReport		"&vendorShortName; にクラッシュ内容を送信する。">
+<!ENTITY tabCrashed.tryAgain			"再試行">
 
 <!-- LOCALIZATION NOTE: the following strings are unused in Australis, they're
      kept here to avoid warnings from l10n tools like compare-locales on
