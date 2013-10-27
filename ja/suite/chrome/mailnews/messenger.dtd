@@ -529,22 +529,3 @@
 
 <!ENTITY all.label     "すべて">
 <!ENTITY all.accesskey "A">
-
-<!-- Junk Bar -->
-<!ENTITY junkBarMessage.label  "このメールは迷惑メールの可能性があります。">
-<!ENTITY junkBarButton.label   "迷惑メールではありません">
-<!ENTITY junkInfoButton.label  "？">
-
-<!-- Remote Content Bar -->
-<!ENTITY remoteContentMessage.label       "プライバシー保護のため、このメッセージ内のリモートコンテンツをブロックしました。">
-<!ENTITY loadRemoteContentButton.label    "リモートコンテンツを表示">
-
-<!-- Phishing Bar -->
-<!ENTITY phishingBarMessage.label         "このメールは詐欺メールの可能性があります。">
-<!ENTITY removePhishingBarButton.label    "詐欺メールではありません">
-
-<!-- MDN Bar -->
-<!ENTITY mdnBarIgnoreButton.label         "無視する">
-<!ENTITY mdnBarIgnoreButton.accesskey     "I">
-<!ENTITY mdnBarSendButton.label           "開封確認を送付する">
-<!ENTITY mdnBarSendButton.accesskey       "S">

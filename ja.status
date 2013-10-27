@@ -419,3 +419,4 @@ dom                    155860:9429bda1f6cb  14772:afdb9bb6f9c4   mar            
 webapprt               155889:4acca23684c4  -----:------------   mar             sync webapprt
 services/sync          155889:4acca23684c4  -----:------------   mar             sync services/sync
 browser                155627:a4b7282df517  -----:------------   hATrayflood     sync browser
+suite                  ------:------------  14751:d892a07dc424   hATrayflood     sync suite
