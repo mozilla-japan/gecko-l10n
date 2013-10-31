@@ -1,0 +1,156 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY  offlineGoOfflineCmd.label	"オフラインにする">
+<!ENTITY  offlineGoOfflineCmd.accesskey	"k">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label			"ファイル">
+<!ENTITY fileMenu.accesskey		"F">
+<!ENTITY newMenu.label			"新規作成">
+<!ENTITY newMenu.accesskey		"N">
+<!ENTITY newBlankPageCmd.label		"ページを作成">
+<!ENTITY newBlankPageCmd.accesskey	"P">
+<!ENTITY newBlankPageCmd.key		"n" >
+<!ENTITY newPageFromTemplateCmd.label	"テンプレートからページを作成">
+<!ENTITY newPageFromTemplateCmd.accesskey	"t">
+<!ENTITY newPageFromDraftCmd.label	"下書きからページを作成">
+<!ENTITY newPageFromDraftCmd.accesskey	"d">
+<!ENTITY newNavigatorCmd.label		"ブラウザ@@Window@@">
+<!ENTITY newNavigatorCmd.key		"N">
+<!ENTITY newNavigatorCmd.accesskey	"B">
+<!ENTITY newPrivateWindowCmd.label	"プライベート@@Window@@">
+<!ENTITY newPrivateWindowCmd.key	"B">
+<!ENTITY newPrivateWindowCmd.accesskey	"W">
+<!ENTITY printSetupCmd.label		"ページ設定...">
+<!ENTITY printSetupCmd.accesskey	"u">
+<!ENTITY printPreviewCmd.label		"@@Print@@プレビュー">
+<!ENTITY printPreviewCmd.accesskey	"v">
+<!ENTITY printCmd.label			"@@Print@@">
+<!ENTITY printCmd.accesskey		"P">
+<!ENTITY printCmd.key			"P">
+
+<!ENTITY editMenu.label			"編集">
+<!ENTITY editMenu.accesskey		"E">
+<!ENTITY undoCmd.label			"@@Undo@@">
+<!ENTITY undoCmd.key			"Z">
+<!ENTITY undoCmd.accesskey		"U">
+<!ENTITY redoCmd.label			"@@Redo@@">
+<!ENTITY redoCmd.key			"Y">
+<!ENTITY redoCmd.accesskey		"R">
+<!ENTITY cutCmd.label			"@@Cut@@">
+<!ENTITY cutCmd.key			"X">
+<!ENTITY cutCmd.accesskey		"t">
+<!ENTITY copyCmd.label			"コピー">
+<!ENTITY copyCmd.key			"C">
+<!ENTITY copyCmd.accesskey		"C">
+<!ENTITY pasteCmd.label			"@@Paste@@">
+<!ENTITY pasteCmd.key			"V">
+<!ENTITY pasteCmd.accesskey		"P">
+<!ENTITY pasteGoCmd.label		"@@Paste-site@@移動">
+<!ENTITY pasteGoCmd.accesskey		"G">
+
+<!-- LOCALIZATION NOTE (pasteSearchCmd): "Search" is a verb, this is the
+     search bar equivalent to the url bar's "Paste & Go"  -->
+<!ENTITY pasteSearchCmd.label		"@@Paste-site@@検索">
+<!ENTITY pasteSearchCmd.accesskey	"e">
+<!ENTITY deleteCmd.label		"削除">
+<!ENTITY deleteCmd.accesskey		"D"> 
+<!ENTITY selectAllCmd.label		"@@SelectAll@@">
+<!ENTITY selectAllCmd.key		"A">
+<!ENTITY selectAllCmd.accesskey		"A">
+<!ENTITY clearHistoryCmd.label		"検索履歴を消去">
+<!ENTITY clearHistoryCmd.accesskey	"H">
+<!ENTITY showSuggestionsCmd.label	"検索候補を表示">
+<!ENTITY showSuggestionsCmd.accesskey	"S">
+<!ENTITY preferencesCmd.label		"設定...">
+<!ENTITY preferencesCmd.key		"E">
+<!ENTITY preferencesCmd.accesskey	"e">
+<!ENTITY findCmd.key			"F">
+<!-- LOCALIZATION NOTE (findCmd.accesskey): This accesskey should be within
+     findCmd.label found in messengercompose.dtd, messenger.dtd and
+     editorOverlay.dtd and findOnCmd.label found in navigatorOverlay.dtd -->
+<!ENTITY findCmd.accesskey		"F">
+<!ENTITY findAgainCmd.label		"次を検索">
+<!ENTITY findAgainCmd.key		"G">
+<!ENTITY findAgainCmd.accesskey		"g">
+<!ENTITY findAgainCmd.key2		"VK_F3">
+<!ENTITY findPrevCmd.label		"前を検索">
+<!ENTITY findPrevCmd.key		"G">
+<!ENTITY findPrevCmd.key2		"VK_F3">
+<!ENTITY findPrevCmd.accesskey		"v">
+<!ENTITY findTypeTextCmd.label		"テキストをタイプ検索">
+<!ENTITY findTypeTextCmd.accesskey	"x">
+<!ENTITY findTypeLinksCmd.label		"リンクをタイプ検索">
+<!ENTITY findTypeLinksCmd.accesskey	"k">
+
+<!ENTITY viewMenu.label			"表示">
+<!ENTITY viewMenu.accesskey		"V">
+<!ENTITY viewToolbarsMenu.label		"表示/隠す">
+<!ENTITY viewToolbarsMenu.accesskey	"w">
+<!ENTITY showTaskbarCmd.label		"ステータスバー">
+<!ENTITY showTaskbarCmd.accesskey	"S">
+
+<!ENTITY helpMenu.label			"ヘルプ">
+<!ENTITY helpMenu.accesskey		"h">
+
+<!ENTITY helpTroubleshootingInfo.label		"トラブルシューティング情報">
+<!ENTITY helpTroubleshootingInfo.accesskey	"T">
+<!ENTITY releaseCmd.label			"リリースノート">
+<!ENTITY releaseCmd.accesskey			"N">
+<!ENTITY helpSafeMode.label			"アドオンを無効にして再起動">
+<!ENTITY helpSafeMode.accesskey			"R">
+<!ENTITY updateCmd.label			"&brandShortName; の更新を確認...">
+<!ENTITY updateCmd.accesskey			"C">
+<!ENTITY aboutCmd.label				"&brandShortName; について">
+<!ENTITY aboutCmd.accesskey			"A">
+<!ENTITY aboutCommPluginsCmd.label		"プラグインについて">
+<!ENTITY aboutCommPluginsCmd.accesskey		"p">
+
+<!ENTITY direct.label			"オンライン (プロキシ: なし)">
+<!ENTITY direct.accesskey		"N">
+<!ENTITY manual.label			"オンライン (プロキシ: 手動設定)">
+<!ENTITY manual.accesskey		"M">
+<!ENTITY pac.label			"オンライン (プロキシ: 設定ファイルの URL を指定)">
+<!ENTITY pac.accesskey			"A">
+<!ENTITY wpad.label			"オンライン (プロキシ: 自動検出)">
+<!ENTITY wpad.accesskey			"D">
+<!ENTITY system.label			"オンライン (プロキシ: システムの設定)">
+<!ENTITY system.accesskey		"S">
+
+<!ENTITY proxy.label			"プロキシ設定...">
+<!ENTITY proxy.accesskey		"C">
+
+<!ENTITY bidiSwitchTextDirectionItem.label	"テキストの書記方向を切り換え">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey	"w">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey	"X">
+
+<!ENTITY customizeToolbarContext.label		"カスタマイズ...">
+<!ENTITY customizeToolbarContext.accesskey	"C">
+
+<!ENTITY customizeToolbar.toolbarmode.label		"このツールバーの設定">
+<!ENTITY customizeToolbar.toolbarmode.accesskey		"e">
+<!ENTITY customizeToolbar.iconsAndText.label		"アイコンとテキスト">
+<!ENTITY customizeToolbar.iconsAndText.accesskey	"a">
+<!ENTITY customizeToolbar.icons.label			"アイコンのみ">
+<!ENTITY customizeToolbar.icons.accesskey		"o">
+<!ENTITY customizeToolbar.text.label			"テキストのみ">
+<!ENTITY customizeToolbar.text.accesskey		"T">
+<!ENTITY customizeToolbar.useSmallIcons.label		"小さいアイコンを使用">
+<!ENTITY customizeToolbar.useSmallIcons.accesskey	"s">
+<!ENTITY customizeToolbar.labelAlignEnd.label		"アイコンの横にテキストを表示">
+<!ENTITY customizeToolbar.labelAlignEnd.accesskey	"b">
+<!ENTITY customizeToolbar.useDefault.label		"初期設定に戻す">
+<!ENTITY customizeToolbar.useDefault.accesskey		"U">
+
+<!-- Popup Blocked notification menu -->
+<!ENTITY allowPopups.accesskey		"p">
+<!ENTITY showPopupManager.label		"ポップアップの管理">
+<!ENTITY showPopupManager.accesskey	"M">
+<!ENTITY dontShowMessage.label		"ポップアップをブロックしたときにこのメッセージを表示しない">
+<!ENTITY dontShowMessage.accesskey	"D">
+
+<!ENTITY syncToolbarButton.label	"Sync">
