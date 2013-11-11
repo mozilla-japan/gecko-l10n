@@ -8,7 +8,7 @@
 <!ENTITY autoHide.accesskey "d">
 <!ENTITY background.label "@@NewTab@@を@@Front@@に表示する (リンクを開いたとき)">
 <!ENTITY background.accesskey "S">
-<!ENTITY warnOnClose.label "複数のタブを開いたまま終了するときには警告する">
+<!ENTITY warnOnClose.label "同時に複数のタブを閉じるときは警告する">
 <!ENTITY warnOnClose.accesskey "W">
 <!ENTITY relatedAfterCurrent.label "@@NewTab@@を現在のタブのあとに開く"><!--Open related tabs after current tab-->
 <!ENTITY relatedAfterCurrent.accesskey "O">
