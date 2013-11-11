@@ -45,12 +45,7 @@ can reach it easily. -->
 <!ENTITY  bookmarkAllTabs.label		"すべてのタブをブックマーク...">
 <!ENTITY  bookmarkAllTabs.accesskey	"T">
 <!ENTITY  undoCloseTab.label		"閉じたタブを元に戻す">
-<!ENTITY  undoCloseTab.accesskey		"U">
-<!-- LOCALIZATION NOTE (undoCloseTabs.label) : This label is used
-when the previous tab-closing operation closed more than one tab. It
-replaces the undoCloseTab.label and will use the same accesskey as the
-undoCloseTab.label so users will not need to learn new keyboard controls. -->
-<!ENTITY  undoCloseTabs.label		"閉じたタブを戻す">
+<!ENTITY  undoCloseTab.accesskey	"U">
 <!ENTITY  closeTab.label		"タブを閉じる">
 <!ENTITY  closeTab.accesskey		"c">
 
