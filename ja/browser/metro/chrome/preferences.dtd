@@ -1,0 +1,42 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- ## Sync Flyout Panel ## -->
+<!-- see sync.dtd -->
+
+<!-- ## Options Flyout Panel ## -->
+<!ENTITY optionsHeader.title                                     "オプション">
+<!ENTITY optionsHeader.startup.title                             "起動">
+<!ENTITY optionsHeader.homepage.title                            "&brandShortName; を起動するとき">
+<!ENTITY optionsHeader.homepage.startPage.button                 "スタートページ">
+<!ENTITY optionsHeader.homepage.sessionRestore.button            "前回終了時のタブ">
+<!ENTITY optionsHeader.char.title                                "文字エンコーディング">
+<!ENTITY optionsHeader.char.autodetect.label                     "自動判別">
+<!ENTITY optionsHeader.char.options.label                        "アプリケーションバーに文字エンコーディングのオプションを表示する">
+
+<!ENTITY clearPrivateData.title                                  "プライバシーデータを消去">
+<!ENTITY clearPrivateData.label                                  "この端末の閲覧履歴、パスワード、Cookie、フォームの入力履歴を消去する">
+<!ENTITY clearPrivateData.button                                 "消去">
+<!ENTITY clearPrivateData.done                                   "完了">
+<!ENTITY clearPrivateData.history                                "閲覧履歴">
+<!ENTITY clearPrivateData.otherdata                              "その他のデータ (パスワード、キャッシュ、Cookie、その他)">
+<!ENTITY clearPrivateData.downloadHist                           "ダウンロード履歴">
+<!ENTITY clearPrivateData.cookies                                "Cookie">
+<!ENTITY clearPrivateData.cache                                  "キャッシュ">
+<!ENTITY clearPrivateData.sitePref                               "サイト別設定">
+<!ENTITY clearPrivateData.formSearchHist                         "フォームと検索の入力履歴">
+<!ENTITY clearPrivateData.passwords                              "保存したパスワード">
+<!ENTITY clearPrivateData.offline                                "オフラインの Web サイトのデータ">
+<!ENTITY clearPrivateData.logins                                 "有効なログイン">
+
+<!ENTITY optionsHeader.privacy.passwords.label                   "パスワードを記録させるRemember Passwords">
+<!ENTITY doNotTrack.title                                        "Do Not Track">
+<!ENTITY doNotTrack.desc                                         "サイトへ通知:">
+<!ENTITY doNotTrack.options.trackingNotOkay                      "トラッキングの拒否を通知する">
+<!ENTITY doNotTrack.options.noPreference                         "トラッキングに関する設定は一切通知しない">
+<!ENTITY doNotTrack.options.trackingOkay                         "トラッキングの許可を通知する">
+<!ENTITY optionsHeader.reporting.title                           "クラッシュレポートの送信">
+<!ENTITY optionsHeader.reporting.crashes.label                   "&brandShortName; をより安定したセキュアなものにするために、クラッシュレポートを Mozilla に送信します。">
+<!ENTITY optionsHeader.telemetry.title                            "パフォーマンス情報の送信">
+<!ENTITY optionsHeader.telemetry.label                            "ブラウザをよりよいものにするために、利用状況の統計を &vendorShortName; に送信します。">
