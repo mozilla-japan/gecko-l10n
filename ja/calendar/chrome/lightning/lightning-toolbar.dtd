@@ -36,5 +36,9 @@
 <!ENTITY lightning.toolbar.month.accesskey	"M">
 <!-- LOCALIZATION NOTE: the same as appmenuButton.label and appmenuButton1.tooltip
      from messenger.dtd -->
-<!ENTITY lightning.toolbar.appmenuButton.label	"アプリメニュー">
+<!ENTITY lightning.toolbar.appmenuButton.label		"アプリメニュー">
 <!ENTITY lightning.toolbar.appmenuButton1.tooltip	"&brandShortName; のメニューを表示します">
+<!ENTITY lightning.toolbar.calendarmenu.label		"カレンダーペイン">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey	"P">
+<!ENTITY lightning.toolbar.calendarpane.label		"カレンダーペインを表示します">
+<!ENTITY lightning.toolbar.calendarpane.accesskey	"P">

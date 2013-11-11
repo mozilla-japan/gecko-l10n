@@ -396,7 +396,7 @@ mobile                 143741:541b80da91fa  -----:------------   knagato        
 suite                  ------:------------  14213:6129078bfffc   mar             sync suite
 browser                143410:767c0dbc8cf2  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-25.0] (for beta)
+Released! [l10n-mozilla-25.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                    149159:83ae78484491  14505:9ce5f85470dd   mar             sync dom
@@ -407,7 +407,7 @@ calendar               ------:------------  14540:a3ea653d4337   mar            
 suite                  ------:------------  14542:e1bb7e555abc   mar             sync suite
 browser                149347:4e359e975ae9  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-26.0] (for aurora)
+[l10n-mozilla-26.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                155627:a4b7282df517  14751:d892a07dc424   mar             sync toolkit
@@ -420,3 +420,9 @@ webapprt               155889:4acca23684c4  -----:------------   mar            
 services/sync          155889:4acca23684c4  -----:------------   mar             sync services/sync
 browser                155627:a4b7282df517  -----:------------   hATrayflood     sync browser
 suite                  ------:------------  14751:d892a07dc424   hATrayflood     sync suite
+browser                160984:2e7ce68c821f  -----:------------   mar             sync browser (mozilla-beta)
+
+[l10n-mozilla-27.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar               ------:------------  14955:12fb8e3a9088   mar             sync calendar
