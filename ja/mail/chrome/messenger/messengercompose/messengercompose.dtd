@@ -51,8 +51,6 @@
 <!ENTITY sendLaterCmd.accesskey		"L">
 <!ENTITY printSetupCmd.label		"ページ設定...">
 <!ENTITY printSetupCmd.accesskey	"u">
-<!ENTITY printPreviewCmd.label		"@@Print@@プレビュー">
-<!ENTITY printPreviewCmd.accesskey	"v">
 <!ENTITY printCmd.label			"@@Print@@...">
 <!ENTITY printCmd.key			"P">
 <!ENTITY printCmd.accesskey		"P">
