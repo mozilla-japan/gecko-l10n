@@ -5,10 +5,10 @@
 <!ENTITY folderProps.windowtitle.label           "@@Property@@">
 
 <!ENTITY generalInfo.label                       "一般情報">
-<!ENTITY folderCharsetTab.label                  "@@Default-@@文字エンコーディング:">
-<!ENTITY folderCharsetTab.accesskey              "E">
-<!ENTITY folderCharsetOverride.label             "この設定をフォルダ内のすべてのメッセージに適用する (各メッセージの文字エンコーディング指定や自動判別結果を無視する)">
-<!ENTITY folderCharsetOverride.accesskey         "A">
+<!ENTITY folderCharsetFallback.label             "フォールバック文字エンコーディング:">
+<!ENTITY folderCharsetFallback.accesskey         "E">
+<!ENTITY folderCharsetEnforce.label              "この設定をフォルダ内のすべてのメッセージに適用する (各メッセージの文字エンコーディング指定や自動判別結果を無視する)">
+<!ENTITY folderCharsetEnforce.accesskey          "A">
 <!ENTITY folderRebuildSummaryFileTip2.label      "要約ファイルの索引を再構築します">
 <!ENTITY folderRebuildSummaryFile2.label         "フォルダを修復">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "R">

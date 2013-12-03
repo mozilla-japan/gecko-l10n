@@ -10,7 +10,7 @@
     Place "&brandShortName;" in the phrase where the name of the application should
 	 appear
 -->
-<!ENTITY imageDetails                   "&brandShortName; の画像の取り扱い方法を指定する">
+<!ENTITY imageDetails                   "&brandShortName; の画像の取り扱い方法を指定します。">
 
 <!ENTITY loadAllImagesRadio.label       "すべての画像を読み込む">
 <!ENTITY loadAllImagesRadio.accesskey   "L">

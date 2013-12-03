@@ -28,5 +28,5 @@
 <!ENTITY blockAttackSites.label           "攻撃サイトとして報告されているサイトをブロックする (マルウェアやウイルスなど)">
 <!ENTITY blockAttackSites.accesskey       "B">
 
-<!ENTITY blockWebForgeries.label          "偽装サイトとして報告されているサイトをブロックする (フィッシングサイト)">
+<!ENTITY blockWebForgeries.label          "偽装サイトとして報告されているサイトをブロックする (偽装サイト)">
 <!ENTITY blockWebForgeries.accesskey      "P">
