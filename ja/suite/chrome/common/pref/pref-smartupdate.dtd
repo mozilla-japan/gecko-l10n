@@ -5,10 +5,10 @@
 <!--LOCALIZATION NOTE : FILE UI for Software Updates prefs -->
 <!ENTITY pref.smartUpdate.title               "ソフトウェアのインストール">
 <!ENTITY addOnsTitle.label                    "アドオン">
-<!ENTITY addOnsAllow.label                    "この Web サイトからアドオンのインストールと更新を許可する">
+<!ENTITY addOnsAllow.label                    "Web サイトからアドオンのインストールと更新を許可する">
 <!ENTITY addOnsAllow.accesskey                "b">
 <!ENTITY allowedSitesLink.label               "許可された Web サイト">
-<!ENTITY autoAddOnsUpdates.label              "更新を自動で確認">
+<!ENTITY autoAddOnsUpdates.label              "更新を自動で確認する">
 <!ENTITY autoAddOnsUpdates.accesskey          "o">
 <!ENTITY daily.label                          "毎日">
 <!ENTITY addOnsDaily.accesskey                "d">

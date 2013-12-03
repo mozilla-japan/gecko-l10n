@@ -8,7 +8,7 @@
 <!ENTITY pref.privatedata.title           "プライバシー情報">
 
 
-<!ENTITY clearPrivateData.label           "プライバシー情報を@@Clear@@">
+<!ENTITY clearPrivateData.label           "プライバシー情報の@@Clear@@">
 
 <!ENTITY alwaysClear.label                "&brandShortName; の終了時にプライバシー情報を消去する">
 <!ENTITY alwaysClear.accesskey            "w">
