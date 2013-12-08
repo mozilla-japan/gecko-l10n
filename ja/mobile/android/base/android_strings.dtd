@@ -225,9 +225,9 @@ size. -->
 <!ENTITY contextmenu_edit_bookmark "編集">
 <!ENTITY contextmenu_subscribe "このページを購読">
 <!ENTITY contextmenu_site_settings "サイトの設定を編集">
-<!ENTITY contextmenu_top_bookmarks_edit "編集">
-<!ENTITY contextmenu_top_bookmarks_pin "サイトをピン留め">
-<!ENTITY contextmenu_top_bookmarks_unpin "サイトのピンを外す">
+<!ENTITY contextmenu_top_sites_edit "編集">
+<!ENTITY contextmenu_top_sites_pin "サイトをピン留め">
+<!ENTITY contextmenu_top_sites_unpin "サイトのピンを外す">
 
 <!ENTITY pref_titlebar_mode "タイトルバー">
 <!ENTITY pref_titlebar_mode_title "ページのタイトルを表示">
@@ -235,7 +235,6 @@ size. -->
 
 <!ENTITY history_removed "履歴からページが削除されました">
 
-<!ENTITY bookmark_add "ブックマークを追加">
 <!ENTITY bookmark_edit_title "ブックマークを編集">
 <!ENTITY bookmark_edit_name "名前">
 <!ENTITY bookmark_edit_location "ロケーション">
@@ -276,12 +275,12 @@ size. -->
 <!ENTITY home_top_sites_add "サイトを追加">
 
 <!ENTITY home_history_title "履歴">
+<!ENTITY home_bookmarks_empty "あなたが保存したブックマークが表示されます。">
 <!ENTITY home_last_tabs_title "前回のタブ">
 <!ENTITY home_last_tabs_open "前回のタブをすべて開く">
 <!ENTITY home_last_tabs_empty "あなたが最近開いたタブが表示されます。">
 <!ENTITY home_most_recent_title "最近開いたサイト">
 <!ENTITY home_most_recent_empty "あなたが最近開いたサイトが表示されます。">
-<!ENTITY home_most_visited_title "もっとも多く訪れたページ">
 <!ENTITY home_reading_list_empty "あなたが保存した記事が表示されます。">
 <!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
      as an advisory message on how to add content to the reading list when the reading list empty.
@@ -292,8 +291,7 @@ size. -->
      as alternate text for accessibility. It is not visible in the UI. -->
 <!ENTITY home_reading_list_hint_accessible "ヒント: タイトルバーに表示されるリーダーモードボタンを長押しすることで、記事をリーディングリストに保存できます。">
 
-<!ENTITY home_most_visited_empty "もっとも頻繁に訪れたページを表示します。">
-<!ENTITY pin_bookmark_dialog_hint "検索キーワードを入力してください">
+<!ENTITY pin_site_dialog_hint "検索キーワードを入力してください">
 
 <!ENTITY filepicker_title "ファイル選択">
 <!ENTITY filepicker_audio_title "音声を選択または録音する">
