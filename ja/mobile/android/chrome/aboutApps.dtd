@@ -5,11 +5,6 @@
 <!ENTITY aboutApps.title2 "アプリ">
 <!ENTITY aboutApps.header "マイアプリ"><!-- Google Play 用語に合わせた -->
 
-<!-- LOCALIZATION NOTE (aboutApps.noApps.pre): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (aboutApps.noApps.middle): avoid leading/trailing spaces, this text is a link -->
-<!-- LOCALIZATION NOTE (aboutApps.noApps.post): include a starting space as needed -->
-<!ENTITY aboutApps.noApps.pre "アプリケーションはインストールされていません。">
-<!ENTITY aboutApps.noApps.middle3 "Firefox Marketplace">
-<!ENTITY aboutApps.noApps.post " で入手できます。">
+<!ENTITY aboutApps.browseMarketplace "Firefox Marketplace を閲覧">
 <!ENTITY aboutApps.uninstall "アンインストール">
 <!ENTITY aboutApps.addToHomescreen "ホーム画面に追加">
