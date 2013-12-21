@@ -407,7 +407,7 @@ calendar               ------:------------  14540:a3ea653d4337   mar            
 suite                  ------:------------  14542:e1bb7e555abc   mar             sync suite
 browser                149347:4e359e975ae9  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-26.0] (for beta)
+Released! [l10n-mozilla-26.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                155627:a4b7282df517  14751:d892a07dc424   mar             sync toolkit
@@ -422,7 +422,7 @@ browser                155627:a4b7282df517  -----:------------   hATrayflood    
 suite                  ------:------------  14751:d892a07dc424   hATrayflood     sync suite
 browser                160984:2e7ce68c821f  -----:------------   mar             sync browser (mozilla-beta)
 
-[l10n-mozilla-27.0] (for aurora)
+[l10n-mozilla-27.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  14955:12fb8e3a9088   mar             sync calendar
@@ -431,3 +431,8 @@ mail                   ------:------------  14961:cdd96a521267   mar            
 toolkit                161463:103c94b8e10f  14966:c7741a11faf3   mar             sync toolkit
 suite                  ------:------------  14966:c7741a11faf3   mar             sync suite
 mobile                 161522:8de854b69d18  -----:------------   Kechol          sync mobile
+webapprt               166841:158aeb4c6657  -----:------------   mar             sync webapprt (mozilla-beta)
+
+[l10n-mozilla-28.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
