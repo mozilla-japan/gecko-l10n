@@ -1,0 +1,373 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY  no_space_to_start_error "&brandShortName; を起動するために必要な空き領域が不足しています。">
+<!ENTITY  error_loading_file "&brandShortName; の起動に必要なファイルを読み込めませんでした">
+
+<!-- Localization note: These are used as the titles of different pages on the home screen.
+     They are automatically converted to all caps by the Android platform. -->
+<!ENTITY  bookmarks_title "ブックマーク">
+<!ENTITY  history_title "履歴">
+<!ENTITY  reading_list_title "リーディングリスト">
+
+<!ENTITY  switch_to_tab "タブに切り換え">
+
+<!ENTITY  crash_reporter_title "&brandShortName; クラッシュレポータ">
+<!ENTITY  crash_message2 "&brandShortName; がクラッシュしました。次回の起動時には開いていたタブの一覧が &brandShortName; のスタートページに表示されます。">
+<!ENTITY  crash_send_report_message3 "問題の修正のため、このクラッシュに関する情報を &vendorShortName; に送信してください">
+<!ENTITY  crash_include_url2 "閲覧していたページの URL を含める">
+<!ENTITY  crash_sorry "申し訳ありません">
+<!ENTITY  crash_comment "コメントを追加する (コメントは公開されます)">
+<!ENTITY  crash_allow_contact2 "このレポートに関する &vendorShortName; からの連絡を許可する">
+<!ENTITY  crash_email "あなたのメールアドレス">
+<!ENTITY  crash_closing_alert "クラッシュレポートを送信せずに終了しますか？">
+<!ENTITY  sending_crash_report "クラッシュレポートを送信しています...">
+<!ENTITY  crash_close_label "閉じる">
+<!ENTITY  crash_restart_label "&brandShortName; を再起動">
+<!ENTITY  exit_label "終了">
+
+<!ENTITY  launcher_shortcuts_title "&brandShortName; Web アプリ">
+<!ENTITY  launcher_shortcuts_empty "Web アプリは登録されていません">
+
+<!ENTITY choose_file "ファイルを選んでください">
+
+<!ENTITY url_bar_default_text "検索語句や URL を入力してください">
+
+<!ENTITY bookmark "ブックマーク">
+<!ENTITY bookmark_added "ブックマークを追加しました">
+<!ENTITY bookmark_removed "ブックマークを削除しました">
+<!ENTITY bookmark_updated "ブックマークを更新しました">
+<!ENTITY bookmark_options "オプション">
+
+<!ENTITY history_today_section "今日">
+<!ENTITY history_yesterday_section "昨日">
+<!ENTITY history_week_section "7 日以内">
+<!ENTITY history_older_section "7 日以上前">
+
+<!ENTITY go "移動">
+<!ENTITY search "検索">
+<!ENTITY reload "再読み込み">
+<!ENTITY forward "進む">
+<!ENTITY menu "メニュー">
+<!ENTITY back "戻る">
+<!ENTITY stop "中止">
+<!ENTITY site_security "サイトセキュリティ">
+
+<!ENTITY close_tab "タブを閉じる">
+<!ENTITY one_tab "1 個のタブ">
+<!-- Localization note (num_tabs2) : Number of tabs is always more than one.
+     We can't use android plural forms, sadly. See bug #753859. -->
+<!ENTITY num_tabs2 "&formatD; 個のタブ">
+<!ENTITY new_tab_opened "@@NewTab@@を開きました">
+
+<!ENTITY settings "設定">
+<!ENTITY settings_title "設定">
+<!ENTITY pref_category_advanced "詳細">
+<!ENTITY pref_category_customize "カスタマイズ">
+<!ENTITY pref_category_search2 "検索設定">
+<!ENTITY pref_category_display "表示">
+<!ENTITY pref_category_privacy_short "プライバシー">
+<!ENTITY pref_category_vendor "&vendorShortName;">
+<!ENTITY pref_category_datareporting "データの選択">
+<!ENTITY pref_category_installed_search_engines "インストール済みの検索エンジン">
+<!ENTITY pref_category_add_search_providers "検索プロバイダを追加">
+<!-- Localization note (pref_search_tip) : "TIP" as in "hint", "clue" etc. Displayed as an
+     advisory message on the customise search providers settings page explaining how to add new
+     search providers.-->
+<!ENTITY pref_search_tip "ヒント: サイトの検索フィールド上で長押しすることで、どのサイトでも検索プロバイダに追加できます">
+<!ENTITY pref_category_devtools "デベロッパーツール">
+<!ENTITY pref_developer_remotedebugging "リモートデバッグ">
+<!ENTITY pref_developer_remotedebugging_docs "さらに詳しく">
+<!ENTITY pref_remember_signons "パスワードを保存する">
+
+<!-- Localization note: These are shown in the left sidebar on tablets -->
+<!ENTITY pref_header_customize "カスタマイズ">
+<!ENTITY pref_header_display "表示">
+<!ENTITY pref_header_privacy_short "プライバシー">
+<!ENTITY pref_header_help "ヘルプ">
+<!ENTITY pref_header_vendor "&vendorShortName;">
+<!ENTITY pref_header_devtools "デベロッパーツール">
+
+<!ENTITY pref_cookies_menu "Cookie">
+<!ENTITY pref_cookies_accept_all "すべてのサイトで有効">
+<!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
+<!ENTITY pref_cookies_disabled "無効">
+
+<!ENTITY pref_donottrack_menu "トラッキング">
+<!ENTITY pref_donottrack_disallow_tracking "トラッキングの拒否をサイトに通知する">
+<!ENTITY pref_donottrack_allow_tracking "トラッキングの許可をサイトに通知する">
+<!ENTITY pref_donottrack_no_pref "トラッキングの設定についてサイトに通知しない">
+
+<!ENTITY pref_char_encoding "文字エンコーディング">
+<!ENTITY pref_char_encoding_on "メニューを表示する">
+<!ENTITY pref_char_encoding_off "メニューを表示しない">
+<!ENTITY pref_clear_private_data "プライベートデータを消去する">
+<!ENTITY pref_plugins "プラグイン">
+<!ENTITY pref_plugins_enabled "有効化">
+<!ENTITY pref_plugins_tap_to_play "タップして実行">
+<!ENTITY pref_plugins_disabled "無効化">
+<!ENTITY pref_text_size "テキストサイズ">
+<!ENTITY pref_reflow_on_zoom4 "テキストの再配置">
+<!ENTITY pref_restore "タブ">
+<!ENTITY pref_restore_always "常に復元">
+<!ENTITY pref_restore_quit "&brandShortName; の終了後、復元しない">
+<!ENTITY pref_font_size_tiny "最小">
+<!ENTITY pref_font_size_small "小">
+<!ENTITY pref_font_size_medium "中">
+<!ENTITY pref_font_size_large "大">
+<!ENTITY pref_font_size_xlarge "最大">
+<!ENTITY pref_font_size_set "設定">
+<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
+(or combination of characters) is used to decrease the preview font size; a larger version of the
+same character/combination is used to increase the preview font size. It should be a concise
+representation of the language it is used in that will help show the text in the preview will change
+size. -->
+<!ENTITY pref_font_size_adjust_char "あ">
+
+<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
+    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+<!ENTITY pref_font_size_preview_text "オレンジ色のすばしこいキツネは、みんなの期待をこえて、たゆまぬ成長を続ける。より早く、よりフレキシブルに、そして、より安全に。私たちには、ほんの少しのあきらめも許されない。人々のよりよい体験と、明るい Web の未来へ向かって。"> <!-- Japanese pangram -->
+
+<!ENTITY pref_use_master_password "マスターパスワードを使用する">
+<!ENTITY pref_show_product_announcements "製品のお知らせを表示する">
+<!ENTITY pref_sync "Firefox Sync で同期">
+<!ENTITY pref_search_suggestions "検索語句の候補を表示">
+<!ENTITY pref_import_android "Android から@@Import-suru@@">
+<!ENTITY pref_private_data_history "閲覧とダウンロードの履歴">
+<!ENTITY pref_private_data_formdata "フォームと検索の履歴">
+<!ENTITY pref_private_data_cookies2 "Cookie">
+<!ENTITY pref_private_data_passwords "保存されたパスワード">
+<!ENTITY pref_private_data_cache "キャッシュ">
+<!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
+<!ENTITY pref_private_data_siteSettings2 "サイト設定">
+<!ENTITY pref_private_data_downloadFiles "ダウンロードしたファイル">
+
+
+<!ENTITY pref_about_firefox "&brandShortName; について">
+<!ENTITY pref_vendor_faqs "FAQ">
+<!ENTITY pref_vendor_feedback "フィードバックをください">
+<!ENTITY pref_search_set_default "デフォルトに設定">
+<!ENTITY pref_search_default "デフォルト">
+<!ENTITY pref_search_remove "削除">
+<!ENTITY pref_search_last_toast "最後の検索エンジンを削除や無効化することはできません">
+
+<!ENTITY datareporting_notification_title "&brandShortName; 統計とデータ">
+<!ENTITY datareporting_notification_action_long "共有する情報を選択してください">
+<!ENTITY datareporting_notification_action "共有するものを選択してください">
+<!ENTITY datareporting_notification_summary "ユーザ体験の向上のため、&brandShortName; は情報を自動的に &vendorShortName; へ送信します">
+<!ENTITY datareporting_notification_summary_short "ユーザ体験の向上のため、&brandShortName; は...">
+<!ENTITY datareporting_notification_ticker_text "&datareporting_notification_title;: &datareporting_notification_action_long;">
+
+<!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary2,
+     reporting_telemetry_title, datareporting_telemetry_summary,
+     datareporting_crashreporter_summary) : These match the strings in
+     en-US/chrome/browser/preferences/advanced.dtd (healthReportSection.label,
+     healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
+     crashReporterDesc.label). -->
+<!ENTITY datareporting_fhr_title "&brandShortName; ヘルスレポート">
+<!ENTITY datareporting_fhr_summary2 "ブラウザの健康状態を &vendorShortName; と共有し、ブラウザのパフォーマンス状態の確認に役立ちます">
+<!ENTITY datareporting_abouthr_title "ヘルスレポートを見る">
+<!ENTITY datareporting_telemetry_title "パフォーマンス情報の送信">
+<!ENTITY datareporting_telemetry_summary "&brandShortName; をよりよいものにするため、パフォーマンス情報、使用状況、ハードウェア情報、設定したデータを &vendorShortName; と共有します">
+<!ENTITY datareporting_crashreporter_summary "&vendorShortName; がブラウザをより安定した、セキュアなものにするため、&brandShortName; はクラッシュレポートを送信します">
+<!-- Localization note (datareporting_crashreporter_title_short) : This string matches
+     (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
+<!ENTITY datareporting_crashreporter_title_short "クラッシュレポータ">
+<!ENTITY datareporting_wifi_title "&vendorShortName; 位置情報サービス">
+<!ENTITY datareporting_wifi_summary "基地局のデータを匿名で &brandShortName; に収集し送信させることにより、オープンな Web のための位置情報サービスの向上に役立ちます">
+
+<!ENTITY pref_update_autodownload "自動で更新をダウンロードする">
+<!ENTITY pref_update_autodownload_wifi "Wi-Fi 環境でのみ有効にする">
+<!ENTITY pref_update_autodownload_disabled "無効">
+<!ENTITY pref_update_autodownload_enabled "有効">
+
+<!ENTITY quit "終了">
+
+<!ENTITY addons "アドオン">
+<!ENTITY downloads "ダウンロード">
+<!ENTITY apps "アプリ">
+<!ENTITY char_encoding "文字エンコーディング">
+
+<!ENTITY share "共有">
+<!ENTITY share_title "共有方法を選択">
+<!ENTITY share_image_failed "この画像を共有できません">
+<!ENTITY save_as_pdf "PDF として保存">
+<!ENTITY find_in_page "ページ内検索">
+<!ENTITY desktop_mode "PC サイトモード">
+<!ENTITY tools "ツール">
+<!ENTITY new_tab "@@NewTab@@">
+<!ENTITY new_private_tab "プライベートタブ">
+<!ENTITY close_all_tabs "すべてのタブを閉じる">
+<!ENTITY tabs_normal "タブ">
+<!ENTITY tabs_private "プライベートタブ">
+<!ENTITY tabs_synced "同期したタブ">
+<!ENTITY set_image_fail "画像を設定できません">
+<!ENTITY set_image_chooser_title "画像を次に設定">
+
+<!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+<!ENTITY find_text "ページ内検索">
+<!ENTITY find_prev "前を検索">
+<!ENTITY find_next "次を検索">
+<!ENTITY find_close "閉じる">
+
+<!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
+<!ENTITY contextmenu_open_private_tab "プライベートタブで開く">
+<!ENTITY contextmenu_open_in_reader "リーダーで開く">
+<!ENTITY contextmenu_remove "削除">
+<!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
+<!ENTITY contextmenu_share "共有">
+<!ENTITY contextmenu_pasteandgo "@@Paste-site@@移動">
+<!ENTITY contextmenu_paste "@@Paste@@">
+<!ENTITY contextmenu_copyurl "アドレスをコピー">
+<!ENTITY contextmenu_edit_bookmark "編集">
+<!ENTITY contextmenu_subscribe "このページを購読">
+<!ENTITY contextmenu_site_settings "サイトの設定を編集">
+<!ENTITY contextmenu_top_sites_edit "編集">
+<!ENTITY contextmenu_top_sites_pin "サイトをピン留め">
+<!ENTITY contextmenu_top_sites_unpin "サイトのピンを外す">
+
+<!ENTITY pref_titlebar_mode "タイトルバー">
+<!ENTITY pref_titlebar_mode_title "ページのタイトルを表示">
+<!ENTITY pref_titlebar_mode_url "ページのアドレスを表示">
+
+<!ENTITY history_removed "履歴からページが削除されました">
+
+<!ENTITY bookmark_edit_title "ブックマークを編集">
+<!ENTITY bookmark_edit_name "名前">
+<!ENTITY bookmark_edit_location "ロケーション">
+<!ENTITY bookmark_edit_keyword "キーワード">
+
+<!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
+     dialog that appears after selecting the "Edit Site Settings" context menu item. -->
+<!ENTITY site_settings_title3       "サイトの設定">
+<!ENTITY site_settings_cancel       "キャンセル">
+<!ENTITY site_settings_clear        "消去">
+<!ENTITY site_settings_no_settings  "消去する設定がありません。">
+
+<!ENTITY reading_list_added "ページがリーディングリストに追加されました">
+<!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
+<!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
+<!ENTITY reading_list_duplicate "ページはすでにリーディングリストに追加されています">
+
+<!-- Localization note : These strings are used as alternate text for accessibility.
+     They are not visible in the UI. -->
+<!ENTITY page_action_dropmarker_description "追加の操作">
+
+<!ENTITY masterpassword_create_title "マスターパスワードを作成">
+<!ENTITY masterpassword_remove_title "マスターパスワードを削除">
+<!ENTITY masterpassword_password "パスワード">
+<!ENTITY masterpassword_confirm "パスワードを再度入力">
+
+<!ENTITY button_ok "OK">
+<!ENTITY button_cancel "キャンセル">
+<!ENTITY button_yes "はい">
+<!ENTITY button_no "いいえ">
+<!ENTITY button_clear_data "データを消去">
+<!ENTITY button_set "設定">
+<!ENTITY button_clear "消去">
+
+<!ENTITY home_top_sites_title "トップサイト (よく見るページ)">
+<!-- Localization note (home_top_sites_add): This string is used as placeholder
+     text underneath empty thumbnails in the Top Sites page on about:home. -->
+<!ENTITY home_top_sites_add "サイトを追加">
+
+<!ENTITY home_history_title "履歴">
+<!ENTITY home_bookmarks_empty "あなたが保存したブックマークが表示されます。">
+<!ENTITY home_last_tabs_title "前回のタブ">
+<!ENTITY home_last_tabs_open "前回のタブをすべて開く">
+<!ENTITY home_last_tabs_empty "あなたが最近開いたタブが表示されます。">
+<!ENTITY home_most_recent_title "最近開いたサイト">
+<!ENTITY home_most_recent_empty "あなたが最近開いたサイトが表示されます。">
+<!ENTITY home_reading_list_empty "あなたが保存した記事が表示されます。">
+<!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
+     as an advisory message on how to add content to the reading list when the reading list empty.
+     The "&#37;I" in the string will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. Please keep the spacing around the "&#37;I" string. -->
+<!ENTITY home_reading_list_hint "ヒント: タイトルバーに表示される &#37;I アイコンを長押しすることで、記事をリーディングリストに保存できます。">
+<!-- Localization note (home_reading_list_hint_accessible): This string is used
+     as alternate text for accessibility. It is not visible in the UI. -->
+<!ENTITY home_reading_list_hint_accessible "ヒント: タイトルバーに表示されるリーダーモードボタンを長押しすることで、記事をリーディングリストに保存できます。">
+
+<!ENTITY pin_site_dialog_hint "検索キーワードを入力してください">
+
+<!ENTITY filepicker_title "ファイル選択">
+<!ENTITY filepicker_audio_title "音声を選択または録音する">
+<!ENTITY filepicker_image_title "写真を選択または撮影する">
+<!ENTITY filepicker_video_title "ビデオを選択または録画する">
+
+<!-- Site identity popup -->
+<!ENTITY identity_connected_to "この Web サイトは認証されています">
+<!-- Localization note (identity_run_by) : This string appears between a
+domain name (above) and an organization name (below). E.g.
+
+example.com
+which is run by
+Example Enterprises, Inc.
+
+The layout of the identity dialog prevents combining this into a single string with
+substitution variables.  If it is difficult to translate the sense of the string
+with that structure, consider a translation which ignores the preceding domain and
+just addresses the organization to follow, e.g. "This site is run by " -->
+<!ENTITY identity_run_by "このサイトの運営者:">
+
+<!-- Mixed content notifications in site identity popup -->
+<!ENTITY loaded_mixed_content_message "このページは安全でないコンテンツを表示しようとしています。">
+<!ENTITY blocked_mixed_content_message_top "&brandShortName; は安全でないコンテンツをブロックしました。">
+<!ENTITY blocked_mixed_content_message_bottom "ほとんどの Web サイトはこのコンテンツをブロックしても正しく動作します。">
+<!ENTITY learn_more "詳細を表示">
+<!ENTITY enable_protection "保護を有効化">
+<!ENTITY disable_protection "保護を無効化">
+<!ENTITY keep_blocking "ブロックを継続">
+
+<!ENTITY private_data_success "プライベートデータを消去しました">
+<!ENTITY private_data_fail "一部のプライベートデータが消去できませんでした">
+
+<!ENTITY bookmarkhistory_button_import "@@Import@@">
+<!ENTITY bookmarkhistory_import_both "Android からブックマークと履歴を
+                                      @@Import-site@@います">
+<!ENTITY bookmarkhistory_import_bookmarks "Android からブックマークを
+                                           @@Import-site@@います">
+<!ENTITY bookmarkhistory_import_history "Android から履歴を
+                                         @@Import-site@@います">
+<!ENTITY bookmarkhistory_import_wait "しばらくお待ちください...">
+
+<!-- Localization note (suggestions_prompt2): The placeholder &formatS; will be
+     replaced with the name of the search engine. -->
+<!ENTITY suggestions_prompt2 "&formatS; で検索語句の候補を表示しますか？">
+
+<!-- Localization note (suggestion_for_engine): The placeholder &formatS1; will be
+     replaced with the name of the search engine. The placeholder &formatS2; will be
+     replaced with the search query. -->
+<!ENTITY suggestion_for_engine " &formatS1; で &formatS2; を検索">
+
+<!ENTITY webapp_generic_name "アプリ">
+
+<!ENTITY searchable_description "ブックマークと履歴">
+
+<!ENTITY devtools_remote_debugging_forward "ポートフォワーディングの設定を忘れないでください！">
+
+ <!-- Updater notifications -->
+<!ENTITY updater_start_title2 "&brandShortName; の利用可能な更新">
+<!ENTITY updater_start_select2 "タッチしてダウンロードを開始します">
+
+<!ENTITY updater_downloading_title2 "&brandShortName; のダウンロード中">
+<!ENTITY updater_downloading_title_failed2 "ダウンロードに失敗しました">
+<!ENTITY updater_downloading_select2 "タッチしてダウンロードした更新を適用します">
+<!ENTITY updater_downloading_retry2 "タッチして再試行します">
+
+<!ENTITY updater_apply_title2 "&brandShortName; の利用可能な更新">
+<!ENTITY updater_apply_select2 "タッチして更新を開始します">
+
+<!-- Guest mode -->
+<!ENTITY new_guest_session "新規ゲストセッション">
+<!ENTITY exit_guest_session "ゲストセッション終了">
+<!ENTITY guest_session_dialog_continue "継続">
+<!ENTITY guest_session_dialog_cancel "キャンセル">
+<!ENTITY new_guest_session_title "&brandShortName; は今すぐ再起動します">
+<!ENTITY new_guest_session_text "このモードを使う人は、あなたの個人的な閲覧データ (保存されたパスワードや履歴、ブックマークなど) にはアクセスできません。\n\nゲストモードが終了した時、その閲覧データは削除され、元のセッションが復元されます。">
+
+<!ENTITY exit_guest_session_title "&brandShortName; は今すぐ再起動します">
+<!ENTITY exit_guest_session_text "このセッションの閲覧データは削除されます。">

@@ -1,0 +1,17 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  prefWindow.titleWin		"オプション">
+<!ENTITY  prefWindow.titleGNOME		"&brandShortName; の設定">
+<!ENTITY  prefWindow.styleWindows	"width: 54em; min-height: 42em;"><!-- width: 44em; min-height: 38.5em; -->
+<!ENTITY  prefWindow.styleMac		"width: 54em;"><!-- width: 47em; -->
+<!ENTITY  prefWindow.styleGNOME		"width: 51em; min-height: 38em;"><!-- width: 42em; min-height: 38em; -->
+
+<!ENTITY paneGeneral.title	"一般">
+<!ENTITY paneDisplay.title	"表示">
+<!ENTITY paneComposition.title	"編集">
+<!ENTITY paneChat.title		"チャット">
+<!ENTITY paneAttachments.title	"添付ファイル">
+<!ENTITY paneSecurity.title	"セキュリティ">
+<!ENTITY paneAdvanced.title	"詳細">
