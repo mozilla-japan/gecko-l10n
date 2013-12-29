@@ -432,6 +432,7 @@ toolkit                161463:103c94b8e10f  14966:c7741a11faf3   mar            
 suite                  ------:------------  14966:c7741a11faf3   mar             sync suite
 mobile                 161522:8de854b69d18  -----:------------   Kechol          sync mobile
 webapprt               166841:158aeb4c6657  -----:------------   mar             sync webapprt (mozilla-beta)
+browser                161122:05025f4889a0  -----:------------   hATrayflood     sync browser  (mozilla-beta)
 
 [l10n-mozilla-28.0] (for aurora)
 target dir             mozilla and comm hg changeset rev:id      by              comment

@@ -17,6 +17,7 @@
 <!ENTITY appbarJSShell.label        "JavaScript シェルを開く">
 <!ENTITY appbarFindInPage2.label    "ページを検索">
 <!ENTITY appbarViewOnDesktop2.label "デスクトップで表示">
+<!ENTITY appbarMSMetaData2.label    "このサイトのアプリを入手">
 
 <!ENTITY topSitesHeader.label        "トップサイト">
 <!ENTITY bookmarksHeader.label       "ブックマーク">
