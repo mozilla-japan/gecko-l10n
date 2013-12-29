@@ -57,6 +57,7 @@
 <!ENTITY connection.installOneSimulatorTooltip	"関連するアドオンをダウンロードしてシミュレータをインストールします。">
 <!ENTITY connection.installAnotherSimulator	"追加">
 <!ENTITY connection.installAnotherSimulatorTooltip	"関連するアドオンをダウンロードして追加のシミュレータをインストールします。">
+<!ENTITY connection.startRegisteredSimulator	"スタート:">
 
 <!ENTITY projects.localApps			"ローカルアプリ">
 <!ENTITY projects.addApp			"追加">
@@ -73,6 +74,10 @@
 <!ENTITY projects.debugAppTooltip		"このアプリに接続された開発ツールを開きます">
 <!ENTITY projects.hostedManifestPlaceHolder2	"http://example.com/app/manifest.webapp">
 <!ENTITY projects.noProjects			"プロジェクトがありません。以下の新しいパッケージアプリ (ローカルディレクトリ) またはホストされたアプリ (manifest ファイルへのリンク) を追加してください。">
+<!ENTITY projects.manifestEditor		"Manifest エディタ">
+<!ENTITY projects.manifestEditorTooltip		"パネルの下にある、アプリの Manifest を編集します。更新ボタンを押すと変更を保存して、アプリを更新します。">
+<!ENTITY projects.manifestViewer		"Manifest ビューア">
+<!ENTITY projects.manifestViewerTooltip		"パネルの下にある、アプリの Manifest を検証します。">
 
 <!ENTITY help.title				"アプリマネージャ">
 <!ENTITY help.close				"閉じる">
