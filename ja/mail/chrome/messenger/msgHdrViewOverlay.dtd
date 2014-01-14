@@ -21,8 +21,6 @@
 <!ENTITY inReplyToField4.label			"In Reply To">
 <!ENTITY originalWebsite4.label			"Web サイト">
 
-<!ENTITY editMessageDescription.label		"このメッセージは下書きです">
-<!ENTITY editMessageButton.label		"編集...">
 <!ENTITY hdrArchiveButton1.label		"アーカイブ">
 <!ENTITY hdrArchiveButton1.tooltip		"このメッセージをアーカイブに移動します">
 <!ENTITY hdrSmartReplyButton1.label		"適宜返信"><!-- en-US: "Smart Reply" -->

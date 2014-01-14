@@ -569,6 +569,18 @@
 <!ENTITY buttonMenuForwardAsInline.label	"メッセージ本文として転送"><!-- en-US: "Forward Inline" -->
 <!ENTITY buttonMenuForwardAsAttachment.label	"添付ファイルとして転送">
 
+<!-- Remote Content Button Popup -->
+<!ENTITY remoteContentOptionsAllowForMsg.label		"このメッセージ内のリモートコンテンツを表示する">
+<!ENTITY remoteContentOptionsAllowForMsg.accesskey	"S">
+<!ENTITY remoteContentOptionAllowForAddress.label	"この送信者からのリモートコンテンツを表示する">
+<!ENTITY remoteContentOptionAllowForAddress.accesskey	"f">
+
+<!-- Phishing Button Popup -->
+<!ENTITY phishingOptionIgnore.label			"このメッセージの警告を無視する">
+<!ENTITY phishingOptionIgnore.accesskey			"n">
+<!ENTITY phishingOptionDisableDetection.label		"すべてのメッセージで詐欺メールの検出を無効にする">
+<!ENTITY phishingOptionDisableDetection.accesskey	"D">
+
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label		"新規作成"><!-- en-US: "New Message" -->
 <!ENTITY appmenuNewContactCmd.label	"アドレス帳の連絡先...">
@@ -789,27 +801,6 @@
 <!ENTITY contextMute.accesskey		"M">
 <!ENTITY contextUnmute.label		"ミュート解除">
 <!ENTITY contextUnmute.accesskey	"m">
-
-<!-- Junk Bar -->
-<!ENTITY junkBarMessage2.label		"このメッセージは迷惑メールであると思われます。">
-<!ENTITY junkBarButton1.label		"非迷惑メール">
-<!ENTITY junkInfoButton.label		"？">
-
-<!-- Remote Content Bar -->
-<!ENTITY remoteContentMessage2.label	"プライバシー保護のため、このメッセージ内のリモートコンテンツをブロックしました。">
-<!ENTITY loadRemoteContentButton3.label	"リモートコンテンツを表示する">
-
-<!-- Phishing Bar -->
-<!ENTITY phishingBarMessage2.label	"このメッセージは詐欺メールの可能性があります。">
-<!ENTITY removePhishingBarButton1.label	"警告を無視する">
-<!ENTITY disablePhishingWarning1.label	"すべてのメッセージについて詐欺メールの検出を無効にします">
-<!ENTITY reportPhishingError1.label	"このメッセージは詐欺メールではなさそうです。">
-
-<!-- MDN Bar -->
-<!ENTITY mdnBarIgnoreButton2.label	"無視">
-<!ENTITY mdnBarIgnoreButton2.accesskey	"I">
-<!ENTITY mdnBarSendButton2.label	"開封確認を送付">
-<!ENTITY mdnBarSendButton2.accesskey	"S">
 
 <!-- Quick Search Bar -->
 <!-- LOCALIZATION NOTE (quickSearchCmd.key):

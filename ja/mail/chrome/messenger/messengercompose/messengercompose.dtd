@@ -29,6 +29,8 @@
 <!--LOCALIZATION NOTE attachVCardCmd.label Don't translate the term 'vCard' -->
 <!ENTITY attachVCardCmd.label		"vCard">
 <!ENTITY attachVCardCmd.accesskey	"P">
+<!ENTITY remindLater.label		"添付忘れを通知">
+<!ENTITY remindLater.accesskey		"L">
 <!ENTITY closeCmd.label			"閉じる">
 <!ENTITY closeCmd.key			"W">
 <!ENTITY closeCmd.accesskey		"c">
