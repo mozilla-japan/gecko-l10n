@@ -35,5 +35,6 @@
 
 <!ENTITY optionsHeader.reporting.title                           "クラッシュレポートの送信">
 <!ENTITY optionsHeader.reporting.crashes.label                   "&brandShortName; をより安定したセキュアなものにするために、クラッシュレポートを Mozilla に送信します。">
+<!ENTITY optionsHeader.reporting.crashes.submitURLs             "閲覧していたページの URL を含める">
 <!ENTITY optionsHeader.telemetry.title                            "パフォーマンス情報の送信">
 <!ENTITY optionsHeader.telemetry.label                            "ブラウザをよりよいものにするために、利用状況の統計を &vendorShortName; に送信します。">

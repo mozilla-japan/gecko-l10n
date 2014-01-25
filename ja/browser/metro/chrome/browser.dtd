@@ -13,11 +13,12 @@
 
 <!ENTITY autocompleteResultsHeader.label  "検索結果">
 
-<!ENTITY appbarErrorConsole.label   "エラーコンソールを開く">
-<!ENTITY appbarJSShell.label        "JavaScript シェルを開く">
-<!ENTITY appbarFindInPage2.label    "ページを検索">
-<!ENTITY appbarViewOnDesktop2.label "デスクトップで表示">
-<!ENTITY appbarMSMetaData2.label    "このサイトのアプリを入手">
+<!ENTITY appbarErrorConsole.label      "エラーコンソールを開く">
+<!ENTITY appbarJSShell.label           "JavaScript シェルを開く">
+<!ENTITY appbarFindInPage2.label       "ページを検索">
+<!ENTITY appbarRelaunchInDesktop.label "デスクトップに移動して表示">
+<!ENTITY appbarMSMetaData2.label       "このサイトのアプリを入手">
+<!ENTITY appbarViewPageSource.label    "ページのソースを表示">
 
 <!ENTITY topSitesHeader.label        "トップサイト">
 <!ENTITY bookmarksHeader.label       "ブックマーク">
@@ -108,3 +109,24 @@
 <!ENTITY optionsFlyout.key "o">
 <!ENTITY syncFlyout.key "s">
 <!ENTITY aboutFlyout.key "a">
+
+<!-- FIRT RUN EXPERIENCE -->
+<!-- LOCALIZATION NOTE (firstRunTabs.label,
+                        firstRunTopSites.label,
+                        firstRunBookmarks.label,
+                        firstRunMenu.label,
+                        firstRunHistory.label )
+     These strings appear on the Firefox Start page the first time
+     Firefox for Windows 8 Touch (Metro) is launched.  Each one
+     has an arrow pointing toward the feature it references.  The code
+     to display these strings is not enabled yet, but will be soon.
+     For now, you can see this mockup for an example of how they are
+     used: https://bug941284.bugzilla.mozilla.org/attachment.cgi?id=8344046
+     -->
+<!ENTITY firstRunTabs.label		"プルダウン、または右クリックでタブを表示">
+<!ENTITY firstRunTopSites.label		"よく見るサイト">
+<!ENTITY firstRunBookmarks.label	"後で見るページ">
+<!ENTITY firstRunMenu.label		"その他の機能とオプション">
+<!ENTITY firstRunHistory.label		"今まで見たページ">
+<!ENTITY firstRunWelcome.label		"&brandShortName; へようこそ">
+<!ENTITY firstRunDifferent.label	"Different by design">
