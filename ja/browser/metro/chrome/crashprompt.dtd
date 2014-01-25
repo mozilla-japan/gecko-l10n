@@ -1,0 +1,23 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY crashprompt.title           "クラッシュレポートを Mozilla に送信しますか？">
+<!ENTITY crashprompt.message         "申し訳ありません。&brandShortName; はクラッシュから復帰しました。クラッシュレポートを Mozilla に送信することで、&brandShortName; はより安全で安定したものになります。この設定は、@@[@@設定@@]@@の@@[@@オプション@@]@@で変更できます。">
+<!ENTITY crashprompt.detailsLink     "クラッシュレポートの内容は？">
+<!ENTITY crashprompt.detailedMessage.firstParagraph "クラッシュレポートには、クラッシュに関する詳細な情報、ブラウザがクラッシュしたときの状態のスナップショットが含まれています。">
+<!ENTITY crashprompt.detailedMessage.secondParagraph "レポートには開いたページ、フォームに入力したテキストと開いたメッセージの内容、最近の履歴、サイトと共有した位置情報が含まれる場合があります。">
+<!-- LOCALIZATION NOTE (crashprompt.detailedMessage.thirdParagraph, crashprompt.privacyPolicyLink):
+     These two entities form a single sentence. crashprompt.privacyPolicyLink is a
+     clickable link that must follow crashprompt.detailedMessage.thirdParagraph.
+     If the structure of the English strings doesn't work for your locale, you can
+     move "&brandShortName; privacy policy." to the first sentence, and use a
+     generic "More information" for the link. These strings will be updated in the
+     next version of Firefox. -->
+<!ENTITY crashprompt.detailedMessage.thirdParagraph "クラッシュレポートは問題の解決と製品の向上に役立てます。送信された情報はプライバシーポリシーに従って取り扱われます。">
+<!ENTITY crashprompt.privacyPolicyLink "&brandShortName; プライバシーポリシー">
+<!ENTITY crashprompt.includeURLLabel "閲覧していたページの URL を含める">
+<!ENTITY crashprompt.acceptbutton    "レポートを送信する">
+<!ENTITY crashprompt.refusebutton    "送信しない">
+<!ENTITY crashprompt.privacyPolicy.title "&brandShortName; プライバシーポリシー">
