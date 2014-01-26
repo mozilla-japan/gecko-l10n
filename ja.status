@@ -442,3 +442,4 @@ mail                   ------:------------  15137:915693945a20   mar            
 dom                    169516:4b8d14a78596  15140:c30f5de3a316   mar             sync dom
 browser/metro          169516:4b8d14a78596  -----:------------   hATrayflood     sync browser/metro
 webapprt               169516:4b8d14a78596  -----:------------   hATrayflood     sync webapprt
+browser                169516:4b8d14a78596  -----:------------   hATrayflood     sync browser (exclude devtools)
