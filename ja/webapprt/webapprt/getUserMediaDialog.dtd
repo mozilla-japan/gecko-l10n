@@ -5,13 +5,13 @@
 <!-- LOCALIZATION NOTE: These are localized strings for the getUserMedia dialog
    - to ask permissions in the webapp runtime. -->
 
-<!ENTITY getUserMediaDialog.title			"メディア共有">
-<!ENTITY getUserMediaDialog.buttonlabelaccept		"共有">
-<!ENTITY getUserMediaDialog.buttonaccesskeyaccept	"S">
-<!ENTITY getUserMediaDialog.buttonlabelcancel		"キャンセル">
-<!ENTITY getUserMediaDialog.buttonaccesskeycancel	"n">
+<!ENTITY getUserMediaDialog.title                   "メディア共有">
+<!ENTITY getUserMediaDialog.button.accept.label     "共有">
+<!ENTITY getUserMediaDialog.button.accept.accesskey "S">
+<!ENTITY getUserMediaDialog.button.cancel.label     "キャンセル">
+<!ENTITY getUserMediaDialog.button.cancel.accesskey "n">
 
-<!ENTITY getUserMediaDialog.video.label		"カメラを選択">
-<!ENTITY getUserMediaDialog.video.noVideo	"動画なし">
-<!ENTITY getUserMediaDialog.audio.label		"マイクを選択">
-<!ENTITY getUserMediaDialog.audio.noAudio	"音声なし">
+<!ENTITY getUserMediaDialog.video.label             "カメラを選択">
+<!ENTITY getUserMediaDialog.video.noVideo           "動画なし">
+<!ENTITY getUserMediaDialog.audio.label             "マイクを選択">
+<!ENTITY getUserMediaDialog.audio.noAudio           "音声なし">
