@@ -146,15 +146,15 @@
 <!ENTITY  event.toolbar.spellcheck.label		"スペル">
 <!ENTITY  event.toolbar.privacy.label			"プライバシー">
 
-<!ENTITY  event.toolbar.save.tooltip			"保存して閉じる">
-<!ENTITY  event.toolbar.delete.tooltip			"削除">
-<!ENTITY  event.toolbar.attendees.tooltip		"参加者を追加">
-<!ENTITY  event.toolbar.spellcheck.tooltip		"スペル">
-<!ENTITY  event.toolbar.attachments.tooltip		"添付">
-<!ENTITY  event.toolbar.privacy.tooltip			"プライバシー">
-<!ENTITY  event.toolbar.priority.tooltip		"重要度">
-<!ENTITY  event.toolbar.status.tooltip			"状態">
-<!ENTITY  event.toolbar.freebusy.tooltip		"Change Free/Busy time">
+<!ENTITY  event.toolbar.save.tooltip			"保存して閉じます">
+<!ENTITY  event.toolbar.delete.tooltip			"削除します">
+<!ENTITY  event.toolbar.attendees.tooltip		"参加者を追加します">
+<!ENTITY  event.toolbar.spellcheck.tooltip		"スペルチェックします">
+<!ENTITY  event.toolbar.attachments.tooltip		"URL を添付します">
+<!ENTITY  event.toolbar.privacy.tooltip			"プライバシー設定を変更します">
+<!ENTITY  event.toolbar.priority.tooltip		"重要度を変更します">
+<!ENTITY  event.toolbar.status.tooltip			"状態を変更します">
+<!ENTITY  event.toolbar.freebusy.tooltip		"空き時間情報の設定を切り替えます">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label			"件名:" >
@@ -222,7 +222,7 @@
 
 <!ENTITY event.reminder.multiple.label			"複数のアラーム..." >
 
-<!ENTITY event.statusbarpanel.freebusy.label		"Time as:">
+<!ENTITY event.statusbarpanel.freebusy.label		"空き時間情報:">
 <!ENTITY event.statusbarpanel.privacy.label		"プライバシー:">
 
 <!-- Recurrence dialog -->
