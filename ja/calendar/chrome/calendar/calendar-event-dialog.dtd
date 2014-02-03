@@ -146,6 +146,16 @@
 <!ENTITY  event.toolbar.spellcheck.label		"スペル">
 <!ENTITY  event.toolbar.privacy.label			"プライバシー">
 
+<!ENTITY  event.toolbar.save.tooltip			"保存して閉じる">
+<!ENTITY  event.toolbar.delete.tooltip			"削除">
+<!ENTITY  event.toolbar.attendees.tooltip		"参加者を追加">
+<!ENTITY  event.toolbar.spellcheck.tooltip		"スペル">
+<!ENTITY  event.toolbar.attachments.tooltip		"添付">
+<!ENTITY  event.toolbar.privacy.tooltip			"プライバシー">
+<!ENTITY  event.toolbar.priority.tooltip		"重要度">
+<!ENTITY  event.toolbar.status.tooltip			"状態">
+<!ENTITY  event.toolbar.freebusy.tooltip		"Change Free/Busy time">
+
 <!-- Main page -->
 <!ENTITY event.title.textbox.label			"件名:" >
 <!ENTITY event.title.textbox.accesskey			"I">
@@ -211,6 +221,9 @@
 <!ENTITY event.reminder.custom.label			"手動設定..." >
 
 <!ENTITY event.reminder.multiple.label			"複数のアラーム..." >
+
+<!ENTITY event.statusbarpanel.freebusy.label		"Time as:">
+<!ENTITY event.statusbarpanel.privacy.label		"プライバシー:">
 
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label				"周期の編集">
