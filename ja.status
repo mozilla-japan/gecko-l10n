@@ -447,3 +447,4 @@ browser/devtools       169516:4b8d14a78596  -----:------------   hATrayflood    
 suite                  ------:------------  15142:c1f55df5b4f5   mar             sync suite
 mobile                 169678:668a24639afa  -----:------------   Kechol          sync mobile
 calendar               ------:------------  15148:70d35117ff59   MasWag, mar     sync calendar
+irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.90.1
