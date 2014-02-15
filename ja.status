@@ -422,7 +422,7 @@ browser                155627:a4b7282df517  -----:------------   hATrayflood    
 suite                  ------:------------  14751:d892a07dc424   hATrayflood     sync suite
 browser                160984:2e7ce68c821f  -----:------------   mar             sync browser (mozilla-beta)
 
-[l10n-mozilla-27.0] (for beta)
+Released! [l10n-mozilla-27.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  14955:12fb8e3a9088   mar             sync calendar
@@ -434,7 +434,7 @@ mobile                 161522:8de854b69d18  -----:------------   Kechol         
 webapprt               166841:158aeb4c6657  -----:------------   mar             sync webapprt (mozilla-beta)
 browser                161122:05025f4889a0  -----:------------   hATrayflood     sync browser  (mozilla-beta)
 
-[l10n-mozilla-28.0] (for aurora)
+[l10n-mozilla-28.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit, security      169143:cdd93e24e3b3  15135:3d4201e5e05a   mar             sync toolkit, security
@@ -448,3 +448,8 @@ suite                  ------:------------  15142:c1f55df5b4f5   mar            
 mobile                 169678:668a24639afa  -----:------------   Kechol          sync mobile
 calendar               ------:------------  15148:70d35117ff59   MasWag, mar     sync calendar
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.90.1
+
+[l10n-mozilla-29.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar               ------:------------  17496:ad29705a9914   mar             sync calendar
