@@ -13,7 +13,7 @@
 <!ENTITY search.key                      "f">
 
 <!ENTITY cmd.clearList.label             "履歴の消去">
-<!ENTITY cmd.clearList.tooltip           "ファイルのダウンロード履歴を消去します">
+<!ENTITY cmd.clearList.tooltip           "リストから完了、キャンセル、失敗したダウンロードを削除します">
 <!ENTITY cmd.clearList.accesskey         "C">
 
 <!ENTITY col.name.label                  "名前">
