@@ -1,5 +1,18 @@
 <!ENTITY aboutDialog.title		"&brandFullName; について">
 
+
+<!-- LOCALIZATION NOTE (update.checkForUpdatesButton.*, update.updateButton.*, update.applyButtonBillboard.*):
+# Only one button is present at a time.
+# The button when displayed is located directly under the Thunderbird version in
+# the about dialog.
+-->
+<!ENTITY update.checkForUpdatesButton.label	"ソフトウェアの更新を確認">
+<!ENTITY update.checkForUpdatesButton.accesskey	"C">
+<!ENTITY update.updateButton.label		"再起動して更新">
+<!ENTITY update.updateButton.accesskey		"R">
+<!ENTITY update.applyButtonBillboard.label	"ダウンロードした更新を適用...">
+<!ENTITY update.applyButtonBillboard.accesskey	"A">
+
 <!ENTITY community.start2		"&brandShortName; は ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.mozillaLink		"&vendorShortName;">
@@ -24,8 +37,6 @@
 
 <!-- LOCALIZATION NOTE (update.checkingForUpdates): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.checkingForUpdates	"ソフトウェアの更新を確認中...">
-<!-- LOCALIZATION NOTE (update.checkingAddonCompat): try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.checkingAddonCompat	"アドオンの互換性を確認中...">
 <!-- LOCALIZATION NOTE (update.noUpdatesFound): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.noUpdatesFound		"&brandShortName; は最新バージョンです">
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->

@@ -32,8 +32,6 @@
 <!ENTITY stopFilters.accesskey		"S">
 <!ENTITY folderPickerPrefix.label	"フィルタを使用するフォルダ:">
 <!ENTITY folderPickerPrefix.accesskey	"c">
-<!ENTITY choosethis.label		"このフォルダを選択">
-<!ENTITY choosethisnewsserver.label	"このニュースサーバを選択">
 <!ENTITY helpButton.label		"Help">
 <!ENTITY helpButton.accesskey		"H">
 <!ENTITY closeCmd.key			"W">

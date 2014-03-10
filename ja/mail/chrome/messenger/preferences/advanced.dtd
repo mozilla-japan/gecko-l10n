@@ -63,20 +63,20 @@
 <!ENTITY closeMsgOnMoveOrDelete.accesskey	"C">
 
 <!-- Update -->
-<!ENTITY autoCheck.label			"次のソフトウェアの更新を定期的に確認する:">
-<!ENTITY enableAppUpdate.label			"&brandShortName;">
-<!ENTITY enableAppUpdate.accesskey		"h">
-<!ENTITY enableAddonsUpdate.label		"アドオン">
-<!ENTITY enableAddonsUpdate.accesskey		"A">
-<!ENTITY whenUpdatesFound.label			"&brandShortName; の更新が見つかったとき:">
-<!ENTITY modeAskMe.label			"どうするか確認する">
-<!ENTITY modeAskMe.accesskey			"m">
-<!ENTITY modeAutomatic.label			"自動的に更新をダウンロードしてインストールする">
-<!ENTITY modeAutomatic.accesskey		"d">
-<!ENTITY modeAutoAddonWarn.label		"更新によりアドオンが無効化される場合は警告する">
-<!ENTITY modeAutoAddonWarn.accesskey		"W">
-<!ENTITY showUpdates.label			"更新履歴を表示...">
-<!ENTITY showUpdates.accesskey			"S">
+<!ENTITY updateApp.label			"&brandShortName; の更新:">
+<!ENTITY updateAuto.label			"更新を自動的にインストールする (推奨: セキュリティ向上)">
+<!ENTITY updateAuto.accesskey			"A">
+<!ENTITY updateCheck.label			"更新を確認するが、インストールするかどうかを選択する">
+<!ENTITY updateCheck.accesskey			"C">
+<!ENTITY updateManual.label			"更新を確認しない (非推奨: セキュリティリスク)">
+<!ENTITY updateManual.accesskey			"N">
+<!ENTITY updateAutoAddonWarn.label		"更新によりアドオンが無効化される場合は警告する">
+<!ENTITY updateAutoAddonWarn.accesskey		"W">
+<!ENTITY updateHistory.label			"更新履歴を表示">
+<!ENTITY updateHistory.accesskey		"p">
+<!ENTITY updateOthers.label			"次のソフトウェアを自動的に更新する:">
+<!ENTITY enableAddonsUpdate3.label		"アドオン">
+<!ENTITY enableAddonsUpdate3.accesskey		"o">
 
 <!ENTITY useService.label			"更新のインストールにバックグラウンドサービスを使用する">
 <!ENTITY useService.accesskey			"b">
