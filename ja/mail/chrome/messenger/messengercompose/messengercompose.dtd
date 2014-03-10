@@ -18,7 +18,7 @@
 <!ENTITY newContact.label		"連絡先...">
 <!ENTITY newContact.accesskey		"C">
 <!ENTITY attachMenu.label		"添付">
-<!ENTITY attachMenu.accesskey		"t">
+<!ENTITY attachMenu.accesskey		"h">
 <!ENTITY attachFileCmd.label		"ファイル...">
 <!ENTITY attachFileCmd.accesskey	"F">
 <!ENTITY attachFileCmd.key		"A">
@@ -203,6 +203,7 @@
 <!ENTITY attachButton.label		"添付">
 <!ENTITY spellingButton.label		"スペル">
 <!ENTITY saveButton.label		"保存">
+<!ENTITY printButton.label		"@@Print@@">
 
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip		"このメッセージを今すぐ送信します">
@@ -215,6 +216,7 @@
 <!ENTITY cutButton.tooltip		"@@Cut@@">
 <!ENTITY copyButton.tooltip		"コピー">
 <!ENTITY pasteButton.tooltip		"@@Paste@@">
+<!ENTITY printButton.tooltip		"このメッセージを@@Print@@します">
 
 <!-- Headers -->
 <!--LOCALIZATION NOTE headersSpace.style is for aligning  the From:, To: and

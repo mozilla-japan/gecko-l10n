@@ -25,6 +25,8 @@
 <!ENTITY account.movedown.label			"下へ移動">
 <!ENTITY account.cancelReconnection.label	"再接続をキャンセル">
 <!ENTITY account.cancelReconnection.accesskey	"a">
+<!ENTITY account.copyDebugLog.label		"デバッグログをコピー">
+<!ENTITY account.copyDebugLog.accesskey		"C">
 <!ENTITY account.connecting			"接続中です...">
 <!ENTITY account.disconnecting			"切断中です...">
 <!ENTITY account.disconnected			"接続されていません">
