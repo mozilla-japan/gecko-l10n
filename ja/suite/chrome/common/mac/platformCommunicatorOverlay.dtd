@@ -33,6 +33,12 @@
 
 <!ENTITY redoCmd.key                    "Z">
 
+<!-- Keys for toggling Sidebar, Folder Pane in mailNews and Directory Pane in
+  Address Book -->
+<!ENTITY showHideSidebarCmd.key         "S">
+<!ENTITY toggleFolderPaneCmd.key        "S">
+<!ENTITY toggleDirectoryPaneCmd.key     "S">
+
 <!ENTITY historyCmd.key                 "H">
 
 <!ENTITY findTypeTextCmd.key            "">
