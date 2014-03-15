@@ -66,13 +66,16 @@
 <!ENTITY settings_title "設定">
 <!ENTITY pref_category_advanced "詳細">
 <!ENTITY pref_category_customize "カスタマイズ">
-<!ENTITY pref_category_search2 "検索設定">
+<!ENTITY pref_category_search3 "検索">
 <!ENTITY pref_category_display "表示">
 <!ENTITY pref_category_privacy_short "プライバシー">
 <!ENTITY pref_category_vendor "&vendorShortName;">
 <!ENTITY pref_category_datareporting "データの選択">
 <!ENTITY pref_category_installed_search_engines "インストール済みの検索エンジン">
 <!ENTITY pref_category_add_search_providers "検索プロバイダを追加">
+<!ENTITY pref_category_search_restore_defaults "検索エンジンを復元">
+<!ENTITY pref_search_restore_defaults "デフォルトに復元">
+<!ENTITY pref_search_restore_defaults_summary "デフォルトに復元">
 <!-- Localization note (pref_search_tip) : "TIP" as in "hint", "clue" etc. Displayed as an
      advisory message on the customise search providers settings page explaining how to add new
      search providers.-->
@@ -81,6 +84,9 @@
 <!ENTITY pref_developer_remotedebugging "リモートデバッグ">
 <!ENTITY pref_developer_remotedebugging_docs "さらに詳しく">
 <!ENTITY pref_remember_signons "パスワードを保存する">
+
+<!ENTITY pref_category_home "ホーム">
+<!ENTITY pref_category_home_panels "パネル">
 
 <!-- Localization note: These are shown in the left sidebar on tablets -->
 <!ENTITY pref_header_customize "カスタマイズ">
@@ -148,10 +154,15 @@ size. -->
 <!ENTITY pref_about_firefox "&brandShortName; について">
 <!ENTITY pref_vendor_faqs "FAQ">
 <!ENTITY pref_vendor_feedback "フィードバックをください">
-<!ENTITY pref_search_set_default "デフォルトに設定">
-<!ENTITY pref_search_default "デフォルト">
-<!ENTITY pref_search_remove "削除">
+
+<!ENTITY pref_dialog_set_default "デフォルトに設定">
+<!ENTITY pref_dialog_default "デフォルト">
+<!ENTITY pref_dialog_remove "削除">
+
 <!ENTITY pref_search_last_toast "最後の検索エンジンを削除や無効化することはできません">
+
+<!ENTITY pref_panels_show "表示">
+<!ENTITY pref_panels_hide "隠す">
 
 <!ENTITY datareporting_notification_title "&brandShortName; 統計とデータ">
 <!ENTITY datareporting_notification_action_long "共有する情報を選択してください">
@@ -216,6 +227,13 @@ size. -->
 <!ENTITY find_next "次を検索">
 <!ENTITY find_close "閉じる">
 
+<!-- Localization note (media_casting_to, media_play, media_pause, media_stop) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+<!ENTITY media_casting_to "デバイスに配信中">
+<!ENTITY media_play "再生">
+<!ENTITY media_pause "一時停止">
+<!ENTITY media_stop "停止">
+
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
 <!ENTITY contextmenu_open_private_tab "プライベートタブで開く">
 <!ENTITY contextmenu_open_in_reader "リーダーで開く">
@@ -237,7 +255,9 @@ size. -->
 <!ENTITY pref_titlebar_mode_title "ページのタイトルを表示">
 <!ENTITY pref_titlebar_mode_url "ページのアドレスを表示">
 
-<!ENTITY pref_dynamic_toolbar "タイトルバーをスクロールする">
+<!-- Localization note (pref_scroll_title_bar): Label for setting that controls
+     whether or not the dynamic toolbar is enabled. -->
+<!ENTITY pref_scroll_title_bar "タイトルバーをスクロールする">
 
 <!ENTITY history_removed "履歴からページが削除されました">
 
