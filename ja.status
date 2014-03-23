@@ -434,7 +434,7 @@ mobile                 161522:8de854b69d18  -----:------------   Kechol         
 webapprt               166841:158aeb4c6657  -----:------------   mar             sync webapprt (mozilla-beta)
 browser                161122:05025f4889a0  -----:------------   hATrayflood     sync browser  (mozilla-beta)
 
-[l10n-mozilla-28.0] (for beta)
+Released! [l10n-mozilla-28.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit, security      169143:cdd93e24e3b3  15135:3d4201e5e05a   mar             sync toolkit, security
@@ -449,7 +449,7 @@ mobile                 169678:668a24639afa  -----:------------   Kechol         
 calendar               ------:------------  15148:70d35117ff59   MasWag, mar     sync calendar
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.90.1
 
-[l10n-mozilla-29.0] (for aurora)
+[l10n-mozilla-29.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  17496:ad29705a9914   mar             sync calendar
@@ -460,3 +460,6 @@ dom                    177276:d4bc4bcc55ae  -----:------------   hATrayflood    
 mail                   ------:------------  17513:b446d67f4a22   mar             sync mail
 suite                  ------:------------  17514:ba9b337ff4c1   mar             sync suite
 mobile                 177548:2b9f2c873ff4  -----:------------   Kechol          sync mobile
+browser                177276:d4bc4bcc55ae  -----:------------   hATrayflood     sync browser
+
+[l10n-mozilla-30.0] (for aurora)

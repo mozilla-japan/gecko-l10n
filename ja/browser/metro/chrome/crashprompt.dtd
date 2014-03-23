@@ -8,15 +8,13 @@
 <!ENTITY crashprompt.detailsLink     "クラッシュレポートの内容は？">
 <!ENTITY crashprompt.detailedMessage.firstParagraph "クラッシュレポートには、クラッシュに関する詳細な情報、ブラウザがクラッシュしたときの状態のスナップショットが含まれています。">
 <!ENTITY crashprompt.detailedMessage.secondParagraph "レポートには開いたページ、フォームに入力したテキストと開いたメッセージの内容、最近の履歴、サイトと共有した位置情報が含まれる場合があります。">
-<!-- LOCALIZATION NOTE (crashprompt.detailedMessage.thirdParagraph, crashprompt.privacyPolicyLink):
-     These two entities form a single sentence. crashprompt.privacyPolicyLink is a
-     clickable link that must follow crashprompt.detailedMessage.thirdParagraph.
-     If the structure of the English strings doesn't work for your locale, you can
-     move "&brandShortName; privacy policy." to the first sentence, and use a
-     generic "More information" for the link. These strings will be updated in the
-     next version of Firefox. -->
-<!ENTITY crashprompt.detailedMessage.thirdParagraph "クラッシュレポートは問題の解決と製品の向上に役立てます。送信された情報はプライバシーポリシーに従って取り扱われます。">
+<!-- LOCALIZATION NOTE (crashprompt.detailedMessage.thirdParagraphBeforeLink, crashprompt.privacyPolicyLink, crashprompt.detailedMessage.thirdParagraphAfterLink):
+     These three entities form a single sentence. crashprompt.detailedMessage.thirdParagraphBeforeLink is the start of the sentence,
+     crashprompt.privacyPolicyLink is a clickable link the middle and crashprompt.detailedMessage.thirdParagraphAfterLink is the end of the sentence.
+     -->
+<!ENTITY crashprompt.detailedMessage.thirdParagraphBeforeLink "クラッシュレポートは問題の解決と製品の向上に役立てます。送信された情報は ">
 <!ENTITY crashprompt.privacyPolicyLink "&brandShortName; プライバシーポリシー">
+<!ENTITY crashprompt.detailedMessage.thirdParagraphAfterLink " に従って取り扱われます。">
 <!ENTITY crashprompt.includeURLLabel "閲覧していたページの URL を含める">
 <!ENTITY crashprompt.acceptbutton    "レポートを送信する">
 <!ENTITY crashprompt.refusebutton    "送信しない">
