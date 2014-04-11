@@ -11,6 +11,9 @@
 <!ENTITY newevent.to.label				"終了日時" >
 <!ENTITY newevent.attendees.notify.label		"参加者に通知する">
 
+<!ENTITY newevent.attendees.notifyundisclosed.label	"招待者リストの参加者を非公開にする">
+<!ENTITY newevent.attendees.notifyundisclosed.tooltip	"有効にすると、他の参加者が表示されなくなります。これはメールでの招待にのみ適用されます。">
+
 <!ENTITY newevent.status.label				"状態" >
 <!ENTITY newevent.status.accesskey			"S" >
 <!ENTITY newevent.eventStatus.none.label		"指定なし" >
@@ -99,12 +102,6 @@
 <!ENTITY  event.menu.options.accesskey				"O">
 <!ENTITY  event.menu.options.attendees.label			"参加者を追加...">
 <!ENTITY  event.menu.options.attendees.accesskey		"I">
-<!ENTITY  event.menu.options.spellcheck.label			"スペルチェック...">
-<!ENTITY  event.menu.options.spellcheck.accesskey		"h">
-<!ENTITY  event.menu.options.inline.spellcheck.label		"自動スペルチェック">
-<!ENTITY  event.menu.options.inline.spellcheck.accesskey	"S">
-<!ENTITY  event.menu.options.link.label				"リンクを追加...">
-<!ENTITY  event.menu.options.link.accesskey			"L">
 <!ENTITY  event.menu.options.timezone2.label			"タイムゾーンを表示">
 <!ENTITY  event.menu.options.timezone2.accesskey		"z">
 <!ENTITY  event.menu.options.priority2.label			"重要度">
@@ -143,13 +140,11 @@
 <!ENTITY  event.toolbar.save.label			"保存して閉じる">
 <!ENTITY  event.toolbar.delete.label			"削除">
 <!ENTITY  event.toolbar.attendees.label			"参加者を追加">
-<!ENTITY  event.toolbar.spellcheck.label		"スペル">
 <!ENTITY  event.toolbar.privacy.label			"プライバシー">
 
 <!ENTITY  event.toolbar.save.tooltip			"保存して閉じます">
 <!ENTITY  event.toolbar.delete.tooltip			"削除します">
 <!ENTITY  event.toolbar.attendees.tooltip		"参加者を追加します">
-<!ENTITY  event.toolbar.spellcheck.tooltip		"スペルチェックします">
 <!ENTITY  event.toolbar.attachments.tooltip		"URL を添付します">
 <!ENTITY  event.toolbar.privacy.tooltip			"プライバシー設定を変更します">
 <!ENTITY  event.toolbar.priority.tooltip		"重要度を変更します">
@@ -164,7 +159,6 @@
 <!ENTITY event.categories.label				"カテゴリ:">
 <!ENTITY event.categories.accesskey			"y">
 <!ENTITY event.categories.textbox.label			"@@New-CMD@@カテゴリを追加" >
-<!ENTITY event.categories.textbox.accesskey		"A">
 <!ENTITY event.calendar.label				"カレンダー:" >
 <!ENTITY event.calendar.accesskey			"C">
 <!ENTITY event.attendees.label				"参加者:" >
@@ -375,5 +369,4 @@
 <!ENTITY read.only.reminder.label			"アラーム:">
 <!ENTITY read.only.attendees.label			"参加者">
 <!ENTITY read.only.description.label			"詳細">
-<!ENTITY read.only.documents.label			"文書">
 <!ENTITY read.only.link.label				"関連リンク">

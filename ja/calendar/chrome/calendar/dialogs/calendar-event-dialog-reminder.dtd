@@ -11,12 +11,9 @@
 <!ENTITY reminder.reminderDetails.label		"アラームの詳細">
 <!ENTITY reminder.action.label			"アラーム動作の選択">
 
-<!ENTITY reminder.relation.before.label		"前" >
-<!ENTITY reminder.relation.after.label		"後" >
-
 <!ENTITY reminder.action.alert.label		"アラームを表示する">
 <!ENTITY reminder.action.email.label		"メールを送信する">
 
-<!ENTITY alarm.units.minutes			"分" >
-<!ENTITY alarm.units.hours			"時間" >
-<!ENTITY alarm.units.days			"日" >
+<!ENTITY alarm.units.minutes			"分">
+<!ENTITY alarm.units.hours			"時間">
+<!ENTITY alarm.units.days			"日">

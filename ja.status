@@ -463,5 +463,8 @@ mobile                 177548:2b9f2c873ff4  -----:------------   Kechol         
 browser                177276:d4bc4bcc55ae  -----:------------   hATrayflood     sync browser
 
 [l10n-mozilla-30.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
 toolkit                185360:5d9d8d961c4a  -----:------------   hATrayflood     sync toolkit
 dom                    185360:5d9d8d961c4a  -----:------------   hATrayflood     sync dom
+calendar               ------:------------  17732:e87f98095425   mar             sync calendar (removed: Sunbird)
