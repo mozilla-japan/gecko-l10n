@@ -74,9 +74,6 @@
 <!ENTITY updateAutoAddonWarn.accesskey		"W">
 <!ENTITY updateHistory.label			"更新履歴を表示">
 <!ENTITY updateHistory.accesskey		"p">
-<!ENTITY updateOthers.label			"次のソフトウェアを自動的に更新する:">
-<!ENTITY enableAddonsUpdate3.label		"アドオン">
-<!ENTITY enableAddonsUpdate3.accesskey		"o">
 
 <!ENTITY useService.label			"更新のインストールにバックグラウンドサービスを使用する">
 <!ENTITY useService.accesskey			"b">

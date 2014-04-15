@@ -895,3 +895,6 @@
 <!ENTITY hideOtherAppsCmdMac.commandkey	"H">
 <!ENTITY hideOtherAppsCmdMac.modifiers	"accel,alt">
 <!ENTITY showAllAppsCmdMac.label	"すべてを表示">
+
+<!-- Mac OS X Dock Icon pop-up menu -->
+<!ENTITY dockOptions.label		"アプリケーションアイコンのオプション...">

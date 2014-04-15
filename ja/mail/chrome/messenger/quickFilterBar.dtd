@@ -47,13 +47,6 @@
 <!ENTITY quickFilterBar.sticky.tooltip
          "フォルダを切り替えても現在の絞り込みを維持します">
 
-<!-- LOCALIZATION NOTE (quickFilterBar.barLabel.label):
-     The text to display on the quick filter bar, labeling it.  This should
-     ideally be as short as possible.
-     -->
-<!ENTITY quickFilterBar.barLabel.label
-         "クイックフィルタ:">
-
 <!-- LOCALIZATION NOTE (quickFilterBar.unread.label):
      The label for the filter button that causes us to filter results to only
      include unread messages.

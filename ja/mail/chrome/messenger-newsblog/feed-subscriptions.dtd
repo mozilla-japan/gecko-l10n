@@ -35,3 +35,4 @@
 <!ENTITY button.exportOPML.tooltip	"フィードをフォルダ構成で@@Export-simasu@@。フィードをリストで@@Export-suru@@には、Ctrl キーを押しながらクリックするか Enter キーを押します">
 
 <!ENTITY cmd.close.commandKey		"w">
+<!ENTITY button.close.label		"閉じる">

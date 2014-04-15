@@ -10,8 +10,9 @@
 <!ENTITY useDefault.label		"@@RestoreDefaults@@">
 <!ENTITY useDefault.accesskey		"R">
 
-<!ENTITY bounceSystemDockIcon.label	"Dock のアイコンをバウンドさせる"><!-- (^^; Dock は Mac 用語、訳さない -->
-<!ENTITY bounceSystemDockIcon.accesskey	"i">
+<!ENTITY changeDockIconOptions.label	"アプリケーションアイコンの設定を変更します">
+<!ENTITY dockOptions.label		"アプリケーションアイコンのオプション...">
+<!ENTITY dockOptions.accesskey		"n">
 
 <!ENTITY newMessagesArrive.label	"新着メッセージの通知"><!-- (^^; When new messages arrive: -->
 <!ENTITY playSound.label		"音を鳴らす">

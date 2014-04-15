@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY dockOptionsDialog.title		"アプリケーションアイコンのオプション">
+<!ENTITY window.macWidth			"35em">
+
+<!ENTITY bounceSystemDockIcon.label		"新着メッセージ受信時にアイコンをアニメーションで表示する">
+<!ENTITY bounceSystemDockIcon.accesskey		"i">
+<!ENTITY newMessagesCountDock.label		"新着メッセージ数を表示する">
+<!ENTITY newMessagesCountDock.accesskey		"n">
+<!ENTITY showAllUnreadMessagesCount.label	"未読メッセージ数を表示する">
+<!ENTITY showAllUnreadMessagesCount.accesskey	"u">
+<!ENTITY dockIconBadge.label			"アプリケーションアイコンのバッジ">
+<!ENTITY dockIconShow.label			"アイコンにバッジを付ける:">
