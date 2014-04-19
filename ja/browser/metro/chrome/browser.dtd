@@ -59,10 +59,12 @@
 <!ENTITY consoleMessages.label     "メッセージ">
 <!ENTITY consoleCodeEval.label     "コード:">
 <!ENTITY consoleClear.label        "消去">
+<!ENTITY consoleCopyAll.label      "コピー">
 <!ENTITY consoleEvaluate.label     "...">
 <!ENTITY consoleErrFile.label      "ソース:">
 <!ENTITY consoleErrLine.label      "行:">
 <!ENTITY consoleErrColumn.label    "列:">
+<!ENTITY consoleFollowCheckbox.label "フォロー">
 
 <!--  TEXT CONTEXT MENU -->
 <!ENTITY contextTextCut.label              "@@Cut@@">

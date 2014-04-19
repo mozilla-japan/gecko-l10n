@@ -27,6 +27,7 @@
 <!ENTITY clearPrivateData.logins                                 "有効なログイン">
 
 <!ENTITY optionsHeader.privacy.passwords.label                   "パスワードを記録させる">
+<!ENTITY optionsHeader.displayOverlayButtons.label               "ナビゲーションボタンを表示する">
 <!ENTITY doNotTrack.title                                        "Do Not Track">
 <!ENTITY doNotTrack.options.doNotTrack                           "トラッキングの拒否をサイトに通知する">
 <!ENTITY doNotTrack.options.doTrack                              "トラッキングの許可をサイトに通知する">
