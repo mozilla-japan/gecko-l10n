@@ -690,7 +690,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY customizeMode.menuAndToolbars.header2	"追加のツールと機能">
 <!ENTITY customizeMode.menuAndToolbars.empty	"その他のツールを入手">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink	"たくさんのアドオンから選択">
-<!ENTITY customizeMode.restoreDefaults		"@@RestoreDefaults@@">
+<!ENTITY customizeMode.restoreDefaults		"初期設定に戻す">
 <!ENTITY customizeMode.toolbars			"ツールバーを表示 / 隠す">
 <!ENTITY customizeMode.titlebar			"タイトルバー">
 
