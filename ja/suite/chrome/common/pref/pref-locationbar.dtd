@@ -26,14 +26,15 @@
 <!ENTITY autoCompleteMatchWordsFirst           "単語の先頭または末尾の一致を優先"><!-- en-US: "Anywhere but preferring word boundaries" -->
 <!ENTITY autoCompleteMatchWords                "単語の先頭または末尾のみに一致"><!-- en-US: "Only on word boundaries"-->
 <!ENTITY autoCompleteMatchStart                "アドレス (URL) またはタイトルの先頭に一致">
+<!ENTITY showInternetSearch.label              "@@Default-@@インターネット検索エンジンを表示">
+<!ENTITY showInternetSearch.accesskey          "e">
 
 <!ENTITY formatting.label                      "表示形式">
 <!ENTITY domainFormatting.label                "Web サイトや FTP サーバのドメインを強調する"><!--en-US: "Highlight the effective domain for websites and FTP servers" -->
 <!ENTITY domainFormatting.accesskey            "d">
 
-<!ENTITY searchEngine.label                    "インターネット検索エンジン">
-<!ENTITY showSearchEngine.label                "@@Default-@@検索エンジンを表示">
-<!ENTITY showSearchEngine.accesskey            "e">
+<!ENTITY highlightSecure.label                 "接続のセキュリティレベルが高い Web ページを強調する">
+<!ENTITY highlightSecure.accesskey             "c">
 
 <!ENTITY unknownLocations.label                "アドレス入力"><!-- en-US: "Unknown Locations" -->
 <!ENTITY domainGuessing.label                  "Web ページが見つからないときは &quot;www.&quot; と &quot;.com&quot;を補完する">
