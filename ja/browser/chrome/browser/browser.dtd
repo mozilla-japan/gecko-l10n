@@ -719,7 +719,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY pluginNotification.showAll.accesskey	"S">
 
 <!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
-<!ENTITY pluginActivateNow.label		"今すぐ許可">
+<!ENTITY pluginActivateNow.label		"今だけ許可">
 <!ENTITY pluginActivateAlways.label		"常に許可">
 <!ENTITY pluginBlockNow.label			"プラグインをブロック">
 
