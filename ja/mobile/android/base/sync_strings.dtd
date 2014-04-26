@@ -105,14 +105,7 @@
 <!ENTITY sync.text.tab.sent.label 'タブが送信されました！'>
 <!ENTITY sync.text.tab.not.sent.label 'タブの送信に問題が発生しました。'>
 
-<!-- Firefox account strings. -->
-
-<!-- Localization note: these describe icons and graphics, and are
-     consumed by assistive devices. -->
-<!ENTITY fxaccount_checkbox_contentDescription2 'Firefox アカウントチェックボックス画像'>
-<!ENTITY fxaccount_icon_contentDescription2 'Firefox アカウントアイコン'>
-<!ENTITY fxaccount_intro_contentDescription2 'Firefox アカウントの紹介画像'>
-<!ENTITY fxaccount_mail_contentDescription2 'Firefox アカウント封筒画像'>
+<!-- Firefox Account strings. -->
 
 <!-- Localization note: these are shown in all screens that query the
      user for an email address and password. Hide and show are button
@@ -127,6 +120,11 @@
      Firefox. -->
 <!ENTITY fxaccount_back_to_browsing 'ブラウザに戻る'>
 
+<!-- Localization note: the following two strings are interpolated
+     into fxaccount_create_account_policy_text2; see note for that
+     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
 <!ENTITY fxaccount_policy_linktos 'サービス利用規約'>
 <!ENTITY fxaccount_policy_linkprivacy 'プライバシーに関する注意'>
 
@@ -137,12 +135,12 @@
 
 <!-- Localization note: the Firefox below should not change with the
      particular version of Firefox installed (Release, Beta, Aurora,
-     etc).  The account remains a "Firefox" account. -->
-<!ENTITY fxaccount_create_account_header 'Firefox アカウントを作成する'>
+     etc).  The account remains a "Firefox Account". -->
+<!ENTITY fxaccount_create_account_header2 'Firefox アカウントを作成する'>
 <!ENTITY fxaccount_create_account_password_length_restriction '8文字以上が必要です'>
 <!ENTITY fxaccount_create_account_year_of_birth '誕生年'>
 <!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
-<!ENTITY fxaccount_create_account_policy_text 'Firefox オンラインサービスの &formatS1; と &formatS2; に同意して進みます。'>
+<!ENTITY fxaccount_create_account_policy_text2 'Firefox オンラインサービスの &formatS1; と &formatS2; に同意して進みます。'>
 <!ENTITY fxaccount_create_account_button '次へ'>
 <!ENTITY fxaccount_create_account_choose_what_to_sync '同期するものを選んでください'>
 <!ENTITY fxaccount_create_account_sign_in_instead 'すでにアカウントをお持ちですか？サインインしてください'>
@@ -154,7 +152,7 @@
 <!ENTITY fxaccount_account_create_not_allowed_learn_more '詳細はこちら'>
 
 <!ENTITY fxaccount_confirm_account_header 'アカウントを確認'>
-<!-- Localization note: &formatS; is the Firefox account's email address. -->
+<!-- Localization note: &formatS; is the Firefox Account's email address. -->
 <!ENTITY fxaccount_confirm_account_verification_link '確認用のリンクを &formatS; に送信しました'>
 <!ENTITY fxaccount_confirm_account_resend_email 'メールを再送信'>
 <!ENTITY fxaccount_confirm_account_verification_link_sent2 '確認のメールが送信されました'>
@@ -173,7 +171,8 @@
 <!ENTITY fxaccount_update_credentials_button_label 'サインイン'>
 <!ENTITY fxaccount_update_credentials_unknown_error 'サインインできませんでした'>
 
-<!ENTITY fxaccount_status_header 'Firefox アカウント'>
+<!ENTITY fxaccount_status_header2 'Firefox アカウント'>
+<!ENTITY fxaccount_status_signed_in_as 'としてサインイン'>
 <!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
 <!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label; は有効です'>
 <!ENTITY fxaccount_status_needs_verification2 'あなたのアカウントを確認してください。タップして確認のメールを再送信します。'>
@@ -184,16 +183,22 @@
 <!ENTITY fxaccount_status_passwords 'パスワード'>
 <!ENTITY fxaccount_status_tabs '開いているタブ'>
 <!ENTITY fxaccount_status_legal '法律' >
+<!-- Localization note: when tapped, the following two strings link to
+     external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_status_linktos 'サービス利用規約'>
+<!ENTITY fxaccount_status_linkprivacy '個人情報保護方針'>
 
 <!-- Localization note: this is the name shown by the Android system
-     itself for a Firefox account. Don't localize this. -->
+     itself for a Firefox Account. Don't localize this. -->
 <!ENTITY fxaccount_account_type_label 'Firefox'>
 
 <!-- Localization note: these are shown by the Android system itself,
      when the user navigates to the Android > Accounts > [Firefox
-     Account] Screen. The link takes the user to the Firefox account
+     Account] Screen. The link takes the user to the Firefox Account
      status activity, which lets them manage their Firefox
-     account. -->
+     Account. -->
 <!ENTITY fxaccount_options_title '&syncBrand.shortName.label; オプション'>
 <!ENTITY fxaccount_options_configure_title '&syncBrand.shortName.label; の設定'>
 
@@ -214,5 +219,5 @@
 
 <!ENTITY fxaccount_sync_sign_in_error_notification_title2 '&syncBrand.shortName.label; はインターネットに接続していません'>
 <!-- Note to translators: the format string below will be replaced
-     with the Firefox account's email address. -->
+     with the Firefox Account's email address. -->
 <!ENTITY fxaccount_sync_sign_in_error_notification_text2 'タップして &formatS; としてサインインします'>
