@@ -54,6 +54,7 @@
 <!ENTITY back "戻る">
 <!ENTITY stop "中止">
 <!ENTITY site_security "サイトセキュリティ">
+<!ENTITY save "保存">
 
 <!ENTITY close_tab "タブを閉じる">
 <!ENTITY one_tab "1 個のタブ">
@@ -67,6 +68,7 @@
 <!ENTITY pref_category_advanced "詳細">
 <!ENTITY pref_category_customize "カスタマイズ">
 <!ENTITY pref_category_search3 "検索">
+<!ENTITY pref_category_search_summary "検索プロバイダをカスタマイズ">
 <!ENTITY pref_category_display "表示">
 <!ENTITY pref_category_privacy_short "プライバシー">
 <!ENTITY pref_category_vendor "&vendorShortName;">
@@ -76,17 +78,31 @@
 <!ENTITY pref_category_search_restore_defaults "検索エンジンを復元">
 <!ENTITY pref_search_restore_defaults "デフォルトに復元">
 <!ENTITY pref_search_restore_defaults_summary "デフォルトに復元">
-<!-- Localization note (pref_search_tip) : "TIP" as in "hint", "clue" etc. Displayed as an
+<!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
      advisory message on the customise search providers settings page explaining how to add new
-     search providers.-->
-<!ENTITY pref_search_tip "ヒント: サイトの検索フィールド上で長押しすることで、どのサイトでも検索プロバイダに追加できます">
+     search providers.
+     The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!ENTITY pref_search_tip "ヒント: サイトの検索フィールド上で長押しした後、 &formatI; アイコンをタップすることで、どのサイトでも検索プロバイダに追加できます">
 <!ENTITY pref_category_devtools "デベロッパーツール">
 <!ENTITY pref_developer_remotedebugging "リモートデバッグ">
 <!ENTITY pref_developer_remotedebugging_docs "さらに詳しく">
 <!ENTITY pref_remember_signons "パスワードを保存する">
 
 <!ENTITY pref_category_home "ホーム">
+<!ENTITY pref_category_home_summary "ホームページをカスタマイズ">
 <!ENTITY pref_category_home_panels "パネル">
+<!ENTITY pref_home_add_panel "パネルを追加">
+<!ENTITY home_add_panel_title "新しいパネルを追加">
+<!ENTITY home_add_panel_empty "申し訳ありません、追加するパネルを見つけられませんでした">
+<!-- Localization note (home_add_panel_installed):
+     The &formatS; will be replaced with the name of the new panel the user just
+     selected to be added to the home page. -->
+<!ENTITY home_add_panel_installed "\'&formatS;\' をホームページに追加しました">
+<!ENTITY pref_category_home_content_settings "コンテンツ設定">
+<!ENTITY pref_home_updates "自動アップデート">
+<!ENTITY pref_home_updates_enabled "有効">
+<!ENTITY pref_home_updates_wifi "Wi-Fi のみ有効">
 
 <!-- Localization note: These are shown in the left sidebar on tablets -->
 <!ENTITY pref_header_customize "カスタマイズ">
@@ -210,6 +226,7 @@ size. -->
 <!ENTITY save_as_pdf "PDF として保存">
 <!ENTITY find_in_page "ページ内検索">
 <!ENTITY desktop_mode "PC サイトモード">
+<!ENTITY page "ページ">
 <!ENTITY tools "ツール">
 <!ENTITY new_tab "@@NewTab@@">
 <!ENTITY new_private_tab "プライベートタブ">
@@ -273,6 +290,7 @@ size. -->
 <!ENTITY site_settings_clear        "消去">
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
 
+<!ENTITY reading_list_add "リーディングリストに追加">
 <!ENTITY reading_list_added "ページがリーディングリストに追加されました">
 <!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
 <!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
@@ -310,12 +328,16 @@ size. -->
 <!ENTITY home_reading_list_empty "あなたが保存した記事が表示されます。">
 <!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
      as an advisory message on how to add content to the reading list when the reading list empty.
-     The "&#37;I" in the string will be replaced by a small image of the icon described, and can be moved to wherever
-     it is applicable. Please keep the spacing around the "&#37;I" string. -->
-<!ENTITY home_reading_list_hint "ヒント: タイトルバーに表示される &#37;I アイコンを長押しすることで、記事をリーディングリストに保存できます。">
+     The placeholder &formatI; will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!ENTITY home_reading_list_hint2 "ヒント: タイトルバーに表示される &formatI; アイコンを長押しすることで、記事をリーディングリストに保存できます。">
 <!-- Localization note (home_reading_list_hint_accessible): This string is used
      as alternate text for accessibility. It is not visible in the UI. -->
 <!ENTITY home_reading_list_hint_accessible "ヒント: タイトルバーに表示されるリーダーモードボタンを長押しすることで、記事をリーディングリストに保存できます。">
+
+<!-- Localization note (home_default_empty): This string is used as the default text when there
+     is no data to show in an about:home panel that was created by an add-on. -->
+<!ENTITY home_default_empty "このパネルにはコンテンツがありません。">
 
 <!ENTITY pin_site_dialog_hint "検索キーワードを入力してください">
 
@@ -360,9 +382,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
                                          @@Import-site@@います">
 <!ENTITY bookmarkhistory_import_wait "しばらくお待ちください...">
 
-<!-- Localization note (suggestions_prompt2): The placeholder &formatS; will be
-     replaced with the name of the search engine. -->
-<!ENTITY suggestions_prompt2 "&formatS; で検索語句の候補を表示しますか？">
+<!ENTITY suggestions_prompt3 "検索語句の候補を表示しますか？">
 
 <!-- Localization note (suggestion_for_engine): The placeholder &formatS1; will be
      replaced with the name of the search engine. The placeholder &formatS2; will be
