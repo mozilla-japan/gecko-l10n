@@ -83,7 +83,7 @@
      search providers.
      The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
      it is applicable. -->
-<!ENTITY pref_search_tip "ヒント: サイトの検索フィールド上で長押しした後、 &formatI; アイコンをタップすることで、どのサイトでも検索プロバイダに追加できます">
+<!ENTITY pref_search_hint "ヒント: サイトの検索フィールド上で長押しした後、 &formatI; アイコンをタップすることで、どのサイトでも検索プロバイダに追加できます">
 <!ENTITY pref_category_devtools "デベロッパーツール">
 <!ENTITY pref_developer_remotedebugging "リモートデバッグ">
 <!ENTITY pref_developer_remotedebugging_docs "さらに詳しく">
