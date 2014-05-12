@@ -16,7 +16,8 @@
 <!ENTITY pasteAsQuotationCmd.label "引用文として@@Paste@@">
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
 <!ENTITY pasteAsQuotationCmd.key "o">
-<!ENTITY findCmd.label "検索と置換...">
+<!ENTITY findBarCmd.label "検索...">
+<!ENTITY findReplaceCmd.label "検索と置換...">
 <!ENTITY enableInlineSpellChecker.label "自動スペルチェック">
 <!ENTITY enableInlineSpellChecker.accesskey "S">
 <!ENTITY checkSpellingCmd2.label "スペルチェック...">
@@ -39,6 +40,8 @@
 <!ENTITY insertTableCmd.accesskey "T">
 <!ENTITY insertHTMLCmd.label "HTML...">
 <!ENTITY insertHTMLCmd.accesskey "H">
+<!ENTITY insertMathCmd.label "数式...">
+<!ENTITY insertMathCmd.accesskey "M">
 <!ENTITY insertCharsCmd.label "文字や記号...">
 <!ENTITY insertCharsCmd.accesskey "C">
 <!ENTITY insertBreakAllCmd.label "画像の下側に改行">

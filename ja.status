@@ -449,7 +449,7 @@ mobile                 169678:668a24639afa  -----:------------   Kechol         
 calendar               ------:------------  15148:70d35117ff59   MasWag, mar     sync calendar
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.90.1
 
-[l10n-mozilla-29.0] (for beta)
+Released! [l10n-mozilla-29.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  17496:ad29705a9914   mar             sync calendar
@@ -462,7 +462,7 @@ suite                  ------:------------  17514:ba9b337ff4c1   mar            
 mobile                 177548:2b9f2c873ff4  -----:------------   Kechol          sync mobile
 browser                177276:d4bc4bcc55ae  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-30.0] (for aurora)
+[l10n-mozilla-30.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                185360:5d9d8d961c4a  -----:------------   hATrayflood     sync toolkit
@@ -473,3 +473,8 @@ webapprt               185360:5d9d8d961c4a  -----:------------   hATrayflood    
 browser                185360:5d9d8d961c4a  -----:------------   hATrayflood     sync browser
 suite                  ------:------------  17738:e1fa7974ff72   mar             sync suite
 mobile                 185951:dea8a9070070  -----:------------   Kechol          sync mobile
+
+[l10n-mozilla-31.0] (for aurora) (ESR)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+editor/ui              ------:------------  18011:525c829ab5fb   mar             sync editor/ui
