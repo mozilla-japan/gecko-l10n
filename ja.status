@@ -481,3 +481,4 @@ editor/ui              ------:------------  18011:525c829ab5fb   mar            
 dom                    192755:bae7daefa1cb  -----:------------   hATrayflood     sync dom
 webapprt               192755:bae7daefa1cb  -----:------------   hATrayflood     sync webapprt
 services/sync          192755:bae7daefa1cb  -----:------------   hATrayflood     sync services/sync
+security/manager       192755:bae7daefa1cb  -----:------------   hATrayflood     sync security/manager
