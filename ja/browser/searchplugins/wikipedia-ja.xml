@@ -11,7 +11,7 @@
   <Param name="action" value="opensearch"/>
   <Param name="search" value="{searchTerms}"/>
 </Url>
-<Url type="text/html" method="GET" template="http://ja.wikipedia.org/wiki/特別:検索">
+<Url type="text/html" method="GET" template="http://ja.wikipedia.org/wiki/特別:検索" resultdomain="wikipedia.org">
   <Param name="search" value="{searchTerms}"/>
   <Param name="sourceid" value="Mozilla-search"/>
 </Url>
