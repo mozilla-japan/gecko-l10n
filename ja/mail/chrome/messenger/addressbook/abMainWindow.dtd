@@ -74,8 +74,8 @@
 <!-- LOCALIZATION NOTE (hideSwapFnLnUI) : DONT_TRANSLATE -->
 <!-- Swap FN/LN UI  Set to "false" to show swap fn/ln UI -->
 <!ENTITY hideSwapFnLnUI				"true">
-<!ENTITY propertiesCmd.label			"@@PropertyCMD@@...">
-<!ENTITY propertiesCmd.accesskey		"i">
+<!ENTITY propertiesCmd2.label			"@@PropertyCMD@@">
+<!ENTITY propertiesCmd2.accesskey		"i">
 <!ENTITY propertiesCmd.key			"i">
 
 <!-- View Menu -->
@@ -122,8 +122,8 @@ because displayed names don't have the comma in between. -->
 <!ENTITY importCmd.accesskey			"I">
 <!ENTITY exportCmd.label			"@@Export@@...">
 <!ENTITY exportCmd.accesskey			"E">
-<!ENTITY preferencesCmd.label			"オプション...">
-<!ENTITY preferencesCmd.accesskey		"O">
+<!ENTITY preferencesCmd2.label			"オプション">
+<!ENTITY preferencesCmd2.accesskey		"O">
 <!ENTITY preferencesCmdUnix.label		"設定">
 <!ENTITY preferencesCmdUnix.accesskey		"n">
 

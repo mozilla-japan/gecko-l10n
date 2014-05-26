@@ -6,7 +6,6 @@
 <!ENTITY itemPhishing.label			"詐欺メール">
 <!ENTITY itemPasswords.label			"パスワード">
 <!ENTITY itemAntiVirus.label			"ウイルス対策">
-<!ENTITY itemCookies.label			"Web コンテンツ">
 
 <!-- Junk Mail Controls -->
 <!ENTITY manualMark.accesskey			"W">
@@ -46,21 +45,3 @@
 <!ENTITY antiVirus.intro			"ウイルス対策ソフトがウイルスを検出したとき、感染したメッセージだけを処理できるようにします。"><!-- en-US: &brandShortName; can make it easy for anti-virus software to analyze incoming mail messages for viruses before they are stored locally. 直訳: 受信メッセージを保存する前に、それをウイルス対策ソフトで分析しやすくなるようにできます。 -->
 <!ENTITY antiVirus.label			"受信したメッセージは個別の一時ファイルとして保存してからメールボックスに移動させる"><!-- en-US: Allow anti-virus clients to quarantine individual incoming messages 直訳: ウイルス対策ソフトが個別の受信メッセージを隔離できるようにする -->
 <!ENTITY antiVirus.accesskey			"A">
-
-<!-- Cookies -->
-<!ENTITY cookies.intro				"ブログやニュースフィード、他の Web サイトなど、Cookie を許可するサイトを設定できます。">
-<!ENTITY acceptCookies.label			"サイトから送られてきた Cookie を保存する">
-<!ENTITY acceptCookies.accesskey		"c">
-<!ENTITY keepUntil.label			"Cookie を保存する期間:">
-<!ENTITY keepUntil.accesskey			"K">
-<!ENTITY expire.label				"サイトが指定した期限まで">
-<!ENTITY close.label				"&brandShortName; を終了するまで">
-<!ENTITY askEachTime.label			"毎回確認する">
-<!ENTITY cookieExceptions.label			"例外サイト...">
-<!ENTITY cookieExceptions.accesskey		"E">
-<!ENTITY showCookies.label			"Cookie を表示...">
-<!ENTITY showCookies.accesskey			"S">
-
-<!-- Do Not Track -->
-<!ENTITY doNotTrack.label			"トラッキングの拒否を Web サイトに通知する">
-<!ENTITY doNotTrack.accesskey			"d">

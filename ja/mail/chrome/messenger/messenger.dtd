@@ -75,8 +75,8 @@
 <!ENTITY offlineGoOfflineCmd.accesskey		"w">
 <!ENTITY synchronizeOfflineCmd.label		"今すぐダウンロードして同期...">
 <!ENTITY synchronizeOfflineCmd.accesskey	"S">
-<!ENTITY settingsOfflineCmd.label		"オフライン設定...">
-<!ENTITY settingsOfflineCmd.accesskey		"e">
+<!ENTITY settingsOfflineCmd2.label		"オフライン設定">
+<!ENTITY settingsOfflineCmd2.accesskey		"e">
 <!ENTITY downloadSelectedCmd.label		"選択したメッセージを受信">
 <!ENTITY downloadSelectedCmd.accesskey		"l">
 <!ENTITY downloadStarredCmd.label		"スターを付けたメッセージを受信">
@@ -113,9 +113,9 @@
 <!ENTITY selectFlaggedCmd.accesskey		"S">
 <!ENTITY menuFavoriteFolder.label		"お気に入り">
 <!ENTITY menuFavoriteFolder.accesskey		"v">
-<!ENTITY folderPropsCmd.label			"@@PropertyCMD@@...">
-<!ENTITY folderPropsFolderCmd.label		"フォルダの@@PropertyCMD@@...">
-<!ENTITY folderPropsNewsgroupCmd.label		"ニュースグループの@@PropertyCMD@@...">
+<!ENTITY folderPropsCmd2.label			"@@PropertyCMD@@">
+<!ENTITY folderPropsFolderCmd2.label		"フォルダの@@PropertyCMD@@">
+<!ENTITY folderPropsNewsgroupCmd2.label		"ニュースグループの@@PropertyCMD@@">
 <!ENTITY folderPropsCmd.accesskey		"o">
 <!ENTITY undoDeleteMsgCmd.label			"@@Undo@@ - メッセージの削除">
 <!ENTITY redoDeleteMsgCmd.label			"@@Redo@@ - メッセージの削除">
@@ -163,6 +163,8 @@
 <!ENTITY favoriteFolders.accesskey		"F">
 <!ENTITY recentFolders.label			"最近使用したフォルダ">
 <!ENTITY recentFolders.accesskey		"R">
+<!ENTITY compactVersion.label			"コンパクトビュー">
+<!ENTITY compactVersion.accesskey		"C">
 
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label				"並べ替え順序">
@@ -462,8 +464,8 @@
 <!ENTITY savedFiles.label		"保存したファイル">
 <!ENTITY savedFiles.accesskey		"l">
 <!ENTITY savedFiles.key			"j">
-<!ENTITY filtersCmd.label		"メッセージフィルタ...">
-<!ENTITY filtersCmd.accesskey		"F">
+<!ENTITY filtersCmd2.label		"メッセージフィルタ">
+<!ENTITY filtersCmd2.accesskey		"F">
 <!ENTITY filtersApply.label		"フォルダにフィルタを適用">
 <!ENTITY filtersApply.accesskey		"R">
 <!ENTITY filtersApplyToSelection.label	"選択しているメッセージにフィルタを適用">
@@ -481,11 +483,11 @@
 <!ENTITY errorConsoleCmd.commandkey	"j">
 <!ENTITY clearRecentHistory.label	"最近の履歴を消去...">
 <!ENTITY clearRecentHistory.accesskey	"H">
-<!ENTITY accountManagerCmd.label	"アカウント設定...">
-<!ENTITY accountManagerCmd.accesskey	"S">
-<!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey): belongs to accountManagerCmd.label,
+<!ENTITY accountManagerCmd2.label	"アカウント設定">
+<!ENTITY accountManagerCmd2.accesskey	"S">
+<!-- LOCALIZATION NOTE (accountManagerCmdUnix2.accesskey): belongs to accountManagerCmd2.label,
         which is placed under the Edit menu on Unix systems -->
-<!ENTITY accountManagerCmdUnix.accesskey	"A">
+<!ENTITY accountManagerCmdUnix2.accesskey	"A">
 <!ENTITY allowRemoteDebugging.label	"リモートデバッグを許可">
 <!ENTITY allowRemoteDebugging.accesskey	"g">
 
@@ -566,8 +568,10 @@
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label		"このメッセージ内のリモートコンテンツを表示する">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey	"S">
-<!ENTITY remoteContentOptionAllowForAddress.label	"この送信者からのリモートコンテンツを表示する">
-<!ENTITY remoteContentOptionAllowForAddress.accesskey	"f">
+<!ENTITY editRemoteContentSettings.label		"リモートコンテンツ設定を変更する...">
+<!ENTITY editRemoteContentSettings.accesskey		"E">
+<!ENTITY editRemoteContentSettingsUnix.label		"リモートコンテンツ設定を変更する...">
+<!ENTITY editRemoteContentSettingsUnix.accesskey	"E">
 
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label			"このメッセージの警告を無視する">
@@ -625,12 +629,12 @@
 <!ENTITY folderContextSubscribe.accesskey		"b">
 <!ENTITY folderContextSearchForMessages.label		"メッセージを検索...">
 <!ENTITY folderContextSearchForMessages.accesskey	"S">
-<!ENTITY folderContextProperties.label			"@@PropertyCMD@@...">
-<!ENTITY folderContextProperties.accesskey		"P">
+<!ENTITY folderContextProperties2.label			"@@PropertyCMD@@">
+<!ENTITY folderContextProperties2.accesskey		"P">
 <!ENTITY folderContextFavoriteFolder.label		"お気に入りフォルダ">
 <!ENTITY folderContextFavoriteFolder.accesskey		"a">
-<!ENTITY folderContextSettings.label			"設定...">
-<!ENTITY folderContextSettings.accesskey		"e">
+<!ENTITY folderContextSettings2.label			"設定">
+<!ENTITY folderContextSettings2.accesskey		"e">
 
 <!-- Search Bar-->
 <!ENTITY SearchNameOrEmail.label		"名前やメールに含まれる単語:">
@@ -702,6 +706,8 @@
 <!ENTITY contextOpenNewTab.accesskey		"T">
 <!ENTITY contextOpenConversation.label		"@@NewTab@@でスレッドを開く"><!-- en-US: "Open Message in Conversation" -->
 <!ENTITY contextOpenConversation.accesskey	"n">
+<!ENTITY contextOpenContainingFolder.label	"メッセージを含むフォルダを開く">
+<!ENTITY contextOpenContainingFolder.accesskey	"n">
 <!ENTITY contextEditMsgAsNew.label		"@@New-CMD@@メッセージとして編集">
 <!ENTITY contextEditMsgAsNew.accesskey		"E">
 <!ENTITY contextArchive.label			"アーカイブ">
@@ -884,7 +890,7 @@
 <!ENTITY bringAllToFront.label		"@@BringAllToFront@@">
 <!ENTITY zoomWindow.label		"@@Zoom@@">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac.label	"環境設定...">
+<!ENTITY preferencesCmdMac2.label	"環境設定">
 <!ENTITY preferencesCmdMac.commandkey	",">
 <!ENTITY preferencesCmdMac.modifiers	"accel">
 <!ENTITY servicesMenuMac.label		"サービス">

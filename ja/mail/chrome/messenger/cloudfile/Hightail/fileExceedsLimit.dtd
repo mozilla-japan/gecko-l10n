@@ -1,7 +1,7 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this file,
    - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
-<!ENTITY fileExceedsLimit.title		"YouSendIt">
+<!ENTITY fileExceedsLimit.title		"Hightail">
 <!ENTITY fileExceedsLimit.thatsBigFile	"50MB 以上のファイルを送信">
 <!ENTITY fileExceedsLimit.thatsBigFile2	"する機能は有料です。">
 <!ENTITY fileExceedsLimit.accept	"アップグレード">
