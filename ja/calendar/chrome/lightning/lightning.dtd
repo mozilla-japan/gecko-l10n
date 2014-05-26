@@ -40,7 +40,31 @@
 <!ENTITY lightning.calendarproperties.email.label		"メール:">
 
 <!-- iMIP Bar (meeting support) -->
-<!ENTITY lightning.imipbar.description			"メッセージに参加依頼が含まれています。">
+<!ENTITY lightning.imipbar.btnAccept.label			"参加">
+<!ENTITY lightning.imipbar.btnAccept2.tooltiptext		"招待を承諾します">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences.label		"すべて参加">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext	"すべての招待を承諾して参加します">
+<!ENTITY lightning.imipbar.btnAdd.label				"追加">
+<!ENTITY lightning.imipbar.btnAdd.tooltiptext			"カレンダーに予定を追加します">
+<!ENTITY lightning.imipbar.btnDecline.label			"辞退">
+<!ENTITY lightning.imipbar.btnDecline2.tooltiptext		"招待を辞退します">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences.label		"すべて辞退">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext	"すべての招待を辞退します">
+<!ENTITY lightning.imipbar.btnDelete.label			"削除">
+<!ENTITY lightning.imipbar.btnDelete.tooltiptext		"カレンダーから削除します">
+<!ENTITY lightning.imipbar.btnDetails.label			"詳細...">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext		"予定の詳細を表示します">
+<!ENTITY lightning.imipbar.btnMore.label			"その他">
+<!ENTITY lightning.imipbar.btnMore.tooltiptext			"クリックするとその他のオプションを表示します">
+<!ENTITY lightning.imipbar.btnReconfirm2.label			"再確認">
+<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext		"主催者に再確認のメールを送信します">
+<!ENTITY lightning.imipbar.btnTentative.label			"仮承諾">
+<!ENTITY lightning.imipbar.btnTentative2.tooltiptext		"招待を仮承諾します">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences.label	"すべて仮承諾">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext	"すべての招待を仮承諾します">
+<!ENTITY lightning.imipbar.btnUpdate.label			"更新">
+<!ENTITY lightning.imipbar.btnUpdate.tooltiptext		"カレンダーの予定を更新します">
+<!ENTITY lightning.imipbar.description				"メッセージに参加依頼が含まれています。">
 
 <!-- Lightning specific keybindings -->
 <!ENTITY lightning.keys.event.showCalendar.key		"C">

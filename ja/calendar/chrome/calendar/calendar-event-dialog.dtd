@@ -9,10 +9,6 @@
 
 <!ENTITY newevent.from.label				"開始日時" >
 <!ENTITY newevent.to.label				"終了日時" >
-<!ENTITY newevent.attendees.notify.label		"参加者に通知する">
-
-<!ENTITY newevent.attendees.notifyundisclosed.label	"招待者リストの参加者を非公開にする">
-<!ENTITY newevent.attendees.notifyundisclosed.tooltip	"有効にすると、他の参加者が表示されなくなります。これはメールでの招待にのみ適用されます。">
 
 <!ENTITY newevent.status.label				"状態" >
 <!ENTITY newevent.status.accesskey			"S" >
@@ -32,6 +28,13 @@
 
 <!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label			"&#37;">
+
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
+   - These two labels are displayed side by side in the event dialog, make sure
+   - they still fit in. -->
+<!ENTITY event.attendees.notify.label			"参加者に通知する">
+<!ENTITY event.attendees.notifyundisclosed.label	"参加者ごとに招待メールを分ける">
+<!ENTITY event.attendees.notifyundisclosed.tooltip	"このオプションは、参加者ごとに個別の招待メールを送信します。各招待メールには受信した参加者のみが含まれ、他の参加者の識別情報は非公開になります。">
 
 <!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.event.key2			"I">
