@@ -47,10 +47,6 @@
 <!ENTITY Unknown.label			"不明">
 <!ENTITY chatName.label                 "チャットネーム:">
 
-<!ENTITY allowRemoteContent1.label	"リモートコンテンツの使用を許可する">
-<!ENTITY allowRemoteContent1.accesskey	"r">
-<!ENTITY allowRemoteContent1.tooltip	"HTML メールではリモートコンテンツを埋め込むことができます。リモートコンテンツを埋め込まれたメッセージを開くとインターネットに接続してコンテンツを取得しますが、それを利用してあなたがメッセージを開いたことを記録される可能性もあります。このチェックボックスをオンにすると、この連絡先から送られてきた HTML メールではリモートコンテンツの読み込みを許可します。">
-
 <!ENTITY WorkPhone.label		"勤務先:">
 <!ENTITY WorkPhone.accesskey		"k">
 <!ENTITY HomePhone.label		"自宅:">

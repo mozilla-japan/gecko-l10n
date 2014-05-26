@@ -485,3 +485,4 @@ security/manager       192755:bae7daefa1cb  -----:------------   hATrayflood    
 dom                    192786:be4ae11bd65e  18014:6022cfee2d54   mar             re-sync dom
 calendar               ------:------------  18016:89a8396cbbea   mar             sync calendar
 chat                   ------:------------  18016:89a8396cbbea   mar             sync chat
+mail                   ------:------------  18016:89a8396cbbea   mar             sync mail

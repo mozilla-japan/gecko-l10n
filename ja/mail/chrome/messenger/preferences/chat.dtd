@@ -22,3 +22,17 @@ sentence. -->
 
 <!ENTITY  sendTyping.label		"会話中のタイピング通知を送信する">
 <!ENTITY  sendTyping.accesskey		"t">
+
+<!ENTITY  chatNotifications.label		"ダイレクトメッセージの通知:">
+<!ENTITY  desktopChatNotifications.label	"デスクトップ通知を表示する">
+<!ENTITY  desktopChatNotifications.accesskey	"c">
+<!ENTITY  chatSound.accesskey			"d">
+<!ENTITY  chatSound.label			"音を鳴らす">
+<!ENTITY  play.label				"再生">
+<!ENTITY  play.accesskey			"P">
+<!ENTITY  systemSound.label			"システムの新着メール通知音">
+<!ENTITY  systemSound.accesskey			"D">
+<!ENTITY  customsound.label			"次のサウンドファイルを使用する">
+<!ENTITY  customsound.accesskey			"U">
+<!ENTITY  browse.label				"@@Browse@@...">
+<!ENTITY  browse.accesskey			"B">

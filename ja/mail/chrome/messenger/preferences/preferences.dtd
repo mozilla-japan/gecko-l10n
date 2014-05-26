@@ -13,5 +13,6 @@
 <!ENTITY paneComposition.title	"編集">
 <!ENTITY paneChat.title		"チャット">
 <!ENTITY paneAttachments.title	"添付ファイル">
+<!ENTITY panePrivacy.title	"プライバシー">
 <!ENTITY paneSecurity.title	"セキュリティ">
 <!ENTITY paneAdvanced.title	"詳細">

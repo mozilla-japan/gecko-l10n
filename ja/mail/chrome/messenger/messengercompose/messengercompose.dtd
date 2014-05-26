@@ -89,18 +89,20 @@
 <!ENTITY selectAllCmd.label		"@@SelectAll@@">
 <!ENTITY selectAllCmd.key		"A">
 <!ENTITY selectAllCmd.accesskey		"a">
-<!ENTITY findCmd.label			"検索と置換...">
-<!ENTITY findCmd.key			"F">
-<!ENTITY findCmd.accesskey		"F">
+<!ENTITY findBarCmd.label		"検索...">
+<!ENTITY findBarCmd.accesskey		"F">
+<!ENTITY findBarCmd.key			"F">
+<!ENTITY findReplaceCmd.label		"検索と置換...">
+<!ENTITY findReplaceCmd.accesskey	"l">
 <!ENTITY findReplaceCmd.key		"H">
 <!ENTITY findAgainCmd.label		"次を検索">
-<!ENTITY findAgainCmd.key		"G">
 <!ENTITY findAgainCmd.accesskey		"g">
+<!ENTITY findAgainCmd.key		"G">
 <!ENTITY findAgainCmd.key2		"VK_F3">
 <!ENTITY findPrevCmd.label		"前を検索">
+<!ENTITY findPrevCmd.accesskey		"v">
 <!ENTITY findPrevCmd.key		"G">
 <!ENTITY findPrevCmd.key2		"VK_F3">
-<!ENTITY findPrevCmd.accesskey		"v">
 
 <!-- View Menu -->
 <!ENTITY viewMenu.label				"表示">
@@ -181,11 +183,11 @@
 <!ENTITY addressBookCmd.label		"アドレス帳">
 <!ENTITY addressBookCmd.accesskey	"a">
 <!ENTITY addressBookCmd.key		"B">
-<!ENTITY accountManagerCmd.label	"アカウント設定...">
-<!ENTITY accountManagerCmd.accesskey	"S">
-<!ENTITY accountManagerCmdUnix.accesskey	"S">
-<!ENTITY preferencesCmd.label		"オプション...">
-<!ENTITY preferencesCmd.accesskey	"O">
+<!ENTITY accountManagerCmd2.label	"アカウント設定">
+<!ENTITY accountManagerCmd2.accesskey	"S">
+<!ENTITY accountManagerCmdUnix2.accesskey "S">
+<!ENTITY preferencesCmd2.label		"オプション">
+<!ENTITY preferencesCmd2.accesskey	"O">
 <!ENTITY preferencesCmdUnix.label	"設定">
 <!ENTITY preferencesCmdUnix.accesskey	"n">
 

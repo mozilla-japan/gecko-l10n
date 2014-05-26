@@ -19,6 +19,12 @@
 <!ENTITY quickMode.label		"Web ページを読み込まずに記事の要約を表示する">
 <!ENTITY quickMode.accesskey		"h">
 
+<!ENTITY autotagEnable.label		"フィードの &lt;カテゴリ&gt; 名から自動的にタグを作成する">
+<!ENTITY autotagEnable.accesskey	"c">
+<!ENTITY autotagUsePrefix.label		"タグの接頭辞:">
+<!ENTITY autotagUsePrefix.accesskey	"P">
+<!ENTITY autoTagPrefix.placeholder	"タグの接頭辞を入力してください">
+
 <!ENTITY locationValidate.label		"フィードの検証">
 <!ENTITY validateText.label		"フィードが有効か確認して正しい URL を取得します。">
 

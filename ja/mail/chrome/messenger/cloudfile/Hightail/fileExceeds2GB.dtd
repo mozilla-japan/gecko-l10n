@@ -1,4 +1,6 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this file,
    - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
-<!ENTITY ubuntuOneMgmt.viewSettings	"one.ubuntu.com 上のアカウント設定を表示">
+<!ENTITY fileExceeds2GB.title		"Hightail">
+<!ENTITY fileExceeds2GB.cancel		"OK">
+<!ENTITY fileExceeds2GB.description	"2GB を超えるファイルの送信はサポートされていません。">
