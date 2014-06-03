@@ -27,7 +27,7 @@
 <!ENTITY warn.leavingsecure                 "暗号化されたページから離れるとき">
 <!ENTITY warn.leavingsecure.accesskey       "a">
 
-<!ENTITY mixed.description                  "暗号化されたページには、盗聴や詐欺に対してぜい弱な暗号化されていないコンテンツが含まれることがあります。&brandShortName; はそのようなページを検出してブロックします:">
+<!ENTITY mixed.description                  "暗号化されたページには、盗聴や詐欺に対して脆弱な暗号化されていないコンテンツが含まれることがあります。&brandShortName; はそのようなページを検出してブロックします:">
 <!ENTITY warn.mixedactivecontent            "暗号化されたページに安全でないコンテンツが含まれるとき警告する">
 <!ENTITY warn.mixedactivecontent.accesskey  "W">
 <!ENTITY block.activecontent                "暗号化されたページ上の安全でないコンテンツは読み込まない">
