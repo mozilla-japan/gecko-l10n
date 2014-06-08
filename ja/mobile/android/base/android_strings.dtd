@@ -54,7 +54,7 @@
 <!ENTITY back "戻る">
 <!ENTITY stop "中止">
 <!ENTITY site_security "サイトセキュリティ">
-<!ENTITY save "保存">
+<!ENTITY edit_mode_cancel "キャンセル">
 
 <!ENTITY close_tab "タブを閉じる">
 <!ENTITY one_tab "1 個のタブ">
@@ -73,6 +73,7 @@
 <!ENTITY pref_category_privacy_short "プライバシー">
 <!ENTITY pref_category_vendor "&vendorShortName;">
 <!ENTITY pref_category_datareporting "データの選択">
+<!ENTITY pref_learn_more "さらに詳しく">
 <!ENTITY pref_category_installed_search_engines "インストール済みの検索エンジン">
 <!ENTITY pref_category_add_search_providers "検索プロバイダを追加">
 <!ENTITY pref_category_search_restore_defaults "検索エンジンを復元">
@@ -86,7 +87,6 @@
 <!ENTITY pref_search_hint "ヒント: サイトの検索フィールド上で長押しした後、 &formatI; アイコンをタップすることで、どのサイトでも検索プロバイダに追加できます">
 <!ENTITY pref_category_devtools "デベロッパーツール">
 <!ENTITY pref_developer_remotedebugging "リモートデバッグ">
-<!ENTITY pref_developer_remotedebugging_docs "さらに詳しく">
 <!ENTITY pref_remember_signons "パスワードを保存する">
 
 <!ENTITY pref_category_home "ホーム">
@@ -157,14 +157,14 @@ size. -->
 <!ENTITY pref_sync "Firefox Sync で同期">
 <!ENTITY pref_search_suggestions "検索語句の候補を表示">
 <!ENTITY pref_import_android "Android から@@Import-suru@@">
-<!ENTITY pref_private_data_history "閲覧とダウンロードの履歴">
+<!ENTITY pref_private_data_history2 "閲覧履歴">
 <!ENTITY pref_private_data_formdata "フォームと検索の履歴">
 <!ENTITY pref_private_data_cookies2 "Cookie">
 <!ENTITY pref_private_data_passwords "保存されたパスワード">
 <!ENTITY pref_private_data_cache "キャッシュ">
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
 <!ENTITY pref_private_data_siteSettings2 "サイト設定">
-<!ENTITY pref_private_data_downloadFiles "ダウンロードしたファイル">
+<!ENTITY pref_private_data_downloadFiles2 "ダウンロードしたファイル">
 
 
 <!ENTITY pref_about_firefox "&brandShortName; について">
@@ -179,6 +179,9 @@ size. -->
 
 <!ENTITY pref_panels_show "表示">
 <!ENTITY pref_panels_hide "隠す">
+<!ENTITY pref_panels_reorder "並びかえ">
+<!ENTITY pref_panels_move_up "上に移動">
+<!ENTITY pref_panels_move_down "下に移動">
 
 <!ENTITY datareporting_notification_title "&brandShortName; 統計とデータ">
 <!ENTITY datareporting_notification_action_long "共有する情報を選択してください">
@@ -202,8 +205,8 @@ size. -->
 <!-- Localization note (datareporting_crashreporter_title_short) : This string matches
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "クラッシュレポータ">
-<!ENTITY datareporting_wifi_title "&vendorShortName; 位置情報サービス">
-<!ENTITY datareporting_wifi_summary "基地局のデータを匿名で &brandShortName; に収集し送信させることにより、オープンな Web のための位置情報サービスの向上に役立ちます">
+<!ENTITY datareporting_wifi_title2 "&vendorShortName; 位置情報サービス">
+<!ENTITY datareporting_wifi_geolocation_summary "位置情報サービスの向上のため、バックグラウンドでの動作時に Wi-Fi と基地局の位置情報を受信し、 &vendorShortName; に共有します">
 
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
@@ -290,7 +293,6 @@ size. -->
 <!ENTITY site_settings_clear        "消去">
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
 
-<!ENTITY reading_list_add "リーディングリストに追加">
 <!ENTITY reading_list_added "ページがリーディングリストに追加されました">
 <!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
 <!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
@@ -338,6 +340,10 @@ size. -->
 <!-- Localization note (home_default_empty): This string is used as the default text when there
      is no data to show in an about:home panel that was created by an add-on. -->
 <!ENTITY home_default_empty "このパネルにはコンテンツがありません。">
+
+<!-- Localization note (home_move_up_to_filter): The variable is replaced by the name of the
+     previous location in the navigation, such as the previous folder -->
+<!ENTITY home_move_up_to_filter "&formatS; へ">
 
 <!ENTITY pin_site_dialog_hint "検索キーワードを入力してください">
 
@@ -417,6 +423,12 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY exit_guest_session_title "&brandShortName; は今すぐ再起動します">
 <!ENTITY exit_guest_session_text "このセッションの閲覧データは削除されます。">
+
+<!-- Miscellaneous -->
+<!-- LOCALIZATION NOTE (ellipsis): This text is appended to a piece of text that does not fit in the
+     designated space. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit
+     traditions in your locale. -->
+<!ENTITY ellipsis "...">
 
 <!-- These are only used for accessiblity for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
