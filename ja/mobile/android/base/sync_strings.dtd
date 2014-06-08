@@ -178,6 +178,8 @@
 <!ENTITY fxaccount_status_needs_verification2 'あなたのアカウントを確認してください。タップして確認のメールを再送信します。'>
 <!ENTITY fxaccount_status_needs_credentials '接続できません。タップしてサインインします。'>
 <!ENTITY fxaccount_status_needs_upgrade 'サインインするには &brandShortName; をアップグレードする必要があります。'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。 Android の設定 &gt; データ使用量から「データの自動同期」を有効にしてください。'>
+<!ENTITY fxaccount_status_needs_account_enabled '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。同期を始めるにはタップしてください。'>
 <!ENTITY fxaccount_status_bookmarks 'ブックマーク'>
 <!ENTITY fxaccount_status_history '履歴'>
 <!ENTITY fxaccount_status_passwords 'パスワード'>
