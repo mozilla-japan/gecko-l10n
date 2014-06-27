@@ -1,0 +1,37 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY migrationWizard.title		"設定移行@@Wizard@@">
+
+<!ENTITY importFrom.label		"オプション、ブックマーク、履歴、パスワードその他のデータを@@Import-suru@@対象を選んでください:">
+<!ENTITY importFromUnix.label		"設定、ブックマーク、履歴、パスワードその他のデータを@@Import-suru@@対象を選んでください:">
+<!ENTITY importFromBookmarks.label      "ブックマークを@@Import-suru@@対象を選んでください:">
+
+<!ENTITY importFromIE.label		"Microsoft Internet Explorer">
+<!ENTITY importFromIE.accesskey		"M">
+<!ENTITY importFromNothing.label	"設定を@@Import-sinai@@">
+<!ENTITY importFromNothing.accesskey	"D">
+<!ENTITY importFromSafari.label		"Safari">
+<!ENTITY importFromSafari.accesskey	"S">
+<!ENTITY importFromChrome.label		"Chrome">
+<!ENTITY importFromChrome.accesskey	"C">
+<!ENTITY importFromFirefox.label	"Firefox">
+<!ENTITY importFromFirefox.accesskey	"X">
+
+<!ENTITY noMigrationSources.label	"ブックマーク、履歴やパスワードなどの@@Import-suru@@設定やデータを持つ@@Program@@が見つかりませんでした。">
+
+<!ENTITY importSource.title		"設定とデータ@@-ImportCMD@@">
+<!ENTITY importItems.title		"@@Import-suru@@項目">
+<!ENTITY importItems.label		"@@Import-suru@@項目を選択してください:">
+
+<!ENTITY migrating.title		"@@Import-site@@います...">
+<!ENTITY migrating.label		"次の項目を現在@@Import-site@@います...">
+
+<!ENTITY selectProfile.title		"プロファイルの選択">
+<!ENTITY selectProfile.label		"@@Import-suru@@プロファイルを選択してください:">
+
+<!ENTITY done.title			"@@ImportNoun@@完了">
+<!ENTITY done.label			"次のデータが正常に@@Import-sare@@ました:">
+

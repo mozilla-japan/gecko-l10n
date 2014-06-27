@@ -1,0 +1,32 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!--LOCALIZATION NOTE : FILE The Advanced Proxy Preferences dialog -->
+<!ENTITY  pref.proxies.advanced.title "プロキシの詳細設定">
+<!ENTITY  protocols.caption           "プロトコル別にプロキシを設定">
+<!ENTITY  protocols.description       "ほとんどのプロキシでは、プロトコル別に設定をする必要はありません。">
+<!ENTITY  http.label                  "HTTP プロキシ:">
+<!ENTITY  http.accesskey              "x">
+<!ENTITY  ssl.label                   "SSL プロキシ:">
+<!ENTITY  ssl.accesskey               "L">
+<!ENTITY  ftp.label                   "FTP プロキシ:">
+<!ENTITY  ftp.accesskey               "F">
+<!ENTITY  reuseProxy.label            "すべてのプロトコルで HTTP プロキシと同じ設定を使用">
+<!ENTITY  reuseProxy.accesskey        "U">
+<!ENTITY  port.label                  "ポート番号:">
+<!ENTITY  HTTPPort.accesskey          "P">
+<!ENTITY  SSLPort.accesskey           "o">
+<!ENTITY  FTPPort.accesskey           "r">
+
+<!ENTITY  socks.caption               "Generic プロキシ">
+<!ENTITY  socks.description           "SOCKS プロキシは主に企業などで使用されます。">
+<!ENTITY  socks.label                 "SOCKS プロキシ:">
+<!ENTITY  socks.accesskey             "S">
+<!ENTITY  socks4.label                "SOCKS v4">
+<!ENTITY  socks4.accesskey            "C">
+<!ENTITY  socks5.label                "SOCKS v5">
+<!ENTITY  socks5.accesskey            "K">
+<!ENTITY  socksRemoteDNS.label        "ホスト名の解決に使用 (SOCKS v5 で推奨)">
+<!ENTITY  socksRemoteDNS.accesskey    "e">
+<!ENTITY  SOCKSport.accesskey         "t">

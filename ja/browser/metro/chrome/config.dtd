@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY empty.label            "検索">
+<!ENTITY addpref.name           "設定名">
+
+<!ENTITY cancel.label           "キャンセル">
+<!ENTITY toggle.label           "切り替え">
+
+<!ENTITY integer.label          "整数値">
+<!ENTITY string.label           "文字列">
+<!ENTITY boolean.label          "真偽値">
+
+<!ENTITY string.placeholder     "文字列を入力しください">
+<!ENTITY number.placeholder     "整数値を入力しください">

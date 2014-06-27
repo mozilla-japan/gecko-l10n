@@ -1,0 +1,58 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Flyout -->
+<!ENTITY sync.flyout.title                     "&syncBrand.shortName.label;">
+
+<!-- Flyout when not connected -->
+<!ENTITY sync.flyout.presetup.description1     "ブックマーク、パスワード、開いているタブに、様々な端末からアクセスできます。">
+<!ENTITY sync.flyout.presetup.setup.label      "&syncBrand.shortName.label; をセットアップ">
+
+<!-- Flyout when setting up sync -->
+<!ENTITY sync.flyout.setup.title               "&syncBrand.shortName.label; をセットアップ">
+<!ENTITY sync.flyout.setup.description1        "&syncBrand.shortName.label; アカウントを持っている場合は、他の端末で &#x0022;端末と連携&#x0022; を選択して、このコードを入力してください。">
+<!ENTITY sync.flyout.setup.description2        "&syncBrand.shortName.label; アカウントを持っていない場合は、&brandShortName; デスクトップ版でアカウントを作成してください。">
+<!ENTITY sync.flyout.setup.manual.label_2      "コンピュータが手元にない...">
+<!ENTITY sync.flyout.setup.description3        "メモ:">
+<!ENTITY sync.flyout.setup.description4_2      "&#x0022;端末と連携&#x0022; の場所は">
+<!ENTITY sync.flyout.setup.description5_2      "[デスクトップ] &quot;オプション&quot; または &quot;設定&quot; を開いて、&quot;&syncBrand.shortName.label;&quot; を選択します">
+<!ENTITY sync.flyout.setup.description6_2      "[Android] メニュー &gt; 設定 &gt; &syncBrand.shortName.label;">
+
+<!-- Flyout when setting up manually -->
+<!ENTITY sync.flyout.manualsetup.description1_2          "&syncBrand.shortName.label; アカウントの情報と生成されたリカバリキーを入力してください。">
+<!ENTITY sync.flyout.manualsetup.account.placeholder     "アカウント名">
+<!ENTITY sync.flyout.manualsetup.password.placeholder    "パスワード">
+<!ENTITY sync.flyout.manualsetup.recoveryKey.placeholder "リカバリキー">
+<!ENTITY sync.flyout.manualsetup.connect.label           "接続">
+
+<!-- Flyout when user has just connected -->
+<!ENTITY sync.flyout.setupsuccess.description1      "&syncBrand.shortName.label; アカウントに接続できました。">
+<!ENTITY sync.flyout.setupsuccess.description2      "&syncBrand.shortName.label; データをバックグランドでダウンロードしています。同期したタブを &brandShortName; のスタートページに設定しました。">
+
+<!-- Flyout when setup failed -->
+<!ENTITY sync.flyout.setupfailure.description       "&syncBrand.shortName.label; アカウントに接続できません。">
+<!ENTITY sync.flyout.setupfailure.cancelButton      "キャンセル">
+<!ENTITY sync.flyout.setupfailure.tryAgainButton    "再試行">
+
+<!-- Flyout when connected and functioning normally -->
+<!ENTITY sync.flyout.connected.account                    "アカウント:">
+<!ENTITY sync.flyout.connected.device                     "端末:">
+<!ENTITY sync.flyout.connected.disconnect                 "切断">
+<!ENTITY sync.flyout.connected.disconnectWarningHeader    "端末を &syncBrand.shortName.label; から切り離しますか？">
+<!ENTITY sync.flyout.connected.disconnectWarning          "すべての個人データは、この端末と &syncBrand.shortName.label; アカウントの両方に保存されます。">
+<!ENTITY sync.flyout.connected.cancel                     "キャンセル">
+<!ENTITY sync.flyout.connected.pair                       "端末と連携">
+
+<!-- Flyout when pairing a device -->
+<!ENTITY sync.flyout.pairNewDevice.description            "新しく連携する端末で &quot;&syncBrand.shortName.label; をセットアップ&quot; を選択して、連携済みの端末で生成されるコードを入力してください。">
+<!ENTITY sync.flyout.pairNewDevice.pair                   "連携">
+<!ENTITY sync.flyout.pairNewDevice.note1                  "メモ:">
+<!ENTITY sync.flyout.pairNewDevice.note2_2                "コードを表示するには">
+<!ENTITY sync.flyout.pairNewDevice.note3_2                "[デスクトップ] &quot;オプション&quot; または &quot;設定&quot; を開いて、&syncBrand.shortName.label; を選択し、&quot;&syncBrand.fullName.label; のセットアップ&quot; をクリック、&quot;アカウントを持っています&quot; ボタンを押してください。">
+<!ENTITY sync.flyout.pairNewDevice.note4                  "[Android] メニュー &gt; 設定 &gt; &syncBrand.shortName.label;">
+<!ENTITY sync.flyout.pairNewDevice.failure                "もう一度入力してください。">
+
+<!-- Flyout when a device has been successfully paired -->
+<!ENTITY sync.flyout.pairSuccess.description1             "新しい端末を追加できました。">
+<!ENTITY sync.flyout.pairSuccess.description2             "&syncBrand.shortName.label; データをバックグランドでダウンロードしています。ほかの端末のタブを &brandShortName; のスタートページに設定しました。">

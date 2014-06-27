@@ -1,0 +1,32 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!--LOCALIZATION NOTE : FILE 'Privacy and Security' prefs settings -->
+<!ENTITY pref.security.title              "プライバシーとセキュリティ">
+
+<!ENTITY tracking.label                   "トラッキング">
+<!ENTITY trackingIntro.label              "Web サイトの中にはあなたの行動を追跡するものがあり、あなたのプライバシーに影響を与えます。">
+
+<!ENTITY dntTellSites.label               "トラッキングに関する設定をサイトに通知する">
+<!ENTITY dntTellSites.accesskey           "T">
+<!ENTITY dntTrackingNotOkay.label         "トラッキングを拒否する">
+<!ENTITY dntTrackingNotOkay.accesskey     "n">
+<!ENTITY dntTrackingOkay.label            "トラッキングを許可する">
+<!ENTITY dntTrackingOkay.accesskey        "c">
+
+
+<!-- LOCALIZATION NOTE (safeBrowsing.label, blockWebForgeries.label, blockAttackSites.label):
+  The methods by which forged (phished) and attack sites will be detected by
+  phishing providers will vary from human review to machine-based heuristics
+  to a combination of both, so it's important that these strings convey the
+  meaning "reported" (and not something like "known").
+-->
+<!ENTITY safeBrowsing.label               "セーフブラウジング">
+<!ENTITY safeBrowsingIntro.label          "&brandShortName; は悪意のあるコンテンツとして報告されているサイトをブロックできます。">
+
+<!ENTITY blockAttackSites.label           "攻撃サイトとして報告されているサイトをブロックする (マルウェアやウイルスなど)">
+<!ENTITY blockAttackSites.accesskey       "B">
+
+<!ENTITY blockWebForgeries.label          "偽装サイトとして報告されているサイトをブロックする (偽装サイト)">
+<!ENTITY blockWebForgeries.accesskey      "P">
