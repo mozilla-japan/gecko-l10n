@@ -31,6 +31,8 @@
 <!ENTITY pref.defalarmlen4events.accesskey "u">
 <!ENTITY pref.defalarmlen4todos.label "アラーム通知から ToDo までの時間:">
 <!ENTITY pref.defalarmlen4todos.accesskey "o">
+<!ENTITY pref.defaultemail.label "アラームを通知するメールアドレス:">
+<!ENTITY pref.defaulttext.label "アラーム通知の文章:">
 
 <!ENTITY pref.defaultsnoozelength.label "アラーム再通知の@@Default-@@間隔:" >
 <!ENTITY pref.defaultsnoozelength.accesskey "S">
