@@ -332,8 +332,8 @@
 <!ENTITY invite.title.label				"参加者の追加">
 <!ENTITY event.organizer.label				"主催者">
 <!ENTITY event.freebusy.suggest.slot			"提案時間帯:">
-<!ENTITY event.freebusy.next.slot			"次の時間帯 " >
-<!ENTITY event.freebusy.previous.slot			" 前の時間帯" >
+<!ENTITY event.freebusy.button.next.slot		"次の時間帯">
+<!ENTITY event.freebusy.button.previous.slot		"前の時間帯">
 <!ENTITY event.freebusy.zoom				"@@Zoom@@:">
 <!ENTITY event.freebusy.legend.free			"空き" >
 <!ENTITY event.freebusy.legend.busy			"予定あり" >
