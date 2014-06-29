@@ -84,7 +84,7 @@
      search providers.
      The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
      it is applicable. -->
-<!ENTITY pref_search_hint "ヒント: サイトの検索フィールド上で長押しした後、 &formatI; アイコンをタップすることで、どのサイトでも検索プロバイダに追加できます">
+<!ENTITY pref_search_hint "ヒント: サイトの検索フィールド上で長押しした後、&formatI; アイコンをタップすることで、どのサイトでも検索プロバイダに追加できます">
 <!ENTITY pref_category_devtools "デベロッパーツール">
 <!ENTITY pref_developer_remotedebugging "リモートデバッグ">
 <!ENTITY pref_remember_signons "パスワードを保存する">
@@ -179,7 +179,7 @@ size. -->
 
 <!ENTITY pref_panels_show "表示">
 <!ENTITY pref_panels_hide "隠す">
-<!ENTITY pref_panels_reorder "並びかえ">
+<!ENTITY pref_panels_reorder "並べ替え">
 <!ENTITY pref_panels_move_up "上に移動">
 <!ENTITY pref_panels_move_down "下に移動">
 
@@ -206,7 +206,7 @@ size. -->
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "クラッシュレポータ">
 <!ENTITY datareporting_wifi_title2 "&vendorShortName; 位置情報サービス">
-<!ENTITY datareporting_wifi_geolocation_summary "位置情報サービスの向上のため、バックグラウンドでの動作時に Wi-Fi と基地局の位置情報を受信し、 &vendorShortName; に共有します">
+<!ENTITY datareporting_wifi_geolocation_summary "位置情報サービスの向上のため、バックグラウンドでの動作時に Wi-Fi と基地局の位置情報を受信し、&vendorShortName; に共有します">
 
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
@@ -343,7 +343,7 @@ size. -->
 
 <!-- Localization note (home_move_up_to_filter): The variable is replaced by the name of the
      previous location in the navigation, such as the previous folder -->
-<!ENTITY home_move_up_to_filter "&formatS; へ">
+<!ENTITY home_move_up_to_filter "&formatS; へ戻る">
 
 <!ENTITY pin_site_dialog_hint "検索キーワードを入力してください">
 
