@@ -62,11 +62,28 @@
      We can't use android plural forms, sadly. See bug #753859. -->
 <!ENTITY num_tabs2 "&formatD; 個のタブ">
 <!ENTITY new_tab_opened "@@NewTab@@を開きました">
+<!ENTITY new_private_tab_opened "プライベートタブを開きました">
+<!-- Localization note (switch_button_message): This string should be as short
+     as possible because it's shown as a label in a toast.  Ideally, this string
+     is upper-case, to match Google and Android's convention. -->
+<!ENTITY switch_button_message "切り替え">
 
 <!ENTITY settings "設定">
 <!ENTITY settings_title "設定">
 <!ENTITY pref_category_advanced "詳細">
 <!ENTITY pref_category_customize "カスタマイズ">
+
+<!-- Localization note (pref_category_language) : This is the preferences
+     section in which the user picks the locale in which to display Firefox
+     UI. The locale includes both language and region concepts. -->
+<!ENTITY pref_category_language "言語">
+<!ENTITY pref_browser_locale "ブラウザの言語">
+
+<!-- Localization note (locale_system_default) : This string indicates that
+     Firefox will use the locale currently selected in Android's settings
+     to display browser chrome. -->
+<!ENTITY locale_system_default "システム標準">
+
 <!ENTITY pref_category_search3 "検索">
 <!ENTITY pref_category_search_summary "検索プロバイダをカスタマイズ">
 <!ENTITY pref_category_display "表示">
@@ -103,12 +120,15 @@
 <!ENTITY pref_home_updates "自動アップデート">
 <!ENTITY pref_home_updates_enabled "有効">
 <!ENTITY pref_home_updates_wifi "Wi-Fi のみ有効">
+<!ENTITY pref_home_suggested_sites "おすすめのサイトを表示">
+<!ENTITY pref_home_suggested_sites_summary "ホームページにサイトのショートカットを表示することで、興味のあるものを見つけるのに役立ちます">
 
 <!-- Localization note: These are shown in the left sidebar on tablets -->
 <!ENTITY pref_header_customize "カスタマイズ">
 <!ENTITY pref_header_display "表示">
 <!ENTITY pref_header_privacy_short "プライバシー">
 <!ENTITY pref_header_help "ヘルプ">
+<!ENTITY pref_header_language "言語">
 <!ENTITY pref_header_vendor "&vendorShortName;">
 <!ENTITY pref_header_devtools "デベロッパーツール">
 
@@ -216,6 +236,9 @@ size. -->
 <!ENTITY pref_update_autodownload_never "許可しない">
 <!ENTITY pref_update_autodownload_always "常に許可">
 
+<!-- Localization note (help_menu) : This string is used in the main menu-->
+<!ENTITY help_menu "ヘルプ">
+
 <!ENTITY quit "終了">
 
 <!ENTITY addons "アドオン">
@@ -279,7 +302,10 @@ size. -->
      whether or not the dynamic toolbar is enabled. -->
 <!ENTITY pref_scroll_title_bar "タイトルバーをスクロールする">
 
-<!ENTITY history_removed "履歴からページが削除されました">
+<!-- Localization note (page_removed): This string appears in a toast message when
+     any page is removed frome about:home. This includes pages that are in history,
+     bookmarks, or reading list. -->
+<!ENTITY page_removed "ページが削除されました">
 
 <!ENTITY bookmark_edit_title "ブックマークを編集">
 <!ENTITY bookmark_edit_name "名前">
@@ -294,7 +320,6 @@ size. -->
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
 
 <!ENTITY reading_list_added "ページがリーディングリストに追加されました">
-<!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
 <!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
 <!ENTITY reading_list_duplicate "ページはすでにリーディングリストに追加されています">
 
@@ -321,6 +346,8 @@ size. -->
 <!ENTITY home_top_sites_add "サイトを追加">
 
 <!ENTITY home_history_title "履歴">
+<!ENTITY home_clear_history_button "閲覧履歴を削除">
+<!ENTITY home_clear_history_confirm "本当に履歴を削除しますか？">
 <!ENTITY home_bookmarks_empty "あなたが保存したブックマークが表示されます。">
 <!ENTITY home_last_tabs_title "前回のタブ">
 <!ENTITY home_last_tabs_open "前回のタブをすべて開く">
@@ -434,3 +461,11 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      They are never shown to users -->
 <!ENTITY actionbar_menu "メニュー">
 <!ENTITY actionbar_done "完了">
+
+<!-- Localization note (remote_tabs_last_synced): the variable is replaced by a
+     "relative time span string" produced by Android.  This string describes the
+     time the tabs were last synced relative to the current time; examples
+     include "42 minutes ago", "4 days ago", "last week", etc. The subject of
+     "Last synced" is one of the user's other Sync clients, typically Firefox on
+     their desktop or laptop.-->
+<!ENTITY remote_tabs_last_synced "最終更新日時: &formatS;">
