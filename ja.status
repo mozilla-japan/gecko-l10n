@@ -497,3 +497,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 calendar               ------:------------  18227:fa139a736eee   mar             sync calendar
 mobile                 200705:8e6d0f924669  -----:------------   Kechol          sync mobile
 dom, security          200798:f40e767ea283  18229:8ef57f6f159d   mar             sync dom, security
+toolkit                200910:16545d52beb1  18230:124e7a95b41f   mar             sync toolkit
