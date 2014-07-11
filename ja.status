@@ -462,7 +462,7 @@ suite                  ------:------------  17514:ba9b337ff4c1   mar            
 mobile                 177548:2b9f2c873ff4  -----:------------   Kechol          sync mobile
 browser                177276:d4bc4bcc55ae  -----:------------   hATrayflood     sync browser
 
-Released! [l10n-mozilla-30.0]
+[l10n-mozilla-30.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                185360:5d9d8d961c4a  -----:------------   hATrayflood     sync toolkit
@@ -474,7 +474,7 @@ browser                185360:5d9d8d961c4a  -----:------------   hATrayflood    
 suite                  ------:------------  17738:e1fa7974ff72   mar             sync suite
 mobile                 185951:dea8a9070070  -----:------------   Kechol          sync mobile
 
-[l10n-mozilla-31.0] (for beta) (ESR)
+[l10n-mozilla-31.0] (for aurora) (ESR)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 editor/ui              ------:------------  18011:525c829ab5fb   mar             sync editor/ui
@@ -490,11 +490,3 @@ toolkit                192848:d15fa8e918b1  18016:89a8396cbbea   mar            
 browser                192905:7c17cea2508b  -----:------------   hATrayflood     sync browser
 suite                  ------:------------  18017:144a6741d457   hATrayflood     sync suite
 mobile                 192969:b982a8afab52  -----:------------   Kechol          sync mobile
-
-[l10n-mozilla-32.0] (for aurora)
-target dir             mozilla and comm hg changeset rev:id      by              comment
---------------------------------------------------------------------------------------------------------------
-calendar               ------:------------  18227:fa139a736eee   mar             sync calendar
-mobile                 200705:8e6d0f924669  -----:------------   Kechol          sync mobile
-dom, security          200798:f40e767ea283  18229:8ef57f6f159d   mar             sync dom, security
-toolkit                200910:16545d52beb1  18230:124e7a95b41f   mar             sync toolkit
