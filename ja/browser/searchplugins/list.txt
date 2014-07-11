@@ -1,8 +1,9 @@
-google-jp
-yahoo-jp
 amazon-jp
-rakuten
-yahoo-jp-auctions
+bing
+google-jp
 oshiete-goo
+rakuten
 twitter-ja
 wikipedia-ja
+yahoo-jp
+yahoo-jp-auctions
