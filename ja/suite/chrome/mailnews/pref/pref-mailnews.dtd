@@ -19,6 +19,12 @@
 <!ENTITY setDefaultFeed.label             "フィード (RSS)">
 <!ENTITY setDefaultFeed.accesskey         "e">
 
+<!ENTITY useInternalSettings.description  "ブラウザの以下のリンクを開くときに &brandShortName; のメールとニュースを使用します:">
+<!ENTITY useInternalMail.label            "メール (mailto:)">
+<!ENTITY useInternalMail.accesskey        "a">
+<!ENTITY useInternalNews.label            "ニュース (news:, snews:, nntp:)">
+<!ENTITY useInternalNews.accesskey        "s">
+
 <!ENTITY messengerStartPage.caption       "メールスタートページ">
 <!ENTITY enableStartPage.label            "起動時にメッセージペインにスタートページを表示する">
 <!ENTITY enableStartPage.accesskey        "W">

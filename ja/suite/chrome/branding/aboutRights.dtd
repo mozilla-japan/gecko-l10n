@@ -1,4 +1,6 @@
-<!-- (^^; /browser/chrome/browser/aboutRights.dtd がベース -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- LOCALIZATION NOTE This file is very similar to the one in Firefox from browser/locales/en-US/chrome/browser/aboutRights.dtd so you can use that file as a starting point -->
 <!-- rights.locale-direction instead of the usual local.dir entity, so RTL can skip translating page. -->
 <!ENTITY rights.locale-direction "ltr">
@@ -28,22 +30,38 @@
 <!ENTITY rights.intro-point3c " をご確認ください。">
 
 <!-- point 4 text for official branded builds -->
-<!ENTITY rights.intro-point4a "&brandShortName; は、アドオン更新サービスなど、オプションで Web サイト情報サービスも提供しています。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。サービスを無効化する方法を含め、詳しくは ">
+<!ENTITY rights2.intro-point4a "&brandShortName; は、アドオン、セーフブラウジングサービスなど、オプションで Web サイト情報サービスも提供しています。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。サービスを無効化する方法を含め、詳しくは ">
 <!ENTITY rights.intro-point4b "サービス利用規約">
 <!ENTITY rights.intro-point4c " をご確認ください。">
 
 <!ENTITY rights.webservices-header "&brandFullName; Web サイトサービス">
 
-<!-- Note that this paragraph references a couple of entities from
-     preferences/security.dtd, so that we can refer to text the user sees in
-     the UI, without this page being forgotten every time those strings are
-     updated.  -->
+<!-- Note that this paragraph references entities from extensions.dtd,
+     preferences.dtd, pref-smartupdate.dtd, and pref-security.dtd,
+     so that we can refer to text the user sees in the UI, without
+     this page being forgotten every time those strings are updated.  -->
 <!-- intro paragraph for branded builds -->
-<!ENTITY rights.webservices-a "&brandFullName; は、アドオン更新サービスなどのオプションのサービス (以下「本サービス」と呼びます) を提供しており、これらは下記の通り &brandShortName; のバイナリ版とともに利用できます。本サービスをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、アプリケーション設定画面の @@[@@">
-<!ENTITY rights.webservices-b "詳細">
-<!ENTITY rights.webservices-c "@@]@@ セクションの @@[@@ ">
-<!ENTITY rights.webservices-d "ソフトウェアのインストール">
-<!ENTITY rights.webservices-e "@@]@@ エントリで、@@[@@次の更新を自動的に確認する@@]@@ の設定項目のチェックを外していただければ、アドオン更新サービスを無効化できます。">
+<!ENTITY rights2.webservices-a "&brandFullName; は、アドオン更新サービス、セーフブラウジング機能などのオプションのサービス (以下「本サービス」と呼びます) を提供しており、これらは下記の通り &brandShortName; のバイナリ版とともに利用できます。このサービスは@@Default@@で有効です。本サービスをご利用になりたくない場合、または以下の利用規約を受け入れられない場合、">
+<!ENTITY rights2.webservices-b "こちら">
+<!ENTITY rights2.webservices-c " で特定の機能やサービスを無効にすることができます。その他の機能とサービスはアプリケーションの設定で無効にすることができます。">
+
+<!-- add-on related points for branded builds -->
+<!ENTITY rights.addons-a "アドオンサービス: ">
+<!ENTITY rights.addons-b "@@Default@@では、@@[@@&view.discover.label;@@]@@ページでアドオンをインストールできます。標準的な間隔でアップデートの確認も行います。これらの機能を無効にして、インストールしたアドオンの情報をサーバに送信しないようにするには、以下の手順で設定を行ってください。">
+<!ENTITY rights.addons-term1 "アプリケーションの設定を開きます">
+<!ENTITY rights.addons-term2 "@@[@@&advance.label;@@]@@カテゴリの@@[@@&smart.label;@@]@@を選択します">
+<!ENTITY rights.addons-term3 "@@[@@&autoAddOnsUpdates.label;@@]@@と@@[@@&enablePersonalized.label;@@]@@のオプションを外します">
+<!ENTITY rights.addons-term4 "アドオンサービスが無効になります">
+
+
+<!-- safe browsing points for branded builds -->
+<!ENTITY rights.safebrowsing-a "セーフブラウジング: ">
+<!ENTITY rights.safebrowsing-b "意図せず危険なサイトを訪問してしまう可能性があるため、セーフブラウジング機能の無効化は推奨できません。この機能を完全に無効にするには、以下の手順で設定を行ってください。">
+<!ENTITY rights.safebrowsing-term1 "アプリケーションの設定を開きます">
+<!ENTITY rights.safebrowsing-term2 "@@[@@&security.label;@@]@@パネルを選択します">
+<!ENTITY rights.safebrowsing-term3 "@@[@@&blockAttackSites.label;@@]@@と@@[@@&blockWebForgeries.label;@@]@@のオプションを外します">
+<!ENTITY rights.safebrowsing-term4 "セーフブラウジングが無効になります">
+
 
 <!-- points 1-6 text for branded builds -->
 <!ENTITY rights.webservices-term1 "&vendorShortName; は、独自の判断に基づいて本サービスを変更または中止することがあります。">
