@@ -474,7 +474,7 @@ browser                185360:5d9d8d961c4a  -----:------------   hATrayflood    
 suite                  ------:------------  17738:e1fa7974ff72   mar             sync suite
 mobile                 185951:dea8a9070070  -----:------------   Kechol          sync mobile
 
-[l10n-mozilla-31.0] (for beta) (ESR)
+Released! [l10n-mozilla-31.0] (ESR)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 editor/ui              ------:------------  18011:525c829ab5fb   mar             sync editor/ui
@@ -491,7 +491,7 @@ browser                192905:7c17cea2508b  -----:------------   hATrayflood    
 suite                  ------:------------  18017:144a6741d457   hATrayflood     sync suite
 mobile                 192969:b982a8afab52  -----:------------   Kechol          sync mobile
 
-[l10n-mozilla-32.0] (for aurora)
+[l10n-mozilla-32.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  18227:fa139a736eee   mar             sync calendar
@@ -504,3 +504,9 @@ browser/metro          201134:72514ae1ef74  -----:------------   hATrayflood    
 chat                   ------:------------  18249:f1120f0c8259   mar             sync chat
 mail                   ------:------------  18249:f1120f0c8259   mar             sync mail
 suite                  ------:------------  18232:8a344d493bfc   hATrayflood     sync suite
+
+
+[l10n-mozilla-33.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar               ------:------------  18521:477b8333864e   mar             sync calendar
