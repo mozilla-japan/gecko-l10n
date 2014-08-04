@@ -1,0 +1,39 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY pref.formatting.title        "送信形式">
+<!ENTITY sendMaildesc.label           "HTML 形式のメールを送信するとき、宛先の中に HTML を受け取り可能でない人が含まれている場合:">
+<!ENTITY askMe.label                  "処理方法を確認する (送信形式を選択します)">
+<!ENTITY askMe.accesskey              "k">
+<!ENTITY convertPlain.label           "プレーンテキストのみに変換して送信する (一部の書式が失われます)">
+<!ENTITY convertPlain.accesskey       "C">
+<!ENTITY sendHTML.label               "HTML メールのまま送信する (メールクライアントによってはメッセージを表示できません)">
+<!ENTITY sendHTML.accesskey           "S">
+<!ENTITY sendBoth.label               "テキストと HTML の両形式を送信する (メッセージサイズが大きくなります)">
+<!ENTITY sendBoth.accesskey           "n">
+<!ENTITY override.label               "メッセージ作成@@Window@@の設定が、ここでの設定よりも優先されます。">
+
+<!-- Html and Plain Text Domains  -->
+<!ENTITY domain.title                 "HTML メールとテキストメールのドメイン設定">
+<!ENTITY domaindesc.label             "以下のリストのドメインにメールを送信する場合、リストに従って送信メールの形式 (テキスト/HTML) を自動的に選択します。">
+<!ENTITY HTMLdomaintitle.label        "HTML 形式を使用するドメイン">
+<!ENTITY HTMLdomaintitle.accesskey    "M">
+<!ENTITY PlainTexttitle.label         "プレーンテキスト形式を使用するドメイン">
+<!ENTITY PlainTexttitle.accesskey     "P">
+<!ENTITY AddButton.label              "追加...">
+<!ENTITY AddHtmlDomain.accesskey      "A">
+<!ENTITY AddPlainText.accesskey       "d">
+<!ENTITY DeleteButton.label           "削除">
+<!ENTITY DeleteHtmlDomain.accesskey   "e">
+<!ENTITY DeletePlainText.accesskey    "t">
+
+<!-- Add Domain Name -->
+<!ENTITY add.htmltitle                "HTML 形式を使用するドメインの追加">
+<!ENTITY add.htmldomain               "HTML メールのドメイン名:">
+<!ENTITY add.plaintexttitle           "プレーンテキスト形式を使用するドメイン名の追加">
+<!ENTITY add.plaintextdomain          "テキストメールのドメイン名:">
+
+<!ENTITY domainnameError.title        "ドメイン名のエラー">
+<!-- LOCALIZATION NOTE: do not translate @string@ -->
+<!ENTITY invalidEntryError.label      "ドメイン名 @string@ が無効なため設定は無視されます。有効なドメイン名は、文字の間に少なくとも一つの '.' を含まなければなりません。">

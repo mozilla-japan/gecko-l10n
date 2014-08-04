@@ -1,0 +1,90 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- WARNING! This file contains UTF-8 encoded characters!
+   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
+   - your editor isn't using UTF-8 encoding and may munge up the document!
+  -->
+
+<!-- Tools menu -->
+<!ENTITY lightning.preferencesLabel			"カレンダー">
+
+<!-- New menu popup in File menu -->
+<!ENTITY lightning.menupopup.new.event.label		"予定...">
+<!ENTITY lightning.menupopup.new.event.accesskey	"E">
+<!ENTITY lightning.menupopup.new.task.label		"ToDo...">
+<!ENTITY lightning.menupopup.new.task.accesskey		"T">
+<!ENTITY lightning.menupopup.new.calendar.label		"カレンダー...">
+<!ENTITY lightning.menupopup.new.calendar.accesskey	"n">
+
+<!-- Open menu popup in File menu -->
+<!ENTITY lightning.menupopup.open.label			"開く">
+<!ENTITY lightning.menupopup.open.accesskey		"O">
+<!ENTITY lightning.menupopup.open.message.label		"メッセージを開く...">
+<!ENTITY lightning.menupopup.open.message.accesskey	"M">
+<!ENTITY lightning.menupopup.open.calendar.label	"カレンダーファイルを開く...">
+<!ENTITY lightning.menupopup.open.calendar.accesskey	"C">
+
+<!-- View Menu -->
+<!ENTITY lightning.menu.view.calendar.label		"カレンダー">
+<!ENTITY lightning.menu.view.calendar.accesskey		"n">
+<!ENTITY lightning.menu.view.tasks.label		"ToDo">
+<!ENTITY lightning.menu.view.tasks.accesskey		"k">
+
+<!-- Events and Tasks menu -->
+<!ENTITY lightning.menu.eventtask.label			"予定とToDo">
+<!ENTITY lightning.menu.eventtask.accesskey		"n">
+
+<!-- properties dialog, calendar creation wizard -->
+<!ENTITY lightning.calendarproperties.email.label		"メール:">
+
+<!-- iMIP Bar (meeting support) -->
+<!ENTITY lightning.imipbar.btnAccept.label			"参加">
+<!ENTITY lightning.imipbar.btnAccept2.tooltiptext		"招待を承諾します">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences.label		"すべて参加">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext	"すべての招待を承諾して参加します">
+<!ENTITY lightning.imipbar.btnAdd.label				"追加">
+<!ENTITY lightning.imipbar.btnAdd.tooltiptext			"カレンダーに予定を追加します">
+<!ENTITY lightning.imipbar.btnDecline.label			"辞退">
+<!ENTITY lightning.imipbar.btnDecline2.tooltiptext		"招待を辞退します">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences.label		"すべて辞退">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext	"すべての招待を辞退します">
+<!ENTITY lightning.imipbar.btnDelete.label			"削除">
+<!ENTITY lightning.imipbar.btnDelete.tooltiptext		"カレンダーから削除します">
+<!ENTITY lightning.imipbar.btnDetails.label			"詳細...">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext		"予定の詳細を表示します">
+<!ENTITY lightning.imipbar.btnMore.label			"その他">
+<!ENTITY lightning.imipbar.btnMore.tooltiptext			"クリックするとその他のオプションを表示します">
+<!ENTITY lightning.imipbar.btnReconfirm2.label			"再確認">
+<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext		"主催者に再確認のメールを送信します">
+<!ENTITY lightning.imipbar.btnSaveCopy.label			"コピーを保存">
+<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext		"主催者への返信とは別に、予定のコピーをカレンダーに保存します。参加者のリストは消去されます。">
+<!ENTITY lightning.imipbar.btnTentative.label			"仮承諾">
+<!ENTITY lightning.imipbar.btnTentative2.tooltiptext		"招待を仮承諾します">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences.label	"すべて仮承諾">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext	"すべての招待を仮承諾します">
+<!ENTITY lightning.imipbar.btnUpdate.label			"更新">
+<!ENTITY lightning.imipbar.btnUpdate.tooltiptext		"カレンダーの予定を更新します">
+<!ENTITY lightning.imipbar.description				"メッセージに参加依頼が含まれています。">
+
+<!-- Lightning specific keybindings -->
+<!ENTITY lightning.keys.event.showCalendar.key		"C">
+<!ENTITY lightning.keys.event.showTasks.key		"D">
+<!ENTITY lightning.keys.event.new			"I">
+<!ENTITY lightning.keys.todo.new			"D">
+
+<!-- Account Central page -->
+<!-- (^a^) mail/chrome/messenger/msgAccountCentral.dtd と表現をそろえる -->
+<!ENTITY lightning.acctCentral.newCalendar.label	"@@New-CMD@@カレンダーを作成する">
+
+<!-- today-pane-specific -->
+<!ENTITY todaypane.showMinimonth.label			"日付選択を表示">
+<!ENTITY todaypane.showMinimonth.accesskey		"M">
+<!ENTITY todaypane.showMiniday.label			"日付を表示">
+<!ENTITY todaypane.showMiniday.accesskey		"d">
+<!ENTITY todaypane.showNone.label			"表示なし">
+<!ENTITY todaypane.showNone.accesskey			"N">
+<!ENTITY todaypane.showTodayPane.label			"Today ペインを表示">
+<!ENTITY todaypane.showTodayPane.accesskey		"o">
+<!ENTITY todaypane.statusButton.label			"Today ペイン">
