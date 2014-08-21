@@ -24,8 +24,11 @@ sentence. -->
 <!ENTITY  sendTyping.accesskey		"t">
 
 <!ENTITY  chatNotifications.label		"ダイレクトメッセージの通知:">
-<!ENTITY  desktopChatNotifications.label	"デスクトップ通知を表示する">
+<!ENTITY  desktopChatNotifications.label	"デスクトップ通知の表示:">
 <!ENTITY  desktopChatNotifications.accesskey	"c">
+<!ENTITY  completeNotification.label		"送信者の名前とメッセージプレビュー">
+<!ENTITY  buddyInfoOnly.label			"送信者の名前のみ">
+<!ENTITY  dummyNotification.label		"情報なし">
 <!ENTITY  chatSound.accesskey			"d">
 <!ENTITY  chatSound.label			"音を鳴らす">
 <!ENTITY  play.label				"再生">
