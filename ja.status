@@ -513,3 +513,4 @@ calendar               ------:------------  18521:477b8333864e   mar            
 security               209417:0313315936fe  18529:35be24229f6b   mar             sync security
 chat, mail             ------:------------  18531:824169c63afa   mar             sync chat, mail
 dom                    209572:1c5b8f397e19  18542:3277262576e7   mar             sync dom
+browser                209315:98d705a709c7  -----:------------   hATrayflood     sync browser
