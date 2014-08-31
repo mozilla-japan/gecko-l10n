@@ -15,7 +15,7 @@
 <!ENTITY dntTrackingOkay.label            "トラッキングを許可する">
 <!ENTITY dntTrackingOkay.accesskey        "c">
 
-<!ENTITY geoLocation.label                "位置情報の通知Location Aware Browsing">
+<!ENTITY geoLocation.label                "位置情報の通知">
 <!ENTITY geoIntro.label                   "Web サイトはあなたの詳細な位置情報を要求することがあります。">
 
 <!ENTITY geoEnabled.label                 "位置情報を要求されたときに確認する">
