@@ -24,6 +24,8 @@ that require it.  -->
 <!ENTITY detailsProgressiveDisclosure.label	"消去する項目">
 <!ENTITY detailsProgressiveDisclosure.accesskey	"e">
 
+<!ENTITY itemHistory.label		"ページの表示履歴">
+<!ENTITY itemHistory.accesskey		"B">
 <!ENTITY itemCookies.label		"Cookie">
 <!ENTITY itemCookies.accesskey		"C">
 <!ENTITY itemCache.label		"キャッシュ">

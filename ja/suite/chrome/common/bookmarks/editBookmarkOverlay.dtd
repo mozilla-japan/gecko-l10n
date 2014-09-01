@@ -22,8 +22,6 @@
 <!ENTITY editBookmarkOverlay.keyword.label                   "キーワード:">
 <!ENTITY editBookmarkOverlay.keyword.accesskey               "K">
 <!ENTITY editBookmarkOverlay.tagsExpanderDown.tooltip        "既存のタグ一覧を表示します">
-<!ENTITY editBookmarkOverlay.loadInSidebar.label             "このブックマークはサイドバーに読み込む">
-<!ENTITY editBookmarkOverlay.loadInSidebar.accesskey         "o">
 <!ENTITY editBookmarkOverlay.choose.label                    "選択...">
 <!ENTITY editBookmarkOverlay.newFolderButton.label           "@@New-CMD@@フォルダ">
 <!ENTITY editBookmarkOverlay.newFolderButton.accesskey       "o">
