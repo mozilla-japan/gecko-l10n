@@ -11,6 +11,7 @@
 <!ENTITY  bookmarks_title "ブックマーク">
 <!ENTITY  history_title "履歴">
 <!ENTITY  reading_list_title "リーディングリスト">
+<!ENTITY  recent_tabs_title "最近閉じたタブ">
 
 <!ENTITY  switch_to_tab "タブに切り換え">
 
@@ -43,8 +44,8 @@
 
 <!ENTITY history_today_section "今日">
 <!ENTITY history_yesterday_section "昨日">
-<!ENTITY history_week_section "7 日以内">
-<!ENTITY history_older_section "7 日以上前">
+<!ENTITY history_week_section2 "先週">
+<!ENTITY history_older_section2 "先月">
 
 <!ENTITY go "移動">
 <!ENTITY search "検索">
@@ -103,13 +104,13 @@
      it is applicable. -->
 <!ENTITY pref_search_hint "ヒント: サイトの検索フィールド上で長押しした後、&formatI; アイコンをタップすることで、どのサイトでも検索プロバイダに追加できます">
 <!ENTITY pref_category_devtools "デベロッパーツール">
+<!ENTITY pref_developer_paint_flashing "ペイントフラッシュ">
 <!ENTITY pref_developer_remotedebugging "リモートデバッグ">
 <!ENTITY pref_remember_signons "パスワードを保存する">
 
 <!ENTITY pref_category_home "ホーム">
 <!ENTITY pref_category_home_summary "ホームページをカスタマイズ">
 <!ENTITY pref_category_home_panels "パネル">
-<!ENTITY pref_home_add_panel "パネルを追加">
 <!ENTITY home_add_panel_title "新しいパネルを追加">
 <!ENTITY home_add_panel_empty "申し訳ありません、追加するパネルを見つけられませんでした">
 <!-- Localization note (home_add_panel_installed):
@@ -145,7 +146,11 @@
 <!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
 <!ENTITY pref_char_encoding_off "メニューを表示しない">
-<!ENTITY pref_clear_private_data "プライベートデータを消去する">
+<!ENTITY pref_clear_private_data2 "今すぐデータを消去する">
+<!ENTITY pref_clear_private_data_category "プライベートデータを消去する">
+<!ENTITY pref_clear_on_exit_title "ブラウザ終了時に常に消去する">
+<!ENTITY pref_clear_on_exit_summary "メインメニューから &quot;終了&quot; を選択した時、&brandShortName; はいつでも自動的にあなたのデータを消去します">
+<!ENTITY pref_clear_on_exit_dialog_title "消去するデータを選択">
 <!ENTITY pref_plugins "プラグイン">
 <!ENTITY pref_plugins_enabled "有効化">
 <!ENTITY pref_plugins_tap_to_play "タップして実行">
@@ -257,6 +262,7 @@ size. -->
 <!ENTITY new_tab "@@NewTab@@">
 <!ENTITY new_private_tab "プライベートタブ">
 <!ENTITY close_all_tabs "すべてのタブを閉じる">
+<!ENTITY close_private_tabs "プライベートタブを閉じる">
 <!ENTITY tabs_normal "タブ">
 <!ENTITY tabs_private "プライベートタブ">
 <!ENTITY tabs_synced "同期したタブ">
@@ -279,7 +285,6 @@ size. -->
 
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
 <!ENTITY contextmenu_open_private_tab "プライベートタブで開く">
-<!ENTITY contextmenu_open_in_reader "リーダーで開く">
 <!ENTITY contextmenu_remove "削除">
 <!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
 <!ENTITY contextmenu_share "共有">
@@ -349,10 +354,10 @@ size. -->
 <!ENTITY home_clear_history_button "閲覧履歴を削除">
 <!ENTITY home_clear_history_confirm "本当に履歴を削除しますか？">
 <!ENTITY home_bookmarks_empty "あなたが保存したブックマークが表示されます。">
+<!ENTITY home_closed_tabs_title "最近閉じたタブ">
 <!ENTITY home_last_tabs_title "前回のタブ">
-<!ENTITY home_last_tabs_open "前回のタブをすべて開く">
 <!ENTITY home_last_tabs_empty "あなたが最近開いたタブが表示されます。">
-<!ENTITY home_most_recent_title "最近開いたサイト">
+<!ENTITY home_open_all "すべて開く">
 <!ENTITY home_most_recent_empty "あなたが最近開いたサイトが表示されます。">
 <!ENTITY home_reading_list_empty "あなたが保存した記事が表示されます。">
 <!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
@@ -371,6 +376,10 @@ size. -->
 <!-- Localization note (home_move_up_to_filter): The variable is replaced by the name of the
      previous location in the navigation, such as the previous folder -->
 <!ENTITY home_move_up_to_filter "&formatS; へ戻る">
+
+<!ENTITY private_browsing_title "プライベートブラウジング">
+<!ENTITY private_tabs_panel_empty_desc "あなたのプライベートタブがここに表示されます。Cookie や閲覧履歴は保存されませんが、ブックマークとダウンロードしたファイルはデバイスに保存されます。">
+<!ENTITY private_tabs_panel_learn_more "詳細を表示しますか？">
 
 <!ENTITY pin_site_dialog_hint "検索キーワードを入力してください">
 
