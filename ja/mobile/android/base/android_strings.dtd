@@ -149,7 +149,7 @@
 <!ENTITY pref_clear_private_data2 "今すぐデータを消去する">
 <!ENTITY pref_clear_private_data_category "プライベートデータを消去する">
 <!ENTITY pref_clear_on_exit_title "ブラウザ終了時に常に消去する">
-<!ENTITY pref_clear_on_exit_summary "メインメニューから &quot;終了&quot; を選択した時、&brandShortName; はいつでも自動的にあなたのデータを消去します">
+<!ENTITY pref_clear_on_exit_summary "メインメニューから \u0022終了\u0022 を選択した時、&brandShortName; はいつでも自動的にあなたのデータを消去します">
 <!ENTITY pref_clear_on_exit_dialog_title "消去するデータを選択">
 <!ENTITY pref_plugins "プラグイン">
 <!ENTITY pref_plugins_enabled "有効化">
