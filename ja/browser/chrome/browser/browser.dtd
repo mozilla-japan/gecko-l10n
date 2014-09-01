@@ -82,6 +82,13 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY personalbarCmd.accesskey	"B">
 <!ENTITY bookmarksToolbarItem.label	"ブックマークツールバーの項目">
 
+<!ENTITY toolbarContextMenu.reloadAllTabs.label		"すべてのタブを再読み込み">
+<!ENTITY toolbarContextMenu.reloadAllTabs.accesskey	"A">
+<!ENTITY toolbarContextMenu.bookmarkAllTabs.label	"すべてのタブをブックマーク...">
+<!ENTITY toolbarContextMenu.bookmarkAllTabs.accesskey	"T">
+<!ENTITY toolbarContextMenu.undoCloseTab.label		"閉じたタブを元に戻す">
+<!ENTITY toolbarContextMenu.undoCloseTab.accesskey	"U">
+
 <!ENTITY pageSourceCmd.label		"ページのソース">
 <!ENTITY pageSourceCmd.accesskey	"o">
 <!ENTITY pageSourceCmd.commandkey	"u">
@@ -259,6 +266,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolbarMenu.accesskey          "v">
 <!ENTITY devAppMgrMenu.label               "アプリマネージャ">
 <!ENTITY devAppMgrMenu.accesskey           "A">
+<!ENTITY webide.label                      "WebIDE">
+<!ENTITY webide.accesskey                  "W">
 <!ENTITY devToolbar.keycode                "VK_F2">
 <!ENTITY devToolbar.keytext                "F2">
 <!ENTITY devToolboxMenuItem.label          "開発ツールを表示">
@@ -701,11 +710,16 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY getUserMedia.selectCamera.label		"共有するカメラ:">
 <!ENTITY getUserMedia.selectCamera.accesskey		"C">
+<!ENTITY getUserMedia.selectWindowOrScreen.label	"共有する@@Window@@または画面:">
+<!ENTITY getUserMedia.selectWindowOrScreen.accesskey	"W">
 <!ENTITY getUserMedia.selectMicrophone.label		"共有するマイク:">
 <!ENTITY getUserMedia.selectMicrophone.accesskey	"M">
+<!ENTITY getUserMedia.allWindowsShared.message		"画面に表示されているすべての@@Window@@を共有します。">
 
 <!ENTITY webrtcIndicatorButton.label		"カメラ、マイクへのアクセス">
 <!ENTITY webrtcIndicatorButton.tooltip		"カメラかマイクを共有しているサイトを表示します">
+
+<!ENTITY loopCallButton.tooltip			"通話に招待します">
 
 <!ENTITY mixedContentBlocked.moreinfo		"ほとんどの Web サイトは、このコンテンツがブロックされても、正しく表示されます。">
 

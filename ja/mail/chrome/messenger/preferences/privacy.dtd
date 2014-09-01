@@ -6,7 +6,7 @@
 <!ENTITY captionMailContent.label	"メールコンテンツ">
 
 <!ENTITY acceptRemoteContent.label	"メッセージ内のリモートコンテンツを許可する">
-<!ENTITY acceptRemoteContent.accesskey	"A">
+<!ENTITY acceptRemoteContent.accesskey	"m">
 <!ENTITY remoteContentExceptions.label	"例外...">
 <!ENTITY remoteContentExceptions.accesskey "x">
 <!ENTITY acceptRemoteContentInfo.label	"リモートコンテンツのプライバシーに係わる問題について">
@@ -14,6 +14,8 @@
 <!-- Web Content -->
 <!ENTITY captionWebContent.label	"Web コンテンツ">
 
+<!ENTITY keepHistory.label		"訪問した Web サイトとリンクを記憶する">
+<!ENTITY keepHistory.accesskey		"R">
 <!ENTITY acceptCookies.label		"サイトから送られてきた Cookie を保存する">
 <!ENTITY acceptCookies.accesskey	"A">
 <!ENTITY acceptThirdParty.pre.label	"サードパーティ Cookie の保存:">

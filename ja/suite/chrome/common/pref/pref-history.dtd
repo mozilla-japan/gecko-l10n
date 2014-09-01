@@ -12,6 +12,8 @@
 <!ENTITY  clearHistory.accesskey            "s">
 
 <!ENTITY  locationBarHistory.caption        "アドレスバーの履歴"><!-- en-US: "Location Bar History" -->
+<!ENTITY  urlBarHistoryEnabled.caption      "アドレスバーの履歴を有効にする">
+<!ENTITY  urlBarHistoryEnabled.accesskey    "E">
 <!ENTITY  clearLocationBar.label            "アドレスバーメニューに保存されているサイト一覧を@@Clear@@します。">
 <!ENTITY  clearLocationBarButton.label      "アドレスバーの履歴を@@Clear@@">
 <!ENTITY  clearLocationBarButton.accesskey  "L">
