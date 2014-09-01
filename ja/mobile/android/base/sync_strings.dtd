@@ -109,6 +109,9 @@
 
 <!ENTITY fxaccount_full_label 'Firefox アカウント'>
 
+<!ENTITY fxaccount_custom_server_account_title 'サーバでアカウントを利用'>
+<!ENTITY fxaccount_custom_server_sync_title 'Sync のデータをサーバに保存'>
+
 <!-- Localization note: these are shown in all screens that query the
      user for an email address and password. Hide and show are button
      labels. -->
@@ -174,8 +177,10 @@
 <!ENTITY fxaccount_update_credentials_unknown_error 'サインインできませんでした'>
 
 <!ENTITY fxaccount_status_header2 'Firefox アカウント'>
-<!ENTITY fxaccount_status_signed_in_as 'としてサインイン'>
+<!ENTITY fxaccount_status_signed_in_as 'サインインユーザ'>
+<!ENTITY fxaccount_status_auth_server 'アカウントサーバ'>
 <!ENTITY fxaccount_status_device_name 'デバイス名'>
+<!ENTITY fxaccount_status_sync_server '同期サーバ'>
 <!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
 <!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label; は有効です'>
 <!ENTITY fxaccount_status_needs_verification2 'あなたのアカウントを確認してください。タップして確認のメールを再送信します。'>
