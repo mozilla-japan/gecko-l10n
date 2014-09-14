@@ -8,7 +8,7 @@
 -->
 <!ENTITY update.checkForUpdatesButton.label	"ソフトウェアの更新を確認">
 <!ENTITY update.checkForUpdatesButton.accesskey	"C">
-<!ENTITY update.updateButton.label		"再起動して更新">
+<!ENTITY update.updateButton.label2		"&brandShortName; を再起動して更新">
 <!ENTITY update.updateButton.accesskey		"R">
 <!ENTITY update.applyButtonBillboard.label	"ダウンロードした更新を適用...">
 <!ENTITY update.applyButtonBillboard.accesskey	"A">

@@ -108,13 +108,13 @@
 <!-- Certificates -->
 <!ENTITY certSelection.description		"サーバが個人証明書を要求したとき:">
 <!ENTITY certs.auto				"自動的に選択する">
-<!ENTITY certs.auto.accesskey			"m">
+<!ENTITY certs.auto.accesskey			"S">
 <!ENTITY certs.ask				"毎回自分で選択する">
 <!ENTITY certs.ask.accesskey			"A">
+<!ENTITY enableOCSP.label			"OCSP レスポンダサーバに問い合わせて証明書の現在の正当性を確認する">
+<!ENTITY enableOCSP.accesskey			"Q">
 
 <!ENTITY viewCertificates.label			"証明書を表示">
 <!ENTITY viewCertificates.accesskey		"C">
-<!ENTITY validation.label			"検証">
-<!ENTITY validation.accesskey			"V">
 <!ENTITY viewSecurityDevices.label		"セキュリティデバイス">
-<!ENTITY viewSecurityDevices.accesskey		"S">
+<!ENTITY viewSecurityDevices.accesskey		"D">
