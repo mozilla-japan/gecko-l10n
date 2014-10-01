@@ -517,6 +517,7 @@ browser                209315:98d705a709c7  -----:------------   hATrayflood    
 toolkit                209315:98d705a709c7  -----:------------   hATrayflood     sync toolkit
 suite                  ------:------------  18525:a29fe6eaf4e2   hATrayflood     sync suite
 mobile                 209389:0fe131231886  -----:------------   Kechol          sync mobile
+browser                216859:16e19b9cec72  -----:------------   mar             sync browser (late-l10n)
 
 
 [l10n-mozilla-34.0] (for aurora)
