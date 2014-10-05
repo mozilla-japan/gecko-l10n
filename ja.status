@@ -524,4 +524,5 @@ browser                216859:16e19b9cec72  -----:------------   mar            
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 mail                   ------:------------  18737:47e507c3084e   mar             sync mail
+dom                    218024:285ff4f57e70  18743:b82e4cf1c513   mar             sync dom
 
