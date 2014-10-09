@@ -13,10 +13,11 @@ by NSS/PSM via netError.xhtml. -->
 be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
 <!ENTITY certerror.introPara1			"<b>#1</b> に安全に接続するように求められましたが、接続の安全性が確認できませんでした。">
-<!ENTITY certerror.introPara2			"安全に接続する場合は通常、あなたが適切な相手と通信することを確認できるように、信頼できる証明書を提供してきます。しかし、このサイトの証明書は信頼性を検証できません。">
+<!ENTITY certerror.introPara2			"通常は安全に接続しようとする場合、適切な相手と通信していることを立証するための信頼できる証明書が Web サイトにより提供されます。しかし、このサイトの証明書は信頼性を検証できません。">
 
 <!ENTITY certerror.whatShouldIDo.heading	"どうすればよいのか？">
 <!ENTITY certerror.whatShouldIDo.content	"これまでこのサイトに問題なく接続できていた場合、このエラーが表示されるのは誰かがこのサイトになりすましている可能性があるということであり、接続すべきではありません。">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "このサイトは、HSTS (HTTP Strict Transport Security) を使用して &brandShortName; のみが安全に接続できるように指定されています。その結果、この証明書の例外を追加することができません。">
 <!ENTITY certerror.getMeOutOfHere.label		"スタートページに戻る">
 
 <!ENTITY certerror.expert.heading		"危険性を理解した上で接続するには">
