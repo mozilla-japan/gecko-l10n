@@ -30,3 +30,10 @@
 <!ENTITY chooseFolderMac.accesskey    "e">
 <!ENTITY alwaysAsk.label              "ファイルごとに保存先を指定する">
 <!ENTITY alwaysAsk.accesskey          "A">
+
+<!ENTITY alwaysCheckDefault.label         "起動時に &brandShortName; が@@DefaultBrowser@@であるか確認する">
+<!ENTITY alwaysCheckDefault2.accesskey    "w">
+<!ENTITY setAsMyDefaultBrowser.label      "&brandShortName; を@@DefaultBrowser@@に設定する">
+<!ENTITY setAsMyDefaultBrowser.accesskey  "D">
+<!ENTITY isDefault.label                  "&brandShortName; は@@DefaultBrowser@@に設定されています">
+<!ENTITY isNotDefault.label               "&brandShortName; は@@DefaultBrowser@@に設定されていません">
