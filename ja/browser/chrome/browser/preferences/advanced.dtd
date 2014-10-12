@@ -26,13 +26,6 @@
 <!ENTITY checkSpelling.label             "自動スペルチェック機能を使用する">
 <!ENTITY checkSpelling.accesskey         "t">
 
-<!ENTITY systemDefaults.label            "@@DefaultBrowser@@">
-<!ENTITY alwaysCheckDefault.label        "起動時に &brandShortName; が@@DefaultBrowser@@であるか確認する"><!--XXX-->
-<!ENTITY alwaysCheckDefault.accesskey    "w">
-<!ENTITY setDefault.label                "&brandShortName; を@@DefaultBrowser@@に設定する">
-<!ENTITY setDefault.accesskey            "d">
-<!ENTITY isDefault.label                 "&brandShortName; は@@DefaultBrowser@@に設定されています">
-
 <!ENTITY dataChoicesTab.label            "データの選択">
 
 <!ENTITY healthReportSection.label       "&brandShortName; ヘルスレポート">
