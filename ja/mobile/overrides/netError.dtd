@@ -11,7 +11,7 @@
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title	"正常に接続できませんでした">
-<!ENTITY connectionFailure.longDesc	"&sharedLongDesc2;">
+<!ENTITY connectionFailure.longDesc2	"&sharedLongDesc3;">
 
 <!ENTITY deniedPortAccess.title		"このアドレスへの接続は制限されています">
 <!ENTITY deniedPortAccess.longDesc	"">
@@ -20,7 +20,9 @@
 <!ENTITY dnsNotFound.longDesc2		"
 <ul>
   <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>
-  <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。</li>
+  <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。
+    <button id='wifi'>Wi-Fi を有効化</button>
+  </li>
 </ul>
 ">
 
@@ -47,15 +49,17 @@
 ">
 
 <!ENTITY netInterrupt.title		"接続が中断されました">
-<!ENTITY netInterrupt.longDesc		"&sharedLongDesc2;">
+<!ENTITY netInterrupt.longDesc2	"&sharedLongDesc3;">
 
 <!ENTITY notCached.title		"ドキュメントが有効期限切れです">
 <!ENTITY notCached.longDesc		"<p>リクエストされた &brandShortName; のキャッシュ内のドキュメントは、利用できません。</p><ul><li>安全対策のため、&brandShortName; は注意を要するドキュメントを自動的に再リクエストしません。</li><li>&quot;再試行&quot; ボタンをクリックしてドキュメントを Web サイトから読み込んでください。</li></ul>">
 
 <!ENTITY netOffline.title "オフラインになっています"><!-- Offline mode: オフラインモードになっています -->
-<!ENTITY netOffline.longDesc2 "
+<!ENTITY netOffline.longDesc3 "
 <ul>
-  <li>再度試してみてください。ネットワークに接続してページを再読み込みします。</li>
+  <li>再度試してみてください。ネットワークに接続してページを再読み込みします。
+    <button id='wifi'>Wi-Fi を有効化</button>
+  </li>
 </ul>
 ">
 
@@ -74,10 +78,10 @@
 ">
 
 <!ENTITY netReset.title			"接続がリセットされました">
-<!ENTITY netReset.longDesc		"&sharedLongDesc2;">
+<!ENTITY netReset.longDesc2		"&sharedLongDesc3;">
 
 <!ENTITY netTimeout.title		"接続がタイムアウトしました">
-<!ENTITY netTimeout.longDesc		"&sharedLongDesc2;">
+<!ENTITY netTimeout.longDesc2		"&sharedLongDesc3;">
 
 <!ENTITY unknownProtocolFound.title	"アドレスのプロトコルが不明です">
 <!ENTITY unknownProtocolFound.longDesc	"
@@ -95,10 +99,12 @@
 ">
 
 <!ENTITY proxyResolveFailure.title	"プロキシサーバが見つかりませんでした">
-<!ENTITY proxyResolveFailure.longDesc2	"
+<!ENTITY proxyResolveFailure.longDesc3	"
 <ul>
   <li>プロキシ設定が正しいか確認してください。</li>
-  <li>デバイスのデータ接続や Wi-Fi 接続が有効であるか確認してください。</li>
+  <li>デバイスのデータ接続や Wi-Fi 接続が有効であるか確認してください。
+    <button id='wifi'>Wi-Fi を有効化</button>
+  </li>
 </ul>
 ">
 
@@ -133,10 +139,12 @@
 </ul>
 ">
 
-<!ENTITY sharedLongDesc2			"
+<!ENTITY sharedLongDesc3			"
 <ul>
   <li>このサイトが一時的に利用できなくなっていたり、サーバの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>
-  <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。</li>
+  <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。
+    <button id='wifi'>Wi-Fi を有効化</button>
+  </li>
 </ul>
 ">
 
