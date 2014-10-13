@@ -8,9 +8,9 @@
 <!ENTITY projectMenu_accesskey				"P">
 <!ENTITY projectMenu_newApp_label			"@@New-CMD@@アプリ...">
 <!ENTITY projectMenu_newApp_accesskey			"N">
-<!ENTITY projectMenu_importPackagedApp_label		"パッケージ済みアプリを開く...">
+<!ENTITY projectMenu_importPackagedApp_label		"パッケージ型アプリを開く...">
 <!ENTITY projectMenu_importPackagedApp_accesskey	"P">
-<!ENTITY projectMenu_importHostedApp_label		"アップロード済みアプリを開く...">
+<!ENTITY projectMenu_importHostedApp_label		"ホスト型アプリを開く...">
 <!ENTITY projectMenu_importHostedApp_accesskey		"H">
 <!ENTITY projectMenu_selectApp_label			"アプリを開く...">
 <!ENTITY projectMenu_selectApp_accesskey		"O">
@@ -29,7 +29,7 @@
 <!ENTITY runtimeMenu_accesskey				"R">
 <!ENTITY runtimeMenu_disconnect_label			"切断">
 <!ENTITY runtimeMenu_disconnect_accesskey		"D">
-<!ENTITY runtimeMenu_showPermissionTable_label		"パーミッションテーブル">
+<!ENTITY runtimeMenu_showPermissionTable_label		"許可設定一覧">
 <!ENTITY runtimeMenu_showPermissionTable_accesskey	"P">
 <!ENTITY runtimeMenu_takeScreenshot_label		"スクリーンショット">
 <!ENTITY runtimeMenu_takeScreenshot_accesskey		"S">
@@ -67,7 +67,7 @@
 <!ENTITY runtimePanel_simulators			"シミュレータ">
 <!ENTITY runtimePanel_custom				"カスタム">
 <!ENTITY runtimePanel_installsimulator			"シミュレータをインストール">
-<!ENTITY runtimePanel_noadbhelper			"ADB Helperをインストール">
+<!ENTITY runtimePanel_noadbhelper			"ADB Helper をインストール">
 <!ENTITY runtimePanel_nousbdevice			"端末が見つかりませんか？">
 
 <!-- Lense -->
@@ -111,27 +111,27 @@
 <!ENTITY prefs_options_tabsize				"タブの長さ">
 <!ENTITY prefs_options_expandtab			"ソフトタブ">
 <!ENTITY prefs_options_expandtab_tooltip		"タブ文字の代わりにスペース文字を使います">
-<!ENTITY prefs_options_detectindentation		"オートインデント">
+<!ENTITY prefs_options_detectindentation		"自動インデント">
 <!ENTITY prefs_options_detectindentation_tooltip	"ソースの内容からインデントを推測します">
-<!ENTITY prefs_options_autocomplete			"オートコンプリート">
-<!ENTITY prefs_options_autocomplete_tooltip		"コードのオートコンプリートを有効にします">
+<!ENTITY prefs_options_autocomplete			"自動補完">
+<!ENTITY prefs_options_autocomplete_tooltip		"コードの自動補完を有効にします">
 <!ENTITY prefs_options_autoclosebrackets		"閉じ括弧自動入力">
 <!ENTITY prefs_options_autoclosebrackets_tooltip	"閉じ括弧を自動的に入力します">
 <!ENTITY prefs_options_keybindings			"キー割り当て">
 <!ENTITY prefs_options_keybindings_default		"@@Default@@">
 
 <!-- Permissions Table -->
-<!ENTITY permissionstable_title				"パーミッションテーブル">
+<!ENTITY permissionstable_title				"許可設定一覧">
 <!ENTITY permissionstable_name_header			"名前">
 
 <!-- Runtime Details -->
 <!ENTITY runtimedetails_title				"ランタイム情報">
 <!ENTITY runtimedetails_adbIsRoot			"ADB は root です: ">
 <!ENTITY runtimedetails_summonADBRoot			"root 端末">
-<!ENTITY runtimedetails_ADBRootWarning			"(ロック解除されたブートローダーが必要です)">
+<!ENTITY runtimedetails_ADBRootWarning			"(ロック解除されたブートローダが必要です)">
 <!ENTITY runtimedetails_restrictedPrivileges		"開発ツールの制限された権限: ">
 <!ENTITY runtimedetails_requestPrivileges		"上位の権限を要求">
-<!ENTITY runtimedetails_privilegesWarning		"(端末は再起動されます。root アクセスが必要です。)">
+<!ENTITY runtimedetails_privilegesWarning		"(端末が再起動されます。root アクセス権限が必要です。)">
 
 <!-- Monitor -->
 <!ENTITY monitor_title					"モニタ">
