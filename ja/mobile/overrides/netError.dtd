@@ -17,7 +17,7 @@
 <!ENTITY deniedPortAccess.longDesc	"">
 
 <!ENTITY dnsNotFound.title		"サーバが見つかりませんでした">
-<!ENTITY dnsNotFound.longDesc2		"
+<!ENTITY dnsNotFound.longDesc3		"
 <ul>
   <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>
   <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。
