@@ -539,3 +539,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 mail                   ------:------------  18890:1238fbdc3cc8   mar             sync mail
 dom                    226051:c8866291dba2  18900:8d2e3f265f73   mar             sync dom
+netwerk, security      226051:c8866291dba2  18900:8d2e3f265f73   mar             sync netwerk, security
