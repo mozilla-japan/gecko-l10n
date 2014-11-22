@@ -795,4 +795,4 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY panicButton.thankyou.msg1		"最近の履歴を消去しました。">
 <!ENTITY panicButton.thankyou.msg2		"安全なブラウジングをお楽しみください！">
-<!ENTITY panicButton.thankyou.buttonlabel	"ありがとうございます">
+<!ENTITY panicButton.thankyou.buttonlabel	"OK">
