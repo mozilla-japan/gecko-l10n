@@ -32,8 +32,15 @@
 <!ENTITY alwaysAsk.accesskey          "A">
 
 <!ENTITY alwaysCheckDefault.label         "起動時に &brandShortName; が@@DefaultBrowser@@であるか確認する">
+<!ENTITY alwaysCheckDefault2.label        "&brandShortName; が@@DefaultBrowser@@か確認する">
 <!ENTITY alwaysCheckDefault2.accesskey    "w">
 <!ENTITY setAsMyDefaultBrowser.label      "&brandShortName; を@@DefaultBrowser@@に設定する">
 <!ENTITY setAsMyDefaultBrowser.accesskey  "D">
+<!ENTITY setAsMyDefaultBrowser2.label     "@@DefaultBrowser@@にする">
+<!ENTITY setAsMyDefaultBrowser2.accesskey "D">
 <!ENTITY isDefault.label                  "&brandShortName; は@@DefaultBrowser@@に設定されています">
 <!ENTITY isNotDefault.label               "&brandShortName; は@@DefaultBrowser@@に設定されていません">
+
+<!ENTITY separateProfileMode.label        "&brandShortName; と Firefox の同時起動を許可する">
+<!ENTITY useFirefoxSync.label             "ヒント: プロファイルを分離します。データを共有するには Sync を使用します。">
+<!ENTITY getStarted.label                 "Sync を開始する...">

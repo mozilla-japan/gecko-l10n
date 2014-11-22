@@ -542,3 +542,4 @@ dom                    226051:c8866291dba2  18900:8d2e3f265f73   mar            
 netwerk, security      226051:c8866291dba2  18900:8d2e3f265f73   mar             sync netwerk, security
 suite                  ------:------------  18901:6d2d158a7f3e   mar             sync suite
 toolkit                226188:fd579191bdd8  18901:6d2d158a7f3e   mar             sync toolkit
+browser                226205:eb5cb0af7527  -----:------------   hATrayflood     sync browser
