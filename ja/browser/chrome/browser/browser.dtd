@@ -143,7 +143,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (findShareServices.label):
   -  Use the unicode ellipsis char, \u2026,
   -  or use "..." if \u2026 doesn't suit traditions in your locale. -->
-<!ENTITY findShareServices.label	"他の共有サービス...">
+<!ENTITY findShareServices.label	"その他の共有サービス...">
 <!ENTITY sharePageCmd.label		"このページを共有">
 <!ENTITY sharePageCmd.commandkey	"S">
 <!ENTITY sharePageCmd.accesskey		"s">
@@ -704,7 +704,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY social.directory.text			"一覧から共有サービスを有効にできます。">
 <!ENTITY social.directory.button		"有効にする">
 <!ENTITY social.directory.introText		"クリックすると &brandShortName; にサービスを追加します。">
-<!ENTITY social.directory.viewmore.text		"その他のサービスを見る">
+<!ENTITY social.directory.viewmore.text		"その他の共有サービスを見る">
 
 <!ENTITY customizeMode.tabTitle			"&brandShortName; をカスタマイズ">
 <!ENTITY customizeMode.menuAndToolbars.header2	"追加のツールと機能">
