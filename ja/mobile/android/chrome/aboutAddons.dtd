@@ -5,7 +5,6 @@
 <!ENTITY aboutAddons.title2                     "アドオン">
 <!ENTITY aboutAddons.header2                    "あなたのアドオン">
 <!ENTITY aboutAddons.options                    "設定">
-<!ENTITY aboutAddons.browseAll                  "すべての Firefox アドオンを見る">
 
 <!ENTITY addonAction.enable                     "有効化">
 <!ENTITY addonAction.disable                    "無効化">
