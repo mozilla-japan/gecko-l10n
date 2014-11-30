@@ -78,13 +78,11 @@
 <!ENTITY settings_title "設定">
 <!ENTITY pref_category_advanced "詳細">
 <!ENTITY pref_category_customize "カスタマイズ">
-<!ENTITY pref_category_customize_summary "ホーム、検索、タブ、@@Import@@">
 
 <!-- Localization note (pref_category_language) : This is the preferences
      section in which the user picks the locale in which to display Firefox
      UI. The locale includes both language and region concepts. -->
 <!ENTITY pref_category_language "言語">
-<!ENTITY pref_category_language_summary "ブラウザの言語を変更">
 <!ENTITY pref_browser_locale "ブラウザの言語">
 
 <!-- Localization note (locale_system_default) : This string indicates that
@@ -102,8 +100,6 @@
      "to bookmark", not the noun "a bookmark". -->
 <!ENTITY overlay_share_bookmark_btn_label "ブックマークする">
 <!ENTITY overlay_share_reading_list_btn_label "リーディングリストに追加">
-<!ENTITY overlay_share_bookmark_btn_label_already "すでにブックマークされています">
-<!ENTITY overlay_share_reading_list_btn_label_already "すでにリーディングリストに追加されています">
 <!ENTITY overlay_share_send_other "他のデバイスに送信">
 
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
@@ -118,11 +114,8 @@
 <!ENTITY pref_category_search3 "検索">
 <!ENTITY pref_category_search_summary "検索プロバイダをカスタマイズ">
 <!ENTITY pref_category_display "表示">
-<!ENTITY pref_category_display_summary "テキスト、タイトルバー、@@FullScreen@@ブラウジング">
 <!ENTITY pref_category_privacy_short "プライバシー">
-<!ENTITY pref_category_privacy_summary " パスワード、Cookie、トラッキング、データの管理">
 <!ENTITY pref_category_vendor "&vendorShortName;">
-<!ENTITY pref_category_vendor_summary "&brandShortName; について、FAQ、データの選択">
 <!ENTITY pref_category_datareporting "データの選択">
 <!ENTITY pref_learn_more "さらに詳しく">
 <!ENTITY pref_category_installed_search_engines "インストール済みの検索エンジン">
@@ -137,7 +130,6 @@
      it is applicable. -->
 <!ENTITY pref_search_hint "ヒント: サイトの検索フィールド上で長押しした後、&formatI; アイコンをタップすることで、どのサイトでも検索プロバイダに追加できます">
 <!ENTITY pref_category_devtools "デベロッパーツール">
-<!ENTITY pref_category_devtools_summary "リモートデバッグ、ペイントフラッシュ">
 <!ENTITY pref_developer_paint_flashing "ペイントフラッシュ">
 <!ENTITY pref_developer_remotedebugging "リモートデバッグ">
 <!ENTITY pref_remember_signons "パスワードを保存する">
@@ -145,7 +137,7 @@
 <!ENTITY pref_category_home "ホーム">
 <!ENTITY pref_category_home_summary "ホームページをカスタマイズ">
 <!ENTITY pref_category_home_panels "パネル">
-<!ENTITY home_add_panel_title "@@New-CMD@@パネルを追加">
+<!ENTITY home_add_panel_title "新しいパネルを追加">
 <!ENTITY home_add_panel_empty "申し訳ありません、追加するパネルを見つけられませんでした">
 <!-- Localization note (home_add_panel_installed):
      The &formatS; will be replaced with the name of the new panel the user just
@@ -172,15 +164,17 @@
 <!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
 <!ENTITY pref_cookies_disabled "無効">
 
-<!ENTITY pref_donottrack_title "トラッキング拒否">
-<!ENTITY pref_donottrack_summary "&brandShortName; はトラッキングの拒否をサイトに通知します">
+<!ENTITY pref_donottrack_menu "トラッキング">
+<!ENTITY pref_donottrack_disallow_tracking "トラッキングの拒否をサイトに通知する">
+<!ENTITY pref_donottrack_allow_tracking "トラッキングの許可をサイトに通知する">
+<!ENTITY pref_donottrack_no_pref "トラッキングの設定についてサイトに通知しない">
 
 <!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
 <!ENTITY pref_char_encoding_off "メニューを表示しない">
 <!ENTITY pref_clear_private_data2 "今すぐデータを消去する">
 <!ENTITY pref_clear_private_data_category "プライベートデータを消去する">
-<!ENTITY pref_clear_on_exit_title2 "終了時に消去する">
+<!ENTITY pref_clear_on_exit_title "ブラウザ終了時に常に消去する">
 <!ENTITY pref_clear_on_exit_summary2 "メインメニューから \u0022終了\u0022 を選択した時、&brandShortName; はいつでも自動的にあなたのデータを消去します">
 <!ENTITY pref_clear_on_exit_dialog_title "消去するデータを選択">
 <!ENTITY pref_plugins "プラグイン">
@@ -209,15 +203,10 @@ size. -->
     demonstrate the font size setting.  It is meant to be whimsical and fun. -->
 <!ENTITY pref_font_size_preview_text "オレンジ色のすばしこいキツネは、みんなの期待をこえて、たゆまぬ成長を続ける。より早く、よりフレキシブルに、そして、より安全に。私たちには、ほんの少しのあきらめも許されない。人々のよりよい体験と、明るい Web の未来へ向かって。"> <!-- Japanese pangram -->
 
-<!ENTITY pref_media_autoplay_enabled "自動再生を許可する">
-<!ENTITY pref_media_autoplay_enabled_summary "サイトがビデオやメディアコンテンツを自動再生できるかをコントロールする">
-
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
 <!ENTITY pref_sync "Firefox Sync で同期">
-<!ENTITY pref_sync_summary "閲覧履歴、パスワード、ブックマーク、タブを同期する">
 <!ENTITY pref_search_suggestions "検索語句の候補を表示">
 <!ENTITY pref_import_android "Android から@@Import-suru@@">
-<!ENTITY pref_import_android_summary "ネイティブブラウザからブックマークや履歴を@@Import-suru@@">
 <!ENTITY pref_private_data_history2 "閲覧履歴">
 <!ENTITY pref_private_data_formdata "フォームと検索の履歴">
 <!ENTITY pref_private_data_cookies2 "Cookie">
@@ -267,7 +256,8 @@ size. -->
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "クラッシュレポータ">
 <!ENTITY datareporting_wifi_title2 "&vendorShortName; 位置情報サービス">
-<!ENTITY datareporting_wifi_geolocation_summary2 "位置情報サービスの向上のため、Wi-Fi と基地局から得たデバイスの位置情報を &vendorShortName; に共有します">
+<!ENTITY datareporting_wifi_geolocation_summary "位置情報サービスの向上のため、バックグラウンドでの動作時に Wi-Fi と基地局の位置情報を受信し、&vendorShortName; に共有します">
+
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
@@ -302,7 +292,6 @@ size. -->
 <!ENTITY tabs_private "プライベートタブ">
 <!ENTITY tabs_synced "同期したタブ">
 <!ENTITY set_image_fail "画像を設定できません">
-<!ENTITY set_image_path_fail "画像を保存できません">
 <!ENTITY set_image_chooser_title "画像を次に設定">
 
 <!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
@@ -362,13 +351,8 @@ size. -->
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
 
 <!ENTITY reading_list_added "ページがリーディングリストに追加されました">
+<!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
 <!ENTITY reading_list_duplicate "ページはすでにリーディングリストに追加されています">
-
-<!-- Localization note (reading_list_time_minutes2) : This string is used in the "Reading List"
-     panel on the home page to give the user an estimate of how many minutes it will take to
-     read an article. The word "minute" should be abbreviated if possible. -->
-<!ENTITY reading_list_time_minutes2 "&formatD; 分">
-<!ENTITY reading_list_time_over_an_hour "1 時間以上">
 
 <!-- Localization note : These strings are used as alternate text for accessibility.
      They are not visible in the UI. -->
@@ -392,9 +376,6 @@ size. -->
      text underneath empty thumbnails in the Top Sites page on about:home. -->
 <!ENTITY home_top_sites_add "サイトを追加">
 
-<!-- Localization note (home_title): This string should be kept in sync
-     with the page title defined in aboutHome.dtd -->
-<!ENTITY home_title "&brandShortName; ホーム">
 <!ENTITY home_history_title "履歴">
 <!ENTITY home_clear_history_button "閲覧履歴を削除">
 <!ENTITY home_clear_history_confirm "本当に履歴を削除しますか？">
@@ -404,9 +385,6 @@ size. -->
 <!ENTITY home_last_tabs_empty "あなたが最近開いたタブが表示されます。">
 <!ENTITY home_open_all "すべて開く">
 <!ENTITY home_most_recent_empty "あなたが最近開いたサイトが表示されます。">
-<!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
-     The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
-<!ENTITY home_most_recent_emptyhint2 "&formatS1; @@New-CMD@@プライベートタブ &formatS2;  を利用すると、履歴を保存しません。">
 <!ENTITY home_reading_list_empty "あなたが保存した記事が表示されます。">
 <!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
      as an advisory message on how to add content to the reading list when the reading list empty.
@@ -425,33 +403,9 @@ size. -->
      previous location in the navigation, such as the previous folder -->
 <!ENTITY home_move_up_to_filter "&formatS; へ戻る">
 
-<!ENTITY home_remote_tabs_title "同期されたタブ">
-<!ENTITY home_remote_tabs_empty "他のデバイスのタブがここに表示されます。">
-<!ENTITY home_remote_tabs_unable_to_connect "接続できません">
-<!ENTITY home_remote_tabs_need_to_sign_in "同期を続けるには Firefox アカウントを接続するためにサインインしてください。">
-<!ENTITY home_remote_tabs_trouble_verifying "アカウントの確認でお困りですか？">
-<!ENTITY home_remote_tabs_need_to_verify "同期を開始するために Firefox アカウントを確認してください。">
-
-<!ENTITY home_remote_tabs_one_hidden_device "さらに 1 台のデバイスがあります">
-<!-- Localization note (home_remote_tabs_many_hidden_devices) : The
-     formatD is replaced with the number of hidden devices.  The
-     number of hidden devices is always more than one.  We can't use
-     Android plural forms, sadly. See Bug #753859. -->
-<!ENTITY home_remote_tabs_many_hidden_devices "さらに &formatD; 台のデバイスがあります">
-<!-- Localization note (home_remote_tabs_hidden_devices_title) : This is the
-     title of a dialog; we expect more than one device. -->
-<!ENTITY home_remote_tabs_hidden_devices_title "表示されていないデバイス">
-<!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
-     the text of a button; we expect more than one device. -->
-<!ENTITY home_remote_tabs_unhide_selected_devices "選択したデバイスを表示">
-
 <!ENTITY private_browsing_title "プライベートブラウジング">
 <!ENTITY private_tabs_panel_empty_desc "あなたのプライベートタブがここに表示されます。Cookie や閲覧履歴は保存されませんが、ブックマークとダウンロードしたファイルはデバイスに保存されます。">
 <!ENTITY private_tabs_panel_learn_more "詳細を表示しますか？">
-
-<!ENTITY remote_tabs_panel_moved_title "私のタブはどこに行ったのですか？">
-<!ENTITY remote_tabs_panel_moved_desc "我々は他のデバイスのタブをあなたのホームページ上のパネルに移動しました。@@NewTab@@を開いたときにいつでも簡単にアクセスできます。">
-<!ENTITY remote_tabs_panel_moved_link "Take me to my new panel.">
 
 <!ENTITY pin_site_dialog_hint "検索キーワードを入力してください">
 
@@ -474,21 +428,11 @@ substitution variables.  If it is difficult to translate the sense of the string
 with that structure, consider a translation which ignores the preceding domain and
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_run_by "このサイトの運営者:">
-<!ENTITY identity_no_info "このサイトは識別情報を提供していません">
-<!ENTITY identity_not_encrypted "このサイトへの接続は暗号化されていません。">
 
 <!-- Mixed content notifications in site identity popup -->
 <!ENTITY loaded_mixed_content_message "このページは安全でないコンテンツを表示しようとしています。">
 <!ENTITY blocked_mixed_content_message_top "&brandShortName; は安全でないコンテンツをブロックしました。">
 <!ENTITY blocked_mixed_content_message_bottom "ほとんどの Web サイトはこのコンテンツをブロックしても正しく動作します。">
-
-<!-- Tracking content notifications in site identity popup -->
-<!ENTITY loaded_tracking_content_message_top "トラッキングの保護は有効化されていません。">
-<!ENTITY loaded_tracking_content_message_bottom "このページのいくつかの要素はあなたのオンライン上の行動をトラッキングします。">
-<!ENTITY blocked_tracking_content_message_top2 "トラッキングの保護は有効です。">
-<!ENTITY blocked_tracking_content_message_bottom2 "このページであなたのオンライン上の行動をトラッキングする要素はブロックされました。">
-
-<!-- Common mixed and tracking content strings in site identity popup -->
 <!ENTITY learn_more "詳細を表示">
 <!ENTITY enable_protection "保護を有効化">
 <!ENTITY disable_protection "保護を無効化">
@@ -517,6 +461,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY searchable_description "ブックマークと履歴">
 
+<!ENTITY devtools_remote_debugging_forward "ポートフォワーディングの設定を忘れないでください！">
+
  <!-- Updater notifications -->
 <!ENTITY updater_start_title2 "&brandShortName; の利用可能な更新">
 <!ENTITY updater_start_select2 "タッチしてダウンロードを開始します">
@@ -529,21 +475,13 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_apply_title2 "&brandShortName; の利用可能な更新">
 <!ENTITY updater_apply_select2 "タッチして更新を開始します">
 
-<!-- New tablet UI -->
-
-<!-- LOCALIZATION NOTE (new_tablet_restart): Notification displayed after the user toggles the new tablet UI in the settings screen.-->
-<!ENTITY new_tablet_restart "変更を適用するにはブラウザを再起動します">
-<!ENTITY new_tablet_pref "@@New-CMD@@タブレット UI を有効化する">
-
 <!-- Guest mode -->
-<!ENTITY new_guest_session "@@New-CMD@@ゲストセッション">
+<!ENTITY new_guest_session "新規ゲストセッション">
 <!ENTITY exit_guest_session "ゲストセッション終了">
 <!ENTITY guest_session_dialog_continue "続行">
 <!ENTITY guest_session_dialog_cancel "キャンセル">
 <!ENTITY new_guest_session_title "&brandShortName; は今すぐ再起動します">
 <!ENTITY new_guest_session_text "このモードを使う人は、あなたの個人的な閲覧データ (保存されたパスワードや履歴、ブックマークなど) にはアクセスできません。\n\nゲストモードが終了した時、その閲覧データは削除され、元のセッションが復元されます。">
-<!ENTITY guest_browsing_notification_title "ゲストブラウジングは有効です">
-<!ENTITY guest_browsing_notification_text "タップして終了">
 
 <!ENTITY exit_guest_session_title "&brandShortName; は今すぐ再起動します">
 <!ENTITY exit_guest_session_text "このセッションの閲覧データは削除されます。">
@@ -556,7 +494,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY colon ":">
 
-<!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
+<!-- These are only used for accessiblity for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 <!ENTITY actionbar_menu "メニュー">
 <!ENTITY actionbar_done "完了">
@@ -568,8 +506,3 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      "Last synced" is one of the user's other Sync clients, typically Firefox on
      their desktop or laptop.-->
 <!ENTITY remote_tabs_last_synced "最終更新日時: &formatS;">
-
-<!-- Find-In-Page strings -->
-<!-- LOCALIZATION NOTE (find_matchcase): This is meant to appear as an icon that changes color
-     if match-case is activated. i.e. No more than two letters, one uppercase, one lowercase. -->
-<!ENTITY find_matchcase "Aa">
