@@ -266,7 +266,7 @@ size. -->
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "クラッシュレポータ">
 <!ENTITY datareporting_wifi_title2 "&vendorShortName; 位置情報サービス">
-+<!ENTITY datareporting_wifi_geolocation_summary2 "位置情報サービスの向上のため、Wi-Fi と基地局から得たデバイスの位置情報を &vendorShortName; に共有します">
+<!ENTITY datareporting_wifi_geolocation_summary2 "位置情報サービスの向上のため、Wi-Fi と基地局から得たデバイスの位置情報を &vendorShortName; に共有します">
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
