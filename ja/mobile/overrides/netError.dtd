@@ -17,9 +17,15 @@
 <!ENTITY deniedPortAccess.longDesc	"">
 
 <!ENTITY dnsNotFound.title		"サーバが見つかりませんでした">
-<!ENTITY dnsNotFound.longDesc3		"
+<!-- LOCALIZATION NOTE (dnsNotFound.longDesc4) This string contains markup including widgets for searching
+     or enabling wifi connections. The text inside tags should be localized.  Do not change the ids. -->
+<!ENTITY dnsNotFound.longDesc4 "
 <ul>
   <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>
+    <div id='searchbox'>
+      <input id='searchtext' type='search'></input>
+      <button id='searchbutton'>検索</button>
+    </div>
   <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。
     <button id='wifi'>Wi-Fi を有効化</button>
   </li>
@@ -41,9 +47,15 @@
 ">
 
 <!ENTITY malformedURI.title		"アドレスの書式が正しくありません">
-<!ENTITY malformedURI.longDesc		"
+<!-- LOCALIZATION NOTE (malformedURI.longDesc2) This string contains markup including widgets for searching
+     or enabling wifi connections. The text inside the tags should be localized. Do not touch the ids. -->
+<!ENTITY malformedURI.longDesc2 "
 <ul>
   <li>Web のアドレスは通常 <strong>http://www.example.com/</strong> のようなものになります。</li>
+    <div id='searchbox'>
+      <input id='searchtext' type='search'></input>
+      <button id='searchbutton'>検索</button>
+    </div>
   <li>円記号やバックスラッシュ (<strong>\</strong>) ではなく、スラッシュ (<strong>/</strong>) が使われているか確認してください。</li>
 </ul>
 ">
@@ -55,6 +67,8 @@
 <!ENTITY notCached.longDesc		"<p>リクエストされた &brandShortName; のキャッシュ内のドキュメントは、利用できません。</p><ul><li>安全対策のため、&brandShortName; は注意を要するドキュメントを自動的に再リクエストしません。</li><li>&quot;再試行&quot; ボタンをクリックしてドキュメントを Web サイトから読み込んでください。</li></ul>">
 
 <!ENTITY netOffline.title "オフラインになっています"><!-- Offline mode: オフラインモードになっています -->
+<!-- LOCALIZATION NOTE (netOffline.longDesc3) This string contains markup including widgets enabling wifi connections.
+     The text inside the tags should be localized. Do not touch the ids. -->
 <!ENTITY netOffline.longDesc3 "
 <ul>
   <li>再度試してみてください。ネットワークに接続してページを再読み込みします。
@@ -99,6 +113,8 @@
 ">
 
 <!ENTITY proxyResolveFailure.title	"プロキシサーバが見つかりませんでした">
+<!-- LOCALIZATION NOTE (proxyResolveFailure.longDesc3) This string contains markup including widgets for enabling wifi connections.
+     The text inside the tags should be localized. Do not touch the ids. -->
 <!ENTITY proxyResolveFailure.longDesc3	"
 <ul>
   <li>プロキシ設定が正しいか確認してください。</li>
@@ -139,6 +155,8 @@
 </ul>
 ">
 
+<!-- LOCALIZATION NOTE (sharedLongDesc3) This string contains markup including widgets for enabling wifi connections.
+     The text inside the tags should be localized. Do not touch the ids. -->
 <!ENTITY sharedLongDesc3			"
 <ul>
   <li>このサイトが一時的に利用できなくなっていたり、サーバの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>

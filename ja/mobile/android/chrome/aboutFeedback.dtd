@@ -17,9 +17,9 @@
 <!-- LOCALIZATION NOTE (support.pre): Include a trailing space as needed. -->
 <!-- LOCALIZATION NOTE (support.link): Avoid leading/trailing spaces, this text is a link. -->
 <!-- LOCALIZATION NOTE (support.post): Include a starting space as needed. -->
-<!ENTITY support.pre2              "また、">
-<!ENTITY support.link              "&brandShortName; サポート">
-<!ENTITY support.post2             "にアクセスして、より多くの情報を入手できます。">
+<!ENTITY support.pre3              "また、">
+<!ENTITY support.link2             "サポートサイト">
+<!ENTITY support.post3             "にアクセスして、一般的な問題への回答を確認してください。">
 
 <!ENTITY happy.header              "それは素晴らしいですね！">
 
@@ -35,13 +35,14 @@
 <!ENTITY happy.maybeLater2         "あとで考えます">
 <!ENTITY happy.noThanks            "いいえ、結構です">
 
+<!ENTITY sad.header                "おっと！">
 <!ENTITY sad.message               "&brandShortName; に問題があり申し訳ありません。問題解決のために、どのような問題が起こったのかを教えてください。">
 <!ENTITY sad.placeholder           "ここにあなたのフィードバックを入力してください">
-<!ENTITY sad.lastSite              "最後に訪れたサイト (任意)">
+<!ENTITY sad.lastSite2             "最後に訪れたサイトを含む">
 
 <!-- LOCALIZATION NOTE (sad.urlPlaceholder): Placeholder text that appears in "Last visited site" input box when there is no text. -->
 <!ENTITY sad.urlPlaceholder        "http://">
-<!ENTITY sad.thanksHeader          "ご報告ありがとうございます。">
+<!ENTITY sad.thanksHeader2         "ありがとうございます。">
 
 <!-- LOCALIZATION NOTE (sad.thanksMessageTop): "real people" — We're stating that an actual human will look at the feedback
      and that it doesn't just go to some automated system that looks for keywords, or something like that. -->
@@ -52,5 +53,5 @@
      work in your language, you can change it to something like "no matter what" or just remove it entirely. -->
 <!ENTITY sad.thanksMessageBottom   "">
 
-<!ENTITY feedback.privacy          "プライバシー保護のため、フィードバックのなかにどのような個人情報も含めないようお願いします。">
+<!ENTITY feedback.privacy2         "プライバシー保護のため、フィードバックのなかにどのような個人情報も含めないようお願いします。">
 <!ENTITY feedback.send             "フィードバックを送る">
