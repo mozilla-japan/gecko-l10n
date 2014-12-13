@@ -520,7 +520,7 @@ mobile                 209389:0fe131231886  -----:------------   Kechol         
 browser                216859:16e19b9cec72  -----:------------   mar             sync browser (late-l10n)
 
 
-[l10n-mozilla-34.0] (for beta)
+Released! [l10n-mozilla-34.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 mail                   ------:------------  18737:47e507c3084e   mar             sync mail
@@ -534,7 +534,7 @@ webapprt               218024:285ff4f57e70  -----:------------   hATrayflood    
 mobile                 218336:c9d7c20b83f1  -----:------------   Kechol          sync mobile
 
 
-[l10n-mozilla-35.0] (for aurora)
+[l10n-mozilla-35.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 mail                   ------:------------  18890:1238fbdc3cc8   mar             sync mail
@@ -544,3 +544,7 @@ suite                  ------:------------  18901:6d2d158a7f3e   mar            
 toolkit                226188:fd579191bdd8  18901:6d2d158a7f3e   mar             sync toolkit
 browser                226205:eb5cb0af7527  -----:------------   hATrayflood     sync browser
 mobile                 226311:0cf828669d5a  -----:------------   Kechol,knagato  sync mobile
+browser                234198:6117947187de  -----:------------   hATrayflood     re-sync browser for beta
+
+
+[l10n-mozilla-36.0] (for aurora)
