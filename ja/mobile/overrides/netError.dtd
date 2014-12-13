@@ -166,8 +166,8 @@
 </ul>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "コンテンツセキュリティポリシーによりブロックされました">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>セキュリティポリシーにより読み込みが禁止されたコンテンツが含まれているため、このページの読み込みを中止しました。</p>">
+<!ENTITY cspBlocked.title "コンテンツセキュリティポリシーによりブロックされました">
+<!ENTITY cspBlocked.longDesc "<p>セキュリティポリシーにより読み込みが禁止されたコンテンツが含まれているため、このページの読み込みを中止しました。</p>">
 
 <!ENTITY corruptedContentError.title "データ破損エラー">
 <!ENTITY corruptedContentError.longDesc "<p>データの送信中にエラーが発生したため、このページを開くことができません。</p><ul><li>この Web サイトの管理者に問題を連絡してください。</li></ul>">
