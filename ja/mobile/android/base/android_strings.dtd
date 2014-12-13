@@ -145,7 +145,7 @@
 <!ENTITY pref_category_home "ホーム">
 <!ENTITY pref_category_home_summary "ホームページをカスタマイズ">
 <!ENTITY pref_category_home_panels "パネル">
-<!ENTITY home_add_panel_title "新しいパネルを追加">
+<!ENTITY home_add_panel_title "@@New-CMD@@パネルを追加">
 <!ENTITY home_add_panel_empty "申し訳ありません、追加するパネルを見つけられませんでした">
 <!-- Localization note (home_add_panel_installed):
      The &formatS; will be replaced with the name of the new panel the user just
@@ -172,10 +172,8 @@
 <!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
 <!ENTITY pref_cookies_disabled "無効">
 
-<!ENTITY pref_donottrack_menu "トラッキング">
-<!ENTITY pref_donottrack_disallow_tracking "トラッキングの拒否をサイトに通知する">
-<!ENTITY pref_donottrack_allow_tracking "トラッキングの許可をサイトに通知する">
-<!ENTITY pref_donottrack_no_pref "トラッキングの設定についてサイトに通知しない">
+<!ENTITY pref_donottrack_title "トラッキング拒否">
+<!ENTITY pref_donottrack_summary "&brandShortName; はトラッキングの拒否をサイトに通知します">
 
 <!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
@@ -210,6 +208,9 @@ size. -->
 <!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
     demonstrate the font size setting.  It is meant to be whimsical and fun. -->
 <!ENTITY pref_font_size_preview_text "オレンジ色のすばしこいキツネは、みんなの期待をこえて、たゆまぬ成長を続ける。より早く、よりフレキシブルに、そして、より安全に。私たちには、ほんの少しのあきらめも許されない。人々のよりよい体験と、明るい Web の未来へ向かって。"> <!-- Japanese pangram -->
+
+<!ENTITY pref_media_autoplay_enabled "自動再生を許可する">
+<!ENTITY pref_media_autoplay_enabled_summary "サイトがビデオやメディアコンテンツを自動再生できるかをコントロールする">
 
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
 <!ENTITY pref_sync "Firefox Sync で同期">
@@ -361,8 +362,13 @@ size. -->
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
 
 <!ENTITY reading_list_added "ページがリーディングリストに追加されました">
-<!ENTITY reading_list_failed "ページをリーディングリストに追加できませんでした">
 <!ENTITY reading_list_duplicate "ページはすでにリーディングリストに追加されています">
+
+<!-- Localization note (reading_list_time_minutes2) : This string is used in the "Reading List"
+     panel on the home page to give the user an estimate of how many minutes it will take to
+     read an article. The word "minute" should be abbreviated if possible. -->
+<!ENTITY reading_list_time_minutes2 "&formatD; 分">
+<!ENTITY reading_list_time_over_an_hour "1 時間以上">
 
 <!-- Localization note : These strings are used as alternate text for accessibility.
      They are not visible in the UI. -->
@@ -386,6 +392,9 @@ size. -->
      text underneath empty thumbnails in the Top Sites page on about:home. -->
 <!ENTITY home_top_sites_add "サイトを追加">
 
+<!-- Localization note (home_title): This string should be kept in sync
+     with the page title defined in aboutHome.dtd -->
+<!ENTITY home_title "&brandShortName; ホーム">
 <!ENTITY home_history_title "履歴">
 <!ENTITY home_clear_history_button "閲覧履歴を削除">
 <!ENTITY home_clear_history_confirm "本当に履歴を削除しますか？">
@@ -395,6 +404,9 @@ size. -->
 <!ENTITY home_last_tabs_empty "あなたが最近開いたタブが表示されます。">
 <!ENTITY home_open_all "すべて開く">
 <!ENTITY home_most_recent_empty "あなたが最近開いたサイトが表示されます。">
+<!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
+     The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
+<!ENTITY home_most_recent_emptyhint2 "&formatS1; @@New-CMD@@プライベートタブ &formatS2;  を利用すると、履歴を保存しません。">
 <!ENTITY home_reading_list_empty "あなたが保存した記事が表示されます。">
 <!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
      as an advisory message on how to add content to the reading list when the reading list empty.
@@ -462,11 +474,21 @@ substitution variables.  If it is difficult to translate the sense of the string
 with that structure, consider a translation which ignores the preceding domain and
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_run_by "このサイトの運営者:">
+<!ENTITY identity_no_info "このサイトは識別情報を提供していません">
+<!ENTITY identity_not_encrypted "このサイトへの接続は暗号化されていません。">
 
 <!-- Mixed content notifications in site identity popup -->
 <!ENTITY loaded_mixed_content_message "このページは安全でないコンテンツを表示しようとしています。">
 <!ENTITY blocked_mixed_content_message_top "&brandShortName; は安全でないコンテンツをブロックしました。">
 <!ENTITY blocked_mixed_content_message_bottom "ほとんどの Web サイトはこのコンテンツをブロックしても正しく動作します。">
+
+<!-- Tracking content notifications in site identity popup -->
+<!ENTITY loaded_tracking_content_message_top "トラッキングの保護は有効化されていません。">
+<!ENTITY loaded_tracking_content_message_bottom "このページのいくつかの要素はあなたのオンライン上の行動をトラッキングします。">
+<!ENTITY blocked_tracking_content_message_top2 "トラッキングの保護は有効です。">
+<!ENTITY blocked_tracking_content_message_bottom2 "このページであなたのオンライン上の行動をトラッキングする要素はブロックされました。">
+
+<!-- Common mixed and tracking content strings in site identity popup -->
 <!ENTITY learn_more "詳細を表示">
 <!ENTITY enable_protection "保護を有効化">
 <!ENTITY disable_protection "保護を無効化">
@@ -495,8 +517,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY searchable_description "ブックマークと履歴">
 
-<!ENTITY devtools_remote_debugging_forward "ポートフォワーディングの設定を忘れないでください！">
-
  <!-- Updater notifications -->
 <!ENTITY updater_start_title2 "&brandShortName; の利用可能な更新">
 <!ENTITY updater_start_select2 "タッチしてダウンロードを開始します">
@@ -516,7 +536,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY new_tablet_pref "@@New-CMD@@タブレット UI を有効化する">
 
 <!-- Guest mode -->
-<!ENTITY new_guest_session "新規ゲストセッション">
+<!ENTITY new_guest_session "@@New-CMD@@ゲストセッション">
 <!ENTITY exit_guest_session "ゲストセッション終了">
 <!ENTITY guest_session_dialog_continue "続行">
 <!ENTITY guest_session_dialog_cancel "キャンセル">
@@ -536,7 +556,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY colon ":">
 
-<!-- These are only used for accessiblity for the done and overflow-menu buttons in the actionbar.
+<!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 <!ENTITY actionbar_menu "メニュー">
 <!ENTITY actionbar_done "完了">
@@ -548,3 +568,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      "Last synced" is one of the user's other Sync clients, typically Firefox on
      their desktop or laptop.-->
 <!ENTITY remote_tabs_last_synced "最終更新日時: &formatS;">
+
+<!-- Find-In-Page strings -->
+<!-- LOCALIZATION NOTE (find_matchcase): This is meant to appear as an icon that changes color
+     if match-case is activated. i.e. No more than two letters, one uppercase, one lowercase. -->
+<!ENTITY find_matchcase "Aa">

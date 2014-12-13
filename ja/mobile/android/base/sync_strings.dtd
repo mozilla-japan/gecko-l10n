@@ -70,7 +70,7 @@
 <!ENTITY sync.button.cancel.label 'キャンセル'>
 <!ENTITY sync.button.connect.label '接続'>
 <!ENTITY sync.button.ok.label 'OK'>
-  
+
 <!-- Account strings -->
 <!ENTITY sync.account.label '&syncBrand.fullName.label; (非推奨)'>
 
@@ -167,6 +167,7 @@
 <!-- Localization note: &formatS; is the Firefox Account's email address. -->
 <!ENTITY fxaccount_confirm_account_verification_link '確認用のリンクを &formatS; に送信しました'>
 <!ENTITY fxaccount_confirm_account_resend_email 'メールを再送信'>
+<!ENTITY fxaccount_confirm_account_change_email 'このメールアドレスを忘れてしまいますか？'>
 <!ENTITY fxaccount_confirm_account_verification_link_sent2 '確認のメールが送信されました'>
 <!ENTITY fxaccount_confirm_account_verification_link_not_sent2 '確認のメールを送信できませんでした'>
 
@@ -186,6 +187,8 @@
 <!ENTITY fxaccount_status_header2 'Firefox アカウント'>
 <!ENTITY fxaccount_status_signed_in_as 'サインインユーザ'>
 <!ENTITY fxaccount_status_auth_server 'アカウントサーバ'>
+<!ENTITY fxaccount_status_sync_now '今すぐ同期'>
+<!ENTITY fxaccount_status_syncing2 '同期しています&ellipsis;'>
 <!ENTITY fxaccount_status_device_name 'デバイス名'>
 <!ENTITY fxaccount_status_sync_server '同期サーバ'>
 <!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>

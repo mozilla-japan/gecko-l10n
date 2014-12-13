@@ -8,7 +8,7 @@
       the currently selected search engine. -->
 <!ENTITY search_bar_hint '&formatS; で検索'>
 
-<!ENTITY search_empty_title '&brandShortName; 検索'>
+<!ENTITY search_empty_title2 '検索を開始'>
 <!ENTITY search_empty_message 'あなたの探したいものをなんでもすばやく検索します'>
 
 <!--  Localization note (search_plus_content_description): This is the content description
