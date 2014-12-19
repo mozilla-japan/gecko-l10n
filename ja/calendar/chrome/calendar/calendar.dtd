@@ -244,6 +244,16 @@
 <!ENTITY calendar.context.properties.label		"@@PropertyCMD@@">
 <!ENTITY calendar.context.properties.accesskey		"P">
 
+<!-- LOCALIZATION NOTE (calendar.context.togglevisible.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.togglevisible.accesskey	"H">
+
+<!-- LOCALIZATION NOTE (calendar.context.showonly.accesskey)
+     This is the access key used for the showOnlyCalendar string -->
+<!ENTITY calendar.context.showonly.accesskey		"O">
+<!ENTITY calendar.context.showall.label			"すべてのカレンダーを表示">
+<!ENTITY calendar.context.showall.accesskey		"A">
+
 <!ENTITY calendar.context.convertmenu.label		"変換">
 <!ENTITY calendar.context.convertmenu.accesskey.mail	"n">
 <!ENTITY calendar.context.convertmenu.accesskey.calendar	"v">

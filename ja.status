@@ -548,5 +548,8 @@ browser                234198:6117947187de  -----:------------   hATrayflood    
 
 
 [l10n-mozilla-36.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
 dom                    234288:993c07956f3d  -----:------------   hATrayflood     sync dom
 mobile                 234200:b1d78b9ea61e  -----:------------   Kechol          sync mobile
+calendar               ------:------------  19200:24019227e07b   mar             sync calendar

@@ -13,5 +13,10 @@
 <!ENTITY gdata.migration.upgrade.accesskey "U">
 <!ENTITY gdata.migration.showagain.label "毎回確認する ">
 
-<!-- (^a^) おそらく Google カレンダーで言う「モバイル」のことだと思うが未確認 -->
-<!ENTITY gdata.reminder.action.sms.label "モバイルに通知する">
+<!ENTITY gdata.reminder.default "@@Default-@@アラーム">
+<!ENTITY gdata.reminder.action.sms.label "モバイルに通知する"><!-- (^a^) おそらく Google カレンダーで言う「モバイル」のことだと思うが未確認 -->
+
+<!ENTITY gdata.wizard.session.description "既存のセッションを選ぶかメールアドレスを入力して新しいセッションを作成してください。アカウントごとに必要なセッションは 1 つのみです。">
+<!ENTITY gdata.wizard.calendars.description "購読するカレンダーと ToDo リストを選択してください。">
+
+<!ENTITY gdata.wizard.nextstep.description "次のステップへ進み、カレンダーをセットアップしてください。">
