@@ -4,7 +4,7 @@
 
 <!-- Subscription Dialog -->
 <!ENTITY feedSubscriptions.label	"フィードの購読">
-<!ENTITY subscriptionDesc.label		"注意: フィードのフォルダを削除または変更しても、ダウンロードした記事はそのまま残ります。">
+<!ENTITY learnMore.label		"フィードについて">
 
 <!ENTITY feedTitle.label		"タイトル:">
 <!ENTITY feedTitle.accesskey		"T">
@@ -12,6 +12,9 @@
 <!ENTITY feedLocation.label		"フィードの URL:">
 <!ENTITY feedLocation.accesskey		"U">
 <!ENTITY feedLocation.placeholder	"追加するフィードの正しい URL を入力してください">
+<!ENTITY locationValidate.label		"フィードの検証">
+<!ENTITY validateText.label		"フィードが有効か確認して正しい URL を取得します。">
+
 
 <!ENTITY feedFolder.label		"記事の保存先:">
 <!ENTITY feedFolder.accesskey		"S">
@@ -24,9 +27,6 @@
 <!ENTITY autotagUsePrefix.label		"タグの接頭辞:">
 <!ENTITY autotagUsePrefix.accesskey	"P">
 <!ENTITY autoTagPrefix.placeholder	"タグの接頭辞を入力してください">
-
-<!ENTITY locationValidate.label		"フィードの検証">
-<!ENTITY validateText.label		"フィードが有効か確認して正しい URL を取得します。">
 
 <!ENTITY button.addFeed.label		"追加">
 <!ENTITY button.addFeed.accesskey	"A">

@@ -33,10 +33,6 @@
 <!ENTITY showCookies.label		"Cookie を表示...">
 <!ENTITY showCookies.accesskey		"S">
 
-<!ENTITY dntTrackingNopref.label2	"トラッキングに関する設定は一切サイトに通知しない">
-<!ENTITY dntTrackingNopref.accesskey	"o">
 <!ENTITY dntTrackingNotOkay.label2	"トラッキングの拒否を Web サイトに通知する">
 <!ENTITY dntTrackingNotOkay.accesskey	"n">
-<!ENTITY dntTrackingOkay.label2		"トラッキングの許可を Web サイトに通知する">
-<!ENTITY dntTrackingOkay.accesskey	"t">
 <!ENTITY doNotTrackInfo.label		"トラッキング拒否について">
