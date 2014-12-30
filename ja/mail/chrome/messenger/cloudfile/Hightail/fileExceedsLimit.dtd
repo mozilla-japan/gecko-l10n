@@ -2,12 +2,5 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this file,
    - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
 <!ENTITY fileExceedsLimit.title		"Hightail">
-<!ENTITY fileExceedsLimit.thatsBigFile	"50MB 以上のファイルを送信">
-<!ENTITY fileExceedsLimit.thatsBigFile2	"する機能は有料です。">
-<!ENTITY fileExceedsLimit.accept	"アップグレード">
-<!ENTITY fileExceedsLimit.cancel	"キャンセル">
+<!ENTITY fileExceedsLimit.thatsBigFile3	"無料アカウントでは、50MB より大きなサイズのファイルの送信はサポートされていません。">
 <!ENTITY fileExceedsLimit.style		"width: 40em; min-height: 20em;">
-<!ENTITY fileExceedsLimit.proIncludes	"付加機能を利用してこのファイルを送信するには今すぐアップグレードしてください:">
-<!ENTITY fileExceedsLimit.pros1		"2GB 以上のサイズのファイルやフォルダを送信">
-<!ENTITY fileExceedsLimit.pros2		"オンラインで無制限にファイルを格納">
-<!ENTITY fileExceedsLimit.pros3		"どこからでもファイルへのアクセスと共有を提供">
