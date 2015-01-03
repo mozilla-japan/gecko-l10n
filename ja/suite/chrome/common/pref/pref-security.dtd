@@ -8,12 +8,12 @@
 <!ENTITY tracking.label                   "トラッキング">
 <!ENTITY trackingIntro.label              "Web サイトの中にはあなたの行動を追跡するものがあり、あなたのプライバシーに影響を与えます。">
 
-<!ENTITY dntTellSites.label               "トラッキングに関する設定をサイトに通知する">
-<!ENTITY dntTellSites.accesskey           "T">
-<!ENTITY dntTrackingNotOkay.label         "トラッキングを拒否する">
-<!ENTITY dntTrackingNotOkay.accesskey     "n">
-<!ENTITY dntTrackingOkay.label            "トラッキングを許可する">
-<!ENTITY dntTrackingOkay.accesskey        "c">
+<!ENTITY doNotTrack.label                 "トラッキングの拒否をサイトに通知する">
+<!ENTITY doNotTrack.accesskey             "T">
+<!ENTITY trackProtect.label               "トラッキングからサイトを保護">
+<!ENTITY trackProtect.accesskey           "n">
+<!ENTITY warnTrackContent.label           "トラッキングが検出されたときに警告する">
+<!ENTITY warnTrackContent.accesskey       "W">
 
 <!ENTITY geoLocation.label                "位置情報の通知">
 <!ENTITY geoIntro.label                   "Web サイトはあなたの詳細な位置情報を要求することがあります。">
