@@ -14,4 +14,4 @@
 <!ENTITY SearchHighlight2.text		"検索キーワードを入力していくと、@@Default-@@検索エンジンから検索候補が表示されます。">
 
 <!ENTITY SearchHighlightNext		"次へ">
-<!ENTITY SearchHighlightClose		"ありがとうございます！">
+<!ENTITY SearchHighlightClose		"閉じる">
