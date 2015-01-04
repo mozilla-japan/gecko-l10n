@@ -10,7 +10,7 @@
 
 <!ENTITY doNotTrack.label                 "トラッキングの拒否をサイトに通知する">
 <!ENTITY doNotTrack.accesskey             "T">
-<!ENTITY trackProtect.label               "トラッキングからサイトを保護">
+<!ENTITY trackProtect.label               "既知のサイトのトラッキング活動から保護する">
 <!ENTITY trackProtect.accesskey           "n">
 <!ENTITY warnTrackContent.label           "トラッキングが検出されたときに警告する">
 <!ENTITY warnTrackContent.accesskey       "W">
