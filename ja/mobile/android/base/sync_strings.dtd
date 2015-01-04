@@ -188,7 +188,7 @@
 <!ENTITY fxaccount_status_signed_in_as 'サインインユーザ'>
 <!ENTITY fxaccount_status_auth_server 'アカウントサーバ'>
 <!ENTITY fxaccount_status_sync_now '今すぐ同期'>
-<!ENTITY fxaccount_status_syncing2 '同期しています&ellipsis;'>
+<!ENTITY fxaccount_status_syncing2 '同期しています...'>
 <!ENTITY fxaccount_status_device_name 'デバイス名'>
 <!ENTITY fxaccount_status_sync_server '同期サーバ'>
 <!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
@@ -209,7 +209,7 @@
      the two uses differently. -->
 <!ENTITY fxaccount_status_linktos 'サービス利用規約'>
 <!ENTITY fxaccount_status_linkprivacy '個人情報保護方針'>
-<!ENTITY fxaccount_status_more 'さらに詳しく&ellipsis;'>
+<!ENTITY fxaccount_status_more 'さらに詳しく...'>
 
 <!ENTITY fxaccount_remove_account_dialog_title 'Firefox アカウントを削除しますか？'>
 <!ENTITY fxaccount_remove_account_dialog_message '&brandShortName; はあなたのアカウントを同期することを停止しますが、このデバイスのブラウジングデータは一切削除されません。'>
