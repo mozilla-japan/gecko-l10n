@@ -13,6 +13,10 @@
 <!ENTITY pref.dateformat.long "長い形式" >
 <!ENTITY pref.dateformat.short "短い形式"  >
 
+<!ENTITY pref.timezones.caption "タイムゾーン">
+<!ENTITY pref.timezones.label "現在位置のタイムゾーンにもっとも近い都市を選択してください:">
+<!ENTITY pref.timezones.accesskey "S">
+
 <!ENTITY pref.defaults.label "新しい予定または ToDo の@@Default-@@値">
 <!ENTITY pref.events.label "予定">
 <!ENTITY pref.tasks.label "ToDo">

@@ -564,4 +564,5 @@ suite                  ------:------------  19199:294694b31d0b   hATrayflood    
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                240345:8f49a2fc3f0c  19417:a08093dbf871   mar             sync toolkit
+calendar               ------:------------  19423:8f81d26fca7d   mar             sync calendar
 
