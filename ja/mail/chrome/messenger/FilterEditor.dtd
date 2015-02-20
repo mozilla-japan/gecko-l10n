@@ -24,6 +24,8 @@
 <!ENTITY contextManual.accesskey	"R">
 <!ENTITY contextBeforeCls.label		"迷惑メール分類前に実行">
 <!ENTITY contextAfterCls.label		"迷惑メール分類後に実行">
+<!ENTITY contextOutgoing.label		"メール送信後">
+<!ENTITY contextOutgoing.accesskey	"S">
 
 <!ENTITY filterActionDesc.label		"以下の動作を実行する:">
 <!ENTITY filterActionDesc.accesskey	"P">

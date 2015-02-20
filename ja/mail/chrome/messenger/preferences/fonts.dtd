@@ -5,9 +5,6 @@
 <!-- (^^; browser/preferences/fonts.dtd と一部同じ -->
 
 <!ENTITY  fontsAndEncodingsDialog.title	"フォントと文字エンコーディング">
-<!ENTITY  window.width			"44em"><!-- en-US: 39em -->
-<!ENTITY  window.macWidth		"48em"><!-- en-US: 43em -->
-<!ENTITY  window.unixWidth		"44em"><!-- en-US: 41em -->
 
 <!ENTITY  language.label		"対象言語:">
 <!ENTITY  language.accesskey		"t">
