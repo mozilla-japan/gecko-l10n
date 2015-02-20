@@ -6,8 +6,12 @@
 <!ENTITY  window.width			"38em">
 <!ENTITY  window.macWidth		"41em">
 
-<!ENTITY  allowPagesToUse.label		"Web ページが指定した@@Colors@@を優先する">
-<!ENTITY  allowPagesToUse.accesskey	"A">
+<!ENTITY  overridePageColors.label	"Web ページに指定された@@Colors@@を上記の設定に変更する:">
+<!ENTITY  overridePageColors.accesskey	"O">
+
+<!ENTITY  overridePageColors.always.label	"常に変更する">
+<!ENTITY  overridePageColors.auto.label		"高コントラストテーマ使用時のみ変更する">
+<!ENTITY  overridePageColors.never.label	"変更しない">
 
 <!ENTITY  color				"テキストと背景の@@Color@@">
 <!ENTITY  textColor.label		"テキスト:">

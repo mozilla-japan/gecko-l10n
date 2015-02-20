@@ -5,7 +5,6 @@
 <!-- (^^; browser/preferences/connection.dtd とほぼ同一 -->
 
 <!ENTITY  connectionsDialog.title	"インターネット接続">
-<!ENTITY  window.width			"42em"><!-- en-US: 37em -->
 
 <!ENTITY  proxyTitle.label		"インターネット接続に使用するプロキシの設定">
 <!ENTITY  noProxyTypeRadio.label	"プロキシを使用しない"><!-- prev: 直接接続する -->

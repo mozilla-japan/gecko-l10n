@@ -4,9 +4,10 @@
 
 <!ENTITY  prefWindow.titleWin		"オプション">
 <!ENTITY  prefWindow.titleGNOME		"&brandShortName; の設定">
-<!ENTITY  prefWindow.styleWindows	"width: 54em; min-height: 42em;"><!-- width: 44em; min-height: 38.5em; -->
-<!ENTITY  prefWindow.styleMac		"width: 54em;"><!-- width: 47em; -->
-<!ENTITY  prefWindow.styleGNOME		"width: 51em; min-height: 38em;"><!-- width: 42em; min-height: 38em; -->
+<!ENTITY  prefWindow.titleMAC		"環境設定">
+<!ENTITY  prefWindow.styleWindows	"width: 54em; min-height: 42em;"><!-- width: 48em; min-height: 38.5em; -->
+<!ENTITY  prefWindow.styleMac		"width: 54em;"><!-- width: 52em; -->
+<!ENTITY  prefWindow.styleGNOME		"width: 51em; min-height: 38em;"><!-- width: 47em; min-height: 38em; -->
 
 <!ENTITY paneGeneral.title	"一般">
 <!ENTITY paneDisplay.title	"表示">
