@@ -15,6 +15,8 @@
 <!ENTITY telemetryInfoLink.label		"送信される情報についての詳細">
 <!ENTITY enableGlodaSearch.label		"グローバル検索と索引データベースを有効にする"><!-- (^^; Enable Global Search and Indexer -->
 <!ENTITY enableGlodaSearch.accesskey		"E">
+<!ENTITY allowHWAccel.label			"ハードウェアアクセラレーション機能を使用する (可能な場合)">
+<!ENTITY allowHWAccel.accesskey			"h">
 
 <!ENTITY scrolling.label			"スクロール">
 <!ENTITY useAutoScroll.label			"自動スクロール機能を使用する">

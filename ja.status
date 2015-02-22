@@ -567,5 +567,6 @@ toolkit                240345:8f49a2fc3f0c  19417:a08093dbf871   mar            
 calendar               ------:------------  19423:8f81d26fca7d   mar             sync calendar
 chat, editor/ui        ------:------------  19423:8f81d26fca7d   mar             sync chat, editor/ui
 dom                    240710:c88d58615436  19423:8f81d26fca7d   mar             sync dom
+mail                   ------:------------  19426:b7895b137065   mar             sync mail
 mobile                 240711:3c1a3493ac00  -----:------------   Kechol          sync mobile
 
