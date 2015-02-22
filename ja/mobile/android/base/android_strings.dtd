@@ -172,6 +172,9 @@
 <!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
 <!ENTITY pref_cookies_disabled "無効">
 
+<!ENTITY pref_tracking_protection_title "トラッキングプロテクション">
+<!ENTITY pref_tracking_protection_summary "&brandShortName; はサイトのトラッキングを予防します">
+
 <!ENTITY pref_donottrack_title "トラッキング拒否">
 <!ENTITY pref_donottrack_summary "&brandShortName; はトラッキングの拒否をサイトに通知します">
 
@@ -429,6 +432,8 @@ size. -->
 <!ENTITY home_remote_tabs_empty "他のデバイスのタブがここに表示されます。">
 <!ENTITY home_remote_tabs_unable_to_connect "接続できません">
 <!ENTITY home_remote_tabs_need_to_sign_in "同期を続けるには Firefox アカウントを接続するためにサインインしてください。">
+<!ENTITY home_remote_tabs_need_to_finish_migrating "新しい Firefox アカウントが準備できました！">
+
 <!ENTITY home_remote_tabs_trouble_verifying "アカウントの確認でお困りですか？">
 <!ENTITY home_remote_tabs_need_to_verify "同期を開始するために Firefox アカウントを確認してください。">
 
@@ -528,12 +533,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY updater_apply_title2 "&brandShortName; の利用可能な更新">
 <!ENTITY updater_apply_select2 "タッチして更新を開始します">
-
-<!-- New tablet UI -->
-
-<!-- LOCALIZATION NOTE (new_tablet_restart): Notification displayed after the user toggles the new tablet UI in the settings screen.-->
-<!ENTITY new_tablet_restart "変更を適用するにはブラウザを再起動します">
-<!ENTITY new_tablet_pref "@@New-CMD@@タブレット UI を有効化する">
 
 <!-- Guest mode -->
 <!ENTITY new_guest_session "@@New-CMD@@ゲストセッション">

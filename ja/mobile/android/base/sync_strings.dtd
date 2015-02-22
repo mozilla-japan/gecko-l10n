@@ -170,6 +170,9 @@
 <!ENTITY fxaccount_confirm_account_change_email 'このメールアドレスを忘れてしまいますか？'>
 <!ENTITY fxaccount_confirm_account_verification_link_sent2 '確認のメールが送信されました'>
 <!ENTITY fxaccount_confirm_account_verification_link_not_sent2 '確認のメールを送信できませんでした'>
+<!ENTITY fxaccount_resend_unlock_code_button_label 'ロック解除のメールを再送信'>
+<!ENTITY fxaccount_unlock_code_sent 'アカウントロック解除のメールを送信しました'>
+<!ENTITY fxaccount_unlock_code_not_sent 'アカウントロック解除のメールを送信できませんでした'>
 
 <!ENTITY fxaccount_sign_in_sub_header 'サインイン'>
 <!ENTITY fxaccount_sign_in_button_label 'サインイン'>
@@ -180,9 +183,15 @@
 <!ENTITY fxaccount_account_verified_sub_header 'アカウントが確認されました'>
 <!ENTITY fxaccount_account_verified_description2 'あなたのデータの同期はすぐに始まります'>
 
+<!ENTITY fxaccount_migration_finished_header 'アップグレードが完了しました'>
+
 <!ENTITY fxaccount_update_credentials_header 'サインイン'>
 <!ENTITY fxaccount_update_credentials_button_label 'サインイン'>
 <!ENTITY fxaccount_update_credentials_unknown_error 'サインインできませんでした'>
+
+<!ENTITY fxaccount_finish_migrating_header 'アップグレードを完了するにはサインインしてください'>
+<!ENTITY fxaccount_finish_migrating_button_label 'アップグレードを完了する'>
+<!ENTITY fxaccount_finish_migrating_description 'アップグレードは多くのデータの転送が必要になる場合があります。Wi-Fi環境での実行を推奨します。'>
 
 <!ENTITY fxaccount_status_header2 'Firefox アカウント'>
 <!ENTITY fxaccount_status_signed_in_as 'サインインユーザ'>
@@ -197,7 +206,9 @@
 <!ENTITY fxaccount_status_needs_credentials '接続できません。タップしてサインインします。'>
 <!ENTITY fxaccount_status_needs_upgrade 'サインインするには &brandShortName; をアップグレードする必要があります。'>
 <!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。Android の @@[@@設定@@]@@ &gt; @@[@@データ使用@@]@@ から @@[@@データの自動同期@@]@@ を有効にしてください。'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。Android の @@[@@設定@@]@@ &gt; @@[@@アカウント@@]@@ から @@[@@データの自動同期@@]@@ を有効にしてください。'>
 <!ENTITY fxaccount_status_needs_account_enabled '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。同期を始めるにはタップしてください。'>
+<!ENTITY fxaccount_status_needs_finish_migrating '新しいあなたの Firefox アカウントにサインインするにはタップしてください。'>
 <!ENTITY fxaccount_status_bookmarks 'ブックマーク'>
 <!ENTITY fxaccount_status_history '履歴'>
 <!ENTITY fxaccount_status_passwords 'パスワード'>
@@ -245,8 +256,14 @@
 <!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD 'サーバが応答しません。後ほどお試しください'>
 <!ENTITY fxaccount_remote_error_UNKNOWN_ERROR '問題が発生しました'>
 <!ENTITY fxaccount_remote_error_COULD_NOT_CONNECT 'ネットワークに接続できません'>
+<!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED 'アカウントはロックされています。&formatS1;'>
 
 <!ENTITY fxaccount_sync_sign_in_error_notification_title2 '&syncBrand.shortName.label; はインターネットに接続していません'>
 <!-- Localization note: the format string below will be replaced
      with the Firefox Account's email address. -->
 <!ENTITY fxaccount_sync_sign_in_error_notification_text2 'タップして &formatS; としてサインインします'>
+
+<!ENTITY fxaccount_sync_finish_migrating_notification_title '&syncBrand.shortName.label; のアップグレードを終了しますか？'>
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_finish_migrating_notification_text '&formatS; としてサインインするにはタップしてください。'>
