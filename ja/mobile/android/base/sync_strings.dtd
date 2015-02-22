@@ -1,0 +1,269 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Don't localize these. They're here until they have
+     a better place to live. -->
+<!ENTITY syncBrand.fullName.label "Firefox Sync">
+<!ENTITY syncBrand.shortName.label "Sync">
+
+<!-- Main titles. -->
+<!ENTITY sync.app.name.label '&syncBrand.fullName.label;'>
+<!ENTITY sync.title.connect.label '&syncBrand.shortName.label; に接続'>
+<!ENTITY sync.title.adddevice.label '&syncBrand.fullName.label; のアカウントを追加'>
+<!ENTITY sync.title.pair.label 'デバイスと連携'>
+
+<!-- J-PAKE Key Screen -->
+<!ENTITY sync.subtitle.connect.label '新しいデバイスを有効化するために、デバイス上で @@[@@&syncBrand.shortName.label; をセットアップ@@]@@ を選択してください。'>
+<!ENTITY sync.subtitle.header2.label 'このコードをコンピュータ上で入力してください'>
+<!ENTITY sync.subtitle.connectlocation2.label 'デスクトップの Firefox のオプション中の &syncBrand.shortName.label; から、@@[@@&sync.title.pair.label;@@]@@ を選択してください。'>
+<!ENTITY sync.subtitle.pair.label '有効化のために、他のデバイス上で @@[@@デバイスと連携@@]@@ を選択してください。'>
+<!ENTITY sync.pin.default.label '...\n...\n...\n'>
+<!ENTITY sync.pin.oneline.label '...'>
+<!ENTITY sync.link.show.label '説明を表示'>
+<!ENTITY sync.link.advancedsetup.label '詳細設定...'>
+<!ENTITY sync.link.nodevice.label 'デバイスを持っていない...'>
+
+<!-- J-PAKE Waiting Screen -->
+<!ENTITY sync.jpake.subtitle.waiting.label '他のデバイスを待っています...'>
+
+<!-- Account Login Screen -->
+<!ENTITY sync.subtitle.account.label '&syncBrand.fullName.label; アカウントの情報を入力してください'>
+<!ENTITY sync.input.username.label 'アカウント名'>
+<!ENTITY sync.input.password.label 'パスワード'>
+<!ENTITY sync.input.key.label '復元キー'>
+<!ENTITY sync.checkbox.server.label '独自のサーバを使用する'>
+<!ENTITY sync.input.server.label 'サーバ URL'>
+
+<!-- Setup Fail -->
+<!ENTITY sync.title.fail.label '&syncBrand.shortName.label; をセットアップできません'>
+<!ENTITY sync.subtitle.fail.label '&syncBrand.fullName.label; はサーバに接続できませんでした。もう一度試しますか？'>
+<!ENTITY sync.button.tryagain.label 'もう一度試す'>
+<!ENTITY sync.button.manual.label '手動でセットアップする'>
+<!ENTITY sync.subtitle.nointernet.label 'インターネット接続が利用できません。'>
+<!ENTITY sync.subtitle.failaccount.label 'デバイス上でのアカウント作成に失敗しました。'>
+<!ENTITY sync.subtitle.failmultiple.label '複数の Firefox がインストールされていませんか？ 現在、&syncBrand.fullName.label; は同時に一つだけの Firefox のインストールをサポートしています。&syncBrand.shortName.label; を使用するには、他の Firefox をアンインストールしてください。'>
+
+<!-- Setup Success -->
+<!ENTITY sync.title.success.label 'セットアップ完了'>
+<!ENTITY sync.subtitle.success.label1 'あなたの情報はバックグラウンドでダウンロードされています。アカウントの管理は設定から行うことができます。'>
+<!ENTITY sync.settings.label '設定'>
+<!ENTITY sync.subtitle.manage.label1 'あなたの &syncBrand.fullName.label; アカウントはすでにセットアップされています。アカウントの管理は設定から行なってください。'>
+
+<!-- Pair Device -->
+<!ENTITY sync.pair.tryagain.label 'もう一度試してください。'>
+<!ENTITY sync.pair.connectlocation.label '新しいデバイスを有効化するためには、デバイス上で @@[@@Sync をセットアップ@@]@@ を選択し、@@[@@すでにアカウントを持っています@@]@@ を選択してください。'>
+
+<!-- Firefox SyncAdapter Settings Screen -->
+<!ENTITY sync.settings.options.label 'オプション'>
+<!ENTITY sync.summary.pair.label '&syncBrand.shortName.label; アカウントに他のデバイスを接続する'>
+
+<!-- Configure Engines -->
+<!ENTITY sync.configure.engines.title.label '同期オプション'>
+<!ENTITY sync.configure.engines.sync.my.title.label '同期するデータ'>
+<!ENTITY sync.configure.engines.title.bookmarks 'ブックマーク'>
+<!ENTITY sync.configure.engines.title.passwords 'パスワード'>
+<!ENTITY sync.configure.engines.title.history '履歴'>
+<!ENTITY sync.configure.engines.title.tabs 'タブ'>
+
+<!-- Common text -->
+<!ENTITY sync.button.cancel.label 'キャンセル'>
+<!ENTITY sync.button.connect.label '接続'>
+<!ENTITY sync.button.ok.label 'OK'>
+
+<!-- Account strings -->
+<!ENTITY sync.account.label '&syncBrand.fullName.label; (非推奨)'>
+
+<!-- Localization note (sync.default.client.name): Default string of the "Device
+     name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
+     will be replaced by the name of the Firefox release channel and &formatS2
+     by the model name of the Android device. Examples look like "Aurora on
+     GT-I1950" and "Fennec on MI 2S". -->
+<!ENTITY sync.default.client.name '&formatS1; on &formatS2;'>
+
+<!-- Bookmark folder strings -->
+<!ENTITY bookmarks.folder.menu.label 'ブックマークメニュー'>
+<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.tags.label 'タグ'>
+<!ENTITY bookmarks.folder.toolbar.label 'ブックマークツールバー'>
+<!ENTITY bookmarks.folder.unfiled.label '未整理のブックマーク'>
+<!ENTITY bookmarks.folder.desktop.label 'デスクトップブックマーク'>
+<!ENTITY bookmarks.folder.mobile.label 'モバイルブックマーク'>
+<!ENTITY bookmarks.folder.readinglist.label 'リーディングリスト'>
+<!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
+<!ENTITY bookmarks.folder.pinned.label 'アプリタブ'>
+
+<!-- Notification strings -->
+<!ENTITY sync.notification.oneaccount.label '一つの &syncBrand.fullName.label; アカウントのみがサポートされています。'>
+<!ENTITY sync.notification.configure.saved '選択された項目を保存しました。'>
+
+<!-- Incorrect settings and changing credentials. -->
+<!ENTITY sync.invalidcreds.label 'アカウント名もしくはパスワードが間違っています。'>
+<!ENTITY sync.invalidserver.label '正しいサーバ URL を入力してください'>
+<!ENTITY sync.verifying.label '確認中...'>
+<!ENTITY sync.new.recoverykey.status.incorrect 'リカバリキーが正しくありません。再度試してください。'>
+
+<!-- Send tab to device. -->
+<!ENTITY sync.title.send.tab.label 'タブをデバイスに送信'>
+<!ENTITY sync.button.send.label '送信'>
+<!ENTITY sync.button.set.up.sync.label '&syncBrand.shortName.label; の設定'>
+<!ENTITY sync.title.redirect.to.set.up.sync.label 'タブ送信のための &syncBrand.shortName.label; の設定'>
+<!ENTITY sync.text.redirect.to.set.up.sync.label '他のデバイスにタブを送信するために、このデバイス上で &syncBrand.fullName.label; を設定する。'>
+<!ENTITY sync.text.tab.sent.label 'タブが送信されました！'>
+<!ENTITY sync.text.tab.not.sent.label 'タブの送信に問題が発生しました。'>
+
+<!-- Firefox Account strings. -->
+
+<!ENTITY fxaccount_full_label 'Firefox アカウント'>
+
+<!ENTITY fxaccount_custom_server_account_title 'サーバでアカウントを利用'>
+<!ENTITY fxaccount_custom_server_sync_title 'Sync のデータをサーバに保存'>
+
+<!-- Localization note: these are shown in all screens that query the
+     user for an email address and password. Hide and show are button
+     labels. -->
+<!ENTITY fxaccount_email_hint 'メール'>
+<!ENTITY fxaccount_password_hint 'パスワード'>
+<!ENTITY fxaccount_password_hide '隠す'>
+<!ENTITY fxaccount_password_show '表示'>
+
+<!-- Localization note: these are shown in screens after the user has
+     created or signed in to an account, and take the user back to
+     Firefox. -->
+<!ENTITY fxaccount_back_to_browsing 'ブラウザに戻る'>
+
+<!-- Localization note: the following two strings are interpolated
+     into fxaccount_create_account_policy_text2; see note for that
+     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_policy_linktos 'サービス利用規約'>
+<!ENTITY fxaccount_policy_linkprivacy 'プライバシーに関する注意'>
+
+<!ENTITY fxaccount_getting_started_welcome_to_sync '&syncBrand.shortName.label; にようこそ'>
+<!ENTITY fxaccount_getting_started_description 'タブやブックマーク、パスワードなどを同期するにはサインインしてください。'>
+<!ENTITY fxaccount_getting_started_get_started 'はじめましょう'>
+<!ENTITY fxaccount_getting_started_old_firefox '古いバージョンの &syncBrand.shortName.label; を使っていませんか？'>
+
+<!-- Localization note: the Firefox below should not change with the
+     particular version of Firefox installed (Release, Beta, Aurora,
+     etc).  The account remains a "Firefox Account". -->
+<!ENTITY fxaccount_create_account_header2 'Firefox アカウントを作成する'>
+<!ENTITY fxaccount_create_account_password_length_restriction '8文字以上が必要です'>
+<!ENTITY fxaccount_create_account_year_of_birth '誕生年'>
+<!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
+<!ENTITY fxaccount_create_account_policy_text2 'Firefox オンラインサービスの &formatS1; と &formatS2; に同意して進みます。'>
+<!ENTITY fxaccount_create_account_button '次へ'>
+<!ENTITY fxaccount_create_account_choose_what_to_sync '同期するものを選んでください'>
+<!ENTITY fxaccount_create_account_sign_in_instead 'すでにアカウントをお持ちですか？サインインしてください'>
+<!ENTITY fxaccount_create_account_1990_or_earlier '1990年以前'>
+<!ENTITY fxaccount_create_account_unknown_error 'アカウントを作成できませんでした'>
+
+<!ENTITY fxaccount_account_create_not_allowed 'アカウントを作成できません'>
+<!ENTITY fxaccount_account_create_not_allowed_you_must_meet_certain_age_requirements 'アカウントを作成するには一定の年齢に達している必要があります。'>
+<!ENTITY fxaccount_account_create_not_allowed_learn_more '詳細はこちら'>
+
+<!ENTITY fxaccount_confirm_account_header 'アカウントを確認'>
+<!-- Localization note: &formatS; is the Firefox Account's email address. -->
+<!ENTITY fxaccount_confirm_account_verification_link '確認用のリンクを &formatS; に送信しました'>
+<!ENTITY fxaccount_confirm_account_resend_email 'メールを再送信'>
+<!ENTITY fxaccount_confirm_account_change_email 'このメールアドレスを忘れてしまいますか？'>
+<!ENTITY fxaccount_confirm_account_verification_link_sent2 '確認のメールが送信されました'>
+<!ENTITY fxaccount_confirm_account_verification_link_not_sent2 '確認のメールを送信できませんでした'>
+<!ENTITY fxaccount_resend_unlock_code_button_label 'ロック解除のメールを再送信'>
+<!ENTITY fxaccount_unlock_code_sent 'アカウントロック解除のメールを送信しました'>
+<!ENTITY fxaccount_unlock_code_not_sent 'アカウントロック解除のメールを送信できませんでした'>
+
+<!ENTITY fxaccount_sign_in_sub_header 'サインイン'>
+<!ENTITY fxaccount_sign_in_button_label 'サインイン'>
+<!ENTITY fxaccount_sign_in_forgot_password 'パスワードをお忘れですか？'>
+<!ENTITY fxaccount_sign_in_create_account_instead 'アカウントを作成'>
+<!ENTITY fxaccount_sign_in_unknown_error 'サインインできませんでした'>
+
+<!ENTITY fxaccount_account_verified_sub_header 'アカウントが確認されました'>
+<!ENTITY fxaccount_account_verified_description2 'あなたのデータの同期はすぐに始まります'>
+
+<!ENTITY fxaccount_migration_finished_header 'アップグレードが完了しました'>
+
+<!ENTITY fxaccount_update_credentials_header 'サインイン'>
+<!ENTITY fxaccount_update_credentials_button_label 'サインイン'>
+<!ENTITY fxaccount_update_credentials_unknown_error 'サインインできませんでした'>
+
+<!ENTITY fxaccount_finish_migrating_header 'アップグレードを完了するにはサインインしてください'>
+<!ENTITY fxaccount_finish_migrating_button_label 'アップグレードを完了する'>
+<!ENTITY fxaccount_finish_migrating_description 'アップグレードは多くのデータの転送が必要になる場合があります。Wi-Fi環境での実行を推奨します。'>
+
+<!ENTITY fxaccount_status_header2 'Firefox アカウント'>
+<!ENTITY fxaccount_status_signed_in_as 'サインインユーザ'>
+<!ENTITY fxaccount_status_auth_server 'アカウントサーバ'>
+<!ENTITY fxaccount_status_sync_now '今すぐ同期'>
+<!ENTITY fxaccount_status_syncing2 '同期しています...'>
+<!ENTITY fxaccount_status_device_name 'デバイス名'>
+<!ENTITY fxaccount_status_sync_server '同期サーバ'>
+<!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
+<!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label; は有効です'>
+<!ENTITY fxaccount_status_needs_verification2 'あなたのアカウントを確認してください。タップして確認のメールを再送信します。'>
+<!ENTITY fxaccount_status_needs_credentials '接続できません。タップしてサインインします。'>
+<!ENTITY fxaccount_status_needs_upgrade 'サインインするには &brandShortName; をアップグレードする必要があります。'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。Android の @@[@@設定@@]@@ &gt; @@[@@データ使用@@]@@ から @@[@@データの自動同期@@]@@ を有効にしてください。'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。Android の @@[@@設定@@]@@ &gt; @@[@@アカウント@@]@@ から @@[@@データの自動同期@@]@@ を有効にしてください。'>
+<!ENTITY fxaccount_status_needs_account_enabled '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。同期を始めるにはタップしてください。'>
+<!ENTITY fxaccount_status_needs_finish_migrating '新しいあなたの Firefox アカウントにサインインするにはタップしてください。'>
+<!ENTITY fxaccount_status_bookmarks 'ブックマーク'>
+<!ENTITY fxaccount_status_history '履歴'>
+<!ENTITY fxaccount_status_passwords 'パスワード'>
+<!ENTITY fxaccount_status_tabs '開いているタブ'>
+<!ENTITY fxaccount_status_legal '法律' >
+<!-- Localization note: when tapped, the following two strings link to
+     external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_status_linktos 'サービス利用規約'>
+<!ENTITY fxaccount_status_linkprivacy '個人情報保護方針'>
+<!ENTITY fxaccount_status_more 'さらに詳しく...'>
+
+<!ENTITY fxaccount_remove_account_dialog_title 'Firefox アカウントを削除しますか？'>
+<!ENTITY fxaccount_remove_account_dialog_message '&brandShortName; はあなたのアカウントを同期することを停止しますが、このデバイスのブラウジングデータは一切削除されません。'>
+<!-- Localization note: format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_remove_account_toast 'Firefox アカウント &formatS; は削除されました。'>
+
+<!ENTITY fxaccount_remove_account_menu_item 'アカウントを削除'>
+
+<!-- Localization note: this is the name shown by the Android system
+     itself for a Firefox Account. Don't localize this. -->
+<!ENTITY fxaccount_account_type_label 'Firefox'>
+
+<!-- Localization note: these are shown by the Android system itself,
+     when the user navigates to the Android > Accounts > {Firefox
+     Account} Screen. The link takes the user to the Firefox Account
+     status activity, which lets them manage their Firefox
+     Account. -->
+<!ENTITY fxaccount_options_title '&syncBrand.shortName.label; オプション'>
+<!ENTITY fxaccount_options_configure_title '&syncBrand.shortName.label; の設定'>
+
+<!-- Localization note: these error messages are shown after a request
+     has been made to the remote server, and an error of some type has
+     been returned. -->
+<!ENTITY fxaccount_remote_error_UPGRADE_REQUIRED 'Firefox のアップグレードが必要です'>
+
+<!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_CREATE_AN_ACCOUNT_THAT_ALREADY_EXISTS_2 '&formatS1; このアカウントはすでに存在します。'>
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST 'メールかパスワードが間違っています'>
+<!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD 'メールかパスワードが間違っています'>
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT 'アカウントが確認されていません'>
+<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS 'サーバが応答しません。後ほどお試しください'>
+<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD 'サーバが応答しません。後ほどお試しください'>
+<!ENTITY fxaccount_remote_error_UNKNOWN_ERROR '問題が発生しました'>
+<!ENTITY fxaccount_remote_error_COULD_NOT_CONNECT 'ネットワークに接続できません'>
+<!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED 'アカウントはロックされています。&formatS1;'>
+
+<!ENTITY fxaccount_sync_sign_in_error_notification_title2 '&syncBrand.shortName.label; はインターネットに接続していません'>
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_sign_in_error_notification_text2 'タップして &formatS; としてサインインします'>
+
+<!ENTITY fxaccount_sync_finish_migrating_notification_title '&syncBrand.shortName.label; のアップグレードを終了しますか？'>
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_finish_migrating_notification_text '&formatS; としてサインインするにはタップしてください。'>

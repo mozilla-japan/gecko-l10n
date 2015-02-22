@@ -1,0 +1,10 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutApps.title2 "アプリ">
+<!ENTITY aboutApps.header "マイアプリ"><!-- Google Play 用語に合わせた -->
+
+<!ENTITY aboutApps.browseMarketplace "Firefox Marketplace を閲覧">
+<!ENTITY aboutApps.uninstall "アンインストール">
+<!ENTITY aboutApps.checkForUpdates "アップデートを確認">

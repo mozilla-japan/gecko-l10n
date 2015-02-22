@@ -1,0 +1,17 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this file,
+   - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
+
+<!-- LOCALIZATION NOTE: These are localized strings for the getUserMedia dialog
+   - to ask permissions in the webapp runtime. -->
+
+<!ENTITY getUserMediaDialog.title                   "メディア共有">
+<!ENTITY getUserMediaDialog.button.accept.label     "共有">
+<!ENTITY getUserMediaDialog.button.accept.accesskey "S">
+<!ENTITY getUserMediaDialog.button.cancel.label     "キャンセル">
+<!ENTITY getUserMediaDialog.button.cancel.accesskey "n">
+
+<!ENTITY getUserMediaDialog.video.label             "カメラを選択">
+<!ENTITY getUserMediaDialog.video.noVideo           "動画なし">
+<!ENTITY getUserMediaDialog.audio.label             "マイクを選択">
+<!ENTITY getUserMediaDialog.audio.noAudio           "音声なし">

@@ -1,0 +1,19 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutPrivateBrowsing.title            "プライベートブラウジング中です">
+<!ENTITY aboutPrivateBrowsing.title.normal     "プライベート@@Window@@を開きますか？">
+
+<!ENTITY aboutPrivateBrowsing.subtitle         "&brandShortName; はこの@@Window@@の履歴を一切保存しません。">
+<!ENTITY aboutPrivateBrowsing.subtitle.normal  "&brandShortName; はプライベート@@Window@@の履歴を一切保存しません。">
+
+<!ENTITY aboutPrivateBrowsing.description      "保存されない履歴は、表示したページの履歴、検索履歴、ダウンロード履歴、Web フォーム履歴、Cookie、ディスクキャッシュです。ダウンロードしたファイルと作成したブックマークは保存されます。">
+
+<!ENTITY aboutPrivateBrowsing.notPrivate       "プライベート@@Window@@ではありません。">
+
+<!ENTITY aboutPrivateBrowsing.moreInfo         "表示したページの履歴はこのコンピュータには記録されませんが、会社やインターネットサービスプロバイダが記録している可能性はあります。">
+<!ENTITY aboutPrivateBrowsing.learnMore        "詳細を表示">
+
+<!ENTITY privatebrowsingpage.openPrivateWindow.label "プライベート@@Window@@を開く">
+<!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "P">

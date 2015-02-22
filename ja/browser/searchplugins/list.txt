@@ -1,0 +1,9 @@
+amazon-jp
+bing
+google-jp
+oshiete-goo
+rakuten
+twitter-ja
+wikipedia-ja
+yahoo-jp
+yahoo-jp-auctions
