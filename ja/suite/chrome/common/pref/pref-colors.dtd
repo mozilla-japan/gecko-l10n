@@ -31,5 +31,3 @@
 <!-- LOCALIZATION NOTE (ignoreDocColors.label): This is option two, and it appends to 'someProvColors' above.  -->
 <!ENTITY useMyColors.label                 "Web ページで指定された@@Colors@@と背景画像を無視して、自分で選択した@@Colors@@を使用する">
 <!ENTITY useMyColors.accesskey             "m">
-<!ENTITY automaticColors.label             "高コントラストテーマ使用時のみ Web ページの@@Colors@@を無視する">
-<!ENTITY automaticColors.accesskey         "O">
