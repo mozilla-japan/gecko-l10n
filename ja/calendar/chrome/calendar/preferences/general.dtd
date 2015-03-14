@@ -33,6 +33,10 @@
 <!ENTITY pref.default_task_offset_start.label "着手から">
 <!ENTITY pref.default_task_offset_next_hour.label "次の 0 分から">
 
+<!ENTITY pref.calendar.todaypane.agenda.caption "Today ペイン">
+<!ENTITY pref.soondays.label "近日中セクションの表示期間:">
+<!ENTITY pref.soondays.accesskey "u">
+
 <!ENTITY pref.accessibility.label "アクセシビリティ" >
 <!ENTITY pref.systemcolors.label "システムの@@Colors@@に最適化する" >
 <!ENTITY pref.systemcolors.accesskey "c">
