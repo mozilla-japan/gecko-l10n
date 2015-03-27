@@ -17,3 +17,7 @@
 <!ENTITY panePrivacy.title	"プライバシー">
 <!ENTITY paneSecurity.title	"セキュリティ">
 <!ENTITY paneAdvanced.title	"詳細">
+<!ENTITY paneAccount.title	"アカウント">
+
+<!ENTITY okButton.title		"OK">
+<!ENTITY okButton.accesskey	"O">

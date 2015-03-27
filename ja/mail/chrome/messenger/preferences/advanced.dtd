@@ -3,20 +3,21 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY itemGeneral.label			"一般">
+<!ENTITY dataChoicesTab.label			"データの選択">
 <!ENTITY itemDisplay.label			"既読と表示">
 <!ENTITY itemUpdate.label			"更新">
 <!ENTITY itemNetworking.label			"ネットワークとディスク領域">
 <!ENTITY itemCertificates.label			"証明書">
 
 <!-- General Settings -->
-
-<!ENTITY submitTelemetry.label			"パフォーマンス情報を送信する">
-<!ENTITY submitTelemetry.accesskey		"P">
-<!ENTITY telemetryInfoLink.label		"送信される情報についての詳細">
 <!ENTITY enableGlodaSearch.label		"グローバル検索と索引データベースを有効にする"><!-- (^^; Enable Global Search and Indexer -->
 <!ENTITY enableGlodaSearch.accesskey		"E">
 <!ENTITY allowHWAccel.label			"ハードウェアアクセラレーション機能を使用する (可能な場合)">
 <!ENTITY allowHWAccel.accesskey			"h">
+<!ENTITY storeType.label			"新しいアカウントのメッセージ格納形式:">
+<!ENTITY storeType.accesskey			"T">
+<!ENTITY mboxStore.label			"一個の大きなファイル (mbox 形式)">
+<!ENTITY maildirStore.label			"メッセージごとのファイル (maildir 形式)">
 
 <!ENTITY scrolling.label			"スクロール">
 <!ENTITY useAutoScroll.label			"自動スクロール機能を使用する">
@@ -37,6 +38,19 @@
 <!ENTITY returnReceiptsInfo.label		"開封確認の取り扱い方を設定します。">
 <!ENTITY showReturnReceipts.label		"開封確認...">
 <!ENTITY showReturnReceipts.accesskey		"R">
+
+<!-- Data Choices -->
+<!ENTITY telemetrySection.label			"パフォーマンス情報の送信">
+<!ENTITY telemetryDesc.label			"&brandShortName; を改善するため、メールクライアントについてのパフォーマンス情報、使用状況、ハードウェア情報、設定したデータを &vendorShortName; と共有します。">
+<!ENTITY enableTelemetry.label			"パフォーマンス情報の送信を有効にする">
+<!ENTITY enableTelemetry.accesskey		"T">
+<!ENTITY telemetryLearnMore.label		"詳細">
+
+<!ENTITY crashReporterSection.label		"クラッシュレポートの送信">
+<!ENTITY crashReporterDesc.label		"メールクライアントをより安定した安全なものにするため、&brandShortName; がクラッシュレポートを &vendorShortName; に送信します。">
+<!ENTITY enableCrashReporter.label		"クラッシュレポートの送信を有効にする">
+<!ENTITY enableCrashReporter.accesskey		"C">
+<!ENTITY crashReporterLearnMore.label		"詳細">
 
 <!-- Display and Reading Settings -->
 <!ENTITY reading.caption			"既読">

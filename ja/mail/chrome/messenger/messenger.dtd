@@ -148,6 +148,8 @@
 <!ENTITY messagePaneVertical.accesskey		"V">
 <!ENTITY showFolderPaneCmd.label		"フォルダペイン">
 <!ENTITY showFolderPaneCmd.accesskey		"F">
+<!ENTITY showFolderPaneColsCmd.label		"フォルダペイン列">
+<!ENTITY showFolderPaneColsCmd.accesskey	"P">
 <!ENTITY showMessageCmd.label			"メッセージペイン">
 <!ENTITY showMessageCmd.accesskey		"M">
 
@@ -594,8 +596,11 @@
 <!ENTITY addNewTag.accesskey		"N">
 <!ENTITY manageTags.label		"タグを管理...">
 <!ENTITY manageTags.accesskey		"M">
+
 <!-- Folder Pane -->
-<!ENTITY folderColumn.label		"名前">
+<!ENTITY folderNameColumn.label		"名前">
+<!ENTITY folderUnreadColumn.label	"未読数">
+<!ENTITY folderTotalColumn.label	"総数">
 <!ENTITY folderSizeColumn.label		"サイズ">
 
 <!-- Folder Pane Context Menu -->

@@ -84,3 +84,7 @@
 
 <!ENTITY accountTitle.label		"アカウント設定">
 <!ENTITY accountSettingsDesc.label	"これは特殊なアカウントであり、特定の差出人情報はありません。">
+<!ENTITY storeType.label		"メッセージの格納形式:">
+<!ENTITY storeType.accesskey		"T">
+<!ENTITY mboxStore.label		"一個の大きなファイル (mbox 形式)">
+<!ENTITY maildirStore.label		"メッセージごとのファイル (maildir 形式)">
