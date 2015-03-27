@@ -6,6 +6,8 @@
 <!ENTITY itemAutoComplete.label			"アドレス入力">
 <!ENTITY itemSpellCheck.label			"スペルチェック">
 
+<!ENTITY dialogCompose.title			"作成">
+
 <!ENTITY forwardMsg.label			"転送元のメッセージを:">
 <!ENTITY forwardMsg.accesskey			"F">
 <!ENTITY inline.label				"メール本文に含める">

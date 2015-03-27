@@ -3,6 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY addressbookWindow.title		"アドレス帳"><!-- (^^; Mac: アドレスブック に切り分けも検討 -->
+<!ENTITY blankResultsPaneMessage.label		"このアドレス帳には検索後の連絡先のみが表示されます">
+<!ENTITY localResultsOnlyMessage.label		"リモートのアドレス帳からの連絡先は検索するまで表示されません">
 
 <!-- File Menu -->
 <!ENTITY fileMenu.label				"ファイル">
@@ -160,6 +162,8 @@ because displayed names don't have the comma in between. -->
 <!ENTITY searchItem.title			"簡易検索">
 
 <!-- Results Pane -->
+<!ENTITY Addrbook.label				"アドレス帳">
+<!ENTITY Addrbook.accesskey			"B">
 <!ENTITY GeneratedName.label			"名前">
 <!ENTITY GeneratedName.accesskey		"N">
 <!ENTITY PrimaryEmail.label			"メールアドレス">

@@ -10,21 +10,38 @@
 <!ENTITY update.checkForUpdatesButton.accesskey	"C">
 <!ENTITY update.updateButton.label2		"&brandShortName; を再起動して更新">
 <!ENTITY update.updateButton.accesskey		"R">
-<!ENTITY update.applyButtonBillboard.label	"ダウンロードした更新を適用...">
+<!ENTITY update.applyButtonBillboard.label	"更新を適用...">
 <!ENTITY update.applyButtonBillboard.accesskey	"A">
 
-<!ENTITY community.start2		"&brandShortName; は ">
+<!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
+<!ENTITY warningDesc.version		"&brandShortName; は実験的であり動作が不安定である可能性があります。">
+<!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
+<!ENTITY warningDesc.telemetryDesc	"このバージョンは、&brandShortName; の改善を助けるため、パフォーマンスやハードウェア、使用状況、カスタマイズされた設定についての情報を &vendorShortName; に自動的に送信します。">
+
+<!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
+<!ENTITY community.exp.start		"">
+<!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
+<!ENTITY community.exp.mozillaLink	"&vendorShortName;">
+<!ENTITY community.exp.middle		"は、Web がすべての人々にとってオープンかつパブリックであり、アクセスできるように保つため、一つに集まって働く">
+<!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
+<!ENTITY community.exp.creditsLink	"グローバルなコミュニティ">
+<!ENTITY community.exp.end		"です。">
+
+<!ENTITY community.start2		"&brandShortName; は">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.mozillaLink		"&vendorShortName;">
-<!ENTITY community.middle2		" によってデザインされ、インターネットをより良いものにするため、">
+<!ENTITY community.middle2		"によってデザインされ、Web がすべての人々にとってオープンかつパブリックであり、アクセスできるように保つため、一つに集まって働く">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink		"グローバルなコミュニティ">
-<!ENTITY community.end2			"が一つに集まり作られています。私たちは、インターネットが公開され、公衆のためにあり、すべての人々が何の制限もなくアクセスできるものであると信じています。">
+<!ENTITY community.end3			"です。">
 
-<!ENTITY contribute.start		"興味があれば、">
-<!-- LOCALIZATION NOTE (contribute.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
-<!ENTITY contribute.getInvolvedLink	"どなたでも参加できます！">
-<!ENTITY contribute.end			"">
+<!ENTITY helpus.start			"ご協力いただける方は、">
+<!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to the thunderbird donation page -->
+<!ENTITY helpus.donateLink		"寄付">
+<!ENTITY helpus.middle			"または">
+<!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
+<!ENTITY helpus.getInvolvedLink		"コミュニティに参加">
+<!ENTITY helpus.end			"してください！">
 
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
 <!ENTITY bottomLinks.license		"ライセンス情報">
@@ -41,6 +58,8 @@
 <!ENTITY update.noUpdatesFound		"&brandShortName; は最新バージョンです">
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.adminDisabled		"システム管理者により、更新が無効化されています">
+<!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
+<!ENTITY update.otherInstanceHandlingUpdates	"&brandShortName; は別のインスタンスにより更新されています">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into

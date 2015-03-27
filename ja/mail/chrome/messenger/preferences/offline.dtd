@@ -2,31 +2,31 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY offlineDialog.title		"オフライン設定">
+<!ENTITY offlineDialog.title			"オフライン設定">
 
-<!ENTITY checkAutoDetect.label		"検出された状態に自動的に従う">
-<!ENTITY checkAutoDetect.accesskey	"d">
-<!ENTITY titleStartUp			"起動時の状態を手動で設定する:">
-<!ENTITY radioRememberPrevState.label	"前回終了時と同じ">
+<!ENTITY checkAutoDetect.label			"検出された状態に自動的に従う">
+<!ENTITY checkAutoDetect.accesskey		"d">
+<!ENTITY titleStartUp				"起動時の状態を手動で設定する:">
+<!ENTITY radioRememberPrevState.label		"前回終了時と同じ">
 <!ENTITY radioRememberPrevState.accesskey	"R">
-<!ENTITY radioAskState.label		"確認する">
-<!ENTITY radioAskState.accesskey	"k">
-<!ENTITY radioAlwaysOnline.label	"オンライン">
-<!ENTITY radioAlwaysOnline.accesskey	"l">
-<!ENTITY radioAlwaysOffline.label	"オフライン">
-<!ENTITY radioAlwaysOffline.accesskey	"f">
+<!ENTITY radioAskState.label			"確認する">
+<!ENTITY radioAskState.accesskey		"k">
+<!ENTITY radioAlwaysOnlineState.label		"オンライン">
+<!ENTITY radioAlwaysOnlineState.accesskey	"l">
+<!ENTITY radioAlwaysOffline.label		"オフライン">
+<!ENTITY radioAlwaysOffline.accesskey		"f">
 
-<!ENTITY textGoingOnline		"オンラインになったらすぐに未送信メッセージを送信しますか？">
-<!ENTITY radioAutoSend.label		"はい">
-<!ENTITY radioAutoSend.accesskey	"Y">
-<!ENTITY radioNotSend.label		"いいえ">
-<!ENTITY radioNotSend.accesskey		"N">
-<!ENTITY radioAskUnsent.label		"確認する">
-<!ENTITY radioAskUnsent.accesskey	"s">
-<!ENTITY textGoingOffline		"オフラインになる前にオフラインで使用するメッセージをダウンロードしますか？">
-<!ENTITY radioAutoDownload.label	"はい">
-<!ENTITY radioAutoDownload.accesskey	"e">
-<!ENTITY radioNotDownload.label		"いいえ">
-<!ENTITY radioNotDownload.accesskey	"o">
-<!ENTITY radioAskDownload.label		"確認する">
-<!ENTITY radioAskDownload.accesskey	"a">
+<!ENTITY textGoingOnline			"オンラインになったらすぐに未送信メッセージを送信しますか？">
+<!ENTITY radioAutoSend.label			"はい">
+<!ENTITY radioAutoSend.accesskey		"Y">
+<!ENTITY radioNotSend.label			"いいえ">
+<!ENTITY radioNotSend.accesskey			"N">
+<!ENTITY radioAskUnsent.label			"確認する">
+<!ENTITY radioAskUnsent.accesskey		"s">
+<!ENTITY textGoingOffline			"オフラインになる前にオフラインで使用するメッセージをダウンロードしますか？">
+<!ENTITY radioAutoDownload.label		"はい">
+<!ENTITY radioAutoDownload.accesskey		"e">
+<!ENTITY radioNotDownload.label			"いいえ">
+<!ENTITY radioNotDownload.accesskey		"o">
+<!ENTITY radioAskDownload.label			"確認する">
+<!ENTITY radioAskDownload.accesskey		"a">
