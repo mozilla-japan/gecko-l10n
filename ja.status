@@ -579,3 +579,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 calendar               ------:------------  19686:dab4d97e3877   mar             sync calendar
 dom, security          248493:989aaf7d850d  19716:d3e7a38fe3c5   mar             sync dom, security
 chat, mail             ------:------------  19716:d3e7a38fe3c5   mar             sync chat, mail
+toolkit                248506:4de05bfedb9c  19721:c91007a6f7b3   mar             sync toolkit
