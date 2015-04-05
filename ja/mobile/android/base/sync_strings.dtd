@@ -150,6 +150,8 @@
      etc).  The account remains a "Firefox Account". -->
 <!ENTITY fxaccount_create_account_header2 'Firefox アカウントを作成する'>
 <!ENTITY fxaccount_create_account_password_length_restriction '8文字以上が必要です'>
+<!ENTITY fxaccount_create_account_day_of_birth '日'>
+<!ENTITY fxaccount_create_account_month_of_birth '月'>
 <!ENTITY fxaccount_create_account_year_of_birth '誕生年'>
 <!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
 <!ENTITY fxaccount_create_account_policy_text2 'Firefox オンラインサービスの &formatS1; と &formatS2; に同意して進みます。'>
@@ -207,7 +209,6 @@
 <!ENTITY fxaccount_status_needs_upgrade 'サインインするには &brandShortName; をアップグレードする必要があります。'>
 <!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。Android の @@[@@設定@@]@@ &gt; @@[@@データ使用@@]@@ から @@[@@データの自動同期@@]@@ を有効にしてください。'>
 <!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。Android の @@[@@設定@@]@@ &gt; @@[@@アカウント@@]@@ から @@[@@データの自動同期@@]@@ を有効にしてください。'>
-<!ENTITY fxaccount_status_needs_account_enabled '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。同期を始めるにはタップしてください。'>
 <!ENTITY fxaccount_status_needs_finish_migrating '新しいあなたの Firefox アカウントにサインインするにはタップしてください。'>
 <!ENTITY fxaccount_status_bookmarks 'ブックマーク'>
 <!ENTITY fxaccount_status_history '履歴'>

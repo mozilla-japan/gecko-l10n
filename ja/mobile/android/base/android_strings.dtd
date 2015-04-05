@@ -6,8 +6,8 @@
 <!ENTITY  no_space_to_start_error "&brandShortName; を起動するために必要な空き領域が不足しています。">
 <!ENTITY  error_loading_file "&brandShortName; の起動に必要なファイルを読み込めませんでした">
 
-<!ENTITY  onboard_start_message "&brandShortName; にようこそ！">
-<!ENTITY  onboard_start_subtext "ユーザのプライバシー、そしてオープンな Web をあなたに">
+<!ENTITY  onboard_start_message2 "&brandShortName; にようこそ">
+<!ENTITY  onboard_start_subtext2 "より多くのプライバシー機能とカスタマイズ性">
 <!ENTITY  onboard_start_button_account "&brandShortName; にログイン">
 <!ENTITY  onboard_start_button_browser "ブラウジングを始める">
 
@@ -214,6 +214,8 @@ size. -->
 
 <!ENTITY pref_media_autoplay_enabled "自動再生を許可する">
 <!ENTITY pref_media_autoplay_enabled_summary "サイトがビデオやメディアコンテンツを自動再生できるかをコントロールする">
+<!ENTITY pref_zoom_force_enabled "常にズームを有効化">
+<!ENTITY pref_zoom_force_enabled_summary "すべてのページでズームができるよう設定を上書きする">
 
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
 <!ENTITY pref_sync "Firefox Sync で同期">
@@ -270,7 +272,7 @@ size. -->
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "クラッシュレポータ">
 <!ENTITY datareporting_wifi_title2 "&vendorShortName; 位置情報サービス">
-<!ENTITY datareporting_wifi_geolocation_summary2 "位置情報サービスの向上のため、Wi-Fi と基地局から得たデバイスの位置情報を &vendorShortName; に共有します">
+<!ENTITY datareporting_wifi_geolocation_summary3 "位置情報サービスの向上のため、Wi-Fi と基地局から得たデバイスの位置情報を共有します。&vendorShortName; による世界地図の作成にご協力を！">
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
@@ -365,6 +367,10 @@ size. -->
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
 
 <!ENTITY reading_list_added "ページがリーディングリストに追加されました">
+<!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
+<!-- Localization note (reading_list_remove) : Used to remove the currently open page from
+     the user's reading list. The opposite of overlay_share_reading_list_btn_label. -->
+<!ENTITY reading_list_remove "リーディングリストから削除">
 <!ENTITY reading_list_duplicate "ページはすでにリーディングリストに追加されています">
 
 <!-- Localization note (reading_list_time_minutes2) : This string is used in the "Reading List"
@@ -560,6 +566,13 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY actionbar_menu "メニュー">
 <!ENTITY actionbar_done "完了">
 
+<!-- Voice search in the awesome bar -->
+<!ENTITY voicesearch_prompt "話してください">
+<!ENTITY voicesearch_failed_title "&brandShortName; 音声検索">
+<!ENTITY voicesearch_failed_message "ただいま音声検索に問題が発生しています。後ほどお試しください">
+<!ENTITY voicesearch_failed_message_recoverable "申し訳ありません。音声を認識することができませんでした。もう一度お願いします">
+<!ENTITY voicesearch_failed_retry "もう一度">
+
 <!-- Localization note (remote_tabs_last_synced): the variable is replaced by a
      "relative time span string" produced by Android.  This string describes the
      time the tabs were last synced relative to the current time; examples
@@ -567,6 +580,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      "Last synced" is one of the user's other Sync clients, typically Firefox on
      their desktop or laptop.-->
 <!ENTITY remote_tabs_last_synced "最終更新日時: &formatS;">
+<!-- Localization note: Used when the sync has not happend yet, showed in place of a date -->
+<!ENTITY remote_tabs_never_synced "最終更新日時: なし">
 
 <!-- Find-In-Page strings -->
 <!-- LOCALIZATION NOTE (find_matchcase): This is meant to appear as an icon that changes color
