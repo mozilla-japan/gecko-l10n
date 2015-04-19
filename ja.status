@@ -584,3 +584,4 @@ suite                  ------:------------  19723:e600ae00a718   mar            
 mobile                 248562:d92bf011e305  -----:------------   knagato         sync mobile
 browser                248384:4abc71a31d01  -----:------------   hATrayflood     sync browser (exclude devtools)
 browser                248384:4abc71a31d01  -----:------------   hATrayflood     sync webapprt
+browser/devtools       248384:4abc71a31d01  -----:------------   hATrayflood     sync browser/devtools
