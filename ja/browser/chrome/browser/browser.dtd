@@ -834,16 +834,16 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY processHang.terminateScript.accessKey    "S">
 <!ENTITY processHang.debugScript.label            "スクリプトをデバッグ">
 <!ENTITY processHang.debugScript.accessKey        "D">
-<!ENTITY processHang.terminatePlugin.label        "プラグインの実行を中止">
+<!ENTITY processHang.terminatePlugin.label        "プラグインを強制終了">
 <!ENTITY processHang.terminatePlugin.accessKey    "P">
-<!ENTITY processHang.terminateProcess.label       "Web ページの実行を中止">
+<!ENTITY processHang.terminateProcess.label       "Web プロセスを強制終了">
 <!ENTITY processHang.terminateProcess.accessKey   "K">
 
 <!ENTITY emeLearnMoreContextMenu.label            "DRM の詳細...">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
 <!ENTITY emeNotificationsNotNow.label             "後で">
 <!ENTITY emeNotificationsNotNow.accesskey         "N">
-<!ENTITY emeNotificationsDontAskAgain.label       "次から確認しない">
+<!ENTITY emeNotificationsDontAskAgain.label       "次回からは確認しない">
 <!ENTITY emeNotificationsDontAskAgain.accesskey   "D">
 
 <!ENTITY readingList.label                        "後で読む">
