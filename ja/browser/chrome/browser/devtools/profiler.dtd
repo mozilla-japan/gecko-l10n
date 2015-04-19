@@ -56,7 +56,7 @@
 <!ENTITY profilerUI.table.totalPercentage "合計コスト">
 <!ENTITY profilerUI.table.selfPercentage  "コスト">
 <!ENTITY profilerUI.table.samples         "サンプル">
-<!ENTITY profilerUI.table.totalAlloc      "合計割り当て">
+<!ENTITY profilerUI.table.totalAlloc      "割り当て合計">
 <!ENTITY profilerUI.table.selfAlloc       "割り当て">
 <!ENTITY profilerUI.table.function        "関数">
 
