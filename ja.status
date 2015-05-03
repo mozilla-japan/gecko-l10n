@@ -591,3 +591,4 @@ browser/devtools       248384:4abc71a31d01  -----:------------   hATrayflood    
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security          255217:5ab01d355c93  19913:60320b7d5e6c   mar             sync dom, security
+browser                255285:b5527b393f62  -----:------------   hATrayflood     sync browser
