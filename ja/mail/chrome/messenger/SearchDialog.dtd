@@ -40,6 +40,7 @@
 <!ENTITY threadColumn.label		"スレッド">
 <!ENTITY fromColumn.label		"差出人">
 <!ENTITY recipientColumn.label		"受信者">
+<!ENTITY correspondentColumn.label	"通信相手">
 <!ENTITY subjectColumn.label		"件名">
 <!ENTITY dateColumn.label		"送信日時">
 <!ENTITY priorityColumn.label		"重要度">
@@ -61,6 +62,7 @@
 <!ENTITY threadColumn2.tooltip		"メッセージをスレッド形式で表示します">
 <!ENTITY fromColumn2.tooltip		"差出人で並べ替えます">
 <!ENTITY recipientColumn2.tooltip	"受信者で並べ替えます">
+<!ENTITY correspondentColumn2.tooltip	"通信相手で並べ替えます">
 <!ENTITY subjectColumn2.tooltip		"件名で並べ替えます">
 <!ENTITY dateColumn2.tooltip		"送信日時で並べ替えます">
 <!ENTITY priorityColumn2.tooltip	"重要度で並べ替えます">

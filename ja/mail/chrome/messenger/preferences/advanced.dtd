@@ -16,8 +16,8 @@
 <!ENTITY allowHWAccel.accesskey			"h">
 <!ENTITY storeType.label			"新しいアカウントのメッセージ格納形式:">
 <!ENTITY storeType.accesskey			"T">
-<!ENTITY mboxStore.label			"一個の大きなファイル (mbox 形式)">
-<!ENTITY maildirStore.label			"メッセージごとのファイル (maildir 形式)">
+<!ENTITY mboxStore2.label			"フォルダ単位 (mbox 形式)">
+<!ENTITY maildirStore.label			"メッセージ単位 (maildir 形式)">
 
 <!ENTITY scrolling.label			"スクロール">
 <!ENTITY useAutoScroll.label			"自動スクロール機能を使用する">
