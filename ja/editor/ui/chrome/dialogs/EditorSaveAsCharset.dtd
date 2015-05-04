@@ -7,8 +7,8 @@
 <!-- This button is for the progressive disclosure of additional editing functionality -->
 
 <!-- These strings are for use specifically in the editor's link dialog. -->
-<!ENTITY windowTitle.label "保存と文字エンコーディングの変更">
+<!ENTITY windowTitle2.label "保存とテキストエンコーディングの変更">
 <!ENTITY documentTitleTitle.label "ページタイトル">
-<!ENTITY documentCharsetTitle.label "文字エンコーディング">
-<!ENTITY documentCharsetDesc.label "保存時の文字エンコーディングを選択してください:">
-<!ENTITY documentExportToText.label "テキストで@@Export@@">
+<!ENTITY documentCharsetTitle2.label "テキストエンコーディング">
+<!ENTITY documentCharsetDesc2.label "保存時のテキストエンコーディングを選択してください:">
+<!ENTITY documentExportToText.label "テキスト形式で@@Export@@">
