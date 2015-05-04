@@ -73,10 +73,10 @@
 <!-- Language settings -->
 <!ENTITY sendDefaultCharset.label		"送信メッセージ:">
 <!ENTITY sendDefaultCharset.accesskey		"u">
-<!ENTITY languagesTitle1.label			"文字エンコーディング">
-<!ENTITY composingDescription.label		"メッセージの送受信に使用する@@Default-@@文字エンコーディングを設定します。">
+<!ENTITY languagesTitle2.label			"テキストエンコーディング">
+<!ENTITY composingDescription2.label		"メッセージの送受信に使用する@@Default-@@テキストエンコーディングを設定します。">
 
 <!ENTITY viewDefaultCharsetList.label		"受信メッセージ:">
 <!ENTITY viewDefaultCharsetList.accesskey	"I">
-<!ENTITY replyInDefaultCharset2.label		"可能であれば返信メッセージに@@Default-@@文字エンコーディングを使用する">
-<!ENTITY replyInDefaultCharset2.accesskey	"h">
+<!ENTITY replyInDefaultCharset3.label		"可能であれば返信メッセージに@@Default-@@テキストエンコーディングを使用する">
+<!ENTITY replyInDefaultCharset3.accesskey	"h">

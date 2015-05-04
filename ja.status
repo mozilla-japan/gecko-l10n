@@ -594,3 +594,4 @@ dom, security          255217:5ab01d355c93  19913:60320b7d5e6c   mar            
 browser                255285:b5527b393f62  -----:------------   hATrayflood     sync browser
 chat                   ------:------------  19936:f7f421f6c3a2   mar             sync chat
 editor/ui              ------:------------  19936:f7f421f6c3a2   mar             sync editor/ui
+mail                   ------:------------  19936:f7f421f6c3a2   mar             sync mail
