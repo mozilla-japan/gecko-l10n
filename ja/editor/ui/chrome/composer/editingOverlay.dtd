@@ -15,8 +15,8 @@
 <!ENTITY saveCmd.accesskey "S">
 <!ENTITY saveAsCmd.label "@@SaveAs@@...">
 <!ENTITY saveAsCmd.accesskey "A">
-<!ENTITY saveAsChangeEncodingCmd.label "文字エンコーディングを変更して保存">
-<!ENTITY saveAsChangeEncodingCmd.accesskey "E">
+<!ENTITY saveAsChangeEncodingCmd2.label "テキストエンコーディングを変更して保存">
+<!ENTITY saveAsChangeEncodingCmd2.accesskey "E">
 <!ENTITY publishCmd.label "出版">
 <!ENTITY publishCmd.accesskey "b">
 <!ENTITY publishCmd.key "S">
