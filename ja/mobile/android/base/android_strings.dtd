@@ -193,13 +193,13 @@
 <!ENTITY pref_donottrack_title "トラッキング拒否">
 <!ENTITY pref_donottrack_summary "&brandShortName; はトラッキングの拒否をサイトに通知します">
 
-<!ENTITY tab_queue_toast_message "Open later">
-<!ENTITY tab_queue_toast_action "Open now">
+<!ENTITY tab_queue_toast_message "あとで開く">
+<!ENTITY tab_queue_toast_action "すぐに開く">
 <!-- Localization note (tab_queue_notification_text_plural) : The
      formatD is replaced with the number of tabs queued.  The
      number of tabs queued is always more than one.  We can't use
      Android plural forms, sadly. See Bug #753859. -->
-<!ENTITY tab_queue_notification_text_plural "&formatD; つのタブがあります">
+<!ENTITY tab_queue_notification_text_plural "&formatD; 個のタブがあります">
 <!-- Localization note (tab_queue_notification_title_plural) : This is the
      title of a notification; we expect more than one tab queued. -->
 <!ENTITY tab_queue_notification_title_plural "保存されたタブ">
@@ -208,7 +208,7 @@
 <!ENTITY tab_queue_notification_title_singular "保存されたタブ">
 <!-- Localization note (tab_queue_notification_text_singular) : This is the
      text of a notification; we expect only one tab queued. -->
-<!ENTITY tab_queue_notification_text_singular "1 つのタブがあります">
+<!ENTITY tab_queue_notification_text_singular "1 個のタブがあります">
 
 <!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
