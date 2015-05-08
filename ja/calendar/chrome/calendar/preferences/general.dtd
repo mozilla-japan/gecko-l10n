@@ -14,7 +14,7 @@
 <!ENTITY pref.dateformat.short "短い形式"  >
 
 <!ENTITY pref.timezones.caption "タイムゾーン">
-<!ENTITY pref.timezones.label "現在位置のタイムゾーンにもっとも近い都市を選択してください:">
+<!ENTITY pref.timezones.label "現在位置の時間帯にもっとも近い都市:">
 <!ENTITY pref.timezones.accesskey "S">
 
 <!ENTITY pref.defaults.label "新しい予定または ToDo の@@Default-@@値">
