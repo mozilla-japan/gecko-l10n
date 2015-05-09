@@ -55,9 +55,9 @@
 <!ENTITY expungeOnExit.accesskey "E">
 <!ENTITY emptyTrashOnExit.label "終了時に@@TrashFolder@@を空にする">
 <!ENTITY emptyTrashOnExit.accesskey "x">
-<!ENTITY loginAtStartup.label "新着メッセージがないか起動時に確認する"> 
+<!ENTITY loginAtStartup.label "新着メッセージがないか起動時に確認する">
 <!ENTITY loginAtStartup.accesskey "C">
-<!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency 
+<!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
 	 of messages between them
 -->
@@ -73,7 +73,7 @@
 <!ENTITY abbreviateOn.label "Full names (For example, 'netscape.public.mozilla.mail-news')">
 <!ENTITY abbreviateOff.label "完全名 (例: netscape.public.mozilla.mail-news)">
 <!ENTITY advancedButton.label "詳細...">
-<!ENTITY serverDefaultCharset.label "@@Default-@@文字エンコーディング:">
+<!ENTITY serverDefaultCharset2.label "@@Default-@@テキストエンコーディング:">
 <!ENTITY advancedButton.accesskey "v">
 <!ENTITY localPath.label "メッセージの保存先:"><!-- en-US: Local directory -->
 <!ENTITY localFolderPicker.label "メッセージデータの保存先を選択してください">
@@ -86,5 +86,5 @@
 <!ENTITY accountSettingsDesc.label "これは特殊なアカウントであり、特定の差出人情報はありません。">
 <!ENTITY storeType.label "メッセージの格納形式:">
 <!ENTITY storeType.accesskey "T">
-<!ENTITY mboxStore.label "一個の大きなファイル (mbox 形式)">
+<!ENTITY mboxStore2.label "フォルダ単位 (mbox 形式)">
 <!ENTITY maildirStore.label "メッセージごとのファイル (maildir 形式)">
