@@ -573,7 +573,7 @@ browser                240673:3d8ee2772089  -----:------------   hATrayflood    
 suite                  ------:------------  19423:8f81d26fca7d   hATrayflood     sync suite
 
 
-[l10n-mozilla-38.0] (for beta)
+Released! [l10n-mozilla-38.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  19686:dab4d97e3877   mar             sync calendar
@@ -587,7 +587,7 @@ browser                248384:4abc71a31d01  -----:------------   hATrayflood    
 browser/devtools       248384:4abc71a31d01  -----:------------   hATrayflood     sync browser/devtools
 
 
-[l10n-mozilla-39.0] (for aurora)
+[l10n-mozilla-39.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security          255217:5ab01d355c93  19913:60320b7d5e6c   mar             sync dom, security
@@ -598,3 +598,8 @@ mail                   ------:------------  19936:f7f421f6c3a2   mar            
 mobile                 255305:7b38cbca05ed  -----:------------   Kechol          sync mobile
 toolkit                255347:a3c2c1c0ebab  19953:b838face42ae   mar             sync toolkit
 suite                  ------:------------  19936:f7f421f6c3a2   hATrayflood     sync suite
+
+
+[l10n-mozilla-40.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
