@@ -159,6 +159,8 @@
 <!ENTITY bothFormatCmd.accesskey	"l">
 <!ENTITY priorityMenu.label		"重要度">
 <!ENTITY priorityMenu.accesskey		"p">
+<!ENTITY priorityButton.title		"重要度">
+<!ENTITY priorityButton.tooltiptext	"メッセージの重要度を変更します">
 <!ENTITY priorityButton.label		"重要度:">
 <!ENTITY lowestPriorityCmd.label	"最低">
 <!ENTITY lowestPriorityCmd.accesskey	"l">

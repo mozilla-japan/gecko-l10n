@@ -573,7 +573,7 @@ browser                240673:3d8ee2772089  -----:------------   hATrayflood    
 suite                  ------:------------  19423:8f81d26fca7d   hATrayflood     sync suite
 
 
-Released! [l10n-mozilla-38.0]
+Released! [l10n-mozilla-38.0] (ESR)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  19686:dab4d97e3877   mar             sync calendar
@@ -603,3 +603,4 @@ suite                  ------:------------  19936:f7f421f6c3a2   hATrayflood    
 [l10n-mozilla-40.0] (for aurora)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
+chat, mail             ------:------------  20195:ec7eca9216f8   mar             sync chat, mail
