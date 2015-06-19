@@ -605,3 +605,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 chat, mail             ------:------------  20195:ec7eca9216f8   mar             sync chat, mail
 mail                   ------:------------  20207:8d1237f05828   mar             re-sync mail
+dom, security          262657:a7d5b64df128  20207:8d1237f05828   mar             sync dom, security
