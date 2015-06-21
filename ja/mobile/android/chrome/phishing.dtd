@@ -16,3 +16,8 @@
 <!ENTITY safeb.blocked.phishingPage.title2	"偽装サイトの疑いがあります！">
 <!ENTITY safeb.blocked.phishingPage.shortDesc2	"このページで個人情報を入力してしまうと、なりすましや詐欺などの被害に遭う恐れがあります。">
 <!ENTITY safeb.blocked.phishingPage.longDesc2	"<p>この種の偽装サイトはフィッシングと呼ばれる詐欺に使われています。本物のサイトに見せかけた詐欺ページを作り、あなたに信頼させようとしているのです。</p>">
+
+<!ENTITY safeb.blocked.unwantedPage.title "望まないソフトウェアを含むサイトとして報告されています！">
+<!-- Localization note (safeb.blocked.unwanted.shortDesc) - Please don't translate the contents of the <span id="unwanted_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
+<!ENTITY safeb.blocked.unwantedPage.shortDesc "<span id='unwanted_sitename'/> のページは、望まないソフトウェアを含むページとして報告されているため、セキュリティ設定に従いブロックされました。">
+<!ENTITY safeb.blocked.unwantedPage.longDesc "望まないソフトウェアのページは、偽装されたソフトウェアをインストールすることであなたのシステムに予期せぬ影響をおよぼそうとするものです。">
