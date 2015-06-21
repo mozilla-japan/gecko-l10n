@@ -7,7 +7,7 @@
 <!ENTITY  error_loading_file "&brandShortName; の起動に必要なファイルを読み込めませんでした">
 
 <!ENTITY  onboard_start_message3 "&brandShortName; とブラウジング">
-<!ENTITY  onboard_start_subtext3 "モバイルのウェブブラウジング体験をあなたぴったりのものに。">
+<!ENTITY  onboard_start_subtext3 "モバイルの Web ブラウジング体験をあなたぴったりのものに。">
 <!ENTITY  onboard_start_button_account "&brandShortName; にログイン">
 <!ENTITY  onboard_start_button_browser "ブラウジングを始める">
 
@@ -206,7 +206,7 @@
 <!ENTITY tab_queue_notification_text_plural2 "&formatD; つのタブがあります">
 <!-- Localization note (tab_queue_notification_text_singular2) : This is the
      text of a notification; we expect only one tab queued. -->
-+<!ENTITY tab_queue_notification_text_singular2 "1 つのタブがあります">
+<!ENTITY tab_queue_notification_text_singular2 "1 つのタブがあります">
 
 <!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
