@@ -103,7 +103,7 @@
 <!ENTITY styleBoldCmd.label "太字">
 <!ENTITY styleBoldCmd.accesskey "B">
 <!ENTITY styleBoldCmd.key "B">
-<!ENTITY styleItalicCmd.label "斜体">
+<!ENTITY styleItalicCmd.label "イタリック体">
 <!ENTITY styleItalicCmd.accesskey "I">
 <!ENTITY styleItalicCmd.key "I">
 <!ENTITY styleUnderlineCmd.label "下線">
@@ -315,7 +315,7 @@
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "フォントサイズを縮小します">
 <!ENTITY increaseFontSizeToolbarCmd.tooltip "フォントサイズを拡大します">
 <!ENTITY boldToolbarCmd.tooltip "太字">
-<!ENTITY italicToolbarCmd.tooltip "斜体">
+<!ENTITY italicToolbarCmd.tooltip "イタリック体">
 <!ENTITY underlineToolbarCmd.tooltip "下線">
 <!ENTITY bulletListToolbarCmd.tooltip "行頭文字付きリストを適用または解除します">
 <!ENTITY numberListToolbarCmd.tooltip "番号付きリストを適用または解除します">

@@ -7,8 +7,8 @@
 <!ENTITY style.accesskey                  "S">
 <!ENTITY regular.label                    "標準">
 <!ENTITY bold.label                       "太字">
-<!ENTITY italic.label                     "斜体">
-<!ENTITY boldItalic.label                 "太字斜体">
+<!ENTITY italic.label                     "イタリック体">
+<!ENTITY boldItalic.label                 "太字イタリック体">
 <!ENTITY size.label                       "サイズ:">
 <!ENTITY size.accesskey                   "z">
 <!ENTITY bigger.label                     "大きく">
