@@ -29,7 +29,7 @@
 <!ENTITY bold.label		"太字">
 <!ENTITY bullets.label		"行頭文字付きリスト">
 <!ENTITY numbers.label		"番号付きリスト">
-<!ENTITY italic.label		"斜体">
+<!ENTITY italic.label		"イタリック体">
 <!ENTITY outdent.label		"インデント解除">
 <!ENTITY indent.label		"インデント">
 <!ENTITY underline.label	"下線">

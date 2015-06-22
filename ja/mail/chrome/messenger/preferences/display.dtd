@@ -10,8 +10,8 @@
 <!ENTITY style.accesskey		"y">
 <!ENTITY regularStyle.label		"標準">
 <!ENTITY bold.label			"太字">
-<!ENTITY italic.label			"斜体">
-<!ENTITY boldItalic.label		"太字斜体">
+<!ENTITY italic.label			"イタリック体">
+<!ENTITY boldItalic.label		"太字イタリック体">
 <!ENTITY size.label			"サイズ:">
 <!ENTITY size.accesskey			"z">
 <!ENTITY regularSize.label		"標準">
