@@ -608,3 +608,4 @@ mail                   ------:------------  20207:8d1237f05828   mar            
 dom, security          262657:a7d5b64df128  20207:8d1237f05828   mar             sync dom, security
 toolkit                262711:ce4ec0e82d7d  20207:8d1237f05828   mar             sync toolkit
 mobile                 262545:77aebefaa4de  -----:------------   Kechol          sync mobile
+irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.91
