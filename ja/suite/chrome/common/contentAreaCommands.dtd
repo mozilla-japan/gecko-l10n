@@ -72,6 +72,8 @@
 <!ENTITY saveFrameAsCmd.label         "@@SaveFrameAs@@...">
 <!ENTITY saveFrameCmd.label           "フレームを保存">
 <!ENTITY saveFrameCmd.accesskey       "a">
+<!ENTITY printFrameCmd.label          "フレームを@@Print@@...">
+<!ENTITY printFrameCmd.accesskey      "P">
 <!ENTITY saveLinkAsCmd.label          "@@SaveLinkTargetAs@@...">
 <!ENTITY saveLinkCmd.label            "リンク先を保存">
 <!ENTITY saveLinkCmd.accesskey        "S">
