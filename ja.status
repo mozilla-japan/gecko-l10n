@@ -583,7 +583,7 @@ toolkit                248506:4de05bfedb9c  19721:c91007a6f7b3   mar            
 suite                  ------:------------  19723:e600ae00a718   mar             sync suite
 mobile                 248562:d92bf011e305  -----:------------   knagato         sync mobile
 browser                248384:4abc71a31d01  -----:------------   hATrayflood     sync browser (exclude devtools)
-browser                248384:4abc71a31d01  -----:------------   hATrayflood     sync webapprt
+webapprt               248384:4abc71a31d01  -----:------------   hATrayflood     sync webapprt
 browser/devtools       248384:4abc71a31d01  -----:------------   hATrayflood     sync browser/devtools
 
 
@@ -610,3 +610,4 @@ toolkit                262711:ce4ec0e82d7d  20207:8d1237f05828   mar            
 mobile                 262545:77aebefaa4de  -----:------------   Kechol          sync mobile
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.91
 suite                  ------:------------  20214:84bf7d2167f5   mar             sync suite
+webapprt               262214:18286de4be87  -----:------------   hATrayflood     sync webapprt
