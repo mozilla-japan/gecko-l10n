@@ -369,9 +369,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.viewSidebar.label	"履歴サイドバーを表示">
 <!ENTITY appMenuHelp.tooltip			"ヘルプメニューを開きます">
 
-<!ENTITY customizeMenu.addToToolbar.label	"ツールバーを追加">
+<!ENTITY customizeMenu.addToToolbar.label	"ツールバーに追加">
 <!ENTITY customizeMenu.addToToolbar.accesskey	"A">
-<!ENTITY customizeMenu.addToPanel.label		"メニューを追加">
+<!ENTITY customizeMenu.addToPanel.label		"メニューに追加">
 <!ENTITY customizeMenu.addToPanel.accesskey	"M">
 <!ENTITY customizeMenu.moveToToolbar.label	"ツールバーに移動">
 <!ENTITY customizeMenu.moveToToolbar.accesskey	"o">
