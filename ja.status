@@ -587,7 +587,7 @@ webapprt               248384:4abc71a31d01  -----:------------   hATrayflood    
 browser/devtools       248384:4abc71a31d01  -----:------------   hATrayflood     sync browser/devtools
 
 
-[l10n-mozilla-39.0] (for beta)
+Released! [l10n-mozilla-39.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security          255217:5ab01d355c93  19913:60320b7d5e6c   mar             sync dom, security
@@ -600,7 +600,7 @@ toolkit                255347:a3c2c1c0ebab  19953:b838face42ae   mar            
 suite                  ------:------------  19936:f7f421f6c3a2   hATrayflood     sync suite
 
 
-[l10n-mozilla-40.0] (for aurora)
+[l10n-mozilla-40.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 chat, mail             ------:------------  20195:ec7eca9216f8   mar             sync chat, mail
@@ -612,3 +612,9 @@ irc                    ------:------------  -----:------------   mar            
 suite                  ------:------------  20214:84bf7d2167f5   mar             sync suite
 webapprt               262214:18286de4be87  -----:------------   hATrayflood     sync webapprt
 browser                262737:21a6400612db  -----:------------   hATrayflood     sync browser
+
+
+[l10n-mozilla-41.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+chat, mail             ------:------------  20378:093d47752c1c   mar             sync chat, mail

@@ -15,5 +15,6 @@
 <!ENTITY aboutSupport.accountsConnSecurity	"接続の保護">
 <!ENTITY aboutSupport.accountsAuthMethod	"認証方式">
 <!ENTITY aboutSupport.accountsDefault		"@@Default@@？">
+<!ENTITY aboutSupport.identityName		"使用アカウント">
 
 <!ENTITY aboutSupport.sendViaEmail.label	"メールで送信">
