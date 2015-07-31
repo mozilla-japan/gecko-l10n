@@ -618,3 +618,4 @@ browser                262737:21a6400612db  -----:------------   hATrayflood    
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 chat, mail             ------:------------  20378:093d47752c1c   mar             sync chat, mail
+dom, security          270530:e24d6e451e85  20385:c0a38068f860   mar             sync dom, security
