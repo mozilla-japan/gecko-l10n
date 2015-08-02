@@ -34,6 +34,7 @@
 
 <!ENTITY showUnifinderCmd.label			"予定を検索">
 <!ENTITY showUnifinderCmd.accesskey		"F">
+<!ENTITY showUnifinderCmd.tooltip		"予定検索ペインを開閉します">
 
 <!ENTITY calendar.displaytodos.checkbox.label	"ToDo を表示">
 <!ENTITY calendar.displaytodos.checkbox.accesskey 	"T">
