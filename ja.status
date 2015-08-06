@@ -620,3 +620,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 chat, mail             ------:------------  20378:093d47752c1c   mar             sync chat, mail
 dom, security          270530:e24d6e451e85  20385:c0a38068f860   mar             sync dom, security
 calendar               ------:------------  20386:92b31f86866c   mar             sync calendar
+toolkit                270578:c05f7ddf3df6  20387:0d0cb49c8208   mar             sync toolkit
