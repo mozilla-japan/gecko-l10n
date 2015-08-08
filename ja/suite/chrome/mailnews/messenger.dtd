@@ -445,6 +445,12 @@
 <!ENTITY junkButton.tooltip                 "メッセージに迷惑マークを付けます">
 <!ENTITY notJunkButton.tooltip              "メッセージの迷惑マークを外します">
 
+<!-- Remote Content Button Popup -->
+<!ENTITY remoteContentOptionsAllowForMsg.label "このメッセージのリモートコンテンツを表示">
+<!ENTITY remoteContentOptionsAllowForMsg.accesskey "S">
+<!ENTITY editRemoteContentSettings.label "リモートコンテンツの許可設定を編集...">
+<!ENTITY editRemoteContentSettings.accesskey "E">
+
 <!-- Statusbar -->
 <!ENTITY  statusText.label                  "完了">
 
