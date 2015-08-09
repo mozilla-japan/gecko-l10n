@@ -62,7 +62,7 @@
 <!ENTITY sync.configure.engines.title.label '同期オプション'>
 <!ENTITY sync.configure.engines.sync.my.title.label '同期するデータ'>
 <!ENTITY sync.configure.engines.title.bookmarks 'ブックマーク'>
-<!ENTITY sync.configure.engines.title.passwords 'パスワード'>
+<!ENTITY sync.configure.engines.title.passwords2 'ログイン情報'>
 <!ENTITY sync.configure.engines.title.history '履歴'>
 <!ENTITY sync.configure.engines.title.tabs 'タブ'>
 
@@ -141,7 +141,7 @@
 <!ENTITY fxaccount_policy_linkprivacy 'プライバシーに関する注意'>
 
 <!ENTITY fxaccount_getting_started_welcome_to_sync '&syncBrand.shortName.label; にようこそ'>
-<!ENTITY fxaccount_getting_started_description 'タブやブックマーク、パスワードなどを同期するにはサインインしてください。'>
+<!ENTITY fxaccount_getting_started_description2 'タブやブックマーク、ログイン情報などを同期するにはサインインしてください。'>
 <!ENTITY fxaccount_getting_started_get_started 'はじめましょう'>
 <!ENTITY fxaccount_getting_started_old_firefox '古いバージョンの &syncBrand.shortName.label; を使っていませんか？'>
 
@@ -212,7 +212,7 @@
 <!ENTITY fxaccount_status_needs_finish_migrating '新しいあなたの Firefox アカウントにサインインするにはタップしてください。'>
 <!ENTITY fxaccount_status_bookmarks 'ブックマーク'>
 <!ENTITY fxaccount_status_history '履歴'>
-<!ENTITY fxaccount_status_passwords 'パスワード'>
+<!ENTITY fxaccount_status_passwords2 'ログイン情報'>
 <!ENTITY fxaccount_status_tabs '開いているタブ'>
 <!ENTITY fxaccount_status_legal '法律' >
 <!-- Localization note: when tapped, the following two strings link to

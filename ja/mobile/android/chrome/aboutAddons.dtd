@@ -10,3 +10,6 @@
 <!ENTITY addonAction.disable                    "無効化">
 <!ENTITY addonAction.uninstall                  "削除">
 <!ENTITY addonAction.undo                       "@@Undo@@">
+
+<!ENTITY addonUnsigned.message                  "このアドオンは &brandShortName; によって認証されていません。">
+<!ENTITY addonUnsigned.learnMore                "さらに詳しく">
