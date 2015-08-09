@@ -2,12 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY privatebrowsingpage.title                  "プライベートブラウジング">
 <!ENTITY privatebrowsingpage.title "プライベートブラウジング">
 <!ENTITY privatebrowsingpage.title.normal "プライベートブラウジングモードではありません">
 
-<!ENTITY privatebrowsingpage.issueDesc.private      "新しいプライベートタブを開いています。">
-<!ENTITY privatebrowsingpage.issueDesc.normal       "プライベートタブで開いていません。">
 <!ENTITY privatebrowsingpage.issueDesc.normal2 "プライベートブラウジングでは、ブラウズ中の閲覧履歴や Cookie は保存されません。">
 <!ENTITY privatebrowsingpage.issueDesc.private2 "ブラウズ中の閲覧履歴や Cookie は保存されません。">
 
