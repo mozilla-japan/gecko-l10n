@@ -44,6 +44,10 @@
 <!ENTITY bookmark "ブックマーク">
 <!ENTITY bookmark_remove "ブックマークを削除">
 <!ENTITY bookmark_added "ブックマークを追加しました">
+<!-- Localization note (bookmark_already_added) : This string is
+     used as a label in a toast. It is the verb "to bookmark", not
+     the noun "a bookmark". -->
+<!ENTITY bookmark_already_added "すでにブックマークされています">
 <!ENTITY bookmark_removed "ブックマークを削除しました">
 <!ENTITY bookmark_updated "ブックマークを更新しました">
 <!ENTITY bookmark_options "オプション">
@@ -77,6 +81,7 @@
 
 <!ENTITY settings "設定">
 <!ENTITY settings_title "設定">
+<!ENTITY pref_category_input_options "入力オプション">
 <!ENTITY pref_category_advanced "詳細">
 <!ENTITY pref_category_customize "カスタマイズ">
 <!ENTITY pref_category_customize_summary "ホーム、検索、タブ、@@Import@@">
@@ -132,7 +137,7 @@
 <!ENTITY pref_category_display "表示">
 <!ENTITY pref_category_display_summary "テキスト、タイトルバー、@@FullScreen@@ブラウジング">
 <!ENTITY pref_category_privacy_short "プライバシー">
-<!ENTITY pref_category_privacy_summary " パスワード、Cookie、トラッキング、データの管理">
+<!ENTITY pref_category_privacy_summary2 "ログイン情報、Cookie、トラッキング、データの管理">
 <!ENTITY pref_category_vendor "&vendorShortName;">
 <!ENTITY pref_category_vendor_summary "&brandShortName; について、FAQ、データの選択">
 <!ENTITY pref_category_datareporting "データの選択">
@@ -151,7 +156,9 @@
 <!ENTITY pref_category_devtools "デベロッパーツール">
 <!ENTITY pref_developer_remotedebugging "リモートデバッグ">
 <!ENTITY pref_category_logins "ログイン情報">
-<!ENTITY pref_remember_signons "パスワードを保存する">
+<!ENTITY pref_remember_signons2 "ログイン情報を保存する">
+<!ENTITY pref_open_external_urls_privately_title "リンクをプライベート@@Window@@で開く">
+<!ENTITY pref_open_external_urls_privately_summary "&brandShortName; で開かれた外部のリンクすべてに対して">
 <!ENTITY pref_manage_logins "ログイン情報の管理">
 
 <!ENTITY pref_category_home "ホーム">
@@ -190,11 +197,10 @@
 <!ENTITY pref_donottrack_title "トラッキング拒否">
 <!ENTITY pref_donottrack_summary "&brandShortName; はトラッキングの拒否をサイトに通知します">
 
-<!ENTITY tab_queue_toast_message "あとで開く">
-<!ENTITY tab_queue_toast_message2 "タブは &brandShortName; に保存されました">
+<!ENTITY tab_queue_toast_message3 "タブは &brandShortName; に保存されました">
 <!ENTITY tab_queue_toast_action "すぐに開く">
 <!ENTITY tab_queue_prompt_title "複数のリンクを開きますか？">
-<!ENTITY tab_queue_prompt_text2 "毎回 &brandShortName; に移動せずにリンクを開きます。">
+<!ENTITY tab_queue_prompt_text3 "次回 &brandShortName; を開く時までそれらのリンクを保存しておきます">
 <!ENTITY tab_queue_prompt_tip_text "あとで設定から変更できます">
 <!ENTITY tab_queue_prompt_positive_action_button "有効化">
 <!ENTITY tab_queue_prompt_negative_action_button "あとで">
@@ -246,10 +252,14 @@ size. -->
 <!ENTITY pref_media_autoplay_enabled_summary "サイトがビデオやメディアコンテンツを自動再生できるかをコントロールする">
 <!ENTITY pref_zoom_force_enabled "常にズームを有効化">
 <!ENTITY pref_zoom_force_enabled_summary "すべてのページでズームができるよう設定を上書きする">
+<!ENTITY pref_voice_input "音声入力">
+<!ENTITY pref_voice_input_summary "タイトルバーで音声による入力を許可する">
+<!ENTITY pref_qrcode_enabled "QR コードリーダー">
+<!ENTITY pref_qrcode_enabled_summary "タイトルバーで QR コードスキャンを許可する">
 
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
 <!ENTITY pref_sync "Firefox Sync で同期">
-<!ENTITY pref_sync_summary "閲覧履歴、パスワード、ブックマーク、タブを同期する">
+<!ENTITY pref_sync_summary2 "タブ、ブックマーク、ログイン情報、閲覧履歴を同期する">
 <!ENTITY pref_search_suggestions "検索語句の候補を表示">
 <!ENTITY pref_import_android "Android から@@Import-suru@@">
 <!ENTITY pref_import_android_summary "ネイティブブラウザからブックマークや履歴を@@Import-suru@@">
@@ -257,11 +267,12 @@ size. -->
 <!ENTITY pref_private_data_searchHistory "検索履歴">
 <!ENTITY pref_private_data_formdata2 "フォームの履歴">
 <!ENTITY pref_private_data_cookies2 "Cookie">
-<!ENTITY pref_private_data_passwords "保存されたパスワード">
+<!ENTITY pref_private_data_passwords2 "保存されたログイン情報">
 <!ENTITY pref_private_data_cache "キャッシュ">
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
 <!ENTITY pref_private_data_siteSettings2 "サイト設定">
 <!ENTITY pref_private_data_downloadFiles2 "ダウンロードしたファイル">
+<!ENTITY pref_private_data_syncedTabs "同期したタブ">
 
 
 <!ENTITY pref_about_firefox "&brandShortName; について">
@@ -381,6 +392,11 @@ size. -->
 <!ENTITY doorhanger_login_edit_password_hint "パスワード">
 <!ENTITY doorhanger_login_edit_toggle "パスワードを表示">
 <!ENTITY doorhanger_login_edit_toast_error "ログイン情報の保存に失敗しました">
+<!ENTITY doorhanger_login_select_message "&formatS; からパスワードをコピーしますか？">
+<!ENTITY doorhanger_login_select_toast_copy "パスワードはクリップボードにコピーされました">
+<!ENTITY doorhanger_login_select_toast_copy_error "パスワードをコピーできませんでした">
+<!ENTITY doorhanger_login_select_action_text "他のログイン情報を選択してください">
+<!ENTITY doorhanger_login_select_title "コピーするパスワード:">
 
 <!ENTITY pref_titlebar_mode "タイトルバー">
 <!ENTITY pref_titlebar_mode_title "ページのタイトルを表示">
@@ -392,7 +408,7 @@ size. -->
 <!ENTITY pref_scroll_title_bar_summary "ページをスクロールした時、タイトルバーを隠す">
 
 <!ENTITY pref_tab_queue_title2 "複数のリンクを開く">
-<!ENTITY pref_tab_queue_summary2 "毎回 &brandShortName; に移動する代わりに、あとで保存したタブを開きます。">
+<!ENTITY pref_tab_queue_summary3 "次回 &brandShortName; を開く時までそれらのタブを保存しておきます">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
@@ -411,7 +427,9 @@ size. -->
 <!ENTITY site_settings_clear        "消去">
 <!ENTITY site_settings_no_settings  "消去する設定がありません。">
 
-<!ENTITY reading_list_added "ページがリーディングリストに追加されました">
+<!-- Localization note (reading_list_added2) : Used in a toast, please keep as short
+     as possible. -->
+<!ENTITY reading_list_added2 "リストに追加されました">
 <!ENTITY reading_list_removed "ページがリーディングリストから削除されました">
 <!-- Localization note (reading_list_remove) : Used to remove the currently open page from
      the user's reading list. The opposite of overlay_share_reading_list_btn_label. -->
@@ -440,7 +458,7 @@ size. -->
 <!ENTITY button_clear_data "データを消去">
 <!ENTITY button_set "設定">
 <!ENTITY button_clear "消去">
-<!ENTITY button_remember "記憶">
+<!ENTITY button_copy "コピー">
 
 <!ENTITY firstrun_panel_title_welcome "ようこそ">
 
@@ -504,10 +522,6 @@ size. -->
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "選択したデバイスを表示">
 
-<!ENTITY private_browsing_title "プライベートブラウジング">
-<!ENTITY private_tabs_panel_empty_desc "あなたのプライベートタブがここに表示されます。Cookie や閲覧履歴は保存されませんが、ブックマークとダウンロードしたファイルはデバイスに保存されます。">
-<!ENTITY private_tabs_panel_learn_more "詳細を表示しますか？">
-
 <!ENTITY remote_tabs_panel_moved_title "私のタブはどこに行ったのですか？">
 <!ENTITY remote_tabs_panel_moved_desc "我々は他のデバイスのタブをあなたのホームページ上のパネルに移動しました。@@NewTab@@を開いたときにいつでも簡単にアクセスできます。">
 <!ENTITY remote_tabs_panel_moved_link "Take me to my new panel.">
@@ -535,6 +549,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_run_by "このサイトの運営者:">
 <!ENTITY identity_no_info "このサイトは識別情報を提供していません">
 <!ENTITY identity_not_encrypted "このサイトへの接続は暗号化されていません。">
+<!ENTITY identity_encrypted "暗号化あり">
 
 <!-- Mixed content notifications in site identity popup -->
 <!ENTITY loaded_mixed_content_message "このページは安全でないコンテンツを表示しようとしています。">
@@ -601,7 +616,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY guest_session_dialog_continue "続行">
 <!ENTITY guest_session_dialog_cancel "キャンセル">
 <!ENTITY new_guest_session_title "&brandShortName; は今すぐ再起動します">
-<!ENTITY new_guest_session_text "このモードを使う人は、あなたの個人的な閲覧データ (保存されたパスワードや履歴、ブックマークなど) にはアクセスできません。\n\nゲストモードが終了した時、その閲覧データは削除され、元のセッションが復元されます。">
+<!ENTITY new_guest_session_text2 "このモードを使う人は、あなたの個人的な閲覧データ (保存されたログイン情報や履歴、ブックマークなど) にはアクセスできません。\n\nゲストモードが終了した時、その閲覧データは削除され、元のセッションが復元されます。">
 <!ENTITY guest_browsing_notification_title "ゲストブラウジングは有効です">
 <!ENTITY guest_browsing_notification_text "タップして終了">
 
@@ -650,3 +665,5 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (find_matchcase): This is meant to appear as an icon that changes color
      if match-case is activated. i.e. No more than two letters, one uppercase, one lowercase. -->
 <!ENTITY find_matchcase "Aa">
+
+<!ENTITY intent_uri_cannot_open "リンクを開くことができません">

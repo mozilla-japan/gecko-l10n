@@ -3,11 +3,17 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY privatebrowsingpage.title                  "プライベートブラウジング">
+<!ENTITY privatebrowsingpage.title "プライベートブラウジング">
+<!ENTITY privatebrowsingpage.title.normal "プライベートブラウジングモードではありません">
 
 <!ENTITY privatebrowsingpage.issueDesc.private      "新しいプライベートタブを開いています。">
 <!ENTITY privatebrowsingpage.issueDesc.normal       "プライベートタブで開いていません。">
+<!ENTITY privatebrowsingpage.issueDesc.normal2 "プライベートブラウジングでは、ブラウズ中の閲覧履歴や Cookie は保存されません。">
+<!ENTITY privatebrowsingpage.issueDesc.private2 "ブラウズ中の閲覧履歴や Cookie は保存されません。">
 
-<!ENTITY privatebrowsingpage.description            "&brandShortName; のプライベートタブでは、表示したページの履歴、検索履歴、ダウンロード履歴、フォームへの入力履歴、Cookie、そして一時的なインターネットファイルは保存されません。しかし、ダウンロードしたファイルとブックマークしたサイトは保存されます。">
-<!ENTITY privatebrowsingpage.description.private    "&privatebrowsingpage.issueDesc.private; &privatebrowsingpage.description;">
+<!ENTITY privatebrowsingpage.description2 "追加されたブックマークやダウンロードされたファイルはデバイスに保存されます。">
+<!ENTITY privatebrowsingpage.description.normal "&privatebrowsingpage.issueDesc.normal2; &privatebrowsingpage.description2;">
+<!ENTITY privatebrowsingpage.description.private2 "&privatebrowsingpage.issueDesc.private2; &privatebrowsingpage.description2;">
 
-<!ENTITY privatebrowsingpage.moreInfo               "このデバイスには表示したページの履歴が残りませんが、契約しているインターネットサービスプロバイダはあなたが訪問したページを追跡できます。">
+<!ENTITY privatebrowsingpage.link.private "さらに詳細を知りたいですか？">
+<!ENTITY privatebrowsingpage.link.normal "@@New-CMD@@プライベートタブを開く">
