@@ -65,6 +65,7 @@
 <!ENTITY largerFont.label             "フォントを大きく">
 <!ENTITY largerFont.accesskey         "a">
 <!ENTITY largerFont.commandkey        "+">
+<!ENTITY largerFont.commandkey2       "="> <!-- + is above this key on many keyboards -->
 
 <!ENTITY smallerFont.label            "フォントを小さく">
 <!ENTITY smallerFont.accesskey        "M">
