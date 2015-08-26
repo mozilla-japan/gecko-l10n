@@ -600,7 +600,7 @@ toolkit                255347:a3c2c1c0ebab  19953:b838face42ae   mar            
 suite                  ------:------------  19936:f7f421f6c3a2   hATrayflood     sync suite
 
 
-[l10n-mozilla-40.0] (for beta)
+Released! [l10n-mozilla-40.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 chat, mail             ------:------------  20195:ec7eca9216f8   mar             sync chat, mail
@@ -614,7 +614,7 @@ webapprt               262214:18286de4be87  -----:------------   hATrayflood    
 browser                262737:21a6400612db  -----:------------   hATrayflood     sync browser
 
 
-[l10n-mozilla-41.0] (for aurora)
+[l10n-mozilla-41.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 chat, mail             ------:------------  20378:093d47752c1c   mar             sync chat, mail
@@ -625,3 +625,10 @@ suite                  ------:------------  20387:0d0cb49c8208   mar            
 mobile                 270611:ee7edbdd8212  -----:------------   Kechol          sync mobile
 webapprt               270627:d561dc208e61  -----:------------   hATrayflood     sync webapprt
 browser                270627:d561dc208e61  -----:------------   hATrayflood     sync browser
+
+
+[l10n-mozilla-42.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, security          277303:66e9b94c4066  20575:46c5b0f447ee   mar             sync dom, security
+
