@@ -13,3 +13,4 @@
 <!ENTITY showAllUnreadMessagesCount.accesskey	"u">
 <!ENTITY dockIconBadge.label			"アプリケーションアイコンのバッジ">
 <!ENTITY dockIconShow.label			"アイコンにバッジを付ける:">
+<!ENTITY directNotificationSettings.label	"バッジはシステム環境設定の通知ペインで無効化できます。">
