@@ -634,4 +634,5 @@ dom, security          277303:66e9b94c4066  20575:46c5b0f447ee   mar            
 calendar               ------:------------  20575:46c5b0f447ee   mar             sync calendar
 chat, mail             ------:------------  20575:46c5b0f447ee   mar             sync chat, mail
 services/sync          277655:6fa940a15b93  -----:------------   mar             sync services/sync
+toolkit                277655:6fa940a15b93  20592:3c76de47adb6   mar             sync toolkit
 
