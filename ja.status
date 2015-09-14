@@ -633,4 +633,5 @@ target dir             mozilla and comm hg changeset rev:id      by             
 dom, security          277303:66e9b94c4066  20575:46c5b0f447ee   mar             sync dom, security
 calendar               ------:------------  20575:46c5b0f447ee   mar             sync calendar
 chat, mail             ------:------------  20575:46c5b0f447ee   mar             sync chat, mail
+services/sync          277655:6fa940a15b93  -----:------------   mar             sync services/sync
 
