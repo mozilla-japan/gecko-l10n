@@ -635,4 +635,5 @@ calendar               ------:------------  20575:46c5b0f447ee   mar            
 chat, mail             ------:------------  20575:46c5b0f447ee   mar             sync chat, mail
 services/sync          277655:6fa940a15b93  -----:------------   mar             sync services/sync
 toolkit                277655:6fa940a15b93  20592:3c76de47adb6   mar             sync toolkit
+suite                  ------:------------  20607:53f8ab1d339d   mar             sync suite
 

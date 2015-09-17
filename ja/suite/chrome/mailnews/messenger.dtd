@@ -115,7 +115,7 @@
 <!ENTITY showMessengerToolbarCmd.label         "メールツールバー">
 <!ENTITY showMessengerToolbarCmd.accesskey     "M">
 <!ENTITY showSearchToolbarCmd.label            "検索バー">
-<!ENTITY showSearchToolbarCmd.accesskey        "e">
+<!ENTITY showSearchToolbarCmd.accesskey        "a">
 <!ENTITY showTabsToolbarCmd.label              "タブツールバー">
 <!ENTITY showTabsToolbarCmd.accesskey          "T">
 
