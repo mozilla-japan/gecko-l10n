@@ -3,14 +3,20 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY privatebrowsingpage.title "プライベートブラウジング">
-<!ENTITY privatebrowsingpage.title.normal "プライベートブラウジングモードではありません">
+<!-- Localisation note: the plus sign here is a shorthand way of expressing the word "and". Contextually the privatebrowsingpage.title.private string
+                        is used as a title, with the privatebrowsingpage.title string preceding it but on a separate line.
+                        So the final line will say "Private Browsing + Tracking Protection". -->
+<!ENTITY privatebrowsingpage.title.private "とトラッキング保護">
+<!-- Localization note (privatebrowsingpage.title.normal1): "Private Browsing"
+     is capitalized in English to be consistent with our existing uses of the
+     term. -->
+<!ENTITY privatebrowsingpage.title.normal1 "プライベートブラウジングモードではありません">
 
-<!ENTITY privatebrowsingpage.issueDesc.normal2 "プライベートブラウジングでは、ブラウズ中の閲覧履歴や Cookie は保存されません。">
-<!ENTITY privatebrowsingpage.issueDesc.private2 "ブラウズ中の閲覧履歴や Cookie は保存されません。">
-
-<!ENTITY privatebrowsingpage.description2 "追加されたブックマークやダウンロードされたファイルはデバイスに保存されます。">
-<!ENTITY privatebrowsingpage.description.normal "&privatebrowsingpage.issueDesc.normal2; &privatebrowsingpage.description2;">
-<!ENTITY privatebrowsingpage.description.private2 "&privatebrowsingpage.issueDesc.private2; &privatebrowsingpage.description2;">
+<!ENTITY privatebrowsingpage.description.private3 "Firefox はあなたをトラッキングから保護し、また閲覧した履歴を残しませんが、ダウンロードしたファイルと新しいブックマークはデバイスに保存されます。">
+<!-- Localization note (privatebrowsingpage.description.normal2): "Private
+     Browsing" is capitalized in English to be consistent with our existing uses
+     of the term. -->
+<!ENTITY privatebrowsingpage.description.normal2 "プライベートブラウジングでは、すべての閲覧履歴や Cookie が保存されません。ただし、追加したブックマークやダウンロードしたファイルはデバイスに保存されます。">
 
 <!ENTITY privatebrowsingpage.link.private "さらに詳細を知りたいですか？">
 <!ENTITY privatebrowsingpage.link.normal "@@New-CMD@@プライベートタブを開く">

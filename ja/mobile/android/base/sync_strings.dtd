@@ -230,6 +230,7 @@
 <!ENTITY fxaccount_remove_account_toast 'Firefox アカウント &formatS; は削除されました。'>
 
 <!ENTITY fxaccount_remove_account_menu_item 'アカウントを削除'>
+<!ENTITY fxaccount_enable_debug_mode 'デバッグモードを有効化'>
 
 <!-- Localization note: this is the name shown by the Android system
      itself for a Firefox Account. Don't localize this. -->

@@ -8,7 +8,7 @@ dirname                 Repo    App             補足
 browser                 moz     Fx              Firefox
 calendar                comm    Sb              Sunbird/Lightning
 chat                    comm    Tb              Instant Messaging
-dom                     moz     all             
+dom                     moz     all
 editor/ui               comm    Tb, Sm          メール編集画面
 embedding               moz     Fe              Android
 extensions
@@ -21,16 +21,16 @@ minimo                  ---     ---             Minimo (過去の遺物)
 mobile                  mobile  Fe              Mobile Firefox (Fennec)
 netwerk                 moz     all             ネットワーク
 other-licenses
-  branding/firefox      moz     Fx              
-  branding/sunbird      comm    Sb              
-  branding/thunderbird  comm    Tb              
-security/manager        moz     all             
+  branding/firefox      moz     Fx
+  branding/sunbird      comm    Sb
+  branding/thunderbird  comm    Tb
+security/manager        moz     all
 services/sync           moz     Fx, Sm          Sync
 suite                   comm    Sm              Seamonkey
 toolkit
-  chrome                moz     all             
+  chrome                moz     all
   crashreporter         moz     Fx, Sm          クラッシュレポータ
-webapprt                moz     Fx              
+webapprt                moz     Fx
 
 
         SVN 導入以降の en-US との同期履歴
@@ -636,4 +636,4 @@ chat, mail             ------:------------  20575:46c5b0f447ee   mar            
 services/sync          277655:6fa940a15b93  -----:------------   mar             sync services/sync
 toolkit                277655:6fa940a15b93  20592:3c76de47adb6   mar             sync toolkit
 suite                  ------:------------  20607:53f8ab1d339d   mar             sync suite
-
+mobile                 277725:8a02ad48b05f  -----:------------   Kechol          sync mobile
