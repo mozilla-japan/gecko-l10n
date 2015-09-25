@@ -43,7 +43,7 @@
 <!ENTITY syncDeviceName.label       "端末名:">
 <!ENTITY syncDeviceName.accesskey   "c">
 <!ENTITY fxaSyncDeviceName.label    "端末名">
-<!ENTITY changeSyncDeviceName.label "変更する端末名...">
+<!ENTITY changeSyncDeviceName.label "端末名を変更...">
 <!ENTITY cancelChangeSyncDeviceName.label "キャンセル">
 <!ENTITY saveChangeSyncDeviceName.label   "保存">
 <!ENTITY unlinkDevice.label           "この端末を切り離す">
