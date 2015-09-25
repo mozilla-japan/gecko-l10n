@@ -1,6 +1,6 @@
 # Gecko 日本語ローカライズ
 
-このリポジトリでは Firefox, Thunderbird, Firefox OS などで使用されている Gecko エンジンおよび製品 (Firefox, Android 版 Firefox, Thunderbird, Lightning, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に ja (Mac 以外), ja-JP-mac (Mac) それぞれのリソースファイルを生成し、hg.mozilla.org のリポジトリに push することで実際の製品に反映されます。
+このリポジトリでは、Firefox, Thunderbird, Firefox OS などで使用されている Gecko エンジンおよび製品 (Firefox, Android 版 Firefox, Thunderbird, Lightning, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に ja (Windows, Linux などの Mac 以外), ja-JP-mac (Mac) それぞれのリソースファイルを生成し、hg.mozilla.org のリポジトリに push することで実際の製品に反映されます。
 
 ## フィードバックの送り方
 
@@ -14,7 +14,7 @@ Mozilla 製品のローカライズに問題を見つけたり気になる点が
 * [Mozilla L10N フォーラム](http://forums.firehacks.org/l10n/)
   * GitHub アカウントをお持ちで無い場合は L10N フォーラムにゲスト投稿することもできます。
 * 個人的にコンタクト
-  * Issues などに書いた方が取りこぼしがなくて良いのですが、メールや SNS のメッセージで日本語ローカライズチームのメンバーに直接連絡いただいても問題ありません。メンバーリストは [mozilla wiki の L10n:Teams:ja ページ](https://wiki.mozilla.org/L10n:Teams:ja) を参照してください。
+  * Issues などに書いたほうが取りこぼしがなくて良いのですが、メールや SNS のメッセージで日本語ローカライズチームのメンバーに直接連絡いただいても問題ありません。メンバーリストは [mozilla wiki の L10n:Teams:ja ページ](https://wiki.mozilla.org/L10n:Teams:ja) を参照してください。
 
 ## ブランチとマージ
 
@@ -43,7 +43,7 @@ git open ja/path/to/file/to/edit
 git status
 git diff
 // 変更を master にコミットしてプッシュ (同時に Issue #XXX をクローズ)
-git commit -m "update something (close #XXX)"
+git commit -a -m "update something (close #XXX)"
 git push
 
 // 以下、ブランチにも修正を反映したい場合
@@ -60,14 +60,24 @@ git push
 
 ## L10n 関連リポジトリ
 
-* Firefox, Thunderbird
-  * Nightly: https://hg.mozilla.org/l10n-central/ja/ / https://hg.mozilla.org/l10n-central/ja-JP-mac/
-  * Developer Edition: https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja/ / https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja-JP-mac/
-  * Beta: https://hg.mozilla.org/releases/l10n/mozilla-beta/ja/ / https://hg.mozilla.org/releases/l10n/mozilla-beta/ja-JP-mac/
-  * Release: https://hg.mozilla.org/releases/l10n/mozilla-release/ja/ / https://hg.mozilla.org/releases/l10n/mozilla-release/ja-JP-mac/
+* Firefox, Thunderbird, Lightning, SeaMonkey
+  * Nightly:
+    * https://hg.mozilla.org/l10n-central/ja/
+    * https://hg.mozilla.org/l10n-central/ja-JP-mac/
+  * Developer Edition:
+    * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja/
+    * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja-JP-mac/
+  * Beta:
+    * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja/
+    * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja-JP-mac/
+  * Release:
+    * https://hg.mozilla.org/releases/l10n/mozilla-release/ja/
+    * https://hg.mozilla.org/releases/l10n/mozilla-release/ja-JP-mac/
 * Firefox OS (Gaia)
   * https://github.com/mozilla-japan/gaia-l10n
   * https://hg.mozilla.org/gaia-l10n/ja/
   * (v2.2) https://hg.mozilla.org/releases/gaia-l10n/v2_2/ja/
+* Firefox for iOS
+  * http://viewvc.svn.mozilla.org/vc/projects/l10n-misc/trunk/firefox-ios/ja/
 * Localization Tools (lot)
   * https://github.com/mozilla-japan/lot
