@@ -197,14 +197,14 @@
 <!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
 <!ENTITY pref_cookies_disabled "無効">
 
-<!ENTITY pref_tracking_protection_title "トラッキングプロテクション">
+<!ENTITY pref_tracking_protection_title "トラッキング保護">
 <!ENTITY pref_tracking_protection_summary3 "プライベートブラウジングが有効になりました">
 
 <!ENTITY pref_donottrack_title "トラッキング拒否">
 <!ENTITY pref_donottrack_summary "&brandShortName; はトラッキングの拒否をサイトに通知します">
 
 <!ENTITY tracking_protection_prompt_title "トラッキング保護を有効化">
-<!ENTITY tracking_protection_prompt_text "あなたを心配させないために、積極的にトラッキングする要素をブロックします。">
+<!ENTITY tracking_protection_prompt_text "プライバシー確保のため、オンライン行動を追跡する要素の読み込みをブロックします。">
 <!ENTITY tracking_protection_prompt_tip_text "詳細はプライバシー設定をご確認ください">
 <!ENTITY tracking_protection_prompt_action_button "了解！">
 
