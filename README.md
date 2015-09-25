@@ -58,6 +58,16 @@ git cherry-pick *******
 git push
 ```
 
+## リファレンス
+
+* ガイドライン
+  * [L10n ガイドライン](https://github.com/mozilla-japan/translation/wiki/L10N-Guideline)
+* 専門用語集
+  * [Mozilla 用語集](https://github.com/mozilla-japan/translation/wiki/Mozilla-L10N-Glossary)
+  * [Firefox OS 用語集](https://github.com/mozilla-japan/translation/wiki/Firefox-OS-Glossary)
+* 一般的な用字用語について
+  * [共同通信社 記者ハンドブック](http://www.kyodo.co.jp/kkservice/HB/)
+
 ## L10n 関連リポジトリ
 
 * Firefox, Thunderbird, Lightning, SeaMonkey
