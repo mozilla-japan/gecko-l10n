@@ -43,7 +43,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.autoPrettyPrint): This is the label for the
   -  checkbox that toggles auto pretty print. -->
-<!ENTITY debuggerUI.autoPrettyPrint     "自動的にソースを小さく整形">
+<!ENTITY debuggerUI.autoPrettyPrint     "最小化されたソースを自動的に整形表示">
 <!ENTITY debuggerUI.autoPrettyPrint.accesskey "P">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.toggleBreakpoints): This is the tooltip for the
@@ -98,7 +98,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.autoBlackBox): This is the label for
   -  the checkbox that toggles whether sources that we suspect are minified are
   -  automatically black boxed or not. -->
-<!ENTITY debuggerUI.autoBlackBox           "圧縮されたソースを自動的にブラックボックス化する">
+<!ENTITY debuggerUI.autoBlackBox           "最小化されたソースを自動的にブラックボックス化する">
 <!ENTITY debuggerUI.autoBlackBox.accesskey "B">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchPanelOperators): This is the text that
