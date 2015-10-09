@@ -633,6 +633,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY closeCmd.key                   "W">  
 <!ENTITY closeCmd.accesskey             "C">
 
+<!ENTITY toggleMuteCmd.key              "M">
+
 <!ENTITY pageStyleMenu.label			"スタイルシート">
 <!ENTITY pageStyleMenu.accesskey		"y">
 <!ENTITY pageStyleNoStyle.label			"スタイルシートを使用しない">
@@ -839,18 +841,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY emeNotificationsNotNow.accesskey         "N">
 <!ENTITY emeNotificationsDontAskAgain.label       "次回からは確認しない">
 <!ENTITY emeNotificationsDontAskAgain.accesskey   "D">
-
-<!ENTITY readingList.label                        "後で読む">
-<!ENTITY readingList.sidebar.commandKey           "R">
-<!ENTITY readingList.showSidebar.label            "後で読むサイドバーを表示">
-<!-- Pre-landed string for bug 1124153 -->
-<!ENTITY readingList.sidebar.showMore.label       "さらに表示...">
-<!-- Pre-landed string for bug 1133662 -->
-<!ENTITY readingList.sidebar.emptyText            "後で必要なときにすぐに記事を見つけられるように、後で読むリストに追加します。">
-<!ENTITY readingList.sidebar.delete.tooltip       "後で読むリストから削除します">
-<!-- Pre-landed strings for bug 1123519 -->
-<!ENTITY readingList.sidebar.add.label            "後で読むリストに追加">
-<!ENTITY readingList.sidebar.add.tooltip          "後で読むリストに追加します">
 
 <!-- LOCALIZATION NOTE (saveToPocketCmd.label, saveLinkToPocketCmd.label, pocketMenuitem.label): Pocket is a brand name -->
 <!ENTITY saveToPocketCmd.label			"Pocket にページを保存">

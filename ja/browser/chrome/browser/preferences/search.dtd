@@ -9,6 +9,9 @@
 <!ENTITY provideSearchSuggestions.label        "検索候補を使用する">
 <!ENTITY provideSearchSuggestions.accesskey    "s">
 
+<!ENTITY showURLBarSuggestions.label           "URL バーに検索候補を表示する">
+<!ENTITY showURLBarSuggestions.accesskey       "l">
+
 <!ENTITY redirectWindowsSearch.label           "Windows からの検索に、この検索エンジンを使う">
 <!ENTITY redirectWindowsSearch.accesskey       "W">
 

@@ -4,12 +4,15 @@
 
 <!ENTITY tracking.label                 "トラッキング (行動追跡)">
 
-<!ENTITY dntTrackingNotOkay.label2      "トラッキングの拒否をサイトに通知する">
-<!ENTITY dntTrackingNotOkay.accesskey   "n">
-<!ENTITY trackingProtection.label       "サイトによるトラッキングをブロックする">
-<!ENTITY trackingProtection.accesskey   "m">
+<!ENTITY dntTrackingNotOkay4.label     "サイトにトラッキングしないよう要求する">
+<!ENTITY dntTrackingNotOkay4.accesskey "n">
+<!ENTITY doNotTrackInfo.label          "詳細">
+<!ENTITY trackingProtection5.label     "サイトによるトラッキングをブロックする">
+<!ENTITY trackingProtection5.accesskey "i">
 <!ENTITY trackingProtectionLearnMore.label "詳細">
-<!ENTITY doNotTrackInfo.label           "詳細">
+<!ENTITY trackingProtectionPBM5.label         "プライベート@@Window@@でサイトによるトラッキングをブロックする">
+<!ENTITY trackingProtectionPBM5.accesskey     "v">
+<!ENTITY trackingProtectionPBMLearnMore.label "詳細">
 
 <!ENTITY  history.label                 "履歴">
 
@@ -24,6 +27,9 @@
 <!ENTITY  locbar.openpage.accesskey     "O">
 <!ENTITY  locbar.searches.label         "@@Default-@@検索エンジンからの関連候補">
 <!ENTITY  locbar.searches.accesskey     "d">
+
+<!ENTITY  suggestionSettings.label      "検索エンジンの検索候補の設定を変更...">
+<!ENTITY  suggestionSettings.accesskey  "g">
 
 <!ENTITY  acceptCookies.label           "サイトから送られてきた Cookie を保存する">
 <!ENTITY  acceptCookies.accesskey       "A">
