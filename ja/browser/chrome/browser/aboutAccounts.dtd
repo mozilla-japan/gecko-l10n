@@ -8,4 +8,4 @@
 <!ENTITY aboutAccountsConfig.description	"サインインするとタブやブックマークやパスワードなどを同期できます。">
 <!ENTITY aboutAccountsConfig.startButton.label	"始める">
 <!ENTITY aboutAccountsConfig.useOldSync.label	"古いバージョンの Sync をお使いですか？">
-<!ENTITY aboutAccountsConfig.syncPreferences.label "Sync の設定">
+<!ENTITY aboutAccountsConfig.syncPreferences.label "Sync 設定">

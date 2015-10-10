@@ -637,3 +637,4 @@ services/sync          277655:6fa940a15b93  -----:------------   mar            
 toolkit                277655:6fa940a15b93  20592:3c76de47adb6   mar             sync toolkit
 suite                  ------:------------  20607:53f8ab1d339d   mar             sync suite
 mobile                 277725:8a02ad48b05f  -----:------------   Kechol          sync mobile
+browser, webapprt      277724:b0e20ff87b17  -----:------------   hATrayflood,mar sync browser (exclude devtools)
