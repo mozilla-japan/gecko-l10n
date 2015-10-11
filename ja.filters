@@ -150,7 +150,6 @@ ja.SaveMessageAs			= 名前を付けてメッセージを保存
 ja.SavePageAs				= 名前を付けてページを保存
 ja.SaveVideoAs				= 名前を付けて動画を保存
 ja.SaveViewAs				= 名前を付けてビューを保存
-ja.SavePresetAs				= 名前を付けてフィルタのプリセットを保存
 
 ja-JP-mac.Save-AsCMD			= 別名で
 ja-JP-mac.SaveAs			= 別名で保存
@@ -162,7 +161,6 @@ ja-JP-mac.SaveMessageAs			= 別名でメッセージを保存
 ja-JP-mac.SavePageAs			= 別名でページを保存
 ja-JP-mac.SaveVideoAs			= 別名で動画を保存
 ja-JP-mac.SaveViewAs			= 別名でビューを保存
-ja-JP-mac.SavePresetAs			= 別名でフィルタのプリセットを保存
 
 
 # Import/Export の使い分け
