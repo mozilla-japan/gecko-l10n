@@ -28,11 +28,11 @@
 <!-- LOCALIZATION NOTE (performanceUI.disabledRealTime.disabledE10S): This string
   -  is displayed as a message for why the real time overview graph is disabled
   -  when running on a build that can run multiprocess Firefox, but just is not enabled. -->
-<!ENTITY performanceUI.disabledRealTime.disabledE10S "記録データのリアルタイム表示を有効にするには、設定でマルチプロセス Firefox を有効にします。">
+<!ENTITY performanceUI.disabledRealTime.disabledE10S "記録データのリアルタイム表示を有効にするには、設定でマルチプロセス Firefox を有効にしてください。">
 
 <!-- LOCALIZATION NOTE (performanceUI.bufferStatusFull): This string
   -  is displayed when the profiler's circular buffer has started to overlap. -->
-<!ENTITY performanceUI.bufferStatusFull "バッファ容量が限界に達したため、古いサンプルを上書きしていきます。">
+<!ENTITY performanceUI.bufferStatusFull "バッファ容量が限界に達したため、古いサンプルが上書されます。">
 
 <!-- LOCALIZATION NOTE (performanceUI.loadingNotice): This is the label shown
   -  in the call list view while loading a profile. -->
