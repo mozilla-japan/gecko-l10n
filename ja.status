@@ -600,7 +600,7 @@ toolkit                255347:a3c2c1c0ebab  19953:b838face42ae   mar            
 suite                  ------:------------  19936:f7f421f6c3a2   hATrayflood     sync suite
 
 
-Released! [l10n-mozilla-40.0] (for beta)
+Released! [l10n-mozilla-40.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 chat, mail             ------:------------  20195:ec7eca9216f8   mar             sync chat, mail
@@ -614,7 +614,7 @@ webapprt               262214:18286de4be87  -----:------------   hATrayflood    
 browser                262737:21a6400612db  -----:------------   hATrayflood     sync browser
 
 
-[l10n-mozilla-41.0] (for beta)
+Released! [l10n-mozilla-41.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 chat, mail             ------:------------  20378:093d47752c1c   mar             sync chat, mail
@@ -627,7 +627,7 @@ webapprt               270627:d561dc208e61  -----:------------   hATrayflood    
 browser                270627:d561dc208e61  -----:------------   hATrayflood     sync browser
 
 
-[l10n-mozilla-42.0] (for aurora)
+[l10n-mozilla-42.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security          277303:66e9b94c4066  20575:46c5b0f447ee   mar             sync dom, security
@@ -639,3 +639,10 @@ suite                  ------:------------  20607:53f8ab1d339d   mar            
 mobile                 277725:8a02ad48b05f  -----:------------   Kechol          sync mobile
 browser, webapprt      277724:b0e20ff87b17  -----:------------   hATrayflood,mar sync browser (exclude devtools)
 browser/devtools       277724:b0e20ff87b17  -----:------------   hATrayflood     sync browser/devtools
+
+
+[l10n-mozilla-43.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar               ------:------------  20796:028296504d15   mar             sync calendar
+
