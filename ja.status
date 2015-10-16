@@ -645,4 +645,5 @@ browser/devtools       277724:b0e20ff87b17  -----:------------   hATrayflood    
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  20796:028296504d15   mar             sync calendar
-
+chat                   ------:------------  20796:028296504d15   mar             sync chat
+editor/ui              ------:------------  20796:028296504d15   mar             sync editor/ui
