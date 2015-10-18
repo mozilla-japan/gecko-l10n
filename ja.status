@@ -647,3 +647,5 @@ target dir             mozilla and comm hg changeset rev:id      by             
 calendar               ------:------------  20796:028296504d15   mar             sync calendar
 chat                   ------:------------  20796:028296504d15   mar             sync chat
 editor/ui              ------:------------  20796:028296504d15   mar             sync editor/ui
+mail                   ------:------------  20799:8165741237fb   mar             sync mail
+

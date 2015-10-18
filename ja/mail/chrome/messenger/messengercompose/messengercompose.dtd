@@ -216,6 +216,7 @@
 <!ENTITY addressButton.tooltip		"アドレス帳から宛先を選択します">
 <!ENTITY attachButton.tooltip		"このメッセージにファイルを添付します">
 <!ENTITY spellingButton.tooltip		"選択したテキストまたはメッセージ全体のスペルチェックをします">
+<!ENTITY statusLanguageText.tooltip	"スペルチェックの言語">
 <!ENTITY saveButton.tooltip		"このメッセージを保存します">
 <!ENTITY cutButton.tooltip		"@@Cut@@">
 <!ENTITY copyButton.tooltip		"コピー">
