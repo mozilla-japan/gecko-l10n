@@ -22,17 +22,17 @@
 <!ENTITY noAltText.label		"代替テキストを使用しない">
 <!ENTITY noAltText.accessKey		"D">
 
-<!ENTITY previewBox.label		"画像のプレビュー">
+<!ENTITY previewBox.label		"画像プレビュー">
 
 <!-- These controls are in the Dimensions tab panel -->
 <!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
-<!ENTITY actualSize.label		"実際のサイズ:">
-<!ENTITY actualSizeRadio.label		"実際のサイズ">
+<!ENTITY actualSize.label		"元の寸法:">
+<!ENTITY actualSizeRadio.label		"元の寸法">
 <!ENTITY actualSizeRadio.accessKey	"A">
-<!ENTITY actualSizeRadio.tooltip	"画像を実際のサイズに戻します">
-<!ENTITY customSizeRadio.label		"カスタムサイズ"><!-- (^^; -->
+<!ENTITY actualSizeRadio.tooltip	"画像を元の寸法に戻します">
+<!ENTITY customSizeRadio.label		"指定寸法">
 <!ENTITY customSizeRadio.accessKey	"S">
-<!ENTITY customSizeRadio.tooltip	"ページに表示されるときの画像サイズを変更します">
+<!ENTITY customSizeRadio.tooltip	"ページに表示されるときの画像寸法を変更します">
 <!ENTITY heightEditField.label		"高さ:">
 <!ENTITY heightEditField.accessKey	"G">
 <!ENTITY widthEditField.label		"幅:">
@@ -73,6 +73,6 @@
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label		"フォーム">
 <!ENTITY imageLocationTab.label		"場所(URL)">
-<!ENTITY imageDimensionsTab.label	"大きさ"><!-- (^^; Dimensions -->
+<!ENTITY imageDimensionsTab.label	"寸法">
 <!ENTITY imageAppearanceTab.label	"表示">
 <!ENTITY imageLinkTab.label		"リンク">

@@ -6,7 +6,7 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label		"水平線の@@Property@@">
 
-<!ENTITY dimensionsBox.label		"大きさ">
+<!ENTITY dimensionsBox.label		"寸法">
 <!ENTITY heightEditField.label		"高さ:">
 <!ENTITY heightEditField.accessKey	"G">
 <!ENTITY widthEditField.label		"幅:">

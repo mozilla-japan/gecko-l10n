@@ -171,7 +171,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.response.dimensions): This is the label displayed
   -  in the network details response tab identifying an image's dimensions. -->
-<!ENTITY netmonitorUI.response.dimensions "大きさ:">
+<!ENTITY netmonitorUI.response.dimensions "寸法:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.response.mime): This is the label displayed
   -  in the network details response tab identifying an image's mime. -->
