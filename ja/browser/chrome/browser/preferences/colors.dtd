@@ -6,7 +6,7 @@
 <!ENTITY  window.width                    "38em">
 <!ENTITY  window.macWidth                 "41em">
 
-<!ENTITY  overridePageColors.label        "選択した@@Colors@@を Web ページが指定した@@Colors@@で上書きする:">
+<!ENTITY  overridePageColors.label        "Web ページが指定した@@Colors@@を選択した@@Colors@@で上書きする:">
 <!ENTITY  overridePageColors.accesskey    "O">
 
 <!ENTITY  overridePageColors.always.label "常に">
