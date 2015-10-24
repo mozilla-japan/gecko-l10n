@@ -24,7 +24,7 @@
 <!ENTITY popups.label "ポップアップ@@Window@@">
 <!ENTITY passwords.label "パスワード">
 <!ENTITY masterpass.label "マスターパスワード">
-<!ENTITY ssl.label "SSL">
+<!ENTITY ssltls.label "SSL/TLS">
 <!ENTITY certs.label "証明書">
 <!ENTITY sync.label "Sync">
 <!ENTITY advance.label "詳細">
