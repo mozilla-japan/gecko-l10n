@@ -651,4 +651,5 @@ mail                   ------:------------  20799:8165741237fb   mar            
 suite                  ------:------------  20800:eb9521ff7e3c   mar             sync suite
 dom, services/sync     284631:68f165595f3a  20800:eb9521ff7e3c   mar             sync dom, services/sync
 toolkit                284635:577654e32aa8  20802:e768cc217a1a   mar             sync toolkit
+irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.92
 
