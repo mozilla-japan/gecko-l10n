@@ -198,7 +198,7 @@
 <!ENTITY pref_cookies_disabled "無効">
 
 <!ENTITY pref_tracking_protection_title "トラッキング保護">
-<!ENTITY pref_tracking_protection_summary3 "プライベートブラウジングが有効になりました">
+<!ENTITY pref_tracking_protection_summary3 "プライベートブラウジング中に有効になります">
 
 <!ENTITY pref_donottrack_title "トラッキング拒否">
 <!ENTITY pref_donottrack_summary "&brandShortName; はトラッキングの拒否をサイトに通知します">
