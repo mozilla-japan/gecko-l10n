@@ -6,11 +6,21 @@
 <!ENTITY  no_space_to_start_error "&brandShortName; を起動するために必要な空き領域が不足しています。">
 <!ENTITY  error_loading_file "&brandShortName; の起動に必要なファイルを読み込めませんでした">
 
+<!ENTITY firstrun_panel_title_welcome "ようこそ">
 <!ENTITY  onboard_start_message3 "&brandShortName; とブラウジング">
 <!ENTITY  onboard_start_subtext3 "モバイルの Web ブラウジング体験をあなたぴったりのものに。">
 <!ENTITY  onboard_start_button_account "&brandShortName; にログイン">
 <!ENTITY  onboard_start_button_browser "ブラウジングを始める">
+<!ENTITY firstrun_button_next "次へ">
+
 <!ENTITY  onboard_start_restricted1 "シンプルなバージョンの &brandShortName; は管理しやすく、安全にご利用いただけます。">
+
+<!ENTITY firstrun_import_title "@@Import@@">
+<!ENTITY firstrun_import_message "&brandShortName; へようこそ">
+<!ENTITY firstrun_import_subtext "ほかのブラウザからブックマークと閲覧履歴を@@Import@@しましょう。">
+<!ENTITY firstrun_import_action "&brandShortName; へ移行する">
+<!ENTITY firstrun_import_dialog_button "移行する">
+<!ENTITY firstrun_import_progress_title "移行しています">
 
 <!-- Localization note: These are used as the titles of different pages on the home screen.
      They are automatically converted to all caps by the Android platform. -->
@@ -55,8 +65,9 @@
 
 <!ENTITY history_today_section "今日">
 <!ENTITY history_yesterday_section "昨日">
-<!ENTITY history_week_section2 "先週">
-<!ENTITY history_older_section2 "先月">
+<!ENTITY history_week_section3 "直近7日間">
+<!ENTITY history_this_month_section "今月">
+<!ENTITY history_older_section3 "半年以上前">
 
 <!ENTITY go "移動">
 <!ENTITY search "検索">
@@ -69,8 +80,6 @@
 <!ENTITY edit_mode_cancel "キャンセル">
 
 <!ENTITY close_tab "タブを閉じる">
-<!ENTITY tab_audio_playing "このタブは音声を流しています">
-<!ENTITY tab_audio_muted "このタブはミュートされています">
 <!ENTITY one_tab "1 個のタブ">
 <!-- Localization note (num_tabs2) : Number of tabs is always more than one.
      We can't use android plural forms, sadly. See bug #753859. -->
@@ -81,6 +90,14 @@
      as possible because it's shown as a label in a toast.  Ideally, this string
      is upper-case, to match Google and Android's convention. -->
 <!ENTITY switch_button_message "切り替え">
+<!-- Localization note (tab_title_prefix_is_playing_audio): This string is not
+     visible in the UI, but rather used as a text-to-speech content description
+     for sight-impaired a11y users. The content description is set on a tab
+     title in a list of open tabs when content in that tab is playing audio.
+     &formatS; will be replaced with the title of the tab, as received from the
+     web page. When audio is not playing in a tab, &formatS; will be used as
+     the content description. -->
+<!ENTITY tab_title_prefix_is_playing_audio "音声を再生中 - &formatS;">
 
 <!ENTITY settings "設定">
 <!ENTITY settings_title "設定">
@@ -127,13 +144,12 @@
      to send a tab to a synced device is pressed and no other synced devices
      are found. -->
 <!ENTITY overlay_no_synced_devices "Firefox アカウントが接続されたデバイスが見つかりませんでした">
-<!-- Localization note (overlay_share_tab_not_sent) : Used when the menu option
-     to send a tab to a synced device is pressed and there is an error
-     connecting to the server so the tab could not be sent. The text should be
-     divided into two lines (use the newline escape character, "\n", between
-     them): the first notifying the user about the failure and the second
-     telling the user what to do about it. -->
-<!ENTITY overlay_share_tab_not_sent "ページを送信できませんでした。後ほど再度お試しください。">
+
+<!-- Localization note (menu_no_synced_devices): Used in a toast when the user
+     clicks on the button to send a tab to another device and there are no
+     other devices present. This label should briefly inform the user that they
+     need another connected device in order to use the feature. -->
+<!ENTITY menu_no_synced_devices "このタブを他のデバイスに送信する">
 
 <!ENTITY pref_category_search3 "検索">
 <!ENTITY pref_category_search_summary "検索プロバイダをカスタマイズ">
@@ -182,6 +198,9 @@
 <!ENTITY pref_home_updates_wifi "Wi-Fi のみ有効">
 <!ENTITY pref_home_suggested_sites "おすすめのサイトを表示">
 <!ENTITY pref_home_suggested_sites_summary "ホームページにサイトのショートカットを表示することで、興味のあるものを見つけるのに役立ちます">
+<!ENTITY pref_category_home_homepage "ホームページ">
+<!ENTITY home_homepage_title "ホームページを設定">
+<!ENTITY home_homepage_use_current_tab "現在のタブを使う">
 
 <!-- Localization note: These are shown in the left sidebar on tablets -->
 <!ENTITY pref_header_customize "カスタマイズ">
@@ -197,11 +216,17 @@
 <!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
 <!ENTITY pref_cookies_disabled "無効">
 
+<!ENTITY pref_tap_to_load_images_title "タップして画像を読み込み">
+<!ENTITY pref_tap_to_load_images_summary2 "画像を長押しした時のみ、その画像を読み込みます">
+
 <!ENTITY pref_tracking_protection_title "トラッキング保護">
 <!ENTITY pref_tracking_protection_summary3 "プライベートブラウジング中に有効になります">
-
 <!ENTITY pref_donottrack_title "トラッキング拒否">
 <!ENTITY pref_donottrack_summary "&brandShortName; はトラッキングの拒否をサイトに通知します">
+
+<!ENTITY pref_tracking_protection_enabled "有効">
+<!ENTITY pref_tracking_protection_enabled_pb "プライベートブラウジング中に有効">
+<!ENTITY pref_tracking_protection_disabled "無効">
 
 <!ENTITY tracking_protection_prompt_title "トラッキング保護を有効化">
 <!ENTITY tracking_protection_prompt_text "プライバシー確保のため、オンライン行動を追跡する要素の読み込みをブロックします。">
@@ -238,7 +263,6 @@
 <!ENTITY pref_plugins_tap_to_play "タップして実行">
 <!ENTITY pref_plugins_disabled "無効化">
 <!ENTITY pref_text_size "テキストサイズ">
-<!ENTITY pref_reflow_on_zoom4 "テキストの再配置">
 <!ENTITY pref_restore "タブ">
 <!ENTITY pref_restore_always "常に復元">
 <!ENTITY pref_restore_quit "&brandShortName; の終了後、復元しない">
@@ -272,6 +296,7 @@ size. -->
 <!ENTITY pref_sync "Firefox Sync で同期">
 <!ENTITY pref_sync_summary2 "タブ、ブックマーク、ログイン情報、閲覧履歴を同期する">
 <!ENTITY pref_search_suggestions "検索語句の候補を表示">
+<!ENTITY pref_history_search_suggestions "検索履歴を表示">
 <!ENTITY pref_import_android "Android から@@Import-suru@@">
 <!ENTITY pref_import_android_summary "ネイティブブラウザからブックマークや履歴を@@Import-suru@@">
 <!ENTITY pref_private_data_history2 "閲覧履歴">
@@ -348,6 +373,7 @@ size. -->
 <!ENTITY share_title "共有方法を選択">
 <!ENTITY share_image_failed "この画像を共有できません">
 <!ENTITY save_as_pdf "PDF として保存">
+<!ENTITY print "印刷">
 <!ENTITY find_in_page "ページ内検索">
 <!ENTITY desktop_mode "PC サイトモード">
 <!ENTITY page "ページ">
@@ -392,6 +418,8 @@ size. -->
 <!ENTITY contextmenu_top_sites_pin "サイトをピン留め">
 <!ENTITY contextmenu_top_sites_unpin "サイトのピンを外す">
 <!ENTITY contextmenu_add_search_engine "検索エンジンの追加">
+<!ENTITY contextmenu_mark_read "既読にする">
+<!ENTITY contextmenu_mark_unread "未読にする">
 
 <!-- Localization note (doorhanger_login_no_username): This string is used in the save-login doorhanger
      where normally a username would be displayed. In this case, no username was found, and this placeholder
@@ -414,8 +442,8 @@ size. -->
 
 <!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
      whether or not the magnifying glass is disabled. -->
-<!ENTITY pref_prevent_magnifying_glass "拡大鏡を無効にする">
-<!ENTITY pref_prevent_magnifying_glass_summary "あいまいなスクリーンタッチの精度を上げるために拡大鏡の利用を中止します">
+<!ENTITY pref_magnifying_glass_enabled "小さい領域を拡大する">
+<!ENTITY pref_magnifying_glass_enabled_summary "リンクやフォームのフィールドの近くをタップしたときにそれらを拡大します">
 
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
@@ -474,8 +502,6 @@ size. -->
 <!ENTITY button_set "設定">
 <!ENTITY button_clear "消去">
 <!ENTITY button_copy "コピー">
-
-<!ENTITY firstrun_panel_title_welcome "ようこそ">
 
 <!ENTITY home_top_sites_title "トップサイト (よく見るページ)">
 <!-- Localization note (home_top_sites_add): This string is used as placeholder
@@ -563,16 +589,13 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_secure "安全な接続">
 <!ENTITY identity_connection_insecure "安全でない接続">
+<!ENTITY identity_login_insecure "このページは安全ではないため、ログイン情報を抜き取られてしまう可能性があります。">
 
 <!-- Mixed content notifications in site identity popup -->
-<!ENTITY mixed_content_blocked_all "&brandShortName; はこのページの安全でない要素をブロックしました。">
-<!ENTITY mixed_content_blocked_some "&brandShortName; はこのページの安全でない要素のいくつかをブロックしました。">
-<!ENTITY mixed_content_display_loaded "このページには安全でない要素が含まれています。">
-<!ENTITY mixed_content_protection_disabled "安全でない要素からの保護を無効にしました。">
-
-<!ENTITY loaded_mixed_content_message "このページは安全でないコンテンツを表示しようとしています。">
-<!ENTITY blocked_mixed_content_message_top "&brandShortName; は安全でないコンテンツをブロックしました。">
-<!ENTITY blocked_mixed_content_message_bottom "ほとんどの Web サイトはこのコンテンツをブロックしても正しく動作します。">
+<!ENTITY mixed_content_blocked_all1 "&brandShortName; はこのページの安全でないコンテンツをブロックしました。">
+<!ENTITY mixed_content_blocked_some1 "&brandShortName; はこのページに含まれる安全でないコンテンツの一部をブロックしました。">
+<!ENTITY mixed_content_display_loaded1 "このページの一部 (画像など) は安全ではありません。">
+<!ENTITY mixed_content_protection_disabled1 "安全でないコンテンツからの保護を無効にしました。">
 
 <!-- Tracking content notifications in site identity popup -->
 <!ENTITY doorhanger_tracking_title "トラッキング保護">
@@ -630,7 +653,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_apply_select2 "タッチして更新を開始します">
 
 <!-- Guest mode -->
-<!ENTITY new_guest_session "@@New-CMD@@ゲストセッション">
+<!ENTITY new_guest_session "時@@New-CMD@@ゲストセッション">
 <!ENTITY exit_guest_session "ゲストセッション終了">
 <!ENTITY guest_session_dialog_continue "続行">
 <!ENTITY guest_session_dialog_cancel "キャンセル">
@@ -682,6 +705,19 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY find_matchcase "Aa">
 
 <!ENTITY intent_uri_cannot_open "リンクを開くことができません">
+<!-- LOCALIZATION NOTE (intent_uri_private_browsing_prompt): This string will
+     appear in an alert when a user, who is currently in private browsing,
+     clicks a link that will open an external Android application. "&formatS;"
+     will be replaced with the name of the application that will be opened. -->
+<!ENTITY intent_uri_private_browsing_prompt "&formatS; でこのリンクを開こうとしています。プライベートブラウジングを終了してよろしいですか？">
+<!-- LOCALIZATION NOTE (intent_uri_private_browsing_multiple_match_title): This
+     string will appear as the title of an alert when a user, who is currently
+     in private browsing, clicks a link that will open an external Android
+     application and more than one application is available to open that link.
+     We don't have control over the style of this dialog and it looks
+     unpolished when this string is longer than one line so ideally keep it
+     short! -->
+<!ENTITY intent_uri_private_browsing_multiple_match_title "プライベートブラウジングを終了しますか？">
 
 <!-- DevTools Authentication -->
 <!-- LOCALIZATION NOTE (devtools_auth_scan_header): This header text appears
@@ -704,3 +740,15 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY restriction_disallow_clear_history_title2 "\'閲覧履歴を削除\' を無効化">
 <!ENTITY restriction_disallow_master_password_title2 "マスターパスワードを無効化">
 <!ENTITY restriction_disallow_guest_browsing_title2 "ゲストブラウジングを無効化">
+
+<!-- Default Bookmarks titles-->
+<!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
+<!ENTITY bookmarks_about_browser "Firefox: あなたのブラウザについて">
+<!-- LOCALIZATION NOTE (bookmarks_addons): link title for https://addons.mozilla.org/en-US/mobile -->
+<!ENTITY bookmarks_addons "Firefox: アドオンでカスタマイズ">
+<!-- LOCALIZATION NOTE (bookmarks_support): link title for https://support.mozilla.org/ -->
+<!ENTITY bookmarks_support "Firefox: サポート">
+<!-- LOCALIZATION NOTE (bookmarks_restricted_support): link title for https://support.mozilla.org/kb/controlledaccess -->
+<!ENTITY bookmarks_restricted_support2 "Android タブレットでの制限つきプロファイルについての Firefox ヘルプ">
+<!-- LOCALIZATION NOTE (bookmarks_restricted_webmaker):link title for https://webmaker.org -->
+<!ENTITY bookmarks_restricted_webmaker "Web について学びましょう: Mozilla Webmaker">
