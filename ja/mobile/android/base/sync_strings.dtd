@@ -223,7 +223,7 @@
 <!ENTITY fxaccount_status_linktos 'サービス利用規約'>
 <!ENTITY fxaccount_status_linkprivacy '個人情報保護方針'>
 <!ENTITY fxaccount_status_more 'さらに詳しく...'>
-<!ENTITY fxaccount_remove_account '接続解除 &ellipsis;'>
+<!ENTITY fxaccount_remove_account '接続解除...'>
 
 <!ENTITY fxaccount_remove_account_dialog_title 'Firefox アカウントを削除しますか？'>
 <!ENTITY fxaccount_remove_account_dialog_message '&brandShortName; はあなたのアカウントを同期することを停止しますが、このデバイスのブラウジングデータは一切削除されません。'>

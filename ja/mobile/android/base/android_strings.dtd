@@ -65,7 +65,7 @@
 
 <!ENTITY history_today_section "今日">
 <!ENTITY history_yesterday_section "昨日">
-<!ENTITY history_week_section3 "直近7日間">
+<!ENTITY history_week_section3 "7日以内">
 <!ENTITY history_this_month_section "今月">
 <!ENTITY history_older_section3 "半年以上前">
 
@@ -373,7 +373,7 @@ size. -->
 <!ENTITY share_title "共有方法を選択">
 <!ENTITY share_image_failed "この画像を共有できません">
 <!ENTITY save_as_pdf "PDF として保存">
-<!ENTITY print "印刷">
+<!ENTITY print "@@Print@@">
 <!ENTITY find_in_page "ページ内検索">
 <!ENTITY desktop_mode "PC サイトモード">
 <!ENTITY page "ページ">
@@ -653,7 +653,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_apply_select2 "タッチして更新を開始します">
 
 <!-- Guest mode -->
-<!ENTITY new_guest_session "時@@New-CMD@@ゲストセッション">
+<!ENTITY new_guest_session "@@New-CMD@@ゲストセッション">
 <!ENTITY exit_guest_session "ゲストセッション終了">
 <!ENTITY guest_session_dialog_continue "続行">
 <!ENTITY guest_session_dialog_cancel "キャンセル">
