@@ -653,4 +653,4 @@ dom, services/sync     284631:68f165595f3a  20800:eb9521ff7e3c   mar            
 toolkit                284635:577654e32aa8  20802:e768cc217a1a   mar             sync toolkit
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.92
 mobile                 291353:bc4551debe17  -----:------------   Kechol          sync mobile
-
+browser                284692:9d3bc275a924  -----:------------   hATrayflood     sync browser (exclude devtools)
