@@ -144,12 +144,13 @@
      to send a tab to a synced device is pressed and no other synced devices
      are found. -->
 <!ENTITY overlay_no_synced_devices "Firefox アカウントが接続されたデバイスが見つかりませんでした">
-
-<!-- Localization note (menu_no_synced_devices): Used in a toast when the user
-     clicks on the button to send a tab to another device and there are no
-     other devices present. This label should briefly inform the user that they
-     need another connected device in order to use the feature. -->
-<!ENTITY menu_no_synced_devices "このタブを他のデバイスに送信する">
+<!-- Localization note (overlay_share_tab_not_sent) : Used when the menu option
+     to send a tab to a synced device is pressed and there is an error
+     connecting to the server so the tab could not be sent. The text should be
+     divided into two lines (use the newline escape character, "\n", between
+     them): the first notifying the user about the failure and the second
+     telling the user what to do about it. -->
+<!ENTITY overlay_share_tab_not_sent "ページを送信できませんでした。後ほど再度お試しください。">
 
 <!ENTITY pref_category_search3 "検索">
 <!ENTITY pref_category_search_summary "検索プロバイダをカスタマイズ">
@@ -216,17 +217,10 @@
 <!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
 <!ENTITY pref_cookies_disabled "無効">
 
-<!ENTITY pref_tap_to_load_images_title "タップして画像を読み込み">
-<!ENTITY pref_tap_to_load_images_summary2 "画像を長押しした時のみ、その画像を読み込みます">
-
 <!ENTITY pref_tracking_protection_title "トラッキング保護">
 <!ENTITY pref_tracking_protection_summary3 "プライベートブラウジング中に有効になります">
 <!ENTITY pref_donottrack_title "トラッキング拒否">
 <!ENTITY pref_donottrack_summary "&brandShortName; はトラッキングの拒否をサイトに通知します">
-
-<!ENTITY pref_tracking_protection_enabled "有効">
-<!ENTITY pref_tracking_protection_enabled_pb "プライベートブラウジング中に有効">
-<!ENTITY pref_tracking_protection_disabled "無効">
 
 <!ENTITY tracking_protection_prompt_title "トラッキング保護を有効化">
 <!ENTITY tracking_protection_prompt_text "プライバシー確保のため、オンライン行動を追跡する要素の読み込みをブロックします。">
@@ -296,7 +290,6 @@ size. -->
 <!ENTITY pref_sync "Firefox Sync で同期">
 <!ENTITY pref_sync_summary2 "タブ、ブックマーク、ログイン情報、閲覧履歴を同期する">
 <!ENTITY pref_search_suggestions "検索語句の候補を表示">
-<!ENTITY pref_history_search_suggestions "検索履歴を表示">
 <!ENTITY pref_import_android "Android から@@Import-suru@@">
 <!ENTITY pref_import_android_summary "ネイティブブラウザからブックマークや履歴を@@Import-suru@@">
 <!ENTITY pref_private_data_history2 "閲覧履歴">
@@ -589,7 +582,6 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_secure "安全な接続">
 <!ENTITY identity_connection_insecure "安全でない接続">
-<!ENTITY identity_login_insecure "このページは安全ではないため、ログイン情報を抜き取られてしまう可能性があります。">
 
 <!-- Mixed content notifications in site identity popup -->
 <!ENTITY mixed_content_blocked_all1 "&brandShortName; はこのページの安全でないコンテンツをブロックしました。">
@@ -705,19 +697,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY find_matchcase "Aa">
 
 <!ENTITY intent_uri_cannot_open "リンクを開くことができません">
-<!-- LOCALIZATION NOTE (intent_uri_private_browsing_prompt): This string will
-     appear in an alert when a user, who is currently in private browsing,
-     clicks a link that will open an external Android application. "&formatS;"
-     will be replaced with the name of the application that will be opened. -->
-<!ENTITY intent_uri_private_browsing_prompt "&formatS; でこのリンクを開こうとしています。プライベートブラウジングを終了してよろしいですか？">
-<!-- LOCALIZATION NOTE (intent_uri_private_browsing_multiple_match_title): This
-     string will appear as the title of an alert when a user, who is currently
-     in private browsing, clicks a link that will open an external Android
-     application and more than one application is available to open that link.
-     We don't have control over the style of this dialog and it looks
-     unpolished when this string is longer than one line so ideally keep it
-     short! -->
-<!ENTITY intent_uri_private_browsing_multiple_match_title "プライベートブラウジングを終了しますか？">
 
 <!-- DevTools Authentication -->
 <!-- LOCALIZATION NOTE (devtools_auth_scan_header): This header text appears
