@@ -26,6 +26,7 @@
 <!ENTITY projectMenu_showPrefs_accesskey		"e">
 <!ENTITY projectMenu_manageComponents_label		"追加のコンポーネントを管理">
 <!ENTITY projectMenu_manageComponents_accesskey		"M">
+<!ENTITY projectMenu_refreshTabs_label			"タブをリフレッシュ">
 
 <!ENTITY runtimeMenu_label				"ランタイム">
 <!ENTITY runtimeMenu_accesskey				"R">

@@ -11,24 +11,6 @@
 <!ENTITY window.title                             "Web コンソール">
 <!ENTITY browserConsole.title                     "ブラウザコンソール">
 
-<!ENTITY networkPanel.requestURLColon             "要求 URL:">
-<!ENTITY networkPanel.requestMethodColon          "要求メソッド:">
-<!ENTITY networkPanel.statusCodeColon             "ステータスコード:">
-
-<!ENTITY networkPanel.requestHeaders              "要求ヘッダ">
-<!ENTITY networkPanel.requestCookie               "送信 Cookie">
-<!ENTITY networkPanel.requestBody                 "要求ボディ">
-<!ENTITY networkPanel.requestFormData             "送信フォームデータ">
-
-<!ENTITY networkPanel.responseHeaders             "応答ヘッダ">
-<!ENTITY networkPanel.responseCookie              "受信 Cookie">
-<!ENTITY networkPanel.responseBody                "応答ボディ">
-<!ENTITY networkPanel.responseBodyCached          "キャッシュデータ">
-<!ENTITY networkPanel.responseBodyUnknownType     "不明なファイルの種類">
-<!ENTITY networkPanel.responseNoBody              "応答ボディなし">
-<!ENTITY networkPanel.responseImage               "受信画像">
-<!ENTITY networkPanel.responseImageCached         "キャッシュ画像">
-
 <!-- LOCALIZATION NOTE (saveBodies.label): You can see this string in the Web
    - Console context menu. -->
 <!ENTITY saveBodies.label     "要求ボディと応答ボディを記録">
@@ -75,6 +57,17 @@
 <!ENTITY btnConsoleLog          "ログ">
 <!ENTITY btnConsoleXhr          "XHR">
 <!ENTITY btnConsoleReflows      "リフロー">
+
+<!-- LOCALIZATION NOTE (btnServerLogging): This is used as the text of the
+  -  the toolbar. It shows or hides messages that the web developer inserted on
+  -  the page for debugging purposes, using calls on the HTTP server. -->
+<!ENTITY btnServerLogging.label       "サーバ">
+<!ENTITY btnServerLogging.tooltip     "Web サーバから受信したログ情報です">
+<!ENTITY btnServerLogging.accesskey   "S">
+<!ENTITY btnServerErrors              "エラー">
+<!ENTITY btnServerInfo                "メッセージ">
+<!ENTITY btnServerWarnings            "警告">
+<!ENTITY btnServerLog                 "ログ">
 
 <!-- LOCALIZATION NODE (btnConsoleSharedWorkers) the term "Shared Workers"
   -  should not be translated. -->

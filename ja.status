@@ -654,3 +654,4 @@ toolkit                284635:577654e32aa8  20802:e768cc217a1a   mar            
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.92
 mobile                 284677:9d3bc275a924  -----:------------   Kechol          sync mobile
 browser                284692:9d3bc275a924  -----:------------   hATrayflood     sync browser (exclude devtools)
+browser/devtools       284692:9d3bc275a924  -----:------------   hATrayflood     sync browser/devtools
