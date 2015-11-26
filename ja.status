@@ -627,7 +627,7 @@ webapprt               270627:d561dc208e61  -----:------------   hATrayflood    
 browser                270627:d561dc208e61  -----:------------   hATrayflood     sync browser
 
 
-[l10n-mozilla-42.0] (for beta)
+Released! [l10n-mozilla-42.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security          277303:66e9b94c4066  20575:46c5b0f447ee   mar             sync dom, security
@@ -641,7 +641,7 @@ browser, webapprt      277724:b0e20ff87b17  -----:------------   hATrayflood,mar
 browser/devtools       277724:b0e20ff87b17  -----:------------   hATrayflood     sync browser/devtools
 
 
-[l10n-mozilla-43.0] (for aurora)
+[l10n-mozilla-43.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  20796:028296504d15   mar             sync calendar
@@ -655,3 +655,8 @@ irc                    ------:------------  -----:------------   mar            
 mobile                 284677:9d3bc275a924  -----:------------   Kechol          sync mobile
 browser                284692:9d3bc275a924  -----:------------   hATrayflood     sync browser (exclude devtools)
 browser/devtools       284692:9d3bc275a924  -----:------------   hATrayflood     sync browser/devtools
+
+[l10n-mozilla-44.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+toolkit                291674:17f3d2ac13a4  20950:1bc813448f64   mar             sync toolkit
