@@ -4,7 +4,7 @@
 
 <!-- (^^; /browser/chrome/browser/preferences/permissions.dtd と同じ -->
 <!ENTITY window.title			"例外サイト">
-<!ENTITY window.width			"36em">
+<!ENTITY window.width			"45em">
 
 <!ENTITY treehead.sitename.label	"サイト">
 <!ENTITY treehead.status.label		"現在の設定">
@@ -17,11 +17,12 @@
 <!ENTITY block.label			"不許可">
 <!ENTITY block.accesskey		"B">
 <!ENTITY session.label			"現在のセッションのみ">
-<!ENTITY session.accesskey		"S">
+<!ENTITY session.accesskey		"n">
 <!ENTITY allow.label			"許可">
 <!ENTITY allow.accesskey		"A">
 <!ENTITY windowClose.key		"w">
 
-<!ENTITY button.close.label		"閉じる">
-<!ENTITY button.close.accesskey		"C">
-
+<!ENTITY button.cancel.label		"キャンセル">
+<!ENTITY button.cancel.accesskey	"C">
+<!ENTITY button.ok.label		"変更を保存">
+<!ENTITY button.ok.accesskey		"S">

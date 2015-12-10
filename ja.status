@@ -660,3 +660,5 @@ browser/devtools       284692:9d3bc275a924  -----:------------   hATrayflood    
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                291674:17f3d2ac13a4  20950:1bc813448f64   mar             sync toolkit
+chat, mail             ------:------------  20969:5e0f8ffa1acb   mar             sync chat, mail
+

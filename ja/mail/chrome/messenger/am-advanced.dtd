@@ -19,6 +19,7 @@
 <!ENTITY smtpListSetDefault.label	"@@DefaultValue@@に設定">
 <!ENTITY smtpListSetDefault.accesskey	"t">
 
+<!ENTITY serverDetails.label		"選択したサーバの詳細:">
 <!ENTITY serverDescription.label	"説明: ">
 <!ENTITY serverName.label		"サーバ名: ">
 <!ENTITY serverPort.label		"ポート: ">
