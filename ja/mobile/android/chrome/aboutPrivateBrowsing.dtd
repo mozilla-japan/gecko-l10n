@@ -12,7 +12,8 @@
      term. -->
 <!ENTITY privatebrowsingpage.title.normal1 "プライベートブラウジングモードではありません">
 
-<!ENTITY privatebrowsingpage.description.private4 "&brandShortName; はあなたをトラッキングから保護し、また閲覧した履歴を残しませんが、ダウンロードしたファイルと新しいブックマークはデバイスに保存されます。">
+<!ENTITY privatebrowsingpage.description.trackingProtection "&brandShortName; は、あなたのブラウジング行動をトラッキングするようなページの要素をブロックします。">
+<!ENTITY privatebrowsingpage.description.privateDetails "閲覧履歴を保存しませんが、ダウンロードしたファイルと新しいブックマークはデバイスに保存されます。">
 
 <!-- Localization note (privatebrowsingpage.description.normal2): "Private
      Browsing is capitalized in English to be consistent with our existing uses

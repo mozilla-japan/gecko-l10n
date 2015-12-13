@@ -223,6 +223,7 @@
 <!ENTITY fxaccount_status_linktos 'サービス利用規約'>
 <!ENTITY fxaccount_status_linkprivacy '個人情報保護方針'>
 <!ENTITY fxaccount_status_more 'さらに詳しく...'>
+<!ENTITY fxaccount_remove_account '接続解除...'>
 
 <!ENTITY fxaccount_remove_account_dialog_title 'Firefox アカウントを削除しますか？'>
 <!ENTITY fxaccount_remove_account_dialog_message '&brandShortName; はあなたのアカウントを同期することを停止しますが、このデバイスのブラウジングデータは一切削除されません。'>
@@ -230,7 +231,6 @@
      with the Firefox Account's email address. -->
 <!ENTITY fxaccount_remove_account_toast 'Firefox アカウント &formatS; は削除されました。'>
 
-<!ENTITY fxaccount_remove_account_menu_item 'アカウントを削除'>
 <!ENTITY fxaccount_enable_debug_mode 'デバッグモードを有効化'>
 
 <!-- Localization note: this is the name shown by the Android system
