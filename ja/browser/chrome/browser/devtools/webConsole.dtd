@@ -102,3 +102,5 @@
 <!ENTITY clearOutputCtrl.key  "L">
 <!ENTITY openInVarViewCmd.label "変数ビューで開く">
 <!ENTITY openInVarViewCmd.accesskey "V">
+<!ENTITY storeAsGlobalVar.label "グローバル変数として保存">
+<!ENTITY storeAsGlobalVar.accesskey "S">
