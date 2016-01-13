@@ -665,6 +665,7 @@ suite                  ------:------------  20969:5e0f8ffa1acb   mar            
 services/sync          291805:69905a57ac2d  20969:5e0f8ffa1acb   mar             sync services/sync
 dom, webapprt          291805:69905a57ac2d  20969:5e0f8ffa1acb   mar             sync dom, webapprt
 mobile                 291820:69905a57ac2d  -----:------------   Kechol          sync mobile
+browser                291829:4fbd53613240  -----:------------   hATrayflood     sync browser
 
 [l10n-mozilla-45.0] (for aurora)
 target dir             mozilla and comm hg changeset rev:id      by              comment

@@ -35,7 +35,12 @@
 <!ENTITY performanceUI.bufferStatusFull "バッファ容量が限界に達したため、古いサンプルが上書されます。">
 
 <!-- LOCALIZATION NOTE (performanceUI.loadingNotice): This is the label shown
-  -  in the call list view while loading a profile. -->
+  -  in the details view while the profiler is unavailable, for example, while
+  -  in Private Browsing mode. -->
+<!ENTITY performanceUI.unavailableNoticePB "プロファイルの記録は現在利用できません。プライベート@@Window@@をすべて閉じてから試してください。">
+
+<!-- LOCALIZATION NOTE (performanceUI.loadingNotice): This is the label shown
+  -  in the details view while loading a profile. -->
 <!ENTITY performanceUI.loadingNotice "読み込み中...">
 
 <!-- LOCALIZATION NOTE (performanceUI.recordButton): This string is displayed

@@ -137,6 +137,8 @@
 <!ENTITY prefs_options_autoclosebrackets_tooltip	"閉じ括弧を自動的に入力します">
 <!ENTITY prefs_options_keybindings			"キー割り当て">
 <!ENTITY prefs_options_keybindings_default		"@@Default@@">
+<!ENTITY prefs_options_autosavefiles			"ファイルの自動保存">
+<!ENTITY prefs_options_autosavefiles_tooltip		"プロジェクトを実行する前に、編集したファイルを自動的に保存します">
 
 <!-- Permissions Table -->
 <!ENTITY permissionstable_title				"許可設定一覧">
