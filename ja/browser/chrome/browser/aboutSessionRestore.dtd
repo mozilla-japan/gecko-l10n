@@ -56,5 +56,5 @@ their language.
 <!ENTITY tabgroupsmigration.learnaboutaddons    "タブグループ機能を置き換えるアドオンについて学ぶ。">
 <!ENTITY tabgroupsmigration.description2        "すべてのグループは &brandShortName; に保存されています。何も心配する必要はありません。">
 <!ENTITY tabgroupsmigration.bookmarkbutton      "ブックマーク済みのタブグループを表示">
-<!ENTITY tabgroupsmigration.restoredescription  "一部またはすべてのバックグラウンドのタブグループを選択して別の@@ Window @@に復元できます">
+<!ENTITY tabgroupsmigration.restoredescription  "一部またはすべてのバックグラウンドのタブグループを選択して別の@@Window@@に復元できます">
 
