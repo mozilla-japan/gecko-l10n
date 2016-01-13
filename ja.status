@@ -672,4 +672,5 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 security, toolkit      298132:b07f254acc0f  21227:c494ca9c666c   mar             sync security, toolkit
 calendar               ------:------------  21250:1c4e397973ec   mar             sync calendar
+dom, webapprt          298319:7f6dc6f3589b  21250:1c4e397973ec   mar             sync dom, webapprt
 
