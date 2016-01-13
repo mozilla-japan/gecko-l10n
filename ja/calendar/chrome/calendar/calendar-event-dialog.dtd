@@ -133,11 +133,14 @@
 <!ENTITY  event.menu.options.show.time.free.accesskey		"F">
 
 <!ENTITY event.invite.attendees.label			"参加者を追加...">
-<!ENTITY event.invite.attendees.accesskey		"I">
+<!ENTITY event.invite.attendees.accesskey		"Q">
 <!ENTITY event.email.attendees.label			"参加者全員にメッセージを作成...">
 <!ENTITY event.email.attendees.accesskey		"A">
 <!ENTITY event.email.tentative.attendees.label		"未確定な参加者にメッセージを作成...">
 <!ENTITY event.email.tentative.attendees.accesskey	"U">
+<!ENTITY event.remove.attendees.label			"すべての参加者を削除...">
+<!ENTITY event.remove.attendees.accesskey		"q">
+<!ENTITY event.remove.attendee.label			"参加者を削除">
 
 <!-- Toolbar -->
 <!ENTITY  event.toolbar.save.label			"保存して閉じる">
@@ -158,14 +161,14 @@
 <!ENTITY event.title.textbox.label			"件名:" >
 <!ENTITY event.title.textbox.accesskey			"I">
 <!ENTITY event.location.label				"場所:" >
-<!ENTITY event.location.accesskey			"L">
+<!ENTITY event.location.accesskey			"c">
 <!ENTITY event.categories.label				"カテゴリ:">
 <!ENTITY event.categories.accesskey			"y">
 <!ENTITY event.categories.textbox.label			"@@New-CMD@@カテゴリを追加" >
 <!ENTITY event.calendar.label				"カレンダー:" >
 <!ENTITY event.calendar.accesskey			"C">
 <!ENTITY event.attendees.label				"参加者:" >
-<!ENTITY event.attendees.accesskey			"I" >
+<!ENTITY event.attendees.accesskey			"s" >
 <!ENTITY event.alldayevent.label			"終日の予定" >
 <!ENTITY event.alldayevent.accesskey			"d">
 <!ENTITY event.from.label				"開始日時:" >
@@ -173,7 +176,7 @@
 <!ENTITY task.from.label				"着手日時:" >
 <!ENTITY task.from.accesskey				"B">
 <!ENTITY event.to.label					"終了日時:" >
-<!ENTITY event.to.accesskey				"n">
+<!ENTITY event.to.accesskey				"x">
 <!ENTITY task.to.label					"締切日時:" >
 <!ENTITY task.to.accesskey				"u">
 <!ENTITY task.status.label				"状態:" >
@@ -200,7 +203,7 @@
 <!ENTITY event.attachments.popup.removeAll.label	"すべて削除" >
 <!ENTITY event.attachments.popup.removeAll.accesskey	"A" >
 <!ENTITY event.attachments.popup.attachPage.label	"URL を添付..." ><!-- (^a^) event.menu.options.attachments.label と同じ -->
-<!ENTITY event.attachments.popup.attachPage.accesskey	"W" >
+<!ENTITY event.attachments.popup.attachPage.accesskey	"g" >
 <!ENTITY event.url.label				"関連リンク:" >
 <!ENTITY event.priority2.label				"重要度:">
 
@@ -344,11 +347,12 @@
 <!ENTITY event.attendee.role.required			"参加必須">
 <!ENTITY event.attendee.role.optional			"参加任意">
 <!ENTITY event.attendee.role.chair			"司会者">
-<!ENTITY event.attendee.role.nonparticipant		"参加者なし">
+<!ENTITY event.attendee.role.nonparticipant		"非参加者">
 <!ENTITY event.attendee.usertype.individual		"個人">
 <!ENTITY event.attendee.usertype.group			"グループ">
 <!ENTITY event.attendee.usertype.resource		"リソース">
 <!ENTITY event.attendee.usertype.room			"部屋">
+<!ENTITY event.attendee.usertype.unknown		"不明">
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label				"タイムゾーンを指定してください">

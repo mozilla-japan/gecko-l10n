@@ -150,7 +150,7 @@
 <!ENTITY calendar.task.complete.button.tooltip		"選択した ToDo を完了にします">
 <!ENTITY calendar.task.priority.button.tooltip		"重要度を変更します">
 
-<!ENTITY calendar.task.text-filter.textbox.emptytext.base		"ToDo の絞り込み... #1"><!-- #1: emptytext.keylabel.* -->
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1		"ToDo の絞り込み #1"><!-- #1: emptytext.keylabel.* -->
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac	"&lt;Ctrl+Shift+K&gt;">
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac	"&lt;&#x21E7;&#x2318;K&gt;">
 
