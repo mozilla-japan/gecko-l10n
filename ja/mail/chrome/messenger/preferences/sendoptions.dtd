@@ -4,6 +4,8 @@
 
 <!ENTITY dialog.title			"送信テキスト形式">
 <!ENTITY sendMail.title			"テキスト形式">
+<!ENTITY autoDowngrade.label		"可能な限りプレーンテキストでメッセージを送信する">
+<!ENTITY autoDowngrade.accesskey	"t">
 <!ENTITY sendMaildesc.label		"プレーンテキスト形式を使用している受信者に HTML 形式のメールを送信しようとしたとき:">
 <!ENTITY askMe.label			"処理方法を確認する">
 <!ENTITY askMe.accesskey		"k">

@@ -160,6 +160,10 @@
 <p>この種の偽装サイトはフィッシングと呼ばれる詐欺に使われています。本物のサイトに見せかけた詐欺ページを作り、あなたに信頼させようとしているのです。</p>
 ">
 
+<!ENTITY forbiddenBlocked.title		"禁止サイト">
+<!ENTITY forbiddenBlocked.longDesc	"<p>このページの読み込みは、&brandShortName; の設定に従いブロックされています。</p>
+">
+
 <!ENTITY cspBlocked.title		"コンテンツセキュリティポリシーによりブロックされました">
 <!ENTITY cspBlocked.longDesc		"<p>セキュリティポリシーにより読み込みが禁止されたコンテンツが含まれているため、このページの読み込みを中止しました。</p>">
 

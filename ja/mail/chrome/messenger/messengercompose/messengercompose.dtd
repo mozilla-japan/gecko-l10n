@@ -306,3 +306,7 @@
 
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label	"アドレス"><!-- (^^; Contacts -->
+
+<!-- Identity popup customize menuitem -->
+<!ENTITY customizeFromAddress.label	"差出人アドレスをカスタマイズ...">
+<!ENTITY customizeFromAddress.accesskey	"A">

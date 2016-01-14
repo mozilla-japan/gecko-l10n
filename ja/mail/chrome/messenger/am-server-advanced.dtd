@@ -10,8 +10,6 @@
 <!ENTITY usingSubscription.accesskey	"w">
 <!ENTITY dualUseFolders.label		"サブフォルダとメッセージ両方を含むフォルダをサーバがサポートしている">
 <!ENTITY dualUseFolders.accesskey	"f">
-<!ENTITY useIdle.label			"サーバがサポートしていれば IDLE コマンドを使う">
-<!ENTITY useIdle.accesskey		"I">
 <!ENTITY maximumConnectionsNumber.label	"サーバへの最大同時接続数">
 <!ENTITY maximumConnectionsNumber.accesskey "M">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
@@ -24,10 +22,10 @@
 <!ENTITY otherUsersNamespace.accesskey	"O">
 <!ENTITY overrideNamespaces.label	"サーバによる名前空間の上書きを許可する">
 <!ENTITY overrideNamespaces.accesskey	"A">
-<!ENTITY pop3Desc.label			"このサーバの POP メールをダウンロードするとき、新着メールを次のフォルダに保存する">
-<!ENTITY accountDirectory.label		"このサーバアカウントの受信トレイ">
-<!ENTITY accountDirectory.accesskey	"S">
+<!ENTITY pop3DeferringDesc.label	"このアカウントのサーバからメールをダウンロードするとき、新着メッセージを次のフォルダに保存する:">
+<!ENTITY accountInbox.label		"このアカウントの受信トレイ">
+<!ENTITY accountInbox.accesskey		"s">
 <!ENTITY deferToServer.label		"別のアカウントの受信トレイ">
-<!ENTITY deferToServer.accesskey	"D">
+<!ENTITY deferToServer.accesskey	"d">
 <!ENTITY deferGetNewMail.label		"新着メールの取得時にこのサーバも同時に受信">
 <!ENTITY deferGetNewMail.accesskey	"I"> 
