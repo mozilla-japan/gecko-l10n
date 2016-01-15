@@ -676,4 +676,5 @@ dom, webapprt          298319:7f6dc6f3589b  21250:1c4e397973ec   mar            
 editor/ui              ------:------------  21262:93a6aabccfbb   mar             sync editor/ui
 mail                   ------:------------  21262:93a6aabccfbb   mar             sync mail
 suite                  ------:------------  21265:1908f1a3f8e5   mar             sync suite
+services/sync          298367:dc043de54b77  -----:------------   mar             sync services/sync
 
