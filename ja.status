@@ -677,4 +677,5 @@ editor/ui              ------:------------  21262:93a6aabccfbb   mar            
 mail                   ------:------------  21262:93a6aabccfbb   mar             sync mail
 suite                  ------:------------  21265:1908f1a3f8e5   mar             sync suite
 services/sync          298367:dc043de54b77  -----:------------   mar             sync services/sync
+devtools/shared        298367:dc043de54b77  -----:------------   mar             sync devtools/shared
 
