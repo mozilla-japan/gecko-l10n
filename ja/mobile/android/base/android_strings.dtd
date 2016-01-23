@@ -101,11 +101,8 @@
 
 <!ENTITY settings "設定">
 <!ENTITY settings_title "設定">
-<!ENTITY pref_category_input_options "入力オプション">
-<!ENTITY pref_category_advanced "詳細">
-<!ENTITY pref_category_customize "カスタマイズ">
-<!ENTITY pref_category_customize_summary "ホーム、検索、タブ、@@Import@@">
-<!ENTITY pref_category_customize_alt_summary "ホーム、検索、タブ、あとで開く、@@Import@@">
+<!ENTITY pref_category_general "一般">
+<!ENTITY pref_category_general_summary2 "ホーム、言語、URL バー">
 
 <!-- Localization note (pref_category_language) : This is the preferences
      section in which the user picks the locale in which to display Firefox
@@ -145,20 +142,14 @@
      are found. -->
 <!ENTITY overlay_no_synced_devices "Firefox アカウントが接続されたデバイスが見つかりませんでした">
 
-<!-- Localization note (menu_no_synced_devices): Used in a toast when the user
-     clicks on the button to send a tab to another device and there are no
-     other devices present. This label should briefly inform the user that they
-     need another connected device in order to use the feature. -->
-<!ENTITY menu_no_synced_devices "このタブを他のデバイスに送信する">
-
 <!ENTITY pref_category_search3 "検索">
 <!ENTITY pref_category_search_summary "検索プロバイダをカスタマイズ">
-<!ENTITY pref_category_display "表示">
-<!ENTITY pref_category_display_summary "テキスト、タイトルバー、@@FullScreen@@ブラウジング">
+<!ENTITY pref_category_accessibility "アクセシビリティ">
+<!ENTITY pref_category_accessibility_summary2 "テキストサイズ、@@Zoom@@、音声入力">
 <!ENTITY pref_category_privacy_short "プライバシー">
-<!ENTITY pref_category_privacy_summary2 "ログイン情報、Cookie、トラッキング、データの管理">
-<!ENTITY pref_category_vendor "&vendorShortName;">
-<!ENTITY pref_category_vendor_summary "&brandShortName; について、FAQ、データの選択">
+<!ENTITY pref_category_privacy_summary3 "トラッキング、Cookie、データの選択">
+<!ENTITY pref_category_vendor2 "&vendorShortName; &brandShortName;">
+<!ENTITY pref_category_vendor_summary2 "&brandShortName; について、FAQ、フィードバック">
 <!ENTITY pref_category_datareporting "データの選択">
 <!ENTITY pref_learn_more "さらに詳しく">
 <!ENTITY pref_category_installed_search_engines "インストール済みの検索エンジン">
@@ -172,12 +163,12 @@
      The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
      it is applicable. -->
 <!ENTITY pref_search_hint "ヒント: サイトの検索フィールド上で長押しした後、&formatI; アイコンをタップすることで、どのサイトでも検索プロバイダに追加できます">
-<!ENTITY pref_category_devtools "デベロッパーツール">
+<!ENTITY pref_category_advanced "高度な設定">
+<!ENTITY pref_category_advanced_summary2 "タブの復元、プラグイン、デベロッパーツール">
 <!ENTITY pref_developer_remotedebugging "リモートデバッグ">
 <!ENTITY pref_developer_remotedebugging_usb "USB 経由でリモートデバッグをおこなう">
 <!ENTITY pref_developer_remotedebugging_wifi "Wi-Fi 経由でリモートデバッグをおこなう">
 <!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Wi-Fi でのデバッグにはデバイスに QR コードリーダーアプリをインストールする必要があります">
-<!ENTITY pref_category_logins "ログイン情報">
 <!ENTITY pref_remember_signons2 "ログイン情報を保存する">
 <!ENTITY pref_open_external_urls_privately_title "リンクをプライベート@@Window@@で開く">
 <!ENTITY pref_open_external_urls_privately_summary "&brandShortName; で開かれた外部のリンクすべてに対して">
@@ -200,24 +191,40 @@
 <!ENTITY pref_home_suggested_sites_summary "ホームページにサイトのショートカットを表示することで、興味のあるものを見つけるのに役立ちます">
 <!ENTITY pref_category_home_homepage "ホームページ">
 <!ENTITY home_homepage_title "ホームページを設定">
-<!ENTITY home_homepage_use_current_tab "現在のタブを使う">
+<!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
+     buttons to choose the homepage they'd like to start on. When they click the radio
+     button for this string, they will use the built-in default Firefox homepage (about:home). -->
+<!ENTITY home_homepage_radio_default "&brandShortName; ホーム">
+<!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
+     buttons to choose the homepage they'd like to start on. When they click the radio
+     button for this string, a text field will appear below the radio button and allow the
+     user to insert an address of their choice. -->
+<!ENTITY home_homepage_radio_user_address "カスタム">
+<!-- Localization note (home_homepage_hint_user_address): The user will see a series of
+     radio buttons to choose the homepage they'd like to start on. When they click a
+     particular radio button, a text field will appear below the radio button and allow the
+     user to insert an address of their choice. This string is the hint text to that
+     text field. -->
+<!ENTITY home_homepage_hint_user_address "アドレスか検索語句を入力">
 
 <!-- Localization note: These are shown in the left sidebar on tablets -->
-<!ENTITY pref_header_customize "カスタマイズ">
-<!ENTITY pref_header_display "表示">
+<!ENTITY pref_header_general "一般">
+<!ENTITY pref_header_search "検索">
 <!ENTITY pref_header_privacy_short "プライバシー">
+<!ENTITY pref_header_accessibility "アクセシビリティ">
+<!ENTITY pref_header_advanced "高度な設定">
 <!ENTITY pref_header_help "ヘルプ">
-<!ENTITY pref_header_language "言語">
 <!ENTITY pref_header_vendor "&vendorShortName;">
-<!ENTITY pref_header_devtools "デベロッパーツール">
 
 <!ENTITY pref_cookies_menu "Cookie">
 <!ENTITY pref_cookies_accept_all "すべてのサイトで有効">
 <!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
 <!ENTITY pref_cookies_disabled "無効">
 
-<!ENTITY pref_tap_to_load_images_title "タップして画像を読み込み">
-<!ENTITY pref_tap_to_load_images_summary2 "画像を長押しした時のみ、その画像を読み込みます">
+<!ENTITY pref_tap_to_load_images_title2 "画像を表示">
+<!ENTITY pref_tap_to_load_images_enabled "常に表示">
+<!ENTITY pref_tap_to_load_images_data "Wi-Fi 利用時に表示">
+<!ENTITY pref_tap_to_load_images_disabled2 "ブロック">
 
 <!ENTITY pref_tracking_protection_title "トラッキング保護">
 <!ENTITY pref_tracking_protection_summary3 "プライベートブラウジング中に有効になります">
@@ -253,9 +260,11 @@
 <!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
 <!ENTITY pref_char_encoding_off "メニューを表示しない">
-<!ENTITY pref_clear_private_data2 "今すぐデータを消去する">
-<!ENTITY pref_clear_private_data_category "プライベートデータを消去する">
-<!ENTITY pref_clear_on_exit_title2 "終了時に消去する">
+<!ENTITY pref_clear_private_data "プライベートデータを削除">
+<!-- Localization note (pref_clear_private_data_now_tablet): This action to clear private data is only shown on tablets.
+     The action is shown below a header saying "Clear private data"; See pref_clear_private_data -->
+<!ENTITY pref_clear_private_data_now_tablet "今すぐ削除">
+<!ENTITY pref_clear_on_exit_title3 "終了時にプライベートデータを削除">
 <!ENTITY pref_clear_on_exit_summary2 "メインメニューから \u0022終了\u0022 を選択した時、&brandShortName; はいつでも自動的にあなたのデータを消去します">
 <!ENTITY pref_clear_on_exit_dialog_title "消去するデータを選択">
 <!ENTITY pref_plugins "プラグイン">
@@ -263,7 +272,7 @@
 <!ENTITY pref_plugins_tap_to_play "タップして実行">
 <!ENTITY pref_plugins_disabled "無効化">
 <!ENTITY pref_text_size "テキストサイズ">
-<!ENTITY pref_restore "タブ">
+<!ENTITY pref_restore_tabs "タブを復元">
 <!ENTITY pref_restore_always "常に復元">
 <!ENTITY pref_restore_quit "&brandShortName; の終了後、復元しない">
 <!ENTITY pref_font_size_tiny "最小">
@@ -288,16 +297,16 @@ size. -->
 <!ENTITY pref_zoom_force_enabled "常にズームを有効化">
 <!ENTITY pref_zoom_force_enabled_summary "すべてのページでズームができるよう設定を上書きする">
 <!ENTITY pref_voice_input "音声入力">
-<!ENTITY pref_voice_input_summary "タイトルバーで音声による入力を許可する">
+<!ENTITY pref_voice_input_summary2 "URL バーで音声による入力を許可する">
 <!ENTITY pref_qrcode_enabled "QR コードリーダー">
-<!ENTITY pref_qrcode_enabled_summary "タイトルバーで QR コードスキャンを許可する">
+<!ENTITY pref_qrcode_enabled_summary2 "URL バーで QR コードスキャンを許可する">
 
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
-<!ENTITY pref_sync "Firefox Sync で同期">
+<!ENTITY pref_sync2 "サインイン">
 <!ENTITY pref_sync_summary2 "タブ、ブックマーク、ログイン情報、閲覧履歴を同期する">
 <!ENTITY pref_search_suggestions "検索語句の候補を表示">
 <!ENTITY pref_history_search_suggestions "検索履歴を表示">
-<!ENTITY pref_import_android "Android から@@Import-suru@@">
+<!ENTITY pref_import_options "@@Import@@オプション">
 <!ENTITY pref_import_android_summary "ネイティブブラウザからブックマークや履歴を@@Import-suru@@">
 <!ENTITY pref_private_data_history2 "閲覧履歴">
 <!ENTITY pref_private_data_searchHistory "検索履歴">
@@ -354,7 +363,7 @@ size. -->
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
-<!ENTITY pref_update_autodownload2 "自動で更新をダウンロードする">
+<!ENTITY pref_update_autodownload3 "自動更新">
 <!ENTITY pref_update_autodownload_wifi "Wi-Fi 環境でのみ有効にする">
 <!ENTITY pref_update_autodownload_never "許可しない">
 <!ENTITY pref_update_autodownload_always "常に許可">
@@ -436,10 +445,6 @@ size. -->
 <!ENTITY doorhanger_login_select_action_text "他のログイン情報を選択してください">
 <!ENTITY doorhanger_login_select_title "コピーするパスワード:">
 
-<!ENTITY pref_titlebar_mode "タイトルバー">
-<!ENTITY pref_titlebar_mode_title "ページのタイトルを表示">
-<!ENTITY pref_titlebar_mode_url "ページのアドレスを表示">
-
 <!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
      whether or not the magnifying glass is disabled. -->
 <!ENTITY pref_magnifying_glass_enabled "小さい領域を拡大する">
@@ -448,7 +453,7 @@ size. -->
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 <!ENTITY pref_scroll_title_bar2 "@@FullScreen@@でブラウジングする">
-<!ENTITY pref_scroll_title_bar_summary "ページをスクロールした時、タイトルバーを隠す">
+<!ENTITY pref_scroll_title_bar_summary2 "ページをスクロールした時、&brandShortName; ツールバーを隠す">
 
 <!ENTITY pref_tab_queue_title2 "複数のリンクを開く">
 <!ENTITY pref_tab_queue_summary3 "次回 &brandShortName; を開く時までそれらのタブを保存しておきます">
@@ -468,7 +473,6 @@ size. -->
 <!ENTITY site_settings_title3       "サイトの設定">
 <!ENTITY site_settings_cancel       "キャンセル">
 <!ENTITY site_settings_clear        "消去">
-<!ENTITY site_settings_no_settings  "消去する設定がありません。">
 
 <!-- Localization note (reading_list_added3) : Used in a toast, please keep as short
      as possible. -->
@@ -524,14 +528,14 @@ size. -->
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
 <!ENTITY home_most_recent_emptyhint2 "&formatS1; @@New-CMD@@プライベートタブ &formatS2;  を利用すると、履歴を保存しません。">
 <!ENTITY home_reading_list_empty "あなたが保存した記事が表示されます。">
-<!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
+<!-- Localization note (home_reading_list_hint3): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
      as an advisory message on how to add content to the reading list when the reading list empty.
      The placeholder &formatI; will be replaced by a small image of the icon described, and can be moved to wherever
      it is applicable. -->
-<!ENTITY home_reading_list_hint2 "ヒント: タイトルバーに表示される &formatI; アイコンを長押しすることで、記事をリーディングリストに保存できます。">
-<!-- Localization note (home_reading_list_hint_accessible): This string is used
+<!ENTITY home_reading_list_hint3 "ヒント: URL バーに表示される &formatI; アイコンを長押しすることで、記事をリーディングリストに保存できます。">
+<!-- Localization note (home_reading_list_hint_accessible2): This string is used
      as alternate text for accessibility. It is not visible in the UI. -->
-<!ENTITY home_reading_list_hint_accessible "ヒント: タイトルバーに表示されるリーダーモードボタンを長押しすることで、記事をリーディングリストに保存できます。">
+<!ENTITY home_reading_list_hint_accessible2 "ヒント: URL バーに表示されるリーダーモードボタンを長押しすることで、記事をリーディングリストに保存できます。">
 
 <!-- Localization note (home_default_empty): This string is used as the default text when there
      is no data to show in an about:home panel that was created by an add-on. -->
@@ -727,19 +731,21 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      code. -->
 <!ENTITY devtools_auth_scan_header "他のデバイスに表示された QR コードをスキャンしています">
 
-<!-- Restrictions -->
-<!-- Localization note: These are restrictions the device owner (e.g. parent) can enable for
+<!-- Restrictable features -->
+<!-- Localization note: These are features the device owner (e.g. parent) can enable or disable for
      a restricted profile (e.g. child). Used inside the Android settings UI. -->
-<!ENTITY restriction_disallow_import_settings_title2 "\'Android から@@Import-suru@@\' を無効化">
-<!ENTITY restriction_disallow_addons_title2 "アドオンのインストールを無効化">
-<!ENTITY restriction_disallow_devtools_title2 "開発者ツールを無効化">
-<!ENTITY restriction_disallow_customize_home_title2 "ホームのカスタマイズを無効化">
-<!ENTITY restriction_disallow_private_browsing_title2 "プライベートブラウジングを無効化">
-<!ENTITY restriction_disallow_location_services_title2 "位置情報サービスを無効化">
-<!ENTITY restriction_disallow_display_settings_title2 "ディスプレイ設定を無効化">
-<!ENTITY restriction_disallow_clear_history_title2 "\'閲覧履歴を削除\' を無効化">
-<!ENTITY restriction_disallow_master_password_title2 "マスターパスワードを無効化">
-<!ENTITY restriction_disallow_guest_browsing_title2 "ゲストブラウジングを無効化">
+<!ENTITY restrictable_feature_addons_installation "アドオン">
+<!ENTITY restrictable_feature_addons_installation_description "Firefox に新たな機能や機能性を追加できるようにします。注意: アドオンは特定の制限を無効にすることがあります。">
+<!ENTITY restrictable_feature_private_browsing "プライベートブラウジング">
+<!ENTITY restrictable_feature_private_browsing_description "サイトや閲覧したページの情報を残さずにブラウズできるようにします。">
+<!ENTITY restrictable_feature_clear_history "履歴の削除">
+<!ENTITY restrictable_feature_clear_history_description "サイトや閲覧したページの情報を削除できるようにします。">
+<!ENTITY restrictable_feature_advanced_settings "高度な設定">
+<!ENTITY restrictable_feature_advanced_settings_description "これにはブックマークの@@Import@@やタブのリストア、自動更新が含まれます。単純な設定のみが適切な場合はオフにしてください。">
+<!ENTITY restrictable_feature_camera_microphone "カメラとマイク">
+<!ENTITY restrictable_feature_camera_microphone_description "サイト上でリアルタイムのコミュニケーションを行えるようにします。">
+<!ENTITY restrictable_feature_data_choices "データの選択">
+<!ENTITY restrictable_feature_data_choices_description "Firefox の改善を助ける利用状況の情報を Mozilla に送信するかどうかを選択してください。">
 
 <!-- Default Bookmarks titles-->
 <!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
@@ -752,3 +758,11 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY bookmarks_restricted_support2 "Android タブレットでの制限つきプロファイルについての Firefox ヘルプ">
 <!-- LOCALIZATION NOTE (bookmarks_restricted_webmaker):link title for https://webmaker.org -->
 <!ENTITY bookmarks_restricted_webmaker "Web について学びましょう: Mozilla Webmaker">
+
+<!-- LOCALIZATION NOTE (unsupported_sdk_version): The user installed a build of this app that does not support
+     the Android version of this device. the formatS1 is replaced by the CPU ABI (e.g., ARMv7); the formatS2 is
+     replaced by the Android OS version (e.g., 14)-->
+<!ENTITY unsupported_sdk_version "この &brandShortName; は現在のデバイス (&formatS1;, &formatS2;) では動作しません。正しいバージョンのものをダウンロードしてください。">
+
+<!ENTITY eol_notification_title "&brandShortName; は Android 3 をサポートしておりません">
+<!ENTITY eol_notification_summary "タップして詳細を表示">

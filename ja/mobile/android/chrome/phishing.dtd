@@ -21,3 +21,7 @@
 <!-- Localization note (safeb.blocked.unwanted.shortDesc) - Please don't translate the contents of the <span id="unwanted_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
 <!ENTITY safeb.blocked.unwantedPage.shortDesc "<span id='unwanted_sitename'/> のページは、望まないソフトウェアを含むページとして報告されているため、セキュリティ設定に従いブロックされました。">
 <!ENTITY safeb.blocked.unwantedPage.longDesc "望まないソフトウェアのページは、偽装されたソフトウェアをインストールすることであなたのシステムに予期せぬ影響をおよぼそうとするものです。">
+
+<!ENTITY safeb.blocked.forbiddenPage.title "許可されていないサイト">
+<!-- Localization note (safeb.blocked.forbiddenPage.shortDesc) - Please don't translate the contents of the <span id="forbidden_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
+<!ENTITY safeb.blocked.forbiddenPage.shortDesc "<span id='forbidden_sitename'/> のページはブラウザの設定によりブロックされました。">
