@@ -667,7 +667,7 @@ dom, webapprt          291805:69905a57ac2d  20969:5e0f8ffa1acb   mar            
 mobile                 291820:69905a57ac2d  -----:------------   Kechol          sync mobile
 browser                291829:4fbd53613240  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-45.0] (for aurora)
+[l10n-mozilla-45.0] (for aurora, ESR)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 security, toolkit      298132:b07f254acc0f  21227:c494ca9c666c   mar             sync security, toolkit
@@ -679,3 +679,5 @@ suite                  ------:------------  21265:1908f1a3f8e5   mar            
 services/sync          298367:dc043de54b77  -----:------------   mar             sync services/sync
 devtools/shared        298367:dc043de54b77  -----:------------   mar             sync devtools/shared
 mobile                 298500:23056818e2a5  -----:------------   Kechol          sync mobile
+calendar               ------:------------  21298:2fd29471a395   mar             sync calendar (late-l10n)
+
