@@ -6,4 +6,5 @@
 <!ENTITY aboutDebugging.addons                     "アドオン">
 <!ENTITY aboutDebugging.addonDebugging.label       "アドオンのデバッグを有効化">
 <!ENTITY aboutDebugging.addonDebugging.tooltip     "このチェックをオンにすると、アドオンとブラウザ UI 部品のデバッグを許可します">
+<!ENTITY aboutDebugging.loadTemporaryAddon         "一時的なアドオンを読み込む">
 <!ENTITY aboutDebugging.workers                    "Worker">

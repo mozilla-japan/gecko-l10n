@@ -75,6 +75,9 @@
 <!ENTITY key_zoomin2					"=">
 <!ENTITY key_zoomout					"-">
 <!ENTITY key_resetzoom					"0">
+<!-- reload WebIDE and devtools from local checkout -->
+<!-- this binding is with accel+alt, whereas all others are just accel -->
+<!ENTITY key_reload_devtools				"R">
 
 <!ENTITY projectPanel_myProjects			"マイプロジェクト">
 <!ENTITY projectPanel_runtimeApps			"ランタイムアプリ">
@@ -86,6 +89,7 @@
 <!ENTITY runtimePanel_installsimulator			"シミュレータをインストール">
 <!ENTITY runtimePanel_noadbhelper			"ADB Helper をインストール">
 <!ENTITY runtimePanel_nousbdevice			"端末が見つかりませんか？">
+<!ENTITY runtimePanel_refreshDevices_label		"端末をリフレッシュ">
 
 <!-- Lense -->
 <!ENTITY details_valid_header				"有効">

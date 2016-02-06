@@ -681,4 +681,5 @@ devtools/shared        298367:dc043de54b77  -----:------------   mar            
 mobile                 298500:23056818e2a5  -----:------------   Kechol          sync mobile
 calendar               ------:------------  21298:2fd29471a395   mar             sync calendar (late-l10n)
 browser                298541:d82221ba4219  -----:------------   hATrayflood     sync browser
+devtools               298541:d82221ba4219  -----:------------   hATrayflood     sync devtools
 
