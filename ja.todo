@@ -16,10 +16,6 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 	http://forums.firehacks.org/l10n/viewtopic.php?t=17204
 	toolkit/chrome/global/mozilla.dtd
 
-◆20.0 対応作業関連
-・http://forums.firehacks.org/l10n/viewtopic.php?t=17175
-	まず Thunderbird の該当バグを確認する。 -> バグ登録なし
-
 ◆16.0 対応作業関連
 未訳箇所あり:
     dom\chrome\layout\htmlparser.properties
@@ -39,19 +35,17 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 
 
 google の https 関係 (Bug 736260):
-http://code.google.com/p/mozja/source/detail?r=2ce9324969f384506f0d2454540382450c6ade40#
-http://code.google.com/p/mozja/source/detail?r=449f031e45baa6ee6f17e5b2e5a3c6befafb8051
 
-    26.0 の現状 (○:完了 △:Google Reader 未削除 ×:未変更 ※:Bug 757979 ＄:Bug 905498)
+    45.0 の現状 (○:完了 △:Google Reader 未削除 ×:未変更)
     ○	/browser/chrome/browser-region/region.properties
     ○	/browser/searchplugins/google-jp.xml
     ×	/mail/chrome/messenger-region/region.properties
-    ×	/mail/searchplugins/google-jp.xml
+    ○	/mail/searchplugins/google-jp.xml
     ○	/mobile/chrome/region.properties
-    ※	/mobile/searchplugins/google-jp.xml
-    ○	/suite/chrome/browser/region.properties (＄)
-    ○	/suite/chrome/mailnews/region.properties (＄)
-    ○	/suite/searchplugins/google-jp.xml (＄)
+    ○	/mobile/searchplugins/google-jp.xml (Bug 757979)
+    ○	/suite/chrome/browser/region.properties (Bug 905498)
+    ○	/suite/chrome/mailnews/region.properties (Bug 905498)
+    ○	/suite/searchplugins/google-jp.xml (Bug 905498)
 
 
 
