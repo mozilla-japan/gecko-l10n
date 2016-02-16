@@ -17,11 +17,11 @@
 ">
 
 <!ENTITY aboutTelemetry.extendedRecordingEnabled "
-  Telemetry の延長記録は<span>有効</span>です。
+  Telemetry の記録拡張は<span>有効</span>です。
 ">
 
 <!ENTITY aboutTelemetry.extendedRecordingDisabled "
-  Telemetry の延長記録は<span>無効</span>です。
+  Telemetry の記録拡張は<span>無効</span>です。
 ">
 
 <!ENTITY aboutTelemetry.pingDataSource "
