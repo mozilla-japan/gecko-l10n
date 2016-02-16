@@ -24,7 +24,7 @@
 <!ENTITY biffStart.accesskey		"y">
 <!ENTITY biffEnd.label			"分ごとに確認する">
 <!ENTITY useIdleNotifications.label	"新着メッセージが届いた時のサーバ通知を許可する">
-<!ENTITY useIdleNotifications.accesskey	"A">
+<!ENTITY useIdleNotifications.accesskey	"w">
 <!ENTITY connectionSecurity.label	"接続の保護:">
 <!ENTITY connectionSecurity.accesskey	"u">
 <!ENTITY connectionSecurityType-0.label	"なし">

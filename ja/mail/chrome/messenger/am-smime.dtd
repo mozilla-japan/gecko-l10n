@@ -26,7 +26,7 @@
 <!ENTITY signingCert.message		"メッセージのデジタル署名に使用する証明書:">
 
 <!ENTITY certificates.label		"証明書">
-<!ENTITY manageCerts.label		"証明書を表示">
-<!ENTITY manageCerts.accesskey		"V">
+<!ENTITY manageCerts2.label		"証明書を管理">
+<!ENTITY manageCerts2.accesskey		"M">
 <!ENTITY manageDevices.label		"セキュリティデバイス">
 <!ENTITY manageDevices.accesskey	"y">

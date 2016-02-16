@@ -103,7 +103,7 @@
 <!ENTITY enableOCSP.label			"OCSP レスポンダサーバに問い合わせて証明書の現在の正当性を確認する">
 <!ENTITY enableOCSP.accesskey			"Q">
 
-<!ENTITY viewCertificates.label			"証明書を表示">
-<!ENTITY viewCertificates.accesskey		"C">
+<!ENTITY manageCertificates.label		"証明書を管理">
+<!ENTITY manageCertificates.accesskey		"M">
 <!ENTITY viewSecurityDevices.label		"セキュリティデバイス">
 <!ENTITY viewSecurityDevices.accesskey		"D">
