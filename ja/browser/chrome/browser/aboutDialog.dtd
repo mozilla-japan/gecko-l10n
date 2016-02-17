@@ -46,6 +46,8 @@
 <!ENTITY helpus.getInvolvedLink     "コミュニティへようこそ！">
 <!ENTITY helpus.end                 "">
 
+<!ENTITY releaseNotes.link          "更新情報">
+
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
 <!ENTITY bottomLinks.license        "ライセンス情報">
 
