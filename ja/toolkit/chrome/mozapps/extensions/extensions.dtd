@@ -18,6 +18,8 @@
 <!ENTITY listEmpty.button.label			"アドオンについて知る">
 <!ENTITY installAddonFromFile.label		"ファイルからアドオンをインストール...">
 <!ENTITY installAddonFromFile.accesskey		"I">
+<!ENTITY debugAddons.label		    "アドオンをデバッグ">
+<!ENTITY debugAddons.accesskey		"B">
 <!ENTITY toolsMenu.tooltip			"アドオンツール">
 
 <!ENTITY cmd.back.tooltip			"前のページへ戻ります">
