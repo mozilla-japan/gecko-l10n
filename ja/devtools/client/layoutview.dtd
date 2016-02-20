@@ -21,3 +21,4 @@
 <!ENTITY border.tooltip         "border">
 <!ENTITY padding.tooltip        "padding">
 <!ENTITY content.tooltip        "要素の内容">
+<!ENTITY layoutViewTitle        "ボックスモデル">

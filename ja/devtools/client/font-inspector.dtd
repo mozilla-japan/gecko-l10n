@@ -6,6 +6,7 @@
   - The Font Inspector is the panel accessible in the Inspector sidebar. -->
 
 <!ENTITY title		"フォント">
+<!ENTITY fontInspectorTitle		"フォント">
 <!ENTITY showAllFonts	"このページのすべてのフォントを表示">
 <!ENTITY usedAs		"フォント名: ">
 <!ENTITY system		"システム">
