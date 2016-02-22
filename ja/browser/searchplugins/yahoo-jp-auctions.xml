@@ -10,7 +10,7 @@
 <Url type="text/html" method="GET" template="http://auctions.search.yahoo.co.jp/search" resultdomain="yahoo.co.jp">
   <Param name="p" value="{searchTerms}"/>
   <Param name="ei" value="EUC-JP"/>
-  <MozParam name="fr" condition="pref" pref="yahoo-fr-ja" />
+  <Param name="fr" value="mozff" />
   <Param name="rls" value="{moz:distributionID}:ja-JP:{moz:official}"/>
 </Url>
 <SearchForm>http://auctions.yahoo.co.jp/</SearchForm>
