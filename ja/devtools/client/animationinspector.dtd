@@ -11,7 +11,7 @@
      tools. A good criteria is the language in which you'd find the best
      documentation on web development on the web. -->
 
-<!-- LOCALIZATION NOTE (title): This is the label shown in the sidebar tab -->
+<!-- LOCALIZATION NOTE (animationInspectorTitle): This is the label shown in the sidebar tab -->
 <!ENTITY animationInspectorTitle "アニメーション">
 
 <!-- LOCALIZATION NOTE (invalidElement): This is the label shown in the panel
