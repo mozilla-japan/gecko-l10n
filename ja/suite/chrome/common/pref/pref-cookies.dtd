@@ -32,11 +32,6 @@
 <!ENTITY acceptforNDays.accesskey	"f">
 <!ENTITY days.label			"日">
 
-<!ENTITY warnAboutCookies.label		"常に処理方法を確認する">
-<!ENTITY warnAboutCookies.accesskey	"A">
-<!ENTITY forCurrentSession.label	"セッション Cookie を除く">
-<!ENTITY forCurrentSession.accesskey	"e">
-
 <!ENTITY manageCookies.label		"Cookie とサイト設定の管理">
 <!ENTITY manageCookiesDescription.label	"Cookie マネージャは、保存されている Cookie を整理したりサイト設定を見直したりできます。また、上記の設定に関係なく、サイト別の設定を追加することもできます。">
 

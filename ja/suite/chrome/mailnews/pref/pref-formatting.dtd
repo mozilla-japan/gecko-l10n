@@ -6,13 +6,12 @@
 <!ENTITY sendMaildesc.label           "HTML 形式のメールを送信するとき、宛先の中に HTML を受け取り可能でない人が含まれている場合:">
 <!ENTITY askMe.label                  "処理方法を確認する (送信形式を選択します)">
 <!ENTITY askMe.accesskey              "k">
-<!ENTITY convertPlain.label           "プレーンテキストのみに変換して送信する (一部の書式が失われます)">
-<!ENTITY convertPlain.accesskey       "C">
-<!ENTITY sendHTML.label               "HTML メールのまま送信する (メールクライアントによってはメッセージを表示できません)">
-<!ENTITY sendHTML.accesskey           "S">
-<!ENTITY sendBoth.label               "テキストと HTML の両形式を送信する (メッセージサイズが大きくなります)">
-<!ENTITY sendBoth.accesskey           "n">
-<!ENTITY override.label               "メッセージ作成@@Window@@の設定が、ここでの設定よりも優先されます。">
+<!ENTITY convertPlain2.label          "プレーンテキストに変換して送信する (書式が失われます)">
+<!ENTITY convertPlain2.accesskey      "C">
+<!ENTITY sendHTML2.label              "HTML 形式のまま送信する (相手がメッセージを正しく表示できない場合があります)">
+<!ENTITY sendHTML2.accesskey          "S">
+<!ENTITY sendBoth2.label              "プレーンテキストと HTML の両形式を送信する (メッセージサイズが大きくなります)">
+<!ENTITY sendBoth2.accesskey          "n">
 
 <!-- Html and Plain Text Domains  -->
 <!ENTITY domain.title                 "HTML メールとテキストメールのドメイン設定">
@@ -37,3 +36,7 @@
 <!ENTITY domainnameError.title        "ドメイン名のエラー">
 <!-- LOCALIZATION NOTE: do not translate @string@ -->
 <!ENTITY invalidEntryError.label      "ドメイン名 @string@ が無効なため設定は無視されます。有効なドメイン名は、文字の間に少なくとも一つの '.' を含まなければなりません。">
+
+<!-- Global auto-detect switch -->
+<!ENTITY autoDowngrade.label          "メッセージの書式が特に設定されていない場合は、自動的にプレーンテキスト形式で送信する (他の設定より優先します)">
+<!ENTITY autoDowngrade.accesskey      "o">
