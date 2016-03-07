@@ -24,6 +24,6 @@
 <!ENTITY safeb.blocked.phishingPage.shortDesc	"この Web ページ (<span id='phishing_sitename'/>) は偽装サイト(フィッシング詐欺サイト)であると報告されており、セキュリティ設定に従いブロックされました。">
 <!ENTITY safeb.blocked.phishingPage.longDesc	"<p>偽装サイトではあなたが信頼しているサイトに見せかけた偽のページを作り、利用者の個人情報やクレジットカード番号などを盗み取ろうとします。</p><p>このページで個人情報を入力してしまうと、なりすましや詐欺などの被害に遭う恐れがあります。</p>">
 
-<!ENTITY safeb.blocked.forbiddenPage.title2	"ブロックサイトBlocked Site">
+<!ENTITY safeb.blocked.forbiddenPage.title2	"ブロックサイト">
 <!-- Localization note (safeb.blocked.forbiddenPage.shortDesc2) - Please don't translate the contents of the <span id="forbidden_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
 <!ENTITY safeb.blocked.forbiddenPage.shortDesc2 "Web ページ (<span id='forbidden_sitename'/>) の読み込みは、管理プロファイルによりブロックされています。">
