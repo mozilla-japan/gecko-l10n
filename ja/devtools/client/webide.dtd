@@ -215,3 +215,6 @@
 <!ENTITY simulator_device				"デバイス">
 <!ENTITY simulator_screenSize				"スクリーン">
 <!ENTITY simulator_pixelRatio				"ピクセル比">
+<!ENTITY simulator_tv_data				"TV シミュレーション">
+<!ENTITY simulator_tv_data_open				"設定データ">
+<!ENTITY simulator_tv_data_open_button			"設定ディレクトリを開く...">

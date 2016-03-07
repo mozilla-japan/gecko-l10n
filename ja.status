@@ -693,4 +693,5 @@ dom, webapprt          304145:97126e4bc638  21488:b72d062cc0ed   mar            
 devtools/shared        304247:07594dabc757  -----:------------   mar             sync devtools/shared
 toolkit                304247:07594dabc757  21491:e11d742cc669   mar             sync toolkit
 suite                  ------:------------  21491:e11d742cc669   mar             sync suite
+devtools/client        304440:a67f02c29ede  -----:------------   mar, YuichiNukiyama  sync devtools/client
 
