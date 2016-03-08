@@ -694,4 +694,4 @@ devtools/shared        304247:07594dabc757  -----:------------   mar            
 toolkit                304247:07594dabc757  21491:e11d742cc669   mar             sync toolkit
 suite                  ------:------------  21491:e11d742cc669   mar             sync suite
 devtools/client        304440:a67f02c29ede  -----:------------   mar, YuichiNukiyama  sync devtools/client
-mobile                 304451:89effb961712  -----:------------   Kechol          sync mobile
+mobile                 304440:a67f02c29ede  -----:------------   Kechol          sync mobile
