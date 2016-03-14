@@ -269,7 +269,7 @@
 
 <!-- Localization note (tab_queue_notification_settings): This notification text is shown if a tab
      has been queued but we are missing the system permission to show an overlay. -->
-<!ENTITY tab_queue_notification_settings "\&quot;複数のリンクを開く\&quot;には、&brandShortName;の\'他のアプリに重ねて表示\'のパーミッションを有効にしてください。">
+<!ENTITY tab_queue_notification_settings "\'複数のリンクを開く\'には、&brandShortName;の\'他のアプリに重ねて表示\'のパーミッションを有効にしてください。">
 
 <!ENTITY pref_char_encoding "文字エンコーディング">
 <!ENTITY pref_char_encoding_on "メニューを表示する">
@@ -538,7 +538,7 @@ size. -->
 <!ENTITY home_last_tabs_empty "あなたが最近開いたタブが表示されます。">
 <!ENTITY home_open_all "すべて開く">
 <!ENTITY home_most_recent_empty "あなたが最近開いたサイトが表示されます。">
-<!ENTITY home_selected_empty "選択した期間に訪れたウェブサイトが表示されます。">
+<!ENTITY home_selected_empty "選択した期間に訪れた Web サイトが表示されます。">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
 <!ENTITY home_most_recent_emptyhint2 "&formatS1; @@New-CMD@@プライベートタブ &formatS2;  を利用すると、履歴を保存しません。">
@@ -760,7 +760,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY restrictable_feature_camera_microphone "カメラとマイク">
 <!ENTITY restrictable_feature_camera_microphone_description "サイト上でリアルタイムのコミュニケーションを行えるようにします。">
 <!ENTITY restrictable_feature_block_list "ブロックリスト">
-<!ENTITY restrictable_feature_block_list_description "センシティブな内容を含むウェブサイトをブロックします。">
+<!ENTITY restrictable_feature_block_list_description "センシティブな内容を含む Web サイトをブロックします。">
 
 <!-- Default Bookmarks titles-->
 <!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
