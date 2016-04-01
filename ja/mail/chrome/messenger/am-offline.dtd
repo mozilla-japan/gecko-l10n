@@ -29,8 +29,6 @@
 <!ENTITY retentionKeepAll.accesskey		"n">
 <!ENTITY retentionKeepRecent.label		"最近のメッセージを次の数だけ残して削除する"><!-- (^^; Delete all but the most recent ... message.label -->
 <!ENTITY retentionKeepRecent.accesskey		"b">
-<!-- LOCALIZATION NOTE: Unhide with .keepUnreadOnly { display: -moz-box; } -->
-<!ENTITY retentionKeepUnreadHidden.label	"既読のメッセージは常に削除する (最優先)">
 <!ENTITY retentionApplyToFlagged.label		"スター付きのメッセージは残す">
 <!ENTITY retentionApplyToFlagged.accesskey	"k">
 <!ENTITY nntpRemoveMsgBody.label		"送信日時から次の日数以上経過したメッセージの本文を削除する"><!-- (^^; Remove bodies from messages more than ... days.label -->

@@ -667,7 +667,7 @@ dom, webapprt          291805:69905a57ac2d  20969:5e0f8ffa1acb   mar            
 mobile                 291820:69905a57ac2d  -----:------------   Kechol          sync mobile
 browser                291829:4fbd53613240  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-45.0] (for beta, ESR)
+Released! [l10n-mozilla-45.0] (ESR)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 security, toolkit      298132:b07f254acc0f  21227:c494ca9c666c   mar             sync security, toolkit
@@ -683,7 +683,7 @@ calendar               ------:------------  21298:2fd29471a395   mar            
 browser                298541:d82221ba4219  -----:------------   hATrayflood     sync browser
 devtools               298541:d82221ba4219  -----:------------   hATrayflood     sync devtools
 
-[l10n-mozilla-46.0] (for aurora)
+[l10n-mozilla-46.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  21472:65b564db348b   mar             sync calendar
@@ -695,3 +695,9 @@ toolkit                304247:07594dabc757  21491:e11d742cc669   mar            
 suite                  ------:------------  21491:e11d742cc669   mar             sync suite
 devtools/client        304440:a67f02c29ede  -----:------------   mar, YuichiNukiyama  sync devtools/client
 mobile                 304440:a67f02c29ede  -----:------------   Kechol          sync mobile
+
+[l10n-mozilla-47.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+mail                   ------:------------  21684:aa7262925765   mar             sync mail
+
