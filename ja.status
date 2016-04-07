@@ -698,4 +698,5 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 mail                   ------:------------  21684:aa7262925765   mar             sync mail
 chat                   ------:------------  21684:aa7262925765   mar             sync chat
+toolkit, security      310474:6adef622c36b  21693:543f24c95987   mar             sync toolkit, security
 
