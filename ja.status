@@ -8,6 +8,7 @@ dirname                 Repo    App             補足
 browser                 moz     Fx              Firefox
 calendar                comm    Sb              Sunbird/Lightning
 chat                    comm    Tb              Instant Messaging
+devtools                moz     Fx, Fe, Sm      開発者ツール
 dom                     moz     all
 editor/ui               comm    Tb, Sm          メール編集画面
 embedding               moz     Fe              Android
@@ -15,14 +16,10 @@ extensions
   inspector             dom-i   Fx, Sm          DOM Inspector
   irc                   moz     Sm              IRC Client Chatzilla
   spellcheck            moz     Fx, Tb, Sm      日本語のスペルチェックは無し
-  venkman               moz     Sm              JavaScript Debugger Venkman
 mail                    comm    Tb              Thunderbird
-minimo                  ---     ---             Minimo (過去の遺物)
 mobile                  mobile  Fe              Mobile Firefox (Fennec)
 netwerk                 moz     all             ネットワーク
 other-licenses
-  branding/firefox      moz     Fx
-  branding/sunbird      comm    Sb
   branding/thunderbird  comm    Tb
 security/manager        moz     all
 services/sync           moz     Fx, Sm          Sync
@@ -700,4 +697,5 @@ mobile                 304440:a67f02c29ede  -----:------------   Kechol         
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 mail                   ------:------------  21684:aa7262925765   mar             sync mail
+chat                   ------:------------  21684:aa7262925765   mar             sync chat
 
