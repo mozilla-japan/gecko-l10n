@@ -30,8 +30,6 @@
 <!ENTITY retentionKeepAll.accesskey              "A">
 <!ENTITY retentionKeepRecent.label               "最近のメッセージを次の数だけ残して削除する">
 <!ENTITY retentionKeepRecent.accesskey           "n">
-<!-- LOCALIZATION NOTE: Unhide with .keepUnreadOnly { display: -moz-box; } -->
-<!ENTITY retentionKeepUnreadHidden.label         "既読のメッセージは常に削除する (最優先)">
 <!ENTITY retentionApplyToFlagged.label           "フラグ付きのメッセージは残す">
 <!ENTITY retentionApplyToFlagged.accesskey       "e">
 

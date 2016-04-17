@@ -13,6 +13,9 @@
 <!ENTITY useFavIcons.accesskey                  "A">
 <!ENTITY enableAutomaticImageResizing.label     "大きな画像をブラウザ@@Window@@に合わせて縮小表示する">
 <!ENTITY enableAutomaticImageResizing.accesskey "R">
+<!ENTITY scrolling.label                        "スクロール">
+<!ENTITY useAutoScroll.label                    "自動スクロールを使用する">
+<!ENTITY useAutoScroll.accesskey                "t">
 <!ENTITY useSmoothScroll.label                  "スムーズスクロールを使用する">
 <!ENTITY useSmoothScroll.accesskey              "U">
 <!ENTITY allowHWAccel.label                     "ハードウェアアクセラレーションが利用可能なとき利用する">
