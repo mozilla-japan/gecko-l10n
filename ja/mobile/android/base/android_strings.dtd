@@ -17,7 +17,7 @@
 <!ENTITY firstrun_bookmarks_subtext "検索するときはブックマークと履歴から結果を表示します。">
 <!ENTITY firstrun_data_title "データ">
 <!ENTITY firstrun_data_message "データを減らせば節約に">
-<!ENTITY firstrun_data_subtext "画像をブロックして訪れるサイトでのデータの消費を減らします">
+<!ENTITY firstrun_data_subtext2 "画像を消して訪れるサイトでのデータの消費を減らします">
 <!ENTITY firstrun_sync_title "同期">
 <!ENTITY firstrun_sync_message "&brandShortName;はいつでもそばに">
 <!ENTITY firstrun_sync_subtext "タブやパスワードその他をどこでも使う場所に同期しましょう。">
@@ -229,6 +229,8 @@
 <!ENTITY pref_tap_to_load_images_enabled "常に表示">
 <!ENTITY pref_tap_to_load_images_data "Wi-Fi 利用時に表示">
 <!ENTITY pref_tap_to_load_images_disabled2 "ブロック">
+
+<!ENTITY pref_show_web_fonts "Web フォントを表示">
 
 <!ENTITY pref_tracking_protection_title "トラッキング保護">
 <!ENTITY pref_tracking_protection_summary3 "プライベートブラウジング中に有効になります">
@@ -469,8 +471,8 @@ size. -->
 <!ENTITY pref_scroll_title_bar2 "@@FullScreen@@でブラウジングする">
 <!ENTITY pref_scroll_title_bar_summary2 "ページをスクロールした時、&brandShortName; ツールバーを隠す">
 
-<!ENTITY pref_tab_queue_title2 "複数のリンクを開く">
-<!ENTITY pref_tab_queue_summary3 "次回 &brandShortName; を開く時までそれらのタブを保存しておきます">
+<!ENTITY pref_tab_queue_title3 "タブキュー">
+<!ENTITY pref_tab_queue_summary4 "次回 &brandShortName; を開く時までリンクを保存しておきます">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
@@ -548,9 +550,9 @@ size. -->
      is no data to show in an about:home panel that was created by an add-on. -->
 <!ENTITY home_default_empty "このパネルにはコンテンツがありません。">
 
-<!-- Localization note (home_move_up_to_filter): The variable is replaced by the name of the
+<!-- Localization note (home_back_up_to_filter): The variable is replaced by the name of the
      previous location in the navigation, such as the previous folder -->
-<!ENTITY home_move_up_to_filter "&formatS; へ戻る">
+<!ENTITY home_move_back_to_filter "&formatS; へ戻る">
 
 <!ENTITY home_remote_tabs_title "同期されたタブ">
 <!ENTITY home_remote_tabs_empty "他のデバイスのタブがここに表示されます。">
@@ -648,8 +650,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      replaced with the search query. -->
 <!ENTITY suggestion_for_engine " &formatS1; で &formatS2; を検索">
 
-<!ENTITY webapp_generic_name "アプリ">
-
 <!ENTITY searchable_description "ブックマークと履歴">
 
  <!-- Updater notifications -->
@@ -718,11 +718,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- Localization note: Used when the sync has not happend yet, showed in place of a date -->
 <!ENTITY remote_tabs_never_synced "最終更新日時: なし">
 
-<!-- Find-In-Page strings -->
-<!-- LOCALIZATION NOTE (find_matchcase): This is meant to appear as an icon that changes color
-     if match-case is activated. i.e. No more than two letters, one uppercase, one lowercase. -->
-<!ENTITY find_matchcase "Aa">
-
 <!ENTITY intent_uri_cannot_open "リンクを開くことができません">
 <!-- LOCALIZATION NOTE (intent_uri_private_browsing_prompt): This string will
      appear in an alert when a user, who is currently in private browsing,
@@ -779,5 +774,10 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      replaced by the Android OS version (e.g., 14)-->
 <!ENTITY unsupported_sdk_version "この &brandShortName; は現在のデバイス (&formatS1;, &formatS2;) では動作しません。正しいバージョンのものをダウンロードしてください。">
 
-<!ENTITY eol_notification_title "&brandShortName; は Android 3 をサポートしておりません">
+<!ENTITY eol_notification_title2 "&brandShortName; これ以上アップデートされません">
 <!ENTITY eol_notification_summary "タップして詳細を表示">
+
+<!-- LOCALIZATION NOTE (whatsnew_notification_title, whatsnew_notification_summary): These strings
+     are used for a system notification that's shown to users after the app updates. -->
+<!ENTITY whatsnew_notification_title "&brandShortName; は最新の状態です">
+<!ENTITY whatsnew_notification_summary "このバージョンの新しい機能を知りましょう">
