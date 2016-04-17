@@ -702,4 +702,5 @@ toolkit, security      310474:6adef622c36b  21693:543f24c95987   mar            
 devtools/shared        310535:ddc3d06e090a  -----:------------   mar             sync devtools/shared
 dom, webapprt          310602:aca518830db2  21697:2a59860f2ee0   mar             sync dom, webapprt
 suite                  ------:------------  21713:c6fe825dd6dc   mar             sync suite
+calendar               ------:------------  21713:c6fe825dd6dc   mar             sync calendar
 
