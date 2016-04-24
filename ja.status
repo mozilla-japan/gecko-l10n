@@ -706,4 +706,5 @@ calendar               ------:------------  21713:c6fe825dd6dc   mar            
 browser                310608:02b8dc35ec80  -----:------------   hATrayflood     sync browser
 mobile                 310623:02b8dc35ec80  -----:------------   Kechol          sync mobile
 dom                    310693:bfffe574ce0c  -----:------------   mar             re-sync dom
+devtools/client        310608:02b8dc35ec80  -----:------------   hATrayflood     sync devtools/client
 
