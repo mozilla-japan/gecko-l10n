@@ -5,4 +5,4 @@
 <!-- LOCALIZATION NOTE : This file contains the Storage Inspector strings. -->
 
 <!-- LOCALIZATION NOTE : Placeholder for the searchbox that allows you to filter the table items. -->
-<!ENTITY searchBox.placeholder         "項目をフィルタ">
+<!ENTITY searchBox.placeholder		"項目を絞り込み">
