@@ -710,3 +710,5 @@ devtools/client        310608:02b8dc35ec80  -----:------------   hATrayflood    
 [l10n-mozilla-48.0] (for aurora)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
+devtools/shared        318784:aea53454e86f  -----:------------   mar             sync devtools/shared
+
