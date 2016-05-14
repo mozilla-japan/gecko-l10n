@@ -27,7 +27,6 @@ suite                   comm    Sm              Seamonkey
 toolkit
   chrome                moz     all
   crashreporter         moz     Fx, Sm          クラッシュレポータ
-webapprt                moz     Fx
 
 
         SVN 導入以降の en-US との同期履歴
@@ -680,7 +679,7 @@ calendar               ------:------------  21298:2fd29471a395   mar            
 browser                298541:d82221ba4219  -----:------------   hATrayflood     sync browser
 devtools               298541:d82221ba4219  -----:------------   hATrayflood     sync devtools
 
-[l10n-mozilla-46.0] (for beta)
+Released! [l10n-mozilla-46.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  21472:65b564db348b   mar             sync calendar
@@ -693,7 +692,7 @@ suite                  ------:------------  21491:e11d742cc669   mar            
 devtools/client        304440:a67f02c29ede  -----:------------   mar, YuichiNukiyama  sync devtools/client
 mobile                 304440:a67f02c29ede  -----:------------   Kechol          sync mobile
 
-[l10n-mozilla-47.0] (for aurora)
+[l10n-mozilla-47.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 mail                   ------:------------  21684:aa7262925765   mar             sync mail
@@ -708,3 +707,6 @@ mobile                 310623:02b8dc35ec80  -----:------------   Kechol         
 dom                    310693:bfffe574ce0c  -----:------------   mar             re-sync dom
 devtools/client        310608:02b8dc35ec80  -----:------------   hATrayflood     sync devtools/client
 
+[l10n-mozilla-48.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
