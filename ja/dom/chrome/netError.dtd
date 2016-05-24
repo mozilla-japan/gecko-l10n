@@ -18,7 +18,10 @@
 <!ENTITY dnsNotFound.longDesc		"<p>指定されたアドレスのホストサーバが見つかりませんでした。</p><ul><li>ドメイン名の入力を間違っていないか確認してください。(例えば <q><strong>www</strong>.mozilla-japan.org</q> を間違えて <q><strong>ww</strong>.mozilla-japan.org</q> などと入力していないか)</li><li>指定されたアドレスのドメインが存在しないかもしれません。すでに有効期限が切れて廃止されている可能性もあります。</li><li>他のサイトも表示できない場合、コンピュータのネットワーク接続を確認してください。</li><li>ファイアーウォールやプロキシでネットワークが保護されている場合、その設定に問題があると正常に表示できなくなることがあります。</li></ul>">
 
 <!ENTITY fileNotFound.title		"ファイルが見つかりませんでした">
-<!ENTITY fileNotFound.longDesc		"<ul><li>ファイルの名前が変更、削除、または移動している可能性があります。</li><li>アドレスに入力ミス、大文字/小文字の違い、その他の間違いがないか確認してください。</li><li>リソースへのアクセス権限があるか確認してください。</li></ul>">
+<!ENTITY fileNotFound.longDesc		"<ul><li>ファイルの名前が変更、削除、または移動されている可能性があります。</li><li>アドレスに入力ミス、大文字/小文字の違い、その他の間違いがないか確認してください。</li><li>リソースへのアクセス権限があるか確認してください。</li></ul>">
+
+<!ENTITY fileAccessDenied.title		"ファイルへのアクセスが拒否されました">
+<!ENTITY fileAccessDenied.longDesc	"<ul><li>ファイルが削除または移動されているかファイルの許可属性によりアクセスが拒否された可能性があります。</li></ul>">
 
 <!ENTITY generic.title			"リクエストを正常に完了できませんでした">
 <!ENTITY generic.longDesc		"<p>現在のところこの問題やエラーについての詳細情報はありません。</p>">
@@ -86,3 +89,8 @@
 
 <!ENTITY remoteXUL.title		"リモート XUL">
 <!ENTITY remoteXUL.longDesc		"<p><ul><li>Web サイトの所有者に連絡を取り、この問題を報告してください。</li></ul></p>">
+
+<!ENTITY inadequateSecurityError.title	"接続が安全ではありません">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc	"<p><span class='hostname'></span> は攻撃に対して脆弱な古いセキュリティ技術を使用しています。攻撃者は保護された情報を簡単に暴露できます。サイトを安全に訪れるには、この Web サイトの管理者にサーバの問題を修正してもらう必要があります。</p><p>エラーコード: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
