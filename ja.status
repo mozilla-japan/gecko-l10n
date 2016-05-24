@@ -712,3 +712,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 devtools/shared        318784:aea53454e86f  -----:------------   mar             sync devtools/shared
 dom                    318891:9b9a73a98de8  21967:b9cb19ec4335   mar             sync dom
+netwerk                318891:9b9a73a98de8  21967:b9cb19ec4335   mar             sync netwerk
