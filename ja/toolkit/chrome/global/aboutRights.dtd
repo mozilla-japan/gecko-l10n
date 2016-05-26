@@ -63,7 +63,7 @@
 <!ENTITY rights.safebrowsing-b		"サイトが安全でなくなる恐れがあるため、セーフブラウジング機能を無効にすることはお勧めしません。この機能を完全に無効にしたい場合は以下の手順に従ってください:">
 <!ENTITY rights.safebrowsing-term1	"@@Application@@の設定またはオプションを開きます。">
 <!ENTITY rights.safebrowsing-term2	"セキュリティ設定を選択します。">
-<!ENTITY rights.safebrowsing-term3	"&quot;&blockAttackSites.label;&quot; および &quot;&blockWebForgeries.label;&quot; のチェックを外してください。">
+<!ENTITY rights2.safebrowsing-term3	"&quot;&enableSafeBrowsing.label;&quot; のチェックを外してください。">
 <!ENTITY rights.safebrowsing-term4	"セーフブラウジング機能が無効になります。">
 
 <!-- location aware browsing points for branded builds -->

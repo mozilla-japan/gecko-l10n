@@ -105,3 +105,9 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle		"セーフモードを試す">
 <!ENTITY aboutSupport.restartInSafeMode.label	"アドオンを無効化して再起動...">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle	"機能">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle	"診断">
+<!ENTITY aboutSupport.graphicsFailureLogTitle	"失敗ログ">
+<!ENTITY aboutSupport.graphicsGPU1Title		"GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title		"GPU #2">
