@@ -12,7 +12,7 @@
 <!ENTITY feedLocation.label		"フィードの URL:">
 <!ENTITY feedLocation.accesskey		"U">
 <!ENTITY feedLocation.placeholder	"追加するフィードの正しい URL を入力してください">
-<!ENTITY locationValidate.label		"フィードの検証">
+<!ENTITY locationValidate.label		"フィードを検証">
 <!ENTITY validateText.label		"フィードが有効か確認して正しい URL を取得します。">
 
 

@@ -16,8 +16,6 @@
 <!ENTITY importFromOExpress.accesskey	"u">
 <!ENTITY importFromOutlook.label	"Outlook">
 <!ENTITY importFromOutlook.accesskey	"O">
-<!ENTITY importFromEudora.label		"Eudora">
-<!ENTITY importFromEudora.accesskey	"E">
 
 <!ENTITY importSource.title		"設定とデータの@@ImportNoun@@元">
 <!ENTITY importItems.title		"@@Import-suru@@項目">

@@ -167,6 +167,8 @@
 <!ENTITY recentFolders.accesskey		"R">
 <!ENTITY compactVersion.label			"コンパクトビュー">
 <!ENTITY compactVersion.accesskey		"C">
+<!ENTITY folderPaneBar.label			"フォルダペインツールバー">
+<!ENTITY folderModeSelector.label		"フォルダビュー">
 
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label				"並べ替え順序">
@@ -365,6 +367,8 @@
 <!ENTITY editAsNewMsgCmd.label		"@@New-CMD@@メッセージとして編集">
 <!ENTITY editAsNewMsgCmd.accesskey	"E">
 <!ENTITY editAsNewMsgCmd.key		"e">
+<!ENTITY editDraftMsgCmd.label		"下書きメッセージを編集">
+<!ENTITY editDraftMsgCmd.accesskey	"D">
 <!ENTITY createFilter.label		"メッセージからフィルタを作成...">
 <!ENTITY createFilter.accesskey		"a">
 <!ENTITY moveMsgToMenu.label		"別のフォルダに移動"><!-- contextMoveMsgMenu.label と同じ動作 -->
@@ -719,6 +723,7 @@
 <!ENTITY contextOpenContainingFolder.accesskey	"n">
 <!ENTITY contextEditMsgAsNew.label		"@@New-CMD@@メッセージとして編集">
 <!ENTITY contextEditMsgAsNew.accesskey		"E">
+<!ENTITY contextEditDraftMsg.label		"下書きメッセージを編集">
 <!ENTITY contextArchive.label			"アーカイブ">
 <!ENTITY contextArchive.accesskey		"h">
 <!ENTITY contextReplySender.label		"送信者だけに返信">
@@ -748,7 +753,13 @@
 <!ENTITY contextKillThreadMenu.label		"スレッドを無視">
 <!ENTITY contextKillThreadMenu.accesskey	"I">
 <!ENTITY contextKillSubthreadMenu.label		"サブスレッドを無視">
+<!ENTITY contextKillSubthreadMenu.accesskey	"b">
 <!ENTITY contextWatchThreadMenu.label		"注目スレッドに設定">
+<!--LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
+   In the en-US locale we ran out of access keys, so there is an empty access key for
+   Watch Thread. Localizers can pick a suitable key
+  -->
+<!ENTITY contextWatchThreadMenu.accesskey	"">
 <!ENTITY contextSaveAs.label			"メッセージを保存...">
 <!ENTITY contextSaveAs.accesskey		"S">
 <!ENTITY contextPrint.label			"メッセージを@@Print@@...">
