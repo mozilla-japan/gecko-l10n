@@ -9,14 +9,18 @@
 <!ENTITY content.label "コンテンツ">
 <!ENTITY fonts.label "フォント">
 <!ENTITY colors.label "@@Colors@@">
+<!ENTITY spellingPane.label "スペルチェック">
+
 <!ENTITY navigator.label "ブラウザ">
 <!ENTITY history.label "履歴">
 <!ENTITY languages.label "言語">
 <!ENTITY applications.label "ヘルパーアプリケーション">
 <!ENTITY locationBar.label "アドレスバー">
+<!ENTITY search.label "インターネット検索">
 <!ENTITY tabWindows.label "タブブラウズ">
 <!ENTITY links.label "リンクの動作">
-<!ENTITY offline.label "オフライン">
+<!ENTITY download.label "ダウンロード">
+
 <!ENTITY security.label "プライバシーとセキュリティ">
 <!ENTITY privatedata.label "プライバシー情報">
 <!ENTITY cookies.label "Cookie">
@@ -26,21 +30,18 @@
 <!ENTITY masterpass.label "マスターパスワード">
 <!ENTITY ssltls.label "SSL/TLS">
 <!ENTITY certs.label "証明書">
-<!ENTITY sync.label "Sync">
+
+<!ENTITY sync.label "同期">
+
 <!ENTITY advance.label "詳細">
-<!ENTITY down.label "ダウンロード">
+<!ENTITY scriptsAndWindows.label "スクリプトとプラグイン">
+<!ENTITY keynav.label "キーボードナビゲーション">
+<!ENTITY findAsYouType.label "タイプ検索">
 <!ENTITY cache.label "キャッシュ">
 <!ENTITY offlineApps.label "オフラインアプリケーション">
 <!ENTITY proxies.label "プロキシ">
 <!ENTITY httpnetworking.label "HTTP ネットワーク">
 <!ENTITY smart.label "ソフトウェアのインストール">
-<!ENTITY download.label "ダウンロード">
-<!ENTITY keynav.label "キーボードナビゲーション">
-<!ENTITY findAsYouType.label "タイプ検索">
-<!ENTITY search.label "インターネット検索">
-<!ENTITY policies.label "セキュリティポリシー">
 <!ENTITY mousewheel.label "マウスホイール">
-<!ENTITY scriptsAndWindows.label "スクリプトとプラグイン">
-<!ENTITY spellingPane.label  "スペルチェック">
 
 <!ENTITY focusSearch.key "f">

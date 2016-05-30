@@ -132,9 +132,9 @@ items are mutually exclusive. -->
 <!ENTITY videoHideStats.label         "統計情報を隠す">
 <!ENTITY videoHideStats.accesskey     "t">
 <!ENTITY search.accesskey             "W">
-<!ENTITY bidiSwitchPageDirectionItem.label        "ページの書記方向を切り換え">
+<!ENTITY bidiSwitchPageDirectionItem.label        "ページの記述方向を切り換える">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey    "g">
-<!ENTITY bidiSwitchTextDirectionItem.label        "テキストの書記方向を切り換え">
+<!ENTITY bidiSwitchTextDirectionItem.label        "テキストの記述方向を切り換える">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey    "x">
 <!ENTITY spellAddToDictionary.label     "辞書に追加">
 <!ENTITY spellAddToDictionary.accesskey "n">
@@ -149,3 +149,6 @@ items are mutually exclusive. -->
 <!ENTITY spellDictionaries.accesskey    "L">
 <!ENTITY spellAddDictionaries.label     "他の辞書をダウンロード...">
 <!ENTITY spellAddDictionaries.accesskey "D">
+<!-- Developer Tools -->
+<!ENTITY devtoolsInspect.label          "要素を調査">
+<!ENTITY devtoolsInspect.accesskey      "n">

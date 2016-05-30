@@ -11,7 +11,7 @@
 <!ENTITY mailBiffOnNewWindow.label        "メールとニュースグループを起動したときにだけ新着メールを確認する"><!--Only check for new mail after opening Mail &amp; Newsgroups-->
 <!ENTITY mailBiffOnNewWindow.accesskey    "O">
 
-<!ENTITY defaultMailSettings.description  "&brandShortName; の以下を@@Default@@のアプリケーションに設定します:">
+<!ENTITY defaultMailSettings.description  "&brandShortName; を以下の@@Default-@@アプリケーションに設定する:">
 <!ENTITY setDefaultMail.label             "メール">
 <!ENTITY setDefaultMail.accesskey         "M">
 <!ENTITY setDefaultNews.label             "ニュース">
@@ -19,7 +19,7 @@
 <!ENTITY setDefaultFeed.label             "フィード (RSS)">
 <!ENTITY setDefaultFeed.accesskey         "e">
 
-<!ENTITY useInternalSettings.description  "ブラウザの以下のリンクを開くときに &brandShortName; のメールとニュースを使用します:">
+<!ENTITY useInternalSettings.description  "ブラウザで以下のリンクを開くときに &brandShortName; のメールとニュースを使用する:">
 <!ENTITY useInternalMail.label            "メール (mailto:)">
 <!ENTITY useInternalMail.accesskey        "a">
 <!ENTITY useInternalNews.label            "ニュース (news:, snews:, nntp:)">

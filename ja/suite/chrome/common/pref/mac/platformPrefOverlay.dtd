@@ -9,10 +9,10 @@
      width of the letter 'm' in the selected font.
      XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
      size of this window for en-US. -->
-<!ENTITY  prefWindow.size             "width: 70em; height: 44em;"><!--def"width: 58em; height: 41em;"-->
+<!ENTITY  prefWindow.size	"width: 70em; height: 44em;"><!-- en-US: "width: 62em; height: 41em;"-->
 
 <!-- pref-tabs.xul -->
-<!ENTITY urlbar.label                 "アドレスバーで &#8984;+Return">
-<!ENTITY urlbar.accesskey             "L">
-<!ENTITY middleClick.label            "Web ページでリンクを中クリックまたは &#8984;+クリックあるいは &#8984;+Return">
-<!ENTITY middleClick.accesskey        "M">
+<!ENTITY urlbar.label		"アドレスバーで &#8984;+Return">
+<!ENTITY urlbar.accesskey	"L">
+<!ENTITY middleClick.label	"Web ページでリンクを中クリックまたは &#8984;+クリックあるいは &#8984;+Return">
+<!ENTITY middleClick.accesskey	"M">

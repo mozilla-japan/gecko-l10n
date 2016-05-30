@@ -9,6 +9,7 @@
 <!ENTITY select.all.label "すべてのデータ">
 <!ENTITY select.cookies.label "Cookie のみ">
 <!ENTITY select.permissions.label "許可設定のみ">
+<!ENTITY select.permissionspwd.label "パスワード許可設定のみ">
 <!ENTITY select.preferences.label "個人設定のみ">
 <!ENTITY select.passwords.label "パスワードのみ">
 <!ENTITY select.storage.label "ストレージのみ">
@@ -27,6 +28,7 @@
 
 <!ENTITY tab.cookies.label "Cookie">
 <!ENTITY tab.permissions.label "許可設定">
+<!ENTITY tab.permissionspwd.label "パスワード許可設定">
 <!ENTITY tab.preferences.label "個人設定">
 <!ENTITY tab.passwords.label "パスワード">
 <!ENTITY tab.storage.label "ストレージ">
@@ -73,6 +75,15 @@
 <!ENTITY perm.host.placeholder "ホスト名を入力してください">
 <!ENTITY perm.button.add.label "追加">
 <!ENTITY perm.button.add.accesskey "A">
+
+<!-- password permissions -->
+<!ENTITY permpwd.UseDefault "標準設定を使用する">
+<!ENTITY permpwd.AskAlways "毎回確認する">
+<!ENTITY permpwd.NeverSave "保存しない">
+
+<!ENTITY permpwd.host.placeholder "ホスト名を入力してください">
+<!ENTITY permpwd.button.add.label "追加">
+<!ENTITY permpwd.button.add.accesskey "A">
 
 <!-- preferences -->
 <!ENTITY prefs.description "コンテンツの設定は、Web サイトのズーム表示のレベルやサイト固有の設定を &brandShortName; に保存する機能です。">
@@ -143,6 +154,8 @@
 <!ENTITY forget.cookies.accesskey "C">
 <!ENTITY forget.permissions.label "許可設定">
 <!ENTITY forget.permissions.accesskey "P">
+<!ENTITY forget.permissionspwd.label "パスワード許可設定">
+<!ENTITY forget.permissionspwd.accesskey "r">
 <!ENTITY forget.preferences.label "コンテンツの個人設定">
 <!ENTITY forget.preferences.accesskey "o">
 <!ENTITY forget.passwords.label "パスワード">

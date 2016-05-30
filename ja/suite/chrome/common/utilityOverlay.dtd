@@ -125,7 +125,7 @@
 <!ENTITY proxy.label			"プロキシ設定...">
 <!ENTITY proxy.accesskey		"C">
 
-<!ENTITY bidiSwitchTextDirectionItem.label		"テキストの書記方向を切り換え">
+<!ENTITY bidiSwitchTextDirectionItem.label		"テキストの記述方向を切り換える">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey		"w">
 <!ENTITY bidiSwitchTextDirectionItem.commandkey		"X">
 
