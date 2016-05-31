@@ -191,12 +191,12 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <!ENTITY remoteXUL.title "リモート XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>この問題を Web サイトの管理者に報告してください。</li></ul></p>">
 
-<!ENTITY sslv3Used.title "安全に接続できません">
+<!ENTITY sslv3Used.title "安全な接続を確保できません">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc "高度な情報: SSL_ERROR_UNSUPPORTED_VERSION">
 
-<!ENTITY weakCryptoUsed.title "この接続は安全ではありません">
+<!ENTITY weakCryptoUsed.title "接続が安全ではありません">
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc "高度な情報: SSL_ERROR_NO_CYPHER_OVERLAP">
