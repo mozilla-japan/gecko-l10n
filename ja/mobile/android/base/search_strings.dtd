@@ -22,8 +22,6 @@
 <!ENTITY pref_clearHistory_dialogMessage 'このデバイスのすべての検索履歴を消去しますか？'>
 <!ENTITY pref_clearHistory_title '検索履歴の消去'>
 
-<!ENTITY pref_searchProvider_title '検索エンジン'>
-
 <!ENTITY search_widget_button_label '検索'>
 
 <!ENTITY network_error_title 'インターネットに接続されていません'>

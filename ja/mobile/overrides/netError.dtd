@@ -40,6 +40,12 @@
 </ul>
 ">
 
+<!ENTITY fileAccessDenied.title "ファイルへのアクセスは拒否されました">
+<!ENTITY fileAccessDenied.longDesc "
+<ul>
+  <li>ファイルが削除または移動されたか、もしくはファイルのパーミッションがアクセスを許可していません。</li>
+</ul>
+">
 
 <!ENTITY generic.title			"リクエストを正常に完了できませんでした">
 <!ENTITY generic.longDesc		"
@@ -200,3 +206,8 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc "高度な情報: SSL_ERROR_NO_CYPHER_OVERLAP">
+
+<!ENTITY inadequateSecurityError.title "接続が安全ではありません">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> は更新されておらず、攻撃に対して脆弱性のあるセキュリティ技術を利用しています。攻撃者はあなたが安全と思っている情報も簡単に暴くことができます。サイトの管理者はまず、あなたの訪問前にサーバを修正する必要があるでしょう。</p><p>エラーコード: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
