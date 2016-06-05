@@ -152,7 +152,7 @@
 <!ENTITY overlay_no_synced_devices "Firefox アカウントが接続されたデバイスが見つかりませんでした">
 
 <!ENTITY pref_category_search3 "検索">
-<!ENTITY pref_category_search_summary2 "追加、デフォルト設定、サジェストの表示">
+<!ENTITY pref_category_search_summary2 "追加、既定の設定、サジェストの表示">
 <!ENTITY pref_category_accessibility "アクセシビリティ">
 <!ENTITY pref_category_accessibility_summary2 "テキストサイズ、@@Zoom@@、音声入力">
 <!ENTITY pref_category_privacy_short "プライバシー">
@@ -165,8 +165,8 @@
 <!ENTITY pref_category_installed_search_engines "インストール済みの検索エンジン">
 <!ENTITY pref_category_add_search_providers "検索プロバイダを追加">
 <!ENTITY pref_category_search_restore_defaults "検索エンジンを復元">
-<!ENTITY pref_search_restore_defaults "デフォルトに復元">
-<!ENTITY pref_search_restore_defaults_summary "デフォルトに復元">
+<!ENTITY pref_search_restore_defaults "既定に復元">
+<!ENTITY pref_search_restore_defaults_summary "既定に復元">
 <!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
      advisory message on the customise search providers settings page explaining how to add new
      search providers.
@@ -174,7 +174,7 @@
      it is applicable. -->
 <!ENTITY pref_search_hint2 "ヒント: サイトの検索フィールド上で長押しした後、&formatI; アイコンにタッチすることで、どのサイトでも検索プロバイダに追加できます">
 <!ENTITY pref_category_advanced "高度な設定">
-<!ENTITY pref_category_advanced_summary3 "タブの復元、データセーバー、デベロッパーツール">
+<!ENTITY pref_category_advanced_summary3 "タブの復元、データセーバー、開発者ツール">
 <!ENTITY pref_category_notifications "お知らせ">
 <!ENTITY pref_category_notifications_summary "新しい機能、Web サイトの更新">
 <!ENTITY pref_content_notifications "Web サイトの更新">
@@ -355,13 +355,13 @@ size. -->
 <!ENTITY pref_private_data_downloadFiles2 "ダウンロードしたファイル">
 <!ENTITY pref_private_data_syncedTabs "同期したタブ">
 
-<!ENTITY pref_default_browser "デフォルトのブラウザに設定">
+<!ENTITY pref_default_browser "既定のブラウザに設定">
 <!ENTITY pref_about_firefox "&brandShortName; について">
 <!ENTITY pref_vendor_faqs "FAQ">
 <!ENTITY pref_vendor_feedback "フィードバックをください">
 
-<!ENTITY pref_dialog_set_default "デフォルトに設定">
-<!ENTITY pref_dialog_default "デフォルト">
+<!ENTITY pref_dialog_set_default "既定に設定">
+<!ENTITY pref_dialog_default "既定">
 <!ENTITY pref_dialog_remove "削除">
 
 <!ENTITY pref_search_last_toast "最後の検索エンジンを削除や無効化することはできません">
@@ -775,7 +775,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY whatsnew_notification_title "&brandShortName; は最新の状態です">
 <!ENTITY whatsnew_notification_summary "このバージョンの新しい機能を知りましょう">
 
-<!ENTITY promotion_add_to_homescreen "ホームスクリーンに追加">
+<!ENTITY promotion_add_to_homescreen "ホーム画面に追加">
 
 <!ENTITY helper_first_offline_bookmark_title "オフラインで読む">
 <!ENTITY helper_first_offline_bookmark_message "オフラインであってもブックマークのまとめ読み項目を表示します。">
