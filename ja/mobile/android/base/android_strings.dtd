@@ -7,7 +7,7 @@
 <!ENTITY  onboard_start_subtext3 "モバイルの Web ブラウジング体験をあなたぴったりのものに。">
 
 <!ENTITY firstrun_urlbar_message "&brandShortName; へようこそ">
-<!ENTITY firstrun_urlbar_subtext "検索サジェストのショートカットを利用して見つけたいものを素早く見つけましょう。">
+<!ENTITY firstrun_urlbar_subtext "検索候補のショートカットを利用して見つけたいものを素早く見つけましょう。">
 <!ENTITY firstrun_bookmarks_title "履歴">
 <!ENTITY firstrun_bookmarks_message "あなたのお気に入り、お手元に">
 <!ENTITY firstrun_bookmarks_subtext "検索するときはブックマークと履歴から結果を表示します。">
@@ -152,7 +152,7 @@
 <!ENTITY overlay_no_synced_devices "Firefox アカウントが接続されたデバイスが見つかりませんでした">
 
 <!ENTITY pref_category_search3 "検索">
-<!ENTITY pref_category_search_summary2 "追加、既定の設定、サジェストの表示">
+<!ENTITY pref_category_search_summary2 "追加、既定の設定、検索候補の表示">
 <!ENTITY pref_category_accessibility "アクセシビリティ">
 <!ENTITY pref_category_accessibility_summary2 "テキストサイズ、@@Zoom@@、音声入力">
 <!ENTITY pref_category_privacy_short "プライバシー">
