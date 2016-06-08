@@ -152,7 +152,7 @@
 <!ENTITY overlay_no_synced_devices "Firefox アカウントが接続されたデバイスが見つかりませんでした">
 
 <!ENTITY pref_category_search3 "検索">
-<!ENTITY pref_category_search_summary2 "追加、既定の設定、検索候補の表示">
+<!ENTITY pref_category_search_summary2 "追加、@@Default-@@設定、検索候補の表示">
 <!ENTITY pref_category_accessibility "アクセシビリティ">
 <!ENTITY pref_category_accessibility_summary2 "テキストサイズ、@@Zoom@@、音声入力">
 <!ENTITY pref_category_privacy_short "プライバシー">
@@ -165,8 +165,8 @@
 <!ENTITY pref_category_installed_search_engines "インストール済みの検索エンジン">
 <!ENTITY pref_category_add_search_providers "検索プロバイダを追加">
 <!ENTITY pref_category_search_restore_defaults "検索エンジンを復元">
-<!ENTITY pref_search_restore_defaults "既定に復元">
-<!ENTITY pref_search_restore_defaults_summary "既定に復元">
+<!ENTITY pref_search_restore_defaults "@@RestoreDefaults@@">
+<!ENTITY pref_search_restore_defaults_summary "@@RestoreDefaults@@">
 <!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
      advisory message on the customise search providers settings page explaining how to add new
      search providers.
@@ -355,13 +355,13 @@ size. -->
 <!ENTITY pref_private_data_downloadFiles2 "ダウンロードしたファイル">
 <!ENTITY pref_private_data_syncedTabs "同期したタブ">
 
-<!ENTITY pref_default_browser "既定のブラウザに設定">
+<!ENTITY pref_default_browser "@@DefaultBrowser@@に設定">
 <!ENTITY pref_about_firefox "&brandShortName; について">
 <!ENTITY pref_vendor_faqs "FAQ">
 <!ENTITY pref_vendor_feedback "フィードバックをください">
 
-<!ENTITY pref_dialog_set_default "既定に設定">
-<!ENTITY pref_dialog_default "既定">
+<!ENTITY pref_dialog_set_default "@@Default@@に設定">
+<!ENTITY pref_dialog_default "@@Default@@">
 <!ENTITY pref_dialog_remove "削除">
 
 <!ENTITY pref_search_last_toast "最後の検索エンジンを削除や無効化することはできません">
