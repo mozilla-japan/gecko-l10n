@@ -70,7 +70,7 @@
 <!ENTITY clearCacheNow.accesskey         "C">
 <!ENTITY clearOfflineAppCacheNow.label   "今すぐ消去">
 <!ENTITY clearOfflineAppCacheNow.accesskey "N">
-<!ENTITY overrideSmartCacheSize.label    "キャッシュサイズを制限する">
+<!ENTITY overrideSmartCacheSize.label    "キャッシュサイズを変更する">
 <!ENTITY overrideSmartCacheSize.accesskey "O">
 
 <!ENTITY updateTab.label                 "更新">
