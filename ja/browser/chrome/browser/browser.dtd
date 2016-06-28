@@ -251,91 +251,24 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.accesskey             "A">
 <!ENTITY addons.commandkey            "A">
 
-<!ENTITY webDeveloperMenu.label			"Web 開発">
-<!ENTITY webDeveloperMenu.accesskey		"W">
+<!ENTITY webDeveloperMenu.label		"Web 開発">
+<!ENTITY webDeveloperMenu.accesskey	"W">
 
-<!ENTITY devToolsCmd.keycode			"VK_F12">
-<!ENTITY devToolsCmd.keytext			"F12">
-
-<!ENTITY devtoolsServiceWorkers.label		"Service Worker">
-<!ENTITY devtoolsServiceWorkers.accesskey	"k">
-
-<!ENTITY devtoolsConnect.label			"接続...">
-<!ENTITY devtoolsConnect.accesskey		"e">
-
-<!ENTITY errorConsoleCmd.label			"エラーコンソール">
-<!ENTITY errorConsoleCmd.accesskey		"C">
-
-<!ENTITY remoteWebConsoleCmd.label		"リモート Web コンソール">
-
-<!ENTITY browserConsoleCmd.label		"ブラウザコンソール">
-<!ENTITY browserConsoleCmd.commandkey		"j">
-<!ENTITY browserConsoleCmd.accesskey		"B">
-
-<!ENTITY inspectContextMenu.label		"要素を調査">
-<!ENTITY inspectContextMenu.accesskey		"Q">
-
-<!ENTITY responsiveDesignMode.label		"レスポンシブデザインモード">
-<!ENTITY responsiveDesignMode.accesskey		"R">
-<!ENTITY responsiveDesignMode.commandkey	"M">
-
-<!ENTITY eyedropper.label			"スポイト">
-<!ENTITY eyedropper.accesskey			"Y">
-
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label			"スクラッチパッド">
-<!ENTITY scratchpad.accesskey			"s">
-<!ENTITY scratchpad.keycode			"VK_F4">
-<!ENTITY scratchpad.keytext			"F4">
-
-<!-- LOCALIZATION NOTE (browserToolboxMenu.label): This is the label for the
-  -  application menu item that opens the browser toolbox UI in the Tools menu. -->
-<!ENTITY browserToolboxMenu.label		"ブラウザツールボックス">
-<!ENTITY browserToolboxMenu.accesskey		"e">
-<!ENTITY browserToolboxCmd.commandkey		"i">
-
-<!-- LOCALIZATION NOTE (browserContentToolboxMenu.label): This is the label for the
-  -  application menu item that opens the browser content toolbox UI in the Tools menu.
-  -  This toolbox allows to debug the chrome of the content process in multiprocess builds.  -->
-<!ENTITY browserContentToolboxMenu.label	"ブラウザコンテンツツールボックス">
-<!ENTITY browserContentToolboxMenu.accesskey	"x">
-
-<!ENTITY devToolbarMenu.label			"開発ツールバー">
-<!ENTITY devToolbarMenu.accesskey		"v">
-<!ENTITY webide.label				"WebIDE">
-<!ENTITY webide.accesskey			"W">
-<!ENTITY webide.keycode				"VK_F8">
-<!ENTITY webide.keytext				"F8">
-<!ENTITY devToolbar.keycode			"VK_F2">
-<!ENTITY devToolbar.keytext			"F2">
-<!ENTITY devToolboxMenuItem.label		"開発ツールを表示">
-<!ENTITY devToolboxMenuItem.accesskey		"T">
-<!ENTITY devToolboxMenuItem.keytext		"I">
-
-<!ENTITY getMoreDevtoolsCmd.label		"その他のツールを入手">
-<!ENTITY getMoreDevtoolsCmd.accesskey		"M">
+<!ENTITY inspectContextMenu.label	"要素を調査">
+<!ENTITY inspectContextMenu.accesskey	"Q">
 
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
-<!ENTITY newUserContext.label             "@@New-CMD@@コンテナタブ">
-<!ENTITY newUserContext.accesskey         "C">
-<!ENTITY userContextPersonal.label        "プライベート">
-<!ENTITY userContextPersonal.accesskey    "P">
-<!ENTITY userContextWork.label            "仕事">
-<!ENTITY userContextWork.accesskey        "W">
-<!ENTITY userContextBanking.label         "銀行取引">
-<!ENTITY userContextBanking.accesskey     "B">
-<!ENTITY userContextShopping.label        "ショッピング">
-<!ENTITY userContextShopping.accesskey    "S">
+<!ENTITY newUserContext.label		"@@New-CMD@@コンテナタブ">
+<!ENTITY newUserContext.accesskey	"C">
+<!ENTITY userContextPersonal.label	"プライベート">
+<!ENTITY userContextPersonal.accesskey	"P">
+<!ENTITY userContextWork.label		"仕事">
+<!ENTITY userContextWork.accesskey	"W">
+<!ENTITY userContextBanking.label	"銀行取引">
+<!ENTITY userContextBanking.accesskey	"B">
+<!ENTITY userContextShopping.label	"ショッピング">
+<!ENTITY userContextShopping.accesskey	"S">
 <!ENTITY newNavigatorCmd.label		"@@NewWindow@@">
 <!ENTITY newNavigatorCmd.key		"N">
 <!ENTITY newNavigatorCmd.accesskey	"N">
