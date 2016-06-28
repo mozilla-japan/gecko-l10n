@@ -251,33 +251,33 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.accesskey             "A">
 <!ENTITY addons.commandkey            "A">
 
-<!ENTITY webDeveloperMenu.label       "Web 開発">
-<!ENTITY webDeveloperMenu.accesskey   "W">
+<!ENTITY webDeveloperMenu.label			"Web 開発">
+<!ENTITY webDeveloperMenu.accesskey		"W">
 
-<!ENTITY devToolsCmd.keycode          "VK_F12">
-<!ENTITY devToolsCmd.keytext          "F12">
+<!ENTITY devToolsCmd.keycode			"VK_F12">
+<!ENTITY devToolsCmd.keytext			"F12">
 
-<!ENTITY devtoolsServiceWorkers.label      "Service Worker">
-<!ENTITY devtoolsServiceWorkers.accesskey  "k">
+<!ENTITY devtoolsServiceWorkers.label		"Service Worker">
+<!ENTITY devtoolsServiceWorkers.accesskey	"k">
 
-<!ENTITY devtoolsConnect.label        "接続...">
-<!ENTITY devtoolsConnect.accesskey    "e">
+<!ENTITY devtoolsConnect.label			"接続...">
+<!ENTITY devtoolsConnect.accesskey		"e">
 
-<!ENTITY errorConsoleCmd.label        "エラーコンソール">
-<!ENTITY errorConsoleCmd.accesskey    "C">
+<!ENTITY errorConsoleCmd.label			"エラーコンソール">
+<!ENTITY errorConsoleCmd.accesskey		"C">
 
-<!ENTITY remoteWebConsoleCmd.label    "リモート Web コンソール">
+<!ENTITY remoteWebConsoleCmd.label		"リモート Web コンソール">
 
-<!ENTITY browserConsoleCmd.label      "ブラウザコンソール">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "B">
+<!ENTITY browserConsoleCmd.label		"ブラウザコンソール">
+<!ENTITY browserConsoleCmd.commandkey		"j">
+<!ENTITY browserConsoleCmd.accesskey		"B">
 
-<!ENTITY inspectContextMenu.label     "要素を調査">
-<!ENTITY inspectContextMenu.accesskey "Q">
+<!ENTITY inspectContextMenu.label		"要素を調査">
+<!ENTITY inspectContextMenu.accesskey		"Q">
 
-<!ENTITY responsiveDesignTool.label   "レスポンシブデザインビュー">
-<!ENTITY responsiveDesignTool.accesskey "R">
-<!ENTITY responsiveDesignTool.commandkey "M">
+<!ENTITY responsiveDesignMode.label		"レスポンシブデザインモード">
+<!ENTITY responsiveDesignMode.accesskey		"R">
+<!ENTITY responsiveDesignMode.commandkey	"M">
 
 <!ENTITY eyedropper.label			"スポイト">
 <!ENTITY eyedropper.accesskey			"Y">
