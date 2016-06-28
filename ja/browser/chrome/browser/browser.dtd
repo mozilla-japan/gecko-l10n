@@ -309,7 +309,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY browserContentToolboxMenu.label	"ブラウザコンテンツツールボックス">
 <!ENTITY browserContentToolboxMenu.accesskey	"x">
 
-<!ENTITY devToolbarCloseButton.tooltiptext	"開発ツールバーを閉じる">
 <!ENTITY devToolbarMenu.label			"開発ツールバー">
 <!ENTITY devToolbarMenu.accesskey		"v">
 <!ENTITY webide.label				"WebIDE">
@@ -321,9 +320,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY devToolboxMenuItem.label		"開発ツールを表示">
 <!ENTITY devToolboxMenuItem.accesskey		"T">
 <!ENTITY devToolboxMenuItem.keytext		"I">
-
-<!ENTITY devToolbarToolsButton.tooltip		"開発ツールを表示">
-<!ENTITY devToolbarOtherToolsButton.label	"その他のツール">
 
 <!ENTITY getMoreDevtoolsCmd.label		"その他のツールを入手">
 <!ENTITY getMoreDevtoolsCmd.accesskey		"M">
