@@ -5,8 +5,15 @@
 <!-- (^^; ユーザのホームページではなく検索エンジンのホームへのリンク -->
 <!ENTITY safeb.palm.accept.label	"スタートページに戻る"><!-- en-US: Get me out of here! -->
 <!ENTITY safeb.palm.decline.label	"この警告を無視する">
-<!-- Localization note (safeb.palm.notdeceptive.label) - Label of the Help menu item. -->
+<!-- Localization note (safeb.palm.notdeceptive.label) - Label of the Help menu
+  item. Either this or reportDeceptiveSiteMenu.label from report-phishing.dtd is
+  shown. -->
 <!ENTITY safeb.palm.notdeceptive.label	"詐欺サイトの誤報告を指摘...">
+<!-- Localization note (safeb.palm.notdeceptive.accesskey) - Because
+  safeb.palm.notdeceptive.label and reportDeceptiveSiteMenu.title from
+  report-phishing.dtd are never shown at the same time, the same accesskey can
+  be used for them. -->
+<!ENTITY safeb.palm.notdeceptive.accesskey "d">
 <!ENTITY safeb.palm.reportPage.label	"このサイトがブロックされる理由">
 <!ENTITY safeb.palm.whyForbidden.label	"このサイトがブロックされる理由">
 

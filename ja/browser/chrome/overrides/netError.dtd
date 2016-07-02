@@ -35,6 +35,12 @@
 </ul>
 ">
 
+<!ENTITY fileAccessDenied.title		"ファイルへのアクセスが拒否されました">
+<!ENTITY fileAccessDenied.longDesc "
+<ul>
+  <li>ファイルが削除または移動されているかファイルの許可属性によりアクセスが拒否された可能性があります。</li>
+</ul>
+">
 
 <!ENTITY generic.title			"リクエストを正常に完了できませんでした">
 <!ENTITY generic.longDesc		"
@@ -129,13 +135,11 @@
 </ul>
 ">
 
-<!ENTITY nssBadCert.title		"安全な接続ができませんでした">
-<!ENTITY nssBadCert.longDesc2		"
-<ul>
-  <li>サーバの設定に問題があるか、誰かが正規のサーバになりすましている可能性があります。</li>
-  <li>以前は正常に接続できていた場合、この問題は恐らく一時的なものですので、後で再度試してみてください。</li>
-</ul>
-">
+<!ENTITY certerror.longpagetitle1	"安全な接続ではありません">
+<!-- Localization note (certerror.introPara) - The text content of the span tag
+will be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
+<!ENTITY certerror.introPara		"<span class='hostname'/> の所有者による Web サイトの設定が不適切です。あなたの情報が盗まれることを防ぐため、この Web サイトへの接続は確立されません。">
 
 <!ENTITY sharedLongDesc			"
 <ul>
@@ -152,21 +156,7 @@
 <!ENTITY corruptedContentError.longDesc	"<p>このページは、データの伝送中にエラーが検出されたため表示できません。</p><ul><li>Web サイトの所有者に連絡を取り、この問題を報告してください。</li></ul>">
 
 
-<!ENTITY securityOverride.linkText		"例外として扱うこともできます...">
-<!ENTITY securityOverride.getMeOutOfHereButton	"スタートページに戻る">
 <!ENTITY securityOverride.exceptionButtonLabel	"例外を追加...">
-
-<!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
-contents of the <button> tags. It uses strings already defined above. The
-button is included here (instead of netError.xhtml) because it exposes
-functionality specific to firefox. -->
-
-<!ENTITY securityOverride.warningContent	"
-<p>インターネット接続環境を完全には信頼できない場合や、これまでこのサーバではこの警告が表示されなかった場合は、このサイトを例外として追加しないでください。</p>
-
-<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
-<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
-">
 
 <!ENTITY errorReporting.automatic2	"エラーを報告すると、悪意のあるサイトの特定とブロックに役立ちます">
 <!ENTITY errorReporting.learnMore	"詳細...">
@@ -186,3 +176,15 @@ functionality specific to firefox. -->
 <!ENTITY weakCryptoAdvanced.title	"エラー内容">
 <!ENTITY weakCryptoAdvanced.longDesc	"<span class='hostname'></span> は攻撃に対して脆弱な古い技術を利用しています。安全だと想定される秘密情報を、攻撃者に簡単に開示される可能性があります。">
 <!ENTITY weakCryptoAdvanced.override	"(安全ではない接続) 古い技術で <span class='hostname'></span> を読み込む">
+
+<!ENTITY certerror.pagetitle1			"安全ではない接続">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation	"このサイトでは、暗号化された通信のみで接続するよう &brandShortName; に指定する HTTP Strict Transport Security (HSTS) が使われています。そのため、この証明書を例外に追加することはできません。">
+
+
+
+<!ENTITY certerror.copyToClipboard.label	"テキストをクリップボードにコピー">
+
+<!ENTITY inadequateSecurityError.title		"接続が安全ではありません">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc	"<p><span class='hostname'></span> は攻撃に対して脆弱な古いセキュリティ技術を使用しています。攻撃者は保護された情報を簡単に暴露できます。サイトを安全に訪れるには、この Web サイトの管理者にサーバの問題を修正してもらう必要があります。</p><p>エラーコード: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

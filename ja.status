@@ -719,3 +719,4 @@ chat, mail             ------:------------  21971:06c3aadde9bf   mar            
 suite                  ------:------------  21974:572648db1b12   mar             sync suite
 mobile                 319190:550d1399f06a  -----:------------   Kechol          sync mobile
 devtools/client        333490:e50c761a9bfb  -----:------------   mar             sync devtools/client (mozilla-beta)
+browser                319198:a8fe75f38163  -----:------------   hATrayflood     sync browser
