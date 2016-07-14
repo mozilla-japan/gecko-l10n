@@ -692,7 +692,7 @@ suite                  ------:------------  21491:e11d742cc669   mar            
 devtools/client        304440:a67f02c29ede  -----:------------   mar, YuichiNukiyama  sync devtools/client
 mobile                 304440:a67f02c29ede  -----:------------   Kechol          sync mobile
 
-[l10n-mozilla-47.0] (for beta)
+Released! [l10n-mozilla-47.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 mail                   ------:------------  21684:aa7262925765   mar             sync mail
@@ -707,7 +707,7 @@ mobile                 310623:02b8dc35ec80  -----:------------   Kechol         
 dom                    310693:bfffe574ce0c  -----:------------   mar             re-sync dom
 devtools/client        310608:02b8dc35ec80  -----:------------   hATrayflood     sync devtools/client
 
-[l10n-mozilla-48.0] (for aurora)
+[l10n-mozilla-48.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 devtools/shared        318784:aea53454e86f  -----:------------   mar             sync devtools/shared
@@ -720,3 +720,9 @@ suite                  ------:------------  21974:572648db1b12   mar            
 mobile                 319190:550d1399f06a  -----:------------   Kechol          sync mobile
 devtools/client        333490:e50c761a9bfb  -----:------------   mar             sync devtools/client (mozilla-beta)
 browser                319198:a8fe75f38163  -----:------------   hATrayflood     sync browser
+
+[l10n-mozilla-49.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+dom                    325414:709652b67401  22177:5418a4e791e3   mar             sync dom
+
