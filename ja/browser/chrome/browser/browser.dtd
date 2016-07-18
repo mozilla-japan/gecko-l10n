@@ -169,7 +169,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addCurPagesCmd.label		"すべてのタブをブックマーク...">
 <!ENTITY showAllBookmarks2.label		"すべてのブックマークを表示">
 <!ENTITY recentBookmarks.label			"最近のブックマーク">
-<!ENTITY otherBookmarksCmd.label		"その他のブックマーク">
+<!ENTITY otherBookmarksCmd.label		"他のブックマーク">
 <!ENTITY bookmarksToolbarChevron.tooltip	"残りのブックマークを表示します">
 
 <!ENTITY backCmd.label                "戻る">
@@ -224,7 +224,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksCmd.commandkey	"b">
 
 <!ENTITY bookmarksMenuButton.label          "ブックマーク">
-<!ENTITY bookmarksMenuButton.other.label "その他のブックマーク">
+<!ENTITY bookmarksMenuButton.other.label "他のブックマーク">
 <!ENTITY viewBookmarksSidebar2.label        "ブックマークサイドバーを表示">
 <!ENTITY viewBookmarksToolbar.label         "ブックマークツールバーを表示">
 
