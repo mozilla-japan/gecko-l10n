@@ -725,4 +725,5 @@ browser                319198:a8fe75f38163  -----:------------   hATrayflood    
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                    325414:709652b67401  22177:5418a4e791e3   mar             sync dom
+netwerk                325465:df749e7bf392  22182:5a9f587d9da8   mar             sync netwerk
 
