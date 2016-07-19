@@ -53,6 +53,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent	"ユーザエージェント">
 <!ENTITY aboutSupport.appBasicsOS		"OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse	"メモリ使用量">
+<!ENTITY aboutSupport.appBasicsPerformance	"パフォーマンス">
 
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
 <!ENTITY aboutSupport.appBasicsServiceWorkers	"登録された Service Workers">
@@ -86,6 +87,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle		"グラフィックス">
 
+<!ENTITY aboutSupport.placeDatabaseTitle		"Places データベース">
+<!ENTITY aboutSupport.placeDatabaseIntegrity		"完全性">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity	"完全性を検証">
+
 <!ENTITY aboutSupport.jsTitle			"JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC		"インクリメンタル GC">
 
@@ -111,3 +116,6 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsFailureLogTitle	"失敗ログ">
 <!ENTITY aboutSupport.graphicsGPU1Title		"GPU #1">
 <!ENTITY aboutSupport.graphicsGPU2Title		"GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle	"決定ログ">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle	"クラッシュガードが無効化した機能">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle	"回避策">

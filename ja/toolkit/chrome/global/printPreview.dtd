@@ -32,6 +32,9 @@
 <!ENTITY Custom.label		"ユーザ設定...">
 <!ENTITY ShrinkToFit.label	"用紙に合わせて縮小"><!-- (^^; 長い表現禁止 -->
 <!ENTITY customPrompt.title	"@@Zoom@@を設定...">
+<!ENTITY simplifyPage.label		"ページを単純化">
+<!ENTITY simplifyPage.enabled.tooltip	"読みやすいレイアウトに変更します">
+<!ENTITY simplifyPage.disabled.tooltip	"このページは自動的に単純化できません">
 
 <!ENTITY homearrow.tooltip	"最初のページを表示します">
 <!ENTITY endarrow.tooltip	"最後のページを表示します">
