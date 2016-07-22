@@ -36,7 +36,7 @@
 <!ENTITY archiveInOtherFolder.label	"その他のフォルダを指定する:">
 <!ENTITY archiveInOtherFolder.accesskey	"h">
 <!ENTITY specialFolders.label		"下書きとテンプレート">
-<!ENTITY keepDrafts.label		"下書きの保存先:">
+<!ENTITY keepDrafts2.label		"下書きの保存先:">
 <!-- LOCALIZATION NOTE (draftsFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY draftsFolderOn.label		"次のアカウントの &quot;下書き&quot; フォルダ:">
 <!ENTITY draftsFolderOn.accesskey	"D">

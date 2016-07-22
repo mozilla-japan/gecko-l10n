@@ -26,8 +26,8 @@
 <!ENTITY bgColor.accesskey			"B">
 <!ENTITY restoreHTMLDefaults.label		"@@RestoreDefaults@@">
 <!ENTITY restoreHTMLDefaults.accesskey		"R">
-<!ENTITY enterKeyCreatesNewParagraph.label	"段落書式の使用中は Enter キーで新しい段落を作成する">
-<!ENTITY enterKeyCreatesNewParagraph.accesskey	"p">
+<!ENTITY defaultToParagraph.label		"@@Default@@で本文テキストの代わりに段落書式を使用する">
+<!ENTITY defaultToParagraph.accesskey		"P">
 
 <!ENTITY spellCheck.label			"送信前にスペルチェックを行う">
 <!ENTITY spellCheck.accesskey			"C">

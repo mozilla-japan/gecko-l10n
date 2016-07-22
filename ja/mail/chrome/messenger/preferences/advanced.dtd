@@ -59,8 +59,6 @@
 <!ENTITY updateCheck.accesskey			"C">
 <!ENTITY updateManual.label			"更新を確認しない (非推奨: セキュリティリスク)">
 <!ENTITY updateManual.accesskey			"N">
-<!ENTITY updateAutoAddonWarn.label		"更新によりアドオンが無効化される場合は警告する">
-<!ENTITY updateAutoAddonWarn.accesskey		"W">
 <!ENTITY updateHistory.label			"更新履歴を表示">
 <!ENTITY updateHistory.accesskey		"p">
 
