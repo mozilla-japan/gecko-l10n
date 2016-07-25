@@ -729,4 +729,5 @@ netwerk                325465:df749e7bf392  22182:5a9f587d9da8   mar            
 toolkit, security      325465:df749e7bf392  22182:5a9f587d9da8   mar             sync toolkit, security, services
 chat, mail             ------:------------  22182:5a9f587d9da8   mar             sync chat, mail
 devtools/shared        325507:b95e8981e418  -----:------------   mar             sync devtools/shared
+suite                  ------:------------  22192:f226b98eb369   mar             sync suite
 
