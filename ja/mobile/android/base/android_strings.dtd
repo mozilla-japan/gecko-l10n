@@ -3,8 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY firstrun_panel_title_welcome "ようこそ">
-<!ENTITY  onboard_start_message3 "&brandShortName; とブラウジング">
-<!ENTITY  onboard_start_subtext3 "モバイルの Web ブラウジング体験をあなたぴったりのものに。">
 
 <!ENTITY firstrun_urlbar_message "&brandShortName; へようこそ">
 <!ENTITY firstrun_urlbar_subtext "検索候補のショートカットを利用して見つけたいものを素早く見つけましょう。">
@@ -20,20 +18,32 @@
 <!ENTITY firstrun_signin_message "接続して始めましょう">
 <!ENTITY firstrun_signin_button "Sync にサインイン">
 <!ENTITY  onboard_start_button_browser "ブラウジングを始める">
+<!ENTITY firstrun_button_notnow "今はしない">
 <!ENTITY firstrun_button_next "次へ">
 
-<!ENTITY  onboard_start_restricted1 "シンプルなバージョンの &brandShortName; は管理しやすく、安全にご利用いただけます。">
+<!ENTITY firstrun_tabqueue_title "リンク">
+<!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
+<!ENTITY firstrun_tabqueue_message_off "タブキューを有効にする">
+<!ENTITY firstrun_tabqueue_subtext_off "リンクを他のアプリでタップした時に、&brandShortName; にそのリンクを保存しましょう。">
 
-<!ENTITY  reading_list_migration_title "リーディングリストに接続しました">
-<!ENTITY  reading_list_migration_subtext "リーディングリストの項目は以降、ブックマークに追加されます">
-<!ENTITY  reading_list_migration_goto_bookmarks "ブックマークへ移動">
-<!ENTITY  reading_list_migration_bookmarks_hidden "ブックマークパネルが非表示になっています">
+<!ENTITY firstrun_tabqueue_message_on "成功！">
+<!ENTITY firstrun_tabqueue_subtext_on "この機能はいつでも &pref_category_general; 内の &settings; から変更できます。">
+
+<!ENTITY firstrun_readerview_title "記事">
+<!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
+<!ENTITY firstrun_readerview_message "散らかりをなくそう">
+<!ENTITY firstrun_readerview_subtext "記事を読みやすくしたり、オフラインで記事を読んだりするためにリーダービューを利用しましょう。">
+
+<!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
+<!ENTITY firstrun_account_title "あなたは">
+<!ENTITY firstrun_account_message "他の端末に &brandShortName; をインストールしていますか？">
+
+<!ENTITY  onboard_start_restricted1 "シンプルなバージョンの &brandShortName; は管理しやすく、安全にご利用いただけます。">
 
 <!-- Localization note: These are used as the titles of different pages on the home screen.
      They are automatically converted to all caps by the Android platform. -->
 <!ENTITY  bookmarks_title "ブックマーク">
 <!ENTITY  history_title "履歴">
-<!ENTITY  reading_list_title "リーディングリスト">
 <!ENTITY  recent_tabs_title "最近閉じたタブ">
 
 <!ENTITY  switch_to_tab "タブに切り換え">
@@ -69,6 +79,11 @@
      and is labeled by this String. -->
 <!ENTITY screenshot_folder_label_in_bookmarks "スクリーンショット">
 <!ENTITY readinglist_smartfolder_label_in_bookmarks "リーディングリスト">
+
+<!-- Localization note (bookmark_folder_items): The variable is replaced by the number of items
+     in the folder. -->
+<!ENTITY bookmark_folder_items "&formatD; アイテム">
+<!ENTITY bookmark_folder_one_item "1 アイテム">
 
 <!ENTITY reader_saved_offline "Saved offline">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -174,6 +189,9 @@
      it is applicable. -->
 <!ENTITY pref_search_hint2 "ヒント: サイトの検索フィールド上で長押しした後、&formatI; アイコンにタッチすることで、どのサイトでも検索プロバイダに追加できます">
 <!ENTITY pref_category_advanced "高度な設定">
+<!-- Localization note (pref_category_advanced_summary3): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
 <!ENTITY pref_category_advanced_summary3 "タブの復元、データセーバー、開発者ツール">
 <!ENTITY pref_category_notifications "お知らせ">
 <!ENTITY pref_category_notifications_summary "新しい機能、Web サイトの更新">
@@ -225,6 +243,9 @@
 <!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
 <!ENTITY pref_cookies_disabled "無効">
 
+<!-- Localization note (pref_category_data_saver): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
 <!ENTITY pref_category_data_saver "データセーバー">
 <!ENTITY pref_category_media "メディア">
 <!ENTITY pref_category_developer_tools "開発者ツール">
@@ -287,7 +308,12 @@
      update the website title is used instead of this string.
      We can't use Android plural forms, sadly. See Bug #753859. -->
 <!ENTITY content_notification_title_plural "&formatD; の Web サイトが更新されました">
-<!ENTITY content_notification_action_settings "通知設定">
+<!-- Localization note (content_notification_action_settings2): This label will be shown as an action in a content notification.
+     Clicking the action will jump to the notification settings of the app. -->
+<!ENTITY content_notification_action_settings2 "設定">
+<!-- Localization note(content_notification_action_read_now): This label will be shown as an action in a content notification.
+     Clicking the action will open all new content in the browser. -->
+<!ENTITY content_notification_action_read_now "今すぐ読む">
 <!-- Localization note (content_notification_updated_on): &formatS; will be replaced with a medium sized version of the
      date, depending on locale. For en_US this is for example: Feb 24, 2016. For more details see the Android developer
      documentation for DateFormat.getMediumDateFormat(). -->
@@ -426,7 +452,7 @@ size. -->
 <!ENTITY page "ページ">
 <!ENTITY tools "ツール">
 <!ENTITY new_tab "@@NewTab@@">
-<!ENTITY new_private_tab "プライベートタブ">
+<!ENTITY new_private_tab "@@New-CMD@@プライベートタブ">
 <!ENTITY close_all_tabs "すべてのタブを閉じる">
 <!ENTITY close_private_tabs "プライベートタブを閉じる">
 <!ENTITY tabs_normal "タブ">
@@ -538,6 +564,8 @@ size. -->
 <!ENTITY home_history_title "履歴">
 <!ENTITY home_synced_devices_smartfolder "同期された端末">
 <!ENTITY home_synced_devices_number "&formatD; 台">
+<!-- Localization note (home_synced_devices_one_device): This is the singular version of home_synced_devices_number, referring to the number of devices a user has synced. -->
+<!ENTITY home_synced_devices_one "1 台">
 <!ENTITY home_history_back_to2 "すべての履歴に戻る">
 <!ENTITY home_clear_history_button "閲覧履歴を削除">
 <!ENTITY home_clear_history_confirm "本当に履歴を削除しますか？">
@@ -780,3 +808,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_first_offline_bookmark_title "オフラインで読む">
 <!ENTITY helper_first_offline_bookmark_message "オフラインであってもブックマークのまとめ読み項目を表示します。">
 <!ENTITY helper_first_offline_bookmark_button "ブックマークへ移動">
+
+<!ENTITY helper_triple_readerview_open_title "オフラインでも利用">
+<!ENTITY helper_triple_readerview_open_message "リーダービューの記事をオフラインで読むにはブックマークしてください。">
+<!ENTITY helper_triple_readerview_open_button "ブックマークに追加">
