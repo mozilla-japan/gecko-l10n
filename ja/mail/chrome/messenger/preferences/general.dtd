@@ -19,6 +19,7 @@
 <!ENTITY playSound1.accesskey		"d">
 <!ENTITY showAnimatedAlert.label	"デスクトップ通知を表示する">
 <!ENTITY showAnimatedAlert.accesskey	"S">
+<!ENTITY notificationAlertSettings.label	"通知はシステム環境設定の通知ペインで無効化できます。">
 <!ENTITY customizeMailAlert.label	"設定...">
 <!ENTITY customizeMailAlert.accesskey	"C">
 

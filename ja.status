@@ -738,4 +738,5 @@ devtools/client        325659:fa80a27f26df  -----:------------   hATrayflood    
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  22606:742127b0c0ea   mar             sync calendar
+chat, mail             ------:------------  22606:742127b0c0ea   mar             sync chat, mail
 

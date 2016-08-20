@@ -27,10 +27,10 @@
 <!ENTITY community.exp.creditsLink	"グローバルなコミュニティ">
 <!ENTITY community.exp.end		"です。">
 
-<!ENTITY community.start2		"&brandShortName; は">
+<!ENTITY community.start2		"&brandShortName; をデザインしている">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.mozillaLink		"&vendorShortName;">
-<!ENTITY community.middle2		"によってデザインされ、Web がすべての人々にとってオープンかつパブリックであり、アクセスできるように保つため、一つに集まって働く">
+<!ENTITY community.middle2		"は、Web の公開性、公衆性、制限のないアクセスを保つために共に活動している">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink		"グローバルなコミュニティ">
 <!ENTITY community.end3			"です。">
@@ -42,6 +42,8 @@
 <!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
 <!ENTITY helpus.getInvolvedLink		"コミュニティに参加">
 <!ENTITY helpus.end			"してください！">
+
+<!ENTITY releaseNotes.link		"リリースノート">
 
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
 <!ENTITY bottomLinks.license		"ライセンス情報">

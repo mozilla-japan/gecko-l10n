@@ -38,9 +38,10 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY selectDescription.accesskey	"P">
 <!ENTITY acctName.label			"アカウント名:">
 <!ENTITY acctName.accesskey		"N">
+<!ENTITY noModulesFound.label		"データの@@ImportNoun@@元のアプリケーションまたはファイルが見つかりませんでした。">
 
-<!ENTITY back.label			"戻る">
-<!ENTITY forward.label			"@@NextButton@@">
+<!ENTITY back.label			"&lt; 戻る">
+<!ENTITY forward.label			"@@NextButton@@ &gt;">
 <!ENTITY finish.label			"完了">
 <!ENTITY cancel.label			"キャンセル">
 
