@@ -6,7 +6,7 @@
 
 <!ENTITY searchreset.pageTitle      "検索の設定をもとに戻しますか？">
 
-<!ENTITY searchreset.pageInfo1      "あなたの検索の設定は期限切れのようです。@@DefaultValue@@の設定に戻すことができます。">
+<!ENTITY searchreset.pageInfo1      "あなたの検索の設定は期限切れのようです。@@Default@@の設定に戻すことができます。">
 
 
 <!-- LOCALIZATION NOTE (searchreset.selector.label): this string is
