@@ -740,4 +740,5 @@ target dir             mozilla and comm hg changeset rev:id      by             
 calendar               ------:------------  22606:742127b0c0ea   mar             sync calendar
 chat, mail             ------:------------  22606:742127b0c0ea   mar             sync chat, mail
 devtools/shared        332812:6f1c9caedd87  -----:------------   mar             sync devtools/shared
+dom                    332827:07189ee91625  22607:09ed3287de70   mar             sync dom
 
