@@ -37,10 +37,6 @@
 <!ENTITY warning.updatesecurity.enable.label		"有効化">
 <!ENTITY warning.updatesecurity.enable.tooltip		"アドオンの更新のセキュリティ確認を有効化します">
 
-<!-- global informations -->
-<!ENTITY info.plugincheck.label			"プラグインが最新バージョンであるか確認する">
-<!ENTITY info.plugincheck.tooltip		"インストールされた有効なプラグインが最新バージョンであるか確認します">
-
 <!-- categories / views -->
 <!ENTITY view.search.label			"検索">
 <!ENTITY view.discover.label			"アドオン入手">

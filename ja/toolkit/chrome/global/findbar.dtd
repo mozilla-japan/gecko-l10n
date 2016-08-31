@@ -14,3 +14,6 @@
 <!ENTITY caseSensitive.label			"大文字/小文字を区別">
 <!ENTITY caseSensitive.accesskey		"c">
 <!ENTITY caseSensitive.tooltiptext		"大文字/小文字を区別して検索します">
+<!ENTITY entireWord.label			"完全一致">
+<!ENTITY entireWord.accesskey			"w">
+<!ENTITY entireWord.tooltiptext			"指定文字列に完全一致する単語だけを検索します">

@@ -100,6 +100,10 @@ Ping
   スレッドの停止
 ">
 
+<!ENTITY aboutTelemetry.scalarsSection "
+  スカラー
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   ヒストグラム
 ">
