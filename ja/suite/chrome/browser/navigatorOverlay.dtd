@@ -122,17 +122,25 @@
 <!ENTITY cookieBlockImagesCmd.accesskey "B">
 <!ENTITY cookieBlockImagesMsg.label "このサイトの画像は一切表示しません。">
 
-<!ENTITY cookieAllowPopupsCmd.label "このサイトのポップアップ表示を許可する">
-<!ENTITY cookieAllowPopupsCmd.accesskey "A">
-<!ENTITY cookieManagePopups.label "ポップアップの管理">
-<!ENTITY cookieManagePopups.accesskey "M">
+<!ENTITY popupsMessageChangeTitle.label "ポップアップ許可設定の変更">
+<!ENTITY popupAllowCmd.label "このサイトのポップアップ表示を許可">
+<!ENTITY popupAllowCmd.accesskey "A">
+<!ENTITY popupAllowMsg.label "このサイトからのポップアップは常に表示されます。">
+<!ENTITY popupDefaultCmd.label "@@Default-@@ポップアップ許可設定を使用">
+<!ENTITY popupDefaultCmd.accesskey "U">
+<!ENTITY popupDefaultMsg.label "このサイトからのポップアップは@@Default-@@設定に従って表示されます。">
+<!ENTITY popupBlockCmd.label "このサイトからのポップアップをブロック">
+<!ENTITY popupBlockCmd.accesskey "B">
+<!ENTITY popupBlockMsg.label "このサイトからのポップアップは表示されません。">
+<!ENTITY popupsManage.label "ポップアップの管理">
+<!ENTITY popupsManage.accesskey "M">
 
 <!ENTITY cookieCookieManager.label "Cookie マネージャ">
 <!ENTITY cookieCookieManager.accesskey "C">
 <!ENTITY cookieImageManager.label "画像マネージャ">
 <!ENTITY cookieImageManager.accesskey "I">
-<!ENTITY cookiePopupManager.label "ポップアップマネージャ">
-<!ENTITY cookiePopupManager.accesskey "o">
+<!ENTITY popupsManager.label "ポップアップマネージャ">
+<!ENTITY popupsManager.accesskey "o">
 
 <!ENTITY clearPrivateDataCmd.label "プライバシー情報の消去...">
 <!ENTITY clearPrivateDataCmd.accesskey "e">

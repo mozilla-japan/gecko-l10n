@@ -33,6 +33,11 @@
 <!ENTITY fontColor.accesskey                  "T">
 <!ENTITY bgColor.label                        "背景色:">
 <!ENTITY bgColor.accesskey                    "B">
+<!ENTITY defaultCompose.label                 "@@Default@@の作成書式:">
+<!ENTITY defaultBodyText.label                "本文テキスト (エンターキーで改行)">
+<!ENTITY defaultBodyText.accesskey            "o">
+<!ENTITY defaultParagraph.label               "段落 (エンターキーで新しい段落)">
+<!ENTITY defaultParagraph.accesskey           "P">
 
 <!ENTITY selectHeaderType.label               "返信ヘッダの形式を選択してください:">
 <!ENTITY selectHeaderType.accesskey           "e">

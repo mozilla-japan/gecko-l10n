@@ -31,6 +31,8 @@
 <!ENTITY acctName.label           "アカウント名:">
 <!ENTITY acctName.accesskey       "N">
 
+<!ENTITY noModulesFound.label     "データの@@ImportNoun@@元のアプリケーションまたはファイルが見つかりませんでした。">
+
 <!ENTITY back.label               "&lt; 戻る">
 <!ENTITY forward.label            "@@NextButton@@ &gt;">
 <!ENTITY finish.label             "完了">

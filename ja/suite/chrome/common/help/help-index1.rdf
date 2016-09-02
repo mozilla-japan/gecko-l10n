@@ -1003,6 +1003,11 @@
          nc:link="mailnews_addressbooks.xhtml#adding_and_removing_ldap_directories"/>
      </rdf:li>
      <rdf:li>
+       <rdf:Description ID="location_aware_browsing"
+         nc:name="location aware browsing preferences"
+         nc:link="privsec_help.xhtml#location_aware_browsing"/>
+     </rdf:li>
+     <rdf:li>
        <rdf:Description ID="lock_icon"
          nc:name="lock icon"
          nc:link="using_certs_help.xhtml#checking_security_for_a_web_page"/>
@@ -1873,11 +1878,6 @@
 <rdf:Description about="#search">
    <nc:subheadings>
      <rdf:Seq><rdf:li>
-       <rdf:Description ID="search:Advanced_mode"
-         nc:name="Sidebar Advanced Search Mode"
-         nc:link="nav_help.xhtml#sidebar_advanced_search_mode"/>
-     </rdf:li>
-     <rdf:li>
        <rdf:Description ID="search:bookmarks"
          nc:name="search bookmarks"
          nc:link="nav_help.xhtml#searching_the_bookmarks_or_history_list"/>
@@ -2130,6 +2130,11 @@
        <rdf:Description ID="toolbar:hiding_a_toolbar"
          nc:name="hiding a toolbar"
          nc:link="customize_help.xhtml#hiding_a_toolbar"/>
+     </rdf:li>
+     <rdf:li>
+       <rdf:Description ID="toolbar:menu_bar"
+         nc:name="menu bar"
+         nc:link="customize_help.xhtml#menu_bar"/>
      </rdf:li>
      <rdf:li>
        <rdf:Description ID="toolbar:navigation_toolbar"
