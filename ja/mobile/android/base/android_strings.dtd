@@ -44,9 +44,11 @@
      They are automatically converted to all caps by the Android platform. -->
 <!ENTITY  bookmarks_title "ブックマーク">
 <!ENTITY  history_title "履歴">
-<!ENTITY  recent_tabs_title "最近閉じたタブ">
 
 <!ENTITY  switch_to_tab "タブに切り換え">
+
+<!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
+<!ENTITY  tab_offline_version "オフラインバージョンを表示しています">
 
 <!ENTITY  crash_reporter_title "&brandShortName; クラッシュレポータ">
 <!ENTITY  crash_message2 "&brandShortName; がクラッシュしました。次回の起動時には開いていたタブの一覧が &brandShortName; のスタートページに表示されます。">
@@ -270,6 +272,20 @@
 <!ENTITY pref_whats_new_notification "&brandShortName; の新機能">
 <!ENTITY pref_whats_new_notification_summary "更新後に新機能について学びます">
 
+<!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
+     for experimental features. -->
+<!ENTITY pref_category_experimental "実験的な機能">
+
+<!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
+     Instead of switching to the browser it appears as if the user stays in the third-party app.
+     For more see: https://developer.chrome.com/multidevice/android/customtabs -->
+<!ENTITY pref_custom_tabs "カスタムタブ">
+<!ENTITY pref_custom_tabs_summary "サードパーティのアプリが URL を開くとき、外観と操作感をカスタマイズすることを許可します。">
+
+<!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
+<!ENTITY pref_activity_stream "アクティビティストリーム">
+<!ENTITY pref_activity_stream_summary "リッチにビジュアル化された閲覧履歴のフィードと新たに構成されたホームページが、あなたが &brandShortName; で本当に見つけたいものの発見をより簡単にします。">
+
 <!ENTITY tracking_protection_prompt_title "トラッキング保護を有効化">
 <!ENTITY tracking_protection_prompt_text "プライバシー確保のため、オンライン行動を追跡する要素の読み込みをブロックします。">
 <!ENTITY tracking_protection_prompt_tip_text "詳細はプライバシー設定をご確認ください">
@@ -382,6 +398,7 @@ size. -->
 <!ENTITY pref_private_data_syncedTabs "同期したタブ">
 
 <!ENTITY pref_default_browser "@@DefaultBrowser@@に設定">
+<!ENTITY pref_default_browser_mozilla_support_tablet "Mozilla サポートへアクセス">
 <!ENTITY pref_about_firefox "&brandShortName; について">
 <!ENTITY pref_vendor_faqs "FAQ">
 <!ENTITY pref_vendor_feedback "フィードバックをください">
@@ -570,10 +587,12 @@ size. -->
 <!ENTITY home_clear_history_button "閲覧履歴を削除">
 <!ENTITY home_clear_history_confirm "本当に履歴を削除しますか？">
 <!ENTITY home_bookmarks_empty "あなたが保存したブックマークが表示されます。">
-<!ENTITY home_closed_tabs_title "最近閉じたタブ">
-<!ENTITY home_last_tabs_title "前回のタブ">
+<!ENTITY home_closed_tabs_title2 "最近閉じたタブ">
 <!ENTITY home_last_tabs_empty "あなたが最近開いたタブが表示されます。">
-<!ENTITY home_open_all "すべて開く">
+<!ENTITY home_restore_all "すべて復元">
+<!ENTITY home_closed_tabs_number "&formatD; タブ">
+<!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
+<!ENTITY home_closed_tabs_one "1 タブ">
 <!ENTITY home_most_recent_empty "あなたが最近開いたサイトが表示されます。">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
@@ -625,7 +644,6 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_secure "安全な接続">
 <!ENTITY identity_connection_insecure "安全でない接続">
-<!ENTITY identity_login_insecure "このページは安全ではないため、ログイン情報を抜き取られてしまう可能性があります。">
 <!ENTITY identity_connection_chromeui "この &brandShortName; のページは安全です">
 
 <!-- Mixed content notifications in site identity popup -->
