@@ -11,32 +11,28 @@
 <!-- LOCALIZATION NOTE (browserStylesLabel): This is the label for the checkbox
   -  that specifies whether the styles that are not from the user's stylesheet
   -  should be displayed or not. -->
-<!ENTITY browserStylesLabel    "ブラウザ CSS">
+<!ENTITY browserStylesLabel		"ブラウザ CSS">
 
 <!-- LOCALIZATION NOTE (filterStylesPlaceholder): This is the placeholder that goes in
   -  the search box when no search term has been entered. -->
-<!ENTITY filterStylesPlaceholder      "CSS を絞り込み">
+<!ENTITY filterStylesPlaceholder	"CSS を絞り込み">
 
 <!-- LOCALIZATION NOTE (addRuleButtonTooltip): This is the tooltip shown when
   -  hovering the `Add new rule` button in the rules view toolbar. This should
   -  match ruleView.contextmenu.addNewRule in styleinspector.properties -->
-<!ENTITY addRuleButtonTooltip  "@@New-CMD@@ルールを追加します">
+<!ENTITY addRuleButtonTooltip		"@@New-CMD@@ルールを追加します">
 
 <!-- LOCALIZATION NOTE (selectedElementLabel): This is the label for the path of
   -  the highlighted element in the web page. This path is based on the document
   -  tree. -->
-<!ENTITY selectedElementLabel  "選択要素:">
+<!ENTITY selectedElementLabel		"選択要素:">
 
 <!-- LOCALIZATION NOTE (togglePseudoClassPanel): This is the tooltip
   -  shown when hovering over the `Toggle Pseudo Class Panel` button in the
   -  rule view toolbar. -->
-<!ENTITY togglePseudoClassPanel  "疑似クラスを切り替えます">
+<!ENTITY togglePseudoClassPanel		"疑似クラスを切り替えます">
 
 <!-- LOCALIZATION NOTE (noPropertiesFound): In the case where there are no CSS
   -  properties to display e.g. due to search criteria this message is
   -  displayed. -->
-<!ENTITY noPropertiesFound     "CSS プロパティはありません。">
-
-<!-- FIXME: notes -->
-<!ENTITY computedViewTitle     "計算済み">
-<!ENTITY ruleViewTitle         "ルール">
+<!ENTITY noPropertiesFound		"CSS プロパティはありません。">

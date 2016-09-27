@@ -746,3 +746,4 @@ security               332986:7177e7367689  22620:71979f61a7d4   mar            
 toolkit                332986:7177e7367689  22620:71979f61a7d4   mar             sync toolkit
 suite                  ------:------------  22621:633bca365d8b   mar             sync suite
 mobile                 325629:8847dd9e9a2d  -----:------------   Kechol          sync mobile
+devtools/client        333258:3fdfaaed6e0f  -----:------------   mar             sync devtools/client
