@@ -47,7 +47,7 @@
 <!ENTITY  acceptCookies.accesskey		"A">
 
 <!ENTITY  acceptThirdParty.pre.label		"サードパーティ Cookie の保存:">
-<!ENTITY  acceptThirdParty.pre.accesskey	"c">
+<!ENTITY  acceptThirdParty.pre.accesskey	"y">
 <!ENTITY  acceptThirdParty.always.label		"常に許可">
 <!ENTITY  acceptThirdParty.never.label		"常に拒否">
 <!ENTITY  acceptThirdParty.visited.label	"訪問したサイトのみ許可">
@@ -104,3 +104,8 @@
 
 <!ENTITY  clearOnCloseSettings.label		"設定...">
 <!ENTITY  clearOnCloseSettings.accesskey	"t">
+
+<!ENTITY  browserContainersHeader.label         "コンテナタブ">
+<!ENTITY  browserContainersLearnMore.label      "詳細">
+<!ENTITY  browserContainersEnabled.label        "コンテナタブを有効にする">
+<!ENTITY  browserContainersEnabled.accesskey    "n">

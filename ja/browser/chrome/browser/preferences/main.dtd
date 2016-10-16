@@ -32,7 +32,7 @@
 <!ENTITY alwaysAsk.accesskey          "A">
 
 <!ENTITY alwaysCheckDefault2.label        "&brandShortName; が@@DefaultBrowser@@か確認する">
-<!ENTITY alwaysCheckDefault2.accesskey    "w">
+<!ENTITY alwaysCheckDefault2.accesskey    "y">
 <!ENTITY setAsMyDefaultBrowser2.label     "@@DefaultBrowser@@にする">
 <!ENTITY setAsMyDefaultBrowser2.accesskey "D">
 <!ENTITY isDefault.label                  "&brandShortName; は@@DefaultBrowser@@に設定されています">

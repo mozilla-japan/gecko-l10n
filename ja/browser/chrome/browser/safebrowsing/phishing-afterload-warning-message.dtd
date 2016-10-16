@@ -15,7 +15,6 @@
   be used for them. -->
 <!ENTITY safeb.palm.notdeceptive.accesskey "d">
 <!ENTITY safeb.palm.reportPage.label	"このサイトがブロックされる理由">
-<!ENTITY safeb.palm.whyForbidden.label	"このサイトがブロックされる理由">
 
 <!ENTITY safeb.blocked.malwarePage.title	"攻撃サイトとして報告されています！">
 <!-- Localization note (safeb.blocked.malwarePage.shortDesc) - Please don't translate the contents of the <span id="malware_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
@@ -31,7 +30,3 @@
 <!-- Localization note (safeb.blocked.phishingPage.shortDesc2) - Please don't translate the contents of the <span id="phishing_sitename"/> tag. It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
 <!ENTITY safeb.blocked.phishingPage.shortDesc2	"<span id='phishing_sitename'/> の Web ページは詐欺サイトとして報告されており、セキュリティ設定に従いブロックされています。">
 <!ENTITY safeb.blocked.phishingPage.longDesc2	"<p>詐欺サイトには、望ましくないソフトウェアをインストールさせようとしたり、パスワードや電話番号、クレジットカード番号などの個人情報を盗み取ろうとする危険な仕掛けがあります。</p><p>このページで個人情報を入力してしまうと、なりすましや詐欺などの被害に遭う恐れがあります。</p>">
-
-<!ENTITY safeb.blocked.forbiddenPage.title2	"ブロックされたサイト">
-<!-- Localization note (safeb.blocked.forbiddenPage.shortDesc2) - Please don't translate the contents of the <span id="forbidden_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
-<!ENTITY safeb.blocked.forbiddenPage.shortDesc2 "<span id='forbidden_sitename'/> の Web ページの読み込みは、管理プロファイルによりブロックされています。">

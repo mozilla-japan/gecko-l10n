@@ -40,6 +40,12 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "P">
 <!ENTITY  unpinTab.label                     "タブのピン留めを外す">
 <!ENTITY  unpinTab.accesskey                 "b">
+<!ENTITY  sendTabToDevice.label              "タブを端末に送る">
+<!ENTITY  sendTabToDevice.accesskey          "D">
+<!ENTITY  sendPageToDevice.label             "ページを端末に送る">
+<!ENTITY  sendPageToDevice.accesskey         "D">
+<!ENTITY  sendLinkToDevice.label             "リンクを端末に送る">
+<!ENTITY  sendLinkToDevice.accesskey         "D">
 <!ENTITY  moveToNewWindow.label              "@@NewWindow@@へ移動">
 <!ENTITY  moveToNewWindow.accesskey          "W">
 <!ENTITY  bookmarkAllTabs.label              "すべてのタブをブックマーク...">
@@ -105,6 +111,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.macCommandKey	"f">
 <!ENTITY showAllTabsCmd.label		"すべてのタブを表示">
 <!ENTITY showAllTabsCmd.accesskey	"A">
+<!ENTITY toggleReaderMode.key		"R">
 
 <!ENTITY fxaSignIn.label		"&syncBrand.shortName.label; にサインイン">
 <!ENTITY fxaSignedIn.tooltip		"&syncBrand.shortName.label; 設定を開きます">
@@ -128,6 +135,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullscreenWarning.beforeDomain.label	"">
 <!ENTITY fullscreenWarning.afterDomain.label	"は現在@@FullScreen@@モードです。">
 <!ENTITY fullscreenWarning.generic.label	"このページは現在@@FullScreen@@モードです。">
+
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
@@ -135,6 +143,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY exitDOMFullscreenMac.button	"@@FullScreen@@モードを終了 (esc)">
 <!ENTITY leaveDOMFullScreen.label	"@@FullScreen@@モードを終了">
 <!ENTITY leaveDOMFullScreen.accesskey	"u">
+
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+<!ENTITY pointerlockWarning.beforeDomain.label	"マウスポインタは現在、">
+<!ENTITY pointerlockWarning.afterDomain.label	"が制御しています。制御を取り戻すには、ESC キーを押してください。">
+<!ENTITY pointerlockWarning.generic.label	"マウスポインタは現在、このページが制御しています。制御を取り戻すには、ESC キーを押してください。">
 
 <!ENTITY closeWindow.label		"@@Window@@を閉じる">
 <!ENTITY closeWindow.accesskey 		"d">
@@ -264,7 +281,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
 <!ENTITY newUserContext.label		"@@New-CMD@@コンテナタブ">
-<!ENTITY newUserContext.accesskey	"C">
+<!ENTITY newUserContext.accesskey	"B">
 <!ENTITY newNavigatorCmd.label		"@@NewWindow@@">
 <!ENTITY newNavigatorCmd.key		"N">
 <!ENTITY newNavigatorCmd.accesskey	"N">
@@ -457,7 +474,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmd.label           "フレームを@@NewWindow@@で開く">
 <!ENTITY openFrameCmd.accesskey       "W">
 <!ENTITY openLinkCmdInContainerTab.label "リンクを@@New-CMD@@コンテナタブで開く">
-<!ENTITY openLinkCmdInContainerTab.accesskey "C">
+<!ENTITY openLinkCmdInContainerTab.accesskey "z">
 <!ENTITY showOnlyThisFrameCmd.label     "このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
 <!ENTITY reloadCmd.commandkey         "r">
@@ -771,12 +788,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label	"デスクトップ通知を表示する">
 <!ENTITY social.toggleNotifications.accesskey	"n">
 
-<!ENTITY social.activated.description		"<label/> からのサービスが有効になりました。<label class='text-link'>アドオンマネージャ</label>のサービスで、設定を変更できます。">
-<!ENTITY social.activated.undo.label		"@@Undo@@">
-<!ENTITY social.activated.undo.accesskey	"U">
 <!ENTITY social.learnMore.label			"詳細...">
 <!ENTITY social.learnMore.accesskey		"l">
-<!ENTITY social.closeNotificationItem.label	"後で">
 
 <!ENTITY social.directory.label			"共有サービス">
 <!ENTITY social.directory.text			"一覧から共有サービスを有効にできます。">

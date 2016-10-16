@@ -65,6 +65,7 @@
 <!ENTITY update.adminDisabled       "システム管理者により、更新が無効化されています">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
 <!ENTITY update.otherInstanceHandlingUpdates "&brandShortName; は別のプロセスで更新中です">
+<!ENTITY update.restarting          "再起動中です...">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into
