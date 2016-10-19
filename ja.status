@@ -721,7 +721,7 @@ mobile                 319190:550d1399f06a  -----:------------   Kechol         
 devtools/client        333490:e50c761a9bfb  -----:------------   mar             sync devtools/client (mozilla-beta)
 browser                319198:a8fe75f38163  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-49.0] (for beta)
+Released! [l10n-mozilla-49.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                    325414:709652b67401  22177:5418a4e791e3   mar             sync dom
@@ -734,7 +734,7 @@ mobile                 325629:8847dd9e9a2d  -----:------------   Kechol         
 browser                325659:fa80a27f26df  -----:------------   hATrayflood     sync browser
 devtools/client        325659:fa80a27f26df  -----:------------   hATrayflood     sync devtools/client
 
-[l10n-mozilla-50.0] (for aurora)
+[l10n-mozilla-50.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  22606:742127b0c0ea   mar             sync calendar
@@ -748,3 +748,8 @@ suite                  ------:------------  22621:633bca365d8b   mar            
 mobile                 325629:8847dd9e9a2d  -----:------------   Kechol          sync mobile
 devtools/client        333258:3fdfaaed6e0f  -----:------------   mar             sync devtools/client
 browser                333258:3fdfaaed6e0f  -----:------------   hATrayflood     sync browser
+
+[l10n-mozilla-51.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar               ------:------------  22992:bd21c84fff3b   mar             sync calendar
