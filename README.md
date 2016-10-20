@@ -68,13 +68,13 @@ git push
 * 一般的な用字用語について
   * [共同通信社 記者ハンドブック](http://www.kyodo.co.jp/kkservice/HB/)
 
-## L10n 関連リポジトリ
+## L10n 関連リポジトリ等
 
 * Firefox, Thunderbird, Lightning, SeaMonkey
   * Nightly:
     * https://hg.mozilla.org/l10n-central/ja/
     * https://hg.mozilla.org/l10n-central/ja-JP-mac/
-  * Developer Edition:
+  * Developer Edition (Aurora):
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja-JP-mac/
   * Beta:
@@ -83,11 +83,14 @@ git push
   * Release:
     * https://hg.mozilla.org/releases/l10n/mozilla-release/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-release/ja-JP-mac/
+* Firefox for iOS
+  * https://pontoon.mozilla.org/ja/firefox-for-ios/
 * Firefox OS (Gaia)
   * https://github.com/mozilla-japan/gaia-l10n
-  * https://hg.mozilla.org/gaia-l10n/ja/
+  * (v2.6) https://hg.mozilla.org/gaia-l10n/ja/
+  * (v2.5) https://hg.mozilla.org/releases/gaia-l10n/v2_5/ja/
   * (v2.2) https://hg.mozilla.org/releases/gaia-l10n/v2_2/ja/
-* Firefox for iOS
-  * http://viewvc.svn.mozilla.org/vc/projects/l10n-misc/trunk/firefox-ios/ja/
 * Localization Tools (lot)
   * https://github.com/mozilla-japan/lot
+* L10n ダッシュボード
+  * https://l10n.mozilla.org/teams/ja
