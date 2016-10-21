@@ -145,7 +145,7 @@
 <!ENTITY GenericPhoto.label		"汎用の写真">
 <!ENTITY GenericPhoto.accesskey		"G">
 <!ENTITY DefaultPhoto.label		"@@Default@@">
-<!ENTITY PhotoFile.label		"コンピュータ上">
+<!ENTITY PhotoFile.label		"コンピューター上">
 <!ENTITY PhotoFile.accesskey		"n">
 <!ENTITY BrowsePhoto.label		"@@Browse@@">
 <!ENTITY BrowsePhoto.accesskey		"r">

@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items -->
-<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
 <!ENTITY mainWindow.title		"&brandFullName;">
@@ -237,7 +237,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY searchItem.title             "検索">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "ホーム">
 
 <!ENTITY bookmarksButton.label		"ブックマーク">
@@ -260,7 +260,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historySidebarCmd.commandKey   "h">
 
 <!ENTITY toolsMenu.label              "ツール">
-<!ENTITY toolsMenu.accesskey          "T"> 
+<!ENTITY toolsMenu.accesskey          "T">
 
 <!ENTITY keywordfield.label           "この検索にキーワードを設定...">
 <!ENTITY keywordfield.accesskey       "K">
@@ -377,7 +377,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY customizeMenu.moveToToolbar.accesskey	"o">
 <!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
      same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+     different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label	"メニューに移動">
@@ -402,7 +402,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable	"はい">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
 
-<!-- 
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -484,7 +484,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY reloadFrameCmd.accesskey     "R">
 <!ENTITY viewPartialSourceForSelectionCmd.label "選択した部分のソースを表示">
 <!ENTITY viewPartialSourceForMathMLCmd.label    "MathML のソースを表示">
-<!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
+<!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both
          viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
 <!ENTITY viewPartialSourceCmd.accesskey "e">
 <!ENTITY viewPageSourceCmd.label      "ページのソースを表示">
@@ -550,7 +550,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyImageCmd.label           "画像の URL をコピー">
 <!ENTITY copyImageCmd.accesskey       "o">
 <!ENTITY copyImageContentsCmd.label   "画像をコピー">
-<!ENTITY copyImageContentsCmd.accesskey  "y"> 
+<!ENTITY copyImageContentsCmd.accesskey  "y">
 <!ENTITY copyVideoURLCmd.label        "動画の URL をコピー">
 <!ENTITY copyVideoURLCmd.accesskey    "o">
 <!ENTITY copyAudioURLCmd.label        "オーディオの URL をコピー">
@@ -698,7 +698,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.connectionSecure		"安全な接続">
 <!ENTITY identity.connectionNotSecure		"この接続は安全ではありません">
-<!ENTITY identity.connectionFile		"これはあなたのコンピュータに保存されているページです。">
+<!ENTITY identity.connectionFile		"これはあなたのコンピューターに保存されているページです。">
 <!ENTITY identity.connectionVerified2		"このサイトとの接続は安全です。このサイトの運営者:">
 <!ENTITY identity.connectionInternal		"このページは &brandShortName; の安全な内部ページです。">
 <!ENTITY identity.insecureLoginForms2		"このページのログインフォームは安全ではありません。">
