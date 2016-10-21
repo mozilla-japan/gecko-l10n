@@ -64,7 +64,7 @@
 <!ENTITY netOffline.title		"オフラインモードです">
 <!ENTITY netOffline.longDesc2	"
 <ul>
-  <li>&quot;再試行&quot; ボタンを押してブラウザをオンラインモードに切り替え、ページを再読み込みしてください。</li>
+  <li>&quot;再試行&quot; ボタンを押してブラウザーをオンラインモードに切り替え、ページを再読み込みしてください。</li>
 </ul>
 ">
 

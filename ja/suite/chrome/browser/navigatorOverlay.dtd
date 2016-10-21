@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- File Menu -->
-<!ENTITY tabCmd.label "ブラウザタブ">
+<!ENTITY tabCmd.label "ブラウザータブ">
 <!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
 <!ENTITY openCmd.label "URL を開く...">

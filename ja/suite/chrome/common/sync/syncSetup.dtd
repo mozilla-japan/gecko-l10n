@@ -99,17 +99,17 @@
 <!ENTITY engine.prefs.label         "個人設定">
 <!ENTITY engine.prefs.accesskey     "e">
 
-<!ENTITY choice2.merge.main.label      "このパソコンのブラウザデータを、サーバに保存されているデータと統合する">
+<!ENTITY choice2.merge.main.label      "このパソコンのブラウザーデータを、サーバに保存されているデータと統合する">
 <!ENTITY choice2.merge.recommended.label "推奨:">
-<!ENTITY choice2.client.main.label     "このパソコンのブラウザデータを、サーバに保存されている &syncBrand.shortName.label; データと置き換える">
-<!ENTITY choice2.server.main.label     "他のすべての端末のブラウザデータを、このパソコンのデータと置き換える">
+<!ENTITY choice2.client.main.label     "このパソコンのブラウザーデータを、サーバに保存されている &syncBrand.shortName.label; データと置き換える">
+<!ENTITY choice2.server.main.label     "他のすべての端末のブラウザーデータを、このパソコンのデータと置き換える">
 
 <!-- Confirm Merge Options -->
 <!ENTITY setup.optionsConfirmPage.title        "確認">
-<!ENTITY confirm.merge.label          "このパソコンのすべてのブラウザデータは、サーバに保存されているあなたの Sync アカウントのデータと統合されます。">
-<!ENTITY confirm.client2.label         "警告: このパソコンのブラウザデータは、以下の情報を含め、すべて削除されます:">
+<!ENTITY confirm.merge.label          "このパソコンのすべてのブラウザーデータは、サーバに保存されているあなたの Sync アカウントのデータと統合されます。">
+<!ENTITY confirm.client2.label         "警告: このパソコンのブラウザーデータは、以下の情報を含め、すべて削除されます:">
 <!ENTITY confirm.client.moreinfo.label "その後、サーバに保存されているあなたの &syncBrand.fullName.label; データがこのパソコンへコピーされます。">
-<!ENTITY confirm.server2.label         "警告: 以下の端末のブラウザデータが、このパソコンのデータで上書きされます:">
+<!ENTITY confirm.server2.label         "警告: 以下の端末のブラウザーデータが、このパソコンのデータで上書きされます:">
 
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "セットアップが完了しました">

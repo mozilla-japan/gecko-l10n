@@ -9,7 +9,7 @@
     Place &brandShortName; in the phrase where the name of the application should appear
 -->
 <!ENTITY onStartLegend.label                    "&brandShortName; の起動時に開く">
-<!ENTITY navCheck.label                         "ブラウザ">
+<!ENTITY navCheck.label                         "ブラウザー">
 <!ENTITY navCheck.accesskey                     "B">
 <!ENTITY showToolsLegend.label                  "ツールバーの表示">
 <!ENTITY picsNtextRadio.label                   "絵と文字">

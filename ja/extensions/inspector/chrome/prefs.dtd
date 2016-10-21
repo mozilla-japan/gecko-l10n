@@ -22,5 +22,5 @@
 <!ENTITY installHowTo.label		"DOM インスペクタサイドバーは現在インストールされていません。@@[@@インストール@@]@@ をクリックするとサイドバーに追加されます。">
 <!ENTITY install.label			"インストール">
 <!ENTITY install.accesskey		"I">
-<!ENTITY addNavigatorHooks.label	"ブラウザのコンテキストメニューに追加">
+<!ENTITY addNavigatorHooks.label	"ブラウザーのコンテキストメニューに追加">
 <!ENTITY addNavigatorHooks.accesskey	"m">

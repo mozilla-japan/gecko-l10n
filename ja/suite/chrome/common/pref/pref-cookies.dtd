@@ -25,7 +25,7 @@
 <!ENTITY acceptNormally.label		"すべての Cookie を許可する (サイト管理者の指示に従う)">
 <!ENTITY acceptNormally.accesskey	"n">
 
-<!ENTITY acceptForSession.label		"現在のセッションのみ許可する (ブラウザ終了時にリセット)">
+<!ENTITY acceptForSession.label		"現在のセッションのみ許可する (ブラウザー終了時にリセット)">
 <!ENTITY acceptForSession.accesskey	"s">
 
 <!ENTITY acceptforNDays.label		"有効期限を指定する:">

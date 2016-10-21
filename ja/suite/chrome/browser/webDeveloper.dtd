@@ -13,7 +13,7 @@
 <!ENTITY devtoolsConnect.label			"接続...">
 <!ENTITY devtoolsConnect.accesskey		"e">
 
-<!ENTITY browserConsoleCmd.label		"ブラウザコンソール">
+<!ENTITY browserConsoleCmd.label		"ブラウザーコンソール">
 <!ENTITY browserConsoleCmd.commandkey		"Z">
 <!ENTITY browserConsoleCmd.accesskey		"B">
 
@@ -41,14 +41,14 @@
 
 <!-- LOCALIZATION NOTE (browserToolboxMenu.label): This is the label for the
   -  application menu item that opens the browser toolbox UI in the Tools menu. -->
-<!ENTITY browserToolboxMenu.label		"ブラウザツールボックス">
+<!ENTITY browserToolboxMenu.label		"ブラウザーツールボックス">
 <!ENTITY browserToolboxMenu.accesskey		"e">
 <!ENTITY browserToolboxCmd.commandkey		"I">
 
 <!-- LOCALIZATION NOTE (browserContentToolboxMenu.label): This is the label for the
   -  application menu item that opens the browser content toolbox UI in the Tools menu.
   -  This toolbox allows to debug the chrome of the content process in multiprocess builds.  -->
-<!ENTITY browserContentToolboxMenu.label	"ブラウザコンテンツツールボックス">
+<!ENTITY browserContentToolboxMenu.label	"ブラウザーコンテンツツールボックス">
 <!ENTITY browserContentToolboxMenu.accesskey	"x">
 
 <!ENTITY devToolbarCloseButton.tooltiptext	"開発ツールバーを閉じます">

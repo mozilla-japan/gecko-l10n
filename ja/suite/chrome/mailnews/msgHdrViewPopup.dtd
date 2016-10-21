@@ -15,7 +15,7 @@
 <!ENTITY CopyEmailAddress.accesskey        "C">
 <!ENTITY CreateFilterFrom.label            "フィルタを作成...">
 <!ENTITY CreateFilterFrom.accesskey        "F">
-<!ENTITY openInBrowser.label               "ブラウザで開く">
+<!ENTITY openInBrowser.label               "ブラウザーで開く">
 <!ENTITY openInBrowser.accesskey           "O">
 <!ENTITY bookmarkLinkCmd.label             "リンクをブックマークに追加...">
 <!ENTITY bookmarkLinkCmd.accesskey         "B">
@@ -25,5 +25,5 @@
 <!ENTITY CopyMessageId.accesskey           "C">
 <!ENTITY OpenMessageForMsgId.label         "次の ID のメッセージを開く">
 <!ENTITY OpenMessageForMsgId.accesskey     "O">
-<!ENTITY OpenBrowserWithMsgId.label        "次のメッセージ ID をブラウザで開く">
+<!ENTITY OpenBrowserWithMsgId.label        "次のメッセージ ID をブラウザーで開く">
 <!ENTITY OpenBrowserWithMsgId.accesskey    "B">

@@ -54,13 +54,13 @@
   <!ENTITY mnDocViewerList.accesskey	"D">
   <!ENTITY mnObjectViewerList.label	"オブジェクトビューア">
   <!ENTITY mnObjectViewerList.accesskey	"O">
-  <!ENTITY cmdToggleDocument.label	"ドキュメントをブラウザペインに表示">
+  <!ENTITY cmdToggleDocument.label	"ドキュメントをブラウザーペインに表示">
   <!ENTITY cmdToggleDocument.accesskey	"B">
   <!ENTITY cmdToggleSearch.label	"検索結果">
   <!ENTITY cmdFlashOnSelect.label	"選択した要素を点滅">
   <!ENTITY cmdFlashOnSelect.accesskey	"S">
 
-<!ENTITY browserPanel.label		"ブラウザ">
+<!ENTITY browserPanel.label		"ブラウザー">
 
 <!ENTITY saveCmd.key			"S">
 <!ENTITY closeCmd.key			"W">

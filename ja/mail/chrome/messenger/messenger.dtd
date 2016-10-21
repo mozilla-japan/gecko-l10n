@@ -898,9 +898,9 @@
 <!ENTITY stopCmd.accesskey		"S">
 <!ENTITY reloadCmd.label		"更新">
 <!ENTITY reloadCmd.accesskey		"R">
-<!ENTITY openInBrowser.label		"ブラウザで開く">
+<!ENTITY openInBrowser.label		"ブラウザーで開く">
 <!ENTITY openInBrowser.accesskey	"O">
-<!ENTITY openLinkInBrowser.label	"リンクをブラウザで開く">
+<!ENTITY openLinkInBrowser.label	"リンクをブラウザーで開く">
 <!ENTITY openLinkInBrowser.accesskey	"O">
 
 <!-- Statusbar -->

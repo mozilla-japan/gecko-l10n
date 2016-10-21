@@ -7,7 +7,7 @@
 <!--LOCALIZATION NOTE : FILE The 'Scripts & Plugins' preferences dialog -->
 <!ENTITY pref.scripts.title			"スクリプトとプラグイン">
 
-<!ENTITY navigator.label			"ブラウザ">
+<!ENTITY navigator.label			"ブラウザー">
 <!ENTITY navigator.accesskey			"B">
 
 <!--LOCALIZATION NOTE (enableJavaScript.label): 'JavaScript' should never be translated -->
