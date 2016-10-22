@@ -738,13 +738,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
-<!ENTITY tabsToolbar.label			"ブラウザタブ"><!-- (^m^) Bug 565042  音声読み上げ用ラベル -->
+<!ENTITY tabsToolbar.label			"ブラウザータブ"><!-- (^m^) Bug 565042  音声読み上げ用ラベル -->
 
 <!-- LOCALIZATION NOTE (syncTabsMenu3.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu3.label			"同期タブ">
 
 <!ENTITY syncedTabs.sidebar.label              "同期タブ">
-<!ENTITY syncedTabs.sidebar.noclients.label    "他の端末から Firefox にログインすると、このブラウザでタブを表示できます。">
+<!ENTITY syncedTabs.sidebar.noclients.label    "他の端末から Firefox にログインすると、このブラウザーでタブを表示できます。">
 <!ENTITY syncedTabs.sidebar.noclients.title    "同期タブはまだありません">
 <!ENTITY syncedTabs.sidebar.noclients.subtitle "他の端末のタブを表示しますか？">
 <!ENTITY syncedTabs.sidebar.notsignedin.label  "ログインすると、他の端末のタブの一覧を表示できます。">

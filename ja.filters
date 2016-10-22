@@ -22,7 +22,7 @@ ja-JP-mac.]				= ”
 ja.Default				= 既定
 ja.Default-				= 既定の
 ja.DefaultApplication			= 既定のプログラム
-ja.DefaultBrowser			= 既定のブラウザ
+ja.DefaultBrowser			= 既定のブラウザー
 ja.DefaultColor				= 既定の色
 ja.DefaultClient			= 既定のクライアント
 ja.DefaultFolder			= 既定のフォルダ
@@ -34,7 +34,7 @@ ja.RestoreDefaults			= 既定値に戻す
 ja-JP-mac.Default			= デフォルト
 ja-JP-mac.Default-			= デフォルト
 ja-JP-mac.DefaultApplication		= デフォルトのアプリケーション
-ja-JP-mac.DefaultBrowser		= デフォルト Web ブラウザ
+ja-JP-mac.DefaultBrowser		= デフォルト Web ブラウザー
 ja-JP-mac.DefaultColor			= デフォルトカラー
 ja-JP-mac.DefaultClient			= デフォルトクライアント
 ja-JP-mac.DefaultFolder			= デフォルトフォルダ
@@ -358,7 +358,7 @@ ja.intl.css.locale			= \
 					\n
 
 
-ja-JP-mac.intl.css.locale		= 
+ja-JP-mac.intl.css.locale		=
 
 
 # toolkit/chrome/mozapps/downloads/downloads.properties

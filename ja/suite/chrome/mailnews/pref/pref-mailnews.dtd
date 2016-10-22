@@ -19,7 +19,7 @@
 <!ENTITY setDefaultFeed.label             "フィード (RSS)">
 <!ENTITY setDefaultFeed.accesskey         "e">
 
-<!ENTITY useInternalSettings.description  "ブラウザで以下のリンクを開くときに &brandShortName; のメールとニュースを使用する:">
+<!ENTITY useInternalSettings.description  "ブラウザーで以下のリンクを開くときに &brandShortName; のメールとニュースを使用する:">
 <!ENTITY useInternalMail.label            "メール (mailto:)">
 <!ENTITY useInternalMail.accesskey        "a">
 <!ENTITY useInternalNews.label            "ニュース (news:, snews:, nntp:)">

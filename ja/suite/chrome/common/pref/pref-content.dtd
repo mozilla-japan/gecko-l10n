@@ -33,7 +33,7 @@
 <!ENTITY siteSpecific.accesskey			"m">
 <!ENTITY textZoomOnly.label			"テキストだけをズームする">
 <!ENTITY textZoomOnly.accesskey			"Z">
-<!ENTITY enableAutomaticImageResizing.label	"大きな画像をブラウザ@@Window@@に合わせて縮小表示する">
+<!ENTITY enableAutomaticImageResizing.label	"大きな画像をブラウザー@@Window@@に合わせて縮小表示する">
 <!ENTITY enableAutomaticImageResizing.accesskey	"R">
 
 <!ENTITY allowHWAccel.label			"ハードウェアアクセラレーション機能を使用する (可能な場合)">

@@ -113,7 +113,7 @@
   -  enabled via the devtools.chrome.enabled preference. Formerly, this label
   -  was called "Chrome".
   -->
-<!ENTITY browserContext.label         "ブラウザ">
+<!ENTITY browserContext.label         "ブラウザー">
 <!ENTITY browserContext.accesskey     "B">
 
 <!-- LOCALIZATION NOTE some localizations of Windows (ex:french, german) use "?"

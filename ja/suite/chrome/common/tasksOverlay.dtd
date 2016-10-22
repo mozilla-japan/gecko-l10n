@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from tasksOverlay.xul -->
-<!ENTITY navigatorCmd.label "ブラウザ">
+<!ENTITY navigatorCmd.label "ブラウザー">
 <!ENTITY navigatorCmd.accesskey "B">
 <!ENTITY navigatorCmd.commandkey "1">
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
@@ -16,7 +16,7 @@
 <!ENTITY errorConsoleCmd.commandkey	"j">
 
 <!ENTITY taskComposer.tooltip "Composer">
-<!ENTITY taskNavigator.tooltip "ブラウザ">
+<!ENTITY taskNavigator.tooltip "ブラウザー">
 
 <!ENTITY webDevelopment.label "ウェブ開発">
 <!ENTITY webDevelopment.accesskey "W">
@@ -35,7 +35,7 @@
 
 <!ENTITY passwordDisplayCmd.label "保存されているパスワードを管理">
 <!ENTITY passwordDisplayCmd.accesskey "M">
- 
+
 <!ENTITY passwordExpireCmd.label "ログアウト">
 <!ENTITY passwordExpireCmd.accesskey "l">
 

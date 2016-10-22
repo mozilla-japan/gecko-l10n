@@ -25,7 +25,7 @@
 
 <!-- LOCALIZATION NOTE (browserToolboxErrorMessage): This is the label
   -  shown next to error details when the Browser Toolbox is unable to open. -->
-<!ENTITY browserToolboxErrorMessage	"ブラウザツールボックスを開いた時のエラーを通知:">
+<!ENTITY browserToolboxErrorMessage	"ブラウザーツールボックスを開いた時のエラーを通知:">
 
 <!-- LOCALIZATION NOTE (options.context.advancedSettings): This is the label for
   -  the heading of the advanced settings group in the options panel. -->
@@ -38,8 +38,8 @@
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
-<!ENTITY options.showUserAgentStyles.label	"ブラウザ CSS を表示">
-<!ENTITY options.showUserAgentStyles.tooltip	"このオプションを有効にすると、ブラウザが読み込んだ@@Default-@@スタイルを表示します。">
+<!ENTITY options.showUserAgentStyles.label	"ブラウザー CSS を表示">
+<!ENTITY options.showUserAgentStyles.tooltip	"このオプションを有効にすると、ブラウザーが読み込んだ@@Default-@@スタイルを表示します。">
 
 <!-- LOCALIZATION NOTE (options.collapseAttrs.label): This is the label
   -  for the checkbox option to enable collapse attributes in the Inspector
@@ -86,8 +86,8 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label5		"ブラウザとアドオンのデバッガを有効">
-<!ENTITY options.enableChrome.tooltip3		"さまざまな開発ツールがブラウザコンテキスト (ツール > ウェブ開発 > ブラウザツールボックス) とアドオンマネージャからのアドオンデバッグで使えるようになります">
+<!ENTITY options.enableChrome.label5		"ブラウザーとアドオンのデバッガを有効">
+<!ENTITY options.enableChrome.tooltip3		"さまざまな開発ツールがブラウザーコンテキスト (ツール > ウェブ開発 > ブラウザーツールボックス) とアドオンマネージャからのアドオンデバッグで使えるようになります">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled

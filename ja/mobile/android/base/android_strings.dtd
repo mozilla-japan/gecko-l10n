@@ -136,8 +136,8 @@
      section in which the user picks the locale in which to display Firefox
      UI. The locale includes both language and region concepts. -->
 <!ENTITY pref_category_language "言語">
-<!ENTITY pref_category_language_summary "ブラウザの言語を変更">
-<!ENTITY pref_browser_locale "ブラウザの言語">
+<!ENTITY pref_category_language_summary "ブラウザーの言語を変更">
+<!ENTITY pref_browser_locale "ブラウザーの言語">
 
 <!-- Localization note (locale_system_default) : This string indicates that
      Firefox will use the locale currently selected in Android's settings
@@ -385,7 +385,7 @@ size. -->
 <!ENTITY pref_search_suggestions "検索語句の候補を表示">
 <!ENTITY pref_history_search_suggestions "検索履歴を表示">
 <!ENTITY pref_import_options "@@Import@@オプション">
-<!ENTITY pref_import_android_summary "ネイティブブラウザからブックマークや履歴を@@Import-suru@@">
+<!ENTITY pref_import_android_summary "ネイティブブラウザーからブックマークや履歴を@@Import-suru@@">
 <!ENTITY pref_private_data_history2 "閲覧履歴">
 <!ENTITY pref_private_data_searchHistory "検索履歴">
 <!ENTITY pref_private_data_formdata2 "フォームの履歴">
@@ -431,11 +431,11 @@ size. -->
      healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
      crashReporterDesc.label). -->
 <!ENTITY datareporting_fhr_title "&brandShortName; ヘルスレポート">
-<!ENTITY datareporting_fhr_summary2 "ブラウザの健康状態を &vendorShortName; と共有し、ブラウザのパフォーマンス状態の確認に役立ちます">
+<!ENTITY datareporting_fhr_summary2 "ブラウザーの健康状態を &vendorShortName; と共有し、ブラウザーのパフォーマンス状態の確認に役立ちます">
 <!ENTITY datareporting_abouthr_title "ヘルスレポートを見る">
 <!ENTITY datareporting_telemetry_title "パフォーマンス情報の送信">
 <!ENTITY datareporting_telemetry_summary "&brandShortName; をよりよいものにするため、パフォーマンス情報、使用状況、ハードウェア情報、設定したデータを &vendorShortName; と共有します">
-<!ENTITY datareporting_crashreporter_summary "&vendorShortName; がブラウザをより安定した、セキュアなものにするため、&brandShortName; はクラッシュレポートを送信します">
+<!ENTITY datareporting_crashreporter_summary "&vendorShortName; がブラウザーをより安定した、セキュアなものにするため、&brandShortName; はクラッシュレポートを送信します">
 <!-- Localization note (datareporting_crashreporter_title_short) : This string matches
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "クラッシュレポータ">
@@ -798,7 +798,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!-- Default Bookmarks titles-->
 <!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
-<!ENTITY bookmarks_about_browser "Firefox: あなたのブラウザについて">
+<!ENTITY bookmarks_about_browser "Firefox: あなたのブラウザーについて">
 <!-- LOCALIZATION NOTE (bookmarks_addons): link title for https://addons.mozilla.org/en-US/mobile -->
 <!ENTITY bookmarks_addons "Firefox: アドオンでカスタマイズ">
 <!-- LOCALIZATION NOTE (bookmarks_support): link title for https://support.mozilla.org/ -->
