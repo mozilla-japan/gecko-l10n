@@ -11,10 +11,10 @@
 <!ENTITY disableCookies.label		"すべての Cookie を拒否する">
 <!ENTITY disableCookies.accesskey	"B">
 
-<!ENTITY accNo3rdPartyCookies.label	"文書がある Web サイトからの Cookie のみ許可する (第三者 Cookie を除く)">
+<!ENTITY accNo3rdPartyCookies.label	"文書があるウェブサイトからの Cookie のみ許可する (第三者 Cookie を除く)">
 <!ENTITY accNo3rdPartyCookies.accesskey	"o">
 
-<!ENTITY acc3rdPartyVisited.label	"以前訪れた Web サイトのみ第三者 Cookie として許可する">
+<!ENTITY acc3rdPartyVisited.label	"以前訪れたウェブサイトのみ第三者 Cookie として許可する">
 <!ENTITY acc3rdPartyVisited.accesskey	"v">
 
 <!ENTITY accAllCookies.label		"すべての Cookie を許可する">

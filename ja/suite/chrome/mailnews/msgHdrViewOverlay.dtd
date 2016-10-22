@@ -21,7 +21,7 @@
 <!ENTITY referencesField.label "References: ">
 <!ENTITY messageIdField.label "Message-ID: ">
 <!ENTITY inReplyToField.label "In-Reply-To: ">
-<!ENTITY originalWebsite.label "Web サイト: ">
+<!ENTITY originalWebsite.label "ウェブサイト: ">
 
 <!ENTITY editMessage.label                 "下書きを編集...">
 <!ENTITY editMessage.accesskey             "D">

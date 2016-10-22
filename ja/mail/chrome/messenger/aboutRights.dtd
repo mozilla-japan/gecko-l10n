@@ -38,11 +38,11 @@
 <!ENTITY rights.intro-point4c		" をご確認ください。">
 
 <!-- point 4 text for unbranded builds -->
-<!ENTITY rights.intro-point4a-unbranded	"この製品が Web サービスと連携する場合、適切なサービス利用規約を ">
-<!ENTITY rights.intro-point4b-unbranded	"Web サイトサービス">
+<!ENTITY rights.intro-point4a-unbranded	"この製品がウェブサービスと連携する場合、適切なサービス利用規約を ">
+<!ENTITY rights.intro-point4b-unbranded	"ウェブサイトサービス">
 <!ENTITY rights.intro-point4c-unbranded	" セクションからリンクさせること。">
 
-<!ENTITY rights.webservices-header	"&brandFullName; Web サイトサービス">
+<!ENTITY rights.webservices-header	"&brandFullName; ウェブサイトサービス">
 
 <!-- Note that this paragraph references a couple of entities from
      preferences/security.dtd, so that we can refer to text the user sees in
@@ -56,7 +56,7 @@
 <!ENTITY rights.webservices-e		"@@]@@ タブを選択し、@@[@@次のソフトウェアの更新を定期的に確認する@@]@@ という設定項目のチェックを外していただければ、アドオン更新サービスを無効化できます。">
 
 <!-- intro paragraph for unbranded builds -->
-<!ENTITY rights.webservices-unbranded	"この製品と連携する Web サイトサービスの概要と、可能であればそれを無効化する手順をここに記述すること。">
+<!ENTITY rights.webservices-unbranded	"この製品と連携するウェブサイトサービスの概要と、可能であればそれを無効化する手順をここに記述すること。">
 
 <!-- point 1 text for unbranded builds -->
 <!ENTITY rights.webservices-term1-unbranded	"この製品に関する適切なサービス利用規約をここに記述すること。">

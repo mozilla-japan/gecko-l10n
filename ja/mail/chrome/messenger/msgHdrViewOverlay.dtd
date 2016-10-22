@@ -19,7 +19,7 @@
 <!ENTITY referencesField4.label			"References">
 <!ENTITY messageIdField4.label			"Message ID">
 <!ENTITY inReplyToField4.label			"In Reply To">
-<!ENTITY originalWebsite4.label			"Web サイト">
+<!ENTITY originalWebsite4.label			"ウェブサイト">
 
 <!ENTITY hdrArchiveButton1.label		"アーカイブ">
 <!ENTITY hdrArchiveButton1.tooltip		"このメッセージをアーカイブに移動します">
