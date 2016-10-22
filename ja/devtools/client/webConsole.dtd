@@ -8,7 +8,7 @@
   - A good criteria is the language in which you'd find the best
   - documentation on web development on the web. -->
 
-<!ENTITY window.title			"Web コンソール">
+<!ENTITY window.title			"ウェブコンソール">
 <!ENTITY browserConsole.title		"ブラウザコンソール">
 
 <!-- LOCALIZATION NOTE (openURL.label): You can see this string in the Web
@@ -57,7 +57,7 @@
   -  the toolbar. It shows or hides messages that the web developer inserted on
   -  the page for debugging purposes, using calls on the HTTP server. -->
 <!ENTITY btnServerLogging.label		"サーバ">
-<!ENTITY btnServerLogging.tooltip	"Web サーバから受信したログ情報です">
+<!ENTITY btnServerLogging.tooltip	"ウェブサーバから受信したログ情報です">
 <!ENTITY btnServerLogging.accesskey	"S">
 <!ENTITY btnServerErrors		"エラー">
 <!ENTITY btnServerInfo			"メッセージ">
@@ -76,7 +76,7 @@
 
 <!ENTITY filterOutput.placeholder	"出力を絞り込み">
 <!ENTITY btnClear.label			"消去">
-<!ENTITY btnClear.tooltip		"Web コンソールの内容を消去します">
+<!ENTITY btnClear.tooltip		"ウェブコンソールの内容を消去します">
 <!ENTITY btnClear.accesskey		"r">
 
 <!ENTITY fullZoomEnlargeCmd.commandkey 	"+">
