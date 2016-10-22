@@ -19,7 +19,7 @@
 <!ENTITY downloadCert.title			"証明書の@@ImportNoun@@"><!-- (^^; ダウンロード時に限らない -->
 <!ENTITY downloadCert.message1			"新しい認証局 (CA) を信頼するよう求められています。本当にこの認証局を信頼しますか？"><!-- (^^; 本当に新しい認証局 (CA) を信頼して証明書を@@Import-simasu@@か？ -->
 <!ENTITY downloadCert.trustSSL			"この認証局によるウェブサイトの識別を信頼する">
-<!ENTITY downloadCert.trustEmail		"この認証局によるメールユーザの識別を信頼する">
+<!ENTITY downloadCert.trustEmail		"この認証局によるメールユーザーの識別を信頼する">
 <!ENTITY downloadCert.trustObjSign		"この認証局によるソフトウェア製作者の識別を信頼する">
 <!ENTITY downloadCert.message3			"認証局を信頼する場合はその目的に関わらず、認証局の証明書が間違いないこと、認証ポリシーや認証実施規定に問題がないことを確認してください。"><!-- (^^; この認証局を信頼する場合は、その目的にかかわらず必ずその認証局の証明書、ポリシー、導入手順を確認した上で@@Import-site@@ください。 -->
 <!ENTITY downloadCert.viewCert.label		"証明書を表示">

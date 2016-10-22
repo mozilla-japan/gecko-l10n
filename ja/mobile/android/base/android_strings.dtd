@@ -419,7 +419,7 @@ size. -->
 <!ENTITY datareporting_notification_action "共有する情報を選択">
 <!-- Used in datareporting_notification_ticket_text, but unused in strings.xml. -->
 <!ENTITY datareporting_notification_action_long "共有する情報を選択してください">
-<!ENTITY datareporting_notification_summary "ユーザ体験の向上のため、&brandShortName; は情報を自動的に &vendorShortName; へ送信します">
+<!ENTITY datareporting_notification_summary "ユーザー体験の向上のため、&brandShortName; は情報を自動的に &vendorShortName; へ送信します">
 <!-- When this item is removed, also remove datareporting_notification_action_long:
      it is unused in strings.xml. -->
 <!ENTITY datareporting_notification_ticker_text "&datareporting_notification_title;: &datareporting_notification_action_long;">
@@ -511,9 +511,9 @@ size. -->
 <!-- Localization note (doorhanger_login_no_username): This string is used in the save-login doorhanger
      where normally a username would be displayed. In this case, no username was found, and this placeholder
      contains brackets to indicate this is not actually a username, but rather a placeholder -->
-<!ENTITY doorhanger_login_no_username "[ユーザ名なし]">
+<!ENTITY doorhanger_login_no_username "[ユーザー名なし]">
 <!ENTITY doorhanger_login_edit_title "ログイン情報を編集">
-<!ENTITY doorhanger_login_edit_username_hint "ユーザ名">
+<!ENTITY doorhanger_login_edit_username_hint "ユーザー名">
 <!ENTITY doorhanger_login_edit_password_hint "パスワード">
 <!ENTITY doorhanger_login_edit_toggle "パスワードを表示">
 <!ENTITY doorhanger_login_edit_toast_error "ログイン情報の保存に失敗しました">

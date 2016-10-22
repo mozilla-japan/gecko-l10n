@@ -57,8 +57,8 @@
 <!ENTITY leaveMsgsOnSrvr.label "サーバ上にメッセージを残す">
 <!ENTITY leaveMsgsOnSrvr.accesskey "L">
 <!-- LOCALIZATION NOTE (incomingUsername.description) : do not translate "&quot;jsmith&quot;" in below line -->
-<!ENTITY incomingUsername.description "プロバイダに指定された受信サーバのユーザ名を入力してください。(例: &quot;jsmith&quot;)">
-<!ENTITY incomingUsername.label "ユーザ名:">
+<!ENTITY incomingUsername.description "プロバイダに指定された受信サーバのユーザー名を入力してください。(例: &quot;jsmith&quot;)">
+<!ENTITY incomingUsername.label "ユーザー名:">
 <!ENTITY incomingUsername.accesskey "U">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "ニュース (NNTP) サーバ の名前を入力してください。(例: news.example.jp)">
@@ -72,8 +72,8 @@
 <!ENTITY outgoingServer.description "メール送信 (SMTP) サーバの名前を入力してください。(例: smtp.example.jp)">
 <!ENTITY outgoingServer.label "メール送信サーバ:">
 <!ENTITY outgoingServer.accesskey "S">
-<!ENTITY outgoingUsername.description "プロバイダに指定された送信サーバのユーザ名を入力してください (一般的に受信サーバのユーザ名と同じです)。">
-<!ENTITY outgoingUsername.label "送信サーバのユーザ名:">
+<!ENTITY outgoingUsername.description "プロバイダに指定された送信サーバのユーザー名を入力してください (一般的に受信サーバのユーザー名と同じです)。">
+<!ENTITY outgoingUsername.label "送信サーバのユーザー名:">
 <!ENTITY outgoingUsername.accesskey "U">
 
 <!-- LOCALIZATION NOTE (modifyOutgoing.suffix) : This string will be appended after each of
@@ -91,14 +91,14 @@
      these variables. Also, translate haveSmtp2.prefix and haveSmtp2.suffix3 as a single sentence, inserting
      text after the "&quot;" entity in haveSmtp2.suffix3, if required grammatically.
 -->
-<!ENTITY haveSmtp2.prefix "メール送信 (SMTP) サーバのユーザ名には、&quot;">
+<!ENTITY haveSmtp2.prefix "メール送信 (SMTP) サーバのユーザー名には、&quot;">
 <!ENTITY haveSmtp2.suffix3 "&quot; が使用されます。">
 <!-- LOCALIZATION NOTE (haveSmtp3.prefix and haveSmtp3.suffix3) : Do not translate "SMTP" and "&quot;" in
      these variables. Also, translate haveSmtp3.prefix and haveSmtp3.suffix3 as a single sentence, inserting
      text after the "&quot;" entity in haveSmtp3.suffix3, if required grammatically.
 -->
 <!ENTITY haveSmtp3.prefix "送信 (SMTP) サーバ &quot;">
-<!ENTITY haveSmtp3.suffix3 "&quot; が受信サーバと同一であるため、送信サーバへのアクセスにも受信サーバのユーザ名を使用します。">
+<!ENTITY haveSmtp3.suffix3 "&quot; が受信サーバと同一であるため、送信サーバへのアクセスにも受信サーバのユーザー名を使用します。">
 
 <!-- Entities for Account name page -->
 

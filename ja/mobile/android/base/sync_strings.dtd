@@ -51,7 +51,7 @@
 <!ENTITY fxaccount_getting_started_get_started 'はじめましょう'>
 <!ENTITY fxaccount_getting_started_old_firefox '古いバージョンの &syncBrand.shortName.label; を使っていませんか？'>
 
-<!ENTITY fxaccount_status_signed_in_as 'サインインユーザ'>
+<!ENTITY fxaccount_status_signed_in_as 'サインインユーザー'>
 <!ENTITY fxaccount_status_manage_account 'アカウントの管理'>
 <!ENTITY fxaccount_status_auth_server 'アカウントサーバ'>
 <!ENTITY fxaccount_status_sync_now '今すぐ同期'>

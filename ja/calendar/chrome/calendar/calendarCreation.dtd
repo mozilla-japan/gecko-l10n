@@ -11,8 +11,8 @@
 <!ENTITY initialpage.network.label	"ネットワークのサーバに保存する">
 
 <!ENTITY locationpage.description	"リモートのカレンダーへの接続に必要な情報を入力してください。" >
-<!ENTITY locationpage.login.description	"オプション: ユーザ名とパスワードを入力" >
-<!ENTITY locationpage.username.label	"ユーザ名:" >
+<!ENTITY locationpage.login.description	"オプション: ユーザー名とパスワードを入力" >
+<!ENTITY locationpage.username.label	"ユーザー名:" >
 <!ENTITY locationpage.password.label	"パスワード:" >
 
 <!ENTITY custompage.shortdescription	"カレンダーのカスタマイズ" >

@@ -23,6 +23,6 @@
 <!ENTITY serverDescription.label	"説明: ">
 <!ENTITY serverName.label		"サーバ名: ">
 <!ENTITY serverPort.label		"ポート: ">
-<!ENTITY userName.label			"ユーザ名: ">
+<!ENTITY userName.label			"ユーザー名: ">
 <!ENTITY connectionSecurity.label	"接続の保護: ">
 <!ENTITY authMethod.label		"認証方式: ">

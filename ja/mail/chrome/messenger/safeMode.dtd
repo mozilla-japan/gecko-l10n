@@ -6,7 +6,7 @@
 <!ENTITY safeModeDialog.title		"&brandShortName; セーフモード">
 <!ENTITY window.width			"37em">
 
-<!ENTITY safeModeDescription.label	"&brandShortName; はセーフモードで実行されており、ユーザ設定、テーマ、拡張機能はすべて一時的に無効化されています。">
+<!ENTITY safeModeDescription.label	"&brandShortName; はセーフモードで実行されており、ユーザー設定、テーマ、拡張機能はすべて一時的に無効化されています。">
 <!ENTITY safeModeDescription2.label	"以下の項目については恒久的に変更できます:">
 
 <!ENTITY disableAddons.label		"すべてのアドオンを無効化する">

@@ -5,7 +5,7 @@
 
 <!--LOCALIZATION NOTE : FILE Offline Apps prefs dialog -->
 <!ENTITY pref.offlineapps.title             "オフラインウェブアプリケーション">
-<!ENTITY pref.offlineCache.caption          "オフラインのウェブコンテンツとユーザデータ">
+<!ENTITY pref.offlineCache.caption          "オフラインのウェブコンテンツとユーザーデータ">
 
 <!ENTITY clearOfflineAppCache.label         "消去">
 <!ENTITY clearOfflineAppCache.accesskey     "C">

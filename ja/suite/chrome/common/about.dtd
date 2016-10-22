@@ -8,4 +8,4 @@
      example: You are currently on the _Stable_ update channel. -->
 <!ENTITY channel.description.start  "現在の更新チャンネルは ">
 <!ENTITY channel.description.end    " です。">
-<!ENTITY about.userAgent            "ユーザエージェント: ">
+<!ENTITY about.userAgent            "ユーザーエージェント: ">

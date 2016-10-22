@@ -11,7 +11,7 @@
 
 <!ENTITY namespaceTitle.null.label	"null">
 <!ENTITY namespaceTitle.default.label	"ドキュメントの@@Default@@ URI">
-<!ENTITY namespaceTitle.custom.label	"ユーザ設定">
+<!ENTITY namespaceTitle.custom.label	"ユーザー設定">
 
 <!-- LOCALIZATION NOTE: The following entities are names of W3C specifications.
                         Please consult http://www.w3.org/Consortium/Translation/

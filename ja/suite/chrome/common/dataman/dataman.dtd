@@ -104,7 +104,7 @@
 <!ENTITY pwd.description "このドメインでは、以下のパスワードが保存されています:">
 
 <!ENTITY pwd.tree.host.label "ウェブサイト">
-<!ENTITY pwd.tree.username.label "ユーザ名">
+<!ENTITY pwd.tree.username.label "ユーザー名">
 <!ENTITY pwd.tree.password.label "パスワード">
 
 <!ENTITY pwd.ctx.remove.label "削除">

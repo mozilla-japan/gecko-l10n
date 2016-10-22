@@ -56,12 +56,12 @@
 <!ENTITY browseUrl.label		"ホームページの HTTP アドレス (例: 'http://www.myisp.com/myusername'):">
 <!ENTITY browseUrl.accesskey		"T">
 <!ENTITY browseUrl.tooltip		"ホームディレクトリの HTTP:// アドレス (ファイル名は含まない)">
-<!ENTITY username.label			"ユーザ名:">
+<!ENTITY username.label			"ユーザー名:">
 <!ENTITY username.accesskey		"U">
-<!ENTITY username.tooltip		"ISP またはウェブホスティングサービスにログインするためのユーザ名">
+<!ENTITY username.tooltip		"ISP またはウェブホスティングサービスにログインするためのユーザー名">
 <!ENTITY password.label			"パスワード:">
 <!ENTITY password.accesskey		"w">
-<!ENTITY password.tooltip		"ユーザ名に関連したパスワード">
+<!ENTITY password.tooltip		"ユーザー名に関連したパスワード">
 <!ENTITY savePassword.label		"パスワードを保存する">
 <!ENTITY savePassword.accesskey		"S">
 <!ENTITY savePassword.tooltip		"このパスワードをパスワードマネージャを使って安全に保存します">

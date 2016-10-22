@@ -55,7 +55,7 @@
 
 <!ENTITY httpCache.label                 "キャッシュされたウェブページ">
 
-<!ENTITY offlineStorage2.label           "オフラインウェブページとユーザデータ">
+<!ENTITY offlineStorage2.label           "オフラインウェブページとユーザーデータ">
 
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single

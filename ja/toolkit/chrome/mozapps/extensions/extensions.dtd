@@ -212,7 +212,7 @@
 
 <!ENTITY addon.createdBy.label			"作成者: ">
 
-<!ENTITY eula.title				"エンドユーザライセンス契約">
+<!ENTITY eula.title				"エンドユーザーライセンス契約">
 <!ENTITY eula.width				"560px">
 <!ENTITY eula.height				"400px">
 <!ENTITY eula.accept				"同意してインストールする...">
@@ -239,7 +239,7 @@
 <!ENTITY disabledUnsigned.description.start		"次のアドオンは &brandShortName; での使用が検証されていません。">
 <!ENTITY disabledUnsigned.description.findAddonsLink	"代わりのアドオンを見つける">
 <!ENTITY disabledUnsigned.description.end		"か、検証されたアドオンを入手できるように開発者に依頼してください。">
-<!ENTITY disabledUnsigned.learnMore			"ユーザのオンライン上の安全を保つ私たちの活動について学んでください。">
+<!ENTITY disabledUnsigned.learnMore			"ユーザーのオンライン上の安全を保つ私たちの活動について学んでください。">
 <!-- LOCALIZATION NOTE (disabledUnsigned.devInfo.start, disabledUnsigned.devInfo.linkToManual, disabledUnsigned.devInfo.end):
      These entities form a sentence, with disabledUnsigned.devInfo.linkToManual
      being a link to an external site. -->

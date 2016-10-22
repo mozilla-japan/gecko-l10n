@@ -22,7 +22,7 @@
 <!ENTITY replaceAllButton.accessKey		"A">
 <!ENTITY stopButton.label			"中止">
 <!ENTITY stopButton.accessKey			"o">
-<!ENTITY userDictionary.label			"ユーザ辞書:">
+<!ENTITY userDictionary.label			"ユーザー辞書:">
 <!ENTITY moreDictionaries.label			"追加の辞書をダウンロード">
 <!ENTITY addToUserDictionaryButton.label	"単語を追加">
 <!ENTITY addToUserDictionaryButton.accessKey	"d">
