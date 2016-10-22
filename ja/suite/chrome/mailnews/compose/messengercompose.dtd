@@ -29,7 +29,7 @@
 <!ENTITY attachMenu.accesskey "t">
 <!ENTITY attachFileCmd.label "ファイル...">
 <!ENTITY attachFileCmd.accesskey "F">
-<!ENTITY attachPageCmd.label "Web ページ...">
+<!ENTITY attachPageCmd.label "ウェブページ...">
 <!ENTITY attachPageCmd.accesskey "W">
 <!--LOCALIZATION NOTE attachVCardCmd.label Don't translate the term 'vCard' -->
 <!ENTITY attachVCardCmd.label "パーソナルカード (vCard)">
@@ -130,5 +130,5 @@
 <!ENTITY selectAllAttachments.accesskey "A">
 <!ENTITY attachFile.label "ファイルを添付...">
 <!ENTITY attachFile.accesskey "F">
-<!ENTITY attachPage.label "Web ページを添付...">
+<!ENTITY attachPage.label "ウェブページを添付...">
 <!ENTITY attachPage.accesskey "W">

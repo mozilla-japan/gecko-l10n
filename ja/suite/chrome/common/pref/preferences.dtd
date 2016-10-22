@@ -11,7 +11,7 @@
 <!ENTITY colors.label "@@Colors@@">
 <!ENTITY spellingPane.label "スペルチェック">
 
-<!ENTITY navigator.label "ブラウザ">
+<!ENTITY navigator.label "ブラウザー">
 <!ENTITY history.label "履歴">
 <!ENTITY languages.label "言語">
 <!ENTITY applications.label "ヘルパーアプリケーション">

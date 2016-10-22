@@ -6,15 +6,15 @@
 <!ENTITY pref.locationBar.title                "アドレスバー"><!-- en-US: "Location Bar" -->
 
 <!ENTITY autoComplete.label                    "自動補完">
-<!ENTITY autoCompleteMatchHistory.label        "履歴から Web サイトの候補を自動的に提案する">
+<!ENTITY autoCompleteMatchHistory.label        "履歴からウェブサイトの候補を自動的に提案する">
 <!ENTITY autoCompleteMatchHistory.accesskey    "A">
-<!ENTITY autoCompleteMatchBookmarks.label      "ブックマークから Web サイトの候補を自動的に提案する">
+<!ENTITY autoCompleteMatchBookmarks.label      "ブックマークからウェブサイトの候補を自動的に提案する">
 <!ENTITY autoCompleteMatchBookmarks.accesskey  "B">
 <!ENTITY autoCompleteAutoFill.label            "入力に最も一致する項目を自動補完">
 <!ENTITY autoCompleteAutoFill.accesskey        "u">
 <!ENTITY autoCompleteShowPopup.label           "一致する項目のリストを表示">
 <!ENTITY autoCompleteShowPopup.accesskey       "S">
-<!ENTITY autoCompleteMatchOnlyTyped.label      "以前入力した Web サイトのみに一致する項目を表示">
+<!ENTITY autoCompleteMatchOnlyTyped.label      "以前入力したウェブサイトのみに一致する項目を表示">
 <!ENTITY autoCompleteMatchOnlyTyped.accesskey  "o">
 <!--LOCALIZATION NOTE (autoCompleteMatch.label): This is the common leading
   part of the menulist items listed below, mainly to make the control available
@@ -30,14 +30,14 @@
 <!ENTITY showInternetSearch.accesskey          "e">
 
 <!ENTITY formatting.label                      "表示形式">
-<!ENTITY domainFormatting.label                "Web サイトや FTP サーバのドメインを強調する"><!--en-US: "Highlight the effective domain for websites and FTP servers" -->
+<!ENTITY domainFormatting.label                "ウェブサイトや FTP サーバのドメインを強調する"><!--en-US: "Highlight the effective domain for websites and FTP servers" -->
 <!ENTITY domainFormatting.accesskey            "d">
 
-<!ENTITY highlightSecure.label                 "接続のセキュリティレベルが高い Web ページを強調する">
+<!ENTITY highlightSecure.label                 "接続のセキュリティレベルが高いウェブページを強調する">
 <!ENTITY highlightSecure.accesskey             "c">
 
 <!ENTITY unknownLocations.label                "アドレス入力"><!-- en-US: "Unknown Locations" -->
-<!ENTITY domainGuessing.label                  "Web ページが見つからないときは &quot;www.&quot; と &quot;.com&quot;を補完する">
+<!ENTITY domainGuessing.label                  "ウェブページが見つからないときは &quot;www.&quot; と &quot;.com&quot;を補完する">
 <!ENTITY domainGuessing.accesskey              "w">
-<!ENTITY keywords.label                        "入力されたテキストが Web アドレス (URL) でないときは Web を検索する">
+<!ENTITY keywords.label                        "入力されたテキストがウェブアドレス (URL) でないときはウェブを検索する">
 <!ENTITY keywords.accesskey                    "P">

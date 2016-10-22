@@ -36,7 +36,7 @@
 <!ENTITY pageTitleExample.label		"例: &quot;My Web Page&quot;">
 <!ENTITY filename.label			"ファイル名:">
 <!ENTITY filename.accesskey		"F">
-<!ENTITY filename.tooltip		"Web ページの '.html' も含めて、このファイルのファイル名を入力します">
+<!ENTITY filename.tooltip		"ウェブページの '.html' も含めて、このファイルのファイル名を入力します">
 <!ENTITY filenameExample.label		"例: &quot;mypage.html&quot;">
 <!ENTITY setDefaultButton.label		"@@DefaultValue@@に設定">
 <!ENTITY setDefaultButton.accesskey	"D">
@@ -52,13 +52,13 @@
 <!ENTITY siteName.tooltip		"アップロードサイトを識別するためのニックネーム (例: 'MySite')">
 <!ENTITY siteUrl.label			"アップロードするアドレス (例: 'ftp://ftp.myisp.com/myusername'):">
 <!ENTITY siteUrl.accesskey		"a">
-<!ENTITY siteUrl.tooltip		"ISP または Web ホスティングサービス提供の FTP:// や HTTP:// アドレス">
+<!ENTITY siteUrl.tooltip		"ISP またはウェブホスティングサービス提供の FTP:// や HTTP:// アドレス">
 <!ENTITY browseUrl.label		"ホームページの HTTP アドレス (例: 'http://www.myisp.com/myusername'):">
 <!ENTITY browseUrl.accesskey		"T">
 <!ENTITY browseUrl.tooltip		"ホームディレクトリの HTTP:// アドレス (ファイル名は含まない)">
 <!ENTITY username.label			"ユーザー名:">
 <!ENTITY username.accesskey		"U">
-<!ENTITY username.tooltip		"ISP または Web ホスティングサービスにログインするためのユーザー名">
+<!ENTITY username.tooltip		"ISP またはウェブホスティングサービスにログインするためのユーザー名">
 <!ENTITY password.label			"パスワード:">
 <!ENTITY password.accesskey		"w">
 <!ENTITY password.tooltip		"ユーザー名に関連したパスワード">

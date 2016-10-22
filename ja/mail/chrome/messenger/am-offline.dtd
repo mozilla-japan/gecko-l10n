@@ -6,7 +6,7 @@
 <!ENTITY doNotDownloadPop3Movemail.label	"次のメッセージはダウンロードしない:">
 <!ENTITY doNotDownloadNntp.label		"次のメッセージはオフライン表示用にダウンロードしない:">
 <!ENTITY doNotDownloadImap.label		"指定したサイズまたは期間のメッセージをオフライン表示用にダウンロードしてローカルにコピーを保存します。">
-<!ENTITY allFoldersOffline.label		"このアカウントのメッセージをこのコンピュータに保存する">
+<!ENTITY allFoldersOffline.label		"このアカウントのメッセージをこのコンピューターに保存する">
 <!ENTITY allFoldersOffline.accesskey		"o">
 <!ENTITY offlineNotDownload.label		"メッセージのサイズが"><!-- (^^; ... kb.label -->
 <!ENTITY offlineNotDownload.accesskey		"M">
@@ -16,13 +16,13 @@
 <!ENTITY daysOld.label				"日"><!-- (^^; "days old" -->
 <!ENTITY message.label				"通"><!-- (^^; "messages" -->
 <!ENTITY nntpNotDownloadRead.label		"既読メッセージ"><!-- (^^; 動作を要確認 -->
-<!ENTITY nntpNotDownloadRead.accesskey		"d"> 
+<!ENTITY nntpNotDownloadRead.accesskey		"d">
 <!ENTITY nntpDownloadMsg.label			"送信日時から次の日数以上経過したメッセージ"><!-- (^^; "Messages *more* than" daysOld.label -->
-<!ENTITY nntpDownloadMsg.accesskey		"e"> 
+<!ENTITY nntpDownloadMsg.accesskey		"e">
 <!-- (^^; 以下 folderProps.dtd にもあり -->
 <!ENTITY retentionCleanup.label			"古いメッセージを完全に削除してディスク領域を開放できます。">
 <!ENTITY retentionCleanupImap.label		"ローカルのコピーとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
-<!ENTITY retentionCleanupPop.label		"このコンピュータとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
+<!ENTITY retentionCleanupPop.label		"このコンピューターとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
 <!ENTITY retentionKeepMsg.label			"送信日時から次の日数以上経過したメッセージを削除する"><!-- (^^; Delete messages more than ... days.label -->
 <!ENTITY retentionKeepMsg.accesskey		"t">
 <!ENTITY retentionKeepAll.label			"メッセージを自動削除しない">

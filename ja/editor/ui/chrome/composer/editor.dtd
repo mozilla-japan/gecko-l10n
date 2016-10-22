@@ -12,7 +12,7 @@
 <!-- Toolbar-only items -->
 <!ENTITY compositionToolbar.tooltip	"一般ツールバー"><!-- Composition Toolbar -->
 <!ENTITY previewToolbarCmd.label	"@@Browse@@">
-<!ENTITY previewToolbarCmd.tooltip	"このページをブラウザで読み込みます">
+<!ENTITY previewToolbarCmd.tooltip	"このページをブラウザーで読み込みます">
 
 <!-- File menu items -->
 <!ENTITY exportToTextCmd.label		"テキストに@@Export@@...">
@@ -64,4 +64,4 @@
 <!ENTITY PreviewModeTab.label		"プレビュー">
 <!ENTITY PreviewMode.label		"プレビュー">
 <!ENTITY PreviewMode.accesskey		"P">
-<!ENTITY PreviewMode.tooltip		"ブラウザと同じように表示します (WYSIWYG)"><!-- en-US: Display as WYSIWYG (as in the browser) -->
+<!ENTITY PreviewMode.tooltip		"ブラウザーと同じように表示します (WYSIWYG)"><!-- en-US: Display as WYSIWYG (as in the browser) -->

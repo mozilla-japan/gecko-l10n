@@ -30,11 +30,11 @@
 <!ENTITY rights.intro-point3c " をご確認ください。">
 
 <!-- point 4 text for official branded builds -->
-<!ENTITY rights2.intro-point4a "&brandShortName; は、アドオン、セーフブラウジングサービスなど、オプションで Web サイト情報サービスも提供しています。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。サービスを無効化する方法を含め、詳しくは ">
+<!ENTITY rights2.intro-point4a "&brandShortName; は、アドオン、セーフブラウジングサービスなど、オプションでウェブサイト情報サービスも提供しています。ただし、それらのサービスが 100&#37; 正確であることやエラーが起きないことは保証できません。サービスを無効化する方法を含め、詳しくは ">
 <!ENTITY rights.intro-point4b "サービス利用規約">
 <!ENTITY rights.intro-point4c " をご確認ください。">
 
-<!ENTITY rights.webservices-header "&brandFullName; Web サイトサービス">
+<!ENTITY rights.webservices-header "&brandFullName; ウェブサイトサービス">
 
 <!-- Note that this paragraph references entities from extensions.dtd,
      preferences.dtd, pref-smartupdate.dtd, and pref-security.dtd,

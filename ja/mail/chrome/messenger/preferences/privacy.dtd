@@ -12,9 +12,9 @@
 <!ENTITY acceptRemoteContentInfo.label	"リモートコンテンツのプライバシーに係わる問題について">
 
 <!-- Web Content -->
-<!ENTITY captionWebContent.label	"Web コンテンツ">
+<!ENTITY captionWebContent.label	"ウェブコンテンツ">
 
-<!ENTITY keepHistory.label		"訪問した Web サイトとリンクを記憶する">
+<!ENTITY keepHistory.label		"訪問したウェブサイトとリンクを記憶する">
 <!ENTITY keepHistory.accesskey		"R">
 <!ENTITY acceptCookies.label		"サイトから送られてきた Cookie を保存する">
 <!ENTITY acceptCookies.accesskey	"A">
@@ -33,6 +33,6 @@
 <!ENTITY showCookies.label		"Cookie を表示...">
 <!ENTITY showCookies.accesskey		"S">
 
-<!ENTITY dntTrackingNotOkay.label2	"トラッキングの拒否を Web サイトに通知する">
+<!ENTITY dntTrackingNotOkay.label2	"トラッキングの拒否をウェブサイトに通知する">
 <!ENTITY dntTrackingNotOkay.accesskey	"n">
 <!ENTITY doNotTrackInfo.label		"トラッキング拒否について">
