@@ -72,7 +72,7 @@
 <!ENTITY HomeZipCode.accesskey		"Z">
 <!ENTITY HomeCountry.label		"国:">
 <!ENTITY HomeCountry.accesskey		"u">
-<!ENTITY HomeWebPage.label		"Web ページ:">
+<!ENTITY HomeWebPage.label		"ウェブページ:">
 <!ENTITY HomeWebPage.accesskey		"e">
 <!ENTITY Birthday.label			"誕生日:">
 <!ENTITY Birthday.accesskey		"B">
@@ -102,7 +102,7 @@
 <!ENTITY WorkZipCode.accesskey		"Z">
 <!ENTITY WorkCountry.label		"国:">
 <!ENTITY WorkCountry.accesskey		"u">
-<!ENTITY WorkWebPage.label		"Web ページ:">
+<!ENTITY WorkWebPage.label		"ウェブページ:">
 <!ENTITY WorkWebPage.accesskey		"e">
 
 <!ENTITY Other.tab			"その他">
@@ -149,8 +149,8 @@
 <!ENTITY PhotoFile.accesskey		"n">
 <!ENTITY BrowsePhoto.label		"@@Browse@@">
 <!ENTITY BrowsePhoto.accesskey		"r">
-<!ENTITY PhotoURL.label			"Web 上">
+<!ENTITY PhotoURL.label			"ウェブ上">
 <!ENTITY PhotoURL.accesskey		"b">
-<!ENTITY PhotoURL.placeholder		"Web 上の写真ファイルの URL を入力してください">
+<!ENTITY PhotoURL.placeholder		"ウェブ上の写真ファイルの URL を入力してください">
 <!ENTITY UpdatePhoto.label		"更新">
 <!ENTITY UpdatePhoto.accesskey		"u">
