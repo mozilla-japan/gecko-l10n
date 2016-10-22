@@ -7,7 +7,7 @@
 <!ENTITY div.bannedservers.label	"Cookie を受け入れまたは拒否するサイトの管理。">
 <!ENTITY div.cookiesonsystem.label	"保存された Cookie の表示と削除。">
 <!ENTITY treehead.cookiename.label	"Cookie 名">
-<!ENTITY treehead.cookiedomain.label	"Web サイト">
+<!ENTITY treehead.cookiedomain.label	"ウェブサイト">
 <!ENTITY treehead.cookieexpires.label	"有効期限">
 <!ENTITY treehead.infoselected.label	"選択した Cookie に関する情報">
 <!ENTITY button.removecookie.label	"Cookie を削除">
@@ -26,7 +26,7 @@
 <!ENTITY props.secure.label		"接続方式:">
 <!ENTITY props.expires.label		"有効期限:">
 
-<!ENTITY treehead.sitename.label	"Web サイト">
+<!ENTITY treehead.sitename.label	"ウェブサイト">
 <!ENTITY     treehead.scheme.label	"スキーム">
 <!ENTITY treehead.status.label		"状況">
 <!ENTITY windowtitle.label		"Cookie マネージャ">

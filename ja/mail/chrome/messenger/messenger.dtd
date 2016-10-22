@@ -253,7 +253,7 @@
 
 <!ENTITY bodyMenuFeed.label			"フィードの表示形式">
 <!ENTITY bodyMenuFeed.accesskey			"B">
-<!ENTITY viewFeedWebPage.label			"Web ページ">
+<!ENTITY viewFeedWebPage.label			"ウェブページ">
 <!ENTITY viewFeedWebPage.accesskey		"W">
 <!ENTITY viewFeedSummary.label			"要約">
 <!ENTITY viewFeedSummary.accesskey		"m">
@@ -440,7 +440,7 @@
 <!ENTITY openAttachmentListCmd.accesskey "h">
 <!ENTITY openFeedMessage1.label		"フィードメッセージを開く">
 <!ENTITY openFeedMessage1.accesskey	"O">
-<!ENTITY openFeedWebPage.label		"Web ページ形式で開く">
+<!ENTITY openFeedWebPage.label		"ウェブページ形式で開く">
 <!ENTITY openFeedWebPage.accesskey	"W">
 <!ENTITY openFeedSummary.label		"要約形式で開く">
 <!ENTITY openFeedSummary.accesskey	"S">

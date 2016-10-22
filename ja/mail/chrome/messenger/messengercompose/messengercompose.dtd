@@ -24,7 +24,7 @@
 <!ENTITY attachFileCmd.key		"A">
 <!ENTITY attachCloudCmd.label		"Filelink">
 <!ENTITY attachCloudCmd.accesskey	"i">
-<!ENTITY attachPageCmd.label		"Web ページ...">
+<!ENTITY attachPageCmd.label		"ウェブページ...">
 <!ENTITY attachPageCmd.accesskey	"W">
 <!--LOCALIZATION NOTE attachVCardCmd.label Don't translate the term 'vCard' -->
 <!ENTITY attachVCardCmd.label		"vCard">
@@ -297,7 +297,7 @@
 <!ENTITY cancelUpload.accesskey		"n">
 <!ENTITY convertRegularAttachment.label	"通常の添付">
 <!ENTITY convertRegularAttachment.accesskey	"A">
-<!ENTITY attachPage.label		"Web ページを添付...">
+<!ENTITY attachPage.label		"ウェブページを添付...">
 <!ENTITY attachPage.accesskey		"W">
 
 <!-- Spell checker context menu items -->

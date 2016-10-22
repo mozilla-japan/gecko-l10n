@@ -11,7 +11,7 @@
 <!ENTITY tabNavigationTextboxes.label "注: いずれの設定でも、テキストボックスとスクロール可能な領域が含まれます。">
 <!ENTITY tabNavigationDesc.label "Tab か Shift+Tab を押したときの移動先:">
 <!ENTITY accessibilityBrowseWithCaret.label "キャレットブラウズ">
-<!ENTITY browseWithCaretDesc.label "キャレットブラウズモードをオンにすると、Web ページ中を移動可能なカーソル (キャレット) が表示され、キーボードでテキストを選択できるようになります。">
+<!ENTITY browseWithCaretDesc.label "キャレットブラウズモードをオンにすると、ウェブページ中を移動可能なカーソル (キャレット) が表示され、キーボードでテキストを選択できるようになります。">
 <!ENTITY browseWithCaretUse.label "キャレットブラウズを利用する">
 <!ENTITY browseWithCaretUse.accesskey "U">
 <!ENTITY browseWithCaretShortCut.label "F7 キーを押したときキャレットブラウズモードに切り替える">
