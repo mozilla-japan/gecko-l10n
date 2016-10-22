@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY Inspector.title		"DOM インスペクタ">
+<!ENTITY Inspector.title		"DOM インスペクター">
 
 <!ENTITY thDOMNodes.label		"DOM ノード">
 <!ENTITY btnInspect.label		"調査">

@@ -167,7 +167,7 @@
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
 <!ENTITY options.stylesheetSourceMaps.label	"元のソースを表示">
-<!ENTITY options.stylesheetSourceMaps.tooltip	"スタイルエディタとインスペクタで元のソースを表示します (例: Sass ファイル)">
+<!ENTITY options.stylesheetSourceMaps.tooltip	"スタイルエディタとインスペクターで元のソースを表示します (例: Sass ファイル)">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
