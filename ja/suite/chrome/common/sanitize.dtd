@@ -17,7 +17,7 @@
 <!ENTITY itemCache.accesskey             "a">
 <!ENTITY itemCookies.label               "Cookie">
 <!ENTITY itemCookies.accesskey           "C">
-<!ENTITY itemOfflineApps.label           "Web サイトのオフライン用データ">
+<!ENTITY itemOfflineApps.label           "ウェブサイトのオフライン用データ">
 <!ENTITY itemOfflineApps.accesskey       "O">
 <!ENTITY itemPasswords.label             "保存されているパスワード">
 <!ENTITY itemPasswords.accesskey         "P">

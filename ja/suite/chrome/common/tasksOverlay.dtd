@@ -18,7 +18,7 @@
 <!ENTITY taskComposer.tooltip "Composer">
 <!ENTITY taskNavigator.tooltip "ブラウザー">
 
-<!ENTITY webDevelopment.label "Web 開発">
+<!ENTITY webDevelopment.label "ウェブ開発">
 <!ENTITY webDevelopment.accesskey "W">
 
 <!ENTITY windowMenu.label "@@Window@@">

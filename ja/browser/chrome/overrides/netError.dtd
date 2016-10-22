@@ -22,7 +22,7 @@
 <!ENTITY dnsNotFound.longDesc		"
 <ul>
   <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>
-  <li>他のサイトも表示できない場合、コンピュータのネットワーク接続を確認してください。</li>
+  <li>他のサイトも表示できない場合、コンピューターのネットワーク接続を確認してください。</li>
   <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; によるウェブアクセスが許可されているか確認してください。</li>
 </ul>
 ">
@@ -107,7 +107,7 @@
 <!ENTITY proxyResolveFailure.longDesc	"
 <ul>
   <li>プロキシ設定が正しいか確認してください。</li>
-  <li>コンピュータが有効なネットワークに接続されているか確認してください。</li>
+  <li>コンピューターが有効なネットワークに接続されているか確認してください。</li>
   <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; によるウェブアクセスが許可されているか確認してください。</li>
 </ul>
 ">
@@ -122,7 +122,7 @@
 <!ENTITY unknownSocketType.title	"サーバの応答が不正です">
 <!ENTITY unknownSocketType.longDesc	"
 <ul>
-  <li>コンピュータにパーソナルセキュリティマネージャがインストールされているか確認してください。</li>
+  <li>コンピューターにパーソナルセキュリティマネージャがインストールされているか確認してください。</li>
   <li>サーバの設定が間違っていることにより、この問題が発生している可能性もあります。</li>
 </ul>
 ">
@@ -144,7 +144,7 @@ was trying to connect. -->
 <!ENTITY sharedLongDesc			"
 <ul>
   <li>このサイトが一時的に利用できなくなっていたり、サーバの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>
-  <li>他のサイトも表示できない場合、コンピュータのネットワーク接続を確認してください。</li>
+  <li>他のサイトも表示できない場合、コンピューターのネットワーク接続を確認してください。</li>
   <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; によるウェブアクセスが許可されているか確認してください。</li>
 </ul>
 ">
@@ -179,7 +179,7 @@ was trying to connect. -->
 
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
      please leave them unchanged. -->
-<!ENTITY certerror.wrongSystemTime "<p>このコンピュータの時刻が正しくないため、<span id='wrongSystemTime_URL'/> への安全な接続を確保できません。</p><p>このコンピュータの時刻は <span id='wrongSystemTime_systemDate'/> となっていますが、正しい時刻は <span id='wrongSystemTime_actualDate'/> です。問題を解決するには、コンピュータの時刻を正しく設定してください。</p>">
+<!ENTITY certerror.wrongSystemTime "<p>このコンピューターの時刻が正しくないため、<span id='wrongSystemTime_URL'/> への安全な接続を確保できません。</p><p>このコンピューターの時刻は <span id='wrongSystemTime_systemDate'/> となっていますが、正しい時刻は <span id='wrongSystemTime_actualDate'/> です。問題を解決するには、コンピューターの時刻を正しく設定してください。</p>">
 
 <!ENTITY certerror.pagetitle1			"安全ではない接続">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation	"このサイトでは、暗号化された通信のみで接続するよう &brandShortName; に指定する HTTP Strict Transport Security (HSTS) が使われています。そのため、この証明書を例外に追加することはできません。">

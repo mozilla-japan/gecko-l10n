@@ -698,7 +698,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.connectionSecure		"安全な接続">
 <!ENTITY identity.connectionNotSecure		"この接続は安全ではありません">
-<!ENTITY identity.connectionFile		"これはあなたのコンピュータに保存されているページです。">
+<!ENTITY identity.connectionFile		"これはあなたのコンピューターに保存されているページです。">
 <!ENTITY identity.connectionVerified2		"このサイトとの接続は安全です。このサイトの運営者:">
 <!ENTITY identity.connectionInternal		"このページは &brandShortName; の安全な内部ページです。">
 <!ENTITY identity.insecureLoginForms2		"このページのログインフォームは安全ではありません。">

@@ -14,5 +14,5 @@
 <!-- pref-tabs.xul -->
 <!ENTITY urlbar.label		"アドレスバーで &#8984;+Return">
 <!ENTITY urlbar.accesskey	"L">
-<!ENTITY middleClick.label	"Web ページでリンクを中クリックまたは &#8984;+クリックあるいは &#8984;+Return">
+<!ENTITY middleClick.label	"ウェブページでリンクを中クリックまたは &#8984;+クリックあるいは &#8984;+Return">
 <!ENTITY middleClick.accesskey	"M">

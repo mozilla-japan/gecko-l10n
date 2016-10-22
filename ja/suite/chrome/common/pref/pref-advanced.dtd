@@ -21,7 +21,7 @@
 <!ENTITY devTools.caption                 "開発ツール">
 <!ENTITY allowDebugger.label              "&brandShortName; にデバッガの接続を許可する">
 <!ENTITY allowDebugger.accesskey          "A">
-<!ENTITY allowRemoteConnections.label     "他のコンピュータからの接続を許可する">
+<!ENTITY allowRemoteConnections.label     "他のコンピューターからの接続を許可する">
 <!ENTITY allowRemoteConnections.accesskey "o">
 <!ENTITY connectionPrompt.label           "接続要求があったときは確認する">
 <!ENTITY connectionPrompt.accesskey       "P">
