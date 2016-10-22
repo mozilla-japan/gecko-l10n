@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label		"ユーザ辞書">
+<!ENTITY windowTitle.label		"ユーザー辞書">
 
 <!ENTITY wordEditField.label		"新しい単語:">
 <!ENTITY wordEditField.accessKey	"N">

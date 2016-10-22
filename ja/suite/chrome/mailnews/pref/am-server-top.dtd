@@ -10,7 +10,7 @@
 <!ENTITY serverType.label "サーバの種類:">
 <!ENTITY serverName.label "サーバ名:">
 <!ENTITY serverName.accesskey "S">
-<!ENTITY userName.label "ユーザ名:">
+<!ENTITY userName.label "ユーザー名:">
 <!ENTITY userName.accesskey "N">
 <!ENTITY port.label "ポート:">
 <!ENTITY port.accesskey "P">

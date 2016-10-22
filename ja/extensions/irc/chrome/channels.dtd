@@ -16,10 +16,10 @@
 <!ENTITY join.label		"参加する">
 <!ENTITY join.accesskey		"J">
 
-<!ENTITY minusers.label		"最少ユーザ数:">
+<!ENTITY minusers.label		"最少ユーザー数:">
 <!ENTITY minusers.accesskey	"M">
 
-<!ENTITY maxusers.label		"最多ユーザ数:">
+<!ENTITY maxusers.label		"最多ユーザー数:">
 <!ENTITY maxusers.accesskey	"x">
 
 <!ENTITY refresh.label		"今すぐ更新">

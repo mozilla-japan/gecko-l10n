@@ -6,7 +6,7 @@
 <!ENTITY accountWindow.width			"300">
 <!ENTITY account.general			"一般">
 <!ENTITY account.advanced			"詳細オプション">
-<!ENTITY account.name				"ユーザ名:">
+<!ENTITY account.name				"ユーザー名:">
 <!ENTITY account.password			"パスワード:">
 <!ENTITY account.alias				"別名:">
 <!ENTITY account.newMailNotification		"新着メールを通知する"><!-- "Notify on new Mail" -->

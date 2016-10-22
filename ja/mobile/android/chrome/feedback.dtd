@@ -4,7 +4,7 @@
 
 <!ENTITY feedbackHeader2.label           "フィードバックツール">
 
-<!ENTITY feedback.communicate.title     "ユーザのご意見をお寄せください">
+<!ENTITY feedback.communicate.title     "ユーザーのご意見をお寄せください">
 <!ENTITY feedback.feedback.title        "フィードバックを送信">
 <!ENTITY feedback.feedback.good         "いいね">
 <!ENTITY feedback.feedback.bad          "ダメ">

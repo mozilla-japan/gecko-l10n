@@ -41,7 +41,7 @@
 <!ENTITY existingWindowRadio.accesskey    "e">
 <!ENTITY disableContent.label             "メッセージに含まれる画像などのリモートコンテンツを読み込まない">
 <!ENTITY disableContent.accesskey         "B">
-<!ENTITY showCondensedAddresses.label     "アドレス帳に登録されているユーザは @@[@@表示名@@]@@ を表示する">
+<!ENTITY showCondensedAddresses.label     "アドレス帳に登録されているユーザーは @@[@@表示名@@]@@ を表示する">
 <!ENTITY showCondensedAddresses.accesskey "o">
 <!ENTITY closeMsgWindowOnDelete.label     "削除時にメッセージ@@Window@@を閉じる">
 <!ENTITY closeMsgWindowOnDelete.accesskey "l">

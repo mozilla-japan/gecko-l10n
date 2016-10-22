@@ -19,5 +19,5 @@
 <!ENTITY notsentNickname.label  "あなたのニックネーム">
 <!ENTITY notsentMessages.label  "操作と通知を含めたメッセージの内容">
 <!ENTITY notsentArguments.label "すべてのコマンド、メニュー、ダイアログに与えた引数">
-<!ENTITY notsentURLs.label      "ネットワーク名と URL、サービス、チャンネル、ユーザ">
+<!ENTITY notsentURLs.label      "ネットワーク名と URL、サービス、チャンネル、ユーザー">
 <!ENTITY notsentFiles.label     "送受信したファイルの名前と内容">

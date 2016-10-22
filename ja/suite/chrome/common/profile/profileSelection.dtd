@@ -16,7 +16,7 @@
 
 <!ENTITY introStart.label		"あなたのプロファイル (保存されたメッセージ、設定とその他の個人情報を含みます) にアクセスしてセッションを開始するために、あなたのプロファイルをリストから選んで、&start.label; をクリックしてください。">
 <!ENTITY introSwitch.label		"別のプロファイル (保存されたメッセージ、設定と他の個人情報を含みます) に切り換えるには、リストから切り換えたいプロファイルを選択して、@@[@@&select.label;@@]@@ をクリックしてください。">
-<!ENTITY profileManagerText.label	"&brandShortName; は、ユーザ設定、設定、ブックマーク、保存したメール、その他の情報をユーザプロファイルに保存します。">
+<!ENTITY profileManagerText.label	"&brandShortName; は、ユーザー設定、設定、ブックマーク、保存したメール、その他の情報をユーザープロファイルに保存します。">
 
 <!ENTITY autoSelect.label		"このプロファイルを@@Default@@に設定する">
 <!ENTITY autoSelect.accesskey		"S">

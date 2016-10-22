@@ -9,7 +9,7 @@
 <!ENTITY accountProtocolField.label	"ネットワーク:">
 <!ENTITY accountProtocolGetMore.label	"その他...">
 
-<!ENTITY accountUsernameTitle.label	"ユーザ名">
+<!ENTITY accountUsernameTitle.label	"ユーザー名">
 <!ENTITY accountUsernameDuplicate.label	"このアカウントは設定済みです。">
 
 <!ENTITY accountPasswordTitle.label	"パスワード">

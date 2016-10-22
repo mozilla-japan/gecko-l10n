@@ -5,7 +5,7 @@
 <!ENTITY safeModeDialog.title         "&brandShortName; セーフモード">
 <!ENTITY window.width                 "37em"><!-- en-US: 37em -->
 
-<!ENTITY safeModeDescription.label    "&brandShortName; はセーフモードで実行されており、ユーザ設定、テーマ、拡張機能はすべて一時的に無効化されています。">
+<!ENTITY safeModeDescription.label    "&brandShortName; はセーフモードで実行されており、ユーザー設定、テーマ、拡張機能はすべて一時的に無効化されています。">
 <!ENTITY safeModeDescription2.label   "以下の項目については恒久的に変更できます:">
 
 <!ENTITY disableAddons.label          "すべてのアドオンを無効化する">
@@ -17,7 +17,7 @@
 <!ENTITY deleteBookmarks.label        "バックアップ以外すべてのブックマークを削除する">
 <!ENTITY deleteBookmarks.accesskey    "b">
 
-<!ENTITY resetUserPrefs.label         "すべてのユーザ設定を &brandShortName; の@@DefaultValue@@にリセットする">
+<!ENTITY resetUserPrefs.label         "すべてのユーザー設定を &brandShortName; の@@DefaultValue@@にリセットする">
 <!ENTITY resetUserPrefs.accesskey     "p">
 
 <!ENTITY restoreSearch.label          "@@Default-@@検索エンジンを復元する">

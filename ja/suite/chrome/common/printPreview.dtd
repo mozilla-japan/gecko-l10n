@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY Custom.label "ユーザ設定...">
+<!ENTITY Custom.label "ユーザー設定...">
 <!ENTITY ShrinkToFit.label "用紙に合わせて縮める">
 <!ENTITY close.accesskey "C">
 <!ENTITY close.label "閉じる">

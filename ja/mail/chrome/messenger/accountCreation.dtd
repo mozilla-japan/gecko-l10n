@@ -13,7 +13,7 @@
 <!ENTITY password.label			"パスワード:">
 <!ENTITY password.accesskey		"P">
 <!ENTITY password.placeholder		"アカウントのパスワード">
-<!ENTITY password.text			"入力は任意です。ユーザ名の確認にのみ使用されます。">
+<!ENTITY password.text			"入力は任意です。ユーザー名の確認にのみ使用されます。">
 <!ENTITY rememberPassword.label		"パスワードを記憶する">
 <!ENTITY rememberPassword.accesskey	"m">
 
@@ -22,7 +22,7 @@
 
 <!ENTITY incoming.label			"受信サーバ:">
 <!ENTITY outgoing.label			"送信サーバ:">
-<!ENTITY username.label			"ユーザ名:">
+<!ENTITY username.label			"ユーザー名:">
 <!ENTITY hostname.label			"サーバのホスト名">
 <!ENTITY port.label			"ポート番号">
 <!ENTITY ssl.label			"SSL">

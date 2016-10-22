@@ -29,7 +29,7 @@
 <!ENTITY p150.label		"150&#037;">
 <!ENTITY p175.label		"175&#037;">
 <!ENTITY p200.label		"200&#037;">
-<!ENTITY Custom.label		"ユーザ設定...">
+<!ENTITY Custom.label		"ユーザー設定...">
 <!ENTITY ShrinkToFit.label	"用紙に合わせて縮小"><!-- (^^; 長い表現禁止 -->
 <!ENTITY customPrompt.title	"@@Zoom@@を設定...">
 <!ENTITY simplifyPage.label		"ページを単純化">

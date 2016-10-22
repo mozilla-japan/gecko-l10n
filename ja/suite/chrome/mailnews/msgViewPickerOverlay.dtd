@@ -14,7 +14,7 @@
 <!ENTITY viewNotDeleted.accesskey "D">
 <!ENTITY viewTags.label "タグ">
 <!ENTITY viewTags.accesskey "T">
-<!ENTITY viewCustomViews.label "ユーザ設定">
+<!ENTITY viewCustomViews.label "ユーザー設定">
 <!ENTITY viewCustomViews.accesskey "V">
 <!ENTITY viewVirtualFolder.label "検索フォルダとして保存...">
 <!ENTITY viewVirtualFolder.accesskey "S">

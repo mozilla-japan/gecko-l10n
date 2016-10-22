@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- (^^; ユーザのホームページではなく検索エンジンのホームへのリンク -->
+<!-- (^^; ユーザーのホームページではなく検索エンジンのホームへのリンク -->
 <!ENTITY safeb.palm.accept.label	"スタートページに戻る"><!-- en-US: Get me out of here! -->
 <!ENTITY safeb.palm.decline.label	"この警告を無視する">
 <!ENTITY safeb.palm.reportPage.label	"このサイトがブロックされる理由">

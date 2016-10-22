@@ -13,5 +13,5 @@
 <!ENTITY descriptionInput.label "説明:">
 <!ENTITY descriptionInput.accessKey "D">
 <!ENTITY locationNewPage.label "[新しいページです。まだ保存されていません]">
-<!ENTITY EditHEADSource1.label "上級ユーザ:">
+<!ENTITY EditHEADSource1.label "上級ユーザー:">
 <!ENTITY EditHEADSource2.label "&lt;head&gt; エリアの内容を編集するには、表示メニューか編集モードツールバーにある @@[@@HTML ソース@@]@@ を使用します。">
