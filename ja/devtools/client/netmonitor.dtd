@@ -71,7 +71,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.params): This is the label displayed
   -  in the network details pane identifying the params tab. -->
-<!ENTITY netmonitorUI.tab.params          "パラメータ">
+<!ENTITY netmonitorUI.tab.params          "パラメーター">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.response): This is the label displayed
   -  in the network details pane identifying the response tab. -->
@@ -259,7 +259,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrlParams): This is the label displayed
   -  on the context menu that copies the selected request's url parameters -->
-<!ENTITY netmonitorUI.context.copyUrlParams     "URL パラメータをコピー">
+<!ENTITY netmonitorUI.context.copyUrlParams     "URL パラメーターをコピー">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrlParams.accesskey): This is the access key
   -  for the Copy URL Parameters menu item displayed in the context menu for a request -->
