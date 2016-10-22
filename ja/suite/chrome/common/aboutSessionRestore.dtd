@@ -9,7 +9,7 @@
 <!ENTITY restorepage.issueDesc		"&brandShortName; は前回正常に終了できませんでした。ご不便をおかけして申し訳ありません。前回終了時の@@Window@@とタブを復元することもできますし、復元の必要がなければ新しいセッションを開始することもできます。">
 <!ENTITY restorepage.remedies		"&brandShortName; が繰り返し異常終了する場合:">
 <!ENTITY restorepage.dueToChrome	"最近インストールしたアドオンをアドオンマネージャで無効化しててください。">
-<!ENTITY restorepage.dueToContent	"問題の原因となりそうな Web ページを除外して起動してみてください:">
+<!ENTITY restorepage.dueToContent	"問題の原因となりそうなウェブページを除外して起動してみてください:">
 
 <!ENTITY restorepage.restoreButton	"タブを復元">
 <!ENTITY restorepage.restore.access	"R">

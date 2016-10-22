@@ -24,12 +24,12 @@
 <!ENTITY visitedLinkColor.label            "訪問したリンク:">
 <!ENTITY visitedLinkColor.accesskey        "V">
 <!-- LOCALIZATION NOTE (someProvColors): This is the start of a sentence and will be followed by the following radio buttons. -->
-<!ENTITY someProvColors                    "Web ページが独自の@@Colors@@と背景を提供する場合">
+<!ENTITY someProvColors                    "ウェブページが独自の@@Colors@@と背景を提供する場合">
 <!-- LOCALIZATION NOTE (alwaysUseDocColors.label): This is option one, and it appends to 'someProvColors' above. -->
-<!ENTITY alwaysUseDocumentColors.label     "常に Web ページで指定された@@Colors@@と背景@@Color@@を使用する">
+<!ENTITY alwaysUseDocumentColors.label     "常にウェブページで指定された@@Colors@@と背景@@Color@@を使用する">
 <!ENTITY alwaysUseDocumentColors.accesskey "A">
 <!-- LOCALIZATION NOTE (ignoreDocColors.label): This is option two, and it appends to 'someProvColors' above.  -->
-<!ENTITY useMyColors.label                 "Web ページで指定された@@Colors@@と背景画像を無視して、自分で選択した@@Colors@@を使用する">
+<!ENTITY useMyColors.label                 "ウェブページで指定された@@Colors@@と背景画像を無視して、自分で選択した@@Colors@@を使用する">
 <!ENTITY useMyColors.accesskey             "m">
-<!ENTITY automaticColors.label             "高コントラストテーマ使用時のみ、Web ページで指定された@@Colors@@を無視する">
+<!ENTITY automaticColors.label             "高コントラストテーマ使用時のみ、ウェブページで指定された@@Colors@@を無視する">
 <!ENTITY automaticColors.accesskey         "O">

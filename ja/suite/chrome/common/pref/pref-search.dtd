@@ -18,7 +18,7 @@
 
 <!ENTITY openInTab.label                  "サイドバーからの検索結果を@@NewTab@@で開く">
 <!ENTITY openInTab.accesskey              "n">
-<!ENTITY openContextSearchTab.label       "コンテキストメニューからの Web 検索結果を@@Window@@の代わりにタブで開く">
+<!ENTITY openContextSearchTab.label       "コンテキストメニューからのウェブ検索結果を@@Window@@の代わりにタブで開く">
 <!ENTITY openContextSearchTab.accesskey   "t">
 <!ENTITY openSidebarSearchPanel.label     "検索時に Sidebar の検索タブを開いて検索結果を表示する">
 <!ENTITY openSidebarSearchPanel.accesskey "O">

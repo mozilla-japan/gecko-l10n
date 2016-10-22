@@ -75,7 +75,7 @@
 
 <!ENTITY  securityView.privacy.header                   "プライバシーと履歴">
 <!ENTITY  securityView.privacy.history                  "昨日までにこのサイトを表示したことがあるか">
-<!ENTITY  securityView.privacy.cookies                  "このサイトはコンピュータに情報 (Cookie) を保存しているか">
+<!ENTITY  securityView.privacy.cookies                  "このサイトはコンピューターに情報 (Cookie) を保存しているか">
 <!ENTITY  securityView.privacy.viewCookies              "Cookie を表示...">
 <!ENTITY  securityView.privacy.viewCookies.accessKey    "k">
 <!ENTITY  securityView.privacy.passwords                "このサイトのパスワードを保存しているか">

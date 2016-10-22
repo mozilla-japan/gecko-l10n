@@ -2,11 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY pref.navigator.title           "ブラウザ">
+<!ENTITY pref.navigator.title           "ブラウザー">
 
 <!ENTITY navRadio.label                 "次の場合:">
 <!ENTITY navRadio.accesskey             "n">
-<!ENTITY navStartPageMenu.label         "ブラウザの起動時">
+<!ENTITY navStartPageMenu.label         "ブラウザーの起動時">
 <!ENTITY newWinPageMenu.label           "@@NewWindow@@を開いたとき">
 <!ENTITY newTabPageMenu.label           "@@NewTab@@を開いたとき">
 

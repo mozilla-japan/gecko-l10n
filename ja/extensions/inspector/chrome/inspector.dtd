@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY Inspector.title		"DOM インスペクタ">
+<!ENTITY Inspector.title		"DOM インスペクター">
 
 <!ENTITY thDOMNodes.label		"DOM ノード">
 <!ENTITY btnInspect.label		"調査">
@@ -50,17 +50,17 @@
 
 <!ENTITY mnView.label			"表示">
 <!ENTITY mnView.accesskey		"v">
-  <!ENTITY mnDocViewerList.label	"ドキュメントビューア">
+  <!ENTITY mnDocViewerList.label	"ドキュメントビューアー">
   <!ENTITY mnDocViewerList.accesskey	"D">
-  <!ENTITY mnObjectViewerList.label	"オブジェクトビューア">
+  <!ENTITY mnObjectViewerList.label	"オブジェクトビューアー">
   <!ENTITY mnObjectViewerList.accesskey	"O">
-  <!ENTITY cmdToggleDocument.label	"ドキュメントをブラウザペインに表示">
+  <!ENTITY cmdToggleDocument.label	"ドキュメントをブラウザーペインに表示">
   <!ENTITY cmdToggleDocument.accesskey	"B">
   <!ENTITY cmdToggleSearch.label	"検索結果">
   <!ENTITY cmdFlashOnSelect.label	"選択した要素を点滅">
   <!ENTITY cmdFlashOnSelect.accesskey	"S">
 
-<!ENTITY browserPanel.label		"ブラウザ">
+<!ENTITY browserPanel.label		"ブラウザー">
 
 <!ENTITY saveCmd.key			"S">
 <!ENTITY closeCmd.key			"W">

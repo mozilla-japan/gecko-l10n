@@ -212,7 +212,7 @@ because displayed names don't have the comma in between. -->
 <!ENTITY addresses.heading			"住所">
 <!-- For Map It! -->
 <!ENTITY mapItButton.label			"地図">
-<!ENTITY mapIt.tooltip				"Web でこの場所の地図を表示します">
+<!ENTITY mapIt.tooltip				"ウェブでこの場所の地図を表示します">
 
 <!-- Status Bar -->  
 <!ENTITY statusText.label			"">

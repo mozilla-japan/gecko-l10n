@@ -6,7 +6,7 @@
 <!ENTITY openFileCmd.label "ファイルを開く...">
 <!ENTITY openFileCmd.accesskey "O">
 <!ENTITY openFileCmd.key "O">
-<!ENTITY openRemoteCmd.label "Web ページを開く...">
+<!ENTITY openRemoteCmd.label "ウェブページを開く...">
 <!ENTITY openRemoteCmd.accesskey "L">
 <!ENTITY openRemoteCmd.key "L">
 <!ENTITY fileRecentMenu.label "最近使用したページ">

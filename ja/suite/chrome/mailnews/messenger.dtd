@@ -216,7 +216,7 @@
 
 <!ENTITY bodyMenuFeed.label                     "フィードの表示形式">
 <!ENTITY bodyMenuFeed.accesskey                 "B">
-<!ENTITY viewFeedWebPage.label                  "Web ページ">
+<!ENTITY viewFeedWebPage.label                  "ウェブページ">
 <!ENTITY viewFeedWebPage.accesskey              "W">
 <!ENTITY viewFeedSummary.label                  "要約">
 <!ENTITY viewFeedSummary.accesskey              "m">
@@ -367,7 +367,7 @@
 <!ENTITY markAsNotPhishCmd.key                  "p">
 <!ENTITY openFeedMessage.label                  "フィードメッセージを開く">
 <!ENTITY openFeedMessage.accesskey              "O">
-<!ENTITY openFeedWebPageInWindow.label          "Web ページ形式で@@NewWindow@@に開く">
+<!ENTITY openFeedWebPageInWindow.label          "ウェブページ形式で@@NewWindow@@に開く">
 <!ENTITY openFeedWebPageInWindow.accesskey      "W">
 <!ENTITY openFeedSummaryInWindow.label          "要約形式で@@NewWindow@@に開く">
 <!ENTITY openFeedSummaryInWindow.accesskey      "S">

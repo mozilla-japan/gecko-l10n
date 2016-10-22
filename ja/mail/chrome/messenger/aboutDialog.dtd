@@ -22,7 +22,7 @@
 <!ENTITY community.exp.start		"">
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.exp.mozillaLink	"&vendorShortName;">
-<!ENTITY community.exp.middle		"は、Web がすべての人々にとってオープンかつパブリックであり、アクセスできるように保つため、一つに集まって働く">
+<!ENTITY community.exp.middle		"は、ウェブがすべての人々にとってオープンかつパブリックであり、アクセスできるように保つため、一つに集まって働く">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink	"グローバルなコミュニティ">
 <!ENTITY community.exp.end		"です。">
@@ -30,7 +30,7 @@
 <!ENTITY community.start2		"&brandShortName; をデザインしている">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.mozillaLink		"&vendorShortName;">
-<!ENTITY community.middle2		"は、Web の公開性、公衆性、制限のないアクセスを保つために共に活動している">
+<!ENTITY community.middle2		"は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink		"グローバルなコミュニティ">
 <!ENTITY community.end3			"です。">

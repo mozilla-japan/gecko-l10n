@@ -30,7 +30,7 @@
 
 <!ENTITY dataChoicesTab.label            "データの選択">
 
-<!ENTITY healthReportDesc.label          "パフォーマンス情報の取得と、ブラウザの健康状態を &vendorShortName; と共有するのに役立ちます">
+<!ENTITY healthReportDesc.label          "パフォーマンス情報の取得と、ブラウザーの健康状態を &vendorShortName; と共有するのに役立ちます">
 <!ENTITY enableHealthReport.label        "&brandShortName; ヘルスレポートを有効にする">
 <!ENTITY enableHealthReport.accesskey    "R">
 <!ENTITY healthReportLearnMore.label     "詳細">
@@ -40,7 +40,7 @@
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "詳細">
 
-<!ENTITY crashReporterDesc2.label         "クラッシュレポートは、問題を解決と、ブラウザをより安定した安全なものにするのに役立ちます">
+<!ENTITY crashReporterDesc2.label         "クラッシュレポートは、問題を解決と、ブラウザーをより安定した安全なものにするのに役立ちます">
 <!ENTITY alwaysSubmitCrashReports.label   "&brandShortName; に、あなたに代わって未送信のクラッシュレポートを送信するのを許可する">
 <!ENTITY alwaysSubmitCrashReports.accesskey "c">
 <!ENTITY crashReporterLearnMore.label     "詳細">
