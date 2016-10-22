@@ -62,8 +62,8 @@
 <!ENTITY cmd.copyDownloadLink.accesskey   "L">
 <!ENTITY cmd.removeFromHistory.label      "履歴から削除">
 <!ENTITY cmd.removeFromHistory.accesskey  "e">
-<!ENTITY cmd.clearList.label              "履歴の消去">
-<!ENTITY cmd.clearList.accesskey          "a">
+<!ENTITY cmd.clearList2.label             "プレビューパネルの消去">
+<!ENTITY cmd.clearList2.accesskey         "a">
 <!ENTITY cmd.clearDownloads.label         "ダウンロードの消去">
 <!ENTITY cmd.clearDownloads.accesskey     "D">
 <!-- LOCALIZATION NOTE (cmd.unblock2.label):
@@ -108,6 +108,8 @@
      -->
 <!ENTITY downloadsHistory.label           "すべての履歴を表示">
 <!ENTITY downloadsHistory.accesskey       "S">
+
+<!ENTITY openDownloadsFolder.label       "ダウンロードフォルダを開く">
 
 <!ENTITY clearDownloadsButton.label       "ダウンロードの消去">
 <!ENTITY clearDownloadsButton.tooltip     "完了、キャンセル、失敗したダウンロードを消去します">

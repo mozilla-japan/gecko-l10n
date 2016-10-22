@@ -40,10 +40,10 @@
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "詳細">
 
-<!ENTITY crashReporterDesc.label         "ブラウザをより安定した安全なものにするため、&brandShortName; がクラッシュレポートを &vendorShortName; に送信します。">
-<!ENTITY enableCrashReporter.label       "クラッシュレポートの送信を有効にする">
-<!ENTITY enableCrashReporter.accesskey   "C">
-<!ENTITY crashReporterLearnMore.label    "詳細">
+<!ENTITY crashReporterDesc2.label         "クラッシュレポートは、問題を解決と、ブラウザをより安定した安全なものにするのに役立ちます">
+<!ENTITY alwaysSubmitCrashReports.label   "&brandShortName; に、あなたに代わって未送信のクラッシュレポートを送信するのを許可する">
+<!ENTITY alwaysSubmitCrashReports.accesskey "c">
+<!ENTITY crashReporterLearnMore.label     "詳細">
 
 <!ENTITY networkTab.label                "ネットワーク">
 
