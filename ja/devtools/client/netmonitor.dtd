@@ -63,7 +63,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.headers): This is the label displayed
   -  in the network details pane identifying the headers tab. -->
-<!ENTITY netmonitorUI.tab.headers         "ヘッダ">
+<!ENTITY netmonitorUI.tab.headers         "ヘッダー">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.cookies): This is the label displayed
   -  in the network details pane identifying the cookies tab. -->
@@ -172,7 +172,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.size): This is the label displayed
   -  in the network details headers tab identifying the headers size. -->
-<!ENTITY netmonitorUI.summary.size        "ヘッダサイズ:">
+<!ENTITY netmonitorUI.summary.size        "ヘッダーサイズ:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.response.name): This is the label displayed
   -  in the network details response tab identifying an image's file name. -->
@@ -285,7 +285,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyRequestHeaders): This is the label displayed
   -  on the context menu that copies the selected item's request headers -->
-<!ENTITY netmonitorUI.context.copyRequestHeaders     "要求ヘッダをコピー">
+<!ENTITY netmonitorUI.context.copyRequestHeaders     "要求ヘッダーをコピー">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyRequestHeaders.accesskey): This is the access key
   -  for the Copy Request Headers menu item displayed in the context menu for a request -->
@@ -293,7 +293,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyResponseHeaders): This is the label displayed
   -  on the context menu that copies the selected item's response headers -->
-<!ENTITY netmonitorUI.context.copyResponseHeaders     "応答ヘッダをコピー">
+<!ENTITY netmonitorUI.context.copyResponseHeaders     "応答ヘッダーをコピー">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyResponseHeaders.accesskey): This is the access key
   -  for the Copy Response Headers menu item displayed in the context menu for a response -->
@@ -343,15 +343,15 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders): This is the label displayed
   -  on the button in the headers tab that toggle view for raw request/response headers
      from the currently displayed request -->
-<!ENTITY netmonitorUI.summary.rawHeaders "生ヘッダ">
+<!ENTITY netmonitorUI.summary.rawHeaders "生ヘッダー">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders.requestHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw request headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "要求ヘッダ:">
+<!ENTITY netmonitorUI.summary.rawHeaders.requestHeaders "要求ヘッダー:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.summary.rawHeaders.responseHeaders): This is the label displayed
   -  in the network details headers tab identifying the raw response headers textarea -->
-<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "応答ヘッダ:">
+<!ENTITY netmonitorUI.summary.rawHeaders.responseHeaders "応答ヘッダー:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.newTab):  This is the label
   -  for the Open in New Tab menu item displayed in the context menu of the
@@ -381,7 +381,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.headers): This is the label displayed
   -  above the request headers entry in the custom request form -->
-<!ENTITY netmonitorUI.custom.headers      "要求ヘッダ:">
+<!ENTITY netmonitorUI.custom.headers      "要求ヘッダー:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.custom.postData): This is the label displayed
   -  above the request body entry in the custom request form -->
