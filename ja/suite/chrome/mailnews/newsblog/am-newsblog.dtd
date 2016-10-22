@@ -9,7 +9,7 @@
 <!ENTITY loginAtStartup.label "起動時に新着記事がないか確認する">
 <!ENTITY loginAtStartup.accesskey "C">
 
-<!ENTITY useQuickMode.label "標準では Web ページを読み込まずに記事の要約を表示する">
+<!ENTITY useQuickMode.label "標準ではウェブページを読み込まずに記事の要約を表示する">
 <!ENTITY useQuickMode.accesskey "B">
 
 <!ENTITY manageSubscriptions.label "フィード購読の管理...">

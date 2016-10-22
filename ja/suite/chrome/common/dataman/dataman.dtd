@@ -38,7 +38,7 @@
 <!-- cookies -->
 <!ENTITY cookies.description "このドメインは、以下の Cookie をあなたのコンピュータに保存しました:">
 
-<!ENTITY cookies.tree.host.label "Web サイト">
+<!ENTITY cookies.tree.host.label "ウェブサイト">
 <!ENTITY cookies.tree.name.label "Cookie 名">
 <!ENTITY cookies.tree.expires.label "有効期限">
 
@@ -60,7 +60,7 @@
 <!ENTITY cookies.button.remove.label "削除">
 <!ENTITY cookies.button.remove.accesskey "R">
 
-<!ENTITY cookies.blockOnRemove.label "このリストから削除した Web サイトの Cookie はブロックする">
+<!ENTITY cookies.blockOnRemove.label "このリストから削除したウェブサイトの Cookie はブロックする">
 <!ENTITY cookies.blockOnRemove.accesskey "W">
 
 <!-- permissions -->
@@ -86,9 +86,9 @@
 <!ENTITY permpwd.button.add.accesskey "A">
 
 <!-- preferences -->
-<!ENTITY prefs.description "コンテンツの設定は、Web サイトのズーム表示のレベルやサイト固有の設定を &brandShortName; に保存する機能です。">
+<!ENTITY prefs.description "コンテンツの設定は、ウェブサイトのズーム表示のレベルやサイト固有の設定を &brandShortName; に保存する機能です。">
 
-<!ENTITY prefs.tree.host.label "Web サイト">
+<!ENTITY prefs.tree.host.label "ウェブサイト">
 <!ENTITY prefs.tree.name.label "設定名">
 <!ENTITY prefs.tree.value.label "値">
 
@@ -103,7 +103,7 @@
 <!-- passwords -->
 <!ENTITY pwd.description "このドメインでは、以下のパスワードが保存されています:">
 
-<!ENTITY pwd.tree.host.label "Web サイト">
+<!ENTITY pwd.tree.host.label "ウェブサイト">
 <!ENTITY pwd.tree.username.label "ユーザ名">
 <!ENTITY pwd.tree.password.label "パスワード">
 
@@ -118,9 +118,9 @@
 <!ENTITY pwd.button.remove.accesskey "R">
 
 <!-- storage -->
-<!ENTITY storage.description "このドメインは、あなたのコンピュータに保存された次の Web ストレージを使用します:">
+<!ENTITY storage.description "このドメインは、あなたのコンピュータに保存された次のウェブストレージを使用します:">
 
-<!ENTITY storage.tree.host.label "Web サイト">
+<!ENTITY storage.tree.host.label "ウェブサイト">
 <!ENTITY storage.tree.type.label "種類">
 <!ENTITY storage.tree.size.label "サイズ">
 

@@ -9,7 +9,7 @@
 <!ENTITY remove.accesskey               "R">
 <!ENTITY removeall.label                "すべてのサイトを削除">
 <!ENTITY removeall.accesskey            "e">
-<!ENTITY address.label                  "Web サイトの URL:">
+<!ENTITY address.label                  "ウェブサイトの URL:">
 <!ENTITY address.accesskey              "d">
 <!ENTITY block.label                    "拒否">
 <!ENTITY block.accesskey                "B">

@@ -87,7 +87,7 @@
 <!ENTITY manBookmarksCmd.commandkey "b">
 
 <!-- Tools Menu -->
-<!ENTITY searchInternetCmd.label "Web 検索">
+<!ENTITY searchInternetCmd.label "ウェブ検索">
 <!ENTITY searchInternetCmd.accesskey "b">
 <!ENTITY searchInternet.commandKey "s">
 <!ENTITY translateMenu.label "ページ翻訳">

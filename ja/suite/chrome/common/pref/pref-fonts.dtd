@@ -65,11 +65,11 @@
 <!ENTITY  useDefaultFontSerif.label               "明朝体 (Serif)">
 <!ENTITY  useDefaultFontSansSerif.label           "ゴシック体 (Sans-serif)">
 
-<!ENTITY  useDocumentFonts.label                  "Web ページが指定したフォントを優先する">
+<!ENTITY  useDocumentFonts.label                  "ウェブページが指定したフォントを優先する">
 <!ENTITY  useDocumentFonts.accesskey              "o">
 
 <!-- leaving this stuff in for now -->
 
-<!ENTITY  header2                                 "Web ページによってはフォントが指定されていることがあります。">
+<!ENTITY  header2                                 "ウェブページによってはフォントが指定されていることがあります。">
 <!ENTITY  useDefaultFont.label                    "ページで指定されたフォントを無視して@@Default-@@フォントを使用する">
 <!ENTITY  useDefaultFont.accesskey                "u">
