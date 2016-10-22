@@ -83,7 +83,7 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY welcome.useOldSync.label	"古いバージョンの Sync をお使いですか？">
 
-<!ENTITY signedOut.caption            "Web を持ち歩こう">
+<!ENTITY signedOut.caption            "ウェブを持ち歩こう">
 <!ENTITY signedOut.description        "ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。">
 <!ENTITY signedOut.accountBox.title   "&syncBrand.fxAccount.label; で接続する">
 <!ENTITY signedOut.accountBox.create  "アカウント作成">

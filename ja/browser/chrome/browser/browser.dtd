@@ -224,12 +224,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.translatedNotificationAnchor.tooltip      "ページ翻訳を管理します">
 <!ENTITY urlbar.emeNotificationAnchor.tooltip             "DRM ソフトウェアを管理します">
 
-<!ENTITY urlbar.cameraBlocked.tooltip            "この Web サイトでのカメラの共有をブロックしました。">
-<!ENTITY urlbar.microphoneBlocked.tooltip        "この Web サイトでのマイクの共有をブロックしました。">
-<!ENTITY urlbar.screenBlocked.tooltip            "この Web サイトでの画面の共有をブロックしました。">
-<!ENTITY urlbar.geolocationBlocked.tooltip       "この Web サイトでの位置情報の共有をブロックしました。">
-<!ENTITY urlbar.indexedDBBlocked.tooltip         "この Web サイトでのデータストレージの使用をブロックしました。">
-<!ENTITY urlbar.webNotificationsBlocked.tooltip  "この Web サイトから通知をブロックしました。">
+<!ENTITY urlbar.cameraBlocked.tooltip            "このウェブサイトでのカメラの共有をブロックしました。">
+<!ENTITY urlbar.microphoneBlocked.tooltip        "このウェブサイトでのマイクの共有をブロックしました。">
+<!ENTITY urlbar.screenBlocked.tooltip            "このウェブサイトでの画面の共有をブロックしました。">
+<!ENTITY urlbar.geolocationBlocked.tooltip       "このウェブサイトでの位置情報の共有をブロックしました。">
+<!ENTITY urlbar.indexedDBBlocked.tooltip         "このウェブサイトでのデータストレージの使用をブロックしました。">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "このウェブサイトから通知をブロックしました。">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "履歴を表示します">
 
@@ -273,7 +273,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.accesskey             "A">
 <!ENTITY addons.commandkey            "A">
 
-<!ENTITY webDeveloperMenu.label		"Web 開発">
+<!ENTITY webDeveloperMenu.label		"ウェブ開発">
 <!ENTITY webDeveloperMenu.accesskey	"W">
 
 <!ENTITY inspectContextMenu.label	"要素を調査">
@@ -664,7 +664,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageStylePersistentOnly.label		"標準スタイルシート">
 <!ENTITY pageStylePersistentOnly.accesskey	"b">
 
-<!ENTITY pageReportIcon.tooltip		"この Web サイトでのポップアップブロック設定を変更します">
+<!ENTITY pageReportIcon.tooltip		"このウェブサイトでのポップアップブロック設定を変更します">
 
 <!ENTITY allowPopups.accesskey		"p">
 <!-- On Windows we use the term "Options" to describe settings, but
@@ -712,13 +712,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Strings for connection state warnings in the subview. -->
 <!ENTITY identity.description.insecure		"このサイトへの接続は秘密が保たれません。このサイトに送信した情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。">
 <!ENTITY identity.description.insecureLoginForms "このページに入力したログイン情報は安全に送信されません。第三者に盗み見られる可能性があります。">
-<!ENTITY identity.description.weakCipher	"この Web サイトとの接続には脆弱な暗号が使用されており、秘密が保たれません。">
-<!ENTITY identity.description.weakCipher2	"第三者にあなたの情報を盗み見られたり Web サイトの動作を改ざんされる可能性があります。">
+<!ENTITY identity.description.weakCipher	"このウェブサイトとの接続には脆弱な暗号が使用されており、秘密が保たれません。">
+<!ENTITY identity.description.weakCipher2	"第三者にあなたの情報を盗み見られたりウェブサイトの動作を改ざんされる可能性があります。">
 <!ENTITY identity.description.activeBlocked	"&brandShortName; がこのページ上の安全でないコンテンツをブロックしました。">
 <!ENTITY identity.description.passiveLoaded	"この接続は安全ではないため、サイトと共有したあなたの情報が第三者に盗み見られる可能性があります。">
-<!ENTITY identity.description.passiveLoaded2	"この Web サイトには安全でないコンテンツ (画像など) が含まれています。">
+<!ENTITY identity.description.passiveLoaded2	"このウェブサイトには安全でないコンテンツ (画像など) が含まれています。">
 <!ENTITY identity.description.passiveLoaded3	"&brandShortName; が一部のコンテンツをブロックしていますが、ページ上には安全でないコンテンツ (画像など) が含まれています。">
-<!ENTITY identity.description.activeLoaded	"この Web サイトには安全でないコンテンツ (スクリプトなど) が含まれており、サイトとの接続は秘密が保たれません。">
+<!ENTITY identity.description.activeLoaded	"このウェブサイトには安全でないコンテンツ (スクリプトなど) が含まれており、サイトとの接続は秘密が保たれません。">
 <!ENTITY identity.description.activeLoaded2	"このサイトと共有したあなたの情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。">
 
 <!ENTITY identity.enableMixedContentBlocking.label	"保護を有効にする">
@@ -828,7 +828,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingContentBlocked.moreinfo		"あなたのオンライン行動をトラッキングしているページの一部分をブロックしました。">
 <!ENTITY trackingContentBlocked.learnMore		"詳細">
 <!ENTITY trackingContentBlocked.options			"オプション">
-<!ENTITY trackingContentBlocked.unblock2.label		"この Web サイトでは保護を無効にする">
+<!ENTITY trackingContentBlocked.unblock2.label		"このウェブサイトでは保護を無効にする">
 <!ENTITY trackingContentBlocked.unblock2.accesskey	"D">
 <!ENTITY trackingContentBlocked.block.label		"保護を有効にする">
 <!ENTITY trackingContentBlocked.block.accesskey		"E">

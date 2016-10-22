@@ -12,7 +12,7 @@
 <!ENTITY useCursorNavigation.accesskey   "c">
 <!ENTITY searchStartTyping.label         "キー入力時に検索を開始する">
 <!ENTITY searchStartTyping.accesskey     "x">
-<!ENTITY blockAutoRefresh.label          "Web ページが自動的に転送や再読み込みさせようとしたときに警告する">
+<!ENTITY blockAutoRefresh.label          "ウェブページが自動的に転送や再読み込みさせようとしたときに警告する">
 <!ENTITY blockAutoRefresh.accesskey      "b">
 <!ENTITY useOnScreenKeyboard.label       "必要であればタッチキーボードを表示する">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
@@ -53,9 +53,9 @@
 <!ENTITY connectionSettings.label        "接続設定...">
 <!ENTITY connectionSettings.accesskey    "e">
 
-<!ENTITY httpCache.label                 "キャッシュされた Web ページ">
+<!ENTITY httpCache.label                 "キャッシュされたウェブページ">
 
-<!ENTITY offlineStorage2.label           "オフライン Web ページとユーザデータ">
+<!ENTITY offlineStorage2.label           "オフラインウェブページとユーザデータ">
 
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
@@ -93,12 +93,12 @@
 <!ENTITY enableSearchUpdate.label        "検索エンジン">
 <!ENTITY enableSearchUpdate.accesskey    "E">
 
-<!ENTITY offlineNotify.label             "Web サイトがオフライン作業用データの保存を求めてきたときに知らせる">
+<!ENTITY offlineNotify.label             "ウェブサイトがオフライン作業用データの保存を求めてきたときに知らせる">
 <!ENTITY offlineNotify.accesskey         "T">
 <!ENTITY offlineNotifyExceptions.label   "例外サイト...">
 <!ENTITY offlineNotifyExceptions.accesskey "x">
 
-<!ENTITY offlineAppsList2.label          "オフライン作業用のデータの保存を許可している Web サイト:">
+<!ENTITY offlineAppsList2.label          "オフライン作業用のデータの保存を許可しているウェブサイト:">
 <!ENTITY offlineAppsList.height          "7em">
 <!ENTITY offlineAppsListRemove.label     "削除...">
 <!ENTITY offlineAppsListRemove.accesskey "R">

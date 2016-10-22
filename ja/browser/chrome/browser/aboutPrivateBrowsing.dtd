@@ -27,5 +27,5 @@
 <!ENTITY aboutPrivateBrowsing.learnMore2.title           "詳細情報">
 
 <!ENTITY trackingProtection.title                        "トラッキング保護">
-<!ENTITY trackingProtection.description2                 "いくつかの Web サイトはインターネット上でのあなたの足跡を追跡しています。Firefox のトラッキング保護機能を使うと、あなたの閲覧状況の収集をブロックできる可能性があります。">
+<!ENTITY trackingProtection.description2                 "いくつかのウェブサイトはインターネット上でのあなたの足跡を追跡しています。Firefox のトラッキング保護機能を使うと、あなたの閲覧状況の収集をブロックできる可能性があります。">
 <!ENTITY trackingProtection.startTour1                   "動作の仕組みを見る">

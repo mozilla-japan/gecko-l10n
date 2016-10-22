@@ -7,7 +7,7 @@
 <!-- LOCALIZATION NOTE: The title is intended to be apologetic and disarming, expressing dismay
      and regret that we are unable to restore the session for the user -->
 <!ENTITY restorepage.errorTitle     "ご迷惑をおかけして申し訳ありません">
-<!ENTITY restorepage.problemDesc    "&brandShortName; は@@Window@@とタブを正常に復元できませんでした。多くの場合、正常に復元できない原因は最近開いた Web ページによるものです。">
+<!ENTITY restorepage.problemDesc    "&brandShortName; は@@Window@@とタブを正常に復元できませんでした。多くの場合、正常に復元できない原因は最近開いたウェブページによるものです。">
 <!ENTITY restorepage.tryThis        "次のいずれかをお試しください:">
 <!ENTITY restorepage.restoreSome    "問題の原因となりそうなタブを除外して起動する">
 <!ENTITY restorepage.startNew       "タブを復元せずに新しいブラウザセッションを開始する">

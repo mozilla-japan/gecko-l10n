@@ -71,7 +71,7 @@
 <!ENTITY  historyHeader.custom.label		"記憶させる履歴を詳細設定する">
 <!ENTITY  historyHeader.post.label		"">
 
-<!ENTITY  rememberDescription.label		"&brandShortName; は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴、Web サイトから送られてきた Cookie を保存します。">
+<!ENTITY  rememberDescription.label		"&brandShortName; は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴、ウェブサイトから送られてきた Cookie を保存します。">
 
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
