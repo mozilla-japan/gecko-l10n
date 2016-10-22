@@ -6,7 +6,7 @@
 <!ENTITY pref.security.title              "プライバシーとセキュリティ">
 
 <!ENTITY tracking.label                   "トラッキング">
-<!ENTITY trackingIntro.label              "Web サイトの中にはあなたの行動を追跡するものがあり、あなたのプライバシーに影響を与えます。">
+<!ENTITY trackingIntro.label              "ウェブサイトの中にはあなたの行動を追跡するものがあり、あなたのプライバシーに影響を与えます。">
 
 <!ENTITY doNotTrack.label                 "トラッキングの拒否をサイトに通知する">
 <!ENTITY doNotTrack.accesskey             "T">
@@ -16,7 +16,7 @@
 <!ENTITY warnTrackContent.accesskey       "W">
 
 <!ENTITY geoLocation.label                "位置情報の通知">
-<!ENTITY geoIntro.label                   "Web サイトはあなたの詳細な位置情報を要求することがあります。">
+<!ENTITY geoIntro.label                   "ウェブサイトはあなたの詳細な位置情報を要求することがあります。">
 
 <!ENTITY geoEnabled.label                 "位置情報を要求されたときに確認する">
 <!ENTITY geoEnabled.accesskey             "m">

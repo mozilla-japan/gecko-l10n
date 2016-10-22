@@ -12,8 +12,8 @@
 <!ENTITY privatebrowsingpage.status.private		"&brandShortName; はこの@@Window@@の履歴を一切保存しません。">
 <!ENTITY privatebrowsingpage.status.normal		"現在プライベート@@Window@@ではありません。">
 
-<!ENTITY privatebrowsingpage.common.description		"プライベートブラウジング@@Window@@では、&brandShortName; に表示したページの履歴、検索履歴、ダウンロード履歴、Web フォーム履歴、Cookie、一時インターネットファイルが一切保存されませんが、作成したブックマークとダウンロードしたファイルは保存されます。">
-<!ENTITY privatebrowsingpage.track.warn			"表示したページの履歴はこのコンピュータには記録されませんが、インターネットサービスプロバイダや会社が記録している可能性はあります。">
+<!ENTITY privatebrowsingpage.common.description		"プライベートブラウジング@@Window@@では、&brandShortName; に表示したページの履歴、検索履歴、ダウンロード履歴、ウェブフォーム履歴、Cookie、一時インターネットファイルが一切保存されませんが、作成したブックマークとダウンロードしたファイルは保存されます。">
+<!ENTITY privatebrowsingpage.track.warn			"表示したページの履歴はこのコンピューターには記録されませんが、インターネットサービスプロバイダや会社が記録している可能性はあります。">
 <!ENTITY privatebrowsingpage.learnmore.label		"詳細を表示">
 <!ENTITY privatebrowsingpage.learnmore.accesskey	"L">
 

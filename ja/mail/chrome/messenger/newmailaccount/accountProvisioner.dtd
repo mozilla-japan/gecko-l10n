@@ -39,5 +39,5 @@
 <!ENTITY input.namePlaceholder		"氏名またはニックネーム">
 <!ENTITY input.search			"検索">
 <!ENTITY search_engine.title		"検索エンジンのカスタマイズ">
-<!ENTITY search_engine.message		"ご利用のメールプロバイダは、Web 検索機能も提供しています。">
+<!ENTITY search_engine.message		"ご利用のメールプロバイダは、ウェブ検索機能も提供しています。">
 <!ENTITY search_engine.button		"完了">

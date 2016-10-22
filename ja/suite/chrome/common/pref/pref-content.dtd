@@ -5,11 +5,11 @@
 <!--LOCALIZATION NOTE : FILE The Appearance > Content prefs dialog.  -->
 
 <!ENTITY pref.content.title			"コンテンツ">
-<!ENTITY pref.content.description		"これらの設定は &brandShortName; で Web サイトやメッセージがどのように表示されるかを決めます。">
-<!ENTITY siteIcons.label			"Web サイトのアイコン">
-<!ENTITY useSiteIcons.label			"Web サイトのアイコンを表示する">
+<!ENTITY pref.content.description		"これらの設定は &brandShortName; でウェブサイトやメッセージがどのように表示されるかを決めます。">
+<!ENTITY siteIcons.label			"ウェブサイトのアイコン">
+<!ENTITY useSiteIcons.label			"ウェブサイトのアイコンを表示する">
 <!ENTITY useSiteIcons.accesskey			"S">
-<!ENTITY useFavIcons.label			"ページにアイコンが設定されていないとき Web サイトアイコンを探す">
+<!ENTITY useFavIcons.label			"ページにアイコンが設定されていないときウェブサイトアイコンを探す">
 <!ENTITY useFavIcons.accesskey			"A">
 
 <!ENTITY scrolling.label			"スクロール">
@@ -38,5 +38,5 @@
 
 <!ENTITY allowHWAccel.label			"ハードウェアアクセラレーション機能を使用する (可能な場合)">
 <!ENTITY allowHWAccel.accesskey			"e">
-<!ENTITY blockAutoRefresh.label			"Web ページが自動的に転送や再読み込みさせようとしたときに警告する">
+<!ENTITY blockAutoRefresh.label			"ウェブページが自動的に転送や再読み込みさせようとしたときに警告する">
 <!ENTITY blockAutoRefresh.accesskey		"W">

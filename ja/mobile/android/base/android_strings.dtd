@@ -196,8 +196,8 @@
      “storing data”. -->
 <!ENTITY pref_category_advanced_summary3 "タブの復元、データセーバー、開発者ツール">
 <!ENTITY pref_category_notifications "お知らせ">
-<!ENTITY pref_category_notifications_summary "新しい機能、Web サイトの更新">
-<!ENTITY pref_content_notifications "Web サイトの更新">
+<!ENTITY pref_category_notifications_summary "新しい機能、ウェブサイトの更新">
+<!ENTITY pref_content_notifications "ウェブサイトの更新">
 <!ENTITY pref_content_notifications_summary2 "サポートされたサイトで新しいコンテンツを見つけましょう">
 <!ENTITY pref_developer_remotedebugging_usb "USB 経由でリモートデバッグをおこなう">
 <!ENTITY pref_developer_remotedebugging_wifi "Wi-Fi 経由でリモートデバッグをおこなう">
@@ -257,7 +257,7 @@
 <!ENTITY pref_tap_to_load_images_data "Wi-Fi 利用時に表示">
 <!ENTITY pref_tap_to_load_images_disabled2 "ブロック">
 
-<!ENTITY pref_show_web_fonts "Web フォントを表示">
+<!ENTITY pref_show_web_fonts "ウェブフォントを表示">
 <!ENTITY pref_show_web_fonts_summary2 "ページを読み込むときにリモートのフォントをダウンロードします">
 
 <!ENTITY pref_tracking_protection_title2 "トラッキング保護">
@@ -323,7 +323,7 @@
      have been updated (new content is available). The number of websites is always more than one (>= 2). For a single
      update the website title is used instead of this string.
      We can't use Android plural forms, sadly. See Bug #753859. -->
-<!ENTITY content_notification_title_plural "&formatD; の Web サイトが更新されました">
+<!ENTITY content_notification_title_plural "&formatD; のウェブサイトが更新されました">
 <!-- Localization note (content_notification_action_settings2): This label will be shown as an action in a content notification.
      Clicking the action will jump to the notification settings of the app. -->
 <!ENTITY content_notification_action_settings2 "設定">
@@ -368,7 +368,7 @@ size. -->
 
 <!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
     demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "オレンジ色のすばしこいキツネは、みんなの期待をこえて、たゆまぬ成長を続ける。より早く、よりフレキシブルに、そして、より安全に。私たちには、ほんの少しのあきらめも許されない。人々のよりよい体験と、明るい Web の未来へ向かって。"> <!-- Japanese pangram -->
+<!ENTITY pref_font_size_preview_text "オレンジ色のすばしこいキツネは、みんなの期待をこえて、たゆまぬ成長を続ける。より早く、よりフレキシブルに、そして、より安全に。私たちには、ほんの少しのあきらめも許されない。人々のよりよい体験と、明るいウェブの未来へ向かって。"> <!-- Japanese pangram -->
 
 <!ENTITY pref_media_autoplay_enabled "自動再生を許可する">
 <!ENTITY pref_media_autoplay_enabled_summary "サイトがビデオやメディアコンテンツを自動再生できるかをコントロールする">
@@ -630,7 +630,7 @@ size. -->
 <!ENTITY filepicker_video_title "ビデオを選択または録画する">
 
 <!-- Site identity popup -->
-<!ENTITY identity_connected_to "この Web サイトは認証されています">
+<!ENTITY identity_connected_to "このウェブサイトは認証されています">
 <!-- Localization note (identity_run_by) : This string appears between a
 domain name (above) and an organization name (below). E.g.
 
@@ -794,7 +794,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY restrictable_feature_camera_microphone "カメラとマイク">
 <!ENTITY restrictable_feature_camera_microphone_description "サイト上でリアルタイムのコミュニケーションを行えるようにします。">
 <!ENTITY restrictable_feature_block_list "ブロックリスト">
-<!ENTITY restrictable_feature_block_list_description "センシティブな内容を含む Web サイトをブロックします。">
+<!ENTITY restrictable_feature_block_list_description "センシティブな内容を含むウェブサイトをブロックします。">
 
 <!-- Default Bookmarks titles-->
 <!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
@@ -806,7 +806,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (bookmarks_restricted_support): link title for https://support.mozilla.org/kb/controlledaccess -->
 <!ENTITY bookmarks_restricted_support2 "Android タブレットでの制限つきプロファイルについての Firefox ヘルプ">
 <!-- LOCALIZATION NOTE (bookmarks_restricted_webmaker):link title for https://webmaker.org -->
-<!ENTITY bookmarks_restricted_webmaker "Web について学びましょう: Mozilla Webmaker">
+<!ENTITY bookmarks_restricted_webmaker "ウェブについて学びましょう: Mozilla Webmaker">
 
 <!-- LOCALIZATION NOTE (unsupported_sdk_version): The user installed a build of this app that does not support
      the Android version of this device. the formatS1 is replaced by the CPU ABI (e.g., ARMv7); the formatS2 is
