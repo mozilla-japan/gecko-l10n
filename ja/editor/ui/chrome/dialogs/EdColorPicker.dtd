@@ -13,7 +13,7 @@
 <!ENTITY default.accessKey		"D">
 <!ENTITY palette.label			"パレット:">
 <!ENTITY standardPalette.label		"標準">
-<!ENTITY webPalette.label		"Web セーフカラー">
+<!ENTITY webPalette.label		"ウェブセーフカラー">
 <!ENTITY background.label		"対象:"><!-- en-US: Background for: -->
 <!ENTITY background.accessKey		"B">
 <!ENTITY table.label			"表">
