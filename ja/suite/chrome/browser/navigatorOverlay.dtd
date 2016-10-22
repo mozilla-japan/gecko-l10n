@@ -69,7 +69,7 @@
 <!ENTITY recentWindows.commandkey "y">
 <!ENTITY historyRestoreLastSession.label "前のセッションを復元">
 <!ENTITY historyRestoreLastSession.accesskey "R">
-<!ENTITY syncTabsMenu.label "他のコンピュータのタブと同期">
+<!ENTITY syncTabsMenu.label "他のコンピューターのタブと同期">
 <!ENTITY syncTabsMenu.accesskey "O">
 
 <!-- Bookmarks Menu -->

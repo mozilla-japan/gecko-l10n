@@ -18,7 +18,7 @@
 <!ENTITY rememberPassword.accesskey	"m">
 
 <!ENTITY imapLong.label			"IMAP (リモートフォルダ)">
-<!ENTITY pop3Long.label			"POP3 (メールをコンピュータに保存)">
+<!ENTITY pop3Long.label			"POP3 (メールをコンピューターに保存)">
 
 <!ENTITY incoming.label			"受信サーバ:">
 <!ENTITY outgoing.label			"送信サーバ:">

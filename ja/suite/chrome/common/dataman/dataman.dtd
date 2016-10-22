@@ -36,7 +36,7 @@
 <!ENTITY tab.forget.label "データ消去">
 
 <!-- cookies -->
-<!ENTITY cookies.description "このドメインは、以下の Cookie をあなたのコンピュータに保存しました:">
+<!ENTITY cookies.description "このドメインは、以下の Cookie をあなたのコンピューターに保存しました:">
 
 <!ENTITY cookies.tree.host.label "ウェブサイト">
 <!ENTITY cookies.tree.name.label "Cookie 名">
@@ -118,7 +118,7 @@
 <!ENTITY pwd.button.remove.accesskey "R">
 
 <!-- storage -->
-<!ENTITY storage.description "このドメインは、あなたのコンピュータに保存された次のウェブストレージを使用します:">
+<!ENTITY storage.description "このドメインは、あなたのコンピューターに保存された次のウェブストレージを使用します:">
 
 <!ENTITY storage.tree.host.label "ウェブサイト">
 <!ENTITY storage.tree.type.label "種類">
