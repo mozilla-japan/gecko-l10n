@@ -754,3 +754,5 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  22992:bd21c84fff3b   mar             sync calendar
 browser                340592:df83c59042d9  -----:------------   hATrayflood     sync browser
+devtools/shared        340837:b7070c905172  -----:------------   mar             sync devtools/shared
+
