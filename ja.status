@@ -11,7 +11,6 @@ chat                    comm    Tb              Instant Messaging
 devtools                moz     Fx, Fe, Sm      開発者ツール
 dom                     moz     all
 editor/ui               comm    Tb, Sm          メール編集画面
-embedding               moz     Fe              Android
 extensions
   inspector             dom-i   Fx, Sm          DOM Inspector
   irc                   moz     Sm              IRC Client Chatzilla
@@ -758,4 +757,4 @@ devtools/shared        340837:b7070c905172  -----:------------   mar            
 dom                    340837:b7070c905172  23007:52bf588b6eae   mar             sync dom
 security               340865:3c4ab75a8bcb  23008:cab25e00b863   mar             sync security
 toolkit                340865:3c4ab75a8bcb  23008:cab25e00b863   mar             sync toolkit
-
+other-licenses         ------:------------  23016:f2769a8a63d4   mar             sync other-licenses
