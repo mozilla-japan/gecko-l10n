@@ -830,3 +830,9 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_title "オフラインでも利用">
 <!ENTITY helper_triple_readerview_open_message "リーダービューの記事をオフラインで読むにはブックマークしてください。">
 <!ENTITY helper_triple_readerview_open_button "ブックマークに追加">
+
+<!ENTITY activity_stream_topsites "トップサイト">
+<!ENTITY activity_stream_highlights "ハイライト">
+<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
+     when pressed. -->
+<!ENTITY activity_stream_more "さらに表示">
