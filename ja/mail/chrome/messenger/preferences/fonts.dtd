@@ -37,19 +37,19 @@
 <!ENTITY  font.langGroup.thai		"タイ語">
 <!ENTITY  font.langGroup.hebrew		"ヘブライ語">
 <!ENTITY  font.langGroup.arabic		"アラビア語">
-<!ENTITY  font.langGroup.devanagari	"デーヴァナーガリー"><!-- (^^; win 対応不明 -->
+<!ENTITY  font.langGroup.devanagari	"デーヴァナーガリー">
 <!ENTITY  font.langGroup.tamil		"タミール語">
 <!ENTITY  font.langGroup.armenian	"アルメニア語">
 <!ENTITY  font.langGroup.bengali	"ベンガル語">
-<!ENTITY  font.langGroup.canadian	"統合カナダ先住民音節文字"><!-- win 対応不明 -->
-<!ENTITY  font.langGroup.ethiopic	"アムハラ語"><!-- (^^; win 対応不明 -->
+<!ENTITY  font.langGroup.canadian	"統合カナダ先住民音節文字">
+<!ENTITY  font.langGroup.ethiopic	"アムハラ語">
 <!ENTITY  font.langGroup.georgian	"グルジア語">
 <!ENTITY  font.langGroup.gujarati	"グジャラート語">
-<!ENTITY  font.langGroup.gurmukhi	"グルムキー文字"><!-- (^^; win 対応不明 -->
+<!ENTITY  font.langGroup.gurmukhi	"グルムキー文字">
 <!ENTITY  font.langGroup.khmer		"クメール語">
 <!ENTITY  font.langGroup.malayalam	"マラヤラム語">
 <!ENTITY  font.langGroup.math		"数学">
-<!ENTITY  font.langGroup.oriya		"オリヤー語">
+<!ENTITY  font.langGroup.odia		"オディア語"><!-- was オリヤー語 (oriya) -->
 <!ENTITY  font.langGroup.telugu		"テルグ語">
 <!ENTITY  font.langGroup.kannada	"カンナダ語">
 <!ENTITY  font.langGroup.sinhala	"シンハラ語">

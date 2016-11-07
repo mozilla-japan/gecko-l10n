@@ -5,6 +5,7 @@
 <!ENTITY toField4.label				"宛先">
 <!ENTITY fromField4.label			"差出人">
 <!ENTITY senderField4.label			"送信者">
+<!ENTITY author.label				"著者">
 <!ENTITY organizationField4.label		"組織">
 <!ENTITY replyToField4.label			"返信先">
 
@@ -23,6 +24,8 @@
 
 <!ENTITY hdrArchiveButton1.label		"アーカイブ">
 <!ENTITY hdrArchiveButton1.tooltip		"このメッセージをアーカイブに移動します">
+<!ENTITY hdrOpenConversationButton1.label	"スレッド">
+<!ENTITY hdrOpenConversationButton1.tooltip	"このメッセージのスレッドを表示します">
 <!ENTITY hdrSmartReplyButton1.label		"適宜返信"><!-- en-US: "Smart Reply" -->
 <!ENTITY hdrReplyButton1.label			"返信">
 <!ENTITY hdrReplyButton2.tooltip		"このメッセージの差出人に返信します">

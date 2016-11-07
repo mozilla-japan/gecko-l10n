@@ -10,8 +10,6 @@
 <!ENTITY update.checkForUpdatesButton.accesskey	"C">
 <!ENTITY update.updateButton.label2		"&brandShortName; を再起動して更新">
 <!ENTITY update.updateButton.accesskey		"R">
-<!ENTITY update.applyButtonBillboard.label	"更新を適用...">
-<!ENTITY update.applyButtonBillboard.accesskey	"A">
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
 <!ENTITY warningDesc.version		"&brandShortName; は実験的であり動作が不安定である可能性があります。">

@@ -198,7 +198,7 @@
 <!ENTITY sortByRecipientCmd.label		"受信者">
 <!ENTITY sortByRecipientCmd.accesskey		"c">
 <!ENTITY sortByCorrespondentCmd.label		"通信相手">
-<!ENTITY sortByCorrespondentCmd.accesskey	"e">
+<!ENTITY sortByCorrespondentCmd.accesskey	"n">
 <!ENTITY sortByUnreadCmd.label			"既読">
 <!ENTITY sortByUnreadCmd.accesskey		"R">
 <!ENTITY sortByOrderReceivedCmd.label		"受信順">
@@ -508,6 +508,7 @@
 <!ENTITY forwardButton.label		"転送">
 <!ENTITY fileButton.label		"移動"><!-- (^^; en-US: File -->
 <!ENTITY archiveButton.label		"アーカイブ">
+<!ENTITY openConversationButton.label	"スレッド">
 <!ENTITY nextButton.label		"次へ">
 <!ENTITY nextButtonToolbarItem.label	"次の未読へ">
 <!ENTITY nextMsgButton.label		"次へ">
@@ -550,6 +551,7 @@
 <!ENTITY forwardAsAttachment.tooltip	"選択したメッセージを添付ファイルとして転送します">
 <!ENTITY fileButton.tooltip		"メッセージを別のフォルダに移します">
 <!ENTITY archiveButton.tooltip		"選択したメッセージをアーカイブに移動します">
+<!ENTITY openConversationButton.tooltip	"選択したメッセージのスレッドを表示します">
 <!ENTITY nextButton.tooltip		"次の未読メッセージに移動します">
 <!ENTITY nextMsgButton.tooltip		"次のメッセージに移動します">
 <!ENTITY previousButton.tooltip		"前の未読メッセージに移動します">
