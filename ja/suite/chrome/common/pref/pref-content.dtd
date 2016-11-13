@@ -9,8 +9,8 @@
 <!ENTITY siteIcons.label			"ウェブサイトのアイコン">
 <!ENTITY useSiteIcons.label			"ウェブサイトのアイコンを表示する">
 <!ENTITY useSiteIcons.accesskey			"S">
-<!ENTITY useFavIcons.label			"ページにアイコンが設定されていないときウェブサイトアイコンを探す">
-<!ENTITY useFavIcons.accesskey			"A">
+<!ENTITY useFavIcons2.label			"ページにアイコンが設定されていないときサーバーの favicon を使用する">
+<!ENTITY useFavIcons2.accesskey			"i">
 
 <!ENTITY scrolling.label			"スクロール">
 <!ENTITY useAutoScroll.label			"自動スクロールを使用する">

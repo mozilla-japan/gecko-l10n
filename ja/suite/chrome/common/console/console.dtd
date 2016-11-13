@@ -11,19 +11,19 @@
 <!ENTITY all.label		"すべて">
 <!ENTITY all.accesskey		"A">
 <!ENTITY errors.label		"エラー">
-<!ENTITY errors.accesskey	"E">
+<!ENTITY errors.accesskey	"r">
 <!ENTITY warnings.label		"警告">
-<!ENTITY warnings.accesskey	"W">
+<!ENTITY warnings.accesskey	"n">
 <!ENTITY messages.label		"メッセージ">
 <!ENTITY messages.accesskey	"M">
 <!ENTITY clear.label		"消去">
-<!ENTITY clear.accesskey	"C">
+<!ENTITY clear.accesskey	"l">
 <!ENTITY codeEval.label		"コード:">
 <!ENTITY codeEval.accesskey	"o">
 <!ENTITY evaluate.label		"コードを評価">
-<!ENTITY evaluate.accesskey	"v">
+<!ENTITY evaluate.accesskey	"u">
 <!ENTITY filter2.label		"絞り込み:">
-<!ENTITY filter2.accesskey	"F">
+<!ENTITY filter2.accesskey	"i">
 
 <!ENTITY copyCmd.label		"コピー">
 <!ENTITY copyCmd.accesskey	"C">
@@ -35,3 +35,13 @@
 <!ENTITY closeCmd.commandkey	"w">
 <!ENTITY focus1.commandkey	"l">
 <!ENTITY focus2.commandkey	"d">
+
+<!ENTITY menuBar.tooltip	"メニューバー">
+<!ENTITY modeToolbar.tooltip	"モードツールバー">
+<!ENTITY entryToolbar.tooltip	"Javascript 入力ツールバー">
+<!ENTITY toolbarsCmd.label	"表示/隠す">
+<!ENTITY toolbarsCmd.accesskey	"w">
+<!ENTITY toolbarMode.label	"モード">
+<!ENTITY toolbarMode.accesskey	"M">
+<!ENTITY toolbarEval.label	"JavaScript 入力">
+<!ENTITY toolbarEval.accesskey	"J">

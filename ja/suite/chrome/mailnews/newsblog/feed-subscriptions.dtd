@@ -29,8 +29,8 @@
 
 <!ENTITY button.addFeed.label        "追加">
 <!ENTITY button.addFeed.accesskey    "A">
-<!ENTITY button.editFeed.label       "更新">
-<!ENTITY button.editFeed.accesskey   "U">
+<!ENTITY button.updateFeed.label     "更新">
+<!ENTITY button.updateFeed.accesskey "U">
 <!ENTITY button.removeFeed.label     "削除">
 <!ENTITY button.removeFeed.accesskey "R">
 <!ENTITY button.importOPML.label     "@@Import@@">

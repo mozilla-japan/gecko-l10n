@@ -28,7 +28,7 @@
 
 <!ENTITY search.emptytext		"検索">
 <!ENTITY searchHeader.label		"検索結果">
-<!ENTITY toctab.label			"コンテンツ">
+<!ENTITY toctab.label			"目次">
 <!ENTITY toctab.accesskey		"C">
 
 <!-- LOCALIZATION NOTE :
