@@ -71,7 +71,7 @@
 <!ENTITY rights.locationawarebrowsing-b		"この機能は常にオプトインです。位置情報があなたの許可なしに送信されることはありません。この機能を完全に無効にしたい場合は以下の手順に従ってください:">
 <!ENTITY rights.locationawarebrowsing-term1a	"URL バーに次の文字列を入力します: ">
 <!ENTITY rights.locationawarebrowsing-term1b	"about:config">
-<!ENTITY rights.locationawarebrowsing-term2	"フィルタ欄に geo.enabled と入力します。">
+<!ENTITY rights.locationawarebrowsing-term2	"フィルター欄に geo.enabled と入力します。">
 <!ENTITY rights.locationawarebrowsing-term3	"geo.enabled 設定をダブルクリックして値を false に変更してください。">
 <!ENTITY rights.locationawarebrowsing-term4	"位置情報検出機能が無効になります。">
 

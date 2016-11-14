@@ -16,8 +16,8 @@
 
 <!ENTITY advFeaturesSectionHdr.label  "高度な機能">
 <!ENTITY searchMsgsLink.label         "メッセージを検索">
-<!ENTITY filtersLink.label            "メッセージフィルタの設定を変更">
-<!ENTITY junkSettings.label           "迷惑メールフィルタの設定を変更">
+<!ENTITY filtersLink.label            "メッセージフィルターの設定を変更">
+<!ENTITY junkSettings.label           "迷惑メールフィルターの設定を変更">
 <!ENTITY offlineLink.label            "オフライン作業の設定を変更">
 
 <!ENTITY feedsSectionHdr.label        "フィード">

@@ -369,7 +369,7 @@
 <!ENTITY editAsNewMsgCmd.key		"e">
 <!ENTITY editDraftMsgCmd.label		"下書きメッセージを編集">
 <!ENTITY editDraftMsgCmd.accesskey	"D">
-<!ENTITY createFilter.label		"メッセージからフィルタを作成...">
+<!ENTITY createFilter.label		"メッセージからフィルターを作成...">
 <!ENTITY createFilter.accesskey		"a">
 <!ENTITY moveMsgToMenu.label		"別のフォルダに移動"><!-- contextMoveMsgMenu.label と同じ動作 -->
 <!ENTITY moveMsgToMenu.accesskey	"M">
@@ -428,7 +428,7 @@
 <!ENTITY markAsNotJunkCmd.label		"迷惑メールマークを解除">
 <!ENTITY markAsNotJunkCmd.accesskey	"N">
 <!ENTITY markAsNotJunkCmd.key		"j">
-<!ENTITY recalculateJunkScoreCmd.label	"迷惑メールフィルタを実行">
+<!ENTITY recalculateJunkScoreCmd.label	"迷惑メールフィルターを実行">
 <!ENTITY recalculateJunkScoreCmd.accesskey "C">
 <!ENTITY openMessageWindowCmd.label	"メッセージを開く">
 <!ENTITY openMessageWindowCmd.accesskey	"O">
@@ -472,15 +472,15 @@
 <!ENTITY savedFiles.label		"保存したファイル">
 <!ENTITY savedFiles.accesskey		"l">
 <!ENTITY savedFiles.key			"j">
-<!ENTITY filtersCmd2.label		"メッセージフィルタ">
+<!ENTITY filtersCmd2.label		"メッセージフィルター">
 <!ENTITY filtersCmd2.accesskey		"F">
-<!ENTITY filtersApply.label		"フォルダにフィルタを適用">
+<!ENTITY filtersApply.label		"フォルダにフィルターを適用">
 <!ENTITY filtersApply.accesskey		"R">
-<!ENTITY filtersApplyToSelection.label	"選択しているメッセージにフィルタを適用">
+<!ENTITY filtersApplyToSelection.label	"選択しているメッセージにフィルターを適用">
 <!ENTITY filtersApplyToSelection.accesskey	"u">
-<!ENTITY filtersApplyToMessage.label	"メッセージにフィルタを適用">
+<!ENTITY filtersApplyToMessage.label	"メッセージにフィルターを適用">
 <!ENTITY filtersApplyToMessage.accesskey	"u">
-<!ENTITY runJunkControls.label		"迷惑メールフィルタを実行"><!-- (^^; "フォルダに" 削除 -->
+<!ENTITY runJunkControls.label		"迷惑メールフィルターを実行"><!-- (^^; "フォルダに" 削除 -->
 <!ENTITY runJunkControls.accesskey	"C">
 <!ENTITY deleteJunk.label		"迷惑メールとマークされたメールを削除">
 <!ENTITY deleteJunk.accesskey		"D">
@@ -876,7 +876,7 @@
 <!ENTITY CopyNewsgroupName.accesskey	"C">
 <!ENTITY CopyNewsgroupURL.label		"ニュースグループの URL をコピー">
 <!ENTITY CopyNewsgroupURL.accesskey	"U">
-<!ENTITY CreateFilterFrom.label		"フィルタを作成...">
+<!ENTITY CreateFilterFrom.label		"フィルターを作成...">
 <!ENTITY CreateFilterFrom.accesskey	"F">
 <!ENTITY reportPhishingURL.label	"偽装サイトの URL を報告"><!-- en-US: Report E-mail Scam -->
 <!ENTITY reportPhishingURL.accesskey	"o">

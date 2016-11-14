@@ -5,8 +5,8 @@
 
 <!ENTITY migrationWizard.title		"設定移行@@Wizard@@">
 
-<!ENTITY importFromWin.label		"オプション、アカウント設定、アドレス帳、フィルタ、その他のデータの@@Import-suru@@対象を選んでください:">
-<!ENTITY importFromNonWin.label		"設定、アカウント設定、アドレス帳、フィルタ、その他のデータの@@Import-suru@@対象を選んでください:">
+<!ENTITY importFromWin.label		"オプション、アカウント設定、アドレス帳、フィルター、その他のデータの@@Import-suru@@対象を選んでください:">
+<!ENTITY importFromNonWin.label		"設定、アカウント設定、アドレス帳、フィルター、その他のデータの@@Import-suru@@対象を選んでください:">
 <!ENTITY importSourceNotFound.label	"データの@@ImportNoun@@元のアプリケーションが見つかりませんでした。">
 
 <!ENTITY importFromNothing.label	"設定を@@Import-sinai@@">

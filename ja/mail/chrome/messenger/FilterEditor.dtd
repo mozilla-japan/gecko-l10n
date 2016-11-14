@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title			"フィルタの設定">
+<!ENTITY window.title			"フィルターの設定">
 
 <!ENTITY filterEditorDialog.dimensions	"width: 100ch;"><!-- en-US: "width: 100ch;" -->
-<!ENTITY filterName.label		"フィルタ名:">
+<!ENTITY filterName.label		"フィルター名:">
 <!ENTITY filterName.accesskey		"i">
 
 <!ENTITY junk.label			"迷惑メール">
@@ -17,7 +17,7 @@
 <!ENTITY highPriorityCmd.label		"高">
 <!ENTITY highestPriorityCmd.label	"最高">
 
-<!ENTITY contextDesc.label		"フィルタを適用するタイミング:">
+<!ENTITY contextDesc.label		"フィルターを適用するタイミング:">
 <!ENTITY contextIncomingMail.label	"新着メール受信時:">
 <!ENTITY contextIncomingMail.accesskey	"G">
 <!ENTITY contextManual.label		"手動で実行する">
@@ -32,7 +32,7 @@
 <!ENTITY filterActionDesc.label		"以下の動作を実行する:">
 <!ENTITY filterActionDesc.accesskey	"P">
 
-<!ENTITY filterActionOrderWarning.label	"補足: フィルタ動作は異なる順で実行されます。">
+<!ENTITY filterActionOrderWarning.label	"補足: フィルター動作は異なる順で実行されます。">
 <!ENTITY filterActionOrder.label	"実行順を見る">
 
 <!-- New Style Filter Rule Actions -->
@@ -52,7 +52,7 @@
 <!ENTITY ignoreThread.label		"スレッドを無視する">
 <!ENTITY ignoreSubthread.label		"サブスレッドを無視する">
 <!ENTITY watchThread.label		"注目スレッドに設定する"><!-- (^^; 要チェック -->
-<!ENTITY stopExecution.label		"フィルタの実行を中止する">
+<!ENTITY stopExecution.label		"フィルターの実行を中止する">
 
 <!ENTITY addAction.tooltip		"@@New-CMD@@動作を追加します">
 <!ENTITY removeAction.tooltip		"この動作を削除します">

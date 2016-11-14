@@ -83,7 +83,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.showVarsFilter): This is the label for the
   -  checkbox that toggles visibility of a designated variables filter box. -->
-<!ENTITY debuggerUI.showVarsFilter		"変数フィルタボックスを表示">
+<!ENTITY debuggerUI.showVarsFilter		"変数フィルターボックスを表示">
 <!ENTITY debuggerUI.showVarsFilter.accesskey	"V">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showOnlyEnum): This is the label for the

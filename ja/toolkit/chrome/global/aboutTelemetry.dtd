@@ -153,7 +153,7 @@ Ping
 ">
 
 <!ENTITY aboutTelemetry.filterText "
-  フィルタ (文字列または /正規表現/)
+  フィルター (文字列または /正規表現/)
 ">
 
 <!ENTITY aboutTelemetry.payloadChoiceHeader "

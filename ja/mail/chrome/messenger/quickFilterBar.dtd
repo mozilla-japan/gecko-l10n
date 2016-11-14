@@ -7,14 +7,14 @@
      the quick filter bar.
      -->
 <!ENTITY quickFilterBar.qfbShowFilterBar.label
-         "クイックフィルタ">
+         "クイックフィルター">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.toggleBarVisibility.menu.label):
      The label to display for the "View... Toolbars..." menu item that controls
      whether the quick filter bar is visible.
      -->
 <!ENTITY quickFilterBar.toggleBarVisibility.menu.label
-         "クイックフィルタバー"><!-- en-US: "Quick Filter Bar"-->
+         "クイックフィルターバー"><!-- en-US: "Quick Filter Bar"-->
 
 <!-- LOCALIZATION NOTE (quickFilterBar.toggleBarVisibility.menu.accesskey):
      The access key for the "View... Toolbars..." menu item label that controls
@@ -28,14 +28,14 @@
      controls whether the quick filter bar is visible.
      -->
 <!ENTITY quickFilterBar.toggleBarVisibility.appmenu.label
-         "クイックフィルタバー">
+         "クイックフィルターバー">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.toggleBarVisibility.button.tooltip):
      The tooltip to display when hovering over the button on the tab bar that
      toggles the visibility of the quick filter bar.
      -->
 <!ENTITY quickFilterBar.toggleBarVisibility.button.tooltip
-         "クイックフィルタバーの表示を切り替えます">
+         "クイックフィルターバーの表示を切り替えます">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.sticky.tooltip):
      The tooltip to display when the user hovers over the sticky button

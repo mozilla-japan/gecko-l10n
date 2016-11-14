@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title  "迷惑メールフィルタについて">
+<!ENTITY window.title  "迷惑メールフィルターについて">
 <!ENTITY window.width  "600"><!-- en-US: 450 -->
 <!-- (^^; info1a.label と info1b.label の間に迷惑メールアイコンが表示される -->
 <!ENTITY info1a.label  "&brandShortName; には迷惑メール (スパムメール) であると思われる受信メッセージを自動的に識別する機能が備わっており、迷惑メールであると判断されたメッセージには迷惑メールアイコン">

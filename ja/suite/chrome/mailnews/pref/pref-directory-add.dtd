@@ -20,7 +20,7 @@
 <!ENTITY Advanced.tab                      "詳細">
 <!ENTITY portNumber.label                  "ポート番号: ">
 <!ENTITY portNumber.accesskey              "p">
-<!ENTITY searchFilter.label                "検索フィルタ: ">
+<!ENTITY searchFilter.label                "検索フィルター: ">
 <!ENTITY searchFilter.accesskey            "f">
 <!ENTITY scope.label                       "スコープ: ">
 <!ENTITY scope.accesskey                   "c">

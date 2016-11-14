@@ -13,7 +13,7 @@
 <!ENTITY feat_multiacc.label	"マルチアカウントに対応">
 <!ENTITY feat_junk.label	"先進の迷惑メール検知機能">
 <!ENTITY feat_feeds.label	"フィード (RSS) リーダー">
-<!ENTITY feat_filters.label	"メッセージフィルタ">
+<!ENTITY feat_filters.label	"メッセージフィルター">
 <!ENTITY feat_htmlmsg.label	"HTML メールのサポート">
 <!ENTITY feat_abook.label	"アドレス帳">
 <!ENTITY feat_tags.label	"カスタマイズ可能なラベルとメール表示">

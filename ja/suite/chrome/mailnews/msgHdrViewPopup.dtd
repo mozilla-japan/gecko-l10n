@@ -13,7 +13,7 @@
 <!ENTITY SendMailTo.accesskey              "s">
 <!ENTITY CopyEmailAddress.label            "メールアドレスをコピー">
 <!ENTITY CopyEmailAddress.accesskey        "C">
-<!ENTITY CreateFilterFrom.label            "フィルタを作成...">
+<!ENTITY CreateFilterFrom.label            "フィルターを作成...">
 <!ENTITY CreateFilterFrom.accesskey        "F">
 <!ENTITY openInBrowser.label               "ブラウザーで開く">
 <!ENTITY openInBrowser.accesskey           "O">

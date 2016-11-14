@@ -2,8 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY filterListDialog.title       "メッセージフィルタ">
-<!ENTITY nameColumn.label             "フィルタ名">
+<!ENTITY filterListDialog.title       "メッセージフィルター">
+<!ENTITY nameColumn.label             "フィルター名">
 <!ENTITY activeColumn.label           "有効">
 <!ENTITY newButton.label              "新規...">
 <!ENTITY newButton.accesskey          "N">
@@ -15,16 +15,16 @@
 <!ENTITY reorderUpButton.accesskey    "U">
 <!ENTITY reorderDownButton.label      "下に移動">
 <!ENTITY reorderDownButton.accesskey  "D">
-<!ENTITY filterHeader.label           "自動的にこれらのフィルタが上から順に評価されます。">
+<!ENTITY filterHeader.label           "自動的にこれらのフィルターが上から順に評価されます。">
 <!ENTITY filtersForPrefix.label       "対象アカウント:">
 <!ENTITY filtersForPrefix.accesskey   "F">
-<!ENTITY viewLogButton.label          "フィルタログ">
+<!ENTITY viewLogButton.label          "フィルターログ">
 <!ENTITY viewLogButton.accesskey      "L">
 <!ENTITY runFilters.label             "今すぐ実行">
 <!ENTITY runFilters.accesskey         "R">
 <!ENTITY stopFilters.label            "停止">
 <!ENTITY stopFilters.accesskey        "S">
-<!ENTITY folderPickerPrefix.label     "フィルタを使用するフォルダ:">
+<!ENTITY folderPickerPrefix.label     "フィルターを使用するフォルダ:">
 <!ENTITY folderPickerPrefix.accesskey "c">
 <!ENTITY choosethis.label             "このフォルダを選択">
 <!ENTITY choosethisnewsserver.label   "このニュースサーバーを選択">
