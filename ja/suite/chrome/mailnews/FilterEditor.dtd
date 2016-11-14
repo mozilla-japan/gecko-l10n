@@ -48,8 +48,8 @@
 <!ENTITY addTag.label                "メッセージにタグを付ける">
 <!ENTITY setJunkScore.label          "迷惑メールかどうか設定する">
 <!ENTITY deleteMessage.label         "メッセージを削除する">
-<!ENTITY deleteFromPOP.label         "メッセージを POP サーバから削除する">
-<!ENTITY fetchFromPOP.label          "POP サーバから本文を取得する">
+<!ENTITY deleteFromPOP.label         "メッセージを POP サーバーから削除する">
+<!ENTITY fetchFromPOP.label          "POP サーバーから本文を取得する">
 <!ENTITY ignoreThread.label          "スレッドを無視する">
 <!ENTITY ignoreSubthread.label       "サブスレッドを無視する">
 <!ENTITY watchThread.label           "注目スレッドに設定する">

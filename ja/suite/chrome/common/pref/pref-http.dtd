@@ -16,8 +16,8 @@
 <!ENTITY prefEnablePipelining.label          "パイプラインを有効にする">
 <!ENTITY prefEnablePipelining.accesskey      "P">
 <!ENTITY prefEnablePipeliningProxy.accesskey "N">
-<!ENTITY prefPara                            "これらのオプションで HTTP 接続のパフォーマンスや互換性を向上させることができます。いくつかのプロキシサーバは、例えば HTTP/1.0 を要求することが知られています (詳細はリリースノートを参照してください)。">
-<!ENTITY prefPipeWarning                     "警告: パイプラインは実験的な機能です。この機能を利用するとページの読み込み速度が向上しますが、一部のウェブサーバやプロキシではサポートされておらず、それらの不具合によって速度が低下したり全く接続できなったりすることがあります。">
+<!ENTITY prefPara                            "これらのオプションで HTTP 接続のパフォーマンスや互換性を向上させることができます。いくつかのプロキシサーバーは、例えば HTTP/1.0 を要求することが知られています (詳細はリリースノートを参照してください)。">
+<!ENTITY prefPipeWarning                     "警告: パイプラインは実験的な機能です。この機能を利用するとページの読み込み速度が向上しますが、一部のウェブサーバーやプロキシではサポートされておらず、それらの不具合によって速度が低下したり全く接続できなったりすることがあります。">
 <!ENTITY prefUseragent.label                 "ユーザーエージェント文字列の設定">
 <!ENTITY prefFirefoxCompat.label             "ユーザーエージェントに Firefox 互換ブラウザーであることを追記する"><!--Advertise Firefox compatibility-->
 <!ENTITY prefFirefoxCompat.accesskey         "F">

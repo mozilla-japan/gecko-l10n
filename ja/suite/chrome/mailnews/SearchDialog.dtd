@@ -9,7 +9,7 @@
 <!ENTITY searchSubfolders.accesskey  "u">
 <!ENTITY searchOnHeading.label       "検索対象:">
 <!ENTITY searchOnHeading.accesskey   "P">
-<!ENTITY searchOnRemote.label        "リモートサーバ">
+<!ENTITY searchOnRemote.label        "リモートサーバー">
 <!ENTITY searchOnLocal.label         "ローカルシステム">
 <!ENTITY resetButton.label           "リセット">
 <!ENTITY resetButton.accesskey       "C">

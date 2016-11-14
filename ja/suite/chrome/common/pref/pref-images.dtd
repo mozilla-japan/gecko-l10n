@@ -14,7 +14,7 @@
 
 <!ENTITY loadAllImagesRadio.label       "すべての画像を読み込む">
 <!ENTITY loadAllImagesRadio.accesskey   "L">
-<!ENTITY loadOrgImagesRadio.label       "元のサーバから送られる画像だけを読み込む">
+<!ENTITY loadOrgImagesRadio.label       "元のサーバーから送られる画像だけを読み込む">
 <!ENTITY loadOrgImagesRadio.accesskey   "n">
 <!ENTITY loadNoImagesRadio.label        "すべての画像を読み込まない">
 <!ENTITY loadNoImagesRadio.accesskey    "D">

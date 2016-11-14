@@ -38,67 +38,67 @@
 
 <!-- Entities for Incoming Server page -->
 
-<!ENTITY incomingTitle.label		"受信サーバ情報">
-<!ENTITY incomingServerTypeDesc.label	"メール受信サーバの種類を選択してください。">
+<!ENTITY incomingTitle.label		"受信サーバー情報">
+<!ENTITY incomingServerTypeDesc.label	"メール受信サーバーの種類を選択してください。">
 <!-- LOCALIZATION NOTE (imapType.label) : Do not translate "IMAP" in below line -->
 <!ENTITY imapType.label			"IMAP">
 <!ENTITY imapType.accesskey		"I">
 <!-- LOCALIZATION NOTE (popType.label) : Do not translate "POP" in below line -->
 <!ENTITY popType.label			"POP">
 <!ENTITY popType.accesskey		"P">
-<!ENTITY leaveMsgsOnSrvr.label		"サーバにメッセージを残す">
+<!ENTITY leaveMsgsOnSrvr.label		"サーバーにメッセージを残す">
 <!ENTITY leaveMsgsOnSrvr.accesskey	"L">
 <!ENTITY portNum.label			"ポート番号:">
 <!ENTITY portNum.accesskey		"o">
 <!ENTITY defaultPortLabel.label		"@@Default@@:">
 <!ENTITY defaultPortValue.label		"">
 <!-- LOCALIZATION NOTE (incomingServerNameDesc.label) : Do not translate "&quot;pop.example.net&quot;" in below line -->
-<!ENTITY incomingServer.description	"メール受信サーバの名前を入力してください。(例: mail.example.jp)">
-<!ENTITY incomingServer.label		"メール受信サーバ:">
+<!ENTITY incomingServer.description	"メール受信サーバーの名前を入力してください。(例: mail.example.jp)">
+<!ENTITY incomingServer.label		"メール受信サーバー:">
 <!ENTITY incomingServer.accesskey	"S">
 <!-- LOCALIZATION NOTE (incomingUsername.description) : do not translate "&quot;jsmith&quot;" in below line -->
-<!ENTITY incomingUsername.description	"プロバイダに指定された受信サーバのユーザー名を入力してください。(例: &quot;jsmith&quot;)">
+<!ENTITY incomingUsername.description	"プロバイダに指定された受信サーバーのユーザー名を入力してください。(例: &quot;jsmith&quot;)">
 <!ENTITY incomingUsername.label		"ユーザー名:">
 <!ENTITY incomingUsername.accesskey	"U">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
-<!ENTITY newsServerNameDesc.label	"ニュース (NNTP) サーバ の名前を入力してください。(例: news.example.jp)">
-<!ENTITY newsServerLabel.label		"ニュースサーバ:">
+<!ENTITY newsServerNameDesc.label	"ニュース (NNTP) サーバーの名前を入力してください。(例: news.example.jp)">
+<!ENTITY newsServerLabel.label		"ニュースサーバー:">
 <!ENTITY newsServerLabel.accesskey	"S">
 
 <!-- Entities for Outgoing Server page -->
 
-<!ENTITY outgoingTitle.label		"送信サーバ情報">
+<!ENTITY outgoingTitle.label		"送信サーバー情報">
 <!-- LOCALIZATION NOTE (outgoingServer.description) : Do not translate "SMTP" and "&quot;smtp.example.net&quot;" in below line -->
-<!ENTITY outgoingServer.description	"メール送信 (SMTP) サーバの名前を入力してください。(例: smtp.example.jp)">
-<!ENTITY outgoingServer.label		"メール送信サーバ:">
+<!ENTITY outgoingServer.description	"メール送信 (SMTP) サーバーの名前を入力してください。(例: smtp.example.jp)">
+<!ENTITY outgoingServer.label		"メール送信サーバー:">
 <!ENTITY outgoingServer.accesskey	"S">
-<!ENTITY outgoingUsername.description	"プロバイダに指定された送信サーバのユーザー名を入力してください (一般的に受信サーバのユーザー名と同じです)。">
-<!ENTITY outgoingUsername.label		"送信サーバのユーザー名:">
+<!ENTITY outgoingUsername.description	"プロバイダに指定された送信サーバーのユーザー名を入力してください (一般的に受信サーバーのユーザー名と同じです)。">
+<!ENTITY outgoingUsername.label		"送信サーバーのユーザー名:">
 <!ENTITY outgoingUsername.accesskey	"U">
 
 <!-- LOCALIZATION NOTE (modifyOutgoing.suffix) : This string will be appended after each of
      haveSmtp1.suffix3, haveSmtp2.suffix3, haveSmtp3.suffix3 .
 -->
-<!ENTITY modifyOutgoing.suffix		"メール送信サーバの設定は @@[@@アカウント設定@@]@@ で変更できます。">
+<!ENTITY modifyOutgoing.suffix		"メール送信サーバーの設定は @@[@@アカウント設定@@]@@ で変更できます。">
 <!-- LOCALIZATION NOTE (haveSmtp1.prefix and haveSmtp1.suffix3) : Do not translate "SMTP" and "&quot;" in
      these variables. Also, translate haveSmtp1.prefix and haveSmtp1.suffix3 as a single sentence, inserting
      text after the "&quot;" entity in haveSmtp1.suffix3, if required grammatically.
 -->
-<!ENTITY haveSmtp1.prefix		"他のアカウントで設定済みのメール送信 (SMTP) サーバ &quot;">
+<!ENTITY haveSmtp1.prefix		"他のアカウントで設定済みのメール送信 (SMTP) サーバー &quot;">
 <!ENTITY haveSmtp1.suffix3		"&quot; を使用します。">
 
 <!-- LOCALIZATION NOTE (haveSmtp2.prefix and haveSmtp2.suffix3) : Do not translate "SMTP" and "&quot;" in
      these variables. Also, translate haveSmtp2.prefix and haveSmtp2.suffix3 as a single sentence, inserting
      text after the "&quot;" entity in haveSmtp2.suffix3, if required grammatically.
 -->
-<!ENTITY haveSmtp2.prefix		"メール送信 (SMTP) サーバのユーザー名には &quot;">
+<!ENTITY haveSmtp2.prefix		"メール送信 (SMTP) サーバーのユーザー名には &quot;">
 <!ENTITY haveSmtp2.suffix3		"&quot; が使用されます。">
 <!-- LOCALIZATION NOTE (haveSmtp3.prefix and haveSmtp3.suffix3) : Do not translate "SMTP" and "&quot;" in
      these variables. Also, translate haveSmtp3.prefix and haveSmtp3.suffix3 as a single sentence, inserting
      text after the "&quot;" entity in haveSmtp3.suffix3, if required grammatically.
 -->
-<!ENTITY haveSmtp3.prefix		"送信 (SMTP) サーバ &quot;">
-<!ENTITY haveSmtp3.suffix3		"&quot; が受信サーバと同一であるため、送信サーバへのアクセスにも受信サーバのユーザー名を使用します。">
+<!ENTITY haveSmtp3.prefix		"送信 (SMTP) サーバー &quot;">
+<!ENTITY haveSmtp3.suffix3		"&quot; が受信サーバーと同一であるため、送信サーバーへのアクセスにも受信サーバーのユーザー名を使用します。">
 
 <!-- Entities for Account name page -->
 
@@ -112,10 +112,10 @@
 
 <!ENTITY completionTitle.label		"設定完了">
 <!ENTITY completionText.label		"以下の設定情報が正しいか確認してください。">
-<!ENTITY serverTypePrefix.label		"メール受信サーバの種類:">
-<!ENTITY serverNamePrefix.label		"メール受信サーバ名:">
-<!ENTITY smtpServerNamePrefix.label	"メール送信 (SMTP) サーバ名:">
-<!ENTITY newsServerNamePrefix.label	"ニュース (NNTP) サーバ名:">
+<!ENTITY serverTypePrefix.label		"メール受信サーバーの種類:">
+<!ENTITY serverNamePrefix.label		"メール受信サーバー名:">
+<!ENTITY smtpServerNamePrefix.label	"メール送信 (SMTP) サーバー名:">
+<!ENTITY newsServerNamePrefix.label	"ニュース (NNTP) サーバー名:">
 <!ENTITY downloadOnLogin.label		"今すぐメッセージをダウンロード">
 <!ENTITY downloadOnLogin.accesskey	"D">
 <!ENTITY deferStorageDesc.label		"共通受信トレイを使用するアカウントのメールはすべてまとめて保存されます。このアカウントで送受信するメールを個別のディレクトリに分けて保存する場合はチェックを外してください。"><!-- (^^; Uncheck this checkbox to store mail for this account in its own directory. That will make this account appear as a top-level account. Otherwise, it will be part of the Local Folders Global Inbox account. -->

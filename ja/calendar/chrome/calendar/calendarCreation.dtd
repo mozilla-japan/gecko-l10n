@@ -6,9 +6,9 @@
 <!ENTITY wizard.label			"@@New-CMD@@カレンダーを作成します" >
 <!ENTITY wizard.description		"カレンダーの保存先" >
 
-<!ENTITY initialpage.description	"カレンダーをこのコンピューターに保存するか、サーバに保存することができます。サーバに保存したカレンダーは、リモートからアクセスしたり友人や同僚と共有したりできます。">
+<!ENTITY initialpage.description	"カレンダーをこのコンピューターに保存するか、サーバーに保存することができます。サーバーに保存したカレンダーは、リモートからアクセスしたり友人や同僚と共有したりできます。">
 <!ENTITY initialpage.computer.label	"このコンピューターに保存する">
-<!ENTITY initialpage.network.label	"ネットワークのサーバに保存する">
+<!ENTITY initialpage.network.label	"ネットワークのサーバーに保存する">
 
 <!ENTITY locationpage.description	"リモートのカレンダーへの接続に必要な情報を入力してください。" >
 <!ENTITY locationpage.login.description	"オプション: ユーザー名とパスワードを入力" >

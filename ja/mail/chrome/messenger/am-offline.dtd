@@ -21,8 +21,8 @@
 <!ENTITY nntpDownloadMsg.accesskey		"e">
 <!-- (^^; 以下 folderProps.dtd にもあり -->
 <!ENTITY retentionCleanup.label			"古いメッセージを完全に削除してディスク領域を開放できます。">
-<!ENTITY retentionCleanupImap.label		"ローカルのコピーとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
-<!ENTITY retentionCleanupPop.label		"このコンピューターとリモートサーバ上の古いメッセージを完全に削除してディスク領域を開放できます。">
+<!ENTITY retentionCleanupImap.label		"ローカルのコピーとリモートサーバー上の古いメッセージを完全に削除してディスク領域を開放できます。">
+<!ENTITY retentionCleanupPop.label		"このコンピューターとリモートサーバー上の古いメッセージを完全に削除してディスク領域を開放できます。">
 <!ENTITY retentionKeepMsg.label			"送信日時から次の日数以上経過したメッセージを削除する"><!-- (^^; Delete messages more than ... days.label -->
 <!ENTITY retentionKeepMsg.accesskey		"t">
 <!ENTITY retentionKeepAll.label			"メッセージを自動削除しない">

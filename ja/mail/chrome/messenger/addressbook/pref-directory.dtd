@@ -3,11 +3,11 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
-<!ENTITY pref.ldap.window.title		"LDAP サーバ">
+<!ENTITY pref.ldap.window.title		"LDAP サーバー">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label		"LDAP サーバ:">
+<!ENTITY directories.label		"LDAP サーバー:">
 <!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
-<!ENTITY directoriesText.label		"LDAP サーバを選んでください:">
+<!ENTITY directoriesText.label		"LDAP サーバーを選んでください:">
 <!ENTITY directoriesText.accesskey	"S">
 <!ENTITY addDirectory.label		"追加">
 <!ENTITY addDirectory.accesskey		"a">

@@ -5,5 +5,5 @@
 <!ENTITY loadError.label        "ページ読み込みエラー">
 <!ENTITY gopherAddon.title      "Gopher プロトコル">
 <!ENTITY gopherAddon.shortDesc  "gopher は登録されてないプロトコルです。">
-<!ENTITY gopherAddon.longDesc   "指定されたアドレスは現在サポートされていない gopher プロトコルです。ブラウザーはサイトに接続できません。Mozilla Add-ons から互換性のあるアドオンをインストールすると、このサーバに接続できます。">
+<!ENTITY gopherAddon.longDesc   "指定されたアドレスは現在サポートされていない gopher プロトコルです。ブラウザーはサイトに接続できません。Mozilla Add-ons から互換性のあるアドオンをインストールすると、このサーバーに接続できます。">
 <!ENTITY goToAddOn.label        "アドオンのページへ">

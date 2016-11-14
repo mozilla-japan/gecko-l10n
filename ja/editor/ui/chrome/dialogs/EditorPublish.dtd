@@ -45,7 +45,7 @@
 
 <!-- Settings Tab Panel -->
 <!ENTITY publishSites.label		"アップロードサイト">
-<!ENTITY serverInfo.label		"サーバ情報">
+<!ENTITY serverInfo.label		"サーバー情報">
 <!ENTITY loginInfo.label		"ログイン情報">
 <!ENTITY siteName.label			"サイト名:">
 <!ENTITY siteName.accesskey		"e">

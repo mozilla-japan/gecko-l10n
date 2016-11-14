@@ -25,7 +25,7 @@
 <!ENTITY refresh.label		"今すぐ更新">
 <!ENTITY refresh.accesskey	"">
 
-<!ENTITY network.hint.label	"ネットワーク名またはサーバ名 (ポート番号も含む) と参加するチャンネルを入力してください。">
+<!ENTITY network.hint.label	"ネットワーク名またはサーバー名 (ポート番号も含む) と参加するチャンネルを入力してください。">
 
 <!ENTITY col.network		"ネットワーク">
 <!ENTITY col.name		"名前">

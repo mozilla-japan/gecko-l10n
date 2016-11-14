@@ -33,7 +33,7 @@
 <!ENTITY config.type.hint         "環境設定を追加するオブジェクトの種類">
 <!ENTITY config.type.accesskey    "T">
 <!ENTITY config.network.label     "ネットワーク:">
-<!ENTITY config.network.hint      "ネットワークの既知の名前、またはサーバ名">
+<!ENTITY config.network.hint      "ネットワークの既知の名前、またはサーバー名">
 <!ENTITY config.network.accesskey "N">
 <!ENTITY config.target.label      "対象:">
 <!ENTITY config.target.hint       "対象のチャンネルまたはユーザー名">

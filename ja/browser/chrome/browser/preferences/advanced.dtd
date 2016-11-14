@@ -106,7 +106,7 @@
 
 <!ENTITY certificateTab.label            "証明書">
 <!ENTITY certSelection.label             "要求">
-<!ENTITY certSelection.description       "サーバが個人証明書を要求したとき:">
+<!ENTITY certSelection.description       "サーバーが個人証明書を要求したとき:">
 <!ENTITY certs.auto                      "自動的に選択する">
 <!ENTITY certs.auto.accesskey            "S">
 <!ENTITY certs.ask                       "毎回自分で選択する">

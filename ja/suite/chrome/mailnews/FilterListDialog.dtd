@@ -27,4 +27,4 @@
 <!ENTITY folderPickerPrefix.label     "フィルタを使用するフォルダ:">
 <!ENTITY folderPickerPrefix.accesskey "c">
 <!ENTITY choosethis.label             "このフォルダを選択">
-<!ENTITY choosethisnewsserver.label   "このニュースサーバを選択">
+<!ENTITY choosethisnewsserver.label   "このニュースサーバーを選択">

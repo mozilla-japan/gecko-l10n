@@ -6,9 +6,9 @@
 
 <!ENTITY messageStorage.label "メッセージの保存">
 <!ENTITY securitySettings.label "セキュリティ設定">
-<!ENTITY serverSettings.label "サーバ設定">
-<!ENTITY serverType.label "サーバの種類:">
-<!ENTITY serverName.label "サーバ名:">
+<!ENTITY serverSettings.label "サーバー設定">
+<!ENTITY serverType.label "サーバーの種類:">
+<!ENTITY serverName.label "サーバー名:">
 <!ENTITY serverName.accesskey "S">
 <!ENTITY userName.label "ユーザー名:">
 <!ENTITY userName.accesskey "N">
@@ -23,7 +23,7 @@
 <!ENTITY biffStart.label "新着メッセージがないか">
 <!ENTITY biffStart.accesskey "y">
 <!ENTITY biffEnd.label "分ごとに確認する">
-<!ENTITY useIdleNotifications.label "新着メッセージが届いた時のサーバ通知を許可する">
+<!ENTITY useIdleNotifications.label "新着メッセージが届いた時のサーバー通知を許可する">
 <!ENTITY useIdleNotifications.accesskey "w">
 <!ENTITY connectionSecurity.label "接続の保護:">
 <!ENTITY connectionSecurity.accesskey "u">
@@ -33,14 +33,14 @@
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY authMethod.label "認証方式:">
 <!ENTITY authMethod.accesskey "i">
-<!ENTITY leaveOnServer.label "ダウンロード後もサーバにメッセージを残す">
+<!ENTITY leaveOnServer.label "ダウンロード後もサーバーにメッセージを残す">
 <!ENTITY leaveOnServer.accesskey "g">
 <!ENTITY headersOnly.label "ヘッダのみ取得する">
 <!ENTITY headersOnly.accesskey "e">
 <!ENTITY deleteByAgeFromServer.label "ダウンロードしてから">
 <!ENTITY deleteByAgeFromServer.accesskey "o">
 <!ENTITY daysEnd.label "日以上経過したメッセージは削除する">
-<!ENTITY deleteOnServer2.label "ダウンロードしたメッセージを削除したらサーバからも削除する">
+<!ENTITY deleteOnServer2.label "ダウンロードしたメッセージを削除したらサーバーからも削除する">
 <!ENTITY deleteOnServer2.accesskey "d">
 <!ENTITY downloadOnBiff.label "新着メッセージを自動的にダウンロードする">
 <!ENTITY downloadOnBiff.accesskey "m">
@@ -67,7 +67,7 @@
 <!ENTITY maxMessagesStart.accesskey "m">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
 <!ENTITY maxMessagesEnd.label "以上になる場合は確認する">
-<!ENTITY alwaysAuthenticate.label "サーバへ接続するときは必ず認証を要求する">
+<!ENTITY alwaysAuthenticate.label "サーバーへ接続するときは必ず認証を要求する">
 <!ENTITY alwaysAuthenticate.accesskey "w">
 <!ENTITY newsrcFilePath.label "newsrc ファイル:">
 <!ENTITY newsrcPicker.label "newsrc ファイルを選択してください">

@@ -7,7 +7,7 @@
 <!ENTITY searchHeading.accesskey	"h">
 <!ENTITY searchSubfolders.label		"サブフォルダも検索する">
 <!ENTITY searchSubfolders.accesskey	"e">
-<!ENTITY searchOnServer.label		"サーバ上のメッセージを検索する">
+<!ENTITY searchOnServer.label		"サーバー上のメッセージを検索する">
 <!ENTITY searchOnServer.accesskey	"u">
 <!ENTITY resetButton.label		"リセット">
 <!ENTITY resetButton.accesskey		"C">

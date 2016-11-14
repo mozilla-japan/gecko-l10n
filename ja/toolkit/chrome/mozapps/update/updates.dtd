@@ -33,7 +33,7 @@
 
 <!ENTITY  downloadPage.title		"&brandShortName; をダウンロードしています">
 <!ENTITY  downloading.intro		"更新をダウンロードしています...">
-<!ENTITY  connecting.label		"更新サーバに接続しています...">
+<!ENTITY  connecting.label		"更新サーバーに接続しています...">
 <!ENTITY  verificationFailedText.label	"ダウンロードした差分更新の完全性を確認できなかったため、完全更新パッケージをダウンロードしています。">
 
 <!ENTITY  viewDetails.tooltip		"この更新についての詳細を表示します">

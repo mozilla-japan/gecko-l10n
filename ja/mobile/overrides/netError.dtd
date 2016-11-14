@@ -16,7 +16,7 @@
 <!ENTITY deniedPortAccess.title		"このアドレスへの接続は制限されています">
 <!ENTITY deniedPortAccess.longDesc	"">
 
-<!ENTITY dnsNotFound.title		"サーバが見つかりませんでした">
+<!ENTITY dnsNotFound.title		"サーバーが見つかりませんでした">
 <!-- LOCALIZATION NOTE (dnsNotFound.longDesc4) This string contains markup including widgets for searching
      or enabling wifi connections. The text inside tags should be localized.  Do not change the ids. -->
 <!ENTITY dnsNotFound.longDesc4 "
@@ -110,15 +110,15 @@
 </ul>
 ">
 
-<!ENTITY proxyConnectFailure.title	"プロキシサーバへの接続を拒否されました">
+<!ENTITY proxyConnectFailure.title	"プロキシサーバーへの接続を拒否されました">
 <!ENTITY proxyConnectFailure.longDesc	"
 <ul>
   <li>プロキシ設定が正しいか確認してください。</li>
-  <li>プロキシサーバが正常に動作しているかネットワーク管理者に問い合わせてください。</li>
+  <li>プロキシサーバーが正常に動作しているかネットワーク管理者に問い合わせてください。</li>
 </ul>
 ">
 
-<!ENTITY proxyResolveFailure.title	"プロキシサーバが見つかりませんでした">
+<!ENTITY proxyResolveFailure.title	"プロキシサーバーが見つかりませんでした">
 <!-- LOCALIZATION NOTE (proxyResolveFailure.longDesc3) This string contains markup including widgets for enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
 <!ENTITY proxyResolveFailure.longDesc3	"
@@ -137,11 +137,11 @@
 </ul>
 ">
 
-<!ENTITY unknownSocketType.title	"サーバの応答が不正です">
+<!ENTITY unknownSocketType.title	"サーバーの応答が不正です">
 <!ENTITY unknownSocketType.longDesc	"
 <ul>
   <li>コンピューターにパーソナルセキュリティマネージャがインストールされているか確認してください。</li>
-  <li>サーバの設定が間違っていることにより、この問題が発生している可能性もあります。</li>
+  <li>サーバーの設定が間違っていることにより、この問題が発生している可能性もあります。</li>
 </ul>
 ">
 
@@ -156,7 +156,7 @@
 <!ENTITY nssBadCert.title		"安全な接続ができませんでした">
 <!ENTITY nssBadCert.longDesc2		"
 <ul>
-  <li>サーバの設定に問題があるか、誰かが正規のサーバになりすましている可能性があります。</li>
+  <li>サーバーの設定に問題があるか、誰かが正規のサーバーになりすましている可能性があります。</li>
   <li>以前は正常に接続できていた場合、この問題は恐らく一時的なものですので、後で再度試してみてください。</li>
 </ul>
 ">
@@ -165,7 +165,7 @@
      The text inside the tags should be localized. Do not touch the ids. -->
 <!ENTITY sharedLongDesc3			"
 <ul>
-  <li>このサイトが一時的に利用できなくなっていたり、サーバの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>
+  <li>このサイトが一時的に利用できなくなっていたり、サーバーの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>
   <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。
     <button id='wifi'>Wi-Fi を有効化</button>
   </li>
@@ -188,7 +188,7 @@ which uses strings already defined above. The button is included here (instead o
 netError.xhtml) because it exposes functionality specific to firefox. -->
 
 <!ENTITY securityOverride.warningContent "
-<p>インターネット接続環境を完全には信頼できない場合や、これまでこのサーバではこの警告が表示されなかった場合は、このサイトを例外として追加しないでください。</p>
+<p>インターネット接続環境を完全には信頼できない場合や、これまでこのサーバーではこの警告が表示されなかった場合は、このサイトを例外として追加しないでください。</p>
 
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
@@ -210,4 +210,4 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <!ENTITY inadequateSecurityError.title "接続が安全ではありません">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
-<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> は攻撃に対して脆弱な古いセキュリティ技術を使用しています。攻撃者は保護された情報を簡単に暴露できます。サイトを安全に訪れるには、このウェブサイトの管理者にサーバの問題を修正してもらう必要があります。</p><p>エラーコード: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> は攻撃に対して脆弱な古いセキュリティ技術を使用しています。攻撃者は保護された情報を簡単に暴露できます。サイトを安全に訪れるには、このウェブサイトの管理者にサーバーの問題を修正してもらう必要があります。</p><p>エラーコード: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

@@ -6,14 +6,14 @@
 
 <!ENTITY addressing.label		"編集とアドレス入力">
 <!ENTITY addressingGroupTitle.label	"アドレス入力">
-<!ENTITY addressingText.label		"アドレスを自動補完する際に検索する LDAP サーバ:">
+<!ENTITY addressingText.label		"アドレスを自動補完する際に検索する LDAP サーバー:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
-<!ENTITY useGlobal.label		"共通の LDAP サーバ設定を使用する">
+<!ENTITY useGlobal.label		"共通の LDAP サーバー設定を使用する">
 <!ENTITY useGlobal.accesskey		"U">
-<!ENTITY editDirectories.label		"LDAP サーバの編集...">
+<!ENTITY editDirectories.label		"LDAP サーバーの編集...">
 <!ENTITY editDirectories.accesskey	"E">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label		"個別の LDAP サーバを指定する:">
+<!ENTITY directories.label		"個別の LDAP サーバーを指定する:">
 <!ENTITY directories.accesskey		"d">
 <!ENTITY directoriesNone.label		"None">
 

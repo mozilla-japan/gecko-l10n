@@ -53,11 +53,11 @@
 
 <!ENTITY fxaccount_status_signed_in_as 'サインインユーザー'>
 <!ENTITY fxaccount_status_manage_account 'アカウントの管理'>
-<!ENTITY fxaccount_status_auth_server 'アカウントサーバ'>
+<!ENTITY fxaccount_status_auth_server 'アカウントサーバー'>
 <!ENTITY fxaccount_status_sync_now '今すぐ同期'>
 <!ENTITY fxaccount_status_syncing2 '同期しています...'>
 <!ENTITY fxaccount_status_device_name 'デバイス名'>
-<!ENTITY fxaccount_status_sync_server '同期サーバ'>
+<!ENTITY fxaccount_status_sync_server '同期サーバー'>
 <!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
 <!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label; は有効です'>
 <!ENTITY fxaccount_status_needs_verification2 'あなたのアカウントを確認してください。タップして確認のメールを再送信します。'>
@@ -110,8 +110,8 @@
 <!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST 'メールかパスワードが間違っています'>
 <!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD 'メールかパスワードが間違っています'>
 <!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT 'アカウントが確認されていません'>
-<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS 'サーバが応答しません。後ほどお試しください'>
-<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD 'サーバが応答しません。後ほどお試しください'>
+<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS 'サーバーが応答しません。後ほどお試しください'>
+<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD 'サーバーが応答しません。後ほどお試しください'>
 <!ENTITY fxaccount_remote_error_UNKNOWN_ERROR '問題が発生しました'>
 <!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED 'アカウントはロックされています。&formatS1;'>
 

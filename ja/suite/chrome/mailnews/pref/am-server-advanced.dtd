@@ -4,28 +4,28 @@
 
 <!ENTITY serverAdvanced.label		"アカウントの詳細設定">
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
-<!ENTITY serverDirectory.label		"IMAP サーバディレクトリ:">
+<!ENTITY serverDirectory.label		"IMAP サーバーディレクトリ:">
 <!ENTITY serverDirectory.accesskey	"d">
 <!ENTITY usingSubscription.label	"購読しているフォルダのみ表示する">
 <!ENTITY usingSubscription.accesskey	"w">
-<!ENTITY dualUseFolders.label		"サブフォルダとメッセージ両方を含むフォルダをサーバがサポートしている">
+<!ENTITY dualUseFolders.label		"サブフォルダとメッセージ両方を含むフォルダをサーバーがサポートしている">
 <!ENTITY dualUseFolders.accesskey	"f">
-<!ENTITY maximumConnectionsNumber.label	"サーバへの最大同時接続数">
+<!ENTITY maximumConnectionsNumber.label	"サーバーへの最大同時接続数">
 <!ENTITY maximumConnectionsNumber.accesskey "M">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
-<!ENTITY namespaceDesc.label		"IMAP サーバの名前空間を設定してください:">
+<!ENTITY namespaceDesc.label		"IMAP サーバーの名前空間を設定してください:">
 <!ENTITY personalNamespace.label	"個人名前空間:">
 <!ENTITY personalNamespace.accesskey	"P">
 <!ENTITY publicNamespace.label		"公開(共有)名前空間:">
 <!ENTITY publicNamespace.accesskey	"u">
 <!ENTITY otherUsersNamespace.label	"他のユーザーの名前空間:">
 <!ENTITY otherUsersNamespace.accesskey	"O">
-<!ENTITY overrideNamespaces.label	"サーバによる名前空間の上書きを許可する">
+<!ENTITY overrideNamespaces.label	"サーバーによる名前空間の上書きを許可する">
 <!ENTITY overrideNamespaces.accesskey	"A">
-<!ENTITY pop3DeferringDesc.label	"このアカウントのサーバからメールをダウンロードするとき、新着メッセージを次のフォルダに保存する:">
+<!ENTITY pop3DeferringDesc.label	"このアカウントのサーバーからメールをダウンロードするとき、新着メッセージを次のフォルダに保存する:">
 <!ENTITY accountInbox.label		"このアカウントの受信トレイ">
 <!ENTITY accountInbox.accesskey		"s">
 <!ENTITY deferToServer.label		"別のアカウントの受信トレイ">
 <!ENTITY deferToServer.accesskey	"d">
-<!ENTITY deferGetNewMail.label		"新着メールの取得時にこのサーバも同時に受信">
+<!ENTITY deferGetNewMail.label		"新着メールの取得時にこのサーバーも同時に受信">
 <!ENTITY deferGetNewMail.accesskey	"I">

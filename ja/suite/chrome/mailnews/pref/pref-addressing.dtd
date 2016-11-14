@@ -15,8 +15,8 @@
 <!ENTITY addressingEnable.label                "ローカルのアドレス帳">
 <!ENTITY addressingEnable.accesskey            "L">
 <!ENTITY autocompleteText.label                "メールアドレスの入力時に、以下に登録されたものから探します:">
-<!ENTITY directories.label                     "LDAP サーバ:">
+<!ENTITY directories.label                     "LDAP サーバー:">
 <!ENTITY directories.accesskey                 "D">
 <!ENTITY directoriesNone.label                 "なし">
-<!ENTITY editDirectories.label                 "LDAP サーバを編集...">
+<!ENTITY editDirectories.label                 "LDAP サーバーを編集...">
 <!ENTITY editDirectories.accesskey             "E">

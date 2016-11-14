@@ -8,7 +8,7 @@
 <!ENTITY name.accesskey             "n">
 <!ENTITY description.label          "作成先:">
 <!ENTITY description.accesskey      "c">
-<!ENTITY folderRestriction1.label   "このサーバではフォルダの中身が制限されています。">
+<!ENTITY folderRestriction1.label   "このサーバーではフォルダの中身が制限されています。">
 <!ENTITY folderRestriction2.label   "新しいフォルダに入れるものを選択してください:">
 <!ENTITY foldersOnly.label          "サブフォルダだけを入れる">
 <!ENTITY messagesOnly.label         "メッセージだけを入れる">

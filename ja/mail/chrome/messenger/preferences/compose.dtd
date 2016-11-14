@@ -49,10 +49,10 @@
 <!ENTITY autocompleteText.label			"以下に登録されているメールアドレスを宛先等の入力時に自動補完する:">
 <!ENTITY addressingEnable.label			"ローカルのアドレス帳">
 <!ENTITY addressingEnable.accesskey		"L">
-<!ENTITY directories.label			"LDAP サーバ:">
+<!ENTITY directories.label			"LDAP サーバー:">
 <!ENTITY directories.accesskey			"D">
 <!ENTITY directoriesNone.label			"なし">
-<!ENTITY editDirectories.label			"LDAP サーバの編集...">
+<!ENTITY editDirectories.label			"LDAP サーバーの編集...">
 <!ENTITY editDirectories.accesskey		"E">
 
 <!ENTITY sendOptionsDescription.label		"送信するメッセージの形式を設定します。">

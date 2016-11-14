@@ -30,7 +30,7 @@
 <!ENTITY showInternetSearch.accesskey          "e">
 
 <!ENTITY formatting.label                      "表示形式">
-<!ENTITY domainFormatting.label                "ウェブサイトや FTP サーバのドメインを強調する"><!--en-US: "Highlight the effective domain for websites and FTP servers" -->
+<!ENTITY domainFormatting.label                "ウェブサイトや FTP サーバーのドメインを強調する"><!--en-US: "Highlight the effective domain for websites and FTP servers" -->
 <!ENTITY domainFormatting.accesskey            "d">
 
 <!ENTITY highlightSecure.label                 "接続のセキュリティレベルが高いウェブページを強調する">
