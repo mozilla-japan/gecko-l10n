@@ -135,11 +135,11 @@
 <!ENTITY popupsManage.label "ポップアップの管理">
 <!ENTITY popupsManage.accesskey "M">
 
-<!ENTITY cookieCookieManager.label "Cookie マネージャ">
+<!ENTITY cookieCookieManager.label "Cookie マネージャー">
 <!ENTITY cookieCookieManager.accesskey "C">
-<!ENTITY cookieImageManager.label "画像マネージャ">
+<!ENTITY cookieImageManager.label "画像マネージャー">
 <!ENTITY cookieImageManager.accesskey "I">
-<!ENTITY popupsManager.label "ポップアップマネージャ">
+<!ENTITY popupsManager.label "ポップアップマネージャー">
 <!ENTITY popupsManager.accesskey "o">
 
 <!ENTITY clearPrivateDataCmd.label "プライバシー情報の消去...">

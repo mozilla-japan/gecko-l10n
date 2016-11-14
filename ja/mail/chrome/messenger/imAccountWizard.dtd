@@ -15,7 +15,7 @@
 <!ENTITY accountPasswordTitle.label	"パスワード">
 <!ENTITY accountPasswordInfo.label	"アカウントのパスワードを入力してください。">
 <!ENTITY accountPasswordField.label	"パスワード:">
-<!ENTITY accountPasswordManager.label	"入力されたパスワードはパスワードマネージャに保存されます。パスワードが不要またはアカウント接続時にパスワードを毎回入力したいときは、このボックスに何も入力しないでください。">
+<!ENTITY accountPasswordManager.label	"入力されたパスワードはパスワードマネージャーに保存されます。パスワードが不要またはアカウント接続時にパスワードを毎回入力したいときは、このボックスに何も入力しないでください。">
 
 <!ENTITY accountAdvancedTitle.label		"詳細オプション">
 <!ENTITY accountAdvancedInfo.label		"この手順は特に必要が無ければスキップできます。">

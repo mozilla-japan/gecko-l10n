@@ -64,4 +64,4 @@
 <!ENTITY password.tooltip		"ユーザー名に関連したパスワード">
 <!ENTITY savePassword.label		"パスワードを保存する">
 <!ENTITY savePassword.accesskey		"S">
-<!ENTITY savePassword.tooltip		"このパスワードをパスワードマネージャを使って安全に保存します">
+<!ENTITY savePassword.tooltip		"このパスワードをパスワードマネージャーを使って安全に保存します">

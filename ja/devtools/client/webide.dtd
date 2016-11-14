@@ -111,7 +111,7 @@
 
 <!-- Addons -->
 <!ENTITY addons_title					"追加のコンポーネント">
-<!ENTITY addons_aboutaddons				"アドオンマネージャを開く">
+<!ENTITY addons_aboutaddons				"アドオンマネージャーを開く">
 
 <!-- Prefs -->
 <!ENTITY prefs_title					"設定">

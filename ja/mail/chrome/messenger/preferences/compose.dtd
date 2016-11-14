@@ -35,7 +35,7 @@
 <!ENTITY spellCheckInline1.accesskey		"E">
 <!ENTITY languagePopup.label			"辞書の言語:">
 <!ENTITY languagePopup.accessKey		"L">
-<!ENTITY downloadDictionaries.label		"スペルチェックに必要な辞書を追加する"><!-- (^^; 拡張機能マネージャなどに合わせる -->
+<!ENTITY downloadDictionaries.label		"スペルチェックに必要な辞書を追加する"><!-- (^^; 拡張機能マネージャーなどに合わせる -->
 
 <!ENTITY warnOnSendAccelKey.label		"キーボードショートカットでメッセージを送信するときは確認する">
 <!ENTITY warnOnSendAccelKey.accesskey		"C">

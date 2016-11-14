@@ -11,7 +11,7 @@ file names and tall enough to hint that there are more downloads in the list -->
 <!ENTITY starting.label			"開始しました...">
 <!ENTITY scanning.label			"ウイルススキャンをしています...">
 
-<!ENTITY downloads.title		"ダウンロードマネージャ"><!-- (^^; -->
+<!ENTITY downloads.title		"ダウンロードマネージャー"><!-- (^^; -->
 
 <!ENTITY cmd.pause.label		"中断">
 <!ENTITY cmd.pause.accesskey		"P">
@@ -46,7 +46,7 @@ file names and tall enough to hint that there are more downloads in the list -->
 <!ENTITY cmd.search.commandKey		"k">
 
 <!ENTITY closeWhenDone.label		"ダウンロードが完了時に閉じる">
-<!ENTITY closeWhenDone.tooltip		"すべてのファイルのダウンロードが完了したときに、ダウンロードマネージャを閉じます">
+<!ENTITY closeWhenDone.tooltip		"すべてのファイルのダウンロードが完了したときに、ダウンロードマネージャーを閉じます">
 
 <!ENTITY showFolder.label		"保存フォルダを表示する">
 <!ENTITY searchBox.label		"検索...">

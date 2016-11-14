@@ -33,7 +33,7 @@
 <!ENTITY days.label			"日">
 
 <!ENTITY manageCookies.label		"Cookie とサイト設定の管理">
-<!ENTITY manageCookiesDescription.label	"Cookie マネージャは、保存されている Cookie を整理したりサイト設定を見直したりできます。また、上記の設定に関係なく、サイト別の設定を追加することもできます。">
+<!ENTITY manageCookiesDescription.label	"Cookie マネージャーは、保存されている Cookie を整理したりサイト設定を見直したりできます。また、上記の設定に関係なく、サイト別の設定を追加することもできます。">
 
 <!ENTITY viewCookies.label		"Cookie の管理">
 <!ENTITY viewCookies.accesskey		"M">

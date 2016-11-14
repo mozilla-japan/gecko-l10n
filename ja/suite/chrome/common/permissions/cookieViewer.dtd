@@ -29,7 +29,7 @@
 <!ENTITY treehead.sitename.label	"ウェブサイト">
 <!ENTITY     treehead.scheme.label	"スキーム">
 <!ENTITY treehead.status.label		"状況">
-<!ENTITY windowtitle.label		"Cookie マネージャ">
+<!ENTITY windowtitle.label		"Cookie マネージャー">
 
 <!ENTITY blockSite.label		"拒否">
 <!ENTITY blockSite.accesskey		"B">

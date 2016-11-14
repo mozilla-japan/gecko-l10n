@@ -23,7 +23,7 @@
 <!ENTITY openTabs.label "@@Window@@の代わりにタブを開く場合">
 
 <!ENTITY openManagers.label "独立した@@Window@@の代わりに@@NewTab@@で開く">
-<!ENTITY openDataManager.label "データマネージャ">
+<!ENTITY openDataManager.label "データマネージャー">
 <!ENTITY openDataManager.accesskey "D">
-<!ENTITY openAddOnsManager.label "アドオンマネージャ">
+<!ENTITY openAddOnsManager.label "アドオンマネージャー">
 <!ENTITY openAddOnsManager.accesskey "n">

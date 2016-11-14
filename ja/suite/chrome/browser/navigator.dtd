@@ -78,5 +78,5 @@
 <!ENTITY viewSecurityInfo.accesskey  "S">
 <!ENTITY viewCertificate.label       "証明書を表示">
 <!ENTITY viewCertificate.accesskey   "C">
-<!ENTITY viewCertManager.label       "証明書マネージャを開く">
+<!ENTITY viewCertManager.label       "証明書マネージャーを開く">
 <!ENTITY viewCertManager.accesskey   "M">

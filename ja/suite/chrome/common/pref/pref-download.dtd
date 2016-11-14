@@ -9,9 +9,9 @@
 <!ENTITY doNothing.accesskey            "D">
 <!ENTITY openProgressDialog.label       "進行状況ダイアログを開く">
 <!ENTITY openProgressDialog.accesskey   "O">
-<!ENTITY openDM.label                   "ダウンロードマネージャを開く">
+<!ENTITY openDM.label                   "ダウンロードマネージャーを開く">
 <!ENTITY openDM.accesskey               "m">
-<!ENTITY flashWhenOpen.label            "ダウンロードマネージャがすでに開いている場合は点滅させる">
+<!ENTITY flashWhenOpen.label            "ダウンロードマネージャーがすでに開いている場合は点滅させる">
 <!ENTITY flashWhenOpen.accesskey        "f">
 
 <!ENTITY downloadLocation.label         "ファイルの保存時">

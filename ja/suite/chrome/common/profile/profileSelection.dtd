@@ -6,7 +6,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY windowTitle.label		"プロファイルを選択">
-<!ENTITY profileManager.title		"&brandShortName; プロファイルマネージャ">
+<!ENTITY profileManager.title		"&brandShortName; プロファイルマネージャー">
 
 <!ENTITY manage.label			"プロファイルの管理...">
 <!ENTITY manage.accesskey		"M">

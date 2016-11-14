@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  managecerts.caption      "証明書の管理">
-<!ENTITY  managecerts.text         "証明書マネージャは、あなた自身の証明書を管理するだけでなく、他の人や認証局証明書などを管理するために使用します。">
+<!ENTITY  managecerts.text         "証明書マネージャーは、あなた自身の証明書を管理するだけでなく、他の人や認証局証明書などを管理するために使用します。">
 <!ENTITY  managecerts.button       "証明書の管理...">
 <!ENTITY  managecerts.accesskey    "M">
 <!ENTITY  managedevices.caption    "セキュリティデバイスの管理">

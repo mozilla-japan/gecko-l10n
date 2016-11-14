@@ -27,10 +27,10 @@
 <!ENTITY tasksMenu.label "ツール">
 <!ENTITY tasksMenu.accesskey "T">
 
-<!ENTITY datamanCmd.label "データマネージャ">
+<!ENTITY datamanCmd.label "データマネージャー">
 <!ENTITY datamanCmd.accesskey "D">
 
-<!ENTITY passwordManagerCmd.label "パスワードマネージャ">
+<!ENTITY passwordManagerCmd.label "パスワードマネージャー">
 <!ENTITY passwordManagerCmd.accesskey "P">
 
 <!ENTITY passwordDisplayCmd.label "保存されているパスワードを管理">
@@ -39,11 +39,11 @@
 <!ENTITY passwordExpireCmd.label "ログアウト">
 <!ENTITY passwordExpireCmd.accesskey "l">
 
-<!ENTITY downloadManagerCmd.label "ダウンロードマネージャ">
+<!ENTITY downloadManagerCmd.label "ダウンロードマネージャー">
 <!ENTITY downloadManagerCmd.accesskey "n">
 <!ENTITY downloadManagerCmd.commandkey "j">
 
-<!ENTITY addOnsManagerCmd.label "アドオンマネージャ">
+<!ENTITY addOnsManagerCmd.label "アドオンマネージャー">
 <!ENTITY addOnsManagerCmd.accesskey "A">
 <!ENTITY addOnsManagerCmd.commandkey "a">
 
