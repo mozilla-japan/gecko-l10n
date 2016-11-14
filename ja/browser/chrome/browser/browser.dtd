@@ -248,7 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBookmarksSidebar2.label        "ブックマークサイドバーを表示">
 <!ENTITY viewBookmarksToolbar.label         "ブックマークツールバーを表示">
 
-<!ENTITY containersMenu.label "コンテナ">
+<!ENTITY containersMenu.label "コンテナー">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -281,7 +281,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
-<!ENTITY newUserContext.label		"@@New-CMD@@コンテナタブ">
+<!ENTITY newUserContext.label		"@@New-CMD@@コンテナータブ">
 <!ENTITY newUserContext.accesskey	"B">
 <!ENTITY newNavigatorCmd.label		"@@NewWindow@@">
 <!ENTITY newNavigatorCmd.key		"N">
@@ -475,7 +475,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmdInTab.accesskey  "T">
 <!ENTITY openFrameCmd.label           "フレームを@@NewWindow@@で開く">
 <!ENTITY openFrameCmd.accesskey       "W">
-<!ENTITY openLinkCmdInContainerTab.label "リンクを@@New-CMD@@コンテナタブで開く">
+<!ENTITY openLinkCmdInContainerTab.label "リンクを@@New-CMD@@コンテナータブで開く">
 <!ENTITY openLinkCmdInContainerTab.accesskey "z">
 <!ENTITY showOnlyThisFrameCmd.label     "このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">

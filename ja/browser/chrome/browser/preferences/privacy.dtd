@@ -105,7 +105,7 @@
 <!ENTITY  clearOnCloseSettings.label		"設定...">
 <!ENTITY  clearOnCloseSettings.accesskey	"t">
 
-<!ENTITY  browserContainersHeader.label         "コンテナタブ">
+<!ENTITY  browserContainersHeader.label         "コンテナータブ">
 <!ENTITY  browserContainersLearnMore.label      "詳細">
-<!ENTITY  browserContainersEnabled.label        "コンテナタブを有効にする">
+<!ENTITY  browserContainersEnabled.label        "コンテナータブを有効にする">
 <!ENTITY  browserContainersEnabled.accesskey    "n">
