@@ -86,14 +86,14 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label5		"ブラウザーとアドオンのデバッガを有効">
+<!ENTITY options.enableChrome.label5		"ブラウザーとアドオンのデバッガを有効化">
 <!ENTITY options.enableChrome.tooltip3		"さまざまな開発ツールがブラウザーコンテキスト (ツール > ウェブ開発 > ブラウザーツールボックス) とアドオンマネージャーからのアドオンデバッグで使えるようになります">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3		"リモートデバッガを有効化">
-<!ENTITY options.enableRemote.tooltip		"Firefox OS などのリモート Firefox インスタンスを、開発ツールでデバッグできるようになります">
+<!ENTITY options.enableRemote.tooltip2		"Firefox OS などのリモート Firefox インスタンスを開発ツールでデバッグできるようにします">
 
 <!-- LOCALIZATION NOTE (options.enableWorkers.label): This is the label for the
   -  checkbox that toggles worker debugging, i.e. devtools.debugger.workers
@@ -119,10 +119,10 @@
 <!ENTITY options.enableServiceWorkersHTTP.label	"HTTP による Service Worker を有効化 (ツールボックスを開いたとき)">
 <!ENTITY options.enableServiceWorkersHTTP.tooltip	"このオプションを有効にすると、ツールボックスを開いているすべてのタブで HTTP による Service Worker を有効にします。">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectDefaultTools.label2): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label	"標準の Firefox 開発ツール">
+<!ENTITY options.selectDefaultTools.label2	"標準の開発ツール">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
