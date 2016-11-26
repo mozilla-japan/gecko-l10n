@@ -1,9 +1,0 @@
-amazon-jp
-bing
-google
-oshiete-goo
-rakuten
-twitter-ja
-wikipedia-ja
-yahoo-jp
-yahoo-jp-auctions
