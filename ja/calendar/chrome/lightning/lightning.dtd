@@ -50,6 +50,8 @@
 <!ENTITY lightning.imipbar.btnDecline2.tooltiptext		"招待を辞退します">
 <!ENTITY lightning.imipbar.btnDeclineRecurrences.label		"すべて辞退">
 <!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext	"すべての招待を辞退します">
+<!ENTITY lightning.imipbar.btnDeclineCounter.label		"拒否">
+<!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext	"対案を拒否します">
 <!ENTITY lightning.imipbar.btnDelete.label			"削除">
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext		"カレンダーから削除します">
 <!ENTITY lightning.imipbar.btnDetails.label			"詳細...">
@@ -58,6 +60,8 @@
 <!ENTITY lightning.imipbar.btnMore.tooltiptext			"クリックするとその他のオプションを表示します">
 <!ENTITY lightning.imipbar.btnReconfirm2.label			"再確認">
 <!ENTITY lightning.imipbar.btnReconfirm.tooltiptext		"主催者に再確認のメールを送信します">
+<!ENTITY lightning.imipbar.btnReschedule.label			"予定変更">
+<!ENTITY lightning.imipbar.btnReschedule.tooltiptext		"予定を組み直します">
 <!ENTITY lightning.imipbar.btnSaveCopy.label			"コピーを保存">
 <!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext		"主催者への返信とは別に、予定のコピーをカレンダーに保存します。参加者のリストは消去されます。">
 <!ENTITY lightning.imipbar.btnTentative.label			"仮承諾">

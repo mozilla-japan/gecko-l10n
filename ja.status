@@ -767,4 +767,5 @@ devtools/client        356614:749a8d32b74e  -----:------------   mar            
 [l10n-mozilla-52.0] (for aurora)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
+calendar               ------:------------  23715:c35b6d3cea5b   mar             sync calendar
 

@@ -40,3 +40,7 @@
 <!ENTITY pref.accessibility.label "アクセシビリティ" >
 <!ENTITY pref.systemcolors.label "システムの@@Colors@@に最適化する" >
 <!ENTITY pref.systemcolors.accesskey "c">
+
+<!ENTITY pref.eventsandtasks.label "予定と ToDo" >
+<!ENTITY pref.editInTab.label "予定と ToDo をダイアログ@@Window@@ではなくタブで編集する" >
+<!ENTITY pref.editInTab.accesskey "t">

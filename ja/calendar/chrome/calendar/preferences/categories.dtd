@@ -7,9 +7,9 @@
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
 
-<!ENTITY pref.categories.add.title    "カテゴリの追加">
-<!ENTITY pref.categories.addButton.label "追加...">
-<!ENTITY pref.categories.addButton.accesskey "A">
+<!ENTITY pref.categories.new.title "@@New-CMD@@カテゴリ">
+<!ENTITY pref.categories.newButton.label "新規作成...">
+<!ENTITY pref.categories.newButton.accesskey "N">
 <!ENTITY pref.categories.edit.title   "カテゴリの編集">
 <!ENTITY pref.categories.editButton.label "編集...">
 <!ENTITY pref.categories.editButton.accesskey "E">
