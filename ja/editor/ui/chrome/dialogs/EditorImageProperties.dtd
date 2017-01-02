@@ -13,6 +13,7 @@
 <!ENTITY locationEditField.label	"画像の場所:">
 <!ENTITY locationEditField.accessKey	"L">
 <!ENTITY locationEditField.tooltip	"画像のファイル名や場所を入力してください">
+<!ENTITY locationEditField.shortenedDataURI	"短縮表示のデータ URI (クリップボードには完全 URI がコピーされます)">
 <!ENTITY title.label			"ツールチップ:">
 <!ENTITY title.accessKey		"T">
 <!ENTITY title.tooltip			"ツールチップとして表示される HTML の title 属性">
