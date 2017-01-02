@@ -4,9 +4,9 @@
 
 <!ENTITY attachmentReminderDialog.title	"添付忘れ通知のキーワード">
 <!ENTITY attachKeywordText.label	"送信するメッセージに以下のキーワードのいずれかが含まれている場合、添付忘れがないか注意を促します。">
-<!ENTITY addKeywordButton.label		"追加">
-<!ENTITY addKeywordButton.accesskey	"A">
-<!ENTITY editKeywordButton.label	"編集">
-<!ENTITY editKeywordButton.accesskey	"E">
+<!ENTITY newKeywordButton.label		"新規...">
+<!ENTITY newKeywordButton.accesskey	"N">
+<!ENTITY editKeywordButton1.label	"編集...">
+<!ENTITY editKeywordButton1.accesskey	"E">
 <!ENTITY removeKeywordButton.label	"削除">
 <!ENTITY removeKeywordButton.accesskey	"D">

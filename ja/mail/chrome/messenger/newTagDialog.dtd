@@ -3,6 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- New Tag Dialog -->
-<!ENTITY newTagDialog.title	"@@New-CMD@@タグ">
+<!ENTITY newTagDialog1.title	"@@New-CMD@@タグ">
 <!ENTITY name.label		"タグ名:">
 <!ENTITY name.accesskey		"T">

@@ -28,10 +28,10 @@
 
 <!-- labels -->
 <!ENTITY displayTagsText.label		"タグを使ってメッセージを分類したり印を付けたりできます。">
-<!ENTITY addTagButton.label		"追加">
-<!ENTITY addTagButton.accesskey		"A">
-<!ENTITY editTagButton.label		"編集">
-<!ENTITY editTagButton.accesskey	"E">
+<!ENTITY newTagButton.label		"新規...">
+<!ENTITY newTagButton.accesskey		"N">
+<!ENTITY editTagButton1.label		"編集...">
+<!ENTITY editTagButton1.accesskey	"E">
 <!ENTITY removeTagButton.label		"削除">
 <!ENTITY removeTagButton.accesskey	"D">
 

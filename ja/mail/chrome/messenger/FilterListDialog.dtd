@@ -7,6 +7,8 @@
 <!ENTITY activeColumn.label		"有効">
 <!ENTITY newButton.label		"新規...">
 <!ENTITY newButton.accesskey		"N">
+<!ENTITY newButton.popupCopy.label	"コピー...">
+<!ENTITY newButton.popupCopy.accesskey	"C">
 <!ENTITY editButton.label		"編集...">
 <!ENTITY editButton.accesskey		"E">
 <!ENTITY deleteButton.label		"削除">

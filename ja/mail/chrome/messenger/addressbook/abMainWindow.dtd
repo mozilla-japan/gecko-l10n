@@ -76,9 +76,15 @@
 <!-- LOCALIZATION NOTE (hideSwapFnLnUI) : DONT_TRANSLATE -->
 <!-- Swap FN/LN UI  Set to "false" to show swap fn/ln UI -->
 <!ENTITY hideSwapFnLnUI				"true">
-<!ENTITY propertiesCmd2.label			"@@PropertyCMD@@">
-<!ENTITY propertiesCmd2.accesskey		"i">
+<!ENTITY propertiesMenu.label			"@@PropertyCMD@@">
+<!ENTITY propertiesMenu.accesskey		"i">
 <!ENTITY propertiesCmd.key			"i">
+<!ENTITY abPropertiesMenu.label			"アドレス帳の@@Property@@">
+<!ENTITY abPropertiesMenu.accesskey		"i">
+<!ENTITY contactPropertiesMenu.label		"連絡先の@@Property@@">
+<!ENTITY contactPropertiesMenu.accesskey	"i">
+<!ENTITY mailingListPropertiesMenu.label	"アドレスリストの@@Property@@">
+<!ENTITY mailingListPropertiesMenu.accesskey	"i">
 
 <!-- View Menu -->
 <!ENTITY viewMenu.label				"表示">
@@ -134,8 +140,15 @@ because displayed names don't have the comma in between. -->
 <!ENTITY newContactButton.accesskey		"C">
 <!ENTITY newlistButton.label			"@@New-CMD@@リスト">
 <!ENTITY newlistButton.accesskey		"L">
-<!ENTITY editButton2.label			"@@PropertyCMD@@">
-<!ENTITY editButton2.accesskey			"P">
+<!ENTITY editPropertiesButton.label		"編集">
+<!ENTITY propertiesContext.label		"@@PropertyCMD@@">
+<!ENTITY propertiesContext.accesskey		"i">
+<!ENTITY abPropertiesContext.label		"@@PropertyCMD@@">
+<!ENTITY abPropertiesContext.accesskey		"i">
+<!ENTITY editContactContext.label		"連絡先を編集">
+<!ENTITY editContactContext.accesskey		"E">
+<!ENTITY editMailingListContext.label		"リストを編集">
+<!ENTITY editMailingListContext.accesskey	"E">
 <!ENTITY newmsgButton.label			"メッセージ作成"><!-- (^^; en-US: Write -->
 <!ENTITY newmsgButton.accesskey			"W">
 <!ENTITY newIM.label				"インスタントメッセージ">
@@ -146,12 +159,15 @@ because displayed names don't have the comma in between. -->
 <!ENTITY deleteButton2.accesskey		"D">
 
 <!-- Address Book Toolbar Tooltips -->
-<!ENTITY newContactButton.tooltip		"新しい連絡先を作成します">
-<!ENTITY newlistButton.tooltip			"新しいリストを作成します">
-<!ENTITY editButton2.tooltip			"選択したアイテムを編集します">
-<!ENTITY newmsgButton.tooltip			"メールを送信します">
-<!ENTITY newIM.tooltip				"インスタントメッセージを送信またはチャットをします">
-<!ENTITY deleteButton2.tooltip			"選択したアイテムを削除します">
+<!ENTITY newContactButton.tooltip			"新しい連絡先を作成します">
+<!ENTITY newlistButton.tooltip				"新しいリストを作成します">
+<!ENTITY editPropertiesButton.tooltip			"選択したアイテムを編集します">
+<!ENTITY editAbPropertiesButton.tooltip			"選択したアドレス帳の@@Property@@を編集します">
+<!ENTITY editContactPropertiesButton.tooltip		"選択した連絡先を編集します">
+<!ENTITY editMailingListPropertiesButton.tooltip	"選択したアドレスリストを編集します">
+<!ENTITY newmsgButton.tooltip				"メールを送信します">
+<!ENTITY newIM.tooltip					"インスタントメッセージを送信またはチャットをします">
+<!ENTITY deleteButton2.tooltip				"選択したアイテムを削除します">
 
 <!-- Dir Tree header -->
 <!ENTITY dirTreeHeader.label			"アドレス帳">

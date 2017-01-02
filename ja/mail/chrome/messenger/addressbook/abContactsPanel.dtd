@@ -2,22 +2,38 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY propertiesMenu.label			"@PropertyCMD@">
+<!ENTITY propertiesMenu.accesskey		"i">
+<!ENTITY propertiesCmd.key			"i">
+<!ENTITY abPropertiesMenu.label			"アドレス帳の@@Property@@">
+<!ENTITY abPropertiesMenu.accesskey		"i">
+<!ENTITY contactPropertiesMenu.label		"連絡先の@@Property@@">
+<!ENTITY contactPropertiesMenu.accesskey	"i">
+<!ENTITY mailingListPropertiesMenu.label	"アドレスリストの@@Property@@">
+<!ENTITY mailingListPropertiesMenu.accesskey	"i">
+
 <!ENTITY addressbookPicker.label	"アドレス帳:">
 <!ENTITY addressbookPicker.accesskey	"k">
-<!ENTITY searchInput.label		"次を検索:">
-<!ENTITY searchInput.accesskey		"o">
+<!ENTITY searchContacts.label		"連絡先を検索:">
+<!ENTITY searchContacts.accesskey	"n">
 <!ENTITY SearchNameOrEmail.label	"名前またはメールアドレス">
 
-<!ENTITY deleteAddrBookCard.label	"削除">
-<!ENTITY deleteAddrBookCard.accesskey	"D">
-<!ENTITY addrBookCardProperties.label	"@@PropertyCMD@@">
-<!ENTITY addrBookCardProperties.accesskey	"P">
 <!ENTITY addtoToFieldMenu.label		"宛先フィールドに追加">
 <!ENTITY addtoToFieldMenu.accesskey	"A">
 <!ENTITY addtoCcFieldMenu.label		"Cc フィールドに追加">
 <!ENTITY addtoCcFieldMenu.accesskey	"C">
 <!ENTITY addtoBccFieldMenu.label	"Bcc フィールドに追加">
 <!ENTITY addtoBccFieldMenu.accesskey	"B">
+<!ENTITY deleteAddrBookCard.label	"削除">
+<!ENTITY deleteAddrBookCard.accesskey	"D">
+<!ENTITY propertiesContext.label	"@@PropertyCMD@@">
+<!ENTITY propertiesContext.accesskey	"i">
+<!ENTITY abPropertiesContext.label	"@@PropertyCMD@@">
+<!ENTITY abPropertiesContext.accesskey	"i">
+<!ENTITY editContactContext.label	"連絡先を編集">
+<!ENTITY editContactContext.accesskey	"E">
+<!ENTITY editMailingListContext.label	"リストを編集">
+<!ENTITY editMailingListContext.accesskey	"E">
 
 <!ENTITY toButton.label			"宛先に追加:">
 <!ENTITY toButton.accesskey		"A">

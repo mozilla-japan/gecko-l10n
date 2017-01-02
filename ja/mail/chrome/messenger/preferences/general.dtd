@@ -17,9 +17,11 @@
 <!ENTITY newMessagesArrive.label	"新着メッセージの通知"><!-- (^^; When new messages arrive: -->
 <!ENTITY playSound.label		"音を鳴らす">
 <!ENTITY playSound1.accesskey		"d">
+<!ENTITY playSoundMac.label		"次のサウンドファイルを鳴らす:">
+<!ENTITY playSoundMac.accesskey		"d">
 <!ENTITY showAnimatedAlert.label	"デスクトップ通知を表示する">
 <!ENTITY showAnimatedAlert.accesskey	"S">
-<!ENTITY notificationAlertSettings.label	"通知はシステム環境設定の通知ペインで無効化できます。">
+<!ENTITY notificationAlertSettings2.label	"通知と@@Default-@@サウンドはシステム環境設定の通知ペインで無効化できます。">
 <!ENTITY customizeMailAlert.label	"設定...">
 <!ENTITY customizeMailAlert.accesskey	"C">
 
@@ -29,8 +31,6 @@
 <!ENTITY play.label			"再生">
 <!ENTITY play.accesskey			"P">
 <!ENTITY systemsound.label		"システムの新着メール通知音">
-<!ENTITY systemsoundMac.label		"システムの警告音">
-<!ENTITY systemsoundMac.accesskey	"y">
 <!ENTITY systemsound.accesskey		"y">
 <!ENTITY customsound.label		"次のサウンドファイルを使用する:">
 <!ENTITY customsound.accesskey		"U">

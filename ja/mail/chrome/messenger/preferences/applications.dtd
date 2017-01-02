@@ -25,8 +25,8 @@
 <!ENTITY attachments.incoming.label	"受信">
 <!ENTITY attachments.outgoing.label	"送信">
 
-<!ENTITY addCloudFileAccount.label		"追加">
-<!ENTITY addCloudFileAccount.accesskey		"A">
+<!ENTITY addCloudFileAccount1.label		"追加...">
+<!ENTITY addCloudFileAccount1.accesskey		"A">
 <!ENTITY addCloudFileAccount.description	"新しい Filelink ストレージサービスを追加してください。">
 <!ENTITY removeCloudFileAccount.label		"削除">
 <!ENTITY removeCloudFileAccount.accesskey	"R">
