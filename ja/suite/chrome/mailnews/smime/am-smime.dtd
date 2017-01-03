@@ -30,3 +30,8 @@
 <!ENTITY manageCerts2.accesskey "M">
 <!ENTITY manageDevices.label "セキュリティデバイスの管理...">
 <!ENTITY manageDevices.accesskey "g">
+
+<!-- Strings for the cert picker dialog -->
+<!ENTITY certPicker.title "証明書の選択">
+<!ENTITY certPicker.info "証明書:">
+<!ENTITY certPicker.detailsLabel "選択した証明書の詳細:">
