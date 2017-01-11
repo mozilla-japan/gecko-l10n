@@ -31,11 +31,6 @@
 <!ENTITY clientAuthAsk.message2			"個人認証を行うために送信する証明書を選択してください:">
 <!ENTITY clientAuthAsk.message3			"選択した証明書の詳細:">
 
-<!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title			"証明書の選択">
-<!ENTITY certPicker.info			"証明書:">
-<!ENTITY certPicker.detailsLabel		"選択した証明書の詳細:">
-
 <!ENTITY pkcs12.setpassword.title		"証明書のバックアップ用パスワードの設定">
 <!ENTITY pkcs12.setpassword.message		"ここで設定するバックアップ用パスワードによりあなたの作成するバックアップファイルが保護されます。バックアップファイルを作成するにはパスワードを設定しなければなりません。">
 <!ENTITY pkcs12.setpassword.label1		"証明書のバックアップ用パスワード:">
