@@ -247,5 +247,5 @@
 <!ENTITY disabledUnsigned.devInfo.linkToManual		"マニュアル">
 <!ENTITY disabledUnsigned.devInfo.end			"をお読みください。">
 
-<!ENTITY pluginDeprecation.description			"&brandShortName; によるサポートを終了したプラグインは表示されません。">
+<!ENTITY pluginDeprecation.description			"&brandShortName; によるサポートが終了したプラグインは表示されません。">
 <!ENTITY pluginDeprecation.learnMore			"詳細">
