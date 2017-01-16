@@ -85,7 +85,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.lockedPrefsName		"名前">
 <!ENTITY aboutSupport.lockedPrefsValue		"値">
 
-<!ENTITY aboutSupport.graphicsTitle		"グラフィックス">
+<!ENTITY aboutSupport.graphicsTitle		"グラフィック">
 
 <!ENTITY aboutSupport.placeDatabaseTitle		"Places データベース">
 <!ENTITY aboutSupport.placeDatabaseIntegrity		"完全性">

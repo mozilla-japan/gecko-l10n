@@ -108,6 +108,10 @@ Ping
   ヒストグラム
 ">
 
+<!ENTITY aboutTelemetry.keyedScalarsSection "
+  主要なスカラー
+">
+
 <!ENTITY aboutTelemetry.keyedHistogramsSection "
   主要なヒストグラム
 ">

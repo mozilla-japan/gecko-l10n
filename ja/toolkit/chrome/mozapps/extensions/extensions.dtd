@@ -246,3 +246,6 @@
 <!ENTITY disabledUnsigned.devInfo.start			"アドオンの検証に興味のある開発者の方は">
 <!ENTITY disabledUnsigned.devInfo.linkToManual		"マニュアル">
 <!ENTITY disabledUnsigned.devInfo.end			"をお読みください。">
+
+<!ENTITY pluginDeprecation.description			"&brandShortName; によるサポートを終了したプラグインは表示されません。">
+<!ENTITY pluginDeprecation.learnMore			"詳細">

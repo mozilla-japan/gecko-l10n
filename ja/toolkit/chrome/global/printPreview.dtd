@@ -33,6 +33,7 @@
 <!ENTITY ShrinkToFit.label	"用紙に合わせて縮小"><!-- (^^; 長い表現禁止 -->
 <!ENTITY customPrompt.title	"@@Zoom@@を設定...">
 <!ENTITY simplifyPage.label		"ページを単純化">
+<!ENTITY simplifyPage.accesskey		"i">
 <!ENTITY simplifyPage.enabled.tooltip	"読みやすいレイアウトに変更します">
 <!ENTITY simplifyPage.disabled.tooltip	"このページは自動的に単純化できません">
 
