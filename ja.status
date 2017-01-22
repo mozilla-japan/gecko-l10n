@@ -777,3 +777,4 @@ dom                    350146:5cf9f0f65d20  23745:a7025eae3ee4   mar            
 security               350146:5cf9f0f65d20  23745:a7025eae3ee4   mar             sync security
 toolkit                350246:02d0ba8567f3  23753:f5808d1054d3   mar             sync toolkit
 mobile                 350337:cd4fc47221cb  -----:------------   Kechol          sync mobile
+devtools               350387:b58eb6e9e6c6  -----:------------   mar             sync devtools
