@@ -392,6 +392,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openCmd.commandkey			"l">
 <!ENTITY urlbar.placeholder2			"URL または検索語句を入力します">
 <!ENTITY urlbar.accesskey			"d">
+<!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
+<!ENTITY urlbar.extension.label			"拡張機能:">
 <!ENTITY urlbar.switchToTab.label		"タブを表示:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question	"検索候補を表示して検索機能を向上させますか？">

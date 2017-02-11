@@ -109,3 +109,5 @@
 <!ENTITY  browserContainersLearnMore.label      "詳細">
 <!ENTITY  browserContainersEnabled.label        "コンテナータブを有効にする">
 <!ENTITY  browserContainersEnabled.accesskey    "n">
+<!ENTITY  browserContainersSettings.label        "設定...">
+<!ENTITY  browserContainersSettings.accesskey    "i">

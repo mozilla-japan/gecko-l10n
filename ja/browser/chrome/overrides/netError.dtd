@@ -47,6 +47,13 @@
 <p>何らかの理由により &brandShortName; はこのページを正常に読み込めませんでした。</p>
 ">
 
+<!ENTITY captivePortal.title		"ネットワークにログイン">
+<!ENTITY captivePortal.longDesc		"
+<p>このネットワークからインターネットに接続するには、ログインが必要なようです。</p>
+">
+
+<!ENTITY openPortalLoginPage.label	"ログインページを開く">
+
 <!ENTITY malformedURI.title		"アドレスの書式が正しくありません">
 <!ENTITY malformedURI.longDesc		"
 <ul>

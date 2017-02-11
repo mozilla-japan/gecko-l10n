@@ -38,11 +38,13 @@
 
 <!-- Device Settings -->
 <!ENTITY syncDeviceName.label			"端末名:">
-<!ENTITY syncDeviceName.accesskey		"c">
 <!ENTITY fxaSyncDeviceName.label		"端末名">
 <!ENTITY changeSyncDeviceName.label		"端末名を変更...">
+<!ENTITY changeSyncDeviceName.accesskey		"h">
 <!ENTITY cancelChangeSyncDeviceName.label	"キャンセル">
+<!ENTITY cancelChangeSyncDeviceName.accesskey	"n">
 <!ENTITY saveChangeSyncDeviceName.label		"保存">
+<!ENTITY saveChangeSyncDeviceName.accesskey	"v">
 <!ENTITY unlinkDevice.label			"この端末を切り離す">
 
 <!-- Footer stuff -->
@@ -71,11 +73,16 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY notSignedIn.label           "サインインしていません。">
 <!ENTITY signIn.label                "サインイン">
+<!ENTITY signIn.accesskey            "g">
 <!ENTITY profilePicture.tooltip      "プロフィール写真を変更します">
 <!ENTITY verifiedManage.label        "アカウントの管理">
+<!ENTITY verifiedManage.accesskey    "o">
 <!ENTITY disconnect.label            "切断...">
+<!ENTITY disconnect.accesskey        "D">
 <!ENTITY verify.label                "メールアドレス認証">
+<!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "このメールアドレスを解除">
+<!ENTITY forget.accesskey            "F">
 
 <!ENTITY welcome.description		"&brandShortName; なら、どこからでもタブやブックマークやパスワードなどにアクセスできます。">
 <!ENTITY welcome.signIn.label		"サインイン">
@@ -87,7 +94,9 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.description        "ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。">
 <!ENTITY signedOut.accountBox.title   "&syncBrand.fxAccount.label; で接続する">
 <!ENTITY signedOut.accountBox.create  "アカウント作成">
+<!ENTITY signedOut.accountBox.create.accesskey  "C">
 <!ENTITY signedOut.accountBox.signin  "サインイン">
+<!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
 <!ENTITY signedIn.engines.label       "すべての端末を同期する">
 
