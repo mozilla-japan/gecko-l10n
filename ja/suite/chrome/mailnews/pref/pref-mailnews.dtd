@@ -4,7 +4,7 @@
 
 <!ENTITY pref.mailnews.title              "メールとニュースグループ">
 <!ENTITY generalSettings.caption          "一般設定">
-<!ENTITY confirmMove.label                "フォルダを@@TrashFolder@@へ移動するときに確認する"><!--Confirm when moving folders to the Trash-->
+<!ENTITY confirmMove.label                "フォルダーを@@TrashFolder@@へ移動するときに確認する"><!--Confirm when moving folders to the Trash-->
 <!ENTITY confirmMove.accesskey            "C">
 <!ENTITY preserveThreading.label          "メッセージを並べ替えるときにスレッド表示を維持する">
 <!ENTITY preserveThreading.accesskey      "v">

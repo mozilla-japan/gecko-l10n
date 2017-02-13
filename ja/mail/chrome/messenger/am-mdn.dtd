@@ -15,7 +15,7 @@
 <!ENTITY leaveIt.label			"受信トレイに残す">
 <!ENTITY leaveIt.accesskey		"I">
 <!-- LOCALIZATION NOTE moveToSent.label Translate: 'Sent' according to Netscape glossary -->
-<!ENTITY moveToSent.label		"&quot;送信済みトレイ&quot; フォルダに移動する">
+<!ENTITY moveToSent.label		"&quot;送信済みトレイ&quot; フォルダーに移動する">
 <!ENTITY moveToSent.accesskey		"M">
 <!ENTITY requestMDN.label		"開封確認の返送を求められたとき:">
 <!ENTITY returnSome.label		"必要に応じて開封確認を返送する">

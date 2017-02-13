@@ -9,7 +9,7 @@
 <!ENTITY identityListDesc.label		"差出人情報を設定してください:">
 
 <!ENTITY settingsTab.label		"設定">
-<!ENTITY copiesFoldersTab.label		"コピーと特別なフォルダ">
+<!ENTITY copiesFoldersTab.label		"コピーと特別なフォルダー">
 <!ENTITY addressingTab.label		"編集とアドレス入力">
 
 <!ENTITY publicData.label		"公開データ">

@@ -16,9 +16,9 @@
 <!ENTITY diskCacheFolder.label           "キャッシュの保存先:">
 <!ENTITY clearDiskCache.label            "キャッシュをすべて消去">
 <!ENTITY clearDiskCache.accesskey        "C">
-<!ENTITY chooseDiskCacheFolder.label     "フォルダを選択...">
+<!ENTITY chooseDiskCacheFolder.label     "フォルダーを選択...">
 <!ENTITY chooseDiskCacheFolder.accesskey "F">
-<!ENTITY diskCacheFolderExplanation      "キャッシュファイルは指定したディレクトリ内の &quot;Cache&quot; サブフォルダに保存されます。変更を有効にするには &brandShortName; を再起動してください。">
+<!ENTITY diskCacheFolderExplanation      "キャッシュファイルは指定したディレクトリ内の &quot;Cache&quot; サブフォルダーに保存されます。変更を有効にするには &brandShortName; を再起動してください。">
 <!ENTITY docCache.label                  "ネットワーク上のページとキャッシュしたページを比較する:">
 <!ENTITY docCache.accesskey              "m">
 <!ENTITY checkOncePerSession.label       "セッションごと">

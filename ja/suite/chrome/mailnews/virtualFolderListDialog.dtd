@@ -4,7 +4,7 @@
 
 <!ENTITY server.label "アカウント: ">
 <!ENTITY server.accesskey "A">
-<!ENTITY virtualFolderListTitle.title        "フォルダの選択">
-<!ENTITY virtualFolderDesc.label       "検索するフォルダを選択してください:">
+<!ENTITY virtualFolderListTitle.title        "フォルダーの選択">
+<!ENTITY virtualFolderDesc.label       "検索するフォルダーを選択してください:">
 
 

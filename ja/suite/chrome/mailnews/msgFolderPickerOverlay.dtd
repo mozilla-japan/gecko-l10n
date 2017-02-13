@@ -3,5 +3,5 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Labels -->
-<!ENTITY newfolderchoosethis.label		"親フォルダを選択">
-<!ENTITY filemessageschoosethis.label		"このフォルダを選択">
+<!ENTITY newfolderchoosethis.label		"親フォルダーを選択">
+<!ENTITY filemessageschoosethis.label		"このフォルダーを選択">

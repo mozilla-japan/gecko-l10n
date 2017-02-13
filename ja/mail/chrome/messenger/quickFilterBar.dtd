@@ -45,7 +45,7 @@
      filters are propagated between folder changes and when opening new tabs.)
      -->
 <!ENTITY quickFilterBar.sticky.tooltip
-         "フォルダを切り替えても現在の絞り込みを維持します">
+         "フォルダーを切り替えても現在の絞り込みを維持します">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.unread.label):
      The label for the filter button that causes us to filter results to only
@@ -159,7 +159,7 @@
      box faster.
      -->
 <!ENTITY quickFilterBar.textbox.emptyText.base1
-         "このフォルダのメッセージを絞り込む #1">
+         "このフォルダーのメッセージを絞り込む #1">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.show.key2):
      This is the key used to show the quick filter bar. -->

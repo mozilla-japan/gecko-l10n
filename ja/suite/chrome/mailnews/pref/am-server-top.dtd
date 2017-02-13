@@ -46,7 +46,7 @@
 <!ENTITY downloadOnBiff.accesskey "m">
 <!ENTITY username.label "ログイン名">
 <!ENTITY deleteMessagePrefix.label "メッセージを削除する時:">
-<!ENTITY modelMoveToTrash.label "次のフォルダに移動する:">
+<!ENTITY modelMoveToTrash.label "次のフォルダーに移動する:">
 <!ENTITY modelMoveToTrash.accesskey "o">
 <!ENTITY modelMarkDeleted.label "削除済みとマークする">
 <!ENTITY modelMarkDeleted.accesskey "k">
@@ -88,5 +88,5 @@
 <!ENTITY accountSettingsDesc.label "これは特殊なアカウントであり、特定の差出人情報はありません。">
 <!ENTITY storeType.label "メッセージの格納形式:">
 <!ENTITY storeType.accesskey "T">
-<!ENTITY mboxStore2.label "フォルダ単位 (mbox 形式)">
+<!ENTITY mboxStore2.label "フォルダー単位 (mbox 形式)">
 <!ENTITY maildirStore.label "メッセージごとのファイル (maildir 形式)">

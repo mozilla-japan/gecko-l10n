@@ -38,7 +38,7 @@
 <!ENTITY button.importOPML.accesskey	"I">
 <!ENTITY button.exportOPML.label	"@@Export@@">
 <!ENTITY button.exportOPML.accesskey	"X">
-<!ENTITY button.exportOPML.tooltip	"フィードをフォルダ構成で@@Export-simasu@@。フィードをリストで@@Export-suru@@には、Ctrl キーを押しながらクリックするか Enter キーを押します">
+<!ENTITY button.exportOPML.tooltip	"フィードをフォルダー構成で@@Export-simasu@@。フィードをリストで@@Export-suru@@には、Ctrl キーを押しながらクリックするか Enter キーを押します">
 
 <!ENTITY cmd.close.commandKey		"w">
 <!ENTITY button.close.label		"閉じる">

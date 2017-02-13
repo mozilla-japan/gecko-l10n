@@ -13,7 +13,7 @@
 
 <!ENTITY  filter.placeholder		"検索">
 
-<!ENTITY saveTo.label			"次のフォルダに保存する:">
+<!ENTITY saveTo.label			"次のフォルダーに保存する:">
 <!ENTITY saveTo.accesskey		"S">
 <!ENTITY alwaysAsk.label		"ファイルごとに保存先を指定する">
 <!ENTITY alwaysAsk.accesskey		"A">

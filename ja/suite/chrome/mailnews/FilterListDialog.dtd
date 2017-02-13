@@ -24,7 +24,7 @@
 <!ENTITY runFilters.accesskey         "R">
 <!ENTITY stopFilters.label            "停止">
 <!ENTITY stopFilters.accesskey        "S">
-<!ENTITY folderPickerPrefix.label     "フィルターを使用するフォルダ:">
+<!ENTITY folderPickerPrefix.label     "フィルターを使用するフォルダー:">
 <!ENTITY folderPickerPrefix.accesskey "c">
-<!ENTITY choosethis.label             "このフォルダを選択">
+<!ENTITY choosethis.label             "このフォルダーを選択">
 <!ENTITY choosethisnewsserver.label   "このニュースサーバーを選択">

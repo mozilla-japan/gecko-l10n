@@ -16,7 +16,7 @@
 <!ENTITY movemail.label			"Movemail">
 
 <!ENTITY accountsSectionHdr.label	"アカウント">
-<!ENTITY subscribeImapFolders.label	"購読するフォルダを管理する">
+<!ENTITY subscribeImapFolders.label	"購読するフォルダーを管理する">
 <!ENTITY settingsLink.label		"このアカウントの設定を表示する">
 <!ENTITY newAcctLink.label		"@@New-CMD@@アカウントを作成する">
 <!ENTITY newAcct.label			"@@New-CMD@@アカウントを作成する:">

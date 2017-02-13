@@ -16,7 +16,7 @@
 <!ENTITY viewTags.accesskey "T">
 <!ENTITY viewCustomViews.label "ユーザー設定">
 <!ENTITY viewCustomViews.accesskey "V">
-<!ENTITY viewVirtualFolder.label "検索フォルダとして保存...">
+<!ENTITY viewVirtualFolder.label "検索フォルダーとして保存...">
 <!ENTITY viewVirtualFolder.accesskey "S">
 <!ENTITY viewCustomizeView.label "カスタマイズ...">
 <!ENTITY viewCustomizeView.accesskey "C">

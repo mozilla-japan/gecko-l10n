@@ -22,7 +22,7 @@
 
 <!ENTITY downloads.label     "ダウンロード">
 
-<!ENTITY saveTo.label                 "次のフォルダに保存する">
+<!ENTITY saveTo.label                 "次のフォルダーに保存する">
 <!ENTITY saveTo.accesskey             "v">
 <!ENTITY chooseFolderWin.label        "@@Browse@@...">
 <!ENTITY chooseFolderWin.accesskey    "o">

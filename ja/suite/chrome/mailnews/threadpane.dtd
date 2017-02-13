@@ -19,7 +19,7 @@
 <!ENTITY readColumn.label "既読">
 <!ENTITY receivedColumn.label "受信日時">
 <!ENTITY flagColumn.label "フラグ">
-<!ENTITY locationColumn.label "フォルダ">
+<!ENTITY locationColumn.label "フォルダー">
 <!ENTITY idColumn.label "受信順">
 
 <!--Tooltips-->
@@ -41,5 +41,5 @@
 <!ENTITY readColumn2.tooltip "既読かどうかで並べ替えます">
 <!ENTITY receivedColumn2.tooltip "受信日時で並べ替えます">
 <!ENTITY flagColumn2.tooltip "フラグの有無で並べ替えます">
-<!ENTITY locationColumn2.tooltip "フォルダで並べ替えます">
+<!ENTITY locationColumn2.tooltip "フォルダーで並べ替えます">
 <!ENTITY idColumn2.tooltip "受信順で並べ替えます">

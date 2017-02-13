@@ -10,9 +10,9 @@
 <!ENTITY editBookmarkOverlay.feedLocation.accesskey          "F">
 <!ENTITY editBookmarkOverlay.siteLocation.label              "サイトの URL:">
 <!ENTITY editBookmarkOverlay.siteLocation.accesskey          "S">
-<!ENTITY editBookmarkOverlay.folder.label                    "フォルダ:">
+<!ENTITY editBookmarkOverlay.folder.label                    "フォルダー:">
 <!ENTITY editBookmarkOverlay.folder.accesskey                "F">
-<!ENTITY editBookmarkOverlay.foldersExpanderDown.tooltip     "すべてのブックマークフォルダを表示します">
+<!ENTITY editBookmarkOverlay.foldersExpanderDown.tooltip     "すべてのブックマークフォルダーを表示します">
 <!ENTITY editBookmarkOverlay.expanderUp.tooltip              "一覧を閉じます">
 <!ENTITY editBookmarkOverlay.tags.label                      "タグ:">
 <!ENTITY editBookmarkOverlay.tags.accesskey                  "a">
@@ -23,6 +23,6 @@
 <!ENTITY editBookmarkOverlay.keyword.accesskey               "K">
 <!ENTITY editBookmarkOverlay.tagsExpanderDown.tooltip        "既存のタグ一覧を表示します">
 <!ENTITY editBookmarkOverlay.choose.label                    "選択...">
-<!ENTITY editBookmarkOverlay.newFolderButton.label           "@@New-CMD@@フォルダ">
+<!ENTITY editBookmarkOverlay.newFolderButton.label           "@@New-CMD@@フォルダー">
 <!ENTITY editBookmarkOverlay.newFolderButton.accesskey       "o">
-<!ENTITY editBookmarkOverlay.newFolderButton.tooltip         "@@New-CMD@@フォルダを作成します">
+<!ENTITY editBookmarkOverlay.newFolderButton.tooltip         "@@New-CMD@@フォルダーを作成します">

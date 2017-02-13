@@ -18,9 +18,9 @@
 <!-- File menu items -->
 <!ENTITY newMessage.label                      "@@New-CMD@@メッセージ">
 <!ENTITY newMessage.accesskey                  "N">
-<!ENTITY newFolderCmd.label                    "フォルダ...">
+<!ENTITY newFolderCmd.label                    "フォルダー...">
 <!ENTITY newFolderCmd.accesskey                "F">
-<!ENTITY newVirtualFolderCmd.label             "検索フォルダ...">
+<!ENTITY newVirtualFolderCmd.label             "検索フォルダー...">
 <!ENTITY newVirtualFolderCmd.accesskey         "S">
 <!ENTITY newTabCmd.label                       "タブを複製">
 <!ENTITY newTabCmd.accesskey                   "T">
@@ -55,9 +55,9 @@
 <!ENTITY sendUnsentCmd.accesskey               "d">
 <!ENTITY subscribeCmd.label                    "購読...">
 <!ENTITY subscribeCmd.accesskey                "b">
-<!ENTITY renameFolder.label                    "フォルダの名前変更...">
+<!ENTITY renameFolder.label                    "フォルダーの名前変更...">
 <!ENTITY renameFolder.accesskey                "R">
-<!ENTITY compactFolders.label                  "フォルダを最適化">
+<!ENTITY compactFolders.label                  "フォルダーを最適化">
 <!ENTITY compactFolders.accesskey              "F">
 <!ENTITY emptyTrashCmd.label                   "@@TrashFolder@@を空にする">
 <!ENTITY emptyTrashCmd.accesskey               "y">
@@ -83,7 +83,7 @@
 <!ENTITY deleteMsgsCmd.accesskey               "D">
 <!ENTITY undeleteMsgsCmd.label                 "選択したメッセージを削除しない">
 <!ENTITY undeleteMsgsCmd.accesskey             "d">
-<!ENTITY deleteFolderCmd.label                 "フォルダの削除">
+<!ENTITY deleteFolderCmd.label                 "フォルダーの削除">
 <!ENTITY deleteFolderCmd.accesskey             "D">
 <!ENTITY unsubscribeNewsgroupCmd.label         "購読を解除">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey     "n">
@@ -95,7 +95,7 @@
 <!ENTITY selectFlaggedCmd.label                "フラグ付きメッセージ">
 <!ENTITY selectFlaggedCmd.accesskey            "F">
 <!ENTITY folderPropsCmd.label                  "@@PropertyCMD@@...">
-<!ENTITY folderPropsFolderCmd.label            "フォルダの@@PropertyCMD@@...">
+<!ENTITY folderPropsFolderCmd.label            "フォルダーの@@PropertyCMD@@...">
 <!ENTITY folderPropsNewsgroupCmd.label         "ニュースグループの@@PropertyCMD@@...">
 <!ENTITY folderPropsCmd.accesskey              "o">
 <!ENTITY accountManagerCmd.label               "メールとニュースグループのアカウント設定...">
@@ -131,7 +131,7 @@
 <!ENTITY showMessagePaneCmd.accesskey          "M">
 <!ENTITY showThreadPaneCmd.label               "スレッドペイン">
 <!ENTITY showThreadPaneCmd.accesskey           "T">
-<!ENTITY showFolderPaneCmd.label               "フォルダペイン">
+<!ENTITY showFolderPaneCmd.label               "フォルダーペイン">
 <!ENTITY showFolderPaneCmd.accesskey           "F">
 
 <!-- sortMenu is also used by addressbook -->
@@ -315,13 +315,13 @@
 <!ENTITY archiveMsgCmd.label                    "アーカイブ">
 <!ENTITY archiveMsgCmd.accesskey                "A">
 <!ENTITY archiveMsgCmd.key                      "a">
-<!ENTITY moveMsgToMenu.label                    "別のフォルダに移動"><!-- contextMoveMsgMenu.label と同じ動作 -->
+<!ENTITY moveMsgToMenu.label                    "別のフォルダーに移動"><!-- contextMoveMsgMenu.label と同じ動作 -->
 <!ENTITY moveMsgToMenu.accesskey                "M">
 <!ENTITY copyMessageLocation.label              "メッセージの場所をコピー">
 <!ENTITY copyMessageLocation.accesskey          "M">
-<!ENTITY copyMsgToMenu.label                    "別のフォルダにコピー"><!-- contextCopyMsgMenu.label と同じ動作 -->
+<!ENTITY copyMsgToMenu.label                    "別のフォルダーにコピー"><!-- contextCopyMsgMenu.label と同じ動作 -->
 <!ENTITY copyMsgToMenu.accesskey                "C">
-<!ENTITY moveCopyMsgRecentMenu.label            "前回と同じフォルダにコピー"><!--Recent-->
+<!ENTITY moveCopyMsgRecentMenu.label            "前回と同じフォルダーにコピー"><!--Recent-->
 <!ENTITY moveCopyMsgRecentMenu.accesskey        "R">
 <!ENTITY killThreadMenu.label                   "スレッドを無視">
 <!ENTITY killThreadMenu.accesskey               "I">
@@ -382,7 +382,7 @@
 <!ENTITY searchAddressesCmd.accesskey         "c">
 <!ENTITY filtersCmd.label                     "メッセージフィルター...">
 <!ENTITY filtersCmd.accesskey                 "F">
-<!ENTITY filtersApply.label                   "フォルダにフィルターを適用">
+<!ENTITY filtersApply.label                   "フォルダーにフィルターを適用">
 <!ENTITY filtersApply.accesskey               "R">
 <!ENTITY filtersApplyToSelection.label        "選択しているメッセージにフィルターを適用">
 <!ENTITY filtersApplyToSelection.accesskey    "g">
@@ -433,11 +433,11 @@
 <!ENTITY replyAllButton.tooltip             "送受信者全員に返信します">
 <!ENTITY replyAllButtonNews.tooltip         "送受信者全員とニュースグループに返信します"><!--Reply to sender and newsgroup-->
 <!ENTITY forwardButton.tooltip              "メッセージを転送します">
-<!ENTITY fileButton.tooltip                 "メッセージを別のフォルダに移します">
+<!ENTITY fileButton.tooltip                 "メッセージを別のフォルダーに移します">
 <!ENTITY nextButton.tooltip                 "次の未読メッセージに移動します">
 <!ENTITY goBackButton.tooltip               "メッセージ表示履歴を前に戻ります"><!-- 一つ前以外も -->
 <!ENTITY goForwardButton.tooltip            "メッセージ表示履歴を次に進みます"><!-- 一つ次以外も -->
-<!ENTITY deleteButton.tooltip               "メッセージまたはフォルダを削除します">
+<!ENTITY deleteButton.tooltip               "メッセージまたはフォルダーを削除します">
 <!ENTITY undeleteButton.tooltip             "メッセージの削除を@@Undo-simasu@@">
 <!ENTITY markButton.tooltip                 "メッセージにマークを付けます">
 <!ENTITY stopButton.tooltip                 "送受信処理を中止します">
@@ -481,7 +481,7 @@
 <!ENTITY contextMoveMsgMenu.accesskey             "M">
 <!ENTITY contextCopyMsgMenu.label                 "メッセージをコピー">
 <!ENTITY contextCopyMsgMenu.accesskey             "C">
-<!ENTITY contextMoveCopyMsgRecentMenu.label       "前回と同じフォルダにコピー"><!--Recent-->
+<!ENTITY contextMoveCopyMsgRecentMenu.label       "前回と同じフォルダーにコピー"><!--Recent-->
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey   "R">
 <!ENTITY contextSaveAs.label                      "@@SaveAs@@...">
 <!ENTITY contextSaveAs.accesskey                  "S">
@@ -505,7 +505,7 @@
 <!ENTITY folderContextCompact.accesskey            "F">
 <!ENTITY folderContextEmptyTrash.label             "@@TrashFolder@@を空にする">
 <!ENTITY folderContextEmptyTrash.accesskey         "y">
-<!ENTITY folderContextEmptyJunk.label              "迷惑メールフォルダを空にする">
+<!ENTITY folderContextEmptyJunk.label              "迷惑メールフォルダーを空にする">
 <!ENTITY folderContextEmptyJunk.accesskey          "J">
 <!ENTITY folderContextSendUnsentMessages.label     "未送信メッセージを送信">
 <!ENTITY folderContextSendUnsentMessages.accesskey "d">
@@ -513,9 +513,9 @@
 <!ENTITY folderContextUnsubscribe.accesskey        "U">
 <!ENTITY folderContextMarkNewsgroupRead.label      "ニュースグループを既読にする">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey  "k">
-<!ENTITY folderContextMarkMailFolderRead.label     "フォルダ内を既読にする">
+<!ENTITY folderContextMarkMailFolderRead.label     "フォルダー内を既読にする">
 <!ENTITY folderContextMarkMailFolderRead.accesskey "k">
-<!ENTITY folderContextNew.label                    "@@New-CMD@@サブフォルダ...">
+<!ENTITY folderContextNew.label                    "@@New-CMD@@サブフォルダー...">
 <!ENTITY folderContextNew.accesskey                "N">
 <!ENTITY folderContextSubscribe.label              "購読...">
 <!ENTITY folderContextSubscribe.accesskey          "b">

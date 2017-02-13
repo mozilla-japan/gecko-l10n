@@ -5,7 +5,7 @@
 <!-- for SearchDialog.xul -->
 <!ENTITY searchHeading.label		"次の中からメッセージを検索:">
 <!ENTITY searchHeading.accesskey	"h">
-<!ENTITY searchSubfolders.label		"サブフォルダも検索する">
+<!ENTITY searchSubfolders.label		"サブフォルダーも検索する">
 <!ENTITY searchSubfolders.accesskey	"e">
 <!ENTITY searchOnServer.label		"サーバー上のメッセージを検索する">
 <!ENTITY searchOnServer.accesskey	"u">
@@ -20,9 +20,9 @@
 <!ENTITY moveButton.label		"移動">
 <!ENTITY moveButton.accesskey		"T">
 <!ENTITY closeCmd.key			"W"> 
-<!ENTITY openInFolder.label		"フォルダを開く">
+<!ENTITY openInFolder.label		"フォルダーを開く">
 <!ENTITY openInFolder.accesskey		"r">
-<!ENTITY saveAsVFButton.label		"検索フォルダとして保存"><!-- (^^; Save as Search Folder -->
+<!ENTITY saveAsVFButton.label		"検索フォルダーとして保存"><!-- (^^; Save as Search Folder -->
 <!ENTITY saveAsVFButton.accesskey	"v">
 
 <!-- for ABSearchDialog.xul -->
@@ -54,7 +54,7 @@
 <!ENTITY readColumn.label		"既読">
 <!ENTITY starredColumn.label		"スター">
 <!ENTITY receivedColumn.label		"受信日時">
-<!ENTITY locationColumn.label		"フォルダ">
+<!ENTITY locationColumn.label		"フォルダー">
 <!ENTITY idColumn.label			"受信順">
 
 <!-- Thread Pane Tooltips -->
@@ -76,5 +76,5 @@
 <!ENTITY readColumn2.tooltip		"既読かどうかで並べ替えます">
 <!ENTITY receivedColumn2.tooltip	"受信日時で並べ替えます">
 <!ENTITY starredColumn2.tooltip		"スターの有無で並べ替えます">
-<!ENTITY locationColumn2.tooltip	"フォルダで並べ替えます">
+<!ENTITY locationColumn2.tooltip	"フォルダーで並べ替えます">
 <!ENTITY idColumn2.tooltip		"受信順で並べ替えます">

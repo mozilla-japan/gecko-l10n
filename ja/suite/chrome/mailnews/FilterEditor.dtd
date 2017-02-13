@@ -7,7 +7,7 @@
 <!ENTITY filterName.label            "フィルター名:">
 <!ENTITY filterName.accesskey        "i">
 
-<!ENTITY recentFolders.label         "最近使用したフォルダ">
+<!ENTITY recentFolders.label         "最近使用したフォルダー">
 
 <!ENTITY junk.label                  "迷惑メール">
 <!ENTITY notJunk.label               "非迷惑メール">

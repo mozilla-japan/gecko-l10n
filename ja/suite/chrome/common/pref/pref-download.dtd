@@ -15,9 +15,9 @@
 <!ENTITY flashWhenOpen.accesskey        "f">
 
 <!ENTITY downloadLocation.label         "ファイルの保存時">
-<!ENTITY saveTo.label                   "次のフォルダに保存">
+<!ENTITY saveTo.label                   "次のフォルダーに保存">
 <!ENTITY saveTo.accesskey               "v">
-<!ENTITY chooseDownloadFolder.label     "フォルダを選択...">
+<!ENTITY chooseDownloadFolder.label     "フォルダーを選択...">
 <!ENTITY chooseDownloadFolder.accesskey "C">
 <!ENTITY alwaysAsk.label                "ファイルごとに保存先を指定する">
 <!ENTITY alwaysAsk.accesskey            "A">

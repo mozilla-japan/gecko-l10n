@@ -5,7 +5,7 @@
 <!-- for SearchDialog.xul -->
 <!ENTITY searchHeading.label         "次の中からメッセージを検索:">
 <!ENTITY searchHeading.accesskey     "e">
-<!ENTITY searchSubfolders.label      "サブフォルダも検索する">
+<!ENTITY searchSubfolders.label      "サブフォルダーも検索する">
 <!ENTITY searchSubfolders.accesskey  "u">
 <!ENTITY searchOnHeading.label       "検索対象:">
 <!ENTITY searchOnHeading.accesskey   "P">
@@ -23,9 +23,9 @@
 <!ENTITY moveHereMenu.accesskey      "H">
 <!ENTITY moveButton.label            "移動">
 <!ENTITY moveButton.accesskey        "T">
-<!ENTITY goToFolderButton.label      "フォルダを開く">
+<!ENTITY goToFolderButton.label      "フォルダーを開く">
 <!ENTITY goToFolderButton.accesskey  "n">
-<!ENTITY saveAsVFButton.label        "検索フォルダとして保存">
+<!ENTITY saveAsVFButton.label        "検索フォルダーとして保存">
 <!ENTITY saveAsVFButton.accesskey    "v">
 
 <!-- for ABSearchDialog.xul -->

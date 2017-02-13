@@ -32,7 +32,7 @@
 <!ENTITY runFilters.accesskey		"R">
 <!ENTITY stopFilters.label		"停止">
 <!ENTITY stopFilters.accesskey		"S">
-<!ENTITY folderPickerPrefix.label	"フィルターを使用するフォルダ:">
+<!ENTITY folderPickerPrefix.label	"フィルターを使用するフォルダー:">
 <!ENTITY folderPickerPrefix.accesskey	"c">
 <!ENTITY helpButton.label		"Help">
 <!ENTITY helpButton.accesskey		"H">

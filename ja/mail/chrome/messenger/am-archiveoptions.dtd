@@ -6,13 +6,13 @@
 
 <!ENTITY dialogTitle.label		"アーカイブオプション">
 <!ENTITY archiveGranularityPrefix.label	"アーカイブメッセージを次の場所に保存します:">
-<!ENTITY archiveFlat.label		"単独のフォルダ">
+<!ENTITY archiveFlat.label		"単独のフォルダー">
 <!ENTITY archiveFlat.accesskey		"s">
-<!ENTITY archiveYearly.label		"年別のフォルダ">
+<!ENTITY archiveYearly.label		"年別のフォルダー">
 <!ENTITY archiveYearly.accesskey	"Y">
-<!ENTITY archiveMonthly.label		"月別のフォルダ">
+<!ENTITY archiveMonthly.label		"月別のフォルダー">
 <!ENTITY archiveMonthly.accesskey	"M">
-<!ENTITY keepFolderStructure.label	"アーカイブされたメッセージのフォルダ構造を維持する">
+<!ENTITY keepFolderStructure.label	"アーカイブされたメッセージのフォルダー構造を維持する">
 <!ENTITY keepFolderStructure.accesskey	"K">
 <!ENTITY archiveExample.label "Example">
 <!-- LOCALIZATION NOTE (archiveFolderName.label): this should match the default

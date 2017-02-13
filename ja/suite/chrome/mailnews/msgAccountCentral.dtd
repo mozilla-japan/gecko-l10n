@@ -10,7 +10,7 @@
 <!ENTITY subscribeNewsLink.label      "購読するニュースグループを管理">
 
 <!ENTITY accountsSectionHdr.label     "アカウント">
-<!ENTITY subscribeImapFolders.label   "購読するフォルダを管理">
+<!ENTITY subscribeImapFolders.label   "購読するフォルダーを管理">
 <!ENTITY settingsLink.label           "このアカウント設定を表示">
 <!ENTITY newAcctLink.label            "@@New-CMD@@アカウントを作成する">
 

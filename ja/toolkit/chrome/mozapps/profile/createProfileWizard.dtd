@@ -19,8 +19,8 @@
 <!ENTITY profilePrompt.accesskey	"E">
 <!ENTITY profileDirectoryExplanation.text	"あなたのユーザー設定やユーザーデータの保存先:">
 <!ENTITY profileDefaultName		"Default User">
-<!ENTITY button.choosefolder.label	"フォルダを選択...">
+<!ENTITY button.choosefolder.label	"フォルダーを選択...">
 <!ENTITY button.choosefolder.accesskey	"C">
-<!ENTITY button.usedefault.label	"標準のフォルダを使用する">
+<!ENTITY button.usedefault.label	"標準のフォルダーを使用する">
 <!ENTITY button.usedefault.accesskey	"U">
 

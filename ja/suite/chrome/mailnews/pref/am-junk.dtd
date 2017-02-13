@@ -7,13 +7,13 @@
 <!ENTITY level.label		"このアカウントで迷惑メールの学習を有効にする">
 <!ENTITY level.accesskey	"E">
 
-<!ENTITY move.label		"迷惑メールと判断された受信メッセージを次のフォルダに移動する:">
+<!ENTITY move.label		"迷惑メールと判断された受信メッセージを次のフォルダーに移動する:">
 <!ENTITY move.accesskey		"M">
-<!ENTITY junkFolderOn.label	"次のアカウントの &quot;迷惑メール&quot; フォルダ:">
+<!ENTITY junkFolderOn.label	"次のアカウントの &quot;迷惑メール&quot; フォルダー:">
 <!ENTITY junkFolderOn.accesskey	"J">
-<!ENTITY otherFolder.label	"その他のフォルダを指定する:">
+<!ENTITY otherFolder.label	"その他のフォルダーを指定する:">
 <!ENTITY otherFolder.accesskey	"O">
-<!ENTITY purge1.label		"このフォルダの迷惑メールのうち">
+<!ENTITY purge1.label		"このフォルダーの迷惑メールのうち">
 <!ENTITY purge1.accesskey	"u">
 <!ENTITY purge2.label		"日以上前のものは自動的に削除する">
 

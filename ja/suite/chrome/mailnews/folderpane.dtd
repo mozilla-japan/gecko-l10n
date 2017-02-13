@@ -5,7 +5,7 @@
 <!ENTITY unreadColumn.label "未読">
 <!ENTITY totalColumn.label "合計">
 <!ENTITY folderSizeColumn.label "サイズ">
-<!ENTITY folderLocationToolbarItem.title "フォルダの場所">
+<!ENTITY folderLocationToolbarItem.title "フォルダーの場所">
 <!ENTITY mailViewsToolbarItem.title "メールビュー">
 <!ENTITY searchToolbarItem.title "検索">
 <!ENTITY searchSubjectOrAddress.placeholder "件名またはメールアドレスを検索">

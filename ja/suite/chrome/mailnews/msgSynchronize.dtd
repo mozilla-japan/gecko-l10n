@@ -6,7 +6,7 @@
 
 <!ENTITY MsgSynchronize.label "メッセージのダウンロードと同期">
 <!ENTITY MsgSelect.label "オフラインで使用する項目">
-<!ENTITY MsgSyncDesc.label "オフラインで使用するように設定されているメールフォルダとニュースグループについて、今すぐメッセージのダウンロードと同期をします。@@[@@選択@@]@@ ボタンを押すとオフラインで使用する項目の設定を変更できます。">
+<!ENTITY MsgSyncDesc.label "オフラインで使用するように設定されているメールフォルダーとニュースグループについて、今すぐメッセージのダウンロードと同期をします。@@[@@選択@@]@@ ボタンを押すとオフラインで使用する項目の設定を変更できます。">
 <!ENTITY MsgSyncDirections.label "次のメッセージのダウンロードと同期をする:">
 <!ENTITY syncTypeMail.label "メールメッセージ">
 <!ENTITY syncTypeMail.accesskey "M">
@@ -18,6 +18,6 @@
 <!ENTITY workOffline.accesskey "W">
 <!ENTITY selectButton.label "選択...">
 <!ENTITY selectButton.accesskey "E">
-<!ENTITY MsgSelectDesc.label "オフラインで使用するメールフォルダとニュースグループを選択してください。">
+<!ENTITY MsgSelectDesc.label "オフラインで使用するメールフォルダーとニュースグループを選択してください。">
 <!ENTITY MsgSelectInd.label "ダウンロード">
-<!ENTITY MsgSelectItems.label "フォルダとニュースグループ">
+<!ENTITY MsgSelectItems.label "フォルダーとニュースグループ">

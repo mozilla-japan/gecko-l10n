@@ -7,13 +7,13 @@
 <!ENTITY generalInfo.label			"一般情報">
 <!ENTITY folderCharsetFallback2.label		"フォールバックテキストエンコーディング:">
 <!ENTITY folderCharsetFallback2.accesskey	"E">
-<!ENTITY folderCharsetEnforce2.label		"このエンコーディングをフォルダ内のすべてのメッセージに適用する (各メッセージのテキストエンコーディング指定や自動判別結果は無視されます)">
+<!ENTITY folderCharsetEnforce2.label		"このエンコーディングをフォルダー内のすべてのメッセージに適用する (各メッセージのテキストエンコーディング指定や自動判別結果は無視されます)">
 <!ENTITY folderCharsetEnforce2.accesskey	"A">
 <!ENTITY folderRebuildSummaryFileTip2.label	"要約ファイルの索引を再構築します">
-<!ENTITY folderRebuildSummaryFile2.label	"フォルダを修復">
+<!ENTITY folderRebuildSummaryFile2.label	"フォルダーを修復">
 <!ENTITY folderRebuildSummaryFile2.accesskey	"R">
-<!ENTITY folderRebuildSummaryFile.explanation	"フォルダの索引ファイル (.msf) が損傷し、削除したはずのメッセージが表示されてしまうことがあります。このような問題が起こったときはフォルダを修復してください。">
-<!ENTITY folderIncludeInGlobalSearch.label	"このフォルダのメッセージをグローバル検索の対象に含める">
+<!ENTITY folderRebuildSummaryFile.explanation	"フォルダーの索引ファイル (.msf) が損傷し、削除したはずのメッセージが表示されてしまうことがあります。このような問題が起こったときはフォルダーを修復してください。">
+<!ENTITY folderIncludeInGlobalSearch.label	"このフォルダーのメッセージをグローバル検索の対象に含める">
 <!ENTITY folderIncludeInGlobalSearch.accesskey	"G">
 
 <!ENTITY retention.label			"保管ポリシー"><!-- (^^; Retention Policy -->
@@ -35,10 +35,10 @@
 <!ENTITY retentionApplyToFlagged.accesskey	"e">
 
 <!ENTITY folderSynchronizationTab.label		"同期">
-<!ENTITY folderCheckForNewMessages2.label	"このフォルダに新着メッセージがないか確認する"><!-- (^m^) Bug 545469#c23 参照。 en-US: When getting new messages for this account, always check this folder" -->
+<!ENTITY folderCheckForNewMessages2.label	"このフォルダーに新着メッセージがないか確認する"><!-- (^m^) Bug 545469#c23 参照。 en-US: When getting new messages for this account, always check this folder" -->
 <!ENTITY folderCheckForNewMessages2.accesskey	"c">
 
-<!ENTITY offlineFolder.check.label		"このフォルダをオフラインで使用する">
+<!ENTITY offlineFolder.check.label		"このフォルダーをオフラインで使用する">
 <!ENTITY offlineFolder.check.accesskey		"S">
 <!ENTITY offlineFolder.button.label		"今すぐダウンロード">
 <!ENTITY offlineFolder.button.accesskey		"D">
@@ -57,7 +57,7 @@
 <!ENTITY privileges.button.label		"アクセス権限...">
 <!ENTITY privileges.button.accesskey		"P">
 <!ENTITY permissionsDesc.label			"以下のアクセス権限があります:">
-<!ENTITY folderType.label			"フォルダの種類:">
+<!ENTITY folderType.label			"フォルダーの種類:">
 
 <!ENTITY folderQuotaTab.label			"クォータ"><!-- (^^; RFC 2087 -->
 <!ENTITY folderQuotaRoot.label			"クォータルート:">

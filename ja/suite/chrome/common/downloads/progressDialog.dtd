@@ -10,7 +10,7 @@
 <!ENTITY cmd.cancel.tooltip              "キャンセル">
 <!ENTITY cmd.open.label                  "ファイルを開く">
 <!ENTITY cmd.open.accesskey              "O">
-<!ENTITY cmd.show.label                  "保存フォルダを開く">
+<!ENTITY cmd.show.label                  "保存フォルダーを開く">
 <!ENTITY cmd.show.accesskey              "F">
 <!ENTITY cmd.goToDownloadPage.label      "ダウンロードしたページを開く">
 <!ENTITY cmd.goToDownloadPage.accesskey  "G">

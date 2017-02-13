@@ -42,11 +42,11 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.appBasicsUpdateHistory		"更新履歴">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory	"更新履歴を表示">
 
-<!ENTITY aboutSupport.appBasicsProfileDir	"プロファイルフォルダ">
+<!ENTITY aboutSupport.appBasicsProfileDir	"プロファイルフォルダー">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
 This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
 Windows/Mac use the term "Folder" instead of "Directory" -->
-<!ENTITY aboutSupport.appBasicsProfileDirWinMac	"プロファイルフォルダ">
+<!ENTITY aboutSupport.appBasicsProfileDirWinMac	"プロファイルフォルダー">
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins	"有効なプラグイン">
 <!ENTITY aboutSupport.appBasicsBuildConfig	"ビルド設定">
@@ -71,7 +71,7 @@ variant of aboutSupport.showDir.label.  This allows us to use the preferred
 <!ENTITY aboutSupport.showMac.label		"Finder に表示">
 <!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin2.label		"フォルダを開く">
+<!ENTITY aboutSupport.showWin2.label		"フォルダーを開く">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle	"変更された重要な設定">
 <!ENTITY aboutSupport.modifiedPrefsName		"名前">

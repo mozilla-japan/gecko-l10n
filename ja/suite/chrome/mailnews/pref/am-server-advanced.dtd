@@ -6,9 +6,9 @@
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
 <!ENTITY serverDirectory.label		"IMAP サーバーディレクトリ:">
 <!ENTITY serverDirectory.accesskey	"d">
-<!ENTITY usingSubscription.label	"購読しているフォルダのみ表示する">
+<!ENTITY usingSubscription.label	"購読しているフォルダーのみ表示する">
 <!ENTITY usingSubscription.accesskey	"w">
-<!ENTITY dualUseFolders.label		"サブフォルダとメッセージ両方を含むフォルダをサーバーがサポートしている">
+<!ENTITY dualUseFolders.label		"サブフォルダーとメッセージ両方を含むフォルダーをサーバーがサポートしている">
 <!ENTITY dualUseFolders.accesskey	"f">
 <!ENTITY maximumConnectionsNumber.label	"サーバーへの最大同時接続数">
 <!ENTITY maximumConnectionsNumber.accesskey "M">
@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey	"O">
 <!ENTITY overrideNamespaces.label	"サーバーによる名前空間の上書きを許可する">
 <!ENTITY overrideNamespaces.accesskey	"A">
-<!ENTITY pop3DeferringDesc.label	"このアカウントのサーバーからメールをダウンロードするとき、新着メッセージを次のフォルダに保存する:">
+<!ENTITY pop3DeferringDesc.label	"このアカウントのサーバーからメールをダウンロードするとき、新着メッセージを次のフォルダーに保存する:">
 <!ENTITY accountInbox.label		"このアカウントの受信トレイ">
 <!ENTITY accountInbox.accesskey		"s">
 <!ENTITY deferToServer.label		"別のアカウントの受信トレイ">

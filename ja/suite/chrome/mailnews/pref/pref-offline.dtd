@@ -35,4 +35,4 @@
 <!ENTITY Diskspace                        "ディスク領域">
 <!ENTITY offlineCompactFolders.label      "ディスク領域を合計"><!-- offlineCompactFolders.label [ ] offlineCompactFoldersMB.label -->
 <!ENTITY offlineCompactFolders.accesskey  "C">
-<!ENTITY offlineCompactFoldersMB.label    "MB 以上節約できるときはフォルダを最適化する">
+<!ENTITY offlineCompactFoldersMB.label    "MB 以上節約できるときはフォルダーを最適化する">

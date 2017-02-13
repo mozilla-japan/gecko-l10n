@@ -9,7 +9,7 @@
 <!-- Junk Mail Controls -->
 <!ENTITY manualMark.label               "手動で迷惑マークを付けたときに次の処理を実行する:">
 <!ENTITY manualMark.accesskey           "W">
-<!ENTITY manualMarkModeMove.label       "メッセージをアカウント別の &quot;迷惑メール&quot; フォルダへ移動する">
+<!ENTITY manualMarkModeMove.label       "メッセージをアカウント別の &quot;迷惑メール&quot; フォルダーへ移動する">
 <!ENTITY manualMarkModeMove.accesskey   "M">
 <!ENTITY manualMarkModeDelete.label     "メッセージを削除する">
 <!ENTITY manualMarkModeDelete.accesskey "D">
