@@ -86,13 +86,13 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label5		"ブラウザーとアドオンのデバッガを有効化">
+<!ENTITY options.enableChrome.label5		"ブラウザーとアドオンのデバッガーを有効化">
 <!ENTITY options.enableChrome.tooltip3		"さまざまな開発ツールがブラウザーコンテキスト (ツール > ウェブ開発 > ブラウザーツールボックス) とアドオンマネージャーからのアドオンデバッグで使えるようになります">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableRemote.label3		"リモートデバッガを有効化">
+<!ENTITY options.enableRemote.label3		"リモートデバッガーを有効化">
 <!ENTITY options.enableRemote.tooltip2		"Firefox OS などのリモート Firefox インスタンスを開発ツールでデバッグできるようにします">
 
 <!-- LOCALIZATION NOTE (options.enableWorkers.label): This is the label for the
@@ -161,12 +161,12 @@
 
 <!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
   -  heading of the group of Debugger preferences in the options panel. -->
-<!ENTITY options.debugger.label			"デバッガ">
+<!ENTITY options.debugger.label			"デバッガー">
 
 <!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
    - label for the checkbox that toggles source maps in the Debugger -->
 <!ENTITY options.sourceMaps.label		"ソースマップを有効化">
-<!ENTITY options.sourceMaps.tooltip		"このオプションを有効にすると、ソースがデバッガとコンソールにマッピングされます。">
+<!ENTITY options.sourceMaps.tooltip		"このオプションを有効にすると、ソースがデバッガーとコンソールにマッピングされます。">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options

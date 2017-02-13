@@ -19,7 +19,7 @@
 <!ENTITY submitCrashes.accesskey          "S">
 
 <!ENTITY devTools.caption                 "開発ツール">
-<!ENTITY allowDebugger.label              "&brandShortName; にデバッガの接続を許可する">
+<!ENTITY allowDebugger.label              "&brandShortName; にデバッガーの接続を許可する">
 <!ENTITY allowDebugger.accesskey          "A">
 <!ENTITY allowRemoteConnections.label     "他のコンピューターからの接続を許可する">
 <!ENTITY allowRemoteConnections.accesskey "o">

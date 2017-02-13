@@ -503,9 +503,9 @@
 <!ENTITY devToolboxCmd.label		"開発ツールボックス">
 <!ENTITY devToolboxCmd.accesskey	"T">
 <!ENTITY devToolboxCmd.commandkey	"i">
-<!ENTITY addonDebugCmd.label		"アドオンデバッガ">
+<!ENTITY addonDebugCmd.label		"アドオンデバッガー">
 <!ENTITY addonDebugCmd.accesskey	"A">
-<!ENTITY tabsDebugCmd.label		"コンテンツフレームデバッガ">
+<!ENTITY tabsDebugCmd.label		"コンテンツフレームデバッガー">
 <!ENTITY tabsDebugCmd.accesskey		"C">
 <!ENTITY errorConsoleCmd.label		"エラーコンソール">
 <!ENTITY errorConsoleCmd.accesskey	"E">
