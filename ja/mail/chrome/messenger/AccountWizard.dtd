@@ -118,7 +118,7 @@
 <!ENTITY newsServerNamePrefix.label	"ニュース (NNTP) サーバー名:">
 <!ENTITY downloadOnLogin.label		"今すぐメッセージをダウンロード">
 <!ENTITY downloadOnLogin.accesskey	"D">
-<!ENTITY deferStorageDesc.label		"共通受信トレイを使用するアカウントのメールはすべてまとめて保存されます。このアカウントで送受信するメールを個別のディレクトリに分けて保存する場合はチェックを外してください。"><!-- (^^; Uncheck this checkbox to store mail for this account in its own directory. That will make this account appear as a top-level account. Otherwise, it will be part of the Local Folders Global Inbox account. -->
+<!ENTITY deferStorageDesc.label		"共通受信トレイを使用するアカウントのメールはすべてまとめて保存されます。このアカウントで送受信するメールを個別のディレクトリーに分けて保存する場合はチェックを外してください。"><!-- (^^; Uncheck this checkbox to store mail for this account in its own directory. That will make this account appear as a top-level account. Otherwise, it will be part of the Local Folders Global Inbox account. -->
 <!ENTITY deferStorage.label		"共通受信トレイを使用する (&quot;ローカルフォルダー&quot; にメールを保存)"><!-- (^^; Use Global Inbox (store mail in Local Folders) -->
 <!ENTITY deferStorage.accesskey		"G">
 <!ENTITY clickFinish.label		"@@[@@完了@@]@@ をクリックすると、設定を保存してアカウントを作成します。">

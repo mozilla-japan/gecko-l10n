@@ -18,18 +18,18 @@
 <!ENTITY newSiteButton.label		"新規サイト">
 <!ENTITY newSiteButton.accesskey	"N">
 <!ENTITY docDirList.accesskey		"S">
-<!ENTITY docDirList.tooltip		"このページのリモートサブディレクトリの名前を選択または入力します">
-<!ENTITY docDirList.label		"このページのサイトのサブディレクトリ:">
+<!ENTITY docDirList.tooltip		"このページのリモートサブディレクトリーの名前を選択または入力します">
+<!ENTITY docDirList.label		"このページのサイトのサブディレクトリー:">
 <!ENTITY publishImgCheckbox.label	"画像と他のファイルを含める">
 <!ENTITY publishImgCheckbox.accesskey	"o">
 <!ENTITY publishImgCheckbox.tooltip	"このページから参照される画像や他のファイルをアップロードします">
 <!ENTITY sameLocationRadio.label	"ページと同じ場所を使う">
 <!ENTITY sameLocationRadio.accesskey	"U">
 <!ENTITY sameLocationRadio.tooltip	"このページと同じ場所にファイルをアップロードします">
-<!ENTITY useSubdirRadio.label		"このサイトのサブディレクトリを使う:">
+<!ENTITY useSubdirRadio.label		"このサイトのサブディレクトリーを使う:">
 <!ENTITY useSubdirRadio.accesskey	"d">
-<!ENTITY useSubdirRadio.tooltip		"選択されているリモートサブディレクトリにファイルをアップロードします">
-<!ENTITY otherDirList.tooltip		"アップロードするファイルのあるリモートサブディレクトリの名前を選択または入力します">
+<!ENTITY useSubdirRadio.tooltip		"選択されているリモートサブディレクトリーにファイルをアップロードします">
+<!ENTITY otherDirList.tooltip		"アップロードするファイルのあるリモートサブディレクトリーの名前を選択または入力します">
 <!ENTITY pageTitle.label		"ページタイトル:">
 <!ENTITY pageTitle.accesskey		"T">
 <!ENTITY pageTitle.tooltip		"@@Window@@やブックマークでページを識別するためのタイトルを入力します">
@@ -55,7 +55,7 @@
 <!ENTITY siteUrl.tooltip		"ISP またはウェブホスティングサービス提供の FTP:// や HTTP:// アドレス">
 <!ENTITY browseUrl.label		"ホームページの HTTP アドレス (例: 'http://www.myisp.com/myusername'):">
 <!ENTITY browseUrl.accesskey		"T">
-<!ENTITY browseUrl.tooltip		"ホームディレクトリの HTTP:// アドレス (ファイル名は含まない)">
+<!ENTITY browseUrl.tooltip		"ホームディレクトリーの HTTP:// アドレス (ファイル名は含まない)">
 <!ENTITY username.label			"ユーザー名:">
 <!ENTITY username.accesskey		"U">
 <!ENTITY username.tooltip		"ISP またはウェブホスティングサービスにログインするためのユーザー名">

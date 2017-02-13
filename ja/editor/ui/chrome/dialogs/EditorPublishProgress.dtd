@@ -4,8 +4,8 @@
 
 <!-- Window title -->
 <!ENTITY siteUrl.label			"サイト URL:">
-<!ENTITY docSubdir.label		"ページのサブディレクトリ:">
-<!ENTITY otherSubdir.label		"画像のサブディレクトリ:">
+<!ENTITY docSubdir.label		"ページのサブディレクトリー:">
+<!ENTITY otherSubdir.label		"画像のサブディレクトリー:">
 
 <!ENTITY status.label			"アップロードしています...">
 <!ENTITY fileList.label			"アップロードの状況">

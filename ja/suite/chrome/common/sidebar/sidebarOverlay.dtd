@@ -22,7 +22,7 @@
 <!ENTITY sidebar.no-panels.state "Sidebar は、現在空白です。">
 <!ENTITY sidebar.no-panels.add "上の @@[@@タブ@@]@@ ボタンをクリックすることでタブを追加できます。">
 <!ENTITY sidebar.no-panels.hide "Sidebar を表示したくない場合は、@@[@@表示@@]@@ メニューをクリックし、@@[@@表示 / 隠す@@]@@ サブメニューの @@[@@Sidebar@@]@@ を選択してください。">
-<!ENTITY sidebar.sbDirectory.label "Sidebar ディレクトリ...">
+<!ENTITY sidebar.sbDirectory.label "Sidebar ディレクトリー...">
 
 <!ENTITY sidebar.pagenotfound.label "このタブは現在有効ではありません。">
 <!ENTITY sidebar.close.tooltip "Sidebar を閉じる">

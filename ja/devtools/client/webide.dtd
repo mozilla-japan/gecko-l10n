@@ -215,4 +215,4 @@
 <!ENTITY simulator_pixelRatio				"ピクセル比">
 <!ENTITY simulator_tv_data				"TV シミュレーション">
 <!ENTITY simulator_tv_data_open				"設定データ">
-<!ENTITY simulator_tv_data_open_button			"設定ディレクトリを開く...">
+<!ENTITY simulator_tv_data_open_button			"設定ディレクトリーを開く...">

@@ -5,5 +5,5 @@
 <!--LOCALIZATION NOTE shown while obtaining certificates from a directory -->
 
 <!ENTITY title.label "証明書をダウンロードする">
-<!ENTITY info.message "宛先の証明書のためのディレクトリを探します。この操作には数分かかります。">
+<!ENTITY info.message "宛先の証明書のためのディレクトリーを探します。この操作には数分かかります。">
 <!ENTITY stop.label "検索を中止する">

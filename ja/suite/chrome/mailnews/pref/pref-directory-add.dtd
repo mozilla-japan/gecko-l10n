@@ -30,7 +30,7 @@
 <!ENTITY return.label                      "結果を">
 <!ENTITY return.accesskey                  "r">
 <!ENTITY results.label                     "件以上は表示しない">
-<!ENTITY offlineText.label                 "オフラインでも利用できるようにディレクトリのコピーをローカルにダウンロードしておくことができます。">
+<!ENTITY offlineText.label                 "オフラインでも利用できるようにディレクトリーのコピーをローカルにダウンロードしておくことができます。">
 <!ENTITY saslMechanism.label               "認証方法: ">
 <!ENTITY saslMechanism.accesskey           "m">
 <!ENTITY saslOff.label                     "簡易">

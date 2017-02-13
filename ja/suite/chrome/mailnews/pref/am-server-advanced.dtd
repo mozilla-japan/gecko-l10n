@@ -4,7 +4,7 @@
 
 <!ENTITY serverAdvanced.label		"アカウントの詳細設定">
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
-<!ENTITY serverDirectory.label		"IMAP サーバーディレクトリ:">
+<!ENTITY serverDirectory.label		"IMAP サーバーディレクトリー:">
 <!ENTITY serverDirectory.accesskey	"d">
 <!ENTITY usingSubscription.label	"購読しているフォルダーのみ表示する">
 <!ENTITY usingSubscription.accesskey	"w">

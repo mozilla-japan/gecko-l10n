@@ -17,7 +17,7 @@
 <!ENTITY newListCmd.accesskey                           "L">
 <!ENTITY newAddressBookCmd.label                        "アドレス帳..."> 
 <!ENTITY newAddressBookCmd.accesskey                    "o">
-<!ENTITY newLDAPDirectoryCmd.label                      "LDAP ディレクトリ...">
+<!ENTITY newLDAPDirectoryCmd.label                      "LDAP ディレクトリー...">
 <!-- LOCALIZATION NOTE (newLDAPDirectoryCmd.accesskey) : DONT_TRANSLATE -->
 <!ENTITY newLDAPDirectoryCmd.accesskey                  "D">
 <!ENTITY newIM.label                                    "インスタントメッセージ">

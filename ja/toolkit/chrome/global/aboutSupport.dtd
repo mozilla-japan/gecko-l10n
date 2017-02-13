@@ -64,7 +64,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsSafeMode		"セーフモード">
 
-<!ENTITY aboutSupport.showDir.label		"ディレクトリを開く"><!-- Win/Mac 以外 -->
+<!ENTITY aboutSupport.showDir.label		"ディレクトリーを開く"><!-- Win/Mac 以外 -->
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
