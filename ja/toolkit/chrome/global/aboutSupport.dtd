@@ -52,7 +52,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsBuildConfig	"ビルド設定">
 <!ENTITY aboutSupport.appBasicsUserAgent	"ユーザーエージェント">
 <!ENTITY aboutSupport.appBasicsOS		"OS">
-<!ENTITY aboutSupport.appBasicsMemoryUse	"メモリ使用量">
+<!ENTITY aboutSupport.appBasicsMemoryUse	"メモリー使用量">
 <!ENTITY aboutSupport.appBasicsPerformance	"パフォーマンス">
 
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->

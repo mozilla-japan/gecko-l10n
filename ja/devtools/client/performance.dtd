@@ -44,11 +44,11 @@
 <!ENTITY performanceUI.toolbar.waterfall.tooltiptext	"パフォーマンス情報の記録以外の動作を、連続したタイムラインとして表示します。">
 <!ENTITY performanceUI.toolbar.js-calltree		"呼び出しツリー">
 <!ENTITY performanceUI.toolbar.js-calltree.tooltiptext	"パフォーマンス情報の記録中にもっとも長時間動作していた JavaScript の関数をハイライトします。">
-<!ENTITY performanceUI.toolbar.memory-calltree		"メモリ割り当て">
-<!ENTITY performanceUI.toolbar.allocations.tooltiptext	"パフォーマンス情報の記録中に割り当てられたメモリを表示します。">
+<!ENTITY performanceUI.toolbar.memory-calltree		"メモリー割り当て">
+<!ENTITY performanceUI.toolbar.allocations.tooltiptext	"パフォーマンス情報の記録中に割り当てられたメモリーを表示します。">
 <!ENTITY performanceUI.toolbar.js-flamegraph		"JS フレームチャート">
 <!ENTITY performanceUI.toolbar.js-flamegraph.tooltiptext	"パフォーマンス情報の記録時の JavaScript コールスタックを表示します。">
-<!ENTITY performanceUI.toolbar.memory-flamegraph	"メモリ割り当てフレームチャート">
+<!ENTITY performanceUI.toolbar.memory-flamegraph	"メモリー割り当てフレームチャート">
 
 <!-- LOCALIZATION NOTE (performanceUI.table.*): These strings are displayed
   -  in the call tree headers for a recording. -->
@@ -108,14 +108,14 @@
 <!-- LOCALIZATION NOTE (performanceUI.enableMemory): This string
   -  is displayed next to a checkbox determining whether or not memory
   -  measurements are enabled. -->
-<!ENTITY performanceUI.enableMemory             "メモリ消費を記録">
-<!ENTITY performanceUI.enableMemory.tooltiptext "このオプションを有効にすると、プロファイル時のメモリ消費を記録します。">
+<!ENTITY performanceUI.enableMemory             "メモリー消費を記録">
+<!ENTITY performanceUI.enableMemory.tooltiptext "このオプションを有効にすると、プロファイル時のメモリー消費を記録します。">
 
 <!-- LOCALIZATION NOTE (performanceUI.enableAllocations): This string
   -  is displayed next to a checkbox determining whether or not allocation
   -  measurements are enabled. -->
-<!ENTITY performanceUI.enableAllocations             "メモリ割り当てを記録">
-<!ENTITY performanceUI.enableAllocations.tooltiptext "このオプションを有効にすると、プロファイル時のメモリ割り当てを記録します。">
+<!ENTITY performanceUI.enableAllocations             "メモリー割り当てを記録">
+<!ENTITY performanceUI.enableAllocations.tooltiptext "このオプションを有効にすると、プロファイル時のメモリー割り当てを記録します。">
 
 <!-- LOCALIZATION NOTE (performanceUI.enableFramerate): This string
   -  is displayed next to a checkbox determining whether or not framerate
