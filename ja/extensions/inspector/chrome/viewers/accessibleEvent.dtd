@@ -11,4 +11,4 @@
 <!ENTITY descModifiedText.label "変更されたテキスト: ">
 <!ENTITY descCaretOffset.label "キャレットのオフセット位置: ">
 
-<!ENTITY descrHandlerOutput.label "イベントハンドラの出力: ">
+<!ENTITY descrHandlerOutput.label "イベントハンドラーの出力: ">

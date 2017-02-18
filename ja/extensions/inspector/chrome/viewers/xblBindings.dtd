@@ -9,7 +9,7 @@
 <!ENTITY bindingGetter.label       "ゲッタ">
 <!ENTITY bindingSetter.label       "セッタ">
 <!ENTITY bindingProperty.label     "プロパティ">
-<!ENTITY bindingHandlers.label     "ハンドラ">
+<!ENTITY bindingHandlers.label     "ハンドラー">
 <!ENTITY bindingHandlerEvent.label "イベント">
 <!ENTITY bindingHandlerPhase.label "フェーズ">
 <!ENTITY bindingResources.label    "リソース">

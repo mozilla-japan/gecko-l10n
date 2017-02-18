@@ -19,6 +19,6 @@
 <!ENTITY cmd.removeFromHistory.accesskey	"e">
 <!ENTITY cmd.clearList.label			"リストを消去">
 <!ENTITY cmd.clearList.accesskey		"C">
-<!ENTITY cmd.clearList.tooltip			"保存したファイルのリストからすべてのエントリを削除します。ダウンロード中のものは除きます。">
+<!ENTITY cmd.clearList.tooltip			"保存したファイルのリストからすべてのエントリーを削除します。ダウンロード中のものは除きます。">
 <!ENTITY cmd.searchDownloads.label		"検索...">
 <!ENTITY cmd.searchDownloads.key		"F">

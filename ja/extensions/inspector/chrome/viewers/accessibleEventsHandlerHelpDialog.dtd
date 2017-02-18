@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-  <!ENTITY helpDialog.title "ハンドラのヘルプダイアログ">
+  <!ENTITY helpDialog.title "ハンドラーのヘルプダイアログ">
 
-  <!ENTITY general.descr "アクセシビリティのイベントハンドラを書いて取り付けてください。イベントが発生した場合、イベントリストから選択して、リンクされた Accessible イベントビューアーでハンドラの評価結果を知ることができます。">
-  <!ENTITY helpers.descr "次のオブジェクトと関数はハンドラエディタ内で使用できます:">
+  <!ENTITY general.descr "アクセシビリティのイベントハンドラーを書いて取り付けてください。イベントが発生した場合、イベントリストから選択して、リンクされた Accessible イベントビューアーでハンドラーの評価結果を知ることができます。">
+  <!ENTITY helpers.descr "次のオブジェクトと関数はハンドラーエディタ内で使用できます:">
 
   <!ENTITY event.descr "アクセシビリティのイベントオブジェクト">
   <!ENTITY target.descr "アクセシビリティの対象オブジェクト">

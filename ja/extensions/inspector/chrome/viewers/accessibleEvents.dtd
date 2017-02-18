@@ -12,11 +12,11 @@
 <!ENTITY eventTargetRole.label "役割">
 <!ENTITY eventTargetName.label "名前">
 <!ENTITY isWatched.label "監視中">
-<!ENTITY isHandlerEnabled.label "ハンドラ有効">
+<!ENTITY isHandlerEnabled.label "ハンドラー有効">
 <!ENTITY clearEventList.label "イベントリストを@@Clear@@">
 <!ENTITY chooseEventsToWatch.label "監視するイベントを選択">
 <!ENTITY watchAll.label "すべて監視">
 <!ENTITY watchNone.label "監視を解除">
-<!ENTITY editHandler.label "ハンドラを編集">
+<!ENTITY editHandler.label "ハンドラーを編集">
 <!ENTITY contextHelp.label "?">
-<!ENTITY handlerEditorNoEvent.label "ハンドラを追加するイベントの種類を選んでください。">
+<!ENTITY handlerEditorNoEvent.label "ハンドラーを追加するイベントの種類を選んでください。">
