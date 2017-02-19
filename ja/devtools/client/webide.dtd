@@ -38,7 +38,7 @@
 <!ENTITY runtimeMenu_takeScreenshot_accesskey		"S">
 <!ENTITY runtimeMenu_showDetails_label			"ランタイム情報">
 <!ENTITY runtimeMenu_showDetails_accesskey		"E">
-<!ENTITY runtimeMenu_showMonitor_label			"モニタ">
+<!ENTITY runtimeMenu_showMonitor_label			"モニター">
 <!ENTITY runtimeMenu_showMonitor_accesskey		"M">
 <!ENTITY runtimeMenu_showDevicePrefs_label		"端末の設定">
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey		"D">
@@ -176,7 +176,7 @@
 <!ENTITY devicesetting_addnew				"@@New-CMD@@設定値を追加">
 
 <!-- Monitor -->
-<!ENTITY monitor_title					"モニタ">
+<!ENTITY monitor_title					"モニター">
 <!ENTITY monitor_help					"ヘルプ">
 
 <!-- WiFi Authentication -->

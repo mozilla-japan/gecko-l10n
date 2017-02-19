@@ -193,7 +193,7 @@
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
 <!ENTITY options.enablePersistentLogs.label	"ログ出力を残す">
-<!ENTITY options.enablePersistentLogs.tooltip	"このオプションを有効にすると、新しいページに誘導させられた場合でもウェブコンソールとネットワークモニタの出力を消去しないようになります">
+<!ENTITY options.enablePersistentLogs.tooltip	"このオプションを有効にすると、新しいページに誘導させられた場合でもウェブコンソールとネットワークモニターの出力を消去しないようになります">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
