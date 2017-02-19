@@ -171,17 +171,17 @@
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->
-<!ENTITY options.styleeditor.label		"スタイルエディタ">
+<!ENTITY options.styleeditor.label		"スタイルエディター">
 
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
 <!ENTITY options.stylesheetSourceMaps.label	"元のソースを表示">
-<!ENTITY options.stylesheetSourceMaps.tooltip	"スタイルエディタとインスペクターで元のソースを表示します (例: Sass ファイル)">
+<!ENTITY options.stylesheetSourceMaps.tooltip	"スタイルエディターとインスペクターで元のソースを表示します (例: Sass ファイル)">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
 <!ENTITY options.stylesheetAutocompletion.label		"CSS 自動補完">
-<!ENTITY options.stylesheetAutocompletion.tooltip	"スタイルエディタで CSS プロパティ、値、セレクター入力時に自動補完">
+<!ENTITY options.stylesheetAutocompletion.tooltip	"スタイルエディターで CSS プロパティ、値、セレクター入力時に自動補完">
 
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
@@ -205,7 +205,7 @@
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label			"エディタ設定">
+<!ENTITY options.sourceeditor.label			"エディター設定">
 <!ENTITY options.sourceeditor.detectindentation.label	"インデントを検知">
 <!ENTITY options.sourceeditor.detectindentation.tooltip	"ソースの内容からインデントを推測します">
 <!ENTITY options.sourceeditor.autoclosebrackets.label	"閉じ括弧自動入力">

@@ -52,7 +52,7 @@
 <!ENTITY rights.addons-a "アドオンサービス: ">
 <!ENTITY rights.addons-b "@@Default@@では、@@[@@&view.discover.label;@@]@@ ページでアドオンをインストールできます。標準的な間隔でアップデートの確認も行います。これらの機能を無効にして、インストールしたアドオンの情報をサーバーに送信しないようにするには、以下の手順で設定を行ってください。">
 <!ENTITY rights.addons-term1 "アプリケーションの設定を開きます">
-<!ENTITY rights.addons-term2 "@@[@@&advance.label;@@]@@ カテゴリの @@[@@&smart.label;@@]@@ を選択します">
+<!ENTITY rights.addons-term2 "@@[@@&advance.label;@@]@@ カテゴリーの @@[@@&smart.label;@@]@@ を選択します">
 <!ENTITY rights.addons-term3 "@@[@@&autoAddOnsUpdates.label;@@]@@ と @@[@@&enablePersonalized.label;@@]@@ のオプションを外します">
 <!ENTITY rights.addons-term4 "アドオンサービスが無効になります">
 

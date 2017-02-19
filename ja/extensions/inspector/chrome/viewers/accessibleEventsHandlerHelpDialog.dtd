@@ -5,7 +5,7 @@
   <!ENTITY helpDialog.title "ハンドラーのヘルプダイアログ">
 
   <!ENTITY general.descr "アクセシビリティのイベントハンドラーを書いて取り付けてください。イベントが発生した場合、イベントリストから選択して、リンクされた Accessible イベントビューアーでハンドラーの評価結果を知ることができます。">
-  <!ENTITY helpers.descr "次のオブジェクトと関数はハンドラーエディタ内で使用できます:">
+  <!ENTITY helpers.descr "次のオブジェクトと関数はハンドラーエディター内で使用できます:">
 
   <!ENTITY event.descr "アクセシビリティのイベントオブジェクト">
   <!ENTITY target.descr "アクセシビリティの対象オブジェクト">

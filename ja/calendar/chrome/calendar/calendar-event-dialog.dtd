@@ -199,9 +199,9 @@
 <!ENTITY event.title.textbox.accesskey			"I">
 <!ENTITY event.location.label				"場所:">
 <!ENTITY event.location.accesskey			"L">
-<!ENTITY event.categories.label				"カテゴリ:">
+<!ENTITY event.categories.label				"カテゴリー:">
 <!ENTITY event.categories.accesskey			"y">
-<!ENTITY event.categories.textbox.label			"@@New-CMD@@カテゴリを追加">
+<!ENTITY event.categories.textbox.label			"@@New-CMD@@カテゴリーを追加">
 <!ENTITY event.calendar.label				"カレンダー:">
 <!ENTITY event.calendar.accesskey			"C">
 <!ENTITY event.attendees.label				"参加者:">
@@ -404,7 +404,7 @@
 <!ENTITY read.only.task.due.label			"締切日時:">
 <!ENTITY read.only.repeat.label				"繰り返し:">
 <!ENTITY read.only.location.label			"場所:">
-<!ENTITY read.only.category.label			"カテゴリ:">
+<!ENTITY read.only.category.label			"カテゴリー:">
 <!ENTITY read.only.organizer.label			"主催者:">
 <!ENTITY read.only.reply.label				"返信:">
 <!ENTITY read.only.accept.label				"参加します">

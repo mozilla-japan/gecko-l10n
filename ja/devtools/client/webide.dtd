@@ -47,7 +47,7 @@
 
 <!ENTITY viewMenu_label					"表示">
 <!ENTITY viewMenu_accesskey				"V">
-<!ENTITY viewMenu_toggleEditor_label			"エディタを切り替え">
+<!ENTITY viewMenu_toggleEditor_label			"エディターを切り替え">
 <!ENTITY viewMenu_toggleEditor_accesskey		"E">
 <!ENTITY viewMenu_zoomin_label				"拡大">
 <!ENTITY viewMenu_zoomin_accesskey			"I">
@@ -115,7 +115,7 @@
 
 <!-- Prefs -->
 <!ENTITY prefs_title					"設定">
-<!ENTITY prefs_editor_title				"エディタ">
+<!ENTITY prefs_editor_title				"エディター">
 <!ENTITY prefs_general_title				"一般">
 <!ENTITY prefs_restore					"@@RestoreDefaults@@">
 <!ENTITY prefs_manage_components			"追加のコンポーネントを管理">
@@ -125,8 +125,8 @@
 <!ENTITY prefs_options_rememberlastproject_tooltip	"WebIDE の起動時に前回開いたプロジェクトを自動的に選択します">
 <!ENTITY prefs_options_templatesurl			"テンプレート URL">
 <!ENTITY prefs_options_templatesurl_tooltip		"利用可能なテンプレートの一覧です">
-<!ENTITY prefs_options_showeditor			"エディタを表示">
-<!ENTITY prefs_options_showeditor_tooltip		"組み込みエディタを表示します">
+<!ENTITY prefs_options_showeditor			"エディターを表示">
+<!ENTITY prefs_options_showeditor_tooltip		"組み込みエディターを表示します">
 <!ENTITY prefs_options_tabsize				"タブの長さ">
 <!ENTITY prefs_options_expandtab			"ソフトタブ">
 <!ENTITY prefs_options_expandtab_tooltip		"タブ文字の代わりにスペース文字を使います">

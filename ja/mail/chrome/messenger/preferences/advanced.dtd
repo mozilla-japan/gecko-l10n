@@ -32,7 +32,7 @@
 <!ENTITY checkDefaultsNow.label			"今すぐ確認...">
 <!ENTITY checkDefaultsNow.accesskey		"N">
 <!ENTITY configEditDesc.label			"高度な設定">
-<!ENTITY configEdit.label			"設定エディタ..."><!-- (^^; 要するに about:config -->
+<!ENTITY configEdit.label			"設定エディター..."><!-- (^^; 要するに about:config -->
 <!ENTITY configEdit.accesskey			"C">
 <!ENTITY returnReceiptsInfo.label		"開封確認の取り扱い方を設定します。">
 <!ENTITY showReturnReceipts.label		"開封確認...">

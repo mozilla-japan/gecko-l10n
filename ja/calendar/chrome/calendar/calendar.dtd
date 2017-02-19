@@ -45,8 +45,8 @@
 <!ENTITY calendar.unifinder.tree.duedate.tooltip2	"締切日時で並べ替えます">
 <!ENTITY calendar.unifinder.tree.completeddate.label	"完了日時">
 <!ENTITY calendar.unifinder.tree.completeddate.tooltip2	"完了日時で並べ替えます">
-<!ENTITY calendar.unifinder.tree.categories.label	"カテゴリ">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2	"カテゴリ名で並べ替えます">
+<!ENTITY calendar.unifinder.tree.categories.label	"カテゴリー">
+<!ENTITY calendar.unifinder.tree.categories.tooltip2	"カテゴリー名で並べ替えます">
 <!ENTITY calendar.unifinder.tree.location.label		"場所">
 <!ENTITY calendar.unifinder.tree.location.tooltip2	"場所で並べ替えます">
 <!ENTITY calendar.unifinder.tree.status.label		"状態">
@@ -140,13 +140,13 @@
 <!ENTITY calendar.task-details.priority.normal.label	"標準">
 <!ENTITY calendar.task-details.priority.high.label	"高">
 <!ENTITY calendar.task-details.status.label		"状態">
-<!ENTITY calendar.task-details.category.label		"カテゴリ">
+<!ENTITY calendar.task-details.category.label		"カテゴリー">
 <!ENTITY calendar.task-details.repeat.label		"周期">
 <!ENTITY calendar.task-details.attachments.label	"添付">
 <!ENTITY calendar.task-details.start.label		"着手日時">
 <!ENTITY calendar.task-details.due.label		"締切日時">
 
-<!ENTITY calendar.task.category.button.tooltip		"ToDo をカテゴリに分けます">
+<!ENTITY calendar.task.category.button.tooltip		"ToDo をカテゴリーに分けます">
 <!ENTITY calendar.task.complete.button.tooltip		"選択した ToDo を完了にします">
 <!ENTITY calendar.task.priority.button.tooltip		"重要度を変更します">
 

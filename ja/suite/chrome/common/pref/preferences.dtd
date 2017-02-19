@@ -4,7 +4,7 @@
 
 <!--LOCALIZATION NOTE (.label): Preferences categories that appear on the left of the preferences dialog -->
 <!ENTITY prefWindow.title "設定">
-<!ENTITY categoryHeader "カテゴリ">
+<!ENTITY categoryHeader "カテゴリー">
 <!ENTITY appear.label "表示">
 <!ENTITY content.label "コンテンツ">
 <!ENTITY fonts.label "フォント">

@@ -21,7 +21,7 @@
 <!ENTITY quickMode.label             "ウェブページを読み込まずに記事の要約を表示する">
 <!ENTITY quickMode.accesskey         "h">
 
-<!ENTITY autotagEnable.label         "フィードの &lt;カテゴリ&gt; 名から自動的にタグを作成する">
+<!ENTITY autotagEnable.label         "フィードの &lt;カテゴリー&gt; 名から自動的にタグを作成する">
 <!ENTITY autotagEnable.accesskey     "c">
 <!ENTITY autotagUsePrefix.label      "タグの接頭辞:">
 <!ENTITY autotagUsePrefix.accesskey  "P">
