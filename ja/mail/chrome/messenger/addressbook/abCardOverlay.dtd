@@ -31,7 +31,7 @@
 <!ENTITY PhoneticField2.label		"よみがな:">
 <!ENTITY DisplayName.label		"表示名:">
 <!ENTITY DisplayName.accesskey		"D">
-<!ENTITY preferDisplayName.label	"メッセージヘッダでは常に表示名を優先する">
+<!ENTITY preferDisplayName.label	"メッセージヘッダーでは常に表示名を優先する">
 <!ENTITY preferDisplayName.accesskey	"y">
 <!ENTITY NickName.label			"ニックネーム:">
 <!ENTITY NickName.accesskey		"N">

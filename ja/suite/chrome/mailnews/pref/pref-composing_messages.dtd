@@ -39,9 +39,9 @@
 <!ENTITY defaultParagraph.label               "段落 (エンターキーで新しい段落)">
 <!ENTITY defaultParagraph.accesskey           "P">
 
-<!ENTITY selectHeaderType.label               "返信ヘッダの形式を選択してください:">
+<!ENTITY selectHeaderType.label               "返信ヘッダーの形式を選択してください:">
 <!ENTITY selectHeaderType.accesskey           "e">
-<!ENTITY noReplyOption.label                  "返信ヘッダなし">
+<!ENTITY noReplyOption.label                  "返信ヘッダーなし">
 <!-- LOCALIZATION NOTE (authorWroteOption.label): this is tied to the
   mailnews.reply_header_authorwrotesingle preference. [Author] needs to be
   translated. -->

@@ -35,7 +35,7 @@
 <!ENTITY authMethod.accesskey		"i">
 <!ENTITY leaveOnServer.label		"ダウンロード後もサーバーにメッセージを残す">
 <!ENTITY leaveOnServer.accesskey	"g">
-<!ENTITY headersOnly.label		"ヘッダのみ取得する">
+<!ENTITY headersOnly.label		"ヘッダーのみ取得する">
 <!ENTITY headersOnly.accesskey		"e">
 <!ENTITY deleteByAgeFromServer.label	"ダウンロードしてから"><!-- (^^; deleteByAgeFromServer.label ... daysEnd.label -->
 <!ENTITY deleteByAgeFromServer.accesskey "o">

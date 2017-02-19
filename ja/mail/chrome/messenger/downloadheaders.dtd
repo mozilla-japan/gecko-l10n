@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY all.label		"ヘッダをすべてダウンロード">
+<!ENTITY all.label		"ヘッダーをすべてダウンロード">
 <!ENTITY all.accesskey		"D">
 <!--LOCALIZATION NOTE (download.label):
     consider the download.label and headers.label as a single sentence
@@ -14,7 +14,7 @@
 <!ENTITY download.label		"ダウンロード">
 <!ENTITY download.accesskey	"o">
 <!--LOCALIZATION NOTE (headers.label): see note for download.label -->
-<!ENTITY headers.label		"ヘッダ">
+<!ENTITY headers.label		"ヘッダー">
 <!ENTITY headers.accesskey	"h">
-<!ENTITY mark.label		"残りのヘッダを既読にする">
+<!ENTITY mark.label		"残りのヘッダーを既読にする">
 <!ENTITY mark.accesskey		"M">

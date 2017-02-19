@@ -235,7 +235,7 @@
 <!ENTITY ignoredThreadsCmd.label		"無視スレッド">
 <!ENTITY ignoredThreadsCmd.accesskey		"i">
 
-<!ENTITY headersMenu.label			"ヘッダ">
+<!ENTITY headersMenu.label			"ヘッダー">
 <!ENTITY headersMenu.accesskey			"H">
 <!ENTITY headersAllCmd.label			"すべて">
 <!ENTITY headersAllCmd.accesskey		"A">
