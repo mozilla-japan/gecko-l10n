@@ -748,7 +748,7 @@ mobile                 325629:8847dd9e9a2d  -----:------------   Kechol         
 devtools/client        333258:3fdfaaed6e0f  -----:------------   mar             sync devtools/client
 browser                333258:3fdfaaed6e0f  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-51.0] (for beta)
+Released! [l10n-mozilla-51.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  22992:bd21c84fff3b   mar             sync calendar
@@ -764,7 +764,7 @@ mail                   ------:------------  23016:f2769a8a63d4   mar            
 suite                  ------:------------  23023:2623ca18e381   mar             sync suite
 devtools/client        356614:749a8d32b74e  -----:------------   mar             sync devtools/client (mozilla-beta)
 
-[l10n-mozilla-52.0] (for aurora)
+[l10n-mozilla-52.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  23715:c35b6d3cea5b   mar             sync calendar
@@ -779,3 +779,9 @@ toolkit                350246:02d0ba8567f3  23753:f5808d1054d3   mar            
 mobile                 350337:cd4fc47221cb  -----:------------   Kechol          sync mobile
 devtools               350387:b58eb6e9e6c6  -----:------------   mar             sync devtools
 browser                350390:1bf0b129e71a  -----:------------   hATrayflood     sync browser
+
+[l10n-mozilla-53.0] (for aurora)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, security          359458:4d497454ce0c  24172:424fb7da6a43   mar             sync dom, security
+
