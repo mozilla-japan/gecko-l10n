@@ -361,9 +361,6 @@ ja.intl.css.locale			= \
 ja-JP-mac.intl.css.locale		=
 
 
-# toolkit/chrome/mozapps/downloads/downloads.properties
-ja.downloads.stateBlocked		= 保護者による制限でブロックされました
-ja-JP-mac.downloads.stateBlocked	= ペアレンタルコントロールによりブロックされました
 ## Firefox 10 以降
 ja.downloads.monthDate2			= %1$S%2$S日
 ja-JP-mac.downloads.monthDate2		= %1$S %2$S

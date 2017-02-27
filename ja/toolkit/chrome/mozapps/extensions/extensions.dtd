@@ -20,6 +20,9 @@
 <!ENTITY installAddonFromFile.accesskey		"I">
 <!ENTITY toolsMenu.tooltip			"アドオンツール">
 
+<!ENTITY getThemes.description			"ブラウザーの外観をお好みに変更しませんか？">
+<!ENTITY getThemes.learnMore			"数多くのテーマの中からお選びいただけます。">
+
 <!ENTITY cmd.back.tooltip			"前のページへ戻ります">
 <!ENTITY cmd.forward.tooltip			"次のページへ進みます">
 
