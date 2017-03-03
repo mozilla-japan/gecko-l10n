@@ -156,6 +156,7 @@
 <!ENTITY overlay_share_bookmark_btn_label_already "すでにブックマークされています">
 <!ENTITY overlay_share_send_other "他のデバイスに送信">
 
+<!ENTITY overlay_share_open_browser_btn_label "&brandShortName; で開く">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
@@ -386,6 +387,7 @@ size. -->
 <!ENTITY pref_history_search_suggestions "検索履歴を表示">
 <!ENTITY pref_import_options "@@Import@@オプション">
 <!ENTITY pref_import_android_summary "ネイティブブラウザーからブックマークや履歴を@@Import-suru@@">
+<!ENTITY pref_private_data_openTabs "開いているタブ">
 <!ENTITY pref_private_data_history2 "閲覧履歴">
 <!ENTITY pref_private_data_searchHistory "検索履歴">
 <!ENTITY pref_private_data_formdata2 "フォームの履歴">
@@ -535,6 +537,11 @@ size. -->
 
 <!ENTITY pref_tab_queue_title3 "タブキュー">
 <!ENTITY pref_tab_queue_summary4 "次回 &brandShortName; を開く時までリンクを保存しておきます">
+
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+<!ENTITY pref_compact_tabs "コンパクトタブ">
+<!ENTITY pref_compact_tabs_summary2 "ポートレートモードのときにはタブを2列に並べます">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
@@ -701,8 +708,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "タッチしてダウンロードした更新を適用します">
 <!ENTITY updater_downloading_retry2 "タッチして再試行します">
 
-<!ENTITY updater_apply_title2 "&brandShortName; の利用可能な更新">
-<!ENTITY updater_apply_select2 "タッチして更新を開始します">
+<!ENTITY updater_apply_title3 "ダウンロードした &brandShortName; の更新">
+<!ENTITY updater_apply_select3 "タッチしてインストールします">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
@@ -846,3 +853,6 @@ and allows hiding a URL/page from highlights or topsites. The page remains in hi
 is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_dismiss "閉じる">
 <!ENTITY activity_stream_delete_history "履歴から削除">
+
+<!ENTITY activity_stream_welcome_title "ハイライトへようこそ">
+<!ENTITY activity_stream_welcome_content1 "素晴らしい記事やビデオ、ブックマークやその他のページをあとから見返すことができるように、&brandShortName; はウェブ上で見つけたもののハイライトを作成します。">
