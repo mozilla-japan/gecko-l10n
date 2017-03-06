@@ -98,7 +98,7 @@
 <!ENTITY certs.auto.accesskey			"S">
 <!ENTITY certs.ask				"毎回自分で選択する">
 <!ENTITY certs.ask.accesskey			"A">
-<!ENTITY enableOCSP.label			"OCSP レスポンダサーバーに問い合わせて証明書の現在の正当性を確認する">
+<!ENTITY enableOCSP.label			"OCSP レスポンダーサーバーに問い合わせて証明書の現在の正当性を確認する">
 <!ENTITY enableOCSP.accesskey			"Q">
 
 <!ENTITY manageCertificates.label		"証明書を管理">

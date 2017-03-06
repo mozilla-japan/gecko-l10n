@@ -111,7 +111,7 @@
 <!ENTITY certs.auto.accesskey            "S">
 <!ENTITY certs.ask                       "毎回自分で選択する">
 <!ENTITY certs.ask.accesskey             "A">
-<!ENTITY enableOCSP.label                "OCSP レスポンダに問い合わせてデジタル証明書の有効性をリアルタイムに確認する">
+<!ENTITY enableOCSP.label                "OCSP レスポンダーサーバーに問い合わせて証明書の現在の正当性を確認する">
 <!ENTITY enableOCSP.accesskey            "Q">
 <!ENTITY viewCerts.label                 "証明書を表示...">
 <!ENTITY viewCerts.accesskey             "C">
