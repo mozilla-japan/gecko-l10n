@@ -787,3 +787,5 @@ dom, security          359458:4d497454ce0c  24172:424fb7da6a43   mar            
 toolkit                359458:4d497454ce0c  24172:424fb7da6a43   mar             sync toolkit
 mobile                 359520:65c9d527fc8c  -----:------------   Kechol          sync mobile
 devtools/shared        359643:14cf0c8a70e1  -----:------------   mar             sync devtools/shared
+editor/ui, mail        ------:------------  24185:00afa47648d4   mar             sync editor/ui, mail
+

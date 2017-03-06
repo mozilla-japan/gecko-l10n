@@ -499,7 +499,7 @@
 
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label		"開発ツール">
-<!ENTITY devtoolsMenu.accesskey		"o">
+<!ENTITY devtoolsMenu.accesskey		"e">
 <!ENTITY devToolboxCmd.label		"開発ツールボックス">
 <!ENTITY devToolboxCmd.accesskey	"T">
 <!ENTITY devToolboxCmd.commandkey	"i">

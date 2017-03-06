@@ -10,7 +10,7 @@
 <!ENTITY replaceField.label "置換文字:">
 <!ENTITY replaceField.accesskey "e">
 <!ENTITY caseSensitiveCheckbox.label "大文字/小文字を区別する">
-<!ENTITY caseSensitiveCheckbox.accesskey "c">
+<!ENTITY caseSensitiveCheckbox.accesskey "M">
 <!ENTITY wrapCheckbox.label "折り返す">
 <!ENTITY wrapCheckbox.accesskey "W">
 <!ENTITY backwardsCheckbox.label "前方検索">
@@ -24,3 +24,4 @@
 <!ENTITY replaceAllButton.label "すべて置換">
 <!ENTITY replaceAllButton.accesskey "A">
 <!ENTITY closeButton.label "閉じる">
+<!ENTITY closeButton.accesskey "C">

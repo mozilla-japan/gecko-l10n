@@ -54,6 +54,9 @@
 <!ENTITY directoriesNone.label			"なし">
 <!ENTITY editDirectories.label			"LDAP サーバーの編集...">
 <!ENTITY editDirectories.accesskey		"E">
+<!ENTITY showAsDefault.label			"アドレス帳@@Window@@の@@Default@@起動時ディレクトリー:">
+<!ENTITY showAsDefault.accesskey		"S">
+<!ENTITY showAsDefaultLast.label		"最後に使用したディレクトリー">
 
 <!ENTITY sendOptionsDescription.label		"送信するメッセージの形式を設定します。">
 <!ENTITY sendOptions.label			"送信テキスト形式..."><!-- (^^; Send Options... -->
