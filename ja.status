@@ -788,4 +788,5 @@ toolkit                359458:4d497454ce0c  24172:424fb7da6a43   mar            
 mobile                 359520:65c9d527fc8c  -----:------------   Kechol          sync mobile
 devtools/shared        359643:14cf0c8a70e1  -----:------------   mar             sync devtools/shared
 editor/ui, mail        ------:------------  24185:00afa47648d4   mar             sync editor/ui, mail
+devtools/client        376746:65c3d718dd5f  -----:------------   mar             sync devtools/client (mozilla-beta)
 

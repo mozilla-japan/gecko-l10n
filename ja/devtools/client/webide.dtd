@@ -32,8 +32,6 @@
 <!ENTITY runtimeMenu_accesskey				"R">
 <!ENTITY runtimeMenu_disconnect_label			"切断">
 <!ENTITY runtimeMenu_disconnect_accesskey		"D">
-<!ENTITY runtimeMenu_showPermissionTable_label		"許可設定一覧">
-<!ENTITY runtimeMenu_showPermissionTable_accesskey	"P">
 <!ENTITY runtimeMenu_takeScreenshot_label		"スクリーンショット撮影">
 <!ENTITY runtimeMenu_takeScreenshot_accesskey		"S">
 <!ENTITY runtimeMenu_showDetails_label			"ランタイム情報">
@@ -140,10 +138,6 @@
 <!ENTITY prefs_options_keybindings_default		"@@Default@@">
 <!ENTITY prefs_options_autosavefiles			"ファイルの自動保存">
 <!ENTITY prefs_options_autosavefiles_tooltip		"プロジェクトを実行する前に、編集したファイルを自動的に保存します">
-
-<!-- Permissions Table -->
-<!ENTITY permissionstable_title				"許可設定一覧">
-<!ENTITY permissionstable_name_header			"名前">
 
 <!-- Runtime Details -->
 <!ENTITY runtimedetails_title				"ランタイム情報">
