@@ -175,17 +175,17 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuAddWatch): This is the text that
   -  appears in the source editor context menu for adding an expression. -->
-<!ENTITY debuggerUI.seMenuAddWatch		"選択範囲をウォッチ式に追加">
+<!ENTITY debuggerUI.seMenuAddWatch		"選択範囲を監視式に追加">
 <!ENTITY debuggerUI.seMenuAddWatch.key		"E">
 
 <!-- LOCALIZATION NOTE (debuggerUI.addWatch): This is the text that
   -  appears in the watch expressions context menu for adding an expression. -->
-<!ENTITY debuggerUI.addWatch			"ウォッチ式を追加">
+<!ENTITY debuggerUI.addWatch			"監視式を追加">
 <!ENTITY debuggerUI.addWatch.accesskey		"E">
 
 <!-- LOCALIZATION NOTE (debuggerUI.removeWatch): This is the text that
   -  appears in the watch expressions context menu for removing all expressions. -->
-<!ENTITY debuggerUI.removeAllWatch		"すべてのウォッチ式を削除">
+<!ENTITY debuggerUI.removeAllWatch		"すべての監視式を削除">
 <!ENTITY debuggerUI.removeAllWatch.key		"E">
 <!ENTITY debuggerUI.removeAllWatch.accesskey	"E">
 
