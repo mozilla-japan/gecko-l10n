@@ -24,7 +24,7 @@
 <!ENTITY viewQuota.accesskey          "V">
 <!ENTITY changePassword.label         "パスワードを変更">
 <!ENTITY changePassword.accesskey     "C">
-<!ENTITY myRecoveryKey.label          "自分のリカバリキー">
+<!ENTITY myRecoveryKey.label          "自分のリカバリーキー">
 <!ENTITY myRecoveryKey.accesskey      "M">
 <!ENTITY resetSync.label              "Sync をリセット">
 <!ENTITY resetSync.accesskey          "R">

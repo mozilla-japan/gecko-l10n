@@ -17,30 +17,28 @@
 <!ENTITY  proportional.accesskey                  "P">
 
 <!ENTITY  serif.label                             "明朝体 (Serif):">
-<!ENTITY  serif.accesskey                         "s">
+<!ENTITY  serif.accesskey                         "S">
 <!ENTITY  sans-serif.label                        "ゴシック体 (Sans-serif):">
 <!ENTITY  sans-serif.accesskey                    "n">
 <!ENTITY  monospace.label                         "等幅 (Monospace):">
-<!ENTITY  monospace.accesskey                     "m">
+<!ENTITY  monospace.accesskey                     "M">
 <!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' -->
 <!ENTITY  fantasy.label                           "装飾体 (Fantasy):">
-<!ENTITY  fantasy.accesskey                       "f">
+<!ENTITY  fantasy.accesskey                       "F">
 <!ENTITY  cursive.label                           "筆記体 (Cursive):">
-<!ENTITY  cursive.accesskey                       "c">
+<!ENTITY  cursive.accesskey                       "C">
 
-<!ENTITY  font.langGroup.latin1                   "西欧">
-<!ENTITY  font.langGroup.latin2                   "中欧">
+<!-- LOCALIZATION NOTE (font.langGroup.latin) :
+     Translate "Latin" as the name of Latin (Roman) script, not as the name of
+     the Latin language. -->
+<!ENTITY  font.langGroup.latin                    "ラテン文字">
 <!ENTITY  font.langGroup.japanese                 "日本語">
 <!ENTITY  font.langGroup.trad-chinese             "繁体字中国語 (台湾)">
 <!ENTITY  font.langGroup.simpl-chinese            "簡体字中国語">
 <!ENTITY  font.langGroup.trad-chinese-hk          "繁体字中国語 (香港)">
 <!ENTITY  font.langGroup.korean                   "韓国語">
 <!ENTITY  font.langGroup.cyrillic                 "キリル文字">
-<!ENTITY  font.langGroup.baltic                   "バルト諸語">
 <!ENTITY  font.langGroup.el                       "ギリシャ語">
-<!ENTITY  font.langGroup.turkish                  "トルコ語">
-<!ENTITY  font.langGroup.unicode1                 "Unicode">
-<!ENTITY  font.langGroup.user-def                 "ユーザー定義">
 <!ENTITY  font.langGroup.thai                     "タイ語">
 <!ENTITY  font.langGroup.hebrew                   "ヘブライ語">
 <!ENTITY  font.langGroup.arabic                   "アラビア語">
@@ -55,7 +53,13 @@
 <!ENTITY  font.langGroup.gurmukhi                 "グルムキー文字">
 <!ENTITY  font.langGroup.khmer                    "クメール語">
 <!ENTITY  font.langGroup.malayalam                "マラヤラム語">
-<!ENTITY  font.langGroup.math                     "数学">
+<!ENTITY  font.langGroup.math                     "数学記号">
+<!ENTITY  font.langGroup.odia                     "オディア語">
+<!ENTITY  font.langGroup.telugu                   "テルグ語">
+<!ENTITY  font.langGroup.kannada                  "カナラ語">
+<!ENTITY  font.langGroup.sinhala                  "シンハラ語">
+<!ENTITY  font.langGroup.tibetan                  "チベット語">
+<!ENTITY  font.langGroup.other                    "その他の表記体系">
 <!-- Minimum font size -->
 <!ENTITY minSize.label                            "最小フォントサイズ:">
 <!ENTITY minSize.accesskey                        "z">
@@ -72,4 +76,4 @@
 
 <!ENTITY  header2                                 "ウェブページによってはフォントが指定されていることがあります。">
 <!ENTITY  useDefaultFont.label                    "ページで指定されたフォントを無視して@@Default-@@フォントを使用する">
-<!ENTITY  useDefaultFont.accesskey                "u">
+<!ENTITY  useDefaultFont.accesskey                "U">

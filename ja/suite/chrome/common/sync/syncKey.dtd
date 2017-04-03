@@ -9,7 +9,7 @@
 <!ENTITY syncKey.keepItSafe.heading       "安全に保護してください">
 <!ENTITY syncKey.keepItSafe1.description  "このキーをなくさないでください。">
 <!ENTITY syncKey.keepItSafe2.description  " キーはサーバーに保存されていません (そうすると秘密を守れなくなってしまいます)。このため、">
-<!ENTITY syncKey.keepItSafe3.description  " リカバリキーを失くすと取り戻すことはできません。">
+<!ENTITY syncKey.keepItSafe3.description  " リカバリーキーを失くすと取り戻すことはできません。">
 <!ENTITY syncKey.keepItSafe4.description  " このキーは、別のパソコンやスマートフォンから &syncBrand.fullName.label; へ接続する際にも必要となります。">
 <!ENTITY syncKey.findOutMore1.label       "&syncBrand.fullName.label; とプライバシーに関しては ">
 <!ENTITY syncKey.findOutMore2.label       " にある説明をご覧ください。">

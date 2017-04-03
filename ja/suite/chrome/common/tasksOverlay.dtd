@@ -3,58 +3,58 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from tasksOverlay.xul -->
-<!ENTITY navigatorCmd.label "ブラウザー">
-<!ENTITY navigatorCmd.accesskey "B">
-<!ENTITY navigatorCmd.commandkey "1">
+<!ENTITY navigatorCmd.label		"ブラウザー">
+<!ENTITY navigatorCmd.accesskey		"B">
+<!ENTITY navigatorCmd.commandkey	"1">
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
-<!ENTITY editorCmd.label "Composer">
-<!ENTITY editorCmd.accesskey "c">
-<!ENTITY editorCmd.commandkey "4">
+<!ENTITY editorCmd.label		"Composer">
+<!ENTITY editorCmd.accesskey		"c">
+<!ENTITY editorCmd.commandkey		"4">
 
 <!ENTITY errorConsoleCmd.label		"エラーコンソール">
 <!ENTITY errorConsoleCmd.accesskey	"C">
-<!ENTITY errorConsoleCmd.commandkey	"o">
+<!ENTITY errorConsoleCmd.commandkey2	"j">
 
-<!ENTITY taskComposer.tooltip "Composer">
-<!ENTITY taskNavigator.tooltip "ブラウザー">
+<!ENTITY taskNavigator.tooltip		"ブラウザー">
+<!ENTITY taskComposer.tooltip		"Composer">
 
-<!ENTITY webDevelopment.label "ウェブ開発">
-<!ENTITY webDevelopment.accesskey "W">
+<!ENTITY webDevelopment.label		"ウェブ開発">
+<!ENTITY webDevelopment.accesskey	"W">
 
-<!ENTITY windowMenu.label "@@Window@@">
-<!ENTITY windowMenu.accesskey "W">
+<!ENTITY windowMenu.label		"@@Window@@">
+<!ENTITY windowMenu.accesskey		"W">
 
-<!ENTITY tasksMenu.label "ツール">
-<!ENTITY tasksMenu.accesskey "T">
+<!ENTITY tasksMenu.label		"ツール">
+<!ENTITY tasksMenu.accesskey		"T">
 
-<!ENTITY datamanCmd.label "データマネージャー">
-<!ENTITY datamanCmd.accesskey "D">
+<!ENTITY datamanCmd.label		"データマネージャー">
+<!ENTITY datamanCmd.accesskey		"D">
 
-<!ENTITY passwordManagerCmd.label "パスワードマネージャー">
-<!ENTITY passwordManagerCmd.accesskey "P">
+<!ENTITY passwordManagerCmd.label	"パスワードマネージャー">
+<!ENTITY passwordManagerCmd.accesskey	"P">
 
-<!ENTITY passwordDisplayCmd.label "保存されているパスワードを管理">
-<!ENTITY passwordDisplayCmd.accesskey "M">
+<!ENTITY passwordDisplayCmd.label	"保存されているパスワードを管理">
+<!ENTITY passwordDisplayCmd.accesskey	"M">
 
-<!ENTITY passwordExpireCmd.label "ログアウト">
-<!ENTITY passwordExpireCmd.accesskey "l">
+<!ENTITY passwordExpireCmd.label	"ログアウト">
+<!ENTITY passwordExpireCmd.accesskey	"l">
 
-<!ENTITY downloadManagerCmd.label "ダウンロードマネージャー">
-<!ENTITY downloadManagerCmd.accesskey "n">
-<!ENTITY downloadManagerCmd.commandkey "j">
+<!ENTITY downloadManagerCmd.label	"ダウンロードマネージャー">
+<!ENTITY downloadManagerCmd.accesskey	"n">
+<!ENTITY downloadManagerCmd.commandkey	"j">
 
-<!ENTITY addOnsManagerCmd.label "アドオンマネージャー">
-<!ENTITY addOnsManagerCmd.accesskey "A">
-<!ENTITY addOnsManagerCmd.commandkey "a">
+<!ENTITY addOnsManagerCmd.label		"アドオンマネージャー">
+<!ENTITY addOnsManagerCmd.accesskey	"A">
+<!ENTITY addOnsManagerCmd.commandkey	"a">
 
-<!ENTITY switchProfileCmd.label "プロファイルの切り換え...">
-<!ENTITY switchProfileCmd.accesskey "h">
+<!ENTITY switchProfileCmd.label		"プロファイルの切り換え...">
+<!ENTITY switchProfileCmd.accesskey	"h">
 
-<!ENTITY syncBrand.shortName.label "Sync">
+<!ENTITY syncBrand.shortName.label	"Sync">
 <!-- LOCALIZATION NOTE (syncSetup.accesskey, syncSyncNowItem.accesskey):
      Only one of these will show at a time (based on setup state),
      so reusing accesskey is ok. -->
-<!ENTITY syncSetup.label           "Sync をセットアップ...">
-<!ENTITY syncSetup.accesskey       "S">
-<!ENTITY syncSyncNowItem.label     "今すぐ同期する">
-<!ENTITY syncSyncNowItem.accesskey "S">
+<!ENTITY syncSetup.label		"Sync をセットアップ...">
+<!ENTITY syncSetup.accesskey		"S">
+<!ENTITY syncSyncNowItem.label		"今すぐ同期する">
+<!ENTITY syncSyncNowItem.accesskey	"S">
