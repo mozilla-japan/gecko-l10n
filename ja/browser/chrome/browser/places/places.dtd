@@ -41,10 +41,6 @@
 <!ENTITY cmd.restoreFromFile.label      "ファイルを選択...">
 <!ENTITY cmd.restoreFromFile.accesskey  "C">
 
-<!ENTITY cmd.bookmarkLink.label         "このページをブックマーク...">
-<!ENTITY cmd.bookmarkLink.accesskey     "B">
-<!ENTITY cmd.delete.label               "このページを削除">
-<!ENTITY cmd.delete.accesskey           "D">
 <!ENTITY cmd.deleteDomainData.label     "このサイトの履歴を消去">
 <!ENTITY cmd.deleteDomainData.accesskey "F">
 

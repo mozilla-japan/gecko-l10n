@@ -14,27 +14,27 @@
 <!ENTITY resetPass.label              "リセット">
 
 <!-- Manage Account -->
-<!ENTITY manageAccount.label          "アカウントを管理">
-<!ENTITY manageAccount.accesskey      "n">
-<!ENTITY changePassword2.label        "パスワードを変更...">
-<!ENTITY myRecoveryKey.label          "リカバリキー">
-<!ENTITY resetSync2.label             "Sync をリセット...">
+<!ENTITY manageAccount.label		"アカウントを管理">
+<!ENTITY manageAccount.accesskey	"n">
+<!ENTITY changePassword2.label		"パスワードを変更...">
+<!ENTITY myRecoveryKey.label		"リカバリーキー">
+<!ENTITY resetSync2.label		"Sync をリセット...">
 
-<!ENTITY pairDevice.label             "端末と連携">
+<!ENTITY pairDevice.label		"端末と連携">
 
-<!ENTITY syncMy.label               "同期するデータ">
-<!ENTITY engine.bookmarks.label     "ブックマーク">
-<!ENTITY engine.bookmarks.accesskey "m">
-<!ENTITY engine.tabs.label          "タブ">
-<!ENTITY engine.tabs.accesskey      "T">
-<!ENTITY engine.history.label       "履歴">
-<!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "パスワード">
-<!ENTITY engine.passwords.accesskey "P">
-<!ENTITY engine.prefs.label         "個人設定">
-<!ENTITY engine.prefs.accesskey     "S">
-<!ENTITY engine.addons.label        "アドオン">
-<!ENTITY engine.addons.accesskey    "A">
+<!ENTITY syncMy.label			"同期するデータ">
+<!ENTITY engine.bookmarks.label		"ブックマーク">
+<!ENTITY engine.bookmarks.accesskey	"m">
+<!ENTITY engine.tabs.label2		"開いたタブ">
+<!ENTITY engine.tabs.accesskey		"T">
+<!ENTITY engine.history.label		"履歴">
+<!ENTITY engine.history.accesskey	"r">
+<!ENTITY engine.passwords.label		"パスワード">
+<!ENTITY engine.passwords.accesskey	"P">
+<!ENTITY engine.prefs.label		"個人設定">
+<!ENTITY engine.prefs.accesskey		"S">
+<!ENTITY engine.addons.label		"アドオン">
+<!ENTITY engine.addons.accesskey	"A">
 
 <!-- Device Settings -->
 <!ENTITY syncDeviceName.label			"端末名:">
@@ -71,18 +71,18 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedInLoginFailure.beforename.label	"">
 <!ENTITY signedInLoginFailure.aftername.label	"に再接続するにはサインインしてください。">
 
-<!ENTITY notSignedIn.label           "サインインしていません。">
-<!ENTITY signIn.label                "サインイン">
-<!ENTITY signIn.accesskey            "g">
-<!ENTITY profilePicture.tooltip      "プロフィール写真を変更します">
-<!ENTITY verifiedManage.label        "アカウントの管理">
-<!ENTITY verifiedManage.accesskey    "o">
-<!ENTITY disconnect.label            "切断...">
-<!ENTITY disconnect.accesskey        "D">
-<!ENTITY verify.label                "メールアドレス認証">
-<!ENTITY verify.accesskey            "V">
-<!ENTITY forget.label                "このメールアドレスを解除">
-<!ENTITY forget.accesskey            "F">
+<!ENTITY notSignedIn.label		"サインインしていません。">
+<!ENTITY signIn.label			"サインイン">
+<!ENTITY signIn.accesskey		"g">
+<!ENTITY profilePicture.tooltip		"プロフィール写真を変更します">
+<!ENTITY verifiedManage.label		"アカウントの管理">
+<!ENTITY verifiedManage.accesskey	"o">
+<!ENTITY disconnect.label		"切断...">
+<!ENTITY disconnect.accesskey		"D">
+<!ENTITY verify.label			"メールアドレス認証">
+<!ENTITY verify.accesskey		"V">
+<!ENTITY forget.label			"このメールアドレスを解除">
+<!ENTITY forget.accesskey		"F">
 
 <!ENTITY welcome.description		"&brandShortName; なら、どこからでもタブやブックマークやパスワードなどにアクセスできます。">
 <!ENTITY welcome.signIn.label		"サインイン">
@@ -90,28 +90,28 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY welcome.useOldSync.label	"古いバージョンの Sync をお使いですか？">
 
-<!ENTITY signedOut.caption            "ウェブを持ち歩こう">
-<!ENTITY signedOut.description        "ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。">
-<!ENTITY signedOut.accountBox.title   "&syncBrand.fxAccount.label; で接続する">
-<!ENTITY signedOut.accountBox.create  "アカウント作成">
-<!ENTITY signedOut.accountBox.create.accesskey  "C">
-<!ENTITY signedOut.accountBox.signin  "サインイン">
-<!ENTITY signedOut.accountBox.signin.accesskey  "I">
+<!ENTITY signedOut.caption		"ウェブを持ち歩こう">
+<!ENTITY signedOut.description		"ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。">
+<!ENTITY signedOut.accountBox.title	"&syncBrand.fxAccount.label; で接続する">
+<!ENTITY signedOut.accountBox.create	"アカウント作成">
+<!ENTITY signedOut.accountBox.create.accesskey	"C">
+<!ENTITY signedOut.accountBox.signin	"サインイン">
+<!ENTITY signedOut.accountBox.signin.accesskey	"I">
 
-<!ENTITY signedIn.engines.label       "すべての端末を同期する">
+<!ENTITY signedIn.engines.label		"すべての端末を同期する">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.
      The resulting sentence in English is: "Download Firefox for
      Android or iOS to sync with your mobile device." -->
 
-<!ENTITY mobilePromo3.start            "Firefox for ">
+<!ENTITY mobilePromo3.start		"Firefox for ">
 <!-- LOCALIZATION NOTE (mobilePromo3.androidLink): This is a link title that links to https://www.mozilla.org/firefox/android/ -->
-<!ENTITY mobilePromo3.androidLink      "Android">
+<!ENTITY mobilePromo3.androidLink	"Android">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.iOSBefore): This is text displayed between mobilePromo3.androidLink and mobilePromo3.iosLink -->
-<!ENTITY mobilePromo3.iOSBefore         " または ">
+<!ENTITY mobilePromo3.iOSBefore		" または ">
 <!-- LOCALIZATION NOTE (mobilePromo3.iOSLink): This is a link title that links to https://www.mozilla.org/firefox/ios/ -->
-<!ENTITY mobilePromo3.iOSLink          "iOS">
+<!ENTITY mobilePromo3.iOSLink		"iOS">
 
-<!ENTITY mobilePromo3.end              " をダウンロードしてモバイル端末と同期しましょう。">
+<!ENTITY mobilePromo3.end		" をダウンロードしてモバイル端末と同期しましょう。">

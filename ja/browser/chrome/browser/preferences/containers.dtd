@@ -2,22 +2,24 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY label.label          "名前">
-<!ENTITY addButton.label      "@@New-CMD@@コンテナーを追加">
-<!ENTITY addButton.accesskey  "A">
+<!ENTITY addButton.label	"@@New-CMD@@コンテナーを追加">
+<!ENTITY addButton.accesskey	"A">
+<!ENTITY preferencesButton.label	"設定">
+<!ENTITY removeButton.label	"削除">
 <!-- &#171; is &laquo; however it's not defined in XML -->
-<!ENTITY backLink.label       "&#171; プライバシーに戻る">
+<!ENTITY backLink.label		"&#171; プライバシーに戻る">
 
-<!ENTITY window.title         "@@New-CMD@@コンテナーを追加する">
-<!ENTITY window.width         "45em">
+<!ENTITY window.title		"@@New-CMD@@コンテナーを追加する">
+<!ENTITY window.width		"45em">
 
-<!ENTITY name.label           "名前:">
-<!ENTITY name.accesskey       "N">
-<!ENTITY icon.label           "アイコン:">
-<!ENTITY icon.accesskey       "I">
-<!ENTITY color.label          "@@Color@@:">
-<!ENTITY color.accesskey      "o">
-<!ENTITY windowClose.key      "w">
+<!ENTITY name.label		"名前:">
+<!ENTITY name.accesskey		"N">
+<!ENTITY name.placeholder	"コンテナー名を入力してください">
+<!ENTITY icon.label		"アイコン:">
+<!ENTITY icon.accesskey		"I">
+<!ENTITY color.label		"@@Color@@:">
+<!ENTITY color.accesskey	"o">
+<!ENTITY windowClose.key	"w">
 
-<!ENTITY button.ok.label      "完了">
-<!ENTITY button.ok.accesskey  "D">
+<!ENTITY button.ok.label	"完了">
+<!ENTITY button.ok.accesskey	"D">

@@ -51,8 +51,8 @@
 
 <!ENTITY  permTab               "サイト別設定">
 <!ENTITY  permTab.accesskey     "P">
-<!ENTITY  permUseDefault        "標準設定を使用する">
-<!ENTITY  permAskAlways         "毎回確認する">
+<!ENTITY  permUseDefault        "標準設定を使用">
+<!ENTITY  permAskAlways         "毎回確認">
 <!ENTITY  permAllow             "許可">
 <!ENTITY  permAllowSession      "セッション中のみ許可">
 <!ENTITY  permBlock             "ブロック">

@@ -424,9 +424,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   for people to switch to Linux.
 
  -->
-<!ENTITY searchFocus.commandkey       "k">
-<!ENTITY searchFocus.commandkey2      "e">
-<!ENTITY searchFocusUnix.commandkey   "j">
+<!ENTITY searchFocus.commandkey		"k">
+<!ENTITY searchFocus.commandkey2	"e">
+<!ENTITY searchFocusUnix.commandkey	"j">
 
 <!-- LOCALIZATION NOTE (contentSearchInput.label):
      This is set as the aria-label attribute for the search input box in the
@@ -437,8 +437,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
-<!ENTITY searchFor.label              "">
-<!ENTITY searchWith.label             " を検索">
+<!ENTITY searchFor.label		"">
+<!ENTITY searchWith.label		" を検索">
 
 <!-- LOCALIZATION NOTE (search.label, searchAfter.label):
      This string is used to build the header above the list of one-click search
@@ -446,121 +446,121 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      intentionally left empty for en-US and can be used by other localizations to
      display a string after the search engine name.  This string will be displayed
      as:  "Search <selected engine name><searchAfter.label text>" -->
-<!ENTITY search.label                 "">
-<!ENTITY searchAfter.label            " で検索">
+<!ENTITY search.label			"">
+<!ENTITY searchAfter.label		" で検索">
 
 <!-- LOCALIZATION NOTE (searchWithHeader.label):
      The wording of this string should be as close as possible to
      searchFor.label and searchWith.label. This string will be used instead of
      them when the user has not typed any keyword. -->
-<!ENTITY searchWithHeader.label       "検索エンジン:">
+<!ENTITY searchWithHeader.label		"検索エンジン:">
 <!-- LOCALIZATION NOTE (changeSearchSettings.button):
      This string won't wrap, so if the translated string is longer,
      consider translating it as if it said only "Search Settings". -->
-<!ENTITY changeSearchSettings.button  "検索設定を変更">
-<!ENTITY changeSearchSettings.tooltip "検索設定を変更します">
+<!ENTITY changeSearchSettings.button	"検索設定を変更">
+<!ENTITY changeSearchSettings.tooltip	"検索設定を変更します">
 
-<!ENTITY searchInNewTab.label         "@@NewTab@@で検索">
-<!ENTITY searchInNewTab.accesskey     "T">
-<!ENTITY searchSetAsDefault.label     "@@Default-@@検索エンジンに設定">
-<!ENTITY searchSetAsDefault.accesskey "D">
+<!ENTITY searchInNewTab.label		"@@NewTab@@で検索">
+<!ENTITY searchInNewTab.accesskey	"T">
+<!ENTITY searchSetAsDefault.label	"@@Default-@@検索エンジンに設定">
+<!ENTITY searchSetAsDefault.accesskey	"D">
 
-<!ENTITY openLinkCmdInTab.label       "リンクを@@NewTab@@で開く">
-<!ENTITY openLinkCmdInTab.accesskey   "T">
-<!ENTITY openLinkCmd.label            "リンクを@@NewWindow@@で開く">
-<!ENTITY openLinkCmd.accesskey        "W">
-<!ENTITY openLinkInPrivateWindowCmd.label "リンクを@@New-CMD@@プライベート@@Window@@で開く">
-<!ENTITY openLinkInPrivateWindowCmd.accesskey "P">
-<!ENTITY openLinkCmdInCurrent.label     "選択した URL を開く"><!-- (^m^) Bug 454518  en-US: "Open link" -->
-<!ENTITY openLinkCmdInCurrent.accesskey "O">
-<!ENTITY openFrameCmdInTab.label      "フレームを@@NewTab@@で開く">
-<!ENTITY openFrameCmdInTab.accesskey  "T">
-<!ENTITY openFrameCmd.label           "フレームを@@NewWindow@@で開く">
-<!ENTITY openFrameCmd.accesskey       "W">
-<!ENTITY openLinkCmdInContainerTab.label "リンクを@@New-CMD@@コンテナータブで開く">
-<!ENTITY openLinkCmdInContainerTab.accesskey "z">
-<!ENTITY showOnlyThisFrameCmd.label     "このフレームだけを表示">
-<!ENTITY showOnlyThisFrameCmd.accesskey "S">
-<!ENTITY reloadCmd.commandkey         "r">
-<!ENTITY reloadFrameCmd.label         "フレームの再読み込み">
-<!ENTITY reloadFrameCmd.accesskey     "R">
-<!ENTITY viewPartialSourceForSelectionCmd.label "選択した部分のソースを表示">
-<!ENTITY viewPartialSourceForMathMLCmd.label    "MathML のソースを表示">
+<!ENTITY openLinkCmdInTab.label			"リンクを@@NewTab@@で開く">
+<!ENTITY openLinkCmdInTab.accesskey		"T">
+<!ENTITY openLinkCmd.label			"リンクを@@NewWindow@@で開く">
+<!ENTITY openLinkCmd.accesskey			"W">
+<!ENTITY openLinkInPrivateWindowCmd.label	"リンクを@@New-CMD@@プライベート@@Window@@で開く">
+<!ENTITY openLinkInPrivateWindowCmd.accesskey	"P">
+<!ENTITY openLinkCmdInCurrent.label		"選択した URL を開く"><!-- (^m^) Bug 454518  en-US: "Open link" -->
+<!ENTITY openLinkCmdInCurrent.accesskey		"O">
+<!ENTITY openFrameCmdInTab.label		"フレームを@@NewTab@@で開く">
+<!ENTITY openFrameCmdInTab.accesskey		"T">
+<!ENTITY openFrameCmd.label			"フレームを@@NewWindow@@で開く">
+<!ENTITY openFrameCmd.accesskey			"W">
+<!ENTITY openLinkCmdInContainerTab.label	"リンクを@@New-CMD@@コンテナータブで開く">
+<!ENTITY openLinkCmdInContainerTab.accesskey	"b">
+<!ENTITY showOnlyThisFrameCmd.label		"このフレームだけを表示">
+<!ENTITY showOnlyThisFrameCmd.accesskey		"S">
+<!ENTITY reloadCmd.commandkey			"r">
+<!ENTITY reloadFrameCmd.label			"フレームの再読み込み">
+<!ENTITY reloadFrameCmd.accesskey		"R">
+<!ENTITY viewPartialSourceForSelectionCmd.label	"選択した部分のソースを表示">
+<!ENTITY viewPartialSourceForMathMLCmd.label	"MathML のソースを表示">
 <!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both
          viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
-<!ENTITY viewPartialSourceCmd.accesskey "e">
-<!ENTITY viewPageSourceCmd.label      "ページのソースを表示">
-<!ENTITY viewPageSourceCmd.accesskey  "V">
-<!ENTITY viewFrameSourceCmd.label     "フレームのソースを表示">
-<!ENTITY viewFrameSourceCmd.accesskey "V">
-<!ENTITY viewPageInfoCmd.label        "ページの情報を表示">
-<!ENTITY viewPageInfoCmd.accesskey    "I">
-<!ENTITY viewFrameInfoCmd.label       "フレームの情報を表示">
-<!ENTITY viewFrameInfoCmd.accesskey   "I">
-<!ENTITY reloadImageCmd.label         "画像を再読み込み">
-<!ENTITY reloadImageCmd.accesskey     "R">
-<!ENTITY viewImageCmd.label           "画像だけを表示">
-<!ENTITY viewImageCmd.accesskey       "I">
-<!ENTITY viewImageInfoCmd.label       "画像の情報を表示">
-<!ENTITY viewImageInfoCmd.accesskey   "f">
-<!ENTITY viewImageDescCmd.label       "画像の詳細情報を表示">
-<!ENTITY viewImageDescCmd.accesskey   "D">
-<!ENTITY viewVideoCmd.label           "動画だけを表示">
-<!ENTITY viewVideoCmd.accesskey       "I">
-<!ENTITY viewBGImageCmd.label         "背景画像だけを表示">
-<!ENTITY viewBGImageCmd.accesskey     "w">
-<!ENTITY setDesktopBackgroundCmd.label      "デスクトップの背景に設定...">
-<!ENTITY setDesktopBackgroundCmd.accesskey  "S">
-<!ENTITY bookmarkPageCmd2.label       "このページをブックマーク">
-<!ENTITY bookmarkThisLinkCmd.label      "このリンクをブックマーク">
-<!ENTITY bookmarkThisLinkCmd.accesskey  "L">
-<!ENTITY bookmarkThisFrameCmd.label      "このフレームをブックマーク">
-<!ENTITY bookmarkThisFrameCmd.accesskey  "m">
-<!ENTITY emailPageCmd.label           "ページの URL をメールで送信...">
-<!ENTITY emailPageCmd.accesskey       "E">
-<!ENTITY savePageCmd.label            "@@SavePageAs@@...">
-<!ENTITY savePageCmd.accesskey        "A">
+<!ENTITY viewPartialSourceCmd.accesskey		"e">
+<!ENTITY viewPageSourceCmd.label		"ページのソースを表示">
+<!ENTITY viewPageSourceCmd.accesskey		"V">
+<!ENTITY viewFrameSourceCmd.label		"フレームのソースを表示">
+<!ENTITY viewFrameSourceCmd.accesskey		"V">
+<!ENTITY viewPageInfoCmd.label			"ページの情報を表示">
+<!ENTITY viewPageInfoCmd.accesskey		"I">
+<!ENTITY viewFrameInfoCmd.label			"フレームの情報を表示">
+<!ENTITY viewFrameInfoCmd.accesskey		"I">
+<!ENTITY reloadImageCmd.label			"画像を再読み込み">
+<!ENTITY reloadImageCmd.accesskey		"R">
+<!ENTITY viewImageCmd.label			"画像だけを表示">
+<!ENTITY viewImageCmd.accesskey			"I">
+<!ENTITY viewImageInfoCmd.label			"画像の情報を表示">
+<!ENTITY viewImageInfoCmd.accesskey		"f">
+<!ENTITY viewImageDescCmd.label			"画像の詳細情報を表示">
+<!ENTITY viewImageDescCmd.accesskey		"D">
+<!ENTITY viewVideoCmd.label			"動画だけを表示">
+<!ENTITY viewVideoCmd.accesskey			"I">
+<!ENTITY viewBGImageCmd.label			"背景画像だけを表示">
+<!ENTITY viewBGImageCmd.accesskey		"w">
+<!ENTITY setDesktopBackgroundCmd.label		"デスクトップの背景に設定...">
+<!ENTITY setDesktopBackgroundCmd.accesskey	"S">
+<!ENTITY bookmarkPageCmd2.label			"このページをブックマーク">
+<!ENTITY bookmarkThisLinkCmd.label		"このリンクをブックマーク">
+<!ENTITY bookmarkThisLinkCmd.accesskey		"L">
+<!ENTITY bookmarkThisFrameCmd.label		"このフレームをブックマーク">
+<!ENTITY bookmarkThisFrameCmd.accesskey		"m">
+<!ENTITY emailPageCmd.label			"ページの URL をメールで送信...">
+<!ENTITY emailPageCmd.accesskey			"E">
+<!ENTITY savePageCmd.label			"@@SavePageAs@@...">
+<!ENTITY savePageCmd.accesskey			"A">
 <!-- alternate for content area context menu -->
-<!ENTITY savePageCmd.accesskey2       "P">
-<!ENTITY savePageCmd.commandkey       "s">
-<!ENTITY saveFrameCmd.label           "@@SaveFrameAs@@...">
-<!ENTITY saveFrameCmd.accesskey       "F">
-<!ENTITY printFrameCmd.label          "フレームを@@Print@@...">
-<!ENTITY printFrameCmd.accesskey      "P">
-<!ENTITY saveLinkCmd.label            "@@SaveLinkTargetAs@@...">
-<!ENTITY saveLinkCmd.accesskey        "k">
-<!ENTITY saveImageCmd.label           "@@SaveImageAs@@...">
-<!ENTITY saveImageCmd.accesskey       "v">
-<!ENTITY saveVideoCmd.label           "@@SaveVideoAs@@...">
-<!ENTITY saveVideoCmd.accesskey       "v">
-<!ENTITY saveAudioCmd.label           "@@SaveAudioAs@@...">
-<!ENTITY saveAudioCmd.accesskey       "v">
-<!ENTITY emailImageCmd.label          "画像の URL をメールで送信...">
-<!ENTITY emailImageCmd.accesskey      "g">
-<!ENTITY emailVideoCmd.label          "動画の URL をメールで送信...">
-<!ENTITY emailVideoCmd.accesskey      "a">
-<!ENTITY castVideoCmd.label           "動画を端末に送る">
-<!ENTITY castVideoCmd.accesskey       "e">
-<!ENTITY emailAudioCmd.label          "オーディオの URL をメールで送信...">
-<!ENTITY emailAudioCmd.accesskey      "a">
-<!ENTITY playPluginCmd.label          "このプラグインを有効化">
-<!ENTITY playPluginCmd.accesskey      "c">
-<!ENTITY hidePluginCmd.label          "このプラグインを非表示">
-<!ENTITY hidePluginCmd.accesskey      "H">
-<!ENTITY copyLinkCmd.label            "リンクの URL をコピー">
-<!ENTITY copyLinkCmd.accesskey        "a">
-<!ENTITY copyImageCmd.label           "画像の URL をコピー">
-<!ENTITY copyImageCmd.accesskey       "o">
-<!ENTITY copyImageContentsCmd.label   "画像をコピー">
-<!ENTITY copyImageContentsCmd.accesskey  "y">
-<!ENTITY copyVideoURLCmd.label        "動画の URL をコピー">
-<!ENTITY copyVideoURLCmd.accesskey    "o">
-<!ENTITY copyAudioURLCmd.label        "オーディオの URL をコピー">
-<!ENTITY copyAudioURLCmd.accesskey    "o">
-<!ENTITY copyEmailCmd.label           "メールアドレスをコピー">
-<!ENTITY copyEmailCmd.accesskey       "E">
-<!ENTITY thisFrameMenu.label              "このフレーム">
-<!ENTITY thisFrameMenu.accesskey          "h">
+<!ENTITY savePageCmd.accesskey2			"P">
+<!ENTITY savePageCmd.commandkey			"s">
+<!ENTITY saveFrameCmd.label			"@@SaveFrameAs@@...">
+<!ENTITY saveFrameCmd.accesskey			"F">
+<!ENTITY printFrameCmd.label			"フレームを@@Print@@...">
+<!ENTITY printFrameCmd.accesskey		"P">
+<!ENTITY saveLinkCmd.label			"@@SaveLinkTargetAs@@...">
+<!ENTITY saveLinkCmd.accesskey			"k">
+<!ENTITY saveImageCmd.label			"@@SaveImageAs@@...">
+<!ENTITY saveImageCmd.accesskey			"v">
+<!ENTITY saveVideoCmd.label			"@@SaveVideoAs@@...">
+<!ENTITY saveVideoCmd.accesskey			"v">
+<!ENTITY saveAudioCmd.label			"@@SaveAudioAs@@...">
+<!ENTITY saveAudioCmd.accesskey			"v">
+<!ENTITY emailImageCmd.label			"画像の URL をメールで送信...">
+<!ENTITY emailImageCmd.accesskey		"g">
+<!ENTITY emailVideoCmd.label			"動画の URL をメールで送信...">
+<!ENTITY emailVideoCmd.accesskey		"a">
+<!ENTITY castVideoCmd.label			"動画を端末に送る">
+<!ENTITY castVideoCmd.accesskey			"e">
+<!ENTITY emailAudioCmd.label			"音声の URL をメールで送信...">
+<!ENTITY emailAudioCmd.accesskey		"a">
+<!ENTITY playPluginCmd.label			"このプラグインを有効化">
+<!ENTITY playPluginCmd.accesskey		"c">
+<!ENTITY hidePluginCmd.label			"このプラグインを非表示">
+<!ENTITY hidePluginCmd.accesskey		"H">
+<!ENTITY copyLinkCmd.label			"リンクの URL をコピー">
+<!ENTITY copyLinkCmd.accesskey			"a">
+<!ENTITY copyImageCmd.label			"画像の URL をコピー">
+<!ENTITY copyImageCmd.accesskey			"o">
+<!ENTITY copyImageContentsCmd.label		"画像をコピー">
+<!ENTITY copyImageContentsCmd.accesskey		"y">
+<!ENTITY copyVideoURLCmd.label			"動画の URL をコピー">
+<!ENTITY copyVideoURLCmd.accesskey		"o">
+<!ENTITY copyAudioURLCmd.label			"音声の URL をコピー">
+<!ENTITY copyAudioURLCmd.accesskey		"o">
+<!ENTITY copyEmailCmd.label			"メールアドレスをコピー">
+<!ENTITY copyEmailCmd.accesskey			"E">
+<!ENTITY thisFrameMenu.label			"このフレーム">
+<!ENTITY thisFrameMenu.accesskey		"h">
 
 <!-- Media (video/audio) controls -->
 <!-- LOCALIZATION NOTE: The access keys for "Play" and
@@ -677,11 +677,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editPopupSettings.accesskey	"E">
 <!ENTITY dontShowMessage.accesskey	"D">
 
-<!ENTITY bidiSwitchPageDirectionItem.label        "ページの記述方向を切り替える">
-<!ENTITY bidiSwitchPageDirectionItem.accesskey    "D">
-<!ENTITY bidiSwitchTextDirectionItem.label        "テキストの記述方向を切り替える">
-<!ENTITY bidiSwitchTextDirectionItem.accesskey    "w">
-<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
+<!ENTITY bidiSwitchPageDirectionItem.label	"ページの記述方向を切り替える">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey	"D">
+<!ENTITY bidiSwitchTextDirectionItem.label	"テキストの記述方向を切り替える">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey	"w">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey	"X">
 
 <!ENTITY findOnCmd.label		"このページを検索...">
 <!ENTITY findOnCmd.accesskey		"F">
@@ -695,8 +695,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY spellAddDictionaries.label	"辞書を追加...">
 <!ENTITY spellAddDictionaries.accesskey	"A">
 
-<!ENTITY editBookmark.done.label                     "完了">
-<!ENTITY editBookmark.removeBookmark.accessKey       "R">
+<!ENTITY editBookmark.done.label		"完了">
+<!ENTITY editBookmark.removeBookmark.accessKey	"R">
 
 <!ENTITY identity.connectionSecure		"安全な接続">
 <!ENTITY identity.connectionNotSecure		"この接続は安全ではありません">
@@ -756,6 +756,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "タブの同期をオンにすると、他の端末のタブの一覧を表示できます。">
 
+<!-- LOCALIZATION NOTE (syncedTabs.context.open.accesskey,
+                        syncedTabs.context.openAllInTabs.accesskey):
+     These access keys are identical because their associated menu items are
+     mutually exclusive -->
 <!ENTITY syncedTabs.context.open.label                       "開く">
 <!ENTITY syncedTabs.context.open.accesskey                   "O">
 <!ENTITY syncedTabs.context.openInNewTab.label               "@@NewTab@@で開く">
@@ -768,6 +772,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "B">
 <!ENTITY syncedTabs.context.copy.label                       "コピー">
 <!ENTITY syncedTabs.context.copy.accesskey                   "C">
+
+<!ENTITY syncedTabs.context.openAllInTabs.label              "すべてをタブで開く">
+<!ENTITY syncedTabs.context.openAllInTabs.accesskey          "O">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">

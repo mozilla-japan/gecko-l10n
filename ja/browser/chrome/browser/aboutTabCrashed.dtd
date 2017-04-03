@@ -27,4 +27,4 @@
 <!ENTITY tabCrashed.emailMe			"新着情報があったらメールを送信する">
 <!ENTITY tabCrashed.reportSent			"クラッシュレポートを送信しました。&brandShortName; の改善に役立てます。">
 <!ENTITY tabCrashed.requestAutoSubmit2		"他のタブも報告">
-<!ENTITY tabCrashed.autoSubmit			"設定を変更すると、未送信のクラッシュレポートを自動的に送信します。(このようなメッセージはいずれ少なくなります)">
+<!ENTITY tabCrashed.autoSubmit2			"設定を変更すると、このセッション以降にクラッシュした@@Back@@のタブについてのレポートを含むクラッシュレポートを自動的に送信します。">

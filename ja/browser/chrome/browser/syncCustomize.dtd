@@ -17,7 +17,7 @@
 <!ENTITY engine.bookmarks.accesskey       "m">
 <!ENTITY engine.history.label             "履歴">
 <!ENTITY engine.history.accesskey         "r">
-<!ENTITY engine.tabs.label                "タブ">
+<!ENTITY engine.tabs.label2               "開いたタブ">
 <!ENTITY engine.tabs.accesskey            "T">
 <!ENTITY engine.passwords.label           "パスワード">
 <!ENTITY engine.passwords.accesskey       "P">

@@ -1,0 +1,11 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY window.title		"設定 - サイトデータ">
+<!ENTITY settings.description	"次のウェブサイトがサイトデータをディスクに保存することを求めています。サイトデータの保存を許可するウェブサイトを指定してください。@@Default-@@サイトデータは一時的なものであり自動的に削除されます。">
+<!ENTITY hostCol.label		"サイト">
+<!ENTITY statusCol.label	"状態">
+<!ENTITY usageCol.label		"ストレージ">
+<!ENTITY search.label		"検索:">
+<!ENTITY search.accesskey	"S">

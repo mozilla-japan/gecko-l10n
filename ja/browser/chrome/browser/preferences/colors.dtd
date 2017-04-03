@@ -6,12 +6,12 @@
 <!ENTITY  window.width                    "38em">
 <!ENTITY  window.macWidth                 "41em">
 
-<!ENTITY  overridePageColors.label        "ウェブページが指定した@@Colors@@を選択した@@Colors@@で上書きする:">
-<!ENTITY  overridePageColors.accesskey    "O">
+<!ENTITY  overrideDefaultPageColors.label        "ウェブページが指定した@@Colors@@を選択した@@Colors@@で上書きする:">
+<!ENTITY  overrideDefaultPageColors.accesskey    "O">
 
-<!ENTITY  overridePageColors.always.label "常に">
-<!ENTITY  overridePageColors.auto.label   "高コントラストなテーマのみ">
-<!ENTITY  overridePageColors.never.label  "しない">
+<!ENTITY  overrideDefaultPageColors.always.label "常に上書き">
+<!ENTITY  overrideDefaultPageColors.auto.label   "高コントラストなテーマのみ">
+<!ENTITY  overrideDefaultPageColors.never.label  "上書きしない">
 
 <!ENTITY  color                           "テキストと背景の@@Color@@">
 <!ENTITY  textColor.label                 "テキスト:">

@@ -22,7 +22,7 @@
 <!ENTITY signIn.account2.accesskey  "A">
 <!ENTITY signIn.password.label      "パスワード">
 <!ENTITY signIn.password.accesskey  "P">
-<!ENTITY signIn.recoveryKey.label       "リカバリキー">
+<!ENTITY signIn.recoveryKey.label       "リカバリーキー">
 <!ENTITY signIn.recoveryKey.accesskey   "K">
 
 <!-- New Account Page 1: Basic Account Info -->
@@ -46,11 +46,11 @@
 
 <!-- My Recovery Key dialog -->
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; はプライバシーを大切にします">
-<!ENTITY setup.newRecoveryKeyPage.description.label "あなたのプライバシーを守るため、すべてのデータはアップロード前に暗号化されます。データを復号する際に必要となるリカバリキーはアップロードされません。">
-<!ENTITY recoveryKeyEntry.label        "リカバリキー">
+<!ENTITY setup.newRecoveryKeyPage.description.label "あなたのプライバシーを守るため、すべてのデータはアップロード前に暗号化されます。データを復号する際に必要となるリカバリーキーはアップロードされません。">
+<!ENTITY recoveryKeyEntry.label        "リカバリーキー">
 <!ENTITY recoveryKeyEntry.accesskey    "K">
-<!ENTITY syncGenerateNewKey.label      "新規リカバリキーを生成">
-<!ENTITY recoveryKeyBackup.description "リカバリキーは、他の端末から &syncBrand.fullName.label; へアクセスする際に必要となります。メモとして残しておくことをお勧めします。リカバリキーを失くすと取り戻すことはできません。">
+<!ENTITY syncGenerateNewKey.label      "新規リカバリーキーを生成">
+<!ENTITY recoveryKeyBackup.description "リカバリーキーは、他の端末から &syncBrand.fullName.label; へアクセスする際に必要となります。メモとして残しておくことをお勧めします。リカバリーキーを失くすと取り戻すことはできません。">
 
 <!ENTITY button.syncKeyBackup.print.label     "@@Print@@...">
 <!ENTITY button.syncKeyBackup.print.accesskey "P">
@@ -67,12 +67,12 @@
 <!ENTITY addDevice.dialog.enterCode.label   "端末に表示されたコードを入力してください:">
 <!ENTITY addDevice.dialog.tryAgain.label    "もう一度入力してください。">
 <!ENTITY addDevice.dialog.successful.label  "端末の接続に成功しました。最初の同期はバックグラウンドで、数分のうちに完了します。">
-<!ENTITY addDevice.dialog.recoveryKey.label "お使いの端末で &syncBrand.shortName.label; を有効にするには、リカバリキーを入力する必要があります。以下のリカバリキーを@@Print@@または保存して、端末に入力してください。">
+<!ENTITY addDevice.dialog.recoveryKey.label "お使いの端末で &syncBrand.shortName.label; を有効にするには、リカバリーキーを入力する必要があります。以下のリカバリーキーを@@Print@@または保存して、端末に入力してください。">
 <!ENTITY addDevice.dialog.connected.label   "端末が接続されました">
 
 <!-- Existing Account Page 2: Manual Login -->
 <!ENTITY setup.signInPage.title.label "サインイン">
-<!ENTITY existingRecoveryKey.description "リカバリキーは他の Sync 端末の &syncBrand.shortName.label; オプションの &#x0022;アカウントを管理&#x0022; の &#x0022;自分のリカバリキー&#x0022; で確認できます。">
+<!ENTITY existingRecoveryKey.description "リカバリーキーは他の Sync 端末の &syncBrand.shortName.label; オプションの &#x0022;アカウントを管理&#x0022; の &#x0022;自分のリカバリーキー&#x0022; で確認できます。">
 <!ENTITY verifying.label              "確認中...">
 <!ENTITY resetPassword.label          "パスワードをリセット">
 <!ENTITY resetSyncKey.label           "他の Sync 端末をなくした場合。">
@@ -85,7 +85,7 @@
 <!ENTITY syncMy.label               "同期するデータ">
 <!ENTITY engine.bookmarks.label     "ブックマーク">
 <!ENTITY engine.bookmarks.accesskey "m">
-<!ENTITY engine.tabs.label          "タブ">
+<!ENTITY engine.tabs.label2         "開いたタブ">
 <!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "履歴">
 <!ENTITY engine.history.accesskey   "r">

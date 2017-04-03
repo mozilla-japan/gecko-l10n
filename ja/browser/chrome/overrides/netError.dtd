@@ -184,9 +184,11 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.longDesc	"<span class='hostname'></span> は攻撃に対して脆弱な古い技術を利用しています。安全だと想定される秘密情報を、攻撃者に簡単に開示される可能性があります。">
 <!ENTITY weakCryptoAdvanced.override	"(安全ではない接続) 古い技術で <span class='hostname'></span> を読み込む">
 
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
-<!ENTITY certerror.wrongSystemTime "<p>このコンピューターの時刻が正しくないため、<span id='wrongSystemTime_URL'/> への安全な接続を確保できません。</p><p>このコンピューターの時刻は <span id='wrongSystemTime_systemDate'/> となっていますが、正しい時刻は <span id='wrongSystemTime_actualDate'/> です。問題を解決するには、コンピューターの時刻を正しく設定してください。</p>">
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime2 "<p>&brandShortName; は <span id='wrongSystemTime_URL'/> に接続しませんでした。このコンピューターの時刻が正しくないため安全な接続が妨げられています。</p> <p>このコンピューターの時刻は <span id='wrongSystemTime_systemDate'/> となっていますが、正しい時刻は <span id='wrongSystemTime_actualDate'/> です。問題を解決するには、コンピューターの日付と時刻を正しく設定してください。</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p>&brandShortName; は <span id='wrongSystemTimeWithoutReference_URL'/> に接続しませんでした。このコンピューターの時刻が正しくないため安全な接続が妨げられています。</p> <p>このコンピューターの時刻は <span id='wrongSystemTimeWithoutReference_systemDate'/> となっています。問題を解決するには、コンピューターの日付と時刻を正しく設定してください。</p>">
 
 <!ENTITY certerror.pagetitle1			"安全ではない接続">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation	"このサイトでは、暗号化された通信のみで接続するよう &brandShortName; に指定する HTTP Strict Transport Security (HSTS) が使われています。そのため、この証明書を例外に追加することはできません。">

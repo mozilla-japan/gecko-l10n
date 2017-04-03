@@ -61,8 +61,8 @@
 <!ENTITY  useDefaultFontSerif.label               "明朝体 (Serif)">
 <!ENTITY  useDefaultFontSansSerif.label           "ゴシック体 (Sans-serif)">
 
-<!ENTITY  allowPagesToUse.label                   "ウェブページが指定したフォントを優先する">
-<!ENTITY  allowPagesToUse.accesskey               "A">
+<!ENTITY  allowPagesToUseOwn.label                "ウェブページが指定したフォントを優先する">
+<!ENTITY  allowPagesToUseOwn.accesskey            "A">
 
 <!ENTITY languages.customize.Fallback2.grouplabel "古いウェブページでのテキストエンコーディング">
 <!ENTITY languages.customize.Fallback2.label      "代替テキストエンコーディング:">
