@@ -387,6 +387,8 @@ size. -->
 <!ENTITY pref_history_search_suggestions "検索履歴を表示">
 <!ENTITY pref_import_options "@@Import@@オプション">
 <!ENTITY pref_import_android_summary "ネイティブブラウザーからブックマークや履歴を@@Import-suru@@">
+<!-- Localization note (pref_private_data_openTabs): Open tabs is an option in
+     the Clear Private Data  dialog and refers to currently open tabs. -->
 <!ENTITY pref_private_data_openTabs "開いているタブ">
 <!ENTITY pref_private_data_history2 "閲覧履歴">
 <!ENTITY pref_private_data_searchHistory "検索履歴">
@@ -518,10 +520,8 @@ size. -->
 <!ENTITY doorhanger_login_edit_username_hint "ユーザー名">
 <!ENTITY doorhanger_login_edit_password_hint "パスワード">
 <!ENTITY doorhanger_login_edit_toggle "パスワードを表示">
-<!ENTITY doorhanger_login_edit_toast_error "ログイン情報の保存に失敗しました">
 <!ENTITY doorhanger_login_select_message "&formatS; からパスワードをコピーしますか？">
 <!ENTITY doorhanger_login_select_toast_copy "パスワードはクリップボードにコピーされました">
-<!ENTITY doorhanger_login_select_toast_copy_error "パスワードをコピーできませんでした">
 <!ENTITY doorhanger_login_select_action_text "他のログイン情報を選択してください">
 <!ENTITY doorhanger_login_select_title "コピーするパスワード:">
 
