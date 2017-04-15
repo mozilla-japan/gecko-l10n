@@ -797,3 +797,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 dom, security          375932:e53f7f1785eb  24462:6abb0416d697   mar             sync dom, security
 netwerk                375932:e53f7f1785eb  -----:------------   mar             sync netwerk
+toolkit                375932:e53f7f1785eb  -----:------------   mar             sync toolkit

@@ -62,6 +62,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport	"マルチプロセス@@Window@@">
 
+<!ENTITY aboutSupport.appBasicsKeyGoogle	"Google キー">
+<!ENTITY aboutSupport.appBasicsKeyMozilla	"Mozilla Location Service キー">
+
 <!ENTITY aboutSupport.appBasicsSafeMode		"セーフモード">
 
 <!ENTITY aboutSupport.showDir.label		"ディレクトリーを開く"><!-- Win/Mac 以外 -->
@@ -107,6 +110,14 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyRawDataToClipboard.label	"生データをクリップボードにコピー">
 
 <!ENTITY aboutSupport.sandboxTitle		"サンドボックス">
+<!ENTITY aboutSupport.sandboxSyscallLogTitle	"却下されたシステムコール">
+<!ENTITY aboutSupport.sandboxSyscallIndex	"#">
+<!ENTITY aboutSupport.sandboxSyscallAge		"秒前">
+<!ENTITY aboutSupport.sandboxSyscallPID		"PID">
+<!ENTITY aboutSupport.sandboxSyscallTID		"TID">
+<!ENTITY aboutSupport.sandboxSyscallProcType	"プロセスの種類">
+<!ENTITY aboutSupport.sandboxSyscallNumber	"Syscall">
+<!ENTITY aboutSupport.sandboxSyscallArgs	"引数">
 
 <!ENTITY aboutSupport.safeModeTitle		"セーフモードを試す">
 <!ENTITY aboutSupport.restartInSafeMode.label	"アドオンを無効化して再起動...">

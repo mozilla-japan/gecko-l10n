@@ -156,12 +156,12 @@ Ping
   NOTE: 動作の遅い SQL のデバッグが有効です。SQL 全文が以下に表示されますが、Telemetry には送信されません。
 ">
 
-<!ENTITY aboutTelemetry.fetchSymbols "
-  スタック上の関数名を読み込む
+<!ENTITY aboutTelemetry.fetchStackSymbols "
+  スタックの関数名を読み込む
 ">
 
-<!ENTITY aboutTelemetry.hideSymbols "
-  生データを表示する
+<!ENTITY aboutTelemetry.hideStackSymbols "
+  生のスタックデータを表示する
 ">
 
 <!ENTITY aboutTelemetry.filterText "
