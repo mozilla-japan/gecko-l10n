@@ -637,6 +637,9 @@
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label			"メッセージを受信する">
 <!ENTITY folderContextGetMessages.accesskey		"G">
+<!ENTITY folderContextPauseAllUpdates.label		"すべての更新を一時停止">
+<!ENTITY folderContextPauseUpdates.label		"更新を一時停止">
+<!ENTITY folderContextPauseUpdates.accesskey		"U">
 <!ENTITY folderContextOpenInNewWindow.label		"@@NewWindow@@で開く">
 <!ENTITY folderContextOpenInNewWindow.accesskey		"O">
 <!ENTITY folderContextOpenNewTab.label			"@@NewTab@@で開く">

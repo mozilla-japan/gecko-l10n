@@ -799,3 +799,4 @@ dom, security          375932:e53f7f1785eb  24462:6abb0416d697   mar            
 netwerk                375932:e53f7f1785eb  -----:------------   mar             sync netwerk
 toolkit                375932:e53f7f1785eb  -----:------------   mar             sync toolkit
 services/sync          375932:e53f7f1785eb  -----:------------   mar             sync services/sync
+chat, mail             ------:------------  24465:509cbae906af   mar             sync chat, mail

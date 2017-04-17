@@ -2,23 +2,15 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY biffStart.label		"新着記事を">
-<!ENTITY biffStart.accesskey		"k">
-<!ENTITY biffEnd.label			"分ごとに確認する">
-
 <!ENTITY loginAtStartup.label		"起動時に新着記事を確認する">
 <!ENTITY loginAtStartup.accesskey	"C">
+<!ENTITY biffAll.label			"すべてのフィードの更新を有効にする">
+<!ENTITY biffAll.accesskey		"E">
 
-<!ENTITY useQuickMode.label		"@@Default@@ではウェブページを読み込まずに記事の要約を表示する">
-<!ENTITY useQuickMode.accesskey		"B">
+<!ENTITY newFeedSettings.label		"新着フィードの@@Default-@@設定">
 
-<!ENTITY manageSubscriptions.label	"フィード購読の管理..."> 
+<!ENTITY manageSubscriptions.label	"フィード購読の管理...">
 <!ENTITY manageSubscriptions.accesskey	"M">
 
 <!ENTITY feedWindowTitle.label		"フィードアカウント@@Wizard@@">
-
-<!-- entities from rss.rdf -->
 <!ENTITY feeds.accountName		"ブログとニュース"><!-- en-US: Blogs &amp; News Feeds -->
-<!ENTITY feeds.wizardShortName		"フィード">
-<!ENTITY feeds.wizardLongName		"ブログとニュース (フィード)">
-<!ENTITY feeds.wizardLongName.accesskey	"F">

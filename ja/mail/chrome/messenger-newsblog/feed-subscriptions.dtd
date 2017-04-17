@@ -10,7 +10,7 @@
 <!ENTITY feedTitle.accesskey		"T">
 
 <!ENTITY feedLocation.label		"フィードの URL:">
-<!ENTITY feedLocation.accesskey		"U">
+<!ENTITY feedLocation.accesskey		"F">
 <!ENTITY feedLocation.placeholder	"追加するフィードの正しい URL を入力してください">
 <!ENTITY locationValidate.label		"フィードを検証">
 <!ENTITY validateText.label		"フィードが有効か確認して正しい URL を取得します。">
@@ -19,15 +19,25 @@
 <!ENTITY feedFolder.label		"記事の保存先:">
 <!ENTITY feedFolder.accesskey		"S">
 
+<!-- Account Settings and Subscription Dialog -->
+<!ENTITY biffStart.label		"新着記事の確認間隔:">
+<!ENTITY biffStart.accesskey		"k">
+<!ENTITY biffMinutes.label		"分">
+<!ENTITY biffMinutes.accesskey		"n">
+<!ENTITY biffDays.label			"日">
+<!ENTITY biffDays.accesskey		"d">
+<!ENTITY recommendedUnits.label		"発行者指定の間隔:"><!-- en-US: "Publisher recommends:" -->
+
 <!ENTITY quickMode.label		"ウェブページを読み込まずに記事の要約を表示する">
 <!ENTITY quickMode.accesskey		"h">
 
 <!ENTITY autotagEnable.label		"フィードの &lt;カテゴリー&gt; 名から自動的にタグを作成する">
-<!ENTITY autotagEnable.accesskey	"c">
+<!ENTITY autotagEnable.accesskey	"o">
 <!ENTITY autotagUsePrefix.label		"タグの接頭辞:">
 <!ENTITY autotagUsePrefix.accesskey	"P">
 <!ENTITY autoTagPrefix.placeholder	"タグの接頭辞を入力してください">
 
+<!-- Subscription Dialog -->
 <!ENTITY button.addFeed.label		"追加">
 <!ENTITY button.addFeed.accesskey	"A">
 <!ENTITY button.updateFeed.label	"更新">
