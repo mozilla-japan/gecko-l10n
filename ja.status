@@ -801,3 +801,4 @@ toolkit                375932:e53f7f1785eb  -----:------------   mar            
 services/sync          375932:e53f7f1785eb  -----:------------   mar             sync services/sync
 mobile                 375932:e53f7f1785eb  -----:------------   kechol          sync mobile
 chat, mail             ------:------------  24465:509cbae906af   mar             sync chat, mail
+suite                  ------:------------  24465:509cbae906af   mar             sync suite
