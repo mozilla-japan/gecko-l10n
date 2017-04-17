@@ -80,11 +80,14 @@
 <!ENTITY fxaccount_status_more 'さらに詳しく...'>
 <!ENTITY fxaccount_remove_account '接続解除...'>
 
-<!ENTITY fxaccount_remove_account_dialog_title 'Firefox アカウントを削除しますか？'>
-<!ENTITY fxaccount_remove_account_dialog_message '&brandShortName; はあなたのアカウントを同期することを停止しますが、このデバイスのブラウジングデータは一切削除されません。'>
+<!ENTITY fxaccount_remove_account_dialog_title2 'Sync の接続を解除しますか？'>
+<!ENTITY fxaccount_remove_account_dialog_message2 'ブラウジングデータはデバイスに残りますが、アカウントとの同期はされなくなります。'>
 <!-- Localization note: format string below will be replaced
      with the Firefox Account's email address. -->
-<!ENTITY fxaccount_remove_account_toast 'Firefox アカウント &formatS; は削除されました。'>
+<!ENTITY fxaccount_remove_account_toast2 'Firefox アカウント &formatS; との接続は解除されました。'>
+<!-- Localization note (fxaccount_remove_account_dialog_action_confirm): This is the label for the
+     confirm button in the dialog that shows up when disconnecting from sync. -->
+<!ENTITY fxaccount_remove_account_dialog_action_confirm '接続を解除'>
 
 <!ENTITY fxaccount_enable_debug_mode 'デバッグモードを有効化'>
 
