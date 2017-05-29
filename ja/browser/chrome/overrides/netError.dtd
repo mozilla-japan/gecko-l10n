@@ -48,11 +48,11 @@
 ">
 
 <!ENTITY captivePortal.title		"ネットワークにログイン">
-<!ENTITY captivePortal.longDesc		"
-<p>このネットワークからインターネットに接続するには、ログインが必要なようです。</p>
+<!ENTITY captivePortal.longDesc2 "
+<p>インターネットへ接続するには、このネットワークにログインする必要があります。</p>
 ">
 
-<!ENTITY openPortalLoginPage.label	"ログインページを開く">
+<!ENTITY openPortalLoginPage.label2	"ネットワークのログインページを開く">
 
 <!ENTITY malformedURI.title		"アドレスの書式が正しくありません">
 <!ENTITY malformedURI.longDesc		"
@@ -175,14 +175,6 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc2		"高度な情報: SSL_ERROR_UNSUPPORTED_VERSION">
-
-<!ENTITY weakCryptoUsed.title		"接続が安全ではありません">
-<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
-     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
-<!ENTITY weakCryptoUsed.longDesc2	"高度な情報: SSL_ERROR_NO_CYPHER_OVERLAP">
-<!ENTITY weakCryptoAdvanced.title	"エラー内容">
-<!ENTITY weakCryptoAdvanced.longDesc	"<span class='hostname'></span> は攻撃に対して脆弱な古い技術を利用しています。安全だと想定される秘密情報を、攻撃者に簡単に開示される可能性があります。">
-<!ENTITY weakCryptoAdvanced.override	"(安全ではない接続) 古い技術で <span class='hostname'></span> を読み込む">
 
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
                         certerror.wrongSystemTimeWithoutReference) - The <span id='..' />

@@ -2,10 +2,19 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title		"設定 - サイトデータ">
-<!ENTITY settings.description	"次のウェブサイトがサイトデータをディスクに保存することを求めています。サイトデータの保存を許可するウェブサイトを指定してください。@@Default-@@サイトデータは一時的なものであり自動的に削除されます。">
-<!ENTITY hostCol.label		"サイト">
-<!ENTITY statusCol.label	"状態">
-<!ENTITY usageCol.label		"ストレージ">
-<!ENTITY search.label		"検索:">
-<!ENTITY search.accesskey	"S">
+<!ENTITY window.title			"設定 - サイトデータ">
+<!ENTITY settings.description		"次のウェブサイトがサイトデータをディスクに保存することを求めています。サイトデータの保存を許可するウェブサイトを指定してください。@@Default-@@サイトデータは一時的なものであり自動的に削除されます。">
+<!ENTITY hostCol.label			"サイト">
+<!ENTITY statusCol.label		"状態">
+<!ENTITY usageCol.label			"ストレージ">
+<!ENTITY searchPlaceHolder		"検索">
+<!ENTITY searchPlaceHolder.accesskey	"S">
+<!ENTITY removeSelected.label		"選択されたサイトデータを削除">
+<!ENTITY removeSelected.accesskey	"r">
+<!ENTITY save.label			"変更を保存">
+<!ENTITY save.accesskey			"a">
+<!ENTITY cancel.label			"キャンセル">
+<!ENTITY cancel.accesskey		"C">
+<!ENTITY removingDialog.title		"サイトデータの削除">
+<!ENTITY removingDialog.description	"サイトデータを削除すると Cookie も削除されるため、ウェブサイトからログアウトされ、オフラインウェブコンテンツが削除されます。本当に削除してもよろしいですか？">
+<!ENTITY siteTree.label			"次のウェブサイトの Cookie が削除されます:">

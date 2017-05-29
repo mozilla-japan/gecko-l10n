@@ -2,27 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- The page shown when not logged in... -->
-<!ENTITY setupButton.label          "&syncBrand.fullName.label; をセットアップ">
-<!ENTITY setupButton.accesskey      "S">
-<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; を使えば、Firefox の履歴、ブックマーク、パスワード、開いているタブに、様々な端末からアクセスできます。">
-
 <!-- The page shown when logged in... -->
 
-<!-- Login error feedback -->
-<!ENTITY updatePass.label             "更新">
-<!ENTITY resetPass.label              "リセット">
-
-<!-- Manage Account -->
-<!ENTITY manageAccount.label		"アカウントを管理">
-<!ENTITY manageAccount.accesskey	"n">
-<!ENTITY changePassword2.label		"パスワードを変更...">
-<!ENTITY myRecoveryKey.label		"リカバリーキー">
-<!ENTITY resetSync2.label		"Sync をリセット...">
-
-<!ENTITY pairDevice.label		"端末と連携">
-
-<!ENTITY syncMy.label			"同期するデータ">
 <!ENTITY engine.bookmarks.label		"ブックマーク">
 <!ENTITY engine.bookmarks.accesskey	"m">
 <!ENTITY engine.tabs.label2		"開いたタブ">
@@ -37,7 +18,6 @@
 <!ENTITY engine.addons.accesskey	"A">
 
 <!-- Device Settings -->
-<!ENTITY syncDeviceName.label			"端末名:">
 <!ENTITY fxaSyncDeviceName.label		"端末名">
 <!ENTITY changeSyncDeviceName.label		"端末名を変更...">
 <!ENTITY changeSyncDeviceName.accesskey		"h">
@@ -45,15 +25,12 @@
 <!ENTITY cancelChangeSyncDeviceName.accesskey	"n">
 <!ENTITY saveChangeSyncDeviceName.label		"保存">
 <!ENTITY saveChangeSyncDeviceName.accesskey	"v">
-<!ENTITY unlinkDevice.label			"この端末を切り離す">
 
 <!-- Footer stuff -->
 <!ENTITY prefs.tosLink.label		"利用規約">
-<!ENTITY prefs.ppLink.label		"プライバシーポリシー">
 
 <!-- Firefox Accounts stuff -->
-<!ENTITY fxaPrivacyNotice.link.label	"プライバシーポリシーを表示">
-<!ENTITY determiningAcctStatus.label	"アカウントの状態を確認しています...">
+<!ENTITY fxaPrivacyNotice.link.label	"プライバシーに関する注意">
 
 <!-- LOCALIZATION NOTE (signedInUnverified.beforename.label,
 signedInUnverified.aftername.label): these two string are used respectively
@@ -69,10 +46,10 @@ before and after the account email address. Localizers can use one of them, or
 both, to better adapt this sentence to their language.
 -->
 <!ENTITY signedInLoginFailure.beforename.label	"">
-<!ENTITY signedInLoginFailure.aftername.label	"に再接続するにはサインインしてください。">
+<!ENTITY signedInLoginFailure.aftername.label	"に再接続するにはログインしてください。">
 
-<!ENTITY notSignedIn.label		"サインインしていません。">
-<!ENTITY signIn.label			"サインイン">
+<!ENTITY notSignedIn.label		"ログインしていません。">
+<!ENTITY signIn.label			"ログイン">
 <!ENTITY signIn.accesskey		"g">
 <!ENTITY profilePicture.tooltip		"プロフィール写真を変更します">
 <!ENTITY verifiedManage.label		"アカウントの管理">
@@ -84,18 +61,12 @@ both, to better adapt this sentence to their language.
 <!ENTITY forget.label			"このメールアドレスを解除">
 <!ENTITY forget.accesskey		"F">
 
-<!ENTITY welcome.description		"&brandShortName; なら、どこからでもタブやブックマークやパスワードなどにアクセスできます。">
-<!ENTITY welcome.signIn.label		"サインイン">
-<!ENTITY welcome.createAccount.label	"アカウントを作成">
-
-<!ENTITY welcome.useOldSync.label	"古いバージョンの Sync をお使いですか？">
-
 <!ENTITY signedOut.caption		"ウェブを持ち歩こう">
 <!ENTITY signedOut.description		"ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。">
 <!ENTITY signedOut.accountBox.title	"&syncBrand.fxAccount.label; で接続する">
 <!ENTITY signedOut.accountBox.create	"アカウント作成">
 <!ENTITY signedOut.accountBox.create.accesskey	"C">
-<!ENTITY signedOut.accountBox.signin	"サインイン">
+<!ENTITY signedOut.accountBox.signin	"ログイン">
 <!ENTITY signedOut.accountBox.signin.accesskey	"I">
 
 <!ENTITY signedIn.engines.label		"すべての端末を同期する">

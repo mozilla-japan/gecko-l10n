@@ -780,7 +780,7 @@ mobile                 350337:cd4fc47221cb  -----:------------   Kechol         
 devtools               350387:b58eb6e9e6c6  -----:------------   mar             sync devtools
 browser                350390:1bf0b129e71a  -----:------------   hATrayflood     sync browser
 
-[l10n-mozilla-53.0] (for beta)
+Released! [l10n-mozilla-53.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security          359458:4d497454ce0c  24172:424fb7da6a43   mar             sync dom, security
@@ -792,7 +792,7 @@ devtools/client        376746:65c3d718dd5f  -----:------------   mar            
 browser                377129:39c86569861c  -----:------------   mar             sync browser (mozilla-beta)
 suite                  ------:------------  27480:4f1a69c1b834   mar             sync suite (comm-beta)
 
-[l10n-mozilla-54.0] (for aurora)
+[l10n-mozilla-54.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security          375932:e53f7f1785eb  24462:6abb0416d697   mar             sync dom, security
@@ -803,3 +803,9 @@ mobile                 375932:e53f7f1785eb  -----:------------   kechol         
 chat, mail             ------:------------  24465:509cbae906af   mar             sync chat, mail
 suite                  ------:------------  24465:509cbae906af   mar             sync suite
 devtools/client        375940:44f6061a5dc6  -----:------------   mar             sync devtools/client
+browser                394101:eb10d90aea8f  -----:------------   mar             sync browser (mozilla-beta)
+
+[l10n-mozilla-55.0] (for central)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
+
