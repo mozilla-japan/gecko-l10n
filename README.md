@@ -18,7 +18,7 @@ Mozilla 製品のローカライズに問題を見つけたり気になる点が
 
 ## ブランチとマージ
 
-GitHub での master ブランチ (hg では defaut ブランチ) が ~~Developer Edition ビルド (mozilla-aurora, comm-aurora) 用のリソースです。~~ Nightly ビルド用の l10n-central ブランチです (version 55.0 から)。ベータ版・リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。
+GitHub での master ブランチ (hg では defaut ブランチ) が ~~Developer Edition ビルド (mozilla-aurora, comm-aurora) 用のリソースです。~~ Nightly ビルド (mozilla-central, comm-central) 用のリソースです (version 55.0 から)。ベータ版・リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。
 
 バージョンアップ時の英語リソースファイル変更に追従する場合は master ブランチだけを修正すれば構いませんが、既にブランチを切っているバージョンにも反映したい場合は master だけでなく該当ブランチにもマージしてください。
 
@@ -85,6 +85,10 @@ git push
     * https://hg.mozilla.org/releases/l10n/mozilla-release/ja-JP-mac/
 * Firefox for iOS
   * https://pontoon.mozilla.org/ja/firefox-for-ios/
+* Firefox Focus for iOS
+  * https://pontoon.mozilla.org/ja/focus-for-ios/
+* Firefox Focus for Android
+  * https://pontoon.mozilla.org/ja/focus-for-android/
 * Firefox OS (Gaia)
   * https://github.com/mozilla-japan/gaia-l10n
   * (v2.6) https://hg.mozilla.org/gaia-l10n/ja/
