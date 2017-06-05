@@ -18,7 +18,7 @@ Mozilla 製品のローカライズに問題を見つけたり気になる点が
 
 ## ブランチとマージ
 
-GitHub での master ブランチ (hg では defaut ブランチ) が Developer Edition ビルド (mozilla-aurora, comm-aurora) 用のリソースです。Nightly ビルド用は l10n-central ブランチ、ベータ版・リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。
+GitHub での master ブランチ (hg では defaut ブランチ) が ~Developer Edition ビルド (mozilla-aurora, comm-aurora) 用のリソースです。~Nightly ビルド用の l10n-central ブランチです (version 55.0 から)。ベータ版・リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。
 
 バージョンアップ時の英語リソースファイル変更に追従する場合は master ブランチだけを修正すれば構いませんが、既にブランチを切っているバージョンにも反映したい場合は master だけでなく該当ブランチにもマージしてください。
 
@@ -66,7 +66,7 @@ git push
   * [Mozilla 用語集](https://github.com/mozilla-japan/translation/wiki/Mozilla-L10N-Glossary)
   * [Firefox OS 用語集](https://github.com/mozilla-japan/translation/wiki/Firefox-OS-Glossary)
 * 一般的な用字用語について
-  * [共同通信社 記者ハンドブック](http://www.kyodo.co.jp/kkservice/HB/)
+  * [共同通信社 記者ハンドブック](https://www.kyodo.co.jp/books/isbn/978-4-7641-0687-1/)
 
 ## L10n 関連リポジトリ等
 
@@ -74,10 +74,10 @@ git push
   * Nightly:
     * https://hg.mozilla.org/l10n-central/ja/
     * https://hg.mozilla.org/l10n-central/ja-JP-mac/
-  * Developer Edition (Aurora):
+  * ~Aurora:~  (EOL in 54.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja-JP-mac/
-  * Beta:
+  * Beta (Developer Edition since 55.0):
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja-JP-mac/
   * Release:
