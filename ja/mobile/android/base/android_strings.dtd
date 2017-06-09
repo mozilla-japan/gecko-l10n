@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "ブックマークを削除しました">
 <!ENTITY bookmark_updated "ブックマークを更新しました">
 <!ENTITY bookmark_options "オプション">
+<!ENTITY bookmark_save "保存">
 <!ENTITY screenshot_added_to_bookmarks "スクリーンショットをブックマークに追加しました">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
      in the folder. -->
 <!ENTITY bookmark_folder_items "&formatD; アイテム">
 <!ENTITY bookmark_folder_one_item "1 アイテム">
+<!ENTITY bookmark_parent_folder "親フォルダー">
+<!ENTITY bookmark_add_folder "@@New-CMD@@フォルダーを追加">
 
 <!ENTITY reader_saved_offline "Saved offline">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -214,6 +217,9 @@
 <!ENTITY pref_home_updates_enabled "有効">
 <!ENTITY pref_home_updates_wifi "Wi-Fi のみ有効">
 <!ENTITY pref_category_home_homepage "ホームページ">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "@@NewTab@@でも利用する">
 <!ENTITY home_homepage_title "ホームページを設定">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -277,11 +283,12 @@
      for experimental features. -->
 <!ENTITY pref_category_experimental "実験的な機能">
 
-<!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
-     Instead of switching to the browser it appears as if the user stays in the third-party app.
-     For more see: https://developer.chrome.com/multidevice/android/customtabs -->
-<!ENTITY pref_custom_tabs "カスタムタブ">
-<!ENTITY pref_custom_tabs_summary3 "カスタマイズされた &brandShortName; を利用して、アプリがウェブサイトを開くことを許可します">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "&formatS; で開く">
+<!ENTITY custom_tabs_menu_footer "Powered by &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "URL をコピーしました">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "アクティビティストリーム">
@@ -350,26 +357,13 @@
 <!ENTITY pref_plugins_enabled "有効化">
 <!ENTITY pref_plugins_tap_to_play2 "タッチして実行">
 <!ENTITY pref_plugins_disabled "無効化">
-<!ENTITY pref_text_size "テキストサイズ">
 <!ENTITY pref_restore_tabs "タブを復元">
 <!ENTITY pref_restore_always "常に復元">
 <!ENTITY pref_restore_quit "&brandShortName; の終了後、復元しない">
-<!ENTITY pref_font_size_tiny "最小">
-<!ENTITY pref_font_size_small "小">
-<!ENTITY pref_font_size_medium "中">
-<!ENTITY pref_font_size_large "大">
-<!ENTITY pref_font_size_xlarge "最大">
-<!ENTITY pref_font_size_set "設定">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "あ">
-
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "オレンジ色のすばしこいキツネは、みんなの期待をこえて、たゆまぬ成長を続ける。より早く、よりフレキシブルに、そして、より安全に。私たちには、ほんの少しのあきらめも許されない。人々のよりよい体験と、明るいウェブの未来へ向かって。"> <!-- Japanese pangram -->
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
+<!ENTITY pref_use_system_font_size "システムフォントサイズを利用">
+<!ENTITY pref_use_system_font_size_summary "コンテンツをシステムフォントサイズに合わせて拡大縮小する">
 
 <!ENTITY pref_media_autoplay_enabled "自動再生を許可する">
 <!ENTITY pref_media_autoplay_enabled_summary "サイトがビデオやメディアコンテンツを自動再生できるかをコントロールする">
@@ -500,6 +494,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "プライベートタブで開く">
 <!ENTITY contextmenu_remove "削除">
 <!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
+<!ENTITY contextmenu_set_as_homepage "ホームページに設定">
 <!ENTITY contextmenu_share "共有">
 <!ENTITY contextmenu_pasteandgo "@@Paste-site@@移動">
 <!ENTITY contextmenu_paste "@@Paste@@">
@@ -525,11 +520,6 @@ size. -->
 <!ENTITY doorhanger_login_select_action_text "他のログイン情報を選択してください">
 <!ENTITY doorhanger_login_select_title "コピーするパスワード:">
 
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-<!ENTITY pref_magnifying_glass_enabled "小さい領域を拡大する">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "リンクやフォームのフィールドの近くをタッチしたときにそれらを拡大します">
-
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 <!ENTITY pref_scroll_title_bar2 "@@FullScreen@@でブラウジングする">
@@ -552,6 +542,7 @@ size. -->
 <!ENTITY bookmark_edit_name "名前">
 <!ENTITY bookmark_edit_location "ロケーション">
 <!ENTITY bookmark_edit_keyword "キーワード">
+<!ENTITY bookmark_select_folder "フォルダーを選択">
 
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
@@ -738,14 +729,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY ellipsis "...">
 
 <!ENTITY colon ":">
-
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-<!ENTITY percent "&formatS;&#37;&#37;">
 
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
