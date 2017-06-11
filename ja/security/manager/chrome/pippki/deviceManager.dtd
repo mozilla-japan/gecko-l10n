@@ -33,4 +33,4 @@
 <!ENTITY loaddevice.browse			"@@Browse@@...">
 <!ENTITY loaddevice.browse.accesskey		"B">
 
-<!ENTITY loaddevice.title			"PKCS #11 デバイスの追加">
+<!ENTITY loaddevice.title2			"PKCS #11 デバイスドライバーの読み込み">
