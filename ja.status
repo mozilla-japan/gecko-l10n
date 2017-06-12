@@ -816,4 +816,5 @@ toolkit                363397:799d43edb324  21658:b8876205fa8d   mar            
 devtools/shared        363397:799d43edb324  -----:------------   mar             sync devtools/shared
 chat                   ------:------------  21658:b8876205fa8d   mar             sync chat
 editor/ui, mail        ------:------------  21658:b8876205fa8d   mar             sync editor/ui, mail
+suite                  ------:------------  21658:b8876205fa8d   mar             sync suite
 

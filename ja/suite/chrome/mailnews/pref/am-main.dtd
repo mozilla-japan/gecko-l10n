@@ -39,3 +39,6 @@
 <!ENTITY smtpName.label "メール送信 (SMTP) サーバー:">
 <!ENTITY smtpName.accesskey "u">
 <!ENTITY smtpDefaultServer.label "@@Default-@@サーバーを使用する">
+
+<!ENTITY smtpServerEdit.label "SMTP サーバーを編集...">
+<!ENTITY smtpServerEdit.accesskey "P">
