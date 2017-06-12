@@ -811,4 +811,5 @@ target dir             mozilla and comm hg changeset rev:id      by             
 mobile                 362950:6491fb29e7fc  -----:------------   kechol          sync mobile
 calendar               ------:------------  21647:998749e6ed4e   mar             sync calendar
 dom, security          363397:799d43edb324  21658:b8876205fa8d   mar             sync dom, security
+services/sync          363397:799d43edb324  -----:------------   mar             sync services/sync
 
