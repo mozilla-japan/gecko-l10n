@@ -54,8 +54,8 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey	"A">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label	"現在のアカウント">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey	"C">
-<!ENTITY getNextNMsgCmd.label			"次の 500 本の記事を受信">
-<!ENTITY getNextNMsgCmd.accesskey		"t">
+<!ENTITY getNextNMsgCmd2.label			"次のニュース記事を受信">
+<!ENTITY getNextNMsgCmd2.accesskey		"t">
 <!ENTITY sendUnsentCmd.label			"未送信メッセージを送信">
 <!ENTITY sendUnsentCmd.accesskey		"d">
 <!ENTITY subscribeCmd.label			"購読...">

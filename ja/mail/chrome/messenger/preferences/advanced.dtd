@@ -52,7 +52,19 @@
 <!ENTITY crashReporterLearnMore.label		"詳細">
 
 <!-- Update -->
-<!ENTITY updateApp.label			"&brandShortName; の更新:">
+<!-- LOCALIZATION NOTE (updateApp.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
+<!ENTITY updateApp2.label			"&brandShortName; の更新">
+<!-- LOCALIZATION NOTE (updateApp.version.*): updateApp.version.pre is
+  followed by a version number, keep the trailing space or replace it with
+  a different character as needed. updateApp.version.post is displayed after
+  the version number, and is empty on purpose for English. You can use it
+  if required by your language.
+ -->
+<!ENTITY updateApp.version.pre			"バージョン ">
+<!ENTITY updateApp.version.post			"">
 <!ENTITY updateAuto.label			"更新を自動的にインストールする (推奨: セキュリティ向上)">
 <!ENTITY updateAuto.accesskey			"A">
 <!ENTITY updateCheck.label			"更新を確認するが、インストールするかどうかを選択する">
@@ -89,6 +101,8 @@
 <!ENTITY useCacheBefore.label			"ページキャッシュとして">
 <!ENTITY useCacheBefore.accesskey		"U">
 <!ENTITY useCacheAfter.label			"MB まで使用する">
+<!ENTITY overrideSmartCacheSize.label		"自動キャッシュ管理設定を上書き">
+<!ENTITY overrideSmartCacheSize.accesskey	"v">
 <!ENTITY clearCacheNow.label			"今すぐ消去">
 <!ENTITY clearCacheNow.accesskey		"C">
 

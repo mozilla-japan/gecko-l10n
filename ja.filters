@@ -280,11 +280,6 @@ mail.credits.dtd			= <ul>\
 					  <li>Satoru Yamaguchi</li>\
 					  </ul>
 
-# mail/chrome/messenger/activity.properties
-# mail/chrome/messenger/templateUtils.properties
-ja.mail.monthDate		= #1#2日
-ja-JP-mac.mail.monthDate	= #1 #2
-
 
 # mail/chrome/messenger/AccountManager.dtd
 ja.AccountManager.accountManager.size		= width: 70em; height: 46.6em;

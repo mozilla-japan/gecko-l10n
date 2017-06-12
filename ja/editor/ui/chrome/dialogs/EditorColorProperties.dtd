@@ -26,3 +26,4 @@
 <!ENTITY backgroundImage.label		"背景画像:">
 <!ENTITY backgroundImage.accessKey	"m">
 <!ENTITY backgroundImage.tooltip	"画像ファイルをページの背景として使用します">
+<!ENTITY backgroundImage.shortenedDataURI	"短縮データ URI (コピーすると完全 URI がクリップボードに置かれます)">
