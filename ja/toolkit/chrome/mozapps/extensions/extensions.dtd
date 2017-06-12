@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip		"この更新のリリースノートを表示します">
 <!ENTITY cmd.hideReleaseNotes.label		"リリースノートを隠す">
 <!ENTITY cmd.hideReleaseNotes.tooltip		"この更新のリリースノートを隠します">
+<!ENTITY cmd.findReplacement.label		"代わりのアドオンを探す">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -188,6 +189,10 @@
 <!ENTITY addon.details.label			"詳細">
 <!ENTITY addon.details.tooltip			"このアドオンの詳細を表示します">
 <!ENTITY addon.unknownDate			"不明">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label			"旧式"><!-- en-US: "LEGACY" -->
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -252,3 +257,9 @@
 
 <!ENTITY pluginDeprecation.description			"&brandShortName; によるサポートが終了したプラグインは表示されません。">
 <!ENTITY pluginDeprecation.learnMore			"詳細">
+
+<!ENTITY legacyWarning.description		"&brandShortName; によるサポートが終了した拡張機能があります。">
+<!ENTITY legacyWarning.showLegacy		"旧式の拡張機能を表示">
+<!ENTITY legacyExtensions.title 		"旧式の拡張機能">
+<!ENTITY legacyExtensions.description		"これらの拡張機能は、現在の &brandShortName; 標準に適さないため無効化されています。">
+<!ENTITY legacyExtensions.learnMore		"アドオンシステムの変更についての詳細">

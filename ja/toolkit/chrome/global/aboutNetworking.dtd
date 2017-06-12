@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh		"3 秒ごとに自動更新する">
 <!ENTITY aboutNetworking.hostname		"ホスト名">
 <!ENTITY aboutNetworking.port			"ポート番号">
-<!ENTITY aboutNetworking.spdy			"SPDY">
+<!ENTITY aboutNetworking.http2			"HTTP/2">
 <!ENTITY aboutNetworking.ssl			"SSL">
 <!ENTITY aboutNetworking.active			"アクティブ">
 <!ENTITY aboutNetworking.idle			"待機">
@@ -41,3 +41,9 @@
 <!ENTITY aboutNetworking.dnsLookupButton	"解決">
 <!ENTITY aboutNetworking.dnsDomain		"ドメイン">
 <!ENTITY aboutNetworking.dnsLookupTableColumn	"IP アドレス">
+<!-- (^m^) RCWN stands for "Race Cache With Network" Bug 1358038 -->
+<!ENTITY aboutNetworking.rcwn			"RCWN 統計">
+<!ENTITY aboutNetworking.rcwnStatus		"RCWN 状態">
+<!ENTITY aboutNetworking.rcwnCacheWonCount	"キャッシュ使用カウント">
+<!ENTITY aboutNetworking.rcwnNetWonCount	"ネットワーク使用カウント">
+<!ENTITY aboutNetworking.totalNetworkRequests	"ネットワーク要求カウント合計">
