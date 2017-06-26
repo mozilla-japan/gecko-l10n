@@ -805,7 +805,7 @@ suite                  ------:------------  24465:509cbae906af   mar            
 devtools/client        375940:44f6061a5dc6  -----:------------   mar             sync devtools/client
 browser                394101:eb10d90aea8f  -----:------------   mar             sync browser (mozilla-beta)
 
-[l10n-mozilla-55.0] (for central)
+[l10n-mozilla-55.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 mobile                 362950:6491fb29e7fc  -----:------------   kechol          sync mobile
@@ -818,4 +818,8 @@ chat                   ------:------------  21658:b8876205fa8d   mar            
 editor/ui, mail        ------:------------  21658:b8876205fa8d   mar             sync editor/ui, mail
 suite                  ------:------------  21658:b8876205fa8d   mar             sync suite
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.93
+devtools/client        411737:ac72ab16001e  -----:------------   mar             sync devtools/client (mozilla-beta)
 
+[l10n-mozilla-56.0] (for central)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------
