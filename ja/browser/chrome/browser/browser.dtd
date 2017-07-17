@@ -930,7 +930,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY emeLearnMoreContextMenu.label		"DRM の詳細...">
 <!ENTITY emeLearnMoreContextMenu.accesskey	"D">
 
-<!ENTITY updateAvailable.message		"最新の速さとプライバシーのために &brandShorterName を更新してください。">
+<!ENTITY updateAvailable.message		"最新の速さとプライバシーのために &brandShorterName; を更新してください。">
 <!ENTITY updateAvailable.whatsnew.label		"新着情報を見る。">
 <!ENTITY updateAvailable.header.message		"新しい &brandShorterName; の更新が利用可能です。">
 <!ENTITY updateAvailable.acceptButton.label	"更新をダウンロード">
