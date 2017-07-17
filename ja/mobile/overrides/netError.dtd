@@ -26,7 +26,7 @@
       <input id='searchtext' type='search'></input>
       <button id='searchbutton'>検索</button>
     </div>
-  <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。
+  <li>他のサイトも表示できない場合、端末のデータ接続や Wi-Fi 接続を確認してください。
     <button id='wifi'>Wi-Fi を有効化</button>
   </li>
 </ul>
@@ -40,10 +40,10 @@
 </ul>
 ">
 
-<!ENTITY fileAccessDenied.title "ファイルへのアクセスは拒否されました">
+<!ENTITY fileAccessDenied.title "ファイルへのアクセスが拒否されました">
 <!ENTITY fileAccessDenied.longDesc "
 <ul>
-  <li>ファイルが削除または移動されたか、もしくはファイルのパーミッションがアクセスを許可していません。</li>
+  <li>ファイルが削除または移動されているかファイルの許可属性によりアクセスが拒否された可能性があります。</li>
 </ul>
 ">
 
@@ -124,7 +124,7 @@
 <!ENTITY proxyResolveFailure.longDesc3	"
 <ul>
   <li>プロキシ設定が正しいか確認してください。</li>
-  <li>デバイスのデータ接続や Wi-Fi 接続が有効であるか確認してください。
+  <li>端末のデータ接続や Wi-Fi 接続が有効であるか確認してください。
     <button id='wifi'>Wi-Fi を有効化</button>
   </li>
 </ul>
@@ -166,7 +166,7 @@
 <!ENTITY sharedLongDesc3			"
 <ul>
   <li>このサイトが一時的に利用できなくなっていたり、サーバーの負荷が高すぎて接続できなくなっている可能性があります。しばらくしてから再度試してください。</li>
-  <li>他のサイトも表示できない場合、デバイスのデータ接続や Wi-Fi 接続を確認してください。
+  <li>他のサイトも表示できない場合、端末のデータ接続や Wi-Fi 接続を確認してください。
     <button id='wifi'>Wi-Fi を有効化</button>
   </li>
 </ul>

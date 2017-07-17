@@ -9,7 +9,7 @@
 <!ENTITY search_bar_hint '&formatS; で検索'>
 
 <!ENTITY search_empty_title2 '検索を開始'>
-<!ENTITY search_empty_message 'あなたの探したいものをなんでもすばやく検索します'>
+<!ENTITY search_empty_message 'あなたの探したいものを何でもすばやく検索します'>
 
 <!--  Localization note (search_plus_content_description): This is the content description
       for the "+" icon that appears at the end of search suggestions. -->
@@ -19,7 +19,7 @@
 <!ENTITY search_pref_button_content_description '設定する'>
 
 <!ENTITY pref_clearHistory_confirmation '履歴の消去'>
-<!ENTITY pref_clearHistory_dialogMessage 'このデバイスのすべての検索履歴を消去しますか？'>
+<!ENTITY pref_clearHistory_dialogMessage 'この端末のすべての検索履歴を消去しますか？'>
 <!ENTITY pref_clearHistory_title '検索履歴の消去'>
 
 <!ENTITY search_widget_button_label '検索'>

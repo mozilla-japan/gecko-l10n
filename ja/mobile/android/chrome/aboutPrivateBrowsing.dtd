@@ -12,13 +12,13 @@
      term. -->
 <!ENTITY privatebrowsingpage.title.normal1 "プライベートブラウジングモードではありません">
 
-<!ENTITY privatebrowsingpage.description.trackingProtection "&brandShortName; は、あなたのブラウジング行動をトラッキングするようなページの要素をブロックします。">
-<!ENTITY privatebrowsingpage.description.privateDetails "閲覧履歴を保存しませんが、ダウンロードしたファイルと新しいブックマークはデバイスに保存されます。">
+<!ENTITY privatebrowsingpage.description.trackingProtection "&brandShortName; は、あなたのブラウジング行動を追跡するページの要素をブロックします。">
+<!ENTITY privatebrowsingpage.description.privateDetails "閲覧履歴を保存しませんが、ダウンロードしたファイルと新しいブックマークは端末に保存されます。">
 
 <!-- Localization note (privatebrowsingpage.description.normal2): "Private
      Browsing is capitalized in English to be consistent with our existing uses
      of the term. -->
-<!ENTITY privatebrowsingpage.description.normal2 "プライベートブラウジングでは、すべての閲覧履歴や Cookie が保存されません。ただし、追加したブックマークやダウンロードしたファイルはデバイスに保存されます。">
+<!ENTITY privatebrowsingpage.description.normal2 "プライベートブラウジングでは、すべての閲覧履歴や Cookie が保存されません。ただし、追加したブックマークやダウンロードしたファイルは端末に保存されます。">
 
 <!ENTITY privatebrowsingpage.link.private "さらに詳細を知りたいですか？">
 <!ENTITY privatebrowsingpage.link.normal "@@New-CMD@@プライベートタブを開く">

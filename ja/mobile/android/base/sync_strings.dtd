@@ -11,10 +11,10 @@
 <!ENTITY sync.title.connect.label '&syncBrand.shortName.label; に接続'>
 
 <!-- J-PAKE Key Screen -->
-<!ENTITY sync.subtitle.connect.label '新しいデバイスを有効化するために、デバイス上で @@[@@&syncBrand.shortName.label; をセットアップ@@]@@ を選択してください。'>
-<!ENTITY sync.subtitle.pair.label '有効化のために、他のデバイス上で @@[@@デバイスと連携@@]@@ を選択してください。'>
+<!ENTITY sync.subtitle.connect.label '新しい端末を有効にするには、端末上で @@[@@&syncBrand.shortName.label; をセットアップ@@]@@ を選択してください。'>
+<!ENTITY sync.subtitle.pair.label '有効にするには、他の端末で @@[@@端末と連携@@]@@ を選択してください。'>
 <!ENTITY sync.pin.default.label '...\n...\n...\n'>
-<!ENTITY sync.link.nodevice.label 'デバイスを持っていない...'>
+<!ENTITY sync.link.nodevice.label '端末を持っていない...'>
 
 <!-- Configure Engines -->
 <!ENTITY sync.configure.engines.title.passwords2 'ログイン情報'>
@@ -37,7 +37,7 @@
 <!ENTITY bookmarks.folder.desktop.label 'デスクトップブックマーク'>
 <!ENTITY bookmarks.folder.mobile.label 'モバイルブックマーク'>
 <!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
-<!ENTITY bookmarks.folder.pinned.label 'アプリタブ'>
+<!ENTITY bookmarks.folder.pinned.label 'ピン留めしたタブ'>
 
 <!-- Firefox Account strings. -->
 
@@ -46,50 +46,50 @@
      Firefox. -->
 <!ENTITY fxaccount_back_to_browsing 'ブラウザに戻る'>
 
-<!ENTITY fxaccount_getting_started_welcome_to_sync '&syncBrand.shortName.label; にようこそ'>
-<!ENTITY fxaccount_getting_started_description2 'タブやブックマーク、ログイン情報などを同期するにはサインインしてください。'>
+<!ENTITY fxaccount_getting_started_welcome_to_sync '&syncBrand.shortName.label; へようこそ'>
+<!ENTITY fxaccount_getting_started_description2 'タブやブックマーク、ログイン情報などを同期するにはログインしてください。'>
 <!ENTITY fxaccount_getting_started_get_started 'はじめましょう'>
 <!ENTITY fxaccount_getting_started_old_firefox '古いバージョンの &syncBrand.shortName.label; を使っていませんか？'>
 
-<!ENTITY fxaccount_status_signed_in_as 'サインインユーザー'>
+<!ENTITY fxaccount_status_signed_in_as 'ログインユーザー'>
 <!ENTITY fxaccount_status_manage_account 'アカウントの管理'>
 <!ENTITY fxaccount_status_auth_server 'アカウントサーバー'>
 <!ENTITY fxaccount_status_sync_now '今すぐ同期'>
 <!ENTITY fxaccount_status_syncing2 '同期しています...'>
-<!ENTITY fxaccount_status_device_name 'デバイス名'>
-<!ENTITY fxaccount_status_sync_server '同期サーバー'>
+<!ENTITY fxaccount_status_device_name '端末名'>
+<!ENTITY fxaccount_status_sync_server 'Sync サーバー'>
 <!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
 <!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label; は有効です'>
 <!ENTITY fxaccount_status_needs_verification2 'あなたのアカウントを確認してください。タップして確認のメールを再送信します。'>
-<!ENTITY fxaccount_status_needs_credentials '接続できません。タップしてサインインします。'>
-<!ENTITY fxaccount_status_needs_upgrade 'サインインするには &brandShortName; をアップグレードする必要があります。'>
+<!ENTITY fxaccount_status_needs_credentials '接続できません。タップしてログインします。'>
+<!ENTITY fxaccount_status_needs_upgrade 'ログインするには &brandShortName; をアップグレードする必要があります。'>
 <!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。Android の @@[@@設定@@]@@ &gt; @@[@@データ使用@@]@@ から @@[@@データの自動同期@@]@@ を有効にしてください。'>
 <!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。Android の @@[@@設定@@]@@ &gt; @@[@@アカウント@@]@@ から @@[@@データの自動同期@@]@@ を有効にしてください。'>
-<!ENTITY fxaccount_status_needs_finish_migrating '新しいあなたの Firefox アカウントにサインインするにはタップしてください。'>
+<!ENTITY fxaccount_status_needs_finish_migrating 'あなたの新しい Firefox アカウントにログインするにはタップしてください。'>
 <!ENTITY fxaccount_status_bookmarks 'ブックマーク'>
 <!ENTITY fxaccount_status_history '履歴'>
 <!ENTITY fxaccount_status_passwords2 'ログイン情報'>
 <!ENTITY fxaccount_status_tabs '開いているタブ'>
-<!ENTITY fxaccount_status_legal '法律' >
+<!ENTITY fxaccount_status_legal '法的事項' >
 <!-- Localization note: when tapped, the following two strings link to
      external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
      these strings are separated to accommodate languages that decline
      the two uses differently. -->
 <!ENTITY fxaccount_status_linktos2 'サービス利用規約'>
 <!ENTITY fxaccount_status_linkprivacy2 '個人情報保護方針'>
-<!ENTITY fxaccount_status_more 'さらに詳しく...'>
+<!ENTITY fxaccount_status_more '詳細...'>
 <!ENTITY fxaccount_remove_account '接続解除...'>
 
 <!ENTITY fxaccount_remove_account_dialog_title2 'Sync の接続を解除しますか？'>
-<!ENTITY fxaccount_remove_account_dialog_message2 'ブラウジングデータはデバイスに残りますが、アカウントとの同期はされなくなります。'>
+<!ENTITY fxaccount_remove_account_dialog_message2 'ブラウジングデータは端末に残りますが、アカウントと同期されなくなります。'>
 <!-- Localization note: format string below will be replaced
      with the Firefox Account's email address. -->
-<!ENTITY fxaccount_remove_account_toast2 'Firefox アカウント &formatS; との接続は解除されました。'>
+<!ENTITY fxaccount_remove_account_toast2 'Firefox アカウント &formatS; との接続が解除されました。'>
 <!-- Localization note (fxaccount_remove_account_dialog_action_confirm): This is the label for the
      confirm button in the dialog that shows up when disconnecting from sync. -->
 <!ENTITY fxaccount_remove_account_dialog_action_confirm '接続を解除'>
 
-<!ENTITY fxaccount_enable_debug_mode 'デバッグモードを有効化'>
+<!ENTITY fxaccount_enable_debug_mode 'デバッグモードを有効にする'>
 
 <!-- Localization note: this is the name shown by the Android system
      itself for a Firefox Account. Don't localize this. -->
@@ -116,14 +116,14 @@
 <!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS 'サーバーが応答しません。後ほどお試しください'>
 <!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD 'サーバーが応答しません。後ほどお試しください'>
 <!ENTITY fxaccount_remote_error_UNKNOWN_ERROR '問題が発生しました'>
-<!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED 'アカウントはロックされています。&formatS1;'>
+<!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED 'アカウントがロックされています。&formatS1;'>
 
 <!ENTITY fxaccount_sync_sign_in_error_notification_title2 '&syncBrand.shortName.label; はインターネットに接続していません'>
 <!-- Localization note: the format string below will be replaced
      with the Firefox Account's email address. -->
-<!ENTITY fxaccount_sync_sign_in_error_notification_text2 'タップして &formatS; としてサインインします'>
+<!ENTITY fxaccount_sync_sign_in_error_notification_text2 'タップして &formatS; としてログインします'>
 
 <!ENTITY fxaccount_sync_finish_migrating_notification_title '&syncBrand.shortName.label; のアップグレードを終了しますか？'>
 <!-- Localization note: the format string below will be replaced
      with the Firefox Account's email address. -->
-<!ENTITY fxaccount_sync_finish_migrating_notification_text '&formatS; としてサインインするにはタップしてください。'>
+<!ENTITY fxaccount_sync_finish_migrating_notification_text '&formatS; としてログインするにはタップしてください。'>

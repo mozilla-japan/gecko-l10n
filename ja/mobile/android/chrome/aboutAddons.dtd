@@ -2,14 +2,14 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY aboutAddons.title2                     "アドオン">
-<!ENTITY aboutAddons.header2                    "あなたのアドオン">
-<!ENTITY aboutAddons.options                    "設定">
+<!ENTITY aboutAddons.title2       "アドオン">
+<!ENTITY aboutAddons.header2      "あなたのアドオン">
+<!ENTITY aboutAddons.options      "設定">
 
-<!ENTITY addonAction.enable                     "有効化">
-<!ENTITY addonAction.disable                    "無効化">
-<!ENTITY addonAction.uninstall                  "削除">
-<!ENTITY addonAction.undo                       "@@Undo@@">
+<!ENTITY addonAction.enable       "有効化">
+<!ENTITY addonAction.disable      "無効化">
+<!ENTITY addonAction.uninstall    "削除">
+<!ENTITY addonAction.undo         "@@Undo@@">
 
-<!ENTITY addonUnsigned.message                  "このアドオンは &brandShortName; によって認証されていません。">
-<!ENTITY addonUnsigned.learnMore                "さらに詳しく">
+<!ENTITY addonUnsigned.message    "このアドオンは &brandShortName; によって認証されていません。">
+<!ENTITY addonUnsigned.learnMore  "詳細情報">

@@ -820,6 +820,7 @@ suite                  ------:------------  21658:b8876205fa8d   mar            
 irc                    ------:------------  -----:------------   mar             sync irc for ChatZilla 0.9.93
 devtools/client        411737:ac72ab16001e  -----:------------   mar             sync devtools/client (mozilla-beta)
 browser                411971:0d6599e2269d  -----:------------   mar             sync browser (mozilla-beta)
+mobile                 411971:0d6599e2269d  -----:------------   mar             sync and review mobile (mozilla-beta)
 
 [l10n-mozilla-56.0] (for central)
 target dir             mozilla and comm hg changeset rev:id      by              comment
