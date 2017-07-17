@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey		"T">
 <!ENTITY engine.history.label		"履歴">
 <!ENTITY engine.history.accesskey	"r">
-<!ENTITY engine.passwords.label		"パスワード">
-<!ENTITY engine.passwords.accesskey	"P">
+<!ENTITY engine.logins.label		"ログイン情報">
+<!ENTITY engine.logins.accesskey	"L">
 <!ENTITY engine.prefs.label		"個人設定">
 <!ENTITY engine.prefs.accesskey		"S">
 <!ENTITY engine.addons.label		"アドオン">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label		"端末名">
-<!ENTITY changeSyncDeviceName.label		"端末名を変更...">
-<!ENTITY changeSyncDeviceName.accesskey		"h">
+<!ENTITY changeSyncDeviceName2.label		"端末名を変更...">
+<!ENTITY changeSyncDeviceName2.accesskey	"h">
 <!ENTITY cancelChangeSyncDeviceName.label	"キャンセル">
 <!ENTITY cancelChangeSyncDeviceName.accesskey	"n">
 <!ENTITY saveChangeSyncDeviceName.label		"保存">
@@ -54,8 +54,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip		"プロフィール写真を変更します">
 <!ENTITY verifiedManage.label		"アカウントの管理">
 <!ENTITY verifiedManage.accesskey	"o">
-<!ENTITY disconnect.label		"切断...">
-<!ENTITY disconnect.accesskey		"D">
+<!ENTITY disconnect3.label		"切断...">
+<!ENTITY disconnect3.accesskey		"D">
 <!ENTITY verify.label			"メールアドレス認証">
 <!ENTITY verify.accesskey		"V">
 <!ENTITY forget.label			"このメールアドレスを解除">
@@ -69,7 +69,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin	"ログイン">
 <!ENTITY signedOut.accountBox.signin.accesskey	"I">
 
-<!ENTITY signedIn.engines.label		"すべての端末を同期する">
+<!ENTITY signedIn.settings.label	"Sync 設定">
+<!ENTITY signedIn.settings.description	"端末上の同期して &brandShortName; で使用するものを選んでください。">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

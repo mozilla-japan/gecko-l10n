@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "スムーズスクロール機能を使用する">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "ハードウェアアクセラレーション機能を使用する (可能な場合)">
-<!ENTITY allowHWAccel.accesskey          "r">
 <!ENTITY checkUserSpelling.label         "自動スペルチェック機能を使用する">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -125,3 +123,16 @@
 <!ENTITY viewCerts.accesskey             "C">
 <!ENTITY viewSecurityDevices.label       "セキュリティデバイス...">
 <!ENTITY viewSecurityDevices.accesskey   "D">
+
+<!ENTITY performance.label				"パフォーマンス">
+<!ENTITY useRecommendedPerformanceSettings.label	"推奨のパフォーマンス設定を使用">
+<!ENTITY useRecommendedPerformanceSettings.description	"これらの設定はコンピューターのハードウェアとオペレーティングシステムに合わせて調整されます。">
+<!ENTITY useRecommendedPerformanceSettings.accesskey	"U">
+<!ENTITY performanceSettingsLearnMore.label		"詳細情報">
+<!ENTITY limitContentProcessOption.label		"コンテンツプロセス数の制限">
+<!ENTITY limitContentProcessOption.description		"コンテンツプロセスを増やすと、複数タブの使用時にパフォーマンスが向上しますが、メモリーを多く消費します。">
+<!ENTITY limitContentProcessOption.accesskey		"L">
+<!ENTITY limitContentProcessOption.disabledDescription	"コンテンツプロセスの数はマルチプロセスの &brandShortName; でしか変更できません。">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink	"マルチプロセスが有効になっているか確認してください">
+<!ENTITY allowHWAccel.label				"ハードウェアアクセラレーション機能を使用する (可能な場合)">
+<!ENTITY allowHWAccel.accesskey				"r">

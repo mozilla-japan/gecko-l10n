@@ -9,8 +9,6 @@
 <!ENTITY newtab.customize.cog.title2	"@@NewTab@@の設定">
 <!ENTITY newtab.customize.cog.learn	"@@NewTab@@の詳細">
 <!ENTITY newtab.customize.title		"@@NewTab@@ページをカスタマイズ">
-<!ENTITY newtab.customize.suggested	"おすすめサイトとよく見るサイトを表示">
-<!ENTITY newtab.customize.topsites	"よく見るサイトを表示">
 <!ENTITY newtab.customize.blank2	"空白ページを表示">
 <!ENTITY newtab.undo.removedLabel	"サムネイルを削除しました。">
 <!ENTITY newtab.undo.undoButton		"@@Undo@@。">

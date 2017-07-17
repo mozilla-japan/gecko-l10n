@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label	"サイトによるトラッキングをブロックする">
+<!ENTITY  trackingProtectionHeader2.label	"トラッキング保護">
+<!ENTITY  trackingProtection.description	"トラッキングは、企業がユーザーについての情報を収集してプロファイルを構築し、そのブラウジングと個人データに基づいてコンテンツを表示するものです。">
+<!ENTITY  trackingProtection.radioGroupLabel	"表示コンテンツから既知のトラッキング企業をブロックする">
 <!ENTITY  trackingProtectionAlways.label	"常に">
 <!ENTITY  trackingProtectionAlways.accesskey	"y">
 <!ENTITY  trackingProtectionPrivate.label	"プライベート@@Window@@のみ">
@@ -30,7 +32,7 @@
 
 <!ENTITY  locationBar.label			"ロケーションバー">
 
-<!ENTITY  locbar.suggest.label			"ロケーションバーには次の中から候補を表示する:">
+<!ENTITY  locbar.suggest2.label			"ロケーションバーの使用時に表示する候補">
 <!ENTITY  locbar.history.label			"履歴">
 <!ENTITY  locbar.history.accesskey		"H">
 <!ENTITY  locbar.bookmarks.label		"ブックマーク">
@@ -40,8 +42,7 @@
 <!ENTITY  locbar.searches.label			"@@Default-@@検索エンジンからの関連候補">
 <!ENTITY  locbar.searches.accesskey		"d">
 
-<!ENTITY  suggestionSettings.label		"検索エンジンの検索候補の設定を変更...">
-<!ENTITY  suggestionSettings.accesskey		"g">
+<!ENTITY  suggestionSettings2.label		"検索エンジンの検索候補の設定を変更">
 
 <!ENTITY  acceptCookies.label			"サイトから送られてきた Cookie を保存する">
 <!ENTITY  acceptCookies.accesskey		"A">
@@ -64,8 +65,8 @@
 <!ENTITY  showCookies.label			"Cookie を表示...">
 <!ENTITY  showCookies.accesskey			"S">
 
-<!ENTITY  historyHeader.pre.label		"&brandShortName; に">
-<!ENTITY  historyHeader.pre.accesskey		"w">
+<!ENTITY  historyHeader2.pre.label		"&brandShortName; に">
+<!ENTITY  historyHeader2.pre.accesskey		"w">
 <!ENTITY  historyHeader.remember.label		"履歴を記憶させる">
 <!ENTITY  historyHeader.dontremember.label	"履歴を一切記憶させない">
 <!ENTITY  historyHeader.custom.label		"記憶させる履歴を詳細設定する">
@@ -105,9 +106,9 @@
 <!ENTITY  clearOnCloseSettings.label		"設定...">
 <!ENTITY  clearOnCloseSettings.accesskey	"t">
 
-<!ENTITY  browserContainersHeader.label         "コンテナータブ">
-<!ENTITY  browserContainersLearnMore.label      "詳細">
-<!ENTITY  browserContainersEnabled.label        "コンテナータブを有効にする">
-<!ENTITY  browserContainersEnabled.accesskey    "n">
-<!ENTITY  browserContainersSettings.label        "設定...">
-<!ENTITY  browserContainersSettings.accesskey    "i">
+<!ENTITY  browserContainersHeader.label		"コンテナータブ">
+<!ENTITY  browserContainersLearnMore.label	"詳細">
+<!ENTITY  browserContainersEnabled.label	"コンテナータブを有効にする">
+<!ENTITY  browserContainersEnabled.accesskey	"n">
+<!ENTITY  browserContainersSettings.label	"設定...">
+<!ENTITY  browserContainersSettings.accesskey	"i">

@@ -39,7 +39,8 @@
 <!ENTITY isNotDefault.label		"&brandShortName; は@@DefaultBrowser@@に設定されていません">
 
 <!ENTITY separateProfileMode.label	"&brandShortName; と Firefox の同時起動を許可する">
-<!ENTITY useFirefoxSync.label		"ヒント: プロファイルを分離します。データを共有するには Sync を使用します。">
-<!ENTITY getStarted.label		"Sync を開始する...">
+<!ENTITY useFirefoxSync.label		"ヒント: これは別のプロファイルを使用します。データを共有するには Sync を使用してください。">
+<!ENTITY getStarted.notloggedin.label	"&syncBrand.shortName.label; にログインする...">
+<!ENTITY getStarted.configured.label	"&syncBrand.shortName.label; 設定を開く">
 
 <!ENTITY e10sEnabled.label		"マルチプロセス &brandShortName; を有効にする">

@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey		"T">
 <!ENTITY engine.history.label		"履歴">
 <!ENTITY engine.history.accesskey	"r">
-<!ENTITY engine.passwords.label		"パスワード">
-<!ENTITY engine.passwords.accesskey	"P">
+<!ENTITY engine.logins.label		"ログイン情報">
+<!ENTITY engine.logins.accesskey	"L">
 <!ENTITY engine.prefs.label		"個人設定">
 <!ENTITY engine.prefs.accesskey		"S">
 <!ENTITY engine.addons.label		"アドオン">
