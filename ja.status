@@ -827,3 +827,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 dom                    371056:388d81ed93fa  21819:f4f277cc1749   mar             sync dom
 mail                   ------:------------  21819:f4f277cc1749   mar             sync mail
+suite                  ------:------------  21819:f4f277cc1749   mar             sync suite
