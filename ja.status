@@ -792,7 +792,7 @@ devtools/client        376746:65c3d718dd5f  -----:------------   mar            
 browser                377129:39c86569861c  -----:------------   mar             sync browser (mozilla-beta)
 suite                  ------:------------  27480:4f1a69c1b834   mar             sync suite (comm-beta)
 
-Released! [l10n-mozilla-54.0]
+Released! [l10n-mozilla-54.0] (mozilla-aurora)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security          375932:e53f7f1785eb  24462:6abb0416d697   mar             sync dom, security
@@ -825,3 +825,4 @@ mobile                 411971:0d6599e2269d  -----:------------   mar            
 [l10n-mozilla-56.0] (for central)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
+dom                    371056:388d81ed93fa  21819:f4f277cc1749   mar             sync dom
