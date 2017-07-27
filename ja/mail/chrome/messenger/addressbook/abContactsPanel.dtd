@@ -12,6 +12,7 @@
 <!ENTITY mailingListPropertiesMenu.label	"アドレスリストの@@Property@@">
 <!ENTITY mailingListPropertiesMenu.accesskey	"i">
 
+<!ENTITY abContextMenuButton.tooltip	"アドレス帳のコンテキストメニューを表示します">
 <!ENTITY addressbookPicker.label	"アドレス帳:">
 <!ENTITY addressbookPicker.accesskey	"k">
 <!ENTITY searchContacts.label		"連絡先を検索:">
@@ -34,6 +35,11 @@
 <!ENTITY editContactContext.accesskey	"E">
 <!ENTITY editMailingListContext.label	"リストを編集">
 <!ENTITY editMailingListContext.accesskey	"E">
+
+<!ENTITY newContactAbContext.label	"@@New-CMD@@連絡先">
+<!ENTITY newContactAbContext.accesskey	"C">
+<!ENTITY newListAbContext.label		"@@New-CMD@@アドレスリスト">
+<!ENTITY newListAbContext.accesskey	"L">
 
 <!ENTITY toButton.label			"宛先に追加:">
 <!ENTITY toButton.accesskey		"A">

@@ -826,3 +826,4 @@ mobile                 411971:0d6599e2269d  -----:------------   mar            
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                    371056:388d81ed93fa  21819:f4f277cc1749   mar             sync dom
+mail                   ------:------------  21819:f4f277cc1749   mar             sync mail
