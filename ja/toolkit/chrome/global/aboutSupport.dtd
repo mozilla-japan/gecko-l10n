@@ -67,6 +67,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport	"マルチプロセス@@Window@@">
 
+<!ENTITY aboutSupport.appBasicsProcessCount	"ウェブコンテンツプロセス">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle	"Google キー">
 <!ENTITY aboutSupport.appBasicsKeyMozilla	"Mozilla Location Service キー">
 
@@ -105,6 +107,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle			"アクセシビリティ">
 <!ENTITY aboutSupport.a11yActivated		"有効">
 <!ENTITY aboutSupport.a11yForceDisabled		"アクセシビリティの無効化">
+<!ENTITY aboutSupport.a11yHandlerUsed		"アクセシブルハンドラーの使用">
 
 <!ENTITY aboutSupport.libraryVersionsTitle	"ライブラリのバージョン">
 
@@ -135,3 +138,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle	"決定ログ">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle	"クラッシュガードが無効化した機能">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle	"回避策">
+
+<!ENTITY aboutSupport.mediaTitle		"メディア">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle	"出力デバイス">
+<!ENTITY aboutSupport.mediaInputDevicesTitle	"入力デバイス">
+<!ENTITY aboutSupport.mediaDeviceName		"デバイス名">
+<!ENTITY aboutSupport.mediaDeviceGroup		"グループ">
+<!ENTITY aboutSupport.mediaDeviceVendor		"ベンダー">
+<!ENTITY aboutSupport.mediaDeviceState		"状態">
+<!ENTITY aboutSupport.mediaDevicePreferred	"優先">
+<!ENTITY aboutSupport.mediaDeviceFormat		"形式">
+<!ENTITY aboutSupport.mediaDeviceChannels	"チャンネル">
+<!ENTITY aboutSupport.mediaDeviceRate		"レート">
+<!ENTITY aboutSupport.mediaDeviceLatency	"遅延">

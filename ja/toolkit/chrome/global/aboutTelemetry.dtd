@@ -4,26 +4,6 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Telemetry データ">
 
-<!ENTITY aboutTelemetry.changeDataChoices "
-  変更
-">
-
-<!ENTITY aboutTelemetry.uploadEnabled "
-  FHR データのアップロードは<span>有効</span>です。
-">
-
-<!ENTITY aboutTelemetry.uploadDisabled "
-  FHR データのアップロードは<span>無効</span>です。
-">
-
-<!ENTITY aboutTelemetry.extendedRecordingEnabled "
-  Telemetry の記録拡張は<span>有効</span>です。
-">
-
-<!ENTITY aboutTelemetry.extendedRecordingDisabled "
-  Telemetry の記録拡張は<span>無効</span>です。
-">
-
 <!ENTITY aboutTelemetry.pingDataSource "
 Ping データソース:
 ">
@@ -34,14 +14,6 @@ Ping データソース:
 
 <!ENTITY aboutTelemetry.showArchivedPingData "
 アーカイブされた Ping データ
-">
-
-<!ENTITY aboutTelemetry.pingDataDisplay "
-Ping データの表示:
-">
-
-<!ENTITY aboutTelemetry.structured "
-表形式
 ">
 
 <!ENTITY aboutTelemetry.raw "
@@ -64,16 +36,28 @@ Ping の選択:
 古い Ping &gt;&gt;
 ">
 
-<!ENTITY aboutTelemetry.rawPingData "
-Ping の生データ...
-">
-
 <!ENTITY aboutTelemetry.archiveWeekHeader "
 週
 ">
 
+<!ENTITY aboutTelemetry.archivePingType "
+Ping 形式
+">
+
 <!ENTITY aboutTelemetry.archivePingHeader "
 Ping
+">
+
+<!ENTITY aboutTelemetry.optionGroupToday "
+今日
+">
+
+<!ENTITY aboutTelemetry.optionGroupYesterday "
+昨日
+">
+
+<!ENTITY aboutTelemetry.optionGroupOlder "
+それ以前
 ">
 
 <!ENTITY aboutTelemetry.generalDataSection "
@@ -140,18 +124,6 @@ Ping
   セッション情報
 ">
 
-<!ENTITY aboutTelemetry.addonHistogramsSection "
-  アドオンから収集されたヒストグラム
-">
-
-<!ENTITY aboutTelemetry.toggle "
-  クリックしてセクションを開閉
-">
-
-<!ENTITY aboutTelemetry.emptySection "
-  (収集データはありません)
-">
-
 <!ENTITY aboutTelemetry.fullSqlWarning "
   NOTE: 動作の遅い SQL のデバッグが有効です。SQL 全文が以下に表示されますが、Telemetry には送信されません。
 ">
@@ -170,8 +142,4 @@ Ping
 
 <!ENTITY aboutTelemetry.payloadChoiceHeader "
   ペイロード
-">
-
-<!ENTITY aboutTelemetry.rawPayload "
-  生ペイロード
 ">
