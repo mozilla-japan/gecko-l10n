@@ -296,6 +296,9 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL をコピーしました">
 
+<!ENTITY pref_pwa "プログレッシブウェブアプリ">
+<!ENTITY pref_pwa_summary "ホーム画面へのウェブアプリの追加を許可する">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "アクティビティストリーム">
 <!ENTITY pref_activity_stream_summary "リッチに視覚化された閲覧履歴のフィードと新たに構成されたホームページが、&brandShortName; で本当に探しているものを簡単に見つけられるようにします。">
@@ -545,6 +548,7 @@
 <!ENTITY page_removed "ページが削除されました">
 
 <!ENTITY bookmark_edit_title "ブックマークを編集">
+<!ENTITY bookmark_edit_folder_title "フォルダーを編集">
 <!ENTITY bookmark_edit_name "名前">
 <!ENTITY bookmark_edit_location "場所">
 <!ENTITY bookmark_edit_keyword "キーワード">
@@ -621,6 +625,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "選択した端末を表示">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "サイトをピン留めしました">
+<!ENTITY home_unpinned_site "サイトのピン留めを外しました">
 
 <!ENTITY remote_tabs_panel_moved_title "私のタブはどこに行ったのですか？">
 <!ENTITY remote_tabs_panel_moved_desc "他の端末のタブはホームページ上のパネルへ移動しました。@@NewTab@@を開いたときにいつでも簡単にアクセスできます。">

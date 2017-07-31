@@ -6,6 +6,8 @@
 <!ENTITY safeb.palm.accept.label	"スタートページに戻る"><!-- en-US: Get me out of here! -->
 <!ENTITY safeb.palm.decline.label	"この警告を無視する">
 <!ENTITY safeb.palm.reportPage.label	"このサイトがブロックされる理由">
+<!-- Localization note (safeb.palm.advisory.desc) - Please don't translate <a id="advisory_provider"/> tag.  It will be replaced at runtime with advisory link-->
+<!ENTITY safeb.palm.advisory.desc "<a id='advisory_provider'/> による勧告">
 
 <!ENTITY safeb.blocked.malwarePage.title	"攻撃サイトとして報告されています！">
 <!-- Localization note (safeb.blocked.malware.shortDesc) - Please don't translate the contents of the <span id="malware_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
