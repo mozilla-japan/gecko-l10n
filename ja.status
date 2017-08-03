@@ -805,7 +805,7 @@ suite                  ------:------------  24465:509cbae906af   mar            
 devtools/client        375940:44f6061a5dc6  -----:------------   mar             sync devtools/client
 browser                394101:eb10d90aea8f  -----:------------   mar             sync browser (mozilla-beta)
 
-[l10n-mozilla-55.0] (for beta)
+Released! [l10n-mozilla-55.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 mobile                 362950:6491fb29e7fc  -----:------------   kechol          sync mobile
@@ -823,7 +823,7 @@ browser                411971:0d6599e2269d  -----:------------   mar            
 mobile                 411971:0d6599e2269d  -----:------------   mar             sync and review mobile (mozilla-beta)
 mail                   ------:------------  28323:b5f3f2bbbf76   mar             sync mail (mozilla-beta, late-l10n)
 
-[l10n-mozilla-56.0] (for central)
+[l10n-mozilla-56.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                    371056:388d81ed93fa  21819:f4f277cc1749   mar             sync dom (2017-07-27)
@@ -831,3 +831,8 @@ mail                   ------:------------  21819:f4f277cc1749   mar            
 suite                  ------:------------  21819:f4f277cc1749   mar             sync suite
 toolkit, dom           371743:ec666e910442  21831:3749d8c1fa1b   mar             sync toolkit, dom (2017-07-29)
 mobile                 371969:87824406b9fe  -----:------------   kechol          sync mobile
+mail, suite            ------:------------  28542:b51c9adf2c9e   mar             sync mail, suite (mozilla-beta)
+
+[l10n-mozilla-56.0] (for central)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------

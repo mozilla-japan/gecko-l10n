@@ -954,3 +954,5 @@
 
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label		"アプリケーションアイコンのオプション...">
+<!ENTITY writeNewMessageDock.label	"@@New-CMD@@メッセージを作成する">
+<!ENTITY openAddressBookDock.label	"アドレス帳を開く">
