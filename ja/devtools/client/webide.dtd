@@ -90,7 +90,6 @@
 <!ENTITY details_location				"場所">
 <!ENTITY details_manifestURL				"App ID">
 <!ENTITY details_removeProject_button			"プロジェクトを削除">
-<!ENTITY details_showPrepackageLog_button		"パッケージング前のログを表示">
 
 <!-- New App -->
 <!ENTITY newAppWindowTitle				"@@New-CMD@@アプリ">
