@@ -833,6 +833,8 @@ toolkit, dom           371743:ec666e910442  21831:3749d8c1fa1b   mar            
 mobile                 371969:87824406b9fe  -----:------------   kechol          sync mobile
 mail, suite            ------:------------  28542:b51c9adf2c9e   mar             sync mail, suite (mozilla-beta)
 devtools/client        420957:60ee1059ee6c  -----:------------   mar             sync devtools/client (mozilla-beta)
+browser/extensions/onboarding
+                       421108:2638feb177dd  -----:------------   mar             sync browser/extensions/onboarding (mozilla-beta)
 
 [l10n-mozilla-56.0] (for central)
 target dir             mozilla and comm hg changeset rev:id      by              comment
