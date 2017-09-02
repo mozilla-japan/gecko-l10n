@@ -4,8 +4,8 @@
 
 <!ENTITY  general.label				"一般">
 
-<!ENTITY  warnOnAddonInstall.label		"アドオンのインストールを求められたときに警告する">
-<!ENTITY  warnOnAddonInstall.accesskey		"W">
+<!ENTITY  warnOnAddonInstall2.label		"アドオンのインストールを求められたときに警告する">
+<!ENTITY  warnOnAddonInstall2.accesskey		"W">
 
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
@@ -26,8 +26,8 @@
 
 <!ENTITY  logins.label				"ログイン情報">
 
-<!ENTITY  rememberLogins.label			"サイトのログイン情報を保存する">
-<!ENTITY  rememberLogins.accesskey		"R">
+<!ENTITY  rememberLogins2.label			"ウェブサイトのログイン情報とパスワードを保存する">
+<!ENTITY  rememberLogins2.accesskey		"R">
 <!ENTITY  passwordExceptions.label		"例外サイト...">
 <!ENTITY  passwordExceptions.accesskey		"x">
 

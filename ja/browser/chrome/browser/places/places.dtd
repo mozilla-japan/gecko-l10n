@@ -85,8 +85,7 @@
 <!ENTITY col.dateadded.label     "追加日時">
 <!ENTITY col.lastmodified.label  "変更日時">
 
-<!ENTITY search.label                              "検索:">
-<!ENTITY search.accesskey                          "S">
+<!ENTITY search.placeholder  "検索">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -104,8 +103,6 @@
 <!ENTITY detailsPane.less.accesskey		"e">
 <!ENTITY detailsPane.selectAnItemText.description "各項目を選択すると、名前や詳細情報の表示や編集ができます">
 
-<!ENTITY find.label               "検索:">
-<!ENTITY find.accesskey           "S">
 <!ENTITY view.label               "表示">
 <!ENTITY view.accesskey           "w">
 <!ENTITY byDate.label             "日付順に並べる">

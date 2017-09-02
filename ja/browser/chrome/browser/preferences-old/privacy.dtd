@@ -43,8 +43,8 @@
 <!ENTITY  suggestionSettings.label		"検索エンジンの検索候補の設定を変更...">
 <!ENTITY  suggestionSettings.accesskey		"g">
 
-<!ENTITY  acceptCookies.label			"サイトから送られてきた Cookie を保存する">
-<!ENTITY  acceptCookies.accesskey		"A">
+<!ENTITY  acceptCookies2.label			"ウェブサイトから送られてきた Cookie を保存する">
+<!ENTITY  acceptCookies2.accesskey		"A">
 
 <!ENTITY  acceptThirdParty.pre.label		"サードパーティ Cookie の保存:">
 <!ENTITY  acceptThirdParty.pre.accesskey	"y">

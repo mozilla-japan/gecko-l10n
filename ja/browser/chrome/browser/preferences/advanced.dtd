@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label		"一般">
 
-<!ENTITY accessibility.label		"アクセシビリティ">
-
 <!ENTITY useCursorNavigation.label	"ページ中の移動にカーソルを使用する (キャレットブラウズモード)"><!-- en-US: Always use the cursor keys to navigate within pages -->
 <!ENTITY useCursorNavigation.accesskey	"c">
 <!ENTITY searchOnStartTyping.label	"キー入力時に検索を開始する">
 <!ENTITY searchOnStartTyping.accesskey	"x">
-<!ENTITY blockAutoReload.label		"ウェブページが自動的に転送や再読み込みさせようとしたときに警告する">
-<!ENTITY blockAutoReload.accesskey	"b">
 <!ENTITY useOnScreenKeyboard.label	"必要であればタッチキーボードを表示する">
 <!ENTITY useOnScreenKeyboard.accesskey	"k">
 
@@ -28,24 +24,26 @@
 
 <!ENTITY dataChoicesTab.label		"データの選択">
 
-<!ENTITY healthReportDesc.label		"パフォーマンス情報の取得と、ブラウザーの健康状態を &vendorShortName; と共有するのに役立ちます">
-<!ENTITY enableHealthReport.label	"&brandShortName; ヘルスレポートを有効にする">
-<!ENTITY enableHealthReport.accesskey	"R">
-<!ENTITY healthReportLearnMore.label	"詳細">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label	"このビルド設定ではヘルスレポートが無効化されています">
 
-<!ENTITY telemetryDesc.label		"&brandShortName; をよりよいものにするため、パフォーマンス情報、使用状況、ハードウェア情報、設定したデータを &vendorShortName; と共有します。">
-<!ENTITY enableTelemetryData.label	"追加データを共有する (パフォーマンス情報など)">
-<!ENTITY enableTelemetryData.accesskey	"T">
-<!ENTITY telemetryLearnMore.label	"詳細">
+<!ENTITY enableHealthReport1.label	"&brandShortName; が技術的な対話データを自動的に Mozilla へ送信することを許可する">
+<!ENTITY enableHealthReport1.accesskey	"r">
+<!ENTITY healthReportLearnMore.label	"詳細情報">
 
-<!ENTITY crashReporterDesc2.label	"クラッシュレポートは、問題を解決と、ブラウザーをより安定した安全なものにするのに役立ちます">
-<!ENTITY alwaysSubmitCrashReports.label	"&brandShortName; に、あなたに代わって未送信のクラッシュレポートを送信するのを許可する">
-<!ENTITY alwaysSubmitCrashReports.accesskey	"c">
-<!ENTITY crashReporterLearnMore.label	"詳細">
+<!ENTITY dataCollection.label			"&brandShortName; のデータ収集と利用について">
+<!ENTITY dataCollectionDesc.label		"私たちはユーザーに選択肢を提供し、&brandShortName; をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。">
+<!ENTITY dataCollectionPrivacyNotice.label	"プライバシー通知">
+
+<!ENTITY alwaysSubmitCrashReports1.label	"&brandShortName; がクラッシュレポートを Mozilla へ送信することを許可する">
+<!ENTITY alwaysSubmitCrashReports1.accesskey	"c">
+<!ENTITY crashReporterLearnMore.label		"詳細情報">
 
 <!ENTITY networkTab.label		"ネットワーク">
 
-<!ENTITY connection.label		"接続">
+<!ENTITY networkProxy.label		"ネットワークプロキシ">
 
 <!ENTITY connectionDesc.label		"インターネット接続に使用するプロキシを設定します。">
 <!ENTITY connectionSettings.label	"接続設定...">
@@ -92,11 +90,12 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label	"最高のパフォーマンスと安定性、セキュリティを提供するため &brandShortName; を最新の状態に保ちます。">
 <!ENTITY updateApplication.version.pre	"バージョン ">
 <!ENTITY updateApplication.version.post	"">
 <!ENTITY updateApplication.description	"&brandShortName; の更新動作">
-<!ENTITY updateAuto2.label		"更新を自動的にインストールする (セキュリティ向上のため推奨)">
-<!ENTITY updateAuto2.accesskey		"A">
+<!ENTITY updateAuto3.label		"更新を自動的にインストールする (推奨)">
+<!ENTITY updateAuto3.accesskey		"A">
 <!ENTITY updateCheckChoose2.label	"更新の確認は行うが、インストールするかを選択する">
 <!ENTITY updateCheckChoose2.accesskey	"C">
 <!ENTITY updateManual2.label		"更新の確認は行わない (非推奨)">
@@ -110,8 +109,6 @@
 
 <!ENTITY enableSearchUpdate2.label	"検索エンジンを自動的に更新する">
 <!ENTITY enableSearchUpdate2.accesskey	"e">
-
-<!ENTITY reports.label			"レポート">
 
 <!ENTITY offlineStorageNotify.label		"ウェブサイトがオフライン作業用データの保存を求めてきたときに知らせる">
 <!ENTITY offlineStorageNotify.accesskey		"T">
@@ -132,13 +129,13 @@
 <!ENTITY selectCerts.ask.accesskey	"A">
 <!ENTITY enableOCSP.label		"OCSP レスポンダーサーバーに問い合わせて証明書の現在の正当性を確認する">
 <!ENTITY enableOCSP.accesskey		"Q">
-<!ENTITY viewCerts.label		"証明書を表示...">
-<!ENTITY viewCerts.accesskey		"C">
-<!ENTITY viewSecurityDevices.label	"セキュリティデバイス...">
-<!ENTITY viewSecurityDevices.accesskey	"D">
+<!ENTITY viewCerts2.label		"証明書を表示...">
+<!ENTITY viewCerts2.accesskey		"C">
+<!ENTITY viewSecurityDevices2.label	"セキュリティデバイス...">
+<!ENTITY viewSecurityDevices2.accesskey	"D">
 
 <!ENTITY performance.label				"パフォーマンス">
-<!ENTITY useRecommendedPerformanceSettings2.label	"推奨のパフォーマンス設定を使用">
+<!ENTITY useRecommendedPerformanceSettings2.label	"推奨のパフォーマンス設定を使用する">
 <!ENTITY useRecommendedPerformanceSettings2.description	"これらの設定はコンピューターのハードウェアとオペレーティングシステムに合わせて調整されます。">
 <!ENTITY useRecommendedPerformanceSettings2.accesskey	"U">
 <!ENTITY performanceSettingsLearnMore.label		"詳細情報">

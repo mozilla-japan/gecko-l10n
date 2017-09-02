@@ -15,14 +15,17 @@
 <!ENTITY  paneSearchResults.title	"検索結果">
 
 <!ENTITY  paneGeneral.title		"一般">
+<!ENTITY  paneSearch.title		"検索">
 <!ENTITY  paneFilesApplications.title	"ファイルと@@Application@@">
 <!ENTITY  panePrivacySecurity.title	"プライバシーとセキュリティ">
 <!ENTITY  paneContainers.title		"コンテナータブ">
 <!ENTITY  paneUpdates.title		"更新">
 
+<!ENTITY  languageAndAppearance.label	"言語と外観">
+<!ENTITY  filesAndApplications.label	"ファイルと@@Application@@">
+<!ENTITY  browserPrivacy.label		"ブラウザープライバシー">
+
 <!-- LOCALIZATION NOTE (paneSync1.title): This should match syncBrand.fxAccount.label in ../syncBrand.dtd -->
 <!ENTITY  paneSync1.title		"Firefox アカウント">
 
 <!ENTITY  helpButton2.label		"&brandShortName; サポート">
-
-<!ENTITY  searchInput.label		"検索">

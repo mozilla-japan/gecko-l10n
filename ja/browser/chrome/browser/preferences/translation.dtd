@@ -14,7 +14,7 @@
 <!ENTITY removeAllLanguages.accesskey     "e">
 
 <!ENTITY noTranslationForSites.label      "以下のサイトは翻訳しない:">
-<!ENTITY treehead.siteName.label          "サイト">
+<!ENTITY treehead.siteName2.label         "ウェブサイト">
 <!ENTITY removeSite.label                 "サイトを削除">
 <!ENTITY removeSite.accesskey             "S">
 <!ENTITY removeAllSites.label             "すべてのサイトを削除">

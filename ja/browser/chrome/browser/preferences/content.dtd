@@ -2,14 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  popups.label			"ポップアップ">
+<!ENTITY  permissions.label		"許可設定">
 
 <!ENTITY  blockPopups.label		"ポップアップ@@Window@@をブロックする">
 <!ENTITY  blockPopups.accesskey		"B">
 
-<!ENTITY  notificationsPolicy.label		"通知">
 <!ENTITY  notificationsPolicyLearnMore.label	"詳細">
-<!ENTITY  notificationsPolicyDesc3.label	"通知の送信を許可するサイトを選択します">
+<!ENTITY  notificationsPolicyDesc4.label	"通知の送信を許可するウェブサイトを選択します">
 <!ENTITY  notificationsPolicyButton.accesskey	"h">
 <!ENTITY  notificationsPolicyButton.label	"選択...">
 <!ENTITY  notificationsDoNotDisturb.label	"通知しない">
@@ -33,7 +32,7 @@
 <!ENTITY  colors.accesskey		"C">
 
 
-<!ENTITY languages.label		"言語">
+<!ENTITY language2.label		"言語">
 <!ENTITY chooseLanguage.label		"ウェブページの表示に使用する言語の優先順位を設定できます。">
 <!ENTITY chooseButton.label		"言語設定...">
 <!ENTITY chooseButton.accesskey		"o">
@@ -53,8 +52,8 @@
 <!ENTITY translation.options.attribution.beforeLogo	"翻訳: ">
 <!ENTITY translation.options.attribution.afterLogo	"">
 
-<!ENTITY  drmContent.label			"DRM コンテンツ">
+<!ENTITY  drmContent2.label			"デジタル著作権管理 (DRM) コンテンツ">
 
-<!ENTITY  playDRMContent.label			"DRM コンテンツを再生">
-<!ENTITY  playDRMContent.accesskey		"P">
+<!ENTITY  playDRMContent2.label			"DRM 制御のコンテンツを再生">
+<!ENTITY  playDRMContent2.accesskey		"P">
 <!ENTITY  playDRMContent.learnMore.label	"詳細">

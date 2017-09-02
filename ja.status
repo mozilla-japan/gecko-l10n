@@ -835,7 +835,8 @@ mail, suite            ------:------------  28542:b51c9adf2c9e   mar            
 devtools/client        420957:60ee1059ee6c  -----:------------   mar             sync devtools/client (mozilla-beta)
 browser/extensions/onboarding
                        421108:2638feb177dd  -----:------------   mar             sync browser/extensions/onboarding (mozilla-beta)
+browser                421519:6670eb6643ba  -----:------------   mar             sync browser (mozilla-beta)
 
-[l10n-mozilla-56.0] (for central)
+[l10n-mozilla-57.0] (for central)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------

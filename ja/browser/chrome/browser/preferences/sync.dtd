@@ -16,6 +16,10 @@
 <!ENTITY engine.prefs.accesskey		"S">
 <!ENTITY engine.addons.label		"アドオン">
 <!ENTITY engine.addons.accesskey	"A">
+<!ENTITY engine.addresses.label		"所在地">
+<!ENTITY engine.addresses.accesskey	"e">
+<!ENTITY engine.creditcards.label	"クレジットカード">
+<!ENTITY engine.creditcards.accesskey	"C">
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label		"端末名">

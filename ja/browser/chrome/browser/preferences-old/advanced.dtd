@@ -28,6 +28,11 @@
 
 <!ENTITY dataChoicesTab.label            "データの選択">
 
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label	"このビルド設定ではヘルスレポートが無効化されています">
+
 <!ENTITY healthReportDesc.label          "パフォーマンス情報の取得と、ブラウザーの健康状態を &vendorShortName; と共有するのに役立ちます">
 <!ENTITY enableHealthReport.label        "&brandShortName; ヘルスレポートを有効にする">
 <!ENTITY enableHealthReport.accesskey    "R">

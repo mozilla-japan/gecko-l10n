@@ -73,6 +73,7 @@
 <!ENTITY  securityView.identity.owner    "運営者:">
 <!ENTITY  securityView.identity.domain   "ウェブサイト:">
 <!ENTITY  securityView.identity.verifier "認証局:">
+<!ENTITY  securityView.identity.validity "有効期限:">
 
 <!ENTITY  securityView.privacy.header                   "プライバシーと履歴">
 <!ENTITY  securityView.privacy.history                  "昨日までにこのサイトを表示したことがあるか">

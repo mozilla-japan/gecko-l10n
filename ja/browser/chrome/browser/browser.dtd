@@ -200,7 +200,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY reloadCmd.label              "更新">
 <!ENTITY stopCmd.label                "中止">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY goEndCap.tooltip             "ロケーションバーに入力された URL へ移動します">
+<!ENTITY goEndCap.tooltip             "アドレスバーに入力された URL へ移動します">
 <!ENTITY printButton.label            "@@Print@@">
 <!ENTITY printButton.tooltip          "このページを@@Print@@します">
 
@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label	"モバイルのブックマーク">
 <!ENTITY viewBookmarksSidebar2.label		"ブックマークサイドバーを表示">
 <!ENTITY viewBookmarksToolbar.label		"ブックマークツールバーを表示">
+<!ENTITY searchBookmarks.label			"ブックマークを検索">
 
 <!ENTITY containersMenu.label			"コンテナー">
 
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey	"e">
 <!ENTITY viewCustomizeToolbar.label	"カスタマイズ...">
 <!ENTITY viewCustomizeToolbar.accesskey	"C">
+<!ENTITY overflowCustomizeToolbar.label	"ツールバーをカスタマイズ...">
+<!ENTITY overflowCustomizeToolbar.accesskey	"C">
 
 <!ENTITY historyMenu.label		"履歴">
 <!ENTITY historyMenu.accesskey		"s">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label	"最近の履歴を消去...">
 <!ENTITY appMenuHistory.restoreSession.label	"以前のセッションを復元">
 <!ENTITY appMenuHistory.viewSidebar.label	"履歴サイドバーを表示">
+<!ENTITY appMenuHistory.recentHistory.label	"最近の履歴">
 <!ENTITY appMenuHelp.label			"ヘルプ">
 <!ENTITY appMenuHelp.tooltip			"ヘルプメニューを開きます">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label	"検索クエリー">
 <!ENTITY contentSearchSubmit.tooltip	"検索を実行します">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder	"検索">
+<!ENTITY searchIcon.tooltip		"検索します">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -834,20 +843,41 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.directory.introText		"クリックすると &brandShortName; にサービスを追加します。">
 <!ENTITY social.directory.viewmore.text		"その他の共有サービスを見る">
 
-<!ENTITY customizeMode.menuAndToolbars.header2	"追加のツールと機能">
-<!ENTITY customizeMode.menuAndToolbars.empty	"その他のツールを入手">
+<!ENTITY customizeMode.menuAndToolbars.header2		"追加のツールと機能">
+<!ENTITY customizeMode.menuAndToolbars.empty		"その他のツールを入手">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink	"たくさんのアドオンから選ぶ">
-<!ENTITY customizeMode.restoreDefaults		"初期設定に戻す">
-<!ENTITY customizeMode.done			"完了">
-<!ENTITY customizeMode.titlebar			"タイトルバー">
-<!ENTITY customizeMode.toolbars2		"ツールバー">
-<!ENTITY customizeMode.lwthemes			"テーマ">
-<!ENTITY customizeMode.lwthemes.myThemes	"マイテーマ">
-<!ENTITY customizeMode.lwthemes.recommended	"おすすめ">
-<!ENTITY customizeMode.lwthemes.menuManage	"管理">
-<!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
-<!ENTITY customizeMode.lwthemes.menuGetMore	"その他のテーマを入手">
-<!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
+<!ENTITY customizeMode.restoreDefaults			"初期設定に戻す">
+<!ENTITY customizeMode.done				"完了">
+<!ENTITY customizeMode.titlebar				"タイトルバー">
+<!ENTITY customizeMode.toolbars2			"ツールバー">
+<!ENTITY customizeMode.lwthemes				"テーマ">
+<!ENTITY customizeMode.lwthemes.myThemes		"マイテーマ">
+<!ENTITY customizeMode.lwthemes.recommended		"おすすめ">
+<!ENTITY customizeMode.lwthemes.menuManage		"管理">
+<!ENTITY customizeMode.lwthemes.menuManage.accessKey	"M">
+<!ENTITY customizeMode.lwthemes.menuGetMore		"その他のテーマを入手">
+<!ENTITY customizeMode.lwthemes.menuGetMore.accessKey	"G">
+<!ENTITY customizeMode.emptyOverflowList.description	"ここにアイテムをドラッグアンドドロップすると、ツールバー外の手の届くところに置いておけます...">
+<!ENTITY customizeMode.uidensity			"UI 密度">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label	"通常">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip	"通常の大きさです">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey	"N">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label	"コンパクト">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip	"小さくまとめます">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey	"C">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label	"タッチ">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip	"タッチに適した大きさです">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey	"T">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label	"タブレットモードではタッチにする">
 
 <!ENTITY getUserMedia.selectCamera.label		"共有するカメラ:">
 <!ENTITY getUserMedia.selectCamera.accesskey		"C">
@@ -957,8 +987,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2		"再起動して &brandShorterName; を更新">
 
 <!ENTITY pageActionButton.tooltip		"ページ操作">
+<!ENTITY pageAction.addToUrlbar.label		"アドレスバーに追加">
+<!ENTITY pageAction.removeFromUrlbar.label	"アドレスバーから削除">
 
-<!ENTITY sendToDevice.label			"端末へ送信...">
-<!ENTITY sendToDevice.viewTitle			"端末へ送信">
-<!ENTITY sendToDevice.fxaRequired.label		"必須">
-<!ENTITY sendToDevice.noDevices.label		"利用可能な端末がありません">
+<!ENTITY sendToDevice.label2			"端末へ送信">
+<!ENTITY sendToDevice.syncNotReady.label	"端末を同期しています...">
