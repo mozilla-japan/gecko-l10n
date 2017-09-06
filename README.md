@@ -6,9 +6,9 @@
 
 Mozilla 製品のローカライズに問題を見つけたり気になる点があれば是非フィードバックをしてください。必ずしも GitHub アカウントや特別な知識は必要ありません。
 
-* Pull Request
+* **Pull Request (推奨)**
   * GitHub を使いこなせる人は直接プルリクエストしてください。
-* [Issues](https://github.com/mozilla-japan/gecko-l10n/issues)
+* **[GitHub Issues](https://github.com/mozilla-japan/gecko-l10n/issues) (推奨)**
   * Git がよく分からない人はこのリポジトリの Issues にコメントを書いてください。
   * いきなりコードの修正を送るのではなく提案や質問などをされる場合も Issue をご利用ください。
 * [Mozilla L10N フォーラム](http://forums.firehacks.org/l10n/)
