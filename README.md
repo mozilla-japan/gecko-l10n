@@ -11,6 +11,8 @@ Mozilla 製品のローカライズに問題を見つけたり気になる点が
 * **[GitHub Issues](https://github.com/mozilla-japan/gecko-l10n/issues) (推奨)**
   * Git がよく分からない人はこのリポジトリの Issues にコメントを書いてください。
   * いきなりコードの修正を送るのではなく提案や質問などをされる場合も Issue をご利用ください。
+* [Mozilla Japan コミュニティ Slack](https://join.slack.com/t/mozillajp/shared_invite/MjI2NDMwODUwNzY5LTE1MDI4MjEyMjktYjE2MThlMmM4OA) の #l10n チャンネル
+  * 日本の Mozilla コミュニティメンバーが集まる Slack に参加してご連絡いただくこともできます。
 * [Mozilla L10N フォーラム](http://forums.firehacks.org/l10n/)
   * GitHub アカウントをお持ちで無い場合は L10N フォーラムにゲスト投稿することもできます。
 * 個人的にコンタクト
