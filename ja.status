@@ -836,6 +836,7 @@ devtools/client        420957:60ee1059ee6c  -----:------------   mar            
 browser/extensions/onboarding
                        421108:2638feb177dd  -----:------------   mar             sync browser/extensions/onboarding (mozilla-beta)
 browser                421519:6670eb6643ba  -----:------------   mar             sync browser (mozilla-beta)
+mobile                 421423:bf35ed0c2292  -----:------------   mar             sync mobile (mozilla-beta, late-l10n)
 
 [l10n-mozilla-57.0] (for central)
 target dir             mozilla and comm hg changeset rev:id      by              comment

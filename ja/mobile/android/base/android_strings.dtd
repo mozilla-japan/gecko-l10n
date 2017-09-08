@@ -362,10 +362,6 @@
 <!ENTITY pref_clear_on_exit_title3 "終了時にプライベートデータを消去">
 <!ENTITY pref_clear_on_exit_summary2 "いつでもメインメニューから \u0022終了\u0022 を選択した時、&brandShortName; が自動的にあなたのデータを消去します">
 <!ENTITY pref_clear_on_exit_dialog_title "消去するデータを選択">
-<!ENTITY pref_plugins "プラグイン">
-<!ENTITY pref_plugins_enabled "有効化">
-<!ENTITY pref_plugins_tap_to_play2 "タッチして実行">
-<!ENTITY pref_plugins_disabled "無効化">
 <!ENTITY pref_restore_tabs "タブを復元">
 <!ENTITY pref_restore_always "常に復元">
 <!ENTITY pref_restore_quit "&brandShortName; の終了後に復元しない">
@@ -851,3 +847,4 @@ is simply hidden from the Activity Stream panel. -->
 
 <!ENTITY activity_stream_welcome_title "ハイライトへようこそ">
 <!ENTITY activity_stream_welcome_content1 "&brandShortName; は優れた記事や動画、ブックマーク、その他のページをあとから見返すことができるように、あなたがウェブ上で見つけたものからハイライトを作成します。">
+<!ENTITY fullscreen_warning "@@FullScreen@@です">
