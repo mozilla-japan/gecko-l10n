@@ -821,7 +821,7 @@ irc                    ------:------------  -----:------------   mar            
 devtools/client        411737:ac72ab16001e  -----:------------   mar             sync devtools/client (mozilla-beta)
 browser                411971:0d6599e2269d  -----:------------   mar             sync browser (mozilla-beta)
 mobile                 411971:0d6599e2269d  -----:------------   mar             sync and review mobile (mozilla-beta)
-mail                   ------:------------  28323:b5f3f2bbbf76   mar             sync mail (mozilla-beta, late-l10n)
+mail                   ------:------------  28323:b5f3f2bbbf76   mar             sync mail (comm-beta, late-l10n)
 
 [l10n-mozilla-56.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
@@ -831,12 +831,13 @@ mail                   ------:------------  21819:f4f277cc1749   mar            
 suite                  ------:------------  21819:f4f277cc1749   mar             sync suite
 toolkit, dom           371743:ec666e910442  21831:3749d8c1fa1b   mar             sync toolkit, dom (2017-07-29)
 mobile                 371969:87824406b9fe  -----:------------   kechol          sync mobile
-mail, suite            ------:------------  28542:b51c9adf2c9e   mar             sync mail, suite (mozilla-beta)
+mail, suite            ------:------------  28542:b51c9adf2c9e   mar             sync mail, suite (comm-beta)
 devtools/client        420957:60ee1059ee6c  -----:------------   mar             sync devtools/client (mozilla-beta)
 browser/extensions/onboarding
                        421108:2638feb177dd  -----:------------   mar             sync browser/extensions/onboarding (mozilla-beta)
 browser                421519:6670eb6643ba  -----:------------   mar             sync browser (mozilla-beta)
 mobile                 421423:bf35ed0c2292  -----:------------   mar             sync mobile (mozilla-beta, late-l10n)
+suite                  ------:------------  28560:656ff307995a   mar             sync suite (comm-beta, late-l10n)
 
 [l10n-mozilla-57.0] (for central)
 target dir             mozilla and comm hg changeset rev:id      by              comment
