@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
-<!ENTITY places.library.title  "履歴とブックマークの管理"><!-- (^^; Library/Archive -->
+<!ENTITY places.library.title  "ブラウジングライブラリー"><!-- (^^; Library/Archive -->
 <!ENTITY places.library.width  "750"><!-- en-US: 700 -->
 <!ENTITY places.library.height "500"><!-- en-US: 500 -->
 <!ENTITY organize.label        "管理">
@@ -15,7 +15,7 @@
 <!ENTITY cmd.close.key                  "w">
 <!ENTITY views.label                    "表示">
 <!ENTITY views.accesskey                "V">
-<!ENTITY views.tooltip                  "履歴とブックマークの表示を変更します">
+<!ENTITY views.tooltip                  "表示する項目を変更します">
 <!ENTITY view.columns.label             "表示する列">
 <!ENTITY view.columns.accesskey         "C">
 <!ENTITY view.sort.label                "項目の表示順序">
