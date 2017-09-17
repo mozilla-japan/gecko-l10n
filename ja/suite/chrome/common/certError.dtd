@@ -21,7 +21,7 @@ was trying to connect. -->
 <!ENTITY certerror.getMeOutOfHere.label		"スタートページに戻る">
 
 <!ENTITY certerror.expert.heading		"危険性を理解した上で接続するには">
-<!ENTITY certerror.expert.content		"何が起きていて何が問題なのか理解できているのであれば、このサイトの証明書を信頼するよう &brandShortName; にセキュリティ例外を追加することもできます。<b>ただし、たとえこのサイトが信頼できるサイトであっても、誰かが通信を改ざんしているからこのエラーが表示されている可能性があるので十分に注意してください。</b>">
+<!ENTITY certerror.expert.content		"何が起きていて何が問題なのか理解できているのであれば、このサイトの証明書を信頼するよう &brandShortName; にセキュリティ例外を追加することもできます。<b>ただし、たとえこのサイトが信頼できるサイトであっても、誰かが通信を不正に改変してこのエラーが表示されている可能性があるので十分に注意してください。</b>">
 <!ENTITY certerror.expert.contentPara2		"信頼できる証明書をこのサイトが使用しない正当な理由がない限り、例外として追加しないでください。">
 <!ENTITY certerror.addException.label		"例外を追加...">
 

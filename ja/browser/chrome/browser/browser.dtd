@@ -762,7 +762,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.description.insecure		"このサイトへの接続は秘密が保たれません。このサイトに送信した情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。">
 <!ENTITY identity.description.insecureLoginForms "このページに入力したログイン情報は安全に送信されません。第三者に盗み見られる可能性があります。">
 <!ENTITY identity.description.weakCipher	"このウェブサイトとの接続には脆弱な暗号が使用されており、秘密が保たれません。">
-<!ENTITY identity.description.weakCipher2	"第三者にあなたの情報を盗み見られたりウェブサイトの動作を改ざんされる可能性があります。">
+<!ENTITY identity.description.weakCipher2	"第三者にあなたの情報を盗み見られたりウェブサイトの動作を不正に改変される可能性があります。">
 <!ENTITY identity.description.activeBlocked	"&brandShortName; がこのページ上の安全でないコンテンツをブロックしました。">
 <!ENTITY identity.description.passiveLoaded	"この接続は安全ではないため、サイトと共有したあなたの情報が第三者に盗み見られる可能性があります。">
 <!ENTITY identity.description.passiveLoaded2	"このウェブサイトには安全でないコンテンツ (画像など) が含まれています。">
