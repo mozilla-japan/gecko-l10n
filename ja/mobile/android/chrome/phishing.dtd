@@ -23,3 +23,6 @@
 <!-- Localization note (safeb.blocked.unwanted.shortDesc) - Please don't translate the contents of the <span id="unwanted_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
 <!ENTITY safeb.blocked.unwantedPage.shortDesc "<span id='unwanted_sitename'/> のウェブページは、望ましくないソフトウェアを含むページとして報告されており、セキュリティ設定に従いブロックされています。">
 <!ENTITY safeb.blocked.unwantedPage.longDesc "望ましくないソフトウェアサイトは、システムに深刻な影響を与える偽装されたソフトウェアを、想定外の方法でインストールしようとします。">
+
+<!ENTITY safeb.blocked.harmfulPage.title "マルウェアを含むサイトの可能性があります">
+<!ENTITY safeb.blocked.harmfulPage.shortDesc "このページは、あなたの情報 (例えば、写真、パスワード、メッセージやクレジットカード番号) を盗んだり消去したりする危険なアプリをインストールしようとする可能性があるため、&brandShortName; によってブロックされました。">
