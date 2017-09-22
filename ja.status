@@ -844,3 +844,4 @@ target dir             mozilla and comm hg changeset rev:id      by             
 --------------------------------------------------------------------------------------------------------------
 dom                    381357:877d536658e6  22159:aaf36a3aee78   mar             sync dom (2017-09-17)
 mobile                 381355:faa897d7948b  -----:------------   kechol          sync mobile
+browser/extensions     382295:68b1c083356d  -----:------------   mar             sync browser/extensions
