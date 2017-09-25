@@ -108,6 +108,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yActivated		"有効">
 <!ENTITY aboutSupport.a11yForceDisabled		"アクセシビリティの無効化">
 <!ENTITY aboutSupport.a11yHandlerUsed		"アクセシブルハンドラーの使用">
+<!ENTITY aboutSupport.a11yInstantiator		"アクセシビリティのインスタンス生成">
 
 <!ENTITY aboutSupport.libraryVersionsTitle	"ライブラリのバージョン">
 

@@ -846,6 +846,7 @@ dom                    381357:877d536658e6  22159:aaf36a3aee78   mar            
 mobile                 381355:faa897d7948b  -----:------------   kechol          sync mobile (2017-09-19)
 browser/extensions     382295:68b1c083356d  -----:------------   mar             sync browser/extensions (2017-09-22)
 dom, security          431803:c282aab44b8c  28953:3003566ec702   mar             sync dom, security (mozilla-beta)
+toolkit                431803:c282aab44b8c  28953:3003566ec702   mar             sync toolkit (mozilla-beta)
 
 [l10n-mozilla-58.0] (for central)
 target dir             mozilla and comm hg changeset rev:id      by              comment

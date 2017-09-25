@@ -258,7 +258,6 @@
 <!ENTITY pluginDeprecation.description			"&brandShortName; によるサポートが終了したプラグインは表示されません。">
 <!ENTITY pluginDeprecation.learnMore			"詳細">
 
-<!ENTITY legacyWarning.description		"&brandShortName; によるサポートが終了した拡張機能があります。">
 <!ENTITY legacyWarning.showLegacy		"旧式の拡張機能を表示">
 <!ENTITY legacyExtensions.title 		"旧式の拡張機能">
 <!ENTITY legacyExtensions.description		"これらの拡張機能は、現在の &brandShortName; 標準に適さないため無効化されています。">

@@ -4,7 +4,7 @@
 
 
 <!ENTITY  history.title		"更新履歴">
-<!ENTITY  history.intro		"以下の更新をインストールしました">
+<!ENTITY  history2.intro	"以下の更新をインストールしました">
 <!ENTITY  closebutton.label	"閉じる">
 
 <!ENTITY  noupdates.label	"インストールした更新はありません">

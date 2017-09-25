@@ -2,144 +2,50 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY aboutTelemetry.pageTitle "Telemetry データ">
+<!ENTITY aboutTelemetry.pingDataSource		"Ping データソース:">
+<!ENTITY aboutTelemetry.showCurrentPingData	"現在の Ping データ">
+<!ENTITY aboutTelemetry.showArchivedPingData	"保存された Ping データ">
+<!ENTITY aboutTelemetry.showSubsessionData	"送信データを表示">
+<!ENTITY aboutTelemetry.choosePing		"Ping の選択:">
+<!ENTITY aboutTelemetry.archivePingType		"Ping 形式">
+<!ENTITY aboutTelemetry.archivePingHeader	"Ping">
+<!ENTITY aboutTelemetry.optionGroupToday	"今日">
+<!ENTITY aboutTelemetry.optionGroupYesterday	"昨日">
+<!ENTITY aboutTelemetry.optionGroupOlder	"それ以前">
+<!ENTITY aboutTelemetry.payloadChoiceHeader	"ペイロード">
+<!-- LOCALIZATION NOTE(aboutTelemetry.previousPing, aboutTelemetry.nextPing):
+	These strings are displayed when selecting Archived pings, and they’re
+	used to move to the next or previous ping. -->
+<!ENTITY aboutTelemetry.previousPing		"&lt;&lt;">
+<!ENTITY aboutTelemetry.nextPing		"&gt;&gt;">
 
-<!ENTITY aboutTelemetry.pingDataSource "
-Ping データソース:
-">
+<!ENTITY aboutTelemetry.pageTitle		"Telemetry データ">
+<!ENTITY aboutTelemetry.moreInformations	"詳しい情報をお探しですか？">
+<!ENTITY aboutTelemetry.firefoxDataDoc		"<a>Firefox Data Documentation</a> には、私たちのデータツールでの取り扱われ方についてのガイドが含まれます。">
+<!ENTITY aboutTelemetry.telemetryClientDoc	"<a>Firefox Telemetry クライアントドキュメント</a> には、コンセプト、API ドキュメント、データ参照についての定義が含まれます。">
+<!ENTITY aboutTelemetry.telemetryDashboard	"<a>Telemetry ダッシュボード</a> では、Telemetry 経由で Mozilla が受信したデータが視覚化されています。">
 
-<!ENTITY aboutTelemetry.showCurrentPingData "
-現在の Ping データ
-">
+<!ENTITY aboutTelemetry.showInFirefoxJsonViewer	"JSON ビューアーで開く">
 
-<!ENTITY aboutTelemetry.showArchivedPingData "
-アーカイブされた Ping データ
-">
+<!ENTITY aboutTelemetry.homeSection		"ホーム">
+<!ENTITY aboutTelemetry.generalDataSection	"一般データ">
+<!ENTITY aboutTelemetry.environmentDataSection	"環境データ">
+<!ENTITY aboutTelemetry.sessionInfoSection	"セッション情報">
+<!ENTITY aboutTelemetry.scalarsSection		"スカラー">
+<!ENTITY aboutTelemetry.keyedScalarsSection	"主要なスカラー">
+<!ENTITY aboutTelemetry.histogramsSection	"ヒストグラム">
+<!ENTITY aboutTelemetry.keyedHistogramsSection	"主要なヒストグラム">
+<!ENTITY aboutTelemetry.eventsSection		"イベント">
+<!ENTITY aboutTelemetry.simpleMeasurementsSection	"統計情報">
+<!ENTITY aboutTelemetry.telemetryLogSection	"Telemetry ログ">
+<!ENTITY aboutTelemetry.slowSqlSection		"動作の遅い SQL 文">
+<!ENTITY aboutTelemetry.chromeHangsSection	"ブラウザーの動作停止">
+<!ENTITY aboutTelemetry.addonDetailsSection	"アドオンの詳細">
+<!ENTITY aboutTelemetry.capturedStacksSection	"捕捉したスタック">
+<!ENTITY aboutTelemetry.lateWritesSection	"遅延書き込み">
+<!ENTITY aboutTelemetry.rawPayloadSection	"生のペイロード">
+<!ENTITY aboutTelemetry.raw			"生の JSON 形式">
 
-<!ENTITY aboutTelemetry.raw "
-生の JSON 形式
-">
-
-<!ENTITY aboutTelemetry.showSubsessionData "
-送信データを表示
-">
-
-<!ENTITY aboutTelemetry.choosePing "
-Ping の選択:
-">
-
-<!ENTITY aboutTelemetry.showNewerPing "
-&lt;&lt; 新しい Ping
-">
-
-<!ENTITY aboutTelemetry.showOlderPing "
-古い Ping &gt;&gt;
-">
-
-<!ENTITY aboutTelemetry.archiveWeekHeader "
-週
-">
-
-<!ENTITY aboutTelemetry.archivePingType "
-Ping 形式
-">
-
-<!ENTITY aboutTelemetry.archivePingHeader "
-Ping
-">
-
-<!ENTITY aboutTelemetry.optionGroupToday "
-今日
-">
-
-<!ENTITY aboutTelemetry.optionGroupYesterday "
-昨日
-">
-
-<!ENTITY aboutTelemetry.optionGroupOlder "
-それ以前
-">
-
-<!ENTITY aboutTelemetry.generalDataSection "
-  一般データ
-">
-
-<!ENTITY aboutTelemetry.environmentDataSection "
-  環境データ
-">
-
-<!ENTITY aboutTelemetry.telemetryLogSection "
-  Telemetry ログ
-">
-
-<!ENTITY aboutTelemetry.slowSqlSection "
-  動作の遅い SQL ステートメント
-">
-
-<!ENTITY aboutTelemetry.chromeHangsSection "
-  ブラウザーの動作停止
-">
-
-<!ENTITY aboutTelemetry.threadHangStatsSection "
-  スレッドの停止
-">
-
-<!ENTITY aboutTelemetry.capturedStacksSection "
-  捕捉したスタック
-">
-
-<!ENTITY aboutTelemetry.scalarsSection "
-  スカラー
-">
-
-<!ENTITY aboutTelemetry.keyedScalarsSection "
-  主要なスカラー
-">
-
-<!ENTITY aboutTelemetry.histogramsSection "
-  ヒストグラム
-">
-
-<!ENTITY aboutTelemetry.keyedHistogramsSection "
-  主要なヒストグラム
-">
-
-<!ENTITY aboutTelemetry.eventsSection "
-  イベント
-">
-
-<!ENTITY aboutTelemetry.simpleMeasurementsSection "
-  統計情報
-">
-
-<!ENTITY aboutTelemetry.addonDetailsSection "
-  アドオンの詳細
-">
-
-<!ENTITY aboutTelemetry.lateWritesSection "
-  遅延書き込み
-">
-
-<!ENTITY aboutTelemetry.sessionInfoSection "
-  セッション情報
-">
-
-<!ENTITY aboutTelemetry.fullSqlWarning "
-  NOTE: 動作の遅い SQL のデバッグが有効です。SQL 全文が以下に表示されますが、Telemetry には送信されません。
-">
-
-<!ENTITY aboutTelemetry.fetchStackSymbols "
-  スタックの関数名を読み込む
-">
-
-<!ENTITY aboutTelemetry.hideStackSymbols "
-  生のスタックデータを表示する
-">
-
-<!ENTITY aboutTelemetry.filterText "
-  フィルター (文字列または /正規表現/)
-">
-
-<!ENTITY aboutTelemetry.payloadChoiceHeader "
-  ペイロード
-">
+<!ENTITY aboutTelemetry.fullSqlWarning		"注記: 動作の遅い SQL のデバッグが有効です。SQL 全文が以下に表示されますが Telemetry には送信されません。">
+<!ENTITY aboutTelemetry.fetchStackSymbols	"スタックの関数名を読み込む">
+<!ENTITY aboutTelemetry.hideStackSymbols	"生のスタックデータを表示する">
