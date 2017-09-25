@@ -823,7 +823,7 @@ browser                411971:0d6599e2269d  -----:------------   mar            
 mobile                 411971:0d6599e2269d  -----:------------   mar             sync and review mobile (mozilla-beta)
 mail                   ------:------------  28323:b5f3f2bbbf76   mar             sync mail (comm-beta, late-l10n)
 
-[l10n-mozilla-56.0] (for beta)
+Released! [l10n-mozilla-56.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                    371056:388d81ed93fa  21819:f4f277cc1749   mar             sync dom (2017-07-27)
@@ -839,9 +839,14 @@ browser                421519:6670eb6643ba  -----:------------   mar            
 mobile                 421423:bf35ed0c2292  -----:------------   mar             sync mobile (mozilla-beta, late-l10n)
 suite                  ------:------------  28560:656ff307995a   mar             sync suite (comm-beta, late-l10n)
 
-[l10n-mozilla-57.0] (for central)
+[l10n-mozilla-57.0] (for beta)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                    381357:877d536658e6  22159:aaf36a3aee78   mar             sync dom (2017-09-17)
-mobile                 381355:faa897d7948b  -----:------------   kechol          sync mobile
-browser/extensions     382295:68b1c083356d  -----:------------   mar             sync browser/extensions
+mobile                 381355:faa897d7948b  -----:------------   kechol          sync mobile (2017-09-19)
+browser/extensions     382295:68b1c083356d  -----:------------   mar             sync browser/extensions (2017-09-22)
+dom, security          431803:c282aab44b8c  28953:3003566ec702   mar             sync dom, security (mozilla-beta)
+
+[l10n-mozilla-58.0] (for central)
+target dir             mozilla and comm hg changeset rev:id      by              comment
+--------------------------------------------------------------------------------------------------------------

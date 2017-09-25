@@ -25,11 +25,11 @@
 <!ENTITY devmgr.button.fips.accesskey		"F">
 
 <!ENTITY loaddevice.info			"追加するモジュール情報を入力してください。">
-<!ENTITY loaddevice.modname			"モジュール名:">
-<!ENTITY loaddevice.modname.accesskey		"M">
+<!ENTITY loaddevice.modname2			"モジュール名">
+<!ENTITY loaddevice.modname2.accesskey		"M">
 <!ENTITY loaddevice.modname.default		"New PKCS #11 Module"><!-- (^^; 日本語名での登録はできないとのこと -->
-<!ENTITY loaddevice.filename			"ファイルパス:">
-<!ENTITY loaddevice.filename.accesskey		"f">
+<!ENTITY loaddevice.filename2			"ファイルパス">
+<!ENTITY loaddevice.filename2.accesskey		"f">
 <!ENTITY loaddevice.browse			"@@Browse@@...">
 <!ENTITY loaddevice.browse.accesskey		"B">
 
