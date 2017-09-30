@@ -51,25 +51,23 @@
 <!ENTITY fxaccount_getting_started_get_started 'はじめましょう'>
 <!ENTITY fxaccount_getting_started_old_firefox '古いバージョンの &syncBrand.shortName.label; を使っていませんか？'>
 
-<!ENTITY fxaccount_status_signed_in_as 'ログインユーザー'>
-<!ENTITY fxaccount_status_manage_account 'アカウントの管理'>
 <!ENTITY fxaccount_status_auth_server 'アカウントサーバー'>
 <!ENTITY fxaccount_status_sync_now '今すぐ同期'>
 <!ENTITY fxaccount_status_syncing2 '同期しています...'>
 <!ENTITY fxaccount_status_device_name '端末名'>
 <!ENTITY fxaccount_status_sync_server 'Sync サーバー'>
-<!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
-<!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label; は有効です'>
 <!ENTITY fxaccount_status_needs_verification2 'あなたのアカウントを確認してください。タップして確認のメールを再送信します。'>
 <!ENTITY fxaccount_status_needs_credentials '接続できません。タップしてログインします。'>
 <!ENTITY fxaccount_status_needs_upgrade 'ログインするには &brandShortName; をアップグレードする必要があります。'>
 <!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。Android の @@[@@設定@@]@@ &gt; @@[@@データ使用@@]@@ から @@[@@データの自動同期@@]@@ を有効にしてください。'>
 <!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 '&syncBrand.shortName.label; が設定されましたが、自動では同期されません。Android の @@[@@設定@@]@@ &gt; @@[@@アカウント@@]@@ から @@[@@データの自動同期@@]@@ を有効にしてください。'>
 <!ENTITY fxaccount_status_needs_finish_migrating 'あなたの新しい Firefox アカウントにログインするにはタップしてください。'>
+<!ENTITY fxaccount_status_choose_what '同期するものを選んでください'>
 <!ENTITY fxaccount_status_bookmarks 'ブックマーク'>
 <!ENTITY fxaccount_status_history '履歴'>
 <!ENTITY fxaccount_status_passwords2 'ログイン情報'>
 <!ENTITY fxaccount_status_tabs '開いているタブ'>
+<!ENTITY fxaccount_status_additional_settings '追加の設定'>
 <!ENTITY fxaccount_status_legal '法的事項' >
 <!-- Localization note: when tapped, the following two strings link to
      external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
@@ -77,7 +75,6 @@
      the two uses differently. -->
 <!ENTITY fxaccount_status_linktos2 'サービス利用規約'>
 <!ENTITY fxaccount_status_linkprivacy2 '個人情報保護方針'>
-<!ENTITY fxaccount_status_more '詳細...'>
 <!ENTITY fxaccount_remove_account '接続解除...'>
 
 <!ENTITY fxaccount_remove_account_dialog_title2 'Sync の接続を解除しますか？'>
@@ -102,21 +99,6 @@
      Account. -->
 <!ENTITY fxaccount_options_title '&syncBrand.shortName.label; オプション'>
 <!ENTITY fxaccount_options_configure_title '&syncBrand.shortName.label; の設定'>
-
-<!-- Localization note: these error messages are shown after a request
-     has been made to the remote server, and an error of some type has
-     been returned. -->
-<!ENTITY fxaccount_remote_error_UPGRADE_REQUIRED 'Firefox のアップグレードが必要です'>
-
-<!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
-<!ENTITY fxaccount_remote_error_ATTEMPT_TO_CREATE_AN_ACCOUNT_THAT_ALREADY_EXISTS_2 '&formatS1; このアカウントはすでに存在します。'>
-<!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST 'メールかパスワードが間違っています'>
-<!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD 'メールかパスワードが間違っています'>
-<!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT 'アカウントが確認されていません'>
-<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS 'サーバーが応答しません。後ほどお試しください'>
-<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD 'サーバーが応答しません。後ほどお試しください'>
-<!ENTITY fxaccount_remote_error_UNKNOWN_ERROR '問題が発生しました'>
-<!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED 'アカウントがロックされています。&formatS1;'>
 
 <!ENTITY fxaccount_sync_sign_in_error_notification_title2 '&syncBrand.shortName.label; はインターネットに接続していません'>
 <!-- Localization note: the format string below will be replaced

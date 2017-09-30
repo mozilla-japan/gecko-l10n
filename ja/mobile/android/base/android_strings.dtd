@@ -285,12 +285,6 @@
      for experimental features. -->
 <!ENTITY pref_category_experimental "実験的な機能">
 
-<!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
-     Instead of switching to the browser it appears as if the user stays in the third-party app.
-     For more see: https://developer.chrome.com/multidevice/android/customtabs -->
-<!ENTITY pref_custom_tabs "カスタムタブ">
-<!ENTITY pref_custom_tabs_summary3 "カスタマイズされた &brandShortName; を利用して、アプリがウェブサイトを開くことを許可します">
-
 <!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
      default browser from user's preference, such as "Open in Firefox" -->
 <!ENTITY custom_tabs_menu_item_open_in "&formatS; で開く">
@@ -828,8 +822,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY activity_stream_topstories "&brandPocket; からのおすすめ">
 <!ENTITY activity_stream_highlights "ハイライト">
 
-<!-- LOCALIZATION NOET (activity_stream_link_more): Link-like text displayed to take user to a website with more content from Pocket. This string will be displayed in all uppercase. -->
-<!ENTITY activity_stream_link_more "詳細">
+<!-- LOCALIZATION NOTE (activity_stream_link_more1): Link-like text displayed to take user to a website with more content from Pocket. -->
+<!ENTITY activity_stream_link_more1 "詳細">
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->
@@ -848,8 +842,6 @@ is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_remove "消去">
 <!ENTITY activity_stream_delete_history "履歴から削除">
 
-<!ENTITY activity_stream_welcome_title "ハイライトへようこそ">
-<!ENTITY activity_stream_welcome_content1 "&brandShortName; は優れた記事や動画、ブックマーク、その他のページをあとから見返すことができるように、あなたがウェブ上で見つけたものからハイライトを作成します。">
 <!ENTITY private_tab_panel_title "プライベートブラウジングとトラッキング保護">
 <!ENTITY private_tab_panel_description "&brandShortName; は、ページ内のブラウジング行動を追跡する部分をブロックします。">
 <!ENTITY private_tab_panel_description2 "履歴は残りませんが、ダウンロードされたファイルと新しいブックマークは端末に保存されます。">
