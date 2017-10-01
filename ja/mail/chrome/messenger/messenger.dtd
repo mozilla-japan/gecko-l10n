@@ -370,6 +370,8 @@
 <!ENTITY editAsNewMsgCmd.key		"e">
 <!ENTITY editDraftMsgCmd.label		"下書きメッセージを編集">
 <!ENTITY editDraftMsgCmd.accesskey	"D">
+<!ENTITY newMsgFromTemplateCmd.label	"テンプレートから@@New-CMD@@メッセージを作成">
+<!ENTITY newMsgFromTemplateCmd.keycode	"VK_RETURN"><!-- do not change "VK_RETURN" -->
 <!ENTITY createFilter.label		"メッセージからフィルターを作成...">
 <!ENTITY createFilter.accesskey		"a">
 <!ENTITY moveMsgToMenu.label		"別のフォルダーに移動"><!-- contextMoveMsgMenu.label と同じ動作 -->
@@ -737,12 +739,13 @@
 <!ENTITY attachmentColumn2.tooltip	"添付の有無で並べ替えます">
 
 <!-- Thread Pane Context Menu -->
+<!ENTITY contextNewMsgFromTemplate.label	"テンプレートから@@New-CMD@@メッセージを作成">
 <!ENTITY contextOpenNewWindow.label		"@@NewWindow@@でメッセージを開く">
 <!ENTITY contextOpenNewWindow.accesskey		"W">
-<!-- The key potentially conflicts with cutCmd.accessKey which is defined in
-     textcontext.dtd from toolkit. Right now, both menu items can't be visible
-     at the same time, but should someone enable copy/paste of message, this key
-     would probably need to be changed. -->
+<!-- The contextOpenNewTab.accesskey ("T") potentially conflicts with
+     cutCmd.accessKey which is defined in textcontext.dtd from toolkit. Right
+     now, both menu items can't be visible at the same time, but should someone
+     enable copy/paste of message, this key would probably need to be changed. -->
 <!ENTITY contextOpenNewTab.label		"@@NewTab@@でメッセージを開く">
 <!ENTITY contextOpenNewTab.accesskey		"T">
 <!ENTITY contextOpenConversation.label		"@@NewTab@@でスレッドを開く"><!-- en-US: "Open Message in Conversation" -->

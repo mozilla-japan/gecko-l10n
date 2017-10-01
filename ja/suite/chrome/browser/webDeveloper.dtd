@@ -19,7 +19,6 @@
 
 <!ENTITY responsiveDesignTool.label		"レスポンシブデザインビュー">
 <!ENTITY responsiveDesignTool.accesskey		"R">
-<!ENTITY responsiveDesignTool.commandkey	"M">
 
 <!ENTITY eyedropper.label			"スポイト">
 <!ENTITY eyedropper.accesskey			"y">

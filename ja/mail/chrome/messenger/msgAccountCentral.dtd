@@ -18,8 +18,7 @@
 <!ENTITY accountsSectionHdr.label	"アカウント">
 <!ENTITY subscribeImapFolders.label	"購読するフォルダーを管理する">
 <!ENTITY settingsLink.label		"このアカウントの設定を表示する">
-<!ENTITY newAcctLink.label		"@@New-CMD@@アカウントを作成する">
-<!ENTITY newAcct.label			"@@New-CMD@@アカウントを作成する:">
+<!ENTITY setupNewAcct.label		"アカウントのセットアップ:">
 
 <!ENTITY advFeaturesSectionHdr.label	"高度な機能">
 <!ENTITY searchMsgsLink.label		"メッセージを検索する">

@@ -134,7 +134,7 @@
 <!ENTITY checkSpellingCmd2.key		"p">
 <!ENTITY checkSpellingCmd2.key2		"VK_F7">
 <!ENTITY checkSpellingCmd2.accesskey	"h">
-<!ENTITY enableInlineSpellChecker.label	"自動スペルチェック"><!-- en-US: Spell Check As You Type -->
+<!ENTITY enableInlineSpellChecker.label	"自動スペルチェック"><!-- en-US: Spellcheck As You Type -->
 <!ENTITY enableInlineSpellChecker.accesskey	"S">
 <!ENTITY quoteCmd.label			"メッセージを引用">
 <!ENTITY quoteCmd.accesskey		"Q">
@@ -216,7 +216,6 @@
 <!ENTITY addressButton.tooltip		"アドレス帳から宛先を選択します">
 <!ENTITY attachButton.tooltip		"このメッセージにファイルを添付します">
 <!ENTITY spellingButton.tooltip		"選択したテキストまたはメッセージ全体のスペルチェックをします">
-<!ENTITY statusLanguageText.tooltip	"スペルチェックの言語">
 <!ENTITY saveButton.tooltip		"このメッセージを保存します">
 <!ENTITY cutButton.tooltip		"@@Cut@@">
 <!ENTITY copyButton.tooltip		"コピー">
@@ -310,3 +309,7 @@
 <!-- Identity popup customize menuitem -->
 <!ENTITY customizeFromAddress.label	"差出人アドレスをカスタマイズ...">
 <!ENTITY customizeFromAddress.accesskey	"A">
+
+<!-- Status Bar -->
+<!ENTITY languageStatusButton.tooltip	"スペルチェックの言語">
+<!ENTITY encodingStatusPanel.tooltip	"テキストエンコーディング">

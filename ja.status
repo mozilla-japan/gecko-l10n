@@ -848,6 +848,7 @@ browser/extensions     382295:68b1c083356d  -----:------------   mar            
 dom, security          431803:c282aab44b8c  28953:3003566ec702   mar             sync dom, security (mozilla-beta)
 toolkit                431803:c282aab44b8c  28953:3003566ec702   mar             sync toolkit (mozilla-beta)
 services/sync          431858:2779d2d4bacc  -----:------------   mar             sync services/sync (mozilla-beta)
+mail, suite            ------:------------  28962:18057608b15f   mar             sync mail, suite (comm-beta)
 
 [l10n-mozilla-58.0] (for central)
 target dir             mozilla and comm hg changeset rev:id      by              comment

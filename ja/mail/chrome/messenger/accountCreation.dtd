@@ -2,14 +2,16 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY autoconfigWizard.title		"メールアカウント設定">
+<!ENTITY autoconfigWizard2.title	"既存メールアカウントのセットアップ">
 <!ENTITY name.label			"あなたのお名前:">
 <!ENTITY name.accesskey			"n">
 <!ENTITY name.placeholder		"氏名またはニックネーム">
-<!ENTITY name.text			"受信者に表示される名前です。">
+<!ENTITY name.text			"受信者に表示される名前です">
 <!ENTITY email.label			"メールアドレス:">
-<!ENTITY email.accesskey		"l">
-<!ENTITY email.placeholder		"email@example.com">
+<!ENTITY email.accesskey		"E">
+<!-- LOCALIZATION NOTE(email.placeholder): Domain @example.com must stay in English -->
+<!ENTITY email2.placeholder		"you@example.com">
+<!ENTITY email.text			"既存のメールアドレスです">
 <!ENTITY password.label			"パスワード:">
 <!ENTITY password.accesskey		"P">
 <!ENTITY password.placeholder		"アカウントのパスワード">
@@ -53,8 +55,8 @@
 <!ENTITY half-manual-test.accesskey	"t">
 <!ENTITY manual-edit.label		"手動設定">
 <!ENTITY manual-edit.accesskey		"M">
-<!ENTITY switch-to-provisioner.label	"@@New-CMD@@アカウントを取得">
-<!ENTITY switch-to-provisioner.accesskey	"G">
+<!ENTITY open-provisioner.label		"@@New-CMD@@メールアドレスを取得...">
+<!ENTITY open-provisioner.accesskey	"g">
 
 <!ENTITY warning.label			"警告！">
 <!ENTITY incomingSettings.label		"受信サーバー設定:">
