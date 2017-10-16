@@ -1,6 +1,6 @@
 # Gecko 日本語ローカライズ
 
-このリポジトリでは、Firefox, Thunderbird, Firefox OS などで使用されている Gecko エンジンおよび製品 (Firefox, Android 版 Firefox, Thunderbird, Lightning, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に ja (Windows, Linux などの Mac 以外), ja-JP-mac (Mac) それぞれのリソースファイルを生成し、hg.mozilla.org のリポジトリに push することで実際の製品に反映されます。
+このリポジトリでは、Firefox, Thunderbird などで使用されている Gecko エンジンおよび製品 (Firefox, Android 版 Firefox, Thunderbird, Lightning, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に ja (Windows, Linux などの Mac 以外), ja-JP-mac (Mac) それぞれのリソースファイルを生成し、hg.mozilla.org のリポジトリに push することで実際の製品に反映されます。
 
 ## フィードバックの送り方
 
@@ -20,7 +20,7 @@ Mozilla 製品のローカライズに問題を見つけたり気になる点が
 
 ## ブランチとマージ
 
-GitHub での master ブランチ (hg では defaut ブランチ) が ~~Developer Edition ビルド (mozilla-aurora, comm-aurora) 用のリソースです。~~ Nightly ビルド (mozilla-central, comm-central) 用のリソースです (version 55.0 から)。ベータ版・リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。
+GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) 用のリソースです (version 55.0 から)。ベータ版・リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。
 
 バージョンアップ時の英語リソースファイル変更に追従する場合は master ブランチだけを修正すれば構いませんが、既にブランチを切っているバージョンにも反映したい場合は master だけでなく該当ブランチにもマージしてください。
 
@@ -79,7 +79,7 @@ git push
   * ~Aurora:~  (EOL in 54.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja-JP-mac/
-  * Beta (Developer Edition since 55.0):
+  * ~Beta:~ (Developer Edition since 55.0, EOL in 56.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja-JP-mac/
   * Release:

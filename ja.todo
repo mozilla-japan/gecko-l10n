@@ -11,10 +11,6 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 翻訳作業時のメモ。
 未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
 
-◆21.0 対応作業関連
-・The Book of Mozilla, 15.1
-	http://forums.firehacks.org/l10n/viewtopic.php?t=17204
-	toolkit/chrome/global/mozilla.dtd
 
 ◆16.0 対応作業関連
 未訳箇所あり:
@@ -26,12 +22,6 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
     /browser/chrome/browser/browser.properties
       addonsInstalled
       addonsInstalledNeedsRestart
-  画面未確認 (23時点で定義のみ存在)
-    /browser/chrome/browser/browser.dtd
-      social.closeNotificationItem.label
-  画面未確認 (23時点で機能未実装？)
-    /browser/chrome/browser/devtools/gcli.properties
-      connect*, disconnect*
 
 
 google の https 関係 (Bug 736260):
@@ -51,20 +41,14 @@ google の https 関係 (Bug 736260):
 
 ◆各リポジトリへの対応について、何かあれば以下に書き残してください。
 
-・default ブランチで mozilla-aurora, comm-aurora に同期する。
-・mozilla-beta 等のリリース直前の作業は未定。
+58.0 以降の cross-channel 対応
+  ・default ブランチで gecko-strings と同期し、mozilla-central にコミットする。
+    https://hg.mozilla.org/l10n/gecko-strings
+  ・57.0 以降の Release および Beta に影響するため、作業対象のバージョンで obsoleted になっている strings を削除しないこと！
 
------ START (^^;
-beta だけ変更が必要な事などはあると思うので aurora->beta 切り替え時に毎回ブランチ切るのが良いかと思います。ブランチ名は mozilla-beta にしたくなりますが、それだと次のバージョンの時にまた別のブランチに移動させることになり面倒なので、(mobile-5.0 などに倣って) l10n-mozilla-5.0 などにしてしまう感じで
 
-mozilla-central -> 当面のところ対応予定無し
-mozilla-aurora  -> ja では default
-mozilla-beta    -> l10n-mozilla-5.0
-                   l10n-mozilla-6.0
-                     ...
-mozilla-2.0     -> l10n-mozilla-2.0
------ END (^^;
-
+mozilla-beta/ja は 56.0 で終了。
+mozilla-aurora/ja は 54.0 で終了。
 
 
 
