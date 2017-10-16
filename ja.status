@@ -850,6 +850,7 @@ toolkit                431803:c282aab44b8c  28953:3003566ec702   mar            
 services/sync          431858:2779d2d4bacc  -----:------------   mar             sync services/sync (mozilla-beta)
 mail, suite            ------:------------  28962:18057608b15f   mar             sync mail, suite (comm-beta)
 browser                432518:02886ab26aae  -----:------------   mar             sync browser (mozilla-beta)
+devtools/shared        432518:02886ab26aae  -----:------------   mar             sync devtools/shared (mozilla-beta)
 
 [l10n-mozilla-58.0] (for central)
 target dir             mozilla and comm hg changeset rev:id      by              comment
