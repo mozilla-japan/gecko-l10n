@@ -75,9 +75,7 @@
 <!ENTITY projectPanel_tabs				"タブ">
 <!ENTITY runtimePanel_usb				"USB デバイス">
 <!ENTITY runtimePanel_wifi				"Wi-Fi デバイス">
-<!ENTITY runtimePanel_simulator				"シミュレータ">
 <!ENTITY runtimePanel_other				"その他">
-<!ENTITY runtimePanel_installsimulator			"シミュレータをインストール">
 <!ENTITY runtimePanel_noadbhelper			"ADB Helper をインストール">
 <!ENTITY runtimePanel_nousbdevice			"端末が見つかりませんか？">
 <!ENTITY runtimePanel_refreshDevices_label		"端末をリフレッシュ">
@@ -174,19 +172,3 @@
 
 <!-- Logs panel -->
 <!ENTITY logs_title					"パッケージング前のコマンドログ">
-
-<!-- Simulator Options -->
-<!ENTITY simulator_title				"シミュレータのオプション">
-<!ENTITY simulator_remove				"シミュレータを削除">
-<!ENTITY simulator_reset				"@@RestoreDefaults@@">
-<!ENTITY simulator_name					"名前">
-<!ENTITY simulator_software				"ソフトウェア">
-<!ENTITY simulator_version				"バージョン">
-<!ENTITY simulator_profile				"プロファイル">
-<!ENTITY simulator_hardware				"ハードウェア">
-<!ENTITY simulator_device				"デバイス">
-<!ENTITY simulator_screenSize				"スクリーン">
-<!ENTITY simulator_pixelRatio				"ピクセル比">
-<!ENTITY simulator_tv_data				"TV シミュレーション">
-<!ENTITY simulator_tv_data_open				"設定データ">
-<!ENTITY simulator_tv_data_open_button			"設定ディレクトリーを開く...">

@@ -851,7 +851,8 @@ services/sync          431858:2779d2d4bacc  -----:------------   mar            
 mail, suite            ------:------------  28962:18057608b15f   mar             sync mail, suite (comm-beta)
 browser                432518:02886ab26aae  -----:------------   mar             sync browser (mozilla-beta)
 devtools/shared        432518:02886ab26aae  -----:------------   mar             sync devtools/shared (mozilla-beta)
+devtools/client        432537:ea66f4c8766c  -----:------------   mar             sync devtools/client (mozilla-beta)
 
 [l10n-mozilla-58.0] (for central)
-target dir             mozilla and comm hg changeset rev:id      by              comment
+target dir             gecko-string hg changeset rev:id          by              comment
 --------------------------------------------------------------------------------------------------------------

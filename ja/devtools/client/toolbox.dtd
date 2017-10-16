@@ -145,19 +145,14 @@
 <!ENTITY options.debugger.label			"デバッガー">
 
 <!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
-   - label for the checkbox that toggles source maps in the Debugger -->
+   - label for the checkbox that toggles source maps in all tools -->
 <!ENTITY options.sourceMaps.label		"ソースマップを有効化">
-<!ENTITY options.sourceMaps.tooltip		"このオプションを有効にすると、ソースがデバッガーとコンソールにマッピングされます">
+<!ENTITY options.sourceMaps.tooltip1		"このオプションを有効にすると、ソースがツールにマッピングされます">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->
 <!ENTITY options.styleeditor.label		"スタイルエディター">
-
-<!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
-   - label for the checkbox that toggles showing original sources in the Style Editor -->
-<!ENTITY options.stylesheetSourceMaps.label	"元のソースを表示">
-<!ENTITY options.stylesheetSourceMaps.tooltip	"スタイルエディターとインスペクターで元のソースを表示します (例: Sass ファイル)">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
@@ -167,29 +162,17 @@
 <!-- LOCALIZATION NOTE (options.screenshot.label): This is the label for the
    -  heading of the group of Screenshot preferences in the options
    -  panel. -->
-<!ENTITY options.screenshot.label			"スクリーンショットの動作">
+<!ENTITY options.screenshot.label		"スクリーンショットの動作">
 
 <!-- LOCALIZATION NOTE (options.screenshot.clipboard.label): This is the
    - label for the checkbox that toggles screenshot to clipboard feature. -->
-<!ENTITY options.screenshot.clipboard.label		"スクリーンショットをクリップボードへコピー">
-<!ENTITY options.screenshot.clipboard.tooltip		"スクリーンショットをクリップボードに直接保存します">
+<!ENTITY options.screenshot.clipboard.label	"スクリーンショットをクリップボードへコピー">
+<!ENTITY options.screenshot.clipboard.tooltip	"スクリーンショットをクリップボードに直接保存します">
 
 <!-- LOCALIZATION NOTE (options.screenshot.audio.label): This is the
    - label for the checkbox that toggles the camera shutter audio for screenshot tool -->
-<!ENTITY options.screenshot.audio.label			"カメラのシャッター音を再生">
-<!ENTITY options.screenshot.audio.tooltip		"スクリーンショット撮影時のカメラ音声を有効にします">
-
-<!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
-      of all preferences that affect both the Web Console and the Network
-      Monitor -->
-<!ENTITY options.commonPrefs.label		"共通設定">
-
-<!-- LOCALIZATION NOTE (options.enablePersistentLogs.label): This is the
-  -  label for the checkbox that toggles persistent logs in the Web Console and
-  -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
-  -  about:config, in the options panel. -->
-<!ENTITY options.enablePersistentLogs.label	"ログ出力を残す">
-<!ENTITY options.enablePersistentLogs.tooltip	"このオプションを有効にすると、新しいページに誘導させられた場合でもウェブコンソールとネットワークモニターの出力を消去しないようになります">
+<!ENTITY options.screenshot.audio.label		"カメラのシャッター音を再生">
+<!ENTITY options.screenshot.audio.tooltip	"スクリーンショット撮影時のカメラ音声を有効にします">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
