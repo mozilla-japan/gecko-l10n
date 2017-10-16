@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY tabCrashed.closeTab	"このタブを閉じる">
+<!ENTITY tabCrashed.title	"タブクラッシュレポーター">
+
+<!ENTITY tabCrashed.closeTab2	"タブを閉じる">
 <!ENTITY tabCrashed.restoreTab	"このタブを復元する">
 <!ENTITY tabCrashed.restoreAll	"クラッシュしたタブをすべて復元する">
 
@@ -13,18 +15,18 @@
      happen. If you have a similar word or short phrase that is not profane or
      vulgar, use it. If not, feel free to skip the word in your
      translation. -->
-<!ENTITY tabCrashed.header2			"申し訳ありません。タブがクラッシュしました。">
-<!ENTITY tabCrashed.offerHelp			"We can help you!">
-<!ENTITY tabCrashed.single.offerHelpMessage	"ページを再読み込みするには、@@[@@&tabCrashed.restoreTab;@@]@@ を選択してください。">
-<!ENTITY tabCrashed.multiple.offerHelpMessage	"ページを再読み込みするには、@@[@@&tabCrashed.restoreTab;@@]@@ または @@[@@&tabCrashed.restoreAll;@@]@@ を選択してください。">
+<!ENTITY tabCrashed.header2			"タブがクラッシュしてしまいました。">
+<!ENTITY tabCrashed.offerHelp2			"ご迷惑をおかけして申し訳ありません。">
+<!ENTITY tabCrashed.single.offerHelpMessage2	"@@[@@&tabCrashed.restoreTab;@@]@@ を選択するとページを再読み込みします。">
+<!ENTITY tabCrashed.multiple.offerHelpMessage2	"@@[@@&tabCrashed.restoreTab;@@]@@ または @@[@@&tabCrashed.restoreAll;@@]@@ を選択するとページを再読み込みします。">
 <!ENTITY tabCrashed.requestHelp			"ご協力をお願いします">
 <!ENTITY tabCrashed.requestHelpMessage		"クラッシュレポートを送信すると、問題の解決と &brandShortName; の改善に役立ちます。">
 <!ENTITY tabCrashed.requestReport		"このタブを報告">
-<!ENTITY tabCrashed.sendReport2			"表示中のタブのクラッシュレポートを送信する">
+<!ENTITY tabCrashed.sendReport3			"自動化されたクラッシュレポートを送信すると、このような問題の解決に役立てられます。">
 <!ENTITY tabCrashed.commentPlaceholder2		"コメントを追記 (公開されます)">
-<!ENTITY tabCrashed.includeURL2			"クラッシュレポートにページの URL を含める">
-<!ENTITY tabCrashed.emailPlaceholder		"メールアドレスを記入">
+<!ENTITY tabCrashed.includeURL3			"&brandShortName; のクラッシュ時に表示していたサイトの URL を含める">
+<!ENTITY tabCrashed.emailPlaceholder		"メールアドレスを記入してください">
 <!ENTITY tabCrashed.emailMe			"新着情報があったらメールを送信する">
 <!ENTITY tabCrashed.reportSent			"クラッシュレポートを送信しました。&brandShortName; の改善に役立てます。">
 <!ENTITY tabCrashed.requestAutoSubmit2		"他のタブも報告">
-<!ENTITY tabCrashed.autoSubmit2			"設定を変更すると、このセッション以降にクラッシュした@@Back@@のタブについてのレポートを含むクラッシュレポートを自動的に送信します。">
+<!ENTITY tabCrashed.autoSubmit3			"設定を変更すると、&brandShortName; のクラッシュ時にレポートが自動的に送信されます。">

@@ -20,6 +20,8 @@
 <!ENTITY restoreDefault.label		"初期設定に戻す">
 <!ENTITY restoreDefault.accesskey	"R">
 
+<!ENTITY disableExtension.label		"拡張機能を無効化">
+
 <!ENTITY downloads.label		"ダウンロード">
 
 <!ENTITY saveTo.label			"次のフォルダーに保存する">

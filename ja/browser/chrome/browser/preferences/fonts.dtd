@@ -4,22 +4,22 @@
 
 <!ENTITY  fontsDialog.title                       "フォント">
 
-<!ENTITY  language.label                          "対象言語:">
-<!ENTITY  language.accesskey                      "F">
+<!ENTITY  fonts.label                             "対象言語">
+<!ENTITY  fonts.accesskey                         "F">
 
-<!ENTITY  size.label                              "サイズ:">
+<!ENTITY  size2.label                             "サイズ">
 <!ENTITY  sizeProportional.accesskey              "z">
 <!ENTITY  sizeMonospace.accesskey                 "e">
 
-<!ENTITY  proportional.label                      "プロポーショナル:">
-<!ENTITY  proportional.accesskey                  "P">
+<!ENTITY  proportional2.label                     "プロポーショナル">
+<!ENTITY  proportional2.accesskey                 "P">
 
-<!ENTITY  serif.label                             "明朝体 (Serif):">
-<!ENTITY  serif.accesskey                         "S">
-<!ENTITY  sans-serif.label                        "ゴシック体 (Sans-serif):">
-<!ENTITY  sans-serif.accesskey                    "n">
-<!ENTITY  monospace.label                         "等幅 (Monospace):">
-<!ENTITY  monospace.accesskey                     "M">
+<!ENTITY  serif2.label                            "明朝体 (Serif)">
+<!ENTITY  serif2.accesskey                        "S">
+<!ENTITY  sans-serif2.label                       "ゴシック体 (Sans-serif)">
+<!ENTITY  sans-serif2.accesskey                   "n">
+<!ENTITY  monospace2.label                        "等幅 (Monospace)">
+<!ENTITY  monospace2.accesskey                    "M">
 
 <!-- LOCALIZATION NOTE (font.langGroup.latin) :
      Translate "Latin" as the name of Latin (Roman) script, not as the name of the Latin language. -->
@@ -53,8 +53,8 @@
 <!ENTITY  font.langGroup.sinhala                  "シンハラ語"><!-- (^^; win 対応不明 -->
 <!ENTITY  font.langGroup.tibetan                  "チベット語">
 <!-- Minimum font size -->
-<!ENTITY minSize.label                            "最小フォントサイズ:">
-<!ENTITY minSize.accesskey                        "o">
+<!ENTITY minSize2.label                           "最小フォントサイズ">
+<!ENTITY minSize2.accesskey                       "o">
 <!ENTITY minSize.none                             "なし">
 
 <!-- default font type -->
@@ -65,8 +65,8 @@
 <!ENTITY  allowPagesToUseOwn.accesskey            "A">
 
 <!ENTITY languages.customize.Fallback2.grouplabel "古いウェブページでのテキストエンコーディング">
-<!ENTITY languages.customize.Fallback2.label      "代替テキストエンコーディング:">
-<!ENTITY languages.customize.Fallback2.accesskey  "T">
+<!ENTITY languages.customize.Fallback3.label      "代替テキストエンコーディング">
+<!ENTITY languages.customize.Fallback3.accesskey  "T">
 <!ENTITY languages.customize.Fallback2.desc       "このテキストエンコーディングは、テキストエンコーディングが宣言されていない古いウェブページで使用されます。">
 
 <!ENTITY languages.customize.Fallback.auto        "現在のロケールの@@DefaultValue@@">

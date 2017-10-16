@@ -7,16 +7,29 @@
 <!ENTITY  blockPopups.label		"ポップアップ@@Window@@をブロックする">
 <!ENTITY  blockPopups.accesskey		"B">
 
-<!ENTITY  notificationsPolicyLearnMore.label	"詳細">
-<!ENTITY  notificationsPolicyDesc4.label	"通知の送信を許可するウェブサイトを選択します">
-<!ENTITY  notificationsPolicyButton.accesskey	"h">
-<!ENTITY  notificationsPolicyButton.label	"選択...">
-<!ENTITY  notificationsDoNotDisturb.label	"通知しない">
-<!ENTITY  notificationsDoNotDisturb.accesskey	"n">
+<!ENTITY  notificationsDoNotDisturb.label		"通知しない">
+<!ENTITY  notificationsDoNotDisturb.accesskey		"n">
 <!ENTITY  notificationsDoNotDisturbDetails.value	"&brandShortName; を再起動するまで通知を表示しません">
 
-<!ENTITY  popupExceptions.label		"許可サイト..."><!-- en-US: Exceptions -->
-<!ENTITY  popupExceptions.accesskey	"E">
+<!ENTITY  popupExceptions.label				"許可サイト..."><!-- en-US: Exceptions… -->
+<!ENTITY  popupExceptions.accesskey			"E">
+
+<!ENTITY  notificationPermissions.label			"通知">
+<!ENTITY  notificationSettingsButton.label		"設定...">
+<!ENTITY  notificationSettingsButton.accesskey		"t">
+<!ENTITY  notificationPermissionsLearnMore.label	"詳細情報">
+
+<!ENTITY  locationPermissions.label		"位置情報">
+<!ENTITY  locationSettingsButton.label		"設定...">
+<!ENTITY  locationSettingsButton.accesskey	"t">
+
+<!ENTITY  cameraPermissions.label		"カメラ">
+<!ENTITY  cameraSettingsButton.label		"設定...">
+<!ENTITY  cameraSettingsButton.accesskey	"t">
+
+<!ENTITY  microphonePermissions.label		"マイク">
+<!ENTITY  microphoneSettingsButton.label	"設定...">
+<!ENTITY  microphoneSettingsButton.accesskey	"t">
 
 <!ENTITY  fontsAndColors.label		"フォントと@@Colors@@">
 
@@ -56,4 +69,4 @@
 
 <!ENTITY  playDRMContent2.label			"DRM 制御のコンテンツを再生">
 <!ENTITY  playDRMContent2.accesskey		"P">
-<!ENTITY  playDRMContent.learnMore.label	"詳細">
+<!ENTITY  playDRMContent.learnMore.label	"詳細情報">

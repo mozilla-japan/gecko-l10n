@@ -6,54 +6,59 @@
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
-<!ENTITY mainWindow.title		"&brandFullName;">
+<!ENTITY mainWindow.title			"&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifier	"&brandFullName;">
+<!ENTITY mainWindow.titlemodifier		"&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifiermenuseparator	" - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
                                                                 inside the private browsing mode -->
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix	"(プライベートブラウジング)">
 
-<!ENTITY appmenu.tooltip                     "メニューを開きます">
-<!ENTITY navbarOverflow.label                "その他のツール...">
+<!ENTITY appmenu.tooltip		"メニューを開きます">
+<!ENTITY navbarOverflow.label		"その他のツール...">
 
 <!-- Tab context menu -->
-<!ENTITY  reloadTab.label                    "タブを再読み込み">
-<!ENTITY  reloadTab.accesskey                "R">
-<!ENTITY  reloadAllTabs.label                "すべてのタブを再読み込み">
-<!ENTITY  reloadAllTabs.accesskey            "A">
+<!ENTITY  reloadTab.label		"タブを再読み込み">
+<!ENTITY  reloadTab.accesskey		"R">
+<!ENTITY  reloadAllTabs.label		"すべてのタブを再読み込み">
+<!ENTITY  reloadAllTabs.accesskey	"A">
+<!-- LOCALIZATION NOTE (duplicateTab.label): This is a command to duplicate
+a tab (i.e. it is a verb, not adjective). -->
+<!ENTITY  duplicateTab.label		"タブを複製">
+<!ENTITY  duplicateTab.accesskey	"D">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
-<!ENTITY  closeTabsToTheEnd.label            "右側のタブをすべて閉じる">
-<!ENTITY  closeTabsToTheEnd.accesskey        "i">
-<!ENTITY  closeOtherTabs.label               "他のタブをすべて閉じる">
-<!ENTITY  closeOtherTabs.accesskey           "o">
+<!ENTITY  closeTabsToTheEnd.label	"右側のタブをすべて閉じる">
+<!ENTITY  closeTabsToTheEnd.accesskey	"i">
+<!ENTITY  closeOtherTabs.label		"他のタブをすべて閉じる">
+<!ENTITY  closeOtherTabs.accesskey	"o">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
-<!ENTITY  pinTab.label                       "タブをピン留め">
-<!ENTITY  pinTab.accesskey                   "P">
-<!ENTITY  unpinTab.label                     "タブのピン留めを外す">
-<!ENTITY  unpinTab.accesskey                 "b">
-<!ENTITY  sendTabToDevice.label              "タブを端末に送る">
-<!ENTITY  sendTabToDevice.accesskey          "D">
-<!ENTITY  sendPageToDevice.label             "ページを端末に送る">
-<!ENTITY  sendPageToDevice.accesskey         "D">
-<!ENTITY  sendLinkToDevice.label             "リンクを端末に送る">
-<!ENTITY  sendLinkToDevice.accesskey         "D">
-<!ENTITY  moveToNewWindow.label              "@@NewWindow@@へ移動">
-<!ENTITY  moveToNewWindow.accesskey          "W">
-<!ENTITY  bookmarkAllTabs.label              "すべてのタブをブックマーク...">
-<!ENTITY  bookmarkAllTabs.accesskey          "T">
-<!ENTITY  undoCloseTab.label                 "閉じたタブを元に戻す">
-<!ENTITY  undoCloseTab.accesskey             "U">
-<!ENTITY  closeTab.label                     "タブを閉じる">
-<!ENTITY  closeTab.accesskey                 "c">
+<!ENTITY  pinTab.label			"タブをピン留め">
+<!ENTITY  pinTab.accesskey		"P">
+<!ENTITY  unpinTab.label		"タブのピン留めを外す">
+<!ENTITY  unpinTab.accesskey		"b">
+<!ENTITY  sendTabToDevice.label		"タブを端末へ送信">
+<!ENTITY  sendTabToDevice.accesskey	"n">
+<!ENTITY  sendPageToDevice.label	"ページを端末へ送信">
+<!ENTITY  sendPageToDevice.accesskey	"n">
+<!ENTITY  sendLinkToDevice.label	"リンクを端末へ送信">
+<!ENTITY  sendLinkToDevice.accesskey	"n">
+<!ENTITY  sendToDeviceFeedback.label	"送信しました">
+<!ENTITY  moveToNewWindow.label		"@@NewWindow@@へ移動">
+<!ENTITY  moveToNewWindow.accesskey	"W">
+<!ENTITY  bookmarkAllTabs.label		"すべてのタブをブックマーク...">
+<!ENTITY  bookmarkAllTabs.accesskey	"T">
+<!ENTITY  undoCloseTab.label		"閉じたタブを元に戻す">
+<!ENTITY  undoCloseTab.accesskey	"U">
+<!ENTITY  closeTab.label		"タブを閉じる">
+<!ENTITY  closeTab.accesskey		"c">
 
 <!ENTITY  listAllTabs.label		"タブを一覧表示します">
 
@@ -95,6 +100,13 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY pageSourceCmd.label		"ページのソース">
 <!ENTITY pageSourceCmd.accesskey	"o">
 <!ENTITY pageSourceCmd.commandkey	"u">
+<!-- LOCALIZATION NOTE (pageSourceCmd.SafariCommandKey should match the
+Option+Command keyboard shortcut letter that Safari and Chrome use for "View
+Source" on macOS. pageSourceCmd.commandkey above is Firefox's official keyboard
+shortcut shown in the GUI. SafariCommandKey is an alias provided for the
+convenience of Safari and Chrome users on macOS. See bug 1398988. -->
+<!ENTITY pageSourceCmd.SafariCommandKey	"u">
+
 <!ENTITY pageInfoCmd.label		"ページの情報">
 <!ENTITY pageInfoCmd.accesskey		"I">
 <!ENTITY pageInfoCmd.commandkey		"i">
@@ -161,23 +173,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label		"このページをブックマーク">
 <!ENTITY editThisBookmarkCmd.label		"このブックマークを編集">
 <!ENTITY bookmarkThisPageCmd.commandkey		"d">
-<!-- LOCALIZATION NOTE (findShareServices.label):
-  -  Use the unicode ellipsis char, \u2026,
-  -  or use "..." if \u2026 doesn't suit traditions in your locale. -->
-<!ENTITY findShareServices.label		"その他の共有サービス...">
-<!ENTITY sharePageCmd.label			"このページを共有">
-<!ENTITY sharePageCmd.commandkey		"S">
-<!ENTITY sharePageCmd.accesskey			"s">
-<!-- LOCALIZATION NOTE (shareLink.accesskey): must be different than the following share access keys -->
-<!ENTITY shareLink.label			"この URL を共有">
-<!ENTITY shareLink.accesskey			"h">
-<!ENTITY shareImage.label			"この画像を共有">
-<!ENTITY shareImage.accesskey			"r">
-<!ENTITY shareSelect.label			"選択範囲を共有">
-<!ENTITY shareSelect.accesskey			"r">
-<!ENTITY shareVideo.label			"この動画を共有">
-<!ENTITY shareVideo.accesskey			"r">
-<!ENTITY feedsMenu2.label			"このページを購読">
+
 <!ENTITY subscribeToPageMenupopup.label		"このページを購読">
 <!ENTITY subscribeToPageMenuitem.label		"このページを購読...">
 <!ENTITY addCurPagesCmd.label			"すべてのタブをブックマーク...">
@@ -191,18 +187,18 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY hideRecentlyBookmarked.label		"最近のブックマークを隠す">
 <!ENTITY hideRecentlyBookmarked.accesskey	"H">
 
-<!ENTITY backCmd.label                "戻る">
-<!ENTITY backButton.tooltip           "前のページへ戻ります">
-<!ENTITY forwardCmd.label             "進む">
-<!ENTITY forwardButton.tooltip        "次のページへ進みます">
-<!ENTITY backForwardButtonMenu.tooltip "右クリック、または長押しで履歴を表示します">
-<!ENTITY backForwardButtonMenuMac.tooltip "長押しで履歴を表示します">
-<!ENTITY reloadCmd.label              "更新">
-<!ENTITY stopCmd.label                "中止">
-<!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY goEndCap.tooltip             "アドレスバーに入力された URL へ移動します">
-<!ENTITY printButton.label            "@@Print@@">
-<!ENTITY printButton.tooltip          "このページを@@Print@@します">
+<!ENTITY backCmd.label				"戻る">
+<!ENTITY backButton.tooltip			"前のページへ戻ります">
+<!ENTITY forwardCmd.label			"進む">
+<!ENTITY forwardButton.tooltip			"次のページへ進みます">
+<!ENTITY backForwardButtonMenu.tooltip		"右クリック、または長押しで履歴を表示します">
+<!ENTITY backForwardButtonMenuMac.tooltip	"長押しで履歴を表示します">
+<!ENTITY reloadCmd.label			"更新">
+<!ENTITY stopCmd.label				"中止">
+<!ENTITY stopCmd.macCommandKey			".">
+<!ENTITY goEndCap.tooltip			"アドレスバーに入力された URL へ移動します">
+<!ENTITY printButton.label			"@@Print@@">
+<!ENTITY printButton.tooltip			"このページを@@Print@@します">
 
 <!ENTITY urlbar.viewSiteInfo.label			"サイトの情報を表示">
 
@@ -243,14 +239,18 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksButton.label			"ブックマーク">
 <!ENTITY bookmarksCmd.commandkey		"b">
 
-<!ENTITY bookmarksMenuButton.label		"ブックマーク">
+<!ENTITY bookmarksSubview.label			"ブックマーク">
+<!ENTITY bookmarksMenuButton2.label		"ブックマークメニュー">
 <!ENTITY bookmarksMenuButton.other.label	"他のブックマーク">
 <!ENTITY bookmarksMenuButton.mobile.label	"モバイルのブックマーク">
 <!ENTITY viewBookmarksSidebar2.label		"ブックマークサイドバーを表示">
+<!ENTITY hideBookmarksSidebar.label		"ブックマークサイドバーを隠す">
 <!ENTITY viewBookmarksToolbar.label		"ブックマークツールバーを表示">
+<!ENTITY hideBookmarksToolbar.label		"ブックマークツールバーを隠す">
 <!ENTITY searchBookmarks.label			"ブックマークを検索">
-
-<!ENTITY containersMenu.label			"コンテナー">
+<!ENTITY bookmarkingTools.label			"ブックマークツール">
+<!ENTITY addBookmarksMenu.label			"ブックマークメニューをツールバーに追加">
+<!ENTITY removeBookmarksMenu.label		"ブックマークメニューをツールバーから削除">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -268,6 +268,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY keywordfield.accesskey		"K">
 
 <!ENTITY downloads.label		"ダウンロード">
+<!-- LOCALIZATION NOTE (libraryDownloads.label): This label is similar to
+  -  downloads.label, but used in the Library panel. -->
+<!ENTITY libraryDownloads.label		"ダウンロード">
 <!ENTITY downloads.accesskey		"D">
 <!ENTITY downloads.commandkey		"j">
 <!ENTITY downloadsUnix.commandkey	"y">
@@ -335,21 +338,20 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY overflowCustomizeToolbar.label	"ツールバーをカスタマイズ...">
 <!ENTITY overflowCustomizeToolbar.accesskey	"C">
 
-<!ENTITY historyMenu.label		"履歴">
-<!ENTITY historyMenu.accesskey		"s">
-<!ENTITY historyUndoMenu.label		"最近閉じたタブ">
+<!ENTITY historyMenu.label			"履歴">
+<!ENTITY historyMenu.accesskey			"s">
+<!ENTITY historyUndoMenu.label			"最近閉じたタブ">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
-<!ENTITY historyUndoWindowMenu.label	"最近閉じた@@Window@@">
+<!ENTITY historyUndoWindowMenu.label		"最近閉じた@@Window@@">
 <!ENTITY historyRestoreLastSession.label	"以前のセッションを復元">
 
-<!ENTITY showAllHistoryCmd2.label	"すべての履歴を表示"><!-- (^^; -->
-<!ENTITY showAllHistoryCmd.commandkey	"H">
+<!ENTITY showAllHistoryCmd2.label		"すべての履歴を表示"><!-- (^^; -->
+<!ENTITY showAllHistoryCmd.commandkey		"H">
 
 <!ENTITY appMenuCustomize.label			"カスタマイズ">
 <!ENTITY appMenuCustomize.tooltip		"メニューとツールバーをカスタマイズします">
 <!ENTITY appMenuCustomizeExit.label		"カスタマイズを終了">
 <!ENTITY appMenuCustomizeExit.tooltip		"カスタマイズを完了します">
-<!ENTITY appMenuHistory.label			"履歴">
 <!ENTITY appMenuHistory.showAll.label		"すべての履歴を表示">
 <!ENTITY appMenuHistory.clearRecent.label	"最近の履歴を消去...">
 <!ENTITY appMenuHistory.restoreSession.label	"以前のセッションを復元">
@@ -383,6 +385,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.managedevices.label	"端末の管理...">
 <!ENTITY appMenuRemoteTabs.signin.label		"Sync にログイン">
 <!ENTITY appMenuRemoteTabs.sidebar.label	"同期タブサイドバーを表示">
+
+<!ENTITY appMenuRecentHighlights.label		"最近のハイライト">
 
 <!ENTITY customizeMenu.addToToolbar.label		"ツールバーに追加">
 <!ENTITY customizeMenu.addToToolbar.accesskey		"A">
@@ -427,13 +431,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.extension.label			"拡張機能:">
 <!ENTITY urlbar.switchToTab.label		"タブを表示:">
 
-<!ENTITY urlbar.searchSuggestionsNotification.question	"検索候補を表示して検索機能を向上させますか？">
-<!ENTITY urlbar.searchSuggestionsNotification.learnMore	"詳細情報...">
-<!ENTITY urlbar.searchSuggestionsNotification.learnMore.accesskey "l">
-<!ENTITY urlbar.searchSuggestionsNotification.disable	"いいえ">
-<!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
-<!ENTITY urlbar.searchSuggestionsNotification.enable	"はい">
-<!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
+<!ENTITY urlbar.searchSuggestionsNotification.question			"検索候補を表示して検索機能を向上させますか？">
+<!ENTITY urlbar.searchSuggestionsNotification.learnMore			"詳細情報...">
+<!ENTITY urlbar.searchSuggestionsNotification.learnMore.accesskey	"l">
+<!ENTITY urlbar.searchSuggestionsNotification.disable			"いいえ">
+<!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey		"n">
+<!ENTITY urlbar.searchSuggestionsNotification.enable			"はい">
+<!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey		"y">
 
 <!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
 <!ENTITY urlbar.searchSuggestionsNotification.hintPrefix			"ヒント:">
@@ -561,7 +565,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey		"L">
 <!ENTITY bookmarkThisFrameCmd.label		"このフレームをブックマーク">
 <!ENTITY bookmarkThisFrameCmd.accesskey		"m">
-<!ENTITY copyURLCmd.label			"URL をコピー">
+<!ENTITY pageAction.copyLink.label		"リンクをコピー">
+<!ENTITY copyURLFeedback.label			"コピーしました">
 <!ENTITY emailPageCmd.label			"ページの URL をメールで送信...">
 <!ENTITY emailPageCmd.accesskey			"E">
 <!ENTITY savePageCmd.label			"@@SavePageAs@@...">
@@ -585,8 +590,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailImageCmd.accesskey		"g">
 <!ENTITY emailVideoCmd.label			"動画の URL をメールで送信...">
 <!ENTITY emailVideoCmd.accesskey		"a">
-<!ENTITY castVideoCmd.label			"動画を端末に送る">
-<!ENTITY castVideoCmd.accesskey			"e">
 <!ENTITY emailAudioCmd.label			"音声の URL をメールで送信...">
 <!ENTITY emailAudioCmd.accesskey		"a">
 <!ENTITY playPluginCmd.label			"このプラグインを有効化">
@@ -802,6 +805,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- LOCALIZATION NOTE (syncedTabs.sidebar.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label	"タブの同期をオンにすると、他の端末のタブの一覧を表示できます。">
+<!ENTITY syncedTabs.sidebar.searchPlaceholder	"同期したタブを検索">
 
 <!-- LOCALIZATION NOTE (syncedTabs.context.open.accesskey,
                         syncedTabs.context.openAllInTabs.accesskey):
@@ -835,20 +839,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncReAuthItem.accesskey		"R">
 <!ENTITY syncToolbarButton.label		"Sync">
 
-<!ENTITY social.addons.label			"サービスを管理...">
-
-<!ENTITY social.directory.label			"共有サービス">
-<!ENTITY social.directory.text			"一覧から共有サービスを有効にできます。">
-<!ENTITY social.directory.button		"有効にする">
-<!ENTITY social.directory.introText		"クリックすると &brandShortName; にサービスを追加します。">
-<!ENTITY social.directory.viewmore.text		"その他の共有サービスを見る">
-
-<!ENTITY customizeMode.menuAndToolbars.header2		"追加のツールと機能">
+<!ENTITY customizeMode.menuAndToolbars.header3		"お気に入りのアイテムをツールバーやオーバーフローメニューにドラッグしてください。">
 <!ENTITY customizeMode.menuAndToolbars.empty		"その他のツールを入手">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink	"たくさんのアドオンから選ぶ">
 <!ENTITY customizeMode.restoreDefaults			"初期設定に戻す">
 <!ENTITY customizeMode.done				"完了">
 <!ENTITY customizeMode.titlebar				"タイトルバー">
+<!ENTITY customizeMode.extraDragSpace			"ドラッグ領域">
 <!ENTITY customizeMode.toolbars2			"ツールバー">
 <!ENTITY customizeMode.lwthemes				"テーマ">
 <!ENTITY customizeMode.lwthemes.myThemes		"マイテーマ">
@@ -879,6 +876,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.uidensity.menuTouch.accessKey	"T">
 <!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label	"タブレットモードではタッチにする">
 
+<!ENTITY customizeMode.autoHideDownloadsButton.label	"自動的に隠す">
+
 <!ENTITY getUserMedia.selectCamera.label		"共有するカメラ:">
 <!ENTITY getUserMedia.selectCamera.accesskey		"C">
 <!ENTITY getUserMedia.selectMicrophone.label		"共有するマイク:">
@@ -903,16 +902,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingProtection.block2.label		"保護を有効にする">
 <!ENTITY trackingProtection.block2.accesskey		"E">
 
-<!ENTITY trackingContentBlocked.message			"トラッキング">
-<!ENTITY trackingContentBlocked.moreinfo		"あなたのオンライン行動をトラッキングしているページの一部分をブロックしました。">
-<!ENTITY trackingContentBlocked.learnMore		"詳細">
-<!ENTITY trackingContentBlocked.options			"オプション">
-<!ENTITY trackingContentBlocked.unblock2.label		"このウェブサイトでは保護を無効にする">
-<!ENTITY trackingContentBlocked.unblock2.accesskey	"D">
-<!ENTITY trackingContentBlocked.block.label		"保護を有効にする">
-<!ENTITY trackingContentBlocked.block.accesskey		"E">
-<!ENTITY trackingContentBlocked.disabled.message	"トラッキングの保護は無効です">
-
 <!ENTITY pluginNotification.showAll.label	"すべて表示">
 <!ENTITY pluginNotification.showAll.accesskey	"S">
 
@@ -929,8 +918,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pluginNotification.width		"28em">
 
 <!ENTITY uiTour.infoPanel.close			"閉じる">
-
-<!ENTITY appMenuSidebars.label			"サイドバー">
 
 <!-- LOCALIZATION NOTE: (panicButton.view.mainTimeframeDesc, panicButton.view.5min, panicButton.view.2hr, panicButton.view.day):
      The .mainTimeframeDesc string combined with any of the 3 others is meant to form a complete sentence, e.g. "Forget the last: Five minutes".
@@ -978,7 +965,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateManual.cancelButton.accesskey	"N">
 <!ENTITY updateManual.panelUI.label		"&brandShorterName; の新たなコピーをダウンロード">
 
-<!ENTITY updateRestart.message			"&brandShorterName; の再起動後、開いていたタブと@@Window@@がすべて復元されます。">
+<!ENTITY updateRestart.message2			"&brandShorterName; の再起動後、開いていたタブとプライベートブラウジングモードでない@@Window@@がすべて復元されます。">
 <!ENTITY updateRestart.header.message2		"再起動して &brandShorterName; を更新してください。">
 <!ENTITY updateRestart.acceptButton.label	"再起動して復元">
 <!ENTITY updateRestart.acceptButton.accesskey	"R">
@@ -990,5 +977,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageAction.addToUrlbar.label		"アドレスバーに追加">
 <!ENTITY pageAction.removeFromUrlbar.label	"アドレスバーから削除">
 
-<!ENTITY sendToDevice.label2			"端末へ送信">
+<!ENTITY pageAction.sendTabToDevice.label	"タブを端末へ送信">
 <!ENTITY sendToDevice.syncNotReady.label	"端末を同期しています...">
+
+<!ENTITY libraryButton.tooltip			"履歴や保存したブックマークなどを表示します">
+
+<!-- LOCALIZATION NOTE: (accessibilityIndicator.tooltip): This is used to
+     display a tooltip for accessibility indicator in toolbar/tabbar. It is also
+     used as a textual label for the indicator used by assistive technology
+     users. -->
+<!ENTITY accessibilityIndicator.tooltip		"アクセシビリティ機能が有効です">

@@ -11,7 +11,4 @@
 <!ENTITY  actionColumn2.label		"取り扱い方法">
 <!ENTITY  actionColumn2.accesskey	"A">
 
-<!ENTITY  focusSearch1.key		"f">
-<!ENTITY  focusSearch2.key		"k">
-
 <!ENTITY  filter2.emptytext		"ファイルの種類と@@Application@@を検索">

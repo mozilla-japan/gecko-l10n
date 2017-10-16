@@ -3,8 +3,9 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- (^^; ユーザーのホームページではなく検索エンジンのホームへのリンク -->
-<!ENTITY safeb.palm.accept.label	"スタートページに戻る"><!-- en-US: Get me out of here! -->
-<!ENTITY safeb.palm.decline.label	"この警告を無視する">
+<!ENTITY safeb.palm.accept.label2	"スタートページに戻る"><!-- en-US: Go back -->
+<!ENTITY safeb.palm.seedetails.label	"詳細を見る">
+
 <!-- Localization note (safeb.palm.notdeceptive.label) - Label of the Help menu
   item. Either this or reportDeceptiveSiteMenu.label from report-phishing.dtd is
   shown. -->
@@ -14,21 +15,51 @@
   report-phishing.dtd are never shown at the same time, the same accesskey can
   be used for them. -->
 <!ENTITY safeb.palm.notdeceptive.accesskey "d">
-<!ENTITY safeb.palm.reportPage.label	"このサイトがブロックされる理由">
+
 <!-- Localization note (safeb.palm.advisory.desc) - Please don't translate <a id="advisory_provider"/> tag.  It will be replaced at runtime with advisory link-->
-<!ENTITY safeb.palm.advisory.desc	"勧告の提供者: <a id='advisory_provider'/>">
+<!ENTITY safeb.palm.advisory.desc2 	"勧告の提供者: <a id='advisory_provider'/>。">
 
-<!ENTITY safeb.blocked.malwarePage.title	"攻撃サイトとして報告されています！">
-<!-- Localization note (safeb.blocked.malwarePage.shortDesc) - Please don't translate the contents of the <span id="malware_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
-<!ENTITY safeb.blocked.malwarePage.shortDesc	"<span id='malware_sitename'/> のウェブページは攻撃サイトとして報告されており、セキュリティ設定に従いブロックされています。">
-<!ENTITY safeb.blocked.malwarePage.longDesc	"<p>攻撃サイトはあなたの個人情報を盗んだり、コンピューターを乗っ取って他のコンピューターへの攻撃に利用したり、あなたのシステムを破壊するための@@Program@@をインストールしようとします。</p><p>一部の攻撃サイトは意図的に有害なソフトウェアを配布していますが、多くの場合は運営者が知らずにまたは許可なく有害なソフトウェアの配布に不正利用されています。</p>">
+<!ENTITY safeb.blocked.malwarePage.title2	"このウェブサイトを訪れるとあなたのコンピューターを損なう恐れがあります">
+<!ENTITY safeb.blocked.malwarePage.shortDesc2	"このページは、コンピューター上のあなた個人情報を盗んだり削除したりする悪意のあるソフトウェアをインストールしようとしているため、&brandShortName; によりブロックされました。">
 
-<!ENTITY safeb.blocked.unwantedPage.title	"望ましくないソフトウェアページとして報告されています！">
-<!-- Localization note (safeb.blocked.unwantedPage.shortDesc) - Please don't translate the contents of the <span id="unwanted_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
-<!ENTITY safeb.blocked.unwantedPage.shortDesc	"<span id='unwanted_sitename'/> のウェブページは望ましくないソフトウェアを含むページとして報告されており、セキュリティ設定に従いブロックされています。">
-<!ENTITY safeb.blocked.unwantedPage.longDesc	"<p>望ましくないソフトウェアサイトは、システムに深刻な影響を与える偽装されたソフトウェアを、想定外の方法でインストールしようとします。</p>">
+<!-- Localization note (safeb.blocked.malwarePage.errorDesc.override, safeb.blocked.malwarePage.errorDesc.noOverride, safeb.blocked.malwarePage.learnMore) - All <span> and <a> tags are replaced by the appropriate links and text during runtime. -->
 
-<!ENTITY safeb.blocked.phishingPage.title2 	"詐欺サイトとして報告されています！">
-<!-- Localization note (safeb.blocked.phishingPage.shortDesc2) - Please don't translate the contents of the <span id="phishing_sitename"/> tag. It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
-<!ENTITY safeb.blocked.phishingPage.shortDesc2	"<span id='phishing_sitename'/> のウェブページは詐欺サイトとして報告されており、セキュリティ設定に従いブロックされています。">
-<!ENTITY safeb.blocked.phishingPage.longDesc2	"<p>詐欺サイトには、望ましくないソフトウェアをインストールさせようとしたり、パスワードや電話番号、クレジットカード番号などの個人情報を盗み取ろうとする危険な仕掛けがあります。</p><p>このページで個人情報を入力してしまうと、なりすましや詐欺などの被害に遭う恐れがあります。</p>">
+<!ENTITY safeb.blocked.malwarePage.errorDesc.override	"<span id='malware_sitename'/> は、<a id='error_desc_link'>悪意のあるソフトウェアを配布するサイトとして報告されています</a>。もしくは、<a id='report_detection'>誤検知を報告</a> または <a id='ignore_warning_link'>危険性を無視</a> して、この安全でないサイトを訪れることができます。">
+
+<!ENTITY safeb.blocked.malwarePage.errorDesc.noOverride	"<span id='malware_sitename'/> は、<a id='error_desc_link'>悪意のあるソフトウェアを配布するサイトとして報告されています</a>。もしくは、<a id='report_detection'>誤検知を報告</a> できます。">
+
+<!ENTITY safeb.blocked.malwarePage.learnMore		"ウイルスや他の悪意のある有害なウェブコンテンツと、あなたのコンピューターを保護する方法の詳細は、<a id='learn_more_link'>StopBadware.org</a> をご覧ください。また、&brandShortName; のフィッシング詐欺とマルウェアからの保護機能についての詳細は、<a id='firefox_support'>support.mozilla.org</a> をご覧ください。">
+
+
+<!ENTITY safeb.blocked.unwantedPage.title2	"この先のサイトには有害なプログラムが含まれている可能性があります">
+<!ENTITY safeb.blocked.unwantedPage.shortDesc2	"このページは、ユーザーのブラウザー設定を変更する (例えば、ホームページ設定を変更したり訪れたサイトの公告を表示させたりする) 有害なプログラムをインストールさせる恐れがあるため、&brandShortName; によりブロックされました。">
+
+<!-- Localization note (safeb.blocked.unwantedPage.errorDesc.override, safeb.blocked.unwantedPage.errorDesc.noOverride, safeb.blocked.unwantedPage.learnMore) - All <span> and <a> tags are replaced by the appropriate links and text during runtime. -->
+
+<!ENTITY safeb.blocked.unwantedPage.errorDesc.override "<span id='unwanted_sitename'/> は、<a id='error_desc_link'>有害なソフトウェアを含むサイトとして報告されています</a>。もしくは、<a id='ignore_warning_link'>危険性を無視</a> して、この安全でないサイトを訪れることができます。">
+
+<!ENTITY safeb.blocked.unwantedPage.errorDesc.noOverride "<span id='unwanted_sitename'/> は、<a id='error_desc_link'>有害なソフトウェアを含むサイトとして報告されています</a>。">
+
+<!ENTITY safeb.blocked.unwantedPage.learnMore "有害な望ましくないソフトウェアについての詳細は、<a id='learn_more_link'>望ましくないソフトウェアのポリシー</a> をご覧ください。&brandShortName; のフィッシング詐欺とマルウェアからの保護機能についての詳細は、<a id='firefox_support'>support.mozilla.org</a> をご覧ください。">
+
+
+<!ENTITY safeb.blocked.phishingPage.title3 "この先は詐欺サイトです">
+<!ENTITY safeb.blocked.phishingPage.shortDesc3 "このページは、危険なソフトウェアをインストールさせたりパスワードやクレジットカード番号などの個人情報を盗み取られるなどの危険性があるため、&brandShortName; によりブロックされました。">
+
+<!-- Localization note (safeb.blocked.phishingPage.errorDesc.override, safeb.blocked.phishingPage.errorDesc.noOverride, safeb.blocked.phishingPage.learnMore) - All <span> and <a> tags are replaced by the appropriate links and text during runtime. -->
+<!ENTITY safeb.blocked.phishingPage.errorDesc.override "<span id='phishing_sitename'/> は、<a id='error_desc_link'>詐欺サイトとして報告されています</a>。もしくは、<a id='report_detection'>誤検知を報告</a> または <a id='ignore_warning_link'>危険性を無視</a> して、この安全でないサイトを訪れることができます。">
+
+<!ENTITY safeb.blocked.phishingPage.errorDesc.noOverride "<span id='phishing_sitename'/> は、<a id='error_desc_link'>詐欺サイトとして報告されています</a>。もしくは、<a id='report_detection'>誤検知を報告</a> できます。">
+
+<!ENTITY safeb.blocked.phishingPage.learnMore "詐欺サイトとフィッシング詐欺についての詳細は、<a id='learn_more_link'>www.antiphishing.org</a> をご覧ください。&brandShortName; のフィッシング詐欺とマルウェアからの保護機能についての詳細は、<a id='firefox_support'>support.mozilla.org</a> をご覧ください。">
+
+
+<!ENTITY safeb.blocked.harmfulPage.title	"マルウェアを含むサイトの可能性があります">
+<!ENTITY safeb.blocked.harmfulPage.shortDesc2	"このページは、あなたの情報 (例えば、写真、パスワード、メッセージやクレジットカード番号) を盗んだり消去したりする危険なアプリをインストールしようとする可能性があるため、&brandShortName; によってブロックされました。">
+
+<!-- Localization note (safeb.blocked.harmfulPage.errorDesc.override, safeb.blocked.harmfulPage.errorDesc.noOverride, safeb.blocked.harmfulPage.learnMore) - All <span> and <a> tags are replaced by the appropriate links and text during runtime. -->
+<!ENTITY safeb.blocked.harmfulPage.errorDesc.override "<span id='harmful_sitename'/> は、<a id='error_desc_link'>有害なアプリケーションが含まれる可能性のあるサイトとして報告されています</a>。もしくは、<a id='ignore_warning_link'>危険性を無視</a> して、この安全でないサイトを訪れることができます。">
+
+<!ENTITY safeb.blocked.harmfulPage.errorDesc.noOverride "<span id='harmful_sitename'/> は、<a id='error_desc_link'>有害なアプリケーションが含まれる可能性のあるサイトとして報告されています</a>。">
+
+<!ENTITY safeb.blocked.harmfulPage.learnMore "&brandShortName; のフィッシング詐欺とマルウェアからの保護機能についての詳細は、<a id='firefox_support'>support.mozilla.org</a> をご覧ください。">

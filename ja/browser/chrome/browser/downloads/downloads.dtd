@@ -56,10 +56,11 @@
 <!ENTITY cmd.show.accesskey		"F">
 <!ENTITY cmd.showMac.label		"Finder に表示">
 <!ENTITY cmd.showMac.accesskey		"F">
+<!ENTITY cmd.showDownloads.label	"ダウンロードフォルダーを表示">
 <!ENTITY cmd.retry.label		"再試行">
-<!ENTITY cmd.goToDownloadPage.label	"ダウンロードしたページを表示">
+<!ENTITY cmd.goToDownloadPage.label	"ダウンロード元のページを開く">
 <!ENTITY cmd.goToDownloadPage.accesskey	"G">
-<!ENTITY cmd.copyDownloadLink.label	"ダウンロードした URL をコピー">
+<!ENTITY cmd.copyDownloadLink.label	"ダウンロード元の URL をコピー">
 <!ENTITY cmd.copyDownloadLink.accesskey	"L">
 <!ENTITY cmd.removeFromHistory.label	"履歴から削除">
 <!ENTITY cmd.removeFromHistory.accesskey	"e">
@@ -133,6 +134,12 @@
      -->
 <!ENTITY downloadsHistory.label		"すべての履歴を表示">
 <!ENTITY downloadsHistory.accesskey	"S">
+
+<!-- LOCALIZATION NOTE (downloadDetails.label):
+     This string is shown at the top of the Download Details Panel, to indicate
+     that we are showing the details of a single download.
+     -->
+<!ENTITY downloadDetails.label		"ダウンロードの詳細">
 
 <!ENTITY openDownloadsFolder.label	"ダウンロードフォルダーを開く">
 

@@ -2,20 +2,18 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY restorepage.tabtitle       "セッションの復元">
+<!ENTITY restorepage.tabtitle		"セッションの復元">
 
 <!-- LOCALIZATION NOTE: The title is intended to be apologetic and disarming, expressing dismay
      and regret that we are unable to restore the session for the user -->
-<!ENTITY restorepage.errorTitle		"ご迷惑をおかけして申し訳ありません">
-<!ENTITY restorepage.problemDesc	"&brandShortName; は@@Window@@とタブを正常に復元できませんでした。多くの場合、正常に復元できない原因は最近開いたウェブページによるものです。">
-<!ENTITY restorepage.tryThis		"次のいずれかをお試しください:">
-<!ENTITY restorepage.restoreSome	"問題の原因となりそうなタブを除外して起動する">
-<!ENTITY restorepage.startNew		"タブを復元せずに新しいブラウザーセッションを開始する">
+<!ENTITY restorepage.errorTitle2	"ご迷惑をおかけして申し訳ありません。">
+<!ENTITY restorepage.problemDesc2	"前回のブラウジングセッションを正常に復元できませんでした。もう一度試すには @@[@@セッションを復元@@]@@ を選択してください。">
+<!ENTITY restorepage.tryThis2		"まだセッションを復元できない場合は、いずれかのタブが問題の原因となっています。前回のタブの一覧を見て、復元する必要のないタブのチェックマークを外してから復元してください。">
 
-<!ENTITY restorepage.tryagainButton	"タブを復元">
-<!ENTITY restorepage.restore.access	"R">
-<!ENTITY restorepage.closeButton	"閉じる">
-<!ENTITY restorepage.close.access	"C">
+<!ENTITY restorepage.tryagainButton2	"セッションを復元">
+<!ENTITY restorepage.restore.access2	"R">
+<!ENTITY restorepage.closeButton2	"新しいセッションを開始">
+<!ENTITY restorepage.close.access2	"N">
 
 <!ENTITY restorepage.restoreHeader	"復元">
 <!ENTITY restorepage.listHeader		"@@Window@@とタブ">

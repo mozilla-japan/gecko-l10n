@@ -2,6 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY searchBar.label			"検索バー">
+
+<!ENTITY searchBar.hidden.label			"検索とナビゲーションにアドレスバーを使用する">
+<!ENTITY searchBar.shown.label			"検索バーをツールバーに追加する">
+
 <!ENTITY defaultSearchEngine.label		"@@Default-@@検索エンジン">
 
 <!ENTITY chooseYourDefaultSearchEngine2.label	"アドレスバーと検索バーで使用される@@Default-@@検索エンジンを選択してください。">

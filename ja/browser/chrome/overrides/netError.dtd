@@ -18,12 +18,15 @@
 <!ENTITY deniedPortAccess.title		"このアドレスへの接続は制限されています">
 <!ENTITY deniedPortAccess.longDesc	"">
 
-<!ENTITY dnsNotFound.title		"サーバーが見つかりませんでした">
-<!ENTITY dnsNotFound.longDesc		"
+<!ENTITY dnsNotFound.pageTitle		"サーバーが見つかりませんでした">
+<!-- Localization note (dnsNotFound.title1) - "Hmm" is a sound made when considering or puzzling over something. You don't have to include it in your translation if your language does not have a written word like this. -->
+<!ENTITY dnsNotFound.title1		"アクセスしようとしているサイトを見つけられません。">
+<!ENTITY dnsNotFound.longDesc1		"
+<strong>アドレスが正しい場合は、以下のことを試してください:</strong>
 <ul>
-  <li><strong>www</strong>.example.com を間違えて <strong>ww</strong>.example.com と入力するなど、アドレスを間違って入力していないか確認してください。</li>
-  <li>他のサイトも表示できない場合、コンピューターのネットワーク接続を確認してください。</li>
-  <li>ファイアーウォールやプロキシでネットワークが保護されている場合、&brandShortName; によるウェブアクセスが許可されているか確認してください。</li>
+  <li>後でもう一度試してください。</li>
+  <li>ネットワーク接続を確認してください。</li>
+  <li>ファイアーウォール越しに接続している場合は、&brandShortName; がウェブへの接続を許可されているか確認してください。</li>
 </ul>
 ">
 
@@ -54,13 +57,9 @@
 
 <!ENTITY openPortalLoginPage.label2	"ネットワークのログインページを開く">
 
-<!ENTITY malformedURI.title		"アドレスの書式が正しくありません">
-<!ENTITY malformedURI.longDesc		"
-<ul>
-  <li>ウェブのアドレスは通常 <strong>http://www.example.com/</strong> のようなものになります。</li>
-  <li>円記号やバックスラッシュ (<strong>\</strong>) ではなく、スラッシュ (<strong>/</strong>) が使われているか確認してください。</li>
-</ul>
-">
+<!ENTITY malformedURI.pageTitle		"不正な URL">
+<!-- Localization note (malformedURI.title1) - "Hmm" is a sound made when considering or puzzling over something. You don't have to include it in your translation if your language does not have a written word like this. -->
+<!ENTITY malformedURI.title1		"アドレスが正しくないようです">
 
 <!ENTITY netInterrupt.title		"接続が中断されました">
 <!ENTITY netInterrupt.longDesc		"&sharedLongDesc;">

@@ -29,13 +29,13 @@ disabled data sharing options in developer builds or builds with no Telemetry su
 available. -->
 <!ENTITY healthReportingDisabled.label	"このビルド設定ではヘルスレポートが無効化されています">
 
-<!ENTITY enableHealthReport1.label	"&brandShortName; が技術的な対話データを自動的に Mozilla へ送信することを許可する">
-<!ENTITY enableHealthReport1.accesskey	"r">
+<!ENTITY enableHealthReport2.label	"&brandShortName; が技術的な対話データを Mozilla へ送信することを許可する">
+<!ENTITY enableHealthReport2.accesskey	"r">
 <!ENTITY healthReportLearnMore.label	"詳細情報">
 
 <!ENTITY dataCollection.label			"&brandShortName; のデータ収集と利用について">
 <!ENTITY dataCollectionDesc.label		"私たちはユーザーに選択肢を提供し、&brandShortName; をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。">
-<!ENTITY dataCollectionPrivacyNotice.label	"プライバシー通知">
+<!ENTITY dataCollectionPrivacyNotice.label	"個人情報保護方針">
 
 <!ENTITY alwaysSubmitCrashReports1.label	"&brandShortName; がクラッシュレポートを Mozilla へ送信することを許可する">
 <!ENTITY alwaysSubmitCrashReports1.accesskey	"c">
@@ -115,7 +115,7 @@ available. -->
 <!ENTITY offlineStorageNotifyExceptions.label	"例外サイト...">
 <!ENTITY offlineStorageNotifyExceptions.accesskey	"x">
 
-<!ENTITY offlineAppsList2.label			"オフライン作業用のデータの保存を許可しているウェブサイト:">
+<!ENTITY offlineAppsList3.label			"オフライン作業用のデータの保存を許可しているウェブサイト">
 <!ENTITY offlineAppsList.height			"7em">
 <!ENTITY offlineAppsListRemove.label		"削除...">
 <!ENTITY offlineAppsListRemove.accesskey	"R">

@@ -12,8 +12,12 @@
 <!ENTITY  prefWinMinSize.styleWin2	"width: 49em; min-height: 41em;"><!-- width: 42em; min-height: 37.5em; -->
 <!ENTITY  prefWinMinSize.styleMac	"width: 51em; min-height: 40em;"><!-- width: 47em; min-height: 40em; -->
 <!ENTITY  prefWinMinSize.styleGNOME	"width: 49em; min-height: 40.5em;"><!-- width: 45.5em; min-height: 40.5em; -->
-<!ENTITY  paneSearchResults.title	"検索結果">
 
+<!-- LOCALIZATION NOTE: (searchField.width): This is used to determine the width
+     of the search field in about:preferences, in order to make entire placeholder
+     string visible -->
+<!ENTITY  searchField.width		"15.4em">
+<!ENTITY  paneSearchResults.title	"検索結果">
 <!ENTITY  paneGeneral.title		"一般">
 <!ENTITY  paneSearch.title		"検索">
 <!ENTITY  paneFilesApplications.title	"ファイルと@@Application@@">

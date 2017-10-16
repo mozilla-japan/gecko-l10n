@@ -34,7 +34,7 @@
 <!ENTITY prefs.tosLink.label		"利用規約">
 
 <!-- Firefox Accounts stuff -->
-<!ENTITY fxaPrivacyNotice.link.label	"プライバシーに関する注意">
+<!ENTITY fxaPrivacyNotice.link.label	"個人情報保護方針">
 
 <!-- LOCALIZATION NOTE (signedInUnverified.beforename.label,
 signedInUnverified.aftername.label): these two string are used respectively
@@ -68,10 +68,10 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.caption		"ウェブを持ち歩こう">
 <!ENTITY signedOut.description		"ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。">
 <!ENTITY signedOut.accountBox.title	"&syncBrand.fxAccount.label; で接続する">
-<!ENTITY signedOut.accountBox.create	"アカウント作成">
-<!ENTITY signedOut.accountBox.create.accesskey	"C">
-<!ENTITY signedOut.accountBox.signin	"ログイン">
-<!ENTITY signedOut.accountBox.signin.accesskey	"I">
+<!ENTITY signedOut.accountBox.create2	"アカウントをお持ちでない方は作成してください">
+<!ENTITY signedOut.accountBox.create2.accesskey	"C">
+<!ENTITY signedOut.accountBox.signin2	"ログイン...">
+<!ENTITY signedOut.accountBox.signin2.accesskey	"I">
 
 <!ENTITY signedIn.settings.label	"Sync 設定">
 <!ENTITY signedIn.settings.description	"端末上の同期して &brandShortName; で使用するものを選んでください。">

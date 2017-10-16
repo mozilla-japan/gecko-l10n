@@ -4,7 +4,7 @@
 
 <!ENTITY window.width			"36em">
 
-<!ENTITY     cookiesonsystem.label	"以下の Cookie が保存されています:">
+<!ENTITY     cookiesonsystem2.label	"以下の Cookie が保存されています">
 <!ENTITY     cookiename.label		"Cookie 名">
 <!ENTITY     cookiedomain.label		"サイト">
 
@@ -19,11 +19,9 @@
 <!ENTITY     window.title		"Cookie">
 <!ENTITY     windowClose.key		"w">
 <!ENTITY     focusSearch1.key		"f">
-<!ENTITY     focusSearch2.key		"k">
 
 <!ENTITY     searchFilter.label		"検索">
 <!ENTITY     searchFilter.accesskey	"S">
 
 <!ENTITY     button.close.label		"閉じる">
 <!ENTITY     button.close.accesskey	"C">
-
