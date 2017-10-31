@@ -852,6 +852,7 @@ mail, suite            ------:------------  28962:18057608b15f   mar            
 browser                432518:02886ab26aae  -----:------------   mar             sync browser (mozilla-beta)
 devtools/shared        432518:02886ab26aae  -----:------------   mar             sync devtools/shared (mozilla-beta)
 devtools/client        432537:ea66f4c8766c  -----:------------   mar             sync devtools/client (mozilla-beta)
+security               432696:86534d5daeef  -----:------------   mar             sync security (mozilla-beta, late-l10n)
 
 [l10n-mozilla-58.0] (for central)
 target dir             gecko-string hg changeset rev:id          by              comment
