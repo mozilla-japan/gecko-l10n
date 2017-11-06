@@ -205,6 +205,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.defaultNotificationAnchor.tooltip		"メッセージパネルを開きます">
 <!ENTITY urlbar.geolocationNotificationAnchor.tooltip		"位置情報の要求パネルを開きます">
 <!ENTITY urlbar.addonsNotificationAnchor.tooltip		"アドオンのインストールのメッセージパネルを開きます">
+<!ENTITY urlbar.canvasNotificationAnchor.tooltip		"canvas 要素抽出の許可設定を管理します">
 <!ENTITY urlbar.indexedDBNotificationAnchor.tooltip		"オフラインストレージのメッセージパネルを開きます">
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip		"パスワードの保存メッセージパネルを開きます">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip		"使用するプラグインを管理します">
@@ -228,6 +229,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.indexedDBBlocked.tooltip		"このウェブサイトのデータストレージの使用をブロックしました。">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip		"このウェブサイトからの通知をブロックしました。">
 <!ENTITY urlbar.persistentStorageBlocked.tooltip	"このウェブサイトの永続ストレージの使用をブロックしました。">
+
+<!ENTITY urlbar.popupBlocked.tooltip			"このウェブサイトのポップアップをブロックしました。">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip		"履歴を表示します">
 
@@ -855,6 +858,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuGetMore		"その他のテーマを入手">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey	"G">
 <!ENTITY customizeMode.emptyOverflowList.description	"ここにアイテムをドラッグアンドドロップすると、ツールバー外の手の届くところに置いておけます...">
+<!ENTITY customizeMode.overflowList.title2		"オーバーフローメニュー">
+<!ENTITY customizeMode.overflowList.description		"ここにアイテムをドラッグアンドドロップすると、ツールバー外の手の届くところに置いておけます...">
 <!ENTITY customizeMode.uidensity			"UI 密度">
 <!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
      “Normal” is displayed in the Customize screen, under the Density menu. -->

@@ -10,6 +10,9 @@
 <!ENTITY restorepage.problemDesc2	"前回のブラウジングセッションを正常に復元できませんでした。もう一度試すには @@[@@セッションを復元@@]@@ を選択してください。">
 <!ENTITY restorepage.tryThis2		"まだセッションを復元できない場合は、いずれかのタブが問題の原因となっています。前回のタブの一覧を見て、復元する必要のないタブのチェックマークを外してから復元してください。">
 
+<!ENTITY restorepage.hideTabs		"前回のタブを表示">
+<!ENTITY restorepage.showTabs		"前回のタブを隠す">
+
 <!ENTITY restorepage.tryagainButton2	"セッションを復元">
 <!ENTITY restorepage.restore.access2	"R">
 <!ENTITY restorepage.closeButton2	"新しいセッションを開始">
