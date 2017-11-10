@@ -92,10 +92,11 @@
      in the folder. -->
 <!ENTITY bookmark_folder_items "&formatD; アイテム">
 <!ENTITY bookmark_folder_one_item "1 アイテム">
+<!ENTITY bookmark_folder_updated "フォルダーを更新しました">
 <!ENTITY bookmark_parent_folder "親フォルダー">
 <!ENTITY bookmark_add_folder "@@New-CMD@@フォルダーを追加">
 
-<!ENTITY reader_saved_offline "Saved offline">
+<!ENTITY reader_saved_offline "オフラインに保存しました">
 <!-- Localization note (reader_switch_to_bookmarks) : This
      string is used as an action in a snackbar - it lets you
      "switch" to the bookmarks (saved items) panel. -->
@@ -285,6 +286,12 @@
      for experimental features. -->
 <!ENTITY pref_category_experimental "実験的な機能">
 
+<!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
+    Instead of switching to the browser it appears as if the user stays in the third-party app.
+    For more see: https://developer.chrome.com/multidevice/android/customtabs -->
+<!ENTITY pref_custom_tabs2 "カスタムタブ">
+<!ENTITY pref_custom_tabs_summary4 "アプリがカスタムタブを利用してウェブコンテンツをすばやく開くことを許可します。">
+
 <!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
      default browser from user's preference, such as "Open in Firefox" -->
 <!ENTITY custom_tabs_menu_item_open_in "&formatS; で開く">
@@ -355,6 +362,7 @@
 <!ENTITY pref_qrcode_enabled_summary2 "URL バーでの QR スキャナーを許可します">
 
 <!ENTITY pref_use_master_password "マスターパスワードを使用する">
+<!ENTITY pref_sync_default_title "Firefox アカウント">
 <!ENTITY pref_sync2 "ログイン">
 <!ENTITY pref_sync_summary2 "タブ、ブックマーク、ログイン情報、閲覧履歴を同期します">
 <!ENTITY pref_search_suggestions "検索語句の候補を表示">
@@ -476,7 +484,7 @@
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
 <!ENTITY contextmenu_open_private_tab "プライベートタブで開く">
 <!ENTITY contextmenu_remove "削除">
-<!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
+<!ENTITY contextmenu_add_page_shortcut "ページのショートカットを追加">
 <!ENTITY contextmenu_set_as_homepage "ホームページに設定">
 <!ENTITY contextmenu_share "共有">
 <!ENTITY contextmenu_pasteandgo "@@Paste-site@@移動">
@@ -530,6 +538,7 @@
      any page is removed frome about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
 <!ENTITY page_removed "ページが削除されました">
+<!ENTITY folder_removed "フォルダーが削除されました">
 
 <!ENTITY bookmark_edit_title "ブックマークを編集">
 <!ENTITY bookmark_edit_folder_title "フォルダーを編集">
@@ -807,7 +816,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY whatsnew_notification_title "&brandShortName; は最新版です">
 <!ENTITY whatsnew_notification_summary "このバージョンの新機能を知りましょう">
 
-<!ENTITY promotion_add_to_homescreen "ホーム画面に追加">
+<!ENTITY promotion_add_page_shortcut "ページのショートカットを追加">
 
 <!ENTITY helper_first_offline_bookmark_title "オフラインで読む">
 <!ENTITY helper_first_offline_bookmark_message "オフラインであってもブックマークのまとめ読み項目を表示します。">
@@ -848,3 +857,13 @@ is simply hidden from the Activity Stream panel. -->
 <!ENTITY private_tab_learn_more "さらに詳細を知りたいですか？">
 
 <!ENTITY fullscreen_warning "@@FullScreen@@です">
+
+<!-- LOCALIZATION NOTE (pwa_add_to_launcher_confirm): The plus sign here is part of UI design -->
+<!ENTITY pwa_add_to_launcher_confirm "+ ホームスクリーンに追加">
+
+<!-- LOCALIZATION NOTE (pwa_add_to_launcher_badge2): Used as label in the page actions dropdown list,
+displayed when there are more than 3 actions available for a page.
+See also https://bug1409261.bmoattachments.org/attachment.cgi?id=8919897 -->
+<!ENTITY pwa_add_to_launcher_badge2 "ホームスクリーンに追加">
+<!ENTITY pwa_continue_to_website "ウェブサイトを開く">
+<!ENTITY pwa_onboarding_sumo "このウェブサイトを簡単な操作でホームスクリーンに追加することで、アプリのような感覚で手軽にアクセスしたりより速くブラウジングしたりできます。">
