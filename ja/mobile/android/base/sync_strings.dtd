@@ -68,6 +68,10 @@
 <!ENTITY fxaccount_status_passwords2 'ログイン情報'>
 <!ENTITY fxaccount_status_tabs '開いているタブ'>
 <!ENTITY fxaccount_status_additional_settings '追加の設定'>
+<!ENTITY fxaccount_pref_sync_use_metered2 'Wi-Fi 利用時のみ同期する'>
+<!-- Localization note: Only affects background syncing, user initiated
+     syncs will still be done regardless of the connection -->
+<!ENTITY fxaccount_pref_sync_use_metered_summary2 '携帯電話回線や従量制課金接続の利用中は &brandShortName; が同期を行わないようにします'>
 <!ENTITY fxaccount_status_legal '法的事項' >
 <!-- Localization note: when tapped, the following two strings link to
      external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:

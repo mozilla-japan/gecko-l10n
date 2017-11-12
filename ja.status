@@ -859,3 +859,4 @@ security               432696:86534d5daeef  -----:------------   mar            
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                  9248:4ba5199b08ed   2017-11-02     mar             sync browser
+mobile                   9248:4ba5199b08ed   2017-11-12     mar             sync mobile
