@@ -890,9 +890,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY getUserMedia.audioCapture.label		"このタブからの音声は共有されます。">
 <!ENTITY getUserMedia.allWindowsShared.message		"画面に表示されているすべての@@Window@@を共有します。">
 
-<!ENTITY trackingProtection.title			"トラッキング保護">
+<!ENTITY trackingProtection.title			"トラッキング防止">
 <!ENTITY trackingProtection.detectedBlocked3		"ブラウジングを追跡する可能性のあるページ部品を &brandShortName; がブロックしました。">
-<!ENTITY trackingProtection.detectedNotBlocked3		"このサイトにはブラウジングを追跡する可能性のある要素が含まれていますが、トラッキング保護は無効に設定されています。">
+<!ENTITY trackingProtection.detectedNotBlocked3		"このサイトにはブラウジングを追跡する可能性のある要素が含まれていますが、トラッキング防止は無効に設定されています。">
 <!ENTITY trackingProtection.notDetected3		"このページではトラッキング要素が検出されませんでした。">
 <!-- LOCALIZATION NOTE (trackingProtection.unblock.label, trackingProtection.unblock.accesskey):
      The associated button with this label and accesskey is only shown when opening the control

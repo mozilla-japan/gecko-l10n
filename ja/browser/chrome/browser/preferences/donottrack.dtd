@@ -9,5 +9,5 @@
 <!ENTITY doNotTrackCheckbox2.label	"Do Not Track を常に有効にする">
 <!ENTITY doNotTrackCheckbox2.accesskey	"A">
 
-<!ENTITY doNotTrackTPInfo.description	"トラッキング保護機能が有効なときは、トラッキングしないよう常にサイトに通知します。">
+<!ENTITY doNotTrackTPInfo.description	"トラッキング防止機能が有効なときは、トラッキングしないよう常にサイトに通知します。">
 <!ENTITY doNotTrackLearnMore.label	"詳細情報">

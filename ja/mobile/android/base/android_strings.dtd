@@ -7,7 +7,7 @@
 <!ENTITY firstrun_urlbar_subtext2 "自由でオープンなウェブに取り組む非営利団体 Mozilla の提供するモダンなモバイルブラウザーです。">
 <!ENTITY firstrun_panel_title_privacy "プライバシー">
 <!ENTITY firstrun_privacy_message "人目を気にせずブラウジング">
-<!ENTITY firstrun_privacy_subtext "トラッキング保護されたプライベートブラウジングでは、ブラウジング中の追跡をブロックし、ブラウジングが終われば履歴が残ることはありません。">
+<!ENTITY firstrun_privacy_subtext "トラッキング防止されたプライベートブラウジングでは、ブラウジング中の追跡をブロックし、ブラウジングが終われば履歴が残ることはありません。">
 <!ENTITY firstrun_panel_title_customize "カスタマイズ">
 <!ENTITY firstrun_customize_message "あなただけの &brandShortName; を">
 <!ENTITY firstrun_customize_subtext "アドオンで &brandShortName; をカスタマイズできます。広告をブロックしたり、機能を追加したり、新しいテーマを選んだりして、あなたの個性を反映させましょう。">
@@ -271,7 +271,7 @@
 <!ENTITY pref_show_web_fonts "ウェブフォントを表示">
 <!ENTITY pref_show_web_fonts_summary2 "ページ読み込み時にリモートのフォントをダウンロードします">
 
-<!ENTITY pref_tracking_protection_title2 "トラッキング保護">
+<!ENTITY pref_tracking_protection_title2 "トラッキング防止">
 <!ENTITY pref_donottrack_title "トラッキング拒否">
 <!ENTITY pref_donottrack_summary "&brandShortName; はトラッキングの拒否をサイトに通知します">
 
@@ -302,7 +302,7 @@
 <!ENTITY pref_pwa "プログレッシブウェブアプリ">
 <!ENTITY pref_pwa_summary "ホーム画面へのウェブアプリの追加を許可する">
 
-<!ENTITY tracking_protection_prompt_title "トラッキング保護が有効です">
+<!ENTITY tracking_protection_prompt_title "トラッキング防止が有効です">
 <!ENTITY tracking_protection_prompt_text "プライバシー確保のため、オンライン行動を追跡する要素をブロックします。">
 <!ENTITY tracking_protection_prompt_tip_text "詳細はプライバシー設定をご確認ください">
 <!ENTITY tracking_protection_prompt_action_button "了解！">
@@ -660,7 +660,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY mixed_content_protection_disabled1 "安全でないコンテンツからの保護を無効にしました。">
 
 <!-- Tracking content notifications in site identity popup -->
-<!ENTITY doorhanger_tracking_title2 "トラッキング保護">
+<!ENTITY doorhanger_tracking_title2 "トラッキング防止">
 <!ENTITY doorhanger_tracking_state_enabled "有効">
 <!ENTITY doorhanger_tracking_state_disabled "無効">
 <!ENTITY doorhanger_tracking_message_enabled1 "オンライン上の行動をトラッキングしようとすることはブロックされました。">
@@ -854,7 +854,7 @@ is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_remove "消去">
 <!ENTITY activity_stream_delete_history "履歴から削除">
 
-<!ENTITY private_tab_panel_title "プライベートブラウジングとトラッキング保護">
+<!ENTITY private_tab_panel_title "プライベートブラウジングとトラッキング防止">
 <!ENTITY private_tab_panel_description "&brandShortName; は、ページ内のブラウジング行動を追跡する部分をブロックします。">
 <!ENTITY private_tab_panel_description2 "履歴は残りませんが、ダウンロードされたファイルと新しいブックマークは端末に保存されます。">
 <!ENTITY private_tab_learn_more "さらに詳細を知りたいですか？">

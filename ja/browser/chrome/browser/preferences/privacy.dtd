@@ -2,9 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader2.label	"トラッキング保護">
+<!ENTITY  trackingProtectionHeader2.label	"トラッキング防止">
 <!ENTITY  trackingProtection2.description	"トラッキングは複数のウェブサイトにまたがるユーザーのブラウジングデータを収集することです。トラッキングはユーザーについてのプロファイルを構築し、そのブラウジング行動および個人情報に基づいてコンテンツを表示するために使用されます。">
-<!ENTITY  trackingProtection2.radioGroupLabel	"トラッキング保護を使用して既知の追跡者をブロックする">
+<!ENTITY  trackingProtection2.radioGroupLabel	"トラッキング防止を使用して既知の追跡者をブロックする">
 <!ENTITY  trackingProtectionAlways.label	"常に">
 <!ENTITY  trackingProtectionAlways.accesskey	"y">
 <!ENTITY  trackingProtectionPrivate.label	"プライベート@@Window@@のみ">
@@ -16,10 +16,10 @@
 <!ENTITY  trackingProtectionExceptions.accesskey	"x">
 
 <!-- LOCALIZATION NOTE (trackingProtectionPBM5.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to true. This currently happens on the release and beta channel. -->
-<!ENTITY trackingProtectionPBM5.label		"プライベート@@Window@@でトラッキング保護を使用する">
+<!ENTITY trackingProtectionPBM5.label		"プライベート@@Window@@でトラッキング防止を使用する">
 <!ENTITY trackingProtectionPBM5.accesskey	"v">
 <!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the nightly channel. -->
-<!ENTITY trackingProtectionPBM6.label		"プライベートブラウジングモードでトラッキング保護を使用して既知の追跡者をブロックする">
+<!ENTITY trackingProtectionPBM6.label		"プライベートブラウジングモードでトラッキング防止を使用して既知の追跡者をブロックする">
 <!ENTITY trackingProtectionPBM6.accesskey	"v">
 <!ENTITY trackingProtectionPBMLearnMore.label	"詳細情報">
 <!ENTITY changeBlockList2.label			"ブロックリストを変更...">
@@ -27,7 +27,7 @@
 
 <!ENTITY  doNotTrack.description		"ウェブサイトに “Do Not Track” 信号を送り、追跡されたくないことを知らせます">
 <!ENTITY  doNotTrack.learnMore.label		"詳細情報">
-<!ENTITY  doNotTrack.default.label		"トラッキング保護の使用時のみ">
+<!ENTITY  doNotTrack.default.label		"トラッキング防止の使用時のみ">
 <!ENTITY  doNotTrack.always.label		"常に送る">
 
 <!ENTITY  history.label				"履歴">
