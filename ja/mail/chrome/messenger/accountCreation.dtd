@@ -79,11 +79,11 @@
 <!ENTITY changeSettings.label		"設定変更">
 <!ENTITY changeSettings.accesskey	"S">
 
-<!ENTITY contactYourProvider.description	"提供された設定を使用して &brandShortName; であなたのメールを受信することができます。ただし、これらの接続が不適当でないか、サーバーの管理者またはメールプロバイダと連絡をとってください。詳しい情報は Thunderbird FAQ をご覧ください。">
+<!ENTITY contactYourProvider.description	"提供された設定を使用して &brandShortName; であなたのメールを受信することができます。ただし、これらの接続が不適当でないか、サーバーの管理者またはメールプロバイダーと連絡をとってください。詳しい情報は Thunderbird FAQ をご覧ください。">
 
 <!ENTITY insecureServer.tooltip.title		"警告！ このサーバーは安全ではありません。">
 <!ENTITY insecureServer.tooltip.details		"詳細は丸印をクリックしてください。">
 
-<!ENTITY insecureUnencrypted.description	"あなたのメールと認証情報が暗号化されずに送信されるため、パスワード (およびメッセージの内容) が他の人々に簡単に読まれる危険性があります。このまま &brandShortName; でメールの送受信ができますが、メールプロバイダに、安全な接続を行うサーバーを構成するように連絡してください。">
-<!ENTITY insecureSelfSigned.description		"サーバーが、自己署名された信頼できない証明書を使用しているため、&brandShortName; とサーバーの間の通信が盗聴されないことを保証できません。このまま &brandShortName; でメールの送受信ができますが、信頼できる証明書を使用しているメールプロバイダを利用すべきです。">
+<!ENTITY insecureUnencrypted.description	"あなたのメールと認証情報が暗号化されずに送信されるため、パスワード (およびメッセージの内容) が他の人々に簡単に読まれる危険性があります。このまま &brandShortName; でメールの送受信ができますが、メールプロバイダーに、安全な接続を行うサーバーを構成するように連絡してください。">
+<!ENTITY insecureSelfSigned.description		"サーバーが、自己署名された信頼できない証明書を使用しているため、&brandShortName; とサーバーの間の通信が盗聴されないことを保証できません。このまま &brandShortName; でメールの送受信ができますが、信頼できる証明書を使用しているメールプロバイダーを利用すべきです。">
 <!ENTITY secureServer.description		"設定が完了しました。このサーバーは安全な接続を行うサーバーです。">

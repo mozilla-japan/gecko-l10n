@@ -4,7 +4,7 @@
 
 <!ENTITY window.title			"&brandShortName; のご利用ありがとうございます">
 <!ENTITY header2.label			"新しいメールアドレスを使いたい方">
-<!ENTITY other.languages		"あなたの地域で提供されているプロバイダのみが表示されています。すべてのプロバイダを表示するには、ここをクリックしてください。">
+<!ENTITY other.languages		"あなたの地域で提供されているプロバイダーのみが表示されています。すべてのプロバイダーを表示するには、ここをクリックしてください。">
 <!ENTITY error.line1			"申し訳ありませんが、提案されたメールアドレスを見つけることができませんでした。">
 <!ENTITY error.line2			"ニックネームや他の単語でメールアドレスを検索してみてください。">
 
@@ -22,7 +22,7 @@
 <!ENTITY success.title.before		"「">
 <!ENTITY success.title.after		"」で検索した結果、次のメールアドレスが利用できます:">
 <!ENTITY success.tip			"(ニックネームや他の単語でもメールアドレスを検索できます)">
-<!ENTITY partnership.description	"いくつかのプロバイダとの提携により、&brandShortName; が新しいメールアカウントを提供します。利用可能なメールアドレスを検索するため、ご氏名または好きな言葉を上のテキストボックスに入力してください (半角英数字のみ)。">
+<!ENTITY partnership.description	"いくつかのプロバイダーとの提携により、&brandShortName; が新しいメールアカウントを提供します。利用可能なメールアドレスを検索するため、ご氏名または好きな言葉を上のテキストボックスに入力してください (半角英数字のみ)。">
 <!ENTITY existing.header		"すでにメールアドレスをお持ちの方">
 <!ENTITY tinyheader.title		"すでに取得済み？">
 <!ENTITY tinyheader.existing		"メールアカウントを設定する">
@@ -39,5 +39,5 @@
 <!ENTITY input.namePlaceholder		"氏名またはニックネーム">
 <!ENTITY input.search			"検索">
 <!ENTITY search_engine.title		"検索エンジンのカスタマイズ">
-<!ENTITY search_engine.message		"ご利用のメールプロバイダは、ウェブ検索機能も提供しています。">
+<!ENTITY search_engine.message		"ご利用のメールプロバイダーは、ウェブ検索機能も提供しています。">
 <!ENTITY search_engine.button		"完了">

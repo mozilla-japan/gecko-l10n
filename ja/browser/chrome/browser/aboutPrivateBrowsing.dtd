@@ -22,7 +22,7 @@
 <!ENTITY aboutPrivateBrowsing.info.bookmarks             "ブックマーク編集">
 <!ENTITY aboutPrivateBrowsing.note.before                "プライベートブラウジングで">
 <!ENTITY aboutPrivateBrowsing.note.emphasize             "匿名化はできません。">
-<!ENTITY aboutPrivateBrowsing.note.after                 "ネットワーク管理者やインターネットサービスプロバイダは、依然としてあなたが訪れたページを追跡できます。">
+<!ENTITY aboutPrivateBrowsing.note.after                 "ネットワーク管理者やインターネットサービスプロバイダーは、依然としてあなたが訪れたページを追跡できます。">
 <!ENTITY aboutPrivateBrowsing.learnMore3.before          "">
 <!ENTITY aboutPrivateBrowsing.learnMore3.title           "プライベートブラウジング">
 <!ENTITY aboutPrivateBrowsing.learnMore3.after           "の詳細情報">

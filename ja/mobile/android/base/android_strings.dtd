@@ -190,7 +190,7 @@
 <!ENTITY pref_category_logins "ログイン情報">
 <!ENTITY pref_learn_more "詳細情報">
 <!ENTITY pref_category_installed_search_engines "インストール済みの検索エンジン">
-<!ENTITY pref_category_add_search_providers "検索プロバイダを追加">
+<!ENTITY pref_category_add_search_providers "検索プロバイダーを追加">
 <!ENTITY pref_category_search_restore_defaults "検索エンジンを復元">
 <!ENTITY pref_search_restore_defaults "@@RestoreDefaults@@">
 <!ENTITY pref_search_restore_defaults_summary "@@RestoreDefaults@@">
@@ -199,7 +199,7 @@
      search providers.
      The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
      it is applicable. -->
-<!ENTITY pref_search_hint2 "ヒント: どのウェブサイトでも、サイトの検索フィールドを長押しして &formatI; アイコンをタッチするだけで検索プロバイダに追加できます">
+<!ENTITY pref_search_hint2 "ヒント: どのウェブサイトでも、サイトの検索フィールドを長押しして &formatI; アイコンをタッチするだけで検索プロバイダーに追加できます">
 <!ENTITY pref_category_advanced "高度な設定">
 <!-- Localization note (pref_category_advanced_summary3): “data saver” in this
      context means consuming less data, e.g. by not loading images, not

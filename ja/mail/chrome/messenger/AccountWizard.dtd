@@ -11,7 +11,7 @@
 
 <!ENTITY accountSetupInfo2.label	"メッセージを受信するには、初めにアカウントを設定する必要があります。">
 <!ENTITY accountTypeTitle.label		"アカウントの種類">
-<!ENTITY accountTypeDesc2.label		"アカウント設定に必要な情報を入力してください。入力する情報が分からない場合は、システムの管理者またはインターネットサービスプロバイダに問い合わせてください。">
+<!ENTITY accountTypeDesc2.label		"アカウント設定に必要な情報を入力してください。入力する情報が分からない場合は、システムの管理者またはインターネットサービスプロバイダーに問い合わせてください。">
 <!ENTITY accountTypeDirections.label	"設定するアカウントの種類を選択してください:">
 <!ENTITY accountTypeMail.label		"メールアカウント">
 <!ENTITY accountTypeMail.accesskey	"m">
@@ -57,7 +57,7 @@
 <!ENTITY incomingServer.label		"メール受信サーバー:">
 <!ENTITY incomingServer.accesskey	"S">
 <!-- LOCALIZATION NOTE (incomingUsername.description) : do not translate "&quot;jsmith&quot;" in below line -->
-<!ENTITY incomingUsername.description	"プロバイダに指定された受信サーバーのユーザー名を入力してください。(例: &quot;jsmith&quot;)">
+<!ENTITY incomingUsername.description	"プロバイダーに指定された受信サーバーのユーザー名を入力してください。(例: &quot;jsmith&quot;)">
 <!ENTITY incomingUsername.label		"ユーザー名:">
 <!ENTITY incomingUsername.accesskey	"U">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
@@ -72,7 +72,7 @@
 <!ENTITY outgoingServer.description	"メール送信 (SMTP) サーバーの名前を入力してください。(例: smtp.example.jp)">
 <!ENTITY outgoingServer.label		"メール送信サーバー:">
 <!ENTITY outgoingServer.accesskey	"S">
-<!ENTITY outgoingUsername.description	"プロバイダに指定された送信サーバーのユーザー名を入力してください (一般的に受信サーバーのユーザー名と同じです)。">
+<!ENTITY outgoingUsername.description	"プロバイダーに指定された送信サーバーのユーザー名を入力してください (一般的に受信サーバーのユーザー名と同じです)。">
 <!ENTITY outgoingUsername.label		"送信サーバーのユーザー名:">
 <!ENTITY outgoingUsername.accesskey	"U">
 
