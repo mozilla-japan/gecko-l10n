@@ -839,7 +839,7 @@ browser                421519:6670eb6643ba  -----:------------   mar            
 mobile                 421423:bf35ed0c2292  -----:------------   mar             sync mobile (mozilla-beta, late-l10n)
 suite                  ------:------------  28560:656ff307995a   mar             sync suite (comm-beta, late-l10n)
 
-[l10n-mozilla-57.0] (for beta)
+Released! [l10n-mozilla-57.0]
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 dom                    381357:877d536658e6  22159:aaf36a3aee78   mar             sync dom (2017-09-17)
@@ -855,9 +855,10 @@ devtools/client        432537:ea66f4c8766c  -----:------------   mar            
 security               432696:86534d5daeef  -----:------------   mar             sync security (mozilla-beta, late-l10n)
 
 
-[l10n-mozilla-58.0] (for central)
+[l10n-mozilla-58.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                  9248:4ba5199b08ed   2017-11-02     mar             sync browser
 mobile                   9248:4ba5199b08ed   2017-11-02     kechol          sync mobile
 dom, toolkit             9248:4ba5199b08ed   2017-11-02     mar             sync dom, toolkit
+devtools                 9248:4ba5199b08ed   2017-11-02     mar             sync devtools
