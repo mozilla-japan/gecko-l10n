@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  generalTab.label		"一般">
+
 <!ENTITY  startupAction.label		"&brandShortName; の起動時:">
 <!ENTITY  startupAction.accesskey	"s">
 <!ENTITY  startupOffline.label		"チャットアカウントをオフラインにする">
@@ -39,3 +41,20 @@ sentence. -->
 <!ENTITY  customsound.accesskey			"U">
 <!ENTITY  browse.label				"@@Browse@@...">
 <!ENTITY  browse.accesskey			"B">
+
+<!ENTITY messageStyleTab.title			"メッセージスタイル">
+<!ENTITY messageStylePreview.label		"プレビュー:">
+<!ENTITY messageStyleTheme.label		"テーマ:">
+<!ENTITY messageStyleTheme.accesskey		"T">
+<!ENTITY messageStyleThunderbirdTheme.label	"Thunderbird">
+<!ENTITY messageStyleBubblesTheme.label		"Bubbles">
+<!ENTITY messageStyleDarkTheme.label		"Dark">
+<!ENTITY messageStylePaperSheetsTheme.label	"Paper Sheets">
+<!ENTITY messageStyleSimpleTheme.label		"Simple">
+<!ENTITY messageStyleDefaultTheme.label		"@@Default@@">
+<!ENTITY messageStyleVariant.label		"色調:">
+<!ENTITY messageStyleVariant.accesskey		"V">
+<!ENTITY messageStyleShowHeader.label		"ヘッダーを表示する">
+<!ENTITY messageStyleShowHeader.accesskey 	"H">
+<!ENTITY messageStyleNoPreview.title		"プレビューできません">
+<!ENTITY messageStyleNoPreview.description	"このテーマは正しくないか現在利用できません (理由: 無効化されたアドオン、セーフモードなど)。">
