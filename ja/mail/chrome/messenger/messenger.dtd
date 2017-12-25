@@ -321,6 +321,7 @@
 <!ENTITY goChatCmd.label		"チャット">
 <!ENTITY goChatCmd.accesskey		"c">
 <!ENTITY goChatCmd.key			"I">
+<!ENTITY goChatCmd2.key			"H">
 <!ENTITY prevStarredMsgCmd.label	"スター付きメッセージ">
 <!ENTITY prevStarredMsgCmd.accesskey	"S">
 <!ENTITY folderMenu.label		"フォルダー">
