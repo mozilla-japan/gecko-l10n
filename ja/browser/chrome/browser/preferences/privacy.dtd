@@ -15,10 +15,7 @@
 <!ENTITY  trackingProtectionExceptions.label	"例外...">
 <!ENTITY  trackingProtectionExceptions.accesskey	"x">
 
-<!-- LOCALIZATION NOTE (trackingProtectionPBM5.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to true. This currently happens on the release and beta channel. -->
-<!ENTITY trackingProtectionPBM5.label		"プライベート@@Window@@でトラッキング防止を使用する">
-<!ENTITY trackingProtectionPBM5.accesskey	"v">
-<!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the nightly channel. -->
+<!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the release and beta channel. -->
 <!ENTITY trackingProtectionPBM6.label		"プライベートブラウジングモードでトラッキング防止を使用して既知の追跡者をブロックする">
 <!ENTITY trackingProtectionPBM6.accesskey	"v">
 <!ENTITY trackingProtectionPBMLearnMore.label	"詳細情報">

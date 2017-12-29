@@ -44,5 +44,3 @@
 <!ENTITY useFirefoxSync.label		"ヒント: これは別のプロファイルを使用します。データを共有するには Sync を使用してください。">
 <!ENTITY getStarted.notloggedin.label	"&syncBrand.shortName.label; にログインする...">
 <!ENTITY getStarted.configured.label	"&syncBrand.shortName.label; 設定を開く">
-
-<!ENTITY e10sEnabled.label		"マルチプロセス &brandShortName; を有効にする">

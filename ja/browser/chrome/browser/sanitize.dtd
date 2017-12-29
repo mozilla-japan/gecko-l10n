@@ -21,8 +21,6 @@
 <!-- LOCALIZATION NOTE (sanitizeDialog2.width): width of the Clear Recent History dialog -->
 <!ENTITY sanitizeDialog2.width			"34em">
 
-<!ENTITY clearDataSettings2.label		"&brandShortName; の終了時には次のデータを自動消去する:">
-
 <!ENTITY clearDataSettings3.label		"&brandShortName; の終了時には次のデータを自動消去する">
 
 <!-- XXX rearrange entities to match physical layout when l10n isn't an issue -->
