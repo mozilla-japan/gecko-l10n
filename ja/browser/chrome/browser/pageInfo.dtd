@@ -60,6 +60,9 @@
 <!ENTITY  permissionsFor        "対象サイト:">
 <!ENTITY  permPlugins           "プラグインの実行">
 
+<!ENTITY  permClearStorage           "ストレージを@@Clear@@">
+<!ENTITY  permClearStorage.accesskey "C">
+
 <!ENTITY  securityTab           "セキュリティ">
 <!ENTITY  securityTab.accesskey "S">
 <!ENTITY  securityView.certView "証明書を表示...">
