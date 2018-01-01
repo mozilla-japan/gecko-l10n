@@ -355,6 +355,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuCustomize.tooltip		"メニューとツールバーをカスタマイズします">
 <!ENTITY appMenuCustomizeExit.label		"カスタマイズを終了">
 <!ENTITY appMenuCustomizeExit.tooltip		"カスタマイズを完了します">
+
 <!ENTITY appMenuHistory.showAll.label		"すべての履歴を表示">
 <!ENTITY appMenuHistory.clearRecent.label	"最近の履歴を消去...">
 <!ENTITY appMenuHistory.restoreSession.label	"以前のセッションを復元">
@@ -750,6 +751,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editBookmark.done.label		"完了">
 <!ENTITY editBookmark.removeBookmark.accessKey	"R">
 
+<!-- LOCALIZATION NOTE (identity.securityView.label)
+     This is the header of the security subview in the Site Identity panel. -->
+<!ENTITY identity.securityView.label		"サイトのセキュリティ">
+
 <!ENTITY identity.connectionSecure		"安全な接続">
 <!ENTITY identity.connectionNotSecure		"この接続は安全ではありません">
 <!ENTITY identity.connectionFile		"これはあなたのコンピューターに保存されているページです。">
@@ -831,6 +836,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey		"O">
 <!ENTITY syncedTabs.context.managedevices.label			"端末の管理...">
 <!ENTITY syncedTabs.context.managedevices.accesskey		"D">
+
 
 <!ENTITY syncBrand.shortName.label		"Sync">
 
@@ -981,6 +987,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageActionButton.tooltip		"ページ操作">
 <!ENTITY pageAction.addToUrlbar.label		"アドレスバーに追加">
 <!ENTITY pageAction.removeFromUrlbar.label	"アドレスバーから削除">
+<!ENTITY pageAction.allowInUrlbar.label		"アドレスバーに表示">
+<!ENTITY pageAction.disallowInUrlbar.label	"アドレスバーに表示しない">
+<!ENTITY pageAction.manageExtension.label	"拡張機能を管理...">
 
 <!ENTITY pageAction.sendTabToDevice.label	"タブを端末へ送信">
 <!ENTITY sendToDevice.syncNotReady.label	"端末を同期しています...">

@@ -55,6 +55,7 @@
 <!ENTITY  permAskAlways         "毎回確認">
 <!ENTITY  permAllow             "許可">
 <!ENTITY  permAllowSession      "セッション中のみ許可">
+<!ENTITY  permHide              "非表示">
 <!ENTITY  permBlock             "ブロック">
 <!ENTITY  permissionsFor        "対象サイト:">
 <!ENTITY  permPlugins           "プラグインの実行">
