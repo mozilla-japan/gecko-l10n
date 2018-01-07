@@ -49,7 +49,7 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1	"今のところ、カレンダーサーバーで予定を管理している場合、このカレンダーをプロパティダイアログでセットアップした後にしか有効にできません。">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2	"このオプションは、カレンダーサーバーで予定を管理している場合のみ利用可能です。有効にすると、予定がサーバーではなく標準のメールベースのスケジュールにフォールバックされます。">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2	"このオプションは、カレンダーサーバーで予定を管理している場合のみ利用可能です。有効にすると、予定をサーバーではなくメールクライアント側で処理できるようにします。">
 
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label			"参加">
