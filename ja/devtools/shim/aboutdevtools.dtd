@@ -26,12 +26,12 @@
 <!-- LOCALIZATION NOTE (aboutDevtools.enable.inspectElementMessage): Message displayed
   -  when users come from using the Inspect Element menu item. -->
 <!ENTITY  aboutDevtools.enable.inspectElementMessage
-          "開発ツールの要素の調査機能で、HTML と CSSを調査したり編集できます。">
+          "開発ツールの要素調査機能で HTML と CSS の調査や編集ができます。">
 
 <!-- LOCALIZATION NOTE (aboutDevtools.enable.aboutDebuggingMessage): Message displayed
   -  when users come from about:debugging. -->
 <!ENTITY  aboutDevtools.enable.aboutDebuggingMessage
-          "Firefox 開発ツールで、ブラウザー拡張機能やWeb Worker、Service Workerを開発、デバッグできます。">
+          "Firefox 開発ツールで、ブラウザー拡張機能や Web Worker、Service Worker を開発、デバッグできます。">
 
 <!-- LOCALIZATION NOTE (aboutDevtools.enable.keyShortcutMessage): Message displayed when
   -  users pressed a DevTools key shortcut. -->
@@ -41,7 +41,7 @@
 <!-- LOCALIZATION NOTE (aboutDevtools.enable.menuMessage): Message displayed when users
   -  clicked on a "Enable Developer Tools" menu item. -->
 <!ENTITY  aboutDevtools.enable.menuMessage
-          "インスペクターやデバッガーのようなツールで、HTML や CSS、JavaScript を調査したり編集やデバッグができます。">
+          "インスペクターやデバッガーなどのツールで、HTML や CSS、JavaScript の調査や編集、デバッグができます。">
 
 <!-- LOCALIZATION NOTE (aboutDevtools.enable.commonMessage): Generic message displayed for
   -  all possible entry points (keyshortcut, menu item etc…). -->
