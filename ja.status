@@ -870,3 +870,8 @@ toolkit                  9394:d6142a36a62d   2017-12-15     mar             sync
 browser                  9302:10ca26a04527   2017-12-12     hATrayflood     sync browser
 calendar                 9392:62f2cf37fb0b   2017-12-12     mar             sync calendar
 devtools                 9302:10ca26a04527   2017-12-12     hATrayflood     sync devtools
+
+[l10n-mozilla-59.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+
