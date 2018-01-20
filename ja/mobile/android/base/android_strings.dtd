@@ -290,7 +290,7 @@
     Instead of switching to the browser it appears as if the user stays in the third-party app.
     For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 <!ENTITY pref_custom_tabs2 "カスタムタブ">
-<!ENTITY pref_custom_tabs_summary4 "アプリがカスタムタブを利用してウェブコンテンツをすばやく開くことを許可します。">
+<!ENTITY pref_custom_tabs_summary4 "アプリがカスタムタブを利用してウェブコンテンツをすばやく開くことを許可します">
 
 <!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
      default browser from user's preference, such as "Open in Firefox" -->
@@ -484,7 +484,6 @@
 <!ENTITY contextmenu_open_new_tab "@@NewTab@@で開く">
 <!ENTITY contextmenu_open_private_tab "プライベートタブで開く">
 <!ENTITY contextmenu_remove "削除">
-<!ENTITY contextmenu_add_to_launcher "ホーム画面に追加">
 <!ENTITY contextmenu_add_page_shortcut "ページのショートカットを追加">
 <!ENTITY contextmenu_set_as_homepage "ホームページに設定">
 <!ENTITY contextmenu_share "共有">
@@ -816,8 +815,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      are used for a system notification that's shown to users after the app updates. -->
 <!ENTITY whatsnew_notification_title "&brandShortName; は最新版です">
 <!ENTITY whatsnew_notification_summary "このバージョンの新機能を知りましょう">
-
-<!ENTITY promotion_add_to_homescreen "ホーム画面に追加">
 
 <!ENTITY promotion_add_page_shortcut "ページのショートカットを追加">
 
