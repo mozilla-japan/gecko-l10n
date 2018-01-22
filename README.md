@@ -20,7 +20,11 @@ Mozilla 製品のローカライズに問題を見つけたり気になる点が
 
 ## ブランチとマージ
 
-GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) 用のリソースです (version 55.0 から)。ベータ版・リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。
+Github での master ブランチは、version 57.0 以降、クロスチャンネル対応の gecko-strings を対象にローカライズしており、Nightly, Beta, Release 共用のリソースになっています。
+
+現在、[クロスチャンネルに対応した新たなワークフローを検討中](https://github.com/mozilla-japan/gecko-l10n/issues/84) です。
+
+~GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) 用のリソースです (version 55.0 から)。ベータ版・リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。~
 
 バージョンアップ時の英語リソースファイル変更に追従する場合は master ブランチだけを修正すれば構いませんが、既にブランチを切っているバージョンにも反映したい場合は master だけでなく該当ブランチにもマージしてください。
 
@@ -73,6 +77,9 @@ git push
 ## L10n 関連リポジトリ等
 
 * Firefox, Thunderbird, Lightning, SeaMonkey
+  * Cross-channel (gecko-strings):
+    * https://hg.mozilla.org/l10n/gecko-strings
+    * https://hg.mozilla.org/users/axel_mozilla.com/gecko-strings-quarantine
   * Nightly:
     * https://hg.mozilla.org/l10n-central/ja/
     * https://hg.mozilla.org/l10n-central/ja-JP-mac/

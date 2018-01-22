@@ -874,5 +874,4 @@ devtools                 9302:10ca26a04527   2017-12-12     hATrayflood     sync
 [l10n-mozilla-59.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
-
-mobile                   9478:3ea891855b16   2018-01-20     kechol          sync mobile
+mobile                   9478:3ea891855b16   2018-01-16     kechol          sync mobile
