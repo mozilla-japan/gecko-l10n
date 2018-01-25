@@ -51,8 +51,6 @@ available. -->
 
 <!ENTITY httpCache.label		"キャッシュされたウェブページ">
 
-<!ENTITY offlineStorage2.label		"オフラインウェブページとユーザーデータ">
-
 <!--  Site Data section manages sites using Storage API and is under Network -->
 <!ENTITY siteData.label			"サイトデータ">
 <!ENTITY clearSiteData.label		"すべてのデータを消去">
@@ -72,8 +70,6 @@ available. -->
 <!ENTITY limitCacheSizeAfter.label		"MB まで使用する">
 <!ENTITY clearCacheNow.label			"今すぐ消去">
 <!ENTITY clearCacheNow.accesskey		"C">
-<!ENTITY clearOfflineAppCacheNow.label		"今すぐ消去">
-<!ENTITY clearOfflineAppCacheNow.accesskey	"N">
 <!ENTITY overrideSmartCacheSize.label		"キャッシュサイズを変更する">
 <!ENTITY overrideSmartCacheSize.accesskey	"O">
 
@@ -109,17 +105,6 @@ available. -->
 
 <!ENTITY enableSearchUpdate2.label	"検索エンジンを自動的に更新する">
 <!ENTITY enableSearchUpdate2.accesskey	"e">
-
-<!ENTITY offlineStorageNotify.label		"ウェブサイトがオフライン作業用データの保存を求めてきたときに知らせる">
-<!ENTITY offlineStorageNotify.accesskey		"T">
-<!ENTITY offlineStorageNotifyExceptions.label	"例外サイト...">
-<!ENTITY offlineStorageNotifyExceptions.accesskey	"x">
-
-<!ENTITY offlineAppsList3.label			"オフライン作業用のデータの保存を許可しているウェブサイト">
-<!ENTITY offlineAppsList.height			"7em">
-<!ENTITY offlineAppsListRemove.label		"削除...">
-<!ENTITY offlineAppsListRemove.accesskey	"R">
-<!ENTITY offlineAppRemove.confirm		"オフライン作業用データの削除">
 
 <!ENTITY certificateTab.label		"証明書">
 <!ENTITY certPersonal2.description	"サーバーが個人証明書を要求したとき">

@@ -7,10 +7,6 @@
 <!ENTITY  blockPopups.label		"ポップアップ@@Window@@をブロックする">
 <!ENTITY  blockPopups.accesskey		"B">
 
-<!ENTITY  notificationsDoNotDisturb.label		"通知しない">
-<!ENTITY  notificationsDoNotDisturb.accesskey		"n">
-<!ENTITY  notificationsDoNotDisturbDetails.value	"&brandShortName; を再起動するまで通知を表示しません">
-
 <!ENTITY  popupExceptions.label				"許可サイト..."><!-- en-US: Exceptions… -->
 <!ENTITY  popupExceptions.accesskey			"E">
 
