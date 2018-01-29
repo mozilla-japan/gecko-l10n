@@ -21,6 +21,13 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion		"バージョン">
 <!ENTITY aboutSupport.extensionId		"ID">
 
+<!ENTITY aboutSupport.securitySoftwareTitle	"セキュリティソフトウェア">
+<!ENTITY aboutSupport.securitySoftwareType	"種類">
+<!ENTITY aboutSupport.securitySoftwareName	"名前">
+<!ENTITY aboutSupport.securitySoftwareAntivirus	"アンチウイルス">
+<!ENTITY aboutSupport.securitySoftwareAntiSpyware	"アンチスパイウェア">
+<!ENTITY aboutSupport.securitySoftwareFirewall	"ファイアウォール">
+
 <!ENTITY aboutSupport.featuresTitle		"&brandShortName; の機能">
 <!ENTITY aboutSupport.featureName		"名前">
 <!ENTITY aboutSupport.featureVersion		"バージョン">

@@ -3,7 +3,9 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY addons.windowTitle			"アドオンマネージャー">
 
-<!ENTITY search.placeholder			"アドオンを検索します">
+<!ENTITY search.placeholder			"アドオンを検索">
+
+<!ENTITY search.placeholder2			"addons.mozilla.org を検索">
 <!ENTITY search.buttonlabel			"検索">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
