@@ -15,3 +15,5 @@
 <!ENTITY languages.customize.selectLanguage.label	"追加する言語を選択...">
 <!ENTITY languages.customize.addButton.label		"追加">
 <!ENTITY languages.customize.addButton.accesskey	"A">
+
+<!ENTITY languages.customize.spoofEnglish		"プライバシー強化のため、英語版のウェブページを表示する">

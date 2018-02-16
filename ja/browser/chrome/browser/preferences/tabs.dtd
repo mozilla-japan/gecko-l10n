@@ -8,6 +8,9 @@
 <!ENTITY newWindowsAsTabs.label			"@@NewWindow@@ではなく@@NewTab@@で開く">
 <!ENTITY newWindowsAsTabs.accesskey		"w">
 
+<!ENTITY newWindowsAsTabs3.label		"@@NewWindow@@ではなく@@NewTab@@に開く">
+<!ENTITY newWindowsAsTabs3.accesskey		"w">
+
 <!ENTITY warnOnCloseMultipleTabs.label		"同時に複数のタブを閉じるときは確認する">
 <!ENTITY warnOnCloseMultipleTabs.accesskey	"m">
 
