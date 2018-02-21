@@ -12,7 +12,7 @@
      suggestions over browsing history in the results that extend down from the
      address bar. In the original English string, "ahead" refers to location
      (appearing most proximate to), not time (appearing before). -->
-<!ENTITY showSearchSuggestionsAboveHistory.label	"アドレスバーの入力候補は、閲覧履歴より検索候補を先に表示する">
+<!ENTITY showSearchSuggestionsAboveHistory.label	"アドレスバーの入力候補は、検索候補を閲覧履歴より先に表示する">
 
 <!ENTITY defaultSearchEngine.label		"@@Default-@@検索エンジン">
 
