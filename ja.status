@@ -876,4 +876,5 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 mobile                   9478:3ea891855b16   2018-01-16     kechol          sync mobile
 toolkit                  9494:dbf3963d93f8   2018-01-23     mar             sync toolkit
+browser                  9490:ba991d9d4ca9   2018-01-21     hATrayflood     sync browser
 

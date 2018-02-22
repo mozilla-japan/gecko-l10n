@@ -5,6 +5,8 @@
 <!ENTITY  trackingProtectionHeader2.label	"トラッキング防止">
 <!ENTITY  trackingProtection2.description	"トラッキングは複数のウェブサイトにまたがるユーザーのブラウジングデータを収集することです。トラッキングはユーザーについてのプロファイルを構築し、そのブラウジング行動および個人情報に基づいてコンテンツを表示するために使用されます。">
 <!ENTITY  trackingProtection2.radioGroupLabel	"トラッキング防止を使用して既知の追跡者をブロックする">
+<!ENTITY  trackingProtection3.description	"トラッキング防止は、複数のウェブサイトにまたがるユーザーのブラウジングデータを収集するオンラインの追跡者をブロックします。">
+<!ENTITY  trackingProtection3.radioGroupLabel	"トラッキング防止を使用して既知の追跡者をブロックする">
 <!ENTITY  trackingProtectionAlways.label	"常に">
 <!ENTITY  trackingProtectionAlways.accesskey	"y">
 <!ENTITY  trackingProtectionPrivate.label	"プライベート@@Window@@のみ">
@@ -12,6 +14,7 @@
 <!ENTITY  trackingProtectionNever.label		"ブロックしない">
 <!ENTITY  trackingProtectionNever.accesskey	"n">
 <!ENTITY  trackingProtectionLearnMore.label	"詳細情報">
+<!ENTITY  trackingProtectionLearnMore2.label	"トラッキング防止とプライバシーの詳細情報">
 <!ENTITY  trackingProtectionExceptions.label	"例外...">
 <!ENTITY  trackingProtectionExceptions.accesskey	"x">
 

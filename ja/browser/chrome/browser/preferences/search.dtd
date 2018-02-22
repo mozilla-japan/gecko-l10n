@@ -7,6 +7,13 @@
 <!ENTITY searchBar.hidden.label			"検索とナビゲーションにアドレスバーを使用する">
 <!ENTITY searchBar.shown.label			"検索バーをツールバーに追加する">
 
+<!-- LOCALIZATION NOTE (showSearchSuggestionsAboveHistory.label): This string
+     describes what the user will observe when the system prioritizes search
+     suggestions over browsing history in the results that extend down from the
+     address bar. In the original English string, "ahead" refers to location
+     (appearing most proximate to), not time (appearing before). -->
+<!ENTITY showSearchSuggestionsAboveHistory.label	"アドレスバーの入力候補は、検索候補を閲覧履歴より先に表示する">
+
 <!ENTITY defaultSearchEngine.label		"@@Default-@@検索エンジン">
 
 <!ENTITY chooseYourDefaultSearchEngine2.label	"アドレスバーと検索バーで使用される@@Default-@@検索エンジンを選択してください。">

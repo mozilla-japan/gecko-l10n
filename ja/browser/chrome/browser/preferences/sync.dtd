@@ -7,18 +7,30 @@
 <!ENTITY engine.bookmarks.label		"ブックマーク">
 <!ENTITY engine.bookmarks.accesskey	"m">
 <!ENTITY engine.tabs.label2		"開いたタブ">
+<!ENTITY engine.tabs.title		"同期した端末で開いているすべてのタブの一覧です">
 <!ENTITY engine.tabs.accesskey		"T">
 <!ENTITY engine.history.label		"履歴">
 <!ENTITY engine.history.accesskey	"r">
 <!ENTITY engine.logins.label		"ログイン情報">
+<!ENTITY engine.logins.title		"保存したユーザー名とパスワードです">
 <!ENTITY engine.logins.accesskey	"L">
+<!-- On Windows we use the term "Options" to describe settings, but
+     on Linux and Mac OS X we use "Preferences" - carry that distinction
+     over into this string, used as the checkbox which indicates if prefs are synced
+-->
+<!ENTITY engine.prefsWin.label		"オプション">
+<!ENTITY engine.prefsWin.accesskey	"S">
 <!ENTITY engine.prefs.label		"個人設定">
 <!ENTITY engine.prefs.accesskey		"S">
+<!ENTITY engine.prefs.title		"変更した一般、プライバシー、セキュリティの設定です">
 <!ENTITY engine.addons.label		"アドオン">
+<!ENTITY engine.addons.title		"デスクトップ版 Firefox の拡張機能とテーマです">
 <!ENTITY engine.addons.accesskey	"A">
 <!ENTITY engine.addresses.label		"所在地フォーム"><!-- Bug 1379533 -->
+<!ENTITY engine.addresses.title		"保存した住所です (デスクトップのみ)">
 <!ENTITY engine.addresses.accesskey	"e">
 <!ENTITY engine.creditcards.label	"クレジットカード">
+<!ENTITY engine.creditcards.title	"クレジットカードの名義と番号と有効期限です (デスクトップのみ)">
 <!ENTITY engine.creditcards.accesskey	"C">
 
 <!-- Device Settings -->
@@ -32,8 +44,6 @@
 
 <!-- Footer stuff -->
 <!ENTITY prefs.tosLink.label		"利用規約">
-
-<!-- Firefox Accounts stuff -->
 <!ENTITY fxaPrivacyNotice.link.label	"個人情報保護方針">
 
 <!-- LOCALIZATION NOTE (signedInUnverified.beforename.label,
@@ -64,6 +74,11 @@ both, to better adapt this sentence to their language.
 <!ENTITY verify.accesskey		"V">
 <!ENTITY forget.label			"このメールアドレスを解除">
 <!ENTITY forget.accesskey		"F">
+
+<!ENTITY resendVerification.label	"認証メールを再送信">
+<!ENTITY resendVerification.accesskey	"d">
+<!ENTITY cancelSetup.label		"セットアップをキャンセル">
+<!ENTITY cancelSetup.accesskey		"p">
 
 <!ENTITY signedOut.caption		"ウェブを持ち歩こう">
 <!ENTITY signedOut.description		"ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。">
