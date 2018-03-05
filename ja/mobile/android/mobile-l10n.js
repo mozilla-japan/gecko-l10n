@@ -4,7 +4,6 @@
 
 #filter substitution
 
-pref("general.useragent.locale", "@AB_CD@");
 
 pref("intl.accept_languages", "ja");
 pref("intl.charset.default", "UTF-8");

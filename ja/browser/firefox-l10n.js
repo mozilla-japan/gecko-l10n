@@ -4,7 +4,6 @@
 
 #filter substitution
 
-pref("general.useragent.locale", "@AB_CD@");
 
 pref("browser.search.order.3", "chrome://browser-region/locale/region.properties");
 pref("browser.search.order.4", "chrome://browser-region/locale/region.properties");
