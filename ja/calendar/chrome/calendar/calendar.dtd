@@ -309,7 +309,7 @@
      This string is not seen in the UI, it is read by screen readers when the
      user focuses the "Cancel" button in the "Snooze for..." popup of the alarm
      dialog. -->
-<!ENTITY calendar.alarm.snooze.cancel			"スヌーズをキャンセルします">
+<!ENTITY calendar.alarm.snooze.cancel			"再通知をキャンセルします">
 
 <!-- Calendar Server Dialog -->
 <!ENTITY calendar.server.dialog.title.edit		"カレンダーの編集">
