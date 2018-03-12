@@ -10,7 +10,7 @@
 
 <!-- General Settings -->
 <!ENTITY enableGlodaSearch.label		"グローバル検索と索引データベースを有効にする"><!-- (^^; Enable Global Search and Indexer -->
-<!ENTITY enableGlodaSearch.accesskey		"E">
+<!ENTITY enableGlodaSearch.accesskey		"G">
 <!ENTITY dateTimeFormatting.label		"日付と時刻の書式">
 <!ENTITY allowHWAccel.label			"ハードウェアアクセラレーション機能を使用する (可能な場合)">
 <!ENTITY allowHWAccel.accesskey			"h">

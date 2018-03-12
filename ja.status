@@ -855,7 +855,7 @@ devtools/client        432537:ea66f4c8766c  -----:------------   mar            
 security               432696:86534d5daeef  -----:------------   mar             sync security (mozilla-beta, late-l10n)
 
 
-[l10n-mozilla-58.0]
+Released! [l10n-mozilla-58.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                  9248:4ba5199b08ed   2017-11-02     mar             sync browser
@@ -879,3 +879,8 @@ toolkit                  9494:dbf3963d93f8   2018-01-23     mar             sync
 browser                  9490:ba991d9d4ca9   2018-01-21     hATrayflood     sync browser
 dom, security            9656:9ce11d4bed99   2018-03-02     mar             sync dom, security (includes 60.0)
 
+[l10n-mozilla-60.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar                 9681:598956653955   2018-03-09     mar             sync calendar
+mail, editor/ui          9681:598956653955   2018-03-09     mar             sync mail, editor/ui (includes 59.0)

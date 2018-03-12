@@ -320,7 +320,6 @@
 <!ENTITY goBackCmd.commandKey		"[">
 <!ENTITY goChatCmd.label		"チャット">
 <!ENTITY goChatCmd.accesskey		"c">
-<!ENTITY goChatCmd.key			"I">
 <!ENTITY goChatCmd2.key			"H">
 <!ENTITY prevStarredMsgCmd.label	"スター付きメッセージ">
 <!ENTITY prevStarredMsgCmd.accesskey	"S">
@@ -371,6 +370,8 @@
 <!ENTITY editAsNewMsgCmd.key		"e">
 <!ENTITY editDraftMsgCmd.label		"下書きメッセージを編集">
 <!ENTITY editDraftMsgCmd.accesskey	"D">
+<!ENTITY editTemplateMsgCmd.label	"テンプレートを編集">
+<!ENTITY editTemplateMsgCmd.accesskey	"T">
 <!ENTITY newMsgFromTemplateCmd.label	"テンプレートから@@New-CMD@@メッセージを作成">
 <!ENTITY newMsgFromTemplateCmd.keycode	"VK_RETURN"><!-- do not change "VK_RETURN" -->
 <!ENTITY createFilter.label		"メッセージからフィルターを作成...">
@@ -463,6 +464,11 @@
 <!ENTITY addressBookCmd.key		"B">
 <!ENTITY addons.label			"アドオン">
 <!ENTITY addons.accesskey		"A">
+<!ENTITY addonPrefs.label		"アドオンのオプション">
+<!ENTITY addonPrefs.accesskey		"O">
+<!ENTITY addonPrefsUnix.label		"アドオンの設定">
+<!ENTITY addonPrefsUnix.accesskey	"P">
+<!ENTITY addonNoPrefs.label		"アドオンの設定はありません。">
 <!ENTITY activitymanager.label		"イベントログの管理"><!-- (^^; en-US: Activity Manager -->
 <!ENTITY activitymanager.accesskey	"v">
 <!ENTITY imAccountsStatus.label		"チャット状態">
@@ -508,6 +514,8 @@
 <!ENTITY devToolboxCmd.commandkey	"i">
 <!ENTITY addonDebugCmd.label		"アドオンデバッガー">
 <!ENTITY addonDebugCmd.accesskey	"A">
+<!ENTITY debugAddonsCmd.label		"アドオンをデバッグ">
+<!ENTITY debugAddonsCmd.accesskey	"A">
 <!ENTITY tabsDebugCmd.label		"コンテンツフレームデバッガー">
 <!ENTITY tabsDebugCmd.accesskey		"C">
 <!ENTITY errorConsoleCmd.label		"エラーコンソール">
@@ -756,6 +764,8 @@
 <!ENTITY contextEditMsgAsNew.label		"@@New-CMD@@メッセージとして編集">
 <!ENTITY contextEditMsgAsNew.accesskey		"E">
 <!ENTITY contextEditDraftMsg.label		"下書きメッセージを編集">
+<!ENTITY contextEditTemplate.label		"テンプレートを編集">
+<!ENTITY contextEditTemplate.accesskey		"T">
 <!ENTITY contextArchive.label			"アーカイブ">
 <!ENTITY contextArchive.accesskey		"h">
 <!ENTITY contextReplySender.label		"送信者だけに返信">
