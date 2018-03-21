@@ -34,9 +34,6 @@
 <!ENTITY pref.default_task_offset_next_hour.label "次の 0 分から">
 
 <!ENTITY pref.calendar.todaypane.agenda.caption "Today ペイン">
-<!ENTITY pref.soondays.label "近日中セクションの表示期間:">
-<!ENTITY pref.soondays.accesskey "u">
-
 <!-- LOCALIZATION NOTE (pref.soondays2.label):
      "Upcoming" is the name of a section and the translation must match the
      translation of that section name (calendar.upcoming.button.label). Also,
