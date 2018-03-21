@@ -871,7 +871,7 @@ browser                  9302:10ca26a04527   2017-12-12     hATrayflood     sync
 calendar                 9392:62f2cf37fb0b   2017-12-12     mar             sync calendar
 devtools                 9302:10ca26a04527   2017-12-12     hATrayflood     sync devtools
 
-[l10n-mozilla-59.0]
+Released! [l10n-mozilla-59.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mobile                   9478:3ea891855b16   2018-01-16     kechol          sync mobile
@@ -884,3 +884,5 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 calendar                 9681:598956653955   2018-03-09     mar             sync calendar
 mail, editor/ui          9740:3733d96cffeb   2018-03-20     mar             sync mail, editor/ui (includes 59.0)
+mail                     9745:cbd8ff01578f   2018-03-20     mar             sync mail
+
