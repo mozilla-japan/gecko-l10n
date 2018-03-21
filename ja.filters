@@ -296,11 +296,6 @@ ja.customizeToolbar.nstructions.description		= ドラッグ &amp; ドロップ�
 ja-JP-mac.customizeToolbar.nstructions.description	= よく使う項目をツールバーにドラッグしてください...
 
 
-# toolkit/chrome/global/customizeToolbar.properties
-ja.customizeToolbar.separatorTitle		= 区切り
-ja-JP-mac.customizeToolbar.separatorTitle	= 区切り線
-
-
 # toolkit/chrome/global/intl.css
 intl.css.common				= \
 					/* see bug-jp 4303 */\n\
