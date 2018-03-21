@@ -124,6 +124,9 @@ because displayed names don't have the comma in between. -->
 <!ENTITY messengerCmd.label			"メールとニュースグループ">
 <!ENTITY messengerCmd.accesskey			"M">
 <!ENTITY messengerCmd.commandkey		"1">
+<!ENTITY addressBookCmd.label			"アドレス帳">
+<!ENTITY addressBookCmd.accesskey		"a">
+<!ENTITY addressBookCmd.key			"B">
 <!ENTITY searchAddressesCmd.label		"アドレスを検索...">
 <!ENTITY searchAddressesCmd.accesskey		"S">
 <!ENTITY importCmd.label			"@@Import@@...">

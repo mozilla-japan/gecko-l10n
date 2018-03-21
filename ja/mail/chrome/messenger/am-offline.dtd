@@ -8,6 +8,9 @@
 <!ENTITY doNotDownloadImap.label		"指定したサイズまたは期間のメッセージをオフライン表示用にダウンロードしてローカルにコピーを保存します。">
 <!ENTITY allFoldersOffline.label		"このアカウントのメッセージをこのコンピューターに保存する">
 <!ENTITY allFoldersOffline.accesskey		"o">
+<!ENTITY allFoldersOffline2.label		"このコンピューターのこのアカウントのすべてのフォルダーを保存する">
+<!ENTITY allFoldersOffline2.accesskey		"o">
+<!ENTITY allFoldersOfflineNote.label		"注意: この設定の変更は、このアカウントのすべてのフォルダーに影響します。フォルダーごとに設定するには @@[@@詳細...@@]@@ ボタンをクリックしてください。">
 <!ENTITY offlineNotDownload.label		"メッセージのサイズが"><!-- (^^; ... kb.label -->
 <!ENTITY offlineNotDownload.accesskey		"M">
 <!ENTITY autosyncNotDownload.label		"次のサイズのメッセージはダウンロードしない:"><!-- (^^; ... kb.label -->

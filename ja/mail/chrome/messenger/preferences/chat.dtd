@@ -31,6 +31,10 @@ sentence. -->
 <!ENTITY  completeNotification.label		"送信者の名前とメッセージプレビュー">
 <!ENTITY  buddyInfoOnly.label			"送信者の名前のみ">
 <!ENTITY  dummyNotification.label		"情報なし">
+<!ENTITY  getAttention.label			"タスクバーアイテムを点滅">
+<!ENTITY  getAttention.accesskey		"F">
+<!ENTITY  getAttentionMac.label			"ドックアイコンをアニメーション">
+<!ENTITY  getAttentionMac.accesskey		"o">
 <!ENTITY  chatSound.accesskey			"d">
 <!ENTITY  chatSound.label			"音を鳴らす">
 <!ENTITY  play.label				"再生">

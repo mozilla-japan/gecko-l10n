@@ -12,6 +12,7 @@
 <!ENTITY feedLocation.label		"フィードの URL:">
 <!ENTITY feedLocation.accesskey		"F">
 <!ENTITY feedLocation.placeholder	"追加するフィードの正しい URL を入力してください">
+<!ENTITY feedLocation2.placeholder	"フィードの正しい URL を入力してください">
 <!ENTITY locationValidate.label		"フィードを検証">
 <!ENTITY validateText.label		"フィードが有効か確認して正しい URL を取得します。">
 
@@ -40,6 +41,8 @@
 <!-- Subscription Dialog -->
 <!ENTITY button.addFeed.label		"追加">
 <!ENTITY button.addFeed.accesskey	"A">
+<!ENTITY button.verifyFeed.label	"検証">
+<!ENTITY button.verifyFeed.accesskey	"V">
 <!ENTITY button.updateFeed.label	"更新">
 <!ENTITY button.updateFeed.accesskey	"U">
 <!ENTITY button.removeFeed.label	"削除">

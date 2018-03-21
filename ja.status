@@ -883,3 +883,4 @@ dom, security            9656:9ce11d4bed99   2018-03-02     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar                 9681:598956653955   2018-03-09     mar             sync calendar
+mail, editor/ui          9740:3733d96cffeb   2018-03-20     mar             sync mail, editor/ui (includes 59.0)

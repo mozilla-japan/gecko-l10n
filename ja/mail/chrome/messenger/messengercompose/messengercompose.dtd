@@ -122,14 +122,26 @@
 <!-- LOCALIZATION NOTE (sortAttachmentsTogglePanelBtn.AZ.label):
      Please ensure that this translation matches
      sortAttachmentsTogglePanelBtn.ZA.label, except for the sort direction. -->
-<!ENTITY sortAttachmentsTogglePanelBtn.AZ.label		"選択項目をソート: A - Z">
+<!ENTITY sortAttachmentsTogglePanelBtn.AZ.label		"選択項目を並べ替え: A - Z: A - Z">
 <!-- LOCALIZATION NOTE (sortAttachmentsTogglePanelBtn.AZ.accesskey):
      This accesskey should be the same like
      sortAttachmentsTogglePanelBtn.ZA.accesskey, and it should be taken from
      the "Sort Selection:" part of the label, not from the sort direction part. -->
 <!ENTITY sortAttachmentsTogglePanelBtn.AZ.accesskey	"o">
-<!ENTITY sortAttachmentsTogglePanelBtn.ZA.label		"選択項目をソート: Z - A">
+<!ENTITY sortAttachmentsTogglePanelBtn.ZA.label		"選択項目を並べ替え: A - Z: Z - A">
 <!ENTITY sortAttachmentsTogglePanelBtn.ZA.accesskey	"o">
+
+<!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
+     Please ensure that this translation matches
+     sortAttachmentsPanelBtn.Sort.ZA.label, except for the sort direction. -->
+<!ENTITY sortAttachmentsPanelBtn.Sort.AZ.label		"並べ替え: A - Z">
+<!ENTITY sortAttachmentsPanelBtn.Sort.ZA.label		"並べ替え: Z - A">
+<!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.SortSelection.AZ.label):
+     Please ensure that this translation matches
+     sortAttachmentsPanelBtn.SortSelection.ZA.label, except for the sort direction. -->
+<!ENTITY sortAttachmentsPanelBtn.SortSelection.AZ.label "選択項目を並べ替え: A - Z">
+<!ENTITY sortAttachmentsPanelBtn.SortSelection.ZA.label "選択項目を並べ替え: Z - A">
+<!ENTITY sortAttachmentsPanelBtn.key			"y">
 
 <!-- View Menu -->
 <!ENTITY viewMenu.label				"表示">
@@ -327,6 +339,13 @@
 <!ENTITY convertRegularAttachment.accesskey	"A">
 <!ENTITY attachPage.label		"ウェブページを添付...">
 <!ENTITY attachPage.accesskey		"W">
+
+<!-- Attachment Pane Header Bar Context Menu -->
+<!-- LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
+     Should use the same wording as startExpandedCmd.label
+     in msgHdrViewOverlay.dtd. -->
+<!ENTITY initiallyShowAttachmentPane.label	"添付ペインを初めから表示する">
+<!ENTITY initiallyShowAttachmentPane.accesskey	"S">
 
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label	"辞書を追加...">
