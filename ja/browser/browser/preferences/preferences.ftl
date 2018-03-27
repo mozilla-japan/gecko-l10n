@@ -104,23 +104,6 @@ startup-prev-session =
 disable-extension =
     .label = 拡張機能を無効化
 home-page-header = ホームページを表示する
-# This string has a special case for '1' and [other] (default). If necessary for
-# your language, you can add {$tabCount} to your translations and use the
-# standard CLDR forms, or only use the form for [other] if both strings should
-# be identical.
-use-current-pages =
-    .label =
-        { $tabCount ->
-            [1] 現在のページを使用
-           *[other] 現在のタブグループを使用
-        }
-    .accesskey = C
-choose-bookmark =
-    .label = ブックマークを使う...
-    .accesskey = B
-restore-default =
-    .label = 初期設定に戻す
-    .accesskey = R
 tabs-group-header = タブグループ
 ctrl-tab-recently-used-order =
     .label = Ctrl+Tab で最近使用した順にタブを切り替える
@@ -286,6 +269,29 @@ network-proxy-connection-settings =
     .label = 接続設定...
     .accesskey = e
 
+## Home Section
+
+
+## Home Section - Home Page Customization
+
+# This string has a special case for '1' and [other] (default). If necessary for
+# your language, you can add {$tabCount} to your translations and use the
+# standard CLDR forms, or only use the form for [other] if both strings should
+# be identical.
+use-current-pages =
+    .label =
+        { $tabCount ->
+            [1] 現在のページを使用
+           *[other] 現在のタブグループを使用
+        }
+    .accesskey = C
+choose-bookmark =
+    .label = ブックマークを使う...
+    .accesskey = B
+restore-default =
+    .label = 初期設定に戻す
+    .accesskey = R
+
 ## Search Section
 
 search-bar-header = 検索バー
@@ -329,3 +335,15 @@ search-keyword-warning-title = キーワードが重複しています
 #   $name (String) - Name of a search engine.
 search-keyword-warning-engine = "{ $name }" で使用されているキーワードを指定しました。他のものを指定してください。
 search-keyword-warning-bookmark = ブックマークで使用されているキーワードを指定しました。他のものを指定してください。
+
+## Containers Section
+
+containers-back-link = « 戻る
+containers-header = コンテナータブ
+containers-add-button =
+    .label = @@New-CMD@@コンテナーを追加
+    .accesskey = A
+containers-preferences-button =
+    .label = 設定
+containers-remove-button =
+    .label = 削除
