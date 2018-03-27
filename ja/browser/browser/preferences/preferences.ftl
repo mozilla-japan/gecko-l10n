@@ -259,3 +259,47 @@ network-proxy-title = ネットワークプロキシ
 network-proxy-connection-settings =
     .label = 接続設定...
     .accesskey = e
+
+## Search Section
+
+search-bar-header = 検索バー
+search-bar-hidden =
+    .label = 検索とナビゲーションにアドレスバーを使用する
+search-bar-shown =
+    .label = 検索バーをツールバーに追加する
+search-engine-default-header = @@Default-@@検索エンジン
+search-engine-default-desc = アドレスバーと検索バーで使用される@@Default-@@検索エンジンを選択してください。
+search-suggestions-option =
+    .label = 検索候補を使用する
+    .accesskey = s
+search-show-suggestions-url-bar-option =
+    .label = アドレスバーに検索候補を表示する
+    .accesskey = l
+# This string describes what the user will observe when the system
+# prioritizes search suggestions over browsing history in the results
+# that extend down from the address bar. In the original English string,
+# "ahead" refers to location (appearing most proximate to), not time
+# (appearing before).
+search-show-suggestions-above-history-option =
+    .label = アドレスバーの入力候補は、検索候補を閲覧履歴より先に表示する
+search-suggestions-cant-show = 履歴を保存しない設定となっているため、ロケーションバーに検索候補が表示されません。
+search-one-click-header = ワンクリック検索エンジン
+search-one-click-desc = キーワードの入力開始時にアドレスバーや検索バーの下に現れる代替検索エンジンを選んでください。
+search-choose-engine-column =
+    .label = 検索エンジン
+search-choose-keyword-column =
+    .label = キーワード
+search-restore-default =
+    .label = @@Default-@@検索エンジンを復元
+    .accesskey = d
+search-remove-engine =
+    .label = 削除
+    .accesskey = r
+search-find-more-link = 他の検索エンジンを追加
+# This warning is displayed when the chosen keyword is already in use
+# ('Duplicate' is an adjective)
+search-keyword-warning-title = キーワードが重複しています
+# Variables:
+#   $name (String) - Name of a search engine.
+search-keyword-warning-engine = "{ $name }" で使用されているキーワードを指定しました。他のものを指定してください。
+search-keyword-warning-bookmark = ブックマークで使用されているキーワードを指定しました。他のものを指定してください。
