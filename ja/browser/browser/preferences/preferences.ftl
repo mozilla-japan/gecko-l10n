@@ -22,6 +22,21 @@ pref-page =
 # Do not translate.
 search-input =
     .style = width: 15.4em
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-input-box =
+    .style = width: 15.4em
+    .placeholder =
+        { PLATFORM() ->
+            [windows] オプションを検索
+           *[other] 設定を検索
+        }
 pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
@@ -48,6 +63,17 @@ feature-disable-requires-restart = この機能を無効にするには、{ -bra
 should-restart-title = { -brand-short-name } を再起動
 should-restart-ok = { -brand-short-name } を今すぐ再起動
 restart-later = 後で再起動
+
+## Preferences UI Search Results
+
+search-results-header = 検索結果
+# `<span></span>` will be replaced by the search term.
+search-results-sorry-message =
+    { PLATFORM() ->
+        [windows] “<span></span>” オプションについての検索結果はありません。
+       *[other] “<span></span>” 設定についての検索結果はありません。
+    }
+search-results-need-help = 助けが必要な方は、<a>{ -brand-short-name } サポート</a> をご利用ください
 
 ## General Section
 
