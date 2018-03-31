@@ -885,4 +885,5 @@ target dir             gecko-string hg changeset rev:id     by              comm
 calendar                 9681:598956653955   2018-03-09     mar             sync calendar
 mail, editor/ui          9740:3733d96cffeb   2018-03-20     mar             sync mail, editor/ui (includes 59.0)
 mail                     9745:cbd8ff01578f   2018-03-20     mar             sync mail
+browser                  9768:1abf97aaa126   2018-03-23     hATrayflood     sync browser
 

@@ -9,6 +9,8 @@
 <!ENTITY  window.macWidth2		"46em"><!-- en-US: 44em -->
 
 <!ENTITY  proxyTitle.label		"インターネット接続に使用するプロキシの設定">
+
+<!ENTITY  proxyTitle.label2             "インターネット接続に使用するプロキシの設定">
 <!ENTITY  noProxyTypeRadio.label	"プロキシを使用しない"><!-- prev: インターネットに直接接続する -->
 <!ENTITY  noProxyTypeRadio.accesskey	"y">
 <!ENTITY  systemTypeRadio.label		"システムのプロキシ設定を利用する">

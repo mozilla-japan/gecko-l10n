@@ -39,6 +39,13 @@ available. -->
 
 <!ENTITY alwaysSubmitCrashReports1.label	"&brandShortName; がクラッシュレポートを Mozilla へ送信することを許可する">
 <!ENTITY alwaysSubmitCrashReports1.accesskey	"c">
+
+<!ENTITY collectBrowserErrors.label		"&brandShortName; がブラウザーエラーレポート (エラーメッセージ含む) を Mozilla へ送信することを許可する">
+<!ENTITY collectBrowserErrors.accesskey		"b">
+<!ENTITY collectBrowserErrorsLearnMore.label	"詳細情報">
+
+<!ENTITY sendBackloggedCrashReports.label	"&brandShortName; があなたに代わって未送信のクラッシュレポートを送信することを許可する">
+<!ENTITY sendBackloggedCrashReports.accesskey	"c">
 <!ENTITY crashReporterLearnMore.label		"詳細情報">
 
 <!ENTITY networkTab.label		"ネットワーク">
@@ -57,6 +64,11 @@ available. -->
 <!ENTITY clearSiteData.accesskey	"l">
 <!ENTITY siteDataSettings.label		"設定...">
 <!ENTITY siteDataSettings.accesskey	"i">
+<!ENTITY siteData1.label		"Cookie とサイトデータ">
+<!ENTITY clearSiteData1.label		"データを消去...">
+<!ENTITY clearSiteData1.accesskey	"l">
+<!ENTITY siteDataSettings1.label	"データを管理...">
+<!ENTITY siteDataSettings1.accesskey	"M">
 <!ENTITY siteDataLearnMoreLink.label	"詳細情報">
 
 <!-- LOCALIZATION NOTE:

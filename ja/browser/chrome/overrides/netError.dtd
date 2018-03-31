@@ -183,15 +183,14 @@ was trying to connect. -->
 
 <!ENTITY certerror.pagetitle1			"安全ではない接続">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation	"このサイトでは、暗号化された通信のみで接続するよう &brandShortName; に指定する HTTP Strict Transport Security (HSTS) が使われています。そのため、この証明書を例外に追加することはできません。">
-
-
-
 <!ENTITY certerror.copyToClipboard.label	"テキストをクリップボードにコピー">
 
 <!ENTITY inadequateSecurityError.title		"接続が安全ではありません">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
 <!ENTITY inadequateSecurityError.longDesc	"<p><span class='hostname'></span> は攻撃に対して脆弱な古いセキュリティ技術を使用しています。攻撃者は保護された情報を簡単に暴露できます。サイトを安全に訪れるには、このウェブサイトの管理者にサーバーの問題を修正してもらう必要があります。</p><p>エラーコード: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY blockedByPolicy.title			"ブロックしたページ">
 
 <!ENTITY prefReset.longDesc			"ネットワークセキュリティの設定がこの問題の原因になっている可能性があります。@@DefaultValue@@に戻しますか？">
 <!ENTITY prefReset.label			"@@RestoreDefaults@@">
