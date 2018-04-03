@@ -105,5 +105,5 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY mobilePromo3.end		" をダウンロードしてモバイル端末と同期しましょう。">
 
-<!ENTITY mobilepromo.singledevice	"その他の端末を接続">
+<!ENTITY mobilepromo.singledevice	"別の端末を接続">
 <!ENTITY mobilepromo.multidevice	"端末を管理">
