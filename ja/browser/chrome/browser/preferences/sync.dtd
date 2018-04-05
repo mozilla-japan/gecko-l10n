@@ -70,15 +70,13 @@ both, to better adapt this sentence to their language.
 <!ENTITY verifiedManage.accesskey	"o">
 <!ENTITY disconnect3.label		"切断...">
 <!ENTITY disconnect3.accesskey		"D">
-<!ENTITY verify.label			"メールアドレス認証">
-<!ENTITY verify.accesskey		"V">
-<!ENTITY forget.label			"このメールアドレスを解除">
-<!ENTITY forget.accesskey		"F">
-
 <!ENTITY resendVerification.label	"認証メールを再送信">
 <!ENTITY resendVerification.accesskey	"d">
 <!ENTITY cancelSetup.label		"セットアップをキャンセル">
 <!ENTITY cancelSetup.accesskey		"p">
+
+<!ENTITY removeAccount.label		"アカウントを削除">
+<!ENTITY removeAccount.accesskey	"R">
 
 <!ENTITY signedOut.caption		"ウェブを持ち歩こう">
 <!ENTITY signedOut.description		"ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。">
@@ -106,3 +104,6 @@ both, to better adapt this sentence to their language.
 <!ENTITY mobilePromo3.iOSLink		"iOS">
 
 <!ENTITY mobilePromo3.end		" をダウンロードしてモバイル端末と同期しましょう。">
+
+<!ENTITY mobilepromo.singledevice	"別の端末を接続">
+<!ENTITY mobilepromo.multidevice	"端末を管理">

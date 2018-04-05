@@ -111,6 +111,8 @@ convenience of Safari and Chrome users on macOS. See bug 1398988. -->
 <!ENTITY pageInfoCmd.label		"ページの情報">
 <!ENTITY pageInfoCmd.accesskey		"I">
 <!ENTITY pageInfoCmd.commandkey		"i">
+<!ENTITY ldbCmd.label			"レイアウトデバッガー">
+<!ENTITY ldbCmd.accesskey		"L">
 <!ENTITY mirrorTabCmd.label		"タブを複製">
 <!ENTITY mirrorTabCmd.accesskey		"m">
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
@@ -125,6 +127,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllTabsCmd.label		"すべてのタブを表示">
 <!ENTITY showAllTabsCmd.accesskey	"A">
 <!ENTITY toggleReaderMode.key		"R">
+
+<!ENTITY toggleReaderMode.win.keycode	"VK_F9">
 
 <!ENTITY fxaSignIn.label		"&syncBrand.shortName.label; にログイン">
 <!ENTITY fxaSignedIn.tooltip		"&syncBrand.shortName.label; 設定を開きます">
@@ -227,6 +231,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.translatedNotificationAnchor.tooltip	"ページ翻訳を管理します">
 <!ENTITY urlbar.emeNotificationAnchor.tooltip		"DRM ソフトウェアを管理します">
 
+<!ENTITY urlbar.midiNotificationAnchor.tooltip		"MIDI パネルを開きます">
+
 <!ENTITY urlbar.cameraBlocked.tooltip			"このウェブサイトでのカメラの共有をブロックしました。">
 <!ENTITY urlbar.microphoneBlocked.tooltip		"このウェブサイトでのマイクの共有をブロックしました。">
 <!ENTITY urlbar.screenBlocked.tooltip			"このウェブサイトでの画面の共有をブロックしました。">
@@ -234,8 +240,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.webNotificationsBlocked.tooltip		"このウェブサイトからの通知をブロックしました。">
 <!ENTITY urlbar.persistentStorageBlocked.tooltip	"このウェブサイトの永続ストレージの使用をブロックしました。">
 <!ENTITY urlbar.popupBlocked.tooltip			"このウェブサイトのポップアップをブロックしました。">
-
 <!ENTITY urlbar.canvasBlocked.tooltip			"このウェブサイトの Canvas データの抽出をブロックしました。">
+
+<!ENTITY urlbar.flashPluginBlocked.tooltip		"このウェブサイトの Adobe Flash プラグインの使用をブロックしました。">
+<!ENTITY urlbar.midiBlocked.tooltip			"このウェブサイトの MIDI へのアクセスをブロックしました。">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip		"履歴を表示します">
 
@@ -380,15 +388,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
-<!ENTITY appMenuRemoteTabs.noclients.title	"同期タブはまだありません">
 <!ENTITY appMenuRemoteTabs.noclients.subtitle	"他の端末のタブを表示しますか？">
 <!ENTITY appMenuRemoteTabs.openprefs.label	"Sync の設定">
+<!ENTITY appMenuRemoteTabs.opensyncprefs.label	"Sync の設定を開く">
 <!ENTITY appMenuRemoteTabs.notsignedin.label	"ログインして、他の端末のタブ一覧を表示する。">
 <!ENTITY appMenuRemoteTabs.unverified.label	"あなたのアカウントは検証する必要があります。">
 <!ENTITY appMenuRemoteTabs.signin.label		"Sync にログイン">
 <!ENTITY appMenuRemoteTabs.managedevices.label	"端末の管理...">
 <!ENTITY appMenuRemoteTabs.sidebar.label	"同期タブサイドバーを表示">
-
 <!ENTITY appMenuRemoteTabs.connectdevice.label	"他の端末を接続">
 
 <!ENTITY appMenuRecentHighlights.label		"最近のハイライト">
@@ -431,6 +438,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY openCmd.commandkey			"l">
 <!ENTITY urlbar.placeholder2			"URL または検索語句を入力します">
+<!ENTITY urlbar.placeholder3			"ここに URL と検索語句を入力します">
 <!ENTITY urlbar.accesskey			"d">
 <!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
 <!ENTITY urlbar.extension.label			"拡張機能:">
@@ -797,7 +805,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.sidebar.label		"同期タブ">
 <!ENTITY syncedTabs.sidebar.noclients.label	"他の端末から Firefox にログインすると、このブラウザーでタブを表示できます。">
-<!ENTITY syncedTabs.sidebar.noclients.title	"同期タブはまだありません">
 <!ENTITY syncedTabs.sidebar.noclients.subtitle	"他の端末のタブを表示しますか？">
 <!ENTITY syncedTabs.sidebar.notsignedin.label	"ログインすると、他の端末のタブの一覧を表示できます。">
 <!ENTITY syncedTabs.sidebar.unverified.label	"あなたのアカウントは検証する必要があります。">
@@ -807,7 +814,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label	"タブの同期をオンにすると、他の端末のタブの一覧を表示できます。">
 <!ENTITY syncedTabs.sidebar.searchPlaceholder	"同期したタブを検索">
-
 <!ENTITY syncedTabs.sidebar.connectAnotherDevice	"他の端末を接続">
 
 <!-- LOCALIZATION NOTE (syncedTabs.context.open.accesskey,
@@ -977,11 +983,15 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2		"再起動して &brandShorterName; を更新">
 
 <!ENTITY newTabControlled.message			"拡張機能が@@NewTab@@を開いたときのページを変更しています。この変更が望ましくない場合は、設定を元に戻すことができます。">
+
 <!ENTITY newTabControlled.header.message		"@@NewTab@@が変更されました。">
 <!ENTITY newTabControlled.keepButton.label		"変更を維持する">
 <!ENTITY newTabControlled.keepButton.accesskey		"K">
 <!ENTITY newTabControlled.restoreButton.label		"設定を元に戻す">
 <!ENTITY newTabControlled.restoreButton.accesskey	"R">
+
+<!ENTITY newTabControlled.disableButton.label		"拡張機能を無効化">
+<!ENTITY newTabControlled.disableButton.accesskey	"D">
 
 <!ENTITY pageActionButton.tooltip		"ページ操作">
 <!ENTITY pageAction.addToUrlbar.label		"アドレスバーに追加">
@@ -1000,3 +1010,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      used as a textual label for the indicator used by assistive technology
      users. -->
 <!ENTITY accessibilityIndicator.tooltip		"アクセシビリティ機能が有効です">
+
+<!-- LOCALIZATION NOTE: (addonPostInstallMessage.label):
+     The first <image> tag is replaced with the icon for the add-ons menu.
+     The second <image> tag is replaced with the icon for the toolbar menu. -->
+<!ENTITY addonPostInstallMessage.label		"<image class='addon-toolbar-icon'/> メニューの <image class='addon-addon-icon'/> をクリックすると、アドオンを管理できます。">
