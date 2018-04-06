@@ -347,3 +347,176 @@ containers-preferences-button =
     .label = 設定
 containers-remove-button =
     .label = 削除
+
+## Privacy Section
+
+privacy-header = ブラウザープライバシー
+
+## Privacy Section - Forms
+
+forms-header = フォームとパスワード
+forms-remember-logins =
+    .label = ウェブサイトのログイン情報とパスワードを保存する
+    .accesskey = R
+forms-exceptions =
+    .label = 例外サイト...
+    .accesskey = x
+forms-saved-logins =
+    .label = 保存されているログイン情報...
+    .accesskey = L
+forms-master-pw-use =
+    .label = マスターパスワードを使用する
+    .accesskey = U
+forms-master-pw-change =
+    .label = マスターパスワードを変更...
+    .accesskey = M
+
+## Privacy Section - History
+
+history-header = 履歴
+history-dontremember-description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
+history-private-browsing-permanent =
+    .label = 常にプライベートブラウジングモード
+    .accesskey = p
+history-remember-option =
+    .label = 表示したページとファイルのダウンロードの履歴を残す
+    .accesskey = b
+history-remember-search-option =
+    .label = 検索やフォームの入力履歴を記憶させる
+    .accesskey = f
+history-clear-on-close-option =
+    .label = { -brand-short-name } の終了時に履歴を消去する
+    .accesskey = r
+history-clear-on-close-settings =
+    .label = 設定...
+    .accesskey = t
+
+## Privacy Section - Site Data
+
+sitedata-learn-more = 詳細情報
+sitedata-keep-until = Cookie を保存する期間
+    .accesskey = u
+sitedata-accept-third-party-always-option =
+    .label = 常に許可
+sitedata-accept-third-party-visited-option =
+    .label = 訪問したサイトのみ許可
+sitedata-accept-third-party-never-option =
+    .label = 常に拒否
+sitedata-cookies-exceptions =
+    .label = 例外サイト...
+    .accesskey = E
+
+## Privacy Section - Address Bar
+
+addressbar-header = アドレスバー
+addressbar-suggest = アドレスバーの使用時に表示する候補
+addressbar-locbar-history-option =
+    .label = ブラウジング履歴
+    .accesskey = H
+addressbar-locbar-bookmarks-option =
+    .label = ブックマーク
+    .accesskey = k
+addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
+
+## Privacy Section - Tracking
+
+tracking-header = トラッキング防止
+# This string is displayed if privacy.trackingprotection.ui.enabled is set to false.
+# This currently happens on the release and beta channel.
+tracking-pbm-label = プライベートブラウジングモードでトラッキング防止を使用して既知の追跡者をブロックする
+    .accesskey = v
+tracking-change-block-list =
+    .label = ブロックリストを変更...
+    .accesskey = C
+
+## Privacy Section - Permissions
+
+permissions-header = 許可設定
+permissions-location = 位置情報
+permissions-location-settings =
+    .label = 設定...
+    .accesskey = t
+permissions-camera = カメラ
+permissions-camera-settings =
+    .label = 設定...
+    .accesskey = t
+permissions-microphone = マイク
+permissions-microphone-settings =
+    .label = 設定...
+    .accesskey = t
+permissions-notification = 通知
+permissions-notification-settings =
+    .label = 設定...
+    .accesskey = t
+permissions-notification-link = 詳細情報
+permissions-notification-pause =
+    .label = { -brand-short-name } を再起動するまで通知を一時停止
+    .accesskey = n
+permissions-block-popups =
+    .label = ポップアップウィンドウをブロックする
+    .accesskey = B
+permissions-block-popups-exceptions =
+    .label = 許可サイト...
+    .accesskey = E
+permissions-addon-install-warning =
+    .label = アドオンのインストールを求められたときに警告する
+    .accesskey = W
+permissions-addon-exceptions =
+    .label = 許可サイト...
+    .accesskey = E
+permissions-a11y-privacy-checkbox =
+    .label = アクセシビリティサービスによるブラウザーへのアクセスを止める
+    .accesskey = a
+permissions-a11y-privacy-link = 詳細情報
+
+## Privacy Section - Data Collection
+
+collection-header = { -brand-short-name } のデータ収集と利用について
+collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
+collection-privacy-notice = 個人情報保護方針
+collection-health-report =
+    .label = { -brand-short-name } が技術的な対話データを { -vendor-short-name } へ送信することを許可する
+    .accesskey = r
+collection-health-report-link = 詳細情報
+# This message is displayed above disabled data sharing options in developer builds
+# or builds with no Telemetry support available.
+collection-health-report-disabled = このビルド設定ではヘルスレポートが無効化されています
+collection-backlogged-crash-reports-link = 詳細情報
+
+## Privacy Section - Security
+##
+## It is important that wording follows the guidelines outlined on this page:
+## https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
+
+security-header = セキュリティ
+security-browsing-protection = 詐欺コンテンツと危険なソフトウェアからの防護
+security-enable-safe-browsing =
+    .label = 危険な詐欺コンテンツをブロックする
+    .accesskey = B
+security-enable-safe-browsing-link = 詳細情報
+security-block-downloads =
+    .label = 危険なファイルのダウンロードをブロックする
+    .accesskey = D
+security-block-uncommon-software =
+    .label = 不要な危険ソフトウェアを警告する
+    .accesskey = C
+
+## Privacy Section - Certificates
+
+certs-header = 証明書
+certs-personal-label = サーバーが個人証明書を要求したとき
+certs-select-auto-option =
+    .label = 自動的に選択する
+    .accesskey = S
+certs-select-ask-option =
+    .label = 毎回自分で選択する
+    .accesskey = A
+certs-enable-ocsp =
+    .label = OCSP レスポンダーサーバーに問い合わせて証明書の現在の正当性を確認する
+    .accesskey = Q
+certs-view =
+    .label = 証明書を表示...
+    .accesskey = C
+certs-devices =
+    .label = セキュリティデバイス...
+    .accesskey = D
