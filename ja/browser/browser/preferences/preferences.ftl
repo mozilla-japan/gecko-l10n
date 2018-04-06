@@ -416,15 +416,32 @@ addressbar-locbar-history-option =
 addressbar-locbar-bookmarks-option =
     .label = ブックマーク
     .accesskey = k
+addressbar-locbar-openpage-option =
+    .label = 開いているタブ
+    .accesskey = O
 addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
 
 ## Privacy Section - Tracking
 
 tracking-header = トラッキング防止
+tracking-description = トラッキング防止は、複数のウェブサイトにまたがるユーザーのブラウジングデータを収集するオンラインの追跡者をブロックします。 <a>トラッキング防止とプライバシーの詳細情報</a>
+tracking-mode-label = トラッキング防止を使用して既知の追跡者をブロックする
+tracking-mode-always =
+    .label = 常に
+    .accesskey = y
+tracking-mode-private =
+    .label = プライベートウィンドウのみ
+    .accesskey = l
+tracking-mode-never =
+    .label = ブロックしない
+    .accesskey = n
 # This string is displayed if privacy.trackingprotection.ui.enabled is set to false.
 # This currently happens on the release and beta channel.
 tracking-pbm-label = プライベートブラウジングモードでトラッキング防止を使用して既知の追跡者をブロックする
     .accesskey = v
+tracking-exceptions =
+    .label = 例外...
+    .accesskey = x
 tracking-change-block-list =
     .label = ブロックリストを変更...
     .accesskey = C
