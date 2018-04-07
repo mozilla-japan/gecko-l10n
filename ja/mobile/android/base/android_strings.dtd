@@ -421,7 +421,6 @@
      crashReporterDesc.label). -->
 <!ENTITY datareporting_fhr_title "&brandShortName; ヘルスレポート">
 <!ENTITY datareporting_fhr_summary2 "ブラウザーの健康状態を &vendorShortName; と共有し、ブラウザーのパフォーマンス状態の確認に役立ちます">
-<!ENTITY datareporting_abouthr_title "ヘルスレポートを見る">
 <!ENTITY datareporting_telemetry_title "パフォーマンス情報の送信">
 <!ENTITY datareporting_telemetry_summary "&brandShortName; をよりよいものにするため、パフォーマンス情報、使用状況、ハードウェア情報、設定したデータを &vendorShortName; と共有します">
 <!ENTITY datareporting_crashreporter_summary "&vendorShortName; がブラウザーを安定して安全なものにすることを助けるため、&brandShortName; がクラッシュレポートを送信します">
@@ -453,6 +452,7 @@
 <!ENTITY share_image_failed "この画像を共有できません">
 <!ENTITY save_as_pdf "PDF として保存">
 <!ENTITY print "@@Print@@">
+<!ENTITY view_page_source "ページのソースを表示">
 <!ENTITY find_in_page "ページ内検索">
 <!ENTITY desktop_mode "PC サイトモード">
 <!ENTITY page "ページ">
@@ -807,6 +807,9 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      the Android version of this device. the formatS1 is replaced by the CPU ABI (e.g., ARMv7); the formatS2 is
      replaced by the Android OS version (e.g., 14)-->
 <!ENTITY unsupported_sdk_version "この &brandShortName; は現在の端末 (&formatS1;, &formatS2;) では動作しません。正しいバージョンのものをダウンロードしてください。">
+
+<!-- LOCALIZATION NOTE(corrupt_apk): This notification is shown if corruption has been detected on startup and the user has to reinstall Firefox -->
+<!ENTITY corrupt_apk "&brandShortName; を開くことができません。再インストールをお試しください。">
 
 <!ENTITY eol_notification_title2 "&brandShortName; はこれ以上更新されません">
 <!ENTITY eol_notification_summary "タップして詳細を表示">
