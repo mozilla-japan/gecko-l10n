@@ -886,4 +886,5 @@ calendar                 9681:598956653955   2018-03-09     mar             sync
 mail, editor/ui          9740:3733d96cffeb   2018-03-20     mar             sync mail, editor/ui (includes 59.0)
 mail                     9745:cbd8ff01578f   2018-03-20     mar             sync mail
 browser                  9768:1abf97aaa126   2018-03-23     hATrayflood     sync browser
-mobile                   9804:8c84c71ba45f   2018-04-07     kechol          sync mobile
+mobile                   9804:8c84c71ba45f   2018-04-05     kechol          sync mobile
+calendar                 9804:8c84c71ba45f   2018-04-05     mar             sync calendar

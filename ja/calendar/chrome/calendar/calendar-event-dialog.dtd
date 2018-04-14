@@ -398,6 +398,7 @@
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label			"一般">
 <!ENTITY read.only.title.label				"件名:">
+<!ENTITY read.only.calendar.label			"カレンダー:">
 <!ENTITY read.only.event.start.label			"開始日時:">
 <!ENTITY read.only.task.start.label			"着手日時:">
 <!ENTITY read.only.event.end.label			"終了日時:">
@@ -416,3 +417,17 @@
 <!ENTITY read.only.attendees.label			"参加者">
 <!ENTITY read.only.description.label			"詳細">
 <!ENTITY read.only.link.label				"関連リンク">
+
+<!-- Summary dialog -->
+<!ENTITY summary.dialog.saveclose.label			"保存して閉じる">
+<!ENTITY summary.dialog.saveclose.tooltiptext		"変更を保存し参加状態を変更せずに@@Window@@を閉じ、返答を送信します">
+<!ENTITY summary.dialog.accept.label			"承諾">
+<!ENTITY summary.dialog.accept.tooltiptext		"招待を承諾します">
+<!ENTITY summary.dialog.tentative.label			"仮承諾">
+<!ENTITY summary.dialog.tentative.tooltiptext		"招待を承諾しますが未確定です">
+<!ENTITY summary.dialog.decline.label			"辞退">
+<!ENTITY summary.dialog.decline.tooltiptext		"招待を辞退します">
+<!ENTITY summary.dialog.dontsend.label			"返答を送信しない">
+<!ENTITY summary.dialog.dontsend.tooltiptext		"返答を主催者へ送信せずに参加状態を変更し、@@Window@@を閉じます">
+<!ENTITY summary.dialog.send.label			"今すぐ返答を送信">
+<!ENTITY summary.dialog.send.tooltiptext		"返答を主催者へ送信して@@Window@@を閉じます">
