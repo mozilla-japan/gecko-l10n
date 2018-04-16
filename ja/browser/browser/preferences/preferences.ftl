@@ -456,6 +456,7 @@ forms-master-pw-change =
 ## Privacy Section - History
 
 history-header = 履歴
+history-remember-description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
 history-dontremember-description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
 history-private-browsing-permanent =
     .label = 常にプライベートブラウジングモード
@@ -472,18 +473,36 @@ history-clear-on-close-option =
 history-clear-on-close-settings =
     .label = 設定...
     .accesskey = t
+history-clear-button =
+    .label = 履歴を消去...
+    .accesskey = s
 
 ## Privacy Section - Site Data
 
+sitedata-header = Cookie とサイトデータ
 sitedata-learn-more = 詳細情報
+sitedata-accept-cookies-option =
+    .label = ウェブサイトから送られてきた Cookie とサイトデータを保存する (推奨)
+    .accesskey = A
+sitedata-block-cookies-option =
+    .label = Cookie とサイトデータをブロック (ウェブサイトが動作しない可能性があります)
+    .accesskey = B
 sitedata-keep-until = Cookie を保存する期間
     .accesskey = u
+sitedata-accept-third-party-desc = サードパーティの Cookie とサイトデータを保存
+    .accesskey = y
 sitedata-accept-third-party-always-option =
     .label = 常に許可
 sitedata-accept-third-party-visited-option =
     .label = 訪問したサイトのみ許可
 sitedata-accept-third-party-never-option =
     .label = 常に拒否
+sitedata-clear =
+    .label = データを消去...
+    .accesskey = l
+sitedata-settings =
+    .label = データを管理...
+    .accesskey = M
 sitedata-cookies-exceptions =
     .label = 例外サイト...
     .accesskey = E
@@ -580,6 +599,13 @@ collection-health-report-link = 詳細情報
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
 collection-health-report-disabled = このビルド設定ではヘルスレポートが無効化されています
+collection-browser-errors =
+    .label = { -brand-short-name } がブラウザーエラーレポート (エラーメッセージ含む) を { -vendor-short-name } へ送信することを許可する
+    .accesskey = b
+collection-browser-errors-link = 詳細情報
+collection-backlogged-crash-reports =
+    .label = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する
+    .accesskey = c
 collection-backlogged-crash-reports-link = 詳細情報
 
 ## Privacy Section - Security
