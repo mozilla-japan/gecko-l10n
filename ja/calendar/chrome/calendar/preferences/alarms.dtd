@@ -18,7 +18,6 @@
 <!ENTITY pref.calendar.alarms.sound.play.accessKey "P">
 <!ENTITY pref.showalarmbox "アラームボックスを表示する" >
 <!ENTITY pref.calendar.alarms.showAlarmBox.accessKey "x">
-<!ENTITY pref.missedalarms "失敗したアラームを表示する" >
 <!ENTITY pref.missedalarms2 "書き込み可能カレンダーの失敗したアラームを表示する">
 <!ENTITY pref.calendar.alarms.missedAlarms.accessKey "m">
 <!ENTITY pref.calendar.alarms.defaults.label "@@Default-@@アラーム設定">
