@@ -38,10 +38,10 @@
 <!ENTITY  aboutDevtools.enable.keyShortcutMessage
           "開発ツールのショートカットを有効にしました。誤操作だった場合はこのタブを閉じてください。">
 
-<!-- LOCALIZATION NOTE (aboutDevtools.enable.menuMessage): Message displayed when users
+<!-- LOCALIZATION NOTE (aboutDevtools.enable.menuMessage2): Message displayed when users
   -  clicked on a "Enable Developer Tools" menu item. -->
-<!ENTITY  aboutDevtools.enable.menuMessage
-          "インスペクターやデバッガーなどのツールで、HTML や CSS、JavaScript の調査や編集、デバッグができます。">
+<!ENTITY  aboutDevtools.enable.menuMessage2
+          "インスペクターやデバッガーなどのツールで、あなたのサイトの HTML や CSS、JavaScript が完璧になります。">
 
 <!-- LOCALIZATION NOTE (aboutDevtools.enable.commonMessage): Generic message displayed for
   -  all possible entry points (keyshortcut, menu item etc…). -->
@@ -54,7 +54,7 @@
 <!ENTITY  aboutDevtools.enable.learnMoreLink "開発ツールの詳細">
 
 <!ENTITY  aboutDevtools.enable.enableButton "Firefox 開発ツールを有効にする">
-<!ENTITY  aboutDevtools.enable.closeButton "このページを閉じる">
+<!ENTITY  aboutDevtools.enable.closeButton2 "このタブを閉じる">
 
 <!ENTITY  aboutDevtools.welcome.title "Firefox 開発ツールにようこそ！">
 
