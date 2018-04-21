@@ -37,6 +37,13 @@ search-input-box =
             [windows] オプションを検索
            *[other] 設定を検索
         }
+
+policies-notice =
+    { PLATFORM() ->
+        [windows] あなたの所属組織が一部のオプションの変更を制限しています。
+       *[other] あなたの所属組織が一部の設定の変更を制限しています。
+    }
+
 pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
@@ -62,6 +69,7 @@ feature-enable-requires-restart = この機能を有効にするには、{ -bran
 feature-disable-requires-restart = この機能を無効にするには、{ -brand-short-name } の再起動が必要です
 should-restart-title = { -brand-short-name } を再起動
 should-restart-ok = { -brand-short-name } を今すぐ再起動
+cancel-no-restart-button = キャンセル
 restart-later = 後で再起動
 
 ## Preferences UI Search Results
@@ -265,6 +273,9 @@ browsing-search-on-start-typing =
 ## General Section - Proxy
 
 network-proxy-title = ネットワークプロキシ
+
+network-proxy-connection-learn-more = 詳細
+
 network-proxy-connection-settings =
     .label = 接続設定...
     .accesskey = e
