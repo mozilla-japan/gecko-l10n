@@ -61,6 +61,8 @@ can reach it easily. -->
 <!ENTITY  closeTab.label		"タブを閉じる">
 <!ENTITY  closeTab.accesskey		"c">
 
+<!ENTITY  hiddenTabs.label		"隠しタブ">
+
 <!ENTITY  listAllTabs.label		"タブを一覧表示します">
 
 <!ENTITY tabCmd.label			"@@NewTab@@"><!-- 表示カ所によりアクセスキーが異なる -->
@@ -222,6 +224,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip	"データを永続ストレージに格納します">
 <!ENTITY urlbar.remoteControlNotificationAnchor.tooltip		"ブラウザーがリモート制御下にあります">
 
+<!ENTITY urlbar.webAuthnAnchor.tooltip                    "Web Authentication パネルを開きます">
+
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip	"カメラとマイクの共有を管理します">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip	"マイクの共有を管理します">
 <!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip	"@@Window@@と画面の共有を管理します">
@@ -268,7 +272,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addBookmarksMenu.label			"ブックマークメニューをツールバーに追加">
 <!ENTITY removeBookmarksMenu.label		"ブックマークメニューをツールバーから削除">
 
-<!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
+<!-- LOCALIZATION NOTE (bookmarksGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
 <!ENTITY bookmarksGtkCmd.commandkey		"o">
@@ -299,6 +303,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY inspectContextMenu.label	"要素を調査">
 <!ENTITY inspectContextMenu.accesskey	"Q">
+
+<!ENTITY inspectA11YContextMenu.label	"アクセシビリティプロパティを調査">
 
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
@@ -385,7 +391,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label	"タブの同期をオンにすると、あなたの他の端末のタブ一覧が表示されます。">
-<!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.subtitle): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
 <!ENTITY appMenuRemoteTabs.noclients.subtitle	"他の端末のタブを表示しますか？">
@@ -993,6 +999,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY newTabControlled.disableButton.label		"拡張機能を無効化">
 <!ENTITY newTabControlled.disableButton.accesskey	"D">
 
+<!ENTITY homepageControlled.message			"拡張機能がホームページを変更しています。この変更が望ましくない場合は、設定を元に戻すことができます。">
+<!ENTITY homepageControlled.header.message		"ホームページが変更されました。">
+<!ENTITY homepageControlled.keepButton.label		"変更を維持する">
+<!ENTITY homepageControlled.keepButton.accesskey	"K">
+<!ENTITY homepageControlled.disableButton.label		"拡張機能を無効化">
+<!ENTITY homepageControlled.disableButton.accesskey	"D">
+
 <!ENTITY pageActionButton.tooltip		"ページ操作">
 <!ENTITY pageAction.addToUrlbar.label		"アドレスバーに追加">
 <!ENTITY pageAction.removeFromUrlbar.label	"アドレスバーから削除">
@@ -1002,6 +1015,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY pageAction.sendTabToDevice.label	"タブを端末へ送信">
 <!ENTITY sendToDevice.syncNotReady.label	"端末を同期しています...">
+
+<!ENTITY pageAction.shareUrl.label		"共有">
 
 <!ENTITY libraryButton.tooltip			"履歴や保存したブックマークなどを表示します">
 
