@@ -23,6 +23,7 @@
 <!ENTITY aboutNetworking.sent			"送信データ量">
 <!ENTITY aboutNetworking.received		"受信データ量">
 <!ENTITY aboutNetworking.family			"系統">
+<!ENTITY aboutNetworking.trr			"TRR">
 <!ENTITY aboutNetworking.addresses		"アドレス">
 <!ENTITY aboutNetworking.expires		"期限 (秒)">
 <!ENTITY aboutNetworking.messagesSent		"送信メッセージ">

@@ -3,11 +3,9 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY addons.windowTitle			"アドオンマネージャー">
 
-<!ENTITY search.placeholder			"アドオンを検索">
-
 <!ENTITY search.placeholder2			"addons.mozilla.org を検索">
 <!ENTITY search.buttonlabel			"検索">
-<!-- LOCALIZATION NOTE (search.commandKey):
+<!-- LOCALIZATION NOTE (search.commandkey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey			"f">
 
@@ -16,7 +14,6 @@
 <!ENTITY listEmpty.availableUpdates.label	"更新は見つかりませんでした">
 <!ENTITY listEmpty.recentUpdates.label		"最近更新されたアドオンはありません">
 <!ENTITY listEmpty.findUpdates.label		"更新を確認">
-<!ENTITY listEmpty.search.label			"該当するアドオンは見つかりませんでした">
 <!ENTITY listEmpty.button.label			"アドオンについて知る">
 <!ENTITY installAddonFromFile.label		"ファイルからアドオンをインストール...">
 <!ENTITY installAddonFromFile.accesskey		"I">
@@ -24,6 +21,7 @@
 
 <!ENTITY getThemes.description			"ブラウザーの外観をお好みに変更しませんか？">
 <!ENTITY getThemes.learnMore			"数多くのテーマの中からお選びいただけます。">
+
 
 <!ENTITY showUnsignedExtensions.button.label	"一部の拡張機能を検証できませんでした">
 <!ENTITY showAllExtensions.button.label		"すべての拡張機能を表示">
@@ -40,7 +38,6 @@
 <!ENTITY warning.updatesecurity.enable.tooltip		"アドオンの更新のセキュリティ確認を有効化します">
 
 <!-- categories / views -->
-<!ENTITY view.search.label			"検索">
 <!ENTITY view.discover.label			"アドオン入手">
 <!ENTITY view.recentUpdates.label		"最近の更新">
 <!ENTITY view.availableUpdates.label		"更新可能">
@@ -173,16 +170,6 @@
 <!ENTITY sort.name.tooltip			"リストを名前順に並べ替えます">
 <!ENTITY sort.dateUpdated.label			"更新日順">
 <!ENTITY sort.dateUpdated.tooltip		"リストを更新日順に並べ替えます">
-<!ENTITY sort.relevance.label			"関連順">
-<!ENTITY sort.relevance.tooltip			"リストを関連順に並べ替えます">
-<!ENTITY sort.price.label			"価格順">
-<!ENTITY sort.price.tooltip			"リストを価格順に並べ替えます">
-
-<!ENTITY search.filter2.label			"表示:">
-<!ENTITY search.filter2.installed.label		"インストールされたアドオン">
-<!ENTITY search.filter2.installed.tooltip	"インストールされたアドオンを表示します">
-<!ENTITY search.filter2.available.label		"利用可能なアドオン">
-<!ENTITY search.filter2.available.tooltip	"インストール可能なアドオンを表示します">
 
 <!ENTITY addon.homepage				"ホームページ">
 <!ENTITY addon.details.label			"詳細">

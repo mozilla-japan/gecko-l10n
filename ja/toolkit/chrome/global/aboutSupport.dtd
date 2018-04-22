@@ -40,7 +40,6 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive		"アクティブ">
 <!ENTITY aboutSupport.experimentEndDate		"終了日">
 <!ENTITY aboutSupport.experimentHomepage	"ホームページ">
-
 <!ENTITY aboutSupport.experimentBranch		"ブランチ">
 
 <!ENTITY aboutSupport.appBasicsTitle		"アプリケーション基本情報">
@@ -75,6 +74,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport	"マルチプロセス@@Window@@">
 
 <!ENTITY aboutSupport.appBasicsProcessCount	"ウェブコンテンツプロセス">
+
+<!ENTITY aboutSupport.enterprisePolicies	"エンタプライズポリシー">
 
 <!ENTITY aboutSupport.appBasicsKeyGoogle	"Google キー">
 <!ENTITY aboutSupport.appBasicsKeyMozilla	"Mozilla Location Service キー">
