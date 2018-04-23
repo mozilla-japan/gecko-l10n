@@ -171,6 +171,9 @@ choose-button =
 translate-web-pages =
     .label = ウェブページを翻訳
     .accesskey = T
+# The <img> element is replaced by the logo of the provider
+# used to provide machine translations for web pages.
+translate-attribution = 翻訳:  <img data-l10n-name="logo"/>
 translate-exceptions =
     .label = 例外...
     .accesskey = x
@@ -377,6 +380,15 @@ sync-signedout-account-create = アカウントをお持ちでない方は作成
 sync-signedout-account-signin =
     .label = ログイン...
     .accesskey = I
+# This message contains two links and two icon images.
+#   `<img data-l10n-name="android-icon"/>` - Android logo icon
+#   `<a data-l10n-name="android-link">` - Link to Android Download
+#   `<img data-l10n-name="ios-icon">` - iOS logo icon
+#   `<a data-l10n-name="ios-link">` - Link to iOS Download
+#
+# They can be moved within the sentence as needed to adapt
+# to your language, but should not be changed or translated.
+sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> または <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> をダウンロードしてモバイル端末と同期しましょう。
 
 ## Sync Section - Signed in
 
@@ -472,6 +484,23 @@ forms-master-pw-change =
 ## Privacy Section - History
 
 history-header = 履歴
+# This label is followed, on the same line, by a dropdown list of options
+# (Remember history, etc.).
+# In English it visually creates a full sentence, e.g.
+# "Firefox will" + "Remember history".
+#
+# If this doesn't work for your language, you can translate this message:
+#   - Simply as "Firefox", moving the verb into each option.
+#     This will result in "Firefox" + "Will remember history", etc.
+#   - As a stand-alone message, for example "Firefox history settings:".
+history-remember-label = { -brand-short-name } に
+    .accesskey = w
+history-remember-option-all =
+    .label = 履歴を記憶させる
+history-remember-option-never =
+    .label = 履歴を一切記憶させない
+history-remember-option-custom =
+    .label = 記憶させる履歴を詳細設定する
 history-remember-description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
 history-dontremember-description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
 history-private-browsing-permanent =
