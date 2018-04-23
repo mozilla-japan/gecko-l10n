@@ -75,13 +75,6 @@ restart-later = 後で再起動
 ## Preferences UI Search Results
 
 search-results-header = 検索結果
-# `<span></span>` will be replaced by the search term.
-search-results-sorry-message =
-    { PLATFORM() ->
-        [windows] “<span></span>” オプションについての検索結果はありません。
-       *[other] “<span></span>” 設定についての検索結果はありません。
-    }
-search-results-need-help = 助けが必要な方は、<a>{ -brand-short-name } サポート</a> をご利用ください
 
 ## General Section
 
@@ -448,9 +441,6 @@ privacy-header = ブラウザープライバシー
 ## Privacy Section - Forms
 
 forms-header = フォームとパスワード
-forms-remember-logins =
-    .label = ウェブサイトのログイン情報とパスワードを保存する
-    .accesskey = R
 forms-exceptions =
     .label = 例外サイト...
     .accesskey = x
@@ -536,7 +526,6 @@ addressbar-suggestions-settings = 検索エンジンの検索候補の設定を�
 ## Privacy Section - Tracking
 
 tracking-header = トラッキング防止
-tracking-description = トラッキング防止は、複数のウェブサイトにまたがるユーザーのブラウジングデータを収集するオンラインの追跡者をブロックします。 <a>トラッキング防止とプライバシーの詳細情報</a>
 tracking-mode-label = トラッキング防止を使用して既知の追跡者をブロックする
 tracking-mode-always =
     .label = 常に
