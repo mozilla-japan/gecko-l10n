@@ -142,6 +142,12 @@ containers-disable-alert-title = すべてのコンテナータブを閉じま�
 containers-disable-alert-desc = コンテナータブを無効にすると、{ $tabCount } 個のコンテナータブが閉じられます。コンテナータブを無効にしますか？
 containers-disable-alert-ok-button = { $tabCount } 個のコンテナータブを閉じる
 containers-disable-alert-cancel-button = このままにする
+containers-remove-alert-title = このコンテナーを削除しますか？
+# Variables:
+#   $count (Number) - Number of tabs that will be closed.
+containers-remove-alert-msg = このコンテナーを削除すると { $count } 個のコンテナータブが閉じられます。このコンテナーを削除してもよろしいですか？
+containers-remove-ok-button = このコンテナーを削除する
+containers-remove-cancel-button = 削除しない
 
 ## General Section - Language & Appearance
 
