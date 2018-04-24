@@ -11,7 +11,7 @@
 -->
 <!ENTITY update.checkForUpdatesButton.label	"ソフトウェアの更新を確認">
 <!ENTITY update.checkForUpdatesButton.accesskey	"C">
-<!ENTITY update.updateButton.label3		"再起動して &brandShortName; を更新">
+<!ENTITY update.updateButton.label3		"再起動して &brandShorterName; を更新">
 <!ENTITY update.updateButton.accesskey		"R">
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly builds. It is only shown in this version. -->
