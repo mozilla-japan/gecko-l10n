@@ -70,7 +70,7 @@
 <!ENTITY  securityView.privacy.viewCookies              "Cookie を表示...">
 <!ENTITY  securityView.privacy.viewCookies.accessKey    "k">
 <!ENTITY  securityView.privacy.siteData                 "このサイトはコンピューターに情報を保存しているか">
-<!ENTITY  securityView.privacy.clearSiteData            "Cookieとサイトデータを消去">
+<!ENTITY  securityView.privacy.clearSiteData            "Cookie とサイトデータを消去">
 <!ENTITY  securityView.privacy.clearSiteData.accessKey  "C">
 <!ENTITY  securityView.privacy.passwords                "このサイトのパスワードを保存しているか">
 <!ENTITY  securityView.privacy.viewPasswords            "パスワードを表示..."><!-- (^^; デザイン上このボタンラベルは短く -->
