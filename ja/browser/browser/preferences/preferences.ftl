@@ -37,6 +37,13 @@ search-input-box =
             [windows] オプションを検索
            *[other] 設定を検索
         }
+
+policies-notice =
+    { PLATFORM() ->
+        [windows] あなたの所属組織が一部のオプションの変更を制限しています。
+       *[other] あなたの所属組織が一部の設定の変更を制限しています。
+    }
+
 pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
@@ -62,18 +69,19 @@ feature-enable-requires-restart = この機能を有効にするには、{ -bran
 feature-disable-requires-restart = この機能を無効にするには、{ -brand-short-name } の再起動が必要です
 should-restart-title = { -brand-short-name } を再起動
 should-restart-ok = { -brand-short-name } を今すぐ再起動
+cancel-no-restart-button = キャンセル
 restart-later = 後で再起動
 
 ## Preferences UI Search Results
 
 search-results-header = 検索結果
-# `<span></span>` will be replaced by the search term.
-search-results-sorry-message =
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message =
     { PLATFORM() ->
-        [windows] “<span></span>” オプションについての検索結果はありません。
-       *[other] “<span></span>” 設定についての検索結果はありません。
+        [windows] “<span data-l10n-name="query"></span>” オプションについての検索結果はありません。
+       *[other] “<span data-l10n-name="query"></span>” 設定についての検索結果はありません。
     }
-search-results-need-help = 助けが必要な方は、<a>{ -brand-short-name } サポート</a> をご利用ください
+search-results-help-link = 助けが必要な方は、<a data-l10n-name="url">{ -brand-short-name } サポート</a> をご利用ください
 
 ## General Section
 
@@ -134,6 +142,12 @@ containers-disable-alert-title = すべてのコンテナータブを閉じま�
 containers-disable-alert-desc = コンテナータブを無効にすると、{ $tabCount } 個のコンテナータブが閉じられます。コンテナータブを無効にしますか？
 containers-disable-alert-ok-button = { $tabCount } 個のコンテナータブを閉じる
 containers-disable-alert-cancel-button = このままにする
+containers-remove-alert-title = このコンテナーを削除しますか？
+# Variables:
+#   $count (Number) - Number of tabs that will be closed.
+containers-remove-alert-msg = このコンテナーを削除すると { $count } 個のコンテナータブが閉じられます。このコンテナーを削除してもよろしいですか？
+containers-remove-ok-button = このコンテナーを削除する
+containers-remove-cancel-button = 削除しない
 
 ## General Section - Language & Appearance
 
@@ -157,6 +171,9 @@ choose-button =
 translate-web-pages =
     .label = ウェブページを翻訳
     .accesskey = T
+# The <img> element is replaced by the logo of the provider
+# used to provide machine translations for web pages.
+translate-attribution = 翻訳:  <img data-l10n-name="logo"/>
 translate-exceptions =
     .label = 例外...
     .accesskey = x
@@ -203,6 +220,7 @@ play-drm-content-learn-more = 詳細情報
 update-application-title = { -brand-short-name } の更新
 update-application-description = 最高のパフォーマンスと安定性、セキュリティを提供するため { -brand-short-name } を最新の状態に保ちます。
 update-application-info = バージョン { $version } <a>更新情報</a>
+update-application-version = バージョン { $version } <a data-l10n-name="learn-more">更新情報</a>
 update-history =
     .label = 更新履歴を表示...
     .accesskey = p
@@ -238,6 +256,7 @@ performance-limit-content-process-option = コンテンツプロセス数の制�
     .accesskey = L
 performance-limit-content-process-enabled-desc = コンテンツプロセスを増やすと、複数タブの使用時にパフォーマンスが向上しますが、メモリーを多く消費します。
 performance-limit-content-process-disabled-desc = コンテンツプロセスの数はマルチプロセスの { -brand-short-name } でしか変更できません。 <a>マルチプロセスが有効になっているか確認してください</a>
+performance-limit-content-process-blocked-desc = コンテンツプロセスの数はマルチプロセスの { -brand-short-name } でしか変更できません。 <a data-l10n-name="learn-more">マルチプロセスが有効になっているか確認してください</a>
 # Variables:
 #   $num - default value of the `dom.ipc.processCount` pref.
 performance-default-content-process-count =
@@ -265,6 +284,9 @@ browsing-search-on-start-typing =
 ## General Section - Proxy
 
 network-proxy-title = ネットワークプロキシ
+
+network-proxy-connection-learn-more = 詳細
+
 network-proxy-connection-settings =
     .label = 接続設定...
     .accesskey = e
@@ -358,6 +380,15 @@ sync-signedout-account-create = アカウントをお持ちでない方は作成
 sync-signedout-account-signin =
     .label = ログイン...
     .accesskey = I
+# This message contains two links and two icon images.
+#   `<img data-l10n-name="android-icon"/>` - Android logo icon
+#   `<a data-l10n-name="android-link">` - Link to Android Download
+#   `<img data-l10n-name="ios-icon">` - iOS logo icon
+#   `<a data-l10n-name="ios-link">` - Link to iOS Download
+#
+# They can be moved within the sentence as needed to adapt
+# to your language, but should not be changed or translated.
+sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> または <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> をダウンロードしてモバイル端末と同期しましょう。
 
 ## Sync Section - Signed in
 
@@ -437,9 +468,6 @@ privacy-header = ブラウザープライバシー
 ## Privacy Section - Forms
 
 forms-header = フォームとパスワード
-forms-remember-logins =
-    .label = ウェブサイトのログイン情報とパスワードを保存する
-    .accesskey = R
 forms-exceptions =
     .label = 例外サイト...
     .accesskey = x
@@ -456,6 +484,23 @@ forms-master-pw-change =
 ## Privacy Section - History
 
 history-header = 履歴
+# This label is followed, on the same line, by a dropdown list of options
+# (Remember history, etc.).
+# In English it visually creates a full sentence, e.g.
+# "Firefox will" + "Remember history".
+#
+# If this doesn't work for your language, you can translate this message:
+#   - Simply as "Firefox", moving the verb into each option.
+#     This will result in "Firefox" + "Will remember history", etc.
+#   - As a stand-alone message, for example "Firefox history settings:".
+history-remember-label = { -brand-short-name } に
+    .accesskey = w
+history-remember-option-all =
+    .label = 履歴を記憶させる
+history-remember-option-never =
+    .label = 履歴を一切記憶させない
+history-remember-option-custom =
+    .label = 記憶させる履歴を詳細設定する
 history-remember-description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
 history-dontremember-description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
 history-private-browsing-permanent =
@@ -525,7 +570,7 @@ addressbar-suggestions-settings = 検索エンジンの検索候補の設定を�
 ## Privacy Section - Tracking
 
 tracking-header = トラッキング防止
-tracking-description = トラッキング防止は、複数のウェブサイトにまたがるユーザーのブラウジングデータを収集するオンラインの追跡者をブロックします。 <a>トラッキング防止とプライバシーの詳細情報</a>
+tracking-desc = トラッキング防止は、複数のウェブサイトにまたがるユーザーのブラウジングデータを収集するオンラインの追跡者をブロックします。 <a data-l10n-name="learn-more">トラッキング防止とプライバシーの詳細情報</a>
 tracking-mode-label = トラッキング防止を使用して既知の追跡者をブロックする
 tracking-mode-always =
     .label = 常に

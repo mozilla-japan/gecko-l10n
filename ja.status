@@ -888,3 +888,6 @@ mail                     9745:cbd8ff01578f   2018-03-20     mar             sync
 browser                  9768:1abf97aaa126   2018-03-23     hATrayflood     sync browser
 mobile                   9804:8c84c71ba45f   2018-04-05     kechol          sync mobile
 calendar                 9804:8c84c71ba45f   2018-04-05     mar             sync calendar
+devtools                 9887:e24fb8cec1ac   2018-04-12     hATrayflood     sync devtools
+dom, security            9905:e29f70cc99e4   2018-04-17     hATrayflood     sync dom, security
+toolkit                  9905:e29f70cc99e4   2018-04-17     hATrayflood     sync toolkit
