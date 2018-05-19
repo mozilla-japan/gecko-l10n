@@ -4,6 +4,7 @@
 
 fonts-window =
     .title = フォント
+
 fonts-window-close =
     .key = w
 
@@ -11,6 +12,7 @@ fonts-window-close =
 
 fonts-langgroup-header = 対象言語
     .accesskey = F
+
 fonts-langgroup-arabic =
     .label = アラビア語
 fonts-langgroup-armenian =
@@ -75,24 +77,33 @@ fonts-langgroup-other =
 
 fonts-proportional-header = プロポーショナル
     .accesskey = P
+
 fonts-default-serif =
     .label = 明朝体 (Serif)
 fonts-default-sans-serif =
     .label = ゴシック体 (Sans-serif)
+
 fonts-proportional-size = サイズ
     .accesskey = z
+
 fonts-serif = 明朝体 (Serif)
     .accesskey = S
+
 fonts-sans-serif = ゴシック体 (Sans-serif)
     .accesskey = n
+
 fonts-monospace = 等幅 (Monospace)
     .accesskey = M
+
 fonts-monospace-size = サイズ
     .accesskey = e
+
 fonts-minsize = 最小フォントサイズ
     .accesskey = o
+
 fonts-minsize-none =
     .label = なし
+
 fonts-allow-own =
     .label = ウェブページが指定したフォントを優先する
     .accesskey = A
@@ -104,8 +115,10 @@ fonts-allow-own =
 
 fonts-languages-fallback-header = 古いウェブページでのテキストエンコーディング
 fonts-languages-fallback-desc = このテキストエンコーディングは、テキストエンコーディングが宣言されていない古いウェブページで使用されます。
+
 fonts-languages-fallback-label = 代替テキストエンコーディング
     .accesskey = T
+
 fonts-languages-fallback-name-auto =
     .label = 現在のロケールの@@DefaultValue@@
 fonts-languages-fallback-name-arabic =
@@ -138,3 +151,14 @@ fonts-languages-fallback-name-vietnamese =
     .label = ベトナム語
 fonts-languages-fallback-name-other =
     .label = その他 (西欧含む)
+
+fonts-very-large-warning-title = 最小フォントサイズが大きすぎます
+fonts-very-large-warning-message = 最小フォントサイズに 24 ピクセルを超える大きなサイズを選択しました。重要な設定ページの表示が困難、または不可能になる可能性があります。
+fonts-very-large-warning-accept = 強制変更する
+
+# Variables:
+#   $name {string, "Arial"} - Name of the default font
+fonts-label-default =
+    .label = @@Default@@ ({ $name })
+fonts-label-default-unnamed =
+    .label = @@Default@@

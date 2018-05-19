@@ -46,19 +46,10 @@
 
 <!ENTITY  feedTab               "フィード">
 <!ENTITY  feedTab.accesskey     "F">
-<!ENTITY  feedSubscribe         "購読">
-<!ENTITY  feedSubscribe.accesskey "u">
 
 <!ENTITY  permTab               "サイト別設定">
 <!ENTITY  permTab.accesskey     "P">
-<!ENTITY  permUseDefault        "標準設定を使用">
-<!ENTITY  permAskAlways         "毎回確認">
-<!ENTITY  permAllow             "許可">
-<!ENTITY  permAllowSession      "セッション中のみ許可">
-<!ENTITY  permHide              "非表示">
-<!ENTITY  permBlock             "ブロック">
 <!ENTITY  permissionsFor        "対象サイト:">
-<!ENTITY  permPlugins           "プラグインの実行">
 
 <!ENTITY  securityTab           "セキュリティ">
 <!ENTITY  securityTab.accesskey "S">

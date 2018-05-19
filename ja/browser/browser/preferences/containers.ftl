@@ -10,8 +10,10 @@ containers-window-new =
 containers-window-update =
     .title = { $name } コンテナーの設定
     .style = width: 45em
+
 containers-window-close =
     .key = w
+
 # This is a term to store style to be applied
 # on the three labels in the containers add/edit dialog:
 #   - name
@@ -22,20 +24,26 @@ containers-window-close =
 # of the three messages ensures that all three labels
 # will be aligned correctly.
 -containers-labels-style = min-width: 4rem
+
 containers-name-label = 名前
     .accesskey = N
     .style = { -containers-labels-style }
+
 containers-name-text =
     .placeholder = コンテナー名を入力してください
+
 containers-icon-label = アイコン
     .accesskey = I
     .style = { -containers-labels-style }
+
 containers-color-label = @@Color@@
     .accesskey = o
     .style = { -containers-labels-style }
+
 containers-button-done =
     .label = 完了
     .accesskey = D
+
 containers-color-blue =
     .label = 青
 containers-color-turquoise =
@@ -52,6 +60,7 @@ containers-color-pink =
     .label = ピンク
 containers-color-purple =
     .label = 紫
+
 containers-icon-fingerprint =
     .label = 指紋
 containers-icon-briefcase =

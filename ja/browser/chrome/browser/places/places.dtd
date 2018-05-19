@@ -73,9 +73,6 @@
 <!ENTITY cmd.reloadLivebookmark.label		"ライブブックマークを再読み込み">
 <!ENTITY cmd.reloadLivebookmark.accesskey	"R">
 
-<!ENTITY cmd.moveBookmarks.label		"移動...">
-<!ENTITY cmd.moveBookmarks.accesskey		"M">
-
 <!ENTITY col.name.label			"名前">
 <!ENTITY col.tags.label			"タグ">
 <!ENTITY col.url.label			"URL">
