@@ -36,3 +36,83 @@ permissions-button-ok =
     .accesskey = S
 permissions-searchbox =
     .placeholder = ウェブサイトを検索
+
+## Invalid Hostname Dialog
+
+permissions-invalid-uri-title = 無効なホスト名が入力されました
+permissions-invalid-uri-label = 有効なホスト名を入力してください
+
+## Exceptions - Tracking Protection
+
+permissions-exceptions-tracking-protection-window =
+    .title = 例外 - トラッキング防止
+    .style = { permissions-window.style }
+permissions-exceptions-tracking-protection-desc = これらのウェブサイトでは、トラッキング防止を無効に設定しています。
+
+## Exceptions - Cookies
+
+permissions-exceptions-cookie-window =
+    .title = Cookie とサイトデータのフィルター
+    .style = { permissions-window.style }
+permissions-exceptions-cookie-desc = Cookie とサイトデータの使用を許可するかどうかウェブサイトごとに指定できます。個別に設定するサイトの正確なアドレスを入力して @@[@@不許可@@]@@、@@[@@現在のセッションのみ@@]@@、@@[@@許可@@]@@ のいずれかをクリックしてください。
+
+## Exceptions - Pop-ups
+
+permissions-exceptions-popup-window =
+    .title = 許可サイト - ポップアップ
+    .style = { permissions-window.style }
+permissions-exceptions-popup-desc = ポップアップ@@Window@@を開くことを許可するウェブサイトを指定できます。許可するサイトの正確なアドレスを入力して @@[@@許可@@]@@ をクリックしてください。
+
+## Exceptions - Saved Logins
+
+permissions-exceptions-saved-logins-window =
+    .title = 例外 - ログイン情報の保存
+    .style = { permissions-window.style }
+permissions-exceptions-saved-logins-desc = 次のウェブサイトのログイン情報は保存されません。
+
+## Exceptions - Add-ons
+
+permissions-exceptions-addons-window =
+    .title = 許可サイト - アドオンのインストール
+    .style = { permissions-window.style }
+permissions-exceptions-addons-desc = アドオンのインストールを許可するウェブサイトを指定できます。許可するサイトの正確なアドレスを入力して @@[@@許可@@]@@ をクリックしてください。
+
+## Site Permissions - Notifications
+
+permissions-site-notification-window =
+    .title = 設定 - 通知の許可
+    .style = { permissions-window.style }
+permissions-site-notification-desc = 次のウェブサイトがユーザーへの通知を要求しています。通知を許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
+permissions-site-notification-disable-label =
+    .label = 通知の許可の要求をブロック
+permissions-site-notification-disable-desc = 上記以外のウェブサイトは、通知の許可を要求させないようにします。通知をブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
+
+## Site Permissions - Location
+
+permissions-site-location-window =
+    .title = 設定 - 位置情報の使用許可
+    .style = { permissions-window.style }
+permissions-site-location-desc = 次のウェブサイトがユーザーの位置情報へのアクセスを要求しています。位置情報へのアクセスを許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
+permissions-site-location-disable-label =
+    .label = 位置情報へのアクセスの要求をブロック
+permissions-site-location-disable-desc = 上記以外のウェブサイトは、位置情報へのアクセスを要求させないようにします。位置情報へのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
+
+## Site Permissions - Camera
+
+permissions-site-camera-window =
+    .title = 設定 - カメラの使用許可
+    .style = { permissions-window.style }
+permissions-site-camera-desc = 次のウェブサイトがカメラへのアクセスを要求しています。カメラへのアクセスを許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
+permissions-site-camera-disable-label =
+    .label = カメラへのアクセスの要求をブロック
+permissions-site-camera-disable-desc = 上記以外のウェブサイトは、カメラへのアクセスを要求させないようにします。カメラへのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
+
+## Site Permissions - Microphone
+
+permissions-site-microphone-window =
+    .title = 設定 - マイクの使用許可
+    .style = { permissions-window.style }
+permissions-site-microphone-desc = 次のウェブサイトがマイクへのアクセスを要求しています。マイクへのアクセスを許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
+permissions-site-microphone-disable-label =
+    .label = マイクへのアクセスの要求をブロック
+permissions-site-microphone-disable-desc = 上記以外のウェブサイトは、マイクへのアクセスを要求させないようにします。マイクへのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
