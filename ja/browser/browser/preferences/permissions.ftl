@@ -36,6 +36,12 @@ permissions-button-ok =
     .accesskey = S
 permissions-searchbox =
     .placeholder = ウェブサイトを検索
+permissions-capabilities-allow =
+    .label = 許可
+permissions-capabilities-block =
+    .label = 不許可
+permissions-capabilities-prompt =
+    .label = 常に確認
 
 ## Invalid Hostname Dialog
 
