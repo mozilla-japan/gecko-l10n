@@ -557,6 +557,11 @@ history-clear-button =
 ## Privacy Section - Site Data
 
 sitedata-header = Cookie とサイトデータ
+sitedata-total-size-calculating = サイトデータとキャッシュのサイズを計算しています...
+# Variables:
+#   $value (Number) - Value of the unit (for example: 4.6, 500)
+#   $unit (String) - Name of the unit (for example: "bytes", "KB")
+sitedata-total-size = 保存された Cookie とサイトデータとキャッシュのディスク使用量は現在 { $value } { $unit } です。
 sitedata-learn-more = 詳細情報
 sitedata-accept-cookies-option =
     .label = ウェブサイトから送られてきた Cookie とサイトデータを保存する (推奨)
