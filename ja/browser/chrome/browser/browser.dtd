@@ -61,6 +61,8 @@ can reach it easily. -->
 <!ENTITY  closeTab.label		"タブを閉じる">
 <!ENTITY  closeTab.accesskey		"c">
 
+<!ENTITY  hiddenTabs.label		"隠しタブ">
+
 <!ENTITY  listAllTabs.label		"タブを一覧表示します">
 
 <!ENTITY tabCmd.label			"@@NewTab@@"><!-- 表示カ所によりアクセスキーが異なる -->
@@ -127,7 +129,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllTabsCmd.label		"すべてのタブを表示">
 <!ENTITY showAllTabsCmd.accesskey	"A">
 <!ENTITY toggleReaderMode.key		"R">
-
 <!ENTITY toggleReaderMode.win.keycode	"VK_F9">
 
 <!ENTITY fxaSignIn.label		"&syncBrand.shortName.label; にログイン">
@@ -187,10 +188,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY otherBookmarksCmd.label		"他のブックマーク">
 <!ENTITY mobileBookmarksCmd.label		"モバイルのブックマーク">
 <!ENTITY bookmarksToolbarChevron.tooltip	"残りのブックマークを表示します">
-<!ENTITY showRecentlyBookmarked.label		"最近のブックマークを表示">
-<!ENTITY showRecentlyBookmarked.accesskey	"h">
-<!ENTITY hideRecentlyBookmarked.label		"最近のブックマークを隠す">
-<!ENTITY hideRecentlyBookmarked.accesskey	"H">
 
 <!ENTITY backCmd.label				"戻る">
 <!ENTITY backCmd.accesskey			"B">
@@ -222,6 +219,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip	"データを永続ストレージに格納します">
 <!ENTITY urlbar.remoteControlNotificationAnchor.tooltip		"ブラウザーがリモート制御下にあります">
 
+<!ENTITY urlbar.webAuthnAnchor.tooltip                    "Web Authentication パネルを開きます">
+
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip	"カメラとマイクの共有を管理します">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip	"マイクの共有を管理します">
 <!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip	"@@Window@@と画面の共有を管理します">
@@ -230,7 +229,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.translateNotificationAnchor.tooltip	"このページを翻訳します">
 <!ENTITY urlbar.translatedNotificationAnchor.tooltip	"ページ翻訳を管理します">
 <!ENTITY urlbar.emeNotificationAnchor.tooltip		"DRM ソフトウェアを管理します">
-
 <!ENTITY urlbar.midiNotificationAnchor.tooltip		"MIDI パネルを開きます">
 
 <!ENTITY urlbar.cameraBlocked.tooltip			"このウェブサイトでのカメラの共有をブロックしました。">
@@ -241,7 +239,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.persistentStorageBlocked.tooltip	"このウェブサイトの永続ストレージの使用をブロックしました。">
 <!ENTITY urlbar.popupBlocked.tooltip			"このウェブサイトのポップアップをブロックしました。">
 <!ENTITY urlbar.canvasBlocked.tooltip			"このウェブサイトの Canvas データの抽出をブロックしました。">
-
 <!ENTITY urlbar.flashPluginBlocked.tooltip		"このウェブサイトの Adobe Flash プラグインの使用をブロックしました。">
 <!ENTITY urlbar.midiBlocked.tooltip			"このウェブサイトの MIDI へのアクセスをブロックしました。">
 
@@ -268,7 +265,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addBookmarksMenu.label			"ブックマークメニューをツールバーに追加">
 <!ENTITY removeBookmarksMenu.label		"ブックマークメニューをツールバーから削除">
 
-<!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
+<!-- LOCALIZATION NOTE (bookmarksGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
 <!ENTITY bookmarksGtkCmd.commandkey		"o">
@@ -299,6 +296,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY inspectContextMenu.label	"要素を調査">
 <!ENTITY inspectContextMenu.accesskey	"Q">
+
+<!ENTITY inspectA11YContextMenu.label	"アクセシビリティプロパティを調査">
 
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
@@ -385,11 +384,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label	"タブの同期をオンにすると、あなたの他の端末のタブ一覧が表示されます。">
-<!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.subtitle): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
 <!ENTITY appMenuRemoteTabs.noclients.subtitle	"他の端末のタブを表示しますか？">
-<!ENTITY appMenuRemoteTabs.openprefs.label	"Sync の設定">
 <!ENTITY appMenuRemoteTabs.opensyncprefs.label	"Sync の設定を開く">
 <!ENTITY appMenuRemoteTabs.notsignedin.label	"ログインして、他の端末のタブ一覧を表示する。">
 <!ENTITY appMenuRemoteTabs.unverified.label	"あなたのアカウントは検証する必要があります。">
@@ -431,6 +429,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY customizeMenu.addMoreItems.label		"その他の項目を追加...">
 <!ENTITY customizeMenu.addMoreItems.accesskey		"A">
 
+<!ENTITY customizeMenu.autoHideDownloadsButton.label		"ツールバーでは自動的に非表示にする">
+<!ENTITY customizeMenu.autoHideDownloadsButton.accesskey	"A">
+
 <!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
     app (hamburger) menu. When clicked, it opens a subview that contains
     secondary commands. -->
@@ -438,7 +439,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY openCmd.commandkey			"l">
 <!ENTITY urlbar.placeholder2			"URL または検索語句を入力します">
-<!ENTITY urlbar.placeholder3			"ここに URL と検索語句を入力します">
 <!ENTITY urlbar.accesskey			"d">
 <!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
 <!ENTITY urlbar.extension.label			"拡張機能:">
@@ -982,16 +982,24 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.cancelButton.accesskey	"N">
 <!ENTITY updateRestart.panelUI.label2		"再起動して &brandShorterName; を更新">
 
-<!ENTITY newTabControlled.message			"拡張機能が@@NewTab@@を開いたときのページを変更しています。この変更が望ましくない場合は、設定を元に戻すことができます。">
-
 <!ENTITY newTabControlled.header.message		"@@NewTab@@が変更されました。">
 <!ENTITY newTabControlled.keepButton.label		"変更を維持する">
 <!ENTITY newTabControlled.keepButton.accesskey		"K">
-<!ENTITY newTabControlled.restoreButton.label		"設定を元に戻す">
-<!ENTITY newTabControlled.restoreButton.accesskey	"R">
-
 <!ENTITY newTabControlled.disableButton.label		"拡張機能を無効化">
 <!ENTITY newTabControlled.disableButton.accesskey	"D">
+
+<!ENTITY homepageControlled.message			"拡張機能がホームページを変更しています。この変更が望ましくない場合は、設定を元に戻すことができます。">
+<!ENTITY homepageControlled.header.message		"ホームページが変更されました。">
+<!ENTITY homepageControlled.keepButton.label		"変更を維持する">
+<!ENTITY homepageControlled.keepButton.accesskey	"K">
+<!ENTITY homepageControlled.disableButton.label		"拡張機能を無効化">
+<!ENTITY homepageControlled.disableButton.accesskey	"D">
+
+<!ENTITY tabHideControlled.header.message		"非表示タブにアクセス">
+<!ENTITY tabHideControlled.keepButton.label		"タブを非表示のままにする">
+<!ENTITY tabHideControlled.keepButton.accesskey		"K">
+<!ENTITY tabHideControlled.disableButton.label		"拡張機能を無効化">
+<!ENTITY tabHideControlled.disableButton.accesskey	"D">
 
 <!ENTITY pageActionButton.tooltip		"ページ操作">
 <!ENTITY pageAction.addToUrlbar.label		"アドレスバーに追加">
@@ -1002,6 +1010,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY pageAction.sendTabToDevice.label	"タブを端末へ送信">
 <!ENTITY sendToDevice.syncNotReady.label	"端末を同期しています...">
+
+<!ENTITY pageAction.shareUrl.label		"共有">
 
 <!ENTITY libraryButton.tooltip			"履歴や保存したブックマークなどを表示します">
 

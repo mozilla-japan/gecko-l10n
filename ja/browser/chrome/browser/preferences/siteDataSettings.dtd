@@ -2,12 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY     window.title                  "設定 - サイトデータ">
-
 <!ENTITY     window2.title                 "Cookie とサイトデータを管理">
 <!ENTITY     hostCol.label                 "サイト">
-<!ENTITY     statusCol.label               "状態">
-<!ENTITY     cookiesCol.label              "Cookies">
+<!ENTITY     cookiesCol.label              "Cookie">
 <!ENTITY     usageCol.label                "ストレージ">
 <!ENTITY     lastAccessedCol.label                "最終アクセス">
 <!ENTITY     searchTextboxPlaceHolder             "ウェブサイトを検索">
@@ -18,9 +15,6 @@
 <!ENTITY     save.accesskey                "a">
 <!ENTITY     cancel.label                  "キャンセル">
 <!ENTITY     cancel.accesskey              "C">
-<!ENTITY     removingDialog.title          "サイトデータの削除">
-<!ENTITY     removingSelected.description  "サイトデータを削除すると関連する Cookie やオフラインウェブコンテンツも削除されるため、ウェブサイトからログアウトされます。本当に削除してもよろしいですか？">
-<!ENTITY     siteTree2.label               "次のウェブサイトの Cookie が削除されます。">
 <!ENTITY     removingDialog1.title         "Cookie とサイトデータの削除">
 <!ENTITY     removingSelected1.description "Cookie とサイトデータを削除すると、ウェブサイトからログアウトされます。本当に削除してもよろしいですか？">
 <!ENTITY     siteTree3.label               "次のウェブサイトの Cookie とサイトデータが削除されます">

@@ -77,13 +77,13 @@
      This is the tooltip of the action button shown when malware is blocked.
      -->
 <!ENTITY cmd.removeFile.label		"ファイルを削除">
-<!-- LOCALIZATION NOTE (cmd.chooseUnblock.tooltip):
+<!-- LOCALIZATION NOTE (cmd.chooseUnblock.label):
      This is the tooltip of the action button shown when potentially unwanted
      downloads are blocked. This opens a dialog where the user can choose
      whether to unblock or remove the download. Removing is the default option.
      -->
 <!ENTITY cmd.chooseUnblock.label	"ファイルを削除またはダウンロードを許可">
-<!-- LOCALIZATION NOTE (cmd.chooseOpen.tooltip):
+<!-- LOCALIZATION NOTE (cmd.chooseOpen.label):
      This is the tooltip of the action button shown when uncommon downloads are
      blocked.This opens a dialog where the user can choose whether to open the
      file or remove the download. Opening is the default option.
@@ -141,6 +141,10 @@
      -->
 <!ENTITY downloadDetails.label		"ダウンロードの詳細">
 
+<!-- LOCALIZATION NOTE (openDownloadsFolder.label):
+     This command is not currently available in the user interface, but the
+     string was preserved by bug 1362207 to be used in a future version.
+     -->
 <!ENTITY openDownloadsFolder.label	"ダウンロードフォルダーを開く">
 
 <!ENTITY clearDownloadsButton.label	"ダウンロードの消去">

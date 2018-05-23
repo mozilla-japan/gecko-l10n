@@ -879,7 +879,7 @@ toolkit                  9494:dbf3963d93f8   2018-01-23     mar             sync
 browser                  9490:ba991d9d4ca9   2018-01-21     hATrayflood     sync browser
 dom, security            9656:9ce11d4bed99   2018-03-02     mar             sync dom, security (includes 60.0)
 
-[l10n-mozilla-60.0]
+Released! [l10n-mozilla-60.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar                 9681:598956653955   2018-03-09     mar             sync calendar
@@ -891,3 +891,8 @@ calendar                 9804:8c84c71ba45f   2018-04-05     mar             sync
 devtools                 9887:e24fb8cec1ac   2018-04-12     hATrayflood     sync devtools
 dom, security            9905:e29f70cc99e4   2018-04-17     hATrayflood     sync dom, security
 toolkit                  9905:e29f70cc99e4   2018-04-17     hATrayflood     sync toolkit
+
+[l10n-mozilla-60.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+browser                 10024:ed55af8da7b4   2018-05-05     hATrayflood     sync browser

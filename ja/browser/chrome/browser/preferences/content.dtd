@@ -27,30 +27,6 @@
 <!ENTITY  microphoneSettingsButton.label	"設定...">
 <!ENTITY  microphoneSettingsButton.accesskey	"t">
 
-<!ENTITY  fontsAndColors.label		"フォントと@@Colors@@">
-
-<!ENTITY  defaultFont2.label		"@@DefaultFont@@">
-<!ENTITY  defaultFont2.accesskey	"D">
-<!ENTITY  defaultSize2.label		"サイズ">
-<!ENTITY  defaultSize2.accesskey	"S">
-
-<!ENTITY  advancedFonts.label		"詳細設定...">
-<!ENTITY  advancedFonts.accesskey	"A">
-
-<!ENTITY  colors.label			"@@Colors@@設定...">
-<!ENTITY  colors.accesskey		"C">
-
-
-<!ENTITY language2.label		"言語">
-<!ENTITY chooseLanguage.label		"ウェブページの表示に使用する言語の優先順位を設定できます。">
-<!ENTITY chooseButton.label		"言語設定...">
-<!ENTITY chooseButton.accesskey		"o">
-
-<!ENTITY translateWebPages.label	"ウェブページを翻訳">
-<!ENTITY translateWebPages.accesskey	"T">
-<!ENTITY translateExceptions.label	"例外...">
-<!ENTITY translateExceptions.accesskey	"x">
-
 <!-- LOCALIZATION NOTE (translation.options.attribution.beforeLogo,
   -                     translation.options.attribution.afterLogo):
   -  These 2 strings are displayed before and after a 'Microsoft Translator'
@@ -60,9 +36,3 @@
   -->
 <!ENTITY translation.options.attribution.beforeLogo	"翻訳: ">
 <!ENTITY translation.options.attribution.afterLogo	"">
-
-<!ENTITY  drmContent2.label			"デジタル著作権管理 (DRM) コンテンツ">
-
-<!ENTITY  playDRMContent2.label			"DRM 制御のコンテンツを再生">
-<!ENTITY  playDRMContent2.accesskey		"P">
-<!ENTITY  playDRMContent.learnMore.label	"詳細情報">

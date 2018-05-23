@@ -75,9 +75,6 @@ both, to better adapt this sentence to their language.
 <!ENTITY cancelSetup.label		"セットアップをキャンセル">
 <!ENTITY cancelSetup.accesskey		"p">
 
-<!ENTITY removeAccount.label		"アカウントを削除">
-<!ENTITY removeAccount.accesskey	"R">
-
 <!ENTITY signedOut.caption		"ウェブを持ち歩こう">
 <!ENTITY signedOut.description		"ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。">
 <!ENTITY signedOut.accountBox.title	"&syncBrand.fxAccount.label; で接続する">

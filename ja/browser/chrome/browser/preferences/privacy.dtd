@@ -38,12 +38,6 @@
 
 <!ENTITY  suggestionSettings2.label		"検索エンジンの検索候補の設定を変更">
 
-<!ENTITY  acceptCookies2.label			"ウェブサイトから送られてきた Cookie を保存する">
-<!ENTITY  acceptCookies2.accesskey		"A">
-
-<!ENTITY  acceptThirdParty2.pre.label		"サードパーティ Cookie の保存">
-<!ENTITY  acceptThirdParty2.pre.accesskey	"y">
-
 <!ENTITY  acceptCookies4.label			"ウェブサイトから送られてきた Cookie とサイトデータを保存する (推奨)">
 <!ENTITY  acceptCookies4.accesskey		"A">
 
@@ -65,9 +59,6 @@
 <!ENTITY  cookieExceptions.label		"例外サイト...">
 <!ENTITY  cookieExceptions.accesskey		"E">
 
-<!ENTITY  showCookies.label			"Cookie を表示...">
-<!ENTITY  showCookies.accesskey			"S">
-
 <!ENTITY  historyHeader2.pre.label		"&brandShortName; に">
 <!ENTITY  historyHeader2.pre.accesskey		"w">
 <!ENTITY  historyHeader.remember.label		"履歴を記憶させる">
@@ -75,26 +66,9 @@
 <!ENTITY  historyHeader.custom.label		"記憶させる履歴を詳細設定する">
 <!ENTITY  historyHeader.post.label		"">
 
-<!ENTITY  rememberDescription.label		"&brandShortName; は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴、ウェブサイトから送られてきた Cookie を保存します。">
-
-<!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
-<!-- LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed -->
-<!ENTITY  rememberActions.pre.label		"">
-<!ENTITY  rememberActions.clearHistory.label	"最近の履歴を消去">
-<!ENTITY  rememberActions.middle.label		" あるいは ">
-<!ENTITY  rememberActions.removeCookies.label	"Cookie を個別に削除">
-<!ENTITY  rememberActions.post.label		" できます。">
-
 <!ENTITY  rememberDescription1.label		"&brandShortName; は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。">
 
 <!ENTITY  dontrememberDescription.label		"&brandShortName; はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。">
-
-<!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
-<!ENTITY  dontrememberActions.pre.label		"">
-<!ENTITY  dontrememberActions.clearHistory.label	"現在の履歴をすべて消去">
-<!ENTITY  dontrememberActions.post.label	" できます。">
 
 <!ENTITY  clearHistoryButton.label		"履歴を消去...">
 <!ENTITY  clearHistoryButton.accesskey		"s">
@@ -113,12 +87,6 @@
 
 <!ENTITY  clearOnCloseSettings.label		"設定...">
 <!ENTITY  clearOnCloseSettings.accesskey	"t">
-
-<!ENTITY  browserContainersLearnMore.label	"詳細情報">
-<!ENTITY  browserContainersEnabled.label	"コンテナータブを有効にする">
-<!ENTITY  browserContainersEnabled.accesskey	"n">
-<!ENTITY  browserContainersSettings.label	"設定...">
-<!ENTITY  browserContainersSettings.accesskey	"i">
 
 <!ENTITY  a11yPrivacy.checkbox.label		"アクセシビリティサービスによるブラウザーへのアクセスを止める">
 <!ENTITY  a11yPrivacy.checkbox.accesskey	"a">

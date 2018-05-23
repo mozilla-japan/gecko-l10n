@@ -5,7 +5,7 @@
 
 <!-- LOCALIZATION NOTE (update.*):
 # These strings are also used in the update pane of preferences.
-# See about:preferences#advanced.
+# See about:preferences#general.
 -->
 <!-- LOCALIZATION NOTE (update.checkForUpdatesButton.*, update.updateButton.*):
 # Only one button is present at a time.
@@ -26,7 +26,7 @@
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.exp.mozillaLink  "&vendorShortName;">
 <!ENTITY community.exp.middle       " はウェブの公開性、公衆性、制限のないアクセス性を保つために共に活動している ">
-<!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
+<!-- LOCALIZATION NOTE (community.exp.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "グローバルなコミュニティ">
 <!ENTITY community.exp.end          " です。">
 
@@ -39,7 +39,7 @@
 <!ENTITY community.end3             " です。">
 
 <!ENTITY helpus.start               "参加しませんか？ ">
-<!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to https://sendto.mozilla.org/page/contribute/Give-Now?source=mozillaorg_default_footer&ref=firefox_about&utm_campaign=firefox_about&utm_source=firefox&utm_medium=referral&utm_content=20140929_FireFoxAbout. -->
+<!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to https://donate.mozilla.org/?utm_source=firefox&utm_medium=referral&utm_campaign=firefox_about&utm_content=firefox_about. -->
 <!ENTITY helpus.donateLink          "寄付">
 <!ENTITY helpus.middle              " または ">
 <!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->

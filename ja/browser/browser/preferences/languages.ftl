@@ -5,25 +5,34 @@
 languages-window =
     .title = ウェブページの言語
     .style = width: 30em
+
 languages-close-key =
     .key = w
+
 languages-description = 一部のウェブページは複数の言語で提供されています。これらのページで使用する言語とその優先順位を設定してください。
+
 languages-customize-spoof-english =
     .label = プライバシー強化のため、英語版のウェブページを表示する
+
 languages-customize-moveup =
     .label = 上へ
     .accesskey = U
+
 languages-customize-movedown =
     .label = 下へ
     .accesskey = D
+
 languages-customize-remove =
     .label = 削除
     .accesskey = R
+
 languages-customize-select-language =
     .placeholder = 追加する言語を選択...
+
 languages-customize-add =
     .label = 追加
     .accesskey = A
+
 # The pattern used to generate strings presented to the user in the
 # locale selection list.
 #
@@ -35,4 +44,4 @@ languages-customize-add =
 #   $locale (String) - A name of the locale (for example: "Icelandic", "Spanish (Chile)")
 #   $code (String) - Locale code of the locale (for example: "is", "es-CL")
 languages-code-format =
-    .label = { $locale }  [{ $code }]
+    .label = { $locale } [{ $code }]

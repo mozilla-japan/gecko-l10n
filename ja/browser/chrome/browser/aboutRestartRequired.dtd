@@ -1,0 +1,13 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY restartRequired.title "再起動が必要です">
+
+<!ENTITY restartRequired.header "すみません。もう少しだけ操作が必要です。">
+<!ENTITY restartRequired.description "
+<p>バックグラウンドで更新をインストールしました。@@[@@&brandShortName; を再起動する@@]@@をクリックすると、更新を完了します。</p>
+<p>再起動後は、ページと@@Window@@とタブをすべて復元しますので、素早く元の作業に戻れます。</p>
+">
+
+<!ENTITY restartButton.label "&brandShortName; を再起動する">

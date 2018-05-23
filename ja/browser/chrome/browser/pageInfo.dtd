@@ -46,19 +46,10 @@
 
 <!ENTITY  feedTab               "フィード">
 <!ENTITY  feedTab.accesskey     "F">
-<!ENTITY  feedSubscribe         "購読">
-<!ENTITY  feedSubscribe.accesskey "u">
 
 <!ENTITY  permTab               "サイト別設定">
 <!ENTITY  permTab.accesskey     "P">
-<!ENTITY  permUseDefault        "標準設定を使用">
-<!ENTITY  permAskAlways         "毎回確認">
-<!ENTITY  permAllow             "許可">
-<!ENTITY  permAllowSession      "セッション中のみ許可">
-<!ENTITY  permHide              "非表示">
-<!ENTITY  permBlock             "ブロック">
 <!ENTITY  permissionsFor        "対象サイト:">
-<!ENTITY  permPlugins           "プラグインの実行">
 
 <!ENTITY  securityTab           "セキュリティ">
 <!ENTITY  securityTab.accesskey "S">
@@ -78,6 +69,9 @@
 <!ENTITY  securityView.privacy.cookies                  "このサイトはコンピューターに情報 (Cookie) を保存しているか">
 <!ENTITY  securityView.privacy.viewCookies              "Cookie を表示...">
 <!ENTITY  securityView.privacy.viewCookies.accessKey    "k">
+<!ENTITY  securityView.privacy.siteData                 "このサイトはコンピューターに情報を保存しているか">
+<!ENTITY  securityView.privacy.clearSiteData            "Cookie とサイトデータを消去">
+<!ENTITY  securityView.privacy.clearSiteData.accessKey  "C">
 <!ENTITY  securityView.privacy.passwords                "このサイトのパスワードを保存しているか">
 <!ENTITY  securityView.privacy.viewPasswords            "パスワードを表示..."><!-- (^^; デザイン上このボタンラベルは短く -->
 <!ENTITY  securityView.privacy.viewPasswords.accessKey  "w">
