@@ -2,6 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY directoryWindow.contentlength.label "サイズ">
-<!ENTITY directoryWindow.filename.label "名前">
-<!ENTITY directoryWindow.lastmodified.label "最終更新日時">
+<!-- first day of week to display in datepicker, a value from 0 to 6,
+     0 = Sunday, 1 = Monday, etc. -->
+<!ENTITY firstdayofweek.default	"0">

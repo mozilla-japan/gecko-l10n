@@ -3,15 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  pref.masterpass.title                  "マスターパスワード">
-<!ENTITY  managepassword.caption                 "マスターパスワードの期限">
-<!ENTITY  managepassword.text                    "以下の場合に &brandShortName; がマスターパスワードを尋ねます:">
-<!ENTITY  managepassword.askfirsttime            "必要なときの初回">
-<!ENTITY  managepassword.askfirsttime.accesskey  "T">
-<!ENTITY  managepassword.askeverytime            "必要なとき常に">
-<!ENTITY  managepassword.askeverytime.accesskey  "E">
-<!ENTITY  managepassword.asktimeout              "前回の使用から">
-<!ENTITY  managepassword.asktimeout.accesskey    "n">
-<!ENTITY  managepassword.timeout.unit            "分後またはそれ以降">
 
 <!ENTITY  changepassword.caption                 "マスターパスワードの変更">
 <!ENTITY  changepassword.text                    "マスターパスワードはウェブパスワードや証明書などの機密情報を保護します。">

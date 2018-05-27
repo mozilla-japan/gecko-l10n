@@ -23,7 +23,13 @@
 
 <!ENTITY pref.locales.title                     "メニューなどの表示に使用する言語">
 <!ENTITY selectLocale.label                     "ダイアログボックス、メニュー、ツールバー、ボタンに使用する言語を選択してください:">
-<!--LOCALIZATION NOTE (restartOnLangChange.label): Don't translate "&brandShortName;".
+
+<!--LOCALIZATION NOTE (dateTimeFormatting.label): labels/accesskeys for
+     radiobuttons are set dynamically from prefutilities.properties
+-->
+<!ENTITY dateTimeFormatting.label               "日付と時刻の書式">
+
+<!--LOCALIZATION NOTE (restartOnLocaleChange.label): Don't translate "&brandShortName;".
     Place &brandShortName; in the phrase where the name of the application should appear
 -->
-<!ENTITY restartOnLangChange.label              "言語設定は &brandShortName; を再起動した後に有効になります。">
+<!ENTITY restartOnLocaleChange.label            "言語と書式の設定は &brandShortName; を再起動した後に有効になります。">

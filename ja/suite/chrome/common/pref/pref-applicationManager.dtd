@@ -3,6 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY appManager.title     "アプリケーションマネージャー">
-<!ENTITY appManager.style     "width: 30em; min-height: 20em;"><!-- en-US: width: 40ch; min-height: 20em; -->
+<!ENTITY appManager.style     "width: 40ch; min-height: 20em;">
 <!ENTITY remove.label         "削除">
 <!ENTITY remove.accesskey     "R">

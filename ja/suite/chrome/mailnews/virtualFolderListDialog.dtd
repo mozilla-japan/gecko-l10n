@@ -2,9 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY server.label "アカウント: ">
-<!ENTITY server.accesskey "A">
 <!ENTITY virtualFolderListTitle.title        "フォルダーの選択">
 <!ENTITY virtualFolderDesc.label       "検索するフォルダーを選択してください:">
-
-
+<!ENTITY folderName.label "フォルダー名">
+<!ENTITY folderSearch.label "検索">
