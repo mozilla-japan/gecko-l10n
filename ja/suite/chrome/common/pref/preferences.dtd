@@ -2,6 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  windowClose.key "w">
+<!ENTITY  preferencesDefaultTitleMac.title "環境設定">
+<!ENTITY  preferencesDefaultTitleWin.title "オプション">
+<!ENTITY  preferencesCloseButton.label "閉じる">
+<!ENTITY  preferencesCloseButton.accesskey "C">
+
 <!--LOCALIZATION NOTE (.label): Preferences categories that appear on the left of the preferences dialog -->
 <!ENTITY prefWindow.title "設定">
 <!ENTITY categoryHeader "カテゴリー">
@@ -9,6 +15,7 @@
 <!ENTITY content.label "コンテンツ">
 <!ENTITY fonts.label "フォント">
 <!ENTITY colors.label "@@Colors@@">
+<!ENTITY media.label "メディア">
 <!ENTITY spellingPane.label "スペルチェック">
 
 <!ENTITY navigator.label "ブラウザー">

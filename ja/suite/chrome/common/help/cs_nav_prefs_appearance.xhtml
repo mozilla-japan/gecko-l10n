@@ -36,6 +36,7 @@
     <li><a href="#content">Content</a></li>
     <li><a href="#fonts">Fonts</a></li>
     <li><a href="#colors">Colors</a></li>
+    <li><a href="#media">Media</a></li>
     <li><a href="#spelling">Spelling</a></li>
   </ul>
 </div>
@@ -74,10 +75,26 @@
   <li><strong>User Interface Language</strong>: This setting allows you to
     change the language used in the user interface of &brandShortName;.
     Additional languages can be installed from the &brandShortName; home page.
-    <strong>Note</strong>: You must restart &brandShortName; for a new language
-    setting to take effect.
+  </li>
+  <li><strong>Date and Time Formatting</strong>: There are usually differences
+    how settings like date and time are formatted, depending on the region
+    (locale). Select how &brandShortName; displays such values:
+    <ul>
+      <li><strong>Application locale</strong>: Select this to show values in
+        the regional way of &brandShortName;&apos;s user interface language.
+      </li>
+      <li><strong>Regional Settings locale</strong>: Select this to show
+        values in the way as defined by your operating system&apos;s settings.
+      </li>
+    </ul>
   </li>
 </ul>
+
+<p><strong>Nots</strong>: You must restart &brandShortName; for a change in
+  language or formatting settings to take effect. In many cases, the choices
+  will show the same language unless you have additional language pack(s)
+  installed or use a localized version of &brandShortName; for a language
+  which is different from your operating-system&apos;s settings.</p>
 
 <p>[<a href="#appearance_preferences">Return to beginning of section</a>]</p>
 
@@ -102,7 +119,7 @@
     <ul>
       <li><strong>Show website icons</strong>: Select this if you want see
         site-specific icons, if available, in place of the bookmark icon
-        <img src="chrome://communicator/skin/bookmarks/bookmark-item.svg"
+        <img src="chrome://communicator/skin/places/bookmark-item.svg"
         alt="Bookmark item icon"/>. Website icons are shown to the left of the
         Location Bar and Browser tabs.</li>
       <li><strong>Aggressively look for website icons when the page doesn&apos;t
@@ -266,6 +283,50 @@
     </ul>
   </li>
 </ul>
+
+<p>[<a href="#appearance_preferences">Return to beginning of section</a>]</p>
+
+<h2 id="media">Appearance Preferences - Media</h2>
+
+<p>This section describes how to use the Media preferences panel. If
+  you&apos;re not already viewing it, follow these steps:</p>
+
+<ol>
+  <li>Open the <span class="mac">&brandShortName;</span>
+    <span class="noMac">Edit</span> menu and choose Preferences.</li>
+  <li>Under the Appearance category, click Media. (If no subcategories are
+    visible, double-click Appearance to expand the list.)</li>
+</ol>
+
+<p>The Media preferences panel allows you to determine how to handle audio and
+  video content as well as image animation:</p>
+
+<ul>
+  <li><strong>Enable Autoplay of HTML5 media content</strong>:
+    <ul>
+      <li>Check this option to automatically play audio or video media as soon
+        as such content is loaded.</li>
+      <li>Uncheck this option if you want such media to play only when you
+        explicitly request it.</li>
+    </ul>
+  </li>
+  <li><strong>Animated images should loop</strong>: These settings control how
+    many times animated images repeat their animation:
+    <ul>
+      <li><strong>As many times as the image specifies</strong>: Select this if
+        you want image animation to repeat as many times as specified within
+        each image. (This option is selected by default.)</li>
+      <li><strong>Once</strong>: Select this if you want image animation to
+        occur once, overriding the number of times specified within each
+        image.</li>
+      <li><strong>Never</strong>: Select this if you do not want image
+        animation.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Note</strong>: This options apply to HTML5 media and animated images
+  (e.g., GIF or PNG) only, thus not to any media handled by a plugin.</p>
 
 <p>[<a href="#appearance_preferences">Return to beginning of section</a>]</p>
 
