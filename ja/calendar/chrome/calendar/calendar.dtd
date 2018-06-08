@@ -178,8 +178,6 @@
 <!ENTITY calendar.context.attendance.menu.label		"参加">
 <!ENTITY calendar.context.attendance.menu.accesskey	"d">
 <!ENTITY calendar.context.attendance.occurrence.label	"この予定のみ">
-<!ENTITY calendar.context.attendance.all.label		"すべての予定">
-
 <!ENTITY calendar.context.attendance.all2.label		"すべて完了にする">
 <!ENTITY calendar.context.attendance.send.label		"通知を今すぐ送信">
 <!ENTITY calendar.context.attendance.send.accesskey	"S">
