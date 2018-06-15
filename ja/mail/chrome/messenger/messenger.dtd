@@ -39,6 +39,12 @@
 <!ENTITY newFeedAccountCmd.accesskey		"d">
 <!ENTITY newIMContactCmd.label			"チャット連絡先...">
 <!ENTITY newIMContactCmd.accesskey		"h">
+<!ENTITY  newMessageCmd2.key			"N">
+<!ENTITY  newMessageCmd.key			"M">
+<!ENTITY  newMessageCmd.label			"メッセージ">
+<!ENTITY  newMessageCmd.accesskey		"m">
+<!ENTITY  newContactCmd.label			"アドレス帳の連絡先...">
+<!ENTITY  newContactCmd.accesskey		"C">
 <!ENTITY openMessageFileCmd.label		"メッセージファイルを開く...">
 <!ENTITY openMessageFileCmd.accesskey		"O">
 <!ENTITY saveAsMenu.label			"@@SaveAs@@">
@@ -646,6 +652,7 @@
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label			"メッセージを受信する">
 <!ENTITY folderContextGetMessages.accesskey		"G">
+<!ENTITY folderContextMarkAllFoldersRead.label		"すべてのフォルダーを既読にする">
 <!ENTITY folderContextPauseAllUpdates.label		"すべての更新を一時停止">
 <!ENTITY folderContextPauseUpdates.label		"更新を一時停止">
 <!ENTITY folderContextPauseUpdates.accesskey		"U">
@@ -871,7 +878,7 @@
   -->
 <!ENTITY quickSearchCmd.key		"k">
 <!-- LOCALIZATION NOTE (search.label.base1):
-      This is the base of the empty text for the global search box. We replace
+     This is the base of the empty text for the global search box. We replace
      #1 with the contents of the appropriate search.keyLabel.* value for the
      platform.
      The goal is to convey to the user that typing in the box will allow them

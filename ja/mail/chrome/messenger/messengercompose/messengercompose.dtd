@@ -248,7 +248,6 @@
 <!ENTITY sendlaterButton.tooltip	"このメッセージを後で送信します">
 <!ENTITY quoteButton.tooltip		"前のメッセージを引用します">
 <!ENTITY addressButton.tooltip		"アドレス帳から宛先を選択します">
-<!ENTITY attachButton.tooltip		"このメッセージにファイルを添付します">
 <!ENTITY attachButton.tooltip2		"ファイルを添付します">
 <!ENTITY spellingButton.tooltip		"選択したテキストまたはメッセージ全体のスペルチェックをします">
 <!ENTITY saveButton.tooltip		"このメッセージを保存します">
@@ -276,7 +275,6 @@
      and it must be the same as toggleAttachmentPaneCmd.key, otherwise it won't
      work, as the shortcut key functionality supersedes the access key. -->
 <!ENTITY attachments.accesskey		"m">
-
 <!ENTITY attachmentBucketHeader.tooltip		"添付ペイン">
 <!ENTITY attachmentBucketCloseButton.tooltip	"添付ペインを隠す">
 

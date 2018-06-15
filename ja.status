@@ -18,8 +18,6 @@ extensions
 mail                    comm    Tb              Thunderbird
 mobile                  mobile  Fe              Mobile Firefox (Fennec)
 netwerk                 moz     all             ネットワーク
-other-licenses
-  branding/thunderbird  comm    Tb
 security/manager        moz     all
 services/sync           moz     Fx, Sm          Sync
 suite                   comm    Sm              Seamonkey
@@ -897,3 +895,4 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 browser                 10024:ed55af8da7b4   2018-05-05     hATrayflood     sync browser
 suite                   10066:34f02f607d2e   2018-05-25     mar             sync suite
+calendar, mail          10105:641dc2ebf2ca   2018-06-08     mar             sync calendar, mail. remove other-licenses
