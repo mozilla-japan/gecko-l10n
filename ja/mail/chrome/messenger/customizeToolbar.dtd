@@ -9,6 +9,7 @@
 <!ENTITY iconsAndText.label		"アイコンとテキスト">
 <!ENTITY icons.label			"アイコンのみ">
 <!ENTITY text.label			"テキストのみ">
+<!ENTITY iconsBesideText.label		"アイコンの横にテキスト">
 <!ENTITY useSmallIcons.label		"小さいアイコンを使用">
 <!ENTITY restoreDefaultSet.label	"初期設定に戻す">
 <!ENTITY addNewToolbar.label		"ツールバーを追加">

@@ -38,6 +38,10 @@
 <!ENTITY bookmarksToolbar.tooltip         "ブックマークツールバー">
 <!ENTITY navigationToolbar.tooltip        "ナビゲーションツールバー">
 
+<!ENTITY editBookmark.done.label "完了">
+<!ENTITY editBookmark.cancel.label "キャンセル">
+<!ENTITY editBookmark.removeBookmark.accessKey "R">
+
 <!-- Toolbar items --> 
 <!ENTITY backButton.label             "戻る">
 <!ENTITY backButton.tooltip           "前のページへ戻る">

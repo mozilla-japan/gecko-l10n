@@ -795,6 +795,7 @@
         <rdf:li> <rdf:Description ID="appearance_pref_content" nc:name="Content" nc:link="cs_nav_prefs_appearance.xhtml#content"/> </rdf:li>
         <rdf:li> <rdf:Description ID="appearance_pref_fonts" nc:name="Fonts" nc:link="cs_nav_prefs_appearance.xhtml#fonts"/> </rdf:li>
         <rdf:li> <rdf:Description ID="appearance_pref_colors" nc:name="Colors" nc:link="cs_nav_prefs_appearance.xhtml#colors"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="appearance_pref_media" nc:name="Media" nc:link="cs_nav_prefs_appearance.xhtml#media"/> </rdf:li>
         <rdf:li> <rdf:Description ID="appearance_pref_spelling" nc:name="Spelling" nc:link="cs_nav_prefs_appearance.xhtml#spelling"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
@@ -905,7 +906,6 @@
         <rdf:li><rdf:Description ID="password_mgr" nc:name="Password Manager" nc:link="passwords_help.xhtml#password_manager"/> </rdf:li>
         <rdf:li><rdf:Description ID="passwords_master" nc:name="Master Password Preferences" nc:link="passwords_help.xhtml#master_passwords"/> </rdf:li>
         <rdf:li><rdf:Description ID="master-prefs-change" nc:name="Change Master Password" nc:link="passwords_help.xhtml#change_master_password"/> </rdf:li>
-        <rdf:li><rdf:Description ID="master-prefs-timeout" nc:name="Master Password Timeout" nc:link="passwords_help.xhtml#master_password_timeout"/> </rdf:li>
         <rdf:li><rdf:Description ID="master-prefs-reset" nc:name="Reset Master Password" nc:link="passwords_help.xhtml#reset_master_password"/> </rdf:li>
         <rdf:li><rdf:Description ID="choosing-good-password" nc:name="Choosing a Good Password" nc:link="passwords_help.xhtml#choosing_a_good_password"/> </rdf:li>
       </rdf:Seq>
