@@ -35,6 +35,9 @@ left instead of right. -->
 <!ENTITY  closeOtherTabs.label		"他のタブをすべて閉じる">
 <!ENTITY  closeOtherTabs.accesskey	"o">
 
+<!ENTITY  closeSelectedTabs.label	"選択したタブを閉じる">
+<!ENTITY  closeSelectedTabs.accesskey	"S">
+
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
@@ -54,13 +57,14 @@ can reach it easily. -->
 <!ENTITY  sendToDeviceOfflineFeedback.label	"送信を予約しました (オフライン)">
 <!ENTITY  moveToNewWindow.label		"@@NewWindow@@へ移動">
 <!ENTITY  moveToNewWindow.accesskey	"W">
+<!ENTITY  reopenInContainer.label	"コンテナーを開きなおす">
+<!ENTITY  reopenInContainer.accesskey	"e">
 <!ENTITY  bookmarkAllTabs.label		"すべてのタブをブックマーク...">
 <!ENTITY  bookmarkAllTabs.accesskey	"T">
 <!ENTITY  undoCloseTab.label		"閉じたタブを元に戻す">
 <!ENTITY  undoCloseTab.accesskey	"U">
 <!ENTITY  closeTab.label		"タブを閉じる">
 <!ENTITY  closeTab.accesskey		"c">
-
 <!ENTITY  hiddenTabs.label		"隠しタブ">
 
 <!ENTITY  listAllTabs.label		"タブを一覧表示します">
@@ -210,6 +214,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY urlbar.defaultNotificationAnchor.tooltip		"メッセージパネルを開きます">
 <!ENTITY urlbar.geolocationNotificationAnchor.tooltip		"位置情報の要求パネルを開きます">
+<!ENTITY urlbar.autoplayNotificationAnchor.tooltip		"自動再生パネルを開きます">
 <!ENTITY urlbar.addonsNotificationAnchor.tooltip		"アドオンのインストールのメッセージパネルを開きます">
 <!ENTITY urlbar.canvasNotificationAnchor.tooltip		"canvas 要素抽出の許可設定を管理します">
 <!ENTITY urlbar.indexedDBNotificationAnchor.tooltip		"オフラインストレージのメッセージパネルを開きます">
@@ -218,8 +223,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.webNotificationAnchor.tooltip			"サイトからの通知の設定を変更します">
 <!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip	"データを永続ストレージに格納します">
 <!ENTITY urlbar.remoteControlNotificationAnchor.tooltip		"ブラウザーがリモート制御下にあります">
-
-<!ENTITY urlbar.webAuthnAnchor.tooltip                    "Web Authentication パネルを開きます">
+<!ENTITY urlbar.webAuthnAnchor.tooltip				"Web Authentication パネルを開きます">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip	"カメラとマイクの共有を管理します">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip	"マイクの共有を管理します">
@@ -238,6 +242,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.webNotificationsBlocked.tooltip		"このウェブサイトからの通知をブロックしました。">
 <!ENTITY urlbar.persistentStorageBlocked.tooltip	"このウェブサイトの永続ストレージの使用をブロックしました。">
 <!ENTITY urlbar.popupBlocked.tooltip			"このウェブサイトのポップアップをブロックしました。">
+<!ENTITY urlbar.autoplayMediaBlocked.tooltip		"このウェブサイトの音声付きメディアの自動再生をブロックしました。">
 <!ENTITY urlbar.canvasBlocked.tooltip			"このウェブサイトの Canvas データの抽出をブロックしました。">
 <!ENTITY urlbar.flashPluginBlocked.tooltip		"このウェブサイトの Adobe Flash プラグインの使用をブロックしました。">
 <!ENTITY urlbar.midiBlocked.tooltip			"このウェブサイトの MIDI へのアクセスをブロックしました。">
@@ -248,6 +253,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!-- Toolbar items -->
 <!ENTITY homeButton.label			"ホーム">
+
+<!ENTITY homeButton.defaultPage.tooltip		"&brandShortName; のホームページです">
 
 <!ENTITY bookmarksButton.label			"ブックマーク">
 <!ENTITY bookmarksCmd.commandkey		"b">
@@ -431,6 +438,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY customizeMenu.autoHideDownloadsButton.label		"ツールバーでは自動的に非表示にする">
 <!ENTITY customizeMenu.autoHideDownloadsButton.accesskey	"A">
+<!ENTITY customizeMenu.manageExtension.label			"拡張機能を管理">
+<!ENTITY customizeMenu.manageExtension.accesskey		"E">
 
 <!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
     app (hamburger) menu. When clicked, it opens a subview that contains
@@ -792,9 +801,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.moreInfoLinkText2		"詳細を表示">
 
+<!ENTITY identity.clearSiteData			"Cookie とサイトデータを消去...">
+
 <!ENTITY identity.permissions			"サイト別設定">
 <!ENTITY identity.permissionsEmpty		"このサイトに特別な権限は設定されていません。">
 <!ENTITY identity.permissionsReloadHint		"変更内容を適用するには、ページの再読み込みが必要です。">
+
+<!ENTITY identity.permissionsPreferences.tooltip	"サイト別設定を開きます">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
@@ -894,15 +907,23 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY getUserMedia.audioCapture.label		"このタブからの音声は共有されます。">
 <!ENTITY getUserMedia.allWindowsShared.message		"画面に表示されているすべての@@Window@@を共有します。">
 
+<!ENTITY trackingProtection.on				"トラッキング防止: オン">
+<!ENTITY trackingProtection.off				"トラッキング防止: オフ">
 <!ENTITY trackingProtection.title			"トラッキング防止">
+<!ENTITY trackingProtection.tooltip			"トラッキング防止の設定を開きます">
 <!ENTITY trackingProtection.detectedBlocked3		"ブラウジングを追跡する可能性のあるページ部品を &brandShortName; がブロックしました。">
 <!ENTITY trackingProtection.detectedNotBlocked3		"このサイトにはブラウジングを追跡する可能性のある要素が含まれていますが、トラッキング防止は無効に設定されています。">
 <!ENTITY trackingProtection.notDetected3		"このページではトラッキング要素が検出されませんでした。">
+<!ENTITY trackingProtection.detectedNotBlocked4		"このページでトラッカーが検出されました。">
+<!ENTITY trackingProtection.notDetected4		"このページではトラッカーは検出されませんでした。">
+<!ENTITY trackingProtection.reloadRequired		"トラッキング防止を有効にしました。トラッカーをすべてブロックするには、現在のウェブページを再読み込みしてください。">
 <!-- LOCALIZATION NOTE (trackingProtection.unblock.label, trackingProtection.unblock.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in NON-private browsing mode. -->
 <!ENTITY trackingProtection.unblock.label		"このサイトでは保護を無効にする">
 <!ENTITY trackingProtection.unblock.accesskey		"D">
+<!ENTITY trackingProtection.unblock2.label		"このサイトを信頼する">
+<!ENTITY trackingProtection.unblock2.accesskey		"T">
 <!-- LOCALIZATION NOTE (trackingProtection.unblockPrivate.label, trackingProtection.unblockPrivate.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in PRIVATE browsing mode. -->
@@ -910,6 +931,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingProtection.unblockPrivate.accesskey	"D">
 <!ENTITY trackingProtection.block2.label		"保護を有効にする">
 <!ENTITY trackingProtection.block2.accesskey		"E">
+
+<!ENTITY trackingProtection.unblockPrivate2.label	"このセッションのみこのサイトを信頼する">
+<!ENTITY trackingProtection.unblockPrivate2.accesskey	"T">
+<!ENTITY trackingProtection.block3.label		"トラッキング防止をオンにする">
+<!ENTITY trackingProtection.block3.accesskey		"T">
+<!ENTITY trackingProtection.reload.label		"このページを再読み込み">
+<!ENTITY trackingProtection.reload.accesskey		"R">
 
 <!ENTITY pluginNotification.showAll.label	"すべて表示">
 <!ENTITY pluginNotification.showAll.accesskey	"S">
