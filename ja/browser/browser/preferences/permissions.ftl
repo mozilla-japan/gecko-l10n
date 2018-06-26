@@ -96,6 +96,13 @@ permissions-exceptions-addons-window =
     .style = { permissions-window.style }
 permissions-exceptions-addons-desc = アドオンのインストールを許可するウェブサイトを指定できます。許可するサイトの正確なアドレスを入力して @@[@@許可@@]@@ をクリックしてください。
 
+## Exceptions - Autoplay Media
+
+permissions-exceptions-autoplay-media-window =
+    .title = 許可サイト - 自動再生
+    .style = { permissions-window.style }
+permissions-exceptions-autoplay-media-desc = media 要素の自動再生を許可するウェブサイトを指定できます。許可するサイトの正確なアドレスを入力して @@[@@許可@@]@@ をクリックしてください。
+
 ## Site Permissions - Notifications
 
 permissions-site-notification-window =

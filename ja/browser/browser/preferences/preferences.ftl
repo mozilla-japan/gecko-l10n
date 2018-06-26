@@ -19,15 +19,6 @@ pref-page =
 # This is used to determine the width of the search field in about:preferences,
 # in order to make the entire placeholder string visible
 #
-# Notice: The value of the `.style` attribute is a CSS string, and the `width`
-# is the name of the CSS property. It is intended only to adjust the element's width.
-# Do not translate.
-search-input =
-    .style = width: 15.4em
-
-# This is used to determine the width of the search field in about:preferences,
-# in order to make the entire placeholder string visible
-#
 # Please keep the placeholder string short to avoid truncation.
 #
 # Notice: The value of the `.style` attribute is a CSS string, and the `width`
@@ -162,24 +153,12 @@ set-as-my-default-browser =
     .label = @@DefaultBrowser@@にする...
     .accesskey = D
 
-startup-page = { -brand-short-name } を起動するとき
-    .accesskey = s
-
-startup-user-homepage =
-    .label = ホームページを表示する
-startup-blank-page =
-    .label = 空白ページを表示する
-startup-prev-session =
-    .label = 前回終了時の@@Window@@とタブを表示する
-
 startup-restore-previous-session =
     .label = 前回のセッションを復元する
     .accesskey = s
 
 disable-extension =
     .label = 拡張機能を無効化
-
-home-page-header = ホームページ
 
 tabs-group-header = タブグループ
 
@@ -329,8 +308,6 @@ update-application-title = { -brand-short-name } の更新
 
 update-application-description = 最高のパフォーマンスと安定性、セキュリティを提供するため { -brand-short-name } を最新の状態に保ちます。
 
-update-application-info = バージョン { $version } <a>更新情報</a>
-
 update-application-version = バージョン { $version } <a data-l10n-name="learn-more">更新情報</a>
 
 update-history =
@@ -379,8 +356,6 @@ performance-limit-content-process-option = コンテンツプロセス数の制�
     .accesskey = l
 
 performance-limit-content-process-enabled-desc = コンテンツプロセスを増やすと、複数タブの使用時にパフォーマンスが向上しますが、メモリーを多く消費します。
-performance-limit-content-process-disabled-desc = コンテンツプロセスの数はマルチプロセスの { -brand-short-name } でしか変更できません。 <a>マルチプロセスが有効になっているか確認してください</a>
-
 performance-limit-content-process-blocked-desc = コンテンツプロセスの数はマルチプロセスの { -brand-short-name } でしか変更できません。 <a data-l10n-name="learn-more">マルチプロセスが有効になっているか確認してください</a>
 
 # Variables:
@@ -469,10 +444,6 @@ use-current-pages =
 choose-bookmark =
     .label = ブックマークを使う...
     .accesskey = B
-
-restore-default =
-    .label = 初期設定に戻す
-    .accesskey = R
 
 ## Search Section
 
@@ -717,6 +688,10 @@ history-remember-option =
     .label = 表示したページとファイルのダウンロードの履歴を残す
     .accesskey = b
 
+history-remember-browser-option =
+    .label = 表示したページとファイルのダウンロードの履歴を残す
+    .accesskey = b
+
 history-remember-search-option =
     .label = 検索やフォームの入力履歴を記憶させる
     .accesskey = f
@@ -806,9 +781,9 @@ addressbar-suggestions-settings = 検索エンジンの検索候補の設定を�
 
 tracking-header = トラッキング防止
 
-tracking-desc = トラッキング防止は、複数のウェブサイトにまたがるユーザーのブラウジングデータを収集するオンラインの追跡者をブロックします。 <a data-l10n-name="learn-more">トラッキング防止とプライバシーの詳細情報</a>
+tracking-desc = トラッキング防止は、複数のウェブサイトにまたがるユーザーのブラウジングデータを収集するオンライントラッカーをブロックします。 <a data-l10n-name="learn-more">トラッキング防止とプライバシーの詳細情報</a>
 
-tracking-mode-label = トラッキング防止を使用して既知の追跡者をブロックする
+tracking-mode-label = トラッキング防止を使用して既知のトラッカーをブロックする
 
 tracking-mode-always =
     .label = 常に
@@ -822,7 +797,7 @@ tracking-mode-never =
 
 # This string is displayed if privacy.trackingprotection.ui.enabled is set to false.
 # This currently happens on the release and beta channel.
-tracking-pbm-label = プライベートブラウジングモードでトラッキング防止を使用して既知の追跡者をブロックする
+tracking-pbm-label = プライベートブラウジングモードでトラッキング防止を使用して既知のトラッカーをブロックする
     .accesskey = v
 
 tracking-exceptions =
@@ -861,6 +836,14 @@ permissions-notification-link = 詳細情報
 permissions-notification-pause =
     .label = { -brand-short-name } を再起動するまで通知を一時停止
     .accesskey = n
+
+permissions-block-autoplay-media =
+    .label = 音声付きメディアを自動再生するウェブサイトをブロックする
+    .accesskey = B
+
+permissions-block-autoplay-media-exceptions =
+    .label = 許可サイト...
+    .accesskey = E
 
 permissions-block-popups =
     .label = ポップアップウィンドウをブロックする
