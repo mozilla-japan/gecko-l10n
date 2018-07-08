@@ -80,8 +80,6 @@
 <!ENTITY cmd.preferencesWin.accesskey		"O">
 <!ENTITY cmd.preferencesUnix.label		"設定">
 <!ENTITY cmd.preferencesUnix.accesskey		"P">
-<!ENTITY cmd.about.label			"このアドオンについて">
-<!ENTITY cmd.about.accesskey			"A">
 
 <!ENTITY cmd.enableAddon.label			"有効化">
 <!ENTITY cmd.enableAddon.accesskey		"E">
@@ -131,7 +129,6 @@
 <!ENTITY detail.lastupdated.label		"更新日">
 <!ENTITY detail.creator.label			"開発者">
 <!ENTITY detail.homepage.label			"ホームページ">
-<!ENTITY detail.numberOfDownloads.label		"ダウンロード数">
 
 <!ENTITY detail.contributions.description	"このアドオンの開発者が開発を継続するための少額の寄付によるサポートを求めています。">
 
@@ -163,13 +160,6 @@
 <!-- download/install progress -->
 <!ENTITY progress.pause.tooltip			"一時停止">
 <!ENTITY progress.cancel.tooltip		"キャンセル">
-
-
-<!-- list sorting -->
-<!ENTITY sort.name.label			"名前順">
-<!ENTITY sort.name.tooltip			"リストを名前順に並べ替えます">
-<!ENTITY sort.dateUpdated.label			"更新日順">
-<!ENTITY sort.dateUpdated.tooltip		"リストを更新日順に並べ替えます">
 
 <!ENTITY addon.homepage				"ホームページ">
 <!ENTITY addon.details.label			"詳細">
@@ -212,17 +202,6 @@
 <!ENTITY eula.accept				"同意してインストールする...">
 
 <!ENTITY settings.path.button.label		"@@Browse@@...">
-
-<!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
-     experiments are present on the "Experiments" tab of the add-ons manager.
-     This tab won't be displayed unless an Experiment add-on is installed.
-     Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
-     to cause this tab to appear. -->
-<!ENTITY experiment.info.label				"What's this? Telemetry may install and run experiments from time to time.">
-<!ENTITY experiment.info.learnmore			"詳細">
-<!ENTITY experiment.info.learnmore.accesskey		"L">
-<!ENTITY experiment.info.changetelemetry		"Telemetry 設定">
-<!ENTITY experiment.info.changetelemetry.accesskey	"T">
 
 <!ENTITY setting.learnmore				"詳細...">
 
