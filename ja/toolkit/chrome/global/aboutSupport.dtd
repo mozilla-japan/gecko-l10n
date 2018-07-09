@@ -33,15 +33,6 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.featureVersion		"バージョン">
 <!ENTITY aboutSupport.featureId			"ID">
 
-<!ENTITY aboutSupport.experimentsTitle		"実験的な機能">
-<!ENTITY aboutSupport.experimentName		"名前">
-<!ENTITY aboutSupport.experimentId		"ID">
-<!ENTITY aboutSupport.experimentDescription	"説明">
-<!ENTITY aboutSupport.experimentActive		"アクティブ">
-<!ENTITY aboutSupport.experimentEndDate		"終了日">
-<!ENTITY aboutSupport.experimentHomepage	"ホームページ">
-<!ENTITY aboutSupport.experimentBranch		"ブランチ">
-
 <!ENTITY aboutSupport.appBasicsTitle		"アプリケーション基本情報">
 <!ENTITY aboutSupport.appBasicsName		"名前">
 <!ENTITY aboutSupport.appBasicsVersion		"バージョン">
