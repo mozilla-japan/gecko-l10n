@@ -8,13 +8,11 @@
 <!ENTITY certmgr.tab.others2			"個人証明書">
 <!ENTITY certmgr.tab.websites3			"サーバー証明書">
 <!ENTITY certmgr.tab.ca				"認証局証明書">
-<!ENTITY certmgr.tab.orphan2			"その他">
 
 <!ENTITY certmgr.mine2				"あなたが認証を受けるため以下の証明書が登録されています">
 <!ENTITY certmgr.others2			"他の人を識別するため以下の証明書が登録されています">
 <!ENTITY certmgr.websites3			"サーバーを識別するため以下の証明書が登録されています">
 <!ENTITY certmgr.cas2				"認証局を識別するため以下の証明書が登録されています">
-<!ENTITY certmgr.orphans2			"以下の証明書は他のいずれの分類にも属していません">
 
 <!ENTITY certmgr.detail.general_tab.title		"一般">
 <!ENTITY certmgr.detail.general_tab.accesskey		"G">
