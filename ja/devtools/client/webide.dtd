@@ -36,8 +36,6 @@
 <!ENTITY runtimeMenu_takeScreenshot_accesskey		"S">
 <!ENTITY runtimeMenu_showDetails_label			"ランタイム情報">
 <!ENTITY runtimeMenu_showDetails_accesskey		"E">
-<!ENTITY runtimeMenu_showMonitor_label			"モニター">
-<!ENTITY runtimeMenu_showMonitor_accesskey		"M">
 <!ENTITY runtimeMenu_showDevicePrefs_label		"端末の設定">
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey		"D">
 <!ENTITY runtimeMenu_showSettings_label			"端末オプション">
@@ -146,10 +144,6 @@
 <!ENTITY devicesetting_newname				"@@New-CMD@@設定名">
 <!ENTITY devicesetting_newtext				"設定値">
 <!ENTITY devicesetting_addnew				"@@New-CMD@@設定値を追加">
-
-<!-- Monitor -->
-<!ENTITY monitor_title					"モニター">
-<!ENTITY monitor_help					"ヘルプ">
 
 <!-- WiFi Authentication -->
 <!-- LOCALIZATION NOTE (wifi_auth_header): The header displayed on the dialog
