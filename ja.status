@@ -900,3 +900,4 @@ browser                 10114:e272306f7c1f   2018-06-18     hATrayflood     sync
 devtools                10114:e272306f7c1f   2018-06-18     hATrayflood     sync devtools
 toolkit                 10114:e272306f7c1f   2018-06-18     hATrayflood     sync toolkit
 dom, security           10114:e272306f7c1f   2018-06-18     hATrayflood     sync dom, security
+extensions/spellcheck  423310:c025ac36825e   2018-06-22     mar             sync spellckeck dic with en-US (mozilla-central)
