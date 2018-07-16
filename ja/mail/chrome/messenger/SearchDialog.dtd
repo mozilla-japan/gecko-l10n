@@ -19,10 +19,10 @@
 <!ENTITY results.label			"検索結果">
 <!ENTITY moveButton.label		"移動">
 <!ENTITY moveButton.accesskey		"T">
-<!ENTITY closeCmd.key			"W"> 
+<!ENTITY closeCmd.key			"W">
 <!ENTITY openInFolder.label		"フォルダーを開く">
 <!ENTITY openInFolder.accesskey		"r">
-<!ENTITY saveAsVFButton.label		"検索フォルダーとして保存"><!-- (^^; Save as Search Folder -->
+<!ENTITY saveAsVFButton.label		"検索フォルダーとして保存">
 <!ENTITY saveAsVFButton.accesskey	"v">
 
 <!-- for ABSearchDialog.xul -->

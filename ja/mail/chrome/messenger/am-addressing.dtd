@@ -25,9 +25,6 @@
 <!ENTITY useHtml.accesskey		"C">
 <!ENTITY autoQuote.label		"返信時には元のメッセージを自動的に引用する">
 <!ENTITY autoQuote.accesskey		"m">
-<!-- LOCALIZATION NOTE (then.label): This will concatenate with the 4 strings that follow. -->
-<!ENTITY then.label			"キャレットの初期状態:">
-<!ENTITY then.accesskey			"T">
 <!-- LOCALIZATION NOTE (quoting.label): This will concatenate with the 4 strings that follow. -->
 <!ENTITY quoting.label			"引用時の返答位置:">
 <!ENTITY quoting.accesskey		"q">

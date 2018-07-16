@@ -890,7 +890,7 @@ devtools                 9887:e24fb8cec1ac   2018-04-12     hATrayflood     sync
 dom, security            9905:e29f70cc99e4   2018-04-17     hATrayflood     sync dom, security
 toolkit                  9905:e29f70cc99e4   2018-04-17     hATrayflood     sync toolkit
 
-[l10n-mozilla-61.0]
+Released! [l10n-mozilla-61.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                 10024:ed55af8da7b4   2018-05-05     hATrayflood     sync browser
@@ -901,3 +901,9 @@ devtools                10114:e272306f7c1f   2018-06-18     hATrayflood     sync
 toolkit                 10114:e272306f7c1f   2018-06-18     hATrayflood     sync toolkit
 dom, security           10114:e272306f7c1f   2018-06-18     hATrayflood     sync dom, security
 extensions/spellcheck  423310:c025ac36825e   2018-06-22     mar             sync spellckeck dic with en-US (mozilla-central)
+
+[l10n-mozilla-62.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+mail, suite             10175:84cf8a3f67ef   2018-07-06     mar             sync mail, suite
+

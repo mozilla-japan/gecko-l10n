@@ -18,6 +18,10 @@
 <!ENTITY accountTypeNews.label "ニュースグループアカウント">
 <!ENTITY accountTypeNews.accesskey "w">
 
+<!-- LOCALIZATION NOTE(accountTypeMovemail.label): do not translate 'Movemail' -->
+<!ENTITY accountTypeMovemail.label "Unix Mailspool (Movemail)">
+<!ENTITY accountTypeMovemail.accesskey "U">
+
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "差出人情報">
