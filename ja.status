@@ -906,4 +906,4 @@ extensions/spellcheck  423310:c025ac36825e   2018-06-22     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mail, suite             10175:84cf8a3f67ef   2018-07-06     mar             sync mail, suite
-
+browser                 10206:0e952474978c   2018-07-18     hATrayflood     sync browser
