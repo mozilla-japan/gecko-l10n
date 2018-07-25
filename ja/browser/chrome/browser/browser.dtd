@@ -783,7 +783,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editBookmark.done.label		"完了">
 <!ENTITY editBookmark.removeBookmark.accessKey	"R">
 
-<!ENTITY editBookmark.showForNewBookmarks.label		"追加時にエディターを表示">
+<!ENTITY editBookmark.showForNewBookmarks.label		"追加時にエディターを表示する">
 <!ENTITY editBookmark.showForNewBookmarks.accesskey	"S">
 
 <!-- LOCALIZATION NOTE (identity.securityView.label)
@@ -953,11 +953,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingProtection.block2.accesskey		"E">
 
 <!ENTITY trackingProtection.tooltip			"トラッキング防止の設定を開きます">
-<!ENTITY trackingProtection.detectedBlocked4		"&brandShortName; はこのページにあるブラウジングをトラッキングしていると思われるパーツをブロックしました。">
-<!ENTITY trackingProtection.detectedNotBlocked5		"&brandShortName; はブラウジングをトラッキングしていると思われる要素を検出しました。">
-<!ENTITY trackingProtection.detectedException		"&brandShortName; はブラウジングをトラッキングしていると思われる要素を検出しました。このサイトは保護が無効になっています。">
+<!ENTITY trackingProtection.detectedBlocked4		"ブラウジングを追跡していると思われるこのページの一部を &brandShortName; がブロックしました。">
+<!ENTITY trackingProtection.detectedNotBlocked5		"ブラウジングを追跡していると思われる要素が検出されました。">
+<!ENTITY trackingProtection.detectedException		"ブラウジングを追跡していると思われる要素が検出されました。このサイトはトラッキング防止が無効になっています。">
 <!ENTITY trackingProtection.notDetected5		"このページではトラッキング要素は検出されませんでした。">
-<!ENTITY trackingProtection.notDetectedException	"このページではトラッキング要素は検出されませんでした。このサイトは保護が無効になっています。">
+<!ENTITY trackingProtection.notDetectedException	"このページではトラッキング要素は検出されませんでした。このサイトはトラッキング防止が無効になっています。">
 
 <!ENTITY trackingProtection.reloadRequired2		"トラッキング防止を有効にしました。トラッカーをすべてブロックするには、このページを再読み込みしてください。">
 <!-- LOCALIZATION NOTE (trackingProtection.unblock3.label, trackingProtection.unblock3.accesskey):
