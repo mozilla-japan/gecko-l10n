@@ -841,9 +841,18 @@ permissions-block-autoplay-media =
     .label = 音声付きメディアを自動再生するウェブサイトをブロックする
     .accesskey = B
 
+permissions-block-autoplay-media-menu = 音声を自動再生するウェブサイト
+
 permissions-block-autoplay-media-exceptions =
     .label = 許可サイト...
     .accesskey = E
+
+autoplay-option-ask =
+    .label = 毎回確認する
+autoplay-option-allow =
+    .label = 自動再生を許可
+autoplay-option-block =
+    .label = 自動再生をブロック
 
 permissions-block-popups =
     .label = ポップアップウィンドウをブロックする
