@@ -70,6 +70,15 @@
 
 <!ENTITY url_bar_default_text2 "検索するか URL を入力してください">
 
+<!-- Localization note (url_bar_qrcode_text2) : This text will be
+     heard by non-visual users when the focus is on the QR Code
+     icon in the url bar. -->
+<!ENTITY url_bar_qrcode_text2 "QR コードリーダーを使用してアドレスを検索または入力">
+<!-- Localization note (url_bar_mic_text2) : This text will be
+     heard by non-visual users when the focus is on the Microphone
+     icon in the url bar. -->
+<!ENTITY url_bar_mic_text2 "マイクを使用してアドレスを検索または入力">
+
 <!ENTITY bookmark "ブックマーク">
 <!ENTITY bookmark_remove "ブックマークを削除">
 <!ENTITY bookmark_added "ブックマークを追加しました">
@@ -207,6 +216,7 @@
 <!ENTITY pref_category_advanced_summary3 "タブの復元、データセーバー、開発者ツール">
 <!ENTITY pref_category_notifications "お知らせ">
 <!ENTITY pref_category_notifications_summary "新しい機能、ウェブサイトの更新">
+<!ENTITY pref_category_notifications_summary2 "新しい機能、製品のヒント">
 <!ENTITY pref_developer_remotedebugging_usb "USB 経由でリモートデバッグする">
 <!ENTITY pref_developer_remotedebugging_wifi "Wi-Fi 経由でリモートデバッグする">
 <!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Wi-Fi でのデバッグには端末に QR コードリーダーアプリをインストールする必要があります">
@@ -282,6 +292,13 @@
 <!ENTITY pref_whats_new_notification "&brandShortName; の新機能">
 <!ENTITY pref_whats_new_notification_summary "更新後に新機能について学びます">
 
+<!-- Localization note (pref_feature_tips_notification): Title of a new toggleable setting in Settings-Notifications screen.
+     Similar to the already existing "pref_whats_new_notification"-->
+<!ENTITY pref_feature_tips_notification "製品と機能のヒント">
+<!-- Localization note (pref_feature_tips_notification_summary): Description of a new toggleable setting in Settings-Notifications screen.
+     Similar to the already existing "pref_whats_new_notification_summary"-->
+<!ENTITY pref_feature_tips_notification_summary "&brandShortName; の使い方と他の &vendorShortName; 製品の使い方について学びます">
+
 <!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
      for experimental features. -->
 <!ENTITY pref_category_experimental "実験的な機能">
@@ -354,6 +371,8 @@
 
 <!ENTITY pref_media_autoplay_enabled "自動再生を許可する">
 <!ENTITY pref_media_autoplay_enabled_summary "ウェブサイトによる動画やメディアコンテンツの自動再生をコントロールします">
+<!ENTITY pref_media_autoplay_allow "自動再生を許可">
+<!ENTITY pref_media_autoplay_block "自動再生をブロック">
 <!ENTITY pref_zoom_force_enabled "ズームを常に有効にする">
 <!ENTITY pref_zoom_force_enabled_summary "どのページでもズームできるように設定を上書きします">
 <!ENTITY pref_voice_input "音声入力">
@@ -429,6 +448,10 @@
 <!ENTITY datareporting_crashreporter_title_short "クラッシュレポーター">
 <!ENTITY datareporting_wifi_title2 "&vendorShortName; 位置情報サービス">
 <!ENTITY datareporting_wifi_geolocation_summary4 "&vendorShortName; による世界地図の作成にご協力を！位置情報サービスの向上のため、Wi-Fi と基地局から得た端末の位置情報を共有します。">
+<!-- Localization note (datareporting_notification_title ) : This will be the title
+     of the notification shown whenever the user has enabled data reporting and the stumbler
+     service is running. -->
+<!ENTITY datareporting_stumbler_notification_title "&vendorShortName; 位置情報サービス実行中">
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
@@ -535,7 +558,7 @@
 <!ENTITY pref_compact_tabs_summary2 "縦向きモードではタブを 2 列に並べます">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
-     any page is removed frome about:home. This includes pages that are in history,
+     any page is removed from about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
 <!ENTITY page_removed "ページが削除されました">
 <!ENTITY folder_removed "フォルダーが削除されました">
@@ -750,7 +773,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      "Last synced" is one of the user's other Sync clients, typically Firefox on
      their desktop or laptop.-->
 <!ENTITY remote_tabs_last_synced "最終同期日時: &formatS;">
-<!-- Localization note: Used when the sync has not happend yet, showed in place of a date -->
+<!-- Localization note: Used when the sync has not happened yet, showed in place of a date -->
 <!ENTITY remote_tabs_never_synced "最終同期日時: なし">
 
 <!-- LOCALIZATION NOTE (intent_uri_private_browsing_prompt): This string will
@@ -870,3 +893,15 @@ See also https://bug1409261.bmoattachments.org/attachment.cgi?id=8919897 -->
 <!ENTITY pwa_add_to_launcher_badge2 "ホーム画面に追加">
 <!ENTITY pwa_continue_to_website "ウェブサイトを開く">
 <!ENTITY pwa_onboarding_sumo "このウェブサイトを簡単な操作でホーム画面に追加することで、アプリのような感覚で手軽にアクセスしたりより速くブラウジングしたりできます。">
+
+<!-- Used by accessibility services to identify the play/pause buttons shown in the
+Picture-in-picture mini window -->
+<!ENTITY pip_play_button_title "再生">
+<!ENTITY pip_play_button_description "再生を再開します">
+<!ENTITY pip_pause_button_title "一時停止">
+<!ENTITY pip_pause_button_description "再生を一時停止します">
+
+<!-- Notification channels names -->
+<!ENTITY default_notification_channel "&brandShortName;">
+<!ENTITY mls_notification_channel "&vendorShortName; 位置情報サービス">
+<!ENTITY download_notification_channel "ダウンロード">
