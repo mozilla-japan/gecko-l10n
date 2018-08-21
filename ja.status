@@ -910,3 +910,7 @@ browser                 10206:0e952474978c   2018-07-20     hATrayflood     sync
 dom                     10206:0e952474978c   2018-07-20     hATrayflood     sync dom
 devtools                10206:0e952474978c   2018-07-20     hATrayflood     sync devtools
 mobile                  10261:a63a395f6bf4   2018-08-14     mar             sync mobile
+
+[l10n-mozilla-63.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
