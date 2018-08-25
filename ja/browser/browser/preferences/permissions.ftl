@@ -103,6 +103,11 @@ permissions-exceptions-autoplay-media-window =
     .style = { permissions-window.style }
 permissions-exceptions-autoplay-media-desc = media 要素の自動再生を許可するウェブサイトを指定できます。許可するサイトの正確なアドレスを入力して @@[@@許可@@]@@ をクリックしてください。
 
+permissions-exceptions-autoplay-media-window2 =
+    .title = 例外 - 自動再生
+    .style = { permissions-window.style }
+permissions-exceptions-autoplay-media-desc2 = 音声付きメディアの自動再生を許可または拒否するウェブサイトを指定できます。設定するサイトのアドレスを入力して @@[@@ブロック@@]@@ または @@[@@許可@@]@@ をクリックしてください。
+
 ## Site Permissions - Notifications
 
 permissions-site-notification-window =

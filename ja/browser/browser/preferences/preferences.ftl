@@ -239,6 +239,10 @@ choose-button =
     .label = 言語設定...
     .accesskey = o
 
+choose-browser-language-description = メニュー、メッセージ、{ -brand-short-name } からの通知に表示される言語を選択します。
+confirm-browser-language-change-description = 変更を適用するには、{ -brand-short-name } を再起動が必要です
+confirm-browser-language-change-button = 適用して再起動
+
 translate-web-pages =
     .label = ウェブページを翻訳
     .accesskey = T
@@ -747,6 +751,30 @@ sitedata-accept-third-party-visited-option =
 sitedata-accept-third-party-never-option =
     .label = 常に拒否
 
+sitedata-allow-cookies-option =
+    .label = Cookie とサイトデータを保存する
+    .accesskey = A
+
+sitedata-disallow-cookies-option =
+    .label = Cookie とサイトデータをブロック
+    .accesskey = B
+
+# This label means 'type of content that is blocked', and is followed by a drop-down list with content types below.
+# The list items are the strings named sitedata-block-*-option*.
+sitedata-block-desc = ブロックの種類
+    .accesskey = T
+
+sitedata-block-trackers-option-recommended =
+    .label = サードパーティトラッカー (推奨)
+sitedata-block-trackers-option =
+    .label = サードパーティトラッカー
+sitedata-block-unvisited-option =
+    .label = 訪問してないウェブサイトの Cookie
+sitedata-block-all-third-parties-option =
+    .label = すべてのサードパーティトラッカー
+sitedata-block-always-option =
+    .label = すべての Cookie (ウェブサイトが動作しない可能性があります)
+
 sitedata-clear =
     .label = データを消去...
     .accesskey = l
@@ -777,6 +805,51 @@ addressbar-locbar-openpage-option =
 
 addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
 
+## Privacy Section - Content Blocking
+
+content-blocking-header = コンテンツブロッキング
+
+content-blocking-desc = 広告やコードなどのブラウザを遅くしたり、あなたを追跡するようなサードパーティコンテンツをブロックします。保護と性能の最適なバランスの設定にカスタマイズできます。
+
+content-blocking-learn-more = 詳細
+content-blocking-restore-defaults =
+  .label = @@RestoreDefaults@@
+  .accesskey = R
+
+content-blocking-toggle-on =
+  .tooltiptext = コンテンツブロッキングをオフにします
+content-blocking-toggle-off =
+  .tooltiptext = コンテンツブロッキングをオンにします
+
+content-blocking-toggle-label-on = オン
+  .accesskey = O
+content-blocking-toggle-label-off = オフ
+  .accesskey = O
+
+content-blocking-category-label = ブロック対象を選択
+
+# "Slow" in this instance means "slow to load on the network".
+# FastBlock is a feature that blocks requests to tracking sites if they
+# have not finished loading after a certain threshold of seconds.
+content-blocking-fastblock-label = 読み込みが遅いトラッカー
+  .accesskey = S
+content-blocking-fastblock-description = 読み込みに 5 秒以上かかるサードパーティコンテンツをブロックします。
+content-blocking-fastblock-option-enabled =
+  .label = 常にブロック
+content-blocking-fastblock-option-disabled =
+  .label = ブロックしない
+
+content-blocking-tracking-protection-label = トラッカー
+  .accesskey = T
+content-blocking-tracking-protection-description = 既知のトラッカーをすべてブロックします。(注意: 一部のページの読み込みを妨げる可能性があります)
+content-blocking-tracking-protection-option-enabled =
+  .label = 常にブロック
+content-blocking-tracking-protection-option-pbm =
+  .label = プライベート@@Window@@のみブロック
+content-blocking-tracking-protection-option-disabled =
+  .label = ブロックしない
+content-blocking-tracking-protection-change-blocklist = ブロックリストを変更...
+
 ## Privacy Section - Tracking
 
 tracking-header = トラッキング防止
@@ -789,7 +862,7 @@ tracking-mode-always =
     .label = 常に
     .accesskey = y
 tracking-mode-private =
-    .label = プライベートウィンドウのみ
+    .label = プライベート@@Window@@のみ
     .accesskey = l
 tracking-mode-never =
     .label = ブロックしない
@@ -851,8 +924,10 @@ autoplay-option-ask =
     .label = 毎回確認する
 autoplay-option-allow =
     .label = 自動再生を許可
-autoplay-option-block =
-    .label = 自動再生をブロック
+autoplay-option-dont =
+    .label = 自動再生しない
+
+permissions-autoplay-link = 詳細
 
 permissions-block-popups =
     .label = ポップアップウィンドウをブロックする
