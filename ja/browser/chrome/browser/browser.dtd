@@ -316,6 +316,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label		"ウェブ開発">
 <!ENTITY webDeveloperMenu.accesskey	"W">
 
+<!ENTITY devtoolsRecordExecution.label	"実行を記録">
+<!ENTITY devtoolsSaveRecording.label	"記録を保存">
+<!ENTITY devtoolsReplayExecution.label	"実行を再生">
+
 <!ENTITY inspectContextMenu.label	"要素を調査">
 <!ENTITY inspectContextMenu.accesskey	"Q">
 
@@ -631,6 +635,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY hidePluginCmd.label			"このプラグインを非表示">
 <!ENTITY hidePluginCmd.accesskey		"H">
 <!ENTITY copyLinkCmd.label			"リンクの URL をコピー">
+<!-- LOCALIZATION NOTE (copyLinkCmd.accesskey): The access keys for "Copy Link
+Location" and "Copy Email Address" should be the same if possible; the two
+context menu items are mutually exclusive. -->
 <!ENTITY copyLinkCmd.accesskey			"a">
 <!ENTITY copyImageCmd.label			"画像の URL をコピー">
 <!ENTITY copyImageCmd.accesskey			"o">
@@ -641,7 +648,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyAudioURLCmd.label			"音声の URL をコピー">
 <!ENTITY copyAudioURLCmd.accesskey		"o">
 <!ENTITY copyEmailCmd.label			"メールアドレスをコピー">
-<!ENTITY copyEmailCmd.accesskey			"E">
+<!-- LOCALIZATION NOTE (copyEmailCmd.accesskey): The access keys for "Copy Link
+Location" and "Copy Email Address" should be the same if possible; the two
+context menu items are mutually exclusive. -->
+<!ENTITY copyEmailCmd.accesskey			"A">
 <!ENTITY thisFrameMenu.label			"このフレーム">
 <!ENTITY thisFrameMenu.accesskey		"h">
 
@@ -935,6 +945,50 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY trackingProtection.on				"トラッキング防止: オン">
 <!ENTITY trackingProtection.off				"トラッキング防止: オフ">
+
+<!ENTITY contentBlocking.title				"コンテンツブロッキング">
+<!ENTITY contentBlocking.detected			"このサイトでブロック対象コンテンツが検出されました。">
+<!ENTITY contentBlocking.notDetected			"このサイトではブロック対象コンテンツは検出されませんでした。">
+<!ENTITY contentBlocking.disabled.label			"無効">
+<!ENTITY contentBlocking.disabled.tooltip		"コンテンツブロッキングを無効にしました。">
+<!ENTITY contentBlocking.exception.tooltip		"このサイトでコンテンツブロッキングを有効にしました。">
+
+<!ENTITY contentBlocking.fastBlock.label			"読み込みが遅いトラッカー">
+<!-- LOCALIZATION NOTE (contentBlocking.fastBlock.blocked.label):
+     This label signals that this type of content blocking is turned
+     ON and is successfully blocking malicious/slow content, so this is
+     a positive thing. It forms the end of the (imaginary) sentence
+     "Slow-Loading Trackers [are] Blocked"-->
+<!ENTITY contentBlocking.fastBlock.blocked.label		"ブロック済み">
+<!-- LOCALIZATION NOTE (contentBlocking.fastBlock.add.label):
+     This is displayed as a link to preferences, where the user can add
+     this specific type of content blocking. When this text is shown
+     the type of content blocking is currently not enabled. -->
+<!ENTITY contentBlocking.fastBlock.add.label			"ブロックに追加...">
+
+<!ENTITY contentBlocking.trackingProtection.label		"トラッカー">
+<!-- LOCALIZATION NOTE (contentBlocking.trackingProtection.blocked.label):
+     This label signals that this type of content blocking is turned
+     ON and is successfully blocking malicious/slow content, so this is
+     a positive thing. It forms the end of the (imaginary) sentence
+     "Trackers [are] Blocked"-->
+<!ENTITY contentBlocking.trackingProtection.blocked.label	"ブロック済み">
+<!-- LOCALIZATION NOTE (contentBlocking.trackingProtection.add.label):
+     This is displayed as a link to preferences, where the user can add
+     this specific type of content blocking. When this text is shown
+     the type of content blocking is currently not enabled. -->
+<!ENTITY contentBlocking.trackingProtection.add.label		"ブロックに追加...">
+
+<!ENTITY contentBlocking.openBreakageReportView.label			"問題を報告">
+<!ENTITY contentBlocking.breakageReportView.label			"問題を報告">
+<!ENTITY contentBlocking.breakageReportView.description			"コンテンツブロッキングは一部のウェブサイトで問題になる場合があります。問題を報告すると、&brandShortName; のすべてのユーザーの助けになります。(URL に加えてプライバシーとコンテンツブロッキングの設定も Mozilla に送信されます。)">
+<!ENTITY contentBlocking.breakageReportView.learnMore			"詳細">
+<!ENTITY contentBlocking.breakageReportView.collection.url.label	"URL">
+<!ENTITY contentBlocking.breakageReportView.collection.userAgent.label	"&brandShortName; バージョン番号">
+<!ENTITY contentBlocking.breakageReportView.collection.comments.label	"どのような問題がありましたか？ (任意)">
+<!ENTITY contentBlocking.breakageReportView.sendReport.label		"レポートを送信">
+<!ENTITY contentBlocking.breakageReportView.cancel.label		"キャンセル">
+
 <!ENTITY trackingProtection.title			"トラッキング防止">
 <!ENTITY trackingProtection.detectedBlocked3		"ブラウジングを追跡する可能性のあるページ部品を &brandShortName; がブロックしました。">
 <!ENTITY trackingProtection.detectedNotBlocked3		"このサイトにはブラウジングを追跡する可能性のある要素が含まれていますが、トラッキング防止は無効に設定されています。">
@@ -960,11 +1014,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingProtection.notDetectedException	"このページではトラッキング要素は検出されませんでした。このサイトはトラッキング防止が無効になっています。">
 
 <!ENTITY trackingProtection.reloadRequired2		"トラッキング防止を有効にしました。トラッカーをすべてブロックするには、このページを再読み込みしてください。">
+
 <!-- LOCALIZATION NOTE (trackingProtection.unblock3.label, trackingProtection.unblock3.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in NON-private browsing mode. -->
 <!ENTITY trackingProtection.unblock3.label		"このサイトは無効にする">
 <!ENTITY trackingProtection.unblock3.accesskey		"D">
+<!ENTITY trackingProtection.unblock4.label		"このサイトではブロッキングを無効にする">
+<!ENTITY trackingProtection.unblock4.accesskey		"D">
 <!-- LOCALIZATION NOTE (trackingProtection.unblockPrivate3.label, trackingProtection.unblockPrivate3.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in PRIVATE browsing mode. -->
@@ -972,6 +1029,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingProtection.unblockPrivate3.accesskey	"D">
 <!ENTITY trackingProtection.block4.label		"このサイトは有効にする">
 <!ENTITY trackingProtection.block4.accesskey		"E">
+<!ENTITY trackingProtection.unblockPrivate4.label	"一時的にブロッキングを無効にする">
+<!ENTITY trackingProtection.unblockPrivate4.accesskey	"D">
+<!ENTITY trackingProtection.block5.label		"このサイトはブロッキングを有効にする">
+<!ENTITY trackingProtection.block5.accesskey		"E">
 <!ENTITY trackingProtection.reload2.label		"ページを再読み込み">
 <!ENTITY trackingProtection.reload2.accesskey		"R">
 
