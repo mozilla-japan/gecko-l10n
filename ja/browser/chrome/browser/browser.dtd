@@ -985,7 +985,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.breakageReportView.learnMore			"詳細">
 <!ENTITY contentBlocking.breakageReportView.collection.url.label	"URL">
 <!ENTITY contentBlocking.breakageReportView.collection.userAgent.label	"&brandShortName; バージョン番号">
-<!ENTITY contentBlocking.breakageReportView.collection.comments.label	"どのような問題がありましたか？ (オプション)">
+<!ENTITY contentBlocking.breakageReportView.collection.comments.label	"どのような問題がありましたか？ (任意)">
 <!ENTITY contentBlocking.breakageReportView.sendReport.label		"レポートを送信">
 <!ENTITY contentBlocking.breakageReportView.cancel.label		"キャンセル">
 

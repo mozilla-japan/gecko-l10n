@@ -240,7 +240,7 @@ choose-button =
     .accesskey = o
 
 choose-browser-language-description = メニュー、メッセージ、{ -brand-short-name } からの通知に表示される言語を選択します。
-confirm-browser-language-change-description = 変更を適用するには、{ -brand-short-name } を再起動が必要です
+confirm-browser-language-change-description = 変更を適用するには、{ -brand-short-name } の再起動が必要です
 confirm-browser-language-change-button = 適用して再起動
 
 translate-web-pages =
@@ -769,7 +769,7 @@ sitedata-block-trackers-option-recommended =
 sitedata-block-trackers-option =
     .label = サードパーティトラッカー
 sitedata-block-unvisited-option =
-    .label = 訪問してないウェブサイトの Cookie
+    .label = 未訪問のウェブサイトの Cookie
 sitedata-block-all-third-parties-option =
     .label = すべてのサードパーティトラッカー
 sitedata-block-always-option =
@@ -809,7 +809,7 @@ addressbar-suggestions-settings = 検索エンジンの検索候補の設定を�
 
 content-blocking-header = コンテンツブロッキング
 
-content-blocking-desc = 広告やコードなどのブラウザを遅くしたり、あなたを追跡するようなサードパーティコンテンツをブロックします。保護と性能の最適なバランスの設定にカスタマイズできます。
+content-blocking-desc = ブラウザを遅くしたりウェブ上の行動を追跡したりする広告やコードなどのサードパーティコンテンツをブロックします。保護と性能の最適なバランスの設定にカスタマイズできます。
 
 content-blocking-learn-more = 詳細
 content-blocking-restore-defaults =
@@ -835,7 +835,7 @@ content-blocking-fastblock-label = 読み込みが遅いトラッカー
   .accesskey = S
 content-blocking-fastblock-description = 読み込みに 5 秒以上かかるサードパーティコンテンツをブロックします。
 content-blocking-fastblock-option-enabled =
-  .label = 常にブロック
+  .label = 常にブロックする
 content-blocking-fastblock-option-disabled =
   .label = ブロックしない
 
@@ -843,7 +843,7 @@ content-blocking-tracking-protection-label = トラッカー
   .accesskey = T
 content-blocking-tracking-protection-description = 既知のトラッカーをすべてブロックします。(注意: 一部のページの読み込みを妨げる可能性があります)
 content-blocking-tracking-protection-option-enabled =
-  .label = 常にブロック
+  .label = 常にブロックする
 content-blocking-tracking-protection-option-pbm =
   .label = プライベート@@Window@@のみブロック
 content-blocking-tracking-protection-option-disabled =

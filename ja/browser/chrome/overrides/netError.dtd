@@ -154,13 +154,13 @@ was trying to connect. -->
 
 <!ENTITY certerror.introPara2			"&brandShortName; はセキュリティ上の潜在的な脅威を検知したため、<span class='hostname'/> への接続を中止しました。このサイトに訪問すると、攻撃者がパスワードやメールアドレス、クレジットカードの詳細な情報を盗み取ろうとする恐れがあります。">
 
-<!ENTITY certerror.expiredCert.secondPara	"この問題は、あなたのコンピューターに間違った時刻が設定されて起こることもあり、&brandShortName; の安全な接続を妨げる原因になります。">
+<!ENTITY certerror.expiredCert.secondPara	"この問題は、あなたのコンピューターの時刻設定に誤りがあることが原因です。これは、&brandShortName; の安全な接続を妨げます。">
 
 <!ENTITY certerror.whatCanYouDoAboutItTitle	"どうすればいいですか？">
 
 <!ENTITY certerror.unknownIssuer.whatCanYouDoAboutIt "
 <p>この問題はウェブサイトに原因があり、あなたにできることはありません。</p>
-<p>組織内のネットワークからアクセスしている、またはアンチウイルスソフトウェアを利用している場合は、あなたの所属組織のネットワーク管理者に連絡してください。ウェブサイトの管理者に問題を報告するのもよいでしょう。</p>
+<p>組織内のネットワークからアクセスしている、またはウイルス対策ソフトウェアを利用している場合は、あなたの所属組織のネットワーク管理者に連絡してください。ウェブサイトの管理者に問題を報告するのもよいでしょう。</p>
 ">
 
 <!ENTITY certerror.expiredCert.whatCanYouDoAboutIt2 "
@@ -189,7 +189,7 @@ was trying to connect. -->
 
 <!ENTITY securityOverride.exceptionButtonLabel	"例外を追加...">
 
-<!ENTITY securityOverride.exceptionButton1Label	"リスクを承知で続行">
+<!ENTITY securityOverride.exceptionButton1Label	"危険性を承知で続行">
 
 <!ENTITY errorReporting.automatic2	"エラーを報告すると、悪意のあるサイトの特定とブロックに役立ちます">
 <!ENTITY errorReporting.learnMore	"詳細...">
