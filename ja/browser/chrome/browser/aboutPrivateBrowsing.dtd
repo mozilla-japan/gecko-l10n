@@ -30,3 +30,6 @@
 <!ENTITY trackingProtection.title                        "トラッキング防止">
 <!ENTITY trackingProtection.description2                 "いくつかのウェブサイトはインターネット上でのあなたの足跡を追跡しています。Firefox のトラッキング防止機能を使うと、あなたの閲覧状況の収集をブロックできる可能性があります。">
 <!ENTITY trackingProtection.startTour1                   "動作の仕組みを見る">
+
+<!ENTITY contentBlocking.title                           "コンテンツブロッキング">
+<!ENTITY contentBlocking.description                     "一部のウェブサイトはインターネット上の行動を監視するトラッカーを使用しています。プライベート@@Window@@では、Firefox コンテンツブロッキングが、インターネット上の行動を情報収集する多くのトラッカーを自動的にブロックします。">

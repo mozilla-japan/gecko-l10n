@@ -16,8 +16,6 @@
 <!ENTITY editBookmarkOverlay.tags.label				"タグ:">
 <!ENTITY editBookmarkOverlay.tags.accesskey			"T">
 <!ENTITY editBookmarkOverlay.tagsEmptyDesc.label		"カンマ区切りで複数入力できます">
-<!ENTITY editBookmarkOverlay.description.label			"説明:">
-<!ENTITY editBookmarkOverlay.description.accesskey		"D">
 <!ENTITY editBookmarkOverlay.keyword.label			"キーワード:">
 <!ENTITY editBookmarkOverlay.keyword.accesskey			"K">
 <!ENTITY editBookmarkOverlay.tagsExpanderDown.tooltip		"既存のタグ一覧を表示します">

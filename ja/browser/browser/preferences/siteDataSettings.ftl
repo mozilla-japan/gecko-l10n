@@ -51,9 +51,6 @@ site-data-remove-shown =
 
 ## Removing
 
-site-data-removing-window =
-    .title = { site-data-removing-header }
-
 site-data-removing-dialog =
     .title = { site-data-removing-header }
     .buttonlabelaccept = 削除

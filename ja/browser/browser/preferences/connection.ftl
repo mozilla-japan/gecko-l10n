@@ -81,3 +81,11 @@ connection-proxy-autologin =
 connection-proxy-socks-remote-dns =
     .label = SOCKS v5 を使用するときは DNS もプロキシを使用する
     .accesskey = D
+
+connection-dns-over-https =
+    .label = DNS over HTTPS を有効にする
+    .accesskey = b
+
+connection-dns-over-https-url = URL
+    .accesskey = U
+    .tooltiptext = DNS over HTTPS の解決に使用する URL
