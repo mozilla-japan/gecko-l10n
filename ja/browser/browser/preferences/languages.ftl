@@ -6,6 +6,10 @@ languages-window =
     .title = ウェブページの言語
     .style = width: 30em
 
+webpage-languages-window =
+    .title = ウェブページの言語設定
+    .style = width: 40em
+
 languages-close-key =
     .key = w
 
@@ -48,3 +52,9 @@ languages-code-format =
 
 languages-active-code-format =
     .value = { languages-code-format.label }
+
+browser-languages-window =
+    .title = { -brand-short-name } の言語設定
+    .style = width: 40em
+
+browser-languages-description = { -brand-short-name } は最初の言語を@@Default@@として表示し、必要ならば優先順位に従って代替言語を表示します。

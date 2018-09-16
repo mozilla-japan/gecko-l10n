@@ -78,7 +78,6 @@
 <!ENTITY col.url.label			"URL">
 <!ENTITY col.mostrecentvisit.label	"最近表示した日時">
 <!ENTITY col.visitcount.label		"表示回数">
-<!ENTITY col.description.label		"説明">
 <!ENTITY col.dateadded.label		"追加日時">
 <!ENTITY col.lastmodified.label		"変更日時">
 
