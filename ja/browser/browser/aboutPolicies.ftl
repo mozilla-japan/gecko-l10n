@@ -19,4 +19,4 @@ policy-errors = ポリシーエラー
 # These policies can only be set at the computer-level settings, while
 # the other policies can also be set at the user-level.
 gpo-machine-only =
-  .title = グループポリシーを使うと、このポリシーはコンピューターレベルでのみ設定できます。
+  .title = グループポリシーを利用する場合、このポリシーはコンピューターの構成にのみ適用されます。

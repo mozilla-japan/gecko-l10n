@@ -48,7 +48,7 @@ policy-DisableFormHistory = 検索とフォームの履歴を記憶しないよ�
 
 policy-DisableMasterPasswordCreation = true にすると、マスターパスワードを作成できないようにします。
 
-policy-DisablePocket = Pocket にウェブサイトを保存する機能を無効にします。
+policy-DisablePocket = ウェブページを Pocket に保存する機能を無効にします。
 
 policy-DisablePrivateBrowsing = プライベートブラウジングを無効にします。
 
@@ -56,7 +56,7 @@ policy-DisableProfileImport = メニューコマンド @@[@@他のブラウザ�
 
 policy-DisableProfileRefresh = about:support ページの @@[@@{ -brand-short-name } をリフレッシュ@@]@@ ボタンを無効にします。
 
-policy-DisableSafeMode = セーフモードで再起動する機能を無効にします。注意: Windows では、Shift キーでセーフモードで起動する機能は、グループポリシーのみで無効にできます。
+policy-DisableSafeMode = セーフモードで再起動する機能を無効にします。注意: Shift キーでセーフモードを起動する機能は、Windows でグループポリシーを利用する場合のみ無効にできます。
 
 policy-DisableSecurityBypass = ユーザーが特定のセキュリティ警告を回避できないようにします。
 
@@ -64,18 +64,18 @@ policy-DisableSetDesktopBackground = メニューコマンド @@[@@デスクト�
 
 policy-DisableSetAsDesktopBackground = メニューコマンド @@[@@デスクトップの背景に設定@@]@@ を無効にします。
 
-policy-DisableSystemAddonUpdate = ブラウザのシステムアドオンのインストールと更新を禁止します。
+policy-DisableSystemAddonUpdate = ブラウザーのシステムアドオンのインストールと更新を禁止します。
 
 policy-DisableTelemetry = Telemetry をオフにします。
 
-policy-DisplayBookmarksToolbar = ブックマークツールバーを@@Default@@で無効にします。
+policy-DisplayBookmarksToolbar = ブックマークツールバーを@@Default@@で表示します。
 
-policy-DisplayMenuBar = メニューバーを@@Default@@で無効にします。
+policy-DisplayMenuBar = メニューバーを@@Default@@で表示します。
 
 policy-DontCheckDefaultBrowser = 起動時に@@DefaultBrowser@@か確認する機能を無効にします。
 
 # “lock” means that the user won’t be able to change this setting
-policy-EnableTrackingProtection = コンテンツブロッキングと設定のロックを有効または無効にします。
+policy-EnableTrackingProtection = コンテンツブロッキングを有効または無効にし、任意で設定をロックします。
 
 # A “locked” extension can’t be disabled or removed by the user. This policy
 # takes 3 keys (“Install”, ”Uninstall”, ”Locked”), you can either keep them in
@@ -88,21 +88,21 @@ policy-FlashPlugin = Flash プラグインの実行を許可、または拒否�
 policy-HardwareAcceleration = false にすると、ハードウェアアクセラレーションをオフにします。
 
 # “lock” means that the user won’t be able to change this setting
-policy-Homepage = ホームページの指定とロックを指示します。
+policy-Homepage = ホームページを設定し、任意でロックします。
 
 policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
 
-policy-NoDefaultBookmarks = { -brand-short-name } の初期ブックマークとスマートブックマーク (よく見るページ、最近付けたタグ) の作成を無効にします。注意; このポリシーはプロファイルの初回起動より前に設定された場合のみ有効です。
+policy-NoDefaultBookmarks = { -brand-short-name } の初期ブックマークとスマートブックマーク (よく見るページ、最近付けたタグ) の作成を無効にします。注意: このポリシーはプロファイルの初回起動より前に設定された場合のみ有効です。
 
 policy-OfferToSaveLogins = { -brand-short-name } に保存したログイン情報とパスワードを利用する設定を強制します。値は true か false を設定します。
 
-policy-OverrideFirstRunPage = 初回起動時に表示されるページを上書きします。初回起動時のページを無効にする場合は、このポリシーを空文字に設定します。
+policy-OverrideFirstRunPage = 初回起動時に表示されるページを上書きします。初回起動時のページを無効にする場合は、このポリシーの設定をブランクにします。
 
-policy-OverridePostUpdatePage = 更新後に表示される更新情報ページを上書きします。更新後のページを無効にするには、このポリシーを空文字に設定します。
+policy-OverridePostUpdatePage = 更新後に表示される更新情報ページを上書きします。更新後のページを無効にするには、このポリシーの設定をブランクにします。
 
 policy-Permissions = カメラ、マイク、位置情報、通知の許可と拒否を設定します。
 
-policy-PopupBlocking = 特定のウェブサイトのポッポアップの表示を@@Default@@で許可します。
+policy-PopupBlocking = 特定のウェブサイトのポッポアップ表示を@@Default@@で許可します。
 
 policy-Proxy = プロキシの設定を指示します。
 
@@ -114,4 +114,4 @@ policy-SearchEngines = 検索エンジンの設定を指示します。このポ
 
 # “format” refers to the format used for the value of this policy. See also:
 # https://github.com/mozilla/policy-templates/blob/master/README.md#websitefilter-machine-only
-policy-WebsiteFilter = 指定したウェブサイトをブロックします。書式の詳細はドキュメントをご覧ください。
+policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細はドキュメントをご覧ください。
