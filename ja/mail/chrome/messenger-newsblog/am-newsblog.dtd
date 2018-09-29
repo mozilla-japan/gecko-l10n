@@ -4,6 +4,7 @@
 
 <!ENTITY loginAtStartup.label		"起動時に新着記事を確認する">
 <!ENTITY loginAtStartup.accesskey	"C">
+
 <!ENTITY biffAll.label			"すべてのフィードの更新を有効にする">
 <!ENTITY biffAll.accesskey		"E">
 
