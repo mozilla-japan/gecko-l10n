@@ -916,4 +916,5 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 browser                 10414:0f4f02546fa4   2018-09-07     hATrayflood     sync browser
 mail, calendar          10476:8813cb7614b1   2018-09-27     mar             sync mail, calendar
+dvtools                 10414:0f4f02546fa4   2018-09-07     hATrayflood     sync devtools
 
