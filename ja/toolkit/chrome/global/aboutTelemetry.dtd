@@ -37,7 +37,6 @@
 <!ENTITY aboutTelemetry.eventsSection		"イベント">
 <!ENTITY aboutTelemetry.simpleMeasurementsSection	"統計情報">
 <!ENTITY aboutTelemetry.slowSqlSection		"動作の遅い SQL 文">
-<!ENTITY aboutTelemetry.chromeHangsSection	"ブラウザーの動作停止">
 <!ENTITY aboutTelemetry.addonDetailsSection	"アドオンの詳細">
 <!ENTITY aboutTelemetry.capturedStacksSection	"捕捉したスタック">
 <!ENTITY aboutTelemetry.lateWritesSection	"遅延書き込み">
