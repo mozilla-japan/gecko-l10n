@@ -844,9 +844,9 @@ content-blocking-category-label = ブロック対象を選択
 # FastBlock is a feature that blocks requests to tracking sites if they
 # have not finished loading after a certain threshold of seconds.
 content-blocking-fastblock-slow-loading-trackers-label =
-  .label = 読み込みが遅いトラッカー
+  .label = 読み込みを遅くするトラッカー
   .accesskey = S
-content-blocking-fastblock-new-description = 読み込みが遅くならないトラッカーのみブロックします。
+content-blocking-fastblock-new-description = ページの読み込みを遅くするトラッカーのみブロックします。
 content-blocking-tracking-protection-all-detected-trackers-label =
   .label = 検出されたすべてのトラッカー
   .accesskey = T

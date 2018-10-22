@@ -27,12 +27,6 @@
 <!ENTITY firstrun_button_next "次へ">
 
 <!ENTITY firstrun_tabqueue_title "リンク">
-<!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
-<!ENTITY firstrun_tabqueue_message_off "タブキューを有効にする">
-<!ENTITY firstrun_tabqueue_subtext_off "他のアプリでタップしたリンクを &brandShortName; に保存しましょう。">
-
-<!ENTITY firstrun_tabqueue_message_on "成功！">
-<!ENTITY firstrun_tabqueue_subtext_on "この機能はいつでも &pref_category_general; 内の &settings; から変更できます。">
 
 <!ENTITY firstrun_readerview_title "記事">
 <!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
@@ -69,7 +63,6 @@
 <!ENTITY  crash_restart_label "&brandShortName; を再起動">
 
 <!ENTITY url_bar_default_text2 "検索するか URL を入力してください">
-
 <!-- Localization note (url_bar_qrcode_text2) : This text will be
      heard by non-visual users when the focus is on the QR Code
      icon in the url bar. -->
@@ -215,7 +208,6 @@
      “storing data”. -->
 <!ENTITY pref_category_advanced_summary3 "タブの復元、データセーバー、開発者ツール">
 <!ENTITY pref_category_notifications "お知らせ">
-<!ENTITY pref_category_notifications_summary "新しい機能、ウェブサイトの更新">
 <!ENTITY pref_category_notifications_summary2 "新しい機能、製品のヒント">
 <!ENTITY pref_developer_remotedebugging_usb "USB 経由でリモートデバッグする">
 <!ENTITY pref_developer_remotedebugging_wifi "Wi-Fi 経由でリモートデバッグする">
@@ -905,3 +897,8 @@ Picture-in-picture mini window -->
 <!ENTITY default_notification_channel "&brandShortName;">
 <!ENTITY mls_notification_channel "&vendorShortName; 位置情報サービス">
 <!ENTITY download_notification_channel "ダウンロード">
+<!ENTITY media_notification_channel "メディア再生">
+<!-- These push notifications come without a specific channel and/or name from Leanplum -->
+<!ENTITY leanplum_default_notifications_channel "&brandShortName; プッシュ通知">
+<!ENTITY updater_notification_channel "アプリの更新">
+<!ENTITY synced_tabs_notification_channel "同期したタブ">

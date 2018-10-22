@@ -47,3 +47,8 @@
 <!ENTITY  autologinproxy.tooltip        "このオプションは、プロキシへのパスワードが保存してある場合、確認することなく認証を行います。認証に失敗した場合は確認を行います。">
 <!ENTITY  socksRemoteDNS.label		"SOCKS v5 を使用するときは DNS もプロキシを使用する">
 <!ENTITY  socksRemoteDNS.accesskey	"d">
+<!ENTITY  dnsOverHttps.label		"DNS over HTTPS を有効にする">
+<!ENTITY  dnsOverHttps.accesskey	"b">
+<!ENTITY  dnsOverHttpsUrl.label		"URL">
+<!ENTITY  dnsOverHttpsUrl.accesskey	"R">
+<!ENTITY  dnsOverHttpsUrl.tooltip	"DNS over HTTPS の解決に使用する URL">
