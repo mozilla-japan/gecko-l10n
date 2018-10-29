@@ -762,7 +762,7 @@ mail                   ------:------------  23016:f2769a8a63d4   mar            
 suite                  ------:------------  23023:2623ca18e381   mar             sync suite
 devtools/client        356614:749a8d32b74e  -----:------------   mar             sync devtools/client (mozilla-beta)
 
-Released! [l10n-mozilla-52.0]
+Released! [l10n-mozilla-52.0] (ESR)
 target dir             mozilla and comm hg changeset rev:id      by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar               ------:------------  23715:c35b6d3cea5b   mar             sync calendar
@@ -877,7 +877,7 @@ toolkit                  9494:dbf3963d93f8   2018-01-23     mar             sync
 browser                  9490:ba991d9d4ca9   2018-01-21     hATrayflood     sync browser
 dom, security            9656:9ce11d4bed99   2018-03-02     mar             sync dom, security (includes 60.0)
 
-Released! [l10n-mozilla-60.0]
+Released! [l10n-mozilla-60.0] (ESR)
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar                 9681:598956653955   2018-03-09     mar             sync calendar
@@ -911,7 +911,7 @@ dom                     10206:0e952474978c   2018-07-20     hATrayflood     sync
 devtools                10206:0e952474978c   2018-07-20     hATrayflood     sync devtools
 mobile                  10261:a63a395f6bf4   2018-08-14     mar             sync mobile
 
-[l10n-mozilla-63.0]
+Released! [l10n-mozilla-63.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                 10414:0f4f02546fa4   2018-09-07     hATrayflood     sync browser
@@ -920,4 +920,8 @@ devtools                10414:0f4f02546fa4   2018-09-07     hATrayflood     sync
 dom, netwerk, security, toolkit
                         10414:0f4f02546fa4   2018-09-07     hATrayflood     sync dom, netwerk, security, toolkit
 mobile                  10476:8813cb7614b1   2018-09-27     mar             sync mobile
+
+[l10n-mozilla-64.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
 
