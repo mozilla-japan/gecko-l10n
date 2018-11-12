@@ -2,9 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loginAtStartup.label		"起動時に新着記事を確認する">
-<!ENTITY loginAtStartup.accesskey	"C">
-
 <!ENTITY biffAll.label			"すべてのフィードの更新を有効にする">
 <!ENTITY biffAll.accesskey		"E">
 

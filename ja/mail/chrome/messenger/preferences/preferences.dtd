@@ -19,8 +19,11 @@
 <!ENTITY paneAttachments.title	"添付ファイル">
 <!ENTITY panePrivacy.title	"プライバシー">
 <!ENTITY paneSecurity.title	"セキュリティ">
+<!ENTITY paneLightning.title	"カレンダー">
 <!ENTITY paneAdvanced.title	"詳細">
 <!ENTITY paneAccount.title	"アカウント">
+
+<!ENTITY addonsButton.label	"拡張機能とテーマ">
 
 <!ENTITY okButton.title		"OK">
 <!ENTITY okButton.accesskey	"O">

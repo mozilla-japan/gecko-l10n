@@ -181,3 +181,6 @@ functionality specific to thunderbird. -->
 <!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> は攻撃に対して脆弱な古いセキュリティ技術を使用しています。攻撃者は保護された情報を簡単に暴露できます。サイトを安全に訪れるには、このウェブサイトの管理者にサーバーの問題を修正してもらう必要があります。</p><p>エラーコード: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
 
 <!ENTITY blockedByPolicy.title		"ブロックされたページ">
+
+<!ENTITY networkProtocolError.title	"ネットワークプロトコルエラー">
+<!ENTITY networkProtocolError.longDesc	"<p>ネットワークプロトコル内にエラーが検出されたため、閲覧しようとしているページは表示できません。</p><ul><li>ウェブサイトの所有者に連絡を取り、この問題を報告してください。</li></ul>">
