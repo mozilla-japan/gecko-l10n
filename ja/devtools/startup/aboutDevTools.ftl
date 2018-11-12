@@ -45,5 +45,10 @@ features-performance-desc = ボトルネックを取り除き、プロセスと�
 features-memory-title = メモリー
 features-memory-desc = メモリーリークを発見して、アプリケーションを高速化できます。 <a data-l10n-name="learn-more">{ features-learn-more }</a>
 # Variables:
+#   $errorDescription (String) - The error that occurred e.g. 404 - Not Found
+newsletter-error-common = 購読を申し込めませんでした。({ $errorDescription })
+newsletter-error-unknown = 予期しないエラーが発生しました。
+newsletter-error-timeout = 購読の申し込みがタイムアウトしました。
+# Variables:
 #   $shortcut (String) - The keyboard shortcut used for the tool
 welcome-message = 開発ツールを有効にしました！ ウェブ開発メニューを開くか、{ $shortcut } でツールを開くと、開発ツールが使えます。
