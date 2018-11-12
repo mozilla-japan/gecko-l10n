@@ -121,3 +121,80 @@ legacy-warning-show-legacy = 旧式の拡張機能を表示
 legacy-extensions =
     .value = 旧式の拡張機能
 legacy-extensions-description = これらの拡張機能は、現在の { -brand-short-name } 標準に適さないため無効化されています。 <label data-l10n-name="legacy-learn-more">アドオンシステムの変更についての詳細</label>
+extensions-view-discover =
+    .name = アドオン入手
+    .tooltiptext = { extensions-view-discover.name }
+extensions-view-recent-updates =
+    .name = 最近の更新
+    .tooltiptext = { extensions-view-recent-updates.name }
+extensions-view-available-updates =
+    .name = 更新可能
+    .tooltiptext = { extensions-view-available-updates.name }
+
+## These are global warnings
+
+extensions-warning-safe-mode-label =
+    .value = セーフモードによりすべてのアドオンが無効化されています。
+extensions-warning-safe-mode-container =
+    .tooltiptext = { extensions-warning-safe-mode-label.value }
+extensions-warning-check-compatibility-label =
+    .value = アドオンの互換性確認は無効化されています。互換性のないアドオンがインストールされています。
+extensions-warning-check-compatibility-container =
+    .tooltiptext = { extensions-warning-check-compatibility-label.value }
+extensions-warning-check-compatibility-enable =
+    .label = 有効化
+    .tooltiptext = アドオンの互換性の確認を有効化します
+extensions-warning-update-security-label =
+    .value = 更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。
+extensions-warning-update-security-container =
+    .tooltiptext = { extensions-warning-update-security-label.value }
+extensions-warning-update-security-enable =
+    .label = 有効化
+    .tooltiptext = アドオンの更新のセキュリティ確認を有効化します
+
+## Strings connected to add-on updates
+
+extensions-updates-check-for-updates =
+    .label = 今すぐ更新を確認
+    .accesskey = C
+extensions-updates-view-updates =
+    .label = 最近更新したアドオンを表示
+    .accesskey = V
+
+# This menu item is a checkbox that toggles the default global behavior for
+# add-on update checking.
+
+extensions-updates-update-addons-automatically =
+    .label = アドオンを自動的に更新
+    .accesskey = A
+
+## Specific add-ons can have custom update checking behaviors ("Manually",
+## "Automatically", "Use default global behavior"). These menu items reset the
+## update checking behavior for all add-ons to the default global behavior
+## (which itself is either "Automatically" or "Manually", controlled by the
+## extensions-updates-update-addons-automatically.label menu item).
+
+extensions-updates-reset-updates-to-automatic =
+    .label = すべてのアドオンを自動的に更新
+    .accesskey = R
+extensions-updates-reset-updates-to-manual =
+    .label = すべてのアドオンを手動で更新
+    .accesskey = R
+
+## Status messages displayed when updating add-ons
+
+extensions-updates-updating =
+    .value = 更新を確認しています
+extensions-updates-installed =
+    .value = アドオンが更新されました。
+extensions-updates-downloaded =
+    .value = アドオンの更新がダウンロードされました。
+extensions-updates-restart =
+    .label = 再起動して更新を完了してください
+extensions-updates-none-found =
+    .value = 更新は見つかりませんでした
+extensions-updates-manual-updates-found =
+    .label = 更新可能なアドオンを表示
+extensions-updates-update-selected =
+    .label = 更新をインストール
+    .tooltiptext = このリストの更新可能なアドオンをインストールします
