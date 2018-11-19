@@ -5,56 +5,51 @@
 permissions-window =
     .title = 例外サイト
     .style = width: 40em
-
 permissions-close-key =
     .key = w
-
 permissions-address = ウェブサイトのアドレス
     .accesskey = d
-
 permissions-block =
     .label = 不許可
     .accesskey = B
-
 permissions-session =
     .label = 現在のセッションのみ
     .accesskey = S
-
 permissions-allow =
     .label = 許可
     .accesskey = A
-
 permissions-site-name =
     .label = ウェブサイト
-
 permissions-status =
     .label = 現在の設定
-
 permissions-remove =
     .label = ウェブサイトを削除
     .accesskey = R
-
 permissions-remove-all =
     .label = すべてのウェブサイトを削除
     .accesskey = e
-
 permissions-button-cancel =
     .label = キャンセル
     .accesskey = C
-
 permissions-button-ok =
     .label = 変更を保存
     .accesskey = S
-
 permissions-searchbox =
     .placeholder = ウェブサイトを検索
-
 permissions-capabilities-allow =
     .label = 許可
 permissions-capabilities-block =
     .label = 不許可
 permissions-capabilities-prompt =
     .label = 常に確認
+permissions-capabilities-listitem-allow =
+    .value = 許可
+permissions-capabilities-listitem-block =
+    .value = 不許可
+permissions-capabilities-listitem-allow-first-party =
+    .value = ファーストパーティのみ
+permissions-capabilities-listitem-allow-session =
+    .value = 現在のセッションのみ
 
 ## Invalid Hostname Dialog
 
@@ -97,11 +92,6 @@ permissions-exceptions-addons-window =
 permissions-exceptions-addons-desc = アドオンのインストールを許可するウェブサイトを指定できます。許可するサイトの正確なアドレスを入力して @@[@@許可@@]@@ をクリックしてください。
 
 ## Exceptions - Autoplay Media
-
-permissions-exceptions-autoplay-media-window =
-    .title = 許可サイト - 自動再生
-    .style = { permissions-window.style }
-permissions-exceptions-autoplay-media-desc = media 要素の自動再生を許可するウェブサイトを指定できます。許可するサイトの正確なアドレスを入力して @@[@@許可@@]@@ をクリックしてください。
 
 permissions-exceptions-autoplay-media-window2 =
     .title = 例外 - 自動再生
