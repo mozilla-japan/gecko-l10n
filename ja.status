@@ -924,4 +924,6 @@ mobile                  10476:8813cb7614b1   2018-09-27     mar             sync
 [l10n-mozilla-64.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
+mail, calendar, editor/ui
+                        10739:31cb4e5b671f   2018-11-08     mar             sync mail, calendar, editor/ui
 

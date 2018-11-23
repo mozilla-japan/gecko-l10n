@@ -71,8 +71,6 @@
 <!ENTITY updateAuto.accesskey			"A">
 <!ENTITY updateCheck.label			"更新を確認するが、インストールするかどうかを選択する">
 <!ENTITY updateCheck.accesskey			"C">
-<!ENTITY updateManual.label			"更新を確認しない (非推奨: セキュリティリスク)">
-<!ENTITY updateManual.accesskey			"N">
 <!ENTITY updateHistory.label			"更新履歴を表示">
 <!ENTITY updateHistory.accesskey		"p">
 

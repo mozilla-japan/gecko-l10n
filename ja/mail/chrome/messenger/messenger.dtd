@@ -447,6 +447,9 @@
 <!ENTITY openConversationCmd.label	"スレッドを@@NewTab@@で開く"><!-- en-US: "Open in Conversation" -->
 <!ENTITY openConversationCmd.accesskey	"s">
 <!ENTITY openConversationCmd.key	"o">
+<!ENTITY openInConversationCmd.label	"スレッドを@@NewTab@@で開く">
+<!ENTITY openInConversationCmd.accesskey "s">
+<!ENTITY openInConversationCmd.key	"o">
 <!ENTITY openAttachmentListCmd.label	"添付ファイル">
 <!ENTITY openAttachmentListCmd.accesskey "h">
 <!ENTITY openFeedMessage1.label		"フィードメッセージを開く">
