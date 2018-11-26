@@ -4,6 +4,8 @@
 <!ENTITY addons.windowTitle			"アドオンマネージャー">
 
 <!ENTITY search.placeholder2			"addons.mozilla.org を検索">
+
+<!ENTITY search.placeholder3			"addons.mozilla.org を検索">
 <!ENTITY search.buttonlabel			"検索">
 <!-- LOCALIZATION NOTE (search.commandkey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
@@ -41,6 +43,10 @@
 <!ENTITY view.discover.label			"アドオン入手">
 <!ENTITY view.recentUpdates.label		"最近の更新">
 <!ENTITY view.availableUpdates.label		"更新可能">
+
+<!ENTITY helpButton.label		"アドオンのサポート">
+<!ENTITY preferencesWin.label		"&brandShortName; オプション">
+<!ENTITY preferencesUnix.label		"&brandShortName; 設定">
 
 <!-- addon updates -->
 <!ENTITY updates.checkForUpdates.label		"今すぐ更新を確認">
@@ -81,6 +87,7 @@
 <!ENTITY cmd.preferencesUnix.label		"設定">
 <!ENTITY cmd.preferencesUnix.accesskey		"P">
 
+<!-- addon actions -->
 <!ENTITY cmd.enableAddon.label			"有効化">
 <!ENTITY cmd.enableAddon.accesskey		"E">
 <!ENTITY cmd.disableAddon.label			"無効化">
@@ -159,6 +166,8 @@
 
 <!-- download/install progress -->
 <!ENTITY progress.pause.tooltip			"一時停止">
+
+<!-- download/install progress -->
 <!ENTITY progress.cancel.tooltip		"キャンセル">
 
 <!ENTITY addon.homepage				"ホームページ">
