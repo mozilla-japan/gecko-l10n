@@ -15,6 +15,7 @@ pw-change-success-title = パスワードを正常に変更しました
 pw-change-failed-title = パスワードを変更できませんでした
 pw-remove-button =
     .label = 削除
+
 set-password =
     .title = マスターパスワードの変更
 set-password-old-password = 現在のパスワード:
@@ -22,8 +23,9 @@ set-password-new-password = 新しいパスワード:
 set-password-reenter-password = 新しいパスワード(再入力):
 set-password-meter = パスワード品質レベル
 set-password-meter-loading = 読み込み中
-master-password-description = マスターパスワードはサイトパスワードなどの機密情報を保護するために使用されます。マスターパスワードを設定すると、マスターパスワードで保護された情報をセッションで最初に読み出すときに、マスターパスワードの入力を求められます。
+master-password-description = マスターパスワードはサイトパスワードなどの機密情報を保護するために使用されます。マスターパスワードを設定すると、そのパスワードで保護された情報を { -brand-short-name } が読み出すとき、セッションごとにマスターパスワードの入力を求められます。
 master-password-warning = マスターパスワードは決して忘れないようにしてください。マスターパスワードを忘れてしまうと、それにより保護されている一切の情報にアクセスできなくなります。
+
 remove-password =
     .title = マスターパスワードを削除
 remove-info =
