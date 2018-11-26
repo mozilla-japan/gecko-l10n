@@ -291,6 +291,18 @@
      Similar to the already existing "pref_whats_new_notification_summary"-->
 <!ENTITY pref_feature_tips_notification_summary "&brandShortName; の使い方と他の &vendorShortName; 製品の使い方について学びます">
 
+<!-- Localization note (pref_feature_tips_notification_enabling_hint):
+     Describe the action the user should do to enable this preference
+     Will be used in the context "<Turn on> ... to enable this feature" -->
+<!ENTITY pref_feature_tips_notification_enabling_hint "有効化">
+
+<!-- Localization note (pref_feature_tips_notification_enabling_path):
+     Nothing to translate. Simple concatenation of already localized strings. Result is used below. -->
+<!ENTITY pref_feature_tips_notification_enabling_path "&pref_category_privacy_short; > &pref_category_datareporting; > &datareporting_fhr_title;">
+<!-- Localization note (pref_feature_tips_notification_enabling_hint):
+     Describe the action the user should do to enable this preference. -->
+<!ENTITY pref_feature_tips_notification_enabling_hint2 "(このオプションを有効にするには、&pref_feature_tips_notification_enabling_path; を有効にしておく必要があります。)">
+
 <!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
      for experimental features. -->
 <!ENTITY pref_category_experimental "実験的な機能">
@@ -362,7 +374,6 @@
 <!ENTITY pref_use_system_font_size_summary "コンテンツをシステムのフォントサイズに合わせて拡大縮小します">
 
 <!ENTITY pref_media_autoplay_enabled "自動再生を許可する">
-<!ENTITY pref_media_autoplay_enabled_summary "ウェブサイトによる動画やメディアコンテンツの自動再生をコントロールします">
 <!ENTITY pref_media_autoplay_allow "自動再生を許可">
 <!ENTITY pref_media_autoplay_block "自動再生をブロック">
 <!ENTITY pref_zoom_force_enabled "ズームを常に有効にする">
@@ -826,13 +837,10 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE(corrupt_apk): This notification is shown if corruption has been detected on startup and the user has to reinstall Firefox -->
 <!ENTITY corrupt_apk "&brandShortName; を開くことができません。再インストールをお試しください。">
 
-<!ENTITY eol_notification_title2 "&brandShortName; はこれ以上更新されません">
-<!ENTITY eol_notification_summary "タップして詳細を表示">
-
 <!-- LOCALIZATION NOTE (whatsnew_notification_title, whatsnew_notification_summary): These strings
      are used for a system notification that's shown to users after the app updates. -->
 <!ENTITY whatsnew_notification_title "&brandShortName; は最新版です">
-<!ENTITY whatsnew_notification_summary "このバージョンの新機能を知りましょう">
+<!ENTITY whatsnew_notification_summary "このバージョンの新機能">
 
 <!ENTITY promotion_add_page_shortcut "ページのショートカットを追加">
 
@@ -895,10 +903,19 @@ Picture-in-picture mini window -->
 
 <!-- Notification channels names -->
 <!ENTITY default_notification_channel "&brandShortName;">
+
+<!-- Notification channels names -->
+<!ENTITY default_notification_channel2 "ブラウザー">
 <!ENTITY mls_notification_channel "&vendorShortName; 位置情報サービス">
 <!ENTITY download_notification_channel "ダウンロード">
 <!ENTITY media_notification_channel "メディア再生">
 <!-- These push notifications come without a specific channel and/or name from Leanplum -->
 <!ENTITY leanplum_default_notifications_channel "&brandShortName; プッシュ通知">
+<!ENTITY media_notification_channel2 "音声と動画">
+<!-- These push notifications come without a specific channel and/or name from Leanplum -->
+<!ENTITY leanplum_default_notifications_channel2 "&vendorShortName; ヒントと活用法">
 <!ENTITY updater_notification_channel "アプリの更新">
 <!ENTITY synced_tabs_notification_channel "同期したタブ">
+<!-- LOCALIZATION NOTE (site_notifications_channel): This is for system notifications displayed by
+web sites through the HTML Notifications API. -->
+<!ENTITY site_notifications_channel "サイト通知">

@@ -928,4 +928,5 @@ mail, calendar, editor/ui
                         10739:31cb4e5b671f   2018-11-08     mar             sync mail, calendar, editor/ui
 dom, netwerk, security, toolkit
                         10799:09285ba53901   2018-11-21     mar             sync dom, netwerk, security, toolkit
+mobile                  10799:09285ba53901   2018-11-21     mar             sync mobile
 
