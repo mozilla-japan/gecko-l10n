@@ -23,10 +23,22 @@
 <!ENTITY  reloadTab.accesskey		"R">
 <!ENTITY  reloadAllTabs.label		"すべてのタブを再読み込み">
 <!ENTITY  reloadAllTabs.accesskey	"A">
+<!ENTITY  selectAllTabs.label		"すべてのタブを選択">
+<!ENTITY  selectAllTabs.accesskey	"S">
 <!-- LOCALIZATION NOTE (duplicateTab.label): This is a command to duplicate
 a tab (i.e. it is a verb, not adjective). -->
 <!ENTITY  duplicateTab.label		"タブを複製">
+<!-- LOCALIZATION NOTE (duplicateTab.accesskey, duplicateTabs.accesskey):
+These items have the same accesskey but will never be visible at the same time. -->
 <!ENTITY  duplicateTab.accesskey	"D">
+<!ENTITY  closeTabOptions.label		"タブのオプションを閉じる">
+<!ENTITY  closeTabOptions.accesskey	"O">
+<!-- LOCALIZATION NOTE (duplicateTabs.label): This is a command to duplicate
+a tab (i.e. it is a verb, not adjective). -->
+<!ENTITY  duplicateTabs.label		"タブを複製">
+<!-- LOCALIZATION NOTE (duplicateTab.accesskey, duplicateTabs.accesskey):
+These items have the same accesskey but will never be visible at the same time. -->
+<!ENTITY  duplicateTabs.accesskey	"D">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
@@ -38,20 +50,30 @@ left instead of right. -->
 <!ENTITY  closeSelectedTabs.label	"選択したタブを閉じる">
 <!ENTITY  closeSelectedTabs.accesskey	"S">
 
+<!ENTITY  closeTabs.label		"タブを閉じる">
+<!ENTITY  closeTabs.accesskey		"S">
 <!ENTITY  pinSelectedTabs.label			"タブをピン留め">
-<!-- Pin Tab and Pin Selected Tabs have the same accesskey
-but will never be visible at the same time. -->
+<!-- LOCALIZATION NOTE(pinTab.accesskey, pinSelectedTabs.accesskey,
+unpinTab.accesskey, unpinSelectedTabs.accesskey): These share the
+same accesskey but will never be visible at the same time. -->
 <!ENTITY  pinSelectedTabs.accesskey		"P">
 <!ENTITY  unpinSelectedTabs.label		"タブのピン留めを外す">
-<!-- Unpin Tab and Unpin Selected Tabs have the same accesskey
-but will never be visible at the same time. -->
-<!ENTITY  unpinSelectedTabs.accesskey		"b">
+<!-- LOCALIZATION NOTE(pinTab.accesskey, pinSelectedTabs.accesskey,
+unpinTab.accesskey, unpinSelectedTabs.accesskey): These share the
+same accesskey but will never be visible at the same time. -->
+<!ENTITY  unpinSelectedTabs.accesskey		"p">
 <!-- Reload Tab and Reload Selected Tabs have the same accesskey
 but will never be visible at the same time. -->
 <!ENTITY  reloadSelectedTabs.label		"選択したタブを再読み込み">
 <!ENTITY  reloadSelectedTabs.accesskey		"R">
+<!-- LOCALIZATION NOTE(reloadTab.label, reloadTabs.label): have the same accesskey
+but will never be visible at the same time. -->
+<!ENTITY  reloadTabs.label			"タブを再読み込み">
+<!ENTITY  reloadTabs.accesskey			"R">
 <!ENTITY  bookmarkSelectedTabs.label		"タブをブックマーク...">
-<!ENTITY  bookmarkSelectedTabs.accesskey	"k">
+<!-- LOCALIZATION NOTE(bookmarkTab.accesskey, bookmarkSelectedTabs.accesskey):
+These items have the same accesskey but will never be visible at the same time. -->
+<!ENTITY  bookmarkSelectedTabs.accesskey	"B">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
@@ -59,21 +81,41 @@ left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
 <!ENTITY  pinTab.label			"タブをピン留め">
+<!-- LOCALIZATION NOTE(pinTab.accesskey, pinSelectedTabs.accesskey,
+unpinTab.accesskey, unpinSelectedTabs.accesskey): These share the
+same accesskey but will never be visible at the same time. -->
 <!ENTITY  pinTab.accesskey		"P">
 <!ENTITY  unpinTab.label		"タブのピン留めを外す">
-<!ENTITY  unpinTab.accesskey		"b">
+<!-- LOCALIZATION NOTE(pinTab.accesskey, pinSelectedTabs.accesskey,
+unpinTab.accesskey, unpinSelectedTabs.accesskey): These share the
+same accesskey but will never be visible at the same time. -->
+<!ENTITY  unpinTab.accesskey		"p">
 <!ENTITY  sendTabToDevice.label		"タブを端末へ送信">
 <!ENTITY  sendTabToDevice.accesskey	"n">
 <!ENTITY  sendPageToDevice.label	"ページを端末へ送信">
 <!ENTITY  sendPageToDevice.accesskey	"n">
 <!ENTITY  sendLinkToDevice.label	"リンクを端末へ送信">
 <!ENTITY  sendLinkToDevice.accesskey	"n">
+<!-- LOCALIZATION NOTE (moveTabOptions.label and moveSelectedTabOptions.label):
+These two items have the same accesskey but will never be visible at the same time. -->
+<!ENTITY  moveTabOptions.label		"タブを移動">
+<!ENTITY  moveTabOptions.accesskey	"v">
+<!ENTITY  moveSelectedTabOptions.label		"タブを移動">
+<!ENTITY  moveSelectedTabOptions.accesskey	"v">
+<!ENTITY  moveToStart.label		"最初のタブへ移動">
+<!ENTITY  moveToStart.accesskey		"S">
+<!ENTITY  moveToEnd.label		"最後のタブへ移動">
+<!ENTITY  moveToEnd.accesskey		"E">
 <!ENTITY  moveToNewWindow.label		"@@NewWindow@@へ移動">
 <!ENTITY  moveToNewWindow.accesskey	"W">
 <!ENTITY  reopenInContainer.label	"コンテナーを開きなおす">
 <!ENTITY  reopenInContainer.accesskey	"e">
 <!ENTITY  bookmarkAllTabs.label		"すべてのタブをブックマーク...">
 <!ENTITY  bookmarkAllTabs.accesskey	"T">
+<!ENTITY  bookmarkTab.label		"タブをブックマーク">
+<!-- LOCALIZATION NOTE(bookmarkTab.accesskey, bookmarkSelectedTabs.accesskey):
+These items have the same accesskey but will never be visible at the same time. -->
+<!ENTITY  bookmarkTab.accesskey		"B">
 <!ENTITY  undoCloseTab.label		"閉じたタブを元に戻す">
 <!ENTITY  undoCloseTab.accesskey	"U">
 <!ENTITY  closeTab.label		"タブを閉じる">
@@ -100,6 +142,8 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY printCmd.accesskey		"P">
 <!ENTITY printCmd.commandkey		"p">
 
+<!ENTITY taskManagerCmd.label		"タスクマネージャー">
+
 <!ENTITY goOfflineCmd.label		"オフライン作業">
 <!ENTITY goOfflineCmd.accesskey		"k">
 
@@ -114,6 +158,29 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY toolbarContextMenu.reloadAllTabs.accesskey	"A">
 <!ENTITY toolbarContextMenu.bookmarkAllTabs.label	"すべてのタブをブックマーク...">
 <!ENTITY toolbarContextMenu.bookmarkAllTabs.accesskey	"T">
+
+<!ENTITY toolbarContextMenu.reloadSelectedTab.label		"選択したタブを再読み込み">
+<!-- LOCALIZATION NOTE (toolbarContextMenu.reloadSelectedTab.accesskey,
+toolbarContextMenu.reloadSelectedTabs.accesskey): These share the
+same accesskey but will never be visible at the same time. -->
+<!ENTITY toolbarContextMenu.reloadSelectedTab.accesskey		"R">
+<!ENTITY toolbarContextMenu.reloadSelectedTabs.label		"選択したタブを再読み込み">
+<!-- LOCALIZATION NOTE (toolbarContextMenu.reloadSelectedTab.accesskey,
+toolbarContextMenu.reloadSelectedTabs.accesskey): These share the
+same accesskey but will never be visible at the same time. -->
+<!ENTITY toolbarContextMenu.reloadSelectedTabs.accesskey	"R">
+<!ENTITY toolbarContextMenu.bookmarkSelectedTab.label		"選択したタブをブックマーク...">
+<!-- LOCALIZATION NOTE (toolbarContextMenu.bookmarkSelectedTab.accesskey,
+toolbarContextMenu.bookmarkSelectedTabs.accesskey): These share the
+same accesskey but will never be visible at the same time. -->
+<!ENTITY toolbarContextMenu.bookmarkSelectedTab.accesskey	"T">
+<!ENTITY toolbarContextMenu.bookmarkSelectedTabs.label		"選択したタブをブックマーク...">
+<!-- LOCALIZATION NOTE (toolbarContextMenu.bookmarkSelectedTab.accesskey,
+toolbarContextMenu.bookmarkSelectedTabs.accesskey): These share the
+same accesskey but will never be visible at the same time. -->
+<!ENTITY toolbarContextMenu.bookmarkSelectedTabs.accesskey	"T">
+<!ENTITY toolbarContextMenu.selectAllTabs.label		"すべてのタブを選択">
+<!ENTITY toolbarContextMenu.selectAllTabs.accesskey	"S">
 <!ENTITY toolbarContextMenu.undoCloseTab.label		"閉じたタブを元に戻す">
 <!ENTITY toolbarContextMenu.undoCloseTab.accesskey	"U">
 
@@ -199,6 +266,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY subscribeToPageMenupopup.label		"このページを購読">
 <!ENTITY subscribeToPageMenuitem.label		"このページを購読...">
+
 <!ENTITY addCurPagesCmd.label			"すべてのタブをブックマーク...">
 <!ENTITY showAllBookmarks2.label		"すべてのブックマークを表示">
 <!ENTITY recentBookmarks.label			"最近のブックマーク">
@@ -557,9 +625,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY reloadFrameCmd.label			"フレームの再読み込み">
 <!ENTITY reloadFrameCmd.accesskey		"R">
 <!ENTITY viewPartialSourceForSelectionCmd.label	"選択した部分のソースを表示">
-<!ENTITY viewPartialSourceForMathMLCmd.label	"MathML のソースを表示">
-<!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both
-         viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
 <!ENTITY viewPartialSourceCmd.accesskey		"e">
 <!ENTITY viewPageSourceCmd.label		"ページのソースを表示">
 <!ENTITY viewPageSourceCmd.accesskey		"V">
@@ -776,7 +841,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      Remove Bookmark buttons. -->
 <!ENTITY editBookmark.panel.width		"23em">
 <!ENTITY editBookmark.done.label		"完了">
-
 <!ENTITY editBookmark.showForNewBookmarks.label		"追加時にエディターを表示する">
 <!ENTITY editBookmark.showForNewBookmarks.accesskey	"S">
 
@@ -784,6 +848,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      This is the header of the security subview in the Site Identity panel. -->
 <!ENTITY identity.securityView.label		"サイトのセキュリティ">
 
+<!ENTITY identity.connection			"接続">
 <!ENTITY identity.connectionSecure		"安全な接続">
 <!ENTITY identity.connectionNotSecure		"この接続は安全ではありません">
 <!ENTITY identity.connectionFile		"これはあなたのコンピューターに保存されているページです。">
@@ -926,9 +991,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY getUserMedia.audioCapture.label		"このタブからの音声は共有されます。">
 <!ENTITY getUserMedia.allWindowsShared.message		"画面に表示されているすべての@@Window@@を共有します。">
 
-<!ENTITY trackingProtection.on				"トラッキング防止: オン">
-<!ENTITY trackingProtection.off				"トラッキング防止: オフ">
-
 <!ENTITY contentBlocking.title				"コンテンツブロッキング">
 <!ENTITY contentBlocking.detected			"このサイトでブロック対象コンテンツが検出されました。">
 <!ENTITY contentBlocking.notDetected			"このサイトではブロック対象コンテンツは検出されませんでした。">
@@ -943,6 +1005,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      a positive thing. It forms the end of the (imaginary) sentence
      "Slow-Loading Trackers [are] Blocked"-->
 <!ENTITY contentBlocking.fastBlock.blocked.label		"ブロック済み">
+<!-- LOCALIZATION NOTE (contentBlocking.fastBlock.blocking.label):
+     This label signals that this type of content blocking is turned
+     ON, so this is a positive thing. It forms the verb in (imaginary) sentence
+     "Firefox is blocking Slow-Loading Trackers"-->
+<!ENTITY contentBlocking.fastBlock.blocking.label		"ブロック中">
 <!-- LOCALIZATION NOTE (contentBlocking.fastBlock.add.label):
      This is displayed as a link to preferences, where the user can add
      this specific type of content blocking. When this text is shown
@@ -950,12 +1017,25 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.fastBlock.add.label			"ブロックに追加...">
 
 <!ENTITY contentBlocking.trackingProtection2.label		"すべての検出トラッカー">
+
+<!ENTITY contentBlocking.trackingProtection3.label		"トラッカー">
+<!-- LOCALIZATION NOTE (contentBlocking.trackingProtection.allowed.label):
+     This label signals that this type of content blocking is turned
+     OFF and is not blocking tracker content, so this is not
+     a positive thing. It forms the end of the (imaginary) sentence
+     "Trackers [are] Allowed"-->
+<!ENTITY contentBlocking.trackingProtection.allowed.label	"許可済み">
 <!-- LOCALIZATION NOTE (contentBlocking.trackingProtection.blocked.label):
      This label signals that this type of content blocking is turned
      ON and is successfully blocking tracker content, so this is
      a positive thing. It forms the end of the (imaginary) sentence
      "Trackers [are] Blocked"-->
 <!ENTITY contentBlocking.trackingProtection.blocked.label	"ブロック済み">
+<!-- LOCALIZATION NOTE (contentBlocking.tranckingProtection.blocking.label):
+     This label signals that this type of content blocking is turned
+     ON, so this is a positive thing. It forms the verb in the (imaginary) sentence
+     "Firefox is blocking Trackers"-->
+<!ENTITY contentBlocking.trackingProtection.blocking.label	"ブロック中">
 <!-- LOCALIZATION NOTE (contentBlocking.trackingProtection.add.label):
      This is displayed as a link to preferences, where the user can add
      this specific type of content blocking. When this text is shown
@@ -963,17 +1043,29 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.trackingProtection.add.label		"ブロックに追加...">
 
 <!ENTITY contentBlocking.3rdPartyCookies.label			"サードパーティ Cookie">
+<!ENTITY contentBlocking.3rdPartyCookies.trackers.label		"トラッカー Cookie">
 <!-- LOCALIZATION NOTE (contentBlocking.3rdPartyCookies.blocked.label):
      This label signals that this type of content blocking is turned
      ON and is successfully blocking third-party cookies, so this is
      a positive thing. It forms the end of the (imaginary) sentence
      "Third-Party Cookies [are] Blocked"-->
 <!ENTITY contentBlocking.3rdPartyCookies.blocked.label		"ブロック済み">
+<!-- LOCALIZATION NOTE (contentBlocking.tranckingProtection.blocking.label):
+     This label signals that this type of content blocking is turned
+     ON, so this is a positive thing. It forms the verb in the (imaginary) sentence
+     "Firefox is blocking Third-Party Cookies"-->
+<!ENTITY contentBlocking.3rdPartyCookies.blocking.label		"ブロック中">
 <!-- LOCALIZATION NOTE (contentBlocking.3rdPartyCookies.add.label):
      This is displayed as a link to preferences, where the user can add
      this specific type of content blocking. When this text is shown
      the type of content blocking is currently not enabled. -->
 <!ENTITY contentBlocking.3rdPartyCookies.add.label		"ブロックに追加...">
+
+<!ENTITY contentBlocking.manageSettings.label			"コンテンツブロッキングを管理">
+<!ENTITY contentBlocking.manageSettings.accesskey		"M">
+
+<!ENTITY contentBlocking.trackersView.label			"トラッカー">
+<!ENTITY contentBlocking.trackersView.strictInfo.label		"トラッカーをすべてブロックするには、コンテンツブロッキングの設定を “厳格” にします。">
 
 <!ENTITY contentBlocking.openBreakageReportView2.label			"問題を報告">
 <!ENTITY contentBlocking.breakageReportView.label			"問題を報告">
@@ -986,32 +1078,32 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY trackingProtection.title			"トラッキング防止">
 <!ENTITY trackingProtection.tooltip			"トラッキング防止の設定を開きます">
-<!ENTITY trackingProtection.detectedBlocked4		"ブラウジングを追跡していると思われるこのページの一部を &brandShortName; がブロックしました。">
-<!ENTITY trackingProtection.detectedNotBlocked5		"ブラウジングを追跡していると思われる要素が検出されました。">
-<!ENTITY trackingProtection.detectedException		"ブラウジングを追跡していると思われる要素が検出されました。このサイトはトラッキング防止が無効になっています。">
-<!ENTITY trackingProtection.notDetected5		"このページではトラッキング要素は検出されませんでした。">
-<!ENTITY trackingProtection.notDetectedException	"このページではトラッキング要素は検出されませんでした。このサイトはトラッキング防止が無効になっています。">
-
-<!ENTITY trackingProtection.reloadRequired2		"トラッキング防止を有効にしました。トラッカーをすべてブロックするには、このページを再読み込みしてください。">
 
 <!-- LOCALIZATION NOTE (trackingProtection.unblock3.label, trackingProtection.unblock3.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in NON-private browsing mode. -->
-<!ENTITY trackingProtection.unblock3.label		"このサイトは無効にする">
-<!ENTITY trackingProtection.unblock3.accesskey		"D">
 <!ENTITY trackingProtection.unblock4.label		"このサイトではブロッキングを無効にする">
 <!ENTITY trackingProtection.unblock4.accesskey		"D">
 <!-- LOCALIZATION NOTE (trackingProtection.unblockPrivate3.label, trackingProtection.unblockPrivate3.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in PRIVATE browsing mode. -->
-<!ENTITY trackingProtection.unblockPrivate3.label	"このセッションは無効にする">
-<!ENTITY trackingProtection.unblockPrivate3.accesskey	"D">
-<!ENTITY trackingProtection.block4.label		"このサイトは有効にする">
-<!ENTITY trackingProtection.block4.accesskey		"E">
 <!ENTITY trackingProtection.unblockPrivate4.label	"一時的にブロッキングを無効にする">
 <!ENTITY trackingProtection.unblockPrivate4.accesskey	"D">
 <!ENTITY trackingProtection.block5.label		"このサイトはブロッキングを有効にする">
 <!ENTITY trackingProtection.block5.accesskey		"E">
+
+<!-- LOCALIZATION NOTE (trackingProtection.unblock5.label, trackingProtection.unblock5.accesskey):
+     The associated button with this label and accesskey is only shown when opening the control
+     center while looking at a site with trackers in NON-private browsing mode. -->
+<!ENTITY trackingProtection.unblock5.label		"このサイトはブロッキングをオフにする">
+<!ENTITY trackingProtection.unblock5.accesskey		"T">
+<!-- LOCALIZATION NOTE (trackingProtection.unblockPrivate6.label, trackingProtection.unblockPrivate6.accesskey):
+     The associated button with this label and accesskey is only shown when opening the control
+     center while looking at a site with trackers in PRIVATE browsing mode. -->
+<!ENTITY trackingProtection.unblockPrivate5.label	"一時的にブロッキングをオフにする">
+<!ENTITY trackingProtection.unblockPrivate5.accesskey	"T">
+<!ENTITY trackingProtection.block6.label		"このサイトはブロッキングをオンにする">
+<!ENTITY trackingProtection.block6.accesskey		"T">
 <!ENTITY trackingProtection.reload2.label		"ページを再読み込み">
 <!ENTITY trackingProtection.reload2.accesskey		"R">
 
@@ -1117,7 +1209,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY sendToDevice.syncNotReady.label	"端末を同期しています...">
 
 <!ENTITY pageAction.shareUrl.label		"共有">
-
 <!ENTITY pageAction.shareMore.label		"その他...">
 
 <!ENTITY libraryButton.tooltip			"履歴や保存したブックマークなどを表示します">

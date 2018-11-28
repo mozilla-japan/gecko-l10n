@@ -42,6 +42,12 @@
      -->
 <!ENTITY downloadsSummary.minWidth2	"34ch">
 
+<!-- LOCALIZATION NOTE (downloads.width):
+     Width of the Downloads Panel expressed using a CSS unit. The longest labels
+     that should fit are usually those of in-progress and blocked downloads.
+     -->
+<!ENTITY downloads.width		"70ch">
+
 <!ENTITY cmd.pause.label		"中断">
 <!ENTITY cmd.pause.accesskey		"P">
 <!ENTITY cmd.resume.label		"再開">

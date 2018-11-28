@@ -29,12 +29,6 @@
 that require it.  -->
 <!ENTITY clearTimeDuration.suffix		"">
 
-<!-- LOCALIZATION NOTE (detailsProgressiveDisclosure.*): Labels and accesskeys
-     of the "Details" progressive disclosure button.  See UI mockup at bug
-     480169 -->
-<!ENTITY detailsProgressiveDisclosure.label	"消去する項目">
-<!ENTITY detailsProgressiveDisclosure.accesskey	"e">
-
 <!ENTITY historySection.label			"履歴">
 <!ENTITY dataSection.label			"データ">
 

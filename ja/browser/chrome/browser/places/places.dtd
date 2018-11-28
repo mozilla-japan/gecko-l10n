@@ -94,10 +94,6 @@
 
 <!ENTITY forwardButton.tooltip	"フォルダー表示履歴を次に進みます">
 
-<!ENTITY detailsPane.more.label			"詳細を表示">
-<!ENTITY detailsPane.more.accesskey		"e">
-<!ENTITY detailsPane.less.label			"詳細を隠す">
-<!ENTITY detailsPane.less.accesskey		"e">
 <!ENTITY detailsPane.selectAnItemText.description "各項目を選択すると、名前や詳細情報の表示や編集ができます">
 
 <!ENTITY view.label			"表示">

@@ -5,43 +5,57 @@
 permissions-window =
     .title = 例外サイト
     .style = width: 40em
+
 permissions-close-key =
     .key = w
+
 permissions-address = ウェブサイトのアドレス
     .accesskey = d
+
 permissions-block =
     .label = 不許可
     .accesskey = B
+
 permissions-session =
     .label = 現在のセッションのみ
     .accesskey = S
+
 permissions-allow =
     .label = 許可
     .accesskey = A
+
 permissions-site-name =
     .label = ウェブサイト
+
 permissions-status =
     .label = 現在の設定
+
 permissions-remove =
     .label = ウェブサイトを削除
     .accesskey = R
+
 permissions-remove-all =
     .label = すべてのウェブサイトを削除
     .accesskey = e
+
 permissions-button-cancel =
     .label = キャンセル
     .accesskey = C
+
 permissions-button-ok =
     .label = 変更を保存
     .accesskey = S
+
 permissions-searchbox =
     .placeholder = ウェブサイトを検索
+
 permissions-capabilities-allow =
     .label = 許可
 permissions-capabilities-block =
     .label = 不許可
 permissions-capabilities-prompt =
     .label = 常に確認
+
 permissions-capabilities-listitem-allow =
     .value = 許可
 permissions-capabilities-listitem-block =
@@ -62,6 +76,11 @@ permissions-exceptions-tracking-protection-window =
     .title = 例外 - トラッキング防止
     .style = { permissions-window.style }
 permissions-exceptions-tracking-protection-desc = これらのウェブサイトでは、トラッキング防止を無効に設定しています。
+
+permissions-exceptions-content-blocking-window =
+    .title = 例外 - コンテンツブロッキング
+    .style = { permissions-window.style }
+permissions-exceptions-content-blocking-desc = これらのウェブサイトでは、コンテンツブロッキングを無効に設定しています。
 
 ## Exceptions - Cookies
 
