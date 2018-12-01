@@ -41,6 +41,9 @@
 <!ENTITY runtimeMenu_showSettings_label			"端末オプション">
 <!ENTITY runtimeMenu_showSettings_accesskey		"s">
 
+<!ENTITY runtimeMenu_showPerformancePanel_label		"パフォーマンス">
+<!ENTITY runtimeMenu_showPerformancePanel_accesskey	"p">
+
 <!ENTITY viewMenu_label					"表示">
 <!ENTITY viewMenu_accesskey				"V">
 <!ENTITY viewMenu_zoomin_label				"拡大">
