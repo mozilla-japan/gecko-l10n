@@ -18,14 +18,14 @@ onboarding-private-browsing-title = プライベートブラウジング
 onboarding-private-browsing-text = プライベートブラウジングとコンテンツブロッキングでウェブ上のオンライントラッカーをブロックします。
 
 onboarding-screenshots-title = スクリーンショット
-onboarding-screenshots-text = スクリーンショットの撮影と共有が { -brand-short-name } だけでできます。指定の領域またはページ全体を撮影でき、ウェブに保存して簡単にアクセス、共有できます。
+onboarding-screenshots-text = { -brand-short-name } だけで、スクリーンショットの撮影、保存、共有ができます。ページの指定領域または全体を撮影し、どこからでもアクセスして共有できるようにウェブ上に保存します。
 
 onboarding-addons-title = アドオン
-onboarding-addons-text = { -brand-short-name } がより便利になる多くの機能を追加できます。価格を比較したり、天気予報を見たり、カスタムテーマを個性を発揮したりできます。
+onboarding-addons-text = { -brand-short-name } がより便利になる多くの機能を追加できます。価格を比較したり、天気予報を見たり、カスタムテーマで個性を発揮したりできます。
 
 onboarding-ghostery-title = Ghostery
 onboarding-ghostery-text = 迷惑な広告をブロックできる Ghostery のような拡張機能で、ブラウジングをより速く、スマートに、安全に。
 
 # Note: "Sync" in this case is a generic verb, as in "to synchronize"
 onboarding-fxa-title = Sync
-onboarding-fxa-text = { -fxaccount-brand-name } にログインすると、ブックマーク、パスワード、開いたタブを、{ -brand-short-name } でどこでも同期できます。
+onboarding-fxa-text = { -brand-short-name } をどこでも使えるように、{ -fxaccount-brand-name } にアカウント登録して、ブックマーク、パスワード、開いたタブを同期しましょう。

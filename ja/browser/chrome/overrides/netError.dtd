@@ -160,8 +160,8 @@ was trying to connect. -->
 <!ENTITY certerror.sts.introPara	"&brandShortName; はセキュリティ上の潜在的な脅威を検知したため、<span class='hostname'/> への接続を中止しました。このウェブサイトには安全な接続が必要なためです。">
 
 <!ENTITY certerror.expiredCert.introPara	"&brandShortName; は問題を検知したため、<span class='hostname'/> への接続を中止しました。このウェブサイトの設定が不適切、またはあなたのコンピューターの時刻設定に誤りがあります。">
-<!ENTITY certerror.expiredCert.secondPara2	"ウェブサイトの証明書が期限切れの可能性があるため、安全な接続ができません。このサイトに訪問すると、攻撃者がパスワードやメールアドレス、クレジットカードの詳細な情報を盗み取ろうとする恐れがあります。">
-<!ENTITY certerror.expiredCert.sts.secondPara	"ウェブサイトの証明書が期限切れの可能性があるため、安全な接続ができません。">
+<!ENTITY certerror.expiredCert.secondPara2	"ウェブサイトの証明書が有効期限切れの可能性があるため、安全な接続ができません。このサイトを訪問すると、パスワードやメールアドレス、クレジットカードの詳細情報を攻撃者に盗み取られる恐れがあります。">
+<!ENTITY certerror.expiredCert.sts.secondPara	"ウェブサイトの証明書が有効期限切れの可能性があるため、安全な接続ができません。">
 
 <!ENTITY certerror.whatCanYouDoAboutItTitle	"どうすればいいですか？">
 
