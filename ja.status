@@ -929,5 +929,5 @@ mail, calendar, editor/ui
 dom, netwerk, security, toolkit
                         10799:09285ba53901   2018-11-21     mar             sync dom, netwerk, security, toolkit
 mobile                  10799:09285ba53901   2018-11-21     mar             sync mobile
+browser                 10799:09285ba53901   2018-11-21     hATrayflood     sync browser
 devtools                10799:09285ba53901   2018-11-21     hATrayflood     sync devtools
-

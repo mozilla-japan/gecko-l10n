@@ -13,6 +13,12 @@ cfr-doorhanger-extension-cancel-button = 後で
 cfr-doorhanger-extension-ok-button = 追加
   .accesskey = A
 
+cfr-doorhanger-extension-manage-settings-button = おすすめの設定を管理
+  .accesskey = M
+
+cfr-doorhanger-extension-never-show-recommendation = このおすすめは表示しない
+  .accesskey = S
+
 cfr-doorhanger-extension-learn-more-link = 詳細
 
 # This string is used on a new line below the add-on name
