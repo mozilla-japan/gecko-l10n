@@ -20,6 +20,7 @@
 <!ENTITY aboutPrivateBrowsing.info.saved.after2          ":">
 <!ENTITY aboutPrivateBrowsing.info.downloads             "ダウンロードファイル">
 <!ENTITY aboutPrivateBrowsing.info.bookmarks             "ブックマーク編集">
+<!ENTITY aboutPrivateBrowsing.info.clipboard             "コピーしたテキスト">
 <!ENTITY aboutPrivateBrowsing.note.before                "プライベートブラウジングで">
 <!ENTITY aboutPrivateBrowsing.note.emphasize             "匿名化はできません。">
 <!ENTITY aboutPrivateBrowsing.note.after                 "ネットワーク管理者やインターネットサービスプロバイダーは、依然としてあなたが訪れたページを追跡できます。">
@@ -29,6 +30,7 @@
 
 <!ENTITY trackingProtection.title                        "トラッキング防止">
 <!ENTITY trackingProtection.description2                 "いくつかのウェブサイトはインターネット上でのあなたの足跡を追跡しています。Firefox のトラッキング防止機能を使うと、あなたの閲覧状況の収集をブロックできる可能性があります。">
+
 <!ENTITY trackingProtection.startTour1                   "動作の仕組みを見る">
 
 <!ENTITY contentBlocking.title                           "コンテンツブロッキング">

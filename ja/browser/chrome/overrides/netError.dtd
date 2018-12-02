@@ -10,9 +10,10 @@
 <!ENTITY returnToPreviousPage.label	"戻る">
 <!ENTITY returnToPreviousPage1.label	"戻る (推奨)">
 <!ENTITY advanced.label			"エラー内容">
-
 <!ENTITY continue2.label		"詳細...">
 <!ENTITY moreInformation.label		"詳細情報">
+
+<!ENTITY viewCertificate.label		"証明書を確認">
 
 <!-- Specific error messages -->
 
@@ -147,14 +148,20 @@
 
 <!ENTITY certerror.longpagetitle1	"安全な接続ではありません">
 <!ENTITY certerror.longpagetitle2	"警告: 潜在的なセキュリティリスクあり">
+<!ENTITY certerror.sts.longpagetitle 	"接続中止: 潜在的なセキュリティ問題">
 <!-- Localization note (certerror.introPara, certerror.introPara2) - The text content of the span tag
 will be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
 <!ENTITY certerror.introPara		"<span class='hostname'/> の所有者によるウェブサイトの設定が不適切です。あなたの情報が盗まれることを防ぐため、このウェブサイトへの接続は確立されません。">
-
 <!ENTITY certerror.introPara2			"&brandShortName; はセキュリティ上の潜在的な脅威を検知したため、<span class='hostname'/> への接続を中止しました。このサイトに訪問すると、攻撃者がパスワードやメールアドレス、クレジットカードの詳細な情報を盗み取ろうとする恐れがあります。">
 
 <!ENTITY certerror.expiredCert.secondPara	"この問題は、あなたのコンピューターの時刻設定に誤りがあることが原因です。これは、&brandShortName; の安全な接続を妨げます。">
+
+<!ENTITY certerror.sts.introPara	"&brandShortName; はセキュリティ上の潜在的な脅威を検知したため、<span class='hostname'/> への接続を中止しました。このウェブサイトには安全な接続が必要なためです。">
+
+<!ENTITY certerror.expiredCert.introPara	"&brandShortName; は問題を検知したため、<span class='hostname'/> への接続を中止しました。このウェブサイトの設定が不適切、またはあなたのコンピューターの時刻設定に誤りがあります。">
+<!ENTITY certerror.expiredCert.secondPara2	"ウェブサイトの証明書が有効期限切れの可能性があるため、安全な接続ができません。このサイトを訪問すると、パスワードやメールアドレス、クレジットカードの詳細情報を攻撃者に盗み取られる恐れがあります。">
+<!ENTITY certerror.expiredCert.sts.secondPara	"ウェブサイトの証明書が有効期限切れの可能性があるため、安全な接続ができません。">
 
 <!ENTITY certerror.whatCanYouDoAboutItTitle	"どうすればいいですか？">
 
@@ -188,7 +195,6 @@ was trying to connect. -->
 
 
 <!ENTITY securityOverride.exceptionButtonLabel	"例外を追加...">
-
 <!ENTITY securityOverride.exceptionButton1Label	"危険性を承知で続行">
 
 <!ENTITY errorReporting.automatic2	"エラーを報告すると、悪意のあるサイトの特定とブロックに役立ちます">
@@ -210,6 +216,7 @@ was trying to connect. -->
 
 <!ENTITY certerror.pagetitle1			"安全ではない接続">
 <!ENTITY certerror.pagetitle2			"警告: 潜在的なセキュリティリスクあり">
+<!ENTITY certerror.sts.pagetitle		"接続中止: 潜在的なセキュリティ問題">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation	"このサイトでは、暗号化された通信のみで接続するよう &brandShortName; に指定する HTTP Strict Transport Security (HSTS) が使われています。そのため、この証明書を例外に追加することはできません。">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation1	"<span class='hostname'></span> は HTTP Strict Transport Security (HSTS) と呼ばれるセキュリティポリシーが設定されおり、&brandShortName; は安全な接続でしか通信できません。そのため、このサイトを例外に追加することはできません。">
 <!ENTITY certerror.copyToClipboard.label	"テキストをクリップボードにコピー">
@@ -226,3 +233,6 @@ was trying to connect. -->
 
 <!ENTITY prefReset.longDesc			"ネットワークセキュリティの設定がこの問題の原因になっている可能性があります。@@DefaultValue@@に戻しますか？">
 <!ENTITY prefReset.label			"@@RestoreDefaults@@">
+
+<!ENTITY networkProtocolError.title	"ネットワークプロトコルエラー">
+<!ENTITY networkProtocolError.longDesc	"<p>表示しようとしているページは、ネットワークプロトコルにエラーが検出されたため表示できません。</p><ul><li>ウェブサイトの所有者に連絡を取り、この問題を報告してください。</li></ul>">
