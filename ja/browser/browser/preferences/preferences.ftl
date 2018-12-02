@@ -908,7 +908,7 @@ content-blocking-reject-trackers-description = すべてのサードパーティ
 # of the Content Blocking UI in Preferences has been disabled due to the either the "All cookies" option
 # or the "Cookies from unvisited websites" option being selected in the Cookies and Site Data section of
 # the UI.
-content-blocking-reject-trackers-warning-your-settings-prevent-changes = 現在のCookie とサイトデータの設定内容は、サードパーティ Cookie の設定の変更を妨げます。
+content-blocking-reject-trackers-warning-your-settings-prevent-changes = 現在の Cookie とサイトデータの設定内容は、サードパーティ Cookie の設定の変更を妨げます。
 content-blocking-change-cookie-settings =
   .label = Cookie の設定を変更
   .accesskey = S
