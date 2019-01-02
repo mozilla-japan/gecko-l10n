@@ -10,7 +10,6 @@
 <!ENTITY fullscreenButton.exitfullscreenlabel "@@FullScreen@@を解除">
 <!ENTITY castingButton.castingLabel "画面に映す">
 <!ENTITY closedCaption.off "オフ">
-
 <!-- LOCALIZATION NOTE (volumeScrubber.label): This label is exposed to
      accessibility software to clarify what the slider is for. -->
 <!ENTITY volumeScrubber.label "音量スライダー">
