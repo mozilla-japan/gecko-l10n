@@ -5,9 +5,6 @@
 <!ENTITY windowTitle.label		"@@Color@@">
 <!ENTITY lastPickedColor.label		"最後に選んだ@@Color@@">
 <!ENTITY lastPickedColor.accessKey	"L">
-<!ENTITY setColor1.label		"パレット中の色をクリックするか"><!-- (^^; 全角16字くらいまで -->
-<!ENTITY setColor2.label		"使用する色名を入力してください"><!-- (^^; 全角16字くらいまで -->
-<!ENTITY setColor2.accessKey		"H">
 <!ENTITY chooseColor1.label		"@@Color@@を選択してください:">
 <!ENTITY chooseColor2.label		"HTML カラー文字列">
 <!ENTITY chooseColor2.accessKey		"H">

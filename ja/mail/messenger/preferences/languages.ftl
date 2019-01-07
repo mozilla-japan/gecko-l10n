@@ -26,3 +26,20 @@ messenger-languages-window =
     .style = width: 40em
 
 messenger-languages-description = { -brand-short-name } は最初の言語を@@Default@@として表示し、必要ならば優先順位に従って代替言語を表示します。
+
+messenger-languages-search = 他の言語を検索...
+
+messenger-languages-searching =
+    .label = 言語を検索...
+
+messenger-languages-downloading =
+    .label = ダウンロードしています...
+
+messenger-languages-select-language =
+    .label = 追加する言語を選択してください...
+    .placeholder = 追加する言語を選択...
+
+messenger-languages-installed-label = インストールされた言語
+messenger-languages-available-label = 利用可能な言語
+
+messenger-languages-error = { -brand-short-name } が言語を更新できません。インターネットへの接続を確認してもう一度試してください。
