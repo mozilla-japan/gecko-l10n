@@ -93,11 +93,11 @@ connection-dns-over-https-url = URL
 # Variables:
 #   $url (String) - URL for the DNS over HTTPS provider
 connection-dns-over-https-url-default =
-    .label = @@DefaultSetting@@を使用 ({ $url })
+    .label = 標準設定を使用 ({ $url })
     .accesskey = U
-    .tooltiptext = DNS over HTTPS の解決に@@Default@@の URL を使用します
+    .tooltiptext = DNS over HTTPS の解決に@@Default-@@ URL を使用します
 
 connection-dns-over-https-url-custom =
-    .label = カスタム
+    .label = URL を指定:
     .accesskey = C
     .tooltiptext = DNS over HTTPS の解決に使用する URL を入力します

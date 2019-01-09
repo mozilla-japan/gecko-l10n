@@ -226,7 +226,7 @@ was trying to connect. -->
 
 <!ENTITY certerror.mitm.title				"このサイトへの安全な接続を妨げるソフトウェア">
 <!ENTITY certerror.mitm.longDesc			"<span class='hostname'></span> は安全なサイトだと思われますが、安全な接続を確立できませんでした。この問題はあなたのコンピューターかネットワークにある <span class='mitm-name'/> が原因です。">
-<!ENTITY certerror.mitm.whatCanYouDoAboutIt1		"ウイルス対策ソフトウェアに暗号化された接続をスキャンする機能 (“ウェブスキャン” または “HTTPS スキャン” という機能名) が含まれている場合は、その機能を無効にできます。解決できない場合は、ウイルス対策ソフトウェアを削除して再インストールしてください。">
+<!ENTITY certerror.mitm.whatCanYouDoAboutIt1		"ウイルス対策ソフトウェアに暗号化された接続をスキャンする機能 (“ウェブスキャン” または “HTTPS スキャン” という機能名) が含まれている場合は、その機能を無効にしてください。無効にしても解決できない場合は、ウイルス対策ソフトウェアを削除して再インストールしてください。">
 <!ENTITY certerror.mitm.whatCanYouDoAboutIt2		"組織内のネットワークからアクセスしている場合は、ネットワーク管理者に連絡してください。">
 <!ENTITY certerror.mitm.whatCanYouDoAboutIt3		"<span class='mitm-name'/> に心当たりがない場合は攻撃されている可能性があるため、以後このサイトには接続しないでください。">
 <!ENTITY certerror.mitm.sts.whatCanYouDoAboutIt3	"<span class='mitm-name'/> に心当たりがない場合は攻撃されている可能性があるため、このサイトにアクセスする方法はありません。">

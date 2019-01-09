@@ -795,7 +795,7 @@ sitedata-option-block-unvisited =
 sitedata-option-block-all-third-party =
     .label = すべてのサードパーティ Cookie (ウェブサイトが動作しない可能性があります)
 sitedata-option-block-all =
-    .label = すべての Cookie (ウェブサイトが動作しない可能性があります)
+    .label = すべての Cookie (ウェブサイトが動作しなくなります)
 
 sitedata-clear =
     .label = データを消去...
@@ -876,7 +876,7 @@ content-blocking-tracking-protection-all-detected-trackers-label =
   .accesskey = T
 content-blocking-tracking-protection-new-description = 既知のトラッカーをすべてブロックします。(一部のページが読み込まれない可能性があります。)
 content-blocking-tracking-protection-option-always =
-  .label = 常に
+  .label = 常にブロック
   .accesskey = A
 content-blocking-tracking-protection-option-private =
   .label = プライベート@@Window@@のみ
@@ -954,7 +954,7 @@ tracking-desc = トラッキング防止は、複数のウェブサイトにま�
 tracking-mode-label = トラッキング防止を使用して既知のトラッカーをブロックする
 
 tracking-mode-always =
-    .label = 常に
+    .label = 常にブロック
     .accesskey = y
 tracking-mode-private =
     .label = プライベート@@Window@@のみ
