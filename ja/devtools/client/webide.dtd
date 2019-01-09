@@ -40,7 +40,6 @@
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey		"D">
 <!ENTITY runtimeMenu_showSettings_label			"端末オプション">
 <!ENTITY runtimeMenu_showSettings_accesskey		"s">
-
 <!ENTITY runtimeMenu_showPerformancePanel_label		"パフォーマンス">
 <!ENTITY runtimeMenu_showPerformancePanel_accesskey	"p">
 
@@ -77,7 +76,6 @@
 <!ENTITY runtimePanel_usb				"USB デバイス">
 <!ENTITY runtimePanel_wifi				"Wi-Fi デバイス">
 <!ENTITY runtimePanel_other				"その他">
-<!ENTITY runtimePanel_noadbhelper			"ADB Helper をインストール">
 <!ENTITY runtimePanel_nousbdevice			"端末が見つかりませんか？">
 <!ENTITY runtimePanel_refreshDevices_label		"端末をリフレッシュ">
 
