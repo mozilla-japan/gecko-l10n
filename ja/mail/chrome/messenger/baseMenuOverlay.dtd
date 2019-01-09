@@ -17,7 +17,7 @@
 <!ENTITY releaseCmd2.accesskey			"N">
 <!ENTITY whatsNewCmd.label			"新着情報">
 <!ENTITY whatsNewCmd.accesskey			"W">
-<!ENTITY openHelp.label				"&brandShortName; ヘルプ">
+<!ENTITY openHelp.label				"&brandFullName; ヘルプ">
 <!ENTITY openHelp.accesskey			"H">
 <!ENTITY openHelp.commandkey			"VK_F1">
 <!ENTITY openHelpMac2.label			"&brandFullName; ヘルプ">
