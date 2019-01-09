@@ -3,8 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY addons.windowTitle			"アドオンマネージャー">
 
-<!ENTITY search.placeholder2			"addons.mozilla.org を検索">
-
 <!ENTITY search.placeholder3			"addons.mozilla.org を検索">
 <!ENTITY search.buttonlabel			"検索">
 <!-- LOCALIZATION NOTE (search.commandkey):
@@ -20,9 +18,6 @@
 <!ENTITY installAddonFromFile.label		"ファイルからアドオンをインストール...">
 <!ENTITY installAddonFromFile.accesskey		"I">
 <!ENTITY toolsMenu.tooltip			"アドオンツール">
-
-<!ENTITY getThemes.description			"ブラウザーの外観をお好みに変更しませんか？">
-<!ENTITY getThemes.learnMore			"数多くのテーマの中からお選びいただけます。">
 
 
 <!ENTITY showUnsignedExtensions.button.label	"一部の拡張機能を検証できませんでした">
