@@ -10,6 +10,8 @@ column-name = 名前
 column-type = 種類
 column-energy-impact = 消費電力への影響
 
+column-memory = メモリー
+
 ## Special values for the Name column
 ghost-windows = 最近閉じたタブ
 # Variables:
@@ -33,6 +35,14 @@ type-other = その他
 energy-impact-high = 高 ({ $value })
 energy-impact-medium = 中 ({ $value })
 energy-impact-low = 低 ({ $value })
+
+## Values for the Memory column
+##
+## Variables:
+##   $value (Number) - How much memory is used
+size-KB = { $value } KB
+size-MB = { $value } MB
+size-GB = { $value } GB
 
 ## Tooltips for the action buttons
 close-tab =

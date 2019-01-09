@@ -79,11 +79,9 @@
 <!ENTITY exceptionMgr.exceptionButton.label	"セキュリティ例外を承認">
 <!ENTITY exceptionMgr.exceptionButton.accesskey	"C">
 <!ENTITY exceptionMgr.supplementalWarning	"本物の銀行、通信販売、その他の公開サイトがこの操作を求めることはありません。">
-<!ENTITY exceptionMgr.certlocation.caption2	"サーバー">
 <!ENTITY exceptionMgr.certlocation.url		"URL:">
 <!ENTITY exceptionMgr.certlocation.download	"証明書を取得">
 <!ENTITY exceptionMgr.certlocation.accesskey	"G">
-<!ENTITY exceptionMgr.certstatus.caption	"証明書の状態">
 <!ENTITY exceptionMgr.certstatus.viewCert	"表示...">
 <!ENTITY exceptionMgr.certstatus.accesskey	"V">
 <!ENTITY exceptionMgr.permanent.label		"次回以降にもこの例外を有効にする"><!-- (^^; -->
