@@ -23,8 +23,6 @@ policy-BlockAboutSupport = about:support ページへのアクセスをブロッ
 
 policy-Bookmarks = ブックマークツールバー、ブックマークメニュー、または指定のフォルダーの中にブックマークを作成します。
 
-policy-Certificates = 組み込みの証明書を利用するかどうか設定します。このポリシーは現在 Windows でのみ有効です。
-
 policy-CertificatesDescription = 証明書を追加、または組み込みの証明書を利用します。
 
 policy-Cookies = ウェブサイトの Cookie の保存を許可するか拒否するか設定します。
@@ -61,8 +59,6 @@ policy-DisableProfileRefresh = about:support ページの @@[@@{ -brand-short-na
 policy-DisableSafeMode = セーフモードで再起動する機能を無効にします。注意: Shift キーでセーフモードを起動する機能は、Windows でグループポリシーを利用する場合のみ無効にできます。
 
 policy-DisableSecurityBypass = ユーザーが特定のセキュリティ警告を回避できないようにします。
-
-policy-DisableSetDesktopBackground = メニューコマンド @@[@@デスクトップの背景に設定@@]@@ を無効にします。
 
 policy-DisableSetAsDesktopBackground = メニューコマンド @@[@@デスクトップの背景に設定@@]@@ を無効にします。
 

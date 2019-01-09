@@ -939,3 +939,4 @@ dom, netwerk, security, toolkit
                         10920:4fd4cb527495   2018-12-31     mar             sync dom, netwerk, security, toolkit
 mail, editor/ui         10920:4fd4cb527495   2018-12-31     mar             sync mail, editor/ui
 devtools                10920:4fd4cb527495   2018-12-31     hATrayflood     sync devtools
+browser                 10920:4fd4cb527495   2018-12-31     hATrayflood     sync browser

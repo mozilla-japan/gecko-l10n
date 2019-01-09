@@ -21,8 +21,6 @@
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label		"タブを再読み込み">
 <!ENTITY  reloadTab.accesskey		"R">
-<!ENTITY  reloadAllTabs.label		"すべてのタブを再読み込み">
-<!ENTITY  reloadAllTabs.accesskey	"A">
 <!ENTITY  selectAllTabs.label		"すべてのタブを選択">
 <!ENTITY  selectAllTabs.accesskey	"S">
 <!-- LOCALIZATION NOTE (duplicateTab.label): This is a command to duplicate
@@ -47,9 +45,6 @@ left instead of right. -->
 <!ENTITY  closeOtherTabs.label		"他のタブをすべて閉じる">
 <!ENTITY  closeOtherTabs.accesskey	"o">
 
-<!ENTITY  closeSelectedTabs.label	"選択したタブを閉じる">
-<!ENTITY  closeSelectedTabs.accesskey	"S">
-
 <!ENTITY  closeTabs.label		"タブを閉じる">
 <!ENTITY  closeTabs.accesskey		"S">
 <!ENTITY  pinSelectedTabs.label			"タブをピン留め">
@@ -62,10 +57,6 @@ same accesskey but will never be visible at the same time. -->
 unpinTab.accesskey, unpinSelectedTabs.accesskey): These share the
 same accesskey but will never be visible at the same time. -->
 <!ENTITY  unpinSelectedTabs.accesskey		"p">
-<!-- Reload Tab and Reload Selected Tabs have the same accesskey
-but will never be visible at the same time. -->
-<!ENTITY  reloadSelectedTabs.label		"選択したタブを再読み込み">
-<!ENTITY  reloadSelectedTabs.accesskey		"R">
 <!-- LOCALIZATION NOTE(reloadTab.label, reloadTabs.label): have the same accesskey
 but will never be visible at the same time. -->
 <!ENTITY  reloadTabs.label			"タブを再読み込み">
@@ -90,8 +81,6 @@ same accesskey but will never be visible at the same time. -->
 unpinTab.accesskey, unpinSelectedTabs.accesskey): These share the
 same accesskey but will never be visible at the same time. -->
 <!ENTITY  unpinTab.accesskey		"p">
-<!ENTITY  sendTabToDevice.label		"タブを端末へ送信">
-<!ENTITY  sendTabToDevice.accesskey	"n">
 <!ENTITY  sendPageToDevice.label	"ページを端末へ送信">
 <!ENTITY  sendPageToDevice.accesskey	"n">
 <!ENTITY  sendLinkToDevice.label	"リンクを端末へ送信">
@@ -110,8 +99,6 @@ These two items have the same accesskey but will never be visible at the same ti
 <!ENTITY  moveToNewWindow.accesskey	"W">
 <!ENTITY  reopenInContainer.label	"コンテナーを開きなおす">
 <!ENTITY  reopenInContainer.accesskey	"e">
-<!ENTITY  bookmarkAllTabs.label		"すべてのタブをブックマーク...">
-<!ENTITY  bookmarkAllTabs.accesskey	"T">
 <!ENTITY  bookmarkTab.label		"タブをブックマーク">
 <!-- LOCALIZATION NOTE(bookmarkTab.accesskey, bookmarkSelectedTabs.accesskey):
 These items have the same accesskey but will never be visible at the same time. -->
@@ -123,6 +110,10 @@ These items have the same accesskey but will never be visible at the same time. 
 <!ENTITY  hiddenTabs.label		"隠しタブ">
 
 <!ENTITY  listAllTabs.label		"タブを一覧表示します">
+
+<!-- LOCALIZATION NOTE (allTabsMenu.searchTabs.label): "Search" is a verb, as
+in "Search through tabs". -->
+<!ENTITY  allTabsMenu.searchTabs.label	"タブを検索">
 
 <!ENTITY tabCmd.label			"@@NewTab@@"><!-- 表示カ所によりアクセスキーが異なる -->
 <!ENTITY tabCmd.accesskey		"T">
@@ -153,11 +144,6 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY personalbarCmd.label		"ブックマークツールバー">
 <!ENTITY personalbarCmd.accesskey	"B">
 <!ENTITY bookmarksToolbarItem.label	"ブックマークツールバーの項目">
-
-<!ENTITY toolbarContextMenu.reloadAllTabs.label		"すべてのタブを再読み込み">
-<!ENTITY toolbarContextMenu.reloadAllTabs.accesskey	"A">
-<!ENTITY toolbarContextMenu.bookmarkAllTabs.label	"すべてのタブをブックマーク...">
-<!ENTITY toolbarContextMenu.bookmarkAllTabs.accesskey	"T">
 
 <!ENTITY toolbarContextMenu.reloadSelectedTab.label		"選択したタブを再読み込み">
 <!-- LOCALIZATION NOTE (toolbarContextMenu.reloadSelectedTab.accesskey,
@@ -264,9 +250,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY editThisBookmarkCmd.label		"このブックマークを編集">
 <!ENTITY bookmarkThisPageCmd.commandkey		"d">
 
-<!ENTITY subscribeToPageMenupopup.label		"このページを購読">
-<!ENTITY subscribeToPageMenuitem.label		"このページを購読...">
-
 <!ENTITY addCurPagesCmd.label			"すべてのタブをブックマーク...">
 <!ENTITY showAllBookmarks2.label		"すべてのブックマークを表示">
 <!ENTITY recentBookmarks.label			"最近のブックマーク">
@@ -305,6 +288,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip	"データを永続ストレージに格納します">
 <!ENTITY urlbar.remoteControlNotificationAnchor.tooltip		"ブラウザーがリモート制御下にあります">
 <!ENTITY urlbar.webAuthnAnchor.tooltip				"Web Authentication パネルを開きます">
+
+<!ENTITY urlbar.storageAccessAnchor.tooltip			"行動追跡の許可設定パネルを開きます">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip	"カメラとマイクの共有を管理します">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip	"マイクの共有を管理します">
@@ -380,10 +365,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY webDeveloperMenu.label		"ウェブ開発">
 <!ENTITY webDeveloperMenu.accesskey	"W">
-
-<!ENTITY devtoolsRecordExecution.label	"実行を記録">
-<!ENTITY devtoolsSaveRecording.label	"記録を保存">
-<!ENTITY devtoolsReplayExecution.label	"実行を再生">
 
 <!ENTITY inspectContextMenu.label	"要素を調査">
 <!ENTITY inspectContextMenu.accesskey	"Q">
@@ -514,7 +495,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY customizeMenu.autoHideDownloadsButton.accesskey	"A">
 <!ENTITY customizeMenu.manageExtension.label			"拡張機能を管理">
 <!ENTITY customizeMenu.manageExtension.accesskey		"E">
-
 <!ENTITY customizeMenu.removeExtension.label		"拡張機能を削除">
 <!ENTITY customizeMenu.removeExtension.accesskey	"v">
 
@@ -1019,12 +999,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.trackingProtection2.label		"すべての検出トラッカー">
 
 <!ENTITY contentBlocking.trackingProtection3.label		"トラッカー">
-<!-- LOCALIZATION NOTE (contentBlocking.trackingProtection.allowed.label):
-     This label signals that this type of content blocking is turned
-     OFF and is not blocking tracker content, so this is not
-     a positive thing. It forms the end of the (imaginary) sentence
-     "Trackers [are] Allowed"-->
-<!ENTITY contentBlocking.trackingProtection.allowed.label	"許可済み">
 <!-- LOCALIZATION NOTE (contentBlocking.trackingProtection.blocked.label):
      This label signals that this type of content blocking is turned
      ON and is successfully blocking tracker content, so this is
@@ -1066,6 +1040,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY contentBlocking.trackersView.label			"トラッカー">
 <!ENTITY contentBlocking.trackersView.strictInfo.label		"トラッカーをすべてブロックするには、コンテンツブロッキングの設定を “厳格” にします。">
+
+<!ENTITY contentBlocking.cookies.label				"Cookie">
+<!ENTITY contentBlocking.cookiesView.label			"Cookie とサイトデータ">
 
 <!ENTITY contentBlocking.openBreakageReportView2.label			"問題を報告">
 <!ENTITY contentBlocking.breakageReportView.label			"問題を報告">
@@ -1200,11 +1177,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageActionButton.tooltip		"ページ操作">
 <!ENTITY pageAction.addToUrlbar.label		"アドレスバーに追加">
 <!ENTITY pageAction.removeFromUrlbar.label	"アドレスバーから削除">
-<!ENTITY pageAction.allowInUrlbar.label		"アドレスバーに表示">
-<!ENTITY pageAction.disallowInUrlbar.label	"アドレスバーに表示しない">
 <!ENTITY pageAction.manageExtension.label	"拡張機能を管理...">
-
-<!ENTITY pageAction.sendTabToDevice.label	"タブを端末へ送信">
 
 <!ENTITY sendToDevice.syncNotReady.label	"端末を同期しています...">
 

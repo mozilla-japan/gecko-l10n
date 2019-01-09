@@ -9,8 +9,6 @@
 <!ENTITY refreshProfile.label         "&brandShortName; をリフレッシュ">
 
 <!ENTITY safeModeDescription3.label   "セーフモードは、トラブルシューティングのための、&brandShortName; の特別なモードです。">
-<!ENTITY safeModeDescription4.label   "設定とアドオンは一時的に無効化されます。">
-
 <!ENTITY safeModeDescription5.label   "設定とアドオンは一時的に無効化されます。&brandShortName; の機能が現在の状態と同じように動作しない可能性があります。">
 
 <!ENTITY refreshProfileInstead.label  "トラブルシューティングをせずに、&brandShortName; をリフレッシュすることもできます。">

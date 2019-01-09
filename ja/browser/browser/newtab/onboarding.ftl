@@ -29,3 +29,14 @@ onboarding-ghostery-text = 迷惑な広告をブロックできる Ghostery の�
 # Note: "Sync" in this case is a generic verb, as in "to synchronize"
 onboarding-fxa-title = Sync
 onboarding-fxa-text = { -brand-short-name } をどこでも使えるように、{ -fxaccount-brand-name } にアカウント登録して、ブックマーク、パスワード、開いたタブを同期しましょう。
+
+## Message strings belonging to the Return to AMO flow
+return-to-amo-sub-header = おめでとうございます。{ -brand-short-name } をインストールできました。
+
+# <icon></icon> will be replaced with the icon belonging to the extension
+#
+# Variables:
+#   $addon-name (String) - Name of the add-on
+return-to-amo-addon-header = <icon></icon><b>{ $addon-name } を今すぐインストールしましょう。</b>
+return-to-amo-extension-button = 拡張機能を追加
+return-to-amo-get-started-button = { -brand-short-name } を開始

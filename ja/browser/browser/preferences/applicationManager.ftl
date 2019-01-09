@@ -10,8 +10,6 @@ app-manager-remove =
     .label = 削除
     .accesskey = R
 
-app-manager-handle-webfeeds = フィードを取り扱う@@Application@@には次のものが登録されています。
-
 # Variables:
 #   $type (String) - the URI scheme of the link (e.g. mailto:)
 app-manager-handle-protocol = { $type } リンクを取り扱う@@Application@@には次のものが登録されています。

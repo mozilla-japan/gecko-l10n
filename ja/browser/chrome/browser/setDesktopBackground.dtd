@@ -8,7 +8,6 @@
 <!ENTITY stretch.label			"拡大して表示">
 <!ENTITY fill.label			"ページ幅に合わせる">
 <!ENTITY fit.label			"画面サイズに合わせる">
-<!ENTITY preview.label			"プレビュー">
 <!ENTITY color.label			"背景色:">
 <!ENTITY setDesktopBackground.title	"デスクトップの背景に設定">
 <!ENTITY openDesktopPrefs.label		"デスクトップの設定を開く">

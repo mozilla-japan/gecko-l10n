@@ -8,6 +8,8 @@ do-not-track-option-default =
     .label = トラッキング防止の使用時のみ
 do-not-track-option-default-content-blocking =
     .label = 検出されたトラッカーをブロックする設定時のみ
+do-not-track-option-default-content-blocking-known =
+    .label = 既知のトラッカーをブロックする設定時のみ
 do-not-track-option-always =
     .label = 常に送る
 
@@ -62,7 +64,6 @@ category-sync =
     .tooltiptext = { pane-sync-title }
 
 help-button-label = { -brand-short-name } サポート
-
 addons-button-label = 拡張機能とテーマ
 
 focus-search =
@@ -169,6 +170,9 @@ startup-restore-previous-session =
     .label = 前回のセッションを復元する
     .accesskey = s
 
+startup-restore-warn-on-quit =
+    .label = ブラウザーを終了するときは確認する
+
 disable-extension =
     .label = 拡張機能を無効化
 
@@ -184,10 +188,6 @@ open-new-link-as-tabs =
 
 warn-on-close-multiple-tabs =
     .label = 同時に複数のタブを閉じるときは確認する
-    .accesskey = m
-
-warn-on-quit-close-multiple-tabs =
-    .label = 同時に複数のタブを閉じて終了するときは確認する
     .accesskey = m
 
 warn-on-open-many-tabs =
@@ -672,8 +672,6 @@ privacy-header = ブラウザープライバシー
 
 ## Privacy Section - Forms
 
-forms-header = フォームとパスワード
-
 logins-header = ログインとパスワード
 forms-ask-to-save-logins =
     .label = ウェブサイトのログイン情報とパスワードを保存する
@@ -790,6 +788,15 @@ sitedata-block-all-third-party-option =
 sitedata-block-all-option =
     .label = すべての Cookie (ウェブサイトが動作しない可能性があります)
 
+sitedata-option-block-trackers =
+    .label = サードパーティトラッカー
+sitedata-option-block-unvisited =
+    .label = 未訪問のウェブサイトの Cookie
+sitedata-option-block-all-third-party =
+    .label = すべてのサードパーティ Cookie (ウェブサイトが動作しない可能性があります)
+sitedata-option-block-all =
+    .label = すべての Cookie (ウェブサイトが動作しなくなります)
+
 sitedata-clear =
     .label = データを消去...
     .accesskey = l
@@ -861,7 +868,22 @@ content-blocking-fastblock-slow-loading-trackers-label =
   .label = 読み込みを遅くするトラッカー
   .accesskey = S
 content-blocking-fastblock-new-description = ページの読み込みを遅くするトラッカーのみブロックします。
+content-blocking-tracking-protection-trackers-label =
+  .label = トラッカー
+  .accesskey = T
+content-blocking-tracking-protection-all-detected-trackers-label =
+  .label = すべての検出済みトラッカー
+  .accesskey = T
+content-blocking-tracking-protection-new-description = 既知のトラッカーをすべてブロックします。(一部のページが読み込まれない可能性があります。)
+content-blocking-tracking-protection-option-always =
+  .label = 常にブロック
+  .accesskey = A
+content-blocking-tracking-protection-option-private =
+  .label = プライベート@@Window@@のみ
+  .accesskey = p
 
+# The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
+# "Standard" in this case is an adjective, meaning "default" or "normal".
 content-blocking-setting-standard =
   .label = 標準
   .accesskey = d
@@ -872,6 +894,7 @@ content-blocking-setting-custom =
   .label = カスタム
   .accesskey = C
 
+content-blocking-standard-description = プライベート@@Window@@のみ既知のトラッカーをブロックします。
 content-blocking-standard-desc = 保護と性能をバランスよく。ウェブサイトが正しく機能するようトラッカーを一部許可します。
 content-blocking-strict-desc = { -brand-short-name } が検出したトラッカーをすべてブロックします。一部のサイトが機能しなくなる可能性があります。
 content-blocking-custom-desc = ブロックする項目を選択します。
@@ -885,17 +908,13 @@ content-blocking-warning-title = 注意！
 content-blocking-warning-desc = Cookie とトラッカーをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。信頼するサイトはブロッキングを無効にできます。
 content-blocking-learn-how = 詳細
 
-content-blocking-tracking-protection-trackers-label =
+content-blocking-trackers-label =
   .label = トラッカー
   .accesskey = T
-content-blocking-tracking-protection-all-detected-trackers-label =
-  .label = 検出されたすべてのトラッカー
-  .accesskey = T
-content-blocking-tracking-protection-new-description = 既知のトラッカーをすべてブロックします。(一部のページの読み込みを妨げる可能性があります)
-content-blocking-tracking-protection-option-always =
-  .label = 常に
+content-blocking-tracking-protection-option-all-windows =
+  .label = すべての@@Window@@
   .accesskey = A
-content-blocking-tracking-protection-option-private =
+content-blocking-option-private =
   .label = プライベート@@Window@@のみ
   .accesskey = p
 content-blocking-tracking-protection-change-block-list = ブロックリストを変更
@@ -935,7 +954,7 @@ tracking-desc = トラッキング防止は、複数のウェブサイトにま�
 tracking-mode-label = トラッキング防止を使用して既知のトラッカーをブロックする
 
 tracking-mode-always =
-    .label = 常に
+    .label = 常にブロック
     .accesskey = y
 tracking-mode-private =
     .label = プライベート@@Window@@のみ
@@ -1041,6 +1060,10 @@ collection-health-report-link = 詳細情報
 collection-studies =
     .label = { -brand-short-name } に調査のインストールと実行を許可する
 collection-studies-link = { -brand-short-name } 調査を確認する
+
+addon-recommendations =
+    .label = { -brand-short-name } にパーソナライズされた拡張機能のおすすめを許可する
+addon-recommendations-link = 詳細情報
 
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.

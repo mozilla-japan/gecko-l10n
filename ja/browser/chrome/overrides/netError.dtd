@@ -12,7 +12,6 @@
 <!ENTITY advanced.label			"エラー内容">
 <!ENTITY continue2.label		"詳細...">
 <!ENTITY moreInformation.label		"詳細情報">
-
 <!ENTITY viewCertificate.label		"証明書を確認">
 
 <!-- Specific error messages -->
@@ -154,9 +153,6 @@ will be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
 <!ENTITY certerror.introPara		"<span class='hostname'/> の所有者によるウェブサイトの設定が不適切です。あなたの情報が盗まれることを防ぐため、このウェブサイトへの接続は確立されません。">
 <!ENTITY certerror.introPara2			"&brandShortName; はセキュリティ上の潜在的な脅威を検知したため、<span class='hostname'/> への接続を中止しました。このサイトに訪問すると、攻撃者がパスワードやメールアドレス、クレジットカードの詳細な情報を盗み取ろうとする恐れがあります。">
-
-<!ENTITY certerror.expiredCert.secondPara	"この問題は、あなたのコンピューターの時刻設定に誤りがあることが原因です。これは、&brandShortName; の安全な接続を妨げます。">
-
 <!ENTITY certerror.sts.introPara	"&brandShortName; はセキュリティ上の潜在的な脅威を検知したため、<span class='hostname'/> への接続を中止しました。このウェブサイトには安全な接続が必要なためです。">
 
 <!ENTITY certerror.expiredCert.introPara	"&brandShortName; は問題を検知したため、<span class='hostname'/> への接続を中止しました。このウェブサイトの設定が不適切、またはあなたのコンピューターの時刻設定に誤りがあります。">
@@ -227,6 +223,13 @@ was trying to connect. -->
 <!ENTITY inadequateSecurityError.longDesc	"<p><span class='hostname'></span> は攻撃に対して脆弱な古いセキュリティ技術を使用しています。攻撃者は保護された情報を簡単に暴露できます。サイトを安全に訪れるには、このウェブサイトの管理者にサーバーの問題を修正してもらう必要があります。</p><p>エラーコード: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
 
 <!ENTITY blockedByPolicy.title			"ブロックしたページ">
+
+<!ENTITY certerror.mitm.title				"このサイトへの安全な接続を妨げるソフトウェア">
+<!ENTITY certerror.mitm.longDesc			"<span class='hostname'></span> は安全なサイトだと思われますが、安全な接続を確立できませんでした。この問題はあなたのコンピューターかネットワークにある <span class='mitm-name'/> が原因です。">
+<!ENTITY certerror.mitm.whatCanYouDoAboutIt1		"ウイルス対策ソフトウェアに暗号化された接続をスキャンする機能 (“ウェブスキャン” または “HTTPS スキャン” という機能名) が含まれている場合は、その機能を無効にしてください。無効にしても解決できない場合は、ウイルス対策ソフトウェアを削除して再インストールしてください。">
+<!ENTITY certerror.mitm.whatCanYouDoAboutIt2		"組織内のネットワークからアクセスしている場合は、ネットワーク管理者に連絡してください。">
+<!ENTITY certerror.mitm.whatCanYouDoAboutIt3		"<span class='mitm-name'/> に心当たりがない場合は攻撃されている可能性があるため、以後このサイトには接続しないでください。">
+<!ENTITY certerror.mitm.sts.whatCanYouDoAboutIt3	"<span class='mitm-name'/> に心当たりがない場合は攻撃されている可能性があるため、このサイトにアクセスする方法はありません。">
 
 <!ENTITY clockSkewError.title			"コンピューターの時刻が間違っています">
 <!ENTITY clockSkewError.longDesc		"あなたのコンピューターは現在の日時を <span id='wrongSystemTime_systemDate1'/> だと誤解しており、&brandShortName; の安全な接続を妨げる原因になります。<span class='hostname'></span> にアクセスして、コンピュータの現在の日付と時刻、タイムゾーンを正しいものに更新して、<span class='hostname'></span> を再読み込みしてください。">

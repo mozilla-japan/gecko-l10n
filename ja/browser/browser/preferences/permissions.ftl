@@ -72,11 +72,6 @@ permissions-invalid-uri-label = 有効なホスト名を入力してください
 
 ## Exceptions - Tracking Protection
 
-permissions-exceptions-tracking-protection-window =
-    .title = 例外 - トラッキング防止
-    .style = { permissions-window.style }
-permissions-exceptions-tracking-protection-desc = これらのウェブサイトでは、トラッキング防止を無効に設定しています。
-
 permissions-exceptions-content-blocking-window =
     .title = 例外 - コンテンツブロッキング
     .style = { permissions-window.style }
