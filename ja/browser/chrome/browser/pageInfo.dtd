@@ -44,9 +44,6 @@
 <!ENTITY  mediaSaveAs2.accesskey "e">
 <!ENTITY  mediaPreview          "メディアプレビュー:"><!-- (^^; 要再検討 -->
 
-<!ENTITY  feedTab               "フィード">
-<!ENTITY  feedTab.accesskey     "F">
-
 <!ENTITY  permTab               "サイト別設定">
 <!ENTITY  permTab.accesskey     "P">
 <!ENTITY  permissionsFor        "対象サイト:">

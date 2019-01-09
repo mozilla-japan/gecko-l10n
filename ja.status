@@ -936,3 +936,4 @@ devtools                10799:09285ba53901   2018-11-21     hATrayflood     sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mail, editor/ui         10920:4fd4cb527495   2018-12-31     mar             sync mail, editor/ui
+browser                 10920:4fd4cb527495   2018-12-31     hATrayflood     sync browser
