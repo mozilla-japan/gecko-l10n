@@ -88,3 +88,8 @@
 <!ENTITY cmd.copyDownloadLink.accesskey  "L">
 <!ENTITY cmd.properties.label            "@@ViewProperty@@...">
 <!ENTITY cmd.properties.accesskey        "s">
+<!-- LOCALIZATION NOTE (cmd.unblock2.label):
+     This command is shown in the context menu when downloads are blocked.
+     -->
+<!ENTITY cmd.unblock2.label               "ダウンロードを許可">
+<!ENTITY cmd.unblock2.accesskey           "l">

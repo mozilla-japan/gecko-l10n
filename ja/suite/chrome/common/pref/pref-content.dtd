@@ -40,3 +40,5 @@
 <!ENTITY allowHWAccel.accesskey			"e">
 <!ENTITY blockAutoRefresh.label			"ウェブページが自動的に転送や再読み込みさせようとしたときに警告する">
 <!ENTITY blockAutoRefresh.accesskey		"W">
+
+<!ENTITY showZoomStatusPanel.label		"ステータスバーにズームコントロールを表示する">
