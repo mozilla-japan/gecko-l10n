@@ -932,7 +932,7 @@ mobile                  10799:09285ba53901   2018-11-21     mar             sync
 browser                 10799:09285ba53901   2018-11-21     hATrayflood     sync browser
 devtools                10799:09285ba53901   2018-11-21     hATrayflood     sync devtools
 
-[l10n-mozilla-65.0]
+Released! [l10n-mozilla-65.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, netwerk, security, toolkit
@@ -940,3 +940,8 @@ dom, netwerk, security, toolkit
 mail, editor/ui         10920:4fd4cb527495   2018-12-31     mar             sync mail, editor/ui
 devtools                10920:4fd4cb527495   2018-12-31     hATrayflood     sync devtools
 browser                 10920:4fd4cb527495   2018-12-31     hATrayflood     sync browser
+
+[l10n-mozilla-66.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+suite                   11087:0aef1783d407   2019-02-07     mar             sync suite

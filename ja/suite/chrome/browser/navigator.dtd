@@ -74,13 +74,16 @@
 <!ENTITY bookmarksToolbarChevron.tooltip "他のブックマークを表示">
 
 <!-- Statusbar -->
-<!ENTITY statusText.label             "完了">
+<!ENTITY statusText.label		"完了">
 
-<!ENTITY popupIcon.tooltiptext      "このサイトのポップアップはブロックされません">
+<!ENTITY popupIcon.tooltiptext		"このサイトのポップアップはブロックされません">
 
-<!ENTITY viewSecurityInfo.label      "セキュリティ情報を表示">
-<!ENTITY viewSecurityInfo.accesskey  "S">
-<!ENTITY viewCertificate.label       "証明書を表示">
-<!ENTITY viewCertificate.accesskey   "C">
-<!ENTITY viewCertManager.label       "証明書マネージャーを開く">
-<!ENTITY viewCertManager.accesskey   "M">
+<!ENTITY viewSecurityInfo.label		"セキュリティ情報を表示">
+<!ENTITY viewSecurityInfo.accesskey	"S">
+<!ENTITY viewCertificate.label		"証明書を表示">
+<!ENTITY viewCertificate.accesskey	"C">
+<!ENTITY viewCertManager.label		"証明書マネージャーを開く">
+<!ENTITY viewCertManager.accesskey	"M">
+
+<!ENTITY zoomIn.tooltiptext		"拡大します">
+<!ENTITY zoomOut.tooltiptext		"縮小します">

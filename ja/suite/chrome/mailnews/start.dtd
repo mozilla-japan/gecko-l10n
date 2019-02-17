@@ -22,11 +22,11 @@
 <!ENTITY dict.title		"辞書">
 <!ENTITY dict_intro.label	"辞書は、あなたのメールのスペルチェックに使用されます。">
 <!--# LOCALIZATION NOTE (dict_info.label): the URL for <a id="dictURL"> is fetched from brand.properties -->
-<!ENTITY dict_info.label
-'<a href="https://addons.mozilla.org/seamonkey/">Mozilla Add-ons</a> から多くの
+<!ENTITY dict_info.label2
+'<a href="addons.thunderbird.net/seamonkey/">SeaMonkey and Thunderbird Add-ons</a> から多くの
 <a id="dictURL" href="">スペルチェック用の辞書</a> がダウンロードできます。'>
 <!ENTITY info.title		"詳細情報">
 <!--# LOCALIZATION NOTE (info_bugs.label): the URL for <a id="releaseNotesURL"> is fetched from brand.properties -->
 <!ENTITY info_bugs.label
-'<a href="http://www.mozilla.org/mailnews/">私たち</a> はバグ報告や新機能の提案を歓迎しています。
+'<a href="https://developer.mozilla.org/docs/Mozilla/Projects/MailNews">私たち</a> はバグ報告や新機能の提案を歓迎しています。
 ただし、<a href="https://bugzilla.mozilla.org/query.cgi">Bugzilla</a> にバグを報告する前に <a id="releaseNotesURL" href="">リリースノート</a> を確認することを忘れないでください。'>

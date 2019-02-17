@@ -483,6 +483,8 @@
 <!ENTITY contextCopyMsgMenu.accesskey             "C">
 <!ENTITY contextMoveCopyMsgRecentMenu.label       "前回と同じフォルダーにコピー"><!--Recent-->
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey   "R">
+<!ENTITY contextMoveCopyMsgFavoritesMenu.label    "お気に入り">
+<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
 <!ENTITY contextSaveAs.label                      "@@SaveAs@@...">
 <!ENTITY contextSaveAs.accesskey                  "S">
 <!ENTITY contextPrint.label                       "@@Print@@...">
