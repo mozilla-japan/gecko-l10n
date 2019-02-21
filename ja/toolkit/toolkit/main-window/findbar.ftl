@@ -12,11 +12,6 @@ findbar-previous =
 findbar-find-button-close =
     .tooltiptext = 検索バーを閉じます
 
-findbar-highlight-all =
-    .label = すべて強調表示
-    .accesskey = l
-    .tooltiptext = 指定文字列に一致するすべての部分を強調表示します
-
 findbar-highlight-all2 =
     .label = すべて強調表示
     .accesskey = { PLATFORM() ->

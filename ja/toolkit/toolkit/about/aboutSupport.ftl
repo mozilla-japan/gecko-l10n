@@ -45,6 +45,7 @@ app-basics-memory-use = メモリー使用量
 app-basics-performance = パフォーマンス
 app-basics-service-workers = 登録された Service Workers
 app-basics-profiles = プロファイル
+app-basics-launcher-process-status = 起動プロセス
 app-basics-multi-process-support = マルチプロセス@@Window@@
 app-basics-process-count = ウェブコンテンツプロセス
 app-basics-enterprise-policies = エンタープライズポリシー
@@ -214,6 +215,8 @@ uses-tiling = タイリングの使用
 content-uses-tiling = タイリングの使用 (コンテンツ)
 off-main-thread-paint-enabled = メインスレッド外ペイント有効
 off-main-thread-paint-worker-count = メインスレッド外ペイントワーカー数
+low-end-machine = 性能の低い機種が検出されました
+target-frame-rate = ターゲットのフレームレート
 
 audio-backend = 音声バックエンド
 max-audio-channels = 最大チャンネル数
@@ -234,6 +237,11 @@ effective-content-sandbox-level = 効果的なコンテンツプロセスのサ�
 sandbox-proc-type-content = コンテンツ
 sandbox-proc-type-file = ファイルコンテンツ
 sandbox-proc-type-media-plugin = メディアプラグイン
+
+launcher-process-status-0 = 有効
+launcher-process-status-1 = 失敗したため無効
+launcher-process-status-2 = 強制的に無効
+launcher-process-status-unknown = 状態不明
 
 # Variables
 # $remoteWindows (integer) - Number of remote windows
