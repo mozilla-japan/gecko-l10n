@@ -9,7 +9,6 @@ about-performance-title = タスクマネージャー
 column-name = 名前
 column-type = 種類
 column-energy-impact = 消費電力への影響
-
 column-memory = メモリー
 
 ## Special values for the Name column
