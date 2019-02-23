@@ -23,7 +23,6 @@
 <!ENTITY aboutTelemetry.firefoxDataDoc		"<a>Firefox Data Documentation</a> には、私たちのデータツールでの取り扱われ方についてのガイドが含まれます。">
 <!ENTITY aboutTelemetry.telemetryClientDoc	"<a>Firefox Telemetry クライアントドキュメント</a> には、コンセプト、API ドキュメント、データ参照についての定義が含まれます。">
 <!ENTITY aboutTelemetry.telemetryDashboard	"<a>Telemetry ダッシュボード</a> では、Telemetry 経由で Mozilla が受信したデータが視覚化されています。">
-
 <!ENTITY aboutTelemetry.telemetryProbeDictionary	"<a>Probe Dictionary</a> は、Telemetry により収集されたプローブの詳細と説明を提供します。">
 
 <!ENTITY aboutTelemetry.showInFirefoxJsonViewer	"JSON ビューアーで開く">

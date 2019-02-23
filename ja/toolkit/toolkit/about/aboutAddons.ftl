@@ -121,6 +121,19 @@ detail-update-manual =
     .label = オフ
     .tooltiptext = 更新を手動でインストールします
 
+# Used as a description for the option to allow or block an add-on in private windows.
+detail-private-browsing-label = プライベート@@Window@@での実行
+
+detail-private-browsing-description = 拡張機能はプライベート@@Window@@でも動作しますが、ユーザーのオンライン行動にもアクセスできます。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
+
+detail-private-browsing-on =
+    .label = 許可する
+    .tooltiptext = プライベートブラウジングモードでも有効にします
+
+detail-private-browsing-off =
+    .label = 許可しない
+    .tooltiptext = プライベートブラウジングモードでは無効にします
+
 detail-home =
     .label = ホームページ
 
@@ -178,6 +191,12 @@ legacy-extensions =
     .value = 旧式の拡張機能
 
 legacy-extensions-description = これらの拡張機能は、現在の { -brand-short-name } 標準に適さないため無効化されています。 <label data-l10n-name="legacy-learn-more">アドオンシステムの変更についての詳細</label>
+
+private-browsing-description =
+    拡張機能はプライベート@@Window@@での実行が@@Default@@で許可されていません。
+    つまり、プライベートブラウジング中はこれらの拡張機能が動作しないため、拡張機能はユーザーのオンライン行動にアクセスできません。
+    プライベート@@Window@@での実行を拡張機能に許可するには、以下の拡張機能カードを選択し、設定を変更してください。
+    <label data-l10n-name="private-browsing-learn-more">詳細情報</label>
 
 extensions-view-discover =
     .name = アドオン入手
@@ -273,3 +292,42 @@ extensions-updates-manual-updates-found =
 extensions-updates-update-selected =
     .label = 更新をインストール
     .tooltiptext = このリストの更新可能なアドオンをインストールします
+
+## Extension shortcut management
+
+manage-extensions-shortcuts =
+    .label = 拡張機能のショートカットキーの管理
+    .accesskey = S
+shortcuts-empty-message = この拡張機能にはショートカットがありません。
+shortcuts-no-addons = 有効な拡張機能がありません。
+shortcuts-no-commands = 次の拡張機能にはショートカットがありません:
+shortcuts-input =
+  .placeholder = ショートカットキーを入力してください
+
+shortcuts-browserAction = 拡張機能を有効化
+shortcuts-pageAction = ページ操作を有効化
+shortcuts-sidebarAction = サイドバーの表示を切り替え
+
+shortcuts-modifier-mac = Ctrl, Alt または ⌘ を含む
+shortcuts-modifier-other = Ctrl または Alt を含む
+shortcuts-invalid = 不正な組み合わせです
+shortcuts-letter = 文字を入力してください
+shortcuts-system = { -brand-short-name } のショートカットは上書きできません
+
+shortcuts-card-expand-button =
+    { $numberToShow ->
+        *[other] さらに { $numberToShow } 個表示
+    }
+
+shortcuts-card-collapse-button = Show Less
+
+go-back-button =
+    .tooltiptext = 前のページへ戻ります
+
+## Add-on actions
+remove-addon-button = 削除
+disable-addon-button = 無効化
+enable-addon-button = 有効化
+
+addons-enabled-heading = 有効
+addons-disabled-heading = 無効

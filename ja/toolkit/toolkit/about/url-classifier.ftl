@@ -3,6 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 url-classifier-title = URL Classifier 情報
+url-classifier-search-title = 検索
+url-classifier-search-result-title = 結果
+url-classifier-search-result-uri = URI: { $uri }
+url-classifier-search-result-list = テーブルのリスト: { $list }
+url-classifier-search-input = URL
+url-classifier-search-error-invalid-url = 不正な URL
+url-classifier-search-error-no-features = 機能が選択されていません
+url-classifier-search-btn = 検索開始
+url-classifier-search-features = 機能
+url-classifier-search-listType = リストの種類
 url-classifier-provider-title = プロバイダー
 url-classifier-provider = プロバイダー
 url-classifier-provider-last-update-time = 最終更新日時

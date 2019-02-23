@@ -32,7 +32,7 @@
 <!ENTITY error.decode "ファイルが壊れているため動画を再生できません。">
 <!ENTITY error.srcNotSupported "この動画のファイル形式または MIME タイプはサポートされていません。">
 <!ENTITY error.noSource2 "サポートされたファイル形式および MIME タイプの動画が見つかりませんでした。">
-<!ENTITY error.generic "不明なエラーが発生したため動画の再生を中止しました。">
+<!ENTITY error.generic "原因不明のエラーが発生したため動画の再生を中止しました。">
 
 <!-- LOCALIZATION NOTE (scrubberScale.nameFormat): the #1 string is the current
 media position, and the #2 string is the total duration. For example, when at

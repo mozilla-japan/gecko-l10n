@@ -65,11 +65,11 @@
 # LOCALIZATION NOTE (seamonkey_l10n):
 # insert full bookmark line for localized SeaMonkey page (personal toolbar)
 # e.g. #define seamonkey_l10n <DT><A HREF="https://www.seamonkey.tlh/">SeaMonkey tlhIngan</a>
-#define seamonkey_l10n
+#define seamonkey_l10n 
 
 # LOCALIZATION NOTE (seamonkey_l10n_long):
 # insert full bookmark line for localized SeaMonkey page (normal bookmark)
 # e.g. #define seamonkey_l10n_long <DT><A HREF="https://www.seamonkey.tld/">tlhIngan Hol SeaMonkey</a>
-#define seamonkey_l10n_long
+#define seamonkey_l10n_long 
 
 #unfilter emptyLines
