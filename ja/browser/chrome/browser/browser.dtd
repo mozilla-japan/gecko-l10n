@@ -29,8 +29,6 @@ a tab (i.e. it is a verb, not adjective). -->
 <!-- LOCALIZATION NOTE (duplicateTab.accesskey, duplicateTabs.accesskey):
 These items have the same accesskey but will never be visible at the same time. -->
 <!ENTITY  duplicateTab.accesskey	"D">
-<!ENTITY  closeTabOptions.label		"タブのオプションを閉じる">
-<!ENTITY  closeTabOptions.accesskey	"O">
 <!-- LOCALIZATION NOTE (duplicateTabs.label): This is a command to duplicate
 a tab (i.e. it is a verb, not adjective). -->
 <!ENTITY  duplicateTabs.label		"タブを複製">
@@ -288,7 +286,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip	"データを永続ストレージに格納します">
 <!ENTITY urlbar.remoteControlNotificationAnchor.tooltip		"ブラウザーがリモート制御下にあります">
 <!ENTITY urlbar.webAuthnAnchor.tooltip				"Web Authentication パネルを開きます">
-
 <!ENTITY urlbar.storageAccessAnchor.tooltip			"行動追跡の許可設定パネルを開きます">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip	"カメラとマイクの共有を管理します">
@@ -635,6 +632,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisFrameCmd.label		"このフレームをブックマーク">
 <!ENTITY bookmarkThisFrameCmd.accesskey		"m">
 <!ENTITY pageAction.copyLink.label		"リンクをコピー">
+
+<!-- LOCALIZATION NOTE(pocket-button.tooltiptext, saveToPocketCmd.label, saveLinkToPocketCmd.label, pocketMenuitem.label):
+  "Pocket" is a brand name. -->
+<!ENTITY pocketButton.tooltiptext		"Pocket に保存">
+<!ENTITY saveToPocketCmd.label			"ページを Pocket に保存">
+<!ENTITY saveToPocketCmd.accesskey		"k">
+<!ENTITY saveLinkToPocketCmd.label		"リンクを Pocket に保存">
+<!ENTITY saveLinkToPocketCmd.accesskey		"o">
+<!ENTITY pocketMenuitem.label			"Pocket のリストを表示">
+
 <!ENTITY emailPageCmd.label			"ページの URL をメールで送信...">
 <!ENTITY emailPageCmd.accesskey			"E">
 <!ENTITY savePageCmd.label			"@@SavePageAs@@...">
@@ -873,6 +880,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.permissionsReloadHint		"変更内容を適用するには、ページの再読み込みが必要です。">
 <!ENTITY identity.permissionsPreferences.tooltip	"サイト別設定を開きます">
 
+<!ENTITY identity.contentBlockingPreferences.tooltip	"コンテンツブロッキングの設定を開きます">
+
+
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label			"ブラウザータブ"><!-- (^m^) Bug 565042  音声読み上げ用ラベル -->
@@ -974,66 +984,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.title				"コンテンツブロッキング">
 <!ENTITY contentBlocking.detected			"このサイトでブロック対象コンテンツが検出されました。">
 <!ENTITY contentBlocking.notDetected			"このサイトではブロック対象コンテンツは検出されませんでした。">
-<!ENTITY contentBlocking.disabled.label			"無効">
-<!ENTITY contentBlocking.disabled.tooltip		"コンテンツブロッキングを無効にしました。">
-<!ENTITY contentBlocking.exception.tooltip		"このサイトでコンテンツブロッキングを有効にしました。">
-
-<!ENTITY contentBlocking.fastBlock.label			"読み込みが遅いトラッカー">
-<!-- LOCALIZATION NOTE (contentBlocking.fastBlock.blocked.label):
-     This label signals that this type of content blocking is turned
-     ON and is successfully blocking malicious/slow content, so this is
-     a positive thing. It forms the end of the (imaginary) sentence
-     "Slow-Loading Trackers [are] Blocked"-->
-<!ENTITY contentBlocking.fastBlock.blocked.label		"ブロック済み">
-<!-- LOCALIZATION NOTE (contentBlocking.fastBlock.blocking.label):
-     This label signals that this type of content blocking is turned
-     ON, so this is a positive thing. It forms the verb in (imaginary) sentence
-     "Firefox is blocking Slow-Loading Trackers"-->
-<!ENTITY contentBlocking.fastBlock.blocking.label		"ブロック中">
-<!-- LOCALIZATION NOTE (contentBlocking.fastBlock.add.label):
-     This is displayed as a link to preferences, where the user can add
-     this specific type of content blocking. When this text is shown
-     the type of content blocking is currently not enabled. -->
-<!ENTITY contentBlocking.fastBlock.add.label			"ブロックに追加...">
-
-<!ENTITY contentBlocking.trackingProtection2.label		"すべての検出トラッカー">
 
 <!ENTITY contentBlocking.trackingProtection3.label		"トラッカー">
-<!-- LOCALIZATION NOTE (contentBlocking.trackingProtection.blocked.label):
-     This label signals that this type of content blocking is turned
-     ON and is successfully blocking tracker content, so this is
-     a positive thing. It forms the end of the (imaginary) sentence
-     "Trackers [are] Blocked"-->
-<!ENTITY contentBlocking.trackingProtection.blocked.label	"ブロック済み">
-<!-- LOCALIZATION NOTE (contentBlocking.tranckingProtection.blocking.label):
-     This label signals that this type of content blocking is turned
-     ON, so this is a positive thing. It forms the verb in the (imaginary) sentence
-     "Firefox is blocking Trackers"-->
-<!ENTITY contentBlocking.trackingProtection.blocking.label	"ブロック中">
-<!-- LOCALIZATION NOTE (contentBlocking.trackingProtection.add.label):
-     This is displayed as a link to preferences, where the user can add
-     this specific type of content blocking. When this text is shown
-     the type of content blocking is currently not enabled. -->
-<!ENTITY contentBlocking.trackingProtection.add.label		"ブロックに追加...">
-
-<!ENTITY contentBlocking.3rdPartyCookies.label			"サードパーティ Cookie">
-<!ENTITY contentBlocking.3rdPartyCookies.trackers.label		"トラッカー Cookie">
-<!-- LOCALIZATION NOTE (contentBlocking.3rdPartyCookies.blocked.label):
-     This label signals that this type of content blocking is turned
-     ON and is successfully blocking third-party cookies, so this is
-     a positive thing. It forms the end of the (imaginary) sentence
-     "Third-Party Cookies [are] Blocked"-->
-<!ENTITY contentBlocking.3rdPartyCookies.blocked.label		"ブロック済み">
-<!-- LOCALIZATION NOTE (contentBlocking.tranckingProtection.blocking.label):
-     This label signals that this type of content blocking is turned
-     ON, so this is a positive thing. It forms the verb in the (imaginary) sentence
-     "Firefox is blocking Third-Party Cookies"-->
-<!ENTITY contentBlocking.3rdPartyCookies.blocking.label		"ブロック中">
-<!-- LOCALIZATION NOTE (contentBlocking.3rdPartyCookies.add.label):
-     This is displayed as a link to preferences, where the user can add
-     this specific type of content blocking. When this text is shown
-     the type of content blocking is currently not enabled. -->
-<!ENTITY contentBlocking.3rdPartyCookies.add.label		"ブロックに追加...">
 
 <!ENTITY contentBlocking.manageSettings.label			"コンテンツブロッキングを管理">
 <!ENTITY contentBlocking.manageSettings.accesskey		"M">
@@ -1044,6 +996,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.cookies.label				"Cookie">
 <!ENTITY contentBlocking.cookiesView.label			"Cookie とサイトデータ">
 
+<!ENTITY contentBlocking.cryptominers.label			"暗号通貨マイニング">
+<!ENTITY contentBlocking.cryptominersView.label			"暗号通貨マイニング">
+
+<!ENTITY contentBlocking.fingerprinters.label			"フィンガープリント採取">
+<!ENTITY contentBlocking.fingerprintersView.label		"フィンガープリント採取">
+
 <!ENTITY contentBlocking.openBreakageReportView2.label			"問題を報告">
 <!ENTITY contentBlocking.breakageReportView.label			"問題を報告">
 <!ENTITY contentBlocking.breakageReportView2.description		"コンテンツブロッキングは一部のウェブサイトで問題になる場合があります。問題を報告すると、&brandShortName; のすべてのユーザーの助けになります。(URL に加えてブラウザの設定も Mozilla に送信されます。)">
@@ -1052,22 +1010,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.breakageReportView.collection.comments.label	"どのような問題がありましたか？ (任意)">
 <!ENTITY contentBlocking.breakageReportView.sendReport.label		"レポートを送信">
 <!ENTITY contentBlocking.breakageReportView.cancel.label		"キャンセル">
-
-<!ENTITY trackingProtection.title			"トラッキング防止">
-<!ENTITY trackingProtection.tooltip			"トラッキング防止の設定を開きます">
-
-<!-- LOCALIZATION NOTE (trackingProtection.unblock3.label, trackingProtection.unblock3.accesskey):
-     The associated button with this label and accesskey is only shown when opening the control
-     center while looking at a site with trackers in NON-private browsing mode. -->
-<!ENTITY trackingProtection.unblock4.label		"このサイトではブロッキングを無効にする">
-<!ENTITY trackingProtection.unblock4.accesskey		"D">
-<!-- LOCALIZATION NOTE (trackingProtection.unblockPrivate3.label, trackingProtection.unblockPrivate3.accesskey):
-     The associated button with this label and accesskey is only shown when opening the control
-     center while looking at a site with trackers in PRIVATE browsing mode. -->
-<!ENTITY trackingProtection.unblockPrivate4.label	"一時的にブロッキングを無効にする">
-<!ENTITY trackingProtection.unblockPrivate4.accesskey	"D">
-<!ENTITY trackingProtection.block5.label		"このサイトはブロッキングを有効にする">
-<!ENTITY trackingProtection.block5.accesskey		"E">
 
 <!-- LOCALIZATION NOTE (trackingProtection.unblock5.label, trackingProtection.unblock5.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
@@ -1086,11 +1028,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY pluginNotification.showAll.label	"すべて表示">
 <!ENTITY pluginNotification.showAll.accesskey	"S">
-
-<!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
-<!ENTITY pluginActivateNow.label		"今だけ許可">
-<!ENTITY pluginActivateAlways.label		"常に許可">
-<!ENTITY pluginBlockNow.label			"プラグインをブロック">
 
 <!-- LOCALIZATION NOTE: (pluginNotification.width): This is used to determine the
      width of the plugin popup notification that can appear if a plugin has been
@@ -1196,3 +1133,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      The first <image> tag is replaced with the icon for the add-ons menu.
      The second <image> tag is replaced with the icon for the toolbar menu. -->
 <!ENTITY addonPostInstallMessage.label		"<image class='addon-toolbar-icon'/> メニューの <image class='addon-addon-icon'/> をクリックすると、アドオンを管理できます。">
+
+<!ENTITY addonPrivateBrowsing.header.label		"プライベート@@Window@@での拡張機能">
+<!ENTITY addonPrivateBrowsing.body.label		"プライベート@@Window@@では、拡張機能の実行は@@DefaultSetting@@では許可されません。プライベートブラウジングでは拡張機能は動作せず、あなたのオンラインアクティビティへのアクセスもできません。拡張機能の管理でプライベート@@Window@@での各拡張機能の実行を許可できます。">
+<!ENTITY addonPrivateBrowsing.okButton.label		"OK">
+<!ENTITY addonPrivateBrowsing.okButton.accesskey	"O">
+<!ENTITY addonPrivateBrowsing.manageButton.label	"拡張機能の管理">
+<!ENTITY addonPrivateBrowsing.manageButton.accesskey	"M">

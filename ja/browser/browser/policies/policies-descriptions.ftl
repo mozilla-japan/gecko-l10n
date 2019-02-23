@@ -23,6 +23,8 @@ policy-BlockAboutSupport = about:support ページへのアクセスをブロッ
 
 policy-Bookmarks = ブックマークツールバー、ブックマークメニュー、または指定のフォルダーの中にブックマークを作成します。
 
+policy-CaptivePortal = キャプティブポータルサポートを有効または無効にします。
+
 policy-CertificatesDescription = 証明書を追加、または組み込みの証明書を利用します。
 
 policy-Cookies = ウェブサイトの Cookie の保存を許可するか拒否するか設定します。
@@ -82,6 +84,8 @@ policy-EnableTrackingProtection = コンテンツブロッキングを有効ま�
 # English or translate them as verbs.
 policy-Extensions = 拡張機能をインストール、削除、またはロックします。インストールは URL とパスを指定します。削除とロックは拡張機能の ID を指定します。
 
+policy-ExtensionUpdate = 拡張機能の自動更新を有効または無効にします。
+
 policy-FlashPlugin = Flash プラグインの実行を許可、または拒否します。
 
 policy-HardwareAcceleration = false にすると、ハードウェアアクセラレーションをオフにします。
@@ -90,6 +94,8 @@ policy-HardwareAcceleration = false にすると、ハードウェアアクセ�
 policy-Homepage = ホームページを設定し、任意でロックします。
 
 policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
+
+policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) を有効または無効にします。
 
 policy-NoDefaultBookmarks = { -brand-short-name } の初期ブックマークとスマートブックマーク (よく見るページ、最近付けたタグ) の作成を無効にします。注意: このポリシーはプロファイルの初回起動より前に設定された場合のみ有効です。
 
@@ -115,6 +121,12 @@ policy-SearchEngines = 検索エンジンの設定を指示します。このポ
 
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = PKCS #11 モジュールをインストールします。
+
+policy-SSLVersionMax = SSL の最高バージョンを設定します。
+
+policy-SSLVersionMin = SSL の最低バージョンを設定します。
+
+policy-SupportMenu = ヘルプメニューにカスタムサポートメニューを追加します。
 
 # “format” refers to the format used for the value of this policy.
 policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細はドキュメントをご覧ください。

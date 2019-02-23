@@ -4,10 +4,6 @@
 
 do-not-track-description = ウェブサイトに “Do Not Track” 信号を送り、追跡されたくないことを知らせます
 do-not-track-learn-more = 詳細情報
-do-not-track-option-default =
-    .label = トラッキング防止の使用時のみ
-do-not-track-option-default-content-blocking =
-    .label = 検出されたトラッカーをブロックする設定時のみ
 do-not-track-option-default-content-blocking-known =
     .label = 既知のトラッカーをブロックする設定時のみ
 do-not-track-option-always =
@@ -110,10 +106,6 @@ extension-controlled-default-search = 拡張機能 <img data-l10n-name="icon"/> 
 # This string is shown to notify the user that Container Tabs
 # are being enabled by an extension.
 extension-controlled-privacy-containers = 拡張機能 <img data-l10n-name="icon"/> { $name } がコンテナータブを必要としています。
-
-# This string is shown to notify the user that their tracking protection preferences
-# are being controlled by an extension.
-extension-controlled-websites-tracking-protection-mode = 拡張機能 <img data-l10n-name="icon"/> { $name } がトラッキング防止の設定を変更しています。
 
 # This string is shown to notify the user that their content blocking "All Detected Trackers"
 # preferences are being controlled by an extension.
@@ -350,6 +342,8 @@ update-application-check-choose =
 update-application-manual =
     .label = 更新の確認は行わない (非推奨)
     .accesskey = N
+
+update-application-warning-cross-user-setting = この設定はこの端末のすべての Windows アカウントと、この { -brand-short-name } のインストール先を使用するすべての { -brand-short-name } プロファイルに適用されます。
 
 update-application-use-service =
     .label = 更新のインストールにバックグラウンドサービスを使用する
@@ -752,17 +746,11 @@ sitedata-total-size = 保存された Cookie とサイトデータとキャッ�
 
 sitedata-learn-more = 詳細情報
 
-sitedata-keep-until = Cookie を保存する期間
-    .accesskey = u
-
-sitedata-keep-until-expire =
-    .label = サイトが指定した期限まで
-sitedata-keep-until-closed =
-    .label = { -brand-short-name } を終了するまで
-
 sitedata-delete-on-close =
     .label = { -brand-short-name } を閉じたときに Cookie とサイトデータを削除する
     .accesskey = c
+
+sitedata-delete-on-close-private-browsing = 永続プライベートブラウジングモードでは、Cookie とサイトデータは { -brand-short-name } の終了時に必ず消去されます。
 
 sitedata-allow-cookies-option =
     .label = Cookie とサイトデータを保存する
@@ -776,17 +764,6 @@ sitedata-disallow-cookies-option =
 # The list items are the strings named sitedata-block-*-option*.
 sitedata-block-desc = ブロックの種類
     .accesskey = T
-
-sitedata-block-trackers-option-recommended =
-    .label = サードパーティトラッカー (推奨)
-sitedata-block-trackers-option =
-    .label = サードパーティトラッカー
-sitedata-block-unvisited-option =
-    .label = 未訪問のウェブサイトの Cookie
-sitedata-block-all-third-party-option =
-    .label = すべてのサードパーティトラッカー (ウェブサイトが動作しない可能性があります)
-sitedata-block-all-option =
-    .label = すべての Cookie (ウェブサイトが動作しない可能性があります)
 
 sitedata-option-block-trackers =
     .label = サードパーティトラッカー
@@ -804,15 +781,6 @@ sitedata-clear =
 sitedata-settings =
     .label = データを管理...
     .accesskey = M
-
-sitedata-cookies-exceptions =
-    .label = 例外サイト...
-    .accesskey = E
-
-# This is a warning message shown next to a yellow warning icon when the Cookies and Site Data subsection
-# in Preferences has been disabled due to Content Blocking being disabled. It is displayed next to the
-# Cookies and Site Data section.
-sitedata-warning-your-settings-prevent-changes = 現在のコンテンツブロッキングの設定内容は、Cookie とサイトデータの設定の変更を妨げます。
 
 sitedata-cookies-permissions =
     .label = サイトの設定を管理...
@@ -840,47 +808,9 @@ addressbar-suggestions-settings = 検索エンジンの検索候補の設定を�
 
 content-blocking-header = コンテンツブロッキング
 
-content-blocking-desc = ブラウザを遅くしたりウェブ上の行動を追跡したりする広告やコードなどのサードパーティコンテンツをブロックします。保護と性能の最適なバランスの設定にカスタマイズできます。
-
 content-blocking-description = ウェブ上の行動を追跡するサードパーティコンテンツをブロックします。ウェブサイト間で蓄積、共有されるあなたのオンラインアクティビティをコントロールします。
 
 content-blocking-learn-more = 詳細
-content-blocking-restore-defaults =
-  .label = @@RestoreDefaults@@
-  .accesskey = R
-
-content-blocking-toggle-on =
-  .tooltiptext = コンテンツブロッキングをオフにします
-content-blocking-toggle-off =
-  .tooltiptext = コンテンツブロッキングをオンにします
-
-content-blocking-toggle-label-on = オン
-  .accesskey = O
-content-blocking-toggle-label-off = オフ
-  .accesskey = O
-
-content-blocking-category-label = ブロック対象を選択
-
-# "Slow" in this instance means "slow to load on the network".
-# FastBlock is a feature that blocks requests to tracking sites if they
-# have not finished loading after a certain threshold of seconds.
-content-blocking-fastblock-slow-loading-trackers-label =
-  .label = 読み込みを遅くするトラッカー
-  .accesskey = S
-content-blocking-fastblock-new-description = ページの読み込みを遅くするトラッカーのみブロックします。
-content-blocking-tracking-protection-trackers-label =
-  .label = トラッカー
-  .accesskey = T
-content-blocking-tracking-protection-all-detected-trackers-label =
-  .label = すべての検出済みトラッカー
-  .accesskey = T
-content-blocking-tracking-protection-new-description = 既知のトラッカーをすべてブロックします。(一部のページが読み込まれない可能性があります。)
-content-blocking-tracking-protection-option-always =
-  .label = 常にブロック
-  .accesskey = A
-content-blocking-tracking-protection-option-private =
-  .label = プライベート@@Window@@のみ
-  .accesskey = p
 
 # The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
 # "Standard" in this case is an adjective, meaning "default" or "normal".
@@ -906,6 +836,7 @@ content-blocking-all-third-party-cookies = サードパーティ Cookie すべ�
 
 content-blocking-warning-title = 注意！
 content-blocking-warning-desc = Cookie とトラッカーをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。信頼するサイトはブロッキングを無効にできます。
+content-blocking-warning-description = コンテンツをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。信頼するサイトはブロッキングを無効にできます。
 content-blocking-learn-how = 詳細
 
 content-blocking-trackers-label =
@@ -919,57 +850,22 @@ content-blocking-option-private =
   .accesskey = p
 content-blocking-tracking-protection-change-block-list = ブロックリストを変更
 
-content-blocking-third-party-cookies-label =
-  .label = サードパーティ Cookie
-  .accesskey = C
-content-blocking-reject-trackers-description = すべてのサードパーティ Cookie、またはトラッカーの Cookie のみをブロックします。
-# This is a warning message shown next to a yellow warning icon when the Third-Party Cookies subsection
-# of the Content Blocking UI in Preferences has been disabled due to the either the "All cookies" option
-# or the "Cookies from unvisited websites" option being selected in the Cookies and Site Data section of
-# the UI.
-content-blocking-reject-trackers-warning-your-settings-prevent-changes = 現在の Cookie とサイトデータの設定内容は、サードパーティ Cookie の設定の変更を妨げます。
-content-blocking-change-cookie-settings =
-  .label = Cookie の設定を変更
-  .accesskey = S
-content-blocking-reject-trackers-block-trackers-option-recommended =
-  .label = トラッカー (推奨)
-  .accesskey = k
-content-blocking-reject-trackers-block-trackers-option =
-  .label = トラッカー
-  .accesskey = k
-content-blocking-reject-trackers-all-third-parties-option =
-  .label = すべてのサードパーティ Cookie (ウェブサイトが動作しない可能性があります)
-  .accesskey = A
-
 content-blocking-cookies-label =
   .label = Cookie
   .accesskey = C
 
+# Cryptomining refers to using scripts on websites that can use a computer’s resources to mine cryptocurrency without a user’s knowledge.
+content-blocking-cryptominers-label =
+  .label = 暗号通貨マイニング
+  .accesskey = y
+
+# Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
+# that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
+content-blocking-fingerprinters-label =
+  .label = フィンガープリント採取
+  .accesskey = F
+
 ## Privacy Section - Tracking
-
-tracking-header = トラッキング防止
-
-tracking-desc = トラッキング防止は、複数のウェブサイトにまたがるユーザーのブラウジングデータを収集するオンライントラッカーをブロックします。 <a data-l10n-name="learn-more">トラッキング防止とプライバシーの詳細情報</a>
-
-tracking-mode-label = トラッキング防止を使用して既知のトラッカーをブロックする
-
-tracking-mode-always =
-    .label = 常にブロック
-    .accesskey = y
-tracking-mode-private =
-    .label = プライベート@@Window@@のみ
-    .accesskey = l
-tracking-mode-never =
-    .label = ブロックしない
-    .accesskey = N
-
-tracking-exceptions =
-    .label = 例外...
-    .accesskey = x
-
-tracking-change-block-list =
-    .label = ブロックリストを変更...
-    .accesskey = C
 
 tracking-manage-exceptions =
     .label = 例外を管理...
@@ -1009,6 +905,10 @@ permissions-block-autoplay-media =
     .accesskey = B
 
 permissions-block-autoplay-media-menu = 音声を自動再生するウェブサイト
+
+permissions-block-autoplay-media2 =
+    .label = 音声を自動再生するウェブサイトをブロックする
+    .accesskey = B
 
 permissions-block-autoplay-media-exceptions =
     .label = 許可サイト...
