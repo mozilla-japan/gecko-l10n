@@ -67,6 +67,7 @@
  -->
 <!ENTITY updateApp.version.pre			"バージョン ">
 <!ENTITY updateApp.version.post			"">
+<!ENTITY updateAppAllow.description		"&brandShortName; の更新動作">
 <!ENTITY updateAuto.label			"更新を自動的にインストールする (推奨: セキュリティ向上)">
 <!ENTITY updateAuto.accesskey			"A">
 <!ENTITY updateCheck.label			"更新を確認するが、インストールするかどうかを選択する">
@@ -76,6 +77,8 @@
 
 <!ENTITY useService.label			"更新のインストールにバックグラウンドサービスを使用する">
 <!ENTITY useService.accesskey			"b">
+
+<!ENTITY updateCrossUserSettingWarning.description	"この設定はすべての Windows アカウントと、このバージョンの &brandShortName; で使用するすべてのプロファイルに適用されます。">
 
 <!-- Networking and Disk Space -->
 <!ENTITY showSettings.label			"接続設定...">
