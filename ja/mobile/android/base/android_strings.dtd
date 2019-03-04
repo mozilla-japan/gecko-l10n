@@ -291,11 +291,6 @@
      Similar to the already existing "pref_whats_new_notification_summary"-->
 <!ENTITY pref_feature_tips_notification_summary "&brandShortName; の使い方と他の &vendorShortName; 製品の使い方について学びます">
 
-<!-- Localization note (pref_feature_tips_notification_enabling_hint):
-     Describe the action the user should do to enable this preference
-     Will be used in the context "<Turn on> ... to enable this feature" -->
-<!ENTITY pref_feature_tips_notification_enabling_hint "有効化">
-
 <!-- Localization note (pref_feature_tips_notification_enabling_path):
      Nothing to translate. Simple concatenation of already localized strings. Result is used below. -->
 <!ENTITY pref_feature_tips_notification_enabling_path "&pref_category_privacy_short; > &pref_category_datareporting; > &datareporting_fhr_title;">
@@ -750,7 +745,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY guest_browsing_notification_title "ゲストブラウジングが有効です">
 <!ENTITY guest_browsing_notification_text "タップして終了">
 
-<!ENTITY exit_guest_session_title "&brandShortName; は今すぐ再起動します">
+<!ENTITY exit_guest_session_title "&brandShortName; を今すぐ再起動します">
 <!ENTITY exit_guest_session_text "このセッションの閲覧データは削除されます。">
 
 <!-- Miscellaneous -->
@@ -819,7 +814,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!-- Default Bookmarks titles-->
 <!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
-<!ENTITY bookmarks_about_browser "Firefox: あなたのブラウザーについて">
+<!ENTITY bookmarks_about_browser "Firefox: このブラウザーについて">
 <!-- LOCALIZATION NOTE (bookmarks_addons): link title for https://addons.mozilla.org/en-US/mobile -->
 <!ENTITY bookmarks_addons "Firefox: アドオンでカスタマイズ">
 <!-- LOCALIZATION NOTE (bookmarks_support): link title for https://support.mozilla.org/ -->
@@ -841,8 +836,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      are used for a system notification that's shown to users after the app updates. -->
 <!ENTITY whatsnew_notification_title "&brandShortName; は最新版です">
 <!ENTITY whatsnew_notification_summary "このバージョンの新機能">
-
-<!ENTITY promotion_add_page_shortcut "ページのショートカットを追加">
 
 <!ENTITY helper_first_offline_bookmark_title "オフラインで読む">
 <!ENTITY helper_first_offline_bookmark_message "オフラインであってもブックマークのまとめ読み項目を表示します。">
@@ -902,15 +895,9 @@ Picture-in-picture mini window -->
 <!ENTITY pip_pause_button_description "再生を一時停止します">
 
 <!-- Notification channels names -->
-<!ENTITY default_notification_channel "&brandShortName;">
-
-<!-- Notification channels names -->
 <!ENTITY default_notification_channel2 "ブラウザー">
 <!ENTITY mls_notification_channel "&vendorShortName; 位置情報サービス">
 <!ENTITY download_notification_channel "ダウンロード">
-<!ENTITY media_notification_channel "メディア再生">
-<!-- These push notifications come without a specific channel and/or name from Leanplum -->
-<!ENTITY leanplum_default_notifications_channel "&brandShortName; プッシュ通知">
 <!ENTITY media_notification_channel2 "音声と動画">
 <!-- These push notifications come without a specific channel and/or name from Leanplum -->
 <!ENTITY leanplum_default_notifications_channel2 "&vendorShortName; ヒントと活用法">
