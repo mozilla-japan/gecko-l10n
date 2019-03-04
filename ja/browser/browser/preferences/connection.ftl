@@ -86,10 +86,6 @@ connection-dns-over-https =
     .label = DNS over HTTPS を有効にする
     .accesskey = b
 
-connection-dns-over-https-url = URL
-    .accesskey = U
-    .tooltiptext = DNS over HTTPS の解決に使用する URL
-
 # Variables:
 #   $url (String) - URL for the DNS over HTTPS provider
 connection-dns-over-https-url-default =

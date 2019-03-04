@@ -70,9 +70,6 @@
 <!ENTITY cmd.new_separator.label		"@@New-CMD@@区切り">
 <!ENTITY cmd.new_separator.accesskey		"S">
 
-<!ENTITY cmd.reloadLivebookmark.label		"ライブブックマークを再読み込み">
-<!ENTITY cmd.reloadLivebookmark.accesskey	"R">
-
 <!ENTITY col.name.label			"名前">
 <!ENTITY col.tags.label			"タグ">
 <!ENTITY col.url.label			"URL">

@@ -947,5 +947,6 @@ target dir             gecko-string hg changeset rev:id     by              comm
 suite                   11087:0aef1783d407   2019-02-07     mar             sync suite
 security, toolkit       11118:ede1f6e878cc   2019-02-15     mar             sync security, toolkit
 dom, netwerk            11118:ede1f6e878cc   2019-02-15     mar             sync dom, netwerk
+browser                 11118:ede1f6e878cc   2019-02-15     hATrayflood     sync browser
 mobile                  11149:723ccac0ba2d   2019-02-25     mar             sync mobile
 chat, mail              11176:8f0d82b1de6e   2019-02-28     mar             sync chat, mail
