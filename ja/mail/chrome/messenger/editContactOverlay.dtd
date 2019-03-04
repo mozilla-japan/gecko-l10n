@@ -14,9 +14,6 @@
 <!ENTITY editContactAddressBook.label			"アドレス帳:">
 <!ENTITY editContactAddressBook.accesskey		"A">
 
-<!ENTITY editContactPanelCancel.label			"キャンセル">
-<!ENTITY editContactPanelCancel.accesskey		"C">
-
 <!ENTITY editContactPanelDone.label			"完了">
 <!ENTITY editContactPanelDone.accesskey			"D">
 
