@@ -11,11 +11,11 @@ heading = { -brand-short-name } プロファイルに変更があります
 
 changed-title = 変更について
 changed-desc-profiles = この { -brand-short-name } のインストール先のプロファイルは新規です。プロファイルとは、Firefox がブックマーク、パスワード、ユーザー設定などの情報を保存する一連のファイル群のことです。
-changed-desc-dedicated = 簡単かつ安全に Firefox (Firefox, Firefox ESR, Firefox Beta, Firefox Developer Edition, and Firefox Nightly 含む) のインストール先を切り替えられるように、プロファイルはこのインストール先専用です。保存した情報が自動的に他の Firefox のインストール先と共有されることはありません。
+changed-desc-dedicated = 簡単かつ安全に Firefox (Firefox, Firefox ESR, Firefox Beta, Firefox Developer Edition, Firefox Nightly 含む) のインストール先を切り替えられるように、プロファイルはこのインストール先専用です。保存した情報が自動的に他の Firefox のインストール先と共有されることはありません。
 
-lost = <b>個人データやカスタマイズが失われることはもうありません。</b>このコンピュータの Firefox に情報を保存してあれば、他の Firefox のインストール先でも利用できます。
+lost = <b>個人データやカスタマイズが失われることはもうありません。</b>このコンピューターの Firefox に情報を保存してあれば、他の Firefox のインストール先でも利用できます。
 
-options-title = What are my options?
+options-title = プロファイルのオプション
 options-do-nothing = 何もしなければ、あなたのプロファイルデータは他の Firefox のインストール先のプロファイルデータから切り離されます。
 options-use-sync = あなたのプロファイルデータを他の Firefox のインストール先すべてと同じにしたいのであれば、{ -fxaccount-brand-name } を使うことで他と同期を維持できます。
 
