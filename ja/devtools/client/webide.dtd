@@ -118,12 +118,6 @@
 
 <!-- Runtime Details -->
 <!ENTITY runtimedetails_title				"ランタイム情報">
-<!ENTITY runtimedetails_adbIsRoot			"ADB は root です: ">
-<!ENTITY runtimedetails_summonADBRoot			"root 端末">
-<!ENTITY runtimedetails_ADBRootWarning			"(ロック解除されたブートローダが必要です)">
-<!ENTITY runtimedetails_unrestrictedPrivileges		"開発ツールの権限の制限解除: ">
-<!ENTITY runtimedetails_requestPrivileges		"上位の権限を要求">
-<!ENTITY runtimedetails_privilegesWarning		"(端末が再起動されます。root アクセス権限が必要です。)">
 
 <!-- Device Preferences and Settings -->
 <!ENTITY device_typeboolean				"真偽値">
