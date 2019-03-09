@@ -11,6 +11,7 @@
 <!ENTITY returnToPreviousPage1.label	"戻る (推奨)">
 <!ENTITY advanced.label			"エラー内容">
 <!ENTITY continue2.label		"詳細...">
+<!ENTITY advanced2.label		"詳細...">
 <!ENTITY moreInformation.label		"詳細情報">
 <!ENTITY viewCertificate.label		"証明書を確認">
 

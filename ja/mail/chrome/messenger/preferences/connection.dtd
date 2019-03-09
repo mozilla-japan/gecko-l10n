@@ -49,9 +49,6 @@
 <!ENTITY  socksRemoteDNS.accesskey	"d">
 <!ENTITY  dnsOverHttps.label		"DNS over HTTPS を有効にする">
 <!ENTITY  dnsOverHttps.accesskey	"b">
-<!ENTITY  dnsOverHttpsUrl.label		"URL">
-<!ENTITY  dnsOverHttpsUrl.accesskey	"R">
-<!ENTITY  dnsOverHttpsUrl.tooltip	"DNS over HTTPS の解決に使用する URL">
 <!ENTITY  dnsOverHttpsUrlDefault.label		"標準設定を使用">
 <!ENTITY  dnsOverHttpsUrlDefault.accesskey	"l">
 <!ENTITY  dnsOverHttpsUrlDefault.tooltip	"DNS over HTTPS の解決に@@Default-@@ URL を使用します">

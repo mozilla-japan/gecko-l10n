@@ -100,7 +100,6 @@
 <!ENTITY update.downloading.end		"">
 
 <!ENTITY update.applying		"更新を適用中...">
-
 <!ENTITY update.restarting		"再起動中...">
 
 <!-- LOCALIZATION NOTE (channel.description.start,channel.description.end): channel.description.start and

@@ -18,8 +18,6 @@
 <!ENTITY htmlComposeHeader.label		"HTML">
 <!ENTITY font.label				"フォント:">
 <!ENTITY font.accesskey				"n">
-<!ENTITY size.label				"サイズ:">
-<!ENTITY size.accesskey				"z">
 <!ENTITY fontSize.label				"サイズ:">
 <!ENTITY fontSize.accesskey			"z">
 <!ENTITY useReaderDefaults.label		"@@DefaultColor@@を使用">

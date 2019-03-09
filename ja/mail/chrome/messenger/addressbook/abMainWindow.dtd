@@ -174,9 +174,6 @@ because displayed names don't have the comma in between. -->
 <!ENTITY newIM.tooltip					"インスタントメッセージを送信またはチャットをします">
 <!ENTITY deleteButton2.tooltip				"選択したアイテムを削除します">
 
-<!-- Dir Tree header -->
-<!ENTITY dirTreeHeader.label			"アドレス帳">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label		"名前またはメールアドレス">
 <!ENTITY SearchNameOrEmail.accesskey		"N">
