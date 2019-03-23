@@ -23,7 +23,7 @@
 <!ENTITY accountAliasGroupbox.caption		"ローカルの別名">
 <!ENTITY accountAliasField.label		"別名:">
 <!ENTITY accountAliasInfo.label			"別名は会話中にあなただけに表示される名前です。相手は見ることができません。">
-<!ENTITY accountProxySettings.caption		"プロキシ設定">
+<!ENTITY accountProxySettings.caption		"プロキシー設定">
 <!ENTITY accountProxySettings.change.label	"変更...">
 <!ENTITY accountProxySettings.change.accessKey	"C">
 

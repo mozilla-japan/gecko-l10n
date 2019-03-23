@@ -46,7 +46,7 @@
 <!ENTITY findAsYouType.label "タイプ検索">
 <!ENTITY cache.label "キャッシュ">
 <!ENTITY offlineApps.label "オフラインアプリケーション">
-<!ENTITY proxies.label "プロキシ">
+<!ENTITY proxies.label "プロキシー">
 <!ENTITY httpnetworking.label "HTTP ネットワーク">
 <!ENTITY smart.label "ソフトウェアのインストール">
 <!ENTITY mousewheel.label "マウスホイール">

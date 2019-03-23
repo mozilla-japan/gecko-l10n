@@ -8,22 +8,22 @@
 <!ENTITY  window.width			"54em"><!-- en-US: 49em -->
 <!ENTITY  window.macWidth		"46em"><!-- en-US: 44em -->
 
-<!ENTITY  proxyTitle.label		"インターネット接続に使用するプロキシの設定">
-<!ENTITY  noProxyTypeRadio.label	"プロキシを使用しない"><!-- prev: 直接接続する -->
+<!ENTITY  proxyTitle.label		"インターネット接続に使用するプロキシーの設定">
+<!ENTITY  noProxyTypeRadio.label	"プロキシーを使用しない"><!-- prev: 直接接続する -->
 <!ENTITY  noProxyTypeRadio.accesskey	"y">
-<!ENTITY  systemTypeRadio.label		"システムのプロキシ設定を使用する">
+<!ENTITY  systemTypeRadio.label		"システムのプロキシー設定を使用する">
 <!ENTITY  systemTypeRadio.accesskey	"u">
-<!ENTITY  WPADTypeRadio.label		"このネットワークのプロキシ設定を自動検出する">
+<!ENTITY  WPADTypeRadio.label		"このネットワークのプロキシー設定を自動検出する">
 <!ENTITY  WPADTypeRadio.accesskey	"w">
-<!ENTITY  manualTypeRadio.label		"手動でプロキシを設定する:">
+<!ENTITY  manualTypeRadio.label		"手動でプロキシーを設定する:">
 <!ENTITY  manualTypeRadio.accesskey	"m">
-<!ENTITY  autoTypeRadio.label		"自動プロキシ設定スクリプト URL:">
+<!ENTITY  autoTypeRadio.label		"自動プロキシー設定スクリプト URL:">
 <!ENTITY  autoTypeRadio.accesskey	"A">
 <!ENTITY  reload.label			"再読み込み">
 <!ENTITY  reload.accesskey		"l">
-<!ENTITY  http.label			"HTTP プロキシ:">
+<!ENTITY  http.label			"HTTP プロキシー:">
 <!ENTITY  http.accesskey		"h">
-<!ENTITY  ssl.label			"SSL プロキシ:">
+<!ENTITY  ssl.label			"SSL プロキシー:">
 <!ENTITY  ssl.accesskey			"s">
 <!ENTITY  socks.label			"SOCKS ホスト:">
 <!ENTITY  socks.accesskey		"c">
@@ -37,15 +37,15 @@
 <!ENTITY  SSLport.accesskey		"o">
 <!ENTITY  SOCKSport.label		"ポート:">
 <!ENTITY  SOCKSport.accesskey		"t">
-<!ENTITY  noproxy.label			"プロキシなしで接続:">
+<!ENTITY  noproxy.label			"プロキシーなしで接続:">
 <!ENTITY  noproxy.accesskey		"n">
 <!ENTITY  noproxyExplain.label		"例: .mozilla.org, .net.nz, 192.168.1.0/24">
-<!ENTITY  shareproxy.label		"すべてのプロトコルでこのプロキシを使用する">
+<!ENTITY  shareproxy.label		"すべてのプロトコルでこのプロキシーを使用する">
 <!ENTITY  shareproxy.accesskey		"x">
 <!ENTITY  autologinproxy.label          "パスワードを保存してある場合は認証を確認しない">
 <!ENTITY  autologinproxy.accesskey	"i">
-<!ENTITY  autologinproxy.tooltip        "このオプションは、プロキシへのパスワードが保存してある場合、確認することなく認証を行います。認証に失敗した場合は確認を行います。">
-<!ENTITY  socksRemoteDNS.label		"SOCKS v5 を使用するときは DNS もプロキシを使用する">
+<!ENTITY  autologinproxy.tooltip        "このオプションは、プロキシーへのパスワードが保存してある場合、確認することなく認証を行います。認証に失敗した場合は確認を行います。">
+<!ENTITY  socksRemoteDNS.label		"SOCKS v5 を使用するときは DNS もプロキシーを使用する">
 <!ENTITY  socksRemoteDNS.accesskey	"d">
 <!ENTITY  dnsOverHttps.label		"DNS over HTTPS を有効にする">
 <!ENTITY  dnsOverHttps.accesskey	"b">

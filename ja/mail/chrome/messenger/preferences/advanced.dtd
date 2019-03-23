@@ -83,7 +83,7 @@
 <!-- Networking and Disk Space -->
 <!ENTITY showSettings.label			"接続設定...">
 <!ENTITY showSettings.accesskey			"S">
-<!ENTITY proxiesConfigure.label			"インターネット接続に使用するプロキシを設定できます。">
+<!ENTITY proxiesConfigure.label			"インターネット接続に使用するプロキシーを設定できます。">
 <!ENTITY connectionsInfo.caption		"接続">
 <!ENTITY offlineInfo.caption			"オフライン">
 <!ENTITY offlineInfo.label			"オフライン時の動作を設定します。">

@@ -11,6 +11,6 @@
 <!ENTITY account.alias				"別名:">
 <!ENTITY account.newMailNotification		"新着メールを通知する"><!-- "Notify on new Mail" -->
 <!ENTITY account.autojoin			"自動参加するチャンネル:">
-<!ENTITY account.proxySettings.caption		"プロキシ設定:">
+<!ENTITY account.proxySettings.caption		"プロキシー設定:">
 <!ENTITY account.proxySettings.change.label	"変更...">
 <!ENTITY account.proxySettings.change.accessKey	"C">
