@@ -44,7 +44,7 @@
      so that we can refer to text the user sees in the UI, without
      this page being forgotten every time those strings are updated.  -->
 <!-- intro paragraph for branded builds -->
-<!ENTITY rights3.webservices-a "&brandFullName; は、搭載された機能のために用意されたウェブベースの情報サービス (以下「本サービス」と呼びます) を利用しており、これらは下記の通り &brandShortName; のバイナリ版とともに利用できます。これらのサービス (アドオンの提案と更新サービス、セーフブラウジングサービス、位置情報を利用したウェブブラウジングの通知機能) の一部は@@Default@@で有効です。 本サービスのいずれかをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、">
+<!ENTITY rights3.webservices-a "&brandFullName; は、搭載された機能のために用意されたウェブベースの情報サービス (以下「本サービス」と呼びます) を利用しており、これらは下記の通り &brandShortName; のバイナリー版とともに利用できます。これらのサービス (アドオンの提案と更新サービス、セーフブラウジングサービス、位置情報を利用したウェブブラウジングの通知機能) の一部は@@Default@@で有効です。 本サービスのいずれかをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、">
 <!ENTITY rights3.webservices-b "機能やサービスを無効化する手順">
 <!ENTITY rights3.webservices-c " をお読みください。その他の機能やサービスはアプリケーションの設定から有効化または無効化できます。">
 
