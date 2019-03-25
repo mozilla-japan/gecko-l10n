@@ -110,20 +110,20 @@
 </ul>
 ">
 
-<!ENTITY proxyConnectFailure.title	"プロキシサーバーへの接続を拒否されました">
+<!ENTITY proxyConnectFailure.title	"プロキシーサーバーへの接続を拒否されました">
 <!ENTITY proxyConnectFailure.longDesc	"
 <ul>
-  <li>プロキシ設定が正しいか確認してください。</li>
-  <li>プロキシサーバーが正常に動作しているかネットワーク管理者に問い合わせてください。</li>
+  <li>プロキシー設定が正しいか確認してください。</li>
+  <li>プロキシーサーバーが正常に動作しているかネットワーク管理者に問い合わせてください。</li>
 </ul>
 ">
 
-<!ENTITY proxyResolveFailure.title	"プロキシサーバーが見つかりませんでした">
+<!ENTITY proxyResolveFailure.title	"プロキシーサーバーが見つかりませんでした">
 <!-- LOCALIZATION NOTE (proxyResolveFailure.longDesc3) This string contains markup including widgets for enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
 <!ENTITY proxyResolveFailure.longDesc3	"
 <ul>
-  <li>プロキシ設定が正しいか確認してください。</li>
+  <li>プロキシー設定が正しいか確認してください。</li>
   <li>端末のデータ接続や Wi-Fi 接続が有効であるか確認してください。
     <button id='wifi'>Wi-Fi を有効化</button>
   </li>

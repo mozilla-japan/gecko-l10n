@@ -111,18 +111,18 @@
 <!ENTITY aboutCommPluginsCmd.label		"プラグインについて">
 <!ENTITY aboutCommPluginsCmd.accesskey		"p">
 
-<!ENTITY direct.label			"オンライン (プロキシ: なし)">
+<!ENTITY direct.label			"オンライン (プロキシー: なし)">
 <!ENTITY direct.accesskey		"N">
-<!ENTITY manual.label			"オンライン (プロキシ: 手動設定)">
+<!ENTITY manual.label			"オンライン (プロキシー: 手動設定)">
 <!ENTITY manual.accesskey		"M">
-<!ENTITY pac.label			"オンライン (プロキシ: 設定ファイルの URL を指定)">
+<!ENTITY pac.label			"オンライン (プロキシー: 設定ファイルの URL を指定)">
 <!ENTITY pac.accesskey			"A">
-<!ENTITY wpad.label			"オンライン (プロキシ: 自動検出)">
+<!ENTITY wpad.label			"オンライン (プロキシー: 自動検出)">
 <!ENTITY wpad.accesskey			"D">
-<!ENTITY system.label			"オンライン (プロキシ: システムの設定)">
+<!ENTITY system.label			"オンライン (プロキシー: システムの設定)">
 <!ENTITY system.accesskey		"S">
 
-<!ENTITY proxy.label			"プロキシ設定...">
+<!ENTITY proxy.label			"プロキシー設定...">
 <!ENTITY proxy.accesskey		"C">
 
 <!ENTITY bidiSwitchTextDirectionItem.label		"テキストの記述方向を切り換える">

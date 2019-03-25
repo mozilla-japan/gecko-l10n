@@ -3,25 +3,25 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!--LOCALIZATION NOTE : FILE The Advanced Proxy Preferences dialog -->
-<!ENTITY  pref.proxies.advanced.title "プロキシの詳細設定">
-<!ENTITY  protocols.caption           "プロトコル別にプロキシを設定">
-<!ENTITY  protocols.description       "ほとんどのプロキシでは、プロトコル別に設定をする必要はありません。">
-<!ENTITY  http.label                  "HTTP プロキシ:">
+<!ENTITY  pref.proxies.advanced.title "プロキシーの詳細設定">
+<!ENTITY  protocols.caption           "プロトコル別にプロキシーを設定">
+<!ENTITY  protocols.description       "ほとんどのプロキシーでは、プロトコル別に設定をする必要はありません。">
+<!ENTITY  http.label                  "HTTP プロキシー:">
 <!ENTITY  http.accesskey              "x">
-<!ENTITY  ssl.label                   "SSL プロキシ:">
+<!ENTITY  ssl.label                   "SSL プロキシー:">
 <!ENTITY  ssl.accesskey               "L">
-<!ENTITY  ftp.label                   "FTP プロキシ:">
+<!ENTITY  ftp.label                   "FTP プロキシー:">
 <!ENTITY  ftp.accesskey               "F">
-<!ENTITY  reuseProxy.label            "すべてのプロトコルで HTTP プロキシと同じ設定を使用">
+<!ENTITY  reuseProxy.label            "すべてのプロトコルで HTTP プロキシーと同じ設定を使用">
 <!ENTITY  reuseProxy.accesskey        "U">
 <!ENTITY  port.label                  "ポート番号:">
 <!ENTITY  HTTPPort.accesskey          "P">
 <!ENTITY  SSLPort.accesskey           "o">
 <!ENTITY  FTPPort.accesskey           "r">
 
-<!ENTITY  socks.caption               "Generic プロキシ">
-<!ENTITY  socks.description           "SOCKS プロキシは主に企業などで使用されます。">
-<!ENTITY  socks.label                 "SOCKS プロキシ:">
+<!ENTITY  socks.caption               "Generic プロキシー">
+<!ENTITY  socks.description           "SOCKS プロキシーは主に企業などで使用されます。">
+<!ENTITY  socks.label                 "SOCKS プロキシー:">
 <!ENTITY  socks.accesskey             "S">
 <!ENTITY  socks4.label                "SOCKS v4">
 <!ENTITY  socks4.accesskey            "C">

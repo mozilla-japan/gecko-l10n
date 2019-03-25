@@ -6,14 +6,14 @@
 
 <!-- Network-->
 <!ENTITY prefDirect.label                    "直接接続設定">
-<!ENTITY prefProxy.label                     "プロキシ接続設定">
+<!ENTITY prefProxy.label                     "プロキシー接続設定">
 <!ENTITY prefEnableHTTP10.label              "HTTP 1.0 を使用する">
 <!ENTITY prefEnableHTTP10.accesskey          "U">
 <!ENTITY prefEnableHTTP10Proxy.accesskey     "S">
 <!ENTITY prefEnableHTTP11.label              "HTTP 1.1 を使用する">
 <!ENTITY prefEnableHTTP11.accesskey          "E">
 <!ENTITY prefEnableHTTP11Proxy.accesskey     "T">
-<!ENTITY prefPara                            "これらのオプションで HTTP 接続のパフォーマンスや互換性を向上させることができます。いくつかのプロキシサーバーは、例えば HTTP/1.0 を必要とすることが知られています (詳細はリリースノートを参照してください)。">
+<!ENTITY prefPara                            "これらのオプションで HTTP 接続のパフォーマンスや互換性を向上させることができます。いくつかのプロキシーサーバーは、例えば HTTP/1.0 を必要とすることが知られています (詳細はリリースノートを参照してください)。">
 <!ENTITY prefUseragent.label                 "ユーザーエージェント文字列の設定">
 <!ENTITY prefFirefoxCompat.label             "ユーザーエージェントに Firefox 互換ブラウザーであることを追記する"><!--Advertise Firefox compatibility-->
 <!ENTITY prefFirefoxCompat.accesskey         "F">
