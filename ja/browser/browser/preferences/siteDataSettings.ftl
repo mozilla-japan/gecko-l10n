@@ -41,6 +41,14 @@ site-data-button-save =
 site-usage-pattern = { $value } { $unit }
 site-usage-persistent = { site-usage-pattern } (永続)
 
+# Variables:
+#   $value (Number) - Value of the unit (for example: 4.6, 500)
+#   $unit (String) - Name of the unit (for example: "bytes", "KB")
+site-storage-usage =
+    .value = { $value } { $unit }
+site-storage-persistent =
+    .value = { site-storage-usage.value } (永続)
+
 site-data-remove-all =
     .label = すべて削除
     .accesskey = e

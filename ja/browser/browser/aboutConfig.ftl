@@ -10,8 +10,11 @@ about-config-warning-button = 危険性を承知の上で使用する
 
 about-config-title = about:config
 
-about-config-search =
-    .placeholder = 検索します。ESC を押すとすべて表示します。
+about-config2-title = 高度な設定
+
+about-config-search-input =
+    .placeholder = 検索
+about-config-show-all = すべて表示
 
 about-config-pref-add = 新規作成
 about-config-pref-toggle = 切り替え

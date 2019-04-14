@@ -60,8 +60,6 @@ permissions-capabilities-listitem-allow =
     .value = 許可
 permissions-capabilities-listitem-block =
     .value = 不許可
-permissions-capabilities-listitem-allow-first-party =
-    .value = ファーストパーティのみ
 permissions-capabilities-listitem-allow-session =
     .value = 現在のセッションのみ
 
