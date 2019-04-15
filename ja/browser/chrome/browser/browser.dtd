@@ -64,6 +64,8 @@ but will never be visible at the same time. -->
 These items have the same accesskey but will never be visible at the same time. -->
 <!ENTITY  bookmarkSelectedTabs.accesskey	"B">
 
+<!-- Tab context menu -->
+
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
@@ -108,7 +110,6 @@ These items have the same accesskey but will never be visible at the same time. 
 <!ENTITY  hiddenTabs.label		"隠しタブ">
 
 <!ENTITY  listAllTabs.label		"タブを一覧表示します">
-
 <!-- LOCALIZATION NOTE (allTabsMenu.searchTabs.label): "Search" is a verb, as
 in "Search through tabs". -->
 <!ENTITY  allTabsMenu.searchTabs.label	"タブを検索">
@@ -130,6 +131,9 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY printCmd.label			"@@Print@@...">
 <!ENTITY printCmd.accesskey		"P">
 <!ENTITY printCmd.commandkey		"p">
+
+<!ENTITY importFromAnotherBrowserCmd.label	"他のブラウザーから@@Import@@...">
+<!ENTITY importFromAnotherBrowserCmd.accesskey	"I">
 
 <!ENTITY taskManagerCmd.label		"タスクマネージャー">
 
@@ -213,6 +217,28 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenExit.label		"@@FullScreen@@モードを終了">
 <!ENTITY fullScreenExit.accesskey	"F">
 
+ <!-- LOCALIZATION NOTE (fxa.signin) Used to define the different labels
+     for the Firefox Account toolbar signin menu screen. -->
+<!ENTITY fxa.signin.callout.label		"Firefox をあなたとともに">
+<!ENTITY fxa.signin.description.label		"ブックマーク、履歴、パスワード、その他の設定をあなたの端末すべてに同期できます。">
+<!ENTITY fxa.signin.button.label		"&syncBrand.shortName.label; をオンにする...">
+
+<!-- LOCALIZATION NOTE (fxa.unverified) Used to define the different labels
+     for the Firefox Account toolbar unverified menu screen. -->
+<!ENTITY fxa.unverified.callout.label		"メールを確認">
+<!ENTITY fxa.unverified.description.label	"同期を行う前にあなたのアカウントを確認する必要があります。">
+<!ENTITY fxa.unverified.button.label		"&syncBrand.shortName.label; の設定を開く...">
+
+<!-- LOCALIZATION NOTE (fxa.menu) Used to define the different labels
+     for the Firefox Account toolbart menu screen. The `Signed in as` text is
+     followed by the user's email. -->
+<!ENTITY fxa.menu.signedInAs.label		"ログインするアカウント">
+<!ENTITY fxa.menu.manageAccount.label		"アカウントを管理...">
+<!ENTITY fxa.menu.syncSettings.label		"&syncBrand.shortName.label; の設定...">
+<!ENTITY fxa.menu.connectAnotherDevice.label	"&syncedTabs.sidebar.connectAnotherDevice;">
+<!ENTITY fxa.menu.connectAnotherDevice2.label	"別の端末を接続...">
+<!ENTITY fxa.menu.firefoxAccount		"&syncBrand.fxAccount.label;">
+
 <!-- LOCALIZATION NOTE (fullscreenWarning.beforeDomain.label,
      fullscreenWarning.afterDomain.label): these two strings are used
      respectively before and after the domain requiring fullscreen.
@@ -229,6 +255,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY exitDOMFullscreenMac.button	"@@FullScreen@@モードを終了 (esc)">
 <!ENTITY leaveDOMFullScreen.label	"@@FullScreen@@モードを終了">
 <!ENTITY leaveDOMFullScreen.accesskey	"u">
+
+<!-- LOCALIZATION NOTE (pictureInPicture.label, pictureInPicture.accesskey):
+     these two strings are used when right-clicking on a video in the
+     content area when the Picture-in-Picture feature is enabled. -->
+<!ENTITY pictureInPicture.label		"ピクチャーインピクチャー">
+<!ENTITY pictureInPicture.accesskey	"u">
 
 <!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
      pointerlockWarning.afterDomain.label): these two strings are used
@@ -407,6 +439,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY preferencesCmd2.accesskey	"O">
 <!ENTITY preferencesCmdUnix.label	"設定">
 <!ENTITY preferencesCmdUnix.accesskey	"n">
+
+<!ENTITY logins.label			"ログインとパスワード">
 
 <!ENTITY clearRecentHistory.label	"最近の履歴を消去">
 
@@ -879,7 +913,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.permissionsEmpty		"このサイトに特別な権限は設定されていません。">
 <!ENTITY identity.permissionsReloadHint		"変更内容を適用するには、ページの再読み込みが必要です。">
 <!ENTITY identity.permissionsPreferences.tooltip	"サイト別設定を開きます">
-
 <!ENTITY identity.contentBlockingPreferences.tooltip	"コンテンツブロッキングの設定を開きます">
 
 
@@ -931,6 +964,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncSignIn.label			"&syncBrand.shortName.label; にログイン...">
 <!ENTITY syncSignIn.accesskey			"Y">
 <!ENTITY syncSyncNowItem.label			"今すぐ同期">
+<!ENTITY syncSyncNowItemSyncing.label		"同期中...">
 <!ENTITY syncSyncNowItem.accesskey		"S">
 <!ENTITY syncReAuthItem.label			"&syncBrand.shortName.label; に再接続...">
 <!ENTITY syncReAuthItem.accesskey		"R">
@@ -1133,9 +1167,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      The first <image> tag is replaced with the icon for the add-ons menu.
      The second <image> tag is replaced with the icon for the toolbar menu. -->
 <!ENTITY addonPostInstallMessage.label		"<image class='addon-toolbar-icon'/> メニューの <image class='addon-addon-icon'/> をクリックすると、アドオンを管理できます。">
+<!ENTITY addonPostInstall.incognito.checkbox.label	"この拡張機能のプライベート@@Window@@での実行を許可する">
+<!ENTITY addonPostInstall.incognito.checkbox.accesskey	"A">
 
-<!ENTITY addonPrivateBrowsing.header.label		"プライベート@@Window@@での拡張機能">
-<!ENTITY addonPrivateBrowsing.body.label		"プライベート@@Window@@では、拡張機能の実行は@@DefaultSetting@@では許可されません。プライベートブラウジングでは拡張機能は動作せず、あなたのオンラインアクティビティへのアクセスもできません。拡張機能の管理でプライベート@@Window@@での各拡張機能の実行を許可できます。">
+<!ENTITY addonPrivateBrowsing.header2.label		"プライベート@@Window@@での拡張機能を変更する">
+<!ENTITY addonPrivateBrowsing.body2.label		"&brandShorterName; に新しく追加した拡張機能は、設定で許可しない限りプライベート@@Window@@では動作しません。">
+<!ENTITY addonPrivateBrowsing.learnMore.label		"拡張機能設定の管理の詳細">
 <!ENTITY addonPrivateBrowsing.okButton.label		"OK">
 <!ENTITY addonPrivateBrowsing.okButton.accesskey	"O">
 <!ENTITY addonPrivateBrowsing.manageButton.label	"拡張機能の管理">

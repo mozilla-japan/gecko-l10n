@@ -59,6 +59,10 @@ pane-sync-title = Firefox アカウント
 category-sync =
     .tooltiptext = { pane-sync-title }
 
+pane-sync-title2 = { -sync-brand-short-name }
+category-sync2 =
+    .tooltiptext = { pane-sync-title2 }
+
 help-button-label = { -brand-short-name } サポート
 addons-button-label = 拡張機能とテーマ
 
@@ -414,6 +418,10 @@ browsing-cfr-recommendations =
     .label = おすすめの拡張機能を紹介する
     .accesskey = R
 
+browsing-cfr-features =
+    .label = おすすめの機能を紹介する
+    .accesskey = f
+
 browsing-cfr-recommendations-learn-more = 詳細
 
 ## General Section - Proxy
@@ -656,6 +664,12 @@ sync-mobilepromo-single = 別の端末を接続
 
 sync-mobilepromo-multi = 端末を管理
 
+sync-connect-another-device = 別の端末を接続
+
+sync-manage-devices = 端末を管理
+
+sync-fxa-begin-pairing = 端末をペアリング
+
 sync-tos-link = 利用規約
 
 sync-fxa-privacy-notice = 個人情報保護方針
@@ -825,19 +839,31 @@ content-blocking-setting-custom =
   .accesskey = C
 
 content-blocking-standard-description = プライベート@@Window@@のみ既知のトラッカーをブロックします。
+
 content-blocking-standard-desc = 保護と性能をバランスよく。ウェブサイトが正しく機能するようトラッカーを一部許可します。
 content-blocking-strict-desc = { -brand-short-name } が検出したトラッカーをすべてブロックします。一部のサイトが機能しなくなる可能性があります。
+content-blocking-strict-description = より強固な保護です。一部のサイトが機能しなくなる可能性があります。
 content-blocking-custom-desc = ブロックする項目を選択します。
 
 content-blocking-private-trackers = 既知のトラッカー (プライベート@@Window@@のみ)
 content-blocking-third-party-cookies = サードパーティのトラッカー Cookie
+content-blocking-all-cookies = すべての Cookie
+content-blocking-unvisited-cookies = 未訪問のサイトの Cookie
 content-blocking-all-windows-trackers = 既知のトラッカー (すべての@@Window@@)
 content-blocking-all-third-party-cookies = サードパーティ Cookie すべて
+
+content-blocking-cryptominers = 暗号通貨マイニング
+content-blocking-fingerprinters = フィンガープリント採取
 
 content-blocking-warning-title = 注意！
 content-blocking-warning-desc = Cookie とトラッカーをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。信頼するサイトはブロッキングを無効にできます。
 content-blocking-warning-description = コンテンツをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。信頼するサイトはブロッキングを無効にできます。
 content-blocking-learn-how = 詳細
+
+content-blocking-reload-description = これらの変更を適用するには、タブを再読み込みする必要があります。
+content-blocking-reload-tabs-button =
+  .label = すべてのタブを再読み込み
+  .accesskey = R
 
 content-blocking-trackers-label =
   .label = トラッカー
@@ -853,6 +879,9 @@ content-blocking-tracking-protection-change-block-list = ブロックリスト�
 content-blocking-cookies-label =
   .label = Cookie
   .accesskey = C
+
+content-blocking-expand-section = 
+  .tooltiptext = 詳細情報
 
 # Cryptomining refers to using scripts on websites that can use a computer’s resources to mine cryptocurrency without a user’s knowledge.
 content-blocking-cryptominers-label =
@@ -900,12 +929,6 @@ permissions-notification-pause =
     .label = { -brand-short-name } を再起動するまで通知を一時停止
     .accesskey = n
 
-permissions-block-autoplay-media =
-    .label = 音声付きメディアを自動再生するウェブサイトをブロックする
-    .accesskey = B
-
-permissions-block-autoplay-media-menu = 音声を自動再生するウェブサイト
-
 permissions-block-autoplay-media2 =
     .label = 音声を自動再生するウェブサイトをブロックする
     .accesskey = B
@@ -913,15 +936,6 @@ permissions-block-autoplay-media2 =
 permissions-block-autoplay-media-exceptions =
     .label = 許可サイト...
     .accesskey = E
-
-autoplay-option-ask =
-    .label = 毎回確認する
-autoplay-option-allow =
-    .label = 自動再生を許可
-autoplay-option-dont =
-    .label = 自動再生しない
-
-permissions-autoplay-link = 詳細
 
 permissions-block-popups =
     .label = ポップアップ@@Window@@をブロックする
@@ -968,11 +982,6 @@ addon-recommendations-link = 詳細情報
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
 collection-health-report-disabled = このビルド設定ではヘルスレポートが無効化されています
-
-collection-browser-errors =
-    .label = { -brand-short-name } がブラウザーエラーレポート (エラーメッセージ含む) を { -vendor-short-name } へ送信することを許可する
-    .accesskey = b
-collection-browser-errors-link = 詳細情報
 
 collection-backlogged-crash-reports =
     .label = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する

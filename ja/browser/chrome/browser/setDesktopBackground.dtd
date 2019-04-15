@@ -8,6 +8,12 @@
 <!ENTITY stretch.label			"拡大して表示">
 <!ENTITY fill.label			"ページ幅に合わせる">
 <!ENTITY fit.label			"画面サイズに合わせる">
+<!-- LOCALIZATION NOTE (span.label): This refers to the wallpaper "spanning"
+                       multiple monitors when the user has more than one. Only
+                       some of the entire image will be on each monitor.
+                       This should ideally match the wording in Windows' own
+                       Desktop Background settings page. -->
+<!ENTITY span.label			"スパン">
 <!ENTITY color.label			"背景色:">
 <!ENTITY setDesktopBackground.title	"デスクトップの背景に設定">
 <!ENTITY openDesktopPrefs.label		"デスクトップの設定を開く">

@@ -9,6 +9,8 @@
 ## These are short descriptions for individual policies, to be displayed
 ## in the documentation section in about:policies.
 
+policy-3rdparty = WebExtension が chrome.storage.managed を経由してアクセス可能なポリシーを設定します。
+
 policy-AppUpdateURL = アプリケーションのカスタム更新 URL を設定します。
 
 policy-Authentication = ウェブサイトが対応する統合認証の設定を行います。
@@ -97,6 +99,8 @@ policy-InstallAddonsPermission = 特定のウェブサイトにアドオンの�
 
 policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) を有効または無効にします。
 
+policy-NewTabPage = @@NewTab@@ページを有効または無効にします。
+
 policy-NoDefaultBookmarks = { -brand-short-name } の初期ブックマークとスマートブックマーク (よく見るページ、最近付けたタグ) の作成を無効にします。注意: このポリシーはプロファイルの初回起動より前に設定された場合のみ有効です。
 
 policy-OfferToSaveLogins = { -brand-short-name } に保存したログイン情報とパスワードを利用する設定を強制します。値は true か false を設定します。
@@ -109,6 +113,8 @@ policy-Permissions = カメラ、マイク、位置情報、通知の許可と�
 
 policy-PopupBlocking = 特定のウェブサイトのポッポアップ表示を@@Default@@で許可します。
 
+policy-Preferences = 設定のサブセットに対する値を設定してロックします。
+
 policy-Proxy = プロキシーの設定を指示します。
 
 policy-RequestedLocales = アプリケーションに要求される言語リストと優先順位を設定します。
@@ -118,6 +124,8 @@ policy-SanitizeOnShutdown = 終了時にナビゲーションデータをすべ�
 policy-SearchBar = 検索バーの@@Default@@の位置を設定します。ユーザーによる設定の変更は許可されます。
 
 policy-SearchEngines = 検索エンジンの設定を指示します。このポリシーは延長サポート版 (ESR) のみ有効です。
+
+policy-SearchSuggestEnabled = 検索候補の表示機能を有効または無効にします。
 
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = PKCS #11 モジュールをインストールします。
