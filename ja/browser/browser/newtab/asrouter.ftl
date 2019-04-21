@@ -47,6 +47,8 @@ cfr-doorhanger-extension-rating =
 #   $total (Number) - The total number of users using the add-on
 cfr-doorhanger-extension-total-users = { $total } ユーザー
 
+cfr-doorhanger-pintab-description = よく見るサイトに簡単にアクセスできます。再起動してもサイトを開いたままにできます。
+
 ## These messages are steps on how to use the feature and are shown together.
 cfr-doorhanger-pintab-step1 = ピン留めしたいタブで<b>右クリック</b>します。
 cfr-doorhanger-pintab-step2 = メニューから<b>タブをピン留め</b>を選択します。
