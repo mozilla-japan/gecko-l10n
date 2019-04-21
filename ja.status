@@ -956,3 +956,4 @@ chat, mail              11176:8f0d82b1de6e   2019-02-28     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                 11372:04783f814b47   2019-04-12     hATrayflood     sync browser
+devtools                11405:f479726747e7   2019-04-19     hATrayflood     sync devtools
