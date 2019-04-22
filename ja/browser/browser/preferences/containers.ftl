@@ -61,6 +61,11 @@ containers-color-pink =
 containers-color-purple =
     .label = 紫
 
+containers-color-toolbar =
+    .label = ツールバーに合わせる
+
+containers-icon-fence =
+    .label = 柵
 containers-icon-fingerprint =
     .label = 指紋
 containers-icon-briefcase =
