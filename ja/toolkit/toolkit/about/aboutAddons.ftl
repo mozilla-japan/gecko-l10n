@@ -106,6 +106,10 @@ detail-last-updated =
 
 detail-contributions-description = このアドオンの開発者が開発を継続するための少額の寄付によるサポートを求めています。
 
+detail-contributions-button = Contribute
+    .title = このアドオンの開発に寄付する
+    .accesskey = C
+
 detail-update-type =
     .value = 自動更新
 
@@ -124,7 +128,16 @@ detail-update-manual =
 # Used as a description for the option to allow or block an add-on in private windows.
 detail-private-browsing-label = プライベート@@Window@@での実行
 
-detail-private-browsing-description = 拡張機能はプライベート@@Window@@でも動作しますが、ユーザーのオンライン行動にもアクセスできます。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
+detail-private-browsing-description2 = 許可した場合、プライベートブラウジング中でも拡張機能がユーザーのオンライン行動にアクセスできます。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
+
+# Some add-ons may elect to not run in private windows by setting incognito: not_allowed in the manifest.  This
+# cannot be overriden by the user.
+detail-private-disallowed-label = プライベート@@Window@@では許可されていません
+detail-private-disallowed-description = この拡張機能はプライベートブラウジング中は動作しません。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
+
+# Some special add-ons are privileged, run in private windows automatically, and this permission can't be revoked
+detail-private-required-label = プライベート@@Window@@へのアクセスが必要です
+detail-private-required-description = この拡張機能はプライベートブラウジング中にユーザーのオンライン行動にアクセスします。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
 
 detail-private-browsing-on =
     .label = 許可する
@@ -192,11 +205,12 @@ legacy-extensions =
 
 legacy-extensions-description = これらの拡張機能は、現在の { -brand-short-name } 標準に適さないため無効化されています。 <label data-l10n-name="legacy-learn-more">アドオンシステムの変更についての詳細</label>
 
-private-browsing-description =
-    拡張機能はプライベート@@Window@@での実行が@@Default@@で許可されていません。
-    つまり、プライベートブラウジング中はこれらの拡張機能が動作しないため、拡張機能はユーザーのオンライン行動にアクセスできません。
-    プライベート@@Window@@での実行を拡張機能に許可するには、以下の拡張機能カードを選択し、設定を変更してください。
-    <label data-l10n-name="private-browsing-learn-more">詳細情報</label>
+private-browsing-description2 =
+    { -brand-short-name } がプライベートブラウジングでの拡張機能の動作を変更しています。
+    プライベート@@Window@@では、{ -brand-short-name } に新たに追加した拡張機能は@@Default@@で実行されません。
+    拡張機能の設定で有効にしない限り、プライベートブラウジング中は拡張機能が動作せず、ユーザーのオンライン行動にもアクセスできません。
+    この変更は、ユーザーのプライベートブラウジングの秘密を守るために行われました。
+    <label data-l10n-name="private-browsing-learn-more">拡張機能の設定を管理する方法について学ぶ</label>
 
 extensions-view-discover =
     .name = アドオン入手
@@ -314,6 +328,11 @@ shortcuts-invalid = 不正な組み合わせです
 shortcuts-letter = 文字を入力してください
 shortcuts-system = { -brand-short-name } のショートカットは上書きできません
 
+# String displayed when a keyboard shortcut is already used by another add-on
+# Variables:
+#   $addon (string) - Name of the add-on
+shortcuts-exists = すでに { $addon } が使用しています
+
 shortcuts-card-expand-button =
     { $numberToShow ->
         *[other] さらに { $numberToShow } 個表示
@@ -328,6 +347,23 @@ go-back-button =
 remove-addon-button = 削除
 disable-addon-button = 無効化
 enable-addon-button = 有効化
+expand-addon-button = 他のオプション
 
 addons-enabled-heading = 有効
 addons-disabled-heading = 無効
+
+addon-detail-author-label = 作者
+addon-detail-version-label = バージョン
+addon-detail-last-updated-label = 最終更新日
+addon-detail-homepage-label = ホームページ
+addon-detail-rating-label = 評価
+
+# This string is used to show that an add-on is disabled.
+# Variables:
+#   $name (string) - The name of the add-on
+addon-name-disabled = { $name } (無効)
+
+# The number of reviews that an add-on has received on AMO.
+# Variables:
+#   $numberOfReviews (number) - The number of reviews received
+addon-detail-reviews-link = { $numberOfReviews } 件のレビュー

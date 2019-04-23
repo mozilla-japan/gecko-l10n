@@ -14,6 +14,10 @@
      accessibility software to clarify what the slider is for. -->
 <!ENTITY volumeScrubber.label "音量スライダー">
 
+<!-- LOCALIZATION NOTE (pictureInPicture.label): This string is used as part of
+the Picture-in-Picture video toggle button when the mouse is hovering it. -->
+<!ENTITY pictureInPicture.label "ピクチャーインピクチャー">
+
 <!ENTITY stats.media "メディア">
 <!ENTITY stats.size "サイズ">
 <!ENTITY stats.activity "再生状態">
@@ -33,6 +37,8 @@
 <!ENTITY error.srcNotSupported "この動画のファイル形式または MIME タイプはサポートされていません。">
 <!ENTITY error.noSource2 "サポートされたファイル形式および MIME タイプの動画が見つかりませんでした。">
 <!ENTITY error.generic "原因不明のエラーが発生したため動画の再生を中止しました。">
+
+<!ENTITY status.pictureInPicture "この動画はピクチャーインピクチャーモードで再生されています。">
 
 <!-- LOCALIZATION NOTE (scrubberScale.nameFormat): the #1 string is the current
 media position, and the #2 string is the total duration. For example, when at

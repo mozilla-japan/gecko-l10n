@@ -56,6 +56,12 @@ about-telemetry-upload-type =
         [enabled] 有効
        *[disabled] 無効
     }
+# Example Output: 1 sample, average = 0, sum = 0
+# Variables:
+#   $sampleCount (Integer): amount of histogram samples
+#   $prettyAverage (Integer): average of histogram samples
+#   $sum (Integer): sum of histogram samples
+about-telemetry-histogram-stats = サンプル数 { $sampleCount }, 平均 = { $prettyAverage }, 合計 = { $sum }
 # Variables:
 #   $telemetryServerOwner (String): the value of the toolkit.telemetry.server_owner preference. Typically "Mozilla"
 about-telemetry-page-subtitle = このページは、Telemetry によって収集されたパフォーマンスとハードウェア、使用状況、カスタマイズについての情報を表示します。この情報は、{ -brand-full-name } の改善のため { $telemetryServerOwner } に送信されます。
@@ -125,3 +131,9 @@ about-telemetry-category-header = カテゴリー
 about-telemetry-method-header = メソッド
 about-telemetry-object-header = オブジェクト
 about-telemetry-extra-header = 特別
+about-telemetry-origin-section = 生成元 Telemetry
+about-telemetry-origin-origin = 生成元
+about-telemetry-origin-count = カウント
+# Variables:
+#   $telemetryServerOwner (String): the value of the toolkit.telemetry.server_owner preference. Typically "Mozilla"
+about-telemetry-origins-explanation = <a data-l10n-name="origin-doc-link">Firefox 生成元 Telemetry</a> はデータを送信前にエンコードするため、{ $telemetryServerOwner } が対象をカウントできます。ただし、与えられた { -brand-product-name } がカウントに含まれるかどうかを知ることはできません。(<a data-l10n-name="prio-blog-link">詳細情報</a>)
