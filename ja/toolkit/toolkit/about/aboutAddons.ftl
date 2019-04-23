@@ -366,8 +366,4 @@ addon-name-disabled = { $name } (無効)
 # The number of reviews that an add-on has received on AMO.
 # Variables:
 #   $numberOfReviews (number) - The number of reviews received
-addon-detail-reviews-link =
-    { $numberOfReviews ->
-        [one] { $numberOfReviews } 件のレビュー
-       *[other] { $numberOfReviews } 件のレビュー
-    }
+addon-detail-reviews-link = { $numberOfReviews } 件のレビュー

@@ -61,11 +61,7 @@ about-telemetry-upload-type =
 #   $sampleCount (Integer): amount of histogram samples
 #   $prettyAverage (Integer): average of histogram samples
 #   $sum (Integer): sum of histogram samples
-about-telemetry-histogram-stats = 
-    { $sampleCount ->
-        [one] サンプル数 { $sampleCount }, 平均 = { $prettyAverage }, sum = { $sum }
-       *[other] サンプル数 { $sampleCount }, 平均 = { $prettyAverage }, sum = { $sum }
-    }
+about-telemetry-histogram-stats = サンプル数 { $sampleCount }, 平均 = { $prettyAverage }, 合計 = { $sum }
 # Variables:
 #   $telemetryServerOwner (String): the value of the toolkit.telemetry.server_owner preference. Typically "Mozilla"
 about-telemetry-page-subtitle = このページは、Telemetry によって収集されたパフォーマンスとハードウェア、使用状況、カスタマイズについての情報を表示します。この情報は、{ -brand-full-name } の改善のため { $telemetryServerOwner } に送信されます。
