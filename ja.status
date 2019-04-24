@@ -941,7 +941,7 @@ mail, editor/ui         10920:4fd4cb527495   2018-12-31     mar             sync
 devtools                10920:4fd4cb527495   2018-12-31     hATrayflood     sync devtools
 browser                 10920:4fd4cb527495   2018-12-31     hATrayflood     sync browser
 
-[l10n-mozilla-66.0]
+Released! [l10n-mozilla-66.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 suite                   11087:0aef1783d407   2019-02-07     mar             sync suite
@@ -955,5 +955,6 @@ chat, mail              11176:8f0d82b1de6e   2019-02-28     mar             sync
 [l10n-mozilla-67.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
-browser                 11372:04783f814b47   2019-04-12     hATrayflood     sync browser
+browser                 11405:f479726747e7   2019-04-19     hATrayflood     sync browser
 devtools                11405:f479726747e7   2019-04-19     hATrayflood     sync devtools
+dom, security, toolkit  11405:f479726747e7   2019-04-19     mar             sync dom, security, toolkit
