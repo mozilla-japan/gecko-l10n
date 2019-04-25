@@ -63,6 +63,12 @@
 <!ENTITY  crash_restart_label "&brandShortName; を再起動">
 
 <!ENTITY url_bar_default_text2 "検索するか URL を入力してください">
+
+<!-- Localization note: this text will be displayed in the Search Widget -->
+<!ENTITY search_widget_default_text "ウェブ検索">
+<!ENTITY search_widget_default_cropped_text "検索">
+<!ENTITY search_widget_logo_description "&brandShortName; でウェブを検索します">
+
 <!-- Localization note (url_bar_qrcode_text2) : This text will be
      heard by non-visual users when the focus is on the QR Code
      icon in the url bar. -->
@@ -336,6 +342,9 @@
 <!-- Localization note (tab_queue_prompt_settings_button): This button is shown if the user needs to
      enable a permission in Android's setting in order to enable tab queues. -->
 <!ENTITY tab_queue_prompt_settings_button "設定に移動">
+<!-- Localization note (tab_queue_notification_prompt): This is the text of the default notification
+shown from Android O while a tab is being queued.-->
+<!ENTITY tab_queue_notification_prompt "新しいタブをキューに追加します&#8230;">
 <!ENTITY tab_queue_notification_title "&brandShortName;">
 <!-- Localization note (tab_queue_notification_text_plural2) : The
      formatD is replaced with the number of tabs queued.  The
@@ -393,7 +402,6 @@
 <!ENTITY pref_private_data_searchHistory "検索履歴">
 <!ENTITY pref_private_data_formdata2 "フォームの履歴">
 <!ENTITY pref_private_data_cookies2 "Cookie">
-<!ENTITY pref_private_data_passwords2 "保存されたログイン情報">
 <!ENTITY pref_private_data_cache "キャッシュ">
 <!ENTITY pref_private_data_offlineApps "オフライン作業用データ">
 <!ENTITY pref_private_data_siteSettings2 "サイト設定">
@@ -401,6 +409,12 @@
 <!ENTITY pref_private_data_syncedTabs "同期したタブ">
 
 <!ENTITY pref_default_browser "@@DefaultBrowser@@に設定">
+
+<!ENTITY pref_default_browser2 "Make &brandShortName; your default browser">
+<!-- LOCALIZATION NOTE (default_browser_system_settings_toast):
+    Message of an Android Toast that appears after our app opens "Android System Settings -> Apps -> Default apps"
+    and instruct users to tap on the "Browser App" option on that settings screen to choose a default browser app. -->
+<!ENTITY default_browser_system_settings_toast "ブラウザーアプリをタップし、&brandShortName; を選択してください。">
 <!ENTITY pref_default_browser_mozilla_support_tablet "Mozilla サポート">
 <!ENTITY pref_about_firefox "&brandShortName; について">
 <!ENTITY pref_vendor_faqs "FAQ">
@@ -494,6 +508,10 @@
 <!ENTITY find_prev "前を検索">
 <!ENTITY find_next "次を検索">
 <!ENTITY find_close "閉じる">
+
+<!-- Localization note (find_error) : Error message shown when there is no result for the
+     searched for text in this webpage -->
+<!ENTITY find_error "見つかりませんでした">
 
 <!-- Localization note (media_sending_to, media_play, media_pause, media_stop) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
