@@ -958,3 +958,5 @@ target dir             gecko-string hg changeset rev:id     by              comm
 browser                 11405:f479726747e7   2019-04-19     hATrayflood     sync browser
 devtools                11405:f479726747e7   2019-04-19     hATrayflood     sync devtools
 dom, security, toolkit  11405:f479726747e7   2019-04-19     mar             sync dom, security, toolkit
+mobile                  11425:3e1ba22e54c5   2019-04-25     mar             sync mobile
+
