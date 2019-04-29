@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-server-top.xul -->
-
 <!ENTITY messageStorage.label		"メッセージの保存">
 <!ENTITY securitySettings.label		"セキュリティ設定">
 <!ENTITY serverSettings.label		"サーバー設定">
@@ -44,7 +42,6 @@
 <!ENTITY deleteOnServer2.accesskey	"d">
 <!ENTITY downloadOnBiff.label		"新着メッセージを自動的にダウンロードする">
 <!ENTITY downloadOnBiff.accesskey	"m">
-<!ENTITY username.label			"ログイン名">
 <!ENTITY deleteMessagePrefix.label	"メッセージを削除する時:">
 <!ENTITY modelMoveToTrash.label		"次のフォルダーに移動する:">
 <!ENTITY modelMoveToTrash.accesskey	"o">

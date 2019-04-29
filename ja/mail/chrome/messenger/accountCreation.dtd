@@ -18,7 +18,6 @@
 <!ENTITY password.text			"入力は任意です。ユーザー名の確認にのみ使用されます。">
 <!ENTITY rememberPassword.label		"パスワードを記憶する">
 <!ENTITY rememberPassword.accesskey	"m">
-
 <!ENTITY usernameEx.label		"ログイン名:">
 <!ENTITY usernameEx.accesskey		"l">
 <!-- LOCALIZATION NOTE(usernameEx.placeholder): YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows. -->

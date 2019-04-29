@@ -95,6 +95,11 @@
 
 <!ENTITY openAttachment.tooltip			"添付ファイルを開きます">
 
+<!ENTITY detachedAttachmentFolder.show.label		"保存フォルダーを開く">
+<!ENTITY detachedAttachmentFolder.show.accesskey	"F">
+<!ENTITY detachedAttachmentFolder.showMac.label		"Finder に表示">
+<!ENTITY detachedAttachmentFolder.showMac.accesskey	"F">
+
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label		"保存">
 <!ENTITY saveAttachmentButton1.tooltip		"添付ファイルを保存します">
