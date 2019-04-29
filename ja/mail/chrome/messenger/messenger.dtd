@@ -609,6 +609,8 @@
 <!ENTITY compactButton.tooltip		"削除したメッセージをフォルダーから消去します"><!-- (^^; わかりにくい... -->
 <!ENTITY appmenuButton1.tooltip		"&brandShortName; のメニューを表示します">
 
+<!ENTITY addonsButton.tooltip		"アドオンを管理します">
+
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label	"メッセージ本文として転送"><!-- en-US: "Forward Inline" -->
 <!ENTITY buttonMenuForwardAsAttachment.label	"添付ファイルとして転送">
@@ -816,13 +818,6 @@
 <!ENTITY contextPrintPreview.label		"@@Print@@プレビュー">
 <!ENTITY contextPrintPreview.accesskey		"v">
 
-<!-- Thread Pane Column Picker -->
-<!-- LOCALIZATION NOTE (columnPicker.resetToInbox.label):
-     This option in the thread pane column picker causes us to reset the
-     customizations for the thread pane columns in this folder to their default.
-  -->
-<!ENTITY columnPicker.resetToInbox.label	"初期状態に戻す">
-
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
      the "columnPicker.applyToFolder.label" and
@@ -862,7 +857,6 @@
      "File here" option for the move to/copy to widget.
   -->
 <!ENTITY columnPicker.thisFolder.label		"このフォルダー">
-
 
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label		"再生">

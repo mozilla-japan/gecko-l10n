@@ -8,15 +8,17 @@
   -->
 <!-- (^m^) "Alarm" -> "Reminder"? (Bug 475376) -->
 <!ENTITY pref.alarmgoesoff.label "通知方法">
-<!ENTITY pref.playasound  "音を鳴らす" >
+<!ENTITY pref.playasound  "音を鳴らす">
 <!ENTITY pref.calendar.alarms.playsound.accessKey "s">
 <!ENTITY pref.calendar.alarms.sound.useDefault.label "@@Default-@@音を使用">
 <!ENTITY pref.calendar.alarms.sound.useDefault.accessKey "d">
+<!ENTITY pref.calendar.alarms.sound.useCustom.label "次の音声ファイルを使用">
+<!ENTITY pref.calendar.alarms.sound.useCustom.accessKey "U">
 <!ENTITY pref.calendar.alarms.sound.browse.label "@@Browse@@...">
 <!ENTITY pref.calendar.alarms.sound.browse.accessKey "B">
 <!ENTITY pref.calendar.alarms.sound.play.label "再生">
 <!ENTITY pref.calendar.alarms.sound.play.accessKey "P">
-<!ENTITY pref.showalarmbox "アラームボックスを表示する" >
+<!ENTITY pref.showalarmbox "アラームボックスを表示する">
 <!ENTITY pref.calendar.alarms.showAlarmBox.accessKey "x">
 <!ENTITY pref.missedalarms2 "書き込み可能カレンダーの見逃したアラームを表示する">
 <!ENTITY pref.calendar.alarms.missedAlarms.accessKey "m">
@@ -32,5 +34,5 @@
 <!ENTITY pref.defalarmlen4todos.label "アラーム通知から ToDo までの時間:">
 <!ENTITY pref.defalarmlen4todos.accesskey "o">
 
-<!ENTITY pref.defaultsnoozelength.label "アラーム再通知の@@Default-@@間隔:" >
+<!ENTITY pref.defaultsnoozelength.label "アラーム再通知の@@Default-@@間隔:">
 <!ENTITY pref.defaultsnoozelength.accesskey "S">
