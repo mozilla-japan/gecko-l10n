@@ -952,7 +952,7 @@ devtools                11118:ede1f6e878cc   2019-02-15     hATrayflood     sync
 mobile                  11149:723ccac0ba2d   2019-02-25     mar             sync mobile
 chat, mail              11176:8f0d82b1de6e   2019-02-28     mar             sync chat, mail
 
-[l10n-mozilla-67.0]
+Released! [l10n-mozilla-67.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                 11405:f479726747e7   2019-04-19     hATrayflood     sync browser
@@ -960,3 +960,9 @@ devtools                11405:f479726747e7   2019-04-19     hATrayflood     sync
 dom, security, toolkit  11405:f479726747e7   2019-04-19     mar             sync dom, security, toolkit
 mobile                  11425:3e1ba22e54c5   2019-04-25     mar             sync mobile
 calendar, mail          11428:dc3afb0408aa   2019-04-26     mar             sync calendar, mail
+
+[l10n-mozilla-68.0] (ESR)
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+calendar                11632:6de5cca8e048   2019-06-11     mar             sync calendar
+
