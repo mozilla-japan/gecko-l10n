@@ -9,7 +9,6 @@ profiles-create = @@New-CMD@@プロファイルを作成
 profiles-restart-title = 再起動
 profiles-restart-in-safe-mode = アドオンを無効にして再起動...
 profiles-restart-normal = 通常の再起動...
-
 profiles-conflict = { -brand-product-name } の別のコピーがプロファイルに変更を加えています。さらに変更する前に { -brand-short-name } を再起動しなければなりません。
 profiles-flush-fail-title = 変更は保存されません
 profiles-flush-conflict = { profiles-conflict }
