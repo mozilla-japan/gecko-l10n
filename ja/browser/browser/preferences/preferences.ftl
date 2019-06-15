@@ -38,6 +38,8 @@ policies-notice =
        *[other] あなたの所属組織が一部の設定の変更を制限しています。
     }
 
+managed-notice = あなたのブラウザーはあなたの所属組織に管理されています。
+
 pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
@@ -53,11 +55,6 @@ category-search =
 pane-privacy-title = プライバシーとセキュリティ
 category-privacy =
     .tooltiptext = { pane-privacy-title }
-
-# The word "account" can be translated, do not translate or transliterate "Firefox".
-pane-sync-title = Firefox アカウント
-category-sync =
-    .tooltiptext = { pane-sync-title }
 
 pane-sync-title2 = { -sync-brand-short-name }
 category-sync2 =
@@ -363,6 +360,26 @@ update-pref-write-failure-title = 書き込み失敗
 #   $path (String) - Path to the configuration file
 update-pref-write-failure-message = 設定を保存できません。ファイルに書き込みできません: { $path }
 
+update-setting-write-failure-title = 設定の保存でエラーがありました
+
+# Variables:
+#   $path (String) - Path to the configuration file
+# The newlines between the main text and the line containing the path is
+# intentional so the path is easier to identify.
+update-setting-write-failure-message =
+    エラーが発生して設定の変更を保存できませんでした。この設定変更を保存するには、以下のファイルの書き込み権限が必要なことに注意してください。あなたかシステム管理者が、このファイルにユーザーグループのフルコントロール権限を与えると、エラーを解決できる可能性があります。
+
+    ファイルに書き込みできません: { $path }
+
+update-in-progress-title = 更新中
+
+update-in-progress-message = この更新を続行しますか？
+
+update-in-progress-ok-button = 破棄(&D)
+# Continue is the cancel button so pressing escape or using a platform standard
+# method of closing the UI will not discard the update.
+update-in-progress-cancel-button = 続行(&C)
+
 ## General Section - Performance
 
 performance-title = パフォーマンス
@@ -417,7 +434,6 @@ browsing-search-on-start-typing =
 browsing-cfr-recommendations =
     .label = おすすめの拡張機能を紹介する
     .accesskey = R
-
 browsing-cfr-features =
     .label = おすすめの機能を紹介する
     .accesskey = f
@@ -660,10 +676,6 @@ sync-device-name-save =
     .label = 保存
     .accesskey = v
 
-sync-mobilepromo-single = 別の端末を接続
-
-sync-mobilepromo-multi = 端末を管理
-
 sync-connect-another-device = 別の端末を接続
 
 sync-manage-devices = 端末を管理
@@ -824,6 +836,8 @@ content-blocking-header = コンテンツブロッキング
 
 content-blocking-description = ウェブ上の行動を追跡するサードパーティコンテンツをブロックします。ウェブサイト間で蓄積、共有されるあなたのオンラインアクティビティをコントロールします。
 
+content-blocking-section-description = ブラウジング中のあなたのプライバシーを保護します。あなたとあなたが訪問したサイトを追跡する、目に見えないコンテンツをブロックします。このようなコンテンツをブロックすると、ページの読み込みが速くなる可能性があります。
+
 content-blocking-learn-more = 詳細
 
 # The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
@@ -856,7 +870,6 @@ content-blocking-cryptominers = 暗号通貨マイニング
 content-blocking-fingerprinters = フィンガープリント採取
 
 content-blocking-warning-title = 注意！
-content-blocking-warning-desc = Cookie とトラッカーをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。信頼するサイトはブロッキングを無効にできます。
 content-blocking-warning-description = コンテンツをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。信頼するサイトはブロッキングを無効にできます。
 content-blocking-learn-how = 詳細
 
@@ -880,7 +893,7 @@ content-blocking-cookies-label =
   .label = Cookie
   .accesskey = C
 
-content-blocking-expand-section = 
+content-blocking-expand-section =
   .tooltiptext = 詳細情報
 
 # Cryptomining refers to using scripts on websites that can use a computer’s resources to mine cryptocurrency without a user’s knowledge.
@@ -936,6 +949,12 @@ permissions-block-autoplay-media2 =
 permissions-block-autoplay-media-exceptions =
     .label = 許可サイト...
     .accesskey = E
+
+permissions-autoplay = 自動再生
+
+permissions-autoplay-settings =
+    .label = 設定...
+    .accesskey = t
 
 permissions-block-popups =
     .label = ポップアップ@@Window@@をブロックする

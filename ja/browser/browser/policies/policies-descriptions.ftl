@@ -31,6 +31,8 @@ policy-CertificatesDescription = 証明書を追加、または組み込みの�
 
 policy-Cookies = ウェブサイトの Cookie の保存を許可するか拒否するか設定します。
 
+policy-DefaultDownloadDirectory = @@Default-@@ダウンロードディレクトリーを設定します。
+
 policy-DisableAppUpdate = ブラウザの更新を禁止します。
 
 policy-DisableBuiltinPDFViewer = { -brand-short-name } 組み込みの PDF ビューアーの PDF.js を無効にします。
@@ -78,6 +80,8 @@ policy-DNSOverHTTPS = DNS over HTTPS の設定を指示します。
 
 policy-DontCheckDefaultBrowser = 起動時に@@DefaultBrowser@@か確認する機能を無効にします。
 
+policy-DownloadDirectory = ダウンロードディレクトリーを設定、ロックします。
+
 # “lock” means that the user won’t be able to change this setting
 policy-EnableTrackingProtection = コンテンツブロッキングを有効または無効にし、任意で設定をロックします。
 
@@ -86,7 +90,11 @@ policy-EnableTrackingProtection = コンテンツブロッキングを有効ま�
 # English or translate them as verbs.
 policy-Extensions = 拡張機能をインストール、削除、またはロックします。インストールは URL とパスを指定します。削除とロックは拡張機能の ID を指定します。
 
+policy-ExtensionSettings = 拡張機能のインストール全般を管理します。
+
 policy-ExtensionUpdate = 拡張機能の自動更新を有効または無効にします。
+
+policy-FirefoxHome = Firefox Home の設定を行います。
 
 policy-FlashPlugin = Flash プラグインの実行を許可、または拒否します。
 
@@ -96,6 +104,8 @@ policy-HardwareAcceleration = false にすると、ハードウェアアクセ�
 policy-Homepage = ホームページを設定し、任意でロックします。
 
 policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
+
+policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
 
 policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) を有効または無効にします。
 
@@ -115,11 +125,15 @@ policy-PopupBlocking = 特定のウェブサイトのポッポアップ表示を
 
 policy-Preferences = 設定のサブセットに対する値を設定してロックします。
 
+policy-PromptForDownloadLocation = ダウンロード時にファイルの保存先を確認します。
+
 policy-Proxy = プロキシーの設定を指示します。
 
 policy-RequestedLocales = アプリケーションに要求される言語リストと優先順位を設定します。
 
 policy-SanitizeOnShutdown = 終了時にナビゲーションデータをすべて消去します。
+
+policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去します。
 
 policy-SearchBar = 検索バーの@@Default@@の位置を設定します。ユーザーによる設定の変更は許可されます。
 

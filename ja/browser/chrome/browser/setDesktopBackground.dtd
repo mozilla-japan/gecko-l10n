@@ -18,3 +18,4 @@
 <!ENTITY setDesktopBackground.title	"デスクトップの背景に設定">
 <!ENTITY openDesktopPrefs.label		"デスクトップの設定を開く">
 <!ENTITY closeWindow.key		"w">
+<!ENTITY previewUnavailable		"プレビューは利用できません">
