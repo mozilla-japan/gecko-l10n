@@ -58,7 +58,7 @@ cfr-doorhanger-pintab-animation-resume = 再生
 
 ## Firefox Accounts Message
 cfr-doorhanger-bookmark-fxa-header = どこからでもブックマークを同期します。
-cfr-doorhanger-bookmark-fxa-body = 見つかっちゃった。。モバイル端末にブックマークしないままにしないでね。{ -fxaccount-brand-name } を始めましょう。
+cfr-doorhanger-bookmark-fxa-body = 見つかっちゃった。。絶対にモバイル端末にブックマークしてよね。{ -fxaccount-brand-name } を始めましょう。
 cfr-doorhanger-bookmark-fxa-link-text = ブックマークを今すぐ同期...
 cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
   .aria-label = 閉じるボタン
