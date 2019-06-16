@@ -33,11 +33,18 @@ app-basics-name = 名前
 app-basics-version = バージョン
 app-basics-build-id = ビルド ID
 app-basics-update-channel = 更新チャンネル
+app-basics-update-dir =
+    { PLATFORM() ->
+        [linux] 更新ディレクトリー
+       *[other] 更新フォルダー
+    }
 app-basics-update-history = 更新履歴
 app-basics-show-update-history = 更新履歴を表示
+# Represents the path to the binary used to start the application.
+app-basics-binary = @@Application@@の実行ファイル
 app-basics-profile-dir =
     { PLATFORM() ->
-        [linux] プロファイルフォルダー
+        [linux] プロファイルディレクトリー
        *[other] プロファイルフォルダー
     }
 app-basics-enabled-plugins = 有効なプラグイン
@@ -80,6 +87,8 @@ graphics-gpu2-title = GPU #2
 graphics-decision-log-title = 決定ログ
 graphics-crash-guards-title = クラッシュガードが無効化した機能
 graphics-workarounds-title = 回避策
+# Windowing system in use on Linux (e.g. X11, Wayland).
+graphics-window-protocol = @@Window@@プロトコル
 place-database-title = Places データベース
 place-database-integrity = 完全性
 place-database-verify-integrity = 完全性を検証
@@ -184,6 +193,7 @@ gpu-device-id = デバイス ID
 gpu-subsys-id = サブシステム ID
 gpu-drivers = ドライバー
 gpu-ram = RAM
+gpu-driver-vendor = ドライバーのベンダー
 gpu-driver-version = ドライバーのバージョン
 gpu-driver-date = ドライバーの日付
 gpu-active = 使用中
@@ -242,7 +252,6 @@ effective-content-sandbox-level = 効果的なコンテンツプロセスのサ�
 sandbox-proc-type-content = コンテンツ
 sandbox-proc-type-file = ファイルコンテンツ
 sandbox-proc-type-media-plugin = メディアプラグイン
-
 sandbox-proc-type-data-decoder = データデコーダー
 
 launcher-process-status-0 = 有効
