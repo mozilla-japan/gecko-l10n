@@ -15,6 +15,7 @@ about-telemetry-option-group-older = それ以前
 about-telemetry-previous-ping = <<
 about-telemetry-next-ping = >>
 about-telemetry-page-title = Telemetry データ
+about-telemetry-current-store = 現在のストア: 
 about-telemetry-more-information = 詳しい情報をお探しですか？
 about-telemetry-firefox-data-doc = <a data-l10n-name="data-doc-link">Firefox Data Documentation</a> には、私たちのデータツールでの取り扱われ方についてのガイドが含まれます。
 about-telemetry-telemetry-client-doc = <a data-l10n-name="client-doc-link">Firefox Telemetry クライアントドキュメント</a> には、コンセプト、API ドキュメント、データ参照についての定義が含まれます。
@@ -137,3 +138,6 @@ about-telemetry-origin-count = カウント
 # Variables:
 #   $telemetryServerOwner (String): the value of the toolkit.telemetry.server_owner preference. Typically "Mozilla"
 about-telemetry-origins-explanation = <a data-l10n-name="origin-doc-link">Firefox 生成元 Telemetry</a> はデータを送信前にエンコードするため、{ $telemetryServerOwner } が対象をカウントできます。ただし、与えられた { -brand-product-name } がカウントに含まれるかどうかを知ることはできません。(<a data-l10n-name="prio-blog-link">詳細情報</a>)
+# Variables:
+#  $process (String): type of process in subsection headers ( e.g. "content", "parent" )
+about-telemetry-process = { $process } プロセス

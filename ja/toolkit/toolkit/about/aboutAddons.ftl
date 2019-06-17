@@ -131,7 +131,7 @@ detail-private-browsing-label = プライベート@@Window@@での実行
 detail-private-browsing-description2 = 許可した場合、プライベートブラウジング中でも拡張機能がユーザーのオンライン行動にアクセスできます。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
 
 # Some add-ons may elect to not run in private windows by setting incognito: not_allowed in the manifest.  This
-# cannot be overriden by the user.
+# cannot be overridden by the user.
 detail-private-disallowed-label = プライベート@@Window@@では許可されていません
 detail-private-disallowed-description = この拡張機能はプライベートブラウジング中は動作しません。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
 
@@ -215,6 +215,10 @@ private-browsing-description2 =
 extensions-view-discover =
     .name = アドオン入手
     .tooltiptext = { extensions-view-discover.name }
+
+extensions-view-discopane =
+    .name = おすすめ
+    .tooltiptext = { extensions-view-discopane.name }
 
 extensions-view-recent-updates =
     .name = 最近の更新
@@ -312,7 +316,6 @@ extensions-updates-update-selected =
 manage-extensions-shortcuts =
     .label = 拡張機能のショートカットキーの管理
     .accesskey = S
-shortcuts-empty-message = この拡張機能にはショートカットがありません。
 shortcuts-no-addons = 有効な拡張機能がありません。
 shortcuts-no-commands = 次の拡張機能にはショートカットがありません:
 shortcuts-input =
@@ -343,20 +346,73 @@ shortcuts-card-collapse-button = Show Less
 go-back-button =
     .tooltiptext = 前のページへ戻ります
 
+## Recommended add-ons page
+
+# Explanatory introduction to the list of recommended add-ons. The action word
+# ("recommends") in the final sentence is a link to external documentation.
+discopane-intro =
+    拡張機能とテーマは、ブラウザー用のアプリのようなものです。
+    パスワードの保護や動画のダウンロード、商品の検索、迷惑な広告のブロック、ブラウザーの外観の変更など、様々な機能を追加できます。
+    これらの小さなソフトウェアプログラムの多くは、Mozilla 以外の第三者により開発されています。
+    ここでは、{ -brand-product-name } が選ぶセキュリティ、パフォーマンス、機能性に優れた <a data-l10n-name="learn-more-trigger">おすすめのアドオン</a> を紹介します。
+
+# Notice to make user aware that the recommendations are personalized.
+discopane-notice-recommendations =
+    これらのおすすめの一部はパーソナライズされています。
+    この情報は、インストールされている他の拡張機能やプロファイル設定、使用統計データに基づきます。
+discopane-notice-learn-more = 詳細情報
+
+privacy-policy = プライバシーポリシー
+
+# Refers to the author of an add-on, shown below the name of the add-on.
+# Variables:
+#   $author (string) - The name of the add-on developer.
+created-by-author = 作者: <a data-l10n-name="author">{ $author }</a>
+# Shows the number of daily users of the add-on.
+# Variables:
+#   $dailyUsers (number) - The number of daily users.
+user-count = ユーザー数: { $dailyUsers }
+install-extension-button = { -brand-product-name } に追加
+install-theme-button = テーマをインストール
+# The label of the button that appears after installing an add-on. Upon click,
+# the detailed add-on view is opened, from where the add-on can be managed.
+manage-addon-button = 管理
+find-more-addons = 他のアドオンを検索
+
 ## Add-on actions
+report-addon-button = 報告
 remove-addon-button = 削除
 disable-addon-button = 無効化
 enable-addon-button = 有効化
 expand-addon-button = 他のオプション
 
+preferences-addon-button =
+    { PLATFORM() ->
+        [windows] オプション
+       *[other] 設定
+    }
+details-addon-button = 詳細
+release-notes-addon-button = リリースノート
+permissions-addon-button = 許可設定
+
 addons-enabled-heading = 有効
 addons-disabled-heading = 無効
+
+ask-to-activate-button = 実行時に確認
+always-activate-button = 常に有効化
+never-activate-button = 無効化
 
 addon-detail-author-label = 作者
 addon-detail-version-label = バージョン
 addon-detail-last-updated-label = 最終更新日
 addon-detail-homepage-label = ホームページ
 addon-detail-rating-label = 評価
+
+# The average rating that the add-on has received.
+# Variables:
+#   $rating (number) - A number between 0 and 5. The translation should show at most one digit after the comma.
+five-star-rating =
+  .title = 評価: { NUMBER($rating, maximumFractionDigits: 1) } / 5
 
 # This string is used to show that an add-on is disabled.
 # Variables:
@@ -367,3 +423,46 @@ addon-name-disabled = { $name } (無効)
 # Variables:
 #   $numberOfReviews (number) - The number of reviews received
 addon-detail-reviews-link = { $numberOfReviews } 件のレビュー
+
+## Pending uninstall message bar
+
+# Variables:
+#   $addon (string) - Name of the add-on
+pending-uninstall-description = <span data-l10n-name="addon-name">{ $addon }</span> は削除されます。
+pending-uninstall-undo-button = @@Undo@@
+
+addon-detail-updates-label = 自動更新の許可
+addon-detail-updates-radio-default = @@Default@@
+addon-detail-updates-radio-on = オン
+addon-detail-updates-radio-off = オフ
+addon-detail-update-check-label = 更新の確認
+install-update-button = 更新
+
+# This is the tooltip text for the private browsing badge in about:addons. The
+# badge is the private browsing icon included next to the extension's name.
+addon-badge-private-browsing-allowed =
+    .title = プライベート@@Window@@での実行
+addon-detail-private-browsing-help = 許可した場合、この拡張機能はプライベートブラウジング中であってもユーザーのオンライン行動にアクセスできます。<a data-l10n-name="learn-more">詳細情報</a>
+addon-detail-private-browsing-allow = 許可する
+addon-detail-private-browsing-disallow = 許可しない
+
+# This is the tooltip text for the recommended badge for an extension in about:addons. The
+# badge is a small icon displayed next to an extension when it is recommended on AMO.
+addon-badge-recommended =
+  .title = おすすめ
+  .alt = おすすめ
+
+available-updates-heading = 更新可能
+recent-updates-heading = 最近の更新
+
+release-notes-loading = 読み込み中...
+release-notes-error = リリースノートの読み込み中にエラーが発生しました。
+
+addon-permissions-empty = この拡張機能は許可設定を必要としません。
+
+recommended-extensions-heading = おすすめの拡張機能
+recommended-themes-heading = おすすめのテーマ
+
+# A recommendation for the Firefox Color theme shown at the bottom of the theme
+# list view. The "Firefox Color" name itself should not be translated.
+recommended-theme-1 = ご自分で作ってみませんか？ <a data-l10n-name="link">Firefox Color で独自のテーマを構築できます。</a>
