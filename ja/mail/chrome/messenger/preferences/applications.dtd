@@ -34,6 +34,8 @@
 <!ENTITY authRequired.button.label		"認可">
 <!ENTITY authRequired.button.accesskey		"U">
 
+<!ENTITY findCloudFileProviders.label		"他のプロバイダーを検索...">
+
 <!-- en-US: "Offer to share for files larger than [] MB"  -->
 <!ENTITY enableCloudFileAccountOffer.label	"次のサイズより大きなファイルの添付時にリンク共有する:">
 <!ENTITY enableCloudFileAccountOffer.mb		"MB">

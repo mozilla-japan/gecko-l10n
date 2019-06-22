@@ -38,3 +38,7 @@
 <!ENTITY browse.accesskey		"B">
 
 <!ENTITY defaultSearchEngine.label	"@@Default-@@検索エンジン">
+<!ENTITY addSearchEngine.label		"ファイルから追加">
+<!ENTITY addSearchEngine.accesskey	"A">
+<!ENTITY removeSearchEngine.label	"削除">
+<!ENTITY removeSearchEngine.accesskey	"v">
