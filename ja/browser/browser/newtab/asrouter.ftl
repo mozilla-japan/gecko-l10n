@@ -3,7 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 cfr-doorhanger-extension-heading = おすすめの拡張機能
-
 cfr-doorhanger-pintab-heading = タブのピン留めを試してみる
 
 cfr-doorhanger-extension-sumo-link =
@@ -14,7 +13,6 @@ cfr-doorhanger-extension-cancel-button = 後で
 
 cfr-doorhanger-extension-ok-button = 追加
   .accesskey = A
-
 cfr-doorhanger-pintab-ok-button = このタブをピン留め
   .accesskey = P
 
@@ -56,3 +54,12 @@ cfr-doorhanger-pintab-step3 = サイトに更新があると、ピン留めし�
 
 cfr-doorhanger-pintab-animation-pause = 停止
 cfr-doorhanger-pintab-animation-resume = 再生
+
+
+## Firefox Accounts Message
+cfr-doorhanger-bookmark-fxa-header = どこからでもブックマークを同期します。
+cfr-doorhanger-bookmark-fxa-body = 見つかっちゃった。ブックマークをこの端末だけに残しておかないで同期して。{ -fxaccount-brand-name } を始めましょう。
+cfr-doorhanger-bookmark-fxa-link-text = ブックマークを今すぐ同期...
+cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
+  .aria-label = 閉じるボタン
+  .title = 閉じる

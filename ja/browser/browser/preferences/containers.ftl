@@ -60,7 +60,6 @@ containers-color-pink =
     .label = ピンク
 containers-color-purple =
     .label = 紫
-
 containers-color-toolbar =
     .label = ツールバーに合わせる
 
