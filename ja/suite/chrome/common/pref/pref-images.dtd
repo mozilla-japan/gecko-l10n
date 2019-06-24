@@ -8,7 +8,7 @@
 
 <!--LOCALIZATION NOTE (onStartLegend.label): Don't translate "&brandShortName;".
     Place "&brandShortName;" in the phrase where the name of the application should
-	 appear
+    appear
 -->
 <!ENTITY imageDetails                   "&brandShortName; の画像の取り扱い方法を指定します。">
 

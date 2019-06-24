@@ -44,7 +44,6 @@
 <!ENTITY deleteOnServer2.accesskey "d">
 <!ENTITY downloadOnBiff.label "新着メッセージを自動的にダウンロードする">
 <!ENTITY downloadOnBiff.accesskey "m">
-<!ENTITY username.label "ログイン名">
 <!ENTITY deleteMessagePrefix.label "メッセージを削除する時:">
 <!ENTITY modelMoveToTrash.label "次のフォルダーに移動する:">
 <!ENTITY modelMoveToTrash.accesskey "o">
@@ -60,8 +59,8 @@
 <!ENTITY loginAtStartup.label "新着メッセージがないか起動時に確認する">
 <!ENTITY loginAtStartup.accesskey "C">
 <!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
-    maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
-	 of messages between them
+     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
+     of messages between them
 -->
 <!ENTITY maxMessagesStart.label "ダウンロードするメッセージ数が">
 <!ENTITY maxMessagesStart.accesskey "m">
