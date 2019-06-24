@@ -46,8 +46,17 @@ permissions-button-ok =
     .label = 変更を保存
     .accesskey = S
 
+permissions-autoplay-menu = すべてのウェブサイトの@@DefaultValue@@:
+
 permissions-searchbox =
     .placeholder = ウェブサイトを検索
+
+permissions-capabilities-autoplay-allow =
+    .label = 音声と動画の再生を許可
+permissions-capabilities-autoplay-block =
+    .label = 音声の再生をブロック
+permissions-capabilities-autoplay-blockall =
+    .label = 音声と動画の再生をブロック
 
 permissions-capabilities-allow =
     .label = 許可
@@ -109,6 +118,13 @@ permissions-exceptions-autoplay-media-window2 =
     .title = 例外 - 自動再生
     .style = { permissions-window.style }
 permissions-exceptions-autoplay-media-desc2 = 音声付きメディアの自動再生を許可または拒否するウェブサイトを指定できます。設定するサイトのアドレスを入力して @@[@@ブロック@@]@@ または @@[@@許可@@]@@ をクリックしてください。
+
+## Site Permissions - Autoplay
+
+permissions-site-autoplay-window =
+    .title = 設定 - 自動再生
+    .style = { permissions-window.style }
+permissions-site-autoplay-desc = 自動再生の@@DefaultSetting@@によらないサイトをここで管理できます。
 
 ## Site Permissions - Notifications
 
