@@ -21,6 +21,11 @@
 <!ENTITY safeb.blocked.phishingPage.shortDesc2	"<span id='phishing_sitename'/> のウェブページは詐欺サイトとして報告されており、セキュリティ設定に従いブロックされています。">
 <!ENTITY safeb.blocked.phishingPage.longDesc2	"<p>詐欺サイトには、望ましくないソフトウェアをインストールさせようとしたり、パスワードや電話番号、クレジットカード番号などの個人情報を盗み取ろうとする危険な仕掛けがあります。</p><p>このページで個人情報を入力してしまうと、なりすましや詐欺などの被害に遭う恐れがあります。</p>">
 
+<!ENTITY safeb.blocked.harmfulPage.title	"マルウェアを含むサイトの可能性があります">
+<!-- Localization note (safeb.blocked.harmfulPage.shortDesc) - Please don't translate the contents of the <span id="harmful_sitename"/> tag. It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
+<!ENTITY safeb.blocked.harmfulPage.shortDesc	"<span id='harmful_sitename'/> のウェブページは、あなたの情報 (例えば、写真、パスワード、メッセージやクレジットカード番号) を盗んだり消去したりする危険なアプリをインストールしようとする可能性があるため、&brandShortName; によってブロックされました。">
+<!ENTITY safeb.blocked.harmfulPage.longDesc	"">
+
 <!ENTITY reportDeceptiveSite.label		"詐欺サイトを報告...">
 <!ENTITY reportDeceptiveSite.accesskey		"d">
 <!ENTITY notADeceptiveSite.label		"詐欺サイトの誤報告を指摘...">
