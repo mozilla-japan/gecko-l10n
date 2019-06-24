@@ -4,10 +4,13 @@
 
 <!ENTITY firstrun_panel_title_welcome "ようこそ">
 <!ENTITY firstrun_urlbar_message2 "&brandShortName; をお選びいただきありがとうございます">
+<!ENTITY newfirstrun_urlbar_message "&brandShortName; へようこそ">
 <!ENTITY firstrun_urlbar_subtext2 "自由でオープンなウェブに取り組む非営利団体 Mozilla の提供するモダンなモバイルブラウザーです。">
+<!ENTITY newfirstrun_urlbar_subtext "速く、秘密を守る、あなたの味方">
 <!ENTITY firstrun_panel_title_privacy "プライバシー">
 <!ENTITY firstrun_privacy_message "人目を気にせずブラウジング">
 <!ENTITY firstrun_privacy_subtext "トラッキング防止されたプライベートブラウジングでは、ブラウジング中の追跡をブロックし、ブラウジングが終われば履歴が残ることはありません。">
+<!ENTITY newfirstrun_privacy_subtext "プライベートブラウジングはオンラインでユーザーを追跡する広告をブロックします。">
 <!ENTITY firstrun_panel_title_customize "カスタマイズ">
 <!ENTITY firstrun_customize_message "あなただけの &brandShortName; を">
 <!ENTITY firstrun_customize_subtext "アドオンで &brandShortName; をカスタマイズできます。広告をブロックしたり、機能を追加したり、新しいテーマを選んだりして、あなたの個性を反映させましょう。">
@@ -20,8 +23,12 @@
 <!ENTITY firstrun_sync_title "同期">
 <!ENTITY firstrun_sync_message2 "中断してもピックアップ">
 <!ENTITY firstrun_sync_subtext2 "Sync を利用すれば、&brandShortName; に保存したブックマーク、パスワードやその他の情報を、利用中のどの端末からでも見つけることができます。">
+<!ENTITY newfirstrun_sync_subtext "モバイル端末に保存したものをデスクトップ版 Firefox と、秘密を守って安全に同期します。">
+<!ENTITY updatednewfirstrun_sync_subtext "アカウントにログインして &brandShortName; を活用しましょう">
 <!ENTITY firstrun_signin_message "接続して始めましょう">
 <!ENTITY firstrun_signin_button "Sync にログイン">
+<!ENTITY newfirstrun_signin_button "Sync をオンにする">
+<!ENTITY updatednewfirstrun_signin_button "&brandShortName; にログイン">
 <!ENTITY  onboard_start_button_browser "ブラウジングを始める">
 <!ENTITY firstrun_button_notnow "今はしない">
 <!ENTITY firstrun_button_next "次へ">
@@ -61,6 +68,12 @@
 <!ENTITY  sending_crash_report "クラッシュレポートを送信しています...">
 <!ENTITY  crash_close_label "閉じる">
 <!ENTITY  crash_restart_label "&brandShortName; を再起動">
+
+<!-- Localization note (crash_notification_title, crash_notification_message, crash_notification_negative_button_text)
+     Text displayed in a system notification to allow starting the Crash Reporter (Android Q and later).-->
+<!ENTITY  crash_notification_title "&brandShortName; がクラッシュしました">
+<!ENTITY  crash_notification_message "タップして &vendorShortName; に報告してください">
+<!ENTITY  crash_notification_negative_button_text "無視">
 
 <!ENTITY url_bar_default_text2 "検索するか URL を入力してください">
 
@@ -103,6 +116,10 @@
 <!ENTITY bookmark_folder_updated "フォルダーを更新しました">
 <!ENTITY bookmark_parent_folder "親フォルダー">
 <!ENTITY bookmark_add_folder "@@New-CMD@@フォルダーを追加">
+
+<!-- Localization note (bookmark_default_folder_title): Default title is used if user doesn't specify
+     one when he is creating a bookmark folder -->
+<!ENTITY bookmark_default_folder_title "(タイトルなし)">
 
 <!ENTITY reader_saved_offline "オフラインに保存しました">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -408,12 +425,10 @@ shown from Android O while a tab is being queued.-->
 <!ENTITY pref_private_data_downloadFiles2 "ダウンロードしたファイル">
 <!ENTITY pref_private_data_syncedTabs "同期したタブ">
 
-<!ENTITY pref_default_browser "@@DefaultBrowser@@に設定">
-
 <!ENTITY pref_default_browser2 "&brandShortName; を@@DefaultBrowser@@に設定">
 <!-- LOCALIZATION NOTE (default_browser_system_settings_toast):
     Message of an Android Toast that appears after our app opens "Android System Settings -> Apps -> Default apps"
-    and instruct users to tap on the "Browser App" option on that settings screen to choose a default browser app. -->
+    and instruct users to tap on the "Browser app" option on that settings screen to choose a default browser app. -->
 <!ENTITY default_browser_system_settings_toast "ブラウザーアプリをタップし、&brandShortName; を選択してください。">
 <!ENTITY pref_default_browser_mozilla_support_tablet "Mozilla サポート">
 <!ENTITY pref_about_firefox "&brandShortName; について">
@@ -586,6 +601,8 @@ shown from Android O while a tab is being queued.-->
 <!ENTITY bookmark_edit_keyword "キーワード">
 <!ENTITY bookmark_select_folder "フォルダーを選択">
 
+<!ENTITY bookmark_edit_undo "@@Undo@@">
+
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
 <!ENTITY site_settings_title3       "サイトの設定">
@@ -673,6 +690,8 @@ shown from Android O while a tab is being queued.-->
 <!ENTITY filepicker_audio_title "音声を選択または録音する">
 <!ENTITY filepicker_image_title "写真を選択または撮影する">
 <!ENTITY filepicker_video_title "動画を選択または録画する">
+
+<!ENTITY filepicker_permission_denied "必要な許可設定がありません。システムのファイル選択に戻します。">
 
 <!-- Site identity popup -->
 <!ENTITY identity_connected_to "このウェブサイトは認証されています">
@@ -912,6 +931,7 @@ Picture-in-picture mini window -->
 <!ENTITY pip_pause_button_title "一時停止">
 <!ENTITY pip_pause_button_description "再生を一時停止します">
 
+<!ENTITY pref_notification_settings_link "通知設定を管理">
 <!-- Notification channels names -->
 <!ENTITY default_notification_channel2 "ブラウザー">
 <!ENTITY mls_notification_channel "&vendorShortName; 位置情報サービス">
@@ -924,3 +944,4 @@ Picture-in-picture mini window -->
 <!-- LOCALIZATION NOTE (site_notifications_channel): This is for system notifications displayed by
 web sites through the HTML Notifications API. -->
 <!ENTITY site_notifications_channel "サイト通知">
+<!ENTITY crash_handler_notifications_channel "&brandShortName; クラッシュレポーター">
