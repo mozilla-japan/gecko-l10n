@@ -965,10 +965,7 @@ calendar, mail          11428:dc3afb0408aa   2019-04-26     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar                11632:6de5cca8e048   2019-06-11     mar             sync calendar
-dom, security, toolkit  11632:6de5cca8e048   2019-06-11     mar             sync dom, netwerk, security, toolkit
-calendar                11632:6de5cca8e048   2019-06-11     mar             sync calendar
 browser                 11632:6de5cca8e048   2019-06-11     hATrayflood     sync browser
 dom, security, toolkit  11632:6de5cca8e048   2019-06-11     mar             sync dom, netwerk, security, toolkit
 mobile                  11632:6de5cca8e048   2019-06-11     mar             sync mobile
 mail, suite             11650:c9d81e711be5   2019-06-19     mar             sync mail, suite
-
