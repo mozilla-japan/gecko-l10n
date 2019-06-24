@@ -38,7 +38,7 @@ policies-notice =
        *[other] あなたの所属組織が一部の設定の変更を制限しています。
     }
 
-managed-notice = あなたのブラウザーはあなたの所属組織に管理されています。
+managed-notice = ご使用のブラウザーはあなたの所属組織に管理されています。
 
 pane-general-title = 一般
 category-general =
@@ -360,14 +360,14 @@ update-pref-write-failure-title = 書き込み失敗
 #   $path (String) - Path to the configuration file
 update-pref-write-failure-message = 設定を保存できません。ファイルに書き込みできません: { $path }
 
-update-setting-write-failure-title = 設定の保存でエラーがありました
+update-setting-write-failure-title = 変更した設定の保存エラー
 
 # Variables:
 #   $path (String) - Path to the configuration file
 # The newlines between the main text and the line containing the path is
 # intentional so the path is easier to identify.
 update-setting-write-failure-message =
-    エラーが発生して設定の変更を保存できませんでした。この設定変更を保存するには、以下のファイルの書き込み権限が必要なことに注意してください。あなたかシステム管理者が、このファイルにユーザーグループのフルコントロール権限を与えると、エラーを解決できる可能性があります。
+    { -brand-short-name } がエラーに遭遇したため変更を保存できませんでした。この設定変更を保存するには、以下のファイルの書き込み権限が必要なことに注意してください。あなたかシステム管理者が、このファイルにユーザーグループのフルコントロール権限を与えると、エラーを解決できる可能性があります。
 
     ファイルに書き込みできません: { $path }
 
@@ -836,7 +836,7 @@ content-blocking-header = コンテンツブロッキング
 
 content-blocking-description = ウェブ上の行動を追跡するサードパーティコンテンツをブロックします。ウェブサイト間で蓄積、共有されるあなたのオンラインアクティビティをコントロールします。
 
-content-blocking-section-description = ブラウジング中のあなたのプライバシーを保護します。あなたとあなたが訪問したサイトを追跡する、目に見えないコンテンツをブロックします。このようなコンテンツをブロックすると、ページの読み込みが速くなる可能性があります。
+content-blocking-section-description = ブラウジング中のあなたのプライバシーを保護します。あなたが訪問したサイトを追跡して訪問者の情報を収集する目に見えないコンテンツをブロックします。このようなコンテンツをブロックすると、ページの読み込みが速くなる可能性があります。
 
 content-blocking-learn-more = 詳細
 

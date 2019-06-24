@@ -34,7 +34,7 @@ onboarding-start-browsing-button-label = ブラウジングを開始
 ## description.
 
 onboarding-benefit-products-title = 有用な製品
-onboarding-benefit-products-text = あなたの端末すべてのプライバシーを大事にした製品ファミリーを使いましょう。
+onboarding-benefit-products-text = ご使用の端末すべてのプライバシーを尊重する一連のツールを使いましょう。
 
 onboarding-benefit-knowledge-title = 実用的な知識
 onboarding-benefit-knowledge-text = オンラインをよりスマートで安全に保つのに必要な知識を学びましょう。
@@ -45,7 +45,7 @@ onboarding-benefit-privacy-title = 真のプライバシー
 # Firefox Personal Data Promise is the way we honor your data in everything we
 # make and do. We take less data. We keep it safe. And we make sure that we are
 # transparent about how we use it."
-onboarding-benefit-privacy-text = 私たちが尊重する個人データの約束: 最小限に、安全に。隠し事をしない。
+onboarding-benefit-privacy-text = 私たちが尊重する個人データ保護の約束: 最小限に、安全に。隠し事をしない。
 
 
 ## These strings belong to the individual onboarding messages.
@@ -69,8 +69,8 @@ onboarding-ghostery-text = 迷惑な広告をブロックできる Ghostery の�
 onboarding-fxa-title = Sync
 onboarding-fxa-text = { -brand-short-name } をどこでも使えるように、{ -fxaccount-brand-name } にアカウント登録して、ブックマーク、パスワード、開いたタブを同期しましょう。
 
-onboarding-tracking-protection-title2 = 追跡保護
-onboarding-tracking-protection-text2 = { -brand-short-name } はウェブサイトのオンライン追跡を止めさせ、広告がまとわりつきにくくなるのに役立ちます。
+onboarding-tracking-protection-title2 = 追跡からのユーザー保護
+onboarding-tracking-protection-text2 = { -brand-short-name } はユーザーをオンラインで追跡するウェブサイトを抑止し、ウェブ上の広告による追跡を困難にします。
 onboarding-tracking-protection-button2 = 仕組みについて
 
 onboarding-data-sync-title = 設定もいつも一緒に
@@ -96,10 +96,10 @@ onboarding-mobile-phone-text = { -brand-product-name } for iOS / Android をダ�
 # browser.
 onboarding-mobile-phone-button = モバイル版ブラウザーをダウンロード
 
-onboarding-send-tabs-title = タブ送信
+onboarding-send-tabs-title = 手軽にタブ送信
 # "Send Tabs" refers to "Send Tab to Device" feature that appears when opening a
 # tab's context menu.
-onboarding-send-tabs-text = タブ送信すると、コピーや@@Paste@@したりブラウザーを終了することなく、すぐに端末間でページを共有できます。
+onboarding-send-tabs-text = タブ送信は、コピー＆ペーストしたりブラウザーを切り替えたりせずに、端末間で手軽にページを共有できます。
 onboarding-send-tabs-button = タブ送信を始めてみる
 
 onboarding-pocket-anywhere-title = どこでも視聴
@@ -107,7 +107,7 @@ onboarding-pocket-anywhere-text2 = { -pocket-brand-name } アプリでお気に�
 onboarding-pocket-anywhere-button = { -pocket-brand-name } を試す
 
 onboarding-lockwise-passwords-title = パスワードをどこにでも
-onboarding-lockwise-passwords-text2 = { -lockwise-brand-name } でパスワードをセキュアに保存しつつ、ログイン操作が簡単になります。
+onboarding-lockwise-passwords-text2 = { -lockwise-brand-name } でパスワードを安全に保存しつつ、ログイン操作が簡単になります。
 onboarding-lockwise-passwords-button2 = アプリを入手
 
 onboarding-facebook-container-title = Facebook に境界線を

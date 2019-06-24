@@ -80,7 +80,7 @@ policy-DNSOverHTTPS = DNS over HTTPS の設定を指示します。
 
 policy-DontCheckDefaultBrowser = 起動時に@@DefaultBrowser@@か確認する機能を無効にします。
 
-policy-DownloadDirectory = ダウンロードディレクトリーを設定、ロックします。
+policy-DownloadDirectory = ダウンロードディレクトリーを設定し、ロックします。
 
 # “lock” means that the user won’t be able to change this setting
 policy-EnableTrackingProtection = コンテンツブロッキングを有効または無効にし、任意で設定をロックします。
