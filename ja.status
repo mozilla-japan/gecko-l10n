@@ -970,3 +970,4 @@ dom, security, toolkit  11632:6de5cca8e048   2019-06-11     mar             sync
 mobile                  11632:6de5cca8e048   2019-06-11     mar             sync mobile
 mail, suite             11650:c9d81e711be5   2019-06-19     mar             sync mail, suite
 devtools                11650:c9d81e711be5   2019-06-19     hATrayflood     sync devtools
+mail                    11685:ed07d51a9cdb   2019-07-05     mar             sync mail (late-l10n)
