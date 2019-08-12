@@ -212,10 +212,6 @@ private-browsing-description2 =
     この変更は、ユーザーのプライベートブラウジングの秘密を守るために行われました。
     <label data-l10n-name="private-browsing-learn-more">拡張機能の設定を管理する方法について学ぶ</label>
 
-extensions-view-discover =
-    .name = アドオン入手
-    .tooltiptext = { extensions-view-discover.name }
-
 extensions-view-discopane =
     .name = おすすめ
     .tooltiptext = { extensions-view-discopane.name }
@@ -330,7 +326,6 @@ shortcuts-modifier-other = Ctrl または Alt を含む
 shortcuts-invalid = 不正な組み合わせです
 shortcuts-letter = 文字を入力してください
 shortcuts-system = { -brand-short-name } のショートカットは上書きできません
-
 # String displayed when a keyboard shortcut is already used by another add-on
 # Variables:
 #   $addon (string) - Name of the add-on
@@ -385,7 +380,6 @@ remove-addon-button = 削除
 disable-addon-button = 無効化
 enable-addon-button = 有効化
 expand-addon-button = 他のオプション
-
 preferences-addon-button =
     { PLATFORM() ->
         [windows] オプション
@@ -397,6 +391,21 @@ permissions-addon-button = 許可設定
 
 addons-enabled-heading = 有効
 addons-disabled-heading = 無効
+
+extension-enabled-heading = 有効
+extension-disabled-heading = 無効
+
+theme-enabled-heading = 有効
+theme-disabled-heading = 無効
+
+plugin-enabled-heading = 有効
+plugin-disabled-heading = 無効
+
+dictionary-enabled-heading = 有効
+dictionary-disabled-heading = 無効
+
+locale-enabled-heading = 有効
+locale-disabled-heading = 無効
 
 ask-to-activate-button = 実行時に確認
 always-activate-button = 常に有効化
