@@ -4,6 +4,7 @@
 
 about-telemetry-ping-data-source = Ping データソース:
 about-telemetry-show-current-ping-data = 現在の Ping データ
+about-telemetry-show-current-data = 現在のデータ
 about-telemetry-show-archived-ping-data = 保存された Ping データ
 about-telemetry-show-subsession-data = 送信データを表示
 about-telemetry-choose-ping = Ping の選択:
@@ -71,7 +72,8 @@ about-telemetry-settings-explanation = Telemetry は { about-telemetry-data-type
 #   $name (String): ping name, e.g. “saved-session”
 #   $timeStamp (String): ping localized timestamp, e.g. “2017/07/08 10:40:46”
 about-telemetry-ping-details = 情報の各ピースは “<a data-l10n-name="ping-link">ping</a>” にバンドルして送信されます。あなたは { $name }, { $timestamp } の ping を調べています。
-about-telemetry-ping-details-current = 情報の各ピースは “<a data-l10n-name="ping-link">ping</a>” にバンドルして送信されます。あなたは 現在 の ping を調べています。
+about-telemetry-ping-details-current = 情報の各ピースは “<a data-l10n-name="ping-link">ping</a>” にバンドルして送信されます。あなたは現在の ping を調べています。
+about-telemetry-data-details-current = 情報の各ピースは “<a data-l10n-name="ping-link">ping</a>” にバンドルして送信されます。あなたは現在のデータを調べています。
 # string used as a placeholder for the search field
 # More info about it can be found here:
 # https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/data/main-ping.html
@@ -98,6 +100,8 @@ about-telemetry-no-search-results-all = どのセクションにも “{ $search
 about-telemetry-no-data-to-display = 現在 “{ $sectionName }” に利用可能なデータがありません。
 # used as a tooltip for the “current” ping title in the sidebar
 about-telemetry-current-ping-sidebar = 現在の ping
+# used as a tooltip for the “current” ping title in the sidebar
+about-telemetry-current-data-sidebar = 現在のデータ
 # used in the “Ping Type” select
 about-telemetry-telemetry-ping-type-all = すべて
 # button label to copy the histogram

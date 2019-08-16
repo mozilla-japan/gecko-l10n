@@ -57,3 +57,12 @@ rcwn-avg-long = 長期平均
 rcwn-std-dev-long = 長期標準偏差
 rcwn-cache-slow = キャッシュ遅滞カウント
 rcwn-cache-not-slow = キャッシュ非遅滞カウント
+networkid = ネットワーク ID
+networkid-id = ネットワーク ID
+
+## Link is intended as "network link"
+
+networkid-isUp = リンクアップ
+networkid-statusKnown = リンク状態が既知
+
+##

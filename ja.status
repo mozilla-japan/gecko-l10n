@@ -961,7 +961,7 @@ dom, security, toolkit  11405:f479726747e7   2019-04-19     mar             sync
 mobile                  11425:3e1ba22e54c5   2019-04-25     mar             sync mobile
 calendar, mail          11428:dc3afb0408aa   2019-04-26     mar             sync calendar, mail
 
-[l10n-mozilla-68.0] (ESR)
+Released! [l10n-mozilla-68.0] (ESR)
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 calendar                11632:6de5cca8e048   2019-06-11     mar             sync calendar
@@ -971,3 +971,9 @@ mobile                  11632:6de5cca8e048   2019-06-11     mar             sync
 mail, suite             11650:c9d81e711be5   2019-06-19     mar             sync mail, suite
 devtools                11650:c9d81e711be5   2019-06-19     hATrayflood     sync devtools
 mail                    11685:ed07d51a9cdb   2019-07-05     mar             sync mail (late-l10n)
+
+[l10n-mozilla-69.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, security, toolkit  11894:3a5679f7c110   2019-08-10     mar             sync dom, security, toolkit
+

@@ -57,7 +57,6 @@ app-basics-service-workers = 登録された Service Workers
 app-basics-profiles = プロファイル
 app-basics-launcher-process-status = 起動プロセス
 app-basics-multi-process-support = マルチプロセス@@Window@@
-app-basics-process-count = ウェブコンテンツプロセス
 app-basics-remote-processes-count = リモートプロセス
 app-basics-enterprise-policies = エンタープライズポリシー
 app-basics-location-service-key-google = Google Location Service キー
@@ -230,7 +229,6 @@ uses-tiling = タイリングの使用
 content-uses-tiling = タイリングの使用 (コンテンツ)
 off-main-thread-paint-enabled = メインスレッド外ペイント有効
 off-main-thread-paint-worker-count = メインスレッド外ペイントワーカー数
-low-end-machine = 性能の低い機種が検出されました
 target-frame-rate = ターゲットのフレームレート
 
 audio-backend = 音声バックエンド
