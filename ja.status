@@ -976,4 +976,5 @@ mail                    11685:ed07d51a9cdb   2019-07-05     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security, toolkit  11894:3a5679f7c110   2019-08-10     mar             sync dom, security, toolkit
+mobile                  11946:21c69eeefc89   2019-08-16     mar             sync mobile
 

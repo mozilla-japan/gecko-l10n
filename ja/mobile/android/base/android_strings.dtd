@@ -21,6 +21,7 @@
 <!ENTITY firstrun_data_message "データを減らせば節約に">
 <!ENTITY firstrun_data_subtext2 "画像を非表示にしてサイト訪問時のデータ消費を節約しましょう。">
 <!ENTITY firstrun_sync_title "同期">
+<!ENTITY updatednewfirstrun_sync_title "アカウント">
 <!ENTITY firstrun_sync_message2 "中断してもピックアップ">
 <!ENTITY firstrun_sync_subtext2 "Sync を利用すれば、&brandShortName; に保存したブックマーク、パスワードやその他の情報を、利用中のどの端末からでも見つけることができます。">
 <!ENTITY newfirstrun_sync_subtext "モバイル端末に保存したものをデスクトップ版 Firefox と、秘密を守って安全に同期します。">
@@ -68,7 +69,6 @@
 <!ENTITY  sending_crash_report "クラッシュレポートを送信しています...">
 <!ENTITY  crash_close_label "閉じる">
 <!ENTITY  crash_restart_label "&brandShortName; を再起動">
-
 <!-- Localization note (crash_notification_title, crash_notification_message, crash_notification_negative_button_text)
      Text displayed in a system notification to allow starting the Crash Reporter (Android Q and later).-->
 <!ENTITY  crash_notification_title "&brandShortName; がクラッシュしました">
@@ -116,7 +116,6 @@
 <!ENTITY bookmark_folder_updated "フォルダーを更新しました">
 <!ENTITY bookmark_parent_folder "親フォルダー">
 <!ENTITY bookmark_add_folder "@@New-CMD@@フォルダーを追加">
-
 <!-- Localization note (bookmark_default_folder_title): Default title is used if user doesn't specify
      one when he is creating a bookmark folder -->
 <!ENTITY bookmark_default_folder_title "(タイトルなし)">
@@ -234,7 +233,7 @@
 <!ENTITY pref_category_notifications_summary2 "新しい機能、製品のヒント">
 <!ENTITY pref_developer_remotedebugging_usb "USB 経由でリモートデバッグする">
 <!ENTITY pref_developer_remotedebugging_wifi "Wi-Fi 経由でリモートデバッグする">
-<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Wi-Fi でのデバッグには端末に QR コードリーダーアプリをインストールする必要があります">
+<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Wi-Fi でのデバッグは端末に QR コードリーダーアプリをインストールする必要があります">
 <!ENTITY pref_remember_signons2 "ログイン情報を保存する">
 <!ENTITY pref_manage_logins "ログイン情報の管理">
 
@@ -244,7 +243,7 @@
 <!ENTITY pref_category_home_add_ons "アドオン">
 <!ENTITY pref_home_updates2 "コンテンツの更新">
 <!ENTITY pref_home_updates_enabled "有効">
-<!ENTITY pref_home_updates_wifi "Wi-Fi のみ有効">
+<!ENTITY pref_home_updates_wifi "Wi-Fi 利用時のみ有効">
 <!ENTITY pref_category_home_homepage "ホームページ">
 <!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
      home page will be use in every new tab. -->
@@ -279,6 +278,7 @@
 <!ENTITY pref_cookies_menu "Cookie">
 <!ENTITY pref_cookies_accept_all "すべてのサイトで有効">
 <!ENTITY pref_cookies_not_accept_foreign "有効 (サードパーティを除く)">
+<!ENTITY pref_cookies_not_accept_trackers "有効 (トラッキング Cookie を除く)">
 <!ENTITY pref_cookies_disabled "無効">
 
 <!-- Localization note (pref_category_data_saver): “data saver” in this
@@ -339,12 +339,7 @@
 <!ENTITY custom_tabs_hint_url_copy "URL をコピーしました">
 
 <!ENTITY pref_pwa "プログレッシブウェブアプリ">
-<!ENTITY pref_pwa_summary "ホーム画面へのウェブアプリの追加を許可する">
-
-<!ENTITY tracking_protection_prompt_title "トラッキング防止が有効です">
-<!ENTITY tracking_protection_prompt_text "プライバシー確保のため、オンライン行動を追跡する要素をブロックします。">
-<!ENTITY tracking_protection_prompt_tip_text "詳細はプライバシー設定をご確認ください">
-<!ENTITY tracking_protection_prompt_action_button "了解！">
+<!ENTITY pref_pwa_summary "ウェブアプリにホーム画面への追加を許可する">
 
 <!ENTITY tab_queue_toast_message3 "タブが &brandShortName; に保存されました">
 <!ENTITY tab_queue_toast_action "すぐに開く">
@@ -430,7 +425,6 @@ shown from Android O while a tab is being queued.-->
     Message of an Android Toast that appears after our app opens "Android System Settings -> Apps -> Default apps"
     and instruct users to tap on the "Browser app" option on that settings screen to choose a default browser app. -->
 <!ENTITY default_browser_system_settings_toast "ブラウザーアプリをタップし、&brandShortName; を選択してください。">
-<!ENTITY pref_default_browser_mozilla_support_tablet "Mozilla サポート">
 <!ENTITY pref_about_firefox "&brandShortName; について">
 <!ENTITY pref_vendor_faqs "FAQ">
 <!ENTITY pref_vendor_feedback "フィードバック提供">
@@ -474,7 +468,7 @@ shown from Android O while a tab is being queued.-->
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "クラッシュレポーター">
 <!ENTITY datareporting_wifi_title2 "&vendorShortName; 位置情報サービス">
-<!ENTITY datareporting_wifi_geolocation_summary4 "&vendorShortName; による世界地図の作成にご協力を！位置情報サービスの向上のため、Wi-Fi と基地局から得た端末の位置情報を共有します。">
+<!ENTITY datareporting_wifi_geolocation_summary4 "&vendorShortName; による世界地図の作成にご協力を！ 位置情報サービスの向上のため、Wi-Fi と基地局から得た端末の位置情報を共有します。">
 <!-- Localization note (datareporting_notification_title ) : This will be the title
      of the notification shown whenever the user has enabled data reporting and the stumbler
      service is running. -->
@@ -483,7 +477,7 @@ shown from Android O while a tab is being queued.-->
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
 <!ENTITY pref_update_autodownload3 "自動更新">
-<!ENTITY pref_update_autodownload_wifi "Wi-Fi 環境でのみ有効にする">
+<!ENTITY pref_update_autodownload_wifi "Wi-Fi 利用時のみ有効にする">
 <!ENTITY pref_update_autodownload_never "許可しない">
 <!ENTITY pref_update_autodownload_always "常に許可する">
 
@@ -690,7 +684,6 @@ shown from Android O while a tab is being queued.-->
 <!ENTITY filepicker_audio_title "音声を選択または録音する">
 <!ENTITY filepicker_image_title "写真を選択または撮影する">
 <!ENTITY filepicker_video_title "動画を選択または録画する">
-
 <!ENTITY filepicker_permission_denied "必要な許可設定がありません。システムのファイル選択に戻します。">
 
 <!-- Site identity popup -->
@@ -720,8 +713,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY doorhanger_tracking_title2 "トラッキング防止">
 <!ENTITY doorhanger_tracking_state_enabled "有効">
 <!ENTITY doorhanger_tracking_state_disabled "無効">
-<!ENTITY doorhanger_tracking_message_enabled1 "オンライン上の行動をトラッキングしようとすることはブロックされました。">
-<!ENTITY doorhanger_tracking_message_disabled2 "このページにはブラウジングをトラッキングするような要素が含まれています。">
+<!ENTITY doorhanger_tracking_message_enabled1 "オンライン行動を追跡しようとするコンテンツをブロックしました。">
+<!ENTITY doorhanger_tracking_message_disabled2 "このページにはブラウジングを追跡する可能性のある要素が含まれています。">
 
 <!-- Common mixed and tracking content strings in site identity popup -->
 <!ENTITY learn_more "詳細情報">
@@ -857,7 +850,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (bookmarks_support): link title for https://support.mozilla.org/ -->
 <!ENTITY bookmarks_support "Firefox: サポート">
 <!-- LOCALIZATION NOTE (bookmarks_restricted_support): link title for https://support.mozilla.org/kb/controlledaccess -->
-<!ENTITY bookmarks_restricted_support2 "Android タブレットでの制限つきプロファイルについての Firefox ヘルプ">
+<!ENTITY bookmarks_restricted_support2 "Android タブレット上の制限付きプロファイルについての Firefox ヘルプとサポート">
 <!-- LOCALIZATION NOTE (bookmarks_restricted_webmaker):link title for https://webmaker.org -->
 <!ENTITY bookmarks_restricted_webmaker "ウェブについて学ぶ: Mozilla Webmaker">
 
@@ -888,7 +881,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY activity_stream_highlights "ハイライト">
 
 <!-- LOCALIZATION NOTE (activity_stream_link_more1): Link-like text displayed to take user to a website with more content from Pocket. -->
-<!ENTITY activity_stream_link_more1 "詳細">
+<!ENTITY activity_stream_link_more1 "詳細情報">
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->
@@ -909,7 +902,7 @@ is simply hidden from the Activity Stream panel. -->
 
 <!ENTITY private_tab_panel_title "プライベートブラウジングとトラッキング防止">
 <!ENTITY private_tab_panel_description "&brandShortName; は、ページ内のブラウジング行動を追跡する部分をブロックします。">
-<!ENTITY private_tab_panel_description2 "履歴は残りませんが、ダウンロードされたファイルと新しいブックマークは端末に保存されます。">
+<!ENTITY private_tab_panel_description2 "履歴は残りませんが、ダウンロードしたファイルと新しいブックマークは端末に保存されます。">
 <!ENTITY private_tab_learn_more "さらに詳細を知りたいですか？">
 
 <!ENTITY fullscreen_warning "@@FullScreen@@です">
@@ -922,7 +915,7 @@ displayed when there are more than 3 actions available for a page.
 See also https://bug1409261.bmoattachments.org/attachment.cgi?id=8919897 -->
 <!ENTITY pwa_add_to_launcher_badge2 "ホーム画面に追加">
 <!ENTITY pwa_continue_to_website "ウェブサイトを開く">
-<!ENTITY pwa_onboarding_sumo "このウェブサイトを簡単な操作でホーム画面に追加することで、アプリのような感覚で手軽にアクセスしたりより速くブラウジングしたりできます。">
+<!ENTITY pwa_onboarding_sumo "このウェブサイトを簡単な操作でホーム画面に追加しましょう。アプリのような感覚で手軽にアクセスして素早くブラウジングできます。">
 
 <!-- Used by accessibility services to identify the play/pause buttons shown in the
 Picture-in-picture mini window -->
