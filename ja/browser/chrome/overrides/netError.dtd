@@ -9,7 +9,7 @@
 <!ENTITY retry.label			"再試行">
 <!ENTITY returnToPreviousPage.label	"戻る">
 <!ENTITY returnToPreviousPage1.label	"戻る (推奨)">
-<!ENTITY advanced2.label		"詳細...">
+<!ENTITY advanced2.label		"詳細情報...">
 <!ENTITY viewCertificate.label		"証明書を確認">
 
 <!-- Specific error messages -->
@@ -188,7 +188,7 @@ was trying to connect. -->
 <!ENTITY securityOverride.exceptionButton1Label	"危険性を承知で続行">
 
 <!ENTITY errorReporting.automatic2	"エラーを報告すると、悪意のあるサイトの特定とブロックに役立ちます">
-<!ENTITY errorReporting.learnMore	"詳細...">
+<!ENTITY errorReporting.learnMore	"エラーの説明...">
 
 <!ENTITY remoteXUL.title		"リモート XUL">
 <!ENTITY remoteXUL.longDesc		"<p><ul><li>ウェブサイトの所有者に連絡を取り、この問題を報告してください。</li></ul></p>">
