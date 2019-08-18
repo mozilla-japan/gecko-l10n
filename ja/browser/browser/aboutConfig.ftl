@@ -8,8 +8,6 @@ about-config-warning-text = @@Application@@の高度な設定を変更すると�
 about-config-warning-checkbox = 次回もこの警告を表示する
 about-config-warning-button = 危険性を承知の上で使用する
 
-about-config-title = about:config
-
 about-config2-title = 高度な設定
 
 about-config-search-input =

@@ -4,6 +4,7 @@
 
 about-private-browsing-learn-more = <a data-l10n-name="learn-more">プライベートブラウジング</a>の詳細情報
 about-private-browsing-info-visited = 表示したページ
+
 privatebrowsingpage-open-private-window-label = プライベート@@Window@@を開く
     .accesskey = P
 about-private-browsing-info-notsaved = プライベートブラウジング中は<strong>保存しません</strong>:

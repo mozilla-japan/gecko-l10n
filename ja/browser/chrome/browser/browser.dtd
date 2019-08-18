@@ -19,52 +19,6 @@
 <!ENTITY navbarOverflow.label		"その他のツール...">
 
 <!-- Tab context menu -->
-<!ENTITY  reloadTab.label		"タブを再読み込み">
-<!ENTITY  reloadTab.accesskey		"R">
-<!ENTITY  selectAllTabs.label		"すべてのタブを選択">
-<!ENTITY  selectAllTabs.accesskey	"S">
-<!-- LOCALIZATION NOTE (duplicateTab.label): This is a command to duplicate
-a tab (i.e. it is a verb, not adjective). -->
-<!ENTITY  duplicateTab.label		"タブを複製">
-<!-- LOCALIZATION NOTE (duplicateTab.accesskey, duplicateTabs.accesskey):
-These items have the same accesskey but will never be visible at the same time. -->
-<!ENTITY  duplicateTab.accesskey	"D">
-<!-- LOCALIZATION NOTE (duplicateTabs.label): This is a command to duplicate
-a tab (i.e. it is a verb, not adjective). -->
-<!ENTITY  duplicateTabs.label		"タブを複製">
-<!-- LOCALIZATION NOTE (duplicateTab.accesskey, duplicateTabs.accesskey):
-These items have the same accesskey but will never be visible at the same time. -->
-<!ENTITY  duplicateTabs.accesskey	"D">
-<!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
-direction in which tabs are closed, i.e. locales that use RTL mode should say
-left instead of right. -->
-<!ENTITY  closeTabsToTheEnd.label	"右側のタブをすべて閉じる">
-<!ENTITY  closeTabsToTheEnd.accesskey	"i">
-<!ENTITY  closeOtherTabs.label		"他のタブをすべて閉じる">
-<!ENTITY  closeOtherTabs.accesskey	"o">
-
-<!ENTITY  closeTabs.label		"タブを閉じる">
-<!ENTITY  closeTabs.accesskey		"S">
-<!ENTITY  pinSelectedTabs.label			"タブをピン留め">
-<!-- LOCALIZATION NOTE(pinTab.accesskey, pinSelectedTabs.accesskey,
-unpinTab.accesskey, unpinSelectedTabs.accesskey): These share the
-same accesskey but will never be visible at the same time. -->
-<!ENTITY  pinSelectedTabs.accesskey		"P">
-<!ENTITY  unpinSelectedTabs.label		"タブのピン留めを外す">
-<!-- LOCALIZATION NOTE(pinTab.accesskey, pinSelectedTabs.accesskey,
-unpinTab.accesskey, unpinSelectedTabs.accesskey): These share the
-same accesskey but will never be visible at the same time. -->
-<!ENTITY  unpinSelectedTabs.accesskey		"p">
-<!-- LOCALIZATION NOTE(reloadTab.label, reloadTabs.label): have the same accesskey
-but will never be visible at the same time. -->
-<!ENTITY  reloadTabs.label			"タブを再読み込み">
-<!ENTITY  reloadTabs.accesskey			"R">
-<!ENTITY  bookmarkSelectedTabs.label		"タブをブックマーク...">
-<!-- LOCALIZATION NOTE(bookmarkTab.accesskey, bookmarkSelectedTabs.accesskey):
-These items have the same accesskey but will never be visible at the same time. -->
-<!ENTITY  bookmarkSelectedTabs.accesskey	"B">
-
-<!-- Tab context menu -->
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
@@ -85,28 +39,8 @@ same accesskey but will never be visible at the same time. -->
 <!ENTITY  sendPageToDevice.accesskey	"n">
 <!ENTITY  sendLinkToDevice.label	"リンクを端末へ送信">
 <!ENTITY  sendLinkToDevice.accesskey	"n">
-<!-- LOCALIZATION NOTE (moveTabOptions.label and moveSelectedTabOptions.label):
-These two items have the same accesskey but will never be visible at the same time. -->
-<!ENTITY  moveTabOptions.label		"タブを移動">
-<!ENTITY  moveTabOptions.accesskey	"v">
-<!ENTITY  moveSelectedTabOptions.label		"タブを移動">
-<!ENTITY  moveSelectedTabOptions.accesskey	"v">
-<!ENTITY  moveToStart.label		"最初のタブへ移動">
-<!ENTITY  moveToStart.accesskey		"S">
-<!ENTITY  moveToEnd.label		"最後のタブへ移動">
-<!ENTITY  moveToEnd.accesskey		"E">
-<!ENTITY  moveToNewWindow.label		"@@NewWindow@@へ移動">
-<!ENTITY  moveToNewWindow.accesskey	"W">
-<!ENTITY  reopenInContainer.label	"コンテナーを開きなおす">
-<!ENTITY  reopenInContainer.accesskey	"e">
-<!ENTITY  bookmarkTab.label		"タブをブックマーク">
-<!-- LOCALIZATION NOTE(bookmarkTab.accesskey, bookmarkSelectedTabs.accesskey):
-These items have the same accesskey but will never be visible at the same time. -->
-<!ENTITY  bookmarkTab.accesskey		"B">
 <!ENTITY  undoCloseTab.label		"閉じたタブを元に戻す">
 <!ENTITY  undoCloseTab.accesskey	"U">
-<!ENTITY  closeTab.label		"タブを閉じる">
-<!ENTITY  closeTab.accesskey		"c">
 <!ENTITY  hiddenTabs.label		"隠しタブ">
 
 <!ENTITY  listAllTabs.label		"タブを一覧表示します">
@@ -145,31 +79,6 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY personalbarCmd.label		"ブックマークツールバー">
 <!ENTITY personalbarCmd.accesskey	"B">
 <!ENTITY bookmarksToolbarItem.label	"ブックマークツールバーの項目">
-
-<!ENTITY toolbarContextMenu.reloadSelectedTab.label		"選択したタブを再読み込み">
-<!-- LOCALIZATION NOTE (toolbarContextMenu.reloadSelectedTab.accesskey,
-toolbarContextMenu.reloadSelectedTabs.accesskey): These share the
-same accesskey but will never be visible at the same time. -->
-<!ENTITY toolbarContextMenu.reloadSelectedTab.accesskey		"R">
-<!ENTITY toolbarContextMenu.reloadSelectedTabs.label		"選択したタブを再読み込み">
-<!-- LOCALIZATION NOTE (toolbarContextMenu.reloadSelectedTab.accesskey,
-toolbarContextMenu.reloadSelectedTabs.accesskey): These share the
-same accesskey but will never be visible at the same time. -->
-<!ENTITY toolbarContextMenu.reloadSelectedTabs.accesskey	"R">
-<!ENTITY toolbarContextMenu.bookmarkSelectedTab.label		"選択したタブをブックマーク...">
-<!-- LOCALIZATION NOTE (toolbarContextMenu.bookmarkSelectedTab.accesskey,
-toolbarContextMenu.bookmarkSelectedTabs.accesskey): These share the
-same accesskey but will never be visible at the same time. -->
-<!ENTITY toolbarContextMenu.bookmarkSelectedTab.accesskey	"T">
-<!ENTITY toolbarContextMenu.bookmarkSelectedTabs.label		"選択したタブをブックマーク...">
-<!-- LOCALIZATION NOTE (toolbarContextMenu.bookmarkSelectedTab.accesskey,
-toolbarContextMenu.bookmarkSelectedTabs.accesskey): These share the
-same accesskey but will never be visible at the same time. -->
-<!ENTITY toolbarContextMenu.bookmarkSelectedTabs.accesskey	"T">
-<!ENTITY toolbarContextMenu.selectAllTabs.label		"すべてのタブを選択">
-<!ENTITY toolbarContextMenu.selectAllTabs.accesskey	"S">
-<!ENTITY toolbarContextMenu.undoCloseTab.label		"閉じたタブを元に戻す">
-<!ENTITY toolbarContextMenu.undoCloseTab.accesskey	"U">
 
 <!ENTITY pageSourceCmd.label		"ページのソース">
 <!ENTITY pageSourceCmd.accesskey	"o">
@@ -228,15 +137,26 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxa.unverified.description.label	"同期を行う前にあなたのアカウントを確認する必要があります。">
 <!ENTITY fxa.unverified.button.label		"&syncBrand.shortName.label; の設定を開く...">
 
+<!ENTITY pictureInPictureHideToggle.label	"ピクチャーインピクチャーの切り替えボタンを隠す">
+<!ENTITY pictureInPictureHideToggle.accesskey	"H">
+
 <!-- LOCALIZATION NOTE (fxa.menu) Used to define the different labels
-     for the Firefox Account toolbart menu screen. The `Signed in as` text is
+     for the Firefox Account toolbar menu screen. The `Signed in as` text is
      followed by the user's email. -->
 <!ENTITY fxa.menu.signedInAs.label		"ログインするアカウント">
 <!ENTITY fxa.menu.manageAccount.label		"アカウントを管理...">
 <!ENTITY fxa.menu.syncSettings.label		"&syncBrand.shortName.label; の設定...">
-<!ENTITY fxa.menu.connectAnotherDevice.label	"&syncedTabs.sidebar.connectAnotherDevice;">
 <!ENTITY fxa.menu.connectAnotherDevice2.label	"別の端末を接続...">
 <!ENTITY fxa.menu.firefoxAccount		"&syncBrand.fxAccount.label;">
+
+<!ENTITY fxa.menu.signin.label			"&brandProductName; にログイン">
+<!ENTITY fxa.menu.turnOnSync.label		"&syncBrand.shortName.label; をオンにする">
+<!ENTITY fxa.menu.account.label			"アカウント">
+<!ENTITY fxa.menu.firefoxServices.label		"&brandProductName; サービス">
+
+<!-- LOCALIZATION NOTE (fxa.service) Used to define the different FxA services
+     for the Firefox Account toolbar menu screen.  -->
+<!ENTITY fxa.service.sendTab.description	"ログインしている他の端末に今すぐタブを送ります。">
 
 <!-- LOCALIZATION NOTE (fullscreenWarning.beforeDomain.label,
      fullscreenWarning.afterDomain.label): these two strings are used
@@ -280,6 +200,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.commandkey		"d">
 
 <!ENTITY addCurPagesCmd.label			"すべてのタブをブックマーク...">
+
 <!ENTITY showAllBookmarks2.label		"すべてのブックマークを表示">
 <!ENTITY recentBookmarks.label			"最近のブックマーク">
 <!ENTITY otherBookmarksCmd.label		"他のブックマーク">
@@ -340,7 +261,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.canvasBlocked.tooltip			"このウェブサイトの Canvas データの抽出をブロックしました。">
 <!ENTITY urlbar.flashPluginBlocked.tooltip		"このウェブサイトの Adobe Flash プラグインの使用をブロックしました。">
 <!ENTITY urlbar.midiBlocked.tooltip			"このウェブサイトの MIDI へのアクセスをブロックしました。">
-
 <!ENTITY urlbar.installBlocked.tooltip			"このウェブサイトのアドオンのインストールをブロックしました。">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip		"履歴を表示します">
@@ -403,6 +323,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
+
 <!ENTITY newUserContext.label		"@@New-CMD@@コンテナータブ">
 <!ENTITY newUserContext.accesskey	"B">
 <!ENTITY manageUserContext.label	"コンテナーを管理">
@@ -452,6 +373,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey	"T">
 <!ENTITY viewSidebarMenu.label		"サイドバー">
 <!ENTITY viewSidebarMenu.accesskey	"e">
+
 <!ENTITY viewCustomizeToolbar.label	"カスタマイズ...">
 <!ENTITY viewCustomizeToolbar.accesskey	"C">
 <!ENTITY overflowCustomizeToolbar.label	"ツールバーをカスタマイズ...">
@@ -465,6 +387,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historyRestoreLastSession.label	"以前のセッションを復元">
 
 <!ENTITY showAllHistoryCmd2.label		"すべての履歴を表示"><!-- (^^; -->
+
 <!ENTITY showAllHistoryCmd.commandkey		"H">
 
 <!ENTITY appMenuHistory.showAll.label		"すべての履歴を表示">
@@ -530,7 +453,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY customizeMenu.manageExtension.accesskey		"E">
 <!ENTITY customizeMenu.removeExtension.label		"拡張機能を削除">
 <!ENTITY customizeMenu.removeExtension.accesskey	"v">
-
 <!-- LOCALIZATION NOTE (reportExtension.label) This label is used in the extensions
      toolbar buttons context menus, a user can use this command to submit to Mozilla
      an abuse report related to that extension. "Report" is a verb. -->
@@ -613,6 +535,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      searchFor.label and searchWith.label. This string will be used instead of
      them when the user has not typed any keyword. -->
 <!ENTITY searchWithHeader.label		"検索エンジン:">
+
+<!-- LOCALIZATION NOTE (searchWithDesc.label):
+     This string prompts the user to use the list of one-click search engines in
+     the Urlbar and searchbar. -->
+<!ENTITY searchWithDesc.label		"今回だけ使う検索エンジン:">
+
 <!-- LOCALIZATION NOTE (changeSearchSettings.button):
      This string won't wrap, so if the translated string is longer,
      consider translating it as if it said only "Search Settings". -->
@@ -686,9 +614,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY emailPageCmd.label			"ページの URL をメールで送信...">
 <!ENTITY emailPageCmd.accesskey			"E">
+<!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.label			"@@SavePageAs@@...">
 <!ENTITY savePageCmd.accesskey			"A">
-<!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2			"P">
 <!ENTITY savePageCmd.commandkey			"s">
 <!ENTITY saveFrameCmd.label			"@@SaveFrameAs@@...">
@@ -793,22 +721,26 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY fullZoomEnlargeCmd.label       "拡大">
 <!ENTITY fullZoomEnlargeCmd.accesskey   "I">
+
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
 <!ENTITY fullZoomEnlargeCmd.commandkey3 ";"> <!-- JIS キーボード用 -->
 
 <!ENTITY fullZoomReduceCmd.label        "縮小">
 <!ENTITY fullZoomReduceCmd.accesskey    "O">
+
 <!ENTITY fullZoomReduceCmd.commandkey   "-">
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
 <!ENTITY fullZoomResetCmd.label         "リセット">
 <!ENTITY fullZoomResetCmd.accesskey     "R">
+
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
 <!ENTITY fullZoomToggleCmd.label        "文字サイズのみ変更"> <!-- (^^; -->
 <!ENTITY fullZoomToggleCmd.accesskey    "T">
+
 <!ENTITY fullZoom.label                 "ズーム">
 <!ENTITY fullZoom.accesskey             "Z">
 
@@ -826,6 +758,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.key			"Q">
 
 <!ENTITY closeCmd.label				"@@CloseCMD@@">
+
 <!ENTITY closeCmd.key				"W">
 <!ENTITY closeCmd.accesskey			"C">
 
@@ -879,14 +812,23 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.connection			"接続">
 <!ENTITY identity.connectionSecure		"安全な接続">
+
+<!-- LOCALIZATION NOTE (identity.securityView.label2)
+     This is the header of the security subview in the Site Identity panel. -->
+<!ENTITY identity.securityView.label2		"接続の安全性">
+
+<!ENTITY identity.connectionSecure2		"安全な接続">
 <!ENTITY identity.connectionNotSecure		"この接続は安全ではありません">
+<!ENTITY identity.connectionNotSecureSecurityView	"このサイトとの接続は安全ではありません。">
 <!ENTITY identity.connectionFile		"これはあなたのコンピューターに保存されているページです。">
 <!ENTITY identity.connectionVerified2		"このサイトとの接続は安全です。このサイトの運営者:">
+<!ENTITY identity.connectionVerified3		"このサイトとの接続は安全です。">
 <!ENTITY identity.connectionInternal		"このページは &brandShortName; の安全な内部ページです。">
 <!ENTITY identity.extensionPage			"このページは拡張機能から読み込まれています。">
 <!ENTITY identity.insecureLoginForms2		"このページのログインフォームは安全ではありません。">
-
 <!ENTITY identity.customRoot			"Mozilla が承認していない発行者の証明書で検証された接続です。">
+
+<!ENTITY identity.evOwnerLabel			"このサイトの運営者:">
 
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked			"このページの一部が安全でないため &brandShortName; がブロックしました。">
@@ -905,7 +847,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.description.passiveLoaded3	"&brandShortName; が一部のコンテンツをブロックしていますが、ページ上には安全でないコンテンツ (画像など) が含まれています。">
 <!ENTITY identity.description.activeLoaded	"このウェブサイトには安全でないコンテンツ (スクリプトなど) が含まれており、サイトとの接続は秘密が保たれません。">
 <!ENTITY identity.description.activeLoaded2	"このサイトと共有したあなたの情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。">
-
 <!ENTITY identity.description.customRoot	"Mozilla はこの証明書の発行者を承認していません。OS またはシステム管理者により追加された可能性があります。">
 
 <!ENTITY identity.enableMixedContentBlocking.label	"保護を有効にする">
@@ -922,11 +863,58 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.clearSiteData			"Cookie とサイトデータを消去...">
 
 <!ENTITY identity.permissions			"サイト別設定">
+
+<!-- LOCALIZATION NOTE (identity.permissions2): "set" as in "configured for this website" -->
+<!ENTITY identity.permissions2			"このサイトの設定">
 <!ENTITY identity.permissionsEmpty		"このサイトに特別な権限は設定されていません。">
 <!ENTITY identity.permissionsReloadHint		"変更内容を適用するには、ページの再読み込みが必要です。">
 <!ENTITY identity.permissionsPreferences.tooltip	"サイト別設定を開きます">
 <!ENTITY identity.contentBlockingPreferences.tooltip	"コンテンツブロッキングの設定を開きます">
 
+
+<!ENTITY protections.etpON.header				"強化型トラッキング防止機能はこのサイトでオンです">
+<!ENTITY protections.etpOFF.header				"強化型トラッキング防止機能はこのサイトでオフです">
+<!-- LOCALIZATION NOTE:
+     protections.etpMoreInfo.label: The text a screen reader speaks when focused on the info button. -->
+<!ENTITY protections.etpMoreInfo.label				"強化型トラッキング防止機能についての詳細情報">
+<!ENTITY protections.settings.label				"保護設定">
+<!ENTITY protections.report.label				"すべての報告を表示">
+<!-- LOCALIZATION NOTE:
+     protections.siteNotWorking.label: The link to be clicked to open the sub-panel view
+     protections.siteNotWorkingView.title: The heading/title of the sub-panel view -->
+<!ENTITY protections.siteNotWorking.label			"サイトが動作してないですか？">
+<!ENTITY protections.siteNotWorkingView.title			"サイトが動作してないですか？">
+<!-- LOCALIZATION NOTE:
+     In the Site Not Working? view, we suggest turning off protections if
+     the user is experiencing issues with any of a variety of functionality.
+     protections.siteNotWorkingView.header: The header of the list
+     protections.siteNotWorkingView.issueList.*: The list items, shown in a <ul> -->
+<!ENTITY protections.siteNotWorkingView.header			"問題がある場合は、保護をオフにしてみてください:">
+<!ENTITY protections.siteNotWorkingView.issueList.logInFields	"ログインフォーム">
+<!ENTITY protections.siteNotWorkingView.issueList.forms		"フォーム">
+<!ENTITY protections.siteNotWorkingView.issueList.payments	"支払い情報">
+<!ENTITY protections.siteNotWorkingView.issueList.comments	"コメント">
+<!ENTITY protections.siteNotWorkingView.issueList.videos	"動画">
+<!ENTITY protections.siteNotWorkingView.siteStillBroken.label	"保護をオフにしてもサイトが動作しないですか？">
+<!ENTITY protections.siteNotWorkingView.sendReport.label	"報告を送信">
+
+<!ENTITY protections.blocking.label				"ブロック中">
+<!ENTITY protections.notBlocking.label				"未ブロック">
+<!ENTITY protections.notBlocking.why.label			"状態について">
+<!ENTITY protections.notBlocking.why.etpOn.tooltip		"これらをブロックすると、一部のウェブサイトの一部のボタン、フォーム、ログインフォームといった要素が動作しなくなる可能性があります。">
+<!ENTITY protections.notBlocking.why.etpOff.tooltip		"保護をオフにすると、このサイトのトラッカーをすべて許容します。一部のウェブサイトの動作が改善される場合があります。">
+<!ENTITY protections.socialMediaTrackers.label			"ソーシャルメディアトラッカー">
+<!ENTITY protections.crossSiteTrackingCookies.label		"クロスサイトトラッキング Cookie">
+<!ENTITY protections.trackingContent.label			"トラッキングコンテンツ">
+<!ENTITY protections.fingerprinters.label			"フィンガープリント採取">
+<!ENTITY protections.cryptominers.label				"暗号通貨マイニング">
+<!ENTITY protections.noTrackersFound.description		"このページでは既知のトラッカーはありません。">
+
+<!ENTITY protections.crossSiteTrackingCookies.description	"これらの Cookie はオンラインでのあなたの行動に関するデータを集めるために、サイトからサイトへと追跡します。これは広告会社や調査会社といったサードパーティにより設置されています。">
+<!ENTITY protections.cryptominers.description			"暗号通貨マイニングは仮想通貨の採掘のために、あなたのシステムの計算リソースを利用します。暗号通貨マイニングスクリプトはあなたのバッテリーを消費し、コンピューターを遅くさせ、電気代を増やさせる可能性があります。">
+<!ENTITY protections.fingerprinters.description			"フィンガープリント採取はブラウザーとコンピューターから設定を集め、あなたのデジタル指紋を作成します。このデジタル指紋を使うと、様々なウェブサイトにまたがってあなたを追跡することができます。">
+<!ENTITY protections.trackingContent.description		"ウェブサイトはトラッキングコードが含まれる広告、動画、その他のコンテンツを外部から読み込む場合があります。トラッキングコンテンツをブロックするとサイトの読み込みが速くなる可能性がありますが、一部のボタン、フォーム、ログインフォームが動作しなくなる可能性もあります。">
+<!ENTITY protections.socialMediaTrackers.description		"ソーシャルネットワークはオンラインでのあなたの行動を追跡、監視するために、他のウェブサイトにトラッカーを設置しています。これはソーシャルメディア上のあなたのプロフィールで共有している以上の情報を、ソーシャルメディア会社に許容することになります。">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
@@ -936,87 +924,18 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncTabsMenu3.label			"同期タブ">
 
 <!ENTITY syncedTabs.sidebar.label		"同期タブ">
-<!ENTITY syncedTabs.sidebar.noclients.label	"他の端末から Firefox にログインすると、このブラウザーでタブを表示できます。">
-<!ENTITY syncedTabs.sidebar.noclients.subtitle	"他の端末のタブを表示しますか？">
-<!ENTITY syncedTabs.sidebar.notsignedin.label	"ログインすると、他の端末のタブの一覧を表示できます。">
-<!ENTITY syncedTabs.sidebar.unverified.label	"あなたのアカウントは検証する必要があります。">
-<!ENTITY syncedTabs.sidebar.notabs.label	"表示タブなし">
-<!ENTITY syncedTabs.sidebar.openprefs.label	"&syncBrand.shortName.label; の設定を開く">
-<!-- LOCALIZATION NOTE (syncedTabs.sidebar.tabsnotsyncing.label): This is shown
-     when Sync is configured but syncing tabs is disabled. -->
-<!ENTITY syncedTabs.sidebar.tabsnotsyncing.label	"タブの同期をオンにすると、他の端末のタブの一覧を表示できます。">
-<!ENTITY syncedTabs.sidebar.searchPlaceholder	"同期したタブを検索">
-<!ENTITY syncedTabs.sidebar.connectAnotherDevice	"他の端末を接続">
-
-<!-- LOCALIZATION NOTE (syncedTabs.context.open.accesskey,
-                        syncedTabs.context.openAllInTabs.accesskey):
-     These access keys are identical because their associated menu items are
-     mutually exclusive -->
-<!ENTITY syncedTabs.context.open.label				"開く">
-<!ENTITY syncedTabs.context.open.accesskey			"O">
-<!ENTITY syncedTabs.context.openInNewTab.label			"@@NewTab@@で開く">
-<!ENTITY syncedTabs.context.openInNewTab.accesskey		"w">
-<!ENTITY syncedTabs.context.openInNewWindow.label		"リンクを@@NewWindow@@で開く">
-<!ENTITY syncedTabs.context.openInNewWindow.accesskey		"N">
-<!ENTITY syncedTabs.context.openInNewPrivateWindow.label	"@@New-CMD@@プライベート@@Window@@で開く">
-<!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey	"P">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.label		"このタブをブックマーク...">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey		"B">
-<!ENTITY syncedTabs.context.copy.label				"コピー">
-<!ENTITY syncedTabs.context.copy.accesskey			"C">
-
-<!ENTITY syncedTabs.context.openAllInTabs.label			"すべてをタブで開く">
-<!ENTITY syncedTabs.context.openAllInTabs.accesskey		"O">
-<!ENTITY syncedTabs.context.managedevices.label			"端末の管理...">
-<!ENTITY syncedTabs.context.managedevices.accesskey		"D">
-
 
 <!ENTITY syncBrand.shortName.label		"Sync">
 
 <!ENTITY syncSignIn.label			"&syncBrand.shortName.label; にログイン...">
 <!ENTITY syncSignIn.accesskey			"Y">
+
 <!ENTITY syncSyncNowItem.label			"今すぐ同期">
 <!ENTITY syncSyncNowItemSyncing.label		"同期中...">
 <!ENTITY syncSyncNowItem.accesskey		"S">
 <!ENTITY syncReAuthItem.label			"&syncBrand.shortName.label; に再接続...">
 <!ENTITY syncReAuthItem.accesskey		"R">
 <!ENTITY syncToolbarButton.label		"Sync">
-
-<!ENTITY customizeMode.menuAndToolbars.header3		"お気に入りのアイテムをツールバーやオーバーフローメニューにドラッグしてください。">
-<!ENTITY customizeMode.restoreDefaults			"初期設定に戻す">
-<!ENTITY customizeMode.done				"完了">
-<!ENTITY customizeMode.titlebar				"タイトルバー">
-<!ENTITY customizeMode.extraDragSpace			"ドラッグ領域">
-<!ENTITY customizeMode.toolbars2			"ツールバー">
-<!ENTITY customizeMode.lwthemes				"テーマ">
-<!ENTITY customizeMode.lwthemes.myThemes		"マイテーマ">
-<!ENTITY customizeMode.lwthemes.recommended		"おすすめ">
-<!ENTITY customizeMode.lwthemes.menuManage		"管理">
-<!ENTITY customizeMode.lwthemes.menuManage.accessKey	"M">
-<!ENTITY customizeMode.lwthemes.menuGetMore		"その他のテーマを入手">
-<!ENTITY customizeMode.lwthemes.menuGetMore.accessKey	"G">
-<!ENTITY customizeMode.overflowList.title2		"オーバーフローメニュー">
-<!ENTITY customizeMode.overflowList.description		"ここにアイテムをドラッグアンドドロップすると、ツールバー外の手の届くところに置いておけます...">
-<!ENTITY customizeMode.uidensity			"UI 密度">
-<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
-     “Normal” is displayed in the Customize screen, under the Density menu. -->
-<!ENTITY customizeMode.uidensity.menuNormal.label	"通常">
-<!ENTITY customizeMode.uidensity.menuNormal.tooltip	"通常の大きさです">
-<!ENTITY customizeMode.uidensity.menuNormal.accessKey	"N">
-<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
-     “Compact” is displayed in the Customize screen, under the Density menu.
-     It’s an adjective (Density -> Compact). -->
-<!ENTITY customizeMode.uidensity.menuCompact.label	"コンパクト">
-<!ENTITY customizeMode.uidensity.menuCompact.tooltip	"小さくまとめます">
-<!ENTITY customizeMode.uidensity.menuCompact.accessKey	"C">
-<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
-     “Touch” is displayed in the Customize screen, under the Density menu.
-     It’s an adjective (Density -> Touch), and it means that control layout is
-     optimized for touch devices. -->
-<!ENTITY customizeMode.uidensity.menuTouch.label	"タッチ">
-<!ENTITY customizeMode.uidensity.menuTouch.tooltip	"タッチに適した大きさです">
-<!ENTITY customizeMode.uidensity.menuTouch.accessKey	"T">
-<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label	"タブレットモードではタッチにする">
 
 <!ENTITY customizeMode.autoHideDownloadsButton.label	"自動的に隠す">
 
@@ -1034,13 +953,22 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.trackingProtection3.label		"トラッカー">
 
 <!ENTITY contentBlocking.manageSettings.label			"コンテンツブロッキングを管理">
+
+<!ENTITY contentBlocking.trackingProtection4.label		"トラッキングコンテンツ">
+
+<!ENTITY contentBlocking.manageSettings2.label			"保護設定を管理">
 <!ENTITY contentBlocking.manageSettings.accesskey		"M">
 
 <!ENTITY contentBlocking.trackersView.label			"トラッカー">
+
 <!ENTITY contentBlocking.trackersView.strictInfo.label		"トラッカーをすべてブロックするには、コンテンツブロッキングの設定を “厳格” にします。">
 
 <!ENTITY contentBlocking.cookies.label				"Cookie">
 <!ENTITY contentBlocking.cookiesView.label			"Cookie とサイトデータ">
+
+<!ENTITY contentBlocking.socialblock.label			"ソーシャルメディアトラッカー">
+
+<!ENTITY contentBlocking.cookies2.label				"クロスサイトトラッキング Cookie">
 
 <!ENTITY contentBlocking.cryptominers.label			"暗号通貨マイニング">
 <!ENTITY contentBlocking.cryptominersView.label			"暗号通貨マイニング">
@@ -1052,8 +980,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.breakageReportView.label			"問題を報告">
 <!ENTITY contentBlocking.breakageReportView2.description		"コンテンツブロッキングは一部のウェブサイトで問題になる場合があります。問題を報告すると、&brandShortName; のすべてのユーザーの助けになります。(URL に加えてブラウザの設定も Mozilla に送信されます。)">
 <!ENTITY contentBlocking.breakageReportView.learnMore			"詳細">
+<!ENTITY contentBlocking.breakageReportView.title			"動作しないサイトを報告">
+<!ENTITY contentBlocking.breakageReportView3.description		"特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、&brandShortName; を改善する手助けになります。報告とともに URL とあなたのブラウザーの設定に関する情報が Mozilla に送信されます。">
+<!ENTITY contentBlocking.breakageReportView2.learnMore			"詳細">
 <!ENTITY contentBlocking.breakageReportView.collection.url.label	"URL">
 <!ENTITY contentBlocking.breakageReportView.collection.comments.label	"どのような問題がありましたか？ (任意)">
+<!ENTITY contentBlocking.breakageReportView2.collection.comments.label	"任意: 問題を記述してください">
 <!ENTITY contentBlocking.breakageReportView.sendReport.label		"レポートを送信">
 <!ENTITY contentBlocking.breakageReportView.cancel.label		"キャンセル">
 
@@ -1084,27 +1016,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY uiTour.infoPanel.close			"閉じる">
 
-<!-- LOCALIZATION NOTE: (panicButton.view.mainTimeframeDesc, panicButton.view.5min, panicButton.view.2hr, panicButton.view.day):
-     The .mainTimeframeDesc string combined with any of the 3 others is meant to form a complete sentence, e.g. "Forget the last: Five minutes".
-     Please ensure that this remains the case in the translation. -->
-<!ENTITY panicButton.view.mainTimeframeDesc	"忘れる履歴の期間:">
-<!ENTITY panicButton.view.5min			"5 分以内">
-<!ENTITY panicButton.view.2hr			"2 時間以内">
-<!ENTITY panicButton.view.day			"24 時間以内">
-
-<!-- LOCALIZATION NOTE: (panicButton.view.mainLabel, panicButton.view.deleteCookies, panicButton.view.deleteHistory, panicButton.view.deleteTabsAndWindows, panicButton.view.openNewWindow):
-     The .mainActionDesc string combined with any of the 4 others is meant to form a complete sentence, e.g. "Proceeding will: Delete Recent Cookies".
-     Note also that the deleteCookies, deleteHistory and deleteTabsAndWindows strings include <html:strong> tags for emphasis on the words "Cookies", "History", "Tabs" and "Windows".
-     The translation should do the same. -->
-<!ENTITY panicButton.view.mainActionDesc	"この操作は:">
-<!ENTITY panicButton.view.deleteCookies		"最近の <html:strong>Cookies</html:strong> を削除します">
-<!ENTITY panicButton.view.deleteHistory		"最近の <html:strong>履歴</html:strong> を削除します">
-<!ENTITY panicButton.view.deleteTabsAndWindows	"すべての <html:strong>タブ</html:strong> と <html:strong>@@Window@@</html:strong> を閉じます">
-<!ENTITY panicButton.view.openNewWindow		"@@NewWindow@@を開きます">
-
-<!ENTITY panicButton.view.undoWarning		"この操作は@@Undo@@ことができません。">
-<!ENTITY panicButton.view.forgetButton		"忘れる">
-
 <!ENTITY panicButton.thankyou.msg1		"最近の履歴を消去しました。">
 <!ENTITY panicButton.thankyou.msg2		"安全なブラウジングをお楽しみください！">
 <!ENTITY panicButton.thankyou.buttonlabel	"OK">
@@ -1112,31 +1023,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY emeLearnMoreContextMenu.label		"DRM の詳細...">
 <!ENTITY emeLearnMoreContextMenu.accesskey	"D">
 
-<!ENTITY updateAvailable.message		"最新の速さとプライバシーのために &brandShorterName; を更新してください。">
-<!ENTITY updateAvailable.whatsnew.label		"新着情報を見る。">
-<!ENTITY updateAvailable.header.message		"新しい &brandShorterName; の更新が利用可能です。">
-<!ENTITY updateAvailable.acceptButton.label	"更新をダウンロード">
-<!ENTITY updateAvailable.acceptButton.accesskey	"D">
-<!ENTITY updateAvailable.cancelButton.label	"後で">
-<!ENTITY updateAvailable.cancelButton.accesskey	"N">
-
 <!ENTITY updateAvailable.panelUI.label		"&brandShorterName; の更新をダウンロード">
-
-<!ENTITY updateManual.message			"&brandShorterName; の新たなコピーをダウンロードしてください。インストールを手助けします。">
-<!ENTITY updateManual.whatsnew.label		"新着情報を見る。">
-<!ENTITY updateManual.header.message		"&brandShorterName; を最新バージョンに更新できません。">
-<!ENTITY updateManual.acceptButton.label	"&brandShorterName; をダウンロード">
-<!ENTITY updateManual.acceptButton.accesskey	"D">
-<!ENTITY updateManual.cancelButton.label	"後で">
-<!ENTITY updateManual.cancelButton.accesskey	"N">
 <!ENTITY updateManual.panelUI.label		"&brandShorterName; の新たなコピーをダウンロード">
-
-<!ENTITY updateRestart.message2			"&brandShorterName; の再起動後、開いていたタブとプライベートブラウジングモードでない@@Window@@がすべて復元されます。">
-<!ENTITY updateRestart.header.message2		"再起動して &brandShorterName; を更新してください。">
-<!ENTITY updateRestart.acceptButton.label	"再起動して復元">
-<!ENTITY updateRestart.acceptButton.accesskey	"R">
-<!ENTITY updateRestart.cancelButton.label	"後で">
-<!ENTITY updateRestart.cancelButton.accesskey	"N">
 <!ENTITY updateUnsupported.panelUI.label	"これ以上は更新できません">
 <!ENTITY updateRestart.panelUI.label2		"再起動して &brandShorterName; を更新">
 
@@ -1176,18 +1064,3 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      used as a textual label for the indicator used by assistive technology
      users. -->
 <!ENTITY accessibilityIndicator.tooltip		"アクセシビリティ機能が有効です">
-
-<!-- LOCALIZATION NOTE: (addonPostInstallMessage.label):
-     The first <image> tag is replaced with the icon for the add-ons menu.
-     The second <image> tag is replaced with the icon for the toolbar menu. -->
-<!ENTITY addonPostInstallMessage.label		"<image class='addon-toolbar-icon'/> メニューの <image class='addon-addon-icon'/> をクリックすると、アドオンを管理できます。">
-<!ENTITY addonPostInstall.incognito.checkbox.label	"この拡張機能のプライベート@@Window@@での実行を許可する">
-<!ENTITY addonPostInstall.incognito.checkbox.accesskey	"A">
-
-<!ENTITY addonPrivateBrowsing.header2.label		"プライベート@@Window@@での拡張機能を変更する">
-<!ENTITY addonPrivateBrowsing.body2.label		"&brandShorterName; に新しく追加した拡張機能は、設定で許可しない限りプライベート@@Window@@では動作しません。">
-<!ENTITY addonPrivateBrowsing.learnMore.label		"拡張機能設定の管理の詳細">
-<!ENTITY addonPrivateBrowsing.okButton.label		"OK">
-<!ENTITY addonPrivateBrowsing.okButton.accesskey	"O">
-<!ENTITY addonPrivateBrowsing.manageButton.label	"拡張機能の管理">
-<!ENTITY addonPrivateBrowsing.manageButton.accesskey	"M">

@@ -152,10 +152,6 @@ fonts-languages-fallback-name-vietnamese =
 fonts-languages-fallback-name-other =
     .label = その他 (西欧含む)
 
-fonts-very-large-warning-title = 最小フォントサイズが大きすぎます
-fonts-very-large-warning-message = 最小フォントサイズに 24 ピクセルを超える大きなサイズを選択しました。重要な設定ページの表示が困難、または不可能になる可能性があります。
-fonts-very-large-warning-accept = 強制変更する
-
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =

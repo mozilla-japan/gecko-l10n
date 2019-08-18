@@ -977,4 +977,5 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 dom, security, toolkit  11894:3a5679f7c110   2019-08-10     mar             sync dom, security, toolkit
 mobile                  11946:21c69eeefc89   2019-08-16     mar             sync mobile
+browser                 11951:19724aa1e88d   2019-08-17     hATrayflood     sync browser
 
