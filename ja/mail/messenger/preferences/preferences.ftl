@@ -2,6 +2,60 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+pane-general-title = 一般
+category-general =
+    .tooltiptext = { pane-general-title }
+
+general-language-and-appearance-header = 言語と外観
+
+general-incoming-mail-header = 新着メールの通知
+
+general-files-and-attachment-header = ファイルと添付
+
+general-tags-header = タグ
+
+general-reading-and-display-header = 既読と表示
+
+general-updates-header = 更新
+
+general-network-and-diskspace-header = ネットワークとディスク領域
+
+general-indexing-label = 索引データベース
+
+composition-category-header = 編集
+
+composition-attachments-header = 添付ファイル
+
+composition-spelling-title = スペルチェック
+
+compose-html-style-title = HTML スタイル
+
+composition-addressing-header = アドレス入力
+
+privacy-main-header = プライバシー
+
+privacy-passwords-header = パスワード
+
+privacy-junk-header = 迷惑メール
+
+privacy-data-collection-header = データ収集と利用
+
+privacy-security-header = セキュリティ
+
+privacy-scam-detection-title = 詐欺メール
+
+privacy-anti-virus-title = ウイルス対策
+
+privacy-certificates-title = 証明書
+
+chat-pane-header = チャット
+
+chat-status-title = アカウントの状態
+
+chat-notifications-title = 通知
+
+chat-pane-styling-header = メッセージスタイル
+
 choose-messenger-language-description = メニューやメッセージ、{ -brand-short-name } からの通知の表示に使用する言語を選んでください。
 manage-messenger-languages-button =
   .label = 代替言語を設定...

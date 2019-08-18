@@ -10,6 +10,7 @@
 <!ENTITY calendar.newtask.button.tooltip		"@@New-CMD@@ ToDo を作成します" >
 
 <!ENTITY calendar.unifinder.todoitems.label		"ToDo" >
+
 <!ENTITY calendar.unifinder.showcompletedtodos.label	"完了した ToDo を表示">
 
 <!ENTITY calendar.today.button.label			"今日">

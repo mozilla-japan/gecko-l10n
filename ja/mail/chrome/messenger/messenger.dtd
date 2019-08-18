@@ -175,7 +175,6 @@
 <!ENTITY compactVersion.accesskey		"C">
 <!ENTITY folderPaneBar.label			"フォルダーペインツールバー">
 <!ENTITY folderPaneBar.accesskey		"F">
-<!ENTITY folderModeSelector.label		"フォルダービュー">
 
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label				"並べ替え順序">
@@ -590,6 +589,7 @@
 <!ENTITY fileButton.tooltip		"メッセージを別のフォルダーに移します">
 <!ENTITY archiveButton.tooltip		"選択したメッセージをアーカイブに移動します">
 <!ENTITY openConversationButton.tooltip	"選択したメッセージのスレッドを表示します">
+<!ENTITY openMsgConversationButton.tooltip	"選択したメッセージのスレッドを表示します">
 <!ENTITY nextButton.tooltip		"次の未読メッセージに移動します">
 <!ENTITY nextMsgButton.tooltip		"次のメッセージに移動します">
 <!ENTITY previousButton.tooltip		"前の未読メッセージに移動します">
@@ -608,7 +608,6 @@
 <!ENTITY tagButton.tooltip		"メッセージにタグを付けます">
 <!ENTITY compactButton.tooltip		"削除したメッセージをフォルダーから消去します"><!-- (^^; わかりにくい... -->
 <!ENTITY appmenuButton1.tooltip		"&brandShortName; のメニューを表示します">
-
 <!ENTITY addonsButton.tooltip		"アドオンを管理します">
 
 <!-- Toolbar Button Popup -->
@@ -710,6 +709,7 @@
 <!ENTITY saveAsVirtualFolderMenu.label		"検索フォルダーとして保存...">
 
 <!-- Thread Pane -->
+<!ENTITY selectColumn.label		"メッセージ選択">
 <!ENTITY threadColumn.label		"スレッド">
 <!ENTITY fromColumn.label		"差出人">
 <!ENTITY recipientColumn.label		"受信者">
@@ -733,6 +733,7 @@
 
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip		"表示する列を選択します">
+<!ENTITY selectColumn.tooltip		"メッセージをすべて選択または解除します">
 <!ENTITY threadColumn2.tooltip		"メッセージをスレッド形式で表示します">
 <!ENTITY fromColumn2.tooltip		"差出人で並べ替えます">
 <!ENTITY recipientColumn2.tooltip	"受信者で並べ替えます">

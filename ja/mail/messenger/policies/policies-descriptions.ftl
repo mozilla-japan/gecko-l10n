@@ -67,6 +67,8 @@ policy-EnableTrackingProtection = コンテンツブロッキングを有効ま�
 # English or translate them as verbs.
 policy-Extensions = 拡張機能をインストール、削除、またはロックします。インストールは URL とパスを指定します。削除とロックは拡張機能の ID を指定します。
 
+policy-ExtensionSettings = 拡張機能のインストール全般を管理します。
+
 policy-ExtensionUpdate = 拡張機能の自動更新を有効または無効にします。
 
 policy-HardwareAcceleration = false の場合、ハードウェアアクセラレーションをオフにします。
