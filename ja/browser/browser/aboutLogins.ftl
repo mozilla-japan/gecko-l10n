@@ -49,10 +49,10 @@ menu-menuitem-iphone-app = { -lockwise-brand-short-name } for iPhone and iPad
 
 login-list =
   .aria-label = 検索条件に一致するログイン情報
-login-list-count = { $count } 個のログイン情報
+login-list-count = { $count } 件のログイン情報
 login-list-sort-label-text = 並べ替え:
-login-list-name-option = 名前
-login-list-breached-option = 事故があったウェブサイト
+login-list-name-option = 名前 (昇順)
+login-list-breached-option = 漏洩したウェブサイト
 login-list-last-changed-option = 最終更新日時
 login-list-last-used-option = 最終利用日時
 login-list-intro-title = ログイン情報はありません
@@ -64,7 +64,7 @@ login-list-item-subtitle-missing-username = (ユーザー名なし)
 ## Introduction screen
 
 login-intro-heading = 保存したログイン情報をお探しですか？ { -sync-brand-short-name } を設定しましょう。
-login-intro-description = 別の端末の { -brand-product-name } にログイン情報を保存したようでしたら、以下の手順で取得できます:
+login-intro-description = 別の端末の { -brand-product-name } に保存したログイン情報は、以下の手順で取得できます:
 login-intro-instruction-fxa = ログイン情報を保存した端末で { -fxaccount-brand-name } を作成、またはログインしてください
 login-intro-instruction-fxa-settings = { -sync-brand-short-name } の設定のログイン情報のチェックボックスが選択されているか確認してください
 login-intro-instruction-faq = { -lockwise-brand-short-name } の <a data-l10n-name="faq">よくある質問</a> により詳しい情報があります
@@ -112,8 +112,8 @@ confirmation-dialog-dismiss-button =
 
 enable-password-sync-notification-message =
   { PLATFORM() ->
-      [windows] { -brand-product-name } で使ってるログイン情報を他の場所でも使いたいですか？ { -sync-brand-short-name } のオプションに移動して、ログイン情報のチェックボックスを選択してください。
-     *[other] { -brand-product-name } で使ってるログイン情報を他の場所でも使いたいですか？ { -sync-brand-short-name } の設定に移動して、ログイン情報のチェックボックスを選択してください。
+      [windows] ご使用のどの { -brand-product-name } でもログイン情報を使えるようにしたいですか？ { -sync-brand-short-name } のオプションに移動して、ログイン情報のチェックボックスを選択してください。
+     *[other] ご使用のどの { -brand-product-name } でもログイン情報を使えるようにしたいですか？ { -sync-brand-short-name } の設定に移動して、ログイン情報のチェックボックスを選択してください。
   }
 enable-password-sync-preferences-button =
   .label =
@@ -134,6 +134,6 @@ confirm-discard-changes-dialog-confirm-button = 破棄
 ## Breach Alert notification
 
 breach-alert-text = ログイン情報の最後の更新の後に、このサイトからパスワードの漏洩、または盗難がありました。アカウントの保護のため、パスワードを変更してください。
-breach-alert-link = この事故について
+breach-alert-link = この情報漏洩について
 breach-alert-dismiss = 
     .title = この警告を閉じる

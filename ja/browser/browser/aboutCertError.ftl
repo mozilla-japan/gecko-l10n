@@ -53,7 +53,7 @@ cert-error-domain-mismatch-multiple = ウェブサイトは証明書で同一性
 # Variables:
 # $hostname (String) - Hostname of the website with cert error.
 # $not-after-local-time (Date) - Certificate is not valid after this time.
-cert-error-expired-now = ウェブサイトは一定期間有効な証明書で同一性を証明します。{ $hostname } の証明書は { $not-after-local-time } で期限切れです。
+cert-error-expired-now = ウェブサイトは一定期間有効な証明書で同一性を証明します。{ $hostname } の証明書は { $not-after-local-time } に期限が切れました。
 
 # Variables:
 # $hostname (String) - Hostname of the website with cert error.

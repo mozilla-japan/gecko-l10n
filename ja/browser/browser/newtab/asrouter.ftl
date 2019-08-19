@@ -74,7 +74,7 @@ cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
 ## Protections panel
 
 cfr-protections-panel-header = 追跡を遮断する
-cfr-protections-panel-body = あなたのデータはあなた自身だけに。{ -brand-short-name } はオンラインでのあなたの行動を追跡するもっとも一般的なトラッカーの多くからあなたを守ります。
+cfr-protections-panel-body = あなたのデータはあなた自身だけに。{ -brand-short-name } はオンラインでのあなたの行動を追跡するよく知られた数多くのトラッカーからあなたを守ります。
 cfr-protections-panel-link-text = 詳細
 
 ## What's New toolbar button and panel
@@ -96,7 +96,7 @@ cfr-doorhanger-sync-bookmarks-ok-button = { -sync-brand-short-name } をオン�
 
 cfr-doorhanger-send-tab-header = 外出先でこのページを読む
 cfr-doorhanger-send-tab-recipe-header = このレシピをキッチンで使う
-cfr-doorhanger-send-tab-body = タブ送信でこのリンクを { -brand-product-name } にログインした携帯電話や他の端末に簡単に共有できます。
+cfr-doorhanger-send-tab-body = タブ送信でこのリンクを { -brand-product-name } にログインした携帯電話や他の端末と簡単に共有できます。
 cfr-doorhanger-send-tab-ok-button = タブ送信を試してみる
   .accesskey = T
 

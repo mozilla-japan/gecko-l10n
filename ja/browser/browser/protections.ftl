@@ -49,7 +49,7 @@ cryptominer-tab-content = 暗号通貨マイニングは仮想通貨の採掘の
 lockwise-title = 二度とパスワードを忘れないように
 lockwise-title-logged-in = { -lockwise-brand-name }
 lockwise-header-content = { -lockwise-brand-name } はあなたのパスワードを安全にブラウザーに保存します。
-lockwise-header-content-logged-in = パスワードを安全に保存して、あなたの端末すべてに共有しましょう。
+lockwise-header-content-logged-in = パスワードを安全に保存して、ご使用のすべての端末と共有しましょう。
 open-about-logins-button = { -brand-short-name } で開く
 lockwise-no-logins-content = <a data-l10n-name="lockwise-inline-link">{ -lockwise-brand-name }</a> アプリを入手して、どこでもパスワードが使える
 
@@ -72,7 +72,7 @@ monitor-title = データ流出に注意を
 monitor-link = 仕組みについて
 monitor-header-content = { -monitor-brand-name } で流出データにあなたの情報が含まれるかチェックできます。新たなデータ流出に関する警告も受けられます。
 monitor-header-content-logged-in = { -monitor-brand-name } はあなたの情報が既知の流出データに含まれる場合に警告します
-monitor-sign-up = サインアップして流出データを確認
+monitor-sign-up = アカウント登録して通知を受ける
 auto-scan = 本日、自動的にスキャンしました
 
 # This string is displayed after a large numeral that indicates the total number
