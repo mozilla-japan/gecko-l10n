@@ -9,8 +9,7 @@
 <!ENTITY retry.label			"再試行">
 <!ENTITY returnToPreviousPage.label	"戻る">
 <!ENTITY returnToPreviousPage1.label	"戻る (推奨)">
-<!ENTITY advanced.label			"エラー内容">
-<!ENTITY advanced2.label		"詳細...">
+<!ENTITY advanced2.label		"詳細情報...">
 <!ENTITY viewCertificate.label		"証明書を確認">
 
 <!-- Specific error messages -->
@@ -144,13 +143,11 @@
 </ul>
 ">
 
-<!ENTITY certerror.longpagetitle1	"安全な接続ではありません">
 <!ENTITY certerror.longpagetitle2	"警告: 潜在的なセキュリティリスクあり">
 <!ENTITY certerror.sts.longpagetitle 	"接続中止: 潜在的なセキュリティ問題">
-<!-- Localization note (certerror.introPara, certerror.introPara2) - The text content of the span tag
+<!-- Localization note (certerror.introPara2) - The text content of the span tag
 will be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
-<!ENTITY certerror.introPara		"<span class='hostname'/> の所有者によるウェブサイトの設定が不適切です。あなたの情報が盗まれることを防ぐため、このウェブサイトへの接続は確立されません。">
 <!ENTITY certerror.introPara2			"&brandShortName; はセキュリティ上の潜在的な脅威を検知したため、<span class='hostname'/> への接続を中止しました。このサイトに訪問すると、攻撃者がパスワードやメールアドレス、クレジットカードの詳細な情報を盗み取ろうとする恐れがあります。">
 <!ENTITY certerror.sts.introPara	"&brandShortName; はセキュリティ上の潜在的な脅威を検知したため、<span class='hostname'/> への接続を中止しました。このウェブサイトには安全な接続が必要なためです。">
 
@@ -188,12 +185,10 @@ was trying to connect. -->
 <!ENTITY corruptedContentErrorv2.title	"コンテンツデータ破損エラー">
 <!ENTITY corruptedContentErrorv2.longDesc	"<p>このページは、データの伝送中にエラーが検出されたため表示できません。</p><ul><li>ウェブサイトの所有者に連絡を取り、この問題を報告してください。</li></ul>">
 
-
-<!ENTITY securityOverride.exceptionButtonLabel	"例外を追加...">
 <!ENTITY securityOverride.exceptionButton1Label	"危険性を承知で続行">
 
 <!ENTITY errorReporting.automatic2	"エラーを報告すると、悪意のあるサイトの特定とブロックに役立ちます">
-<!ENTITY errorReporting.learnMore	"詳細...">
+<!ENTITY errorReporting.learnMore	"エラーの説明...">
 
 <!ENTITY remoteXUL.title		"リモート XUL">
 <!ENTITY remoteXUL.longDesc		"<p><ul><li>ウェブサイトの所有者に連絡を取り、この問題を報告してください。</li></ul></p>">
@@ -203,16 +198,8 @@ was trying to connect. -->
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc2		"高度な情報: SSL_ERROR_UNSUPPORTED_VERSION">
 
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
-                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
-     tags will be injected with actual values, please leave them unchanged. -->
-<!ENTITY certerror.wrongSystemTime2 "<p>&brandShortName; は <span id='wrongSystemTime_URL'/> に接続しませんでした。このコンピューターの時刻が正しくないため安全な接続が妨げられています。</p> <p>このコンピューターの時刻は <span id='wrongSystemTime_systemDate'/> となっていますが、正しい時刻は <span id='wrongSystemTime_actualDate'/> です。問題を解決するには、コンピューターの日付と時刻を正しく設定してください。</p>">
-<!ENTITY certerror.wrongSystemTimeWithoutReference "<p>&brandShortName; は <span id='wrongSystemTimeWithoutReference_URL'/> に接続しませんでした。このコンピューターの時刻が正しくないため安全な接続が妨げられています。</p> <p>このコンピューターの時刻は <span id='wrongSystemTimeWithoutReference_systemDate'/> となっています。問題を解決するには、コンピューターの日付と時刻を正しく設定してください。</p>">
-
-<!ENTITY certerror.pagetitle1			"安全ではない接続">
 <!ENTITY certerror.pagetitle2			"警告: 潜在的なセキュリティリスクあり">
 <!ENTITY certerror.sts.pagetitle		"接続中止: 潜在的なセキュリティ問題">
-<!ENTITY certerror.whatShouldIDo.badStsCertExplanation	"このサイトでは、暗号化された通信のみで接続するよう &brandShortName; に指定する HTTP Strict Transport Security (HSTS) が使われています。そのため、この証明書を例外に追加することはできません。">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation1	"<span class='hostname'></span> は HTTP Strict Transport Security (HSTS) と呼ばれるセキュリティポリシーが設定されおり、&brandShortName; は安全な接続でしか通信できません。そのため、このサイトを例外に追加することはできません。">
 <!ENTITY certerror.copyToClipboard.label	"テキストをクリップボードにコピー">
 

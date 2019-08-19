@@ -49,3 +49,5 @@
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
 
 <!ENTITY showAllAppsCmdMac.label        "すべてを表示">
+
+<!ENTITY touchBarCmdMac.label           "タッチバーをカスタマイズ...">

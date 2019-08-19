@@ -84,6 +84,11 @@ permissions-exceptions-content-blocking-window =
     .style = { permissions-window.style }
 permissions-exceptions-content-blocking-desc = これらのウェブサイトでは、コンテンツブロッキングを無効に設定しています。
 
+permissions-exceptions-etp-window =
+    .title = 強化型トラッキング防止機能の例外
+    .style = { permissions-window.style }
+permissions-exceptions-etp-desc = これらのウェブサイトでは、保護をオフに設定しています。
+
 ## Exceptions - Cookies
 
 permissions-exceptions-cookie-window =

@@ -20,6 +20,9 @@ menu-select-all =
 close-window =
     .key = A
 
+close-dialog =
+    .key = w
+
 general-tab =
     .label = 一般
     .accesskey = G

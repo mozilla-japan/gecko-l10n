@@ -131,8 +131,6 @@ policy-Proxy = プロキシーの設定を指示します。
 
 policy-RequestedLocales = アプリケーションに要求される言語リストと優先順位を設定します。
 
-policy-SanitizeOnShutdown = 終了時にナビゲーションデータをすべて消去します。
-
 policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去します。
 
 policy-SearchBar = 検索バーの@@Default@@の位置を設定します。ユーザーによる設定の変更は許可されます。

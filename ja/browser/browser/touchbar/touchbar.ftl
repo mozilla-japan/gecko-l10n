@@ -18,3 +18,4 @@ reader-view = リーダービュー
 open-location = URL または検索語句を入力
 share = 共有
 close-window = @@Window@@を閉じる
+open-sidebar = サイドバー
