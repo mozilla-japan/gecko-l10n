@@ -17,26 +17,8 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
     dom\chrome\layout\htmlparser.properties
 
 要検討箇所あり:
-  Pluralform 濫用によるもの
-    https://bugzilla.mozilla.org/show_bug.cgi?id=658191
-    /browser/chrome/browser/browser.properties
-      addonsInstalled
-      addonsInstalledNeedsRestart
-
-
-google の https 関係 (Bug 736260):
-
-    45.0 の現状 (○:完了 △:Google Reader 未削除 ×:未変更)
-    ○	/browser/chrome/browser-region/region.properties
-    ○	/browser/searchplugins/google-jp.xml
-    ×	/mail/chrome/messenger-region/region.properties
-    ○	/mail/searchplugins/google-jp.xml
-    ○	/mobile/chrome/region.properties
-    ○	/mobile/searchplugins/google-jp.xml (Bug 757979)
-    ○	/suite/chrome/browser/region.properties (Bug 905498)
-    ○	/suite/chrome/mailnews/region.properties (Bug 905498)
-    ○	/suite/searchplugins/google-jp.xml (Bug 905498)
-
+  Issues · mozilla-japan/gecko-l10n
+  https://github.com/mozilla-japan/gecko-l10n/issues
 
 
 ◆各リポジトリへの対応について、何かあれば以下に書き残してください。
