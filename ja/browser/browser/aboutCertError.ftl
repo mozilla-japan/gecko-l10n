@@ -58,7 +58,7 @@ cert-error-expired-now = ウェブサイトは一定期間有効な証明書で�
 # Variables:
 # $hostname (String) - Hostname of the website with cert error.
 # $not-before-local-time (Date) - Certificate is not valid before this time.
-cert-error-not-yet-valid-now = ウェブサイトは一定期間有効な証明書で同一性を証明します。{ $hostname } の証明書は { $not-after-local-time } まで有効ではありません。
+cert-error-not-yet-valid-now = ウェブサイトは一定期間有効な証明書で同一性を証明します。{ $hostname } の証明書は { $not-before-local-time } まで有効ではありません。
 
 # Variables:
 # $error (String) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
