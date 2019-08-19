@@ -733,7 +733,7 @@
 
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip		"表示する列を選択します">
-<!ENTITY selectColumn.tooltip		"メッセージをすべて選択または解除します">
+<!ENTITY selectColumn.tooltip		"すべてのメッセージを選択または解除します">
 <!ENTITY threadColumn2.tooltip		"メッセージをスレッド形式で表示します">
 <!ENTITY fromColumn2.tooltip		"差出人で並べ替えます">
 <!ENTITY recipientColumn2.tooltip	"受信者で並べ替えます">
