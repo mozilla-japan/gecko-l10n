@@ -24,11 +24,9 @@ Github での master ブランチは、version 57.0 以降、クロスチャン�
 
 現在、[クロスチャンネルに対応した新たなワークフローを検討中](https://github.com/mozilla-japan/gecko-l10n/issues/84) です。
 
-~GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) 用のリソースです (version 55.0 から)。ベータ版・リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。~
+GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) およびベータ版用のリソースです (version 55.0 から)。リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。
 
-バージョンアップ時の英語リソースファイル変更に追従する場合は master ブランチだけを修正すれば構いませんが、既にブランチを切っているバージョンにも反映したい場合は master だけでなく該当ブランチにもマージしてください。
-
-ただし、同じバージョンのセキュリティリリースで UI が変更されるのを防ぐため、重要な変更がある場合を除きリリース済みのバージョンに対するマージや修正は行いません。通常はその時点でベータ以前のバージョンに対応するブランチまでのマージとしてください。
+既にブランチを切っているバージョン (リリース版) への反映は行いません。
 
 リポジトリの書き込み権限があれば、次のような手順でファイルの編集からマージまでできます
 
@@ -66,6 +64,8 @@ git push
 
 ## リファレンス
 
+* L10n リソース検索
+  * [Transvision](https://transvision.mozfr.org/)
 * ガイドライン
   * [L10n ガイドライン](https://github.com/mozilla-japan/translation/wiki/L10N-Guideline)
 * 専門用語集
@@ -83,22 +83,24 @@ git push
   * Nightly:
     * https://hg.mozilla.org/l10n-central/ja/
     * https://hg.mozilla.org/l10n-central/ja-JP-mac/
+  * Release:
+    * https://hg.mozilla.org/releases/l10n/mozilla-release/ja/
+    * https://hg.mozilla.org/releases/l10n/mozilla-release/ja-JP-mac/
   * ~Aurora:~  (EOL in 54.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja-JP-mac/
   * ~Beta:~ (Developer Edition since 55.0, EOL in 56.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja-JP-mac/
-  * Release:
-    * https://hg.mozilla.org/releases/l10n/mozilla-release/ja/
-    * https://hg.mozilla.org/releases/l10n/mozilla-release/ja-JP-mac/
 * Firefox for iOS
   * https://pontoon.mozilla.org/ja/firefox-for-ios/
-* Firefox Focus for iOS
+* Android-L10n (Fennix, Reality, Lockwise, Fire TV)
+  * https://pontoon.mozilla.org/ja/android-l10n/
+* ~Firefox Focus for iOS~ (EOL)
   * https://pontoon.mozilla.org/ja/focus-for-ios/
-* Firefox Focus for Android
+* ~Firefox Focus for Android~ (EOL)
   * https://pontoon.mozilla.org/ja/focus-for-android/
-* Firefox OS (Gaia)
+* Firefox OS (Gaia) (EOL)
   * https://github.com/mozilla-japan/gaia-l10n
   * (v2.6) https://hg.mozilla.org/gaia-l10n/ja/
   * (v2.5) https://hg.mozilla.org/releases/gaia-l10n/v2_5/ja/
@@ -107,3 +109,7 @@ git push
   * https://github.com/mozilla-japan/lot
 * L10n ダッシュボード
   * https://l10n.mozilla.org/teams/ja
+
+## 本家の L10n 情報
+* [Mozilla L10N blog](https://blog.mozilla.org/l10n/)
+* [mozilla.dev.l10n メーリングリスト](https://groups.google.com/forum/#!forum/mozilla.dev.l10n)
