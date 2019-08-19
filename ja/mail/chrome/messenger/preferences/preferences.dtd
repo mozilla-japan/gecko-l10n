@@ -19,6 +19,7 @@
 <!ENTITY paneAttachments.title	"添付ファイル">
 <!ENTITY panePrivacy.title	"プライバシー">
 <!ENTITY paneSecurity.title	"セキュリティ">
+<!ENTITY panePrivacySecurity.title	"プライバシーとセキュリティ">
 <!ENTITY paneLightning.title	"カレンダー">
 <!ENTITY paneAdvanced.title	"詳細">
 <!ENTITY paneAccount.title	"アカウント">

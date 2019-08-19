@@ -7,11 +7,12 @@
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
 
-<!ENTITY pref.mainbox.label "一般設定" >
-<!ENTITY pref.dateformat.label "日付の形式:" >
+<!ENTITY pref.mainbox.label "一般設定">
+
+<!ENTITY pref.dateformat.label "日付の形式:">
 <!ENTITY pref.dateformat.accesskey "D">
-<!ENTITY pref.dateformat.long "長い形式" >
-<!ENTITY pref.dateformat.short "短い形式"  >
+<!ENTITY pref.dateformat.long "長い形式">
+<!ENTITY pref.dateformat.short "短い形式">
 
 <!ENTITY pref.timezones.caption "タイムゾーン">
 <!ENTITY pref.timezones.label "現在位置の時間帯にもっとも近い都市:">
@@ -21,8 +22,11 @@
 <!ENTITY pref.events.label "予定">
 <!ENTITY pref.tasks.label "ToDo">
 
-<!ENTITY pref.default_event_length.label "@@Default-@@期間:" >
+<!ENTITY pref.default_event_length.label "@@Default-@@期間:">
 <!ENTITY pref.default_event_length.accesskey "E">
+
+<!ENTITY pref.default_event_task_length.label "予定と ToDo の@@Default-@@期間">
+<!ENTITY pref.default_event_task_length.accesskey "E">
 
 <!ENTITY pref.default_task_none.label "指定なし">
 <!ENTITY pref.default_task_start_of_day.label "一日の始まり">
@@ -42,10 +46,10 @@
 <!ENTITY pref.soondays2.label "近日中セクションの表示期間:">
 <!ENTITY pref.soondays2.accesskey "U">
 
-<!ENTITY pref.accessibility.label "アクセシビリティ" >
-<!ENTITY pref.systemcolors.label "システムの@@Colors@@に最適化する" >
+<!ENTITY pref.accessibility.label "アクセシビリティ">
+<!ENTITY pref.systemcolors.label "システムの@@Colors@@に最適化する">
 <!ENTITY pref.systemcolors.accesskey "c">
 
-<!ENTITY pref.eventsandtasks.label "予定と ToDo" >
-<!ENTITY pref.editInTab.label "予定と ToDo をダイアログ@@Window@@ではなくタブで編集する" >
+<!ENTITY pref.eventsandtasks.label "予定と ToDo">
+<!ENTITY pref.editInTab.label "予定と ToDo をダイアログ@@Window@@ではなくタブで編集する">
 <!ENTITY pref.editInTab.accesskey "t">

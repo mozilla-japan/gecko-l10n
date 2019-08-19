@@ -36,3 +36,7 @@
 <!ENTITY dntTrackingNotOkay.label2	"トラッキングの拒否をウェブサイトに通知する">
 <!ENTITY dntTrackingNotOkay.accesskey	"n">
 <!ENTITY doNotTrackInfo.label		"トラッキング拒否について">
+
+<!ENTITY doNotTrackCheck.label		"ウェブサイトに “Do Not Track” 信号を送り、追跡されたくないことを知らせます">
+<!ENTITY doNotTrackCheck.accesskey	"n">
+<!ENTITY doNotTrackLearnMore.label	"詳細情報">

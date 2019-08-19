@@ -8,6 +8,7 @@
   -->
 
 <!ENTITY pref.calendar.view.allview.caption		"全般">
+
 <!ENTITY pref.calendar.view.dayandweekviews.caption	"日表示と週表示">
 <!ENTITY pref.calendar.view.multiweekview.caption	"多週表示">
 <!ENTITY pref.calendar.view.workweek.caption		"1 週間の勤務日">
@@ -17,6 +18,8 @@
 <!ENTITY pref.calendar.view-minimonth.showweeknumber.label	"週数をカレンダーと日付選択ビューに表示する">
 <!ENTITY pref.calendar.view-minimonth.showweeknumber.accesskey	"n">
 <!ENTITY pref.daysoff.label		"勤務日:">
+
+<!ENTITY pref.workweekDays.label	"勤務日:">
 
 <!ENTITY pref.calendar.view.daystart.label		"1 日の開始:">
 <!ENTITY pref.calendar.view.daystart.accesskey		"D">
