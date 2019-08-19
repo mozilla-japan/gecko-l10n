@@ -6,3 +6,6 @@
 <!ENTITY  paneAlarms.title        "アラーム">
 <!ENTITY  paneCategories.title    "カテゴリー">
 <!ENTITY  paneViews.title         "表示">
+<!ENTITY  panelHeader.title       "カレンダー">
+<!ENTITY  panelReminder.title     "アラーム">
+<!ENTITY  panelCatecory.title     "カテゴリー">

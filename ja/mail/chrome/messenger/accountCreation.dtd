@@ -3,19 +3,27 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY autoconfigWizard2.title	"既存メールアカウントのセットアップ">
+
+<!ENTITY emailWizard.title		"既存のメールアドレスのセットアップ">
+<!ENTITY emailWizard.caption		"現在のメールアドレスを入力してください">
 <!ENTITY name.label			"あなたのお名前:">
 <!ENTITY name.accesskey			"n">
 <!ENTITY name.placeholder		"氏名またはニックネーム">
+<!ENTITY fullname.placeholder		"あなたのフルネーム">
 <!ENTITY name.text			"受信者に表示される名前です">
+<!ENTITY name.error			"お名前を入力してください">
 <!ENTITY email.label			"メールアドレス:">
 <!ENTITY email.accesskey		"E">
 <!-- LOCALIZATION NOTE(email.placeholder): Domain @example.com must stay in English -->
 <!ENTITY email2.placeholder		"you@example.com">
+<!ENTITY email3.placeholder		"あなたのメールアドレス">
 <!ENTITY email.text			"既存のメールアドレスです">
+<!ENTITY email.error			"メールアドレスが正しくありません">
 <!ENTITY password.label			"パスワード:">
 <!ENTITY password.accesskey		"P">
 <!ENTITY password.placeholder		"アカウントのパスワード">
 <!ENTITY password.text			"入力は任意です。ユーザー名の確認にのみ使用されます。">
+<!ENTITY password.toggle		"パスワードを表示または隠す">
 <!ENTITY rememberPassword.label		"パスワードを記憶する">
 <!ENTITY rememberPassword.accesskey	"m">
 <!ENTITY usernameEx.label		"ログイン名:">
@@ -25,15 +33,21 @@
 <!-- LOCALIZATION NOTE(usernameEx.text): Domain refers to the Windows domain in ActiveDirectory. We mean the user's login in Windows at the local corporate network. -->
 <!ENTITY usernameEx.text		"ドメインへのログイン">
 
+<!ENTITY protocol.label			"プロトコル:">
 <!ENTITY imapLong.label			"IMAP (リモートフォルダー)">
 <!ENTITY pop3Long.label			"POP3 (メールをコンピューターに保存)">
 
 <!ENTITY incoming.label			"受信サーバー:">
+<!ENTITY incomingColumn.label		"受信サーバー">
 <!ENTITY outgoing.label			"送信サーバー:">
+<!ENTITY outgoingColumn.label		"送信サーバー">
 <!ENTITY username.label			"ユーザー名:">
 <!ENTITY hostname.label			"サーバーのホスト名">
 <!ENTITY port.label			"ポート番号">
 <!ENTITY ssl.label			"SSL">
+<!ENTITY serverRow.label		"サーバー:">
+<!ENTITY portRow.label			"ポート番号:">
+<!ENTITY sslRow.label			"SSL:">
 <!ENTITY auth.label			"認証方式">
 <!ENTITY imap.label			"IMAP">
 <!ENTITY pop3.label			"POP3">
@@ -59,15 +73,20 @@
 <!ENTITY stop.label			"中止">
 <!ENTITY stop.accesskey			"S">
 <!-- LOCALIZATION NOTE (half-manual-test.label): This is the text that is
-     displayed on the button in manual edit mode which will re-guess
+     displayed on the button in manual config mode which will re-guess
      the account configuration, taking into account the settings that
      the user has manually changed. -->
 <!ENTITY half-manual-test.label		"再テスト">
 <!ENTITY half-manual-test.accesskey	"t">
 <!ENTITY manual-edit.label		"手動設定">
 <!ENTITY manual-edit.accesskey		"M">
+<!ENTITY manual-config.label		"手動設定...">
+<!ENTITY manual-config.accesskey	"M">
 <!ENTITY open-provisioner.label		"@@New-CMD@@メールアドレスを取得...">
 <!ENTITY open-provisioner.accesskey	"g">
+
+<!ENTITY get-help.label			"ヘルプ">
+<!ENTITY get-help.accesskey		"H">
 
 <!ENTITY warning.label			"警告！">
 <!ENTITY incomingSettings.label		"受信サーバー設定:">

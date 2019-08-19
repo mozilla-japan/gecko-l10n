@@ -28,7 +28,6 @@
 <!ENTITY contextOutgoing.accesskey	"S">
 <!ENTITY contextArchive.label		"アーカイブ時">
 <!ENTITY contextArchive.accesskey	"A">
-
 <!ENTITY contextPeriodic.accesskey	"e">
 
 <!ENTITY filterActionDesc.label		"以下の動作を実行する:">

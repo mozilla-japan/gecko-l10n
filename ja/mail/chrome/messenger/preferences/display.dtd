@@ -49,6 +49,7 @@
 <!-- Advanced -->
 <!ENTITY reading.caption			"既読">
 <!ENTITY display.caption			"表示">
+<!ENTITY displayName.label			"表示名:">
 <!ENTITY showCondensedAddresses.label		"アドレス帳に登録されている人については宛先フィールドで &lt;メールアドレス&gt; 部を表示しない"><!-- (^^; en-US: Show only display name for people in my address book. -->
 <!ENTITY showCondensedAddresses.accesskey	"S">
 

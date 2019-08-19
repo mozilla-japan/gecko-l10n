@@ -30,9 +30,6 @@
 <!ENTITY addCloudFileAccount.description	"新しい Filelink ストレージサービスを追加してください。">
 <!ENTITY removeCloudFileAccount.label		"削除">
 <!ENTITY removeCloudFileAccount.accesskey	"R">
-<!ENTITY authRequired.description		"このストレージサービスの設定を見るためにあなたの認可が必要です。">
-<!ENTITY authRequired.button.label		"認可">
-<!ENTITY authRequired.button.accesskey		"U">
 
 <!ENTITY findCloudFileProviders.label		"他のプロバイダーを検索...">
 
