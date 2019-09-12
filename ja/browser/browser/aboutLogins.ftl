@@ -34,7 +34,7 @@ fxaccounts-avatar-button =
 menu =
   .title = メニューを開きます
 # This menuitem is only visible on Windows
-menu-menuitem-import = パスワードの@@-ImportCMD@@...
+menu-menuitem-import = パスワード@@-ImportCMD@@...
 menu-menuitem-preferences =
   { PLATFORM() ->
       [windows] オプション
