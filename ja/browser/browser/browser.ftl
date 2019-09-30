@@ -47,3 +47,12 @@ urlbar-persistent-storage-notification-anchor =
     .tooltiptext = データを永続ストレージに格納します
 urlbar-addons-notification-anchor =
     .tooltiptext = アドオンのインストールのメッセージパネルを開きます
+
+## Page Action Context Menu
+
+page-action-add-to-urlbar =
+    .label = アドレスバーに追加
+page-action-manage-extension =
+    .label = 拡張機能を管理...
+page-action-remove-from-urlbar =
+    .label = アドレスバーから削除
