@@ -242,6 +242,14 @@ applications-type-column =
 applications-action-column =
     .label = 取り扱い方法
     .accesskey = A
+
+## The strings in this group are used to populate
+## selected label element based on the string from
+## the selected menu item.
+
+
+##
+
 drm-content-header = デジタル著作権管理 (DRM) コンテンツ
 play-drm-content =
     .label = DRM 制御のコンテンツを再生
@@ -597,6 +605,8 @@ forms-master-pw-use =
 forms-master-pw-change =
     .label = マスターパスワードを変更...
     .accesskey = M
+forms-master-pw-fips-title = 現在 FIPS モードです。FIPS モードではマスターパスワードを空には設定できません。
+forms-master-pw-fips-desc = パスワードを変更できませんでした
 
 ## Privacy Section - History
 
