@@ -68,4 +68,6 @@
 <!ENTITY addon.createdBy.label			"作成者: ">
 
 <!ENTITY settings.path.button.label		"@@Browse@@...">
+
+<!-- addon actions -->
 <!ENTITY setting.learnmore			"詳細...">

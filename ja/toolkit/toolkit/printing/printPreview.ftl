@@ -33,6 +33,7 @@ printpreview-of =
     .value = /
 printpreview-custom-prompt =
     .value = @@Zoom@@を設定...
+printpreview-custom-scale-prompt-title = @@Zoom@@の設定
 printpreview-page-setup =
     .label = ページ設定...
     .accesskey = u
