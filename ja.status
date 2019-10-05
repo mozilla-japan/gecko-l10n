@@ -972,7 +972,7 @@ mail, suite             11650:c9d81e711be5   2019-06-19     mar             sync
 devtools                11650:c9d81e711be5   2019-06-19     hATrayflood     sync devtools
 mail                    11685:ed07d51a9cdb   2019-07-05     mar             sync mail (late-l10n)
 
-[l10n-mozilla-69.0]
+Released! [l10n-mozilla-69.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, security, toolkit  11894:3a5679f7c110   2019-08-10     mar             sync dom, security, toolkit
@@ -980,4 +980,10 @@ mobile                  11946:21c69eeefc89   2019-08-16     mar             sync
 browser                 11951:19724aa1e88d   2019-08-17     hATrayflood     sync browser
 mail, calendar          11951:19724aa1e88d   2019-08-17     mar             sync mail, calendar
 devtools                11951:19724aa1e88d   2019-08-17     hATrayflood     sync devtools
+
+[l10n-mozilla-70.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, toolkit            12256:d425429907a1   2019-10-04     mar             sync dom, toolkit
+mobile                  12256:d425429907a1   2019-10-04     mar             sync mobile
 
