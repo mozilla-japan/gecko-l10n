@@ -4,6 +4,7 @@
 
 <!ENTITY header.label		"簡潔な題名">
 <!ENTITY message.label		"ここにサンプルテキストを書きます。">
+
 <!ENTITY editfield0.label	"ユーザー名:">
 <!ENTITY editfield1.label	"パスワード:">
 <!ENTITY checkbox.label		"チェック">
