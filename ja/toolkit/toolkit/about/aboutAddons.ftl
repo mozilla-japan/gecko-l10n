@@ -489,7 +489,6 @@ addon-badge-recommended =
 # badge is a small icon displayed next to an extension when it is recommended on AMO.
 addon-badge-recommended2 =
   .title = { -brand-product-name } は Mozilla が定めた安全性とパフォーマンスの基準に適合する拡張機能のみをおすすめします
-  	only recommends extensions that meet our standards for security and performance
   .aria-label = { addon-badge-recommended2.title }
 
 available-updates-heading = 更新可能
