@@ -985,4 +985,5 @@ devtools                11951:19724aa1e88d   2019-08-17     hATrayflood     sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            12256:d425429907a1   2019-10-04     mar             sync dom, toolkit
+mobile                  12256:d425429907a1   2019-10-04     mar             sync mobile
 
