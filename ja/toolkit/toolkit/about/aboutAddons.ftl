@@ -135,9 +135,13 @@ detail-private-browsing-description2 = 許可した場合、プライベート�
 detail-private-disallowed-label = プライベート@@Window@@では許可されていません
 detail-private-disallowed-description = この拡張機能はプライベートブラウジング中は動作しません。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
 
+detail-private-disallowed-description2 = この拡張機能はプライベートブラウジング中は動作しません。<a data-l10n-name="learn-more">詳細情報</a>
+
 # Some special add-ons are privileged, run in private windows automatically, and this permission can't be revoked
 detail-private-required-label = プライベート@@Window@@へのアクセスが必要です
 detail-private-required-description = この拡張機能はプライベートブラウジング中にユーザーのオンライン行動にアクセスします。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
+
+detail-private-required-description2 = この拡張機能はプライベートブラウジング中にユーザーのオンライン行動にアクセスします。<a data-l10n-name="learn-more">詳細情報</a>
 
 detail-private-browsing-on =
     .label = 許可する
@@ -326,6 +330,15 @@ shortcuts-modifier-other = Ctrl または Alt を含む
 shortcuts-invalid = 不正な組み合わせです
 shortcuts-letter = 文字を入力してください
 shortcuts-system = { -brand-short-name } のショートカットは上書きできません
+
+# String displayed in warning label when there is a duplicate shortcut
+shortcuts-duplicate = ショートカットが重複しています
+
+# String displayed when a keyboard shortcut is already assigned to more than one add-on
+# Variables:
+#   $shortcut (string) - Shortcut string for the add-on
+shortcuts-duplicate-warning-message = { $shortcut } が他の場所でも使用されています。ショートカットキーが重複していると予期しない動作の原因となることがあります。
+
 # String displayed when a keyboard shortcut is already used by another add-on
 # Variables:
 #   $addon (string) - Name of the add-on
@@ -373,6 +386,11 @@ install-theme-button = テーマをインストール
 # the detailed add-on view is opened, from where the add-on can be managed.
 manage-addon-button = 管理
 find-more-addons = 他のアドオンを検索
+
+# This is a label for the button to open the "more options" menu, it is only
+# used for screen readers.
+addon-options-button =
+    .aria-label = 他のオプション
 
 ## Add-on actions
 report-addon-button = 報告
@@ -451,6 +469,12 @@ install-update-button = 更新
 # badge is the private browsing icon included next to the extension's name.
 addon-badge-private-browsing-allowed =
     .title = プライベート@@Window@@での実行
+
+# This is the tooltip text for the private browsing badge in about:addons. The
+# badge is the private browsing icon included next to the extension's name.
+addon-badge-private-browsing-allowed2 =
+    .title = プライベート@@Window@@での実行
+    .aria-label = { addon-badge-private-browsing-allowed2.title }
 addon-detail-private-browsing-help = 許可した場合、この拡張機能はプライベートブラウジング中であってもユーザーのオンライン行動にアクセスできます。<a data-l10n-name="learn-more">詳細情報</a>
 addon-detail-private-browsing-allow = 許可する
 addon-detail-private-browsing-disallow = 許可しない
@@ -460,6 +484,12 @@ addon-detail-private-browsing-disallow = 許可しない
 addon-badge-recommended =
   .title = おすすめ
   .alt = おすすめ
+
+# This is the tooltip text for the recommended badge for an extension in about:addons. The
+# badge is a small icon displayed next to an extension when it is recommended on AMO.
+addon-badge-recommended2 =
+  .title = { -brand-product-name } は Mozilla が定めた安全性とパフォーマンスの基準に適合する拡張機能のみをおすすめします
+  .aria-label = { addon-badge-recommended2.title }
 
 available-updates-heading = 更新可能
 recent-updates-heading = 最近の更新
