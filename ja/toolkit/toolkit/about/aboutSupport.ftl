@@ -112,6 +112,14 @@ sandbox-sys-call-number = Syscall
 sandbox-sys-call-args = 引数
 safe-mode-title = セーフモードを試す
 restart-in-safe-mode-label = アドオンを無効化して再起動...
+
+## Media titles
+
+audio-backend = 音声バックエンド
+max-audio-channels = 最大チャンネル数
+channel-layout = 優先チャンネルレイアウト
+sample-rate = 優先サンプルレート
+
 media-title = メディア
 media-output-devices-title = 出力デバイス
 media-input-devices-title = 入力デバイス
@@ -124,6 +132,11 @@ media-device-format = 形式
 media-device-channels = チャンネル
 media-device-rate = レート
 media-device-latency = 遅延
+media-capabilities-title = メディア性能
+# List all the entries of the database.
+media-capabilities-enumerate = データベースを列挙
+##
+
 intl-title = 国際化とローカライズ
 intl-app-title = アプリケーションの設定
 intl-locales-requested = 要求されたロケール
@@ -230,11 +243,6 @@ content-uses-tiling = タイリングの使用 (コンテンツ)
 off-main-thread-paint-enabled = メインスレッド外ペイント有効
 off-main-thread-paint-worker-count = メインスレッド外ペイントワーカー数
 target-frame-rate = ターゲットのフレームレート
-
-audio-backend = 音声バックエンド
-max-audio-channels = 最大チャンネル数
-channel-layout = 優先チャンネルレイアウト
-sample-rate = 優先サンプルレート
 
 min-lib-versions = 想定される最低バージョン
 loaded-lib-versions = 使用中のバージョン
