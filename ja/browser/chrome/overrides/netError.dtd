@@ -223,5 +223,9 @@ was trying to connect. -->
 <!ENTITY prefReset.longDesc			"ネットワークセキュリティの設定がこの問題の原因になっている可能性があります。@@DefaultValue@@に戻しますか？">
 <!ENTITY prefReset.label			"@@RestoreDefaults@@">
 
+<!ENTITY enableTls10.longDesc		"このウェブサイトは &brandShortName; の最低サポートバージョンの TLS 1.2 プロトコルをサポートしていない可能性があります。TLS 1.0 と TLS 1.1 を有効にすると、接続できる場合があります。">
+<!ENTITY enableTls10.note		"TLS 1.0 と TLS 1.1 は将来のリリースで永久に無効化される予定です。">
+<!ENTITY enableTls10.label		"TLS 1.0 と TLS 1.1 を有効にする">
+
 <!ENTITY networkProtocolError.title	"ネットワークプロトコルエラー">
 <!ENTITY networkProtocolError.longDesc	"<p>表示しようとしているページは、ネットワークプロトコルにエラーが検出されたため表示できません。</p><ul><li>ウェブサイトの所有者に連絡を取り、この問題を報告してください。</li></ul>">
