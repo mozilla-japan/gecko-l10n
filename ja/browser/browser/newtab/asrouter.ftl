@@ -85,11 +85,50 @@ cfr-whatsnew-button =
 
 cfr-whatsnew-panel-header = 新着情報
 
+cfr-whatsnew-release-notes-link-text = リリースノートをご確認ください
+
+cfr-whatsnew-fx70-title = { -brand-short-name } はあなたのプライバシーのために、今まさに戦っています
+cfr-whatsnew-fx70-body =
+   最新アップデートでは、トラッキング防止機能を強化し、
+   サイトごとの安全なパスワード生成がより簡単にできるようになりました。
+
+cfr-whatsnew-tracking-protect-title = トラッカーから身を守ります
+cfr-whatsnew-tracking-protect-body =
+   { -brand-short-name } はオンラインであなたを追跡する
+   多くの一般的なソーシャルトラッカーとクロスサイトトラッカーをブロックします。
+cfr-whatsnew-tracking-protect-link-text = 報告を確認
+
+# This string is displayed before a large numeral that indicates the total
+# number of tracking elements blocked. Don’t add $blockedCount to your
+# localization, because it would result in the number showing twice.
+cfr-whatsnew-tracking-blocked-title = { $blockedCount }  個のトラッカーをブロックしました
+cfr-whatsnew-tracking-blocked-subtitle =
+   { DATETIME($earliestDate, year: "numeric", month: "numeric") } から
+cfr-whatsnew-tracking-blocked-link-text = 報告を確認
+
+cfr-whatsnew-lockwise-backup-title = パスワードをバックアップ
+cfr-whatsnew-lockwise-backup-body =
+   ログインすればどの端末でも使える安全なパスワードを生成できます。
+cfr-whatsnew-lockwise-backup-link-text = バックアップをオンにする
+
+cfr-whatsnew-lockwise-take-title = パスワードもご一緒に
+cfr-whatsnew-lockwise-take-body =
+   { -lockwise-brand-short-name } アプリで、どの端末からでも
+   バックアップしたパスワードに安全にアクセスできます。
+cfr-whatsnew-lockwise-take-link-text = アプリを入手
+
 ## Bookmark Sync
 
 cfr-doorhanger-sync-bookmarks-header = このブックマークを携帯電話で使う
 cfr-doorhanger-sync-bookmarks-body = ブックマーク、パスワード、履歴などが { -brand-product-name } にログインしたどの端末でも使えます。
 cfr-doorhanger-sync-bookmarks-ok-button = { -sync-brand-short-name } をオンにする
+  .accesskey = T
+
+## Login Sync
+
+cfr-doorhanger-sync-logins-header = 二度とパスワードを忘れないように
+cfr-doorhanger-sync-logins-body = パスワードを安全に保存して、あなたのすべての端末に共有できます。
+cfr-doorhanger-sync-logins-ok-button = { -sync-brand-short-name } をオンにする
   .accesskey = T
 
 ## Send Tab
@@ -106,3 +145,16 @@ cfr-doorhanger-firefox-send-header = この PDF を安全に共有する
 cfr-doorhanger-firefox-send-body = エンドツーエンド暗号化と自動消滅リンクで、機密文書を安全に共有できます。
 cfr-doorhanger-firefox-send-ok-button = { -send-brand-name } を試してみる
   .accesskey = T
+
+## Social Tracking Protection
+
+cfr-doorhanger-socialtracking-ok-button = トラッキング防止機能を確認
+  .accesskey = P
+cfr-doorhanger-socialtracking-close-button = 閉じる
+  .accesskey = C
+cfr-doorhanger-socialtracking-heading = { -brand-short-name } はソーシャルネットワークからの追跡を停止させました
+cfr-doorhanger-socialtracking-description = プライバシーは重要です。{ -brand-short-name } は一般的なソーシャルメディアトラッカーをブロックしました。オンラインでのあなたの行動を収集できるデータ量を制限しています。
+cfr-doorhanger-fingerprinters-heading = { -brand-short-name } はこのページのフィンガープリント採取をブロックしました
+cfr-doorhanger-fingerprinters-description = プライバシーは重要です。{ -brand-short-name } はあなたを追跡するために端末から一意に識別可能な情報を収集する、フィンガープリント採取をブロックしました。
+cfr-doorhanger-cryptominers-heading = { -brand-short-name } はこのページの暗号通貨マイニングをブロックしました
+cfr-doorhanger-cryptominers-description = プライバシーは重要です。{ -brand-short-name } は暗号通貨の採掘のためにあなたのシステムの計算リソースを利用する、暗号通貨マイニングをブロックしました。

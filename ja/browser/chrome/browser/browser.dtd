@@ -76,12 +76,21 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY menubarCmd.label		"メニューバー">
 <!ENTITY menubarCmd.accesskey		"M">
 <!ENTITY navbarCmd.label		"ナビゲーションツールバー">
+<!-- LOCALIZATION NOTE: The accessibleLabel is a spoken label that should not
+include the word "toolbar" or such, because screen readers already know that
+this container is a toolbar. This avoids double-speaking. -->
+<!ENTITY navbar.accessibleLabel		"ナビゲーション">
 <!ENTITY personalbarCmd.label		"ブックマークツールバー">
 <!ENTITY personalbarCmd.accesskey	"B">
+<!-- LOCALIZATION NOTE: The accessibleLabel is a spoken label that should not
+include the word "toolbar" or such, because screen readers already know that
+this container is a toolbar. This avoids double-speaking. -->
+<!ENTITY personalbar.accessibleLabel	"ブックマーク">
 <!ENTITY bookmarksToolbarItem.label	"ブックマークツールバーの項目">
 
 <!ENTITY pageSourceCmd.label		"ページのソース">
 <!ENTITY pageSourceCmd.accesskey	"o">
+
 <!ENTITY pageSourceCmd.commandkey	"u">
 <!-- LOCALIZATION NOTE (pageSourceCmd.SafariCommandKey should match the
 Option+Command keyboard shortcut letter that Safari and Chrome use for "View
@@ -92,6 +101,7 @@ convenience of Safari and Chrome users on macOS. See bug 1398988. -->
 
 <!ENTITY pageInfoCmd.label		"ページの情報">
 <!ENTITY pageInfoCmd.accesskey		"I">
+
 <!ENTITY pageInfoCmd.commandkey		"i">
 <!ENTITY ldbCmd.label			"レイアウトデバッガー">
 <!ENTITY ldbCmd.accesskey		"L">
@@ -116,6 +126,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignInError.label		"&syncBrand.shortName.label; に再接続">
 <!ENTITY fxaUnverified.label		"アカウントを認証">
 
+
+<!ENTITY togglePictureInPicture.key2	"}">
+<!ENTITY togglePictureInPicture.key	"]"> <!-- } is above this key on many keyboards -->
 
 <!ENTITY fullScreenMinimize.tooltip	"@@Minimize@@">
 <!ENTITY fullScreenRestore.tooltip	"元に戻す">
@@ -146,13 +159,24 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxa.menu.signedInAs.label		"ログインするアカウント">
 <!ENTITY fxa.menu.manageAccount.label		"アカウントを管理...">
 <!ENTITY fxa.menu.syncSettings.label		"&syncBrand.shortName.label; の設定...">
+
+<!-- LOCALIZATION NOTE (fxa.menu) Used to define the different labels
+     for the Firefox Account toolbar menu screen. The `Signed in as` text is
+     followed by the user's email. -->
+<!ENTITY fxa.menu.syncSettings2.label		"&syncBrand.shortName.label; の設定">
 <!ENTITY fxa.menu.connectAnotherDevice2.label	"別の端末を接続...">
 <!ENTITY fxa.menu.firefoxAccount		"&syncBrand.fxAccount.label;">
 
 <!ENTITY fxa.menu.signin.label			"&brandProductName; にログイン">
 <!ENTITY fxa.menu.turnOnSync.label		"&syncBrand.shortName.label; をオンにする">
-<!ENTITY fxa.menu.account.label			"アカウント">
 <!ENTITY fxa.menu.firefoxServices.label		"&brandProductName; サービス">
+
+<!ENTITY fxa.menu.account.label			"アカウント">
+<!ENTITY fxa.menu.settings.label		"設定">
+<!ENTITY fxa.menu.accountSettings.label		"アカウントの設定">
+<!ENTITY fxa.menu.signOut.label			"ログアウト...">
+<!ENTITY fxa.menu.deviceSettings.label		"端末の設定">
+<!ENTITY fxa.menu.setupSync.label		"&syncBrand.shortName.label; をセットアップ...">
 
 <!-- LOCALIZATION NOTE (fxa.service) Used to define the different FxA services
      for the Firefox Account toolbar menu screen.  -->
@@ -195,6 +219,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenu.label			"ブックマーク">
 <!ENTITY bookmarksMenu.accesskey		"B">
+
 <!ENTITY bookmarkThisPageCmd.label		"このページをブックマーク">
 <!ENTITY editThisBookmarkCmd.label		"このブックマークを編集">
 <!ENTITY bookmarkThisPageCmd.commandkey		"d">
@@ -236,6 +261,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip		"使用するプラグインを管理します">
 <!ENTITY urlbar.webNotificationAnchor.tooltip			"サイトからの通知の設定を変更します">
 <!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip	"データを永続ストレージに格納します">
+
 <!ENTITY urlbar.remoteControlNotificationAnchor.tooltip		"ブラウザーがリモート制御下にあります">
 <!ENTITY urlbar.webAuthnAnchor.tooltip				"Web Authentication パネルを開きます">
 <!ENTITY urlbar.storageAccessAnchor.tooltip			"行動追跡の許可設定パネルを開きます">
@@ -249,6 +275,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.translatedNotificationAnchor.tooltip	"ページ翻訳を管理します">
 <!ENTITY urlbar.emeNotificationAnchor.tooltip		"DRM ソフトウェアを管理します">
 <!ENTITY urlbar.midiNotificationAnchor.tooltip		"MIDI パネルを開きます">
+
+<!ENTITY urlbar.permissionsGranted.tooltip		"このウェブサイトで追加の権限を許可しました。">
 
 <!ENTITY urlbar.cameraBlocked.tooltip			"このウェブサイトでのカメラの共有をブロックしました。">
 <!ENTITY urlbar.microphoneBlocked.tooltip		"このウェブサイトでのマイクの共有をブロックしました。">
@@ -419,8 +447,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.noclients.subtitle	"他の端末のタブを表示しますか？">
 <!ENTITY appMenuRemoteTabs.opensyncprefs.label	"Sync の設定を開く">
 <!ENTITY appMenuRemoteTabs.notsignedin.label	"ログインして、他の端末のタブ一覧を表示する。">
+<!ENTITY appMenuRemoteTabs.welcome.label	"他の端末のタブ一覧を表示する。">
 <!ENTITY appMenuRemoteTabs.unverified.label	"あなたのアカウントは検証する必要があります。">
 <!ENTITY appMenuRemoteTabs.signin.label		"Sync にログイン">
+<!ENTITY appMenuRemoteTabs.signintosync.label	"&syncBrand.shortName.label; にログイン...">
+<!ENTITY appMenuRemoteTabs.turnonsync.label	"&syncBrand.shortName.label; をオンにする...">
 <!ENTITY appMenuRemoteTabs.managedevices.label	"端末の管理...">
 <!ENTITY appMenuRemoteTabs.sidebar.label	"同期タブサイドバーを表示">
 <!ENTITY appMenuRemoteTabs.hidesidebar.label	"同期タブサイドバーを隠す">
@@ -508,6 +539,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      This is set as the aria-label attribute for the search input box in the
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label	"検索クエリー">
+
 <!ENTITY contentSearchSubmit.tooltip	"検索を実行します">
 
 <!-- LOCALIZATION NOTE (searchInput.placeholder):
@@ -812,13 +844,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.connection			"接続">
 <!ENTITY identity.connectionSecure		"安全な接続">
-
-<!-- LOCALIZATION NOTE (identity.securityView.label2)
-     This is the header of the security subview in the Site Identity panel. -->
-<!ENTITY identity.securityView.label2		"接続の安全性">
-
-<!ENTITY identity.connectionSecure2		"安全な接続">
 <!ENTITY identity.connectionNotSecure		"この接続は安全ではありません">
+
+<!ENTITY identity.connectionSecure3		"安全な接続">
+<!ENTITY identity.connectionNotSecure2		"安全ではない接続">
 <!ENTITY identity.connectionNotSecureSecurityView	"このサイトとの接続は安全ではありません。">
 <!ENTITY identity.connectionFile		"これはあなたのコンピューターに保存されているページです。">
 <!ENTITY identity.connectionVerified2		"このサイトとの接続は安全です。このサイトの運営者:">
@@ -828,7 +857,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.insecureLoginForms2		"このページのログインフォームは安全ではありません。">
 <!ENTITY identity.customRoot			"Mozilla が承認していない発行者の証明書で検証された接続です。">
 
-<!ENTITY identity.evOwnerLabel			"このサイトの運営者:">
+<!ENTITY identity.evOwnerLabel2			"証明書の発行先:">
 
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked			"このページの一部が安全でないため &brandShortName; がブロックしました。">
@@ -864,8 +893,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.permissions			"サイト別設定">
 
-<!-- LOCALIZATION NOTE (identity.permissions2): "set" as in "configured for this website" -->
-<!ENTITY identity.permissions2			"このサイトの設定">
+<!ENTITY identity.permissions3			"このサイトの設定">
 <!ENTITY identity.permissionsEmpty		"このサイトに特別な権限は設定されていません。">
 <!ENTITY identity.permissionsReloadHint		"変更内容を適用するには、ページの再読み込みが必要です。">
 <!ENTITY identity.permissionsPreferences.tooltip	"サイト別設定を開きます">
@@ -878,7 +906,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      protections.etpMoreInfo.label: The text a screen reader speaks when focused on the info button. -->
 <!ENTITY protections.etpMoreInfo.label				"強化型トラッキング防止機能についての詳細情報">
 <!ENTITY protections.settings.label				"保護設定">
-<!ENTITY protections.report.label				"すべての報告を表示">
+<!ENTITY protections.showreport.label				"報告を表示">
 <!-- LOCALIZATION NOTE:
      protections.siteNotWorking.label: The link to be clicked to open the sub-panel view
      protections.siteNotWorkingView.title: The heading/title of the sub-panel view -->
@@ -895,11 +923,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY protections.siteNotWorkingView.issueList.payments	"支払い情報">
 <!ENTITY protections.siteNotWorkingView.issueList.comments	"コメント">
 <!ENTITY protections.siteNotWorkingView.issueList.videos	"動画">
-<!ENTITY protections.siteNotWorkingView.siteStillBroken.label	"保護をオフにしてもサイトが動作しないですか？">
 <!ENTITY protections.siteNotWorkingView.sendReport.label	"報告を送信">
 
-<!ENTITY protections.blocking.label				"ブロック中">
-<!ENTITY protections.notBlocking.label				"未ブロック">
+<!-- LOCALIZATION NOTE (protections.blocking2.label, protections.notBlocking2.label, protections.notFound.label):
+     In the protections panel, Content Blocking category items are in three sections:
+     "Blocked" for categories being blocked in the current page,
+     "Allowed" for categories detected but not blocked in the current page, and
+     "None Detected" for categories not detected in the current page.
+     These strings are used in the header labels of each of these sections. -->
+<!ENTITY protections.blocking2.label				"ブロック済み">
+<!ENTITY protections.notBlocking2.label				"許可済み">
+<!ENTITY protections.notFound.label				"検出されませんでした">
+<!-- LOCALIZATION NOTE (protections.notBlocking.why.label, protections.notBlocking.why.etp*.tooltip):
+     The "Allowed" header also includes a "Why?" link that, when hovered, shows
+     a tooltip explaining why these items were not blocked in the page. -->
 <!ENTITY protections.notBlocking.why.label			"状態について">
 <!ENTITY protections.notBlocking.why.etpOn.tooltip		"これらをブロックすると、一部のウェブサイトの一部のボタン、フォーム、ログインフォームといった要素が動作しなくなる可能性があります。">
 <!ENTITY protections.notBlocking.why.etpOff.tooltip		"保護をオフにすると、このサイトのトラッカーをすべて許容します。一部のウェブサイトの動作が改善される場合があります。">
@@ -913,7 +950,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY protections.crossSiteTrackingCookies.description	"これらの Cookie はオンラインでのあなたの行動に関するデータを集めるために、サイトからサイトへと追跡します。これは広告会社や調査会社といったサードパーティにより設置されています。">
 <!ENTITY protections.cryptominers.description			"暗号通貨マイニングは仮想通貨の採掘のために、あなたのシステムの計算リソースを利用します。暗号通貨マイニングスクリプトはあなたのバッテリーを消費し、コンピューターを遅くさせ、電気代を増やさせる可能性があります。">
 <!ENTITY protections.fingerprinters.description			"フィンガープリント採取はブラウザーとコンピューターから設定を集め、あなたのデジタル指紋を作成します。このデジタル指紋を使うと、様々なウェブサイトにまたがってあなたを追跡することができます。">
-<!ENTITY protections.trackingContent.description		"ウェブサイトはトラッキングコードが含まれる広告、動画、その他のコンテンツを外部から読み込む場合があります。トラッキングコンテンツをブロックするとサイトの読み込みが速くなる可能性がありますが、一部のボタン、フォーム、ログインフォームが動作しなくなる可能性もあります。">
+<!ENTITY protections.trackingContent2.description		"ウェブサイトはトラッキングコード付きの広告、動画、その他のコンテンツを外部から読み込む場合があります。トラッキングコンテンツをブロックするとサイトの読み込みが速くなる可能性がありますが、一部のボタン、フォーム、ログインフォームが動作しなくなる可能性もあります。">
 <!ENTITY protections.socialMediaTrackers.description		"ソーシャルネットワークはオンラインでのあなたの行動を追跡、監視するために、他のウェブサイトにトラッカーを設置しています。これはソーシャルメディア上のあなたのプロフィールで共有している以上の情報を、ソーシャルメディア会社に許容することになります。">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
@@ -953,18 +990,18 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.trackingProtection3.label		"トラッカー">
 
 <!ENTITY contentBlocking.manageSettings.label			"コンテンツブロッキングを管理">
-
-<!ENTITY contentBlocking.trackingProtection4.label		"トラッキングコンテンツ">
-
-<!ENTITY contentBlocking.manageSettings2.label			"保護設定を管理">
 <!ENTITY contentBlocking.manageSettings.accesskey		"M">
 
 <!ENTITY contentBlocking.trackersView.label			"トラッカー">
-
 <!ENTITY contentBlocking.trackersView.strictInfo.label		"トラッカーをすべてブロックするには、コンテンツブロッキングの設定を “厳格” にします。">
 
 <!ENTITY contentBlocking.cookies.label				"Cookie">
 <!ENTITY contentBlocking.cookiesView.label			"Cookie とサイトデータ">
+
+<!ENTITY contentBlocking.trackingProtection4.label		"トラッキングコンテンツ">
+
+<!ENTITY contentBlocking.manageSettings2.label			"保護設定を管理">
+<!ENTITY contentBlocking.manageSettings2.accesskey		"M">
 
 <!ENTITY contentBlocking.socialblock.label			"ソーシャルメディアトラッカー">
 
@@ -980,6 +1017,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.breakageReportView.label			"問題を報告">
 <!ENTITY contentBlocking.breakageReportView2.description		"コンテンツブロッキングは一部のウェブサイトで問題になる場合があります。問題を報告すると、&brandShortName; のすべてのユーザーの助けになります。(URL に加えてブラウザの設定も Mozilla に送信されます。)">
 <!ENTITY contentBlocking.breakageReportView.learnMore			"詳細">
+
 <!ENTITY contentBlocking.breakageReportView.title			"動作しないサイトを報告">
 <!ENTITY contentBlocking.breakageReportView3.description		"特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、&brandShortName; を改善する手助けになります。報告とともに URL とあなたのブラウザーの設定に関する情報が Mozilla に送信されます。">
 <!ENTITY contentBlocking.breakageReportView2.learnMore			"詳細">
@@ -1035,6 +1073,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY newTabControlled.disableButton.accesskey	"D">
 
 <!ENTITY homepageControlled.message			"拡張機能がホームページを変更しています。この変更が望ましくない場合は、設定を元に戻すことができます。">
+
 <!ENTITY homepageControlled.header.message		"ホームページが変更されました。">
 <!ENTITY homepageControlled.keepButton.label		"変更を維持する">
 <!ENTITY homepageControlled.keepButton.accesskey	"K">
