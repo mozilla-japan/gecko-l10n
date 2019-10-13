@@ -89,7 +89,7 @@ manifest-view-header = アプリマニフェスト
 
 # Header for the Manifest page when there's no manifest to inspect
 # The link will open https://developer.mozilla.org/en-US/docs/Web/Manifest
-manifest-empty-intro = ウェブアプリマニフェストを追加すると、ここで検査できます。<a>詳細</a>
+manifest-empty-intro = ウェブアプリマニフェストを追加し、ここで検査する必要があります。<a>詳細</a>
 
 # Header for the Errors and Warnings section of Manifest inspection displayed in the application panel.
 manifest-item-warnings = エラーと警告
@@ -110,10 +110,10 @@ manifest-loading = マニフェストを読み込み中...
 manifest-loaded-ok = マニフェストを読み込みました。
 
 # Text displayed when there has been an error while trying to load the manifest
-manifest-loaded-error = マニフェストを読み込み中にエラーがありました:
+manifest-loaded-error = マニフェストの読み込み中にエラーが発生しました:
 
 # Text displayed when the page has no manifest available
-manifest-non-existing = 検査できるマニフェストがありませんでした。
+manifest-non-existing = マニフェストが見つからないため検査できませんでした。
 
 # Text displayed when the page has a manifest embedded in a Data URL and
 # thus we cannot link to it.
