@@ -218,7 +218,7 @@ about-debugging-runtime-profile-button2 = プロファイルパフォーマン�
 about-debugging-runtime-service-workers-not-compatible = このブラウザーの設定は Service Worker と互換性がありません。<a>詳細</a>
 
 # This string is displayed in the runtime page if the remote browser version is too old.
-# "Troubleshooting" link points to https://developer.mozilla.org/docs/Tools/WebIDE/Troubleshooting
+# "Troubleshooting" link points to https://developer.mozilla.org/docs/Tools/about:debugging#Troubleshooting
 # { $runtimeVersion } is the version of the remote browser (for instance "67.0a1")
 # { $minVersion } is the minimum version that is compatible with the current Firefox instance (same format)
 about-debugging-browser-version-too-old = 接続したブラウザーのバージョン ({ $runtimeVersion }) が古いです。サポートされている最低バージョンは ({ $minVersion }) です。この組み合わせはサポートされてないため、開発ツールでエラーが発生する可能性があります。接続ブラウザーを更新してください。<a>トラブルシューティング</a>
@@ -232,7 +232,7 @@ about-debugging-browser-version-too-old = 接続したブラウザーのバー�
 about-debugging-browser-version-too-old-67-debugger = 接続したブラウザーではデバッガーパネルが動作しないようです。このブラウザーでデバッガーを利用したい場合は、 Firefox { $runtimeVersion } を使用してください。
 
 # This string is displayed in the runtime page if the remote browser version is too recent.
-# "Troubleshooting" link points to https://developer.mozilla.org/en-US/docs/Tools/WebIDE/Troubleshooting
+# "Troubleshooting" link points to https://developer.mozilla.org/docs/Tools/about:debugging#Troubleshooting
 # { $runtimeID } is the build ID of the remote browser (for instance "20181231", format is yyyyMMdd)
 # { $localID } is the build ID of the current Firefox instance (same format)
 # { $runtimeVersion } is the version of the remote browser (for instance "67.0a1")
@@ -323,10 +323,21 @@ about-debugging-extension-id =
 # to a service worker.
 # Notes, this relates to the "Push" API, which is normally not localized so it is
 # probably better to not localize it.
-about-debugging-worker-action-push = Push
+about-debugging-worker-action-push = プッシュ通知
 
 # This string is displayed as a label of the button that starts a service worker.
 about-debugging-worker-action-start = 開始
+
+# This string is displayed as a label of the button that pushes a test payload
+# to a service worker.
+# Note this relates to the "Push" API, which is normally not localized so it is
+# probably better to not localize it.
+about-debugging-worker-action-push2 = プッシュ通知
+  .disabledTitle = Service Worker プッシュ通知はマルチプロセス { -brand-shorter-name } のため、現在は無効です。
+
+# This string is displayed as a label of the button that starts a service worker.
+about-debugging-worker-action-start2 = 開始
+  .disabledTitle = Service Worker の開始はマルチプロセス { -brand-shorter-name } のため、現在は無効です。
 
 # This string is displayed as a label of the button that unregisters a service worker.
 about-debugging-worker-action-unregister = 解除
@@ -358,7 +369,11 @@ about-debugging-worker-scope =
 # Displayed for service workers in runtime pages, to label the push service endpoint (url)
 # of a worker
 about-debugging-worker-push-service =
-  .label = Push Service
+  .label = プッシュサービス
+
+# Displayed as title of the inspect button when service worker debugging is disabled.
+about-debugging-worker-inspect-action-disabled =
+  .title = Service Worker の調査はマルチプロセス { -brand-shorter-name } のため、現在は無効です。
 
 # Displayed as name for the Main Process debug target in the Processes category. Only for
 # remote runtimes, if `devtools.aboutdebugging.process-debugging` is true.

@@ -8,6 +8,8 @@ accessibility-learn-more = 詳細
 
 accessibility-text-label-header = テキストラベルと名前
 
+accessibility-keyboard-header = キーボード
+
 ## Text entries that are used as text alternative for icons that depict accessibility isses.
 
 accessibility-warning =
@@ -62,3 +64,19 @@ accessibility-text-label-issue-optgroup-label = <code>label</code> 属性を使�
 accessibility-text-label-issue-optgroup-label2 = <code>label</code> 属性を使って <span>optgroup</span> にラベルをつけてください。<a>詳細</a>
 
 accessibility-text-label-issue-toolbar = 複数のツールバーがある場合は、ラベルをつける必要があります。<a>詳細</a>
+
+## Text entries for a paragraph used in the accessibility panel sidebar's checks section
+## that describe that currently selected accessible object has a keyboard accessibility
+## issue.
+
+accessibility-keyboard-issue-semantics = フォーカス可能な要素は、対話的なセマンティクスを持つべきです。<a>詳細</a>
+
+accessibility-keyboard-issue-tabindex = <code>tabindex</code> 属性に 0 より大きい値を指定することは避けてください。<a>詳細</a>
+
+accessibility-keyboard-issue-action = インタラクティブな要素はキーボード操作でアクティブにできるようにする必要があります。<a>詳細</a>
+
+accessibility-keyboard-issue-focusable = インタラクティブな要素はフォーカス可能にする必要があります。<a>詳細</a>
+
+accessibility-keyboard-issue-focus-visible = フォーカス可能な要素にフォーカス時のスタイル付けが足りない可能性があります。<a>詳細</a>
+
+accessibility-keyboard-issue-mouse-only = クリック可能な要素は、フォーカス可能かつ対話的なセマンティクスを持つべきです。<a>詳細</a>
