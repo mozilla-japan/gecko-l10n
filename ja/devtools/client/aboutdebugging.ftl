@@ -277,7 +277,7 @@ about-debugging-debug-target-inspect-button = 調査
 
 # Text of a button displayed in the "This Firefox" page, in the Temporary Extension
 # section. Clicking on the button will open a file picker to load a temporary extension
-about-debugging-tmp-extension-install-button = 一時的なアドオンの読み込み中...
+about-debugging-tmp-extension-install-button = 一時的なアドオンを読み込む...
 
 # Text displayed when trying to install a temporary extension in the "This Firefox" page.
 about-debugging-tmp-extension-install-error = 一時的なアドオンのインストールでエラーがありました。
