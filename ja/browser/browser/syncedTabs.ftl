@@ -36,4 +36,7 @@ synced-tabs-context-open-all-in-tabs =
 synced-tabs-context-manage-devices =
     .label = 端末の管理...
     .accesskey = D
+synced-tabs-context-sync-now =
+    .label = 今すぐ同期
+    .accesskey = S
 fxa-sign-in = { -sync-brand-short-name } にログイン
