@@ -47,6 +47,28 @@ urlbar-persistent-storage-notification-anchor =
     .tooltiptext = データを永続ストレージに格納します
 urlbar-addons-notification-anchor =
     .tooltiptext = アドオンのインストールのメッセージパネルを開きます
+urlbar-geolocation-blocked =
+    .tooltiptext = このウェブサイトでの位置情報の共有をブロックしました。
+urlbar-web-notifications-blocked =
+    .tooltiptext = このウェブサイトからの通知をブロックしました。
+urlbar-camera-blocked =
+    .tooltiptext = このウェブサイトでのカメラの共有をブロックしました。
+urlbar-microphone-blocked =
+    .tooltiptext = このウェブサイトでのマイクの共有をブロックしました。
+urlbar-screen-blocked =
+    .tooltiptext = このウェブサイトでの画面の共有をブロックしました。
+urlbar-persistent-storage-blocked =
+    .tooltiptext = このウェブサイトの永続ストレージの使用をブロックしました。
+urlbar-popup-blocked =
+    .tooltiptext = このウェブサイトのポップアップをブロックしました。
+urlbar-autoplay-media-blocked =
+    .tooltiptext = このウェブサイトの音声付きメディアの自動再生をブロックしました。
+urlbar-canvas-blocked =
+    .tooltiptext = このウェブサイトの Canvas データの抽出をブロックしました。
+urlbar-midi-blocked =
+    .tooltiptext = このウェブサイトの MIDI へのアクセスをブロックしました。
+urlbar-install-blocked =
+    .tooltiptext = このウェブサイトのアドオンのインストールをブロックしました。
 
 ## Page Action Context Menu
 
