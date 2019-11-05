@@ -24,6 +24,7 @@
 
 <!ENTITY  generalTab            "一般">
 <!ENTITY  generalTab.accesskey  "G">
+<!ENTITY  generalTitle          "タイトル:">
 <!ENTITY  generalURL            "アドレス:">
 <!ENTITY  generalType           "MIME タイプ:">
 <!ENTITY  generalMode           "描画モード:">
@@ -61,8 +62,10 @@
 <!ENTITY  mediaTab              "メディア">
 <!ENTITY  mediaTab.accesskey    "M">
 <!ENTITY  mediaURL              "アドレス:">
-<!ENTITY  mediaAlt              "関連テキスト:">
-<!ENTITY  mediaAltHeader        "関連テキスト">
+<!ENTITY  mediaAlt              "代替テキスト:">
+<!ENTITY  mediaLocation         "URL:">
+<!ENTITY  mediaText             "関連テキスト:">
+<!ENTITY  mediaAltHeader        "代替テキスト">
 <!ENTITY  mediaAddress          "アドレス">
 <!ENTITY  mediaType             "種類">
 <!ENTITY  mediaSize             "サイズ">
@@ -70,6 +73,7 @@
 <!ENTITY  mediaDimensions       "指定された寸法:">
 <!ENTITY  mediaPhysDimensions   "実寸:">
 <!ENTITY  mediaTitle            "タイトル属性:">
+<!ENTITY  mediaDimension        "寸法:">
 <!ENTITY  mediaLongdesc         "詳しい説明:">
 <!ENTITY  mediaBlockImage.accesskey "B">
 <!ENTITY  mediaSaveAs           "@@SaveAs@@...">
@@ -109,6 +113,8 @@
 <!ENTITY  securityView.identity.owner    "運営者:">
 <!ENTITY  securityView.identity.domain   "ウェブサイト:">
 <!ENTITY  securityView.identity.verifier "認証局:">
+
+<!ENTITY  securityView.identity.validity "有効期限:">
 
 <!ENTITY  securityView.privacy.header                   "プライバシーと履歴">
 <!ENTITY  securityView.privacy.history                  "昨日までに何回このサイトを訪問したことがあるか？">
