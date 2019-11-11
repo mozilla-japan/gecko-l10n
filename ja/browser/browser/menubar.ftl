@@ -281,3 +281,6 @@ menu-help-safe-mode-with-addons =
 menu-help-report-deceptive-site =
     .label = 詐欺サイトを報告...
     .accesskey = D
+menu-help-not-deceptive =
+    .label = 詐欺サイトの誤報告を指摘...
+    .accesskey = d
