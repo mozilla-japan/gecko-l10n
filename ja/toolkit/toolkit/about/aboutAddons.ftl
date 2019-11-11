@@ -187,6 +187,13 @@ extensions-warning-update-security-container =
 extensions-warning-update-security-enable =
     .label = 有効化
     .tooltiptext = アドオンの更新のセキュリティ確認を有効化します
+extensions-warning-safe-mode = セーフモードによりすべてのアドオンが無効化されています。
+extensions-warning-check-compatibility = アドオンの互換性確認は無効化されています。互換性のないアドオンがインストールされています。
+extensions-warning-check-compatibility-button = 有効化
+    .title = アドオンの互換性の確認を有効化します
+extensions-warning-update-security = 更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。
+extensions-warning-update-security-button = 有効化
+    .title = アドオンの更新のセキュリティ確認を有効化します
 
 ## Strings connected to add-on updates
 
