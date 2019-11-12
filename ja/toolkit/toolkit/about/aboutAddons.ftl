@@ -341,6 +341,8 @@ addon-options-button =
 
 report-addon-button = 報告
 remove-addon-button = 削除
+# The link will always be shown after the other text.
+remove-addon-disabled-button = 削除できない <a data-l10n-name="link">その理由は？</a>
 disable-addon-button = 無効化
 enable-addon-button = 有効化
 expand-addon-button = 他のオプション
@@ -438,6 +440,7 @@ theme-heading = テーマの管理
 plugin-heading = プラグインの管理
 dictionary-heading = スペルチェック辞書の管理
 locale-heading = 言語パックの管理
+updates-heading = 更新の管理
 discover-heading = { -brand-short-name } のパーソナライズ
 shortcuts-heading = 拡張機能のショートカットキーの管理
 theme-heading-search-label = テーマを探す

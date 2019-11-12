@@ -2,6 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localized string used as the dialog window title (a new behavior locked
+# behind the "extensions.abuseReport.openDialog" preference).
+# "Report" is a noun in this case, "Report for AddonName".
+#
+# Variables:
+#   $addon-name (string) - Name of the add-on being reported
+abuse-report-dialog-title = { $addon-name } を報告
+
 abuse-report-title-extension = この拡張機能を { -vendor-short-name } に報告
 abuse-report-title-theme = このテーマを { -vendor-short-name } に報告
 abuse-report-subtitle = どのような問題ですか？
@@ -53,21 +61,32 @@ abuse-report-messagebar-action-cancel = キャンセル
 ## Abuse report reasons (optionally paired with related examples and/or suggestions)
 
 abuse-report-damage-reason = コンピューターとデータに損害を与える
+
+abuse-report-damage-reason-v2 = コンピューターに損害を与えた、または個人データを漏洩させた
 abuse-report-damage-example = 例: マルウェアを忍び込ませたりデータを盗んだりする
 
 abuse-report-spam-reason = スパムや広告を発信する
+
+abuse-report-spam-reason-v2 = スパムを含む、または不要な広告を挿入した
 abuse-report-spam-example = 例: ウェブページに広告を挿入する
 
 abuse-report-settings-reason = ユーザーに確認せずに検索エンジンやホームページ、@@NewTab@@の設定を変更する
+
+abuse-report-settings-reason-v2 = ユーザーに確認せずに検索エンジンやホームページ、@@NewTab@@の設定を変更した
 abuse-report-settings-suggestions = 拡張機能を報告する前に設定を変更してみてください:
 abuse-report-settings-suggestions-search = @@Default-@@検索設定を変更する
 abuse-report-settings-suggestions-homepage = ホームページと@@NewTab@@の設定を変更する
 
 abuse-report-deceptive-reason = 説明とは違うものに偽装する
+
+abuse-report-deceptive-reason-v2 = 説明とは違うものだった
 abuse-report-deceptive-example = 例: 実際の動作とは違う説明やイメージ
 
 abuse-report-broken-reason-extension = 動作しない、ウェブサイトの表示を崩す、{ -brand-product-name } の動作を遅くする
 abuse-report-broken-reason-theme = 動作しない、またはブラウザーの表示が崩れる
+
+abuse-report-broken-reason-extension-v2 = 動作しない、ウェブサイトの表示を崩す、{ -brand-product-name } の動作を遅くする
+abuse-report-broken-reason-theme-v2 = 動作しない、またはブラウザーの表示を崩す
 abuse-report-broken-example = 例: 機能の動作が遅い、使うのが困難、まったく動作しない、ウェブサイトの一部が読み込まれない、または表示が異常
 abuse-report-broken-suggestions-extension =
   拡張機能のバグを見つけたのかもしれません。ここに報告するのもよいですが、動作の問題を解決する最善の方法は、拡張機能の開発者に問い合わせることです。
@@ -77,11 +96,15 @@ abuse-report-broken-suggestions-theme =
   作者の情報を得るには、<a data-l10n-name="support-link">そのテーマのウェブサイト</a> を訪れてください。
 
 abuse-report-policy-reason = 不愉快または暴力的、違法なコンテンツ
+
+abuse-report-policy-reason-v2 = 不愉快または暴力的、違法なコンテンツを含む
 abuse-report-policy-suggestions =
   注意: 著作権や商標の問題は別のプロセスで報告してください。
   <a data-l10n-name="report-infringement-link">こちらの説明に従って問題を報告</a> してください。
 
 abuse-report-unwanted-reason = 不要な拡張機能なのに削除できない
+
+abuse-report-unwanted-reason-v2 = 不要なのに削除の方法が分からない
 abuse-report-unwanted-example = 例: 別の@@Application@@がユーザーの許可なくインストールした
 
 abuse-report-other-reason = その他
