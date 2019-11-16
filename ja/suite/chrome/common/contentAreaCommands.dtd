@@ -53,6 +53,8 @@
 <!ENTITY reloadImageCmd.accesskey	"R">
 <!ENTITY viewImageCmd.label		"画像を表示">
 <!ENTITY viewImageCmd.accesskey		"I">
+<!ENTITY viewImageInfoCmd.label		"画像の情報を表示">
+<!ENTITY viewImageInfoCmd.accesskey	"f">
 <!ENTITY viewVideoCmd.label		"動画を表示">
 <!ENTITY viewVideoCmd.accesskey		"i">
 <!ENTITY viewBGImageCmd.label		"背景画像を表示">
@@ -153,6 +155,16 @@ items are mutually exclusive. -->
 <!ENTITY spellDictionaries.accesskey	"L">
 <!ENTITY spellAddDictionaries.label	"他の辞書をダウンロード...">
 <!ENTITY spellAddDictionaries.accesskey	"D">
+
+<!ENTITY fillLoginMenu.label		"ログイン情報を入力">
+<!ENTITY fillLoginMenu.accesskey	"F">
+<!ENTITY fillPasswordMenu.label		"パスワードを入力">
+<!ENTITY fillPasswordMenu.accesskey	"F">
+<!ENTITY fillUsernameMenu.label		"ユーザー名を入力">
+<!ENTITY fillUsernameMenu.accesskey	"F">
+<!ENTITY noLoginSuggestions.label	"(ログイン情報の候補なし)">
+<!ENTITY viewSavedLogins.label		"保存されたログイン情報を表示">
+
 <!-- Developer Tools -->
 <!ENTITY devtoolsInspect.label		"要素を調査">
 <!ENTITY devtoolsInspect.accesskey	"n">
