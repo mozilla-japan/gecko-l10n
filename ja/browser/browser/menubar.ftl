@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## File Menu
 
 menu-file =
@@ -212,11 +211,20 @@ menu-tools-addons =
 menu-tools-sync-sign-in =
     .label = { -sync-brand-short-name } にログイン...
     .accesskey = Y
+menu-tools-fxa-sign-in =
+    .label = { -brand-product-name } にログイン...
+    .accesskey = g
+menu-tools-turn-on-sync =
+    .label = { -sync-brand-short-name } をオンにする...
+    .accesskey = n
 menu-tools-sync-now =
     .label = 今すぐ同期
     .accesskey = S
 menu-tools-sync-re-auth =
     .label = { -sync-brand-short-name } に再接続...
+    .accesskey = R
+menu-tools-fxa-re-auth =
+    .label = { -brand-product-name } にログイン...
     .accesskey = R
 menu-tools-web-developer =
     .label = ウェブ開発
@@ -276,8 +284,7 @@ menu-help-safe-mode-with-addons =
     .label = アドオンを有効にして再起動
     .accesskey = R
 # Label of the Help menu item. Either this or
-# safeb.palm.notdeceptive.label from
-# phishing-afterload-warning-message.dtd is shown.
+# menu-help-notdeceptive is shown.
 menu-help-report-deceptive-site =
     .label = 詐欺サイトを報告...
     .accesskey = D

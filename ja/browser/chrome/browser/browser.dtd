@@ -291,6 +291,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.midiBlocked.tooltip			"このウェブサイトの MIDI へのアクセスをブロックしました。">
 <!ENTITY urlbar.installBlocked.tooltip			"このウェブサイトのアドオンのインストールをブロックしました。">
 
+
 <!ENTITY urlbar.openHistoryPopup.tooltip		"履歴を表示します">
 
 <!ENTITY searchItem.title				"検索">
@@ -945,6 +946,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY protections.trackingContent.label			"トラッキングコンテンツ">
 <!ENTITY protections.fingerprinters.label			"フィンガープリント採取">
 <!ENTITY protections.cryptominers.label				"暗号通貨マイニング">
+<!ENTITY protections.notBlocking.why.etpOff2.tooltip		"保護がオフになっているため、このサイトのトラッカーがすべて読み込まれました。">
 <!ENTITY protections.noTrackersFound.description		"このページでは既知のトラッカーはありません。">
 
 <!ENTITY protections.crossSiteTrackingCookies.description	"これらの Cookie はオンラインでのあなたの行動に関するデータを集めるために、サイトからサイトへと追跡します。これは広告会社や調査会社といったサードパーティにより設置されています。">

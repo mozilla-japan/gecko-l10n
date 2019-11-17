@@ -47,9 +47,7 @@ newtab-topsites-save-button = 保存
 newtab-topsites-preview-button = プレビュー
 newtab-topsites-add-button = 追加
 
-## Top Sites - Delete history confirmation dialog. 
-
-## Top Sites - Delete history confirmation dialog. 
+## Top Sites - Delete history confirmation dialog.
 
 newtab-confirm-delete-history-p1 = 本当にこのページに関して保存されているあらゆる情報を履歴から削除しますか？
 # "This action" refers to deleting a page from history.
@@ -86,13 +84,23 @@ newtab-menu-save-to-pocket = { -pocket-brand-name } に保存
 newtab-menu-delete-pocket = { -pocket-brand-name } から削除
 newtab-menu-archive-pocket = { -pocket-brand-name } にアーカイブ
 
+newtab-menu-show-privacy-info = 私たちのスポンサーとあなたのプライバシー
+
+## Message displayed in a modal window to explain privacy and provide context for sponsored content.
+
+newtab-privacy-modal-button-done = 完了
+newtab-privacy-modal-header = プライバシーは重要です。
+newtab-privacy-modal-paragraph =
+    盛り上がる魅力あるストーリーに加えて、選ばれたスポンサーからあなたが興味ありそうな厳選コンテンツを提供します。
+    私たちやスポンサーが見れるあなたのブラウジングデータのコピーを残すようなことはありません。ご安心ください。
+newtab-privacy-modal-link = @@NewTab@@ページでのプライバシーの仕組みついて
+
+##
+
 # Bookmark is a noun in this case, "Remove bookmark".
 newtab-menu-remove-bookmark = ブックマークを削除
 # Bookmark is a verb here.
 newtab-menu-bookmark = ブックマーク
-
-## Context Menu - Downloaded Menu. "Download" in these cases is not a verb, 
-## it is a noun. As in, "Copy the link that belongs to this downloaded item".
 
 ## Context Menu - Downloaded Menu. "Download" in these cases is not a verb,
 ## it is a noun. As in, "Copy the link that belongs to this downloaded item".
@@ -122,9 +130,6 @@ newtab-label-removed-bookmark = 削除済みブックマーク
 newtab-label-recommended = 話題の記事
 newtab-label-saved = { -pocket-brand-name } に保存しました
 newtab-label-download = ダウンロード済み
-
-## Section Menu: These strings are displayed in the section context menu and are 
-## meant as a call to action for the given section.
 
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.

@@ -47,6 +47,9 @@ urlbar-persistent-storage-notification-anchor =
     .tooltiptext = データを永続ストレージに格納します
 urlbar-addons-notification-anchor =
     .tooltiptext = アドオンのインストールのメッセージパネルを開きます
+urlbar-tip-help-icon =
+    .title = ヘルプを表示
+
 urlbar-geolocation-blocked =
     .tooltiptext = このウェブサイトでの位置情報の共有をブロックしました。
 urlbar-web-notifications-blocked =
@@ -93,15 +96,20 @@ full-screen-exit =
 # This string prompts the user to use the list of one-click search engines in
 # the Urlbar and searchbar.
 search-one-offs-with-title = 今回だけ使う検索エンジン:
+
 # This string won't wrap, so if the translated string is longer,
 # consider translating it as if it said only "Search Settings".
 search-one-offs-change-settings-button =
     .label = 検索設定を変更
 search-one-offs-change-settings-compact-button =
     .tooltiptext = 検索設定を変更します
+
 search-one-offs-context-open-new-tab =
     .label = @@NewTab@@で検索
     .accesskey = T
 search-one-offs-context-set-as-default =
     .label = @@Default-@@検索エンジンに設定
     .accesskey = D
+search-one-offs-context-set-as-default-private =
+    .label = プライベート@@Window@@の@@Default-@@検索エンジンに設定
+    .accesskey = P
