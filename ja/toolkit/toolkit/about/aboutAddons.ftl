@@ -342,7 +342,7 @@ addon-options-button =
 report-addon-button = 報告
 remove-addon-button = 削除
 # The link will always be shown after the other text.
-remove-addon-disabled-button = 削除できない <a data-l10n-name="link">その理由は？</a>
+remove-addon-disabled-button = 削除不可の <a data-l10n-name="link">理由</a>
 disable-addon-button = 無効化
 enable-addon-button = 有効化
 expand-addon-button = 他のオプション
