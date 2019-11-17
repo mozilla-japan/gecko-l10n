@@ -9,7 +9,6 @@
 
 <!-- File Menu -->
 <!ENTITY newContact.label                               "連絡先...">
-
 <!-- LOCALIZATION NOTE (newContact.accesskey) : DONT_TRANSLATE -->
 <!ENTITY newContact.accesskey                           "C">
 <!ENTITY newListCmd.label                               "アドレスリスト..."><!-- (^^; Mailing List -->
@@ -94,6 +93,7 @@
 <!ENTITY newIM.tooltip                                  "インスタントメッセージを送信またはチャットをします">
 <!ENTITY deleteItemButton.tooltip                       "選択した連絡先またはアドレス帳を削除します">
 <!ENTITY throbber.tooltip                               "&vendorShortName; ホームページを表示します">
+<!ENTITY throbber.tooltip2                              "&brandShortName; ホームページへ移動します">
 <!ENTITY advancedButton.tooltip                         "アドレスを検索します">
 
 <!-- Dir Tree header -->
