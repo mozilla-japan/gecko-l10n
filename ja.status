@@ -994,3 +994,4 @@ devtools                12256:d425429907a1   2019-10-04     hATrayflood     sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mail, suite             12389:63d9193424c9   2019-10-31     mar             sync mail, suite
+dom, toolkit            12423:5c001af6203f   2019-11-07     mar             sync dom, toolkit
