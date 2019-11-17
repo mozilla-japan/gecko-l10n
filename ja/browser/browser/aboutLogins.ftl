@@ -71,16 +71,20 @@ about-logins-list-item-breach-icon =
 ## Introduction screen
 
 login-intro-heading = 保存したログイン情報をお探しですか？ { -sync-brand-short-name } を設定しましょう。
+about-logins-login-intro-heading-logged-in = 同期したログイン情報はありません。
 login-intro-description = 別の端末の { -brand-product-name } に保存したログイン情報は、以下の手順で取得できます:
 login-intro-instruction-fxa = ログイン情報を保存した端末で { -fxaccount-brand-name } を作成、またはログインしてください
 login-intro-instruction-fxa-settings = { -sync-brand-short-name } の設定のログイン情報のチェックボックスが選択されているか確認してください
 about-logins-intro-instruction-help = <a data-l10n-name="help-link">{ -lockwise-brand-short-name } サポート</a> で詳細なヘルプを確認できます
+
+about-logins-intro-import = 他のブラウザーでログイン情報を保存した場合は、<a data-l10n-name="import-link">そちらから { -lockwise-brand-short-name } にインポート</a>できます。
 
 ## Login
 
 login-item-new-login-title = @@New-CMD@@ログイン情報を作成
 login-item-edit-button = 編集
 login-item-delete-button = 削除
+about-logins-login-item-remove-button = 消去
 login-item-origin-label = ウェブサイトの URL
 login-item-origin =
   .placeholder = https://www.example.com
@@ -110,11 +114,7 @@ master-password-reload-button =
   .label = ログイン
   .accesskey = L
 
-## Dialogs
-
-confirmation-dialog-cancel-button = キャンセル
-confirmation-dialog-dismiss-button =
-  .title = キャンセル
+## Password Sync notification
 
 enable-password-sync-notification-message =
   { PLATFORM() ->
@@ -130,8 +130,21 @@ enable-password-sync-preferences-button =
   .accesskey = V
 
 confirm-delete-dialog-title = このログイン情報を削除しますか？
+about-logins-enable-password-sync-dont-ask-again-button =
+  .label = 次回からは確認しない
+  .accesskey = D
+
+## Dialogs
+
+confirmation-dialog-cancel-button = キャンセル
+confirmation-dialog-dismiss-button =
+  .title = キャンセル
+
+about-logins-confirm-remove-dialog-title = このログイン情報を消去しますか？
 confirm-delete-dialog-message = この操作は元に戻せません。
 confirm-delete-dialog-confirm-button = 削除
+
+about-logins-confirm-remove-dialog-confirm-button = 消去
 
 confirm-discard-changes-dialog-title = 未保存の変更を破棄しますか？
 confirm-discard-changes-dialog-message = 変更内容はすべて失われます。

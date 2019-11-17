@@ -38,6 +38,16 @@ cfr-doorhanger-extension-author = 作成者: { $name }
 # When clicked it opens a panel with a message for the user.
 cfr-doorhanger-extension-notification = おすすめ
 
+cfr-doorhanger-extension-notification2 = おすすめ
+  .tooltiptext = おすすめの拡張機能です
+  .a11y-announcement = おすすめの拡張機能があります
+
+# This is a notification displayed in the address bar.
+# When clicked it opens a panel with a message for the user.
+cfr-doorhanger-feature-notification = おすすめ
+  .tooltiptext = おすすめの機能です
+  .a11y-announcement = おすすめの機能があります
+
 ## Add-on statistics
 ## These strings are used to display the total number of
 ## users and rating for an add-on. They are shown next to each other.
@@ -78,6 +88,10 @@ cfr-protections-panel-body = あなたのデータはあなた自身だけに。
 cfr-protections-panel-link-text = 詳細
 
 ## What's New toolbar button and panel
+
+# This string is used by screen readers to offer a text based alternative for
+# the notification icon
+cfr-badge-reader-label-newfeature = 新機能:
 
 cfr-whatsnew-button =
   .label = 新着情報
@@ -152,9 +166,23 @@ cfr-doorhanger-socialtracking-ok-button = トラッキング防止機能を確�
   .accesskey = P
 cfr-doorhanger-socialtracking-close-button = 閉じる
   .accesskey = C
+cfr-doorhanger-socialtracking-dont-show-again = このようなメッセージは次から表示しない
+  .accesskey = D
 cfr-doorhanger-socialtracking-heading = { -brand-short-name } はソーシャルネットワークからの追跡を停止させました
 cfr-doorhanger-socialtracking-description = プライバシーは重要です。{ -brand-short-name } は一般的なソーシャルメディアトラッカーをブロックしました。オンラインでのあなたの行動を収集できるデータ量を制限しています。
 cfr-doorhanger-fingerprinters-heading = { -brand-short-name } はこのページのフィンガープリント採取をブロックしました
 cfr-doorhanger-fingerprinters-description = プライバシーは重要です。{ -brand-short-name } はあなたを追跡するために端末から一意に識別可能な情報を収集する、フィンガープリント採取をブロックしました。
 cfr-doorhanger-cryptominers-heading = { -brand-short-name } はこのページの暗号通貨マイニングをブロックしました
 cfr-doorhanger-cryptominers-description = プライバシーは重要です。{ -brand-short-name } は暗号通貨の採掘のためにあなたのシステムの計算リソースを利用する、暗号通貨マイニングをブロックしました。
+
+## Enhanced Tracking Protection Milestones
+
+# Variables:
+#   $blockedCount (Number) - The total count of blocked trackers. This number will always be greater than 1.
+#   $date (String) - The date we began recording the count of blocked trackers
+cfr-doorhanger-milestone-heading =
+  { $blockedCount ->
+   *[other] { $date } 以降、{ -brand-short-name } は <b>{ $blockedCount } 個</b>以上のトラッカーをブロックしました！
+  }
+cfr-doorhanger-milestone-ok-button = 確認
+  .accesskey = S

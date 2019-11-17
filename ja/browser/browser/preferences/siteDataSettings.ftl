@@ -23,6 +23,9 @@ site-data-column-storage =
 site-data-column-last-used =
     .label = 最終アクセス
 
+# This label is used in the "Host" column for local files, which have no host.
+site-data-local-file-host = (ローカルファイル)
+
 site-data-remove-selected =
     .label = 選択したサイトデータを削除
     .accesskey = R

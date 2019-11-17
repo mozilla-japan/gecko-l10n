@@ -54,6 +54,8 @@ policy-DisableFormHistory = 検索とフォームの履歴を記憶しないよ�
 
 policy-DisableMasterPasswordCreation = true にすると、マスターパスワードを作成できないようにします。
 
+policy-DisablePasswordReveal = 保存されたパスワードの表示を許可しないようにします。
+
 policy-DisablePocket = ウェブページを Pocket に保存する機能を無効にします。
 
 policy-DisablePrivateBrowsing = プライベートブラウジングを無効にします。
@@ -104,6 +106,8 @@ policy-HardwareAcceleration = false にすると、ハードウェアアクセ�
 policy-Homepage = ホームページを設定し、任意でロックします。
 
 policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
+
+policy-LegacyProfiles = インストレーションごとにプロファイルが分割されるのを強制的に無効にします。
 
 policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
 
