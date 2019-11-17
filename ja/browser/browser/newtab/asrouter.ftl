@@ -182,7 +182,7 @@ cfr-doorhanger-cryptominers-description = プライバシーは重要です。{ 
 #   $date (String) - The date we began recording the count of blocked trackers
 cfr-doorhanger-milestone-heading =
   { $blockedCount ->
-   *[other] { -brand-short-name } は { $date } から <b>{ $blockedCount } 個</b>のトラッカーをブロックしました！
+   *[other] { $date } 以降、{ -brand-short-name } は <b>{ $blockedCount } 個</b>以上のトラッカーをブロックしました！
   }
 cfr-doorhanger-milestone-ok-button = 確認
   .accesskey = S

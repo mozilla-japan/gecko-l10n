@@ -91,8 +91,8 @@ newtab-menu-show-privacy-info = 私たちのスポンサーとあなたのプラ
 newtab-privacy-modal-button-done = 完了
 newtab-privacy-modal-header = プライバシーは重要です。
 newtab-privacy-modal-paragraph =
-    盛り上がる魅力あるストーリーに加えて、選ばれたスポンサーからあなたが興味ありそうな厳選コンテンツを提供します。
-    私たちやスポンサーが見れるあなたのブラウジングデータのコピーを残すようなことはありません。ご安心ください。
+    盛り上がる魅力あるストーリーに加えて、選ばれたスポンサーからあなたの興味を引きそうな厳選コンテンツを提供します。
+    ブラウジングデータに { -brand-product-name } の個人情報のコピーが残ることはありませんし、私たちとスポンサーのどちらもその情報を見ることはありませんので、ご安心ください。
 newtab-privacy-modal-link = @@NewTab@@ページでのプライバシーの仕組みついて
 
 ##

@@ -35,8 +35,8 @@ about-private-browsing-info-description = ブラウザーを終了するかプ�
 about-private-browsing-search-banner-title = { $engineName } はプライベート@@Window@@での@@Default-@@検索エンジンです
 about-private-browsing-search-banner-description = {
   PLATFORM() ->
-     [windows] 違う検索エンジンを選択するには、<a data-l10n-name="link-options">オプション</a>を開いてください。
-    *[other] 違う検索エンジンを選択するには、<a data-l10n-name="link-options">設定</a>を開いてください。
+     [windows] 別の検索エンジンを選択するには、<a data-l10n-name="link-options">オプション</a>を開いてください。
+    *[other] 別の検索エンジンを選択するには、<a data-l10n-name="link-options">設定</a>を開いてください。
   }
 about-private-browsing-search-banner-close-button =
     .aria-label = 閉じる

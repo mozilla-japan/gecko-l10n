@@ -131,7 +131,7 @@ enable-password-sync-preferences-button =
 
 confirm-delete-dialog-title = このログイン情報を削除しますか？
 about-logins-enable-password-sync-dont-ask-again-button =
-  .label = 次から確認しない
+  .label = 次回からは確認しない
   .accesskey = D
 
 ## Dialogs

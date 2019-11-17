@@ -90,13 +90,13 @@ onboarding-benefit-privacy-text = 私たちが尊重する個人データ保護�
 
 
 onboarding-benefit-sync-title = { -sync-brand-short-name }
-onboarding-benefit-sync-text = ブックマーク、パスワード、履歴などがあなたが使っている端末すべての { -brand-product-name } でも使えます。
+onboarding-benefit-sync-text = ご使用のどの端末の { -brand-product-name } でもブックマーク、パスワード、履歴などを共有できます。
 
 onboarding-benefit-monitor-title = { -monitor-brand-short-name }
-onboarding-benefit-monitor-text = 既知のデータ漏洩にあなたの個人情報が含まれていると通知を受けられます。
+onboarding-benefit-monitor-text = 既知のデータ漏洩にあなたの個人情報が含まれていた場合に通知を受けられます。
 
 onboarding-benefit-lockwise-title = { -lockwise-brand-short-name }
-onboarding-benefit-lockwise-text = パスワードを保護しながら持ち出せるよう管理できます。
+onboarding-benefit-lockwise-text = 持ち出しできる保護されたパスワード管理ができます。
 
 
 ## These strings belong to the individual onboarding messages.
