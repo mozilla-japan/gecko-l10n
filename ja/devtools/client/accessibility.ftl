@@ -37,8 +37,6 @@ accessibility-text-label-issue-figure = キャプションのついた figure �
 
 accessibility-text-label-issue-fieldset = <code>fieldset</code> 要素にはラベルをつける必要があります。<a>詳細</a>
 
-accessibility-text-label-issue-fieldset-legend = <code>legend</code> 要素を使って <span>fieldset</span> 要素にラベルをつけてください。<a>詳細</a>
-
 accessibility-text-label-issue-fieldset-legend2 = <code>legend</code> 要素を使って <span>fieldset</span> にラベルをつけてください。<a>詳細</a>
 
 accessibility-text-label-issue-form = フォームの各要素にはラベルをつける必要があります。<a>詳細</a>
@@ -58,8 +56,6 @@ accessibility-text-label-issue-iframe = <code>title</code> 属性を使って <s
 accessibility-text-label-issue-image = 画像を含むコンテンツにはラベルをつける必要があります。<a>詳細</a>
 
 accessibility-text-label-issue-interactive = インタラクティブな要素にはラベルをつける必要があります。<a>詳細</a>
-
-accessibility-text-label-issue-optgroup-label = <code>label</code> 属性を使って <span>optgroup</span> 要素にラベルをつけてください。<a>詳細</a>
 
 accessibility-text-label-issue-optgroup-label2 = <code>label</code> 属性を使って <span>optgroup</span> にラベルをつけてください。<a>詳細</a>
 
