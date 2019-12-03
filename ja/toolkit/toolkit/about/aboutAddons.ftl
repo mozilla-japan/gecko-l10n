@@ -4,6 +4,7 @@
 
 addons-window =
     .title = アドオンマネージャー
+addons-page-title = アドオンマネージャー
 search-header =
     .placeholder = addons.mozilla.org を検索
     .searchbuttonlabel = 検索
@@ -346,10 +347,6 @@ remove-addon-disabled-button = 削除不可の <a data-l10n-name="link">理由</
 disable-addon-button = 無効化
 enable-addon-button = 有効化
 expand-addon-button = 他のオプション
-disable-addon-button-label =
-    .aria-label = 無効化
-enable-addon-button-label =
-    .aria-label = 有効化
 preferences-addon-button =
     { PLATFORM() ->
         [windows] オプション
@@ -451,3 +448,5 @@ theme-heading-search-label = テーマを探す
 extension-heading-search-label = 拡張機能を探す
 addons-heading-search-input =
     .placeholder = addons.mozilla.org を検索
+addon-page-options-button =
+    .title = アドオンツール
