@@ -141,3 +141,16 @@ search-one-offs-context-set-as-default =
 search-one-offs-context-set-as-default-private =
     .label = プライベート@@Window@@の@@Default-@@検索エンジンに設定
     .accesskey = P
+
+## Bookmark Panel
+
+bookmark-panel-show-editor-checkbox =
+    .label = 追加時にエディターを表示する
+    .accesskey = S
+bookmark-panel-done-button =
+    .label = 完了
+# Width of the bookmark panel.
+# Should be large enough to fully display the Done and
+# Cancel/Remove Bookmark buttons.
+bookmark-panel =
+    .style = min-width: 23em
