@@ -297,7 +297,7 @@ shortcuts-duplicate-warning-message = { $shortcut } が他の場所でも使用�
 shortcuts-exists = すでに { $addon } が使用しています
 shortcuts-card-expand-button =
     { $numberToShow ->
-      *[other] さらに { $numberToShow } 個表示
+       *[other] さらに { $numberToShow } 個表示
     }
 shortcuts-card-collapse-button = 折りたたむ
 go-back-button =
@@ -346,6 +346,10 @@ remove-addon-disabled-button = 削除不可の <a data-l10n-name="link">理由</
 disable-addon-button = 無効化
 enable-addon-button = 有効化
 expand-addon-button = 他のオプション
+disable-addon-button-label =
+    .aria-label = 無効化
+enable-addon-button-label =
+    .aria-label = 有効化
 preferences-addon-button =
     { PLATFORM() ->
         [windows] オプション
