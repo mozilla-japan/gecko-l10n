@@ -145,6 +145,21 @@ intl-locales-default = @@Default-@@ロケール
 intl-os-title = オペレーティングシステム
 intl-os-prefs-system-locales = システムのロケール
 intl-regional-prefs = 地域設定
+
+## Remote Debugging
+##
+## The Firefox remote protocol provides low-level debugging interfaces
+## used to inspect state and control execution of documents,
+## browser instrumentation, user interaction simulation,
+## and for subscribing to browser-internal events.
+##
+## See also https://firefox-source-docs.mozilla.org/remote/
+
+remote-debugging-title = リモートデバッグ (Chromium プロトコル)
+remote-debugging-accepting-connections = 接続の受け入れ
+remote-debugging-url = URL
+##
+
 # Variables
 # $days (Integer) - Number of days of crashes to log
 report-crash-for-days = 過去 { $days } 日分のクラッシュレポート

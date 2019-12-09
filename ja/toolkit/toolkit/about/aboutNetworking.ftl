@@ -16,6 +16,7 @@ auto-refresh = 3 秒ごとに自動更新する
 hostname = ホスト名
 port = ポート番号
 http2 = HTTP/2
+about-networking-http-version = HTTP バージョン
 ssl = SSL
 active = アクティブ
 idle = 待機
