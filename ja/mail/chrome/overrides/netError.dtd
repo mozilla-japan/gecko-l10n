@@ -153,6 +153,9 @@
 <!ENTITY cspBlocked.title		"コンテンツセキュリティポリシーによりブロックされました">
 <!ENTITY cspBlocked.longDesc		"<p>セキュリティポリシーにより読み込みが禁止されたコンテンツが含まれているため、このページの読み込みを中止しました。</p>">
 
+<!ENTITY xfoBlocked.title		"X-Frame-Options ポリシーによりブロックされました">
+<!ENTITY xfoBlocked.longDesc		"<p>このページの読み込みは X-Frame-Options ポリシーにより許可されていないため、このコンテキスト内での読み込みを中止しました。</p>">
+
 <!ENTITY corruptedContentErrorv2.title	 "コンテンツデータ破損エラー">
 <!ENTITY corruptedContentErrorv2.longDesc	"<p>このページは、データの伝送中にエラーが検出されたため表示できません。</p><ul><li>ウェブサイトの所有者に連絡を取り、この問題を報告してください。</li></ul>">
 
