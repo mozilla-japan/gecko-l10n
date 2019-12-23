@@ -31,3 +31,6 @@ was trying to connect. -->
 <!ENTITY certerror.addException.label		"例外を追加...">
 
 <!ENTITY certerror.technical.heading		"技術的詳細を表示">
+
+<!ENTITY dnsNotFound.pageTitle			"サーバーが見つかりませんでした">
+<!ENTITY malformedURI.pageTitle			"不正な URL">

@@ -260,6 +260,10 @@
     Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY headersSpace.style		"width: 9em;"><!-- (^m^) 以下の項目名が判別できればよい en-US: "width:9em" -->
 <!ENTITY fromAddr.label			"差出人:">
+<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
+    Subject: rows. It should be larger than the largest Header label  -->
+<!ENTITY headersSpace2.style		"width: 8em;"><!-- (^m^) 以下の項目名が判別できればよい en-US: "width:8em" -->
+<!ENTITY fromAddr2.label		"差出人">
 <!ENTITY fromAddr.accesskey		"r">
 <!ENTITY toAddr.label			"宛先:">
 <!ENTITY ccAddr.label			"Cc:">
@@ -268,6 +272,13 @@
 <!ENTITY newsgroupsAddr.label		"ニュースグループ:">
 <!ENTITY followupAddr.label		"Followup-To:">
 <!ENTITY subject.label			"件名:">
+<!ENTITY toAddr2.label			"宛先">
+<!ENTITY ccAddr2.label			"Cc">
+<!ENTITY bccAddr2.label			"Bcc">
+<!ENTITY replyAddr2.label		"Reply-To">
+<!ENTITY newsgroupsAddr2.label		"Newsgroup">
+<!ENTITY followupAddr2.label		"Followup-To">
+<!ENTITY subject2.label			"件名">
 <!ENTITY subject.accesskey		"S">
 <!-- LOCALIZATION NOTE (attachments.accesskey) This access key character should
      be taken from the strings of attachmentCount in composeMsgs.properties.

@@ -973,3 +973,7 @@
 <!ENTITY dockOptions.label		"アプリケーションアイコンのオプション...">
 <!ENTITY writeNewMessageDock.label	"@@New-CMD@@メッセージを作成する">
 <!ENTITY openAddressBookDock.label	"アドレス帳を開く">
+
+<!-- Content tab Navigation buttons -->
+<!ENTITY browseBackButton.tooltip	"前のページへ戻ります">
+<!ENTITY browseForwardButton.tooltip	"次のページへ進みます">
