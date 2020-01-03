@@ -47,11 +47,11 @@ inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</s
 
 inactive-css-not-grid-or-flex-container-fix = <strong>display:grid</strong> または <strong>display:flex</strong> を追加してみてください。{ learn-more }
 
-inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>, <strong>display:flex</strong>, または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
-
 inactive-css-not-grid-or-flex-item-fix = <strong>display:grid</strong>, <strong>display:flex</strong>, <strong>display:inline-grid</strong> または <strong>display:inline-flex</strong> を追加してみてください。{ learn-more }
 
 inactive-css-not-grid-item-fix =<strong>display:grid</strong> または <strong>display:inline-grid</strong> をアイテムの親に追加してみてください。{ learn-more }
+
+inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>, <strong>display:flex</strong>, または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
 
 inactive-css-not-grid-or-flex-item-fix-2 = <strong>display:grid</strong>, <strong>display:flex</strong>, <strong>display:inline-grid</strong>, または <strong>display:inline-flex</strong> を追加してみてください。{ learn-more }
 

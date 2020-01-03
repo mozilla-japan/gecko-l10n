@@ -110,7 +110,7 @@
 <!-- LOCALIZATION NOTE (options.selectEnabledToolboxButtons.label): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tool buttons. -->
-<!ENTITY options.selectEnabledToolboxButtons.label	"利用可能なツールボックスのボタン">
+<!ENTITY options.selectEnabledToolboxButtons.label	"利用可能なツールボックスボタン">
 
 <!-- LOCALIZATION NOTE (options.toolNotSupported.label): This is the label for
   -  the explanation of the * marker on a tool which is currently not supported
@@ -135,11 +135,6 @@
    - label for the checkbox that toggles timestamps in the Web Console -->
 <!ENTITY options.timestampMessages.label	"タイムスタンプを表示">
 <!ENTITY options.timestampMessages.tooltip	"このオプションを有効にすると、ウェブコンソールにタイムスタンプを表示します">
-
-<!-- LOCALIZATION NOTE (options.warningGroups.label): This is the
-   - label for the checkbox that toggles the warningGroups feature in the Web Console -->
-<!ENTITY options.warningGroups.label		"類似メッセージをグループ化">
-<!ENTITY options.warningGroups.tooltip		"このオプションを有効にすると、類似するメッセージをグループにまとめます">
 
 <!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
   -  heading of the group of Debugger preferences in the options panel. -->
