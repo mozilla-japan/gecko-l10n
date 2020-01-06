@@ -1003,4 +1003,5 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            12491:1032439ff43e   2019-12-09     mar             sync dom, toolkit
 mail, suite             12513:d21bd5a2df62   2019-12-18     mar             sync mail, suite
+devtools                12539:0cb29d079748   2020-01-01     mar             sync devtools (late-l10n)
 
