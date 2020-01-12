@@ -1,6 +1,6 @@
 # Gecko 日本語ローカライズ
 
-このリポジトリでは、Firefox, Thunderbird などで使用されている Gecko エンジンおよび製品 (Firefox, Android 版 Firefox, Thunderbird, Lightning, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に ja (Windows, Linux などの Mac 以外), ja-JP-mac (Mac) それぞれのリソースファイルを生成し、hg.mozilla.org のリポジトリに push することで実際の製品に反映されます。
+このリポジトリでは、Firefox, Thunderbird などで使用されている Gecko エンジンおよび製品 (Firefox, Android 版 Firefox, Thunderbird, Lightning, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に、[lot](https://github.com/mozilla-japan/lot) で ja (Windows, Linux, Android などの Mac 以外), ja-JP-mac (Mac) それぞれのリソースファイルを生成し、hg.mozilla.org のリポジトリに push することで実際の製品に反映されます。
 
 ## フィードバックの送り方
 
@@ -24,7 +24,7 @@ Github での master ブランチは、version 57.0 以降、クロスチャン�
 
 現在、[クロスチャンネルに対応した新たなワークフローを検討中](https://github.com/mozilla-japan/gecko-l10n/issues/84) です。
 
-GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) およびベータ版用のリソースです (version 55.0 から)。リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了してから、次バージョンへの対応をはじめる前になります。
+GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) およびベータ版用のリソースです (version 55.0 から)。リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了もしくはリリースされてから、次バージョンへの対応をはじめる前になります。
 
 既にブランチを切っているバージョン (リリース版) への反映は行いません。
 
@@ -74,11 +74,11 @@ git push
 * 一般的な用字用語について
   * [共同通信社 記者ハンドブック](https://www.kyodo.co.jp/books/isbn/978-4-7641-0687-1/)
 
-## L10n 関連リポジトリ等
+## L10n 関連リポジトリー等
 
-* Firefox, Thunderbird, Lightning, SeaMonkey
+* Firefox, Thunderbird/Lightning, SeaMonkey
   * Cross-channel (gecko-strings):
-    * https://hg.mozilla.org/l10n/gecko-strings
+    * https://hg.mozilla.org/l10n/gecko-strings (L10n の作業対象)
     * https://hg.mozilla.org/users/axel_mozilla.com/gecko-strings-quarantine
   * Nightly:
     * https://hg.mozilla.org/l10n-central/ja/
@@ -86,30 +86,44 @@ git push
   * Release:
     * https://hg.mozilla.org/releases/l10n/mozilla-release/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-release/ja-JP-mac/
+* Firefox for iOS
+  * https://pontoon.mozilla.org/ja/firefox-for-ios/
+* Android-L10n (Fennix, Reality, Lockwise, Fire TV)
+  * https://pontoon.mozilla.org/ja/android-l10n/
+* WebThings Gateway
+  * https://pontoon.mozilla.org/ja/webthings-gateway/
+* その他ウェブサイト等
+  * https://pontoon.mozilla.org/ja/
+
+## 終了したリポジトリー (End Of Life)
+* Firefox, Thunderbird/Lightning, SeaMonkey
   * ~Aurora:~  (EOL in 54.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja-JP-mac/
   * ~Beta:~ (Developer Edition since 55.0, EOL in 56.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja-JP-mac/
-* Firefox for iOS
-  * https://pontoon.mozilla.org/ja/firefox-for-ios/
-* Android-L10n (Fennix, Reality, Lockwise, Fire TV)
-  * https://pontoon.mozilla.org/ja/android-l10n/
 * ~Firefox Focus for iOS~ (EOL)
   * https://pontoon.mozilla.org/ja/focus-for-ios/
 * ~Firefox Focus for Android~ (EOL)
   * https://pontoon.mozilla.org/ja/focus-for-android/
-* Firefox OS (Gaia) (EOL)
+* ~Firefox OS (Gaia)~ (EOL)
   * https://github.com/mozilla-japan/gaia-l10n
   * (v2.6) https://hg.mozilla.org/gaia-l10n/ja/
   * (v2.5) https://hg.mozilla.org/releases/gaia-l10n/v2_5/ja/
   * (v2.2) https://hg.mozilla.org/releases/gaia-l10n/v2_2/ja/
+
+## Tools
 * Localization Tools (lot)
   * https://github.com/mozilla-japan/lot
 * L10n ダッシュボード
   * https://l10n.mozilla.org/teams/ja
+* compare-locales Python script
+  * https://developer.mozilla.org/docs/Mozilla/Projects/compare-locales
 
 ## 本家の L10n 情報
 * [Mozilla L10N blog](https://blog.mozilla.org/l10n/)
 * [mozilla.dev.l10n メーリングリスト](https://groups.google.com/forum/#!forum/mozilla.dev.l10n)
+* [Firefox Release Calendar](https://wiki.mozilla.org/Release_Management/Calendar) - MozillaWiki
+* [Project Fluent](https://projectfluent.org/)
+* [Roles within Mozilla l10n communities](https://mozilla-l10n.github.io/localizer-documentation/community/l10n_community_roles.html)
