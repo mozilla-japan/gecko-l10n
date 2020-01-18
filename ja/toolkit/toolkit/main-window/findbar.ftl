@@ -19,10 +19,16 @@ findbar-highlight-all2 =
        *[other] a
     }
     .tooltiptext = 指定文字列に一致するすべての部分を強調表示します
+
 findbar-case-sensitive =
     .label = 大文字/小文字を区別
     .accesskey = c
     .tooltiptext = 大文字/小文字を区別して検索します
+
+findbar-match-diacritics =
+    .label = 発音区別符号を区別
+    .accesskey = i
+    .tooltiptext = アクセント付きの文字をその基底文字と区別します (例えば “resume” を検索しても “résumé” と一致しません)
 
 findbar-entire-word =
     .label = 単語単位
