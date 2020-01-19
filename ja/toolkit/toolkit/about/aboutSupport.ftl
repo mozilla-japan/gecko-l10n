@@ -238,6 +238,9 @@ d3d11video-crash-guard = D3D11 動画デコーダー
 d3d9video-crash-buard = D3D9 動画デコーダー
 d3d9video-crash-guard = D3D9 動画デコーダー
 glcontext-crash-guard = OpenGL
+
+wmfvpxvideo-crash-guard = WMF VPX 動画デコーダー
+
 reset-on-next-restart = 次回起動時にリセット
 gpu-process-kill-button = GPU プロセスを終了
 gpu-device-reset = ハードウェアリセット

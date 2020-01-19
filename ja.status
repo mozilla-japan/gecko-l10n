@@ -1005,3 +1005,8 @@ dom, toolkit            12491:1032439ff43e   2019-12-09     mar             sync
 mail, suite             12513:d21bd5a2df62   2019-12-18     mar             sync mail, suite
 devtools                12539:0cb29d079748   2020-01-01     mar             sync devtools (late-l10n)
 
+[l10n-mozilla-73.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, toolkit            12570:88bf449fcd67   2020-01-16     mar             sync dom, toolkit
+
