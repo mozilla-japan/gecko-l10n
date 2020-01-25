@@ -41,6 +41,12 @@ connection-proxy-http-share =
 
 connection-proxy-ssl = SSL プロキシー
     .accesskey = L
+connection-proxy-http-sharing =
+    .label = FTP と HTTPS もこのプロキシーを使う
+    .accesskey = s
+
+connection-proxy-https = HTTPS プロキシー
+    .accesskey = H
 connection-proxy-ssl-port = ポート
     .accesskey = o
 

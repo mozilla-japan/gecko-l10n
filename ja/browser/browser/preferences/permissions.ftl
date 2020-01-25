@@ -151,6 +151,16 @@ permissions-site-location-disable-label =
     .label = 位置情報へのアクセスの要求をブロック
 permissions-site-location-disable-desc = 上記以外のウェブサイトは、位置情報へのアクセスを要求させないようにします。位置情報へのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
 
+## Site Permissions - Virtual Reality
+
+permissions-site-xr-window =
+    .title = 設定 - バーチャルリアリティの使用許可
+    .style = { permissions-window.style }
+permissions-site-xr-desc = 次のウェブサイトがバーチャルリアリティデバイスへのアクセスを要求しています。バーチャルリアリティデバイスへのアクセスを許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
+permissions-site-xr-disable-label =
+    .label = バーチャルリアリティデバイスへのアクセスの要求をブロック
+permissions-site-xr-disable-desc = 上記以外のウェブサイトは、バーチャルリアリティデバイスへのアクセスを要求させないようにします。バーチャルリアリティデバイスへのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
+
 ## Site Permissions - Camera
 
 permissions-site-camera-window =

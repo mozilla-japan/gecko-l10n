@@ -12,6 +12,11 @@ graph-week-summary = この 1 週間で { $count } 個のトラッカーをブ�
 # earliest date recorded in the database.
 graph-total-tracker-summary = { DATETIME($earliestDate, year: "numeric", month: "numeric", day: "numeric") } から <b>{ $count } 個</b>のトラッカーをブロックしました
 
+# Text displayed instead of the graph when in Private Mode
+graph-private-window = { -brand-short-name } はプライベート@@Window@@でもトラッカーのブロックを続けますが、何をブロックしたのかは記録しません。
+# Weekly summary of the graph when the graph is empty in Private Mode
+graph-week-summary-private-window = { -brand-short-name } が今週ブロックしたトラッカー
+
 # The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
 # "Standard" in this case is an adjective, meaning "default" or "normal".
 # The category name in the <b> tag will be bold.
@@ -26,6 +31,8 @@ protection-report-content-title = プライバシー保護
 
 etp-card-title = 強化型トラッキング防止機能
 etp-card-content = トラッカーはあなたの習慣や興味に関する情報を収集するために、オンラインであなたを追跡します。{ -brand-short-name } はこれらのトラッカーや悪意のあるスクリプトの多くをブロックします。
+protection-report-etp-card-content-custom-not-blocking = 現在、保護はすべてオフになっています。{ -brand-short-name } 保護設定を管理して、ブロックするトラッカーを選択してください。
+protection-report-manage-protections = 設定を管理
 
 # This string is used to label the X axis of a graph. Other days of the week are generated via Intl.DateTimeFormat,
 # capitalization for this string should match the output for your locale.
@@ -65,12 +72,11 @@ lockwise-passwords-stored = 安全に保存されたパスワード <a data-l10n
 turn-on-sync = { -sync-brand-short-name } をオンにする...
   .title = 同期の設定に移動
 
-manage-devices = 端末を管理
+manage-connected-devices = 端末を管理...
 
 # Variables:
 #   $count (Number) - Number of devices connected with sync.
-lockwise-sync-status = { $count } 個の端末と同期中
-lockwise-sync-not-syncing-devices = 同期中の他の端末はありません
+lockwise-connected-device-status = { $count } 個の端末と接続中
 
 monitor-title = データ流出に注意を
 monitor-link = 仕組みについて

@@ -83,7 +83,6 @@ newtab-menu-delete-history = 履歴から削除
 newtab-menu-save-to-pocket = { -pocket-brand-name } に保存
 newtab-menu-delete-pocket = { -pocket-brand-name } から削除
 newtab-menu-archive-pocket = { -pocket-brand-name } にアーカイブ
-
 newtab-menu-show-privacy-info = 私たちのスポンサーとあなたのプライバシー
 
 ## Message displayed in a modal window to explain privacy and provide context for sponsored content.
@@ -93,6 +92,9 @@ newtab-privacy-modal-header = プライバシーは重要です。
 newtab-privacy-modal-paragraph =
     盛り上がる魅力あるストーリーに加えて、選ばれたスポンサーからあなたの興味を引きそうな厳選コンテンツを提供します。
     ブラウジングデータに { -brand-product-name } の個人情報のコピーが残ることはありませんし、私たちとスポンサーのどちらもその情報を見ることはありませんので、ご安心ください。
+newtab-privacy-modal-paragraph-2 =
+    盛り上がる魅力あるストーリーに加えて、選ばれたスポンサーからあなたの興味を引きそうな厳選コンテンツを提供します。
+    <strong>ブラウジングデータに { -brand-product-name } の個人情報のコピーが残ることはありません。</strong>私たちとスポンサーのどちらもその情報を見ることはありませんので、ご安心ください。
 newtab-privacy-modal-link = @@NewTab@@ページでのプライバシーの仕組みついて
 
 ##
@@ -184,7 +186,7 @@ newtab-discovery-empty-section-topstories-timed-out = おおっと、このセ�
 # This is shown at the bottom of the trending stories section and precedes a list of links to popular topics.
 newtab-pocket-read-more = 人気のトピック:
 newtab-pocket-more-recommendations = 他のおすすめ
-newtab-pocket-how-it-works = 使い方
+newtab-pocket-whats-pocket = { -pocket-brand-name } とは？
 newtab-pocket-cta-button = { -pocket-brand-name } を入手
 newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に保存して、魅力的な読み物を思う存分楽しみましょう。
 
