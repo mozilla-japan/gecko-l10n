@@ -56,6 +56,8 @@ urlbar-default-notification-anchor =
     .tooltiptext = メッセージパネルを開きます
 urlbar-geolocation-notification-anchor =
     .tooltiptext = 位置情報の要求パネルを開きます
+urlbar-xr-notification-anchor =
+    .tooltiptext = VR の許可設定パネルを開きます
 urlbar-storage-access-anchor =
     .tooltiptext = 行動追跡の許可設定パネルを開きます
 urlbar-translate-notification-anchor =
@@ -81,11 +83,12 @@ urlbar-addons-notification-anchor =
 urlbar-tip-help-icon =
     .title = ヘルプを表示
 
+urlbar-search-tips-confirm = 了解しました
+
 ## Prompts users to use the Urlbar when they open a new tab or visit the
 ## homepage of their default search engine.
 ## Variables:
 ##  $engineName (String): The name of the user's default search engine. e.g. "Google" or "DuckDuckGo".
-
 urlbar-search-tips-onboard = 少ない入力でたくさん見つかる: アドレスバーから { $engineName } ですぐ検索します。
 urlbar-search-tips-redirect = ここで検索を始めると、{ $engineName } からの検索候補と閲覧履歴が表示されます。
 
@@ -93,6 +96,8 @@ urlbar-search-tips-redirect = ここで検索を始めると、{ $engineName } �
 
 urlbar-geolocation-blocked =
     .tooltiptext = このウェブサイトでの位置情報の共有をブロックしました。
+urlbar-xr-blocked =
+    .tooltiptext = このウェブサイトの VR デバイスへのアクセスをブロックしました。
 urlbar-web-notifications-blocked =
     .tooltiptext = このウェブサイトからの通知をブロックしました。
 urlbar-camera-blocked =

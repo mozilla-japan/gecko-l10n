@@ -150,15 +150,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxa.unverified.description.label	"同期を行う前にあなたのアカウントを確認する必要があります。">
 <!ENTITY fxa.unverified.button.label		"&syncBrand.shortName.label; の設定を開く...">
 
-<!ENTITY pictureInPictureHideToggle.label	"ピクチャーインピクチャーの切り替えボタンを隠す">
-<!ENTITY pictureInPictureHideToggle.accesskey	"H">
-
 <!-- LOCALIZATION NOTE (fxa.menu) Used to define the different labels
-     for the Firefox Account toolbar menu screen. The `Signed in as` text is
+     for the Firefox Account toolbart menu screen. The `Signed in as` text is
      followed by the user's email. -->
 <!ENTITY fxa.menu.signedInAs.label		"ログインするアカウント">
 <!ENTITY fxa.menu.manageAccount.label		"アカウントを管理...">
 <!ENTITY fxa.menu.syncSettings.label		"&syncBrand.shortName.label; の設定...">
+
+<!ENTITY pictureInPictureHideToggle.label	"ピクチャーインピクチャーの切り替えボタンを隠す">
+<!ENTITY pictureInPictureHideToggle.accesskey	"H">
 
 <!-- LOCALIZATION NOTE (fxa.menu) Used to define the different labels
      for the Firefox Account toolbar menu screen. The `Signed in as` text is
@@ -170,10 +170,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxa.menu.signin.label			"&brandProductName; にログイン">
 <!ENTITY fxa.menu.turnOnSync.label		"&syncBrand.shortName.label; をオンにする">
 <!ENTITY fxa.menu.firefoxServices.label		"&brandProductName; サービス">
-
 <!ENTITY fxa.menu.account.label			"アカウント">
 <!ENTITY fxa.menu.settings.label		"設定">
 <!ENTITY fxa.menu.accountSettings.label		"アカウントの設定">
+<!ENTITY fxa.menu.manageAccount2.label		"アカウントを管理">
 <!ENTITY fxa.menu.signOut.label			"ログアウト...">
 <!ENTITY fxa.menu.deviceSettings.label		"端末の設定">
 <!ENTITY fxa.menu.setupSync.label		"&syncBrand.shortName.label; をセットアップ...">
@@ -244,6 +244,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY reloadCmd.accesskey			"R">
 <!ENTITY stopCmd.label				"中止">
 <!ENTITY stopCmd.accesskey			"S">
+
 <!ENTITY stopCmd.macCommandKey			".">
 <!ENTITY goEndCap.tooltip			"アドレスバーに入力された URL へ移動します">
 <!ENTITY printButton.label			"@@Print@@">
@@ -276,8 +277,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.emeNotificationAnchor.tooltip		"DRM ソフトウェアを管理します">
 <!ENTITY urlbar.midiNotificationAnchor.tooltip		"MIDI パネルを開きます">
 
-<!ENTITY urlbar.permissionsGranted.tooltip		"このウェブサイトで追加の権限を許可しました。">
-
 <!ENTITY urlbar.cameraBlocked.tooltip			"このウェブサイトでのカメラの共有をブロックしました。">
 <!ENTITY urlbar.microphoneBlocked.tooltip		"このウェブサイトでのマイクの共有をブロックしました。">
 <!ENTITY urlbar.screenBlocked.tooltip			"このウェブサイトでの画面の共有をブロックしました。">
@@ -290,6 +289,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.flashPluginBlocked.tooltip		"このウェブサイトの Adobe Flash プラグインの使用をブロックしました。">
 <!ENTITY urlbar.midiBlocked.tooltip			"このウェブサイトの MIDI へのアクセスをブロックしました。">
 <!ENTITY urlbar.installBlocked.tooltip			"このウェブサイトのアドオンのインストールをブロックしました。">
+
+<!ENTITY urlbar.permissionsGranted.tooltip		"このウェブサイトで追加の権限を許可しました。">
 
 
 <!ENTITY urlbar.openHistoryPopup.tooltip		"履歴を表示します">
@@ -568,12 +569,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      searchFor.label and searchWith.label. This string will be used instead of
      them when the user has not typed any keyword. -->
 <!ENTITY searchWithHeader.label		"検索エンジン:">
-
-<!-- LOCALIZATION NOTE (searchWithDesc.label):
-     This string prompts the user to use the list of one-click search engines in
-     the Urlbar and searchbar. -->
-<!ENTITY searchWithDesc.label		"今回だけ使う検索エンジン:">
-
 <!-- LOCALIZATION NOTE (changeSearchSettings.button):
      This string won't wrap, so if the translated string is longer,
      consider translating it as if it said only "Search Settings". -->
@@ -940,12 +935,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      a tooltip explaining why these items were not blocked in the page. -->
 <!ENTITY protections.notBlocking.why.label			"状態について">
 <!ENTITY protections.notBlocking.why.etpOn.tooltip		"これらをブロックすると、一部のウェブサイトの一部のボタン、フォーム、ログインフォームといった要素が動作しなくなる可能性があります。">
-<!ENTITY protections.notBlocking.why.etpOff.tooltip		"保護をオフにすると、このサイトのトラッカーをすべて許容します。一部のウェブサイトの動作が改善される場合があります。">
-<!ENTITY protections.socialMediaTrackers.label			"ソーシャルメディアトラッカー">
-<!ENTITY protections.crossSiteTrackingCookies.label		"クロスサイトトラッキング Cookie">
-<!ENTITY protections.trackingContent.label			"トラッキングコンテンツ">
-<!ENTITY protections.fingerprinters.label			"フィンガープリント採取">
-<!ENTITY protections.cryptominers.label				"暗号通貨マイニング">
 <!ENTITY protections.notBlocking.why.etpOff2.tooltip		"保護がオフになっているため、このサイトのトラッカーがすべて読み込まれました。">
 <!ENTITY protections.noTrackersFound.description		"このページでは既知のトラッカーはありません。">
 
@@ -968,7 +957,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncSignIn.label			"&syncBrand.shortName.label; にログイン...">
 <!ENTITY syncSignIn.accesskey			"Y">
-
 <!ENTITY syncSyncNowItem.label			"今すぐ同期">
 <!ENTITY syncSyncNowItemSyncing.label		"同期中...">
 <!ENTITY syncSyncNowItem.accesskey		"S">
@@ -1006,8 +994,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.manageSettings2.accesskey		"M">
 
 <!ENTITY contentBlocking.socialblock.label			"ソーシャルメディアトラッカー">
-
-<!ENTITY contentBlocking.cookies2.label				"クロスサイトトラッキング Cookie">
 
 <!ENTITY contentBlocking.cryptominers.label			"暗号通貨マイニング">
 <!ENTITY contentBlocking.cryptominersView.label			"暗号通貨マイニング">
