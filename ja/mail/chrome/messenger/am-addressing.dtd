@@ -4,6 +4,8 @@
 
 <!-- extracted from am-addressing.xul -->
 
+<!-- extracted from am-addressing.xhtml -->
+
 <!ENTITY addressing.label		"編集とアドレス入力">
 <!ENTITY addressingGroupTitle.label	"アドレス入力">
 <!ENTITY addressingText.label		"アドレスを自動補完する際に検索する LDAP サーバー:">
@@ -18,6 +20,8 @@
 <!ENTITY directoriesNone.label		"None">
 
 <!-- am-addressing.xul -->
+
+<!-- am-addressing.xhtml -->
 
 <!ENTITY compositionGroupTitle.label	"編集">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->

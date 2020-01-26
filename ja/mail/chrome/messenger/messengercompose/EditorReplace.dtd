@@ -4,6 +4,8 @@
 
 <!-- extracted from EdReplace.xul -->
 
+<!-- extracted from EdReplace.xhtml -->
+
 <!ENTITY replaceDialog.title "検索と置換">
 <!ENTITY findField.label "検索文字:">
 <!ENTITY findField.accesskey "n">

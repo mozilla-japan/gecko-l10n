@@ -263,6 +263,7 @@
 <!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
     Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY headersSpace2.style		"width: 8em;"><!-- (^m^) 以下の項目名が判別できればよい en-US: "width:8em" -->
+<!ENTITY extraRecipients.tooltip	"他の種類の宛先入力">
 <!ENTITY fromAddr2.label		"差出人">
 <!ENTITY fromAddr.accesskey		"r">
 <!ENTITY toAddr.label			"宛先:">
@@ -290,7 +291,7 @@
 <!ENTITY attachmentBucketHeader.tooltip		"添付ペイン">
 <!ENTITY attachmentBucketCloseButton.tooltip	"添付ペインを隠す">
 
-<!-- Format Toolbar, imported from editorAppShell.xul -->
+<!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip		"顔文字を挿入します">
 <!ENTITY smiley1Cmd.label		"スマイル">
 <!ENTITY smiley2Cmd.label		"しかめっ面">

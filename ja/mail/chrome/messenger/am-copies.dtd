@@ -4,6 +4,8 @@
 
 <!-- extracted from am-copies.xul -->
 
+<!-- extracted from am-copies.xhtml -->
+
 <!ENTITY copyAndFolderTitle.label	"送信控えと特別なフォルダー"><!-- en-US: "Copies &amp; Folders" -->
 <!ENTITY sendingPrefix.label		"送信控え">
 <!ENTITY fccMailFolder.label		"メッセージ送信時に自動的にコピーを作成する">

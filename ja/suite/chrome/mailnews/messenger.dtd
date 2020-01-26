@@ -94,6 +94,8 @@
 <!ENTITY selectThreadCmd.key                   "a">
 <!ENTITY selectFlaggedCmd.label                "フラグ付きメッセージ">
 <!ENTITY selectFlaggedCmd.accesskey            "F">
+<!ENTITY menuFavoriteFolder.label              "お気に入りフォルダー">
+<!ENTITY menuFavoriteFolder.accesskey          "v">
 <!ENTITY folderPropsCmd.label                  "@@PropertyCMD@@...">
 <!ENTITY folderPropsFolderCmd.label            "フォルダーの@@PropertyCMD@@...">
 <!ENTITY folderPropsNewsgroupCmd.label         "ニュースグループの@@PropertyCMD@@...">
@@ -272,6 +274,8 @@
 <!ENTITY goForwardCmd.commandKey                "]">
 <!ENTITY prevFlaggedMsgCmd.label                "フラグ付きメッセージ">
 <!ENTITY prevFlaggedMsgCmd.accesskey            "F">
+<!ENTITY folderMenu.label                       "フォルダー">
+<!ENTITY folderMenu.accesskey                   "o">
 <!ENTITY startPageCmd.label                     "Mail スタートページ">
 <!ENTITY startPageCmd.accesskey                 "S">
 
@@ -526,6 +530,8 @@
 <!ENTITY folderContextSearchMessages.accesskey     "S">
 <!ENTITY folderContextProperties.label             "@@PropertyCMD@@...">
 <!ENTITY folderContextProperties.accesskey         "P">
+<!ENTITY folderContextFavoriteFolder.label         "お気に入りフォルダー">
+<!ENTITY folderContextFavoriteFolder.accesskey     "a">
 <!ENTITY folderContextSettings.label               "設定...">
 <!ENTITY folderContextSettings.accesskey           "e">
 
