@@ -154,12 +154,12 @@ permissions-site-location-disable-desc = 上記以外のウェブサイトは、
 ## Site Permissions - Virtual Reality
 
 permissions-site-xr-window =
-    .title = 設定 - バーチャルリアリティの使用許可
+    .title = 設定 - VR の使用許可
     .style = { permissions-window.style }
-permissions-site-xr-desc = 次のウェブサイトがバーチャルリアリティデバイスへのアクセスを要求しています。バーチャルリアリティデバイスへのアクセスを許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
+permissions-site-xr-desc = 次のウェブサイトが VR デバイスへのアクセスを要求しています。VR デバイスへのアクセスを許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
 permissions-site-xr-disable-label =
-    .label = バーチャルリアリティデバイスへのアクセスの要求をブロック
-permissions-site-xr-disable-desc = 上記以外のウェブサイトは、バーチャルリアリティデバイスへのアクセスを要求させないようにします。バーチャルリアリティデバイスへのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
+    .label = VR デバイスへのアクセスの要求をブロック
+permissions-site-xr-disable-desc = 上記以外のウェブサイトは、VR デバイスへのアクセスを要求させないようにします。VR デバイスへのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
 
 ## Site Permissions - Camera
 

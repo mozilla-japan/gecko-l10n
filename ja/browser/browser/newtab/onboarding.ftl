@@ -164,7 +164,7 @@ onboarding-lockwise-passwords-text2 = { -lockwise-brand-name } でパスワー�
 onboarding-lockwise-passwords-button2 = アプリを入手
 
 onboarding-lockwise-strong-passwords-title = 強固なパスワードを作成、保存
-onboarding-lockwise-strong-passwords-text = { -lockwise-brand-name } は強固なパスワードをその場で作成し、一箇所にすべて保存します。
+onboarding-lockwise-strong-passwords-text = { -lockwise-brand-name } は強固なパスワードをその場で作成し、一か所にすべて保存します。
 onboarding-lockwise-strong-passwords-button = ログイン情報を管理
 
 onboarding-facebook-container-title = Facebook に境界線を

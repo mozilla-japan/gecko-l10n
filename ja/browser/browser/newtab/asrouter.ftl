@@ -134,13 +134,13 @@ cfr-whatsnew-lockwise-take-link-text = アプリを入手
 ## Picture-in-Picture
 
 cfr-whatsnew-pip-header = 動画をながら見
-cfr-whatsnew-pip-body = ピクチャーインピクチャー機能で、動画だけ小さい@@Window@@で再生できます。他のタブを開いていても視聴できます。
+cfr-whatsnew-pip-body = ピクチャーインピクチャー機能で、動画だけを小さい@@Window@@で再生できます。他のタブで作業しながらでも視聴できます。
 cfr-whatsnew-pip-cta = 詳細
 
 ## Permission Prompt
 
 cfr-whatsnew-permission-prompt-header = 迷惑なポップアップをより少なく
-cfr-whatsnew-permission-prompt-body = { -brand-shorter-name } はポップアップメッセージの送信を自動的に確認するサイトをブロックするようにしています。
+cfr-whatsnew-permission-prompt-body = { -brand-shorter-name } がウェブサイトによるポップアップ通知の確認をブロックするようになりました。
 cfr-whatsnew-permission-prompt-cta = 詳細
 
 ## Fingerprinter Counter
