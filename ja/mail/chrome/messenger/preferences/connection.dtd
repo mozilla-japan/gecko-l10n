@@ -25,6 +25,8 @@
 <!ENTITY  http.accesskey		"h">
 <!ENTITY  ssl.label			"SSL プロキシー:">
 <!ENTITY  ssl.accesskey			"s">
+<!ENTITY  https.label			"HTTPS プロキシー:">
+<!ENTITY  https.accesskey		"S">
 <!ENTITY  socks.label			"SOCKS ホスト:">
 <!ENTITY  socks.accesskey		"c">
 <!ENTITY  socks4.label			"SOCKS v4">
@@ -46,9 +48,11 @@
 <!ENTITY  noproxyLocalhostDesc.label	"localhost, 127.0.0.1 および ::1 への接続はプロキシーが使用されません。">
 <!ENTITY  shareproxy.label		"すべてのプロトコルでこのプロキシーサーバーを使用する">
 <!ENTITY  shareproxy.accesskey		"x">
-<!ENTITY  autologinproxy.label          "パスワードを保存してある場合は認証を確認しない">
+<!ENTITY  proxyHttpSharing.label	"このプロキシーを HTTPS でも使用する">
+<!ENTITY  proxyHttpSharing.accesskey	"x">
+<!ENTITY  autologinproxy.label		"パスワードを保存してある場合は認証を確認しない">
 <!ENTITY  autologinproxy.accesskey	"i">
-<!ENTITY  autologinproxy.tooltip        "このオプションは、プロキシーへのパスワードが保存してある場合、確認することなく認証を行います。認証に失敗した場合は確認を行います。">
+<!ENTITY  autologinproxy.tooltip	"このオプションは、プロキシーへのパスワードが保存してある場合、確認することなく認証を行います。認証に失敗した場合は確認を行います。">
 <!ENTITY  socksRemoteDNS.label		"SOCKS v5 を使用するときは DNS もプロキシーを使用する">
 <!ENTITY  socksRemoteDNS.accesskey	"d">
 <!ENTITY  dnsOverHttps.label		"DNS over HTTPS を有効にする">

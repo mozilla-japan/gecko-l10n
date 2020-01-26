@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label		"次の中からメッセージを検索:">
 <!ENTITY searchHeading.accesskey	"h">
 <!ENTITY searchSubfolders.label		"サブフォルダーも検索する">
@@ -25,7 +25,7 @@
 <!ENTITY saveAsVFButton.label		"検索フォルダーとして保存">
 <!ENTITY saveAsVFButton.accesskey	"v">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for ABSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label		"次の中からカードを検索:">
 <!ENTITY abSearchHeading.accesskey	"h"> 
 <!ENTITY propertiesButton.label		"@@PropertyCMD@@">

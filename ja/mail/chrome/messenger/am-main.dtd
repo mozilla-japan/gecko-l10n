@@ -4,6 +4,8 @@
 
 <!-- extracted from am-main.xul -->
 
+<!-- extracted from am-main.xhtml -->
+
 <!ENTITY accountTitle.label		"アカウント設定">
 <!ENTITY accountName.label		"アカウント名:">
 <!ENTITY accountName.accesskey		"N">

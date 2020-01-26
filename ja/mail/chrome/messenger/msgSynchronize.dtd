@@ -4,6 +4,8 @@
 
 <!-- extracted from MsgSynchronize.xul and msgSelectOfflineFolders.xul-->
 
+<!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml-->
+
 <!ENTITY MsgSynchronize.label		"メッセージのダウンロードと同期">
 <!ENTITY MsgSelect.label		"オフラインで使用する項目">
 <!ENTITY MsgSyncDesc.label		"オフラインで使用するように設定されているメールフォルダーとニュースグループについて、今すぐメッセージのダウンロードと同期をします。@@[@@選択@@]@@ ボタンを押すとオフラインで使用する項目の設定を変更できます。">

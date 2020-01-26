@@ -1011,3 +1011,4 @@ target dir             gecko-string hg changeset rev:id     by              comm
 dom, toolkit            12570:88bf449fcd67   2020-01-16     mar             sync dom, toolkit
 browser                 12579:f16942d4057a   2020-01-20     hATrayflood     sync browser
 mobile                  12605:ac346883350e   2020-01-25     mar             sync mobile
+mail, suite, dom        12605:ac346883350e   2020-01-25     mar             sync mail, suite, dom

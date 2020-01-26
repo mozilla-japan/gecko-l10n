@@ -4,6 +4,8 @@
 
 <!-- extracted from am-archiveoptions.xul -->
 
+<!-- extracted from am-archiveoptions.xhtml -->
+
 <!ENTITY dialogTitle.label		"アーカイブオプション">
 <!ENTITY archiveGranularityPrefix.label	"アーカイブメッセージを次の場所に保存します:">
 <!ENTITY archiveFlat.label		"単独のフォルダー">
