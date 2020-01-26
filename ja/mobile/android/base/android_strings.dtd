@@ -21,23 +21,15 @@
 <!ENTITY firstrun_data_message "データを減らせば節約に">
 <!ENTITY firstrun_data_subtext2 "画像を非表示にしてサイト訪問時のデータ消費を節約しましょう。">
 <!ENTITY firstrun_sync_title "同期">
-<!ENTITY updatednewfirstrun_sync_title "アカウント">
-<!ENTITY firstrun_sync_message2 "中断してもピックアップ">
 <!ENTITY firstrun_sync_message3 "ブックマークや履歴、パスワードを携帯端末と同期しましょう。">
 <!ENTITY firstrun_sync_subtext2 "Sync を利用すれば、&brandShortName; に保存したブックマーク、パスワードやその他の情報を、利用中のどの端末からでも見つけることができます。">
 <!ENTITY newfirstrun_sync_subtext "モバイル端末に保存したものをデスクトップ版 Firefox と、秘密を守って安全に同期します。">
-<!ENTITY updatednewfirstrun_sync_subtext "アカウントにログインして &brandShortName; を活用しましょう">
-<!ENTITY firstrun_signin_message "接続して始めましょう">
 <!ENTITY firstrun_sendtab_title "タブを送信">
 <!ENTITY firstrun_sendtab_message "タブをモバイル端末からデスクトップへ — すぐに共有できます。">
-<!ENTITY firstrun_signin_button "Sync にログイン">
-<!ENTITY newfirstrun_signin_button "Sync をオンにする">
-<!ENTITY updatednewfirstrun_signin_button "&brandShortName; にログイン">
+<!ENTITY firstrun_signin_message "接続して始めましょう">
 <!ENTITY onboard_start_button_browser "ブラウジングを始める">
 <!ENTITY firstrun_button_notnow "今はしない">
 <!ENTITY firstrun_button_next "次へ">
-
-<!ENTITY firstrun_signin_button2 "ログイン">
 
 <!ENTITY firstrun_tabqueue_title "リンク">
 
@@ -888,12 +880,17 @@ activity_stream_signin_prompt, activity_stream_signin_prompt_button):
 - These labels are shown in the Activity Stream recommending the user to sign in. -->
 <!ENTITY activity_stream_signin_title "&brandShortName; へようこそ">
 <!ENTITY activity_stream_signin_description "Firefox アカウントでブックマークやパスワード、他の設定を同期しましょう。">
-<!ENTITY activity_stream_signin_button "ログイン">
-
 <!ENTITY activity_stream_signup_button "アカウント登録">
 <!ENTITY activity_stream_signin_prompt "アカウントをお持ちですか？">
 <!-- LOCALIZATION NOTE (activity_stream_signin_prompt_button): To be used in continuation of activity_stream_signin_prompt. -->
 <!ENTITY activity_stream_signin_prompt_button "ログイン">
+
+<!-- LOCALIZATION NOTE (activity_stream_firefox_promo_title,
+     activity_stream_firefox_promo_description, activity_stream_firefox_promo_button):
+     These labels are shown in an Activity Stream banner. -->
+<!ENTITY activity_stream_firefox_promo_title "すべてが新しくなった Firefox が 2020 年に登場">
+<!ENTITY activity_stream_firefox_promo_description "近日公開: 向上したパフォーマンス、強化型トラッキング防止、そして検索、保存、共有など、オンラインコンテンツを楽しむために設計された機能。">
+<!ENTITY activity_stream_firefox_promo_button "プレビュー版を試す">
 
 <!ENTITY activity_stream_topsites "トップサイト">
 <!-- LOCALIZATION NOTE (activity_stream_topstories): &brandPocket is the brand of the company, Pocket, that is being used to provide suggestions for articles. -->
