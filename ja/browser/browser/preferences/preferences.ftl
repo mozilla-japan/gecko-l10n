@@ -240,6 +240,19 @@ colors-settings =
     .label = @@Colors@@設定...
     .accesskey = C
 
+# Zoom is a noun, and the message is used as header for a group of options
+preferences-zoom-header = ズーム
+
+preferences-default-zoom = @@Default-@@ズーム
+    .accesskey = z
+
+preferences-default-zoom-value =
+    .label = { $percentage }%
+
+preferences-zoom-text-only =
+    .label = 文字サイズのみ変更
+    .accesskey = t
+
 language-header = 言語
 
 choose-language-description = ウェブページの表示に使用する言語の優先順位を設定できます。
@@ -693,6 +706,13 @@ search-keyword-warning-bookmark = ブックマークで使用されているキ�
 ## Containers Section
 
 containers-back-link = « 戻る
+
+containers-back-button =
+    .aria-label =
+      { PLATFORM() ->
+          [windows] オプションに戻る
+         *[other] 設定に戻る
+      }
 containers-header = コンテナータブ
 containers-add-button =
     .label = @@New-CMD@@コンテナーを追加
@@ -1179,6 +1199,11 @@ permissions-location-settings =
     .label = 設定...
     .accesskey = t
 
+permissions-xr = バーチャルリアリティ
+permissions-xr-settings =
+    .label = 設定...
+    .accesskey = t
+
 permissions-camera = カメラ
 permissions-camera-settings =
     .label = 設定...
@@ -1241,6 +1266,9 @@ collection-header = { -brand-short-name } のデータ収集と利用につい�
 
 collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
 collection-privacy-notice = 個人情報保護方針
+
+collection-health-report-telemetry-disabled = { -vendor-short-name } への技術的な対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
+collection-health-report-telemetry-disabled-link = 詳細情報
 
 collection-health-report =
     .label = { -brand-short-name } が技術的な対話データを { -vendor-short-name } へ送信することを許可する

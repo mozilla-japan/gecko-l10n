@@ -131,6 +131,30 @@ cfr-whatsnew-lockwise-take-body =
    バックアップしたパスワードに安全にアクセスできます。
 cfr-whatsnew-lockwise-take-link-text = アプリを入手
 
+## Picture-in-Picture
+
+cfr-whatsnew-pip-header = 動画をながら見
+cfr-whatsnew-pip-body = ピクチャーインピクチャー機能で、動画だけを小さい@@Window@@で再生できます。他のタブで作業しながらでも視聴できます。
+cfr-whatsnew-pip-cta = 詳細
+
+## Permission Prompt
+
+cfr-whatsnew-permission-prompt-header = 迷惑なポップアップをより少なく
+cfr-whatsnew-permission-prompt-body = { -brand-shorter-name } がウェブサイトによるポップアップ通知の確認をブロックするようになりました。
+cfr-whatsnew-permission-prompt-cta = 詳細
+
+## Fingerprinter Counter
+
+# This string is displayed before a large numeral that indicates the total
+# number of tracking elements blocked. Don’t add $fingerprinterCount to your
+# localization, because it would result in the number showing twice.
+cfr-whatsnew-fingerprinter-counter-header = { $fingerprinterCount } 個のフィンガープリント採取をブロックしました
+cfr-whatsnew-fingerprinter-counter-body = { -brand-shorter-name } は、あなたの広告プロフィールを作るために端末と行動に関する情報を密かに収集する、フィンガープリント採取の多くをブロックします。
+
+# Message variation when fingerprinters count is less than 10
+cfr-whatsnew-fingerprinter-counter-header-alt = フィンガープリント採取
+cfr-whatsnew-fingerprinter-counter-body-alt = { -brand-shorter-name } は、あなたの広告プロフィールを作るために端末と行動に関する情報を密かに収集する、フィンガープリント採取をブロックできます。
+
 ## Bookmark Sync
 
 cfr-doorhanger-sync-bookmarks-header = このブックマークを携帯電話で使う
