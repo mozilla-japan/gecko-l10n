@@ -56,8 +56,6 @@ onboarding-fullpage-form-email =
 onboarding-sync-welcome-header = { -brand-product-name } をあなたとともに
 onboarding-sync-welcome-content = すべての端末で、ブックマーク、履歴、パスワード、その他の設定を取得できます。
 onboarding-sync-welcome-learn-more-link = Firefox アカウントに関する詳細情報
-onboarding-sync-form-invalid-input = メールアドレスを正しく入力してください
-onboarding-sync-legal-notice = 続行すると、<a data-l10n-name="terms">サービス利用規約</a> と <a data-l10n-name="privacy">プライバシーに関する通知</a> に同意したものとみなします。
 
 onboarding-sync-form-input =
     .placeholder = メールアドレス
@@ -152,6 +150,9 @@ onboarding-send-tabs-title = 手軽にタブ送信
 # "Send Tabs" refers to "Send Tab to Device" feature that appears when opening a
 # tab's context menu.
 onboarding-send-tabs-text = タブ送信は、コピー＆ペーストしたりブラウザーを切り替えたりせずに、端末間で手軽にページを共有できます。
+# "Send Tabs" refers to "Send Tab to Device" feature that appears when opening a
+# tab's context menu.
+onboarding-send-tabs-text2 = URL をコピーしたりブラウザーを切り替えたりせずに、端末間で簡単にページを共有できます。
 onboarding-send-tabs-button = タブ送信を始めてみる
 
 onboarding-pocket-anywhere-title = どこでも視聴
@@ -162,10 +163,18 @@ onboarding-lockwise-passwords-title = パスワードをどこにでも
 onboarding-lockwise-passwords-text2 = { -lockwise-brand-name } でパスワードを安全に保存しつつ、ログイン操作が簡単になります。
 onboarding-lockwise-passwords-button2 = アプリを入手
 
+onboarding-lockwise-strong-passwords-title = 強固なパスワードを作成、保存
+onboarding-lockwise-strong-passwords-text = { -lockwise-brand-name } は強固なパスワードをその場で作成し、一か所にすべて保存します。
+onboarding-lockwise-strong-passwords-button = ログイン情報を管理
+
 onboarding-facebook-container-title = Facebook に境界線を
 onboarding-facebook-container-text2 = { -facebook-container-brand-name } を使うと Facebook プロファイルが隔離されるので、Facebook のターゲティング広告が機能しにくくなります。
 onboarding-facebook-container-button = 拡張機能を追加
 
+
+onboarding-import-browser-settings-title = ブックマークやパスワードなどを@@Import@@
+onboarding-import-browser-settings-text = すぐに飛び込もう - Chrome からサイトと設定を簡単に持ち込めます。
+onboarding-import-browser-settings-button = Chrome からデータを@@Import-suru@@
 
 ## Message strings belonging to the Return to AMO flow
 

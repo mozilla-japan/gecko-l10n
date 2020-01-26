@@ -18,12 +18,6 @@ login-filter =
 
 create-login-button = @@New-CMD@@ログイン情報を作成
 
-# This string is used as alternative text for favicon images.
-# Variables:
-#   $title (String) - The title of the website associated with the favicon.
-login-favicon =
-  .alt = { $title } の Favicon
-
 fxaccounts-sign-in-text = 他の端末でもパスワードが使える
 fxaccounts-sign-in-button = { -sync-brand-short-name } にログイン
 fxaccounts-avatar-button =
@@ -61,10 +55,6 @@ about-logins-login-list-empty-search-description = 検索条件に一致する�
 login-list-item-title-new-login = @@New-CMD@@ログイン情報
 login-list-item-subtitle-new-login = 認証情報を入力してください
 login-list-item-subtitle-missing-username = (ユーザー名なし)
-about-logins-list-item-warning-icon = 
-  .alt = 警告アイコン
-  .title = 漏洩したウェブサイト
-
 about-logins-list-item-breach-icon =
   .title = 漏洩したウェブサイト
 
@@ -76,14 +66,12 @@ login-intro-description = 別の端末の { -brand-product-name } に保存し�
 login-intro-instruction-fxa = ログイン情報を保存した端末で { -fxaccount-brand-name } を作成、またはログインしてください
 login-intro-instruction-fxa-settings = { -sync-brand-short-name } の設定のログイン情報のチェックボックスが選択されているか確認してください
 about-logins-intro-instruction-help = <a data-l10n-name="help-link">{ -lockwise-brand-short-name } サポート</a> で詳細なヘルプを確認できます
-
 about-logins-intro-import = 他のブラウザーでログイン情報を保存した場合は、<a data-l10n-name="import-link">そちらから { -lockwise-brand-short-name } にインポート</a>できます。
 
 ## Login
 
 login-item-new-login-title = @@New-CMD@@ログイン情報を作成
 login-item-edit-button = 編集
-login-item-delete-button = 削除
 about-logins-login-item-remove-button = 消去
 login-item-origin-label = ウェブサイトの URL
 login-item-origin =
@@ -98,6 +86,8 @@ login-item-password-reveal-checkbox-show =
   .title = パスワードを表示
 login-item-password-reveal-checkbox-hide =
   .title = パスワードを隠す
+login-item-password-reveal-checkbox =
+  .aria-label = パスワードを表示
 login-item-copy-password-button-text = コピー
 login-item-copied-password-button-text = コピーしました！
 login-item-save-changes-button = 変更を保存
@@ -128,8 +118,6 @@ enable-password-sync-preferences-button =
        *[other] { -sync-brand-short-name } の設定に移動
     }
   .accesskey = V
-
-confirm-delete-dialog-title = このログイン情報を削除しますか？
 about-logins-enable-password-sync-dont-ask-again-button =
   .label = 次回からは確認しない
   .accesskey = D
@@ -142,8 +130,6 @@ confirmation-dialog-dismiss-button =
 
 about-logins-confirm-remove-dialog-title = このログイン情報を消去しますか？
 confirm-delete-dialog-message = この操作は元に戻せません。
-confirm-delete-dialog-confirm-button = 削除
-
 about-logins-confirm-remove-dialog-confirm-button = 消去
 
 confirm-discard-changes-dialog-title = 未保存の変更を破棄しますか？
@@ -158,12 +144,6 @@ breach-alert-dismiss =
     .title = この警告を閉じる
 
 ## Error Messages
-
-# This is an error message that appears when a user attempts to save
-# a new login that is identical to an existing saved login.
-# Variables:
-#   $loginTitle (String) - The title of the website associated with the login.
-about-logins-error-message-duplicate-login = そのユーザー名は { $loginTitle } では登録済みです。
 
 # This is an error message that appears when a user attempts to save
 # a new login that is identical to an existing saved login.
