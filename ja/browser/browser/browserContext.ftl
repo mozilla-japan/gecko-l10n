@@ -65,6 +65,26 @@ toolbar-button-page-save =
 main-context-menu-bookmark-page =
     .aria-label = このページをブックマーク
     .accesskey = m
+main-context-menu-bookmark-add =
+    .aria-label = このページをブックマーク
+    .accesskey = m
+    .tooltiptext = このページをブックマークに追加します
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the add bookmark command.
+main-context-menu-bookmark-add-with-shortcut =
+    .aria-label = このページをブックマーク
+    .accesskey = m
+    .tooltiptext = このページをブックマークに追加します ({ $shortcut })
+main-context-menu-bookmark-change =
+    .aria-label = このブックマークを編集
+    .accesskey = m
+    .tooltiptext = このページのブックマークを編集します
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the edit bookmark command.
+main-context-menu-bookmark-change-with-shortcut =
+    .aria-label = このブックマークを編集
+    .accesskey = m
+    .tooltiptext = このページのブックマークを編集します ({ $shortcut })
 main-context-menu-open-link =
     .label = 選択した URL を開く
     .accesskey = O

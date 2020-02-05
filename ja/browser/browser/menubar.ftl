@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## File Menu
 
 menu-file =
@@ -191,6 +192,10 @@ menu-bookmarks-menu =
     .accesskey = B
 menu-bookmarks-show-all =
     .label = すべてのブックマークを表示
+menu-bookmark-this-page =
+    .label = このページをブックマーク
+menu-bookmark-edit =
+    .label = このブックマークを編集
 menu-bookmarks-all-tabs =
     .label = すべてのタブをブックマーク...
 menu-bookmarks-toolbar =
