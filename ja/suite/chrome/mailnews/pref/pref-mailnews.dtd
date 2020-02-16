@@ -8,6 +8,8 @@
 <!ENTITY confirmMove.accesskey            "C">
 <!ENTITY preserveThreading.label          "メッセージを並べ替えるときにスレッド表示を維持する">
 <!ENTITY preserveThreading.accesskey      "v">
+<!ENTITY loadInBackground.label           "@@NewTab@@を開いたら@@Front@@に表示する">
+<!ENTITY loadInBackground.accesskey       "t">
 <!ENTITY mailBiffOnNewWindow.label        "メールとニュースグループを起動したときにだけ新着メールを確認する"><!--Only check for new mail after opening Mail &amp; Newsgroups-->
 <!ENTITY mailBiffOnNewWindow.accesskey    "O">
 
