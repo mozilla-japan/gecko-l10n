@@ -45,8 +45,10 @@
 <!ENTITY  newMessageCmd.accesskey		"m">
 <!ENTITY  newContactCmd.label			"アドレス帳の連絡先...">
 <!ENTITY  newContactCmd.accesskey		"C">
-<!ENTITY openMessageFileCmd.label		"メッセージファイルを開く...">
-<!ENTITY openMessageFileCmd.accesskey		"O">
+<!ENTITY openMenuCmd.label			"開く">
+<!ENTITY openMenuCmd.accesskey			"O">
+<!ENTITY openMessageFileCmd.label		"メッセージファイル...">
+<!ENTITY openMessageFileCmd.accesskey		"M">
 <!ENTITY saveAsMenu.label			"@@SaveAs@@">
 <!ENTITY saveAsMenu.accesskey			"S">
 <!ENTITY saveAsFileCmd.label			"ファイル">

@@ -1017,4 +1017,5 @@ mail, suite, dom        12605:ac346883350e   2020-01-25     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mail, chat, suite       12633:170896d1c35b   2020-02-07     mar             sync mail, chat, suite
+mail, calendar          12659:df3434923fd7   2020-02-13     mar             sync mail, calendar
 
