@@ -21,9 +21,11 @@
 <!-- Open menu popup in File menu -->
 <!ENTITY lightning.menupopup.open.label			"開く">
 <!ENTITY lightning.menupopup.open.accesskey		"O">
-<!ENTITY lightning.menupopup.open.message.label		"メッセージを開く...">
+<!ENTITY lightning.menupopup.open.message.label		"メッセージファイル...">
 <!ENTITY lightning.menupopup.open.message.accesskey	"M">
-<!ENTITY lightning.menupopup.open.calendar.label	"カレンダーファイルを開く...">
+
+<!-- Open menu popup in File menu -->
+<!ENTITY lightning.menupopup.open.calendar.label	"カレンダーファイル...">
 <!ENTITY lightning.menupopup.open.calendar.accesskey	"C">
 
 <!-- View Menu -->

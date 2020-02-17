@@ -18,3 +18,12 @@
 <!-- LOCALIZATION NOTE (glodaFacetView.pageMore.label): Label at the bottom
      of the results list to show more hits. -->
 <!ENTITY glodaFacetView.pageMore.label	"続きを表示 &#187;">
+
+<!-- LOCALIZATION NOTE(glodaFacetView.results.message.openEmailAsList.label2): The
+     label for the button/link that causes us to display all of the emails in
+     the active set in a new thread pane display tab. -->
+<!ENTITY glodaFacetView.openEmailAsList.label	"結果をリスト表示">
+
+<!-- LOCALIZATION NOTE(glodaFacetView.results.message.openEmailAsList.tooltip):
+     The tooltip to display when hovering over the openEmailAsList label. -->
+<!ENTITY glodaFacetView.openEmailAsList.tooltip	"現在のセットに該当するすべてのメッセージを@@NewTab@@に表示します">
