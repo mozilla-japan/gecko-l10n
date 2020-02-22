@@ -49,15 +49,16 @@ browser-main-window-content-title =
 ## Variables
 ##   $title (String) - Content title string.
 
-browser-main-window-content-title-default = { PLATFORM() ->
-    [macos] { $title }
-   *[other] { $title } - { -brand-full-name }
-}
-
-browser-main-window-content-title-private = { PLATFORM() ->
-    [macos] { $title } - (プライベートブラウジング)
-   *[other] { $title } - { -brand-full-name } (プライベートブラウジング)
-}
+browser-main-window-content-title-default =
+    { PLATFORM() ->
+        [macos] { $title }
+       *[other] { $title } - { -brand-full-name }
+    }
+browser-main-window-content-title-private =
+    { PLATFORM() ->
+        [macos] { $title } - (プライベートブラウジング)
+       *[other] { $title } - { -brand-full-name } (プライベートブラウジング)
+    }
 
 ##
 
