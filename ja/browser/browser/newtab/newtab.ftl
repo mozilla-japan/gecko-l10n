@@ -133,6 +133,11 @@ newtab-label-recommended = 話題の記事
 newtab-label-saved = { -pocket-brand-name } に保存しました
 newtab-label-download = ダウンロード済み
 
+# This string is used in the story cards to indicate sponsored content
+# Variables:
+#  $sponsorOrSource (String): This is the name of a company or their domain
+newtab-label-sponsored = 提供 { $sponsorOrSource }
+
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.
 
@@ -187,6 +192,7 @@ newtab-discovery-empty-section-topstories-timed-out = おおっと、このセ�
 newtab-pocket-read-more = 人気のトピック:
 newtab-pocket-more-recommendations = 他のおすすめ
 newtab-pocket-whats-pocket = { -pocket-brand-name } とは？
+newtab-pocket-learn-more = 詳細
 newtab-pocket-cta-button = { -pocket-brand-name } を入手
 newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に保存して、魅力的な読み物を思う存分楽しみましょう。
 

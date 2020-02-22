@@ -129,6 +129,8 @@ policy-PasswordManagerEnabled = パスワードのパスワードマネージャ
 
 policy-Permissions = カメラ、マイク、位置情報、通知の許可と拒否を設定します。
 
+policy-Permissions2 = カメラ、マイク、位置情報、通知、自動再生の許可と拒否を設定します。
+
 policy-PopupBlocking = 特定のウェブサイトのポッポアップ表示を@@Default@@で許可します。
 
 policy-Preferences = 設定のサブセットに対する値を設定してロックします。
@@ -155,6 +157,8 @@ policy-SSLVersionMax = SSL の最高バージョンを設定します。
 policy-SSLVersionMin = SSL の最低バージョンを設定します。
 
 policy-SupportMenu = ヘルプメニューにカスタムサポートメニューを追加します。
+
+policy-UserMessaging = 特定のメッセージをユーザーに表示させないようにします。
 
 # “format” refers to the format used for the value of this policy.
 policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細はドキュメントをご覧ください。

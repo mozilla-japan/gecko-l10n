@@ -718,6 +718,10 @@ containers-add-button =
     .label = @@New-CMD@@コンテナーを追加
     .accesskey = A
 
+containers-new-tab-check =
+    .label = @@NewTab@@を開くコンテナーを毎回選択する
+    .accesskey = S
+
 containers-preferences-button =
     .label = 設定
 containers-remove-button =

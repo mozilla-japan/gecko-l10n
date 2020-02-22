@@ -87,6 +87,8 @@ graphics-crash-guards-title = クラッシュガードが無効化した機能
 graphics-workarounds-title = 回避策
 # Windowing system in use on Linux (e.g. X11, Wayland).
 graphics-window-protocol = @@Window@@プロトコル
+# Desktop environment in use on Linux (e.g. GNOME, KDE, XFCE, etc).
+graphics-desktop-environment = デスクトップ環境
 place-database-title = Places データベース
 place-database-integrity = 完全性
 place-database-verify-integrity = 完全性を検証
