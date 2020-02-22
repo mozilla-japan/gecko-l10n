@@ -114,10 +114,6 @@ options-source-maps-tooltip =
 # The message shown for settings that trigger page reload
 options-context-triggers-page-refresh = * 現在のセッションのみ有効。再読み込みで復帰
 
-##
-
-# The heading for the Debugger section
-options-debugger-label = デバッガー
 # The label for the checkbox that toggles the display of the platform data in the
 # Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference in about:config
 options-show-platform-data-label = Gecko プラットフォームのデータを表示

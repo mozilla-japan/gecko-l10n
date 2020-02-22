@@ -41,6 +41,8 @@ inactive-css-not-display-block-on-floated = この要素は <strong>floated<stro
 
 inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により、<strong>{ $property }</strong> をオーバーライドすることはできません。
 
+inactive-css-position-property-on-unpositioned-box = この要素は配置の指定がないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
 ## the problem can be solved.
@@ -72,3 +74,5 @@ inactive-css-non-replaced-inline-or-table-row-or-row-group-fix = <strong>display
 inactive-css-non-replaced-inline-or-table-column-or-column-group-fix = <strong>display:inline-block</strong> を追加してみてください。{ learn-more }
 
 inactive-css-not-display-block-on-floated-fix = <strong>float</strong> を削除、または <strong>display:block</strong> を追加してみてください。{ learn-more }
+
+inactive-css-position-property-on-unpositioned-box-fix = <strong>position</strong> プロパティに <strong>static</strong> 以外の値を設定してみてください。{ learn-more }

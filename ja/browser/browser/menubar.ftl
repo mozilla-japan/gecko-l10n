@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## File Menu
 
 menu-file =
@@ -61,27 +60,6 @@ menu-file-go-offline =
 menu-edit =
     .label = 編集
     .accesskey = E
-menu-edit-undo =
-    .label = @@Undo@@
-    .accesskey = U
-menu-edit-redo =
-    .label = @@Redo@@
-    .accesskey = R
-menu-edit-cut =
-    .label = @@Cut@@
-    .accesskey = t
-menu-edit-copy =
-    .label = コピー
-    .accesskey = C
-menu-edit-paste =
-    .label = @@Paste@@
-    .accesskey = P
-menu-edit-delete =
-    .label = 削除
-    .accesskey = D
-menu-edit-select-all =
-    .label = すべて選択
-    .accesskey = A
 menu-edit-find-on =
     .label = このページを検索...
     .accesskey = F
@@ -121,9 +99,6 @@ menu-view-full-zoom-enlarge =
 menu-view-full-zoom-reduce =
     .label = 縮小
     .accesskey = O
-menu-view-full-zoom-reset =
-    .label = リセット
-    .accesskey = R
 menu-view-full-zoom-actual-size =
     .label = 等倍
     .accesskey = A

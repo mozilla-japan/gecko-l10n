@@ -1018,4 +1018,6 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 mail, chat, suite       12633:170896d1c35b   2020-02-07     mar             sync mail, chat, suite
 mail, calendar          12659:df3434923fd7   2020-02-13     mar             sync mail, calendar
+browser                 12672:fae4d35e984a   2020-02-19     hATrayflood     sync browser
+devtools, toolkit       12672:fae4d35e984a   2020-02-19     hATrayflood     sync devtools, toolkit
 

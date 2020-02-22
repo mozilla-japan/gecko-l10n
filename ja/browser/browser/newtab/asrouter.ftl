@@ -131,6 +131,15 @@ cfr-whatsnew-lockwise-take-body =
    バックアップしたパスワードに安全にアクセスできます。
 cfr-whatsnew-lockwise-take-link-text = アプリを入手
 
+## Search Bar
+
+cfr-whatsnew-searchbar-title = アドレスバーからクリック一つで
+# Variables:
+#   $searchEngineName - Name of the current default search engine as also shown in the urlbar.
+cfr-whatsnew-searchbar-body-enginename = アドレスバーをクリックすると、よく見るサイトが表示されるようになりました。閲覧履歴と { $searchEngineName } の検索結果をより素早く見つけられます。
+cfr-whatsnew-searchbar-body-generic = アドレスバーをクリックすると、よく見るサイトが表示されるようになりました。閲覧履歴からの検索結果をより素早く見つけられます。
+cfr-whatsnew-searchbar-icon-alt-text = 虫眼鏡アイコン
+
 ## Picture-in-Picture
 
 cfr-whatsnew-pip-header = 動画をながら見

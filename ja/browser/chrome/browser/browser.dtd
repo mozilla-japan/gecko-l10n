@@ -113,6 +113,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY enterFullScreenCmd.accesskey	"F">
 <!ENTITY exitFullScreenCmd.label	"@@FullScreen@@から戻る">
 <!ENTITY exitFullScreenCmd.accesskey	"F">
+
 <!ENTITY fullScreenCmd.label		"@@FullScreen@@">
 <!ENTITY fullScreenCmd.accesskey	"F">
 <!ENTITY fullScreenCmd.macCommandKey	"f">
@@ -175,7 +176,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxa.menu.accountSettings.label		"アカウントの設定">
 <!ENTITY fxa.menu.manageAccount2.label		"アカウントを管理">
 <!ENTITY fxa.menu.signOut.label			"ログアウト...">
-<!ENTITY fxa.menu.deviceSettings.label		"端末の設定">
 <!ENTITY fxa.menu.setupSync.label		"&syncBrand.shortName.label; をセットアップ...">
 
 <!-- LOCALIZATION NOTE (fxa.service) Used to define the different FxA services
@@ -246,6 +246,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY stopCmd.accesskey			"S">
 
 <!ENTITY stopCmd.macCommandKey			".">
+
 <!ENTITY goEndCap.tooltip			"アドレスバーに入力された URL へ移動します">
 <!ENTITY printButton.label			"@@Print@@">
 <!ENTITY printButton.tooltip			"このページを@@Print@@します">
@@ -498,6 +499,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY moreMenu.label				"その他">
 
 <!ENTITY openCmd.commandkey			"l">
+
 <!ENTITY urlbar.placeholder2			"URL または検索語句を入力します">
 <!ENTITY urlbar.accesskey			"d">
 <!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
@@ -581,6 +583,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchSetAsDefault.accesskey	"D">
 
 <!ENTITY openLinkCmdInTab.label			"リンクを@@NewTab@@で開く">
+
 <!ENTITY openLinkCmdInTab.accesskey		"T">
 <!ENTITY openLinkCmd.label			"リンクを@@NewWindow@@で開く">
 <!ENTITY openLinkCmd.accesskey			"W">
@@ -596,6 +599,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmdInContainerTab.accesskey	"b">
 <!ENTITY showOnlyThisFrameCmd.label		"このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey		"S">
+
 <!ENTITY reloadCmd.commandkey			"r">
 <!ENTITY reloadFrameCmd.label			"フレームの再読み込み">
 <!ENTITY reloadFrameCmd.accesskey		"R">
@@ -629,6 +633,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey		"L">
 <!ENTITY bookmarkThisFrameCmd.label		"このフレームをブックマーク">
 <!ENTITY bookmarkThisFrameCmd.accesskey		"m">
+
 <!ENTITY pageAction.copyLink.label		"リンクをコピー">
 
 <!-- LOCALIZATION NOTE(pocket-button.tooltiptext, saveToPocketCmd.label, saveLinkToPocketCmd.label, pocketMenuitem.label):
@@ -642,10 +647,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY emailPageCmd.label			"ページの URL をメールで送信...">
 <!ENTITY emailPageCmd.accesskey			"E">
-<!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.label			"@@SavePageAs@@...">
 <!ENTITY savePageCmd.accesskey			"A">
+<!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2			"P">
+<!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.commandkey			"s">
 <!ENTITY saveFrameCmd.label			"@@SaveFrameAs@@...">
 <!ENTITY saveFrameCmd.accesskey			"F">
@@ -812,6 +818,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY bidiSwitchPageDirectionItem.accesskey	"D">
 <!ENTITY bidiSwitchTextDirectionItem.label	"テキストの記述方向を切り替える">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey	"w">
+
 <!ENTITY bidiSwitchTextDirectionItem.commandkey	"X">
 
 <!ENTITY findOnCmd.label		"このページを検索...">

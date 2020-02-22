@@ -255,6 +255,11 @@ main-context-menu-send-to-device =
 main-context-menu-view-background-image =
     .label = 背景画像だけを表示
     .accesskey = w
+
+main-context-menu-generate-new-password =
+    .label = 生成パスワードを使う...
+    .accesskey = G
+
 main-context-menu-keyword =
     .label = この検索にキーワードを設定...
     .accesskey = K
