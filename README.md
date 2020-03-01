@@ -1,6 +1,6 @@
 # Gecko 日本語ローカライズ
 
-このリポジトリでは、Firefox, Thunderbird などで使用されている Gecko エンジンおよび製品 (Firefox, Android 版 Firefox, Thunderbird, Lightning, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に、[lot](https://github.com/mozilla-japan/lot) で ja (Windows, Linux, Android などの Mac 以外), ja-JP-mac (Mac) それぞれのリソースファイルを生成し、hg.mozilla.org のリポジトリに push することで実際の製品に反映されます。
+このリポジトリでは、Firefox, Thunderbird などで使用されている Gecko エンジンおよび製品 (Firefox, Thunderbird, Lightning, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に、[lot](https://github.com/mozilla-japan/lot) で ja (Windows, Linux などの macOS 以外), ja-JP-mac (macOS) それぞれのリソースファイルを生成し、hg.mozilla.org のリポジトリに push することで実際の製品に反映されます。
 
 ## フィードバックの送り方
 
