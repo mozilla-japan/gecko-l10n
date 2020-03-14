@@ -1013,11 +1013,16 @@ browser                 12579:f16942d4057a   2020-01-20     hATrayflood     sync
 mobile                  12605:ac346883350e   2020-01-25     mar             sync mobile
 mail, suite, dom        12605:ac346883350e   2020-01-25     mar             sync mail, suite, dom
 
-[l10n-mozilla-74.0]
+Released! [l10n-mozilla-74.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mail, chat, suite       12633:170896d1c35b   2020-02-07     mar             sync mail, chat, suite
 mail, calendar          12659:df3434923fd7   2020-02-13     mar             sync mail, calendar
 browser                 12672:fae4d35e984a   2020-02-19     hATrayflood     sync browser
 devtools, toolkit       12672:fae4d35e984a   2020-02-19     hATrayflood     sync devtools, toolkit
+
+[l10n-mozilla-75.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, netwerk, toolkit   12723:afb2c7997f9e   2020-03-10     mar             sync dom, netwerk, toolkit
 
