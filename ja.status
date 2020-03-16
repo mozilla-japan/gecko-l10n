@@ -1026,4 +1026,3 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 dom, netwerk, toolkit   12723:afb2c7997f9e   2020-03-10     mar             sync dom, netwerk, toolkit
 mail, calendar, suite   12740:83a5a4ffbe2b   2020-03-16     mar             sync mail, calendar, suite
-

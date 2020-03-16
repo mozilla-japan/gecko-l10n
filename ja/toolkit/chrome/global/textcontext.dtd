@@ -29,8 +29,6 @@
 
 <!ENTITY fillLoginMenu.label		"ログイン情報を入力">
 <!ENTITY fillLoginMenu.accesskey	"F">
-<!ENTITY useGeneratedPassword.label	"安全に生成されたパスワードを使用...">
-<!ENTITY useGeneratedPassword.accesskey	"S">
 <!ENTITY fillPasswordMenu.label		"パスワードを入力">
 <!ENTITY fillPasswordMenu.accesskey	"F">
 <!ENTITY fillUsernameMenu.label		"ユーザー名を入力">
