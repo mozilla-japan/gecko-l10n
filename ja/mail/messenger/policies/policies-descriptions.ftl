@@ -11,6 +11,8 @@
 
 policy-3rdparty = WebExtension が chrome.storage.managed を経由してアクセス可能なポリシーを設定します。
 
+policy-AppAutoUpdate = アプリケーションの自動更新を有効または無効にします。
+
 policy-AppUpdateURL = アプリケーションのカスタム更新 URL を設定します。
 
 policy-Authentication = ウェブサイトが対応する統合認証の設定を行います。
