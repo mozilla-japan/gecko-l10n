@@ -6,6 +6,7 @@
      equal to the value of accountManager.size entity minus the value
      of accountTree.width entity. -->
 <!ENTITY identityDialog.style		"min-width: 75ch;"><!-- en-US: 75ch; -->
+
 <!ENTITY identityListDesc.label		"差出人情報を設定してください:">
 
 <!ENTITY settingsTab.label		"設定">

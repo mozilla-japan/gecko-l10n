@@ -99,7 +99,7 @@
 <!ENTITY engine.prefs.label         "個人設定">
 <!ENTITY engine.prefs.accesskey     "e">
 
-<!ENTITY choice2.merge.main.label      "このパソコンのブラウザーデータを、サーバーに保存されているデータと統合する">
+<!ENTITY choice2.merge.main.label      "このパソコンのブラウザーデータを、サーバーに保存されている &syncBrand.shortName.label; データと統合する">
 <!ENTITY choice2.merge.recommended.label "推奨:">
 <!ENTITY choice2.client.main.label     "このパソコンのブラウザーデータを、サーバーに保存されている &syncBrand.shortName.label; データと置き換える">
 <!ENTITY choice2.server.main.label     "他のすべての端末のブラウザーデータを、このパソコンのデータと置き換える">

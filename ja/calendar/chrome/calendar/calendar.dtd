@@ -364,6 +364,7 @@
 <!ENTITY calendarproperties.firealarms.label		"アラーム通知する">
 <!ENTITY calendarproperties.cache3.label		"オフラインサポート">
 <!ENTITY calendarproperties.enabled.label		"このカレンダーを有効にする">
+<!ENTITY calendarproperties.enabled2.label		"このカレンダーを有効にする">
 <!ENTITY calendarproperties.forceDisabled.label		"このカレンダーのプロバイダーが見つかりませんでした。対象のアドオンが無効にされているかアンインストールされています。">
 <!ENTITY calendarproperties.unsubscribe.label		"登録解除">
 <!ENTITY calendarproperties.unsubscribe.accesskey	"U">

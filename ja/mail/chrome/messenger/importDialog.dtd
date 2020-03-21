@@ -27,7 +27,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY  window.width			"51em"><!-- en-US: 40em -->
 <!ENTITY  window.macWidth		"45em"><!-- en-US: 45em -->
 
-<!ENTITY importTitle.label		"@@ImportNoun@@@@Wizard@@">
+<!ENTITY importTitle.label		"&brandShortName; @@ImportNoun@@@@Wizard@@">
 <!ENTITY importShortDesc.label		"他のソフトからメール、アドレス帳、設定やフィルターを@@Import-simasu@@">
 
 <!ENTITY importDescription1.label	"この@@Wizard@@は、他のメールソフトや一般的な形式のアドレス帳からメッセージ、アドレス帳、購読フィード、設定、フィルターなどを &brandShortName; に@@Import-simasu@@。">

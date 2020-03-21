@@ -22,7 +22,7 @@
 <!ENTITY importTitle.label        "&brandShortName; @@ImportNoun@@@@Wizard@@">
 <!ENTITY importShortDesc.label    "他のソフトからメール、アドレス帳、設定やフィルターを@@Import-simasu@@">
 
-<!ENTITY importDescription1.label "他のメールソフトや一般的な形式のアドレス帳からメッセージ、アドレス帳、購読フィード、設定、フィルターなどを@@Import-simasu@@。">
+<!ENTITY importDescription1.label "他のメールソフトや一般的な形式のアドレス帳からメッセージ、アドレス帳、購読フィード、設定、フィルターなどを &brandShortName; に@@Import-simasu@@。">
 <!ENTITY importDescription2.label "@@ImportNoun@@後は &brandShortName; のメールやアドレス帳からアクセスできるようになります。">
 
 <!ENTITY selectDescription.label  "@@ImportNoun@@元のファイルタイプを選択してください:">

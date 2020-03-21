@@ -12,3 +12,6 @@
 <!ENTITY actionColumn2.accesskey "A">
 
 <!ENTITY search.placeholder      "ファイルの種類と処理方法を検索">
+
+<!ENTITY useAppChooser.label     "利用可能であればネイティブのアプリケーション選択機能を使用する">
+<!ENTITY useAppChooser.accesskey "U">

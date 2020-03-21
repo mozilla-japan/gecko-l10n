@@ -22,6 +22,15 @@
 
 <!ENTITY openTabs.label "@@Window@@の代わりにタブを開く場合">
 
+<!ENTITY middleClick.label "ウェブページ内のリンクを中クリック、Ctrl+クリックまたは Ctrl+Enter">
+<!ENTITY middleClick.accesskey "M">
+<!ENTITY middleClickMac.label "ウェブページ内のリンクを中クリック、&#8984;+クリックまたは &#8984;+Return">
+<!ENTITY middleClickMac.accesskey "M">
+<!ENTITY urlbar.label "ロケーションバー内で Ctrl+Enter">
+<!ENTITY urlbar.accesskey "L">
+<!ENTITY urlbarMac.label "ロケーションバー内で &#8984;+Return">
+<!ENTITY urlbarMac.accesskey "L">
+
 <!ENTITY openManagers.label "独立した@@Window@@の代わりに@@NewTab@@で開く">
 <!ENTITY openDataManager.label "データマネージャー">
 <!ENTITY openDataManager.accesskey "D">
