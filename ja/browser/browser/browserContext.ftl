@@ -62,9 +62,6 @@ toolbar-button-page-save =
 
 ## Simple menu items
 
-main-context-menu-bookmark-page =
-    .aria-label = このページをブックマーク
-    .accesskey = m
 main-context-menu-bookmark-add =
     .aria-label = このページをブックマーク
     .accesskey = m

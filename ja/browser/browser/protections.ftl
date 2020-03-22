@@ -56,6 +56,10 @@ fingerprinter-tab-content = フィンガープリント採取はブラウザー�
 cryptominer-tab-title = 暗号通貨マイニング
 cryptominer-tab-content = 暗号通貨マイニングは仮想通貨の採掘のために、あなたのシステムの計算リソースを利用します。暗号通貨マイニングスクリプトはあなたのバッテリーを消費し、コンピューターを遅くさせ、電気代を増やさせる可能性があります。<a data-l10n-name="learn-more-link">詳細</a>
 
+mobile-app-title = 端末を横断する広告トラッカーをブロック
+mobile-app-card-content = モバイルブラウザー組み込みの保護機能で広告トラッカーをブロックしましょう。
+mobile-app-links = <a data-l10n-name="lockwise-android-inline-link">Android 版</a>および <a data-l10n-name="lockwise-ios-inline-link">iOS 版</a> { -brand-product-name } ブラウザー
+
 lockwise-title = 二度とパスワードを忘れないように
 lockwise-title-logged-in = { -lockwise-brand-name }
 lockwise-header-content = { -lockwise-brand-name } はあなたのパスワードを安全にブラウザーに保存します。
@@ -63,6 +67,10 @@ lockwise-header-content-logged-in = パスワードを安全に保存して、�
 protection-report-view-logins-button = ログイン情報を確認
   .title = 保存したログイン情報に移動
 lockwise-no-logins-content = <a data-l10n-name="lockwise-inline-link">{ -lockwise-brand-name }</a> アプリを入手して、どこでもパスワードが使える
+
+lockwise-mobile-app-title = どこでもパスワードが使える
+lockwise-no-logins-card-content = { -brand-short-name } に保存したパスワードを他の端末でも利用できます。
+lockwise-app-links = <a data-l10n-name="lockwise-android-inline-link">Android 版</a>および <a data-l10n-name="lockwise-ios-inline-link">iOS 版</a> { -lockwise-brand-name }
 
 # This string is displayed after a large numeral that indicates the total number
 # of email addresses being monitored. Don’t add $count to

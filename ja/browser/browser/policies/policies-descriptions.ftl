@@ -11,6 +11,8 @@
 
 policy-3rdparty = WebExtension が chrome.storage.managed を経由してアクセス可能なポリシーを設定します。
 
+policy-AppAutoUpdate = アプリケーションの自動更新を有効または無効にします。
+
 policy-AppUpdateURL = アプリケーションのカスタム更新 URL を設定します。
 
 policy-Authentication = ウェブサイトが対応する統合認証の設定を行います。
@@ -30,6 +32,8 @@ policy-CaptivePortal = キャプティブポータルサポートを有効また
 policy-CertificatesDescription = 証明書を追加、または組み込みの証明書を利用します。
 
 policy-Cookies = ウェブサイトの Cookie の保存を許可するか拒否するか設定します。
+
+policy-DisabledCiphers = 暗号を無効にします。
 
 policy-DefaultDownloadDirectory = @@Default-@@ダウンロードディレクトリーを設定します。
 
@@ -126,8 +130,6 @@ policy-OverrideFirstRunPage = 初回起動時に表示されるページを上�
 policy-OverridePostUpdatePage = 更新後に表示される更新情報ページを上書きします。更新後のページを無効にするには、このポリシーの設定をブランクにします。
 
 policy-PasswordManagerEnabled = パスワードのパスワードマネージャーへの保存を有効にします。
-
-policy-Permissions = カメラ、マイク、位置情報、通知の許可と拒否を設定します。
 
 policy-Permissions2 = カメラ、マイク、位置情報、通知、自動再生の許可と拒否を設定します。
 

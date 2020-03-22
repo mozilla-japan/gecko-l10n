@@ -90,7 +90,6 @@ this container is a toolbar. This avoids double-speaking. -->
 
 <!ENTITY pageSourceCmd.label		"ページのソース">
 <!ENTITY pageSourceCmd.accesskey	"o">
-
 <!ENTITY pageSourceCmd.commandkey	"u">
 <!-- LOCALIZATION NOTE (pageSourceCmd.SafariCommandKey should match the
 Option+Command keyboard shortcut letter that Safari and Chrome use for "View
@@ -101,7 +100,6 @@ convenience of Safari and Chrome users on macOS. See bug 1398988. -->
 
 <!ENTITY pageInfoCmd.label		"ページの情報">
 <!ENTITY pageInfoCmd.accesskey		"I">
-
 <!ENTITY pageInfoCmd.commandkey		"i">
 <!ENTITY ldbCmd.label			"レイアウトデバッガー">
 <!ENTITY ldbCmd.accesskey		"L">
@@ -127,9 +125,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignInError.label		"&syncBrand.shortName.label; に再接続">
 <!ENTITY fxaUnverified.label		"アカウントを認証">
 
-
-<!ENTITY togglePictureInPicture.key2	"}">
-<!ENTITY togglePictureInPicture.key	"]"> <!-- } is above this key on many keyboards -->
 
 <!ENTITY fullScreenMinimize.tooltip	"@@Minimize@@">
 <!ENTITY fullScreenRestore.tooltip	"元に戻す">
@@ -219,7 +214,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenu.label			"ブックマーク">
 <!ENTITY bookmarksMenu.accesskey		"B">
-
 <!ENTITY bookmarkThisPageCmd.label		"このページをブックマーク">
 <!ENTITY editThisBookmarkCmd.label		"このブックマークを編集">
 <!ENTITY bookmarkThisPageCmd.commandkey		"d">
@@ -244,7 +238,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY reloadCmd.accesskey			"R">
 <!ENTITY stopCmd.label				"中止">
 <!ENTITY stopCmd.accesskey			"S">
-
 <!ENTITY stopCmd.macCommandKey			".">
 
 <!ENTITY goEndCap.tooltip			"アドレスバーに入力された URL へ移動します">
@@ -418,7 +411,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historyRestoreLastSession.label	"以前のセッションを復元">
 
 <!ENTITY showAllHistoryCmd2.label		"すべての履歴を表示"><!-- (^^; -->
-
 <!ENTITY showAllHistoryCmd.commandkey		"H">
 
 <!ENTITY appMenuHistory.showAll.label		"すべての履歴を表示">
@@ -599,7 +591,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmdInContainerTab.accesskey	"b">
 <!ENTITY showOnlyThisFrameCmd.label		"このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey		"S">
-
 <!ENTITY reloadCmd.commandkey			"r">
 <!ENTITY reloadFrameCmd.label			"フレームの再読み込み">
 <!ENTITY reloadFrameCmd.accesskey		"R">
@@ -651,7 +642,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY savePageCmd.accesskey			"A">
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2			"P">
-<!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.commandkey			"s">
 <!ENTITY saveFrameCmd.label			"@@SaveFrameAs@@...">
 <!ENTITY saveFrameCmd.accesskey			"F">
@@ -755,20 +745,17 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY fullZoomEnlargeCmd.label       "拡大">
 <!ENTITY fullZoomEnlargeCmd.accesskey   "I">
-
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
 <!ENTITY fullZoomEnlargeCmd.commandkey3 ";"> <!-- JIS キーボード用 -->
 
 <!ENTITY fullZoomReduceCmd.label        "縮小">
 <!ENTITY fullZoomReduceCmd.accesskey    "O">
-
 <!ENTITY fullZoomReduceCmd.commandkey   "-">
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
 <!ENTITY fullZoomResetCmd.label         "リセット">
 <!ENTITY fullZoomResetCmd.accesskey     "R">
-
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
@@ -792,7 +779,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.key			"Q">
 
 <!ENTITY closeCmd.label				"@@CloseCMD@@">
-
 <!ENTITY closeCmd.key				"W">
 <!ENTITY closeCmd.accesskey			"C">
 
@@ -818,7 +804,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY bidiSwitchPageDirectionItem.accesskey	"D">
 <!ENTITY bidiSwitchTextDirectionItem.label	"テキストの記述方向を切り替える">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey	"w">
-
 <!ENTITY bidiSwitchTextDirectionItem.commandkey	"X">
 
 <!ENTITY findOnCmd.label		"このページを検索...">
@@ -848,19 +833,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connection			"接続">
 <!ENTITY identity.connectionSecure		"安全な接続">
 <!ENTITY identity.connectionNotSecure		"この接続は安全ではありません">
-
-<!ENTITY identity.connectionSecure3		"安全な接続">
-<!ENTITY identity.connectionNotSecure2		"安全ではない接続">
-<!ENTITY identity.connectionNotSecureSecurityView	"このサイトとの接続は安全ではありません。">
 <!ENTITY identity.connectionFile		"これはあなたのコンピューターに保存されているページです。">
 <!ENTITY identity.connectionVerified2		"このサイトとの接続は安全です。このサイトの運営者:">
-<!ENTITY identity.connectionVerified3		"このサイトとの接続は安全です。">
 <!ENTITY identity.connectionInternal		"このページは &brandShortName; の安全な内部ページです。">
 <!ENTITY identity.extensionPage			"このページは拡張機能から読み込まれています。">
 <!ENTITY identity.insecureLoginForms2		"このページのログインフォームは安全ではありません。">
 <!ENTITY identity.customRoot			"Mozilla が承認していない発行者の証明書で検証された接続です。">
-
-<!ENTITY identity.evOwnerLabel2			"証明書の発行先:">
 
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked			"このページの一部が安全でないため &brandShortName; がブロックしました。">
@@ -895,8 +873,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.clearSiteData			"Cookie とサイトデータを消去...">
 
 <!ENTITY identity.permissions			"サイト別設定">
-
-<!ENTITY identity.permissions3			"このサイトの設定">
 <!ENTITY identity.permissionsEmpty		"このサイトに特別な権限は設定されていません。">
 <!ENTITY identity.permissionsReloadHint		"変更内容を適用するには、ページの再読み込みが必要です。">
 <!ENTITY identity.permissionsPreferences.tooltip	"サイト別設定を開きます">
