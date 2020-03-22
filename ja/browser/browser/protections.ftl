@@ -58,7 +58,7 @@ cryptominer-tab-content = 暗号通貨マイニングは仮想通貨の採掘の
 
 mobile-app-title = 端末を横断する広告トラッカーをブロック
 mobile-app-card-content = モバイルブラウザー組み込みの保護機能で広告トラッカーをブロックしましょう。
-mobile-app-links = { -brand-product-name } ブラウザー for <a data-l10n-name="android-mobile-inline-link">Android</a>, <a data-l10n-name="ios-mobile-inline-link">iOS</a>
+mobile-app-links = <a data-l10n-name="lockwise-android-inline-link">Android 版</a>および <a data-l10n-name="lockwise-ios-inline-link">iOS 版</a> { -brand-product-name } ブラウザー
 
 lockwise-title = 二度とパスワードを忘れないように
 lockwise-title-logged-in = { -lockwise-brand-name }
@@ -70,7 +70,7 @@ lockwise-no-logins-content = <a data-l10n-name="lockwise-inline-link">{ -lockwis
 
 lockwise-mobile-app-title = どこでもパスワードが使える
 lockwise-no-logins-card-content = { -brand-short-name } に保存したパスワードを他の端末でも利用できます。
-lockwise-app-links = { -lockwise-brand-name } for <a data-l10n-name="lockwise-android-inline-link">Android</a>, <a data-l10n-name="lockwise-ios-inline-link">iOS</a>
+lockwise-app-links = <a data-l10n-name="lockwise-android-inline-link">Android 版</a>および <a data-l10n-name="lockwise-ios-inline-link">iOS 版</a> { -lockwise-brand-name }
 
 # This string is displayed after a large numeral that indicates the total number
 # of email addresses being monitored. Don’t add $count to
