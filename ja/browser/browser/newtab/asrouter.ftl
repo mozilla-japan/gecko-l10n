@@ -138,6 +138,7 @@ cfr-whatsnew-searchbar-title = アドレスバーからクリック一つで
 #   $searchEngineName - Name of the current default search engine as also shown in the urlbar.
 cfr-whatsnew-searchbar-body-enginename = アドレスバーをクリックすると、よく見るサイトが表示されるようになりました。閲覧履歴と { $searchEngineName } の検索結果をより素早く見つけられます。
 cfr-whatsnew-searchbar-body-generic = アドレスバーをクリックすると、よく見るサイトが表示されるようになりました。閲覧履歴からの検索結果をより素早く見つけられます。
+cfr-whatsnew-searchbar-body-topsites = アドレスバーを選択するだけで、よく見るサイトのリンクが展開されます。
 cfr-whatsnew-searchbar-icon-alt-text = 虫眼鏡アイコン
 
 ## Picture-in-Picture
