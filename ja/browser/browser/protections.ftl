@@ -58,7 +58,7 @@ cryptominer-tab-content = 暗号通貨マイニングは仮想通貨の採掘の
 
 mobile-app-title = 端末を横断する広告トラッカーをブロック
 mobile-app-card-content = モバイルブラウザー組み込みの保護機能で広告トラッカーをブロックしましょう。
-mobile-app-links = <a data-l10n-name="lockwise-android-inline-link">Android 版</a>および <a data-l10n-name="lockwise-ios-inline-link">iOS 版</a> { -brand-product-name } ブラウザー
+mobile-app-links = <a data-l10n-name="android-mobile-inline-link">Android 版</a>および <a data-l10n-name="ios-mobile-inline-link">iOS 版</a> { -brand-product-name } ブラウザー
 
 lockwise-title = 二度とパスワードを忘れないように
 lockwise-title-logged-in = { -lockwise-brand-name }
