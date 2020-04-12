@@ -287,6 +287,7 @@ shortcuts-no-commands = 次の拡張機能にはショートカットがあり�
 shortcuts-input =
     .placeholder = ショートカットキーを入力してください
 shortcuts-browserAction = 拡張機能を有効化
+shortcuts-browserAction2 = ツールバーボタンを有効化
 shortcuts-pageAction = ページ操作を有効化
 shortcuts-sidebarAction = サイドバーの表示を切り替え
 shortcuts-modifier-mac = Ctrl, Alt または ⌘ を含む

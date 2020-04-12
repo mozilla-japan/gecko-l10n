@@ -20,7 +20,7 @@ profile-selection-delete-button =
 
 ## Messages used in the profile manager
 
-profile-manager-description = ユーザーの設定やデータなどはユーザープロファイルに保存されます。
+profile-manager-description = ユーザーの設定やデータなどは { -brand-short-name } のユーザープロファイルに保存されます。
 profile-manager-work-offline =
     .label = オフライン作業
     .accesskey = o
