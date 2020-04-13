@@ -1021,10 +1021,16 @@ mail, calendar          12659:df3434923fd7   2020-02-13     mar             sync
 browser                 12672:fae4d35e984a   2020-02-19     hATrayflood     sync browser
 devtools, toolkit       12672:fae4d35e984a   2020-02-19     hATrayflood     sync devtools, toolkit
 
-[l10n-mozilla-75.0]
+Released! [l10n-mozilla-75.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, netwerk, toolkit   12723:afb2c7997f9e   2020-03-10     mar             sync dom, netwerk, toolkit
 mail, calendar, suite   12740:83a5a4ffbe2b   2020-03-16     mar             sync mail, calendar, suite
 browser                 12740:83a5a4ffbe2b   2020-03-16     hATrayflood     sync browser
 devtools                12740:83a5a4ffbe2b   2020-03-16     hATrayflood     sync devtools
+
+[l10n-mozilla-76.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, netwerk, toolkit   12863:3ed3d9c68945   2020-04-09     mar             sync dom, netwerk, toolkit
+
