@@ -4,9 +4,6 @@
 
 ## App Menu
 
-appmenuitem-import-from-another-browser =
-    .label = 他のブラウザーから@@Import@@...
-
 appmenuitem-protection-report-title = プライバシー保護
 appmenuitem-protection-report-tooltip =
     .tooltiptext = プライバシー保護の統計を確認します

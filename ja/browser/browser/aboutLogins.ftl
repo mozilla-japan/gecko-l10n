@@ -27,8 +27,6 @@ fxaccounts-avatar-button =
 
 menu =
   .title = メニューを開きます
-# This menuitem is only visible on Windows
-menu-menuitem-import = パスワード@@-ImportCMD@@...
 # This menuitem is only visible on Windows and macOS
 about-logins-menu-menuitem-import-from-another-browser = 他のブラウザーから@@Import@@...
 menu-menuitem-preferences =
@@ -49,6 +47,7 @@ login-list-sort-label-text = 並べ替え:
 login-list-name-option = 名前 (昇順)
 login-list-name-reverse-option = 名前 (降順)
 login-list-breached-option = 漏洩したウェブサイト
+about-logins-login-list-alerts-option = 警告
 login-list-last-changed-option = 最終更新日時
 login-list-last-used-option = 最終利用日時
 login-list-intro-title = ログイン情報はありません
@@ -60,6 +59,9 @@ login-list-item-subtitle-new-login = 認証情報を入力してください
 login-list-item-subtitle-missing-username = (ユーザー名なし)
 about-logins-list-item-breach-icon =
   .title = 漏洩したウェブサイト
+
+about-logins-list-item-vulnerable-password-icon =
+  .title = 脆弱なパスワード
 
 ## Introduction screen
 
@@ -163,10 +165,26 @@ confirm-discard-changes-dialog-confirm-button = 破棄
 
 ## Breach Alert notification
 
+about-logins-breach-alert-title = ウェブサイトの漏洩
 breach-alert-text = ログイン情報の最後の更新の後に、このサイトからパスワードの漏洩、または盗難がありました。アカウントの保護のため、パスワードを変更してください。
 breach-alert-link = この情報漏洩について
 breach-alert-dismiss =
     .title = この警告を閉じる
+
+about-logins-breach-alert-date = この漏洩は { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } に発生しました。
+# Variables:
+#   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
+about-logins-breach-alert-link = { $hostname } に移動
+about-logins-breach-alert-learn-more-link = 詳細
+
+## Vulnerable Password notification
+
+about-logins-vulnerable-alert-title = 脆弱なパスワード
+about-logins-vulnerable-alert-text2 = このパスワードは、データ漏洩があったと思われる別のアカウントでも使用されています。認証情報の使いまわしは、あなたのアカウントすべてを危険にさらします。パスワードを変更してください。
+# Variables:
+#   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
+about-logins-vulnerable-alert-link = { $hostname } に移動
+about-logins-vulnerable-alert-learn-more-link = 詳細
 
 ## Error Messages
 

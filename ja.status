@@ -1033,4 +1033,5 @@ devtools                12740:83a5a4ffbe2b   2020-03-16     hATrayflood     sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, netwerk, toolkit   12863:3ed3d9c68945   2020-04-09     mar             sync dom, netwerk, toolkit
+browser                 12875:72a0bba3d38f   2020-04-14     hATrayflood     sync browser
 
