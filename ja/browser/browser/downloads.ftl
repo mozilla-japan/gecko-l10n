@@ -36,13 +36,12 @@ downloads-cmd-show-menuitem =
 downloads-cmd-show-menuitem-mac =
     .label = Finder に表示
     .accesskey = F
-
 downloads-cmd-show-button =
-  .tooltiptext = { PLATFORM() ->
-      [macos] Finder に表示
-     *[other] 保存フォルダーを開く
-  }
-
+    .tooltiptext =
+        { PLATFORM() ->
+            [macos] Finder に表示
+           *[other] 保存フォルダーを開く
+        }
 downloads-cmd-show-panel =
     .aria-label =
         { PLATFORM() ->

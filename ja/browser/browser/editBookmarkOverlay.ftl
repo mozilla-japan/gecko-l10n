@@ -3,40 +3,31 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 bookmark-overlay-name =
-  .value = 名前:
-  .accesskey = N
-
+    .value = 名前:
+    .accesskey = N
 bookmark-overlay-location =
-  .value = URL:
-  .accesskey = L
-
+    .value = URL:
+    .accesskey = L
 bookmark-overlay-folder =
-  .value = フォルダー:
-
+    .value = フォルダー:
 bookmark-overlay-choose =
-  .label = 選択...
-
+    .label = 選択...
 bookmark-overlay-folders-expander =
-  .tooltiptext = すべてのブックマークフォルダーを表示します
-  .tooltiptextdown = { bookmark-overlay-folders-expander.tooltiptext }
-  .tooltiptextup = 一覧を閉じます
-
+    .tooltiptext = すべてのブックマークフォルダーを表示します
+    .tooltiptextdown = { bookmark-overlay-folders-expander.tooltiptext }
+    .tooltiptextup = 一覧を閉じます
 bookmark-overlay-new-folder-button =
-  .label = @@New-CMD@@フォルダー
-  .accesskey = o
-
+    .label = @@New-CMD@@フォルダー
+    .accesskey = o
 bookmark-overlay-tags =
-  .value = タグ:
-  .accesskey = T
-
+    .value = タグ:
+    .accesskey = T
 bookmark-overlay-tags-empty-description =
-  .placeholder = カンマ区切りで複数入力できます
-
+    .placeholder = カンマ区切りで複数入力できます
 bookmark-overlay-tags-expander =
-  .tooltiptext = 既存のタグ一覧を表示します
-  .tooltiptextdown = { bookmark-overlay-tags-expander.tooltiptext }
-  .tooltiptextup = 一覧を閉じます
-
+    .tooltiptext = 既存のタグ一覧を表示します
+    .tooltiptextdown = { bookmark-overlay-tags-expander.tooltiptext }
+    .tooltiptextup = 一覧を閉じます
 bookmark-overlay-keyword =
-  .value = キーワード:
-  .accesskey = K
+    .value = キーワード:
+    .accesskey = K
