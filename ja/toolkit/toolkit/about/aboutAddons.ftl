@@ -26,6 +26,8 @@ install-addon-from-file =
     .label = ファイルからアドオンをインストール...
     .accesskey = I
 help-button = アドオンのサポート
+sidebar-help-button-title =
+    .title = アドオンのサポート
 preferences =
     { PLATFORM() ->
         [windows] { -brand-short-name } オプション
@@ -33,6 +35,12 @@ preferences =
     }
 tools-menu =
     .tooltiptext = アドオンツール
+sidebar-preferences-button-title =
+    .title =
+        { PLATFORM() ->
+            [windows] { -brand-short-name } オプション
+           *[other] { -brand-short-name } 設定
+        }
 show-unsigned-extensions-button =
     .label = 一部の拡張機能を検証できませんでした
 show-all-extensions-button =
@@ -168,13 +176,29 @@ extensions-view-available-updates =
     .name = 更新可能
     .tooltiptext = { extensions-view-available-updates.name }
 addon-category-discover = おすすめ
+addon-category-discover-title =
+    .title = おすすめ
 addon-category-extension = 拡張機能
+addon-category-extension-title =
+    .title = 拡張機能
 addon-category-theme = テーマ
+addon-category-theme-title =
+    .title = テーマ
 addon-category-plugin = プラグイン
+addon-category-plugin-title =
+    .title = プラグイン
 addon-category-dictionary = 辞書
+addon-category-dictionary-title =
+    .title = 辞書
 addon-category-locale = 言語パック
+addon-category-locale-title =
+    .title = 言語パック
 addon-category-available-updates = 更新可能
+addon-category-available-updates-title =
+    .title = 更新可能
 addon-category-recent-updates = 最近の更新
+addon-category-recent-updates-title =
+    .title = 最近の更新
 
 ## These are global warnings
 
@@ -312,6 +336,8 @@ shortcuts-card-expand-button =
 shortcuts-card-collapse-button = 折りたたむ
 go-back-button =
     .tooltiptext = 前のページへ戻ります
+header-back-button =
+    .title = 前のページへ戻ります
 
 ## Recommended add-ons page
 
