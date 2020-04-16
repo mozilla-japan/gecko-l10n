@@ -20,13 +20,13 @@ onboarding-welcome-header = { -brand-short-name } にようこそ
 onboarding-welcome-body = ブラウザーを手に入れました。<br/>残りの { -brand-product-name } の製品も手に入れましょう。
 onboarding-welcome-learn-more = 役立つ点についての詳細
 
+onboarding-join-form-header = { -brand-product-name } に参加
 onboarding-welcome-modal-get-body = ブラウザーをインストールできました。<br/>今すぐ { -brand-product-name } を最大限に活用しましょう。
 onboarding-welcome-modal-supercharge-body = プライバシー保護を充実させましょう。
 onboarding-welcome-modal-privacy-body = ブラウザーをインストールできました。プライバシー保護をさらに追加しましょう。
 onboarding-welcome-modal-family-learn-more = { -brand-product-name } ファミリー製品について
 onboarding-welcome-form-header = はじめる
 
-onboarding-join-form-header = { -brand-product-name } に参加
 onboarding-join-form-body = メールアドレスを入力すると参加できます。
 onboarding-join-form-email =
     .placeholder = メールアドレスを入力してください
@@ -73,12 +73,14 @@ onboarding-sync-form-sub-header = { -sync-brand-name } の利用を続けるた�
 ## description.
 
 onboarding-benefit-products-title = 有用な製品
+
 onboarding-benefit-products-text = ご使用の端末すべてのプライバシーを尊重する一連のツールを使いましょう。
 
 onboarding-benefit-knowledge-title = 実用的な知識
 onboarding-benefit-knowledge-text = オンラインをよりスマートで安全に保つのに必要な知識を学びましょう。
 
 onboarding-benefit-privacy-title = 真のプライバシー
+
 # "Personal Data Promise" is a concept that should be translated consistently
 # across the product. It refers to a concept shown elsewhere to the user: "The
 # Firefox Personal Data Promise is the way we honor your data in everything we
@@ -175,6 +177,10 @@ onboarding-facebook-container-button = 拡張機能を追加
 onboarding-import-browser-settings-title = ブックマークやパスワードなどを@@Import@@
 onboarding-import-browser-settings-text = すぐに飛び込もう - Chrome からサイトと設定を簡単に持ち込めます。
 onboarding-import-browser-settings-button = Chrome からデータを@@Import-suru@@
+
+onboarding-personal-data-promise-title = プライバシー第一の設計
+onboarding-personal-data-promise-text = { -brand-product-name } は、ユーザーデータの取得を最小限にし、それを保護し、使用目的を明確にすることにより、あなたのデータを尊重します。
+onboarding-personal-data-promise-button = 私たちの誓約を確認する
 
 ## Message strings belonging to the Return to AMO flow
 

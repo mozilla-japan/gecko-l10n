@@ -220,3 +220,23 @@ cfr-doorhanger-milestone-heading =
   }
 cfr-doorhanger-milestone-ok-button = 確認
   .accesskey = S
+
+## What’s New Panel Content for Firefox 76
+
+## Lockwise message
+
+cfr-whatsnew-lockwise-header = 安全なパスワードを簡単に作成
+cfr-whatsnew-lockwise-body = アカウントごとに安全でユニークなパスワードを考えるのは難しいです。パスワードを作成するときは、安全にしたいパスワードの入力欄を選択して、{ -brand-shorter-name } からパスワードを生成しましょう。
+cfr-whatsnew-lockwise-icon-alt = { -lockwise-brand-short-name } アイコン
+
+## Vulnerable Passwords message
+
+cfr-whatsnew-passwords-header = 脆弱なパスワードを警告します
+cfr-whatsnew-passwords-body = ハッカーはよく使い回されるパスワードを知っています。複数のサイトで同じパスワードが使われていて、そのどれか一つでもデータ漏洩があったときは、{ -lockwise-brand-short-name } でそれらのサイトのパスワードを変更するよう警告します。
+cfr-whatsnew-passwords-icon-alt = 脆弱なパスワードの鍵アイコン
+
+## Picture-in-Picture fullscreen message
+
+cfr-whatsnew-pip-fullscreen-header = @@FullScreen@@でながら見
+cfr-whatsnew-pip-fullscreen-body = 動画だけを別の@@Window@@で再生しているとき、ダブルクリックすると@@FullScreen@@になります。
+cfr-whatsnew-pip-fullscreen-icon-alt = ピクチャーインピクチャーアイコン

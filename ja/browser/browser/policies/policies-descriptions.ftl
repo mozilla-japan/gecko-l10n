@@ -41,6 +41,8 @@ policy-DisableAppUpdate = ブラウザの更新を禁止します。
 
 policy-DisableBuiltinPDFViewer = { -brand-short-name } 組み込みの PDF ビューアーの PDF.js を無効にします。
 
+policy-DisableDefaultBrowserAgent = デフォルトブラウザーエージェントのアクションをすべて禁止します。Windows のみ有効です。他のプラットフォームはエージェントがありません。
+
 policy-DisableDeveloperTools = 開発ツールへのアクセスをブロックします。
 
 policy-DisableFeedbackCommands = ヘルプメニューのフィードバックの送信 (フィードバックと詐欺サイトの報告の送信) を無効にします。
@@ -112,6 +114,14 @@ policy-Homepage = ホームページを設定し、任意でロックします�
 policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
 
 policy-LegacyProfiles = インストレーションごとにプロファイルが分割されるのを強制的に無効にします。
+
+## Do not translate "SameSite", it's the name of a cookie attribute.
+
+policy-LegacySameSiteCookieBehaviorEnabled = 従来の SameSite Cookie の動作設定を@@Default@@で有効にします。
+
+policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトでは従来の SameSite Cookie の動作に戻します。
+
+##
 
 policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
 

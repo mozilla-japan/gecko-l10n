@@ -60,6 +60,11 @@ newtab-menu-section-tooltip =
     .title = メニューを開きます
     .aria-label = メニューを開きます
 
+# Tooltip for dismiss button
+newtab-dismiss-button-tooltip =
+    .title = 削除
+    .aria-label = 削除
+
 # This tooltip is for the context menu of Pocket cards or Topsites
 # Variables:
 #  $title (String): The label or hostname of the site. This is for screen readers when the context menu button is focused/active.
@@ -188,7 +193,6 @@ newtab-discovery-empty-section-topstories-timed-out = おおっと、このセ�
 # This is shown at the bottom of the trending stories section and precedes a list of links to popular topics.
 newtab-pocket-read-more = 人気のトピック:
 newtab-pocket-more-recommendations = 他のおすすめ
-newtab-pocket-whats-pocket = { -pocket-brand-name } とは？
 newtab-pocket-learn-more = 詳細
 newtab-pocket-cta-button = { -pocket-brand-name } を入手
 newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に保存して、魅力的な読み物を思う存分楽しみましょう。

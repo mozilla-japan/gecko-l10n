@@ -352,6 +352,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newUserContext.accesskey	"B">
 <!ENTITY manageUserContext.label	"コンテナーを管理">
 <!ENTITY manageUserContext.accesskey	"O">
+
 <!ENTITY newNavigatorCmd.label		"@@NewWindow@@">
 <!ENTITY newNavigatorCmd.key		"N">
 <!ENTITY newNavigatorCmd.accesskey	"N">
