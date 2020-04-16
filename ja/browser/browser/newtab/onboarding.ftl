@@ -179,7 +179,7 @@ onboarding-import-browser-settings-text = すぐに飛び込もう - Chrome か�
 onboarding-import-browser-settings-button = Chrome からデータを@@Import-suru@@
 
 onboarding-personal-data-promise-title = プライバシー第一の設計
-onboarding-personal-data-promise-text = { -brand-product-name } はあなたのデータを尊重します。あなたのデータの取得は最小限にし、使用目的を明確にします。
+onboarding-personal-data-promise-text = { -brand-product-name } は、ユーザーデータの取得を最小限にし、それを保護し、使用目的を明確にすることにより、あなたのデータを尊重します。
 onboarding-personal-data-promise-button = 私たちの誓約を確認する
 
 ## Message strings belonging to the Return to AMO flow

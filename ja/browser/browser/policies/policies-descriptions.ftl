@@ -117,9 +117,9 @@ policy-LegacyProfiles = インストレーションごとにプロファイル�
 
 ## Do not translate "SameSite", it's the name of a cookie attribute.
 
-policy-LegacySameSiteCookieBehaviorEnabled = Cookie の SameSite の@@DefaultValue@@の挙動を従来のものにします。
+policy-LegacySameSiteCookieBehaviorEnabled = 従来の SameSite Cookie の動作設定を@@Default@@で有効にします。
 
-policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトでは、Cookie の SameSite を従来の挙動に戻します。
+policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトでは従来の SameSite Cookie の動作に戻します。
 
 ##
 

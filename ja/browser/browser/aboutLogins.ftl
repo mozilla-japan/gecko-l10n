@@ -165,7 +165,7 @@ confirm-discard-changes-dialog-confirm-button = 破棄
 
 ## Breach Alert notification
 
-about-logins-breach-alert-title = ウェブサイトの漏洩
+about-logins-breach-alert-title = ウェブサイトからの情報漏洩
 breach-alert-text = ログイン情報の最後の更新の後に、このサイトからパスワードの漏洩、または盗難がありました。アカウントの保護のため、パスワードを変更してください。
 breach-alert-link = この情報漏洩について
 breach-alert-dismiss =

@@ -1058,7 +1058,7 @@ sitedata-option-block-cross-site-trackers =
 sitedata-option-block-cross-site-and-social-media-trackers =
     .label = クロスサイトトラッカーとソーシャルメディアトラッカー
 sitedata-option-block-cross-site-and-social-media-trackers-plus-isolate =
-    .label = クロスサイトトラッカーとソーシャルメディアトラッカー、残存分離 Cookie
+    .label = クロスサイトトラッカーとソーシャルメディアトラッカー、および残存 Cookie を隔離
 sitedata-option-block-unvisited =
     .label = 未訪問のウェブサイトの Cookie
 sitedata-option-block-all-third-party =
@@ -1148,7 +1148,7 @@ content-blocking-etp-custom-desc = ブロックするトラッカーとスクリ
 
 content-blocking-private-windows = トラッキングコンテンツ (プライベート@@Window@@のみ)
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
-content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残存分離 Cookie
+content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残存 Cookie の隔離
 content-blocking-social-media-trackers = ソーシャルメディアトラッカー
 content-blocking-all-cookies = すべての Cookie
 content-blocking-unvisited-cookies = 未訪問のサイトの Cookie
@@ -1163,7 +1163,7 @@ content-blocking-warning-description = コンテンツをブロックすると�
 content-blocking-learn-how = 詳細情報
 
 content-blocking-etp-warning-description = トラッカーをブロックすると、一部のサイトの機能に影響がある可能性があります。すべてのコンテンツを読み込むには、トラッカーを許容してページを再読み込みします。
-content-blocking-and-isolating-etp-warning-description = トラッカーと残存分離 Cookie をブロックすると、一部のサイトの機能に影響がある可能性があります。すべてのコンテンツを読み込むには、トラッカーを許容してページを再読み込みします。
+content-blocking-and-isolating-etp-warning-description = トラッカーをブロックし、残存 Cookie を隔離すると、一部のサイトの機能に影響がある可能性があります。すべてのコンテンツを読み込むには、トラッカーを許容してページを再読み込みします。
 content-blocking-warning-learn-how = 詳細情報
 
 content-blocking-reload-description = これらの変更を適用するには、タブを再読み込みする必要があります。
