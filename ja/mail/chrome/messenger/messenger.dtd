@@ -292,6 +292,8 @@
 <!ENTITY searchMailCmd.label		"メッセージを検索...">
 <!ENTITY searchMailCmd.accesskey	"M">
 <!ENTITY searchMailCmd.key		"f">
+<!ENTITY glodaSearchCmd.label		"グローバル検索...">
+<!ENTITY glodaSearchCmd.accesskey	"G">
 <!ENTITY searchAddressesCmd.label	"アドレスを検索...">
 <!ENTITY searchAddressesCmd.accesskey	"S">
 

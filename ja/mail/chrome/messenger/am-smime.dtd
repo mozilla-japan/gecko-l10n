@@ -2,16 +2,31 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY securityTitle.label			"セキュリティ">
-<!ENTITY securityTab.label			"セキュリティ">
-<!ENTITY securityHeading.label			"署名や暗号化されたメッセージを送受信するには、デジタル署名証明書と暗号化証明書の両方を指定する必要があります。">
-<!ENTITY encryptionGroupTitle.label		"暗号化">
-<!ENTITY encryptionChoiceLabel.label		"メッセージ送信時に使用する@@Default-@@暗号化設定:">
-<!ENTITY neverEncrypt.label			"暗号化しない">
-<!ENTITY neverEncrypt.accesskey			"N">
-<!ENTITY alwaysEncryptMessage.label		"暗号化する (すべての受信者が証明書を持っていなければ送信できません)">
-<!ENTITY alwaysEncryptMessage.accesskey		"u">
-<!ENTITY encryptionCert.message			"あなたへのメッセージの暗号化と復号に使用する証明書:">
+<!ENTITY securityTitle.label		"セキュリティ">
+<!ENTITY securityTab.label		"セキュリティ">
+<!ENTITY securityHeading.label		"署名や暗号化されたメッセージを送受信するには、デジタル署名証明書と暗号化証明書の両方を指定する必要があります。">
+<!ENTITY encryptionGroupTitle.label	"暗号化">
+<!ENTITY encryptionChoiceLabel.label	"メッセージ送信時に使用する@@Default-@@暗号化設定:">
+<!ENTITY neverEncrypt.label		"暗号化しない">
+<!ENTITY neverEncrypt.accesskey		"N">
+<!ENTITY alwaysEncryptMessage.label	"暗号化する (すべての受信者が証明書を持っていなければ送信できません)">
+<!ENTITY alwaysEncryptMessage.accesskey	"u">
+<!ENTITY encryptionCert.message		"あなたへのメッセージの暗号化と復号に使用する証明書:">
+<!ENTITY e2eTitle.label			"エンドツーエンド暗号化">
+<!ENTITY e2eIntro.description		"暗号化またはデジタル署名されたメッセージを送信するには、OpenPGP または S/MIME のどちらかの暗号技術を設定する必要があります。">
+<!ENTITY e2eLearnMore.label		"詳細情報">
+
+<!ENTITY e2eEnc.description		"エンドツーエンド暗号化をしないメッセージのコンテンツは、ご利用のメールプロバイダーや監視システムに容易にさらされます。">
+<!ENTITY e2eeReqWarning.description	"送信メッセージを暗号化する必要がある場合は、あなたの公開鍵またはすべての受信者の証明書を用意しなければなりません。">
+
+<!ENTITY e2eSigning.description		"デジタル署名により、メッセージの送信者があなたであり、コンテンツが改変されていないことを受信者が検証できます。">
+<!ENTITY e2eTechPref.description	"優先される暗号化技術:">
+
+<!ENTITY doNotEncrypt.label			"@@Default@@で暗号化を有効にしない">
+<!ENTITY doNotEncrypt.accesskey			"N">
+<!ENTITY requireEncryptMessage.label		"@@Default@@で暗号化を必須にする">
+<!ENTITY requireEncryptMessage.accesskey	"u">
+<!ENTITY encryptionCert2.message		"暗号化のための個人証明書:">
 <!ENTITY digitalSign.certificate.button		"選択...">
 <!ENTITY digitalSign.certificate.accesskey	"S">
 <!ENTITY digitalSign.certificate_clear.button	"@@Clear@@">
@@ -22,16 +37,40 @@
 <!ENTITY encryption.certificate_clear.accesskey	"e">
 <!ENTITY signingGroupTitle.label		"デジタル署名">
 <!ENTITY signMessage.label			"メッセージにデジタル署名する (@@Default@@の動作)">
+<!ENTITY signMessage2.label			"@@Default@@でデジタル署名を追加する">
 <!ENTITY signMessage.accesskey			"D">
-<!ENTITY signingCert.message			"メッセージのデジタル署名に使用する証明書:">
+<!ENTITY signingCert.message			"送信メッセージのデジタル署名に使用する証明書:">
 
-<!ENTITY certificates.label			"証明書">
-<!ENTITY manageCerts2.label			"証明書を管理">
-<!ENTITY manageCerts2.accesskey			"M">
-<!ENTITY manageDevices.label			"セキュリティデバイス">
-<!ENTITY manageDevices.accesskey		"y">
+<!ENTITY certificates.label		"証明書">
+<!ENTITY manageCerts2.label		"証明書を管理">
+<!ENTITY manageCerts2.accesskey		"M">
+<!ENTITY manageDevices.label		"セキュリティデバイス">
+<!ENTITY manageDevices.accesskey	"y">
+
+<!ENTITY signingCert2.message		"デジタル署名のための個人証明書:">
+
+<!ENTITY sendingDefaults.label		"メッセージ送信の@@Default-@@設定">
+
+<!ENTITY technologyAutomatic.label	"利用可能な鍵または証明書をもとに自動的に選択する">
+
+<!ENTITY certificates2.label		"S/MIME">
+<!ENTITY manageCerts3.label		"S/MIME 証明書の管理">
+<!ENTITY manageCerts3.accesskey		"M">
+<!ENTITY manageDevices2.label		"S/MIME セキュリティデバイス">
+<!ENTITY manageDevices2.accesskey	"y">
+
+<!ENTITY technologySMIME.label		"S/MIME を優先する">
+<!ENTITY technologyOpenPGP.label	"OpenPGP を優先する">
+
+<!ENTITY openpgpKeys.label		"OpenPGP">
+<!ENTITY manageKeys.label		"OpenPGP 鍵の管理">
+<!ENTITY manageKeys.accesskey		"K">
 
 <!-- Strings for the cert picker dialog -->
-<!ENTITY certPicker.title			"証明書の選択">
-<!ENTITY certPicker.info			"証明書:">
-<!ENTITY certPicker.detailsLabel		"選択した証明書の詳細:">
+<!ENTITY certPicker.title		"証明書の選択">
+<!ENTITY certPicker.info		"証明書:">
+<!ENTITY certPicker.detailsLabel	"選択した証明書の詳細:">
+
+<!ENTITY openpgpKey.message		"暗号化およびデジタル署名のための秘密鍵:">
+<!ENTITY openpgpKey.button		"秘密鍵を設定...">
+<!ENTITY openpgpKey.accesskey		"o">

@@ -9,6 +9,11 @@
 <!ENTITY  closeTab.accesskey         "C">
 <!ENTITY  closeOtherTabs.label   "他のタブを閉じる">
 <!ENTITY  closeOtherTabs.accesskey         "O">
+<!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
+direction in which tabs are closed, i.e. locales that use RTL mode should say
+left instead of right. -->
+<!ENTITY  closeTabsToTheEnd.label "右側のタブを閉じる">
+<!ENTITY  closeTabsToTheEnd.accesskey "i">
 <!ENTITY  reloadAllTabs.label    "すべてのタブを再読み込み">
 <!ENTITY  reloadAllTabs.accesskey         "A">
 <!ENTITY  reloadTab.label        "このタブを再読み込み">

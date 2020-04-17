@@ -15,5 +15,7 @@
 <!ENTITY addNewToolbar.label		"ツールバーを追加">
 <!ENTITY showTitlebar.label		"タイトルバーを表示">
 <!ENTITY extraDragSpace.label		"ドラッグスペースを追加">
+<!ENTITY showTitlebar2.label		"タイトルバー">
+<!ENTITY extraDragSpace2.label		"ドラッグスペース">
 <!ENTITY saveChanges.label		"完了">
 <!ENTITY undoChanges.label		"@@Undo@@">

@@ -90,15 +90,8 @@
 <!ENTITY reorderAttachmentsCmd.accesskey	"s">
 <!ENTITY reorderAttachmentsCmd.key	"x">
 <!ENTITY toggleAttachmentPaneCmd.label	"添付ペイン">
-<!-- LOCALIZATION NOTE (toggleAttachmentPaneCmd.accesskey):
-     For better mnemonics, toggleAttachmentPaneCmd.accesskey should be the same
-     as attachments.accesskey. -->
 <!ENTITY toggleAttachmentPaneCmd.accesskey	"m">
-<!-- LOCALIZATION NOTE (toggleAttachmentPaneCmd.key):
-     As Mac does not have access keys, this key defines a Mac-only, cross-l10n
-     shortcut key (Ctrl+M). Typically, this key should not be translated unless
-     otherwise required by specific needs of the localization. -->
-<!ENTITY toggleAttachmentPaneCmd.key	"m">
+<!ENTITY toggleAttachmentPaneCmd.key	"M">
 <!ENTITY selectAllCmd.label		"@@SelectAll@@">
 <!ENTITY selectAllCmd.accesskey		"a">
 <!ENTITY selectAllCmd.key		"A">

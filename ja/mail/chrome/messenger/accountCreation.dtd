@@ -37,6 +37,7 @@
 <!ENTITY imapLong.label			"IMAP (リモートフォルダー)">
 <!ENTITY pop3Long.label			"POP3 (メールをコンピューターに保存)">
 
+<!ENTITY manualConfigTable.summary	"サーバー設定">
 <!ENTITY incoming.label			"受信サーバー:">
 <!ENTITY incomingColumn.label		"受信サーバー">
 <!ENTITY outgoing.label			"送信サーバー:">
