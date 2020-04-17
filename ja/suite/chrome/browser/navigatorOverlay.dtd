@@ -16,6 +16,12 @@
 <!ENTITY closeOtherTabs.label "他のタブを閉じる">
 <!ENTITY closeOtherTabs.accesskey "T">
 
+<!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
+direction in which tabs are closed, i.e. locales that use RTL mode should say
+left instead of right. -->
+<!ENTITY  closeTabsToTheEnd.label "右側のタブを閉じる">
+<!ENTITY  closeTabsToTheEnd.accesskey "i">
+
 <!ENTITY uploadFile.label "ファイルをアップロード...">
 <!ENTITY uploadFile.accesskey "F">
 

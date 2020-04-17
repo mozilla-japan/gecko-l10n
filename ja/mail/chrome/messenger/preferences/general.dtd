@@ -42,3 +42,6 @@
 <!ENTITY addSearchEngine.accesskey	"A">
 <!ENTITY removeSearchEngine.label	"削除">
 <!ENTITY removeSearchEngine.accesskey	"v">
+
+<!ENTITY minimizeToTray.label		"最小化した &brandShortName; をタスクトレイにしまう">
+<!ENTITY minimizeToTray.accesskey	"m">
