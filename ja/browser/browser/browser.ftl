@@ -43,7 +43,6 @@ browser-main-window-content-title-private =
         [macos] { $title } - (プライベートブラウジング)
        *[other] { $title } - { -brand-full-name } (プライベートブラウジング)
     }
-
 urlbar-identity-button =
     .aria-label = サイトの情報を表示
 
@@ -104,10 +103,12 @@ urlbar-tip-icon-description =
 ## homepage of their default search engine.
 ## Variables:
 ##  $engineName (String): The name of the user's default search engine. e.g. "Google" or "DuckDuckGo".
+
 urlbar-search-tips-onboard = 少ない入力でたくさん見つかる: アドレスバーから { $engineName } ですぐ検索します。
 urlbar-search-tips-redirect-2 = アドレスバーで検索を始めると、{ $engineName } からの検索候補と閲覧履歴が表示されます。
 
 ##
+
 
 ##
 
@@ -152,7 +153,6 @@ page-action-manage-extension =
     .label = 拡張機能を管理...
 page-action-remove-from-urlbar =
     .label = アドレスバーから削除
-
 page-action-remove-extension =
     .label = 拡張機能を削除
 
@@ -245,3 +245,16 @@ identity-enable-mixed-content-blocking =
     .accesskey = E
 identity-more-info-link-text =
     .label = 詳細を表示
+
+## Window controls
+
+
+## WebRTC Pop-up notifications
+
+popup-select-camera =
+    .value = 共有するカメラ:
+    .accesskey = C
+popup-select-microphone =
+    .value = 共有するマイク:
+    .accesskey = M
+popup-all-windows-shared = 画面に表示されているすべての@@Window@@を共有します。
