@@ -17,6 +17,9 @@ certificate-viewer-certificate-authority = Certificate Authority
 certificate-viewer-cipher-suite = Cipher Suite
 certificate-viewer-common-name = Common Name
 certificate-viewer-email-address = Email Address
+# Variables:
+#   $firstCertName (String) - Common Name for the displayed certificate
+certificate-viewer-tab-title = Certificate for { $firstCertName }
 # Inc. means Incorporated, e.g GitHub is incorporated in Delaware
 certificate-viewer-inc-country = Inc. Country
 certificate-viewer-country = Country
@@ -79,6 +82,7 @@ certificate-viewer-authority-info-aia = Authority Info (AIA)
 certificate-viewer-certificate-policies = Certificate Policies
 certificate-viewer-embedded-scts = Embedded SCTs
 certificate-viewer-crl-endpoints = CRL Endpoints
+
 # This message is used as a row header in the Miscellaneous section. 
 # The associated data cell contains links to download the certificate.
 certificate-viewer-download = ダウンロード
@@ -93,7 +97,21 @@ certificate-viewer-boolean = { $boolean ->
 ## Variables:
 ##   $fileName (String) - The file name to save the PEM data in, derived from the common name from the certificate being displayed.
 
-certificate-viewer-download-pem = PEM (cert)
+certificate-viewer-download-pem = PEM (証明書)
   .download = { $fileName }.pem
-certificate-viewer-download-pem-chain = PEM (chain)
+certificate-viewer-download-pem-chain = PEM (チェーン)
   .download = { $fileName }-chain.pem
+
+# The title attribute for Critical Extension icon
+certificate-viewer-critical-extension =
+  .title = この拡張には危険マークが付けられており、クライアントがこれを理解できない場合は証明書を却下すべきであることを意味します。
+certificate-viewer-export = @@Export@@
+  .download = { $fileName }.pem
+
+## Labels for tabs displayed in stand-alone about:certificate page
+
+certificate-viewer-tab-mine = 独自の証明書
+certificate-viewer-tab-people = 人々
+certificate-viewer-tab-servers = サーバー
+certificate-viewer-tab-ca = 認証局
+certificate-viewer-tab-unkonwn = 不明
