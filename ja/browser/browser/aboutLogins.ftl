@@ -46,7 +46,6 @@ login-list-count = { $count } 件のログイン情報
 login-list-sort-label-text = 並べ替え:
 login-list-name-option = 名前 (昇順)
 login-list-name-reverse-option = 名前 (降順)
-login-list-breached-option = 漏洩したウェブサイト
 about-logins-login-list-alerts-option = 警告
 login-list-last-changed-option = 最終更新日時
 login-list-last-used-option = 最終利用日時
@@ -59,7 +58,6 @@ login-list-item-subtitle-new-login = 認証情報を入力してください
 login-list-item-subtitle-missing-username = (ユーザー名なし)
 about-logins-list-item-breach-icon =
   .title = 漏洩したウェブサイト
-
 about-logins-list-item-vulnerable-password-icon =
   .title = 脆弱なパスワード
 
@@ -108,19 +106,28 @@ about-logins-os-auth-dialog-caption = { -brand-full-name }
 
 # This message can be seen by attempting to edit a login in about:logins
 about-logins-edit-login-os-auth-dialog-message = 保存したログイン情報を編集するには、アカウントの確認が必要です。
-# This message can be seen by attempting to edit a login in about:logins
+
+# This message can be seen when attempting to edit a login in about:logins on Windows.
+about-logins-edit-login-os-auth-dialog-message-win = ログイン情報を編集するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+# This message can be seen when attempting to edit a login in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-edit-login-os-auth-dialog-message-macosx = 保存したログイン情報を編集
 
 # This message can be seen by attempting to reveal a password in about:logins
 about-logins-reveal-password-os-auth-dialog-message = 保存したパスワードを表示するには、アカウントの確認が必要です。
-# This message can be seen by attempting to reveal a password in about:logins
+
+# This message can be seen when attempting to reveal a password in about:logins on Windows.
+about-logins-reveal-password-os-auth-dialog-message-win = ログイン情報を表示するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+# This message can be seen when attempting to reveal a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-reveal-password-os-auth-dialog-message-macosx = 保存したパスワードを表示
 
 # This message can be seen by attempting to copy a password in about:logins
 about-logins-copy-password-os-auth-dialog-message = 保存したパスワードをコピーするには、アカウントの確認が必要です。
-# This message can be seen by attempting to copy a password in about:logins
+
+# This message can be seen when attempting to copy a password in about:logins on Windows.
+about-logins-copy-password-os-auth-dialog-message-win = ログイン情報をコピーするには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+# This message can be seen when attempting to copy a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-copy-password-os-auth-dialog-message-macosx = 保存したパスワードをコピー
 
@@ -167,10 +174,6 @@ confirm-discard-changes-dialog-confirm-button = 破棄
 
 about-logins-breach-alert-title = ウェブサイトからの情報漏洩
 breach-alert-text = ログイン情報の最後の更新の後に、このサイトからパスワードの漏洩、または盗難がありました。アカウントの保護のため、パスワードを変更してください。
-breach-alert-link = この情報漏洩について
-breach-alert-dismiss =
-    .title = この警告を閉じる
-
 about-logins-breach-alert-date = この漏洩は { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } に発生しました。
 # Variables:
 #   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
