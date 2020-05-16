@@ -236,9 +236,16 @@ urlbar-placeholder =
     .placeholder = URL または検索語句を入力します
 urlbar-remote-control-notification-anchor =
     .tooltiptext = ブラウザーがリモート制御下にあります
+urlbar-permissions-granted =
+    .tooltiptext = このウェブサイトで追加の権限を許可しました。
 urlbar-switch-to-tab =
     .value = タブを表示:
+# Used to indicate that a selected autocomplete entry is provided by an extension.
+urlbar-extension =
+    .value = 拡張機能:
 urlbar-go-end-cap =
     .tooltiptext = アドレスバーに入力された URL へ移動します
 urlbar-page-action-button =
     .tooltiptext = ページ操作
+urlbar-pocket-button =
+    .tooltiptext = { -pocket-brand-name } に保存
