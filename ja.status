@@ -1029,7 +1029,7 @@ mail, calendar, suite   12740:83a5a4ffbe2b   2020-03-16     mar             sync
 browser                 12740:83a5a4ffbe2b   2020-03-16     hATrayflood     sync browser
 devtools                12740:83a5a4ffbe2b   2020-03-16     hATrayflood     sync devtools
 
-[l10n-mozilla-76.0]
+Released! [l10n-mozilla-76.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, netwerk, toolkit   12863:3ed3d9c68945   2020-04-09     mar             sync dom, netwerk, toolkit
@@ -1037,3 +1037,8 @@ browser                 12881:6cb6b9bffca3   2020-04-15     hATrayflood     sync
 mail, calendar, suite   12881:6cb6b9bffca3   2020-04-15     mar             sync mail, calendar, suite
 devtools                12881:6cb6b9bffca3   2020-04-15     hATrayflood     sync devtools
 
+[l10n-mozilla-77.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+browser                 12994:0aba1f3e8c3b   2020-05-14     hATrayflood     sync browser
+devtools                12994:0aba1f3e8c3b   2020-05-14     hATrayflood     sync devtools
