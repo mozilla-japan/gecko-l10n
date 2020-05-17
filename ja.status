@@ -1040,5 +1040,7 @@ devtools                12881:6cb6b9bffca3   2020-04-15     hATrayflood     sync
 [l10n-mozilla-77.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
-dom, netwerk, toolkit   12971:cdc61ccf88f8   2020-05-08     mar             sync dom, netwerk, toolkit
+browser                 12994:0aba1f3e8c3b   2020-05-14     hATrayflood     sync browser
+devtools                12994:0aba1f3e8c3b   2020-05-14     hATrayflood     sync devtools
+dom, netwerk, toolkit   12994:0aba1f3e8c3b   2020-05-14     mar             sync dom, netwerk, toolkit
 
