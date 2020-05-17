@@ -95,6 +95,9 @@ update-in-progress-cancel-button = 続行(&C)
 master-password-os-auth-dialog-message = マスターパスワードを作成するため、あなたのアカウントを検証します。
 
 # This message can be seen by trying to add a Master Password.
+master-password-os-auth-dialog-message-win = マスターパスワードを作成するには、Windows のログイン資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+
+# This message can be seen by trying to add a Master Password.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.

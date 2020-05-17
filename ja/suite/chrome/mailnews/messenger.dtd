@@ -504,6 +504,8 @@
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label            "メッセージを取得する">
 <!ENTITY folderContextGetMessages.accesskey        "G">
+<!ENTITY folderContextMarkAllFoldersRead.label     "すべてのフォルダーを既読にする">
+<!ENTITY folderContextMarkAllFoldersRead.accesskey "M">
 <!ENTITY folderContextOpenNewWindow.label          "@@New-CMD@@メール@@Window@@で開く">
 <!ENTITY folderContextOpenNewWindow.accesskey      "W">
 <!ENTITY folderContextOpenNewTab.label             "@@NewTab@@で開く">

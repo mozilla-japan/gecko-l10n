@@ -203,4 +203,7 @@
 <!ENTITY dontShowMessage.label		"ポップアップをブロックしたときにこのメッセージを表示しない">
 <!ENTITY dontShowMessage.accesskey	"D">
 
+<!ENTITY throbber.title			"Throbber">
+<!ENTITY throbber.tooltip2		"&brandShortName; のホームページへ移動します">
+
 <!ENTITY syncToolbarButton.label	"Sync">
