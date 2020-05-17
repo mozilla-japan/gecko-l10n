@@ -27,6 +27,14 @@ protection-report-page-title = プライバシー保護
 protection-report-content-title = プライバシー保護
 etp-card-title = 強化型トラッキング防止機能
 etp-card-content = トラッカーはあなたの習慣や興味に関する情報を収集するために、オンラインであなたを追跡します。{ -brand-short-name } はこれらのトラッカーや悪意のあるスクリプトの多くをブロックします。
+
+protection-report-webpage-title = プロテクションダッシュボード
+protection-report-page-content-title = プロテクションダッシュボード
+protection-report-page-summary = { -brand-short-name } はブラウジングの舞台裏でプライバシーを保護します。これはユーザーにパーソナライズされた保護結果の概要であり、オンラインセキュリティを制御するツールを含みます。
+
+etp-card-title-always = 強化型トラッキング防止機能: 常にオン
+etp-card-title-custom-not-blocking = 強化型トラッキング防止機能: オフ
+etp-card-content-summary = 不明な組織がウェブ上であなたを密かに追跡しようとしたときは、{ -brand-short-name } が自動的に追跡の大部分を遮断します。
 protection-report-etp-card-content-custom-not-blocking = 現在、保護はすべてオフになっています。{ -brand-short-name } 保護設定を管理して、ブロックするトラッカーを選択してください。
 protection-report-manage-protections = 設定を管理
 # This string is used to label the X axis of a graph. Other days of the week are generated via Intl.DateTimeFormat,
@@ -54,10 +62,15 @@ mobile-app-card-content = モバイルブラウザー組み込みの保護機能
 mobile-app-links = <a data-l10n-name="android-mobile-inline-link">Android 版</a>および <a data-l10n-name="ios-mobile-inline-link">iOS 版</a> { -brand-product-name } ブラウザー
 lockwise-title = 二度とパスワードを忘れないように
 lockwise-title-logged-in = { -lockwise-brand-name }
+lockwise-title-logged-in2 = パスワード管理
 lockwise-header-content = { -lockwise-brand-name } はあなたのパスワードを安全にブラウザーに保存します。
 lockwise-header-content-logged-in = パスワードを安全に保存して、ご使用のすべての端末と共有しましょう。
 protection-report-view-logins-button = ログイン情報を確認
     .title = 保存したログイン情報に移動
+protection-report-save-passwords-button = パスワードを保存
+  .title = { -lockwise-brand-short-name } にパスワードを保存
+protection-report-manage-passwords-button = パスワードを管理
+  .title = { -lockwise-brand-short-name } でパスワードを管理
 lockwise-mobile-app-title = どこでもパスワードが使える
 lockwise-no-logins-card-content = { -brand-short-name } に保存したパスワードを他の端末でも利用できます。
 lockwise-app-links = <a data-l10n-name="lockwise-android-inline-link">Android 版</a>および <a data-l10n-name="lockwise-ios-inline-link">iOS 版</a> { -lockwise-brand-name }
@@ -65,18 +78,38 @@ lockwise-app-links = <a data-l10n-name="lockwise-android-inline-link">Android �
 # of email addresses being monitored. Don’t add $count to
 # your localization, because it would result in the number showing twice.
 lockwise-passwords-stored = 安全に保存されたパスワード <a data-l10n-name="lockwise-how-it-works">仕組みについて</a>
+
+# Variables:
+# $count (Number) - Number of passwords exposed in data breaches.
+lockwise-scanned-text-breached-logins = { $count } 個のパスワードが漏洩データに含まれている可能性があります。
+
+# While English doesn't use the number in the plural form, you can add $count to your language
+# if needed for grammatical reasons.
+# Variables:
+# $count (Number) - Number of passwords stored in Lockwise.
+lockwise-scanned-text-no-breached-logins = パスワードは安全に保存されています。
+lockwise-how-it-works-link = 仕組みについて
+
 turn-on-sync = { -sync-brand-short-name } をオンにする...
     .title = 同期の設定に移動
 manage-connected-devices = 端末を管理...
 # Variables:
 #   $count (Number) - Number of devices connected with sync.
 lockwise-connected-device-status = { $count } 個の端末と接続中
-monitor-title = データ流出に注意を
+monitor-title = データ漏洩に注意を
 monitor-link = 仕組みについて
 monitor-header-content-no-account = { -monitor-brand-name } で既知のデータ漏洩にあなたが含まれるか確認できます。新たな漏洩があったときも警告してくれます。
 monitor-header-content-signed-in = { -monitor-brand-name } は既知のデータ漏洩にあなたの情報を発見したときに警告します。
 monitor-sign-up = アカウント登録して通知を受ける
 auto-scan = 本日、自動的にスキャンしました
+
+monitor-emails-tooltip =
+  .title = 監視中のメールアドレスを { -monitor-brand-short-name } で確認
+monitor-breaches-tooltip =
+  .title = 既知のデータ漏洩を { -monitor-brand-short-name } で確認
+monitor-passwords-tooltip =
+  .title = 漏洩したパスワードを { -monitor-brand-short-name } で確認
+
 # This string is displayed after a large numeral that indicates the total number
 # of email addresses being monitored. Don’t add $count to
 # your localization, because it would result in the number showing twice.

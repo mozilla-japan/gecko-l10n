@@ -9,6 +9,12 @@ protections-panel-sitefixedsendreport-label = サイトが修正されたこと�
 ## These strings are used to define the different levels of
 ## Enhanced Tracking Protection.
 
+protections-popup-footer-protection-label-strict = 厳格
+  .label = 厳格
+protections-popup-footer-protection-label-custom = カスタム
+  .label = カスタム
+protections-popup-footer-protection-label-standard = 標準
+  .label = 標準
 
 ##
 
