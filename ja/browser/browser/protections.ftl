@@ -30,7 +30,7 @@ etp-card-content = トラッカーはあなたの習慣や興味に関する情�
 
 protection-report-webpage-title = プロテクションダッシュボード
 protection-report-page-content-title = プロテクションダッシュボード
-protection-report-page-summary = { -brand-short-name } はあなたの背後でプライバシーを保護します。これはオンラインセキュリティを制御するツールを含む、これらの保護結果の個別概要です。
+protection-report-page-summary = { -brand-short-name } はブラウジングの舞台裏でプライバシーを保護します。これはユーザーにパーソナライズされた保護結果の概要であり、オンラインセキュリティを制御するツールを含みます。
 
 etp-card-title-always = 強化型トラッキング防止機能: 常にオン
 etp-card-title-custom-not-blocking = 強化型トラッキング防止機能: オフ

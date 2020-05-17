@@ -145,7 +145,7 @@ policy-OverridePostUpdatePage = 更新後に表示される更新情報ページ
 policy-PasswordManagerEnabled = パスワードのパスワードマネージャーへの保存を有効にします。
 
 # PDF.js and PDF should not be translated
-policy-PDFjs = { -brand-short-name } 組み込みの PDF ビューアーの PDF.js を無効、または設定します。
+policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー PDF.js を無効化または設定します。
 
 policy-Permissions2 = カメラ、マイク、位置情報、通知、自動再生の許可と拒否を設定します。
 

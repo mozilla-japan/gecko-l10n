@@ -320,4 +320,4 @@ main-context-menu-eme-learn-more =
 # Checkbox displayed at the bottom of the What's New panel, allowing users to 
 # enable/disable What's New notifications.
 cfr-whatsnew-panel-footer-checkbox = 
-  .label = 新機能を通知
+  .label = 新機能を通知する
