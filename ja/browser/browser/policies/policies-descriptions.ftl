@@ -93,6 +93,9 @@ policy-DownloadDirectory = ダウンロードディレクトリーを設定し�
 # “lock” means that the user won’t be able to change this setting
 policy-EnableTrackingProtection = コンテンツブロッキングを有効または無効にし、任意で設定をロックします。
 
+# “lock” means that the user won’t be able to change this setting
+policy-EncryptedMediaExtensions = Encrypted Media Extensions を有効または無効にし、任意で設定をロックします。
+
 # A “locked” extension can’t be disabled or removed by the user. This policy
 # takes 3 keys (“Install”, ”Uninstall”, ”Locked”), you can either keep them in
 # English or translate them as verbs.
@@ -140,6 +143,9 @@ policy-OverrideFirstRunPage = 初回起動時に表示されるページを上�
 policy-OverridePostUpdatePage = 更新後に表示される更新情報ページを上書きします。更新後のページを無効にするには、このポリシーの設定をブランクにします。
 
 policy-PasswordManagerEnabled = パスワードのパスワードマネージャーへの保存を有効にします。
+
+# PDF.js and PDF should not be translated
+policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー PDF.js を無効化または設定します。
 
 policy-Permissions2 = カメラ、マイク、位置情報、通知、自動再生の許可と拒否を設定します。
 
