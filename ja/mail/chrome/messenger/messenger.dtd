@@ -735,6 +735,8 @@
 <!ENTITY idColumn.label			"受信順">
 <!ENTITY attachmentColumn.label		"添付">
 
+<!ENTITY deleteColumn.label		"削除">
+
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip		"表示する列を選択します">
 <!ENTITY selectColumn.tooltip		"すべてのメッセージを選択または解除します">
@@ -758,6 +760,8 @@
 <!ENTITY locationColumn2.tooltip	"フォルダーで並べ替えます">
 <!ENTITY idColumn2.tooltip		"受信順で並べ替えます">
 <!ENTITY attachmentColumn2.tooltip	"添付の有無で並べ替えます">
+
+<!ENTITY deleteColumn.tooltip		"メッセージを削除します">
 
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label	"テンプレートから@@New-CMD@@メッセージを作成">
