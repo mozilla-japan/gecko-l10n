@@ -23,6 +23,7 @@ set-password-new-password = 新しいパスワード:
 set-password-reenter-password = 新しいパスワード(再入力):
 set-password-meter = パスワード品質レベル
 set-password-meter-loading = 読み込み中
+master-password-admin = 管理者には、パスワードを保存するためのマスターパスワードをあなたに設定してもらう必要があります。
 master-password-description = マスターパスワードはサイトパスワードなどの機密情報を保護するために使用されます。マスターパスワードを設定すると、そのパスワードで保護された情報を { -brand-short-name } が読み出すとき、セッションごとにマスターパスワードの入力を求められます。
 master-password-warning = マスターパスワードは決して忘れないようにしてください。マスターパスワードを忘れてしまうと、それにより保護されている一切の情報にアクセスできなくなります。
 

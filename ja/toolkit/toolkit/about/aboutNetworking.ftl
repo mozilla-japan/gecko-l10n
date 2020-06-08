@@ -80,6 +80,7 @@ about-networking-family = 系統
 about-networking-trr = TRR
 about-networking-addresses = アドレス
 about-networking-expires = 期限 (秒)
+about-networking-originAttributesSuffix = 隔離キー
 about-networking-messages-sent = 送信メッセージ
 about-networking-messages-received = 受信メッセージ
 about-networking-bytes-sent = 送信バイト数

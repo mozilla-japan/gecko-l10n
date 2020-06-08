@@ -35,3 +35,6 @@ process-type-gpu = GPU
 
 # process used to perform network operations
 process-type-socket = ソケット
+
+# process preallocated; may change to other types
+process-type-prealloc = 割り当て済み
