@@ -129,7 +129,7 @@ max-audio-channels = 最大チャンネル数
 channel-layout = 優先チャンネルレイアウト
 sample-rate = 優先サンプルレート
 
-roundtrip-latency = ラウンドトリップ遅延 (標準偏差)
+roundtrip-latency = 往復遅延時間 (標準偏差)
 media-title = メディア
 media-output-devices-title = 出力デバイス
 media-input-devices-title = 入力デバイス
