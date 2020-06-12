@@ -1045,3 +1045,9 @@ devtools                12994:0aba1f3e8c3b   2020-05-14     hATrayflood     sync
 dom, netwerk, toolkit   12994:0aba1f3e8c3b   2020-05-14     mar             sync dom, netwerk, toolkit
 mail, calendar, chat, suite
                         12994:0aba1f3e8c3b   2020-05-14     mar             sync mail, calendar, chat, suite
+
+[l10n-mozilla-78.0] (ESR)
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, netwerk, security, toolkit
+                        13172:fa03dee9e946   2020-06-08     mar             sync dom, netwerk, security, toolkit

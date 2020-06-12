@@ -6,6 +6,10 @@ certmgr-title =
     .title = 証明書マネージャー
 certmgr-tab-mine =
     .label = あなたの証明書
+
+certmgr-tab-remembered =
+    .label = 認証の決定
+
 certmgr-tab-people =
     .label = 個人証明書
 certmgr-tab-servers =
@@ -13,6 +17,7 @@ certmgr-tab-servers =
 certmgr-tab-ca =
     .label = 認証局証明書
 certmgr-mine = あなたが認証を受けるため以下の証明書が登録されています
+certmgr-remembered = これらの証明書はウェブサイトがあなたを識別するために使用されます。
 certmgr-people = 他の人を識別するため以下の証明書が登録されています
 certmgr-servers = サーバーを識別するため以下の証明書が登録されています
 certmgr-ca = 認証局を識別するため以下の証明書が登録されています
@@ -49,6 +54,8 @@ certmgr-edit-cert-trust-email =
 certmgr-delete-cert =
     .title = 証明書の削除
     .style = width: 48em; height: 24em;
+certmgr-cert-host =
+    .label = ホスト
 certmgr-cert-name =
     .label = 証明書名と発行者名
 certmgr-cert-server =

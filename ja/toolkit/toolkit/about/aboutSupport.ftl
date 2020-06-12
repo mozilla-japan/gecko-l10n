@@ -116,6 +116,12 @@ sandbox-sys-call-args = 引数
 safe-mode-title = セーフモードを試す
 restart-in-safe-mode-label = アドオンを無効化して再起動...
 
+clear-startup-cache-title = 起動時キャッシュの消去を試行
+clear-startup-cache-label = 起動時キャッシュを消去...
+startup-cache-dialog-title = 起動時キャッシュの消去
+startup-cache-dialog-body = { -brand-short-name } を再起動して起動時キャッシュを消去します。この操作で { -brand-short-name } の設定が変更されたり、追加した拡張機能が削除されることはありません。
+restart-button-label = 再起動
+
 ## Media titles
 
 audio-backend = 音声バックエンド
@@ -123,6 +129,7 @@ max-audio-channels = 最大チャンネル数
 channel-layout = 優先チャンネルレイアウト
 sample-rate = 優先サンプルレート
 
+roundtrip-latency = 往復遅延時間 (標準偏差)
 media-title = メディア
 media-output-devices-title = 出力デバイス
 media-input-devices-title = 入力デバイス
