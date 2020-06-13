@@ -109,6 +109,8 @@ policy-FirefoxHome = Firefox Home の設定を行います。
 
 policy-FlashPlugin = Flash プラグインの実行を許可、または拒否します。
 
+policy-Handlers = デフォルトアプリケーションハンドラーを設定します。
+
 policy-HardwareAcceleration = false にすると、ハードウェアアクセラレーションをオフにします。
 
 # “lock” means that the user won’t be able to change this setting
@@ -127,6 +129,8 @@ policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトで�
 ##
 
 policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
+
+policy-MasterPassword = マスターパスワードの使用を必須または抑止します。
 
 policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) を有効または無効にします。
 
@@ -148,6 +152,8 @@ policy-PasswordManagerEnabled = パスワードのパスワードマネージャ
 policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー PDF.js を無効化または設定します。
 
 policy-Permissions2 = カメラ、マイク、位置情報、通知、自動再生の許可と拒否を設定します。
+
+policy-PictureInPicture = ピクチャーインピクチャーを有効または無効にします。
 
 policy-PopupBlocking = 特定のウェブサイトのポッポアップ表示を@@Default@@で許可します。
 

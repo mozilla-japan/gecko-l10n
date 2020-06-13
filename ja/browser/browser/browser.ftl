@@ -267,8 +267,25 @@ popup-select-microphone =
     .accesskey = M
 popup-all-windows-shared = 画面に表示されているすべての@@Window@@を共有します。
 
+popup-screen-sharing-not-now =
+  .label = 後で
+  .accesskey = w
+
+popup-screen-sharing-never =
+  .label = 以降許可しない
+  .accesskey = N
+
+popup-silence-notifications-checkbox = 共有中は { -brand-short-name } からの通知を無効にする。
+popup-silence-notifications-checkbox-warning = 共有中は { -brand-short-name } からの通知を表示しないようにします。
+
 ## WebRTC window or screen share tab switch warning
 
+sharing-warning-window = { -brand-short-name } を共有しています。@@NewTab@@ に切り替えると、他の人にも見えます。
+sharing-warning-screen = 全画面を共有しています。@@NewTab@@ に切り替えると、他の人にも見えます。
+sharing-warning-proceed-to-tab =
+  .label = タブに移動
+sharing-warning-disable-for-session =
+  .label = このセッションでは共有保護を無効にする。
 
 ## DevTools F12 popup
 

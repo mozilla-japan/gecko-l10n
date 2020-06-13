@@ -93,6 +93,7 @@ newtab-menu-show-privacy-info = 私たちのスポンサーとあなたのプラ
 ## Message displayed in a modal window to explain privacy and provide context for sponsored content.
 
 newtab-privacy-modal-button-done = 完了
+newtab-privacy-modal-button-manage = スポンサーコンテンツの設定を管理
 newtab-privacy-modal-header = プライバシーは重要です。
 newtab-privacy-modal-paragraph-2 =
     盛り上がる魅力あるストーリーに加えて、選ばれたスポンサーからあなたの興味を引きそうな厳選コンテンツを提供します。
@@ -138,7 +139,12 @@ newtab-label-download = ダウンロード済み
 # This string is used in the story cards to indicate sponsored content
 # Variables:
 #  $sponsorOrSource (String): This is the name of a company or their domain
-newtab-label-sponsored = 提供 { $sponsorOrSource }
+newtab-label-sponsored = 提供: { $sponsorOrSource }
+
+# This string is used at the bottom of story cards to indicate sponsored content
+# Variables:
+#  $sponsor (String): This is the name of a sponsor
+newtab-label-sponsored-by = 提供: { $sponsor }
 
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.

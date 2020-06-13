@@ -241,6 +241,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY stopCmd.macCommandKey			".">
 
 <!ENTITY goEndCap.tooltip			"アドレスバーに入力された URL へ移動します">
+
 <!ENTITY printButton.label			"@@Print@@">
 <!ENTITY printButton.tooltip			"このページを@@Print@@します">
 
@@ -284,10 +285,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.midiBlocked.tooltip			"このウェブサイトの MIDI へのアクセスをブロックしました。">
 <!ENTITY urlbar.installBlocked.tooltip			"このウェブサイトのアドオンのインストールをブロックしました。">
 
+<!ENTITY urlbar.openHistoryPopup.tooltip		"履歴を表示します">
+
 <!ENTITY urlbar.permissionsGranted.tooltip		"このウェブサイトで追加の権限を許可しました。">
 
-
-<!ENTITY urlbar.openHistoryPopup.tooltip		"履歴を表示します">
 
 <!ENTITY searchItem.title				"検索">
 
@@ -347,7 +348,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
-
 <!ENTITY newUserContext.label		"@@New-CMD@@コンテナータブ">
 <!ENTITY newUserContext.accesskey	"B">
 <!ENTITY manageUserContext.label	"コンテナーを管理">
@@ -401,6 +401,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY viewCustomizeToolbar.label	"カスタマイズ...">
 <!ENTITY viewCustomizeToolbar.accesskey	"C">
+
 <!ENTITY overflowCustomizeToolbar.label	"ツールバーをカスタマイズ...">
 <!ENTITY overflowCustomizeToolbar.accesskey	"C">
 
@@ -631,6 +632,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE(pocket-button.tooltiptext, saveToPocketCmd.label, saveLinkToPocketCmd.label, pocketMenuitem.label):
   "Pocket" is a brand name. -->
 <!ENTITY pocketButton.tooltiptext		"Pocket に保存">
+
+<!-- LOCALIZATION NOTE(pocket-button.tooltiptext, saveToPocketCmd.label, saveLinkToPocketCmd.label, pocketMenuitem.label):
+  "Pocket" is a brand name. -->
 <!ENTITY saveToPocketCmd.label			"ページを Pocket に保存">
 <!ENTITY saveToPocketCmd.accesskey		"k">
 <!ENTITY saveLinkToPocketCmd.label		"リンクを Pocket に保存">
@@ -880,54 +884,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.contentBlockingPreferences.tooltip	"コンテンツブロッキングの設定を開きます">
 
 
-<!ENTITY protections.etpON.header				"強化型トラッキング防止機能はこのサイトでオンです">
-<!ENTITY protections.etpOFF.header				"強化型トラッキング防止機能はこのサイトでオフです">
-<!-- LOCALIZATION NOTE:
-     protections.etpMoreInfo.label: The text a screen reader speaks when focused on the info button. -->
-<!ENTITY protections.etpMoreInfo.label				"強化型トラッキング防止機能についての詳細情報">
-<!ENTITY protections.settings.label				"保護設定">
-<!ENTITY protections.showreport.label				"報告を表示">
-<!-- LOCALIZATION NOTE:
-     protections.siteNotWorking.label: The link to be clicked to open the sub-panel view
-     protections.siteNotWorkingView.title: The heading/title of the sub-panel view -->
-<!ENTITY protections.siteNotWorking.label			"サイトが動作してないですか？">
-<!ENTITY protections.siteNotWorkingView.title			"サイトが動作してないですか？">
-<!-- LOCALIZATION NOTE:
-     In the Site Not Working? view, we suggest turning off protections if
-     the user is experiencing issues with any of a variety of functionality.
-     protections.siteNotWorkingView.header: The header of the list
-     protections.siteNotWorkingView.issueList.*: The list items, shown in a <ul> -->
-<!ENTITY protections.siteNotWorkingView.header			"問題がある場合は、保護をオフにしてみてください:">
-<!ENTITY protections.siteNotWorkingView.issueList.logInFields	"ログインフォーム">
-<!ENTITY protections.siteNotWorkingView.issueList.forms		"フォーム">
-<!ENTITY protections.siteNotWorkingView.issueList.payments	"支払い情報">
-<!ENTITY protections.siteNotWorkingView.issueList.comments	"コメント">
-<!ENTITY protections.siteNotWorkingView.issueList.videos	"動画">
-<!ENTITY protections.siteNotWorkingView.sendReport.label	"報告を送信">
-
-<!-- LOCALIZATION NOTE (protections.blocking2.label, protections.notBlocking2.label, protections.notFound.label):
-     In the protections panel, Content Blocking category items are in three sections:
-     "Blocked" for categories being blocked in the current page,
-     "Allowed" for categories detected but not blocked in the current page, and
-     "None Detected" for categories not detected in the current page.
-     These strings are used in the header labels of each of these sections. -->
-<!ENTITY protections.blocking2.label				"ブロック済み">
-<!ENTITY protections.notBlocking2.label				"許可済み">
-<!ENTITY protections.notFound.label				"検出されませんでした">
-<!-- LOCALIZATION NOTE (protections.notBlocking.why.label, protections.notBlocking.why.etp*.tooltip):
-     The "Allowed" header also includes a "Why?" link that, when hovered, shows
-     a tooltip explaining why these items were not blocked in the page. -->
-<!ENTITY protections.notBlocking.why.label			"状態について">
-<!ENTITY protections.notBlocking.why.etpOn.tooltip		"これらをブロックすると、一部のウェブサイトの一部のボタン、フォーム、ログインフォームといった要素が動作しなくなる可能性があります。">
-<!ENTITY protections.notBlocking.why.etpOff2.tooltip		"保護がオフになっているため、このサイトのトラッカーがすべて読み込まれました。">
-<!ENTITY protections.noTrackersFound.description		"このページでは既知のトラッカーはありません。">
-
-<!ENTITY protections.crossSiteTrackingCookies.description	"これらの Cookie はオンラインでのあなたの行動に関するデータを集めるために、サイトからサイトへと追跡します。これは広告会社や調査会社といったサードパーティにより設置されています。">
-<!ENTITY protections.cryptominers.description			"暗号通貨マイニングは仮想通貨の採掘のために、あなたのシステムの計算リソースを利用します。暗号通貨マイニングスクリプトはあなたのバッテリーを消費し、コンピューターを遅くさせ、電気代を増やさせる可能性があります。">
-<!ENTITY protections.fingerprinters.description			"フィンガープリント採取はブラウザーとコンピューターから設定を集め、あなたのデジタル指紋を作成します。このデジタル指紋を使うと、様々なウェブサイトにまたがってあなたを追跡することができます。">
-<!ENTITY protections.trackingContent2.description		"ウェブサイトはトラッキングコード付きの広告、動画、その他のコンテンツを外部から読み込む場合があります。トラッキングコンテンツをブロックするとサイトの読み込みが速くなる可能性がありますが、一部のボタン、フォーム、ログインフォームが動作しなくなる可能性もあります。">
-<!ENTITY protections.socialMediaTrackers.description		"ソーシャルネットワークはオンラインでのあなたの行動を追跡、監視するために、他のウェブサイトにトラッカーを設置しています。これはソーシャルメディア上のあなたのプロフィールで共有している以上の情報を、ソーシャルメディア会社に許容することになります。">
-
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 <!ENTITY tabsToolbar.label			"ブラウザータブ"><!-- (^m^) Bug 565042  音声読み上げ用ラベル -->
@@ -972,13 +928,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.cookies.label				"Cookie">
 <!ENTITY contentBlocking.cookiesView.label			"Cookie とサイトデータ">
 
-<!ENTITY contentBlocking.trackingProtection4.label		"トラッキングコンテンツ">
-
-<!ENTITY contentBlocking.manageSettings2.label			"保護設定を管理">
-<!ENTITY contentBlocking.manageSettings2.accesskey		"M">
-
-<!ENTITY contentBlocking.socialblock.label			"ソーシャルメディアトラッカー">
-
 <!ENTITY contentBlocking.cryptominers.label			"暗号通貨マイニング">
 <!ENTITY contentBlocking.cryptominersView.label			"暗号通貨マイニング">
 
@@ -989,13 +938,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contentBlocking.breakageReportView.label			"問題を報告">
 <!ENTITY contentBlocking.breakageReportView2.description		"コンテンツブロッキングは一部のウェブサイトで問題になる場合があります。問題を報告すると、&brandShortName; のすべてのユーザーの助けになります。(URL に加えてブラウザの設定も Mozilla に送信されます。)">
 <!ENTITY contentBlocking.breakageReportView.learnMore			"詳細">
-
-<!ENTITY contentBlocking.breakageReportView.title			"動作しないサイトを報告">
-<!ENTITY contentBlocking.breakageReportView3.description		"特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、&brandShortName; を改善する手助けになります。報告とともに URL とあなたのブラウザーの設定に関する情報が Mozilla に送信されます。">
-<!ENTITY contentBlocking.breakageReportView2.learnMore			"詳細">
 <!ENTITY contentBlocking.breakageReportView.collection.url.label	"URL">
 <!ENTITY contentBlocking.breakageReportView.collection.comments.label	"どのような問題がありましたか？ (任意)">
-<!ENTITY contentBlocking.breakageReportView2.collection.comments.label	"任意: 問題を記述してください">
 <!ENTITY contentBlocking.breakageReportView.sendReport.label		"レポートを送信">
 <!ENTITY contentBlocking.breakageReportView.cancel.label		"キャンセル">
 
@@ -1024,6 +968,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      a CSS length value. -->
 <!ENTITY pluginNotification.width		"28em">
 
+
 <!ENTITY uiTour.infoPanel.close			"閉じる">
 
 <!ENTITY panicButton.thankyou.msg1		"最近の履歴を消去しました。">
@@ -1045,7 +990,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY newTabControlled.disableButton.accesskey	"D">
 
 <!ENTITY homepageControlled.message			"拡張機能がホームページを変更しています。この変更が望ましくない場合は、設定を元に戻すことができます。">
-
 <!ENTITY homepageControlled.header.message		"ホームページが変更されました。">
 <!ENTITY homepageControlled.keepButton.label		"変更を維持する">
 <!ENTITY homepageControlled.keepButton.accesskey	"K">
