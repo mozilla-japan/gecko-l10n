@@ -8,7 +8,7 @@ appmenuitem-protection-report-title = プライバシー保護
 appmenuitem-protection-report-tooltip =
     .tooltiptext = プライバシー保護の統計を確認します
 
-appmenuitem-protection-dashboard-title = プロテクションダッシュボード
+appmenuitem-protection-dashboard-title = プライバシー保護ダッシュボード
 appmenuitem-customize-mode =
     .label = カスタマイズ...
 

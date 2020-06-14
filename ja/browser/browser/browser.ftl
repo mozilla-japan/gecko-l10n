@@ -272,7 +272,7 @@ popup-screen-sharing-not-now =
   .accesskey = w
 
 popup-screen-sharing-never =
-  .label = 以降許可しない
+  .label = 以後許可しない
   .accesskey = N
 
 popup-silence-notifications-checkbox = 共有中は { -brand-short-name } からの通知を無効にする。

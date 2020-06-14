@@ -240,8 +240,9 @@ cfr-whatsnew-pip-fullscreen-icon-alt = ピクチャーインピクチャーア�
 ## Protections Dashboard message
 
 cfr-whatsnew-protections-header = パスワードを一発保護
-cfr-whatsnew-protections-body = プロテクションダッシュボードにデータ漏洩とパスワード管理についての概要報告が含まれるようになりました。解決済みの漏洩データ数の追跡が可能で、漏洩データに保存されたパスワードが含まれているかどうかも確認できます。
-cfr-whatsnew-protections-cta-link = プロテクションダッシュボードを表示
+# This should match the "appmenuitem-protection-dashboard-title" string in browser/appmenu.ftl.
+cfr-whatsnew-protections-body = プライバシー保護ダッシュボードにデータ漏洩とパスワード管理についての概要報告が含まれるようになりました。解決済みの漏洩データ数の追跡が可能で、漏洩データに保存されたパスワードが含まれているかどうかも確認できます。
+cfr-whatsnew-protections-cta-link = プライバシー保護ダッシュボードを表示
 cfr-whatsnew-protections-icon-alt = 盾アイコン
 
 ## Better PDF message

@@ -34,7 +34,7 @@ menu =
   .title = メニューを開きます
 # This menuitem is only visible on Windows and macOS
 about-logins-menu-menuitem-import-from-another-browser = 他のブラウザーから@@Import@@...
-about-logins-menu-menuitem-export-logins = ログい情報を@@Export@@...
+about-logins-menu-menuitem-export-logins = ログイン情報を@@Export@@...
 menu-menuitem-preferences =
   { PLATFORM() ->
       [windows] オプション
@@ -218,8 +218,4 @@ about-logins-export-file-picker-default-filename = logins.csv
 about-logins-export-file-picker-export-button = @@Export@@
 # A description for the .csv file format that may be shown as the file type
 # filter by the operating system.
-about-logins-export-file-picker-csv-filter-title =
-  { PLATFORM() ->
-      [macos] CSV ドキュメント
-     *[other] CSV ファイル
-  }
+about-logins-export-file-picker-csv-filter-title = CSV ファイル

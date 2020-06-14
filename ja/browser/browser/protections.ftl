@@ -32,8 +32,9 @@ protection-report-content-title = プライバシー保護
 etp-card-title = 強化型トラッキング防止機能
 etp-card-content = トラッカーはあなたの習慣や興味に関する情報を収集するために、オンラインであなたを追跡します。{ -brand-short-name } はこれらのトラッカーや悪意のあるスクリプトの多くをブロックします。
 
-protection-report-webpage-title = プロテクションダッシュボード
-protection-report-page-content-title = プロテクションダッシュボード
+# This should match the "appmenuitem-protection-dashboard-title" string in browser/appmenu.ftl.
+protection-report-webpage-title = プライバシー保護ダッシュボード
+protection-report-page-content-title = プライバシー保護ダッシュボード
 # This message shows when all privacy protections are turned off, which is why we use the word "can", Firefox is able to protect your privacy, but it is currently not.
 protection-report-page-summary = { -brand-short-name } はブラウジングの舞台裏でプライバシーを保護します。これはユーザーにパーソナライズされた保護結果の概要であり、オンラインセキュリティを制御するツールを含みます。
 # This message shows when at least some protections are turned on, we are more assertive compared to the message above, Firefox is actively protecting you.
