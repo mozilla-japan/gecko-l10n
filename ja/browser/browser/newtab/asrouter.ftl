@@ -236,3 +236,16 @@ cfr-whatsnew-passwords-icon-alt = 脆弱なパスワードの鍵アイコン
 cfr-whatsnew-pip-fullscreen-header = @@FullScreen@@でながら見
 cfr-whatsnew-pip-fullscreen-body = 動画だけを別の@@Window@@で再生しているとき、ダブルクリックすると@@FullScreen@@になります。
 cfr-whatsnew-pip-fullscreen-icon-alt = ピクチャーインピクチャーアイコン
+
+## Protections Dashboard message
+
+cfr-whatsnew-protections-header = パスワードを一発保護
+# This should match the "appmenuitem-protection-dashboard-title" string in browser/appmenu.ftl.
+cfr-whatsnew-protections-body = プライバシー保護ダッシュボードにデータ漏洩とパスワード管理についての概要報告が含まれるようになりました。解決済みの漏洩データ数の追跡が可能で、漏洩データに保存されたパスワードが含まれているかどうかも確認できます。
+cfr-whatsnew-protections-cta-link = プライバシー保護ダッシュボードを表示
+cfr-whatsnew-protections-icon-alt = 盾アイコン
+
+## Better PDF message
+
+cfr-whatsnew-better-pdf-header = より良い PDF 表示
+cfr-whatsnew-better-pdf-body = ワークフローから外れないように、PDF ドキュメントを直接  { -brand-short-name } で開くようになりました。

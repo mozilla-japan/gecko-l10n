@@ -306,9 +306,6 @@ applications-file-ending-with-type = { applications-file-ending } ({ $type })
 #   $plugin-name (String) - Name of a plugin (e.g Adobe Flash)
 applications-use-plugin-in =
     .label = { $plugin-name } を使用 ({ -brand-short-name } 内で表示)
-applications-preview-inapp =
-    .label = { -brand-short-name } でプレビュー表示
-
 applications-open-inapp =
     .label = { -brand-short-name } で開く
 
@@ -318,20 +315,22 @@ applications-open-inapp =
 
 applications-use-plugin-in-label =
     .value = { applications-use-plugin-in.label }
+
 applications-action-save-label =
     .value = { applications-action-save.label }
+
 applications-use-app-label =
     .value = { applications-use-app.label }
-applications-preview-inapp-label =
-    .value = { applications-preview-inapp.label }
 
 applications-open-inapp-label =
     .value = { applications-open-inapp.label }
 
 applications-always-ask-label =
     .value = { applications-always-ask.label }
+
 applications-use-app-default-label =
     .value = { applications-use-app-default.label }
+
 applications-use-other-label =
     .value = { applications-use-other.label }
 
@@ -493,11 +492,16 @@ home-prefs-search-header =
 home-prefs-topsites-header =
     .label = トップサイト
 home-prefs-topsites-description = よく訪れるサイト
-# Variables:
-#  $provider (String): Name of the corresponding content provider, e.g "Pocket".
+
+## Variables:
+##  $provider (String): Name of the corresponding content provider, e.g "Pocket".
+
 home-prefs-recommended-by-header =
     .label = { $provider } のおすすめ
 home-prefs-recommended-by-description = ウェブ上の様々な場所から集められた、あなたにピッタリの優れたコンテンツ
+home-prefs-recommended-by-description-update = { $provider } がウェブ全体から厳選した注目のコンテンツ
+##
+
 home-prefs-recommended-by-learn-more = 使い方
 home-prefs-recommended-by-option-sponsored-stories =
     .label = 広告記事
@@ -544,6 +548,7 @@ search-suggestions-option =
 search-show-suggestions-url-bar-option =
     .label = アドレスバーに検索候補を表示する
     .accesskey = l
+
 # This string describes what the user will observe when the system
 # prioritizes search suggestions over browsing history in the results
 # that extend down from the address bar. In the original English string,
@@ -551,23 +556,35 @@ search-show-suggestions-url-bar-option =
 # (appearing before).
 search-show-suggestions-above-history-option =
     .label = アドレスバーの入力候補は、検索候補を閲覧履歴より先に表示する
+
 search-show-suggestions-private-windows =
     .label = プライベート@@Window@@で検索候補を表示する
+
 suggestions-addressbar-settings = ブラウジング履歴、ブックマーク、タブの候補の設定を変更
+
+suggestions-addressbar-settings-generic = アドレスバーの入力候補のその他の設定を変更
+
 search-suggestions-cant-show = 履歴を保存しない設定となっているため、ロケーションバーに検索候補が表示されません。
+
 search-one-click-header = ワンクリック検索エンジン
+
 search-one-click-desc = キーワードの入力開始時にアドレスバーや検索バーの下に現れる代替検索エンジンを選んでください。
+
 search-choose-engine-column =
     .label = 検索エンジン
 search-choose-keyword-column =
     .label = キーワード
+
 search-restore-default =
     .label = @@Default-@@検索エンジンを復元
     .accesskey = D
+
 search-remove-engine =
     .label = 削除
     .accesskey = R
+
 search-find-more-link = 他の検索エンジンを追加
+
 # This warning is displayed when the chosen keyword is already in use
 # ('Duplicate' is an adjective)
 search-keyword-warning-title = キーワードが重複しています
@@ -757,10 +774,10 @@ privacy-header = ブラウザープライバシー
 
 ## Privacy Section - Forms
 
+logins-header = ログインとパスワード
 
 ## Privacy Section - Logins and Passwords
 
-logins-header = ログインとパスワード
 # The search keyword isn't shown to users but is used to find relevant settings in about:preferences.
 pane-privacy-logins-and-passwords-header = ログインとパスワード
     .searchkeywords = { -lockwise-brand-short-name }
@@ -795,9 +812,6 @@ forms-master-pw-fips-title = 現在 FIPS モードです。FIPS モードでは�
 forms-master-pw-fips-desc = パスワードを変更できませんでした
 
 ## OS Authentication dialog
-
-# This message can be seen by trying to add a Master Password.
-master-password-os-auth-dialog-message = マスターパスワードを作成するには、アカウントの確認が必要です。
 
 # This message can be seen by trying to add a Master Password.
 master-password-os-auth-dialog-message-win = マスターパスワードを作成するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
@@ -887,20 +901,29 @@ sitedata-option-block-all-third-party =
     .label = すべてのサードパーティ Cookie (ウェブサイトが動作しない可能性があります)
 sitedata-option-block-all =
     .label = すべての Cookie (ウェブサイトが動作しなくなります)
+
 sitedata-clear =
     .label = データを消去...
     .accesskey = l
+
 sitedata-settings =
     .label = データを管理...
     .accesskey = M
+
 sitedata-cookies-permissions =
     .label = サイトの設定を管理...
     .accesskey = P
 
+sitedata-cookies-exceptions =
+    .label = 例外を管理...
+    .accesskey = x
+
 ## Privacy Section - Address Bar
 
 addressbar-header = アドレスバー
+
 addressbar-suggest = アドレスバーの使用時に表示する候補
+
 addressbar-locbar-history-option =
     .label = ブラウジング履歴
     .accesskey = h
@@ -910,6 +933,11 @@ addressbar-locbar-bookmarks-option =
 addressbar-locbar-openpage-option =
     .label = 開いているタブ
     .accesskey = O
+
+addressbar-locbar-topsites-option =
+    .label = トップサイト
+    .accesskey = T
+
 addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
 
 ## Privacy Section - Content Blocking
@@ -954,6 +982,7 @@ enhanced-tracking-protection-setting-custom =
 content-blocking-etp-standard-desc = 保護と性能をバランスよく。ページが正しく機能するように読み込みます。
 content-blocking-etp-strict-desc = より強固な保護ですが、一部のサイトやコンテンツが機能しなくなる可能性があります。
 content-blocking-etp-custom-desc = ブロックするトラッカーとスクリプトを選択します。
+
 content-blocking-private-windows = トラッキングコンテンツ (プライベート@@Window@@のみ)
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
 content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残存 Cookie の隔離
@@ -965,12 +994,14 @@ content-blocking-all-windows-tracking-content = トラッキングコンテン�
 content-blocking-all-third-party-cookies = サードパーティ Cookie すべて
 content-blocking-cryptominers = 暗号通貨マイニング
 content-blocking-fingerprinters = フィンガープリント採取
+
 content-blocking-warning-title = 注意！
 content-blocking-warning-description = コンテンツをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。信頼するサイトはブロッキングを無効にできます。
 content-blocking-learn-how = 詳細情報
-content-blocking-etp-warning-description = トラッカーをブロックすると、一部のサイトの機能に影響がある可能性があります。すべてのコンテンツを読み込むには、トラッカーを許容してページを再読み込みします。
+
 content-blocking-and-isolating-etp-warning-description = トラッカーをブロックし、残存 Cookie を隔離すると、一部のサイトの機能に影響がある可能性があります。すべてのコンテンツを読み込むには、トラッカーを許容してページを再読み込みします。
 content-blocking-warning-learn-how = 詳細情報
+
 content-blocking-reload-description = これらの変更を適用するには、タブを再読み込みする必要があります。
 content-blocking-reload-tabs-button =
     .label = すべてのタブを再読み込み

@@ -59,6 +59,9 @@ protections-panel-not-found-label = 検出されませんでした
 protections-panel-settings-label = 保護設定
 protections-panel-showreport-label = 報告を表示
 
+# This should match the "appmenuitem-protection-dashboard-title" string in browser/appmenu.ftl.
+protections-panel-protectionsdashboard-label = プライバシー保護ダッシュボード
+
 ## In the Site Not Working? view, we suggest turning off protections if
 ## the user is experiencing issues with any of a variety of functionality.
 

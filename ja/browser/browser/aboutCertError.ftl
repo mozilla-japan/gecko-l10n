@@ -56,6 +56,12 @@ cert-error-details-hsts-label = HTTP Strict Transport Security: { $hasHSTS }
 cert-error-details-key-pinning-label = HTTP 公開鍵ピンニング: { $hasHPKP }
 cert-error-details-cert-chain-label = 証明書チェーン:
 
+open-in-new-window-for-csp-or-xfo-error = @@NewWindow@@でサイトを開く
+
+# Variables:
+# $hostname (String) - Hostname of the website blocked by csp or xfo error.
+csp-xfo-blocked-long-desc = 安全のため、{ -brand-short-name } は他のサイトが埋め込まれた { $hostname } のページの表示を許可できません。このページを表示するには、@@NewWindow@@で開く必要があります。
+
 ## Messages used for certificate error titles
 
 connectionFailure-title = 正常に接続できませんでした
@@ -85,6 +91,7 @@ unknownSocketType-title = サーバーの応答が不正です
 nssFailure2-title = 安全な接続ができませんでした
 cspBlocked-title = コンテンツセキュリティポリシーによりブロックされました
 xfoBlocked-title = X-Frame-Options ポリシーによりブロックされました
+csp-xfo-error-title = { -brand-short-name } はこのページを開けません
 corruptedContentError-title = コンテンツデータ破損エラー
 remoteXUL-title = リモート XUL
 sslv3Used-title = 安全な接続を確保できません

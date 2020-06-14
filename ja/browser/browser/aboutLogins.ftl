@@ -2,6 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+# NOTE: New strings should use the about-logins- prefix.
+
 about-logins-page-title = ログインとパスワード
 
 # "Google Play" and "App Store" are both branding and should not be translated
@@ -29,6 +34,7 @@ menu =
   .title = メニューを開きます
 # This menuitem is only visible on Windows and macOS
 about-logins-menu-menuitem-import-from-another-browser = 他のブラウザーから@@Import@@...
+about-logins-menu-menuitem-export-logins = ログイン情報を@@Export@@...
 menu-menuitem-preferences =
   { PLATFORM() ->
       [windows] オプション
@@ -104,17 +110,11 @@ about-logins-os-auth-dialog-caption = { -brand-full-name }
 ## and includes subtitle of "Enter password for the user "xxx" to allow this." These
 ## notes are only valid for English. Please test in your respected locale.
 
-# This message can be seen by attempting to edit a login in about:logins
-about-logins-edit-login-os-auth-dialog-message = 保存したログイン情報を編集するには、アカウントの確認が必要です。
-
 # This message can be seen when attempting to edit a login in about:logins on Windows.
 about-logins-edit-login-os-auth-dialog-message-win = ログイン情報を編集するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
 # This message can be seen when attempting to edit a login in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-edit-login-os-auth-dialog-message-macosx = 保存したログイン情報を編集
-
-# This message can be seen by attempting to reveal a password in about:logins
-about-logins-reveal-password-os-auth-dialog-message = 保存したパスワードを表示するには、アカウントの確認が必要です。
 
 # This message can be seen when attempting to reveal a password in about:logins on Windows.
 about-logins-reveal-password-os-auth-dialog-message-win = ログイン情報を表示するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
@@ -122,14 +122,17 @@ about-logins-reveal-password-os-auth-dialog-message-win = ログイン情報を�
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-reveal-password-os-auth-dialog-message-macosx = 保存したパスワードを表示
 
-# This message can be seen by attempting to copy a password in about:logins
-about-logins-copy-password-os-auth-dialog-message = 保存したパスワードをコピーするには、アカウントの確認が必要です。
-
 # This message can be seen when attempting to copy a password in about:logins on Windows.
 about-logins-copy-password-os-auth-dialog-message-win = ログイン情報をコピーするには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
 # This message can be seen when attempting to copy a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-copy-password-os-auth-dialog-message-macosx = 保存したパスワードをコピー
+
+# This message can be seen when attempting to export a password in about:logins on Windows.
+about-logins-export-password-os-auth-dialog-message-win = ログイン情報を@@Export-suru@@には、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+# This message can be seen when attempting to export a password in about:logins
+# On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
+about-logins-export-password-os-auth-dialog-message-macosx = 保存したログイン情報とパスワードを@@Export@@
 
 ## Master Password notification
 
@@ -166,6 +169,10 @@ about-logins-confirm-remove-dialog-title = このログイン情報を消去し�
 confirm-delete-dialog-message = この操作は元に戻せません。
 about-logins-confirm-remove-dialog-confirm-button = 消去
 
+about-logins-confirm-export-dialog-title = ログイン情報とパスワードを@@Export@@
+about-logins-confirm-export-dialog-message = あなたのパスワードは可読テキストとして保存されます。(例: BadP@ssw0rd) @@Export-sare@@たファイルを開ける人なら誰でも内容を読み取ることが可能になります。
+about-logins-confirm-export-dialog-confirm-button = @@Export@@...
+
 confirm-discard-changes-dialog-title = 未保存の変更を破棄しますか？
 confirm-discard-changes-dialog-message = 変更内容はすべて失われます。
 confirm-discard-changes-dialog-confirm-button = 破棄
@@ -199,3 +206,16 @@ about-logins-error-message-duplicate-login-with-link = そのユーザー名は 
 
 # This is a generic error message.
 about-logins-error-message-default = このパスワードの保存中にエラーが発生しました。
+
+
+## Login Export Dialog
+
+# Title of the file picker dialog
+about-logins-export-file-picker-title = ログイン情報をファイルに@@Export@@
+# The default file name shown in the file picker when exporting saved logins.
+# This must end in .csv
+about-logins-export-file-picker-default-filename = logins.csv
+about-logins-export-file-picker-export-button = @@Export@@
+# A description for the .csv file format that may be shown as the file type
+# filter by the operating system.
+about-logins-export-file-picker-csv-filter-title = CSV ファイル
