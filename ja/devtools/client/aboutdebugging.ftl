@@ -379,6 +379,10 @@ about-debugging-worker-push-service =
 about-debugging-worker-inspect-action-disabled =
   .title = Service Worker の調査は、現在のマルチプロセス { -brand-shorter-name } では無効化されています。
 
+# Displayed as title of the inspect button for zombie tabs (e.g. tabs loaded via a session restore).
+about-debugging-zombie-tab-inspect-action-disabled =
+  .title = タブの読み込みが完了してないため調査できません。
+
 # Displayed as name for the Main Process debug target in the Processes category. Only for
 # remote runtimes, if `devtools.aboutdebugging.process-debugging` is true.
 about-debugging-main-process-name = メインプロセス
