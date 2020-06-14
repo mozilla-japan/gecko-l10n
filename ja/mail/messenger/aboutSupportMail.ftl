@@ -16,3 +16,5 @@ accounts-default = @@Default@@？
 identity-name = 使用アカウント
 
 send-via-email = メールで送信
+
+app-basics-telemetry = Telemetry データ

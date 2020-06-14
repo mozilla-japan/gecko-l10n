@@ -68,6 +68,8 @@
 <!ENTITY alwaysAuthenticate.accesskey	"w">
 <!ENTITY newsrcFilePath.label		"newsrc ファイル:">
 <!ENTITY newsrcPicker.label		"newsrc ファイルを選択してください">
+<!ENTITY newsrcFilePath1.label		"News.rc ファイル:">
+<!ENTITY newsrcPicker1.label		"News.rc ファイルを選択してください">
 <!ENTITY abbreviate.label		"ニュースグループ名の表示形式:">
 <!ENTITY abbreviateOn.label		"完全名 (例: netscape.public.mozilla.mail-news)">
 <!ENTITY abbreviateOff.label		"短縮名 (例: n.p.m.mail-news)">
@@ -75,6 +77,7 @@
 <!ENTITY advancedButton.accesskey	"v">
 <!ENTITY serverDefaultCharset2.label	"@@Default-@@テキストエンコーディング:">
 <!ENTITY localPath.label		"メッセージの保存先:"><!-- en-US: Local directory -->
+<!ENTITY localPath1.label		"メッセージの保存先:"><!-- en-US: Local Directory -->
 <!ENTITY localFolderPicker.label	"メッセージデータの保存先を選択してください">
 <!ENTITY browseFolder.label		"@@Browse@@...">
 <!ENTITY browseFolder.accesskey		"B">

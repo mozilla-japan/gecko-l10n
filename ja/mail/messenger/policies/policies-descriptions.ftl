@@ -37,13 +37,19 @@ policy-DefaultDownloadDirectory = @@Default-@@ダウンロードディレクト�
 
 policy-DisableAppUpdate = { -brand-short-name } の更新を禁止します。
 
+policy-DisableDefaultClientAgent = @@Default-@@クライアントエージェントのアクションをすべて禁止します。Windows のみ有効です。他のプラットフォームにはエージェントがありません。
+
 policy-DisableDeveloperTools = 開発ツールへのアクセスをブロックします。
 
 policy-DisableFeedbackCommands = ヘルプメニューのフィードバックの送信 (フィードバックと詐欺サイトの報告の送信) を無効にします。
 
 policy-DisableForgetButton = @@[@@忘れる@@]@@ ボタンへのアクセスを禁止します。
 
+policy-DisableFormHistory = 検索とフォームの入力履歴を記憶しないようにします。
+
 policy-DisableMasterPasswordCreation = true の場合、マスターパスワードを作成できません。
+
+policy-DisablePasswordReveal = 保存されたパスワードの開示を許可しないようにします。
 
 policy-DisableProfileImport = メニューコマンド @@[@@他の@@Application@@からデータを@@Import@@@@]@@ を無効にします。
 
@@ -66,6 +72,9 @@ policy-DownloadDirectory = ダウンロードディレクトリーを設定し�
 # “lock” means that the user won’t be able to change this setting
 policy-EnableTrackingProtection = コンテンツブロッキングを有効または無効にし、任意で設定をロックします。
 
+# “lock” means that the user won’t be able to change this setting
+policy-EncryptedMediaExtensions = Encrypted Media Extensions を有効または無効にし、任意で設定をロックします。
+
 # A “locked” extension can’t be disabled or removed by the user. This policy
 # takes 3 keys (“Install”, ”Uninstall”, ”Locked”), you can either keep them in
 # English or translate them as verbs.
@@ -79,15 +88,34 @@ policy-HardwareAcceleration = false の場合、ハードウェアアクセラ�
 
 policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
 
+policy-LegacyProfiles = インストールごとにプロファイルが分割されるのを強制的に無効にします。
+
+## Do not translate "SameSite", it's the name of a cookie attribute.
+
+policy-LegacySameSiteCookieBehaviorEnabled = 従来の SameSite Cookie の動作設定を@@Default@@で有効にします。
+
+policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトでは従来の SameSite Cookie の動作に戻します。
+
+##
+
 policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
 
 policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) を有効または無効にします。
 
 policy-OfferToSaveLogins = { -brand-short-name } に保存したログイン情報とパスワードを利用する設定を強制します。値は true か false を設定します。
 
+policy-OfferToSaveLoginsDefault = { -brand-short-name } に保存したログイン情報とパスワードを利用する設定の@@DefaultValue@@を設定します。値は true か false を設定します。
+
 policy-OverrideFirstRunPage = 初回起動時に表示されるページを上書きします。初回起動時のページを無効にする場合は、このポリシーの設定をブランクにします。
 
 policy-OverridePostUpdatePage = 更新後に表示される更新情報ページを上書きします。更新後のページを無効にするには、このポリシーの設定をブランクにします。
+
+policy-PasswordManagerEnabled = パスワードマネージャーへのパスワードの保存を有効にします。
+
+# PDF.js and PDF should not be translated
+policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー PDF.js を無効化または設定します。
+
+policy-Permissions2 = カメラ、マイク、位置情報、通知、自動再生の許可設定を変更します。
 
 policy-Preferences = 設定のサブセットに対する値を設定してロックします。
 
@@ -101,6 +129,8 @@ policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去
 
 policy-SearchEngines = 検索エンジンの設定を指示します。このポリシーは延長サポート版 (ESR) のみ有効です。
 
+policy-SearchSuggestEnabled = 検索候補の表示機能を有効または無効にします。
+
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = PKCS #11 モジュールをインストールします。
 
@@ -109,6 +139,8 @@ policy-SSLVersionMax = SSL の最高バージョンを設定します。
 policy-SSLVersionMin = SSL の最低バージョンを設定します。
 
 policy-SupportMenu = ヘルプメニューにカスタムサポートメニューを追加します。
+
+policy-UserMessaging = 特定のメッセージをユーザーに表示しません。
 
 # “format” refers to the format used for the value of this policy.
 policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細はドキュメントをご覧ください。

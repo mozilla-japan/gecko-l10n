@@ -15,6 +15,8 @@
 <!ENTITY name.accesskey			"Y">
 <!ENTITY email.label			"メールアドレス:">
 <!ENTITY email.accesskey		"E">
+<!ENTITY catchAll.label			"送信ヘッダーが一致する場合はこの差出人から返信する:">
+<!ENTITY catchAll.accesskey		"d">
 <!ENTITY replyTo.label			"返信先 (Reply-to):">
 <!ENTITY replyTo.accesskey		"s">
 <!ENTITY replyTo.placeholder		"受信者からの返信を受け取るアドレス">

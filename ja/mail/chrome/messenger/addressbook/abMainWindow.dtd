@@ -18,6 +18,8 @@
 <!ENTITY newListCmd.accesskey			"L">
 <!ENTITY newAddressBookCmd.label		"アドレス帳...">
 <!ENTITY newAddressBookCmd.accesskey		"B">
+<!ENTITY newCardDAVBookCmd.label		"CardDAV アドレス帳...">
+<!ENTITY newCardDAVBookCmd.accesskey		"V">
 <!ENTITY newLDAPDirectoryCmd.label		"LDAP ディレクトリー...">
 <!ENTITY newLDAPDirectoryCmd.accesskey		"D">
 <!ENTITY newMessageCmd.label			"メッセージ">
