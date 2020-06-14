@@ -54,7 +54,8 @@
 <!ENTITY editLinkCmd.accesskey "i">
 
 <!-- Font Face SubMenu -->
-<!ENTITY FontFaceSelect.tooltip "フォントを選択">
+<!ENTITY FontFaceSelect.title "フォント">
+<!ENTITY FontFaceSelect.tooltip "フォントを選択します">
 <!ENTITY fontfaceMenu.label "フォント">
 <!ENTITY fontfaceMenu.accesskey "F">
 <!ENTITY fontVarWidth.label "プロポーショナル">
@@ -70,7 +71,8 @@
 <!ENTITY fontCourier.accesskey "C">
 
 <!-- Font Size SubMenu -->
-<!ENTITY FontSizeSelect.tooltip "フォントサイズを選択してください">
+<!ENTITY FontSizeSelect.title "フォントサイズ">
+<!ENTITY FontSizeSelect.tooltip "フォントサイズを選択します">
 <!ENTITY decreaseFontSize.label "小さくする">
 <!ENTITY decreaseFontSize.accesskey "r">
 <!ENTITY decrementFontSize.key "&lt;">
@@ -132,9 +134,9 @@
 <!ENTITY styleVar.label "変数">
 <!ENTITY styleVar.accesskey "V">
 
-<!ENTITY formatFontColor.label "文字列の色...">
+<!ENTITY formatFontColor.label "文字列の@@Color@@...">
 <!ENTITY formatFontColor.accesskey "C">
-<!ENTITY tableOrCellColor.label "表またはセルの背景色...">
+<!ENTITY tableOrCellColor.label "表またはセルの背景@@Color@@...">
 <!ENTITY tableOrCellColor.accesskey "B">
 
 <!ENTITY formatRemoveStyles.key "Y">
@@ -169,9 +171,9 @@
 <!ENTITY formatlistMenu.accesskey "L">
 <!ENTITY noneCmd.label "なし">
 <!ENTITY noneCmd.accesskey "N">
-<!ENTITY listBulletCmd.label "行頭文字付きリスト"><!-- Bulleted -->
+<!ENTITY listBulletCmd.label "箇条書きリスト">
 <!ENTITY listBulletCmd.accesskey "B">
-<!ENTITY listNumberedCmd.label "番号付きリスト">
+<!ENTITY listNumberedCmd.label "順序付きリスト">
 <!ENTITY listNumberedCmd.accesskey "m">
 <!ENTITY listTermCmd.label "定義リスト - 用語">
 <!ENTITY listTermCmd.accesskey "T">
@@ -180,7 +182,8 @@
 <!ENTITY listPropsCmd.label "リストの@@PropertyCMD@@...">
 <!ENTITY listPropsCmd.accesskey "L">
 
-<!ENTITY ParagraphSelect.tooltip "段落の形式を選択">
+<!ENTITY ParagraphSelect.title "段落">
+<!ENTITY ParagraphSelect.tooltip "段落の形式を選択します">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "本文のテキスト">
 <!ENTITY bodyTextCmd.accesskey "T">
@@ -193,21 +196,24 @@
 <!ENTITY alignMenu.accesskey "A">
 <!ENTITY alignLeft.label "左">
 <!ENTITY alignLeft.accesskey "L">
-<!ENTITY alignLeft.tooltip "左寄せ">
+<!ENTITY alignLeft.tooltip "左寄せします">
 <!ENTITY alignCenter.label "中央">
 <!ENTITY alignCenter.accesskey "C">
-<!ENTITY alignCenter.tooltip "中央寄せ">
+<!ENTITY alignCenter.tooltip "中央寄せします">
 <!ENTITY alignRight.label "右">
 <!ENTITY alignRight.accesskey "R">
-<!ENTITY alignRight.tooltip "右寄せ">
+<!ENTITY alignRight.tooltip "右寄せします">
 <!ENTITY alignJustify.label "両端そろえ">
 <!ENTITY alignJustify.accesskey "J">
-<!ENTITY alignJustify.tooltip "両端そろえ">
+<!ENTITY alignJustify.tooltip "両端でそろえます">
 
 <!-- Layer toolbar items -->
+<!ENTITY absolutePosition.label "配置">
 <!ENTITY layer.tooltip "レイヤー">
-<!ENTITY layerSendToBack.tooltip "@@Back@@に移動">
-<!ENTITY layerBringToFront.tooltip "@@Front@@に移動">
+<!ENTITY decreaseZIndex.label "@@Back@@に移動">
+<!ENTITY layerSendToBack.tooltip "@@Back@@に移動します">
+<!ENTITY increaseZIndex.label "@@Front@@に移動">
+<!ENTITY layerBringToFront.tooltip "@@Front@@に移動します">
 
 <!ENTITY increaseIndent.label "インデントを挿入">
 <!ENTITY increaseIndent.accesskey "I">
@@ -304,29 +310,47 @@
 <!ENTITY linkToolbarCmd.tooltip "新しいリンクを挿入するか、選択したリンクの@@Property@@を編集します">
 <!ENTITY anchorToolbarCmd.label "名前付きアンカー">
 <!ENTITY anchorToolbarCmd.tooltip "新しい名前付きアンカーを挿入するか、選択したアンカーの@@Property@@を編集します">
+<!ENTITY colorButtons.title "@@Colors@@">
 <!ENTITY TextColorButton.tooltip "テキストの@@Color@@を選択します">
 <!ENTITY BackgroundColorButton.tooltip "背景の@@Color@@を選択します">
 <!ENTITY throbber.tooltip "&vendorShortName; ホームページに行きます">
 <!ENTITY throbber.tooltip2 "&brandShortName; のホームページへ移動します">
+<!ENTITY HighlightColorButton.label "背景@@Color@@">
 <!ENTITY HighlightColorButton.tooltip "テキストの背景@@Color@@を選択します">
 
 <!-- Editor toolbar -->
+<!ENTITY absoluteFontSize.label "フォントサイズ">
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "フォントサイズを設定します">
+<!ENTITY smaller.label "小さくする">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "フォントサイズを縮小します">
+<!ENTITY larger.label "大きくする">
 <!ENTITY increaseFontSizeToolbarCmd.tooltip "フォントサイズを拡大します">
+<!ENTITY bold.label "太字">
 <!ENTITY boldToolbarCmd.tooltip "太字">
+<!ENTITY italic.label "イタリック体">
 <!ENTITY italicToolbarCmd.tooltip "イタリック体">
+<!ENTITY underline.label "下線">
 <!ENTITY underlineToolbarCmd.tooltip "下線">
-<!ENTITY bulletListToolbarCmd.tooltip "行頭文字付きリストを適用または解除します">
-<!ENTITY numberListToolbarCmd.tooltip "番号付きリストを適用または解除します">
-<!ENTITY outdentToolbarCmd.tooltip "インデント解除 (左へ移動)">
-<!ENTITY indentToolbarCmd.tooltip "インデント (右へ移動)">
+<!ENTITY bullets.label "箇条書きリスト">
+<!ENTITY bulletListToolbarCmd.tooltip "箇条書きリストを適用または解除します">
+<!ENTITY numbers.label "順序付きリスト">
+<!ENTITY numberListToolbarCmd.tooltip "順序付きリストを適用または解除します">
+<!ENTITY outdent.label "インデント削除">
+<!ENTITY outdentToolbarCmd.tooltip "インデントを削除 (左へ移動) します">
+<!ENTITY indent.label "インデント挿入">
+<!ENTITY indentToolbarCmd.tooltip "インデントを挿入 (右へ移動) します">
+<!ENTITY AlignPopupButton.label "テキスト配置">
 <!ENTITY AlignPopupButton.tooltip "テキストの配置を選択します">
+<!ENTITY InsertPopupButton.label "挿入">
 <!ENTITY InsertPopupButton.tooltip "リンク、アンカー、画像、水平線、表を挿入します">
+<!ENTITY alignLeftButton.label "左寄せ">
 <!ENTITY alignLeftButton.tooltip "テキストを左にそろえます">
+<!ENTITY alignCenterButton.label "中央寄せ">
 <!ENTITY alignCenterButton.tooltip "テキストを中央にそろえます">
+<!ENTITY alignRightButton.label "右寄せ">
 <!ENTITY alignRightButton.tooltip "テキストを右にそろえます">
-<!ENTITY alignJustifyButton.tooltip "2 行以上あるテキストの両端をそろえます">
+<!ENTITY alignJustifyButton.label "両端そろえ">
+<!ENTITY alignJustifyButton.tooltip "テキストの両端を余白にそろえます">
 
 <!-- Structure Toolbar Context Menu items -->
 <!ENTITY structSelect.label         "選択">

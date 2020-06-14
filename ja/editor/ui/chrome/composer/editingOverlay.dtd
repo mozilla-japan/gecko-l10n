@@ -33,6 +33,8 @@
 <!ENTITY newToolbarCmd.label "新規作成">
 <!ENTITY newToolbarCmd.tooltip "新しい Composer ページを作成します">
 <!ENTITY openToolbarCmd.label "開く">
-<!ENTITY openToolbarCmd.tooltip "ファイルを開く">
+<!ENTITY openToolbarCmd.tooltip "ファイルを開きます">
 <!ENTITY saveToolbarCmd.tooltip "ローカル URL にファイルを保存します">
 <!ENTITY publishToolbarCmd.tooltip "リモート URL にファイルをアップロードします">
+<!ENTITY printToolbarCmd.label "@@Print@@">
+<!ENTITY printToolbarCmd.tooltip "このページを@@Print@@します">
