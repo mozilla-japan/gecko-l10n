@@ -99,10 +99,15 @@ options-disable-javascript-tooltip =
 options-enable-chrome-label = ブラウザーとアドオンのデバッガーを有効化
 options-enable-chrome-tooltip =
     .title = さまざまな開発ツールがブラウザーコンテキスト (ツール > ウェブ開発 > ブラウザーツールボックス) とアドオンマネージャーからのアドオンデバッグで使えるようになります
+
 # The label for checkbox that toggles remote debugging, i.e. the devtools.debugger.remote-enabled preference
 options-enable-remote-label = リモートデバッガーを有効化
 options-enable-remote-tooltip =
     .title = Firefox OS などのリモート Firefox インスタンスを開発ツールでデバッグできるようにします
+
+options-enable-remote-tooltip2 =
+    .title = このオプションを有効にすると、このブラウザーインスタンスをリモートでデバッグできるようになります
+
 # The label for checkbox that toggles the service workers testing over HTTP on or off.
 options-enable-service-workers-http-label = HTTP による Service Worker を有効化 (ツールボックスを開いたとき)
 options-enable-service-workers-http-tooltip =
