@@ -39,12 +39,12 @@ msgevent-rcvdmsg_malformed = { $name } さんからデータ改竄されたメ�
 # A Heartbeat is a technical message used to keep a connection alive.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-msgevent-log_heartbeat_rcvd = { $name } さんから Heartbeat を受信しました。
+msgevent-log_heartbeat_rcvd = { $name } さんから在席確認を受信しました。
 
 # A Heartbeat is a technical message used to keep a connection alive.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-msgevent-log_heartbeat_sent = { $name } さんへ Heartbeat を送信しました。
+msgevent-log_heartbeat_sent = { $name } さんへ在席確認を送信しました。
 
 # Do not translate 'OTR' (name of an encryption protocol)
 msgevent-rcvdmsg_general_err = OTR による会話の保護中に予期しないエラーが発生しました。
