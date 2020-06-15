@@ -42,6 +42,23 @@ privacy-main-header = プライバシー
 privacy-passwords-header = パスワード
 privacy-junk-header = 迷惑メール
 privacy-data-collection-header = データ収集と利用
+collection-header = { -brand-short-name } のデータ収集と利用について
+collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
+collection-privacy-notice = 個人情報保護方針
+collection-health-report-telemetry-disabled = { -vendor-short-name } への技術的な対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
+collection-health-report-telemetry-disabled-link = 詳細情報
+collection-health-report =
+    .label = { -brand-short-name } が技術的な対話データを { -vendor-short-name } へ送信することを許可する
+    .accesskey = r
+collection-health-report-link = 詳細情報
+# This message is displayed above disabled data sharing options in developer builds
+# or builds with no Telemetry support available.
+collection-health-report-disabled = このビルド設定ではヘルスレポートが無効化されています
+collection-backlogged-crash-reports =
+    .label = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する
+    .accesskey = c
+collection-backlogged-crash-reports-link = 詳細情報
+
 privacy-security-header = セキュリティ
 privacy-scam-detection-title = 詐欺メール
 privacy-anti-virus-title = ウイルス対策
@@ -99,7 +116,7 @@ focus-search-shortcut-alt =
     .key = k
 general-legend = { -brand-short-name } スタートページ
 start-page-label =
-    .label = 起動時にメッセージペインにスタートページを表示する
+    .label = { -brand-short-name } の起動時にメッセージペインにスタートページを表示する
     .accesskey = W
 location-label =
     .value = URL:
@@ -146,6 +163,9 @@ customize-alert-label =
 tray-icon-label =
     .label = トレイアイコンを表示する
     .accesskey = t
+mail-system-sound-label =
+    .label = 新着メールの@@Default-@@システムサウンド
+    .accesskey = D
 mail-custom-sound-label =
     .label = 次のサウンドファイルを使用する:
     .accesskey = U
@@ -218,7 +238,7 @@ use-service =
     .accesskey = b
 cross-user-udpate-warning = この設定はすべての Windows アカウントと、このバージョンの { -brand-short-name } で使用するすべてのプロファイルに適用されます。
 networking-legend = 接続
-proxy-config-description = インターネット接続に使用するプロキシーを設定できます。
+proxy-config-description = { -brand-short-name } のインターネットへの接続方式 (DNS over HTTPS、プロキシー) を設定します。
 network-settings-button =
     .label = 接続設定...
     .accesskey = S
@@ -544,11 +564,11 @@ junk-log-button =
 reset-junk-button =
     .label = 判別基準データのリセット
     .accesskey = R
-phishing-description = フィッシング詐欺メールでよく使われる偽装手法が含まれているメッセージを検出できます。
+phishing-description = { -brand-short-name } がメッセージを解析して、フィッシング詐欺メールでよく使われる偽装手法が含まれているものを検出できます。
 phishing-label =
     .label = 表示中のメッセージに詐欺メールの疑いがあるときに知らせる
     .accesskey = T
-antivirus-description = ウイルス対策ソフトがウイルスを検出したとき、感染したメッセージだけを処理できるようにします。
+antivirus-description = { -brand-short-name } で受信したメッセージを、ローカルに保存する前にウイルス対策ソフトウェアに解析させ、感染したメッセージだけを処理できるようにします。
 antivirus-label =
     .label = 受信したメッセージは個別の一時ファイルとして保存してからメールボックスに移動させる
     .accesskey = A
@@ -657,5 +677,27 @@ chat-header-label =
     .label = ヘッダーを表示する
     .accesskey = H
 
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-input-box =
+    .style = width: 15.4em
+    .placeholder = { PLATFORM() ->
+        [windows] オプションを検索
+        *[other] 設定を検索
+    }
+
 ## Preferences UI Search Results
 
+search-results-header = 検索結果
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message = { PLATFORM() ->
+    [windows] “<span data-l10n-name="query"></span>” オプションについての検索結果はありません。
+    *[other] “<span data-l10n-name="query"></span>” 設定についての検索結果はありません。
+}
+search-results-help-link = 助けが必要な方は、<a data-l10n-name="url">{ -brand-short-name } サポート</a> をご利用ください

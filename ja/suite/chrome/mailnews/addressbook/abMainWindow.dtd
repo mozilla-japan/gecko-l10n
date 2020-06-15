@@ -7,24 +7,24 @@
 
 <!-- Menus:  the . means that the menu item isn't implemented yet -->
 
+<!ENTITY blankResultsPaneMessage.label                  "このアドレス帳には検索後の連絡先のみが表示されます">
+<!ENTITY localResultsOnlyMessage.label                  "リモートのアドレス帳からの連絡先は検索するまで表示されません">
 <!-- File Menu -->
 <!ENTITY newContact.label                               "連絡先...">
-<!-- LOCALIZATION NOTE (newContact.accesskey) : DONT_TRANSLATE -->
 <!ENTITY newContact.accesskey                           "C">
+<!ENTITY newContact.key                                 "N">
 <!ENTITY newListCmd.label                               "アドレスリスト..."><!-- (^^; Mailing List -->
-<!-- LOCALIZATION NOTE (newListCmd.accesskey) : DONT_TRANSLATE -->
 <!ENTITY newListCmd.accesskey                           "L">
 <!ENTITY newAddressBookCmd.label                        "アドレス帳...">
 <!ENTITY newAddressBookCmd.accesskey                    "o">
 <!ENTITY newLDAPDirectoryCmd.label                      "LDAP ディレクトリー...">
-<!-- LOCALIZATION NOTE (newLDAPDirectoryCmd.accesskey) : DONT_TRANSLATE -->
 <!ENTITY newLDAPDirectoryCmd.accesskey                  "D">
 <!ENTITY newIM.label                                    "インスタントメッセージ">
 <!ENTITY printContactViewCmd.label                      "連絡先を@@Print@@...">
-<!ENTITY printContactViewCmd.accesskey                  "p">
+<!ENTITY printContactViewCmd.accesskey                  "P">
+<!ENTITY printContactViewCmd.key                        "P">
 <!ENTITY printPreviewContactViewCmd.label               "連絡先の@@Print@@プレビュー">
 <!ENTITY printPreviewContactViewCmd.accesskey           "v">
-<!ENTITY printContactViewCmd.key                        "P">
 <!ENTITY printAddressBook.label                         "アドレス帳を@@Print@@...">
 <!ENTITY printAddressBook.accesskey                     "A">
 <!ENTITY printPreviewAddressBook.label                  "アドレス帳の@@Print@@プレビュー">
@@ -40,7 +40,6 @@
 <!ENTITY swapFirstNameLastNameCmd.label                 "姓と名を入れ換える">
 <!ENTITY swapFirstNameLastNameCmd.accesskey             "w">
 <!ENTITY propertiesCmd.label                            "@@PropertyCMD@@...">
-<!-- LOCALIZATION NOTE (propertiesCmd.accesskey) : DONT_TRANSLATE -->
 <!ENTITY propertiesCmd.accesskey                        "i">
 <!ENTITY propertiesCmd.key                              "i">
 
@@ -56,11 +55,11 @@
 <!ENTITY menu_ShowNameAs.label                          "名前の表示">
 <!ENTITY menu_ShowNameAs.accesskey                      "n">
 <!ENTITY firstLastCmd.label                             "名前 姓">
-<!ENTITY firstLastCmd.accesskey                         "f">
+<!ENTITY firstLastCmd.accesskey                         "F">
 <!ENTITY lastFirstCmd.label                             "姓 名前">
-<!ENTITY lastFirstCmd.accesskey                         "l">
+<!ENTITY lastFirstCmd.accesskey                         "L">
 <!ENTITY displayNameCmd.label                           "表示名">
-<!ENTITY displayNameCmd.accesskey                       "d">
+<!ENTITY displayNameCmd.accesskey                       "D">
 
 <!-- LOCALIZATION NOTE (toggleDirectoryPaneCmd.key): This is only used on the
      mac platform, other platforms use VK_F9. -->
@@ -85,16 +84,19 @@
 <!ENTITY deleteItemButton.accesskey                     "D">
 <!ENTITY newimButton.label                              "インスタントメッセージ">
 <!ENTITY newimButton.accesskey                          "I">
+<!ENTITY printButton.label                              "@@Print@@">
+<!ENTITY printButton.accesskey                          "r">
 <!ENTITY searchNameAndEmail.placeholder                 "名前またはメールアドレスを検索">
 <!ENTITY searchBox.title                                "検索">
 
 <!-- Tooltips -->
 <!ENTITY addressbookToolbar.tooltip                     "アドレス帳ツールバー">
-<!ENTITY newContactButton.tooltip                       "新しい連絡先を作成します">
-<!ENTITY newlistButton.tooltip                          "新しいリストを作成します">
+<!ENTITY newContactButton.tooltip                       "@@New-CMD@@連絡先を作成します">
+<!ENTITY newlistButton.tooltip                          "@@New-CMD@@アドレスリストを作成します">
 <!ENTITY editItemButton.tooltip                         "選択した連絡先を編集します">
 <!ENTITY newmsgButton.tooltip                           "メールを送信します">
 <!ENTITY newIM.tooltip                                  "インスタントメッセージを送信またはチャットをします">
+<!ENTITY printButton.tooltip                            "選択したアイテムを@@Print@@します">
 <!ENTITY deleteItemButton.tooltip                       "選択した連絡先またはアドレス帳を削除します">
 <!ENTITY throbber.tooltip                               "&vendorShortName; ホームページを表示します">
 <!ENTITY throbber.tooltip2                              "&brandShortName; ホームページへ移動します">
@@ -108,6 +110,7 @@
 <!ENTITY contact.heading                                "連絡先">
 <!ENTITY home.heading                                   "自宅">
 <!ENTITY other.heading                                  "その他">
+<!ENTITY chat.heading                                   "チャット">
 <!ENTITY phone.heading                                  "電話番号">
 <!ENTITY work.heading                                   "勤務先">
 <!-- Special Box Headings, for mailing lists -->

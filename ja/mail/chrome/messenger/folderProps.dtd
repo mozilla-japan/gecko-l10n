@@ -50,6 +50,9 @@
 
 <!ENTITY folderProps.name.label			"名前:">
 <!ENTITY folderProps.name.accesskey		"N">
+<!ENTITY folderProps.color.label		"アイコンの@@Color@@:">
+<!ENTITY folderProps.color.accesskey		"I">
+<!ENTITY folderProps.reset.tooltip		"@@Default-@@@@Color@@に戻します">
 <!ENTITY folderProps.location.label		"場所:">
 <!ENTITY folderProps.location.accesskey		"L">
 
@@ -57,6 +60,7 @@
 <!ENTITY privileges.button.label		"アクセス権限...">
 <!ENTITY privileges.button.accesskey		"P">
 <!ENTITY permissionsDesc.label			"以下のアクセス権限があります:">
+<!ENTITY folderOtherUsers.label			"このフォルダーにアクセス可能な他のユーザー:">
 <!ENTITY folderType.label			"フォルダーの種類:">
 
 <!ENTITY folderQuotaTab.label			"クォータ"><!-- (^^; RFC 2087 -->

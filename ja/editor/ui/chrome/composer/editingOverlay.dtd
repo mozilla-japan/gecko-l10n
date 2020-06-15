@@ -17,22 +17,24 @@
 <!ENTITY saveAsCmd.accesskey "A">
 <!ENTITY saveAsChangeEncodingCmd2.label "テキストエンコーディングを変更して保存">
 <!ENTITY saveAsChangeEncodingCmd2.accesskey "E">
-<!ENTITY publishCmd.label "出版">
+<!ENTITY publishCmd.label "公開">
 <!ENTITY publishCmd.accesskey "b">
 <!ENTITY publishCmd.key "S">
-<!ENTITY publishAsCmd.label "設定して出版...">
+<!ENTITY publishAsCmd.label "設定して公開...">
 <!ENTITY publishAsCmd.accesskey "h">
 <!ENTITY fileRevert.label "@@Revert@@">
 <!ENTITY fileRevert.accesskey "t">
 
 <!-- Edit menu items -->
-<!ENTITY publishSettings.label "出版サイトの設定...">
+<!ENTITY publishSettings.label "公開先サイトの設定...">
 <!ENTITY publishSettings.accesskey "b">
 
 <!-- Toolbar-only items -->
 <!ENTITY newToolbarCmd.label "新規作成">
 <!ENTITY newToolbarCmd.tooltip "新しい Composer ページを作成します">
 <!ENTITY openToolbarCmd.label "開く">
-<!ENTITY openToolbarCmd.tooltip "ファイルを開く">
+<!ENTITY openToolbarCmd.tooltip "ファイルを開きます">
 <!ENTITY saveToolbarCmd.tooltip "ローカル URL にファイルを保存します">
 <!ENTITY publishToolbarCmd.tooltip "リモート URL にファイルをアップロードします">
+<!ENTITY printToolbarCmd.label "@@Print@@">
+<!ENTITY printToolbarCmd.tooltip "このページを@@Print@@します">

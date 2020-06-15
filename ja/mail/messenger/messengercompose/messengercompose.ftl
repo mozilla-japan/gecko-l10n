@@ -9,13 +9,6 @@ remove-address-row-type = { $type } フィールドを削除
 
 #   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
-address-input-type = { $count ->
-    [0]     { $type } 入力フィールドは空です
-    *[other] { $type } 入力フィールドにアドレスが { $count } 件あります
-}
-
-#   $type (String) - the type of the addressing row
-#   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label = { $count ->
     [0]     { $type }
     [one]   { $type } のアドレス 1 件、フォーカスするには左矢印キーを押してください。
@@ -44,3 +37,20 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Bcc へ移動
     .accesskey = B
+
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count =
+    .value = 添付ファイル { $count } 個
+    .accesskey = m
+
+#   $count (Number) - the number of attachments in the attachment bucket
+attachments-placeholder-tooltip =
+    .tooltiptext = 添付ファイル { $count } 個
+
+#   { attachment-bucket-count.accesskey } - Do not localize this message.
+key-toggle-attachment-pane =
+    .key = { attachment-bucket-count.accesskey }
+
+button-return-receipt =
+    .label = 開封確認
+    .tooltiptext = このメッセージの開封確認の返送を求めます

@@ -425,6 +425,7 @@
 <!ENTITY deleteButton.label                  "削除">
 <!ENTITY undeleteButton.label                "削除を@@Undo@@">
 <!ENTITY markButton.label                    "マーク">
+<!ENTITY printButton.label                   "@@Print@@">
 <!ENTITY stopButton.label                    "中止">
 <!ENTITY junkButton.label                    "迷惑メール">
 <!ENTITY notJunkButton.label                 "非迷惑メール">
@@ -440,14 +441,15 @@
 <!ENTITY replyButton.tooltip                "メッセージに返信します">
 <!ENTITY replyAllButton.tooltip             "送受信者全員に返信します">
 <!ENTITY replyAllButtonNews.tooltip         "送受信者全員とニュースグループに返信します"><!--Reply to sender and newsgroup-->
-<!ENTITY forwardButton.tooltip              "メッセージを転送します">
-<!ENTITY fileButton.tooltip                 "メッセージを別のフォルダーに移します">
+<!ENTITY forwardButton.tooltip              "選択したメッセージを転送します">
+<!ENTITY fileButton.tooltip                 "選択したメッセージを別のフォルダーに移します">
 <!ENTITY nextButton.tooltip                 "次の未読メッセージに移動します">
 <!ENTITY goBackButton.tooltip               "メッセージ表示履歴を前に戻ります"><!-- 一つ前以外も -->
 <!ENTITY goForwardButton.tooltip            "メッセージ表示履歴を次に進みます"><!-- 一つ次以外も -->
 <!ENTITY deleteButton.tooltip               "メッセージまたはフォルダーを削除します">
 <!ENTITY undeleteButton.tooltip             "メッセージの削除を@@Undo-simasu@@">
 <!ENTITY markButton.tooltip                 "メッセージにマークを付けます">
+<!ENTITY printButton.tooltip                "このメッセージを@@Print@@します">
 <!ENTITY stopButton.tooltip                 "送受信処理を中止します">
 <!ENTITY throbber.tooltip                   "&vendorShortName; のホームページに移動します">
 <!ENTITY throbber.tooltip2                  "&brandShortName; のホームページへ移動します">

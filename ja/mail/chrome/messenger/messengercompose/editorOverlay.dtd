@@ -294,6 +294,8 @@
 <!ENTITY findToolbarCmd.tooltip "ページ内の文字列を検索します">
 <!ENTITY spellToolbarCmd.label "スペル">
 <!ENTITY spellToolbarCmd.tooltip "選択範囲またはページ全体のスペルチェックをします">
+
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "画像">
 <!ENTITY imageToolbarCmd.tooltip "新しい画像を挿入するか、選択した画像の@@Property@@を編集します">
 <!ENTITY hruleToolbarCmd.label "水平線">
