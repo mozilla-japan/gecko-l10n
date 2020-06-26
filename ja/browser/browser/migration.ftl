@@ -4,13 +4,11 @@
 
 migration-wizard =
     .title = 設定移行@@Wizard@@
-
 import-from =
     { PLATFORM() ->
         [windows] オプション、ブックマーク、履歴、パスワードその他のデータを@@Import-suru@@対象を選んでください:
        *[other] 設定、ブックマーク、履歴、パスワードその他のデータを@@Import-suru@@対象を選んでください:
     }
-
 import-from-bookmarks = ブックマークを@@Import-suru@@対象を選んでください:
 import-from-ie =
     .label = Microsoft Internet Explorer
@@ -51,39 +49,22 @@ import-from-firefox =
 import-from-360se =
     .label = 360 Secure Browser
     .accesskey = 3
-
 no-migration-sources = ブックマーク、履歴やパスワードなどの@@Import-suru@@設定やデータを持つ@@Program@@が見つかりませんでした。
-
-import-source =
-    .label = 設定とデータの@@-ImportCMD@@
-import-items-title =
-    .label = @@Import-suru@@項目
-
+import-source-page-title = 設定とデータの@@ImportNoun@@
+import-items-page-title = @@Import-suru@@項目
 import-items-description = @@Import-suru@@項目を選択してください:
-
-import-migrating-title =
-    .label = @@Import-site@@います...
-
+import-migrating-page-title = @@Import-site@@います...
 import-migrating-description = 次の項目を現在@@Import-site@@います...
-
-import-select-profile-title =
-    .label = プロファイルの選択
-
+import-select-profile-page-title = プロファイルの選択
 import-select-profile-description = @@Import-suru@@プロファイルを選択してください:
-
-import-done-title =
-    .label = @@ImportNoun@@完了
-
+import-done-page-title = @@ImportNoun@@完了
 import-done-description = 次のデータが正常に@@Import-sare@@ました:
-
 import-close-source-browser = 続ける前に、選択したブラウザーが閉じられていることを確認してください。
-
 # Displays which browser the bookmarks are being imported from
 #
 # Variables:
 #   $source (String): The browser the user has chosen to import bookmarks from.
 imported-bookmarks-source = { $source } から
-
 source-name-ie = Internet Explorer
 source-name-edge = Microsoft Edge
 source-name-edge-beta = Microsoft Edge Beta
@@ -95,7 +76,6 @@ source-name-chrome-dev = Google Chrome Dev
 source-name-chromium = Chromium
 source-name-firefox = Mozilla Firefox
 source-name-360se = 360 Secure Browser
-
 imported-safari-reading-list = リーディングリスト (Safari から)
 imported-edge-reading-list = リーディングリスト (Edge から)
 
@@ -113,54 +93,52 @@ imported-edge-reading-list = リーディングリスト (Edge から)
 ## normalized to just "edge" and "chrome" for these strings.
 
 browser-data-cookies-checkbox =
-  .label = Cookie
+    .label = Cookie
 browser-data-cookies-label =
-  .value = Cookie
-
+    .value = Cookie
 browser-data-history-checkbox =
-  .label = { $browser ->
-     [firefox] 履歴とブックマーク
-    *[other] 表示履歴
-  }
+    .label =
+        { $browser ->
+            [firefox] 履歴とブックマーク
+           *[other] 表示履歴
+        }
 browser-data-history-label =
-  .value = { $browser ->
-     [firefox] 履歴とブックマーク
-    *[other] 表示履歴
-  }
-
+    .value =
+        { $browser ->
+            [firefox] 履歴とブックマーク
+           *[other] 表示履歴
+        }
 browser-data-formdata-checkbox =
-  .label = 入力フォームの履歴
+    .label = 入力フォームの履歴
 browser-data-formdata-label =
-  .value = 入力フォームの履歴
-
+    .value = 入力フォームの履歴
 # This string should use the same phrase for "logins and passwords" as the
 # label in the main hamburger menu that opens about:logins.
 browser-data-passwords-checkbox =
-  .label = 保存されているパスワード
+    .label = 保存されているパスワード
 # This string should use the same phrase for "logins and passwords" as the
 # label in the main hamburger menu that opens about:logins.
 browser-data-passwords-label =
-  .value = 保存されているパスワード
-
+    .value = 保存されているパスワード
 browser-data-bookmarks-checkbox =
-  .label = { $browser ->
-     [ie] お気に入り
-     [edge] お気に入り
-    *[other] ブックマーク
-  }
+    .label =
+        { $browser ->
+            [ie] お気に入り
+            [edge] お気に入り
+           *[other] ブックマーク
+        }
 browser-data-bookmarks-label =
-  .value = { $browser ->
-     [ie] お気に入り
-     [edge] お気に入り
-    *[other] ブックマーク
-  }
-  
+    .value =
+        { $browser ->
+            [ie] お気に入り
+            [edge] お気に入り
+           *[other] ブックマーク
+        }
 browser-data-otherdata-checkbox =
-  .label = その他のデータ
+    .label = その他のデータ
 browser-data-otherdata-label =
-  .label = その他のデータ
-
+    .label = その他のデータ
 browser-data-session-checkbox =
-  .label = @@Window@@とタブ
+    .label = @@Window@@とタブ
 browser-data-session-label =
-  .value = @@Window@@とタブ
+    .value = @@Window@@とタブ
