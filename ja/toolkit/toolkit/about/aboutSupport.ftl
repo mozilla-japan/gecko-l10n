@@ -10,28 +10,31 @@ crashes-send-date = 送信日時
 crashes-all-reports = すべてのクラッシュレポート
 crashes-no-config = この@@Application@@はクラッシュレポートを表示できるように設定されていません。
 extensions-title = 拡張機能
-extensions-name = 名前
+extensions-name = アドオン名
 extensions-enabled = 有効
 extensions-version = バージョン
 extensions-id = ID
-support-addons-name = 名前
+support-addons-title = アドオン
+support-addons-name = アドオン名
+support-addons-type = 種類
+support-addons-enabled = 有効
 support-addons-version = バージョン
 support-addons-id = ID
 security-software-title = セキュリティソフトウェア
 security-software-type = 種類
-security-software-name = 名前
+security-software-name = 製品名
 security-software-antivirus = アンチウイルス
 security-software-antispyware = アンチスパイウェア
 security-software-firewall = ファイアウォール
 features-title = { -brand-short-name } の機能
-features-name = 名前
+features-name = 機能名
 features-version = バージョン
 features-id = ID
 processes-title = リモートプロセス
 processes-type = 種類
 processes-count = プロセス数
 app-basics-title = アプリケーション基本情報
-app-basics-name = 名前
+app-basics-name = 製品名
 app-basics-version = バージョン
 app-basics-build-id = ビルド ID
 app-basics-distribution-id = 区域 ID
@@ -72,13 +75,16 @@ show-dir-label =
         [windows] フォルダーを開く
        *[other] ディレクトリーを開く
     }
+experimental-features-title = 実験的な機能
+experimental-features-name = 機能名
+experimental-features-value = 値
 modified-key-prefs-title = 変更された重要な設定
-modified-prefs-name = 名前
+modified-prefs-name = 設定名
 modified-prefs-value = 値
 user-js-title = user.js 設定ファイル
 user-js-description = このプロファイルには、{ -brand-short-name } では作成されない設定値が含まれた <a data-l10n-name="user-js-link">user.js 設定ファイル</a> があります。
 locked-key-prefs-title = ロックされた重要な設定
-locked-prefs-name = 名前
+locked-prefs-name = 設定名
 locked-prefs-value = 値
 graphics-title = グラフィック
 graphics-features-title = 機能
@@ -243,6 +249,9 @@ blocklisted-bug = 既知の問題によりブロックリストに掲載され�
 # Variables
 # $bugNumber (string) - String of bug number from Bugzilla
 bug-link = Bug { $bugNumber }
+# Variables
+#   $bugNumber (string) - Bug number on Bugzilla
+support-blocklisted-bug = 既知の問題によりブロックリストに追加: <a data-l10n-name="bug-link">bug { $bugNumber }</a>
 # Variables
 # $failureCode (string) - String that can be searched in the source tree.
 unknown-failure = ブロックリストに掲載。失敗コード { $failureCode }
