@@ -24,7 +24,7 @@ experimental-features-avif-description = AVIF (AV1 Image File Format) の実験�
 # by various online articles and is technical in nature.
 experimental-features-cookie-samesite-lax-by-default =
     .label = @@Default@@で Cookies: SameSite=lax
-experimental-features-cookie-samesite-lax-by-default-description = Cookie に“sameSite” 属性が指定されていない場合、@@Default@@で “sameSite=lax” として扱います。開発者は、“sameSite=none” が暗黙的に濫用されている現状に状態をオプトインする必要があります。
+experimental-features-cookie-samesite-lax-by-default-description = Cookie に “sameSite” 属性が指定されていない場合、@@Default@@で “sameSite=lax” として扱います。開発者は、“sameSite=none” が暗黙的に濫用されている現状に状態をオプトインする必要があります。
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
