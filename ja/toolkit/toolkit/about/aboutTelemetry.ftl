@@ -16,7 +16,7 @@ about-telemetry-option-group-older = それ以前
 about-telemetry-previous-ping = <<
 about-telemetry-next-ping = >>
 about-telemetry-page-title = Telemetry データ
-about-telemetry-current-store = 現在のストア: 
+about-telemetry-current-store = 現在のストア:
 about-telemetry-more-information = 詳しい情報をお探しですか？
 about-telemetry-firefox-data-doc = <a data-l10n-name="data-doc-link">Firefox Data Documentation</a> には、私たちのデータツールでの取り扱われ方についてのガイドが含まれます。
 about-telemetry-telemetry-client-doc = <a data-l10n-name="client-doc-link">Firefox Telemetry クライアントドキュメント</a> には、コンセプト、API ドキュメント、データ参照についての定義が含まれます。
@@ -63,7 +63,7 @@ about-telemetry-upload-type =
 #   $sampleCount (Integer): amount of histogram samples
 #   $prettyAverage (Integer): average of histogram samples
 #   $sum (Integer): sum of histogram samples
-about-telemetry-histogram-stats = サンプル数 { $sampleCount }, 平均 = { $prettyAverage }, 合計 = { $sum }
+about-telemetry-histogram-stats = サンプル数 { $sampleCount }、平均 = { $prettyAverage }、合計 = { $sum }
 # Variables:
 #   $telemetryServerOwner (String): the value of the toolkit.telemetry.server_owner preference. Typically "Mozilla"
 about-telemetry-page-subtitle = このページは、Telemetry によって収集されたパフォーマンスとハードウェア、使用状況、カスタマイズについての情報を表示します。この情報は、{ -brand-full-name } の改善のため { $telemetryServerOwner } に送信されます。
@@ -71,7 +71,7 @@ about-telemetry-settings-explanation = Telemetry は { about-telemetry-data-type
 # Variables:
 #   $name (String): ping name, e.g. “saved-session”
 #   $timeStamp (String): ping localized timestamp, e.g. “2017/07/08 10:40:46”
-about-telemetry-ping-details = 情報の各ピースは “<a data-l10n-name="ping-link">ping</a>” にバンドルして送信されます。あなたは { $name }, { $timestamp } の ping を調べています。
+about-telemetry-ping-details = 情報の各ピースは “<a data-l10n-name="ping-link">ping</a>” にバンドルして送信されます。あなたは { $name }、{ $timestamp } の ping を調べています。
 about-telemetry-ping-details-current = 情報の各ピースは “<a data-l10n-name="ping-link">ping</a>” にバンドルして送信されます。あなたは現在の ping を調べています。
 about-telemetry-data-details-current = 情報の各ピースは “<a data-l10n-name="ping-link">ping</a>” にバンドルして送信されます。あなたは現在のデータを調べています。
 # string used as a placeholder for the search field
