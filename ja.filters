@@ -170,23 +170,27 @@ ja.-ImportCMD				= のインポート
 ja.Import				= インポート
 ja.ImportNoun				= インポート
 ja.Import-sare				= インポートされ
+ja.Import-si				= インポートし
 ja.Import-sinai				= インポートしない
 ja.Import-simasu			= インポートします
 ja.Import-simasita			= インポートしました
 ja.Import-sita				= インポートした
 ja.Import-site				= インポートして
 ja.Import-suru				= インポートする
+ja.Import-deki				= インポートでき
 # Mac OS X 10.4 or earlier: 読み込み 10.5 or later: 読み込む
 ja-JP-mac.-ImportCMD			= を読み込む
 ja-JP-mac.Import			= 読み込む
 ja-JP-mac.ImportNoun			= 読み込み
 ja-JP-mac.Import-sare			= 読み込まれ
+ja-JP-mac.Import-si			= 読み込み
 ja-JP-mac.Import-sinai			= 読み込まない
 ja-JP-mac.Import-simasu			= 読み込みます
 ja-JP-mac.Import-simasita		= 読み込みました
 ja-JP-mac.Import-sita			= 読み込んだ
 ja-JP-mac.Import-site			= 読み込んで
 ja-JP-mac.Import-suru			= 読み込む
+ja-JP-mac.Import-deki			= 読み込め
 
 ja.-ExportCMD				= のエクスポート
 ja.Export				= エクスポート

@@ -17,6 +17,10 @@ onboarding-button-label-get-started = はじめる
 ## Welcome modal dialog strings
 
 onboarding-welcome-header = { -brand-short-name } にようこそ
+
+# The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
+# automatically added to the text inside it. { -brand-short-name } should stay inside the span.
+onboarding-multistage-welcome-header = <span data-l10n-name="zap">{ -brand-short-name }</span> にようこそ
 onboarding-welcome-body = ブラウザーを手に入れました。<br/>残りの { -brand-product-name } の製品も手に入れましょう。
 onboarding-welcome-learn-more = 役立つ点についての詳細
 
@@ -44,6 +48,18 @@ onboarding-start-browsing-button-label = ブラウジングを開始
 onboarding-cards-dismiss =
     .title = 閉じる
     .aria-label = 閉じる
+
+# Tooltip displayed on hover of top sites in import settings screen during onboarding flow.
+# This support welcome screen showing top sites imported from the user's default browser.
+# Title text is kept multiline to ensure tooltip container width is not more than 40 characters.
+onboarding-import-sites-info =
+  .title =
+    これらのサイトがこの端末から見つかりました。
+    { -brand-short-name } は、あなたがこれらのサイトを
+    @@Import-suru@@ことを選択しない限り、
+    他のブラウザーからデータを保存または
+    同期することはありません。
+  .aria-label = { onboarding-import-sites-info.title }
 
 ## Welcome full page string
 

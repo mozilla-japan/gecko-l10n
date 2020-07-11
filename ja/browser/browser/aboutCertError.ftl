@@ -54,6 +54,7 @@ cert-error-details-hsts-label = HTTP Strict Transport Security: { $hasHSTS }
 # Variables:
 # $hasHPKP (Boolean) - Indicates whether HPKP header is present.
 cert-error-details-key-pinning-label = HTTP 公開鍵ピンニング: { $hasHPKP }
+
 cert-error-details-cert-chain-label = 証明書チェーン:
 
 open-in-new-window-for-csp-or-xfo-error = @@NewWindow@@でサイトを開く
@@ -89,8 +90,6 @@ proxyResolveFailure-title = プロキシーサーバーが見つかりません�
 redirectLoop-title = ページの自動転送設定が正しくありません
 unknownSocketType-title = サーバーの応答が不正です
 nssFailure2-title = 安全な接続ができませんでした
-cspBlocked-title = コンテンツセキュリティポリシーによりブロックされました
-xfoBlocked-title = X-Frame-Options ポリシーによりブロックされました
 csp-xfo-error-title = { -brand-short-name } はこのページを開けません
 corruptedContentError-title = コンテンツデータ破損エラー
 remoteXUL-title = リモート XUL

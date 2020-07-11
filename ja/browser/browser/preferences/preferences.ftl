@@ -50,6 +50,14 @@ category-privacy =
 pane-sync-title2 = { -sync-brand-short-name }
 category-sync2 =
     .tooltiptext = { pane-sync-title2 }
+
+pane-experimental-title = 実験的な機能
+category-experimental =
+    .tooltiptext = 実験的な機能
+pane-experimental-subtitle = 注意して進んでください
+pane-experimental-search-results-header = 実験的な機能: 注意して進んでください
+pane-experimental-description = 高度な設定を変更すると、{ -brand-short-name } の性能と安全性に影響を及ぼす可能性があります。
+
 help-button-label = { -brand-short-name } サポート
 addons-button-label = 拡張機能とテーマ
 focus-search =
@@ -498,7 +506,6 @@ home-prefs-topsites-description = よく訪れるサイト
 
 home-prefs-recommended-by-header =
     .label = { $provider } のおすすめ
-home-prefs-recommended-by-description = ウェブ上の様々な場所から集められた、あなたにピッタリの優れたコンテンツ
 home-prefs-recommended-by-description-update = { $provider } がウェブ全体から厳選した注目のコンテンツ
 ##
 
@@ -559,8 +566,6 @@ search-show-suggestions-above-history-option =
 
 search-show-suggestions-private-windows =
     .label = プライベート@@Window@@で検索候補を表示する
-
-suggestions-addressbar-settings = ブラウジング履歴、ブックマーク、タブの候補の設定を変更
 
 suggestions-addressbar-settings-generic = アドレスバーの入力候補のその他の設定を変更
 
@@ -1180,11 +1185,28 @@ space-alert-under-5gb-ok-button =
     .accesskey = K
 space-alert-under-5gb-message = { -brand-short-name } を実行するためのディスク領域が足りません。ウェブサイトが正しく表示されない可能性があります。快適なブラウジングのために、@@[@@詳細情報@@]@@ のリンク先を読み、ディスク使用量を最適化してください。
 
-## The following strings are used in the Download section of settings
+## Privacy Section - HTTPS-Only
 
+httpsonly-header = HTTPS-Only モード
+
+httpsonly-description = HTTPS は { -brand-short-name } とあなたが訪れるウェブサイトとの間に、暗号化された安全な接続を提供します。多くのウェブサイトは HTTPS に対応しており、HTTPS-Only モードを有効にすると { -brand-short-name } はすべての接続を HTTPS に切り替えます。
+
+httpsonly-learn-more = 詳細
+
+httpsonly-radio-enabled =
+    .label = すべての@@Window@@で HTTPS-Only モードを有効にする
+
+httpsonly-radio-enabled-pbm =
+    .label = プライベート@@Window@@のみ HTTPS-Only モードを有効にする
+
+httpsonly-radio-disabled =
+    .label = HTTPS-Only モードを有効にしない
+
+## The following strings are used in the Download section of settings
 desktop-folder-name = デスクトップ
 downloads-folder-name = ダウンロード
 choose-download-folder-title = ダウンロードフォルダーを選択:
+
 # Variables:
 #   $service-name (String) - Name of a cloud storage provider like Dropbox, Google Drive, etc...
 save-files-to-cloud-storage =
