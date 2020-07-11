@@ -17,21 +17,6 @@ graph-private-window = { -brand-short-name } はプライベート@@Window@@で�
 # Weekly summary of the graph when the graph is empty in Private Mode
 graph-week-summary-private-window = { -brand-short-name } が今週ブロックしたトラッカー
 
-# The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
-# "Standard" in this case is an adjective, meaning "default" or "normal".
-# The category name in the <b> tag will be bold.
-protection-report-header-details-standard = 保護レベルは <b>標準</b> です
-    .title = プライバシーの設定に移動
-protection-report-header-details-strict = 保護レベルは <b>厳格</b> です
-    .title = プライバシーの設定に移動
-protection-report-header-details-custom = 保護レベルは <b>カスタム</b> です
-    .title = プライバシーの設定に移動
-protection-report-page-title = プライバシー保護
-protection-report-content-title = プライバシー保護
-
-etp-card-title = 強化型トラッキング防止機能
-etp-card-content = トラッカーはあなたの習慣や興味に関する情報を収集するために、オンラインであなたを追跡します。{ -brand-short-name } はこれらのトラッカーや悪意のあるスクリプトの多くをブロックします。
-
 # This should match the "appmenuitem-protection-dashboard-title" string in browser/appmenu.ftl.
 protection-report-webpage-title = プライバシー保護ダッシュボード
 protection-report-page-content-title = プライバシー保護ダッシュボード
@@ -79,12 +64,9 @@ mobile-app-card-content = モバイルブラウザー組み込みの保護機能
 mobile-app-links = <a data-l10n-name="android-mobile-inline-link">Android 版</a>および <a data-l10n-name="ios-mobile-inline-link">iOS 版</a> { -brand-product-name } ブラウザー
 
 lockwise-title = 二度とパスワードを忘れないように
-lockwise-title-logged-in = { -lockwise-brand-name }
 lockwise-title-logged-in2 = パスワード管理
 lockwise-header-content = { -lockwise-brand-name } はあなたのパスワードを安全にブラウザーに保存します。
 lockwise-header-content-logged-in = パスワードを安全に保存して、ご使用のすべての端末と共有しましょう。
-protection-report-view-logins-button = ログイン情報を確認
-    .title = 保存したログイン情報に移動
 protection-report-save-passwords-button = パスワードを保存
   .title = { -lockwise-brand-short-name } にパスワードを保存
 protection-report-manage-passwords-button = パスワードを管理
@@ -92,11 +74,6 @@ protection-report-manage-passwords-button = パスワードを管理
 lockwise-mobile-app-title = どこでもパスワードが使える
 lockwise-no-logins-card-content = { -brand-short-name } に保存したパスワードを他の端末でも利用できます。
 lockwise-app-links = <a data-l10n-name="lockwise-android-inline-link">Android 版</a>および <a data-l10n-name="lockwise-ios-inline-link">iOS 版</a> { -lockwise-brand-name }
-
-# This string is displayed after a large numeral that indicates the total number
-# of email addresses being monitored. Don’t add $count to
-# your localization, because it would result in the number showing twice.
-lockwise-passwords-stored = 安全に保存されたパスワード <a data-l10n-name="lockwise-how-it-works">仕組みについて</a>
 
 # Variables:
 # $count (Number) - Number of passwords exposed in data breaches.
@@ -111,15 +88,11 @@ lockwise-how-it-works-link = 仕組みについて
 
 turn-on-sync = { -sync-brand-short-name } をオンにする...
     .title = 同期の設定に移動
-manage-connected-devices = 端末を管理...
-# Variables:
-#   $count (Number) - Number of devices connected with sync.
-lockwise-connected-device-status = { $count } 個の端末と接続中
+
 monitor-title = データ漏洩に注意を
 monitor-link = 仕組みについて
 monitor-header-content-no-account = { -monitor-brand-name } で既知のデータ漏洩にあなたが含まれるか確認できます。新たな漏洩があったときも警告してくれます。
 monitor-header-content-signed-in = { -monitor-brand-name } は既知のデータ漏洩にあなたの情報を発見したときに警告します。
-monitor-sign-up = アカウント登録して通知を受ける
 monitor-sign-up-link = アカウント登録して通知を受ける
   .title = アカウント登録して { -monitor-brand-name } の通知を受ける
 auto-scan = 本日、自動的にスキャンしました
@@ -151,13 +124,6 @@ info-known-breaches-resolved = 既知の漏洩データを解決済みとして�
 # your localization, because it would result in the number showing twice.
 info-exposed-passwords-found = { $count } 件のパスワードが全漏洩データから見つかりました
 
-full-report-link = <a data-l10n-name="monitor-inline-link">{ -monitor-brand-name }</a> で報告の全文を確認できます
-
-# This string is displayed after a large numeral that indicates the total number
-# of saved logins which may have been exposed. Don’t add $count to
-# your localization, because it would result in the number showing twice.
-password-warning = 保存したログイン情報が流出データに含まれています。オンラインでの安全のため、このパスワードを変更してください。<a data-l10n-name="lockwise-link">保存したログイン情報を確認</a>
-
 # This string is displayed after a large numeral that indicates the total number
 # of exposed passwords that are marked as resolved by the user. Don’t add $count
 # to your localization, because it would result in the number showing twice.
@@ -177,7 +143,7 @@ monitor-breaches-resolved-description = あなたのメールアドレスを新�
 # Variables:
 # $numBreachesResolved (Number) - Number of breaches marked as resolved by the user on Monitor.
 # $numBreaches (Number) - Number of breaches in which a user's data was involved, detected by Monitor.
-monitor-partial-breaches-title = 
+monitor-partial-breaches-title =
   { $numBreaches ->
    *[other] { $numBreaches } 件中 { $numBreachesResolved } 件の漏洩データを解決済みとしてマークしました。
   }

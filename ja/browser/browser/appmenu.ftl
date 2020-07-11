@@ -4,10 +4,8 @@
 
 ## App Menu
 
-appmenuitem-protection-report-title = プライバシー保護
-appmenuitem-protection-report-tooltip =
-    .tooltiptext = プライバシー保護の統計を確認します
-
+appmenuitem-update-banner =
+    .label-update-downloading = { -brand-shorter-name } の更新をダウンロード中
 appmenuitem-protection-dashboard-title = プライバシー保護ダッシュボード
 appmenuitem-customize-mode =
     .label = カスタマイズ...

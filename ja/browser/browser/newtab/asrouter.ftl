@@ -217,6 +217,9 @@ cfr-doorhanger-milestone-heading =
 cfr-doorhanger-milestone-ok-button = 確認
   .accesskey = S
 
+cfr-doorhanger-milestone-close-button = 閉じる
+  .accesskey = C
+
 ## What’s New Panel Content for Firefox 76
 
 ## Lockwise message
@@ -249,3 +252,18 @@ cfr-whatsnew-protections-icon-alt = 盾アイコン
 
 cfr-whatsnew-better-pdf-header = より良い PDF 表示
 cfr-whatsnew-better-pdf-body = ワークフローから外れないように、PDF ドキュメントを直接  { -brand-short-name } で開くようになりました。
+
+## DOH Message
+
+cfr-doorhanger-doh-body = プライバシーは重要です。{ -brand-short-name } はあなたのブラウジングを保護するため、パートナーサービスが対応するときは常に DNS 要求を安全にお届けします。
+cfr-doorhanger-doh-header = 暗号化 DNS でより安全に
+cfr-doorhanger-doh-primary-button = OK、有効にする
+  .accesskey = O
+cfr-doorhanger-doh-secondary-button = 無効にする
+  .accesskey = D
+
+## What's new: Cookies message
+
+cfr-whatsnew-clear-cookies-header = こっそり追跡を自動的に遮断
+cfr-whatsnew-clear-cookies-body = 一部のトラッカーは、Cookie を密かに設定した別のウェブサイトにあなたを誘導します。{ -brand-short-name } はこれらの Cookie を自動的に消去し、追跡されないようにします。
+cfr-whatsnew-clear-cookies-image-alt = Cookie ブロックのイラスト
