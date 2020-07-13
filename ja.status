@@ -1061,5 +1061,5 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 dom, netwerk, toolkit   13286:2f3433ad2e9d   2020-07-05     mar             sync dom, netwerk, toolkit
 browser                 13308:c839ca18ed9c   2020-07-10     hATrayflood     sync browser
+devtools                13308:c839ca18ed9c   2020-07-10     hATrayflood     sync devtools
 mail, calendar, suite   13308:c839ca18ed9c   2020-07-10     mar             sync mail, calendar, suite
-
