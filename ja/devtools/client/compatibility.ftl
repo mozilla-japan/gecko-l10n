@@ -25,7 +25,7 @@ compatibility-feedback-button-title =
 ## Messages used as headers in settings pane
 
 compatibility-settings-header = 設定
-compatibility-target-browsers-header = 対象ブラウザ―
+compatibility-target-browsers-header = 対象ブラウザー
 
 ##
 
