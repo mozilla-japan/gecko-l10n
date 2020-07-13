@@ -4,25 +4,12 @@
 
 <!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
 
-<!-- File menu items -->
-<!ENTITY saveCmd.key "S">
-
 <!-- Edit menu items -->
 <!ENTITY pasteNoFormatting.label "整形せずに@@Paste@@">
 <!ENTITY pasteNoFormatting.accesskey "n">
 <!ENTITY pasteNoFormatting.key "V">
-<!ENTITY pasteAs.label "指定して@@Paste@@">
-<!ENTITY pasteAs.accesskey "a">
 <!ENTITY pasteAsQuotationCmd.label "引用文として@@Paste@@">
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
-<!ENTITY pasteAsQuotationCmd.key "o">
-<!ENTITY findBarCmd.label "検索...">
-<!ENTITY findReplaceCmd.label "検索と置換...">
-<!ENTITY enableInlineSpellChecker.label "自動スペルチェック">
-<!ENTITY enableInlineSpellChecker.accesskey "S">
-<!ENTITY checkSpellingCmd2.label "スペルチェック...">
-<!ENTITY checkSpellingCmd2.accesskey "h">
-<!ENTITY checkSpellingCmd2.key "p">
 
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "挿入">
@@ -184,9 +171,6 @@
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "本文のテキスト">
 <!ENTITY bodyTextCmd.accesskey "T">
-<!-- isn't used in menu now, but may be added in future -->
-<!ENTITY advancedPropertiesCmd.label "詳細@@Property@@">
-<!ENTITY advancedPropertiesCmd.accesskey "v">
 
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "配置">
@@ -203,11 +187,6 @@
 <!ENTITY alignJustify.label "両端そろえ">
 <!ENTITY alignJustify.accesskey "J">
 <!ENTITY alignJustify.tooltip "両端そろえ">
-
-<!-- Layer toolbar items -->
-<!ENTITY layer.tooltip "レイヤー">
-<!ENTITY layerSendToBack.tooltip "@@Back@@に移動">
-<!ENTITY layerBringToFront.tooltip "@@Front@@に移動">
 
 <!ENTITY increaseIndent.label "インデントを挿入">
 <!ENTITY increaseIndent.accesskey "I">
@@ -283,19 +262,6 @@
 <!ENTITY tableProperties.accesskey "o">
 
 <!-- Toolbar-only items -->
-<!ENTITY menuBar.tooltip "メニューバー">
-<!ENTITY formatToolbar.tooltip "書式ツールバー">
-<!ENTITY cutToolbarCmd.tooltip "@@Cut@@">
-<!ENTITY copyToolbarCmd.tooltip "コピー">
-<!ENTITY pasteToolbarCmd.tooltip "@@Paste@@">
-<!ENTITY printToolbarCmd.label "@@Print@@">
-<!ENTITY printToolbarCmd.tooltip "ページを@@Print@@します">
-<!ENTITY findToolbarCmd.label "検索">
-<!ENTITY findToolbarCmd.tooltip "ページ内の文字列を検索します">
-<!ENTITY spellToolbarCmd.label "スペル">
-<!ENTITY spellToolbarCmd.tooltip "選択範囲またはページ全体のスペルチェックをします">
-
-<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "画像">
 <!ENTITY imageToolbarCmd.tooltip "新しい画像を挿入するか、選択した画像の@@Property@@を編集します">
 <!ENTITY hruleToolbarCmd.label "水平線">
@@ -308,8 +274,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "新しい名前付きアンカーを挿入するか、選択したアンカーの@@Property@@を編集します">
 <!ENTITY TextColorButton.tooltip "テキストの@@Color@@を選択します">
 <!ENTITY BackgroundColorButton.tooltip "背景の@@Color@@を選択します">
-<!ENTITY throbber.tooltip2 "&brandShortName; のホームページへ移動します">
-<!ENTITY HighlightColorButton.tooltip "テキストの背景@@Color@@を選択します">
 
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "フォントサイズを設定します">
@@ -328,14 +292,6 @@
 <!ENTITY alignCenterButton.tooltip "テキストを中央にそろえます">
 <!ENTITY alignRightButton.tooltip "テキストを右にそろえます">
 <!ENTITY alignJustifyButton.tooltip "2 行以上あるテキストの両端をそろえます">
-
-<!-- Structure Toolbar Context Menu items -->
-<!ENTITY structSelect.label         "選択">
-<!ENTITY structSelect.accesskey     "s">
-<!ENTITY structRemoveTag.label      "タグを削除">
-<!ENTITY structRemoveTag.accesskey  "r">
-<!ENTITY structChangeTag.label      "タグを変更">
-<!ENTITY structChangeTag.accesskey  "c">
 
 <!-- TOC manipulation -->
 <!ENTITY insertTOC.label          "挿入">

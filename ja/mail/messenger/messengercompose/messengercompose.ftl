@@ -8,6 +8,10 @@
 remove-address-row-type = { $type } フィールドを削除
 
 #   $type (String) - the type of the addressing row
+remove-address-row-type-label =
+    .tooltiptext = { $type } フィールドを削除します
+
+#   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label = { $count ->
     [0]     { $type }

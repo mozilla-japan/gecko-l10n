@@ -9,6 +9,10 @@
 <!-- LOCALIZATION NOTE  sidebar.customize.current.label: Do NOT localize the term "&sidebarName;"  -->
 <!ENTITY sidebar.customize.current.label "&sidebarName; のタブ:">
 <!ENTITY sidebar.customize.current.accesskey "T">
+
+<!ENTITY sidebar.customize.title                "サイドバーのカスタマイズ">
+<!ENTITY sidebar.customize.current2.label       "サイドバー内のタブ:">
+<!ENTITY sidebar.customize.current2.accesskey   "T">
 <!ENTITY sidebar.customize.customize.label "タブを設定...">
 <!ENTITY sidebar.customize.customize.accesskey "C">
 <!ENTITY sidebar.customize.remove.label "削除">

@@ -55,6 +55,8 @@ about-paragraph = Thunderbird は、オープンソースでクロスプラッ�
 about-paragraph-2 = <b>Thunderbird はあなたのようなユーザーに支えられています！ Thunderbird を気に入っていただけた方は寄付をご検討ください。</b> Thunderbird を存続可能にするため、あなたができる最善の方法は
 about-donation = 寄付をしていただくことです。
 
+about-paragraph-consider-donation = <b>Thunderbird はあなたのようなユーザーに支えられています！ Thunderbird を気に入っているなら、ぜひ寄付を検討してください。</b> Thunderbird を存続可能にするため、あなたができる最善の方法は<a data-l10n-name="donation-link">寄付をすること</a>です。
+
 explore-link = 機能紹介
 support-link = サポート
 involved-link = 参加協力
