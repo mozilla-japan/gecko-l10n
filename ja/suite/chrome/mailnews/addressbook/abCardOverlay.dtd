@@ -158,3 +158,4 @@
 <!ENTITY PhotoURL.placeholder           "ウェブ上の写真ファイルの URL を入力してください">
 <!ENTITY UpdatePhoto.label              "更新">
 <!ENTITY UpdatePhoto.accesskey          "u">
+<!ENTITY PhotoDropTarget.label          "ここに新しい写真をドラッグしてください">

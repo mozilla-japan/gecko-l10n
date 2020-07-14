@@ -451,8 +451,7 @@
 <!ENTITY markButton.tooltip                 "メッセージにマークを付けます">
 <!ENTITY printButton.tooltip                "このメッセージを@@Print@@します">
 <!ENTITY stopButton.tooltip                 "送受信処理を中止します">
-<!ENTITY throbber.tooltip                   "&vendorShortName; のホームページに移動します">
-<!ENTITY throbber.tooltip2                  "&brandShortName; のホームページへ移動します">
+<!ENTITY throbber.tooltip                   "&vendorShortName; のホームページへ移動します">
 <!ENTITY junkButton.tooltip                 "メッセージに迷惑マークを付けます">
 <!ENTITY notJunkButton.tooltip              "メッセージの迷惑マークを外します">
 

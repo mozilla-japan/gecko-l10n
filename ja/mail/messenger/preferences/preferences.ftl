@@ -41,7 +41,6 @@ composition-addressing-header = アドレス入力
 privacy-main-header = プライバシー
 privacy-passwords-header = パスワード
 privacy-junk-header = 迷惑メール
-privacy-data-collection-header = データ収集と利用
 collection-header = { -brand-short-name } のデータ収集と利用について
 collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
 collection-privacy-notice = 個人情報保護方針
@@ -96,8 +95,6 @@ addons-button = 拡張機能とテーマ
 
 ## OS Authentication dialog
 
-# This message can be seen by trying to add a Master Password.
-master-password-os-auth-dialog-message = マスターパスワードを作成するため、あなたのアカウントを検証します。
 # This message can be seen by trying to add a Master Password.
 master-password-os-auth-dialog-message-win = マスターパスワードを作成するには、Windows のログイン資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
 # This message can be seen by trying to add a Master Password.

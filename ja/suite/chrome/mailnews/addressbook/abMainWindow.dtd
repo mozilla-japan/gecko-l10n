@@ -98,8 +98,7 @@
 <!ENTITY newIM.tooltip                                  "インスタントメッセージを送信またはチャットをします">
 <!ENTITY printButton.tooltip                            "選択したアイテムを@@Print@@します">
 <!ENTITY deleteItemButton.tooltip                       "選択した連絡先またはアドレス帳を削除します">
-<!ENTITY throbber.tooltip                               "&vendorShortName; ホームページを表示します">
-<!ENTITY throbber.tooltip2                              "&brandShortName; ホームページへ移動します">
+<!ENTITY throbber.tooltip                               "&vendorShortName; ホームページへ移動します">
 <!ENTITY advancedButton.tooltip                         "アドレスを検索します">
 
 <!-- Dir Tree header -->
