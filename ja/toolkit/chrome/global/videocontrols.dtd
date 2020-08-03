@@ -2,6 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY % brandDTD
+    SYSTEM "chrome://branding/locale/brand.dtd">
+  %brandDTD;
+
 <!ENTITY playButton.playLabel "再生">
 <!ENTITY playButton.pauseLabel "一時停止">
 <!ENTITY muteButton.muteLabel "ミュート">
@@ -30,6 +34,15 @@ the Picture-in-Picture video toggle button when the mouse is hovering it. -->
 <!ENTITY stats.framesDecoded "デコード済みフレーム">
 <!ENTITY stats.framesPresented "再生済みフレーム">
 <!ENTITY stats.framesPainted "描画済みフレーム">
+
+<!-- LOCALIZATION NOTE (pictureInPictureToggle.label): This string is used as the
+label for a variation of the Picture-in-Picture video toggle button when the mouse is
+hovering over the video. -->
+<!ENTITY pictureInPictureToggle.label "ピクチャーインピクチャーで観る">
+<!-- LOCALIZATION NOTE (pictureInPictureExplainer): This string is used as part of
+a variation of the Picture-in-Picture video toggle button. When using this variation,
+this string appears below the toggle when the mouse hovers the toggle. -->
+<!ENTITY pictureInPictureExplainer "&brandShortName; で他の操作をしている間も動画を@@Front@@に表示して再生します。">
 
 <!ENTITY error.aborted "動画の読み込みを中止しました。">
 <!ENTITY error.network "ネットワークエラーが発生したため動画の再生を中止しました。">

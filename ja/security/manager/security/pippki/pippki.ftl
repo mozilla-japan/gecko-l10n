@@ -8,6 +8,10 @@ password-quality-meter = パスワードの品質レベル
 
 change-password-window =
     .title = マスターパスワードの変更
+
+change-device-password-window =
+    .title = パスワードの変更
+
 # Variables:
 # $tokenName (String) - Security device of the change password dialog
 change-password-token = セキュリティデバイス: { $tokenName }
@@ -20,9 +24,29 @@ change-password-reenter = 新しいパスワード(再入力):
 reset-password-window =
     .title = マスターパスワードのリセット
     .style = width: 40em
+
+pippki-failed-pw-change = パスワードを変更できません。
+pippki-incorrect-pw = 現在のパスワードが正しく入力されませんでした。入力し直してください。
+pippki-pw-change-ok = パスワードの変更が完了しました。
+
+pippki-pw-empty-warning = 保存されたパスワードと秘密鍵は保護されません。
+pippki-pw-erased-ok = パスワードを削除しました。{ pippki-pw-empty-warning }
+pippki-pw-not-wanted = 警告！ パスワードの使用を取りやめました。{ pippki-pw-empty-warning }
+
+pippki-pw-change2empty-in-fips-mode = 現在 FIPS モードです。FIPS は空でないパスワードを必要とします。
+
+## Reset Primary Password dialog
+
+reset-primary-password-window =
+    .title = マスターパスワードのリセット
+    .style = width: 40em
 reset-password-button-label =
     .label = リセット
 reset-password-text = マスターパスワードをリセットすると、保存されているすべてのウェブやメールのパスワード、フォームデータ、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？
+
+reset-primary-password-text = マスターパスワードをリセットすると、保存されているすべてのウェブやメールのパスワード、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？
+pippki-reset-password-confirmation-title = マスターパスワードのリセット
+pippki-reset-password-confirmation-message = マスターパスワードがリセットされます。
 
 ## Downloading cert dialog
 
