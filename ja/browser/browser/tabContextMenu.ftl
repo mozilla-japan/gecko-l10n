@@ -59,6 +59,9 @@ undo-close-tab =
 tab-context-close-multiple-tabs =
     .label = 複数のタブを閉じる
     .accesskey = M
+
+## Variables:
+##  $tabCount (Number): the number of tabs that are affected by the action.
 tab-context-undo-close-tabs =
     .label = 閉じたタブを元に戻す
     .accesskey = U
@@ -72,5 +75,11 @@ move-tabs =
     .label = タブを移動
     .accesskey = v
 move-tab =
+    .label = タブを移動
+    .accesskey = v
+tab-context-close-tabs =
+    .label = タブを閉じる
+    .accesskey = C
+tab-context-move-tabs =
     .label = タブを移動
     .accesskey = v

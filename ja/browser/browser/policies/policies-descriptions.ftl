@@ -60,6 +60,8 @@ policy-DisableFormHistory = 検索とフォームの履歴を記憶しないよ�
 
 policy-DisableMasterPasswordCreation = true にすると、マスターパスワードを作成できないようにします。
 
+policy-DisablePrimaryPasswordCreation = true にすると、マスターパスワードを作成できないようにします。
+
 policy-DisablePasswordReveal = 保存されたパスワードの表示を許可しないようにします。
 
 policy-DisablePocket = ウェブページを Pocket に保存する機能を無効にします。
@@ -131,6 +133,8 @@ policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトで�
 policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
 
 policy-MasterPassword = マスターパスワードの使用を要求または抑止します。
+
+policy-PrimaryPassword = マスターパスワードの使用を要求または抑止します。
 
 policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) を有効または無効にします。
 

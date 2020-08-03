@@ -810,10 +810,27 @@ forms-saved-logins =
 forms-master-pw-use =
     .label = マスターパスワードを使用する
     .accesskey = U
+forms-primary-pw-use =
+    .label = マスターパスワードを使用する
+    .accesskey = U
+forms-primary-pw-learn-more-link = 詳細情報
+# This string uses the former name of the Primary Password feature
+# ("Master Password" in English) so that the preferences can be found
+# when searching for the old name. The accesskey is unused.
 forms-master-pw-change =
     .label = マスターパスワードを変更...
     .accesskey = M
+
 forms-master-pw-fips-title = 現在 FIPS モードです。FIPS モードではマスターパスワードを空には設定できません。
+forms-primary-pw-change =
+    .label = マスターパスワードを変更...
+    .accesskey = P
+# Leave this message empty if the translation for "Primary Password" matches
+# "Master Password" in your language. If you're editing the FTL file directly,
+# use { "" } as the value.
+forms-primary-pw-former-name = { "" }
+
+forms-primary-pw-fips-title = 現在 FIPS モードです。FIPS モードではマスターパスワードを空には設定できません。
 forms-master-pw-fips-desc = パスワードを変更できませんでした
 
 ## OS Authentication dialog
@@ -826,6 +843,15 @@ master-password-os-auth-dialog-message-win = マスターパスワードを作�
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 master-password-os-auth-dialog-message-macosx = マスターパスワードを作成
+
+# This message can be seen by trying to add a Primary Password.
+primary-password-os-auth-dialog-message-win = マスターパスワードを作成するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+
+# This message can be seen by trying to add a Primary Password.
+# The macOS strings are preceded by the operating system with "Firefox is trying to "
+# and includes subtitle of "Enter password for the user "xxx" to allow this." These
+# notes are only valid for English. Please test in your locale.
+primary-password-os-auth-dialog-message-macosx = マスターパスワードを作成
 master-password-os-auth-dialog-caption = { -brand-full-name }
 
 ## Privacy Section - History
