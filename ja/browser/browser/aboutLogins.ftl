@@ -138,6 +138,10 @@ about-logins-export-password-os-auth-dialog-message-macosx = 保存したログ�
 ## Master Password notification
 
 master-password-notification-message = 保存したログイン情報とパスワードを確認するには、マスターパスワードを入力してください
+
+## Primary Password notification
+
+about-logins-primary-password-notification-message = 保存したログイン情報とパスワードを確認するには、マスターパスワードを入力してください
 master-password-reload-button =
   .label = ログイン
   .accesskey = L
