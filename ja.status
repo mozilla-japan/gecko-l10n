@@ -1068,3 +1068,4 @@ mail, calendar, suite   13308:c839ca18ed9c   2020-07-10     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                 13422:7253d461bafd   2020-07-31     hATrayflood     sync browser
+devtools                13422:7253d461bafd   2020-07-31     hATrayflood     sync devtools
