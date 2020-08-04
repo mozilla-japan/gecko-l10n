@@ -97,8 +97,8 @@ experimental-features-cookie-samesite-lax-by-default2-description = Cookie に �
 
 # Do not translate 'SameSite', 'Lax' and 'None'.
 experimental-features-cookie-samesite-none-requires-secure2 =
-    .label = Cookie: SameSite=None は secure 属性を必要とします
-experimental-features-cookie-samesite-none-requires-secure2-description = “SameSite=None” 属性が指定された Cookie は secure 属性を必要とします。この機能は、“@@Default@@で Cookies: SameSite=Lax” の必要があります。
+    .label = Cookie: SameSite=None は secure 属性が必要
+experimental-features-cookie-samesite-none-requires-secure2-description = “SameSite=None” 属性が指定された Cookie は secure 属性を必要とします。この機能は “Cookie: @@Default@@で SameSite=Lax” を必要とします。
 
 # about:home should be kept in English, as it refers to the the URI for
 # the internal default home page.
@@ -116,7 +116,7 @@ experimental-features-cookie-samesite-schemeful-description = 同じドメイン
 experimental-features-devtools-serviceworker-debugger-support =
     .label = 開発ツール: Service Worker のデバッグ
 # "Service Worker" is an API name and is usually not translated.
-experimental-features-devtools-serviceworker-debugger-support-description = DevTools のデバッガーパネルで Service Worker の実験的なサポートを有効にします。この機能は DevTools の動作を遅くし、メモリー消費が増加します。
+experimental-features-devtools-serviceworker-debugger-support-description = 開発ツールのデバッガーパネルで Service Worker の実験的なサポートを有効にします。この機能は開発ツールの動作を遅くし、メモリー消費が増加します。
 
 # Desktop zooming experiment
 experimental-features-graphics-desktop-zooming =
