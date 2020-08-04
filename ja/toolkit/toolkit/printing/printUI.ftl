@@ -24,8 +24,8 @@ printui-page-custom-range =
 printui-copies-label = 部数
 
 printui-orientation = 用紙の向き
-printui-landscape = 横置き
-printui-portrait = 縦置き
+printui-landscape = 横
+printui-portrait = 縦
 
 # Section title for the printer or destination device to target
 printui-destination-label = Destination
@@ -34,10 +34,10 @@ printui-more-settings = 詳細設定
 printui-less-settings = 簡易設定
 
 # Section title (noun) for the print scaling options
-printui-scale = 拡大率
+printui-scale = 倍率
 printui-scale-fit-to-page = 用紙に合わせる
 # Label for input control where user can set the scale percentage
-printui-scale-pcent = 拡大率
+printui-scale-pcent = 倍率
 
 printui-system-dialog-link = システムダイアログを使用して@@Print@@...
 

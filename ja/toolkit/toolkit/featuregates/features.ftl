@@ -109,12 +109,12 @@ experimental-features-abouthome-startup-cache-description = 起動時に@@Defaul
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
 experimental-features-cookie-samesite-schemeful =
-    .label = Cookie: スキーム感のある SameSite
-experimental-features-cookie-samesite-schemeful-description = 同じドメインで異なるスキーム (例: http://example.com と https://example.com) の Cookie を同一サイトではなくクロスサイトとして扱います。セキュリティが向上しますが破損をもたらす可能性があります。
+    .label = Cookie: SameSite でスキームも区別
+experimental-features-cookie-samesite-schemeful-description = 同じドメインで異なるスキーム (例: http://example.com と https://example.com) の Cookie を同一サイトではなく別のサイトとして扱います。セキュリティが向上しますが、コンテンツが機能しなくなる可能性があります。
 
 # "Service Worker" is an API name and is usually not translated.
 experimental-features-devtools-serviceworker-debugger-support =
-    .label = DevTools: Service Worker のデバッグ
+    .label = 開発ツール: Service Worker のデバッグ
 # "Service Worker" is an API name and is usually not translated.
 experimental-features-devtools-serviceworker-debugger-support-description = DevTools のデバッガーパネルで Service Worker の実験的なサポートを有効にします。この機能は DevTools の動作を遅くし、メモリー消費が増加します。
 
