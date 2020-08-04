@@ -7,3 +7,6 @@ tag-dialog-window =
 tag-name-label =
     .value = タグ名:
     .accesskey = T
+tag-color-label =
+    .value = @@Color@@:
+    .accesskey = C

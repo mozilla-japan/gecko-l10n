@@ -1067,3 +1067,4 @@ target dir             gecko-string hg changeset rev:id     by              comm
 browser                 13422:7253d461bafd   2020-07-31     hATrayflood     sync browser
 devtools                13422:7253d461bafd   2020-07-31     hATrayflood     sync devtools
 dom, toolkit, ...       13422:7253d461bafd   2020-07-31     mar             sync dom, netwerk, security, toolkit
+mail                    13422:7253d461bafd   2020-07-31     mar             sync mail (except for messenger/openpgp)

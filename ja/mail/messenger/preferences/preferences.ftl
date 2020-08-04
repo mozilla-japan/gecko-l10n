@@ -102,6 +102,16 @@ master-password-os-auth-dialog-message-win = マスターパスワードを作�
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 master-password-os-auth-dialog-message-macosx = マスターパスワードを作成
+
+# This message can be seen by trying to add a Primary Password.
+primary-password-os-auth-dialog-message-win = マスターパスワードを作成するには、Windows のログイン資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+
+# This message can be seen by trying to add a Primary Password.
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to "
+# and includes subtitle of "Enter password for the user "xxx" to allow this." These
+# notes are only valid for English. Please test in your locale.
+primary-password-os-auth-dialog-message-macosx = マスターパスワードを作成
+
 # Don't change this label.
 master-password-os-auth-dialog-caption = { -brand-full-name }
 
@@ -539,6 +549,20 @@ master-password-label =
 master-password-button =
     .label = マスターパスワードを変更...
     .accesskey = C
+
+primary-password-description = マスターパスワードを使用すると、保存されたすべてのパスワードが保護されます。ただし、セッションごとに入力を求められます。
+
+primary-password-label =
+    .label = マスターパスワードを使用する
+    .accesskey = U
+
+primary-password-button =
+    .label = マスターパスワードを変更...
+    .accesskey = C
+
+forms-primary-pw-fips-title = 現在 FIPS モードです。FIPS は空でないマスターパスワードを必要とします。
+forms-master-pw-fips-desc = パスワードを変更できませんでした
+
 junk-description = @@Default-@@迷惑メールフィルターの動作を設定します。アカウントごとの迷惑メールフィルターの設定は @@[@@アカウント設定@@]@@ で行います。
 junk-label =
     .label = 迷惑メールであると手動でマークしたときに次の処理を実行する:

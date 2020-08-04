@@ -12,8 +12,8 @@
 <!ENTITY alwaysEncryptMessage.label	"暗号化する (すべての受信者が証明書を持っていなければ送信できません)">
 <!ENTITY alwaysEncryptMessage.accesskey	"u">
 <!ENTITY encryptionCert.message		"あなたへのメッセージの暗号化と復号に使用する証明書:">
+
 <!ENTITY e2eTitle.label			"エンドツーエンド暗号化">
-<!ENTITY e2eIntro.description		"暗号化またはデジタル署名されたメッセージを送信するには、OpenPGP または S/MIME のどちらかの暗号技術を設定する必要があります。">
 <!ENTITY e2eLearnMore.label		"詳細情報">
 
 <!ENTITY e2eEnc.description		"エンドツーエンド暗号化をしないメッセージのコンテンツは、ご利用のメールプロバイダーや監視システムに容易にさらされます。">
@@ -63,8 +63,6 @@
 <!ENTITY technologyOpenPGP.label	"OpenPGP を優先する">
 
 <!ENTITY openpgpKeys.label		"OpenPGP">
-<!ENTITY manageKeys.label		"OpenPGP 鍵の管理">
-<!ENTITY manageKeys.accesskey		"K">
 
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title		"証明書の選択">
