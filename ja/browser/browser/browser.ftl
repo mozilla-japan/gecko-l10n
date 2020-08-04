@@ -18,6 +18,7 @@ browser-main-window =
     .data-title-private = { -brand-full-name } (プライベートブラウジング)
     .data-content-title-default = { $content-title } - { -brand-full-name }
     .data-content-title-private = { $content-title } - { -brand-full-name } (プライベートブラウジング)
+
 # These are the default window titles on macOS. The first two are for use when
 # there is no content title:
 #
@@ -37,6 +38,7 @@ browser-main-window-mac =
     .data-title-private = { -brand-full-name } - (プライベートブラウジング)
     .data-content-title-default = { $content-title }
     .data-content-title-private = { $content-title } - (プライベートブラウジング)
+
 # This gets set as the initial title, and is overridden as soon as we start
 # updating the titlebar based on loaded tabs or private browsing state.
 # This should match the `data-title-default` attribute in both
@@ -105,9 +107,14 @@ urlbar-tip-icon-description =
 ## homepage of their default search engine.
 ## Variables:
 ##  $engineName (String): The name of the user's default search engine. e.g. "Google" or "DuckDuckGo".
-
 urlbar-search-tips-onboard = 少ない入力でたくさん見つかる: アドレスバーから { $engineName } ですぐ検索します。
 urlbar-search-tips-redirect-2 = アドレスバーで検索を始めると、{ $engineName } からの検索候補と閲覧履歴が表示されます。
+
+## Local search mode indicator labels in the urlbar
+
+urlbar-search-mode-bookmarks = ブックマーク
+urlbar-search-mode-tabs = タブ
+urlbar-search-mode-history = 履歴
 
 ##
 
@@ -184,6 +191,27 @@ search-one-offs-context-set-as-default =
 search-one-offs-context-set-as-default-private =
     .label = プライベート@@Window@@の@@Default-@@検索エンジンに設定
     .accesskey = P
+
+# Search engine one-off buttons with an @alias shortcut/keyword.
+# Variables:
+#  $engineName (String): The name of the engine.
+#  $alias (String): The @alias shortcut/keyword.
+search-one-offs-engine-with-alias =
+    .tooltiptext = { $engineName } ({ $alias })
+
+## Local search mode one-off buttons
+## Variables:
+##  $restrict (String): The restriction token corresponding to the search mode.
+##    Restriction tokens are special characters users can type in the urlbar to
+##    restrict their searches to certain sources (e.g., "*" to search only
+##    bookmarks).
+
+search-one-offs-bookmarks =
+    .tooltiptext = ブックマーク ({ $restrict })
+search-one-offs-tabs =
+    .tooltiptext = タブ ({ $restrict })
+search-one-offs-history =
+    .tooltiptext = 履歴 ({ $restrict })
 
 ## Bookmark Panel
 

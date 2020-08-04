@@ -1067,5 +1067,5 @@ mail, calendar, suite   13308:c839ca18ed9c   2020-07-10     mar             sync
 [l10n-mozilla-80.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
+browser                 13422:7253d461bafd   2020-07-31     hATrayflood     sync browser
 dom, toolkit, ...       13422:7253d461bafd   2020-07-31     mar             sync dom, netwerk, security, toolkit
-
