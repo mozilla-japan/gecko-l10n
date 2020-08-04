@@ -11,7 +11,12 @@ compatibility-all-elements-header = すべての要素
 
 compatibility-issue-deprecated = (非推奨)
 compatibility-issue-experimental = (実験的)
+compatibility-issue-prefixneeded = (接頭辞が必要)
 compatibility-issue-deprecated-experimental = (非推奨、実験的)
+
+compatibility-issue-deprecated-prefixneeded = (非推奨、接頭辞が必要)
+compatibility-issue-experimental-prefixneeded = (実験的、接頭辞が必要)
+compatibility-issue-deprecated-experimental-prefixneeded = (非推奨、実験的、接頭辞が必要)
 
 ## Messages used as labels and titles for buttons in the footer
 
