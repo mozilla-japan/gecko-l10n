@@ -2,15 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-openpgp-compose-key-status-intro-need-keys = To send an end-to-end encrypted message, you must obtain and accept a public key for each recipient.
-openpgp-compose-key-status-keys-heading = Availability of OpenPGP keys:
+openpgp-compose-key-status-intro-need-keys = エンドツーエンド暗号化されたメッセージを送信するには、メッセージの受取人ごとの公開鍵を入手し、受け入れる必要があります。
+openpgp-compose-key-status-keys-heading = OpenPGP 鍵の可用性:
 openpgp-compose-key-status-title =
-    .title = OpenPGP Message Security
+    .title = OpenPGP メッセージセキュリティ
 openpgp-compose-key-status-recipient =
-    .label = Recipient
+    .label = 受信者
 openpgp-compose-key-status-status =
-    .label = Status
-openpgp-compose-key-status-open-details = Manage keys for selected recipient…
-openpgp-recip-good = ok
-openpgp-recip-missing = no key available
-openpgp-recip-none-accepted = no accepted key
+    .label = 状態
+openpgp-compose-key-status-open-details = 選択した受信者の鍵の管理…
+openpgp-recip-good = 成功
+openpgp-recip-missing = 利用可能な鍵がありません
+openpgp-recip-none-accepted = 鍵は受け入れられませんでした

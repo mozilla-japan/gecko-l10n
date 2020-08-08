@@ -3,28 +3,28 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 openpgp-one-recipient-status-title =
-    .title = OpenPGP Message Security
+    .title = OpenPGP メッセージセキュリティ
 openpgp-one-recipient-status-status =
-    .label = Status
+    .label = 状態
 openpgp-one-recipient-status-key-id =
-    .label = Key ID
+    .label = 鍵 ID
 openpgp-one-recipient-status-created-date =
-    .label = Created
+    .label = 作成
 openpgp-one-recipient-status-expires-date =
-    .label = Expires
+    .label = 有効期限
 openpgp-one-recipient-status-open-details =
-    .label = Open details and edit acceptance…
+    .label = 詳細を表示して受け入れ状況を編集…
 openpgp-one-recipient-status-discover =
-    .label = Discover new or updated key
+    .label = 新規、更新された鍵を検索
 
-openpgp-one-recipient-status-instruction1 = To send an end-to-end encrypted message to a recipient, you need to obtain their OpenPGP public key and mark it as accepted.
-openpgp-one-recipient-status-instruction2 = To obtain their public key, import them from email they have sent to you and that includes it. Alternatively, you can try to discover their public key on a directory.
+openpgp-one-recipient-status-instruction1 = エンドツーエンド暗号化されたメッセージを送信するには、メッセージの受取人の OpenPGP 公開鍵を入手し、受け入れる必要があります。
+openpgp-one-recipient-status-instruction2 = 公開鍵を入手するには、公開鍵を添付されたあなた宛のメッセージからを公開鍵を@@Import-suru@@必要があります。あるいは、鍵ディレクトリから公開鍵を検索することができます。
 
-openpgp-key-own = Accepted (personal key)
-openpgp-key-secret-not-personal = Not usable
-openpgp-key-verified = Accepted (verified)
-openpgp-key-unverified = Accepted (unverifed)
-openpgp-key-undecided = Not accepted (undecided)
-openpgp-key-rejected = Not accepted (rejected)
+openpgp-key-own = 受け入れる (個人鍵)
+openpgp-key-secret-not-personal = 利用不可能
+openpgp-key-verified = 受け入れる (検証済み)
+openpgp-key-unverified = 受け入れる (未検証)
+openpgp-key-undecided = 受け入れない (未決定)
+openpgp-key-rejected = 受け入れない (拒絶)
 
-openpgp-intro = Available public keys for { $key }
+openpgp-intro = 鍵 { $key } が利用可能です

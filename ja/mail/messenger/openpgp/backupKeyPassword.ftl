@@ -3,18 +3,18 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 set-password-window =
-  .title = Choose a password to backup your OpenPGP Key
+  .title = OpenPGP 鍵のバックアップのためのパスワードを設定
 
-set-password-legend = Choose a Password
+set-password-legend = パスワードを設定
 
-set-password-message = The password you set here protects the OpenPGP secret key backup file that you are about to create. You must set this password to proceed with the backup.
+set-password-message = これから作成される OpenPGP 秘密鍵のバックアップファイルは、ここで設定されたパスワードによって保護されます。バックアップの途中でこのパスワードを入力する必要があります。
 
 set-password-backup-pw =
-  .value = Secret Key backup password:
+  .value = 秘密鍵のバックアップのためのパスワード:
 
 set-password-repeat-backup-pw =
-  .value = Secret Key backup password (again):
+  .value = 秘密鍵のバックアップのためのパスワード (もう一度):
 
-set-password-reminder = <b>Important!</b> If you forget your secret key backup password, you will not be able to restore this backup later. Please record it in a safe location.
+set-password-reminder = <b>重要！</b> 秘密鍵のバックアップのためのパスワードを忘れると、このバックアップから復元することができなくなります。パスワードを安全な場所に保管してください。
 
-password-quality-meter = Password quality meter
+password-quality-meter = パスワードの品質
