@@ -463,10 +463,10 @@ openpgp-export-secret-fail = <b>選択した秘密鍵の@@ExportNoun@@に失敗�
 # Strings in keyObj.jsm
 key-ring-pub-key-revoked = 鍵 { $userId } (鍵 ID { $keyId }) は失効しています。
 key-ring-pub-key-expired = 鍵 { $userId } (鍵 ID { $keyId }) は有効期限切れです。
-key-ring-key-disabled = 鍵 { $userId } (鍵 ID { $keyId }) は無効化されています; 利用できません。
+key-ring-key-disabled = 鍵 { $userId } (鍵 ID { $keyId }) は無効化されているため利用できません。
 key-ring-key-invalid = 鍵 { $userId } (鍵 ID { $keyId }) は正当ではありません。この鍵を適切に検証してください。
 key-ring-key-not-trusted= 鍵 { $userId } (鍵 ID { $keyId }) の信用度が不足しています。署名に利用するには、あなたの鍵の信用度を @@[@@絶対的に信用@@]@@ に設定してください。
-key-ring-no-secret-key = { $userId } (鍵 ID { $keyId }) のための秘密鍵を持っていないようです; この鍵を署名に利用することはできません。
+key-ring-no-secret-key = { $userId } (鍵 ID { $keyId }) の秘密鍵が鍵束の中にないため、この鍵を署名に利用することはできません。
 key-ring-pub-key-not-for-signing = 鍵 { $userId } (鍵 ID { $keyId }) を署名に利用することはできません。
 key-ring-pub-key-not-for-encryption = 鍵 { $userId } (鍵 ID { $keyId }) を暗号化に利用することはできません。
 key-ring-sign-sub-keys-revoked = 鍵 { $userId } (鍵 ID { $keyId }) のすべての署名用の副鍵は失効しています。
@@ -607,7 +607,7 @@ msg-compose-partially-encrypted-inlinePGP =
     あなたが返信しようとしているメッセージには、暗号化されている部分と暗号化されていない部分があります。元のメッセージの送信者が暗号化されている部分を復号できていない場合、あなたがこのメッセージに返信することで元の送信者が復号できなかった機密情報の漏洩につながる可能性があります。
     返信メッセージから、引用部をすべて除去することを検討ください。
 msg-compose-cannot-save-draft = 下書きを暗号化して保存する際にエラーが発生しました
-msg-compose-partially-encrypted-short = 機微情報の漏洩に注意してください - 部分的に暗号化されたメッセージです。
+msg-compose-partially-encrypted-short = 機密情報の漏洩に注意してください - 部分的に暗号化されたメッセージです。
 quoted-printable-warn =
     'quoted-printable' エンコーディングが送信メッセージに対して有効になっています。 これにより、暗号化や署名の検証の動作に悪影響を及ぼす可能性があります。
     今すぐ 'quoted-printable' エンコーディングを無効にしますか？
@@ -624,7 +624,7 @@ send-to-news-warning =
     継続しますか？
 save-attachment-header = 復号した添付ファイルを保存
 no-temp-dir =
-    一時フォルダが見つかりませんでした
+    一時フォルダーが見つかりませんでした
     TEMP 環境変数を設定してください
 possibly-pgp-mime = おそらく PGP/MIME 形式で暗号化あるいは署名されたメッセージです。'復号/検証' 機能で検証してください
 cannot-send-sig-because-no-own-key = このメッセージにデジタル署名できませんでした。<{ $key }> のためのエンドツーエンド暗号化が設定されていません
