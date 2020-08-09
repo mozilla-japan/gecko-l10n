@@ -10,7 +10,7 @@ openpgp-ctx-decrypt-open =
     .label = 復号して開く
     .accesskey = D
 openpgp-ctx-decrypt-save =
-    .label = 復号して@@SaveAs@@…
+    .label = 復号して@@SaveAs@@...
     .accesskey = C
 openpgp-ctx-import-key =
     .label = OpenPGP 鍵@@-ImportCMD@@
@@ -24,21 +24,21 @@ openpgp-be-careful-new-key =
     警告: このメッセージに含まれる新しい OpenPGP 公開鍵は、 { $email } のものとしてあなたが以前に受け入れた公開鍵と異なります。
 
 openpgp-import-sender-key =
-    .label = @@Import@@…
+    .label = @@Import@@...
 
 openpgp-search-keys-openpgp =
     .label = OpenPGP 鍵を検索
 
-openpgp-missing-signature-key = このメッセージはあなたが保有していない鍵で署名されています。
+openpgp-missing-signature-key = このメッセージはあなたが所有していない鍵で署名されています。
 
 openpgp-search-signature-key =
-    .label = 検索…
+    .label = 検索...
 
 # Don't translate the terms "OpenPGP" and "MS-Exchange"
 openpgp-broken-exchange-info = このメッセージは、おそらく MS-Exchange によって破損した OpenPGP メッセージです。メッセージの内容が意図したものでない場合、自動修復を試みることができます。
 openpgp-broken-exchange-repair =
     .label = メッセージを修復
-openpgp-broken-exchange-wait = しばらくお待ちください…
+openpgp-broken-exchange-wait = しばらくお待ちください...
 
 openpgp-cannot-decrypt-because-mdc =
     これは、古く脆弱性のあるメカニズムによって暗号化されたメッセージです。

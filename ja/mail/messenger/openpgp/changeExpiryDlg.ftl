@@ -18,5 +18,5 @@ expire-dont-change =
 expire-never-label =
   .label = 有効期限を無期限にする
 expire-in-label =
-  .label = 以下の期間後に有効期限を設定する:
+  .label = 有効期限を次の期間までにする:
 expire-in-months = か月間

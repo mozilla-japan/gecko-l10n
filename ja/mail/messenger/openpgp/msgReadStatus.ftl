@@ -20,7 +20,7 @@ openpgp-sig-invalid-rejected = このメッセージにはデジタル署名が�
 openpgp-sig-invalid-technical-problem = このメッセージにはデジタル署名が含まれていますが、技術的エラーが検出されました。メッセージが破損しているか、第三者によってメッセージが書き換えられています。
 openpgp-sig-valid-unverified = このメッセージにはあなたが受け入れた鍵による有効な署名が含まれていますが、その鍵が送信者のものであるか検証されていません。
 openpgp-sig-valid-verified = このメッセージには検証済みの鍵による有効な署名が含まれています。
-openpgp-sig-valid-own-key = このメッセージにはあなた自身の個人の鍵による有効な署名が含まれています。
+openpgp-sig-valid-own-key = このメッセージにはあなたの個人鍵による有効な署名が含まれています。
 
 openpgp-sig-key-id = 署名者の鍵 ID: { $key }
 openpgp-sig-key-id-with-subkey-id = 署名者の鍵 ID: { $key } (副鍵 ID: { $subkey })

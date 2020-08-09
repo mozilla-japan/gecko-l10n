@@ -10,12 +10,12 @@ key-wizard-button =
     .buttonlabelaccept = 続ける
     .buttonlabelhelp = 戻る
 
-key-wizard-warning = このメールアドレスに紐づいた <b>個人鍵をすでに保有している場合には</b>、その鍵を@@Import-site@@ください。既存の鍵を@@Import-sinai@@場合、これまでに暗号化されたメッセージや、あなたの既存の鍵を保有する他の人から今後送信される暗号化されたメッセージを読むことができなくなります。
+key-wizard-warning = このメールアドレスに紐づいた <b>個人鍵をすでに所有している場合には</b>、その鍵を@@Import-site@@ください。既存の鍵を@@Import-sinai@@と、あなたの既存の鍵で暗号化されたメールは、保管しているものも今後受信するものも読めなくなります。
 
-key-wizard-learn-more = さらに詳しく
+key-wizard-learn-more = 詳細情報
 
 radio-create-key =
-    .label = 新しい OpenPGP 鍵を生成
+    .label = @@New-CMD@@ OpenPGP 鍵を生成
     .accesskey = C
 
 radio-import-key =
@@ -30,7 +30,7 @@ radio-gnupg-key =
 
 openpgp-generate-key-title = OpenPGP 鍵を生成
 
-openpgp-generate-key-info = <b>注意: 鍵の生成が完了するまで数分間かかることがあります</b>。鍵の生成の途中でアプリケーションを終了させないでください。鍵の生成中に、ウェブブラウザーを使用する、もしくはディスクアクセスが激しい処理を行うと「乱数プール」が満たされ、処理が早く終わります。鍵の生成が終了したらお知らせします。
+openpgp-generate-key-info = <b>注意: 鍵の生成が完了するまで数分かかることがあります</b>。鍵の生成の途中で@@Application@@を終了させないでください。鍵の生成中に、ウェブブラウザーを使用する、もしくはディスクアクセスが激しい処理を行うと「乱数プール」が満たされ、処理が早く終わります。鍵の生成が終了したらお知らせします。
 
 openpgp-keygen-expiry-title = 鍵の有効期限
 
@@ -45,11 +45,11 @@ radio-keygen-no-expiry =
     .accesskey = d
 
 openpgp-keygen-days-label =
-    .label = 日間
+    .label = 日後
 openpgp-keygen-months-label =
-    .label = か月間
+    .label = か月後
 openpgp-keygen-years-label =
-    .label = 年間
+    .label = 年後
 
 openpgp-keygen-advanced-title = 高度な設定
 
@@ -71,9 +71,9 @@ openpgp-keygen-type-ecc =
 
 openpgp-keygen-button = 鍵を生成
 
-openpgp-keygen-progress-title = あなたの新しい OpenPGP 鍵を生成中です…
+openpgp-keygen-progress-title = あなたの新しい OpenPGP 鍵を生成中です...
 
-openpgp-keygen-import-progress-title = あなたの既存の OpenPGP 鍵を@@Import-site@@います…
+openpgp-keygen-import-progress-title = あなたの既存の OpenPGP 鍵を@@Import-site@@います...
 
 openpgp-import-success = OpenPGP 鍵の@@ImportNoun@@が完了しました！
 
@@ -88,15 +88,15 @@ openpgp-keygen-dismiss =
     .label = キャンセル
 
 openpgp-keygen-cancel =
-    .label = プロセスをキャンセルします…
+    .label = 処理をキャンセルします...
 
 openpgp-keygen-import-complete =
     .label = 閉じる
     .accesskey = C
 
-openpgp-keygen-missing-username = 現在のアカウントの名前が設定されていません。アカウント設定の「あなたの名前」フィールドに名前を入力してください。
-openpgp-keygen-long-expiry = 100 年間よりも長い有効期限を設定することはできません。
-openpgp-keygen-short-expiry = 1 日間よりも短い有効期限を設定することはできません。
+openpgp-keygen-missing-username = 選択されたアカウントまたは差出人の名前が設定されていません。アカウント設定の @@[@@あなたの名前@@]@@ フィールドに名前を入力してください。
+openpgp-keygen-long-expiry = 有効期限を 100 年以上先に設定することはできません。
+openpgp-keygen-short-expiry = 有効期限を 1 日以内に設定することはできません。
 
 openpgp-keygen-ongoing = 既に鍵の生成は進行中です！
 
@@ -111,7 +111,7 @@ openpgp-keygen-abort-title = 鍵の生成を中止しますか？
 openpgp-keygen-abort = 現在 OpenPGP 鍵の生成が進行中です。キャンセルしますか？
 
 #   $identity (String) - the name and email address of the currently selected identity
-openpgp-key-confirm = { $identity } のための公開鍵を秘密鍵を生成しますか？
+openpgp-key-confirm = { $identity } の公開鍵と秘密鍵を生成しますか？
 
 ## Import Key section
 
@@ -129,7 +129,7 @@ openpgp-import-key-list-amount = { $count ->
    *[other] @@Import@@可能な鍵が { $count } 個あります。
 }
 
-openpgp-import-key-list-description = どの鍵をあなたの個人鍵として利用するか確認してください。あなた自身が作成し、あなた自身がの差出人情報が表示される鍵のみを個人鍵として利用可能です。後からこの設定を鍵のプロパティダイアログから変更することもできます。
+openpgp-import-key-list-description = どの鍵をあなたの個人鍵として利用するか確認してください。あなた自身が作成し、あなた自身の差出人情報が表示される鍵のみを個人鍵として利用可能です。後からこの設定を鍵の@@PropertyCMD@@ダイアログから変更することもできます。
 
 openpgp-import-key-list-caption = 個人鍵として利用するとマークされた鍵は、エンドツーエンド暗号化セクションに表示されます。それ以外の鍵は、鍵マネージャーの中で利用可能です。
 
@@ -139,7 +139,7 @@ openpgp-passphrase-prompt-title = パスフレーズが必要です
 openpgp-passphrase-prompt = 以下の鍵のロックを解除するためにパスフレーズを入力してください: { $key }
 
 openpgp-import-key-button =
-    .label = @@Import-suru@@ファイルを選択…
+    .label = @@Import-suru@@ファイルを選択...
     .accesskey = S
 
 import-key-file = OpenPGP 鍵ファイルを@@Import@@
@@ -161,12 +161,12 @@ openpgp-import-identity-label = 差出人
 
 openpgp-import-fingerprint-label = フィンガープリント
 
-openpgp-import-created-label = 作成
+openpgp-import-created-label = 作成日
 
 openpgp-import-bits-label = ビット
 
 openpgp-import-key-props =
-    .label = 鍵のプロパティ
+    .label = 鍵の@@PropertyCMD@@
     .accesskey = K
 
 ## External Key section
