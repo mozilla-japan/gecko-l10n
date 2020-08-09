@@ -641,8 +641,7 @@ key-in-message-body = メッセージ中に鍵が含まれています。@@[@@�
 sig-mismatch = エラー - 署名が一致しません
 invalid-email = エラー - 無効なメールアドレスです
 attachment-pgp-key =
-    開こうとしている添付ファイル '{ $name }' は OpenPGP 鍵ファイルです。
-    @@[@@@@ImportNoun@@@@]@@ をクリックして鍵を@@Import-suru@@か、@@[@@表示@@]@@ をクリックしてファイルの内容を@@Window@@に表示してください
+    開こうとしている添付ファイル '{ $name }' は OpenPGP 鍵ファイルです。@@[@@@@ImportNoun@@@@]@@ をクリックして鍵を@@Import-suru@@か、@@[@@表示@@]@@ をクリックしてファイルの内容を@@Window@@に表示してください
 dlg-button-view = 表示(&V)
 
 # Strings used in enigmailMsgHdrViewOverlay.js
