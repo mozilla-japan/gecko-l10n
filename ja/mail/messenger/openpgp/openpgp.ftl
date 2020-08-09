@@ -2,179 +2,179 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-e2e-intro-description = To send encrypted or digitally signed messages, you need to configure an encryption technology, either OpenPGP or S/MIME.
+e2e-intro-description = 暗号化された、あるいはデジタル署名されたメッセージを送信するには、OpenPGP あるいは S/MIME のどちらかの暗号化技術を設定する必要があります。
 
-e2e-intro-description-more = Select your personal key to enable the use of OpenPGP, or your personal certificate to enable the use of S/MIME. For a personal key or certificate you own the corresponding secret key.
+e2e-intro-description-more = OpenPGP を有効化するためのあなたの個人鍵か、S/MIME を有効化するためのあなたの個人証明書を選択してください。どちらの場合にも、対応する秘密鍵を所有している必要があります。
 
-openpgp-key-user-id-label = Account / User ID
+openpgp-key-user-id-label = アカウント / ユーザー ID
 openpgp-keygen-title-label =
-    .title = Generate OpenPGP Key
+    .title = OpenPGP 鍵を生成
 openpgp-cancel-key =
-    .label = Cancel
-    .tooltiptext = Cancel Key Generation
+    .label = キャンセル
+    .tooltiptext = 鍵の生成をキャンセルします
 openpgp-key-gen-expiry-title =
-    .label = Key expiry
-openpgp-key-gen-expire-label = Key expires in
+    .label = 鍵の有効期限
+openpgp-key-gen-expire-label = 鍵の有効期限を指定します
 openpgp-key-gen-days-label =
-    .label = days
+    .label = 日後
 openpgp-key-gen-months-label =
-    .label = months
+    .label = か月後
 openpgp-key-gen-years-label =
-    .label = years
+    .label = 年後
 openpgp-key-gen-no-expiry-label =
-    .label = Key does not expire
-openpgp-key-gen-key-size-label = Key size
-openpgp-key-gen-console-label = Key Generation
-openpgp-key-gen-key-type-label = Key type
+    .label = 無期限
+openpgp-key-gen-key-size-label = 鍵長
+openpgp-key-gen-console-label = 鍵を生成
+openpgp-key-gen-key-type-label = 鍵のタイプ
 openpgp-key-gen-key-type-rsa =
     .label = RSA
 openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptic Curve)
+    .label = ECC (楕円曲線暗号)
 openpgp-generate-key =
-    .label = Generate key
-    .tooltiptext = Generates a new OpenPGP compliant key for encryption and/or signing
+    .label = 鍵を生成
+    .tooltiptext = 暗号化、署名のための新しい OpenPGP 準拠の鍵を生成します
 openpgp-advanced-prefs-button-label =
-    .label = Advanced…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">NOTE: Key generation may take up to several minutes to complete.</a> Do not exit the application while key generation is in progress. Actively browsing or performing disk-intensive operations during key generation will replenish the 'randomness pool' and speed-up the process. You will be alerted when key generation is completed.
+    .label = 高度な設定...
+openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">注意: 鍵の生成が完了するまで数分かかることがあります</a>。鍵の生成の途中でアプリケーションを終了させないでください。鍵の生成中に、ウェブブラウザーを使用する、もしくはディスクアクセスが激しい処理を行うと「乱数プール」が満たされ、処理が早く終わります。鍵の生成が終了したらお知らせします。
 
 openpgp-key-expiry-label =
-    .label = Expiry
+    .label = 有効期限
 
 openpgp-key-id-label =
-    .label = Key ID
+    .label = 鍵 ID
 
-openpgp-cannot-change-expiry = This is a key with a complex structure, changing its expiry date isn't supported.
+openpgp-cannot-change-expiry = この鍵は複雑な構造をしているため、有効期限の変更はできません。
 
 openpgp-key-man-title =
-    .title = OpenPGP Key Manager
+    .title = OpenPGP 鍵マネージャー
 openpgp-key-man-generate =
-    .label = New Key Pair
+    .label = @@New-CMD@@鍵ペア
     .accesskey = K
 openpgp-key-man-gen-revoke =
-  .label = Revocation Certificate
+  .label = 失効証明書
   .accesskey = R
 openpgp-key-man-ctx-gen-revoke-label =
-    .label = Generate & Save Revocation Certificate
+    .label = 失効証明書を生成し保存します
 
 openpgp-key-man-file-menu =
-    .label = File
+    .label = ファイル
     .accesskey = F
 openpgp-key-man-edit-menu =
-    .label = Edit
+    .label = 編集
     .accesskey = E
 openpgp-key-man-view-menu =
-    .label = View
+    .label = 表示
     .accesskey = V
 openpgp-key-man-generate-menu =
-    .label = Generate
+    .label = 生成
     .accesskey = G
 openpgp-key-man-keyserver-menu =
-    .label = Keyserver
+    .label = 鍵サーバー
     .accesskey = K
 
 openpgp-key-man-import-public-from-file =
-    .label = Import Public Key(s) From File
+    .label = ファイルから公開鍵を@@Import@@
     .accesskey = I
 openpgp-key-man-import-secret-from-file =
-    .label = Import Secret Key(s) From File
+    .label = ファイルから秘密鍵を@@Import@@
 openpgp-key-man-import-sig-from-file =
-    .label = Import Revocation(s) From File
+    .label = ファイルから失効証明書を@@Import@@
 openpgp-key-man-import-from-clipbrd =
-    .label = Import Key(s) From Clipboard
+    .label = クリップボードから鍵を@@Import@@
     .accesskey = I
 openpgp-key-man-import-from-url =
-    .label = Import Key(s) From URL
+    .label = URL から鍵を@@Import@@
     .accesskey = U
 openpgp-key-man-export-to-file =
-    .label = Export Public Key(s) To File
+    .label = 公開鍵をファイルに@@Export@@
     .accesskey = E
 openpgp-key-man-send-keys =
-    .label = Send Public Key(s) By Email
+    .label = 公開鍵をメールで送信
     .accesskey = S
 openpgp-key-man-backup-secret-keys =
-    .label = Backup Secret Key(s) To File
+    .label = 秘密鍵をファイルにバックアップ保存
     .accesskey = B
 
 openpgp-key-man-discover-cmd =
-    .label = Discover Keys Online
+    .label = オンラインで鍵を検索
     .accesskey = D
-openpgp-key-man-discover-prompt = To discover OpenPGP keys online, on keyservers or using the WKD protocol, enter either an email address or a key ID.
-openpgp-key-man-discover-progress = Searching…
+openpgp-key-man-discover-prompt = 鍵サーバーあるいは WKD プロトコルで、オンラインで OpenPGP 鍵を検索します。メールアドレスか鍵 ID を入力してください。
+openpgp-key-man-discover-progress = 検索中...
 
 openpgp-key-copy-key =
-    .label = Copy Public Key
+    .label = 公開鍵をコピー
     .accesskey = C
 
 openpgp-key-export-key =
-    .label = Export Public Key To File
+    .label = 公開鍵をファイルに@@Export@@
     .accesskey = E
 
 openpgp-key-backup-key =
-    .label = Backup Secret Key To File
+    .label = 秘密鍵をファイルにバックアップ保存
     .accesskey = B
 
 openpgp-key-send-key =
-    .label = Send Public Key Via Email
+    .label = 公開鍵をメールで送信
     .accesskey = S
 
 openpgp-key-man-copy-to-clipbrd =
-    .label = Copy Public Key(s) To Clipboard
+    .label = 公開鍵をクリップボードにコピー
     .accesskey = C
 openpgp-key-man-ctx-expor-to-file-label =
-    .label = Export Keys To File
+    .label = 鍵をファイルに@@Export-simasu@@
 openpgp-key-man-ctx-copy-to-clipbrd-label =
-    .label = Copy Public Keys To Clipboard
+    .label = 公開鍵をクリップボードにコピーします
 
 openpgp-key-man-close =
-    .label = Close
+    .label = @@CloseCMD@@
 openpgp-key-man-reload =
-    .label = Reload Key Cache
+    .label = 鍵キャッシュを再読み込み
     .accesskey = R
 openpgp-key-man-change-expiry =
-    .label = Change Expiration Date
+    .label = 有効期限を変更
     .accesskey = E
 openpgp-key-man-del-key =
-    .label = Delete Key(s)
+    .label = 鍵を削除
     .accesskey = D
 openpgp-delete-key =
-    .label = Delete Key
+    .label = 鍵を削除
     .accesskey = D
 openpgp-key-man-revoke-key =
-    .label = Revoke Key
+    .label = 鍵を失効
     .accesskey = R
 openpgp-key-man-key-props =
-    .label = Key Properties
+    .label = 鍵の@@PropertyCMD@@
     .accesskey = K
 openpgp-key-man-key-more =
-    .label = More
+    .label = 詳細
     .accesskey = M
 openpgp-key-man-view-photo =
-    .label = Photo ID
+    .label = フォト ID
     .accesskey = P
 openpgp-key-man-ctx-view-photo-label =
-    .label = View Photo ID
+    .label = フォト ID を表示
 openpgp-key-man-show-invalid-keys =
-    .label = Display invalid keys
+    .label = 無効な鍵を表示
     .accesskey = D
 openpgp-key-man-show-others-keys =
-    .label = Display Keys From Other People
+    .label = 他の人からの鍵を表示
     .accesskey = O
 openpgp-key-man-user-id-label =
-    .label = Name
+    .label = 名前
 openpgp-key-man-fingerprint-label =
-    .label = Fingerprint
+    .label = フィンガープリント
 openpgp-key-man-select-all =
-    .label = Select All Keys
+    .label = すべての鍵を選択
     .accesskey = A
 openpgp-key-man-empty-tree-tooltip =
-    .label = Enter search terms in the box above
+    .label = 検索語句を上のボックスに入力してください
 openpgp-key-man-nothing-found-tooltip =
-    .label = No keys match your search terms
+    .label = 検索条件に一致する鍵が見つかりませんでした
 openpgp-key-man-please-wait-tooltip =
-    .label = Please wait while keys are being loaded…
+    .label = 鍵の読み込み中です。しばらくお待ちください...
 
 openpgp-key-man-filter-label =
-    .placeholder = Search for keys
+    .placeholder = 鍵を検索
 
 openpgp-key-man-select-all-key =
     .key = A
@@ -182,492 +182,500 @@ openpgp-key-man-key-details-key =
     .key = I
 
 openpgp-key-details-title =
-    .title = Key Properties
+    .title = 
+        { PLATFORM() ->
+            [macos] 鍵の情報
+           *[other] 鍵のプロパティ
+        }
 openpgp-key-details-signatures-tab =
-    .label = Certifications
+    .label = 証明書
 openpgp-key-details-structure-tab =
-    .label = Structure
+    .label = 構造
 openpgp-key-details-uid-certified-col =
-    .label = User ID / Certified by
-openpgp-key-details-user-id2-label = Alleged Key Owner
+    .label = ユーザー ID / 署名
+openpgp-key-details-user-id2-label = 鍵の所有者
 openpgp-key-details-id-label =
     .label = ID
-openpgp-key-details-key-type-label = Type
+openpgp-key-details-key-type-label = タイプ
 openpgp-key-details-key-part-label =
-    .label = Key Part
+    .label = 鍵の種別
 openpgp-key-details-algorithm-label =
-    .label = Algorithm
+    .label = アルゴリズム
 openpgp-key-details-size-label =
-    .label = Size
+    .label = 鍵長
 openpgp-key-details-created-label =
-    .label = Created
-openpgp-key-details-created-header = Created
+    .label = 作成日
+openpgp-key-details-created-header = 作成
 openpgp-key-details-expiry-label =
-    .label = Expiry
-openpgp-key-details-expiry-header = Expiry
+    .label = 有効期限
+openpgp-key-details-expiry-header = 有効期限
 openpgp-key-details-usage-label =
-    .label = Usage
-openpgp-key-details-fingerprint-label = Fingerprint
+    .label = 利用法
+openpgp-key-details-fingerprint-label = フィンガープリント
 openpgp-key-details-sel-action =
-  .label = Select action…
+  .label = 操作を選択...
   .accesskey = S
-openpgp-key-details-also-known-label = Alleged Alternative Identities of the Key Owner:
+openpgp-key-details-also-known-label = 鍵の所有者によって主張される他の名前:
 openpgp-card-details-close-window-label =
-    .buttonlabelaccept = Close
+    .buttonlabelaccept = @@CloseCMD@@
 openpgp-acceptance-label =
-    .label = Your Acceptance
+    .label = 鍵の受け入れ
 openpgp-acceptance-rejected-label =
-    .label = No, reject this key.
+    .label = 受け入れません。この鍵を拒絶します。
 openpgp-acceptance-undecided-label =
-    .label = Not yet, maybe later.
+    .label = まだ決定していません。
 openpgp-acceptance-unverified-label =
-    .label = Yes, but I have not verified that it is the correct key.
+    .label = 受け入れます。しかし、この鍵が正しいか検証していません。
 openpgp-acceptance-verified-label =
-    .label = Yes, I've verified in person this key has the correct fingerprint.
+    .label = 受け入れます。この鍵のフィンガープリントが正しいことを検証しました。
 key-accept-personal =
-    For this key, you have both the public and the secret part. You may use it as a personal key.
-    If this key was given to you by someone else, then don't use it as a personal key.
-key-personal-warning = Did you create this key yourself, and the displayed key ownership refers to yourself?
+    あなたはこの鍵の公開鍵と秘密鍵の両方を所有しています。この鍵をあなたの個人鍵として利用できます。
+    この鍵が他の人からもらったものである場合には、あなたの個人鍵としては利用しないでください。
+key-personal-warning = この鍵はあなた自身で作成したものであり、なおかつ表示された鍵の所有者はあなた自身ですか？
 openpgp-personal-no-label =
-    .label = No, don't use it as my personal key.
+    .label = いいえ。この鍵は個人鍵としては利用しません。
 openpgp-personal-yes-label =
-    .label = Yes, treat this key as a personal key.
+    .label = はい。この鍵を個人鍵として利用します。
 
 openpgp-copy-cmd-label =
-    .label = Copy
+    .label = コピー
 
 ## e2e encryption settings
 
 #   $count (Number) - the number of configured keys associated with the current identity
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description = { $count ->
-    [0]     Thunderbird doesn't have a personal OpenPGP key for <b>{ $identity }</b>
-    [one]   Thunderbird found { $count } personal OpenPGP key associated with <b>{ $identity }</b>
-   *[other] Thunderbird found { $count } personal OpenPGP keys associated with <b>{ $identity }</b>
+    [0]     <b>{ $identity }</b> のための個人鍵がありません
+    [one]   <b>{ $identity }</b> のための個人鍵が { $count } 個あります
+   *[other] <b>{ $identity }</b> のための個人鍵が { $count } 個あります
 }
 
 #   $count (Number) - the number of configured keys associated with the current identity
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status = { $count ->
-    [0]     Select a valid key to enable the OpenPGP protocol.
-   *[other] Your current configuration uses key ID <b>{ $key }</b>
+    [0]     鍵を選択して OpenPGP プロトコルを有効にしてください。
+   *[other] 鍵 ID <b>{ $key }</b> を利用するよう設定されています。
 }
 
 #   $key (String) - the currently selected OpenPGP key
-openpgp-selection-status-error = Your current configuration uses the key <b>{ $key }</b>, which has expired.
+openpgp-selection-status-error = 鍵 ID <b>{ $key }</b> を利用するよう設定されていますが、この鍵は失効しています。
 
 openpgp-add-key-button =
-    .label = Add Key…
+    .label = 鍵を追加...
     .accesskey = A
 
-e2e-learn-more = Learn more
+e2e-learn-more = 詳細情報
 
-openpgp-keygen-success = OpenPGP Key created successfully!
+openpgp-keygen-success = OpenPGP 鍵の生成が完了しました！
 
-openpgp-keygen-import-success = OpenPGP Keys imported successfully!
+openpgp-keygen-import-success = OpenPGP 鍵の@@ImportNoun@@が完了しました！
 
-openpgp-keygen-external-success = External GnuPG Key ID saved!
+openpgp-keygen-external-success = 外部 GnuPG 鍵 ID を保存しました！
 
 ## OpenPGP Key selection area
 
 openpgp-radio-none =
-    .label = None
+    .label = なし
 
-openpgp-radio-none-desc = Do not use OpenPGP for this identity.
+openpgp-radio-none-desc = この差出人では OpenPGP を利用しません。
 
 #   $key (String) - the expiration date of the OpenPGP key
-openpgp-radio-key-expires = Expires on: { $date }
+openpgp-radio-key-expires = 有効期限: { $date }
 
 openpgp-key-expires-image =
-    .tooltiptext = Key is expiring in less than 6 months
+    .tooltiptext = 鍵は 6 か月以内に失効します
 
 #   $key (String) - the expiration date of the OpenPGP key
-openpgp-radio-key-expired = Expired on: { $date }
+openpgp-radio-key-expired = 有効期限切れ: { $date }
 
 openpgp-key-expired-image =
-    .tooltiptext = Key expired
+    .tooltiptext = 鍵は有効期限切れです
 
 openpgp-key-expand-section =
-  .tooltiptext = More information
+  .tooltiptext = 詳細情報
 
-openpgp-key-revoke-title = Revoke Key
+openpgp-key-revoke-title = 鍵を失効
 
-openpgp-key-edit-title = Change OpenPGP Key
+openpgp-key-edit-title = OpenPGP 鍵を変更
 
-openpgp-key-edit-date-title = Extend Expiration Date
+openpgp-key-edit-date-title = 有効期限を延長
 
-openpgp-manager-description = Use the OpenPGP Key Manager to view and manage public keys of your correspondents and all other keys not listed above.
+openpgp-manager-description = OpenPGP 鍵マネージャーから、あなたの通信相手の公開鍵と、上に表示されていないすべての他の鍵を表示、管理できます。
 
 openpgp-manager-button =
-    .label = OpenPGP Key Manager
+    .label = OpenPGP 鍵マネージャー
     .accesskey = K
 
 openpgp-key-remove-external =
-    .label = Remove External Key ID
+    .label = 外部鍵 ID を除去
     .accesskey = E
 
-key-external-label = External GnuPG Key
+key-external-label = 外部 GnuPG 鍵
 
 # Strings in keyDetailsDlg.xhtml
-key-type-public = public key
-key-type-primary = primary key
-key-type-subkey = subkey
-key-type-pair = key pair (secret key and public key)
-key-expiry-never = never
-key-usage-encrypt = Encrypt
-key-usage-sign = Sign
-key-usage-certify = Certify
-key-usage-authentication = Authentication
-key-does-not-expire = The key does not expire
-key-expired-date = The key expired on { $keyExpiry }
-key-expired-simple = The key has expired
-key-revoked-simple = The key was revoked
-key-do-you-accept = Do you accept this key for verifying digital signatures and for encrypting messages?
-key-accept-warning = Avoid accepting a rogue key. Use a communication channel other than email to verify the fingerprint of your correspondent's key.
+key-type-public = 公開鍵
+key-type-primary = 主鍵
+key-type-subkey = 副鍵
+key-type-pair = 鍵ペア (秘密鍵および公開鍵)
+key-expiry-never = 無期限
+key-usage-encrypt = 暗号化
+key-usage-sign = 署名
+key-usage-certify = 証明
+key-usage-authentication = 認証
+key-does-not-expire = 鍵の有効期限は無期限です
+key-expired-date = 鍵は { $keyExpiry } に有効期限が切れています
+key-expired-simple = 鍵は有効期限切れです
+key-revoked-simple = 鍵は失効しています
+key-do-you-accept = この鍵をデジタル署名の検証とメッセージの暗号化のために受け入れますか？
+key-accept-warning = 悪意のある鍵を受け入れないよう注意してください。メール以外の通信手段によって、あなたの通信相手の鍵のフィンガープリントを検証してください。
 
 # Strings enigmailMsgComposeOverlay.js
-cannot-use-own-key-because = Unable to send the message, because there is a problem with your personal key. { $problem }
-cannot-encrypt-because-missing = Unable to send this message with end-to-end encryption, because there are problems with the keys of the following recipients: { $problem }
-window-locked = Compose window is locked; send cancelled
+cannot-use-own-key-because = あなたの個人鍵に問題があるためメッセージを送信できませんでした。{ $problem }
+cannot-encrypt-because-missing = 以下の受信者の鍵に問題があるためエンドツーエンド暗号化によるメッセージを送信できませんでした: { $problem }
+window-locked = メッセージ作成@@Window@@がロックされているため、送信がキャンセルされました
 
 # Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-attachment-label = Encrypted message part
-mime-decrypt-encrypted-part-concealed-data = This is an encrypted message part. You need to open it in a separate window by clicking on the attachment.
+mime-decrypt-encrypted-part-attachment-label = 暗号化されたメッセージ部
+mime-decrypt-encrypted-part-concealed-data = これは暗号化されたメッセージの一部です。添付ファイルをクリックして別の@@Window@@で開きます。
 
 # Strings in keyserver.jsm
-keyserver-error-aborted = Aborted
-keyserver-error-unknown = An unknown error occurred
-keyserver-error-server-error = The keyserver reported an error.
-keyserver-error-import-error = Failed to import the downloaded key.
-keyserver-error-unavailable = The keyserver is not available.
-keyserver-error-security-error = The keyserver does not support encrypted access.
-keyserver-error-certificate-error = The keyserver’s certificate is not valid.
-keyserver-error-unsupported = The keyserver is not supported.
+keyserver-error-aborted = 中止されました
+keyserver-error-unknown = 原因不明のエラーが発生しました
+keyserver-error-server-error = 鍵サーバーからエラーが報告されました。
+keyserver-error-import-error = ダウンロードした鍵の@@ImportNoun@@に失敗しました。
+keyserver-error-unavailable = 鍵サーバーが利用できません。
+keyserver-error-security-error = 鍵サーバーが暗号化したアクセスに対応していません。
+keyserver-error-certificate-error = 鍵サーバーの証明書が不正です。
+keyserver-error-unsupported = 鍵サーバーが対応していません。
 
 # Strings in mimeWkdHandler.jsm
 wkd-message-body-req =
-    Your email provider processed your request to upload your public key to the OpenPGP Web Key Directory.
-    Please confirm to complete the publishing of your public key.
+    あなたのメールプロバイダーが、OpenPGP Web Key Directory へのあなたの公開鍵のアップロード要求を処理しました。
+    あなたの公開鍵が Directory 上で公開されていることを確認してください。
 wkd-message-body-process =
-    This is an email related to the automatic processing to upload your public key to the OpenPGP Web Key Directory.
-    You do not need to take any manual action at this point.
+    これは、OpenPGP Web Key Directory へのあなたの公開鍵のアップロードのための自動プロセスに関連したメールです。
+    現時点では、特に何も行う必要はありません。
 
 # Strings in persistentCrypto.jsm
 converter-decrypt-body-failed =
-    Could not decrypt message with subject
-    { $subject }.
-    Do you want to retry with a different passphrase or do you want to skip the message?
+    以下の件名のメッセージを復号できませんでした。
+    { $subject }
+    別のパスフレーズを試しますか？それともメッセージをスキップしますか？
 
 # Strings in gpg.jsm
-unknown-signing-alg = Unknown signing algorithm (ID: { $id })
-unknown-hash-alg = Unknown cryptographic hash (ID: { $id })
+unknown-signing-alg = 未知の署名アルゴリズム (ID: { $id })
+unknown-hash-alg = 未知の暗号学的ハッシュ (ID: { $id })
 
 # Strings in keyUsability.jsm
 expiry-key-expires-soon =
-    Your key { $desc } will expire in less than { $days } days.
-    We recommend that you create a new key pair and configure the corresponding accounts to use it.
+    あなたの鍵 { $desc } は { $days } 日以内に失効します。
+    新しい鍵ペアを生成し、その鍵を利用するようアカウント設定を変更することを推奨します。
 expiry-keys-expire-soon =
-    Your following keys will expire in less than { $days } days:{ $desc }.
-    We recommend that you create new keys and configure the corresponding accounts to use them.
+    以下のあなたの鍵 は { $days } 日以内に失効します:{ $desc }
+    新しい鍵ペアを生成し、それらの鍵を利用するようアカウント設定を変更することを推奨します。
 expiry-key-missing-owner-trust =
-    Your secret key { $desc } has missing trust.
-    We recommend that you set "You rely on certifications" to "ultimate" in key properties.
+    あなたの秘密鍵 { $desc } は信用度を失っています。
+    鍵の @@[@@所有者による信用度@@]@@ の設定を @@[@@絶対的に信用@@]@@ に変更することを推奨します。
 expiry-keys-missing-owner-trust =
-    The following of your secret keys have missing trust.
-    { $desc }.
-    We recommend that you set "You rely on certifications" to "ultimate" in key properties.
-expiry-open-key-manager = Open OpenPGP Key Manager
-expiry-open-key-properties = Open Key Properties
+    以下のあなたの秘密鍵は信用度を失っています。
+    { $desc }
+    鍵の @@[@@所有者による信用度@@]@@ の設定を @@[@@絶対的に信用@@]@@ に変更することを推奨します。
+expiry-open-key-manager = OpenPGP 鍵マネージャーを開く
+expiry-open-key-properties = 
+    { PLATFORM() ->
+        [macos] 鍵の情報を見る
+       *[other] 鍵のプロパティを開く
+    }
 
 # Strings filters.jsm
-filter-folder-required = You must select a target folder.
+filter-folder-required = 対象のフォルダを指定してください。
 filter-decrypt-move-warn-experimental =
-    Warning - the filter action "Decrypt permanently" may lead to destroyed messages.
-    We strongly recommend that you first try the "Create decrypted Copy" filter, test the result carefully, and only start using this filter once you are satisfied with the result.
-filter-term-pgpencrypted-label = OpenPGP Encrypted
-filter-key-required = You must select a recipient key.
-filter-key-not-found = Could not find an encryption key for '{ $desc }'.
+    警告 - @@[@@メッセージを恒久的に復号する@@]@@ フィルターは、メッセージを破損する可能性があります。
+    はじめに @@[@@復号したメッセージのコピーを作成する@@]@@ フィルターを試験的に利用し、その結果に問題がないことを確認したうえで @@[@@メッセージを恒久的に復号する@@]@@ フィルターを使用することを強く推奨します。
+filter-term-pgpencrypted-label = OpenPGP 暗号化
+filter-key-required = 受信者の鍵を選択してください。
+filter-key-not-found = '{ $desc }' に対する暗号化の鍵を見つけることができません。
 filter-warn-key-not-secret =
-    Warning - the filter action "Encrypt to key" replaces the recipients.
-    If you do not have the secret key for '{ $desc }' you will no longer be able to read the emails.
+    警告 - @@[@@鍵に対して暗号化する@@]@@ フィルターは、受信者を上書きします。
+    '{ $desc }' に対する秘密鍵を持っていない場合、メッセージを復号することはできなくなります。
 
 # Strings filtersWrapper.jsm
-filter-decrypt-move-label = Decrypt permanently (OpenPGP)
-filter-decrypt-copy-label = Create decrypted Copy (OpenPGP)
-filter-encrypt-label = Encrypt to key (OpenPGP)
+filter-decrypt-move-label = メッセージを恒久的に復号する (Enigmail)
+filter-decrypt-copy-label = 復号したメッセージのコピーを作成する (Enigmail)
+filter-encrypt-label = 鍵に対して暗号化する (Enigmail)
 
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
-    .title = Success! Keys imported
-import-info-bits = Bits
-import-info-created = Created
-import-info-fpr = Fingerprint
-import-info-details = View Details and manage key acceptance
-import-info-no-keys = No keys imported.
+    .title = 成功！鍵を@@Import-simasita@@
+import-info-bits = ビット
+import-info-created = 作成日
+import-info-fpr = フィンガープリント
+import-info-details = 詳細を表示し鍵の受け入れを管理
+import-info-no-keys = 鍵は@@Import-sare@@ませんでした。
 
 # Strings in enigmailKeyManager.js
-import-from-clip = Do you want to import some key(s) from clipboard?
-import-from-url = Download public key from this URL:
-copy-to-clipbrd-failed = Could not copy the selected key(s) to the clipboard.
-copy-to-clipbrd-ok = Key(s) copied to clipboard
+import-from-clip = クリップボードから鍵を@@Import-simasu@@か？
+import-from-url = この URL から公開鍵をダウンロード:
+copy-to-clipbrd-failed = 選択した鍵をクリップボードにコピーできませんでした。
+copy-to-clipbrd-ok = 鍵をクリップボードにコピーしました
 delete-secret-key =
-    WARNING: You are about to delete a secret key!
+    警告: あなたは秘密鍵を削除しようとしています！
 
-    If you delete your secret key, you will no longer be able to decrypt any messages encrypted for that key, nor will you be able to revoke it.
+    秘密鍵を削除した場合、あなた宛に暗号化されたすべてのメッセージを復号できなくなり、鍵を失効することもできなくなります。
 
-    Do you really want to delete BOTH, the secret key and the public key
-    '{ $userId }'?
+    本当に以下の秘密鍵と公開鍵の両方を削除しますか？
+    '{ $userId }'
 delete-mix =
-    WARNING: You are about to delete secret keys!
-    If you delete your secret key, you will no longer be able to decrypt any messages encrypted for that key.
-    Do you really want to delete BOTH, the selected secret and public keys?
+    警告: あなたは秘密鍵を削除しようとしています！
+    秘密鍵を削除するとあなた宛に暗号化されたメッセージを復号できなくなります。
+    本当に選択した秘密鍵と公開鍵の両方を削除しますか？
 delete-pub-key =
-    Do you want to delete the public key
-    '{ $userId }'?
-delete-selected-pub-key = Do you want to delete the public keys?
-refresh-all-question = You did not select any key. Would you like to refresh ALL keys?
-key-man-button-export-sec-key = Export &Secret Keys
-key-man-button-export-pub-key = Export &Public Keys Only
-key-man-button-refresh-all = &Refresh All Keys
-key-man-loading-keys = Loading keys, please wait…
-ascii-armor-file = ASCII Armored Files (*.asc)
-no-key-selected = You should select at least one key in order to perform the selected operation
-export-to-file = Export Public Key To File
-export-keypair-to-file = Export Secret and Public Key To File
-export-secret-key = Do you want to include the secret key in the saved OpenPGP key file?
-save-keys-ok = The keys were successfully saved
-save-keys-failed = Saving the keys failed
+    公開鍵を削除しますか？
+    '{ $userId }'
+delete-selected-pub-key = 選択した公開鍵を削除しますか？
+refresh-all-question = 鍵が選択されていません。すべての鍵を更新しますか？
+key-man-button-export-sec-key = 秘密鍵を含めて@@Export@@(&S)
+key-man-button-export-pub-key = 公開鍵のみを@@Export@@(&P)
+key-man-button-refresh-all = すべての鍵を更新(&R)
+key-man-loading-keys = 鍵を読み込み中です。しばらくお待ちください...
+ascii-armor-file = ASCII 形式 (*.asc)
+no-key-selected = 選択した操作を実行するには、少なくとも 1 つの鍵を選択する必要があります
+export-to-file = ファイルとして公開鍵を@@Export@@
+export-keypair-to-file = ファイルとして秘密鍵と公開鍵を@@Export@@
+export-secret-key = @@Export-suru@@ OpenPGP 鍵ファイルに秘密鍵を含めますか？
+save-keys-ok = 鍵の保存に成功しました
+save-keys-failed = 鍵の保存に失敗しました
 default-pub-key-filename = Exported-public-keys
 default-pub-sec-key-filename = Backup-of-secret-keys
-refresh-key-warn = Warning: depending on the number of keys and the connection speed, refreshing all keys could be quite a lengthy process!
-preview-failed = Can't read public key file.
-general-error = Error: { $reason }
-dlg-button-delete = &Delete
+refresh-key-warn = 警告: 鍵の数や回線速度によっては、すべての鍵の更新に非常に時間がかかる可能性があります！
+preview-failed = 公開鍵の読み取りに失敗しました。
+general-error = エラー: { $reason }
+dlg-button-delete = 削除(&D)
 
 ## Account settings export output
 
-openpgp-export-public-success = <b>Public Key successfully exported!</b>
-openpgp-export-public-fail = <b>Unable to export the selected public key!</b>
+openpgp-export-public-success = <b>公開鍵の@@ExportNoun@@に成功しました！</b>
+openpgp-export-public-fail = <b>選択した公開鍵の@@ExportNoun@@に失敗しました！</b>
 
-openpgp-export-secret-success = <b>Secret Key successfully exported!</b>
-openpgp-export-secret-fail = <b>Unable to export the selected secret key!</b>
+openpgp-export-secret-success = <b>秘密鍵の@@ExportNoun@@に成功しました！</b>
+openpgp-export-secret-fail = <b>選択した秘密鍵の@@ExportNoun@@に失敗しました！</b>
 
 # Strings in keyObj.jsm
-key-ring-pub-key-revoked = The key { $userId } (key ID { $keyId }) is revoked.
-key-ring-pub-key-expired = The key { $userId } (key ID { $keyId }) has expired.
-key-ring-key-disabled = The key { $userId } (key ID { $keyId }) is disabled; it cannot be used.
-key-ring-key-invalid = The key { $userId } (key ID { $keyId }) is not valid. Please consider verifying it correctly.
-key-ring-key-not-trusted=The key { $userId } (key ID { $keyId }) is not trusted enough. Please set the trust level of your key to "ultimate" to use it for signing.
-key-ring-no-secret-key = You do not seem to have the secret key for { $userId } (key ID { $keyId }) on your keyring; you cannot use the key for signing.
-key-ring-pub-key-not-for-signing = The key { $userId } (key ID { $keyId }) cannot be used for signing.
-key-ring-pub-key-not-for-encryption = The key { $userId } (key ID { $keyId }) cannot be used for encryption.
-key-ring-sign-sub-keys-revoked = All signing-subkeys of key { $userId } (key ID { $keyId }) are revoked.
-key-ring-sign-sub-keys-expired = All signing-subkeys of key { $userId } (key ID { $keyId }) have expired.
-key-ring-sign-sub-keys-unusable = All signing-subkeys of key { $userId } (key ID { $keyId }) are revoked, expired or otherwise unusable.
-key-ring-enc-sub-keys-revoked = All encryption subkeys of key { $userId } (key ID { $keyId }) are revoked.
-key-ring-enc-sub-keys-expired = All encryption subkeys of key { $userId } (key ID { $keyId }) have expired.
-key-ring-enc-sub-keys-unusable = All encryption subkeys of key { $userId } (key ID { $keyId }) are revoked, expired or otherwise unusable.
+key-ring-pub-key-revoked = 鍵 { $userId } (鍵 ID { $keyId }) は失効しています。
+key-ring-pub-key-expired = 鍵 { $userId } (鍵 ID { $keyId }) は有効期限切れです。
+key-ring-key-disabled = 鍵 { $userId } (鍵 ID { $keyId }) は無効化されているため利用できません。
+key-ring-key-invalid = 鍵 { $userId } (鍵 ID { $keyId }) は正当ではありません。この鍵を適切に検証してください。
+key-ring-key-not-trusted= 鍵 { $userId } (鍵 ID { $keyId }) の信用度が不足しています。署名に利用するには、あなたの鍵の信用度を @@[@@絶対的に信用@@]@@ に設定してください。
+key-ring-no-secret-key = { $userId } (鍵 ID { $keyId }) の秘密鍵が鍵束の中にないため、この鍵を署名に利用することはできません。
+key-ring-pub-key-not-for-signing = 鍵 { $userId } (鍵 ID { $keyId }) を署名に利用することはできません。
+key-ring-pub-key-not-for-encryption = 鍵 { $userId } (鍵 ID { $keyId }) を暗号化に利用することはできません。
+key-ring-sign-sub-keys-revoked = 鍵 { $userId } (鍵 ID { $keyId }) のすべての署名用の副鍵は失効しています。
+key-ring-sign-sub-keys-expired = 鍵 { $userId } (鍵 ID { $keyId }) のすべての署名用の副鍵は有効期限切れです。
+key-ring-sign-sub-keys-unusable = 鍵 { $userId } (鍵 ID { $keyId }) のすべての署名用の副鍵は失効、有効期限切れあるいは何らかの理由により利用できません。
+key-ring-enc-sub-keys-revoked = 鍵 { $userId } (鍵 ID { $keyId }) のすべての暗号化用の副鍵は失効しています。
+key-ring-enc-sub-keys-expired = 鍵 { $userId } (鍵 ID { $keyId }) のすべての暗号化用の副鍵は有効期限切れです。
+key-ring-enc-sub-keys-unusable = 鍵 { $userId } (鍵 ID { $keyId }) のすべての暗号化用の副鍵は失効、有効期限切れあるいは何らかの理由により利用できません。
 
 # Strings in gnupg-keylist.jsm
-keyring-photo = Photo
-user-att-photo = User attribute (JPEG image)
+keyring-photo = 写真
+user-att-photo = ユーザーの特徴 (JPEG 画像)
 
 # Strings in key.jsm
-already-revoked = This key has already been revoked.
+already-revoked = この鍵は既に失効しています。
 
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
-    You are about to revoke the key '{ $identity }'.
-    You will no longer be able to sign with this key, and once distributed, others will no longer be able to encrypt with that key. You can still use the key to decrypt old messages.
-    Do you want to proceed?
+    鍵 '{ $identity }' を失効させようとしています。
+    この鍵で署名できなくなるほか、鍵の失効後は他の人がその鍵で暗号化できなくなります。失効後も、既存の古いメッセージの復号には使用できます。
+    本当に失効させますか？
 
 #   $keyId (String) - the id of the key being revoked
 revoke-key-not-present =
-    You have no key (0x{ $keyId }) which matches this revocation certificate!
-    If you have lost your key, you must import it (e.g. from a keyserver) before importing the revocation certificate!
+    この失効証明書に適合する鍵 (0x{ $keyId }) を所有していません！
+    鍵を持っていない場合、失効証明書よりも前に公開鍵を鍵サーバーなどから@@Import-suru@@必要があります！
 
 #   $keyId (String) - the id of the key being revoked
-revoke-key-already-revoked = The key 0x{ $keyId } has already been revoked.
+revoke-key-already-revoked = 鍵 0x{ $keyId } は既に失効しています。
 
-key-man-button-revoke-key = &Revoke Key
+key-man-button-revoke-key = 鍵を失効(&R)
 
-openpgp-key-revoke-success = Key successfully revoked.
+openpgp-key-revoke-success = 鍵を失効させました。
 
 after-revoke-info =
-    The key has been revoked.
-    Share this public key again, by sending it by email, or by uploading it to keyservers, to let others know that you revoked your key.
-    As soon as the software used by other people learns about the revocation, it will stop using your old key.
-    If you are using a new key for the same email address, and you attach the new public key to emails you send, then information about your revoked old key will be automatically included.
+    鍵は正常に失効されました。
+    メールで送信する、鍵サーバーへアップロードするなどして、この公開鍵を再度通信相手と共有してください。そうすることにより、あなたの鍵が失効していることが周知されます。
+    ソフトウェアが失効証明書を認識すると、あなたの古い鍵の利用を停止するでしょう。
+    同じメールアドレスに対する新しい鍵を利用しているのであれば、新しい公開鍵を添付してメッセージを送信することで、失効した古い鍵についての情報も周知されます。
 
 # Strings in keyRing.jsm & decryption.jsm
-key-man-button-import = &Import
+key-man-button-import = @@ImportNoun@@(&I)
 
-delete-key-title = Delete OpenPGP Key
+delete-key-title = OpenPGP 鍵を削除
 
-delete-external-key-title = Remove the External GnuPG Key
+delete-external-key-title = 外部 GnuPG 鍵を除去
 
-delete-external-key-description = Do you want to remove this External GnuPG key ID?
+delete-external-key-description = この外部 GnuPG 鍵 ID を除去しますか？
 
-key-in-use-title = OpenPGP Key currently in use
+key-in-use-title = 利用中の OpenPGP 鍵です
 
-delete-key-in-use-description = Unable to proceed! The Key you selected for deletion is currently being used by this identity. Select a different key, or select none, and try again.
+delete-key-in-use-description = 処理を進められません！削除のために選択した鍵はこの差出人で現在利用中です。違う鍵を選択するか、何も選択せずにもう一度試してください。
 
-revoke-key-in-use-description = Unable to proceed! The Key you selected for revocation is currently being used by this identity. Select a different key, or select none, and try again.
+revoke-key-in-use-description = 処理を進められません！失効のために選択した鍵はこの差出人で現在利用中です。違う鍵を選択するか、何も選択せずにもう一度試してください。
 
 # Strings used in errorHandling.jsm
-key-error-key-spec-not-found = The email address '{ $keySpec }' cannot be matched to a key on your keyring.
-key-error-key-id-not-found = The configured key ID '{ $keySpec }' cannot be found on your keyring.
-key-error-not-accepted-as-personal = You have not confirmed that the key with ID '{ $keySpec }' is your personal key.
+key-error-key-spec-not-found = メールアドレス '{ $keySpec }' に適合する鍵が鍵束の中にありません。
+key-error-key-id-not-found = 指定された鍵 ID '{ $keySpec }' が鍵束の中にありません
+key-error-not-accepted-as-personal = ID '{ $keySpec }' の鍵があなたの個人鍵であると確認していません。
 
 # Strings used in enigmailKeyManager.js & windows.jsm
-need-online = The function you have selected is not available in offline mode. Please go online and try again.
+need-online = 選択された機能はオフラインモードでは使用できません。オンラインでもう一度試してください。
 
 # Strings used in keyRing.jsm & keyLookupHelper.jsm
-no-key-found = We could not find any key matching the specified search criteria.
+no-key-found = 指定された検索条件に適合する鍵を見つけられませんでした。
 
 # Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-fail-key-extract = Error - key extraction command failed
+fail-key-extract = エラー - 鍵の展開コマンドに失敗しました
 
 # Strings used in keyRing.jsm
-fail-cancel = Error - Key receive cancelled by user
-not-first-block = Error - First OpenPGP block not public key block
-import-key-confirm = Import public key(s) embedded in message?
-fail-key-import = Error - key importing failed
-file-write-failed = Failed to write to file { $output }
-no-pgp-block = Error - No valid armored OpenPGP data block found
-confirm-permissive-import = Import failed. The key you are trying to import might be corrupt or use unknown attributes. Would you like to attempt to import the parts that are correct? This might result in the import of incomplete and unusable keys.
+fail-cancel = エラー - ユーザーによって鍵サーバーからの鍵の@@ImportNoun@@が中止されました
+not-first-block = エラー - 最初の OpenPGP ブロックは公開鍵ではありません
+import-key-confirm = メッセージ中に埋め込まれた鍵を@@Import-simasu@@ますか？
+fail-key-import = エラー - 鍵の@@ImportNoun@@に失敗しました
+file-write-failed = ファイル { $output } への書き出しに失敗しました
+no-pgp-block = エラー - 有効な OpenPGP データブロックが見つかりません
+confirm-permissive-import = @@ImportNoun@@に失敗しました。@@ImportNoun@@を試みた鍵は破損しているか、未知の属性が使われています。正常な部分のみの@@ImportNoun@@を試みますか？この場合、@@ImportNoun@@が完了しない、あるいは利用できない鍵となる可能性があります。
 
 # Strings used in trust.jsm
-key-valid-unknown = unknown
-key-valid-invalid = invalid
-key-valid-disabled = disabled
-key-valid-revoked = revoked
-key-valid-expired = expired
-key-trust-untrusted = untrusted
-key-trust-marginal = marginal
-key-trust-full = trusted
-key-trust-ultimate = ultimate
-key-trust-group = (group)
+key-valid-unknown = 未知
+key-valid-invalid = 不正
+key-valid-disabled = 無効化
+key-valid-revoked = 失効
+key-valid-expired = 有効期限切れ
+key-trust-untrusted = 信用していない
+key-trust-marginal = 最低限の信用
+key-trust-full = 完全な信用
+key-trust-ultimate = 絶対的な信用
+key-trust-group = (グループ)
 
 # Strings used in commonWorkflows.js
-import-key-file = Import OpenPGP Key File
-import-rev-file = Import OpenPGP Revocation File
-gnupg-file = GnuPG Files
-import-keys-failed=Importing the keys failed
-passphrase-prompt = Please enter the passphrase that unlocks the following key: { $key }
-file-to-big-to-import = This file is too big. Please don't import a large set of keys at once.
+import-key-file = OpenPGP 鍵ファイルを@@Import@@
+import-rev-file = OpenPGP 失効証明書ファイルを@@Import@@
+gnupg-file = GnuPG ファイル
+import-keys-failed = 鍵の@@ImportNoun@@に失敗しました
+passphrase-prompt = 以下の鍵のロックを解除するため、パスフレーズを入力してください: { $key }
+file-to-big-to-import = ファイルが大きすぎます。たくさんの鍵を一度に@@Import-sinai@@でください。
 
 # Strings used in enigmailKeygen.js
-save-revoke-cert-as = Create & Save Revocation Certificate
-revoke-cert-ok = The revocation certificate has been successfully created. You can use it to invalidate your public key, e.g. in case you would lose your secret key.
-revoke-cert-failed = The revocation certificate could not be created.
-gen-going = Key generation already in progress!
-keygen-missing-user-name = There is no name specified for the selected account/identity. Please enter a value in the field  "Your name" in the account settings.
-expiry-too-short = Your key must be valid for at least one day.
-expiry-too-long = You cannot create a key that expires in more than 100 years.
-key-confirm = Generate public and secret key for '{ $id }'?
-key-man-button-generate-key = &Generate Key
-key-abort = Abort key generation?
-key-man-button-generate-key-abort = &Abort Key Generation
-key-man-button-generate-key-continue = &Continue Key Generation
+save-revoke-cert-as = 失効証明書を生成して保存
+revoke-cert-ok = 失効証明書は正常に生成されました。秘密鍵をなくした場合など、公開鍵を無効化するときに利用できます。
+revoke-cert-failed = 失効証明書を生成できませんでした。
+gen-going = 鍵を生成中です！
+keygen-missing-user-name = 選択されたアカウントまたは差出人の名前が設定されていません。アカウント設定の @@[@@あなたの名前@@]@@ フィールドに名前を入力してください。
+expiry-too-short = 有効期限を 1 日以内に設定することはできません。
+expiry-too-long = 有効期限を 100 年以上先に設定することはできません。
+key-confirm = '{ $id }' の公開鍵と秘密鍵を生成しますか？
+key-man-button-generate-key = 鍵を生成(&G)
+key-abort = 鍵の生成を中止しますか？
+key-man-button-generate-key-abort = 鍵の生成を中止(&A)
+key-man-button-generate-key-continue = 鍵の生成を継続(&C)
 
 # Strings used in enigmailMessengerOverlay.js
-failed-decrypt = Error - decryption failed
-fix-broken-exchange-msg-failed = Did not succeed to repair message.
-attachment-no-match-from-signature = Could not match signature file '{ $attachment }' to an attachment
-attachment-no-match-to-signature = Could not match attachment '{ $attachment }' to a signature file
-signature-verified-ok = The signature for attachment { $attachment } was successfully verified
-signature-verify-failed = The signature for attachment { $attachment } could not be verified
+failed-decrypt = エラー - 復号に失敗しました
+fix-broken-exchange-msg-failed = メッセージを修復できませんでした。
+attachment-no-match-from-signature = 署名ファイル '{ $attachment }' は添付ファイルに適合しませんでした
+attachment-no-match-to-signature = 添付ファイル '{ $attachment }' は署名ファイルに適合しませんでした
+signature-verified-ok = 添付ファイル '{ $attachment }' の署名は正常に検証されました
+signature-verify-failed = 添付ファイル '{ $attachment }' の署名を検証できませんでした
 decrypt-ok-no-sig =
-    Warning
-    Decryption was successful, but the signature could not be verified correctly
-msg-ovl-button-cont-anyway = &Continue Anyway
+    警告
+    復号は成功しましたが、署名を正常に検証できませんでした
+msg-ovl-button-cont-anyway = それでも続行する(&C)
 enig-content-note = *Attachments to this message have not been signed nor encrypted*
 
 # Strings used in enigmailMsgComposeOverlay.js
-msg-compose-button-send = &Send Message
-msg-compose-details-button-label = Details…
+msg-compose-button-send = メッセージを送信(&S)
+msg-compose-details-button-label = 詳細...
 msg-compose-details-button-access-key = D
-send-aborted = Send operation aborted.
-key-not-trusted = Not enough trust for key '{ $key }'
-key-not-found = Key '{ $key }' not found
-key-revoked = Key '{ $key }' revoked
-key-expired = Key '{ $key }' expired
-msg-compose-internal-error = An internal error has occurred.
-keys-to-export = Select OpenPGP Keys to Insert
+send-aborted = 送信を中止しました。
+key-not-trusted = 鍵 '{ $key }' の信用度が不足しています
+key-not-found = 鍵 '{ $key }' が見つかりません
+key-revoked = 鍵 '{ $key }' は失効しています
+key-expired = 鍵 '{ $key }' は有効期限切れです
+msg-compose-internal-error = 内部エラーが発生しました。
+keys-to-export = @@Export-suru@@ OpenPGP 鍵を選択
 msg-compose-partially-encrypted-inlinePGP =
-    The message you are replying to contained both unencrypted and encrypted parts. If the sender was not able to decrypt some message parts originally, you may be leaking confidential information that the sender was not able to originally decrypt themselves.
-    Please consider removing all quoted text from your reply to this sender.
-msg-compose-cannot-save-draft = Error while saving draft
-msg-compose-partially-encrypted-short = Beware of leaking sensitive information - partially encrypted email.
+    あなたが返信しようとしているメッセージには、暗号化されている部分と暗号化されていない部分があります。元のメッセージの送信者が暗号化されている部分を復号できていない場合、あなたがこのメッセージに返信することで元の送信者が復号できなかった機密情報の漏洩につながる可能性があります。
+    返信メッセージから、引用部をすべて除去することを検討ください。
+msg-compose-cannot-save-draft = 下書きを暗号化して保存する際にエラーが発生しました
+msg-compose-partially-encrypted-short = 機密情報の漏洩に注意してください - 部分的に暗号化されたメッセージです。
 quoted-printable-warn =
-    You have enabled 'quoted-printable' encoding for sending messages. This may result in incorrect decryption and/or verification of your message.
-    Do you wish to turn off sending 'quoted-printable' messages now?
+    'quoted-printable' エンコーディングが送信メッセージに対して有効になっています。 これにより、暗号化や署名の検証の動作に悪影響を及ぼす可能性があります。
+    今すぐ 'quoted-printable' エンコーディングを無効にしますか？
 minimal-line-wrapping =
-    You have set line wrapping to { $width } characters. For correct encryption and/or signing, this value needs to be at least 68.
-    Do you wish to change line wrapping to 68 characters now?
-sending-hidden-rcpt = BCC (blind copy) recipients cannot be used when sending an encrypted message. To send this encrypted message, either remove the BCC recipients or move them to the CC field.
+    { $width } 文字で改行する設定になっています。正しい暗号化および署名には、少なくとも 68 文字で改行する必要があります。
+    今すぐ 68 文字での改行に変更しますか？
+sending-hidden-rcpt = 暗号化メッセージを送信するときは Bcc に受信者を指定することはできません。暗号化メッセージを送信するには、受信者を Bcc フィールドから削除するか Cc フィールドへ移動してください。
 sending-news =
-    Encrypted send operation aborted.
-    This message cannot be encrypted because there are newsgroup recipients. Please re-send the message without encryption.
+    暗号化メッセージの送信を中止しました。
+    ニュースグループの宛先が含まれるためこのメッセージは暗号化できませんでした。暗号化を行わずにもう一度送信してください。
 send-to-news-warning =
-    Warning: you are about to send an encrypted email to a newsgroup.
-    This is discouraged because it only makes sense if all members of the group can decrypt the message, i.e. the message needs to be encrypted with the keys of all group participants. Please send this message only if you know exactly what you are doing.
-    Continue?
-save-attachment-header = Save decrypted attachment
+    警告: ニュースグループ宛に暗号化メッセージを送信しようとしています。
+    購読者全員の鍵で暗号化されているなど購読者全員が暗号化メッセージを復号できる環境にない限り、ニュースグループ宛に暗号化メッセージを送信することに意味はありません。そのような状況にあると確認できる場合のみこのメッセージを送信してください。
+    継続しますか？
+save-attachment-header = 復号した添付ファイルを保存
 no-temp-dir =
-    Could not find a temporary directory to write to
-    Please set the TEMP environment variable
-possibly-pgp-mime = Possibly PGP/MIME encrypted or signed message; use 'Decrypt/Verify' function to verify
-cannot-send-sig-because-no-own-key = Cannot digitally sign this message, because you haven't yet configured end-to-end encryption for <{ $key }>
-cannot-send-enc-because-no-own-key = Cannot send this message encrypted, because you haven't yet configured end-to-end encryption for <{ $key }>
+    一時フォルダーが見つかりませんでした
+    TEMP 環境変数を設定してください
+possibly-pgp-mime = おそらく PGP/MIME 形式で暗号化あるいは署名されたメッセージです。'復号/検証' 機能で検証してください
+cannot-send-sig-because-no-own-key = このメッセージにデジタル署名できませんでした。<{ $key }> のためのエンドツーエンド暗号化が設定されていません
+cannot-send-enc-because-no-own-key = このメッセージを暗号化できませんでした。<{ $key }> のためのエンドツーエンド暗号化が設定されていません
 
 # Strings used in decryption.jsm
 do-import-multiple =
-    Import the following keys?
+    以下の鍵を@@Import-simasu@@か？
     { $key }
-do-import-one = Import { $name } ({ $id })?
-cant-import = Error importing public key
-unverified-reply = Indented message part (reply) was probably modified
-key-in-message-body = A key was found in the message body. Click 'Import Key' to import the key
-sig-mismatch = Error - Signature mismatch
-invalid-email = Error - invalid email address(es)
+do-import-one = { $name } ({ $id }) を@@Import-simasu@@か？
+cant-import = 公開鍵の@@ImportNoun@@中にエラーが発生しました
+unverified-reply = インデントされた (返信) 部分がおそらく変更されています
+key-in-message-body = メッセージ中に鍵が含まれています。@@[@@鍵@@-ImportCMD@@@@]@@ をクリックして鍵を@@Import-site@@ください
+sig-mismatch = エラー - 署名が一致しません
+invalid-email = エラー - 無効なメールアドレスです
 attachment-pgp-key =
-    The attachment '{ $name }' you are opening appears to be an OpenPGP key file.
-    Click 'Import' to import the keys contained or 'View' to view the file contents in a browser window
-dlg-button-view = &View
+    開こうとしている添付ファイル '{ $name }' は OpenPGP 鍵ファイルです。
+    @@[@@@@ImportNoun@@@@]@@ をクリックして鍵を@@Import-suru@@か、@@[@@表示@@]@@ をクリックしてファイルの内容を@@Window@@に表示してください
+dlg-button-view = 表示(&V)
 
 # Strings used in enigmailMsgHdrViewOverlay.js
-decrypted-msg-with-format-error = Decrypted message (restored broken PGP email format probably caused by an old Exchange server, so that the result might not be perfect to read)
+decrypted-msg-with-format-error = 復号されたメッセージ (古い Exchange サーバーによる PGP フォーマットの破損を修復しているため、復号結果を正しく読むことができない可能性があります)
 
 # Strings used in encryption.jsm
-not-required = Error - no encryption required
+not-required = エラー - 暗号化は必要ありません
 
 # Strings used in windows.jsm
-no-photo-available = No Photo available
-error-photo-path-not-readable = Photo path '{ $photo }' is not readable
-debug-log-title = OpenPGP Debug Log
+no-photo-available = 写真は利用できません
+error-photo-path-not-readable = 写真へのパス '{ $photo }' は読み込めません
+debug-log-title = OpenPGP デバッグログ
 
 # Strings used in dialog.jsm
-repeat-prefix = This alert will repeat { $count }
-repeat-suffix-singular = more time.
-repeat-suffix-plural = more times.
-no-repeat = This alert will not be shown again.
-dlg-keep-setting = Remember my answer and do not ask me again
+repeat-prefix = この警告は { $count }
+repeat-suffix-singular = 回繰り返されます。
+repeat-suffix-plural = 回繰り返されます。
+no-repeat = この警告は繰り返されません。
+dlg-keep-setting = 設定を保存し、次回から尋ねません
 dlg-button-ok = &OK
-dlg-button-close = &Close
-dlg-button-cancel = &Cancel
-dlg-no-prompt = Do not show me this dialog again
-enig-prompt = OpenPGP Prompt
-enig-confirm = OpenPGP Confirmation
-enig-alert = OpenPGP Alert
-enig-info = OpenPGP Information
+dlg-button-close = 閉じる(&C)
+dlg-button-cancel = キャンセル(&C)
+dlg-no-prompt = このダイアログを再度表示しません
+enig-prompt = OpenPGP プロンプト
+enig-confirm = OpenPGP 確認
+enig-alert = OpenPGP 警告
+enig-info = OpenPGP 情報
 
 # Strings used in persistentCrypto.jsm
-dlg-button-retry = &Retry
-dlg-button-skip = &Skip
+dlg-button-retry = 再試行(&R)
+dlg-button-skip = スキップ(&S)
 
 # Strings used in enigmailCommon.js
-enig-error = OpenPGP Error
+enig-error = OpenPGP エラー
 enig-alert-title =
-    .title = OpenPGP Alert
+    .title = OpenPGP 警告

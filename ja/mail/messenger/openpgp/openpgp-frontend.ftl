@@ -3,62 +3,62 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 openpgp-manage-keys-openpgp-cmd =
-    .label = OpenPGP Key Manager
+    .label = OpenPGP 鍵マネージャー
     .accesskey = O
 
 openpgp-ctx-decrypt-open =
-    .label = Decrypt and Open
+    .label = 復号して開く
     .accesskey = D
 openpgp-ctx-decrypt-save =
-    .label = Decrypt and Save As…
+    .label = 復号して@@SaveAs@@...
     .accesskey = C
 openpgp-ctx-import-key =
-    .label = Import OpenPGP Key
+    .label = OpenPGP 鍵@@-ImportCMD@@
     .accesskey = I
 openpgp-ctx-verify-att =
-    .label = Verify Signature
+    .label = 署名を検証
     .accesskey = V
 
-openpgp-has-sender-key = This message claims to contain the sender's OpenPGP public key.
+openpgp-has-sender-key = このメッセージには送信者の OpenPGP 公開鍵が含まれています。
 openpgp-be-careful-new-key =
-    Warning: The new OpenPGP public key in this message differs from the public keys that you previously accepted for { $email }.
+    警告: このメッセージに含まれる新しい OpenPGP 公開鍵は、 { $email } のものとしてあなたが以前に受け入れた公開鍵と異なります。
 
 openpgp-import-sender-key =
-    .label = Import…
+    .label = @@Import@@...
 
 openpgp-search-keys-openpgp =
-    .label = Discover OpenPGP Key
+    .label = OpenPGP 鍵を検索
 
-openpgp-missing-signature-key = This message was signed with a key that you don't yet have.
+openpgp-missing-signature-key = このメッセージはあなたが所有していない鍵で署名されています。
 
 openpgp-search-signature-key =
-    .label = Discover…
+    .label = 検索...
 
 # Don't translate the terms "OpenPGP" and "MS-Exchange"
-openpgp-broken-exchange-info = This is an OpenPGP message that was apparently corrupted by MS-Exchange. If the message contents isn't shown as expected, you can try an automatic repair.
+openpgp-broken-exchange-info = このメッセージは、おそらく MS-Exchange によって破損した OpenPGP メッセージです。メッセージの内容が意図したものでない場合、自動修復を試みることができます。
 openpgp-broken-exchange-repair =
-    .label = Repair message
-openpgp-broken-exchange-wait = Please wait…
+    .label = メッセージを修復
+openpgp-broken-exchange-wait = しばらくお待ちください...
 
 openpgp-cannot-decrypt-because-mdc =
-    This is an encrypted message that uses an old and vulnerable mechanism.
-    It could have been modified while in transit, with the intention to steal its contents.
-    To prevent this risk, the contents are not shown.
+    これは、古く脆弱性のあるメカニズムによって暗号化されたメッセージです。
+    そのため、メッセージの内容を傍受するために通信途中で書き換えられているおそれがあります。
+    この危険性を回避するため、メッセージの内容は表示されません。
 
 openpgp-cannot-decrypt-because-missing-key =
-    The secret key that is required to decrypt this message is not available.
+    このメッセージの復号のために必要な鍵は利用できません。
 
 openpgp-partially-signed =
-    Only a subset of this message was digitally signed using OpenPGP.
-    If you click the verify button, the unprotected parts will be hidden, and the status of the digital signature will be shown.
+    このメッセージの一部のみが OpenPGP によってデジタル署名されています。
+    検証ボタンをクリックすると、保護されていない部分が隠され、デジタル署名の状態が表示されます。
 
 openpgp-partially-encrypted =
-    Only a subset of this message was encrypted using OpenPGP.
-    The readable parts of the message that are already shown were not encrypted.
-    If you click the decrypt button, the contents of the encrypted parts will be shown.
+    このメッセージの一部のみが OpenPGP によって暗号化されています。
+    既に表示されているメッセージの可読部分は暗号化されていません。
+    復号ボタンをクリックすると、暗号化された部分の内容が表示されます。
 
-openpgp-reminder-partial-display = Reminder: The message shown below is only a subset of the original message.
+openpgp-reminder-partial-display = 注意: 以下に表示されているメッセージは元のメッセージの一部のみです。
 
-openpgp-partial-verify-button = Verify
-openpgp-partial-decrypt-button = Decrypt
+openpgp-partial-verify-button = 検証
+openpgp-partial-decrypt-button = 復号
 

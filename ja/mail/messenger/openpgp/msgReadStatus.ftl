@@ -3,32 +3,32 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 openpgp-view-signer-key =
-    .label = View signer key
+    .label = 署名者の鍵を表示
 openpgp-view-your-encryption-key =
-    .label = View your decryption key
+    .label = あなたの復号鍵を表示
 openpgp-openpgp = OpenPGP
 
-openpgp-no-sig = No Digital Signature
-openpgp-uncertain-sig = Uncertain Digital Signature
-openpgp-invalid-sig = Invalid Digital Signature
-openpgp-good-sig = Good Digital Signature
+openpgp-no-sig = デジタル署名がありません
+openpgp-uncertain-sig = 不確実なデジタル署名です
+openpgp-invalid-sig = デジタル署名が正しくありません
+openpgp-good-sig = メッセージは署名されています
 
-openpgp-sig-uncertain-no-key = This message contains a digital signature, but it is uncertain if it is correct. To verify the signature, you need to obtain a copy of the sender's public key.
-openpgp-sig-uncertain-uid-mismatch = This message contains a digital signature, but a mismatch was detected. The message was sent from an email address that doesn't match the signer's public key.
-openpgp-sig-uncertain-not-accepted = This message contains a digital signature, but you haven't yet decided if the signer's key is acceptable to you.
-openpgp-sig-invalid-rejected = This message contains a digital signature, but you have previously decided to reject the signer key.
-openpgp-sig-invalid-technical-problem = This message contains a digital signature, but a technical error was detected. Either the message has been corrupted, or the message has been modified by someone else.
-openpgp-sig-valid-unverified = This message includes a valid digital signature from a key that you have already accepted. However, you have not yet verified that the key is really owned by the sender.
-openpgp-sig-valid-verified = This message includes a valid digital signature from a verified key.
-openpgp-sig-valid-own-key = This message includes a valid digital signature from your personal key.
+openpgp-sig-uncertain-no-key = このメッセージにはデジタル署名が含まれていますが、正当な署名か検証できません。署名を検証するには、送信者の公開鍵のコピーを入手する必要があります。
+openpgp-sig-uncertain-uid-mismatch = このメッセージにはデジタル署名が含まれていますが、署名が一致しません。このメッセージは署名者の公開鍵とは一致しないメールアドレスから送信されています。
+openpgp-sig-uncertain-not-accepted = このメッセージにはデジタル署名が含まれていますが、署名者の鍵を受け入れるかまだ決定されていません。
+openpgp-sig-invalid-rejected = このメッセージにはデジタル署名が含まれていますが、署名者の鍵は既に拒絶されています。
+openpgp-sig-invalid-technical-problem = このメッセージにはデジタル署名が含まれていますが、技術的エラーが検出されました。メッセージが破損しているか、第三者によってメッセージが書き換えられています。
+openpgp-sig-valid-unverified = このメッセージにはあなたが受け入れた鍵による有効な署名が含まれていますが、その鍵が送信者のものであるか検証されていません。
+openpgp-sig-valid-verified = このメッセージには検証済みの鍵による有効な署名が含まれています。
+openpgp-sig-valid-own-key = このメッセージにはあなたの個人鍵による有効な署名が含まれています。
 
-openpgp-sig-key-id = Signer key ID: { $key }
-openpgp-sig-key-id-with-subkey-id = Signer key ID: { $key } (Sub key ID: { $subkey })
+openpgp-sig-key-id = 署名者の鍵 ID: { $key }
+openpgp-sig-key-id-with-subkey-id = 署名者の鍵 ID: { $key } (副鍵 ID: { $subkey })
 
-openpgp-enc-key-id = Your decryption key ID: { $key }
-openpgp-enc-key-with-subkey-id = Your decryption key ID: { $key } (Sub key ID: { $subkey })
+openpgp-enc-key-id = あなたの復号鍵 ID: { $key }
+openpgp-enc-key-with-subkey-id = あなたの復号鍵 ID: { $key } (副鍵 ID: { $subkey })
 
-openpgp-unknown-key-id = Unknown key
+openpgp-unknown-key-id = 未知の鍵
 
-openpgp-other-enc-additional-key-ids = In addition, the message was encrypted to the owners of the following keys:
-openpgp-other-enc-all-key-ids = The message was encrypted to the owners of the following keys:
+openpgp-other-enc-additional-key-ids = また、メッセージは以下の鍵の所有者に向けて暗号化されました:
+openpgp-other-enc-all-key-ids = メッセージは以下の鍵の所有者に向けて暗号化されました:
