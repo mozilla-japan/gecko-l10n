@@ -171,8 +171,9 @@ full-zoom-enlarge-shortcut =
 full-zoom-enlarge-shortcut-alt =
     .key = =
 
+# jisキーボードでは + を入力するときにshiftを同時押ししなければならないため ; でも拡大できるようにする
 full-zoom-enlarge-shortcut-alt2 =
-    .key = {""}
+    .key = ;
 
 full-zoom-reset-shortcut =
     .key = 0
