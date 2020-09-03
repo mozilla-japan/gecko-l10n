@@ -10,8 +10,6 @@ search-header =
     .searchbuttonlabel = 検索
 search-header-shortcut =
     .key = f
-loading-label =
-    .value = 読み込み中...
 list-empty-installed =
     .value = この種類のアドオンはインストールされていません
 list-empty-available-updates =
@@ -22,9 +20,6 @@ list-empty-find-updates =
     .label = 更新を確認
 list-empty-button =
     .label = アドオンについて知る
-install-addon-from-file =
-    .label = ファイルからアドオンをインストール...
-    .accesskey = I
 help-button = アドオンのサポート
 sidebar-help-button-title =
     .title = アドオンのサポート
@@ -33,8 +28,6 @@ preferences =
         [windows] { -brand-short-name } オプション
        *[other] { -brand-short-name } 設定
     }
-tools-menu =
-    .tooltiptext = アドオンツール
 sidebar-preferences-button-title =
     .title =
         { PLATFORM() ->
@@ -45,9 +38,6 @@ show-unsigned-extensions-button =
     .label = 一部の拡張機能を検証できませんでした
 show-all-extensions-button =
     .label = すべての拡張機能を表示
-debug-addons =
-    .label = アドオンをデバッグ
-    .accesskey = B
 cmd-show-details =
     .label = 詳細情報を表示
     .accesskey = S
@@ -78,9 +68,6 @@ cmd-contribute =
     .label = 寄付
     .accesskey = C
     .tooltiptext = このアドオンの開発者に寄付します
-discover-title = アドオンとは何ですか？
-discover-description = アドオンは、あなたに合わせて { -brand-short-name } に機能を追加したり { -brand-short-name } のスタイルを変えたりするものです。各種のサイドバーや天気予報、テーマなどをインストールして、あなただけの { -brand-short-name } に作り変えてみてください。
-discover-footer = インターネットに接続されていれば、この画面で人気のアドオンを紹介します。ぜひ、お試しください。
 detail-version =
     .label = バージョン
 detail-last-updated =
@@ -102,15 +89,12 @@ detail-update-manual =
     .tooltiptext = 更新を手動でインストールします
 # Used as a description for the option to allow or block an add-on in private windows.
 detail-private-browsing-label = プライベート@@Window@@での実行
-detail-private-browsing-description2 = 許可した場合、プライベートブラウジング中でも拡張機能がユーザーのオンライン行動にアクセスできます。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
 # Some add-ons may elect to not run in private windows by setting incognito: not_allowed in the manifest.  This
 # cannot be overridden by the user.
 detail-private-disallowed-label = プライベート@@Window@@では許可されていません
-detail-private-disallowed-description = この拡張機能はプライベートブラウジング中は動作しません。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
 detail-private-disallowed-description2 = この拡張機能はプライベートブラウジング中は動作しません。<a data-l10n-name="learn-more">詳細情報</a>
 # Some special add-ons are privileged, run in private windows automatically, and this permission can't be revoked
 detail-private-required-label = プライベート@@Window@@へのアクセスが必要です
-detail-private-required-description = この拡張機能はプライベートブラウジング中にユーザーのオンライン行動にアクセスします。<label data-l10n-name="detail-private-browsing-learn-more">詳細情報</label>
 detail-private-required-description2 = この拡張機能はプライベートブラウジング中にユーザーのオンライン行動にアクセスします。<a data-l10n-name="learn-more">詳細情報</a>
 detail-private-browsing-on =
     .label = 許可する
@@ -166,15 +150,6 @@ private-browsing-description2 =
     拡張機能の設定で有効にしない限り、プライベートブラウジング中は拡張機能が動作せず、ユーザーのオンライン行動にもアクセスできません。
     この変更は、ユーザーのプライベートブラウジングの秘密を守るために行われました。
     <label data-l10n-name="private-browsing-learn-more">拡張機能の設定を管理する方法について学ぶ</label>
-extensions-view-discopane =
-    .name = おすすめ
-    .tooltiptext = { extensions-view-discopane.name }
-extensions-view-recent-updates =
-    .name = 最近の更新
-    .tooltiptext = { extensions-view-recent-updates.name }
-extensions-view-available-updates =
-    .name = 更新可能
-    .tooltiptext = { extensions-view-available-updates.name }
 addon-category-discover = おすすめ
 addon-category-discover-title =
     .title = おすすめ
@@ -202,24 +177,6 @@ addon-category-recent-updates-title =
 
 ## These are global warnings
 
-extensions-warning-safe-mode-label =
-    .value = セーフモードによりすべてのアドオンが無効化されています。
-extensions-warning-safe-mode-container =
-    .tooltiptext = { extensions-warning-safe-mode-label.value }
-extensions-warning-check-compatibility-label =
-    .value = アドオンの互換性確認は無効化されています。互換性のないアドオンがインストールされています。
-extensions-warning-check-compatibility-container =
-    .tooltiptext = { extensions-warning-check-compatibility-label.value }
-extensions-warning-check-compatibility-enable =
-    .label = 有効化
-    .tooltiptext = アドオンの互換性の確認を有効化します
-extensions-warning-update-security-label =
-    .value = 更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。
-extensions-warning-update-security-container =
-    .tooltiptext = { extensions-warning-update-security-label.value }
-extensions-warning-update-security-enable =
-    .label = 有効化
-    .tooltiptext = アドオンの更新のセキュリティ確認を有効化します
 extensions-warning-safe-mode = セーフモードによりすべてのアドオンが無効化されています。
 extensions-warning-check-compatibility = アドオンの互換性確認は無効化されています。互換性のないアドオンがインストールされています。
 extensions-warning-check-compatibility-button = 有効化
@@ -230,12 +187,6 @@ extensions-warning-update-security-button = 有効化
 
 ## Strings connected to add-on updates
 
-extensions-updates-check-for-updates =
-    .label = 今すぐ更新を確認
-    .accesskey = C
-extensions-updates-view-updates =
-    .label = 最近更新したアドオンを表示
-    .accesskey = V
 addon-updates-check-for-updates = 今すぐ更新を確認
     .accesskey = C
 addon-updates-view-updates = 最近更新したアドオンを表示
@@ -244,9 +195,6 @@ addon-updates-view-updates = 最近更新したアドオンを表示
 # This menu item is a checkbox that toggles the default global behavior for
 # add-on update checking.
 
-extensions-updates-update-addons-automatically =
-    .label = アドオンを自動的に更新
-    .accesskey = A
 addon-updates-update-addons-automatically = アドオンを自動的に更新
     .accesskey = A
 
@@ -256,12 +204,6 @@ addon-updates-update-addons-automatically = アドオンを自動的に更新
 ## (which itself is either "Automatically" or "Manually", controlled by the
 ## extensions-updates-update-addons-automatically.label menu item).
 
-extensions-updates-reset-updates-to-automatic =
-    .label = すべてのアドオンを自動的に更新
-    .accesskey = R
-extensions-updates-reset-updates-to-manual =
-    .label = すべてのアドオンを手動で更新
-    .accesskey = R
 addon-updates-reset-updates-to-automatic = すべてのアドオンを自動的に更新
     .accesskey = R
 addon-updates-reset-updates-to-manual = すべてのアドオンを手動で更新
@@ -269,21 +211,6 @@ addon-updates-reset-updates-to-manual = すべてのアドオンを手動で更�
 
 ## Status messages displayed when updating add-ons
 
-extensions-updates-updating =
-    .value = 更新を確認しています
-extensions-updates-installed =
-    .value = アドオンが更新されました。
-extensions-updates-downloaded =
-    .value = アドオンの更新がダウンロードされました。
-extensions-updates-restart =
-    .label = 再起動して更新を完了してください
-extensions-updates-none-found =
-    .value = 更新は見つかりませんでした
-extensions-updates-manual-updates-found =
-    .label = 更新可能なアドオンを表示
-extensions-updates-update-selected =
-    .label = 更新をインストール
-    .tooltiptext = このリストの更新可能なアドオンをインストールします
 addon-updates-updating = 更新を確認しています
 addon-updates-installed = アドオンが更新されました。
 addon-updates-none-found = 更新は見つかりませんでした
@@ -300,9 +227,6 @@ addon-open-about-debugging = アドオンをデバッグ
 
 ## Extension shortcut management
 
-manage-extensions-shortcuts =
-    .label = 拡張機能のショートカットキーの管理
-    .accesskey = S
 # This is displayed in the page options menu
 addon-manage-extensions-shortcuts = 拡張機能のショートカットキーの管理
     .accesskey = S
@@ -310,7 +234,6 @@ shortcuts-no-addons = 有効な拡張機能がありません。
 shortcuts-no-commands = 次の拡張機能にはショートカットがありません:
 shortcuts-input =
     .placeholder = ショートカットキーを入力してください
-shortcuts-browserAction = 拡張機能を有効化
 shortcuts-browserAction2 = ツールバーボタンを有効化
 shortcuts-pageAction = ページ操作を有効化
 shortcuts-sidebarAction = サイドバーの表示を切り替え
@@ -334,8 +257,6 @@ shortcuts-card-expand-button =
        *[other] さらに { $numberToShow } 個表示
     }
 shortcuts-card-collapse-button = 折りたたむ
-go-back-button =
-    .tooltiptext = 前のページへ戻ります
 header-back-button =
     .title = 前のページへ戻ります
 
@@ -381,7 +302,6 @@ remove-addon-button = 削除
 remove-addon-disabled-button = 削除不可の <a data-l10n-name="link">理由</a>
 disable-addon-button = 無効化
 enable-addon-button = 有効化
-expand-addon-button = 他のオプション
 # This is used for the toggle on the extension card, it's a checkbox and this
 # is always its label.
 extension-enable-addon-button-label =
@@ -394,8 +314,6 @@ preferences-addon-button =
 details-addon-button = 詳細
 release-notes-addon-button = リリースノート
 permissions-addon-button = 許可設定
-addons-enabled-heading = 有効
-addons-disabled-heading = 無効
 extension-enabled-heading = 有効
 extension-disabled-heading = 無効
 theme-enabled-heading = 有効
@@ -414,6 +332,11 @@ addon-detail-version-label = バージョン
 addon-detail-last-updated-label = 最終更新日
 addon-detail-homepage-label = ホームページ
 addon-detail-rating-label = 評価
+
+# Message for add-ons with a staged pending update.
+install-postponed-message = この拡張機能は { -brand-short-name } の再起動時に更新されます。
+install-postponed-button = 今すぐ更新
+
 # The average rating that the add-on has received.
 # Variables:
 #   $rating (number) - A number between 0 and 5. The translation should show at most one digit after the comma.
@@ -442,21 +365,12 @@ addon-detail-update-check-label = 更新の確認
 install-update-button = 更新
 # This is the tooltip text for the private browsing badge in about:addons. The
 # badge is the private browsing icon included next to the extension's name.
-addon-badge-private-browsing-allowed =
-    .title = プライベート@@Window@@での実行
-# This is the tooltip text for the private browsing badge in about:addons. The
-# badge is the private browsing icon included next to the extension's name.
 addon-badge-private-browsing-allowed2 =
     .title = プライベート@@Window@@での実行
     .aria-label = { addon-badge-private-browsing-allowed2.title }
 addon-detail-private-browsing-help = 許可した場合、この拡張機能はプライベートブラウジング中であってもユーザーのオンライン行動にアクセスできます。<a data-l10n-name="learn-more">詳細情報</a>
 addon-detail-private-browsing-allow = 許可する
 addon-detail-private-browsing-disallow = 許可しない
-# This is the tooltip text for the recommended badge for an extension in about:addons. The
-# badge is a small icon displayed next to an extension when it is recommended on AMO.
-addon-badge-recommended =
-    .title = おすすめ
-    .alt = おすすめ
 # This is the tooltip text for the recommended badge for an extension in about:addons. The
 # badge is a small icon displayed next to an extension when it is recommended on AMO.
 addon-badge-recommended2 =

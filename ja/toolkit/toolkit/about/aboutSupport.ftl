@@ -75,6 +75,9 @@ show-dir-label =
         [windows] フォルダーを開く
        *[other] ディレクトリーを開く
     }
+environment-variables-title = 環境変数
+environment-variables-name = 変数名
+environment-variables-value = 値
 experimental-features-title = 実験的な機能
 experimental-features-name = 機能名
 experimental-features-value = 値
@@ -102,8 +105,6 @@ graphics-desktop-environment = デスクトップ環境
 place-database-title = Places データベース
 place-database-integrity = 完全性
 place-database-verify-integrity = 完全性を検証
-js-title = JavaScript
-js-incremental-gc = インクリメンタル GC
 a11y-title = アクセシビリティ
 a11y-activated = 有効
 a11y-force-disabled = アクセシビリティの無効化
@@ -133,7 +134,6 @@ restart-button-label = 再起動
 
 audio-backend = 音声バックエンド
 max-audio-channels = 最大チャンネル数
-channel-layout = 優先チャンネルレイアウト
 sample-rate = 優先サンプルレート
 roundtrip-latency = 往復遅延時間 (標準偏差)
 media-title = メディア
@@ -257,7 +257,6 @@ support-blocklisted-bug = 既知の問題によりブロックリストに追加
 unknown-failure = ブロックリストに掲載。失敗コード { $failureCode }
 d3d11layers-crash-guard = D3D11 コンポジター
 d3d11video-crash-guard = D3D11 動画デコーダー
-d3d9video-crash-buard = D3D9 動画デコーダー
 d3d9video-crash-guard = D3D9 動画デコーダー
 glcontext-crash-guard = OpenGL
 wmfvpxvideo-crash-guard = WMF VPX 動画デコーダー

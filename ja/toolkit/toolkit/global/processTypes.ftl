@@ -4,10 +4,6 @@
 
 process-type-web = ウェブコンテンツ
 
-# process used to run privileged pages,
-# such as about:home
-process-type-privileged = 特権コンテンツ
-
 # process used to run privileged about pages,
 # such as about:home
 process-type-privilegedabout = 特権 About ページ

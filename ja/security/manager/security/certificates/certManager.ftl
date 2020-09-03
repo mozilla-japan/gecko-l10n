@@ -211,6 +211,9 @@ cert-not-verified-ca-invalid = 認証局の証明書が無効であるため、�
 cert-not-verified_algorithm-disabled = 安全ではない署名アルゴリズムによって署名されているため、この証明書の有効性を検証できませんでした。
 cert-not-verified-unknown = 原因不明の問題により、この証明書の有効性を検証できませんでした。
 
+# Used to indicate that the user chose not to send a client authentication certificate to a server that requested one in a TLS handshake.
+send-no-client-certificate = 送信するクライアント証明書がありません。
+
 ## Add Security Exception dialog
 
 add-exception-branded-warning = { -brand-short-name } が例外的に信頼する証明書としてこのサイトの証明書を登録しようとしています。
