@@ -7,7 +7,6 @@
 cfr-doorhanger-extension-heading = おすすめの拡張機能
 cfr-doorhanger-feature-heading = おすすめの機能
 cfr-doorhanger-pintab-heading = タブのピン留めを試してみる
-
 ##
 
 cfr-doorhanger-extension-sumo-link =
@@ -37,7 +36,6 @@ cfr-doorhanger-extension-author = 作成者: { $name }
 # This is a notification displayed in the address bar.
 # When clicked it opens a panel with a message for the user.
 cfr-doorhanger-extension-notification = おすすめ
-
 cfr-doorhanger-extension-notification2 = おすすめ
   .tooltiptext = おすすめの拡張機能です
   .a11y-announcement = おすすめの拡張機能があります

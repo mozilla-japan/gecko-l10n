@@ -321,21 +321,64 @@ enable-devtools-popup-description = F12 ショートカットを使うには、�
 ## URL Bar
 
 urlbar-default-placeholder =
-    .defaultPlaceholder = URL または検索語句を入力します
+  .defaultPlaceholder = URL または検索語句を入力します
+
+# This placeholder is used when not in search mode and the user's default search
+# engine is unknown.
 urlbar-placeholder =
-    .placeholder = URL または検索語句を入力します
+  .placeholder = URL または検索語句を入力します
+
+# This placeholder is used in search mode with search engines that search the
+# entire web.
+# Variables
+#  $name (String): the name of a search engine that searches the entire Web
+#  (e.g. Google).
+urlbar-placeholder-search-mode-web-2 =
+  .placeholder = ウェブを検索します
+  .aria-label = { $name } で検索
+
+# This placeholder is used in search mode with search engines that search a
+# specific site (e.g., Amazon).
+# Variables
+#  $name (String): the name of a search engine that searches a specific site
+#  (e.g. Amazon).
+urlbar-placeholder-search-mode-other-engine =
+  .placeholder = 検索語句を入力を入力します
+  .aria-label = { $name } を検索
+
+# This placeholder is used when searching bookmarks.
+urlbar-placeholder-search-mode-other-bookmarks =
+  .placeholder = 検索語句を入力を入力します
+  .aria-label = ブックマークを検索
+
+# This placeholder is used when searching history.
+urlbar-placeholder-search-mode-other-history =
+  .placeholder = 検索語句を入力を入力します
+  .aria-label = 履歴を検索
+
+# This placeholder is used when searching open tabs.
+urlbar-placeholder-search-mode-other-tabs =
+  .placeholder = 検索語句を入力を入力します
+  .aria-label = タブを検索
+
+# Variables
+#  $name (String): the name of the user's default search engine
+urlbar-placeholder-with-name =
+  .placeholder = Search with { $name } or enter address
 urlbar-remote-control-notification-anchor =
-    .tooltiptext = ブラウザーがリモート制御下にあります
+  .tooltiptext = ブラウザーがリモート制御下にあります
 urlbar-permissions-granted =
-    .tooltiptext = このウェブサイトで追加の権限を許可しました。
+  .tooltiptext = このウェブサイトで追加の権限を許可しました。
 urlbar-switch-to-tab =
-    .value = タブを表示:
+  .value = タブを表示:
+
 # Used to indicate that a selected autocomplete entry is provided by an extension.
 urlbar-extension =
-    .value = 拡張機能:
+  .value = 拡張機能:
+
 urlbar-go-button =
-    .tooltiptext = アドレスバーに入力された URL へ移動します
+  .tooltiptext = アドレスバーに入力された URL へ移動します
 urlbar-page-action-button =
-    .tooltiptext = ページ操作
+  .tooltiptext = ページ操作
 urlbar-pocket-button =
-    .tooltiptext = { -pocket-brand-name } に保存
+  .tooltiptext = { -pocket-brand-name } に保存

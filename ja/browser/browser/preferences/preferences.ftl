@@ -8,17 +8,13 @@ do-not-track-option-default-content-blocking-known =
     .label = 既知のトラッカーをブロックする設定時のみ
 do-not-track-option-always =
     .label = 常に送る
-pref-page =
-    .title =
-        { PLATFORM() ->
-            [windows] オプション
-           *[other] 設定
-        }
+
 pref-page-title =
     { PLATFORM() ->
         [windows] オプション
        *[other] 設定
     }
+
 # This is used to determine the width of the search field in about:preferences,
 # in order to make the entire placeholder string visible
 #
@@ -87,24 +83,35 @@ restart-later = 後で再起動
 # This string is shown to notify the user that their home page
 # is being controlled by an extension.
 extension-controlled-homepage-override = 拡張機能 <img data-l10n-name="icon"/> { $name } によりホームページ設定が変更されています。
+
 # This string is shown to notify the user that their new tab page
 # is being controlled by an extension.
 extension-controlled-new-tab-url = 拡張機能 <img data-l10n-name="icon"/> { $name } により@@NewTab@@ページが変更されています。
+
+# This string is shown to notify the user that the password manager setting
+# is being controlled by an extension
+extension-controlled-password-saving = 拡張機能 <img data-l10n-name="icon"/> { $name } により、この設定が変更されています。
+
 # This string is shown to notify the user that their notifications permission
 # is being controlled by an extension.
 extension-controlled-web-notifications = 拡張機能 <img data-l10n-name="icon"/> { $name } により、この設定が変更されています。
+
 # This string is shown to notify the user that the default search engine
 # is being controlled by an extension.
 extension-controlled-default-search = 拡張機能 <img data-l10n-name="icon"/> { $name } により@@Default-@@検索エンジンが変更されています。
+
 # This string is shown to notify the user that Container Tabs
 # are being enabled by an extension.
 extension-controlled-privacy-containers = 拡張機能 <img data-l10n-name="icon"/> { $name } がコンテナータブを必要としています。
+
 # This string is shown to notify the user that their content blocking "All Detected Trackers"
 # preferences are being controlled by an extension.
 extension-controlled-websites-content-blocking-all-trackers = 拡張機能 <img data-l10n-name="icon"/> { $name } により、この設定が変更されています。
+
 # This string is shown to notify the user that their proxy configuration preferences
 # are being controlled by an extension.
 extension-controlled-proxy-config = 拡張機能 <img data-l10n-name="icon"/> { $name } が { -brand-short-name } のインターネット接続方法の設定を変更しています。
+
 # This string is shown after the user disables an extension to notify the user
 # how to enable an extension that they disabled.
 #
@@ -372,14 +379,9 @@ update-application-warning-cross-user-setting = この設定はこの端末の�
 update-application-use-service =
     .label = 更新のインストールにバックグラウンドサービスを使用する
     .accesskey = b
-update-enable-search-update =
-    .label = 検索エンジンを自動的に更新する
-    .accesskey = e
-update-pref-write-failure-title = 書き込み失敗
-# Variables:
-#   $path (String) - Path to the configuration file
-update-pref-write-failure-message = 設定を保存できません。ファイルに書き込みできません: { $path }
+
 update-setting-write-failure-title = 変更した設定の保存エラー
+
 # Variables:
 #   $path (String) - Path to the configuration file
 # The newlines between the main text and the line containing the path is
@@ -540,18 +542,21 @@ search-bar-hidden =
     .label = 検索とナビゲーションにアドレスバーを使用する
 search-bar-shown =
     .label = 検索バーをツールバーに追加する
+
 search-engine-default-header = @@Default-@@検索エンジン
-search-engine-default-desc = アドレスバーと検索バーで使用される@@Default-@@検索エンジンを選択してください。
 search-engine-default-desc-2 = アドレスバーと検索バーの@@Default-@@検索エンジンです。いつでも切り替えられます。
 search-engine-default-private-desc-2 = プライベート@@Window@@での@@Default-@@検索エンジンを選択してください
 search-separate-default-engine =
     .label = この検索エンジンをプライベート@@Window@@で使用する
     .accesskey = U
+
 search-suggestions-header = 検索候補
 search-suggestions-desc = 検索エンジンからの検索候補の表示方法を選択してください。
+
 search-suggestions-option =
     .label = 検索候補を使用する
     .accesskey = s
+
 search-show-suggestions-url-bar-option =
     .label = アドレスバーに検索候補を表示する
     .accesskey = l
@@ -588,6 +593,10 @@ search-remove-engine =
     .label = 削除
     .accesskey = R
 
+search-add-engine =
+    .label = 追加
+    .accesskey = A
+
 search-find-more-link = 他の検索エンジンを追加
 
 # This warning is displayed when the chosen keyword is already in use
@@ -600,42 +609,36 @@ search-keyword-warning-bookmark = ブックマークで使用されているキ�
 
 ## Containers Section
 
-containers-back-link = « 戻る
 containers-back-button =
     .aria-label =
-        { PLATFORM() ->
-            [windows] オプションに戻る
-           *[other] 設定に戻る
-        }
+      { PLATFORM() ->
+          [windows] オプションに戻る
+         *[other] 設定に戻る
+      }
 containers-header = コンテナータブ
 containers-add-button =
     .label = @@New-CMD@@コンテナーを追加
     .accesskey = A
+
 containers-new-tab-check =
     .label = @@NewTab@@を開くコンテナーを毎回選択する
     .accesskey = S
+
 containers-preferences-button =
     .label = 設定
 containers-remove-button =
     .label = 削除
-
-## Sync Section - Signed out
-
 
 ## Firefox Account - Signed out. Note that "Sync" and "Firefox Account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
 sync-signedout-caption = ウェブを持ち歩こう
 sync-signedout-description = ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。
-sync-signedout-account-title = { -fxaccount-brand-name } で接続する
-sync-signedout-account-create = アカウントをお持ちでない方は作成してください
-    .accesskey = c
-sync-signedout-account-signin =
-    .label = ログイン...
-    .accesskey = I
+
 sync-signedout-account-signin2 =
     .label = { -sync-brand-short-name } にログイン...
     .accesskey = i
+
 # This message contains two links and two icon images.
 #   `<img data-l10n-name="android-icon"/>` - Android logo icon
 #   `<a data-l10n-name="android-link">` - Link to Android Download
@@ -646,34 +649,32 @@ sync-signedout-account-signin2 =
 # to your language, but should not be changed or translated.
 sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> または <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> をダウンロードしてモバイル端末と同期しましょう。
 
-## Sync Section - Signed in
-
-
 ## Firefox Account - Signed in
 
 sync-profile-picture =
     .tooltiptext = プロフィール写真を変更します
-sync-disconnect =
-    .label = 切断...
-    .accesskey = D
+
 sync-sign-out =
     .label = ログアウト...
     .accesskey = g
+
 sync-manage-account = アカウントの管理
     .accesskey = o
+
 sync-signedin-unverified = { $email } は認証されていません。
 sync-signedin-login-failure = { $email } に再接続するにはログインしてください。
+
 sync-resend-verification =
     .label = 認証メールを再送信
     .accesskey = d
+
 sync-remove-account =
     .label = アカウントを削除
     .accesskey = R
+
 sync-sign-in =
     .label = ログイン
     .accesskey = g
-sync-signedin-settings-header = Sync 設定
-sync-signedin-settings-desc = 端末上の同期して { -brand-short-name } で使用するものを選んでください。
 
 ## Sync section - enabling or disabling sync.
 
@@ -716,36 +717,40 @@ sync-choose-what-to-sync-dialog =
     .buttonaccesskeyaccept = S
     .buttonlabelextra2 = 切断...
     .buttonaccesskeyextra2 = D
+
 sync-engine-bookmarks =
     .label = ブックマーク
     .accesskey = m
+
 sync-engine-history =
     .label = 履歴
     .accesskey = r
+
 sync-engine-tabs =
     .label = 開いたタブ
     .tooltiptext = 同期した端末で開いているすべてのタブの一覧です
     .accesskey = t
-sync-engine-logins =
-    .label = ログイン情報
-    .tooltiptext = 保存したユーザー名とパスワードです
-    .accesskey = L
+
 sync-engine-logins-passwords =
     .label = ログイン情報とパスワード
     .tooltiptext = 保存したユーザー名とパスワードです
     .accesskey = L
+
 sync-engine-addresses =
     .label = 所在地フォーム
     .tooltiptext = 保存した住所です (デスクトップのみ)
     .accesskey = e
+
 sync-engine-creditcards =
     .label = クレジットカード
     .tooltiptext = クレジットカードの名義と番号と有効期限です (デスクトップのみ)
     .accesskey = C
+
 sync-engine-addons =
     .label = アドオン
     .tooltiptext = デスクトップ版 Firefox の拡張機能とテーマです
     .accesskey = A
+
 sync-engine-prefs =
     .label =
         { PLATFORM() ->
@@ -758,28 +763,24 @@ sync-engine-prefs =
 ## The device name controls.
 
 sync-device-name-header = 端末名
+
 sync-device-name-change =
     .label = 端末名を変更...
     .accesskey = h
+
 sync-device-name-cancel =
     .label = キャンセル
     .accesskey = n
+
 sync-device-name-save =
     .label = 保存
     .accesskey = v
+
 sync-connect-another-device = 別の端末を接続
-sync-manage-devices = 端末を管理
-sync-fxa-begin-pairing = 端末をペアリング
-sync-tos-link = 利用規約
-sync-fxa-privacy-notice = 個人情報保護方針
 
 ## Privacy Section
 
 privacy-header = ブラウザープライバシー
-
-## Privacy Section - Forms
-
-logins-header = ログインとパスワード
 
 ## Privacy Section - Logins and Passwords
 
@@ -898,28 +899,35 @@ history-clear-button =
 ## Privacy Section - Site Data
 
 sitedata-header = Cookie とサイトデータ
+
 sitedata-total-size-calculating = サイトデータとキャッシュのサイズを計算しています...
+
 # Variables:
 #   $value (Number) - Value of the unit (for example: 4.6, 500)
 #   $unit (String) - Name of the unit (for example: "bytes", "KB")
 sitedata-total-size = 保存された Cookie とサイトデータとキャッシュのディスク使用量は現在 { $value } { $unit } です。
+
 sitedata-learn-more = 詳細情報
+
 sitedata-delete-on-close =
     .label = { -brand-short-name } を閉じたときに Cookie とサイトデータを削除する
     .accesskey = c
+
 sitedata-delete-on-close-private-browsing = 永続プライベートブラウジングモードでは、Cookie とサイトデータは { -brand-short-name } の終了時に必ず消去されます。
+
 sitedata-allow-cookies-option =
     .label = Cookie とサイトデータを保存する
     .accesskey = A
+
 sitedata-disallow-cookies-option =
     .label = Cookie とサイトデータをブロック
     .accesskey = B
+
 # This label means 'type of content that is blocked', and is followed by a drop-down list with content types below.
 # The list items are the strings named sitedata-block-*-option*.
 sitedata-block-desc = ブロックの種類
     .accesskey = T
-sitedata-option-block-trackers =
-    .label = サードパーティトラッカー
+
 sitedata-option-block-cross-site-trackers =
     .label = クロスサイトトラッカー
 sitedata-option-block-cross-site-and-social-media-trackers =
@@ -964,7 +972,6 @@ addressbar-locbar-bookmarks-option =
 addressbar-locbar-openpage-option =
     .label = 開いているタブ
     .accesskey = O
-
 addressbar-locbar-topsites-option =
     .label = トップサイト
     .accesskey = T
@@ -973,41 +980,25 @@ addressbar-suggestions-settings = 検索エンジンの検索候補の設定を�
 
 ## Privacy Section - Content Blocking
 
-content-blocking-header = コンテンツブロッキング
-content-blocking-section-description = ブラウジング中のあなたのプライバシーを保護します。あなたが訪問したサイトを追跡して訪問者の情報を収集する目に見えないコンテンツをブロックします。このようなコンテンツをブロックすると、ページの読み込みが速くなる可能性があります。
 content-blocking-enhanced-tracking-protection = 強化型トラッキング防止機能
+
 content-blocking-section-top-level-description = トラッカーはあなたの習慣や興味に関する情報を収集するために、オンラインであなたを追跡します。{ -brand-short-name } はこれらのトラッカーや悪意のあるスクリプトの多くをブロックします。
+
 content-blocking-learn-more = 詳細情報
-# The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
-# "Standard" in this case is an adjective, meaning "default" or "normal".
-content-blocking-setting-standard =
-    .label = 標準
-    .accesskey = d
-content-blocking-setting-strict =
-    .label = 厳格
-    .accesskey = r
-content-blocking-setting-custom =
-    .label = カスタム
-    .accesskey = C
-content-blocking-standard-desc = 保護と性能をバランスよく。ウェブサイトが正しく機能するようトラッカーを一部許可します。
-content-blocking-strict-description = より強固な保護です。一部のサイトが機能しなくなる可能性があります。
-content-blocking-custom-desc = ブロックする項目を選択します。
-content-blocking-private-trackers = 既知のトラッカー (プライベート@@Window@@のみ)
-content-blocking-third-party-cookies = サードパーティのトラッカー Cookie
 
 ## These strings are used to define the different levels of
 ## Enhanced Tracking Protection.
 
 # "Standard" in this case is an adjective, meaning "default" or "normal".
 enhanced-tracking-protection-setting-standard =
-    .label = 標準
-    .accesskey = d
+  .label = 標準
+  .accesskey = d
 enhanced-tracking-protection-setting-strict =
-    .label = 厳格
-    .accesskey = r
+  .label = 厳格
+  .accesskey = r
 enhanced-tracking-protection-setting-custom =
-    .label = カスタム
-    .accesskey = C
+  .label = カスタム
+  .accesskey = C
 ##
 
 content-blocking-etp-standard-desc = 保護と性能をバランスよく。ページが正しく機能するように読み込みます。
@@ -1020,45 +1011,43 @@ content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイト�
 content-blocking-social-media-trackers = ソーシャルメディアトラッカー
 content-blocking-all-cookies = すべての Cookie
 content-blocking-unvisited-cookies = 未訪問のサイトの Cookie
-content-blocking-all-windows-trackers = 既知のトラッカー (すべての@@Window@@)
 content-blocking-all-windows-tracking-content = トラッキングコンテンツ (すべての@@Window@@)
 content-blocking-all-third-party-cookies = サードパーティ Cookie すべて
 content-blocking-cryptominers = 暗号通貨マイニング
 content-blocking-fingerprinters = フィンガープリント採取
 
 content-blocking-warning-title = 注意！
-content-blocking-warning-description = コンテンツをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。信頼するサイトはブロッキングを無効にできます。
-content-blocking-learn-how = 詳細情報
-
 content-blocking-and-isolating-etp-warning-description = トラッカーをブロックし、残存 Cookie を隔離すると、一部のサイトの機能に影響がある可能性があります。すべてのコンテンツを読み込むには、トラッカーを許容してページを再読み込みします。
 content-blocking-warning-learn-how = 詳細情報
 
 content-blocking-reload-description = これらの変更を適用するには、タブを再読み込みする必要があります。
 content-blocking-reload-tabs-button =
-    .label = すべてのタブを再読み込み
-    .accesskey = R
-content-blocking-trackers-label =
-    .label = トラッカー
-    .accesskey = T
+  .label = すべてのタブを再読み込み
+  .accesskey = R
+
 content-blocking-tracking-content-label =
-    .label = トラッキングコンテンツ
-    .accesskey = T
+  .label = トラッキングコンテンツ
+  .accesskey = T
 content-blocking-tracking-protection-option-all-windows =
-    .label = すべての@@Window@@
-    .accesskey = A
+  .label = すべての@@Window@@
+  .accesskey = A
 content-blocking-option-private =
-    .label = プライベート@@Window@@のみ
-    .accesskey = p
+  .label = プライベート@@Window@@のみ
+  .accesskey = p
 content-blocking-tracking-protection-change-block-list = ブロックリストを変更
+
 content-blocking-cookies-label =
-    .label = Cookie
-    .accesskey = C
+  .label = Cookie
+  .accesskey = C
+
 content-blocking-expand-section =
-    .tooltiptext = 詳細情報
+  .tooltiptext = 詳細情報
+
 # Cryptomining refers to using scripts on websites that can use a computer’s resources to mine cryptocurrency without a user’s knowledge.
 content-blocking-cryptominers-label =
-    .label = 暗号通貨マイニング
-    .accesskey = y
+  .label = 暗号通貨マイニング
+  .accesskey = y
+
 # Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
 # that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
 content-blocking-fingerprinters-label =
@@ -1074,55 +1063,63 @@ tracking-manage-exceptions =
 ## Privacy Section - Permissions
 
 permissions-header = 許可設定
+
 permissions-location = 位置情報
 permissions-location-settings =
     .label = 設定...
     .accesskey = t
+
 permissions-xr = バーチャルリアリティ
 permissions-xr-settings =
     .label = 設定...
     .accesskey = t
+
 permissions-camera = カメラ
 permissions-camera-settings =
     .label = 設定...
     .accesskey = t
+
 permissions-microphone = マイク
 permissions-microphone-settings =
     .label = 設定...
     .accesskey = t
+
 permissions-notification = 通知
 permissions-notification-settings =
     .label = 設定...
     .accesskey = t
 permissions-notification-link = 詳細情報
+
 permissions-notification-pause =
     .label = { -brand-short-name } を再起動するまで通知を一時停止
     .accesskey = n
-permissions-block-autoplay-media2 =
-    .label = 音声を自動再生するウェブサイトをブロックする
-    .accesskey = B
-permissions-block-autoplay-media-exceptions =
-    .label = 許可サイト...
-    .accesskey = E
+
 permissions-autoplay = 自動再生
+
 permissions-autoplay-settings =
     .label = 設定...
     .accesskey = t
+
 permissions-block-popups =
     .label = ポップアップ@@Window@@をブロックする
     .accesskey = B
+
 permissions-block-popups-exceptions =
     .label = 許可サイト...
     .accesskey = E
+
 permissions-addon-install-warning =
     .label = アドオンのインストールを求められたときに警告する
     .accesskey = W
+
 permissions-addon-exceptions =
     .label = 許可サイト...
     .accesskey = E
+
 permissions-a11y-privacy-checkbox =
     .label = アクセシビリティサービスによるブラウザーへのアクセスを止める
     .accesskey = a
+
 permissions-a11y-privacy-link = 詳細情報
 
 ## Privacy Section - Data Collection

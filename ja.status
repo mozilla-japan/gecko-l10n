@@ -1061,10 +1061,16 @@ browser                 13308:c839ca18ed9c   2020-07-10     hATrayflood     sync
 devtools                13308:c839ca18ed9c   2020-07-10     hATrayflood     sync devtools
 mail, calendar, suite   13308:c839ca18ed9c   2020-07-10     mar             sync mail, calendar, suite
 
-[l10n-mozilla-80.0]
+Released! [l10n-mozilla-80.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                 13422:7253d461bafd   2020-07-31     hATrayflood     sync browser
 devtools                13422:7253d461bafd   2020-07-31     hATrayflood     sync devtools
 dom, toolkit, ...       13422:7253d461bafd   2020-07-31     mar             sync dom, netwerk, security, toolkit
 mail                    13422:7253d461bafd   2020-07-31     mar             sync mail (except for messenger/openpgp)
+mail/openpgp            13422:7253d461bafd   2020-07-31     Cai0407         add mail/messenger/openpgp
+
+[l10n-mozilla-81.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+browser                 13566:67234acd06a0   2020-09-02     hATrayflood     sync browser
