@@ -22,19 +22,6 @@
 the Picture-in-Picture video toggle button when the mouse is hovering it. -->
 <!ENTITY pictureInPicture.label "ピクチャーインピクチャー">
 
-<!ENTITY stats.media "メディア">
-<!ENTITY stats.size "サイズ">
-<!ENTITY stats.activity "再生状態">
-<!ENTITY stats.activityPaused "一時停止">
-<!ENTITY stats.activityPlaying "再生中">
-<!ENTITY stats.activityEnded "再生終了">
-<!ENTITY stats.activitySeeking "(シーク中)">
-<!ENTITY stats.volume "音量">
-<!ENTITY stats.framesParsed "解析済みフレーム">
-<!ENTITY stats.framesDecoded "デコード済みフレーム">
-<!ENTITY stats.framesPresented "再生済みフレーム">
-<!ENTITY stats.framesPainted "描画済みフレーム">
-
 <!-- LOCALIZATION NOTE (pictureInPictureToggle.label): This string is used as the
 label for a variation of the Picture-in-Picture video toggle button when the mouse is
 hovering over the video. -->
@@ -52,13 +39,6 @@ this string appears below the toggle when the mouse hovers the toggle. -->
 <!ENTITY error.generic "原因不明のエラーが発生したため動画の再生を中止しました。">
 
 <!ENTITY status.pictureInPicture "この動画はピクチャーインピクチャーモードで再生されています。">
-
-<!-- LOCALIZATION NOTE (scrubberScale.nameFormat): the #1 string is the current
-media position, and the #2 string is the total duration. For example, when at
-the 5 minute mark in a 6 hour long video, #1 would be "5:00" and #2 would be
-"6:00:00", result string would be "5:00 of 6:00:00 elapsed".
- -->
-<!ENTITY scrubberScale.nameFormat "#1 / #2">
 
 <!-- LOCALIZATION NOTE (positionAndDuration.nameFormat): the #1 string is the current
 media position, and the #2 string is the total duration. For example, when at

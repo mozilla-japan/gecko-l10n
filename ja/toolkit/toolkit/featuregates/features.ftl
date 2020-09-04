@@ -4,26 +4,9 @@
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
-experimental-features-css-masonry =
-    .label = CSS Masonry レイアウト
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
 experimental-features-css-masonry2 =
     .label = CSS: Masonry レイアウト
 experimental-features-css-masonry-description = 実験的な CSS Masonry レイアウト機能のサポートを有効にします。この機能の解説は <a data-l10n-name="explainer">こちらの説明</a> を参照してください。フィードバックを提供するには、<a data-l10n-name="w3c-issue">GitHub issue</a> または <a data-l10n-name="bug">こちらのバグ</a> にコメントしてください。
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
-experimental-features-web-gpu =
-    .label = WebGPU
-experimental-features-web-gpu-description = ウェブ上でグラフィックスと計算を扱うための実験的な API です。
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
-experimental-features-avif =
-    .label = AVIF
-experimental-features-avif-description = AVIF (AV1 Image File Format) の実験的なサポートです。
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
@@ -105,6 +88,10 @@ experimental-features-cookie-samesite-none-requires-secure2-description = “Sam
 experimental-features-abouthome-startup-cache =
     .label = about:home 起動時キャッシュ
 experimental-features-abouthome-startup-cache-description = 起動時に@@Default@@で読み込まれる初期 about:home ドキュメントのキャッシュ。このキャッシュの目的は起動時のパフォーマンスを向上させることです。
+
+experimental-features-print-preview-tab-modal =
+    .label = @@Print@@プレビューの再設計
+experimental-features-print-preview-tab-modal-description = 再設計された@@Print@@プレビューを導入し、macOS でも@@Print@@プレビューが利用可能になりました。この再設計により、機能がうまく動作しなかったり@@Print@@関連の設定がすべて含まれていない可能性があります。すべての@@Print@@関連の設定にアクセスするには、@@Print@@パネルから “システムダイアログを使用して@@Print@@...” を選択してください。
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.

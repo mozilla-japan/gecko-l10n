@@ -23,3 +23,4 @@ about-httpsonly-explanation-risk = また、攻撃者が関係している可能
 
 about-httpsonly-button-accept-and-continue = 危険性を承知の上で続ける
 about-httpsonly-button-go-back = 戻る
+about-httpsonly-link-learn-more = 詳細情報...
