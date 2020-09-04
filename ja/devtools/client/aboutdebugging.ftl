@@ -102,9 +102,6 @@ about-debugging-setup-title = セットアップ
 about-debugging-setup-intro = リモートデバッグを行うデバイスの接続方式を設定します。
 
 # Explanatory text in the Setup page about what the 'This Firefox' page is for
-about-debugging-setup-this-firefox = このバージョンの { -brand-shorter-name } でタブと拡張機能、Service Worker をデバッグするには、<a>{ about-debugging-this-firefox-runtime-name }</a> を使用します。
-
-# Explanatory text in the Setup page about what the 'This Firefox' page is for
 about-debugging-setup-this-firefox2 = このバージョンの { -brand-shorter-name } で拡張機能と Service Worker をデバッグするには、<a>{ about-debugging-this-firefox-runtime-name }</a> を使用します。
 
 # Title of the heading Connect section of the Setup page.
@@ -224,14 +221,6 @@ about-debugging-runtime-service-workers-not-compatible = このブラウザー�
 about-debugging-browser-version-too-old = 接続したブラウザーのバージョン ({ $runtimeVersion }) が古いです。サポートされている最低バージョンは ({ $minVersion }) です。この組み合わせはサポートされてないため、開発ツールでエラーが発生する可能性があります。接続ブラウザーを更新してください。<a>トラブルシューティング</a>
 
 # Dedicated message for a backward compatibility issue that occurs when connecting:
-# - from Fx 67 to 66 or to 65
-# - from Fx 68 to 66
-# Those are normally in range for DevTools compatibility policy, but specific non
-# backward compatible changes broke the debugger in those scenarios (Bug 1528219).
-# { $runtimeVersion } is the version of the remote browser (for instance "67.0a1")
-about-debugging-browser-version-too-old-67-debugger = 接続したブラウザーではデバッガーパネルが動作しないようです。このブラウザーでデバッガーを利用したい場合は、Firefox { $runtimeVersion } を使用してください。
-
-# Dedicated message for a backward compatibility issue that occurs when connecting:
 # from Fx 70+ to the old Firefox for Android (aka Fennec) which uses Fx 68.
 about-debugging-browser-version-too-old-fennec = このバージョンの Firefox は Android 版 Firefox (68) をデバッグできません。携帯電話でのテストには Android 版 Firefox Nightly のインストールをお勧めします。<a>詳細</a>
 
@@ -322,15 +311,6 @@ about-debugging-extension-location =
 # For instance "geckoprofiler@mozilla.com" or "{ed26ddcb-5611-4512-a89a-51b8db81cfb2}".
 about-debugging-extension-id =
   .label = 拡張機能 ID
-
-# This string is displayed as a label of the button that pushes a test payload
-# to a service worker.
-# Notes, this relates to the "Push" API, which is normally not localized so it is
-# probably better to not localize it.
-about-debugging-worker-action-push = プッシュ通知
-
-# This string is displayed as a label of the button that starts a service worker.
-about-debugging-worker-action-start = 開始
 
 # This string is displayed as a label of the button that pushes a test payload
 # to a service worker.
