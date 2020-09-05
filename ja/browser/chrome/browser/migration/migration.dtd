@@ -7,7 +7,6 @@
 
 <!ENTITY importFrom.label		"オプション、ブックマーク、履歴、パスワードその他のデータを@@Import-suru@@対象を選んでください:">
 <!ENTITY importFromUnix.label		"設定、ブックマーク、履歴、パスワードその他のデータを@@Import-suru@@対象を選んでください:">
-<!ENTITY importFromBookmarks.label	"ブックマークを@@Import-suru@@対象を選んでください:">
 
 <!ENTITY importFromIE.label		"Microsoft Internet Explorer">
 <!ENTITY importFromIE.accesskey		"M">

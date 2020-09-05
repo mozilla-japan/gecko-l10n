@@ -41,7 +41,7 @@ policy-DisableAppUpdate = ブラウザの更新を禁止します。
 
 policy-DisableBuiltinPDFViewer = { -brand-short-name } 組み込みの PDF ビューアーの PDF.js を無効にします。
 
-policy-DisableDefaultBrowserAgent = デフォルトブラウザーエージェントのアクションをすべて禁止します。Windows のみ有効です。他のプラットフォームはエージェントがありません。
+policy-DisableDefaultBrowserAgent = Default Browser Agent のアクションをすべて禁止します。Windows のみ有効です。他のプラットフォームはエージェントがありません。
 
 policy-DisableDeveloperTools = 開発ツールへのアクセスをブロックします。
 

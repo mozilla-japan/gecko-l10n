@@ -4,7 +4,6 @@
 
 synced-tabs-sidebar-title = 同期タブ
 synced-tabs-sidebar-noclients-subtitle = 他の端末のタブを表示しますか？
-synced-tabs-sidebar-notsignedin = ログインすると、他の端末のタブの一覧を表示できます。
 synced-tabs-sidebar-intro = 他の端末のタブの一覧を表示できます。
 synced-tabs-sidebar-unverified = あなたのアカウントは検証する必要があります。
 synced-tabs-sidebar-notabs = 表示タブなし

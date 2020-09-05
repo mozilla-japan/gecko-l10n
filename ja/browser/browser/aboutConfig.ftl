@@ -2,17 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# An old map warning, see https://en.wikipedia.org/wiki/Here_be_dragons
-about-config-warning-title = 動作保証対象外になります！
-about-config-warning-text = @@Application@@の高度な設定を変更すると、安定性、セキュリティ、パフォーマンスに深刻な問題を引き起こす恐れがあります。設定変更による影響を完全に理解している場合に限ってご利用ください。
-about-config-warning-checkbox = 次回もこの警告を表示する
-about-config-warning-button = 危険性を承知の上で使用する
-
-about-config2-title = 高度な設定
-
-about-config-search-input =
-    .placeholder = 検索
-
 ## These strings appear on the warning you see when first visiting about:config.
 
 about-config-intro-warning-title = 注意して進んでください！
@@ -30,13 +19,6 @@ about-config-page-title = 高度な設定
 about-config-search-input1 =
     .placeholder = 設定名を検索
 about-config-show-all = すべて表示
-
-about-config-pref-add = 新規作成
-about-config-pref-toggle = 切り替え
-about-config-pref-edit = 値を変更
-about-config-pref-save = 保存
-about-config-pref-reset = リセット
-about-config-pref-delete = 削除
 
 about-config-pref-add-button =
     .title = 新規作成
