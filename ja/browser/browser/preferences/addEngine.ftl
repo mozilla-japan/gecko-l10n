@@ -8,7 +8,7 @@ add-engine-window =
 
 add-engine-button = カスタム検索エンジンを追加
 
-add-engine-name = 検索エンジン名を検索
+add-engine-name = 検索エンジン名
 
 add-engine-alias = 別名
 
