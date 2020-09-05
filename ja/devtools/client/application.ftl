@@ -26,10 +26,6 @@ serviceworker-worker-unregister = 登録解除
 serviceworker-worker-debug = デバッグ
   .title = 実行中の Service Worker のみデバッグできます
 
-# Text for the start link displayed for a registered but not running Service Worker.
-# Clicking on the link will attempt to start the service worker.
-serviceworker-worker-start = 開始
-
 # Text for the debug link displayed for an already started Service Worker, when we
 # are in multi e10s mode, which effectively disables this link.
 serviceworker-worker-debug-forbidden = デバッグ
@@ -39,6 +35,10 @@ serviceworker-worker-debug-forbidden = デバッグ
 # Clicking on the link will attempt to start the service worker.
 serviceworker-worker-start2 = 開始
   .title = マルチ e10s が無効の場合は、Service Worker のみ開始できます
+
+# Alt text for the image icon displayed inside a debug link for a service worker.
+serviceworker-worker-inspect-icon =
+  .alt = 調査
 
 # Text for the start link displayed for a registered but not running Service Worker.
 # Clicking on the link will attempt to start the service worker.
@@ -63,10 +63,6 @@ serviceworker-worker-status-running = 実行中
 
 # Service Worker status. A stopped service worker is registered but not currently active.
 serviceworker-worker-status-stopped = 停止中
-
-# Service Worker status. A registering service worker is not yet registered and cannot be
-# started or debugged.
-serviceworker-worker-status-registering = 登録中
 
 # Text displayed when no service workers are visible for the current page. Clicking on the
 # link will open https://developer-mozilla-org/docs/Web/API/Service_Worker_API/Using_Service_Workers
