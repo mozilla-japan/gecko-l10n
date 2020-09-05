@@ -35,12 +35,6 @@ connection-proxy-http = HTTP プロキシー
     .accesskey = x
 connection-proxy-http-port = ポート
     .accesskey = P
-connection-proxy-http-share =
-    .label = すべてのプロトコルでこのプロキシーを使用する
-    .accesskey = s
-
-connection-proxy-ssl = SSL プロキシー
-    .accesskey = L
 connection-proxy-http-sharing =
     .label = このプロキシーを FTP と HTTPS でも使用する
     .accesskey = s

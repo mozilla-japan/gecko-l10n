@@ -12,3 +12,12 @@ sync-disconnect-dialog-body = { -brand-product-name } はあなたのアカウ�
 fxa-disconnect-dialog-title = { -brand-product-name } から切断しますか？
 fxa-disconnect-dialog-body = { -brand-product-name } はあなたのアカウントから切断されますが、この端末のブラウジングデータは一切削除されません。
 sync-disconnect-dialog-button = 切断
+
+fxa-signout-dialog-heading = { -fxaccount-brand-name }からログアウトしますか？
+fxa-signout-dialog-body = 同期済みデータはあなたのアカウントに残ります。
+fxa-signout-checkbox =
+    .label = この端末からデータを削除する。(ログイン情報、パスワード、履歴、ブックマーク、その他)
+fxa-signout-dialog =
+    .title = { -fxaccount-brand-name }からログアウト
+    .style = min-width: 375px;
+    .buttonlabelaccept = ログアウト

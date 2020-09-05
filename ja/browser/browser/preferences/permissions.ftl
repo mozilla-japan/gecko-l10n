@@ -79,11 +79,6 @@ permissions-invalid-uri-label = 有効なホスト名を入力してください
 
 ## Exceptions - Tracking Protection
 
-permissions-exceptions-content-blocking-window =
-    .title = 例外 - コンテンツブロッキング
-    .style = { permissions-window.style }
-permissions-exceptions-content-blocking-desc = これらのウェブサイトでは、コンテンツブロッキングを無効に設定しています。
-
 permissions-exceptions-etp-window =
     .title = 強化型トラッキング防止機能の例外
     .style = { permissions-window.style }
@@ -116,13 +111,6 @@ permissions-exceptions-addons-window =
     .title = 許可サイト - アドオンのインストール
     .style = { permissions-window.style }
 permissions-exceptions-addons-desc = アドオンのインストールを許可するウェブサイトを指定できます。許可するサイトの正確なアドレスを入力して @@[@@許可@@]@@ をクリックしてください。
-
-## Exceptions - Autoplay Media
-
-permissions-exceptions-autoplay-media-window2 =
-    .title = 例外 - 自動再生
-    .style = { permissions-window.style }
-permissions-exceptions-autoplay-media-desc2 = 音声付きメディアの自動再生を許可または拒否するウェブサイトを指定できます。設定するサイトのアドレスを入力して @@[@@ブロック@@]@@ または @@[@@許可@@]@@ をクリックしてください。
 
 ## Site Permissions - Autoplay
 
