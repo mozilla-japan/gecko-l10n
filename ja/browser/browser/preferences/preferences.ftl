@@ -30,19 +30,25 @@ search-input-box =
             [windows] オプションを検索
            *[other] 設定を検索
         }
+
 managed-notice = ご使用のブラウザーはあなたの所属組織に管理されています。
+
 pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
+
 pane-home-title = ホーム
 category-home =
     .tooltiptext = { pane-home-title }
+
 pane-search-title = 検索
 category-search =
     .tooltiptext = { pane-search-title }
+
 pane-privacy-title = プライバシーとセキュリティ
 category-privacy =
     .tooltiptext = { pane-privacy-title }
+
 pane-sync-title2 = { -sync-brand-short-name }
 category-sync2 =
     .tooltiptext = { pane-sync-title2 }
@@ -56,8 +62,10 @@ pane-experimental-description = 高度な設定を変更すると、{ -brand-sho
 
 help-button-label = { -brand-short-name } サポート
 addons-button-label = 拡張機能とテーマ
+
 focus-search =
     .key = f
+
 close-button =
     .aria-label = 閉じる
 
@@ -122,17 +130,20 @@ extension-controlled-enable = 拡張機能を有効にするには、<img data-l
 ## Preferences UI Search Results
 
 search-results-header = 検索結果
+
 # `<span data-l10n-name="query"></span>` will be replaced by the search term.
 search-results-empty-message =
     { PLATFORM() ->
         [windows] “<span data-l10n-name="query"></span>” オプションについての検索結果はありません。
        *[other] “<span data-l10n-name="query"></span>” 設定についての検索結果はありません。
     }
+
 search-results-help-link = 助けが必要な方は、<a data-l10n-name="url">{ -brand-short-name } サポート</a> をご利用ください
 
 ## General Section
 
 startup-header = 起動
+
 # { -brand-short-name } will be 'Firefox Developer Edition',
 # since this setting is only exposed in Firefox Developer Edition
 separate-profile-mode =
@@ -140,98 +151,134 @@ separate-profile-mode =
 use-firefox-sync = ヒント: これは別のプロファイルを使用します。データを共有するには { -sync-brand-short-name } を使用してください。
 get-started-not-logged-in = { -sync-brand-short-name } にログインする...
 get-started-configured = { -sync-brand-short-name } 設定を開く
+
 always-check-default =
     .label = { -brand-short-name } が@@DefaultBrowser@@か確認する
     .accesskey = y
+
 is-default = { -brand-short-name } は@@DefaultBrowser@@に設定されています
 is-not-default = { -brand-short-name } は@@DefaultBrowser@@に設定されていません
+
 set-as-my-default-browser =
     .label = @@DefaultBrowser@@にする...
     .accesskey = D
+
 startup-restore-previous-session =
     .label = 前回のセッションを復元する
     .accesskey = s
+
 startup-restore-warn-on-quit =
     .label = ブラウザーを終了するときは確認する
+
 disable-extension =
     .label = 拡張機能を無効化
+
 tabs-group-header = タブグループ
+
 ctrl-tab-recently-used-order =
     .label = Ctrl+Tab で最近使用した順にタブを切り替える
     .accesskey = T
+
 open-new-link-as-tabs =
     .label = @@NewWindow@@ではなく@@NewTab@@に開く
     .accesskey = w
+
 warn-on-close-multiple-tabs =
     .label = 同時に複数のタブを閉じるときは確認する
     .accesskey = m
+
 warn-on-open-many-tabs =
     .label = 同時に複数のタブを開いて { -brand-short-name } の動作が遅くなるときは確認する
     .accesskey = d
+
 switch-links-to-new-tabs =
     .label = リンクを@@NewTab@@で開いたとき、すぐにそのタブに切り替える
     .accesskey = h
+
 show-tabs-in-taskbar =
     .label = タスクバーにタブのプレビューを表示する
     .accesskey = k
+
 browser-containers-enabled =
     .label = コンテナータブを有効にする
     .accesskey = n
+
 browser-containers-learn-more = 詳細情報
+
 browser-containers-settings =
     .label = 設定...
     .accesskey = i
+
 containers-disable-alert-title = すべてのコンテナータブを閉じますか？
 containers-disable-alert-desc = コンテナータブを無効にすると、{ $tabCount } 個のコンテナータブが閉じられます。コンテナータブを無効にしますか？
+
 containers-disable-alert-ok-button = { $tabCount } 個のコンテナータブを閉じる
 containers-disable-alert-cancel-button = このままにする
+
 containers-remove-alert-title = このコンテナーを削除しますか？
+
 # Variables:
 #   $count (Number) - Number of tabs that will be closed.
 containers-remove-alert-msg = このコンテナーを削除すると { $count } 個のコンテナータブが閉じられます。このコンテナーを削除してもよろしいですか？
+
 containers-remove-ok-button = このコンテナーを削除する
 containers-remove-cancel-button = 削除しない
 
 ## General Section - Language & Appearance
 
 language-and-appearance-header = 言語と外観
+
 fonts-and-colors-header = フォントと@@Colors@@
+
 default-font = @@DefaultFont@@
     .accesskey = D
 default-font-size = サイズ
     .accesskey = S
+
 advanced-fonts =
     .label = 詳細設定...
     .accesskey = A
+
 colors-settings =
     .label = @@Colors@@設定...
     .accesskey = C
+
 # Zoom is a noun, and the message is used as header for a group of options
 preferences-zoom-header = ズーム
+
 preferences-default-zoom = @@Default-@@ズーム
     .accesskey = z
+
 preferences-default-zoom-value =
     .label = { $percentage }%
+
 preferences-zoom-text-only =
     .label = 文字サイズのみ変更
     .accesskey = t
+
 language-header = 言語
+
 choose-language-description = ウェブページの表示に使用する言語の優先順位を設定できます。
+
 choose-button =
     .label = 言語設定...
     .accesskey = o
+
 choose-browser-language-description = メニュー、メッセージ、{ -brand-short-name } からの通知に表示される言語を選択します。
 manage-browser-languages-button =
     .label = 代替言語を設定...
     .accesskey = l
 confirm-browser-language-change-description = 変更を適用するには、{ -brand-short-name } の再起動が必要です
 confirm-browser-language-change-button = 適用して再起動
+
 translate-web-pages =
     .label = ウェブページを翻訳
     .accesskey = T
+
 # The <img> element is replaced by the logo of the provider
 # used to provide machine translations for web pages.
 translate-attribution = 翻訳:  <img data-l10n-name="logo"/>
+
 translate-exceptions =
     .label = 例外...
     .accesskey = x
@@ -248,10 +295,13 @@ check-user-spelling =
 ## General Section - Files and Applications
 
 files-and-applications-title = ファイルと@@Application@@
+
 download-header = ダウンロード
+
 download-save-to =
     .label = 次のフォルダーに保存する
     .accesskey = v
+
 download-choose-folder =
     .label =
         { PLATFORM() ->
@@ -263,28 +313,37 @@ download-choose-folder =
             [macos] e
            *[other] o
         }
+
 download-always-ask-where =
     .label = ファイルごとに保存先を指定する
     .accesskey = A
+
 applications-header = @@Application@@
+
 applications-description = ウェブからダウンロードしたファイルを { -brand-short-name } が取り扱う方法とブラウズ中に使用する@@Application@@を選んでください。
+
 applications-filter =
     .placeholder = ファイルの種類と@@Application@@を検索
+
 applications-type-column =
     .label = ファイルの種類 (Content Type)
     .accesskey = T
+
 applications-action-column =
     .label = 取り扱い方法
     .accesskey = A
+
 # Variables:
 #   $extension (String) - file extension (e.g .TXT)
 applications-file-ending = { $extension } ファイル
 applications-action-save =
     .label = ファイルを保存
+
 # Variables:
 #   $app-name (String) - Name of an application (e.g Adobe Acrobat)
 applications-use-app =
     .label = { $app-name } を使用
+
 # Variables:
 #   $app-name (String) - Name of an application (e.g Adobe Acrobat)
 applications-use-app-default =
@@ -301,22 +360,27 @@ applications-use-os-default =
 applications-use-other =
     .label = 他の@@Application@@を選択...
 applications-select-helper = @@Application@@の選択
+
 applications-manage-app =
     .label = @@Application@@の管理...
 applications-always-ask =
     .label = 毎回確認する
 applications-type-pdf = PDF 文書 (PDF)
+
 # Variables:
 #   $type (String) - the MIME type (e.g application/binary)
 applications-type-pdf-with-type = { applications-type-pdf } ({ $type })
+
 # Variables:
 #   $type-description (String) - Description of the type (e.g "Portable Document Format")
 #   $type (String) - the MIME type (e.g application/binary)
 applications-type-description-with-type = { $type-description } ({ $type })
+
 # Variables:
 #   $extension (String) - file extension (e.g .TXT)
 #   $type (String) - the MIME type (e.g application/binary)
 applications-file-ending-with-type = { applications-file-ending } ({ $type })
+
 # Variables:
 #   $plugin-name (String) - Name of a plugin (e.g Adobe Flash)
 applications-use-plugin-in =
@@ -355,27 +419,39 @@ applications-use-os-default-label =
 ##
 
 drm-content-header = デジタル著作権管理 (DRM) コンテンツ
+
 play-drm-content =
     .label = DRM 制御のコンテンツを再生
     .accesskey = P
+
 play-drm-content-learn-more = 詳細情報
+
 update-application-title = { -brand-short-name } の更新
+
 update-application-description = 最高のパフォーマンスと安定性、セキュリティを提供するため { -brand-short-name } を最新の状態に保ちます。
+
 update-application-version = バージョン { $version } <a data-l10n-name="learn-more">更新情報</a>
+
 update-history =
     .label = 更新履歴を表示...
     .accesskey = p
+
 update-application-allow-description = { -brand-short-name } の更新動作
+
 update-application-auto =
     .label = 更新を自動的にインストールする (推奨)
     .accesskey = A
+
 update-application-check-choose =
     .label = 更新の確認は行うが、インストールするかを選択する
     .accesskey = C
+
 update-application-manual =
     .label = 更新の確認は行わない (非推奨)
     .accesskey = N
+
 update-application-warning-cross-user-setting = この設定はこの端末のすべての Windows アカウントと、この { -brand-short-name } のインストール先を使用するすべての { -brand-short-name } プロファイルに適用されます。
+
 update-application-use-service =
     .label = 更新のインストールにバックグラウンドサービスを使用する
     .accesskey = b
@@ -390,8 +466,11 @@ update-setting-write-failure-message =
     { -brand-short-name } がエラーに遭遇したため変更を保存できませんでした。この設定変更を保存するには、以下のファイルの書き込み権限が必要なことに注意してください。あなたかシステム管理者が、このファイルにユーザーグループのフルコントロール権限を与えると、エラーを解決できる可能性があります。
     
     ファイルに書き込みできません: { $path }
+
 update-in-progress-title = 更新中
+
 update-in-progress-message = この更新を続行しますか？
+
 update-in-progress-ok-button = 破棄(&D)
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
@@ -400,18 +479,25 @@ update-in-progress-cancel-button = 続行(&C)
 ## General Section - Performance
 
 performance-title = パフォーマンス
+
 performance-use-recommended-settings-checkbox =
     .label = 推奨のパフォーマンス設定を使用する
     .accesskey = U
+
 performance-use-recommended-settings-desc = これらの設定はコンピューターのハードウェアとオペレーティングシステムに合わせて調整されます。
+
 performance-settings-learn-more = 詳細情報
+
 performance-allow-hw-accel =
     .label = ハードウェアアクセラレーション機能を使用する (可能な場合)
     .accesskey = r
+
 performance-limit-content-process-option = コンテンツプロセス数の制限
     .accesskey = l
+
 performance-limit-content-process-enabled-desc = コンテンツプロセスを増やすと、複数タブの使用時にパフォーマンスが向上しますが、メモリーを多く消費します。
 performance-limit-content-process-blocked-desc = コンテンツプロセスの数はマルチプロセスの { -brand-short-name } でしか変更できません。 <a data-l10n-name="learn-more">マルチプロセスが有効になっているか確認してください</a>
+
 # Variables:
 #   $num - default value of the `dom.ipc.processCount` pref.
 performance-default-content-process-count =
@@ -420,38 +506,50 @@ performance-default-content-process-count =
 ## General Section - Browsing
 
 browsing-title = ブラウズ
+
 browsing-use-autoscroll =
     .label = 自動スクロール機能を使用する
     .accesskey = a
+
 browsing-use-smooth-scrolling =
     .label = スムーズスクロール機能を使用する
     .accesskey = m
+
 browsing-use-onscreen-keyboard =
     .label = 必要であればタッチキーボードを表示する
     .accesskey = c
+
 browsing-use-cursor-navigation =
     .label = ページ中の移動にカーソルを使用する (キャレットブラウズモード)
     .accesskey = k
+
 browsing-search-on-start-typing =
     .label = キー入力時に検索を開始する
     .accesskey = x
+
 browsing-picture-in-picture-toggle-enabled =
     .label = ピクチャーインピクチャーの動画の操作を有効にする
     .accesskey = E
+
 browsing-picture-in-picture-learn-more = 詳細情報
+
 browsing-cfr-recommendations =
     .label = おすすめの拡張機能を紹介する
     .accesskey = R
 browsing-cfr-features =
     .label = おすすめの機能を紹介する
     .accesskey = f
+
 browsing-cfr-recommendations-learn-more = 詳細情報
 
 ## General Section - Proxy
 
 network-settings-title = ネットワーク設定
+
 network-proxy-connection-description = { -brand-short-name } のインターネットへの接続方法を設定します。
+
 network-proxy-connection-learn-more = 詳細情報
+
 network-proxy-connection-settings =
     .label = 接続設定...
     .accesskey = e
@@ -459,25 +557,33 @@ network-proxy-connection-settings =
 ## Home Section
 
 home-new-windows-tabs-header = @@NewWindow@@とタブ
+
 home-new-windows-tabs-description2 = ホームページ、@@NewWindow@@、@@NewTab@@を開くときに表示するものを選択してください。
 
 ## Home Section - Home Page Customization
 
 home-homepage-mode-label = ホームページと@@NewWindow@@
+
 home-newtabs-mode-label = @@NewTab@@
+
 home-restore-defaults =
     .label = @@RestoreDefaults@@
     .accesskey = R
+
 # "Firefox" should be treated as a brand and kept in English,
 # while "Home" and "(Default)" can be localized.
 home-mode-choice-default =
     .label = Firefox ホーム (@@Default@@)
+
 home-mode-choice-custom =
     .label = カスタム URL...
+
 home-mode-choice-blank =
     .label = 空白ページ
+
 home-homepage-custom-url =
     .placeholder = URL を@@Paste@@...
+
 # This string has a special case for '1' and [other] (default). If necessary for
 # your language, you can add {$tabCount} to your translations and use the
 # standard CLDR forms, or only use the form for [other] if both strings should
@@ -489,6 +595,7 @@ use-current-pages =
            *[other] 現在のタブグループを使用
         }
     .accesskey = C
+
 choose-bookmark =
     .label = ブックマークを使う...
     .accesskey = B
@@ -497,6 +604,7 @@ choose-bookmark =
 
 home-prefs-content-header = Firefox Home コンテンツ
 home-prefs-content-description = Firefox Home に表示するコンテンツを選びましょう。
+
 home-prefs-search-header =
     .label = ウェブ検索
 home-prefs-topsites-header =
@@ -514,6 +622,7 @@ home-prefs-recommended-by-description-update = { $provider } がウェブ全体�
 home-prefs-recommended-by-learn-more = 使い方
 home-prefs-recommended-by-option-sponsored-stories =
     .label = 広告記事
+
 home-prefs-highlights-header =
     .label = ハイライト
 home-prefs-highlights-description = 保存したり訪れたりしたサイトうち主なもの
@@ -525,6 +634,7 @@ home-prefs-highlights-option-most-recent-download =
     .label = 最近のダウンロード
 home-prefs-highlights-option-saved-to-pocket =
     .label = { -pocket-brand-name } に保存されたページ
+
 # For the "Snippets" feature traditionally on about:home.
 # Alternative translation options: "Small Note" or something that
 # expresses the idea of "a small message, shortened from something else,
@@ -679,11 +789,15 @@ sync-sign-in =
 ## Sync section - enabling or disabling sync.
 
 prefs-syncing-on = 同期: オン
+
 prefs-syncing-off = 同期: オフ
+
 prefs-sync-setup =
     .label = { -sync-brand-short-name } をセットアップ...
     .accesskey = S
+
 prefs-sync-offer-setup-label = ブックマーク、履歴、タブ、パスワード、アドオン、設定をあなたの端末すべてに同期化します。
+
 prefs-sync-now =
     .labelnotsyncing = 今すぐ同期
     .accesskeynotsyncing = N
@@ -692,6 +806,7 @@ prefs-sync-now =
 ## The list of things currently syncing.
 
 sync-currently-syncing-heading = これらの項目を同期しています:
+
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 履歴
 sync-currently-syncing-tabs = 開いたタブ
@@ -704,6 +819,7 @@ sync-currently-syncing-prefs =
         [windows] オプション
        *[other] 個人設定
     }
+
 sync-change-options =
     .label = 変更...
     .accesskey = C
@@ -787,6 +903,7 @@ privacy-header = ブラウザープライバシー
 # The search keyword isn't shown to users but is used to find relevant settings in about:preferences.
 pane-privacy-logins-and-passwords-header = ログインとパスワード
     .searchkeywords = { -lockwise-brand-short-name }
+
 # Checkbox to control whether UI is shown to users to save or fill logins/passwords.
 forms-ask-to-save-logins =
     .label = ウェブサイトのログイン情報とパスワードを保存する
@@ -801,6 +918,7 @@ forms-breach-alerts =
     .label = 漏洩したウェブサイトのパスワードの警告を表示する
     .accesskey = b
 forms-breach-alerts-learn-more-link = 詳細情報
+
 # Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
 forms-fill-logins-and-passwords =
     .label = ログイン情報とパスワードを自動入力する
@@ -858,6 +976,7 @@ master-password-os-auth-dialog-caption = { -brand-full-name }
 ## Privacy Section - History
 
 history-header = 履歴
+
 # This label is followed, on the same line, by a dropdown list of options
 # (Remember history, etc.).
 # In English it visually creates a full sentence, e.g.
@@ -869,29 +988,37 @@ history-header = 履歴
 #   - As a stand-alone message, for example "Firefox history settings:".
 history-remember-label = { -brand-short-name } に
     .accesskey = w
+
 history-remember-option-all =
     .label = 履歴を記憶させる
 history-remember-option-never =
     .label = 履歴を一切記憶させない
 history-remember-option-custom =
     .label = 記憶させる履歴を詳細設定する
+
 history-remember-description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
 history-dontremember-description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
+
 history-private-browsing-permanent =
     .label = 常にプライベートブラウジングモード
     .accesskey = p
+
 history-remember-browser-option =
     .label = 表示したページとファイルのダウンロードの履歴を残す
     .accesskey = b
+
 history-remember-search-option =
     .label = 検索やフォームの入力履歴を記憶させる
     .accesskey = f
+
 history-clear-on-close-option =
     .label = { -brand-short-name } の終了時に履歴を消去する
     .accesskey = r
+
 history-clear-on-close-settings =
     .label = 設定...
     .accesskey = t
+
 history-clear-button =
     .label = 履歴を消去...
     .accesskey = s
@@ -991,14 +1118,14 @@ content-blocking-learn-more = 詳細情報
 
 # "Standard" in this case is an adjective, meaning "default" or "normal".
 enhanced-tracking-protection-setting-standard =
-  .label = 標準
-  .accesskey = d
+    .label = 標準
+    .accesskey = d
 enhanced-tracking-protection-setting-strict =
-  .label = 厳格
-  .accesskey = r
+    .label = 厳格
+    .accesskey = r
 enhanced-tracking-protection-setting-custom =
-  .label = カスタム
-  .accesskey = C
+    .label = カスタム
+    .accesskey = C
 ##
 
 content-blocking-etp-standard-desc = 保護と性能をバランスよく。ページが正しく機能するように読み込みます。
@@ -1022,37 +1149,37 @@ content-blocking-warning-learn-how = 詳細情報
 
 content-blocking-reload-description = これらの変更を適用するには、タブを再読み込みする必要があります。
 content-blocking-reload-tabs-button =
-  .label = すべてのタブを再読み込み
-  .accesskey = R
+    .label = すべてのタブを再読み込み
+    .accesskey = R
 
 content-blocking-tracking-content-label =
-  .label = トラッキングコンテンツ
-  .accesskey = T
+    .label = トラッキングコンテンツ
+    .accesskey = T
 content-blocking-tracking-protection-option-all-windows =
-  .label = すべての@@Window@@
-  .accesskey = A
+    .label = すべての@@Window@@
+    .accesskey = A
 content-blocking-option-private =
-  .label = プライベート@@Window@@のみ
-  .accesskey = p
+    .label = プライベート@@Window@@のみ
+    .accesskey = p
 content-blocking-tracking-protection-change-block-list = ブロックリストを変更
 
 content-blocking-cookies-label =
-  .label = Cookie
-  .accesskey = C
+    .label = Cookie
+    .accesskey = C
 
 content-blocking-expand-section =
-  .tooltiptext = 詳細情報
+    .tooltiptext = 詳細情報
 
 # Cryptomining refers to using scripts on websites that can use a computer’s resources to mine cryptocurrency without a user’s knowledge.
 content-blocking-cryptominers-label =
-  .label = 暗号通貨マイニング
-  .accesskey = y
+    .label = 暗号通貨マイニング
+    .accesskey = y
 
 # Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
 # that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
 content-blocking-fingerprinters-label =
-  .label = フィンガープリント採取
-  .accesskey = F
+    .label = フィンガープリント採取
+    .accesskey = F
 
 ## Privacy Section - Tracking
 
@@ -1125,23 +1252,30 @@ permissions-a11y-privacy-link = 詳細情報
 ## Privacy Section - Data Collection
 
 collection-header = { -brand-short-name } のデータ収集と利用について
+
 collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
 collection-privacy-notice = 個人情報保護方針
+
 collection-health-report-telemetry-disabled = { -vendor-short-name } への技術的な対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
 collection-health-report-telemetry-disabled-link = 詳細情報
+
 collection-health-report =
     .label = { -brand-short-name } が技術的な対話データを { -vendor-short-name } へ送信することを許可する
     .accesskey = r
 collection-health-report-link = 詳細情報
+
 collection-studies =
     .label = { -brand-short-name } に調査のインストールと実行を許可する
 collection-studies-link = { -brand-short-name } 調査を確認する
+
 addon-recommendations =
     .label = { -brand-short-name } にパーソナライズされた拡張機能のおすすめを許可する
 addon-recommendations-link = 詳細情報
+
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
 collection-health-report-disabled = このビルド設定ではヘルスレポートが無効化されています
+
 collection-backlogged-crash-reports =
     .label = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する
     .accesskey = c
@@ -1153,14 +1287,18 @@ collection-backlogged-crash-reports-link = 詳細情報
 ## https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
 
 security-header = セキュリティ
+
 security-browsing-protection = 詐欺コンテンツと危険なソフトウェアからの防護
+
 security-enable-safe-browsing =
     .label = 危険な詐欺コンテンツをブロックする
     .accesskey = B
 security-enable-safe-browsing-link = 詳細情報
+
 security-block-downloads =
     .label = 危険なファイルのダウンロードをブロックする
     .accesskey = d
+
 security-block-uncommon-software =
     .label = 不要な危険ソフトウェアを警告する
     .accesskey = c
@@ -1168,25 +1306,33 @@ security-block-uncommon-software =
 ## Privacy Section - Certificates
 
 certs-header = 証明書
+
 certs-personal-label = サーバーが個人証明書を要求したとき
+
 certs-select-auto-option =
     .label = 自動的に選択する
     .accesskey = S
+
 certs-select-ask-option =
     .label = 毎回自分で選択する
     .accesskey = A
+
 certs-enable-ocsp =
     .label = OCSP レスポンダーサーバーに問い合わせて証明書の現在の正当性を確認する
     .accesskey = Q
+
 certs-view =
     .label = 証明書を表示...
     .accesskey = C
+
 certs-devices =
     .label = セキュリティデバイス...
     .accesskey = D
+
 space-alert-learn-more-button =
     .label = 詳細情報
     .accesskey = L
+
 space-alert-over-5gb-pref-button =
     .label =
         { PLATFORM() ->
@@ -1198,14 +1344,17 @@ space-alert-over-5gb-pref-button =
             [windows] O
            *[other] O
         }
+
 space-alert-over-5gb-message =
     { PLATFORM() ->
         [windows] { -brand-short-name } を実行するためのディスク領域が足りません。ウェブサイトが正しく表示されない可能性があります。@@[@@オプション@@]@@ > @@[@@プライバシーとセキュリティ@@]@@ > @@[@@Cookie とサイトデータ@@]@@ から、保存されたデータを削除してください。
        *[other] { -brand-short-name } を実行するためのディスク領域が足りません。ウェブサイトが正しく表示されない可能性があります。@@[@@設定@@]@@ > @@[@@プライバシーとセキュリティ@@]@@ > @@[@@Cookie とサイトデータ@@]@@ から、保存されたデータを削除してください。
     }
+
 space-alert-under-5gb-ok-button =
     .label = OK
     .accesskey = K
+
 space-alert-under-5gb-message = { -brand-short-name } を実行するためのディスク領域が足りません。ウェブサイトが正しく表示されない可能性があります。快適なブラウジングのために、@@[@@詳細情報@@]@@ のリンク先を読み、ディスク使用量を最適化してください。
 
 ## Privacy Section - HTTPS-Only

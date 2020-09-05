@@ -142,10 +142,12 @@ urlbar-midi-blocked =
     .tooltiptext = このウェブサイトの MIDI へのアクセスをブロックしました。
 urlbar-install-blocked =
     .tooltiptext = このウェブサイトのアドオンのインストールをブロックしました。
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the edit bookmark command.
 urlbar-star-edit-bookmark =
     .tooltiptext = このページのブックマークを編集します ({ $shortcut })
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the add bookmark command.
 urlbar-star-add-bookmark =
@@ -176,12 +178,14 @@ full-screen-exit =
 # This string prompts the user to use the list of one-click search engines in
 # the Urlbar and searchbar.
 search-one-offs-with-title = 今回だけ使う検索エンジン:
+
 # This string won't wrap, so if the translated string is longer,
 # consider translating it as if it said only "Search Settings".
 search-one-offs-change-settings-button =
     .label = 検索設定を変更
 search-one-offs-change-settings-compact-button =
     .tooltiptext = 検索設定を変更します
+
 search-one-offs-context-open-new-tab =
     .label = @@NewTab@@で検索
     .accesskey = T
@@ -218,8 +222,10 @@ search-one-offs-history =
 bookmark-panel-show-editor-checkbox =
     .label = 追加時にエディターを表示する
     .accesskey = S
+
 bookmark-panel-done-button =
     .label = 完了
+
 # Width of the bookmark panel.
 # Should be large enough to fully display the Done and
 # Cancel/Remove Bookmark buttons.
@@ -295,12 +301,12 @@ popup-select-microphone =
 popup-all-windows-shared = 画面に表示されているすべての@@Window@@を共有します。
 
 popup-screen-sharing-not-now =
-  .label = 後で
-  .accesskey = w
+    .label = 後で
+    .accesskey = w
 
 popup-screen-sharing-never =
-  .label = 以後許可しない
-  .accesskey = N
+    .label = 以後許可しない
+    .accesskey = N
 
 popup-silence-notifications-checkbox = 共有中は { -brand-short-name } からの通知を無効にする。
 popup-silence-notifications-checkbox-warning = 共有中は { -brand-short-name } からの通知を表示しないようにします。
@@ -310,23 +316,24 @@ popup-silence-notifications-checkbox-warning = 共有中は { -brand-short-name 
 sharing-warning-window = { -brand-short-name } を共有しています。@@NewTab@@ に切り替えると、他の人にも見えます。
 sharing-warning-screen = 全画面を共有しています。@@NewTab@@ に切り替えると、他の人にも見えます。
 sharing-warning-proceed-to-tab =
-  .label = タブに移動
+    .label = タブに移動
 sharing-warning-disable-for-session =
-  .label = このセッションでは共有保護を無効にする。
+    .label = このセッションでは共有保護を無効にする。
 
 ## DevTools F12 popup
 
 enable-devtools-popup-description = F12 ショートカットを使うには、最初にメニューのウェブ開発から開発ツールを開いてください。
 
+
 ## URL Bar
 
 urlbar-default-placeholder =
-  .defaultPlaceholder = URL または検索語句を入力します
+    .defaultPlaceholder = URL または検索語句を入力します
 
 # This placeholder is used when not in search mode and the user's default search
 # engine is unknown.
 urlbar-placeholder =
-  .placeholder = URL または検索語句を入力します
+    .placeholder = URL または検索語句を入力します
 
 # This placeholder is used in search mode with search engines that search the
 # entire web.
@@ -334,8 +341,8 @@ urlbar-placeholder =
 #  $name (String): the name of a search engine that searches the entire Web
 #  (e.g. Google).
 urlbar-placeholder-search-mode-web-2 =
-  .placeholder = ウェブを検索します
-  .aria-label = { $name } で検索
+    .placeholder = ウェブを検索します
+    .aria-label = { $name } で検索
 
 # This placeholder is used in search mode with search engines that search a
 # specific site (e.g., Amazon).
@@ -343,42 +350,42 @@ urlbar-placeholder-search-mode-web-2 =
 #  $name (String): the name of a search engine that searches a specific site
 #  (e.g. Amazon).
 urlbar-placeholder-search-mode-other-engine =
-  .placeholder = 検索語句を入力を入力します
-  .aria-label = { $name } を検索
+    .placeholder = 検索語句を入力を入力します
+    .aria-label = { $name } を検索
 
 # This placeholder is used when searching bookmarks.
 urlbar-placeholder-search-mode-other-bookmarks =
-  .placeholder = 検索語句を入力を入力します
-  .aria-label = ブックマークを検索
+    .placeholder = 検索語句を入力を入力します
+    .aria-label = ブックマークを検索
 
 # This placeholder is used when searching history.
 urlbar-placeholder-search-mode-other-history =
-  .placeholder = 検索語句を入力を入力します
-  .aria-label = 履歴を検索
+    .placeholder = 検索語句を入力を入力します
+    .aria-label = 履歴を検索
 
 # This placeholder is used when searching open tabs.
 urlbar-placeholder-search-mode-other-tabs =
-  .placeholder = 検索語句を入力を入力します
-  .aria-label = タブを検索
+    .placeholder = 検索語句を入力を入力します
+    .aria-label = タブを検索
 
 # Variables
 #  $name (String): the name of the user's default search engine
 urlbar-placeholder-with-name =
-  .placeholder = Search with { $name } or enter address
+    .placeholder = Search with { $name } or enter address
 urlbar-remote-control-notification-anchor =
-  .tooltiptext = ブラウザーがリモート制御下にあります
+    .tooltiptext = ブラウザーがリモート制御下にあります
 urlbar-permissions-granted =
-  .tooltiptext = このウェブサイトで追加の権限を許可しました。
+    .tooltiptext = このウェブサイトで追加の権限を許可しました。
 urlbar-switch-to-tab =
-  .value = タブを表示:
+    .value = タブを表示:
 
 # Used to indicate that a selected autocomplete entry is provided by an extension.
 urlbar-extension =
-  .value = 拡張機能:
+    .value = 拡張機能:
 
 urlbar-go-button =
-  .tooltiptext = アドレスバーに入力された URL へ移動します
+    .tooltiptext = アドレスバーに入力された URL へ移動します
 urlbar-page-action-button =
-  .tooltiptext = ページ操作
+    .tooltiptext = ページ操作
 urlbar-pocket-button =
-  .tooltiptext = { -pocket-brand-name } に保存
+    .tooltiptext = { -pocket-brand-name } に保存

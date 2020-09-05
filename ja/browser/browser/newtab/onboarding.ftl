@@ -67,7 +67,7 @@ onboarding-import-sites-disclaimer = この端末から見つかったサイト�
 #   $current (Int) - Number of the current page
 #   $total (Int) - Total number of pages
 onboarding-welcome-steps-indicator =
-  .aria-label = はじめる: { $current } / { $total } ページ
+    .aria-label = はじめる: { $current } / { $total } ページ
 
 # The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
 # automatically added to the text inside it. "look" should stay inside the span.
@@ -94,55 +94,55 @@ onboarding-multistage-theme-label-alpenglow = Firefox Alpenglow
 
 # Tooltip displayed on hover of automatic theme
 onboarding-multistage-theme-tooltip-automatic =
-  .title = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
-  .aria-label = { onboarding-multistage-theme-tooltip-automatic.title }
+    .title = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
+    .aria-label = { onboarding-multistage-theme-tooltip-automatic.title }
 
 # Tooltip displayed on hover of light theme
 onboarding-multistage-theme-tooltip-light =
-  .title = 明るい外観のボタン、メニュー、@@Window@@を使用します
-  .aria-label = { onboarding-multistage-theme-tooltip-light.title }
+    .title = 明るい外観のボタン、メニュー、@@Window@@を使用します
+    .aria-label = { onboarding-multistage-theme-tooltip-light.title }
 
 # Tooltip displayed on hover of dark theme
 onboarding-multistage-theme-tooltip-dark =
-  .title = 暗い外観のボタン、メニュー、@@Window@@を使用します
-  .aria-label = { onboarding-multistage-theme-tooltip-dark.title }
+    .title = 暗い外観のボタン、メニュー、@@Window@@を使用します
+    .aria-label = { onboarding-multistage-theme-tooltip-dark.title }
 
 # Tooltip displayed on hover of Alpenglow theme
 onboarding-multistage-theme-tooltip-alpenglow =
-  .title = カラフルな外観のボタン、メニュー、@@Window@@を使用します
-  .aria-label = { onboarding-multistage-theme-tooltip-alpenglow.title }
+    .title = カラフルな外観のボタン、メニュー、@@Window@@を使用します
+    .aria-label = { onboarding-multistage-theme-tooltip-alpenglow.title }
 
 # Tooltip displayed on hover of automatic theme
 onboarding-multistage-theme-tooltip-automatic-2 =
-  .title = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
+    .title = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
 
 # Input description for automatic theme
 onboarding-multistage-theme-description-automatic-2 =
-  .aria-description = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
+    .aria-description = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
 
 # Tooltip displayed on hover of light theme
 onboarding-multistage-theme-tooltip-light-2 =
-  .title = 明るい外観のボタン、メニュー、@@Window@@を使用します
+    .title = 明るい外観のボタン、メニュー、@@Window@@を使用します
 
 # Input description for light theme
 onboarding-multistage-theme-description-light =
-  .aria-description = 明るい外観のボタン、メニュー、@@Window@@を使用します
+    .aria-description = 明るい外観のボタン、メニュー、@@Window@@を使用します
 
 # Tooltip displayed on hover of dark theme
 onboarding-multistage-theme-tooltip-dark-2 =
-  .title = 暗い外観のボタン、メニュー、@@Window@@を使用します
+    .title = 暗い外観のボタン、メニュー、@@Window@@を使用します
 
 # Input description for dark theme
 onboarding-multistage-theme-description-dark =
-  .aria-description = 暗い外観のボタン、メニュー、@@Window@@を使用します
+    .aria-description = 暗い外観のボタン、メニュー、@@Window@@を使用します
 
 # Tooltip displayed on hover of Alpenglow theme
 onboarding-multistage-theme-tooltip-alpenglow-2 =
-  .title = カラフルな外観のボタン、メニュー、@@Window@@を使用します
+    .title = カラフルな外観のボタン、メニュー、@@Window@@を使用します
 
 # Input description for Alpenglow theme
 onboarding-multistage-theme-description-alpenglow =
-  .aria-description = カラフルな外観のボタン、メニュー、@@Window@@を使用します
+    .aria-description = カラフルな外観のボタン、メニュー、@@Window@@を使用します
 
 ## Welcome full page string
 
