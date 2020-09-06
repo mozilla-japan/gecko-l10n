@@ -72,16 +72,7 @@
 <!ENTITY notCached.title		"ドキュメントが有効期限切れです">
 <!ENTITY notCached.longDesc		"<p>リクエストされた &brandShortName; のキャッシュ内のドキュメントは、利用できません。</p><ul><li>安全対策のため、&brandShortName; は注意を要するドキュメントを自動的に再リクエストしません。</li><li>&quot;再試行&quot; ボタンをクリックしてドキュメントをウェブサイトから読み込んでください。</li></ul>">
 
-<!ENTITY netOffline.title "オフラインになっています"><!-- Offline mode: オフラインモードになっています -->
-<!-- LOCALIZATION NOTE (netOffline.longDesc3) This string contains markup including widgets enabling wifi connections.
-     The text inside the tags should be localized. Do not touch the ids. -->
-<!ENTITY netOffline.longDesc3 "
-<ul>
-  <li>再度試してみてください。ネットワークに接続してページを再読み込みします。
-    <button id='wifi'>Wi-Fi を有効化</button>
-  </li>
-</ul>
-">
+<!ENTITY netOffline.title		"オフラインになっています"><!-- Offline mode: オフラインモードになっています -->
 
 <!ENTITY contentEncodingError.title	"内容符号化 (Content-Encoding) に問題があります">
 <!ENTITY contentEncodingError.longDesc	"
