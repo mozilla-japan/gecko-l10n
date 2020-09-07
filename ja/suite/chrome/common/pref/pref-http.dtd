@@ -15,11 +15,6 @@
 <!ENTITY prefEnableHTTP11Proxy.accesskey     "T">
 <!ENTITY prefPara                            "これらのオプションで HTTP 接続のパフォーマンスや互換性を向上させることができます。いくつかのプロキシーサーバーは、例えば HTTP/1.0 を必要とすることが知られています (詳細はリリースノートを参照してください)。">
 <!ENTITY prefUseragent.label                 "ユーザーエージェント文字列の設定">
-<!ENTITY prefFirefoxCompat.label             "Firefox 互換を表明する"><!--Advertise Firefox compatibility-->
-<!ENTITY prefFirefoxCompat.accesskey         "F">
-<!ENTITY prefLightningShow.label             "Lightning のインストールを表明する">
-<!ENTITY prefLightningShow.accesskey         "L">
-<!ENTITY prefCompatWarning                   "警告: この設定を無効にするとウェブサイトやサービスが正しく動作しなくなる可能性があります。">
 <!ENTITY prefFirefoxStrict.label             "Firefox のユーザーエージェント">
 <!ENTITY prefFirefoxStrict.accesskey         "I">
 <!ENTITY prefFirefoxNone.label               "SeaMonkey のユーザーエージェント">

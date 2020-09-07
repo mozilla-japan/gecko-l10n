@@ -11,8 +11,6 @@
 <!ENTITY pasteNoFormatting.label "整形せずに@@Paste@@">
 <!ENTITY pasteNoFormatting.accesskey "n">
 <!ENTITY pasteNoFormatting.key "V">
-<!ENTITY pasteAs.label "指定して@@Paste@@">
-<!ENTITY pasteAs.accesskey "a">
 <!ENTITY pasteAsQuotationCmd.label "引用文として@@Paste@@">
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
 <!ENTITY pasteAsQuotationCmd.key "o">
@@ -294,8 +292,6 @@
 <!ENTITY cutToolbarCmd.tooltip "@@Cut@@">
 <!ENTITY copyToolbarCmd.tooltip "コピー">
 <!ENTITY pasteToolbarCmd.tooltip "@@Paste@@">
-<!ENTITY printToolbarCmd.label "@@Print@@">
-<!ENTITY printToolbarCmd.tooltip "ページを@@Print@@します">
 <!ENTITY findToolbarCmd.label "検索">
 <!ENTITY findToolbarCmd.tooltip "ページ内の文字列を検索します">
 <!ENTITY spellToolbarCmd.label "スペル">
@@ -313,7 +309,6 @@
 <!ENTITY colorButtons.title "@@Colors@@">
 <!ENTITY TextColorButton.tooltip "テキストの@@Color@@を選択します">
 <!ENTITY BackgroundColorButton.tooltip "背景の@@Color@@を選択します">
-<!ENTITY throbber.tooltip "&vendorShortName; のホームページへ移動します">
 <!ENTITY HighlightColorButton.label "背景@@Color@@">
 <!ENTITY HighlightColorButton.tooltip "テキストの背景@@Color@@を選択します">
 

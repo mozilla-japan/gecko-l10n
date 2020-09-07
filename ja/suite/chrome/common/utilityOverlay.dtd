@@ -133,7 +133,6 @@
 
 <!ENTITY helpMenu.label			"ヘルプ">
 <!ENTITY helpMenu.accesskey		"H">
-
 <!-- LOCALIZATION NOTE some localizations of Windows use "?"
      for the help button in the menubar. -->
 <!ENTITY helpMenuWin.label		"ヘルプ">

@@ -5,11 +5,8 @@
 <!-- LOCALIZATION NOTE : FILE Mouse-wheel management prefs, for those lucky OSes that support mouse wheels -->
 
 <!ENTITY pref.mouseWheel.title           "マウスホイール">
-<!ENTITY mouseWheelPanel.label           "この装飾キーを使用した際のマウスホイールの動きを指定:">
-<!ENTITY usingJustTheWheel.label         "装飾キーなし">
-<!ENTITY usingWheelAndAlt.label          "&altKey.label;">
-<!ENTITY usingWheelAndCtrl.label         "&ctrlKey.label;">
-<!ENTITY usingWheelAndShft.label         "&shiftKey.label;">
+<!ENTITY mouseWheelPanel.label           "この修飾キーを使用した際のマウスホイールの動きを指定:">
+<!ENTITY usingJustTheWheel.label         "修飾キーなし">
 <!-- Key labels, for mousewheel prefs -->
 <!ENTITY usingWheelAndAlt.label2         "Alt">
 <!ENTITY usingWheelAndOption.label       "Option">

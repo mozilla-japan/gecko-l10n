@@ -4,9 +4,6 @@
 
 <!-- Title -->
 <!ENTITY addressbookWindow.title                        "アドレス帳">
-
-<!-- Menus:  the . means that the menu item isn't implemented yet -->
-
 <!ENTITY blankResultsPaneMessage.label                  "このアドレス帳には検索後の連絡先のみが表示されます">
 <!ENTITY localResultsOnlyMessage.label                  "リモートのアドレス帳からの連絡先は検索するまで表示されません">
 <!-- File Menu -->
@@ -60,7 +57,6 @@
 <!ENTITY lastFirstCmd.accesskey                         "L">
 <!ENTITY displayNameCmd.label                           "表示名">
 <!ENTITY displayNameCmd.accesskey                       "D">
-
 <!-- LOCALIZATION NOTE (toggleDirectoryPaneCmd.key): This is only used on the
      mac platform, other platforms use VK_F9. -->
 <!ENTITY toggleDirectoryPaneCmd.key                     "S">
@@ -98,7 +94,6 @@
 <!ENTITY newIM.tooltip                                  "インスタントメッセージを送信またはチャットをします">
 <!ENTITY printButton.tooltip                            "選択したアイテムを@@Print@@します">
 <!ENTITY deleteItemButton.tooltip                       "選択した連絡先またはアドレス帳を削除します">
-<!ENTITY throbber.tooltip                               "&vendorShortName; ホームページへ移動します">
 <!ENTITY advancedButton.tooltip                         "アドレスを検索します">
 
 <!-- Dir Tree header -->

@@ -61,8 +61,6 @@
 
 <!ENTITY  mediaTab              "メディア">
 <!ENTITY  mediaTab.accesskey    "M">
-<!ENTITY  mediaURL              "アドレス:">
-<!ENTITY  mediaAlt              "代替テキスト:">
 <!ENTITY  mediaLocation         "URL:">
 <!ENTITY  mediaText             "関連テキスト:">
 <!ENTITY  mediaAltHeader        "代替テキスト">
@@ -70,9 +68,6 @@
 <!ENTITY  mediaType             "種類">
 <!ENTITY  mediaSize             "サイズ">
 <!ENTITY  mediaCount            "訪問回数">
-<!ENTITY  mediaDimensions       "指定された寸法:">
-<!ENTITY  mediaPhysDimensions   "実寸:">
-<!ENTITY  mediaTitle            "タイトル属性:">
 <!ENTITY  mediaDimension        "寸法:">
 <!ENTITY  mediaLongdesc         "詳しい説明:">
 <!ENTITY  mediaBlockImage.accesskey "B">
@@ -88,18 +83,7 @@
 
 <!ENTITY  permTab               "許可">
 <!ENTITY  permTab.accesskey     "P">
-<!ENTITY  permUseDefault        "標準設定を使用する">
-<!ENTITY  permAskAlways         "毎回確認する">
-<!ENTITY  permAllow             "許可">
-<!ENTITY  permAllowSession      "セッション中のみ許可">
-<!ENTITY  permBlock             "ブロック">
 <!ENTITY  permissionsFor        "許可情報:">
-<!ENTITY  permImage             "画像の読み込み">
-<!ENTITY  permPopup             "ポップアップ@@Window@@を開く">
-<!ENTITY  permCookie            "Cookie の保存">
-<!ENTITY  permNotifications     "通知の表示">
-<!ENTITY  permInstall           "拡張機能またはテーマのインストール">
-<!ENTITY  permGeo               "位置情報の送信">
 
 <!ENTITY  securityTab           "セキュリティ">
 <!ENTITY  securityTab.accesskey "S">
@@ -113,7 +97,6 @@
 <!ENTITY  securityView.identity.owner    "運営者:">
 <!ENTITY  securityView.identity.domain   "ウェブサイト:">
 <!ENTITY  securityView.identity.verifier "認証局:">
-
 <!ENTITY  securityView.identity.validity "有効期限:">
 
 <!ENTITY  securityView.privacy.header                   "プライバシーと履歴">

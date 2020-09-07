@@ -135,7 +135,6 @@
 <!ENTITY showThreadPaneCmd.accesskey           "T">
 <!ENTITY showFolderPaneCmd.label               "フォルダーペイン">
 <!ENTITY showFolderPaneCmd.accesskey           "F">
-
 <!-- LOCALIZATION NOTE (toggleFolderPaneCmd.key): This is only used on the
      mac platform, other platforms use VK_F9. -->
 <!ENTITY toggleFolderPaneCmd.key               "S">
@@ -451,7 +450,6 @@
 <!ENTITY markButton.tooltip                 "メッセージにマークを付けます">
 <!ENTITY printButton.tooltip                "このメッセージを@@Print@@します">
 <!ENTITY stopButton.tooltip                 "送受信処理を中止します">
-<!ENTITY throbber.tooltip                   "&vendorShortName; のホームページへ移動します">
 <!ENTITY junkButton.tooltip                 "メッセージに迷惑マークを付けます">
 <!ENTITY notJunkButton.tooltip              "メッセージの迷惑マークを外します">
 

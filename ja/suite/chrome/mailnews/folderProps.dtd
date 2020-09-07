@@ -59,7 +59,6 @@
 <!ENTITY folderType.label                        "フォルダーの種類:">
 
 <!ENTITY folderQuotaTab.label                    "クォータ">
-<!ENTITY folderQuotaRoot.label                   "クォータルート:">
 <!ENTITY folderQuotaUsage.label                  "使用容量:">
 <!ENTITY folderQuotaStatus.label                 "使用割合:">
 
