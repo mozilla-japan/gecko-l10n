@@ -15,7 +15,6 @@
 
 <!ENTITY closeOtherTabs.label "他のタブを閉じる">
 <!ENTITY closeOtherTabs.accesskey "T">
-
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
@@ -25,14 +24,11 @@ left instead of right. -->
 <!ENTITY uploadFile.label "ファイルをアップロード...">
 <!ENTITY uploadFile.accesskey "F">
 
-<!ENTITY printSetupCmd.label "ページ設定...">
-<!ENTITY printSetupCmd.accesskey "u">
-
 <!-- Edit Menu -->
 <!ENTITY findOnCmd.label "ページ内を検索...">
 
 <!-- View Menu -->
-<!ENTITY toolbarsCmd.label "表示/非表示">
+<!ENTITY toolbarsCmd.label "表示/隠す">
 <!ENTITY toolbarsCmd.accesskey "w">
 <!ENTITY tabbarCmd.label "タブバー">
 <!ENTITY tabbarCmd.accesskey "T">

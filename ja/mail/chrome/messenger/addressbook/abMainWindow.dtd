@@ -46,38 +46,14 @@
 <!-- Edit Menu -->
 <!ENTITY editMenu.label				"編集">
 <!ENTITY editMenu.accesskey			"E">
-<!ENTITY undoCmd.label				"@@Undo@@">
-<!ENTITY undoCmd.key				"Z">
-<!ENTITY undoCmd.accesskey			"U">
-<!ENTITY redoCmd.label				"@@Redo@@">
-<!ENTITY redoCmd.key				"Y">
-<!ENTITY redoCmd.accesskey			"R">
-<!ENTITY cutCmd.label				"@@Cut@@">
-<!ENTITY cutCmd.key				"X">
-<!ENTITY cutCmd.accesskey			"t">
-<!ENTITY copyCmd.label				"コピー">
-<!ENTITY copyCmd.key				"C">
-<!ENTITY copyCmd.accesskey			"C">
-<!ENTITY pasteCmd.label				"@@Paste@@">
-<!ENTITY pasteCmd.key				"V">
-<!ENTITY pasteCmd.accesskey			"P">
 <!ENTITY deleteCmd.label			"削除">
-<!ENTITY deleteCmd.accesskey			"D">
 <!ENTITY deleteAbCmd.label			"アドレス帳を削除">
 <!ENTITY deleteContactCmd.label			"連絡先を削除">
 <!ENTITY deleteContactsCmd.label		"連絡先を削除">
 <!ENTITY deleteListCmd.label			"リストを削除">
 <!ENTITY deleteListsCmd.label			"リストを削除">
 <!ENTITY deleteItemsCmd.label			"アイテムを削除">
-<!ENTITY selectAllCmd.label			"@@SelectAll@@">
-<!ENTITY selectAllCmd.key			"A">
 <!ENTITY searchAddressesCmd.key			"f">
-<!ENTITY selectAllCmd.accesskey			"A">
-<!ENTITY swapFirstNameLastNameCmd.label		"姓と名を入れ換える">
-<!ENTITY swapFirstNameLastNameCmd.accesskey	"w">
-<!-- LOCALIZATION NOTE (hideSwapFnLnUI) : DONT_TRANSLATE -->
-<!-- Swap FN/LN UI  Set to "false" to show swap fn/ln UI -->
-<!ENTITY hideSwapFnLnUI				"true">
 <!ENTITY propertiesMenu.label			"@@PropertyCMD@@">
 <!ENTITY propertiesMenu.accesskey		"i">
 <!ENTITY propertiesCmd.key			"i">
@@ -126,9 +102,6 @@ because displayed names don't have the comma in between. -->
 <!ENTITY messengerCmd.label			"メールとニュースグループ">
 <!ENTITY messengerCmd.accesskey			"M">
 <!ENTITY messengerCmd.commandkey		"1">
-<!ENTITY addressBookCmd.label			"アドレス帳">
-<!ENTITY addressBookCmd.accesskey		"a">
-<!ENTITY addressBookCmd.key			"B">
 <!ENTITY searchAddressesCmd.label		"アドレスを検索...">
 <!ENTITY searchAddressesCmd.accesskey		"S">
 <!ENTITY importCmd.label			"@@Import@@...">
@@ -152,6 +125,8 @@ because displayed names don't have the comma in between. -->
 <!ENTITY propertiesContext.accesskey		"i">
 <!ENTITY abPropertiesContext.label		"@@PropertyCMD@@">
 <!ENTITY abPropertiesContext.accesskey		"i">
+<!ENTITY syncContext.label			"サーバーと同期">
+<!ENTITY syncContext.accesskey			"y">
 <!ENTITY editContactContext.label		"連絡先を編集">
 <!ENTITY editContactContext.accesskey		"E">
 <!ENTITY editMailingListContext.label		"リストを編集">

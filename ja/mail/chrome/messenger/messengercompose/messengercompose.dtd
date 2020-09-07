@@ -68,15 +68,9 @@
 <!ENTITY redoCmd.label			"@@Redo@@">
 <!ENTITY redoCmd.key			"Y">
 <!ENTITY redoCmd.accesskey		"r">
-<!ENTITY cutCmd.label			"@@Cut@@">
 <!ENTITY cutCmd.key			"X">
-<!ENTITY cutCmd.accesskey		"t">
-<!ENTITY copyCmd.label			"コピー">
 <!ENTITY copyCmd.key			"C">
-<!ENTITY copyCmd.accesskey		"c">
-<!ENTITY pasteCmd.label			"@@Paste@@">
 <!ENTITY pasteCmd.key			"V">
-<!ENTITY pasteCmd.accesskey		"p">
 <!ENTITY pasteNoFormattingCmd.key	"V">
 <!ENTITY pasteAsQuotationCmd.key	"o">
 <!ENTITY deleteCmd.label		"削除">
@@ -91,14 +85,7 @@
 <!ENTITY reorderAttachmentsCmd.key	"x">
 <!ENTITY toggleAttachmentPaneCmd.label	"添付ペイン">
 <!ENTITY toggleAttachmentPaneCmd.accesskey	"m">
-<!-- LOCALIZATION NOTE (toggleAttachmentPaneCmd.key):
-     As Mac does not have access keys, this key defines a Mac-only, cross-l10n
-     shortcut key (Ctrl+M). Typically, this key should not be translated unless
-     otherwise required by specific needs of the localization. -->
-<!ENTITY toggleAttachmentPaneCmd.key	"m">
-<!ENTITY selectAllCmd.label		"@@SelectAll@@">
 <!ENTITY selectAllCmd.accesskey		"a">
-<!ENTITY selectAllCmd.key		"A">
 <!ENTITY findBarCmd.label		"検索...">
 <!ENTITY findBarCmd.accesskey		"F">
 <!ENTITY findBarCmd.key			"F">
@@ -253,23 +240,12 @@
 <!ENTITY printButton.tooltip		"このメッセージを@@Print@@します">
 
 <!-- Headers -->
-<!--LOCALIZATION NOTE headersSpace.style is for aligning  the From:, To: and
-    Subject: rows. It should be larger than the largest Header label  -->
-<!ENTITY headersSpace.style		"width: 9em;"><!-- (^m^) 以下の項目名が判別できればよい en-US: "width:9em" -->
-<!ENTITY fromAddr.label			"差出人:">
 <!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
     Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY headersSpace2.style		"width: 8em;"><!-- (^m^) 以下の項目名が判別できればよい en-US: "width:8em" -->
 <!ENTITY extraRecipients.tooltip	"他の種類の宛先入力">
 <!ENTITY fromAddr2.label		"差出人">
 <!ENTITY fromAddr.accesskey		"r">
-<!ENTITY toAddr.label			"宛先:">
-<!ENTITY ccAddr.label			"Cc:">
-<!ENTITY bccAddr.label			"Bcc:">
-<!ENTITY replyAddr.label		"Reply-To:">
-<!ENTITY newsgroupsAddr.label		"ニュースグループ:">
-<!ENTITY followupAddr.label		"Followup-To:">
-<!ENTITY subject.label			"件名:">
 <!ENTITY toAddr2.label			"宛先">
 <!ENTITY ccAddr2.label			"Cc">
 <!ENTITY bccAddr2.label			"Bcc">
@@ -278,14 +254,6 @@
 <!ENTITY followupAddr2.label		"Followup-To">
 <!ENTITY subject2.label			"件名">
 <!ENTITY subject.accesskey		"S">
-<!-- LOCALIZATION NOTE (attachments.accesskey) This access key character should
-     be taken from the strings of attachmentCount in composeMsgs.properties.
-     Please ensure that this access key is unique: Do not duplicate any other
-     first-level access keys of the compose window, e.g. those of main menu,
-     buttons, or labels (message headers, contacts side bar, attachment reminder
-     bar). -->
-<!ENTITY attachments.accesskey		"m">
-<!ENTITY attachmentBucketHeader.tooltip		"添付ペイン">
 <!ENTITY attachmentBucketCloseButton.tooltip	"添付ペインを隠す">
 
 <!-- Format Toolbar, imported from editorAppShell.xhtml -->

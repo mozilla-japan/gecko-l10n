@@ -1077,3 +1077,6 @@ dom, toolkit, ...       13566:67234acd06a0   2020-09-02     mar             sync
 browser                 13566:67234acd06a0   2020-09-02     hATrayflood     sync browser
 devtools                13566:67234acd06a0   2020-09-02     hATrayflood     sync devtools
 mobile                  13566:67234acd06a0   2020-09-02     mar             sync mobile (remove only)
+mail, calendar, chat    13566:67234acd06a0   2020-09-02     mar             sync mail, calendar, chat
+suite, editor/ui, ...   13566:67234acd06a0   2020-09-02     mar             sync suite, editor/ui, services/sync
+

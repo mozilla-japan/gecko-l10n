@@ -72,10 +72,6 @@ manage-messenger-languages-button =
     .accesskey = l
 confirm-messenger-language-change-description = これらの変更を適用するには { -brand-short-name } を再起動してください
 confirm-messenger-language-change-button = 適用して再起動
-update-pref-write-failure-title = 書き込み失敗
-# Variables:
-#   $path (String) - Path to the configuration file
-update-pref-write-failure-message = 設定を保存できません。ファイルへの書き込みができませんでした: { $path }
 update-setting-write-failure-title = 変更した設定の保存エラー
 # Variables:
 #   $path (String) - Path to the configuration file

@@ -20,13 +20,9 @@
 <!ENTITY rights.intro-point1b "Mozilla Public License">
 <!ENTITY rights.intro-point1c " の条項下で提供されます。これにより、あなたは &brandShortName; を使用、複製、配布することができます。あなたはまた、&brandShortName; のソースコードを必要に応じて修正することもできます。Mozilla Public License では、あなたが修正したバージョンを配布することも認めています。">
 
-<!ENTITY rights.intro-point2a "SeaMonkey e.V は、SeaMonkey の商標およびロゴについては、何らの権利もあなたに与えるものではありません。商標について詳しくは ">
 <!ENTITY rights.intro-point2aa "&vendorShortName; は、&quot;&brandFullName;&quot; の商標およびロゴについては、何らの権利もあなたに与えるものではありません。商標について詳しくは ">
 <!ENTITY rights.intro-point2b "SeaMonkey 商標ポリシー">
 <!ENTITY rights.intro-point2c " をご確認ください。">
-
-<!-- point 2d is technically point 3. in the list -->
-<!ENTITY rights.intro-point2d "クラッシュレポーターなど &brandShortName; の一部の機能には、&vendorShortName; へフィードバックを送信するオプションがあります。あなたがフィードバックの送信を選択することにより、&vendorShortName; がそのフィードバックを製品の改善および &vendorShortName; ウェブサイトでの公開、配布のために使用する許可を &vendorShortName; に与えるものとします。">
 
 <!-- point 2da is technically point 3. in the list -->
 <!ENTITY rights.intro-point2da "クラッシュレポーターなど &brandShortName; の一部の機能には、&vendorShortName; へフィードバックを送信するオプションがあります。あなたがフィードバックの送信を選択することにより、&vendorShortName; がそのフィードバックを製品の改善および &vendorShortName; ウェブサイトでの公開、配布のために使用する許可を &vendorShortName; に与えるものとします。">
@@ -47,8 +43,6 @@
      preferences.dtd, pref-smartupdate.dtd, and pref-security.dtd,
      so that we can refer to text the user sees in the UI, without
      this page being forgotten every time those strings are updated.  -->
-<!-- intro paragraph for branded builds -->
-<!ENTITY rights3.webservices-a "&brandFullName; は、搭載された機能のために用意されたウェブベースの情報サービス (以下「本サービス」と呼びます) を利用しており、これらは下記の通り &brandShortName; のバイナリー版とともに利用できます。これらのサービス (アドオンの提案と更新サービス、セーフブラウジングサービス、位置情報を利用したウェブブラウジングの通知機能) の一部は@@Default@@で有効です。 本サービスのいずれかをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、">
 <!-- intro paragraph for branded builds -->
 <!ENTITY rights3.webservices-aa "&vendorShortName; は、搭載された機能のために用意されたウェブベースの情報サービス (以下「本サービス」と呼びます) を利用しており、これらは下記の通り &brandShortName; のバイナリー版とともに利用できます。これらのサービス (アドオンの提案と更新サービス、セーフブラウジングサービス、位置情報を利用したウェブブラウジングの通知機能) の一部は@@Default@@で有効です。 本サービスのいずれかをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、">
 <!ENTITY rights3.webservices-b "機能やサービスを無効化する手順">
@@ -79,16 +73,10 @@
 <!ENTITY rights.locationawarebrowsing-term4 "位置情報検出機能が無効になります">
 
 <!-- points 0-6 text for branded builds -->
-<!ENTITY rights.webservices-term0 "&vendorShortName; ならびにその貢献者、ライセンサー、およびパートナーは、最も正確かつ最新のサービスの提供に努めています。ただし、この情報が包括的で誤りがないことは保証できません。例えば、セーフブラウジングサービスが危険なサイトを適切に識別しない、または安全なサイトを誤って危険なサイトとして識別する可能性があります。また、位置情報検出サービスによるすべての位置情報は評価のためだけに使用され、提供された位置の正確さを保証するものではありません。">
-
-<!-- points 0-6 text for branded builds -->
 <!ENTITY rights.webservices-term0a "&vendorShortName; ならびにその貢献者、ライセンサー、およびパートナーは、最も正確かつ最新のサービスの提供に努めています。ただし、この情報が包括的で誤りがないことは保証できません。例えば、セーフブラウジングサービスが危険なサイトを適切に識別しない、または安全なサイトを誤って危険なサイトとして識別する可能性があります。また、位置情報検出サービスのためのすべての位置情報は評価のためだけに使用され、提供された位置の正確さを保証するものではありません。">
 <!ENTITY rights.webservices-term1 "&vendorShortName; は、独自の判断に基づいて本サービスを変更または中止することがあります。">
-<!ENTITY rights.webservices-term2 "本サービスは、&brandShortName; に付属するバージョンとともにご利用いただけます。あなたは、そのために必要なすべての権利を保有します。&vendorShortName; およびそのライセンサーは、本サービスに関するそれ以外のすべての権利を保留しています。本利用規約の規定は、&brandShortName; および &brandShortName; のソースコードについて、オープンソースライセンスにより許諾される権利を何ら制限するものではありません。">
 <!ENTITY rights.webservices-term2a "本サービスは、&brandShortName; に付属するバージョンとともにご利用いただけます。あなたは、そのために必要なすべての権利を保有します。&vendorShortName; およびそのライセンサーは、本サービスに関するそれ以外のすべての権利を保留しています。本利用規約の規定は、&brandShortName; および &brandShortName; のソースコードについて、オープンソースライセンスにより許諾される権利を何ら制限するものではありません。">
 <!ENTITY rights.webservices-term3 "本サービスは、「現状のまま」で提供されるものです。&vendorShortName; ならびにその貢献者、ライセンサー、およびディストリビューターは、あらゆる明示的および黙示的な保証を否認します。否認される保証には、本サービスに商業性があること、および本サービスが特定の目的に適合することの保証が含まれますが、これらに限定されません。目的に対するサービスの選択、ならびにサービスの品質および性能に関するリスクは、すべてあなたが負います。国や地域によっては黙示的な保証の除外または制限が法律上認められない場合がありますが、その場合にはこの条項は適用されません。">
 <!ENTITY rights.webservices-term4 "法の定めによる場合を除き、&vendorShortName; ならびにその貢献者、ライセンサー、およびディストリビューターは、&brandShortName;、または本サービスの使用もしくは使用できないことに起因またはいかなる形においても関連して生じた、間接的損害、特別損害、付随的損害、派生的損害、または懲罰的損害に関して一切責任を負いません。本利用規約に基づく責任の総額は、500 米ドルを上限とします。国や地域によっては特定の損害の除外または制限が法律上認められない場合がありますが、その場合にはこの条項は適用されません。">
 <!ENTITY rights.webservices-term5 "&vendorShortName; では、本利用規約を必要に応じて改訂することがあります。本利用規約は、&vendorShortName; の書面による合意なしに変更もしくは終了されることはありません。">
-<!ENTITY rights.webservices-term6 "本利用規約は、ドイツ連邦共和国の法律に準拠して解釈され、これらの規約に関連して発生するすべての紛争はドイツの管轄裁判所の専属管轄権に服するものとします。本契約の一部が無効または執行不能と判断された場合でも、残りの部分は引き続き有効に存続するものとします。本利用規約は、参考のために作成した日本語訳文であり、ライセンスの内容を表示するものではありません。利用規約の内容については英文の規約によるものとします。本訳文と英文の規約に矛盾があった場合には英文の規約が優先します。">
-
 <!ENTITY rights.webservices-term6a "本利用規約は、ドイツ連邦共和国の法律に準拠して解釈され、これらの規約に関連して発生するすべての紛争はドイツの管轄裁判所の専属管轄権に服するものとします。本契約の一部が無効または執行不能と判断された場合でも、残りの部分は引き続き有効に存続するものとします。本利用規約は、参考のために作成した日本語訳文であり、ライセンスの内容を表示するものではありません。利用規約の内容については英文の規約によるものとします。本訳文と英文の規約に矛盾があった場合には英文の規約が優先します。">

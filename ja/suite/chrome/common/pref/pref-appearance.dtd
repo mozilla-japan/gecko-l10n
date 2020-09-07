@@ -20,7 +20,6 @@
 <!ENTITY textonlyRadio.accesskey                "x">
 <!ENTITY showHideTooltips.label                 "ツールチップを表示する">
 <!ENTITY showHideTooltips.accesskey             "T">
-
 <!ENTITY showHideGrippies.label                 "ツールバーのグリッピーを隠す">
 <!ENTITY showHideGrippies.accesskey             "G">
 

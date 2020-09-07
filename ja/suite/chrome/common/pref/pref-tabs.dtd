@@ -14,14 +14,7 @@
 <!ENTITY relatedAfterCurrent.label "@@NewTab@@を現在のタブのあとに開く"><!--Open related tabs after current tab-->
 <!ENTITY relatedAfterCurrent.accesskey "O">
 
-<!ENTITY loadGroup.label "ブックマークグループを開くときの処理">
-<!ENTITY loadGroupAppend.label "@@NewTab@@を追加する">
-<!ENTITY loadGroupAppend.accesskey "A">
-<!ENTITY loadGroupReplace.label "既存のタブを置き換える">
-<!ENTITY loadGroupReplace.accesskey "R">
-
 <!ENTITY openTabs.label "@@Window@@の代わりにタブを開く場合">
-
 <!ENTITY middleClick.label "ウェブページ内のリンクを中クリック、Ctrl+クリックまたは Ctrl+Enter">
 <!ENTITY middleClick.accesskey "M">
 <!ENTITY middleClickMac.label "ウェブページ内のリンクを中クリック、&#8984;+クリックまたは &#8984;+Return">

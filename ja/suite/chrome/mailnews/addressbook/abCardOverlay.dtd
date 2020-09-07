@@ -32,7 +32,6 @@
 <!ENTITY DisplayName.label              "表示名:">
 <!ENTITY DisplayName.accesskey          "D">
 <!ENTITY preferDisplayName.label        "メッセージヘッダーでは常に表示名を優先する">
-<!ENTITY preferDisplayName.accesskey    "A">
 <!ENTITY preferDisplayName2.accesskey   "y">
 <!ENTITY NickName.label                 "ニックネーム:">
 <!ENTITY NickName.accesskey             "N">
@@ -46,9 +45,6 @@
 <!ENTITY PlainText.label                "テキスト">
 <!ENTITY HTML.label                     "HTML">
 <!ENTITY Unknown.label                  "不明">
-<!ENTITY ScreenName.label               "スクリーンネーム:">
-<!ENTITY ScreenName.accesskey           "S">
-
 <!ENTITY chatName.label                 "チャット名:">
 
 <!ENTITY WorkPhone.label                "勤務先:">

@@ -12,9 +12,6 @@
 <!ENTITY iconsBesideText.label		"アイコンの横にテキスト">
 <!ENTITY useSmallIcons.label		"小さいアイコンを使用">
 <!ENTITY restoreDefaultSet.label	"初期設定に戻す">
-<!ENTITY addNewToolbar.label		"ツールバーを追加">
-<!ENTITY showTitlebar.label		"タイトルバーを表示">
-<!ENTITY extraDragSpace.label		"ドラッグスペースを追加">
 <!ENTITY showTitlebar2.label		"タイトルバー">
 <!ENTITY extraDragSpace2.label		"ドラッグスペース">
 <!ENTITY saveChanges.label		"完了">

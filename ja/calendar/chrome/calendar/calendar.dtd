@@ -9,8 +9,6 @@
 <!ENTITY calendar.newevent.button.tooltip		"@@New-CMD@@予定を作成します" >
 <!ENTITY calendar.newtask.button.tooltip		"@@New-CMD@@ ToDo を作成します" >
 
-<!ENTITY calendar.unifinder.todoitems.label		"ToDo" >
-
 <!ENTITY calendar.unifinder.showcompletedtodos.label	"完了した ToDo を表示">
 
 <!ENTITY calendar.today.button.label			"今日">
@@ -354,7 +352,6 @@
 <!ENTITY calendarproperties.color.label			"@@Color@@:">
 <!ENTITY calendarproperties.webdav.label		"iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label		"CalDAV">
-<!ENTITY calendarproperties.wcap.label			"Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label		"フォーマット:">
 <!ENTITY calendarproperties.location.label		"場所:">
 <!ENTITY calendarproperties.refreshInterval.label	"カレンダーの更新:">
@@ -363,7 +360,6 @@
 <!ENTITY calendarproperties.readonly.label		"読み込み専用">
 <!ENTITY calendarproperties.firealarms.label		"アラーム通知する">
 <!ENTITY calendarproperties.cache3.label		"オフラインサポート">
-<!ENTITY calendarproperties.enabled.label		"このカレンダーを有効にする">
 <!ENTITY calendarproperties.enabled2.label		"このカレンダーを有効にする">
 <!ENTITY calendarproperties.forceDisabled.label		"このカレンダーのプロバイダーが見つかりませんでした。対象のアドオンが無効にされているかアンインストールされています。">
 <!ENTITY calendarproperties.unsubscribe.label		"登録解除">
