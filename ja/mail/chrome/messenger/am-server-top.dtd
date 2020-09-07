@@ -66,8 +66,6 @@
 <!ENTITY maxMessagesEnd.label		"以上になる場合は確認する">
 <!ENTITY alwaysAuthenticate.label	"サーバーへ接続するときは必ず認証を要求する">
 <!ENTITY alwaysAuthenticate.accesskey	"w">
-<!ENTITY newsrcFilePath.label		"newsrc ファイル:">
-<!ENTITY newsrcPicker.label		"newsrc ファイルを選択してください">
 <!ENTITY newsrcFilePath1.label		"News.rc ファイル:">
 <!ENTITY newsrcPicker1.label		"News.rc ファイルを選択してください">
 <!ENTITY abbreviate.label		"ニュースグループ名の表示形式:">
@@ -76,7 +74,6 @@
 <!ENTITY advancedButton.label		"詳細...">
 <!ENTITY advancedButton.accesskey	"v">
 <!ENTITY serverDefaultCharset2.label	"@@Default-@@テキストエンコーディング:">
-<!ENTITY localPath.label		"メッセージの保存先:"><!-- en-US: Local directory -->
 <!ENTITY localPath1.label		"メッセージの保存先:"><!-- en-US: Local Directory -->
 <!ENTITY localFolderPicker.label	"メッセージデータの保存先を選択してください">
 <!ENTITY browseFolder.label		"@@Browse@@...">

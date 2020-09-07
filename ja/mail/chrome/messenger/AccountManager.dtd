@@ -2,12 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from AccountManager.xul -->
-
 <!-- extracted from AccountManager.xhtml -->
 
 <!ENTITY accountManagerTitle.label	"アカウント設定">
-
 <!ENTITY  accountManagerCloseButton.label	"閉じる">
 
 <!ENTITY accountActionsButton.label	"アカウント操作">
@@ -24,8 +21,6 @@
 <!ENTITY setDefaultButton.accesskey	"D">
 <!ENTITY removeButton.label		"アカウントを削除">
 <!ENTITY removeButton.accesskey		"R">
-
-<!-- AccountManager.xul -->
 
 <!-- AccountManager.xhtml -->
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the account

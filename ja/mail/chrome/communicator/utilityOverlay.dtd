@@ -12,30 +12,15 @@
 <!ENTITY editMenu.label			"編集">
 <!ENTITY editMenu.accesskey		"E">
 <!ENTITY undoCmd.label			"@@Undo@@">
-<!ENTITY undoCmd.key			"Z">
 <!ENTITY undoCmd.accesskey		"U">
 <!ENTITY redoCmd.label			"@@Redo@@">
-<!ENTITY redoCmd.key			"Y">
 <!ENTITY redoCmd.accesskey		"R">
-<!ENTITY cutCmd.label			"@@Cut@@">
-<!ENTITY cutCmd.key			"X">
-<!ENTITY cutCmd.accesskey		"t">
-<!ENTITY copyCmd.label			"コピー">
-<!ENTITY copyCmd.key			"C">
-<!ENTITY copyCmd.accesskey		"C">
-<!ENTITY pasteCmd.label			"@@Paste@@">
-<!ENTITY pasteCmd.key			"V">
-<!ENTITY pasteCmd.accesskey		"P">
 <!ENTITY deleteCmd.label		"削除">
 <!ENTITY deleteCmd.accesskey		"D">
-<!ENTITY selectAllCmd.label		"@@SelectAll@@">
-<!ENTITY selectAllCmd.key		"A">
-<!ENTITY selectAllCmd.accesskey		"A">
 <!ENTITY preferencesCmd2.label		"オプション">
 <!ENTITY preferencesCmd2.accesskey	"O">
 <!ENTITY preferencesCmdUnix.label	"設定">
 <!ENTITY preferencesCmdUnix.accesskey	"n">
-
 <!ENTITY customizeCmd.label		"カスタマイズ">
 <!ENTITY customizeCmd.accesskey		"t">
 

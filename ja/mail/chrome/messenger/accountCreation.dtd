@@ -2,20 +2,15 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY autoconfigWizard2.title	"既存メールアカウントのセットアップ">
-
 <!ENTITY emailWizard.title		"既存のメールアドレスのセットアップ">
 <!ENTITY emailWizard.caption		"現在のメールアドレスを入力してください">
 <!ENTITY name.label			"あなたのお名前:">
 <!ENTITY name.accesskey			"n">
-<!ENTITY name.placeholder		"氏名またはニックネーム">
 <!ENTITY fullname.placeholder		"あなたのフルネーム">
 <!ENTITY name.text			"受信者に表示される名前です">
 <!ENTITY name.error			"お名前を入力してください">
 <!ENTITY email.label			"メールアドレス:">
 <!ENTITY email.accesskey		"E">
-<!-- LOCALIZATION NOTE(email.placeholder): Domain @example.com must stay in English -->
-<!ENTITY email2.placeholder		"you@example.com">
 <!ENTITY email3.placeholder		"あなたのメールアドレス">
 <!ENTITY email.text			"既存のメールアドレスです">
 <!ENTITY email.error			"メールアドレスが正しくありません">
@@ -43,9 +38,6 @@
 <!ENTITY outgoing.label			"送信サーバー:">
 <!ENTITY outgoingColumn.label		"送信サーバー">
 <!ENTITY username.label			"ユーザー名:">
-<!ENTITY hostname.label			"サーバーのホスト名">
-<!ENTITY port.label			"ポート番号">
-<!ENTITY ssl.label			"SSL">
 <!ENTITY serverRow.label		"サーバー:">
 <!ENTITY portRow.label			"ポート番号:">
 <!ENTITY sslRow.label			"SSL:">
@@ -79,13 +71,10 @@
      the user has manually changed. -->
 <!ENTITY half-manual-test.label		"再テスト">
 <!ENTITY half-manual-test.accesskey	"t">
-<!ENTITY manual-edit.label		"手動設定">
-<!ENTITY manual-edit.accesskey		"M">
 <!ENTITY manual-config.label		"手動設定...">
 <!ENTITY manual-config.accesskey	"M">
 <!ENTITY open-provisioner.label		"@@New-CMD@@メールアドレスを取得...">
 <!ENTITY open-provisioner.accesskey	"g">
-
 <!ENTITY get-help.label			"ヘルプ">
 <!ENTITY get-help.accesskey		"H">
 

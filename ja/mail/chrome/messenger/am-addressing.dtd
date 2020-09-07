@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xul -->
-
 <!-- extracted from am-addressing.xhtml -->
 
 <!ENTITY addressing.label		"編集とアドレス入力">
@@ -18,8 +16,6 @@
 <!ENTITY directories.label		"個別の LDAP サーバーを指定する:">
 <!ENTITY directories.accesskey		"d">
 <!ENTITY directoriesNone.label		"None">
-
-<!-- am-addressing.xul -->
 
 <!-- am-addressing.xhtml -->
 
