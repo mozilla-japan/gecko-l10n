@@ -409,6 +409,30 @@ urlbar-page-action-button =
 urlbar-pocket-button =
     .tooltiptext = { -pocket-brand-name } に保存
 
+
+## Action text shown in urlbar results, usually appended after the search
+## string or the url, like "result value - action text".
+
+# Used when the private browsing engine differs from the default engine.
+# The "with" format was chosen because the search engine name can end with
+# "Search", and we would like to avoid strings like "Search MSN Search".
+# Variables
+#  $engine (String): the name of a search engine
+urlbar-result-action-search-in-private-w-engine = プライベート@@Window@@の { $engine } で検索
+# Used when the private browsing engine is the same as the default engine.
+urlbar-result-action-search-in-private = プライベート@@Window@@で検索
+# The "with" format was chosen because the search engine name can end with
+# "Search", and we would like to avoid strings like "Search MSN Search".
+# Variables
+#  $engine (String): the name of a search engine
+urlbar-result-action-search-w-engine = { $engine } で検索
+urlbar-result-action-switch-tab = タブを表示
+urlbar-result-action-visit = 開く
+
+## Action text shown in urlbar results, usually appended after the search
+## string or the url, like "result value - action text".
+## In these actions "Search" is a verb, followed by where the search is performed.
+
 ## Full Screen and Pointer Lock UI
 
 # Please ensure that the domain stays in the `<span data-l10n-name="domain">` markup.
