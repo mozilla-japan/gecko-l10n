@@ -164,6 +164,14 @@ page-action-remove-extension =
 
 ## Page Action menu
 
+# Variables
+# $tabCount (integer) - Number of tabs selected
+page-action-send-tabs-panel =
+    .label = { $tabCount } 個のタブを端末へ送信
+page-action-send-tabs-urlbar =
+    .tooltiptext = { $tabCount } 個のタブを端末へ送信
+page-action-pocket-panel =
+    .label = ページを { -pocket-brand-name } に保存
 page-action-copy-url-panel =
     .label = リンクをコピー
 page-action-copy-url-urlbar =
@@ -172,6 +180,12 @@ page-action-email-link-panel =
     .label = ページの URL をメールで送信...
 page-action-email-link-urlbar =
     .tooltiptext = ページの URL をメールで送信...
+page-action-share-url-panel =
+    .label = 共有
+page-action-share-url-urlbar =
+    .tooltiptext = 共有
+page-action-share-more-panel =
+    .label = その他...
 page-action-send-tab-not-ready =
     .label = 端末を同期しています...
 # "Pin" is being used as a metaphor for expressing the fact that these tabs
