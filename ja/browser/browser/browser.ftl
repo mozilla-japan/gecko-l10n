@@ -353,7 +353,7 @@ urlbar-placeholder-search-mode-other-tabs =
 # Variables
 #  $name (String): the name of the user's default search engine
 urlbar-placeholder-with-name =
-    .placeholder = Search with { $name } or enter address
+    .placeholder = { $name } で検索、または URL を入力します
 urlbar-remote-control-notification-anchor =
     .tooltiptext = ブラウザーがリモート制御下にあります
 urlbar-permissions-granted =
