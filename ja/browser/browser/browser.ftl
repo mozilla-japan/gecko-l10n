@@ -162,6 +162,31 @@ page-action-remove-from-urlbar =
 page-action-remove-extension =
     .label = 拡張機能を削除
 
+## Page Action menu
+
+page-action-copy-url-panel =
+    .label = リンクをコピー
+page-action-copy-url-urlbar =
+    .tooltiptext = リンクをコピー
+page-action-email-link-panel =
+    .label = ページの URL をメールで送信...
+page-action-email-link-urlbar =
+    .tooltiptext = ページの URL をメールで送信...
+page-action-send-tab-not-ready =
+    .label = 端末を同期しています...
+# "Pin" is being used as a metaphor for expressing the fact that these tabs
+# are "pinned" to the left edge of the tabstrip. Really we just want the
+# string to express the idea that this is a lightweight and reversible
+# action that keeps your tab where you can reach it easily.
+page-action-pin-tab-panel =
+    .label = タブをピン留め
+page-action-pin-tab-urlbar =
+    .tooltiptext = タブをピン留め
+page-action-unpin-tab-panel =
+    .label = タブのピン留めを外す
+page-action-unpin-tab-urlbar =
+    .tooltiptext = タブのピン留めを外す
+
 ## Auto-hide Context Menu
 
 full-screen-autohide =
