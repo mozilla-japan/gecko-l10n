@@ -17,6 +17,7 @@ places-open-window =
 places-open-private-window =
     .label = @@New-CMD@@プライベート@@Window@@で開く
     .accesskey = P
+
 places-new-bookmark =
     .label = @@New-CMD@@ブックマーク...
     .accesskey = B
@@ -29,6 +30,7 @@ places-new-folder =
 places-new-separator =
     .label = @@New-CMD@@区切り
     .accesskey = S
+
 places-view =
     .label = 表示
     .accesskey = w
@@ -47,10 +49,12 @@ places-by-last-visited =
 places-by-day-and-site =
     .label = 日付とサイト名順に並べる
     .accesskey = t
+
 places-history-search =
     .placeholder = 履歴を検索
 places-bookmarks-search =
     .placeholder = ブックマークを検索
+
 places-delete-domain-data =
     .label = このサイトの履歴を消去
     .accesskey = F
@@ -60,3 +64,10 @@ places-sortby-name =
 places-properties =
     .label = @@PropertyCMD@@
     .accesskey = i
+
+# Managed bookmarks are created by an administrator and cannot be changed by the user.
+managed-bookmarks =
+    .label = 管理ブックマーク
+# This label is used when a managed bookmarks folder doesn't have a name.
+managed-bookmarks-subfolder =
+    .label = サブフォルダー
