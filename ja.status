@@ -1084,4 +1084,4 @@ suite, editor/ui, ...   13566:67234acd06a0   2020-09-02     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                 13618:6376000d0de6   2020-10-02     hATrayflood     sync browser
-
+dom, security, toolkit  13618:6376000d0de6   2020-10-02     hATrayflood     sync dom, security, toolkit
