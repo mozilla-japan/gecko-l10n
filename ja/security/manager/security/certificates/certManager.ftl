@@ -20,6 +20,7 @@ certmgr-mine = あなたが認証を受けるため以下の証明書が登録�
 certmgr-remembered = これらの証明書はウェブサイトがあなたを識別するために使用されます。
 certmgr-people = 他の人を識別するため以下の証明書が登録されています
 certmgr-servers = サーバーを識別するため以下の証明書が登録されています
+certmgr-server = これらのエントリーはサーバー証明書のエラー例外を識別します
 certmgr-ca = 認証局を識別するため以下の証明書が登録されています
 certmgr-detail-general-tab-title =
     .label = 一般
@@ -163,6 +164,13 @@ delete-ssl-cert-title =
     .title = サーバー証明書の例外を削除
 delete-ssl-cert-confirm = これらのサーバー証明書の例外を削除してもよろしいですか？
 delete-ssl-cert-impact = サーバー証明書の例外を削除すると、サーバーのセキュリティを通常の手順で確認するようになり、各サーバーに有効な証明書が求められます。
+
+
+delete-ssl-override-title =
+    .title = サーバー証明書の例外を削除
+delete-ssl-override-confirm = このサーバー証明書の例外を削除してもよろしいですか？
+delete-ssl-override-impact = サーバー証明書の例外を削除すると、サーバーのセキュリティを通常の手順で確認するようになり、各サーバーに有効な証明書が求められます。
+
 delete-ca-cert-title =
     .title = 認証局の証明書を削除または信頼しない
 delete-ca-cert-confirm = この認証局 (CA) の証明書を削除しようとしています。削除すると組み込まれた証明書のすべての信頼性が失われます。本当にこの認証局証明書を削除するか信頼しない設定にしてもよろしいですか？
@@ -213,6 +221,14 @@ cert-not-verified-unknown = 原因不明の問題により、この証明書の�
 
 # Used to indicate that the user chose not to send a client authentication certificate to a server that requested one in a TLS handshake.
 send-no-client-certificate = 送信するクライアント証明書がありません。
+
+# Used when no cert is stored for an override
+no-cert-stored-for-override = (保存されていません)
+
+## Used to show whether an override is temporary or permanent
+
+permanent-override = 永続
+temporary-override = 一時的
 
 ## Add Security Exception dialog
 

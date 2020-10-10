@@ -3,7 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 printui-title = @@Print@@
-
 # Dialog title to prompt the user for a filename to save print to PDF.
 printui-save-to-pdf-title = @@SaveAs@@
 
@@ -22,7 +21,6 @@ printui-page-range-picker =
   .aria-label = ページ範囲を選択してください
 printui-page-custom-range =
   .aria-label = ページ範囲を入力してください
-
 # This label is displayed before the first input field indicating
 # the start of the range to print.
 printui-range-start = ページ指定
@@ -39,7 +37,6 @@ printui-portrait = 縦
 
 # Section title for the printer or destination device to target
 printui-destination-label = プリンター
-
 printui-destination-pdf-label = PDF に保存
 
 printui-more-settings = 詳細設定
@@ -49,7 +46,6 @@ printui-paper-size-label = 用紙サイズ
 
 # Section title (noun) for the print scaling options
 printui-scale = 倍率
-printui-scale-fit-to-page = 用紙全体に合わせる
 printui-scale-fit-to-page-width = 用紙幅に合わせる
 # Label for input control where user can set the scale percentage
 printui-scale-pcent = 倍率
@@ -67,6 +63,12 @@ printui-margins = 余白
 printui-margins-default = @@Default@@
 printui-margins-min = 最少
 printui-margins-none = なし
+
+printui-margins-custom = カスタム
+printui-margins-custom-top = 上
+printui-margins-custom-bottom = 下
+printui-margins-custom-left = 左
+printui-margins-custom-right = 右
 
 printui-system-dialog-link = システムダイアログを使用して@@Print@@...
 
@@ -101,6 +103,8 @@ printui-paper-tabloid = タブロイド (11"x17")
 ## Error messages shown when a user has an invalid input
 
 printui-error-invalid-scale = 倍率は 10 から 200 までの間の数字を入力してください。
+
+printui-error-invalid-margin = 選択した用紙サイズに合う余白を入力してください。
 
 # Variables
 # $numPages (integer) - Number of pages

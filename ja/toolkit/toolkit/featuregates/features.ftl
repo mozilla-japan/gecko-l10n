@@ -109,3 +109,13 @@ experimental-features-devtools-serviceworker-debugger-support-description = 開�
 experimental-features-graphics-desktop-zooming =
     .label = グラフィックス: スムーズなピンチズーム
 experimental-features-graphics-desktop-zooming-description = タッチスクリーンと精密なタッチパッドでのスムーズなピンチズームのサポートを有効にします。
+
+# WebRTC global mute toggle controls
+experimental-features-webrtc-global-mute-toggles =
+    .label = WebRTC の全ミュート切り替え
+experimental-features-webrtc-global-mute-toggles-description = WebRTC グローバル共有インジケーターで、マイクとカメラの映像のミュートをグローバルに操作できるようになりました。
+
+# JS JIT Warp project
+experimental-features-js-warp =
+    .label = JavaScript JIT: Warp
+experimental-features-js-warp-description = JavaScript の性能とメモリ効率を改善するプロジェクトである Warp を有効にします。
