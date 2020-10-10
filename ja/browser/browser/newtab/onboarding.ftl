@@ -15,6 +15,12 @@ onboarding-button-label-get-started = はじめる
 
 ## Welcome modal dialog strings
 
+### UI strings for the simplified onboarding / multistage about:welcome
+### Various strings use a non-breaking space to avoid a single dangling /
+### widowed word, so test on various window sizes if you also want this.
+
+## Welcome page strings
+
 onboarding-welcome-header = { -brand-short-name } にようこそ
 onboarding-welcome-body = ブラウザーを手に入れました。<br/>残りの { -brand-product-name } の製品も手に入れましょう。
 onboarding-welcome-learn-more = 役立つ点についての詳細
@@ -79,9 +85,6 @@ onboarding-multistage-theme-secondary-button-label = 後で
 # Automatic theme uses operating system color settings
 onboarding-multistage-theme-label-automatic = 自動
 
-# System refers to the operating system
-onboarding-multistage-theme-description-automatic = システムのテーマを使用
-
 onboarding-multistage-theme-label-light = Light
 onboarding-multistage-theme-label-dark = Dark
 # "Firefox Alpenglow" here is the name of the theme, and should be kept in English.
@@ -111,38 +114,6 @@ onboarding-multistage-theme-tooltip-dark =
 onboarding-multistage-theme-tooltip-alpenglow =
     .title = カラフルな外観のボタン、メニュー、@@Window@@を使用します
     .aria-label = { onboarding-multistage-theme-tooltip-alpenglow.title }
-
-# Tooltip displayed on hover of automatic theme
-onboarding-multistage-theme-tooltip-automatic-2 =
-    .title = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
-
-# Input description for automatic theme
-onboarding-multistage-theme-description-automatic-2 =
-    .aria-description = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
-
-# Tooltip displayed on hover of light theme
-onboarding-multistage-theme-tooltip-light-2 =
-    .title = 明るい外観のボタン、メニュー、@@Window@@を使用します
-
-# Input description for light theme
-onboarding-multistage-theme-description-light =
-    .aria-description = 明るい外観のボタン、メニュー、@@Window@@を使用します
-
-# Tooltip displayed on hover of dark theme
-onboarding-multistage-theme-tooltip-dark-2 =
-    .title = 暗い外観のボタン、メニュー、@@Window@@を使用します
-
-# Input description for dark theme
-onboarding-multistage-theme-description-dark =
-    .aria-description = 暗い外観のボタン、メニュー、@@Window@@を使用します
-
-# Tooltip displayed on hover of Alpenglow theme
-onboarding-multistage-theme-tooltip-alpenglow-2 =
-    .title = カラフルな外観のボタン、メニュー、@@Window@@を使用します
-
-# Input description for Alpenglow theme
-onboarding-multistage-theme-description-alpenglow =
-    .aria-description = カラフルな外観のボタン、メニュー、@@Window@@を使用します
 
 ## Welcome full page string
 
@@ -189,6 +160,38 @@ onboarding-benefit-monitor-text = 既知のデータ漏洩にあなたの個人�
 onboarding-benefit-lockwise-title = { -lockwise-brand-short-name }
 onboarding-benefit-lockwise-text = 持ち出しできる保護されたパスワード管理ができます。
 
+
+# Tooltip displayed on hover of automatic theme
+onboarding-multistage-theme-tooltip-automatic-2 =
+    .title = ご使用の OS のボタン、メニュー、@@Window@@の外観を継承します
+
+# Input description for automatic theme
+onboarding-multistage-theme-description-automatic-2 =
+    .aria-description = ご使用の OS のボタン、メニュー、@@Window@@の外観を継承します
+
+# Tooltip displayed on hover of light theme
+onboarding-multistage-theme-tooltip-light-2 =
+    .title = 明るい外観のボタン、メニュー、@@Window@@を使用します
+
+# Input description for light theme
+onboarding-multistage-theme-description-light =
+    .aria-description = 明るい外観のボタン、メニュー、@@Window@@を使用します
+
+# Tooltip displayed on hover of dark theme
+onboarding-multistage-theme-tooltip-dark-2 =
+    .title = 暗い外観のボタン、メニュー、@@Window@@を使用します
+
+# Input description for dark theme
+onboarding-multistage-theme-description-dark =
+    .aria-description = 暗い外観のボタン、メニュー、@@Window@@を使用します
+
+# Tooltip displayed on hover of Alpenglow theme
+onboarding-multistage-theme-tooltip-alpenglow-2 =
+    .title = カラフルな外観のボタン、メニュー、@@Window@@を使用します
+
+# Input description for Alpenglow theme
+onboarding-multistage-theme-description-alpenglow =
+    .aria-description = カラフルな外観のボタン、メニュー、@@Window@@を使用します
 
 ## These strings belong to the individual onboarding messages.
 

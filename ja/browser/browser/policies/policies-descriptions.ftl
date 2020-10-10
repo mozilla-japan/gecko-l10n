@@ -134,6 +134,8 @@ policy-LocalFileLinks = 特定のウェブサイトにローカルファイル�
 
 policy-MasterPassword = マスターパスワードの使用を要求または抑止します。
 
+policy-ManagedBookmarks = システム管理者により管理されたブックマークのリストを設定します。ユーザーはこのブックマークを変更できません。
+
 policy-PrimaryPassword = マスターパスワードの使用を要求または抑止します。
 
 policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) を有効または無効にします。

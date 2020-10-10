@@ -29,3 +29,13 @@ webrtc-camera-muted =
   .title = カメラをオンにする
 webrtc-minimize =
   .title = インジケーターを@@Minimize@@
+
+# This string will display as a tooltip on supported systems where we show
+# device sharing state in the OS notification area. We do not use these strings
+# on macOS, as global menu bar items do not have native tooltips.
+webrtc-camera-system-menu =
+  .label = カメラを共有しています。クリックすると共有を制御します。
+webrtc-microphone-system-menu =
+  .label = マイクを共有しています。クリックすると共有を制御します。
+webrtc-screen-system-menu =
+  .label = @@Window@@または画面をを共有しています。クリックすると共有を制御します。
