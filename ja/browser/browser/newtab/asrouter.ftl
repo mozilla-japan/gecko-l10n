@@ -269,5 +269,5 @@ cfr-whatsnew-clear-cookies-image-alt = Cookie ブロックのイラスト
 ## What's new: Media controls message
 
 cfr-whatsnew-media-keys-header = メディアの操作が充実
-cfr-whatsnew-media-keys-body = 音声と映像の再生と停止をキーボードとヘッドセットからできるようになり、他のタブからやコンピューターがロックされた状態でも、メディアを簡単に操作できます。また、戻るキーと進むキーでトラックを移動できるようになりました。
+cfr-whatsnew-media-keys-body = キーボードやヘッドセットから音声または映像の再生と停止ができるようになり、他のタブからだけでなく、コンピューターがロックされた状態でも簡単にメディアを操作できます。また、進むキーと戻るキーでもトラックを移動できるようになりました。
 cfr-whatsnew-media-keys-button = 詳細

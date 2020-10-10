@@ -163,11 +163,11 @@ onboarding-benefit-lockwise-text = 持ち出しできる保護されたパスワ
 
 # Tooltip displayed on hover of automatic theme
 onboarding-multistage-theme-tooltip-automatic-2 =
-    .title = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
+    .title = ご使用の OS のボタン、メニュー、@@Window@@の外観を継承します
 
 # Input description for automatic theme
 onboarding-multistage-theme-description-automatic-2 =
-    .aria-description = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
+    .aria-description = ご使用の OS のボタン、メニュー、@@Window@@の外観を継承します
 
 # Tooltip displayed on hover of light theme
 onboarding-multistage-theme-tooltip-light-2 =

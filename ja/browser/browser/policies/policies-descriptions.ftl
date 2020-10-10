@@ -134,7 +134,7 @@ policy-LocalFileLinks = 特定のウェブサイトにローカルファイル�
 
 policy-MasterPassword = マスターパスワードの使用を要求または抑止します。
 
-policy-ManagedBookmarks = ユーザーが変更することができないシステム管理者が管理するブックマークのリストを設定します。
+policy-ManagedBookmarks = システム管理者により管理されたブックマークのリストを設定します。ユーザーはこのブックマークを変更できません。
 
 policy-PrimaryPassword = マスターパスワードの使用を要求または抑止します。
 
