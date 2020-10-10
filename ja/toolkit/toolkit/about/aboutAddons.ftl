@@ -381,7 +381,7 @@ addon-badge-line =
   .title = この拡張機能は { -brand-product-name } の製作者により作成されました
   .aria-label = { addon-badge-line.title }
 addon-badge-verified =
-  .title = この拡張機能は安全性のためコードレビューが行われました
+  .title = この拡張機能は安全を確認するためコードレビューが行われました
   .aria-label = { addon-badge-verified.title }
 
 ##
