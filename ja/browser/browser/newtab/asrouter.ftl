@@ -265,3 +265,9 @@ cfr-doorhanger-doh-secondary-button = 無効にする
 cfr-whatsnew-clear-cookies-header = こっそり追跡を自動的に遮断
 cfr-whatsnew-clear-cookies-body = 一部のトラッカーは、Cookie を密かに設定した別のウェブサイトにあなたを誘導します。{ -brand-short-name } はこれらの Cookie を自動的に消去し、追跡されないようにします。
 cfr-whatsnew-clear-cookies-image-alt = Cookie ブロックのイラスト
+
+## What's new: Media controls message
+
+cfr-whatsnew-media-keys-header = メディアの操作が充実
+cfr-whatsnew-media-keys-body = キーボードやヘッドセットから音声または映像の再生と停止ができるようになり、他のタブからだけでなく、コンピューターがロックされた状態でも簡単にメディアを操作できます。また、進むキーと戻るキーでもトラックを移動できるようになりました。
+cfr-whatsnew-media-keys-button = 詳細

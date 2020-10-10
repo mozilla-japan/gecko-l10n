@@ -1070,7 +1070,7 @@ dom, toolkit, ...       13422:7253d461bafd   2020-07-31     mar             sync
 mail                    13422:7253d461bafd   2020-07-31     mar             sync mail (except for messenger/openpgp)
 mail/openpgp            13422:7253d461bafd   2020-07-31     Cai0407         add mail/messenger/openpgp
 
-[l10n-mozilla-81.0]
+Released! [l10n-mozilla-81.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit, ...       13566:67234acd06a0   2020-09-02     mar             sync dom, netwerk, security, toolkit
@@ -1079,4 +1079,9 @@ devtools                13566:67234acd06a0   2020-09-02     hATrayflood     sync
 mobile                  13566:67234acd06a0   2020-09-02     mar             sync mobile (remove only)
 mail, calendar, chat    13566:67234acd06a0   2020-09-02     mar             sync mail, calendar, chat
 suite, editor/ui, ...   13566:67234acd06a0   2020-09-02     mar             sync suite, editor/ui, services/sync
+
+[l10n-mozilla-82.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+browser                 13618:6376000d0de6   2020-10-02     hATrayflood     sync browser
 
