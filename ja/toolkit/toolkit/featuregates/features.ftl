@@ -55,12 +55,6 @@ experimental-features-css-constructable-stylesheets =
     .label = CSS: 構造化スタイルシート
 experimental-features-css-constructable-stylesheets-description = <a data-l10n-name="mdn-cssstylesheet">CSSStyleSheet</a> インターフェースにコンストラクターが追加され、様々な関連する変更によって、HTML にスタイルシートを追加せずに新しいスタイルシートを直接作成することが可能になりました。これにより、<a data-l10n-name="mdn-shadowdom">Shadow DOM</a> の使用時にも再利用可能なスタイルシートが簡単に作成できます。詳細は <a data-l10n-name="bugzilla">bug 1520690</a> を参照してください。
 
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
-experimental-features-media-session-api =
-    .label = Web API: Media Session API
-experimental-features-media-session-api-description = { -brand-short-name } が現在実装する Media Session API はすべて実験段階です。この API は、メディア関連の通知の扱いをカスタマイズしたり、メディア再生を管理するインターフェースの提供に役立つイベントやデータの管理、メディアファイルのメタデータの取得に使用します。詳細は <a data-l10n-name="bugzilla">bug 1112032</a> を参照してください。
-
 experimental-features-devtools-color-scheme-simulation =
     .label = 開発ツール: カラースキームのシミュレーション
 experimental-features-devtools-color-scheme-simulation-description = <a data-l10n-name="mdn-preferscolorscheme">@prefers-color-scheme</a> メディアクエリーがテストできる異なるカラースキームをシミュレートするオプションを追加しました。このメディアクエリーを使用すると、ライトテーマとダークテーマのどちらでも、ユーザーの好みに応じてスタイルシートを適用できます。この機能はブラウザーの設定 (または、ブラウザーがシステムのカラースキームに従う場合はオペレーティングシステムの設定) を変更せずにコードをテストできます。詳細は <a data-l10n-name="bugzilla1">bug 1550804</a> および <a data-l10n-name="bugzilla2">bug 1137699</a> を参照してください。
@@ -119,3 +113,8 @@ experimental-features-webrtc-global-mute-toggles-description = WebRTC グロー�
 experimental-features-js-warp =
     .label = JavaScript JIT: Warp
 experimental-features-js-warp-description = JavaScript の性能とメモリ効率を改善するプロジェクトである Warp を有効にします。
+
+# Fission is the name of the feature and should not be translated.
+experimental-features-fission =
+    .label = Fission (サイト隔離)
+experimental-features-fission-description = Fission (サイト隔離) は、セキュリティバグ防御の追加レイヤーを提供する { -brand-short-name } の実験的な機能です。Fission が各サイトを別のプロセスに隔離することにより、ユーザーが訪れている他のページからの情報に悪意のあるサイトがアクセスすることを困難にします。これは { -brand-short-name } における大きな構造上の変更を伴うため、動作テストと遭遇した問題の報告にご協力をお願いします。詳しい情報は、<a data-l10n-name="wiki">Wiki ページ</a> を参照してください。

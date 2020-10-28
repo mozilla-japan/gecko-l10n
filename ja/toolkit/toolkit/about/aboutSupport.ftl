@@ -63,6 +63,7 @@ app-basics-service-workers = 登録された Service Workers
 app-basics-profiles = プロファイル
 app-basics-launcher-process-status = 起動プロセス
 app-basics-multi-process-support = マルチプロセス@@Window@@
+app-basics-fission-support = Fission @@Window@@
 app-basics-remote-processes-count = リモートプロセス
 app-basics-enterprise-policies = エンタープライズポリシー
 app-basics-location-service-key-google = Google Location Service キー
@@ -304,6 +305,20 @@ multi-process-status-6 = 未サポートのテキスト入力により無効
 multi-process-status-7 = アドオンにより無効
 multi-process-status-8 = 強制的に無効
 multi-process-status-unknown = 状態不明
+# Variables
+# $fissionWindows (integer) - Number of remote windows
+# $totalWindows (integer) - Number of total windows
+fission-windows = { $fissionWindows }/{ $totalWindows }
+fission-status-experiment-control = 実験のため無効
+fission-status-experiment-treatment = 実験のため有効
+fission-status-disabled-by-e10s-env = 動作環境により無効
+fission-status-enabled-by-env = 動作環境により有効
+fission-status-disabled-by-safe-mode = セーフモードのため無効
+fission-status-enabled-by-default = @@Default@@で有効
+fission-status-disabled-by-default = @@Default@@で無効
+fission-status-enabled-by-user-pref = ユーザーにより有効
+fission-status-disabled-by-user-pref = ユーザーにより無効
+fission-status-disabled-by-e10s-other = E10s 無効
 async-pan-zoom = 非同期パン / ズーム
 apz-none = なし
 wheel-enabled = ホイール入力有効
@@ -324,3 +339,12 @@ touch-warning = 非同期タッチ入力は未サポートの設定により無�
 policies-inactive = 非アクティブ
 policies-active = アクティブ
 policies-error = エラー
+
+## Printing section
+
+support-printing-title = @@Print@@
+support-printing-troubleshoot = トラブルシューティング
+support-printing-clear-settings-button = 保存した@@Print@@設定を消去
+support-printing-modified-settings = 変更された@@print@@設定
+support-printing-prefs-name = 設定名
+support-printing-prefs-value = 値

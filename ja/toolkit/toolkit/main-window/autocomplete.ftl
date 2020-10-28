@@ -29,5 +29,5 @@ autocomplete-import-logins-chromium-edge =
 
 ##
 
-## (^m^) リンク先: https://support.mozilla.org/kb/import-data-another-browser
+# (^m^) リンク先: https://support.mozilla.org/kb/import-data-another-browser
 autocomplete-import-learn-more = 詳細情報

@@ -391,6 +391,9 @@ recent-updates-heading = 最近の更新
 release-notes-loading = 読み込み中...
 release-notes-error = リリースノートの読み込み中にエラーが発生しました。
 addon-permissions-empty = この拡張機能は許可設定を必要としません。
+addon-permissions-required = 中核機能に必要な許可設定:
+addon-permissions-optional = 追加機能の任意の許可設定:
+addon-permissions-learnmore = 許可設定についての詳細情報
 recommended-extensions-heading = おすすめの拡張機能
 recommended-themes-heading = おすすめのテーマ
 # A recommendation for the Firefox Color theme shown at the bottom of the theme
