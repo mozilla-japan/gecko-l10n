@@ -50,3 +50,13 @@ toolbar-context-menu-remove-from-toolbar =
 toolbar-context-menu-view-customize-toolbar =
     .label = カスタマイズ...
     .accesskey = C
+
+toolbar-context-menu-bookmarks-toolbar-always-show =
+    .label = 常に表示
+    .accesskey = A
+toolbar-context-menu-bookmarks-toolbar-never-show =
+    .label = 表示しない
+    .accesskey = N
+toolbar-context-menu-bookmarks-toolbar-on-new-tab =
+    .label = @@NewTab@@のみ
+    .accesskey = O

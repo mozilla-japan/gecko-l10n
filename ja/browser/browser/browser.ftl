@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## The main browser window's title
 
 # These are the default window titles everywhere except macOS. The first two
@@ -17,13 +16,14 @@
 browser-main-window =
     .data-title-default = { -brand-full-name }
     .data-title-private = { -brand-full-name } (プライベートブラウジング)
-    .data-content-title-default = { $content-title } - { -brand-full-name }
-    .data-content-title-private = { $content-title } - { -brand-full-name } (プライベートブラウジング)
+    .data-content-title-default = { $content-title } — { -brand-full-name }
+    .data-content-title-private = { $content-title } — { -brand-full-name } (プライベートブラウジング)
+
 # These are the default window titles on macOS. The first two are for use when
 # there is no content title:
 #
 # "default" - "Mozilla Firefox"
-# "private" - "Mozilla Firefox - (Private Browsing)"
+# "private" - "Mozilla Firefox — (Private Browsing)"
 #
 # The last two are for use when there *is* a content title.
 # Do not use the brand name in the last two attributes, as we do on non-macOS.
@@ -35,9 +35,10 @@ browser-main-window =
 #  $content-title (String): the title of the web content.
 browser-main-window-mac =
     .data-title-default = { -brand-full-name }
-    .data-title-private = { -brand-full-name } - (プライベートブラウジング)
+    .data-title-private = { -brand-full-name } — (プライベートブラウジング)
     .data-content-title-default = { $content-title }
-    .data-content-title-private = { $content-title } - (プライベートブラウジング)
+    .data-content-title-private = { $content-title } — (プライベートブラウジング)
+
 # This gets set as the initial title, and is overridden as soon as we start
 # updating the titlebar based on loaded tabs or private browsing state.
 # This should match the `data-title-default` attribute in both
@@ -106,9 +107,12 @@ urlbar-tip-icon-description =
 ## homepage of their default search engine.
 ## Variables:
 ##  $engineName (String): The name of the user's default search engine. e.g. "Google" or "DuckDuckGo".
-
 urlbar-search-tips-onboard = 少ない入力でたくさん見つかる: アドレスバーから { $engineName } ですぐ検索します。
 urlbar-search-tips-redirect-2 = アドレスバーで検索を始めると、{ $engineName } からの検索候補と閲覧履歴が表示されます。
+
+# Prompts users to use the Urlbar when they are typing in the domain of a
+# search engine, e.g. google.com or amazon.com.
+urlbar-tabtosearch-onboard = このショートカットを選択すると、より素早く検索できます。
 
 ## Local search mode indicator labels in the urlbar
 
@@ -277,6 +281,19 @@ identity-passive-loaded = このページの一部 (画像など) は安全で�
 identity-active-loaded = このページでの保護は無効に設定されています。
 identity-weak-encryption = このページは脆弱な暗号を使用しています。
 identity-insecure-login-forms = このページのログインフォームは安全ではありません。
+
+identity-https-only-connection-upgraded = (HTTPS で接続中)
+identity-https-only-label = HTTPS-Only モード
+identity-https-only-dropdown-on =
+    .label = オン
+identity-https-only-dropdown-off =
+    .label = オフ
+identity-https-only-dropdown-off-temporarily =
+    .label = 一時的にオフ
+identity-https-only-info-turn-on2 = このサイトでHTTPS-Only モードをオンにすると、{ -brand-short-name } に可能な限り接続をアップグレードするようにします。
+identity-https-only-info-turn-off2 = ページが動作しない場合は HTTPS-Only モードをオフにして、安全ではない HTTP でこのサイトを再読み込みするとよいでしょう。
+identity-https-only-info-no-upgrade = 接続を HTTP からアップグレードできません。
+
 identity-permissions =
     .value = このサイトの設定
 identity-permissions-reload-hint = 変更内容を適用するには、ページの再読み込みが必要です。
@@ -321,6 +338,12 @@ browser-window-restore-down-button =
     .tooltiptext = 元に戻す
 browser-window-close-button =
     .tooltiptext = @@CloseCMD@@
+
+## Bookmarks toolbar items
+
+browser-import-button =
+    .label = ブックマークを@@Import-suru@@...
+    .tooltiptext = 他のブラウザーから { -brand-short-name } にブックマークをコピーします
 
 ## WebRTC Pop-up notifications
 
@@ -426,16 +449,21 @@ urlbar-result-action-search-in-private = プライベート@@Window@@で検索
 # Variables
 #  $engine (String): the name of a search engine
 urlbar-result-action-search-w-engine = { $engine } で検索
+urlbar-result-action-sponsored = 広告
 urlbar-result-action-switch-tab = タブを表示
 urlbar-result-action-visit = 開く
-
-## Action text shown in urlbar results, usually appended after the search
-## string or the url, like "result value - action text".
-## In these actions "Search" is a verb, followed by where the search is performed.
-
-urlbar-result-action-search-bookmarks = ブックマークを検索
-urlbar-result-action-search-history = 履歴を検索
-urlbar-result-action-search-tabs = タブを検索
+# Directs a user to press the Tab key to perform a search with the specified
+# engine.
+# Variables
+#  $engine (String): the name of a search engine that searches the entire Web
+#  (e.g. Google).
+urlbar-result-action-before-tabtosearch-web = { $engine } で検索するタブを押してください
+# Directs a user to press the Tab key to perform a search with the specified
+# engine.
+# Variables
+#  $engine (String): the name of a search engine that searches a specific site
+#  (e.g. Amazon).
+urlbar-result-action-before-tabtosearch-other = { $engine } を検索するタブを押してください
 # Variables
 #  $engine (String): the name of a search engine that searches the entire Web
 #  (e.g. Google).
@@ -444,6 +472,14 @@ urlbar-result-action-tabtosearch-web = アドレスバーから直接 { $engine 
 #  $engine (String): the name of a search engine that searches a specific site
 #  (e.g. Amazon).
 urlbar-result-action-tabtosearch-other-engine = アドレスバーから直接 { $engine } を検索
+
+## Action text shown in urlbar results, usually appended after the search
+## string or the url, like "result value - action text".
+## In these actions "Search" is a verb, followed by where the search is performed.
+
+urlbar-result-action-search-bookmarks = ブックマークを検索
+urlbar-result-action-search-history = 履歴を検索
+urlbar-result-action-search-tabs = タブを検索
 
 ## Full Screen and Pointer Lock UI
 

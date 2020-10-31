@@ -1091,4 +1091,5 @@ mail, calendar, suite   13637:13b4438fad03   2020-10-07     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                 13679:11208d04b940   2020-10-22     mar             sync toolkit
+browser                 13705:7bf9644ed2a7   2020-10-30     hATrayflood     sync browser
 

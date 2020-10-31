@@ -43,9 +43,66 @@ onboarding-join-form-signin-label = アカウントは登録済みですか？
 onboarding-join-form-signin = ログイン
 
 onboarding-start-browsing-button-label = ブラウジングを開始
+onboarding-not-now-button-label = 後で
 onboarding-cards-dismiss =
     .title = 閉じる
     .aria-label = 閉じる
+
+## Welcome full page string
+
+onboarding-fullpage-welcome-subheader = できることを探し始めましょう。
+onboarding-fullpage-form-email =
+    .placeholder = あなたのメールアドレス...
+
+## Firefox Sync modal dialog strings.
+
+onboarding-sync-welcome-header = { -brand-product-name } をあなたとともに
+onboarding-sync-welcome-content = すべての端末で、ブックマーク、履歴、パスワード、その他の設定を取得できます。
+onboarding-sync-welcome-learn-more-link = Firefox アカウントに関する詳細情報
+
+onboarding-sync-form-input =
+    .placeholder = メールアドレス
+
+onboarding-sync-form-continue-button = 続行
+onboarding-sync-form-skip-login-button = この手順をスキップ
+
+## This is part of the line "Enter your email to continue to Firefox Sync"
+
+onboarding-sync-form-header = メールアドレスを入力してください
+onboarding-sync-form-sub-header = { -sync-brand-name } の利用を続けるために必要です
+
+
+## These are individual benefit messages shown with an image, title and
+## description.
+
+onboarding-benefit-products-text = ご使用の端末すべてのプライバシーを尊重する一連のツールを使いましょう。
+
+# "Personal Data Promise" is a concept that should be translated consistently
+# across the product. It refers to a concept shown elsewhere to the user: "The
+# Firefox Personal Data Promise is the way we honor your data in everything we
+# make and do. We take less data. We keep it safe. And we make sure that we are
+# transparent about how we use it."
+onboarding-benefit-privacy-text = 私たちが尊重する個人データ保護の約束: 最小限に、安全に。隠し事をしない。
+
+onboarding-benefit-sync-title = { -sync-brand-short-name }
+onboarding-benefit-sync-text = ご使用のどの端末の { -brand-product-name } でもブックマーク、パスワード、履歴などを共有できます。
+
+onboarding-benefit-monitor-title = { -monitor-brand-short-name }
+onboarding-benefit-monitor-text = 既知のデータ漏洩にあなたの個人情報が含まれていた場合に通知を受けられます。
+
+onboarding-benefit-lockwise-title = { -lockwise-brand-short-name }
+onboarding-benefit-lockwise-text = 持ち出しできる保護されたパスワード管理ができます。
+
+
+## Custom Return To AMO onboarding strings
+
+return-to-amo-subtitle = { -brand-short-name } をインストールしました
+# <img data-l10n-name="icon"/> will be replaced with the icon belonging to the extension
+#
+# Variables:
+#   $addon-name (String) - Name of the add-on
+return-to-amo-addon-title = <img data-l10n-name="icon"/> <b>{ $addon-name }</b> をインストールしてみましょう。
+return-to-amo-add-extension-label = 拡張機能を追加
 
 ## Multistage 3-screen onboarding flow strings (about:welcome pages)
 
@@ -94,72 +151,6 @@ onboarding-multistage-theme-label-alpenglow = Firefox Alpenglow
 ## width corresponds to about 40 Latin characters, to ensure that the tooltip
 ## doesn't become too long. Line breaks will be preserved when displaying the
 ## tooltip.
-
-# Tooltip displayed on hover of automatic theme
-onboarding-multistage-theme-tooltip-automatic =
-    .title = あなたの OS のボタン、メニュー、@@Window@@の外観を継承します
-    .aria-label = { onboarding-multistage-theme-tooltip-automatic.title }
-
-# Tooltip displayed on hover of light theme
-onboarding-multistage-theme-tooltip-light =
-    .title = 明るい外観のボタン、メニュー、@@Window@@を使用します
-    .aria-label = { onboarding-multistage-theme-tooltip-light.title }
-
-# Tooltip displayed on hover of dark theme
-onboarding-multistage-theme-tooltip-dark =
-    .title = 暗い外観のボタン、メニュー、@@Window@@を使用します
-    .aria-label = { onboarding-multistage-theme-tooltip-dark.title }
-
-# Tooltip displayed on hover of Alpenglow theme
-onboarding-multistage-theme-tooltip-alpenglow =
-    .title = カラフルな外観のボタン、メニュー、@@Window@@を使用します
-    .aria-label = { onboarding-multistage-theme-tooltip-alpenglow.title }
-
-## Welcome full page string
-
-onboarding-fullpage-welcome-subheader = できることを探し始めましょう。
-onboarding-fullpage-form-email =
-    .placeholder = あなたのメールアドレス...
-
-## Firefox Sync modal dialog strings.
-
-onboarding-sync-welcome-header = { -brand-product-name } をあなたとともに
-onboarding-sync-welcome-content = すべての端末で、ブックマーク、履歴、パスワード、その他の設定を取得できます。
-onboarding-sync-welcome-learn-more-link = Firefox アカウントに関する詳細情報
-
-onboarding-sync-form-input =
-    .placeholder = メールアドレス
-
-onboarding-sync-form-continue-button = 続行
-onboarding-sync-form-skip-login-button = この手順をスキップ
-
-## This is part of the line "Enter your email to continue to Firefox Sync"
-
-onboarding-sync-form-header = メールアドレスを入力してください
-onboarding-sync-form-sub-header = { -sync-brand-name } の利用を続けるために必要です
-
-
-## These are individual benefit messages shown with an image, title and
-## description.
-
-onboarding-benefit-products-text = ご使用の端末すべてのプライバシーを尊重する一連のツールを使いましょう。
-
-# "Personal Data Promise" is a concept that should be translated consistently
-# across the product. It refers to a concept shown elsewhere to the user: "The
-# Firefox Personal Data Promise is the way we honor your data in everything we
-# make and do. We take less data. We keep it safe. And we make sure that we are
-# transparent about how we use it."
-onboarding-benefit-privacy-text = 私たちが尊重する個人データ保護の約束: 最小限に、安全に。隠し事をしない。
-
-onboarding-benefit-sync-title = { -sync-brand-short-name }
-onboarding-benefit-sync-text = ご使用のどの端末の { -brand-product-name } でもブックマーク、パスワード、履歴などを共有できます。
-
-onboarding-benefit-monitor-title = { -monitor-brand-short-name }
-onboarding-benefit-monitor-text = 既知のデータ漏洩にあなたの個人情報が含まれていた場合に通知を受けられます。
-
-onboarding-benefit-lockwise-title = { -lockwise-brand-short-name }
-onboarding-benefit-lockwise-text = 持ち出しできる保護されたパスワード管理ができます。
-
 
 # Tooltip displayed on hover of automatic theme
 onboarding-multistage-theme-tooltip-automatic-2 =

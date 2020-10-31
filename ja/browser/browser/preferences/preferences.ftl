@@ -33,6 +33,9 @@ search-input-box =
 
 managed-notice = ご使用のブラウザーはあなたの所属組織に管理されています。
 
+category-list =
+    .aria-label = カテゴリー
+
 pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
@@ -533,6 +536,12 @@ browsing-picture-in-picture-toggle-enabled =
 
 browsing-picture-in-picture-learn-more = 詳細情報
 
+browsing-media-control =
+    .label = メディアをキーボード、ヘッドセット、仮想インターフェースで操作する
+    .accesskey = v
+
+browsing-media-control-learn-more = 詳細情報
+
 browsing-cfr-recommendations =
     .label = おすすめの拡張機能を紹介する
     .accesskey = R
@@ -610,6 +619,9 @@ home-prefs-search-header =
 home-prefs-topsites-header =
     .label = トップサイト
 home-prefs-topsites-description = よく訪れるサイト
+
+home-prefs-topsites-by-option-sponsored =
+    .label = 広告トップサイト
 
 ## Variables:
 ##  $provider (String): Name of the corresponding content provider, e.g "Pocket".
@@ -1061,6 +1073,10 @@ sitedata-option-block-cross-site-trackers =
     .label = クロスサイトトラッカー
 sitedata-option-block-cross-site-and-social-media-trackers =
     .label = クロスサイトトラッカーとソーシャルメディアトラッカー
+sitedata-option-block-cross-site-tracking-cookies-including-social-media =
+    .label = ソーシャルメディア Cookie を含むクロスサイトトラッキング Cookie
+sitedata-option-block-cross-site-cookies-including-social-media =
+    .label = ソーシャルメディア Cookie を含むクロスサイト Cookie
 sitedata-option-block-cross-site-and-social-media-trackers-plus-isolate =
     .label = クロスサイトトラッカーとソーシャルメディアトラッカー、および残存 Cookie を隔離
 sitedata-option-block-unvisited =
@@ -1135,6 +1151,7 @@ content-blocking-etp-strict-desc = より強固な保護ですが、一部のサ
 content-blocking-etp-custom-desc = ブロックするトラッカーとスクリプトを選択します。
 
 content-blocking-private-windows = トラッキングコンテンツ (プライベート@@Window@@のみ)
+content-blocking-cross-site-cookies = クロスサイト Cookie
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
 content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残存 Cookie の隔離
 content-blocking-social-media-trackers = ソーシャルメディアトラッカー
@@ -1147,6 +1164,7 @@ content-blocking-fingerprinters = フィンガープリント採取
 
 content-blocking-warning-title = 注意！
 content-blocking-and-isolating-etp-warning-description = トラッカーをブロックし、残存 Cookie を隔離すると、一部のサイトの機能に影響がある可能性があります。すべてのコンテンツを読み込むには、トラッカーを許容してページを再読み込みします。
+content-blocking-and-isolating-etp-warning-description-2 = この設定では、一部のウェブサイトが表示されないか正しく動作しない可能性があります。サイトが動作しない場合は、トラッキング防止機能をオフにして再読み込みするとよいでしょう。
 content-blocking-warning-learn-how = 詳細情報
 
 content-blocking-reload-description = これらの変更を適用するには、タブを再読み込みする必要があります。
