@@ -290,8 +290,8 @@ identity-https-only-dropdown-off =
     .label = オフ
 identity-https-only-dropdown-off-temporarily =
     .label = 一時的にオフ
-identity-https-only-info-turn-on2 = このサイトでHTTPS-Only モードをオンにすると、{ -brand-short-name } に可能な限り接続をアップグレードするようにします。
-identity-https-only-info-turn-off2 = ページが動作しない場合は HTTPS-Only モードをオフにして、安全ではない HTTP でこのサイトを再読み込みするとよいでしょう。
+identity-https-only-info-turn-on2 = このサイトで { -brand-short-name } に可能な限り接続をアップグレードさせたい場合は、HTTPS-Only モードをオンにしてください。
+identity-https-only-info-turn-off2 = ページが動作しない場合は HTTPS-Only モードをオフにして、安全でない HTTP 接続でこのサイトを再読み込みするとよいでしょう。
 identity-https-only-info-no-upgrade = 接続を HTTP からアップグレードできません。
 
 identity-permissions =
@@ -343,7 +343,7 @@ browser-window-close-button =
 
 browser-import-button =
     .label = ブックマークを@@Import-suru@@...
-    .tooltiptext = 他のブラウザーから { -brand-short-name } にブックマークをコピーします
+    .tooltiptext = ブックマークを他のブラウザーから { -brand-short-name } にコピーします
 
 ## WebRTC Pop-up notifications
 
@@ -457,13 +457,13 @@ urlbar-result-action-visit = 開く
 # Variables
 #  $engine (String): the name of a search engine that searches the entire Web
 #  (e.g. Google).
-urlbar-result-action-before-tabtosearch-web = { $engine } で検索するタブを押してください
+urlbar-result-action-before-tabtosearch-web = Tab キーを押すと { $engine } でウェブを検索します
 # Directs a user to press the Tab key to perform a search with the specified
 # engine.
 # Variables
 #  $engine (String): the name of a search engine that searches a specific site
 #  (e.g. Amazon).
-urlbar-result-action-before-tabtosearch-other = { $engine } を検索するタブを押してください
+urlbar-result-action-before-tabtosearch-other = Tab キーを押すと { $engine } を検索します
 # Variables
 #  $engine (String): the name of a search engine that searches the entire Web
 #  (e.g. Google).

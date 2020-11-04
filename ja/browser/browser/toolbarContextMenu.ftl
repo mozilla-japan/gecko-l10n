@@ -52,7 +52,7 @@ toolbar-context-menu-view-customize-toolbar =
     .accesskey = C
 
 toolbar-context-menu-bookmarks-toolbar-always-show =
-    .label = 常に表示
+    .label = 常に表示する
     .accesskey = A
 toolbar-context-menu-bookmarks-toolbar-never-show =
     .label = 表示しない

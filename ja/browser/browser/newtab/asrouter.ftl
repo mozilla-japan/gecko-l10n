@@ -262,7 +262,7 @@ cfr-doorhanger-doh-secondary-button = 無効にする
 
 ## Fission Experiment Message
 
-cfr-doorhanger-fission-body-approved = プライバシーは重要です。{ -brand-short-name } はウェブサイトを他のサイトから分離、サンドボックス化し、ハッカーからパスワードやクレジットカード番号や他の重要な情報が盗まれにくくなりました。
+cfr-doorhanger-fission-body-approved = プライバシーは重要です。{ -brand-short-name } がウェブサイトをそれぞれ他のサイトから分離、サンドボックス化するため、パスワードやクレジットカード番号、他の重要な情報が盗まれにくくなりました。
 cfr-doorhanger-fission-header = サイトの分離
 cfr-doorhanger-fission-primary-button = OK、有効にする
   .accesskey = O
