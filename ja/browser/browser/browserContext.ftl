@@ -293,6 +293,11 @@ main-context-menu-frame-view-source =
 main-context-menu-frame-view-info =
     .label = フレームの情報を表示
     .accesskey = I
+
+main-context-menu-print-selection =
+    .label = 選択した部分を@@Print@@
+    .accesskey = r
+
 main-context-menu-view-selection-source =
     .label = 選択した部分のソースを表示
     .accesskey = e

@@ -260,6 +260,15 @@ cfr-doorhanger-doh-primary-button = OK、有効にする
 cfr-doorhanger-doh-secondary-button = 無効にする
   .accesskey = D
 
+## Fission Experiment Message
+
+cfr-doorhanger-fission-body-approved = プライバシーは重要です。{ -brand-short-name } がウェブサイトをそれぞれ他のサイトから分離、サンドボックス化するため、パスワードやクレジットカード番号、他の重要な情報が盗まれにくくなりました。
+cfr-doorhanger-fission-header = サイトの分離
+cfr-doorhanger-fission-primary-button = OK、有効にする
+  .accesskey = O
+cfr-doorhanger-fission-secondary-button = 詳細
+  .accesskey = L
+
 ## What's new: Cookies message
 
 cfr-whatsnew-clear-cookies-header = こっそり追跡を自動的に遮断
