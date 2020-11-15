@@ -8,6 +8,6 @@ unknowncontenttype-handleinternally =
 unknowncontenttype-settingschange =
     .value =
         { PLATFORM() ->
-            [windows] この設定はオプション画面で変更できます。
-           *[other] この設定は設定画面で変更できます。
+            [windows] この設定は { -brand-short-name } のオプション画面で変更できます。
+           *[other] この設定は { -brand-short-name } の設定画面で変更できます。
         }
