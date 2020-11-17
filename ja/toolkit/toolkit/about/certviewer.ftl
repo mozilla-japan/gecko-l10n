@@ -108,6 +108,11 @@ certificate-viewer-critical-extension =
 certificate-viewer-export = @@Export@@
   .download = { $fileName }.pem
 
+##
+
+# Label for a tab where we haven't found a better label:
+certificate-viewer-unknown-group-label = (不明)
+
 ## Labels for tabs displayed in stand-alone about:certificate page
 
 certificate-viewer-tab-mine = 独自の証明書

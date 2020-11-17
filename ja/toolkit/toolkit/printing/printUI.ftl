@@ -50,6 +50,10 @@ printui-scale-fit-to-page-width = 用紙幅に合わせる
 # Label for input control where user can set the scale percentage
 printui-scale-pcent = 倍率
 
+# Section title (noun) for the two-sided print options
+printui-two-sided-printing = 両面@@Print@@
+printui-duplex-checkbox = 両面に@@Print@@する
+
 # Section title for miscellaneous print options
 printui-options = オプション
 printui-headers-footers-checkbox = ヘッダーとフッターを@@Print@@する
@@ -63,7 +67,6 @@ printui-margins = 余白
 printui-margins-default = @@Default@@
 printui-margins-min = 最少
 printui-margins-none = なし
-
 printui-margins-custom = カスタム
 printui-margins-custom-top = 上
 printui-margins-custom-bottom = 下
@@ -103,7 +106,6 @@ printui-paper-tabloid = タブロイド (11"x17")
 ## Error messages shown when a user has an invalid input
 
 printui-error-invalid-scale = 倍率は 10 から 200 までの間の数字を入力してください。
-
 printui-error-invalid-margin = 選択した用紙サイズに合う余白を入力してください。
 
 # Variables

@@ -99,11 +99,6 @@ experimental-features-devtools-serviceworker-debugger-support =
 # "Service Worker" is an API name and is usually not translated.
 experimental-features-devtools-serviceworker-debugger-support-description = 開発ツールのデバッガーパネルで Service Worker の実験的なサポートを有効にします。この機能は開発ツールの動作を遅くし、メモリー消費が増加します。
 
-# Desktop zooming experiment
-experimental-features-graphics-desktop-zooming =
-    .label = グラフィックス: スムーズなピンチズーム
-experimental-features-graphics-desktop-zooming-description = タッチスクリーンと精密なタッチパッドでのスムーズなピンチズームのサポートを有効にします。
-
 # WebRTC global mute toggle controls
 experimental-features-webrtc-global-mute-toggles =
     .label = WebRTC の全ミュート切り替え
@@ -118,3 +113,8 @@ experimental-features-js-warp-description = JavaScript の性能とメモリ効�
 experimental-features-fission =
     .label = Fission (サイト隔離)
 experimental-features-fission-description = Fission (サイト隔離) は、セキュリティバグ防御の追加レイヤーを提供する { -brand-short-name } の実験的な機能です。Fission が各サイトを別のプロセスに隔離することにより、ユーザーが訪れている他のページからの情報に悪意のあるサイトがアクセスすることを困難にします。これは { -brand-short-name } における大きな構造上の変更を伴うため、動作テストと遭遇した問題の報告にご協力をお願いします。詳しい情報は、<a data-l10n-name="wiki">Wiki ページ</a> を参照してください。
+
+# Support for having multiple Picture-in-Picture windows open simultaneously
+experimental-features-multi-pip =
+    .label = ピクチャーインピクチャーの複数サポート
+experimental-features-multi-pip-description = 複数のピクチャーインピクチャー@@Window@@を同時に開けるようにする実験的なサポートです。
