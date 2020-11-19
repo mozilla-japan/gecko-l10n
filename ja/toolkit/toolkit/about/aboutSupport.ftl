@@ -345,6 +345,6 @@ policies-error = エラー
 support-printing-title = @@Print@@
 support-printing-troubleshoot = トラブルシューティング
 support-printing-clear-settings-button = 保存した@@Print@@設定を消去
-support-printing-modified-settings = 変更された@@print@@設定
+support-printing-modified-settings = 変更された@@Print@@設定
 support-printing-prefs-name = 設定名
 support-printing-prefs-value = 値
