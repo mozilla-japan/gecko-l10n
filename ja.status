@@ -1099,3 +1099,4 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            13743:d1ef6fdf5e2c   2020-11-14     mar             sync dom, toolkit
 browser                 13771:3a2612cc2eb8   2020-11-26     hATrayflood     sync browser
+devtools                13771:3a2612cc2eb8   2020-11-26     hATrayflood     sync devtools
