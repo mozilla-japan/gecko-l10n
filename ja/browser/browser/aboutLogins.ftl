@@ -32,6 +32,7 @@ menu =
 about-logins-menu-menuitem-import-from-another-browser = 他のブラウザーから@@Import@@...
 about-logins-menu-menuitem-import-from-a-file = ファイルから@@Import@@...
 about-logins-menu-menuitem-export-logins = ログイン情報を@@Export@@...
+about-logins-menu-menuitem-remove-all-logins = ログイン情報をすべて消去...
 menu-menuitem-preferences =
   { PLATFORM() ->
       [windows] オプション
@@ -129,15 +130,15 @@ about-logins-copy-password-os-auth-dialog-message-win = ログイン情報をコ
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-copy-password-os-auth-dialog-message-macosx = 保存したパスワードをコピー
 
+## Master Password notification
+
+master-password-notification-message = 保存したログイン情報とパスワードを確認するには、マスターパスワードを入力してください
+
 # This message can be seen when attempting to export a password in about:logins on Windows.
 about-logins-export-password-os-auth-dialog-message-win = ログイン情報を@@Export-suru@@には、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
 # This message can be seen when attempting to export a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-export-password-os-auth-dialog-message-macosx = 保存したログイン情報とパスワードを@@Export@@
-
-## Master Password notification
-
-master-password-notification-message = 保存したログイン情報とパスワードを確認するには、マスターパスワードを入力してください
 
 ## Primary Password notification
 
@@ -173,6 +174,31 @@ confirmation-dialog-dismiss-button =
 about-logins-confirm-remove-dialog-title = このログイン情報を消去しますか？
 confirm-delete-dialog-message = この操作は元に戻せません。
 about-logins-confirm-remove-dialog-confirm-button = 消去
+
+about-logins-confirm-remove-all-dialog-confirm-button = すべて消去
+about-logins-confirm-remove-all-dialog-checkbox-label =
+  { $count ->
+     [1] はい、このログイン情報を消去します
+    *[other] はい、これらのログイン情報を消去します
+  }
+
+about-logins-confirm-remove-all-dialog-title =
+  { $count ->
+     [one] { $count } 個のログイン情報を消去しますか？
+    *[other] { $count } 個のログイン情報をすべて消去しますか？
+  }
+about-logins-confirm-remove-all-dialog-message = { -brand-short-name } に保存したログイン情報と、ここ表示される情報漏洩の警告が消去されます。この操作は元に戻せません。
+
+about-logins-confirm-remove-all-sync-dialog-title =
+  { $count ->
+     [one] すべての端末から { $count } 個のログイン情報を消去しますか？
+    *[other] すべての端末から { $count } 個のログイン情報をすべて消去しますか？
+  }
+about-logins-confirm-remove-all-sync-dialog-message=
+  { $count ->
+     [1] { -fxaccount-brand-name } と同期した端末すべての { -brand-short-name } に保存したログイン情報が消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は元に戻せません。
+    *[other] { -fxaccount-brand-name } と同期した端末すべての { -brand-short-name } に保存したログイン情報がすべて消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は元に戻せません。
+  }
 
 about-logins-confirm-export-dialog-title = ログイン情報とパスワードを@@Export@@
 about-logins-confirm-export-dialog-message = あなたのパスワードは可読テキストとして保存されます。(例: BadP@ssw0rd) @@Export-sare@@たファイルを開ける人なら誰でも内容を読み取ることが可能になります。

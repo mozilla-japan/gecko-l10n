@@ -1087,7 +1087,7 @@ browser                 13618:6376000d0de6   2020-10-02     hATrayflood     sync
 dom, security, toolkit  13618:6376000d0de6   2020-10-02     hATrayflood     sync dom, security, toolkit
 mail, calendar, suite   13637:13b4438fad03   2020-10-07     mar             sync mail, calendar, suite
 
-[l10n-mozilla-83.0]
+Released! [l10n-mozilla-83.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                 13679:11208d04b940   2020-10-22     mar             sync toolkit
@@ -1098,3 +1098,4 @@ devtools                13705:7bf9644ed2a7   2020-10-30     hATrayflood     sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            13743:d1ef6fdf5e2c   2020-11-14     mar             sync dom, toolkit
+browser                 13771:3a2612cc2eb8   2020-11-26     hATrayflood     sync browser
