@@ -39,6 +39,8 @@ inactive-css-position-property-on-unpositioned-box = この要素は配置の指
 
 inactive-text-overflow-when-no-overflow = <strong>overflow:hidden</strong> が設定されてないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
+inactive-outline-radius-when-outline-style-auto-or-none = この要素の <strong>outline-style</strong> は <strong>auto</strong> または <strong>none</strong> となっているため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
 ## the problem can be solved.
@@ -68,6 +70,8 @@ inactive-css-not-display-block-on-floated-fix = <strong>float</strong> を削除
 inactive-css-position-property-on-unpositioned-box-fix = <strong>position</strong> プロパティに <strong>static</strong> 以外の値を設定してみてください。{ learn-more }
 
 inactive-text-overflow-when-no-overflow-fix = <strong>overflow:hidden</strong> を追加してみてください。 { learn-more }
+
+inactive-outline-radius-when-outline-style-auto-or-none-fix = <strong>outline-style</strong> プロパティに <strong>auto</strong> または <strong>none</strong> 以外の値を設定してみてください。{ learn-more }
 
 ## In the Rule View when a CSS property may have compatibility issues with other browsers
 ## we display an icon. When this icon is hovered this message is displayed to explain why

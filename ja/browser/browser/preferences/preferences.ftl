@@ -63,6 +63,10 @@ pane-experimental-subtitle = 注意して進んでください
 pane-experimental-search-results-header = 実験的な機能: 注意して進んでください
 pane-experimental-description = 高度な設定を変更すると、{ -brand-short-name } の性能と安全性に影響を及ぼす可能性があります。
 
+pane-experimental-reset =
+  .label = @@RestoreDefaults@@
+  .accesskey = R
+
 help-button-label = { -brand-short-name } サポート
 addons-button-label = 拡張機能とテーマ
 
@@ -1130,6 +1134,8 @@ content-blocking-enhanced-tracking-protection = 強化型トラッキング防�
 content-blocking-section-top-level-description = トラッカーはあなたの習慣や興味に関する情報を収集するために、オンラインであなたを追跡します。{ -brand-short-name } はこれらのトラッカーや悪意のあるスクリプトの多くをブロックします。
 
 content-blocking-learn-more = 詳細情報
+
+content-blocking-fpi-incompatibility-warning = { -brand-short-name } の Cookie の設定の一部を上書きするファーストパーティ分離 (FPI) を使用しています。
 
 ## These strings are used to define the different levels of
 ## Enhanced Tracking Protection.

@@ -296,6 +296,9 @@ identity-https-only-info-no-upgrade = 接続を HTTP からアップグレード
 
 identity-permissions =
     .value = このサイトの設定
+identity-permissions-storage-access-header = クロスサイト Cookie
+identity-permissions-storage-access-hint = 以下のサイトが、あなたがこのサイトにいる間、クロスサイト Cookie とサイトデータにアクセスできます。
+
 identity-permissions-reload-hint = 変更内容を適用するには、ページの再読み込みが必要です。
 identity-permissions-empty = このサイトに特別な権限は設定されていません。
 identity-clear-site-data =
@@ -341,9 +344,11 @@ browser-window-close-button =
 
 ## Bookmarks toolbar items
 
-browser-import-button =
+browser-import-button2 =
     .label = ブックマークを@@Import-suru@@...
-    .tooltiptext = ブックマークを他のブラウザーから { -brand-short-name } にコピーします
+    .tooltiptext = ブックマークを他のブラウザーから { -brand-short-name } に@@Import-si@@ます。
+
+bookmarks-toolbar-empty-message = ブックマークをこのブックマークツールバーに配置すると、素早くアクセスできます。<a data-l10n-name="manage-bookmarks">ブックマークを管理...</a>
 
 ## WebRTC Pop-up notifications
 
@@ -422,16 +427,17 @@ urlbar-permissions-granted =
     .tooltiptext = このウェブサイトで追加の権限を許可しました。
 urlbar-switch-to-tab =
     .value = タブを表示:
+
 # Used to indicate that a selected autocomplete entry is provided by an extension.
 urlbar-extension =
     .value = 拡張機能:
+
 urlbar-go-button =
     .tooltiptext = アドレスバーに入力された URL へ移動します
 urlbar-page-action-button =
     .tooltiptext = ページ操作
 urlbar-pocket-button =
     .tooltiptext = { -pocket-brand-name } に保存
-
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
