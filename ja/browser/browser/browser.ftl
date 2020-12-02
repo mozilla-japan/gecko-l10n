@@ -346,7 +346,7 @@ browser-window-close-button =
 
 browser-import-button2 =
     .label = ブックマークを@@Import-suru@@...
-    .tooltiptext = ブックマークを他のブラウザーから { -brand-short-name } に@@Import-simasu@@します。
+    .tooltiptext = ブックマークを他のブラウザーから { -brand-short-name } に@@Import-si@@ます。
 
 bookmarks-toolbar-empty-message = ブックマークをこのブックマークツールバーに配置すると、素早くアクセスできます。<a data-l10n-name="manage-bookmarks">ブックマークを管理...</a>
 
