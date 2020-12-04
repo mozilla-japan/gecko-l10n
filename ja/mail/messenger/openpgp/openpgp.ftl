@@ -120,10 +120,57 @@ openpgp-key-send-key =
 openpgp-key-man-copy-to-clipbrd =
     .label = 公開鍵をクリップボードにコピー
     .accesskey = C
+
+openpgp-key-man-copy-key-ids =
+    .label = { $count ->
+               [one] 鍵 ID をクリップボードにコピー
+               *[other] 鍵 ID をクリップボードにコピー
+             }
+    .accesskey = K
+
+openpgp-key-man-copy-fprs =
+    .label = { $count ->
+               [one] フィンガープリントをクリップボードにコピー
+               *[other] フィンガープリントをクリップボードにコピー
+             }
+    .accesskey = F
+
+openpgp-key-man-copy-to-clipboard =
+    .label = { $count ->
+               [one] 公開鍵をクリップボードにコピー
+               *[other] 公開鍵をクリップボードにコピー
+             }
+    .accesskey = P
+
 openpgp-key-man-ctx-expor-to-file-label =
     .label = 鍵をファイルに@@Export-simasu@@
 openpgp-key-man-ctx-copy-to-clipbrd-label =
     .label = 公開鍵をクリップボードにコピーします
+
+openpgp-key-man-ctx-copy =
+    .label = コピー
+    .accesskey = C
+
+openpgp-key-man-ctx-copy-fprs =
+    .label = { $count ->
+               [one] フィンガープリント
+               *[other] フィンガープリント
+             }
+    .accesskey = F
+
+openpgp-key-man-ctx-copy-key-ids =
+    .label = { $count ->
+               [one] 鍵 ID
+               *[other] 鍵 ID
+             }
+    .accesskey = K
+
+openpgp-key-man-ctx-copy-public-keys =
+    .label = { $count ->
+               [one] 公開鍵
+               *[other] 公開鍵
+             }
+    .accesskey = P
 
 openpgp-key-man-close =
     .label = @@CloseCMD@@
@@ -580,8 +627,10 @@ key-man-button-generate-key-abort = 鍵の生成を中止(&A)
 key-man-button-generate-key-continue = 鍵の生成を継続(&C)
 
 # Strings used in enigmailMessengerOverlay.js
+
 failed-decrypt = エラー - 復号に失敗しました
-fix-broken-exchange-msg-failed = メッセージを修復できませんでした。
+fix-broken-exchange-msg-failed = このメッセージを修復できませんでした。
+
 attachment-no-match-from-signature = 署名ファイル '{ $attachment }' は添付ファイルに適合しませんでした
 attachment-no-match-to-signature = 添付ファイル '{ $attachment }' は署名ファイルに適合しませんでした
 signature-verified-ok = 添付ファイル '{ $attachment }' の署名は正常に検証されました

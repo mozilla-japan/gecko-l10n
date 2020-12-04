@@ -21,7 +21,7 @@ openpgp-ctx-verify-att =
 
 openpgp-has-sender-key = このメッセージには送信者の OpenPGP 公開鍵が含まれています。
 openpgp-be-careful-new-key =
-    警告: このメッセージに含まれる新しい OpenPGP 公開鍵は、 { $email } のものとしてあなたが以前に受け入れた公開鍵と異なります。
+    警告: このメッセージに含まれる新しい OpenPGP 公開鍵は、{ $email } のものとしてあなたが以前に受け入れた公開鍵と異なります。
 
 openpgp-import-sender-key =
     .label = @@Import@@...
@@ -35,6 +35,7 @@ openpgp-search-signature-key =
     .label = 検索...
 
 # Don't translate the terms "OpenPGP" and "MS-Exchange"
+openpgp-broken-exchange-opened = このメッセージは、おそらく MS-Exchange によって破損した OpenPGP メッセージです。このメッセージはローカルファイルから開かれたため修復できません。メッセージをメールフォルダーにコピーして自動修復を試みてください。
 openpgp-broken-exchange-info = このメッセージは、おそらく MS-Exchange によって破損した OpenPGP メッセージです。メッセージの内容が意図したものでない場合、自動修復を試みることができます。
 openpgp-broken-exchange-repair =
     .label = メッセージを修復

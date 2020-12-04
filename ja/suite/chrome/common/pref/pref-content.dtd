@@ -29,6 +29,9 @@
 <!ENTITY maxZoom.accesskey			"o">
 <!ENTITY percent.label				"&#37;">
 
+<!ENTITY defaultZoom.label			"@@Default-@@ズーム">
+<!ENTITY defaultZoom.accesskey			"D">
+
 <!ENTITY siteSpecific.label			"サイト別のズームレベルを記憶する">
 <!ENTITY siteSpecific.accesskey			"m">
 <!ENTITY textZoomOnly.label			"テキストだけをズームする">

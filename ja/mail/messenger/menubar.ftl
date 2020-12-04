@@ -7,3 +7,18 @@
 menu-view-charset =
     .label = テキストエンコーディング
     .accesskey = c
+
+## Mail Toolbar
+
+toolbar-junk-button =
+    .label = 迷惑メール
+    .tooltiptext = 選択したメッセージに迷惑マークを付けます
+toolbar-not-junk-button =
+    .label = 非迷惑メール
+    .tooltiptext = 選択したメッセージの迷惑マークを外します
+toolbar-delete-button =
+    .label = 削除
+    .tooltiptext = 選択したメッセージまたはフォルダーを削除します
+toolbar-undelete-button =
+    .label = 削除を@@Undo@@
+    .tooltiptext = メッセージの削除を@@Undo-simasu@@

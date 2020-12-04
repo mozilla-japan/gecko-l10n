@@ -923,9 +923,9 @@
 <!ENTITY spellAddDictionaries.accesskey	"A">
 
 <!-- Content Pane Context Menu -->
-<!ENTITY saveLinkAsCmd.label		"@@SaveLinkTargetAs@@...">
+<!ENTITY saveLinkAsCmd.label		"@@Save-AsCMD@@リンク先を保存...">
 <!ENTITY saveLinkAsCmd.accesskey	"k">
-<!ENTITY saveImageAsCmd.label		"@@SaveImageAs@@...">
+<!ENTITY saveImageAsCmd.label		"@@Save-AsCMD@@画像を保存...">
 <!ENTITY saveImageAsCmd.accesskey	"v">
 <!ENTITY copyLinkCmd.label		"リンクの URL をコピー">
 <!ENTITY copyLinkCmd.accesskey		"L">

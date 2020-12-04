@@ -16,7 +16,7 @@
 <!ENTITY editMenu.accesskey		"E">
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
-<!ENTITY savePageCmd.label		"@@SavePageAs@@...">
+<!ENTITY savePageCmd.label		"@@Save-AsCMD@@ページを保存...">
 <!ENTITY savePageCmd.accesskey		"A">
 <!ENTITY savePageCmd.commandkey		"S">
 <!ENTITY pageSetupCmd.label		"ページ設定...">
