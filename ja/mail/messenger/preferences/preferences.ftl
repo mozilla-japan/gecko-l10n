@@ -10,6 +10,8 @@ preferences-title =
             [windows] オプション
            *[other] 環境設定
         }
+category-list =
+    .aria-label = カテゴリー
 pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
@@ -87,6 +89,7 @@ update-in-progress-ok-button = 破棄(&D)
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = 続行(&C)
+account-button = アカウント設定
 addons-button = 拡張機能とテーマ
 
 ## OS Authentication dialog
