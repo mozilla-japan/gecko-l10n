@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## The main browser window's title
 
 # These are the default window titles everywhere except macOS. The first two
@@ -18,7 +19,6 @@ browser-main-window =
     .data-title-private = { -brand-full-name } (プライベートブラウジング)
     .data-content-title-default = { $content-title } — { -brand-full-name }
     .data-content-title-private = { $content-title } — { -brand-full-name } (プライベートブラウジング)
-
 # These are the default window titles on macOS. The first two are for use when
 # there is no content title:
 #
@@ -38,7 +38,6 @@ browser-main-window-mac =
     .data-title-private = { -brand-full-name } — (プライベートブラウジング)
     .data-content-title-default = { $content-title }
     .data-content-title-private = { $content-title } — (プライベートブラウジング)
-
 # This gets set as the initial title, and is overridden as soon as we start
 # updating the titlebar based on loaded tabs or private browsing state.
 # This should match the `data-title-default` attribute in both
@@ -107,9 +106,9 @@ urlbar-tip-icon-description =
 ## homepage of their default search engine.
 ## Variables:
 ##  $engineName (String): The name of the user's default search engine. e.g. "Google" or "DuckDuckGo".
+
 urlbar-search-tips-onboard = 少ない入力でたくさん見つかる: アドレスバーから { $engineName } ですぐ検索します。
 urlbar-search-tips-redirect-2 = アドレスバーで検索を始めると、{ $engineName } からの検索候補と閲覧履歴が表示されます。
-
 # Prompts users to use the Urlbar when they are typing in the domain of a
 # search engine, e.g. google.com or amazon.com.
 urlbar-tabtosearch-onboard = このショートカットを選択すると、より素早く検索できます。
@@ -281,7 +280,6 @@ identity-passive-loaded = このページの一部 (画像など) は安全で�
 identity-active-loaded = このページでの保護は無効に設定されています。
 identity-weak-encryption = このページは脆弱な暗号を使用しています。
 identity-insecure-login-forms = このページのログインフォームは安全ではありません。
-
 identity-https-only-connection-upgraded = (HTTPS で接続中)
 identity-https-only-label = HTTPS-Only モード
 identity-https-only-dropdown-on =
@@ -293,12 +291,10 @@ identity-https-only-dropdown-off-temporarily =
 identity-https-only-info-turn-on2 = このサイトで { -brand-short-name } に可能な限り接続をアップグレードさせたい場合は、HTTPS-Only モードをオンにしてください。
 identity-https-only-info-turn-off2 = ページが動作しない場合は HTTPS-Only モードをオフにして、安全でない HTTP 接続でこのサイトを再読み込みするとよいでしょう。
 identity-https-only-info-no-upgrade = 接続を HTTP からアップグレードできません。
-
 identity-permissions =
     .value = このサイトの設定
 identity-permissions-storage-access-header = クロスサイト Cookie
 identity-permissions-storage-access-hint = 以下のサイトが、あなたがこのサイトにいる間、クロスサイト Cookie とサイトデータにアクセスできます。
-
 identity-permissions-reload-hint = 変更内容を適用するには、ページの再読み込みが必要です。
 identity-permissions-empty = このサイトに特別な権限は設定されていません。
 identity-clear-site-data =
@@ -347,7 +343,6 @@ browser-window-close-button =
 browser-import-button2 =
     .label = ブックマークを@@Import-suru@@...
     .tooltiptext = ブックマークを他のブラウザーから { -brand-short-name } に@@Import-si@@ます。
-
 bookmarks-toolbar-empty-message = ブックマークをこのブックマークツールバーに配置すると、素早くアクセスできます。<a data-l10n-name="manage-bookmarks">ブックマークを管理...</a>
 
 ## WebRTC Pop-up notifications
@@ -427,11 +422,9 @@ urlbar-permissions-granted =
     .tooltiptext = このウェブサイトで追加の権限を許可しました。
 urlbar-switch-to-tab =
     .value = タブを表示:
-
 # Used to indicate that a selected autocomplete entry is provided by an extension.
 urlbar-extension =
     .value = 拡張機能:
-
 urlbar-go-button =
     .tooltiptext = アドレスバーに入力された URL へ移動します
 urlbar-page-action-button =
@@ -502,3 +495,70 @@ fullscreen-exit-mac-button = @@FullScreen@@モードを終了 (esc)
 #  $domain (String): the domain that is using pointer-lock, e.g. "mozilla.org"
 pointerlock-warning-domain = マウスポインターは現在、 <span data-l10n-name="domain">{ $domain }</span> が制御しています。制御を取り戻すには、ESC キーを押してください。
 pointerlock-warning-no-domain = マウスポインターは現在、このページが制御しています。制御を取り戻すには、ESC キーを押してください。
+
+## Bookmarks panels, menus and toolbar
+
+bookmarks-show-all-bookmarks =
+    .label = すべてのブックマークを表示
+bookmarks-recent-bookmarks =
+    .value = 最近のブックマーク
+bookmarks-toolbar-chevron =
+    .tooltiptext = 残りのブックマークを表示します
+bookmarks-sidebar-content =
+    .aria-label = ブックマーク
+bookmarks-menu-button =
+    .label = ブックマークメニュー
+bookmarks-other-bookmarks-menu =
+    .label = 他のブックマーク
+bookmarks-mobile-bookmarks-menu =
+    .label = モバイルのブックマーク
+bookmarks-tools-sidebar-visibility =
+    .label =
+        { $isVisible ->
+            [true] ブックマークサイドバーを隠す
+           *[other] ブックマークサイドバーを表示
+        }
+bookmarks-tools-toolbar-visibility =
+    .label =
+        { $isVisible ->
+            [true] ブックマークツールバーを隠す
+           *[other] ブックマークツールバーを表示
+        }
+bookmarks-tools-menu-button-visibility =
+    .label =
+        { $isVisible ->
+            [true] ブックマークメニューをツールバーから削除
+           *[other] ブックマークメニューをツールバーに追加
+        }
+bookmarks-search =
+    .label = ブックマークを検索
+bookmarks-tools =
+    .label = ブックマークツール
+# The aria-label is a spoken label that should not include the word "toolbar" or
+# such, because screen readers already know that this container is a toolbar.
+# This avoids double-speaking.
+bookmarks-toolbar =
+    .toolbarname = ブックマークツールバー
+    .accesskey = B
+    .aria-label = ブックマーク
+bookmarks-toolbar-menu =
+    .label = ブックマークツールバー
+bookmarks-toolbar-placeholder =
+    .title = ブックマークツールバーの項目
+bookmarks-toolbar-placeholder-button =
+    .label = ブックマークツールバーの項目
+
+## Library Panel items
+
+library-bookmarks-menu =
+    .label = ブックマーク
+library-bookmarks-bookmark-this-page =
+    .label = このページをブックマーク
+library-bookmarks-bookmark-edit =
+    .label = このブックマークを編集
+
+## More items
+
+more-menu-go-offline =
+    .label = オフライン作業
+    .accesskey = k
