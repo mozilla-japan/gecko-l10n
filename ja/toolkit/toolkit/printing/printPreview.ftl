@@ -39,6 +39,11 @@ printpreview-page =
     .value = ページ:
     .accesskey = a
 
+# Variables
+# $sheetNum (integer) - The current sheet number
+# $sheetCount (integer) - The total number of sheets to print
+printpreview-sheet-of-sheets = { $sheetNum } / { $sheetCount }
+
 ## Variables
 ## $percent (integer) - menuitem percent label
 ## $arrow (String) - UTF-8 arrow character for navigation buttons
@@ -57,3 +62,12 @@ printpreview-nextarrow =
 printpreview-endarrow =
     .label = { $arrow }
     .tooltiptext = 最後のページを表示します
+
+printpreview-homearrow-button =
+    .title = 最初のページ
+printpreview-previousarrow-button =
+    .title = 前のページ
+printpreview-nextarrow-button =
+    .title = 次のページ
+printpreview-endarrow-button =
+    .title = 最後のページ

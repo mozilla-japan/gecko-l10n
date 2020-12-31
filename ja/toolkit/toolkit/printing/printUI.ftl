@@ -28,6 +28,10 @@ printui-range-start = ページ指定
 # the start and end page of the range to print.
 printui-range-end = –
 
+printui-page-custom-range-input =
+  .aria-label = ページ範囲を入力してください
+  .placeholder = 例: 2-6, 9, 12-16
+
 # Section title for the number of copies to print
 printui-copies-label = 部数
 
@@ -59,6 +63,8 @@ printui-options = オプション
 printui-headers-footers-checkbox = ヘッダーとフッターを@@Print@@する
 printui-backgrounds-checkbox = 背景画像を@@Print@@する
 
+printui-selection-checkbox = 選択範囲のみを@@Print@@する
+
 printui-color-mode-label = カラーモード
 printui-color-mode-color = カラー
 printui-color-mode-bw = モノクロ
@@ -68,10 +74,15 @@ printui-margins-default = @@Default@@
 printui-margins-min = 最少
 printui-margins-none = なし
 printui-margins-custom = カスタム
+printui-margins-custom-inches = カスタム (インチ)
 printui-margins-custom-top = 上
+printui-margins-custom-top-inches = 上 (インチ)
 printui-margins-custom-bottom = 下
+printui-margins-custom-bottom-inches = 下 (インチ)
 printui-margins-custom-left = 左
+printui-margins-custom-left-inches = 左 (インチ)
 printui-margins-custom-right = 右
+printui-margins-custom-right-inches = 右 (インチ)
 
 printui-system-dialog-link = システムダイアログを使用して@@Print@@...
 
@@ -79,12 +90,20 @@ printui-primary-button = @@Print@@
 printui-primary-button-save = 保存
 printui-cancel-button = キャンセル
 
+printui-close-button = 閉じる
+
 printui-loading = プレビューの準備中です
 
 # Reported by screen readers and other accessibility tools to indicate that
 # the print preview has focus.
 printui-preview-label =
     .aria-label = @@Print@@プレビュー
+
+printui-pages-per-sheet = 1 枚あたりのページ数
+
+# This is shown next to the Print button with an indefinite loading spinner
+# when the user prints a page and it is being sent to the printer.
+printui-print-progress-indicator = @@Print@@中...
 
 ## Paper sizes that may be supported by the Save to PDF destination:
 ## (^m^) /widget/nsPrinterListBase.cpp (Bug 1659781)
