@@ -118,3 +118,7 @@ experimental-features-fission-description = Fission (サイト隔離) は、セ�
 experimental-features-multi-pip =
     .label = ピクチャーインピクチャーの複数サポート
 experimental-features-multi-pip-description = 複数のピクチャーインピクチャー@@Window@@を同時に開けるようにする実験的なサポートです。
+
+experimental-features-http3 =
+    .label = HTTP/3 プロトコル
+experimental-features-http3-description = HTTP/3 プロトコルの実験的なサポートです。
