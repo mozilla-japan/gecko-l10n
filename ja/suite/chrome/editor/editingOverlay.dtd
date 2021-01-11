@@ -29,6 +29,26 @@
 <!ENTITY publishSettings.label "公開先サイトの設定...">
 <!ENTITY publishSettings.accesskey "b">
 
+<!-- Insert menu items -->
+<!ENTITY insertFormMenu.label "フォーム">
+<!ENTITY insertFormMenu.accesskey "F">
+<!ENTITY insertFormCmd.label "フォームの定義...">
+<!ENTITY insertFormCmd.accesskey "D">
+<!ENTITY insertInputTagCmd.label "フォームフィールド...">
+<!ENTITY insertInputTagCmd.accesskey "e">
+<!ENTITY insertInputImageCmd.label "フォーム画像...">
+<!ENTITY insertInputImageCmd.accesskey "I">
+<!ENTITY insertTextAreaCmd.label "テキストエリア...">
+<!ENTITY insertTextAreaCmd.accesskey "T">
+<!ENTITY insertSelectCmd.label "選択リスト...">
+<!ENTITY insertSelectCmd.accesskey "S">
+<!ENTITY insertButtonCmd.label "ボタンの定義...">
+<!ENTITY insertButtonCmd.accesskey "B">
+<!ENTITY insertLabelCmd.label "ラベルの定義">
+<!ENTITY insertLabelCmd.accesskey "L">
+<!ENTITY insertFieldSetCmd.label "フィールドセットの定義...">
+<!ENTITY insertFieldSetCmd.accesskey "F">
+
 <!-- Toolbar-only items -->
 <!ENTITY newToolbarCmd.label "新規作成">
 <!ENTITY newToolbarCmd.tooltip "新しい Composer ページを作成します">
