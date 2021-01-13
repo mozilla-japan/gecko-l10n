@@ -1094,7 +1094,7 @@ toolkit                 13679:11208d04b940   2020-10-22     mar             sync
 browser                 13705:7bf9644ed2a7   2020-10-30     hATrayflood     sync browser
 devtools                13705:7bf9644ed2a7   2020-10-30     hATrayflood     sync devtools
 
-[l10n-mozilla-84.0]
+Released! [l10n-mozilla-84.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            13743:d1ef6fdf5e2c   2020-11-14     mar             sync dom, toolkit
@@ -1106,4 +1106,5 @@ mail, suite             13779:2c1b19950f02   2020-12-01     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            13852:b4e026bc0ff1   2020-12-19     mar             sync dom, toolkit
+mail, suite             13862:467e475f9070   2021-01-07     mar             sync mail, suite
 

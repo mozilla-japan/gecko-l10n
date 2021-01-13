@@ -26,9 +26,15 @@ pill-aria-label = { $count ->
     *[other] { $email }, 1 / { $count }: 編集は Enter キー、削除は Delete キーを押してください。
 }
 
+#   $email (String) - the email address
+pill-tooltip-invalid-address = { $email } は有効なメールアドレスではありません
+
+#   $email (String) - the email address
+pill-tooltip-not-in-address-book = { $email } はアドレス帳に存在しません
+
 pill-action-edit =
     .label = アドレスを編集
-    .accesskey = e
+    .accesskey = E
 
 pill-action-move-to =
     .label = To へ移動

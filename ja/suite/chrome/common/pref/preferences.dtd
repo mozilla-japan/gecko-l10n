@@ -13,7 +13,10 @@
 <!ENTITY prefWindow.size "width: 102ch; height: 44em;"><!-- en-US: width: 102ch; height: 44em; -->
 <!ENTITY prefWindowMac.size "width: 62em; height: 41em;"><!-- en-US: width: 62em; height: 41em; -->
 <!ENTITY prefWindowWin.size "width: 115ch; height: 43em;"><!-- en-US: width: 115ch; height: 43em; -->
+<!ENTITY prefWindowMac2.size "width: 70em; height: 41em;"><!-- en-US: width: 70em; height: 41em; -->
+<!ENTITY prefWindowWin2.size "width: 125ch; height: 44em;"><!-- en-US: width: 125ch; height: 44em; -->
 <!ENTITY categoryHeader "カテゴリー">
+
 <!ENTITY appear.label "表示">
 <!ENTITY content.label "コンテンツ">
 <!ENTITY fonts.label "フォント">

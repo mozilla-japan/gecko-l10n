@@ -47,7 +47,6 @@
 <!ENTITY getNewMsgForCmd.accesskey             "w">
 <!ENTITY getAllNewMsgCmdPopupMenu.label        "すべてのアカウント">
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey    "A">
-<!ENTITY getAllNewMsgCmd.label                 "すべての新しいメールを受信">
 <!ENTITY getAllNewMsgCmd2.key                  "d">
 <!ENTITY getNextNMsgCmd.label                  "次の 500 本の記事を受信">
 <!ENTITY getNextNMsgCmd.accesskey              "t">
@@ -403,12 +402,14 @@
 <!ENTITY importCmd.accesskey                  "I">
 
 <!-- Folder Pane -->
-<!ENTITY nameColumn.label                    "名前"><!--Name-->
+<!ENTITY nameColumn.label                    "フォルダー名"><!--Name-->
 <!ENTITY unreadColumn.label                  "未読">
 <!ENTITY totalColumn.label                   "合計">
 
 <!-- Toolbar items -->
 <!ENTITY getMsgButton.label                  "受信">
+<!ENTITY getAllNewMsgCmd.label               "すべての新しいメールを受信">
+<!ENTITY getAllNewMsgCmd.accesskey           "G">
 <!ENTITY newMsgButton.label                  "作成">
 <!ENTITY newHTMLMessageCmd.label             "HTML 形式で作成">
 <!ENTITY newHTMLMessageCmd.accesskey         "H">
