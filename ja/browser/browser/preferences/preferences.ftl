@@ -627,12 +627,19 @@ home-prefs-topsites-description = よく訪れるサイト
 home-prefs-topsites-by-option-sponsored =
     .label = 広告トップサイト
 
+home-prefs-shortcuts-header =
+    .label = ショートカット
+home-prefs-shortcuts-description = 保存または訪問したサイト
+home-prefs-shortcuts-by-option-sponsored =
+    .label = 広告ショートカット
+
 ## Variables:
 ##  $provider (String): Name of the corresponding content provider, e.g "Pocket".
 
 home-prefs-recommended-by-header =
     .label = { $provider } のおすすめ
 home-prefs-recommended-by-description-update = { $provider } がウェブ全体から厳選した注目のコンテンツ
+home-prefs-recommended-by-description-new = { -brand-product-name } ファミリーを構成する { $provider } が厳選した注目のコンテンツ
 ##
 
 home-prefs-recommended-by-learn-more = 使い方
@@ -651,6 +658,10 @@ home-prefs-highlights-option-most-recent-download =
 home-prefs-highlights-option-saved-to-pocket =
     .label = { -pocket-brand-name } に保存されたページ
 
+home-prefs-recent-activity-header =
+    .label = 最近のアクティビティ
+home-prefs-recent-activity-description = 最近のサイトとコンテンツの抜粋
+
 # For the "Snippets" feature traditionally on about:home.
 # Alternative translation options: "Small Note" or something that
 # expresses the idea of "a small message, shortened from something else,
@@ -658,6 +669,9 @@ home-prefs-highlights-option-saved-to-pocket =
 home-prefs-snippets-header =
     .label = スニペット
 home-prefs-snippets-description = { -vendor-short-name } と { -brand-product-name } に関する最新情報
+
+home-prefs-snippets-description-new = { -vendor-short-name } と { -brand-product-name } に関するヒントと最新情報
+
 home-prefs-sections-rows-option =
     .label = { $num } 行
 
@@ -1121,9 +1135,17 @@ addressbar-locbar-bookmarks-option =
 addressbar-locbar-openpage-option =
     .label = 開いているタブ
     .accesskey = O
+# Shortcuts refers to the shortcut tiles on the new tab page, previously known as top sites. Translation should be consistent.
+addressbar-locbar-shortcuts-option =
+    .label = ショートカット
+    .accesskey = S
 addressbar-locbar-topsites-option =
     .label = トップサイト
     .accesskey = T
+
+addressbar-locbar-engines-option =
+    .label = 検索エンジン
+    .accesskey = a
 
 addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
 

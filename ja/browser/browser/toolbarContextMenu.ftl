@@ -61,6 +61,16 @@ toolbar-context-menu-bookmarks-toolbar-on-new-tab =
     .label = @@NewTab@@のみ
     .accesskey = O
 
+toolbar-context-menu-bookmarks-toolbar-always-show-2 =
+    .label = 常に表示する
+    .accesskey = A
+toolbar-context-menu-bookmarks-toolbar-never-show-2 =
+    .label = 表示しない
+    .accesskey = N
+toolbar-context-menu-bookmarks-toolbar-on-new-tab-2 =
+    .label = @@NewTab@@のみ表示する
+    .accesskey = O
+
 toolbar-context-menu-bookmarks-show-other-bookmarks =
     .label = 他のブックマークを表示
     .accesskey = h

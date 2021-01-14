@@ -556,6 +556,7 @@ library-bookmarks-bookmark-this-page =
     .label = このページをブックマーク
 library-bookmarks-bookmark-edit =
     .label = このブックマークを編集
+library-recent-activity-label = 最近のアクティビティ
 
 ## More items
 
