@@ -8,6 +8,10 @@ newtab-page-title = @@NewTab@@
 newtab-settings-button =
     .title = @@NewTab@@ページをカスタマイズ
 
+newtab-personalize-button-label = パーソナライズ
+    .title = @@NewTab@@をパーソナライズ
+    .aria-label = @@NewTab@@をパーソナライズ
+
 ## Search box component.
 
 # "Search" is a verb/action
@@ -21,11 +25,18 @@ newtab-search-box-search-the-web-input =
     .title = ウェブを検索
     .aria-label = ウェブを検索
 
+newtab-search-box-text = ウェブを検索
+newtab-search-box-input =
+    .placeholder = ウェブを検索
+    .aria-label = ウェブを検索
+
 ## Top Sites - General form dialog.
 
 newtab-topsites-add-search-engine-header = 検索エンジンを追加
 newtab-topsites-add-topsites-header = 新着トップサイト
+newtab-topsites-add-shortcut-header = @@New-CMD@@ショートカット
 newtab-topsites-edit-topsites-header = トップサイトを編集
+newtab-topsites-edit-shortcut-header = ショートカットを編集
 newtab-topsites-title-label = タイトル
 newtab-topsites-title-input =
     .placeholder = タイトルを入力
@@ -175,6 +186,7 @@ newtab-section-expand-section-label =
 
 newtab-section-header-topsites = トップサイト
 newtab-section-header-highlights = ハイライト
+newtab-section-header-recent-activity = 最近のアクティビティ
 # Variables:
 #  $provider (String): Name of the corresponding content provider.
 newtab-section-header-pocket = { $provider } のおすすめ
@@ -212,3 +224,24 @@ newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に�
 
 newtab-error-fallback-info = このコンテンツの読み込み中に何か問題が発生しました。
 newtab-error-fallback-refresh-link = ページを再読み込みしてもう一度試してください。
+
+## Customization Menu
+
+newtab-custom-shortcuts-title = ショートカット
+newtab-custom-shortcuts-subtitle = 保存または訪問したサイト
+newtab-custom-row-selector = { $num } 行
+newtab-custom-sponsored-sites = 広告ショートカット
+newtab-custom-pocket-title = { -pocket-brand-name } のおすすめ
+newtab-custom-pocket-subtitle = { -brand-product-name } ファミリーを構成する { -pocket-brand-name } が厳選した注目のコンテンツ
+newtab-custom-pocket-sponsored = 広告ストーリー
+newtab-custom-recent-title = 最近のアクティビティ
+newtab-custom-recent-subtitle = 最近のサイトとコンテンツの抜粋
+newtab-custom-close-button = 閉じる
+
+# For the "Snippets" feature traditionally on about:home.
+# Alternative translation options: "Small Note" or something that
+# expresses the idea of "a small message, shortened from something else,
+# and non-essential but also not entirely trivial and useless.
+newtab-custom-snippets-title = スニペット
+newtab-custom-snippets-subtitle = { -vendor-short-name } と { -brand-product-name } に関するヒントと最新情報
+newtab-custom-settings = 他の設定を管理

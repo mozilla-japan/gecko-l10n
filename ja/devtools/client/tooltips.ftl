@@ -41,6 +41,10 @@ inactive-text-overflow-when-no-overflow = <strong>overflow:hidden</strong> が�
 
 inactive-outline-radius-when-outline-style-auto-or-none = この要素の <strong>outline-style</strong> は <strong>auto</strong> または <strong>none</strong> となっているため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
+inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> はテーブルを構成する要素に影響を及ぼしません。
+
+inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> はセル以外のテーブルを構成する要素に影響を及ぼしません。
+
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
 ## the problem can be solved.
@@ -70,6 +74,10 @@ inactive-css-not-display-block-on-floated-fix = <strong>float</strong> を削除
 inactive-css-position-property-on-unpositioned-box-fix = <strong>position</strong> プロパティに <strong>static</strong> 以外の値を設定してみてください。{ learn-more }
 
 inactive-text-overflow-when-no-overflow-fix = <strong>overflow:hidden</strong> を追加してみてください。 { learn-more }
+
+inactive-css-not-for-internal-table-elements-fix = <strong>セル</strong>、<strong>列</strong>、<strong>行</strong>、<strong>列グループ</strong>、<strong>行グループ</strong> または <strong>フッターグループ</strong> 以外の要素に <strong>display</strong> プロパティを設定してみてください。{ learn-more }
+
+inactive-css-not-for-internal-table-elements-except-table-cells-fix = <strong>列</strong>、<strong>行</strong>、<strong>列グループ</strong>、<strong>行グループ</strong> または <strong>フッターグループ</strong> 以外の要素に <strong>display</strong> プロパティを設定してみてください。{ learn-more }
 
 inactive-outline-radius-when-outline-style-auto-or-none-fix = <strong>outline-style</strong> プロパティに <strong>auto</strong> または <strong>none</strong> 以外の値を設定してみてください。{ learn-more }
 

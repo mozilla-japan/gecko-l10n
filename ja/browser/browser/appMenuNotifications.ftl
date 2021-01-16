@@ -32,6 +32,14 @@ appmenu-update-restart =
     .secondarybuttonlabel = 後で
     .secondarybuttonaccesskey = N
 appmenu-update-restart-message = { -brand-shorter-name } の再起動後、開いていたタブとプライベートブラウジングモードでない@@Window@@がすべて復元されます。
+appmenu-update-other-instance =
+    .label = { -brand-shorter-name } は自動で最新バージョンに更新できません。
+    .buttonlabel = とにかく更新
+    .buttonaccesskey = U
+    .secondarybuttonlabel = 後で
+    .secondarybuttonaccesskey = N
+appmenu-update-other-instance-message = { -brand-shorter-name } の更新がありますが、他のプロファイルの { -brand-shorter-name } が実行中のため、インストールできません。そちらを閉じて更新するか、とにかく更新するか選択してください。(他のプロファイルのものは、再起動するまで正常に動作しません)
+
 appmenu-addon-private-browsing-installed =
     .buttonlabel = OK
     .buttonaccesskey = O

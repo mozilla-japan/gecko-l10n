@@ -280,3 +280,18 @@ cfr-whatsnew-clear-cookies-image-alt = Cookie ブロックのイラスト
 cfr-whatsnew-media-keys-header = メディアの操作が充実
 cfr-whatsnew-media-keys-body = キーボードやヘッドセットから音声または映像の再生と停止ができるようになり、他のタブからだけでなく、コンピューターがロックされた状態でも簡単にメディアを操作できます。また、進むキーと戻るキーでもトラックを移動できるようになりました。
 cfr-whatsnew-media-keys-button = 詳細
+
+## What's new: Search shortcuts
+
+cfr-whatsnew-search-shortcuts-header = アドレスバーに検索ショートカット
+cfr-whatsnew-search-shortcuts-body = アドレスバーに検索エンジンまたは特定のサイトを入力すると、検索候補の下に青いショートカットが表示されるようになりました。ショートカットを選択すると、アドレスバーからすぐに検索できます。
+
+## What's new: Cookies protection
+
+cfr-whatsnew-supercookies-header = 悪意のある supercookie を遮断
+cfr-whatsnew-supercookies-body = ウェブサイトは密かに “supercookie” を発行して、あなたが手動で Cookie を消去しない限りウェブであなたを追跡できます。{ -brand-short-name } は supercookie に対する強固な保護を提供し、サイトをまたがってあなたのオンラインの行動を追跡できないようにします。
+
+## What's new: Better bookmarking
+
+cfr-whatsnew-bookmarking-header = よりよいブックマーク登録
+cfr-whatsnew-bookmarking-body = お気に入りのサイトの管理が簡単になりました。{ -brand-short-name } は保存したブックマークをあなたの好きな場所に記憶し、@@DefaultSetting@@では@@NewTab@@にブックマークツールバーを表示し、ツールバーのフォルダーから他のブックマークにもアクセスできるようになりました。
