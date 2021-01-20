@@ -174,7 +174,7 @@ was trying to connect. -->
 
 <!ENTITY certerror.pagetitle2			"警告: 潜在的なセキュリティリスクあり">
 <!ENTITY certerror.sts.pagetitle		"接続中止: 潜在的なセキュリティ問題">
-<!ENTITY certerror.whatShouldIDo.badStsCertExplanation1	"<span class='hostname'></span> は HTTP Strict Transport Security (HSTS) と呼ばれるセキュリティポリシーが設定されおり、&brandShortName; は安全な接続でしか通信できません。そのため、このサイトを例外に追加することはできません。">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation1	"<span class='hostname'></span> は HTTP Strict Transport Security (HSTS) と呼ばれるセキュリティポリシーが設定されており、&brandShortName; は安全な接続でしか通信できません。そのため、このサイトを例外に追加することはできません。">
 <!ENTITY certerror.copyToClipboard.label	"テキストをクリップボードにコピー">
 
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
