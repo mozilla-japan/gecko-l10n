@@ -496,6 +496,9 @@ fullscreen-exit-mac-button = @@FullScreen@@モードを終了 (esc)
 pointerlock-warning-domain = マウスポインターは現在、 <span data-l10n-name="domain">{ $domain }</span> が制御しています。制御を取り戻すには、ESC キーを押してください。
 pointerlock-warning-no-domain = マウスポインターは現在、このページが制御しています。制御を取り戻すには、ESC キーを押してください。
 
+## Subframe crash notification
+
+
 ## Bookmarks panels, menus and toolbar
 
 bookmarks-show-all-bookmarks =
@@ -556,7 +559,8 @@ library-bookmarks-bookmark-this-page =
     .label = このページをブックマーク
 library-bookmarks-bookmark-edit =
     .label = このブックマークを編集
-library-recent-activity-label = 最近のアクティビティ
+library-recent-activity-title =
+    .value = 最近のアクティビティ
 
 ## More items
 
