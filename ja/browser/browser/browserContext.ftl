@@ -55,7 +55,7 @@ toolbar-button-stop-reload =
 ## Save Page
 
 main-context-menu-page-save =
-    .label = @@SavePageAs@@...
+    .label = @@Save-AsCMD@@ページを保存...
     .accesskey = P
 toolbar-button-page-save =
     .label = { main-context-menu-page-save.label }
