@@ -17,3 +17,4 @@
 -send-brand-name = Firefox Send
 -screenshots-brand-name = Firefox Screenshots
 -mozilla-vpn-brand-name = Mozilla VPN
+-profiler-brand-name = Firefox Profiler
