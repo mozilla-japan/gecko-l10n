@@ -2,6 +2,53 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# NOTE: For English locales, strings in this file should be in APA-style Title Case.
+# See https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case
+#
+# NOTE: For Engineers, please don't re-use these strings outside of the menubar.
+
+
+## Application Menu (macOS only)
+
+menu-application-services =
+    .label = サービス
+menu-application-hide-this =
+    .label = { -brand-shorter-name } を隠す
+menu-application-hide-other =
+    .label = ほかを隠す
+menu-application-show-all =
+    .label = すべてを表示
+menu-application-touch-bar =
+    .label = タッチバーをカスタマイズ...
+
+##
+
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] 終了
+           *[other] 終了
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] x
+           *[other] Q
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = { -brand-shorter-name } を終了
+# This menu-quit-button string is only used on Linux.
+menu-quit-button =
+    .label = { menu-quit.label }
+# This menu-quit-button-win string is only used on Windows.
+menu-quit-button-win =
+    .label = { menu-quit.label }
+    .tooltip = { -brand-shorter-name } を終了します
+menu-about =
+    .label = { -brand-shorter-name } について
+    .accesskey = A
+
 ## File Menu
 
 menu-file =
@@ -235,6 +282,14 @@ menu-window-bring-all-to-front =
     .label = @@BringAllToFront@@
 
 ## Help Menu
+
+# NOTE: For Engineers, any additions or changes to Help menu strings should
+# also be reflected in the related strings in appmenu.ftl. Those strings, by
+# convention, will have the same ID as these, but prefixed with "app".
+# Example: appmenu-help-product
+#
+# These strings are duplicated to allow for different casing depending on
+# where the strings appear.
 
 menu-help =
     .label = ヘルプ
