@@ -56,7 +56,7 @@ about-webrtc-ice-restart-count-label = ICE 再起動:
 about-webrtc-ice-rollback-count-label = ICE ロールバック:
 about-webrtc-ice-pair-bytes-sent = 送信バイト数:
 about-webrtc-ice-pair-bytes-received = 受信バイト数:
-
+about-webrtc-ice-component-id = コンポーネント ID
 ##
 
 
