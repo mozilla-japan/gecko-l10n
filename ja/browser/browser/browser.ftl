@@ -340,6 +340,8 @@ browser-window-close-button =
 
 ## Tab actions
 
+browser-tab-audio-playing = 再生中
+browser-tab-audio-muted = ミュート中
 
 ## Bookmarks toolbar items
 
@@ -501,6 +503,13 @@ pointerlock-warning-no-domain = マウスポインターは現在、このペー
 
 ## Subframe crash notification
 
+crashed-subframe-message = <strong>このページの一部がクラッシュしました。</strong> { -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
+crashed-subframe-learnmore =
+  .label = 詳細
+  .accesskey = L
+crashed-subframe-submit =
+  .label = レポートを送信
+  .accesskey = S
 
 ## Bookmarks panels, menus and toolbar
 
@@ -508,6 +517,10 @@ bookmarks-show-all-bookmarks =
     .label = すべてのブックマークを表示
 bookmarks-recent-bookmarks =
     .value = 最近のブックマーク
+bookmarks-manage-bookmarks =
+  .label = ブックマークを管理
+bookmarks-recent-bookmarks-panel =
+  .value = 最近のブックマーク
 bookmarks-toolbar-chevron =
     .tooltiptext = 残りのブックマークを表示します
 bookmarks-sidebar-content =
@@ -531,6 +544,11 @@ bookmarks-tools-toolbar-visibility =
            *[other] ブックマークツールバーを表示
         }
 bookmarks-tools-toolbar-visibility-menuitem =
+  .label = { $isVisible ->
+     [true] ブックマークツールバーを隠す
+    *[other] ブックマークツールバーを表示
+  }
+bookmarks-tools-toolbar-visibility-panel =
   .label = { $isVisible ->
      [true] ブックマークツールバーを隠す
     *[other] ブックマークツールバーを表示
@@ -562,6 +580,10 @@ bookmarks-toolbar-placeholder =
     .title = ブックマークツールバーの項目
 bookmarks-toolbar-placeholder-button =
     .label = ブックマークツールバーの項目
+
+# "Bookmark" is a verb, as in "Add current tab to bookmarks".
+bookmarks-current-tab =
+  .label = 現在のタブをブックマークに追加
 
 ## Library Panel items
 

@@ -132,9 +132,11 @@ policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトで�
 
 policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
 
+policy-ManagedBookmarks = システム管理者により管理されたブックマークのリストを設定します。ユーザーはこのブックマークを変更できません。
+
 policy-MasterPassword = マスターパスワードの使用を要求または抑止します。
 
-policy-ManagedBookmarks = システム管理者により管理されたブックマークのリストを設定します。ユーザーはこのブックマークを変更できません。
+policy-ManualAppUpdateOnly = 更新を手動のみにし、更新の通知をユーザーには通知しないようにします。
 
 policy-PrimaryPassword = マスターパスワードの使用を要求または抑止します。
 

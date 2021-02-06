@@ -1102,11 +1102,16 @@ browser                 13771:3a2612cc2eb8   2020-11-26     hATrayflood     sync
 devtools                13771:3a2612cc2eb8   2020-11-26     hATrayflood     sync devtools
 mail, suite             13779:2c1b19950f02   2020-12-01     mar             sync mail, suite
 
-[l10n-mozilla-85.0]
+Released! [l10n-mozilla-85.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            13852:b4e026bc0ff1   2020-12-19     mar             sync dom, toolkit
 mail, suite             13862:467e475f9070   2021-01-07     mar             sync mail, suite
 browser                 13872:16b8793b8600   2021-01-12     hATrayflood     sync browser
 devtools                13872:16b8793b8600   2021-01-12     hATrayflood     sync devtools
+
+[l10n-mozilla-86.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+browser                 13960:b647e9b3e409   2021-02-05     hATrayflood     sync browser
 

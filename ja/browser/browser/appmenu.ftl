@@ -18,6 +18,22 @@ appmenuitem-new-window =
 appmenuitem-new-private-window =
     .label = @@New-CMD@@プライベート@@Window@@
 
+appmenuitem-passwords =
+    .label = パスワード
+appmenuitem-extensions-and-themes =
+    .label = 拡張機能とテーマ
+appmenuitem-find-in-page =
+    .label = このページを検索...
+appmenuitem-more-tools =
+    .label = その他のツール
+appmenuitem-exit =
+    .label = 終了
+
+# Settings is now used to access the browser settings across all platforms,
+# instead of Options or Preferences.
+appmenuitem-settings =
+    .label = 設定
+
 ## Zoom and Fullscreen Controls
 
 appmenuitem-zoom-enlarge =
@@ -47,9 +63,61 @@ whatsnew-panel-footer-checkbox =
 ## performance profiles. To enable it go to profiler.firefox.com and click
 ## "Enable Profiler Menu Button".
 
+profiler-popup-title =
+  .value = { -profiler-brand-name }
+
+profiler-popup-reveal-description-button =
+  .aria-label = 詳細な情報を表示
+
+profiler-popup-description-title =
+  .value = 記録、分析、共有
+
+profiler-popup-description =
+  プロファイルを公開してあなたのチームに共有し、パフォーマンス問題に協力しましょう。
+
+profiler-popup-learn-more = 詳細
+
+profiler-popup-settings =
+  .value = 設定
+
+# This link takes the user to about:profiling, and is only visible with the Custom preset.
+profiler-popup-edit-settings = 設定を編集...
+
+profiler-popup-disabled =
+  プライベート@@Window@@を開いているため、プロファイラーは現在無効です。
+
+profiler-popup-recording-screen = 記録中...
+
+# The profiler presets list is generated elsewhere, but the custom preset is defined
+# here only.
+profiler-popup-presets-custom =
+  .label = カスタム
+
+profiler-popup-start-recording-button =
+  .label = 記録を開始
+
+profiler-popup-discard-button =
+  .label = 破棄
+
+profiler-popup-capture-button =
+  .label = キャプチャー
+
+profiler-popup-start-shortcut =
+  { PLATFORM() ->
+      [macos] ⌃⇧1
+     *[other] Ctrl+Shift+1
+  }
+
+profiler-popup-capture-shortcut =
+  { PLATFORM() ->
+      [macos] ⌃⇧2
+     *[other] Ctrl+Shift+2
+  }
 
 ## Help panel
 
+appmenu-help-header =
+    .title = { -brand-shorter-name } ヘルプ
 appmenu-about =
     .label = { -brand-shorter-name } について
     .accesskey = A
@@ -65,6 +133,9 @@ appmenu-help-import-from-another-browser =
 appmenu-help-keyboard-shortcuts =
     .label = キーボードショートカット
     .accesskey = K
+appmenu-get-help =
+    .label = ヘルプを表示
+    .accesskey = H
 appmenu-help-troubleshooting-info =
     .label = トラブルシューティング情報...
     .accesskey = T
@@ -95,3 +166,6 @@ appmenu-help-not-deceptive =
     .accesskey = d
 
 ##
+
+appmenu-help-check-for-update =
+    .label = 更新を確認...

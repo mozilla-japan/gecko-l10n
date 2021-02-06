@@ -43,7 +43,6 @@ onboarding-join-form-signin-label = アカウントは登録済みですか？
 onboarding-join-form-signin = ログイン
 
 onboarding-start-browsing-button-label = ブラウジングを開始
-onboarding-not-now-button-label = 後で
 onboarding-cards-dismiss =
     .title = 閉じる
     .aria-label = 閉じる
@@ -93,6 +92,78 @@ onboarding-benefit-monitor-text = 既知のデータ漏洩にあなたの個人�
 onboarding-benefit-lockwise-title = { -lockwise-brand-short-name }
 onboarding-benefit-lockwise-text = 持ち出しできる保護されたパスワード管理ができます。
 
+
+## These strings belong to the individual onboarding messages.
+
+## Each message has a title and a description of what the browser feature is.
+## Each message also has an associated button for the user to try the feature.
+## The string for the button is found above, in the UI strings section
+
+onboarding-tracking-protection-title2 = 追跡からのユーザー保護
+onboarding-tracking-protection-text2 = { -brand-short-name } はユーザーをオンラインで追跡するウェブサイトを抑止し、ウェブ上の広告による追跡を困難にします。
+onboarding-tracking-protection-button2 = 仕組みについて
+
+onboarding-data-sync-title = 設定もいつも一緒に
+# "Sync" is short for synchronize.
+onboarding-data-sync-text2 = { -brand-product-name } をどこでも使えるように、ブックマーク、パスワードなどを同期しましょう。
+onboarding-data-sync-button2 = { -sync-brand-short-name } にログイン
+
+onboarding-firefox-monitor-title = データの漏洩に備えて
+onboarding-firefox-monitor-text2 = { -monitor-brand-name } は既知のデータの漏洩にあなたのメールアドレスが使われたか監視し、新たな漏洩があったときに警告します。
+onboarding-firefox-monitor-button = アカウント登録
+
+onboarding-browse-privately-title = プライベートブラウジング
+onboarding-browse-privately-text = プライベートブラウジングは検索履歴と閲覧履歴を消去し、あなたのコンピューターの他のユーザーから秘密を守ります。
+onboarding-browse-privately-button = プライベート@@Window@@を開く
+
+onboarding-firefox-send-title = 共有ファイルをプライベートに
+onboarding-firefox-send-text2 = ファイルを { -send-brand-name } にアップロードすると、エンドツーエンド暗号化付きで共有できます。自動期限付きリンクも生成されます。
+onboarding-firefox-send-button = { -send-brand-name } を試す
+
+onboarding-mobile-phone-title = スマートフォンにも { -brand-product-name } を
+onboarding-mobile-phone-text = { -brand-product-name } for iOS / Android をダウンロードして、端末間でデータを同期しましょう。
+# "Mobile" is short for mobile/cellular phone, "Browser" is short for web
+# browser.
+onboarding-mobile-phone-button = モバイル版ブラウザーをダウンロード
+
+onboarding-send-tabs-title = 手軽にタブ送信
+# "Send Tabs" refers to "Send Tab to Device" feature that appears when opening a
+# tab's context menu.
+onboarding-send-tabs-text2 = URL をコピーしたりブラウザーを切り替えたりせずに、端末間で簡単にページを共有できます。
+onboarding-send-tabs-button = タブ送信を始めてみる
+
+onboarding-pocket-anywhere-title = どこでも視聴
+onboarding-pocket-anywhere-text2 = { -pocket-brand-name } アプリでお気に入りのコンテンツをオフラインに保存できます。後からいつでも読んだり視たりするのに便利です。
+onboarding-pocket-anywhere-button = { -pocket-brand-name } を試す
+
+onboarding-lockwise-strong-passwords-title = 強固なパスワードを作成、保存
+onboarding-lockwise-strong-passwords-text = { -lockwise-brand-name } は強固なパスワードをその場で作成し、一か所にすべて保存します。
+onboarding-lockwise-strong-passwords-button = ログイン情報を管理
+
+onboarding-facebook-container-title = Facebook に境界線を
+onboarding-facebook-container-text2 = { -facebook-container-brand-name } を使うと Facebook プロファイルが隔離されるので、Facebook のターゲティング広告が機能しにくくなります。
+onboarding-facebook-container-button = 拡張機能を追加
+
+onboarding-import-browser-settings-title = ブックマークやパスワードなどを@@Import@@
+onboarding-import-browser-settings-text = すぐに飛び込もう - Chrome からサイトと設定を簡単に持ち込めます。
+onboarding-import-browser-settings-button = Chrome からデータを@@Import-suru@@
+
+onboarding-personal-data-promise-title = プライバシー第一の設計
+onboarding-personal-data-promise-text = { -brand-product-name } は、ユーザーデータの取得を最小限にし、それを保護し、使用目的を明確にすることにより、あなたのデータを尊重します。
+onboarding-personal-data-promise-button = 私たちの誓約を確認する
+
+## Message strings belonging to the Return to AMO flow
+
+return-to-amo-sub-header = おめでとうございます。{ -brand-short-name } をインストールできました。
+
+# <icon></icon> will be replaced with the icon belonging to the extension
+#
+# Variables:
+#   $addon-name (String) - Name of the add-on
+return-to-amo-addon-header = <icon></icon><b>{ $addon-name } を今すぐインストールしましょう。</b>
+return-to-amo-extension-button = 拡張機能を追加
+return-to-amo-get-started-button = { -brand-short-name } を開始
+onboarding-not-now-button-label = 後で
 
 ## Custom Return To AMO onboarding strings
 
@@ -183,74 +254,3 @@ onboarding-multistage-theme-tooltip-alpenglow-2 =
 # Input description for Alpenglow theme
 onboarding-multistage-theme-description-alpenglow =
     .aria-description = カラフルな外観のボタン、メニュー、@@Window@@を使用します
-
-## These strings belong to the individual onboarding messages.
-
-## Each message has a title and a description of what the browser feature is.
-## Each message also has an associated button for the user to try the feature.
-## The string for the button is found above, in the UI strings section
-
-onboarding-tracking-protection-title2 = 追跡からのユーザー保護
-onboarding-tracking-protection-text2 = { -brand-short-name } はユーザーをオンラインで追跡するウェブサイトを抑止し、ウェブ上の広告による追跡を困難にします。
-onboarding-tracking-protection-button2 = 仕組みについて
-
-onboarding-data-sync-title = 設定もいつも一緒に
-# "Sync" is short for synchronize.
-onboarding-data-sync-text2 = { -brand-product-name } をどこでも使えるように、ブックマーク、パスワードなどを同期しましょう。
-onboarding-data-sync-button2 = { -sync-brand-short-name } にログイン
-
-onboarding-firefox-monitor-title = データの漏洩に備えて
-onboarding-firefox-monitor-text2 = { -monitor-brand-name } は既知のデータの漏洩にあなたのメールアドレスが使われたか監視し、新たな漏洩があったときに警告します。
-onboarding-firefox-monitor-button = アカウント登録
-
-onboarding-browse-privately-title = プライベートブラウジング
-onboarding-browse-privately-text = プライベートブラウジングは検索履歴と閲覧履歴を消去し、あなたのコンピューターの他のユーザーから秘密を守ります。
-onboarding-browse-privately-button = プライベート@@Window@@を開く
-
-onboarding-firefox-send-title = 共有ファイルをプライベートに
-onboarding-firefox-send-text2 = ファイルを { -send-brand-name } にアップロードすると、エンドツーエンド暗号化付きで共有できます。自動期限付きリンクも生成されます。
-onboarding-firefox-send-button = { -send-brand-name } を試す
-
-onboarding-mobile-phone-title = スマートフォンにも { -brand-product-name } を
-onboarding-mobile-phone-text = { -brand-product-name } for iOS / Android をダウンロードして、端末間でデータを同期しましょう。
-# "Mobile" is short for mobile/cellular phone, "Browser" is short for web
-# browser.
-onboarding-mobile-phone-button = モバイル版ブラウザーをダウンロード
-
-onboarding-send-tabs-title = 手軽にタブ送信
-# "Send Tabs" refers to "Send Tab to Device" feature that appears when opening a
-# tab's context menu.
-onboarding-send-tabs-text2 = URL をコピーしたりブラウザーを切り替えたりせずに、端末間で簡単にページを共有できます。
-onboarding-send-tabs-button = タブ送信を始めてみる
-
-onboarding-pocket-anywhere-title = どこでも視聴
-onboarding-pocket-anywhere-text2 = { -pocket-brand-name } アプリでお気に入りのコンテンツをオフラインに保存できます。後からいつでも読んだり視たりするのに便利です。
-onboarding-pocket-anywhere-button = { -pocket-brand-name } を試す
-
-onboarding-lockwise-strong-passwords-title = 強固なパスワードを作成、保存
-onboarding-lockwise-strong-passwords-text = { -lockwise-brand-name } は強固なパスワードをその場で作成し、一か所にすべて保存します。
-onboarding-lockwise-strong-passwords-button = ログイン情報を管理
-
-onboarding-facebook-container-title = Facebook に境界線を
-onboarding-facebook-container-text2 = { -facebook-container-brand-name } を使うと Facebook プロファイルが隔離されるので、Facebook のターゲティング広告が機能しにくくなります。
-onboarding-facebook-container-button = 拡張機能を追加
-
-onboarding-import-browser-settings-title = ブックマークやパスワードなどを@@Import@@
-onboarding-import-browser-settings-text = すぐに飛び込もう - Chrome からサイトと設定を簡単に持ち込めます。
-onboarding-import-browser-settings-button = Chrome からデータを@@Import-suru@@
-
-onboarding-personal-data-promise-title = プライバシー第一の設計
-onboarding-personal-data-promise-text = { -brand-product-name } は、ユーザーデータの取得を最小限にし、それを保護し、使用目的を明確にすることにより、あなたのデータを尊重します。
-onboarding-personal-data-promise-button = 私たちの誓約を確認する
-
-## Message strings belonging to the Return to AMO flow
-
-return-to-amo-sub-header = おめでとうございます。{ -brand-short-name } をインストールできました。
-
-# <icon></icon> will be replaced with the icon belonging to the extension
-#
-# Variables:
-#   $addon-name (String) - Name of the add-on
-return-to-amo-addon-header = <icon></icon><b>{ $addon-name } を今すぐインストールしましょう。</b>
-return-to-amo-extension-button = 拡張機能を追加
-return-to-amo-get-started-button = { -brand-short-name } を開始
