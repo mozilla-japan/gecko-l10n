@@ -20,6 +20,13 @@ navbar-tooltip-back =
 toolbar-button-back =
     .label = { main-context-menu-back.aria-label }
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+main-context-menu-back-2 =
+    .tooltiptext =前のページへ戻ります ({ $shortcut })
+    .aria-label = 戻る
+    .accesskey = B
+
 navbar-tooltip-back-2 =
     .value = { main-context-menu-back-2.tooltiptext }
 
@@ -36,6 +43,13 @@ navbar-tooltip-forward =
     .value = { main-context-menu-forward.tooltiptext }
 toolbar-button-forward =
     .label = { main-context-menu-forward.aria-label }
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+main-context-menu-forward-2 =
+    .tooltiptext = 次のページへ進みます ({ $shortcut })
+    .aria-label = 進む
+    .accesskey = F
 
 navbar-tooltip-forward-2 =
     .value = { main-context-menu-forward-2.tooltiptext }
