@@ -43,6 +43,11 @@ whatsnew-panel-footer-checkbox =
     .label = 新機能を通知する
     .accesskey = f
 
+## The Firefox Profiler – The popup is the UI to turn on the profiler, and record
+## performance profiles. To enable it go to profiler.firefox.com and click
+## "Enable Profiler Menu Button".
+
+
 ## Help panel
 
 appmenu-about =
@@ -63,6 +68,8 @@ appmenu-help-keyboard-shortcuts =
 appmenu-help-troubleshooting-info =
     .label = トラブルシューティング情報...
     .accesskey = T
+appmenu-help-taskmanager =
+    .label = タスクマネージャー
 appmenu-help-feedback-page =
     .label = フィードバックを送信...
     .accesskey = S
