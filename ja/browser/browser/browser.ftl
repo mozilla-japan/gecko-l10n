@@ -338,6 +338,9 @@ browser-window-restore-down-button =
 browser-window-close-button =
     .tooltiptext = @@CloseCMD@@
 
+## Tab actions
+
+
 ## Bookmarks toolbar items
 
 browser-import-button2 =
@@ -527,6 +530,11 @@ bookmarks-tools-toolbar-visibility =
             [true] ブックマークツールバーを隠す
            *[other] ブックマークツールバーを表示
         }
+bookmarks-tools-toolbar-visibility-menuitem =
+  .label = { $isVisible ->
+     [true] ブックマークツールバーを隠す
+    *[other] ブックマークツールバーを表示
+  }
 bookmarks-tools-menu-button-visibility =
     .label =
         { $isVisible ->
@@ -537,6 +545,10 @@ bookmarks-search =
     .label = ブックマークを検索
 bookmarks-tools =
     .label = ブックマークツール
+
+bookmarks-bookmark-edit-panel =
+  .label = このブックマークを編集
+
 # The aria-label is a spoken label that should not include the word "toolbar" or
 # such, because screen readers already know that this container is a toolbar.
 # This avoids double-speaking.
