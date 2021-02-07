@@ -17,6 +17,7 @@ update-updateButton =
 
 update-checkingForUpdates = ソフトウェアの更新を確認...
 update-downloading = <img data-l10n-name="icon"/>更新をダウンロード中 — <label data-l10n-name="download-status"/>
+update-downloading-message = 更新をダウンロード中 — <label data-l10n-name="download-status"/>
 update-applying = 更新を適用中...
 
 update-failed = 更新に失敗しました。<label data-l10n-name="failed-link">最新バージョンをダウンロード</label>
@@ -36,6 +37,9 @@ update-restarting = 再起動中です...
 channel-description = 現在のアップデートチャンネルは <label data-l10n-name="current-channel"></label> です。{ " " }
 
 warningDesc-version = { -brand-short-name } は実験的であり、不安定な可能性があります。
+
+aboutdialog-help-user = { -brand-product-name } ヘルプ
+aboutdialog-submit-feedback = フィードバックを送信
 
 community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> はウェブの公開性、公衆性、制限のないアクセス性を保つために共に活動している <label data-l10n-name="community-exp-creditsLink">グローバルなコミュニティ</label> です。
 

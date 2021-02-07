@@ -51,16 +51,6 @@ toolbar-context-menu-view-customize-toolbar =
     .label = カスタマイズ...
     .accesskey = C
 
-toolbar-context-menu-bookmarks-toolbar-always-show =
-    .label = 常に表示する
-    .accesskey = A
-toolbar-context-menu-bookmarks-toolbar-never-show =
-    .label = 表示しない
-    .accesskey = N
-toolbar-context-menu-bookmarks-toolbar-on-new-tab =
-    .label = @@NewTab@@のみ
-    .accesskey = O
-
 toolbar-context-menu-bookmarks-toolbar-always-show-2 =
     .label = 常に表示する
     .accesskey = A

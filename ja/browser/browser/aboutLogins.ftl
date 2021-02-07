@@ -85,6 +85,7 @@ login-item-new-login-title = @@New-CMD@@ログイン情報を作成
 login-item-edit-button = 編集
 about-logins-login-item-remove-button = 消去
 login-item-origin-label = ウェブサイトの URL
+login-item-tooltip-message = ログインするウェブサイトの正確な URL と一致することを確認してください。
 login-item-origin =
   .placeholder = https://www.example.com
 login-item-username-label = ユーザー名
@@ -267,6 +268,9 @@ about-logins-import-file-picker-import-button = @@Import@@
 # A description for the .csv file format that may be shown as the file type
 # filter by the operating system.
 about-logins-import-file-picker-csv-filter-title = CSV ファイル
+# A description for the .tsv file format that may be shown as the file type
+# filter by the operating system. TSV is short for 'tab separated values'.
+about-logins-import-file-picker-tsv-filter-title = TSV ファイル
 
 ##
 ## Variables:
@@ -292,3 +296,21 @@ about-logins-import-dialog-items-error =
       *[other] <span>エラー:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(@@Import-sare@@ませんでした)</span>
   }
 about-logins-import-dialog-done = 完了
+
+about-logins-import-dialog-error-title = @@ImportNoun@@エラー
+about-logins-import-dialog-error-conflicting-values-title = 一つのログイン情報に衝突する複数の値があります
+about-logins-import-dialog-error-conflicting-values-description = 例えば、一つのログイン情報に複数の username, password, URL があります。
+about-logins-import-dialog-error-file-format-title = ファイルフォーマットに問題があります
+about-logins-import-dialog-error-file-format-description = ヘッダーの列が正しくないか不足しています。ファイルに username, password, URL の列が含まれているか確認してください。
+about-logins-import-dialog-error-file-permission-title = ファイルを読み込めませんでした
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } には指定のファイルを読み込む権限がありません。ファイルの権限を変更して試してください。
+about-logins-import-dialog-error-unable-to-read-title = ファイルを解析できませんでした
+about-logins-import-dialog-error-unable-to-read-description = CSV ファイルまたは TSV ファイルの内容を確認してください。
+about-logins-import-dialog-error-no-logins-imported = ログイン情報は@@Import-sare@@ませんでした
+about-logins-import-dialog-error-learn-more = 詳細
+about-logins-import-dialog-error-try-again = 再試行...
+about-logins-import-dialog-error-cancel = キャンセル
+
+## Logins import report page
+
+about-logins-import-report-page-title = @@ImportNoun@@結果の概要

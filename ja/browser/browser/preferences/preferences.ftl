@@ -626,7 +626,6 @@ home-prefs-topsites-description = よく訪れるサイト
 
 home-prefs-topsites-by-option-sponsored =
     .label = 広告トップサイト
-
 home-prefs-shortcuts-header =
     .label = ショートカット
 home-prefs-shortcuts-description = 保存または訪問したサイト
