@@ -73,7 +73,7 @@ profiler-popup-description-title =
   .value = 記録、分析、共有
 
 profiler-popup-description =
-  プロファイルを公開してあなたのチームに共有し、パフォーマンス問題に協力しましょう。
+  プロファイルを公開してあなたのチームと共有し、パフォーマンス問題に協力しましょう。
 
 profiler-popup-learn-more = 詳細
 
@@ -100,7 +100,7 @@ profiler-popup-discard-button =
   .label = 破棄
 
 profiler-popup-capture-button =
-  .label = キャプチャー
+  .label = キャプチャ
 
 profiler-popup-start-shortcut =
   { PLATFORM() ->

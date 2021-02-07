@@ -306,4 +306,4 @@ cfr-whatsnew-bookmarking-body = お気に入りのサイトの管理が簡単に
 ## What's new: Cross-site cookie tracking
 
 cfr-whatsnew-cross-site-tracking-header = クロスサイトトラッキング Cookie からの包括的な保護
-cfr-whatsnew-cross-site-tracking-body = トラッキング Cookie からのよりよい保護を任意で利用できるようになりました。{ -brand-short-name} はあなたの行動とデータを閲覧中のサイトから分離し、ブラウザーに保存された情報がウェブサイト間で共有されないようになります。
+cfr-whatsnew-cross-site-tracking-body = トラッキング Cookie からのよりよい保護を任意で利用できるようになりました。{ -brand-short-name} があなたの行動と個人データを閲覧中のサイトから分離するため、ブラウザーに保存された情報はウェブサイト間で共有されません。
