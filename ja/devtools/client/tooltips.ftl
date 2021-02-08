@@ -45,7 +45,7 @@ inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> �
 
 inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> はセル以外のテーブルを構成する要素に影響を及ぼしません。
 
-inactive-css-not-table = テーブルではないため、<strong>{ $property }</strong> この要素に影響を及ぼしません。
+inactive-css-not-table = テーブルではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
