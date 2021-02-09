@@ -70,29 +70,29 @@ perftools-button-edit-settings = 設定を編集...
 ## These messages are descriptions of the threads that can be enabled for the profiler.
 
 perftools-thread-gecko-main =
-  .title = コンテンツプロセスと親プロセス両方のメインプロセス
+  .title = コンテンツプロセスと親プロセス両方のメインプロセスです
 perftools-thread-compositor =
-  .title = ページで別々に描画された要素を合成するコンポジター
+  .title = ページ上の異なる描画要素を合成します
 perftools-thread-dom-worker =
-  .title = Web Worker と Service Worker 両方のハンドル
+  .title = これは Web Worker と Service Worker の両方を扱います
 perftools-thread-renderer =
-  .title = WebRender が有効なときに、OpenGL 呼び出しを実行するスレッド
+  .title = WebRender が有効なときに OpenGL 呼び出しを実行するスレッドです
 perftools-thread-render-backend =
-  .title = WebRender RenderBackend スレッド
+  .title = WebRender の RenderBackend スレッドです
 perftools-thread-paint-worker =
-  .title = オフメインスレッド描画が有効なときに、描画処理が発生するスレッド
+  .title = メインスレッド外描画が有効なときに描画処理が発生するスレッドです
 perftools-thread-style-thread =
-  .title = スタイルの計算で分割される複数のスレッド
+  .title = 複数に分割されるスタイル計算のスレッドです
 pref-thread-stream-trans =
-  .title = ネットワークストリーム転送
+  .title = ネットワークストリーム転送です
 perftools-thread-socket-thread =
-  .title = ソケット呼び出しのいずれかをブロックするネットワークにアクセスするコードを実行するスレッド
+  .title = ソケット呼び出しをブロックするネットワークコードが実行されるスレッドです
 perftools-thread-img-decoder =
-  .title = 画像デコードスレッド
+  .title = 画像デコードスレッドです
 perftools-thread-dns-resolver =
-  .title = スレッドで発生する名前解決処理
+  .title = DNS の名前解決が行われるスレッドです
 perftools-thread-js-helper =
-  .title = オフメインスレッドでのコンパイルといった JS エンジンのバックエンド処理
+  .title = メインスレッド外コンパイルなど、JS エンジンのバックエンド処理のスレッドです
 
 ##
 
