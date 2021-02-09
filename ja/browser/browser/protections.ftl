@@ -10,7 +10,7 @@ graph-week-summary = この 1 週間で { $count } 個のトラッカーをブ�
 #   $count (Number) - Number of tracking events blocked.
 #   $earliestDate (Number) - Unix timestamp in ms, representing a date. The
 # earliest date recorded in the database.
-graph-total-tracker-summary = { DATETIME($earliestDate, year: "numeric", month: "numeric", day: "numeric") } から <b>{ $count } 個</b>のトラッカーをブロックしました
+graph-total-tracker-summary = { DATETIME($earliestDate, day: "numeric", month: "numeric", year: "numeric") } から <b>{ $count } 個</b>のトラッカーをブロックしました
 
 # Text displayed instead of the graph when in Private Mode
 graph-private-window = { -brand-short-name } はプライベート@@Window@@でもトラッカーのブロックを続けますが、何をブロックしたのかは記録しません。
