@@ -1114,4 +1114,5 @@ devtools                13872:16b8793b8600   2021-01-12     hATrayflood     sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                 13960:b647e9b3e409   2021-02-05     hATrayflood     sync browser
+devtools                13960:b647e9b3e409   2021-02-05     hATrayflood     sync devtools
 
