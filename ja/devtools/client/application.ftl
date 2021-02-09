@@ -46,7 +46,7 @@ serviceworker-worker-start3 = 開始
 
 # Text displayed for the updated time of the service worker. The <time> element will
 # display the last update time of the service worker script.
-serviceworker-worker-updated = <time>{ DATETIME($date, year: "numeric", month: "long", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric") }</time>更新
+serviceworker-worker-updated = <time>{ DATETIME($date, month: "numeric", year: "numeric", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric") }</time>更新
 
 # Text displayed next to the URL for the source of the service worker (e-g. "Source my/path/to/worker-js")
 serviceworker-worker-source = ソース
