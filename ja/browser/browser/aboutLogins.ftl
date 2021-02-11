@@ -101,9 +101,9 @@ login-item-copied-password-button-text = コピーしました！
 login-item-save-changes-button = 変更を保存
 login-item-save-new-button = 保存
 login-item-cancel-button = キャンセル
-login-item-time-changed = 最終更新日時: { DATETIME($timeChanged, day: "numeric", month: "numeric", year: "numeric") }
-login-item-time-created = 作成日時: { DATETIME($timeCreated, day: "numeric", month: "numeric", year: "numeric") }
-login-item-time-used = 最終利用日時: { DATETIME($timeUsed, day: "numeric", month: "numeric", year: "numeric") }
+login-item-time-changed = 最終更新日時: { DATETIME($timeChanged, day: "numeric", month: "long", year: "numeric") }
+login-item-time-created = 作成日時: { DATETIME($timeCreated, day: "numeric", month: "long", year: "numeric") }
+login-item-time-used = 最終利用日時: { DATETIME($timeUsed, day: "numeric", month: "long", year: "numeric") }
 
 ## OS Authentication dialog
 
@@ -221,7 +221,7 @@ confirm-discard-changes-dialog-confirm-button = 破棄
 
 about-logins-breach-alert-title = ウェブサイトからの情報漏洩
 breach-alert-text = ログイン情報の最後の更新の後に、このサイトからパスワードの漏洩、または盗難がありました。アカウントの保護のため、パスワードを変更してください。
-about-logins-breach-alert-date = この漏洩は { DATETIME($date, day: "numeric", month: "numeric", year: "numeric") } に発生しました。
+about-logins-breach-alert-date = この漏洩は { DATETIME($date, day: "numeric", month: "long", year: "numeric") } に発生しました。
 # Variables:
 #   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
 about-logins-breach-alert-link = { $hostname } に移動
