@@ -14,7 +14,13 @@
 <!ENTITY prefCheckDefaultClient.label     "起動時に@@DefaultApplication@@の設定を確認する">
 <!ENTITY prefCheckDefaultClient.accesskey "C">
 
-<!ENTITY crashReports.caption             "クラッシュレポータ">
+<!ENTITY printing.label                   "@@Print@@">
+<!ENTITY useNativePrintDialog.label       "システムの@@Print@@ダイアログを使用">
+<!ENTITY useNativePrintDialog.accesskey   "U">
+<!ENTITY useGlobalPrintSettings.label     "グローバルの@@Print@@設定を使用">
+<!ENTITY useGlobalPrintSettings.accesskey "G">
+
+<!ENTITY crashReports.caption             "クラッシュレポーター">
 <!ENTITY submitCrashes.label              "クラッシュレポートを送信する">
 <!ENTITY submitCrashes.accesskey          "S">
 

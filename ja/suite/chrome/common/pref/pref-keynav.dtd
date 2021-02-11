@@ -18,3 +18,10 @@
 <!ENTITY browseWithCaretShortCut.accesskey "F">
 <!ENTITY browseWithCaretWarn.label "キャレットブラウズを有効にする前に警告を出す">
 <!ENTITY browseWithCaretWarn.accesskey "W">
+
+<!ENTITY modifiers.label "修飾キー">
+<!ENTITY acceleratorKey.label "アクセラレーターキー:">
+<!ENTITY acceleratorKey.accesskey "A">
+<!ENTITY menuAccessKey.label "メニューアクセスキー:">
+<!ENTITY menuAccessKey.accesskey "M">
+<!ENTITY modifiersDesc.label "注: 値を 0 にすると修飾キーが無効になります。">

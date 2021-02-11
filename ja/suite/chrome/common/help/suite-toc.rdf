@@ -14,7 +14,6 @@
       <rdf:Seq>
         <rdf:li> <rdf:Description ID="welcome" nc:name="Help and Support Center" nc:link="welcome_help.xhtml"/> </rdf:li>
         <rdf:li> <rdf:Description ID="help-help" nc:name="Using the Help Window" nc:link="help_help.xhtml"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="ieusers"/> </rdf:li>
         <rdf:li> <rdf:Description ID="nav" nc:name="Browsing the Web" nc:link="nav_help.xhtml"/> </rdf:li>
         <rdf:li> <rdf:Description ID="mail" nc:name="Using Mail &amp; Newsgroups" nc:link="mailnews_getting_started.xhtml"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp" nc:name="Creating Web Pages"  nc:link="composer_help.xhtml"/> </rdf:li>
@@ -750,7 +749,7 @@
       <rdf:Seq>
         <rdf:li> <rdf:Description ID="cust-menu" nc:name="Menu Bar"  nc:link="customize_help.xhtml#menu_bar"/> </rdf:li>
         <rdf:li> <rdf:Description ID="cust-main" nc:name="Navigation Toolbar"  nc:link="customize_help.xhtml#navigation_toolbar"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="cust-personal" nc:name="Personal Toolbar"  nc:link="customize_help.xhtml#personal_toolbar"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="cust-personal" nc:name="Bookmarks Toolbar"  nc:link="customize_help.xhtml#personal_toolbar"/> </rdf:li>
         <rdf:li> <rdf:Description ID="cust-status" nc:name="Status Bar"  nc:link="customize_help.xhtml#status_bar"/> </rdf:li>
         <rdf:li> <rdf:Description ID="cust-taskbar" nc:name="Component Bar"  nc:link="customize_help.xhtml#component_bar"/> </rdf:li>
         <rdf:li> <rdf:Description ID="cust-hide" nc:name="Hiding a Toolbar"  nc:link="customize_help.xhtml#hiding_a_toolbar"/> </rdf:li>
@@ -832,6 +831,7 @@
         <rdf:li><rdf:Description ID="advanced_http_networking" nc:name="HTTP Networking" nc:link="cs_nav_prefs_advanced.xhtml#http_networking"/> </rdf:li>
         <rdf:li><rdf:Description ID="advanced_pref_installation" nc:name="Software Installation" nc:link="cs_nav_prefs_advanced.xhtml#software_installation"/> </rdf:li>
         <rdf:li><rdf:Description ID="advanced_pref_mouse_wheel" nc:name="Mouse Wheel" nc:link="cs_nav_prefs_advanced.xhtml#mouse_wheel"/> </rdf:li>
+        <rdf:li><rdf:Description ID="advanced_pref_debugging" nc:name="Debugging" nc:link="cs_nav_prefs_advanced.xhtml#debugging"/> </rdf:li>
         <rdf:li><rdf:Description ID="advanced_pref_dom_inspector" nc:name="DOM Inspector" nc:link="cs_nav_prefs_advanced.xhtml#dom_inspector"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
