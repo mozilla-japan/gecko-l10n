@@ -20,6 +20,8 @@ about-config-search-input1 =
     .placeholder = 設定名を検索
 about-config-show-all = すべて表示
 
+about-config-show-only-modified = 変更された設定のみ表示する
+
 about-config-pref-add-button =
     .title = 新規作成
 about-config-pref-toggle-button =
