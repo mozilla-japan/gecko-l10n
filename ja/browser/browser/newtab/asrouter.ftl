@@ -115,7 +115,7 @@ cfr-whatsnew-tracking-protect-link-text = 報告を確認
 # localization, because it would result in the number showing twice.
 cfr-whatsnew-tracking-blocked-title = { $blockedCount }  個のトラッカーをブロックしました
 cfr-whatsnew-tracking-blocked-subtitle =
-   { DATETIME($earliestDate, month: "numeric", year: "numeric") } から
+   { DATETIME($earliestDate, month: "long", year: "numeric") } から
 cfr-whatsnew-tracking-blocked-link-text = 報告を確認
 
 cfr-whatsnew-lockwise-backup-title = パスワードをバックアップ
@@ -217,7 +217,7 @@ cfr-doorhanger-milestone-heading =
   }
 cfr-doorhanger-milestone-heading2 =
   { $blockedCount ->
-    *[other] { DATETIME($date, month: "numeric", year: "numeric") } 以降、{ -brand-short-name } は <b>{ $blockedCount } 個</b>以上のトラッカーをブロックしました！
+    *[other] { DATETIME($date, month: "long", year: "numeric") } 以降、{ -brand-short-name } は <b>{ $blockedCount } 個</b>以上のトラッカーをブロックしました！
   }
 cfr-doorhanger-milestone-ok-button = 確認
   .accesskey = S
