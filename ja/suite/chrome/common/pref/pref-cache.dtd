@@ -26,6 +26,12 @@
 <!ENTITY checkNever.label                "確認しない">
 <!ENTITY checkAutomatically.label        "キャッシュしたページが古いとき">
 
-<!ENTITY prefetchTitle.label             "リンク先読み機能">
+<!ENTITY prefetchTitle.label             "リンク先読み">
 <!ENTITY enablePrefetch.label            "リンク先読み機能を有効にする。この機能に対応したサイトでは、各ページのダウンロード完了後に、次に表示すると思われるページを先取りして読み込むことで見かけ上の表示速度を高速化します。">
 <!ENTITY enablePrefetch.accesskey        "P">
+
+<!ENTITY debugCache.label                "デバッグ">
+<!ENTITY debugEnableMemCache.label       "メモリーキャッシュを有効にする">
+<!ENTITY debugEnableMemCache.accesskey   "E">
+<!ENTITY debugEnableDiskCache.label      "ディスクキャッシュを有効にする">
+<!ENTITY debugEnableDiskCache.accesskey  "D">

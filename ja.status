@@ -1115,4 +1115,6 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 browser                 13960:b647e9b3e409   2021-02-05     hATrayflood     sync browser
 devtools                13960:b647e9b3e409   2021-02-05     hATrayflood     sync devtools
+dom, toolkit            13960:b647e9b3e409   2021-02-05     mar             sync dom, toolkit
+mail, calendar, suite   13960:b647e9b3e409   2021-02-05     mar             sync mail, calendar, suite
 
