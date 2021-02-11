@@ -19,15 +19,6 @@ printui-page-range-custom = 指定範囲
 printui-page-range-label = ページ指定
 printui-page-range-picker =
   .aria-label = ページ範囲を選択してください
-printui-page-custom-range =
-  .aria-label = ページ範囲を入力してください
-# This label is displayed before the first input field indicating
-# the start of the range to print.
-printui-range-start = ページ指定
-# This label is displayed between the input fields indicating
-# the start and end page of the range to print.
-printui-range-end = –
-
 printui-page-custom-range-input =
   .aria-label = ページ範囲を入力してください
   .placeholder = 例: 2-6, 9, 12-16
@@ -73,7 +64,6 @@ printui-margins = 余白
 printui-margins-default = @@Default@@
 printui-margins-min = 最少
 printui-margins-none = なし
-printui-margins-custom = カスタム
 printui-margins-custom-inches = カスタム (インチ)
 printui-margins-custom-top = 上
 printui-margins-custom-top-inches = 上 (インチ)
@@ -89,7 +79,6 @@ printui-system-dialog-link = システムダイアログを使用して@@Print@@
 printui-primary-button = @@Print@@
 printui-primary-button-save = 保存
 printui-cancel-button = キャンセル
-
 printui-close-button = 閉じる
 
 printui-loading = プレビューの準備中です
@@ -104,6 +93,7 @@ printui-pages-per-sheet = 1 枚あたりのページ数
 # This is shown next to the Print button with an indefinite loading spinner
 # when the user prints a page and it is being sent to the printer.
 printui-print-progress-indicator = @@Print@@中...
+printui-print-progress-indicator-saving = 保存中...
 
 ## Paper sizes that may be supported by the Save to PDF destination:
 ## (^m^) /widget/nsPrinterListBase.cpp (Bug 1659781)
