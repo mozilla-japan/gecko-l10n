@@ -104,7 +104,7 @@ permissions-exceptions-addons-desc = アドオンのインストールを許可�
 permissions-site-autoplay-window =
     .title = 設定 - 自動再生
     .style = { permissions-window.style }
-permissions-site-autoplay-desc = 自動再生の@@DefaultSetting@@によらないサイトをここで管理できます。
+permissions-site-autoplay-desc = 自動再生の@@Default-@@設定によらないサイトをここで管理できます。
 
 ## Site Permissions - Notifications
 

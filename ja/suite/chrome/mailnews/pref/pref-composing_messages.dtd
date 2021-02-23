@@ -24,7 +24,7 @@
 <!ENTITY wrapOutMsg.accesskey                 "W">
 <!ENTITY char.label                           "文字で改行する"><!--characters-->
 
-<!ENTITY defaultMessagesHeader.label          "HTML メッセージの@@DefaultSetting@@">
+<!ENTITY defaultMessagesHeader.label          "HTML メッセージの@@Default-@@設定">
 <!ENTITY font.label                           "フォント:">
 <!ENTITY font.accesskey                       "F">
 <!ENTITY size.label                           "文字サイズ:">

@@ -192,7 +192,7 @@ was trying to connect. -->
 <!ENTITY clockSkewError.longDesc		"あなたのコンピューターは現在の日時を <span id='wrongSystemTime_systemDate1'/> だと誤解しており、&brandShortName; の安全な接続を妨げる原因になります。<span class='hostname'></span> にアクセスして、コンピュータの現在の日付と時刻、タイムゾーンを正しいものに更新して、<span class='hostname'></span> を再読み込みしてください。">
 
 <!ENTITY prefReset.longDesc			"ネットワークセキュリティの設定がこの問題の原因になっている可能性があります。@@DefaultValue@@に戻しますか？">
-<!ENTITY prefReset.label			"@@RestoreDefaults@@">
+<!ENTITY prefReset.label			"@@DefaultValue@@に戻す">
 
 <!ENTITY enableTls10.longDesc		"このウェブサイトは &brandShortName; の最低サポートバージョンの TLS 1.2 プロトコルをサポートしていない可能性があります。TLS 1.0 と TLS 1.1 を有効にすると、接続できる場合があります。">
 <!ENTITY enableTls10.note		"TLS 1.0 と TLS 1.1 は将来のリリースで永久に無効化される予定です。">

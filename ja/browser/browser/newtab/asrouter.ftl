@@ -301,7 +301,7 @@ cfr-whatsnew-supercookies-body = ウェブサイトは密かに “supercookie�
 ## What's new: Better bookmarking
 
 cfr-whatsnew-bookmarking-header = よりよいブックマーク登録
-cfr-whatsnew-bookmarking-body = お気に入りのサイトの管理が簡単になりました。{ -brand-short-name } は保存したブックマークをあなたの好きな場所に記憶し、@@DefaultSetting@@では@@NewTab@@にブックマークツールバーを表示し、ツールバーのフォルダーから他のブックマークにもアクセスできるようになりました。
+cfr-whatsnew-bookmarking-body = お気に入りのサイトの管理が簡単になりました。{ -brand-short-name } は保存したブックマークをあなたの好きな場所に記憶し、@@Default-@@設定では@@NewTab@@にブックマークツールバーを表示し、ツールバーのフォルダーから他のブックマークにもアクセスできるようになりました。
 
 ## What's new: Cross-site cookie tracking
 

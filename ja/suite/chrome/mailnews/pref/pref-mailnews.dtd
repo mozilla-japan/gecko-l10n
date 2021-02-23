@@ -32,7 +32,7 @@
 <!ENTITY enableStartPage.accesskey        "W">
 <!ENTITY location.label                   "URL:">
 <!ENTITY location.accesskey               "L">
-<!ENTITY useDefault.label                 "@@RestoreDefaults@@">
+<!ENTITY useDefault.label                 "@@DefaultValue@@に戻す">
 <!ENTITY useDefault.accesskey             "D">
 <!ENTITY rememberLastMsg.label            "最後に選択したメッセージを記憶させる">
 <!ENTITY rememberLastMsg.accesskey        "R">

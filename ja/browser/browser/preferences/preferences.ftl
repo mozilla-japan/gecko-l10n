@@ -64,7 +64,7 @@ pane-experimental-search-results-header = 実験的な機能: 注意して進ん
 pane-experimental-description = 高度な設定を変更すると、{ -brand-short-name } の性能と安全性に影響を及ぼす可能性があります。
 
 pane-experimental-reset =
-  .label = @@RestoreDefaults@@
+  .label = @@DefaultValue@@に戻す
   .accesskey = R
 
 help-button-label = { -brand-short-name } サポート
@@ -580,7 +580,7 @@ home-homepage-mode-label = ホームページと@@NewWindow@@
 home-newtabs-mode-label = @@NewTab@@
 
 home-restore-defaults =
-    .label = @@RestoreDefaults@@
+    .label = @@DefaultValue@@に戻す
     .accesskey = R
 
 # "Firefox" should be treated as a brand and kept in English,
