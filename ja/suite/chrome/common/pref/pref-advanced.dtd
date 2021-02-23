@@ -11,7 +11,7 @@
 <!ENTITY systemPref.desc                  "この項目にチェックを入れると、&brandShortName; 独自の設定よりもシステム標準の設定を優先するようになります。">
 
 <!ENTITY prefCheckDefault.caption         "システム統合">
-<!ENTITY prefCheckDefaultClient.label     "起動時に@@DefaultApplication@@の設定を確認する">
+<!ENTITY prefCheckDefaultClient.label     "起動時に@@Default@@の@@Application@@の設定を確認する">
 <!ENTITY prefCheckDefaultClient.accesskey "C">
 
 <!ENTITY printing.label                   "@@Print@@">

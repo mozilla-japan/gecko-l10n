@@ -237,7 +237,7 @@ language-and-appearance-header = 言語と外観
 
 fonts-and-colors-header = フォントと@@Colors@@
 
-default-font = @@DefaultFont@@
+default-font = @@Default-@@フォント
     .accesskey = D
 default-font-size = サイズ
     .accesskey = S
@@ -359,9 +359,9 @@ applications-use-app-default =
 applications-use-os-default =
     .label =
         { PLATFORM() ->
-            [macos] macOS の@@DefaultApplication@@を使用
-            [windows] Windows の@@DefaultApplication@@を使用
-           *[other] システムの@@DefaultApplication@@を使用
+            [macos] macOS の@@Default@@の@@Application@@を使用
+            [windows] Windows の@@Default@@の@@Application@@を使用
+           *[other] システムの@@Default@@の@@Application@@を使用
         }
 
 applications-use-other =
