@@ -22,16 +22,12 @@ ja-JP-mac.]				= ”
 ja.Default				= 既定
 ja.Default-				= 既定の
 ja.DefaultBrowser			= 既定のブラウザー
-ja.DefaultSetting			= 既定の設定
 ja.DefaultValue				= 既定値
-ja.RestoreDefaults			= 既定値に戻す
 
 ja-JP-mac.Default			= デフォルト
 ja-JP-mac.Default-			= デフォルト
 ja-JP-mac.DefaultBrowser		= デフォルトウェブブラウザー
-ja-JP-mac.DefaultSetting		= デフォルト設定
 ja-JP-mac.DefaultValue			= デフォルト
-ja-JP-mac.RestoreDefaults		= デフォルトに戻す
 
 
 # アプリケーションソフトのことを Win では(主に)「プログラム」、Mac では「アプリケーション」
