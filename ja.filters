@@ -18,33 +18,23 @@ ja-JP-mac.[				= “
 ja-JP-mac.]				= ”
 
 
-# 普通デフォルトだが Win は既定が慣例
+# 普通「デフォルト」だが Win は「既定」が慣例
 ja.Default				= 既定
 ja.Default-				= 既定の
-ja.DefaultApplication			= 既定のプログラム
 ja.DefaultBrowser			= 既定のブラウザー
-ja.DefaultColor				= 既定の色
-ja.DefaultClient			= 既定のクライアント
-ja.DefaultFolder			= 既定のフォルダー
-ja.DefaultFont				= 既定のフォント
 ja.DefaultSetting			= 既定の設定
 ja.DefaultValue				= 既定値
 ja.RestoreDefaults			= 既定値に戻す
 
 ja-JP-mac.Default			= デフォルト
 ja-JP-mac.Default-			= デフォルト
-ja-JP-mac.DefaultApplication		= デフォルトのアプリケーション
 ja-JP-mac.DefaultBrowser		= デフォルトウェブブラウザー
-ja-JP-mac.DefaultColor			= デフォルトカラー
-ja-JP-mac.DefaultClient			= デフォルトクライアント
-ja-JP-mac.DefaultFolder			= デフォルトフォルダー
-ja-JP-mac.DefaultFont			= デフォルトフォント
 ja-JP-mac.DefaultSetting		= デフォルト設定
 ja-JP-mac.DefaultValue			= デフォルト
 ja-JP-mac.RestoreDefaults		= デフォルトに戻す
 
 
-# アプリケーションソフトのことを Win では(主に)プログラム、Mac ではアプリケーション
+# アプリケーションソフトのことを Win では(主に)「プログラム」、Mac では「アプリケーション」
 # 関連づけやプラグイン、連携ソフトについての記述でのみ使い分け
 ja.Application				= プログラム
 ja.Program				= プログラム
@@ -109,7 +99,6 @@ ja.Undo-sita				= 元に戻した
 ja.Undo-simasu				= 元に戻します
 ja.Zoom					= 拡大/縮小
 
-# Mac OS X 10.4 or earlier: 取り消し 10.5 or later: 取り消す
 ja-JP-mac.BringAllToFront		= すべてを手前に移動
 ja-JP-mac.Browse			= 選択
 ja-JP-mac.CloseCMD			= ウインドウを閉じる
@@ -121,7 +110,6 @@ ja-JP-mac.Paste-simasu			= ペーストします
 ja-JP-mac.Paste-site			= ペーストして
 ja-JP-mac.Paste-suru			= ペーストする
 ja-JP-mac.PropertyCMD			= 情報を見る
-# Mac OS X 10.4 or earlier: やり直し 10.5 or later: やり直す
 ja-JP-mac.Redo				= やり直す
 ja-JP-mac.SelectAll			= すべてを選択
 ja-JP-mac.Undo				= 取り消す
