@@ -505,11 +505,11 @@ pointerlock-warning-no-domain = マウスポインターは現在、このペー
 
 crashed-subframe-message = <strong>このページの一部がクラッシュしました。</strong> { -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
 crashed-subframe-learnmore =
-  .label = 詳細
-  .accesskey = L
+    .label = 詳細
+    .accesskey = L
 crashed-subframe-submit =
-  .label = レポートを送信
-  .accesskey = S
+    .label = レポートを送信
+    .accesskey = S
 
 ## Bookmarks panels, menus and toolbar
 
@@ -518,9 +518,9 @@ bookmarks-show-all-bookmarks =
 bookmarks-recent-bookmarks =
     .value = 最近のブックマーク
 bookmarks-manage-bookmarks =
-  .label = ブックマークを管理
+    .label = ブックマークを管理
 bookmarks-recent-bookmarks-panel =
-  .value = 最近のブックマーク
+    .value = 最近のブックマーク
 bookmarks-recent-bookmarks-panel-subheader = 最近のブックマーク
 bookmarks-toolbar-chevron =
     .tooltiptext = 残りのブックマークを表示します
@@ -545,15 +545,15 @@ bookmarks-tools-toolbar-visibility =
            *[other] ブックマークツールバーを表示
         }
 bookmarks-tools-toolbar-visibility-menuitem =
-  .label = { $isVisible ->
-     [true] ブックマークツールバーを隠す
-    *[other] ブックマークツールバーを表示
-  }
+    .label = { $isVisible ->
+       [true] ブックマークツールバーを隠す
+      *[other] ブックマークツールバーを表示
+    }
 bookmarks-tools-toolbar-visibility-panel =
-  .label = { $isVisible ->
-     [true] ブックマークツールバーを隠す
-    *[other] ブックマークツールバーを表示
-  }
+    .label = { $isVisible ->
+       [true] ブックマークツールバーを隠す
+      *[other] ブックマークツールバーを表示
+    }
 bookmarks-tools-menu-button-visibility =
     .label =
         { $isVisible ->
@@ -564,10 +564,8 @@ bookmarks-search =
     .label = ブックマークを検索
 bookmarks-tools =
     .label = ブックマークツール
-
 bookmarks-bookmark-edit-panel =
   .label = このブックマークを編集
-
 # The aria-label is a spoken label that should not include the word "toolbar" or
 # such, because screen readers already know that this container is a toolbar.
 # This avoids double-speaking.
@@ -581,10 +579,9 @@ bookmarks-toolbar-placeholder =
     .title = ブックマークツールバーの項目
 bookmarks-toolbar-placeholder-button =
     .label = ブックマークツールバーの項目
-
 # "Bookmark" is a verb, as in "Add current tab to bookmarks".
 bookmarks-current-tab =
-  .label = 現在のタブをブックマークに追加
+    .label = 現在のタブをブックマークに追加
 
 ## Library Panel items
 
