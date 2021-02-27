@@ -521,6 +521,7 @@ bookmarks-manage-bookmarks =
   .label = ブックマークを管理
 bookmarks-recent-bookmarks-panel =
   .value = 最近のブックマーク
+bookmarks-recent-bookmarks-panel-subheader = 最近のブックマーク
 bookmarks-toolbar-chevron =
     .tooltiptext = 残りのブックマークを表示します
 bookmarks-sidebar-content =
