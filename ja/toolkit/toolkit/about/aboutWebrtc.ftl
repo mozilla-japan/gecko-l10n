@@ -38,6 +38,7 @@ about-webrtc-remote-sdp-heading-offer = リモート SDP (オファー)
 about-webrtc-remote-sdp-heading-answer = リモート SDP (アンサー)
 about-webrtc-sdp-history-heading = SDP 履歴
 about-webrtc-sdp-parsing-errors-heading = SDP パースエラー
+
 ##
 
 # "RTP" is an abbreviation for the Real-time Transport Protocol, an IETF
@@ -56,13 +57,11 @@ about-webrtc-ice-rollback-count-label = ICE ロールバック:
 about-webrtc-ice-pair-bytes-sent = 送信バイト数:
 about-webrtc-ice-pair-bytes-received = 受信バイト数:
 about-webrtc-ice-component-id = コンポーネント ID
-##
 
 ## "Avg." is an abbreviation for Average. These are used as data labels.
 
 about-webrtc-avg-bitrate-label = 平均ビットレート:
 about-webrtc-avg-framerate-label = 平均フレームレート:
-##
 
 ## These adjectives are used to label a line of statistics collected for a peer
 ## connection. The data represents either the local or remote end of the
@@ -70,6 +69,7 @@ about-webrtc-avg-framerate-label = 平均フレームレート:
 
 about-webrtc-type-local = ローカル
 about-webrtc-type-remote = リモート
+
 ##
 
 # This adjective is used to label a table column. Cells in this column contain
@@ -101,6 +101,7 @@ about-webrtc-log-hide-msg = ログを隠す
 
 about-webrtc-connection-open = [ { $browser-id } | { $id } ] { $url } { $now }
 about-webrtc-connection-closed = [ { $browser-id } | { $id } ] { $url } (切断) { $now }
+
 ##
 
 about-webrtc-local-candidate = ローカル通信情報
@@ -137,6 +138,7 @@ about-webrtc-last-frame-timestamp = 末尾フレームの受信時刻
 about-webrtc-local-receive-ssrc = ローカル受信 SSRC
 # This is an SSRC on the remote side of the connection that is sending RTP
 about-webrtc-remote-send-ssrc = リモート送信 SSRC
+
 ##
 
 # An option whose value will not be displayed but instead noted as having been
@@ -177,6 +179,7 @@ about-webrtc-save-page-msg = ページを保存しました: { $path }
 about-webrtc-debug-mode-off-state-msg = トレースログの保存場所: { $path }
 about-webrtc-debug-mode-on-state-msg = デバッグモードが有効です。トレースログの保存場所: { $path }
 about-webrtc-aec-logging-off-state-msg = 記録したログファイルの保存場所: { $path }
+
 ##
 
 # This is the total number of packets received on the PeerConnection.
@@ -229,4 +232,5 @@ about-webrtc-sdp-set-at-timestamp-remote = 時刻 { NUMBER($timestamp, useGroupi
 #  $timestamp (Number) - The Unix Epoch time at which the SDP was set.
 #  $relative-timestamp (Number) - The timestamp relative to the timestamp of the earliest received SDP.
 about-webrtc-sdp-set-timestamp = タイムスタンプ { NUMBER($timestamp, useGrouping: "false") } (+ { $relative-timestamp } ms)
+
 ##

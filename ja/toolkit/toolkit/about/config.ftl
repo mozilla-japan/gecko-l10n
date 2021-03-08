@@ -36,6 +36,7 @@ about-config-pref-delete-button =
     .title = 削除
 
 ## Labels for the type selection radio buttons shown when adding preferences.
+
 about-config-pref-add-type-boolean = 真偽値
 about-config-pref-add-type-number = 整数値
 about-config-pref-add-type-string = 文字列
@@ -46,6 +47,7 @@ about-config-pref-add-type-string = 文字列
 ##
 ## Variables:
 ##   $value (String): The full value of the preference.
+
 about-config-pref-accessible-value-default =
     .aria-label = { $value } (初期設定値)
 about-config-pref-accessible-value-custom =

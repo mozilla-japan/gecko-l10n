@@ -35,3 +35,5 @@ text-action-select-all =
     .accesskey = A
 text-action-select-all-shortcut =
     .key = A
+text-action-spell-no-suggestions =
+    .label = 修正候補なし
