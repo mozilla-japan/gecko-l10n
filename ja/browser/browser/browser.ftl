@@ -565,7 +565,7 @@ bookmarks-search =
 bookmarks-tools =
     .label = ブックマークツール
 bookmarks-bookmark-edit-panel =
-  .label = このブックマークを編集
+    .label = このブックマークを編集
 # The aria-label is a spoken label that should not include the word "toolbar" or
 # such, because screen readers already know that this container is a toolbar.
 # This avoids double-speaking.
@@ -599,3 +599,7 @@ library-recent-activity-title =
 more-menu-go-offline =
     .label = オフライン作業
     .accesskey = k
+
+## EME notification panel
+
+eme-notifications-drm-content-playing = このサイトの音声や映像には DRM ソフトウェアが使われており、{ -brand-short-name } での視聴が制限される可能性があります。
