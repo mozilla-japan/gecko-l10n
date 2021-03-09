@@ -21,6 +21,10 @@ toolbar-context-menu-undo-close-tabs =
     .label = 閉じたタブを元に戻す
     .accesskey = U
 
+toolbar-context-menu-reopen-closed-tabs =
+    .label = 閉じたタブを開きなおす
+    .accesskey = o
+
 toolbar-context-menu-manage-extension =
     .label = 拡張機能を管理
     .accesskey = E
@@ -44,11 +48,18 @@ toolbar-context-menu-pin-to-overflow-menu =
 toolbar-context-menu-auto-hide-downloads-button =
     .label = ツールバーでは自動的に非表示にする
     .accesskey = A
+toolbar-context-menu-auto-hide-downloads-button-2 =
+    .label = 履歴がないときはボタンを非表示にする
+    .accesskey = H
 toolbar-context-menu-remove-from-toolbar =
     .label = ツールバーから削除
     .accesskey = R
 toolbar-context-menu-view-customize-toolbar =
     .label = カスタマイズ...
+    .accesskey = C
+
+toolbar-context-menu-view-customize-toolbar-2 =
+    .label = ツールバーをカスタマイズ...
     .accesskey = C
 
 toolbar-context-menu-bookmarks-toolbar-always-show-2 =

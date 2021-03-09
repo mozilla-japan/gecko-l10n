@@ -186,6 +186,13 @@ onboarding-multistage-welcome-secondary-button-label = ログイン
 onboarding-multistage-welcome-secondary-button-text = アカウントをお持ちですか？
 
 # The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
+# automatically added to the text inside it. "default" should stay inside the span.
+onboarding-multistage-set-default-header = { -brand-short-name } を <span data-l10n-name="zap">@@DefaultBrowser@@</span> にしましょう
+onboarding-multistage-set-default-subtitle = 高速で安全、いつでもプライバシーが第一です。
+onboarding-multistage-set-default-primary-button-label = @@DefaultBrowser@@にする
+onboarding-multistage-set-default-secondary-button-label = 後で
+
+# The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
 # automatically added to the text inside it. "more" should stay inside the span.
 onboarding-multistage-import-header = パスワード、ブックマーク、<span data-l10n-name="zap">その他のデータ</span>を<br/>@@Import-si@@ましょう。
 onboarding-multistage-import-subtitle = その他のブラウザーからですか？ 簡単に { -brand-short-name } に持ち込めます。
@@ -208,6 +215,7 @@ onboarding-welcome-steps-indicator =
 onboarding-multistage-theme-header = <span data-l10n-name="zap">テーマ</span>を選択してください
 onboarding-multistage-theme-subtitle = テーマで { -brand-short-name } をパーソナライズできます
 onboarding-multistage-theme-primary-button-label = テーマを保存
+onboarding-multistage-theme-primary-button-label2 = 完了
 onboarding-multistage-theme-secondary-button-label = 後で
 
 # Automatic theme uses operating system color settings

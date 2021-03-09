@@ -14,6 +14,13 @@ duplicate-tab =
 duplicate-tabs =
     .label = タブを複製
     .accesskey = D
+# The following string is displayed on a menuitem that will close the tabs from the start of the tabstrip to the currently targeted tab (excluding the currently targeted and any other selected tabs).
+# In left-to-right languages this should use "Left" and in right-to-left languages this should use "Right".
+close-tabs-to-the-start =
+    .label = 左側のタブをすべて閉じる
+    .accesskey = l
+# The following string is displayed on a menuitem that will close the tabs from the end of the tabstrip to the currently targeted tab (excluding the currently targeted and any other selected tabs).
+# In left-to-right languages this should use "Right" and in right-to-left languages this should use "Left".
 close-tabs-to-the-end =
     .label = 右側のタブをすべて閉じる
     .accesskey = i
@@ -44,6 +51,9 @@ bookmark-tab =
 reopen-in-container =
     .label = コンテナーで開きなおす
     .accesskey = e
+tab-context-open-in-container =
+    .label = @@New-CMD@@コンテナーで開く
+    .accesskey = e
 move-to-start =
     .label = 最初のタブへ移動
     .accesskey = S
@@ -57,8 +67,15 @@ tab-context-close-multiple-tabs =
     .label = 複数のタブを閉じる
     .accesskey = M
 
+tab-context-share-url =
+    .label = 共有
+    .accesskey = h
+tab-context-share-more =
+    .label = その他...
+
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.
+
 tab-context-undo-close-tabs =
     .label = 閉じたタブを元に戻す
     .accesskey = U
@@ -74,6 +91,10 @@ move-tabs =
 move-tab =
     .label = タブを移動
     .accesskey = v
+
+tab-context-reopen-closed-tabs =
+    .label = 閉じたタブを開きなおす
+    .accesskey = o
 tab-context-close-tabs =
     .label = タブを閉じる
     .accesskey = C

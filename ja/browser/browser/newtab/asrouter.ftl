@@ -7,6 +7,7 @@
 cfr-doorhanger-extension-heading = おすすめの拡張機能
 cfr-doorhanger-feature-heading = おすすめの機能
 cfr-doorhanger-pintab-heading = タブのピン留めを試してみる
+
 ##
 
 cfr-doorhanger-extension-sumo-link =
@@ -245,6 +246,9 @@ cfr-whatsnew-pip-fullscreen-header = @@FullScreen@@でながら見
 cfr-whatsnew-pip-fullscreen-body = 動画だけを別の@@Window@@で再生しているとき、ダブルクリックすると@@FullScreen@@になります。
 cfr-whatsnew-pip-fullscreen-icon-alt = ピクチャーインピクチャーアイコン
 
+## Protections Dashboard message
+
+## What’s New Panel Content for Firefox 76
 ## Protections Dashboard message
 
 cfr-whatsnew-protections-header = パスワードを一発保護

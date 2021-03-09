@@ -27,6 +27,14 @@ appmenuitem-more-tools =
     .label = その他のツール
 appmenuitem-exit =
     .label = 終了
+
+appmenu-menu-button-closed =
+    .tooltiptext = アプリケーションメニューを開きます
+    .label = { -brand-shorter-name }
+appmenu-menu-button-opened =
+    .tooltiptext = アプリケーションメニューを閉じます
+    .label = { -brand-shorter-name }
+
 # Settings is now used to access the browser settings across all platforms,
 # instead of Options or Preferences.
 appmenuitem-settings =
@@ -45,6 +53,25 @@ appmenuitem-fullscreen =
 
 fxa-toolbar-sync-now =
     .label = 今すぐ同期
+
+appmenuitem-fxa-toolbar-sync-now =
+    .label = 今すぐ同期
+    .value = 今すぐ同期
+appmenuitem-fxa-manage-account = アカウントを管理
+appmenu-fxa-header =
+    .title = { -fxaccount-brand-name }
+# Variables
+# $time (string) - Localized relative time since last sync (e.g. 1 second ago,
+# 3 hours ago, etc.)
+appmenu-fxa-last-sync = 最終同期: { $time }
+    .label = 最終同期: { $time }
+appmenu-fxa-sync-and-save-data =
+    .value = 同期してデータを保存
+appmenu-fxa-signed-in-label = ログイン
+appmenu-fxa-setup-sync =
+    .label = 同期をオンにする...
+appmenu-fxa-show-more-tabs = さらにタブを表示
+
 appmenuitem-save-page =
     .label = @@Save-AsCMD@@ページを保存...
 
@@ -98,6 +125,10 @@ profiler-popup-capture-shortcut =
 
 ## History panel
 
+appmenu-manage-history =
+    .label = 履歴を管理
+appmenu-reopen-all-tabs = タブをすべて開きなおす
+appmenu-reopen-all-windows = @@Window@@をすべて開きなおす
 
 ## Help panel
 
@@ -124,6 +155,9 @@ appmenu-get-help =
 appmenu-help-troubleshooting-info =
     .label = トラブルシューティング情報...
     .accesskey = T
+appmenu-help-more-troubleshooting-info =
+    .label = 他のトラブルシューティング情報
+    .accesskey = T
 appmenu-help-taskmanager =
     .label = タスクマネージャー
 appmenu-help-report-site-issue =
@@ -142,6 +176,16 @@ appmenu-help-safe-mode-with-addons =
     .label = アドオンを有効にして再起動
     .accesskey = R
 
+## appmenu-help-enter-troubleshoot-mode and appmenu-help-exit-troubleshoot-mode
+## are mutually exclusive, so it's possible to use the same accesskey for both.
+
+appmenu-help-enter-troubleshoot-mode =
+    .label = トラブルシューティングモード
+    .accesskey = M
+appmenu-help-exit-troubleshoot-mode =
+    .label = トラブルシューティングモードをオフにする
+    .accesskey = M
+
 ## appmenu-help-report-deceptive-site and appmenu-help-not-deceptive
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
 
@@ -159,3 +203,7 @@ appmenu-help-check-for-update =
 
 ## More Tools
 
+appmenu-customizetoolbar =
+    .label = ツールバーをカスタマイズ...
+
+appmenu-developer-tools-subheader = ブラウザーツール

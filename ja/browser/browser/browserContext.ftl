@@ -117,15 +117,25 @@ main-context-menu-open-link-new-tab =
 main-context-menu-open-link-container-tab =
     .label = リンクを@@New-CMD@@コンテナータブで開く
     .accesskey = b
+
+main-context-menu-open-link-container =
+    .label = リンクを@@New-CMD@@コンテナーで開く
+    .accesskey = w
+
 main-context-menu-open-link-new-window =
     .label = リンクを@@NewWindow@@で開く
-    .accesskey = W
+    .accesskey = d
 main-context-menu-open-link-new-private-window =
     .label = リンクを@@New-CMD@@プライベート@@Window@@で開く
     .accesskey = P
 main-context-menu-bookmark-this-link =
     .label = このリンクをブックマーク
     .accesskey = L
+
+main-context-menu-bookmark-link =
+    .label = リンクをブックマーク
+    .accesskey = B
+
 main-context-menu-save-link =
     .label = @@Save-AsCMD@@リンク先を保存...
     .accesskey = k
@@ -137,12 +147,20 @@ main-context-menu-save-link-to-pocket =
 ## should be the same if possible; the two context menu items
 ## are mutually exclusive.
 
+## The access keys for "Copy Link" and "Copy Email Address"
+## should be the same if possible; the two context menu items
+## are mutually exclusive.
+
 main-context-menu-copy-email =
     .label = メールアドレスをコピー
-    .accesskey = A
+    .accesskey = l
 main-context-menu-copy-link =
     .label = リンクの URL をコピー
     .accesskey = a
+
+main-context-menu-copy-link-simple =
+    .label = リンクをコピー
+    .accesskey = L
 
 ## Media (video/audio) controls
 ##
@@ -233,6 +251,19 @@ main-context-menu-video-copy-location =
 main-context-menu-audio-copy-location =
     .label = 音声の URL をコピー
     .accesskey = o
+
+main-context-menu-image-copy-link =
+    .label = 画像のリンクをコピー
+    .accesskey = o
+
+main-context-menu-video-copy-link =
+    .label = 動画のリンクをコピー
+    .accesskey = o
+
+main-context-menu-audio-copy-link =
+    .label = 音声のリンクをコピー
+    .accesskey = o
+
 main-context-menu-image-save-as =
     .label = @@Save-AsCMD@@画像を保存...
     .accesskey = v
@@ -245,6 +276,11 @@ main-context-menu-image-set-as-background =
 main-context-menu-image-info =
     .label = 画像の情報を表示
     .accesskey = f
+
+main-context-menu-image-set-image-as-background =
+    .label = 画像をデスクトップの背景に設定...
+    .accesskey = S
+
 main-context-menu-image-desc =
     .label = 画像の詳細情報を表示
     .accesskey = D
@@ -282,6 +318,10 @@ main-context-menu-view-background-image =
 main-context-menu-generate-new-password =
     .label = 生成パスワードを使う...
     .accesskey = G
+
+main-context-menu-manage-logins =
+    .label = ログイン情報を管理...
+    .accesskey = M
 
 main-context-menu-keyword =
     .label = この検索にキーワードを設定...
@@ -342,6 +382,11 @@ main-context-menu-bidi-switch-page =
 main-context-menu-inspect-element =
     .label = 要素を調査
     .accesskey = Q
+
+main-context-menu-inspect =
+    .label = 調査
+    .accesskey = Q
+
 main-context-menu-inspect-a11y-properties =
     .label = アクセシビリティ@@Property@@を調査
 main-context-menu-eme-learn-more =
