@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 ## 表記は Wikipedia を基準とする。地域や部族と関連がない人工言語には「語」を付けない。
+
 language-name-aa = アファル語
 language-name-ab = アブハジア語
 language-name-ach = アチョリ語
@@ -177,6 +178,7 @@ language-name-st = セストゥ語
 language-name-su = スンダ語
 language-name-sv = スウェーデン語
 language-name-sw = スワヒリ語
+language-name-szl = シレジア語
 language-name-ta = タミール語
 language-name-te = テルグ語
 language-name-tg = タジク語

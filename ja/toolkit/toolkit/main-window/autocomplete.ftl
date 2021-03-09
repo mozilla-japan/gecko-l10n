@@ -2,14 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Import Logins Autocomplete
+### Import Logins Autocomplete
 
 # Variables:
 #   $browser (String) - Browser name to import logins from.
 #   $host (String) - Host name of the current site.
 autocomplete-import-logins =
     <div data-l10n-name="line2">{ $host } および他のサイトのログイン情報を</div>
-    <div data-l10n-name="line1">{ $browser } から@@Import-simasu@@</div>
+    <div data-l10n-name="line1">{ $browser } から@@Import-si@@ます</div>
 
 autocomplete-import-logins-info =
     .tooltiptext = 詳細情報
@@ -19,13 +19,13 @@ autocomplete-import-logins-info =
 
 autocomplete-import-logins-chrome =
     <div data-l10n-name="line1">{ $host } および他のサイトのログイン情報を</div>
-    <div data-l10n-name="line2">Google Chrome から@@Import-simasu@@</div>
+    <div data-l10n-name="line2">Google Chrome から@@Import-si@@ます</div>
 autocomplete-import-logins-chromium =
     <div data-l10n-name="line1">{ $host } および他のサイトのログイン情報を</div>
-    <div data-l10n-name="line2">Chromium から@@Import-simasu@@</div>
+    <div data-l10n-name="line2">Chromium から@@Import-si@@ます</div>
 autocomplete-import-logins-chromium-edge =
     <div data-l10n-name="line1">{ $host } および他のサイトのログイン情報を</div>
-    <div data-l10n-name="line2">Microsoft Edge から@@Import-simasu@@</div>
+    <div data-l10n-name="line2">Microsoft Edge から@@Import-si@@ます</div>
 
 ##
 

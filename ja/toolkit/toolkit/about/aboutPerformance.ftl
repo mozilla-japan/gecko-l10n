@@ -6,18 +6,21 @@
 about-performance-title = タスクマネージャー
 
 ## Column headers
+
 column-name = 名前
 column-type = 種類
 column-energy-impact = 消費電力への影響
 column-memory = メモリー
 
 ## Special values for the Name column
+
 ghost-windows = 最近閉じたタブ
 # Variables:
 #   $title (String) - the title of the preloaded page, typically 'New Tab'
 preloaded-tab = プリロード: { $title }
 
 ## Values for the Type column
+
 type-tab = タブ
 type-subframe = サブフレーム
 type-tracker = トラッカー
@@ -31,6 +34,7 @@ type-other = その他
 ## Variables:
 ##   $value (Number) - Value of the energy impact, eg. 0.25 (low),
 ##                     5.38 (medium), 105.38 (high)
+
 energy-impact-high = 高 ({ $value })
 energy-impact-medium = 中 ({ $value })
 energy-impact-low = 低 ({ $value })
@@ -39,11 +43,13 @@ energy-impact-low = 低 ({ $value })
 ##
 ## Variables:
 ##   $value (Number) - How much memory is used
+
 size-KB = { $value } KB
 size-MB = { $value } MB
 size-GB = { $value } GB
 
 ## Tooltips for the action buttons
+
 close-tab =
     .title = タブを閉じます
 show-addon =

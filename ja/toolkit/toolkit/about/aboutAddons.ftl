@@ -377,9 +377,6 @@ addon-detail-private-browsing-disallow = 許可しない
 addon-badge-recommended2 =
     .title = { -brand-product-name } は Mozilla が定めた安全性とパフォーマンスの基準に適合する拡張機能のみをおすすめします
     .aria-label = { addon-badge-recommended2.title }
-addon-badge-line2 =
-  .title = これは { -brand-product-name } の製作者により作成された公式の拡張機能です
-  .aria-label = { addon-badge-line2.title }
 # We hard code "Mozilla" in the string below because the extensions are built
 # by Mozilla and we don't want forks to display "by Fork".
 addon-badge-line3 =

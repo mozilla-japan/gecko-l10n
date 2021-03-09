@@ -382,3 +382,14 @@ support-printing-clear-settings-button = 保存した@@Print@@設定を消去
 support-printing-modified-settings = 変更された@@Print@@設定
 support-printing-prefs-name = 設定名
 support-printing-prefs-value = 値
+
+## Normandy sections
+
+support-remote-experiments-title = リモート機能の実験
+support-remote-experiments-name = 機能名
+support-remote-experiments-branch = 実験ブランチ
+support-remote-experiments-see-about-studies = 各実験を無効にする方法や、これらの今後の実験を { -brand-short-name } で無効にする方法を含め、詳しい情報は <a data-l10n-name="support-about-studies-link">about:studies</a> をご覧ください。
+
+support-remote-features-title = リモート機能
+support-remote-features-name = 機能名
+support-remote-features-status = 状態
