@@ -31,7 +31,7 @@ inactive-css-not-inline-or-tablecell = この要素はインライン要素で�
 
 inactive-css-property-because-of-display = この要素は <strong>{ $display }</strong> の display プロパティを持つため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
-inactive-css-not-display-block-on-floated = この要素は <strong>floated<strong> であるため、<strong>display</strong> の値はエンジンによって <strong>block</strong> に変更されました。
+inactive-css-not-display-block-on-floated = この要素は <strong>floated</strong> であるため、<strong>display</strong> の値はエンジンによって <strong>block</strong> に変更されました。
 
 inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により、<strong>{ $property }</strong> をオーバーライドすることはできません。
 
@@ -46,6 +46,8 @@ inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> �
 inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> はセル以外のテーブルを構成する要素に影響を及ぼしません。
 
 inactive-css-not-table = テーブルではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+
+inactive-scroll-padding-when-not-scroll-container = この要素はスクロールしないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
@@ -84,6 +86,8 @@ inactive-css-not-for-internal-table-elements-except-table-cells-fix = <strong>�
 inactive-outline-radius-when-outline-style-auto-or-none-fix = <strong>outline-style</strong> プロパティに <strong>auto</strong> または <strong>none</strong> 以外の値を設定してみてください。{ learn-more }
 
 inactive-css-not-table-fix = <strong>display:table</strong> または <strong>display:inline-table</strong> を追加してみてください。{ learn-more }
+
+inactive-scroll-padding-when-not-scroll-container-fix = <strong>overflow:auto</strong>、<strong>overflow:scroll</strong> または <strong>overflow:hidden</strong> を追加してみてください。{ learn-more }
 
 ## In the Rule View when a CSS property may have compatibility issues with other browsers
 ## we display an icon. When this icon is hovered this message is displayed to explain why
