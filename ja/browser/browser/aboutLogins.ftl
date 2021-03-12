@@ -311,6 +311,46 @@ about-logins-import-dialog-error-learn-more = 詳細
 about-logins-import-dialog-error-try-again = 再試行...
 about-logins-import-dialog-error-cancel = キャンセル
 
+about-logins-import-report-title = @@ImportNoun@@結果
+about-logins-import-report-description = ログイン情報とパスワードが { -brand-short-name } に@@Import-sare@@ました。
+
+#
+# Variables:
+#  $number (number) - The number of the row
+about-logins-import-report-row-index = { $number } 行
+about-logins-import-report-row-description-no-change = 重複: 既存のログイン情報と同一です
+about-logins-import-report-row-description-modified = 既存のログイン情報を更新しました
+about-logins-import-report-row-description-added = @@New-CMD@@ログイン情報を追加しました
+about-logins-import-report-row-description-error = エラー: 列がありません
+
+##
+## Variables:
+##  $field (String) - The name of the field from the CSV file for example url, username or password
+
+about-logins-import-report-row-description-error-multiple-values = エラー: 複数の { $field } があります
+about-logins-import-report-row-description-error-missing-field = エラー: { $field } がありません
+
+##
+## Variables:
+##  $count (number) - The number of affected elements
+
+about-logins-import-report-added =
+  { $count ->
+      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">@@New-CMD@@ログイン情報の追加</div>
+  }
+about-logins-import-report-modified =
+  { $count ->
+      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">既存のログイン情報の更新</div>
+  }
+about-logins-import-report-no-change =
+  { $count ->
+      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">重複</div> <div data-l10n-name="not-imported">(@@Import-sare@@ませんでした)</div>
+  }
+about-logins-import-report-error =
+  { $count ->
+      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">エラー</div> <div data-l10n-name="not-imported">(@@Import-sare@@ませんでした)</div>
+  }
+
 ## Logins import report page
 
 about-logins-import-report-page-title = @@ImportNoun@@結果の概要

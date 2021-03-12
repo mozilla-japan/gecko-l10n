@@ -639,6 +639,7 @@ home-prefs-recommended-by-header =
     .label = { $provider } のおすすめ
 home-prefs-recommended-by-description-update = { $provider } がウェブ全体から厳選した注目のコンテンツ
 home-prefs-recommended-by-description-new = { -brand-product-name } ファミリーを構成する { $provider } が厳選した注目のコンテンツ
+
 ##
 
 home-prefs-recommended-by-learn-more = 使い方
@@ -1171,6 +1172,7 @@ enhanced-tracking-protection-setting-strict =
 enhanced-tracking-protection-setting-custom =
     .label = カスタム
     .accesskey = C
+
 ##
 
 content-blocking-etp-standard-desc = 保護と性能をバランスよく。ページが正しく機能するように読み込みます。
@@ -1422,6 +1424,7 @@ httpsonly-radio-disabled =
     .label = HTTPS-Only モードを有効にしない
 
 ## The following strings are used in the Download section of settings
+
 desktop-folder-name = デスクトップ
 downloads-folder-name = ダウンロード
 choose-download-folder-title = ダウンロードフォルダーを選択:

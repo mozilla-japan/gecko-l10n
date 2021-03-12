@@ -6,6 +6,7 @@
 <!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
 
 <!ENTITY appmenu.tooltip		"メニューを開きます">
+
 <!ENTITY navbarOverflow.label		"その他のツール...">
 
 <!-- Tab context menu -->
@@ -144,6 +145,7 @@ this container is a toolbar. This avoids double-speaking. -->
 <!ENTITY historyUndoWindowMenu.label		"最近閉じた@@Window@@">
 
 <!ENTITY appMenuHistory.showAll.label		"すべての履歴を表示">
+
 <!ENTITY appMenuHistory.clearRecent.label	"最近の履歴を消去...">
 <!ENTITY appMenuHistory.restoreSession.label	"以前のセッションを復元">
 <!ENTITY appMenuHistory.viewSidebar.label	"履歴サイドバーを表示">
@@ -158,6 +160,8 @@ this container is a toolbar. This avoids double-speaking. -->
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
      This is shown after the tabs list if we can display more tabs by clicking on the button -->
 <!ENTITY appMenuRemoteTabs.showMore.label	"さらに表示">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.tooltip):
+     This is shown after the tabs list if we can display more tabs by clicking on the button -->
 <!ENTITY appMenuRemoteTabs.showMore.tooltip	"この端末からのタブをさらに表示します">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
      This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->

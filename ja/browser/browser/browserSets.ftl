@@ -204,6 +204,7 @@ full-zoom-reset-shortcut =
 
 full-zoom-reset-shortcut-alt =
     .key = {""}
+
 ##
 
 bidi-switch-direction-shortcut =

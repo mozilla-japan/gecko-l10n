@@ -343,6 +343,15 @@ browser-window-close-button =
 browser-tab-audio-playing = 再生中
 browser-tab-audio-muted = ミュート中
 
+# This label should be written in all capital letters if your locale supports them.
+browser-tab-audio-playing2 = 再生中
+# This label should be written in all capital letters if your locale supports them.
+browser-tab-audio-muted2 = ミュート中
+# This label should be written in all capital letters if your locale supports them.
+browser-tab-audio-blocked = 自動再生をブロック
+# This label should be written in all capital letters if your locale supports them.
+browser-tab-audio-pip = ピクチャーインピクチャー
+
 ## Bookmarks toolbar items
 
 browser-import-button2 =
@@ -507,6 +516,8 @@ crashed-subframe-message = <strong>このページの一部がクラッシュし
 crashed-subframe-learnmore =
     .label = 詳細
     .accesskey = L
+crashed-subframe-learnmore-link =
+  .value = 詳細
 crashed-subframe-submit =
     .label = レポートを送信
     .accesskey = S
@@ -603,3 +614,7 @@ more-menu-go-offline =
 ## EME notification panel
 
 eme-notifications-drm-content-playing = このサイトの音声や映像には DRM ソフトウェアが使われており、{ -brand-short-name } での視聴が制限される可能性があります。
+eme-notifications-drm-content-playing-manage = 設定を管理
+eme-notifications-drm-content-playing-manage-accesskey = M
+eme-notifications-drm-content-playing-dismiss = 閉じる
+eme-notifications-drm-content-playing-dismiss-accesskey = D

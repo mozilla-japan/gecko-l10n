@@ -123,11 +123,14 @@ help-button =
 ## Variables:
 ##   $value (number) - Amount of data being stored
 ##   $unit (string) - The unit of data being stored (Usually KB)
+
 security-site-data-cookies = はい、Cookie と { $value } { $unit } のサイトデータ
 security-site-data-only = はい、{ $value } { $unit } のサイトデータ
 
 security-site-data-cookies-only = はい、Cookie のみ
 security-site-data-no = いいえ
+
+##
 
 image-size-unknown = 不明
 page-info-not-specified =

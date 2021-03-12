@@ -25,6 +25,7 @@ search-popover = 検索ショートカット
 # Describes searches limited to a specific scope
 # (e.g. searching only in history).
 search-search-in = 検索対象:
+
 ## Various categories of shortcuts for search.
 
 search-bookmarks = ブックマーク
@@ -32,4 +33,5 @@ search-history = 履歴
 search-opentabs = 開いているタブ
 search-tags = タグ
 search-titles = タイトル
+
 ##
