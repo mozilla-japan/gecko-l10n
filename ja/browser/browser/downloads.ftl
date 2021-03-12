@@ -82,7 +82,7 @@ downloads-cmd-clear-list =
     .label = プレビューパネルの消去
     .accesskey = a
 downloads-cmd-clear-downloads =
-    .label = ダウンロードの消去
+    .label = ダウンロード履歴をすべて消去
     .accesskey = D
 # This command is shown in the context menu when downloads are blocked.
 downloads-cmd-unblock =
@@ -127,15 +127,15 @@ downloads-cancel-download =
 # downloads fit in the available space, or when there are no downloads in
 # the panel at all.
 downloads-history =
-    .label = すべての履歴を表示
+    .label = すべてのダウンロード履歴を表示
     .accesskey = S
 # This string is shown at the top of the Download Details Panel, to indicate
 # that we are showing the details of a single download.
 downloads-details =
     .title = ダウンロードの詳細
 downloads-clear-downloads-button =
-    .label = ダウンロードの消去
-    .tooltiptext = 完了、キャンセル、失敗したダウンロードを消去します
+    .label = ダウンロード履歴を消去
+    .tooltiptext = 完了、キャンセル、失敗したすべてのダウンロード履歴を消去します
 # This string is shown when there are no items in the Downloads view, when it
 # is displayed inside a browser tab.
 downloads-list-empty =
