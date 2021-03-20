@@ -137,11 +137,11 @@ appmenu-get-help =
 appmenu-help-troubleshooting-info =
     .label = トラブルシューティング情報...
     .accesskey = T
+appmenu-help-taskmanager =
+    .label = タスクマネージャー
 appmenu-help-more-troubleshooting-info =
     .label = 他のトラブルシューティング情報
     .accesskey = T
-appmenu-help-taskmanager =
-    .label = タスクマネージャー
 appmenu-help-report-site-issue =
     .label = サイトの問題を報告...
 appmenu-help-feedback-page =
@@ -161,9 +161,6 @@ appmenu-help-safe-mode-with-addons =
 ## appmenu-help-enter-troubleshoot-mode and appmenu-help-exit-troubleshoot-mode
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
 
-appmenu-help-enter-troubleshoot-mode =
-    .label = トラブルシューティングモード
-    .accesskey = M
 appmenu-help-exit-troubleshoot-mode =
     .label = トラブルシューティングモードをオフにする
     .accesskey = M
@@ -182,4 +179,6 @@ appmenu-help-not-deceptive =
 
 appmenu-customizetoolbar =
     .label = ツールバーをカスタマイズ...
+appmenu-taskmanager =
+    .label = タスクマネージャー
 appmenu-developer-tools-subheader = ブラウザーツール
