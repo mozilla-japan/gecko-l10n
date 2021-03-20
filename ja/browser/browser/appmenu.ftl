@@ -27,14 +27,12 @@ appmenuitem-more-tools =
     .label = その他のツール
 appmenuitem-exit =
     .label = 終了
-
 appmenu-menu-button-closed =
     .tooltiptext = アプリケーションメニューを開きます
     .label = { -brand-shorter-name }
 appmenu-menu-button-opened =
     .tooltiptext = アプリケーションメニューを閉じます
     .label = { -brand-shorter-name }
-
 # Settings is now used to access the browser settings across all platforms,
 # instead of Options or Preferences.
 appmenuitem-settings =
@@ -53,10 +51,7 @@ appmenuitem-fullscreen =
 
 fxa-toolbar-sync-now =
     .label = 今すぐ同期
-
-appmenuitem-fxa-toolbar-sync-now =
-    .label = 今すぐ同期
-    .value = 今すぐ同期
+appmenuitem-fxa-toolbar-sync-now2 = 今すぐ同期
 appmenuitem-fxa-manage-account = アカウントを管理
 appmenu-fxa-header =
     .title = { -fxaccount-brand-name }
@@ -71,7 +66,6 @@ appmenu-fxa-signed-in-label = ログイン
 appmenu-fxa-setup-sync =
     .label = 同期をオンにする...
 appmenu-fxa-show-more-tabs = さらにタブを表示
-
 appmenuitem-save-page =
     .label = @@Save-AsCMD@@ページを保存...
 
@@ -97,7 +91,7 @@ profiler-popup-description-title =
 profiler-popup-description = プロファイルを公開してあなたのチームと共有し、パフォーマンス問題に協力しましょう。
 profiler-popup-learn-more = 詳細
 profiler-popup-settings =
-  .value = 設定
+    .value = 設定
 # This link takes the user to about:profiling, and is only visible with the Custom preset.
 profiler-popup-edit-settings = 設定を編集...
 profiler-popup-disabled = プライベート@@Window@@を開いているため、プロファイラーは現在無効です。
@@ -137,18 +131,6 @@ appmenu-help-header =
 appmenu-about =
     .label = { -brand-shorter-name } について
     .accesskey = A
-appmenu-help-product =
-    .label = { -brand-shorter-name } ヘルプ
-    .accesskey = H
-appmenu-help-show-tour =
-    .label = { -brand-shorter-name } ツアー
-    .accesskey = o
-appmenu-help-import-from-another-browser =
-    .label = 他のブラウザーから@@Import@@...
-    .accesskey = I
-appmenu-help-keyboard-shortcuts =
-    .label = キーボードショートカット
-    .accesskey = K
 appmenu-get-help =
     .label = ヘルプを表示
     .accesskey = H
@@ -196,14 +178,8 @@ appmenu-help-not-deceptive =
     .label = 詐欺サイトの誤報告を指摘...
     .accesskey = d
 
-##
-
-appmenu-help-check-for-update =
-    .label = 更新を確認...
-
 ## More Tools
 
 appmenu-customizetoolbar =
     .label = ツールバーをカスタマイズ...
-
 appmenu-developer-tools-subheader = ブラウザーツール
