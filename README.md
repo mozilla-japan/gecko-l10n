@@ -88,14 +88,16 @@ git push
     * https://hg.mozilla.org/releases/l10n/mozilla-release/ja-JP-mac/
 * Firefox for iOS
   * https://pontoon.mozilla.org/ja/firefox-for-ios/
-* Android-L10n (Fennix, Reality, Lockwise, Fire TV)
-  * https://pontoon.mozilla.org/ja/android-l10n/
+* Firefox for Android (Fenix)
+  * https://pontoon.mozilla.org/ja/firefox-for-android/
 * WebThings Gateway
   * https://pontoon.mozilla.org/ja/webthings-gateway/
 * その他ウェブサイト等
   * https://pontoon.mozilla.org/ja/
 
 ## 終了したリポジトリー (End Of Life)
+* ~Android-L10n~ (Reality, Fire TV)
+  * https://pontoon.mozilla.org/ja/android-l10n/
 * Firefox, Thunderbird/Lightning, SeaMonkey
   * ~Aurora:~  (EOL in 54.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja/
