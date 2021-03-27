@@ -280,6 +280,8 @@ identity-passive-loaded = このページの一部 (画像など) は安全で�
 identity-active-loaded = このページでの保護は無効に設定されています。
 identity-weak-encryption = このページは脆弱な暗号を使用しています。
 identity-insecure-login-forms = このページのログインフォームは安全ではありません。
+identity-permissions =
+    .value = このサイトの設定
 identity-https-only-connection-upgraded = (HTTPS で接続中)
 identity-https-only-label = HTTPS-Only モード
 identity-https-only-dropdown-on =
@@ -291,8 +293,6 @@ identity-https-only-dropdown-off-temporarily =
 identity-https-only-info-turn-on2 = このサイトで { -brand-short-name } に可能な限り接続をアップグレードさせたい場合は、HTTPS-Only モードをオンにしてください。
 identity-https-only-info-turn-off2 = ページが動作しない場合は HTTPS-Only モードをオフにして、安全でない HTTP 接続でこのサイトを再読み込みするとよいでしょう。
 identity-https-only-info-no-upgrade = 接続を HTTP からアップグレードできません。
-identity-permissions =
-    .value = このサイトの設定
 identity-permissions-storage-access-header = クロスサイト Cookie
 identity-permissions-storage-access-hint = 以下のサイトが、あなたがこのサイトにいる間、クロスサイト Cookie とサイトデータにアクセスできます。
 identity-permissions-reload-hint = 変更内容を適用するには、ページの再読み込みが必要です。
@@ -340,9 +340,6 @@ browser-window-close-button =
 
 ## Tab actions
 
-browser-tab-audio-playing = 再生中
-browser-tab-audio-muted = ミュート中
-
 # This label should be written in all capital letters if your locale supports them.
 browser-tab-audio-playing2 = 再生中
 # This label should be written in all capital letters if your locale supports them.
@@ -351,6 +348,11 @@ browser-tab-audio-muted2 = ミュート中
 browser-tab-audio-blocked = 自動再生をブロック
 # This label should be written in all capital letters if your locale supports them.
 browser-tab-audio-pip = ピクチャーインピクチャー
+
+## These labels should be written in all capital letters if your locale supports them.
+## Variables:
+##  $count (number): number of affected tabs
+
 
 ## Bookmarks toolbar items
 
@@ -517,7 +519,7 @@ crashed-subframe-learnmore =
     .label = 詳細
     .accesskey = L
 crashed-subframe-learnmore-link =
-  .value = 詳細
+    .value = 詳細
 crashed-subframe-submit =
     .label = レポートを送信
     .accesskey = S
@@ -526,8 +528,6 @@ crashed-subframe-submit =
 
 bookmarks-show-all-bookmarks =
     .label = すべてのブックマークを表示
-bookmarks-recent-bookmarks =
-    .value = 最近のブックマーク
 bookmarks-manage-bookmarks =
     .label = ブックマークを管理
 bookmarks-recent-bookmarks-panel =
@@ -549,22 +549,18 @@ bookmarks-tools-sidebar-visibility =
             [true] ブックマークサイドバーを隠す
            *[other] ブックマークサイドバーを表示
         }
-bookmarks-tools-toolbar-visibility =
+bookmarks-tools-toolbar-visibility-menuitem =
     .label =
         { $isVisible ->
             [true] ブックマークツールバーを隠す
            *[other] ブックマークツールバーを表示
         }
-bookmarks-tools-toolbar-visibility-menuitem =
-    .label = { $isVisible ->
-       [true] ブックマークツールバーを隠す
-      *[other] ブックマークツールバーを表示
-    }
 bookmarks-tools-toolbar-visibility-panel =
-    .label = { $isVisible ->
-       [true] ブックマークツールバーを隠す
-      *[other] ブックマークツールバーを表示
-    }
+    .label =
+        { $isVisible ->
+            [true] ブックマークツールバーを隠す
+           *[other] ブックマークツールバーを表示
+        }
 bookmarks-tools-menu-button-visibility =
     .label =
         { $isVisible ->
@@ -598,12 +594,14 @@ bookmarks-current-tab =
 
 library-bookmarks-menu =
     .label = ブックマーク
-library-bookmarks-bookmark-this-page =
-    .label = このページをブックマーク
-library-bookmarks-bookmark-edit =
-    .label = このブックマークを編集
 library-recent-activity-title =
     .value = 最近のアクティビティ
+
+## Pocket toolbar button
+
+save-to-pocket-button =
+    .label = { -pocket-brand-name } に保存
+    .tooltiptext = { -pocket-brand-name } に保存
 
 ## More items
 
@@ -618,3 +616,12 @@ eme-notifications-drm-content-playing-manage = 設定を管理
 eme-notifications-drm-content-playing-manage-accesskey = M
 eme-notifications-drm-content-playing-dismiss = 閉じる
 eme-notifications-drm-content-playing-dismiss-accesskey = D
+
+## Password save/update panel
+
+
+## Add-on removal warning
+
+
+## Remote / Synced tabs
+
