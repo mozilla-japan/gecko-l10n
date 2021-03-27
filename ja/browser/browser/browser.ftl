@@ -625,3 +625,6 @@ eme-notifications-drm-content-playing-dismiss-accesskey = D
 
 ## Remote / Synced tabs
 
+remote-tabs-manage-account =
+    .label = アカウントを管理
+remote-tabs-sync-now = 今すぐ同期
