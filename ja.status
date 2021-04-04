@@ -1118,10 +1118,15 @@ devtools                13960:b647e9b3e409   2021-02-05     hATrayflood     sync
 dom, toolkit            13960:b647e9b3e409   2021-02-05     mar             sync dom, toolkit
 mail, calendar, suite   13960:b647e9b3e409   2021-02-05     mar             sync mail, calendar, suite
 
-[l10n-mozilla-87.0]
+Released! [l10n-mozilla-87.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, netwerk, toolkit   14075:270f938044b7   2021-03-04     mar             sync dom, netwerk, toolkit
 browser                 14075:270f938044b7   2021-03-04     hATrayflood     sync browser
 devtools                14075:270f938044b7   2021-03-04     hATrayflood     sync devtools
+
+[l10n-mozilla-88.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, netwerk, toolkit   14211:463ca5c640b2   2021-03-31     mar             sync dom, netwerk, toolkit
 

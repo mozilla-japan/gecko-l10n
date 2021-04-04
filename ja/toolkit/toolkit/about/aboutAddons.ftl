@@ -35,6 +35,9 @@ sidebar-preferences-button-title =
             [windows] { -brand-short-name } オプション
            *[other] { -brand-short-name } 設定
         }
+addons-settings-button = { -brand-short-name } 設定
+sidebar-settings-button-title =
+    .title = { -brand-short-name } 設定
 show-unsigned-extensions-button =
     .label = 一部の拡張機能を検証できませんでした
 show-all-extensions-button =
