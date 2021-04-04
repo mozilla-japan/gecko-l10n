@@ -47,7 +47,6 @@ printui-scale-pcent = 倍率
 
 # Section title (noun) for the two-sided print options
 printui-two-sided-printing = 両面@@Print@@
-printui-duplex-checkbox = 両面に@@Print@@する
 
 printui-two-sided-printing-off = オフ
 # Flip the sheet as if it were bound along its long edge.
@@ -70,14 +69,19 @@ printui-margins-default = @@Default@@
 printui-margins-min = 最少
 printui-margins-none = なし
 printui-margins-custom-inches = カスタム (インチ)
+printui-margins-custom-mm = カスタム (mm)
 printui-margins-custom-top = 上
 printui-margins-custom-top-inches = 上 (インチ)
+printui-margins-custom-top-mm = 上 (mm)
 printui-margins-custom-bottom = 下
 printui-margins-custom-bottom-inches = 下 (インチ)
+printui-margins-custom-bottom-mm = 下 (mm)
 printui-margins-custom-left = 左
 printui-margins-custom-left-inches = 左 (インチ)
+printui-margins-custom-left-mm = 左 (mm)
 printui-margins-custom-right = 右
 printui-margins-custom-right-inches = 右 (インチ)
+printui-margins-custom-right-mm = 右 (mm)
 
 printui-system-dialog-link = システムダイアログを使用して@@Print@@...
 
@@ -121,7 +125,6 @@ printui-paper-tabloid = タブロイド (11"x17")
 
 printui-error-invalid-scale = 倍率は 10 から 200 までの間の数字を入力してください。
 printui-error-invalid-margin = 選択した用紙サイズに合う余白を入力してください。
-
 printui-error-invalid-copies = 部数は 1 から 10000 までの間の数字を入力してください。
 
 # Variables

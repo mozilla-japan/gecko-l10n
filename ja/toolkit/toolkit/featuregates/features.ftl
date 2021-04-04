@@ -29,28 +29,6 @@ experimental-features-web-api-inputmode-description = <a data-l10n-name="mdn-inp
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
-experimental-features-web-api-link-preload =
-    .label = Web API: <link rel="preload">
-# Do not translate "rel", "preload" or "link" here, as they are all HTML spec
-# values that do not get translated.
-experimental-features-web-api-link-preload-description = <a data-l10n-name="rel">rel</a> 属性の値に <code>"preload"</code> が設定された <a data-l10n-name="link">&lt;link&gt;</a> 要素は、ページのライフサイクルの早い段階でリソースをダウンロードさせます。これは、リソースを予め利用可能にしておき、ページの描画がブロックされるようなことを減らしてパフォーマンス向上を助けることを意図しています。詳細は <a data-l10n-name="readmore">“Preloading content with <code>rel="preload"</code>”</a> を読むか、<a data-l10n-name="bugzilla">bug 1583604</a> を参照してください。
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
-experimental-features-css-focus-visible =
-    .label = CSS: 疑似クラス: :focus-visible
-experimental-features-css-focus-visible-description = フォーカスのスタイルをボタンやフォームコントロールなどの要素に適用できるようにします。これらの要素が、マウスや他のポインティングデバイスではなく、キーボードでフォーカスされた時 (タブキーで要素を順に選択した場合など) のみ適用されます。詳細は <a data-l10n-name="bugzilla">bug 1617600</a> を参照してください。
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
-experimental-features-web-api-beforeinput =
-    .label = Web API: beforeinput イベント
-# The terms "beforeinput", "input", "textarea", and "contenteditable" are technical terms
-# and shouldn't be translated.
-experimental-features-web-api-beforeinput-description = グローバルの <a data-l10n-name="mdn-beforeinput">beforeinput</a> イベントは、<a data-l10n-name="mdn-input">&lt;input&gt;</a> および <a data-l10n-name="mdn-textarea">&lt;textarea&gt;</a> 要素、または <a data-l10n-name="mdn-contenteditable">contenteditable</a> 属性が有効な任意の要素で、その要素の値が変更される直前に発生します。このイベントは、ユーザーインタラクションについて、ウェブアプリがブラウザーの@@Default-@@動作を上書きすることを許可します。ウェブアプリはユーザーが入力する特定の文字だけをキャンセルしたり、スタイル付けされたテキストの@@Paste@@を承認されたスタイルのみに変更できます。
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
 experimental-features-css-constructable-stylesheets =
     .label = CSS: 構造化スタイルシート
 experimental-features-css-constructable-stylesheets-description = <a data-l10n-name="mdn-cssstylesheet">CSSStyleSheet</a> インターフェースにコンストラクターが追加され、様々な関連する変更によって、HTML にスタイルシートを追加せずに新しいスタイルシートを直接作成することが可能になりました。これにより、<a data-l10n-name="mdn-shadowdom">Shadow DOM</a> の使用時にも再利用可能なスタイルシートが簡単に作成できます。詳細は <a data-l10n-name="bugzilla">bug 1520690</a> を参照してください。
@@ -82,10 +60,6 @@ experimental-features-cookie-samesite-none-requires-secure2-description = “Sam
 experimental-features-abouthome-startup-cache =
     .label = about:home 起動時キャッシュ
 experimental-features-abouthome-startup-cache-description = 起動時に@@Default@@で読み込まれる初期 about:home ドキュメントのキャッシュ。このキャッシュの目的は起動時のパフォーマンスを向上させることです。
-
-experimental-features-print-preview-tab-modal =
-    .label = @@Print@@プレビューの再設計
-experimental-features-print-preview-tab-modal-description = 再設計された@@Print@@プレビューを導入し、macOS でも@@Print@@プレビューが利用可能になりました。この再設計により、機能がうまく動作しなかったり@@Print@@関連の設定がすべて含まれていない可能性があります。すべての@@Print@@関連の設定にアクセスするには、@@Print@@パネルから “システムダイアログを使用して@@Print@@...” を選択してください。
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.

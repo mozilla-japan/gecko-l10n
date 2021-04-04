@@ -27,3 +27,11 @@ about-httpsonly-explanation-continue = 続ける場合、このサイトでは H
 about-httpsonly-button-continue-to-site = HTTP サイトを開く
 about-httpsonly-button-go-back = 戻る
 about-httpsonly-link-learn-more = 詳細情報...
+
+## Suggestion Box that only shows up if a secure connection to www can be established
+## Variables:
+##   $websiteUrl (String) - Url of the website that can be securely loded with these alternatives. Example: example.com
+
+about-httpsonly-suggestion-box-header = 安全な https サイトがあります
+about-httpsonly-suggestion-box-www-text = <em>www.{ $websiteUrl }</em> サイトの安全なバージョンがあります。<em>{ $websiteUrl }</em> の代わりにこのページへ移動してください。
+about-httpsonly-suggestion-box-www-button = www.{ $websiteUrl } へ移動する
