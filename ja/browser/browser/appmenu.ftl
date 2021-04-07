@@ -62,6 +62,7 @@ appmenu-fxa-last-sync = 最終同期: { $time }
     .label = 最終同期: { $time }
 appmenu-fxa-sync-and-save-data =
     .value = 同期してデータを保存
+appmenu-fxa-sync-and-save-data2 = 同期してデータを保存
 appmenu-fxa-signed-in-label = ログイン
 appmenu-fxa-setup-sync =
     .label = 同期をオンにする...
