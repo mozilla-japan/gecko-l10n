@@ -15,11 +15,7 @@ main-context-menu-back =
     .tooltiptext = 前のページへ戻ります
     .aria-label = 戻る
     .accesskey = B
-# This menuitem is only visible on macOS
-main-context-menu-back-mac =
-    .label = 戻る
-    .accesskey = B
-navbar-tooltip-back =
+navbar-tooltip-back = 
     .value = { main-context-menu-back.tooltiptext }
 toolbar-button-back =
     .label = { main-context-menu-back.aria-label }
@@ -29,6 +25,12 @@ main-context-menu-back-2 =
     .tooltiptext = 前のページへ戻ります ({ $shortcut })
     .aria-label = 戻る
     .accesskey = B
+
+# This menuitem is only visible on macOS
+main-context-menu-back-mac =
+    .label = 戻る
+    .accesskey = B
+
 navbar-tooltip-back-2 =
     .value = { main-context-menu-back-2.tooltiptext }
 toolbar-button-back-2 =
@@ -40,12 +42,8 @@ main-context-menu-forward =
     .tooltiptext = 次のページへ進みます
     .aria-label = 進む
     .accesskey = F
-# This menuitem is only visible on macOS
-main-context-menu-forward-mac =
-    .label = 進む
-    .accesskey = F
 navbar-tooltip-forward =
-    .value = { main-context-menu-forward.tooltiptext }
+    .value = { main-context-menu-forward.tooltiptext } 
 toolbar-button-forward =
     .label = { main-context-menu-forward.aria-label }
 # Variables
@@ -54,6 +52,12 @@ main-context-menu-forward-2 =
     .tooltiptext = 次のページへ進みます ({ $shortcut })
     .aria-label = 進む
     .accesskey = F
+
+# This menuitem is only visible on macOS
+main-context-menu-forward-mac =
+    .label = 進む
+    .accesskey = F
+
 navbar-tooltip-forward-2 =
     .value = { main-context-menu-forward-2.tooltiptext }
 toolbar-button-forward-2 =
@@ -102,6 +106,21 @@ main-context-menu-bookmark-add =
     .aria-label = このページをブックマーク
     .accesskey = m
     .tooltiptext = このページをブックマークに追加します
+
+# This menuitem is only visible on macOS
+# Cannot be shown at the same time as main-context-menu-bookmark-edit-mac,
+# so should probably have the same access key if possible.
+main-context-menu-bookmark-add-mac =
+    .label = ページをブックマーク
+    .accesskey = m
+
+# This menuitem is only visible on macOS
+# Cannot be shown at the same time as main-context-menu-bookmark-add-mac,
+# so should probably have the same access key if possible.
+main-context-menu-bookmark-edit-mac =
+    .label = ブックマークを編集
+    .accesskey = m
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the add bookmark command.
 main-context-menu-bookmark-add-with-shortcut =
@@ -206,6 +225,26 @@ main-context-menu-media-play-speed-faster =
 main-context-menu-media-play-speed-fastest =
     .label = ウルトラスーパーハイ (2倍)
     .accesskey = L
+
+main-context-menu-media-play-speed-2 =
+    .label = 再生速度
+    .accesskey = d
+
+main-context-menu-media-play-speed-slow-2 =
+    .label = 0.5 倍
+
+main-context-menu-media-play-speed-normal-2 =
+    .label = 1.0 倍
+
+main-context-menu-media-play-speed-fast-2 =
+    .label = 1.25 倍
+
+main-context-menu-media-play-speed-faster-2 =
+    .label = 1.5 倍
+
+main-context-menu-media-play-speed-fastest-2 =
+    .label = 2 倍
+
 main-context-menu-media-loop =
     .label = 連続再生
     .accesskey = L
@@ -233,6 +272,13 @@ main-context-menu-media-video-leave-fullscreen =
 main-context-menu-media-pip =
     .label = ピクチャーインピクチャー
     .accesskey = u
+
+# This is used when right-clicking on a video in the
+# content area when the Picture-in-Picture feature is enabled.
+main-context-menu-media-watch-pip =
+    .label = ピクチャーインピクチャーで視聴
+    .accesskey = u
+
 main-context-menu-image-reload =
     .label = 画像を再読み込み
     .accesskey = R
@@ -242,6 +288,15 @@ main-context-menu-image-view =
 main-context-menu-video-view =
     .label = 動画だけを表示
     .accesskey = I
+
+main-context-menu-image-view-new-tab =
+    .label = 画像を@@NewTab@@で開く
+    .accesskey = I
+
+main-context-menu-video-view-new-tab =
+    .label = 動画を@@NewTab@@で開く
+    .accesskey = i
+
 main-context-menu-image-copy =
     .label = 画像をコピー
     .accesskey = y
@@ -290,6 +345,11 @@ main-context-menu-audio-save-as =
 main-context-menu-video-image-save-as =
     .label = スナップショットを保存...
     .accesskey = S
+
+main-context-menu-video-take-snapshot =
+    .label = スナップショットを撮影...
+    .accesskey = S
+
 main-context-menu-video-email =
     .label = 動画の URL をメールで送信...
     .accesskey = a
@@ -312,19 +372,35 @@ main-context-menu-view-background-image =
     .label = 背景画像だけを表示
     .accesskey = w
 main-context-menu-generate-new-password =
-    .label = 生成パスワードを使う...
+    .label = 生成パスワードを使用...
     .accesskey = G
 
 ## The access keys for "Use Saved Login" and "Use Saved Password"
 ## should be the same if possible; the two context menu items
 ## are mutually exclusive.
 
+main-context-menu-use-saved-login =
+    .label = 保存したログイン情報を使用
+    .accesskey = o
+
+main-context-menu-use-saved-password =
+    .label = 保存したパスワードを使用
+    .accesskey = o
 
 ##
+
+main-context-menu-suggest-strong-password =
+    .label = 安全なパスワードを生成...
+    .accesskey = S
 
 main-context-menu-manage-logins =
     .label = ログイン情報を管理...
     .accesskey = M
+
+main-context-menu-manage-logins2 =
+    .label = ログイン情報を管理
+    .accesskey = M
+
 main-context-menu-keyword =
     .label = この検索にキーワードを設定...
     .accesskey = K
@@ -367,6 +443,11 @@ main-context-menu-print-selection =
 main-context-menu-view-selection-source =
     .label = 選択した部分のソースを表示
     .accesskey = e
+
+main-context-menu-take-screenshot =
+    .label = スクリーンショットを撮影
+    .accesskey = T
+
 main-context-menu-view-page-source =
     .label = ページのソースを表示
     .accesskey = V

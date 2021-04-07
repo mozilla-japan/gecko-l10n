@@ -21,6 +21,7 @@ create-login-button = @@New-CMD@@ログイン情報を作成
 
 fxaccounts-sign-in-text = 他の端末でもパスワードが使える
 fxaccounts-sign-in-button = { -sync-brand-short-name } にログイン
+fxaccounts-sign-in-sync-button = ログインして同期
 fxaccounts-avatar-button =
   .title = アカウントを管理
 
@@ -70,11 +71,16 @@ about-logins-list-item-vulnerable-password-icon =
 login-intro-heading = 保存したログイン情報をお探しですか？ { -sync-brand-short-name } を設定しましょう。
 
 about-logins-login-intro-heading-logged-out = 保存したログイン情報をお探しですか？ { -sync-brand-short-name } を設定するか、@@Import-si@@ましょう。
+
+about-logins-login-intro-heading-logged-out2 = 保存したログイン情報をお探しですか？ 同期をオンにするか、@@Import-si@@ましょう。
 about-logins-login-intro-heading-logged-in = 同期したログイン情報はありません。
 login-intro-description = 別の端末の { -brand-product-name } に保存したログイン情報は、以下の手順で取得できます:
 login-intro-instruction-fxa = ログイン情報を保存した端末で { -fxaccount-brand-name } を作成、またはログインしてください
 login-intro-instruction-fxa-settings = { -sync-brand-short-name } の設定のログイン情報のチェックボックスが選択されているか確認してください
 about-logins-intro-instruction-help = <a data-l10n-name="help-link">{ -lockwise-brand-short-name } サポート</a> で詳細なヘルプを確認できます
+login-intro-instructions-fxa = ログイン情報を保存した端末で { -fxaccount-brand-name(capitalization: "sentence") } を作成、またはログインしてください。
+login-intro-instructions-fxa-settings = @@[@@設定@@]@@ > @@[@@同期@@]@@ > @@[@@同期をオンにする...@@]@@ で、ログイン情報とパスワードのチェックボックスを選択してください。
+login-intro-instructions-fxa-help = <a data-l10n-name="help-link">{ -lockwise-brand-short-name } サポート</a> で詳細なヘルプを確認できます。
 about-logins-intro-import = 他のブラウザーでログイン情報を保存した場合は、<a data-l10n-name="import-link">そちらから { -lockwise-brand-short-name } に@@Import-deki@@ます</a>。
 
 about-logins-intro-import2 = { -brand-product-name } 以外のブラウザーでログイン情報を保存した場合は、<a data-l10n-name="import-browser-link">そのブラウザーから</a> または <a data-l10n-name="import-file-link">ファイルから</a> @@Import-deki@@ます。

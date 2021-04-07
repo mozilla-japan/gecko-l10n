@@ -11,6 +11,8 @@
 
 ## Application Menu (macOS only)
 
+menu-application-preferences =
+    .label = 設定
 menu-application-services =
     .label = サービス
 menu-application-hide-this =
@@ -111,6 +113,9 @@ menu-edit =
 menu-edit-find-on =
     .label = このページを検索...
     .accesskey = F
+menu-edit-find-in-page =
+    .label = ページを検索...
+    .accesskey = F
 menu-edit-find-again =
     .label = 次を検索
     .accesskey = g
@@ -128,6 +133,9 @@ menu-view-toolbars-menu =
     .accesskey = T
 menu-view-customize-toolbar =
     .label = カスタマイズ...
+    .accesskey = C
+menu-view-customize-toolbar2 =
+    .label = ツールバーをカスタマイズ...
     .accesskey = C
 menu-view-sidebar =
     .label = サイドバー
@@ -220,6 +228,8 @@ menu-bookmarks-show-all =
     .label = すべてのブックマークを表示
 menu-bookmark-this-page =
     .label = このページをブックマーク
+menu-bookmark-current-tab =
+    .label = 現在のタブをブックマーク
 menu-bookmark-edit =
     .label = このブックマークを編集
 menu-bookmarks-all-tabs =
@@ -245,24 +255,46 @@ menu-tools-addons =
 menu-tools-fxa-sign-in =
     .label = { -brand-product-name } にログイン...
     .accesskey = g
+menu-tools-addons-and-themes =
+    .label = アドオンとテーマ
+    .accesskey = A
+menu-tools-fxa-sign-in2 =
+    .label = ログイン
+    .accesskey = g
 menu-tools-turn-on-sync =
     .label = { -sync-brand-short-name } をオンにする...
     .accesskey = n
+menu-tools-turn-on-sync2 =
+    .label = 同期をオンにする...
+    .accesskey = n
 menu-tools-sync-now =
     .label = 今すぐ同期
-    .accesskey = S
+    .accesskey = o
 menu-tools-fxa-re-auth =
     .label = { -brand-product-name } にログイン...
     .accesskey = R
 menu-tools-web-developer =
     .label = ウェブ開発
     .accesskey = W
+menu-tools-browser-tools =
+    .label = ブラウザーツール
+    .accesskey = B
+menu-tools-task-manager =
+    .label = タスクマネージャー
+    .accesskey = M
 menu-tools-page-source =
     .label = ページのソース
     .accesskey = o
 menu-tools-page-info =
     .label = ページの情報
     .accesskey = I
+menu-settings =
+    .label = 設定
+    .accesskey =
+        { PLATFORM() ->
+            [windows] S
+           *[other] n
+        }
 menu-preferences =
     .label =
         { PLATFORM() ->
@@ -286,16 +318,6 @@ menu-window-bring-all-to-front =
     .label = @@BringAllToFront@@
 
 ## Help Menu
-
-
-# NOTE: For Engineers, any additions or changes to Help menu strings should
-# also be reflected in the related strings in appmenu.ftl. Those strings, by
-# convention, will have the same ID as these, but prefixed with "app".
-# Example: appmenu-help-product
-#
-# These strings are duplicated to allow for different casing depending on
-# where the strings appear.
-
 
 # NOTE: For Engineers, any additions or changes to Help menu strings should
 # also be reflected in the related strings in appmenu.ftl. Those strings, by
@@ -326,11 +348,11 @@ menu-get-help =
 menu-help-troubleshooting-info =
     .label = トラブルシューティング情報...
     .accesskey = T
+menu-help-taskmanager =
+    .label = タスクマネージャー
 menu-help-more-troubleshooting-info =
     .label = 他のトラブルシューティング情報
     .accesskey = T
-menu-help-taskmanager =
-    .label = タスクマネージャー
 menu-help-report-site-issue =
     .label = サイトの問題を報告...
 menu-help-feedback-page =
@@ -342,8 +364,8 @@ menu-help-safe-mode-without-addons =
 menu-help-safe-mode-with-addons =
     .label = アドオンを有効にして再起動
     .accesskey = R
-menu-help-enter-troubleshoot-mode =
-    .label = トラブルシューティングモード
+menu-help-enter-troubleshoot-mode2 =
+    .label = トラブルシューティングモード...
     .accesskey = M
 menu-help-exit-troubleshoot-mode =
     .label = トラブルシューティングモードをオフにする
@@ -356,6 +378,3 @@ menu-help-report-deceptive-site =
 menu-help-not-deceptive =
     .label = 詐欺サイトの誤報告を指摘...
     .accesskey = d
-menu-help-check-for-update =
-    .label = 更新を確認...
-    .accesskey = C
