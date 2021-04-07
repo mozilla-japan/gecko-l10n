@@ -23,8 +23,8 @@ newtab-search-box-search-the-web-text = ウェブを検索
 
 # Variables
 #  $engine (String): the name of the user's default search engine
-newtab-search-box-handoff-text = Search with { $engine } or enter address
-newtab-search-box-handoff-text-no-engine = Search or enter address
+newtab-search-box-handoff-text = { $engine } で検索、または URL を入力します
+newtab-search-box-handoff-text-no-engine = 検索語句、または URL を入力します
 # Variables
 #  $engine (String): the name of the user's default search engine
 newtab-search-box-handoff-input =
