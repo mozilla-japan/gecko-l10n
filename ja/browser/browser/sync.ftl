@@ -20,3 +20,7 @@ fxa-signout-dialog =
     .title = { -fxaccount-brand-name }からログアウト
     .style = min-width: 375px;
     .buttonlabelaccept = ログアウト
+fxa-menu-connect-another-device =
+    .label = 別の端末を接続...
+fxa-menu-sign-out =
+    .label = ログアウト...
