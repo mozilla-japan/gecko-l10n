@@ -35,3 +35,9 @@ fxa-menu-sync-settings =
 fxa-menu-turn-on-sync =
     .value = 同期をオンにする
 fxa-menu-turn-on-sync-default = 同期をオンにする
+
+fxa-menu-connect-another-device =
+    .label = 別の端末を接続...
+
+fxa-menu-sign-out =
+    .label = ログアウト...
