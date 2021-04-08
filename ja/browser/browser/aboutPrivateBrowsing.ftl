@@ -9,6 +9,16 @@ about-private-browsing-info-title = プライベート@@Window@@です
 about-private-browsing-info-myths = プライベートブラウジングに共通する話題
 about-private-browsing =
     .title = ウェブ検索
+# Variables
+#  $engine (String): the name of the user's default search engine
+about-private-browsing-handoff =
+    .title = { $engine } で検索、または URL を入力します
+about-private-browsing-handoff-no-engine =
+    .title = 検索語句、または URL を入力します
+# Variables
+#  $engine (String): the name of the user's default search engine
+about-private-browsing-handoff-text = { $engine } で検索、または URL を入力します
+about-private-browsing-handoff-text-no-engine = 検索語句、または URL を入力します
 about-private-browsing-not-private = これはプライベート@@Window@@ではありません。
 about-private-browsing-info-description = ブラウザーを終了するかプライベートブラウジングのタブと@@Window@@をすべて閉じると、検索履歴と閲覧履歴を消去します。ウェブサイトとインターネットサービスプロバイダーに対しては匿名化されません。このコンピューターを使う他のユーザーからあなたのオンラインでのプライベートを守るのに役立ちます。
 

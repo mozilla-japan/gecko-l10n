@@ -17,6 +17,8 @@ policy-AppUpdateURL = アプリケーションのカスタム更新 URL を設�
 
 policy-Authentication = ウェブサイトが対応する統合認証の設定を行います。
 
+policy-BackgroundAppUpdate2 = バックグラウンド更新を有効または無効にします。
+
 policy-BlockAboutAddons = アドオンマネージャー (about:addons) へのアクセスをブロックします。
 
 policy-BlockAboutConfig = about:config ページへのアクセスをブロックします。
@@ -183,6 +185,8 @@ policy-SearchSuggestEnabled = 検索候補の表示機能を有効または無�
 
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = PKCS #11 モジュールをインストールします。
+
+policy-ShowHomeButton = ホームボタンをツールバーに表示します。
 
 policy-SSLVersionMax = SSL の最高バージョンを設定します。
 

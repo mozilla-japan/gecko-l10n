@@ -20,12 +20,29 @@ newtab-search-box-search-button =
     .aria-label = 検索
 
 newtab-search-box-search-the-web-text = ウェブを検索
+
+# Variables
+#  $engine (String): the name of the user's default search engine
+newtab-search-box-handoff-text = { $engine } で検索、または URL を入力します
+newtab-search-box-handoff-text-no-engine = 検索語句、または URL を入力します
+# Variables
+#  $engine (String): the name of the user's default search engine
+newtab-search-box-handoff-input =
+    .placeholder = { $engine } で検索、または URL を入力します
+    .title = { $engine } で検索、または URL を入力します
+    .aria-label = { $engine } で検索、または URL を入力します
+newtab-search-box-handoff-input-no-engine =
+    .placeholder = 検索語句、または URL を入力します
+    .title = 検索語句、または URL を入力します
+    .aria-label = 検索語句、または URL を入力します
+
 newtab-search-box-search-the-web-input =
     .placeholder = ウェブを検索
     .title = ウェブを検索
     .aria-label = ウェブを検索
 
 newtab-search-box-text = ウェブを検索
+
 newtab-search-box-input =
     .placeholder = ウェブを検索
     .aria-label = ウェブを検索

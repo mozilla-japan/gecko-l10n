@@ -7,6 +7,14 @@
 
 appmenuitem-update-banner =
     .label-update-downloading = { -brand-shorter-name } の更新をダウンロード中
+
+appmenuitem-update-banner2 =
+    .label-update-downloading = { -brand-shorter-name } の更新をダウンロード中
+    .label-update-available = 更新可能 — 今すぐダウンロード
+    .label-update-manual = 更新可能 — 今すぐダウンロード
+    .label-update-unsupported = 更新不可
+    .label-update-restart = 更新可能 — 今すぐ再起動
+
 appmenuitem-protection-dashboard-title = プライバシー保護ダッシュボード
 appmenuitem-customize-mode =
     .label = カスタマイズ...
@@ -21,6 +29,8 @@ appmenuitem-passwords =
     .label = パスワード
 appmenuitem-extensions-and-themes =
     .label = 拡張機能とテーマ
+appmenuitem-addons-and-themes =
+    .label = アドオンとテーマ
 appmenuitem-find-in-page =
     .label = このページを検索...
 appmenuitem-more-tools =
@@ -33,6 +43,16 @@ appmenu-menu-button-closed =
 appmenu-menu-button-opened =
     .tooltiptext = アプリケーションメニューを閉じます
     .label = { -brand-shorter-name }
+
+appmenuitem-exit2 =
+    .label = 終了
+appmenu-menu-button-closed2 =
+    .tooltiptext = アプリケーションメニューを開きます
+    .label = { -brand-short-name }
+appmenu-menu-button-opened2 =
+    .tooltiptext = アプリケーションメニューを閉じます
+    .label = { -brand-short-name }
+
 # Settings is now used to access the browser settings across all platforms,
 # instead of Options or Preferences.
 appmenuitem-settings =
@@ -51,6 +71,12 @@ appmenuitem-fullscreen =
 
 fxa-toolbar-sync-now =
     .label = 今すぐ同期
+
+appmenu-remote-tabs-sign-into-sync =
+  .label = ログインして同期...
+appmenu-remote-tabs-turn-on-sync =
+  .label = 同期をオンにする...
+
 appmenuitem-fxa-toolbar-sync-now2 = 今すぐ同期
 appmenuitem-fxa-manage-account = アカウントを管理
 appmenu-fxa-header =
@@ -163,6 +189,9 @@ appmenu-help-safe-mode-with-addons =
 ## appmenu-help-enter-troubleshoot-mode and appmenu-help-exit-troubleshoot-mode
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
 
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = トラブルシューティングモード...
+    .accesskey = M
 appmenu-help-exit-troubleshoot-mode =
     .label = トラブルシューティングモードをオフにする
     .accesskey = M

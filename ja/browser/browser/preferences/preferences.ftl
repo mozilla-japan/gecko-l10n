@@ -31,6 +31,20 @@ search-input-box =
            *[other] 設定を検索
         }
 
+settings-page-title = 設定
+
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-input-box2 =
+    .style = width: 15.4em
+    .placeholder = 設定を検索
+
 managed-notice = ご使用のブラウザーはあなたの所属組織に管理されています。
 
 category-list =
@@ -56,12 +70,18 @@ pane-sync-title2 = { -sync-brand-short-name }
 category-sync2 =
     .tooltiptext = { pane-sync-title2 }
 
+pane-sync-title3 = 同期
+category-sync3 =
+    .tooltiptext = { pane-sync-title3 }
+
 pane-experimental-title = 実験的な機能
 category-experimental =
     .tooltiptext = 実験的な機能
 pane-experimental-subtitle = 注意して進んでください
 pane-experimental-search-results-header = 実験的な機能: 注意して進んでください
 pane-experimental-description = 高度な設定を変更すると、{ -brand-short-name } の性能と安全性に影響を及ぼす可能性があります。
+
+pane-experimental-description2 = 高度な設定を変更すると、{ -brand-short-name } の性能と安全性に影響を及ぼす可能性があります。
 
 pane-experimental-reset =
   .label = @@DefaultValue@@に戻す
@@ -145,7 +165,11 @@ search-results-empty-message =
        *[other] “<span data-l10n-name="query"></span>” 設定についての検索結果はありません。
     }
 
-search-results-help-link = 助けが必要な方は、<a data-l10n-name="url">{ -brand-short-name } サポート</a> をご利用ください
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+        申し訳ありません。“<span data-l10n-name="query"></span>” の設定についての検索結果はありません。
+
+search-results-help-link = ヘルプが必要な方は、<a data-l10n-name="url">{ -brand-short-name } サポート</a> をご利用ください
 
 ## General Section
 
@@ -457,6 +481,10 @@ update-application-manual =
     .label = 更新の確認は行わない (非推奨)
     .accesskey = N
 
+update-application-background-enabled =
+    .label = { -brand-short-name } を実行していない時に更新する
+    .accesskey = W
+
 update-application-warning-cross-user-setting = この設定はこの端末のすべての Windows アカウントと、この { -brand-short-name } のインストール先を使用するすべての { -brand-short-name } プロファイルに適用されます。
 
 update-application-use-service =
@@ -473,6 +501,17 @@ update-setting-write-failure-message =
     { -brand-short-name } がエラーに遭遇したため変更を保存できませんでした。この設定変更を保存するには、以下のファイルの書き込み権限が必要なことに注意してください。あなたかシステム管理者が、このファイルにユーザーグループのフルコントロール権限を与えると、エラーを解決できる可能性があります。
     
     ファイルに書き込みできません: { $path }
+
+update-setting-write-failure-title2 = 設定変更の保存エラー
+
+# Variables:
+#   $path (String) - Path to the configuration file
+# The newlines between the main text and the line containing the path is
+# intentional so the path is easier to identify.
+update-setting-write-failure-message2 =
+    { -brand-short-name } がエラーに遭遇したため変更を保存できませんでした。この設定変更を保存するには、以下のファイルの書き込み権限が必要なことに注意してください。あなたかシステム管理者が、このファイルにユーザーグループのフルコントロール権限を与えると、エラーを解決できる可能性があります。
+
+    ファイルに書き込めません: { $path }
 
 update-in-progress-title = 更新中
 
@@ -714,6 +753,8 @@ search-show-suggestions-private-windows =
 
 suggestions-addressbar-settings-generic = アドレスバーの入力候補のその他の設定を変更
 
+suggestions-addressbar-settings-generic2 = アドレスバーの入力候補のその他の設定を変更
+
 search-suggestions-cant-show = 履歴を保存しない設定となっているため、ロケーションバーに検索候補が表示されません。
 
 search-one-click-header = ワンクリック検索エンジン
@@ -757,6 +798,9 @@ containers-back-button =
           [windows] オプションに戻る
          *[other] 設定に戻る
       }
+
+containers-back-button2 =
+    .aria-label = 設定に戻る
 containers-header = コンテナータブ
 containers-add-button =
     .label = @@New-CMD@@コンテナーを追加
@@ -767,6 +811,9 @@ containers-new-tab-check =
     .accesskey = S
 
 containers-preferences-button =
+    .label = 設定
+
+containers-settings-button =
     .label = 設定
 containers-remove-button =
     .label = 削除
@@ -779,6 +826,12 @@ sync-signedout-description = ブックマークやページの表示履歴、タ
 
 sync-signedout-account-signin2 =
     .label = { -sync-brand-short-name } にログイン...
+    .accesskey = i
+
+sync-signedout-description2 = ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。
+
+sync-signedout-account-signin3 =
+    .label = ログインして同期...
     .accesskey = i
 
 # This message contains two links and two icon images.
@@ -830,6 +883,12 @@ prefs-sync-setup =
 
 prefs-sync-offer-setup-label = ブックマーク、履歴、タブ、パスワード、アドオン、設定をあなたの端末すべてに同期化します。
 
+prefs-sync-turn-on-syncing =
+    .label = 同期をオンにしています...
+    .accesskey = s
+
+prefs-sync-offer-setup-label2 = ブックマーク、履歴、タブ、パスワード、アドオン、設定をあなたのすべての端末に対して同期させます。
+
 prefs-sync-now =
     .labelnotsyncing = 今すぐ同期
     .accesskeynotsyncing = N
@@ -851,6 +910,8 @@ sync-currently-syncing-prefs =
         [windows] オプション
        *[other] 個人設定
     }
+
+sync-currently-syncing-settings = 個人設定
 
 sync-change-options =
     .label = 変更...
@@ -906,6 +967,11 @@ sync-engine-prefs =
            *[other] 個人設定
         }
     .tooltiptext = 変更した一般、プライバシー、セキュリティの設定です
+    .accesskey = s
+
+sync-engine-settings =
+    .label = 個人設定
+    .tooltiptext = 変更した一般設定、プライバシー設定、セキュリティ設定です
     .accesskey = s
 
 ## The device name controls.
@@ -1405,6 +1471,14 @@ space-alert-under-5gb-ok-button =
     .accesskey = K
 
 space-alert-under-5gb-message = { -brand-short-name } を実行するためのディスク領域が足りません。ウェブサイトが正しく表示されない可能性があります。快適なブラウジングのために、@@[@@詳細情報@@]@@ のリンク先を読み、ディスク使用量を最適化してください。
+
+space-alert-over-5gb-settings-button =
+    .label = 設定を開く
+    .accesskey = O
+
+space-alert-over-5gb-message2 = <strong>{ -brand-short-name } を実行するためのディスク領域が足りません。</strong>ウェブサイトが正しく表示されない可能性があります。@@[@@設定@@]@@ > @@[@@プライバシーとセキュリティ@@]@@ > @@[@@Cookie とサイトデータ@@]@@ から、保存されたデータを削除してください。
+
+space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行するためのディスク領域が足りません。</strong>ウェブサイトが正しく表示されない可能性があります。快適なブラウジングのために、@@[@@詳細情報@@]@@ のリンク先を読み、ディスク使用量を最適化してください。
 
 ## Privacy Section - HTTPS-Only
 

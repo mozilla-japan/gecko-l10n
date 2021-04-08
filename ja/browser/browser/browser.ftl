@@ -256,11 +256,17 @@ search-one-offs-history =
 
 ## Bookmark Panel
 
+bookmarks-add-bookmark = ブックマークを追加
+bookmarks-edit-bookmark = ブックマークを編集
 bookmark-panel-show-editor-checkbox =
     .label = 追加時にエディターを表示する
     .accesskey = S
 bookmark-panel-done-button =
     .label = 完了
+
+bookmark-panel-save-button =
+    .label = 保存
+
 # Width of the bookmark panel.
 # Should be large enough to fully display the Done and
 # Cancel/Remove Bookmark buttons.
@@ -353,6 +359,23 @@ browser-tab-audio-pip = ピクチャーインピクチャー
 ## Variables:
 ##  $count (number): number of affected tabs
 
+browser-tab-mute =
+    { $count ->
+        [1] タブをミュート
+       *[other] { $count } 個のタブをミュート
+    }
+
+browser-tab-unmute =
+    { $count ->
+        [1] タブのミュートを解除
+       *[other] { $count } 個のタブのミュートを解除
+    }
+
+browser-tab-unblock =
+    { $count ->
+        [1] タブのメディアを再生
+       *[other] { $count } 個のタブのメディアを再生
+    }
 
 ## Bookmarks toolbar items
 
@@ -369,6 +392,17 @@ popup-select-camera =
 popup-select-microphone =
     .value = 共有するマイク:
     .accesskey = M
+
+popup-select-camera-device =
+    .value = カメラ:
+    .accesskey = C
+popup-select-camera-icon =
+    .tooltiptext = カメラ
+popup-select-microphone-device =
+    .value = マイク:
+    .accesskey = M
+popup-select-microphone-icon =
+    .tooltiptext = マイク
 popup-all-windows-shared = 画面に表示されているすべての@@Window@@を共有します。
 popup-screen-sharing-not-now =
     .label = 後で
@@ -378,6 +412,16 @@ popup-screen-sharing-never =
     .accesskey = N
 popup-silence-notifications-checkbox = 共有中は { -brand-short-name } からの通知を無効にする。
 popup-silence-notifications-checkbox-warning = 共有中は { -brand-short-name } からの通知を表示しないようにします。
+
+popup-screen-sharing-block =
+  .label = ブロック
+  .accesskey = B
+
+popup-screen-sharing-always-block =
+  .label = 常にブロック
+  .accesskey = w
+
+popup-mute-notifications-checkbox = 共有中はウェブサイトからの通知を無効にする
 
 ## WebRTC window or screen share tab switch warning
 
@@ -528,6 +572,7 @@ crashed-subframe-submit =
 
 bookmarks-show-all-bookmarks =
     .label = すべてのブックマークを表示
+
 bookmarks-manage-bookmarks =
     .label = ブックマークを管理
 bookmarks-recent-bookmarks-panel =
@@ -619,9 +664,15 @@ eme-notifications-drm-content-playing-dismiss-accesskey = D
 
 ## Password save/update panel
 
+panel-save-update-username = ユーザー名
+panel-save-update-password = パスワード
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the addon that will be removed.
+addon-removal-title = { $name } を削除しますか？
+addon-removal-abuse-report-checkbox = この拡張機能を { -vendor-short-name } に報告する
 
 ## Remote / Synced tabs
 

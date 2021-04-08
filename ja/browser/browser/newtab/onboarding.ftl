@@ -193,6 +193,16 @@ onboarding-multistage-set-default-primary-button-label = @@DefaultBrowser@@に�
 onboarding-multistage-set-default-secondary-button-label = 後で
 
 # The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
+# automatically added to the text inside it. { -brand-short-name } should stay inside the span.
+onboarding-multistage-pin-default-header = クリックして <span data-l10n-name="zap">{ -brand-short-name }</span> を始めましょう
+onboarding-multistage-pin-default-subtitle = いつでも高速で安全、プライベートなブラウジングを。
+# The "settings" here refers to "Windows 10 Settings App" and not the browser's
+onboarding-multistage-pin-default-waiting-subtitle = 既定のアプリの設定が開いたら、@@[@@Web ブラウザー@@]@@から { -brand-short-name } を選択してください
+# The "settings" here refers to "Windows 10 Settings App" and not the browser's
+onboarding-multistage-pin-default-help-text = { -brand-short-name } をタスクバーにピン留めし、既定のアプリの設定を開きます
+onboarding-multistage-pin-default-primary-button-label = { -brand-short-name } を既定のブラウザーに設定する
+
+# The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
 # automatically added to the text inside it. "more" should stay inside the span.
 onboarding-multistage-import-header = パスワード、ブックマーク、<span data-l10n-name="zap">その他のデータ</span>を<br/>@@Import-si@@ましょう。
 onboarding-multistage-import-subtitle = その他のブラウザーからですか？ 簡単に { -brand-short-name } に持ち込めます。
