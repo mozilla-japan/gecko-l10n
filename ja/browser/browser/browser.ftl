@@ -258,15 +258,21 @@ search-one-offs-history =
 
 bookmarks-add-bookmark = ブックマークを追加
 bookmarks-edit-bookmark = ブックマークを編集
+bookmark-panel-cancel =
+    .label = キャンセル
+    .accesskey = C
+# Variables:
+#  $count (number): number of bookmarks that will be removed
+bookmark-panel-remove =
+    .label = { $count } 個のブックマークを削除
+    .accesskey = R
 bookmark-panel-show-editor-checkbox =
     .label = 追加時にエディターを表示する
     .accesskey = S
 bookmark-panel-done-button =
     .label = 完了
-
 bookmark-panel-save-button =
     .label = 保存
-
 # Width of the bookmark panel.
 # Should be large enough to fully display the Done and
 # Cancel/Remove Bookmark buttons.
@@ -364,13 +370,11 @@ browser-tab-mute =
         [1] タブをミュート
        *[other] { $count } 個のタブをミュート
     }
-
 browser-tab-unmute =
     { $count ->
         [1] タブのミュートを解除
        *[other] { $count } 個のタブのミュートを解除
     }
-
 browser-tab-unblock =
     { $count ->
         [1] タブのメディアを再生
@@ -392,7 +396,6 @@ popup-select-camera =
 popup-select-microphone =
     .value = 共有するマイク:
     .accesskey = M
-
 popup-select-camera-device =
     .value = カメラ:
     .accesskey = C
@@ -412,15 +415,12 @@ popup-screen-sharing-never =
     .accesskey = N
 popup-silence-notifications-checkbox = 共有中は { -brand-short-name } からの通知を無効にする。
 popup-silence-notifications-checkbox-warning = 共有中は { -brand-short-name } からの通知を表示しないようにします。
-
 popup-screen-sharing-block =
   .label = ブロック
   .accesskey = B
-
 popup-screen-sharing-always-block =
   .label = 常にブロック
   .accesskey = w
-
 popup-mute-notifications-checkbox = 共有中はウェブサイトからの通知を無効にする
 
 ## WebRTC window or screen share tab switch warning
@@ -572,7 +572,6 @@ crashed-subframe-submit =
 
 bookmarks-show-all-bookmarks =
     .label = すべてのブックマークを表示
-
 bookmarks-manage-bookmarks =
     .label = ブックマークを管理
 bookmarks-recent-bookmarks-panel =
@@ -647,6 +646,9 @@ library-recent-activity-title =
 save-to-pocket-button =
     .label = { -pocket-brand-name } に保存
     .tooltiptext = { -pocket-brand-name } に保存
+
+## Customize Toolbar Buttons
+
 
 ## More items
 
