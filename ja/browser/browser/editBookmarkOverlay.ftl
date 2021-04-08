@@ -22,7 +22,7 @@ bookmark-overlay-url =
 # Location refers to the position of the bookmark within the browser's
 # bookmarks, not to its URL or address.
 bookmark-overlay-location-2 =
-  .value = URL
+  .value = 保存場所
   .accesskey = L
 
 bookmark-overlay-choose =

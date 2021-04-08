@@ -10,10 +10,10 @@ appmenuitem-update-banner =
 
 appmenuitem-update-banner2 =
     .label-update-downloading = { -brand-shorter-name } の更新をダウンロード中
-    .label-update-available = 更新が利用可能 — 今すぐダウンロード
-    .label-update-manual = 更新が利用可能 — 今すぐダウンロード
+    .label-update-available = 更新可能 — 今すぐダウンロード
+    .label-update-manual = 更新可能 — 今すぐダウンロード
     .label-update-unsupported = 更新不可
-    .label-update-restart = 更新が利用可能 — 今すぐ再起動
+    .label-update-restart = 更新可能 — 今すぐ再起動
 
 appmenuitem-protection-dashboard-title = プライバシー保護ダッシュボード
 appmenuitem-customize-mode =

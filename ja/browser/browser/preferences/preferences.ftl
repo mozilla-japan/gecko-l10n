@@ -482,7 +482,7 @@ update-application-manual =
     .accesskey = N
 
 update-application-background-enabled =
-    .label = { -brand-short-name } を実行してないときに
+    .label = { -brand-short-name } を実行していない時に更新する
     .accesskey = W
 
 update-application-warning-cross-user-setting = この設定はこの端末のすべての Windows アカウントと、この { -brand-short-name } のインストール先を使用するすべての { -brand-short-name } プロファイルに適用されます。
@@ -887,7 +887,7 @@ prefs-sync-turn-on-syncing =
     .label = 同期をオンにしています...
     .accesskey = s
 
-prefs-sync-offer-setup-label2 = ブックマーク、履歴、タブ、パスワード、アドオン、設定をあなたの端末すべてに同期化します。
+prefs-sync-offer-setup-label2 = ブックマーク、履歴、タブ、パスワード、アドオン、設定をあなたのすべての端末に対して同期させます。
 
 prefs-sync-now =
     .labelnotsyncing = 今すぐ同期
@@ -971,7 +971,7 @@ sync-engine-prefs =
 
 sync-engine-settings =
     .label = 個人設定
-    .tooltiptext = 変更した一般、プライバシー、セキュリティの設定です
+    .tooltiptext = 変更した一般設定、プライバシー設定、セキュリティ設定です
     .accesskey = s
 
 ## The device name controls.
