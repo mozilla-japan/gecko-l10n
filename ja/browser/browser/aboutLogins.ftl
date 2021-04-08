@@ -78,7 +78,7 @@ login-intro-description = 別の端末の { -brand-product-name } に保存し�
 login-intro-instruction-fxa = ログイン情報を保存した端末で { -fxaccount-brand-name } を作成、またはログインしてください
 login-intro-instruction-fxa-settings = { -sync-brand-short-name } の設定のログイン情報のチェックボックスが選択されているか確認してください
 about-logins-intro-instruction-help = <a data-l10n-name="help-link">{ -lockwise-brand-short-name } サポート</a> で詳細なヘルプを確認できます
-login-intro-instructions-fxa = ログイン情報を保存した端末で { -fxaccount-brand-name(capitalization: "sentence") } を作成、またはログインしてください。
+login-intro-instructions-fxa = ログイン情報を保存した端末で { -fxaccount-brand-name } を作成、またはログインしてください。
 login-intro-instructions-fxa-settings = @@[@@設定@@]@@ > @@[@@同期@@]@@ > @@[@@同期をオンにする...@@]@@ で、ログイン情報とパスワードのチェックボックスを選択してください。
 login-intro-instructions-fxa-help = <a data-l10n-name="help-link">{ -lockwise-brand-short-name } サポート</a> で詳細なヘルプを確認できます。
 about-logins-intro-import = 他のブラウザーでログイン情報を保存した場合は、<a data-l10n-name="import-link">そちらから { -lockwise-brand-short-name } に@@Import-deki@@ます</a>。

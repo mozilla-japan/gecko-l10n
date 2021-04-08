@@ -17,15 +17,15 @@ lost = <b>個人データやカスタマイズが失われることはもうあ�
 
 options-title = プロファイルのオプション
 options-do-nothing = 何もしなければ、あなたのプロファイルデータは他の Firefox のインストール先のプロファイルデータから切り離されます。
-options-use-sync = あなたのプロファイルデータを他の Firefox のインストール先すべてと同じにしたいのであれば、{ -fxaccount-brand-name(capitalization: "sentence") } を使うことで他と同期を維持できます。
+options-use-sync = あなたのプロファイルデータを他の Firefox のインストール先すべてと同じにしたいのであれば、{ -fxaccount-brand-name } を使うことで他と同期を維持できます。
 
 resources = リソース:
 support-link = プロファイルマネージャーを使用する - サポート記事
 
-sync-header = ログインまたは { -fxaccount-brand-name(capitalization: "sentence") } を作成
+sync-header = ログインまたは { -fxaccount-brand-name } を作成
 sync-label = メールアドレスを入力
 sync-input =
-  .placeholder = メールアドレス
+    .placeholder = メールアドレス
 sync-button = 続行
 sync-terms = 進むと、<a data-l10n-name="terms">利用規約</a>と<a data-l10n-name="privacy">プライバシーに関する通知</a>に同意したと見なします。
 sync-first = { -sync-brand-name } の利用は初めてですか？ ログインするとあなたの情報を Firefox のインストール先すべてに同期できます。
