@@ -10,6 +10,8 @@ preferences-title =
             [windows] オプション
            *[other] 環境設定
         }
+preferences-tab-title =
+    .title = 設定
 category-list =
     .aria-label = カテゴリー
 pane-general-title = 一般
@@ -91,6 +93,7 @@ update-in-progress-ok-button = 破棄(&D)
 update-in-progress-cancel-button = 続行(&C)
 account-button = アカウント設定
 addons-button = 拡張機能とテーマ
+open-addons-sidebar-button = アドオンとテーマ
 
 ## OS Authentication dialog
 
@@ -169,6 +172,12 @@ customize-alert-label =
 tray-icon-label =
     .label = トレイアイコンを表示する
     .accesskey = t
+biff-use-system-alert =
+    .label = システムの通知を使用する
+tray-icon-unread-label =
+    .label = 未読メッセージのトレイアイコンを表示する
+    .accesskey = t
+tray-icon-unread-description = 小さいタスクバーボタンを使用する場合に推奨されます。
 mail-system-sound-label =
     .label = 新着メールの@@Default-@@システムサウンド
     .accesskey = D
@@ -221,7 +230,7 @@ search-integration-label =
 config-editor-button =
     .label = 設定エディター...
     .accesskey = C
-return-receipts-description = 開封確認の取り扱い方を設定します。
+return-receipts-description = { -brand-short-name } の開封確認の取り扱い方を設定します。
 return-receipts-button =
     .label = 開封確認...
     .accesskey = R
@@ -711,6 +720,17 @@ search-input-box =
         [windows] オプションを検索
         *[other] 設定を検索
     }
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input =
+    .style = width: 15.4em
+    .placeholder = 設定を検索
 
 ## Preferences UI Search Results
 
