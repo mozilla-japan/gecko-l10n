@@ -8,6 +8,7 @@ autodetect-online-label =
     .label = 検出された状態に自動的に従う
     .accesskey = d
 startup-label = 起動時の状態を手動で設定する:
+offline-preference-startup-label = 起動時の状態を手動で設定する:
 status-radio-remember =
     .label = 前回終了時と同じ
     .accesskey = R

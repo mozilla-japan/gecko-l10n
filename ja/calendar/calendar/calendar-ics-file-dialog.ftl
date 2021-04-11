@@ -21,6 +21,22 @@ calendar-ics-file-dialog-calendar-menu-label = カレンダーに@@Import@@:
 calendar-ics-file-dialog-items-loading-message =
   .value = 項目を読み込んでいます...
 
+calendar-ics-file-dialog-search-input =
+  .placeholder = 項目の絞り込み...
+
+calendar-ics-file-dialog-sort-start-ascending =
+  .label = 開始日時で並べ替える (日付順)
+calendar-ics-file-dialog-sort-start-descending =
+  .label = 開始日時で並べ替える (日付逆順)
+# "A > Z" is used as a concise way to say "alphabetical order".
+# You may replace it with something appropriate to your language.
+calendar-ics-file-dialog-sort-title-ascending =
+  .label = 件名で並べ替える (A > Z)
+# "Z > A" is used as a concise way to say "reverse alphabetical order".
+# You may replace it with something appropriate to your language.
+calendar-ics-file-dialog-sort-title-descending =
+  .label = 件名で並べ替える (Z > A)
+
 calendar-ics-file-dialog-progress-message = @@Import-site@@います...
 
 calendar-ics-file-import-success = @@ImportNoun@@が完了しました。
