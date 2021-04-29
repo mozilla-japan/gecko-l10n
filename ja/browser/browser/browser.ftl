@@ -281,7 +281,14 @@ bookmark-panel =
 
 ## Identity Panel
 
-identity-connection-not-secure = 安全ではない接続
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+identity-site-information = { $host } のサイト情報
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+identity-header-security-with-host =
+    .title = { $host } への接続の安全性
+identity-connection-not-secure = 安全でない接続
 identity-connection-secure = 安全な接続
 identity-connection-internal = このページは { -brand-short-name } の安全な内部ページです。
 identity-connection-file = これはあなたのコンピューターに保存されているページです。
@@ -323,7 +330,7 @@ identity-description-insecure-login-forms = このページに入力したログ
 identity-description-weak-cipher-intro = このウェブサイトとの接続には脆弱な暗号が使用されており、秘密が保たれません。
 identity-description-weak-cipher-risk = 第三者にあなたの情報を盗み見られたりウェブサイトの動作を不正に改変される可能性があります。
 identity-description-active-blocked = { -brand-short-name } がこのページ上の安全でないコンテンツをブロックしました。 <label data-l10n-name="link">詳細情報</label>
-identity-description-passive-loaded = この接続は安全ではないため、サイトと共有したあなたの情報が第三者に盗み見られる可能性があります。
+identity-description-passive-loaded = この接続は安全でないため、サイトと共有したあなたの情報が第三者に盗み見られる可能性があります。
 identity-description-passive-loaded-insecure = このウェブサイトには安全でないコンテンツ (画像など) が含まれています。 <label data-l10n-name="link">詳細情報</label>
 identity-description-passive-loaded-mixed = { -brand-short-name } が一部のコンテンツをブロックしていますが、ページ上には安全でないコンテンツ (画像など) が含まれています。 <label data-l10n-name="link">詳細情報</label>
 identity-description-active-loaded = このウェブサイトには安全でないコンテンツ (スクリプトなど) が含まれており、サイトとの接続は秘密が保たれません。
@@ -416,11 +423,11 @@ popup-screen-sharing-never =
 popup-silence-notifications-checkbox = 共有中は { -brand-short-name } からの通知を無効にする。
 popup-silence-notifications-checkbox-warning = 共有中は { -brand-short-name } からの通知を表示しないようにします。
 popup-screen-sharing-block =
-  .label = ブロック
-  .accesskey = B
+    .label = ブロック
+    .accesskey = B
 popup-screen-sharing-always-block =
-  .label = 常にブロック
-  .accesskey = w
+    .label = 常にブロック
+    .accesskey = w
 popup-mute-notifications-checkbox = 共有中はウェブサイトからの通知を無効にする
 
 ## WebRTC window or screen share tab switch warning
@@ -559,9 +566,6 @@ pointerlock-warning-no-domain = マウスポインターは現在、このペー
 ## Subframe crash notification
 
 crashed-subframe-message = <strong>このページの一部がクラッシュしました。</strong> { -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
-crashed-subframe-learnmore =
-    .label = 詳細
-    .accesskey = L
 crashed-subframe-learnmore-link =
     .value = 詳細
 crashed-subframe-submit =
@@ -574,8 +578,6 @@ bookmarks-show-all-bookmarks =
     .label = すべてのブックマークを表示
 bookmarks-manage-bookmarks =
     .label = ブックマークを管理
-bookmarks-recent-bookmarks-panel =
-    .value = 最近のブックマーク
 bookmarks-recent-bookmarks-panel-subheader = 最近のブックマーク
 bookmarks-toolbar-chevron =
     .tooltiptext = 残りのブックマークを表示します
