@@ -7,3 +7,7 @@ common-dialog-title-system = { -brand-short-name }
 # Title displayed when the origin of a web dialog is unknown.
 # (^m^) en-US: Unknown
 common-dialog-title-unknown = アンノーン
+common-dialog-username =
+    .value = ユーザー名
+common-dialog-password =
+    .value = パスワード

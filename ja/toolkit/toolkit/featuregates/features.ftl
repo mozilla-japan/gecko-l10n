@@ -78,6 +78,11 @@ experimental-features-webrtc-global-mute-toggles =
     .label = WebRTC の全ミュート切り替え
 experimental-features-webrtc-global-mute-toggles-description = WebRTC グローバル共有インジケーターで、マイクとカメラの映像のミュートをグローバルに操作できるようになりました。
 
+# Win32k Lockdown
+experimental-features-win32k-lockdown =
+    .label = Win32k ロックダウン
+experimental-features-win32k-lockdown-description = ブラウザータブ内での Win32k API の使用を無効化します。セキュリティが向上しますが、まだ不安定で問題を抱えている可能性があります。 (Windows のみ)
+
 # JS JIT Warp project
 experimental-features-js-warp =
     .label = JavaScript JIT: Warp

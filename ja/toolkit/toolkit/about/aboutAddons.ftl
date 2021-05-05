@@ -11,6 +11,7 @@ search-header =
     .searchbuttonlabel = 検索
 search-header-shortcut =
     .key = f
+list-empty-get-extensions-message = <a data-l10n-name="get-extensions">{ $domain }</a> で拡張機能とテーマを入手しましょう
 list-empty-installed =
     .value = この種類のアドオンはインストールされていません
 list-empty-available-updates =
