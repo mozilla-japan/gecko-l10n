@@ -61,6 +61,10 @@ options-screenshot-label = スクリーンショットの動作
 options-screenshot-clipboard-label = スクリーンショットをクリップボードへコピー
 options-screenshot-clipboard-tooltip =
     .title = スクリーンショットをクリップボードに直接保存します
+
+options-screenshot-clipboard-tooltip2 =
+    .title = スクリーンショットをクリップボードに直接保存します
+
 # Label for the checkbox that toggles the camera shutter audio for screenshot tool
 options-screenshot-audio-label = カメラのシャッター音を再生
 options-screenshot-audio-tooltip =
