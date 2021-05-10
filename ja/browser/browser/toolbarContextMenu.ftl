@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+toolbar-context-menu-new-tab =
+    .label = @@NewTab@@
+    .accesskey = w
 toolbar-context-menu-reload-selected-tab =
     .label = 選択したタブを再読み込み
     .accesskey = R
@@ -57,7 +60,6 @@ toolbar-context-menu-remove-from-toolbar =
 toolbar-context-menu-view-customize-toolbar =
     .label = カスタマイズ...
     .accesskey = C
-
 toolbar-context-menu-view-customize-toolbar-2 =
     .label = ツールバーをカスタマイズ...
     .accesskey = C

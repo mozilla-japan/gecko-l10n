@@ -58,4 +58,4 @@ bookmark-overlay-keyword-2 =
 
 bookmark-overlay-tags-caption-label = タグをブックマークの管理とアドレスバーからの検索に使用する
 
-bookmark-overlay-keyword-caption-label = キーワードをアドレスバーから直接ブックマークを開くのに使用する
+bookmark-overlay-keyword-caption-label-2 = キーワードをアドレスバーから直接ブックマークを開くのに使用する

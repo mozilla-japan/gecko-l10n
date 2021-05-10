@@ -2,12 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 # NOTE: For English locales, strings in this file should be in APA-style Title Case.
 # See https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case
 #
 # NOTE: For Engineers, please don't re-use these strings outside of the menubar.
-
 
 ## Application Menu (macOS only)
 
@@ -342,14 +340,12 @@ menu-help-import-from-another-browser =
 menu-help-keyboard-shortcuts =
     .label = キーボードショートカット
     .accesskey = K
-menu-get-help =
-    .label = ヘルプを表示
-    .accesskey = H
 menu-help-troubleshooting-info =
     .label = トラブルシューティング情報...
     .accesskey = T
-menu-help-taskmanager =
-    .label = タスクマネージャー
+menu-get-help =
+    .label = ヘルプを表示
+    .accesskey = H
 menu-help-more-troubleshooting-info =
     .label = 他のトラブルシューティング情報
     .accesskey = T

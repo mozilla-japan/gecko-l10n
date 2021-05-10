@@ -2,17 +2,20 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## App Menu
-
-appmenuitem-update-banner =
-    .label-update-downloading = { -brand-shorter-name } の更新をダウンロード中
 
 appmenuitem-update-banner2 =
     .label-update-downloading = { -brand-shorter-name } の更新をダウンロード中
     .label-update-available = 更新可能 — 今すぐダウンロード
     .label-update-manual = 更新可能 — 今すぐダウンロード
     .label-update-unsupported = 更新不可
+    .label-update-restart = 更新可能 — 今すぐ再起動
+
+appmenuitem-update-banner3 =
+    .label-update-downloading = { -brand-shorter-name } の更新をダウンロード中
+    .label-update-available = 更新可能 — 今すぐダウンロード
+    .label-update-manual = 更新可能 — 今すぐダウンロード
+    .label-update-unsupported = 更新不可 — システムの互換性なし
     .label-update-restart = 更新可能 — 今すぐ再起動
 
 appmenuitem-protection-dashboard-title = プライバシー保護ダッシュボード
@@ -27,8 +30,6 @@ appmenuitem-new-private-window =
     .label = @@New-CMD@@プライベート@@Window@@
 appmenuitem-passwords =
     .label = パスワード
-appmenuitem-extensions-and-themes =
-    .label = 拡張機能とテーマ
 appmenuitem-addons-and-themes =
     .label = アドオンとテーマ
 appmenuitem-find-in-page =
@@ -162,11 +163,6 @@ appmenu-about =
 appmenu-get-help =
     .label = ヘルプを表示
     .accesskey = H
-appmenu-help-troubleshooting-info =
-    .label = トラブルシューティング情報...
-    .accesskey = T
-appmenu-help-taskmanager =
-    .label = タスクマネージャー
 appmenu-help-more-troubleshooting-info =
     .label = 他のトラブルシューティング情報
     .accesskey = T
@@ -175,16 +171,6 @@ appmenu-help-report-site-issue =
 appmenu-help-feedback-page =
     .label = フィードバックを送信...
     .accesskey = S
-
-## appmenu-help-safe-mode-without-addons and appmenu-help-safe-mode-without-addons
-## are mutually exclusive, so it's possible to use the same accesskey for both.
-
-appmenu-help-safe-mode-without-addons =
-    .label = アドオンを無効にして再起動...
-    .accesskey = R
-appmenu-help-safe-mode-with-addons =
-    .label = アドオンを有効にして再起動
-    .accesskey = R
 
 ## appmenu-help-enter-troubleshoot-mode and appmenu-help-exit-troubleshoot-mode
 ## are mutually exclusive, so it's possible to use the same accesskey for both.

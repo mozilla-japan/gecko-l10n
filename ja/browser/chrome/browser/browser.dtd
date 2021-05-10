@@ -50,12 +50,12 @@ this container is a toolbar. This avoids double-speaking. -->
      for the Firefox Account toolbar menu screen. The `Signed in as` text is
      followed by the user's email. -->
 <!ENTITY fxa.menu.syncSettings2.label		"&syncBrand.shortName.label; の設定">
+<!ENTITY fxa.menu.connectAnotherDevice2.label	"別の端末を接続...">
+<!ENTITY fxa.menu.firefoxAccount		"&syncBrand.fxAccount.label;">
 
 <!-- LOCALIZATION NOTE (fxa.menu) Used to define the different labels
      for the Firefox Account toolbar menu screen. The `Signed in as` text is
      followed by the user's email. -->
-<!ENTITY fxa.menu.connectAnotherDevice2.label	"別の端末を接続...">
-<!ENTITY fxa.menu.firefoxAccount		"&syncBrand.fxAccount.label;">
 <!ENTITY fxa.menu.signin.label			"&brandProductName; にログイン">
 <!ENTITY fxa.menu.turnOnSync.label		"&syncBrand.shortName.label; をオンにする">
 <!ENTITY fxa.menu.firefoxServices.label		"&brandProductName; サービス">

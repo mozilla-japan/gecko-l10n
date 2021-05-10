@@ -32,6 +32,10 @@ appmenu-update-restart =
     .secondarybuttonlabel = 後で
     .secondarybuttonaccesskey = N
 appmenu-update-restart-message = { -brand-shorter-name } の再起動後、開いていたタブとプライベートブラウジングモードでない@@Window@@がすべて復元されます。
+appmenu-addon-private-browsing-installed =
+    .buttonlabel = OK
+    .buttonaccesskey = O
+appmenu-addon-post-install-message = <image data-l10n-name='addon-menu-icon'></image> メニューの <image data-l10n-name='addon-install-icon'></image> をクリックすると、アドオンを管理できます。
 
 appmenu-update-available2 =
     .label = 更新可能
@@ -68,11 +72,6 @@ appmenu-update-other-instance =
     .secondarybuttonlabel = 後で
     .secondarybuttonaccesskey = N
 appmenu-update-other-instance-message = { -brand-shorter-name } の更新がありますが、他のプロファイルの { -brand-shorter-name } が実行中のため、インストールできません。そちらを閉じて更新するか、とにかく更新するか選択してください。(他のプロファイルのものは、再起動するまで正常に動作しません)
-
-appmenu-addon-private-browsing-installed =
-    .buttonlabel = OK
-    .buttonaccesskey = O
-appmenu-addon-post-install-message = <image data-l10n-name='addon-menu-icon'></image> メニューの <image data-l10n-name='addon-install-icon'></image> をクリックすると、アドオンを管理できます。
 
 appmenu-addon-private-browsing-installed2 =
     .buttonlabel = OK

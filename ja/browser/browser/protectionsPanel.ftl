@@ -81,6 +81,12 @@ protections-panel-cryptominers = 暗号通貨マイニングは仮想通貨の�
 protections-panel-fingerprinters = フィンガープリント採取はブラウザーとコンピューターから設定を集め、あなたのデジタル指紋を作成します。このデジタル指紋を使うと、様々なウェブサイトに渡ってあなたを追跡することができます。
 protections-panel-tracking-content = ウェブサイトはトラッキングコード付きの広告、動画、その他のコンテンツを外部から読み込む場合があります。トラッキングコンテンツをブロックするとサイトの読み込みが速くなる可能性がありますが、一部のボタン、フォーム、ログインフォームが動作しなくなる可能性もあります。
 protections-panel-social-media-trackers = ソーシャルネットワークはオンラインでのあなたの行動を追跡、監視するために、他のウェブサイトにトラッカーを設置しています。これはソーシャルメディア上のあなたのプロフィールで共有している以上の情報を、ソーシャルメディア会社に許容することになります。
+
+protections-panel-description-shim-allowed = 以下にマークされている一部のトラッカーが、あなたの操作によりこのページで部分的にブロックが解除されています。
+protections-panel-description-shim-allowed-learn-more = 詳細情報
+protections-panel-shim-allowed-indicator =
+  .tooltiptext = トラッカーが部分的にブロック解除されました
+
 protections-panel-content-blocking-manage-settings =
     .label = 保護設定を管理
     .accesskey = M
