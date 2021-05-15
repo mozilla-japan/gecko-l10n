@@ -270,8 +270,6 @@ cfr-whatsnew-better-pdf-body = ワークフローから外れないように、P
 
 cfr-doorhanger-doh-body = プライバシーは重要です。{ -brand-short-name } はあなたのブラウジングを保護するため、パートナーサービスが対応するときは常に DNS 要求を安全にお届けします。
 cfr-doorhanger-doh-header = 暗号化 DNS でより安全に
-cfr-doorhanger-doh-primary-button = OK、有効にする
-  .accesskey = O
 cfr-doorhanger-doh-primary-button-2 = OK
   .accesskey = O
 cfr-doorhanger-doh-secondary-button = 無効にする

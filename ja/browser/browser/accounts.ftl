@@ -12,4 +12,4 @@ account-reconnect-to-fxa = ログアウト済み
 
 # Used as the FxA toolbar menu item title when the user
 # needs to reconnect their account.
-account-disconnected = ログアウトしました
+account-disconnected2 = ログアウトしました

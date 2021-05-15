@@ -224,7 +224,6 @@ onboarding-welcome-steps-indicator =
 # automatically added to the text inside it. "look" should stay inside the span.
 onboarding-multistage-theme-header = <span data-l10n-name="zap">テーマ</span>を選択してください
 onboarding-multistage-theme-subtitle = テーマで { -brand-short-name } をパーソナライズできます
-onboarding-multistage-theme-primary-button-label = テーマを保存
 onboarding-multistage-theme-primary-button-label2 = 完了
 onboarding-multistage-theme-secondary-button-label = 後で
 
@@ -272,3 +271,89 @@ onboarding-multistage-theme-tooltip-alpenglow-2 =
 # Input description for Alpenglow theme
 onboarding-multistage-theme-description-alpenglow =
     .aria-description = カラフルな外観のボタン、メニュー、@@Window@@を使用します
+
+## Multistage MR1 onboarding strings (MR1 about:welcome pages)
+
+# "Hero Text" displayed on left side of welcome screen.
+# The "Fire" in "Fire starts here" plays on the "Fire" in "Firefox".
+# It also signals the passion users bring to Firefox, how they use
+# Firefox to pursue those passions, as well as the boldness in their
+# choice to use Firefox over a larger competitor browser.
+# An alternative title for localization is: "It starts here".
+# This text can be formatted to span multiple lines as needed.
+mr1-welcome-screen-hero-text =
+  Fire starts
+  here
+
+# This button will open system settings to turn on prefers-reduced-motion
+mr1-onboarding-reduce-motion-button-label = アニメーションをオフにする
+
+mr1-onboarding-welcome-header = { -brand-short-name } にようこそ
+mr1-onboarding-set-default-pin-primary-button-label = { -brand-short-name } を優先ブラウザーに設定する
+    .title = { -brand-short-name } を@@DefaultBrowser@@に設定して、タスクバーにピン留めしましょう
+
+mr1-onboarding-set-default-only-primary-button-label = { -brand-short-name } を@@DefaultBrowser@@に設定する
+mr1-onboarding-set-default-secondary-button-label = 後で
+mr1-onboarding-sign-in-button-label = ログイン
+
+mr1-onboarding-import-header = すべて持ってこれます
+mr1-onboarding-import-subtitle = パスワードやブックマークなどを<br/>@@Import-deki@@ます。
+
+# The primary import button label will depend on whether we can detect which browser was used to download Firefox.
+# Variables:
+#   $previous (Str) - Previous browser name, such as Edge, Chrome
+mr1-onboarding-import-primary-button-label-attribution = { $previous } から@@Import@@
+
+# This string will be used in cases where we can't detect the previous browser name.
+mr1-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーから@@Import@@
+mr1-onboarding-import-secondary-button-label = 後で
+
+mr1-onboarding-theme-header = 自分らしく
+mr1-onboarding-theme-subtitle = テーマで { -brand-short-name } をパーソナライズできます。
+mr1-onboarding-theme-primary-button-label = テーマを保存
+mr1-onboarding-theme-secondary-button-label = 後で
+
+# System theme uses operating system color settings
+mr1-onboarding-theme-label-system = システムテーマ
+
+mr1-onboarding-theme-label-light = Light
+mr1-onboarding-theme-label-dark = Dark
+# "Alpenglow" here is the name of the theme, and should be kept in English.
+mr1-onboarding-theme-label-alpenglow = Alpenglow
+
+## Please make sure to split the content of the title attribute into lines whose
+## width corresponds to about 40 Latin characters, to ensure that the tooltip
+## doesn't become too long. Line breaks will be preserved when displaying the
+## tooltip.
+
+# Tooltip displayed on hover of system theme
+mr1-onboarding-theme-tooltip-system =
+  .title = OS のボタン、メニュー、@@Window@@の外観です。
+
+# Input description for system theme
+mr1-onboarding-theme-description-system =
+  .aria-description = OS のボタン、メニュー、@@Window@@の外観です。
+
+# Tooltip displayed on hover of light theme
+mr1-onboarding-theme-tooltip-light =
+  .title = 明るい外観のボタン、メニュー、@@Window@@を使用します。
+
+# Input description for light theme
+mr1-onboarding-theme-description-light =
+  .aria-description = 明るい外観のボタン、メニュー、@@Window@@を使用します。
+
+# Tooltip displayed on hover of dark theme
+mr1-onboarding-theme-tooltip-dark =
+  .title = 暗い外観のボタン、メニュー、@@Window@@を使用します。
+
+# Input description for dark theme
+mr1-onboarding-theme-description-dark =
+  .aria-description = 暗い外観のボタン、メニュー、@@Window@@を使用します。
+
+# Tooltip displayed on hover of Alpenglow theme
+mr1-onboarding-theme-tooltip-alpenglow =
+  .title = ダイナミックでカラフルな外観のボタン、メニュー、@@Window@@を使用します。
+
+# Input description for Alpenglow theme
+mr1-onboarding-theme-description-alpenglow =
+  .aria-description = ダイナミックでカラフルな外観のボタン、メニュー、@@Window@@を使用します。

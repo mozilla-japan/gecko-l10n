@@ -11,11 +11,15 @@
 
 policy-3rdparty = WebExtension が chrome.storage.managed を経由してアクセス可能なポリシーを設定します。
 
+policy-AllowedDomainsForApps = Google Workspace へのアクセスを許可するドメインを定義します。
+
 policy-AppAutoUpdate = アプリケーションの自動更新を有効または無効にします。
 
 policy-AppUpdateURL = アプリケーションのカスタム更新 URL を設定します。
 
 policy-Authentication = ウェブサイトが対応する統合認証の設定を行います。
+
+policy-AutoLaunchProtocolsFromOrigins = ユーザーに確認せずに、列挙された生成元から利用できる外部プロトコルのリストを定義します。
 
 policy-BackgroundAppUpdate2 = バックグラウンド更新を有効または無効にします。
 

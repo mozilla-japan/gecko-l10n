@@ -1245,14 +1245,18 @@ content-blocking-etp-standard-desc = 保護と性能をバランスよく。ペ�
 content-blocking-etp-strict-desc = より強固な保護ですが、一部のサイトやコンテンツが機能しなくなる可能性があります。
 content-blocking-etp-custom-desc = ブロックするトラッカーとスクリプトを選択します。
 
-content-blocking-private-windows = トラッキングコンテンツ (プライベート@@Window@@のみ)
+content-blocking-etp-blocking-desc = { -brand-short-name } は以下のものをブロックします:
+
+content-blocking-private-windows = プライベート@@Window@@のトラッキングコンテンツ
 content-blocking-cross-site-cookies = クロスサイト Cookie
+content-blocking-cross-site-cookies-in-all-windows = すべての@@Window@@のクロスサイト Cookie (トラッキング Cookie 含む)
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
+content-blocking-all-cross-site-cookies-private-windows = プライベート@@Window@@のクロスサイト Cookie
 content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残存 Cookie の隔離
 content-blocking-social-media-trackers = ソーシャルメディアトラッカー
 content-blocking-all-cookies = すべての Cookie
 content-blocking-unvisited-cookies = 未訪問のサイトの Cookie
-content-blocking-all-windows-tracking-content = トラッキングコンテンツ (すべての@@Window@@)
+content-blocking-all-windows-tracking-content = すべての@@Window@@のトラッキングコンテンツ
 content-blocking-all-third-party-cookies = サードパーティ Cookie すべて
 content-blocking-cryptominers = 暗号通貨マイニング
 content-blocking-fingerprinters = フィンガープリント採取
@@ -1395,6 +1399,9 @@ collection-backlogged-crash-reports =
     .label = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する
     .accesskey = c
 collection-backlogged-crash-reports-link = 詳細情報
+
+collection-backlogged-crash-reports-with-link = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する <a data-l10n-name="crash-reports-link">詳細情報</a>
+    .accesskey = c
 
 ## Privacy Section - Security
 ##

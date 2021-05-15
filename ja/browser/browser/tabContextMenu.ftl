@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+tab-context-new-tab =
+    .label = @@NewTab@@
+    .accesskey = w
 reload-tab =
     .label = タブを再読み込み
     .accesskey = R
@@ -66,16 +69,6 @@ move-to-new-window =
 tab-context-close-multiple-tabs =
     .label = 複数のタブを閉じる
     .accesskey = M
-
-tab-context-share-url =
-    .label = 共有
-    .accesskey = h
-tab-context-share-more =
-    .label = その他...
-
-## Variables:
-##  $tabCount (Number): the number of tabs that are affected by the action.
-
 tab-context-undo-close-tabs =
     .label = 閉じたタブを元に戻す
     .accesskey = U
@@ -91,6 +84,14 @@ move-tabs =
 move-tab =
     .label = タブを移動
     .accesskey = v
+tab-context-share-url =
+    .label = 共有
+    .accesskey = h
+tab-context-share-more =
+    .label = その他...
+
+## Variables:
+##  $tabCount (Number): the number of tabs that are affected by the action.
 
 tab-context-reopen-closed-tabs =
     .label = 閉じたタブを開きなおす
