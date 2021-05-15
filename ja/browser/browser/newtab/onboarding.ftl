@@ -289,12 +289,10 @@ mr1-welcome-screen-hero-text =
 mr1-onboarding-reduce-motion-button-label = アニメーションをオフにする
 
 mr1-onboarding-welcome-header = { -brand-short-name } にようこそ
-mr1-onboarding-set-default-pin-primary-button-label =
-  { -brand-short-name } を優先ブラウザーに設定する
+mr1-onboarding-set-default-pin-primary-button-label = { -brand-short-name } を優先ブラウザーに設定する
     .title = { -brand-short-name } を@@DefaultBrowser@@に設定して、タスクバーにピン留めしましょう
 
-mr1-onboarding-set-default-only-primary-button-label =
-  { -brand-short-name } を@@DefaultBrowser@@に設定する
+mr1-onboarding-set-default-only-primary-button-label = { -brand-short-name } を@@DefaultBrowser@@に設定する
 mr1-onboarding-set-default-secondary-button-label = 後で
 mr1-onboarding-sign-in-button-label = ログイン
 

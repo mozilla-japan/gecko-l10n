@@ -19,7 +19,7 @@ policy-AppUpdateURL = アプリケーションのカスタム更新 URL を設�
 
 policy-Authentication = ウェブサイトが対応する統合認証の設定を行います。
 
-policy-AutoLaunchProtocolsFromOrigins = ユーザーに確認せずに、列挙されたオリジンから利用できる外部プロトコルのリストを定義します。
+policy-AutoLaunchProtocolsFromOrigins = ユーザーに確認せずに、列挙された生成元から利用できる外部プロトコルのリストを定義します。
 
 policy-BackgroundAppUpdate2 = バックグラウンド更新を有効または無効にします。
 

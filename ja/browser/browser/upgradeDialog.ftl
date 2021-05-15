@@ -7,15 +7,14 @@
 ## New changes screen
 
 # This title can be explicitly wrapped to control which words are on which line.
-upgrade-dialog-new-title =
-    新しい { -brand-short-name } をどうぞよろしく
+upgrade-dialog-new-title = 新しい { -brand-short-name } をどうぞよろしく
 upgrade-dialog-new-subtitle = より速くあなたの行きたいところへ行けるようデザインされました。
 upgrade-dialog-new-item-menu-title = 一新されたツールバーとメニュー
 upgrade-dialog-new-item-menu-description = 重要なものに優先順位をつけて、必要なものがすぐに見つかるようになりました。
 upgrade-dialog-new-item-tabs-title = モダンなタブ
 upgrade-dialog-new-item-tabs-description = 情報を適切に収めて、柔軟な動作をサポートし、操作に集中できます。
 upgrade-dialog-new-item-icons-title = 新しいアイコンと明瞭なメッセージ
-upgrade-dialog-new-item-icons-description = 使いやすい明るいタッチになりました。
+upgrade-dialog-new-item-icons-description = 明るいタッチで使いやすくなりました。
 upgrade-dialog-new-primary-primary-button = { -brand-short-name } を優先ブラウザーに設定
     .title = { -brand-short-name } を@@DefaultBrowser@@に設定して、タスクバーにピン留めしましょう
 upgrade-dialog-new-primary-default-button = { -brand-short-name } を@@DefaultBrowser@@に設定

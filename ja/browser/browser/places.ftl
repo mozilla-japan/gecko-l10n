@@ -100,7 +100,7 @@ places-edit-generic =
     .accesskey = i
 
 places-edit-folder =
-  .label = フォルダーの名前を変更...
+  .label = フォルダー名を変更...
   .accesskey = e
 places-remove-folder =
   .label = フォルダーを削除
