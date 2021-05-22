@@ -12,6 +12,7 @@ preferences-title =
         }
 preferences-tab-title =
     .title = 設定
+preferences-doc-title = 設定
 category-list =
     .aria-label = カテゴリー
 pane-general-title = 一般
@@ -91,8 +92,8 @@ update-in-progress-ok-button = 破棄(&D)
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = 続行(&C)
-account-button = アカウント設定
 addons-button = 拡張機能とテーマ
+account-button = アカウント設定
 open-addons-sidebar-button = アドオンとテーマ
 
 ## OS Authentication dialog
@@ -330,12 +331,10 @@ quoted-text-color =
     .accesskey = o
 search-input =
     .placeholder = 検索
-type-column-label =
-    .label = ファイルの種類
-    .accesskey = T
-action-column-label =
-    .label = 動作設定
-    .accesskey = A
+search-handler-table =
+    .placeholder = ファイルの種類と動作設定の絞り込み
+type-column-label = ファイルの種類
+action-column-label = 動作設定
 save-to-label =
     .label = 次のフォルダーに保存する:
     .accesskey = S
@@ -576,7 +575,7 @@ junk-label =
     .label = 迷惑メールであると手動でマークしたときに次の処理を実行する:
     .accesskey = W
 junk-move-label =
-    .label = "迷惑メール" フォルダーへ移動する
+    .label = “迷惑メール” フォルダーへ移動する
     .accesskey = o
 junk-delete-label =
     .label = メッセージを削除する
