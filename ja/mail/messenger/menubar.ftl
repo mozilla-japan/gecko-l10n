@@ -45,3 +45,18 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = 削除を@@Undo@@
     .tooltiptext = メッセージの削除を@@Undo-simasu@@
+
+## View / Layout
+
+mail-uidensity-label =
+    .label = UI 密度
+    .accesskey = D
+mail-uidensity-compact =
+    .label = コンパクト
+    .accesskey = C
+mail-uidensity-normal =
+    .label = 通常
+    .accesskey = N
+mail-uidensity-touch =
+    .label = タッチ
+    .accesskey = T

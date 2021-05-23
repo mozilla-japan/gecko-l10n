@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Addressing widget
+## Addressing widget
 
 #   $type (String) - the type of the addressing row
 remove-address-row-type = { $type } フィールドを削除
@@ -39,7 +39,7 @@ pill-action-move-bcc =
     .label = Bcc へ移動
     .accesskey = B
 
-# Attachment widget
+## Attachment widget
 
 ctrl-cmd-shift-pretty-prefix = {
   PLATFORM() ->
@@ -81,7 +81,7 @@ collapse-attachment-pane-tooltip =
 drop-file-label-attachment = 添付に追加する
 drop-file-label-inline = インラインに挿入する
 
-# Reorder Attachment Panel
+## Reorder Attachment Panel
 
 move-attachment-first-panel-button =
     .label = 先頭へ移動
@@ -91,7 +91,49 @@ move-attachment-right-panel-button =
     .label = 右へ移動
 move-attachment-last-panel-button =
     .label = 末尾へ移動
-
 button-return-receipt =
     .label = 開封確認
     .tooltiptext = このメッセージの開封確認の返送を求めます
+#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
+consider-bcc-notification = 宛先および Cc フィールドの {$count} 件の受信者は互いにアドレスを知ることができます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+
+## Addressing Area
+
+to-compose-address-row-label =
+    .value = 宛先
+#   $key (String) - the shortcut key for this field
+to-compose-show-address-row-menuitem =
+    .label = { to-compose-address-row-label.value } フィールド
+    .accesskey = T
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+to-compose-show-address-row-label =
+    .value = { to-compose-address-row-label.value }
+    .tooltiptext = { to-compose-address-row-label.value } フィールドを表示します ({ to-compose-show-address-row-menuitem.acceltext })
+cc-compose-address-row-label =
+    .value = Cc
+#   $key (String) - the shortcut key for this field
+cc-compose-show-address-row-menuitem =
+    .label = { cc-compose-address-row-label.value } フィールド
+    .accesskey = C
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+cc-compose-show-address-row-label =
+    .value = { cc-compose-address-row-label.value }
+    .tooltiptext = { cc-compose-address-row-label.value } フィールドを表示します ({ cc-compose-show-address-row-menuitem.acceltext })
+bcc-compose-address-row-label =
+    .value = Bcc
+#   $key (String) - the shortcut key for this field
+bcc-compose-show-address-row-menuitem =
+    .label = { bcc-compose-address-row-label.value } フィールド
+    .accesskey = B
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+bcc-compose-show-address-row-label =
+    .value = { bcc-compose-address-row-label.value }
+    .tooltiptext = { bcc-compose-address-row-label.value } フィールドを表示します ({ bcc-compose-show-address-row-menuitem.acceltext })
+#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
+many-public-recipients-info = 宛先および Cc フィールドの {$count} 件の受信者は互いのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+many-public-recipients-bcc =
+    .label = 代わりに Bcc を使用する
+    .accesskey = U
+many-public-recipients-ignore =
+    .label = 受信者を開示したままにする
+    .accesskey  = K

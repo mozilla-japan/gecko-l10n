@@ -65,3 +65,27 @@ appmenu-help-exit-troubleshoot-mode =
     .label = トラブルシューティングモードをオフにする
 appmenu-help-more-troubleshooting-info =
     .label = トラブルシューティング情報
+
+## Action Button Context Menu
+
+toolbar-context-menu-manage-extension =
+    .label = 拡張機能の管理
+    .accesskey = E
+toolbar-context-menu-remove-extension =
+    .label = 拡張機能を削除
+    .accesskey = v
+
+## Message headers
+
+message-header-address-in-address-book-icon =
+    .alt = このアドレスはアドレス帳に登録されています
+message-header-address-not-in-address-book-icon =
+    .alt = このアドレスはアドレス帳に登録されていません
+
+## Add-on removal warning
+
+# Variables:
+#  $name (String): The name of the addon that will be removed.
+addon-removal-title = { $name } を削除しますか？
+addon-removal-confirmation-button = 削除
+addon-removal-confirmation-message = { $name } とその設定およびデータを { -brand-short-name } から削除しますか？

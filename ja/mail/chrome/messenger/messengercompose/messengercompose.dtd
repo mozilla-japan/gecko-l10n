@@ -213,7 +213,7 @@
 <!--  Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.key		"m">
 <!ENTITY minimizeWindow.label		"@@Minimize@@">
-<!ENTITY bringAllToFront.label		"@@BringAllToFront@@">
+<!ENTITY bringAllToFront.label		"すべてを@@Front@@に移動">
 <!ENTITY zoomWindow.label		"@@Zoom@@">
 <!ENTITY windowMenu.label		"@@Window@@">
 
