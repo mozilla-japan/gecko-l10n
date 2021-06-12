@@ -2,14 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## App Menu
 
-appmenuitem-update-banner2 =
-    .label-update-downloading = { -brand-shorter-name } の更新をダウンロード中
-    .label-update-available = 更新可能 — 今すぐダウンロード
-    .label-update-manual = 更新可能 — 今すぐダウンロード
-    .label-update-unsupported = 更新不可
-    .label-update-restart = 更新可能 — 今すぐ再起動
+## App Menu
 
 appmenuitem-update-banner3 =
     .label-update-downloading = { -brand-shorter-name } の更新をダウンロード中
@@ -17,13 +11,14 @@ appmenuitem-update-banner3 =
     .label-update-manual = 更新可能 — 今すぐダウンロード
     .label-update-unsupported = 更新不可 — システムの互換性なし
     .label-update-restart = 更新可能 — 今すぐ再起動
-
 appmenuitem-protection-dashboard-title = プライバシー保護ダッシュボード
 appmenuitem-customize-mode =
     .label = カスタマイズ...
 
 ## Zoom Controls
 
+appmenuitem-new-tab =
+    .label = @@New-CMD@@タブ
 appmenuitem-new-window =
     .label = @@NewWindow@@
 appmenuitem-new-private-window =
@@ -36,15 +31,6 @@ appmenuitem-find-in-page =
     .label = このページを検索...
 appmenuitem-more-tools =
     .label = その他のツール
-appmenuitem-exit =
-    .label = 終了
-appmenu-menu-button-closed =
-    .tooltiptext = アプリケーションメニューを開きます
-    .label = { -brand-shorter-name }
-appmenu-menu-button-opened =
-    .tooltiptext = アプリケーションメニューを閉じます
-    .label = { -brand-shorter-name }
-
 appmenuitem-exit2 =
     .label = 終了
 appmenu-menu-button-closed2 =
@@ -53,7 +39,6 @@ appmenu-menu-button-closed2 =
 appmenu-menu-button-opened2 =
     .tooltiptext = アプリケーションメニューを閉じます
     .label = { -brand-short-name }
-
 # Settings is now used to access the browser settings across all platforms,
 # instead of Options or Preferences.
 appmenuitem-settings =
@@ -72,24 +57,18 @@ appmenuitem-fullscreen =
 
 fxa-toolbar-sync-now =
     .label = 今すぐ同期
-
 appmenu-remote-tabs-sign-into-sync =
-  .label = ログインして同期...
+    .label = ログインして同期...
 appmenu-remote-tabs-turn-on-sync =
-  .label = 同期をオンにする...
-
+    .label = 同期をオンにする...
 appmenuitem-fxa-toolbar-sync-now2 = 今すぐ同期
 appmenuitem-fxa-manage-account = アカウントを管理
-appmenu-fxa-header =
-    .title = { -fxaccount-brand-name }
 appmenu-fxa-header2 = { -fxaccount-brand-name }
 # Variables
 # $time (string) - Localized relative time since last sync (e.g. 1 second ago,
 # 3 hours ago, etc.)
 appmenu-fxa-last-sync = 最終同期: { $time }
     .label = 最終同期: { $time }
-appmenu-fxa-sync-and-save-data =
-    .value = 同期してデータを保存
 appmenu-fxa-sync-and-save-data2 = 同期してデータを保存
 appmenu-fxa-signed-in-label = ログイン
 appmenu-fxa-setup-sync =
@@ -152,6 +131,15 @@ appmenu-manage-history =
     .label = 履歴を管理
 appmenu-reopen-all-tabs = タブをすべて開きなおす
 appmenu-reopen-all-windows = @@Window@@をすべて開きなおす
+appmenu-restore-session =
+    .label = 以前のセッションを復元
+appmenu-clear-history =
+    .label = 最近の履歴を消去...
+appmenu-recent-history-subheader = 最近の履歴
+appmenu-recently-closed-tabs =
+    .label = 最近閉じたタブ
+appmenu-recently-closed-windows =
+    .label = 最近閉じた@@Window@@
 
 ## Help panel
 
@@ -199,3 +187,5 @@ appmenu-customizetoolbar =
 appmenu-taskmanager =
     .label = タスクマネージャー
 appmenu-developer-tools-subheader = ブラウザーツール
+appmenu-developer-tools-extensions =
+    .label = 開発者用拡張機能
