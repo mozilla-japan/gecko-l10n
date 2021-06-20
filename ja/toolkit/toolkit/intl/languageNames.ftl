@@ -161,6 +161,7 @@ language-name-ru = ロシア語
 language-name-rw = キンヤルワンダ語
 language-name-sa = サンスクリット語
 language-name-sc = サルデーニャ語
+language-name-sco = スコットランド語
 language-name-sd = シンド語
 language-name-se = サミ語
 language-name-sg = サンゴ語

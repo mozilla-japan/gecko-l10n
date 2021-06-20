@@ -316,6 +316,7 @@ can-sandbox-content = コンテンツプロセスのサンドボックス化
 can-sandbox-media = メディアプラグインのサンドボックス化
 content-sandbox-level = コンテンツプロセスのサンドボックスレベル
 effective-content-sandbox-level = 効果的なコンテンツプロセスのサンドボックスレベル
+content-win32k-lockdown-state = コンテンツプロセスの Win32k ロックダウン状態
 sandbox-proc-type-content = コンテンツ
 sandbox-proc-type-file = ファイルコンテンツ
 sandbox-proc-type-media-plugin = メディアプラグイン
