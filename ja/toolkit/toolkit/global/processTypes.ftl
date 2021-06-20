@@ -2,7 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+##
+## Localization for remote types defined in RemoteType.h
+##
+
 process-type-web = ウェブコンテンツ
+
+process-type-browser = メイン
 
 # process used to run privileged about pages,
 # such as about:home
@@ -25,6 +31,16 @@ process-type-weblargeallocation = 大きなサイズの割り当て
 # to improve security
 process-type-webisolated = 隔離されたウェブコンテンツ
 
+# process preallocated; may change to other types
+process-type-prealloc = 事前割り当て
+
+##
+## Localization for Gecko process types defined in GeckoProcessTypes.h
+##
+
+process-type-default = メイン
+process-type-tab = タブ
+
 # process used to communicate with the GPU for
 # graphics acceleration
 process-type-gpu = GPU
@@ -32,5 +48,12 @@ process-type-gpu = GPU
 # process used to perform network operations
 process-type-socket = ソケット
 
-# process preallocated; may change to other types
-process-type-prealloc = 割り当て済み
+# process used to decode media
+process-type-rdd = RDD
+
+##
+## Other
+##
+
+# fallback
+process-type-unknown = 不明

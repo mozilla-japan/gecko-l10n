@@ -20,6 +20,12 @@ experimental-features-media-avif =
     .label = メディア: AVIF
 experimental-features-media-avif-description = この機能を有効にすると、{ -brand-short-name } が AV1 Image File (AVIF) 形式をサポートします。これは、AV1 動画圧縮アルゴリズムを利用して画像サイズを削減した静止画像のファイル形式です。詳細は <a data-l10n-name="bugzilla">bug 1443863</a> を参照してください。
 
+ # The title of the experiment should be kept in English as it may be referenced
+ # by various online articles and is technical in nature.
+experimental-features-media-jxl =
+    .label = メディア: JPEG XL
+experimental-features-media-jxl-description = この機能を有効にすると、{ -brand-short-name } が JPEG XL (JXL) 形式をサポートします。これは、従来の JPEG ファイルにロスレス変形等のサポートが追加された画像ファイル形式です。
+
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
 experimental-features-web-api-inputmode =
