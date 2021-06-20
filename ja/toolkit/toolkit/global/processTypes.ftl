@@ -38,7 +38,7 @@ process-type-prealloc = 事前割り当て
 ## Localization for Gecko process types defined in GeckoProcessTypes.h
 ##
 
-process-type-default = Main
+process-type-default = メイン
 process-type-tab = タブ
 
 # process used to communicate with the GPU for
