@@ -70,8 +70,6 @@ about-logins-list-item-vulnerable-password-icon =
 
 login-intro-heading = 保存したログイン情報をお探しですか？ { -sync-brand-short-name } を設定しましょう。
 
-about-logins-login-intro-heading-logged-out = 保存したログイン情報をお探しですか？ { -sync-brand-short-name } を設定するか、@@Import-si@@ましょう。
-
 about-logins-login-intro-heading-logged-out2 = 保存したログイン情報をお探しですか？ 同期をオンにするか、@@Import-si@@ましょう。
 about-logins-login-intro-heading-logged-in = 同期したログイン情報はありません。
 login-intro-description = 別の端末の { -brand-product-name } に保存したログイン情報は、以下の手順で取得できます:
@@ -314,7 +312,6 @@ about-logins-import-dialog-error-unable-to-read-title = ファイルを解析で
 about-logins-import-dialog-error-unable-to-read-description = CSV ファイルまたは TSV ファイルの内容を確認してください。
 about-logins-import-dialog-error-no-logins-imported = ログイン情報は@@Import-sare@@ませんでした
 about-logins-import-dialog-error-learn-more = 詳細
-about-logins-import-dialog-error-try-again = 再試行...
 about-logins-import-dialog-error-try-import-again = @@ImportNoun@@を再試行...
 about-logins-import-dialog-error-cancel = キャンセル
 

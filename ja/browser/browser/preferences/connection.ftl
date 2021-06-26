@@ -39,6 +39,10 @@ connection-proxy-http-sharing =
     .label = このプロキシーを FTP と HTTPS でも使用する
     .accesskey = s
 
+connection-proxy-https-sharing =
+    .label = このプロキシーを HTTPS でも使用する
+    .accesskey = s
+
 connection-proxy-https = HTTPS プロキシー
     .accesskey = H
 connection-proxy-ssl-port = ポート

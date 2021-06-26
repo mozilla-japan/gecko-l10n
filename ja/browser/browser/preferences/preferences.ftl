@@ -79,8 +79,6 @@ category-experimental =
     .tooltiptext = 実験的な機能
 pane-experimental-subtitle = 注意して進んでください
 pane-experimental-search-results-header = 実験的な機能: 注意して進んでください
-pane-experimental-description = 高度な設定を変更すると、{ -brand-short-name } の性能と安全性に影響を及ぼす可能性があります。
-
 pane-experimental-description2 = 高度な設定を変更すると、{ -brand-short-name } の性能と安全性に影響を及ぼす可能性があります。
 
 pane-experimental-reset =
@@ -224,6 +222,10 @@ warn-on-open-many-tabs =
 
 switch-links-to-new-tabs =
     .label = リンクを@@NewTab@@で開いたとき、すぐにそのタブに切り替える
+    .accesskey = h
+
+switch-to-new-tabs =
+    .label = リンク、画像、メディアを@@NewTab@@で開いたとき、すぐにそのタブに切り替える
     .accesskey = h
 
 show-tabs-in-taskbar =
@@ -1248,7 +1250,6 @@ content-blocking-etp-custom-desc = ブロックするトラッカーとスクリ
 content-blocking-etp-blocking-desc = { -brand-short-name } は以下のものをブロックします:
 
 content-blocking-private-windows = プライベート@@Window@@のトラッキングコンテンツ
-content-blocking-cross-site-cookies = クロスサイト Cookie
 content-blocking-cross-site-cookies-in-all-windows = すべての@@Window@@のクロスサイト Cookie (トラッキング Cookie 含む)
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
 content-blocking-all-cross-site-cookies-private-windows = プライベート@@Window@@のクロスサイト Cookie

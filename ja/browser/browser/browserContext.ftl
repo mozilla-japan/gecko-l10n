@@ -399,10 +399,6 @@ main-context-menu-suggest-strong-password =
     .label = 安全なパスワードを生成...
     .accesskey = S
 
-main-context-menu-manage-logins =
-    .label = ログイン情報を管理...
-    .accesskey = M
-
 main-context-menu-manage-logins2 =
     .label = ログイン情報を管理
     .accesskey = M
@@ -453,6 +449,10 @@ main-context-menu-view-selection-source =
 main-context-menu-take-screenshot =
     .label = スクリーンショットを撮影
     .accesskey = T
+
+main-context-menu-take-frame-screenshot =
+    .label = スクリーンショットを撮影
+    .accesskey = o
 
 main-context-menu-view-page-source =
     .label = ページのソースを表示

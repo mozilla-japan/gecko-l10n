@@ -2,19 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ### Pocket button panel strings for about:pocket-saved, about:pocket-signup, and about:pocket-home
-
 
 ## about:pocket-saved panel
 
 # Placeholder text for tag input
 pocket-panel-saved-add-tags =
     .placeholder = タグを追加
+
 pocket-panel-saved-error-generic = { -pocket-brand-name } への保存中にエラーがありました。
 pocket-panel-saved-error-tag-length = タグは 25 文字までです
 pocket-panel-saved-error-only-links = リンクのみ保存しました
 pocket-panel-saved-error-not-saved = ページを保存しませんでした
+pocket-panel-saved-error-no-internet = { -pocket-brand-name } に保存するにはインターネット接続が必要です。インターネットに接続してから試してください。
 pocket-panel-saved-page-removed = ページを削除しました
 pocket-panel-saved-page-saved = { -pocket-brand-name } に保存しました
 pocket-panel-saved-processing-remove = ページを削除しています...

@@ -5,10 +5,10 @@
 places-open =
     .label = 開く
     .accesskey = O
-places-open-in-tab =
+places-open-tab =
     .label = @@NewTab@@で開く
     .accesskey = w
-places-open-tab =
+places-open-in-tab =
     .label = @@NewTab@@で開く
     .accesskey = w
 places-open-all-bookmarks =
@@ -20,14 +20,7 @@ places-open-all-in-tabs =
 places-open-window =
     .label = @@NewWindow@@で開く
     .accesskey = N
-places-open-in-window =
-    .label = @@NewWindow@@で開く
-    .accesskey = N
 places-open-private-window =
-    .label = @@New-CMD@@プライベート@@Window@@で開く
-    .accesskey = P
-
-places-open-in-private-window =
     .label = @@New-CMD@@プライベート@@Window@@で開く
     .accesskey = P
 
@@ -43,6 +36,13 @@ places-new-folder =
 places-new-separator =
     .label = @@New-CMD@@区切り
     .accesskey = S
+
+places-open-in-window =
+    .label = @@NewWindow@@で開く
+    .accesskey = N
+places-open-in-private-window =
+    .label = @@New-CMD@@プライベート@@Window@@で開く
+    .accesskey = P
 
 places-add-bookmark =
     .label = ブックマークを追加...
@@ -98,7 +98,6 @@ places-edit-bookmark =
 places-edit-generic =
     .label = 編集...
     .accesskey = i
-
 places-edit-folder =
   .label = フォルダー名を変更...
   .accesskey = e

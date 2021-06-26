@@ -1145,4 +1145,5 @@ mail, calendar, chat    14411:121b65d2d225   2021-05-18     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            14468:a15ac5aff252   2021-06-10     mar             sync dom, toolkit
+browser                 14477:d03274d1d325   2021-06-22     hATrayflood     sync browser
 
