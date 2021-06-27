@@ -62,6 +62,8 @@ options-screenshot-clipboard-label = スクリーンショットをクリップ�
 options-screenshot-clipboard-tooltip =
     .title = スクリーンショットをクリップボードに直接保存します
 
+# Label for the checkbox that toggles screenshot to clipboard feature
+options-screenshot-clipboard-only-label = スクリーンショットをクリップボードだけにコピー
 options-screenshot-clipboard-tooltip2 =
     .title = スクリーンショットをクリップボードに直接保存します
 

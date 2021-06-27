@@ -285,16 +285,54 @@ mr1-welcome-screen-hero-text =
   Fire starts
   here
 
+# Caption for background image in about:welcome. "Soraya Osorio" is the name
+# of the person and shouldn't be translated.
+# In case your language needs to adapt the nouns to a gender, Soraya is a female name (she/her).
+# You can see the picture in about:welcome in Nightly 90.
+mr1-onboarding-welcome-image-caption = Soraya Osorio — 家具デザイナー、Firefox ファン
+
 # This button will open system settings to turn on prefers-reduced-motion
 mr1-onboarding-reduce-motion-button-label = アニメーションをオフにする
+
+## Title and primary button strings differ between platforms as they
+## match the OS' application context menu item action where Windows uses "pin"
+## and "taskbar" while macOS "keep" and "Dock" (proper noun).
+
+# Title used on welcome page when Firefox is not pinned
+mr1-onboarding-pin-header = { PLATFORM() ->
+    [macos] すぐアクセスできるよう { -brand-short-name } を Dock に追加しましょう
+   *[other] すぐアクセスできるよう { -brand-short-name } をタスクバーにピン留めしましょう
+}
+# Primary button string used on welcome page when Firefox is not pinned.
+mr1-onboarding-pin-primary-button-label = { PLATFORM() ->
+    [macos] Dock に追加
+   *[other] タスクバーにピン留め
+}
+
+## Multistage MR1 onboarding strings (about:welcome pages)
+
+# This string will be used on welcome page primary button label
+# when Firefox is both pinned and default
+mr1-onboarding-get-started-primary-button-label = はじめましょう
 
 mr1-onboarding-welcome-header = { -brand-short-name } にようこそ
 mr1-onboarding-set-default-pin-primary-button-label = { -brand-short-name } を優先ブラウザーに設定する
     .title = { -brand-short-name } を@@DefaultBrowser@@に設定して、タスクバーにピン留めしましょう
 
+# This string will be used on welcome page primary button label
+# when Firefox is not default but already pinned
 mr1-onboarding-set-default-only-primary-button-label = { -brand-short-name } を@@DefaultBrowser@@に設定する
 mr1-onboarding-set-default-secondary-button-label = 後で
 mr1-onboarding-sign-in-button-label = ログイン
+
+## Title, subtitle and primary button string used on set default onboarding screen
+## when Firefox is not default browser
+
+mr1-onboarding-default-header = { -brand-short-name } を@@DefaultBrowser@@に設定
+mr1-onboarding-default-subtitle = 高速、安全、プライベートなブラウザーにお任せください。
+mr1-onboarding-default-primary-button-label = @@DefaultBrowser@@に設定する
+
+## Multistage MR1 onboarding strings (about:welcome pages)
 
 mr1-onboarding-import-header = すべて持ってこれます
 mr1-onboarding-import-subtitle = パスワードやブックマークなどを<br/>@@Import-deki@@ます。

@@ -76,7 +76,6 @@ appmenu-update-other-instance-message = { -brand-shorter-name } の更新があ�
 appmenu-addon-private-browsing-installed2 =
     .buttonlabel = OK
     .buttonaccesskey = O
-appmenu-addon-post-install-message2 = アプリケーションメニューから拡張機能とテーマを管理できます。
 appmenu-addon-post-install-message3 = アプリケーションメニューからアドオンとテーマを管理できます。
 appmenu-addon-post-install-incognito-checkbox =
     .label = この拡張機能のプライベート@@Window@@での実行を許可する

@@ -155,9 +155,11 @@ this container is a toolbar. This avoids double-speaking. -->
 <!ENTITY appMenuHistory.viewSidebar.label	"履歴サイドバーを表示">
 <!ENTITY appMenuHistory.hideSidebar.label	"履歴サイドバーを隠す">
 <!ENTITY appMenuHistory.recentHistory.label	"最近の履歴">
+
 <!ENTITY appMenuHelp.label			"ヘルプ">
 
 <!ENTITY appMenuRemoteTabs.label		"同期タブ">
+
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label		"タブがありません">

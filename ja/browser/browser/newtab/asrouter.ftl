@@ -315,3 +315,10 @@ cfr-whatsnew-bookmarking-body = お気に入りのサイトの管理が簡単に
 
 cfr-whatsnew-cross-site-tracking-header = クロスサイトトラッキング Cookie からの包括的な保護
 cfr-whatsnew-cross-site-tracking-body = トラッキング Cookie からのよりよい保護を任意で利用できるようになりました。{ -brand-short-name} があなたの行動と個人データを閲覧中のサイトから分離するため、ブラウザーに保存された情報はウェブサイト間で共有されません。
+
+## Full Video Support CFR message
+
+cfr-doorhanger-video-support-body = このバージョンの { -brand-short-name } では、このサイトの動画を正しく再生できません。今すぐ、動画に完全対応する { -brand-short-name } に更新しましょう。
+cfr-doorhanger-video-support-header = { -brand-short-name } を更新して動画を再生
+cfr-doorhanger-video-support-primary-button = 今すぐ更新
+  .accesskey = U

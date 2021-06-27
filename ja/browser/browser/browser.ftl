@@ -173,8 +173,6 @@ page-action-send-tabs-panel =
     .label = { $tabCount } 個のタブを端末へ送信
 page-action-send-tabs-urlbar =
     .tooltiptext = { $tabCount } 個のタブを端末へ送信
-page-action-pocket-panel =
-    .label = ページを { -pocket-brand-name } に保存
 page-action-copy-url-panel =
     .label = リンクをコピー
 page-action-copy-url-urlbar =
@@ -218,12 +216,15 @@ full-screen-exit =
 # This string prompts the user to use the list of search shortcuts in
 # the Urlbar and searchbar.
 search-one-offs-with-title = 今回だけ使う検索エンジン:
+
 # This string won't wrap, so if the translated string is longer,
 # consider translating it as if it said only "Search Settings".
 search-one-offs-change-settings-button =
     .label = 検索設定を変更
+
 search-one-offs-change-settings-compact-button =
     .tooltiptext = 検索設定を変更します
+
 search-one-offs-context-open-new-tab =
     .label = @@NewTab@@で検索
     .accesskey = T
@@ -233,12 +234,22 @@ search-one-offs-context-set-as-default =
 search-one-offs-context-set-as-default-private =
     .label = プライベート@@Window@@の@@Default-@@検索エンジンに設定
     .accesskey = P
+
 # Search engine one-off buttons with an @alias shortcut/keyword.
 # Variables:
 #  $engineName (String): The name of the engine.
 #  $alias (String): The @alias shortcut/keyword.
 search-one-offs-engine-with-alias =
     .tooltiptext = { $engineName } ({ $alias })
+
+# Shown when adding new engines from the address bar shortcut buttons or context
+# menu, or from the search bar shortcut buttons.
+# Variables:
+#  $engineName (String): The name of the engine.
+search-one-offs-add-engine =
+    .label = “{ $engineName }” を追加
+    .tooltiptext = 検索エンジン “{ $engineName }” を追加します
+    .aria-label = 検索エンジン “{ $engineName }” を追加
 # When more than 5 engines are offered by a web page, they are grouped in a
 # submenu using this as its label.
 search-one-offs-add-engine-menu =
@@ -321,7 +332,6 @@ identity-https-only-info-no-upgrade = 接続を HTTP からアップグレード
 
 identity-permissions-storage-access-header = クロスサイト Cookie
 identity-permissions-storage-access-hint = 以下のサイトが、あなたがこのサイトにいる間、クロスサイト Cookie とサイトデータにアクセスできます。
-
 identity-permissions-storage-access-learn-more = 詳細情報
 
 identity-permissions-reload-hint = 変更内容を適用するには、ページの再読み込みが必要です。
@@ -423,6 +433,8 @@ popup-select-microphone-device =
     .accesskey = M
 popup-select-microphone-icon =
     .tooltiptext = マイク
+popup-select-speaker-icon =
+    .tooltiptext = スピーカー
 popup-all-windows-shared = 画面に表示されているすべての@@Window@@を共有します。
 popup-screen-sharing-not-now =
     .label = 後で
@@ -495,6 +507,12 @@ urlbar-placeholder-with-name =
     .placeholder = { $name } で検索、または URL を入力します
 urlbar-remote-control-notification-anchor =
     .tooltiptext = ブラウザーがリモート制御下にあります
+
+# Variables
+#  $component (String): the name of the component which forces remote control.
+#    Example: "DevTools", "Marionette", "RemoteAgent".
+urlbar-remote-control-notification-anchor2 =
+    .tooltiptext = ブラウザーがリモート制御下にあります (制御元: { $component })
 urlbar-permissions-granted =
     .tooltiptext = このウェブサイトで追加の権限を許可しました。
 urlbar-switch-to-tab =
@@ -548,7 +566,6 @@ urlbar-result-action-tabtosearch-web = アドレスバーから直接 { $engine 
 #  $engine (String): the name of a search engine that searches a specific site
 #  (e.g. Amazon).
 urlbar-result-action-tabtosearch-other-engine = アドレスバーから直接 { $engine } を検索
-
 # Action text for copying to clipboard.
 urlbar-result-action-copy-to-clipboard = コピー
 # Shows the result of a formula expression being calculated, the last = sign will be shown
@@ -592,8 +609,6 @@ crashed-subframe-submit =
 
 ## Bookmarks panels, menus and toolbar
 
-bookmarks-show-all-bookmarks =
-    .label = すべてのブックマークを表示
 bookmarks-manage-bookmarks =
     .label = ブックマークを管理
 bookmarks-recent-bookmarks-panel-subheader = 最近のブックマーク
@@ -666,6 +681,12 @@ library-recent-activity-title =
 save-to-pocket-button =
     .label = { -pocket-brand-name } に保存
     .tooltiptext = { -pocket-brand-name } に保存します
+
+## Repair text encoding toolbar button
+
+repair-text-encoding-button =
+    .label = テキストエンコーディングを修復
+    .tooltiptext = ページの内容から正しいテキストエンコーディングを推測します
 
 ## Customize Toolbar Buttons
 

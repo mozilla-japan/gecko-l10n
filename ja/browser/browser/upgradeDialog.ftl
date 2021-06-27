@@ -25,8 +25,36 @@ upgrade-dialog-new-primary-primary-button = { -brand-short-name } を優先ブ�
     .title = { -brand-short-name } を@@DefaultBrowser@@に設定して、タスクバーにピン留めしましょう
 upgrade-dialog-new-primary-default-button = { -brand-short-name } を@@DefaultBrowser@@に設定
 upgrade-dialog-new-primary-pin-button = { -brand-short-name } をタスクバーにピン留め
+upgrade-dialog-new-primary-pin-alt-button = タスクバーにピン留め
 upgrade-dialog-new-primary-theme-button = テーマを選択
 upgrade-dialog-new-secondary-button = 後で
+
+# This string is only shown on Windows 7, where we intentionally suppress the
+# theme selection screen.
+upgrade-dialog-new-primary-win7-button = OK
+
+## Pin Firefox screen
+##
+## These title, subtitle and button strings differ between platforms as they
+## match the OS' application context menu item action where Windows uses "pin"
+## and "taskbar" while macOS "keep" and "Dock" (proper noun).
+
+# This title can be explicitly wrapped to control which words are on which line.
+upgrade-dialog-pin-title = { PLATFORM() ->
+    [macos] { -brand-short-name } を Dock に追加
+   *[other] { -brand-short-name } をタスクバーにピン留め
+}
+# The English macOS string avoids repeating "Keep" a third time, so if your
+# translations don't repeat anyway, the same string can be used cross-platform.
+upgrade-dialog-pin-subtitle = { PLATFORM() ->
+    [macos] 最新の { -brand-short-name } にすぐアクセスできるようにしましょう。
+   *[other] 最新の { -brand-short-name } をすぐ手の届くところにおきましょう。
+}
+upgrade-dialog-pin-primary-button = { PLATFORM() ->
+    [macos] Dock に追加
+   *[other] タスクバーにピン留め
+}
+upgrade-dialog-pin-secondary-button = 後で
 
 ## Default browser screen
 
@@ -34,6 +62,11 @@ upgrade-dialog-new-secondary-button = 後で
 upgrade-dialog-default-title = { -brand-short-name } を@@DefaultBrowser@@に設定しますか？
 upgrade-dialog-default-subtitle = いつでも高速、安全、プライベートに。
 upgrade-dialog-default-primary-button = @@DefaultBrowser@@に設定する
+
+# This title can be explicitly wrapped to control which words are on which line.
+upgrade-dialog-default-title-2 = { -brand-short-name } を@@DefaultBrowser@@に設定
+upgrade-dialog-default-subtitle-2 = 高速、安全、プライベートなブラウザーにお任せください。
+upgrade-dialog-default-primary-button-2 = @@DefaultBrowser@@に設定する
 upgrade-dialog-default-secondary-button = 後で
 
 ## Theme selection screen
@@ -42,6 +75,9 @@ upgrade-dialog-default-secondary-button = 後で
 upgrade-dialog-theme-title =
     テーマを更新して
     新しく始める
+
+# This title can be explicitly wrapped to control which words are on which line.
+upgrade-dialog-theme-title-2 = できたてのテーマで新しく始める
 upgrade-dialog-theme-system = システムテーマ
     .title = OS のボタン、メニュー、@@Window@@の外観です
 upgrade-dialog-theme-light = Light

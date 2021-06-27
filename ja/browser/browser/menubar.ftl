@@ -172,6 +172,10 @@ menu-view-charset =
     .label = テキストエンコーディング
     .accesskey = c
 
+menu-view-repair-text-encoding =
+    .label = テキストエンコーディングを修復
+    .accesskey = c
+
 ## These should match what Safari and other Apple applications
 ## use on macOS.
 
@@ -226,6 +230,8 @@ menu-bookmarks-show-all =
     .label = すべてのブックマークを表示
 menu-bookmark-this-page =
     .label = このページをブックマーク
+menu-bookmarks-manage =
+    .label = ブックマークを管理
 menu-bookmark-current-tab =
     .label = 現在のタブをブックマーク
 menu-bookmark-edit =
@@ -253,15 +259,15 @@ menu-tools-addons =
 menu-tools-fxa-sign-in =
     .label = { -brand-product-name } にログイン...
     .accesskey = g
+menu-tools-turn-on-sync =
+    .label = { -sync-brand-short-name } をオンにする...
+    .accesskey = n
 menu-tools-addons-and-themes =
     .label = アドオンとテーマ
     .accesskey = A
 menu-tools-fxa-sign-in2 =
     .label = ログイン
     .accesskey = g
-menu-tools-turn-on-sync =
-    .label = { -sync-brand-short-name } をオンにする...
-    .accesskey = n
 menu-tools-turn-on-sync2 =
     .label = 同期をオンにする...
     .accesskey = n
@@ -286,13 +292,6 @@ menu-tools-page-source =
 menu-tools-page-info =
     .label = ページの情報
     .accesskey = I
-menu-settings =
-    .label = 設定
-    .accesskey =
-        { PLATFORM() ->
-            [windows] S
-           *[other] n
-        }
 menu-preferences =
     .label =
         { PLATFORM() ->
@@ -302,6 +301,13 @@ menu-preferences =
     .accesskey =
         { PLATFORM() ->
             [windows] O
+           *[other] n
+        }
+menu-settings =
+    .label = 設定
+    .accesskey =
+        { PLATFORM() ->
+            [windows] S
            *[other] n
         }
 menu-tools-layout-debugger =

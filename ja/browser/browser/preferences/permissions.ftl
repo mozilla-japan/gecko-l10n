@@ -18,6 +18,15 @@ permissions-session =
 permissions-allow =
     .label = 許可
     .accesskey = A
+
+permissions-button-off =
+    .label = オフにする
+    .accesskey = O
+
+permissions-button-off-temporarily =
+    .label = 一時的にオフにする
+    .accesskey = T
+
 permissions-site-name =
     .label = ウェブサイト
 permissions-status =
@@ -59,6 +68,11 @@ permissions-capabilities-listitem-block =
 permissions-capabilities-listitem-allow-session =
     .value = 現在のセッションのみ
 
+permissions-capabilities-listitem-off =
+    .value = オフ
+permissions-capabilities-listitem-off-temporarily =
+    .value = 一時的にオフ
+
 ## Invalid Hostname Dialog
 
 permissions-invalid-uri-title = 無効なホスト名が入力されました
@@ -77,6 +91,13 @@ permissions-exceptions-cookie-window =
     .title = Cookie とサイトデータのフィルター
     .style = { permissions-window.style }
 permissions-exceptions-cookie-desc = Cookie とサイトデータの使用を許可するかどうかウェブサイトごとに指定できます。個別に設定するサイトの正確なアドレスを入力して @@[@@不許可@@]@@、@@[@@現在のセッションのみ@@]@@、@@[@@許可@@]@@ のいずれかをクリックしてください。
+
+## Exceptions - HTTPS-Only Mode
+
+permissions-exceptions-https-only-window =
+    .title = 例外 - HTTPS-Only モード
+    .style = { permissions-window.style }
+permissions-exceptions-https-only-desc = HTTPS-Only モードをオフにするウェブサイトを指定できます。{ -brand-short-name } はこれらのサイトでは安全な接続にアップグレードしません。プライベート@@Window@@ではこの例外は適用されません。
 
 ## Exceptions - Pop-ups
 
