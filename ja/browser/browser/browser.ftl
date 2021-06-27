@@ -512,7 +512,7 @@ urlbar-remote-control-notification-anchor =
 #  $component (String): the name of the component which forces remote control.
 #    Example: "DevTools", "Marionette", "RemoteAgent".
 urlbar-remote-control-notification-anchor2 =
-  .tooltiptext = ブラウザーがリモート制御下にあります (制御元: { $component })
+    .tooltiptext = ブラウザーがリモート制御下にあります (制御元: { $component })
 urlbar-permissions-granted =
     .tooltiptext = このウェブサイトで追加の権限を許可しました。
 urlbar-switch-to-tab =
@@ -685,8 +685,8 @@ save-to-pocket-button =
 ## Repair text encoding toolbar button
 
 repair-text-encoding-button =
-  .label = テキストエンコーディングを修復
-  .tooltiptext = ページの内容から正しいテキストエンコーディングを推測します
+    .label = テキストエンコーディングを修復
+    .tooltiptext = ページの内容から正しいテキストエンコーディングを推測します
 
 ## Customize Toolbar Buttons
 

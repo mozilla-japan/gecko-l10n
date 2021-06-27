@@ -65,7 +65,7 @@ upgrade-dialog-default-primary-button = @@DefaultBrowser@@に設定する
 
 # This title can be explicitly wrapped to control which words are on which line.
 upgrade-dialog-default-title-2 = { -brand-short-name } を@@DefaultBrowser@@に設定
-upgrade-dialog-default-subtitle-2 = 高速、安全、プライベートに自動運転。
+upgrade-dialog-default-subtitle-2 = 高速、安全、プライベートなブラウザーにお任せください。
 upgrade-dialog-default-primary-button-2 = @@DefaultBrowser@@に設定する
 upgrade-dialog-default-secondary-button = 後で
 

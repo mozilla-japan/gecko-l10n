@@ -329,7 +329,7 @@ mr1-onboarding-sign-in-button-label = ログイン
 ## when Firefox is not default browser
 
 mr1-onboarding-default-header = { -brand-short-name } を@@DefaultBrowser@@に設定
-mr1-onboarding-default-subtitle = 高速、安全、プライベートに自動運転。
+mr1-onboarding-default-subtitle = 高速、安全、プライベートなブラウザーにお任せください。
 mr1-onboarding-default-primary-button-label = @@DefaultBrowser@@に設定する
 
 ## Multistage MR1 onboarding strings (about:welcome pages)
