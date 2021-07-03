@@ -7,7 +7,7 @@ calendar-print-layout-list = リスト
 calendar-print-layout-month-grid = 月間カレンダー
 calendar-print-layout-week-planner = 週間予定表
 
-calendar-print-filter-label = What to Print
+calendar-print-filter-label = @@Print@@対象
 calendar-print-filter-events = 予定
 calendar-print-filter-tasks = ToDo
 calendar-print-filter-completedtasks = 完了した ToDo
