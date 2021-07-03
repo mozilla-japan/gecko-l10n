@@ -10,8 +10,6 @@ preferences-title =
             [windows] オプション
            *[other] 環境設定
         }
-preferences-tab-title =
-    .title = 設定
 preferences-doc-title = 設定
 category-list =
     .aria-label = カテゴリー

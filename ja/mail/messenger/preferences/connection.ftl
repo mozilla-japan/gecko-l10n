@@ -21,6 +21,8 @@ connection-dialog-window =
             [macos] width: 46em !important
            *[other] width: 54em !important
         }
+connection-disable-extension =
+    .label = 拡張機能を無効化
 connection-proxy-legend = インターネット接続に使用するプロキシーの設定
 proxy-type-no =
     .label = プロキシーを使用しない

@@ -22,3 +22,5 @@ calendar-editable-item-reminder-icon-suppressed-alarm =
     .alt = アラーム通知が予定されましたが現在停止しています
 calendar-editable-item-reminder-icon-email =
     .alt = アラームメールが予定されました
+calendar-editable-item-reminder-icon-audio =
+    .alt = アラーム音声通知が予定されました

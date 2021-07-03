@@ -10,6 +10,9 @@ remove-address-row-type = { $type } フィールドを削除
 remove-address-row-type-label =
     .tooltiptext = { $type } フィールドを削除します
 #   $type (String) - the type of the addressing row
+remove-address-row-button =
+    .title = { $type } フィールドを削除します
+#   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label = { $count ->
     [0]     { $type }
@@ -38,6 +41,9 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Bcc へ移動
     .accesskey = B
+pill-action-expand-list =
+    .label = リストを展開
+    .accesskey = x
 
 ## Attachment widget
 
@@ -94,8 +100,6 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = 開封確認
     .tooltiptext = このメッセージの開封確認の返送を求めます
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-consider-bcc-notification = 宛先および Cc フィールドの {$count} 件の受信者は互いにアドレスを知ることができます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
 
 ## Addressing Area
 
@@ -137,3 +141,9 @@ many-public-recipients-bcc =
 many-public-recipients-ignore =
     .label = 受信者を開示したままにする
     .accesskey  = K
+
+## Notifications
+
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = 差出人アドレスと一致する一意の ID が見つかりませんでした。メッセージは現在の差出人フィールドと { $identity } の差出人情報の設定を使用して送信されます。

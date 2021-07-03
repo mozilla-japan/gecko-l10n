@@ -12,11 +12,29 @@ unread-messages-os-tooltip =
 
 about-rights-notification-text = { -brand-short-name } は無料のオープンソースソフトウェアであり、世界中の多数のコミュニティによって開発されています。
 
+## Content tabs
+
+content-tab-page-loading-icon =
+    .alt = ページの読み込み中です
+content-tab-security-high-icon =
+    .alt = 安全な接続です
+content-tab-security-broken-icon =
+    .alt = 安全な接続ではありません
+
 ## Toolbar
 
 addons-and-themes-button =
     .label = アドオンとテーマ
     .tooltip = アドオンを管理します
+addons-and-themes-toolbarbutton =
+    .label = アドオンとテーマ
+    .tooltiptext = アドオンを管理します
+quick-filter-toolbarbutton =
+    .label = クイックフィルター
+    .tooltiptext = メッセージを絞り込みます
+redirect-msg-button =
+    .label = リダイレクト
+    .tooltiptext = 選択したメッセージをリダイレクトします
 
 ## Folder Pane
 
@@ -51,6 +69,12 @@ folder-toolbar-toggle-folder-compact-view =
     .label = コンパクトビュー
     .accesskey = C
 
+## Menu
+
+redirect-msg-menuitem =
+    .label = リダイレクト
+    .accesskey = D
+
 ## AppMenu
 
 # Since v89 we dropped the platforms distinction between Options or Preferences
@@ -65,6 +89,18 @@ appmenu-help-exit-troubleshoot-mode =
     .label = トラブルシューティングモードをオフにする
 appmenu-help-more-troubleshooting-info =
     .label = トラブルシューティング情報
+appmenu-redirect-msg =
+    .label = リダイレクト
+
+## Context menu
+
+context-menu-redirect-msg =
+    .label = リダイレクト
+
+## Message header pane
+
+other-action-redirect-msg =
+    .label = リダイレクト
 
 ## Action Button Context Menu
 
@@ -89,3 +125,11 @@ message-header-address-not-in-address-book-icon =
 addon-removal-title = { $name } を削除しますか？
 addon-removal-confirmation-button = 削除
 addon-removal-confirmation-message = { $name } とその設定およびデータを { -brand-short-name } から削除しますか？
+
+caret-browsing-prompt-title = キャレットブラウジング
+caret-browsing-prompt-text = F7 キーを押すとキャレットブラウジングのオンとオフを切り替えられます。この機能は、移動可能なカーソルをコンテンツ内に配置して、キーボードでテキストを選択できるようにします。キャレットブラウジングをオンにしますか？
+caret-browsing-prompt-check-text = 今後は確認しない
+
+repair-text-encoding-button =
+  .label = テキストエンコーディングを修復
+  .tooltiptext = メッセージ本文の適切なテキストエンコーディングを推定します
