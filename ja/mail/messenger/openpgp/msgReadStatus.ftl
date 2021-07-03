@@ -9,7 +9,7 @@ message-header-show-security-info-key = S
 #   $type (String) - the shortcut key defined in the message-header-show-security-info-key
 message-security-button =
     .title = { PLATFORM() ->
-        [macos] メッセージのセキュリティ情報を見る (⌘ ⌥ { message-header-show-security-info-key })
+        [macos] メッセージのセキュリティ情報を見る (⌃ ⌘ { message-header-show-security-info-key })
         *[other] メッセージのセキュリティ情報を表示 (Ctrl+Alt+{ message-header-show-security-info-key })
     }
 
@@ -43,3 +43,20 @@ openpgp-unknown-key-id = 未知の鍵
 
 openpgp-other-enc-additional-key-ids = また、メッセージは以下の鍵の所有者に向けて暗号化されました:
 openpgp-other-enc-all-key-ids = メッセージは以下の鍵の所有者に向けて暗号化されました:
+
+openpgp-message-header-encrypted-ok-icon =
+    .alt = 復号に成功しました
+openpgp-message-header-encrypted-notok-icon =
+    .alt = 復号に失敗しました
+
+openpgp-message-header-signed-ok-icon =
+    .alt = 正当な署名
+# Mismatch icon is used for notok state as well
+openpgp-message-header-signed-mismatch-icon =
+    .alt = 不正な署名
+openpgp-message-header-signed-unknown-icon =
+    .alt = 署名の状態不明
+openpgp-message-header-signed-verified-icon =
+    .alt = 検証済みの署名
+openpgp-message-header-signed-unverified-icon =
+    .alt = 未検証の署名

@@ -48,6 +48,7 @@
 <!ENTITY editMenu.accesskey			"E">
 <!ENTITY deleteCmd.label			"削除">
 <!ENTITY deleteAbCmd.label			"アドレス帳を削除">
+<!ENTITY removeAbCmd.label			"アドレス帳を削除">
 <!ENTITY deleteContactCmd.label			"連絡先を削除">
 <!ENTITY deleteContactsCmd.label		"連絡先を削除">
 <!ENTITY deleteListCmd.label			"リストを削除">
@@ -136,9 +137,12 @@ because displayed names don't have the comma in between. -->
 <!ENTITY newIM.label				"インスタントメッセージ">
 <!ENTITY newIM.accesskey			"I">
 <!ENTITY printButton.label			"@@Print@@...">
-<!ENTITY printButton.accesskey			"r">
+<!ENTITY printButton.accesskey			"P">
 <!ENTITY deleteButton2.label			"削除">
 <!ENTITY deleteButton2.accesskey		"D">
+
+<!ENTITY removeButton.label			"削除">
+<!ENTITY removeButton.accesskey			"R">
 
 <!-- Address Book Toolbar Tooltips -->
 <!ENTITY columnChooser.tooltip				"表示する列を選択します">
@@ -151,6 +155,8 @@ because displayed names don't have the comma in between. -->
 <!ENTITY newmsgButton.tooltip				"メールを送信します">
 <!ENTITY newIM.tooltip					"インスタントメッセージを送信またはチャットをします">
 <!ENTITY deleteButton2.tooltip				"選択したアイテムを削除します">
+
+<!ENTITY removeButton.tooltip				"選択したアドレス帳を削除します">
 
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label		"名前またはメールアドレス">

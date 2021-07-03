@@ -17,15 +17,15 @@ otr-log =
     .label = OTR 暗号化されたメッセージを会話ログに含める
 otr-requireEncryption =
     .label = 1 対 1 の会話はエンドツーエンド暗号化を必須にする
+otr-verifyNudge =
+    .label = 未確認の連絡先を確認するため常に通知する
+otr-notYetAvailable = まだ利用できません
+
 otr-require-encryption =
     .label = 1 対 1 の会話はエンドツーエンド暗号化を必須にする
 otr-require-encryption-info =
     エンドツーエンド暗号化を必須にすると、1 対 1 の会話のメッセージは暗号化されない限り送信されません。
     暗号化されていないメッセージを受信した場合、通常の会話に表示されず、ログにも残りません。
-otr-verifyNudge =
-    .label = 未確認の連絡先を確認するため常に通知する
-otr-notYetAvailable = まだ利用できません
-
 otr-verify-nudge =
     .label = 未確認の連絡先を確認するため常に通知する
 otr-not-yet-available = まだ利用できません
