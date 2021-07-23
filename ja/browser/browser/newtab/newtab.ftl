@@ -2,16 +2,18 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ### Firefox Home / New Tab strings for about:home / about:newtab.
 
 newtab-page-title = @@NewTab@@
 newtab-settings-button =
     .title = @@NewTab@@ページをカスタマイズ
-
 newtab-personalize-button-label = パーソナライズ
     .title = @@NewTab@@をパーソナライズ
     .aria-label = @@NewTab@@をパーソナライズ
-
+newtab-personalize-icon-label =
+    .title = @@NewTab@@をパーソナライズ
+    .aria-label = @@NewTab@@をパーソナライズ
 newtab-personalize-dialog-label =
     .aria-label = パーソナライズ
 
@@ -21,9 +23,7 @@ newtab-personalize-dialog-label =
 newtab-search-box-search-button =
     .title = 検索
     .aria-label = 検索
-
 newtab-search-box-search-the-web-text = ウェブを検索
-
 # Variables
 #  $engine (String): the name of the user's default search engine
 newtab-search-box-handoff-text = { $engine } で検索、または URL を入力します
@@ -38,12 +38,10 @@ newtab-search-box-handoff-input-no-engine =
     .placeholder = 検索語句、または URL を入力します
     .title = 検索語句、または URL を入力します
     .aria-label = 検索語句、または URL を入力します
-
 newtab-search-box-search-the-web-input =
     .placeholder = ウェブを検索
     .title = ウェブを検索
     .aria-label = ウェブを検索
-
 newtab-search-box-input =
     .placeholder = ウェブを検索
     .aria-label = ウェブを検索
@@ -58,12 +56,10 @@ newtab-topsites-edit-shortcut-header = ショートカットを編集
 newtab-topsites-title-label = タイトル
 newtab-topsites-title-input =
     .placeholder = タイトルを入力
-
 newtab-topsites-url-label = URL
 newtab-topsites-url-input =
     .placeholder = URL を入力するか@@Paste@@
 newtab-topsites-url-validation = 正しい URL を入力してください
-
 newtab-topsites-image-url-label = カスタム画像 URL
 newtab-topsites-use-image-link = カスタム画像を使用...
 newtab-topsites-image-validation = 画像を読み込めませんでした。別の URL を試してください。
@@ -92,12 +88,10 @@ newtab-topsite-sponsored = 広告
 newtab-menu-section-tooltip =
     .title = メニューを開きます
     .aria-label = メニューを開きます
-
 # Tooltip for dismiss button
 newtab-dismiss-button-tooltip =
     .title = 削除
     .aria-label = 削除
-
 # This tooltip is for the context menu of Pocket cards or Topsites
 # Variables:
 #  $title (String): The label or hostname of the site. This is for screen readers when the context menu button is focused/active.
@@ -168,12 +162,10 @@ newtab-label-removed-bookmark = 削除済みブックマーク
 newtab-label-recommended = 話題の記事
 newtab-label-saved = { -pocket-brand-name } に保存しました
 newtab-label-download = ダウンロード済み
-
 # This string is used in the story cards to indicate sponsored content
 # Variables:
 #  $sponsorOrSource (String): This is the name of a company or their domain
 newtab-label-sponsored = 提供: { $sponsorOrSource }
-
 # This string is used at the bottom of story cards to indicate sponsored content
 # Variables:
 #  $sponsor (String): This is the name of a sponsor
@@ -212,12 +204,10 @@ newtab-section-header-pocket = { $provider } のおすすめ
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 
 newtab-empty-section-highlights = ブラウジング中にあなたが最近訪れたりブックマークしたりした、優れた記事、動画、その他ページの一部をここに表示します。
-
 # Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 # Variables:
 #  $provider (String): Name of the content provider for this section, e.g "Pocket".
 newtab-empty-section-topstories = すべて既読です。また後で戻って { $provider } からのおすすめ記事をチェックしてください。もし待ちきれないなら、人気のトピックを選択すれば、他にもウェブ上の優れた記事を見つけられます。
-
 
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.
 
@@ -255,7 +245,6 @@ newtab-custom-pocket-sponsored = 広告ストーリー
 newtab-custom-recent-title = 最近のアクティビティ
 newtab-custom-recent-subtitle = 最近のサイトとコンテンツの抜粋
 newtab-custom-close-button = 閉じる
-
 # For the "Snippets" feature traditionally on about:home.
 # Alternative translation options: "Small Note" or something that
 # expresses the idea of "a small message, shortened from something else,
