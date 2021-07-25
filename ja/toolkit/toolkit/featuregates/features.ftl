@@ -104,10 +104,6 @@ experimental-features-multi-pip =
     .label = ピクチャーインピクチャーの複数サポート
 experimental-features-multi-pip-description = 複数のピクチャーインピクチャー@@Window@@を同時に開けるようにする実験的なサポートです。
 
-experimental-features-http3 =
-    .label = HTTP/3 プロトコル
-experimental-features-http3-description = HTTP/3 プロトコルの実験的なサポートです。
-
 # Search during IME
 experimental-features-ime-search =
     .label = アドレスバー: IME 変換中に結果を表示
