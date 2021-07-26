@@ -2,12 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ### Firefox Home / New Tab strings for about:home / about:newtab.
 
 newtab-page-title = @@NewTab@@
 newtab-settings-button =
     .title = @@NewTab@@ページをカスタマイズ
+
 newtab-personalize-button-label = パーソナライズ
     .title = @@NewTab@@をパーソナライズ
     .aria-label = @@NewTab@@をパーソナライズ

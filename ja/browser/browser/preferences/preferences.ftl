@@ -308,6 +308,8 @@ translate-web-pages =
     .label = ウェブページを翻訳
     .accesskey = T
 
+fx-translate-web-pages = { -translations-brand-name }
+
 # The <img> element is replaced by the logo of the provider
 # used to provide machine translations for web pages.
 translate-attribution = 翻訳:  <img data-l10n-name="logo"/>
@@ -1052,6 +1054,11 @@ forms-primary-pw-former-name = { "" }
 forms-primary-pw-fips-title = 現在 FIPS モードです。FIPS モードではマスターパスワードを空には設定できません。
 forms-master-pw-fips-desc = パスワードを変更できませんでした
 
+forms-windows-sso =
+    .label = Microsoft アカウント、職場または学校アカウントで Windows のシングルサインオンを許可する
+forms-windows-sso-learn-more-link = 詳細情報
+forms-windows-sso-desc = 端末の設定でアカウントを管理します
+
 ## OS Authentication dialog
 
 # This message can be seen by trying to add a Master Password.
@@ -1354,6 +1361,13 @@ permissions-block-popups =
 permissions-block-popups-exceptions =
     .label = 許可サイト...
     .accesskey = E
+
+# "popup" is a misspelling that is more popular than the correct spelling of
+# "pop-up" so it's included as a search keyword, not displayed in the UI.
+permissions-block-popups-exceptions-button =
+    .label = 許可サイト...
+    .accesskey = E
+    .searchkeywords = popups
 
 permissions-addon-install-warning =
     .label = アドオンのインストールを求められたときに警告する
