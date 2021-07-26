@@ -225,6 +225,9 @@ send-no-client-certificate = 送信するクライアント証明書がありま
 # Used when no cert is stored for an override
 no-cert-stored-for-override = (保存されていません)
 
+# When a certificate is unavailable (for example, it has been deleted or the token it exists on has been removed).
+certificate-not-available = (利用できません)
+
 ## Used to show whether an override is temporary or permanent
 
 permanent-override = 永続

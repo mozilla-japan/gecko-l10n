@@ -60,6 +60,21 @@ printui-headers-footers-checkbox = ヘッダーとフッターを@@Print@@する
 printui-backgrounds-checkbox = 背景画像を@@Print@@する
 printui-selection-checkbox = 選択範囲のみを@@Print@@する
 
+## The "Format" section, select a version of the website to print. Radio
+## options to select between the original page, selected text only, or a version
+## where the page is processed with "Reader View".
+
+# The section title.
+printui-source-label = @@Print@@形式
+# Option for printing the original page.
+printui-source-radio = 元のページ
+# Option for printing just the content a user selected prior to printing.
+printui-selection-radio = 選択部分のみ
+# Option for "simplifying" the page by printing the Reader View version.
+printui-simplify-page-radio = ページを単純化
+
+##
+
 printui-color-mode-label = カラーモード
 printui-color-mode-color = カラー
 printui-color-mode-bw = モノクロ
