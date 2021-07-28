@@ -569,7 +569,7 @@ crashed-subframe-message = <strong>このページの一部がクラッシュし
 # The string for crashed-subframe-title.title should match crashed-subframe-message,
 # but without any markup.
 crashed-subframe-title =
-  .title = このページの一部がクラッシュしました。{ -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
+    .title = このページの一部がクラッシュしました。{ -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
 crashed-subframe-learnmore-link =
     .value = 詳細
 crashed-subframe-submit =
