@@ -115,6 +115,23 @@ downloads-show-more-information =
 # open the file using an app available in the system.
 downloads-open-file =
     .value = ファイルを開く
+
+## Displayed when the user clicked on a download in process. Indicates that the
+## downloading file will be opened after certain amount of time using an app
+## available in the system.
+## Variables:
+##   $hours (number) - Amount of hours left till the file opens.
+##   $seconds (number) - Amount of seconds left till the file opens.
+##   $minutes (number) - Amount of minutes till the file opens.
+
+downloading-file-opens-in-hours-and-minutes = { $hours } 時間 { $minutes } 分後に開きます...
+downloading-file-opens-in-minutes = { $minutes } 分後に開きます...
+downloading-file-opens-in-minutes-and-seconds = { $minutes } 分 { $seconds } 秒後に開きます...
+downloading-file-opens-in-seconds = { $seconds } 秒後に開きます...
+downloading-file-opens-in-some-time = ダウンロードが完了したら開きます...
+
+##
+
 # Displayed when hovering a download which is able to be retried by users,
 # indicates that it's possible to download this file again.
 downloads-retry-download =

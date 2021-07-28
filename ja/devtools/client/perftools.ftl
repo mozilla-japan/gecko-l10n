@@ -94,6 +94,9 @@ perftools-thread-dns-resolver =
 perftools-thread-js-helper =
   .title = メインスレッド外コンパイルなど、JS エンジンのバックエンド処理のスレッドです
 
+perftools-thread-task-controller =
+  .title = タスクコントローラのスレッドプールにあるスレッドです
+
 ##
 
 perftools-record-all-registered-threads =

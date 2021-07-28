@@ -165,43 +165,6 @@ page-action-remove-from-urlbar =
 page-action-remove-extension =
     .label = 拡張機能を削除
 
-## Page Action menu
-
-# Variables
-# $tabCount (integer) - Number of tabs selected
-page-action-send-tabs-panel =
-    .label = { $tabCount } 個のタブを端末へ送信
-page-action-send-tabs-urlbar =
-    .tooltiptext = { $tabCount } 個のタブを端末へ送信
-page-action-copy-url-panel =
-    .label = リンクをコピー
-page-action-copy-url-urlbar =
-    .tooltiptext = リンクをコピー
-page-action-email-link-panel =
-    .label = ページの URL をメールで送信...
-page-action-email-link-urlbar =
-    .tooltiptext = ページの URL をメールで送信...
-page-action-share-url-panel =
-    .label = 共有
-page-action-share-url-urlbar =
-    .tooltiptext = 共有
-page-action-share-more-panel =
-    .label = その他...
-page-action-send-tab-not-ready =
-    .label = 端末を同期しています...
-# "Pin" is being used as a metaphor for expressing the fact that these tabs
-# are "pinned" to the left edge of the tabstrip. Really we just want the
-# string to express the idea that this is a lightweight and reversible
-# action that keeps your tab where you can reach it easily.
-page-action-pin-tab-panel =
-    .label = タブをピン留め
-page-action-pin-tab-urlbar =
-    .tooltiptext = タブをピン留め
-page-action-unpin-tab-panel =
-    .label = タブのピン留めを外す
-page-action-unpin-tab-urlbar =
-    .tooltiptext = タブのピン留めを外す
-
 ## Auto-hide Context Menu
 
 full-screen-autohide =
@@ -473,6 +436,9 @@ urlbar-default-placeholder =
 # engine is unknown.
 urlbar-placeholder =
     .placeholder = URL または検索語句を入力します
+urlbar-remote-control-notification-anchor =
+    .tooltiptext = ブラウザーがリモート制御下にあります
+
 # This placeholder is used in search mode with search engines that search the
 # entire web.
 # Variables
@@ -505,8 +471,6 @@ urlbar-placeholder-search-mode-other-tabs =
 #  $name (String): the name of the user's default search engine
 urlbar-placeholder-with-name =
     .placeholder = { $name } で検索、または URL を入力します
-urlbar-remote-control-notification-anchor =
-    .tooltiptext = ブラウザーがリモート制御下にあります
 
 # Variables
 #  $component (String): the name of the component which forces remote control.
@@ -601,6 +565,11 @@ pointerlock-warning-no-domain = マウスポインターは現在、このペー
 ## Subframe crash notification
 
 crashed-subframe-message = <strong>このページの一部がクラッシュしました。</strong> { -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
+
+# The string for crashed-subframe-title.title should match crashed-subframe-message,
+# but without any markup.
+crashed-subframe-title =
+    .title = このページの一部がクラッシュしました。{ -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
 crashed-subframe-learnmore-link =
     .value = 詳細
 crashed-subframe-submit =

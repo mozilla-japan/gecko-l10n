@@ -134,9 +134,6 @@ cfr-whatsnew-lockwise-take-link-text = アプリを入手
 
 cfr-whatsnew-searchbar-title = アドレスバーからクリック一つで
 cfr-whatsnew-searchbar-body-topsites = アドレスバーを選択するだけで、よく見るサイトのリンクが展開されます。
-
-## Search bar
-
 cfr-whatsnew-searchbar-icon-alt-text = 虫眼鏡アイコン
 
 ## Picture-in-Picture
@@ -249,12 +246,6 @@ cfr-whatsnew-pip-fullscreen-icon-alt = ピクチャーインピクチャーア�
 
 ## Protections Dashboard message
 
-cfr-doorhanger-milestone-close-button = 閉じる
-  .accesskey = C
-
-## What’s New Panel Content for Firefox 76
-## Protections Dashboard message
-
 cfr-whatsnew-protections-header = パスワードを一発保護
 # This should match the "appmenuitem-protection-dashboard-title" string in browser/appmenu.ftl.
 cfr-whatsnew-protections-body = プライバシー保護ダッシュボードにデータ漏洩とパスワード管理についての概要報告が含まれるようになりました。解決済みの漏洩データ数の追跡が可能で、漏洩データに保存されたパスワードが含まれているかどうかも確認できます。
@@ -265,6 +256,8 @@ cfr-whatsnew-protections-icon-alt = 盾アイコン
 
 cfr-whatsnew-better-pdf-header = より良い PDF 表示
 cfr-whatsnew-better-pdf-body = ワークフローから外れないように、PDF ドキュメントを直接  { -brand-short-name } で開くようになりました。
+cfr-doorhanger-milestone-close-button = 閉じる
+  .accesskey = C
 
 ## DOH Message
 
@@ -283,38 +276,6 @@ cfr-doorhanger-fission-primary-button = OK、有効にする
   .accesskey = O
 cfr-doorhanger-fission-secondary-button = 詳細
   .accesskey = L
-
-## What's new: Cookies message
-
-cfr-whatsnew-clear-cookies-header = こっそり追跡を自動的に遮断
-cfr-whatsnew-clear-cookies-body = 一部のトラッカーは、Cookie を密かに設定した別のウェブサイトにあなたを誘導します。{ -brand-short-name } はこれらの Cookie を自動的に消去し、追跡されないようにします。
-cfr-whatsnew-clear-cookies-image-alt = Cookie ブロックのイラスト
-
-## What's new: Media controls message
-
-cfr-whatsnew-media-keys-header = メディアの操作が充実
-cfr-whatsnew-media-keys-body = キーボードやヘッドセットから音声または映像の再生と停止ができるようになり、他のタブからだけでなく、コンピューターがロックされた状態でも簡単にメディアを操作できます。また、進むキーと戻るキーでもトラックを移動できるようになりました。
-cfr-whatsnew-media-keys-button = 詳細
-
-## What's new: Search shortcuts
-
-cfr-whatsnew-search-shortcuts-header = アドレスバーに検索ショートカット
-cfr-whatsnew-search-shortcuts-body = アドレスバーに検索エンジンまたは特定のサイトを入力すると、検索候補の下に青いショートカットが表示されるようになりました。ショートカットを選択すると、アドレスバーからすぐに検索できます。
-
-## What's new: Cookies protection
-
-cfr-whatsnew-supercookies-header = 悪意のある supercookie を遮断
-cfr-whatsnew-supercookies-body = ウェブサイトは密かに “supercookie” を発行して、あなたが手動で Cookie を消去しない限りウェブであなたを追跡できます。{ -brand-short-name } は supercookie に対する強固な保護を提供し、サイトをまたがってあなたのオンラインの行動を追跡できないようにします。
-
-## What's new: Better bookmarking
-
-cfr-whatsnew-bookmarking-header = よりよいブックマーク登録
-cfr-whatsnew-bookmarking-body = お気に入りのサイトの管理が簡単になりました。{ -brand-short-name } は保存したブックマークをあなたの好きな場所に記憶し、@@Default-@@設定では@@NewTab@@にブックマークツールバーを表示し、ツールバーのフォルダーから他のブックマークにもアクセスできるようになりました。
-
-## What's new: Cross-site cookie tracking
-
-cfr-whatsnew-cross-site-tracking-header = クロスサイトトラッキング Cookie からの包括的な保護
-cfr-whatsnew-cross-site-tracking-body = トラッキング Cookie からのよりよい保護を任意で利用できるようになりました。{ -brand-short-name} があなたの行動と個人データを閲覧中のサイトから分離するため、ブラウザーに保存された情報はウェブサイト間で共有されません。
 
 ## Full Video Support CFR message
 

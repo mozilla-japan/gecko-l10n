@@ -202,3 +202,5 @@ policy-UserMessaging = 特定のメッセージをユーザーに表示させな
 
 # “format” refers to the format used for the value of this policy.
 policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細はドキュメントをご覧ください。
+
+policy-Windows10SSO = Microsoft アカウント、職場または学校アカウントで Windows のシングルサインオンを許可します。

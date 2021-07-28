@@ -4,11 +4,12 @@
 
 screenshots-context-menu = スクリーンショットを撮影
 
+screenshots-my-shots-button = 自分のショット
+
 screenshot-toolbarbutton =
   .label = スクリーンショット
   .tooltiptext = スクリーンショットを撮影します
 
-screenshots-my-shots-button = 自分のショット
 screenshots-instructions = ページをドラッグまたはクリックして範囲を選択してください。ESC キーを押すとキャンセルできます。
 screenshots-cancel-button = キャンセル
 screenshots-save-visible-button = 表示範囲を保存
