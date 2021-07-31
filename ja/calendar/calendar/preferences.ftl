@@ -4,6 +4,7 @@
 
 calendar-title = カレンダー
 calendar-title-reminder = アラーム
+calendar-title-notification = 通知
 calendar-title-category = カテゴリー
 dateformat-label =
     .value = 日付の形式:
@@ -179,6 +180,7 @@ event-alarm-time-label =
 task-alarm-time-label =
     .value = アラーム通知から ToDo までの時間:
     .accesskey = o
+calendar-notifications-customize-label = 通知はカレンダーの@@Property@@@@Window@@でカレンダーごとにカスタマイズできます。
 category-new-label = @@New-CMD@@カテゴリー
 category-edit-label = カテゴリーの編集
 category-overwrite-title = 警告: 重複した名前

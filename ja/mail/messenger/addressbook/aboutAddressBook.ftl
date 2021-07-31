@@ -8,10 +8,6 @@ about-addressbook-title = Address Book
 
 about-addressbook-toolbar-new-address-book =
   .label = @@New-CMD@@アドレス帳
-about-addressbook-toolbar-new-carddav-address-book =
-  .label = @@New-CMD@@ CardDAV アドレス帳
-about-addressbook-toolbar-new-ldap-address-book =
-  .label = @@New-CMD@@ LDAP アドレス帳
 about-addressbook-toolbar-add-carddav-address-book =
   .label = CardDAV アドレス帳を追加
 about-addressbook-toolbar-add-ldap-address-book =
@@ -33,7 +29,6 @@ about-addressbook-books-context-print =
   .label = @@Print@@...
 about-addressbook-books-context-delete =
   .label = 削除
-
 about-addressbook-books-context-remove =
   .label = 削除
 

@@ -6,6 +6,17 @@ e2e-intro-description = 暗号化またはデジタル署名されたメッセ�
 
 e2e-intro-description-more = OpenPGP を有効化するためのあなたの個人鍵か、S/MIME を有効化するためのあなたの個人証明書を選択してください。どちらの場合にも、対応する秘密鍵を所有している必要があります。
 
+e2e-advanced-section = 詳細設定
+e2e-attach-key =
+    .label = OpenPGP デジタル署名の追加時に自分の公開鍵を添付する
+    .accesskey = p
+e2e-encrypt-subject =
+    .label = OpenPGP メッセージの件名を暗号化する
+    .accesskey = b
+e2e-encrypt-drafts =
+    .label = 下書きメッセージを暗号化された形式で保存する
+    .accesskey = r
+
 openpgp-key-user-id-label = アカウント / ユーザー ID
 openpgp-keygen-title-label =
     .title = OpenPGP 鍵を生成
@@ -143,7 +154,7 @@ openpgp-key-man-copy-to-clipboard =
     .accesskey = P
 
 openpgp-key-man-ctx-expor-to-file-label =
-    .label = 鍵をファイルに@@Export-simasu@@
+    .label = 鍵をファイルに@@Export-si@@ます
 openpgp-key-man-ctx-copy-to-clipbrd-label =
     .label = 公開鍵をクリップボードにコピーします
 
@@ -686,6 +697,13 @@ no-temp-dir =
 possibly-pgp-mime = おそらく PGP/MIME 形式で暗号化あるいは署名されたメッセージです。‘復号/検証’ 機能で検証してください
 cannot-send-sig-because-no-own-key = このメッセージにデジタル署名できませんでした。<{ $key }> のためのエンドツーエンド暗号化が設定されていません
 cannot-send-enc-because-no-own-key = このメッセージを暗号化できませんでした。<{ $key }> のためのエンドツーエンド暗号化が設定されていません
+
+compose-menu-attach-key =
+    .label = 自分の公開鍵を添付
+    .accesskey = A
+compose-menu-encrypt-subject =
+    .label = 件名を暗号化
+    .accesskey = b
 
 # Strings used in decryption.jsm
 do-import-multiple =

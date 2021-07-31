@@ -7,9 +7,6 @@
 #   $type (String) - the type of the addressing row
 remove-address-row-type = { $type } フィールドを削除
 #   $type (String) - the type of the addressing row
-remove-address-row-type-label =
-    .tooltiptext = { $type } フィールドを削除します
-#   $type (String) - the type of the addressing row
 remove-address-row-button =
     .title = { $type } フィールドを削除します
 #   $type (String) - the type of the addressing row
@@ -147,3 +144,12 @@ many-public-recipients-ignore =
 # Variables:
 # $identity (string) - The name of the used identity, most likely an email address.
 compose-missing-identity-warning = 差出人アドレスと一致する一意の ID が見つかりませんでした。メッセージは現在の差出人フィールドと { $identity } の差出人情報の設定を使用して送信されます。
+encrypted-bcc-warning = 暗号化したメッセージの送信する場合、Bcc の受信者は完全に秘匿されません。すべての受信者が Bcc の受信者を認識できます。
+encrypted-bcc-ignore-button = 了解
+
+## Editing
+
+# Tools
+
+compose-tool-button-remove-text-styling =
+    .tooltiptext = テキストのスタイル付けを削除します

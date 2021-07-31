@@ -505,6 +505,8 @@
 <!ENTITY deleteJunk.accesskey		"D">
 <!ENTITY importCmd.label		"設定とデータ@@-ImportCMD@@...">
 <!ENTITY importCmd.accesskey		"m">
+<!ENTITY exportCmd.label		"@@Export@@...">
+<!ENTITY exportCmd.accesskey		"x">
 <!ENTITY clearRecentHistory.label	"最近の履歴を消去...">
 <!ENTITY clearRecentHistory.accesskey	"H">
 <!ENTITY accountManagerCmd2.label	"アカウント設定">
