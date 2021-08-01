@@ -17,6 +17,8 @@ policy-AppUpdateURL = アプリケーションのカスタム更新 URL を設�
 
 policy-Authentication = ウェブサイトが対応する統合認証の設定を行います。
 
+policy-BackgroundAppUpdate2 = バックグラウンド更新を有効または無効にします。
+
 policy-BlockAboutAddons = アドオンマネージャー (about:addons) へのアクセスをブロックします。
 
 policy-BlockAboutConfig = about:config ページへのアクセスをブロックします。
@@ -30,6 +32,8 @@ policy-CaptivePortal = キャプティブポータルサポートを有効また
 policy-CertificatesDescription = 証明書を追加、または組み込みの証明書を利用します。
 
 policy-Cookies = Cookie の保存をウェブサイトに許可または拒否します。
+
+policy-DisableBuiltinPDFViewer = { -brand-short-name } 組み込みの PDF ビューアーの PDF.js を無効にします。
 
 policy-DisabledCiphers = 暗号を無効にします。
 
@@ -84,6 +88,8 @@ policy-ExtensionSettings = 拡張機能のインストール全般を管理し�
 
 policy-ExtensionUpdate = 拡張機能の自動更新を有効または無効にします。
 
+policy-Handlers = @@Default-@@アプリケーションハンドラーを設定します。
+
 policy-HardwareAcceleration = false の場合、ハードウェアアクセラレーションをオフにします。
 
 policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
@@ -99,6 +105,8 @@ policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトで�
 ##
 
 policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
+
+policy-ManualAppUpdateOnly = 更新を手動のみにし、ユーザーに更新を通知しないようにします。
 
 policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) を有効または無効にします。
 
@@ -118,6 +126,8 @@ policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー PDF.js 
 policy-Permissions2 = カメラ、マイク、位置情報、通知、自動再生の許可設定を変更します。
 
 policy-Preferences = 設定のサブセットに対する値を設定してロックします。
+
+policy-PrimaryPassword = マスターパスワードの使用を要求または抑止します。
 
 policy-PromptForDownloadLocation = ダウンロード時にファイルの保存先を確認します。
 

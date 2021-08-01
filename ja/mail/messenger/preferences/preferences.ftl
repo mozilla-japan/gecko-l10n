@@ -265,6 +265,9 @@ diskspace-legend = ディスク領域
 offline-compact-folder =
     .label = ディスク領域を合計
     .accesskey = a
+offline-compact-folder-automatically =
+    .label = 最適化する前に毎回確認する
+    .accesskey = b
 compact-folder-size =
     .value = MB 以上節約できるときはフォルダーを最適化する
 
