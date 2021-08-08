@@ -58,3 +58,5 @@
 <!ENTITY publishToolbarCmd.tooltip "リモート URL にファイルをアップロードします">
 <!ENTITY printToolbarCmd.label "@@Print@@">
 <!ENTITY printToolbarCmd.tooltip "このページを@@Print@@します">
+<!ENTITY formToolbarCmd.label "フォーム">
+<!ENTITY formToolbarCmd.tooltip "新しいフォームを挿入、または選択したフォームのプロパティを編集します">

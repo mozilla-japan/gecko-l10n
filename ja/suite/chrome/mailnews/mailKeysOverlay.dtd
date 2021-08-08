@@ -6,6 +6,10 @@
 <!ENTITY markAsReadCmd.accesskey "R">
 <!ENTITY markAsReadCmd.key       "m">
 
+<!ENTITY markAsUnreadCmd.label     "未読にする">
+<!ENTITY markAsUnreadCmd.accesskey "U">
+<!ENTITY markAsUnreadCmd2.key      "u">
+
 <!ENTITY markFlaggedCmd.label     "フラグを付ける">
 <!ENTITY markFlaggedCmd.accesskey "F">
 <!ENTITY markFlaggedCmd.key       "i">

@@ -57,6 +57,7 @@ app-basics-enabled-plugins = 有効なプラグイン
 app-basics-build-config = ビルド設定
 app-basics-user-agent = ユーザーエージェント
 app-basics-os = OS
+app-basics-os-theme = OS のテーマ
 # Rosetta is Apple's translation process to run apps containing x86_64
 # instructions on Apple Silicon. This should remain in English.
 app-basics-rosetta = Rosetta Translated
@@ -185,37 +186,6 @@ remote-debugging-accepting-connections = 接続の受け入れ
 remote-debugging-url = URL
 
 ##
-
-support-third-party-modules-title = サードパーティモジュール
-support-third-party-modules-module = モジュールファイル
-support-third-party-modules-version = ファイルのバージョン
-support-third-party-modules-vendor = ベンダー情報
-support-third-party-modules-occurrence = プロセス数
-support-third-party-modules-process = プロセスタイプと ID
-support-third-party-modules-thread = スレッド
-support-third-party-modules-base = Imagebase アドレス
-support-third-party-modules-uptime = プロセス実行時間 (ms)
-support-third-party-modules-duration = 読み込み遅延 (ms)
-support-third-party-modules-status = 状態
-support-third-party-modules-status-loaded = 読み込み
-support-third-party-modules-status-blocked = ブロック
-support-third-party-modules-status-redirected = リダイレクト
-support-third-party-modules-empty = 非サードパーティモジュールは読み込まれませんでした。
-support-third-party-modules-no-value = (値なし)
-support-third-party-modules-button-open =
-    .title = ファイルの場所を開く...
-support-third-party-modules-expand =
-    .title = 詳細情報を表示
-support-third-party-modules-collapse =
-    .title = 詳細情報を折りたたむ
-support-third-party-modules-unsigned-icon =
-    .title = このモジュールは署名がありません
-support-third-party-modules-folder-icon =
-    .title = ファイルの場所を開く...
-support-third-party-modules-down-icon =
-    .title = 詳細情報を表示
-support-third-party-modules-up-icon =
-    .title = 詳細情報を折りたたむ
 
 # Variables
 # $days (Integer) - Number of days of crashes to log

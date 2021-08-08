@@ -8,8 +8,6 @@
 
 process-type-web = ウェブコンテンツ
 
-process-type-browser = メイン
-
 # process used to run privileged about pages,
 # such as about:home
 process-type-privilegedabout = 特権 About ページ
