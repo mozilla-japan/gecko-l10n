@@ -7,9 +7,6 @@ third-party-section-title = { -brand-short-name } のサードパーティモジ
 
 third-party-intro = このページは { -brand-short-name } に読み込まれたサードパーティモジュールを表示します。Microsoft または { -vendor-short-name } に署名されていないモジュールがサードパーティモジュールとみなされています。
 
-third-party-header-module-list = モジュールリスト
-third-party-header-loading-events = 読み込みイベント
-
 third-party-message-empty = サードパーティモジュールが検出されませんでした。
 third-party-message-no-duration = 記録なし
 
