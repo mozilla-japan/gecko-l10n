@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## The main browser window's title
 
 # These are the default window titles everywhere except macOS. The first two
@@ -157,7 +158,6 @@ urlbar-star-add-bookmark =
 
 page-action-add-to-urlbar =
     .label = アドレスバーに追加
-
 page-action-manage-extension =
     .label = 拡張機能を管理...
 page-action-remove-from-urlbar =
@@ -179,15 +179,12 @@ full-screen-exit =
 # This string prompts the user to use the list of search shortcuts in
 # the Urlbar and searchbar.
 search-one-offs-with-title = 今回だけ使う検索エンジン:
-
 # This string won't wrap, so if the translated string is longer,
 # consider translating it as if it said only "Search Settings".
 search-one-offs-change-settings-button =
     .label = 検索設定を変更
-
 search-one-offs-change-settings-compact-button =
     .tooltiptext = 検索設定を変更します
-
 search-one-offs-context-open-new-tab =
     .label = @@NewTab@@で検索
     .accesskey = T
@@ -197,14 +194,12 @@ search-one-offs-context-set-as-default =
 search-one-offs-context-set-as-default-private =
     .label = プライベート@@Window@@の@@Default-@@検索エンジンに設定
     .accesskey = P
-
 # Search engine one-off buttons with an @alias shortcut/keyword.
 # Variables:
 #  $engineName (String): The name of the engine.
 #  $alias (String): The @alias shortcut/keyword.
 search-one-offs-engine-with-alias =
     .tooltiptext = { $engineName } ({ $alias })
-
 # Shown when adding new engines from the address bar shortcut buttons or context
 # menu, or from the search bar shortcut buttons.
 # Variables:
@@ -280,7 +275,6 @@ identity-weak-encryption = このページは脆弱な暗号を使用してい�
 identity-insecure-login-forms = このページのログインフォームは安全ではありません。
 identity-permissions =
     .value = このサイトの設定
-
 identity-https-only-connection-upgraded = (HTTPS で接続中)
 identity-https-only-label = HTTPS-Only モード
 identity-https-only-dropdown-on =
@@ -292,11 +286,9 @@ identity-https-only-dropdown-off-temporarily =
 identity-https-only-info-turn-on2 = このサイトで { -brand-short-name } に可能な限り接続をアップグレードさせたい場合は、HTTPS-Only モードをオンにしてください。
 identity-https-only-info-turn-off2 = ページが動作しない場合は HTTPS-Only モードをオフにして、安全でない HTTP 接続でこのサイトを再読み込みするとよいでしょう。
 identity-https-only-info-no-upgrade = 接続を HTTP からアップグレードできません。
-
 identity-permissions-storage-access-header = クロスサイト Cookie
 identity-permissions-storage-access-hint = 以下のサイトが、あなたがこのサイトにいる間、クロスサイト Cookie とサイトデータにアクセスできます。
 identity-permissions-storage-access-learn-more = 詳細情報
-
 identity-permissions-reload-hint = 変更内容を適用するには、ページの再読み込みが必要です。
 identity-permissions-empty = このサイトに特別な権限は設定されていません。
 identity-clear-site-data =
@@ -438,7 +430,6 @@ urlbar-placeholder =
     .placeholder = URL または検索語句を入力します
 urlbar-remote-control-notification-anchor =
     .tooltiptext = ブラウザーがリモート制御下にあります
-
 # This placeholder is used in search mode with search engines that search the
 # entire web.
 # Variables
@@ -471,7 +462,6 @@ urlbar-placeholder-search-mode-other-tabs =
 #  $name (String): the name of the user's default search engine
 urlbar-placeholder-with-name =
     .placeholder = { $name } で検索、または URL を入力します
-
 # Variables
 #  $component (String): the name of the component which forces remote control.
 #    Example: "DevTools", "Marionette", "RemoteAgent".
@@ -565,7 +555,6 @@ pointerlock-warning-no-domain = マウスポインターは現在、このペー
 ## Subframe crash notification
 
 crashed-subframe-message = <strong>このページの一部がクラッシュしました。</strong> { -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
-
 # The string for crashed-subframe-title.title should match crashed-subframe-message,
 # but without any markup.
 crashed-subframe-title =
@@ -662,23 +651,26 @@ repair-text-encoding-button =
 # Variables:
 #  $shortcut (String): keyboard shortcut to open the add-ons manager
 toolbar-addons-themes-button =
-  .label = アドオンとテーマ
-  .tooltiptext = アドオンとテーマを管理します ({ $shortcut })
-
+    .label = アドオンとテーマ
+    .tooltiptext = アドオンとテーマを管理します ({ $shortcut })
 # Variables:
 #  $shortcut (String): keyboard shortcut to open settings (only on macOS)
 toolbar-settings-button =
-  .label = 設定
-  .tooltiptext = { PLATFORM() ->
-      [macos] 設定を開きます ({ $shortcut })
-     *[other] 設定を開きます
-  }
+    .label = 設定
+    .tooltiptext =
+        { PLATFORM() ->
+            [macos] 設定を開きます ({ $shortcut })
+           *[other] 設定を開きます
+        }
 
 ## More items
 
 more-menu-go-offline =
     .label = オフライン作業
     .accesskey = k
+toolbar-overflow-customize-button =
+    .label = ツールバーをカスタマイズ...
+    .accesskey = C
 
 ## EME notification panel
 
@@ -705,3 +697,5 @@ addon-removal-abuse-report-checkbox = この拡張機能を { -vendor-short-name
 remote-tabs-manage-account =
     .label = アカウントを管理
 remote-tabs-sync-now = 今すぐ同期
+
+##
