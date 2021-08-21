@@ -37,7 +37,7 @@ app-basics-title = アプリケーション基本情報
 app-basics-name = 製品名
 app-basics-version = バージョン
 app-basics-build-id = ビルド ID
-app-basics-distribution-id = 区域 ID
+app-basics-distribution-id = ディストリビューション ID
 app-basics-update-channel = 更新チャンネル
 app-basics-update-dir =
     { PLATFORM() ->
