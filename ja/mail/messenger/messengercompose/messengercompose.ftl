@@ -97,6 +97,11 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = 開封確認
     .tooltiptext = このメッセージの開封確認の返送を求めます
+# Encryption
+message-to-be-signed-icon =
+    .alt = メッセージに署名
+message-to-be-encrypted-icon =
+    .alt = メッセージを暗号化
 
 ## Addressing Area
 
@@ -132,12 +137,27 @@ bcc-compose-show-address-row-label =
     .tooltiptext = { bcc-compose-address-row-label.value } フィールドを表示します ({ bcc-compose-show-address-row-menuitem.acceltext })
 #   $count (Number) - the count of addresses in the "To" and "Cc" fields.
 many-public-recipients-info = 宛先および Cc フィールドの {$count} 件の受信者は互いのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
+many-public-recipients-notice = { $count ->
+    [one] あなたのメッセージの受信者は開示されています。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+    *[other] 宛先および Cc フィールドの {$count} 件の受信者アドレスは開示されており、受信者が互いにこれらのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+}
 many-public-recipients-bcc =
     .label = 代わりに Bcc を使用する
     .accesskey = U
 many-public-recipients-ignore =
     .label = 受信者を開示したままにする
     .accesskey  = K
+many-public-recipients-prompt-title = 開示された受信者が多すぎます
+
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg = { $count -> 
+    [one] あなたのメッセージの受信者は開示されており、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
+    *[other] あなたのメッセージは {$count} 件の受信者が開示されており、受信者が互いにこれらのアドレスを見られるため、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
+}
+
+many-public-recipients-prompt-cancel = 送信をキャンセル
+many-public-recipients-prompt-send = 強制送信
 
 ## Notifications
 

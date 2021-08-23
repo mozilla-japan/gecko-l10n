@@ -52,13 +52,19 @@ state-not_private = 現在の会話はプライベートではありません。
 
 state-not-private = 現在の会話はプライベートではありません。
 
+state-generic-not-private = 現在の会話はプライベートではありません。
+
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-state-unverified = { $name } さんの身元がまだ確認されていないため、現在の会話は暗号化されていますがプライベートではありません。
+state-unverified = 現在の会話は暗号化されていますが、{ $name } さんの身元がまだ確認されていないためプライベートではありません。
+
+state-generic-unverified = 現在の会話は暗号化されていますが、一部の参加者の身元がまだ確認されていないためプライベートではありません。
 
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-private = { $name } さんの身元が確認されました。現在の会話は暗号化されておりプライベートです。
+
+state-generic-private = 現在の会話は暗号化されておりプライベートです。
 
 # Variables:
 #   $name (String) - the screen name of a chat contact person
