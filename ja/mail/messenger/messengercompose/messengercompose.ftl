@@ -156,8 +156,8 @@ many-public-recipients-prompt-msg = { $count ->
     *[other] あなたのメッセージは {$count} 件の受信者が開示されており、受信者が互いにこれらのアドレスを見られるため、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
 }
 
-many-public-recipients-prompt-cancel = Cancel Sending
-many-public-recipients-prompt-send = Send Anyway
+many-public-recipients-prompt-cancel = 送信をキャンセル
+many-public-recipients-prompt-send = 強制送信
 
 ## Notifications
 
