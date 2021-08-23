@@ -199,8 +199,8 @@ addon-updates-view-updates = 最近更新したアドオンを表示
 
 # This menu item is a checkbox that toggles the default global behavior for
 # add-on update checking.
-
-addon-updates-update-addons-automatically = アドオンを自動的に更新
+# (^m^) en-US: Update Add-ons Autmatically
+addon-updates-update-addons-automatically = アドオンを@@Default@@で自動更新する
     .accesskey = A
 
 ## Specific add-ons can have custom update checking behaviors ("Manually",
@@ -208,10 +208,11 @@ addon-updates-update-addons-automatically = アドオンを自動的に更新
 ## update checking behavior for all add-ons to the default global behavior
 ## (which itself is either "Automatically" or "Manually", controlled by the
 ## extensions-updates-update-addons-automatically.label menu item).
-
-addon-updates-reset-updates-to-automatic = すべてのアドオンを自動的に更新
+# (^m^) 原文が直感的でないため実際の動作に合わせて、"Automatically / Manually" を使わない表現に変更した。
+# https://github.com/mozilla-japan/gecko-l10n/issues/263
+addon-updates-reset-updates-to-automatic = すべてのアドオンの更新設定を@@Default@@にリセット
     .accesskey = R
-addon-updates-reset-updates-to-manual = すべてのアドオンを手動で更新
+addon-updates-reset-updates-to-manual = すべてのアドオンの更新設定を@@Default@@にリセット
     .accesskey = R
 
 ## Status messages displayed when updating add-ons
@@ -362,11 +363,11 @@ addon-detail-reviews-link = { $numberOfReviews } 件のレビュー
 #   $addon (string) - Name of the add-on
 pending-uninstall-description = <span data-l10n-name="addon-name">{ $addon }</span> は削除されます。
 pending-uninstall-undo-button = @@Undo@@
-addon-detail-updates-label = 自動更新の許可
+addon-detail-updates-label = このアドオンの自動更新
 addon-detail-updates-radio-default = @@Default@@
-addon-detail-updates-radio-on = オン
-addon-detail-updates-radio-off = オフ
-addon-detail-update-check-label = 更新の確認
+addon-detail-updates-radio-on = 許可する
+addon-detail-updates-radio-off = 許可しない
+addon-detail-update-check-label = 今すぐ確認
 install-update-button = 更新
 # This is the tooltip text for the private browsing badge in about:addons. The
 # badge is the private browsing icon included next to the extension's name.
