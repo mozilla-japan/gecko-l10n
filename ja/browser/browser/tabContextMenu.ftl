@@ -99,6 +99,12 @@ tab-context-reopen-closed-tabs =
 tab-context-close-tabs =
     .label = タブを閉じる
     .accesskey = C
+tab-context-close-n-tabs =
+    .label =
+        { $tabCount ->
+            [1] タブを閉じる
+           *[other] { $tabCount } 個のタブを閉じる
+        }
 tab-context-move-tabs =
     .label = タブを移動
     .accesskey = v

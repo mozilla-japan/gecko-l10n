@@ -64,6 +64,11 @@ data-section-label = データ
 item-site-preferences =
     .label = サイトの設定
     .accesskey = S
+
+item-site-settings =
+    .label = サイトの設定
+    .accesskey = S
+
 item-offline-apps =
     .label = ウェブサイトのオフライン作業用データ
     .accesskey = O

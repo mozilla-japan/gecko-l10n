@@ -149,7 +149,6 @@ this container is a toolbar. This avoids double-speaking. -->
 <!ENTITY historyUndoWindowMenu.label		"最近閉じた@@Window@@">
 
 <!ENTITY appMenuHistory.showAll.label		"すべての履歴を表示">
-
 <!ENTITY appMenuHistory.clearRecent.label	"最近の履歴を消去...">
 <!ENTITY appMenuHistory.restoreSession.label	"以前のセッションを復元">
 <!ENTITY appMenuHistory.viewSidebar.label	"履歴サイドバーを表示">
