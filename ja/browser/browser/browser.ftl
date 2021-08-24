@@ -87,6 +87,10 @@ urlbar-plugins-notification-anchor =
     .tooltiptext = 使用するプラグインを管理します
 urlbar-web-rtc-share-devices-notification-anchor =
     .tooltiptext = カメラとマイクの共有を管理します
+# "Speakers" is used in a general sense that might include headphones or
+# another audio output connection.
+urlbar-web-rtc-share-speaker-notification-anchor =
+    .tooltiptext = その他のスピーカーの共有を管理します
 urlbar-autoplay-notification-anchor =
     .tooltiptext = 自動再生パネルを開きます
 urlbar-persistent-storage-notification-anchor =
@@ -699,3 +703,7 @@ remote-tabs-manage-account =
 remote-tabs-sync-now = 今すぐ同期
 
 ##
+
+# "More" item in macOS share menu
+menu-share-more =
+    .label = その他...

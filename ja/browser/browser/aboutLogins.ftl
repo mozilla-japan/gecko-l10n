@@ -51,6 +51,8 @@ login-list-count = { $count } 件のログイン情報
 login-list-sort-label-text = 並べ替え:
 login-list-name-option = 名前 (昇順)
 login-list-name-reverse-option = 名前 (降順)
+login-list-username-option = ユーザー名 (昇順)
+login-list-username-reverse-option = ユーザー名 (降順)
 about-logins-login-list-alerts-option = 警告
 login-list-last-changed-option = 最終更新日時
 login-list-last-used-option = 最終利用日時
@@ -65,6 +67,13 @@ about-logins-list-item-breach-icon =
   .title = 漏洩したウェブサイト
 about-logins-list-item-vulnerable-password-icon =
   .title = 脆弱なパスワード
+
+about-logins-list-section-breach = 漏洩したウェブサイト
+about-logins-list-section-vulnerable = 脆弱なパスワード
+about-logins-list-section-nothing = 警告なし
+about-logins-list-section-today = 今日
+about-logins-list-section-yesterday = 昨日
+about-logins-list-section-week = 直近 1 週間
 
 ## Introduction screen
 

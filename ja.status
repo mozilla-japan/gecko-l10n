@@ -1162,4 +1162,6 @@ Released! [l10n-mozilla-92.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mail, chat              14532:a95d6e4e622c   2021-08-19     mar             sync mail, chat
+browser                 14532:a95d6e4e622c   2021-08-19     hATrayflood     sync browser
+devtools                14532:a95d6e4e622c   2021-08-19     hATrayflood     sync devtools
 

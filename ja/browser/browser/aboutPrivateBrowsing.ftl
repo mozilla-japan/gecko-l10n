@@ -9,6 +9,8 @@ about-private-browsing-info-title = プライベート@@Window@@です
 about-private-browsing-info-myths = プライベートブラウジングに共通する話題
 about-private-browsing =
     .title = ウェブ検索
+about-private-browsing-search-btn =
+    .title = ウェブ検索
 # Variables
 #  $engine (String): the name of the user's default search engine
 about-private-browsing-handoff =

@@ -57,8 +57,6 @@ protections-panel-not-found-label = 検出されませんでした
 ##
 
 protections-panel-settings-label = 保護設定
-
-# This should match the "appmenuitem-protection-dashboard-title" string in browser/appmenu.ftl.
 protections-panel-protectionsdashboard-label = プライバシー保護ダッシュボード
 
 ## In the Site Not Working? view, we suggest turning off protections if

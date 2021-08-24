@@ -91,9 +91,6 @@ perftools-thread-img-decoder =
   .title = 画像デコードスレッドです
 perftools-thread-dns-resolver =
   .title = DNS の名前解決が行われるスレッドです
-perftools-thread-js-helper =
-  .title = メインスレッド外コンパイルなど、JS エンジンのバックエンド処理のスレッドです
-
 perftools-thread-task-controller =
   .title = タスクコントローラのスレッドプールにあるスレッドです
 

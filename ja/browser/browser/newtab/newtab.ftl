@@ -8,9 +8,7 @@
 newtab-page-title = @@NewTab@@
 newtab-settings-button =
     .title = @@NewTab@@ページをカスタマイズ
-newtab-personalize-button-label = パーソナライズ
-    .title = @@NewTab@@をパーソナライズ
-    .aria-label = @@NewTab@@をパーソナライズ
+
 newtab-personalize-icon-label =
     .title = @@NewTab@@をパーソナライズ
     .aria-label = @@NewTab@@をパーソナライズ
@@ -42,6 +40,8 @@ newtab-search-box-search-the-web-input =
     .placeholder = ウェブを検索
     .title = ウェブを検索
     .aria-label = ウェブを検索
+
+newtab-search-box-text = ウェブを検索
 newtab-search-box-input =
     .placeholder = ウェブを検索
     .aria-label = ウェブを検索
@@ -245,10 +245,4 @@ newtab-custom-pocket-sponsored = 広告ストーリー
 newtab-custom-recent-title = 最近のアクティビティ
 newtab-custom-recent-subtitle = 最近のサイトとコンテンツの抜粋
 newtab-custom-close-button = 閉じる
-# For the "Snippets" feature traditionally on about:home.
-# Alternative translation options: "Small Note" or something that
-# expresses the idea of "a small message, shortened from something else,
-# and non-essential but also not entirely trivial and useless.
-newtab-custom-snippets-title = スニペット
-newtab-custom-snippets-subtitle = { -vendor-short-name } と { -brand-product-name } に関するヒントと最新情報
 newtab-custom-settings = 他の設定を管理
