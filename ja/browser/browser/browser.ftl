@@ -540,6 +540,9 @@ urlbar-result-action-search-bookmarks = ブックマークを検索
 urlbar-result-action-search-history = 履歴を検索
 urlbar-result-action-search-tabs = タブを検索
 
+## Labels shown above groups of urlbar results
+
+
 ## Full Screen and Pointer Lock UI
 
 # Please ensure that the domain stays in the `<span data-l10n-name="domain">` markup.
@@ -707,3 +710,24 @@ remote-tabs-sync-now = 今すぐ同期
 # "More" item in macOS share menu
 menu-share-more =
     .label = その他...
+ui-tour-info-panel-close =
+    .tooltiptext = 閉じる
+
+## Variables:
+##  $uriHost (String): URI host for which the popup was allowed or blocked.
+
+popups-infobar-allow =
+    .label = このサイト ({ $uriHost }) によるポップアップを許可する
+    .accesskey = p
+popups-infobar-block =
+    .label = このサイト ({ $uriHost }) によるポップアップを禁止する
+    .accesskey = p
+
+##
+
+popups-infobar-dont-show-message =
+    .label = ポップアップをブロックするとき、このメッセージを表示しない
+    .accesskey = D
+picture-in-picture-hide-toggle =
+    .label = ピクチャーインピクチャーの切り替えボタンを隠す
+    .accesskey = H
