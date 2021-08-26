@@ -50,15 +50,15 @@ permissions-autoplay-menu = すべてのウェブサイトの@@DefaultValue@@:
 permissions-searchbox =
     .placeholder = ウェブサイトを検索
 permissions-capabilities-autoplay-allow =
-    .label = 音声と動画の再生を許可
+    .label = 音声と動画を許可
 permissions-capabilities-autoplay-block =
-    .label = 音声の再生をブロック
+    .label = 音声ありをブロック
 permissions-capabilities-autoplay-blockall =
-    .label = 音声と動画の再生をブロック
+    .label = 音声と動画をブロック
 permissions-capabilities-allow =
     .label = 許可
 permissions-capabilities-block =
-    .label = 不許可
+    .label = ブロック
 permissions-capabilities-prompt =
     .label = 常に確認
 permissions-capabilities-listitem-allow =
@@ -134,7 +134,7 @@ permissions-site-notification-window =
     .style = { permissions-window.style }
 permissions-site-notification-desc = 次のウェブサイトがユーザーへの通知を要求しています。通知を許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
 permissions-site-notification-disable-label =
-    .label = 通知の許可の要求をブロック
+    .label = 通知の許可の要求をブロックする
 permissions-site-notification-disable-desc = 上記以外のウェブサイトは、通知の許可を要求させないようにします。通知をブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
 
 ## Site Permissions - Location
@@ -144,7 +144,7 @@ permissions-site-location-window =
     .style = { permissions-window.style }
 permissions-site-location-desc = 次のウェブサイトがユーザーの位置情報へのアクセスを要求しています。位置情報へのアクセスを許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
 permissions-site-location-disable-label =
-    .label = 位置情報へのアクセスの要求をブロック
+    .label = 位置情報へのアクセスの要求をブロックする
 permissions-site-location-disable-desc = 上記以外のウェブサイトは、位置情報へのアクセスを要求させないようにします。位置情報へのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
 
 ## Site Permissions - Virtual Reality
@@ -154,7 +154,7 @@ permissions-site-xr-window =
     .style = { permissions-window.style }
 permissions-site-xr-desc = 次のウェブサイトが VR デバイスへのアクセスを要求しています。VR デバイスへのアクセスを許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
 permissions-site-xr-disable-label =
-    .label = VR デバイスへのアクセスの要求をブロック
+    .label = VR デバイスへのアクセスの要求をブロックする
 permissions-site-xr-disable-desc = 上記以外のウェブサイトは、VR デバイスへのアクセスを要求させないようにします。VR デバイスへのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
 
 ## Site Permissions - Camera
@@ -164,7 +164,7 @@ permissions-site-camera-window =
     .style = { permissions-window.style }
 permissions-site-camera-desc = 次のウェブサイトがカメラへのアクセスを要求しています。カメラへのアクセスを許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
 permissions-site-camera-disable-label =
-    .label = カメラへのアクセスの要求をブロック
+    .label = カメラへのアクセスの要求をブロックする
 permissions-site-camera-disable-desc = 上記以外のウェブサイトは、カメラへのアクセスを要求させないようにします。カメラへのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
 
 ## Site Permissions - Microphone
@@ -174,5 +174,5 @@ permissions-site-microphone-window =
     .style = { permissions-window.style }
 permissions-site-microphone-desc = 次のウェブサイトがマイクへのアクセスを要求しています。マイクへのアクセスを許可するウェブサイトを指定してください。これ以後の要求をブロックすることもできます。
 permissions-site-microphone-disable-label =
-    .label = マイクへのアクセスの要求をブロック
+    .label = マイクへのアクセスの要求をブロックする
 permissions-site-microphone-disable-desc = 上記以外のウェブサイトは、マイクへのアクセスを要求させないようにします。マイクへのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
