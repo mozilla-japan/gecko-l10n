@@ -10,3 +10,5 @@ sidebar-menu-synced-tabs =
     .label = 同期タブ
 sidebar-menu-close =
     .label = サイドバーを閉じる
+sidebar-close-button =
+    .tooltiptext = サイドバーを閉じます
