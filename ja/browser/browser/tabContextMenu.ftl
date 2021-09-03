@@ -109,3 +109,6 @@ tab-context-close-n-tabs =
 tab-context-move-tabs =
     .label = タブを移動
     .accesskey = v
+tab-context-send-tabs-to-device =
+    .label = { $tabCount } 個のタブを端末へ送信
+    .accesskey = n
