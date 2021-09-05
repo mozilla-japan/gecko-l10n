@@ -334,7 +334,7 @@ mr1-onboarding-default-primary-button-label = @@DefaultBrowser@@に設定する
 
 ## Multistage MR1 onboarding strings (about:welcome pages)
 
-mr1-onboarding-import-header = すべて持ってこれます
+mr1-onboarding-import-header = すべて持ってこられます
 mr1-onboarding-import-subtitle = パスワードやブックマークなどを<br/>@@Import-deki@@ます。
 
 # The primary import button label will depend on whether we can detect which browser was used to download Firefox.
