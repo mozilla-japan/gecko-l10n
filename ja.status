@@ -1164,3 +1164,8 @@ mail, chat              14532:a95d6e4e622c   2021-08-19     mar             sync
 browser                 14532:a95d6e4e622c   2021-08-19     hATrayflood     sync browser
 devtools                14532:a95d6e4e622c   2021-08-19     hATrayflood     sync devtools
 
+[l10n-mozilla-93.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+mobile                  14557:ac1dc4229bd4   2021-09-10     mar             sync mobile
+
