@@ -6,13 +6,12 @@
 dirname                 Repo    App             補足
 --------------------------------------------------------------------------------
 browser                 moz     Fx              Firefox
-calendar                comm    Sb              Sunbird/Lightning
+calendar                comm    Tb              Sunbird/Lightning
 chat                    comm    Tb              Instant Messaging
 devtools                moz     Fx, Fe, Sm      開発者ツール
 dom                     moz     all
-editor/ui               comm    Tb, Sm          メール編集画面
 extensions
-  inspector             dom-i   Fx, Sm          DOM Inspector
+  inspector             dom-i   Sm              DOM Inspector
   irc                   moz     Sm              IRC Client Chatzilla
   spellcheck            moz     Fx, Tb, Sm      日本語のスペルチェックは無し
 mail                    comm    Tb              Thunderbird
