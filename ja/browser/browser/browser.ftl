@@ -160,12 +160,8 @@ urlbar-star-add-bookmark =
 
 ## Page Action Context Menu
 
-page-action-add-to-urlbar =
-    .label = アドレスバーに追加
 page-action-manage-extension =
     .label = 拡張機能を管理...
-page-action-remove-from-urlbar =
-    .label = アドレスバーから削除
 page-action-remove-extension =
     .label = 拡張機能を削除
 
@@ -183,10 +179,6 @@ full-screen-exit =
 # This string prompts the user to use the list of search shortcuts in
 # the Urlbar and searchbar.
 search-one-offs-with-title = 今回だけ使う検索エンジン:
-# This string won't wrap, so if the translated string is longer,
-# consider translating it as if it said only "Search Settings".
-search-one-offs-change-settings-button =
-    .label = 検索設定を変更
 search-one-offs-change-settings-compact-button =
     .tooltiptext = 検索設定を変更します
 search-one-offs-context-open-new-tab =
@@ -246,8 +238,6 @@ bookmark-panel-remove =
 bookmark-panel-show-editor-checkbox =
     .label = 追加時にエディターを表示する
     .accesskey = S
-bookmark-panel-done-button =
-    .label = 完了
 bookmark-panel-save-button =
     .label = 保存
 # Width of the bookmark panel.
@@ -277,8 +267,6 @@ identity-passive-loaded = このページの一部 (画像など) は安全で�
 identity-active-loaded = このページでの保護は無効に設定されています。
 identity-weak-encryption = このページは脆弱な暗号を使用しています。
 identity-insecure-login-forms = このページのログインフォームは安全ではありません。
-identity-permissions =
-    .value = このサイトの設定
 identity-https-only-connection-upgraded = (HTTPS で接続中)
 identity-https-only-label = HTTPS-Only モード
 identity-https-only-dropdown-on =
@@ -294,7 +282,6 @@ identity-permissions-storage-access-header = クロスサイト Cookie
 identity-permissions-storage-access-hint = 以下のサイトが、あなたがこのサイトにいる間、クロスサイト Cookie とサイトデータにアクセスできます。
 identity-permissions-storage-access-learn-more = 詳細情報
 identity-permissions-reload-hint = 変更内容を適用するには、ページの再読み込みが必要です。
-identity-permissions-empty = このサイトに特別な権限は設定されていません。
 identity-clear-site-data =
     .label = Cookie とサイトデータを消去...
 identity-connection-not-secure-security-view = このサイトとの接続は安全ではありません。
@@ -376,12 +363,6 @@ bookmarks-toolbar-empty-message = ブックマークをこのブックマーク�
 
 ## WebRTC Pop-up notifications
 
-popup-select-camera =
-    .value = 共有するカメラ:
-    .accesskey = C
-popup-select-microphone =
-    .value = 共有するマイク:
-    .accesskey = M
 popup-select-camera-device =
     .value = カメラ:
     .accesskey = C
@@ -395,14 +376,6 @@ popup-select-microphone-icon =
 popup-select-speaker-icon =
     .tooltiptext = スピーカー
 popup-all-windows-shared = 画面に表示されているすべての@@Window@@を共有します。
-popup-screen-sharing-not-now =
-    .label = 後で
-    .accesskey = w
-popup-screen-sharing-never =
-    .label = 以後許可しない
-    .accesskey = N
-popup-silence-notifications-checkbox = 共有中は { -brand-short-name } からの通知を無効にする。
-popup-silence-notifications-checkbox-warning = 共有中は { -brand-short-name } からの通知を表示しないようにします。
 popup-screen-sharing-block =
     .label = ブロック
     .accesskey = B
@@ -426,14 +399,10 @@ enable-devtools-popup-description = F12 ショートカットを使うには、�
 
 ## URL Bar
 
-urlbar-default-placeholder =
-    .defaultPlaceholder = URL または検索語句を入力します
 # This placeholder is used when not in search mode and the user's default search
 # engine is unknown.
 urlbar-placeholder =
     .placeholder = URL または検索語句を入力します
-urlbar-remote-control-notification-anchor =
-    .tooltiptext = ブラウザーがリモート制御下にあります
 # This placeholder is used in search mode with search engines that search the
 # entire web.
 # Variables
@@ -482,8 +451,6 @@ urlbar-go-button =
     .tooltiptext = アドレスバーに入力された URL へ移動します
 urlbar-page-action-button =
     .tooltiptext = ページ操作
-urlbar-pocket-button =
-    .tooltiptext = { -pocket-brand-name } に保存
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
@@ -678,6 +645,27 @@ more-menu-go-offline =
 toolbar-overflow-customize-button =
     .label = ツールバーをカスタマイズ...
     .accesskey = C
+toolbar-button-email-link =
+    .label = ページの URL をメールで送信
+    .tooltiptext = このページの URL をメールで送信します
+# Variables:
+#  $shortcut (String): keyboard shortcut to save a copy of the page
+toolbar-button-save-page =
+    .label = ページを保存
+    .tooltiptext = このページを保存します ({ $shortcut })
+# Variables:
+#  $shortcut (String): keyboard shortcut to open a local file
+toolbar-button-open-file =
+    .label = ファイルを開く
+    .tooltiptext = ファイルを開きます ({ $shortcut })
+toolbar-button-synced-tabs =
+    .label = 同期タブ
+    .tooltiptext = 他の端末のタブを表示します
+# Variables
+# $shortcut (string) - Keyboard shortcut to open a new private browsing window
+toolbar-button-new-private-window =
+    .label = @@New-CMD@@プライベート@@Window@@
+    .tooltiptext = @@New-CMD@@プライベートブラウジング@@Window@@を開きます ({ $shortcut })
 
 ## EME notification panel
 
