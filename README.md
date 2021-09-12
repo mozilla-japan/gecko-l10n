@@ -90,6 +90,10 @@ git push
   * https://pontoon.mozilla.org/ja/firefox-for-ios/
 * Firefox for Android (Fenix)
   * https://pontoon.mozilla.org/ja/firefox-for-android/
+* Firefox Focus for iOS
+  * https://pontoon.mozilla.org/ja/focus-for-ios/
+* Firefox Focus for Android
+  * https://pontoon.mozilla.org/ja/focus-for-android/
 * WebThings Gateway
   * https://pontoon.mozilla.org/ja/webthings-gateway/
 * その他ウェブサイト等
@@ -105,10 +109,6 @@ git push
   * ~Beta:~ (Developer Edition since 55.0, EOL in 56.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja-JP-mac/
-* ~Firefox Focus for iOS~ (EOL)
-  * https://pontoon.mozilla.org/ja/focus-for-ios/
-* ~Firefox Focus for Android~ (EOL)
-  * https://pontoon.mozilla.org/ja/focus-for-android/
 * ~Firefox OS (Gaia)~ (EOL)
   * https://github.com/mozilla-japan/gaia-l10n
   * (v2.6) https://hg.mozilla.org/gaia-l10n/ja/
@@ -118,8 +118,8 @@ git push
 ## Tools
 * Localization Tools (lot)
   * https://github.com/mozilla-japan/lot
-* L10n ダッシュボード
-  * https://l10n.mozilla.org/teams/ja
+* Pontoon Japanese projects (製品とウェブサイトのローカライズ)
+  * https://pontoon.mozilla.org/ja/
 * compare-locales Python script
   * https://developer.mozilla.org/docs/Mozilla/Projects/compare-locales
 
