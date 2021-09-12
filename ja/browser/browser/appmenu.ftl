@@ -12,23 +12,26 @@ appmenuitem-update-banner3 =
     .label-update-unsupported = 更新不可 — システムの互換性なし
     .label-update-restart = 更新可能 — 今すぐ再起動
 appmenuitem-protection-dashboard-title = プライバシー保護ダッシュボード
-appmenuitem-customize-mode =
-    .label = カスタマイズ...
-
-## Zoom Controls
-
 appmenuitem-new-tab =
     .label = @@New-CMD@@タブ
 appmenuitem-new-window =
     .label = @@NewWindow@@
 appmenuitem-new-private-window =
     .label = @@New-CMD@@プライベート@@Window@@
+appmenuitem-history =
+    .label = 履歴
+appmenuitem-downloads =
+    .label = ダウンロード
 appmenuitem-passwords =
     .label = パスワード
 appmenuitem-addons-and-themes =
     .label = アドオンとテーマ
+appmenuitem-print =
+    .label = @@Print@@...
 appmenuitem-find-in-page =
     .label = このページを検索...
+appmenuitem-zoom =
+    .value = ズーム
 appmenuitem-more-tools =
     .label = その他のツール
 appmenuitem-help =
@@ -57,16 +60,10 @@ appmenuitem-fullscreen =
 
 ## Firefox Account toolbar button and Sync panel in App menu.
 
-fxa-toolbar-sync-now =
-    .label = 今すぐ同期
 appmenu-remote-tabs-sign-into-sync =
     .label = ログインして同期...
 appmenu-remote-tabs-turn-on-sync =
     .label = 同期をオンにする...
-# This is shown after the tabs list if we can show all the remaining tabs by clicking on the button
-appmenu-remote-tabs-showall =
-    .label = すべて表示
-    .tooltiptext = この端末からのタブをすべて表示します
 # This is shown after the tabs list if we can display more tabs by clicking on the button
 appmenu-remote-tabs-showmore =
     .label = さらにタブを表示
@@ -83,6 +80,7 @@ appmenu-remote-tabs-connectdevice =
 appmenu-remote-tabs-welcome = 他の端末のタブ一覧を表示する。
 appmenu-remote-tabs-unverified = あなたのアカウントは検証する必要があります。
 appmenuitem-fxa-toolbar-sync-now2 = 今すぐ同期
+appmenuitem-fxa-sign-in = { -brand-product-name } にログイン
 appmenuitem-fxa-manage-account = アカウントを管理
 appmenu-fxa-header2 = { -fxaccount-brand-name }
 # Variables
