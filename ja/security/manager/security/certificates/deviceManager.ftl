@@ -86,8 +86,6 @@ devinfo-label =
     .label = ラベル
 devinfo-serialnum =
     .label = シリアル番号
-fips-nonempty-password-required = FIPS モードではすべてのセキュリティデバイスにマスターパスワードが設定されている必要があります。FIPS モードを有効にする前に、パスワードを設定してください。
-
 # (^m^) en-US: "Primary Password"
 fips-nonempty-primary-password-required = FIPS モードではすべてのセキュリティデバイスにマスターパスワードが設定されている必要があります。FIPS モードを有効にする前にパスワードを設定してください。
 unable-to-toggle-fips = セキュリティデバイスの FIPS モードを変更できません。このアプリケーションを終了し、再起動してください。

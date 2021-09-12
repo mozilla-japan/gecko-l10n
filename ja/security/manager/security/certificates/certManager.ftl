@@ -6,10 +6,8 @@ certmgr-title =
     .title = 証明書マネージャー
 certmgr-tab-mine =
     .label = あなたの証明書
-
 certmgr-tab-remembered =
     .label = 認証の決定
-
 certmgr-tab-people =
     .label = 個人証明書
 certmgr-tab-servers =
@@ -17,33 +15,10 @@ certmgr-tab-servers =
 certmgr-tab-ca =
     .label = 認証局証明書
 certmgr-mine = あなたが認証を受けるため以下の証明書が登録されています
-certmgr-remembered = これらの証明書はウェブサイトがあなたを識別するために使用されます。
+certmgr-remembered = これらの証明書はウェブサイトがあなたを識別するために使用されます
 certmgr-people = 他の人を識別するため以下の証明書が登録されています
-certmgr-servers = サーバーを識別するため以下の証明書が登録されています
 certmgr-server = これらのエントリーはサーバー証明書のエラー例外を識別します
 certmgr-ca = 認証局を識別するため以下の証明書が登録されています
-certmgr-detail-general-tab-title =
-    .label = 一般
-    .accesskey = G
-certmgr-detail-pretty-print-tab-title =
-    .label = 詳細
-    .accesskey = D
-certmgr-pending-label =
-    .value = 証明書を検証しています...
-certmgr-subject-label = 発行対象
-certmgr-issuer-label = 発行者
-certmgr-period-of-validity = 証明書の有効期間
-certmgr-fingerprints = 証明書のフィンガープリント
-certmgr-cert-detail =
-    .title = 証明書の詳細
-    .buttonlabelaccept = 閉じる
-    .buttonaccesskeyaccept = C
-certmgr-cert-detail-commonname = 一般名称 (CN)
-certmgr-cert-detail-org = 組織 (O)
-certmgr-cert-detail-orgunit = 部門 (OU)
-certmgr-cert-detail-serial-number = シリアル番号
-certmgr-cert-detail-sha-256-fingerprint = SHA-256 フィンガープリント
-certmgr-cert-detail-sha-1-fingerprint = SHA1 フィンガープリント
 certmgr-edit-ca-cert =
     .title = 認証局証明書に対する信頼性の設定
     .style = width: 48em;
@@ -65,10 +40,8 @@ certmgr-override-lifetime =
     .label = 例外承認期間
 certmgr-token-name =
     .label = セキュリティデバイス
-certmgr-begins-on = 発行日
 certmgr-begins-label =
     .label = 発行日
-certmgr-expires-on = 有効期限
 certmgr-expires-label =
     .label = 有効期限
 certmgr-email =
@@ -99,15 +72,6 @@ certmgr-backup-all =
 certmgr-restore =
     .label = @@Import@@...
     .accesskey = m
-certmgr-details =
-    .value = 証明書のフィールド
-    .accesskey = F
-certmgr-fields =
-    .value = フィールドの値
-    .accesskey = V
-certmgr-hierarchy =
-    .value = 証明書の階層
-    .accesskey = H
 certmgr-add-exception =
     .label = 例外を追加...
     .accesskey = x
@@ -160,17 +124,10 @@ delete-user-cert-title =
     .title = あなたの証明書を削除
 delete-user-cert-confirm = 本当にこの証明書を削除してもよろしいですか？
 delete-user-cert-impact = あなたの証明書を削除すると、今後この証明書で個人認証ができなくなります。
-delete-ssl-cert-title =
-    .title = サーバー証明書の例外を削除
-delete-ssl-cert-confirm = これらのサーバー証明書の例外を削除してもよろしいですか？
-delete-ssl-cert-impact = サーバー証明書の例外を削除すると、サーバーのセキュリティを通常の手順で確認するようになり、各サーバーに有効な証明書が求められます。
-
-
 delete-ssl-override-title =
     .title = サーバー証明書の例外を削除
 delete-ssl-override-confirm = このサーバー証明書の例外を削除してもよろしいですか？
 delete-ssl-override-impact = サーバー証明書の例外を削除すると、サーバーのセキュリティを通常の手順で確認するようになり、各サーバーに有効な証明書が求められます。
-
 delete-ca-cert-title =
     .title = 認証局の証明書を削除または信頼しない
 delete-ca-cert-confirm = この認証局 (CA) の証明書を削除しようとしています。削除すると組み込まれた証明書のすべての信頼性が失われます。本当にこの認証局証明書を削除するか信頼しない設定にしてもよろしいですか？
@@ -185,46 +142,10 @@ delete-email-cert-impact = メール証明書を削除すると、その人た�
 #   $serialNumber : the serial number of the cert in AA:BB:CC hex format.
 cert-with-serial =
     .value = シリアル番号付きの証明書: { $serialNumber }
-
-## Cert Viewer
-
-# Title used for the Certificate Viewer.
-#
-# Variables:
-#   $certificate : a string representative of the certificate being viewed.
-cert-viewer-title =
-    .title = 証明書ビューアー: “{ $certName }”
-not-present =
-    .value = <証明書に記載されていません>
-# Cert verification
-cert-verified = この証明書は以下の用途に使用する証明書であると検証されました:
-# Add usage
-verify-ssl-client =
-    .value = SSL クライアント証明書
-verify-ssl-server =
-    .value = SSL サーバー証明書
-verify-ssl-ca =
-    .value = SSL 認証局
-verify-email-signer =
-    .value = メール署名者の証明書
-verify-email-recip =
-    .value = メール受信者の証明書
-# Cert verification
-cert-not-verified-cert-revoked = この証明書はすでに失効しているため、有効性を検証できませんでした。
-cert-not-verified-cert-expired = この証明書は期限が切れているため、有効性を検証できませんでした。
-cert-not-verified-cert-not-trusted = この証明書を信頼していないため、有効性を検証できませんでした。
-cert-not-verified-issuer-not-trusted = 発行者を信頼していないため、この証明書の有効性を検証できませんでした。
-cert-not-verified-issuer-unknown = 発行者が不明であるため、この証明書の有効性を検証できませんでした。
-cert-not-verified-ca-invalid = 認証局の証明書が無効であるため、この証明書の有効性を検証できませんでした。
-cert-not-verified_algorithm-disabled = 安全ではない署名アルゴリズムによって署名されているため、この証明書の有効性を検証できませんでした。
-cert-not-verified-unknown = 原因不明の問題により、この証明書の有効性を検証できませんでした。
-
 # Used to indicate that the user chose not to send a client authentication certificate to a server that requested one in a TLS handshake.
 send-no-client-certificate = 送信するクライアント証明書がありません。
-
 # Used when no cert is stored for an override
 no-cert-stored-for-override = (保存されていません)
-
 # When a certificate is unavailable (for example, it has been deleted or the token it exists on has been removed).
 certificate-not-available = (利用できません)
 
