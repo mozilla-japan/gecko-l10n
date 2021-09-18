@@ -749,6 +749,11 @@ navbar-search =
     .title = 検索
 navbar-accessibility-indicator =
     .tooltiptext = アクセシビリティ機能が有効です
+# Name for the tabs toolbar as spoken by screen readers. The word
+# "toolbar" is appended automatically and should not be included in
+# in the string
+tabs-toolbar =
+    .aria-label = ブラウザータブ
 tabs-toolbar-new-tab =
     .label = @@NewTab@@
 tabs-toolbar-list-all-tabs =
