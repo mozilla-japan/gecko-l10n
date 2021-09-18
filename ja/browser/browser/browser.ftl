@@ -719,3 +719,38 @@ popups-infobar-dont-show-message =
 picture-in-picture-hide-toggle =
     .label = ピクチャーインピクチャーの切り替えボタンを隠す
     .accesskey = H
+
+# Navigator Toolbox
+
+# This string is a spoken label that should not include
+# the word "toolbar" or such, because screen readers already know that
+# this container is a toolbar. This avoids double-speaking.
+navbar-accessible =
+    .aria-label = ナビゲーション
+navbar-downloads =
+    .label = ダウンロード
+navbar-overflow =
+    .tooltiptext = その他のツール...
+# Variables:
+#   $shortcut (String): keyboard shortcut to print the page
+navbar-print =
+    .label = @@Print@@
+    .tooltiptext = このページを@@Print@@します... ({ $shortcut })
+navbar-print-tab-modal-disabled =
+    .label = @@Print@@
+    .tooltiptext = このページを@@Print@@します
+navbar-home =
+    .label = ホーム
+    .tooltiptext = { -brand-short-name } のホームページです
+navbar-library =
+    .label = ブラウジングライブラリー
+    .tooltiptext = 履歴や保存したブックマークなどを表示します
+navbar-search =
+    .title = 検索
+navbar-accessibility-indicator =
+    .tooltiptext = アクセシビリティ機能が有効です
+tabs-toolbar-new-tab =
+    .label = @@NewTab@@
+tabs-toolbar-list-all-tabs =
+    .label = タブを一覧表示する
+    .tooltiptext = タブを一覧表示します
