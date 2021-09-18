@@ -37,3 +37,5 @@ text-action-select-all-shortcut =
     .key = A
 text-action-spell-no-suggestions =
     .label = 修正候補なし
+text-action-search-text-box-clear =
+    .title = 消去
