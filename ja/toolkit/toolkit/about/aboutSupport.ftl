@@ -9,11 +9,6 @@ crashes-id = レポート ID
 crashes-send-date = 送信日時
 crashes-all-reports = すべてのクラッシュレポート
 crashes-no-config = この@@Application@@はクラッシュレポートを表示できるように設定されていません。
-extensions-title = 拡張機能
-extensions-name = アドオン名
-extensions-enabled = 有効
-extensions-version = バージョン
-extensions-id = ID
 support-addons-title = アドオン
 support-addons-name = アドオン名
 support-addons-type = 種類
@@ -128,8 +123,6 @@ sandbox-sys-call-tid = TID
 sandbox-sys-call-proc-type = プロセスの種類
 sandbox-sys-call-number = Syscall
 sandbox-sys-call-args = 引数
-safe-mode-title = セーフモードを試す
-restart-in-safe-mode-label = アドオンを無効化して再起動...
 troubleshoot-mode-title = 問題の原因調査
 restart-in-troubleshoot-mode-label = トラブルシューティングモード...
 clear-startup-cache-title = 起動時キャッシュの消去を試行
@@ -253,10 +246,6 @@ webgl2-renderer = WebGL 2 ドライバーのレンダラー
 webgl2-version = WebGL 2 ドライバーのバージョン
 webgl2-driver-extensions = WebGL 2 ドライバーの拡張
 webgl2-extensions = WebGL 2 拡張
-blocklisted-bug = 既知の問題によりブロックリストに掲載されています
-# Variables
-# $bugNumber (string) - String of bug number from Bugzilla
-bug-link = Bug { $bugNumber }
 # Variables
 #   $bugNumber (string) - Bug number on Bugzilla
 support-blocklisted-bug = 既知の問題によりブロックリストに追加: <a data-l10n-name="bug-link">bug { $bugNumber }</a>
@@ -264,8 +253,6 @@ support-blocklisted-bug = 既知の問題によりブロックリストに追加
 # $failureCode (string) - String that can be searched in the source tree.
 unknown-failure = ブロックリストに掲載。失敗コード { $failureCode }
 d3d11layers-crash-guard = D3D11 コンポジター
-d3d11video-crash-guard = D3D11 動画デコーダー
-d3d9video-crash-guard = D3D9 動画デコーダー
 glcontext-crash-guard = OpenGL
 wmfvpxvideo-crash-guard = WMF VPX 動画デコーダー
 reset-on-next-restart = 次回起動時にリセット
@@ -305,14 +292,6 @@ launcher-process-status-unknown = 状態不明
 # $remoteWindows (integer) - Number of remote windows
 # $totalWindows (integer) - Number of total windows
 multi-process-windows = { $remoteWindows }/{ $totalWindows }
-multi-process-status-0 = ユーザー設定により有効
-multi-process-status-1 = @@Default@@で有効
-multi-process-status-2 = 無効
-multi-process-status-4 = アクセシビリティツールにより無効
-multi-process-status-6 = 未サポートのテキスト入力により無効
-multi-process-status-7 = アドオンにより無効
-multi-process-status-8 = 強制的に無効
-multi-process-status-unknown = 状態不明
 # Variables
 # $fissionWindows (integer) - Number of remote windows
 # $totalWindows (integer) - Number of total windows
@@ -364,7 +343,6 @@ support-remote-experiments-title = リモート機能の実験
 support-remote-experiments-name = 機能名
 support-remote-experiments-branch = 実験ブランチ
 support-remote-experiments-see-about-studies = 各実験を無効にする方法や、これらの今後の実験を { -brand-short-name } で無効にする方法を含め、詳しい情報は <a data-l10n-name="support-about-studies-link">about:studies</a> をご覧ください。
-
 support-remote-features-title = リモート機能
 support-remote-features-name = 機能名
 support-remote-features-status = 状態
