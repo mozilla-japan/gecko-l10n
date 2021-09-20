@@ -12,18 +12,18 @@ bookmark-overlay-folder =
     .value = フォルダー:
 
 bookmark-overlay-name-2 =
-  .value = 名前
-  .accesskey = N
+    .value = 名前
+    .accesskey = N
 
 bookmark-overlay-url =
-  .value = URL
-  .accesskey = U
+    .value = URL
+    .accesskey = U
 
 # Location refers to the position of the bookmark within the browser's
 # bookmarks, not to its URL or address.
 bookmark-overlay-location-2 =
-  .value = 保存場所
-  .accesskey = L
+    .value = 保存場所
+    .accesskey = L
 
 bookmark-overlay-choose =
     .label = 選択...
@@ -39,8 +39,8 @@ bookmark-overlay-tags =
     .accesskey = T
 
 bookmark-overlay-tags-2 =
-  .value = タグ
-  .accesskey = T
+    .value = タグ
+    .accesskey = T
 
 bookmark-overlay-tags-empty-description =
     .placeholder = カンマ区切りで複数入力できます
@@ -53,9 +53,8 @@ bookmark-overlay-keyword =
     .accesskey = K
 
 bookmark-overlay-keyword-2 =
-  .value = キーワード
-  .accesskey = K
+    .value = キーワード
+    .accesskey = K
 
-bookmark-overlay-tags-caption-label = タグをブックマークの管理とアドレスバーからの検索に使用する
-
-bookmark-overlay-keyword-caption-label-2 = キーワードをアドレスバーから直接ブックマークを開くのに使用する
+bookmark-overlay-tags-caption-label = タグはブックマークの整理とアドレスバーからの検索に使用します
+bookmark-overlay-keyword-caption-label-2 = キーワードはアドレスバーから直接ブックマークを開くのに使用します
