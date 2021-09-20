@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-addons-window =
-    .title = アドオンマネージャー
-
 addons-page-title = アドオンマネージャー
 search-header =
     .placeholder = addons.mozilla.org を検索
@@ -25,17 +22,6 @@ list-empty-button =
 help-button = アドオンのサポート
 sidebar-help-button-title =
     .title = アドオンのサポート
-preferences =
-    { PLATFORM() ->
-        [windows] { -brand-short-name } オプション
-       *[other] { -brand-short-name } 設定
-    }
-sidebar-preferences-button-title =
-    .title =
-        { PLATFORM() ->
-            [windows] { -brand-short-name } オプション
-           *[other] { -brand-short-name } 設定
-        }
 addons-settings-button = { -brand-short-name } 設定
 sidebar-settings-button-title =
     .title = { -brand-short-name } 設定
@@ -43,36 +29,6 @@ show-unsigned-extensions-button =
     .label = 一部の拡張機能を検証できませんでした
 show-all-extensions-button =
     .label = すべての拡張機能を表示
-cmd-show-details =
-    .label = 詳細情報を表示
-    .accesskey = S
-cmd-find-updates =
-    .label = 更新を確認
-    .accesskey = F
-cmd-preferences =
-    .label =
-        { PLATFORM() ->
-            [windows] 設定
-           *[other] 設定
-        }
-    .accesskey =
-        { PLATFORM() ->
-            [windows] O
-           *[other] P
-        }
-cmd-enable-theme =
-    .label = テーマを適用
-    .accesskey = W
-cmd-disable-theme =
-    .label = テーマを外す
-    .accesskey = W
-cmd-install-addon =
-    .label = インストール
-    .accesskey = I
-cmd-contribute =
-    .label = 寄付
-    .accesskey = C
-    .tooltiptext = このアドオンの開発者に寄付します
 detail-version =
     .label = バージョン
 detail-last-updated =
@@ -330,7 +286,6 @@ dictionary-enabled-heading = 有効
 dictionary-disabled-heading = 無効
 locale-enabled-heading = 有効
 locale-disabled-heading = 無効
-ask-to-activate-button = 実行時に確認
 always-activate-button = 常に有効化
 never-activate-button = 無効化
 addon-detail-author-label = 作者

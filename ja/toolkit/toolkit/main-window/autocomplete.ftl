@@ -4,16 +4,6 @@
 
 ### Import Logins Autocomplete
 
-# Variables:
-#   $browser (String) - Browser name to import logins from.
-#   $host (String) - Host name of the current site.
-autocomplete-import-logins =
-    <div data-l10n-name="line2">{ $host } および他のサイトのログイン情報を</div>
-    <div data-l10n-name="line1">{ $browser } から@@Import-si@@ます</div>
-
-autocomplete-import-logins-info =
-    .tooltiptext = 詳細情報
-
 ## Variables:
 ##   $host (String) - Host name of the current site.
 

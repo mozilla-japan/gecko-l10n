@@ -36,11 +36,6 @@ abuse-report-goback-button = 戻る
 abuse-report-submit-button = 送信
 
 ## Message bars descriptions.
-
-## Variables:
-##   $addon-name (string) - Name of the add-on
-
-## Message bars descriptions.
 ##
 ## Variables:
 ##   $addon-name (string) - Name of the add-on

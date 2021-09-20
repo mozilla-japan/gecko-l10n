@@ -10,6 +10,12 @@ experimental-features-css-masonry-description = 実験的な CSS Masonry レイ�
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
+experimental-features-css-cascade-layers =
+    .label = CSS: カスケードレイヤー
+experimental-features-css-cascade-layers-description = CSS Cascade Layers をサポートします。詳細は <a data-l10n-name="spec">策定中の仕様</a> を参照してください。この機能に関連するバグについては <a data-l10n-name="bugzilla">bug 1699215</a> をブロックするバグとして報告してください。
+
+# The title of the experiment should be kept in English as it may be referenced
+# by various online articles and is technical in nature.
 experimental-features-web-gpu2 =
     .label = Web API: WebGPU
 experimental-features-web-gpu-description2 = この新しい API は、ユーザーの端末やコンピューターに搭載された <a data-l10n-name="wikipedia">Graphics Processing Unit (GPU)</a> を使用するグラフィックス描画と計算を扱うための低レベルサポートを提供します。WebGPU の <a data-l10n-name="spec">仕様</a> はまだ策定中です。詳細は <a data-l10n-name="bugzilla">bug 1602129</a> を参照してください。
