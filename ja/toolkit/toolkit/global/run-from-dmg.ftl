@@ -8,7 +8,7 @@
 ## user accepts.
 
 prompt-to-install-title = { -brand-short-name } のインストールを完了しますか？
-prompt-to-install-message = あと一つのインストール手順を完了して { -brand-short-name } を最新バージョンに保ち、データ損失を防ぎましょう。{ -brand-short-name } が Applications フォルダーと Dock に追加されます。
+prompt-to-install-message = あと一つのインストール手順を完了して { -brand-short-name } を最新バージョンに保ち、データ損失を防ぎましょう。{ -brand-short-name } がアプリケーションフォルダーと Dock に追加されます。
 prompt-to-install-yes-button = インストールする
 prompt-to-install-no-button = インストールしない
 
