@@ -509,6 +509,17 @@ urlbar-result-action-search-tabs = タブを検索
 
 ## Labels shown above groups of urlbar results
 
+# A label shown above the "Firefox Suggest" (bookmarks/history) group in the
+# urlbar results.
+urlbar-group-firefox-suggest =
+  .label = { -firefox-suggest-brand-name }
+
+# A label shown above the search suggestions group in the urlbar results. It
+# should use title case.
+# Variables
+#  $engine (String): the name of the search engine providing the suggestions
+urlbar-group-search-suggestions =
+  .label = { $engine } の検索候補
 
 ## Full Screen and Pointer Lock UI
 
@@ -716,6 +727,11 @@ popups-infobar-block =
 popups-infobar-dont-show-message =
     .label = ポップアップをブロックするとき、このメッセージを表示しない
     .accesskey = D
+
+edit-popup-settings =
+    .label = ポップアップの設定を管理...
+    .accesskey = M
+
 picture-in-picture-hide-toggle =
     .label = ピクチャーインピクチャーの切り替えボタンを隠す
     .accesskey = H

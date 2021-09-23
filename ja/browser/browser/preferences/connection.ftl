@@ -35,10 +35,6 @@ connection-proxy-http = HTTP プロキシー
     .accesskey = x
 connection-proxy-http-port = ポート
     .accesskey = P
-connection-proxy-http-sharing =
-    .label = このプロキシーを FTP と HTTPS でも使用する
-    .accesskey = s
-
 connection-proxy-https-sharing =
     .label = このプロキシーを HTTPS でも使用する
     .accesskey = s
@@ -47,11 +43,6 @@ connection-proxy-https = HTTPS プロキシー
     .accesskey = H
 connection-proxy-ssl-port = ポート
     .accesskey = o
-
-connection-proxy-ftp = FTP プロキシー
-    .accesskey = F
-connection-proxy-ftp-port = ポート
-    .accesskey = r
 
 connection-proxy-socks = SOCKS ホスト
     .accesskey = C
@@ -68,9 +59,6 @@ connection-proxy-noproxy = プロキシーなしで接続
     .accesskey = N
 
 connection-proxy-noproxy-desc = 例: .mozilla.org, .net.nz, 192.168.1.0/24
-
-# Do not translate localhost, 127.0.0.1 and ::1.
-connection-proxy-noproxy-localhost-desc = localhost, 127.0.0.1, ::1 へは常にプロキシーなしで接続します。
 
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = localhost, 127.0.0.1/8, ::1 へは常にプロキシーなしで接続します。

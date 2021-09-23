@@ -72,6 +72,10 @@ appmenu-remote-tabs-showmore =
 appmenu-remote-tabs-notabs = タブがありません
 # This is shown when Sync is configured but syncing tabs is disabled.
 appmenu-remote-tabs-tabsnotsyncing = タブの同期をオンにすると、あなたの他の端末のタブ一覧が表示されます。
+
+appmenu-remote-tabs-opensettings =
+  .label = 設定
+
 # This is shown when Sync is configured but this appears to be the only device attached to
 # the account. We also show links to download Firefox for android/ios.
 appmenu-remote-tabs-noclients = 他の端末のタブを表示しますか？

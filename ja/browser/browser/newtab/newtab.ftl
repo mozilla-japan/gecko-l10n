@@ -2,13 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ### Firefox Home / New Tab strings for about:home / about:newtab.
 
 newtab-page-title = @@NewTab@@
 newtab-settings-button =
     .title = @@NewTab@@ページをカスタマイズ
-
 newtab-personalize-icon-label =
     .title = @@NewTab@@をパーソナライズ
     .aria-label = @@NewTab@@をパーソナライズ
@@ -21,7 +19,7 @@ newtab-personalize-dialog-label =
 newtab-search-box-search-button =
     .title = 検索
     .aria-label = 検索
-newtab-search-box-search-the-web-text = ウェブを検索
+
 # Variables
 #  $engine (String): the name of the user's default search engine
 newtab-search-box-handoff-text = { $engine } で検索、または URL を入力します
@@ -170,6 +168,12 @@ newtab-label-sponsored = 提供: { $sponsorOrSource }
 # Variables:
 #  $sponsor (String): This is the name of a sponsor
 newtab-label-sponsored-by = 提供: { $sponsor }
+
+# This string is used under the image of story cards to indicate source and time to read
+# Variables:
+#  $source (String): This is the name of a company or their domain
+#  $timeToRead (Number): This is the estimated number of minutes to read this story
+newtab-label-source-read-time = { $source } · { $timeToRead } 分
 
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.

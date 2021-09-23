@@ -1170,4 +1170,5 @@ target dir             gecko-string hg changeset rev:id     by              comm
 mobile                  14557:ac1dc4229bd4   2021-09-10     mar             sync mobile
 netwerk, security, sync 14557:ac1dc4229bd4   2021-09-10     mar             sync netwerk, security, services/sync
 dom, toolkit            14562:c508d9e4ebe7   2021-09-16     mar             sync dom, toolkit
+browser                 14562:c508d9e4ebe7   2021-09-16     hATrayflood     sync browser
 

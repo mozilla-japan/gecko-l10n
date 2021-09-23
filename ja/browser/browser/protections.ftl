@@ -86,9 +86,6 @@ lockwise-scanned-text-breached-logins = { $count } 個のパスワードが漏�
 lockwise-scanned-text-no-breached-logins = パスワードは安全に保存されています。
 lockwise-how-it-works-link = 仕組みについて
 
-turn-on-sync = { -sync-brand-short-name } をオンにする...
-    .title = 同期の設定に移動
-
 monitor-title = データ漏洩に注意を
 monitor-link = 仕組みについて
 monitor-header-content-no-account = { -monitor-brand-name } で既知のデータ漏洩にあなたが含まれるか確認できます。新たな漏洩があったときも警告してくれます。
