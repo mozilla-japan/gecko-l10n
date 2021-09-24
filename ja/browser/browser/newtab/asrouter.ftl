@@ -129,7 +129,7 @@ cfr-doorhanger-video-support-primary-button = 今すぐ更新
 ## to the Mozilla VPN page and a link to dismiss the dialog.
 
 spotlight-public-wifi-vpn-header = 公共 Wi-Fi を使うかのように
-spotlight-public-wifi-vpn-body = あなたの行動と訪問先を秘匿するなら、VPN を検討してみましょう。空港や喫茶店のような公共の場所であなたのブラウジングを守るのに役に立ちます。
+spotlight-public-wifi-vpn-body = あなたの行動と訪問先を秘匿するなら、VPN を検討してみましょう。空港や喫茶店のような公共の場所でブラウジングするときのプライバシーを保護します。
 spotlight-public-wifi-vpn-primary-button = { -mozilla-vpn-brand-name } でプライバシーを確保
   .accesskey = S
 spotlight-public-wifi-vpn-link = 後で

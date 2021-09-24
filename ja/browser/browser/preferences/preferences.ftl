@@ -168,7 +168,7 @@ warn-on-close-multiple-tabs =
     .accesskey = m
 
 confirm-on-close-multiple-tabs =
-    .label = 同時に複数のタブを閉じるときは確認する
+    .label = 同時に複数のタブを閉じる前に確認する
     .accesskey = m
 
 # This string is used for the confirm before quitting preference.
@@ -177,7 +177,7 @@ confirm-on-close-multiple-tabs =
 #                       in the same manner as it would appear,
 #                       for example, in the File menu.
 confirm-on-quit-with-key =
-    .label = { $quitKey } で終了するときは確認する
+    .label = { $quitKey } キーで終了する前に確認する
     .accesskey = b
 
 warn-on-open-many-tabs =
