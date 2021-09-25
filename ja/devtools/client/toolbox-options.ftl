@@ -57,10 +57,6 @@ options-stylesheet-autocompletion-tooltip =
 
 # The heading
 options-screenshot-label = スクリーンショットの動作
-# Label for the checkbox that toggles screenshot to clipboard feature
-options-screenshot-clipboard-label = スクリーンショットをクリップボードへコピー
-options-screenshot-clipboard-tooltip =
-    .title = スクリーンショットをクリップボードに直接保存します
 
 # Label for the checkbox that toggles screenshot to clipboard feature
 options-screenshot-clipboard-only-label = スクリーンショットをクリップボードだけにコピー

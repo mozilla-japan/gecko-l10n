@@ -5,9 +5,6 @@
 places-open =
     .label = 開く
     .accesskey = O
-places-open-tab =
-    .label = @@NewTab@@で開く
-    .accesskey = w
 places-open-in-tab =
     .label = @@NewTab@@で開く
     .accesskey = w
@@ -17,26 +14,6 @@ places-open-all-bookmarks =
 places-open-all-in-tabs =
     .label = タブですべて開く
     .accesskey = O
-places-open-window =
-    .label = @@NewWindow@@で開く
-    .accesskey = N
-places-open-private-window =
-    .label = @@New-CMD@@プライベート@@Window@@で開く
-    .accesskey = P
-
-places-new-bookmark =
-    .label = @@New-CMD@@ブックマーク...
-    .accesskey = B
-places-new-folder-contextmenu =
-    .label = @@New-CMD@@フォルダー...
-    .accesskey = F
-places-new-folder =
-    .label = @@New-CMD@@フォルダー...
-    .accesskey = o
-places-new-separator =
-    .label = @@New-CMD@@区切り
-    .accesskey = S
-
 places-open-in-window =
     .label = @@NewWindow@@で開く
     .accesskey = N
@@ -87,10 +64,6 @@ places-delete-domain-data =
 places-sortby-name =
     .label = 名前順に並べ替える
     .accesskey = r
-places-properties =
-    .label = @@PropertyCMD@@
-    .accesskey = i
-
 # places-edit-bookmark and places-edit-generic will show one or the other and can have the same access key.
 places-edit-bookmark =
     .label = ブックマークを編集...
@@ -99,11 +72,18 @@ places-edit-generic =
     .label = 編集...
     .accesskey = i
 places-edit-folder =
-  .label = フォルダー名を変更...
-  .accesskey = e
+    .label = フォルダー名を変更...
+    .accesskey = e
 places-remove-folder =
-  .label = フォルダーを削除
-  .accesskey = m
+    .label = フォルダーを削除
+    .accesskey = m
+
+places-edit-folder2 =
+    .label = フォルダーを編集...
+    .accesskey = i
+places-delete-folder =
+    .label = フォルダーを削除
+    .accesskey = D
 
 # Managed bookmarks are created by an administrator and cannot be changed by the user.
 managed-bookmarks =
@@ -122,6 +102,21 @@ places-remove-bookmark =
     .label = ブックマークを削除
     .accesskey = e
 
+# Variables:
+# $count (number) - The number of elements being selected for removal.
+places-delete-bookmark =
+    .label = ブックマークを削除
+    .accesskey = D
+
 places-manage-bookmarks =
     .label = ブックマークを管理
     .accesskey = M
+
+places-forget-about-this-site-confirmation-title = このサイトのデータの消去について
+
+# Variables:
+# $hostOrBaseDomain (string) - The base domain (or host in case there is no base domain) for which data is being removed
+places-forget-about-this-site-confirmation-message =
+  この操作は { $hostOrBaseDomain } に関連する履歴、パスワード、Cookie、キャッシュ、コンテンツの設定を含むすべてのデータを消去します。本当に消去してもよろしいですか？
+
+places-forget-about-this-site-forget = 消去

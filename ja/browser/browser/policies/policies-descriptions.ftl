@@ -64,8 +64,6 @@ policy-DisableForgetButton = @@[@@忘れる@@]@@ボタンへのアクセスを�
 
 policy-DisableFormHistory = 検索とフォームの履歴を記憶しないようにします。
 
-policy-DisableMasterPasswordCreation = true にすると、マスターパスワードを作成できないようにします。
-
 policy-DisablePrimaryPasswordCreation = true にすると、マスターパスワードを作成できないようにします。
 
 policy-DisablePasswordReveal = 保存されたパスワードの表示を許可しないようにします。
@@ -139,8 +137,6 @@ policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトで�
 policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
 
 policy-ManagedBookmarks = システム管理者により管理されたブックマークのリストを設定します。ユーザーはこのブックマークを変更できません。
-
-policy-MasterPassword = マスターパスワードの使用を要求または抑止します。
 
 policy-ManualAppUpdateOnly = 更新を手動のみにし、更新の通知をユーザーには通知しないようにします。
 

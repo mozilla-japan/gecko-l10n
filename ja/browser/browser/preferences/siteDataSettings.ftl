@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Settings
 
 site-data-settings-window =
@@ -24,12 +23,6 @@ site-data-local-file-host = (ローカルファイル)
 site-data-remove-selected =
     .label = 選択したサイトデータを削除
     .accesskey = R
-site-data-button-cancel =
-    .label = キャンセル
-    .accesskey = C
-site-data-button-save =
-    .label = 変更を保存
-    .accesskey = a
 site-data-settings-dialog =
     .buttonlabelaccept = 変更を保存
     .buttonaccesskeyaccept = a
