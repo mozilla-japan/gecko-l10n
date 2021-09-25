@@ -394,5 +394,5 @@ main-context-menu-eme-learn-more =
 # Variables
 #   $containerName (String): The name of the current container
 main-context-menu-open-link-in-container-tab =
-    .label = リンクを@@New-CMD@@コンテナータブで開く
+    .label = リンクを@@New-CMD@@ { $containerName } タブで開く
     .accesskey = T
