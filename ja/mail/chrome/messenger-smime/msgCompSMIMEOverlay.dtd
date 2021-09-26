@@ -18,9 +18,6 @@
 <!ENTITY menu_securitySign.label		"このメッセージにデジタル署名">
 <!ENTITY menu_securitySign.accesskey		"M">
 
-<!ENTITY menu_securityAttachMyKey.label		"公開鍵を添付">
-<!ENTITY menu_securityAttachMyKey.accesskey	"A">
-
 <!ENTITY menu_securityTech.label		"暗号化技術">
 <!ENTITY menu_securityTech.accesskey		"T">
 

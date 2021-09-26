@@ -16,6 +16,8 @@ about-addressbook-toolbar-new-contact =
   .label = @@New-CMD@@連絡先
 about-addressbook-toolbar-new-list =
   .label = @@New-CMD@@アドレスリスト
+about-addressbook-toolbar-import =
+  .label = @@Import@@
 
 ## Books
 
@@ -27,11 +29,14 @@ about-addressbook-books-context-synchronize =
   .label = 同期
 about-addressbook-books-context-print =
   .label = @@Print@@...
+about-addressbook-books-context-export =
+  .label = @@Export@@...
 about-addressbook-books-context-delete =
   .label = 削除
 about-addressbook-books-context-remove =
   .label = 削除
-
+about-addressbook-books-context-startup-default =
+  .label = 初期表示ディレクトリー
 about-addressbook-confirm-delete-book-title = アドレス帳の削除
 # Variables:
 # $name (String) - Name of the address book to be deleted.
@@ -68,6 +73,8 @@ about-addressbook-sort-email-ascending =
 about-addressbook-sort-email-descending =
   .label = メールアドレスで並べ替え (降順)
 
+about-addressbook-cards-context-write =
+  .label = 作成
 about-addressbook-confirm-delete-mixed-title = 連絡先とアドレスリストの削除
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.

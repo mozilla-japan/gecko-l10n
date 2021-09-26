@@ -38,7 +38,11 @@ account-setup-password-label = パスワード
 account-provisioner-button = @@New-CMD@@メールアドレスを取得
     .accesskey = G
 account-setup-password-toggle =
-    .title = パスワードを表示または隠す
+    .title = パスワードを表示または隠します
+account-setup-password-toggle-show =
+    .title = パスワードを平文で表示します
+account-setup-password-toggle-hide =
+    .title = パスワードを隠します
 account-setup-remember-password = パスワードを記憶する
     .accesskey = m
 account-setup-exchange-label = ログイン名
@@ -207,6 +211,17 @@ insecure-dialog-confirm-button = 確認
 exchange-dialog-question = { -brand-short-name } が { $domain } 上にあなたのアカウントセットアップ情報を見つけました。続けて認証情報を送信してもよろしいですか？
 exchange-dialog-confirm-button = ログイン
 exchange-dialog-cancel-button = キャンセル
+
+## Dismiss account creation dialog
+
+exit-dialog-title = 設定されたメールアカウントがありません
+exit-dialog-description = セットアップ処理をキャンセルしますか？ メールアカウントなしでも { -brand-short-name } を使用できますが、多くの機能が使用できないままになります。
+account-setup-no-account-checkbox = メールアカウントなしで { -brand-short-name } を使用する
+    .accesskey = U
+exit-dialog-cancel-button = セットアップを続行
+    .accesskey = C
+exit-dialog-confirm-button = セットアップを終了
+    .accesskey = E
 
 ## Alert dialogs
 
