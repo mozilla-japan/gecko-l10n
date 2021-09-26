@@ -17,10 +17,6 @@
 <!ENTITY redoCmd.accesskey		"R">
 <!ENTITY deleteCmd.label		"削除">
 <!ENTITY deleteCmd.accesskey		"D">
-<!ENTITY preferencesCmd2.label		"オプション">
-<!ENTITY preferencesCmd2.accesskey	"O">
-<!ENTITY preferencesCmdUnix.label	"設定">
-<!ENTITY preferencesCmdUnix.accesskey	"n">
 <!ENTITY customizeCmd.label		"カスタマイズ">
 <!ENTITY customizeCmd.accesskey		"t">
 

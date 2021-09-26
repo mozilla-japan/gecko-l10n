@@ -5,8 +5,6 @@
 permissions-reminder-window =
     .title = 例外サイト
     .style = width: 45em;
-window-close-key =
-    .key = w
 permission-preferences-close-window =
     .key = w
 website-address-label =

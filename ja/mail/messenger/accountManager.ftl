@@ -5,3 +5,7 @@
 open-preferences-sidebar-button = { -brand-short-name } の設定
 
 open-addons-sidebar-button = アドオンとテーマ
+
+account-action-add-newsgroup-account =
+    .label = ニュースグループアカウントを追加...
+    .accesskey = N

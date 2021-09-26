@@ -5,6 +5,9 @@
 dock-options-window-dialog =
     .title = アプリケーションアイコンのオプション
     .style = width: 35em;
+dock-options-show-badge =
+    .label = アイコンにバッジを表示する
+    .accesskey = b
 bounce-system-dock-icon =
     .label = 新着メッセージ受信時にアイコンをアニメーションで表示する
     .accesskey = i

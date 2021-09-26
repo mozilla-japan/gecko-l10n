@@ -4,7 +4,8 @@
 
 export-dialog-brand-name = { -brand-product-name }
 export-dialog-window =
-    .title = @@Export@@
+    .title = @@ExportNoun@@
+export-dialog-title = @@ExportNoun@@
 export-dialog =
     .buttonlabelaccept = 次へ
 export-dialog-button-finish = 完了

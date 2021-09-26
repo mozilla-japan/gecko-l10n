@@ -3,9 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 e2e-intro-description = 暗号化またはデジタル署名されたメッセージを送信するには、OpenPGP あるいは S/MIME のどちらかの暗号化技術を設定する必要があります。
-
 e2e-intro-description-more = OpenPGP を有効化するためのあなたの個人鍵か、S/MIME を有効化するためのあなたの個人証明書を選択してください。どちらの場合にも、対応する秘密鍵を所有している必要があります。
-
 e2e-advanced-section = 詳細設定
 e2e-attach-key =
     .label = OpenPGP デジタル署名の追加時に自分の公開鍵を添付する
@@ -128,10 +126,6 @@ openpgp-key-send-key =
     .label = 公開鍵をメールで送信
     .accesskey = S
 
-openpgp-key-man-copy-to-clipbrd =
-    .label = 公開鍵をクリップボードにコピー
-    .accesskey = C
-
 openpgp-key-man-copy-key-ids =
     .label = { $count ->
                [one] 鍵 ID をクリップボードにコピー
@@ -155,8 +149,6 @@ openpgp-key-man-copy-to-clipboard =
 
 openpgp-key-man-ctx-expor-to-file-label =
     .label = 鍵をファイルに@@Export-si@@ます
-openpgp-key-man-ctx-copy-to-clipbrd-label =
-    .label = 公開鍵をクリップボードにコピーします
 
 openpgp-key-man-ctx-copy =
     .label = コピー
@@ -308,13 +300,6 @@ openpgp-description = { $count ->
    *[other] <b>{ $identity }</b> のための個人鍵が { $count } 個あります。
 }
 
-#   $count (Number) - the number of configured keys associated with the current identity
-#   $key (String) - the currently selected OpenPGP key
-openpgp-selection-status = { $count ->
-    [0]     鍵を選択して OpenPGP プロトコルを有効にしてください。
-   *[other] 鍵 ID <b>{ $key }</b> を利用するよう設定されています。
-}
-
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = 鍵 ID <b>{ $key }</b> を利用するよう設定されています。
 
@@ -347,14 +332,8 @@ openpgp-radio-key-not-found = この鍵を見つけられませんでした！ �
 #   $key (String) - the expiration date of the OpenPGP key
 openpgp-radio-key-expires = 有効期限: { $date }
 
-openpgp-key-expires-image =
-    .tooltiptext = 鍵が 6 か月以内に失効します
-
 #   $key (String) - the expiration date of the OpenPGP key
 openpgp-radio-key-expired = 有効期限切れ: { $date }
-
-openpgp-key-expired-image =
-    .tooltiptext = 鍵が有効期限切れです
 
 openpgp-key-expires-within-6-months-icon =
     .title = 鍵が 6 か月以内に失効します
@@ -682,7 +661,6 @@ quoted-printable-warn =
 minimal-line-wrapping =
     { $width } 文字で改行する設定になっています。正しい暗号化および署名には、少なくとも 68 文字で改行する必要があります。
     今すぐ 68 文字での改行に変更しますか？
-sending-hidden-rcpt = 暗号化メッセージを送信するときは Bcc に受信者を指定することはできません。暗号化メッセージを送信するには、受信者を Bcc フィールドから削除するか Cc フィールドへ移動してください。
 sending-news =
     暗号化メッセージの送信を中止しました。
     ニュースグループの宛先が含まれるため、このメッセージを暗号化できませんでした。メッセージを暗号化せずにもう一度送信してください。
@@ -748,9 +726,6 @@ enig-info = OpenPGP 情報
 # Strings used in persistentCrypto.jsm
 dlg-button-retry = 再試行(&R)
 dlg-button-skip = スキップ(&S)
-
-# Strings used in enigmailCommon.js
-enig-error = OpenPGP エラー
 
 # Strings used in enigmailMsgBox.js
 enig-alert-title =

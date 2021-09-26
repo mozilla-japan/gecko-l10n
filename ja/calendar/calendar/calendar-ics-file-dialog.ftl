@@ -12,7 +12,6 @@ calendar-ics-file-dialog-2 =
   .buttonlabelaccept = すべて@@Import@@
 
 calendar-ics-file-accept-button-ok-label = OK
-
 calendar-ics-file-cancel-button-close-label = 閉じる
 
 calendar-ics-file-dialog-message-2 = ファイルから@@Import@@:

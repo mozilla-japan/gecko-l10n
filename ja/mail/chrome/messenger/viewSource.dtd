@@ -19,10 +19,6 @@
 <!ENTITY savePageCmd.label		"@@Save-AsCMD@@ページを保存...">
 <!ENTITY savePageCmd.accesskey		"A">
 <!ENTITY savePageCmd.commandkey		"S">
-<!ENTITY pageSetupCmd.label		"ページ設定...">
-<!ENTITY pageSetupCmd.accesskey		"u">
-<!ENTITY printPreviewCmd.label		"@@Print@@プレビュー">
-<!ENTITY printPreviewCmd.accesskey	"v">
 <!ENTITY printCmd.label			"@@Print@@...">
 <!ENTITY printCmd.accesskey		"P">
 <!ENTITY printCmd.commandkey		"P">
