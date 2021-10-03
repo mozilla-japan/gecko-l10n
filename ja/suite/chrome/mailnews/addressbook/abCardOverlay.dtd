@@ -141,7 +141,6 @@
 
 <!ENTITY Photo.tab                      "顔写真">
 <!ENTITY Photo.accesskey                "o">
-<!ENTITY PhotoDesc.label                "次のいずれかを選択してください:">
 <!ENTITY GenericPhoto.label             "汎用の写真">
 <!ENTITY GenericPhoto.accesskey         "G">
 <!ENTITY DefaultPhoto.label             "@@Default@@">

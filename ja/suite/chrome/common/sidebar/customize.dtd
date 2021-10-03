@@ -4,13 +4,7 @@
 
 <!-- extracted from ./customize.xul -->
 
-<!-- LOCALIZATION NOTE  sidebar.customize.title.label: Do NOT localize the term "&sidebarName;"  -->
-<!ENTITY sidebar.customize.title.label "&sidebarName; の設定">
-<!-- LOCALIZATION NOTE  sidebar.customize.current.label: Do NOT localize the term "&sidebarName;"  -->
-<!ENTITY sidebar.customize.current.label "&sidebarName; のタブ:">
-<!ENTITY sidebar.customize.current.accesskey "T">
-
-<!ENTITY sidebar.customize.title                "サイドバーのカスタマイズ">
+<!ENTITY sidebar.customize.title                "サイドバーの設定">
 <!ENTITY sidebar.customize.current2.label       "サイドバー内のタブ:">
 <!ENTITY sidebar.customize.current2.accesskey   "T">
 <!ENTITY sidebar.customize.customize.label "タブを設定...">

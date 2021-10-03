@@ -28,7 +28,6 @@
 <!ENTITY maxZoom.label				"から">
 <!ENTITY maxZoom.accesskey			"o">
 <!ENTITY percent.label				"&#37;">
-
 <!ENTITY defaultZoom.label			"@@Default-@@ズーム">
 <!ENTITY defaultZoom.accesskey			"D">
 

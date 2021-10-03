@@ -5,11 +5,6 @@
 <!--LOCALIZATION NOTE : FILE 'Advanced' prefs settings -->
 <!ENTITY pref.advanced.title              "詳細">
 
-<!ENTITY systemPref.caption               "システム設定">
-<!ENTITY systemPrefCheck.label            "システムの標準設定を使用する">
-<!ENTITY systemPrefCheck.accesskey        "U">
-<!ENTITY systemPref.desc                  "この項目にチェックを入れると、&brandShortName; 独自の設定よりもシステム標準の設定を優先するようになります。">
-
 <!ENTITY prefCheckDefault.caption         "システム統合">
 <!ENTITY prefCheckDefaultClient.label     "起動時に@@Default@@の@@Application@@の設定を確認する">
 <!ENTITY prefCheckDefaultClient.accesskey "C">

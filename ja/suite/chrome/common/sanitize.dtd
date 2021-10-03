@@ -60,8 +60,6 @@
 <!ENTITY itemPasswordsS.accesskey         "v">
 <!ENTITY itemSessions.label               "認証セッションのログイン情報">
 <!ENTITY itemSessions.accesskey           "S">
-
-<!ENTITY sanitizeButton.label             "今すぐプライバシー情報を消去">
 <!ENTITY itemSessionsS.accesskey          "u">
 <!ENTITY itemSitePreferences.label        "サイトの設定">
 <!ENTITY itemSitePreferences.accesskey    "P">

@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Context Menu -->
-<!ENTITY popupWindowRejectCmd.label	"このサイトのポップアップ@@Window@@を自動的に閉じる">
-<!ENTITY popupWindowRejectCmd.accesskey	"o">
-<!ENTITY popupWindowAllowCmd.label	"このサイトのポップアップ@@Window@@を許可する">
-<!ENTITY popupWindowAllowCmd.accesskey	"o">
 <!ENTITY openLinkCmdInTab.label		"リンクを@@NewTab@@で開く">
 <!ENTITY openLinkCmdInTab.accesskey	"T">
 <!ENTITY openLinkCmd.label		"リンクを@@NewWindow@@で開く">

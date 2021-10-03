@@ -48,11 +48,6 @@
 <!ENTITY sendLaterCmd.accesskey "L">
 
 <!-- Edit menu items -->
-<!ENTITY editRewrapCmd.label "再改行">
-<!ENTITY editRewrapCmd.key "R">
-<!ENTITY editRewrapCmd.accesskey  "w">
-
-<!-- Edit menu items -->
 <!ENTITY accountManagerCmd.label "メールとニュースグループのアカウント設定...">
 <!ENTITY accountManagerCmd.accesskey "m">
 

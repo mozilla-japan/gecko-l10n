@@ -11,8 +11,6 @@
 <!--LOCALIZATION NOTE (.label): Preferences categories that appear on the left of the preferences dialog -->
 <!ENTITY prefWindow.title "設定">
 <!ENTITY prefWindow.size "width: 102ch; height: 44em;"><!-- en-US: width: 102ch; height: 44em; -->
-<!ENTITY prefWindowMac.size "width: 62em; height: 41em;"><!-- en-US: width: 62em; height: 41em; -->
-<!ENTITY prefWindowWin.size "width: 115ch; height: 43em;"><!-- en-US: width: 115ch; height: 43em; -->
 <!ENTITY prefWindowMac2.size "width: 70em; height: 41em;"><!-- en-US: width: 70em; height: 41em; -->
 <!ENTITY prefWindowWin2.size "width: 125ch; height: 44em;"><!-- en-US: width: 125ch; height: 44em; -->
 <!ENTITY categoryHeader "カテゴリー">
@@ -56,7 +54,6 @@
 <!ENTITY httpnetworking.label "HTTP ネットワーク">
 <!ENTITY smart.label "ソフトウェアのインストール">
 <!ENTITY mousewheel.label "マウスホイール">
-
 <!ENTITY debugging.label "デバッグ">
 
 <!ENTITY focusSearch.key "f">

@@ -7,7 +7,6 @@
 -->
 <!ENTITY pref.privatedata.title           "プライバシー情報">
 
-
 <!ENTITY clearPrivateData.label           "プライバシー情報の@@Clear@@">
 
 <!ENTITY alwaysClear.label                "&brandShortName; の終了時にプライバシー情報を消去する">
@@ -17,7 +16,6 @@
     no longer used but we might bring it back later
 -->
 <!ENTITY askBeforeClear.label             "消去する前に確認ダイアログを表示する">
-<!ENTITY askBeforeClear.accesskey         "k">
 
 <!ENTITY clearDataSettings.label          "次のプライバシー情報を消去する:">
 
