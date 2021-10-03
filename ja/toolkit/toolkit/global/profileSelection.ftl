@@ -17,6 +17,7 @@ profile-selection-rename-button =
 profile-selection-delete-button =
     .label = プロファイルを削除...
     .accesskey = D
+profile-selection-conflict-message = { -brand-product-name } の別のコピーがプロファイルに変更を加えています。さらに変更する前に { -brand-short-name } を再起動しなければなりません。
 
 ## Messages used in the profile manager
 
