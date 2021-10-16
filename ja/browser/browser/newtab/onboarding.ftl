@@ -160,6 +160,22 @@ mr1-onboarding-import-primary-button-label-attribution = { $previous } から@@I
 mr1-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーから@@Import@@
 mr1-onboarding-import-secondary-button-label = 後で
 
+mr2-onboarding-colorway-header = カラーテーマ
+mr2-onboarding-colorway-subtitle = 新しいカラーテーマが期間限定で利用できます。
+mr2-onboarding-colorway-primary-button-label = カラーテーマを保存
+mr2-onboarding-colorway-secondary-button-label = 後で
+mr2-onboarding-colorway-label-soft = Soft
+mr2-onboarding-colorway-label-balanced = Balance
+# "Bold" is used in the sense of bravery or courage, not in the sense of
+# emphasized text.
+mr2-onboarding-colorway-label-bold = Bold
+
+# Automatic theme uses operating system color settings
+mr2-onboarding-theme-label-auto = 自動
+
+# This string will be used for Default theme
+mr2-onboarding-theme-label-default = @@Default@@
+
 mr1-onboarding-theme-header = 自分らしく
 mr1-onboarding-theme-subtitle = テーマで { -brand-short-name } をパーソナライズできます。
 mr1-onboarding-theme-primary-button-label = テーマを保存
@@ -248,3 +264,39 @@ mr1-onboarding-theme-tooltip-alpenglow =
 # Input description for Alpenglow theme
 mr1-onboarding-theme-description-alpenglow =
   .aria-description = ダイナミックでカラフルな外観のボタン、メニュー、@@Window@@を使用します。
+
+# Tooltip displayed on hover of non-default colorway theme
+# variations e.g. soft, balanced, bold
+mr2-onboarding-theme-tooltip =
+  .title = このカラーテーマを使います。
+
+# Selector description for non-default colorway theme
+# variations e.g. soft, balanced, bold
+mr2-onboarding-theme-description =
+  .aria-description = このカラーテーマを使います。
+
+# Tooltip displayed on hover of colorway
+# Variables:
+#   $colorwayName (String) - Name of colorway
+mr2-onboarding-colorway-tooltip =
+  .title = { $colorwayName } のカラーテーマを見てみます。
+
+# Selector description for colorway
+# Variables:
+#   $colorwayName (String) - Name of colorway
+mr2-onboarding-colorway-description =
+  .aria-description = { $colorwayName } のカラーテーマを見てみます
+
+# Tooltip displayed on hover of default themes
+mr2-onboarding-default-theme-tooltip =
+  .title = @@Default-@@テーマを見てみます。
+
+# Selector description for default themes
+mr2-onboarding-default-theme-description =
+  .aria-description = @@Default-@@テーマを見てみます。
+
+## Strings for Thank You page
+
+mr2-onboarding-thank-you-header = ありがとうございます
+mr2-onboarding-thank-you-text = { -brand-short-name } は非営利団体を背景とした独立したブラウザーです。私たちはウェブをより安全、健全、プライバシーにしていきます。
+mr2-onboarding-start-browsing-button-label = ブラウジングを開始

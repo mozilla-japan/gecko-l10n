@@ -113,6 +113,18 @@ whatsnew-panel-footer-checkbox =
 ## performance profiles. To enable it go to profiler.firefox.com and click
 ## "Enable Profiler Menu Button".
 
+profiler-popup-button-idle =
+    .label = プロファイラー
+    .tooltiptext = パフォーマンスプロファイルを記録します
+
+profiler-popup-button-recording =
+    .label = プロファイラー
+    .tooltiptext = プロファイラーがプロファイルを記録中です
+
+profiler-popup-button-capturing =
+    .label = プロファイラー
+    .tooltiptext = プロファイラーがプロファイルをキャプチャ中です
+
 profiler-popup-title =
     .value = { -profiler-brand-name }
 profiler-popup-reveal-description-button =
@@ -121,10 +133,15 @@ profiler-popup-description-title =
     .value = 記録、分析、共有
 profiler-popup-description = プロファイルを公開してあなたのチームと共有し、パフォーマンス問題に協力しましょう。
 profiler-popup-learn-more = 詳細
+profiler-popup-learn-more-button =
+    .label = 詳細
 profiler-popup-settings =
     .value = 設定
 # This link takes the user to about:profiling, and is only visible with the Custom preset.
 profiler-popup-edit-settings = 設定を編集...
+# This link takes the user to about:profiling, and is only visible with the Custom preset.
+profiler-popup-edit-settings-button =
+    .label = 設定を編集...
 profiler-popup-disabled = プライベート@@Window@@を開いているため、プロファイラーは現在無効です。
 profiler-popup-recording-screen = 記録中...
 # The profiler presets list is generated elsewhere, but the custom preset is defined
@@ -147,6 +164,36 @@ profiler-popup-capture-shortcut =
         [macos] ⌃⇧2
        *[other] Ctrl+Shift+2
     }
+
+## Profiler presets
+## They are shown in the popup's select box.
+
+# Presets and their l10n IDs are defined in the file
+# devtools/client/performance-new/popup/background.jsm.js
+# Please take care that the same values are also defined in devtools' perftools.ftl.
+
+profiler-popup-presets-web-developer-description = 一般的なウェブ開発でのデバッグのための低負荷プリセットです。
+profiler-popup-presets-web-developer-label =
+  .label = ウェブ開発
+
+profiler-popup-presets-firefox-platform-description = Firefox 内部のプラットフォームのデバッグのための推奨プリセットです。
+profiler-popup-presets-firefox-platform-label =
+  .label = Firefox プラットフォーム
+
+profiler-popup-presets-firefox-front-end-description = Firefox 内部のフロントエンドのデバッグのための推奨プリセットです。
+profiler-popup-presets-firefox-front-end-label =
+  .label = Firefox フロントエンド
+
+profiler-popup-presets-firefox-graphics-description = Firefox のグラフィックの性能調査のための推奨プリセットです。
+profiler-popup-presets-firefox-graphics-label =
+  .label = Firefox グラフィック
+
+profiler-popup-presets-media-description = 音声と動画の問題の診断のための推奨プリセットです。
+profiler-popup-presets-media-label =
+  .label = メディア
+
+profiler-popup-presets-custom-label =
+  .label = カスタム
 
 ## History panel
 

@@ -25,10 +25,13 @@ about-private-browsing-info-description = ブラウザーを終了するかプ�
 about-private-browsing-need-more-privacy = より厳重なプライバシーが必要ですか？
 about-private-browsing-turn-on-vpn = { -mozilla-vpn-brand-name } をお試しください
 
+about-private-browsing-info-description-private-window = プライベート@@Window@@: { -brand-short-name }はプライベート@@Window@@をすべて閉じると、検索履歴と閲覧履歴を消去します。匿名化はされません。
 about-private-browsing-info-description-simplified = { -brand-short-name } はプライベート@@Window@@をすべて閉じると、検索履歴と閲覧履歴を消去しますが、匿名化されているわけではありません。
 about-private-browsing-learn-more-link = 詳細情報
 
 about-private-browsing-hide-activity = あなたの行動と訪問先のすべてを秘匿します
+about-private-browsing-get-privacy = どこでもプライバシーを確保
+about-private-browsing-hide-activity-1 = { -mozilla-vpn-brand-name } であなたの行動と訪問先を秘匿できます。公共 Wi-Fi でもクリックひとつで安全な接続を確保できます。
 about-private-browsing-prominent-cta = { -mozilla-vpn-brand-name } でプライバシーを確保
 
 # This string is the title for the banner for search engine selection

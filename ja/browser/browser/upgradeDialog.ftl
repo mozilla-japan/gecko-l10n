@@ -61,6 +61,32 @@ upgrade-dialog-default-secondary-button = 後で
 upgrade-dialog-theme-title-2 = できたてのテーマで新しく始める
 upgrade-dialog-theme-system = システムテーマ
     .title = OS のボタン、メニュー、@@Window@@の外観です
+
+## Start screen
+
+# This title can be explicitly wrapped to control which words are on which line.
+upgrade-dialog-start-title = カラーテーマ
+upgrade-dialog-start-subtitle = 新しいカラーテーマが期間限定で利用できます。
+upgrade-dialog-start-primary-button = カラーテーマを見てみる
+upgrade-dialog-start-secondary-button = 後で
+
+## Colorway screen
+
+# This title can be explicitly wrapped to control which words are on which line.
+upgrade-dialog-colorway-title = パレットを選ぶ
+# This is shown to users with a custom home page, so they can switch to default.
+upgrade-dialog-colorway-home-checkbox = Firefox Home をテーマの背景に切り替える
+upgrade-dialog-colorway-primary-button = テーマを保存
+upgrade-dialog-colorway-secondary-button = 以前のテーマ
+upgrade-dialog-colorway-theme-tooltip =
+    .title = @@Default-@@テーマを見てみます
+# $colorwayName (String) - Name of colorway, e.g., Abstract, Cheers
+upgrade-dialog-colorway-colorway-tooltip =
+    .title = { $colorwayName } のカラーテーマを見てみます
+upgrade-dialog-colorway-default-theme = @@Default@@
+# "Auto" is short for "Automatic"
+upgrade-dialog-colorway-theme-auto = 自動
+    .title = ボタンやメニュー、@@Window@@についてオペレーティングシステムの設定に従います
 upgrade-dialog-theme-light = Light
     .title = 明るい外観のボタン、メニュー、@@Window@@を使用します
 upgrade-dialog-theme-dark = Dark
@@ -71,3 +97,18 @@ upgrade-dialog-theme-keep = 以前のテーマ
     .title = { -brand-short-name } を更新する前にインストールしていたテーマを使用します
 upgrade-dialog-theme-primary-button = テーマを保存
 upgrade-dialog-theme-secondary-button = 後で
+upgrade-dialog-colorway-variation-soft = Soft
+    .title = このカラーテーマを使う
+upgrade-dialog-colorway-variation-balanced = Balance
+    .title = このカラーテーマを使う
+# "Bold" is used in the sense of bravery or courage, not in the sense of
+# emphasized text.
+upgrade-dialog-colorway-variation-bold = Bold
+    .title = このカラーテーマを使う
+
+## Thank you screen
+
+# This title can be explicitly wrapped to control which words are on which line.
+upgrade-dialog-thankyou-title = ありがとうございます
+upgrade-dialog-thankyou-subtitle = { -brand-short-name } は非営利団体を背景とした独立したブラウザーです。私たちはウェブをより安全、健全、プライバシーにしていきます。
+upgrade-dialog-thankyou-primary-button = ブラウジングを開始

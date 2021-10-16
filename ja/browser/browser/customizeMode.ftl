@@ -41,6 +41,7 @@ customize-mode-undo-cmd =
     .label = @@Undo@@
 customize-mode-lwthemes-my-themes =
     .value = マイテーマ
+customize-mode-lwthemes-link = テーマを管理
 customize-mode-touchbar-cmd =
     .label = タッチバーをカスタマイズ...
 customize-mode-downloads-button-autohide =

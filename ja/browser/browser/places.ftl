@@ -95,6 +95,11 @@ other-bookmarks-folder =
 places-remove-bookmark =
     .label = ブックマークを削除
     .accesskey = e
+
+places-show-in-folder =
+  .label = フォルダーで表示
+  .accesskey = F
+
 # Variables:
 # $count (number) - The number of elements being selected for removal.
 places-delete-bookmark =
