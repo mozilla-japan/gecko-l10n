@@ -15,6 +15,12 @@ about-unloads-intro-2 =
     プロセス ID について、タブのトップフレームを保持している場合は <strong>太字</strong> で表示され、他のタブとプロセスが共有されている場合は <em>イタリック体</em> で表示されます。
     以下の <em>解放</em> ボタンを押すと、手動でタブを解放できます。
 
+about-unloads-intro = { -brand-short-name } には、システムのメモリーの空き領域が少なくなったときに、メモリー不足によるアプリケーションのクラッシュを防ぐための自動的にタブを解放する機能があります。次に解放されるタブは、複数の属性から選択されます。このページは、タブが解放される時、{ -brand-short-name } がどのようにタブに優先度を付けて解放するかを表示します。以下の <em>解放</em> ボタンを押すと、手動でタブを解放できます。
+
+# The link points to a Firefox documentation page, only available in English,
+# with title "Tab Unloading"
+about-unloads-learn-more = このページと機能についての詳細は <a data-l10n-name="doc-link">Tab Unloading</a> を参照してください。
+
 about-unloads-last-updated =
     最終更新日時: { DATETIME($date,
         year: "numeric", month: "numeric", day: "numeric",
