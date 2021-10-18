@@ -298,5 +298,5 @@ mr2-onboarding-default-theme-description =
 ## Strings for Thank You page
 
 mr2-onboarding-thank-you-header = ありがとうございます
-mr2-onboarding-thank-you-text = { -brand-short-name } は非営利団体を背景とした独立したブラウザーです。私たちはウェブをより安全、健全、プライバシーにしていきます。
+mr2-onboarding-thank-you-text = { -brand-short-name } は非営利を背景とする独立したブラウザーです。私たちはユーザーとともにウェブをより安全、健全にし、個人情報を保護していきます。
 mr2-onboarding-start-browsing-button-label = ブラウジングを開始

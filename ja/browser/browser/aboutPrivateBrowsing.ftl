@@ -25,7 +25,7 @@ about-private-browsing-info-description = ブラウザーを終了するかプ�
 about-private-browsing-need-more-privacy = より厳重なプライバシーが必要ですか？
 about-private-browsing-turn-on-vpn = { -mozilla-vpn-brand-name } をお試しください
 
-about-private-browsing-info-description-private-window = プライベート@@Window@@: { -brand-short-name }はプライベート@@Window@@をすべて閉じると、検索履歴と閲覧履歴を消去します。匿名化はされません。
+about-private-browsing-info-description-private-window = プライベート@@Window@@: { -brand-short-name } はプライベート@@Window@@をすべて閉じると、検索履歴と閲覧履歴を消去します。匿名化はしません。
 about-private-browsing-info-description-simplified = { -brand-short-name } はプライベート@@Window@@をすべて閉じると、検索履歴と閲覧履歴を消去しますが、匿名化されているわけではありません。
 about-private-browsing-learn-more-link = 詳細情報
 

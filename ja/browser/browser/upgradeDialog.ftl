@@ -110,5 +110,5 @@ upgrade-dialog-colorway-variation-bold = Bold
 
 # This title can be explicitly wrapped to control which words are on which line.
 upgrade-dialog-thankyou-title = ありがとうございます
-upgrade-dialog-thankyou-subtitle = { -brand-short-name } は非営利団体を背景とした独立したブラウザーです。私たちはウェブをより安全、健全、プライバシーにしていきます。
+upgrade-dialog-thankyou-subtitle = { -brand-short-name } は非営利を背景とする独立したブラウザーです。私たちはユーザーとともにウェブをより安全、健全にし、個人情報を保護していきます。
 upgrade-dialog-thankyou-primary-button = ブラウジングを開始
