@@ -1178,3 +1178,4 @@ mail, calendar, chat    14562:c508d9e4ebe7   2021-09-16     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                 14589:2615a813aed1   2021-10-10     hATrayflood     sync browser
+devtools                14589:2615a813aed1   2021-10-10     hATrayflood     sync devtools
