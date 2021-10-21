@@ -113,3 +113,28 @@ perftools-onboarding-reenable-old-panel = (期間限定ですが、<a>{ options-
 
 perftools-onboarding-close-button =
   .aria-label = 導入メッセージを閉じる
+
+## Profiler presets
+
+# Presets and their l10n IDs are defined in the file
+# devtools/client/performance-new/popup/background.jsm.js
+# The same labels and descriptions are also defined in appmenu.ftl.
+
+perftools-presets-web-developer-label = ウェブ開発
+perftools-presets-web-developer-description = 一般的なウェブアプリをデバッグするための低負荷な推奨プリセットです。
+
+perftools-presets-firefox-platform-label = Firefox プラットフォーム
+perftools-presets-firefox-platform-description = Firefox のプラットフォーム内部をデバッグするための推奨プリセットです。
+
+perftools-presets-firefox-front-end-label = Firefox フロントエンド
+perftools-presets-firefox-front-end-description = Firefox のフロントエンド内部をデバッグするための推奨プリセットです。
+
+perftools-presets-firefox-graphics-label = Firefox グラフィック
+perftools-presets-firefox-graphics-description = Firefox のグラフィック性能を調査するための推奨プリセットです。
+
+perftools-presets-media-label = メディア
+perftools-presets-media-description = 音声と動画の問題を診断するための推奨プリセットです。
+
+perftools-presets-custom-label = カスタム
+
+##
