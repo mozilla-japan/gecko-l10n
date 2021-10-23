@@ -15,6 +15,15 @@ about-processes-shutdown-process =
     .title = タブを閉じプロセスを終了する
 about-processes-shutdown-tab =
     .title = タブを閉じる
+# Profiler icons
+# Variables:
+#    $duration (Number) The time in seconds during which the profiler will be running.
+#                       The value will be an integer, typically less than 10.
+about-processes-profile-process =
+    .title = { $duration ->
+   [one] このプロセスのすべてのスレッドを { $duration } 秒間プロファイルします
+  *[other] このプロセスのすべてのスレッドを { $duration } 秒間プロファイルします
+}
 
 ## Column headers
 

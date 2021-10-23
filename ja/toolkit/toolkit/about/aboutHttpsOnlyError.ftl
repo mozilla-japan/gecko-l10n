@@ -4,16 +4,14 @@
 
 about-httpsonly-title-alert = HTTPS-Only モード警告
 about-httpsonly-title-connection-not-available = 安全な接続が利用できません
-
+about-httpsonly-title-site-not-available = 安全なサイトが利用できません
 # Variables:
 #   $websiteUrl (String) - Url of the website that failed to load. Example: www.example.com
 about-httpsonly-explanation-unavailable2 = セキュリティを強化する HTTPS-Only モードは有効ですが、<em>{ $websiteUrl }</em> の HTTPS バージョンは利用できません。
 about-httpsonly-explanation-question = この問題の原因は？
 about-httpsonly-explanation-nosupport = おそらく、ウェブサイトが HTTPS をサポートしていないだけでしょう。
 about-httpsonly-explanation-risk = また、攻撃者が関係している可能性もあります。ウェブサイトへ移動することにした場合でも、パスワードやメールアドレス、クレジットカードなどの取り扱いに注意が必要な情報を入力してはいけません。
-
 about-httpsonly-explanation-continue = 続ける場合、このサイトでは HTTPS-Only モードが一時的にオフになります。
-
 about-httpsonly-button-continue-to-site = HTTP サイトを開く
 about-httpsonly-button-go-back = 戻る
 about-httpsonly-link-learn-more = 詳細情報...
