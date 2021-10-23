@@ -16,3 +16,12 @@ prompt-to-install-no-button = インストールしない
 
 install-failed-title = { -brand-short-name } のインストールに失敗しました
 install-failed-message = { -brand-short-name } のインストールに失敗しましたが継続して実行されます。
+
+## Strings for a dialog that recommends to the user to start an existing
+## installation of the app in the Applications directory if one is detected,
+## rather than the app that was double-clicked in a .dmg.
+
+prompt-to-launch-existing-app-title = 既存の { -brand-short-name } アプリケーションを開きますか？
+prompt-to-launch-existing-app-message = { -brand-short-name } がすでにインストールされています。このインストールされたアプリケーションを使用し、最新バージョンに更新してデータ損失を防ぎましょう。
+prompt-to-launch-existing-app-yes-button = 既存のものを開く
+prompt-to-launch-existing-app-no-button = いいえ

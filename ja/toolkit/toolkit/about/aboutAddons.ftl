@@ -251,6 +251,7 @@ install-theme-button = テーマをインストール
 # the detailed add-on view is opened, from where the add-on can be managed.
 manage-addon-button = 管理
 find-more-addons = 他のアドオンを検索
+find-more-themes = 他のテーマを検索
 # This is a label for the button to open the "more options" menu, it is only
 # used for screen readers.
 addon-options-button =
@@ -280,6 +281,8 @@ extension-enabled-heading = 有効
 extension-disabled-heading = 無効
 theme-enabled-heading = 有効
 theme-disabled-heading = 無効
+theme-monochromatic-heading = カラーテーマ
+theme-monochromatic-subheading = { -brand-product-name } の新しいカラーテーマが期間限定で利用できます。
 plugin-enabled-heading = 有効
 plugin-disabled-heading = 無効
 dictionary-enabled-heading = 有効
