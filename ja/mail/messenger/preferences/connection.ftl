@@ -23,6 +23,13 @@ connection-dialog-window =
         }
 connection-disable-extension =
     .label = 拡張機能を無効化
+disable-extension-button = 拡張機能を無効化
+# Variables:
+#   $name (String) - The extension that is controlling the proxy settings.
+#
+# The extension-icon is the extension's icon, or a fallback image. It should be
+# purely decoration for the actual extension name, with alt="".
+proxy-settings-controlled-by-extension = 拡張機能 <img data-l10n-name="extension-icon" alt="" /> { $name } が { -brand-short-name } のインターネットへの接続方式の設定を変更しています。
 connection-proxy-legend = インターネット接続に使用するプロキシーの設定
 proxy-type-no =
     .label = プロキシーを使用しない
