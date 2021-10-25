@@ -71,9 +71,14 @@ folder-toolbar-toggle-folder-compact-view =
 redirect-msg-menuitem =
     .label = リダイレクト
     .accesskey = D
+menu-file-save-as-file =
+    .label = ファイル...
+    .accesskey = F
 
 ## AppMenu
 
+appmenu-save-as-file =
+    .label = ファイル...
 # Since v89 we dropped the platforms distinction between Options or Preferences
 # and consolidated everything with Preferences.
 appmenu-preferences =

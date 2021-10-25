@@ -155,6 +155,7 @@ account-setup-credentials-incomplete = 認証に失敗しました。入力し�
 account-setup-credentials-wrong = 認証に失敗しました。ユーザー名とパスワードを確認してください。
 account-setup-find-settings-failed = { -brand-short-name } がメールアカウントの設定を見つけられませんでした。
 account-setup-exchange-config-unverifiable = 設定を検証できませんでした。ユーザー名とパスワードが正しい場合は、サーバー管理者があなたの選択した設定を無効化している可能性があります。別のプロトコルを選択してみてください。
+account-setup-provisioner-error = { -brand-short-name } でアカウントのセットアップ中にエラーが発生しました。プロバイダーからのメールアカウントの設定情報を参照して手動で設定してください。
 
 ## Manual configuration area
 
