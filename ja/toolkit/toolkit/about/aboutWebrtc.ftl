@@ -123,6 +123,7 @@ about-webrtc-discarded-packets-label = 破棄パケット:
 about-webrtc-decoder-label = デコーダー
 about-webrtc-encoder-label = エンコーダー
 about-webrtc-show-tab-label = タブを表示
+about-webrtc-current-framerate-label = フレームレート
 about-webrtc-width-px = 幅 (px)
 about-webrtc-height-px = 高さ (px)
 about-webrtc-consecutive-frames = 連続フレーム数
