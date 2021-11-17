@@ -9,6 +9,8 @@ search-header =
 search-header-shortcut =
     .key = f
 list-empty-get-extensions-message = <a data-l10n-name="get-extensions">{ $domain }</a> で拡張機能とテーマを入手しましょう
+list-empty-get-dictionaries-message = <a data-l10n-name="get-extensions">{ $domain }</a> でスペルチェック辞書を入手しましょう
+list-empty-get-language-packs-message = <a data-l10n-name="get-extensions">{ $domain }</a> で言語パックを入手しましょう
 list-empty-installed =
     .value = この種類のアドオンはインストールされていません
 list-empty-available-updates =
