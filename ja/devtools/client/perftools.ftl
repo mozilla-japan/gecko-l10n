@@ -132,8 +132,16 @@ perftools-presets-firefox-front-end-description = Firefox のフロントエン�
 perftools-presets-firefox-graphics-label = Firefox グラフィック
 perftools-presets-firefox-graphics-description = Firefox のグラフィック性能を調査するための推奨プリセットです。
 
+perftools-presets-firefox-label = { -brand-shorter-name }
+perftools-presets-firefox-description = { -brand-shorter-name } のプロファイリングのための推奨プリセットです。
+
+perftools-presets-graphics-label = グラフィック
+perftools-presets-graphics-description = { -brand-shorter-name } のグラフィックバグを調査するための推奨プリセットです。
+
 perftools-presets-media-label = メディア
 perftools-presets-media-description = 音声と動画の問題を診断するための推奨プリセットです。
+
+perftools-presets-media-description2 = { -brand-shorter-name } の音声と動画のバグを調査するための推奨プリセットです。
 
 perftools-presets-custom-label = カスタム
 
