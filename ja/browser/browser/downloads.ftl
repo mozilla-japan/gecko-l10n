@@ -16,12 +16,6 @@ downloads-panel =
 # The style attribute has the width of the Downloads Panel expressed using
 # a CSS unit. The longest labels that should fit are usually those of
 # in-progress and blocked downloads.
-downloads-panel-list =
-    .style = width: 70ch
-
-# The style attribute has the width of the Downloads Panel expressed using
-# a CSS unit. The longest labels that should fit are usually those of
-# in-progress and blocked downloads.
 downloads-panel-items =
     .style = width: 35em
 
@@ -44,13 +38,22 @@ downloads-cmd-show-menuitem-mac =
     .label = Finder に表示
     .accesskey = F
 
-downloads-cmd-use-system-default =
-  .label = システムのビューアーで開く
-  .accesskey = V
+downloads-cmd-show-menuitem-2 =
+    .label = { PLATFORM() ->
+        [macos] Finder に表示
+       *[other] フォルダーに表示
+    }
+    .accesskey = F
 
+downloads-cmd-use-system-default =
+    .label = システムのビューアーで開く
+    .accesskey = V
+
+# We can use the same accesskey as downloads-cmd-always-open-similar-files.
+# Both should not be visible in the downloads context menu at the same time.
 downloads-cmd-always-use-system-default =
-  .label = 常にシステムのビューアーで開く
-  .accesskey = w
+    .label = 常にシステムのビューアーで開く
+    .accesskey = w
 
 downloads-cmd-show-button =
     .tooltiptext =
@@ -70,6 +73,30 @@ downloads-cmd-show-description =
             [macos] Finder に表示
            *[other] 保存フォルダーを開く
         }
+
+# We can use the same accesskey as downloads-cmd-always-use-system-default.
+# Both should not be visible in the downloads context menu at the same time.
+downloads-cmd-always-open-similar-files =
+    .label = 常に同様のファイルを開く
+    .accesskey = w
+
+downloads-cmd-show-button-2 =
+    .tooltiptext = { PLATFORM() ->
+        [macos] Finder に表示
+       *[other] フォルダーに表示
+    }
+
+downloads-cmd-show-panel-2 =
+    .aria-label = { PLATFORM() ->
+        [macos] Finder に表示
+       *[other] フォルダーに表示
+    }
+downloads-cmd-show-description-2 =
+    .value = { PLATFORM() ->
+        [macos] Finder に表示
+       *[other] フォルダーに表示
+    }
+
 downloads-cmd-show-downloads =
     .label = ダウンロードフォルダーを表示
 downloads-cmd-retry =
@@ -167,3 +194,9 @@ downloads-list-empty =
 # This string is shown when there are no items in the Downloads Panel.
 downloads-panel-empty =
     .value = このセッションでのダウンロードはありません。
+
+# This is displayed in an item at the bottom of the Downloads Panel when there
+# are more downloads than can fit in the list in the panel.
+#   $count (number) - number of files being downloaded that are not shown in the
+#                     panel list.
+downloads-more-downloading = 他に { $count } 個のファイルをダウンロード中
