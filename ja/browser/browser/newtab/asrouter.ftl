@@ -125,7 +125,7 @@ cfr-doorhanger-video-support-primary-button = 今すぐ更新
 ## Spotlight modal shared strings
 
 spotlight-learn-more-collapsed = 詳細
-  .title = 展開して機能についての詳細を確認
+  .title = 展開してこの機能の詳細を見る
 spotlight-learn-more-expanded = 詳細
   .title = 閉じる
 
@@ -147,10 +147,10 @@ spotlight-public-wifi-vpn-link = 後で
 
 # "Test pilot" is used as a verb. Possible alternatives: "Be the first to try",
 # "Join an early experiment". This header text can be explicitly wrapped.
-spotlight-total-cookie-protection-header = 私たちのもっとも強力なプライバシー機能を試してみる
-spotlight-total-cookie-protection-body = 包括的 Cookie 保護は Cookie を利用してあなたを追跡するトラッカーを遮断します。
+spotlight-total-cookie-protection-header = これまでにない最も強力なプライバシー保護機能を試す
+spotlight-total-cookie-protection-body = 包括的 Cookie 保護機能は Cookie を利用してあなたを追跡するトラッカーを遮断します。
 # "Early access" for this feature rollout means it's a "feature preview" or
 # "soft launch" as not everybody will get it yet.
-spotlight-total-cookie-protection-expanded = { -brand-short-name } は Cookie の周りにフェンスを建てて、トラッカーが追跡できないようあなたが訪問したサイトへの Cookie を制限します。早期アクセスに参加すると、この機能の最適化の助けになり、全ての人にとってより良いウェブの構築し続けられます。
+spotlight-total-cookie-protection-expanded = あなたが訪問したサイト上でトラッカーが追跡できないように { -brand-short-name } が Cookie の周りにフェンスを建てて制限します。早期アクセスに参加すると、この機能が最適化され、すべての人にとってのより良いウェブを構築し続ける助けになります。
 spotlight-total-cookie-protection-primary-button = 包括的 Cookie 保護をオンにする
 spotlight-total-cookie-protection-secondary-button = 後で

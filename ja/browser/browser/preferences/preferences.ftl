@@ -1152,11 +1152,11 @@ content-blocking-fingerprinters = フィンガープリント採取
 # "Test pilot" is used as a verb. Possible alternatives:
 # "Be the first to try", "Join an early experiment".
 content-blocking-etp-standard-tcp-rollout-checkbox =
-  .label = 私たちのもっとも強力なプライバシー機能を試してみる
+  .label = これまでにない最も強力なプライバシー保護機能を試す
   .accesskey = T
 
 # "Contains" here means "isolates", "limits".
-content-blocking-etp-standard-tcp-rollout-description = 包括的 Cookie 保護があなたが訪問したサイトへの Cookie を制限しているため、トラッカーはサイトを横断してあなたを追跡するための Cookie を利用できません。
+content-blocking-etp-standard-tcp-rollout-description = 包括的 Cookie 保護機能により現在のサイトへの Cookie が制限されているため、トラッカーはサイトを横断してあなたを追跡する Cookie を利用できません。
 content-blocking-etp-standard-tcp-rollout-learn-more = 詳細情報
 
 content-blocking-warning-title = 注意！

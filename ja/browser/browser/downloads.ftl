@@ -77,7 +77,7 @@ downloads-cmd-show-description =
 # We can use the same accesskey as downloads-cmd-always-use-system-default.
 # Both should not be visible in the downloads context menu at the same time.
 downloads-cmd-always-open-similar-files =
-    .label = 常に同様のファイルを開く
+    .label = 常に@@Default-@@@@Application@@で開く
     .accesskey = w
 
 downloads-cmd-show-button-2 =

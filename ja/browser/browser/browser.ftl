@@ -740,11 +740,11 @@ picture-in-picture-hide-toggle =
 ## right-to-left languages should use "Left" and "Right" as in the English strings,
 
 picture-in-picture-move-toggle-right =
-    .label = ピクチャーインピクチャーの切り替えボタンを右に移動
+    .label = ピクチャーインピクチャーの切り替えボタンを右側に移動
     .accesskey = R
 
 picture-in-picture-move-toggle-left =
-    .label = ピクチャーインピクチャーの切り替えボタンを左に移動
+    .label = ピクチャーインピクチャーの切り替えボタンを左側に移動
     .accesskey = L
 
 ##
