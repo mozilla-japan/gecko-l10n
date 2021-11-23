@@ -1149,6 +1149,16 @@ content-blocking-all-third-party-cookies = サードパーティ Cookie すべ�
 content-blocking-cryptominers = 暗号通貨マイニング
 content-blocking-fingerprinters = フィンガープリント採取
 
+# "Test pilot" is used as a verb. Possible alternatives:
+# "Be the first to try", "Join an early experiment".
+content-blocking-etp-standard-tcp-rollout-checkbox =
+  .label = これまでにない最も強力なプライバシー保護機能を試す
+  .accesskey = T
+
+# "Contains" here means "isolates", "limits".
+content-blocking-etp-standard-tcp-rollout-description = 包括的 Cookie 保護機能により現在のサイトへの Cookie が制限されているため、トラッカーはサイトを横断してあなたを追跡する Cookie を利用できません。
+content-blocking-etp-standard-tcp-rollout-learn-more = 詳細情報
+
 content-blocking-warning-title = 注意！
 content-blocking-and-isolating-etp-warning-description = トラッカーをブロックし、残存 Cookie を隔離すると、一部のサイトの機能に影響がある可能性があります。すべてのコンテンツを読み込むには、トラッカーを許容してページを再読み込みします。
 content-blocking-and-isolating-etp-warning-description-2 = この設定では、一部のウェブサイトが表示されないか正しく動作しない可能性があります。サイトが動作しない場合は、トラッキング防止機能をオフにして再読み込みするとよいでしょう。

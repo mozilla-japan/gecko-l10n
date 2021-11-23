@@ -78,6 +78,15 @@ menu-file-open-file =
 menu-file-close =
     .label = 閉じる
     .accesskey = C
+# Variables:
+#  $tabCount (Number): the number of tabs that are affected by the action.
+menu-file-close-tab =
+    .label =
+        { $tabCount ->
+            [1] タブを閉じる
+           *[other] { $tabCount } 個のタブを閉じる
+        }
+    .accesskey = C
 menu-file-close-window =
     .label = @@Window@@を閉じる
     .accesskey = d

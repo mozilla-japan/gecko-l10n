@@ -122,15 +122,35 @@ cfr-doorhanger-video-support-header = { -brand-short-name } を更新して動�
 cfr-doorhanger-video-support-primary-button = 今すぐ更新
   .accesskey = U
 
+## Spotlight modal shared strings
+
+spotlight-learn-more-collapsed = 詳細
+  .title = 展開してこの機能の詳細を見る
+spotlight-learn-more-expanded = 詳細
+  .title = 閉じる
+
 ## VPN promotion dialog for public Wi-Fi users
 ##
 ## If a user is detected to be on a public Wi-Fi network, they are given a
 ## bit of info about how to improve their privacy and then offered a button
 ## to the Mozilla VPN page and a link to dismiss the dialog.
 
+# This header text can be explicitly wrapped.
 spotlight-public-wifi-vpn-header = 公共 Wi-Fi を使うかのように
 spotlight-public-wifi-vpn-body = あなたの行動と訪問先を秘匿するなら、VPN を検討してみましょう。空港や喫茶店のような公共の場所でブラウジングするときのプライバシーを保護します。
 spotlight-public-wifi-vpn-primary-button = { -mozilla-vpn-brand-name } でプライバシーを確保
   .accesskey = S
 spotlight-public-wifi-vpn-link = 後で
   .accesskey = N
+
+## Total Cookie Protection Rollout
+
+# "Test pilot" is used as a verb. Possible alternatives: "Be the first to try",
+# "Join an early experiment". This header text can be explicitly wrapped.
+spotlight-total-cookie-protection-header = これまでにない最も強力なプライバシー保護機能を試す
+spotlight-total-cookie-protection-body = 包括的 Cookie 保護機能は Cookie を利用してあなたを追跡するトラッカーを遮断します。
+# "Early access" for this feature rollout means it's a "feature preview" or
+# "soft launch" as not everybody will get it yet.
+spotlight-total-cookie-protection-expanded = あなたが訪問したサイト上でトラッカーが追跡できないように { -brand-short-name } が Cookie の周りにフェンスを建てて制限します。早期アクセスに参加すると、この機能が最適化され、すべての人にとってのより良いウェブを構築し続ける助けになります。
+spotlight-total-cookie-protection-primary-button = 包括的 Cookie 保護をオンにする
+spotlight-total-cookie-protection-secondary-button = 後で
