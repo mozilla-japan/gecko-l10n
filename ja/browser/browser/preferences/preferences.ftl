@@ -573,7 +573,7 @@ home-restore-defaults =
 # "Firefox" should be treated as a brand and kept in English,
 # while "Home" and "(Default)" can be localized.
 home-mode-choice-default =
-    .label = Firefox ホーム (@@Default@@)
+    .label = Firefox Home (@@Default@@)
 
 home-mode-choice-custom =
     .label = カスタム URL...
