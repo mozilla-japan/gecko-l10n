@@ -134,3 +134,13 @@ about-addressbook-details-work-address-header = 勤務先アドレス
 about-addressbook-details-other-info-header = 他の情報
 about-addressbook-prompt-to-save-title = 変更の保存
 about-addressbook-prompt-to-save = 変更を保存しますか？
+
+# Photo dialog
+
+about-addressbook-photo-drop-target = 写真をここにドロップまたは@@Paste-suru@@か、クリックしてファイルを選択してください
+about-addressbook-photo-drop-loading = 写真を読み込んでいます...
+about-addressbook-photo-drop-error = 写真の読み込みに失敗しました。
+about-addressbook-photo-filepicker-title = 画像ファイルの選択
+about-addressbook-photo-discard = 既存の写真を破棄
+about-addressbook-photo-cancel = キャンセル
+about-addressbook-photo-save = 保存

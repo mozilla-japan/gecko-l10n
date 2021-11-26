@@ -5,6 +5,7 @@
 close-button =
     .aria-label = 閉じる
 preferences-doc-title = 設定
+preferences-doc-title2 = 設定
 category-list =
     .aria-label = カテゴリー
 pane-general-title = 一般
@@ -117,12 +118,16 @@ restore-default-label =
     .label = @@DefaultValue@@に戻す
     .accesskey = R
 default-search-engine = @@Default-@@検索エンジン
-add-search-engine =
-    .label = ファイルから追加
+add-web-search-engine =
+    .label = 追加...
     .accesskey = A
 remove-search-engine =
     .label = 削除
     .accesskey = v
+add-opensearch-provider-title = OpenSearch プロバイダーの追加
+add-opensearch-provider-text = 追加する OpenSearch プロバイダーの URL を入力してください。OpenSearch Description ファイルの URL を直接使用するか、このファイルを自動的に発見できる URL を入力してください。
+adding-opensearch-provider-failed-title = OpenSearch プロバイダーの追加に失敗しました
+adding-opensearch-provider-failed-text = { $url } の OpenSearch プロバイダーを追加できませんでした。
 minimize-to-tray-label =
     .label = 最小化した { -brand-short-name } をタスクトレイにしまう
     .accesskey = m
@@ -146,6 +151,7 @@ app-icon-options =
     .label = アプリケーションアイコンのオプション...
     .accesskey = n
 notification-settings = 通知と@@Default-@@サウンドはシステム環境設定の通知ペインで無効化できます。
+notification-settings2 = 通知と@@Default-@@サウンドはシステム設定の通知ペインで無効化できます。
 animated-alert-label =
     .label = デスクトップ通知を表示する
     .accesskey = S
@@ -313,8 +319,8 @@ quoted-text-color =
     .accesskey = o
 search-handler-table =
     .placeholder = ファイルの種類と動作設定の絞り込み
-type-column-label = ファイルの種類
-action-column-label = 動作設定
+type-column-header = ファイルの種類
+action-column-header = 動作設定
 save-to-label =
     .label = 次のフォルダーに保存する:
     .accesskey = S
@@ -684,9 +690,28 @@ search-preferences-input =
 
 ## Preferences UI Search Results
 
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input2 =
+    .style = width: 15.4em
+    .placeholder = 設定内を検索
+
+## Settings UI Search Results
+
 search-results-header = 検索結果
 # `<span data-l10n-name="query"></span>` will be replaced by the search term.
 search-results-empty-message = { PLATFORM() ->
+    [windows] “<span data-l10n-name="query"></span>” オプションについての検索結果はありません。
+    *[other] “<span data-l10n-name="query"></span>” 設定についての検索結果はありません。
+}
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 = { PLATFORM() ->
     [windows] “<span data-l10n-name="query"></span>” オプションについての検索結果はありません。
     *[other] “<span data-l10n-name="query"></span>” 設定についての検索結果はありません。
 }

@@ -14,6 +14,7 @@ rights-intro-point-5-unbranded = この製品がウェブサービスと連携�
 rights-intro-point-6 = 特定の形式の動画コンテンツを再生するため、{ -brand-short-name } がサードパーティからコンテンツ復号モジュールをダウンロードします。
 rights-webservices-header = { -brand-full-name } ウェブベースの情報サービス
 rights-webservices = { -brand-full-name } は、搭載された機能のために用意されたウェブベースの情報サービス (以下「本サービス」と呼びます) を利用しており、これらは下記の通り { -brand-short-name } のバイナリー版とともに利用できます。本サービスのいずれかをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、その機能またはサービスを無効化できます。 <a data-l10n-name="mozilla-disable-service-link">機能やサービスを無効化する手順</a> をお読みください。その他の機能やサービスはアプリケーションの設定から無効化できます。
+rights-webservices2 = { -brand-full-name } は、搭載された機能のために用意されたウェブベースの情報サービス (以下「本サービス」と呼びます) を利用しており、これらは下記の通り { -brand-short-name } のバイナリー版とともに利用できます。本サービスのいずれかをご利用になりたくない場合、または以下の利用規約を受け入れられない場合は、その機能またはサービスを無効化できます。 <a data-l10n-name="mozilla-disable-service-link">機能やサービスを無効化する手順</a> をお読みください。その他の機能やサービスはアプリケーションの設定から無効化できます。
 rights-locationawarebrowsing = <strong>位置情報検出機能:</strong> この機能は常にオプトインです。位置情報があなたの許可なしに送信されることはありません。この機能を完全に無効にしたい場合は以下の手順に従ってください:
 rights-locationawarebrowsing-term-1 = URL バーに次の文字列を入力します: <code>about:config</code>
 rights-locationawarebrowsing-term-2 = フィルター欄に geo.enabled と入力します。

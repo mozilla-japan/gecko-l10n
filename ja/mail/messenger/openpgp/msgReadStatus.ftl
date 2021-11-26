@@ -20,6 +20,7 @@ openpgp-view-your-encryption-key =
 openpgp-openpgp = OpenPGP
 
 openpgp-no-sig = デジタル署名がありません
+openpgp-no-sig-info = このメッセージには送信者のデジタル署名が含まれていません。デジタル署名の欠如は、このメールアドレスを偽る他人によって送信されたメッセージかもしれないことを意味します。また、ネットワークの通過中にメッセージが改竄されている可能性もあります。
 openpgp-uncertain-sig = 不確実なデジタル署名です
 openpgp-invalid-sig = デジタル署名が正しくありません
 openpgp-good-sig = メッセージは署名されています
@@ -38,6 +39,17 @@ openpgp-sig-key-id-with-subkey-id = 署名者の鍵 ID: { $key } (副鍵 ID: { $
 
 openpgp-enc-key-id = あなたの復号鍵 ID: { $key }
 openpgp-enc-key-with-subkey-id = あなたの復号鍵 ID: { $key } (副鍵 ID: { $subkey })
+
+openpgp-enc-none = メッセージが暗号化されていません
+openpgp-enc-none-label = このメッセージは送信前に暗号化されていませんでした。暗号化されずにインターネットを越えて送信された情報は通過中に他の人に見られる可能性があります。
+
+openpgp-enc-invalid-label = メッセージを復号できません
+openpgp-enc-invalid = このメッセージはあなたに送信される前に暗号化されましたが、復号できなくなっています。
+
+openpgp-enc-clueless = この暗号化メッセージには未知の問題があります。
+
+openpgp-enc-valid-label = メッセージが暗号化されています
+openpgp-enc-valid = このメッセージはあなたに送信される前に暗号化されました。暗号化により本来の受信者だけがメッセージを読めるようになります。
 
 openpgp-unknown-key-id = 未知の鍵
 
