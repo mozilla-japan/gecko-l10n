@@ -16,4 +16,5 @@ calendar-print-filter-taskswithnoduedate = 締め切りのない ToDo
 calendar-print-range-from = 開始月
 calendar-print-range-to = 終了月
 
+calendar-print-back-button = 戻る
 calendar-print-next-button = 次の設定へ

@@ -9,6 +9,9 @@
 menu-tools-preferences =
     .label = 設定
     .accesskey = P
+menu-tools-settings =
+    .label = 設定
+    .accesskey = e
 menu-addons-and-themes =
     .label = アドオンとテーマ
     .accesskey = A

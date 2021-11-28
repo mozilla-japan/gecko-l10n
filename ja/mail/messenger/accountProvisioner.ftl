@@ -51,3 +51,5 @@ account-provisioner-domain-results-caption = ニックネームや他の検索�
 account-provisioner-free-account = 無料
 account-provision-price-per-year = { $price } / 年
 account-provisioner-all-results-button = すべての検索結果を表示
+account-provisioner-open-in-tab-img =
+    .title = @@NewTab@@で開く

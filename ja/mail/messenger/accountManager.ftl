@@ -3,9 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 open-preferences-sidebar-button = { -brand-short-name } の設定
-
+open-preferences-sidebar-button2 = { -brand-short-name } の設定
 open-addons-sidebar-button = アドオンとテーマ
-
 account-action-add-newsgroup-account =
     .label = ニュースグループアカウントを追加...
     .accesskey = N

@@ -5,6 +5,8 @@
 account-settings-title = 認証設定
 account-channel-title = @@Default-@@チャンネル
 
+chat-autologin =
+    .label = 起動時にログインする
 chat-encryption-generic = 一般
 chat-encryption-log =
     .label = エンドツーエンド暗号化メッセージを会話ログに含める

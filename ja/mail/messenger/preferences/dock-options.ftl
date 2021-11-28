@@ -21,3 +21,4 @@ count-new-messages-radio =
     .label = 新着メッセージ数を表示する
     .accesskey = n
 notification-settings-info = バッジはシステム環境設定の通知ペインで無効化できます。
+notification-settings-info2 = バッジはシステム設定の通知ペインで無効化できます。
