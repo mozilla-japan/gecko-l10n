@@ -300,6 +300,7 @@ fission-status-experiment-control = 実験のため無効
 fission-status-experiment-treatment = 実験のため有効
 fission-status-disabled-by-e10s-env = 動作環境により無効
 fission-status-enabled-by-env = 動作環境により有効
+fission-status-disabled-by-env = 動作環境により無効
 fission-status-disabled-by-safe-mode = セーフモードのため無効
 fission-status-enabled-by-default = @@Default@@で有効
 fission-status-disabled-by-default = @@Default@@で無効
