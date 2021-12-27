@@ -199,8 +199,9 @@ addon-manage-extensions-shortcuts = 拡張機能のショートカットキー�
     .accesskey = S
 shortcuts-no-addons = 有効な拡張機能がありません。
 shortcuts-no-commands = 次の拡張機能にはショートカットがありません:
+# (^m^) shortcuts-input.placeholder は 15 文字まで
 shortcuts-input =
-    .placeholder = ショートカットキーを入力してください
+    .placeholder = ショートカットキーを入力
 shortcuts-browserAction2 = ツールバーボタンを有効化
 shortcuts-pageAction = ページ操作を有効化
 shortcuts-sidebarAction = サイドバーの表示を切り替え
