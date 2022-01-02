@@ -819,11 +819,11 @@ prefs-sync-now =
 sync-currently-syncing-heading = これらの項目を同期しています:
 
 sync-currently-syncing-bookmarks = ブックマーク
-sync-currently-syncing-history = 履歴
-sync-currently-syncing-tabs = 開いたタブ
+sync-currently-syncing-history = 表示履歴
+sync-currently-syncing-tabs = 開いているタブ
 sync-currently-syncing-logins-passwords = ログイン情報とパスワード
 sync-currently-syncing-addresses = 所在地フォーム
-sync-currently-syncing-creditcards = クレジットカード
+sync-currently-syncing-creditcards = クレジットカード情報
 sync-currently-syncing-addons = アドオン
 sync-currently-syncing-settings = 個人設定
 
@@ -850,7 +850,7 @@ sync-engine-history =
     .accesskey = r
 
 sync-engine-tabs =
-    .label = 開いたタブ
+    .label = 開いているタブ
     .tooltiptext = 同期した端末で開いているすべてのタブの一覧です
     .accesskey = t
 
