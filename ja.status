@@ -1182,11 +1182,16 @@ devtools                14589:2615a813aed1   2021-10-11     hATrayflood     sync
 dom, netwerk, toolkit   14589:2615a813aed1   2021-10-11     mar             sync dom, netwerk, toolkit
 mail, calendar, chat    14589:2615a813aed1   2021-10-11     mar             sync mail, calendar, chat
 
-[l10n-mozilla-95.0]
+Released! [l10n-mozilla-95.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            14611:35a658266029   2021-11-09     mar             sync dom, toolkit
 browser                 14620:b5f32efc7238   2021-11-22     hATrayflood     sync browser
 devtools                14620:b5f32efc7238   2021-11-22     hATrayflood     sync devtools
 mail, calendar, chat    14623:4b4bc7cb7946   2021-11-24     mar             sync mail, calendar, chat
+
+[l10n-mozilla-96.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, toolkit, mobile    14641:461c6dec65a9   2021-12-21     mar             sync dom, toolkit, mobile
 

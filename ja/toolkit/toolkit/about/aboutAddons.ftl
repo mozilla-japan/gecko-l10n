@@ -137,6 +137,9 @@ addon-category-available-updates-title =
 addon-category-recent-updates = 最近の更新
 addon-category-recent-updates-title =
     .title = 最近の更新
+addon-category-sitepermission = サイト許可設定
+addon-category-sitepermission-title =
+    .title = サイトの許可設定
 
 ## These are global warnings
 
@@ -196,8 +199,9 @@ addon-manage-extensions-shortcuts = 拡張機能のショートカットキー�
     .accesskey = S
 shortcuts-no-addons = 有効な拡張機能がありません。
 shortcuts-no-commands = 次の拡張機能にはショートカットがありません:
+# (^m^) shortcuts-input.placeholder は 15 文字まで
 shortcuts-input =
-    .placeholder = ショートカットキーを入力してください
+    .placeholder = ショートカットキーを入力
 shortcuts-browserAction2 = ツールバーボタンを有効化
 shortcuts-pageAction = ページ操作を有効化
 shortcuts-sidebarAction = サイドバーの表示を切り替え
@@ -291,6 +295,8 @@ dictionary-enabled-heading = 有効
 dictionary-disabled-heading = 無効
 locale-enabled-heading = 有効
 locale-disabled-heading = 無効
+sitepermission-enabled-heading = 有効
+sitepermission-disabled-heading = 無効
 always-activate-button = 常に有効化
 never-activate-button = 無効化
 addon-detail-author-label = 作者
@@ -363,6 +369,7 @@ addon-permissions-optional = 追加機能の任意の許可設定:
 addon-permissions-learnmore = 許可設定についての詳細情報
 recommended-extensions-heading = おすすめの拡張機能
 recommended-themes-heading = おすすめのテーマ
+addon-sitepermissions-required = <span data-l10n-name="hostname">{ $hostname }</span> に以下の機能を許可します:
 # A recommendation for the Firefox Color theme shown at the bottom of the theme
 # list view. The "Firefox Color" name itself should not be translated.
 recommended-theme-1 = ご自分で作ってみませんか？ <a data-l10n-name="link">Firefox Color で独自のテーマを構築できます。</a>
@@ -375,6 +382,7 @@ plugin-heading = プラグインの管理
 dictionary-heading = スペルチェック辞書の管理
 locale-heading = 言語パックの管理
 updates-heading = 更新の管理
+sitepermission-heading = サイト許可設定の管理
 discover-heading = { -brand-short-name } のパーソナライズ
 shortcuts-heading = 拡張機能のショートカットキーの管理
 default-heading-search-label = アドオンを探す
