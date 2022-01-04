@@ -42,6 +42,7 @@ options-default-color-unit-authored = 記述通りの単位
 options-default-color-unit-hex = 16 進数
 options-default-color-unit-hsl = HSL(A)
 options-default-color-unit-rgb = RGB(A)
+options-default-color-unit-hwb = HWB
 options-default-color-unit-name = @@Color@@の名前
 
 ## Style Editor section

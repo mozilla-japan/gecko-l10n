@@ -143,6 +143,9 @@ perftools-presets-media-description = 音声と動画の問題を診断するた
 
 perftools-presets-media-description2 = { -brand-shorter-name } の音声と動画のバグを調査するための推奨プリセットです。
 
+perftools-presets-networking-label = ネットワーク
+perftools-presets-networking-description = { -brand-shorter-name } のネットワークバグを調査するための推奨プリセットです。
+
 perftools-presets-custom-label = カスタム
 
 ##
