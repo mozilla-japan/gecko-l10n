@@ -41,7 +41,7 @@ downloads-cmd-show-menuitem-mac =
 downloads-cmd-show-menuitem-2 =
     .label = { PLATFORM() ->
         [macos] Finder に表示
-       *[other] フォルダーに表示
+       *[other] 保存フォルダーを開く
     }
     .accesskey = F
 
@@ -83,18 +83,18 @@ downloads-cmd-always-open-similar-files =
 downloads-cmd-show-button-2 =
     .tooltiptext = { PLATFORM() ->
         [macos] Finder に表示
-       *[other] フォルダーに表示
+       *[other] 保存フォルダーを開く
     }
 
 downloads-cmd-show-panel-2 =
     .aria-label = { PLATFORM() ->
         [macos] Finder に表示
-       *[other] フォルダーに表示
+       *[other] 保存フォルダーを開く
     }
 downloads-cmd-show-description-2 =
     .value = { PLATFORM() ->
         [macos] Finder に表示
-       *[other] フォルダーに表示
+       *[other] 保存フォルダーを開く
     }
 
 downloads-cmd-show-downloads =
