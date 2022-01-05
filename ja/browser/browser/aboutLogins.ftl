@@ -73,7 +73,7 @@ login-intro-instructions-fxa-settings = @@[@@設定@@]@@ > @@[@@同期@@]@@ > @@
 login-intro-instructions-fxa-help = <a data-l10n-name="help-link">{ -lockwise-brand-short-name } サポート</a> で詳細なヘルプを確認できます。
 about-logins-intro-import = 他のブラウザーでログイン情報を保存した場合は、<a data-l10n-name="import-link">そちらから { -lockwise-brand-short-name } に@@Import-deki@@ます</a>。
 login-intro-instructions-fxa-passwords-help = <a data-l10n-name="passwords-help-link">パスワードのサポート記事</a> で詳細なヘルプを確認できます。
-about-logins-intro-browser-only-import = 他のブラウザーにログイン情報が保存されている場合は、<a data-l10n-name="import-link">それらを { -brand-product-name } に@@Import-deki@@ます</a> 。
+about-logins-intro-browser-only-import = 他のブラウザーにログイン情報が保存されている場合は、<a data-l10n-name="import-link">それらを { -brand-product-name } に@@Import-deki@@ます</a>。
 about-logins-intro-import2 = { -brand-product-name } 以外のブラウザーでログイン情報を保存した場合は、<a data-l10n-name="import-browser-link">そのブラウザーから</a> または <a data-l10n-name="import-file-link">ファイルから</a> @@Import-deki@@ます。
 
 ## Login
