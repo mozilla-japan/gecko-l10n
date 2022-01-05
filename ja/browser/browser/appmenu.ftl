@@ -202,6 +202,11 @@ profiler-popup-presets-graphics-label =
 profiler-popup-presets-media-description2 = { -brand-shorter-name } の音声と動画のバグを調査するための推奨プリセットです。
 profiler-popup-presets-media-label =
     .label = メディア
+
+profiler-popup-presets-networking-description = { -brand-shorter-name } のネットワークバグを調査するための推奨プリセットです。
+profiler-popup-presets-networking-label =
+    .label = ネットワーク
+
 profiler-popup-presets-custom-label =
     .label = カスタム
 

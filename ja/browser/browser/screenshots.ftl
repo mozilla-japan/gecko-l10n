@@ -17,6 +17,17 @@ screenshots-download-button = ダウンロード
 screenshots-download-button-tooltip = スクリーンショットをダウンロード
 screenshots-copy-button = コピー
 screenshots-copy-button-tooltip = スクリーンショットをクリップボードにコピー
+
+screenshots-download-button-title =
+  .title = スクリーンショットをダウンロード
+screenshots-copy-button-title =
+  .title = スクリーンショットをクリップボードにコピー
+screenshots-cancel-button-title =
+  .title = キャンセル
+
+screenshots-retry-button-title =
+  .title = スクリーンショットを撮り直します
+
 screenshots-meta-key =
     { PLATFORM() ->
         [macos] ⌘

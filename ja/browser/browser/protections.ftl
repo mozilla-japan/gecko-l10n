@@ -66,6 +66,8 @@ mobile-app-links = <a data-l10n-name="android-mobile-inline-link">Android 版</a
 lockwise-title = 二度とパスワードを忘れないように
 lockwise-title-logged-in2 = パスワード管理
 lockwise-header-content = { -lockwise-brand-name } はあなたのパスワードを安全にブラウザーに保存します。
+passwords-title-logged-in = パスワード管理
+passwords-header-content = { -brand-product-name } はあなたのパスワードを安全にブラウザーに保存します。
 lockwise-header-content-logged-in = パスワードを安全に保存して、ご使用のすべての端末と共有しましょう。
 protection-report-save-passwords-button = パスワードを保存
   .title = { -lockwise-brand-short-name } にパスワードを保存
@@ -74,6 +76,11 @@ protection-report-manage-passwords-button = パスワードを管理
 lockwise-mobile-app-title = どこでもパスワードが使える
 lockwise-no-logins-card-content = { -brand-short-name } に保存したパスワードを他の端末でも利用できます。
 lockwise-app-links = <a data-l10n-name="lockwise-android-inline-link">Android 版</a>および <a data-l10n-name="lockwise-ios-inline-link">iOS 版</a> { -lockwise-brand-name }
+
+protection-report-passwords-save-passwords-button = パスワードを保存
+  .title = パスワードを保存
+protection-report-passwords-manage-passwords-button = パスワードを管理
+  .title = パスワードを管理
 
 # Variables:
 # $count (Number) - Number of passwords exposed in data breaches.
