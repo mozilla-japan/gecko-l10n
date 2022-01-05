@@ -26,7 +26,7 @@ screenshots-cancel-button-title =
   .title = キャンセル
 
 screenshots-retry-button-title =
-  .title = スクリーンショットを再撮影
+  .title = スクリーンショットを撮り直します
 
 screenshots-meta-key =
     { PLATFORM() ->
