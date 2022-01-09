@@ -8,8 +8,8 @@ import-page-title = 設定とデータの@@ImportNoun@@
 
 import-from-app = @@Application@@から@@ImportNoun@@
 import-from-app-desc = アカウント、アドレス帳、カレンダーおよび他のデータの@@ImportNoun@@元を選んでください:
-import-address-book = アドレス帳の@@ImportNoun@@
-import-calendar = カレンダーファイルの@@ImportNoun@@
+import-address-book = アドレス帳ファイルから@@ImportNoun@@
+import-calendar = カレンダーファイルから@@ImportNoun@@
 
 ## Buttons
 
@@ -39,4 +39,4 @@ progress-pane-restart-desc = 再起動して@@ImportNoun@@を完了してくだ�
 error-pane-title = エラー
 error-message-zip-file-too-big = 選択された zip ファイルのサイズが 2GB を超えています。まず zip ファイルを展開し、その展開したフォルダーからデータを@@Import-site@@ください。
 error-message-extract-zip-file-failed = zip ファイルの展開に失敗しました。手動で zip ファイルを展開し、その展開したフォルダーからデータを@@Import-site@@ください。
-error-message-failed = 予期せず@@Import@@に失敗しました。エラーの詳細はエラーコンソールに出力されています。
+error-message-failed = 予期せず@@ImportNoun@@に失敗しました。エラーの詳細はエラーコンソールに出力されています。
