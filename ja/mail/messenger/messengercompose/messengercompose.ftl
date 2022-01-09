@@ -9,17 +9,19 @@ remove-address-row-button =
     .title = { $type } フィールドを削除します
 #   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
-address-input-type-aria-label = { $count ->
-    [0]     { $type }
-    [one]   { $type } のアドレス 1 件、フォーカスするには左矢印キーを押してください。
-    *[other] { $type } のアドレス { $count } 件、フォーカスするには左矢印キーを押してください。
-}
+address-input-type-aria-label =
+    { $count ->
+         [0]     { $type }
+         [one]   { $type } のアドレス 1 件、フォーカスするには左矢印キーを押してください。
+        *[other] { $type } のアドレス { $count } 件、フォーカスするには左矢印キーを押してください。
+    }
 #   $email (String) - the email address
 #   $count (Number) - the number of address pills currently present in the addressing row
-pill-aria-label = { $count ->
-    [one]   { $email }: 編集は Enter キー、削除は Delete キーを押してください。
-    *[other] { $email }, 1 / { $count }: 編集は Enter キー、削除は Delete キーを押してください。
-}
+pill-aria-label =
+    { $count ->
+         [one]   { $email }: 編集は Enter キー、削除は Delete キーを押してください。
+        *[other] { $email }, 1 / { $count }: 編集は Enter キー、削除は Delete キーを押してください。
+    }
 #   $email (String) - the email address
 pill-tooltip-invalid-address = { $email } は有効なメールアドレスではありません
 #   $email (String) - the email address
@@ -42,11 +44,11 @@ pill-action-expand-list =
 
 ## Attachment widget
 
-ctrl-cmd-shift-pretty-prefix = {
-  PLATFORM() ->
-    [macos] ⇧ ⌘{" "}
-   *[other] Ctrl+Shift+
-}
+ctrl-cmd-shift-pretty-prefix =
+    { PLATFORM() ->
+         [macos] ⇧ ⌘{" "}
+        *[other] Ctrl+Shift+
+    }
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
@@ -97,7 +99,9 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = 開封確認
     .tooltiptext = このメッセージの開封確認の返送を求めます
-# Encryption
+
+## Encryption
+
 message-to-be-signed-icon =
     .alt = メッセージに署名
 message-to-be-encrypted-icon =
@@ -185,10 +189,11 @@ show-bcc-row-button = Bcc
     .title = Bcc フィールドを表示します ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = 他のアドレス入力フィールドを表示します
-many-public-recipients-notice = { $count ->
-    [one] あなたのメッセージの受信者は開示されています。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
-    *[other] 宛先および Cc フィールドの {$count} 件の受信者アドレスは開示されており、受信者が互いにこれらのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
-}
+many-public-recipients-notice =
+    { $count ->
+         [one] あなたのメッセージの受信者は開示されています。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+        *[other] 宛先および Cc フィールドの {$count} 件の受信者アドレスは開示されており、受信者が互いにこれらのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+    }
 many-public-recipients-bcc =
     .label = 代わりに Bcc を使用する
     .accesskey = U
@@ -197,10 +202,11 @@ many-public-recipients-ignore =
     .accesskey  = K
 many-public-recipients-prompt-title = 開示された受信者が多すぎます
 #   $count (Number) - the count of addresses in the public recipients fields.
-many-public-recipients-prompt-msg = { $count ->
-    [one] あなたのメッセージの受信者は開示されており、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
-    *[other] あなたのメッセージは {$count} 件の受信者が開示されており、受信者が互いにこれらのアドレスを見られるため、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
-}
+many-public-recipients-prompt-msg =
+    { $count ->
+         [one] あなたのメッセージの受信者は開示されており、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
+        *[other] あなたのメッセージは {$count} 件の受信者が開示されており、受信者が互いにこれらのアドレスを見られるため、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
+    }
 many-public-recipients-prompt-cancel = 送信をキャンセル
 many-public-recipients-prompt-send = 強制送信
 
@@ -218,3 +224,55 @@ encrypted-bcc-ignore-button = 了解
 
 compose-tool-button-remove-text-styling =
     .tooltiptext = テキストのスタイル付けを削除します
+
+## FileLink
+
+# Template
+
+# A line of text describing how many uploaded files have been appended to this
+# message. Emphasis should be on sharing as opposed to attaching. This item is
+# used as a header to a list, hence the colon.
+# (^m^) メッセージ本文に挿入されるため en-US のまま。
+# ja: { $count } 個のファイルをこのメールにリンクしました:
+cloud-file-count-header =
+    { $count ->
+         [one] { $count } 個のファイルをこのメールにリンクしました:
+        *[other] { $count } 個のファイルをこのメールにリンクしました:
+    }
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers.
+cloud-file-service-provider-footer =
+    { $count ->
+         [one] { $lastLink } についての詳細
+        *[other] { $firstLinks } および { $lastLink } についての詳細
+    }
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = リンク先がパスワードで保護されています
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (CloudFile Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service = CloudFile サービス:
+cloud-file-template-size = サイズ:
+cloud-file-template-link = リンク:
+cloud-file-template-password-protected-link = パスワード保護されたリンク:
+cloud-file-template-expiry-date = 有効期限日:
+cloud-file-template-download-limit = ダウンロード回数制限:
+
+# Messages
+
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = { $filename } ファイルの { $provider } へのアップロードに失敗しました
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-title = 名前変更エラー
+cloud-file-rename-error = { $provider } 上で { $filename } ファイルの名前変更時にエラーが発生しました。
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = { $provider } 上で { $filename } ファイルの名前変更に失敗しました
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } はすでにアップロードされているファイルの名前変更をサポートしていません。
