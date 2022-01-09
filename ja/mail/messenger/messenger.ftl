@@ -2,13 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+## Window controls
+
+messenger-window-minimize-button =
+    .tooltiptext = @@Minimize@@
+messenger-window-maximize-button =
+    .tooltiptext = 最大化
+messenger-window-restore-down-button =
+    .tooltiptext = 元に戻す
+messenger-window-close-button =
+    .tooltiptext = @@CloseCMD@@
+
 # Variables:
 # $count (Number) - Number of unread messages.
 unread-messages-os-tooltip =
-  { $count ->
-     [one] 1 通の未読メッセージ
-    *[other] { $count } 通の未読メッセージ
-  }
+    { $count ->
+         [one] 1 通の未読メッセージ
+        *[other] { $count } 通の未読メッセージ
+    }
 
 about-rights-notification-text = { -brand-short-name } は無料のオープンソースソフトウェアであり、世界中の多数のコミュニティによって開発されています。
 
@@ -100,15 +111,25 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = リダイレクト
+mail-context-delete-messages =
+    .label = { $count ->
+         [one] メッセージを削除
+        *[other] 選択したメッセージを削除
+    }
+context-menu-decrypt-to-folder =
+    .label = 復号したメッセージをコピー
+    .accesskey = y
 
 ## Message header pane
 
 other-action-redirect-msg =
     .label = リダイレクト
-message-header-msg-is-flagged =
-    .title = スター付きのメッセージ
+message-header-msg-flagged =
+    .title = スター付き
+    .aria-label = スター付き
 message-header-msg-not-flagged =
-    .title = スターなしのメッセージ
+    .title = スターなし
+    .aria-label = スターなし
 
 ## Action Button Context Menu
 
@@ -139,11 +160,15 @@ caret-browsing-prompt-text = F7 キーを押すとキャレットブラウジン
 caret-browsing-prompt-check-text = 今後は確認しない
 
 repair-text-encoding-button =
-  .label = テキストエンコーディングを修復
-  .tooltiptext = メッセージ本文の適切なテキストエンコーディングを推定します
+    .label = テキストエンコーディングを修復
+    .tooltiptext = メッセージ本文の適切なテキストエンコーディングを推定します
 
 ## no-reply handling
 
 no-reply-title = 返信に対応していません
 no-reply-message = この返信アドレス ({ $email }) は通信相手が監視していません。このアドレスへのメッセージは誰にも読まれることがないでしょう。
 no-reply-reply-anyway-button = 強制返信する
+
+## error messages
+
+decrypt-and-copy-failures = { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
