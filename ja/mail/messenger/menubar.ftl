@@ -67,6 +67,10 @@ mail-uidensity-normal =
 mail-uidensity-touch =
     .label = タッチ
     .accesskey = T
+# (^m^) en-US: "Spaces Toolbar" (Bug 1665511)
+menu-spaces-toolbar-button =
+    .label = スペースツールバー
+    .accesskey = S
 
 ## File
 

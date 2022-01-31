@@ -172,3 +172,23 @@ no-reply-reply-anyway-button = 強制返信する
 ## error messages
 
 decrypt-and-copy-failures = { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
+
+## Spaces toolbar
+
+# (^m^) menubar.ftl の menu-spaces-toolbar-button と同じ
+spaces-toolbar =
+    .toolbarname = スペースツールバー
+spaces-toolbar-button-mail =
+    .title = メールタブに切り替えます
+spaces-toolbar-button-address-book =
+    .title = アドレス帳タブに切り替えます
+spaces-toolbar-button-calendar =
+    .title = カレンダータブに切り替えます
+spaces-toolbar-button-tasks =
+    .title = ToDo タブに切り替えます
+spaces-toolbar-button-chat =
+    .title = チャットタブに切り替えます
+spaces-toolbar-button-settings =
+    .title = 設定タブに切り替えます
+spaces-toolbar-button-collapse =
+    .title = スペースツールバーを折りたたみます
