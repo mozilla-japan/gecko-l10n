@@ -386,6 +386,7 @@ window-locked = メッセージ作成@@Window@@がロックされているため
 
 # Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-attachment-label = 暗号化されたメッセージ部
+# Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-concealed-data = これは暗号化されたメッセージの一部です。添付ファイルをクリックして別の@@Window@@で開きます。
 
 # Strings in keyserver.jsm
