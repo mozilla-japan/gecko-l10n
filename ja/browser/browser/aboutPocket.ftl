@@ -46,3 +46,8 @@ pocket-panel-home-paragraph = { -pocket-brand-name } でウェブページ、記
 pocket-panel-home-explore-popular-topics = 人気の記事を探す
 pocket-panel-home-discover-more = その他の記事を見る
 pocket-panel-home-explore-more = 探す
+
+## Pocket panel header component
+
+pocket-panel-header-my-list = マイリストを表示
+pocket-panel-header-sign-in = ログイン
