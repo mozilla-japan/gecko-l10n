@@ -123,15 +123,6 @@ perftools-onboarding-close-button =
 perftools-presets-web-developer-label = ウェブ開発
 perftools-presets-web-developer-description = 一般的なウェブアプリをデバッグするための低負荷な推奨プリセットです。
 
-perftools-presets-firefox-platform-label = Firefox プラットフォーム
-perftools-presets-firefox-platform-description = Firefox のプラットフォーム内部をデバッグするための推奨プリセットです。
-
-perftools-presets-firefox-front-end-label = Firefox フロントエンド
-perftools-presets-firefox-front-end-description = Firefox のフロントエンド内部をデバッグするための推奨プリセットです。
-
-perftools-presets-firefox-graphics-label = Firefox グラフィック
-perftools-presets-firefox-graphics-description = Firefox のグラフィック性能を調査するための推奨プリセットです。
-
 perftools-presets-firefox-label = { -brand-shorter-name }
 perftools-presets-firefox-description = { -brand-shorter-name } のプロファイリングのための推奨プリセットです。
 
@@ -139,8 +130,6 @@ perftools-presets-graphics-label = グラフィック
 perftools-presets-graphics-description = { -brand-shorter-name } のグラフィックバグを調査するための推奨プリセットです。
 
 perftools-presets-media-label = メディア
-perftools-presets-media-description = 音声と動画の問題を診断するための推奨プリセットです。
-
 perftools-presets-media-description2 = { -brand-shorter-name } の音声と動画のバグを調査するための推奨プリセットです。
 
 perftools-presets-networking-label = ネットワーク

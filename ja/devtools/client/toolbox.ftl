@@ -25,5 +25,8 @@ toolbox-meatball-menu-community-label = コミュニティ...
 # contributors.
 toolbox-meatball-menu-noautohide-label = ポップアップを自動で隠さない
 
+toolbox-meatball-menu-pseudo-locale-accented = 言語の “accented” を有効
+toolbox-meatball-menu-pseudo-locale-bidi = 言語の “bidi” を有効
+
 ##
 
