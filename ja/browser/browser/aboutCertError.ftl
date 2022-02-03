@@ -48,6 +48,9 @@ cert-error-code-prefix-link = エラーコード: <a data-l10n-name="error-code-
 # $hostname (String) - Hostname of the website with cert error.
 cert-error-symantec-distrust-description = ウェブサイトは認証局から発行された証明書で同一性を証明します。多くのブラウザーはもはや GeoTrust および RapidSSL、Symantec、Thawte、VeriSign により発行された証明書を信頼しません。{ $hostname } はこれらのうちいずれかの認証局からの証明書を使用しているため、ウェブサイトの同一性を証明できません。
 cert-error-symantec-distrust-admin = この問題をウェブサイトの管理者に知らせることもできます。
+
+cert-error-old-tls-version = このウェブサイトは TLS 1.2 プロトコルをサポートしていない可能性があります。これは { -brand-short-name } によりサポートされる最低バージョンです。
+
 # Variables:
 # $hasHSTS (Boolean) - Indicates whether HSTS header is present.
 cert-error-details-hsts-label = HTTP Strict Transport Security: { $hasHSTS }

@@ -180,16 +180,6 @@ profiler-popup-capture-shortcut =
 profiler-popup-presets-web-developer-description = 一般的なウェブアプリをデバッグするための低負荷な推奨プリセットです。
 profiler-popup-presets-web-developer-label =
     .label = ウェブ開発
-profiler-popup-presets-firefox-platform-description = Firefox のプラットフォーム内部をデバッグするための推奨プリセットです。
-profiler-popup-presets-firefox-platform-label =
-    .label = Firefox プラットフォーム
-profiler-popup-presets-firefox-front-end-description = Firefox のフロントエンド内部をデバッグするための推奨プリセットです。
-profiler-popup-presets-firefox-front-end-label =
-    .label = Firefox フロントエンド
-profiler-popup-presets-firefox-graphics-description = Firefox のグラフィック性能を調査するための推奨プリセットです。
-profiler-popup-presets-firefox-graphics-label =
-    .label = Firefox グラフィック
-profiler-popup-presets-media-description = 音声と動画の問題を診断するための推奨プリセットです。
 
 profiler-popup-presets-firefox-description = { -brand-shorter-name } のプロファイリングのための推奨プリセットです。
 profiler-popup-presets-firefox-label =

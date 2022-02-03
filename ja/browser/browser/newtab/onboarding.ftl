@@ -63,6 +63,8 @@ onboarding-multistage-import-secondary-button-label = 後で
 # This supports welcome screen showing top sites imported from the user's default browser.
 onboarding-import-sites-disclaimer = この端末から見つかったサイトを表示しています。{ -brand-short-name } は、あなたがこれらのサイトを@@Import-suru@@ことを選択しない限り、他のブラウザーからデータを保存または同期することはありません。
 
+return-to-amo-add-theme-label = テーマを追加
+
 ## Multistage onboarding strings (about:welcome pages)
 
 # Aria-label to make the "steps" of multistage onboarding visible to screen readers.

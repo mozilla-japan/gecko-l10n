@@ -401,3 +401,7 @@ main-context-menu-open-link-in-container-tab =
 main-context-menu-toggle-show-password =
     .label = パスワードを表示
     .accesskey = d
+
+main-context-menu-reveal-password =
+    .label = パスワードを開示
+    .accesskey = v
