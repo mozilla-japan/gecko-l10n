@@ -12,18 +12,18 @@ more-from-moz-subtitle = 健全なインターネットを支える { -vendor-sh
 
 more-from-moz-firefox-mobile-title = { -brand-product-name } モバイル
 more-from-moz-firefox-mobile-description = プライバシー第一のモバイルブラウザーです。
-more-from-moz-firefox-mobile-description-advanced = トラッカーのブロックから、うっとおしい自動再生の抑制まで、{ -brand-product-name } モバイルは時間外でも動作して快適なインターネットを提供します。
+more-from-moz-firefox-mobile-description-advanced = トラッカーのブロックから不快な自動再生の抑止まで、インターネットを快適に利用できるように { -brand-product-name } モバイルが付き添います。
 
 more-from-moz-mozilla-vpn-title = { -mozilla-vpn-brand-name }
-more-from-moz-mozilla-vpn-description = 匿名ブラウジングと保護をより強化できます。
-more-from-moz-mozilla-vpn-description-advanced = { -mozilla-vpn-brand-name } は、匿名ブラウジングと保護のための追加レイヤーを提供します。他の VPN とは違い安全で、あなたの行動を追跡することはありません。
+more-from-moz-mozilla-vpn-description = 匿名でのブラウジングとプライバシー保護をさらに強化します。
+more-from-moz-mozilla-vpn-description-advanced = { -mozilla-vpn-brand-name } は、匿名でのブラウジングとプライバシー保護のための追加レイヤーを提供します。他の VPN とは違い安全で、あなたの行動を追跡することはありません。
 
 # This string is specific to the product Mozilla Rally which is US only.
 more-from-moz-mozilla-rally-title = { -rally-brand-name }
 # This string is specific to the product Mozilla Rally which is US only.
 more-from-moz-mozilla-rally-description = すべての人にとってより良いインターネットのために、データを提供できます。
 # This string is specific to the product Mozilla Rally which is US only.
-more-from-moz-mozilla-rally-description-advanced = 大企業ではなく一般の人々に役立つ、安全で開かれたインターネットを構築するために、あなたのデータを提供できます。
+more-from-moz-mozilla-rally-description-advanced = 大企業よりも人々を助け、安全で開かれたインターネットを形作るための調査を行うため、あなたのデータをご提供ください。
 # This string is specific to the product Mozilla Rally which is US only.
 more-from-moz-button-mozilla-rally =
   .label = { -rally-short-name } に参加
@@ -31,7 +31,7 @@ more-from-moz-button-mozilla-rally =
 # This string is specific to the product Mozilla Rally which is US only.
 more-from-moz-button-mozilla-rally-2 = { -rally-short-name } に参加
 
-more-from-moz-qr-code-box-firefox-mobile-title = お使いの携帯端末にダウンロードします。カメラを QR コードに合わせるとリンクが表示されるのでタップしてください。
+more-from-moz-qr-code-box-firefox-mobile-title = ご使用の携帯端末でダウンロードします。カメラを QR コードに合わせ、表示されたリンクをタップしてください。
 more-from-moz-qr-code-box-firefox-mobile-button = 代わりに、携帯電話にメールを送信
 
 more-from-moz-button-mozilla-vpn =

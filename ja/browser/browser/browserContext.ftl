@@ -403,5 +403,5 @@ main-context-menu-toggle-show-password =
     .accesskey = d
 
 main-context-menu-reveal-password =
-    .label = パスワードを表示
+    .label = パスワードを開示
     .accesskey = v
