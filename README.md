@@ -121,7 +121,7 @@ git push
 * Pontoon Japanese projects (製品とウェブサイトのローカライズ)
   * https://pontoon.mozilla.org/ja/
 * compare-locales Python script
-  * https://developer.mozilla.org/docs/Mozilla/Projects/compare-locales
+  * https://pypi.org/project/compare-locales/
 
 ## 本家の L10n 情報
 * [Mozilla L10N blog](https://blog.mozilla.org/l10n/)
