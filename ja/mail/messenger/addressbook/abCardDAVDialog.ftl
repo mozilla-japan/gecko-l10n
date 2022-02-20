@@ -4,6 +4,7 @@
 
 carddav-window =
     .title = @@New-CMD@@ CardDAV アドレス帳
+carddav-window-title = @@New-CMD@@ CardDAV アドレス帳
 carddav-dialog =
     .buttonlabelaccept = @@NextButton@@
     .buttonaccesskeyaccept = C

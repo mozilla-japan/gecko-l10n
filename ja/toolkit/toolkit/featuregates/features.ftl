@@ -10,12 +10,6 @@ experimental-features-css-masonry-description = 実験的な CSS Masonry レイ�
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
-experimental-features-css-cascade-layers =
-    .label = CSS: カスケードレイヤー
-experimental-features-css-cascade-layers-description = CSS Cascade Layers をサポートします。詳細は <a data-l10n-name="spec">策定中の仕様</a> を参照してください。この機能に関連するバグについては <a data-l10n-name="bugzilla">bug 1699215</a> をブロックするバグとして報告してください。
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
 experimental-features-web-gpu2 =
     .label = Web API: WebGPU
 experimental-features-web-gpu-description2 = この新しい API は、ユーザーの端末やコンピューターに搭載された <a data-l10n-name="wikipedia">Graphics Processing Unit (GPU)</a> を使用するグラフィックス描画と計算を扱うための低レベルサポートを提供します。WebGPU の <a data-l10n-name="spec">仕様</a> はまだ策定中です。詳細は <a data-l10n-name="bugzilla">bug 1602129</a> を参照してください。
@@ -114,3 +108,8 @@ experimental-features-multi-pip-description = 複数のピクチャーインピ�
 experimental-features-ime-search =
     .label = アドレスバー: IME 変換中に結果を表示
 experimental-features-ime-search-description = IME (Input Method Editor) は、東アジアまたはインド系の言語の複雑な文字 (かな漢字変換など) を標準のキーボードで入力するためのツールです。この実験的な機能を有効にすると、IME を使用した文字入力中に、アドレスバーパネルを開いたまま検索結果や検索候補を表示できます。ただし、IME のパネルがアドレスバーの検索結果を隠してしまうことがあります。この設定は、IME のパネルのこのような挙動を想定していません。
+
+# Firefox 100
+experimental-features-firefox-100 =
+    .label = { -brand-product-name } 100 ユーザーエージェント文字列
+experimental-features-firefox-100-description = { -brand-short-name } がウェブサイトに送信するユーザーエージェント文字列を { -brand-product-name } バージョン 100 に装います。この設定は、{ -brand-short-name } のバージョン番号が 3 桁になってもウェブサイトが壊れないかどうかをテストします。実際の { -brand-product-name } 100 は 2022 年 5 月にリリースされる予定ですので、今からウェブサイトのテストを始めてください。

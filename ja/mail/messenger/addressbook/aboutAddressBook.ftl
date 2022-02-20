@@ -132,8 +132,6 @@ about-addressbook-details-phone-numbers-header = 電話番号
 about-addressbook-details-home-address-header = 自宅アドレス
 about-addressbook-details-work-address-header = 勤務先アドレス
 about-addressbook-details-other-info-header = 他の情報
-about-addressbook-prompt-to-save-title = 変更の保存
-about-addressbook-prompt-to-save = 変更を保存しますか？
 
 # Photo dialog
 
