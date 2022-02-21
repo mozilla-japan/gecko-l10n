@@ -1204,3 +1204,9 @@ target dir             gecko-string hg changeset rev:id     by              comm
 mail, netwerk, toolkit  14666:8562b54e4804   2022-01-27     mar             sync mail, netwerk, toolkit
 browser                 14672:e1caf4e41c36   2022-01-31     hATrayflood     sync browser
 devtools                14672:e1caf4e41c36   2022-01-31     hATrayflood     sync devtools
+
+[l10n-mozilla-98.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+mail, toolkit           14679:c80fc7799b43   2022-02-08     mar             sync mail, toolkit
+

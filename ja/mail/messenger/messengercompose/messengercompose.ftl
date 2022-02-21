@@ -232,19 +232,10 @@ compose-tool-button-remove-text-styling =
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
-# (^m^) メッセージ本文に挿入されるため en-US のまま。
-# ja: { $count } 個のファイルをこのメールにリンクしました:
 cloud-file-count-header =
     { $count ->
          [one] { $count } 個のファイルをこのメールにリンクしました:
         *[other] { $count } 個のファイルをこのメールにリンクしました:
-    }
-# A text used in a footer, instructing the reader where to find additional
-# information about the used service providers.
-cloud-file-service-provider-footer =
-    { $count ->
-         [one] { $lastLink } についての詳細
-        *[other] { $firstLinks } および { $lastLink } についての詳細
     }
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
