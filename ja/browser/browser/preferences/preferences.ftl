@@ -450,6 +450,10 @@ update-application-use-service =
     .label = 更新のインストールにバックグラウンドサービスを使用する
     .accesskey = b
 
+update-application-suppress-prompts =
+    .label = 更新確認の通知頻度を少なくする
+    .accesskey = n
+
 update-setting-write-failure-title2 = 設定変更の保存エラー
 
 # Variables:

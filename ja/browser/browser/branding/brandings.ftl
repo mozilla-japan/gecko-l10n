@@ -25,10 +25,9 @@
 -mozilla-vpn-brand-name = Mozilla VPN
 -profiler-brand-name = Firefox Profiler
 -translations-brand-name = Firefox Translations
+-rally-brand-name = Mozilla Rally
+-rally-short-name = Rally
 
 # “Suggest” can be localized, “Firefox” must be treated as a brand
 # and kept in English.
 -firefox-suggest-brand-name = Firefox Suggest
-
--rally-brand-name = Mozilla Rally
--rally-short-name = Rally

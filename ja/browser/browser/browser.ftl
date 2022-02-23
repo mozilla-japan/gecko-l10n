@@ -765,9 +765,7 @@ navbar-overflow =
 navbar-print =
     .label = @@Print@@
     .tooltiptext = このページを@@Print@@します... ({ $shortcut })
-navbar-print-tab-modal-disabled =
-    .label = @@Print@@
-    .tooltiptext = このページを@@Print@@します
+
 navbar-home =
     .label = ホーム
     .tooltiptext = { -brand-short-name } のホームページです
