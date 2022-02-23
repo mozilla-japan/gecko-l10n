@@ -1210,3 +1210,4 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 mail, toolkit           14679:c80fc7799b43   2022-02-08     mar             sync mail, toolkit
 browser                 14679:c80fc7799b43   2022-02-08     hATrayflood     sync browser
+devtools                14679:c80fc7799b43   2022-02-08     hATrayflood     sync devtools
