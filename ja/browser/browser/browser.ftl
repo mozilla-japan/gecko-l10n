@@ -417,19 +417,19 @@ urlbar-placeholder-search-mode-web-2 =
 #  $name (String): the name of a search engine that searches a specific site
 #  (e.g. Amazon).
 urlbar-placeholder-search-mode-other-engine =
-    .placeholder = 検索語句を入力を入力します
+    .placeholder = 検索語句を入力します
     .aria-label = { $name } を検索
 # This placeholder is used when searching bookmarks.
 urlbar-placeholder-search-mode-other-bookmarks =
-    .placeholder = 検索語句を入力を入力します
+    .placeholder = 検索語句を入力します
     .aria-label = ブックマークを検索
 # This placeholder is used when searching history.
 urlbar-placeholder-search-mode-other-history =
-    .placeholder = 検索語句を入力を入力します
+    .placeholder = 検索語句を入力します
     .aria-label = 履歴を検索
 # This placeholder is used when searching open tabs.
 urlbar-placeholder-search-mode-other-tabs =
-    .placeholder = 検索語句を入力を入力します
+    .placeholder = 検索語句を入力します
     .aria-label = タブを検索
 # Variables
 #  $name (String): the name of the user's default search engine
