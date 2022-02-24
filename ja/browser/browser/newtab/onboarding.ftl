@@ -251,11 +251,7 @@ mr2-onboarding-theme-description =
 #   $colorwayName (String) - Name of colorway
 mr2-onboarding-colorway-tooltip =
     .title = { $colorwayName } のカラーテーマを見てみます。
-# Selector description for colorway
-# Variables:
-#   $colorwayName (String) - Name of colorway
-mr2-onboarding-colorway-description =
-    .aria-description = { $colorwayName } のカラーテーマを見てみます
+
 # Selector description for colorway
 # Variables:
 #   $colorwayName (String) - Name of colorway
@@ -263,9 +259,7 @@ mr2-onboarding-colorway-label = { $colorwayName } のカラーテーマを見て
 # Tooltip displayed on hover of default themes
 mr2-onboarding-default-theme-tooltip =
     .title = @@Default-@@テーマを見てみます。
-# Selector description for default themes
-mr2-onboarding-default-theme-description =
-    .aria-description = @@Default-@@テーマを見てみます。
+
 # Selector description for default themes
 mr2-onboarding-default-theme-label = @@Default-@@テーマを見てみます。
 
