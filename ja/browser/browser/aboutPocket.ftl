@@ -38,7 +38,7 @@ pocket-panel-signup-tagline = { -brand-product-name } で記事や動画を保�
 pocket-panel-signup-tagline-story-one = { -brand-product-name } で { -pocket-brand-name } ボタンをクリックすると、様々な記事や動画やページを保存できます。
 pocket-panel-signup-tagline-story-two = { -pocket-brand-name } でいつでもどこでも閲覧できます。
 
-pocket-panel-signup-cta-a = インターネットを保存するボタンです。
+pocket-panel-signup-cta-a = インターネットの保存ボタンです。
 pocket-panel-signup-cta-b = { -pocket-brand-name } ボタンをクリックすると記事、動画、リンクを保存できます。いつでもどの端末からでも保存リストを開けます。
 pocket-panel-signup-cta-c = いつでもどの端末からでも保存リストを開けます。
 

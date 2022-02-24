@@ -48,4 +48,4 @@ about-private-browsing-search-banner-close-button =
     .aria-label = 閉じる
 
 about-private-browsing-dismiss-button =
-  .title = 閉じる
+    .title = 閉じる
