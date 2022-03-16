@@ -132,6 +132,8 @@ about-addressbook-details-phone-numbers-header = 電話番号
 about-addressbook-details-home-address-header = 自宅アドレス
 about-addressbook-details-work-address-header = 勤務先アドレス
 about-addressbook-details-other-info-header = 他の情報
+about-addressbook-unsaved-changes-prompt-title = 変更が保存されていません
+about-addressbook-unsaved-changes-prompt = 編集ビューを閉じる前に変更を保存しますか？
 
 # Photo dialog
 

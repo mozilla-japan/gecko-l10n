@@ -5,6 +5,7 @@
 otr-finger =
     .buttonlabelaccept = 閉じる
     .title = 使用された OTR フィンガープリント
+otr-finger-title = 使用された OTR フィンガープリント
 finger-intro = エンドツーエンド暗号化された会話の OTR 鍵フィンガープリント
 finger-screen-name =
     .label = 連絡先
