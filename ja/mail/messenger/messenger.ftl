@@ -192,3 +192,36 @@ spaces-toolbar-button-settings =
     .title = 設定タブに切り替えます
 spaces-toolbar-button-collapse =
     .title = スペースツールバーを折りたたみます
+spaces-toolbar-button-reveal =
+    .title = スペースツールバーを表示します
+spaces-context-new-tab-item =
+    .label = @@NewTab@@で開く
+spaces-context-new-window-item =
+    .label = @@NewWindow@@で開く
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = { $tabName }に切り替える
+settings-context-open-settings-item =
+    .label = 設定を開く
+settings-context-open-account-settings-item =
+    .label = アカウント設定を開く
+settings-context-open-addons-item =
+    .label = アドオンマネージャーを開く
+
+## Spaces toolbar pinned tab menupopup
+
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = スペースメニューを開きます
+spaces-pinned-button-menuitem-mail =
+    .label = メールタブを表示
+spaces-pinned-button-menuitem-address-book =
+    .label = アドレス帳タブを表示
+spaces-pinned-button-menuitem-calendar =
+    .label = カレンダータブを表示
+spaces-pinned-button-menuitem-tasks =
+    .label = ToDo タブを表示
+spaces-pinned-button-menuitem-chat =
+    .label = チャットタブを表示
+spaces-pinned-button-menuitem-reveal =
+    .label = スペースツールバーを表示
