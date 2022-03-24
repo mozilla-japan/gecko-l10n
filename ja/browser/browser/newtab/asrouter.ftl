@@ -154,3 +154,15 @@ spotlight-total-cookie-protection-body = 包括的 Cookie 保護機能は Cookie
 spotlight-total-cookie-protection-expanded = あなたが訪問したサイト上でトラッカーが追跡できないように { -brand-short-name } が Cookie の周りにフェンスを建てて制限します。早期アクセスに参加すると、この機能が最適化され、すべての人にとってのより良いウェブを構築し続ける助けになります。
 spotlight-total-cookie-protection-primary-button = 包括的 Cookie 保護をオンにする
 spotlight-total-cookie-protection-secondary-button = 後で
+
+## Emotive Continuous Onboarding
+
+spotlight-better-internet-header = より良いインターネットはあなたとともに始まります
+spotlight-better-internet-body = { -brand-short-name} を使うことで、すべての人にとってより良い開かれたアクセス可能なインターネットに一票を投じることになります。
+spotlight-peace-mind-header = 私たちがあなたを保護します
+spotlight-peace-mind-body = { -brand-short-name } は毎月、ユーザーあたり平均 3,000 以上のトラッカーをブロックしています。特にトラッカーのようなプライバシーを脅かすものは、あなたと良いインターネットの間にあるべきではないからです。
+spotlight-pin-primary-button = { PLATFORM() ->
+    [macos] Dock に追加
+   *[other] タスクバーにピン留め
+}
+spotlight-pin-secondary-button = 後で

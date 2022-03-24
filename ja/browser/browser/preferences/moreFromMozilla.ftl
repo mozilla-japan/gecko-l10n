@@ -21,14 +21,9 @@ more-from-moz-mozilla-rally-description = すべての人にとってより良�
 # This string is specific to the product Mozilla Rally which is US only.
 more-from-moz-mozilla-rally-description-advanced = 大企業よりも人々を助け、安全で開かれたインターネットを形作るための調査を行うため、あなたのデータをご提供ください。
 # This string is specific to the product Mozilla Rally which is US only.
-more-from-moz-button-mozilla-rally =
-    .label = { -rally-short-name } に参加
-# This string is specific to the product Mozilla Rally which is US only.
 more-from-moz-button-mozilla-rally-2 = { -rally-short-name } に参加
 more-from-moz-qr-code-box-firefox-mobile-title = ご使用の携帯端末でダウンロードします。カメラを QR コードに合わせ、表示されたリンクをタップしてください。
 more-from-moz-qr-code-box-firefox-mobile-button = 代わりに、携帯電話にメールを送信
-more-from-moz-button-mozilla-vpn =
-    .label = VPN を入手
 more-from-moz-qr-code-firefox-mobile-img =
     .alt = { -brand-product-name } モバイルのダウンロード QR コード
 more-from-moz-button-mozilla-vpn-2 = VPN を入手
