@@ -397,11 +397,6 @@ main-context-menu-open-link-in-container-tab =
     .label = リンクを@@New-CMD@@ { $containerName } タブで開く
     .accesskey = T
 
-# FIXME(emilio): Every single letter has a conflicting accesskey, UX needed.
-main-context-menu-toggle-show-password =
-    .label = パスワードを表示
-    .accesskey = d
-
 main-context-menu-reveal-password =
     .label = パスワードを開示
     .accesskey = v

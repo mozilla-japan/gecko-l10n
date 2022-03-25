@@ -107,6 +107,26 @@ extension-controlled-websites-content-blocking-all-trackers = 拡張機能 <img 
 # are being controlled by an extension.
 extension-controlled-proxy-config = 拡張機能 <img data-l10n-name="icon"/> { $name } が { -brand-short-name } のインターネット接続方法の設定を変更しています。
 
+# This string is shown to notify the user that the password manager setting
+# is being controlled by an extension
+extension-controlling-password-saving = <img data-l10n-name="icon"/> <strong>{ $name }</strong> がこの設定を制御しています。
+
+# This string is shown to notify the user that their notifications permission
+# is being controlled by an extension.
+extension-controlling-web-notifications = <img data-l10n-name="icon"/> <strong>{ $name }</strong> がこの設定を制御しています。
+
+# This string is shown to notify the user that Container Tabs
+# are being enabled by an extension.
+extension-controlling-privacy-containers = <img data-l10n-name="icon"/> <strong>{ $name }</strong> がコンテナータブを必要としています。
+
+# This string is shown to notify the user that their content blocking "All Detected Trackers"
+# preferences are being controlled by an extension.
+extension-controlling-websites-content-blocking-all-trackers = <img data-l10n-name="icon"/> <strong>{ $name }</strong> がこの設定を制御しています。
+
+# This string is shown to notify the user that their proxy configuration preferences
+# are being controlled by an extension.
+extension-controlling-proxy-config = <img data-l10n-name ="icon"/> <strong>{ $name }</strong> が { -brand-short-name } のインターネット接続方法を制御しています。
+
 # This string is shown after the user disables an extension to notify the user
 # how to enable an extension that they disabled.
 #
@@ -222,6 +242,42 @@ containers-remove-cancel-button = 削除しない
 language-and-appearance-header = 言語と外観
 
 fonts-and-colors-header = フォントと@@Colors@@
+
+preferences-web-appearance-header = ウェブサイトの外観
+
+preferences-web-appearance-description = 一部のウェブサイトはあなたの設定をもとにカラースキームを適用します。これらのサイトでどのカラースキームを使用するか選択してください。
+
+preferences-web-appearance-choice-browser = { -brand-short-name } テーマ
+preferences-web-appearance-choice-system = システムテーマ
+preferences-web-appearance-choice-light = Light
+preferences-web-appearance-choice-dark = Dark
+
+preferences-web-appearance-choice-tooltip-browser =
+  .title = { -brand-short-name } のテーマ設定をウェブサイトの背景と内容に適用させる。
+preferences-web-appearance-choice-tooltip-system =
+  .title = システムの設定をウェブサイトの背景と内容に適用させる。
+preferences-web-appearance-choice-tooltip-light =
+  .title = 明るい外観をウェブサイトの背景と内容に使用する。
+preferences-web-appearance-choice-tooltip-dark =
+  .title = 暗い外観をウェブサイトの背景と内容に使用する。
+
+# This can appear when using windows HCM or "Override colors: always" without
+# system colors.
+preferences-web-appearance-override-warning = 選択した@@Colors@@でウェブサイトの外観を上書きします。<a data-l10n-name="colors-link">@@Colors@@の管理</a>
+
+# This message contains one link. It can be moved within the sentence as needed
+# to adapt to your language, but should not be changed.
+preferences-web-appearance-footer = <a data-l10n-name="themes-link">アドオンとテーマ</a> で { -brand-short-name } のテーマを管理する
+
+preferences-colors-header = @@Colors@@
+
+preferences-colors-description = ウェブサイトのテキスト、背景、リンクを、{ -brand-short-name } の@@Default-@@@@Colors@@で上書きする。
+
+preferences-colors-manage-button =
+    .label = @@Colors@@の管理...
+    .accesskey = C
+
+preferences-fonts-header = フォント
 
 default-font = @@Default-@@フォント
     .accesskey = D
@@ -512,6 +568,10 @@ browsing-use-autoscroll =
 browsing-use-smooth-scrolling =
     .label = スムーズスクロール機能を使用する
     .accesskey = m
+
+browsing-gtk-use-non-overlay-scrollbars =
+    .label = スクロールバーを常に表示する
+    .accesskey = o
 
 browsing-use-onscreen-keyboard =
     .label = 必要であればタッチキーボードを表示する

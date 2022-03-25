@@ -39,7 +39,10 @@ pocket-panel-signup-tagline-story-one = { -brand-product-name } で { -pocket-br
 pocket-panel-signup-tagline-story-two = { -pocket-brand-name } でいつでもどこでも閲覧できます。
 
 pocket-panel-signup-cta-a = インターネットの保存ボタンです。
+
+pocket-panel-signup-cta-a-fix = インターネットの保存ボタンです
 pocket-panel-signup-cta-b = { -pocket-brand-name } ボタンをクリックすると記事、動画、リンクを保存できます。いつでもどの端末からでも保存リストを開けます。
+pocket-panel-signup-cta-b-short = { -pocket-brand-name } ボタンをクリックすると記事、動画、リンクを保存できます。
 pocket-panel-signup-cta-c = いつでもどの端末からでも保存リストを開けます。
 
 ## about:pocket-home panel
@@ -52,6 +55,7 @@ pocket-panel-home-discover-more = その他の記事を見る
 pocket-panel-home-explore-more = 探す
 
 pocket-panel-home-most-recent-saves = 最近保存したものはこちら:
+pocket-panel-home-most-recent-saves-loading = 最近保存したものを読み込み中...
 pocket-panel-home-new-user-cta = { -pocket-brand-name } ボタンをクリックすると記事、動画、リンクを保存できます。
 pocket-panel-home-new-user-message = 最近保存したものを表示します。
 

@@ -34,6 +34,10 @@ about-private-browsing-get-privacy = どこでもプライバシーを確保
 about-private-browsing-hide-activity-1 = { -mozilla-vpn-brand-name } であなたの行動と訪問先を秘匿できます。公共 Wi-Fi でもクリックひとつで安全な接続を確保できます。
 about-private-browsing-prominent-cta = { -mozilla-vpn-brand-name } でプライバシーを確保
 
+about-private-browsing-focus-promo-cta = { -focus-brand-name } をダウンロード
+about-private-browsing-focus-promo-header = { -focus-brand-name }: 出先でプライベートブラウジング
+about-private-browsing-focus-promo-text = 私たちのプライベートブラウジング専用モバイルアプリは履歴と Cookie を毎回消去します。
+
 # This string is the title for the banner for search engine selection
 # in a private window.
 # Variables:
@@ -48,4 +52,7 @@ about-private-browsing-search-banner-close-button =
     .aria-label = 閉じる
 
 about-private-browsing-dismiss-button =
+    .title = 閉じる
+
+about-private-browsing-promo-close-button =
     .title = 閉じる
