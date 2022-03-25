@@ -512,14 +512,13 @@ urlbar-result-action-search-tabs = タブを検索
 # A label shown above the "Firefox Suggest" (bookmarks/history) group in the
 # urlbar results.
 urlbar-group-firefox-suggest =
-  .label = { -firefox-suggest-brand-name }
-
+    .label = { -firefox-suggest-brand-name }
 # A label shown above the search suggestions group in the urlbar results. It
 # should use title case.
 # Variables
 #  $engine (String): the name of the search engine providing the suggestions
 urlbar-group-search-suggestions =
-  .label = { $engine } の検索候補
+    .label = { $engine } の検索候補
 
 ## Full Screen and Pointer Lock UI
 
@@ -727,11 +726,9 @@ popups-infobar-block =
 popups-infobar-dont-show-message =
     .label = ポップアップをブロックするとき、このメッセージを表示しない
     .accesskey = D
-
 edit-popup-settings =
     .label = ポップアップの設定を管理...
     .accesskey = M
-
 picture-in-picture-hide-toggle =
     .label = ピクチャーインピクチャーの切り替えボタンを隠す
     .accesskey = H
@@ -742,12 +739,12 @@ picture-in-picture-hide-toggle =
 picture-in-picture-move-toggle-right =
     .label = ピクチャーインピクチャーの切り替えボタンを右側に移動
     .accesskey = R
-
 picture-in-picture-move-toggle-left =
     .label = ピクチャーインピクチャーの切り替えボタンを左側に移動
     .accesskey = L
 
 ##
+
 
 # Navigator Toolbox
 
@@ -765,7 +762,6 @@ navbar-overflow =
 navbar-print =
     .label = @@Print@@
     .tooltiptext = このページを@@Print@@します... ({ $shortcut })
-
 navbar-home =
     .label = ホーム
     .tooltiptext = { -brand-short-name } のホームページです
@@ -792,3 +788,10 @@ tabs-toolbar-list-all-tabs =
 # <img data-l10n-name="icon"/> will be replaced by the application menu icon
 restore-session-startup-suggestion-message = <strong>前回のタブを開きますか？</strong> { -brand-short-name } アプリケーションメニュー<img data-l10n-name="icon"/>の履歴から前回のセッションを復元できます。
 restore-session-startup-suggestion-button = 方法を確認
+
+## Mozilla data reporting notification (Telemetry, Firefox Health Report, etc)
+
+data-reporting-notification-message = ユーザー体験の向上のため、{ -brand-short-name } は自動的にいくつかのデータを { -vendor-short-name } に送信します。
+data-reporting-notification-button =
+    .label = 共有するデータを選択
+    .accesskey = C
