@@ -1218,3 +1218,4 @@ target dir             gecko-string hg changeset rev:id     by              comm
 mail, chat, calendar    14699:a1224c86a3a3   2022-03-04     mar             sync mail, chat, calendar
 browser                 14714:bf358a19cec8   2022-03-18     hATrayflood     sync browser
 devtools                14714:bf358a19cec8   2022-03-18     hATrayflood     sync devtools
+dom, toolkit            14720:166b84b1506a   2022-03-25     mar             sync dom, toolkit

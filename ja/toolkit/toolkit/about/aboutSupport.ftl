@@ -70,6 +70,12 @@ app-basics-location-service-key-google = Google Location Service キー
 app-basics-safebrowsing-key-google = Google Safebrowsing キー
 app-basics-key-mozilla = Mozilla Location Service キー
 app-basics-safe-mode = セーフモード
+app-basics-memory-size = メモリーサイズ (RAM)
+app-basics-disk-available = 空きディスク領域
+# Variables:
+#   $value (number) - Amount of data being stored
+#   $unit (string) - The unit of data being stored (e.g. MB)
+app-basics-data-size = { $value } { $unit }
 show-dir-label =
     { PLATFORM() ->
         [macos] Finder に表示
