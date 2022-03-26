@@ -184,13 +184,9 @@ ja-JP-mac.Export-simasita		= 書き出しました
 #	default name
 #
 ja.NewCalendarDefault			= 新しいカレンダー
-ja.NewEventDefault			= 新しい予定
 ja.NewFolderDefault			= 新しいフォルダー
-ja.NewTaskDefault			= 新しい ToDo
 ja-JP-mac.NewCalendarDefault		= 名称未設定
-ja-JP-mac.NewEventDefault		= 新規予定
 ja-JP-mac.NewFolderDefault		= 名称未設定フォルダー
-ja-JP-mac.NewTaskDefault		= 新規 ToDo
 
 
 
@@ -267,11 +263,6 @@ ja-JP-mac.AccountManager.accountTree.width	= width: 19em;
 
 #	[ toolkit module ]
 
-# toolkit/chrome/global/customizeToolbar.dtd
-ja.customizeToolbar.nstructions.description		= ドラッグ &amp; ドロップによりツールバーのアイテムを追加、削除や移動できます。
-ja-JP-mac.customizeToolbar.nstructions.description	= よく使う項目をツールバーにドラッグしてください...
-
-
 # toolkit/chrome/global/intl.css
 intl.css.common				= \
 					/* see bug-jp 4303 */\n\
@@ -292,31 +283,6 @@ intl.css.common				= \
 					}\n
 
 ja.intl.css.locale			= \
-					/* make Account Settings's height 46.6em or lower */\n\
-					@-moz-document url(chrome://messenger/content/AccountManager.xul) {\n  \
-					  .dialog-button {\n    \
-					    margin-top: 0px;\n  \
-					  }\n\
-					}\n\
-					@-moz-document url(chrome://messenger/content/am-main.xul) {\n  \
-					  separator.thin:not([orient="vertical"]) {\n    \
-					    max-height: 1px;\n  \
-					  }\n  \
-					  #identity\\.htmlSigText {\n    \
-					    height: 5em;\n  \
-					  }\n\
-					}\n\
-					@-moz-document url(chrome://messenger/content/am-server.xul) {\n  \
-					  :root {\n    \
-					    line-height: 1.2;\n  \
-					  }\n\
-					}\n\
-					@-moz-document url(chrome://messenger/content/am-copies.xul) {\n  \
-					  :root {\n    \
-					    line-height: 1.0;\n  \
-					  }\n\
-					}\n\
-					\n\
 					/* Workaround for master password dialog with Meiryo */\n\
 					#changemp {\n  \
 					  min-width: 39em;\n\
@@ -330,10 +296,3 @@ ja-JP-mac.intl.css.locale		=
 ## Firefox 10 以降
 ja.downloads.monthDate2			= %1$S%2$S日
 ja-JP-mac.downloads.monthDate2		= %1$S %2$S
-
-
-# toolkit/chrome/mozapps/downloads/settingsChange.dtd
-# mail/chrome/messanger/messangercompose/composeMsgs.properties
-# @@settingsChange.preferences@@ は Linux/Mac でのみ使用する
-ja.settingsChange.preferences		= 設定
-ja-JP-mac.settingsChange.preferences	= 環境設定
