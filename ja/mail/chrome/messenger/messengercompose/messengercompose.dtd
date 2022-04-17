@@ -12,6 +12,7 @@
 <!ENTITY newMenu.label			"新規作成">
 <!ENTITY newMenu.accesskey		"N">
 <!ENTITY newMessage.label		"メッセージ">
+<!ENTITY newMessage.accesskey		"M">
 <!ENTITY newMessageCmd2.key		"N">
 <!ENTITY newContact.label		"連絡先...">
 <!ENTITY newContact.accesskey		"C">

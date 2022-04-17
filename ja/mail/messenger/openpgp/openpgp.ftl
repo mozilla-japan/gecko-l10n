@@ -262,6 +262,7 @@ openpgp-key-details-expiry-header = 有効期限
 openpgp-key-details-usage-label =
     .label = 利用法
 openpgp-key-details-fingerprint-label = フィンガープリント
+openpgp-key-details-legend-secret-missing = (!) マークが付いた鍵は秘密鍵が利用できません。
 openpgp-key-details-sel-action =
     .label = 操作を選択...
     .accesskey = S
