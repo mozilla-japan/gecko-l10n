@@ -25,3 +25,6 @@ styleeditor-open-link-new-tab =
     .label = リンクを@@NewTab@@で開く
 styleeditor-copy-url =
     .label = URL をコピー
+styleeditor-go-to-line =
+    .label = 指定行へ移動...
+    .accesskey = J
