@@ -273,5 +273,5 @@ spaces-customize-accent-background-color = 選択されたボタンの背景@@Co
 spaces-customize-accent-text-color = 選択されたボタンの@@Color@@
 spaces-customize-button-restore = 初期設定に戻す
     .accesskey = R
-spaces-customize-button-save = Done
+spaces-customize-button-save = 完了
     .accesskey = D
