@@ -194,6 +194,28 @@ spaces-toolbar-button-collapse =
     .title = スペースツールバーを折りたたみます
 spaces-toolbar-button-reveal =
     .title = スペースツールバーを表示します
+spaces-toolbar-element =
+    .toolbarname = スペースツールバー
+    .aria-label = スペースツールバー
+    .aria-description = 異なるスペースに切り替えるための垂直ツールバーです。矢印キーを使って利用可能なボタンへ移動してください。
+spaces-toolbar-button-mail2 =
+    .title = メール
+spaces-toolbar-button-address-book2 =
+    .title = アドレス帳
+spaces-toolbar-button-calendar2 =
+    .title = カレンダー
+spaces-toolbar-button-tasks2 =
+    .title = ToDo
+spaces-toolbar-button-chat2 =
+    .title = チャット
+spaces-toolbar-button-overflow =
+    .title = 他のスペース...
+spaces-toolbar-button-settings2 =
+    .title = 設定を開きます
+spaces-toolbar-button-hide =
+    .title = スペースツールバーを隠します
+spaces-toolbar-button-show =
+    .title = スペースツールバーを表示します
 spaces-context-new-tab-item =
     .label = @@NewTab@@で開く
 spaces-context-new-window-item =
@@ -212,7 +234,7 @@ settings-context-open-addons-item =
 ## Spaces toolbar pinned tab menupopup
 
 spaces-toolbar-pinned-tab-button =
-    .tooltiptext = スペースメニューを開きます
+    .tooltiptext = スペースメニュー
 spaces-pinned-button-menuitem-mail =
     .label = メールタブを表示
 spaces-pinned-button-menuitem-address-book =
@@ -225,3 +247,31 @@ spaces-pinned-button-menuitem-chat =
     .label = チャットタブを表示
 spaces-pinned-button-menuitem-reveal =
     .label = スペースツールバーを表示
+spaces-pinned-button-menuitem-settings =
+    .label = 設定を開く
+spaces-pinned-button-menuitem-show =
+    .label = スペースツールバーを表示
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title = { $count ->
+        [one] 1 件の未読メッセージ
+        *[other] { $count } 件の未読メッセージ
+    }
+## Spaces toolbar customize panel
+
+spaces-context-customize =
+    .label = カスタマイズ...
+spaces-customize-panel-title = スペースツールバー設定
+spaces-customize-background-color = 背景の@@Color@@
+spaces-customize-icon-color = ボタンの@@Color@@
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = 選択されたボタンの背景@@Color@@
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = 選択されたボタンの@@Color@@
+spaces-customize-button-restore = 初期設定に戻す
+    .accesskey = R
+spaces-customize-button-save = 完了
+    .accesskey = D

@@ -29,6 +29,13 @@ pill-tooltip-not-in-address-book = { $email } はアドレス帳に存在しま�
 pill-action-edit =
     .label = アドレスを編集
     .accesskey = E
+#   $type (String) - the type of the addressing row, e.g. Cc, Bcc, etc.
+pill-action-select-all-sibling-pills =
+    .label = { $type } のすべてのアドレスを選択
+    .accesskey = A
+pill-action-select-all-pills =
+    .label = すべてのアドレスを選択
+    .accesskey = S
 pill-action-move-to =
     .label = To へ移動
     .accesskey = T
@@ -74,17 +81,15 @@ context-menuitem-attach-files =
     .accesskey = F
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 #   $count (Number) - the number of attachments in the attachment bucket
-attachment-bucket-count = 添付ファイル { $count } 個
+attachment-bucket-count-value =
+    { $count ->
+         [one] 添付ファイル { $count } 個
+        *[other] 添付ファイル { $count } 個
+    }
 expand-attachment-pane-tooltip =
     .tooltiptext = 添付ペインを表示します ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 collapse-attachment-pane-tooltip =
     .tooltiptext = 添付ペインを隠します ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
-#   $count (Number) - the number of attachments in the attachment bucket
-attachment-bucket-count-value =
-    { $count ->
-         [one]   添付ファイル { $count } 個
-        *[other] 添付ファイル { $count } 個
-    }
 attachment-area-show =
     .title = 添付ペインを表示 ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
@@ -231,7 +236,21 @@ encrypted-bcc-ignore-button = 了解
 compose-tool-button-remove-text-styling =
     .tooltiptext = テキストのスタイル付けを削除します
 
-## FileLink
+## Filelink
+
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = 未知の Filelink アカウントにアップロードされました。
+
+# Placeholder file
+
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - Filelink 添付
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = { $filename } のファイルが Filelink として添付されました。以下のリンクからダウンロードできます。
 
 # Template
 
@@ -258,13 +277,13 @@ cloud-file-service-provider-footer-multiple = { $firstLinks } および { $lastL
 # Tooltip for an icon, indicating that the link is protected by a password.
 cloud-file-tooltip-password-protected-link = リンク先がパスワードで保護されています
 # Used in a list of stats about a specific file
-# Service - the used service provider to host the file (CloudFile Service: BOX.com)
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
 # Size - the size of the file (Size: 4.2 MB)
 # Link - the link to the file (Link: https://some.provider.com)
 # Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
 # Download Limit - stating the maximum allowed downloads, before the link becomes invalid
 #                  (Download Limit: 6)
-cloud-file-template-service = CloudFile サービス:
+cloud-file-template-service-name = Filelink サービス:
 cloud-file-template-size = サイズ:
 cloud-file-template-link = リンク:
 cloud-file-template-password-protected-link = パスワード保護されたリンク:
@@ -288,3 +307,9 @@ cloud-file-rename-error = { $provider } 上で { $filename } ファイルの名�
 cloud-file-rename-error-with-custom-message-title = { $provider } 上で { $filename } ファイルの名前変更に失敗しました
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } はすでにアップロードされているファイルの名前変更をサポートしていません。
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error-title = Filelink 添付エラー
+cloud-file-attachment-error = Filelink 添付の { $filename } の更新に失敗しました。ローカルの元ファイルが移動または削除されています。
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error-title = Filelink アカウントエラー
+cloud-file-account-error = Filelink 添付の { $filename } の更新に失敗しました。この Filelink アカウントは削除されています。
