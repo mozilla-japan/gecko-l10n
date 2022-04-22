@@ -157,6 +157,11 @@ main-context-menu-save-link-to-pocket =
 main-context-menu-copy-email =
     .label = メールアドレスをコピー
     .accesskey = l
+
+main-context-menu-copy-phone =
+    .label = 電話番号をコピー
+    .accesskey = o
+
 main-context-menu-copy-link-simple =
     .label = リンクをコピー
     .accesskey = L

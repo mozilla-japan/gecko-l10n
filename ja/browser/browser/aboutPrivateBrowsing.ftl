@@ -38,6 +38,13 @@ about-private-browsing-focus-promo-cta = { -focus-brand-name } をダウンロ�
 about-private-browsing-focus-promo-header = { -focus-brand-name }: 出先でプライベートブラウジング
 about-private-browsing-focus-promo-text = 私たちのプライベートブラウジング専用モバイルアプリは履歴と Cookie を毎回消去します。
 
+## The following strings will be used for experiments in Fx99 and Fx100
+
+about-private-browsing-focus-promo-header-b = あなたの携帯端末にプライベートブラウジングを
+about-private-browsing-focus-promo-text-b = あなたが主に使っているモバイルブラウザーでプライベートな検索をしたくない場合は、{ -focus-brand-name } をお使いください。
+about-private-browsing-focus-promo-header-c = モバイルでの次レベルのプライバシー
+about-private-browsing-focus-promo-text-c = { -focus-brand-name } は広告とトラッカーをブロックするときは毎回必ず履歴を消去します。
+
 # This string is the title for the banner for search engine selection
 # in a private window.
 # Variables:
@@ -50,9 +57,6 @@ about-private-browsing-search-banner-description = {
   }
 about-private-browsing-search-banner-close-button =
     .aria-label = 閉じる
-
-about-private-browsing-dismiss-button =
-    .title = 閉じる
 
 about-private-browsing-promo-close-button =
     .title = 閉じる
