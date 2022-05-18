@@ -1230,3 +1230,4 @@ browser                 14726:1755cc5e639b   2022-04-02     hATrayflood     sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 browser                 14761:f2435cb18056   2022-05-17     hATrayflood     sync browser
+devtools                14761:f2435cb18056   2022-05-17     hATrayflood     sync devtools

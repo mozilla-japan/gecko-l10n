@@ -14,5 +14,4 @@
   - documentation on web development on the web. -->
 
 <!ENTITY gotoLineCmd.label		"指定行へ移動...">
-<!ENTITY gotoLineCmd.key		"J">
 <!ENTITY gotoLineCmd.accesskey		"J">

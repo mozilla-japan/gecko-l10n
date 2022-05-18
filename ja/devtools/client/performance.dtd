@@ -59,7 +59,6 @@
 <!ENTITY performanceUI.table.samples.tooltip          "プロファイラがサンプルを採取したときに、この関数がスタック上に現れた回数です。">
 <!ENTITY performanceUI.table.function                 "関数">
 <!ENTITY performanceUI.table.function.tooltip         "サンプル採取された関数の名前とソース上の場所です。">
-<!ENTITY performanceUI.table.totalAlloc               "割り当てサンプル合計">
 <!ENTITY performanceUI.table.totalAlloc.tooltip       "この場所と呼び出し先で割り当てられたオブジェクトの合計サンプル数です。">
 
 <!-- LOCALIZATION NOTE (performanceUI.options.filter.tooltiptext): This string

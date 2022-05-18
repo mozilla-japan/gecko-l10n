@@ -46,8 +46,6 @@ perftools-devtools-settings-label = 設定
 
 ## Various statuses that affect the current state of profiling, not typically displayed.
 
-perftools-status-private-browsing-notice =
-  プライベートブラウジングが有効なときは、プロファイラーは無効になります。プライベート@@Window@@をすべて閉じてから、再度プロファイラーを有効にしてください。
 perftools-status-recording-stopped-by-another-tool = 他のツールによって記録が停止されました。
 perftools-status-restart-required = この機能を有効にするには、ブラウザーを再起動する必要があります。
 

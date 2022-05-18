@@ -35,6 +35,11 @@ options-collapse-attrs-label = DOM 属性値を省略
 options-collapse-attrs-tooltip =
     .title = 値の長い属性を省略します
 
+# The label for the checkbox option to enable the "drag to update" feature
+options-inspector-draggable-properties-label = ドラッグでサイズの値を編集
+options-inspector-draggable-properties-tooltip =
+    .title = インスペクターのルール表示で、サイズの値をクリックしてドラッグすると値を編集できます。
+
 ## "Default Color Unit" options for the Inspector
 
 options-default-color-unit-label = @@Default-@@@@Color@@単位
