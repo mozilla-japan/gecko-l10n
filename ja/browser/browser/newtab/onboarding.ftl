@@ -2,16 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-### UI strings for the simplified onboarding / multistage about:welcome
-### Various strings use a non-breaking space to avoid a single dangling /
-### widowed word, so test on various window sizes if you also want this.
-
-
 ### UI strings for the MR1 onboarding / multistage about:welcome
 ### Various strings use a non-breaking space to avoid a single dangling /
 ### widowed word, so test on various window sizes if you also want this.
-
 
 ## Welcome page strings
 
@@ -28,41 +21,6 @@ return-to-amo-subtitle = { -brand-short-name } をインストールしました
 #   $addon-name (String) - Name of the add-on
 return-to-amo-addon-title = <img data-l10n-name="icon"/> <b>{ $addon-name }</b> をインストールしてみましょう。
 return-to-amo-add-extension-label = 拡張機能を追加
-
-## Multistage 3-screen onboarding flow strings (about:welcome pages)
-
-# The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
-# automatically added to the text inside it. { -brand-short-name } should stay inside the span.
-onboarding-multistage-welcome-header = <span data-l10n-name="zap">{ -brand-short-name }</span> にようこそ
-onboarding-multistage-welcome-subtitle = 高速で安全、プライバシー第一の、非営利組織によるブラウザーです。
-onboarding-multistage-welcome-primary-button-label = 初期設定を開始
-onboarding-multistage-welcome-secondary-button-label = ログイン
-onboarding-multistage-welcome-secondary-button-text = アカウントをお持ちですか？
-# The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
-# automatically added to the text inside it. "default" should stay inside the span.
-onboarding-multistage-set-default-header = { -brand-short-name } を <span data-l10n-name="zap">@@DefaultBrowser@@</span> にしましょう
-onboarding-multistage-set-default-subtitle = 高速で安全、いつでもプライバシーが第一です。
-onboarding-multistage-set-default-primary-button-label = @@DefaultBrowser@@にする
-onboarding-multistage-set-default-secondary-button-label = 後で
-# The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
-# automatically added to the text inside it. { -brand-short-name } should stay inside the span.
-onboarding-multistage-pin-default-header = クリックして <span data-l10n-name="zap">{ -brand-short-name }</span> を始めましょう
-onboarding-multistage-pin-default-subtitle = いつでも高速で安全、プライベートなブラウジングを。
-# The "settings" here refers to "Windows 10 Settings App" and not the browser's
-onboarding-multistage-pin-default-waiting-subtitle = 既定のアプリの設定が開いたら、@@[@@Web ブラウザー@@]@@から { -brand-short-name } を選択してください
-# The "settings" here refers to "Windows 10 Settings App" and not the browser's
-onboarding-multistage-pin-default-help-text = { -brand-short-name } をタスクバーにピン留めし、既定のアプリの設定を開きます
-onboarding-multistage-pin-default-primary-button-label = { -brand-short-name } を既定のブラウザーに設定する
-# The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
-# automatically added to the text inside it. "more" should stay inside the span.
-onboarding-multistage-import-header = パスワード、ブックマーク、<span data-l10n-name="zap">その他のデータ</span>を<br/>@@Import-si@@ましょう。
-onboarding-multistage-import-subtitle = その他のブラウザーからですか？ 簡単に { -brand-short-name } に持ち込めます。
-onboarding-multistage-import-primary-button-label = @@ImportNoun@@を開始
-onboarding-multistage-import-secondary-button-label = 後で
-# Info displayed in the footer of import settings screen during onboarding flow.
-# This supports welcome screen showing top sites imported from the user's default browser.
-onboarding-import-sites-disclaimer = この端末から見つかったサイトを表示しています。{ -brand-short-name } は、あなたがこれらのサイトを@@Import-suru@@ことを選択しない限り、他のブラウザーからデータを保存または同期することはありません。
-
 return-to-amo-add-theme-label = テーマを追加
 
 ## Multistage onboarding strings (about:welcome pages)
@@ -73,18 +31,6 @@ return-to-amo-add-theme-label = テーマを追加
 #   $total (Int) - Total number of pages
 onboarding-welcome-steps-indicator =
     .aria-label = はじめる: { $current } / { $total } ページ
-# The <span data-l10n-name="zap"></span> in this string allows a "zap" underline style to be
-# automatically added to the text inside it. "look" should stay inside the span.
-onboarding-multistage-theme-header = <span data-l10n-name="zap">テーマ</span>を選択してください
-onboarding-multistage-theme-subtitle = テーマで { -brand-short-name } をパーソナライズできます
-onboarding-multistage-theme-primary-button-label2 = 完了
-onboarding-multistage-theme-secondary-button-label = 後で
-# Automatic theme uses operating system color settings
-onboarding-multistage-theme-label-automatic = 自動
-onboarding-multistage-theme-label-light = Light
-onboarding-multistage-theme-label-dark = Dark
-# "Firefox Alpenglow" here is the name of the theme, and should be kept in English.
-onboarding-multistage-theme-label-alpenglow = Firefox Alpenglow
 # "Hero Text" displayed on left side of welcome screen.
 # The "Fire" in "Fire starts here" plays on the "Fire" in "Firefox".
 # It also signals the passion users bring to Firefox, how they use
@@ -181,39 +127,6 @@ mr1-onboarding-theme-label-alpenglow = Alpenglow
 ## doesn't become too long. Line breaks will be preserved when displaying the
 ## tooltip.
 
-
-## Please make sure to split the content of the title attribute into lines whose
-## width corresponds to about 40 Latin characters, to ensure that the tooltip
-## doesn't become too long. Line breaks will be preserved when displaying the
-## tooltip.
-
-# Tooltip displayed on hover of automatic theme
-onboarding-multistage-theme-tooltip-automatic-2 =
-    .title = ご使用の OS のボタン、メニュー、@@Window@@の外観を継承します
-# Input description for automatic theme
-onboarding-multistage-theme-description-automatic-2 =
-    .aria-description = ご使用の OS のボタン、メニュー、@@Window@@の外観を継承します
-# Tooltip displayed on hover of light theme
-onboarding-multistage-theme-tooltip-light-2 =
-    .title = 明るい外観のボタン、メニュー、@@Window@@を使用します
-# Input description for light theme
-onboarding-multistage-theme-description-light =
-    .aria-description = 明るい外観のボタン、メニュー、@@Window@@を使用します
-# Tooltip displayed on hover of dark theme
-onboarding-multistage-theme-tooltip-dark-2 =
-    .title = 暗い外観のボタン、メニュー、@@Window@@を使用します
-# Input description for dark theme
-onboarding-multistage-theme-description-dark =
-    .aria-description = 暗い外観のボタン、メニュー、@@Window@@を使用します
-# Tooltip displayed on hover of Alpenglow theme
-onboarding-multistage-theme-tooltip-alpenglow-2 =
-    .title = カラフルな外観のボタン、メニュー、@@Window@@を使用します
-# Input description for Alpenglow theme
-onboarding-multistage-theme-description-alpenglow =
-    .aria-description = カラフルな外観のボタン、メニュー、@@Window@@を使用します
-
-## Multistage MR1 onboarding strings (MR1 about:welcome pages)
-
 # Tooltip displayed on hover of system theme
 mr1-onboarding-theme-tooltip-system =
     .title = OS のボタン、メニュー、@@Window@@の外観です。
@@ -274,28 +187,14 @@ mr2-onboarding-start-browsing-button-label = ブラウジングを開始
 ## The following language names are generated by the browser's Intl.DisplayNames API.
 ##
 ## Variables:
-##   $appLanguage (String) - The name of Firefox's language, e.g. "American English"
-##   $systemLanguage (String) - The name of the OS's language, e.g. "European Spanish"
-##   $negotiatedLanguage (String) - The name of the langpack's language, e.g. "European Spanish"
-
-## Multistage live language reloading onboarding strings (about:welcome pages)
-##
-## The following language names are generated by the browser's Intl.DisplayNames API.
-##
-## Variables:
 ##   $negotiatedLanguage (String) - The name of the langpack's language, e.g. "Español (ES)"
 
 onboarding-live-language-header = 言語を選択してください
-onboarding-live-language-subtitle = { -brand-short-name } はあなたのシステムが { $systemLanguage } を使用している間は { $appLanguage } を使用します。
-
-onboarding-live-language-switch-button-label = { $negotiatedLanguage } に切り替える
 
 onboarding-live-language-button-label-downloading = { $negotiatedLanguage } の言語パックをダウンロード中...
-onboarding-live-language-waiting-subtitle = あなたのシステムと { -brand-short-name } が使用中の言語が一致していないようです。
 onboarding-live-language-waiting-button = 利用可能な言語を取得中...
 onboarding-live-language-installing = { $negotiatedLanguage } の言語パックをインストール...
 onboarding-live-language-secondary-cancel-download = キャンセル
-onboarding-live-language-not-now-button-label = 後で
 onboarding-live-language-skip-button-label = スキップ
 
 ## Firefox 100 Thank You screens

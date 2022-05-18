@@ -34,10 +34,6 @@ newtab-search-box-handoff-input-no-engine =
     .placeholder = 検索語句、または URL を入力します
     .title = 検索語句、または URL を入力します
     .aria-label = 検索語句、または URL を入力します
-newtab-search-box-search-the-web-input =
-    .placeholder = ウェブを検索
-    .title = ウェブを検索
-    .aria-label = ウェブを検索
 
 newtab-search-box-text = ウェブを検索
 newtab-search-box-input =
@@ -47,7 +43,6 @@ newtab-search-box-input =
 ## Top Sites - General form dialog.
 
 newtab-topsites-add-search-engine-header = 検索エンジンを追加
-newtab-topsites-add-topsites-header = 新着トップサイト
 newtab-topsites-add-shortcut-header = @@New-CMD@@ショートカット
 newtab-topsites-edit-topsites-header = トップサイトを編集
 newtab-topsites-edit-shortcut-header = ショートカットを編集
@@ -199,7 +194,6 @@ newtab-section-expand-section-label =
 ## Section Headers.
 
 newtab-section-header-topsites = トップサイト
-newtab-section-header-highlights = ハイライト
 newtab-section-header-recent-activity = 最近のアクティビティ
 # Variables:
 #  $provider (String): Name of the corresponding content provider.
@@ -231,7 +225,6 @@ newtab-pocket-more-recommendations = 他のおすすめ
 newtab-pocket-learn-more = 詳細
 newtab-pocket-cta-button = { -pocket-brand-name } を入手
 newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に保存して、魅力的な読み物を思う存分楽しみましょう。
-
 newtab-pocket-pocket-firefox-family = { -pocket-brand-name } は { -brand-product-name } ファミリーの一員です
 
 # A save to Pocket button that shows over the card thumbnail on hover.

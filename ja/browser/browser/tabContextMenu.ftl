@@ -75,8 +75,6 @@ tab-context-close-multiple-tabs =
 tab-context-share-url =
     .label = 共有
     .accesskey = h
-tab-context-share-more =
-    .label = その他...
 
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.
@@ -84,9 +82,6 @@ tab-context-share-more =
 tab-context-reopen-closed-tabs =
     .label = 閉じたタブを開きなおす
     .accesskey = o
-tab-context-close-tabs =
-    .label = タブを閉じる
-    .accesskey = C
 tab-context-close-n-tabs =
     .label =
         { $tabCount ->

@@ -4,3 +4,5 @@
 
 screenshots-overlay-cancel-button = キャンセル
 screenshots-overlay-instructions = ページ内をドラッグまたはクリックして範囲を選択してください。ESC キーを押すとキャンセルできます。
+screenshots-overlay-download-button = ダウンロード
+screenshots-overlay-copy-button = コピー

@@ -55,7 +55,6 @@ about-logins-list-item-breach-icon =
   .title = 漏洩したウェブサイト
 about-logins-list-item-vulnerable-password-icon =
   .title = 脆弱なパスワード
-
 about-logins-list-section-breach = 漏洩したウェブサイト
 about-logins-list-section-vulnerable = 脆弱なパスワード
 about-logins-list-section-nothing = 警告なし
@@ -70,8 +69,6 @@ about-logins-login-intro-heading-logged-in = 同期したログイン情報は�
 login-intro-description = 別の端末の { -brand-product-name } に保存したログイン情報は、以下の手順で取得できます:
 login-intro-instructions-fxa = ログイン情報を保存した端末で { -fxaccount-brand-name } を作成、またはログインしてください。
 login-intro-instructions-fxa-settings = @@[@@設定@@]@@ > @@[@@同期@@]@@ > @@[@@同期をオンにする...@@]@@ で、ログイン情報とパスワードのチェックボックスを選択してください。
-login-intro-instructions-fxa-help = <a data-l10n-name="help-link">{ -lockwise-brand-short-name } サポート</a> で詳細なヘルプを確認できます。
-about-logins-intro-import = 他のブラウザーでログイン情報を保存した場合は、<a data-l10n-name="import-link">そちらから { -lockwise-brand-short-name } に@@Import-deki@@ます</a>。
 login-intro-instructions-fxa-passwords-help = <a data-l10n-name="passwords-help-link">パスワードのサポート記事</a> で詳細なヘルプを確認できます。
 about-logins-intro-browser-only-import = 他のブラウザーにログイン情報が保存されている場合は、<a data-l10n-name="import-link">それらを { -brand-product-name } に@@Import-deki@@ます</a>。
 about-logins-intro-import2 = { -brand-product-name } 以外のブラウザーでログイン情報を保存した場合は、<a data-l10n-name="import-browser-link">そのブラウザーから</a> または <a data-l10n-name="import-file-link">ファイルから</a> @@Import-deki@@ます。

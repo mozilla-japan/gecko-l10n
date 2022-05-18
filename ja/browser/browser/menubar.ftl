@@ -39,13 +39,6 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = { -brand-shorter-name } を終了
-# This menu-quit-button string is only used on Linux.
-menu-quit-button =
-    .label = { menu-quit.label }
-# This menu-quit-button-win string is only used on Windows.
-menu-quit-button-win =
-    .label = { menu-quit.label }
-    .tooltip = { -brand-shorter-name } を終了します
 menu-about =
     .label = { -brand-shorter-name } について
     .accesskey = A
@@ -75,9 +68,6 @@ menu-file-open-location =
 menu-file-open-file =
     .label = ファイルを開く...
     .accesskey = O
-menu-file-close =
-    .label = 閉じる
-    .accesskey = C
 # Variables:
 #  $tabCount (Number): the number of tabs that are affected by the action.
 menu-file-close-tab =
@@ -102,9 +92,6 @@ menu-file-share-url =
 menu-file-print-setup =
     .label = ページ設定...
     .accesskey = u
-menu-file-print-preview =
-    .label = @@Print@@プレビュー
-    .accesskey = v
 menu-file-print =
     .label = @@Print@@...
     .accesskey = P
@@ -317,9 +304,6 @@ menu-help-more-troubleshooting-info =
     .accesskey = T
 menu-help-report-site-issue =
     .label = サイトの問題を報告...
-menu-help-feedback-page =
-    .label = フィードバックを送信...
-    .accesskey = S
 menu-help-share-ideas =
     .label = 意見とフィードバックを共有...
     .accesskey = S
