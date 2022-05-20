@@ -61,9 +61,6 @@ item-form-search-history =
     .label = 検索やフォームの入力履歴
     .accesskey = F
 data-section-label = データ
-item-site-preferences =
-    .label = サイトの設定
-    .accesskey = S
 
 item-site-settings =
     .label = サイトの設定

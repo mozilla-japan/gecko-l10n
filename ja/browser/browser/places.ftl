@@ -68,19 +68,13 @@ places-sortby-name =
 # places-edit-bookmark and places-edit-generic will show one or the other and can have the same access key.
 places-edit-bookmark =
     .label = ブックマークを編集...
-    .accesskey = i
+    .accesskey = E
 places-edit-generic =
     .label = 編集...
-    .accesskey = i
-places-edit-folder =
-    .label = フォルダー名を変更...
-    .accesskey = e
-places-remove-folder =
-    .label = フォルダーを削除
-    .accesskey = m
+    .accesskey = E
 places-edit-folder2 =
     .label = フォルダーを編集...
-    .accesskey = i
+    .accesskey = E
 places-delete-folder =
     .label = フォルダーを削除
     .accesskey = D
@@ -93,15 +87,9 @@ managed-bookmarks-subfolder =
 # This label is used for the "Other Bookmarks" folder that appears in the bookmarks toolbar.
 other-bookmarks-folder =
     .label = 他のブックマーク
-# Variables:
-# $count (number) - The number of elements being selected for removal.
-places-remove-bookmark =
-    .label = ブックマークを削除
-    .accesskey = e
-
 places-show-in-folder =
-  .label = フォルダーで表示
-  .accesskey = F
+    .label = フォルダーで表示
+    .accesskey = F
 
 # Variables:
 # $count (number) - The number of elements being selected for removal.

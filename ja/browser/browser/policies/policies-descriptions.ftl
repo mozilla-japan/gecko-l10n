@@ -15,6 +15,8 @@ policy-AllowedDomainsForApps = Google Workspace へのアクセスを許可す�
 
 policy-AppAutoUpdate = アプリケーションの自動更新を有効または無効にします。
 
+policy-AppUpdatePin = { -brand-short-name } が指定のバージョン以降に更新されるのを抑止します。
+
 policy-AppUpdateURL = アプリケーションのカスタム更新 URL を設定します。
 
 policy-Authentication = ウェブサイトが対応する統合認証の設定を行います。
@@ -102,6 +104,8 @@ policy-EnableTrackingProtection = コンテンツブロッキングを有効ま�
 # “lock” means that the user won’t be able to change this setting
 policy-EncryptedMediaExtensions = Encrypted Media Extensions を有効または無効にし、任意で設定をロックします。
 
+policy-ExemptDomainFileTypePairsFromFileTypeDownloadWarnings = 指定のドメインで指定のファイル形式のダウンロード警告を無効にします。
+
 # A “locked” extension can’t be disabled or removed by the user. This policy
 # takes 3 keys (“Install”, ”Uninstall”, ”Locked”), you can either keep them in
 # English or translate them as verbs.
@@ -157,6 +161,8 @@ policy-OverrideFirstRunPage = 初回起動時に表示されるページを上�
 policy-OverridePostUpdatePage = 更新後に表示される更新情報ページを上書きします。更新後のページを無効にするには、このポリシーの設定をブランクにします。
 
 policy-PasswordManagerEnabled = パスワードのパスワードマネージャーへの保存を有効にします。
+
+policy-PasswordManagerExceptions = 指定のサイトで { -brand-short-name } にパスワードを保存させるのを抑止します。
 
 # PDF.js and PDF should not be translated
 policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー PDF.js を無効化または設定します。

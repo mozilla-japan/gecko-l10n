@@ -75,21 +75,6 @@ restart-later = 後で再起動
 
 # This string is shown to notify the user that the password manager setting
 # is being controlled by an extension
-extension-controlled-password-saving = 拡張機能 <img data-l10n-name="icon"/> { $name } により、この設定が変更されています。
-# This string is shown to notify the user that their notifications permission
-# is being controlled by an extension.
-extension-controlled-web-notifications = 拡張機能 <img data-l10n-name="icon"/> { $name } により、この設定が変更されています。
-# This string is shown to notify the user that Container Tabs
-# are being enabled by an extension.
-extension-controlled-privacy-containers = 拡張機能 <img data-l10n-name="icon"/> { $name } がコンテナータブを必要としています。
-# This string is shown to notify the user that their content blocking "All Detected Trackers"
-# preferences are being controlled by an extension.
-extension-controlled-websites-content-blocking-all-trackers = 拡張機能 <img data-l10n-name="icon"/> { $name } により、この設定が変更されています。
-# This string is shown to notify the user that their proxy configuration preferences
-# are being controlled by an extension.
-extension-controlled-proxy-config = 拡張機能 <img data-l10n-name="icon"/> { $name } が { -brand-short-name } のインターネット接続方法の設定を変更しています。
-# This string is shown to notify the user that the password manager setting
-# is being controlled by an extension
 extension-controlling-password-saving = <img data-l10n-name="icon"/> <strong>{ $name }</strong> がこの設定を制御しています。
 # This string is shown to notify the user that their notifications permission
 # is being controlled by an extension.
@@ -128,9 +113,6 @@ is-not-default = { -brand-short-name } は@@DefaultBrowser@@に設定されて�
 set-as-my-default-browser =
     .label = @@DefaultBrowser@@にする...
     .accesskey = D
-startup-restore-previous-session =
-    .label = 前回のセッションを復元する
-    .accesskey = s
 startup-restore-windows-and-tabs =
     .label = 前回の@@Window@@とタブを開く
     .accesskey = s
@@ -145,9 +127,6 @@ ctrl-tab-recently-used-order =
 open-new-link-as-tabs =
     .label = @@NewWindow@@ではなく@@NewTab@@に開く
     .accesskey = w
-warn-on-close-multiple-tabs =
-    .label = 同時に複数のタブを閉じるときは確認する
-    .accesskey = m
 confirm-on-close-multiple-tabs =
     .label = 同時に複数のタブを閉じる前に確認する
     .accesskey = m
@@ -189,7 +168,6 @@ containers-remove-cancel-button = 削除しない
 ## General Section - Language & Appearance
 
 language-and-appearance-header = 言語と外観
-fonts-and-colors-header = フォントと@@Colors@@
 preferences-web-appearance-header = ウェブサイトの外観
 preferences-web-appearance-description = 一部のウェブサイトはあなたの設定をもとにカラースキームを適用します。これらのサイトでどのカラースキームを使用するか選択してください。
 preferences-web-appearance-choice-browser = { -brand-short-name } テーマ
@@ -231,9 +209,6 @@ default-font-size = サイズ
 advanced-fonts =
     .label = 詳細設定...
     .accesskey = A
-colors-settings =
-    .label = @@Colors@@設定...
-    .accesskey = C
 # Zoom is a noun, and the message is used as header for a group of options
 preferences-zoom-header = ズーム
 preferences-default-zoom = @@Default-@@ズーム
@@ -369,6 +344,16 @@ applications-use-os-default-label =
     .value = { applications-use-os-default.label }
 
 ##
+
+applications-handle-new-file-types-description = 他のファイルは { -brand-short-name } でどのように扱いますか？
+
+applications-save-for-new-types =
+    .label = ファイルを保存する
+    .accesskey = S
+
+applications-ask-before-handling =
+    .label = ファイルを開くか保存するかを確認する
+    .accesskey = A
 
 drm-content-header = デジタル著作権管理 (DRM) コンテンツ
 play-drm-content =
@@ -526,11 +511,6 @@ home-prefs-content-header = Firefox Home コンテンツ
 home-prefs-content-description = Firefox Home に表示するコンテンツを選びましょう。
 home-prefs-search-header =
     .label = ウェブ検索
-home-prefs-topsites-header =
-    .label = トップサイト
-home-prefs-topsites-description = よく訪れるサイト
-home-prefs-topsites-by-option-sponsored =
-    .label = 広告トップサイト
 home-prefs-shortcuts-header =
     .label = ショートカット
 home-prefs-shortcuts-description = 保存または訪問したサイト
@@ -542,7 +522,6 @@ home-prefs-shortcuts-by-option-sponsored =
 
 home-prefs-recommended-by-header =
     .label = { $provider } のおすすめ
-home-prefs-recommended-by-description-update = { $provider } がウェブ全体から厳選した注目のコンテンツ
 home-prefs-recommended-by-description-new = { -brand-product-name } ファミリーを構成する { $provider } が厳選した注目のコンテンツ
 
 ##
@@ -550,9 +529,6 @@ home-prefs-recommended-by-description-new = { -brand-product-name } ファミリ
 home-prefs-recommended-by-learn-more = 使い方
 home-prefs-recommended-by-option-sponsored-stories =
     .label = 広告記事
-home-prefs-highlights-header =
-    .label = ハイライト
-home-prefs-highlights-description = 保存したり訪れたりしたサイトうち主なもの
 home-prefs-highlights-option-visited-pages =
     .label = 訪れたページ
 home-prefs-highlights-options-bookmarks =
@@ -570,7 +546,6 @@ home-prefs-recent-activity-description = 最近のサイトとコンテンツの
 # and non-essential but also not entirely trivial and useless.
 home-prefs-snippets-header =
     .label = スニペット
-home-prefs-snippets-description = { -vendor-short-name } と { -brand-product-name } に関する最新情報
 home-prefs-snippets-description-new = { -vendor-short-name } と { -brand-product-name } に関するヒントと最新情報
 home-prefs-sections-rows-option =
     .label = { $num } 行
@@ -900,14 +875,6 @@ sitedata-block-desc = ブロックの種類
     .accesskey = T
 sitedata-option-block-cross-site-trackers =
     .label = クロスサイトトラッカー
-sitedata-option-block-cross-site-and-social-media-trackers =
-    .label = クロスサイトトラッカーとソーシャルメディアトラッカー
-sitedata-option-block-cross-site-tracking-cookies-including-social-media =
-    .label = ソーシャルメディア Cookie を含むクロスサイトトラッキング Cookie
-sitedata-option-block-cross-site-cookies-including-social-media =
-    .label = ソーシャルメディア Cookie を含むクロスサイト Cookie
-sitedata-option-block-cross-site-and-social-media-trackers-plus-isolate =
-    .label = クロスサイトトラッカーとソーシャルメディアトラッカー、および残存 Cookie を隔離
 sitedata-option-block-cross-site-tracking-cookies =
     .label = クロスサイトトラッキング Cookie
 sitedata-option-block-cross-site-cookies =
@@ -1001,7 +968,6 @@ content-blocking-etp-standard-tcp-rollout-checkbox =
 content-blocking-etp-standard-tcp-rollout-description = 包括的 Cookie 保護機能により現在のサイトへの Cookie が制限されているため、トラッカーはサイトを横断してあなたを追跡する Cookie を利用できません。
 content-blocking-etp-standard-tcp-rollout-learn-more = 詳細情報
 content-blocking-warning-title = 注意！
-content-blocking-and-isolating-etp-warning-description = トラッカーをブロックし、残存 Cookie を隔離すると、一部のサイトの機能に影響がある可能性があります。すべてのコンテンツを読み込むには、トラッカーを許容してページを再読み込みします。
 content-blocking-and-isolating-etp-warning-description-2 = この設定では、一部のウェブサイトが表示されないか正しく動作しない可能性があります。サイトが動作しない場合は、トラッキング防止機能をオフにして再読み込みするとよいでしょう。
 content-blocking-warning-learn-how = 詳細情報
 content-blocking-reload-description = これらの変更を適用するには、タブを再読み込みする必要があります。
@@ -1073,9 +1039,6 @@ permissions-autoplay-settings =
 permissions-block-popups =
     .label = ポップアップ@@Window@@をブロックする
     .accesskey = B
-permissions-block-popups-exceptions =
-    .label = 許可サイト...
-    .accesskey = E
 # "popup" is a misspelling that is more popular than the correct spelling of
 # "pop-up" so it's included as a search keyword, not displayed in the UI.
 permissions-block-popups-exceptions-button =

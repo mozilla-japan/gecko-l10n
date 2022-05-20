@@ -71,6 +71,5 @@ pocket-panel-header-sign-in = ログイン
 ## Pocket panel buttons
 
 pocket-panel-button-show-all = すべて表示
-pocket-panel-button-add-tags = タグをつける
 pocket-panel-button-activate = { -brand-product-name } で { -pocket-brand-name } を有効化
 pocket-panel-button-remove = 削除

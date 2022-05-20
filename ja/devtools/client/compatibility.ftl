@@ -13,7 +13,6 @@ compatibility-issue-deprecated = (非推奨)
 compatibility-issue-experimental = (実験的)
 compatibility-issue-prefixneeded = (接頭辞が必要)
 compatibility-issue-deprecated-experimental = (非推奨、実験的)
-
 compatibility-issue-deprecated-prefixneeded = (非推奨、接頭辞が必要)
 compatibility-issue-experimental-prefixneeded = (実験的、接頭辞が必要)
 compatibility-issue-deprecated-experimental-prefixneeded = (非推奨、実験的、接頭辞が必要)
@@ -23,9 +22,6 @@ compatibility-issue-deprecated-experimental-prefixneeded = (非推奨、実験�
 compatibility-settings-button-label = 設定
 compatibility-settings-button-title =
     .title = 設定
-compatibility-feedback-button-label = フィードバック
-compatibility-feedback-button-title =
-    .title = フィードバック
 
 ## Messages used as headers in settings pane
 

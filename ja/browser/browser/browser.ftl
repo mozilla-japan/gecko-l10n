@@ -647,11 +647,6 @@ toolbar-settings-button =
            *[other] 設定を開きます
         }
 
-## More items
-
-more-menu-go-offline =
-    .label = オフライン作業
-    .accesskey = k
 toolbar-overflow-customize-button =
     .label = ツールバーをカスタマイズ...
     .accesskey = C
@@ -696,12 +691,6 @@ panel-save-update-password = パスワード
 #  $name (String): The name of the addon that will be removed.
 addon-removal-title = { $name } を削除しますか？
 addon-removal-abuse-report-checkbox = この拡張機能を { -vendor-short-name } に報告する
-
-## Remote / Synced tabs
-
-remote-tabs-manage-account =
-    .label = アカウントを管理
-remote-tabs-sync-now = 今すぐ同期
 
 ##
 
