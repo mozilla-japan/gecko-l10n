@@ -345,14 +345,14 @@ applications-use-os-default-label =
 
 ##
 
-applications-handle-new-file-types-description = その他のファイルはどのようにしますか？
+applications-handle-new-file-types-description = 他のファイルは { -brand-short-name } でどのように扱いますか？
 
 applications-save-for-new-types =
-    .label = ファイルを保存
+    .label = ファイルを保存する
     .accesskey = S
 
 applications-ask-before-handling =
-    .label = ファイルを開くか保存するか確認する
+    .label = ファイルを開くか保存するかを確認する
     .accesskey = A
 
 drm-content-header = デジタル著作権管理 (DRM) コンテンツ
