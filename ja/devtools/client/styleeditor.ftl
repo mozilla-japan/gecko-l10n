@@ -8,6 +8,8 @@ styleeditor-new-button =
 styleeditor-import-button =
     .tooltiptext = 既存のスタイルシートをドキュメントに@@Import-suru@@
     .accesskey = I
+styleeditor-filter-input =
+    .placeholder = スタイルシートを検索
 styleeditor-visibility-toggle =
     .tooltiptext = スタイルシートのオン/オフを切り替える
     .accesskey = S
@@ -28,3 +30,5 @@ styleeditor-copy-url =
 styleeditor-go-to-line =
     .label = 指定行へ移動...
     .accesskey = J
+# Label displayed when searching a term that is not found in any stylesheet path
+styleeditor-stylesheet-all-filtered = 一致するスタイルシートが見つかりません。

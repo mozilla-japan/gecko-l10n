@@ -29,14 +29,6 @@ downloads-cmd-cancel =
     .tooltiptext = キャンセル
 downloads-cmd-cancel-panel =
     .aria-label = キャンセル
-# This message is only displayed on Windows and Linux devices
-downloads-cmd-show-menuitem =
-    .label = 保存フォルダーを開く
-    .accesskey = F
-# This message is only displayed on macOS devices
-downloads-cmd-show-menuitem-mac =
-    .label = Finder に表示
-    .accesskey = F
 
 downloads-cmd-show-menuitem-2 =
     .label = { PLATFORM() ->
@@ -53,7 +45,6 @@ downloads-cmd-show-menuitem-2 =
 downloads-cmd-use-system-default =
     .label = システムのビューアーで開く
     .accesskey = I
-
 # This version is shown when the download's mime type has a valid file handler.
 downloads-cmd-use-system-default-named =
   .label = { $handler } で開く
@@ -64,26 +55,6 @@ downloads-cmd-use-system-default-named =
 downloads-cmd-always-use-system-default =
     .label = 常にシステムのビューアーで開く
     .accesskey = w
-
-downloads-cmd-show-button =
-    .tooltiptext =
-        { PLATFORM() ->
-            [macos] Finder に表示
-           *[other] 保存フォルダーを開く
-        }
-downloads-cmd-show-panel =
-    .aria-label =
-        { PLATFORM() ->
-            [macos] Finder に表示
-           *[other] 保存フォルダーを開く
-        }
-downloads-cmd-show-description =
-    .value =
-        { PLATFORM() ->
-            [macos] Finder に表示
-           *[other] 保存フォルダーを開く
-        }
-
 # We can use the same accesskey as downloads-cmd-always-open-similar-files.
 # Both should not be visible in the downloads context menu at the same time.
 # This version is shown when the download's mime type has a valid file handler.
@@ -136,8 +107,7 @@ downloads-cmd-clear-list =
     .accesskey = a
 downloads-cmd-clear-downloads =
     .label = ダウンロード履歴をすべて消去
-    .accesskey = D
-
+    .accesskey = C
 downloads-cmd-delete-file =
     .label = 削除
     .accesskey = D
@@ -187,7 +157,6 @@ downloading-file-opens-in-minutes = { $minutes } 分後に開きます...
 downloading-file-opens-in-minutes-and-seconds = { $minutes } 分 { $seconds } 秒後に開きます...
 downloading-file-opens-in-seconds = { $seconds } 秒後に開きます...
 downloading-file-opens-in-some-time = ダウンロードが完了したら開きます...
-
 downloading-file-click-to-open =
   .value = ダウンロードが完了したら開きます
 
