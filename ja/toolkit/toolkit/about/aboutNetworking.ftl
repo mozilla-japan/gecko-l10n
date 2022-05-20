@@ -20,7 +20,6 @@ about-networking-ssl = SSL
 about-networking-active = アクティブ
 about-networking-idle = 待機
 about-networking-host = ホスト
-about-networking-tcp = TCP
 about-networking-type = 種類
 about-networking-sent = 送信データ量
 about-networking-received = 受信データ量

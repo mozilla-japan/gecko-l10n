@@ -60,11 +60,6 @@ about-webrtc-ice-pair-bytes-sent = 送信バイト数:
 about-webrtc-ice-pair-bytes-received = 受信バイト数:
 about-webrtc-ice-component-id = コンポーネント ID
 
-## "Avg." is an abbreviation for Average. These are used as data labels.
-
-about-webrtc-avg-bitrate-label = 平均ビットレート:
-about-webrtc-avg-framerate-label = 平均フレームレート:
-
 ## These adjectives are used to label a line of statistics collected for a peer
 ## connection. The data represents either the local or remote end of the
 ## connection.

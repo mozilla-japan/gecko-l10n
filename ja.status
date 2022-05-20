@@ -1198,21 +1198,21 @@ browser                 14641:461c6dec65a9   2021-12-21     hATrayflood     sync
 devtools                14641:461c6dec65a9   2021-12-21     hATrayflood     sync devtools
 mail, dom, toolkit      14646:a38ec0358117   2022-01-06     mar             sync mail, dom, toolkit
 
-[l10n-mozilla-97.0]
+Released! [l10n-mozilla-97.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mail, netwerk, toolkit  14666:8562b54e4804   2022-01-27     mar             sync mail, netwerk, toolkit
 browser                 14672:e1caf4e41c36   2022-01-31     hATrayflood     sync browser
 devtools                14672:e1caf4e41c36   2022-01-31     hATrayflood     sync devtools
 
-[l10n-mozilla-98.0]
+Released! [l10n-mozilla-98.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mail, toolkit           14679:c80fc7799b43   2022-02-08     mar             sync mail, toolkit
 browser                 14679:c80fc7799b43   2022-02-08     hATrayflood     sync browser
 devtools                14679:c80fc7799b43   2022-02-08     hATrayflood     sync devtools
 
-[l10n-mozilla-99.0]
+Released! [l10n-mozilla-99.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mail, chat, calendar    14699:a1224c86a3a3   2022-03-04     mar             sync mail, chat, calendar
@@ -1220,8 +1220,15 @@ browser                 14714:bf358a19cec8   2022-03-18     hATrayflood     sync
 devtools                14714:bf358a19cec8   2022-03-18     hATrayflood     sync devtools
 dom, toolkit            14720:166b84b1506a   2022-03-25     mar             sync dom, toolkit
 
-[l10n-mozilla-100.0]
+Released! [l10n-mozilla-100.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mail, chat, calendar    14726:1755cc5e639b   2022-04-02     mar             sync mail, chat, calendar
 browser                 14726:1755cc5e639b   2022-04-02     hATrayflood     sync browser
+
+[l10n-mozilla-101.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+browser                 14761:f2435cb18056   2022-05-17     hATrayflood     sync browser
+devtools                14761:f2435cb18056   2022-05-17     hATrayflood     sync devtools
+dom, netwerk, toolkit   14761:f2435cb18056   2022-05-17     mar             sync dom, netwerk, toolkit

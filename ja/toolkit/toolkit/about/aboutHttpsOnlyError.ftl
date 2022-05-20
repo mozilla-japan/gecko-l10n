@@ -3,7 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-httpsonly-title-alert = HTTPS-Only モード警告
-about-httpsonly-title-connection-not-available = 安全な接続が利用できません
 about-httpsonly-title-site-not-available = 安全なサイトが利用できません
 # Variables:
 #   $websiteUrl (String) - Url of the website that failed to load. Example: www.example.com

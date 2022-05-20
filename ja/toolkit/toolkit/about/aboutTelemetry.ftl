@@ -34,7 +34,6 @@ about-telemetry-events-section = イベント
 about-telemetry-simple-measurements-section = 統計情報
 about-telemetry-slow-sql-section = 動作の遅い SQL 文
 about-telemetry-addon-details-section = アドオンの詳細
-about-telemetry-captured-stacks-section = 捕捉したスタック
 about-telemetry-late-writes-section = 遅延書き込み
 about-telemetry-raw-payload-section = 生のペイロード
 about-telemetry-raw = 生の JSON 形式
@@ -117,10 +116,6 @@ about-telemetry-addon-provider = { $addonProvider } プロバイダー
 about-telemetry-keys-header = プロパティ
 about-telemetry-names-header = 名前
 about-telemetry-values-header = 値
-# Variables:
-#   $stackKey (String): the string key for this stack
-#   $capturedStacksCount (Integer):  the number of times this stack was captured
-about-telemetry-captured-stacks-title = { $stackKey } (捕捉カウント: { $capturedStacksCount })
 # Variables:
 #   $lateWriteCount (Integer): the number of the late writes
 about-telemetry-late-writes-title = 遅延書き込み #{ $lateWriteCount }
