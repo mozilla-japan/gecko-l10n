@@ -90,9 +90,6 @@
 <!ENTITY corruptedContentErrorv2.title	"コンテンツデータ破損エラー">
 <!ENTITY corruptedContentErrorv2.longDesc	"<p>このページは、データの伝送中にエラーが検出されたため表示できません。</p><ul><li>ウェブサイトの所有者に連絡を取り、この問題を報告してください。</li></ul>">
 
-<!ENTITY remoteXUL.title		"リモート XUL">
-<!ENTITY remoteXUL.longDesc		"<p><ul><li>ウェブサイトの所有者に連絡を取り、この問題を報告してください。</li></ul></p>">
-
 <!ENTITY inadequateSecurityError.title	"接続が安全ではありません">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
