@@ -21,8 +21,6 @@ connection-dialog-window =
             [macos] width: 46em !important
            *[other] width: 54em !important
         }
-connection-disable-extension =
-    .label = 拡張機能を無効化
 disable-extension-button = 拡張機能を無効化
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.

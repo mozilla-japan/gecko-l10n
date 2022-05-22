@@ -24,9 +24,6 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY importFilters.label		"フィルター"><!-- (^^; Mail.app: ルール -->
 <!ENTITY importFilters.accesskey	"F">
 
-<!ENTITY  window.width			"51em"><!-- en-US: 40em -->
-<!ENTITY  window.macWidth		"45em"><!-- en-US: 45em -->
-
 <!ENTITY importTitle.label		"&brandShortName; @@ImportNoun@@@@Wizard@@">
 <!ENTITY importShortDesc.label		"他のソフトからメール、アドレス帳、設定やフィルターを@@Import-simasu@@">
 

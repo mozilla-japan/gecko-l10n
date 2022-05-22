@@ -6,15 +6,8 @@
 <!ENTITY e2eLearnMore.label		"詳細情報">
 
 <!ENTITY e2eEnc.description		"エンドツーエンド暗号化をしないメッセージのコンテンツは、ご利用のメールプロバイダーや監視システムに容易にさらされます。">
-<!ENTITY e2eeReqWarning.description	"送信メッセージを暗号化する必要がある場合は、あなたの公開鍵またはすべての受信者の証明書を用意しなければなりません。">
-
-<!ENTITY e2eSigning.description		"デジタル署名により、メッセージの送信者があなたであり、コンテンツが改変されていないことを受信者が検証できます。">
 <!ENTITY e2eTechPref.description	"優先される暗号化技術:">
 
-<!ENTITY doNotEncrypt.label			"@@Default@@で暗号化を有効にしない">
-<!ENTITY doNotEncrypt.accesskey			"N">
-<!ENTITY requireEncryptMessage.label		"@@Default@@で暗号化を必須にする">
-<!ENTITY requireEncryptMessage.accesskey	"u">
 <!ENTITY encryptionCert2.message		"暗号化のための個人証明書:">
 <!ENTITY digitalSign.certificate.button		"選択...">
 <!ENTITY digitalSign.certificate.accesskey	"S">
@@ -25,8 +18,6 @@
 <!ENTITY encryption.certificate_clear.button	"@@Clear@@">
 <!ENTITY encryption.certificate_clear.accesskey	"e">
 <!ENTITY signingGroupTitle.label		"デジタル署名">
-<!ENTITY signMessage2.label			"@@Default@@でデジタル署名を追加する">
-<!ENTITY signMessage.accesskey			"D">
 <!ENTITY signingCert2.message			"デジタル署名のための個人証明書:">
 
 <!ENTITY sendingDefaults.label		"メッセージ送信の@@Default-@@設定">

@@ -3,8 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title			"フィルターの設定">
-
-<!ENTITY filterEditorDialog.dimensions	"width: 100ch;"><!-- en-US: "width: 100ch;" -->
 <!ENTITY filterName.label		"フィルター名:">
 <!ENTITY filterName.accesskey		"i">
 

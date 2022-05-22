@@ -27,8 +27,6 @@
 <!ENTITY moveToNewWindow.accesskey		"W">
 <!ENTITY newVirtualFolderCmd.label		"検索フォルダー...">
 <!ENTITY newVirtualFolderCmd.accesskey		"S">
-<!ENTITY newOtherAccountsCmd.label		"他のサービスのアカウント...">
-<!ENTITY newOtherAccountsCmd.accesskey		"O">
 <!ENTITY newCreateEmailAccountCmd.label		"@@New-CMD@@メールアカウントを取得...">
 <!ENTITY newCreateEmailAccountCmd.accesskey	"G">
 <!ENTITY newExistingEmailAccountCmd.label	"既存のメールアカウント...">
@@ -51,8 +49,6 @@
 <!ENTITY openMessageFileCmd.accesskey		"M">
 <!ENTITY saveAsMenu.label			"@@SaveAs@@">
 <!ENTITY saveAsMenu.accesskey			"S">
-<!ENTITY saveAsFileCmd.label			"ファイル">
-<!ENTITY saveAsFileCmd.accesskey		"F">
 <!ENTITY saveAsFileCmd.key			"s">
 <!ENTITY saveAsTemplateCmd.label		"テンプレート">
 <!ENTITY saveAsTemplateCmd.accesskey		"T">

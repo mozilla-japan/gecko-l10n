@@ -40,9 +40,7 @@
 <!ENTITY PrimaryEmail.accesskey		"E">
 <!ENTITY SecondEmail.label		"別のメールアドレス:">
 <!ENTITY SecondEmail.accesskey		"i">
-<!ENTITY PreferMailFormat.label		"使用メール形式:">
-<!ENTITY PreferMailFormat.accesskey	"v">
-<!ENTITY PlainText.label		"テキスト">
+<!ENTITY PlainText.label		"プレーンテキスト">
 <!ENTITY HTML.label			"HTML">
 <!ENTITY Unknown.label			"不明">
 <!ENTITY chatName.label                 "チャットネーム:">

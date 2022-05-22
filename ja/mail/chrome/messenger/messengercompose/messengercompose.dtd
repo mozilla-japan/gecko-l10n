@@ -22,9 +22,6 @@
 <!ENTITY attachCloudCmd.accesskey	"i">
 <!ENTITY attachPageCmd.label		"ウェブページ...">
 <!ENTITY attachPageCmd.accesskey	"W">
-<!--LOCALIZATION NOTE attachVCardCmd.label Don't translate the term 'vCard' -->
-<!ENTITY attachVCardCmd.label		"vCard">
-<!ENTITY attachVCardCmd.accesskey	"P">
 <!ENTITY remindLater.label		"添付忘れを通知">
 <!ENTITY remindLater.accesskey		"L">
 <!ENTITY closeCmd.label			"閉じる">
@@ -150,16 +147,6 @@
 <!ENTITY returnReceiptMenu.accesskey	"t">
 <!ENTITY dsnMenu.label			"配信状態通知の返送を求める"><!-- en-US: Delivery Status Notification -->
 <!ENTITY dsnMenu.accesskey		"N">
-<!ENTITY deliveryFormatMenu.label	"送信形式">
-<!ENTITY deliveryFormatMenu.accesskey	"F">
-<!ENTITY autoFormatCmd.label		"自動判別">
-<!ENTITY autoFormatCmd.accesskey	"a">
-<!ENTITY plainTextFormatCmd.label	"プレーンテキスト">
-<!ENTITY plainTextFormatCmd.accesskey	"p">
-<!ENTITY htmlFormatCmd.label		"HTML のみ">
-<!ENTITY htmlFormatCmd.accesskey	"r">
-<!ENTITY bothFormatCmd.label		"テキストと HTML">
-<!ENTITY bothFormatCmd.accesskey	"l">
 <!ENTITY priorityMenu.label		"重要度">
 <!ENTITY priorityMenu.accesskey		"p">
 <!ENTITY priorityButton.title		"重要度">
@@ -223,7 +210,6 @@
 <!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
     Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY headersSpace2.style		"width: 8em;"><!-- (^m^) 以下の項目名が判別できればよい en-US: "width:8em" -->
-<!ENTITY extraRecipients.tooltip	"他の種類の宛先入力">
 <!ENTITY fromAddr2.label		"差出人">
 <!ENTITY fromAddr.accesskey		"r">
 <!ENTITY replyAddr2.label		"Reply-To">

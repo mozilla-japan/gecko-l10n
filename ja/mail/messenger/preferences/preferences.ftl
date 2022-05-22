@@ -4,7 +4,6 @@
 
 close-button =
     .aria-label = 閉じる
-preferences-doc-title = 設定
 preferences-doc-title2 = 設定
 category-list =
     .aria-label = カテゴリー
@@ -150,7 +149,6 @@ change-dock-icon = アプリケーションアイコンの設定を変更しま�
 app-icon-options =
     .label = アプリケーションアイコンのオプション...
     .accesskey = n
-notification-settings = 通知と@@Default-@@サウンドはシステム環境設定の通知ペインで無効化できます。
 notification-settings2 = 通知と@@Default-@@サウンドはシステム設定の通知ペインで無効化できます。
 animated-alert-label =
     .label = デスクトップ通知を表示する
@@ -414,6 +412,9 @@ auto-save-end = 分ごとに下書きとして自動保存する
 warn-on-send-accel-key =
     .label = キーボードショートカットでメッセージを送信するときは確認する
     .accesskey = C
+add-link-previews =
+    .label = URL の@@Paste@@時にリンクプレビューを追加する
+    .accesskey = i
 spellcheck-label =
     .label = 送信前にスペルチェックを行う
     .accesskey = C
@@ -445,10 +446,19 @@ restore-html-label =
 default-format-label =
     .label = @@Default@@で本文テキストの代わりに段落書式を使用する
     .accesskey = P
-format-description = 送信するメッセージの形式を設定します。
-send-options-label =
-    .label = 送信テキスト形式...
-    .accesskey = S
+compose-send-format-title = 送信テキスト形式
+compose-send-automatic-option =
+    .label = 自動選択
+compose-send-automatic-description = メッセージ内にスタイル書式が使われていない場合はプレーンテキスト形式で送信します。使われている場合は、プレーンテキストへのフォールバックありの HTML 形式で送信します。
+compose-send-both-option =
+    .label = HTML とプレーンテキスト形式
+compose-send-both-description = 受信者側のメールアプリケーションで表示形式を決定します。
+compose-send-html-option =
+    .label = HTML 形式のみ
+compose-send-html-description = 一部の受信者はプレーンテキストへのフォールバックなしでメッセージを読めない可能性があります。
+compose-send-plain-option =
+    .label = プレーンテキスト形式のみ
+compose-send-plain-description = 一部のスタイル書式がプレーンの代替書式に変換されますが、他の編集機能は無効化されます。
 autocomplete-description = 以下に登録されているメールアドレスを宛先等の入力時に自動補完する:
 ab-label =
     .label = ローカルのアドレス帳
@@ -663,8 +673,8 @@ chat-browse-sound-button =
 theme-label =
     .value = テーマ:
     .accesskey = T
-style-thunderbird =
-    .label = Thunderbird
+style-mail =
+    .label = { -brand-short-name }
 style-bubbles =
     .label = Bubbles
 style-dark =
@@ -687,20 +697,6 @@ chat-variant-label =
 # Notice: The value of the `.style` attribute is a CSS string, and the `width`
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
-search-preferences-input =
-    .style = width: 15.4em
-    .placeholder = 設定を検索
-
-## Preferences UI Search Results
-
-# This is used to determine the width of the search field in about:preferences,
-# in order to make the entire placeholder string visible
-#
-# Please keep the placeholder string short to avoid truncation.
-#
-# Notice: The value of the `.style` attribute is a CSS string, and the `width`
-# is the name of the CSS property. It is intended only to adjust the element's width.
-# Do not translate.
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = 設定内を検索
@@ -709,13 +705,8 @@ search-preferences-input2 =
 
 search-results-header = 検索結果
 # `<span data-l10n-name="query"></span>` will be replaced by the search term.
-search-results-empty-message = { PLATFORM() ->
-    [windows] “<span data-l10n-name="query"></span>” オプションについての検索結果はありません。
-    *[other] “<span data-l10n-name="query"></span>” 設定についての検索結果はありません。
-}
-# `<span data-l10n-name="query"></span>` will be replaced by the search term.
 search-results-empty-message2 = { PLATFORM() ->
-    [windows] “<span data-l10n-name="query"></span>” オプションについての検索結果はありません。
-    *[other] “<span data-l10n-name="query"></span>” 設定についての検索結果はありません。
+    [windows] “<span data-l10n-name="query"></span>” オプションの検索結果はありません。
+    *[other] “<span data-l10n-name="query"></span>” 設定の検索結果はありません。
 }
 search-results-help-link = 助けが必要な方は、<a data-l10n-name="url">{ -brand-short-name } サポート</a> をご利用ください

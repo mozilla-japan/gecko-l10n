@@ -111,6 +111,7 @@ because displayed names don't have the comma in between. -->
 <!ENTITY newContactButton.accesskey		"C">
 <!ENTITY newlistButton.label			"@@New-CMD@@リスト">
 <!ENTITY newlistButton.accesskey		"L">
+
 <!ENTITY showAsDefault.label			"初期表示ディレクトリー">
 <!ENTITY showAsDefault.accesskey		"S">
 <!ENTITY editPropertiesButton.label		"編集">
