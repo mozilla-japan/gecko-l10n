@@ -4,10 +4,8 @@
 
 <!-- Account manager window for Instantbird -->
 <!ENTITY accounts.title				"アカウント - &brandShortName;">
-<!ENTITY accountManager.width			"450">
 <!-- Instant messaging account status window for Thunderbird -->
 <!ENTITY accountsWindow.title			"インスタントメッセージの状態">
-<!ENTITY accountsWindow2.style			"width: 41em; height: 27em;"><!-- en-US: "width: 41em; height: 27em;" -->
 
 <!ENTITY accountManager.newAccount.label	"@@New-CMD@@アカウント">
 <!ENTITY accountManager.newAccount.accesskey	"N">
@@ -24,18 +22,12 @@
 <!ENTITY account.connect.accesskey		"o">
 <!ENTITY account.disconnect.label		"切断">
 <!ENTITY account.disconnect.accesskey		 "i">
-<!ENTITY account.delete.label			"削除">
-<!ENTITY account.delete.accesskey		"D">
 <!ENTITY account.edit.label			"@@PropertyCMD@@">
 <!ENTITY account.edit.accesskey			"P">
-<!ENTITY account.moveup.label			"上へ移動">
-<!ENTITY account.movedown.label			"下へ移動">
 <!ENTITY account.cancelReconnection.label	"再接続をキャンセル">
 <!ENTITY account.cancelReconnection.accesskey	"A">
 <!ENTITY account.copyDebugLog.label		"デバッグログをコピー">
 <!ENTITY account.copyDebugLog.accesskey		"C">
-<!ENTITY account.showDebugLog.label		"デバッグログを表示">
-<!ENTITY account.showDebugLog.accesskey		"H">
 <!ENTITY account.connecting			"接続中...">
 <!ENTITY account.disconnecting			"切断中...">
 <!ENTITY account.disconnected			"未接続">

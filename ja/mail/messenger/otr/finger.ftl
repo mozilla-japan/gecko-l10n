@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-otr-finger =
-    .buttonlabelaccept = 閉じる
-    .title = 使用された OTR フィンガープリント
 otr-finger-title = 使用された OTR フィンガープリント
 finger-intro = エンドツーエンド暗号化された会話の OTR 鍵フィンガープリント
 finger-screen-name =

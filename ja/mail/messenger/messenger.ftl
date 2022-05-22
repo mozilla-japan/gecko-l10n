@@ -88,10 +88,6 @@ menu-file-save-as-file =
 
 ## AppMenu
 
-# Since v89 we dropped the platforms distinction between Options or Preferences
-# and consolidated everything with Preferences.
-appmenu-preferences =
-    .label = 設定
 appmenu-save-as-file =
     .label = ファイル...
 appmenu-settings =
@@ -130,6 +126,22 @@ message-header-msg-flagged =
 message-header-msg-not-flagged =
     .title = スターなし
     .aria-label = スターなし
+
+## Message header cutomize panel
+
+message-header-customize-panel-title = メッセージヘッダー設定
+message-header-customize-button-style =
+    .value = ボタンのスタイル
+    .accesskey = B
+message-header-button-style-default =
+    .label = アイコンとテキスト
+message-header-button-style-text =
+    .label = テキストのみ
+message-header-button-style-icons =
+    .label = アイコンのみ
+message-header-large-subject =
+    .label = 件名を拡大表示する
+    .accesskey = s
 
 ## Action Button Context Menu
 
@@ -176,24 +188,6 @@ decrypt-and-copy-failures = { $failures } / { $total } 通のメッセージが�
 ## Spaces toolbar
 
 # (^m^) menubar.ftl の menu-spaces-toolbar-button と同じ
-spaces-toolbar =
-    .toolbarname = スペースツールバー
-spaces-toolbar-button-mail =
-    .title = メールタブに切り替えます
-spaces-toolbar-button-address-book =
-    .title = アドレス帳タブに切り替えます
-spaces-toolbar-button-calendar =
-    .title = カレンダータブに切り替えます
-spaces-toolbar-button-tasks =
-    .title = ToDo タブに切り替えます
-spaces-toolbar-button-chat =
-    .title = チャットタブに切り替えます
-spaces-toolbar-button-settings =
-    .title = 設定タブに切り替えます
-spaces-toolbar-button-collapse =
-    .title = スペースツールバーを折りたたみます
-spaces-toolbar-button-reveal =
-    .title = スペースツールバーを表示します
 spaces-toolbar-element =
     .toolbarname = スペースツールバー
     .aria-label = スペースツールバー
@@ -230,6 +224,12 @@ settings-context-open-account-settings-item =
     .label = アカウント設定を開く
 settings-context-open-addons-item =
     .label = アドオンマネージャーを開く
+settings-context-open-settings-item2 =
+    .label = 設定
+settings-context-open-account-settings-item2 =
+    .label = アカウント設定
+settings-context-open-addons-item2 =
+    .label = アドオンとテーマ
 
 ## Spaces toolbar pinned tab menupopup
 
@@ -245,8 +245,6 @@ spaces-pinned-button-menuitem-tasks =
     .label = ToDo タブを表示
 spaces-pinned-button-menuitem-chat =
     .label = チャットタブを表示
-spaces-pinned-button-menuitem-reveal =
-    .label = スペースツールバーを表示
 spaces-pinned-button-menuitem-settings =
     .label = 設定を開く
 spaces-pinned-button-menuitem-show =
@@ -260,7 +258,7 @@ chat-button-unread-messages = { $count }
     }
 ## Spaces toolbar customize panel
 
-spaces-context-customize =
+menuitem-customize-label =
     .label = カスタマイズ...
 spaces-customize-panel-title = スペースツールバー設定
 spaces-customize-background-color = 背景の@@Color@@
@@ -273,5 +271,5 @@ spaces-customize-accent-background-color = 選択されたボタンの背景@@Co
 spaces-customize-accent-text-color = 選択されたボタンの@@Color@@
 spaces-customize-button-restore = 初期設定に戻す
     .accesskey = R
-spaces-customize-button-save = 完了
+customize-panel-button-save = 完了
     .accesskey = D

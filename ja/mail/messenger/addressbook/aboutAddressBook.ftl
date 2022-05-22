@@ -124,14 +124,33 @@ about-addressbook-confirm-delete-contacts =
 
 ## Details
 
+about-addressbook-write-action-button = 作成
+about-addressbook-event-action-button = 予定
+about-addressbook-search-action-button = 検索
 about-addressbook-begin-edit-contact-button = 編集
+about-addressbook-delete-edit-contact-button = 削除
 about-addressbook-cancel-edit-contact-button = キャンセル
 about-addressbook-save-edit-contact-button = 保存
+about-addressbook-add-contact-to = 追加先:
 about-addressbook-details-email-addresses-header = メールアドレス
 about-addressbook-details-phone-numbers-header = 電話番号
 about-addressbook-details-home-address-header = 自宅アドレス
 about-addressbook-details-work-address-header = 勤務先アドレス
+about-addressbook-details-addresses-header = アドレス
+about-addressbook-details-notes-header = 備考
 about-addressbook-details-other-info-header = 他の情報
+about-addressbook-entry-type-work = 勤務先
+about-addressbook-entry-type-home = 自宅
+about-addressbook-entry-type-fax = Fax
+about-addressbook-entry-type-cell = 携帯電話
+about-addressbook-entry-type-pager = ポケットベル
+about-addressbook-entry-name-birthday = 誕生日
+about-addressbook-entry-name-anniversary = 記念日
+about-addressbook-entry-name-title = 役職
+about-addressbook-entry-name-department = 部署
+about-addressbook-entry-name-organization = 組織
+about-addressbook-entry-name-website = ウェブサイト
+about-addressbook-entry-name-time-zone = タイムゾーン
 about-addressbook-unsaved-changes-prompt-title = 変更が保存されていません
 about-addressbook-unsaved-changes-prompt = 編集ビューを閉じる前に変更を保存しますか？
 

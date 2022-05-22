@@ -2,6 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+## Send Format
+
+compose-send-format-menu =
+    .label = 送信形式
+    .accesskey = F
+compose-send-auto-menu-item =
+    .label = 自動選択
+    .accesskey = A
+compose-send-both-menu-item =
+    .label = HTML 形式とプレーンテキスト形式
+    .accesskey = B
+compose-send-html-menu-item =
+    .label = HTML 形式のみ
+    .accesskey = H
+compose-send-plain-menu-item =
+    .label = プレーンテキスト形式のみ
+    .accesskey = P
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -65,9 +83,6 @@ menuitem-toggle-attachment-pane =
 toolbar-button-add-attachment =
     .label = 添付
     .tooltiptext = 添付ファイルを追加します ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
-add-attachment-notification-reminder =
-    .label = 添付ファイルを追加...
-    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
 add-attachment-notification-reminder2 =
     .label = 添付ファイルを追加...
     .accesskey = A
@@ -80,16 +95,19 @@ context-menuitem-attach-files =
     .label = ファイルを添付...
     .accesskey = F
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = 自分の vCard
+    .accesskey = C
+context-menuitem-attach-openpgp-key =
+    .label = 自分の OpenPGP 公開鍵
+    .accesskey = K
 #   $count (Number) - the number of attachments in the attachment bucket
 attachment-bucket-count-value =
     { $count ->
          [one] 添付ファイル { $count } 個
         *[other] 添付ファイル { $count } 個
     }
-expand-attachment-pane-tooltip =
-    .tooltiptext = 添付ペインを表示します ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
-collapse-attachment-pane-tooltip =
-    .tooltiptext = 添付ペインを隠します ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-show =
     .title = 添付ペインを表示 ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
@@ -113,46 +131,60 @@ button-return-receipt =
 
 ## Encryption
 
-message-to-be-signed-icon =
-    .alt = メッセージに署名
-message-to-be-encrypted-icon =
-    .alt = メッセージを暗号化
+encryption-menu =
+    .label = セキュリティ
+    .accesskey = c
+encryption-toggle =
+    .label = 暗号化
+    .tooltiptext = このメッセージにエンドツーエンド暗号化を使用します
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = OpenPGP 暗号設定を表示または変更します
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = S/MIME 暗号設定を表示または変更します
+signing-toggle =
+  .label = デジタル署名
+  .tooltiptext = このメッセージにデジタル署名を付与します
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
+menu-encrypt =
+    .label = 暗号化
+    .accesskey = E
+menu-encrypt-subject =
+    .label = 件名を暗号化
+    .accesskey = B
+menu-sign =
+    .label = デジタル署名
+    .accesskey = i
+menu-manage-keys =
+    .label = 鍵アシスタント
+    .accesskey = A
+menu-view-certificates =
+    .label = 受信者の証明書を表示
+    .accesskey = V
+menu-open-key-manager =
+    .label = 鍵マネージャー
+    .accesskey = M
+openpgp-key-issue-notification-one = { $addr } の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
+openpgp-key-issue-notification-many = 受信者 { $count } 名の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
+smime-cert-issue-notification-one = { $addr } の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
+smime-cert-issue-notification-many = 受信者 { $count } 名の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
+key-notification-disable-encryption =
+    .label = 暗号化しない
+    .accesskey = D
+    .tooltiptext = エンドツーエンド暗号化を無効にします
+key-notification-resolve =
+    .label = 解決...
+    .accesskey = R
+    .tooltiptext = OpenPGP 鍵アシスタントを開きます
 
 ## Addressing Area
 
-to-compose-address-row-label =
-    .value = 宛先
-#   $key (String) - the shortcut key for this field
-to-compose-show-address-row-menuitem =
-    .label = { to-compose-address-row-label.value } フィールド
-    .accesskey = T
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
-to-compose-show-address-row-label =
-    .value = { to-compose-address-row-label.value }
-    .tooltiptext = { to-compose-address-row-label.value } フィールドを表示します ({ to-compose-show-address-row-menuitem.acceltext })
-cc-compose-address-row-label =
-    .value = Cc
-#   $key (String) - the shortcut key for this field
-cc-compose-show-address-row-menuitem =
-    .label = { cc-compose-address-row-label.value } フィールド
-    .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
-cc-compose-show-address-row-label =
-    .value = { cc-compose-address-row-label.value }
-    .tooltiptext = { cc-compose-address-row-label.value } フィールドを表示します ({ cc-compose-show-address-row-menuitem.acceltext })
-bcc-compose-address-row-label =
-    .value = Bcc
-#   $key (String) - the shortcut key for this field
-bcc-compose-show-address-row-menuitem =
-    .label = { bcc-compose-address-row-label.value } フィールド
-    .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
-bcc-compose-show-address-row-label =
-    .value = { bcc-compose-address-row-label.value }
-    .tooltiptext = { bcc-compose-address-row-label.value } フィールドを表示します ({ bcc-compose-show-address-row-menuitem.acceltext })
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-info = 宛先および Cc フィールドの {$count} 件の受信者は互いのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
 to-address-row-label =
     .value = 宛先
 #   $key (String) - the shortcut key for this field
@@ -313,3 +345,17 @@ cloud-file-attachment-error = Filelink 添付の { $filename } の更新に失�
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error-title = Filelink アカウントエラー
 cloud-file-account-error = Filelink 添付の { $filename } の更新に失敗しました。この Filelink アカウントは削除されています。
+
+## Link Preview
+
+link-preview-title = リンクプレビュー
+link-preview-description = リンクを@@Paste-suru@@と、{ -brand-short-name } にリンク先の埋め込みプレビューを追加できます
+link-preview-autoadd = 可能であれば自動的にリンクプレビューを追加する
+link-preview-replace-now = このリンク先のリンクプレビューを追加しますか？
+link-preview-yes-replace = 追加する
+
+## Dictionary selection popup
+
+spell-add-dictionaries =
+    .label = スペルチェック辞書を追加...
+    .accesskey = A

@@ -96,6 +96,8 @@
 <!-- Lightning specific keybindings -->
 <!ENTITY lightning.keys.event.showCalendar.key		"C">
 <!ENTITY lightning.keys.event.showTasks.key		"D">
+
+<!-- Lightning specific keybindings -->
 <!ENTITY lightning.keys.event.new			"I">
 <!ENTITY lightning.keys.todo.new			"D">
 

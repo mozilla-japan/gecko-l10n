@@ -101,12 +101,6 @@ previous-weeks-label =
     .value = 前に表示する週の数:
     .accesskey = P
 todaypane-legend = Today ペイン
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = 近日中セクションの表示期間:
-    .accesskey = U
 agenda-days =
     .value = 日程の表示期間:
     .accesskey = g

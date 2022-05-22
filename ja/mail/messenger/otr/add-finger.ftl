@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-otr-add-finger =
-    .title = OTR 鍵のフィンガープリント追加
 otr-add-finger-title = OTR 鍵のフィンガープリント追加
 # Variables:
 #   $name (String) - name of a chat contact person

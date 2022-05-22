@@ -13,7 +13,6 @@
 
 <!ENTITY calendar.today.button.label			"今日">
 <!ENTITY calendar.tomorrow.button.label			"明日">
-<!ENTITY calendar.upcoming.button.label			"近日中">
 
 <!ENTITY calendar.events.filter.all.label		"すべての予定">
 <!ENTITY calendar.events.filter.today.label		"今日の予定">
@@ -368,8 +367,6 @@
 <!ENTITY calendar.publish.url.label			"公開 URL">
 <!ENTITY calendar.publish.publish.button		"公開">
 <!ENTITY calendar.publish.close.button			"閉じる">
-
-<!ENTITY calendar.publish.example.url.description	"例:  http://www.myserver.com/webdav/test.ics">
 
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title			"カレンダーの選択">
