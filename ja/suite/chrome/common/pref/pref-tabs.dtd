@@ -9,9 +9,9 @@
 <!ENTITY autoHide.accesskey2 "e">
 <!ENTITY background.label "@@NewTab@@を@@Front@@に表示する (リンクを開いたとき)">
 <!ENTITY background.accesskey "S">
-<!ENTITY diverted.label "迂回されたリンクを@@NewTab@@に開いて切り替える">
+<!ENTITY diverted.label "他のアプリケーションから開いた@@NewTab@@に切り替える">
 <!ENTITY diverted.accesskey "a">
-<!ENTITY browserFocus.label "他のアプリケーションからリンクを開いたらブラウザー@@Window@@にフォーカスする">
+<!ENTITY browserFocus.label "他のアプリケーションのリンクから開いたブラウザー@@Window@@にフォーカスする">
 <!ENTITY browserFocus.accesskey "F">
 <!ENTITY warnOnClose.label "複数のタブを開いたまま@@Window@@を閉じるときに警告する">
 <!ENTITY warnOnClose.accesskey "W">

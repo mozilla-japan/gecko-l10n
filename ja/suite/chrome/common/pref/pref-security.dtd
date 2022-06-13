@@ -38,5 +38,5 @@
 <!ENTITY blockWebForgeries.label          "偽装サイトとして報告されているサイトをブロックする (偽装サイト)">
 <!ENTITY blockWebForgeries.accesskey      "P">
 
-<!ENTITY blockAutoRefresh.label           "ウェブサイトがページをリダイレクトまたは再読み込みを試みた時に警告する">
+<!ENTITY blockAutoRefresh.label           "ウェブサイトがページのリダイレクトまたは再読み込みを試みた場合に警告する">
 <!ENTITY blockAutoRefresh.accesskey       "a">
