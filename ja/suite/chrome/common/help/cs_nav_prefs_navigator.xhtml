@@ -90,13 +90,6 @@
       </li>
     </ol>
   </li>
-  <li class="win"><strong>Default Browser</strong>: Allows you to set
-    &brandShortName; as the default browser or shows you that it is.
-    <ul>
-      <li><strong>Set Default Browser</strong>: Unless it is greyed out, click
-        this to set &brandShortName; as your default browser.</li>
-    </ul>
-  </li>
   <li><strong>When restoring sessions and windows</strong>: Choose how many
     (if any) browser tabs should be restored at a time upon startup.
     <ul>
@@ -111,6 +104,19 @@
       <li><strong>Only restore tabs when I need them</strong>: This disables
         automatic restoring of tabs, i.e. tabs will only be loaded if you
         switch to or reload them.</li>
+    </ul>
+  </li>
+  <li><strong>Website icons</strong>:
+    <ul>
+      <li><strong>Show website icons</strong>: Select this if you want see
+        site-specific icons, if available, in place of the bookmark icon
+        <img src="chrome://communicator/skin/places/bookmark-item.svg"
+        alt="Bookmark item icon"/>. Website icons are shown to the left of the
+        Location Bar and Browser tabs.</li>
+      <li><strong>Try to use the server&apos;s favicon when the page
+        doesn&apos;t define one</strong>: If the page itself does not define a
+        website icon, turning on this setting makes &brandShortName; look for a
+        &quot;favicon&quot; on the server and use that instead.</li>
     </ul>
   </li>
   <li>Home button preferences: In the field, type the web page you want as
@@ -330,10 +336,6 @@
             Shows only websites that you&apos;ve typed in the Location Bar and
             not websites that were opened in other ways, such as clicking a link
             on a web page.</li>
-          <li><strong>Only match locations, not website titles</strong>: Shows
-            only websites where the location matches what you typed. Websites
-            where the title matches what you typed will not show up as
-            autocomplete suggestions unless their location matches, too.</li>
           <li><strong>Match</strong>:
             <ul>
               <li><strong>Anywhere in the location or title</strong>: The
@@ -474,6 +476,14 @@
       <li><strong>Switch to new tabs opened from links</strong>: Select this to
         make &brandShortName; switch to the new tab when using <q>Open in a
         New Tab</q> to open a link.</li>
+      <li><strong>Switch to new tabs opened from diverted links</strong>:
+        Select this to make &brandShortName; switch to the new tab when opening
+        diverted links or links from other applications.</li>
+      <li><strong>Focus browser window for links opened in tabs from other
+        applications</strong>: Select this to make &brandShortName; bring to the
+        foreground the browser window being used to open links in tabs from
+        other applications. When unchecked, the browser window stays in the
+        background.</li>
       <li><strong>Warn me when closing a window with multiple tabs</strong>:
         Select this to make &brandShortName; warn you when you try to close a
         browser window which has multiple tabs open in it.</li>
@@ -485,15 +495,16 @@
   </li>
   <li><strong>Open tabs instead of windows for</strong>:
     <ul>
-      <li><strong><span class="mac"><kbd>Cmd</kbd>+click or
+      <li><strong>Middle-click, <span class="mac"><kbd>Cmd</kbd>+click or
         <kbd>Cmd</kbd>+<kbd>Return</kbd></span>
-        <span class="noMac">Middle-click, <kbd>Ctrl</kbd>+click or
-        <kbd>Ctrl</kbd>+<kbd>Enter</kbd> on links in a Web
-        page</span></strong>: Select this to open Web page links in a new tab
-        when clicking a link <span class="mac">and holding down the
-        <kbd>Command</kbd> key or holding down the <kbd>Command</kbd> key and
-        pressing <kbd>Return</kbd> on links</span> <span class="noMac">with the
-        middle mouse button, <kbd>Ctrl</kbd>-clicking on links, and pressing
+        <span class="noMac"><kbd>Ctrl</kbd>+click or
+        <kbd>Ctrl</kbd>+<kbd>Enter</kbd></span> on links in a Web
+        page</strong>: Select this to open Web page links in a new tab
+        when clicking a link with the middle mouse button,
+        <span class="mac">holding down the <kbd>Command</kbd> key whilst
+        clicking on links or holding down the <kbd>Command</kbd> key and
+        pressing <kbd>Return</kbd> on links</span>
+        <span class="noMac"><kbd>Ctrl</kbd>-clicking on links, and pressing
         <kbd>Ctrl</kbd>+<kbd>Enter</kbd> on links</span>.
 
         <p><strong>Tip</strong>: Use Find Links as You Type to navigate to the

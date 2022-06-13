@@ -38,14 +38,13 @@
 <!ENTITY images.label "画像">
 <!ENTITY popups.label "ポップアップ@@Window@@">
 <!ENTITY passwords.label "パスワード">
-<!ENTITY masterpass.label "マスターパスワード">
 <!ENTITY ssltls.label "SSL/TLS">
 <!ENTITY certs.label "証明書">
 
 <!ENTITY sync.label "同期">
 
 <!ENTITY advance.label "詳細">
-<!ENTITY scriptsAndWindows.label "スクリプトとプラグイン">
+<!ENTITY scriptsAndWindows2.label "スクリプト">
 <!ENTITY keynav.label "キーボードナビゲーション">
 <!ENTITY findAsYouType.label "タイプ検索">
 <!ENTITY cache.label "キャッシュ">

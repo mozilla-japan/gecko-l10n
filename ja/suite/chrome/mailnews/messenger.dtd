@@ -313,9 +313,17 @@
 <!ENTITY forwardAsInline.accesskey              "I">
 <!ENTITY forwardAsAttachmentCmd.label           "添付">
 <!ENTITY forwardAsAttachmentCmd.accesskey       "A">
-<!ENTITY editMsgAsNewCmd.label                  "@@New-CMD@@メッセージとして編集">
-<!ENTITY editMsgAsNewCmd.accesskey              "E">
-<!ENTITY editMsgAsNewCmd.key                    "e">
+<!ENTITY editAsNewMsgCmd.label                  "@@New-CMD@@メッセージとして編集">
+<!ENTITY editAsNewMsgCmd.accesskey              "E">
+<!ENTITY editAsNewMsgCmd.key                    "e">
+<!ENTITY editDraftMsgCmd.label                  "下書きメッセージを編集">
+<!ENTITY editDraftMsgCmd.accesskey              "D">
+<!ENTITY editTemplateMsgCmd.label               "テンプレートを編集">
+<!ENTITY editTemplateMsgCmd.accesskey           "T">
+<!ENTITY newMsgFromTemplateCmd.label            "テンプレートから@@New-CMD@@メッセージ">
+<!-- LOCALIZATION NOTE (newMsgFromTemplateCmd.keycode):
+     Do not localize VK_RETURN. -->
+<!ENTITY newMsgFromTemplateCmd.keycode          "VK_RETURN">
 <!ENTITY createFilter.label                     "メッセージからフィルターを作成...">
 <!ENTITY createFilter.accesskey                 "a">
 <!ENTITY archiveMsgCmd.label                    "アーカイブ">
@@ -468,8 +476,12 @@
 <!ENTITY contextOpenNewWindow.accesskey           "W">
 <!ENTITY contextOpenNewTab.label                  "メッセージを@@NewTab@@で開く">
 <!ENTITY contextOpenNewTab.accesskey              "T">
-<!ENTITY contextEditAsNew.label                   "コピーして編集...">
-<!ENTITY contextEditAsNew.accesskey               "E">
+<!ENTITY contextEditMsgAsNew.label                "@@New-CMD@@メッセージとして編集">
+<!ENTITY contextEditMsgAsNew.accesskey            "E">
+<!ENTITY contextEditDraftMsg.label                "下書きメッセージを編集">
+<!ENTITY contextEditTemplate.label                "テンプレートを編集">
+<!ENTITY contextEditTemplate.accesskey            "T">
+<!ENTITY contextNewMsgFromTemplate.label          "テンプレートから@@New-CMD@@メッセージ">
 <!ENTITY contextReplySender.label                 "送信者だけに返信">
 <!ENTITY contextReplySender.accesskey             "O">
 <!ENTITY contextReplyList.label                   "メーリングリストに返信">

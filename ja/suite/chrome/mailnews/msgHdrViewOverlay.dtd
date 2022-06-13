@@ -23,8 +23,10 @@
 <!ENTITY inReplyToField.label "In-Reply-To: ">
 <!ENTITY originalWebsite.label "ウェブサイト: ">
 
-<!ENTITY editMessage.label                 "下書きを編集...">
-<!ENTITY editMessage.accesskey             "D">
+<!ENTITY editDraft.label                   "下書きを編集...">
+<!ENTITY editDraft.accesskey               "D">
+<!ENTITY editTemplate.label                "テンプレートを編集...">
+<!ENTITY editTemplate.accesskey            "d">
 
 <!ENTITY attachmentsTree.label             "添付:">
 <!ENTITY attachmentsTree.accesskey         "c">

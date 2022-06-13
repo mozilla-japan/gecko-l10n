@@ -3,7 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY fieldMapImport.title "アドレス帳を@@ImportNoun@@">
-<!ENTITY fieldMapImport.size "width: 40em; height: 30em;">
 <!ENTITY fieldMapImport.recordNumber "@@Import-suru@@データを取り込み中: ">
 <!ENTITY fieldMapImport.next.label "@@NextButton@@">
 <!ENTITY fieldMapImport.next.accesskey "N">

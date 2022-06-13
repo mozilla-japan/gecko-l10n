@@ -185,9 +185,6 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY remoteXUL.title "リモート XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>この問題をウェブサイトの管理者に報告してください。</li></ul></p>">
-
 <!ENTITY sslv3Used.title "安全な接続を確保できません">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "SSL_ERROR_UNSUPPORTED_VERSION". -->

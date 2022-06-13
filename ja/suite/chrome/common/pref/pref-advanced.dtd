@@ -8,6 +8,20 @@
 <!ENTITY prefCheckDefault.caption         "システム統合">
 <!ENTITY prefCheckDefaultClient.label     "起動時に@@Default@@の@@Application@@の設定を確認する">
 <!ENTITY prefCheckDefaultClient.accesskey "C">
+<!ENTITY defaultClientFor.description     "&brandShortName; を@@Default-@@アプリケーションに設定する:">
+<!ENTITY setDefaultBrowser.label          "ブラウザー">
+<!ENTITY setDefaultBrowser.accesskey      "B">
+<!ENTITY setDefaultMail.label             "メール">
+<!ENTITY setDefaultMail.accesskey         "M">
+<!ENTITY setDefaultNews.label             "ニュース">
+<!ENTITY setDefaultNews.accesskey         "N">
+<!ENTITY setDefaultFeed.label             "フィード">
+<!ENTITY setDefaultFeed.accesskey         "F">
+<!ENTITY useInternalSettings.description  "ブラウザーで次のリンクを開いた時に &brandShortName; Mail &amp; News を使用する:">
+<!ENTITY useInternalMail.label            "メール (mailto:)">
+<!ENTITY useInternalMail.accesskey        "a">
+<!ENTITY useInternalNews.label            "ニュース (news:, snews:, nntp:)">
+<!ENTITY useInternalNews.accesskey        "e">
 
 <!ENTITY printing.label                   "@@Print@@">
 <!ENTITY useNativePrintDialog.label       "システムの@@Print@@ダイアログを使用">
@@ -21,10 +35,10 @@
 
 <!ENTITY devTools.caption                 "開発ツール">
 <!ENTITY allowDebugger.label              "&brandShortName; にデバッガーの接続を許可する">
-<!ENTITY allowDebugger.accesskey          "A">
+<!ENTITY allowDebugger.accesskey          "d">
 <!ENTITY allowRemoteConnections.label     "他のコンピューターからの接続を許可する">
 <!ENTITY allowRemoteConnections.accesskey "o">
 <!ENTITY connectionPrompt.label           "接続要求があったときは確認する">
 <!ENTITY connectionPrompt.accesskey       "P">
 <!ENTITY remoteDebuggerPort.label         "接続ポート番号:">
-<!ENTITY remoteDebuggerPort.accesskey     "n">
+<!ENTITY remoteDebuggerPort.accesskey     "r">
