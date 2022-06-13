@@ -19,6 +19,7 @@ perftools-heading-features-default = 機能 (@@Default@@で推奨)
 perftools-heading-features-disabled = 無効な機能
 perftools-heading-features-experimental = 実験的な機能
 perftools-heading-threads = スレッド
+perftools-heading-threads-jvm = JVM スレッド
 perftools-heading-local-build = ローカルビルド
 
 ##
@@ -92,6 +93,19 @@ perftools-thread-dns-resolver =
 perftools-thread-task-controller =
   .title = タスクコントローラのスレッドプールにあるスレッドです
 
+perftools-thread-jvm-gecko =
+  .title = メイン Gecko JVM スレッドです
+perftools-thread-jvm-nimbus =
+  .title = Nimbus experiments SDK のメインスレッドです
+perftools-thread-jvm-default-dispatcher =
+  .title = Kotlin コルーチンライブラリーの@@Default-@@ディスパッチャーです
+perftools-thread-jvm-glean =
+  .title = Glean telemetry SDK のメインスレッドです
+perftools-thread-jvm-arch-disk-io =
+  .title = Kotlin コルーチンライブラリーの IO ディスパッチャーです
+perftools-thread-jvm-pool =
+  .title = 無名スレッドプールで生成されたスレッドです
+
 ##
 
 perftools-record-all-registered-threads =
@@ -103,6 +117,9 @@ perftools-tools-threads-input-label =
 ## Onboarding UI labels. These labels are displayed in the new performance panel UI, when
 ## both devtools.performance.new-panel-onboarding & devtools.performance.new-panel-enabled
 ## preferences are true.
+
+## Onboarding UI labels. These labels are displayed in the new performance panel UI, when
+## devtools.performance.new-panel-onboarding preference is true.
 
 perftools-onboarding-message = <b>新機能</b>: { -profiler-brand-name } が開発ツールに統合されました。この強力な新しいツールについては <a>こちら</a> をご覧ください。
 

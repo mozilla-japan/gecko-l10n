@@ -1239,3 +1239,4 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 mobile, suite           14784:a1d57351aa15   2022-06-10     mar             sync mobile, suite
 browser                 14784:a1d57351aa15   2022-06-10     mar             sync browser
+devtools                14784:a1d57351aa15   2022-06-10     mar             sync devtools
