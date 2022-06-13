@@ -251,9 +251,6 @@ check-user-spelling =
 
 files-and-applications-title = ファイルと@@Application@@
 download-header = ダウンロード
-download-save-to =
-    .label = 次のフォルダーに保存する
-    .accesskey = v
 download-save-where = 次のフォルダーに保存する
     .accesskey = v
 download-choose-folder =
@@ -1128,7 +1125,3 @@ httpsonly-radio-disabled =
 desktop-folder-name = デスクトップ
 downloads-folder-name = ダウンロード
 choose-download-folder-title = ダウンロードフォルダーを選択:
-# Variables:
-#   $service-name (String) - Name of a cloud storage provider like Dropbox, Google Drive, etc...
-save-files-to-cloud-storage =
-    .label = { $service-name } にファイルを保存する
