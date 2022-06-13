@@ -4,8 +4,8 @@
 
 <!-- extracted from content/pref-scripts.xul -->
 
-<!--LOCALIZATION NOTE : FILE The 'Scripts & Plugins' preferences dialog -->
-<!ENTITY pref.scripts.title		"スクリプトとプラグイン">
+<!--LOCALIZATION NOTE : FILE The 'Scripts' preferences dialog -->
+<!ENTITY pref.scripts2.title		"スクリプト">
 
 <!ENTITY navigator.label		"ブラウザー">
 <!ENTITY navigator.accesskey		"B">
@@ -27,13 +27,3 @@
 <!ENTITY debugStrictJavascript.accesskey	"J">
 <!ENTITY debugConsoleJavascript.label	"chrome の JavaScript エラーと警告を表示する">
 <!ENTITY debugConsoleJavascript.accesskey	"c">
-
-<!ENTITY enablePlugins.label		"プラグインを有効にする">
-<!ENTITY enablePluginForSuite.label	"Suite">
-<!ENTITY enablePluginForSuite.accesskey	"u">
-
-<!ENTITY whenPageRequiresPlugins.label	"プラグインの読み込みを要求されたとき">
-<!ENTITY activateAllPlugins.label	"@@Default@@ですべてのプラグインを有効化">
-<!ENTITY activateAllPlugins.accesskey	"d">
-<!ENTITY warnPluginsRequired.label	"プラグインを追加する必要があるときは警告する">
-<!ENTITY warnPluginsRequired.accesskey	"W">

@@ -4,10 +4,14 @@
 
 <!-- Used in networks-edit dialog -->
 <!ENTITY networksEditDialog.title	"ネットワークエディター">
+<!-- LOCALIZATION NOTE
+     - width should be 62ch + length of longest serverList*.label -->
 <!ENTITY networksEditDialog.size	"width: 75ch; height: 28em;">
 
 <!ENTITY restoreButton.label		"@@DefaultValue@@に戻す">
 <!ENTITY restoreButton.accesskey	"f">
+<!ENTITY connectNetwork.label		"ネットワークに接続">
+<!ENTITY connectNetwork.accesskey	"N">
 
 <!ENTITY networkListAdd.label		"ネットワークを追加...">
 <!ENTITY networkListAdd.accesskey	"A">

@@ -925,11 +925,6 @@
 <rdf:Description about="help-indexAZ.rdf#j">
    <nc:subheadings>
      <rdf:Seq><rdf:li>
-       <rdf:Description ID="java"
-         nc:name="Java"
-         nc:link="nav_help.xhtml#plugins_and_downloads"/>
-     </rdf:li>
-     <rdf:li>
        <rdf:Description ID="JavaScript"
          nc:name="JavaScript"/>
      </rdf:li></rdf:Seq>
@@ -1322,11 +1317,6 @@
        <rdf:Description ID="master_password:forgetting"
          nc:name="Forgetting your master password"
          nc:link="using_priv_help.xhtml#what_to_do_if_you_forget_your_master_password"/>
-     </rdf:li>
-     <rdf:li>
-       <rdf:Description ID="master_password:preferences"
-         nc:name="Master Password Preferences"
-         nc:link="passwords_help.xhtml#master_passwords"/>
      </rdf:li></rdf:Seq>
    </nc:subheadings>
 </rdf:Description>

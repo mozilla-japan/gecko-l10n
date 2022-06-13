@@ -8,24 +8,19 @@
 <!ENTITY confirmMove.accesskey            "C">
 <!ENTITY preserveThreading.label          "メッセージを並べ替えるときにスレッド表示を維持する">
 <!ENTITY preserveThreading.accesskey      "v">
+<!ENTITY mailAutoHide.label               "開いているタブが 1 つだけのときはメールタブを隠す">
+<!ENTITY mailAutoHide.accesskey           "b">
 <!ENTITY loadInBackground.label           "@@NewTab@@を開いたら@@Front@@に表示する">
 <!ENTITY loadInBackground.accesskey       "t">
+<!ENTITY mailOpenTabsFor.label            "@@Window@@の代わりにタブを開く場合">
+<!ENTITY mailMiddleClick.label            "メッセージやフォルダーを中クリックまたは Ctrl+Enter">
+<!ENTITY mailMiddleClick.accesskey        "M">
+<!ENTITY mailMiddleClickMac.label         "メッセージやフォルダーを中クリックまたは &#8984;+Return">
+<!ENTITY mailMiddleClickMac.accesskey     "M">
+<!ENTITY mailDoubleClick.label            "メッセージをダブルクリック">
+<!ENTITY mailDoubleClick.accesskey        "k">
 <!ENTITY mailBiffOnNewWindow.label        "メールとニュースグループを起動したときにだけ新着メールを確認する"><!--Only check for new mail after opening Mail &amp; Newsgroups-->
 <!ENTITY mailBiffOnNewWindow.accesskey    "O">
-
-<!ENTITY defaultMailSettings.description  "&brandShortName; を以下の@@Default-@@アプリケーションに設定する:">
-<!ENTITY setDefaultMail.label             "メール">
-<!ENTITY setDefaultMail.accesskey         "M">
-<!ENTITY setDefaultNews.label             "ニュース">
-<!ENTITY setDefaultNews.accesskey         "N">
-<!ENTITY setDefaultFeed.label             "フィード (RSS)">
-<!ENTITY setDefaultFeed.accesskey         "e">
-
-<!ENTITY useInternalSettings.description  "ブラウザーで以下のリンクを開くときに &brandShortName; のメールとニュースを使用する:">
-<!ENTITY useInternalMail.label            "メール (mailto:)">
-<!ENTITY useInternalMail.accesskey        "a">
-<!ENTITY useInternalNews.label            "ニュース (news:, snews:, nntp:)">
-<!ENTITY useInternalNews.accesskey        "s">
 
 <!ENTITY messengerStartPage.caption       "メールスタートページ">
 <!ENTITY enableStartPage.label            "起動時にメッセージペインにスタートページを表示する">
