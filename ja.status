@@ -1238,5 +1238,5 @@ mail, chat, calendar    14761:f2435cb18056   2022-05-17     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mobile, suite           14784:a1d57351aa15   2022-06-10     mar             sync mobile, suite
-browser                 14784:a1d57351aa15   2022-06-10     mar             sync browser
-devtools                14784:a1d57351aa15   2022-06-10     mar             sync devtools
+browser                 14784:a1d57351aa15   2022-06-10     hATrayflood     sync browser
+devtools                14784:a1d57351aa15   2022-06-10     hATrayflood     sync devtools
