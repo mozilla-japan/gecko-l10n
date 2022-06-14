@@ -198,9 +198,13 @@ policy-SSLVersionMax = SSL の最高バージョンを設定します。
 
 policy-SSLVersionMin = SSL の最低バージョンを設定します。
 
+policy-StartDownloadsInTempDirectory = @@Default-@@ダウンロードディレクトリーではなく、ローカルの一時的な場所にダウンロードするよう強制します。
+
 policy-SupportMenu = ヘルプメニューにカスタムサポートメニューを追加します。
 
 policy-UserMessaging = 特定のメッセージをユーザーに表示させないようにします。
+
+policy-UseSystemPrintDialog = システムの@@Print@@ダイアログで@@Print@@します。
 
 # “format” refers to the format used for the value of this policy.
 policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細はドキュメントをご覧ください。
