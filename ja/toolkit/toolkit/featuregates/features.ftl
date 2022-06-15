@@ -72,3 +72,8 @@ experimental-features-js-warp-description = JavaScript の性能とメモリ効�
 experimental-features-ime-search =
     .label = アドレスバー: IME 変換中に結果を表示
 experimental-features-ime-search-description = IME (Input Method Editor) は、東アジアまたはインド系の言語の複雑な文字 (かな漢字変換など) を標準のキーボードで入力するためのツールです。この実験的な機能を有効にすると、IME を使用した文字入力中に、アドレスバーパネルを開いたまま検索結果や検索候補を表示できます。ただし、IME のパネルがアドレスバーの検索結果を隠してしまうことがあります。この設定は、IME のパネルのこのような挙動を想定していません。
+
+# Text recognition for images
+experimental-features-text-recognition =
+    .label = 文字認識
+experimental-features-text-recognition-description = 画像内の文字を認識する機能を有効にします。
