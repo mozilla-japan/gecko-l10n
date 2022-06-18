@@ -94,8 +94,8 @@ vcard-adr-country = 国
 
 # NOTE vCard field
 
-vcard-note-header = 備考
-vcard-note-add = 備考を追加
+vcard-note-header = メモ
+vcard-note-add = メモを追加
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
