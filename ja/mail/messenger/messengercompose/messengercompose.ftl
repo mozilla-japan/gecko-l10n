@@ -182,6 +182,11 @@ key-notification-resolve =
     .label = 解決...
     .accesskey = R
     .tooltiptext = OpenPGP 鍵アシスタントを開きます
+can-encrypt-smime-notification = S/MIME エンドツーエンド暗号化が可能です。
+can-encrypt-openpgp-notification = OpenPGP エンドツーエンド暗号化が可能です。
+can-e2e-encrypt-button =
+    .label = 暗号化
+    .accesskey = E
 
 ## Addressing Area
 
