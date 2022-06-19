@@ -26,6 +26,8 @@ about-addressbook-books-context-properties =
     .label = @@Property@@
 about-addressbook-books-context-synchronize =
     .label = 同期
+about-addressbook-books-context-edit =
+    .label = 編集
 about-addressbook-books-context-print =
     .label = @@Print@@...
 about-addressbook-books-context-export =
@@ -53,8 +55,8 @@ about-addressbook-search =
     .placeholder = { $name } を検索
 about-addressbook-search-all =
     .placeholder = すべてのアドレス帳を検索
-about-addressbook-sort-button =
-    .title = リストの並び順を変更します
+about-addressbook-sort-button2 =
+    .title = リスト表示のオプションです
 about-addressbook-name-format-display =
     .label = 表示名
 about-addressbook-name-format-firstlast =
@@ -69,6 +71,38 @@ about-addressbook-sort-email-ascending =
     .label = メールアドレスで並べ替え (昇順)
 about-addressbook-sort-email-descending =
     .label = メールアドレスで並べ替え (降順)
+about-addressbook-horizontal-layout =
+    .label = 水平レイアウトに切り替え
+about-addressbook-vertical-layout =
+    .label = 垂直レイアウトに切り替え
+
+## Card column headers
+## Each string is listed here twice, and the values should match.
+
+about-addressbook-column-header-generatedname = 名前
+about-addressbook-column-label-generatedname =
+    .label = { about-addressbook-column-header-generatedname }
+about-addressbook-column-header-emailaddresses = メールアドレス
+about-addressbook-column-label-emailaddresses =
+    .label = { about-addressbook-column-header-emailaddresses }
+about-addressbook-column-header-phonenumbers = 電話番号
+about-addressbook-column-label-phonenumbers =
+    .label = { about-addressbook-column-header-phonenumbers }
+about-addressbook-column-header-addresses = 住所
+about-addressbook-column-label-addresses =
+    .label = { about-addressbook-column-header-addresses }
+about-addressbook-column-header-title = 役職
+about-addressbook-column-label-title =
+    .label = { about-addressbook-column-header-title }
+about-addressbook-column-header-department = 部署
+about-addressbook-column-label-department =
+    .label = { about-addressbook-column-header-department }
+about-addressbook-column-header-organization = 組織
+about-addressbook-column-label-organization =
+    .label = { about-addressbook-column-header-organization }
+about-addressbook-column-header-addrbook = アドレス帳
+about-addressbook-column-label-addrbook =
+    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-cards-context-write =
     .label = 作成
 about-addressbook-confirm-delete-mixed-title = 連絡先とアドレスリストの削除
@@ -122,8 +156,18 @@ about-addressbook-confirm-delete-contacts =
         *[other] 選択された { $count } 件の連絡先を削除してもよろしいですか？
     }
 
+## Card list placeholder
+## Shown when there are no cards in the list
+
+about-addressbook-placeholder-empty-book = 連絡先がありません
+about-addressbook-placeholder-new-contact = @@New-CMD@@連絡先
+about-addressbook-placeholder-search-only = このアドレス帳は検索後にのみ連絡先を表示します
+about-addressbook-placeholder-searching = 検索しています...
+about-addressbook-placeholder-no-search-results = 連絡先が見つかりませんでした
+
 ## Details
 
+about-addressbook-prefer-display-name = メッセージヘッダーでは表示名を優先する
 about-addressbook-write-action-button = 作成
 about-addressbook-event-action-button = 予定
 about-addressbook-search-action-button = 検索
@@ -134,10 +178,8 @@ about-addressbook-save-edit-contact-button = 保存
 about-addressbook-add-contact-to = 追加先:
 about-addressbook-details-email-addresses-header = メールアドレス
 about-addressbook-details-phone-numbers-header = 電話番号
-about-addressbook-details-home-address-header = 自宅アドレス
-about-addressbook-details-work-address-header = 勤務先アドレス
 about-addressbook-details-addresses-header = アドレス
-about-addressbook-details-notes-header = 備考
+about-addressbook-details-notes-header = メモ
 about-addressbook-details-other-info-header = 他の情報
 about-addressbook-entry-type-work = 勤務先
 about-addressbook-entry-type-home = 自宅
@@ -147,7 +189,7 @@ about-addressbook-entry-type-pager = ポケットベル
 about-addressbook-entry-name-birthday = 誕生日
 about-addressbook-entry-name-anniversary = 記念日
 about-addressbook-entry-name-title = 役職
-about-addressbook-entry-name-department = 部署
+about-addressbook-entry-name-role = 担当
 about-addressbook-entry-name-organization = 組織
 about-addressbook-entry-name-website = ウェブサイト
 about-addressbook-entry-name-time-zone = タイムゾーン

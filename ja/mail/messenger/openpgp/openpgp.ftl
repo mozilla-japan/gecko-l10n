@@ -229,12 +229,6 @@ openpgp-key-man-select-all-key =
 openpgp-key-man-key-details-key =
     .key = I
 openpgp-ign-addr-intro = 次の選択されたメールアドレスについて、この鍵を使用して受け入れます:
-openpgp-key-details-title =
-    .title = 
-        { PLATFORM() ->
-            [macos] 鍵の情報
-           *[other] 鍵のプロパティ
-        }
 openpgp-key-details-doc-title =
     { PLATFORM() ->
         [macos] 鍵の情報
@@ -247,7 +241,6 @@ openpgp-key-details-structure-tab =
 openpgp-key-details-uid-certified-col =
     .label = ユーザー ID / 署名
 openpgp-key-details-key-id-label = 鍵 ID
-openpgp-key-details-user-id2-label = 主張された鍵の所有者
 openpgp-key-details-user-id3-label = 請求された鍵の所有者
 openpgp-key-details-id-label =
     .label = ID
@@ -527,9 +520,6 @@ key-error-not-accepted-as-personal = ID ‘{ $keySpec }’ の鍵があなたの
 
 # Strings used in enigmailKeyManager.js & windows.jsm
 need-online = 選択された機能はオフラインモードでは使用できません。オンラインでもう一度試してください。
-
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
-no-key-found = 指定された検索条件に適合する鍵を見つけられませんでした。
 
 # Strings used in keyRing.jsm & keyLookupHelper.jsm
 no-key-found2 = 指定された検索条件に適合する利用可能な鍵を見つけられませんでした。

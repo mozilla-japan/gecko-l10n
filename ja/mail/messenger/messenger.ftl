@@ -126,6 +126,10 @@ message-header-msg-flagged =
 message-header-msg-not-flagged =
     .title = スターなし
     .aria-label = スターなし
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = { $address } のプロファイル写真
 
 ## Message header cutomize panel
 
@@ -139,6 +143,16 @@ message-header-button-style-text =
     .label = テキストのみ
 message-header-button-style-icons =
     .label = アイコンのみ
+message-header-show-sender-full-address =
+    .label = 常に送信者の完全アドレスを表示する
+    .accesskey = f
+message-header-show-sender-full-address-description = メールアドレスが表示名の下に表示されます。
+message-header-show-recipient-avatar =
+    .label = 送信者のプロファイル写真を表示する
+    .accesskey = p
+message-header-hide-label-column =
+    .label = ラベル列を隠す
+    .accesskey = l
 message-header-large-subject =
     .label = 件名を拡大表示する
     .accesskey = s
@@ -151,13 +165,6 @@ toolbar-context-menu-manage-extension =
 toolbar-context-menu-remove-extension =
     .label = 拡張機能を削除
     .accesskey = v
-
-## Message headers
-
-message-header-address-in-address-book-icon =
-    .alt = このアドレスはアドレス帳に登録されています
-message-header-address-not-in-address-book-icon =
-    .alt = このアドレスはアドレス帳に登録されていません
 
 ## Add-on removal warning
 
@@ -218,12 +225,6 @@ spaces-context-new-window-item =
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =
     .label = { $tabName }に切り替える
-settings-context-open-settings-item =
-    .label = 設定を開く
-settings-context-open-account-settings-item =
-    .label = アカウント設定を開く
-settings-context-open-addons-item =
-    .label = アドオンマネージャーを開く
 settings-context-open-settings-item2 =
     .label = 設定
 settings-context-open-account-settings-item2 =
