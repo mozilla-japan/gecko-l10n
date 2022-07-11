@@ -38,6 +38,13 @@ videocontrols-picture-in-picture-toggle-label = ピクチャーインピクチ�
 # button. When using this variation, this string appears below the toggle when the
 # mouse hovers the toggle.
 videocontrols-picture-in-picture-explainer = { -brand-short-name } で他の操作をしている間も動画を@@Front@@に表示して再生します。
+# This string is used as the label for a variation of the Picture-in-Picture video
+# toggle button when the mouse is hovering over the video.
+videocontrols-picture-in-picture-toggle-label2 = この動画をポップアウト
+# This string is used as part of a variation of the Picture-in-Picture video toggle
+# button. When using this variation, this string appears below the toggle when the
+# mouse hovers the toggle.
+videocontrols-picture-in-picture-explainer2 = 多くの画面でさらに楽しめます。ブラウジング中もこの動画をピクチャーインピクチャーで再生します。
 videocontrols-error-aborted = 動画の読み込みを中止しました。
 videocontrols-error-network = ネットワークエラーが発生したため動画の再生を中止しました。
 videocontrols-error-decode = ファイルが壊れているため動画を再生できません。

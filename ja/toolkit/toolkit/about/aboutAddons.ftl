@@ -290,10 +290,14 @@ extension-enabled-heading = 有効
 extension-disabled-heading = 無効
 theme-enabled-heading = 有効
 theme-disabled-heading = 無効
-theme-disabled-heading2 = 保存したテーマ
+theme-disabled-heading2 = 保存されたテーマ
 theme-monochromatic-heading = カラーテーマ
 theme-monochromatic-subheading = { -brand-product-name } の新しいカラーテーマが期間限定で利用できます。
 theme-colorways-button = カラーテーマを試す
+colorway-collection-independent-voices-subheading = { -brand-short-name } に自分らしさを加えましょう。
+# Variables:
+#   $expiryDate (string) - date on which the colorway collection expires.
+colorway-collection-expiry-date-span = 有効期限 { DATETIME($expiryDate, month: "long", day: "numeric") }
 plugin-enabled-heading = 有効
 plugin-disabled-heading = 無効
 dictionary-enabled-heading = 有効
@@ -401,6 +405,7 @@ addon-page-options-button =
 # Variables:
 #   $version (String): application version.
 details-notification-incompatible = { $name } は { -brand-short-name } { $version } と互換性がありません。
+details-notification-incompatible-link = 詳細情報
 details-notification-unsigned-and-disabled = { $name } は { -brand-short-name } での使用が検証できないため無効化されています。
 details-notification-unsigned-and-disabled-link = 詳細情報
 details-notification-unsigned = { $name } は { -brand-short-name } での使用が検証できません。配布元を確認して慎重に使用してください。
