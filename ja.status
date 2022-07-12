@@ -1234,7 +1234,7 @@ devtools                14761:f2435cb18056   2022-05-17     hATrayflood     sync
 dom, netwerk, toolkit   14761:f2435cb18056   2022-05-17     mar             sync dom, netwerk, toolkit
 mail, chat, calendar    14761:f2435cb18056   2022-05-17     mar             sync mail, chat, calendar
 
-[l10n-mozilla-102.0] (ESR)
+Released! [l10n-mozilla-102.0] (ESR)
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 mobile, suite           14784:a1d57351aa15   2022-06-10     mar             sync mobile, suite
@@ -1242,3 +1242,8 @@ browser                 14784:a1d57351aa15   2022-06-10     hATrayflood     sync
 devtools                14784:a1d57351aa15   2022-06-10     hATrayflood     sync devtools
 dom, netwerk, toolkit   14784:a1d57351aa15   2022-06-10     mar             sync dom, netwerk, toolkit
 mail, chat, calendar    14784:a1d57351aa15   2022-06-10     mar             sync mail, chat, calendar
+
+[l10n-mozilla-103.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+dom, netwerk, toolkit   14810:82011f1d0608   2022-07-08     mar             sync dom, netwerk, toolkit
