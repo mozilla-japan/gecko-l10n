@@ -1248,3 +1248,4 @@ target dir             gecko-string hg changeset rev:id     by              comm
 --------------------------------------------------------------------------------------------------------------
 dom, netwerk, toolkit   14810:82011f1d0608   2022-07-08     mar             sync dom, netwerk, toolkit
 browser                 14810:82011f1d0608   2022-07-08     hATrayflood     sync browser
+devtools                14810:82011f1d0608   2022-07-08     hATrayflood     sync devtools
