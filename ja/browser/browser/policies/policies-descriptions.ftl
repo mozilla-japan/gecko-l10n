@@ -119,6 +119,8 @@ policy-FirefoxHome = Firefox Home の設定を行います。
 
 policy-FlashPlugin = Flash プラグインの実行を許可、または拒否します。
 
+policy-GoToIntranetSiteForSingleWordEntryInAddressBar = アドレスバーに単語を入力すると、検索の代わりにイントラネットサイトへの案内を強制します。
+
 policy-Handlers = @@Default-@@アプリケーションハンドラーを設定します。
 
 policy-HardwareAcceleration = false にすると、ハードウェアアクセラレーションをオフにします。
