@@ -13,39 +13,41 @@ learn-more = <span data-l10n-name="link">詳細</span>
 ##   $property (string) - A CSS property name e.g. "color".
 ##   $display (string) - A CSS display value e.g. "inline-block".
 
-inactive-css-not-grid-or-flex-container = この要素はフレックスコンテナーでもグリッドコンテナーでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-or-flex-container = この要素はフレックスコンテナーでもグリッドコンテナーでもないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-css-not-grid-or-flex-container-or-multicol-container = この要素はフレックスコンテナーでもグリッドコンテナーでも、段組みコンテナーないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-or-flex-container-or-multicol-container = この要素はフレックスコンテナーでもグリッドコンテナーでも、段組みコンテナーないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-css-not-grid-or-flex-item = この要素はグリッドアイテムでもフレックスアイテムでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-or-flex-item = この要素はグリッドアイテムでもフレックスアイテムでもないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-css-not-grid-item = この要素はグリッドアイテムではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-item = この要素はグリッドアイテムではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-css-not-grid-container = この要素はグリッドコンテナーではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-container = この要素はグリッドコンテナーではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-css-not-flex-item = この要素はフレックスアイテムではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-flex-item = この要素はフレックスアイテムではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-css-not-flex-container = この要素はフレックスコンテナーではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-flex-container = この要素はフレックスコンテナーではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-css-not-inline-or-tablecell = この要素はインライン要素でもテーブルのセル要素でもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-inline-or-tablecell = この要素はインライン要素でもテーブルのセル要素でもないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-css-property-because-of-display = この要素は <strong>{ $display }</strong> の display プロパティを持つため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-property-because-of-display = この要素は <strong>{ $display }</strong> の display プロパティを持つため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
 inactive-css-not-display-block-on-floated = この要素は <strong>floated</strong> であるため、<strong>display</strong> の値はエンジンによって <strong>block</strong> に変更されました。
 
 inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により、<strong>{ $property }</strong> をオーバーライドすることはできません。
 
-inactive-css-position-property-on-unpositioned-box = この要素は配置の指定がないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-position-property-on-unpositioned-box = この要素は配置の指定がないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-text-overflow-when-no-overflow = <strong>overflow:hidden</strong> が設定されてないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-text-overflow-when-no-overflow = <strong>overflow:hidden</strong> が設定されてないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> はテーブルを構成する要素に影響を及ぼしません。
+inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> はテーブルを構成する要素に効果がありません。
 
-inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> はセル以外のテーブルを構成する要素に影響を及ぼしません。
+inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> はセル以外のテーブルを構成する要素に効果がありません。
 
-inactive-css-not-table = テーブルではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-table = テーブルではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 
-inactive-scroll-padding-when-not-scroll-container = この要素はスクロールしないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-scroll-padding-when-not-scroll-container = この要素はスクロールしないため、<strong>{ $property }</strong> はこの要素に効果がありません。
+
+inactive-css-border-image = <strong>{ $property }</strong> は、親テーブル要素の <strong>border-collapse</strong> に <strong>collapse</strong> が設定されていて内部テーブル要素に適用できないため、この要素には効果がありません。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
@@ -84,6 +86,8 @@ inactive-css-not-for-internal-table-elements-except-table-cells-fix = <strong>�
 inactive-css-not-table-fix = <strong>display:table</strong> または <strong>display:inline-table</strong> を追加してみてください。{ learn-more }
 
 inactive-scroll-padding-when-not-scroll-container-fix = <strong>overflow:auto</strong>、<strong>overflow:scroll</strong> または <strong>overflow:hidden</strong> を追加してみてください。{ learn-more }
+
+inactive-css-border-image-fix = 親テーブル要素のプロパティを削除するか <strong>border-collapse</strong> を <strong>collapse</strong> 以外の値を変更してみてください。{ learn-more }
 
 ## In the Rule View when a CSS property may have compatibility issues with other browsers
 ## we display an icon. When this icon is hovered this message is displayed to explain why

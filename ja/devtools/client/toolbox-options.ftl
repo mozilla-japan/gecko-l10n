@@ -128,9 +128,3 @@ options-source-maps-tooltip =
     .title = このオプションを有効にすると、ソースがツールにマッピングされます
 # The message shown for settings that trigger page reload
 options-context-triggers-page-refresh = * 現在のセッションのみ有効。再読み込みで復帰
-
-# The label for the checkbox that toggles the display of the platform data in the
-# Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference in about:config
-options-show-platform-data-label = Gecko プラットフォームのデータを表示
-options-show-platform-data-tooltip =
-    .title = このオプションを有効にすると、JavaScript プロファイラの出力に Gecko プラットフォームのシンボルが含まれるようになります

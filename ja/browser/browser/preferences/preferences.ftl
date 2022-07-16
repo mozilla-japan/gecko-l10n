@@ -944,8 +944,10 @@ content-blocking-etp-standard-desc = 保護と性能をバランスよく。ペ�
 content-blocking-etp-strict-desc = より強固な保護ですが、一部のサイトやコンテンツが機能しなくなる可能性があります。
 content-blocking-etp-custom-desc = ブロックするトラッカーとスクリプトを選択します。
 content-blocking-etp-blocking-desc = { -brand-short-name } は以下のものをブロックします:
+
 content-blocking-private-windows = プライベート@@Window@@のトラッキングコンテンツ
 content-blocking-cross-site-cookies-in-all-windows = すべての@@Window@@のクロスサイト Cookie (トラッキング Cookie 含む)
+content-blocking-cross-site-cookies-in-all-windows2 = すべての@@Window@@のクロスサイト Cookie
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
 content-blocking-all-cross-site-cookies-private-windows = プライベート@@Window@@のクロスサイト Cookie
 content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残存 Cookie の隔離
@@ -956,17 +958,23 @@ content-blocking-all-windows-tracking-content = すべての@@Window@@のトラ�
 content-blocking-all-third-party-cookies = サードパーティ Cookie すべて
 content-blocking-cryptominers = 暗号通貨マイニング
 content-blocking-fingerprinters = フィンガープリント採取
+
 # "Test pilot" is used as a verb. Possible alternatives:
 # "Be the first to try", "Join an early experiment".
 content-blocking-etp-standard-tcp-rollout-checkbox =
     .label = これまでにない最も強力なプライバシー保護機能を試す
     .accesskey = T
+
 # "Contains" here means "isolates", "limits".
 content-blocking-etp-standard-tcp-rollout-description = 包括的 Cookie 保護機能により現在のサイトへの Cookie が制限されているため、トラッカーはサイトを横断してあなたを追跡する Cookie を利用できません。
 content-blocking-etp-standard-tcp-rollout-learn-more = 詳細情報
+
+content-blocking-etp-standard-tcp-title = 包括的 Cookie 保護機能が含まれます。これまでで最も強力なプライバシー保護機能です
+
 content-blocking-warning-title = 注意！
 content-blocking-and-isolating-etp-warning-description-2 = この設定では、一部のウェブサイトが表示されないか正しく動作しない可能性があります。サイトが動作しない場合は、トラッキング防止機能をオフにして再読み込みするとよいでしょう。
 content-blocking-warning-learn-how = 詳細情報
+
 content-blocking-reload-description = これらの変更を適用するには、タブを再読み込みする必要があります。
 content-blocking-reload-tabs-button =
     .label = すべてのタブを再読み込み

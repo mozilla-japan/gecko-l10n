@@ -38,11 +38,49 @@ browser-main-window-mac =
     .data-title-private = { -brand-full-name } — (プライベートブラウジング)
     .data-content-title-default = { $content-title }
     .data-content-title-private = { $content-title } — (プライベートブラウジング)
+
+# These are the default window titles everywhere except macOS. The first two
+# attributes are used when the web content opened has no title:
+#
+# default - "Mozilla Firefox"
+# private - "Mozilla Firefox (Private Browsing)"
+#
+# The last two are for use when there *is* a content title.
+# Variables:
+#  $content-title (String): the title of the web content.
+browser-main-window-window-titles =
+    .data-title-default = { -brand-full-name }
+    .data-title-private = { -brand-full-name } プライベートブラウジング
+    .data-content-title-default = { $content-title } — { -brand-full-name }
+    .data-content-title-private = { $content-title } — { -brand-full-name } プライベートブラウジング
+
+# These are the default window titles on macOS. The first two are for use when
+# there is no content title:
+#
+# "default" - "Mozilla Firefox"
+# "private" - "Mozilla Firefox — (Private Browsing)"
+#
+# The last two are for use when there *is* a content title.
+# Do not use the brand name in the last two attributes, as we do on non-macOS.
+#
+# Also note the other subtle difference here: we use a `-` to separate the
+# brand name from `(Private Browsing)`, which does not happen on other OSes.
+#
+# Variables:
+#  $content-title (String): the title of the web content.
+browser-main-window-mac-window-titles =
+    .data-title-default = { -brand-full-name }
+    .data-title-private = { -brand-full-name } — プライベートブラウジング
+    .data-content-title-default = { $content-title }
+    .data-content-title-private = { $content-title } — プライベートブラウジング
+
 # This gets set as the initial title, and is overridden as soon as we start
 # updating the titlebar based on loaded tabs or private browsing state.
 # This should match the `data-title-default` attribute in both
 # `browser-main-window` and `browser-main-window-mac`.
 browser-main-window-title = { -brand-full-name }
+
+private-browsing-shortcut-text = { -brand-short-name } プライベートブラウジング
 
 ##
 
@@ -122,6 +160,8 @@ urlbar-tabtosearch-onboard = このショートカットを選択すると、よ
 urlbar-search-mode-bookmarks = ブックマーク
 urlbar-search-mode-tabs = タブ
 urlbar-search-mode-history = 履歴
+
+urlbar-search-mode-actions = アクション
 
 ##
 
@@ -222,6 +262,22 @@ search-one-offs-tabs =
     .tooltiptext = タブ ({ $restrict })
 search-one-offs-history =
     .tooltiptext = 履歴 ({ $restrict })
+
+search-one-offs-actions =
+    .tooltiptext = アクション ({ $restrict })
+
+## QuickActions are shown in the urlbar as the user types a matching string
+
+quickactions-clear = 履歴を消去
+quickactions-print = @@Print@@
+quickactions-screenshot = スクリーンショットを撮影
+quickactions-settings = 設定を開く
+quickactions-downloads = ダウンロードを開く
+quickactions-viewsource = ソースを表示
+quickactions-inspector = インスペクターを開く
+quickactions-refresh = { -brand-short-name } をリフレッシュ
+quickactions-restart = { -brand-short-name } を再起動
+quickactions-update = { -brand-short-name } を更新
 
 ## Bookmark Panel
 
@@ -431,6 +487,12 @@ urlbar-placeholder-search-mode-other-history =
 urlbar-placeholder-search-mode-other-tabs =
     .placeholder = 検索語句を入力します
     .aria-label = タブを検索
+
+# This placeholder is used when searching quick actions.
+urlbar-placeholder-search-mode-other-actions =
+    .placeholder = 検索語句を入力します
+    .aria-label = アクションを検索
+
 # Variables
 #  $name (String): the name of the user's default search engine
 urlbar-placeholder-with-name =
@@ -514,7 +576,7 @@ urlbar-result-action-search-tabs = タブを検索
 urlbar-group-firefox-suggest =
     .label = { -firefox-suggest-brand-name }
 # A label shown above the search suggestions group in the urlbar results. It
-# should use title case.
+# should use sentence case.
 # Variables
 #  $engine (String): the name of the search engine providing the suggestions
 urlbar-group-search-suggestions =
@@ -784,3 +846,6 @@ data-reporting-notification-message = ユーザー体験の向上のため、{ -
 data-reporting-notification-button =
     .label = 共有するデータを選択
     .accesskey = C
+
+# Label for the indicator shown in the private browsing window titlebar.
+private-browsing-indicator-label = プライベートブラウジング
