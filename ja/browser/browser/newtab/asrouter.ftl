@@ -158,7 +158,7 @@ spotlight-total-cookie-protection-secondary-button = 後で
 cfr-total-cookie-protection-header = ありがとうございます。{ -brand-short-name } はこれまでよりプライベートで安全になりました
 # "Early access" for this feature rollout means it's a "feature preview" or
 # "soft launch". Only those who received it and accepted are shown this message.
-cfr-total-cookie-protection-body = 包括的 Cookie 保護機能はこれまでにない最も強力なプライバシー保護機能です。すべての { -brand-short-name } ユーザーの@@Default@@設定になりました。あなたのような早期アクセス参加者がなければ実現できなかったでしょう。より良いインターネットの構築への協力に感謝します。
+cfr-total-cookie-protection-body = 包括的 Cookie 保護機能はこれまでにない最も強力なプライバシー保護機能です。すべての { -brand-short-name } ユーザーの@@Default-@@設定になりました。あなたのような早期アクセス参加者がなければ実現できなかったでしょう。より良いインターネットの構築への協力に感謝します。
 
 ## Emotive Continuous Onboarding
 
