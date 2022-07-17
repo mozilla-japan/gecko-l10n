@@ -123,9 +123,6 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = スター付き
     .aria-label = スター付き
-message-header-msg-not-flagged =
-    .title = スターなし
-    .aria-label = スターなし
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -173,11 +170,9 @@ toolbar-context-menu-remove-extension =
 addon-removal-title = { $name } を削除しますか？
 addon-removal-confirmation-button = 削除
 addon-removal-confirmation-message = { $name } とその設定およびデータを { -brand-short-name } から削除しますか？
-
 caret-browsing-prompt-title = キャレットブラウジング
 caret-browsing-prompt-text = F7 キーを押すとキャレットブラウジングのオンとオフを切り替えられます。この機能は、移動可能なカーソルをコンテンツ内に配置して、キーボードでテキストを選択できるようにします。キャレットブラウジングをオンにしますか？
 caret-browsing-prompt-check-text = 今後は確認しない
-
 repair-text-encoding-button =
     .label = テキストエンコーディングを修復
     .tooltiptext = メッセージ本文の適切なテキストエンコーディングを推定します
@@ -236,18 +231,18 @@ settings-context-open-addons-item2 =
 
 spaces-toolbar-pinned-tab-button =
     .tooltiptext = スペースメニュー
-spaces-pinned-button-menuitem-mail =
-    .label = メールタブを表示
-spaces-pinned-button-menuitem-address-book =
-    .label = アドレス帳タブを表示
-spaces-pinned-button-menuitem-calendar =
-    .label = カレンダータブを表示
-spaces-pinned-button-menuitem-tasks =
-    .label = ToDo タブを表示
-spaces-pinned-button-menuitem-chat =
-    .label = チャットタブを表示
-spaces-pinned-button-menuitem-settings =
-    .label = 設定を開く
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = 設定
 spaces-pinned-button-menuitem-show =
     .label = スペースツールバーを表示
 # Variables:
