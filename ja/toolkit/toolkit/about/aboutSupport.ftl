@@ -155,7 +155,8 @@ media-device-format = 形式
 media-device-channels = チャンネル
 media-device-rate = レート
 media-device-latency = 遅延
-media-capabilities-title = メディア性能
+media-capabilities-title = メディア機能
+media-codec-support-info = コーデックサポート情報
 # List all the entries of the database.
 media-capabilities-enumerate = データベースを列挙
 

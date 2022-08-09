@@ -12,3 +12,4 @@ tag-pings-label = 送信したすべての Ping にこのタグを付ける
 log-pings-label = 送信前に Ping ペイロードを記録しますか？
 send-pings-label = 名前付き Ping を送信
 controls-button-label = 設定を送信
+controls-button-label-verbose = 設定を適用して Ping を送信
