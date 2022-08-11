@@ -49,6 +49,8 @@ inactive-scroll-padding-when-not-scroll-container = この要素はスクロー�
 
 inactive-css-border-image = <strong>{ $property }</strong> は、親テーブル要素の <strong>border-collapse</strong> に <strong>collapse</strong> が設定されていて内部テーブル要素に適用できないため、この要素には効果がありません。
 
+inactive-css-ruby-element = この要素は ruby 要素のため、<strong>{ $property }</strong> は効果がありません。ルビテキストのフォントサイズから自動的に設定されます。
+
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
 ## the problem can be solved.
@@ -88,6 +90,8 @@ inactive-css-not-table-fix = <strong>display:table</strong> または <strong>di
 inactive-scroll-padding-when-not-scroll-container-fix = <strong>overflow:auto</strong>、<strong>overflow:scroll</strong> または <strong>overflow:hidden</strong> を追加してみてください。{ learn-more }
 
 inactive-css-border-image-fix = 親テーブル要素のプロパティを削除するか <strong>border-collapse</strong> を <strong>collapse</strong> 以外の値を変更してみてください。{ learn-more }
+
+inactive-css-ruby-element-fix = ルビテキストの <strong>font-size</strong> を変更してみてください。{ learn-more }
 
 ## In the Rule View when a CSS property may have compatibility issues with other browsers
 ## we display an icon. When this icon is hovered this message is displayed to explain why
