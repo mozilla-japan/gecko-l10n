@@ -117,6 +117,8 @@ policy-ExtensionUpdate = 拡張機能の自動更新を有効または無効に�
 
 policy-FirefoxHome = Firefox Home の設定を行います。
 
+policy-FirefoxHome2 = { -firefox-home-brand-name } の設定を行います。
+
 policy-FlashPlugin = Flash プラグインの実行を許可、または拒否します。
 
 policy-GoToIntranetSiteForSingleWordEntryInAddressBar = アドレスバーに単語を入力すると、検索の代わりにイントラネットサイトへの案内を強制します。

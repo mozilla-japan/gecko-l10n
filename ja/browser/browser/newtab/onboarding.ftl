@@ -31,6 +31,15 @@ return-to-amo-add-theme-label = テーマを追加
 #   $total (Int) - Total number of pages
 onboarding-welcome-steps-indicator =
     .aria-label = はじめる: { $current } / { $total } ページ
+
+# Aria-label to make the "steps" of multistage onboarding visible to screen readers.
+# Variables:
+#   $current (Int) - Number of the current page
+#   $total (Int) - Total number of pages
+
+onboarding-welcome-steps-indicator2 =
+    .aria-valuetext = 完了まで: { $current } / { $total }
+
 # "Hero Text" displayed on left side of welcome screen.
 # The "Fire" in "Fire starts here" plays on the "Fire" in "Firefox".
 # It also signals the passion users bring to Firefox, how they use
@@ -102,11 +111,11 @@ mr2-onboarding-colorway-header = カラーテーマ
 mr2-onboarding-colorway-subtitle = 新しいカラーテーマが期間限定で利用できます。
 mr2-onboarding-colorway-primary-button-label = カラーテーマを保存
 mr2-onboarding-colorway-secondary-button-label = 後で
-mr2-onboarding-colorway-label-soft = Soft
-mr2-onboarding-colorway-label-balanced = Balance
+mr2-onboarding-colorway-label-soft = ソフト
+mr2-onboarding-colorway-label-balanced = バランス
 # "Bold" is used in the sense of bravery or courage, not in the sense of
 # emphasized text.
-mr2-onboarding-colorway-label-bold = Bold
+mr2-onboarding-colorway-label-bold = ボールド
 # Automatic theme uses operating system color settings
 mr2-onboarding-theme-label-auto = 自動
 # This string will be used for Default theme

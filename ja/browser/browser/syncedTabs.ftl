@@ -12,6 +12,13 @@ synced-tabs-sidebar-tabsnotsyncing = タブの同期をオンにすると、他�
 synced-tabs-sidebar-connect-another-device = 他の端末を接続
 synced-tabs-sidebar-search =
     .placeholder = 同期したタブを検索
+
+## Displayed in the Synced Tabs sidebar's context menu when right-clicking tabs
+## and/or devices in the list. The "Open" strings below should be translated
+## consistently with the equivalent strings for the bookmarks manager's context
+## menu. That menu is activated by right-clicking a bookmark in the Library
+## window. The bookmarks manager context's strings are located in places.ftl.
+
 synced-tabs-context-open =
     .label = 開く
     .accesskey = O
@@ -26,6 +33,29 @@ synced-tabs-context-open-in-new-private-window =
     .accesskey = P
 synced-tabs-context-bookmark-single-tab =
     .label = このタブをブックマーク...
+    .accesskey = B
+synced-tabs-context-open-in-tab =
+    .label = @@NewTab@@で開く
+    .accesskey = w
+synced-tabs-context-open-in-container-tab =
+    .label = @@New-CMD@@コンテナータブで開く
+    .accesskey = i
+synced-tabs-context-open-in-window =
+    .label = リンクを@@NewWindow@@で開く
+    .accesskey = N
+synced-tabs-context-open-in-private-window =
+    .label = @@New-CMD@@プライベート@@Window@@で開く
+    .accesskey = P
+
+##
+
+# Displayed in the Synced Tabs sidebar's context menu when right-clicking tabs
+# and/or devices in the list. This string is for a menuitem equivalent to one in
+# the tab context menu (activated by right-clicking a tab in the tabstrip). That
+# string is located in tabContextMenu.ftl. So, this string should be translated
+# consistently with the "Bookmark Tab" string there.
+synced-tabs-context-bookmark-tab =
+    .label = Bookmark Tab
     .accesskey = B
 synced-tabs-context-copy =
     .label = コピー

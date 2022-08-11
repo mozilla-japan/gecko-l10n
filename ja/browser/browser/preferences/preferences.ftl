@@ -481,6 +481,10 @@ home-restore-defaults =
 # while "Home" and "(Default)" can be localized.
 home-mode-choice-default =
     .label = Firefox Home (@@Default@@)
+
+home-mode-choice-default-fx =
+    .label = { -firefox-home-brand-name } (@@Default@@)
+
 home-mode-choice-custom =
     .label = カスタム URL...
 home-mode-choice-blank =
@@ -506,6 +510,10 @@ choose-bookmark =
 
 home-prefs-content-header = Firefox Home コンテンツ
 home-prefs-content-description = Firefox Home に表示するコンテンツを選びましょう。
+
+home-prefs-content-header2 = { -firefox-home-brand-name } コンテンツ
+home-prefs-content-description2 = { -firefox-home-brand-name } に表示するコンテンツを選びましょう。
+
 home-prefs-search-header =
     .label = ウェブ検索
 home-prefs-shortcuts-header =
@@ -526,6 +534,10 @@ home-prefs-recommended-by-description-new = { -brand-product-name } ファミリ
 home-prefs-recommended-by-learn-more = 使い方
 home-prefs-recommended-by-option-sponsored-stories =
     .label = 広告記事
+
+home-prefs-recommended-by-option-recent-saves =
+    .label = 最近保存したものを表示
+
 home-prefs-highlights-option-visited-pages =
     .label = 訪れたページ
 home-prefs-highlights-options-bookmarks =

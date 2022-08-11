@@ -1255,3 +1255,4 @@ mail, calendar          14810:82011f1d0608   2022-07-08     mar             sync
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            14832:c7aaa4d8e0ae   2022-08-04     mar             sync dom, toolkit
+browser                 14832:c7aaa4d8e0ae   2022-08-04     hATrayflood     sync browser
