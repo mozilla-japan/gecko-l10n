@@ -34,9 +34,9 @@ firefoxview-tabpickup-step-signin-description = ここから携帯端末のタ�
 firefoxview-tabpickup-step-signin-primarybutton = 続行
 
 firefoxview-tabpickup-adddevice-header = 携帯電話やタブレットの { -brand-product-name } と同期
-firefoxview-tabpickup-adddevice-description = { -brand-product-name } モバイルをダウンロードして、ログインしてください。
+firefoxview-tabpickup-adddevice-description = モバイル版 { -brand-product-name } をダウンロードして、ログインしてください。
 firefoxview-tabpickup-adddevice-learn-how = 仕組みについて
-firefoxview-tabpickup-adddevice-primarybutton = { -brand-product-name } モバイルを入手
+firefoxview-tabpickup-adddevice-primarybutton = モバイル版 { -brand-product-name } を入手
 
 firefoxview-tabpickup-synctabs-header = タブの同期を有効にする
 firefoxview-tabpickup-synctabs-description = { -brand-short-name } に端末間のタブ共有を許可してください。
@@ -58,7 +58,7 @@ firefoxview-tabpickup-syncing = タブを同期しています。しばらくお
 
 firefoxview-mobile-promo-header = 携帯電話やタブレットからタブを取り出す
 firefoxview-mobile-promo-description = 携帯端末の直近のタブを表示するには、iOS または Android の { -brand-product-name } にログインしてください。
-firefoxview-mobile-promo-primarybutton = { -brand-product-name } モバイルを入手
+firefoxview-mobile-promo-primarybutton = モバイル版 { -brand-product-name } を入手
 
 firefoxview-mobile-confirmation-header = 🎉 おめでとうございます！
 firefoxview-mobile-confirmation-description = 携帯電話やタブレットから { -brand-product-name } のタブを取り出せるようになりました。

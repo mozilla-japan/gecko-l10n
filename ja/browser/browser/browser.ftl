@@ -643,7 +643,7 @@ urlbar-group-search-suggestions =
 
 # A label shown above Quick Actions in the urlbar results.
 urlbar-group-quickactions =
-  .label = クイックアクション
+    .label = クイックアクション
 
 ## Full Screen and Pointer Lock UI
 
