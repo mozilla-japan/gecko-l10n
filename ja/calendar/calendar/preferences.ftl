@@ -15,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = 短い形式: { $date }
+use-system-timezone-radio-button =
+    .label = システムのタイムゾーンを使用する
+set-timezone-manually-radio-button =
+    .label = タイムゾーンを手動で設定する
 timezone-label =
     .value = タイムゾーン:
 weekstart-label =

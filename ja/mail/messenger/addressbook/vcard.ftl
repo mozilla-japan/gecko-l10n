@@ -104,3 +104,8 @@ vcard-org-add = 組織のプロパティを追加
 vcard-org-title = 役職
 vcard-org-role = 担当
 vcard-org-org = 組織
+
+# Custom properties
+
+vcard-custom-header = カスタムプロパティ
+vcard-custom-add = カスタムプロパティを追加
