@@ -181,6 +181,11 @@ profiler-popup-presets-networking-description = { -brand-shorter-name } のネ�
 profiler-popup-presets-networking-label =
     .label = ネットワーク
 
+profiler-popup-presets-power-description = { -brand-shorter-name } の消費電力のバグを少ないオーバーヘッドで調査するための推奨プリセットです。
+# "Power" is used in the sense of energy (electricity used by the computer).
+profiler-popup-presets-power-label =
+    .label = 消費電力
+
 profiler-popup-presets-custom-label =
     .label = カスタム
 

@@ -30,3 +30,17 @@ toolbox-meatball-menu-pseudo-locale-bidi = “bidi” ロケールを有効化
 
 ##
 
+## These labels are shown in the top-toolbar in the Browser Toolbox and Browser Console
+
+toolbox-mode-browser-toolbox-label = ブラウザーツールボックスモード
+toolbox-mode-browser-console-label = ブラウザーコンソールモード
+
+toolbox-mode-everything-label = マルチプロセス
+toolbox-mode-everything-sub-label = (低速)
+toolbox-mode-everything-container =
+  .title = すべてのプロセスをデバッグできます
+
+toolbox-mode-parent-process-label = 親プロセスのみ
+toolbox-mode-parent-process-sub-label = (高速)
+toolbox-mode-parent-process-container =
+  .title = 親プロセスで動作しているリソースのみデバッグできます。
