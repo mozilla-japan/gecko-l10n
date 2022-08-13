@@ -205,6 +205,13 @@ page-action-manage-extension =
 page-action-remove-extension =
     .label = 拡張機能を削除
 
+page-action-manage-extension2 =
+    .label = 拡張機能を管理...
+    .accesskey = E
+page-action-remove-extension2 =
+    .label = 拡張機能を削除
+    .accesskey = v
+
 ## Auto-hide Context Menu
 
 full-screen-autohide =
@@ -268,16 +275,66 @@ search-one-offs-actions =
 
 ## QuickActions are shown in the urlbar as the user types a matching string
 
-quickactions-clear = 履歴を消去
-quickactions-print = @@Print@@
-quickactions-screenshot = スクリーンショットを撮影
-quickactions-settings = 設定を開く
+## QuickActions are shown in the urlbar as the user types a matching string
+## The -cmd- strings are comma separated list of keywords that will match
+## the action.
+
+# Opens the about:addons page
+quickactions-addons = アドオンを表示
+quickactions-cmd-addons = add-ons, extensions, themes
+
+# Opens the bookmarks library window
+quickactions-bookmarks = ブックマークを表示
+quickactions-cmd-bookmarks = bookmarks
+
+# Opens a SUMO article explaining how to clear history
+quickactions-clearhistory = 履歴を消去
+quickactions-cmd-clearhistory = clear history
+
+# Opens about:downloads page
 quickactions-downloads = ダウンロードを開く
-quickactions-viewsource = ソースを表示
+quickactions-cmd-downloads = downloads
+
+# Opens the devtools web inspector
 quickactions-inspector = インスペクターを開く
+quickactions-cmd-inspector = inspector, devtools
+
+# Opens about:logins
+quickactions-logins = ログイン情報を表示
+quickactions-cmd-logins = logins, passwords
+
+# Opens the print dialog
+quickactions-print = @@Print@@
+quickactions-cmd-print = print
+
+# Opens a new private browsing window
+quickactions-private = プライベートブラウジング@@Window@@を開く
+quickactions-cmd-private = private browsing
+
+# Opens a SUMO article explaining how to refresh
 quickactions-refresh = { -brand-short-name } をリフレッシュ
+quickactions-cmd-refresh = refresh
+
+# Restarts the browser
 quickactions-restart = { -brand-short-name } を再起動
+quickactions-cmd-restart = restart
+
+# Opens the screenshot tool
+quickactions-screenshot2 = スクリーンショットを撮影
+quickactions-cmd-screenshot = screenshot
+
+# Opens about:preferences
+quickactions-settings = 設定を開く
+quickactions-cmd-settings = settings, preferences, options
+
+# Opens a SUMO article explaining how to update the browser
 quickactions-update = { -brand-short-name } を更新
+quickactions-cmd-update = update
+
+# Opens the view-source UI with current pages source
+quickactions-viewsource = ソースを表示
+
+quickactions-cmd-viewsource = view source, source
 
 ## Bookmark Panel
 
@@ -569,6 +626,8 @@ urlbar-result-action-search-bookmarks = ブックマークを検索
 urlbar-result-action-search-history = 履歴を検索
 urlbar-result-action-search-tabs = タブを検索
 
+urlbar-result-action-search-actions = アクションを検索
+
 ## Labels shown above groups of urlbar results
 
 # A label shown above the "Firefox Suggest" (bookmarks/history) group in the
@@ -581,6 +640,10 @@ urlbar-group-firefox-suggest =
 #  $engine (String): the name of the search engine providing the suggestions
 urlbar-group-search-suggestions =
     .label = { $engine } の検索候補
+
+# A label shown above Quick Actions in the urlbar results.
+urlbar-group-quickactions =
+    .label = クイックアクション
 
 ## Full Screen and Pointer Lock UI
 
@@ -849,3 +912,9 @@ data-reporting-notification-button =
 
 # Label for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-label = プライベートブラウジング
+
+## Unified extensions (toolbar) button
+
+unified-extensions-button =
+    .label = 拡張機能
+    .tooltiptext = 拡張機能
