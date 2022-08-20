@@ -9,3 +9,6 @@ refresh-profile-dialog-description = 初期状態に戻してパフォーマン�
 refresh-profile = { -brand-short-name } の性能改善
 refresh-profile-button = { -brand-short-name } をリフレッシュ...
 refresh-profile-learn-more = 詳細情報
+refresh-profile-progress =
+    .title = { -brand-short-name } のリフレッシュ
+refresh-profile-progress-description = まもなく完了します...
