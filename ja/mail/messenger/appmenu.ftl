@@ -5,6 +5,7 @@
 ## View / Layout
 
 appmenu-font-size-value = フォントサイズ
+appmenu-mail-uidensity-value = UI 密度
 appmenuitem-font-size-enlarge =
   .tooltiptext = フォントサイズを大きくします
 appmenuitem-font-size-reduce =

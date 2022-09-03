@@ -43,6 +43,12 @@ pictureinpicture-subtitles-cmd =
 
 ##
 
+pictureinpicture-fullscreen-cmd =
+    .aria-label = @@FullScreen@@
+    .title = @@FullScreen@@ (ダブルクリック)
+pictureinpicture-exit-fullscreen-cmd =
+    .aria-label = @@FullScreen@@を終了
+    .title = @@FullScreen@@を終了 (ダブルクリック)
 pictureinpicture-subtitles-label = 字幕
 pictureinpicture-font-size-label = フォントサイズ
 pictureinpicture-font-size-small = 小

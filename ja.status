@@ -1243,7 +1243,7 @@ devtools                14784:a1d57351aa15   2022-06-10     hATrayflood     sync
 dom, netwerk, toolkit   14784:a1d57351aa15   2022-06-10     mar             sync dom, netwerk, toolkit
 mail, chat, calendar    14784:a1d57351aa15   2022-06-10     mar             sync mail, chat, calendar
 
-[l10n-mozilla-103.0]
+Released! [l10n-mozilla-103.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, netwerk, toolkit   14810:82011f1d0608   2022-07-08     mar             sync dom, netwerk, toolkit
@@ -1251,10 +1251,15 @@ browser                 14810:82011f1d0608   2022-07-08     hATrayflood     sync
 devtools                14810:82011f1d0608   2022-07-08     hATrayflood     sync devtools
 mail, calendar          14810:82011f1d0608   2022-07-08     mar             sync mail, calendar
 
-[l10n-mozilla-104.0]
+Released! [l10n-mozilla-104.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 dom, toolkit            14832:c7aaa4d8e0ae   2022-08-04     mar             sync dom, toolkit
 browser                 14832:c7aaa4d8e0ae   2022-08-04     hATrayflood     sync browser
 devtools                14832:c7aaa4d8e0ae   2022-08-04     hATrayflood     sync devtools
 mail, chat, calendar    14840:c1b82457da55   2022-08-12     mar             sync mail, chat, calendar
+
+[l10n-mozilla-105.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+toolkit, mail           14858:df742953febb   2022-08-26     mar             sync toolkit, mail
