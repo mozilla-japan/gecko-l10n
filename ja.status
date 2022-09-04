@@ -1262,4 +1262,4 @@ mail, chat, calendar    14840:c1b82457da55   2022-08-12     mar             sync
 [l10n-mozilla-105.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
-toolkit, mail           14858:df742953febb   2022-08-26     mar             sync toolkit, mail
+toolkit, mail           14867:51a62c676765   2022-09-03     mar             sync toolkit, mail

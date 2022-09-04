@@ -17,6 +17,27 @@ menu-addons-and-themes =
 
 ## Help Menu
 
+menu-help-help-title =
+    .label = ヘルプ
+    .accesskey = H
+menu-help-get-help =
+    .label = ヘルプを表示
+    .accesskey = H
+menu-help-explore-features =
+    .label = 機能紹介
+    .accesskey = F
+menu-help-shortcuts =
+    .label = キーボードショートカット
+    .accesskey = K
+menu-help-get-involved =
+    .label = コミュニティに参加
+    .accesskey = G
+menu-help-donation =
+    .label = 開発支援の寄付
+    .accesskey = D
+menu-help-feedback =
+    .label = フィードバックと提案を送信
+    .accesskey = S
 menu-help-enter-troubleshoot-mode =
     .label = トラブルシューティングモード...
     .accesskey = T
@@ -24,8 +45,14 @@ menu-help-exit-troubleshoot-mode =
     .label = トラブルシューティングモードをオフにする
     .accesskey = O
 menu-help-more-troubleshooting-info =
-    .label = トラブルシューティング情報
+    .label = 他のトラブルシューティング情報
     .accesskey = M
+menu-help-troubleshooting-info =
+    .label = トラブルシューティング情報
+    .accesskey = I
+menu-help-about-product =
+    .label = { -brand-short-name } について
+    .accesskey = A
 
 ## Mail Toolbar
 

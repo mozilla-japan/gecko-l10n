@@ -151,6 +151,7 @@ region-name-mf = サンマルタン
 region-name-mg = マダガスカル
 region-name-mh = マーシャル諸島
 region-name-mk = マケドニア
+region-name-mk-2019 = 北マケドニア
 region-name-ml = マリ
 region-name-mm = ミャンマー (ビルマ)
 region-name-mn = モンゴル

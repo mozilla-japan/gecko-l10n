@@ -113,9 +113,14 @@ about-processes-frame-name-one = サブフレーム: { $url }
 #   $number (Number) The number of subframes in this group. Always ≥ 1.
 #   $shortUrl (String) The shared prefix for the subframes in the group.
 about-processes-frame-name-many = サブフレーム ({ $number }): { $shortUrl }
-# Utility process actor names
+
+## Utility process actor names
+
 about-processes-utility-actor-unknown = 未知のアクター
 about-processes-utility-actor-audio-decoder = 音声デコーダー
+about-processes-utility-actor-audio-decoder-generic = 一般音声デコーダー
+about-processes-utility-actor-audio-decoder-applemedia = Apple Media 音声デコーダー
+about-processes-utility-actor-audio-decoder-wmf = Windows Media Framework 音声デコーダー
 
 ## Displaying CPU (percentage and total)
 ## Variables:
