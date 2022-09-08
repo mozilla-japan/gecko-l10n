@@ -54,3 +54,12 @@ about-private-browsing-search-banner-close-button =
 
 about-private-browsing-promo-close-button =
     .title = 閉じる
+
+## Strings used in a “pin promotion” message, which prompts users to pin a private window
+
+about-private-browsing-pin-promo-header = クリック一つで自由にプライベートブラウジング
+about-private-browsing-pin-promo-link-text = { PLATFORM() ->
+    [macos] Dock に追加
+   *[other] タスクバーにピン留め
+}
+about-private-browsing-pin-promo-title = Cookie や履歴を保存せず、デスクトップからすぐ使えます。誰からも監視されずブラウジングできます。

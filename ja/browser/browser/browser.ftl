@@ -279,9 +279,11 @@ search-one-offs-actions =
 ## The -cmd- strings are comma separated list of keywords that will match
 ## the action.
 
-# Opens the about:addons page
+# Opens the about:addons page in the home / recommendations section
 quickactions-addons = アドオンを表示
 quickactions-cmd-addons = add-ons, extensions, themes
+
+quickactions-cmd-addons2 = add-ons
 
 # Opens the bookmarks library window
 quickactions-bookmarks = ブックマークを表示
@@ -295,6 +297,10 @@ quickactions-cmd-clearhistory = clear history
 quickactions-downloads = ダウンロードを開く
 quickactions-cmd-downloads = downloads
 
+# Opens about:addons page in the extensions section
+quickactions-extensions = 拡張機能を管理
+quickactions-cmd-extensions = extensions
+
 # Opens the devtools web inspector
 quickactions-inspector = インスペクターを開く
 quickactions-cmd-inspector = inspector, devtools
@@ -302,6 +308,10 @@ quickactions-cmd-inspector = inspector, devtools
 # Opens about:logins
 quickactions-logins = ログイン情報を表示
 quickactions-cmd-logins = logins, passwords
+
+# Opens about:addons page in the plugins section
+quickactions-plugins = プラグインを管理
+quickactions-cmd-plugins = plugins
 
 # Opens the print dialog
 quickactions-print = @@Print@@
@@ -326,6 +336,10 @@ quickactions-cmd-screenshot = screenshot
 # Opens about:preferences
 quickactions-settings = 設定を開く
 quickactions-cmd-settings = settings, preferences, options
+
+# Opens about:addons page in the themes section
+quickactions-themes = テーマを管理
+quickactions-cmd-themes = themes
 
 # Opens a SUMO article explaining how to update the browser
 quickactions-update = { -brand-short-name } を更新
@@ -719,6 +733,10 @@ bookmarks-tools =
     .label = ブックマークツール
 bookmarks-bookmark-edit-panel =
     .label = このブックマークを編集
+
+bookmarks-subview-edit-bookmark =
+    .label = このブックマークを編集...
+
 # The aria-label is a spoken label that should not include the word "toolbar" or
 # such, because screen readers already know that this container is a toolbar.
 # This avoids double-speaking.
@@ -735,6 +753,10 @@ bookmarks-toolbar-placeholder-button =
 # "Bookmark" is a verb, as in "Add current tab to bookmarks".
 bookmarks-current-tab =
     .label = 現在のタブをブックマークに追加
+
+# "Bookmark" is a verb, as in "Add current tab to bookmarks".
+bookmarks-subview-bookmark-tab =
+    .label = 現在のタブをブックマークに追加...
 
 ## Library Panel items
 

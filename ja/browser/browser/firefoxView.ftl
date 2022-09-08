@@ -51,8 +51,12 @@ firefoxview-tabpickup-network-offline-description = ファイアウォールま�
 firefoxview-tabpickup-network-offline-primarybutton = 再試行
 
 firefoxview-tabpickup-sync-error-header = 同期に問題が発生しています
-firefoxview-tabpickup-sync-error-description = { -brand-short-name } はただいまサービスに接続できません。数分後にやり直してください。
+firefoxview-tabpickup-generic-sync-error-description = { -brand-short-name } はただいま同期サービスに接続できません。数分後にやり直してください。
 firefoxview-tabpickup-sync-error-primarybutton = 再試行
+
+firefoxview-tabpickup-sync-disconnected-header = 同期をオンにして続行
+firefoxview-tabpickup-sync-disconnected-description = タブを取り出すには、{ -brand-short-name } での同期を許可する必要があります。
+firefoxview-tabpickup-sync-disconnected-primarybutton = 設定で同期をオンにする
 
 firefoxview-tabpickup-syncing = タブを同期しています。しばらくお待ちください。
 
@@ -64,8 +68,6 @@ firefoxview-mobile-confirmation-header = 🎉 おめでとうございます！
 firefoxview-mobile-confirmation-description = 携帯電話やタブレットから { -brand-product-name } のタブを取り出せるようになりました。
 
 firefoxview-closed-tabs-title = 最近閉じたタブ
-firefoxview-closed-tabs-collapse-button =
-  .title = 最近閉じたタブ一覧を表示または隠す
 
 firefoxview-closed-tabs-description = この端末で閉じたページを開きなおします。
 firefoxview-closed-tabs-placeholder = <strong>最近閉じたページはありません</strong><br/>閉じたタブをなくす心配はありません。いつでもここで復旧できます。
@@ -88,3 +90,9 @@ firefoxview-change-colorway-button = カラーテーマを変更
 firefoxview-colorway-description = { $intensity } · { $collection }
 
 firefoxview-synced-tabs-placeholder = <strong>表示できるものはまだありません</strong><br/>他の端末の { -brand-product-name } でページを開くと、ここから取り出せます。
+
+firefoxview-collapse-button-show =
+  .title = 一覧を表示
+
+firefoxview-collapse-button-hide =
+  .title = 一覧を隠す

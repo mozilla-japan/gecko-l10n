@@ -125,6 +125,45 @@ main-context-menu-bookmark-change-with-shortcut =
     .aria-label = このブックマークを編集
     .accesskey = m
     .tooltiptext = このページのブックマークを編集します ({ $shortcut })
+
+main-context-menu-bookmark-page =
+    .aria-label = ページをブックマーク...
+    .accesskey = m
+    .tooltiptext = ページをブックマークに追加します
+
+# This menuitem is only visible on macOS
+# Cannot be shown at the same time as main-context-menu-edit-bookmark-mac,
+# so should probably have the same access key if possible.
+main-context-menu-bookmark-page-mac =
+    .label = ページをブックマーク...
+    .accesskey = m
+
+# This menuitem is only visible on macOS
+# Cannot be shown at the same time as main-context-menu-bookmark-page-mac,
+# so should probably have the same access key if possible.
+main-context-menu-edit-bookmark-mac =
+    .label = ブックマークを編集...
+    .accesskey = m
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the add bookmark command.
+main-context-menu-bookmark-page-with-shortcut =
+    .aria-label = ページをブックマーク...
+    .accesskey = m
+    .tooltiptext = ページをブックマークに追加します ({ $shortcut })
+
+main-context-menu-edit-bookmark =
+    .aria-label = ブックマークを編集...
+    .accesskey = m
+    .tooltiptext = ブックマークを編集します
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the edit bookmark command.
+main-context-menu-edit-bookmark-with-shortcut =
+    .aria-label = ブックマークを編集...
+    .accesskey = m
+    .tooltiptext = ブックマークを編集します ({ $shortcut })
+
 main-context-menu-open-link =
     .label = 選択した URL を開く
     .accesskey = O
@@ -143,6 +182,11 @@ main-context-menu-open-link-new-private-window =
 main-context-menu-bookmark-link =
     .label = リンクをブックマーク
     .accesskey = B
+
+main-context-menu-bookmark-link-2 =
+    .label = リンクをブックマーク...
+    .accesskey = B
+
 main-context-menu-save-link =
     .label = @@Save-AsCMD@@リンク先を保存...
     .accesskey = k
@@ -269,6 +313,11 @@ main-context-menu-image-email =
 main-context-menu-image-set-image-as-background =
     .label = 画像をデスクトップの背景に設定...
     .accesskey = S
+
+main-context-menu-image-copy-text =
+    .label = 画像からテキストをコピー
+    .accesskey = x
+
 main-context-menu-image-info =
     .label = 画像の情報を表示
     .accesskey = f
@@ -351,6 +400,11 @@ main-context-menu-frame-reload =
 main-context-menu-frame-bookmark =
     .label = このフレームをブックマーク
     .accesskey = m
+
+main-context-menu-frame-add-bookmark =
+    .label = フレームをブックマーク...
+    .accesskey = m
+
 main-context-menu-frame-save-as =
     .label = @@Save-AsCMD@@フレームを保存...
     .accesskey = F
@@ -366,6 +420,11 @@ main-context-menu-frame-view-info =
 main-context-menu-print-selection =
     .label = 選択した部分を@@Print@@
     .accesskey = r
+
+main-context-menu-print-selection-2 =
+    .label = 選択した部分を@@Print@@...
+    .accesskey = r
+
 main-context-menu-view-selection-source =
     .label = 選択した部分のソースを表示
     .accesskey = e
