@@ -423,6 +423,7 @@ spellcheck-inline-label =
     .accesskey = E
 language-popup-label =
     .value = 辞書の言語:
+    .accesskey = L
 download-dictionaries-link = スペルチェックに必要な辞書を追加する
 font-label =
     .value = フォント:

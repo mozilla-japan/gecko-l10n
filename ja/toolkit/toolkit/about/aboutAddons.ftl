@@ -295,10 +295,6 @@ theme-monochromatic-heading = カラーテーマ
 theme-monochromatic-subheading = { -brand-product-name } の新しいカラーテーマが期間限定で利用できます。
 # Refers to the button label for the colorways card when a user does not have a colorway theme enabled.
 theme-colorways-button = カラーテーマを試す
-colorway-collection-independent-voices-subheading = { -brand-short-name } に自分らしさを加えましょう。
-# Variables:
-#   $expiryDate (string) - date on which the colorway collection expires.
-colorway-collection-expiry-date-span = 有効期限 { DATETIME($expiryDate, month: "long", day: "numeric") }
 # Refers to the button label for the colorways card when a user has a colorway theme enabled.
 theme-colorways-button-colorway-enabled = カラーテーマを変更
 # Variables:

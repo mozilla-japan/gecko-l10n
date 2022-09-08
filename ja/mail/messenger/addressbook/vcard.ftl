@@ -81,8 +81,6 @@ vcard-adr-header = アドレス
 vcard-adr-add = アドレスを追加
 vcard-adr-label = アドレス
 vcard-adr-delivery-label = 配達ラベル
-vcard-adr-pobox = 郵便受け
-vcard-adr-ext = 追加のアドレス
 vcard-adr-street = 番地
 # Or "Locality"
 vcard-adr-locality = 市区町村

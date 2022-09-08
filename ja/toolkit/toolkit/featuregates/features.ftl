@@ -77,3 +77,7 @@ experimental-features-ime-search-description = IME (Input Method Editor) は、�
 experimental-features-text-recognition =
     .label = 文字認識
 experimental-features-text-recognition-description = 画像内の文字を認識する機能を有効にします。
+
+experimental-features-accessibility-cache =
+    .label = アクセシビリティキャッシュ
+experimental-features-accessibility-cache-description = { -brand-short-name } のメインプロセス内のすべてのドキュメントから、すべてのアクセシビリティ情報をキャッシュとして保持します。これにより、アクセシビリティ API を利用するスクリーンリーダーおよび他のアプリケーションのパフォーマンスが向上します。

@@ -43,6 +43,18 @@ pictureinpicture-subtitles-cmd =
 
 ##
 
+pictureinpicture-fullscreen-cmd =
+    .aria-label = @@FullScreen@@
+    .title = @@FullScreen@@ (ダブルクリック)
+pictureinpicture-exit-fullscreen-cmd =
+    .aria-label = @@FullScreen@@を終了
+    .title = @@FullScreen@@を終了 (ダブルクリック)
+pictureinpicture-seekbackward-cmd =
+    .aria-label = 巻き戻し
+    .title = 巻き戻し (←)
+pictureinpicture-seekforward-cmd =
+    .aria-label = 早送り
+    .title = 早送り (→)
 pictureinpicture-subtitles-label = 字幕
 pictureinpicture-font-size-label = フォントサイズ
 pictureinpicture-font-size-small = 小
