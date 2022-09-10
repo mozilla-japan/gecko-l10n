@@ -44,22 +44,22 @@ about-private-browsing-focus-promo-text-c = { -focus-brand-name } は広告と�
 # Variables:
 #   $engineName (String) - The engine name that will currently be used for the private window.
 about-private-browsing-search-banner-title = { $engineName } はプライベート@@Window@@での@@Default-@@検索エンジンです
-about-private-browsing-search-banner-description = {
-  PLATFORM() ->
-     [windows] 別の検索エンジンを選択するには、<a data-l10n-name="link-options">オプション</a>を開いてください。
-    *[other] 別の検索エンジンを選択するには、<a data-l10n-name="link-options">設定</a>を開いてください。
-  }
+about-private-browsing-search-banner-description =
+    { PLATFORM() ->
+       [windows] 別の検索エンジンを選択するには、<a data-l10n-name="link-options">オプション</a>を開いてください。
+      *[other] 別の検索エンジンを選択するには、<a data-l10n-name="link-options">設定</a>を開いてください。
+    }
 about-private-browsing-search-banner-close-button =
     .aria-label = 閉じる
-
 about-private-browsing-promo-close-button =
     .title = 閉じる
 
 ## Strings used in a “pin promotion” message, which prompts users to pin a private window
 
 about-private-browsing-pin-promo-header = クリック一つで自由にプライベートブラウジング
-about-private-browsing-pin-promo-link-text = { PLATFORM() ->
-    [macos] Dock に追加
-   *[other] タスクバーにピン留め
-}
+about-private-browsing-pin-promo-link-text =
+    { PLATFORM() ->
+       [macos] Dock に追加
+      *[other] タスクバーにピン留め
+    }
 about-private-browsing-pin-promo-title = Cookie や履歴を保存せず、デスクトップからすぐ使えます。誰からも監視されずブラウジングできます。

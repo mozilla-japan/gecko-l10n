@@ -130,7 +130,6 @@ mr1-onboarding-theme-label-light = Light
 mr1-onboarding-theme-label-dark = Dark
 # "Alpenglow" here is the name of the theme, and should be kept in English.
 mr1-onboarding-theme-label-alpenglow = Alpenglow
-
 onboarding-theme-primary-button-label = 完了
 
 ## Please make sure to split the content of the title attribute into lines whose
@@ -175,7 +174,6 @@ mr2-onboarding-theme-description =
 #   $colorwayName (String) - Name of colorway
 mr2-onboarding-colorway-tooltip =
     .title = { $colorwayName } のカラーテーマを見てみます。
-
 # Selector description for colorway
 # Variables:
 #   $colorwayName (String) - Name of colorway
@@ -183,7 +181,6 @@ mr2-onboarding-colorway-label = { $colorwayName } のカラーテーマを見て
 # Tooltip displayed on hover of default themes
 mr2-onboarding-default-theme-tooltip =
     .title = @@Default-@@テーマを見てみます。
-
 # Selector description for default themes
 mr2-onboarding-default-theme-label = @@Default-@@テーマを見てみます。
 
@@ -210,18 +207,13 @@ mr2-onboarding-start-browsing-button-label = ブラウジングを開始
 ##   $appLanguage (String) - The name of the language shipping in the browser build, e.g. "English (EN)"
 
 onboarding-live-language-header = 言語を選択してください
-
 mr2022-onboarding-live-language-text = { -brand-short-name } はあなたの言語を話します
-
 mr2022-language-mismatch-subtitle = コミュニティのおかげで、{ -brand-short-name } は 90 を超える言語に翻訳されています。あなたのシステムは { $systemLanguage } を使っているようです。{ -brand-short-name } は { $appLanguage } を使っています。
-
 onboarding-live-language-button-label-downloading = { $negotiatedLanguage } の言語パックをダウンロード中...
 onboarding-live-language-waiting-button = 利用可能な言語を取得中...
 onboarding-live-language-installing = { $negotiatedLanguage } の言語パックをインストール...
-
 mr2022-onboarding-live-language-switch-to = { $negotiatedLanguage } に切り替える
 mr2022-onboarding-live-language-continue-in = { $appLanguage } のままにする
-
 onboarding-live-language-secondary-cancel-download = キャンセル
 onboarding-live-language-skip-button-label = スキップ
 
@@ -235,22 +227,21 @@ onboarding-live-language-skip-button-label = スキップ
 # The English text would normally be "100 Thank-Yous" i.e., plural noun, but for
 # aesthetics of splitting it across multiple lines, the hyphen is omitted.
 fx100-thank-you-hero-text =
-  100
-  Thank
-  <span data-l10n-name="zap">You</span>
+    100
+    Thank
+    <span data-l10n-name="zap">You</span>
 fx100-thank-you-subtitle = 100 番目のリリースです！ よりよい健全なインターネットの構築へのご協力に感謝します。
-fx100-thank-you-pin-primary-button-label = { PLATFORM() ->
-    [macos] { -brand-short-name } を Dock に追加
-   *[other] { -brand-short-name } をタスクバーにピン留め
-}
-
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } を Dock に追加
+       *[other] { -brand-short-name } をタスクバーにピン留め
+    }
 fx100-upgrade-thanks-header = 100 Thank You
 # Message shown with a start-browsing button. Emphasis <em> should be for "you"
 # but "Thank" can be used instead if there's no "you" in the translation.
 fx100-upgrade-thank-you-body = { -brand-short-name } の 100 番目のリリースです。よりよい健全なインターネットの構築へのご協力に感謝します。
 # Message shown with either a pin-to-taskbar or set-default button.
 fx100-upgrade-thanks-keep-body = 100 番目のリリースです！ 私たちのコミュニティへの参加に感謝します。次の 100 番目まで { -brand-short-name } を 1 クリックで使えるようにしましょう。
-
 mr2022-onboarding-secondary-skip-button-label = この手順をスキップ
 
 ## MR2022 New User Pin Firefox screen strings
@@ -263,10 +254,11 @@ mr2022-onboarding-welcome-pin-header = 素晴らしいインターネットを�
 # Subtitle is used on onboarding page for new users page when Firefox is not pinned
 mr2022-onboarding-welcome-pin-subtitle = クリック一つでどこからでも { -brand-short-name } を起動できます。そのたびに、よりオープンで独立したウェブを選択したことを意味します。
 # Primary button string used on welcome page for when Firefox is not pinned.
-mr2022-onboarding-pin-primary-button-label = { PLATFORM() ->
-    [macos] { -brand-short-name } を Dock に追加
-   *[other] { -brand-short-name } をタスクバーにピン留め
-}
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } を Dock に追加
+       *[other] { -brand-short-name } をタスクバーにピン留め
+    }
 # Subtitle will be used when user already has Firefox pinned, but
 # has not set it as their default browser.
 # When translating "zip", please feel free to pick a verb that signifies movement and/or exploration
@@ -317,40 +309,33 @@ mr2022-onboarding-colorway-title = あなたを想起させるカラーを選び
 mr2022-onboarding-colorway-subtitle = インディペンデント・ボイスはカルチャーを変える。
 mr2022-onboarding-colorway-primary-button-label = カラーテーマを設定する
 mr2022-onboarding-existing-colorway-checkbox-label = { -firefox-home-brand-name } をあなたのカラフルなホームページに設定する
-
 mr2022-onboarding-colorway-label-default = @@Default@@
 mr2022-onboarding-colorway-tooltip-default =
-  .title = @@Default@@
+    .title = @@Default@@
 mr2022-onboarding-colorway-description-default = <b>現在の { -brand-short-name } カラーを使用する。</b>
-
 mr2022-onboarding-colorway-label-playmaker = プレーメーカー
 mr2022-onboarding-colorway-tooltip-playmaker =
-  .title = プレーメーカー
+    .title = プレーメーカー
 mr2022-onboarding-colorway-description-playmaker = <b>プレーメーカー</b>: 仲間とともに勝機を掴め！
-
 mr2022-onboarding-colorway-label-expressionist = エクスプレショニスト
 mr2022-onboarding-colorway-tooltip-expressionist =
-  .title = エクスプレショニスト
+    .title = エクスプレショニスト
 mr2022-onboarding-colorway-description-expressionist = <b>エクスプレショニスト</b>: これこそ孤高にして至高の創造。
-
 mr2022-onboarding-colorway-label-visionary = ビジョナリー
 mr2022-onboarding-colorway-tooltip-visionary =
-  .title = ビジョナリー
+    .title = ビジョナリー
 mr2022-onboarding-colorway-description-visionary = <b>ビジョナリー</b>: こままではダメだ！誰かが変えなきゃいかンのだ！
-
 mr2022-onboarding-colorway-label-activist = アクティビスト
 mr2022-onboarding-colorway-tooltip-activist =
-  .title = アクティビスト
+    .title = アクティビスト
 mr2022-onboarding-colorway-description-activist = <b>アクティビスト</b>: さあ、新天地へ向かおう！
-
 mr2022-onboarding-colorway-label-dreamer = ドリーマー
 mr2022-onboarding-colorway-tooltip-dreamer =
-  .title = ドリーマー
+    .title = ドリーマー
 mr2022-onboarding-colorway-description-dreamer = <b>ドリーマー</b>: 運も実力のうち。
-
 mr2022-onboarding-colorway-label-innovator = イノベーター
 mr2022-onboarding-colorway-tooltip-innovator =
-  .title = イノベーター
+    .title = イノベーター
 mr2022-onboarding-colorway-description-innovator = <b>イノベーター</b>: チャンスはいくらでもある。これからだ！
 
 ## MR2022 Multistage Mobile Download screen strings
@@ -365,10 +350,11 @@ mr2022-onboarding-no-mobile-download-cta-text = QR をスキャンしてモバ�
 
 mr2022-upgrade-onboarding-pin-private-window-header = クリック一つで自由にプライベートブラウジング
 mr2022-upgrade-onboarding-pin-private-window-subtitle = Cookie や履歴を保存せず、デスクトップからすぐ使えます。誰からも監視されずブラウジングできます。
-mr2022-upgrade-onboarding-pin-private-window-primary-button-label = { PLATFORM() ->
-    [macos] { -brand-short-name } プライベートブラウジングを Dock に追加
-   *[other] { -brand-short-name } プライベートブラウジングをタスクバーにピン留め
-}
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } プライベートブラウジングを Dock に追加
+       *[other] { -brand-short-name } プライベートブラウジングをタスクバーにピン留め
+    }
 
 ## MR2022 Privacy Segmentation screen strings
 

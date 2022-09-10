@@ -160,7 +160,6 @@ urlbar-tabtosearch-onboard = このショートカットを選択すると、よ
 urlbar-search-mode-bookmarks = ブックマーク
 urlbar-search-mode-tabs = タブ
 urlbar-search-mode-history = 履歴
-
 urlbar-search-mode-actions = アクション
 
 ##
@@ -269,7 +268,6 @@ search-one-offs-tabs =
     .tooltiptext = タブ ({ $restrict })
 search-one-offs-history =
     .tooltiptext = 履歴 ({ $restrict })
-
 search-one-offs-actions =
     .tooltiptext = アクション ({ $restrict })
 
@@ -282,72 +280,54 @@ search-one-offs-actions =
 # Opens the about:addons page in the home / recommendations section
 quickactions-addons = アドオンを表示
 quickactions-cmd-addons = add-ons, extensions, themes
-
 quickactions-cmd-addons2 = add-ons
-
 # Opens the bookmarks library window
 quickactions-bookmarks = ブックマークを表示
 quickactions-cmd-bookmarks = bookmarks
-
 # Opens a SUMO article explaining how to clear history
 quickactions-clearhistory = 履歴を消去
 quickactions-cmd-clearhistory = clear history
-
 # Opens about:downloads page
 quickactions-downloads = ダウンロードを開く
 quickactions-cmd-downloads = downloads
-
 # Opens about:addons page in the extensions section
 quickactions-extensions = 拡張機能を管理
 quickactions-cmd-extensions = extensions
-
 # Opens the devtools web inspector
 quickactions-inspector = インスペクターを開く
 quickactions-cmd-inspector = inspector, devtools
-
 # Opens about:logins
 quickactions-logins = ログイン情報を表示
 quickactions-cmd-logins = logins, passwords
-
 # Opens about:addons page in the plugins section
 quickactions-plugins = プラグインを管理
 quickactions-cmd-plugins = plugins
-
 # Opens the print dialog
 quickactions-print = @@Print@@
 quickactions-cmd-print = print
-
 # Opens a new private browsing window
 quickactions-private = プライベートブラウジング@@Window@@を開く
 quickactions-cmd-private = private browsing
-
 # Opens a SUMO article explaining how to refresh
 quickactions-refresh = { -brand-short-name } をリフレッシュ
 quickactions-cmd-refresh = refresh
-
 # Restarts the browser
 quickactions-restart = { -brand-short-name } を再起動
 quickactions-cmd-restart = restart
-
 # Opens the screenshot tool
 quickactions-screenshot2 = スクリーンショットを撮影
 quickactions-cmd-screenshot = screenshot
-
 # Opens about:preferences
 quickactions-settings = 設定を開く
 quickactions-cmd-settings = settings, preferences, options
-
 # Opens about:addons page in the themes section
 quickactions-themes = テーマを管理
 quickactions-cmd-themes = themes
-
 # Opens a SUMO article explaining how to update the browser
 quickactions-update = { -brand-short-name } を更新
 quickactions-cmd-update = update
-
 # Opens the view-source UI with current pages source
 quickactions-viewsource = ソースを表示
-
 quickactions-cmd-viewsource = view source, source
 
 ## Bookmark Panel
@@ -558,12 +538,10 @@ urlbar-placeholder-search-mode-other-history =
 urlbar-placeholder-search-mode-other-tabs =
     .placeholder = 検索語句を入力します
     .aria-label = タブを検索
-
 # This placeholder is used when searching quick actions.
 urlbar-placeholder-search-mode-other-actions =
     .placeholder = 検索語句を入力します
     .aria-label = アクションを検索
-
 # Variables
 #  $name (String): the name of the user's default search engine
 urlbar-placeholder-with-name =
@@ -639,7 +617,6 @@ urlbar-result-action-calculator-result = = { $result }
 urlbar-result-action-search-bookmarks = ブックマークを検索
 urlbar-result-action-search-history = 履歴を検索
 urlbar-result-action-search-tabs = タブを検索
-
 urlbar-result-action-search-actions = アクションを検索
 
 ## Labels shown above groups of urlbar results
@@ -654,7 +631,6 @@ urlbar-group-firefox-suggest =
 #  $engine (String): the name of the search engine providing the suggestions
 urlbar-group-search-suggestions =
     .label = { $engine } の検索候補
-
 # A label shown above Quick Actions in the urlbar results.
 urlbar-group-quickactions =
     .label = クイックアクション
@@ -733,7 +709,6 @@ bookmarks-tools =
     .label = ブックマークツール
 bookmarks-bookmark-edit-panel =
     .label = このブックマークを編集
-
 bookmarks-subview-edit-bookmark =
     .label = このブックマークを編集...
 
@@ -753,7 +728,6 @@ bookmarks-toolbar-placeholder-button =
 # "Bookmark" is a verb, as in "Add current tab to bookmarks".
 bookmarks-current-tab =
     .label = 現在のタブをブックマークに追加
-
 # "Bookmark" is a verb, as in "Add current tab to bookmarks".
 bookmarks-subview-bookmark-tab =
     .label = 現在のタブをブックマークに追加...
@@ -793,7 +767,6 @@ toolbar-settings-button =
             [macos] 設定を開きます ({ $shortcut })
            *[other] 設定を開きます
         }
-
 toolbar-overflow-customize-button =
     .label = ツールバーをカスタマイズ...
     .accesskey = C
@@ -931,7 +904,6 @@ data-reporting-notification-message = ユーザー体験の向上のため、{ -
 data-reporting-notification-button =
     .label = 共有するデータを選択
     .accesskey = C
-
 # Label for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-label = プライベートブラウジング
 

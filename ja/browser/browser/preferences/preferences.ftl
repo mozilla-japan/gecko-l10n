@@ -343,15 +343,12 @@ applications-use-os-default-label =
 ##
 
 applications-handle-new-file-types-description = 他のファイルは { -brand-short-name } でどのように扱いますか？
-
 applications-save-for-new-types =
     .label = ファイルを保存する
     .accesskey = S
-
 applications-ask-before-handling =
     .label = ファイルを開くか保存するかを確認する
     .accesskey = A
-
 drm-content-header = デジタル著作権管理 (DRM) コンテンツ
 play-drm-content =
     .label = DRM 制御のコンテンツを再生
@@ -481,10 +478,8 @@ home-restore-defaults =
 # while "Home" and "(Default)" can be localized.
 home-mode-choice-default =
     .label = Firefox Home (@@Default@@)
-
 home-mode-choice-default-fx =
     .label = { -firefox-home-brand-name } (@@Default@@)
-
 home-mode-choice-custom =
     .label = カスタム URL...
 home-mode-choice-blank =
@@ -510,10 +505,8 @@ choose-bookmark =
 
 home-prefs-content-header = Firefox Home コンテンツ
 home-prefs-content-description = Firefox Home に表示するコンテンツを選びましょう。
-
 home-prefs-content-header2 = { -firefox-home-brand-name } コンテンツ
 home-prefs-content-description2 = { -firefox-home-brand-name } に表示するコンテンツを選びましょう。
-
 home-prefs-search-header =
     .label = ウェブ検索
 home-prefs-shortcuts-header =
@@ -534,10 +527,8 @@ home-prefs-recommended-by-description-new = { -brand-product-name } ファミリ
 home-prefs-recommended-by-learn-more = 使い方
 home-prefs-recommended-by-option-sponsored-stories =
     .label = 広告記事
-
 home-prefs-recommended-by-option-recent-saves =
     .label = 最近保存したものを表示
-
 home-prefs-highlights-option-visited-pages =
     .label = 訪れたページ
 home-prefs-highlights-options-bookmarks =
@@ -927,13 +918,10 @@ addressbar-locbar-topsites-option =
 addressbar-locbar-engines-option =
     .label = 検索エンジン
     .accesskey = a
-
 addressbar-locbar-quickactions-option =
     .label = クイックアクション
     .accesskey = Q
-
 addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
-
 addressbar-quickactions-learn-more = 詳細情報
 
 ## Privacy Section - Content Blocking
@@ -963,7 +951,6 @@ content-blocking-etp-standard-desc = 保護と性能をバランスよく。ペ�
 content-blocking-etp-strict-desc = より強固な保護ですが、一部のサイトやコンテンツが機能しなくなる可能性があります。
 content-blocking-etp-custom-desc = ブロックするトラッカーとスクリプトを選択します。
 content-blocking-etp-blocking-desc = { -brand-short-name } は以下のものをブロックします:
-
 content-blocking-private-windows = プライベート@@Window@@のトラッキングコンテンツ
 content-blocking-cross-site-cookies-in-all-windows = すべての@@Window@@のクロスサイト Cookie (トラッキング Cookie 含む)
 content-blocking-cross-site-cookies-in-all-windows2 = すべての@@Window@@のクロスサイト Cookie
@@ -977,23 +964,18 @@ content-blocking-all-windows-tracking-content = すべての@@Window@@のトラ�
 content-blocking-all-third-party-cookies = サードパーティ Cookie すべて
 content-blocking-cryptominers = 暗号通貨マイニング
 content-blocking-fingerprinters = フィンガープリント採取
-
 # "Test pilot" is used as a verb. Possible alternatives:
 # "Be the first to try", "Join an early experiment".
 content-blocking-etp-standard-tcp-rollout-checkbox =
     .label = これまでにない最も強力なプライバシー保護機能を試す
     .accesskey = T
-
 # "Contains" here means "isolates", "limits".
 content-blocking-etp-standard-tcp-rollout-description = 包括的 Cookie 保護機能により現在のサイトへの Cookie が制限されているため、トラッカーはサイトを横断してあなたを追跡する Cookie を利用できません。
 content-blocking-etp-standard-tcp-rollout-learn-more = 詳細情報
-
 content-blocking-etp-standard-tcp-title = 包括的 Cookie 保護機能が含まれます。これまでで最も強力なプライバシー保護機能です
-
 content-blocking-warning-title = 注意！
 content-blocking-and-isolating-etp-warning-description-2 = この設定では、一部のウェブサイトが表示されないか正しく動作しない可能性があります。サイトが動作しない場合は、トラッキング防止機能をオフにして再読み込みするとよいでしょう。
 content-blocking-warning-learn-how = 詳細情報
-
 content-blocking-reload-description = これらの変更を適用するには、タブを再読み込みする必要があります。
 content-blocking-reload-tabs-button =
     .label = すべてのタブを再読み込み
@@ -1098,14 +1080,10 @@ addon-recommendations-link = 詳細情報
 collection-health-report-disabled = このビルド設定ではヘルスレポートが無効化されています
 collection-backlogged-crash-reports-with-link = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する <a data-l10n-name="crash-reports-link">詳細情報</a>
     .accesskey = c
-
 privacy-segmentation-section-header = ブラウジング体験を向上させる新機能
-
 privacy-segmentation-section-description = よりよいユーザー体験のために、あなたのデータを使用する機能を提案されたとき:
-
 privacy-segmentation-radio-off =
     .label = { -brand-product-name } のおすすめを利用する
-
 privacy-segmentation-radio-on =
     .label = 詳細情報を表示する
 
