@@ -57,6 +57,15 @@ synced-tabs-context-open-in-private-window =
 synced-tabs-context-bookmark-tab =
     .label = タブをブックマーク
     .accesskey = B
+
+# Displayed in the Synced Tabs sidebar's context menu when right-clicking tabs
+# and/or devices in the list. This string is for a menuitem equivalent to one in
+# the tab context menu (activated by right-clicking a tab in the tabstrip). That
+# string is located in tabContextMenu.ftl. So, this string should be translated
+# consistently with the "Bookmark Tab…" string there.
+synced-tabs-context-bookmark =
+    .label = タブをブックマーク...
+    .accesskey = B
 synced-tabs-context-copy =
     .label = コピー
     .accesskey = C

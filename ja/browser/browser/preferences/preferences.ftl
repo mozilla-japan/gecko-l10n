@@ -927,7 +927,14 @@ addressbar-locbar-topsites-option =
 addressbar-locbar-engines-option =
     .label = 検索エンジン
     .accesskey = a
+
+addressbar-locbar-quickactions-option =
+    .label = クイックアクション
+    .accesskey = Q
+
 addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
+
+addressbar-quickactions-learn-more = 詳細情報
 
 ## Privacy Section - Content Blocking
 
@@ -1091,6 +1098,16 @@ addon-recommendations-link = 詳細情報
 collection-health-report-disabled = このビルド設定ではヘルスレポートが無効化されています
 collection-backlogged-crash-reports-with-link = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する <a data-l10n-name="crash-reports-link">詳細情報</a>
     .accesskey = c
+
+privacy-segmentation-section-header = ブラウジング体験を向上させる新機能
+
+privacy-segmentation-section-description = よりよいユーザー体験のために、あなたのデータを使用する機能を提案されたとき:
+
+privacy-segmentation-radio-off =
+    .label = { -brand-product-name } のおすすめを利用する
+
+privacy-segmentation-radio-on =
+    .label = 詳細情報を表示する
 
 ## Privacy Section - Security
 ##
