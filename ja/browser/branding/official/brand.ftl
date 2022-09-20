@@ -24,3 +24,4 @@
 -brand-product-name = Firefox
 -vendor-short-name = Mozilla
 trademarkInfo = Firefox および Firefox ロゴは 米国 Mozilla Foundation の米国およびその他の国における商標です。
+-brand-shortcut-name = Firefox
