@@ -51,6 +51,7 @@ firefoxview-mobile-confirmation-header = 🎉 おめでとうございます！
 firefoxview-mobile-confirmation-description = 携帯電話やタブレットから { -brand-product-name } のタブを取り出せるようになりました。
 firefoxview-closed-tabs-title = 最近閉じたタブ
 firefoxview-closed-tabs-description = この端末で閉じたページを開きなおします。
+firefoxview-closed-tabs-description2 = この@@Window@@で閉じたページを開きなおします。
 firefoxview-closed-tabs-placeholder = <strong>最近閉じたページはありません</strong><br/>閉じたタブをなくす心配はありません。いつでもここで復旧できます。
 # refers to the last tab that was used
 firefoxview-pickup-tabs-badge = 最終アクティブ

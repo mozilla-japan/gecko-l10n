@@ -10,6 +10,14 @@ connection-window =
            *[other] width: 54em
         }
 
+connection-window2 =
+    .title = インターネット接続
+    .style =
+        { PLATFORM() ->
+            [macos] min-width: 46em
+           *[other] min-width: 54em
+        }
+
 connection-close-key =
     .key = w
 

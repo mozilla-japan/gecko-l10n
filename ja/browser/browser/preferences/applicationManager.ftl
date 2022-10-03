@@ -6,6 +6,10 @@ app-manager-window =
     .title = @@Application@@の管理
     .style = width: 30em; min-height: 20em;
 
+app-manager-window2 =
+    .title = @@Application@@の管理
+    .style = min-width: 30em; min-height: 20em;
+
 app-manager-remove =
     .label = 削除
     .accesskey = R

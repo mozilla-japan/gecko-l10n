@@ -6,6 +6,10 @@ add-engine-window =
     .title = 検索エンジンを追加
     .style = width: 32em;
 
+add-engine-window2 =
+    .title = 検索エンジンを追加
+    .style = min-width: 32em;
+
 add-engine-button = カスタム検索エンジンを追加
 
 add-engine-name = 検索エンジン名
