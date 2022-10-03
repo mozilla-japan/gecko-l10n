@@ -74,7 +74,7 @@ media-save-image-as =
     .accesskey = e
 
 perm-tab =
-    .label = サイト別設定
+    .label = サイト権限
     .accesskey = P
 permissions-for =
     .value = 対象サイト:
