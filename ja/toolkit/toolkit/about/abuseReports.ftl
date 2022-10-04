@@ -9,7 +9,7 @@
 #   $addon-name (string) - Name of the add-on being reported
 abuse-report-dialog-title = { $addon-name } を報告
 abuse-report-title-extension = この拡張機能を { -vendor-short-name } に報告
-abuse-report-title-sitepermission = このサイト権限アドオンを { -vendor-short-name } に報告
+abuse-report-title-sitepermission = このサイト許可設定アドオンを { -vendor-short-name } に報告
 abuse-report-title-theme = このテーマを { -vendor-short-name } に報告
 abuse-report-subtitle = どのような問題ですか？
 # Variables:
@@ -42,7 +42,7 @@ abuse-report-messagebar-submitting = <span data-l10n-name="addon-name">{ $addon-
 abuse-report-messagebar-submitted = ご報告ありがとうございます。<span data-l10n-name="addon-name">{ $addon-name }</span> を削除しますか？
 abuse-report-messagebar-submitted-noremove = ご報告ありがとうございました。
 abuse-report-messagebar-removed-extension = ご報告ありがとうございました。拡張機能 <span data-l10n-name="addon-name">{ $addon-name }</span> を削除しました。
-abuse-report-messagebar-removed-sitepermission = ご報告ありがとうございました。サイト権限アドオン <span data-l10n-name="addon-name">{ $addon-name }</span> を削除しました。
+abuse-report-messagebar-removed-sitepermission = ご報告ありがとうございました。サイト許可設定アドオン <span data-l10n-name="addon-name">{ $addon-name }</span> を削除しました。
 abuse-report-messagebar-removed-theme = ご報告ありがとうございました。テーマ <span data-l10n-name="addon-name">{ $addon-name }</span> を削除しました。
 abuse-report-messagebar-error = <span data-l10n-name="addon-name">{ $addon-name }</span> についての報告の送信中にエラーが発生しました。
 abuse-report-messagebar-error-recent-submit = 別の報告が最近送信されているため、<span data-l10n-name="addon-name">{ $addon-name }</span> についての報告は送信されませんでした。

@@ -1013,7 +1013,7 @@ tracking-manage-exceptions =
 
 ## Privacy Section - Permissions
 
-permissions-header = 権限
+permissions-header = 許可設定
 permissions-location = 位置情報
 permissions-location-settings =
     .label = 設定...
