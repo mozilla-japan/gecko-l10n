@@ -698,6 +698,13 @@ sync-choose-what-to-sync-dialog =
     .buttonaccesskeyaccept = S
     .buttonlabelextra2 = 切断...
     .buttonaccesskeyextra2 = D
+sync-choose-what-to-sync-dialog2 =
+    .title = 同期する項目を選択
+    .style = min-width: 36em; min-height: 35em;
+    .buttonlabelaccept = 変更を保存
+    .buttonaccesskeyaccept = S
+    .buttonlabelextra2 = 切断...
+    .buttonaccesskeyextra2 = D
 sync-engine-bookmarks =
     .label = ブックマーク
     .accesskey = m
@@ -801,7 +808,6 @@ forms-windows-sso-desc = 端末の設定でアカウントを管理します
 
 # This message can be seen by trying to add a Primary Password.
 primary-password-os-auth-dialog-message-win = マスターパスワードを作成するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
-
 # This message can be seen by trying to add a Primary Password.
 # The macOS strings are preceded by the operating system with "Firefox is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These

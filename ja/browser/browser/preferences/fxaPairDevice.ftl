@@ -11,6 +11,8 @@ fxa-qrcode-heading-step3 = 3. <b>メニュー</b> (<img data-l10n-name="ios-menu
 fxa-qrcode-heading-step4 = 4. このコードをスキャンしてください:
 fxa-pair-device-dialog-sync =
     .style = width: 32em;
+fxa-pair-device-dialog-sync2 =
+    .style = min-width: 32em;
 fxa-qrcode-pair-title = 携帯電話やタブレットの { -brand-product-name } と同期
 fxa-qrcode-pair-step1 = 1. 携帯端末の { -brand-product-name } を起動してください
 fxa-qrcode-pair-step2 = 2. <strong>メニュー</strong> (iOS では <img data-l10n-name="ios-menu-icon"/>、Android では <img data-l10n-name="android-menu-icon"/>)を開いて、<strong>ログインして同期</strong>タップします

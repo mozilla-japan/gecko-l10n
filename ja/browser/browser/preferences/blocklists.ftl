@@ -5,6 +5,9 @@
 blocklist-window =
     .title = ブロックリスト
     .style = width: 50em
+blocklist-window2 =
+    .title = ブロックリスト
+    .style = min-width: 50em
 blocklist-description = オンライントラッカーのブロックに使用するリストを選択してください。リストは <a data-l10n-name="disconnect-link" title="Disconnect">Disconnect</a> から提供されます。
 blocklist-close-key =
     .key = w

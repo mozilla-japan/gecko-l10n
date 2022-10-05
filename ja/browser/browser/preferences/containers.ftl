@@ -10,7 +10,14 @@ containers-window-new =
 containers-window-update-settings =
     .title = { $name } コンテナーの設定
     .style = width: 45em
-
+containers-window-new2 =
+    .title = @@New-CMD@@コンテナーを追加する
+    .style = min-width: 45em
+# Variables
+#   $name (String) - Name of the container
+containers-window-update-settings2 =
+    .title = { $name } コンテナーの設定
+    .style = min-width: 45em
 containers-window-close =
     .key = w
 # This is a term to store style to be applied
