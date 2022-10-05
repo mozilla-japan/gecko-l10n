@@ -1259,9 +1259,14 @@ browser                 14832:c7aaa4d8e0ae   2022-08-04     hATrayflood     sync
 devtools                14832:c7aaa4d8e0ae   2022-08-04     hATrayflood     sync devtools
 mail, chat, calendar    14840:c1b82457da55   2022-08-12     mar             sync mail, chat, calendar
 
-[l10n-mozilla-105.0]
+Released! [l10n-mozilla-105.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit, mail           14867:51a62c676765   2022-09-03     mar             sync toolkit, mail
 browser                 14867:51a62c676765   2022-09-03     hATrayflood     sync browser
 devtools                14867:51a62c676765   2022-09-03     hATrayflood     sync devtools
+
+[l10n-mozilla-106.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+toolkit                 14898:c5d61a8aacad   2022-10-03     mar             sync toolkit
