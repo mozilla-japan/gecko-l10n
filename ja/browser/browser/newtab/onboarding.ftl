@@ -340,7 +340,7 @@ mr2022-onboarding-colorway-description-innovator = <b>イノベーター</b>: �
 
 ## MR2022 Multistage Mobile Download screen strings
 
-mr2022-onboarding-mobile-download-title = ノート PC とスマホを自由に行き来する
+mr2022-onboarding-mobile-download-title = ノート PC と携帯端末を自由に行き来する
 mr2022-onboarding-mobile-download-subtitle = ある端末からタブを取り出して、別の端末で中断したところから再開できます。さらに、どこで { -brand-product-name } を使っていてもブックマークとパスワードを同期できます。
 mr2022-onboarding-mobile-download-cta-text = QR をスキャンしてモバイル版 { -brand-product-name } を入手するか、<a data-l10n-name="download-label">ダウンロードリンクをあなたの携帯端末に送信しましょう。</a>
 mr2022-onboarding-no-mobile-download-cta-text = QR をスキャンしてモバイル版 { -brand-product-name } を入手しましょう。
