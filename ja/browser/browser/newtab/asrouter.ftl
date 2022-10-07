@@ -214,6 +214,6 @@ firefoxview-cfr-body = 加えて、端末間をシームレスに切り替え、
 firefoxview-spotlight-promo-title = { -firefoxview-brand-name } をよろしく
 
 # “Poof” refers to the expression to convey when something or someone suddenly disappears, or in this case, reappears. For example, “Poof, it’s gone.”
-firefoxview-spotlight-promo-subtitle = 携帯電話で開いているタブが欲しいですが？ 取り出せます。今開いていたサイトが欲しいですか？ { -firefoxview-brand-name } ですぐ戻せます。
+firefoxview-spotlight-promo-subtitle = 携帯端末で開いているタブが欲しいですが？ 取り出せます。今開いていたサイトが欲しいですか？ { -firefoxview-brand-name } ですぐ戻せます。
 firefoxview-spotlight-promo-primarybutton = 仕組みについて
 firefoxview-spotlight-promo-secondarybutton = スキップ
