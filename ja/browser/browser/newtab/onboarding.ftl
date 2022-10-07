@@ -250,9 +250,9 @@ mr2022-onboarding-secondary-skip-button-label = この手順をスキップ
 # In this context, open up is synonymous with "Discover".
 # The metaphor is that when they open their Firefox browser, it helps them discover an amazing internet.
 # If this translation does not make sense in your language, feel free to use the word "discover."
-mr2022-onboarding-welcome-pin-header = 素晴らしいインターネットを開きましょう
+mr2022-onboarding-welcome-pin-header = 素晴らしいインターネットへの扉を開きましょう
 # Subtitle is used on onboarding page for new users page when Firefox is not pinned
-mr2022-onboarding-welcome-pin-subtitle = クリック一つでどこからでも { -brand-short-name } を起動できます。そのたびに、よりオープンで独立したウェブを選択したことを意味します。
+mr2022-onboarding-welcome-pin-subtitle = クリック一つでどこからでも { -brand-short-name } は起動します。その一回一回が、より開かれて独立したウェブへの選択です。
 # Primary button string used on welcome page for when Firefox is not pinned.
 mr2022-onboarding-pin-primary-button-label =
     { PLATFORM() ->
@@ -270,10 +270,10 @@ mr2022-onboarding-set-default-only-subtitle = 非営利のブラウザーで始�
 # Title used on multistage onboarding page for existing users when Firefox is not pinned
 mr2022-onboarding-existing-pin-header = { -brand-product-name } をご愛用いただき、ありがとうございます
 # Subtitle is used on onboarding page for existing users when Firefox is not pinned
-mr2022-onboarding-existing-pin-subtitle = クリック一つでどこからでもより健全なインターネットを起動できます。あなたが気に入る新機能を最新版に詰め込みました。
+mr2022-onboarding-existing-pin-subtitle = クリック一つでどこからでもより健全なインターネットが始まります。最新の更新にはきっと気に入っていただける新機能が満載です。
 # Subtitle will be used on the welcome screen for existing users
 # when they already have Firefox pinned but not set as default
-mr2022-onboarding-existing-set-default-only-subtitle = ウェブを巡るあなたのプライバシーを守るブラウザーを使いましょう。あなたが気に入る機能を最新版に詰め込みました。
+mr2022-onboarding-existing-set-default-only-subtitle = ウェブを巡るあなたのプライバシーを守るブラウザーを使いましょう。きっと気に入っていただける新機能が満載です。
 mr2022-onboarding-existing-pin-checkbox-label = { -brand-short-name } プライベートブラウジングも追加する
 
 ## MR2022 New User Set Default screen strings
@@ -291,7 +291,7 @@ mr2022-onboarding-set-default-subtitle = 非営利のブラウザーを使いま
 
 # When translating "zip", please feel free to pick a verb that signifies movement and/or exploration
 # and makes sense in the context of navigating the web.
-mr2022-onboarding-get-started-primary-subtitle = より簡単にウェブを巡ることができるよう、あなたのためにビルドされた最新版です。あなたが気に入る機能を詰め込みました。
+mr2022-onboarding-get-started-primary-subtitle = この最新版はユーザー中心で設計されており、これまで以上に簡単にウェブを巡ることができます。 きっと気に入っていただける新機能が満載です。
 mr2022-onboarding-get-started-primary-button-label = 今すぐ設定する
 
 ## MR2022 Import Settings screen strings
@@ -340,8 +340,8 @@ mr2022-onboarding-colorway-description-innovator = <b>イノベーター</b>: �
 
 ## MR2022 Multistage Mobile Download screen strings
 
-mr2022-onboarding-mobile-download-title = ノート PC から携帯電話に戻す
-mr2022-onboarding-mobile-download-subtitle = ある端末からタブを取り出して、別の端末で中断したところから再開できます。さらに、{ -brand-product-name } を使っていればどこでもブックマークとパスワードを同期できます。
+mr2022-onboarding-mobile-download-title = ノート PC と携帯端末を自由に行き来する
+mr2022-onboarding-mobile-download-subtitle = ある端末からタブを取り出して、別の端末で中断したところから再開できます。さらに、どこで { -brand-product-name } を使っていてもブックマークとパスワードを同期できます。
 mr2022-onboarding-mobile-download-cta-text = QR をスキャンしてモバイル版 { -brand-product-name } を入手するか、<a data-l10n-name="download-label">ダウンロードリンクをあなたの携帯端末に送信しましょう。</a>
 mr2022-onboarding-no-mobile-download-cta-text = QR をスキャンしてモバイル版 { -brand-product-name } を入手しましょう。
 
@@ -367,6 +367,6 @@ mr2022-onboarding-privacy-segmentation-button-secondary-label = 詳細情報を�
 ## MR2022 Multistage Gratitude screen strings
 
 mr2022-onboarding-gratitude-title = より良いウェブ構築の助けになります
-mr2022-onboarding-gratitude-subtitle = Mozilla Foundation が提供する { -brand-short-name } のご利用ありがとうございます。あなたのご協力とともに、よりオープンでアクセス可能な、すべての人にとってより良いインターネットの構築に努めます。
-mr2022-onboarding-gratitude-primary-button-label = 新着情報を確認する
+mr2022-onboarding-gratitude-subtitle = Mozilla Foundation が提供する { -brand-short-name } のご利用ありがとうございます。あなたのご協力とともに、よりオープンでアクセシブルな、すべての人にとってより良いインターネットの構築に努めます。
+mr2022-onboarding-gratitude-primary-button-label = 新機能を確認する
 mr2022-onboarding-gratitude-secondary-button-label = ブラウジングを開始する
