@@ -285,7 +285,7 @@ preferences-addon-button =
     }
 details-addon-button = 詳細
 release-notes-addon-button = リリースノート
-permissions-addon-button = 許可設定
+permissions-addon-button = 権限
 extension-enabled-heading = 有効
 extension-disabled-heading = 無効
 theme-enabled-heading = 有効
@@ -372,10 +372,10 @@ available-updates-heading = 更新可能
 recent-updates-heading = 最近の更新
 release-notes-loading = 読み込み中...
 release-notes-error = リリースノートの読み込み中にエラーが発生しました。
-addon-permissions-empty = この拡張機能は許可設定を必要としません。
-addon-permissions-required = 中核機能に必要な許可設定:
-addon-permissions-optional = 追加機能の任意の許可設定:
-addon-permissions-learnmore = 許可設定についての詳細情報
+addon-permissions-empty = この拡張機能は権限を必要としません。
+addon-permissions-required = 中核機能に必要な権限:
+addon-permissions-optional = 追加機能の任意の権限:
+addon-permissions-learnmore = 権限についての詳細情報
 recommended-extensions-heading = おすすめの拡張機能
 recommended-themes-heading = おすすめのテーマ
 addon-sitepermissions-required = <span data-l10n-name="hostname">{ $hostname }</span> に以下の機能を許可します:
