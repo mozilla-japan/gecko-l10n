@@ -285,21 +285,21 @@ preferences-addon-button =
     }
 details-addon-button = 詳細
 release-notes-addon-button = リリースノート
-permissions-addon-button = 許可設定
+permissions-addon-button = 権限
 extension-enabled-heading = 有効
 extension-disabled-heading = 無効
 theme-enabled-heading = 有効
 theme-disabled-heading = 無効
 theme-disabled-heading2 = 保存されたテーマ
-theme-monochromatic-heading = カラーテーマ
-theme-monochromatic-subheading = { -brand-product-name } の新しいカラーテーマが期間限定で利用できます。
+theme-monochromatic-heading = Colorway
+theme-monochromatic-subheading = { -brand-product-name } から鮮やかで刺激的なテーマコレクション Colorway の新作が期間限定で登場。
 # Refers to the button label for the colorways card when a user does not have a colorway theme enabled.
-theme-colorways-button = カラーテーマを試す
+theme-colorways-button = Colorway を試す
 # Refers to the button label for the colorways card when a user has a colorway theme enabled.
-theme-colorways-button-colorway-enabled = カラーテーマを変更
+theme-colorways-button-colorway-enabled = Colorway を変更
 # Variables:
 #   $expiryDate (string) - date on which the colorway collection expires. When formatting this, you may omit the year, only exposing the month and day, as colorway collections will always expire within a year.
-colorway-collection-expiry-label = 有効期限 { DATETIME($expiryDate, month: "long", day: "numeric") }
+colorway-collection-expiry-label = { DATETIME($expiryDate, month: "long", day: "numeric") } まで
 plugin-enabled-heading = 有効
 plugin-disabled-heading = 無効
 dictionary-enabled-heading = 有効
@@ -372,10 +372,10 @@ available-updates-heading = 更新可能
 recent-updates-heading = 最近の更新
 release-notes-loading = 読み込み中...
 release-notes-error = リリースノートの読み込み中にエラーが発生しました。
-addon-permissions-empty = この拡張機能は許可設定を必要としません。
-addon-permissions-required = 中核機能に必要な許可設定:
-addon-permissions-optional = 追加機能の任意の許可設定:
-addon-permissions-learnmore = 許可設定についての詳細情報
+addon-permissions-empty = この拡張機能は権限を必要としません。
+addon-permissions-required = 中核機能に必要な権限:
+addon-permissions-optional = 追加機能の任意の権限:
+addon-permissions-learnmore = 権限についての詳細情報
 recommended-extensions-heading = おすすめの拡張機能
 recommended-themes-heading = おすすめのテーマ
 addon-sitepermissions-required = <span data-l10n-name="hostname">{ $hostname }</span> に以下の機能を許可します:

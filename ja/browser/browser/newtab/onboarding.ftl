@@ -107,15 +107,15 @@ mr1-onboarding-import-primary-button-label-attribution = { $previous } から@@I
 # This string will be used in cases where we can't detect the previous browser name.
 mr1-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーから@@Import@@
 mr1-onboarding-import-secondary-button-label = 後で
-mr2-onboarding-colorway-header = カラーテーマ
-mr2-onboarding-colorway-subtitle = 新しいカラーテーマが期間限定で利用できます。
-mr2-onboarding-colorway-primary-button-label = カラーテーマを保存
+mr2-onboarding-colorway-header = 色のある日常
+mr2-onboarding-colorway-subtitle = 鮮やかで刺激的なテーマコレクション Colorway の新作が期間限定で登場。
+mr2-onboarding-colorway-primary-button-label = Colorway を保存
 mr2-onboarding-colorway-secondary-button-label = 後で
-mr2-onboarding-colorway-label-soft = ソフト
+mr2-onboarding-colorway-label-soft = 穏やか
 mr2-onboarding-colorway-label-balanced = バランス
 # "Bold" is used in the sense of bravery or courage, not in the sense of
 # emphasized text.
-mr2-onboarding-colorway-label-bold = ボールド
+mr2-onboarding-colorway-label-bold = 大胆
 # Automatic theme uses operating system color settings
 mr2-onboarding-theme-label-auto = 自動
 # This string will be used for Default theme
@@ -164,20 +164,20 @@ mr1-onboarding-theme-description-alpenglow =
 # Tooltip displayed on hover of non-default colorway theme
 # variations e.g. soft, balanced, bold
 mr2-onboarding-theme-tooltip =
-    .title = このカラーテーマを使います。
+    .title = この Colorway を使います。
 # Selector description for non-default colorway theme
 # variations e.g. soft, balanced, bold
 mr2-onboarding-theme-description =
-    .aria-description = このカラーテーマを使います。
+    .aria-description = この Colorway を使います。
 # Tooltip displayed on hover of colorway
 # Variables:
 #   $colorwayName (String) - Name of colorway
 mr2-onboarding-colorway-tooltip =
-    .title = { $colorwayName } のカラーテーマを見てみます。
+    .title = { $colorwayName } という Colorway を見てみます。
 # Selector description for colorway
 # Variables:
 #   $colorwayName (String) - Name of colorway
-mr2-onboarding-colorway-label = { $colorwayName } のカラーテーマを見てみます
+mr2-onboarding-colorway-label = { $colorwayName } という Colorway を見てみます。
 # Tooltip displayed on hover of default themes
 mr2-onboarding-default-theme-tooltip =
     .title = @@Default-@@テーマを見てみます。
@@ -250,9 +250,9 @@ mr2022-onboarding-secondary-skip-button-label = この手順をスキップ
 # In this context, open up is synonymous with "Discover".
 # The metaphor is that when they open their Firefox browser, it helps them discover an amazing internet.
 # If this translation does not make sense in your language, feel free to use the word "discover."
-mr2022-onboarding-welcome-pin-header = 素晴らしいインターネットを開きましょう
+mr2022-onboarding-welcome-pin-header = 素晴らしいインターネットへの扉を開きましょう
 # Subtitle is used on onboarding page for new users page when Firefox is not pinned
-mr2022-onboarding-welcome-pin-subtitle = クリック一つでどこからでも { -brand-short-name } を起動できます。そのたびに、よりオープンで独立したウェブを選択したことを意味します。
+mr2022-onboarding-welcome-pin-subtitle = クリック一つでどこからでも { -brand-short-name } は起動します。その一回一回が、より開かれて独立したウェブへの選択です。
 # Primary button string used on welcome page for when Firefox is not pinned.
 mr2022-onboarding-pin-primary-button-label =
     { PLATFORM() ->
@@ -270,10 +270,10 @@ mr2022-onboarding-set-default-only-subtitle = 非営利のブラウザーで始�
 # Title used on multistage onboarding page for existing users when Firefox is not pinned
 mr2022-onboarding-existing-pin-header = { -brand-product-name } をご愛用いただき、ありがとうございます
 # Subtitle is used on onboarding page for existing users when Firefox is not pinned
-mr2022-onboarding-existing-pin-subtitle = クリック一つでどこからでもより健全なインターネットを起動できます。あなたが気に入る新機能を最新版に詰め込みました。
+mr2022-onboarding-existing-pin-subtitle = クリック一つでどこからでもより健全なインターネットが始まります。最新の更新にはきっと気に入っていただける新機能が満載です。
 # Subtitle will be used on the welcome screen for existing users
 # when they already have Firefox pinned but not set as default
-mr2022-onboarding-existing-set-default-only-subtitle = ウェブを巡るあなたのプライバシーを守るブラウザーを使いましょう。あなたが気に入る機能を最新版に詰め込みました。
+mr2022-onboarding-existing-set-default-only-subtitle = ウェブを巡るあなたのプライバシーを守るブラウザーを使いましょう。きっと気に入っていただける新機能が満載です。
 mr2022-onboarding-existing-pin-checkbox-label = { -brand-short-name } プライベートブラウジングも追加する
 
 ## MR2022 New User Set Default screen strings
@@ -291,7 +291,7 @@ mr2022-onboarding-set-default-subtitle = 非営利のブラウザーを使いま
 
 # When translating "zip", please feel free to pick a verb that signifies movement and/or exploration
 # and makes sense in the context of navigating the web.
-mr2022-onboarding-get-started-primary-subtitle = より簡単にウェブを巡ることができるよう、あなたのためにビルドされた最新版です。あなたが気に入る機能を詰め込みました。
+mr2022-onboarding-get-started-primary-subtitle = この最新版はユーザー中心で設計されており、これまで以上に簡単にウェブを巡ることができます。 きっと気に入っていただける新機能が満載です。
 mr2022-onboarding-get-started-primary-button-label = 今すぐ設定する
 
 ## MR2022 Import Settings screen strings
@@ -305,58 +305,58 @@ mr2022-onboarding-import-primary-button-label-no-attribution = 以前のブラ�
 ## Playmaker. You create…") to "X: you…" ("Playmaker: You create…"). This might
 ## help creating a more inclusive translation.
 
-mr2022-onboarding-colorway-title = あなたを想起させるカラーを選びましょう
-mr2022-onboarding-colorway-subtitle = インディペンデント・ボイスはカルチャーを変える。
-mr2022-onboarding-colorway-primary-button-label = カラーテーマを設定する
-mr2022-onboarding-colorway-primary-button-label-continue = 設定して続行
-mr2022-onboarding-existing-colorway-checkbox-label = { -firefox-home-brand-name } をあなたのカラフルなホームページに設定する
+mr2022-onboarding-colorway-title = あなたを励ますカラーを選びましょう
+mr2022-onboarding-colorway-subtitle = 揺るぎない声はカルチャーを変えられる。
+mr2022-onboarding-colorway-primary-button-label = Colorway を設定
+mr2022-onboarding-colorway-primary-button-label-continue = 設定して次へ
+mr2022-onboarding-existing-colorway-checkbox-label = { -firefox-home-brand-name } をホームページにしてカラーを合わせる
 mr2022-onboarding-colorway-label-default = @@Default@@
 mr2022-onboarding-colorway-tooltip-default =
     .title = @@Default@@
 mr2022-onboarding-colorway-tooltip-default2 =
     .title = 現在の { -brand-short-name } の@@Colors@@
-mr2022-onboarding-colorway-description-default = <b>現在の { -brand-short-name } の@@Colors@@を使用する。</b>
-mr2022-onboarding-colorway-label-playmaker = プレーメーカー
+mr2022-onboarding-colorway-description-default = <b>現在の { -brand-short-name } カラーを使用する。</b>
+mr2022-onboarding-colorway-label-playmaker = Playmaker
 mr2022-onboarding-colorway-tooltip-playmaker =
-    .title = プレーメーカー
+    .title = Playmaker
 mr2022-onboarding-colorway-tooltip-playmaker2 =
-    .title = プレーメーカー (赤)
-mr2022-onboarding-colorway-description-playmaker = <b>プレーメーカー</b>: 仲間とともに勝機を掴め！
-mr2022-onboarding-colorway-label-expressionist = エクスプレショニスト
+  .title = Playmaker (red)
+mr2022-onboarding-colorway-description-playmaker = <b>Playmaker</b>: 勝利への道を切り開け。あなたのプレーは周囲を巻き込みゲームを盛り上げる。
+mr2022-onboarding-colorway-label-expressionist = Expressionist
 mr2022-onboarding-colorway-tooltip-expressionist =
-    .title = エクスプレショニスト
+    .title = Expressionist
 mr2022-onboarding-colorway-tooltip-expressionist2 =
-    .title = エクスプレショニスト (黄)
-mr2022-onboarding-colorway-description-expressionist = <b>エクスプレショニスト</b>: これこそ孤高にして至高の創造。
-mr2022-onboarding-colorway-label-visionary = ビジョナリー
+    .title = Expressionist (yellow)
+mr2022-onboarding-colorway-description-expressionist = <b>Expressionist</b>: 内なる感情を世界に刻め。あなたの表現に映る歪みが人の心をかき乱す。
+mr2022-onboarding-colorway-label-visionary = Visionary
 mr2022-onboarding-colorway-tooltip-visionary =
-    .title = ビジョナリー
+    .title = Visionary
 mr2022-onboarding-colorway-tooltip-visionary2 =
-    .title = ビジョナリー (緑)
-mr2022-onboarding-colorway-description-visionary = <b>ビジョナリー</b>: こままではダメだ！誰かが変えなきゃいかンのだ！
-mr2022-onboarding-colorway-label-activist = アクティビスト
+    .title = Visionary (green)
+mr2022-onboarding-colorway-description-visionary = <b>Visionary.</b>: 現状に疑問を投げかけろ。より良い未来に人を動かすのはあなたのビジョンだ。
+mr2022-onboarding-colorway-label-activist = Activist
 mr2022-onboarding-colorway-tooltip-activist =
-    .title = アクティビスト
+    .title = Activist
 mr2022-onboarding-colorway-tooltip-activist2 =
-    .title = アクティビスト (青)
-mr2022-onboarding-colorway-description-activist = <b>アクティビスト</b>: さあ、新天地へ向かおう！
-mr2022-onboarding-colorway-label-dreamer = ドリーマー
+    .title = Activist (blue)
+mr2022-onboarding-colorway-description-activist = <b>Activist.</b>: 今いる世界をより良い場所に変えていけ。あなたの活動が人を導き同志へ変える。
+mr2022-onboarding-colorway-label-dreamer = Dreamer
 mr2022-onboarding-colorway-tooltip-dreamer =
-    .title = ドリーマー
+    .title = Dreamer
 mr2022-onboarding-colorway-tooltip-dreamer2 =
-    .title = ドリーマー (紫)
-mr2022-onboarding-colorway-description-dreamer = <b>ドリーマー</b>: 運も実力のうち。
-mr2022-onboarding-colorway-label-innovator = イノベーター
+    .title = Dreamer (purple)
+mr2022-onboarding-colorway-description-dreamer = <b>Dreamer.</b>: 大胆に幸運を引き寄せろ。夢を掲げるあなたの姿は人の勇気を呼び覚ます。
+mr2022-onboarding-colorway-label-innovator = Innovator
 mr2022-onboarding-colorway-tooltip-innovator =
-    .title = イノベーター
+    .title = Innovator
 mr2022-onboarding-colorway-tooltip-innovator2 =
-    .title = イノベーター (橙)
-mr2022-onboarding-colorway-description-innovator = <b>イノベーター</b>: チャンスはいくらでもある。これからだ！
+    .title = Innovator (orange)
+mr2022-onboarding-colorway-description-innovator = <b>Innovator</b>: あらゆる場所で機会を掴め。あなたがもたらす革新は周囲の人生を震わせる。
 
 ## MR2022 Multistage Mobile Download screen strings
 
-mr2022-onboarding-mobile-download-title = ノート PC から携帯電話に戻す
-mr2022-onboarding-mobile-download-subtitle = ある端末からタブを取り出して、別の端末で中断したところから再開できます。さらに、{ -brand-product-name } を使っていればどこでもブックマークとパスワードを同期できます。
+mr2022-onboarding-mobile-download-title = ノート PC と携帯端末を自由に行き来する
+mr2022-onboarding-mobile-download-subtitle = ある端末からタブを取り出して、別の端末で中断したところから再開できます。さらに、どこで { -brand-product-name } を使っていてもブックマークとパスワードを同期できます。
 mr2022-onboarding-mobile-download-cta-text = QR をスキャンしてモバイル版 { -brand-product-name } を入手するか、<a data-l10n-name="download-label">ダウンロードリンクをあなたの携帯端末に送信しましょう。</a>
 mr2022-onboarding-no-mobile-download-cta-text = QR をスキャンしてモバイル版 { -brand-product-name } を入手しましょう。
 
@@ -382,6 +382,6 @@ mr2022-onboarding-privacy-segmentation-button-secondary-label = 詳細情報を�
 ## MR2022 Multistage Gratitude screen strings
 
 mr2022-onboarding-gratitude-title = より良いウェブ構築の助けになります
-mr2022-onboarding-gratitude-subtitle = Mozilla Foundation が提供する { -brand-short-name } のご利用ありがとうございます。あなたのご協力とともに、よりオープンでアクセス可能な、すべての人にとってより良いインターネットの構築に努めます。
-mr2022-onboarding-gratitude-primary-button-label = 新着情報を確認する
+mr2022-onboarding-gratitude-subtitle = Mozilla Foundation が提供する { -brand-short-name } のご利用ありがとうございます。あなたのご協力とともに、よりオープンでアクセシブルな、すべての人にとってより良いインターネットの構築に努めます。
+mr2022-onboarding-gratitude-primary-button-label = 新機能を確認する
 mr2022-onboarding-gratitude-secondary-button-label = ブラウジングを開始する

@@ -5,19 +5,15 @@
 app-manager-window =
     .title = @@Application@@の管理
     .style = width: 30em; min-height: 20em;
-
 app-manager-window2 =
     .title = @@Application@@の管理
     .style = min-width: 30em; min-height: 20em;
-
 app-manager-remove =
     .label = 削除
     .accesskey = R
-
 # Variables:
 #   $type (String) - the URI scheme of the link (e.g. mailto:)
 app-manager-handle-protocol = { $type } リンクを取り扱う@@Application@@には次のものが登録されています。
-
 # Variables:
 #   $type (String) - the MIME type (e.g. application/binary)
 app-manager-handle-file = { $type } ファイルを取り扱う@@Application@@には次のものが登録されています。
