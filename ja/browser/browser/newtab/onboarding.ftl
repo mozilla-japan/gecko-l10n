@@ -107,15 +107,15 @@ mr1-onboarding-import-primary-button-label-attribution = { $previous } から@@I
 # This string will be used in cases where we can't detect the previous browser name.
 mr1-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーから@@Import@@
 mr1-onboarding-import-secondary-button-label = 後で
-mr2-onboarding-colorway-header = カラーテーマ
-mr2-onboarding-colorway-subtitle = 新しいカラーテーマが期間限定で利用できます。
-mr2-onboarding-colorway-primary-button-label = カラーテーマを保存
+mr2-onboarding-colorway-header = 色のある日常
+mr2-onboarding-colorway-subtitle = 鮮やかで刺激的なテーマコレクション Colorway の新作が期間限定で登場。
+mr2-onboarding-colorway-primary-button-label = Colorway を保存
 mr2-onboarding-colorway-secondary-button-label = 後で
-mr2-onboarding-colorway-label-soft = ソフト
+mr2-onboarding-colorway-label-soft = 穏やか
 mr2-onboarding-colorway-label-balanced = バランス
 # "Bold" is used in the sense of bravery or courage, not in the sense of
 # emphasized text.
-mr2-onboarding-colorway-label-bold = ボールド
+mr2-onboarding-colorway-label-bold = 大胆
 # Automatic theme uses operating system color settings
 mr2-onboarding-theme-label-auto = 自動
 # This string will be used for Default theme
@@ -164,20 +164,20 @@ mr1-onboarding-theme-description-alpenglow =
 # Tooltip displayed on hover of non-default colorway theme
 # variations e.g. soft, balanced, bold
 mr2-onboarding-theme-tooltip =
-    .title = このカラーテーマを使います。
+    .title = この Colorway を使います。
 # Selector description for non-default colorway theme
 # variations e.g. soft, balanced, bold
 mr2-onboarding-theme-description =
-    .aria-description = このカラーテーマを使います。
+    .aria-description = この Colorway を使います。
 # Tooltip displayed on hover of colorway
 # Variables:
 #   $colorwayName (String) - Name of colorway
 mr2-onboarding-colorway-tooltip =
-    .title = { $colorwayName } のカラーテーマを見てみます。
+    .title = { $colorwayName } という Colorway を見てみます。
 # Selector description for colorway
 # Variables:
 #   $colorwayName (String) - Name of colorway
-mr2-onboarding-colorway-label = { $colorwayName } のカラーテーマを見てみます
+mr2-onboarding-colorway-label = { $colorwayName } という Colorway を見てみます。
 # Tooltip displayed on hover of default themes
 mr2-onboarding-default-theme-tooltip =
     .title = @@Default-@@テーマを見てみます。
@@ -305,38 +305,39 @@ mr2022-onboarding-import-primary-button-label-no-attribution = 以前のブラ�
 ## Playmaker. You create…") to "X: you…" ("Playmaker: You create…"). This might
 ## help creating a more inclusive translation.
 
-mr2022-onboarding-colorway-title = あなたを想起させるカラーを選びましょう
-mr2022-onboarding-colorway-subtitle = インディペンデント・ボイスはカルチャーを変える。
-mr2022-onboarding-colorway-primary-button-label = カラーテーマを設定する
-mr2022-onboarding-existing-colorway-checkbox-label = { -firefox-home-brand-name } をあなたのカラフルなホームページに設定する
+mr2022-onboarding-colorway-title = あなたを励ますカラーを選びましょう
+mr2022-onboarding-colorway-subtitle = 揺るぎない声はカルチャーを変えられる。
+mr2022-onboarding-colorway-primary-button-label = Colorway を設定
+mr2022-onboarding-colorway-primary-button-label-continue = 設定して次へ
+mr2022-onboarding-existing-colorway-checkbox-label = { -firefox-home-brand-name } をホームページにしてカラーを合わせる
 mr2022-onboarding-colorway-label-default = @@Default@@
 mr2022-onboarding-colorway-tooltip-default =
     .title = @@Default@@
 mr2022-onboarding-colorway-description-default = <b>現在の { -brand-short-name } カラーを使用する。</b>
-mr2022-onboarding-colorway-label-playmaker = プレーメーカー
+mr2022-onboarding-colorway-label-playmaker = Playmaker
 mr2022-onboarding-colorway-tooltip-playmaker =
-    .title = プレーメーカー
-mr2022-onboarding-colorway-description-playmaker = <b>プレーメーカー</b>: 仲間とともに勝機を掴め！
-mr2022-onboarding-colorway-label-expressionist = エクスプレショニスト
+    .title = Playmaker
+mr2022-onboarding-colorway-description-playmaker = <b>Playmaker</b>: 勝利への道を切り開け。あなたのプレーは周囲を巻き込みゲームを盛り上げる。
+mr2022-onboarding-colorway-label-expressionist = Expressionist
 mr2022-onboarding-colorway-tooltip-expressionist =
-    .title = エクスプレショニスト
-mr2022-onboarding-colorway-description-expressionist = <b>エクスプレショニスト</b>: これこそ孤高にして至高の創造。
-mr2022-onboarding-colorway-label-visionary = ビジョナリー
+    .title = Expressionist
+mr2022-onboarding-colorway-description-expressionist = <b>Expressionist</b>: 内なる感情を世界に刻め。あなたの表現に映る歪みが人の心をかき乱す。
+mr2022-onboarding-colorway-label-visionary = Visionary
 mr2022-onboarding-colorway-tooltip-visionary =
-    .title = ビジョナリー
-mr2022-onboarding-colorway-description-visionary = <b>ビジョナリー</b>: こままではダメだ！誰かが変えなきゃいかンのだ！
-mr2022-onboarding-colorway-label-activist = アクティビスト
+    .title = Visionary
+mr2022-onboarding-colorway-description-visionary = <b>Visionary.</b>: 現状に疑問を投げかけろ。より良い未来に人を動かすのはあなたのビジョンだ。
+mr2022-onboarding-colorway-label-activist = Activist
 mr2022-onboarding-colorway-tooltip-activist =
-    .title = アクティビスト
-mr2022-onboarding-colorway-description-activist = <b>アクティビスト</b>: さあ、新天地へ向かおう！
-mr2022-onboarding-colorway-label-dreamer = ドリーマー
+    .title = Activist
+mr2022-onboarding-colorway-description-activist = <b>Activist.</b>: 今いる世界をより良い場所に変えていけ。あなたの活動が人を導き同志へ変える。
+mr2022-onboarding-colorway-label-dreamer = Dreamer
 mr2022-onboarding-colorway-tooltip-dreamer =
-    .title = ドリーマー
-mr2022-onboarding-colorway-description-dreamer = <b>ドリーマー</b>: 運も実力のうち。
-mr2022-onboarding-colorway-label-innovator = イノベーター
+    .title = Dreamer
+mr2022-onboarding-colorway-description-dreamer = <b>Dreamer.</b>: 大胆に幸運を引き寄せろ。夢を掲げるあなたの姿は人の勇気を呼び覚ます。
+mr2022-onboarding-colorway-label-innovator = Innovator
 mr2022-onboarding-colorway-tooltip-innovator =
-    .title = イノベーター
-mr2022-onboarding-colorway-description-innovator = <b>イノベーター</b>: チャンスはいくらでもある。これからだ！
+    .title = Innovator
+mr2022-onboarding-colorway-description-innovator = <b>Innovator</b>: あらゆる場所で機会を掴め。あなたがもたらす革新は周囲の人生を震わせる。
 
 ## MR2022 Multistage Mobile Download screen strings
 
