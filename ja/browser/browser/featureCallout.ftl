@@ -33,6 +33,6 @@ callout-firefox-view-colorways-reminder-subtitle = 揺るぎない意思を持�
 # Alternative: ”Improve your browsing experience with tab pickup”
 continuous-onboarding-firefox-view-tab-pickup-title = タブの取り出しでブラウジングを強化
 
-continuous-onboarding-firefox-view-tab-pickup-subtitle = 他の端末から開いたタブと、ブックマーク、パスワード、その他にアクセスできます。
+continuous-onboarding-firefox-view-tab-pickup-subtitle = どの端末で開いているタブにもアクセスできます。加えて、ブックマーク、パスワードなども同期されるのです。
 
 continuous-onboarding-firefox-view-tab-pickup-primary-button-label = 始める

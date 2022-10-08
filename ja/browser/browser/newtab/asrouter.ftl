@@ -185,7 +185,7 @@ spotlight-pin-secondary-button = 後で
 ## The button labels are fitted into narrow fixed-width buttons by
 ## Windows and therefore must be as narrow as possible.
 
-mr2022-background-update-toast-title = 新しい { -brand-short-name } です。よりプライベートに、トラッカーを少なく、妥協しません。
+mr2022-background-update-toast-title = 新しい { -brand-short-name } です。プライバシーを強化し、トラッカーに対策しました。妥協はしません。
 mr2022-background-update-toast-text = 最新の { -brand-short-name } を今すぐ試してみましょう。今までで最も強力なトラッキング防止機能に更新されました。
 
 # This button label will be fitted into a narrow fixed-width button by
@@ -206,14 +206,14 @@ firefoxview-cfr-primarybutton = 試してみる
   .accesskey = T
 firefoxview-cfr-secondarybutton = 後で
   .accesskey = N
-firefoxview-cfr-header = { -firefoxview-brand-name } で最近閉じたタブを取り戻します
-firefoxview-cfr-body = 加えて、端末間をシームレスに切り替え、ブラウザーに鮮やかな色彩を追加します。
+firefoxview-cfr-header = { -firefoxview-brand-name } で最近閉じたタブを取り戻しましょう
+firefoxview-cfr-body = 加えて、端末の壁をシームレスに飛び越えたり、ブラウザーに鮮やかな色彩を合わせることもできます。
 
 ## Firefox View Spotlight
 
-firefoxview-spotlight-promo-title = { -firefoxview-brand-name } をよろしく
+firefoxview-spotlight-promo-title = { -firefoxview-brand-name } のご紹介
 
 # “Poof” refers to the expression to convey when something or someone suddenly disappears, or in this case, reappears. For example, “Poof, it’s gone.”
-firefoxview-spotlight-promo-subtitle = 携帯端末で開いているタブが欲しいですが？ 取り出せます。今開いていたサイトが欲しいですか？ { -firefoxview-brand-name } ですぐ戻せます。
-firefoxview-spotlight-promo-primarybutton = 仕組みについて
+firefoxview-spotlight-promo-subtitle = 携帯端末で開いているタブを開きたい？ 開けます。今閉じたサイトが必要でしたか？ ご安心ください。{ -firefoxview-brand-name } で戻せます。
+firefoxview-spotlight-promo-primarybutton = 使い方について
 firefoxview-spotlight-promo-secondarybutton = スキップ
