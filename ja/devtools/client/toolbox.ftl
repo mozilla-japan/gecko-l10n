@@ -44,3 +44,8 @@ toolbox-mode-parent-process-label = 親プロセスのみ
 toolbox-mode-parent-process-sub-label = (高速)
 toolbox-mode-parent-process-container =
   .title = 親プロセスで動作しているリソースのみデバッグできます。
+
+toolbox-always-on-top-enabled =
+  .title = トップでは常に無効にします (開発ツールが再起動されます)
+toolbox-always-on-top-disabled =
+  .title = トップでは常に有効にします (開発ツールが再起動されます)
