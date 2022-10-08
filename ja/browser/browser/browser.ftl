@@ -82,6 +82,8 @@ browser-main-window-title = { -brand-full-name }
 
 private-browsing-shortcut-text = { -brand-short-name } プライベートブラウジング
 
+private-browsing-shortcut-text-2 = { -brand-shortcut-name } プライベートブラウジング
+
 ##
 
 urlbar-identity-button =
@@ -272,8 +274,6 @@ search-one-offs-actions =
     .tooltiptext = アクション ({ $restrict })
 
 ## QuickActions are shown in the urlbar as the user types a matching string
-
-## QuickActions are shown in the urlbar as the user types a matching string
 ## The -cmd- strings are comma separated list of keywords that will match
 ## the action.
 
@@ -329,6 +329,10 @@ quickactions-cmd-update = update
 # Opens the view-source UI with current pages source
 quickactions-viewsource = ソースを表示
 quickactions-cmd-viewsource = view source, source
+
+# Tooltip text for the help button shown in the result.
+quickactions-learn-more =
+    .title = クイックアクションについての詳細
 
 ## Bookmark Panel
 
@@ -503,6 +507,8 @@ sharing-warning-disable-for-session =
 ## DevTools F12 popup
 
 enable-devtools-popup-description = F12 ショートカットを使うには、最初にメニューのウェブ開発から開発ツールを開いてください。
+
+enable-devtools-popup-description2 = F12 ショートカットを使うには、最初にメニューのブラウザーツールから開発ツールを開いてください。
 
 ## URL Bar
 

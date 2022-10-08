@@ -218,7 +218,7 @@ about-debugging-browser-version-too-old = 接続したブラウザーのバー�
 
 # Dedicated message for a backward compatibility issue that occurs when connecting:
 # from Fx 70+ to the old Firefox for Android (aka Fennec) which uses Fx 68.
-about-debugging-browser-version-too-old-fennec = このバージョンの Firefox は Android 版 Firefox (68) をデバッグできません。携帯電話でのテストには Android 版 Firefox Nightly のインストールをお勧めします。<a>詳細</a>
+about-debugging-browser-version-too-old-fennec = このバージョンの Firefox は Android 版 Firefox (68) をデバッグできません。携帯端末でのテストには Android 版 Firefox Nightly のインストールをお勧めします。<a>詳細</a>
 
 # This string is displayed in the runtime page if the remote browser version is too recent.
 # "Troubleshooting" link points to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/

@@ -34,6 +34,8 @@ update-unsupported = 最新バージョンはご使用のシステムに対応�
 
 update-restarting = 再起動中です...
 
+update-internal-error = 内部エラーにより更新を確認できません。<label data-l10n-name="manual-link"/> から更新が利用可能です。
+
 channel-description = 現在のアップデートチャンネルは <label data-l10n-name="current-channel"></label> です。{ " " }
 
 warningDesc-version = { -brand-short-name } は実験的であり、不安定な可能性があります。

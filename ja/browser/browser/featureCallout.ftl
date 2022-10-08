@@ -25,3 +25,14 @@ callout-firefox-view-colorways-reminder-title = Colorway の最新作を見て�
 
 # “Shades” refers to the different color options in each colorways
 callout-firefox-view-colorways-reminder-subtitle = 揺るぎない意思を持つ人々の声から生まれた、{ -brand-product-name } だけの色の表象でブラウザーを染めましょう。
+
+## Continuous Onboarding - Firefox View: Tab pick up
+
+# “Boost your browsing” refers to the added benefit the user receives from having
+# access to the same browsing experience when moving from one browser to another.
+# Alternative: ”Improve your browsing experience with tab pickup”
+continuous-onboarding-firefox-view-tab-pickup-title = タブの取り出しでブラウジングを強化
+
+continuous-onboarding-firefox-view-tab-pickup-subtitle = どの端末で開いているタブにもアクセスできます。加えて、ブックマーク、パスワードなども同期されるのです。
+
+continuous-onboarding-firefox-view-tab-pickup-primary-button-label = 始める

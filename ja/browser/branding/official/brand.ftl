@@ -18,10 +18,10 @@
 
 -brand-shorter-name = Firefox
 -brand-short-name = Firefox
+-brand-shortcut-name = Firefox
 -brand-full-name = Mozilla Firefox
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Nightly, Beta, etc.).
 -brand-product-name = Firefox
 -vendor-short-name = Mozilla
 trademarkInfo = Firefox および Firefox ロゴは 米国 Mozilla Foundation の米国およびその他の国における商標です。
--brand-shortcut-name = Firefox
