@@ -5,6 +5,9 @@
 sanitize-prefs =
     .title = 履歴の消去設定
     .style = width: @@sanitize.dialog.width@@
+sanitize-prefs2 =
+    .title = 履歴の消去設定
+    .style = min-width: @@sanitize.dialog.width@@
 sanitize-prefs-style =
     .style = width: @@sanitize.column.width@@
 dialog-title =
@@ -61,11 +64,9 @@ item-form-search-history =
     .label = 検索やフォームの入力履歴
     .accesskey = F
 data-section-label = データ
-
 item-site-settings =
     .label = サイトの設定
     .accesskey = S
-
 item-offline-apps =
     .label = ウェブサイトのオフライン作業用データ
     .accesskey = O

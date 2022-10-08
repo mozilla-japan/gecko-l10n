@@ -5,6 +5,9 @@
 create-profile-window =
     .title = プロファイル作成@@Wizard@@
     .style = width: 45em; height: 32em;
+create-profile-window2 =
+    .title = プロファイル作成@@Wizard@@
+    .style = min-width: 45em; min-height: 32em;
 
 ## First wizard page
 
@@ -12,6 +15,11 @@ create-profile-first-page-header =
     { PLATFORM() ->
         [macos] はじめに
        *[other] { create-profile-window.title }の開始
+    }
+create-profile-first-page-header2 =
+    { PLATFORM() ->
+        [macos] はじめに
+       *[other] { create-profile-window2.title }の開始
     }
 profile-creation-explanation-1 = { -brand-short-name } はユーザー設定などの情報を個人プロファイルとして保存します。
 profile-creation-explanation-2 = { -brand-short-name } を他のユーザーと共有しているときには各ユーザーが自分用のプロファイルを作成してください。これによりユーザー設定などを個別に保存できます。
@@ -28,6 +36,11 @@ create-profile-last-page-header =
     { PLATFORM() ->
         [macos] 完了
        *[other] { create-profile-window.title }の完了
+    }
+create-profile-last-page-header2 =
+    { PLATFORM() ->
+        [macos] 完了
+       *[other] { create-profile-window2.title }の完了
     }
 profile-creation-intro = プロファイルを複数使用する場合は、それぞれに名前を付けて区別します。あらかじめ入力されている名前をそのまま使用するか、新しい名前を入力し直してください。
 profile-prompt = 新しいプロファイルの名前を入力してください:
