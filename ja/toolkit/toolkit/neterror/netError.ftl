@@ -29,7 +29,7 @@ neterror-view-certificate-link = 証明書を確認
 ##
 
 neterror-pref-reset = ネットワークセキュリティの設定がこの問題の原因になっている可能性があります。@@DefaultValue@@に戻しますか？
-neterror-error-reporting-automatic = エラーを報告すると、悪意のあるサイトの特定とブロックに役立ちます
+neterror-error-reporting-automatic = エラーを報告すると、{ -vendor-short-name } が悪意のあるサイトを特定してブロックするのに役立てられます
 
 ## Specific error messages
 

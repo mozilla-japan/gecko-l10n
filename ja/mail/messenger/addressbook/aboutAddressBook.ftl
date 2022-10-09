@@ -21,9 +21,20 @@ about-addressbook-toolbar-import =
 
 ## Books
 
+all-address-books-row =
+    .title = すべてのアドレス帳
 all-address-books = すべてのアドレス帳
+# Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = { $name } の連絡先合計: { $count } 件
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = すべてのアドレス帳の連絡先合計: { $count } 件
 about-addressbook-books-context-properties =
     .label = @@Property@@
+about-addressbook-books-context-edit-list =
+    .label = アドレスリストを編集
 about-addressbook-books-context-synchronize =
     .label = 同期
 about-addressbook-books-context-edit =
@@ -85,6 +96,9 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = メールアドレス
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
+about-addressbook-column-header-nickname = ニックネーム
+about-addressbook-column-label-nickname =
+  .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = 電話番号
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -167,10 +181,23 @@ about-addressbook-placeholder-no-search-results = 連絡先が見つかりませ
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than two)
+about-addressbook-selection-mixed-header = 選択した連絡先とアドレスリスト { $count } 件
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header = 選択した連絡先 { $count } 件
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header = 選択したアドレスリスト { $count } 件
+about-addressbook-details-edit-photo =
+    .title = 連絡先の顔写真を編集します
+about-addressbook-new-contact-header = @@New-CMD@@連絡先
 about-addressbook-prefer-display-name = メッセージヘッダーでは表示名を優先する
 about-addressbook-write-action-button = 作成
 about-addressbook-event-action-button = 予定
 about-addressbook-search-action-button = 検索
+about-addressbook-new-list-action-button = @@New-CMD@@アドレスリスト
 about-addressbook-begin-edit-contact-button = 編集
 about-addressbook-delete-edit-contact-button = 削除
 about-addressbook-cancel-edit-contact-button = キャンセル
@@ -180,10 +207,13 @@ about-addressbook-details-email-addresses-header = メールアドレス
 about-addressbook-details-phone-numbers-header = 電話番号
 about-addressbook-details-addresses-header = アドレス
 about-addressbook-details-notes-header = メモ
+about-addressbook-details-impp-header = インスタントメッセージ
+about-addressbook-details-websites-header = ウェブサイト
 about-addressbook-details-other-info-header = 他の情報
 about-addressbook-entry-type-work = 勤務先
 about-addressbook-entry-type-home = 自宅
 about-addressbook-entry-type-fax = Fax
+# Or "Mobile"
 about-addressbook-entry-type-cell = 携帯電話
 about-addressbook-entry-type-pager = ポケットベル
 about-addressbook-entry-name-birthday = 誕生日
@@ -193,15 +223,23 @@ about-addressbook-entry-name-role = 担当
 about-addressbook-entry-name-organization = 組織
 about-addressbook-entry-name-website = ウェブサイト
 about-addressbook-entry-name-time-zone = タイムゾーン
+about-addressbook-entry-name-custom1 = 追加情報 1
+about-addressbook-entry-name-custom2 = 追加情報 2
+about-addressbook-entry-name-custom3 = 追加情報 3
+about-addressbook-entry-name-custom4 = 追加情報 4
 about-addressbook-unsaved-changes-prompt-title = 変更が保存されていません
 about-addressbook-unsaved-changes-prompt = 編集ビューを閉じる前に変更を保存しますか？
 
 # Photo dialog
 
-about-addressbook-photo-drop-target = 写真をここにドロップまたは@@Paste-suru@@か、クリックしてファイルを選択してください
-about-addressbook-photo-drop-loading = 写真を読み込んでいます...
-about-addressbook-photo-drop-error = 写真の読み込みに失敗しました。
+about-addressbook-photo-drop-target = 顔写真をここにドロップまたは@@Paste-suru@@か、クリックしてファイルを選択してください
+about-addressbook-photo-drop-loading = 顔写真を読み込んでいます...
+about-addressbook-photo-drop-error = 顔写真の読み込みに失敗しました。
 about-addressbook-photo-filepicker-title = 画像ファイルの選択
-about-addressbook-photo-discard = 既存の写真を破棄
+about-addressbook-photo-discard = 既存の顔写真を破棄
 about-addressbook-photo-cancel = キャンセル
 about-addressbook-photo-save = 保存
+
+# Keyboard shortcuts
+
+about-addressbook-new-contact-key = N

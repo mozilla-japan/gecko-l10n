@@ -355,6 +355,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = メッセージの表示直後に既読にする
     .accesskey = o
+view-attachments-inline =
+    .label = 添付をメッセージ本文に表示する
+    .accesskey = V
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
