@@ -38,7 +38,6 @@ browser-main-window-mac =
     .data-title-private = { -brand-full-name } — (プライベートブラウジング)
     .data-content-title-default = { $content-title }
     .data-content-title-private = { $content-title } — (プライベートブラウジング)
-
 # These are the default window titles everywhere except macOS. The first two
 # attributes are used when the web content opened has no title:
 #
@@ -53,7 +52,6 @@ browser-main-window-window-titles =
     .data-title-private = { -brand-full-name } プライベートブラウジング
     .data-content-title-default = { $content-title } — { -brand-full-name }
     .data-content-title-private = { $content-title } — { -brand-full-name } プライベートブラウジング
-
 # These are the default window titles on macOS. The first two are for use when
 # there is no content title:
 #
@@ -73,15 +71,12 @@ browser-main-window-mac-window-titles =
     .data-title-private = { -brand-full-name } — プライベートブラウジング
     .data-content-title-default = { $content-title }
     .data-content-title-private = { $content-title } — プライベートブラウジング
-
 # This gets set as the initial title, and is overridden as soon as we start
 # updating the titlebar based on loaded tabs or private browsing state.
 # This should match the `data-title-default` attribute in both
 # `browser-main-window` and `browser-main-window-mac`.
 browser-main-window-title = { -brand-full-name }
-
 private-browsing-shortcut-text = { -brand-short-name } プライベートブラウジング
-
 private-browsing-shortcut-text-2 = { -brand-shortcut-name } プライベートブラウジング
 
 ##
@@ -205,7 +200,6 @@ page-action-manage-extension =
     .label = 拡張機能を管理...
 page-action-remove-extension =
     .label = 拡張機能を削除
-
 page-action-manage-extension2 =
     .label = 拡張機能を管理...
     .accesskey = E
@@ -329,7 +323,6 @@ quickactions-cmd-update = update
 # Opens the view-source UI with current pages source
 quickactions-viewsource = ソースを表示
 quickactions-cmd-viewsource = view source, source
-
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
     .title = クイックアクションについての詳細
@@ -486,6 +479,9 @@ popup-select-microphone-icon =
     .tooltiptext = マイク
 popup-select-speaker-icon =
     .tooltiptext = スピーカー
+popup-select-window-or-screen =
+    .label = @@Window@@または画面:
+    .accesskey = W
 popup-all-windows-shared = 画面に表示されているすべての@@Window@@を共有します。
 popup-screen-sharing-block =
     .label = ブロック
@@ -507,7 +503,6 @@ sharing-warning-disable-for-session =
 ## DevTools F12 popup
 
 enable-devtools-popup-description = F12 ショートカットを使うには、最初にメニューのウェブ開発から開発ツールを開いてください。
-
 enable-devtools-popup-description2 = F12 ショートカットを使うには、最初にメニューのブラウザーツールから開発ツールを開いてください。
 
 ## URL Bar
@@ -717,7 +712,6 @@ bookmarks-bookmark-edit-panel =
     .label = このブックマークを編集
 bookmarks-subview-edit-bookmark =
     .label = このブックマークを編集...
-
 # The aria-label is a spoken label that should not include the word "toolbar" or
 # such, because screen readers already know that this container is a toolbar.
 # This avoids double-speaking.
