@@ -153,6 +153,9 @@ message-header-hide-label-column =
 message-header-large-subject =
     .label = 件名を拡大表示する
     .accesskey = s
+message-header-all-headers =
+    .label = すべてのヘッダーを表示する
+    .accesskey = a
 
 ## Action Button Context Menu
 

@@ -35,6 +35,10 @@ vcard-n-suffix = 敬称 (接尾)
 vcard-n-add-suffix =
     .title = 氏名の後に敬称を付けます
 
+# Nickname
+
+vcard-nickname = ニックネーム
+
 # Email vCard field
 
 vcard-email-header = メールアドレス
@@ -43,6 +47,7 @@ vcard-email-label = メールアドレス
 vcard-primary-email-label = @@Default@@
 
 # URL vCard field
+
 vcard-url-header = ウェブサイト
 vcard-url-add = ウェブサイトを追加
 vcard-url-label = ウェブサイト
@@ -52,6 +57,10 @@ vcard-url-label = ウェブサイト
 vcard-tel-header = 電話番号
 vcard-tel-add = 電話番号を追加
 vcard-tel-label = 電話番号
+# Or "Mobile"
+vcard-entry-type-cell = 携帯電話
+vcard-entry-type-fax = Fax
+vcard-entry-type-pager = ポケットベル
 
 # TZ vCard field
 
@@ -61,9 +70,13 @@ vcard-tz-add = タイムゾーンを追加
 
 # IMPP vCard field
 
-vcard-impp-header = チャットアカウント
+vcard-impp2-header = インスタントメッセージ
 vcard-impp-add = チャットアカウントを追加
 vcard-impp-label = チャットアカウント
+vcard-impp-select = プロトコル
+vcard-impp-option-other = その他
+vcard-impp-input-label = URI
+vcard-impp-input-title = インスタントメッセージ の URI
 
 # BDAY and ANNIVERSARY vCard field
 
@@ -97,13 +110,29 @@ vcard-note-add = メモを追加
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
-vcard-org-header = 組織のプロパティ
-vcard-org-add = 組織のプロパティを追加
+vcard-org-header = 組織の@@Property@@
+vcard-org-add = 組織の@@Property@@を追加
 vcard-org-title = 役職
+vcard-org-title-input =
+    .title = 身分または職種
+    .placeholder = 役職名
 vcard-org-role = 担当
+vcard-org-role-input =
+    .title = 特定の状況における職務または分担
+    .placeholder = プロジェクトの担当
 vcard-org-org = 組織
+vcard-org-org-input =
+    .title = 組織名
+    .placeholder = 会社名
+vcard-org-org-unit = 部門
+vcard-org-org-unit-input =
+    .title = 組織の部門名
+    .placeholder = 部門
 
 # Custom properties
 
-vcard-custom-header = カスタムプロパティ
-vcard-custom-add = カスタムプロパティを追加
+vcard-custom-header = カスタム@@Property@@
+vcard-custom-add = カスタム@@Property@@を追加
+vcard-remove-button-title =
+    .title = 削除
+vcard-remove-button = 削除

@@ -35,24 +35,41 @@ menu-help-get-involved =
 menu-help-donation =
     .label = 開発支援の寄付
     .accesskey = D
-menu-help-feedback =
-    .label = フィードバックと提案を送信
+menu-help-share-feedback =
+    .label = アイデアとフィードバックを共有
     .accesskey = S
 menu-help-enter-troubleshoot-mode =
     .label = トラブルシューティングモード...
-    .accesskey = T
+    .accesskey = M
 menu-help-exit-troubleshoot-mode =
     .label = トラブルシューティングモードをオフにする
-    .accesskey = O
+    .accesskey = M
 menu-help-more-troubleshooting-info =
     .label = 他のトラブルシューティング情報
     .accesskey = M
 menu-help-troubleshooting-info =
     .label = トラブルシューティング情報
-    .accesskey = I
+    .accesskey = T
 menu-help-about-product =
     .label = { -brand-short-name } について
     .accesskey = A
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] 終了
+           *[other] 終了
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] x
+           *[other] Q
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = { -brand-shorter-name } を終了
+quit-app-shortcut =
+    .key = Q
 
 ## Mail Toolbar
 
@@ -101,6 +118,12 @@ mail-uidensity-normal =
 mail-uidensity-touch =
     .label = タッチ
     .accesskey = T
+mail-uidensity-default =
+    .label = @@Default@@
+    .accesskey = D
+mail-uidensity-relaxed =
+    .label = リラックス
+    .accesskey = R
 # (^m^) en-US: "Spaces Toolbar" (Bug 1665511)
 menu-spaces-toolbar-button =
     .label = スペースツールバー
