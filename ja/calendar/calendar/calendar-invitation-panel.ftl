@@ -7,10 +7,10 @@
 calendar-invitation-panel-intro = { $organizer } があなたを招待しています: 
 # Variables:
 # $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } が更新されました:
+calendar-invitation-panel-intro-update = { $organizer } の招待が更新されました:
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
-calendar-invitation-panel-intro-cancel = { $organizer } がキャンセルされました:
+calendar-invitation-panel-intro-cancel = { $organizer } の招待がキャンセルされました:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
