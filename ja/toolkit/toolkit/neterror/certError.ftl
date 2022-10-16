@@ -42,26 +42,28 @@ cert-error-expired-now = ウェブサイトは一定期間有効な証明書で�
 # $not-before-local-time (Date) - Certificate is not valid before this time.
 cert-error-not-yet-valid-now = ウェブサイトは一定期間有効な証明書で同一性を証明します。{ $hostname } の証明書は { $not-before-local-time } まで有効ではありません。
 # Variables:
+# $error (string) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
+cert-error-code-prefix = エラーコード: { $error }
+# Variables:
+# $hostname (String) - Hostname of the website with SSL error.
+# $errorMessage (String) - Error message corresponding to the type of error we are experiencing.
+cert-error-ssl-connection-error = { $hostname } への接続中にエラーが発生しました。{ $errorMessage }
+# Variables:
 # $error (String) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
 cert-error-code-prefix-link = エラーコード: <a data-l10n-name="error-code-link">{ $error }</a>
 # Variables:
 # $hostname (String) - Hostname of the website with cert error.
 cert-error-symantec-distrust-description = ウェブサイトは認証局から発行された証明書で同一性を証明します。多くのブラウザーはもはや GeoTrust および RapidSSL、Symantec、Thawte、VeriSign により発行された証明書を信頼しません。{ $hostname } はこれらのうちいずれかの認証局からの証明書を使用しているため、ウェブサイトの同一性を証明できません。
 cert-error-symantec-distrust-admin = この問題をウェブサイトの管理者に知らせることもできます。
-
 cert-error-old-tls-version = このウェブサイトは TLS 1.2 プロトコルをサポートしていない可能性があります。これは { -brand-short-name } によりサポートされる最低バージョンです。
-
 # Variables:
 # $hasHSTS (Boolean) - Indicates whether HSTS header is present.
 cert-error-details-hsts-label = HTTP Strict Transport Security: { $hasHSTS }
 # Variables:
 # $hasHPKP (Boolean) - Indicates whether HPKP header is present.
 cert-error-details-key-pinning-label = HTTP 公開鍵ピンニング: { $hasHPKP }
-
 cert-error-details-cert-chain-label = 証明書チェーン:
-
 open-in-new-window-for-csp-or-xfo-error = @@NewWindow@@でサイトを開く
-
 # Variables:
 # $hostname (String) - Hostname of the website blocked by csp or xfo error.
 csp-xfo-blocked-long-desc = 安全のため、{ -brand-short-name } は他のサイトが埋め込まれた { $hostname } のページの表示を許可できません。このページを表示するには、@@NewWindow@@で開く必要があります。
