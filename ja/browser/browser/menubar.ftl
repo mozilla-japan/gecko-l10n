@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 # NOTE: For English locales, strings in this file should be in APA-style Title Case.
 # See https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case
 #
 # NOTE: For Engineers, please don't re-use these strings outside of the menubar.
+
 
 ## Application Menu (macOS only)
 
@@ -178,6 +180,17 @@ menu-view-full-screen =
     .label = @@FullScreen@@
     .accesskey = F
 
+## These menu items may use the same accesskey.
+
+# This should match reader-view-enter-button in browser.ftl
+menu-view-enter-readerview =
+    .label = リーダービューで開く
+    .accesskey = R
+# This should match reader-view-close-button in browser.ftl
+menu-view-close-readerview =
+    .label = リーダービューを閉じる
+    .accesskey = R
+
 ##
 
 menu-view-show-all-tabs =
@@ -206,7 +219,6 @@ menu-history-undo-menu =
     .label = 最近閉じたタブ
 menu-history-undo-window-menu =
     .label = 最近閉じた@@Window@@
-
 menu-history-reopen-all-tabs = タブをすべて開きなおす
 menu-history-reopen-all-windows = @@Window@@をすべて開きなおす
 
@@ -285,9 +297,10 @@ menu-tools-layout-debugger =
 menu-window-menu =
     .label = @@Window@@
 menu-window-bring-all-to-front =
-    .label = @@BringAllToFront@@
+    .label = すべてを@@Front@@に移動
 
 ## Help Menu
+
 
 # NOTE: For Engineers, any additions or changes to Help menu strings should
 # also be reflected in the related strings in appmenu.ftl. Those strings, by
