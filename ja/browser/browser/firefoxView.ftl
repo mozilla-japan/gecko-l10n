@@ -17,7 +17,6 @@ firefoxview-just-now-timestamp = たった今
 # This is a headline for an area in the product where users can resume and re-open tabs they have previously viewed on other devices.
 firefoxview-tabpickup-header = 他端末のタブ
 firefoxview-tabpickup-description = 他の端末からページを開きます。
-firefoxview-tabpickup-recenttabs-description = 最近のタブ一覧がここに表示されます
 # Variables:
 #  $percentValue (Number): the percentage value for setup completion
 firefoxview-tabpickup-progress-label = { $percentValue }% 完了
@@ -43,6 +42,12 @@ firefoxview-tabpickup-sync-error-primarybutton = 再試行
 firefoxview-tabpickup-sync-disconnected-header = 同期をオンにして続行
 firefoxview-tabpickup-sync-disconnected-description = タブを取り出すには、{ -brand-short-name } での同期を許可する必要があります。
 firefoxview-tabpickup-sync-disconnected-primarybutton = 設定で同期をオンにする
+
+firefoxview-tabpickup-password-locked-header = マスターパスワードを入力してタブを表示
+firefoxview-tabpickup-password-locked-description = タブを取り出すには、{ -brand-short-name } のマスターパスワードを入力する必要があります。
+firefoxview-tabpickup-password-locked-link = 詳細
+firefoxview-tabpickup-password-locked-primarybutton = マスターパスワードを入力
+
 firefoxview-tabpickup-syncing = タブを同期しています。しばらくお待ちください。
 firefoxview-mobile-promo-header = 携帯電話やタブレットからタブを取り出す
 firefoxview-mobile-promo-description = 携帯端末の直近のタブを表示するには、iOS または Android の { -brand-product-name } にログインしてください。
@@ -50,7 +55,6 @@ firefoxview-mobile-promo-primarybutton = モバイル版 { -brand-product-name }
 firefoxview-mobile-confirmation-header = 🎉 準備万端です！
 firefoxview-mobile-confirmation-description = 携帯電話やタブレットから { -brand-product-name } のタブを取り出せるようになりました。
 firefoxview-closed-tabs-title = 最近閉じたタブ
-firefoxview-closed-tabs-description = この端末で閉じたページを開きなおします。
 firefoxview-closed-tabs-description2 = この@@Window@@で閉じたページを開きなおします。
 firefoxview-closed-tabs-placeholder = <strong>最近閉じたページはありません</strong><br/>閉じたタブをなくす心配はありません。いつでもここで復旧できます。
 # refers to the last tab that was used

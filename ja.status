@@ -1266,10 +1266,16 @@ toolkit, mail           14867:51a62c676765   2022-09-03     mar             sync
 browser                 14867:51a62c676765   2022-09-03     hATrayflood     sync browser
 devtools                14867:51a62c676765   2022-09-03     hATrayflood     sync devtools
 
-[l10n-mozilla-106.0]
+Released! [l10n-mozilla-106.0]
 target dir             gecko-string hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------------------------------------
 toolkit                 14898:c5d61a8aacad   2022-10-03     mar             sync toolkit
 browser                 14898:c5d61a8aacad   2022-10-03     hATrayflood     sync browser
 devtools                14898:c5d61a8aacad   2022-10-03     hATrayflood     sync devtools
 mail, calendar, dom     14906:ad84f21a3341   2022-10-08     mar             sync mail, calendar, dom
+
+
+[l10n-mozilla-107.0]
+target dir             gecko-string hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------------------------------------
+browser                 14931:aa18817e56ee   2022-11-02     hATrayflood     sync browser
