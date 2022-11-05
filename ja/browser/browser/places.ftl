@@ -95,11 +95,9 @@ places-show-in-folder =
 places-delete-bookmark =
     .label = ブックマークを削除
     .accesskey = D
-
 places-untag-bookmark =
-  .label = タグを消去
-  .accesskey = R
-
+    .label = タグを消去
+    .accesskey = R
 places-manage-bookmarks =
     .label = ブックマークを管理
     .accesskey = M

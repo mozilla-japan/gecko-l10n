@@ -44,7 +44,7 @@ callout-pdfjs-edit-body-a = フォームの入力、コメントの追加、注�
 callout-pdfjs-edit-body-b = フリーのオンラインエディターを探す必要はありません。フォームの入力、コメントの追加、注釈の追加が { -brand-short-name } で直接できます。
 callout-pdfjs-edit-button = 次へ
 
-callout-pdfjs-draw-title = Sign documents with our new draw tool
+callout-pdfjs-draw-title = 文書に図形注釈を追加できる新しいツール
 # “Mark up” refers to the process of “annotating” or adding free hand text or diagramming to the document.
 callout-pdfjs-draw-body-a = PDF に注釈を入れて、変更を保存できます。
 # “Mark up” refers to the process of “annotating” or adding free hand text or diagramming to the document.
