@@ -307,7 +307,6 @@ mr2022-onboarding-import-primary-button-label-no-attribution = 以前のブラ�
 
 mr2022-onboarding-colorway-title = あなたを励ますカラーを選びましょう
 mr2022-onboarding-colorway-subtitle = 揺るぎない声はカルチャーを変えられる。
-mr2022-onboarding-colorway-primary-button-label = Colorway を設定
 mr2022-onboarding-colorway-primary-button-label-continue = 設定して次へ
 mr2022-onboarding-existing-colorway-checkbox-label = { -firefox-home-brand-name } をホームページにしてカラーを合わせる
 mr2022-onboarding-colorway-label-default = @@Default@@
@@ -382,6 +381,32 @@ mr2022-onboarding-privacy-segmentation-button-secondary-label = 詳細情報を�
 ## MR2022 Multistage Gratitude screen strings
 
 mr2022-onboarding-gratitude-title = より良いウェブ構築の助けになります
-mr2022-onboarding-gratitude-subtitle = Mozilla Foundation が提供する { -brand-short-name } のご利用ありがとうございます。あなたのご協力とともに、よりオープンでアクセシブルな、すべての人にとってより良いインターネットの構築に努めます。
+mr2022-onboarding-gratitude-subtitle = Mozilla Foundation が提供する { -brand-short-name } のご利用ありがとうございます。あなたのご協力とともに、よりオープンでアクセシブルな、すべての人にとってのより良いインターネットの構築に努めます。
 mr2022-onboarding-gratitude-primary-button-label = 新機能を確認する
 mr2022-onboarding-gratitude-secondary-button-label = ブラウジングを開始する
+
+## Onboarding spotlight for infrequent users
+
+onboarding-infrequent-import-title = ゆっくりしていってね
+onboarding-infrequent-import-subtitle = ちょっと使っただけだとしても、ブックマーク、パスワードなどを@@Import-deki@@ることをお忘れなく。
+onboarding-infrequent-import-primary-button = { -brand-short-name } に@@ImportNoun@@
+
+## MR2022 Illustration alt tags
+## Descriptive tags for illustrations used by screen readers and other assistive tech
+
+mr2022-onboarding-pin-image-alt =
+  .aria-label = 満点の星空の下でノート PC で仕事する人
+mr2022-onboarding-default-image-alt =
+  .aria-label = { -brand-product-name } ロゴを抱きしめる人
+mr2022-onboarding-import-image-alt =
+  .aria-label = ソフトウェアのアイコンが入った箱を持ってスケートボードに乗る人
+mr2022-onboarding-mobile-download-image-alt =
+  .aria-label = 真ん中にモバイル版 { -brand-product-name } のダウンロード QR コードが入ったスイレンの葉を跳ね回るカエル
+mr2022-onboarding-pin-private-image-alt =
+  .aria-label = 帽子から { -brand-product-name } プライベートブラウジングのロゴを取り出せる魔法の杖
+mr2022-onboarding-privacy-segmentation-image-alt =
+  .aria-label = ハイタッチしている色白の手と色黒の手
+mr2022-onboarding-gratitude-image-alt =
+  .aria-label = キツネのいる窓から眺める夕日と窓台に置かれた鉢植え
+mr2022-onboarding-colorways-image-alt =
+  .aria-label = 緑色の目、オレンジ色の靴、赤色のバスケットボール、紫色のヘッドフォン、青色のハート、黄色の王冠のカラフルなコラージュを描くハンドスプレー

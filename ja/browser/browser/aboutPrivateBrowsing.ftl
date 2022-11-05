@@ -35,9 +35,9 @@ about-private-browsing-focus-promo-text = 私たちのプライベートブラ�
 ## The following strings will be used for experiments in Fx99 and Fx100
 
 about-private-browsing-focus-promo-header-b = あなたの携帯端末にプライベートブラウジングを
-about-private-browsing-focus-promo-text-b = あなたが主に使っているモバイルブラウザーでプライベートな検索をしたくない場合は、{ -focus-brand-name } をお使いください。
+about-private-browsing-focus-promo-text-b = いつも使っているモバイルブラウザーでは見たくないプライベートな検索には { -focus-brand-name } をお使いください。
 about-private-browsing-focus-promo-header-c = モバイルでの次レベルのプライバシー
-about-private-browsing-focus-promo-text-c = { -focus-brand-name } は広告とトラッカーをブロックするときは毎回必ず履歴を消去します。
+about-private-browsing-focus-promo-text-c = { -focus-brand-name } は広告とトラッカーをブロックしながら、毎回履歴を消去します。
 
 # This string is the title for the banner for search engine selection
 # in a private window.
