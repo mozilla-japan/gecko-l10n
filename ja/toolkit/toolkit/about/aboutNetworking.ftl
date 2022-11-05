@@ -63,6 +63,8 @@ about-networking-rcwn-cache-slow = キャッシュ遅滞カウント
 about-networking-rcwn-cache-not-slow = キャッシュ非遅滞カウント
 about-networking-networkid = ネットワーク ID
 about-networking-networkid-id = ネットワーク ID
+# Note: do not translate about:logging, as it is a URL.
+about-networking-moved-about-logging = このページは <a data-l10n-name="about-logging-url">about:logging</a> へ移動しました。
 
 ## Link is intended as "network link"
 
