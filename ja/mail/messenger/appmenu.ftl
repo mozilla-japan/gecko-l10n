@@ -2,6 +2,22 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+## Sync
+
+appmenu-sync-panel-title =
+    .title = 同期
+appmenu-signin-panel =
+    .label = ログインして同期
+    .accesskey = i
+appmenu-sync-sync =
+    .value = アカウントの同期
+    .accesskey = A
+appmenu-sync-manage =
+    .value = アカウントの管理
+    .accesskey = M
+appmenu-sync-account =
+    .value = example@example.com
+
 ## New Account
 
 appmenu-new-account-panel-title =
@@ -67,11 +83,6 @@ appmenu-create-contact =
 
 ## Open
 
-appmenu-open-panel =
-    .label = 開く
-    .accesskey = O
-appmenu-open-panel-title =
-    .title = 開く
 appmenu-open-file-panel =
     .label = ファイルから開く
     .accesskey = O

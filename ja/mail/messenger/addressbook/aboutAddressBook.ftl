@@ -86,6 +86,8 @@ about-addressbook-horizontal-layout =
     .label = 水平レイアウトに切り替え
 about-addressbook-vertical-layout =
     .label = 垂直レイアウトに切り替え
+about-addressbook-table-layout =
+    .label = テーブルレイアウト
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.

@@ -93,3 +93,4 @@ calendar-invitation-panel-partstat-needs-action = 留保 { $count } 名
 # Variables:
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = 参加合計 { $count } 名
+calendar-invitation-panel-prop-title-attachments = 添付:
