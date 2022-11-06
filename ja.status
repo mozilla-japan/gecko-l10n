@@ -1280,4 +1280,5 @@ target dir             gecko-string hg changeset rev:id     by              comm
 browser                 14931:aa18817e56ee   2022-11-02     hATrayflood     sync browser
 devtools                14931:aa18817e56ee   2022-11-02     hATrayflood     sync devtools
 dom, netwerk, toolkit   14931:aa18817e56ee   2022-11-02     mar             sync dom, netwerk, toolkit
+mail, chat, calendar    14931:aa18817e56ee   2022-11-02     mar             sync mail, chat, calendar
 

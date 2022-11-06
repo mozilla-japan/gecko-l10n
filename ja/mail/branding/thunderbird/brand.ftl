@@ -18,3 +18,4 @@
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name = Thunderbird
 -vendor-short-name = Mozilla
+trademarkInfo = Mozilla Thunderbird および Thunderbird ロゴは 米国 Mozilla Foundation の米国およびその他の国における商標または登録商標です。
