@@ -18,7 +18,6 @@ downloads-panel =
 # in-progress and blocked downloads.
 downloads-panel-items =
     .style = width: 35em
-
 downloads-cmd-pause =
     .label = 中断
     .accesskey = P
@@ -29,12 +28,12 @@ downloads-cmd-cancel =
     .tooltiptext = キャンセル
 downloads-cmd-cancel-panel =
     .aria-label = キャンセル
-
 downloads-cmd-show-menuitem-2 =
-    .label = { PLATFORM() ->
-        [macos] Finder に表示
-       *[other] 保存フォルダーを開く
-    }
+    .label =
+        { PLATFORM() ->
+            [macos] Finder に表示
+           *[other] 保存フォルダーを開く
+        }
     .accesskey = F
 
 ## Displayed in the downloads context menu for files that can be opened.
@@ -47,8 +46,8 @@ downloads-cmd-use-system-default =
     .accesskey = I
 # This version is shown when the download's mime type has a valid file handler.
 downloads-cmd-use-system-default-named =
-  .label = { $handler } で開く
-  .accesskey = I
+    .label = { $handler } で開く
+    .accesskey = I
 
 # We can use the same accesskey as downloads-cmd-always-open-similar-files.
 # Both should not be visible in the downloads context menu at the same time.
@@ -69,24 +68,24 @@ downloads-cmd-always-use-system-default-named =
 downloads-cmd-always-open-similar-files =
     .label = 常に@@Default-@@@@Application@@で開く
     .accesskey = w
-
 downloads-cmd-show-button-2 =
-    .tooltiptext = { PLATFORM() ->
-        [macos] Finder に表示
-       *[other] 保存フォルダーを開く
-    }
-
+    .tooltiptext =
+        { PLATFORM() ->
+            [macos] Finder に表示
+           *[other] 保存フォルダーを開く
+        }
 downloads-cmd-show-panel-2 =
-    .aria-label = { PLATFORM() ->
-        [macos] Finder に表示
-       *[other] 保存フォルダーを開く
-    }
+    .aria-label =
+        { PLATFORM() ->
+            [macos] Finder に表示
+           *[other] 保存フォルダーを開く
+        }
 downloads-cmd-show-description-2 =
-    .value = { PLATFORM() ->
-        [macos] Finder に表示
-       *[other] 保存フォルダーを開く
-    }
-
+    .value =
+        { PLATFORM() ->
+            [macos] Finder に表示
+           *[other] 保存フォルダーを開く
+        }
 downloads-cmd-show-downloads =
     .label = ダウンロードフォルダーを表示
 downloads-cmd-retry =
@@ -111,7 +110,6 @@ downloads-cmd-clear-downloads =
 downloads-cmd-delete-file =
     .label = 削除
     .accesskey = D
-
 # This command is shown in the context menu when downloads are blocked.
 downloads-cmd-unblock =
     .label = ダウンロードを許可
@@ -158,7 +156,7 @@ downloading-file-opens-in-minutes-and-seconds = { $minutes } 分 { $seconds } �
 downloading-file-opens-in-seconds = { $seconds } 秒後に開きます...
 downloading-file-opens-in-some-time = ダウンロードが完了したら開きます...
 downloading-file-click-to-open =
-  .value = ダウンロードが完了したら開きます
+    .value = ダウンロードが完了したら開きます
 
 ##
 
@@ -186,10 +184,11 @@ downloads-details =
 ##   $num (number) - Number of blocked downloads.
 ##   $url (string) - The url of the suspicious site, stripped of http, https and www prefix.
 
-downloads-files-not-downloaded = { $num ->
-    [one] ファイルのダウンロードを中止しました。
-   *[other] {$num} 個のファイルのダウンロードを中止しました。
-}
+downloads-files-not-downloaded =
+    { $num ->
+        [one] ファイルのダウンロードを中止しました。
+       *[other] { $num } 個のファイルのダウンロードを中止しました。
+    }
 downloads-blocked-from-url = { $url } からのダウンロードをブロックしました。
 downloads-blocked-download-detailed-info = { $url } は複数のファイルを自動的にダウンロードさせようとしました。このサイトは壊れているか、スパムファイルをあなたの端末に保存させようとしています。
 
@@ -205,9 +204,22 @@ downloads-list-empty =
 # This string is shown when there are no items in the Downloads Panel.
 downloads-panel-empty =
     .value = このセッションでのダウンロードはありません。
-
 # This is displayed in an item at the bottom of the Downloads Panel when there
 # are more downloads than can fit in the list in the panel.
 #   $count (number) - number of files being downloaded that are not shown in the
 #                     panel list.
 downloads-more-downloading = 他に { $count } 個のファイルをダウンロード中
+
+## Download errors
+
+downloads-error-alert-title = ダウンロードエラー
+# Variables:
+#   $extension (String): the name of the blocking extension.
+downloads-error-blocked-by = { $extension } によりブロックされたためダウンロードファイルを保存できませんでした。
+# Used when the name of the blocking extension is unavailable.
+downloads-error-extension = 拡張機能によりブロックされたためダウンロードファイルを保存できませんでした。
+# Line breaks in this message are meaningful, and should be maintained.
+downloads-error-generic =
+    原因不明のエラーが発生したためダウンロードファイルを保存できませんでした。
+    
+    再度試してください。
