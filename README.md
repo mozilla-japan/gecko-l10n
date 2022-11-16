@@ -22,8 +22,6 @@ Mozilla 製品のローカライズに問題を見つけたり気になる点が
 
 Github での master ブランチは、version 57.0 以降、クロスチャンネル対応の gecko-strings を対象にローカライズしており、Nightly, Beta, Release 共用のリソースになっています。
 
-現在、[クロスチャンネルに対応した新たなワークフローを検討中](https://github.com/mozilla-japan/gecko-l10n/issues/84) です。
-
 GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) およびベータ版用のリソースです (version 55.0 から)。リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了もしくはリリースされてから、次バージョンへの対応をはじめる前になります。
 
 既にブランチを切っているバージョン (リリース版) への反映は行いません。
@@ -76,16 +74,25 @@ git push
 
 ## L10n 関連リポジトリー等
 
-* Firefox, Thunderbird/Lightning, SeaMonkey
+* Firefox
   * Cross-channel (gecko-strings):
     * https://hg.mozilla.org/l10n/gecko-strings (L10n の作業対象)
-    * https://hg.mozilla.org/users/axel_mozilla.com/gecko-strings-quarantine
+    * https://hg.mozilla.org/l10n/gecko-strings-quarantine/
   * Nightly:
     * https://hg.mozilla.org/l10n-central/ja/
     * https://hg.mozilla.org/l10n-central/ja-JP-mac/
   * Release:
     * https://hg.mozilla.org/releases/l10n/mozilla-release/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-release/ja-JP-mac/
+
+* Thunderbird/Lightning, SeaMonkey
+  * Cross-channel (comm-l10n):
+    * https://hg.mozilla.org/projects/comm-l10n/file/tip/en-US (L10n の作業対象)
+    * https://hg.mozilla.org/projects/comm-strings-quarantine/
+  * Daily:
+    * https://hg.mozilla.org/projects/comm-l10n/file/tip/ja
+    * https://hg.mozilla.org/projects/comm-l10n/file/tip/ja-JP-mac
+
 * Firefox for iOS
   * https://pontoon.mozilla.org/ja/firefox-for-ios/
 * Firefox for Android (Fenix)
@@ -94,9 +101,9 @@ git push
   * https://pontoon.mozilla.org/ja/focus-for-ios/
 * Firefox Focus for Android
   * https://pontoon.mozilla.org/ja/focus-for-android/
-* WebThings Gateway
-  * https://pontoon.mozilla.org/ja/webthings-gateway/
-* その他ウェブサイト等
+* Mozilla VPN Client
+  * https://pontoon.mozilla.org/ja/mozilla-vpn-client/
+* その他ウェブサイト等 (Pontoon)
   * https://pontoon.mozilla.org/ja/
 
 ## 終了したリポジトリー (End Of Life)
@@ -121,7 +128,7 @@ git push
 * Pontoon Japanese projects (製品とウェブサイトのローカライズ)
   * https://pontoon.mozilla.org/ja/
 * compare-locales Python script
-  * https://pypi.org/project/compare-locales/
+  * https://github.com/mozilla/compare-locales
 
 ## 本家の L10n 情報
 * [Mozilla L10N blog](https://blog.mozilla.org/l10n/)
