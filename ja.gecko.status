@@ -1,0 +1,44 @@
+        言語リソースのディレクトリー構造
+
+* Repo: geck  https://hg.mozilla.org/l10n/gecko-strings/
+Dirname                 App     Note
+----------------------------------------------------------------
+browser                 Fx      Firefox
+devtools                all     Developer Tools
+dom                     all     DOM parser, neterrors, etc.
+extensions
+  spellcheck            all     'en-US' spellcheck dictionary
+mobile                  Fe      Mobile Firefox (a part of Fenix)
+netwerk                 all     Network
+security/manager        all     PKI, certificates
+services/sync           all     Sync
+toolkit                 all     Common toolkit
+  crashreporter         all     Crash Reporter
+
+* Repo: comm  https://hg.mozilla.org/projects/comm-l10n/en-US
+Dirname                 App     Note
+----------------------------------------------------------------
+calendar                Tb      Calendar
+chat                    Tb      Instant Messaging
+mail                    Tb      Thunderbird
+suite                   Sm      SeaMonkey
+  chatzilla             Sm      ChatZilla
+
+
+        Gecko ver.108 以降の en-US との同期履歴
+
+* 英語版と同期した際には対象リビジョンを末尾の行に追記していってください
+  ディレクトリー単位ですっきり同期していない場合その旨コメントを書いてください
+  リビジョン番号は hg.mozilla.org のリポジトリーにおける番号を確認して記録するのが望ましい
+  面倒なら取りあえず changesetid が正確でありさえすれば確認できるので問題はない
+* バージョン 107 以前の同期履歴は ja.status を参照してください
+* 同期対象のリポジトリが gecko-strings と comm-l10n で異なる場合は必ずコミットを分けてください！
+
+
+[l10n-mozilla-108.0]
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
+comm | mail                     *****:************ (2022-11-**)  mar            sync mail
+geck | dom, toolkit             *****:************ (2022-11-**)  mar            sync dom, toolkit
+geck | browser, devtools        *****:************ (2022-11-**)  hATrayflood    sync browser, devtools
+
