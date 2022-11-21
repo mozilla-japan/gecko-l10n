@@ -84,7 +84,7 @@ toolbar-delete-button =
     .tooltiptext = 選択したメッセージまたはフォルダーを削除します
 toolbar-undelete-button =
     .label = 削除を@@Undo@@
-    .tooltiptext = メッセージの削除を@@Undo-simasu@@
+    .tooltiptext = メッセージの削除を@@Undo-si@@ます
 
 ## View
 

@@ -75,7 +75,6 @@ Clear					= 消去
 ClearAll				= すべてを消去
 
 
-ja.BringAllToFront			= すべてを前面に移動
 ja.Browse				= 参照
 # ウィンドウを対象とした閉じるコマンドのみ
 ja.CloseCMD				= 閉じる
@@ -83,35 +82,30 @@ ja.Cut					= 切り取り
 ja.FullScreen				= 全画面表示
 ja.Minimize				= 最小化
 ja.Paste				= 貼り付け
-ja.Paste-simasu				= 貼り付けます
-ja.Paste-site				= 貼り付けて
+ja.Paste-si				= 貼り付け
 ja.Paste-suru				= 貼り付ける
 ja.PropertyCMD				= プロパティ
 ja.Redo					= やり直し
 ja.SelectAll				= すべて選択
 ja.Undo					= 元に戻す
 ja.Undo-sare				= 元に戻され
-ja.Undo-sita				= 元に戻した
-ja.Undo-simasu				= 元に戻します
+ja.Undo-si				= 元に戻し
 ja.Zoom					= 拡大/縮小
 
-ja-JP-mac.BringAllToFront		= すべてを手前に移動
 ja-JP-mac.Browse			= 選択
 ja-JP-mac.CloseCMD			= ウインドウを閉じる
 ja-JP-mac.Cut				= カット
 ja-JP-mac.FullScreen			= フルスクリーン
 ja-JP-mac.Minimize			= しまう
 ja-JP-mac.Paste				= ペースト
-ja-JP-mac.Paste-simasu			= ペーストします
-ja-JP-mac.Paste-site			= ペーストして
+ja-JP-mac.Paste-si			= ペーストし
 ja-JP-mac.Paste-suru			= ペーストする
 ja-JP-mac.PropertyCMD			= 情報を見る
 ja-JP-mac.Redo				= やり直す
 ja-JP-mac.SelectAll			= すべてを選択
 ja-JP-mac.Undo				= 取り消す
 ja-JP-mac.Undo-sare			= 取り消され
-ja-JP-mac.Undo-sita			= 取り消した
-ja-JP-mac.Undo-simasu			= 取り消します
+ja-JP-mac.Undo-si			= 取り消し
 ja-JP-mac.Zoom				= 拡大／縮小
 
 
@@ -146,7 +140,7 @@ ja.Import-sita				= インポートした
 ja.Import-site				= インポートして
 ja.Import-suru				= インポートする
 ja.Import-deki				= インポートでき
-# Mac OS X 10.4 or earlier: 読み込み 10.5 or later: 読み込む
+
 ja-JP-mac.-ImportCMD			= を読み込む
 ja-JP-mac.Import			= 読み込む
 ja-JP-mac.ImportNoun			= 読み込み
@@ -168,7 +162,7 @@ ja.Export-si				= エクスポートし
 ja.Export-simasu			= エクスポートします
 ja.Export-suru				= エクスポートする
 ja.Export-simasita			= エクスポートしました
-# Mac OS X 10.4 or earlier: 書き出し 10.5 or later: 書き出す
+
 ja-JP-mac.-ExportCMD			= を書き出す
 ja-JP-mac.Export			= 書き出す
 ja-JP-mac.ExportNoun			= 書き出し
@@ -202,6 +196,7 @@ browser.credits.dtd			= <ul>\
 					  <li>Hidehiro Kozawa</li>\
 					  <li>Takeshi Nishimura</li>\
 					  <li>Atsushi Sakai</li>\
+					  <li>Hiroki Abe</li>\
 					  </ul>
 
 # old credits for Firefox 2.0
@@ -227,8 +222,8 @@ browser.credits.dtd			= <ul>\
 
 # browser/chrome/browser/sanitize.dtd, mail/chrome/messenger/sanitize.dtd, browser/browser/sanitize.ftl
 ja.sanitize.dialog.width	= 34em
-ja-JP-mac.sanitize.dialog.width	= 32em
 ja.sanitize.column.width	= 16.5em
+ja-JP-mac.sanitize.dialog.width	= 32em
 ja-JP-mac.sanitize.column.width	= 14em
 
 #	[ mail module ]
@@ -253,10 +248,10 @@ mail.credits.dtd			= <ul>\
 					  </ul>
 
 
-# mail/chrome/messenger/AccountManager.dtd
+# /suite/chrome/mailnews/pref/AccountManager.dtd
 ja.AccountManager.accountManager.size		= width: 70em; height: 46.6em;
-ja-JP-mac.AccountManager.accountManager.size	= width: 65em; height: 50em;
 ja.AccountManager.accountTree.width		= width: 17em;
+ja-JP-mac.AccountManager.accountManager.size	= width: 65em; height: 50em;
 ja-JP-mac.AccountManager.accountTree.width	= width: 19em;
 
 
@@ -289,10 +284,5 @@ ja.intl.css.locale			= \
 					}\n\
 					\n
 
-
 ja-JP-mac.intl.css.locale		=
 
-
-## Firefox 10 以降
-ja.downloads.monthDate2			= %1$S%2$S日
-ja-JP-mac.downloads.monthDate2		= %1$S %2$S

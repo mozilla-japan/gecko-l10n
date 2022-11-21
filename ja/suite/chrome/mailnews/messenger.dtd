@@ -455,7 +455,7 @@
 <!ENTITY goBackButton.tooltip               "メッセージ表示履歴を前に戻ります"><!-- 一つ前以外も -->
 <!ENTITY goForwardButton.tooltip            "メッセージ表示履歴を次に進みます"><!-- 一つ次以外も -->
 <!ENTITY deleteButton.tooltip               "メッセージまたはフォルダーを削除します">
-<!ENTITY undeleteButton.tooltip             "メッセージの削除を@@Undo-simasu@@">
+<!ENTITY undeleteButton.tooltip             "メッセージの削除を@@Undo-si@@ます">
 <!ENTITY markButton.tooltip                 "メッセージにマークを付けます">
 <!ENTITY printButton.tooltip                "このメッセージを@@Print@@します">
 <!ENTITY stopButton.tooltip                 "送受信処理を中止します">

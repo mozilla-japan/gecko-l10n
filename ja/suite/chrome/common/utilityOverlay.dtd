@@ -81,12 +81,12 @@
 <!ENTITY pasteCmd.label			"@@Paste@@">
 <!ENTITY pasteCmd.key			"V">
 <!ENTITY pasteCmd.accesskey		"P">
-<!ENTITY pasteGoCmd.label		"@@Paste-site@@移動">
+<!ENTITY pasteGoCmd.label		"@@Paste-si@@て移動">
 <!ENTITY pasteGoCmd.accesskey		"G">
 
 <!-- LOCALIZATION NOTE (pasteSearchCmd): "Search" is a verb, this is the
      search bar equivalent to the url bar's "Paste & Go"  -->
-<!ENTITY pasteSearchCmd.label		"@@Paste-site@@検索">
+<!ENTITY pasteSearchCmd.label		"@@Paste-si@@て検索">
 <!ENTITY pasteSearchCmd.accesskey	"e">
 <!ENTITY deleteCmd.label		"削除">
 <!ENTITY deleteCmd.accesskey		"D">
