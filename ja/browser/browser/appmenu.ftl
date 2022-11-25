@@ -124,6 +124,7 @@ profiler-popup-button-capturing =
     .tooltiptext = プロファイラーがプロファイルをキャプチャ中です
 profiler-popup-title =
     .value = { -profiler-brand-name }
+profiler-popup-header-text = { -profiler-brand-name }
 profiler-popup-reveal-description-button =
     .aria-label = 詳細な情報を表示
 profiler-popup-description-title =
@@ -157,6 +158,7 @@ profiler-popup-capture-shortcut =
 ## Profiler presets
 ## They are shown in the popup's select box.
 
+
 # Presets and their l10n IDs are defined in the file
 # devtools/client/performance-new/popup/background.jsm.js
 # Please take care that the same values are also defined in devtools' perftools.ftl.
@@ -164,28 +166,22 @@ profiler-popup-capture-shortcut =
 profiler-popup-presets-web-developer-description = 一般的なウェブアプリをデバッグするための低負荷な推奨プリセットです。
 profiler-popup-presets-web-developer-label =
     .label = ウェブ開発
-
 profiler-popup-presets-firefox-description = { -brand-shorter-name } のプロファイリングのための推奨プリセットです。
 profiler-popup-presets-firefox-label =
     .label = { -brand-shorter-name }
-
 profiler-popup-presets-graphics-description = { -brand-shorter-name } のグラフィックバグを調査するための推奨プリセットです。
 profiler-popup-presets-graphics-label =
     .label = グラフィック
-
 profiler-popup-presets-media-description2 = { -brand-shorter-name } の音声と動画のバグを調査するための推奨プリセットです。
 profiler-popup-presets-media-label =
     .label = メディア
-
 profiler-popup-presets-networking-description = { -brand-shorter-name } のネットワークバグを調査するための推奨プリセットです。
 profiler-popup-presets-networking-label =
     .label = ネットワーク
-
 profiler-popup-presets-power-description = { -brand-shorter-name } の消費電力のバグを少ないオーバーヘッドで調査するための推奨プリセットです。
 # "Power" is used in the sense of energy (electricity used by the computer).
 profiler-popup-presets-power-label =
     .label = 消費電力
-
 profiler-popup-presets-custom-label =
     .label = カスタム
 
@@ -220,7 +216,6 @@ appmenu-help-more-troubleshooting-info =
     .accesskey = t
 appmenu-help-report-site-issue =
     .label = サイトの問題を報告...
-
 appmenu-help-share-ideas =
     .label = 意見とフィードバックを共有...
     .accesskey = S
