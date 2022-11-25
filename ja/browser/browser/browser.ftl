@@ -76,7 +76,6 @@ browser-main-window-mac-window-titles =
 # This should match the `data-title-default` attribute in both
 # `browser-main-window` and `browser-main-window-mac`.
 browser-main-window-title = { -brand-full-name }
-
 # The non-variable portion of this MUST match the translation of
 # "PRIVATE_BROWSING_SHORTCUT_TITLE" in custom.properties
 private-browsing-shortcut-text-2 = { -brand-shortcut-name } プライベートブラウジング
@@ -922,3 +921,11 @@ private-browsing-indicator-label = プライベートブラウジング
 unified-extensions-button =
     .label = 拡張機能
     .tooltiptext = 拡張機能
+
+## Autorefresh blocker
+
+refresh-blocked-refresh-label = このページの自動再読み込みをブロックしました。
+refresh-blocked-redirect-label = このページから他のページへの自動転送をブロックしました。
+refresh-blocked-allow =
+    .label = 許可
+    .accesskey = A
