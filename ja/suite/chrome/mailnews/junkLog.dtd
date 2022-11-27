@@ -4,7 +4,7 @@
 
 <!ENTITY adaptiveJunkLog.title "迷惑メールログ"><!-- en-US: "Adaptive Junk Mail Log" -->
 <!ENTITY adaptiveJunkLogInfo.label "迷惑メール適応フィルターの動作を記録したログです。">
-<!ENTITY clearLog.label "ログを@@Clear@@">
+<!ENTITY clearLog.label "ログを消去">
 <!ENTITY clearLog.accesskey "C">
 <!ENTITY closeLog.label "閉じる">
 <!ENTITY closeLog.accesskey "o">

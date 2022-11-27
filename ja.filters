@@ -71,9 +71,6 @@ ja-JP-mac.NextButton			= 続ける
 #
 # コマンドやメニュー名(またはそれを指す場合)にのみ使用。
 Revert					= 入力の取り消し
-Clear					= 消去
-ClearAll				= すべてを消去
-
 
 ja.Browse				= 参照
 # ウィンドウを対象とした閉じるコマンドのみ

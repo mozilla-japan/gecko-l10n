@@ -14,11 +14,11 @@
 <!ENTITY encryptionCert.message "あなたへのメッセージの暗号化と復号に使用する証明書:">
 <!ENTITY digitalSign.certificate.button "選択...">
 <!ENTITY digitalSign.certificate.accesskey "S">
-<!ENTITY digitalSign.certificate_clear.button "@@Clear@@">
+<!ENTITY digitalSign.certificate_clear.button "消去">
 <!ENTITY digitalSign.certificate_clear.accesskey "C">
 <!ENTITY encryption.certificate.button "選択...">
 <!ENTITY encryption.certificate.accesskey "t">
-<!ENTITY encryption.certificate_clear.button "@@Clear@@">
+<!ENTITY encryption.certificate_clear.button "消去">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "デジタル署名">
 <!ENTITY signMessage.label "メッセージにデジタル署名する (標準の動作)">

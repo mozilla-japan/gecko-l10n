@@ -4,7 +4,7 @@
 
 <!ENTITY viewLog.title		"フィルターログ">
 <!ENTITY viewLogInfo.text	"フィルターログではどのフィルターが使われたか記録します。"><!-- (^^; "Use the check box below to enable logging." はチェックボックスのラベルから自明なので削除 -->
-<!ENTITY clearLog.label		"ログの@@Clear@@">
+<!ENTITY clearLog.label		"ログの消去">
 <!ENTITY clearLog.accesskey	"C">
 <!ENTITY enableLog.label	"フィルターログを有効にする">
 <!ENTITY enableLog.accesskey	"E">
