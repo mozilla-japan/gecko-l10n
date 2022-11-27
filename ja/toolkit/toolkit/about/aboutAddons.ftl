@@ -142,6 +142,10 @@ addon-category-recent-updates-title =
 addon-category-sitepermission = サイト許可設定
 addon-category-sitepermission-title =
     .title = サイトの許可設定
+# String displayed in about:addons in the Site Permissions section
+# Variables:
+#  $host (string): DNS host name for which the webextension enables permissions
+addon-sitepermission-host = { $host } サイトの許可設定
 
 ## These are global warnings
 
@@ -159,7 +163,6 @@ addon-updates-check-for-updates = 今すぐ更新を確認
     .accesskey = C
 addon-updates-view-updates = 最近更新したアドオンを表示
     .accesskey = V
-
 # This menu item is a checkbox that toggles the default global behavior for
 # add-on update checking.
 # (^m^) en-US: Update Add-ons Autmatically
