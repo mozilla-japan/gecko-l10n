@@ -217,3 +217,15 @@ firefoxview-spotlight-promo-title = { -firefoxview-brand-name } のご紹介
 firefoxview-spotlight-promo-subtitle = 携帯端末で開いているタブを開きたい？ 開けます。今閉じたサイトが必要でしたか？ ご安心ください。{ -firefoxview-brand-name } で戻せます。
 firefoxview-spotlight-promo-primarybutton = 使い方について
 firefoxview-spotlight-promo-secondarybutton = スキップ
+
+## Colorways expiry reminder CFR
+
+colorways-cfr-primarybutton = Colorway を選択
+  .accesskey = C
+
+# "shades" refers to the different color options available to users in colorways.
+colorways-cfr-body = カルチャーを変えてきた人々の声から生まれた { -brand-product-name } だけの色の表象でブラウザーを染めましょう。
+colorways-cfr-header-28days = 揺るぎない声 Colorway は 1 月 16 日まで
+colorways-cfr-header-14days = 揺るぎない声 Colorway は残り 2 週間
+colorways-cfr-header-7days =  揺るぎない声 Colorway は今週まで
+colorways-cfr-header-today = 揺るぎない声 Colorway は今日まで

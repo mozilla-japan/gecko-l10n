@@ -39,6 +39,7 @@ suite                   Sm      SeaMonkey
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit             14947:41a33c3f2719 (2022-11-23)  mar            sync dom, toolkit
+geck | browser, devtools        14947:41a33c3f2719 (2022-11-23)  hATrayflood    sync browser, devtools
 
 
 Ex:

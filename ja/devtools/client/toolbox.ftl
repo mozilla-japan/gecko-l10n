@@ -49,3 +49,8 @@ toolbox-always-on-top-enabled =
   .title = トップでは常に無効にします (開発ツールが再起動されます)
 toolbox-always-on-top-disabled =
   .title = トップでは常に有効にします (開発ツールが再起動されます)
+
+toolbox-always-on-top-enabled2 = トップでは常に無効にします
+  .title = 開発ツールが再起動されます
+toolbox-always-on-top-disabled2 = トップでは常に有効にします
+  .title = 開発ツールが再起動されます
