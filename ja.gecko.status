@@ -38,7 +38,10 @@ suite                   Sm      SeaMonkey
 [l10n-mozilla-108.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
+geck | dom, toolkit             14947:41a33c3f2719 (2022-11-23)  mar            sync dom, toolkit
+
+
+Ex:
 comm | mail                     *****:************ (2022-11-**)  mar            sync mail
-geck | dom, toolkit             *****:************ (2022-11-**)  mar            sync dom, toolkit
 geck | browser, devtools        *****:************ (2022-11-**)  hATrayflood    sync browser, devtools
 
