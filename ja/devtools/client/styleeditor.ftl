@@ -21,6 +21,7 @@ styleeditor-save-button = 保存
 styleeditor-options-button =
     .tooltiptext = スタイルエディターのオプション
 styleeditor-media-rules = メディアクエリー
+styleeditor-at-rules = @ 規則
 styleeditor-editor-textbox =
     .data-placeholder = ここに CSS を入力します。
 styleeditor-no-stylesheet = このページにはスタイルシートがありません。
