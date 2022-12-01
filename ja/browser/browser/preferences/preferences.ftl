@@ -581,7 +581,7 @@ search-show-suggestions-url-bar-option =
 # the URL will be replaced by the search terms in the address bar
 # when using the current default search engine.
 search-show-search-term-option =
-    .label = 検索エンジンの結果ページで URL の代わりに検索語句を表示する
+    .label = @@Default-@@検索エンジンの結果ページで URL の代わりに検索語句を表示する
 
 # This string describes what the user will observe when the system
 # prioritizes search suggestions over browsing history in the results

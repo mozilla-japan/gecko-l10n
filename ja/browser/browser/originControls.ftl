@@ -8,10 +8,10 @@
 ## data for the current website, and allow them to control it.
 
 origin-controls-no-access =
-    .label = 拡張機能はデータの読み取りと変更はできません
+    .label = 拡張機能はデータの読み取りと変更ができません
 
 origin-controls-options =
-    .label = 拡張機能はデータの読み取りと変更が可能です:
+    .label = 拡張機能はデータの読み取りと変更ができます:
 
 origin-controls-option-all-domains =
     .label = すべてのサイトで
@@ -31,7 +31,7 @@ origin-controls-option-always-on =
 
 origin-controls-state-no-access = このサイトのデータの読み取りと変更はできません
 
-origin-controls-state-always-on = 常にこのサイトのデータの読み取りと変更が可能です
+origin-controls-state-always-on = このサイトのデータの読み取りと変更はいつでもできます
 
 origin-controls-state-when-clicked = データの読み取りと変更には権限が必要です
 
