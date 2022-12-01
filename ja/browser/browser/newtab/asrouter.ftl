@@ -11,33 +11,25 @@ cfr-doorhanger-feature-heading = おすすめの機能
 
 cfr-doorhanger-extension-sumo-link =
   .tooltiptext = サポート記事を表示します
-
 cfr-doorhanger-extension-cancel-button = 後で
   .accesskey = N
-
 cfr-doorhanger-extension-ok-button = 追加
   .accesskey = A
-
 cfr-doorhanger-extension-manage-settings-button = おすすめの設定を管理
   .accesskey = M
-
 cfr-doorhanger-extension-never-show-recommendation = このおすすめは表示しない
   .accesskey = S
-
 cfr-doorhanger-extension-learn-more-link = 詳細
-
 # This string is used on a new line below the add-on name
 # Variables:
 #   $name (String) - Add-on author name
 cfr-doorhanger-extension-author = 作成者: { $name }
-
 # This is a notification displayed in the address bar.
 # When clicked it opens a panel with a message for the user.
 cfr-doorhanger-extension-notification = おすすめ
 cfr-doorhanger-extension-notification2 = おすすめ
   .tooltiptext = おすすめの拡張機能です
   .a11y-announcement = おすすめの拡張機能があります
-
 # This is a notification displayed in the address bar.
 # When clicked it opens a panel with a message for the user.
 cfr-doorhanger-feature-notification = おすすめ
@@ -76,11 +68,9 @@ cfr-protections-panel-link-text = 詳細
 # This string is used by screen readers to offer a text based alternative for
 # the notification icon
 cfr-badge-reader-label-newfeature = 新機能:
-
 cfr-whatsnew-button =
   .label = 新着情報
   .tooltiptext = 新着情報です
-
 cfr-whatsnew-release-notes-link-text = リリースノートをご確認ください
 
 ## Enhanced Tracking Protection Milestones
@@ -154,7 +144,6 @@ spotlight-total-cookie-protection-body = 包括的 Cookie 保護機能は Cookie
 spotlight-total-cookie-protection-expanded = あなたが訪問したサイト上でトラッカーが追跡できないように { -brand-short-name } が Cookie の周りにフェンスを建てて制限します。早期アクセスに参加すると、この機能が最適化され、すべての人にとってのより良いウェブを構築し続ける助けになります。
 spotlight-total-cookie-protection-primary-button = 包括的 Cookie 保護をオンにする
 spotlight-total-cookie-protection-secondary-button = 後で
-
 cfr-total-cookie-protection-header = ありがとうございます。{ -brand-short-name } はこれまでよりプライベートで安全になりました
 # "Early access" for this feature rollout means it's a "feature preview" or
 # "soft launch". Only those who received it and accepted are shown this message.
@@ -166,10 +155,11 @@ spotlight-better-internet-header = より良いインターネットはあなた
 spotlight-better-internet-body = { -brand-short-name} を使うことで、すべての人にとってオープンでアクセシブルな、すべての人にとってのより良いインターネットに一票を投じることになります。
 spotlight-peace-mind-header = 私たちがあなたを保護します
 spotlight-peace-mind-body = { -brand-short-name } は毎月、ユーザーあたり平均 3,000 以上のトラッカーをブロックしています。特にトラッカーのようなプライバシーを脅かすものは、あなたと良いインターネットの間にあるべきではないからです。
-spotlight-pin-primary-button = { PLATFORM() ->
-    [macos] Dock に追加
-   *[other] タスクバーにピン留め
-}
+spotlight-pin-primary-button =
+  { PLATFORM() ->
+     [macos] Dock に追加
+    *[other] タスクバーにピン留め
+  }
 spotlight-pin-secondary-button = 後で
 
 ## MR2022 Background Update Windows native toast notification strings.
@@ -187,13 +177,11 @@ spotlight-pin-secondary-button = 後で
 
 mr2022-background-update-toast-title = 新しい { -brand-short-name } です。プライバシーを強化し、トラッカーに対策しました。妥協はしません。
 mr2022-background-update-toast-text = 最新の { -brand-short-name } を今すぐ試してみましょう。今までで最も強力なトラッキング防止機能に更新されました。
-
 # This button label will be fitted into a narrow fixed-width button by
 # Windows. Try to not exceed the width of the English text (compare it
 # using a variable font like Arial): the button can only fit 1-2
 # additional characters, exceeding characters will be truncated.
 mr2022-background-update-toast-primary-button-label = 今すぐ { -brand-shorter-name } を開く
-
 # This button label will be fitted into a narrow fixed-width button by
 # Windows. Try to not exceed the width of the English text (compare it using a
 # variable font like Arial): the button can only fit 1-2 additional characters,
@@ -212,7 +200,6 @@ firefoxview-cfr-body = 加えて、端末の壁をシームレスに飛び越え
 ## Firefox View Spotlight
 
 firefoxview-spotlight-promo-title = { -firefoxview-brand-name } のご紹介
-
 # “Poof” refers to the expression to convey when something or someone suddenly disappears, or in this case, reappears. For example, “Poof, it’s gone.”
 firefoxview-spotlight-promo-subtitle = 携帯端末で開いているタブを開きたい？ 開けます。今閉じたサイトが必要でしたか？ ご安心ください。{ -firefoxview-brand-name } で戻せます。
 firefoxview-spotlight-promo-primarybutton = 使い方について
@@ -222,7 +209,6 @@ firefoxview-spotlight-promo-secondarybutton = スキップ
 
 colorways-cfr-primarybutton = Colorway を選択
   .accesskey = C
-
 # "shades" refers to the different color options available to users in colorways.
 colorways-cfr-body = カルチャーを変えてきた人々の声から生まれた { -brand-product-name } だけの色の表象でブラウザーを染めましょう。
 colorways-cfr-header-28days = 揺るぎない声 Colorway は 1 月 16 日まで

@@ -18,19 +18,15 @@ unified-extensions-manage-extensions =
 #   $extensionName (String) - Name of the extension
 unified-extensions-item-open-menu =
     .aria-label = { $extensionName } のメニューを開く
-
 unified-extensions-item-message-manage = 拡張機能を管理
 
 ## Extension's context menu
 
 unified-extensions-context-menu-pin-to-toolbar =
     .label = ツールバーにピン留め
-
 unified-extensions-context-menu-manage-extension =
     .label = 拡張機能を管理
-
 unified-extensions-context-menu-remove-extension =
     .label = 拡張機能を削除
-
 unified-extensions-context-menu-report-extension =
     .label = 拡張機能を報告

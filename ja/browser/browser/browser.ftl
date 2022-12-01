@@ -142,7 +142,6 @@ urlbar-search-tips-confirm-short = 了解
 # localized equivalent.
 urlbar-tip-icon-description =
     .alt = ヒント:
-
 urlbar-result-menu-button =
     .title = メニューを開く
 
