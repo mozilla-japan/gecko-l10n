@@ -210,7 +210,7 @@ firefoxview-spotlight-promo-secondarybutton = スキップ
 colorways-cfr-primarybutton = Colorway を選択
   .accesskey = C
 # "shades" refers to the different color options available to users in colorways.
-colorways-cfr-body = カルチャーを変えてきた人々の声から生まれた { -brand-product-name } だけの色の表象でブラウザーを染めましょう。
+colorways-cfr-body = カルチャーを変えてきた人々の声から生まれた { -brand-short-name } だけの色の表象でブラウザーを染めましょう。
 colorways-cfr-header-28days = 揺るぎない声 Colorway は 1 月 16 日まで
 colorways-cfr-header-14days = 揺るぎない声 Colorway は残り 2 週間
 colorways-cfr-header-7days =  揺るぎない声 Colorway は今週まで
