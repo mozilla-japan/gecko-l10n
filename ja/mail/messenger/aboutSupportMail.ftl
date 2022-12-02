@@ -14,7 +14,15 @@ accounts-conn-security = 接続の保護
 accounts-auth-method = 認証方式
 accounts-default = @@Default@@？
 identity-name = 使用アカウント
-
 send-via-email = メールで送信
-
 app-basics-telemetry = Telemetry データ
+mail-libs-title = ライブラリー
+libs-table-heading-library = ライブラリー
+libs-table-heading-expected-version = 想定される最低バージョン
+libs-table-heading-loaded-version = 使用中のバージョン
+libs-table-heading-path = パス
+libs-table-heading-status = 状態
+libs-rnp-status-ok = OK
+libs-rnp-status-load-failed = 読み込みに失敗しました。OpenPGP は動作しません。
+libs-rnp-status-incompatible = 互換性のないバージョンです。OpenPGP は動作しません。
+libs-rnp-status-unofficial = 非公式バージョンです。OpenPGP は期待通りに動作しない可能性があります。

@@ -154,6 +154,9 @@
 <!ENTITY aboutCommPluginsCmd.label	"プラグインについて">
 <!ENTITY aboutCommPluginsCmd.accesskey	"p">
 
+<!ENTITY aboutBuildConfigCmd.label	"ビルド設定を表示">
+<!ENTITY aboutBuildConfigCmd.accesskey	"B">
+
 <!ENTITY direct.label			"オンライン (プロキシー: なし)">
 <!ENTITY direct.accesskey		"N">
 <!ENTITY manual.label			"オンライン (プロキシー: 手動設定)">
