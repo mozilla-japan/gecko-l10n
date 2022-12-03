@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = カレンダー
 category-calendar =
     .tooltiptext = カレンダー
+pane-sync-title = 同期
+category-sync =
+    .tooltiptext = 同期
 general-language-and-appearance-header = 言語と外観
 general-incoming-mail-header = 新着メールの通知
 general-files-and-attachment-header = ファイルと添付
@@ -713,3 +716,15 @@ search-results-empty-message2 = { PLATFORM() ->
     *[other] “<span data-l10n-name="query"></span>” 設定の検索結果はありません。
 }
 search-results-help-link = 助けが必要な方は、<a data-l10n-name="url">{ -brand-short-name } サポート</a> をご利用ください
+
+## Sync Tab
+
+sync-pane-header = 同期
+sync-pane-edit-photo =
+    .title = プロフィール写真を変更します
+sync-pane-manage-account = アカウントの管理
+sync-pane-sign-out = ログアウト...
+sync-pane-device-name-title = 端末名
+sync-pane-change-device-name = 端末名を変更
+sync-pane-cancel = キャンセル
+sync-pane-save = 保存

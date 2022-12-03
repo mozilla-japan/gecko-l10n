@@ -17,6 +17,15 @@ appmenu-sync-manage =
     .accesskey = M
 appmenu-sync-account =
     .value = example@example.com
+appmenu-sync-now =
+    .label = 今すぐ同期
+    .accesskey = N
+appmenu-sync-settings =
+    .label = 同期設定
+    .accesskey = S
+appmenu-sync-sign-out =
+    .label = ログアウト...
+    .accesskey = O
 
 ## New Account
 
@@ -183,3 +192,16 @@ appmenu-help-troubleshooting-info =
 appmenu-help-about-product =
     .label = { -brand-short-name } について
     .accesskey = A
+
+## Application Update
+
+appmenuitem-banner-update-downloading =
+    .label = { -brand-shorter-name } の更新をダウンロード中
+appmenuitem-banner-update-available =
+    .label = 更新可能 — 今すぐダウンロード
+appmenuitem-banner-update-manual =
+    .label = 更新可能 — 今すぐダウンロード
+appmenuitem-banner-update-unsupported =
+    .label = 更新不可 — システムの互換性なし
+appmenuitem-banner-update-restart =
+    .label = 更新可能 — 今すぐ再起動

@@ -40,9 +40,5 @@ repo | target dir               hg changeset rev:id (pushdate)   by             
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit             14947:41a33c3f2719 (2022-11-23)  mar            sync dom, toolkit
 geck | browser, devtools        14947:41a33c3f2719 (2022-11-23)  hATrayflood    sync browser, devtools
-
-
-Ex:
-comm | mail                     *****:************ (2022-11-**)  mar            sync mail
-geck | browser, devtools        *****:************ (2022-11-**)  hATrayflood    sync browser, devtools
+comm | mail, suite               9328:a30fe40439de (2022-11-28)  mar            sync mail, suite
 

@@ -82,7 +82,7 @@ openpgp-key-assistant-key-rejected = この鍵は以前に拒絶されていま�
 openpgp-key-assistant-key-accepted-other = この鍵は以前に別のメールアドレスで受け入れられています。
 # Variables:
 # $recipient (String) - The email address of the recipient needing resolution.
-openpgp-key-assistant-resolve-discover-info = オンラインで { $recipient } の追加の鍵や更新された鍵を見つけるか、ファイルから@@Imort-site@@ください。
+openpgp-key-assistant-resolve-discover-info = オンラインで { $recipient } の追加の鍵や更新された鍵を見つけるか、ファイルから@@Import-site@@ください。
 
 ## Discovery section
 
