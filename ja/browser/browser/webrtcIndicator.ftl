@@ -8,6 +8,7 @@
 # to go through and translate everything. Once these strings are ready for
 # translation, we'll move it to the locales folder.
 
+
 ## These strings are used so that the window has a title in tools that
 ## enumerate/look for window titles. It is not normally visible anywhere.
 
@@ -55,6 +56,7 @@ webrtc-minimize =
 ## These strings will display as a tooltip on supported systems where we show
 ## device sharing state in the OS notification area. We do not use these strings
 ## on macOS, as global menu bar items do not have native tooltips.
+
 webrtc-camera-system-menu =
     .label = カメラを共有しています。クリックすると共有を制御します。
 webrtc-microphone-system-menu =
@@ -138,6 +140,7 @@ webrtc-allow-share-screen-and-audio-capture = { $origin } にこのタブの音�
 webrtc-allow-share-audio-capture-unsafe-delegation = { $origin } から { $thirdParty } にもこのタブの音声の再生を許可しますか？
 webrtc-allow-share-camera-unsafe-delegation = { $origin } から { $thirdParty } にもカメラの使用を許可しますか？
 webrtc-allow-share-microphone-unsafe-delegations = { $origin } から { $thirdParty } にもマイクの使用を許可しますか？
+webrtc-allow-share-microphone-unsafe-delegation = { $origin } から { $thirdParty } にもマイクの使用を許可しますか？
 webrtc-allow-share-screen-unsafe-delegation = { $origin } から { $thirdParty } にもあなたの画面の表示を許可しますか？
 # "Speakers" is used in a general sense that might include headphones or
 # another audio output connection.
