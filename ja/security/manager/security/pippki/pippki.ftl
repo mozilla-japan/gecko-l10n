@@ -80,3 +80,9 @@ protected-auth-window =
     .title = 保護されたトークン認証
 protected-auth-msg = トークンの認証を行ってください。認証方法は使用するトークンの種類によって異なります。
 protected-auth-token = トークン:
+
+## Protected authentication alert
+
+# Variables:
+# $tokenName (String) - The name of the token to authenticate to (for example, "OS Client Cert Token (Modern)")
+protected-auth-alert = トークン “{ $tokenName }” の認証を行ってください。認証方法は使用するトークンの種類によって異なります (例えば、指紋認証リーダーの使用やキーパッドでのコード入力など)。

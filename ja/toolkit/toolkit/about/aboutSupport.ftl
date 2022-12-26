@@ -105,6 +105,7 @@ graphics-gpu2-title = GPU #2
 graphics-decision-log-title = 決定ログ
 graphics-crash-guards-title = クラッシュガードが無効化した機能
 graphics-workarounds-title = 回避策
+graphics-device-pixel-ratios = @@Window@@デバイスのピクセル比
 # Windowing system in use on Linux (e.g. X11, Wayland).
 graphics-window-protocol = @@Window@@プロトコル
 # Desktop environment in use on Linux (e.g. GNOME, KDE, XFCE, etc).

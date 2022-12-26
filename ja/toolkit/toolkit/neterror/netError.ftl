@@ -24,6 +24,8 @@ neterror-pref-reset-button = @@DefaultValue@@に戻す
 neterror-return-to-previous-page-button = 戻る
 neterror-return-to-previous-page-recommended-button = 戻る (推奨)
 neterror-try-again-button = 再試行
+neterror-add-exception-button = このサイトは常に続行する
+neterror-settings-button = DNS 設定を変更
 neterror-view-certificate-link = 証明書を確認
 
 ##
@@ -45,6 +47,23 @@ neterror-dns-not-found-hint-header = <strong>アドレスが正しい場合は�
 neterror-dns-not-found-hint-try-again = 後でもう一度試してください。
 neterror-dns-not-found-hint-check-network = ネットワーク接続を確認してください。
 neterror-dns-not-found-hint-firewall = ファイアウォール越しに接続している場合は、{ -brand-short-name } がウェブへの接続を許可されているか確認してください。
+
+## TRR-only specific messages
+## Variables:
+##   $hostname (String) - Hostname of the website to which the user was trying to connect.
+##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
+
+neterror-dns-not-found-trr-only-reason = 次の理由により、{ -brand-short-name } は信頼された DNS リゾルバーを通じたこのサイトのアドレスに対する要求を保護できません:
+neterror-dns-not-found-trr-only-attackers = 続行する場合、第三者にあなたの訪れたウェブサイトを知られたり、信頼できないサイトへ転送されたりする可能性があります。
+neterror-dns-not-found-trr-only-could-not-connect = { -brand-short-name } が { $trrDomain } と接続できませんでした。
+neterror-dns-not-found-trr-only-timeout = { $trrDomain } への接続に時間がかかっています。
+neterror-dns-not-found-trr-offline = インターネットに接続されていません。
+neterror-dns-not-found-trr-unknown-host = { $trrDomain } でこのウェブサイトのアドレスが見つかりませんでした。
+neterror-dns-not-found-trr-server-problem = { $trrDomain } のドメインに問題があります。
+neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生しました。
+
+##
+
 neterror-file-not-found-filename = アドレスに大文字/小文字の違い、その他の間違いがないか確認してください。
 neterror-file-not-found-moved = ファイルの名前が変更、削除、または移動している可能性があります。
 neterror-access-denied = ファイルが削除または移動されているかファイルの許可属性によりアクセスが拒否された可能性があります。
