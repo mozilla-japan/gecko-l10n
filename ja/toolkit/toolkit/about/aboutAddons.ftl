@@ -139,13 +139,13 @@ addon-category-available-updates-title =
 addon-category-recent-updates = 最近の更新
 addon-category-recent-updates-title =
     .title = 最近の更新
-addon-category-sitepermission = サイト許可設定
+addon-category-sitepermission = サイト権限
 addon-category-sitepermission-title =
-    .title = サイトの許可設定
+    .title = サイトの権限
 # String displayed in about:addons in the Site Permissions section
 # Variables:
 #  $host (string): DNS host name for which the webextension enables permissions
-addon-sitepermission-host = { $host } サイトの許可設定
+addon-sitepermission-host = { $host } サイトの権限
 
 ## These are global warnings
 
@@ -394,7 +394,7 @@ plugin-heading = プラグインの管理
 dictionary-heading = スペルチェック辞書の管理
 locale-heading = 言語パックの管理
 updates-heading = 更新の管理
-sitepermission-heading = サイト許可設定の管理
+sitepermission-heading = サイト権限の管理
 discover-heading = { -brand-short-name } のパーソナライズ
 shortcuts-heading = 拡張機能のショートカットキーの管理
 default-heading-search-label = アドオンを探す
