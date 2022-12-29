@@ -12,3 +12,4 @@ confirmation-hint-password-saved = パスワードを保存しました！
 confirmation-hint-pin-tab = ピン留めしました！
 confirmation-hint-pin-tab-description = タブを右クリックするとピン留めを外せます。
 confirmation-hint-send-to-device = 送信しました！
+confirmation-hint-firefox-relay-mask-generated = @@New-CMD@@ { -relay-brand-short-name } マスクを生成しました！

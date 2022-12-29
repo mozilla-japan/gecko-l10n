@@ -25,47 +25,47 @@ autofill-address-given-name = 名
 autofill-address-additional-name = ミドルネーム
 autofill-address-family-name = 氏
 autofill-address-organization = 組織名
-autofill-address-street = Street Address
+autofill-address-street = 番地・通り名
 
 ## address-level-3 (Sublocality) names
 
 # Used in IR, MX
-autofill-address-neighborhood = Neighborhood
+autofill-address-neighborhood = 地域
 # Used in MY
-autofill-address-village-township = Village or Township
-autofill-address-island = Island
+autofill-address-village-township = 村または郡区
+autofill-address-island = 島
 # Used in IE
-autofill-address-townland = Townland
+autofill-address-townland = タウンランド
 
 ## address-level-2 names
 
 autofill-address-city = 市
 # Used in HK, SD, SY, TR as Address Level-2 and used in KR as Sublocality.
-autofill-address-district = District
+autofill-address-district = 区
 # Used in GB, NO, SE
-autofill-address-post-town = Post town
+autofill-address-post-town = ポストタウン
 # Used in AU as Address Level-2 and used in ZZ as Sublocality.
-autofill-address-suburb = Suburb
+autofill-address-suburb = 地区
 
 ## address-level-1 names
 
-autofill-address-province = Province
-autofill-address-state = State
-autofill-address-county = County
+autofill-address-province = 県
+autofill-address-state = 州
+autofill-address-county = 国
 # Used in BB, JM
-autofill-address-parish = Parish
+autofill-address-parish = 郡
 # Used in JP
 autofill-address-prefecture = 都道府県
 # Used in HK
-autofill-address-area = Area
+autofill-address-area = 地区
 # Used in KR
-autofill-address-do-si = Do/Si
+autofill-address-do-si = 道/市
 # Used in NI, CO
-autofill-address-department = Department
+autofill-address-department = 管区
 # Used in AE
-autofill-address-emirate = Emirate
+autofill-address-emirate = 管轄区
 # Used in RU and UA
-autofill-address-oblast = Oblast
+autofill-address-oblast = 州
 
 ## Postal code name types
 
@@ -83,7 +83,7 @@ autofill-address-tel = 電話番号
 autofill-address-email = メールアドレス
 autofill-cancel-button = キャンセル
 autofill-save-button = 保存
-autofill-country-warning-message = フォーム自動入力機能は、現在特定の国の住所のみ利用可能です。
+autofill-country-warning-message = 現在、フォーム自動入力機能は特定の国の住所のみ利用可能です。
 # The dialog title for creating credit cards in browser preferences.
 autofill-add-new-card-title = @@New-CMD@@クレジットカード情報を追加
 # The dialog title for editing credit cards in browser preferences.
@@ -93,8 +93,8 @@ autofill-edit-card-title = クレジットカード情報を編集
 autofill-edit-card-password-prompt =
     { PLATFORM() ->
         [macos] クレジットカード情報を表示
-        [windows] クレジットカード情報を表示しようとしています。以下の Windows アカウントへのアクセスを確認してください。
-       *[other] クレジットカード情報を表示しようとしています。
+        [windows] { -brand-short-name } がクレジットカード情報を表示しようとしています。以下の Windows アカウントへのアクセスを確認してください。
+       *[other] { -brand-short-name } がクレジットカード情報を表示しようとしています。
     }
 autofill-card-number = カード番号
 autofill-card-invalid-number = 正しいカード番号を入力してください

@@ -196,6 +196,8 @@ firefoxview-cfr-secondarybutton = 後で
   .accesskey = N
 firefoxview-cfr-header = { -firefoxview-brand-name } で最近閉じたタブを取り戻しましょう
 firefoxview-cfr-body = 加えて、端末の壁をシームレスに飛び越えたり、ブラウザーに鮮やかな色彩を合わせることもできます。
+firefoxview-cfr-header-v2 = 前回のタブをすばやくピックアップ
+firefoxview-cfr-body-v2 = { -firefoxview-brand-name } で最近閉じたタブを取り戻すだけでなく、端末の壁をシームレスに飛び越えられます。
 
 ## Firefox View Spotlight
 

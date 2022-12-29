@@ -4,7 +4,7 @@
 
 # Variables:
 #   $count (Number) - Number of tracking events blocked.
-graph-week-summary = この 1 週間で { $count } 個のトラッカーをブロックしました
+graph-week-summary = この 1 週間で { -brand-short-name } が { $count } 個のトラッカーをブロックしました
 
 # Variables:
 #   $count (Number) - Number of tracking events blocked.

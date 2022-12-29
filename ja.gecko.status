@@ -46,4 +46,5 @@ comm | mail, suite               9328:a30fe40439de (2022-11-28)  mar            
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, security, toolkit   14973:69456c9efa7b (2022-12-24)  mar            sync dom, security, toolkit
+geck | browser, devtools        14973:69456c9efa7b (2022-12-24)  mar            sync browser, devtools
 
