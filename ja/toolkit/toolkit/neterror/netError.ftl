@@ -59,7 +59,7 @@ neterror-dns-not-found-trr-only-could-not-connect = { -brand-short-name } が { 
 neterror-dns-not-found-trr-only-timeout = { $trrDomain } への接続に時間がかかっています。
 neterror-dns-not-found-trr-offline = インターネットに接続されていません。
 neterror-dns-not-found-trr-unknown-host = { $trrDomain } でこのウェブサイトのアドレスが見つかりませんでした。
-neterror-dns-not-found-trr-server-problem = { $trrDomain } のドメインに問題があります。
+neterror-dns-not-found-trr-server-problem = { $trrDomain } のサーバーに問題があります。
 neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生しました。
 
 ##
