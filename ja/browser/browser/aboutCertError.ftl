@@ -102,4 +102,4 @@ clockSkewError-title = コンピューターの時刻が間違っています
 networkProtocolError-title = ネットワークプロトコルエラー
 nssBadCert-title = 警告: 潜在的なセキュリティリスクあり
 nssBadCert-sts-title = 接続中止: 潜在的なセキュリティ問題
-certerror-mitm-title = このサイトへの安全な接続を妨げるソフトウェア
+certerror-mitm-title = ソフトウェアが { -brand-short-name } のこのサイトへの安全な接続を妨げています

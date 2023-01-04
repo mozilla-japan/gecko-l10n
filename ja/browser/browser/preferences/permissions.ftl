@@ -15,6 +15,9 @@ permissions-address = ウェブサイトのアドレス
 permissions-block =
     .label = 不許可
     .accesskey = B
+permissions-disable-etp =
+    .label = 例外を追加
+    .accesskey = E
 permissions-session =
     .label = 現在のセッションのみ
     .accesskey = S
@@ -79,7 +82,8 @@ permissions-exceptions-etp-window =
 permissions-exceptions-etp-window2 =
     .title = 強化型トラッキング防止機能の例外
     .style = { permissions-window2.style }
-permissions-exceptions-etp-desc = これらのウェブサイトでは、保護をオフに設定しています。
+permissions-exceptions-etp-desc = これらのウェブサイトでは防止機能をオフに設定しています。
+permissions-exceptions-manage-etp-desc = 強化型トラッキング防止をオフにするウェブサイトを指定してください。管理したいサイトの正確なアドレスを入力して @@[@@例外を追加@@]@@ をクリックしてください。
 
 ## Exceptions - Cookies
 

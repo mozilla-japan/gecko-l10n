@@ -46,6 +46,9 @@ firefoxview-tabpickup-password-locked-header = マスターパスワードを入
 firefoxview-tabpickup-password-locked-description = タブを取り出すには、{ -brand-short-name } のマスターパスワードを入力する必要があります。
 firefoxview-tabpickup-password-locked-link = 詳細
 firefoxview-tabpickup-password-locked-primarybutton = マスターパスワードを入力
+firefoxview-tabpickup-signed-out-header = ログインして再接続
+firefoxview-tabpickup-signed-out-description = 再接続してタブを取り出すには、{ -fxaccount-brand-name } にログインしてください。
+firefoxview-tabpickup-signed-out-primarybutton = ログイン
 firefoxview-tabpickup-syncing = タブを同期しています。しばらくお待ちください。
 firefoxview-mobile-promo-header = スマートフォンやタブレットからタブを取り出す
 firefoxview-mobile-promo-description = 携帯端末の直近のタブを表示するには、iOS または Android の { -brand-product-name } にログインしてください。
@@ -54,9 +57,12 @@ firefoxview-mobile-confirmation-header = 🎉 準備万端です！
 firefoxview-mobile-confirmation-description = スマートフォンやタブレットから { -brand-product-name } のタブを取り出せるようになりました。
 firefoxview-closed-tabs-title = 最近閉じたタブ
 firefoxview-closed-tabs-description2 = この@@Window@@で閉じたページを開きなおします。
-firefoxview-closed-tabs-placeholder = <strong>最近閉じたページはありません</strong><br/>閉じたタブをなくす心配はありません。いつでもここで復旧できます。
 firefoxview-closed-tabs-placeholder-header = 最近閉じたタブはありません
 firefoxview-closed-tabs-placeholder-body = この@@Window@@でタブを閉じたときは、ここから復旧できます。
+# Variables:
+#   $tabTitle (string) - Title of tab being dismissed
+firefoxview-closed-tabs-dismiss-tab =
+  .title = { $tabTitle } を閉じる
 # refers to the last tab that was used
 firefoxview-pickup-tabs-badge = 最終アクティブ
 # Variables:
@@ -70,7 +76,6 @@ firefoxview-change-colorway-button = Colorway を変更
 #  $intensity (String): Colorway intensity
 #  $collection (String): Colorway Collection name
 firefoxview-colorway-description = { $intensity } · { $collection }
-firefoxview-synced-tabs-placeholder = <strong>表示できるものはまだありません</strong><br/>他の端末の { -brand-product-name } でページを開くと、ここから取り出せます。
 firefoxview-synced-tabs-placeholder-header = 表示できるものはまだありません
 firefoxview-synced-tabs-placeholder-body = 他の端末の { -brand-product-name } でページを開くと、ここから取り出せます。
 firefoxview-collapse-button-show =

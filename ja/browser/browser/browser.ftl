@@ -144,6 +144,9 @@ urlbar-tip-icon-description =
     .alt = ヒント:
 urlbar-result-menu-button =
     .title = メニューを開く
+urlbar-result-menu-remove-from-history =
+    .label = 履歴から削除
+    .accesskey = R
 
 ## Prompts users to use the Urlbar when they open a new tab or visit the
 ## homepage of their default search engine.
@@ -282,30 +285,42 @@ quickactions-addons = アドオンを表示
 quickactions-cmd-addons2 = add-ons
 # Opens the bookmarks library window
 quickactions-bookmarks = ブックマークを表示
+# Opens the bookmarks library window
+quickactions-bookmarks2 = ブックマークを管理
 quickactions-cmd-bookmarks = bookmarks
 # Opens a SUMO article explaining how to clear history
 quickactions-clearhistory = 履歴を消去
 quickactions-cmd-clearhistory = clear history
 # Opens about:downloads page
 quickactions-downloads = ダウンロードを開く
+# Opens about:downloads page
+quickactions-downloads2 = ダウンロードを表示
 quickactions-cmd-downloads = downloads
 # Opens about:addons page in the extensions section
 quickactions-extensions = 拡張機能を管理
 quickactions-cmd-extensions = extensions
 # Opens the devtools web inspector
 quickactions-inspector = インスペクターを開く
+# Opens the devtools web inspector
+quickactions-inspector2 = 開発ツールを開く
 quickactions-cmd-inspector = inspector, devtools
 # Opens about:logins
 quickactions-logins = ログイン情報を表示
+# Opens about:logins
+quickactions-logins2 = パスワードを管理
 quickactions-cmd-logins = logins, passwords
 # Opens about:addons page in the plugins section
 quickactions-plugins = プラグインを管理
 quickactions-cmd-plugins = plugins
 # Opens the print dialog
 quickactions-print = @@Print@@
+# Opens the print dialog
+quickactions-print2 = ページを@@Print@@
 quickactions-cmd-print = print
 # Opens a new private browsing window
 quickactions-private = プライベートブラウジング@@Window@@を開く
+# Opens a new private browsing window
+quickactions-private2 = プライベート@@Window@@を開く
 quickactions-cmd-private = private browsing
 # Opens a SUMO article explaining how to refresh
 quickactions-refresh = { -brand-short-name } をリフレッシュ
@@ -315,9 +330,13 @@ quickactions-restart = { -brand-short-name } を再起動
 quickactions-cmd-restart = restart
 # Opens the screenshot tool
 quickactions-screenshot2 = スクリーンショットを撮影
+# Opens the screenshot tool
+quickactions-screenshot3 = スクリーンショットを撮影
 quickactions-cmd-screenshot = screenshot
 # Opens about:preferences
 quickactions-settings = 設定を開く
+# Opens about:preferences
+quickactions-settings2 = 設定を管理
 quickactions-cmd-settings = settings, preferences, options
 # Opens about:addons page in the themes section
 quickactions-themes = テーマを管理
@@ -327,6 +346,8 @@ quickactions-update = { -brand-short-name } を更新
 quickactions-cmd-update = update
 # Opens the view-source UI with current pages source
 quickactions-viewsource = ソースを表示
+# Opens the view-source UI with current pages source
+quickactions-viewsource2 = ページのソースを表示
 quickactions-cmd-viewsource = view source, source
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
@@ -927,10 +948,28 @@ unified-extensions-button =
     .label = 拡張機能
     .tooltiptext = 拡張機能
 
+## Unified extensions button when permission(s) are needed.
+## Note that the new line is intentionally part of the tooltip.
+
+unified-extensions-button-permissions-needed =
+    .label = 拡張機能
+    .tooltiptext =
+        拡張機能
+        権限が必要です
+
 ## Autorefresh blocker
 
-refresh-blocked-refresh-label = このページの自動再読み込みをブロックしました。
-refresh-blocked-redirect-label = このページから他のページへの自動転送をブロックしました。
+refresh-blocked-refresh-label = { -brand-short-name } がこのページの自動再読み込みをブロックしました。
+refresh-blocked-redirect-label = { -brand-short-name } がこのページから他のページへの自動転送をブロックしました。
 refresh-blocked-allow =
     .label = 許可
     .accesskey = A
+
+## Firefox Relay integration
+
+firefox-relay-offer-why-relay = { -relay-brand-name } が本当のメールアドレスにマスクをして、データ漏洩とスパムからあなたを保護します。
+firefox-relay-offer-how-we-integrate = 続行すると、{ -brand-shorter-name } のパスワードマネージャーから直ちに新しい { -relay-brand-short-name } のメールマスクを生成できるようになります。
+# Variables:
+#  $sitename (String): name of the site where user enters their Relay mask
+#  $useremail (String): user email that will receive messages
+firefox-relay-offer-what-relay-does = <strong>{ $sitename }</strong> に届いたすべてのメールが <strong>{ $useremail }</strong> へ転送されます。

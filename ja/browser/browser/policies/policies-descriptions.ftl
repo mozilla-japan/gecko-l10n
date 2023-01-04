@@ -19,7 +19,7 @@ policy-AppUpdatePin = { -brand-short-name } が指定のバージョン以降に
 
 policy-AppUpdateURL = アプリケーションのカスタム更新 URL を設定します。
 
-policy-Authentication = ウェブサイトが対応する統合認証の設定を行います。
+policy-Authentication = ウェブサイトが対応する統合認証を設定します。
 
 policy-AutoLaunchProtocolsFromOrigins = ユーザーに確認せずに、列挙された生成元から利用できる外部プロトコルのリストを定義します。
 
@@ -45,11 +45,11 @@ policy-DisabledCiphers = 暗号を無効にします。
 
 policy-DefaultDownloadDirectory = @@Default-@@ダウンロードディレクトリーを設定します。
 
-policy-DisableAppUpdate = ブラウザの更新を禁止します。
+policy-DisableAppUpdate = ブラウザの更新を抑止します。
 
 policy-DisableBuiltinPDFViewer = { -brand-short-name } 組み込みの PDF ビューアーの PDF.js を無効にします。
 
-policy-DisableDefaultBrowserAgent = Default Browser Agent のアクションをすべて禁止します。Windows のみ有効です。他のプラットフォームはエージェントがありません。
+policy-DisableDefaultBrowserAgent = Default Browser Agent のアクションをすべて抑止します。Windows のみ適用可能です。他のプラットフォームにはこのエージェントがありません。
 
 policy-DisableDeveloperTools = 開発ツールへのアクセスをブロックします。
 
@@ -60,15 +60,15 @@ policy-DisableFirefoxAccounts = Sync を含む { -fxaccount-brand-name } を利�
 # Firefox Screenshots is the name of the feature, and should not be translated.
 policy-DisableFirefoxScreenshots = Firefox Screenshots 機能を無効にします。
 
-policy-DisableFirefoxStudies = Shield 調査の実行を禁止します。
+policy-DisableFirefoxStudies = { -brand-short-name } による Shield 調査の実行を抑止します。
 
-policy-DisableForgetButton = @@[@@忘れる@@]@@ボタンへのアクセスを禁止します。
+policy-DisableForgetButton = @@[@@忘れる@@]@@ ボタンへのアクセスを抑止します。
 
 policy-DisableFormHistory = 検索とフォームの履歴を記憶しないようにします。
 
-policy-DisablePrimaryPasswordCreation = true にすると、マスターパスワードを作成できないようにします。
+policy-DisablePrimaryPasswordCreation = true の場合、マスターパスワードを作成できないようにします。
 
-policy-DisablePasswordReveal = 保存されたパスワードの表示を許可しないようにします。
+policy-DisablePasswordReveal = 保存されたパスワードの開示を許可しないようにします。
 
 policy-DisablePocket = ウェブページを Pocket に保存する機能を無効にします。
 
@@ -80,21 +80,23 @@ policy-DisableProfileRefresh = about:support ページの @@[@@{ -brand-short-na
 
 policy-DisableSafeMode = セーフモードで再起動する機能を無効にします。注意: Shift キーでセーフモードを起動する機能は、Windows でグループポリシーを利用する場合のみ無効にできます。
 
-policy-DisableSecurityBypass = ユーザーが特定のセキュリティ警告を回避できないようにします。
+policy-DisableSecurityBypass = 特定のセキュリティ警告をユーザーが回避できないようにします。
 
 policy-DisableSetAsDesktopBackground = メニューコマンド @@[@@デスクトップの背景に設定@@]@@ を無効にします。
 
-policy-DisableSystemAddonUpdate = ブラウザーのシステムアドオンのインストールと更新を禁止します。
+policy-DisableSystemAddonUpdate = ブラウザーへのシステムアドオンのインストールと更新を抑止します。
 
 policy-DisableTelemetry = Telemetry をオフにします。
+
+policy-DisableThirdPartyModuleBlocking = { -brand-short-name } プロセスに読み込まれるのサードパーティモジュールのユーザーによるブロックを抑止します。
 
 policy-DisplayBookmarksToolbar = ブックマークツールバーを@@Default@@で表示します。
 
 policy-DisplayMenuBar = メニューバーを@@Default@@で表示します。
 
-policy-DNSOverHTTPS = DNS over HTTPS の設定を指示します。
+policy-DNSOverHTTPS = DNS over HTTPS を設定します。
 
-policy-DontCheckDefaultBrowser = 起動時に@@DefaultBrowser@@か確認する機能を無効にします。
+policy-DontCheckDefaultBrowser = 起動時に@@DefaultBrowser@@を確認する機能を無効にします。
 
 policy-DownloadDirectory = ダウンロードディレクトリーを設定し、ロックします。
 
@@ -109,15 +111,15 @@ policy-ExemptDomainFileTypePairsFromFileTypeDownloadWarnings = 指定のドメ�
 # A “locked” extension can’t be disabled or removed by the user. This policy
 # takes 3 keys (“Install”, ”Uninstall”, ”Locked”), you can either keep them in
 # English or translate them as verbs.
-policy-Extensions = 拡張機能をインストール、削除、またはロックします。インストールは URL とパスを指定します。削除とロックは拡張機能の ID を指定します。
+policy-Extensions = 拡張機能をインストール、削除、またはロックします。インストールオプションは URL とパスを指定します。削除とロックは拡張機能の ID を指定します。
 
 policy-ExtensionSettings = 拡張機能のインストール全般を管理します。
 
 policy-ExtensionUpdate = 拡張機能の自動更新を有効または無効にします。
 
-policy-FirefoxHome = Firefox Home の設定を行います。
+policy-FirefoxHome = Firefox Home を設定します。
 
-policy-FirefoxHome2 = { -firefox-home-brand-name } の設定を行います。
+policy-FirefoxHome2 = { -firefox-home-brand-name } を設定します。
 
 policy-FlashPlugin = Flash プラグインの実行を許可、または拒否します。
 
@@ -146,7 +148,7 @@ policy-LocalFileLinks = 特定のウェブサイトにローカルファイル�
 
 policy-ManagedBookmarks = システム管理者により管理されたブックマークのリストを設定します。ユーザーはこのブックマークを変更できません。
 
-policy-ManualAppUpdateOnly = 更新を手動のみにし、更新の通知をユーザーには通知しないようにします。
+policy-ManualAppUpdateOnly = 更新を手動のみにし、更新についてユーザーに通知しないようにします。
 
 policy-PrimaryPassword = マスターパスワードの使用を要求または抑止します。
 
