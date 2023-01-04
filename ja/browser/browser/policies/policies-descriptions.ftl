@@ -88,6 +88,8 @@ policy-DisableSystemAddonUpdate = ブラウザーへのシステムアドオン�
 
 policy-DisableTelemetry = Telemetry をオフにします。
 
+policy-DisableThirdPartyModuleBlocking = { -brand-short-name } プロセスに読み込まれるのサードパーティモジュールのユーザーによるブロックを抑止します。
+
 policy-DisplayBookmarksToolbar = ブックマークツールバーを@@Default@@で表示します。
 
 policy-DisplayMenuBar = メニューバーを@@Default@@で表示します。
