@@ -2,9 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-list-calendar-context-reload-menuitem =
-    .label = 同期
-    .accesskey = S
-calendar-item-context-menu-modify-menuitem =
-    .label = 編集
-    .accesskey = E
+## Table
+
+tree-list-view-column-picker =
+    .title = 表示する列を選択します

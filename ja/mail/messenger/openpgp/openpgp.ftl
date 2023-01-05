@@ -25,7 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = 下書きメッセージを暗号化された形式で保存する
     .accesskey = r
-
 openpgp-key-user-id-label = アカウント / ユーザー ID
 openpgp-keygen-title-label =
     .title = OpenPGP 鍵を生成
@@ -63,7 +62,6 @@ openpgp-key-expiry-label =
 openpgp-key-id-label =
     .label = 鍵 ID
 openpgp-cannot-change-expiry = この鍵は複雑な構造をしているため、有効期限が変更できません。
-
 openpgp-key-man-title =
     .title = OpenPGP 鍵マネージャー
 openpgp-key-man-generate =
@@ -114,9 +112,17 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = オンラインで鍵を検索
     .accesskey = D
+openpgp-key-man-publish-cmd =
+    .label = 公開
+    .accesskey = P
 openpgp-key-man-discover-prompt = 鍵サーバーあるいは WKD プロトコルを使用してオンラインで OpenPGP 鍵を検索するため、メールアドレスか鍵 ID を入力してください。
 openpgp-key-man-discover-progress = 検索中...
-
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = 公開鍵が "{ $keyserver }" へ送信されました。
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = "{ $keyserver }" への公開鍵の送信に失敗しました。
 openpgp-key-copy-key =
     .label = 公開鍵をコピー
     .accesskey = C
@@ -130,22 +136,25 @@ openpgp-key-send-key =
     .label = 公開鍵をメールで送信
     .accesskey = S
 openpgp-key-man-copy-key-ids =
-    .label = { $count ->
-               [one] 鍵 ID をクリップボードにコピー
-               *[other] 鍵 ID をクリップボードにコピー
-             }
+    .label =
+        { $count ->
+            [one] 鍵 ID をクリップボードにコピー
+           *[other] 鍵 ID をクリップボードにコピー
+        }
     .accesskey = K
 openpgp-key-man-copy-fprs =
-    .label = { $count ->
-               [one] フィンガープリントをクリップボードにコピー
-               *[other] フィンガープリントをクリップボードにコピー
-             }
+    .label =
+        { $count ->
+            [one] フィンガープリントをクリップボードにコピー
+           *[other] フィンガープリントをクリップボードにコピー
+        }
     .accesskey = F
 openpgp-key-man-copy-to-clipboard =
-    .label = { $count ->
-               [one] 公開鍵をクリップボードにコピー
-               *[other] 公開鍵をクリップボードにコピー
-             }
+    .label =
+        { $count ->
+            [one] 公開鍵をクリップボードにコピー
+           *[other] 公開鍵をクリップボードにコピー
+        }
     .accesskey = P
 openpgp-key-man-ctx-expor-to-file-label =
     .label = 鍵をファイルに@@Export-si@@ます
@@ -153,22 +162,25 @@ openpgp-key-man-ctx-copy =
     .label = コピー
     .accesskey = C
 openpgp-key-man-ctx-copy-fprs =
-    .label = { $count ->
-               [one] フィンガープリント
-               *[other] フィンガープリント
-             }
+    .label =
+        { $count ->
+            [one] フィンガープリント
+           *[other] フィンガープリント
+        }
     .accesskey = F
 openpgp-key-man-ctx-copy-key-ids =
-    .label = { $count ->
-               [one] 鍵 ID
-               *[other] 鍵 ID
-             }
+    .label =
+        { $count ->
+            [one] 鍵 ID
+           *[other] 鍵 ID
+        }
     .accesskey = K
 openpgp-key-man-ctx-copy-public-keys =
-    .label = { $count ->
-               [one] 公開鍵
-               *[other] 公開鍵
-             }
+    .label =
+        { $count ->
+            [one] 公開鍵
+           *[other] 公開鍵
+        }
     .accesskey = P
 openpgp-key-man-close =
     .label = @@CloseCMD@@
@@ -464,7 +476,6 @@ dlg-button-delete = 削除(&D)
 
 openpgp-export-public-success = <b>公開鍵の@@ExportNoun@@に成功しました！</b>
 openpgp-export-public-fail = <b>選択した公開鍵の@@ExportNoun@@に失敗しました！</b>
-
 openpgp-export-secret-success = <b>秘密鍵の@@ExportNoun@@に成功しました！</b>
 openpgp-export-secret-fail = <b>選択した秘密鍵の@@ExportNoun@@に失敗しました！</b>
 
