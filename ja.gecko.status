@@ -48,4 +48,5 @@ repo | target dir               hg changeset rev:id (pushdate)   by             
 geck | dom, security, toolkit   14973:69456c9efa7b (2022-12-24)  mar            sync dom, security, toolkit
 geck | browser, devtools        14973:69456c9efa7b (2022-12-24)  mar            sync browser, devtools
 geck | browser, toolkit         14975:d554d217d60c (2023-01-02)  mar            sync browser, toolkit
+comm | mail, calendar            9726:9dff3693f20a (2023-01-04)  mar            sync mail, calendar
 

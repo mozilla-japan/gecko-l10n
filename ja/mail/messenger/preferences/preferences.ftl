@@ -719,7 +719,20 @@ search-results-help-link = 助けが必要な方は、<a data-l10n-name="url">{ 
 
 ## Sync Tab
 
+sync-signedout-caption = ウェブを持ち歩こう
+sync-signedout-description = あなたのアカウントやアドレス帳、カレンダー、アドオン、設定をお持ちのすべての端末間で同期できます。
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Sync にログイン...
 sync-pane-header = 同期
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” は認証されていません。
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = ログインして “{ $userEmail }” に再接続してください
+sync-pane-resend-verification = 認証メールを再送信
+sync-pane-sign-in = ログイン
+sync-pane-remove-account = アカウントを削除
 sync-pane-edit-photo =
     .title = プロフィール写真を変更します
 sync-pane-manage-account = アカウントの管理
@@ -728,3 +741,20 @@ sync-pane-device-name-title = 端末名
 sync-pane-change-device-name = 端末名を変更
 sync-pane-cancel = キャンセル
 sync-pane-save = 保存
+sync-pane-show-synced-header-on = 同期: オン
+sync-pane-show-synced-header-off = 同期: オフ
+sync-pane-sync-now = 今すぐ同期
+sync-panel-sync-now-syncing = 同期中...
+show-synced-list-heading = これらの項目を同期しています:
+show-synced-learn-more = 詳細情報...
+show-synced-item-account = メールアカウント
+show-synced-item-address = アドレス帳
+show-synced-item-calendar = カレンダー
+show-synced-item-identity = 差出人情報
+show-synced-item-passwords = パスワード
+show-synced-change = 変更...
+synced-acount-item-server-config = サーバー設定
+synced-acount-item-filters = メッセージフィルター
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = あなたのメールアカウントやアドレス帳、カレンダー、差出人情報をお持ちのすべての端末間で同期します。
+sync-disconnected-turn-on-sync = 同期をオンにする...

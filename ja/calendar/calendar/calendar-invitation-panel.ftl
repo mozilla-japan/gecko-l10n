@@ -5,9 +5,12 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } があなたを招待しています: 
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } の招待が更新されました:
+calendar-invitation-panel-status-new = この予定に招待されています。
+calendar-invitation-panel-status-processed = この予定はすでにカレンダーに追加されています。
+calendar-invitation-panel-status-updateminor = メッセージにこの予定の更新が含まれています。
+calendar-invitation-panel-status-updatemajor = メッセージにこの予定の更新が含まれています。参加を再確認してください。
+calendar-invitation-panel-status-cancelled = メッセージにこの予定のキャンセルが含まれています。
+calendar-invitation-panel-status-cancelled-notfound = メッセージにカレンダーに無い予定のキャンセルが含まれています。
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } の招待がキャンセルされました:
@@ -15,7 +18,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } の招待がキャンセ
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = 保存
-calendar-invitation-panel-save-button = 保存
 calendar-invitation-panel-view-button = 表示
 calendar-invitation-panel-update-button = 更新
 calendar-invitation-panel-delete-button = 削除
@@ -23,6 +25,11 @@ calendar-invitation-panel-accept-button = 承諾
 calendar-invitation-panel-decline-button = 辞退
 calendar-invitation-panel-tentative-button = 仮承諾
 calendar-invitation-panel-reply-status = * 未確定またはまだ返答していません
+calendar-invitation-panel-more-button = 続きを見る
+calendar-invitation-panel-menu-item-save = 
+    .label = カレンダーに保存
+calendar-invitation-panel-menu-item-toggle-changes= 
+    .label = 変更内容を表示
 calendar-invitation-panel-prop-title-when = 日時:
 calendar-invitation-panel-prop-title-location = 場所:
 # Variables:
@@ -94,3 +101,6 @@ calendar-invitation-panel-partstat-needs-action = 留保 { $count } 名
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = 参加合計 { $count } 名
 calendar-invitation-panel-prop-title-attachments = 添付:
+calendar-invitation-change-indicator-removed = 削除済み
+calendar-invitation-change-indicator-added = 新規追加
+calendar-invitation-change-indicator-modified = 変更あり

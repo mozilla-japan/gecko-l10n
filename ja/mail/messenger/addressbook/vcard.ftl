@@ -67,7 +67,6 @@ vcard-entry-type-pager = ポケットベル
 vcard-tz-header = タイムゾーン
 vcard-tz-add = タイムゾーンを追加
 
-
 # IMPP vCard field
 
 vcard-impp2-header = インスタントメッセージ
@@ -90,9 +89,9 @@ vcard-date-year = 年
 
 # ADR vCard field
 
-vcard-adr-header = アドレス
-vcard-adr-add = アドレスを追加
-vcard-adr-label = アドレス
+vcard-adr-header = 所在地
+vcard-adr-add = 所在地を追加
+vcard-adr-label = 所在地
 vcard-adr-delivery-label = 配達ラベル
 vcard-adr-street = 番地
 # Or "Locality"
