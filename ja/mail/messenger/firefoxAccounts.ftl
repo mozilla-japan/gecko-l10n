@@ -28,5 +28,5 @@ fxa-signout-dialog-button = ログアウト
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
 sync-disconnect-dialog-title = 切断しますか？
-sync-disconnect-dialog-body = { -brand-product-name } はあなたのアカウントの同期を停止しますが、この端末のデータは一切削除されません。
+sync-disconnect-dialog-body = この { -brand-product-name } のアカウントの同期を停止しますが、この端末上のデータは一切削除されません。
 sync-disconnect-dialog-button = 切断

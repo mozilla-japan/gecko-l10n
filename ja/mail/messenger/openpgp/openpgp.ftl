@@ -119,10 +119,10 @@ openpgp-key-man-discover-prompt = 鍵サーバーあるいは WKD プロトコ�
 openpgp-key-man-discover-progress = 検索中...
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
-openpgp-key-publish-ok = 公開鍵が "{ $keyserver }" へ送信されました。
+openpgp-key-publish-ok = 公開鍵が “{ $keyserver }” へ送信されました。
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
-openpgp-key-publish-fail = "{ $keyserver }" への公開鍵の送信に失敗しました。
+openpgp-key-publish-fail = “{ $keyserver }” への公開鍵の送信に失敗しました。
 openpgp-key-copy-key =
     .label = 公開鍵をコピー
     .accesskey = C

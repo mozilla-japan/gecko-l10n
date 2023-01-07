@@ -12,4 +12,4 @@ calendar-import-new-calendar = @@New-CMD@@カレンダー...
 calendar-refresh-calendars =
     .title = すべてのカレンダーを再読み込みして変更を同期します
 calendar-new-event-primary-button = @@New-CMD@@予定
-calendar-new-task-primary-button = @@New-CMD@@ToDo
+calendar-new-task-primary-button = @@New-CMD@@ ToDo
