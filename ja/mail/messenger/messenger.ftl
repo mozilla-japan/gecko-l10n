@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -12,15 +13,13 @@ messenger-window-restore-down-button =
     .tooltiptext = 元に戻す
 messenger-window-close-button =
     .tooltiptext = @@CloseCMD@@
-
 # Variables:
 # $count (Number) - Number of unread messages.
 unread-messages-os-tooltip =
     { $count ->
-         [one] 1 通の未読メッセージ
-        *[other] { $count } 通の未読メッセージ
+        [one] 1 通の未読メッセージ
+       *[other] { $count } 通の未読メッセージ
     }
-
 about-rights-notification-text = { -brand-short-name } は無料のオープンソースソフトウェアであり、世界中の多数のコミュニティによって開発されています。
 
 ## Content tabs
@@ -108,10 +107,11 @@ appmenu-redirect-msg =
 context-menu-redirect-msg =
     .label = リダイレクト
 mail-context-delete-messages =
-    .label = { $count ->
-         [one] メッセージを削除
-        *[other] 選択したメッセージを削除
-    }
+    .label =
+        { $count ->
+            [one] メッセージを削除
+           *[other] 選択したメッセージを削除
+        }
 context-menu-decrypt-to-folder =
     .label = 復号したメッセージをコピー
     .accesskey = y
@@ -251,10 +251,12 @@ spaces-pinned-button-menuitem-show =
 # Variables:
 # $count (Number) - Number of unread messages.
 chat-button-unread-messages = { $count }
-    .title = { $count ->
-        [one] 1 件の未読メッセージ
-        *[other] { $count } 件の未読メッセージ
-    }
+    .title =
+        { $count ->
+            [one] 1 件の未読メッセージ
+           *[other] { $count } 件の未読メッセージ
+        }
+
 ## Spaces toolbar customize panel
 
 menuitem-customize-label =
@@ -272,3 +274,15 @@ spaces-customize-button-restore = 初期設定に戻す
     .accesskey = R
 customize-panel-button-save = 完了
     .accesskey = D
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = クイックフィルターバー
+    .accesskey = Q
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
