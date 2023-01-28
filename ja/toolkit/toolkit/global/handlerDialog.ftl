@@ -8,12 +8,21 @@
 ##  $scheme - the type of link that's being opened.
 ##  $appName - Name of the application that will be opened.
 
+## Permission Dialog
+## Variables:
+##  $host - the hostname that is initiating the request
+##  $scheme - the type of link that's being opened.
+##  $appName - Name of the application that will be opened.
+##  $extension - Name of extension that initiated the request
+
 permission-dialog-description = このサイトに { $scheme } リンクを開くことを許可しますか？
 permission-dialog-description-file = このファイルに { $scheme } リンクを開くことを許可しますか？
 permission-dialog-description-host = { $host } に { $scheme } リンクを開くことを許可しますか？
+permission-dialog-description-extension = 拡張機能 { $extension } に { $scheme } リンクを開くことを許可しますか？
 permission-dialog-description-app = このサイトに { $scheme } リンクを { $appName } で開くことを許可しますか？
 permission-dialog-description-file-app = このファイルに { $scheme } リンクを { $appName } で開くことを許可しますか？
 permission-dialog-description-host-app = { $host } に { $scheme } リンクを { $appName } で開くことを許可しますか？
+permission-dialog-description-extension-app = 拡張機能 { $extension } に { $scheme } リンクを { $appName } で開くことを許可しますか？
 
 ## Please keep the emphasis around the hostname and scheme (ie the
 ## `<strong>` HTML tags). Please also keep the hostname as close to the start
@@ -21,6 +30,7 @@ permission-dialog-description-host-app = { $host } に { $scheme } リンクを 
 
 permission-dialog-remember = <strong>{ $host }</strong> が <strong>{ $scheme }</strong> リンクを開くことを常に許可する
 permission-dialog-remember-file = このファイルが <strong>{ $scheme }</strong> リンクを開くことを常に許可する
+permission-dialog-remember-extension = この拡張機能が <strong>{ $scheme }</strong> リンクを開くことを常に許可する
 
 ##
 

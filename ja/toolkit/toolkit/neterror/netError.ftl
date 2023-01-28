@@ -15,7 +15,7 @@ neterror-malformed-uri-page-title = 不正な URL
 
 ## Error page actions
 
-neterror-advanced-button = 詳細情報...
+neterror-advanced-button = 詳細へ進む...
 neterror-copy-to-clipboard-button = テキストをクリップボードにコピー
 neterror-learn-more-link = エラーの説明...
 neterror-open-portal-login-page-button = ネットワークのログインページを開く
@@ -27,6 +27,7 @@ neterror-try-again-button = 再試行
 neterror-add-exception-button = このサイトは常に続行する
 neterror-settings-button = DNS 設定を変更
 neterror-view-certificate-link = 証明書を確認
+neterror-disable-native-feedback-warning = 常に続行する
 
 ##
 
@@ -61,6 +62,15 @@ neterror-dns-not-found-trr-offline = インターネットに接続されてい�
 neterror-dns-not-found-trr-unknown-host = { $trrDomain } でこのウェブサイトのアドレスが見つかりませんでした。
 neterror-dns-not-found-trr-server-problem = { $trrDomain } のサーバーに問題があります。
 neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生しました。
+
+## Native fallback specific messages
+## Variables:
+##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
+
+neterror-dns-not-found-native-fallback-reason = { -brand-short-name } は信頼された DNS リゾルバーを通じてこのサイトのアドレスに対する要求を保護することができません。理由:
+neterror-dns-not-found-native-fallback-attackers = 安全でない DNS リゾルバーで続行することができますが、第三者にあなたの訪れたウェブサイトを知られたり、信頼できないサイトへ転送されたりする可能性があります。
+neterror-dns-not-found-native-fallback-heuristic = ご利用のネットワークでは DNS over HTTPs が無効化されています。
+neterror-dns-not-found-native-fallback-not-confirmed = { $trrDomain } への接続がまだ準備できていません。
 
 ##
 
