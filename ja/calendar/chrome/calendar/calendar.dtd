@@ -91,6 +91,7 @@
 <!ENTITY calendar.week.button.label			"週" >
 <!ENTITY calendar.month.button.label			"月" >
 <!ENTITY calendar.multiweek.button.label		"多週" >
+
 <!ENTITY calendar.onlyworkday.checkbox.label		"勤務日のみ表示" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey	"r" >
 <!ENTITY calendar.displaytodos.checkbox.label		"ToDo を表示" >

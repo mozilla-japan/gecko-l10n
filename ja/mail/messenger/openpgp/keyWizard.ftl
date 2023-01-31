@@ -74,7 +74,7 @@ openpgp-keygen-short-expiry = 有効期限を 1 日以内に設定すること�
 openpgp-keygen-ongoing = 既に鍵の生成は進行中です！
 openpgp-keygen-error-core = OpenPGP コアサービスを初期化できません
 openpgp-keygen-error-failed = OpenPGP 鍵の生成に予期せず失敗しました
-#   $identity (String) - the newly generate OpenPGP Key
+#   $key (String) - the ID of the newly generated OpenPGP key
 openpgp-keygen-error-revocation = OpenPGP 鍵の生成に成功しましたが、鍵 { $key } の失効証明書を生成できませんでした
 openpgp-keygen-abort-title = 鍵の生成を中止しますか？
 openpgp-keygen-abort = 現在 OpenPGP 鍵の生成が進行中です。キャンセルしますか？
@@ -96,7 +96,7 @@ openpgp-import-key-list-amount-2 =
 openpgp-import-key-list-description = どの鍵をあなたの個人鍵として利用するか確認してください。あなた自身が作成し、あなた自身の差出人情報が表示される鍵のみを個人鍵として利用可能です。後からこの設定を鍵の@@PropertyCMD@@ダイアログから変更することもできます。
 openpgp-import-key-list-caption = 個人鍵として利用するとマークされた鍵は、エンドツーエンド暗号化セクションに表示されます。それ以外の鍵は、鍵マネージャーの中で利用可能です。
 openpgp-passphrase-prompt-title = パスフレーズが必要です
-#   $identity (String) - the id of the key being imported
+#   $key (String) - the id of the key being imported
 openpgp-passphrase-prompt = 以下の鍵のロックを解除するためにパスフレーズを入力してください: { $key }
 openpgp-import-key-button =
     .label = @@Import-suru@@ファイルを選択...

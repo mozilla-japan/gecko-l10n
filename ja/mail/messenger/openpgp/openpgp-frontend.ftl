@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = 署名を検証
     .accesskey = V
 openpgp-has-sender-key = このメッセージには送信者の OpenPGP 公開鍵が含まれています。
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = 警告: このメッセージに含まれる新しい OpenPGP 公開鍵は、{ $email } のものとしてあなたが以前に受け入れた公開鍵と異なります。
 openpgp-import-sender-key =
     .label = @@Import@@...
@@ -32,6 +34,8 @@ openpgp-broken-exchange-info = このメッセージは、おそらく MS-Exchan
 openpgp-broken-exchange-repair =
     .label = メッセージを修復
 openpgp-broken-exchange-wait = しばらくお待ちください...
+openpgp-has-nested-encrypted-parts = このメッセージには追加の暗号化された部分が含まれています。
+openpgp-show-encrypted-parts = 復号して表示
 openpgp-cannot-decrypt-because-mdc =
     これは、古く脆弱性のあるメカニズムによって暗号化されたメッセージです。
     そのため、メッセージの内容を傍受するために通信途中で書き換えられているおそれがあります。

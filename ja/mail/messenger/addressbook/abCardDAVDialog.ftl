@@ -15,6 +15,8 @@ carddav-location-label =
 carddav-location =
     .default-placeholder = アドレス帳サーバーの URL またはホスト名
 carddav-loading = 設定を探しています...
+# Variables:
+# $url (String) - CardDAV endpoint hostname. For example "example.com".
 carddav-known-incompatible = { $url } は { -brand-short-name } と互換性がありません。
 carddav-connection-error = 接続に失敗しました。
 carddav-none-found = 指定されたアカウントに追加するアドレス帳が見つかりませんでした。

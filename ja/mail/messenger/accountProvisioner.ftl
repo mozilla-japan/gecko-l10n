@@ -49,6 +49,8 @@ account-provisioner-results-title =
 account-provisioner-mail-results-caption = ニックネームや他の検索語句を試して別のメールアドレスを見つけてください。
 account-provisioner-domain-results-caption = ニックネームや他の検索語句を試して別のドメイン名を見つけてください。
 account-provisioner-free-account = 無料
+# Variables:
+# $price (String) - Yearly fee for the mail account. For example "US $9.99".
 account-provision-price-per-year = { $price } / 年
 account-provisioner-all-results-button = すべての検索結果を表示
 account-provisioner-open-in-tab-img =

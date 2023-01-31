@@ -16,8 +16,11 @@ openpgp-recip-missing = 利用可能な鍵がありません
 openpgp-recip-none-accepted = 受け入れられた鍵がありません
 openpgp-compose-general-info-alias = { -brand-short-name} は通常、メールアドレスと一致するユーザー ID を含む受信者の公開鍵を必要とします。これは OpenPGP の受信者エイリアス規則で上書きできます。
 openpgp-compose-general-info-alias-learn-more = 詳細情報
-openpgp-compose-alias-status-direct = { $count ->
-      [one] 1 個のエイリアス鍵に割り当てました
-      *[other] {$count} 個のエイリアス鍵に割り当てました
+# Variables:
+# $count (Number) - Number of alias keys for a recipient.
+openpgp-compose-alias-status-direct =
+    { $count ->
+        [one] 1 個のエイリアス鍵に割り当てました
+       *[other] {$count} 個のエイリアス鍵に割り当てました
     }
 openpgp-compose-alias-status-error = 使用不能または利用不可のエイリアス鍵
