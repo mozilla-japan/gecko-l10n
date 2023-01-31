@@ -147,6 +147,9 @@ urlbar-result-menu-button =
 urlbar-result-menu-remove-from-history =
     .label = 履歴から削除
     .accesskey = R
+urlbar-result-menu-tip-get-help =
+    .label = ヘルプを表示
+    .accesskey = h
 
 ## Prompts users to use the Urlbar when they open a new tab or visit the
 ## homepage of their default search engine.
@@ -284,15 +287,11 @@ search-one-offs-actions =
 quickactions-addons = アドオンを表示
 quickactions-cmd-addons2 = add-ons
 # Opens the bookmarks library window
-quickactions-bookmarks = ブックマークを表示
-# Opens the bookmarks library window
 quickactions-bookmarks2 = ブックマークを管理
 quickactions-cmd-bookmarks = bookmarks
 # Opens a SUMO article explaining how to clear history
 quickactions-clearhistory = 履歴を消去
 quickactions-cmd-clearhistory = clear history
-# Opens about:downloads page
-quickactions-downloads = ダウンロードを開く
 # Opens about:downloads page
 quickactions-downloads2 = ダウンロードを表示
 quickactions-cmd-downloads = downloads
@@ -300,12 +299,8 @@ quickactions-cmd-downloads = downloads
 quickactions-extensions = 拡張機能を管理
 quickactions-cmd-extensions = extensions
 # Opens the devtools web inspector
-quickactions-inspector = インスペクターを開く
-# Opens the devtools web inspector
 quickactions-inspector2 = 開発ツールを開く
 quickactions-cmd-inspector = inspector, devtools
-# Opens about:logins
-quickactions-logins = ログイン情報を表示
 # Opens about:logins
 quickactions-logins2 = パスワードを管理
 quickactions-cmd-logins = logins, passwords
@@ -313,12 +308,8 @@ quickactions-cmd-logins = logins, passwords
 quickactions-plugins = プラグインを管理
 quickactions-cmd-plugins = plugins
 # Opens the print dialog
-quickactions-print = @@Print@@
-# Opens the print dialog
 quickactions-print2 = ページを@@Print@@
 quickactions-cmd-print = print
-# Opens a new private browsing window
-quickactions-private = プライベートブラウジング@@Window@@を開く
 # Opens a new private browsing window
 quickactions-private2 = プライベート@@Window@@を開く
 quickactions-cmd-private = private browsing
@@ -329,12 +320,8 @@ quickactions-cmd-refresh = refresh
 quickactions-restart = { -brand-short-name } を再起動
 quickactions-cmd-restart = restart
 # Opens the screenshot tool
-quickactions-screenshot2 = スクリーンショットを撮影
-# Opens the screenshot tool
 quickactions-screenshot3 = スクリーンショットを撮影
 quickactions-cmd-screenshot = screenshot
-# Opens about:preferences
-quickactions-settings = 設定を開く
 # Opens about:preferences
 quickactions-settings2 = 設定を管理
 quickactions-cmd-settings = settings, preferences, options
@@ -344,8 +331,6 @@ quickactions-cmd-themes = themes
 # Opens a SUMO article explaining how to update the browser
 quickactions-update = { -brand-short-name } を更新
 quickactions-cmd-update = update
-# Opens the view-source UI with current pages source
-quickactions-viewsource = ソースを表示
 # Opens the view-source UI with current pages source
 quickactions-viewsource2 = ページのソースを表示
 quickactions-cmd-viewsource = view source, source

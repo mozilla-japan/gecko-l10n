@@ -78,6 +78,9 @@ dnsNotFound-title = アクセスしようとしているサイトを見つけら
 # Variables:
 #   $hostname (String) - Hostname of the website to which the user was trying to connect.
 dns-not-found-trr-only-title = { $hostname } にセキュリティ上の危険性があります。
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+dns-not-found-native-fallback-title = { $hostname } にセキュリティ上の危険性があります。
 fileNotFound-title = ファイルが見つかりませんでした
 fileAccessDenied-title = ファイルへのアクセスが拒否されました
 generic-title = リクエストを正常に完了できませんでした

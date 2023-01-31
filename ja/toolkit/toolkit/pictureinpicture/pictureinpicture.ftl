@@ -19,27 +19,6 @@ pictureinpicture-close =
 ## Variables:
 ##   $shortcut (String) - Keyboard shortcut to execute the command.
 
-pictureinpicture-pause-cmd =
-    .aria-label = 一時停止
-    .title = 一時停止 (スペースキー)
-pictureinpicture-play-cmd =
-    .aria-label = 再生
-    .title = 再生 (スペースキー)
-pictureinpicture-mute-cmd =
-    .aria-label = ミュート
-    .title = ミュート ({ $shortcut })
-pictureinpicture-unmute-cmd =
-    .aria-label = ミュート解除
-    .title = ミュート解除 ({ $shortcut })
-pictureinpicture-unpip-cmd =
-    .aria-label = タブに戻す
-    .title = タブに戻す
-pictureinpicture-close-cmd =
-    .aria-label = 閉じる
-    .title = 閉じる ({ $shortcut })
-pictureinpicture-subtitles-cmd =
-    .aria-label = 字幕
-    .title = 字幕
 pictureinpicture-pause-btn =
     .aria-label = 一時停止
     .tooltip = 一時停止 (スペースキー)
@@ -64,18 +43,6 @@ pictureinpicture-subtitles-btn =
 
 ##
 
-pictureinpicture-fullscreen-cmd =
-    .aria-label = @@FullScreen@@
-    .title = @@FullScreen@@ (ダブルクリック)
-pictureinpicture-exit-fullscreen-cmd =
-    .aria-label = @@FullScreen@@を終了
-    .title = @@FullScreen@@を終了 (ダブルクリック)
-pictureinpicture-seekbackward-cmd =
-    .aria-label = 巻き戻し
-    .title = 巻き戻し (←)
-pictureinpicture-seekforward-cmd =
-    .aria-label = 早送り
-    .title = 早送り (→)
 pictureinpicture-fullscreen-btn =
     .aria-label = @@FullScreen@@
     .tooltip = @@FullScreen@@ (ダブルクリック)

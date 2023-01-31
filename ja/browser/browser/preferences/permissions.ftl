@@ -79,10 +79,10 @@ permissions-invalid-uri-label = 有効なホスト名を入力してください
 permissions-exceptions-etp-window =
     .title = 強化型トラッキング防止機能の例外
     .style = { permissions-window.style }
+permissions-exceptions-etp-desc = これらのウェブサイトでは防止機能をオフに設定しています。
 permissions-exceptions-etp-window2 =
     .title = 強化型トラッキング防止機能の例外
     .style = { permissions-window2.style }
-permissions-exceptions-etp-desc = これらのウェブサイトでは防止機能をオフに設定しています。
 permissions-exceptions-manage-etp-desc = 強化型トラッキング防止をオフにするウェブサイトを指定してください。管理したいサイトの正確なアドレスを入力して @@[@@例外を追加@@]@@ をクリックしてください。
 
 ## Exceptions - Cookies
