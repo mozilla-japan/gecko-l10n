@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = 現在すべてのカレンダーが�
 calendar-notifications-label = 今後の予定の通知を表示する
 calendar-add-notification-button =
     .label = 通知を追加
+
+## Side panel
+
+calendar-list-header = カレンダー
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +21,9 @@ calendar-refresh-calendars =
     .title = すべてのカレンダーを再読み込みして変更を同期します
 calendar-new-event-primary-button = @@New-CMD@@予定
 calendar-new-task-primary-button = @@New-CMD@@ ToDo
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = 前の日
     .accesskey = s
