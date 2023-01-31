@@ -192,3 +192,27 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = 他のフォルダーにも適用...
+apply-current-view-to-menu =
+    .label = 現在のビューを適用...
+apply-current-view-to-folder =
+    .label = フォルダー...
+apply-current-view-to-folder-children =
+    .label = フォルダー全体 (サブフォルダーも含む)...
+
+## Apply columns confirmation dialog
+
+apply-changes-to-folder-title = 変更を適用しますか？
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = 現在の列表示を { $name } フォルダーに適用しますか？
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = 現在の列表示を { $name } フォルダー全体 (サブフォルダーを含む) に適用しますか？
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = 現在のフォルダーのビューを { $name } フォルダーに適用しますか？
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = 現在のフォルダーのビューを { $name } フォルダー全体 (サブフォルダーを含む) に適用しますか？
