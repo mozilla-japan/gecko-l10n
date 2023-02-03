@@ -29,14 +29,20 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = ツールバーのカスタマイズ
-customize-space-mail = メール
-customize-space-addressbook = アドレス帳
-customize-space-calendar = カレンダー
-customize-space-tasks = ToDo
-customize-space-chat = チャット
-customize-space-settings = 設定
+customize-space-tab-mail = メール
+    .title = メール
+customize-space-tab-addressbook = アドレス帳
+    .title = アドレス帳
+customize-space-tab-calendar = カレンダー
+    .title = カレンダー
+customize-space-tab-tasks = ToDo
+    .title = ToDo
+customize-space-tab-chat = チャット
+    .title = チャット
+customize-space-tab-settings = 設定
+    .title = 設定
 customize-restore-default = 初期設定に戻す
-customize-change-appearance = 外観を変更する...
+customize-change-appearance = 外観を変更...
 customize-button-style-label = ボタンスタイル:
 customize-button-style-icons-beside-text =
     .label = アイコンの横にテキスト
