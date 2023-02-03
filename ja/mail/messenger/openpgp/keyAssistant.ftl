@@ -75,6 +75,8 @@ openpgp-key-assistant-key-collected-attachment = メール添付
 openpgp-key-assistant-key-collected-autocrypt = Autocrypt ヘッダー
 openpgp-key-assistant-key-collected-keyserver = 鍵サーバー
 openpgp-key-assistant-key-collected-wkd = Web Key Directory
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = GnuPG の鍵束
 # Variables:
 # $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =
