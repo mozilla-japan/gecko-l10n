@@ -135,6 +135,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = 公開鍵をメールで送信
     .accesskey = S
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -142,6 +144,8 @@ openpgp-key-man-copy-key-ids =
            *[other] 鍵 ID をクリップボードにコピー
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -149,6 +153,8 @@ openpgp-key-man-copy-fprs =
            *[other] フィンガープリントをクリップボードにコピー
         }
     .accesskey = F
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -161,6 +167,8 @@ openpgp-key-man-ctx-expor-to-file-label =
 openpgp-key-man-ctx-copy =
     .label = コピー
     .accesskey = C
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -168,6 +176,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] フィンガープリント
         }
     .accesskey = F
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -175,6 +185,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] 鍵 ID
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -336,9 +348,9 @@ openpgp-radio-none-desc = この差出人では OpenPGP を利用しません。
 openpgp-radio-key-not-usable = この鍵は秘密鍵が足りないため個人鍵として使用できません！
 openpgp-radio-key-not-accepted = この鍵を使用するには個人鍵として承認しなければなりません！
 openpgp-radio-key-not-found = この鍵を見つけられませんでした！ 使用したい場合はこの鍵を { -brand-short-name } に@@Import-site@@ください。
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = 有効期限: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = 有効期限切れ: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = 鍵が 6 か月以内に失効します
@@ -358,7 +370,8 @@ openpgp-key-remove-external =
     .accesskey = E
 key-external-label = 外部 GnuPG 鍵
 
-# Strings in keyDetailsDlg.xhtml
+## Strings in keyDetailsDlg.xhtml
+
 key-type-public = 公開鍵
 key-type-primary = 主鍵
 key-type-subkey = 副鍵
@@ -369,21 +382,30 @@ key-usage-sign = 署名
 key-usage-certify = 証明
 key-usage-authentication = 認証
 key-does-not-expire = 鍵の有効期限は無期限です
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = 鍵の有効期限が { $keyExpiry } に切れています
 key-expired-simple = 鍵が有効期限切れです
 key-revoked-simple = 鍵が失効しています
 key-do-you-accept = この鍵をデジタル署名の検証とメッセージの暗号化のために受け入れますか？
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = メール以外の安全な通信手段で鍵のフィンガープリントを検証し、本当に { $addr } の鍵であることを確認してください。
 
-# Strings enigmailMsgComposeOverlay.js
+## Strings enigmailMsgComposeOverlay.js
+
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = あなたの個人鍵に問題があるためメッセージを送信できませんでした。{ $problem }
 cannot-encrypt-because-missing = 以下の受信者の鍵に問題があるためエンドツーエンド暗号化によるメッセージを送信できませんでした: { $problem }
 window-locked = メッセージ作成@@Window@@がロックされているため、送信がキャンセルされました。
 
-# Strings in mimeDecrypt.jsm
+## Strings in mimeDecrypt.jsm
+
 mime-decrypt-encrypted-part-concealed-data = これは暗号化されたメッセージの一部です。添付ファイルをクリックして別の@@Window@@で開きます。
 
-# Strings in keyserver.jsm
+## Strings in keyserver.jsm
+
 keyserver-error-aborted = 中止されました
 keyserver-error-unknown = 原因不明のエラーが発生しました
 keyserver-error-server-error = 鍵サーバーからエラーが報告されました。
@@ -393,7 +415,8 @@ keyserver-error-security-error = 鍵サーバーが暗号化したアクセス�
 keyserver-error-certificate-error = 鍵サーバーの証明書が不正です。
 keyserver-error-unsupported = 鍵サーバーが対応していません。
 
-# Strings in mimeWkdHandler.jsm
+## Strings in mimeWkdHandler.jsm
+
 wkd-message-body-req =
     ご利用のメールプロバイダーが要求を処理し、OpenPGP Web Key Directory にあなたの公開鍵をアップロードしました。
     あなたの公開鍵が Directory 上で公開されていることを確認してください。
@@ -401,30 +424,40 @@ wkd-message-body-process =
     これは、あなたの公開鍵を OpenPGP Web Key Directory へアップロードする自動的な処理に関連したメールです。
     現時点では何も行う必要はありません。
 
-# Strings in persistentCrypto.jsm
+## Strings in persistentCrypto.jsm
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     以下の件名のメッセージを復号できませんでした。
     { $subject }
     別のパスフレーズを試しますか？ それともメッセージをスキップしますか？
 
-# Strings filters.jsm
+## Strings filters.jsm
+
 filter-folder-required = 対象のフォルダーを指定してください。
 filter-decrypt-move-warn-experimental =
     警告 - @@[@@メッセージを恒久的に復号する@@]@@ フィルターは、メッセージを破損する可能性があります。
     はじめに @@[@@復号したメッセージのコピーを作成する@@]@@ フィルターを試験的に利用し、その結果に問題がないことを確認したうえで @@[@@メッセージを恒久的に復号する@@]@@ フィルターを使用することを強く推奨します。
 filter-term-pgpencrypted-label = OpenPGP 暗号化
 filter-key-required = 受信者の鍵を選択してください。
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = ‘{ $desc }’ に対する暗号化の鍵を見つけることができません。
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     警告 - @@[@@鍵に対して暗号化する@@]@@ フィルターは、受信者を上書きします。
     ‘{ $desc }’ に対する秘密鍵を持っていない場合、メッセージが復号できなくなります。
 
-# Strings filtersWrapper.jsm
+## Strings filtersWrapper.jsm
+
 filter-decrypt-move-label = メッセージを恒久的に復号する (Enigmail)
 filter-decrypt-copy-label = 復号したメッセージのコピーを作成する (Enigmail)
 filter-encrypt-label = 鍵に対して暗号化する (Enigmail)
 
-# Strings in enigmailKeyImportInfo.js
+## Strings in enigmailKeyImportInfo.js
+
 import-info-title =
     .title = 成功！ 鍵を@@Import-si@@ました
 import-info-bits = ビット
@@ -433,11 +466,14 @@ import-info-fpr = フィンガープリント
 import-info-details = 詳細を表示し鍵の受け入れを管理
 import-info-no-keys = 鍵は@@Import-sare@@ませんでした。
 
-# Strings in enigmailKeyManager.js
+## Strings in enigmailKeyManager.js
+
 import-from-clip = クリップボードから鍵を@@Import-si@@ますか？
 import-from-url = この URL から公開鍵をダウンロード:
 copy-to-clipbrd-failed = 選択した鍵をクリップボードにコピーできませんでした。
 copy-to-clipbrd-ok = 鍵をクリップボードにコピーしました
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     警告: あなたは秘密鍵を削除しようとしています！
 
@@ -449,6 +485,8 @@ delete-mix =
     警告: あなたは秘密鍵を削除しようとしています！
     秘密鍵を削除した場合、これとペアの公開鍵で暗号化されたメッセージが復号できなくなります。
     以下の秘密鍵と公開鍵の両方を本当に削除してもよろしいですか？
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     公開鍵を削除しますか？
     ‘{ $userId }’
@@ -469,6 +507,8 @@ default-pub-key-filename = Exported-public-keys
 default-pub-sec-key-filename = Backup-of-secret-keys
 refresh-key-warn = 警告: 鍵の数や回線速度によっては、すべての鍵の更新に非常に時間がかかる可能性があります！
 preview-failed = 公開鍵ファイルの読み取りに失敗しました。
+# Variables:
+# $reason (String) - Error description.
 general-error = エラー: { $reason }
 dlg-button-delete = 削除(&D)
 
@@ -479,7 +519,11 @@ openpgp-export-public-fail = <b>選択した公開鍵の@@ExportNoun@@に失敗�
 openpgp-export-secret-success = <b>秘密鍵の@@ExportNoun@@に成功しました！</b>
 openpgp-export-secret-fail = <b>選択した秘密鍵の@@ExportNoun@@に失敗しました！</b>
 
-# Strings in keyObj.jsm
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = 鍵 { $userId } (鍵 ID { $keyId }) は失効しています。
 key-ring-pub-key-expired = 鍵 { $userId } (鍵 ID { $keyId }) は有効期限切れです。
 key-ring-no-secret-key = { $userId } (鍵 ID { $keyId }) の秘密鍵が鍵束の中にないため、この鍵を署名に利用することはできません。
@@ -490,11 +534,13 @@ key-ring-sign-sub-keys-expired = 鍵 { $userId } (鍵 ID { $keyId }) のすべ�
 key-ring-enc-sub-keys-revoked = 鍵 { $userId } (鍵 ID { $keyId }) のすべての暗号化用の副鍵は失効しています。
 key-ring-enc-sub-keys-expired = 鍵 { $userId } (鍵 ID { $keyId }) のすべての暗号化用の副鍵は有効期限切れです。
 
-# Strings in gnupg-keylist.jsm
+## Strings in gnupg-keylist.jsm
+
 keyring-photo = 写真
 user-att-photo = ユーザーの特徴 (JPEG 画像)
 
-# Strings in key.jsm
+## Strings in key.jsm
+
 already-revoked = この鍵は既に失効しています。
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -515,7 +561,8 @@ after-revoke-info =
     ソフトウェアが失効証明書を認識すると、あなたの古い鍵の利用を停止するでしょう。
     同じメールアドレスに対する新しい鍵を利用しているのであれば、新しい公開鍵を添付してメッセージを送信することで、失効した古い鍵についての情報も周知されます。
 
-# Strings in keyRing.jsm & decryption.jsm
+## Strings in keyRing.jsm & decryption.jsm
+
 key-man-button-import = @@Import@@(&I)
 delete-key-title = OpenPGP 鍵を削除
 delete-external-key-title = 外部 GnuPG 鍵を除去
@@ -524,31 +571,43 @@ key-in-use-title = 利用中の OpenPGP 鍵です
 delete-key-in-use-description = 処理を進められません！ 削除のために選択した鍵はこの差出人で現在利用中です。違う鍵を選択するか、何も選択せずにもう一度試してください。
 revoke-key-in-use-description = 処理を進められません！ 失効のために選択した鍵はこの差出人で現在利用中です。違う鍵を選択するか、何も選択せずにもう一度試してください。
 
-# Strings used in errorHandling.jsm
+## Strings used in errorHandling.jsm
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = メールアドレス ‘{ $keySpec }’ に適合する鍵が鍵束の中にありません。
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = 指定された鍵 ID ‘{ $keySpec }’ が鍵束の中にありません
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = ID ‘{ $keySpec }’ の鍵があなたの個人鍵であると確認していません。
 
-# Strings used in enigmailKeyManager.js & windows.jsm
+## Strings used in enigmailKeyManager.js & windows.jsm
+
 need-online = 選択された機能はオフラインモードでは使用できません。オンラインでもう一度試してください。
 
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
 no-key-found2 = 指定された検索条件に適合する利用可能な鍵を見つけられませんでした。
 no-update-found = オンラインで見つけた鍵はすでに持っています。
 
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
 fail-key-extract = エラー - 鍵の展開コマンドに失敗しました
 
-# Strings used in keyRing.jsm
+## Strings used in keyRing.jsm
+
 fail-cancel = エラー - ユーザーの操作により鍵サーバーからの鍵の@@ImportNoun@@が中止されました。
 not-first-block = エラー - 最初の OpenPGP ブロックは公開鍵ではありません。
 import-key-confirm = メッセージに埋め込まれた鍵を@@Import-si@@ますか？
 fail-key-import = エラー - 鍵の@@ImportNoun@@に失敗しました。
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = ファイル { $output } への書き出しに失敗しました。
 no-pgp-block = エラー - 有効な OpenPGP データブロックが見つかりません。
 confirm-permissive-import = @@ImportNoun@@に失敗しました。@@ImportNoun@@を試みた鍵は、破損しているか未知の属性が使われています。正常な部分のみの@@ImportNoun@@を試みますか？ この場合、@@ImportNoun@@が完了しない、あるいは利用できない鍵となる可能性があります。
 
-# Strings used in trust.jsm
+## Strings used in trust.jsm
+
 key-valid-unknown = 未知
 key-valid-invalid = 不正
 key-valid-disabled = 無効化
@@ -560,15 +619,19 @@ key-trust-full = 完全な信用
 key-trust-ultimate = 絶対的な信用
 key-trust-group = (グループ)
 
-# Strings used in commonWorkflows.js
+## Strings used in commonWorkflows.js
+
 import-key-file = OpenPGP 鍵ファイルを@@Import@@
 import-rev-file = OpenPGP 失効証明書ファイルを@@Import@@
 gnupg-file = GnuPG ファイル
 import-keys-failed = 鍵の@@ImportNoun@@に失敗しました
+# Variables:
+# $key (String) - Key id to unlock.
 passphrase-prompt = 以下の鍵のロックを解除するため、パスフレーズを入力してください: { $key }
 file-to-big-to-import = ファイルが大きすぎます。たくさんの鍵を一度に@@Import-sinai@@でください。
 
-# Strings used in enigmailKeygen.js
+## Strings used in enigmailKeygen.js
+
 save-revoke-cert-as = 失効証明書を生成して保存
 revoke-cert-ok = 失効証明書は正常に生成されました。秘密鍵をなくした場合など、公開鍵を無効化するときに利用できます。
 revoke-cert-failed = 失効証明書を生成できませんでした。
@@ -576,18 +639,29 @@ gen-going = 鍵を生成中です！
 keygen-missing-user-name = 選択されたアカウントまたは差出人の名前が設定されていません。アカウント設定の @@[@@あなたの名前@@]@@ フィールドに名前を入力してください。
 expiry-too-short = 有効期限を 1 日以内に設定することはできません。
 expiry-too-long = 有効期限を 100 年以上先に設定することはできません。
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = ‘{ $id }’ の公開鍵と秘密鍵を生成しますか？
 key-man-button-generate-key = 鍵を生成(&G)
 key-abort = 鍵の生成を中止しますか？
 key-man-button-generate-key-abort = 鍵の生成を中止(&A)
 key-man-button-generate-key-continue = 鍵の生成を継続(&C)
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
+
 failed-decrypt = エラー - 復号に失敗しました
 fix-broken-exchange-msg-failed = このメッセージを修復できませんでした。
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = 署名ファイル ‘{ $attachment }’ は添付ファイルに適合しませんでした
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = 添付ファイル ‘{ $attachment }’ は署名ファイルに適合しませんでした
+# Variables:
+# $attachment (String) - File name of the attachment.
 signature-verified-ok = 添付ファイル ‘{ $attachment }’ の署名は正常に検証されました
+# Variables:
+# $attachment (String) - File name of the attachment.
 signature-verify-failed = 添付ファイル ‘{ $attachment }’ の署名を検証できませんでした
 decrypt-ok-no-sig =
     警告
@@ -595,14 +669,23 @@ decrypt-ok-no-sig =
 msg-ovl-button-cont-anyway = それでも続行する(&C)
 enig-content-note = *Attachments to this message have not been signed nor encrypted*
 
-# Strings used in enigmailMsgComposeOverlay.js
+## Strings used in enigmailMsgComposeOverlay.js
+
 msg-compose-button-send = メッセージを送信(&S)
 msg-compose-details-button-label = 詳細...
 msg-compose-details-button-access-key = D
 send-aborted = 送信を中止しました。
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = 鍵 ‘{ $key }’ の信用度が不足しています。
+# Variables:
+# $key (String) - Key id.
 key-not-found = 鍵 ‘{ $key }’ が見つかりません。
+# Variables:
+# $key (String) - Key id.
 key-revoked = 鍵 ‘{ $key }’ は失効しています。
+# Variables:
+# $key (String) - Key id.
 key-expired = 鍵 ‘{ $key }’ は有効期限切れです。
 msg-compose-internal-error = 内部エラーが発生しました。
 keys-to-export = @@Export-suru@@ OpenPGP 鍵を選択
@@ -614,6 +697,8 @@ msg-compose-partially-encrypted-short = 機密情報の漏洩に注意してく�
 quoted-printable-warn =
     ‘quoted-printable’ エンコーディングが送信メッセージに対して有効になっています。これにより、暗号化や署名の検証の動作に悪影響を及ぼす可能性があります。
     今すぐ ‘quoted-printable’ エンコーディングを無効にしますか？
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     { $width } 文字で改行する設定になっています。正しい暗号化および署名には、少なくとも 68 文字で改行する必要があります。
     今すぐ 68 文字での改行に変更しますか？
@@ -626,34 +711,56 @@ send-to-news-warning =
     続行しますか？
 save-attachment-header = 復号した添付ファイルを保存
 possibly-pgp-mime = おそらく PGP/MIME 形式で暗号化あるいは署名されたメッセージです。‘復号/検証’ 機能で検証してください
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = このメッセージにデジタル署名できませんでした。<{ $key }> のためのエンドツーエンド暗号化が設定されていません
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = このメッセージを暗号化できませんでした。<{ $key }> のためのエンドツーエンド暗号化が設定されていません
 
-# Strings used in decryption.jsm
+## Strings used in decryption.jsm
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     以下の鍵を@@Import-si@@ますか？
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = { $name } ({ $id }) を@@Import-si@@ますか？
 cant-import = 公開鍵の@@ImportNoun@@中にエラーが発生しました。
 unverified-reply = インデントされた (返信) 部分がおそらく変更されています。
 key-in-message-body = メッセージに鍵が含まれています。@@[@@鍵@@-ImportCMD@@@@]@@ をクリックして鍵を@@Import-site@@ください。
 sig-mismatch = エラー - 署名が一致しません。
 invalid-email = エラー - 無効なメールアドレスです。
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key = 開こうとしている添付ファイル ‘{ $name }’ は OpenPGP 鍵ファイルです。@@[@@@@Import@@@@]@@ をクリックして鍵を@@Import-suru@@か、@@[@@表示@@]@@ をクリックしてファイルの内容を@@Window@@に表示してください。
 dlg-button-view = 表示(&V)
 
-# Strings used in enigmailMsgHdrViewOverlay.js
+## Strings used in enigmailMsgHdrViewOverlay.js
+
 decrypted-msg-with-format-error = 復号されたメッセージ (古い Exchange サーバーによる PGP フォーマットの破損を修復しているため、復号結果を正しく読むことができない可能性があります)。
 
-# Strings used in encryption.jsm
+## Strings used in encryption.jsm
+
 not-required = エラー - 暗号化は必要ありません。
 
-# Strings used in windows.jsm
+## Strings used in windows.jsm
+
 no-photo-available = 写真が利用できません
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = 写真へのパス ‘{ $photo }’ が読み込めません。
 debug-log-title = OpenPGP デバッグログ
 
-# Strings used in dialog.jsm
+## Strings used in dialog.jsm
+
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
 repeat-prefix = この警告は { $count }
 repeat-suffix-singular = 回繰り返されます。
 repeat-suffix-plural = 回繰り返されます。
@@ -668,10 +775,12 @@ enig-confirm = OpenPGP 確認
 enig-alert = OpenPGP 警告
 enig-info = OpenPGP 情報
 
-# Strings used in persistentCrypto.jsm
+## Strings used in persistentCrypto.jsm
+
 dlg-button-retry = 再試行(&R)
 dlg-button-skip = スキップ(&S)
 
-# Strings used in enigmailMsgBox.js
+## Strings used in enigmailMsgBox.js
+
 enig-alert-title =
     .title = OpenPGP 警告

@@ -33,11 +33,15 @@ calendar-ics-file-dialog-progress-message = @@Import-site@@います...
 calendar-ics-file-import-success = @@ImportNoun@@が完了しました。
 calendar-ics-file-import-error = エラーが発生したため@@ImportNoun@@に失敗しました。
 calendar-ics-file-import-complete = @@ImportNoun@@完了。
+# Variables:
+# $duplicatesCount (Number) - Number of items already existing in the target calendar.
 calendar-ics-file-import-duplicates =
     { $duplicatesCount ->
         [one] 1 件の項目が対象のカレンダーに既に存在しているため無視されました。
        *[other] { $duplicatesCount } 件の項目が対象のカレンダーに既に存在しているため無視されました。
     }
+# Variables:
+# $errorsCount (Number) - Number of errors while importing ics file.
 calendar-ics-file-import-errors =
     { $errorsCount ->
         [one] 1 件の項目が@@ImportNoun@@に失敗しました。詳細はエラーコンソールを確認してください。

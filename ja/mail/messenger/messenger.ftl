@@ -106,6 +106,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = リダイレクト
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +171,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = { $name } を削除しますか？
 addon-removal-confirmation-button = 削除
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = { $name } とその設定およびデータを { -brand-short-name } から削除しますか？
 caret-browsing-prompt-title = キャレットブラウジング
 caret-browsing-prompt-text = F7 キーを押すとキャレットブラウジングのオンとオフを切り替えられます。この機能は、移動可能なカーソルをコンテンツ内に配置して、キーボードでテキストを選択できるようにします。キャレットブラウジングをオンにしますか？
@@ -183,11 +187,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = 返信に対応していません
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = この返信アドレス ({ $email }) は通信相手が監視していません。このアドレスへのメッセージは誰にも読まれることがないでしょう。
 no-reply-reply-anyway-button = 強制返信する
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
 
 ## Spaces toolbar

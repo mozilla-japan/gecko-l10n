@@ -13,7 +13,7 @@ openpgp-key-assistant-recipients-issue-header = 暗号化できません
 openpgp-key-assistant-recipients-issue-description =
     { $count ->
         [one] 暗号化するには、受信者 1 名の使用可能な鍵を取得して受け入れなければなりません。<a data-l10n-name="openpgp-link">詳細情報...</a>
-        *[other] 暗号化するには、受信者 { $count } 名の使用可能な鍵を取得して受け入れなければなりません。<a data-l10n-name="openpgp-link">詳細情報...</a>
+       *[other] 暗号化するには、受信者 { $count } 名の使用可能な鍵を取得して受け入れなければなりません。<a data-l10n-name="openpgp-link">詳細情報...</a>
     }
 openpgp-key-assistant-info-alias = { -brand-short-name } は通常、受信者のメールアドレスと合致するユーザー ID を含む公開鍵を必要とします。これは OpenPGP の受信者別名規則を使用して上書きすることができます。<a data-l10n-name="openpgp-link">詳細情報...</a>
 # Variables:
@@ -21,7 +21,7 @@ openpgp-key-assistant-info-alias = { -brand-short-name } は通常、受信者�
 openpgp-key-assistant-recipients-description =
     { $count ->
         [one] 1 名の受信者の使用可能な鍵をすでに受け入れています。
-        *[other] { $count } 名の受信者の使用可能な鍵をすでに受け入れています。
+       *[other] { $count } 名の受信者の使用可能な鍵をすでに受け入れています。
     }
 openpgp-key-assistant-recipients-description-no-issues = このメッセージは暗号化されています。すべての受信者の使用可能な鍵を受け入れ済みです。
 
@@ -33,7 +33,7 @@ openpgp-key-assistant-recipients-description-no-issues = このメッセージ�
 openpgp-key-assistant-resolve-title =
     { $numKeys ->
         [one] { -brand-short-name } が { $recipient } の鍵を見つけました。
-        *[other] { -brand-short-name } が { $recipient } の複数の鍵を見つけました。
+       *[other] { -brand-short-name } が { $recipient } の複数の鍵を見つけました。
     }
 openpgp-key-assistant-valid-description = 受け入れる鍵を選択してください
 # Variables:
@@ -41,7 +41,7 @@ openpgp-key-assistant-valid-description = 受け入れる鍵を選択してく�
 openpgp-key-assistant-invalid-title =
     { $numKeys ->
         [one] 以下の鍵は更新しない限り使用できません。
-        *[other] 以下の鍵は更新しない限り使用できません。
+       *[other] 以下の鍵は更新しない限り使用できません。
     }
 openpgp-key-assistant-no-key-available = 使用可能なカギがありません。
 openpgp-key-assistant-multiple-keys = 複数の鍵が使用可能です。
@@ -50,7 +50,7 @@ openpgp-key-assistant-multiple-keys = 複数の鍵が使用可能です。
 openpgp-key-assistant-key-unaccepted =
     { $count ->
         [one] 1 個の鍵が使用可能ですが、まだ受け入れられていません。
-        *[other] 複数の鍵が使用可能ですが、どれもまだ受け入れられていません。
+       *[other] 複数の鍵が使用可能ですが、どれもまだ受け入れられていません。
     }
 # Variables:
 # $date (String) - The expiration date of the key.
@@ -64,19 +64,23 @@ openpgp-key-assistant-this-key-accepted-expired = この鍵は以前に受け入
 openpgp-key-assistant-key-unaccepted-expired-one = この鍵は { $date } に有効期限が切れました。
 openpgp-key-assistant-key-unaccepted-expired-many = 複数の鍵の有効期限が切れています。
 openpgp-key-assistant-key-fingerprint = フィンガープリント
+# Variables:
+# $count (Number) - Number of key sources.
 openpgp-key-assistant-key-source =
     { $count ->
         [one] ソース
-        *[other] ソース
+       *[other] ソース
     }
 openpgp-key-assistant-key-collected-attachment = メール添付
 openpgp-key-assistant-key-collected-autocrypt = Autocrypt ヘッダー
 openpgp-key-assistant-key-collected-keyserver = 鍵サーバー
 openpgp-key-assistant-key-collected-wkd = Web Key Directory
+# Variables:
+# $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =
     { $count ->
         [one] 鍵が見つかりましたが、まだ受け入れられていません。
-        *[other] 複数の鍵が見つかりましたが、どれもまだ受け入れられていません。
+       *[other] 複数の鍵が見つかりましたが、どれもまだ受け入れられていません。
     }
 openpgp-key-assistant-key-rejected = この鍵は以前に拒絶されています。
 openpgp-key-assistant-key-accepted-other = この鍵は以前に別のメールアドレスで受け入れられています。
@@ -110,7 +114,6 @@ openpgp-key-assistant-accept-button = 受け入れる
 openpgp-key-assistant-close-button = 閉じる
 openpgp-key-assistant-disable-button = 暗号化を無効化
 openpgp-key-assistant-confirm-button = 暗号化して送信
-
 # Variables:
 # $date (String) - The key creation date.
 openpgp-key-assistant-key-created = { $date } に作成されました

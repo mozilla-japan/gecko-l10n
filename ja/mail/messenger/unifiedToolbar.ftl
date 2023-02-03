@@ -5,9 +5,21 @@
 
 ### Unified Toolbar strings
 
-
 ## Search bar
 
+search-bar-button =
+    .alt = 検索
+search-bar-item =
+    .label = 検索:
+search-bar-placeholder = 検索...
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key =
+    { PLATFORM() ->
+        [macos] {search-bar-placeholder} <kbd>⌃</kbd> <kbd>K</kbd>
+       *[other] {search-bar-placeholder} <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -16,17 +28,53 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-title = ツールバーのカスタマイズ
 customize-space-mail = メール
 customize-space-addressbook = アドレス帳
 customize-space-calendar = カレンダー
 customize-space-tasks = ToDo
 customize-space-chat = チャット
-customize-space-settings = 設定を開きます
+customize-space-settings = 設定
+customize-restore-default = 初期設定に戻す
+customize-change-appearance = 外観を変更する...
+customize-button-style-label = ボタンスタイル:
 customize-button-style-icons-beside-text =
     .label = アイコンの横にテキスト
+customize-button-style-icons-above-text =
+    .label = アイコンの下にテキスト
+customize-button-style-icons-only =
+    .label = アイコンのみ
+customize-button-style-text-only =
+    .label = テキストのみ
+customize-cancel = キャンセル
+customize-save = 保存
+customize-unsaved-changes = 他のスペースの未保存の変更
+customize-search-bar =
+    .label = ツールバーボタンを検索...
+customize-spaces-tabs =
+    .aria-label = スペース
+customize-main-toolbar-target =
+    .aria-label = メインツールバー
+customize-palette-generic-title = すべてのスペースで利用可能
+customize-palette-mail-specific-title = メールスペースのみで利用可能
+customize-palette-addressbook-specific-title = アドレス帳スペースのみで利用可能
+customize-palette-calendar-specific-title = カレンダースペースのみで利用可能
+customize-palette-tasks-specific-title = ToDo スペースのみで利用可能
+customize-palette-chat-specific-title = チャットスペースのみで利用可能
+customize-palette-settings-specific-title = 設定スペースのみで利用可能
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = { $target } に追加
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = 次へ進む
+customize-target-backward =
+    .label = 前へ戻る
+customize-target-remove =
+    .label = 削除

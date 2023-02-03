@@ -29,16 +29,16 @@ remove-address-row-button =
 #   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label =
     { $count ->
-         [0]     { $type }
-         [one]   { $type } のアドレス 1 件、フォーカスするには左矢印キーを押してください。
-        *[other] { $type } のアドレス { $count } 件、フォーカスするには左矢印キーを押してください。
+        [0]     { $type }
+        [one]   { $type } のアドレス 1 件、フォーカスするには左矢印キーを押してください。
+       *[other] { $type } のアドレス { $count } 件、フォーカスするには左矢印キーを押してください。
     }
 #   $email (String) - the email address
 #   $count (Number) - the number of address pills currently present in the addressing row
 pill-aria-label =
     { $count ->
-         [one]   { $email }: 編集は Enter キー、削除は Delete キーを押してください。
-        *[other] { $email }, 1 / { $count }: 編集は Enter キー、削除は Delete キーを押してください。
+        [one]   { $email }: 編集は Enter キー、削除は Delete キーを押してください。
+       *[other] { $email }, 1 / { $count }: 編集は Enter キー、削除は Delete キーを押してください。
     }
 #   $email (String) - the email address
 pill-tooltip-invalid-address = { $email } は有効なメールアドレスではありません
@@ -71,8 +71,8 @@ pill-action-expand-list =
 
 ctrl-cmd-shift-pretty-prefix =
     { PLATFORM() ->
-         [macos] ⇧ ⌘{" "}
-        *[other] Ctrl+Shift+
+        [macos] ⇧ ⌘{" "}
+       *[other] Ctrl+Shift+
     }
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
@@ -105,13 +105,15 @@ context-menuitem-attach-openpgp-key =
 #   $count (Number) - the number of attachments in the attachment bucket
 attachment-bucket-count-value =
     { $count ->
-         [one] 添付ファイル { $count } 個
-        *[other] 添付ファイル { $count } 個
+        [one] 添付ファイル { $count } 個
+       *[other] 添付ファイル { $count } 個
     }
 attachment-area-show =
     .title = 添付ペインを表示 ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
     .title = 添付ペインを隠す ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
 drop-file-label-attachment = 添付に追加する
 drop-file-label-inline = インラインに挿入する
 
@@ -170,9 +172,17 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = 鍵マネージャー
     .accesskey = M
+# Variables:
+# $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = { $addr } の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
+# Variables:
+# $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-many = 受信者 { $count } 名の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
+# Variables:
+# $addr (String) - Email address with certificate issues.
 smime-cert-issue-notification-one = { $addr } の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = 受信者 { $count } 名の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
 key-notification-disable-encryption =
     .label = 暗号化しない
@@ -239,8 +249,8 @@ extra-address-rows-menu-button =
     .title = 他のアドレス入力フィールドを表示します
 many-public-recipients-notice =
     { $count ->
-         [one] あなたのメッセージの受信者は開示されています。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
-        *[other] 宛先および Cc フィールドの {$count} 件の受信者アドレスは開示されており、受信者が互いにこれらのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+        [one] あなたのメッセージの受信者は開示されています。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+       *[other] 宛先および Cc フィールドの {$count} 件の受信者アドレスは開示されており、受信者が互いにこれらのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
     }
 many-public-recipients-bcc =
     .label = 代わりに Bcc を使用する
@@ -252,8 +262,8 @@ many-public-recipients-prompt-title = 開示された受信者が多すぎます
 #   $count (Number) - the count of addresses in the public recipients fields.
 many-public-recipients-prompt-msg =
     { $count ->
-         [one] あなたのメッセージの受信者は開示されており、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
-        *[other] あなたのメッセージは {$count} 件の受信者が開示されており、受信者が互いにこれらのアドレスを見られるため、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
+        [one] あなたのメッセージの受信者は開示されており、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
+       *[other] あなたのメッセージは {$count} 件の受信者が開示されており、受信者が互いにこれらのアドレスを見られるため、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
     }
 many-public-recipients-prompt-cancel = 送信をキャンセル
 many-public-recipients-prompt-send = 強制送信
@@ -294,10 +304,12 @@ cloud-file-placeholder-intro = { $filename } のファイルが Filelink とし�
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
 cloud-file-count-header =
     { $count ->
-         [one] { $count } 個のファイルをこのメールにリンクしました:
-        *[other] { $count } 個のファイルをこのメールにリンクしました:
+        [one] { $count } 個のファイルをこのメールにリンクしました:
+       *[other] { $count } 個のファイルをこのメールにリンクしました:
     }
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
@@ -329,26 +341,33 @@ cloud-file-template-download-limit = ダウンロード回数制限:
 
 # Messages
 
-# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error-title = 接続エラー
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error = { -brand-short-name } はオフラインです。{ $provider } に接続できませんでした。
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was uploaded and caused the error
 cloud-file-upload-error-with-custom-message-title = { $filename } ファイルの { $provider } へのアップロードに失敗しました
+cloud-file-rename-error-title = 名前変更エラー
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
-cloud-file-rename-error-title = 名前変更エラー
 cloud-file-rename-error = { $provider } 上で { $filename } ファイルの名前変更時にエラーが発生しました。
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-with-custom-message-title = { $provider } 上で { $filename } ファイルの名前変更に失敗しました
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } はすでにアップロードされているファイルの名前変更をサポートしていません。
-# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-attachment-error-title = Filelink 添付エラー
-cloud-file-attachment-error = Filelink 添付の { $filename } の更新に失敗しました。ローカルの元ファイルが移動または削除されています。
+# Variables:
 # $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Filelink 添付の { $filename } の更新に失敗しました。ローカルの元ファイルが移動または削除されています。
 cloud-file-account-error-title = Filelink アカウントエラー
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink 添付の { $filename } の更新に失敗しました。この Filelink アカウントは削除されています。
 
 ## Link Preview

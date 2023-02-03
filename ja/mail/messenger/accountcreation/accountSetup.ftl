@@ -279,10 +279,12 @@ account-setup-calendar-name-input =
 account-setup-calendar-color-label = @@Color@@
 account-setup-calendar-refresh-label = 更新
 account-setup-calendar-refresh-manual = 手動
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
 account-setup-calendar-refresh-interval =
     { $count ->
         [one] 1 分間隔
-        *[other] { $count } 分間隔
+       *[other] { $count } 分間隔
     }
 account-setup-calendar-read-only = 読み取り専用
     .accesskey = R
