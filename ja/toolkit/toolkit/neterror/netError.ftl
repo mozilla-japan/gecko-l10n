@@ -69,7 +69,7 @@ neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生し�
 
 neterror-dns-not-found-native-fallback-reason = { -brand-short-name } は信頼された DNS リゾルバーを通じてこのサイトのアドレスに対する要求を保護することができません。理由:
 neterror-dns-not-found-native-fallback-attackers = 安全でない DNS リゾルバーで続行することができますが、第三者にあなたの訪れたウェブサイトを知られたり、信頼できないサイトへ転送されたりする可能性があります。
-neterror-dns-not-found-native-fallback-heuristic = ご利用のネットワークでは DNS over HTTPs が無効化されています。
+neterror-dns-not-found-native-fallback-heuristic = ご利用のネットワークでは DNS over HTTPS が無効化されています。
 neterror-dns-not-found-native-fallback-not-confirmed = { $trrDomain } への接続がまだ準備できていません。
 
 ##
