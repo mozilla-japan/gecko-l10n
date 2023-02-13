@@ -21,8 +21,11 @@ tabbrowser-tab-tooltip =
 # Variables:
 #   $tabCount (Number): The number of tabs that will be closed.
 tabbrowser-close-tabs-tooltip =
-    .label = { $tabCount } 個のタブを閉じます
-
+    .label =
+        { $tabCount ->
+            [one] タブを閉じます
+           *[other] { $tabCount } 個のタブを閉じます
+        }
 ## Tooltips for tab audio control
 ## Variables:
 ##   $tabCount (Number): The number of tabs that will be affected.
@@ -30,17 +33,37 @@ tabbrowser-close-tabs-tooltip =
 # Variables:
 #   $shortcut (String): The keyboard shortcut for "Mute tab".
 tabbrowser-mute-tab-audio-tooltip =
-    .label = { $tabCount } 個のタブをミュートします ({ $shortcut })
+    .label =
+        { $tabCount ->
+            [one] タブをミュートします ({ $shortcut })
+           *[other] { $tabCount } 個のタブをミュートします ({ $shortcut })
+        }
 # Variables:
 #   $shortcut (String): The keyboard shortcut for "Unmute tab".
 tabbrowser-unmute-tab-audio-tooltip =
-    .label = { $tabCount } 個のタブのミュートを解除します ({ $shortcut })
+    .label =
+        { $tabCount ->
+            [one] タブのミュートを解除します ({ $shortcut })
+           *[other] { $tabCount } 個のタブのミュートを解除します ({ $shortcut })
+        }
 tabbrowser-mute-tab-audio-background-tooltip =
-    .label = { $tabCount } 個のタブをミュートします
+    .label =
+        { $tabCount ->
+            [one] タブをミュートします
+           *[other] { $tabCount } 個のタブをミュートします
+        }
 tabbrowser-unmute-tab-audio-background-tooltip =
-    .label = { $tabCount } 個のタブのミュートを解除します
+    .label =
+        { $tabCount ->
+            [one] タブのミュートを解除します
+           *[other] { $tabCount } 個のタブのミュートを解除します
+        }
 tabbrowser-unblock-tab-audio-tooltip =
-    .label = { $tabCount } 個のタブの音声を再生します
+    .label =
+        { $tabCount ->
+            [one] タブの音声を再生します
+           *[other] { $tabCount } 個のタブの音声を再生します
+        }
 
 ## Confirmation dialog when closing a window with more than one tab open,
 ## or when quitting when only one window is open.
@@ -48,7 +71,10 @@ tabbrowser-unblock-tab-audio-tooltip =
 # The singular form is not considered since this string is used only for multiple tabs.
 # Variables:
 #   $tabCount (Number): The number of tabs that will be closed.
-tabbrowser-confirm-close-tabs-title = { $tabCount } 個のタブを閉じますか？
+tabbrowser-confirm-close-tabs-title =
+    { $tabCount ->
+       *[other] { $tabCount } 個のタブを閉じますか？
+    }
 tabbrowser-confirm-close-tabs-button = タブを閉じる
 tabbrowser-confirm-close-tabs-checkbox = 同時に複数のタブを閉じる前に確認する
 
@@ -58,7 +84,10 @@ tabbrowser-confirm-close-tabs-checkbox = 同時に複数のタブを閉じる前
 # multiple windows.
 # Variables:
 #   $windowCount (Number): The number of windows that will be closed.
-tabbrowser-confirm-close-windows-title = { $windowCount } 個の@@Window@@を閉じますか？
+tabbrowser-confirm-close-windows-title =
+    { $windowCount ->
+       *[other] { $windowCount } 個の@@Window@@を閉じますか？
+    }
 tabbrowser-confirm-close-windows-button =
     { PLATFORM() ->
         [windows] 閉じて終了
