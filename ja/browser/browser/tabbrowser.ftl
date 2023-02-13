@@ -26,6 +26,7 @@ tabbrowser-close-tabs-tooltip =
             [one] タブを閉じます
            *[other] { $tabCount } 個のタブを閉じます
         }
+
 ## Tooltips for tab audio control
 ## Variables:
 ##   $tabCount (Number): The number of tabs that will be affected.

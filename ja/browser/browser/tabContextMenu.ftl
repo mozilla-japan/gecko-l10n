@@ -96,5 +96,9 @@ tab-context-move-tabs =
     .label = タブを移動
     .accesskey = v
 tab-context-send-tabs-to-device =
-    .label = { $tabCount } 個のタブを端末へ送信
+    .label =
+        { $tabCount ->
+            [1] タブを端末へ送信
+           *[other] { $tabCount } 個のタブを端末へ送信
+        }
     .accesskey = n
