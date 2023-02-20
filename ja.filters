@@ -253,11 +253,6 @@ intl.css.common				= \
 					  white-space: nowrap;\n\
 					}\n\
 					\n\
-					/* not to show scroll bar in the reporter form */\n\
-					#reportForm #description {\n  \
-					  max-height: 6.8em;\n\
-					}\n\
-					\n\
 					/* Workaround for SeaMonkey's Preferences dialog */\n\
 					@-moz-document url(chrome://communicator/content/pref/preferences.xul) {\n  \
 					  #prefsTree {\n  \
@@ -265,12 +260,7 @@ intl.css.common				= \
 					  }\n\
 					}\n
 
-ja.intl.css.locale			= \
-					/* Workaround for master password dialog with Meiryo */\n\
-					#changemp {\n  \
-					  min-width: 39em;\n\
-					}\n\
-					\n
+ja.intl.css.locale			=
 
 ja-JP-mac.intl.css.locale		=
 
