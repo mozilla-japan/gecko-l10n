@@ -252,13 +252,6 @@ intl.css.common				= \
 					#autoSelectLastProfile {\n  \
 					  white-space: nowrap;\n\
 					}\n\
-					\n\
-					/* Workaround for SeaMonkey's Preferences dialog */\n\
-					@-moz-document url(chrome://communicator/content/pref/preferences.xul) {\n  \
-					  #prefsTree {\n  \
-					    width: 17em !important;\n  \
-					  }\n\
-					}\n
 
 ja.intl.css.locale			=
 
