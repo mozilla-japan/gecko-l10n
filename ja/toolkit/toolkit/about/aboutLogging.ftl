@@ -22,7 +22,6 @@
 about-logging-title = HTTP ログについて
 about-logging-page-title = ログマネージャー
 about-logging-current-log-file = 現在のログファイル:
-about-logging-current-log-modules = 現在のログモジュール:
 about-logging-new-log-file = @@New-CMD@@ログファイル:
 about-logging-currently-enabled-log-modules = 現在有効なログモジュール:
 about-logging-log-tutorial = このツールの使い方は <a data-l10n-name="logging">HTTP Logging</a> を参照してください。

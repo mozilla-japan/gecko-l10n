@@ -71,7 +71,7 @@ restart-later = 後で再起動
 ## <img data-l10n-name="icon"/> is going to be replaced by the extension icon.
 ##
 ## Variables:
-##   $name (String): name of the extension
+##   $name (string) - Name of the extension
 
 # This string is shown to notify the user that the password manager setting
 # is being controlled by an extension
@@ -132,7 +132,7 @@ confirm-on-close-multiple-tabs =
     .accesskey = m
 # This string is used for the confirm before quitting preference.
 # Variables:
-#   $quitKey (String) - the quit keyboard shortcut, and formatted
+#   $quitKey (string) - the quit keyboard shortcut, and formatted
 #                       in the same manner as it would appear,
 #                       for example, in the File menu.
 confirm-on-quit-with-key =
@@ -155,12 +155,19 @@ browser-containers-settings =
     .label = 設定...
     .accesskey = i
 containers-disable-alert-title = すべてのコンテナータブを閉じますか？
+
+## Variables:
+##   $tabCount (number) - Number of tabs
+
 containers-disable-alert-desc = コンテナータブを無効にすると、{ $tabCount } 個のコンテナータブが閉じられます。コンテナータブを無効にしますか？
 containers-disable-alert-ok-button = { $tabCount } 個のコンテナータブを閉じる
+
+##
+
 containers-disable-alert-cancel-button = このままにする
 containers-remove-alert-title = このコンテナーを削除しますか？
 # Variables:
-#   $count (Number) - Number of tabs that will be closed.
+#   $count (number) - Number of tabs that will be closed.
 containers-remove-alert-msg = このコンテナーを削除すると { $count } 個のコンテナータブが閉じられます。このコンテナーを削除してもよろしいですか？
 containers-remove-ok-button = このコンテナーを削除する
 containers-remove-cancel-button = 削除しない
@@ -218,6 +225,8 @@ advanced-fonts =
 preferences-zoom-header = ズーム
 preferences-default-zoom = @@Default-@@ズーム
     .accesskey = z
+# Variables:
+#   $percentage (number) - Zoom percentage value
 preferences-default-zoom-value =
     .label = { $percentage }%
 preferences-zoom-text-only =
@@ -310,15 +319,15 @@ applications-manage-app =
 applications-always-ask =
     .label = 毎回確認する
 # Variables:
-#   $type-description (String) - Description of the type (e.g "Portable Document Format")
-#   $type (String) - the MIME type (e.g application/binary)
+#   $type-description (string) - Description of the type (e.g "Portable Document Format")
+#   $type (string) - The MIME type (e.g application/binary)
 applications-type-description-with-type = { $type-description } ({ $type })
 # Variables:
-#   $extension (String) - file extension (e.g .TXT)
-#   $type (String) - the MIME type (e.g application/binary)
+#   $extension (string) - File extension (e.g .TXT)
+#   $type (string) - The MIME type (e.g application/binary)
 applications-file-ending-with-type = { applications-file-ending } ({ $type })
 # Variables:
-#   $plugin-name (String) - Name of a plugin (e.g Adobe Flash)
+#   $plugin-name (string) - Name of a plugin (e.g Adobe Flash)
 applications-use-plugin-in =
     .label = { $plugin-name } を使用 ({ -brand-short-name } 内で表示)
 applications-open-inapp =
@@ -361,6 +370,8 @@ play-drm-content =
 play-drm-content-learn-more = 詳細情報
 update-application-title = { -brand-short-name } の更新
 update-application-description = 最高のパフォーマンスと安定性、セキュリティを提供するため { -brand-short-name } を最新の状態に保ちます。
+# Variables:
+# $version (string) - Firefox version
 update-application-version = バージョン { $version } <a data-l10n-name="learn-more">更新情報</a>
 update-history =
     .label = 更新履歴を表示...
@@ -387,7 +398,7 @@ update-application-suppress-prompts =
     .accesskey = n
 update-setting-write-failure-title2 = 設定変更の保存エラー
 # Variables:
-#   $path (String) - Path to the configuration file
+#   $path (string) - Path to the configuration file
 # The newlines between the main text and the line containing the path is
 # intentional so the path is easier to identify.
 update-setting-write-failure-message2 =
@@ -417,7 +428,7 @@ performance-limit-content-process-option = コンテンツプロセス数の制�
 performance-limit-content-process-enabled-desc = コンテンツプロセスを増やすと、複数タブの使用時にパフォーマンスが向上しますが、メモリーを多く消費します。
 performance-limit-content-process-blocked-desc = コンテンツプロセスの数はマルチプロセスの { -brand-short-name } でしか変更できません。 <a data-l10n-name="learn-more">マルチプロセスが有効になっているか確認してください</a>
 # Variables:
-#   $num - default value of the `dom.ipc.processCount` pref.
+#   $num (number) - Default value of the `dom.ipc.processCount` pref.
 performance-default-content-process-count =
     .label = { $num } (@@Default@@)
 
@@ -521,7 +532,7 @@ home-prefs-shortcuts-by-option-sponsored =
     .label = 広告ショートカット
 
 ## Variables:
-##  $provider (String): Name of the corresponding content provider, e.g "Pocket".
+##  $provider (string) - Name of the corresponding content provider, e.g "Pocket".
 
 home-prefs-recommended-by-header =
     .label = { $provider } のおすすめ
@@ -552,6 +563,8 @@ home-prefs-recent-activity-description = 最近のサイトとコンテンツの
 home-prefs-snippets-header =
     .label = スニペット
 home-prefs-snippets-description-new = { -vendor-short-name } と { -brand-product-name } に関するヒントと最新情報
+# Variables:
+#   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
     .label = { $num } 行
 
@@ -612,7 +625,7 @@ search-find-more-link = 他の検索エンジンを追加
 # ('Duplicate' is an adjective)
 search-keyword-warning-title = キーワードが重複しています
 # Variables:
-#   $name (String) - Name of a search engine.
+#   $name (string) - Name of a search engine.
 search-keyword-warning-engine = "{ $name }" で使用されているキーワードを指定しました。他のものを指定してください。
 search-keyword-warning-bookmark = ブックマークで使用されているキーワードを指定しました。他のものを指定してください。
 
@@ -659,8 +672,15 @@ sync-sign-out =
     .accesskey = g
 sync-manage-account = アカウントの管理
     .accesskey = o
+
+## Variables
+## $email (string) - Email used for Firefox account
+
 sync-signedin-unverified = { $email } は認証されていません。
 sync-signedin-login-failure = { $email } に再接続するにはログインしてください。
+
+##
+
 sync-resend-verification =
     .label = 認証メールを再送信
     .accesskey = d
@@ -874,8 +894,8 @@ history-clear-button =
 sitedata-header = Cookie とサイトデータ
 sitedata-total-size-calculating = サイトデータとキャッシュのサイズを計算しています...
 # Variables:
-#   $value (Number) - Value of the unit (for example: 4.6, 500)
-#   $unit (String) - Name of the unit (for example: "bytes", "KB")
+#   $value (number) - Value of the unit (for example: 4.6, 500)
+#   $unit (string) - Name of the unit (for example: "bytes", "KB")
 sitedata-total-size = 保存された Cookie とサイトデータとキャッシュのディスク使用量は現在 { $value } { $unit } です。
 sitedata-learn-more = 詳細情報
 sitedata-delete-on-close =

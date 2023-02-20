@@ -39,14 +39,10 @@ mr1-return-to-amo-add-extension-label = { $addon-name } を追加
 #   $total (Int) - Total number of pages
 onboarding-welcome-steps-indicator =
     .aria-label = はじめる: { $current } / { $total } ページ
-
 # Aria-label to make the "steps" of multistage onboarding visible to screen readers.
 # Variables:
 #   $current (Int) - Number of the current page
 #   $total (Int) - Total number of pages
-
-onboarding-welcome-steps-indicator2 =
-    .aria-valuetext = 完了まで: { $current } / { $total }
 onboarding-welcome-steps-indicator-label =
     .aria-label = 完了まで: { $current } / { $total }
 # "Hero Text" displayed on left side of welcome screen.
@@ -253,6 +249,15 @@ fx100-upgrade-thank-you-body = { -brand-short-name } の 100 番目のリリー�
 # Message shown with either a pin-to-taskbar or set-default button.
 fx100-upgrade-thanks-keep-body = 100 番目のリリースです！ 私たちのコミュニティへの参加に感謝します。次の 100 番目まで { -brand-short-name } を 1 クリックで使えるようにしましょう。
 mr2022-onboarding-secondary-skip-button-label = この手順をスキップ
+
+## MR2022 New User Easy Setup screen strings
+
+# Primary button string used on new user onboarding first screen showing multiple actions such as Set Default, Import from previous browser.
+mr2022-onboarding-easy-setup-primary-button-label = 保存して続ける
+# Set Default action checkbox label used on new user onboarding first screen
+mr2022-onboarding-easy-setup-set-default-checkbox-label = { -brand-short-name } を @@DefaultBrowser@@に設定する
+# Import action checkbox label used on new user onboarding first screen
+mr2022-onboarding-easy-setup-import-checkbox-label = 以前のブラウザーから@@Import-suru@@
 
 ## MR2022 New User Pin Firefox screen strings
 

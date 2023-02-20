@@ -8,9 +8,16 @@ search-header =
     .searchbuttonlabel = 検索
 search-header-shortcut =
     .key = f
+
+## Variables
+##   $domain - Domain name where add-ons are available (e.g. addons.mozilla.org)
+
 list-empty-get-extensions-message = <a data-l10n-name="get-extensions">{ $domain }</a> で拡張機能とテーマを入手しましょう
 list-empty-get-dictionaries-message = <a data-l10n-name="get-extensions">{ $domain }</a> でスペルチェック辞書を入手しましょう
 list-empty-get-language-packs-message = <a data-l10n-name="get-extensions">{ $domain }</a> で言語パックを入手しましょう
+
+##
+
 list-empty-installed =
     .value = この種類のアドオンはインストールされていません
 list-empty-available-updates =
@@ -144,7 +151,7 @@ addon-category-sitepermission-title =
     .title = サイトの権限
 # String displayed in about:addons in the Site Permissions section
 # Variables:
-#  $host (string): DNS host name for which the webextension enables permissions
+#  $host (string) - DNS host name for which the webextension enables permissions
 addon-sitepermission-host = { $host } サイトの権限
 
 ## These are global warnings
@@ -165,7 +172,7 @@ addon-updates-view-updates = 最近更新したアドオンを表示
     .accesskey = V
 # This menu item is a checkbox that toggles the default global behavior for
 # add-on update checking.
-# (^m^) en-US: Update Add-ons Autmatically
+# (^m^) en-US: Update Add-ons Automatically
 addon-updates-update-addons-automatically = アドオンを@@Default@@で自動更新する
     .accesskey = A
 
@@ -226,6 +233,8 @@ shortcuts-duplicate-warning-message = { $shortcut } が他の場所でも使用�
 # Variables:
 #   $addon (string) - Name of the add-on
 shortcuts-exists = すでに { $addon } が使用しています
+# Variables:
+#   $numberToShow (number) - Number of other elements available to show
 shortcuts-card-expand-button =
     { $numberToShow ->
        *[other] さらに { $numberToShow } 個表示
@@ -301,7 +310,7 @@ theme-colorways-button = Colorway を試す
 # Refers to the button label for the colorways card when a user has a colorway theme enabled.
 theme-colorways-button-colorway-enabled = Colorway を変更
 # Variables:
-#   $expiryDate (string) - date on which the colorway collection expires. When formatting this, you may omit the year, only exposing the month and day, as colorway collections will always expire within a year.
+#   $expiryDate (string) - Date on which the colorway collection expires. When formatting this, you may omit the year, only exposing the month and day, as colorway collections will always expire within a year.
 colorway-collection-expiry-label = { DATETIME($expiryDate, month: "long", day: "numeric") } まで
 plugin-enabled-heading = 有効
 plugin-disabled-heading = 無効
@@ -381,6 +390,8 @@ addon-permissions-optional = 追加機能の任意の権限:
 addon-permissions-learnmore = 権限についての詳細情報
 recommended-extensions-heading = おすすめの拡張機能
 recommended-themes-heading = おすすめのテーマ
+# Variables:
+#   $hostname (string) - Host where the permissions are granted
 addon-sitepermissions-required = <span data-l10n-name="hostname">{ $hostname }</span> に以下の機能を許可します:
 # A recommendation for the Firefox Color theme shown at the bottom of the theme
 # list view. The "Firefox Color" name itself should not be translated.
@@ -405,10 +416,10 @@ addon-page-options-button =
 
 ## Detail notifications
 ## Variables:
-##   $name (String): name of the add-on.
+##   $name (string) - Name of the add-on.
 
 # Variables:
-#   $version (String): application version.
+#   $version (string) - Application version.
 details-notification-incompatible = { $name } は { -brand-short-name } { $version } と互換性がありません。
 details-notification-incompatible-link = 詳細情報
 details-notification-unsigned-and-disabled = { $name } は { -brand-short-name } での使用が検証できないため無効化されています。

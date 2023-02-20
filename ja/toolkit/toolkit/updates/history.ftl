@@ -15,10 +15,13 @@ state-header = 状態
 # Used to display update history
 #
 # Variables:
-#   $name (String): name of the update
-#   $buildID (String): build identifier from the local updates.xml
+#   $name (string) - Name of the update
+#   $buildID (string) - Build identifier from the local updates.xml
 update-full-build-name = { $name } ({ $buildID })
-
 update-details = 詳細
+# Variables:
+#   $date (string) - Date the last update was installed
 update-installed-on = インストール日時: { $date }
+# Variables:
+#   $status (string) - Status of the last update
 update-status = 状態: { $status }

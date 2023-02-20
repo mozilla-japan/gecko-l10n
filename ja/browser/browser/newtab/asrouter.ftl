@@ -241,8 +241,8 @@ colorways-cfr-header-today = 揺るぎない声 Colorway は今日まで
 # Alternate headline for localization: "See fewer cookie requests"
 cfr-cookiebanner-header = Cookie バナーよ去れ！
 cfr-cookiebanner-body = すべての Cookie バナーの要求を { -brand-short-name } が可能な限り自動的に拒否できるようにします。
-cfr-cookiebanner-accept-button = 要求バナーを閉じる
-    .accesskey = D
+cfr-cookiebanner-accept-button-v2 = 要求を拒否
+    .accesskey = R
 cfr-cookiebanner-reject-button = 後で
     .accesskey = N
 cfr-cookiebanner-header-variant-1 = Cookie ポップアップを減らします
