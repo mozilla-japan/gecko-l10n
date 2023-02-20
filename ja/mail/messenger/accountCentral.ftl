@@ -38,7 +38,7 @@ newsgroups-description = { -brand-short-name } をお好みのすべてのニュ
 import-title = 別の@@Program@@から@@Import@@
 import-paragraph2 = { -brand-short-name } に他のメール@@Program@@からメールメッセージやフィード購読、設定、メッセージフィルターを、一般的なアドレス帳形式からアドレス帳を@@Import-suru@@ことができます。
 import-label = データを@@Import@@
-    .aria-label = 他の@@Program@@からデータを@@Import-simasu@@
+    .aria-label = 他の@@Program@@からデータを@@Import-si@@ます
 about-paragraph = Thunderbird は、オープンソースでクロスプラットフォームを特徴とし、ビジネスでも個人でも無料で利用できる人気のメール・カレンダークライアントです。私たちはそのセキュリティを守りつつ、さらに改善していきたいと考えています。皆さんからの寄付によって、開発者の雇用、インフラストラクチャの購入、改良の継続が可能となります。
 about-paragraph-consider-donation = <b>Thunderbird はあなたのようなユーザーに支えられています！ Thunderbird を気に入っていただけた方は寄付をご検討ください。</b> Thunderbird を存続可能にするため、あなたができる最善の方法は<a data-l10n-name="donation-link">寄付をしていただくこと</a>です。
 explore-link = 機能紹介
