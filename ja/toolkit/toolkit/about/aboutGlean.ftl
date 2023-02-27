@@ -24,7 +24,7 @@ about-glean-page-title2 = { -glean-brand-name } について
 about-glean-header = { -glean-brand-name } について
 about-glean-interface-description =
     <a data-l10n-name="glean-sdk-doc-link">{ glean-sdk-brand-name }</a> は { -vendor-short-name } プロジェクトで利用されているデータ収集ライブラリーです。
-    このインターフェースは開発者とテスターによる手動の <a data-l10n-name="fog-link">テスト実装</a> で使用されるよう設計されています。
+    このインターフェースは開発者とテスターにより手動の <a data-l10n-name="fog-link">テスト計測器</a> で使用されることを想定しています。
 about-glean-upload-enabled = データのアップロードが有効です。
 about-glean-upload-disabled = データのアップロードが無効です。
 about-glean-upload-enabled-local = データのアップロードはローカルサーバーへの送信のみ有効です。
@@ -55,15 +55,15 @@ about-glean-about-testing-header = テストについて
 about-glean-manual-testing =
     完全な手順は <a data-l10n-name="fog-instrumentation-test-doc-link">{ -fog-brand-name } instrumentation testing docs</a>
     および <a data-l10n-name="glean-sdk-doc-link">{ glean-sdk-brand-name } documentation</a> に文書化されています。
-    あなたの実装した手動テストを動作させるには、以下を行ってください。
+    要するに、あなたの計測器の動作を手動でテストするには、以下を行ってください。
 # This message is an option in a dropdown filled with untranslated names of pings.
-about-glean-no-ping-label = (Ping を送信してはいけません)
+about-glean-no-ping-label = (Ping を送信しない)
 # An in-line text input field precedes this string.
-about-glean-label-for-tag-pings = 左のフィールドにメモ用のデバッグタグを設定して、後であなたの Ping が区別できるようにしてください。
+about-glean-label-for-tag-pings = 左のフィールドに覚えやすいデバッグタグを設定して、後であなたの Ping が区別できるようにしてください。
 # An in-line drop down list precedes this string.
 # Do not translate strings between <code> </code> tags.
 about-glean-label-for-ping-names =
-    左のリストからあなたの実装が含まれる Ping を選択してください。
+    左のリストからテスト対象の計測器を含む Ping を選択してください。
     <a data-l10n-name="custom-ping-link">カスタム Ping</a> 内にある場合は、それを選んでください。
     そうでない場合、<code>event</code> メトリクスの@@Default@@は <code>events</code> Ping、他のすべてのメトリクスの@@Default@@は <code>metrics</code> Ping です。
 # An in-line check box precedes this string.
@@ -74,15 +74,13 @@ about-glean-label-for-log-pings =
 #   $debug-tag (String): The user-set value of the debug tag input on this page. Like "about-glean-kV"
 # An in-line button labeled "Apply settings and submit ping" precedes this string.
 about-glean-label-for-controls-submit =
-    左のボタンを押してすべての { -glean-brand-name } にあたたのタグを付け、選択した Ping を送信してください。
+    左のボタンを押してすべての { -glean-brand-name } にあなたのタグを付け、選択した Ping を送信してください。
     (アプリケーションを再起動してから送信されるすべての Ping に <code>{ $debug-tag }</code> タグが付けられます。)
 about-glean-li-for-visit-gdpv =
     あなたのタグが付いた Ping については <a data-l10n-name="gdpv-tagged-pings-link">{ glean-debug-ping-viewer-brand-name } ページを訪れてください</a>。
     ボタンを押してから Ping が到着するまで数秒もかかりませんが、時々、数分かかることもあります。
 # Do not translate strings between <code> </code> tags.
-about-glean-adhoc-explanation =
-    さらなる <i>アドホックな</i> テストを行うには、実装の特定のピースの現在値を決定してください。
-    この <code>about:glean</code> ページで開発ツールのコンソールを開き、<code>Glean.metricCategory.metricName.testGetValue()</code> のように <code>testGetValue()</code> API を使用してください。
+about-glean-adhoc-explanation = さらに <i>アドホック</i> なテストを行うために、この <code>about:glean</code> ページで開発ツールのコンソールを開き、<code>Glean.metricCategory.metricName.testGetValue()</code> などの <code>testGetValue()</code> API を使用して、計測器の特定のピースの現在値を特定することもできます。
 controls-button-label-verbose = 設定を適用して Ping を送信
 
 about-glean-about-data-header = データについて
