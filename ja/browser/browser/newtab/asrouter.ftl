@@ -53,7 +53,7 @@ cfr-doorhanger-extension-total-users = { $total } ユーザー
 # Simplified version of the headline if the original text doesn't work
 # in your language: `See fewer cookie requests`.
 cfr-cookie-banner-handling-header = Cookie バナーよ去れ！
-cfr-cookie-banner-handling-body = Cookie バナーの同意に対し、可能な場合は { -brand-short-name } が自動的に「すべて拒否」を選択します。拒否できない場合は、すべての Cookie を受け入れてバナーが表示されないようにします。
+cfr-cookie-banner-handling-body = Cookie バナーの同意確認に対し、可能な場合は { -brand-short-name } が自動的に「すべて拒否」を選択します。拒否できない場合は、すべての Cookie を受け入れてバナーが表示されないようにします。
 cfr-cookie-banner-accept-button = 同意確認を自動で閉じる
     .accesskey = D
 cfr-cookie-banner-reject-button = 後で
@@ -66,7 +66,7 @@ cfr-cookie-banner-reject-button-variant-1 = いいえ、結構です
     .accesskey = N
 
 cfr-cookie-banner-handling-header-variant-2 = Cookie バナー削減
-cfr-cookie-banner-handling-body-variant-2 = ウェブサイトの Cookie 同意確認に対し、可能な場合は Cookie を拒否させ、拒否できない場合は Cookie を受け入れることを { -brand-short-name } に許可しますか？
+cfr-cookie-banner-handling-body-variant-2 = ウェブサイトの Cookie 同意確認に対し、可能な場合は Cookie を拒否し、拒否できない場合は Cookie を受け入れることを { -brand-short-name } に許可しますか？
 cfr-cookie-banner-accept-button-variant-2 = 許可する
     .accesskey = A
 cfr-cookie-banner-reject-button-variant-2 = 後で
@@ -240,8 +240,8 @@ colorways-cfr-header-today = 揺るぎない声 Colorway は今日まで
 
 # Alternate headline for localization: "See fewer cookie requests"
 cfr-cookiebanner-header = Cookie バナーよ去れ！
-cfr-cookiebanner-body = Cookie 同意バナーに対し、可能な場合は { -brand-short-name } が自動的に「すべて拒否」を選択できるようにします。
-cfr-cookiebanner-accept-button-v2 = 同意確認を自動で閉じる
+cfr-cookiebanner-body = Cookie バナーの同意確認に対し、可能な場合は { -brand-short-name } が自動的に「すべて拒否」を選択できるようにします。
+cfr-cookiebanner-accept-button-v2 = 自動で拒否を選択する
     .accesskey = R
 cfr-cookiebanner-reject-button = 後で
     .accesskey = N
