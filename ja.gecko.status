@@ -60,5 +60,5 @@ comm | mail, calendar           10697:68e6dbc068a4 (2023-02-02)  mar            
 [l10n-mozilla-111.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
-geck | browser, dom, toolkit    15004:7f2dae665e48 (2023-02-10)  mar            browser, dom, toolkit
+geck | browser, dom, toolkit    15009:de3932bf3c30 (2023-02-20)  mar            browser, dom, toolkit
 

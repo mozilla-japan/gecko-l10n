@@ -13,6 +13,10 @@ date-picker-label =
 date-spinner-label =
     .aria-label = 年月を選択してください
 
+## Text of the clear button
+
+date-picker-clear-button = 消去
+
 ## These labels are used by screenreaders and other assistive technology
 ## to indicate the purpose of buttons that leaf through months of a calendar
 

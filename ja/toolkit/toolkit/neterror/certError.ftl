@@ -80,6 +80,8 @@ dnsNotFound-title = アクセスしようとしているサイトを見つけら
 #   $hostname (string) - Hostname of the website to which the user was trying to connect.
 dns-not-found-trr-only-title = { $hostname } にセキュリティ上の危険性があります。
 # Variables:
+dns-not-found-trr-only-title2 = このドメインのセキュリティ上の危険性を調べています
+# Variables:
 #   $hostname (string) - Hostname of the website to which the user was trying to connect.
 dns-not-found-native-fallback-title = { $hostname } にセキュリティ上の危険性があります。
 fileNotFound-title = ファイルが見つかりませんでした
