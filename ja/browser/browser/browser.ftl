@@ -144,6 +144,9 @@ urlbar-tip-icon-description =
     .alt = ヒント:
 urlbar-result-menu-button =
     .title = メニューを開く
+urlbar-result-menu-learn-more =
+    .label = 詳細情報
+    .accesskey = L
 urlbar-result-menu-remove-from-history =
     .label = 履歴から削除
     .accesskey = R
@@ -700,6 +703,11 @@ bookmarks-other-bookmarks-menu =
     .label = 他のブックマーク
 bookmarks-mobile-bookmarks-menu =
     .label = モバイルのブックマーク
+
+## Variables:
+##   $isVisible (boolean): if the specific element (e.g. bookmarks sidebar,
+##                         bookmarks toolbar, etc.) is visible or not.
+
 bookmarks-tools-sidebar-visibility =
     .label =
         { $isVisible ->
@@ -724,6 +732,9 @@ bookmarks-tools-menu-button-visibility =
             [true] ブックマークメニューをツールバーから削除
            *[other] ブックマークメニューをツールバーに追加
         }
+
+##
+
 bookmarks-search =
     .label = ブックマークを検索
 bookmarks-tools =

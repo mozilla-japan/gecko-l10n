@@ -53,7 +53,12 @@ comm | mail, calendar            9726:9dff3693f20a (2023-01-04)  mar            
 [l10n-mozilla-110.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
-geck | browser, dom, toolkit    14992:4480c6e3c8b3 (2023-01-26)  mar            sync browser, dom, toolkit
-comm | mail, calendar, chat     10654:4ceaae458e81 (2023-01-31)  mar            sync mail, calendar, chat
-comm | mail, calendar           10697:68e6dbc068a4 (2023-02-02)  mar            sync mail, calendar
+geck | browser, dom, toolkit    14992:4480c6e3c8b3 (2023-01-26)  mar            browser, dom, toolkit
+comm | mail, calendar, chat     10654:4ceaae458e81 (2023-01-31)  mar            mail, calendar, chat
+comm | mail, calendar           10697:68e6dbc068a4 (2023-02-02)  mar            mail, calendar
+
+[l10n-mozilla-111.0]
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
+geck | browser, dom, toolkit    15009:de3932bf3c30 (2023-02-20)  mar            browser, dom, toolkit
 

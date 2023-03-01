@@ -4,16 +4,10 @@
 
 ## Permission Dialog
 ## Variables:
-##  $host - the hostname that is initiating the request
-##  $scheme - the type of link that's being opened.
-##  $appName - Name of the application that will be opened.
-
-## Permission Dialog
-## Variables:
-##  $host - the hostname that is initiating the request
-##  $scheme - the type of link that's being opened.
-##  $appName - Name of the application that will be opened.
-##  $extension - Name of extension that initiated the request
+##  $host (string) - The hostname that is initiating the request
+##  $scheme (string) - The type of link that's being opened.
+##  $appName (string) - Name of the application that will be opened.
+##  $extension (string) - Name of extension that initiated the request
 
 permission-dialog-description = このサイトに { $scheme } リンクを開くことを許可しますか？
 permission-dialog-description-file = このファイルに { $scheme } リンクを開くことを許可しますか？
@@ -27,6 +21,9 @@ permission-dialog-description-extension-app = 拡張機能 { $extension } に { 
 ## Please keep the emphasis around the hostname and scheme (ie the
 ## `<strong>` HTML tags). Please also keep the hostname as close to the start
 ## of the sentence as your language's grammar allows.
+## Variables:
+##  $host (string) - The hostname that is initiating the request
+##  $scheme (string) - The type of link that's being opened.
 
 permission-dialog-remember = <strong>{ $host }</strong> が <strong>{ $scheme }</strong> リンクを開くことを常に許可する
 permission-dialog-remember-file = このファイルが <strong>{ $scheme }</strong> リンクを開くことを常に許可する
@@ -45,7 +42,7 @@ permission-dialog-set-change-app-link = 別の@@Application@@を選択してく�
 
 ## Chooser dialog
 ## Variables:
-##  $scheme - the type of link that's being opened.
+##  $scheme (string) - The type of link that's being opened.
 
 chooser-window =
     .title = @@Application@@の選択

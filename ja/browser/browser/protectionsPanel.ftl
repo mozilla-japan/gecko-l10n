@@ -10,11 +10,11 @@ protections-panel-sitefixedsendreport-label = サイトが修正されたこと�
 ## Enhanced Tracking Protection.
 
 protections-popup-footer-protection-label-strict = 厳格
-  .label = 厳格
+    .label = 厳格
 protections-popup-footer-protection-label-custom = カスタム
-  .label = カスタム
+    .label = カスタム
 protections-popup-footer-protection-label-standard = 標準
-  .label = 標準
+    .label = 標準
 
 ##
 
@@ -83,7 +83,7 @@ protections-panel-social-media-trackers = ソーシャルネットワークは�
 protections-panel-description-shim-allowed = ユーザーの操作により、以下のマークされたトラッカーのブロックがこのページ上で部分的に解除されています。
 protections-panel-description-shim-allowed-learn-more = 詳細情報
 protections-panel-shim-allowed-indicator =
-  .tooltiptext = トラッカーのブロックが部分的に解除されました
+    .tooltiptext = トラッカーのブロックが部分的に解除されました
 
 protections-panel-content-blocking-manage-settings =
     .label = 保護設定を管理
@@ -101,3 +101,23 @@ protections-panel-content-blocking-breakage-report-view-cancel =
     .label = キャンセル
 protections-panel-content-blocking-breakage-report-view-send-report =
     .label = レポートを送信
+
+# Cookie Banner Handling
+
+protections-panel-cookie-banner-handling-header = Cookie バナー削減
+protections-panel-cookie-banner-handling-enabled = このサイトでオン
+protections-panel-cookie-banner-handling-disabled = このサイトでオフ
+protections-panel-cookie-banner-handling-undetected = 現在サポートされていないサイトです
+protections-panel-cookie-banner-view-title =
+    .title = Cookie バナー削減
+protections-panel-cookie-banner-view-go-back =
+    .aria-label = 戻る
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+protections-panel-cookie-banner-view-turn-off-for-site = { $host } サイトの Cookie バナー削減をオフにしますか？
+protections-panel-cookie-banner-view-turn-on-for-site = このサイトの Cookie バナー削減をオンにしますか？
+protections-panel-cookie-banner-view-cookie-clear-warning = { -brand-short-name } がこのサイトの Cookie を消去してページを更新します。すべての Cookie を消去するとサイトからログアウトしたり買い物カゴが空になったりする可能性があります。
+protections-panel-cookie-banner-view-turn-on-description = サポートされたサイトのすべての Cookie 同意確認に対して、{ -brand-short-name } が自動的に拒否を試みます。
+protections-panel-cookie-banner-view-cancel = キャンセル
+protections-panel-cookie-banner-view-turn-off = オフにする
+protections-panel-cookie-banner-view-turn-on = オンにする

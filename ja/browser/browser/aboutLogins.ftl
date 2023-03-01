@@ -7,6 +7,9 @@ about-logins-page-title = ログインとパスワード
 login-filter =
     .placeholder = ログイン情報を検索
 create-login-button = @@New-CMD@@ログイン情報を作成
+about-logins-login-filter =
+    .placeholder = ログイン情報を検索
+    .key = F
 create-new-login-button =
     .title = @@New-CMD@@ログイン情報を作成
 fxaccounts-sign-in-text = 他の端末でもパスワードが使える
@@ -34,6 +37,8 @@ about-logins-menu-menuitem-help = ヘルプ
 
 login-list =
     .aria-label = 検索条件に一致するログイン情報
+# Variables
+#   $count (number) - Number of logins
 login-list-count = { $count } 件のログイン情報
 login-list-sort-label-text = 並べ替え:
 login-list-name-option = 名前 (昇順)
@@ -102,6 +107,8 @@ login-item-time-used = 最終利用日時: { DATETIME($timeUsed, day: "numeric",
 ## A label is displayed under the date to describe the type of change.
 ## (e.g. updated, created, etc.)
 
+# Variables
+#   $datetime (date) - Event date
 login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
 login-item-timeline-action-created = 作成
 login-item-timeline-action-updated = 更新
@@ -151,6 +158,10 @@ confirmation-dialog-dismiss-button =
 about-logins-confirm-remove-dialog-title = このログイン情報を消去しますか？
 confirm-delete-dialog-message = この操作は元に戻せません。
 about-logins-confirm-remove-dialog-confirm-button = 消去
+
+## Variables
+##   $count (number) - Number of items
+
 about-logins-confirm-remove-all-dialog-confirm-button-label =
     { $count ->
         [1] 消去
@@ -177,6 +188,9 @@ about-logins-confirm-remove-all-sync-dialog-message=
         [1] { -fxaccount-brand-name } と同期した端末すべての { -brand-short-name } に保存したログイン情報が消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は元に戻せません。
        *[other] { -fxaccount-brand-name } と同期した端末すべての { -brand-short-name } に保存したログイン情報がすべて消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は元に戻せません。
     }
+
+##
+
 about-logins-confirm-export-dialog-title = ログイン情報とパスワードを@@Export@@
 about-logins-confirm-export-dialog-message = あなたのパスワードは可読テキストとして保存されます。(例: BadP@ssw0rd) @@Export-sare@@たファイルを開ける人なら誰でも内容を読み取ることが可能になります。
 about-logins-confirm-export-dialog-confirm-button = @@Export@@...
