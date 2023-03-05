@@ -109,6 +109,17 @@ quick-filter-bar-gloda-upsell-line1 = すべてのメッセージを検索しま
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = 'Enter’ キーを押すと同じ語句で全メッセージを検索できます: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = メッセージを受信します
+folder-pane-write-message-button = メッセージ作成
+    .title = @@New-CMD@@メッセージを作成します
+folder-pane-more-menu-button =
+    .title = フォルダーペインのオプション
+folder-pane-header-context-hide =
+    .label = フォルダーペインのヘッダーを隠す
+
 ## Message thread pane
 
 threadpane-column-header-select =

@@ -19,6 +19,7 @@
 <!ENTITY onemonthforward.tooltip "次の月へ移動します">
 <!ENTITY oneyearbackward.tooltip "前の年へ移動します">
 <!ENTITY oneyearforward.tooltip "次の年へ移動します">
+
 <!ENTITY showToday.tooltip "今日へ移動します">
 <!ENTITY onedayforward.tooltip "次の日へ移動します">
 <!ENTITY onedaybackward.tooltip "前の日へ移動します">

@@ -35,14 +35,14 @@ suite                   Sm      SeaMonkey
 * 同期対象のリポジトリが gecko-strings と comm-l10n で異なる場合は必ずコミットを分けてください！
 
 
-[l10n-mozilla-108.0] Released!
+[l10n-mozilla-108.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit             14947:41a33c3f2719 (2022-11-23)  mar            sync dom, toolkit
 geck | browser, devtools        14947:41a33c3f2719 (2022-11-23)  hATrayflood    sync browser, devtools
 comm | mail, suite               9328:a30fe40439de (2022-11-28)  mar            sync mail, suite
 
-[l10n-mozilla-109.0] Released!
+[l10n-mozilla-109.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, security, toolkit   14973:69456c9efa7b (2022-12-24)  mar            sync dom, security, toolkit
@@ -57,8 +57,11 @@ geck | browser, dom, toolkit    14992:4480c6e3c8b3 (2023-01-26)  mar            
 comm | mail, calendar, chat     10654:4ceaae458e81 (2023-01-31)  mar            mail, calendar, chat
 comm | mail, calendar           10697:68e6dbc068a4 (2023-02-02)  mar            mail, calendar
 
+^---Released!
+
 [l10n-mozilla-111.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | browser, dom, toolkit    15009:de3932bf3c30 (2023-02-20)  mar            browser, dom, toolkit
+comm | mail, calendar, chat     11202:d74ade0999ca (2023-02-28)  mar            mail, calendar, chat
 

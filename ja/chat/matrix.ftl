@@ -13,15 +13,6 @@ room-name-empty = 会話なし
 room-name-empty-had-name = 会話なし (以前の名前は { $oldName })
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
-#    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
-        [one] { $participant }、他 { $otherParticipantCount } 名
-        *[other] { $participant }、他 { $otherParticipantCount } 名
-    }
-# Variables:
-#  $participant (String) - The name of one participant that isn't the user.
 #  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
 room-name-others2 =

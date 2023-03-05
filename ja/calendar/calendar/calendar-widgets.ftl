@@ -7,9 +7,21 @@ calendar-deactivated-notification-tasks = 現在すべてのカレンダーが�
 calendar-notifications-label = 今後の予定の通知を表示する
 calendar-add-notification-button =
     .label = 通知を追加
+
+## Side panel
+
+calendar-list-header = カレンダー
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
+    .title = { $calendarName } カレンダーのオプション
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } カレンダーのアラームは停止しています
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
     .title = { $calendarName } カレンダーのオプション
 calendar-import-new-calendar = @@New-CMD@@カレンダー...
     .title = @@New-CMD@@カレンダーを作成または登録します
@@ -17,6 +29,9 @@ calendar-refresh-calendars =
     .title = すべてのカレンダーを再読み込みして変更を同期します
 calendar-new-event-primary-button = @@New-CMD@@予定
 calendar-new-task-primary-button = @@New-CMD@@ ToDo
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = 前の日
     .accesskey = s
@@ -28,6 +43,9 @@ calendar-nav-button-prev-tooltip-multiweek =
     .accesskey = s
 calendar-nav-button-prev-tooltip-month =
     .title = 前の月
+    .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = 前の年
     .accesskey = s
 calendar-nav-button-next-tooltip-day =
     .title = 次の月
@@ -41,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = 次の月
     .accesskey = x
+calendar-nav-button-next-tooltip-year =
+    .title = 次の年
+    .accesskey = x
 calendar-today-button-tooltip =
     .title = 今日に移動します
 calendar-view-toggle-day = 日
@@ -51,3 +72,14 @@ calendar-view-toggle-multiweek = 多週
     .title = 多週表示に切り替えます
 calendar-view-toggle-month = 月
     .title = 月表示に切り替えます
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = カレンダーレイアウトのオプション
+calendar-find-events-menu-option =
+    .label = 予定検索ペイン
+calendar-hide-weekends-option =
+    .label = 勤務日のみを表示
+calendar-define-workweek-option =
+    .label = 勤務日を設定
