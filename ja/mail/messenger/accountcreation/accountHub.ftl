@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+### Account Hub
+### Account hub is where user can setup new accounts in Thunderbird.
+
 ## Header
 
 account-hub-brand = { -brand-full-name }
@@ -24,6 +27,23 @@ account-hub-chat-button = チャットをセットアップ
 account-hub-feed-button = RSS フィードをセットアップ
 account-hub-newsgroup-button = ニュースグループをセットアップ
 account-hub-import-button = プロファイルを@@Import@@
+
+## Initial setup page
+
+account-hub-email-setup-button = メールアカウント
+    .title = メールアカウントをセットアップします
+account-hub-calendar-setup-button = カレンダー
+    .title = ローカルまたはリモートのカレンダーをセットアップします
+account-hub-address-book-setup-button = アドレス帳
+    .title = ローカルまたはリモートのアドレス帳をセットアップします
+account-hub-chat-setup-button = チャット
+    .title = チャットアカウントをセットアップします
+account-hub-feed-setup-button = RSS フィード
+    .title = RSS フィードアカウントをセットアップします
+account-hub-newsgroup-setup-button = ニュースグループ
+    .title = ニュースグループアカウントをセットアップします
+account-hub-import-setup-button = @@Import@@
+    .title = バックアップしたプロファイルを@@Import-si@@ます
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Sync にログイン...
 

@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = テキストエンコーディングを修復
     .accesskey = c
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = フォルダーペインヘッダー
+    .accesskey = F
+
 ## View / Layout
 
 menu-font-size-label =

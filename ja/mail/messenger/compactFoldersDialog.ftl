@@ -5,6 +5,8 @@
 compact-dialog-window =
     .title = フォルダーの最適化
     .style = width: 50em;
+compact-dialog-window-title =
+    .title = フォルダーの最適化
 compact-dialog =
     .buttonlabelaccept = 今すぐ最適化
     .buttonaccesskeyaccept = C
