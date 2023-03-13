@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = 勤務日のみを表示
 calendar-define-workweek-option =
     .label = 勤務日を設定
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = 前の日
+    .accesskey = s
+calendar-context-menu-previous-week =
+    .label = 前の週
+    .accesskey = s
+calendar-context-menu-previous-multiweek =
+    .label = 前の週
+    .accesskey = s
+calendar-context-menu-previous-month =
+    .label = 前の月
+    .accesskey = s
+calendar-context-menu-next-day =
+    .label = 次の日
+    .accesskey = x
+calendar-context-menu-next-week =
+    .label = 次の週
+    .accesskey = x
+calendar-context-menu-next-multiweek =
+    .label = 次の週
+    .accesskey = x
+calendar-context-menu-next-month =
+    .label = 次の月
+    .accesskey = x
