@@ -19,7 +19,7 @@
 <!ENTITY update.updateButton.accesskey		"R">
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly builds. It is only shown in this version. -->
-<!ENTITY warningDesc.version		"&brandShortName; は実験的であり動作が不安定である可能性があります。">
+<!ENTITY warningDesc.version		"&brandShortName; は実験的であり、不安定な可能性があります。">
 <!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly builds automatically send Telemetry data back to Mozilla. It is only shown in this version. "It" refers to brandShortName. -->
 <!ENTITY warningDesc.telemetryDesc	"このバージョンは、&brandShortName; の改善を助けるため、パフォーマンスやハードウェア、使用状況、カスタマイズされた設定についての情報を &vendorShortName; に自動的に送信します。">
 
@@ -27,26 +27,26 @@
 <!ENTITY community.exp.start		"">
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to https://www.mozilla.org/. -->
 <!ENTITY community.exp.mozillaLink	"&vendorShortName;">
-<!ENTITY community.exp.middle		"は、ウェブがすべての人々にとってオープンかつパブリックであり、アクセスできるように保つため、一つに集まって働く">
+<!ENTITY community.exp.middle		" はウェブの公開性、公衆性、制限のないアクセス性を保つために共に活動している ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink	"グローバルなコミュニティ">
-<!ENTITY community.exp.end		"です。">
+<!ENTITY community.exp.end		" です。">
 
-<!ENTITY community.start2		"&brandShortName; をデザインしている">
+<!ENTITY community.start2		"&brandShortName; をデザインしている ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to https://www.mozilla.org/. -->
 <!ENTITY community.mozillaLink		"&vendorShortName;">
-<!ENTITY community.middle2		"は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している">
+<!ENTITY community.middle2		" は、ウェブの公開性、公衆性、制限のないアクセス性を保つために共に活動している ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink		"グローバルなコミュニティ">
-<!ENTITY community.end3			"です。">
+<!ENTITY community.end3			" です。">
 
-<!ENTITY helpus.start			"ご協力いただける方は、">
+<!ENTITY helpus.start			"参加しませんか？ ">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to the thunderbird donation page -->
 <!ENTITY helpus.donateLink		"寄付">
-<!ENTITY helpus.middle			"または">
+<!ENTITY helpus.middle			" または ">
 <!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to https://www.thunderbird.net/get-involved/. -->
-<!ENTITY helpus.getInvolvedLink		"コミュニティに参加">
-<!ENTITY helpus.end			"してください！">
+<!ENTITY helpus.getInvolvedLink		"コミュニティへようこそ！">
+<!ENTITY helpus.end			"">
 
 <!ENTITY releaseNotes.link		"リリースノート">
 
@@ -60,13 +60,13 @@
 <!ENTITY bottomLinks.privacy		"プライバシーポリシー">
 
 <!-- LOCALIZATION NOTE (update.checkingForUpdates): try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.checkingForUpdates	"ソフトウェアの更新を確認中...">
+<!ENTITY update.checkingForUpdates	"ソフトウェアの更新を確認...">
 <!-- LOCALIZATION NOTE (update.noUpdatesFound): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.noUpdatesFound		"&brandShortName; は最新バージョンです">
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.adminDisabled		"システム管理者により、更新が無効化されています">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
-<!ENTITY update.otherInstanceHandlingUpdates	"&brandShortName; は別のインスタンスにより更新されています">
+<!ENTITY update.otherInstanceHandlingUpdates	"&brandShortName; は別のプロセスで更新中です">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into
@@ -75,7 +75,7 @@
      one line, try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.failed.start		"更新に失敗しました。 ">
 <!ENTITY update.failed.linkText		"最新バージョンをダウンロード">
-<!ENTITY update.failed.end		"してください">
+<!ENTITY update.failed.end		"">
 
 <!-- LOCALIZATION NOTE (update.manual.start,update.manual.end): update.manual.start and update.manual.end
      all go into one line and have an anchor in between with text that is the same as the link to a site
@@ -83,7 +83,7 @@
      try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.manual.start		"">
 <!ENTITY update.manual.linkText		"最新バージョンをダウンロード">
-<!ENTITY update.manual.end		"してください">
+<!ENTITY update.manual.end		"">
 
 <!-- LOCALIZATION NOTE (update.unsupported.start,update.unsupported.linkText,update.unsupported.end):
      update.unsupported.start, update.unsupported.linkText, and
@@ -109,7 +109,7 @@
 <!-- LOCALIZATION NOTE (channel.description.start,channel.description.end): channel.description.start and
      channel.description.end create one sentence, with the current channel label inserted in between.
      example: You are currently on the _Stable_ update channel. -->
-<!ENTITY channel.description.start	"現在の更新チャンネルは ">
+<!ENTITY channel.description.start	"現在のアップデートチャンネルは ">
 <!ENTITY channel.description.end	" です。">
 
 <!ENTITY cmdCloseMac.commandKey		"w">
