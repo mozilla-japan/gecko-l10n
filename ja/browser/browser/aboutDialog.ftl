@@ -22,8 +22,8 @@ update-noUpdatesFound = { -brand-short-name } は最新バージョンです
 aboutdialog-update-checking-failed = 更新の確認に失敗しました。
 update-otherInstanceHandlingUpdates = { -brand-short-name } は別のプロセスで更新中です
 update-manual = 更新が利用可能です <label data-l10n-name="manual-link"/>
-update-unsupported = 最新バージョンはご使用のシステムに対応していません。<label data-l10n-name="unsupported-link">詳細</label>
-update-restarting = 再起動中です...
+update-unsupported = ご利用のシステムでは、このバージョン以降の更新はできません。 <label data-l10n-name="unsupported-link">詳細</label>
+update-restarting = 再起動中...
 update-internal-error = 内部エラーにより更新を確認できません。<label data-l10n-name="manual-link"/> から更新が利用可能です。
 channel-description = 現在のアップデートチャンネルは <label data-l10n-name="current-channel"></label> です。{ " " }
 # Variables:
