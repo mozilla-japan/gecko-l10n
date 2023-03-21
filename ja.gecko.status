@@ -57,11 +57,15 @@ geck | browser, dom, toolkit    14992:4480c6e3c8b3 (2023-01-26)  mar            
 comm | mail, calendar, chat     10654:4ceaae458e81 (2023-01-31)  mar            mail, calendar, chat
 comm | mail, calendar           10697:68e6dbc068a4 (2023-02-02)  mar            mail, calendar
 
-^---Released!
-
 [l10n-mozilla-111.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | browser, dom, toolkit    15009:de3932bf3c30 (2023-02-20)  mar            browser, dom, toolkit
 comm | mail, calendar, chat     11202:d74ade0999ca (2023-02-28)  mar            mail, calendar, chat
 
+^---Released!
+
+[l10n-mozilla-112.0]
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
+comm | mail                     11453:7f593d09e06f (2023-03-13)  mar            mail
