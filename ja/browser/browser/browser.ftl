@@ -659,6 +659,9 @@ reader-view-enter-button =
 reader-view-close-button =
     .aria-label = リーダービューを閉じる
 
+## Picture-in-Picture urlbar button
+
+
 ## Full Screen and Pointer Lock UI
 
 # Please ensure that the domain stays in the `<span data-l10n-name="domain">` markup.
@@ -969,3 +972,7 @@ firefox-relay-offer-how-we-integrate = 続行すると、{ -brand-shorter-name }
 #  $sitename (String): name of the site where user enters their Relay mask
 #  $useremail (String): user email that will receive messages
 firefox-relay-offer-what-relay-does = <strong>{ $sitename }</strong> に届いたすべてのメールが <strong>{ $useremail }</strong> へ転送されます。
+
+## Popup Notification
+
+popup-notification-xpinstall-prompt-learn-more = アドオンの安全なインストールの詳細
