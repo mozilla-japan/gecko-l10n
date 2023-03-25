@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = 停止
 toolbar-stop =
     .title = 送受信処理を中止します
+toolbar-throbber-label = アクティブインジケータ
+toolbar-throbber =
+    .title = アクティブインジケータ
