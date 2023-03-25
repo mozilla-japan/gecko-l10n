@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = 下書きメッセージを暗号化された形式で保存する
     .accesskey = r
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = OpenPGP 公開鍵を Autocrypt 互換のメールヘッダーで送信する
+    .accesskey = t
 openpgp-key-user-id-label = アカウント / ユーザー ID
 openpgp-keygen-title-label =
     .title = OpenPGP 鍵を生成
