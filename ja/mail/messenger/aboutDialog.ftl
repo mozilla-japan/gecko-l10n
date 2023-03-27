@@ -6,6 +6,7 @@ about-update-whats-new = 新着情報
 aboutDialog-title =
     .title = { -brand-full-name } について
 release-notes-link = リリースノート
+update-internal-error = 内部エラーにより更新を確認できません。<label data-l10n-name="manual-link"/> から更新が利用可能です。
 update-check-for-updates-button = ソフトウェアの更新を確認
     .accesskey = C
 update-update-button = 再起動して { -brand-shorter-name } を更新
@@ -18,6 +19,7 @@ update-failed = 更新に失敗しました。 <a data-l10n-name="failed-link">�
 update-admin-disabled = システム管理者により、更新が無効化されています
 update-no-updates-found = { -brand-short-name } は最新バージョンです
 update-other-instance-handling-updates = { -brand-short-name } は別のインスタンスにより更新されています
+update-manual = 更新が利用可能です <label data-l10n-name="manual-link"/>
 update-unsupported = ご利用のシステムでは、このバージョン以降の更新はできません。<a data-l10n-name="unsupported-link">詳細</a>
 update-restarting = 再起動中...
 # Variables:
