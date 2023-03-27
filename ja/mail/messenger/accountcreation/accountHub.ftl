@@ -17,17 +17,6 @@ account-hub-release-notes = リリースノート
 account-hub-support = サポート
 account-hub-donate = 寄付
 
-## Start page
-
-account-hub-email-button = メールアカウントをセットアップ
-account-hub-new-email-button = @@New-CMD@@メールアドレスを取得
-account-hub-calendar-button = カレンダーをセットアップ
-account-hub-address-book-button = アドレス帳をセットアップ
-account-hub-chat-button = チャットをセットアップ
-account-hub-feed-button = RSS フィードをセットアップ
-account-hub-newsgroup-button = ニュースグループをセットアップ
-account-hub-import-button = プロファイルを@@Import@@
-
 ## Initial setup page
 
 account-hub-email-setup-button = メールアカウント

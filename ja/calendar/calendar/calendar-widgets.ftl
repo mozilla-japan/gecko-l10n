@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = カレンダー
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = { $calendarName } カレンダーのオプション
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName } カレンダーのアラームは停止しています
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = 勤務日のみを表示
 calendar-define-workweek-option =
     .label = 勤務日を設定
+calendar-show-tasks-calendar-option =
+    .label = カレンダーに ToDo を表示
 
 ## Calendar Context Menu
 

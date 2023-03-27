@@ -68,4 +68,5 @@ comm | mail, calendar, chat     11202:d74ade0999ca (2023-02-28)  mar            
 [l10n-mozilla-112.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
-comm | mail                     11453:7f593d09e06f (2023-03-13)  mar            mail
+comm | mail, calendar           11513:7191c6e13551 (2023-03-23)  mar            mail, calendar
+
