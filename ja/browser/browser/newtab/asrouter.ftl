@@ -48,30 +48,6 @@ cfr-doorhanger-extension-rating =
 #   $total (Number) - The total number of users using the add-on
 cfr-doorhanger-extension-total-users = { $total } ユーザー
 
-## Cookie Banner Handling Onboarding
-
-# Simplified version of the headline if the original text doesn't work
-# in your language: `See fewer cookie requests`.
-cfr-cookie-banner-handling-header = Cookie バナーよ去れ！
-cfr-cookie-banner-handling-body = Cookie バナーの同意確認に対し、可能な場合は { -brand-short-name } が自動的に「すべて拒否」を選択します。拒否できない場合は、すべての Cookie を受け入れてバナーが表示されないようにします。
-cfr-cookie-banner-accept-button = 同意確認を自動で閉じる
-    .accesskey = D
-cfr-cookie-banner-reject-button = 後で
-    .accesskey = N
-cfr-cookie-banner-handling-header-variant-1 = Cookie ポップアップを減らします
-cfr-cookie-banner-handling-body-variant-1 = 目障りな Cookie ポップアップに { -brand-short-name } が自動的に応答します。可能な場合は { -brand-short-name } がすべて拒否しますが、拒否できない場合はすべてを受け入れます。
-cfr-cookie-banner-accept-button-variant-1 = ポップアップを自動で閉じる
-    .accesskey = D
-cfr-cookie-banner-reject-button-variant-1 = いいえ、結構です
-    .accesskey = N
-
-cfr-cookie-banner-handling-header-variant-2 = Cookie バナー削減
-cfr-cookie-banner-handling-body-variant-2 = ウェブサイトの Cookie 同意確認に対し、可能な場合は Cookie を拒否し、拒否できない場合は Cookie を受け入れることを { -brand-short-name } に許可しますか？
-cfr-cookie-banner-accept-button-variant-2 = 許可する
-    .accesskey = A
-cfr-cookie-banner-reject-button-variant-2 = 後で
-    .accesskey = N
-
 ## Firefox Accounts Message
 
 cfr-doorhanger-bookmark-fxa-header = どこからでもブックマークを同期します。
@@ -257,9 +233,20 @@ cfr-cookiebanner-accept-button-variant-2 = 許可する
     .accesskey = A
 cfr-cookiebanner-reject-button-variant-2 = 後で
     .accesskey = N
+cfr-cbh-header = { -brand-short-name } に Cookie バナーを拒否できるようにしますか？
+cfr-cbh-body = { -brand-short-name } が多くの Cookie バナーの同意確認を自動的に拒否します。
+cfr-cbh-confirm-button = Cookie バナーを拒否
+    .accesskey = R
+cfr-cbh-dismiss-button = 後で
+    .accesskey = N
 
 ## These strings are used in the Fox doodle Pin/set default spotlights
 
 july-jam-headline = 私たちがあなたを守ります
 july-jam-body = 毎月、{ -brand-short-name } はユーザーあたり平均 3000 件以上のトラッカーをブロックし、健全なインターネットへの安全で快適なアクセスをユーザーに提供しています。
 july-jam-set-default-primary = { -brand-short-name } でマイリンクを開く
+
+## These strings are used in the Set Firefox as Default PDF Handler for Existing Users experiment
+
+set-default-pdf-handler-headline = <strong>PDF ファイルを { -brand-short-name } で開くように関連付けられます。</strong> ブラウザー内で編集または署名ができます。動作を変更するには、設定で “PDF” を検索してください。
+set-default-pdf-handler-primary = 了解

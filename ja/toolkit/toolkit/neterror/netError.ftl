@@ -27,6 +27,7 @@ neterror-try-again-button = 再試行
 neterror-add-exception-button = このサイトは常に続行する
 neterror-settings-button = DNS 設定を変更
 neterror-view-certificate-link = 証明書を確認
+neterror-trr-continue-this-time = 今回は続行する
 neterror-disable-native-feedback-warning = 常に続行する
 
 ##
@@ -72,6 +73,7 @@ neterror-dns-not-found-native-fallback-reason = { -brand-short-name } は信頼�
 neterror-dns-not-found-native-fallback-attackers = 安全でない DNS リゾルバーで続行することができますが、第三者にあなたの訪れたウェブサイトを知られたり、信頼できないサイトへ転送されたりする可能性があります。
 neterror-dns-not-found-native-fallback-heuristic = ご利用のネットワークでは DNS over HTTPS が無効化されています。
 neterror-dns-not-found-native-fallback-not-confirmed = { $trrDomain } への接続がまだ準備できていません。
+neterror-dns-not-found-native-fallback-not-confirmed2 = { -brand-short-name } が { $trrDomain } に接続できませんでした。
 
 ##
 

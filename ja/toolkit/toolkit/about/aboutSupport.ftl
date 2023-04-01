@@ -263,6 +263,8 @@ webgl2-renderer = WebGL 2 ドライバーのレンダラー
 webgl2-version = WebGL 2 ドライバーのバージョン
 webgl2-driver-extensions = WebGL 2 ドライバーの拡張
 webgl2-extensions = WebGL 2 拡張
+webgpu-default-adapter = WebGPU の@@Default-@@アダプター
+webgpu-fallback-adapter = WebGPU のフォールバックアダプター
 # Variables
 #   $bugNumber (string) - Bug number on Bugzilla
 support-blocklisted-bug = 既知の問題によりブロックリストに追加: <a data-l10n-name="bug-link">bug { $bugNumber }</a>

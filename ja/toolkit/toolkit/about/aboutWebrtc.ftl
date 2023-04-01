@@ -137,6 +137,12 @@ about-webrtc-local-receive-ssrc = ローカル受信 SSRC
 # This is an SSRC on the remote side of the connection that is sending RTP
 about-webrtc-remote-send-ssrc = リモート送信 SSRC
 
+## These are displayed on the button that shows or hides the
+## PeerConnection configuration disclosure
+
+about-webrtc-pc-configuration-show-msg = 構成を表示
+about-webrtc-pc-configuration-hide-msg = 構成を隠す
+
 ##
 
 # An option whose value will not be displayed but instead noted as having been
@@ -246,5 +252,10 @@ about-webrtc-sdp-set-at-timestamp-remote = 時刻 { NUMBER($timestamp, useGroupi
 #  $timestamp (Number) - The Unix Epoch time at which the SDP was set.
 #  $relative-timestamp (Number) - The timestamp relative to the timestamp of the earliest received SDP.
 about-webrtc-sdp-set-timestamp = タイムスタンプ { NUMBER($timestamp, useGrouping: "false") } (+ { $relative-timestamp } ms)
+
+## These are displayed on the button that shows or hides the SDP information disclosure
+
+about-webrtc-show-msg-sdp = SDP を表示
+about-webrtc-hide-msg-sdp = SDP を隠す
 
 ##
