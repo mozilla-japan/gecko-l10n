@@ -120,6 +120,11 @@ startup-restore-warn-on-quit =
     .label = ブラウザーを終了するときは確認する
 disable-extension =
     .label = 拡張機能を無効化
+preferences-data-migration-header = ブラウザーデータの@@ImportNoun@@
+preferences-data-migration-description = ブックマークやパスワード、履歴、自動入力データを { -brand-short-name } に@@Import-si@@ます。
+preferences-data-migration-button =
+    .label = データを@@Import@@
+    .accesskey = m
 tabs-group-header = タブグループ
 ctrl-tab-recently-used-order =
     .label = Ctrl+Tab で最近使用した順にタブを切り替える
@@ -936,6 +941,14 @@ sitedata-cookies-exceptions =
     .label = 例外を管理...
     .accesskey = x
 
+## Privacy Section - Cookie Banner Handling
+
+cookie-banner-handling-header = Cookie バナー削減
+cookie-banner-handling-description = サポートされたサイトの Cookie バナーの同意確認に対し、可能な場合は { -brand-short-name } が自動的に拒否します。
+cookie-banner-learn-more = 詳細情報
+forms-handle-cookie-banners =
+    .label = Cookie バナーの削減
+
 ## Privacy Section - Address Bar
 
 addressbar-header = アドレスバー
@@ -1071,6 +1084,11 @@ permissions-camera-settings =
     .accesskey = t
 permissions-microphone = マイク
 permissions-microphone-settings =
+    .label = 設定...
+    .accesskey = t
+# Short form for "the act of choosing sound output devices and redirecting audio to the chosen devices".
+permissions-speaker = スピーカー選択
+permissions-speaker-settings =
     .label = 設定...
     .accesskey = t
 permissions-notification = 通知
