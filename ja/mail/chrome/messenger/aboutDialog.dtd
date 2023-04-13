@@ -19,7 +19,7 @@
 <!ENTITY update.updateButton.accesskey		"R">
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly builds. It is only shown in this version. -->
-<!ENTITY warningDesc.version		"&brandShortName; は実験的であり動作が不安定である可能性があります。">
+<!ENTITY warningDesc.version		"&brandShortName; は実験的であり、動作が不安定である可能性があります。">
 <!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly builds automatically send Telemetry data back to Mozilla. It is only shown in this version. "It" refers to brandShortName. -->
 <!ENTITY warningDesc.telemetryDesc	"このバージョンは、&brandShortName; の改善を助けるため、パフォーマンスやハードウェア、使用状況、カスタマイズされた設定についての情報を &vendorShortName; に自動的に送信します。">
 
@@ -32,21 +32,21 @@
 <!ENTITY community.exp.creditsLink	"グローバルなコミュニティ">
 <!ENTITY community.exp.end		"です。">
 
-<!ENTITY community.start2		"&brandShortName; をデザインしている">
+<!ENTITY community.start2		"&brandShortName; をデザインしている ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to https://www.mozilla.org/. -->
 <!ENTITY community.mozillaLink		"&vendorShortName;">
-<!ENTITY community.middle2		"は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している">
+<!ENTITY community.middle2		" は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink		"グローバルなコミュニティ">
-<!ENTITY community.end3			"です。">
+<!ENTITY community.end3			" です。">
 
-<!ENTITY helpus.start			"ご協力いただける方は、">
+<!ENTITY helpus.start			"参加しませんか？ ">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to the thunderbird donation page -->
 <!ENTITY helpus.donateLink		"寄付">
-<!ENTITY helpus.middle			"または">
+<!ENTITY helpus.middle			" または ">
 <!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to https://www.thunderbird.net/get-involved/. -->
 <!ENTITY helpus.getInvolvedLink		"コミュニティに参加">
-<!ENTITY helpus.end			"してください！">
+<!ENTITY helpus.end			" してください！">
 
 <!ENTITY releaseNotes.link		"リリースノート">
 
@@ -66,7 +66,7 @@
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.adminDisabled		"システム管理者により、更新が無効化されています">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
-<!ENTITY update.otherInstanceHandlingUpdates	"&brandShortName; は別のインスタンスにより更新されています">
+<!ENTITY update.otherInstanceHandlingUpdates	"&brandShortName; は別のインスタンスにより更新中です">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into
