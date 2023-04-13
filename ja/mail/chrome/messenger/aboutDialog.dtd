@@ -75,7 +75,7 @@
      one line, try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.failed.start		"更新に失敗しました。 ">
 <!ENTITY update.failed.linkText		"最新バージョンをダウンロード">
-<!ENTITY update.failed.end		"">
+<!ENTITY update.failed.end		"してください">
 
 <!-- LOCALIZATION NOTE (update.manual.start,update.manual.end): update.manual.start and update.manual.end
      all go into one line and have an anchor in between with text that is the same as the link to a site
@@ -83,7 +83,7 @@
      try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.manual.start		"">
 <!ENTITY update.manual.linkText		"最新バージョンをダウンロード">
-<!ENTITY update.manual.end		"">
+<!ENTITY update.manual.end		"してください">
 
 <!-- LOCALIZATION NOTE (update.unsupported.start,update.unsupported.linkText,update.unsupported.end):
      update.unsupported.start, update.unsupported.linkText, and

@@ -15,7 +15,7 @@ update-checking-for-updates = ソフトウェアの更新を確認中...
 update-downloading-message = 更新をダウンロード中 — <span data-l10n-name="download-status"></span>
 update-applying = 更新を適用中...
 update-downloading = <img data-l10n-name="icon"/>更新をダウンロード中 — <span data-l10n-name="download-status"></hspan>
-update-failed = 更新に失敗しました。 <a data-l10n-name="failed-link">最新バージョンをダウンロード</a>
+update-failed = 更新に失敗しました。 <a data-l10n-name="failed-link">最新バージョンをダウンロード</a> してください。
 update-admin-disabled = システム管理者により、更新が無効化されています
 update-no-updates-found = { -brand-short-name } は最新バージョンです
 update-other-instance-handling-updates = { -brand-short-name } は別のインスタンスにより更新中です
