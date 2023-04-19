@@ -406,6 +406,7 @@ identity-connection-not-secure-security-view = このサイトとの接続は安
 identity-connection-verified = このサイトとの接続は安全です。
 identity-ev-owner-label = 証明書の発行先:
 identity-description-custom-root = Mozilla はこの証明書の発行者を承認していません。OS またはシステム管理者により追加された可能性があります。 <label data-l10n-name="link">詳細情報</label>
+identity-description-custom-root2 = Mozilla はこの証明書の発行者を承認していません。OS またはシステム管理者により追加された可能性があります。
 identity-remove-cert-exception =
     .label = 例外から削除
     .accesskey = R
