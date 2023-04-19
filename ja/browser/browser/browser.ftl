@@ -414,9 +414,12 @@ identity-description-insecure-login-forms = このページに入力したログ
 identity-description-weak-cipher-intro = このウェブサイトとの接続には脆弱な暗号が使用されており、秘密が保たれません。
 identity-description-weak-cipher-risk = 第三者にあなたの情報を盗み見られたりウェブサイトの動作を不正に改変される可能性があります。
 identity-description-active-blocked = { -brand-short-name } がこのページ上の安全でないコンテンツをブロックしました。 <label data-l10n-name="link">詳細情報</label>
+identity-description-active-blocked2 = { -brand-short-name } がこのページ上の安全でないコンテンツをブロックしました。
 identity-description-passive-loaded = この接続は安全でないため、サイトと共有したあなたの情報が第三者に盗み見られる可能性があります。
 identity-description-passive-loaded-insecure = このウェブサイトには安全でないコンテンツ (画像など) が含まれています。 <label data-l10n-name="link">詳細情報</label>
 identity-description-passive-loaded-mixed = { -brand-short-name } が一部のコンテンツをブロックしていますが、ページ上には安全でないコンテンツ (画像など) が含まれています。 <label data-l10n-name="link">詳細情報</label>
+identity-description-passive-loaded-insecure2 = このウェブサイトには安全でないコンテンツ (画像など) が含まれています。
+identity-description-passive-loaded-mixed2 = { -brand-short-name } が一部のコンテンツをブロックしていますが、ページ上には安全でないコンテンツ (画像など) が含まれています。
 identity-description-active-loaded = このウェブサイトには安全でないコンテンツ (スクリプトなど) が含まれており、サイトとの接続は秘密が保たれません。
 identity-description-active-loaded-insecure = このサイトと共有したあなたの情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。
 identity-learn-more =
@@ -660,9 +663,9 @@ reader-view-close-button =
     .aria-label = リーダービューを閉じる
 
 ## Picture-in-Picture urlbar button
+## Variables:
+##   $shortcut (String) - Keyboard shortcut to execute the command.
 
-picture-in-picture-urlbar-button =
-   .tooltiptext = ピクチャーインピクチャーを切り替えます
 
 ## Full Screen and Pointer Lock UI
 
