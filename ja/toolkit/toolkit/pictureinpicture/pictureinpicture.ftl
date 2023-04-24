@@ -55,6 +55,10 @@ pictureinpicture-seekbackward-btn =
 pictureinpicture-seekforward-btn =
     .aria-label = 早送り
     .tooltip = 早送り (→)
+# This string is never displayed on the window. Is intended to be announced by
+# a screen reader whenever a user opens the subtitles settings panel
+# after selecting the subtitles button.
+pictureinpicture-subtitles-panel-accessible = 字幕設定
 pictureinpicture-subtitles-label = 字幕
 pictureinpicture-font-size-label = フォントサイズ
 pictureinpicture-font-size-small = 小
