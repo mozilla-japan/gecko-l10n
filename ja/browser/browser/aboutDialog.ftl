@@ -22,6 +22,7 @@ update-noUpdatesFound = { -brand-short-name } は最新バージョンです
 aboutdialog-update-checking-failed = 更新の確認に失敗しました。
 update-otherInstanceHandlingUpdates = { -brand-short-name } は別のインスタンスにより更新中です
 update-manual = 更新が利用可能です <label data-l10n-name="manual-link"/>
+aboutdialog-update-manual = 更新が利用可能です <a data-l10n-name="manual-link"/>
 update-unsupported = ご利用のシステムでは、このバージョン以降の更新はできません。 <label data-l10n-name="unsupported-link">詳細</label>
 update-restarting = 再起動中...
 update-internal-error = 内部エラーにより更新を確認できません。<label data-l10n-name="manual-link"/> から更新が利用可能です。
