@@ -18,6 +18,14 @@ dialog-title =
 dialog-title-everything =
     .title = すべての履歴を消去
     .style = width: 34em
+sanitize-dialog-title =
+    .title = 最近の履歴を消去
+    .style = min-width: 34em
+# When "Time range to clear" is set to "Everything", this message is used for the
+# title instead of dialog-title.
+sanitize-dialog-title-everything =
+    .title = すべての履歴を消去
+    .style = min-width: 34em
 clear-data-settings-label = { -brand-short-name } の終了時には次のデータを自動消去する
 
 ## clear-time-duration-prefix is followed by a dropdown list, with
