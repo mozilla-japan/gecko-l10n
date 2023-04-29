@@ -57,7 +57,6 @@ collection-backlogged-crash-reports =
     .label = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する
     .accesskey = c
 collection-backlogged-crash-reports-link = 詳細情報
-
 privacy-security-header = セキュリティ
 privacy-scam-detection-title = 詐欺メール
 privacy-anti-virus-title = ウイルス対策
@@ -563,6 +562,8 @@ do-not-track-label =
     .accesskey = n
 learn-button =
     .label = 詳細情報
+dnt-learn-more-button =
+    .value = 詳細情報
 passwords-description = { -brand-short-name } で利用するすべてのアカウントのパスワードを保存できます。
 passwords-button =
     .label = 保存されているパスワード...
@@ -724,10 +725,11 @@ search-preferences-input2 =
 
 search-results-header = 検索結果
 # `<span data-l10n-name="query"></span>` will be replaced by the search term.
-search-results-empty-message2 = { PLATFORM() ->
-    [windows] “<span data-l10n-name="query"></span>” オプションの検索結果はありません。
-    *[other] “<span data-l10n-name="query"></span>” 設定の検索結果はありません。
-}
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] “<span data-l10n-name="query"></span>” オプションの検索結果はありません。
+       *[other] “<span data-l10n-name="query"></span>” 設定の検索結果はありません。
+    }
 search-results-help-link = 助けが必要な方は、<a data-l10n-name="url">{ -brand-short-name } サポート</a> をご利用ください
 
 ## Sync Tab
