@@ -40,6 +40,12 @@ options-inspector-draggable-properties-label = ドラッグでサイズの値を
 options-inspector-draggable-properties-tooltip =
     .title = インスペクターのルール表示で、サイズの値をクリックしてドラッグすると値を編集できます。
 
+# The label for the checkbox option to enable simplified highlighting on page elements
+# within the inspector for users who enabled prefers-reduced-motion = reduce
+options-inspector-simplified-highlighters-label = Use simpler highlighters with prefers-reduced-motion
+options-inspector-simplified-highlighters-tooltip =
+    .title = prefers-reduced-motion が有効な場合、簡易強調を有効にします。フラッシュ効果を避けるため、強調された要素の周りに塗りつぶされた四角形ではなく直線を描画します。
+
 ## "Default Color Unit" options for the Inspector
 
 options-default-color-unit-label = @@Default-@@@@Color@@単位

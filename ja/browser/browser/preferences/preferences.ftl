@@ -712,6 +712,7 @@ prefs-sync-now =
 ## The list of things currently syncing.
 
 sync-currently-syncing-heading = これらの項目を同期しています:
+sync-syncing-across-devices-heading = アカウントに接続されたすべての端末でこれらの項目を同期しています:
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
 sync-currently-syncing-tabs = 開いているタブ
@@ -740,6 +741,7 @@ sync-choose-what-to-sync-dialog3 =
     .buttonaccesskeyaccept = S
     .buttonlabelextra2 = 切断...
     .buttonaccesskeyextra2 = D
+sync-choose-dialog-subtitle = 項目のリストを変更すると、アカウントに接続されたすべての端末に反映されます。
 sync-engine-bookmarks =
     .label = ブックマーク
     .accesskey = m
@@ -1195,6 +1197,63 @@ httpsonly-radio-enabled-pbm =
     .label = プライベート@@Window@@のみ HTTPS-Only モードを有効にする
 httpsonly-radio-disabled =
     .label = HTTPS-Only モードを有効にしない
+
+## DoH Section
+
+preferences-doh-header = DNS over HTTPS
+preferences-doh-description = Domain Name System (DNS) over HTTPS は暗号化された接続を通してドメイン名の要求を送信します。この安全な DNS によって、あなたがアクセスしようとしているウェブサイトを他者に知られないようにします。
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = 状態: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = プロバイダー: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = 不正な URL
+preferences-doh-steering-status = ローカルプロバイダーを使用中
+preferences-doh-status-active = 使用中
+preferences-doh-status-disabled = オフ
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = 未使用 ({ $reason })
+preferences-doh-group-message = 次のレベルで安全な DNS を使用します:
+preferences-doh-expand-section =
+    .tooltiptext = 詳細情報
+preferences-doh-setting-default =
+    .label = @@Default@@の保護
+    .accesskey = D
+preferences-doh-default-desc = いつ安全な DNS を使用してユーザーのプライバシーを保護するかを { -brand-short-name } が決定します。
+preferences-doh-default-detailed-desc-1 = 利用可能な地域で安全な DNS を使用します
+preferences-doh-default-detailed-desc-2 = 安全な DNS プロバイダーで問題がある場合、@@Default-@@ DNS リゾルバーを使用します
+preferences-doh-default-detailed-desc-3 = 可能であればローカルプロバイダーを使用します
+preferences-doh-default-detailed-desc-4 = VPN やペアレンタルコントロール、エンタープライズポリシーが有効な場合はオフにします
+preferences-doh-default-detailed-desc-5 = ネットワークが { -brand-short-name } に安全な DNS を使用させない場合はオフにします
+preferences-doh-setting-enabled =
+    .label = 強力な保護
+    .accesskey = I
+preferences-doh-enabled-desc = いつ安全な DNS を使用するかをユーザーが制御し、DNS プロバイダーを指定できます
+preferences-doh-enabled-detailed-desc-1 = 選択された DNS プロバイダーを使用します
+preferences-doh-enabled-detailed-desc-2 = 安全な DNS で問題がある場合のみ、@@Default-@@ DNS リゾルバーを使用します
+preferences-doh-setting-strict =
+    .label = 最大限の保護
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } は常に安全な DNS を使用します。ご使用のシステムの DNS が使用される前にセキュリティの危険性があることが警告されます。
+preferences-doh-strict-detailed-desc-1 = 選択された DNS プロバイダーのみを使用します
+preferences-doh-strict-detailed-desc-2 = 安全な DNS が利用できない場合、常に警告されます
+preferences-doh-strict-detailed-desc-3 = 安全な DNS が利用できない場合、サイトが読み込まれず正しく機能しません
+preferences-doh-setting-off =
+    .label = オフ
+    .accesskey = O
+preferences-doh-off-desc = @@Default-@@ DNS リゾルバーを使用します
+preferences-doh-checkbox-warn =
+    .label = 第三者が安全な DNS を妨げている時に警告する
+    .accesskey = W
+preferences-doh-select-resolver = プロバイダーを選択:
+preferences-doh-exceptions-description = { -brand-short-name } はこれらのサイトで安全な DNS を使用しません
+preferences-doh-manage-exceptions =
+    .label = 例外を管理...
+    .accesskey = x
 
 ## The following strings are used in the Download section of settings
 

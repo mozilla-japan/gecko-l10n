@@ -214,25 +214,6 @@ colorways-cfr-header-today = 揺るぎない声 Colorway は今日まで
 
 ## Cookie Banner Handling CFR
 
-# Alternate headline for localization: "See fewer cookie requests"
-cfr-cookiebanner-header = Cookie バナーよ去れ！
-cfr-cookiebanner-body = Cookie バナーの同意確認に対し、可能な場合は { -brand-short-name } が自動的に「すべて拒否」を選択できるようにします。
-cfr-cookiebanner-accept-button-v2 = 自動で拒否を選択する
-    .accesskey = R
-cfr-cookiebanner-reject-button = 後で
-    .accesskey = N
-cfr-cookiebanner-header-variant-1 = Cookie ポップアップを減らします
-cfr-cookiebanner-body-variant-1 = 目障りな Cookie ポップアップに { -brand-short-name } が自動的に応答します。可能な場合は { -brand-short-name } がすべて拒否します。
-cfr-cookiebanner-accept-button-variant-1 = ポップアップを自動で閉じる
-    .accesskey = D
-cfr-cookiebanner-reject-button-variant-1 = いいえ、結構です
-    .accesskey = N
-cfr-cookiebanner-header-variant-2 = Cookie バナー削減
-cfr-cookiebanner-body-variant-2 = ウェブサイトの Cookie 同意確認に対し、可能な場合は Cookie を拒否して目障りな Cookie バナーが表示されないようにすることを { -brand-short-name } に許可しますか？
-cfr-cookiebanner-accept-button-variant-2 = 許可する
-    .accesskey = A
-cfr-cookiebanner-reject-button-variant-2 = 後で
-    .accesskey = N
 cfr-cbh-header = { -brand-short-name } に Cookie バナーを拒否できるようにしますか？
 cfr-cbh-body = { -brand-short-name } が多くの Cookie バナーの同意確認を自動的に拒否します。
 cfr-cbh-confirm-button = Cookie バナーを拒否
@@ -245,6 +226,12 @@ cfr-cbh-dismiss-button = 後で
 july-jam-headline = 私たちがあなたを守ります
 july-jam-body = 毎月、{ -brand-short-name } はユーザーあたり平均 3000 件以上のトラッカーをブロックし、健全なインターネットへの安全で快適なアクセスをユーザーに提供しています。
 july-jam-set-default-primary = { -brand-short-name } でマイリンクを開く
+fox-doodle-pin-headline = おかえりなさい
+# “indie” is short for the term “independent”.
+# In this instance, free from outside influence or control.
+fox-doodle-pin-body = 実は、たったのクリック 1 回でお気に入りの独立系ブラウザーを使い続けられるんです。
+fox-doodle-pin-primary = { -brand-short-name } でマイリンクを開く
+fox-doodle-pin-secondary = 後で
 
 ## These strings are used in the Set Firefox as Default PDF Handler for Existing Users experiment
 

@@ -334,6 +334,9 @@ main-context-menu-use-saved-password =
 
 ##
 
+main-context-menu-use-relay-mask =
+    .label = { -relay-brand-short-name } メールマスクを使用
+    .accesskey = E
 main-context-menu-suggest-strong-password =
     .label = 安全なパスワードを生成...
     .accesskey = S

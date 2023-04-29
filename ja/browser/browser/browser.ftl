@@ -144,6 +144,8 @@ urlbar-tip-icon-description =
     .alt = ヒント:
 urlbar-result-menu-button =
     .title = メニューを開く
+urlbar-result-menu-button-feedback = フィードバック
+    .title = メニューを開く
 urlbar-result-menu-learn-more =
     .label = 詳細情報
     .accesskey = L
@@ -667,6 +669,10 @@ reader-view-close-button =
 ## Variables:
 ##   $shortcut (String) - Keyboard shortcut to execute the command.
 
+picture-in-picture-urlbar-button-open =
+    .tooltiptext = ピクチャーインピクチャーを開きます ({ $shortcut })
+picture-in-picture-urlbar-button-close =
+    .tooltiptext = ピクチャーインピクチャーを閉じます ({ $shortcut })
 
 ## Full Screen and Pointer Lock UI
 
