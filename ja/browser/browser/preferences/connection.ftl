@@ -75,7 +75,7 @@ connection-proxy-socks-remote-dns =
 connection-dns-over-https =
     .label = DNS over HTTPS を有効にする
     .accesskey = b
-connection-dns-over-https-url-resolver = プロバイダーを使用
+connection-dns-over-https-url-resolver = 使用するプロバイダー
     .accesskey = P
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider

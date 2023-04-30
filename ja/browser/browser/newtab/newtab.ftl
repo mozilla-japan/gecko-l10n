@@ -19,7 +19,6 @@ newtab-personalize-dialog-label =
 newtab-search-box-search-button =
     .title = 検索
     .aria-label = 検索
-
 # Variables:
 #   $engine (string) - The name of the user's default search engine
 newtab-search-box-handoff-text = { $engine } で検索、または URL を入力します
@@ -34,7 +33,6 @@ newtab-search-box-handoff-input-no-engine =
     .placeholder = 検索語句、または URL を入力します
     .title = 検索語句、または URL を入力します
     .aria-label = 検索語句、または URL を入力します
-
 newtab-search-box-text = ウェブを検索
 newtab-search-box-input =
     .placeholder = ウェブを検索
@@ -240,10 +238,14 @@ newtab-pocket-last-card-title = 最後まで読みました！
 newtab-pocket-last-card-desc = 後でもう一度確認してください。
 newtab-pocket-last-card-image =
     .alt = 最後まで読みました
-
 # A save to Pocket button that shows over the card thumbnail on hover.
 newtab-pocket-save = 保存
 newtab-pocket-saved = 保存しました
+
+## Pocket content onboarding experience dialog and modal for new users seeing the Pocket section for the first time, shown as the first item in the Pocket section.
+
+newtab-pocket-onboarding-discover = ウェブのベストコンテンツを見つけましょう
+newtab-pocket-onboarding-cta = { -pocket-brand-name } は、さまざまな出版物の中から最も有益で、感動的な、信頼できるコンテンツをあなたの { -brand-product-name } ブラウザーにもたらします。
 
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.

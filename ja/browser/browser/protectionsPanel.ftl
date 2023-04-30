@@ -38,7 +38,7 @@ protections-panel-not-blocking-why-etp-off-tooltip = 保護がオフになって
 
 ##
 
-protections-panel-no-trackers-found = このページには既知のトラッカーがありません。
+protections-panel-no-trackers-found = このページには { -brand-short-name } に既知のトラッカーがありません。
 protections-panel-content-blocking-tracking-protection = トラッキングコンテンツ
 protections-panel-content-blocking-socialblock = ソーシャルメディアトラッカー
 protections-panel-content-blocking-cryptominers-label = 暗号通貨マイニング
@@ -70,6 +70,7 @@ protections-panel-site-not-working-view-issue-list-forms = フォーム
 protections-panel-site-not-working-view-issue-list-payments = 支払い情報
 protections-panel-site-not-working-view-issue-list-comments = コメント
 protections-panel-site-not-working-view-issue-list-videos = 動画
+protections-panel-site-not-working-view-issue-list-fonts = フォント
 protections-panel-site-not-working-view-send-report = 報告を送信
 
 ##

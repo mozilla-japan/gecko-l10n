@@ -76,4 +76,5 @@ geck | dom, toolkit, netwerk    15030:46b47f239616 (2023-03-24)  mar            
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit, netwerk    15050:cec542f6a7ba (2023-04-21)  mar            sync dom, toolkit, netwerk
+geck | browser, devtools        15055:81e18ff2b5e4 (2023-04-27)  mar            sync browser, devtools
 

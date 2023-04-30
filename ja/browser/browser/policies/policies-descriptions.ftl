@@ -26,6 +26,8 @@ policy-Bookmarks = ブックマークツールバー、ブックマークメニ�
 policy-CaptivePortal = キャプティブポータルサポートを有効または無効にします。
 policy-CertificatesDescription = 証明書を追加、または組み込みの証明書を利用します。
 policy-Cookies = ウェブサイトの Cookie の保存を許可するか拒否するか設定します。
+# Containers in this context is referring to container tabs in Firefox.
+policy-Containers = コンテナーに関連するポリシーを設定します。
 policy-DisabledCiphers = 暗号を無効にします。
 policy-DefaultDownloadDirectory = @@Default-@@ダウンロードディレクトリーを設定します。
 policy-DisableAppUpdate = ブラウザの更新を抑止します。
@@ -114,6 +116,8 @@ policy-SearchEngines = 検索エンジンの設定を指示します。このポ
 policy-SearchSuggestEnabled = 検索候補の表示機能を有効または無効にします。
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = PKCS #11 モジュールをインストールします。
+# For more information, see https://wikipedia.org/wiki/PKCS_11
+policy-SecurityDevices2 = PKCS #11 モジュールを追加または削除します。
 policy-ShowHomeButton = ホームボタンをツールバーに表示します。
 policy-SSLVersionMax = SSL の最高バージョンを設定します。
 policy-SSLVersionMin = SSL の最低バージョンを設定します。
