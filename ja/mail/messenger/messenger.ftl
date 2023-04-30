@@ -31,6 +31,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = 安全な接続ではありません
 
+## Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = 前のページへ戻ります ({ $shortcut })
+    .aria-label = 戻る
+    .accesskey = B
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = 戻る
+    .accesskey = B
+
+## Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = 次のページへ進みます ({ $shortcut })
+    .aria-label = 進む
+    .accesskey = F
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = 進む
+    .accesskey = F
+
+## Reload
+
+content-tab-menu-reload =
+    .tooltiptext = ページを再度読み込みます
+    .aria-label = 再読み込み
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = ページを再度読み込みます
+    .label = 再読み込み
+    .accesskey = R
+
+## Stop
+
+content-tab-menu-stop =
+    .tooltiptext = ページの読み込みを中止します
+    .aria-label = 中止
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = ページの読み込みを中止します
+    .label = 中止
+    .accesskey = S
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

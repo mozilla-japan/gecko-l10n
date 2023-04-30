@@ -117,6 +117,15 @@ folder-pane-write-message-button = メッセージ作成
     .title = @@New-CMD@@メッセージを作成します
 folder-pane-more-menu-button =
     .title = フォルダーペインのオプション
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = フォルダーモード
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = “受信” を表示
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = “メッセージ作成” を表示
 folder-pane-header-context-hide =
     .label = フォルダーペインのヘッダーを隠す
 
@@ -138,14 +147,17 @@ threadpane-column-header-flagged =
     .title = スターの有無で並べ替えます
 threadpane-column-label-flagged =
     .label = スター
+threadpane-flagged-cell-label = スター
 threadpane-column-header-attachments =
     .title = 添付の有無で並べ替えます
 threadpane-column-label-attachments =
     .label = 添付
+threadpane-attachments-cell-label = 添付
 threadpane-column-header-spam =
     .title = 迷惑メールかどうかで並べ替えます
 threadpane-column-label-spam =
     .label = 迷惑メール
+threadpane-spam-cell-label = 迷惑メール
 threadpane-column-header-unread-button =
     .title = 既読状態で並べ替えます
 threadpane-column-label-unread-button =
