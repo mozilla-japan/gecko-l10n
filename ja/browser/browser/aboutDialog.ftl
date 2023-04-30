@@ -33,8 +33,8 @@ aboutdialog-channel-description = 現在の更新チャンネルは <label data-
 warningDesc-version = { -brand-short-name } は実験的であり、動作が不安定である可能性があります。
 aboutdialog-help-user = { -brand-product-name } ヘルプ
 aboutdialog-submit-feedback = フィードバックを送信
-community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> はウェブの公開性、公衆性、制限のないアクセス性を保つために共に活動している <label data-l10n-name="community-exp-creditsLink">グローバルなコミュニティ</label> です。
-community-2 = { -brand-short-name } をデザインしている <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label> は、ウェブの公開性、公衆性、制限のないアクセス性を保つために共に活動している <label data-l10n-name="community-creditsLink">グローバルなコミュニティ</label> です。
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> はウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している <label data-l10n-name="community-exp-creditsLink">グローバルなコミュニティ</label> です。
+community-2 = { -brand-short-name } をデザインしている <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label> は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している <label data-l10n-name="community-creditsLink">グローバルなコミュニティ</label> です。
 helpus = 参加しませんか？ <label data-l10n-name="helpus-donateLink">寄付</label> または <label data-l10n-name="helpus-getInvolvedLink">コミュニティに参加</label> してください！
 bottomLinks-license = ライセンス情報
 bottomLinks-rights = あなたの権利について
