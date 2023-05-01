@@ -173,6 +173,10 @@ menu-open-key-manager =
     .label = 鍵マネージャー
     .accesskey = M
 # Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = { $addr } からエンドツーエンド暗号化メッセージを送信するためのセットアップが行われていません。
+# Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = { $addr } の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
 # Variables:
@@ -275,6 +279,7 @@ many-public-recipients-prompt-send = 強制送信
 compose-missing-identity-warning = 差出人アドレスと一致する一意の ID が見つかりませんでした。メッセージは現在の差出人フィールドと { $identity } の差出人情報の設定を使用して送信されます。
 encrypted-bcc-warning = 暗号化したメッセージの送信する場合、Bcc の受信者は完全に秘匿されません。すべての受信者が Bcc の受信者を認識できます。
 encrypted-bcc-ignore-button = 了解
+auto-disable-e2ee-warning = このメッセージのエンドツーエンド暗号化が自動的に無効化されました。
 
 ## Editing
 
