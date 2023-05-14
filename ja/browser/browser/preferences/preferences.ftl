@@ -71,6 +71,17 @@ restart-later = 後で再起動
 ## <img data-l10n-name="icon"/> is going to be replaced by the extension icon.
 ##
 ## Variables:
+##   $name (String): name of the extension
+
+
+## Extension Control Notifications
+##
+## These strings are used to inform the user
+## about changes made by extensions to browser settings.
+##
+## <img data-l10n-name="icon"/> is going to be replaced by the extension icon.
+##
+## Variables:
 ##   $name (string) - Name of the extension
 
 # This string is shown to notify the user that the password manager setting
@@ -537,6 +548,10 @@ home-prefs-shortcuts-by-option-sponsored =
     .label = 広告ショートカット
 
 ## Variables:
+##  $provider (String): Name of the corresponding content provider, e.g "Pocket".
+
+
+## Variables:
 ##  $provider (string) - Name of the corresponding content provider, e.g "Pocket".
 
 home-prefs-recommended-by-header =
@@ -653,6 +668,10 @@ containers-remove-button =
 ## Firefox Account - Signed out. Note that "Sync" and "Firefox Account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
+
+## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
+## more discrete ("signed in" no longer means "and sync is connected").
+
 sync-signedout-caption = ウェブを持ち歩こう
 sync-signedout-description2 = ブックマークやページの表示履歴、タブ、パスワード、アドオン、設定を、お持ちのすべての端末間で同期できます。
 sync-signedout-account-signin3 =
@@ -669,6 +688,9 @@ sync-signedout-account-signin3 =
 sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> または <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> をダウンロードしてモバイル端末と同期しましょう。
 
 ## Firefox Account - Signed in
+
+
+## Firefox account - Signed in
 
 sync-profile-picture =
     .tooltiptext = プロフィール写真を変更します
@@ -786,6 +808,16 @@ sync-device-name-save =
     .label = 保存
     .accesskey = v
 sync-connect-another-device = 別の端末を接続
+
+## These strings are shown in a desktop notification after the
+## user requests we resend a verification email.
+
+sync-verification-sent-title = 認証情報を送信しました
+# Variables:
+#   $email (String): Email address of user's Firefox account.
+sync-verification-sent-body = 認証情報を { $email } に送信しました。
+sync-verification-not-sent-title = 認証情報を送信できません
+sync-verification-not-sent-body = 認証情報メールを送信できませんでした。後で再度試してください。
 
 ## Privacy Section
 
@@ -1026,6 +1058,9 @@ content-blocking-fingerprinters = フィンガープリント採取
 content-blocking-etp-standard-tcp-rollout-checkbox =
     .label = これまでにない最も強力なプライバシー保護機能を試す
     .accesskey = T
+
+# The tcp-rollout strings are no longer used for the rollout but for tcp-by-default in the standard section
+
 # The tcp-rollout strings are no longer used for the rollout but for tcp-by-default in the standard section
 # "Contains" here means "isolates", "limits".
 content-blocking-etp-standard-tcp-rollout-description = 包括的 Cookie 保護機能により現在のサイトへの Cookie が制限されているため、トラッカーはサイトを横断してあなたを追跡する Cookie を利用できません。
