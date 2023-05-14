@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 tabbrowser-empty-tab-title = @@NewTab@@
 tabbrowser-empty-private-tab-title = @@New-CMD@@プライベートタブ
 tabbrowser-menuitem-close-tab =
@@ -142,3 +141,10 @@ tabbrowser-context-mute-selected-tabs =
 tabbrowser-context-unmute-selected-tabs =
     .label = タブのミュートを解除
     .accesskey = m
+
+## Ctrl-Tab dialog
+
+# Variables:
+#   $tabCount (Number): The number of tabs in the current browser window. It will always be 2 at least.
+tabbrowser-ctrl-tab-list-all-tabs =
+    .label = すべて ({ $tabCount } ページ) のタブを一覧
