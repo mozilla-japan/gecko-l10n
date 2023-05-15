@@ -31,8 +31,7 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = 安全な接続ではありません
 
-## Back
-
+# Back
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -44,8 +43,7 @@ content-tab-menu-back-mac =
     .label = 戻る
     .accesskey = B
 
-## Forward
-
+# Forward
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -57,8 +55,7 @@ content-tab-menu-forward-mac =
     .label = 進む
     .accesskey = F
 
-## Reload
-
+# Reload
 content-tab-menu-reload =
     .tooltiptext = ページを再度読み込みます
     .aria-label = 再読み込み
@@ -69,8 +66,7 @@ content-tab-menu-reload-mac =
     .label = 再読み込み
     .accesskey = R
 
-## Stop
-
+# Stop
 content-tab-menu-stop =
     .tooltiptext = ページの読み込みを中止します
     .aria-label = 中止
@@ -81,8 +77,7 @@ content-tab-menu-stop-mac =
     .label = 中止
     .accesskey = S
 
-## Toolbar
-
+# Toolbar
 addons-and-themes-toolbarbutton =
     .label = アドオンとテーマ
     .tooltiptext = アドオンを管理します
@@ -128,12 +123,41 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = リダイレクト
-    .accesskey = D
+## File Menu
+
 menu-file-save-as-file =
     .label = ファイル...
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = フォルダーを削除
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] メッセージを削除
+           *[other] 選択したメッセージを削除
+        }
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] メッセージを削除しない
+           *[other] 選択したメッセージを削除しない
+        }
+    .accesskey = d
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = リダイレクト
+    .accesskey = D
 
 ## AppMenu
 
@@ -167,6 +191,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = 復号したメッセージをコピー
     .accesskey = y
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] メッセージを削除しない
+           *[other] 選択したメッセージを削除しない
+        }
 
 ## Message header pane
 
@@ -345,3 +377,5 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
