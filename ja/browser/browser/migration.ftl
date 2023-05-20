@@ -143,3 +143,7 @@ browser-data-session-checkbox =
     .label = @@Window@@とタブ
 browser-data-session-label =
     .value = @@Window@@とタブ
+browser-data-payment-methods-checkbox =
+    .label = 支払い方法
+browser-data-payment-methods-label =
+    .value = 支払い方法

@@ -203,6 +203,9 @@ appmenu-recently-closed-tabs =
     .label = 最近閉じたタブ
 appmenu-recently-closed-windows =
     .label = 最近閉じた@@Window@@
+# This allows to search through the browser's history.
+appmenu-search-history =
+    .label = 履歴を検索
 
 ## Help panel
 

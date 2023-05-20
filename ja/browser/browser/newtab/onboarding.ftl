@@ -411,3 +411,11 @@ mr2022-onboarding-gratitude-image-alt =
     .aria-label = キツネのいる窓から眺める夕日と窓台に置かれた鉢植え
 mr2022-onboarding-colorways-image-alt =
     .aria-label = 緑色の目、オレンジ色の靴、赤色のバスケットボール、紫色のヘッドフォン、青色のハート、黄色の王冠のカラフルなコラージュを描くハンドスプレー
+
+## Device migration onboarding
+
+onboarding-device-migration-image-alt =
+    .aria-label = ラップトップコンピューターの画面上のキツネがウェーブしています。ラップトップにマウスが接続されています。
+onboarding-device-migration-title = おかえりなさい！
+onboarding-device-migration-subtitle = { -fxaccount-brand-name(capitalization: "sentence") } にログインして、ブックマークやパスワード、履歴を新しい端末とともに持ち歩きましょう。
+onboarding-device-migration-primary-button-label = ログイン

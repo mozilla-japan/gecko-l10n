@@ -25,8 +25,8 @@ update-manual = 更新が利用可能です <label data-l10n-name="manual-link"/
 aboutdialog-update-manual = 更新が利用可能です <a data-l10n-name="manual-link"/>
 update-unsupported = ご利用のシステムでは、このバージョン以降の更新はできません。 <label data-l10n-name="unsupported-link">詳細</label>
 update-restarting = 再起動中...
-update-internal-error = 内部エラーにより更新を確認できません。<label data-l10n-name="manual-link"/> から更新が利用可能です。
 channel-description = 現在のアップデートチャンネルは <label data-l10n-name="current-channel"></label> です。{ " " }
+update-internal-error = 内部エラーにより更新を確認できません。<label data-l10n-name="manual-link"/> から更新が利用可能です。
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
 aboutdialog-channel-description = 現在の更新チャンネルは <label data-l10n-name="current-channel">{ $channel }</label> です。
