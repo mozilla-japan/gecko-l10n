@@ -83,5 +83,5 @@ comm | mail, calendar           12081:28871507b890 (2023-04-27)  mar            
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit             15075:6a8b71adff1d (2023-05-18)  mar            sync dom, toolkit
-geck | browser, devtools        15075:6a8b71adff1d (2023-05-18)  mar            sync browser, devtools
+geck | browser, devtools        15078:f0d127995bbd (2023-05-24)  mar            sync browser, devtools
 

@@ -50,7 +50,7 @@ xpinstall-disabled-button =
 #   $addonId (String): the ID of add-on.
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) はシステム管理者によりブロックされています。
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
-addon-domain-blocked-by-policy = ソフトウェアのインストールの確認は、システム管理者によりブロックされています。
+addon-domain-blocked-by-policy = このサイトによるソフトウェアのインストールの確認は、システム管理者によりブロックされています。
 addon-install-full-screen-blocked = @@FullScreen@@モード中または@@FullScreen@@モードに入る前は、アドオンのインストールが許可されていません。
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
@@ -83,28 +83,28 @@ addon-install-accept-button =
 ## Variables:
 ##   $addonCount (Number): the number of add-ons being installed
 
-addon-confirm-install-message = このサイトは { -brand-short-name } に { $addonCount } 個のアドオンのインストールを求めています:
-addon-confirm-install-unsigned-message = 注意: このサイトは { -brand-short-name } に { $addonCount } 個の未検証アドオンのインストールを求めています。ご自身の責任でインストールしてください。
+addon-confirm-install-message = このサイトが { -brand-short-name } に { $addonCount } 個のアドオンのインストールを求めています:
+addon-confirm-install-unsigned-message = 注意: このサイトが { -brand-short-name } に { $addonCount } 個の未検証アドオンのインストールを求めています。ご自身の責任でインストールしてください。
 # Variables:
 #   $addonCount (Number): the number of add-ons being installed (at least 2)
-addon-confirm-install-some-unsigned-message = 注意: このサイトは { -brand-short-name } に { $addonCount } 個のアドオンのインストールを求めていますが、一部のアドオンは未検証です。ご自身の責任でインストールしてください。
+addon-confirm-install-some-unsigned-message = 注意: このサイトが { -brand-short-name } に { $addonCount } 個のアドオンのインストールを求めていますが、一部のアドオンは未検証です。ご自身の責任でインストールしてください。
 
 ## Add-on install errors
 ## Variables:
 ##   $addonName (String): the add-on name.
 
 addon-install-error-network-failure = 接続エラーのため、アドオンをダウンロードできませんでした。
-addon-install-error-incorrect-hash = このアドオンは { -brand-short-name } に対応していないため、インストールできませんでした。
+addon-install-error-incorrect-hash = アドオンのハッシュ値が { -brand-short-name } に読み込んだものと一致しないため、インストールできませんでした。
 addon-install-error-corrupt-file = このサイトからダウンロードしたアドオンは壊れているため、インストールできませんでした。
-addon-install-error-file-access = { -brand-short-name } は必要なファイルが変更できなかったため、{ $addonName } をインストールできませんでした。
-addon-install-error-not-signed = このサイトのアドオンは未検証のため、{ -brand-short-name } はインストールを中止しました。
+addon-install-error-file-access = { -brand-short-name } が必要なファイルを変更できなかったため、{ $addonName } をインストールできませんでした。
+addon-install-error-not-signed = { -brand-short-name } はこのサイトからの未検証のアドオンのインストールをブロックしています。
 addon-install-error-invalid-domain = この場所からは { $addonName } アドオンをインストールできません。
 addon-local-install-error-network-failure = ファイルシステムエラーのため、アドオンをインストールできませんでした。
-addon-local-install-error-incorrect-hash = このアドオンは { -brand-short-name } に対応していないため、インストールできませんでした。
+addon-local-install-error-incorrect-hash = アドオンのハッシュ値が { -brand-short-name } に読み込んだものと一致しないため、インストールできませんでした。
 addon-local-install-error-corrupt-file = このアドオンは壊れているため、インストールできませんでした。
-addon-local-install-error-file-access = { -brand-short-name } は必要なファイルが変更できなかったため、{ $addonName } をインストールできませんでした。
-addon-local-install-error-not-signed = このアドオンは未検証のため、インストールできませんでした。
+addon-local-install-error-file-access = { -brand-short-name } が必要なファイルが変更できなかったため、{ $addonName } をインストールできませんでした。
+addon-local-install-error-not-signed = このアドオンは検証されていないため、インストールできませんでした。
 # Variables:
 #   $appVersion (String): the application version.
 addon-install-error-incompatible = { -brand-short-name } { $appVersion } と互換性がないため、{ $addonName } をインストールできませんでした。
-addon-install-error-blocklisted = セキュリティまたは安定性に問題があるため、{ $addonName } をインストールできませんでした。
+addon-install-error-blocklisted = 安定性を大きく損なうかセキュリティに問題があるため、{ $addonName } をインストールできませんでした。
