@@ -4,6 +4,8 @@
 
 places-error-title = { -brand-short-name }
 places-no-title = (無題)
+# Do not translate `javascript:` and `data:`, they refer to the scheme used in URLs
+places-load-js-data-url-error = セキュリティ上の理由により、“javascript:” または “data:” URL は履歴@@Window@@やサイドバーから読み込めません。
 places-bookmarks-backup-title = ブックマークをファイルにバックアップ
 places-bookmarks-restore-alert-title = ブックマークの復元
 places-bookmarks-restore-alert = 現在のブックマークはすべてバックアップで置き換えられます。本当に復元しますか？

@@ -111,8 +111,6 @@ protections-panel-cookie-banner-handling-disabled = このサイトでオフ
 protections-panel-cookie-banner-handling-undetected = 現在サポートされていないサイトです
 protections-panel-cookie-banner-view-title =
     .title = Cookie バナー削減
-protections-panel-cookie-banner-view-go-back =
-    .aria-label = 戻る
 # Variables
 #  $host (String): the hostname of the site that is being displayed.
 protections-panel-cookie-banner-view-turn-off-for-site = { $host } サイトの Cookie バナー削減をオフにしますか？

@@ -237,3 +237,19 @@ fox-doodle-pin-secondary = 後で
 
 set-default-pdf-handler-headline = <strong>PDF ファイルを { -brand-short-name } で開くように関連付けられます。</strong> ブラウザー内で編集または署名ができます。動作を変更するには、設定で “PDF” を検索してください。
 set-default-pdf-handler-primary = 了解
+
+## FxA sync CFR
+
+fxa-sync-cfr-header = 未来の新しい端末？
+fxa-sync-cfr-body = 新しい { -brand-product-name } ブラウザーを開けば、最新のブックマークやパスワード、タブがいつでもあなたの側にあります。
+fxa-sync-cfr-primary = 詳細情報
+  .accesskey = L
+fxa-sync-cfr-secondary = 後で通知
+  .accesskey = R
+
+## Device Migration FxA Spotlight
+
+device-migration-fxa-spotlight-header = 古い端末をご使用ですか？
+device-migration-fxa-spotlight-body = データをバックアップ保存して、ブックマークやパスワードなどの重要な情報を失わないようにしましょう。特に新しい端末に切り替えたときは。
+device-migration-fxa-spotlight-primary-button = データをバックアップする方法
+device-migration-fxa-spotlight-link = 後で通知

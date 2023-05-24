@@ -990,17 +990,27 @@ firefox-relay-offer-what-relay-does = <strong>{ $sitename }</strong> に届い�
 
 ## Popup Notification
 
+firefox-relay-offer-why-to-use-relay = 安全で簡単に使えるメールマスクがあなたのメールアドレスを隠して個人情報を守り、迷惑メールを防ぎます。
+# Variables:
+#  $useremail (String): user email that will receive messages
+firefox-relay-offer-what-relay-provides = メールマスクに送信されたすべてのメールは (これらをブロックしない限り) <strong>{ $useremail }</strong> に転送されます。
+firefox-relay-offer-legal-notice = @@[@@メールマスクを使用@@]@@ をクリックすることにより、<label data-l10n-name="tos-url">サービス利用規約</label> および <label data-l10n-name="privacy-url">プライバシー通知</label> に同意したものとみなされます。
+
+## Add-on Pop-up Notifications
+
+popup-notification-addon-install-unsigned =
+    .value = (未検証)
 popup-notification-xpinstall-prompt-learn-more = アドオンの安全なインストールの詳細
 
 ## Pop-up warning
 
 # Variables:
 #   $popupCount (Number): the number of pop-ups blocked.
-popup-warning-message = { $popupCount } 個のポップアップがブロックされました。
+popup-warning-message = { -brand-short-name } が { $popupCount } 個のポップアップをブロックしました。
 # The singular form is left out for English, since the number of blocked pop-ups is always greater than 1.
 # Variables:
 #   $popupCount (Number): the number of pop-ups blocked.
-popup-warning-exceeded-message = このサイトで { $popupCount } 個のポップアップ@@Window@@がブロックされました。
+popup-warning-exceeded-message = { -brand-short-name } がこのサイトで { $popupCount } 個のポップアップ@@Window@@をブロックしました。
 popup-warning-button =
     .label =
         { PLATFORM() ->
