@@ -996,8 +996,10 @@ firefox-relay-offer-why-to-use-relay = 安全で簡単に使えるメールマ�
 firefox-relay-offer-what-relay-provides = メールマスクに送信されたすべてのメールは (これらをブロックしない限り) <strong>{ $useremail }</strong> に転送されます。
 firefox-relay-offer-legal-notice = @@[@@メールマスクを使用@@]@@ をクリックすることにより、<label data-l10n-name="tos-url">サービス利用規約</label> および <label data-l10n-name="privacy-url">プライバシー通知</label> に同意したものとみなされます。
 
-## Popup Notification
+## Add-on Pop-up Notifications
 
+popup-notification-addon-install-unsigned =
+    .value = (未検証)
 popup-notification-xpinstall-prompt-learn-more = アドオンの安全なインストールの詳細
 
 ## Pop-up warning
