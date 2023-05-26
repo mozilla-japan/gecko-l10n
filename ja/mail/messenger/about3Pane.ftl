@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -113,6 +116,9 @@ quick-filter-bar-gloda-upsell-line2 = 'Enter’ キーを押すと同じ語句�
 
 folder-pane-get-messages-button =
     .title = メッセージを受信します
+folder-pane-get-all-messages-menuitem =
+    .label = 新着メッセージをすべて受信
+    .accesskey = G
 folder-pane-write-message-button = メッセージ作成
     .title = @@New-CMD@@メッセージを作成します
 folder-pane-more-menu-button =
