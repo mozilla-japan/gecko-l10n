@@ -102,6 +102,8 @@
 <!ENTITY deleteFolderCmd.accesskey		"D">
 <!ENTITY unsubscribeNewsgroupCmd.label		"購読を解除">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey	"b">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label			"選択">
 <!ENTITY selectMenu.accesskey			"S">
 <!ENTITY all.label				"すべて">
