@@ -26,6 +26,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = OpenPGP 鍵を生成
+openpgp-keygen-secret-protection = 秘密鍵の保護
+radio-keygen-no-protection =
+    .label = 保護なし
+radio-keygen-protect-primary-pass =
+    .label = マスターパスワードで保護
+radio-keygen-passphrase-protection =
+    .label = パスフレーズで保護:
+openpgp-passphrase-repeat = パスフレーズの確認:
 openpgp-generate-key-info = <b>注意: 鍵の生成が完了するまで数分かかることがあります</b>。鍵の生成の途中で@@Application@@を終了させないでください。鍵の生成中に、ウェブブラウザーを使用する、もしくはディスクアクセスが激しい処理を行うと「乱数プール」が満たされ、処理が早く終わります。鍵の生成が終了したらお知らせします。
 openpgp-keygen-expiry-title = 鍵の有効期限
 openpgp-keygen-expiry-description = 新しく生成する鍵の有効期限を指定します。必要があれば、後から変更も可能です。
@@ -95,8 +103,10 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = どの鍵をあなたの個人鍵として利用するか確認してください。あなた自身が作成し、あなた自身の差出人情報が表示される鍵のみを個人鍵として利用可能です。後からこの設定を鍵の@@PropertyCMD@@ダイアログから変更することもできます。
 openpgp-import-key-list-caption = 個人鍵として利用するとマークされた鍵は、エンドツーエンド暗号化セクションに表示されます。それ以外の鍵は、鍵マネージャーの中で利用可能です。
+openpgp-import-keep-passphrases =
+    .label = @@Import-sita@@秘密鍵のパスフレーズ保護を維持
 openpgp-passphrase-prompt-title = パスフレーズが必要です
-#   $key (String) - the id of the key being imported
+#   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = 以下の鍵のロックを解除するためにパスフレーズを入力してください: { $key }
 openpgp-import-key-button =
     .label = @@Import-suru@@ファイルを選択...

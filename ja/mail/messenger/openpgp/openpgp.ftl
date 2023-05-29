@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = 公開
     .accesskey = P
+openpgp-key-publish = 公開
 openpgp-key-man-discover-prompt = 鍵サーバーあるいは WKD プロトコルを使用してオンラインで OpenPGP 鍵を検索するため、メールアドレスか鍵 ID を入力してください。
 openpgp-key-man-discover-progress = 検索中...
 # Variables:
@@ -313,11 +314,27 @@ openpgp-acceptance-verified-label =
     .label = 受け入れます。この鍵のフィンガープリントが正しいことを検証しました。
 key-accept-personal =
     あなたはこの鍵の公開鍵と秘密鍵の両方を所有しています。この鍵をあなたの個人鍵として利用できます。
-    この鍵が他の人からもらったものである場合には、あなたの個人鍵としては利用しないでください。
+    この鍵が他人からもらったものである場合は、あなたの個人鍵として利用しないでください。
 openpgp-personal-no-label =
-    .label = いいえ。この鍵は個人鍵として利用しません。
+    .label = いいえ。この鍵を個人鍵として利用しません。
 openpgp-personal-yes-label =
     .label = はい。この鍵を個人鍵として利用します。
+openpgp-passphrase-protection =
+    .label = パスフレーズの保護
+openpgp-passphrase-status-unprotected = 保護なし
+openpgp-passphrase-status-primary-password = { -brand-short-name } のマスターパスワードで保護
+openpgp-passphrase-status-user-passphrase = パスフレーズで保護
+openpgp-passphrase-instruction-unprotected = この鍵を保護するパスフレーズを設定してください
+openpgp-passphrase-instruction-primary-password = または、別のパスフレーズでこの鍵を保護してください
+openpgp-passphrase-instruction-user-passphrase = この鍵の保護を変更するにはロックを解除してください。
+openpgp-passphrase-unlock = ロック解除
+openpgp-passphrase-unlocked = 鍵のロックが解除されました。
+openpgp-remove-protection = パスフレーズによる保護を削除
+openpgp-use-primary-password = パスフレーズとマスターパスワードによる保護を削除
+openpgp-passphrase-new = @@New-CMD@@パスフレーズ
+openpgp-passphrase-new-repeat = @@New-CMD@@パスフレーズの確認
+openpgp-passphrase-set = パスフレーズを設定
+openpgp-passphrase-change = パスフレーズを変更
 openpgp-copy-cmd-label =
     .label = コピー
 
@@ -360,6 +377,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = 鍵が 6 か月以内に失効します
 openpgp-key-has-expired-icon =
     .title = 鍵が有効期限切れです
+openpgp-suggest-publishing-key = 鍵サーバー上の公開鍵を公開することで、他の人がこの鍵を見つけられるようになります。
 openpgp-key-expand-section =
     .tooltiptext = 詳細情報
 openpgp-key-revoke-title = 鍵を失効
@@ -629,9 +647,18 @@ import-key-file = OpenPGP 鍵ファイルを@@Import@@
 import-rev-file = OpenPGP 失効証明書ファイルを@@Import@@
 gnupg-file = GnuPG ファイル
 import-keys-failed = 鍵の@@ImportNoun@@に失敗しました
+passphrase-prompt = 以下の鍵のロックを解除するため、パスフレーズを入力してください: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
-passphrase-prompt = 以下の鍵のロックを解除するため、パスフレーズを入力してください: { $key }
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = 次の秘密鍵を解除するパスフレーズを入力してください: ID { $key }、作成日 { $date }、所有者 { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = 次の秘密鍵を解除するパスフレーズを入力してください: ID { $subkey } (鍵 ID { $key } の副鍵)、作成日 { $date }、所有者 { $username_and_email }
 file-to-big-to-import = ファイルが大きすぎます。たくさんの鍵を一度に@@Import-sinai@@でください。
 
 ## Strings used in enigmailKeygen.js

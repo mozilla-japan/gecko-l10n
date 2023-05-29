@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = 新着情報
-aboutDialog-title =
-    .title = { -brand-full-name } について
 about-dialog-title = { -brand-full-name } について
 release-notes-link = リリースノート
 update-internal-error = 内部エラーにより更新を確認できません。<label data-l10n-name="manual-link"/> から更新が利用可能です。
@@ -40,9 +38,6 @@ aboutDialog-version = { $version } ({ $bits } ビット)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } ビット)
 aboutdialog-update-checking-failed = 更新の確認に失敗しました。
-community-exp = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> は、ウェブがすべての人々にとってオープンかつパブリックであり、アクセスできるように保つため、一つに集まって働く <a data-l10n-name="community-exp-credits-link">グローバルなコミュニティ</a> です。
-community-2 = { -brand-short-name } をデザインしている <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している <a data-l10n-name="community-credits-link">グローバルなコミュニティ</a> です。
-about-helpus = 参加しませんか？ <a data-l10n-name="helpus-donate-link">寄付</a> または <a data-l10n-name="helpus-get-involved-link">コミュニティに参加</a> してください！
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> は、ウェブがすべての人々にとってオープンかつパブリックであり、アクセスできるように保つため、一つに集まって働く <a data-l10n-name="community-exp-credits-link">グローバルなコミュニティ</a> です。
 community-desc = { -brand-short-name } をデザインしている <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している <a data-l10n-name="community-credits-link">グローバルなコミュニティ</a> です。
 about-donation = 参加しませんか？ <a data-l10n-name="helpus-donate-link">寄付</a> または <a data-l10n-name="helpus-get-involved-link">コミュニティに参加</a> してください！

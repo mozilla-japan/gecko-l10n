@@ -624,6 +624,22 @@ certificate-button =
 security-devices-button =
     .label = セキュリティデバイス...
     .accesskey = D
+email-e2ee-header = メールのエンドツーエンド暗号
+account-settings = アカウント設定
+email-e2ee-enable-info = アカウント設定内のエンドツーエンド暗号のためにメールアカウントと差出人情報をセットアップします。
+email-e2ee-automatism = 暗号の自動使用
+email-e2ee-automatism-pre =
+    { -brand-short-name } には、メール作成中の暗号を自動的に有効または無効にする補助機能があります。
+    自動的な有効化または無効化は、正しく受け入れられた通信相手の鍵や証明書が利用可能かどうかに基づいています。
+email-e2ee-auto-on =
+    .label = 可能な場合、自動的に暗号を有効にする
+email-e2ee-auto-off =
+    .label = 受信者が暗号を変更して使用不可になった場合、自動的に暗号を無効にします
+email-e2ee-auto-off-notify =
+    .label = 暗号が自動的に無効になった時に通知を表示する
+email-e2ee-automatism-post =
+    自動的な決定は、メッセージの作成中に暗号を手動で有効または無効にすることで上書きされます。
+    注記: 暗号化されたメッセージに返信する場合、暗号が常に自動的に有効になります。
 
 ## Chat Tab
 

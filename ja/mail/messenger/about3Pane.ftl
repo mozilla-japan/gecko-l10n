@@ -5,6 +5,20 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = クイックフィルターバーの表示を切り替えます
+quick-filter-button-label = クイックフィルター
+thread-pane-header-display-button =
+    .title = メッセージリストの表示オプション
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count = メッセージ { $count } 通
+thread-pane-header-context-table-view =
+    .label = テーブルビュー
+thread-pane-header-context-cards-view =
+    .label = カードビュー
+thread-pane-header-context-hide =
+    .label = メッセージリストのヘッダーを隠す
 
 ## Quick Filter Bar
 
@@ -134,6 +148,8 @@ folder-pane-header-context-toggle-new-message =
     .label = “メッセージ作成” を表示
 folder-pane-header-context-hide =
     .label = フォルダーペインのヘッダーを隠す
+folder-pane-show-total-toggle =
+    .label = メッセージ数の合計を表示
 
 ## Message thread pane
 
@@ -168,6 +184,8 @@ threadpane-column-header-unread-button =
     .title = 既読状態で並べ替えます
 threadpane-column-label-unread-button =
     .label = 既読状態
+threadpane-read-cell-label = 既読
+threadpane-unread-cell-label = 未読
 threadpane-column-header-sender = 差出人
     .title = 差出人で並べ替えます
 threadpane-column-label-sender =

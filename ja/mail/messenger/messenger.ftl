@@ -134,6 +134,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = フォルダーを削除
     .accesskey = D
+menu-edit-unsubscribe-newsgroup =
+    .label = ニュースグループの購読を解除
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -199,6 +202,9 @@ mail-context-undelete-messages =
             [one] メッセージを削除しない
            *[other] 選択したメッセージを削除しない
         }
+context-menu-decrypt-to-folder2 =
+    .label = 復号したメッセージのコピーを作成
+    .accesskey = y
 
 ## Message header pane
 
@@ -379,3 +385,15 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+# (^m^) 114.0 で UI 未実装のため未使用 Bug 1679278
+openpgp-forget = 入力した OpenPGP のパスフレーズを時間切れにする
+
+## Quota panel.
+
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% 使用
+    .title = IMAP クォータ: ディスク領域の割り当て { $limit } 中の { $usage } を使用しています
