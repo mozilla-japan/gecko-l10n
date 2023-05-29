@@ -314,9 +314,9 @@ openpgp-acceptance-verified-label =
     .label = 受け入れます。この鍵のフィンガープリントが正しいことを検証しました。
 key-accept-personal =
     あなたはこの鍵の公開鍵と秘密鍵の両方を所有しています。この鍵をあなたの個人鍵として利用できます。
-    この鍵が他の人からもらったものである場合には、あなたの個人鍵としては利用しないでください。
+    この鍵が他人からもらったものである場合は、あなたの個人鍵として利用しないでください。
 openpgp-personal-no-label =
-    .label = いいえ。この鍵は個人鍵として利用しません。
+    .label = いいえ。この鍵を個人鍵として利用しません。
 openpgp-personal-yes-label =
     .label = はい。この鍵を個人鍵として利用します。
 openpgp-passphrase-protection =
@@ -652,13 +652,13 @@ passphrase-prompt = 以下の鍵のロックを解除するため、パスフレ
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2 = パスフレーズを入力して次の秘密鍵を解除します: ID { $key }、作成日 { $date }、所有者 { $username_and_email }
+passphrase-prompt2 = 次の秘密鍵を解除するパスフレーズを入力してください: ID { $key }、作成日 { $date }、所有者 { $username_and_email }
 # Variables:
 # $subkey (String) - Key id to unlock, which is a subkey.
 # $key (String) - This is the main key, to which the subkey belongs.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2-sub = パスフレーズを入力して次の秘密鍵を解除します: ID { $subkey } (鍵 ID { $key } の副鍵)、作成日 { $date }、所有者 { $username_and_email }
+passphrase-prompt2-sub = 次の秘密鍵を解除するパスフレーズを入力してください: ID { $subkey } (鍵 ID { $key } の副鍵)、作成日 { $date }、所有者 { $username_and_email }
 file-to-big-to-import = ファイルが大きすぎます。たくさんの鍵を一度に@@Import-sinai@@でください。
 
 ## Strings used in enigmailKeygen.js

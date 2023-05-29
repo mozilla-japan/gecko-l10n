@@ -386,7 +386,8 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
-openpgp-forget = OpenPGP のパスフレーズを忘れた
+# (^m^) 114.0 で UI 未実装のため未使用 Bug 1679278
+openpgp-forget = 入力した OpenPGP のパスフレーズを時間切れにする
 
 ## Quota panel.
 
