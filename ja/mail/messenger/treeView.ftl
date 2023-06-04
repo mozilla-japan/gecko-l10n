@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Table
 
 tree-list-view-row-select =
@@ -21,17 +22,25 @@ tree-list-view-column-picker-restore =
 tree-list-view-row-thread-icon =
     .alt = スレッドメッセージインジケーター
     .title = これはスレッド化されたメッセージです
+tree-list-view-row-thread-button =
+    .title = これはスレッド化されたメッセージです
 tree-list-view-row-ignored-thread = 無視されたスレッド
 tree-list-view-row-ignored-thread-icon =
     .alt = スレッドメッセージインジケーター
+    .title = このスレッド化されたメッセージは無視されています
+tree-list-view-row-ignored-thread-button =
     .title = このスレッド化されたメッセージは無視されています
 tree-list-view-row-ignored-subthread = 無視されたサブスレッド
 tree-list-view-row-ignored-subthread-icon =
     .alt = スレッドメッセージインジケーター
     .title = このサブスレッドは無視されています
+tree-list-view-row-ignored-subthread-button =
+    .title = このサブスレッドは無視されています
 tree-list-view-row-watched-thread = 注目スレッド
 tree-list-view-row-watched-thread-icon =
     .alt = スレッドメッセージインジケーター
+    .title = このスレッド化されたメッセージは注目されています
+tree-list-view-row-watched-thread-button =
     .title = このスレッド化されたメッセージは注目されています
 tree-list-view-row-flagged =
     .alt = スター付きメッセージインジケーター
