@@ -15,6 +15,7 @@ calendar-list-header = カレンダー
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName } カレンダーのアラームは停止しています
+calendar-enable-button = 有効化
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
