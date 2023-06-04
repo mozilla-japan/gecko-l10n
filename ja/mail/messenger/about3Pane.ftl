@@ -150,6 +150,9 @@ folder-pane-header-context-hide =
     .label = フォルダーペインのヘッダーを隠す
 folder-pane-show-total-toggle =
     .label = メッセージ数の合計を表示
+folder-pane-mode-context-toggle-compact-mode =
+    .label = コンパクトビュー
+    .accesskey = C
 
 ## Message thread pane
 
