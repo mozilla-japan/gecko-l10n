@@ -170,6 +170,14 @@ media-codec-support-info = コーデックサポート情報
 # List all the entries of the database.
 media-capabilities-enumerate = データベースを列挙
 
+## Codec support table
+
+media-codec-support-sw-decoding = ソフトウェアデコーディング
+media-codec-support-hw-decoding = ハードウェアデコーディング
+media-codec-support-codec-name = コーデック名
+media-codec-support-supported = 対応
+media-codec-support-unsupported = 未対応
+
 ##
 
 intl-title = 国際化とローカライズ

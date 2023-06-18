@@ -40,6 +40,12 @@ pictureinpicture-close-btn =
 pictureinpicture-subtitles-btn =
     .aria-label = 字幕
     .tooltip = 字幕
+pictureinpicture-fullscreen-btn2 =
+    .aria-label = @@Fullscreen@@
+    .tooltip = @@Fullscreen@@モードを開始 (ダブルクリックまたは { $shortcut })
+pictureinpicture-exit-fullscreen-btn2 =
+  .aria-label = @@Fullscreen@@を終了
+  .tooltip = @@Fullscreen@@モードを終了 (ダブルクリックまたは { $shortcut })
 
 ##
 
@@ -49,6 +55,9 @@ pictureinpicture-fullscreen-btn =
 pictureinpicture-exit-fullscreen-btn =
     .aria-label = @@FullScreen@@を終了
     .tooltip = @@FullScreen@@を終了 (ダブルクリック)
+# Keyboard shortcut to toggle fullscreen mode when Picture-in-Picture is open.
+pictureinpicture-toggle-fullscreen-shortcut =
+    .key = F
 pictureinpicture-seekbackward-btn =
     .aria-label = 巻き戻し
     .tooltip = 巻き戻し (←)
