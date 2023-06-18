@@ -32,6 +32,8 @@ content-tab-security-broken-icon =
     .alt = 安全な接続ではありません
 
 # Back
+
+# Back
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -42,6 +44,8 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = 戻る
     .accesskey = B
+
+# Forward
 
 # Forward
 # Variables
@@ -56,6 +60,8 @@ content-tab-menu-forward-mac =
     .accesskey = F
 
 # Reload
+
+# Reload
 content-tab-menu-reload =
     .tooltiptext = ページを再度読み込みます
     .aria-label = 再読み込み
@@ -67,6 +73,8 @@ content-tab-menu-reload-mac =
     .accesskey = R
 
 # Stop
+
+# Stop
 content-tab-menu-stop =
     .tooltiptext = ページの読み込みを中止します
     .aria-label = 中止
@@ -76,6 +84,8 @@ content-tab-menu-stop-mac =
     .tooltiptext = ページの読み込みを中止します
     .label = 中止
     .accesskey = S
+
+## Toolbar
 
 # Toolbar
 addons-and-themes-toolbarbutton =
@@ -117,11 +127,15 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = 最近使用したフォルダー
     .accesskey = R
+show-tags-folders-label =
+    .label = タグ
+    .accesskey = T
 folder-toolbar-toggle-folder-compact-view =
     .label = コンパクトビュー
     .accesskey = C
 
 ## Menu
+
 
 ## File Menu
 
