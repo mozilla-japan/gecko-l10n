@@ -13,6 +13,12 @@ thread-pane-header-display-button =
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count = メッセージ { $count } 通
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+       *[other] { $count } 件選択
+    }
 thread-pane-header-context-table-view =
     .label = テーブルビュー
 thread-pane-header-context-cards-view =
@@ -29,6 +35,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = フォルダーを切り替えても現在の絞り込みを維持します
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = クイックフィルターメニュー
+quick-filter-bar-dropdown-unread =
+    .label = 未読
+quick-filter-bar-dropdown-starred =
+    .label = スター付き
+quick-filter-bar-dropdown-inaddrbook =
+    .label = 知り合い
+quick-filter-bar-dropdown-tags =
+    .label = タグ付き
+quick-filter-bar-dropdown-attachment =
+    .label = 添付あり
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -142,17 +162,30 @@ folder-pane-header-folder-modes =
     .label = フォルダーモード
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
-    .label = “受信” を表示
+    .label = @@[@@受信@@]@@ を表示
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
-    .label = “メッセージ作成” を表示
+    .label = @@[@@メッセージ作成@@]@@ を表示
 folder-pane-header-context-hide =
     .label = フォルダーペインのヘッダーを隠す
 folder-pane-show-total-toggle =
     .label = メッセージ数の合計を表示
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = フォルダーサイズを表示
+folder-pane-header-hide-local-folders =
+    .label = ローカルフォルダーを隠す
+folder-pane-mode-context-button =
+    .title = フォルダーモードのオプション
 folder-pane-mode-context-toggle-compact-mode =
     .label = コンパクトビュー
     .accesskey = C
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label = 未読 { $count } 通
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label = 合計 { $count } 通
 
 ## Message thread pane
 

@@ -172,22 +172,26 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = 鍵マネージャー
     .accesskey = M
+openpgp-key-issue-notification-one = { $addr } の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
+openpgp-key-issue-notification-many = 受信者 { $count } 名の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
+smime-cert-issue-notification-one = { $addr } の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
+smime-cert-issue-notification-many = 受信者 { $count } 名の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = { $addr } からエンドツーエンド暗号化メッセージを送信するためのセットアップが行われていません。
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = { $addr } の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
+openpgp-key-issue-notification-single = { $addr } の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
 # Variables:
 # $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = 受信者 { $count } 名の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
+openpgp-key-issue-notification-multi = 受信者 { $count } 名の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
 # Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = { $addr } の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = { $addr } の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = 受信者 { $count } 名の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
+smime-cert-issue-notification-multi = 受信者 { $count } 名の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
 key-notification-disable-encryption =
     .label = 暗号化しない
     .accesskey = D
@@ -256,6 +260,10 @@ many-public-recipients-notice =
         [one] あなたのメッセージの受信者は開示されています。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
        *[other] 宛先および Cc フィールドの {$count} 件の受信者アドレスは開示されており、受信者が互いにこれらのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
     }
+public-recipients-notice-single = あなたのメッセージの受信者は開示されています。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi = 宛先および Cc フィールドの {$count} 件の受信者アドレスは開示されており、受信者が互いにこれらのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
 many-public-recipients-bcc =
     .label = 代わりに Bcc を使用する
     .accesskey = U

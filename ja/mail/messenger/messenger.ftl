@@ -251,6 +251,9 @@ message-header-show-sender-full-address-description = メールアドレスが�
 message-header-show-recipient-avatar =
     .label = 送信者のプロファイル写真を表示する
     .accesskey = p
+message-header-show-big-avatar =
+    .label = プロファイル写真を大きくする
+    .accesskey = g
 message-header-hide-label-column =
     .label = ラベル列を隠す
     .accesskey = l
@@ -296,10 +299,15 @@ no-reply-reply-anyway-button = 強制返信する
 
 ## error messages
 
+decrypt-and-copy-failures = { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures = { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
+       *[other] { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
+    }
 
 ## Spaces toolbar
 
