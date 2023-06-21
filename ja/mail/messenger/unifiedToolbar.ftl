@@ -68,6 +68,7 @@ customize-palette-calendar-specific-title = カレンダースペースのみで
 customize-palette-tasks-specific-title = ToDo スペースのみで利用可能
 customize-palette-chat-specific-title = チャットスペースのみで利用可能
 customize-palette-settings-specific-title = 設定スペースのみで利用可能
+customize-palette-extension-specific-title = このスペースのみで利用可能
 
 ## Unified toolbar customization palette context menu
 
