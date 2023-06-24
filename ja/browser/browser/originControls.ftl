@@ -9,6 +9,8 @@
 
 origin-controls-no-access =
     .label = データの取得と変更はできません
+origin-controls-quarantined =
+    .label = データの取得と変更は許可されていません
 origin-controls-options =
     .label = データの取得と変更を許可する条件:
 origin-controls-option-all-domains =
@@ -26,6 +28,7 @@ origin-controls-option-always-on =
 ## messages. They currently appear in the unified extensions panel.
 
 origin-controls-state-no-access = このサイトのデータの取得と変更: 不可
+origin-controls-state-quarantined = このサイトのデータの取得と変更: { -vendor-short-name } により不許可
 origin-controls-state-always-on = このサイトのデータの取得と変更: 常に可能
 origin-controls-state-when-clicked = このサイトのデータの取得と変更: 権限が必要
 origin-controls-state-hover-run-visit-only = 今回のみ実行
@@ -47,3 +50,10 @@ origin-controls-toolbar-button-permission-needed =
     .tooltiptext =
         { $extensionTitle }
         権限が必要です
+# Extension's toolbar button when quarantined.
+# Note that the new line is intentionally part of the tooltip.
+origin-controls-toolbar-button-quarantined =
+    .label = { $extensionTitle }
+    .tooltiptext =
+        { $extensionTitle }
+        このサイトは { -vendor-short-name } により許可されていません

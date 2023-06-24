@@ -15,3 +15,4 @@ confirmation-hint-send-to-device = 送信しました！
 confirmation-hint-firefox-relay-mask-generated = @@New-CMD@@ { -relay-brand-short-name } マスクを生成しました！
 confirmation-hint-firefox-relay-mask-created = @@New-CMD@@マスクが作成されました！
 confirmation-hint-firefox-relay-mask-reused = 既存のマスクが再利用されました！
+confirmation-hint-screenshot-copied = スクリーンショットをコピーしました！

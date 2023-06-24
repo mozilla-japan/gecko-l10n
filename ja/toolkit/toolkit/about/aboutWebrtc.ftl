@@ -88,6 +88,7 @@ about-webrtc-log-show-msg = ログを表示
     .title = クリックしてセクションを展開します
 about-webrtc-log-hide-msg = ログを隠す
     .title = クリックしてセクションを折りたたみます
+about-webrtc-copy-report-button = レポートをコピー
 
 ## These are used to display a header for a PeerConnection.
 ## Variables:

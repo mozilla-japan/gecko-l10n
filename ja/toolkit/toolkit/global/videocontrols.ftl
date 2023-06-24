@@ -26,6 +26,8 @@ videocontrols-exitfullscreen-button =
     .aria-label = @@FullScreen@@を解除
 videocontrols-casting-button-label =
     .aria-label = 画面に映す
+# .offlabel is processed by the video control custom element to be used
+# as a text-track label
 videocontrols-closed-caption-off =
     .offlabel = オフ
 # This string is used as part of the Picture-in-Picture video toggle button when

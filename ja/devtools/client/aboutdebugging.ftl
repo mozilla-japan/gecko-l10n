@@ -19,9 +19,11 @@ about-debugging-page-title-runtime-page = デバッガー - ランタイム / { 
 # Sidebar and in the Setup page.
 about-debugging-this-firefox-runtime-name = この { -brand-shorter-name }
 # Sidebar heading for selecting the currently running instance of Firefox
+# .name is processed by fluent-react / SidebarFixedItem
 about-debugging-sidebar-this-firefox =
     .name = { about-debugging-this-firefox-runtime-name }
 # Sidebar heading for connecting to some remote source
+# .name is processed by fluent-react / SidebarFixedItem
 about-debugging-sidebar-setup =
     .name = セットアップ
 # Text displayed in the about:debugging sidebar when USB devices discovery is enabled.
@@ -146,24 +148,31 @@ about-debugging-network-location-form-duplicate = ホスト “{ $host-value }�
 # Below are the titles for the various categories of debug targets that can be found
 # on "runtime" pages of about:debugging.
 # Title of the temporary extensions category (only available for "This Firefox" runtime).
+# .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-temporary-extensions =
     .name = 一時的な拡張機能
 # Title of the extensions category.
+# .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-extensions =
     .name = 拡張機能
 # Title of the tabs category.
+# .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-tabs =
     .name = タブ
 # Title of the service workers category.
+# .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-service-workers =
     .name = Service Worker
 # Title of the shared workers category.
+# .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-shared-workers =
     .name = Shared Worker
 # Title of the other workers category.
+# .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-other-workers =
     .name = 他の Worker
 # Title of the processes category.
+# .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-processes =
     .name = プロセス
 # Label of the button opening the performance profiler panel in runtime pages for remote
@@ -269,9 +278,11 @@ about-debugging-extension-backgroundscript-status-stopped = 停止中
 # to a service worker.
 # Note this relates to the "Push" API, which is normally not localized so it is
 # probably better to not localize it.
+# .disabledTitle is processed by the fluent-react / ActionButton code.
 about-debugging-worker-action-push2 = プッシュ通知
     .disabledTitle = Service Worker プッシュ通知は、現在のマルチプロセス { -brand-shorter-name } では無効化されています。
 # This string is displayed as a label of the button that starts a service worker.
+# .disabledTitle is processed by the fluent-react / ActionButton code.
 about-debugging-worker-action-start2 = 開始
     .disabledTitle = Service Worker の開始は、現在のマルチプロセス { -brand-shorter-name } では無効化されています。
 # This string is displayed as a label of the button that unregisters a service worker.
