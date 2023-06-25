@@ -25,5 +25,6 @@ error-long-desc4 = ロボットとアンドロイドは違う、と主張して�
 # TV: Battlestar Galactica (2004 series). From the opening text.
 error-trailer-desc-text = ロボットがやらねば誰がやる！
 # Book: Hitchhiker's Guide To The Galaxy. Arthur presses a button and it warns him.
+# Note: .label2 replaces this label after pressing the button the first time.
 error-try-again = 再試行
     .label2 = バーイチャ!

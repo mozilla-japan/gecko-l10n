@@ -849,6 +849,8 @@ forms-breach-alerts =
 forms-breach-alerts-learn-more-link = 詳細情報
 relay-integration =
     .label = { -brand-short-name } のパスワードマネージャーで { -relay-brand-name } を有効にする
+preferences-relay-integration-checkbox =
+    .label = { -relay-brand-name } メールマスクによるメールアドレスの保護を提案する
 relay-integration-learn-more-link = 詳細情報
 # Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
 forms-fill-logins-and-passwords =

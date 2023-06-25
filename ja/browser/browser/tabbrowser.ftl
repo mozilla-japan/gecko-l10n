@@ -150,3 +150,12 @@ tabbrowser-tab-audio-playing-description = 音声を再生します
 #   $tabCount (Number): The number of tabs in the current browser window. It will always be 2 at least.
 tabbrowser-ctrl-tab-list-all-tabs =
     .label = すべて ({ $tabCount } ページ) のタブを一覧
+
+## Tab manager menu buttons
+
+tabbrowser-manager-mute-tab =
+    .tooltiptext = タブをミュートにします
+tabbrowser-manager-unmute-tab =
+    .tooltiptext = タブのミュートを解除します
+tabbrowser-manager-close-tab =
+    .tooltiptext = タブを閉じます

@@ -114,8 +114,6 @@ policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去
 policy-SearchBar = 検索バーの@@Default@@の位置を設定します。ユーザーによる設定の変更は許可されます。
 policy-SearchEngines = 検索エンジンの設定を指示します。このポリシーは延長サポート版 (ESR) のみ有効です。
 policy-SearchSuggestEnabled = 検索候補の表示機能を有効または無効にします。
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = PKCS #11 モジュールをインストールします。
 # For more information, see https://wikipedia.org/wiki/PKCS_11
 policy-SecurityDevices2 = PKCS #11 モジュールを追加または削除します。
 policy-ShowHomeButton = ホームボタンをツールバーに表示します。

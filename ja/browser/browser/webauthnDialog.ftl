@@ -18,3 +18,11 @@ webauthn-pin-invalid-long-prompt =
     }
 webauthn-pin-invalid-short-prompt = PIN コードが正しくありません。再度入力してください。
 webauthn-pin-required-prompt = 端末の PIN コードを入力してください。
+# Variables:
+#  $retriesLeft (Number): number of tries left
+webauthn-uv-invalid-long-prompt =
+    { $retriesLeft ->
+        [one] ユーザー確認に失敗しました。残り { $retriesLeft } 回まで試すことができます。
+       *[other] ユーザー確認に失敗しました。残り { $retriesLeft } 回まで試すことができます。
+    }
+webauthn-uv-invalid-short-prompt = ユーザー確認に失敗しました。もう一度試してください。

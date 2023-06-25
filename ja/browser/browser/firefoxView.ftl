@@ -81,3 +81,47 @@ firefoxview-collapse-button-show =
     .title = 一覧を表示
 firefoxview-collapse-button-hide =
     .title = 一覧を隠す
+
+firefoxview-overview-nav = 最近のブラウジング
+    .title = 最近のブラウジング
+
+## History in this context refers to browser history
+
+firefoxview-history-nav = 履歴
+    .title = 履歴
+firefoxview-history-header = 履歴
+
+## Open Tabs in this context refers to all open tabs in the browser
+
+firefoxview-opentabs-nav = 開いているタブ
+    .title = 開いているタブ
+firefoxview-opentabs-header = 開いているタブ
+
+## Recently closed tabs in this context refers to recently closed tabs from all windows
+
+firefoxview-recently-closed-nav = 最近閉じたタブ
+    .title = 最近閉じたタブ
+firefoxview-recently-closed-header = 最近閉じたタブ
+
+## Tabs from other devices refers in this context refers to synced tabs from other devices
+
+firefoxview-synced-tabs-nav = 他の端末のタブ
+    .title = 他の端末のタブ
+firefoxview-synced-tabs-header = 他の端末のタブ
+
+##
+
+# Used for a link in collapsible cards, in the 'Recent browsing' page of Firefox View
+firefoxview-view-all-link = すべて表示
+# Variables:
+#   $winID (Number) - The index of the owner window for this set of tabs
+firefoxview-opentabs-window-header =
+    .title = ウィンドウ ID { $winID }
+# Variables:
+#   $winID (Number) - The index of the owner window (which is currently focused) for this set of tabs
+firefoxview-opentabs-current-window-header =
+    .title = ウィンドウ ID { $winID } (現在)
+firefoxview-opentabs-focus-tab =
+    .title = このタブに切り替える
+firefoxview-show-more = 表示を増やす
+firefoxview-show-less = 表示を減らす
