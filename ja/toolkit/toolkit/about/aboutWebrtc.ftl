@@ -12,16 +12,24 @@ about-webrtc-document-title = WebRTC 内部情報
 # translated. This string is used as a title for a file save dialog box.
 about-webrtc-save-page-dialog-title = about:webrtc を@@SaveAs@@
 
+## These labels are for a disclosure which contains the information for closed PeerConnection sections
+
+
 ## AEC is an abbreviation for Acoustic Echo Cancellation.
 
 about-webrtc-aec-logging-msg-label = AEC ログ記録
 about-webrtc-aec-logging-off-state-label = AEC ログ記録を開始
 about-webrtc-aec-logging-on-state-label = AEC ログ記録を停止
 about-webrtc-aec-logging-on-state-msg = AEC ログ記録が有効です (数分間、通話相手と会話してから停止してください)
-# The autorefresh checkbox causes the page to autorefresh its content when checked
-about-webrtc-auto-refresh-label = 自動更新する
+about-webrtc-aec-logging-toggled-on-state-msg = AEC ログ記録が有効です (数分間、通話相手と会話してから停止してください)
+# Variables:
+#  $path (String) - The path to which the aec log file is saved.
+about-webrtc-aec-logging-toggled-off-state-msg = 記録したログファイルの保存場所: { $path }
 
 ##
+
+# The autorefresh checkbox causes the page to autorefresh its content when checked
+about-webrtc-auto-refresh-label = 自動更新する
 
 # "PeerConnection" is a proper noun associated with the WebRTC module. "ID" is
 # an abbreviation for Identifier. This string should not normally be translated
@@ -88,6 +96,10 @@ about-webrtc-log-show-msg = ログを表示
     .title = クリックしてセクションを展開します
 about-webrtc-log-hide-msg = ログを隠す
     .title = クリックしてセクションを折りたたみます
+about-webrtc-log-section-show-msg = ログを表示
+    .title = クリックしてセクションを展開します
+about-webrtc-log-section-hide-msg = ログを隠す
+    .title = クリックしてセクションを折りたたみます
 about-webrtc-copy-report-button = レポートをコピー
 
 ## These are used to display a header for a PeerConnection.
@@ -100,6 +112,11 @@ about-webrtc-copy-report-button = レポートをコピー
 about-webrtc-connection-open = [ { $browser-id } | { $id } ] { $url } { $now }
 about-webrtc-connection-closed = [ { $browser-id } | { $id } ] { $url } (切断) { $now }
 
+## These are used to indicate what direction media is flowing.
+## Variables:
+##  $codecs - a list of media codecs
+
+
 ##
 
 about-webrtc-local-candidate = ローカル通信情報
@@ -111,10 +128,18 @@ about-webrtc-raw-cand-show-msg = 生通信情報を表示
     .title = クリックしてセクションを展開します
 about-webrtc-raw-cand-hide-msg = 生通信情報を隠す
     .title = クリックしてセクションを折りたたみます
+about-webrtc-raw-cand-section-show-msg = 生通信情報を表示
+    .title = クリックしてセクションを展開します
+about-webrtc-raw-cand-section-hide-msg = 生通信情報を隠す
+    .title = クリックしてセクションを折りたたみます
 about-webrtc-priority = 優先度
 about-webrtc-fold-show-msg = 詳細を表示
     .title = クリックしてセクションを展開します
 about-webrtc-fold-hide-msg = 詳細を隠す
+    .title = クリックしてセクションを折りたたみます
+about-webrtc-fold-default-show-msg = 詳細を表示
+    .title = クリックしてセクションを展開します
+about-webrtc-fold-default-hide-msg = 詳細を隠す
     .title = クリックしてセクションを折りたたみます
 about-webrtc-dropped-frames-label = ドロップフレーム:
 about-webrtc-discarded-packets-label = 破棄パケット:
@@ -184,6 +209,9 @@ about-webrtc-save-page-msg = ページを保存しました: { $path }
 about-webrtc-debug-mode-off-state-msg = トレースログの保存場所: { $path }
 about-webrtc-debug-mode-on-state-msg = デバッグモードが有効です。トレースログの保存場所: { $path }
 about-webrtc-aec-logging-off-state-msg = 記録したログファイルの保存場所: { $path }
+about-webrtc-save-page-complete-msg = ページを保存しました: { $path }
+about-webrtc-debug-mode-toggled-off-state-msg = トレースログの保存場所: { $path }
+about-webrtc-debug-mode-toggled-on-state-msg = デバッグモードが有効です。トレースログの保存場所: { $path }
 
 ##
 
@@ -258,5 +286,10 @@ about-webrtc-sdp-set-timestamp = タイムスタンプ { NUMBER($timestamp, useG
 
 about-webrtc-show-msg-sdp = SDP を表示
 about-webrtc-hide-msg-sdp = SDP を隠す
+
+## These are displayed on the button that shows or hides the Media Context information disclosure.
+## The Media Context is the set of preferences and detected capabilities that informs
+## the negotiated CODEC settings.
+
 
 ##
