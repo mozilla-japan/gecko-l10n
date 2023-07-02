@@ -4,6 +4,7 @@
 
 openpgp-change-key-expiry-title =
     .title = 鍵の有効期限を変更
+openpgp-change-expiry-title = 鍵の有効期限を変更
 # Variables:
 # $date (String) - Date the key is expiring on.
 info-will-expire = 現在この鍵は { $date } に有効期限が切れるよう設定されています。
@@ -18,3 +19,6 @@ expire-never-label =
 expire-in-label =
     .label = 有効期限を次の期間までにする:
 expire-in-months = か月間
+expire-no-change-label = 有効期限を変更しない
+expire-in-time-label = 有効期限を次の期間までにする:
+expire-never-expire-label = 有効期限を無期限にする
