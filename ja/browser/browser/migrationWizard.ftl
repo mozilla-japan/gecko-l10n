@@ -54,7 +54,7 @@ migration-bookmarks-option-label = ブックマーク
 # Favorites is used for Bookmarks when importing from Internet Explorer or
 # Edge, as this is the terminology for bookmarks on those browsers.
 migration-favorites-option-label = お気に入り
-migration-logins-and-passwords-option-label = Saved logins and passwords
+migration-logins-and-passwords-option-label = 保存したログイン情報とパスワード
 migration-history-option-label = ブラウジング履歴
 migration-form-autofill-option-label = フォームの自動入力データ
 migration-payment-methods-option-label = 支払い方法
