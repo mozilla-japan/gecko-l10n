@@ -2,8 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-migration-wizard-selection-header = Import Browser Data
-migration-wizard-selection-list = Select the data you’d like to import.
+migration-wizard-selection-header = ブラウザーデータの@@ImportNoun@@
+migration-wizard-selection-list = @@Import-suru@@データを選択してください。
 # Shown in the new migration wizard's dropdown selector for choosing the browser
 # to import from. This variant is shown when the selected browser doesn't support
 # user profiles, and so we only show the browser name.
