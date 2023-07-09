@@ -18,6 +18,8 @@ abuse-report-addon-authored-by = 作者: <a data-l10n-name="author-name">{ $auth
 abuse-report-learnmore =
     どれを選択すべきか分からない時は、
     <a data-l10n-name="learnmore-link">拡張機能やテーマの報告について学んでください。</a>
+abuse-report-learnmore-intro = どれを選択すべきか分からない時は、
+abuse-report-learnmore-link = 拡張機能やテーマの報告について学んでください。
 abuse-report-submit-description = 問題の詳細を記入してください (任意)
 abuse-report-textarea =
     .placeholder = 詳細を報告していただければ、問題を解決しやすくなります。あなたの体験した問題について記入してください。健全なウェブを保つためのご協力に感謝します。
