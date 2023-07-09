@@ -11,7 +11,6 @@ extensions
 mobile                  Fe      Mobile Firefox (a part of Fenix)
 netwerk                 all     Network
 security/manager        all     PKI, certificates
-services/sync           all     Sync
 toolkit                 all     Common toolkit
   crashreporter         all     Crash Reporter
 
@@ -84,8 +83,6 @@ geck | dom, toolkit             15075:6a8b71adff1d (2023-05-18)  mar            
 geck | browser, devtools        15078:f0d127995bbd (2023-05-24)  mar            sync browser, devtools
 comm | mail                     12868:47e7338d0e1e (2023-05-19)  mar            mail
 
-^---Released!
-
 [l10n-mozilla-115.0] ESR
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
@@ -93,3 +90,8 @@ geck | dom, security, toolkit   15090:67e2d992211e (2023-06-08)  mar            
 comm | mail                     13609:ad3443602d21 (2023-06-12)  mar            mail
 geck | browser, devtools, ...   15101:1e3dfa78ca30 (2023-06-20)  mar            sync browser, devtools, toolkit
 
+^---Released!
+
+[l10n-mozilla-116.0]
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
