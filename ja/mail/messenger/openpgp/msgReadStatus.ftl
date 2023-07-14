@@ -21,15 +21,15 @@ openpgp-no-sig-info = このメッセージには送信者のデジタル署名�
 openpgp-uncertain-sig = 不確実なデジタル署名です
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
-openpgp-uncertain-sig-with-date = 不確実なデジタル署名です - 署名日: { $date }
+openpgp-uncertain-sig-with-date = 不確実なデジタル署名です - 署名日時: { $date }
 openpgp-invalid-sig = デジタル署名が正しくありません
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
-openpgp-invalid-sig-with-date = デジタル署名が正しくありません - 署名日: { $date }
+openpgp-invalid-sig-with-date = デジタル署名が正しくありません - 署名日時: { $date }
 openpgp-good-sig = 正しく署名されています
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
-openpgp-good-sig-with-date = 正しく署名されています - 署名日: { $date }
+openpgp-good-sig-with-date = 正しく署名されています - 署名日時: { $date }
 openpgp-sig-uncertain-no-key = このメッセージにはデジタル署名が含まれていますが、正当な署名か検証できません。署名を検証するには、送信者の公開鍵のコピーを入手する必要があります。
 openpgp-sig-uncertain-uid-mismatch = このメッセージにはデジタル署名が含まれていますが、署名が一致しません。このメッセージは署名者の公開鍵とは一致しないメールアドレスから送信されています。
 openpgp-sig-uncertain-not-accepted = このメッセージにはデジタル署名が含まれていますが、署名者の鍵を受け入れるかまだ決定されていません。
