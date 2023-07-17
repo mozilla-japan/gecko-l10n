@@ -177,6 +177,7 @@ media-codec-support-hw-decoding = ハードウェアデコーディング
 media-codec-support-codec-name = コーデック名
 media-codec-support-supported = 対応
 media-codec-support-unsupported = 未対応
+media-codec-support-error = コーデック対応情報が利用できません。メディアファイルの再生後に再度試してください。
 
 ##
 

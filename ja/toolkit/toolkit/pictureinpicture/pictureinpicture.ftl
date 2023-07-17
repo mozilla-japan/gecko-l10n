@@ -3,18 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 pictureinpicture-player-title = ピクチャーインピクチャー
-pictureinpicture-pause =
-    .aria-label = 一時停止
-pictureinpicture-play =
-    .aria-label = 再生
-pictureinpicture-mute =
-    .aria-label = ミュート
-pictureinpicture-unmute =
-    .aria-label = ミュート解除
-pictureinpicture-unpip =
-    .aria-label = タブに戻す
-pictureinpicture-close =
-    .aria-label = 閉じる
 
 ## Variables:
 ##   $shortcut (String) - Keyboard shortcut to execute the command.
@@ -57,12 +45,6 @@ pictureinpicture-exit-fullscreen-btn2 =
 
 ##
 
-pictureinpicture-fullscreen-btn =
-    .aria-label = @@FullScreen@@
-    .tooltip = @@FullScreen@@ (ダブルクリック)
-pictureinpicture-exit-fullscreen-btn =
-    .aria-label = @@FullScreen@@を終了
-    .tooltip = @@FullScreen@@を終了 (ダブルクリック)
 # Keyboard shortcut to toggle fullscreen mode when Picture-in-Picture is open.
 pictureinpicture-toggle-fullscreen-shortcut =
     .key = F

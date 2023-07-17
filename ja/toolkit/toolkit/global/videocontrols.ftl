@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-videocontrols-scrubber =
-    .aria-label = 再生位置
 # This label is used by screenreaders and other assistive technology to indicate
 # to users how much of the video has been loaded from the network. It will be
 # followed by the percentage of the video that has loaded (e.g. "Loading: 13%").
@@ -33,13 +31,6 @@ videocontrols-closed-caption-off =
 # This string is used as part of the Picture-in-Picture video toggle button when
 # the mouse is hovering it.
 videocontrols-picture-in-picture-label = ピクチャーインピクチャー
-# This string is used as the label for a variation of the Picture-in-Picture video
-# toggle button when the mouse is hovering over the video.
-videocontrols-picture-in-picture-toggle-label = ピクチャーインピクチャーで観る
-# This string is used as part of a variation of the Picture-in-Picture video toggle
-# button. When using this variation, this string appears below the toggle when the
-# mouse hovers the toggle.
-videocontrols-picture-in-picture-explainer = { -brand-short-name } で他の操作をしている間も動画を@@Front@@に表示して再生します。
 # This string is used as the label for a variation of the Picture-in-Picture video
 # toggle button when the mouse is hovering over the video.
 videocontrols-picture-in-picture-toggle-label2 = この動画をポップアウト

@@ -24,10 +24,6 @@ third-party-tag-shellex = シェル拡張
     .title = この種類のモジュールはシステムファイルダイアログを開いた時に読み込まれます
 third-party-tag-background = バックグラウンド
     .title = このモジュールはバックグラウンドで読み込まれるため、アプリケーションの処理をブロックしません
-third-party-unsigned-icon =
-    .title = このモジュールは署名されていません
-third-party-warning-icon =
-    .title = このモジュールのコードにより { -brand-short-name } がクラッシュしました
 third-party-icon-unsigned =
     .title = このモジュールは署名されていません
     .alt = このモジュールは署名されていません
@@ -58,14 +54,25 @@ third-party-button-to-unblock-disabled =
     .aria-label =
         現在ブロック済みマークが付いていますが、実行中の { -brand-short-name } ではブロックリストが無効化されています。
         クリックするとブロックが解除されます。
+third-party-button-to-block-module = このモジュールをブロック
+    .title = このモジュールをブロックします
+    .aria-label = このモジュールをブロックします
+third-party-button-to-unblock-module = このモジュールのブロックを解除
+    .title = 現在ブロックされています。クリックするとブロックを解除します。
+    .aria-label = 現在ブロックされています。クリックするとブロックを解除します。
+third-party-button-to-unblock-module-disabled = このモジュールのブロックを解除 (ブロックリストは現在無効です)
+    .title =
+        現在ブロック済みのマークが付いていますが、今回の { -brand-short-name } の実行中はブロックリストが無効化されています。
+        クリックするとブロックを解除します。
+    .aria-label =
+        現在ブロック済みのマークが付いていますが、今回の { -brand-short-name } の実行中はブロックリストが無効化されています。
+        クリックするとブロックを解除します。
 third-party-button-expand =
     .title = 詳細情報を表示します
 third-party-button-collapse =
     .title = 詳細情報を隠します
-third-party-requires-restart = ブロックされているサードパーティモジュールを変更するには { -brand-short-name } を再起動する必要があります。
 third-party-blocking-requires-restart = サードパーティモジュールをブロックするには { -brand-short-name } を再起動する必要があります。
 third-party-should-restart-title = { -brand-short-name } の再起動
-third-party-should-restart-ok = 今すぐ { -brand-short-name } を再起動
 third-party-restart-now = 今すぐ再起動
 third-party-restart-later = 後で再起動
 third-party-blocked-by-builtin =

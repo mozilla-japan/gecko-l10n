@@ -6,8 +6,6 @@ addons-page-title = アドオンマネージャー
 search-header =
     .placeholder = addons.mozilla.org を検索
     .searchbuttonlabel = 検索
-search-header-shortcut =
-    .key = f
 
 ## Variables
 ##   $domain - Domain name where add-ons are available (e.g. addons.mozilla.org)
@@ -163,6 +161,8 @@ extensions-warning-check-compatibility-button = 有効化
 extensions-warning-update-security = 更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。
 extensions-warning-update-security-button = 有効化
     .title = アドオンの更新のセキュリティ確認を有効化します
+extensions-warning-imported-addons = { -brand-short-name } に@@Import-sare@@た拡張機能のインストールを完了してください。
+extensions-warning-imported-addons-button = 拡張機能をインストール
 
 ## Strings connected to add-on updates
 
@@ -301,9 +301,6 @@ permissions-addon-button = 権限
 extension-enabled-heading = 有効
 extension-disabled-heading = 無効
 theme-enabled-heading = 有効
-theme-disabled-heading = 無効
-theme-monochromatic-heading = Colorway
-theme-monochromatic-subheading = { -brand-product-name } から鮮やかで刺激的なテーマコレクション Colorway の新作が期間限定で登場。
 theme-disabled-heading2 = 保存されたテーマ
 plugin-enabled-heading = 有効
 plugin-disabled-heading = 無効
@@ -349,6 +346,10 @@ addon-detail-updates-radio-on = 許可する
 addon-detail-updates-radio-off = 許可しない
 addon-detail-update-check-label = 今すぐ確認
 install-update-button = 更新
+# aria-label associated to the updates row to help screen readers to announce the group
+# of input controls being entered.
+addon-detail-group-label-updates =
+    .aria-label = { addon-detail-updates-label }
 # This is the tooltip text for the private browsing badge in about:addons. The
 # badge is the private browsing icon included next to the extension's name.
 addon-badge-private-browsing-allowed2 =
@@ -357,8 +358,28 @@ addon-badge-private-browsing-allowed2 =
 addon-detail-private-browsing-help = 許可した場合、この拡張機能はプライベートブラウジング中であってもユーザーのオンライン行動にアクセスできます。<a data-l10n-name="learn-more">詳細情報</a>
 addon-detail-private-browsing-allow = 許可する
 addon-detail-private-browsing-disallow = 許可しない
+# aria-label associated to the private browsing row to help screen readers to announce the group
+# of input controls being entered.
+addon-detail-group-label-private-browsing =
+    .aria-label = { detail-private-browsing-label }
+
+## "sites with restrictions" (internally called "quarantined") are special domains
+## where add-ons are normally blocked for security reasons.
+
+# Used as a description for the option to allow or block an add-on on quarantined domains.
+addon-detail-quarantined-domains-label = 保護されたウェブサイトでの実行
+# Used as help text part of the quarantined domains UI controls row.
+addon-detail-quarantined-domains-help = 許可すると、{ -vendor-short-name } により保護されたウェブサイトに拡張機能がアクセスできるようになります。この拡張機能を信頼する場合のみ許可してください。
+# Used as label and tooltip text on the radio inputs associated to the quarantined domains UI controls.
+addon-detail-quarantined-domains-allow = 許可する
+addon-detail-quarantined-domains-disallow = 許可しない
+# aria-label associated to the quarantined domains exempt row to help screen readers to announce the group.
+addon-detail-group-label-quarantined-domains =
+    .aria-label = { addon-detail-quarantined-domains-label }
+
 ## This is the tooltip text for the recommended badges for an extension in about:addons. The
 ## badge is a small icon displayed next to an extension when it is recommended on AMO.
+
 addon-badge-recommended2 =
     .title = { -brand-product-name } は Mozilla が定めた安全性とパフォーマンスの基準に適合する拡張機能のみをおすすめします
     .aria-label = { addon-badge-recommended2.title }
