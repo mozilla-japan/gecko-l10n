@@ -24,9 +24,6 @@ pippki-pw-change2empty-in-fips-mode = 現在 FIPS モードです。FIPS は空�
 
 ## Reset Primary Password dialog
 
-reset-primary-password-window =
-    .title = マスターパスワードのリセット
-    .style = width: 40em
 reset-primary-password-window2 =
     .title = マスターパスワードのリセット
     .style = min-width: 40em
@@ -39,9 +36,6 @@ pippki-reset-password-confirmation-message = マスターパスワードがリ�
 
 ## Downloading cert dialog
 
-download-cert-window =
-    .title = 証明書の@@ImportNoun@@
-    .style = width: 46em
 download-cert-window2 =
     .title = 証明書の@@ImportNoun@@
     .style = min-width: 46em
@@ -73,13 +67,6 @@ set-password-backup-pw =
 set-password-repeat-backup-pw =
     .value = 証明書のバックアップ用パスワード(再入力):
 set-password-reminder = 重要: 証明書のバックアップ用パスワードを忘れてしまうと、バックアップした証明書を復元できなくなります。安全な場所に記録しておいてください。
-
-## Protected Auth dialog
-
-protected-auth-window =
-    .title = 保護されたトークン認証
-protected-auth-msg = トークンの認証を行ってください。認証方法は使用するトークンの種類によって異なります。
-protected-auth-token = トークン:
 
 ## Protected authentication alert
 

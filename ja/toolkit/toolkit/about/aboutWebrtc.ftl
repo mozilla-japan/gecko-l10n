@@ -14,6 +14,8 @@ about-webrtc-save-page-dialog-title = about:webrtc を@@SaveAs@@
 
 ## These labels are for a disclosure which contains the information for closed PeerConnection sections
 
+about-webrtc-closed-peerconnection-disclosure-show-msg = 閉じた PeerConnection を表示
+about-webrtc-closed-peerconnection-disclosure-hide-msg = 閉じた PeerConnection を隠す
 
 ## AEC is an abbreviation for Acoustic Echo Cancellation.
 
@@ -28,13 +30,20 @@ about-webrtc-aec-logging-toggled-off-state-msg = 記録したログファイル�
 
 ##
 
-# The autorefresh checkbox causes the page to autorefresh its content when checked
+# The autorefresh checkbox causes a stats section to autorefresh its content when checked
 about-webrtc-auto-refresh-label = 自動更新する
-
+# Determines the default state of the Auto Refresh check boxes
+about-webrtc-auto-refresh-default-label = @@Default@@で自動更新する
+# A button which forces a refresh of displayed statistics
+about-webrtc-force-refresh-button = 更新
 # "PeerConnection" is a proper noun associated with the WebRTC module. "ID" is
 # an abbreviation for Identifier. This string should not normally be translated
 # and is used as a data label.
 about-webrtc-peerconnection-id-label = PeerConnection ID:
+# The number of DataChannels that a PeerConnection has opened
+about-webrtc-data-channels-opened-label = 開いているデータチャンネル:
+# The number of once open DataChannels that a PeerConnection has closed
+about-webrtc-data-channels-closed-label = 閉じているデータチャンネル:
 
 ## "SDP" is an abbreviation for Session Description Protocol, an IETF standard.
 ## See http://wikipedia.org/wiki/Session_Description_Protocol
@@ -101,6 +110,7 @@ about-webrtc-log-section-show-msg = ログを表示
 about-webrtc-log-section-hide-msg = ログを隠す
     .title = クリックしてセクションを折りたたみます
 about-webrtc-copy-report-button = レポートをコピー
+about-webrtc-copy-report-history-button = レポート履歴をコピー
 
 ## These are used to display a header for a PeerConnection.
 ## Variables:
@@ -116,6 +126,9 @@ about-webrtc-connection-closed = [ { $browser-id } | { $id } ] { $url } (切断)
 ## Variables:
 ##  $codecs - a list of media codecs
 
+about-webrtc-short-send-receive-direction = 送信 / 受信: { $codecs }
+about-webrtc-short-send-direction = 送信: { $codecs }
+about-webrtc-short-receive-direction = 受信: { $codecs }
 
 ##
 
@@ -291,5 +304,8 @@ about-webrtc-hide-msg-sdp = SDP を隠す
 ## The Media Context is the set of preferences and detected capabilities that informs
 ## the negotiated CODEC settings.
 
+about-webrtc-media-context-show-msg = メディアコンテキストを表示
+about-webrtc-media-context-hide-msg = メディアコンテキストを隠す
+about-webrtc-media-context-heading = メディアコンテキスト
 
 ##

@@ -127,12 +127,6 @@ about-telemetry-category-header = カテゴリー
 about-telemetry-method-header = メソッド
 about-telemetry-object-header = オブジェクト
 about-telemetry-extra-header = 特別
-about-telemetry-origin-section = 生成元 Telemetry
-about-telemetry-origin-origin = 生成元
-about-telemetry-origin-count = カウント
-# Variables:
-#   $telemetryServerOwner (String): the value of the toolkit.telemetry.server_owner preference. Typically "Mozilla"
-about-telemetry-origins-explanation = <a data-l10n-name="origin-doc-link">Firefox 生成元 Telemetry</a> はデータを送信前にエンコードするため、{ $telemetryServerOwner } が対象をカウントできます。ただし、与えられた { -brand-product-name } がカウントに含まれるかどうかを知ることはできません。(<a data-l10n-name="prio-blog-link">詳細情報</a>)
 # Variables:
 #   $process (string) - Type of process in subsection headers ( e.g. "content", "parent" )
 about-telemetry-process = { $process } プロセス

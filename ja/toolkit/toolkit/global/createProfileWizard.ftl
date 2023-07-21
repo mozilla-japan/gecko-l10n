@@ -2,20 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-create-profile-window =
-    .title = プロファイル作成@@Wizard@@
-    .style = width: 45em; height: 32em;
 create-profile-window2 =
     .title = プロファイル作成@@Wizard@@
     .style = min-width: 45em; min-height: 32em;
 
 ## First wizard page
 
-create-profile-first-page-header =
-    { PLATFORM() ->
-        [macos] はじめに
-       *[other] { create-profile-window.title }の開始
-    }
 create-profile-first-page-header2 =
     { PLATFORM() ->
         [macos] はじめに
@@ -32,11 +24,6 @@ profile-creation-explanation-4 =
 
 ## Second wizard page
 
-create-profile-last-page-header =
-    { PLATFORM() ->
-        [macos] 完了
-       *[other] { create-profile-window.title }の完了
-    }
 create-profile-last-page-header2 =
     { PLATFORM() ->
         [macos] 完了
