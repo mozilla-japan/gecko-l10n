@@ -73,8 +73,6 @@ perftools-thread-renderer =
     .title = WebRender が有効なときに OpenGL 呼び出しを実行するスレッドです
 perftools-thread-render-backend =
     .title = WebRender の RenderBackend スレッドです
-perftools-thread-paint-worker =
-    .title = メインスレッド外描画が有効なときに描画処理が発生するスレッドです
 perftools-thread-timer =
     .title = スレッド制御タイマー (setTimeout, setInterval, nsITimer) です
 perftools-thread-style-thread =
@@ -116,10 +114,6 @@ perftools-onboarding-close-button =
     .aria-label = 導入メッセージを閉じる
 
 ## Profiler presets
-
-# Presets and their l10n IDs are defined in the file
-# devtools/client/performance-new/popup/background.jsm.js
-# The same labels and descriptions are also defined in appmenu.ftl.
 
 # Presets and their l10n IDs are defined in the file
 # devtools/client/performance-new/shared/background.jsm.js

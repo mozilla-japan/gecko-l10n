@@ -71,17 +71,6 @@ restart-later = 後で再起動
 ## <img data-l10n-name="icon"/> is going to be replaced by the extension icon.
 ##
 ## Variables:
-##   $name (String): name of the extension
-
-
-## Extension Control Notifications
-##
-## These strings are used to inform the user
-## about changes made by extensions to browser settings.
-##
-## <img data-l10n-name="icon"/> is going to be replaced by the extension icon.
-##
-## Variables:
 ##   $name (string) - Name of the extension
 
 # This string is shown to notify the user that the password manager setting
@@ -193,25 +182,15 @@ containers-remove-cancel-button = 削除しない
 language-and-appearance-header = 言語と外観
 preferences-web-appearance-header = ウェブサイトの外観
 preferences-web-appearance-description = 一部のウェブサイトはあなたの設定をもとにカラースキームを適用します。これらのサイトでどのカラースキームを使用するか選択してください。
-preferences-web-appearance-choice-browser = { -brand-short-name } テーマ
-preferences-web-appearance-choice-system = システムテーマ
 preferences-web-appearance-choice-auto = 自動
 preferences-web-appearance-choice-light = Light
 preferences-web-appearance-choice-dark = Dark
-preferences-web-appearance-choice-tooltip-browser =
-    .title = { -brand-short-name } のテーマ設定をウェブサイトの背景と内容に適用させる。
-preferences-web-appearance-choice-tooltip-system =
-    .title = システムの設定をウェブサイトの背景と内容に適用させる。
 preferences-web-appearance-choice-tooltip-auto =
     .title = システムの設定と { -brand-short-name } のテーマをもとに、ウェブサイトの背景と内容を自動的に設定する。
 preferences-web-appearance-choice-tooltip-light =
     .title = 明るい外観をウェブサイトの背景と内容に使用する。
 preferences-web-appearance-choice-tooltip-dark =
     .title = 暗い外観をウェブサイトの背景と内容に使用する。
-preferences-web-appearance-choice-input-browser =
-    .aria-description = { preferences-web-appearance-choice-tooltip-browser.title }
-preferences-web-appearance-choice-input-system =
-    .aria-description = { preferences-web-appearance-choice-tooltip-system.title }
 preferences-web-appearance-choice-input-auto =
     .aria-description = { preferences-web-appearance-choice-tooltip-auto.title }
 preferences-web-appearance-choice-input-light =
@@ -422,7 +401,7 @@ update-setting-write-failure-message2 =
     
     ファイルに書き込めません: { $path }
 update-in-progress-title = 更新中
-update-in-progress-message = この更新を続行しますか？
+update-in-progress-message = { -brand-short-name } の更新を続行しますか？
 update-in-progress-ok-button = 破棄(&D)
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
@@ -466,6 +445,9 @@ browsing-use-onscreen-keyboard =
 browsing-use-cursor-navigation =
     .label = ページ中の移動にカーソルを使用する (キャレットブラウズモード)
     .accesskey = k
+browsing-use-full-keyboard-navigation =
+    .label = タブキーでフォームコントロールおよびリンク間のフォーカスを移動する
+    .accesskey = t
 browsing-search-on-start-typing =
     .label = キー入力時に検索を開始する
     .accesskey = x
@@ -506,10 +488,6 @@ home-newtabs-mode-label = @@NewTab@@
 home-restore-defaults =
     .label = @@DefaultValue@@に戻す
     .accesskey = R
-# "Firefox" should be treated as a brand and kept in English,
-# while "Home" and "(Default)" can be localized.
-home-mode-choice-default =
-    .label = Firefox Home (@@Default@@)
 home-mode-choice-default-fx =
     .label = { -firefox-home-brand-name } (@@Default@@)
 home-mode-choice-custom =
@@ -535,8 +513,6 @@ choose-bookmark =
 
 ## Home Section - Firefox Home Content Customization
 
-home-prefs-content-header = Firefox Home コンテンツ
-home-prefs-content-description = Firefox Home に表示するコンテンツを選びましょう。
 home-prefs-content-header2 = { -firefox-home-brand-name } コンテンツ
 home-prefs-content-description2 = { -firefox-home-brand-name } に表示するコンテンツを選びましょう。
 home-prefs-search-header =
@@ -546,10 +522,6 @@ home-prefs-shortcuts-header =
 home-prefs-shortcuts-description = 保存または訪問したサイト
 home-prefs-shortcuts-by-option-sponsored =
     .label = 広告ショートカット
-
-## Variables:
-##  $provider (String): Name of the corresponding content provider, e.g "Pocket".
-
 
 ## Variables:
 ##  $provider (string) - Name of the corresponding content provider, e.g "Pocket".
@@ -665,10 +637,6 @@ containers-settings-button =
 containers-remove-button =
     .label = 削除
 
-## Firefox Account - Signed out. Note that "Sync" and "Firefox Account" are now
-## more discrete ("signed in" no longer means "and sync is connected").
-
-
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
@@ -686,9 +654,6 @@ sync-signedout-account-signin3 =
 # They can be moved within the sentence as needed to adapt
 # to your language, but should not be changed or translated.
 sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> または <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> をダウンロードしてモバイル端末と同期しましょう。
-
-## Firefox Account - Signed in
-
 
 ## Firefox account - Signed in
 
@@ -738,7 +703,6 @@ prefs-syncing-button =
 
 ## The list of things currently syncing.
 
-sync-currently-syncing-heading = これらの項目を同期しています:
 sync-syncing-across-devices-heading = アカウントに接続されたすべての端末でこれらの項目を同期しています:
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
@@ -754,13 +718,6 @@ sync-change-options =
 
 ## The "Choose what to sync" dialog.
 
-sync-choose-what-to-sync-dialog =
-    .title = 同期する項目を選択
-    .style = width: 36em; min-height: 35em;
-    .buttonlabelaccept = 変更を保存
-    .buttonaccesskeyaccept = S
-    .buttonlabelextra2 = 切断...
-    .buttonaccesskeyextra2 = D
 sync-choose-what-to-sync-dialog3 =
     .title = 同期する項目を選択
     .style = min-width: 36em;
@@ -847,8 +804,6 @@ forms-breach-alerts =
     .label = 漏洩したウェブサイトのパスワードの警告を表示する
     .accesskey = b
 forms-breach-alerts-learn-more-link = 詳細情報
-relay-integration =
-    .label = { -brand-short-name } のパスワードマネージャーで { -relay-brand-name } を有効にする
 preferences-relay-integration-checkbox =
     .label = { -relay-brand-name } メールマスクによるメールアドレスの保護を提案する
 relay-integration-learn-more-link = 詳細情報
@@ -966,8 +921,6 @@ sitedata-option-block-cross-site-cookies =
     .label = クロスサイトトラッキング Cookie と、他のクロスサイト Cookie の隔離
 sitedata-option-block-unvisited =
     .label = 未訪問のウェブサイトの Cookie
-sitedata-option-block-all-third-party =
-    .label = すべてのサードパーティ Cookie (ウェブサイトが動作しない可能性があります)
 sitedata-option-block-all-cross-site-cookies =
     .label = すべてのクロスサイト Cookie (ウェブサイトが動作しない可能性があります)
 sitedata-option-block-all =
@@ -1047,7 +1000,6 @@ content-blocking-etp-strict-desc = より強固な保護ですが、一部のサ
 content-blocking-etp-custom-desc = ブロックするトラッカーとスクリプトを選択します。
 content-blocking-etp-blocking-desc = { -brand-short-name } は以下のものをブロックします:
 content-blocking-private-windows = プライベート@@Window@@のトラッキングコンテンツ
-content-blocking-cross-site-cookies-in-all-windows = すべての@@Window@@のクロスサイト Cookie (トラッキング Cookie 含む)
 content-blocking-cross-site-cookies-in-all-windows2 = すべての@@Window@@のクロスサイト Cookie
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
 content-blocking-all-cross-site-cookies-private-windows = プライベート@@Window@@のクロスサイト Cookie
@@ -1056,18 +1008,9 @@ content-blocking-social-media-trackers = ソーシャルメディアトラッカ
 content-blocking-all-cookies = すべての Cookie
 content-blocking-unvisited-cookies = 未訪問のサイトの Cookie
 content-blocking-all-windows-tracking-content = すべての@@Window@@のトラッキングコンテンツ
-content-blocking-all-third-party-cookies = すべてのサードパーティ Cookie
 content-blocking-all-cross-site-cookies = すべてのクロスサイト Cookie
 content-blocking-cryptominers = 暗号通貨マイニング
 content-blocking-fingerprinters = フィンガープリント採取
-# "Test pilot" is used as a verb. Possible alternatives:
-# "Be the first to try", "Join an early experiment".
-content-blocking-etp-standard-tcp-rollout-checkbox =
-    .label = これまでにない最も強力なプライバシー保護機能を試す
-    .accesskey = T
-
-# The tcp-rollout strings are no longer used for the rollout but for tcp-by-default in the standard section
-
 # The tcp-rollout strings are no longer used for the rollout but for tcp-by-default in the standard section
 # "Contains" here means "isolates", "limits".
 content-blocking-etp-standard-tcp-rollout-description = 包括的 Cookie 保護機能により現在のサイトへの Cookie が制限されているため、トラッカーはサイトを横断してあなたを追跡する Cookie を利用できません。
@@ -1186,7 +1129,7 @@ collection-health-report-disabled = このビルド設定ではヘルスレポ�
 collection-backlogged-crash-reports-with-link = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する <a data-l10n-name="crash-reports-link">詳細情報</a>
     .accesskey = c
 privacy-segmentation-section-header = ブラウジング体験を向上させる新機能
-privacy-segmentation-section-description = よりよいユーザー体験のために、あなたのデータを使用する機能を提案されたとき:
+privacy-segmentation-section-description = より良いユーザー体験のために、あなたのデータを使用する機能を提案されたとき:
 privacy-segmentation-radio-off =
     .label = { -brand-product-name } のおすすめを利用する
 privacy-segmentation-radio-on =

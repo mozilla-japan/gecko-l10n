@@ -4,13 +4,6 @@
 
 # Variables:
 #  $retriesLeft (Number): number of tries left
-webauthn-pin-invalid-prompt =
-    { $retriesLeft ->
-        [0] PIN コードが違います！ 端末の正しい PIN コードを入力してください。
-       *[other] PIN コードが違います！ 端末の正しい PIN コードを入力してください。試行回数の残り { $retriesLeft } 回。
-    }
-# Variables:
-#  $retriesLeft (Number): number of tries left
 webauthn-pin-invalid-long-prompt =
     { $retriesLeft ->
         [one] PIN コードが正しくありません。この端末の資格情報へのアクセスが永久に失われるまでの試行回数は残り { $retriesLeft } 回です。

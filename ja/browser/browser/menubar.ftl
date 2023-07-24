@@ -219,8 +219,9 @@ menu-history-undo-menu =
     .label = 最近閉じたタブ
 menu-history-undo-window-menu =
     .label = 最近閉じた@@Window@@
-menu-history-reopen-all-tabs = タブをすべて開きなおす
-menu-history-reopen-all-windows = @@Window@@をすべて開きなおす
+# "Search" is a verb, as in "Search in History"
+menu-history-search =
+    .label = 履歴を検索
 
 ## Bookmarks Menu
 
@@ -229,14 +230,13 @@ menu-bookmarks-menu =
     .accesskey = B
 menu-bookmarks-manage =
     .label = ブックマークを管理
-menu-bookmark-current-tab =
-    .label = 現在のタブをブックマーク
-menu-bookmark-edit =
-    .label = このブックマークを編集
 menu-bookmark-tab =
     .label = 現在のタブをブックマーク...
 menu-edit-bookmark =
     .label = このブックマークを編集...
+# "Search" is a verb, as in "Search in bookmarks"
+menu-bookmarks-search =
+    .label = ブックマークを検索
 menu-bookmarks-all-tabs =
     .label = すべてのタブをブックマーク...
 menu-bookmarks-toolbar =

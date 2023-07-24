@@ -5,39 +5,6 @@
 
 ## The main browser window's title
 
-# These are the default window titles everywhere except macOS. The first two
-# attributes are used when the web content opened has no title:
-#
-# default - "Mozilla Firefox"
-# private - "Mozilla Firefox (Private Browsing)"
-#
-# The last two are for use when there *is* a content title.
-# Variables:
-#  $content-title (String): the title of the web content.
-browser-main-window =
-    .data-title-default = { -brand-full-name }
-    .data-title-private = { -brand-full-name } (プライベートブラウジング)
-    .data-content-title-default = { $content-title } — { -brand-full-name }
-    .data-content-title-private = { $content-title } — { -brand-full-name } (プライベートブラウジング)
-# These are the default window titles on macOS. The first two are for use when
-# there is no content title:
-#
-# "default" - "Mozilla Firefox"
-# "private" - "Mozilla Firefox — (Private Browsing)"
-#
-# The last two are for use when there *is* a content title.
-# Do not use the brand name in the last two attributes, as we do on non-macOS.
-#
-# Also note the other subtle difference here: we use a `-` to separate the
-# brand name from `(Private Browsing)`, which does not happen on other OSes.
-#
-# Variables:
-#  $content-title (String): the title of the web content.
-browser-main-window-mac =
-    .data-title-default = { -brand-full-name }
-    .data-title-private = { -brand-full-name } — (プライベートブラウジング)
-    .data-content-title-default = { $content-title }
-    .data-content-title-private = { $content-title } — (プライベートブラウジング)
 # These are the default window titles everywhere except macOS.
 # .data-title-default and .data-title-private are used when the web content
 # opened has no title:
@@ -114,16 +81,12 @@ urlbar-xr-notification-anchor =
     .tooltiptext = VR の許可設定パネルを開きます
 urlbar-storage-access-anchor =
     .tooltiptext = 行動追跡の許可設定パネルを開きます
-urlbar-translate-notification-anchor =
-    .tooltiptext = このページを翻訳します
 urlbar-web-rtc-share-screen-notification-anchor =
     .tooltiptext = @@Window@@と画面の共有を管理します
 urlbar-indexed-db-notification-anchor =
     .tooltiptext = オフラインストレージのメッセージパネルを開きます
 urlbar-password-notification-anchor =
     .tooltiptext = パスワードの保存メッセージパネルを開きます
-urlbar-translated-notification-anchor =
-    .tooltiptext = ページ翻訳を管理します
 urlbar-plugins-notification-anchor =
     .tooltiptext = 使用するプラグインを管理します
 urlbar-web-rtc-share-devices-notification-anchor =
@@ -218,10 +181,6 @@ urlbar-star-add-bookmark =
 
 ## Page Action Context Menu
 
-page-action-manage-extension =
-    .label = 拡張機能を管理...
-page-action-remove-extension =
-    .label = 拡張機能を削除
 page-action-manage-extension2 =
     .label = 拡張機能を管理...
     .accesskey = E
@@ -392,8 +351,9 @@ identity-passive-loaded = このページの一部 (画像など) は安全で�
 identity-active-loaded = このページでの保護は無効に設定されています。
 identity-weak-encryption = このページは脆弱な暗号を使用しています。
 identity-insecure-login-forms = このページのログインフォームは安全ではありません。
-identity-https-only-connection-upgraded = (HTTPS で接続中)
+identity-https-only-connection-upgraded = (安全な HTTPS で接続中)
 identity-https-only-label = HTTPS-Only モード
+identity-https-only-label2 = このサイトを自動的に安全な接続にアップグレードします
 identity-https-only-dropdown-on =
     .label = オン
 identity-https-only-dropdown-off =
@@ -402,6 +362,8 @@ identity-https-only-dropdown-off-temporarily =
     .label = 一時的にオフ
 identity-https-only-info-turn-on2 = このサイトで { -brand-short-name } に可能な限り接続をアップグレードさせたい場合は、HTTPS-Only モードをオンにしてください。
 identity-https-only-info-turn-off2 = ページが動作しない場合は HTTPS-Only モードをオフにして、安全でない HTTP 接続でこのサイトを再読み込みするとよいでしょう。
+identity-https-only-info-turn-on3 = このサイトで { -brand-short-name } に可能な限り接続をアップグレードさせたい場合は、HTTPS アップグレードをオンにしてください。
+identity-https-only-info-turn-off3 = ページが動作しない場合は HTTPS アップグレードをオフにして、安全でない HTTP 接続でこのサイトを再読み込みするとよいでしょう。
 identity-https-only-info-no-upgrade = 接続を HTTP からアップグレードできません。
 identity-permissions-storage-access-header = クロスサイト Cookie
 identity-permissions-storage-access-hint = 以下のサイトが、あなたがこのサイトにいる間、クロスサイト Cookie とサイトデータにアクセスできます。
@@ -412,7 +374,6 @@ identity-clear-site-data =
 identity-connection-not-secure-security-view = このサイトとの接続は安全ではありません。
 identity-connection-verified = このサイトとの接続は安全です。
 identity-ev-owner-label = 証明書の発行先:
-identity-description-custom-root = Mozilla はこの証明書の発行者を承認していません。OS またはシステム管理者により追加された可能性があります。 <label data-l10n-name="link">詳細情報</label>
 identity-description-custom-root2 = Mozilla はこの証明書の発行者を承認していません。OS またはシステム管理者により追加された可能性があります。
 identity-remove-cert-exception =
     .label = 例外から削除
@@ -421,17 +382,12 @@ identity-description-insecure = このサイトへの接続は秘密が保たれ
 identity-description-insecure-login-forms = このページに入力したログイン情報は安全に送信されません。第三者に盗み見られる可能性があります。
 identity-description-weak-cipher-intro = このウェブサイトとの接続には脆弱な暗号が使用されており、秘密が保たれません。
 identity-description-weak-cipher-risk = 第三者にあなたの情報を盗み見られたりウェブサイトの動作を不正に改変される可能性があります。
-identity-description-active-blocked = { -brand-short-name } がこのページ上の安全でないコンテンツをブロックしました。 <label data-l10n-name="link">詳細情報</label>
 identity-description-active-blocked2 = { -brand-short-name } がこのページ上の安全でないコンテンツをブロックしました。
 identity-description-passive-loaded = この接続は安全でないため、サイトと共有したあなたの情報が第三者に盗み見られる可能性があります。
-identity-description-passive-loaded-insecure = このウェブサイトには安全でないコンテンツ (画像など) が含まれています。 <label data-l10n-name="link">詳細情報</label>
-identity-description-passive-loaded-mixed = { -brand-short-name } が一部のコンテンツをブロックしていますが、ページ上には安全でないコンテンツ (画像など) が含まれています。 <label data-l10n-name="link">詳細情報</label>
 identity-description-passive-loaded-insecure2 = このウェブサイトには安全でないコンテンツ (画像など) が含まれています。
 identity-description-passive-loaded-mixed2 = { -brand-short-name } が一部のコンテンツをブロックしていますが、ページ上には安全でないコンテンツ (画像など) が含まれています。
 identity-description-active-loaded = このウェブサイトには安全でないコンテンツ (スクリプトなど) が含まれており、サイトとの接続は秘密が保たれません。
 identity-description-active-loaded-insecure = このサイトと共有したあなたの情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。
-identity-learn-more =
-    .value = 詳細情報
 identity-disable-mixed-content-blocking =
     .label = このセッションのみ保護を無効にする
     .accesskey = D
@@ -508,13 +464,6 @@ popup-select-window-or-screen =
     .label = @@Window@@または画面:
     .accesskey = W
 popup-all-windows-shared = 画面に表示されているすべての@@Window@@を共有します。
-popup-screen-sharing-block =
-    .label = ブロック
-    .accesskey = B
-popup-screen-sharing-always-block =
-    .label = 常にブロック
-    .accesskey = w
-popup-mute-notifications-checkbox = 共有中はウェブサイトからの通知を無効にする
 
 ## WebRTC window or screen share tab switch warning
 
@@ -527,7 +476,6 @@ sharing-warning-disable-for-session =
 
 ## DevTools F12 popup
 
-enable-devtools-popup-description = F12 ショートカットを使うには、最初にメニューのウェブ開発から開発ツールを開いてください。
 enable-devtools-popup-description2 = F12 ショートカットを使うには、最初にメニューのブラウザーツールから開発ツールを開いてください。
 
 ## URL Bar
@@ -700,19 +648,6 @@ fullscreen-exit-mac-button = @@FullScreen@@モードを終了 (esc)
 pointerlock-warning-domain = マウスポインターは現在、 <span data-l10n-name="domain">{ $domain }</span> が制御しています。制御を取り戻すには、ESC キーを押してください。
 pointerlock-warning-no-domain = マウスポインターは現在、このページが制御しています。制御を取り戻すには、ESC キーを押してください。
 
-## Subframe crash notification
-
-crashed-subframe-message = <strong>このページの一部がクラッシュしました。</strong> { -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
-# The string for crashed-subframe-title.title should match crashed-subframe-message,
-# but without any markup.
-crashed-subframe-title =
-    .title = このページの一部がクラッシュしました。{ -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
-crashed-subframe-learnmore-link =
-    .value = 詳細
-crashed-subframe-submit =
-    .label = レポートを送信
-    .accesskey = S
-
 ## Bookmarks panels, menus and toolbar
 
 bookmarks-manage-bookmarks =
@@ -764,8 +699,6 @@ bookmarks-search =
     .label = ブックマークを検索
 bookmarks-tools =
     .label = ブックマークツール
-bookmarks-bookmark-edit-panel =
-    .label = このブックマークを編集
 bookmarks-subview-edit-bookmark =
     .label = このブックマークを編集...
 # The aria-label is a spoken label that should not include the word "toolbar" or
@@ -781,9 +714,6 @@ bookmarks-toolbar-placeholder =
     .title = ブックマークツールバーの項目
 bookmarks-toolbar-placeholder-button =
     .label = ブックマークツールバーの項目
-# "Bookmark" is a verb, as in "Add current tab to bookmarks".
-bookmarks-current-tab =
-    .label = 現在のタブをブックマークに追加
 # "Bookmark" is a verb, as in "Add current tab to bookmarks".
 bookmarks-subview-bookmark-tab =
     .label = 現在のタブをブックマークに追加...
@@ -809,11 +739,6 @@ repair-text-encoding-button =
 
 ## Customize Toolbar Buttons
 
-# Variables:
-#  $shortcut (String): keyboard shortcut to open the add-ons manager
-toolbar-addons-themes-button =
-    .label = アドオンとテーマ
-    .tooltiptext = アドオンとテーマを管理します ({ $shortcut })
 # Variables:
 #  $shortcut (String): keyboard shortcut to open settings (only on macOS)
 toolbar-settings-button =
@@ -863,13 +788,6 @@ eme-notifications-drm-content-playing-dismiss-accesskey = D
 
 panel-save-update-username = ユーザー名
 panel-save-update-password = パスワード
-
-## Add-on removal warning
-
-# Variables:
-#  $name (String): The name of the addon that will be removed.
-addon-removal-title = { $name } を削除しますか？
-addon-removal-abuse-report-checkbox = この拡張機能を { -vendor-short-name } に報告する
 
 ##
 
@@ -938,8 +856,6 @@ navbar-library =
     .tooltiptext = 履歴や保存したブックマークなどを表示します
 navbar-search =
     .title = 検索
-navbar-accessibility-indicator =
-    .tooltiptext = アクセシビリティ機能が有効です
 # Name for the tabs toolbar as spoken by screen readers. The word
 # "toolbar" is appended automatically and should not be included in
 # in the string
@@ -999,15 +915,6 @@ refresh-blocked-allow =
     .accesskey = A
 
 ## Firefox Relay integration
-
-firefox-relay-offer-why-relay = { -relay-brand-name } が本当のメールアドレスにマスクをして、データ漏洩とスパムからあなたを保護します。
-firefox-relay-offer-how-we-integrate = 続行すると、{ -brand-shorter-name } のパスワードマネージャーから直ちに新しい { -relay-brand-short-name } のメールマスクを生成できるようになります。
-# Variables:
-#  $sitename (String): name of the site where user enters their Relay mask
-#  $useremail (String): user email that will receive messages
-firefox-relay-offer-what-relay-does = <strong>{ $sitename }</strong> に届いたすべてのメールが <strong>{ $useremail }</strong> へ転送されます。
-
-## Popup Notification
 
 firefox-relay-offer-why-to-use-relay = 安全で簡単に使えるメールマスクがあなたのメールアドレスを隠して個人情報を守り、迷惑メールを防ぎます。
 # Variables:

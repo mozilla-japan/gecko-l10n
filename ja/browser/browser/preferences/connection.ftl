@@ -2,15 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-window =
-    .title = インターネット接続
-    .style =
-        { PLATFORM() ->
-            [macos] width: 46em
-           *[other] width: 54em
-        }
 connection-window2 =
-    .title = インターネット接続
+    .title = インターネット接続設定
     .style =
         { PLATFORM() ->
             [macos] min-width: 46em
@@ -76,11 +69,6 @@ connection-proxy-autologin-checkbox =
 connection-proxy-socks-remote-dns =
     .label = SOCKS v5 を使用するときは DNS もプロキシーを使用する
     .accesskey = D
-connection-dns-over-https =
-    .label = DNS over HTTPS を有効にする
-    .accesskey = b
-connection-dns-over-https-url-resolver = 使用するプロバイダー
-    .accesskey = P
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
 connection-dns-over-https-url-item-default =

@@ -317,12 +317,6 @@ about-debugging-zombie-tab-inspect-action-disabled =
     .title = タブの読み込みが完了してないため調査できません。
 # Displayed as name for the Main Process debug target in the Processes category. Only for
 # remote runtimes, if `devtools.aboutdebugging.process-debugging` is true.
-about-debugging-main-process-name = メインプロセス
-# Displayed as description for the Main Process debug target in the Processes category.
-# Only for remote browsers, if `devtools.aboutdebugging.process-debugging` is true.
-about-debugging-main-process-description2 = ターゲットブラウザーのメインプロセス
-# Displayed as name for the Main Process debug target in the Processes category. Only for
-# remote runtimes, if `devtools.aboutdebugging.process-debugging` is true.
 about-debugging-multiprocess-toolbox-name = マルチプロセスツールボックス
 # Displayed as description for the Main Process debug target in the Processes category.
 # Only for remote browsers, if `devtools.aboutdebugging.process-debugging` is true.

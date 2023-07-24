@@ -4,9 +4,6 @@
 # NOTE: New strings should use the about-logins- prefix.
 
 about-logins-page-title = ログインとパスワード
-login-filter =
-    .placeholder = ログイン情報を検索
-create-login-button = @@New-CMD@@ログイン情報を作成
 about-logins-login-filter =
     .placeholder = ログイン情報を検索
     .key = F
@@ -107,9 +104,6 @@ login-item-copied-password-button-text = コピーしました！
 login-item-save-changes-button = 変更を保存
 login-item-save-new-button = 保存
 login-item-cancel-button = キャンセル
-login-item-time-changed = 最終更新日時: { DATETIME($timeChanged, day: "numeric", month: "long", year: "numeric") }
-login-item-time-created = 作成日時: { DATETIME($timeCreated, day: "numeric", month: "long", year: "numeric") }
-login-item-time-used = 最終利用日時: { DATETIME($timeUsed, day: "numeric", month: "long", year: "numeric") }
 
 ## The date is displayed in a timeline showing the password evolution.
 ## A label is displayed under the date to describe the type of change.
@@ -216,7 +210,6 @@ about-logins-breach-alert-date = この漏洩は { DATETIME($date, day: "numeric
 # Variables:
 #   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
 about-logins-breach-alert-link = { $hostname } に移動
-about-logins-breach-alert-learn-more-link = 詳細
 
 ## Vulnerable Password notification
 
@@ -225,7 +218,7 @@ about-logins-vulnerable-alert-text2 = このパスワードは、データ漏洩
 # Variables:
 #   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
 about-logins-vulnerable-alert-link = { $hostname } に移動
-about-logins-vulnerable-alert-learn-more-link = 詳細
+about-logins-vulnerable-alert-learn-more-link = 詳細情報
 
 ## Error Messages
 
@@ -293,7 +286,7 @@ about-logins-import-dialog-error-file-permission-description = { -brand-short-na
 about-logins-import-dialog-error-unable-to-read-title = ファイルを解析できませんでした
 about-logins-import-dialog-error-unable-to-read-description = CSV ファイルまたは TSV ファイルの内容を確認してください。
 about-logins-import-dialog-error-no-logins-imported = ログイン情報は@@Import-sare@@ませんでした
-about-logins-import-dialog-error-learn-more = 詳細
+about-logins-import-dialog-error-learn-more = 詳細情報
 about-logins-import-dialog-error-try-import-again = @@ImportNoun@@を再試行...
 about-logins-import-dialog-error-cancel = キャンセル
 about-logins-import-report-title = @@ImportNoun@@結果

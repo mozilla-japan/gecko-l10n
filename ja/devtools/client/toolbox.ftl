@@ -27,8 +27,6 @@ toolbox-meatball-menu-noautohide-label = ポップアップを自動で隠さな
 toolbox-meatball-menu-pseudo-locale-accented = “accented” ロケールを有効化
 toolbox-meatball-menu-pseudo-locale-bidi = “bidi” ロケールを有効化
 
-##
-
 ## These labels are shown in the top-toolbar in the Browser Toolbox and Browser Console
 
 toolbox-mode-browser-toolbox-label = ブラウザーツールボックスモード
