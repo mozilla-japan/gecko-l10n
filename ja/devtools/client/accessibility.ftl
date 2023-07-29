@@ -9,8 +9,6 @@ accessibility-learn-more = 詳細
 accessibility-text-label-header = テキストラベルと名前
 accessibility-keyboard-header = キーボード
 
-## Text entries that are used as text alternative for icons that depict accessibility isses.
-
 ## These strings are used in the overlay displayed when running an audit in the accessibility panel
 
 accessibility-progress-initializing = 初期化中...

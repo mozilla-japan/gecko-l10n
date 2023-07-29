@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-permissions-window =
-    .title = 例外サイト
-    .style = width: 40em
 permissions-window2 =
     .title = 例外サイト
     .style = min-width: 40em
@@ -76,10 +73,6 @@ permissions-invalid-uri-label = 有効なホスト名を入力してください
 
 ## Exceptions - Tracking Protection
 
-permissions-exceptions-etp-window =
-    .title = 強化型トラッキング防止機能の例外
-    .style = { permissions-window.style }
-permissions-exceptions-etp-desc = これらのウェブサイトでは防止機能をオフに設定しています。
 permissions-exceptions-etp-window2 =
     .title = 強化型トラッキング防止機能の例外
     .style = { permissions-window2.style }
@@ -87,19 +80,13 @@ permissions-exceptions-manage-etp-desc = 強化型トラッキング防止をオ
 
 ## Exceptions - Cookies
 
-permissions-exceptions-cookie-window =
-    .title = Cookie とサイトデータのフィルター
-    .style = { permissions-window.style }
 permissions-exceptions-cookie-window2 =
-    .title = Cookie とサイトデータのフィルター
+    .title = 例外 - Cookie とサイトデータ
     .style = { permissions-window2.style }
 permissions-exceptions-cookie-desc = Cookie とサイトデータの使用を許可するかどうかウェブサイトごとに指定できます。個別に設定するサイトの正確なアドレスを入力して @@[@@不許可@@]@@、@@[@@現在のセッションのみ@@]@@、@@[@@許可@@]@@ のいずれかをクリックしてください。
 
 ## Exceptions - HTTPS-Only Mode
 
-permissions-exceptions-https-only-window =
-    .title = 例外 - HTTPS-Only モード
-    .style = { permissions-window.style }
 permissions-exceptions-https-only-window2 =
     .title = 例外 - HTTPS-Only モード
     .style = { permissions-window2.style }
@@ -107,9 +94,6 @@ permissions-exceptions-https-only-desc = HTTPS-Only モードをオフにする�
 
 ## Exceptions - Pop-ups
 
-permissions-exceptions-popup-window =
-    .title = 許可サイト - ポップアップ
-    .style = { permissions-window.style }
 permissions-exceptions-popup-window2 =
     .title = 許可サイト - ポップアップ
     .style = { permissions-window2.style }
@@ -117,9 +101,6 @@ permissions-exceptions-popup-desc = ポップアップ@@Window@@を開くこと�
 
 ## Exceptions - Saved Logins
 
-permissions-exceptions-saved-logins-window =
-    .title = 例外 - ログイン情報の保存
-    .style = { permissions-window.style }
 permissions-exceptions-saved-logins-window2 =
     .title = 例外 - ログイン情報の保存
     .style = { permissions-window2.style }
@@ -127,9 +108,6 @@ permissions-exceptions-saved-logins-desc = 次のウェブサイトのログイ�
 
 ## Exceptions - Add-ons
 
-permissions-exceptions-addons-window =
-    .title = 許可サイト - アドオンのインストール
-    .style = { permissions-window.style }
 permissions-exceptions-addons-window2 =
     .title = 許可サイト - アドオンのインストール
     .style = { permissions-window2.style }
@@ -137,9 +115,6 @@ permissions-exceptions-addons-desc = アドオンのインストールを許可�
 
 ## Site Permissions - Autoplay
 
-permissions-site-autoplay-window =
-    .title = 設定 - 自動再生
-    .style = { permissions-window.style }
 permissions-site-autoplay-window2 =
     .title = 設定 - 自動再生
     .style = { permissions-window2.style }
@@ -147,9 +122,6 @@ permissions-site-autoplay-desc = 自動再生の@@Default-@@設定によらな�
 
 ## Site Permissions - Notifications
 
-permissions-site-notification-window =
-    .title = 設定 - 通知の許可
-    .style = { permissions-window.style }
 permissions-site-notification-window2 =
     .title = 設定 - 通知の許可
     .style = { permissions-window2.style }
@@ -160,9 +132,6 @@ permissions-site-notification-disable-desc = 上記以外のウェブサイト�
 
 ## Site Permissions - Location
 
-permissions-site-location-window =
-    .title = 設定 - 位置情報の使用許可
-    .style = { permissions-window.style }
 permissions-site-location-window2 =
     .title = 設定 - 位置情報の使用許可
     .style = { permissions-window2.style }
@@ -173,9 +142,6 @@ permissions-site-location-disable-desc = 上記以外のウェブサイトは、
 
 ## Site Permissions - Virtual Reality
 
-permissions-site-xr-window =
-    .title = 設定 - VR の使用許可
-    .style = { permissions-window.style }
 permissions-site-xr-window2 =
     .title = 設定 - VR の使用許可
     .style = { permissions-window2.style }
@@ -186,9 +152,6 @@ permissions-site-xr-disable-desc = 上記以外のウェブサイトは、VR デ
 
 ## Site Permissions - Camera
 
-permissions-site-camera-window =
-    .title = 設定 - カメラの使用許可
-    .style = { permissions-window.style }
 permissions-site-camera-window2 =
     .title = 設定 - カメラの使用許可
     .style = { permissions-window2.style }
@@ -199,9 +162,6 @@ permissions-site-camera-disable-desc = 上記以外のウェブサイトは、�
 
 ## Site Permissions - Microphone
 
-permissions-site-microphone-window =
-    .title = 設定 - マイクの使用許可
-    .style = { permissions-window.style }
 permissions-site-microphone-window2 =
     .title = 設定 - マイクの使用許可
     .style = { permissions-window2.style }

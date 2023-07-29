@@ -124,8 +124,6 @@ profiler-popup-button-recording =
 profiler-popup-button-capturing =
     .label = プロファイラー
     .tooltiptext = プロファイラーがプロファイルをキャプチャ中です
-profiler-popup-title =
-    .value = { -profiler-brand-name }
 profiler-popup-header-text = { -profiler-brand-name }
 profiler-popup-reveal-description-button =
     .aria-label = 詳細な情報を表示
@@ -161,10 +159,6 @@ profiler-popup-capture-shortcut =
 ## They are shown in the popup's select box.
 
 # Presets and their l10n IDs are defined in the file
-# devtools/client/performance-new/popup/background.jsm.js
-# Please take care that the same values are also defined in devtools' perftools.ftl.
-
-# Presets and their l10n IDs are defined in the file
 # devtools/client/performance-new/shared/background.jsm.js
 # Please take care that the same values are also defined in devtools' perftools.ftl.
 
@@ -194,8 +188,6 @@ profiler-popup-presets-custom-label =
 
 appmenu-manage-history =
     .label = 履歴を管理
-appmenu-reopen-all-tabs = タブをすべて開きなおす
-appmenu-reopen-all-windows = @@Window@@をすべて開きなおす
 appmenu-restore-session =
     .label = 以前のセッションを復元
 appmenu-clear-history =

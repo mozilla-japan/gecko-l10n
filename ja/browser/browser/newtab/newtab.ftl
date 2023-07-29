@@ -225,20 +225,6 @@ newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に�
 newtab-pocket-pocket-firefox-family = { -pocket-brand-name } は { -brand-product-name } ファミリーの一員です
 
 # A save to Pocket button that shows over the card thumbnail on hover.
-newtab-pocket-save-to-pocket = { -pocket-brand-name } に保存します
-newtab-pocket-saved-to-pocket = { -pocket-brand-name } に保存しました
-
-# This is a button shown at the bottom of the Pocket section that loads more stories when clicked.
-newtab-pocket-load-more-stories-button = その他の記事を読み込む
-
-## Pocket Final Card Section.
-## This is for the final card in the Pocket grid.
-
-newtab-pocket-last-card-title = 最後まで読みました！
-newtab-pocket-last-card-desc = 後でもう一度確認してください。
-newtab-pocket-last-card-image =
-    .alt = 最後まで読みました
-# A save to Pocket button that shows over the card thumbnail on hover.
 newtab-pocket-save = 保存
 newtab-pocket-saved = 保存しました
 

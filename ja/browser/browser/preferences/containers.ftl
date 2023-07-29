@@ -2,14 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-containers-window-new =
-    .title = @@New-CMD@@コンテナーを追加する
-    .style = width: 45em
-# Variables
-#   $name (String) - Name of the container
-containers-window-update-settings =
-    .title = { $name } コンテナーの設定
-    .style = width: 45em
 containers-window-new2 =
     .title = @@New-CMD@@コンテナーを追加する
     .style = min-width: 45em

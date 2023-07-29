@@ -98,28 +98,12 @@ cfr-doorhanger-doh-primary-button-2 = OK
 cfr-doorhanger-doh-secondary-button = 無効にする
     .accesskey = D
 
-## Fission Experiment Message
-
-cfr-doorhanger-fission-body-approved = プライバシーは重要です。{ -brand-short-name } がウェブサイトをそれぞれ他のサイトから分離、サンドボックス化するため、パスワードやクレジットカード番号、他の重要な情報が盗まれにくくなりました。
-cfr-doorhanger-fission-header = サイトの分離
-cfr-doorhanger-fission-primary-button = OK、有効にする
-    .accesskey = O
-cfr-doorhanger-fission-secondary-button = 詳細
-    .accesskey = L
-
 ## Full Video Support CFR message
 
 cfr-doorhanger-video-support-body = このバージョンの { -brand-short-name } では、このサイトの動画を正しく再生できません。今すぐ、動画に完全対応する { -brand-short-name } に更新しましょう。
 cfr-doorhanger-video-support-header = { -brand-short-name } を更新して動画を再生
 cfr-doorhanger-video-support-primary-button = 今すぐ更新
     .accesskey = U
-
-## Spotlight modal shared strings
-
-spotlight-learn-more-collapsed = 詳細
-    .title = 展開してこの機能の詳細を見る
-spotlight-learn-more-expanded = 詳細
-    .title = 閉じる
 
 ## VPN promotion dialog for public Wi-Fi users
 ##
@@ -134,18 +118,6 @@ spotlight-public-wifi-vpn-primary-button = { -mozilla-vpn-brand-name } でプラ
     .accesskey = S
 spotlight-public-wifi-vpn-link = 後で
     .accesskey = N
-
-## Total Cookie Protection Rollout
-
-# "Test pilot" is used as a verb. Possible alternatives: "Be the first to try",
-# "Join an early experiment". This header text can be explicitly wrapped.
-spotlight-total-cookie-protection-header = これまでにない最も強力なプライバシー保護機能を試す
-spotlight-total-cookie-protection-body = 包括的 Cookie 保護機能は Cookie を利用してあなたを追跡するトラッカーを遮断します。
-# "Early access" for this feature rollout means it's a "feature preview" or
-# "soft launch" as not everybody will get it yet.
-spotlight-total-cookie-protection-expanded = あなたが訪問したサイト上でトラッカーが追跡できないように { -brand-short-name } が Cookie の周りにフェンスを建てて制限します。早期アクセスに参加すると、この機能が最適化され、すべての人にとってのより良いウェブを構築し続ける助けになります。
-spotlight-total-cookie-protection-primary-button = 包括的 Cookie 保護をオンにする
-spotlight-total-cookie-protection-secondary-button = 後で
 
 ## Emotive Continuous Onboarding
 

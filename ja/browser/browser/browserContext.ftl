@@ -83,42 +83,6 @@ toolbar-button-fxaccount =
 main-context-menu-page-save =
     .label = @@Save-AsCMD@@ページを保存...
     .accesskey = P
-
-## Simple menu items
-
-main-context-menu-bookmark-add =
-    .aria-label = このページをブックマーク
-    .accesskey = m
-    .tooltiptext = このページをブックマークに追加します
-# This menuitem is only visible on macOS
-# Cannot be shown at the same time as main-context-menu-bookmark-edit-mac,
-# so should probably have the same access key if possible.
-main-context-menu-bookmark-add-mac =
-    .label = ページをブックマーク
-    .accesskey = m
-# This menuitem is only visible on macOS
-# Cannot be shown at the same time as main-context-menu-bookmark-add-mac,
-# so should probably have the same access key if possible.
-main-context-menu-bookmark-edit-mac =
-    .label = ブックマークを編集
-    .accesskey = m
-# Variables
-#   $shortcut (String) - A keyboard shortcut for the add bookmark command.
-main-context-menu-bookmark-add-with-shortcut =
-    .aria-label = このページをブックマーク
-    .accesskey = m
-    .tooltiptext = このページをブックマークに追加します ({ $shortcut })
-main-context-menu-bookmark-change =
-    .aria-label = このブックマークを編集
-    .accesskey = m
-    .tooltiptext = このページのブックマークを編集します
-# Variables
-#   $shortcut (String) - A keyboard shortcut for the edit bookmark command.
-main-context-menu-bookmark-change-with-shortcut =
-    .aria-label = このブックマークを編集
-    .accesskey = m
-    .tooltiptext = このページのブックマークを編集します ({ $shortcut })
-
 main-context-menu-bookmark-page =
     .aria-label = ページをブックマーク...
     .accesskey = m
@@ -166,9 +130,6 @@ main-context-menu-open-link-new-window =
 main-context-menu-open-link-new-private-window =
     .label = リンクを@@New-CMD@@プライベート@@Window@@で開く
     .accesskey = P
-main-context-menu-bookmark-link =
-    .label = リンクをブックマーク
-    .accesskey = B
 main-context-menu-bookmark-link-2 =
     .label = リンクをブックマーク...
     .accesskey = B
@@ -192,6 +153,11 @@ main-context-menu-copy-phone =
 main-context-menu-copy-link-simple =
     .label = リンクをコピー
     .accesskey = L
+# This command copies the link, removing additional
+# query parameters used to track users across sites.
+main-context-menu-strip-on-share-link =
+    .label = サイト追跡を除いたリンクをコピー
+    .accesskey = y
 
 ## Media (video/audio) controls
 ##
@@ -308,12 +274,6 @@ main-context-menu-video-email =
 main-context-menu-audio-email =
     .label = 音声の URL をメールで送信...
     .accesskey = a
-main-context-menu-plugin-play =
-    .label = このプラグインを有効化
-    .accesskey = c
-main-context-menu-plugin-hide =
-    .label = このプラグインを非表示
-    .accesskey = H
 main-context-menu-save-to-pocket =
     .label = ページを { -pocket-brand-name } に保存
     .accesskey = k
@@ -364,9 +324,6 @@ main-context-menu-frame-open-window =
 main-context-menu-frame-reload =
     .label = フレームの再読み込み
     .accesskey = R
-main-context-menu-frame-bookmark =
-    .label = このフレームをブックマーク
-    .accesskey = m
 main-context-menu-frame-add-bookmark =
     .label = フレームをブックマーク...
     .accesskey = m
@@ -382,9 +339,6 @@ main-context-menu-frame-view-source =
 main-context-menu-frame-view-info =
     .label = フレームの情報を表示
     .accesskey = I
-main-context-menu-print-selection =
-    .label = 選択した部分を@@Print@@
-    .accesskey = r
 main-context-menu-print-selection-2 =
     .label = 選択した部分を@@Print@@...
     .accesskey = r

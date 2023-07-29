@@ -39,3 +39,4 @@ unified-extensions-context-menu-move-widget-down =
 
 unified-extensions-mb-quarantined-domain-title = 一部の拡張機能は許可されていません
 unified-extensions-mb-quarantined-domain-message = { -vendor-short-name } が監視している一部の拡張機能は、ユーザーのデータを保護するため、このサイトでの動作が許可されていません。
+unified-extensions-mb-quarantined-domain-message-2 = ユーザーのデータを保護するため、一部の拡張機能はこのサイトのデータの読み取りと変更ができません。{ -vendor-short-name } により制限されたサイトを許可するには、その拡張機能の設定から変更してください。
