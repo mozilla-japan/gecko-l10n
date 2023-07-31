@@ -10,6 +10,8 @@
 
 #define seamonkey_and_mozilla SeaMonkey and Mozilla
 
+#define seamonkey_and_support SeaMonkey Resources
+
 # LOCALIZATION NOTE (seamonkey):
 # link title for https://www.seamonkey-project.org/ (in the personal toolbar)
 #define seamonkey SeaMonkey

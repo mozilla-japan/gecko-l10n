@@ -180,6 +180,10 @@ folder-pane-mode-context-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = コンパクトビュー
     .accesskey = C
+folder-pane-mode-move-up =
+    .label = 上へ移動
+folder-pane-mode-move-down =
+    .label = 下へ移動
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label = 未読 { $count } 通

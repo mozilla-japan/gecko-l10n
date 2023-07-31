@@ -227,15 +227,6 @@ about-addressbook-placeholder-no-search-results = 連絡先が見つかりませ
 ## Details
 
 # Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = 選択した連絡先とアドレスリスト { $count } 件
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = 選択した連絡先 { $count } 件
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = 選択したアドレスリスト { $count } 件
-# Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 = 選択したアドレス帳エントリー { $count } 件
 # Variables:

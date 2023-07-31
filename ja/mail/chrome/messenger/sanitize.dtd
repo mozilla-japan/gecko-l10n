@@ -33,4 +33,4 @@ that require it.  -->
      mockup at bug 480169 -->
 <!ENTITY sanitizeEverythingUndoWarning	"この操作は取り消せません。">
 
-<!ENTITY dialog.width			"@@sanitize.dialog.width@@"><!-- en-US: 28em -->
+<!ENTITY dialog.width			"34em"><!-- en-US: 28em -->
