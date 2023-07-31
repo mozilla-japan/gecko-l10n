@@ -165,9 +165,12 @@ ja-JP-mac.Export-suru			= 書き出す
 #
 #	default name
 #
+# /calendar/chrome/calendar/calendar.properties
 ja.NewCalendarDefault			= 新しいカレンダー
-ja.NewFolderDefault			= 新しいフォルダー
 ja-JP-mac.NewCalendarDefault		= 名称未設定
+
+# /browser/chrome/browser/places/bookmarkProperties.properties
+ja.NewFolderDefault			= 新しいフォルダー
 ja-JP-mac.NewFolderDefault		= 名称未設定フォルダー
 
 
@@ -208,9 +211,6 @@ browser.credits.dtd			= <ul>\
 #					  <li>Satoru Yamaguchi</li>\
 #					  </ul>
 
-# mail/chrome/messenger/sanitize.dtd
-ja.sanitize.dialog.width	= 34em
-ja-JP-mac.sanitize.dialog.width	= 32em
 
 #	[ mail module ]
 

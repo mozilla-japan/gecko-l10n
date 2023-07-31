@@ -3,16 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-summary-dialog-edit-button =
-  .label = 編集
-  .accesskey = E
-
+    .label = 編集
+    .accesskey = E
 calendar-summary-dialog-edit-menu-button =
-  .label = 編集
-
+    .label = 編集
 edit-button-context-menu-this-occurrence =
-  .label = この項目のみを編集
-  .accesskey = t
-
+    .label = この項目のみを編集
+    .accesskey = t
 edit-button-context-menu-all-occurrences =
-  .label = すべての項目を編集
-  .accesskey = a
+    .label = すべての項目を編集
+    .accesskey = a
+description-context-menu-copy-link-text =
+    .label = リンクテキストをコピー
