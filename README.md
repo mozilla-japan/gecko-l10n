@@ -2,6 +2,10 @@
 
 このリポジトリでは、Firefox, Thunderbird などで使用されている Gecko エンジンおよび製品 (Firefox, Thunderbird, Lightning, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に、[lot](https://github.com/mozilla-japan/lot) で ja (Windows, Linux などの macOS 以外), ja-JP-mac (macOS) それぞれのリソースファイルを生成し、hg.mozilla.org のリポジトリに push することで実際の製品に反映されます。
 
+## 表記ガイドラインと作業手順
+
+[Wiki](https://github.com/mozilla-japan/gecko-l10n/wiki) ページを参照してください。
+
 ## フィードバックの送り方
 
 Mozilla 製品のローカライズに問題を見つけたり気になる点があれば是非フィードバックをしてください。必ずしも GitHub アカウントや特別な知識は必要ありません。
@@ -20,11 +24,11 @@ Mozilla 製品のローカライズに問題を見つけたり気になる点が
 
 ## ブランチとマージ
 
-Github での master ブランチは、version 57.0 以降、クロスチャンネル対応の gecko-strings を対象にローカライズしており、Nightly, Beta, Release 共用のリソースになっています。
+Github での master ブランチは、version 57.0 以降、クロスチャンネル対応の [gecko-strings](https://hg.mozilla.org/l10n/gecko-strings) を対象にローカライズしており、Nightly, Beta, Release 共用のリソースになっています。
 
-GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) およびベータ版用のリソースです (version 55.0 から)。リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了もしくはリリースされてから、次バージョンへの対応をはじめる前になります。
+GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) およびベータ版用のリソースです。
 
-既にブランチを切っているバージョン (リリース版) への反映は行いません。
+リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了もしくはリリースされてから、次バージョンへの対応をはじめる前になります。既にブランチを切っているバージョン (リリース版) への反映は行いません。
 
 リポジトリの書き込み権限があれば、次のような手順でファイルの編集からマージまでできます
 
@@ -60,6 +64,14 @@ git cherry-pick *******
 git push
 ```
 
+## ツール
+* Localization Tools (lot)
+  * https://github.com/mozilla-japan/lot
+* compare-locales Python script
+  * https://github.com/mozilla/compare-locales
+* Pontoon Japanese projects (製品とウェブサイトのローカライズ)
+  * https://pontoon.mozilla.org/ja/
+
 ## リファレンス
 
 * L10n リソース検索
@@ -74,7 +86,7 @@ git push
 
 ## L10n 関連リポジトリー等
 
-* Firefox
+* Firefox デスクトップ版
   * Cross-channel (gecko-strings):
     * https://hg.mozilla.org/l10n/gecko-strings (L10n の作業対象)
     * https://hg.mozilla.org/l10n/gecko-strings-quarantine/
@@ -93,17 +105,14 @@ git push
     * https://hg.mozilla.org/projects/comm-l10n/file/tip/ja
     * https://hg.mozilla.org/projects/comm-l10n/file/tip/ja-JP-mac
 
-* Firefox for iOS
-  * https://pontoon.mozilla.org/ja/firefox-for-ios/
-* Firefox for Android (Fenix)
-  * https://pontoon.mozilla.org/ja/firefox-for-android/
-* Firefox Focus for iOS
-  * https://pontoon.mozilla.org/ja/focus-for-ios/
-* Firefox Focus for Android
-  * https://pontoon.mozilla.org/ja/focus-for-android/
+* Firefox モバイル版
+  * Android (Fenix): https://pontoon.mozilla.org/ja/firefox-for-android/
+  * iOS: https://pontoon.mozilla.org/ja/firefox-for-ios/
+  * Focus for Android: https://pontoon.mozilla.org/ja/focus-for-android/
+  * Focus for iOS: https://pontoon.mozilla.org/ja/focus-for-ios/
 * Mozilla VPN Client
   * https://pontoon.mozilla.org/ja/mozilla-vpn-client/
-* その他ウェブサイト等 (Pontoon)
+* その他ウェブサイト等 (AMO, MDN, SUMO, etc.)
   * https://pontoon.mozilla.org/ja/
 
 ## 終了したリポジトリー (End Of Life)
@@ -122,14 +131,6 @@ git push
   * (v2.5) https://hg.mozilla.org/releases/gaia-l10n/v2_5/ja/
   * (v2.2) https://hg.mozilla.org/releases/gaia-l10n/v2_2/ja/
 
-## Tools
-* Localization Tools (lot)
-  * https://github.com/mozilla-japan/lot
-* Pontoon Japanese projects (製品とウェブサイトのローカライズ)
-  * https://pontoon.mozilla.org/ja/
-* compare-locales Python script
-  * https://github.com/mozilla/compare-locales
-
 ## 本家の L10n 情報
 * [Mozilla L10N blog](https://blog.mozilla.org/l10n/)
 * [Mozilla Discourse - Localization トピック](https://discourse.mozilla.org/c/l10n/547)
@@ -137,3 +138,4 @@ git push
 * [Firefox Release Calendar](https://wiki.mozilla.org/Release_Management/Calendar) - MozillaWiki
 * [Project Fluent](https://projectfluent.org/)
 * [Roles within Mozilla l10n communities](https://mozilla-l10n.github.io/localizer-documentation/community/l10n_community_roles.html)
+* [Firefox Trains](https://whattrainisitnow.com/) - [APIs, Views](https://whattrainisitnow.com/about/)
