@@ -91,6 +91,7 @@ permissions-exceptions-https-only-window2 =
     .title = 例外 - HTTPS-Only モード
     .style = { permissions-window2.style }
 permissions-exceptions-https-only-desc = HTTPS-Only モードをオフにするウェブサイトを指定できます。{ -brand-short-name } はこれらのサイトでは安全な接続にアップグレードしません。プライベート@@Window@@ではこの例外は適用されません。
+permissions-exceptions-https-only-desc2 = HTTPS-Only モードをオフにするウェブサイトを指定できます。{ -brand-short-name } はこれらのサイトでは安全な接続にアップグレードしません。
 
 ## Exceptions - Pop-ups
 

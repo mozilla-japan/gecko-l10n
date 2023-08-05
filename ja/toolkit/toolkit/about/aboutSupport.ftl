@@ -15,6 +15,10 @@ support-addons-type = 種類
 support-addons-enabled = 有効
 support-addons-version = バージョン
 support-addons-id = ID
+legacy-user-stylesheets-title = 従来のユーザースタイルシート
+legacy-user-stylesheets-enabled = 使用中
+legacy-user-stylesheets-stylesheet-types = スタイルシート
+legacy-user-stylesheets-no-stylesheets-found = スタイルシートが見つかりません
 security-software-title = セキュリティソフトウェア
 security-software-type = 種類
 security-software-name = 製品名
@@ -72,6 +76,7 @@ app-basics-key-mozilla = Mozilla Location Service キー
 app-basics-safe-mode = セーフモード
 app-basics-memory-size = メモリーサイズ (RAM)
 app-basics-disk-available = 空きディスク領域
+app-basics-pointing-devices = ポインティングデバイス
 # Variables:
 #   $value (number) - Amount of data being stored
 #   $unit (string) - The unit of data being stored (e.g. MB)
@@ -353,8 +358,8 @@ touch-warning = 非同期タッチ入力は未サポートの設定により無�
 
 ## Strings representing the status of the Enterprise Policies engine.
 
-policies-inactive = 非アクティブ
-policies-active = アクティブ
+policies-inactive = 未使用
+policies-active = 使用中
 policies-error = エラー
 
 ## Printing section
@@ -375,3 +380,10 @@ support-remote-experiments-see-about-studies = 各実験を無効にする方法
 support-remote-features-title = リモート機能
 support-remote-features-name = 機能名
 support-remote-features-status = 状態
+
+## Pointing devices
+
+pointing-device-mouse = マウス
+pointing-device-touchscreen = タッチスクリーン
+pointing-device-pen-digitizer = デジタイザーペン
+pointing-device-none = ポインティングデバイスなし
