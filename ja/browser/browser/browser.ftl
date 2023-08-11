@@ -556,6 +556,8 @@ urlbar-result-action-search-w-engine = { $engine } で検索
 urlbar-result-action-sponsored = 広告
 urlbar-result-action-switch-tab = タブを表示
 urlbar-result-action-visit = 開く
+# Allows the user to visit a URL that was previously copied to the clipboard.
+urlbar-result-action-visit-from-your-clipboard = クリップボードから開く
 # Directs a user to press the Tab key to perform a search with the specified
 # engine.
 # Variables

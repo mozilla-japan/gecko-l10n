@@ -196,3 +196,7 @@ firefoxview-recentlyclosed-empty-description = ここで最近閉じたタブを
 firefoxview-recentlyclosed-empty-description-two = だいぶ前に閉じたタブを見つけるには、<a data-l10n-name="history-url">ブラウジング履歴</a> を表示してください。
 
 ##
+
+## This message is displayed below the name of another connected device when it doesn't have any open tabs.
+
+firefoxview-syncedtabs-device-notabs = この端末で開いているタブはありません
