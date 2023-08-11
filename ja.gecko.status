@@ -90,8 +90,6 @@ geck | dom, security, toolkit   15090:67e2d992211e (2023-06-08)  mar            
 comm | mail                     13609:ad3443602d21 (2023-06-12)  mar            mail
 geck | browser, devtools, ...   15101:1e3dfa78ca30 (2023-06-20)  mar            sync browser, devtools, toolkit
 
-^---Released!
-
 [l10n-mozilla-116.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
@@ -99,3 +97,9 @@ geck | dom, security, toolkit   15115:7b1a4be14c4e (2023-07-07)  mar            
 geck | browser, devtools, ...   15130:24884069e3cb (2023-07-21)  mar            sync browser, devtools, mobile
 comm | mail, calendar, suite    14170:fbe206073ee5 (2023-07-11)  mar            mail, calendar, suite
 
+^---Released!
+
+[l10n-mozilla-117.0]
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
+geck | browser, dom, toolkit    15143:d4c54132c542 (2023-08-05)  mar            sync browser, dom, toolkit

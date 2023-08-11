@@ -5,6 +5,15 @@
 # The button for "Firefox Translations" in the url bar.
 urlbar-translations-button =
     .tooltiptext = このページを翻訳します
+# The button for "Firefox Translations" in the url bar. Note that here "Beta" should
+# not be translated, as it is a reflection of the un-localized BETA icon that is in the
+# panel.
+urlbar-translations-button2 =
+    .tooltiptext = このページを翻訳します - Beta
+# Note that here "Beta" should not be translated, as it is a reflection of the
+# un-localized BETA icon that is in the panel.
+urlbar-translations-button-intro =
+    .tooltiptext = { -brand-shorter-name } のプライベート翻訳を試す - Beta
 # If your language requires declining the language name, a possible solution
 # is to adapt the structure of the phrase, or use a support noun, e.g.
 # `Page translated from: { $fromLanguage }. Current target language: { $toLanguage }`
@@ -59,6 +68,9 @@ translations-panel-translate-button-loading =
     .label = お待ちください...
 translations-panel-translate-cancel =
     .label = キャンセル
+translations-panel-learn-more-link = 詳細情報
+translations-panel-intro-header = { -brand-shorter-name } のプライベート翻訳を試す
+translations-panel-intro-description = プライバシー保護のため、翻訳データを端末内に留めます。新しい言語への対応と改善がまもなく追加されます。
 translations-panel-error-translating = 翻訳時に問題が発生しました。もう一度試してください。
 translations-panel-error-load-languages = 言語を読み込めませんでした
 translations-panel-error-load-languages-hint = インターネット接続を確認して、もう一度試してください。
@@ -120,6 +132,20 @@ translations-manage-language-delete-button =
     .accesskey = e
 translations-manage-error-download = 言語ファイルのダウンロード時に問題が発生しました。もう一度試してください。
 translations-manage-error-delete = 言語ファイルの削除時にエラーが発生しました。もう一度試してください。
+translations-manage-intro = 言語とサイト翻訳の設定、オフライン翻訳のための言語を管理します。
+translations-manage-install-description = オフライン翻訳用の言語をインストールします
+translations-manage-language-install-button =
+    .label = インストール
+translations-manage-language-install-all-button =
+    .label = すべてインストール
+    .accesskey = I
+translations-manage-language-remove-button =
+    .label = 削除
+translations-manage-language-remove-all-button =
+    .label = すべて削除
+    .accesskey = e
+translations-manage-error-install = 言語ファイルのインストール時に問題が発生しました。もう一度試してください。
+translations-manage-error-remove = 言語ファイルの削除時に問題が発生しました。もう一度試してください。
 translations-manage-error-list = 利用可能な翻訳言語リストの取得に失敗しました。ページを更新してもう一度試してください。
 translations-settings-title =
     .title = 翻訳設定
