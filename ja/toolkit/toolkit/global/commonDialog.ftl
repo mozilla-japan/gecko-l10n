@@ -15,5 +15,5 @@ common-dialog-copy-cmd =
     .label = コピー
     .accesskey = C
 common-dialog-select-all-cmd =
-    .label = すべて選択
+    .label = @@SelectAll@@
     .accesskey = A

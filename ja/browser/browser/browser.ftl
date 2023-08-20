@@ -639,7 +639,7 @@ picture-in-picture-enable-toggle =
 # Please ensure that the domain stays in the `<span data-l10n-name="domain">` markup.
 # Variables
 #  $domain (String): the domain that is full screen, e.g. "mozilla.org"
-fullscreen-warning-domain = <span data-l10n-name="domain">{ $domain }</span> は現在全画面表示モードです。
+fullscreen-warning-domain = <span data-l10n-name="domain">{ $domain }</span> は現在@@FullScreen@@モードです。
 fullscreen-warning-no-domain = このページは現在@@FullScreen@@モードです。
 fullscreen-exit-button = @@FullScreen@@モードを終了 (Esc)
 # "esc" is lowercase on mac keyboards, but uppercase elsewhere.
