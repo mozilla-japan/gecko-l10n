@@ -55,7 +55,7 @@ webrtc-camera-system-menu =
 webrtc-microphone-system-menu =
     .label = マイクを共有しています。クリックすると共有を制御します。
 webrtc-screen-system-menu =
-    .label = @@Window@@または画面をを共有しています。クリックすると共有を制御します。
+    .label = @@Window@@または画面を共有しています。クリックすると共有を制御します。
 
 ## Tooltips used by the legacy global sharing indicator
 

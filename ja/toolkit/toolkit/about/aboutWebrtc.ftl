@@ -24,6 +24,7 @@ about-webrtc-aec-logging-off-state-label = AEC ログ記録を開始
 about-webrtc-aec-logging-on-state-label = AEC ログ記録を停止
 about-webrtc-aec-logging-on-state-msg = AEC ログ記録が有効です (数分間、通話相手と会話してから停止してください)
 about-webrtc-aec-logging-toggled-on-state-msg = AEC ログ記録が有効です (数分間、通話相手と会話してから停止してください)
+about-webrtc-aec-logging-unavailable-sandbox = AEC ログを@@Export-suru@@には環境変数 MOZ_DISABLE_CONTENT_SANDBOX=1 が必要です。この環境変数は潜在的な危険性を理解している場合のみ設定してください。
 # Variables:
 #  $path (String) - The path to which the aec log file is saved.
 about-webrtc-aec-logging-toggled-off-state-msg = 記録したログファイルの保存場所: { $path }

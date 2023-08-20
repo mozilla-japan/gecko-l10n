@@ -102,4 +102,4 @@ comm | mail, calendar, suite    14170:fbe206073ee5 (2023-07-11)  mar            
 [l10n-mozilla-117.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
-geck | browser, dom, toolkit    15143:d4c54132c542 (2023-08-05)  mar            sync browser, dom, toolkit
+geck | browser, dom, toolkit    15150:8c76ec288735 (2023-08-13)  mar            sync browser, dom, toolkit

@@ -103,8 +103,8 @@ pkcs12-dup-data = 証明書と秘密鍵はすでにセキュリティデバイ�
 ## PKCS#12 file dialogs
 
 choose-p12-backup-file-dialog = バックアップファイル名
-file-browse-pkcs12-spec = PKCS12 のファイル
-choose-p12-restore-file-dialog = インポートする証明書ファイル
+file-browse-pkcs12-spec = PKCS12 ファイル
+choose-p12-restore-file-dialog = @@Import-suru@@証明書ファイル
 
 ## Import certificate(s) file dialog
 

@@ -29,8 +29,8 @@ create-profile-last-page-header2 =
         [macos] 完了
        *[other] { create-profile-window2.title }の完了
     }
-profile-creation-intro = プロファイルを複数使用する場合は、それぞれに名前を付けて区別します。あらかじめ入力されている名前をそのまま使用するか、新しい名前を入力し直してください。
-profile-prompt = 新しいプロファイルの名前を入力してください:
+profile-creation-intro = 複数のプロファイルを作成する場合、それぞれに別のプロファイル名を付けてください。あらかじめ入力されている名前をそのまま使用するか、別の名前を入力してください。
+profile-prompt = @@New-CMD@@プロファイル名を入力してください:
     .accesskey = E
 profile-default-name =
     .value = Default User

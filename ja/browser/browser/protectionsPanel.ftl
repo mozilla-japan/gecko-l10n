@@ -23,6 +23,20 @@ protections-panel-etp-more-info =
     .aria-label = 強化型トラッキング防止機能についての詳細情報
 protections-panel-etp-on-header = 強化型トラッキング防止機能はこのサイトでオンです
 protections-panel-etp-off-header = 強化型トラッキング防止機能はこのサイトでオフです
+
+## Text for the toggles shown when ETP is enabled/disabled for a given site.
+## .description is transferred into a separate paragraph by the moz-toggle
+## custom element code.
+##   $host (String): the hostname of the site that is being displayed.
+
+protections-panel-etp-on-toggle =
+    .label = 強化型トラッキング防止
+    .description = このサイトでオンです
+    .aria-label = { $host } での保護を無効にします
+protections-panel-etp-off-toggle =
+    .label = 強化型トラッキング防止
+    .description = このサイトでオフです
+    .aria-label = { $host } での保護を有効にします
 # The link to be clicked to open the sub-panel view
 protections-panel-site-not-working = サイトが動作していませんか？
 # The heading/title of the sub-panel view

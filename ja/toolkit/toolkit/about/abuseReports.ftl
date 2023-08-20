@@ -24,7 +24,7 @@ abuse-report-submit-description = 問題の詳細を記入してください (�
 abuse-report-textarea =
     .placeholder = 詳細を報告していただければ、問題を解決しやすくなります。あなたの体験した問題について記入してください。健全なウェブを保つためのご協力に感謝します。
 abuse-report-submit-note =
-    注意: 個人情報 (氏名、メールアドレス、電話番号、所在地など) を記入してはいけません。
+    注意: 個人情報 (氏名、メールアドレス、電話番号、所在地など) を記入しないでください。
     { -vendor-short-name } は、これらの報告を永久に保管します。
 
 ## Panel buttons.

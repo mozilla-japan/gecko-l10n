@@ -13,7 +13,7 @@ firefoxview-close-button =
     .title = 閉じる
     .aria-label = 閉じる
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
-firefoxview-just-now-timestamp = たった今
+firefoxview-just-now-timestamp = 直前
 # This is a headline for an area in the product where users can resume and re-open tabs they have previously viewed on other devices.
 firefoxview-tabpickup-header = 他端末のタブ
 firefoxview-tabpickup-description = 他の端末からページを開きます。
@@ -130,11 +130,11 @@ firefoxview-view-all-link = すべて表示
 # Variables:
 #   $winID (Number) - The index of the owner window for this set of tabs
 firefoxview-opentabs-window-header =
-    .title = ウィンドウ ID { $winID }
+    .title = @@Window@@ ID { $winID }
 # Variables:
 #   $winID (Number) - The index of the owner window (which is currently focused) for this set of tabs
 firefoxview-opentabs-current-window-header =
-    .title = ウィンドウ ID { $winID } (現在)
+    .title = @@Window@@ ID { $winID } (現在)
 firefoxview-opentabs-focus-tab =
     .title = このタブに切り替える
 firefoxview-show-more = 表示を増やす

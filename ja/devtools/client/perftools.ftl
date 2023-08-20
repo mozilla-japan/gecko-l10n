@@ -104,7 +104,7 @@ perftools-thread-jvm-pool =
 
 perftools-record-all-registered-threads = 上記で選択したスレッドを優先しつつ、登録済みスレッドをすべて記録する
 perftools-tools-threads-input-label =
-    .title = プロファイリングを有効にするスレッド名をコンマ区切りのリストで入力します。名前はスレッド名が含まれる部分一致である必要があります。空白を区別します。
+    .title = プロファイリングを有効にするスレッド名をカンマ区切りのリストで入力します。名前はスレッド名が含まれる部分一致である必要があります。空白を区別します。
 
 ## Onboarding UI labels. These labels are displayed in the new performance panel UI, when
 ## devtools.performance.new-panel-onboarding preference is true.
