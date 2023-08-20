@@ -135,6 +135,7 @@ git push
 * [Mozilla L10N blog](https://blog.mozilla.org/l10n/)
 * [Mozilla Discourse - Localization トピック](https://discourse.mozilla.org/c/l10n/547)
   * ([mozilla.dev.l10n メーリングリスト](https://groups.google.com/forum/#!forum/mozilla.dev.l10n) 2021 年 4 月に Discourse へ移行)
+* [Mozilla #l10n-community Matrix チャンネル](https://chat.mozilla.org/#/room/#l10n-community:mozilla.org)
 * [Firefox Release Calendar](https://wiki.mozilla.org/Release_Management/Calendar) - MozillaWiki
 * [Project Fluent](https://projectfluent.org/)
 * [Roles within Mozilla l10n communities](https://mozilla-l10n.github.io/localizer-documentation/community/l10n_community_roles.html)
