@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = { $organizer } があなたを招待しています: 
 calendar-invitation-panel-status-new = この予定に招待されています。
 calendar-invitation-panel-status-processed = この予定はすでにカレンダーに追加されています。
 calendar-invitation-panel-status-updateminor = メッセージにこの予定の更新が含まれています。
@@ -17,14 +14,12 @@ calendar-invitation-panel-intro-cancel = { $organizer } の招待がキャンセ
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = 保存
 calendar-invitation-panel-view-button = 表示
 calendar-invitation-panel-update-button = 更新
 calendar-invitation-panel-delete-button = 削除
 calendar-invitation-panel-accept-button = 承諾
 calendar-invitation-panel-decline-button = 辞退
 calendar-invitation-panel-tentative-button = 仮承諾
-calendar-invitation-panel-reply-status = * 未確定またはまだ返答していません
 calendar-invitation-panel-more-button = 続きを見る
 calendar-invitation-panel-menu-item-save-copy =
     .label = コピーを保存
@@ -32,14 +27,6 @@ calendar-invitation-panel-menu-item-toggle-changes=
     .label = 変更内容を表示
 calendar-invitation-panel-prop-title-when = 日時:
 calendar-invitation-panel-prop-title-location = 場所:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $date } { $dayOfWeek }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

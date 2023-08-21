@@ -134,9 +134,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = コンパクトビュー
     .accesskey = C
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -193,14 +190,6 @@ appmenu-settings =
     .label = 設定
 appmenu-addons-and-themes =
     .label = アドオンとテーマ
-appmenu-help-enter-troubleshoot-mode =
-    .label = トラブルシューティングモード...
-appmenu-help-exit-troubleshoot-mode =
-    .label = トラブルシューティングモードをオフにする
-appmenu-help-more-troubleshooting-info =
-    .label = トラブルシューティング情報
-appmenu-redirect-msg =
-    .label = リダイレクト
 
 ## Context menu
 
@@ -214,9 +203,6 @@ mail-context-delete-messages =
             [one] メッセージを削除
            *[other] 選択したメッセージを削除
         }
-context-menu-decrypt-to-folder =
-    .label = 復号したメッセージをコピー
-    .accesskey = y
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -308,7 +294,6 @@ no-reply-reply-anyway-button = 強制返信する
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.

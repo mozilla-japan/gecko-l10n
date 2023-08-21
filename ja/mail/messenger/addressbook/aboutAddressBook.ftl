@@ -82,40 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = メールアドレスで並べ替え (昇順)
 about-addressbook-sort-email-descending =
     .label = メールアドレスで並べ替え (降順)
-about-addressbook-horizontal-layout =
-    .label = 水平レイアウトに切り替え
-about-addressbook-vertical-layout =
-    .label = 垂直レイアウトに切り替え
 about-addressbook-table-layout =
     .label = テーブルレイアウト
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = 名前
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = メールアドレス
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = 電話番号
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = 所在地
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = 役職
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = 部署
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = 組織
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = アドレス帳
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = 名前
     .title = 名前で並べ替えます
 about-addressbook-column-label-generatedname2 =
@@ -181,15 +153,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] 連絡先の除外
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] { $list } のアドレスリストから { $name } の連絡先を除外してもよろしいですか？
-       *[other] { $list } のアドレスリストから選択された { $count } 件の連絡先を除外してもよろしいですか？
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = { $list } のアドレスリストから { $name } の連絡先を除外してもよろしいですか？
@@ -200,14 +163,6 @@ about-addressbook-confirm-remove-contacts-multi = { $list } のアドレスリ�
 # Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title = 連絡先の削除
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] { $name } の連絡先を削除してもよろしいですか？
-       *[other] 選択された { $count } 件の連絡先を削除してもよろしいですか？
-    }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = { $name } の連絡先を削除してもよろしいですか？

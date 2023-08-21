@@ -30,13 +30,3 @@
 <!ENTITY closeCmd.label			"閉じる">
 <!ENTITY closeCmd.key			"W">
 <!ENTITY closeCmd.accesskey		"C">
-
-<!ENTITY quitApplicationCmd.label	"終了">
-<!ENTITY quitApplicationCmd.key		"Q">
-<!ENTITY quitApplicationCmd.accesskey	"x">
-
-<!ENTITY quitApplicationCmdUnix.label	"終了">
-<!ENTITY quitApplicationCmdUnix.accesskey	"Q">
-
-<!ENTITY quitApplicationCmdMac.label		"&brandShortName; を終了">
-<!ENTITY quitApplicationCmdMac.accesskey	"Q">

@@ -29,9 +29,6 @@
 <!ENTITY calendar.removecalendar.label		"選択したカレンダーを削除...">
 <!ENTITY calendar.removecalendar.accesskey	"R">
 
-<!ENTITY calendar.menu.customize.label		"カスタマイズ...">
-<!ENTITY calendar.menu.customize.accesskey	"C">
-
 <!ENTITY showUnifinderCmd.label			"予定を検索">
 <!ENTITY showUnifinderCmd.accesskey		"F">
 <!ENTITY showUnifinderCmd.tooltip		"予定検索ペインを開閉します">

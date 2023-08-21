@@ -38,7 +38,7 @@ site-permission-install-first-prompt-midi-message = このアクセスは安全�
 ##
 
 xpinstall-disabled-locked = ソフトウェアのインストールはシステム管理者により無効化されています。
-xpinstall-disabled = ソフトウェアのインストールは現在無効になっています。@@[@@有効にする@@]@@ をクリックしてからもう一度やり直してください。
+xpinstall-disabled = ソフトウェアのインストールは現在無効になっています。@@[@@有効にする@@]@@ をクリックしてからもう一度試してください。
 xpinstall-disabled-button =
     .label = 有効にする
     .accesskey = n

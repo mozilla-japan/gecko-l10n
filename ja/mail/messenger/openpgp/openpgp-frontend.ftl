@@ -47,7 +47,7 @@ openpgp-partially-signed =
     検証ボタンをクリックすると、保護されていない部分が隠され、デジタル署名の状態が表示されます。
 openpgp-partially-encrypted =
     このメッセージの一部のみが OpenPGP によって暗号化されています。
-    既に表示されているメッセージの可読部分は暗号化されていません。
+    すでに表示されているメッセージの可読部分は暗号化されていません。
     復号ボタンをクリックすると、暗号化された部分の内容が表示されます。
 openpgp-reminder-partial-display = 注意: 以下に表示されているメッセージは元のメッセージの一部のみです。
 openpgp-partial-verify-button = 検証

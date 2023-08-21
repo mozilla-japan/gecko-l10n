@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = { $identity } のための OpenPGP 鍵を追加
-key-wizard-button =
-    .buttonlabelaccept = 続ける
-    .buttonlabelhelp = 戻る
 key-wizard-dialog =
     .buttonlabelaccept = 続ける
     .buttonlabelextra1 = 戻る
@@ -79,7 +76,7 @@ openpgp-keygen-import-complete =
 openpgp-keygen-missing-username = 選択されたアカウントまたは差出人の名前が設定されていません。アカウント設定の @@[@@あなたの名前@@]@@ フィールドに名前を入力してください。
 openpgp-keygen-long-expiry = 有効期限を 100 年以上先に設定することはできません。
 openpgp-keygen-short-expiry = 有効期限を 1 日以内に設定することはできません。
-openpgp-keygen-ongoing = 既に鍵の生成は進行中です！
+openpgp-keygen-ongoing = 鍵の生成が進行中です！
 openpgp-keygen-error-core = OpenPGP コアサービスを初期化できません
 openpgp-keygen-error-failed = OpenPGP 鍵の生成に予期せず失敗しました
 #   $key (String) - the ID of the newly generated OpenPGP key
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = 個人鍵として利用するとマークさ�
 openpgp-import-keep-passphrases =
     .label = @@Import-sita@@秘密鍵のパスフレーズ保護を維持
 openpgp-passphrase-prompt-title = パスフレーズが必要です
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = 以下の鍵のロックを解除するためにパスフレーズを入力してください: { $key }
 openpgp-import-key-button =
     .label = @@Import-suru@@ファイルを選択...
     .accesskey = S

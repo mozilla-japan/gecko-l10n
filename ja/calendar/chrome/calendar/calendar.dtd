@@ -21,7 +21,7 @@
 <!ENTITY calendar.events.filter.currentview.label	"現在のビューの予定">
 <!ENTITY calendar.events.filter.next7Days.label		"1 週間後までの予定">
 <!ENTITY calendar.events.filter.next14Days.label	"2 週間後までの予定">
-<!ENTITY calendar.events.filter.next31Days.label	"今後 1 カ月間の予定">
+<!ENTITY calendar.events.filter.next31Days.label	"今後 1 か月間の予定">
 <!ENTITY calendar.events.filter.thisCalendarMonth.label	"今月の予定">
 
 <!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
@@ -58,39 +58,8 @@
 <!ENTITY calendar.today.button.tooltip			"今日に移動します" >
 <!ENTITY calendar.todaypane.button.tooltip		"Today ペインを表示します" >
 
-<!ENTITY calendar.day.button.tooltip			"日表示に切り替えます" >
-<!ENTITY calendar.week.button.tooltip			"週表示に切り替えます" >
-<!ENTITY calendar.month.button.tooltip			"月表示に切り替えます" >
-<!ENTITY calendar.multiweek.button.tooltip		"多週表示に切り替えます" >
-
-<!-- (^a^) 基準は、今日/今週/今月 ではなくて 選択されている日/週/月 -->
-<!ENTITY calendar.nextday.label				"次の日" >
-<!ENTITY calendar.prevday.label				"前の日" >
-<!ENTITY calendar.nextday.accesskey			"x" >
-<!ENTITY calendar.prevday.accesskey			"s" >
-<!ENTITY calendar.nextweek.label			"次の週" >
-<!ENTITY calendar.prevweek.label			"前の週" >
-<!ENTITY calendar.nextweek.accesskey			"x" >
-<!ENTITY calendar.prevweek.accesskey			"s" >
-<!ENTITY calendar.nextmonth.label			"次の月" >
-<!ENTITY calendar.prevmonth.label			"前の月" >
-<!ENTITY calendar.nextmonth.accesskey			"x" >
-<!ENTITY calendar.prevmonth.accesskey			"s" >
-
-<!ENTITY calendar.navigation.nextday.tooltip		"翌日へ進みます" >
-<!ENTITY calendar.navigation.prevday.tooltip		"前日へ戻ります" >
-<!ENTITY calendar.navigation.nextweek.tooltip		"翌週へ進みます" >
-<!ENTITY calendar.navigation.prevweek.tooltip		"前週へ戻ります" >
-<!ENTITY calendar.navigation.nextmonth.tooltip		"翌月へ進みます" >
-<!ENTITY calendar.navigation.prevmonth.tooltip		"前月へ戻ります" >
-
 <!ENTITY calendar.newevent.button.label			"@@New-CMD@@予定" >
 <!ENTITY calendar.newtask.button.label			"@@New-CMD@@ ToDo" >
-
-<!ENTITY calendar.day.button.label			"日" >
-<!ENTITY calendar.week.button.label			"週" >
-<!ENTITY calendar.month.button.label			"月" >
-<!ENTITY calendar.multiweek.button.label		"多週" >
 
 <!ENTITY calendar.onlyworkday.checkbox.label		"勤務日のみ表示" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey	"r" >
@@ -274,8 +243,6 @@
 <!ENTITY calendar.context.removeserver.accesskey	"R">
 <!ENTITY calendar.context.unsubscribeserver.label	"カレンダーを購読解除...">
 <!ENTITY calendar.context.unsubscribeserver.accesskey	"U">
-<!ENTITY calendar.context.synccalendars.label		"カレンダーを同期">
-<!ENTITY calendar.context.synccalendars.accesskey	"S">
 <!ENTITY calendar.context.publish.label			"カレンダーを公開...">
 <!ENTITY calendar.context.publish.accesskey		"b">
 <!ENTITY calendar.context.export.label			"カレンダーを@@Export@@...">

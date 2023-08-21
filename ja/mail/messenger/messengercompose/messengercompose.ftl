@@ -172,10 +172,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = 鍵マネージャー
     .accesskey = M
-openpgp-key-issue-notification-one = { $addr } の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
-openpgp-key-issue-notification-many = 受信者 { $count } 名の鍵の問題を解決するにはエンドツーエンド暗号化が必要です。
-smime-cert-issue-notification-one = { $addr } の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
-smime-cert-issue-notification-many = 受信者 { $count } 名の証明書の問題を解決するにはエンドツーエンド暗号化が必要です。
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -255,11 +251,6 @@ show-bcc-row-button = Bcc
     .title = Bcc フィールドを表示します ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = 他のアドレス入力フィールドを表示します
-many-public-recipients-notice =
-    { $count ->
-        [one] あなたのメッセージの受信者は開示されています。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
-       *[other] 宛先および Cc フィールドの {$count} 件の受信者アドレスは開示されており、受信者が互いにこれらのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
-    }
 public-recipients-notice-single = あなたのメッセージの受信者は開示されています。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.

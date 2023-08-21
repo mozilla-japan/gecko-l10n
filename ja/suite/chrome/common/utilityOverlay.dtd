@@ -151,9 +151,6 @@
 <!ENTITY updateCmd.accesskey		"C">
 <!ENTITY aboutCmd.label			"&brandShortName; について">
 <!ENTITY aboutCmd.accesskey		"A">
-<!ENTITY aboutCommPluginsCmd.label	"プラグインについて">
-<!ENTITY aboutCommPluginsCmd.accesskey	"p">
-
 <!ENTITY aboutBuildConfigCmd.label	"ビルド設定を表示">
 <!ENTITY aboutBuildConfigCmd.accesskey	"B">
 

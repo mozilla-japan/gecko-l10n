@@ -16,7 +16,6 @@
 <!ENTITY newAddressBookCmd.accesskey                    "o">
 <!ENTITY newLDAPDirectoryCmd.label                      "LDAP ディレクトリー...">
 <!ENTITY newLDAPDirectoryCmd.accesskey                  "D">
-<!ENTITY newIM.label                                    "インスタントメッセージ">
 <!ENTITY printContactViewCmd.label                      "連絡先を@@Print@@...">
 <!ENTITY printContactViewCmd.accesskey                  "P">
 <!ENTITY printContactViewCmd.key                        "P">
@@ -78,8 +77,6 @@
 <!ENTITY newmsgButton.accesskey                         "C">
 <!ENTITY deleteItemButton.label                         "削除">
 <!ENTITY deleteItemButton.accesskey                     "D">
-<!ENTITY newimButton.label                              "インスタントメッセージ">
-<!ENTITY newimButton.accesskey                          "I">
 <!ENTITY printButton.label                              "@@Print@@">
 <!ENTITY printButton.accesskey                          "r">
 <!ENTITY searchNameAndEmail.placeholder                 "名前またはメールアドレスを検索">
@@ -91,7 +88,6 @@
 <!ENTITY newlistButton.tooltip                          "@@New-CMD@@アドレスリストを作成します">
 <!ENTITY editItemButton.tooltip                         "選択した連絡先を編集します">
 <!ENTITY newmsgButton.tooltip                           "メールを送信します">
-<!ENTITY newIM.tooltip                                  "インスタントメッセージを送信またはチャットをします">
 <!ENTITY printButton.tooltip                            "選択したアイテムを@@Print@@します">
 <!ENTITY deleteItemButton.tooltip                       "選択した連絡先またはアドレス帳を削除します">
 <!ENTITY advancedButton.tooltip                         "アドレスを検索します">
