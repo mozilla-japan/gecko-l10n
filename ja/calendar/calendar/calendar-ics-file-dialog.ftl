@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-ics-file-window-2 =
-    .title = カレンダーの予定と ToDo を@@Import@@
 calendar-ics-file-window-title = カレンダーの予定と ToDo を@@Import@@
 calendar-ics-file-dialog-import-event-button-label = 予定を@@Import@@
 calendar-ics-file-dialog-import-task-button-label = ToDo を@@Import@@
@@ -37,8 +35,8 @@ calendar-ics-file-import-complete = @@ImportNoun@@完了。
 # $duplicatesCount (Number) - Number of items already existing in the target calendar.
 calendar-ics-file-import-duplicates =
     { $duplicatesCount ->
-        [one] 1 件の項目が対象のカレンダーに既に存在しているため無視されました。
-       *[other] { $duplicatesCount } 件の項目が対象のカレンダーに既に存在しているため無視されました。
+        [one] 対象のカレンダーに既存の 1 件の項目が無視されました。
+       *[other] 対象のカレンダーに既存の { $duplicatesCount } 件の項目が無視されました。
     }
 # Variables:
 # $errorsCount (Number) - Number of errors while importing ics file.

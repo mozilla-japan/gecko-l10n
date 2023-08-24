@@ -90,20 +90,6 @@
 <!ENTITY printCmd.key				"p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label			"メッセージを削除">
-<!ENTITY deleteMsgCmd.accesskey			"D">
-<!ENTITY undeleteMsgCmd.label			"メッセージを削除しない">
-<!ENTITY undeleteMsgCmd.accesskey		"d">
-<!ENTITY deleteMsgsCmd.label			"選択したメッセージを削除">
-<!ENTITY deleteMsgsCmd.accesskey		"D">
-<!ENTITY undeleteMsgsCmd.label			"選択したメッセージを削除しない">
-<!ENTITY undeleteMsgsCmd.accesskey		"d">
-<!ENTITY deleteFolderCmd.label			"フォルダーを削除">
-<!ENTITY deleteFolderCmd.accesskey		"D">
-<!ENTITY unsubscribeNewsgroupCmd.label		"購読を解除">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey	"b">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label			"選択">
 <!ENTITY selectMenu.accesskey			"S">
 <!ENTITY all.label				"すべて">
@@ -115,10 +101,6 @@
 <!ENTITY selectFlaggedCmd.accesskey		"S">
 <!ENTITY menuFavoriteFolder.label		"お気に入り">
 <!ENTITY menuFavoriteFolder.accesskey		"v">
-<!ENTITY folderPropsCmd2.label			"@@PropertyCMD@@">
-<!ENTITY folderPropsFolderCmd2.label		"フォルダーの@@PropertyCMD@@">
-<!ENTITY folderPropsNewsgroupCmd2.label		"ニュースグループの@@PropertyCMD@@">
-<!ENTITY folderPropsCmd.accesskey		"o">
 <!ENTITY undoDeleteMsgCmd.label			"@@Undo@@ - メッセージの削除">
 <!ENTITY redoDeleteMsgCmd.label			"@@Redo@@ - メッセージの削除">
 <!ENTITY undoMoveMsgCmd.label			"@@Undo@@ - メッセージの移動">
@@ -150,8 +132,6 @@
 <!ENTITY messagePaneVertical.accesskey		"V">
 <!ENTITY showFolderPaneCmd.label		"フォルダーペイン">
 <!ENTITY showFolderPaneCmd.accesskey		"F">
-<!ENTITY showFolderPaneColsCmd.label		"フォルダーペイン列">
-<!ENTITY showFolderPaneColsCmd.accesskey	"P">
 <!ENTITY showMessageCmd.label			"メッセージペイン">
 <!ENTITY showMessageCmd.accesskey		"M">
 
@@ -536,7 +516,7 @@
 <!ENTITY markButton.label		"マーク">
 <!ENTITY printButton.label		"@@Print@@">
 <!ENTITY stopButton.label		"停止">
-<!ENTITY throbberItem.title		"アクティブインジケータ">
+<!ENTITY throbberItem.title		"アクティブインジケーター">
 <!ENTITY junkItem.title			"迷惑メール">
 <!ENTITY addressBookButton.label	"アドレス帳">
 <!ENTITY chatButton.label		"チャット">
@@ -601,10 +581,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label		"新規作成"><!-- en-US: "New Message" -->
 <!ENTITY appmenuNewContactCmd.label	"アドレス帳の連絡先...">
-<!ENTITY appmenuEditMenu.label		"編集">
 <!ENTITY appmenuToolbarLayout.label	"ツールバーのカスタマイズ...">
-<!ENTITY appmenuSelectThread.label	"スレッドを選択">
-<!ENTITY appmenuSelectFlagged.label	"スター付きのメッセージを選択">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label		"@@New-CMD@@タグ...">
@@ -909,10 +886,6 @@
 <!ENTITY copyImageAllCmd.accesskey	"I">
 <!ENTITY copyEmailCmd.label		"メールアドレスをコピー">
 <!ENTITY copyEmailCmd.accesskey		"E">
-<!ENTITY stopCmd.label			"中止">
-<!ENTITY stopCmd.accesskey		"S">
-<!ENTITY reloadCmd.label		"更新">
-<!ENTITY reloadCmd.accesskey		"R">
 <!ENTITY openInBrowser.label		"ブラウザーで開く">
 <!ENTITY openInBrowser.accesskey	"O">
 <!ENTITY openLinkInBrowser.label	"リンクをブラウザーで開く">

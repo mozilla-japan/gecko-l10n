@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = OpenPGP 公開鍵を Autocrypt 互換のメールヘッダーで送信する
     .accesskey = t
-openpgp-key-user-id-label = アカウント / ユーザー ID
-openpgp-keygen-title-label =
-    .title = OpenPGP 鍵を生成
-openpgp-cancel-key =
-    .label = キャンセル
-    .tooltiptext = 鍵の生成をキャンセルします
-openpgp-key-gen-expiry-title =
-    .label = 鍵の有効期限
-openpgp-key-gen-expire-label = 鍵の有効期限を指定します
-openpgp-key-gen-days-label =
-    .label = 日後
-openpgp-key-gen-months-label =
-    .label = か月後
-openpgp-key-gen-years-label =
-    .label = 年後
-openpgp-key-gen-no-expiry-label =
-    .label = 無期限
-openpgp-key-gen-key-size-label = 鍵長
-openpgp-key-gen-console-label = 鍵を生成
-openpgp-key-gen-key-type-label = 鍵のタイプ
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (楕円曲線暗号)
-openpgp-generate-key =
-    .label = 鍵を生成
-    .tooltiptext = 暗号化、署名のための新しい OpenPGP 準拠の鍵を生成します
-openpgp-advanced-prefs-button-label =
-    .label = 高度な設定...
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">注意: 鍵の生成が完了するまで数分かかることがあります</a>。鍵の生成の途中でアプリケーションを終了させないでください。鍵の生成中に、ウェブブラウザーを使用する、もしくはディスクアクセスが激しい処理を行うと「乱数プール」が満たされ、処理が早く終わります。鍵の生成が終了したらお知らせします。
 openpgp-key-created-label =
     .label = 作成日
 openpgp-key-expiry-label =
@@ -419,12 +389,7 @@ key-verification = メール以外の安全な通信手段で鍵のフィンガ�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = あなたの個人鍵に問題があるためメッセージを送信できませんでした。{ $problem }
-cannot-encrypt-because-missing = 以下の受信者の鍵に問題があるためエンドツーエンド暗号化によるメッセージを送信できませんでした: { $problem }
 window-locked = メッセージ作成@@Window@@がロックされているため、送信がキャンセルされました。
-
-## Strings in mimeDecrypt.jsm
-
-mime-decrypt-encrypted-part-concealed-data = これは暗号化されたメッセージの一部です。添付ファイルをクリックして別の@@Window@@で開きます。
 
 ## Strings in keyserver.jsm
 
@@ -624,7 +589,7 @@ import-key-confirm = メッセージに埋め込まれた鍵を@@Import-si@@ま�
 fail-key-import = エラー - 鍵の@@ImportNoun@@に失敗しました。
 # Variables:
 # $output (String) - File that writing was attempted to.
-file-write-failed = ファイル { $output } への書き出しに失敗しました。
+file-write-failed = ファイル { $output } への@@ExportNoun@@に失敗しました。
 no-pgp-block = エラー - 有効な OpenPGP データブロックが見つかりません。
 confirm-permissive-import = @@ImportNoun@@に失敗しました。@@ImportNoun@@を試みた鍵は、破損しているか未知の属性が使われています。正常な部分のみの@@ImportNoun@@を試みますか？ この場合、@@ImportNoun@@が完了しない、あるいは利用できない鍵となる可能性があります。
 
@@ -647,18 +612,17 @@ import-key-file = OpenPGP 鍵ファイルを@@Import@@
 import-rev-file = OpenPGP 失効証明書ファイルを@@Import@@
 gnupg-file = GnuPG ファイル
 import-keys-failed = 鍵の@@ImportNoun@@に失敗しました
-passphrase-prompt = 以下の鍵のロックを解除するため、パスフレーズを入力してください: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2 = 次の秘密鍵を解除するパスフレーズを入力してください: ID { $key }、作成日 { $date }、所有者 { $username_and_email }
+passphrase-prompt2 = 次の秘密鍵のロックを解除するパスフレーズを入力してください: ID { $key }、作成日 { $date }、所有者 { $username_and_email }
 # Variables:
 # $subkey (String) - Key id to unlock, which is a subkey.
 # $key (String) - This is the main key, to which the subkey belongs.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2-sub = 次の秘密鍵を解除するパスフレーズを入力してください: ID { $subkey } (鍵 ID { $key } の副鍵)、作成日 { $date }、所有者 { $username_and_email }
+passphrase-prompt2-sub = 次の秘密鍵のロックを解除するパスフレーズを入力してください: ID { $subkey } (鍵 ID { $key } の副鍵)、作成日 { $date }、所有者 { $username_and_email }
 file-to-big-to-import = ファイルが大きすぎます。たくさんの鍵を一度に@@Import-sinai@@でください。
 
 ## Strings used in enigmailKeygen.js

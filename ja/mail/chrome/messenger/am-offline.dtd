@@ -54,6 +54,6 @@
 <!ENTITY ageAutosyncMiddle.label	"">
 <!ENTITY dayAgeInterval.label		"日">
 <!ENTITY weekAgeInterval.label		"週">
-<!ENTITY monthAgeInterval.label		"カ月">
-<!ENTITY yearAgeInterval.label		"カ年">
+<!ENTITY monthAgeInterval.label		"か月">
+<!ENTITY yearAgeInterval.label		"か年">
 <!ENTITY ageAutosyncAfter.label		"分のメッセージをローカルに同期する">

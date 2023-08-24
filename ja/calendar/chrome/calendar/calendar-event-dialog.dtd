@@ -281,7 +281,7 @@
 <!ENTITY event.recurrence.on.label			"">
 
 <!ENTITY event.recurrence.pattern.monthly.every.label	"">
-<!ENTITY repeat.units.months.both			"カ月ごとの">
+<!ENTITY repeat.units.months.both			"か月ごとの">
 <!ENTITY event.recurrence.monthly.every.label		"">
 <!ENTITY event.recurrence.monthly.first.label		"第 1">
 <!ENTITY event.recurrence.monthly.second.label		"第 2">
@@ -358,7 +358,6 @@
 <!ENTITY event.recurrence.repeat.for.label		"">
 <!ENTITY event.recurrence.appointments.label		"回繰り返す">
 <!ENTITY event.repeat.until.label			"指定日まで繰り返す">
-<!ENTITY event.recurrence.preview.label			"プレビュー">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label				"参加者の追加">

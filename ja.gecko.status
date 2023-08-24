@@ -103,3 +103,4 @@ comm | mail, calendar, suite    14170:fbe206073ee5 (2023-07-11)  mar            
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | browser, dom, toolkit    15150:8c76ec288735 (2023-08-13)  mar            sync browser, dom, toolkit
+comm | mail, calendar, suite    14415:e914bb744ac5 (2023-08-07)  mar            mail, calendar, suite
