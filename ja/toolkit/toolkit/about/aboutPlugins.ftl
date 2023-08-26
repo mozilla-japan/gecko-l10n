@@ -6,6 +6,8 @@ title-label = プラグインについて
 installed-plugins-label = インストールされたプラグイン
 no-plugins-are-installed-label = インストールされたプラグインが見つかりませんでした
 deprecation-description = サポートを終了したプラグインは表示されません。 <a data-l10n-name="deprecation-link">詳細</a>
+deprecation-description2 =
+    .message = サポートを終了したプラグインは表示されません。
 
 ## The information of plugins
 ##
