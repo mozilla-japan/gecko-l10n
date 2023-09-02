@@ -323,6 +323,9 @@ addon-detail-homepage-label = ホームページ
 addon-detail-rating-label = 評価
 # Message for add-ons with a staged pending update.
 install-postponed-message = この拡張機能は { -brand-short-name } の再起動時に更新されます。
+# Message for add-ons with a staged pending update.
+install-postponed-message2 =
+    .message = この拡張機能は { -brand-short-name } の再起動時に更新されます。
 install-postponed-button = 今すぐ更新
 # The average rating that the add-on has received.
 # Variables:
