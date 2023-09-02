@@ -51,11 +51,38 @@ download-cert-view-text = 認証局の証明書を審査してください
 
 ## Client Authorization Ask dialog
 
+
+## Client Authentication Ask dialog
+
 client-auth-window =
     .title = 個人証明書の要求
 client-auth-site-description = このサイトはあなたの個人証明書を求めています:
 client-auth-choose-cert = 個人認証を行うために送信する証明書を選択してください:
 client-auth-cert-details = 選択した証明書の詳細:
+# Variables:
+# $issuedTo (String) - The subject common name of the currently-selected client authentication certificate
+client-auth-cert-details-issued-to = 発行先: { $issuedTo }
+# Variables:
+# $serialNumber (String) - The serial number of the certificate (hexadecimal of the form "AA:BB:...")
+client-auth-cert-details-serial-number = シリアル番号: { $serialNumber }
+# Variables:
+# $notBefore (String) - The date before which the certificate is not valid (e.g. Apr 21, 2023, 1:47:53 PM UTC)
+# $notAfter (String) - The date after which the certificate is not valid
+client-auth-cert-details-validity-period = { $notBefore } から { $notAfter } まで有効
+# Variables:
+# $keyUsages (String) - A list of already-localized key usages for which the certificate may be used
+client-auth-cert-details-key-usages = 鍵用途: { $keyUsages }
+# Variables:
+# $emailAddresses (String) - A list of email addresses present in the certificate
+client-auth-cert-details-email-addresses = メールアドレス: { $emailAddresses }
+# Variables:
+# $issuedBy (String) - The issuer common name of the certificate
+client-auth-cert-details-issued-by = 発行者名: { $issuedBy }
+# Variables:
+# $storedOn (String) - The name of the token holding the certificate (for example, "OS Client Cert Token (Modern)")
+client-auth-cert-details-stored-on = 格納先: { $storedOn }
+client-auth-cert-remember-box =
+    .label = 今後も同様に処理する
 
 ## Set password (p12) dialog
 
