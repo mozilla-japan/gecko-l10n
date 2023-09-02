@@ -170,6 +170,10 @@ addon-updates-check-for-updates = 今すぐ更新を確認
     .accesskey = C
 addon-updates-view-updates = 最近更新したアドオンを表示
     .accesskey = V
+
+# This menu item is a checkbox that toggles the default global behavior for
+# add-on update checking.
+
 # This menu item is a checkbox that toggles the default global behavior for
 # add-on update checking.
 # (^m^) en-US: Update Add-ons Automatically
@@ -435,13 +439,27 @@ addon-page-options-button =
 # Variables:
 #   $version (string) - Application version.
 details-notification-incompatible = { $name } は { -brand-short-name } { $version } と互換性がありません。
+# Variables:
+#   $version (string) - Application version.
+details-notification-incompatible2 =
+    .message = { $name } は { -brand-short-name } { $version } と互換性がありません。
 details-notification-incompatible-link = 詳細情報
 details-notification-unsigned-and-disabled = { $name } は { -brand-short-name } での使用が検証できないため無効化されています。
+details-notification-unsigned-and-disabled2 =
+    .message = { $name } は { -brand-short-name } での使用が検証できないため無効化されています。
 details-notification-unsigned-and-disabled-link = 詳細情報
 details-notification-unsigned = { $name } は { -brand-short-name } での使用が検証できません。配布元を確認して慎重に使用してください。
+details-notification-unsigned2 =
+    .message = { $name } は { -brand-short-name } での使用が検証できません。配布元を確認して慎重に使用してください。
 details-notification-unsigned-link = 詳細情報
 details-notification-blocked = { $name } はセキュリティまたは安定性に問題があるため無効化されています。
+details-notification-blocked2 =
+    .message = { $name } はセキュリティまたは安定性に問題があるため無効化されています。
 details-notification-blocked-link = 詳細情報
 details-notification-softblocked = { $name } はセキュリティまたは安定性の問題を引き起こすことが知られています。
+details-notification-softblocked2 =
+    .message = { $name } はセキュリティまたは安定性の問題を引き起こすことが知られています。
 details-notification-softblocked-link = 詳細情報
 details-notification-gmp-pending = { $name } はすぐにインストールされます。
+details-notification-gmp-pending2 =
+    .message = { $name } はすぐにインストールされます。
