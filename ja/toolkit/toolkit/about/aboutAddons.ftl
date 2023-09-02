@@ -156,12 +156,20 @@ addon-sitepermission-host = { $host } サイトの権限
 
 extensions-warning-safe-mode = セーフモードによりすべてのアドオンが無効化されています。
 extensions-warning-check-compatibility = アドオンの互換性確認は無効化されています。互換性のないアドオンがインストールされています。
+extensions-warning-safe-mode2 =
+    .message = セーフモードによりすべてのアドオンが無効化されています。
+extensions-warning-check-compatibility2 =
+    .message = アドオンの互換性確認は無効化されています。互換性のないアドオンがインストールされています。
 extensions-warning-check-compatibility-button = 有効化
     .title = アドオンの互換性の確認を有効化します
 extensions-warning-update-security = 更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。
+extensions-warning-update-security2 =
+    .message = 更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。
 extensions-warning-update-security-button = 有効化
     .title = アドオンの更新のセキュリティ確認を有効化します
 extensions-warning-imported-addons = { -brand-short-name } に@@Import-sare@@た拡張機能のインストールを完了してください。
+extensions-warning-imported-addons2 =
+    .message = { -brand-short-name } に@@Import-sare@@た拡張機能のインストールを完了してください。
 extensions-warning-imported-addons-button = 拡張機能をインストール
 
 ## Strings connected to add-on updates
