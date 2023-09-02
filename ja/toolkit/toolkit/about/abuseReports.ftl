@@ -48,6 +48,24 @@ abuse-report-messagebar-removed-sitepermission = ご報告ありがとうござ�
 abuse-report-messagebar-removed-theme = ご報告ありがとうございました。テーマ <span data-l10n-name="addon-name">{ $addon-name }</span> を削除しました。
 abuse-report-messagebar-error = <span data-l10n-name="addon-name">{ $addon-name }</span> についての報告の送信中にエラーが発生しました。
 abuse-report-messagebar-error-recent-submit = 別の報告が最近送信されているため、<span data-l10n-name="addon-name">{ $addon-name }</span> についての報告は送信されませんでした。
+abuse-report-messagebar-aborted2 =
+    .message = { $addon-name } についての報告をキャンセルしました。
+abuse-report-messagebar-submitting2 =
+    .message = { $addon-name } についての報告を送信しています。
+abuse-report-messagebar-submitted2 =
+    .message = ご報告ありがとうございます。{ $addon-name } を削除しますか？
+abuse-report-messagebar-submitted-noremove2 =
+    .message = ご報告ありがとうございました。
+abuse-report-messagebar-removed-extension2 =
+    .message = ご報告ありがとうございました。拡張機能 { $addon-name } を削除しました。
+abuse-report-messagebar-removed-sitepermission2 =
+    .message = ご報告ありがとうございました。サイト権限アドオン { $addon-name } を削除しました。
+abuse-report-messagebar-removed-theme2 =
+    .message = ご報告ありがとうございました。テーマ { $addon-name } を削除しました。
+abuse-report-messagebar-error2 =
+    .message = { $addon-name } についての報告の送信中にエラーが発生しました。
+abuse-report-messagebar-error-recent-submit2 =
+    .message = 別の報告が最近送信されているため、{ $addon-name } についての報告は送信されませんでした。
 
 ## Message bars actions.
 
