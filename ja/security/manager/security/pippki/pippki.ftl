@@ -58,6 +58,11 @@ client-auth-window =
     .title = 個人証明書の要求
 client-auth-site-description = このサイトはあなたの個人証明書を求めています:
 client-auth-choose-cert = 個人認証を行うために送信する証明書を選択してください:
+client-auth-send-no-certificate =
+    .label = 証明書を送信しない
+# Variables:
+# $hostname (String) - The domain name of the site requesting the client authentication certificate
+client-auth-site-identification = “{ $hostname }” があなたの個人証明書を求めています:
 client-auth-cert-details = 選択した証明書の詳細:
 # Variables:
 # $issuedTo (String) - The subject common name of the currently-selected client authentication certificate
