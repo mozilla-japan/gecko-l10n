@@ -229,8 +229,6 @@ about-webrtc-aec-logging-off-state-msg = 記録したログファイルの保存
 # Variables:
 #  $path (String) - The path to which the file is saved.
 about-webrtc-save-page-complete-msg = ページを保存しました: { $path }
-about-webrtc-debug-mode-toggled-off-state-msg = トレースログの保存場所: { $path }
-about-webrtc-debug-mode-toggled-on-state-msg = デバッグモードが有効です。トレースログの保存場所: { $path }
 # This is the total number of frames encoded or decoded over an RTP stream.
 # Variables:
 #  $frames (Number) - The number of frames encoded or decoded.
@@ -303,6 +301,8 @@ about-webrtc-sdp-set-timestamp = タイムスタンプ { NUMBER($timestamp, useG
 about-webrtc-show-msg-sdp = SDP を表示
 about-webrtc-hide-msg-sdp = SDP を隠す
 
+##
+
 ## These are displayed on the button that shows or hides the Media Context information disclosure.
 ## The Media Context is the set of preferences and detected capabilities that informs
 ## the negotiated CODEC settings.
@@ -310,7 +310,5 @@ about-webrtc-hide-msg-sdp = SDP を隠す
 about-webrtc-media-context-show-msg = メディアコンテキストを表示
 about-webrtc-media-context-hide-msg = メディアコンテキストを隠す
 about-webrtc-media-context-heading = メディアコンテキスト
-
-##
 
 ##

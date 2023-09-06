@@ -62,6 +62,7 @@ neterror-dns-not-found-trr-only-timeout = { $trrDomain } への接続に時間�
 neterror-dns-not-found-trr-offline = インターネットに接続されていません。
 neterror-dns-not-found-trr-unknown-host2 = { $trrDomain } でこのウェブサイトが見つかりませんでした。
 neterror-dns-not-found-trr-server-problem = { $trrDomain } のサーバーに問題があります。
+neterror-dns-not-found-bad-trr-url = URL が正しくありません。
 neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生しました。
 
 ## Native fallback specific messages

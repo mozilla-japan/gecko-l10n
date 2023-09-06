@@ -42,6 +42,8 @@ about-logging-preset-media-playback-label = メディア再生
 about-logging-preset-media-playback-description = メディア再生の問題を診断するログモジュールです (ビデオ会議の問題は含みません)
 about-logging-preset-webrtc-label = WebRTC
 about-logging-preset-webrtc-description = WebRTC コールを診断するログモジュールです
+about-logging-preset-webgpu-label = WebGPU
+about-logging-preset-webgpu-description = WebGPU の問題を診断するログモジュールです
 about-logging-preset-custom-label = カスタム
 about-logging-preset-custom-description = 手動で選択されたログモジュールです
 
