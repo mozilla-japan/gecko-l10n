@@ -37,6 +37,8 @@ fxviewtabrow-save-to-pocket = { -pocket-brand-name } に保存
     .accesskey = o
 fxviewtabrow-copy-link = リンクをコピー
     .accesskey = L
+fxviewtabrow-close-tab = タブを閉じる
+    .accesskey = C
 # Variables:
 #   $tabTitle (string) - Title of the tab to which the context menu is associated
 fxviewtabrow-options-menu-button =

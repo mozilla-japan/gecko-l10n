@@ -70,6 +70,7 @@ policy-Extensions = 拡張機能をインストール、削除、またはロッ
 policy-ExtensionSettings = 拡張機能のインストール全般を管理します。
 policy-ExtensionUpdate = 拡張機能の自動更新を有効または無効にします。
 policy-FirefoxHome2 = { -firefox-home-brand-name } を設定します。
+policy-FirefoxSuggest = { -firefox-suggest-brand-name } を設定します。
 policy-GoToIntranetSiteForSingleWordEntryInAddressBar = アドレスバーに単語を入力すると、検索の代わりにイントラネットサイトへの案内を強制します。
 policy-Handlers = @@Default-@@アプリケーションハンドラーを設定します。
 policy-HardwareAcceleration = false にすると、ハードウェアアクセラレーションをオフにします。
