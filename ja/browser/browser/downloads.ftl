@@ -108,7 +108,7 @@ downloads-cmd-clear-downloads =
     .label = ダウンロード履歴をすべて消去
     .accesskey = C
 downloads-cmd-delete-file =
-    .label = 削除
+    .label = ファイルを削除
     .accesskey = D
 # This command is shown in the context menu when downloads are blocked.
 downloads-cmd-unblock =

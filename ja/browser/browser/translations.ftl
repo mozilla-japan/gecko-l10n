@@ -47,6 +47,8 @@ translations-panel-settings-always-translate-language =
     .label = { $language } を常に翻訳する
 translations-panel-settings-always-translate-unknown-language =
     .label = この言語を常に翻訳する
+translations-panel-settings-always-offer-translation =
+    .label = 常に翻訳機能を提供する
 # Text displayed for the option to never translate a given language
 # Variables:
 #   $language (string) - The localized display name of the detected language
@@ -124,12 +126,6 @@ translations-manage-description = オフライン翻訳用の言語ファイル�
 translations-manage-all-language = すべての言語
 translations-manage-download-button = ダウンロード
 translations-manage-delete-button = 削除
-translations-manage-language-download-button =
-    .label = ダウンロード
-    .accesskey = D
-translations-manage-language-delete-button =
-    .label = 削除
-    .accesskey = e
 translations-manage-error-download = 言語ファイルのダウンロード時に問題が発生しました。もう一度試してください。
 translations-manage-error-delete = 言語ファイルの削除時にエラーが発生しました。もう一度試してください。
 translations-manage-intro = 翻訳先言語とサイト翻訳の設定、オフライン翻訳用の言語ファイルを管理します。

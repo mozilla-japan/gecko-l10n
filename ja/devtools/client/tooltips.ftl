@@ -14,13 +14,16 @@ learn-more = <span data-l10n-name="link">詳細</span>
 ##   $display (string) - A CSS display value e.g. "inline-block".
 
 inactive-css-not-grid-or-flex-container = この要素はフレックスコンテナーでもグリッドコンテナーでもないため、<strong>{ $property }</strong> はこの要素に効果がありません。
-inactive-css-not-grid-or-flex-container-or-multicol-container = この要素はフレックスコンテナーでもグリッドコンテナーでも、段組みコンテナーないため、<strong>{ $property }</strong> はこの要素に効果がありません。
+inactive-css-not-grid-or-flex-container-or-multicol-container = この要素はフレックスコンテナーでもグリッドコンテナーでも、段組みコンテナーでもないため、<strong>{ $property }</strong> はこの要素に効果がありません。
+inactive-css-not-multicol-container = この要素は段組みコンテナーでないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-not-grid-or-flex-item = この要素はグリッドアイテムでもフレックスアイテムでもないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-not-grid-item = この要素はグリッドアイテムではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-not-grid-container = この要素はグリッドコンテナーではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-not-flex-item = この要素はフレックスアイテムではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-not-flex-container = この要素はフレックスコンテナーではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-not-inline-or-tablecell = この要素はインライン要素でもテーブルのセル要素でもないため、<strong>{ $property }</strong> はこの要素に効果がありません。
+inactive-css-first-line-pseudo-element-not-supported = ::first-line 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
+inactive-css-placeholder-pseudo-element-not-supported = ::placeholder 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
 inactive-css-property-because-of-display = この要素は <strong>{ $display }</strong> の display プロパティを持つため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-not-display-block-on-floated = この要素は <strong>floated</strong> であるため、<strong>display</strong> の値はエンジンによって <strong>block</strong> に変更されました。
 inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により、<strong>{ $property }</strong> をオーバーライドすることはできません。
@@ -28,7 +31,8 @@ inactive-css-position-property-on-unpositioned-box = この要素は配置の指
 inactive-text-overflow-when-no-overflow = <strong>overflow:hidden</strong> が設定されてないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> はテーブルを構成する要素に効果がありません。
 inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> はセル以外のテーブルを構成する要素に効果がありません。
-inactive-css-not-table = テーブルではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
+inactive-css-not-table = この要素はテーブルではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
+inactive-css-not-table-cell = この要素はテーブルセルではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-scroll-padding-when-not-scroll-container = この要素はスクロールしないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-border-image = <strong>{ $property }</strong> は、親テーブル要素の <strong>border-collapse</strong> に <strong>collapse</strong> が設定されていて内部テーブル要素に適用できないため、この要素には効果がありません。
 inactive-css-ruby-element = この要素は ruby 要素のため、<strong>{ $property }</strong> は効果がありません。ルビテキストのフォントサイズから自動的に設定されます。
@@ -40,6 +44,7 @@ inactive-css-highlight-pseudo-elements-not-supported = highlight 疑似要素上
 
 inactive-css-not-grid-or-flex-container-fix = <strong>display:grid</strong> または <strong>display:flex</strong> を追加してみてください。{ learn-more }
 inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>, <strong>display:flex</strong>, または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
+inactive-css-not-multicol-container-fix = <strong>column-count</strong> または <strong>column-width</strong> のいずれかを追加してみてください。{ learn-more }
 inactive-css-not-grid-or-flex-item-fix-3 = <strong>display:grid</strong>, <strong>display:flex</strong>, <strong>display:inline-grid</strong>, または <strong>display:inline-flex</strong> を親要素に追加してみてください。{ learn-more }
 inactive-css-not-grid-item-fix-2 =<strong>display:grid</strong> または <strong>display:inline-grid</strong> を要素の親に追加してみてください。{ learn-more }
 inactive-css-not-grid-container-fix = <strong>display:grid</strong> または <strong>display:inline-grid</strong> を追加してみてください。{ learn-more }
@@ -54,6 +59,7 @@ inactive-text-overflow-when-no-overflow-fix = <strong>overflow:hidden</strong> �
 inactive-css-not-for-internal-table-elements-fix = <strong>セル</strong>、<strong>列</strong>、<strong>行</strong>、<strong>列グループ</strong>、<strong>行グループ</strong> または <strong>フッターグループ</strong> 以外の要素に <strong>display</strong> プロパティを設定してみてください。{ learn-more }
 inactive-css-not-for-internal-table-elements-except-table-cells-fix = <strong>列</strong>、<strong>行</strong>、<strong>列グループ</strong>、<strong>行グループ</strong> または <strong>フッターグループ</strong> 以外の要素に <strong>display</strong> プロパティを設定してみてください。{ learn-more }
 inactive-css-not-table-fix = <strong>display:table</strong> または <strong>display:inline-table</strong> を追加してみてください。{ learn-more }
+inactive-css-not-table-cell-fix = <strong>display:table-cell</strong> を追加してみてください。{ learn-more }
 inactive-scroll-padding-when-not-scroll-container-fix = <strong>overflow:auto</strong>、<strong>overflow:scroll</strong> または <strong>overflow:hidden</strong> を追加してみてください。{ learn-more }
 inactive-css-border-image-fix = 親テーブル要素のプロパティを削除するか <strong>border-collapse</strong> を <strong>collapse</strong> 以外の値を変更してみてください。{ learn-more }
 inactive-css-ruby-element-fix = ルビテキストの <strong>font-size</strong> を変更してみてください。{ learn-more }

@@ -5,10 +5,15 @@
 toolbar-button-firefox-view =
     .label = { -firefoxview-brand-name }
     .tooltiptext = { -firefoxview-brand-name }
+toolbar-button-firefox-view-2 =
+    .label = { -firefoxview-brand-name }
+    .tooltiptext = 最近ブラウジングしたページをすべての@@Window@@と他の端末から表示します
 menu-tools-firefox-view =
     .label = { -firefoxview-brand-name }
     .accesskey = F
 firefoxview-page-title = { -firefoxview-brand-name }
+firefoxview-page-label =
+    .label = { -firefoxview-brand-name }
 firefoxview-close-button =
     .title = 閉じる
     .aria-label = 閉じる
@@ -40,6 +45,8 @@ firefoxview-tabpickup-synctabs-primarybutton = 開いているタブを同期
 firefoxview-syncedtabs-synctabs-header = 同期設定を更新する
 firefoxview-syncedtabs-synctabs-description = 他の端末からタブを表示するには、開いているタブを同期する必要があります。
 firefoxview-syncedtabs-synctabs-checkbox = 開いているタブの同期を許可する
+firefoxview-syncedtabs-loading-header = 同期処理中
+firefoxview-syncedtabs-loading-description = 同期が完了すると他の端末で開いているタブが表示されます。後で確認してください。
 firefoxview-tabpickup-fxa-admin-disabled-header = あなたの所属組織が同期を無効化しています
 firefoxview-tabpickup-fxa-admin-disabled-description = { -brand-short-name } が端末間のタブ共有を利用できません。あなたの所属組織の管理者が同期を無効にしています。
 firefoxview-tabpickup-network-offline-header = インターネット接続を確認してください
@@ -136,11 +143,15 @@ firefoxview-opentabs-window-header =
 firefoxview-opentabs-current-window-header =
     .title = @@Window@@ ID { $winID } (現在)
 firefoxview-opentabs-focus-tab =
-    .title = このタブに切り替える
+    .title = このタブに切り替えます
 firefoxview-show-more = 表示を増やす
 firefoxview-show-less = 表示を減らす
 firefoxview-sort-history-by-date-label = 日付で並べ替え
 firefoxview-sort-history-by-site-label = サイト名で並べ替え
+# Variables:
+#   $url (string) - URL that will be opened in the new tab
+firefoxview-opentabs-tab-row =
+    .title = { $url } に切り替えます
 
 ## Variables:
 ##   $date (string) - Date to be formatted based on locale
@@ -200,3 +211,4 @@ firefoxview-recentlyclosed-empty-description-two = だいぶ前に閉じたタ�
 ## This message is displayed below the name of another connected device when it doesn't have any open tabs.
 
 firefoxview-syncedtabs-device-notabs = この端末で開いているタブはありません
+firefoxview-syncedtabs-connect-another-device = 別の端末に接続します
