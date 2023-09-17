@@ -71,6 +71,15 @@
 <!ENTITY bookmarksToolbarItem.label   "ブックマークツールバーの項目">
 <!ENTITY bookmarksToolbarChevron.tooltip "他のブックマークを表示">
 
+<!ENTITY urlbar.defaultNotification.tooltip           "メッセージパネルを開きます">
+<!ENTITY urlbar.geolocationNotification.tooltip       "位置情報要求パネルを開きます">
+<!ENTITY urlbar.addonsNotification.tooltip            "アドオンのインストールメッセージパネルを開きます">
+<!ENTITY urlbar.indexedDBNotification.tooltip         "オフラインストレージのメッセージパネルを開きます">
+<!ENTITY urlbar.passwordNotification.tooltip          "パスワード保存のメッセージパネルを開きます">
+<!ENTITY urlbar.persistentStorageNotification.tooltip "データを永続ストレージに格納します">
+<!ENTITY urlbar.pluginsNotification.tooltip           "プラグインの使用を管理します">
+<!ENTITY urlbar.webNotification.tooltip               "サイトからの通知を受け取るかどうかを変更します">
+
 <!-- Statusbar -->
 <!ENTITY statusText.label		"完了">
 
