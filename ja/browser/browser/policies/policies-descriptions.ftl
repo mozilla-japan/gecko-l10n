@@ -28,6 +28,7 @@ policy-CertificatesDescription = 証明書を追加、または組み込みの�
 policy-Cookies = ウェブサイトの Cookie の保存を許可するか拒否するか設定します。
 # Containers in this context is referring to container tabs in Firefox.
 policy-Containers = コンテナーに関連するポリシーを設定します。
+policy-DisableAccounts = 同期を含め、アカウントに基づくサービスを無効にします。
 policy-DisabledCiphers = 暗号を無効にします。
 policy-DefaultDownloadDirectory = @@Default-@@ダウンロードディレクトリーを設定します。
 policy-DisableAppUpdate = ブラウザの更新を抑止します。

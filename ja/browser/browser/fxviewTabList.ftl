@@ -39,6 +39,16 @@ fxviewtabrow-copy-link = リンクをコピー
     .accesskey = L
 fxviewtabrow-close-tab = タブを閉じる
     .accesskey = C
+fxviewtabrow-move-tab = タブを移動
+    .accesskey = v
+fxviewtabrow-move-tab-start = 先頭へ移動
+    .accesskey = S
+fxviewtabrow-move-tab-end = 末尾へ移動
+    .accesskey = E
+fxviewtabrow-move-tab-window = @@NewWindow@@へ移動
+    .accesskey = W
+fxviewtabrow-send-tab = タブを端末へ送信
+    .accesskey = n
 # Variables:
 #   $tabTitle (string) - Title of the tab to which the context menu is associated
 fxviewtabrow-options-menu-button =

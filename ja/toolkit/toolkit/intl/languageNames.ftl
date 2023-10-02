@@ -160,6 +160,7 @@ language-name-ro = ルーマニア語
 language-name-ru = ロシア語
 language-name-rw = キンヤルワンダ語
 language-name-sa = サンスクリット語
+language-name-sat = サンタル語
 language-name-sc = サルデーニャ語
 language-name-sco = スコットランド語
 language-name-sd = シンド語

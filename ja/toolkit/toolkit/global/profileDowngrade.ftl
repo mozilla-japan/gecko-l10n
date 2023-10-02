@@ -8,6 +8,7 @@ profiledowngrade-window2 =
 profiledowngrade-window-create =
     .label = @@New-CMD@@プロファイルを作成
 profiledowngrade-sync = 古いバージョンの { -brand-product-name } を使用すると既存のプロファイルに保存されたブックマークやブラウジング履歴が壊れる可能性があります。これらの情報を保護するため、この { -brand-short-name } 用に新しいプロファイルを作成してください。{ -fxaccount-brand-name }にログインして、いつでもブックマークとブラウジング履歴をプロファイル間で同期できます。
+profiledowngrade-sync2 = 古いバージョンの { -brand-product-name } を使用すると既存のプロファイルに保存されたブックマークやブラウジング履歴が壊れる可能性があります。これらの情報を保護するため、この { -brand-short-name } 用に新しいプロファイルを作成してください。アカウントにログインして、いつでもブックマークとブラウジング履歴をプロファイル間で同期できます。
 profiledowngrade-nosync = 古いバージョンの { -brand-product-name } を使用すると既存のプロファイルに保存されたブックマークやブラウジング履歴が壊れる可能性があります。これらの情報を保護するため、この { -brand-short-name } 用に新しいプロファイルを作成してください。
 profiledowngrade-quit =
     .label =

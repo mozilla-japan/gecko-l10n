@@ -23,6 +23,7 @@ inactive-css-not-flex-item = この要素はフレックスアイテムではな
 inactive-css-not-flex-container = この要素はフレックスコンテナーではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-not-inline-or-tablecell = この要素はインライン要素でもテーブルのセル要素でもないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-first-line-pseudo-element-not-supported = ::first-line 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
+inactive-css-first-letter-pseudo-element-not-supported = ::first-letter 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
 inactive-css-placeholder-pseudo-element-not-supported = ::placeholder 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
 inactive-css-property-because-of-display = この要素は <strong>{ $display }</strong> の display プロパティを持つため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-not-display-block-on-floated = この要素は <strong>floated</strong> であるため、<strong>display</strong> の値はエンジンによって <strong>block</strong> に変更されました。
@@ -37,6 +38,7 @@ inactive-scroll-padding-when-not-scroll-container = この要素はスクロー�
 inactive-css-border-image = <strong>{ $property }</strong> は、親テーブル要素の <strong>border-collapse</strong> に <strong>collapse</strong> が設定されていて内部テーブル要素に適用できないため、この要素には効果がありません。
 inactive-css-ruby-element = この要素は ruby 要素のため、<strong>{ $property }</strong> は効果がありません。ルビテキストのフォントサイズから自動的に設定されます。
 inactive-css-highlight-pseudo-elements-not-supported = highlight 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
+inactive-css-cue-pseudo-element-not-supported = ::cue 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how

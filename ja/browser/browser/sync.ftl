@@ -7,6 +7,7 @@ sync-disconnect-dialog-title2 = 切断しますか？
 sync-disconnect-dialog-body = { -brand-product-name } はあなたのアカウントの同期を停止しますが、この端末のブラウジングデータは一切削除されません。
 sync-disconnect-dialog-button = 切断
 fxa-signout-dialog2-title = { -fxaccount-brand-name }からログアウトしますか？
+fxa-signout-dialog-title2 = アカウントからログアウトしますか？
 fxa-signout-dialog-body = 同期済みデータはあなたのアカウントに残ります。
 fxa-signout-dialog2-button = ログアウト
 fxa-signout-dialog2-checkbox = この端末からデータを削除する。(パスワード、履歴、ブックマーク、その他)

@@ -13,6 +13,7 @@ firefox-relay-get-reusable-masks-failed = { -relay-brand-name } が再利用可�
 ##
 
 firefox-relay-must-login-to-fxa = { -relay-brand-name } を利用するには { -fxaccount-brand-name } にログインする必要があります。
+firefox-relay-must-login-to-account = { -relay-brand-name } メールマスクを使用するにはアカウントにログインしてください。
 firefox-relay-get-unlimited-masks =
     .label = マスクを管理
     .accesskey = M

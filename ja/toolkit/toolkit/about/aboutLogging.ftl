@@ -44,6 +44,8 @@ about-logging-preset-webrtc-label = WebRTC
 about-logging-preset-webrtc-description = WebRTC コールを診断するログモジュールです
 about-logging-preset-webgpu-label = WebGPU
 about-logging-preset-webgpu-description = WebGPU の問題を診断するログモジュールです
+about-logging-preset-gfx-label = グラフィック
+about-logging-preset-gfx-description = グラフィックの問題を診断するログモジュールです
 about-logging-preset-custom-label = カスタム
 about-logging-preset-custom-description = 手動で選択されたログモジュールです
 
