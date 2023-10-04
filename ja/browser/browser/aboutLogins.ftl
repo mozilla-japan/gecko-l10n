@@ -77,6 +77,7 @@ about-logins-login-intro-heading-logged-out2 = 保存したログイン情報を
 about-logins-login-intro-heading-logged-in = 同期したログイン情報はありません。
 login-intro-description = 別の端末の { -brand-product-name } に保存したログイン情報は、以下の手順で取得できます:
 login-intro-instructions-fxa = ログイン情報を保存した端末で { -fxaccount-brand-name } を作成、またはログインしてください。
+login-intro-instructions-fxa2 = ログイン情報を保存した端末でアカウントを作成、またはログインしてください。
 login-intro-instructions-fxa-settings = @@[@@設定@@]@@ > @@[@@同期@@]@@ > @@[@@同期をオンにする...@@]@@ で、ログイン情報とパスワードのチェックボックスを選択してください。
 login-intro-instructions-fxa-passwords-help = <a data-l10n-name="passwords-help-link">パスワードのサポート記事</a> で詳細なヘルプを確認できます。
 about-logins-intro-browser-only-import = 他のブラウザーにログイン情報が保存されている場合は、<a data-l10n-name="import-link">それらを { -brand-product-name } に@@Import-deki@@ます</a>。
@@ -189,6 +190,11 @@ about-logins-confirm-remove-all-sync-dialog-message=
     { $count ->
         [1] { -fxaccount-brand-name } と同期した端末すべての { -brand-short-name } に保存したログイン情報が消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は元に戻せません。
        *[other] { -fxaccount-brand-name } と同期した端末すべての { -brand-short-name } に保存したログイン情報がすべて消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は元に戻せません。
+    }
+about-logins-confirm-remove-all-sync-dialog-message2=
+    { $count ->
+        [1] アカウントと同期した端末すべての { -brand-short-name } に保存したログイン情報が消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は元に戻せません。
+       *[other] アカウントと同期した端末すべての { -brand-short-name } に保存したログイン情報がすべて消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は元に戻せません。
     }
 
 ##

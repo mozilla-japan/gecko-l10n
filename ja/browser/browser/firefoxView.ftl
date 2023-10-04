@@ -65,6 +65,7 @@ firefoxview-tabpickup-password-locked-primarybutton = マスターパスワー�
 firefoxview-syncedtab-password-locked-link = <a data-l10n-name="syncedtab-password-locked-link">詳細情報</a>
 firefoxview-tabpickup-signed-out-header = ログインして再接続
 firefoxview-tabpickup-signed-out-description = 再接続してタブを取り出すには、{ -fxaccount-brand-name } にログインしてください。
+firefoxview-tabpickup-signed-out-description2 = 再接続してタブを取り出すには、アカウントにログインしてください。
 firefoxview-tabpickup-signed-out-primarybutton = ログイン
 firefoxview-tabpickup-syncing = タブを同期しています。しばらくお待ちください。
 firefoxview-mobile-promo-header = スマートフォンやタブレットからタブを取り出す
@@ -205,8 +206,6 @@ firefoxview-import-history-description = { -brand-short-name } を日常的に�
 firefoxview-recentlyclosed-empty-header = もうすぐタブを閉じますか？
 firefoxview-recentlyclosed-empty-description = ここで最近閉じたタブを見つけましょう。すぐに開き直すことができます。
 firefoxview-recentlyclosed-empty-description-two = だいぶ前に閉じたタブを見つけるには、<a data-l10n-name="history-url">ブラウジング履歴</a> を表示してください。
-
-##
 
 ## This message is displayed below the name of another connected device when it doesn't have any open tabs.
 

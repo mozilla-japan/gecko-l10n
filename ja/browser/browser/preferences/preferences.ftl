@@ -987,6 +987,10 @@ content-blocking-enhanced-tracking-protection = 強化型トラッキング防�
 content-blocking-section-top-level-description = トラッカーはあなたの習慣や興味に関する情報を収集するために、オンラインであなたを追跡します。{ -brand-short-name } はこれらのトラッカーや悪意のあるスクリプトの多くをブロックします。
 content-blocking-learn-more = 詳細情報
 content-blocking-fpi-incompatibility-warning = { -brand-short-name } の Cookie の設定の一部を上書きするファーストパーティ分離 (FPI) を使用しています。
+# There is no need to translate "Resist Fingerprinting (RFP)". This is a
+# feature that can only be enabled via about:config, and it's not exposed to
+# standard users (e.g. via Settings).
+content-blocking-rfp-incompatibility-warning = { -brand-short-name } のフィンガープリント採取防止の設定の一部を上書きする Resist Fingerprinting (RFP) を使用しています。この機能により一部のサイトが動作しない可能性があります。
 
 ## These strings are used to define the different levels of
 ## Enhanced Tracking Protection.
@@ -1134,6 +1138,8 @@ permissions-addon-exceptions =
 ## Privacy Section - Data Collection
 
 collection-header = { -brand-short-name } のデータ収集と利用について
+collection-header2 = { -brand-short-name } のデータ収集と利用について
+    .searchkeywords = テレメトリー
 collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
 collection-privacy-notice = 個人情報保護方針
 collection-health-report-telemetry-disabled = { -vendor-short-name } への技術的な対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
