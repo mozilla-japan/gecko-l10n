@@ -11,6 +11,7 @@ message-header-reply-to-list-name = 返信先
 message-header-cc-list-name = Cc
 message-header-bcc-list-name = Bcc
 message-header-newsgroups-list-name = ニュースグループ
+message-header-followup-to-list-name = Followup-To
 message-header-tags-list-name = タグ
 
 ## Other message headers.
@@ -21,10 +22,10 @@ message-header-organization-field = 組織<span data-l10n-name="field-separator"
 message-header-subject-field = 件名<span data-l10n-name="field-separator">:</span>
 message-header-followup-to-field = Followup to<span data-l10n-name="field-separator">:</span>
 message-header-date-field = 送信日時<span data-l10n-name="field-separator">:</span>
-message-header-user-agent-field = User agent<span data-l10n-name="field-separator">:</span>
+message-header-user-agent-field = ユーザーエージェント<span data-l10n-name="field-separator">:</span>
 message-header-references-field = References<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = Message ID<span data-l10n-name="field-separator">:</span>
-message-header-in-reply-to-field = In reply to<span data-l10n-name="field-separator">:</span>
+message-header-in-reply-to-field = 返信先<span data-l10n-name="field-separator">:</span>
 message-header-website-field = ウェブサイト<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
@@ -42,6 +43,6 @@ message-header-address-not-in-address-book-button =
     .title = このアドレスをアドレス帳に保存します
 message-header-address-in-address-book-button =
     .title = 連絡先を編集します
-message-header-field-show-more = More
+message-header-field-show-more = 続き
     .title = すべての受信者を表示します
 message-ids-field-show-all = すべて表示
