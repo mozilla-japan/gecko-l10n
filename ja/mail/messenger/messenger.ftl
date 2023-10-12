@@ -200,20 +200,24 @@ context-menu-cancel-msg =
     .label = メッセージをキャンセル
 # Variables:
 # $count (Number) - Number of selected messages.
+# (^m^) Restore missing accesskey.
 mail-context-delete-messages =
     .label =
         { $count ->
             [one] メッセージを削除
            *[other] 選択したメッセージを削除
         }
+    .accesskey = D
 # Variables:
 # $count (Number) - Number of selected messages.
+# (^m^) Restore missing accesskey.
 mail-context-undelete-messages =
     .label =
         { $count ->
             [one] メッセージを削除しない
            *[other] 選択したメッセージを削除しない
         }
+    .accesskey = d
 context-menu-decrypt-to-folder2 =
     .label = 復号したメッセージのコピーを作成
     .accesskey = y
