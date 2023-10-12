@@ -51,10 +51,28 @@ shopping-message-bar-thanks-for-reporting-title = ご報告ありがとうござ
 shopping-message-bar-thanks-for-reporting-message2 = 製品のレビューについての情報は 24 時間以内に更新されます。後でもう一度確認してください。
 shopping-message-bar-warning-product-not-available-reported-title2 = まもなく情報が更新されます
 shopping-message-bar-warning-product-not-available-reported-message2 = 製品のレビューについての情報は 24 時間以内に更新されます。後でもう一度確認してください。
+shopping-message-bar-generic-error =
+    .heading = 情報が利用できません
+    .message = 現在、問題の解決に取り組んでいます。後でもう一度確認してください。
+shopping-message-bar-warning-not-enough-reviews =
+    .heading = まだ十分な数のレビューがありません
+    .message = この製品の品質確認に必要な数のレビューが掲載されるまでお待ちください。
+shopping-message-bar-warning-product-not-available =
+    .heading = 製品が利用できません
+    .message = この製品が再入荷されている場合はご報告ください。製品のレビューを確認します。
+shopping-message-bar-thanks-for-reporting =
+    .heading = ご報告ありがとうございます。
+    .message = 製品のレビューについての情報は 24 時間以内に更新されます。後でもう一度確認してください。
+shopping-message-bar-warning-product-not-available-reported =
+    .heading = まもなく情報が更新されます
+    .message = 製品のレビューについての情報は 24 時間以内に更新されます。後でもう一度確認してください。
 shopping-message-bar-analysis-in-progress-title2 = レビュー品質を確認しています
 shopping-message-bar-analysis-in-progress-message2 = 品質の確認には約 60 秒かかります。
 shopping-message-bar-page-not-supported-title = これらのレビューを確認できません。
 shopping-message-bar-page-not-supported-message = 残念ながら、いくつかの種類の製品はレビュー品質を確認することができません。例えば、ギフトカードやストリーミング動画、音楽、ゲームなど。
+shopping-message-bar-page-not-supported =
+    .heading = これらのレビューを確認できません。
+    .message = 残念ながら、いくつかの種類の製品はレビュー品質を確認することができません。例えば、ギフトカードやストリーミング動画、音楽、ゲームなど。
 
 ## Strings for the product review snippets card
 
@@ -102,7 +120,6 @@ shopping-analysis-explainer-intro2 = 私たちは、{ -fakespot-brand-full-name 
 shopping-analysis-explainer-grades-intro = 私たちは、各製品のレビューを A から F までの <strong>レターグレード</strong> で評価します。
 shopping-analysis-explainer-adjusted-rating-description = <strong>調整されたレート</strong> は私たちが信頼するに足ると評価したレビューのみを基にしています。
 shopping-analysis-explainer-learn-more = 詳細は、<a data-l10n-name="review-quality-url">{ -fakespot-brand-full-name } によるレビュー品質の決定方法について</a> をご覧ください。
-
 # This string includes the short brand name of one of the three supported
 # websites, which will be inserted without being translated.
 #  $retailer (String) - capitalized name of the shopping website, for example, "Amazon".
@@ -152,6 +169,8 @@ shopping-survey-next-button-label = 次へ
 shopping-survey-submit-button-label = 送信
 shopping-survey-terms-link = 利用規約
 shopping-survey-thanks-message = フィードバックのご提供ありがとうございます。
+shopping-survey-thanks =
+    .heading = フィードバックのご提供ありがとうございます。
 
 ## Shopping Feature Callout strings.
 ## "price tag" refers to the price tag icon displayed in the address bar to
