@@ -27,3 +27,5 @@ libs-rnp-status-ok = OK
 libs-rnp-status-load-failed = 読み込みに失敗しました。OpenPGP は動作しません。
 libs-rnp-status-incompatible = 互換性のないバージョンです。OpenPGP は動作しません。
 libs-rnp-status-unofficial = 非公式バージョンです。OpenPGP は期待通りに動作しない可能性があります。
+libs-otr-status-ok = OK
+libs-otr-status-error = 読み込みに失敗しました。OTR チャットは暗号化されません。

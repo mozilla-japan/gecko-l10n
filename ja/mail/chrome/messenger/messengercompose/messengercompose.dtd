@@ -212,7 +212,7 @@
 <!ENTITY headersSpace2.style		"width: 8em;"><!-- (^m^) 以下の項目名が判別できればよい en-US: "width:8em" -->
 <!ENTITY fromAddr2.label		"差出人">
 <!ENTITY fromAddr.accesskey		"r">
-<!ENTITY replyAddr2.label		"Reply-To">
+<!ENTITY replyAddr2.label		"返信先">
 <!ENTITY newsgroupsAddr2.label		"Newsgroup">
 <!ENTITY followupAddr2.label		"Followup-To">
 <!ENTITY subject2.label			"件名">
