@@ -6,8 +6,8 @@ crash-reports-title = クラッシュレポート
 submit-all-button-label = すべて送信
 delete-button-label = すべて消去
 delete-confirm-title = 本当によろしいですか？
-delete-unsubmitted-description = これは未送信のクラッシュレポートをすべて削除します。この操作は元に戻せません。
-delete-submitted-description = これは送信したクラッシュレポートのリストを削除しますが、送信したデータは削除しません。この操作は元に戻せません。
+delete-unsubmitted-description = これは未送信のクラッシュレポートをすべて削除します。この操作は取り消すことができません。
+delete-submitted-description = これは送信したクラッシュレポートのリストを削除しますが、送信したデータは削除しません。この操作は取り消すことができません。
 
 crashes-unsubmitted-label = 未送信のクラッシュレポート
 id-heading = レポート ID

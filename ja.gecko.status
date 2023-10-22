@@ -118,3 +118,8 @@ repo | target dir               hg changeset rev:id (pushdate)   by             
 geck | browser, dom, toolkit    15184:581645ee6fbb (2023-09-22)  mar            sync browser, dom, toolkit, devtools
 comm | mail                     14828:36908b268bd4 (2023-10-09)  mar            mail
 
+[l10n-mozilla-120.0]
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
+geck | dom, netwerk, toolkit   15208:26e14dec9fcb (2023-10-16)  mar            sync dom, security, toolkit, netwerk
+

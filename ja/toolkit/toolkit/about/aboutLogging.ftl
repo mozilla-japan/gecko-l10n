@@ -46,6 +46,9 @@ about-logging-preset-webgpu-label = WebGPU
 about-logging-preset-webgpu-description = WebGPU の問題を診断するログモジュールです
 about-logging-preset-gfx-label = グラフィック
 about-logging-preset-gfx-description = グラフィックの問題を診断するログモジュールです
+# This is specifically "Microsoft Windows". Microsoft normally doesn't localize it, and we should follow their convention here.
+about-logging-preset-windows-label = Windows
+about-logging-preset-windows-description = Microsoft Windows 特有の問題を診断するログモジュールです
 about-logging-preset-custom-label = カスタム
 about-logging-preset-custom-description = 手動で選択されたログモジュールです
 
