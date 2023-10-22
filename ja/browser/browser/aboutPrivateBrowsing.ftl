@@ -68,6 +68,10 @@ about-private-browsing-pin-promo-title = Cookie や履歴を保存せず、デ�
 about-private-browsing-cookie-banners-promo-header = Cookie バナーよ去れ！
 about-private-browsing-cookie-banners-promo-button = Cookie バナーを減らす
 about-private-browsing-cookie-banners-promo-message = 目障りな Cookie ポップアップに { -brand-short-name } が自動的に応答します。可能な場合は { -brand-short-name } がすべて拒否します。
+# Simplified version of the headline if the original text doesn't work
+# in your language: `{ -brand-short-name } will show fewer cookie requests`
+about-private-browsing-cookie-banners-promo-heading = { -brand-short-name } が Cookie バナーに対処します
+about-private-browsing-cookie-banners-promo-body = 多くの Cookie バナーを自動的に拒否できるようになったため、目障りなバナーが減り、快適なブラウジングができるようになりました。
 
 ## Strings for Felt Privacy v1 experiments in 119
 

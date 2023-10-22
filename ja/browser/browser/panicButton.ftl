@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 panic-button-open-new-window = @@NewWindow@@を開きます
-panic-button-undo-warning = この操作は@@Undo@@ことができません。
+panic-button-undo-warning = この操作は取り消すことができません。
 panic-button-forget-button =
     .label = 忘れる
 

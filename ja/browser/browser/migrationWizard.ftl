@@ -41,6 +41,20 @@ migration-wizard-migrator-display-name-opera-gx = Opera GX
 migration-wizard-migrator-display-name-safari = Safari
 migration-wizard-migrator-display-name-vivaldi = Vivaldi
 
+## These strings are shown if the selected browser data directory is unreadable.
+## In practice, this tends to only occur on Linux when Firefox
+## is installed as a Snap.
+
+migration-no-permissions-message = { -brand-short-name } には、この端末にインストールされた他のブラウザーのプロファイルへのアクセス権がありません。
+migration-no-permissions-instructions = 別のブラウザーからのデータの@@ImportNoun@@を続けるには、{ -brand-short-name } にそのブラウザーのプロファイルフォルダーへのアクセス権を与えてください。
+migration-no-permissions-instructions-step1 = “続行” を選択します
+# The second step in getting permissions to read data for the selected
+# browser type.
+#
+# Variables:
+#  $permissionsPath (String): the file system path that the user will need to grant read permission to.
+migration-no-permissions-instructions-step2 = ファイル選択画面で <code>{ $permissionsPath }</code> を開き、“選択” ボタンを押します。
+
 ## These strings will be displayed based on how many resources are selected to import
 
 migration-all-available-data-label = 利用可能なすべてのデータを@@Import-suru@@
@@ -55,7 +69,7 @@ migration-bookmarks-option-label = ブックマーク
 # Edge, as this is the terminology for bookmarks on those browsers.
 migration-favorites-option-label = お気に入り
 migration-logins-and-passwords-option-label = 保存したログイン情報とパスワード
-migration-history-option-label = ブラウジング履歴
+migration-history-option-label = 閲覧履歴
 migration-extensions-option-label = 拡張機能
 migration-form-autofill-option-label = フォームの自動入力データ
 migration-payment-methods-option-label = 支払い方法
@@ -259,6 +273,6 @@ migration-wizard-progress-success-payment-methods =
         [one] 支払い方法 { $quantity } 件
        *[other] 支払い方法 { $quantity } 件
     }
-migration-wizard-safari-permissions-sub-header = Safari のブックマークとブラウジング履歴を@@Import-suru@@には:
+migration-wizard-safari-permissions-sub-header = Safari のブックマークと閲覧履歴を@@Import-suru@@には:
 migration-wizard-safari-instructions-continue = @@[@@続ける@@]@@ を選択します
 migration-wizard-safari-instructions-folder = リストから Safari フォルダーを選択し、@@[@@開く@@]@@ をクリックします

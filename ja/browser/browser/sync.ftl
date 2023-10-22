@@ -4,7 +4,7 @@
 
 fxa-toolbar-sync-syncing2 = 同期中...
 sync-disconnect-dialog-title2 = 切断しますか？
-sync-disconnect-dialog-body = { -brand-product-name } はあなたのアカウントの同期を停止しますが、この端末のブラウジングデータは一切削除されません。
+sync-disconnect-dialog-body = { -brand-product-name } はあなたのアカウントの同期を停止しますが、この端末の閲覧データは一切削除されません。
 sync-disconnect-dialog-button = 切断
 fxa-signout-dialog2-title = { -fxaccount-brand-name }からログアウトしますか？
 fxa-signout-dialog-title2 = アカウントからログアウトしますか？

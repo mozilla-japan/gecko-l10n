@@ -91,6 +91,7 @@ policy-LocalFileLinks = 特定のウェブサイトにローカルファイル�
 policy-ManagedBookmarks = システム管理者により管理されたブックマークのリストを設定します。ユーザーはこのブックマークを変更できません。
 policy-ManualAppUpdateOnly = 更新を手動のみにし、更新についてユーザーに通知しないようにします。
 policy-PrimaryPassword = マスターパスワードの使用を要求または抑止します。
+policy-PrintingEnabled = @@Print@@機能を有効または無効にします。
 policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) を有効または無効にします。
 policy-NewTabPage = @@NewTab@@ページを有効または無効にします。
 policy-NoDefaultBookmarks = { -brand-short-name } の初期ブックマークとスマートブックマーク (よく見るページ、最近付けたタグ) の作成を無効にします。注意: このポリシーはプロファイルの初回起動より前に設定された場合のみ有効です。

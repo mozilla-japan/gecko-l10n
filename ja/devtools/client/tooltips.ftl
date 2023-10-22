@@ -39,6 +39,10 @@ inactive-css-border-image = <strong>{ $property }</strong> は、親テーブル
 inactive-css-ruby-element = この要素は ruby 要素のため、<strong>{ $property }</strong> は効果がありません。ルビテキストのフォントサイズから自動的に設定されます。
 inactive-css-highlight-pseudo-elements-not-supported = highlight 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
 inactive-css-cue-pseudo-element-not-supported = ::cue 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
+# Variables:
+#   $lineCount (integer) - The number of lines the element has.
+inactive-css-text-wrap-balance-lines-exceeded = <strong>{ $property }</strong> は行数が { $lineCount } 行より多い要素に効果がありません。
+inactive-css-text-wrap-balance-fragmented = <strong>{ $property }</strong> は断片化された要素に効果がありません。例: 段組みページやページをまたがるコンテンツなど。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
@@ -65,6 +69,8 @@ inactive-css-not-table-cell-fix = <strong>display:table-cell</strong> を追加�
 inactive-scroll-padding-when-not-scroll-container-fix = <strong>overflow:auto</strong>、<strong>overflow:scroll</strong> または <strong>overflow:hidden</strong> を追加してみてください。{ learn-more }
 inactive-css-border-image-fix = 親テーブル要素のプロパティを削除するか <strong>border-collapse</strong> を <strong>collapse</strong> 以外の値を変更してみてください。{ learn-more }
 inactive-css-ruby-element-fix = ルビテキストの <strong>font-size</strong> を変更してみてください。{ learn-more }
+inactive-css-text-wrap-balance-lines-exceeded-fix = 行数を減らしてみてください。{ learn-more }
+inactive-css-text-wrap-balance-fragmented-fix = 要素のコンテンツの分断を避けてください。段組みを止めるか <strong>page-break-inside:avoid</strong> の使用を検討してください。{ learn-more }
 
 ## In the Rule View when a CSS property may have compatibility issues with other browsers
 ## we display an icon. When this icon is hovered this message is displayed to explain why
