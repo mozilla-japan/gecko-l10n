@@ -167,7 +167,6 @@ extensions-warning-update-security2 =
     .message = 更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。
 extensions-warning-update-security-button = 有効化
     .title = アドオンの更新のセキュリティ確認を有効化します
-extensions-warning-imported-addons = { -brand-short-name } に@@Import-sare@@た拡張機能のインストールを完了してください。
 extensions-warning-imported-addons2 =
     .message = { -brand-short-name } に@@Import-sare@@た拡張機能のインストールを完了してください。
 extensions-warning-imported-addons-button = 拡張機能をインストール
@@ -364,6 +363,10 @@ addon-detail-reviews-link = { $numberOfReviews } 件のレビュー
 # Variables:
 #   $addon (string) - Name of the add-on
 pending-uninstall-description = <span data-l10n-name="addon-name">{ $addon }</span> は削除されます。
+# Variables:
+#   $addon (string) - Name of the add-on
+pending-uninstall-description2 =
+    .message = { $addon } は削除されます。
 pending-uninstall-undo-button = @@Undo@@
 addon-detail-updates-label = このアドオンの自動更新
 addon-detail-updates-radio-default = @@Default@@
