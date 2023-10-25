@@ -70,6 +70,10 @@ about-glean-li-for-visit-gdpv =
     ボタンを押してから Ping が到着するまで数秒もかかりませんが、時々、数分かかることもあります。
 # Do not translate strings between <code> </code> tags.
 about-glean-adhoc-explanation = さらに <i>アドホック</i> なテストを行うために、この <code>about:glean</code> ページで開発ツールのコンソールを開き、<code>Glean.metricCategory.metricName.testGetValue()</code> などの <code>testGetValue()</code> API を使用して、計測器の特定のピースの現在値を特定することもできます。
+# Do not translate strings between <code> </code> tags.
+about-glean-adhoc-note =
+    開発ツールのコンソールを使用して Glean JS API を操作しているので注意してください。
+    これは、メトリクスのカテゴリー名とメトリクス名が Rust や C++ API と異なる <code>camelCase</code> で初期化されることを意味します。
 controls-button-label-verbose = 設定を適用して Ping を送信
 
 about-glean-about-data-header = データについて
