@@ -15,16 +15,38 @@ autofill-manage-remove-button = 削除
 autofill-manage-add-button = 追加...
 autofill-manage-edit-button = 編集...
 
-##
+## The address capture doorhanger
 
+address-capture-save-doorhanger-header = 住所を保存しますか？
+address-capture-save-doorhanger-description = 情報を { -brand-short-name } に保存しておくと、フォームにすばやく入力できます。
+address-capture-update-doorhanger-header = 住所を更新しますか？
+address-capture-edit-doorhanger-header = 住所の編集
+address-capture-save-button =
+    .label = 保存
+    .accessKey = S
+address-capture-not-now-button =
+    .label = 後で
+    .accessKey = N
+address-capture-cancel-button =
+    .label = キャンセル
+    .accessKey = C
+address-capture-update-button =
+    .label = 更新
+    .accessKey = U
+address-capture-manage-address-button =
+    .label = アドレス設定
+address-capture-learn-more-button =
+    .label = 詳細情報
 # The dialog title for creating addresses in browser preferences.
 autofill-add-new-address-title = @@New-CMD@@住所の追加
 # The dialog title for editing addresses in browser preferences.
 autofill-edit-address-title = 住所の編集
+autofill-address-name = 氏名
 autofill-address-given-name = 名
 autofill-address-additional-name = ミドルネーム
 autofill-address-family-name = 氏
 autofill-address-organization = 組織名
+autofill-address-street-address = 番地・通り名
 autofill-address-street = 番地・通り名
 
 ## address-level-3 (Sublocality) names
@@ -78,7 +100,10 @@ autofill-address-eircode = Eircode
 
 ##
 
+##
+
 autofill-address-country = 国または地域
+autofill-address-country-only = 国
 autofill-address-tel = 電話番号
 autofill-address-email = メールアドレス
 autofill-cancel-button = キャンセル

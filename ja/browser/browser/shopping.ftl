@@ -98,7 +98,6 @@ shopping-settings-recommendations-toggle =
     .label = レビューチェッカーに広告を表示する
 shopping-settings-recommendations-learn-more = 時々、関連製品の広告が表示されます。すべての広告は私たちのレビュー品質標準に適合しています。<a data-l10n-name="review-quality-url">詳細情報</a>
 shopping-settings-recommendations-learn-more2 = 時々、関連製品の広告が表示されます。私たちは信頼できるレビューの付いた製品のみを広告します。<a data-l10n-name="review-quality-url">詳細情報</a>
-
 shopping-settings-opt-out-button = レビューチェッカーをオフにする
 powered-by-fakespot = レビューチェッカーは <a data-l10n-name="fakespot-link">{ -fakespot-brand-full-name }</a> の機能です。
 
@@ -123,6 +122,7 @@ shopping-analysis-explainer-intro2 = 私たちは、{ -fakespot-brand-full-name 
 shopping-analysis-explainer-grades-intro = 私たちは、各製品のレビューを A から F までの <strong>レターグレード</strong> で評価します。
 shopping-analysis-explainer-adjusted-rating-description = <strong>調整されたレート</strong> は私たちが信頼するに足ると評価したレビューのみを基にしています。
 shopping-analysis-explainer-learn-more = 詳細は、<a data-l10n-name="review-quality-url">{ -fakespot-brand-full-name } によるレビュー品質の決定方法について</a> をご覧ください。
+shopping-analysis-explainer-learn-more2 = 詳細は、<a data-l10n-name="review-quality-url">{ -fakespot-brand-name } によるレビュー品質の決定方法について</a> をご覧ください。
 # This string includes the short brand name of one of the three supported
 # websites, which will be inserted without being translated.
 #  $retailer (String) - capitalized name of the shopping website, for example, "Amazon".
@@ -142,7 +142,7 @@ shopping-sidebar-close-button2 =
 ## The word 'analyzer' when used here reflects what this tool is called on
 ## fakespot.com. If possible, a different word should be used for the Fakespot
 ## tool (the Fakespot by Mozilla 'analyzer') other than 'checker', which is
-## used in the name of the Firefox feature ('Review checker'). If that is not
+## used in the name of the Firefox feature ('Review Checker'). If that is not
 ## possible - if these terms are not meaningfully different - that is OK.
 
 shopping-unanalyzed-product-header-2 = これらのレビューについての情報はまだありません
@@ -202,6 +202,7 @@ shopping-onboarding-dynamic-subtitle = 購入する前に、<b>{ $currentSite }<
 shopping-onboarding-dynamic-subtitle-1 = 購入する前に、<b>{ $currentSite }</b> の製品レビューがどのくらい信頼できるか調べましょう。{ -brand-product-name } による実験的な機能のレビューチェッカーはブラウザーに組み込まれています。これは <b>{ $secondSite }</b> や <b>{ $thirdSite }</b> でも動作します。
 shopping-onboarding-body = { -fakespot-brand-full-name } の協力を得て、ユーザーが偏った不確実なレビューに影響されないよう支援します。ユーザーの買い物を守るため、私たちの AI モデルは常に改善されています。<a data-l10n-name="learn_more">詳細情報</a>
 shopping-onboarding-opt-in-privacy-policy-and-terms-of-use = “{ shopping-onboarding-opt-in-button }“ を選択すると、{ -fakespot-brand-full-name } の <a data-l10n-name="privacy_policy">プライバシーポリシー</a> および <a data-l10n-name="terms_of_use">利用規約</a> に同意したものとみなされます。
+shopping-onboarding-opt-in-privacy-policy-and-terms-of-use2 = “{ shopping-onboarding-opt-in-button }“ を選択すると、{ -fakespot-brand-name } の <a data-l10n-name="privacy_policy">プライバシーポリシー</a> および <a data-l10n-name="terms_of_use">利用規約</a> に同意したものとみなされます。
 shopping-onboarding-opt-in-button = はい、試します
 shopping-onboarding-not-now-button = 後で
 shopping-onboarding-dialog-close-button =

@@ -37,6 +37,14 @@ protections-panel-etp-off-toggle =
     .label = 強化型トラッキング防止
     .description = このサイトでオフです
     .aria-label = { $host } での保護を有効にします
+protections-panel-etp-toggle-on =
+    .label = 強化型トラッキング防止
+    .description = このサイトでオンです
+    .aria-label = 強化型トラッキング防止: { $host } で有効です
+protections-panel-etp-toggle-off =
+    .label = 強化型トラッキング防止
+    .description = このサイトでオフです
+    .aria-label = 強化型トラッキング防止: { $host } で無効です
 # The link to be clicked to open the sub-panel view
 protections-panel-site-not-working = サイトが動作していませんか？
 # The heading/title of the sub-panel view

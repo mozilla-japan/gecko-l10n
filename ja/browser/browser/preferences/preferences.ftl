@@ -994,9 +994,9 @@ addressbar-locbar-engines-option =
 addressbar-locbar-quickactions-option =
     .label = クイックアクション
     .accesskey = Q
-addressbar-locbar-recentsearches-option =
-    .label = 最近の検索
-    .accesskey = R
+addressbar-locbar-showrecentsearches-option =
+    .label = 最近の検索を表示
+    .accesskey = r
 addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
 addressbar-quickactions-learn-more = 詳細情報
 
