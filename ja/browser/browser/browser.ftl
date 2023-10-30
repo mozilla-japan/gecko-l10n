@@ -404,7 +404,7 @@ browser-window-minimize-button =
 browser-window-maximize-button =
     .tooltiptext = 最大化
 browser-window-restore-down-button =
-    .tooltiptext = 元に戻す
+    .tooltiptext = 元に戻す (縮小)
 browser-window-close-button =
     .tooltiptext = @@CloseCMD@@
 
@@ -558,6 +558,8 @@ urlbar-result-action-switch-tab = タブを表示
 urlbar-result-action-visit = 開く
 # Allows the user to visit a URL that was previously copied to the clipboard.
 urlbar-result-action-visit-from-your-clipboard = クリップボードから開く
+# Allows the user to visit a URL that was previously copied to the clipboard.
+urlbar-result-action-visit-from-clipboard = クリップボードから開く
 # Directs a user to press the Tab key to perform a search with the specified
 # engine.
 # Variables
@@ -610,6 +612,11 @@ urlbar-group-search-suggestions =
 # A label shown above Quick Actions in the urlbar results.
 urlbar-group-quickactions =
     .label = クイックアクション
+# A label shown above the recent searches group in the urlbar results.
+# Variables
+#  $engine (String): the name of the search engine used to search.
+urlbar-group-recent-searches =
+    .label = 最近の検索
 
 ## Reader View toolbar buttons
 
@@ -907,6 +914,24 @@ unified-extensions-button-quarantined =
     .tooltiptext =
         拡張機能
         一部の拡張機能は許可されていません
+
+## Private browsing reset button
+
+reset-pbm-toolbar-button =
+    .label = プライベートセッションを終了
+    .tooltiptext = プライベートセッションを終了します
+reset-pbm-panel-heading = プライベートセッションを終了しますか？
+reset-pbm-panel-description = すべてのプライベートタブを閉じ、履歴、Cookie、その他すべてのサイトデータを削除します。
+reset-pbm-panel-always-ask-checkbox =
+     .label = 常に確認する
+     .accesskey = A
+reset-pbm-panel-cancel-button =
+    .label = キャンセル
+    .accesskey = C
+reset-pbm-panel-confirm-button =
+    .label = セッションデータを削除
+    .accesskey = D
+reset-pbm-panel-complete = プライベートセッションのデータを削除しました
 
 ## Autorefresh blocker
 

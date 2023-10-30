@@ -18,7 +18,7 @@ customize-menu-add-to-overflowmenu =
 
 ## Forget Button
 
-# The forget button can be added to the toolbar or overflow menu via the cutomization menu.
+# The forget button can be added to the toolbar or overflow menu via the customization menu.
 panic-button-thankyou-msg1 = 最近の履歴を消去しました。
 panic-button-thankyou-msg2 = 安全なブラウジングをお楽しみください！
 panic-button-thankyou-button =

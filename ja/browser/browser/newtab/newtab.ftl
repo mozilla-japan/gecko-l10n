@@ -116,7 +116,7 @@ newtab-privacy-modal-button-manage = スポンサーコンテンツの設定を�
 newtab-privacy-modal-header = プライバシーは重要です。
 newtab-privacy-modal-paragraph-2 =
     盛り上がる魅力あるストーリーに加えて、選ばれたスポンサーからあなたの興味を引きそうな厳選コンテンツを提供します。
-    <strong>ブラウジングデータに { -brand-product-name } の個人情報のコピーが残ることはありません。</strong>私たちとスポンサーのどちらもその情報を見ることはありませんので、ご安心ください。
+    <strong>閲覧データに { -brand-product-name } の個人情報のコピーが残ることはありません。</strong>私たちとスポンサーのどちらもその情報を見ることはありませんので、ご安心ください。
 newtab-privacy-modal-link = @@NewTab@@ページでのプライバシーの仕組みついて
 
 ##

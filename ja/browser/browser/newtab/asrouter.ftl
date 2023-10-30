@@ -227,3 +227,28 @@ device-migration-fxa-spotlight-header = 古い端末をご使用ですか？
 device-migration-fxa-spotlight-body = データをバックアップ保存して、ブックマークやパスワードなどの重要な情報を失わないようにしましょう。特に新しい端末に切り替えたときは。
 device-migration-fxa-spotlight-primary-button = データをバックアップする方法
 device-migration-fxa-spotlight-link = 後で通知
+
+## Set as Default PDF Reader Infobar
+
+# The question portion of the following message should have the <strong> and </strong> tags surrounding it.
+pdf-default-notification-message = <strong>{ -brand-short-name } を@@Default-@@ PDF リーダーに設定しませんか？</strong> コンピューターに保存された PDF ファイルの表示と編集に { -brand-short-name } をお使いください。
+pdf-default-notification-set-default-button =
+    .label = @@Default@@に設定
+pdf-default-notification-decline-button =
+    .label = 後で
+
+## Launch on login infobar notification
+
+launch-on-login-infobar-message = <strong>コンピューターの再起動時に毎回 { -brand-short-name } を開きますか？</strong> 端末の再起動時に自動的に { -brand-short-name } を開く設定が追加されました。
+launch-on-login-learnmore = 詳細情報
+launch-on-login-infobar-confirm-button = はい、{ -brand-short-name } を開きます
+    .accesskey = Y
+launch-on-login-infobar-reject-button = 後で
+    .accesskey = N
+
+## These string variants are used when the “launch on login” infobar
+## notification is displayed for a second time.
+
+launch-on-login-infobar-final-message = <strong>コンピューターの再起動時に毎回 { -brand-short-name } を開きますか？</strong> 起動時の設定を管理するには、設定で “起動” を検索してください。
+launch-on-login-infobar-final-reject-button = いいえ、結構です
+    .accesskey = N

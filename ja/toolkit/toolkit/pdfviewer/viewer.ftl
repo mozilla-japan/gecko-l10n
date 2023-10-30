@@ -226,6 +226,21 @@ pdfjs-find-match-diacritics-checkbox-label = 発音区別符号を区別
 pdfjs-find-entire-word-checkbox-label = 単語一致
 pdfjs-find-reached-top = 文書先頭に到達したので末尾から続けて検索します
 pdfjs-find-reached-bottom = 文書末尾に到達したので先頭から続けて検索します
+# Variables:
+#   $current (Number) - the index of the currently active find result
+#   $total (Number) - the total number of matches in the document
+pdfjs-find-match-count =
+    { $total ->
+        [one] { $total } 件中 { $current } 件目
+       *[other] { $total } 件中 { $current } 件目
+    }
+# Variables:
+#   $limit (Number) - the maximum number of matches
+pdfjs-find-match-count-limit =
+    { $limit ->
+        [one] { $limit } 件以上一致
+       *[other] { $limit } 件以上一致
+    }
 pdfjs-find-not-found = 見つかりませんでした
 
 ## Predefined zoom values
@@ -324,3 +339,11 @@ pdfjs-editor-alt-text-textarea =
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
+pdfjs-editor-resizer-label-top-left = 左上隅 — サイズ変更
+pdfjs-editor-resizer-label-top-middle = 上中央 — サイズ変更
+pdfjs-editor-resizer-label-top-right = 右上隅 — サイズ変更
+pdfjs-editor-resizer-label-middle-right = 右中央 — サイズ変更
+pdfjs-editor-resizer-label-bottom-right = 右下隅 — サイズ変更
+pdfjs-editor-resizer-label-bottom-middle = 下中央 — サイズ変更
+pdfjs-editor-resizer-label-bottom-left = 左下隅 — サイズ変更
+pdfjs-editor-resizer-label-middle-left = 左中央 — サイズ変更

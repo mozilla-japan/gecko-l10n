@@ -53,7 +53,7 @@ firefoxview-tabpickup-network-offline-header = インターネット接続を確
 firefoxview-tabpickup-network-offline-description = ファイアウォールまたはプロキシーを利用している場合は、{ -brand-short-name } にウェブへのアクセスが許可されているか確認してください。
 firefoxview-tabpickup-network-offline-primarybutton = 再試行
 firefoxview-tabpickup-sync-error-header = 同期に問題が発生しています
-firefoxview-tabpickup-generic-sync-error-description = { -brand-short-name } はただいま同期サービスに接続できません。数分後にやり直してください。
+firefoxview-tabpickup-generic-sync-error-description = { -brand-short-name } はただいま同期サービスに接続できません。数分後に再度試してください。
 firefoxview-tabpickup-sync-error-primarybutton = 再試行
 firefoxview-tabpickup-sync-disconnected-header = 同期をオンにして続行
 firefoxview-tabpickup-sync-disconnected-description = タブを取り出すには、{ -brand-short-name } での同期を許可する必要があります。
@@ -169,7 +169,7 @@ firefoxview-history-site-localhost = (ローカルファイル)
 ##
 
 firefoxview-show-all-history = すべての履歴を表示
-firefoxview-view-more-browsing-history = ブラウジング履歴の続きを表示
+firefoxview-view-more-browsing-history = 閲覧履歴の続きを表示
 
 ## Message displayed in Firefox View when the user has no history data
 
@@ -187,7 +187,7 @@ firefoxview-choose-browser-button = ブラウザーを選ぶ
 
 firefoxview-dont-remember-history-empty-header = データがありません
 firefoxview-dont-remember-history-empty-description = 私たちの活動の中心はユーザーのプライバシーを保護することです。あなたはいつでも { -brand-short-name } に記憶させる履歴をコントロールできます。
-firefoxview-dont-remember-history-empty-description-two = 現在の設定に基づいて { -brand-short-name } はブラウジング履歴を記憶しません。記憶させるには、<a data-l10n-name="history-settings-url-two">履歴の設定を変更してください</a>。
+firefoxview-dont-remember-history-empty-description-two = 現在の設定に基づいて { -brand-short-name } は閲覧履歴を記憶しません。記憶させるには、<a data-l10n-name="history-settings-url-two">履歴の設定を変更してください</a>。
 
 ##
 
@@ -199,13 +199,13 @@ firefoxview-import-history-close-button =
 ## Text displayed in a dismissable banner to import bookmarks/history from another browser
 
 firefoxview-import-history-header = 別のブラウザーから履歴を@@Import@@
-firefoxview-import-history-description = { -brand-short-name } を日常的に使うには、まずブラウジング履歴やブックマークなどのデータを@@Import-si@@ましょう。
+firefoxview-import-history-description = { -brand-short-name } を日常的に使うには、まず閲覧履歴やブックマークなどのデータを@@Import-si@@ましょう。
 
 ## Message displayed in Firefox View when the user has no recently closed tabs data
 
 firefoxview-recentlyclosed-empty-header = もうすぐタブを閉じますか？
 firefoxview-recentlyclosed-empty-description = ここで最近閉じたタブを見つけましょう。すぐに開き直すことができます。
-firefoxview-recentlyclosed-empty-description-two = だいぶ前に閉じたタブを見つけるには、<a data-l10n-name="history-url">ブラウジング履歴</a> を表示してください。
+firefoxview-recentlyclosed-empty-description-two = だいぶ前に閉じたタブを見つけるには、<a data-l10n-name="history-url">閲覧履歴</a> を表示してください。
 
 ## This message is displayed below the name of another connected device when it doesn't have any open tabs.
 

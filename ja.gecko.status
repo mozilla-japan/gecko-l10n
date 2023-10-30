@@ -121,5 +121,5 @@ comm | mail                     14828:36908b268bd4 (2023-10-09)  mar            
 [l10n-mozilla-120.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
-geck | dom, netwerk, toolkit   15208:26e14dec9fcb (2023-10-16)  mar            sync dom, security, toolkit, netwerk
-
+geck | dom, netwerk, toolkit    15208:26e14dec9fcb (2023-10-16)  mar            sync dom, security, toolkit, netwerk
+geck | browser, devtools        15218:ed829aba126e (2023-10-24)  mar            sync browser, devtools, toolkit
