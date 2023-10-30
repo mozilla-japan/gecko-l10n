@@ -11,13 +11,13 @@
 
 <!-- Toolbar-only items -->
 <!ENTITY compositionToolbar.tooltip	"一般ツールバー"><!-- Composition Toolbar -->
-<!ENTITY previewToolbarCmd.label	"@@Browse@@">
+<!ENTITY previewToolbarCmd.label	"プレビュー">
 <!ENTITY previewToolbarCmd.tooltip	"このページをブラウザーで読み込みます">
 
 <!-- File menu items -->
 <!ENTITY exportToTextCmd.label		"テキストに@@Export@@...">
 <!ENTITY exportToTextCmd.accesskey	"x">
-<!ENTITY previewCmd.label		"ページをブラウズ">
+<!ENTITY previewCmd.label		"ページをプレビュー">
 <!ENTITY previewCmd.accesskey		"w">
 <!ENTITY sendPageCmd.label		"ページを送信...">
 <!ENTITY sendPageCmd.accesskey		"d">

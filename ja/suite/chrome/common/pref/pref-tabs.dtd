@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY tabHeader.label "タブブラウズ">
+<!ENTITY tabHeader.label "タブブラウジング">
 
 <!ENTITY tabDisplay.label "タブ表示">
 <!ENTITY autoHide.label "開いたタブが 1 つだけのとき、タブバーを隠す">

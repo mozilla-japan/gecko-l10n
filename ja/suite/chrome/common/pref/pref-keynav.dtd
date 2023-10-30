@@ -10,13 +10,13 @@
 <!ENTITY tabNavigationForms.accesskey "B">
 <!ENTITY tabNavigationTextboxes.label "注: いずれの設定でも、テキストボックスとスクロール可能な領域が含まれます。">
 <!ENTITY tabNavigationDesc.label "Tab か Shift+Tab を押したときの移動先:">
-<!ENTITY accessibilityBrowseWithCaret.label "キャレットブラウズ">
-<!ENTITY browseWithCaretDesc.label "キャレットブラウズモードをオンにすると、ウェブページ中を移動可能なカーソル (キャレット) が表示され、キーボードでテキストを選択できるようになります。">
-<!ENTITY browseWithCaretUse.label "キャレットブラウズを利用する">
+<!ENTITY accessibilityBrowseWithCaret.label "キャレットブラウジング">
+<!ENTITY browseWithCaretDesc.label "キャレットブラウジングモードをオンにすると、ウェブページ中を移動可能なカーソル (キャレット) が表示され、キーボードでテキストを選択できるようになります。">
+<!ENTITY browseWithCaretUse.label "キャレットブラウジングを利用する">
 <!ENTITY browseWithCaretUse.accesskey "U">
-<!ENTITY browseWithCaretShortCut.label "F7 キーを押したときキャレットブラウズモードに切り替える">
+<!ENTITY browseWithCaretShortCut.label "F7 キーを押したときキャレットブラウジングモードに切り替える">
 <!ENTITY browseWithCaretShortCut.accesskey "F">
-<!ENTITY browseWithCaretWarn.label "キャレットブラウズを有効にする前に警告を出す">
+<!ENTITY browseWithCaretWarn.label "キャレットブラウジングを有効にする前に警告を出す">
 <!ENTITY browseWithCaretWarn.accesskey "W">
 
 <!ENTITY modifiers.label "修飾キー">

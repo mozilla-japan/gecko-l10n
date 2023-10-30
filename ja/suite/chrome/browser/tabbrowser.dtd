@@ -23,5 +23,5 @@ left instead of right. -->
 <!ENTITY  closeTabButton.tooltip   "このタブを閉じる">
 <!ENTITY  newTabButton.tooltip   "@@NewTab@@を開く">
 <!ENTITY  listAllTabs.tooltip    "すべてのタブをリスト表示">
-<!ENTITY  undoCloseTab.label    "閉じたタブを元に戻す">
+<!ENTITY  undoCloseTab.label    "閉じたタブを開き直す">
 <!ENTITY  undoCloseTab.accesskey  "U">
