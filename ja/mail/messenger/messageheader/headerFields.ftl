@@ -20,7 +20,6 @@ message-header-tags-list-name = タグ
 message-header-author-field = 著者<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = 組織<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = 件名<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Followup to<span data-l10n-name="field-separator">:</span>
 message-header-date-field = 送信日時<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = ユーザーエージェント<span data-l10n-name="field-separator">:</span>
 message-header-references-field = References<span data-l10n-name="field-separator">:</span>

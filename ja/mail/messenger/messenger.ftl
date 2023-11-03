@@ -10,7 +10,7 @@ messenger-window-minimize-button =
 messenger-window-maximize-button =
     .tooltiptext = 最大化
 messenger-window-restore-down-button =
-    .tooltiptext = 元に戻す
+    .tooltiptext = 元に戻す (縮小)
 messenger-window-close-button =
     .tooltiptext = @@CloseCMD@@
 # Variables:
@@ -162,8 +162,8 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] メッセージを削除しない
-           *[other] 選択したメッセージを削除しない
+            [one] メッセージの削除を@@Undo@@
+           *[other] 選択したメッセージの削除を@@Undo@@
         }
     .accesskey = d
 menu-edit-properties =
@@ -200,24 +200,20 @@ context-menu-cancel-msg =
     .label = メッセージをキャンセル
 # Variables:
 # $count (Number) - Number of selected messages.
-# (^m^) Restore missing accesskey.
 mail-context-delete-messages =
     .label =
         { $count ->
             [one] メッセージを削除
            *[other] 選択したメッセージを削除
         }
-    .accesskey = D
 # Variables:
 # $count (Number) - Number of selected messages.
-# (^m^) Restore missing accesskey.
 mail-context-undelete-messages =
     .label =
         { $count ->
             [one] メッセージを削除しない
            *[other] 選択したメッセージを削除しない
         }
-    .accesskey = d
 context-menu-decrypt-to-folder2 =
     .label = 復号したメッセージのコピーを作成
     .accesskey = y
@@ -403,7 +399,7 @@ quick-filter-bar-toggle =
     .label = クイックフィルターバー
     .accesskey = Q
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

@@ -15,4 +15,4 @@
 <!ENTITY restoreDefaultSet.label  "初期設定に戻す">
 <!ENTITY addNewToolbar.label      "ツールバーを追加">
 <!ENTITY saveChanges.label        "完了">
-<!ENTITY undoChanges.label        "変更を元に戻す">
+<!ENTITY undoChanges.label        "変更を@@Undo@@">
