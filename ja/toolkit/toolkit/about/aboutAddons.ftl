@@ -487,3 +487,12 @@ details-notification-softblocked-link = 詳細情報
 details-notification-gmp-pending = { $name } はすぐにインストールされます。
 details-notification-gmp-pending2 =
     .message = { $name } はすぐにインストールされます。
+
+## Gecko Media Plugins (GMPs)
+
+plugins-gmp-license-info = ライセンス情報
+plugins-gmp-privacy-info = プライバシー情報
+plugins-openh264-name = OpenH264 Video Codec (Cisco Systems, Inc. 提供)
+plugins-openh264-description = このプラグインは、WebRTC 仕様に従うため Mozilla により自動的にインストールされ、H.264 動画コーデックを必要とする端末で WebRTC 通話を有効にします。このコーデックのソースコードと実装についての詳細は、https://www.openh264.org/ を参照してください。
+plugins-widevine-name = Widevine Content Decryption Module (Google Inc. 提供)
+plugins-widevine-description = このプラグインは、Encrypted Media Extensions の仕様に従って暗号化されたメディアの再生を有効にします。暗号化されたメディアは、一般的に有料メディアコンテンツのコピーを防止するためにサイトにより使用されます。Encrypted Media Extensions についての詳細は、https://www.w3.org/TR/encrypted-media/ を参照してください。
