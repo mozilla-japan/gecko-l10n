@@ -57,6 +57,10 @@ protections-panel-site-not-working-view =
 protections-panel-not-blocking-why-label = 状態について
 protections-panel-not-blocking-why-etp-on-tooltip = これらをブロックすると、一部のウェブサイトの一部のボタン、フォーム、ログインフォームといった要素が動作しなくなる可能性があります。
 protections-panel-not-blocking-why-etp-off-tooltip = 保護がオフになっているため、このサイトのトラッカーがすべて読み込まれました。
+protections-panel-not-blocking-why-etp-on-tooltip-label =
+    .label = これらをブロックすると、一部のウェブサイトの一部のボタン、フォーム、ログインフォームといった要素が動作しなくなる可能性があります。
+protections-panel-not-blocking-why-etp-off-tooltip-label =
+    .label = 保護がオフになっているため、このサイトのトラッカーがすべて読み込まれました。
 
 ##
 
@@ -126,8 +130,8 @@ protections-panel-content-blocking-breakage-report-view-send-report =
 
 # Cookie Banner Handling
 
-protections-panel-cookie-banner-blocker-header = Cookie バナーブロッカー
 protections-panel-cookie-banner-handling-header = Cookie バナー削減
+protections-panel-cookie-banner-blocker-header = Cookie バナーブロッカー
 protections-panel-cookie-banner-handling-enabled = このサイトでオン
 protections-panel-cookie-banner-handling-disabled = このサイトでオフ
 protections-panel-cookie-banner-handling-undetected = 現在サポートされていないサイトです
@@ -149,3 +153,7 @@ protections-panel-cookie-banner-blocker-view-turn-on-description = オンにす�
 protections-panel-cookie-banner-view-cancel = キャンセル
 protections-panel-cookie-banner-view-turn-off = オフにする
 protections-panel-cookie-banner-view-turn-on = オンにする
+protections-panel-cookie-banner-view-turn-off-label =
+    .label = オフにする
+protections-panel-cookie-banner-view-turn-on-label =
+    .label = オンにする
