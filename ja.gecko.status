@@ -128,4 +128,4 @@ comm | mail, suite              15102:9b35aaa417b2 (2023-10-26)  mar            
 [l10n-mozilla-121.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
-geck | dom, toolkit             15232:6e38938f48c2 (2023-11-14)  mar            sync dom, toolkit
+geck | dom, toolkit             15243:e308001a62d4 (2023-11-24)  mar            sync dom, toolkit
