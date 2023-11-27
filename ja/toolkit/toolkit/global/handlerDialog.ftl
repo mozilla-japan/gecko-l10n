@@ -17,6 +17,8 @@ permission-dialog-description-app = このサイトに { $scheme } リンクを 
 permission-dialog-description-file-app = このファイルに { $scheme } リンクを { $appName } で開くことを許可しますか？
 permission-dialog-description-host-app = { $host } に { $scheme } リンクを { $appName } で開くことを許可しますか？
 permission-dialog-description-extension-app = 拡張機能 { $extension } に { $scheme } リンクを { $appName } で開くことを許可しますか？
+permission-dialog-description-system-app = { $scheme } リンクを { $appName } で開きますか？
+permission-dialog-description-system-noapp = { $scheme } リンクを開きますか？
 
 ## Please keep the emphasis around the hostname and scheme (ie the
 ## `<strong>` HTML tags). Please also keep the hostname as close to the start

@@ -301,6 +301,8 @@ pdfjs-editor-ink-button-label = インク注釈
 pdfjs-editor-stamp-button =
     .title = 画像を追加または編集します
 pdfjs-editor-stamp-button-label = 画像を追加または編集
+pdfjs-editor-remove-button =
+    .title = 削除
 # Editor Parameters
 pdfjs-editor-free-text-color-input = @@Color@@
 pdfjs-editor-free-text-size-input = サイズ
