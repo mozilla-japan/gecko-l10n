@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = アプリケーションアイコンのオプション
+dock-options-dialog-title = アプリケーションアイコンのオプション
 dock-options-show-badge =
     .label = アイコンにバッジを表示する
     .accesskey = b
