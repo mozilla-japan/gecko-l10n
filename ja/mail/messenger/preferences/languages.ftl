@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = A
 messenger-languages-window2 =
     .title = { -brand-short-name } 言語設定
+messenger-languages-dialog-title = { -brand-short-name } 言語設定
 messenger-languages-description = { -brand-short-name } は最初の言語を@@Default@@として表示し、必要ならば優先順位に従って代替言語を表示します。
 messenger-languages-search = 他の言語を検索...
 messenger-languages-searching =
