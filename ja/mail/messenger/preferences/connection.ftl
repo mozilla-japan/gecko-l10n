@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = URL を指定:
 connection-dialog-window2 =
     .title = インターネット接続
+connection-dialog-title = インターネット接続
 disable-extension-button = 拡張機能を無効化
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
