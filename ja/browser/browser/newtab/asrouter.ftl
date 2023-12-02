@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## These messages are used as headings in the recommendation doorhanger
 
 cfr-doorhanger-extension-heading = おすすめの拡張機能
@@ -122,7 +123,7 @@ spotlight-public-wifi-vpn-link = 後で
 ## Emotive Continuous Onboarding
 
 spotlight-better-internet-header = より良いインターネットはあなたとともに始まります
-spotlight-better-internet-body = { -brand-short-name} を使うことで、すべての人にとってオープンでアクセシブルな、すべての人にとってのより良いインターネットに一票を投じることになります。
+spotlight-better-internet-body = { -brand-short-name } を使うことで、すべての人にとってオープンでアクセシブルな、すべての人にとってのより良いインターネットに一票を投じることになります。
 spotlight-peace-mind-header = 私たちがあなたを保護します
 spotlight-peace-mind-body = { -brand-short-name } は毎月、ユーザーあたり平均 3,000 以上のトラッカーをブロックしています。特にトラッカーのようなプライバシーを脅かすものは、あなたと良いインターネットの間にあるべきではないからです。
 spotlight-pin-primary-button =
@@ -183,7 +184,7 @@ colorways-cfr-primarybutton = Colorway を選択
 colorways-cfr-body = カルチャーを変えてきた人々の声から生まれた { -brand-short-name } だけの色の表象でブラウザーを染めましょう。
 colorways-cfr-header-28days = 揺るぎない声 Colorway は 1 月 16 日まで
 colorways-cfr-header-14days = 揺るぎない声 Colorway は残り 2 週間
-colorways-cfr-header-7days =  揺るぎない声 Colorway は今週まで
+colorways-cfr-header-7days = 揺るぎない声 Colorway は今週まで
 colorways-cfr-header-today = 揺るぎない声 Colorway は今日まで
 
 ## Cookie Banner Handling CFR
@@ -217,9 +218,9 @@ set-default-pdf-handler-primary = 了解
 fxa-sync-cfr-header = 未来の新しい端末？
 fxa-sync-cfr-body = 新しい { -brand-product-name } ブラウザーを開けば、最新のブックマークやパスワード、タブがいつでもあなたの側にあります。
 fxa-sync-cfr-primary = 詳細情報
-  .accesskey = L
+    .accesskey = L
 fxa-sync-cfr-secondary = 後で通知
-  .accesskey = R
+    .accesskey = R
 
 ## Device Migration FxA Spotlight
 
@@ -227,6 +228,7 @@ device-migration-fxa-spotlight-header = 古い端末をご使用ですか？
 device-migration-fxa-spotlight-body = データをバックアップ保存して、ブックマークやパスワードなどの重要な情報を失わないようにしましょう。特に新しい端末に切り替えたときは。
 device-migration-fxa-spotlight-primary-button = データをバックアップする方法
 device-migration-fxa-spotlight-link = 後で通知
+device-migration-fxa-spotlight-getting-new-device-header-2 = 未来の新しい端末？
 
 ## Set as Default PDF Reader Infobar
 
