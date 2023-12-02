@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = 開封確認
+receipts-dialog-title = 開封確認
 return-receipt-checkbox-control =
     .label = 送信メッセージについて、毎回開封確認の返送を求める
     .accesskey = W
