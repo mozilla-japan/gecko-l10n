@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = @@Application@@の詳細
+app-manager-dialog-title = @@Application@@の詳細
 remove-app-button =
     .label = 削除
     .accesskey = R
