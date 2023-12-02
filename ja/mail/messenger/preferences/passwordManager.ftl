@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = 保存されたログイン情報
+saved-logins-title = 保存されたログイン情報
 window-close =
     .key = w
 focus-search-primary-shortcut =
