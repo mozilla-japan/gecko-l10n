@@ -4,6 +4,7 @@
 
 offline-dialog-window =
     .title = オフライン設定
+offline-dialog-title = オフライン設定
 autodetect-online-label =
     .label = 検出された状態に自動的に従う
     .accesskey = d
