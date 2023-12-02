@@ -4,6 +4,7 @@
 
 notifications-dialog-window =
     .title = デスクトップ通知
+notifications-dialog-title = デスクトップ通知
 customize-alert-description = デスクトップ通知に表示する内容:
 preview-text-checkbox =
     .label = メッセージプレビュー
