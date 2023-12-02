@@ -5,7 +5,7 @@
 troubleshoot-mode-window =
     .title = { -brand-short-name } トラブルシューティングモード
     .style = width: 37em;
-
+troubleshoot-mode-dialog-title = { -brand-short-name } トラブルシューティングモード
 troubleshoot-mode-description = { -brand-short-name } のトラブルシューティングモードで問題を診断できます。アドオンと設定変更は一時的に無効化されます。
 troubleshoot-mode-description2 = 以下の項目については恒久的に変更できます:
 troubleshoot-mode-disable-addons =
