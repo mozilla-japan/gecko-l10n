@@ -40,17 +40,6 @@ shopping-letter-grade-tooltip =
 
 shopping-message-bar-warning-stale-analysis-message-2 = 新しい情報があります
 shopping-message-bar-warning-stale-analysis-button = 今すぐ確認
-shopping-message-bar-generic-error-title2 = 情報が利用できません
-shopping-message-bar-generic-error-message = 現在、問題の解決に取り組んでいます。後でもう一度確認してください。
-shopping-message-bar-warning-not-enough-reviews-title = まだ十分な数のレビューがありません
-shopping-message-bar-warning-not-enough-reviews-message2 = この製品の品質確認に必要な数のレビューが掲載されるまでお待ちください。
-shopping-message-bar-warning-product-not-available-title = 製品が利用できません
-shopping-message-bar-warning-product-not-available-message2 = この製品が再入荷されている場合はご報告ください。製品のレビューを確認します。
-shopping-message-bar-warning-product-not-available-button = 製品が再入荷されたことを報告する
-shopping-message-bar-thanks-for-reporting-title = ご報告ありがとうございます。
-shopping-message-bar-thanks-for-reporting-message2 = 製品のレビューについての情報は 24 時間以内に更新されます。後でもう一度確認してください。
-shopping-message-bar-warning-product-not-available-reported-title2 = まもなく情報が更新されます
-shopping-message-bar-warning-product-not-available-reported-message2 = 製品のレビューについての情報は 24 時間以内に更新されます。後でもう一度確認してください。
 shopping-message-bar-generic-error =
     .heading = 情報が利用できません
     .message = 現在、問題の解決に取り組んでいます。後でもう一度確認してください。
@@ -69,8 +58,9 @@ shopping-message-bar-warning-product-not-available-reported =
     .message = 製品のレビューについての情報は 24 時間以内に更新されます。後でもう一度確認してください。
 shopping-message-bar-analysis-in-progress-title2 = レビュー品質を確認しています
 shopping-message-bar-analysis-in-progress-message2 = 品質の確認には約 60 秒かかります。
-shopping-message-bar-page-not-supported-title = これらのレビューを確認できません。
-shopping-message-bar-page-not-supported-message = 残念ながら、いくつかの種類の製品はレビュー品質を確認することができません。例えば、ギフトカードやストリーミング動画、音楽、ゲームなど。
+# Variables:
+#  $percentage (Number) - The percentage complete that the analysis is, per our servers.
+shopping-message-bar-analysis-in-progress-with-amount = レビュー品質を確認しています ({ $percentage }%)
 shopping-message-bar-page-not-supported =
     .heading = これらのレビューを確認できません。
     .message = 残念ながら、いくつかの種類の製品はレビュー品質を確認することができません。例えば、ギフトカードやストリーミング動画、音楽、ゲームなど。
@@ -96,7 +86,6 @@ shopping-settings-label =
     .label = 設定
 shopping-settings-recommendations-toggle =
     .label = レビューチェッカーに広告を表示する
-shopping-settings-recommendations-learn-more = 時々、関連製品の広告が表示されます。すべての広告は私たちのレビュー品質標準に適合しています。<a data-l10n-name="review-quality-url">詳細情報</a>
 shopping-settings-recommendations-learn-more2 = 時々、関連製品の広告が表示されます。私たちは信頼できるレビューの付いた製品のみを広告します。<a data-l10n-name="review-quality-url">詳細情報</a>
 shopping-settings-opt-out-button = レビューチェッカーをオフにする
 powered-by-fakespot = レビューチェッカーは <a data-l10n-name="fakespot-link">{ -fakespot-brand-full-name }</a> の機能です。
@@ -171,7 +160,6 @@ shopping-survey-q2-radio-3-label = 分からない
 shopping-survey-next-button-label = 次へ
 shopping-survey-submit-button-label = 送信
 shopping-survey-terms-link = 利用規約
-shopping-survey-thanks-message = フィードバックのご提供ありがとうございます。
 shopping-survey-thanks =
     .heading = フィードバックのご提供ありがとうございます。
 
@@ -188,12 +176,6 @@ shopping-callout-closed-not-opted-in-subtitle = 価格タグアイコンが表�
 ## Onboarding message strings.
 
 shopping-onboarding-headline = 製品レビューの信頼できるガイドをお試しください
-# Dynamic subtitle. Sites are limited to Amazon, Walmart or Best Buy.
-# Variables:
-#   $currentSite (str) - The current shopping page name
-#   $secondSite (str) - A second shopping page name
-#   $thirdSite (str) - A third shopping page name
-shopping-onboarding-dynamic-subtitle = 購入する前に、<b>{ $currentSite }</b> の製品レビューがどのくらい信頼できるか調べましょう。{ -vendor-short-name } による実験的な機能のレビューチェッカーは、{ -brand-product-name } に組み込まれており、<b>{ $secondSite }</b> や <b>{ $thirdSite }</b> でも動作します。
 # Dynamic subtitle. Sites are limited to Amazon, Walmart or Best Buy.
 # Variables:
 #   $currentSite (str) - The current shopping page name

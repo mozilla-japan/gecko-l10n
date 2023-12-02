@@ -87,3 +87,10 @@ css-compatibility-deprecated-supported-message = <strong>{ $property }</strong> 
 css-compatibility-experimental-message = <strong>{ $property }</strong> は実験的なプロパティです。これらのブラウザーではサポートされていません:
 css-compatibility-experimental-supported-message = <strong>{ $property }</strong> は実験的なプロパティです。
 css-compatibility-learn-more-message = <strong>{ $rootProperty }</strong> についての <span data-l10n-name="link">詳細</span>
+
+## In the Rule View when a rule selector can causes issues, we display an icon.
+## When this icon is hovered one or more of those messages are displayed to explain what
+## the issue are.
+
+# :has() should not be translated
+css-selector-warning-unconstrained-has = このセレクターは制約のない <strong>:has()</strong> を使用しているため動作が遅くなります

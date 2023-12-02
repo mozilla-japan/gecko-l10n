@@ -314,3 +314,17 @@ onboarding-device-migration-title = おかえりなさい！
 onboarding-device-migration-subtitle = { -fxaccount-brand-name(capitalization: "sentence") } にログインして、ブックマークやパスワード、履歴を新しい端末とともに持ち歩きましょう。
 onboarding-device-migration-subtitle2 = アカウントにログインして、ブックマークやパスワード、履歴を新しい端末とともに持ち歩きましょう。
 onboarding-device-migration-primary-button-label = ログイン
+
+## The following screens have been updated to use security and privacy focused strings:
+
+# Easy setup screen
+onboarding-easy-setup-security-and-privacy-title = あなたの安全を守ります
+onboarding-easy-setup-security-and-privacy-subtitle = 私たちの非営利組織によるブラウザーがウェブ上であなたを秘密裏に付け回す企業を阻止します。
+
+# Mobile download screen
+onboarding-mobile-download-security-and-privacy-title = 端末を切り替える時も暗号化されます
+onboarding-mobile-download-security-and-privacy-subtitle = 同期した端末でも { -brand-short-name } があなたのパスワードやブックマークを暗号化して保護します。さらに開いているタブを他の端末から持ち出すことができます。
+
+# Gratitude screen
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } はあなたの味方です
+onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation による { -brand-short-name } をご使用くださりありがとうございます。あなたのご支援によって、私たちはインターネットをすべての人々のために安全でアクセシブルなものにすることができます。

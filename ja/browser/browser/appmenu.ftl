@@ -250,3 +250,5 @@ appmenu-customizetoolbar =
 appmenu-developer-tools-subheader = ブラウザーツール
 appmenu-developer-tools-extensions =
     .label = 開発者用拡張機能
+appmenuitem-report-broken-site =
+    .label = 動作しないサイトを報告

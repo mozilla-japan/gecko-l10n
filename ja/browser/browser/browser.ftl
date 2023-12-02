@@ -279,6 +279,9 @@ quickactions-cmd-plugins = plugins
 # Opens the print dialog
 quickactions-print2 = ページを@@Print@@
 quickactions-cmd-print = print
+# Opens the print dialog at the save to PDF option
+quickactions-savepdf = ページを PDF 形式で保存
+quickactions-cmd-savepdf = pdf
 # Opens a new private browsing window
 quickactions-private2 = プライベート@@Window@@を開く
 quickactions-cmd-private = private browsing
@@ -344,6 +347,7 @@ identity-connection-secure = 安全な接続
 identity-connection-failure = 接続失敗
 identity-connection-internal = このページは { -brand-short-name } の安全な内部ページです。
 identity-connection-file = これはあなたのコンピューターに保存されているページです。
+identity-connection-associated = このページは別のページから読み込まれています。
 identity-extension-page = このページは拡張機能から読み込まれています。
 identity-active-blocked = このページの一部が安全でないため { -brand-short-name } がブロックしました。
 identity-custom-root = Mozilla が承認していない発行者の証明書で検証された接続です。
@@ -556,8 +560,6 @@ urlbar-result-action-search-w-engine = { $engine } で検索
 urlbar-result-action-sponsored = 広告
 urlbar-result-action-switch-tab = タブを表示
 urlbar-result-action-visit = 開く
-# Allows the user to visit a URL that was previously copied to the clipboard.
-urlbar-result-action-visit-from-your-clipboard = クリップボードから開く
 # Allows the user to visit a URL that was previously copied to the clipboard.
 urlbar-result-action-visit-from-clipboard = クリップボードから開く
 # Directs a user to press the Tab key to perform a search with the specified

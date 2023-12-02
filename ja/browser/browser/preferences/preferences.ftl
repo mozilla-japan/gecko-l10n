@@ -452,8 +452,11 @@ browsing-use-smooth-scrolling =
     .label = スムーズスクロール機能を使用する
     .accesskey = m
 browsing-gtk-use-non-overlay-scrollbars =
-    .label = スクロールバーを常に表示する
+    .label = 常にスクロールバーを表示する
     .accesskey = o
+browsing-always-underline-links=
+    .label = 常にリンクに下線を付ける
+    .accesskey = u
 browsing-use-onscreen-keyboard =
     .label = 必要であればタッチキーボードを表示する
     .accesskey = c
@@ -691,6 +694,9 @@ sync-signedin-login-failure = { $email } に再接続するにはログインし
 sync-resend-verification =
     .label = 認証メールを再送信
     .accesskey = d
+sync-verify-account =
+    .label = アカウントを認証
+    .accesskey = V
 sync-remove-account =
     .label = アカウントを解除
     .accesskey = R
@@ -1240,6 +1246,7 @@ httpsonly-radio-disabled =
 
 preferences-doh-header = DNS over HTTPS
 preferences-doh-description = Domain Name System (DNS) over HTTPS は暗号化された接続を通してドメイン名の要求を送信します。この安全な DNS によって、あなたがアクセスしようとしているウェブサイトを他者に知られないようにします。
+preferences-doh-description2 = Domain Name System (DNS) over HTTPS は暗号化された接続を通してドメイン名の要求を送信します。この安全な DNS によって、あなたがアクセスしようとしているウェブサイトを他者に知られないようにします。
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = 状態: { $status }
@@ -1256,6 +1263,7 @@ preferences-doh-status-disabled = オフ
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-not-active = 未使用 ({ $reason })
 preferences-doh-group-message = 次のレベルで安全な DNS を使用します:
+preferences-doh-group-message2 = DNS over HTTPS を次のレベルで有効にします:
 preferences-doh-expand-section =
     .tooltiptext = 詳細情報
 preferences-doh-setting-default =

@@ -129,3 +129,4 @@ comm | mail, suite              15102:9b35aaa417b2 (2023-10-26)  mar            
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit             15243:e308001a62d4 (2023-11-24)  mar            sync dom, toolkit
+geck | browser, devtools        15251:b1da3172e70f (2023-12-01)  mar            sync browser, devtools, toolkit

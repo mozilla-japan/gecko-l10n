@@ -159,3 +159,6 @@ protections-panel-cookie-banner-view-turn-off-label =
     .label = オフにする
 protections-panel-cookie-banner-view-turn-on-label =
     .label = オンにする
+protections-panel-report-broken-site =
+    .label = 動作しないサイトを報告
+    .title = 動作しないサイトを報告
