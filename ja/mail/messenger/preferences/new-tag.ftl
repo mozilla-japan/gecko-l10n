@@ -4,6 +4,7 @@
 
 tag-dialog-window =
     .title = @@New-CMD@@タグ
+tag-dialog-title = @@New-CMD@@タグ
 tag-name-label =
     .value = タグ名:
     .accesskey = T
