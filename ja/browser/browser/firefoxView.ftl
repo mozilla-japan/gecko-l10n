@@ -17,6 +17,8 @@ firefoxview-page-label =
 firefoxview-close-button =
     .title = 閉じる
     .aria-label = 閉じる
+firefoxview-empty-state-icon =
+    .alt = 注意:
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
 firefoxview-just-now-timestamp = 直前
 # This is a headline for an area in the product where users can resume and re-open tabs they have previously viewed on other devices.
@@ -147,6 +149,35 @@ firefoxview-opentabs-focus-tab =
     .title = このタブに切り替えます
 firefoxview-show-more = 表示を増やす
 firefoxview-show-less = 表示を減らす
+firefoxview-search-text-box-clear-button =
+    .title = 消去
+# Placeholder for the input field to search in history ("search" is a verb).
+firefoxview-search-text-box-history =
+    .placeholder = 履歴を検索
+# Placeholder for the input field to search in recently closed tabs ("search" is a verb).
+firefoxview-search-text-box-recentlyclosed =
+    .placeholder = 最近閉じたタブを検索
+# Placeholder for the input field to search in tabs from other devices ("search" is a verb).
+firefoxview-search-text-box-syncedtabs =
+    .placeholder = 同期したタブを検索
+# Placeholder for the input field to search in open tabs ("search" is a verb).
+firefoxview-search-text-box-opentabs =
+    .placeholder = 開いているタブを検索
+# "Search" is a noun (as in "Results of the search for")
+# Variables:
+#   $query (String) - The search query used for searching through browser history.
+firefoxview-search-results-header = “{ $query }” の検索結果
+# Variables:
+#   $count (Number) - The number of visits matching the search query.
+firefoxview-search-results-count =
+    { $count ->
+        [one] { $count } サイト
+       *[other] { $count } サイト
+    }
+# Message displayed when a search is performed and no matching results were found.
+# Variables:
+#   $query (String) - The search query.
+firefoxview-search-results-empty = “{ $query }” の検索結果はありません
 firefoxview-sort-history-by-date-label = 日付で並べ替え
 firefoxview-sort-history-by-site-label = サイト名で並べ替え
 # Variables:

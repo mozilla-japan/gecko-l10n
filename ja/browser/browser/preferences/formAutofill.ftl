@@ -37,6 +37,10 @@ address-capture-manage-address-button =
     .label = アドレス設定
 address-capture-learn-more-button =
     .label = 詳細情報
+address-capture-open-menu-button =
+    .aria-label = メニューを開きます
+address-capture-edit-address-button =
+    .aria-label = 住所を編集します
 # The dialog title for creating addresses in browser preferences.
 autofill-add-new-address-title = @@New-CMD@@住所の追加
 # The dialog title for editing addresses in browser preferences.

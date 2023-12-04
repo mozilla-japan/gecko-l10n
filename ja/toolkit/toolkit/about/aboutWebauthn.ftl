@@ -16,6 +16,7 @@ about-webauthn-options-subsection-title = 認証器オプション
 about-webauthn-pin-section-title = PIN の管理
 about-webauthn-credential-management-section-title = 認証情報の管理
 about-webauthn-pin-required-section-title = PIN が必要
+about-webauthn-confirm-deletion-section-title = 削除の確認
 
 ## Info field texts
 
@@ -52,6 +53,7 @@ about-webauthn-current-pin-label = 現在の PIN:
 about-webauthn-pin-required-label = PIN を入力してください:
 about-webauthn-credential-list-subsection-title = 認証情報:
 about-webauthn-credential-list-empty = 端末に認証情報が見つかりませんでした。
+about-webauthn-confirm-deletion-label = 削除対象:
 
 ## Buttons
 

@@ -340,3 +340,5 @@ menu-help-report-deceptive-site =
 menu-help-not-deceptive =
     .label = 詐欺サイトの誤報告を指摘...
     .accesskey = d
+menu-report-broken-site =
+    .label = 動作しないサイトを報告

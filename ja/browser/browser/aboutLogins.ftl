@@ -90,6 +90,11 @@ login-item-edit-button = 編集
 about-logins-login-item-remove-button = 消去
 login-item-origin-label = ウェブサイトの URL
 login-item-tooltip-message = ログインするウェブサイトの正確な URL と一致することを確認してください。
+about-logins-origin-tooltip = ログインするウェブサイトの正確な URL と一致することを確認してください。
+# Variables
+#   $webTitle (String) - Website title of the password being changed.
+about-logins-edit-password-tooltip = このサイトの現在のパスワードを保存していることを確認してください。保存したパスワードをここで変更しても { $webTitle } のパスワードは変更されません。
+about-logins-add-password-tooltip = このサイトの現在のパスワードを保存していることを確認してください。
 login-item-origin =
     .placeholder = https://www.example.com
 login-item-username-label = ユーザー名
