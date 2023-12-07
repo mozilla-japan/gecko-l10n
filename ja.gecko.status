@@ -130,4 +130,4 @@ repo | target dir               hg changeset rev:id (pushdate)   by             
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit             15243:e308001a62d4 (2023-11-24)  mar            sync dom, toolkit
 geck | browser, devtools        15251:b1da3172e70f (2023-12-01)  mar            sync browser, devtools, toolkit
-comm | mail                     15926:84367031a49c (2023-11-28)  mar            mail
+comm | mail                     15435:874c0dc84bee (2023-11-28)  mar            mail
