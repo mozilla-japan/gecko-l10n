@@ -26,6 +26,10 @@ openpgp-invalid-sig = デジタル署名が正しくありません
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = デジタル署名が正しくありません - 署名日時: { $date }
+openpgp-bad-date-sig = 署名日時が一致しません
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = 署名日時が一致しません - 署名日時: { $date }
 openpgp-good-sig = 正しく署名されています
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -35,6 +39,7 @@ openpgp-sig-uncertain-uid-mismatch = このメッセージにはデジタル署�
 openpgp-sig-uncertain-not-accepted = このメッセージにはデジタル署名が含まれていますが、署名者の鍵を受け入れるかまだ決定されていません。
 openpgp-sig-invalid-rejected = このメッセージにはデジタル署名が含まれていますが、署名者の鍵は拒絶されています。
 openpgp-sig-invalid-technical-problem = このメッセージにはデジタル署名が含まれていますが、技術的エラーが検出されました。メッセージが破損しているか、第三者によってメッセージが書き換えられています。
+openpgp-sig-invalid-date-mismatch = このメッセージにはデジタル署名が含まれていますが、署名日時とメールの送信日時が一致しません。コンテンツが別のコンテキストによって書き換えられるなど、第三者が受信者を欺こうとしている可能性があります。
 openpgp-sig-valid-unverified = このメッセージにはあなたが受け入れた鍵による有効な署名が含まれていますが、その鍵が送信者のものであるか検証されていません。
 openpgp-sig-valid-verified = このメッセージには検証済みの鍵による有効な署名が含まれています。
 openpgp-sig-valid-own-key = このメッセージにはあなたの個人鍵による有効な署名が含まれています。
