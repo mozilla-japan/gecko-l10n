@@ -38,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = この鍵は複雑な構造をしているため、有効期限が変更できません。
 openpgp-key-man-title =
     .title = OpenPGP 鍵マネージャー
+openpgp-key-man-dialog-title = OpenPGP 鍵マネージャー
 openpgp-key-man-generate =
     .label = @@New-CMD@@鍵ペア
     .accesskey = K
@@ -316,7 +317,7 @@ openpgp-description-no-key = <b>{ $identity }</b> の個人 OpenPGP 鍵が { -br
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-has-keys =
     { $count ->
-        [one]   <b>{ $identity }</b> に関連付けられた個人 OpenPGP 鍵が { -brand-short-name } 内に { $count } 個見つかりました
+        [one] <b>{ $identity }</b> に関連付けられた個人 OpenPGP 鍵が { -brand-short-name } 内に { $count } 個見つかりました
        *[other] <b>{ $identity }</b> に関連付けられた個人 OpenPGP 鍵が { -brand-short-name } 内に { $count } 個見つかりました
     }
 #   $key (String) - the currently selected OpenPGP key
@@ -463,9 +464,9 @@ copy-to-clipbrd-ok = 鍵をクリップボードにコピーしました
 # $userId (String) - User id of the key.
 delete-secret-key =
     警告: あなたは秘密鍵を削除しようとしています！
-
+    
     秘密鍵を削除した場合、これとペアの公開鍵で暗号化されたすべてのメッセージが復号できなくなり、鍵を失効することもできなくなります。
-
+    
     以下の秘密鍵と公開鍵の両方を本当に削除してもよろしいですか？
     ‘{ $userId }’
 delete-mix =
