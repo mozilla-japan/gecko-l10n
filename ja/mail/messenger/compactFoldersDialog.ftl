@@ -4,6 +4,7 @@
 
 compact-dialog-window-title =
     .title = フォルダーの最適化
+compact-folders-dialog-title = フォルダーの最適化
 compact-dialog =
     .buttonlabelaccept = 今すぐ最適化
     .buttonaccesskeyaccept = C
