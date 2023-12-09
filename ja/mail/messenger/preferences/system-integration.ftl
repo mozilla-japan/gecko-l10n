@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = システム統合
+system-integration-dialog-title = システム統合
 system-integration-dialog =
     .buttonlabelaccept = @@Default@@として設定
     .buttonlabelcancel = 統合をスキップ
