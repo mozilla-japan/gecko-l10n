@@ -484,6 +484,9 @@ enable-devtools-popup-description2 = F12 ショートカットを使うには、
 
 ## URL Bar
 
+# This string is used as an accessible name to the "X" button that cancels a custom search mode (i.e. exits the Amazon.com search mode).
+urlbar-search-mode-indicator-close =
+    .aria-label = 閉じる
 # This placeholder is used when not in search mode and the user's default search
 # engine is unknown.
 urlbar-placeholder =
@@ -925,8 +928,8 @@ reset-pbm-toolbar-button =
 reset-pbm-panel-heading = プライベートセッションを終了しますか？
 reset-pbm-panel-description = すべてのプライベートタブを閉じ、履歴、Cookie、その他すべてのサイトデータを削除します。
 reset-pbm-panel-always-ask-checkbox =
-     .label = 常に確認する
-     .accesskey = A
+    .label = 常に確認する
+    .accesskey = A
 reset-pbm-panel-cancel-button =
     .label = キャンセル
     .accesskey = C
