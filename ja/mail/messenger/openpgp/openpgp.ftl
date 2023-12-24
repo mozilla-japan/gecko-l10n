@@ -448,6 +448,7 @@ filter-encrypt-label = 鍵に対して暗号化する (Enigmail)
 
 import-info-title =
     .title = 成功！ 鍵を@@Import-si@@ました
+import-info-dialog-title = 成功！ 鍵をインポートしました
 import-info-bits = ビット
 import-info-created = 作成日
 import-info-fpr = フィンガープリント
