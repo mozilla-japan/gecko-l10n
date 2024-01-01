@@ -14,6 +14,12 @@ contentanalysis-slow-agent-dialog-title = コンテンツ解析中
 contentanalysis-slow-agent-dialog-body = コンテンツ解析ツールがリソース “{ $content }” を解析しています
 contentanalysis-operationtype-clipboard = クリップボード
 contentanalysis-operationtype-dropped-text = ドロップされたテキスト
+contentanalysis-warndialogtitle = このコンテンツは安全でない可能性があります
+# Variables:
+#   $content - Description of the content being warned about, such as "clipboard" or "aFile.txt"
+contentanalysis-warndialogtext = 所属組織が使用しているデータ損失防止ソフトウェアにより、このコンテンツに安全でないフラグが付けられています: { $content }。それでも使用しますか？
+contentanalysis-warndialog-response-allow = コンテンツを使用
+contentanalysis-warndialog-response-deny = キャンセル
 contentanalysis-notification-title = コンテンツ解析
 # Variables:
 #   $content - Description of the content being reported, such as "clipboard" or "aFile.txt"

@@ -123,11 +123,16 @@ geck | dom, netwerk, toolkit    15208:26e14dec9fcb (2023-10-16)  mar            
 geck | browser, devtools        15218:ed829aba126e (2023-10-24)  mar            sync browser, devtools, toolkit
 comm | mail, suite              15102:9b35aaa417b2 (2023-10-26)  mar            mail, suite
 
-^---Released!
-
 [l10n-mozilla-121.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit             15243:e308001a62d4 (2023-11-24)  mar            sync dom, toolkit
 geck | browser, devtools        15251:b1da3172e70f (2023-12-01)  mar            sync browser, devtools, toolkit
 comm | mail                     15435:874c0dc84bee (2023-11-28)  mar            mail
+
+^---Released!
+
+[l10n-mozilla-121.0]
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
+geck | toolkit                  15272:591982e5d696 (2023-12-28)  mar            sync toolkit, browser/pdfviewer

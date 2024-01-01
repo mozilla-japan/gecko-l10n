@@ -8,6 +8,9 @@
 # Variables
 #   $host (String) - Hostname for which the password is saved for.
 password-manager-save-password-message = { $host } のパスワードを保存しますか？
+password-manager-save-password-button-deny =
+    .label = 後で
+    .accesskey = N
 password-manager-save-password-button-allow =
     .label = 保存する
     .accesskey = S
@@ -17,6 +20,9 @@ password-manager-save-password-button-never =
 # Variables
 #   $host (String) - Hostname for which the password is updated for.
 password-manager-update-password-message = { $host } のパスワードを更新しますか？
+password-manager-update-password-button-delete =
+    .label = 保存されたパスワードを削除
+    .accesskey = R
 password-manager-update-login-add-username = 保存されたパスワードにユーザー名を追加しますか？
 password-manager-password-password-button-allow =
     .label = 更新する
