@@ -110,7 +110,6 @@ shopping-analysis-explainer-label =
 shopping-analysis-explainer-intro2 = 私たちは、{ -fakespot-brand-full-name } の AI 技術を用いて製品レビューの信頼性を確認します。これは製品そのものの品質ではなく、製品の信頼できるレビューへのアクセスを助けるものです。
 shopping-analysis-explainer-grades-intro = 私たちは、各製品のレビューを A から F までの <strong>レターグレード</strong> で評価します。
 shopping-analysis-explainer-adjusted-rating-description = <strong>調整されたレート</strong> は私たちが信頼するに足ると評価したレビューのみを基にしています。
-shopping-analysis-explainer-learn-more = 詳細は、<a data-l10n-name="review-quality-url">{ -fakespot-brand-full-name } によるレビュー品質の決定方法について</a> をご覧ください。
 shopping-analysis-explainer-learn-more2 = 詳細は、<a data-l10n-name="review-quality-url">{ -fakespot-brand-name } によるレビュー品質の決定方法について</a> をご覧ください。
 # This string includes the short brand name of one of the three supported
 # websites, which will be inserted without being translated.
@@ -182,9 +181,13 @@ shopping-onboarding-headline = 製品レビューの信頼できるガイドを�
 #   $secondSite (str) - A second shopping page name
 #   $thirdSite (str) - A third shopping page name
 shopping-onboarding-dynamic-subtitle-1 = 購入する前に、<b>{ $currentSite }</b> の製品レビューがどのくらい信頼できるか調べましょう。{ -brand-product-name } による実験的な機能のレビューチェッカーはブラウザーに組み込まれています。これは <b>{ $secondSite }</b> や <b>{ $thirdSite }</b> でも動作します。
+# Subtitle for countries where we only support one shopping website (e.g. currently used in FR/DE with Amazon)
+# Variables:
+#   $currentSite (str) - The current shopping page name
+shopping-onboarding-single-subtitle = 購入する前に、<b>{ $currentSite }</b> の製品レビューがどのくらい信頼できるか調べましょう。{ -brand-product-name } による実験的な機能のレビューチェッカーはブラウザーに組み込まれています。
 shopping-onboarding-body = { -fakespot-brand-full-name } の協力を得て、ユーザーが偏った不確実なレビューに影響されないよう支援します。ユーザーの買い物を守るため、私たちの AI モデルは常に改善されています。<a data-l10n-name="learn_more">詳細情報</a>
-shopping-onboarding-opt-in-privacy-policy-and-terms-of-use = “{ shopping-onboarding-opt-in-button }“ を選択すると、{ -fakespot-brand-full-name } の <a data-l10n-name="privacy_policy">プライバシーポリシー</a> および <a data-l10n-name="terms_of_use">利用規約</a> に同意したものとみなされます。
 shopping-onboarding-opt-in-privacy-policy-and-terms-of-use2 = “{ shopping-onboarding-opt-in-button }“ を選択すると、{ -fakespot-brand-name } の <a data-l10n-name="privacy_policy">プライバシーポリシー</a> および <a data-l10n-name="terms_of_use">利用規約</a> に同意したものとみなされます。
+shopping-onboarding-opt-in-privacy-policy-and-terms-of-use3 = “{ shopping-onboarding-opt-in-button }“ を選択すると、{ -brand-product-name } の <a data-l10n-name="privacy_policy">プライバシーポリシー</a> および { -fakespot-brand-name } の <a data-l10n-name="terms_of_use">利用規約</a> に同意したものとみなされます。
 shopping-onboarding-opt-in-button = はい、試します
 shopping-onboarding-not-now-button = 後で
 shopping-onboarding-dialog-close-button =

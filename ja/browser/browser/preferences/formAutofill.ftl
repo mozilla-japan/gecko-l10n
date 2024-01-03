@@ -9,6 +9,8 @@ autofill-manage-addresses-title = 保存された住所
 autofill-manage-addresses-list-header = 住所
 autofill-manage-credit-cards-title = 保存されたクレジットカード情報
 autofill-manage-credit-cards-list-header = クレジットカード情報
+autofill-manage-payment-methods-title = 保存された支払い方法
+autofill-manage-cards-list-header = カード
 autofill-manage-dialog =
     .style = min-width: 560px
 autofill-manage-remove-button = 削除
@@ -37,12 +39,14 @@ address-capture-manage-address-button =
     .label = アドレス設定
 address-capture-learn-more-button =
     .label = 詳細情報
+# The dialog title for creating addresses in browser preferences.
+autofill-add-new-address-title = @@New-CMD@@住所の追加
 address-capture-open-menu-button =
     .aria-label = メニューを開きます
 address-capture-edit-address-button =
     .aria-label = 住所を編集します
 # The dialog title for creating addresses in browser preferences.
-autofill-add-new-address-title = @@New-CMD@@住所の追加
+autofill-add-address-title = 住所の追加
 # The dialog title for editing addresses in browser preferences.
 autofill-edit-address-title = 住所の編集
 autofill-address-name = 氏名
@@ -114,9 +118,9 @@ autofill-cancel-button = キャンセル
 autofill-save-button = 保存
 autofill-country-warning-message = 現在、フォーム自動入力機能は特定の国の住所のみ利用可能です。
 # The dialog title for creating credit cards in browser preferences.
-autofill-add-new-card-title = @@New-CMD@@クレジットカード情報を追加
+autofill-add-new-card-title = @@New-CMD@@クレジットカード情報の追加
 # The dialog title for editing credit cards in browser preferences.
-autofill-edit-card-title = クレジットカード情報を編集
+autofill-edit-card-title = クレジットカード情報の編集
 # In macOS, this string is preceded by the operating system with "Firefox is trying to ",
 # and has a period added to its end. Make sure to test in your locale.
 autofill-edit-card-password-prompt =
@@ -125,6 +129,11 @@ autofill-edit-card-password-prompt =
         [windows] { -brand-short-name } がクレジットカード情報を表示しようとしています。以下の Windows アカウントへのアクセスを確認してください。
        *[other] { -brand-short-name } がクレジットカード情報を表示しようとしています。
     }
+autofill-message-tooltip = 自動入力についてのメッセージを表示します
+# The dialog title for creating credit cards in browser preferences.
+autofill-add-card-title = カード情報の追加
+# The dialog title for editing credit cards in browser preferences.
+autofill-edit-card-title2 = カード情報の編集
 autofill-card-number = カード番号
 autofill-card-invalid-number = 正しいカード番号を入力してください
 autofill-card-name-on-card = お名前
