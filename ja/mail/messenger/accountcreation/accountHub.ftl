@@ -78,3 +78,6 @@ account-hub-username-label = ユーザー名
 account-hub-adding-account-title = アカウントの追加
 account-hub-adding-account-subheader = アカウント設定の再テスト
 account-hub-account-added-title = アカウントを追加しました
+account-hub-find-settings-failed = メールアカウントの設定を見つけられませんでした。
+account-hub-notification-show-more = 表示を増やす
+account-hub-notification-show-less = 表示を減らす
