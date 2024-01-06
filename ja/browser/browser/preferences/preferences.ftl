@@ -596,6 +596,9 @@ search-suggestions-desc = 検索エンジンからの検索候補の表示方法
 search-suggestions-option =
     .label = 検索候補を使用する
     .accesskey = s
+search-show-suggestions-option =
+    .label = 検索候補を表示する
+    .accesskey = S
 search-show-suggestions-url-bar-option =
     .label = アドレスバーに検索候補を表示する
     .accesskey = l
@@ -729,8 +732,10 @@ sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
 sync-currently-syncing-tabs = 開いているタブ
 sync-currently-syncing-logins-passwords = ログイン情報とパスワード
+sync-currently-syncing-passwords = パスワード
 sync-currently-syncing-addresses = 所在地フォーム
 sync-currently-syncing-creditcards = クレジットカード情報
+sync-currently-syncing-payment-methods = 支払い方法
 sync-currently-syncing-addons = アドオン
 sync-currently-syncing-settings = 個人設定
 sync-change-options =
@@ -761,6 +766,10 @@ sync-engine-logins-passwords =
     .label = ログイン情報とパスワード
     .tooltiptext = 保存したユーザー名とパスワードです
     .accesskey = L
+sync-engine-passwords =
+    .label = パスワード
+    .tooltiptext = 保存したパスワードです
+    .accesskey = P
 sync-engine-addresses =
     .label = 所在地フォーム
     .tooltiptext = 保存した住所です (デスクトップのみ)
@@ -769,6 +778,10 @@ sync-engine-creditcards =
     .label = クレジットカード
     .tooltiptext = クレジットカードの名義と番号と有効期限です (デスクトップのみ)
     .accesskey = C
+sync-engine-payment-methods2 =
+    .label = 支払い方法
+    .tooltiptext = 氏名とカード番号、有効期限
+    .accesskey = n
 sync-engine-addons =
     .label = アドオン
     .tooltiptext = デスクトップ版 Firefox の拡張機能とテーマです
@@ -815,18 +828,34 @@ pane-privacy-logins-and-passwords-header = ログインとパスワード
 forms-ask-to-save-logins =
     .label = ウェブサイトのログイン情報とパスワードを保存する
     .accesskey = r
+## Privacy Section - Passwords
+
+# "Logins" is the former term for "Passwords". Users should find password settings
+# by searching for the former term "logins". It's not displayed in the UI.
+pane-privacy-passwords-header = パスワード
+    .searchkeywords = ログイン情報
+# Checkbox to control whether UI is shown to users to save or fill logins/passwords.
+forms-ask-to-save-passwords =
+    .label = パスワードの保存を尋ねる
+    .accesskey = A
 forms-exceptions =
     .label = 例外サイト...
     .accesskey = x
 forms-generate-passwords =
     .label = 強固なパスワードを生成、提案する
     .accesskey = u
+forms-suggest-passwords =
+    .label = 強固なパスワードを提案する
+    .accesskey = S
 forms-breach-alerts =
     .label = 漏洩したウェブサイトのパスワードの警告を表示する
     .accesskey = b
 forms-breach-alerts-learn-more-link = 詳細情報
 preferences-relay-integration-checkbox =
     .label = { -relay-brand-name } メールマスクによるメールアドレスの保護を提案する
+preferences-relay-integration-checkbox2 =
+    .label = { -relay-brand-name } メールマスクによるメールアドレスの保護を提案する
+    .accesskey = r
 relay-integration-learn-more-link = 詳細情報
 # Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
 forms-fill-logins-and-passwords =
@@ -835,6 +864,13 @@ forms-fill-logins-and-passwords =
 forms-saved-logins =
     .label = 保存されているログイン情報...
     .accesskey = L
+# Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
+forms-fill-usernames-and-passwords =
+    .label = 自動的にユーザー名とパスワードを入力する
+    .accesskey = F
+forms-saved-passwords =
+    .label = 保存されたパスワード
+    .accesskey = d
 forms-primary-pw-use =
     .label = マスターパスワードを使用する
     .accesskey = U
@@ -858,6 +894,7 @@ forms-windows-sso =
     .label = Microsoft アカウント、職場または学校アカウントで Windows のシングルサインオンを許可する
 forms-windows-sso-learn-more-link = 詳細情報
 forms-windows-sso-desc = 端末の設定でアカウントを管理します
+windows-passkey-settings-label = システム設定で Passkey を管理します
 
 ## OS Authentication dialog
 
@@ -869,6 +906,27 @@ primary-password-os-auth-dialog-message-win = マスターパスワードを作�
 # notes are only valid for English. Please test in your locale.
 primary-password-os-auth-dialog-message-macosx = マスターパスワードを作成
 master-password-os-auth-dialog-caption = { -brand-full-name }
+
+## Privacy section - Autofill
+
+pane-privacy-autofill-header = 自動入力
+autofill-addresses-checkbox = 住所を保存して入力する
+    .accesskey = a
+autofill-saved-addresses-button = 保存された住所
+    .accesskey = S
+autofill-payment-methods-checkbox-message = 支払い方法を保存して入力する
+    .accesskey = m
+autofill-payment-methods-checkbox-submessage = クレジットカードとデビットカードを含める
+    .accesskey = I
+autofill-saved-payment-methods-button = 保存された支払方法
+    .accesskey = v
+autofill-reauth-checkbox = { PLATFORM() ->
+            [macos] 支払い方法の入力と編集は macOS の認証が必要です。
+            [windows] 支払い方法の入力と編集は Windows の認証が必要です。
+            [linux] 支払い方法の入力と編集は Linux の認証が必要です。
+           *[other] 支払い方法の入力と編集は OS の認証が必要です。
+        }
+    .accesskey = o
 
 ## Privacy Section - History
 

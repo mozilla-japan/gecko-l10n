@@ -23,6 +23,9 @@ bookmark-overlay-folders-expander2 =
     .tooltiptext = すべてのブックマークフォルダーを表示します
 bookmark-overlay-folders-expander-hide =
     .tooltiptext = 一覧を閉じます
+# bookmark-overlay-folders-tree is used to provide an accessible name to the tree view of the Bookmarks directory, when it is expanded
+bookmark-overlay-folders-tree =
+    .aria-label = フォルダー
 bookmark-overlay-new-folder-button =
     .label = @@New-CMD@@フォルダー
     .accesskey = o

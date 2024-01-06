@@ -12,11 +12,16 @@ webauthn-pin-invalid-long-prompt =
 webauthn-pin-invalid-short-prompt = PIN コードが正しくありません。再度入力してください。
 webauthn-pin-required-prompt = 端末の PIN コードを入力してください。
 webauthn-select-sign-result-unknown-account = アカウントが不明です
+webauthn-a-passkey-label = Passkey を使用する
+webauthn-another-passkey-label = 別の Passkey を使用する
+# Variables:
+#   $domain (String): the domain of the site.
+webauthn-specific-passkey-label = { $domain } 用の Passkey
 # Variables:
 #  $retriesLeft (Number): number of tries left
 webauthn-uv-invalid-long-prompt =
     { $retriesLeft ->
-        [one] ユーザー確認に失敗しました。残り { $retriesLeft } 回まで試すことができます。
-       *[other] ユーザー確認に失敗しました。残り { $retriesLeft } 回まで試すことができます。
+        [one] ユーザー確認に失敗しました。残り { $retriesLeft } 回まで試すことができます。もう一度試してください。
+       *[other] ユーザー確認に失敗しました。残り { $retriesLeft } 回まで試すことができます。もう一度試してください。
     }
 webauthn-uv-invalid-short-prompt = ユーザー確認に失敗しました。もう一度試してください。

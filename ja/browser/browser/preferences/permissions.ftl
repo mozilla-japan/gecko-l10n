@@ -107,6 +107,13 @@ permissions-exceptions-saved-logins-window2 =
     .style = { permissions-window2.style }
 permissions-exceptions-saved-logins-desc = 次のウェブサイトのログイン情報は保存されません。
 
+## Exceptions - Saved Passwords
+
+permissions-exceptions-saved-passwords-window =
+    .title = 例外 - パスワードの保存
+    .style = { permissions-window2.style }
+permissions-exceptions-saved-passwords-desc = この一覧のウェブサイトのパスワードは { -brand-short-name } に保存されません。
+
 ## Exceptions - Add-ons
 
 permissions-exceptions-addons-window2 =
