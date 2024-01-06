@@ -29,14 +29,6 @@ protections-panel-etp-off-header = 強化型トラッキング防止機能はこ
 ## custom element code.
 ##   $host (String): the hostname of the site that is being displayed.
 
-protections-panel-etp-on-toggle =
-    .label = 強化型トラッキング防止
-    .description = このサイトでオンです
-    .aria-label = { $host } での保護を無効にします
-protections-panel-etp-off-toggle =
-    .label = 強化型トラッキング防止
-    .description = このサイトでオフです
-    .aria-label = { $host } での保護を有効にします
 protections-panel-etp-toggle-on =
     .label = 強化型トラッキング防止
     .description = このサイトでオンです
@@ -149,10 +141,10 @@ protections-panel-cookie-banner-blocker-view-turn-off-for-site = { $host } サ�
 protections-panel-cookie-banner-blocker-view-turn-on-for-site = このサイトの Cookie バナーブロッカーをオフにしますか？
 protections-panel-cookie-banner-view-cookie-clear-warning = { -brand-short-name } がこのサイトの Cookie を消去してページを更新します。すべての Cookie を消去するとサイトからログアウトしたり買い物カゴが空になったりする可能性があります。
 protections-panel-cookie-banner-view-turn-on-description = サポートされたサイトのすべての Cookie 同意確認に対して、{ -brand-short-name } が自動的に拒否を試みます。
-protections-panel-cookie-banner-blocker-view-turn-on-description = オンにすると、このサイトの Cookie バナーに対して { -brand-short-name } が自動的に拒否を試みます。
 protections-panel-cookie-banner-view-cancel = キャンセル
 protections-panel-cookie-banner-view-turn-off = オフにする
 protections-panel-cookie-banner-view-turn-on = オンにする
+protections-panel-cookie-banner-blocker-view-turn-on-description = オンにすると、このサイトの Cookie バナーに対して { -brand-short-name } が自動的に拒否を試みます。
 protections-panel-cookie-banner-view-cancel-label =
     .label = キャンセル
 protections-panel-cookie-banner-view-turn-off-label =
@@ -161,4 +153,4 @@ protections-panel-cookie-banner-view-turn-on-label =
     .label = オンにする
 protections-panel-report-broken-site =
     .label = 動作しないサイトを報告
-    .title = 動作しないサイトを報告
+    .title = 動作しないサイトを報告します

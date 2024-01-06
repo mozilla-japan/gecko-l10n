@@ -149,8 +149,12 @@ firefoxview-opentabs-focus-tab =
     .title = このタブに切り替えます
 firefoxview-show-more = 表示を増やす
 firefoxview-show-less = 表示を減らす
+firefoxview-show-all = すべて表示
 firefoxview-search-text-box-clear-button =
     .title = 消去
+# Placeholder for the input field to search in recent browsing ("search" is a verb).
+firefoxview-search-text-box-recentbrowsing =
+    .placeholder = 検索
 # Placeholder for the input field to search in history ("search" is a verb).
 firefoxview-search-text-box-history =
     .placeholder = 履歴を検索
