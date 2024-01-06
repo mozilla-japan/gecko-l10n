@@ -137,4 +137,4 @@ repo | target dir               hg changeset rev:id (pushdate)   by             
 --------------------------------------------------------------------------------------------------------
 geck | toolkit                  15272:591982e5d696 (2023-12-28)  mar            sync toolkit, browser/pdfviewer
 geck | browser, devtools        15272:591982e5d696 (2023-12-28)  mar            sync browser, devtools
-
+comm | mail                     16827:37a78184ad9a (2023-12-20)  mar            mail
