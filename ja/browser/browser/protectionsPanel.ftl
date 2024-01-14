@@ -154,3 +154,9 @@ protections-panel-cookie-banner-view-turn-on-label =
 protections-panel-report-broken-site =
     .label = 動作しないサイトを報告
     .title = 動作しないサイトを報告します
+
+## Protections panel info message
+
+cfr-protections-panel-header = 追跡を遮断する
+cfr-protections-panel-body = あなたのデータはあなた自身だけに。{ -brand-short-name } はオンラインでのあなたの行動を追跡するよく知られた数多くのトラッカーからあなたを守ります。
+cfr-protections-panel-link-text = 詳細
