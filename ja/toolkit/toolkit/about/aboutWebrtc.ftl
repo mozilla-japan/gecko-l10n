@@ -33,8 +33,6 @@ about-webrtc-aec-logging-toggled-off-state-msg = 記録したログファイル�
 
 # The autorefresh checkbox causes a stats section to autorefresh its content when checked
 about-webrtc-auto-refresh-label = 自動更新する
-# Determines the default state of the Auto Refresh check boxes
-about-webrtc-auto-refresh-default-label = @@Default@@で自動更新する
 # A button which forces a refresh of displayed statistics
 about-webrtc-force-refresh-button = 更新
 # "PeerConnection" is a proper noun associated with the WebRTC module. "ID" is
@@ -98,8 +96,8 @@ about-webrtc-save-page-label = ページを保存
 about-webrtc-debug-mode-msg-label = デバッグモード
 about-webrtc-debug-mode-off-state-label = デバッグモードを開始
 about-webrtc-debug-mode-on-state-label = デバッグモードを停止
-about-webrtc-enable-logging-label = WebRTC ログのプリセットを有効化
 about-webrtc-stats-heading = セッション統計
+about-webrtc-enable-logging-label = WebRTC ログのプリセットを有効化
 about-webrtc-peerconnections-section-heading = RTCPeerConnection 統計
 about-webrtc-peerconnections-section-show-msg = RTCPeerConnection 統計を表示
 about-webrtc-peerconnections-section-hide-msg = RTCPeerConnection 統計を隠す

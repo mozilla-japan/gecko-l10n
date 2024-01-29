@@ -293,16 +293,17 @@ pdfjs-web-fonts-disabled = ウェブフォントが無効になっています: 
 ## Editing
 
 pdfjs-editor-free-text-button =
-    .title = フリーテキスト注釈
+    .title = フリーテキスト注釈を追加します
 pdfjs-editor-free-text-button-label = フリーテキスト注釈
 pdfjs-editor-ink-button =
-    .title = インク注釈
+    .title = インク注釈を追加します
 pdfjs-editor-ink-button-label = インク注釈
 pdfjs-editor-stamp-button =
     .title = 画像を追加または編集します
 pdfjs-editor-stamp-button-label = 画像を追加または編集
-pdfjs-editor-remove-button =
-    .title = 削除
+pdfjs-editor-highlight-button =
+    .title = 強調します
+pdfjs-editor-highlight-button-label = 強調
 
 ## Remove button for the various kind of editor.
 

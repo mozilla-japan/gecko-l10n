@@ -17,6 +17,8 @@ about-webauthn-pin-section-title = PIN の管理
 about-webauthn-credential-management-section-title = 認証情報の管理
 about-webauthn-pin-required-section-title = PIN が必要
 about-webauthn-confirm-deletion-section-title = 削除の確認
+# Registered biometric features for authentication. Mostly, but not exclusively, fingerprints.
+about-webauthn-bio-enrollment-section-title = 生体情報の登録
 
 ## Info field texts
 
@@ -26,6 +28,8 @@ about-webauthn-text-select-device = デバイスをタッチして使用する�
 # CTAP2 refers to Client to Authenticator Protocol version 2
 about-webauthn-text-non-ctap2-device = ご使用のセキュリティトークンが CTAP2 に対応していないためオプションを管理できません。
 about-webauthn-text-not-available = このプラットフォームでは利用できません。
+about-webauthn-bio-enrollment-list-subsection-title = 登録:
+about-webauthn-add-bio-enrollment-section-title = @@New-CMD@@生体情報を追加
 
 ## Results label
 
@@ -40,6 +44,7 @@ about-webauthn-results-pin-invalid-error =
        *[other] エラー: PIN が正しくありません。もう一度試してください。試行回数は残り { $retriesLeft } 回です。
     }
 about-webauthn-results-pin-blocked-error = エラー: 正しくない PIN が入力され、その試行回数の上限を超えたため端末がロックされました。端末をリセットする必要があります。
+about-webauthn-results-pin-not-set-error = エラー: PIN が設定されてません。この操作は PIN による保護が必要です。
 about-webauthn-results-pin-too-short-error = エラー: PIN が短すぎます。
 about-webauthn-results-pin-too-long-error = エラー: PIN が長すぎます。
 about-webauthn-results-pin-auth-blocked-error = エラー: 何度も認証に失敗したため PIN 認証が一時的にブロックされました。端末の電源を入れ直す必要があります (プラグを差し直してください)。
@@ -52,6 +57,8 @@ about-webauthn-repeat-pin-label = @@New-CMD@@ PIN (再入力):
 about-webauthn-current-pin-label = 現在の PIN:
 about-webauthn-pin-required-label = PIN を入力してください:
 about-webauthn-credential-list-subsection-title = 認証情報:
+about-webauthn-enrollment-name-label = 生体情報名 (任意):
+about-webauthn-enrollment-list-empty = 端末に生体情報が見つかりませんでした。
 about-webauthn-credential-list-empty = 端末に認証情報が見つかりませんでした。
 about-webauthn-confirm-deletion-label = 削除対象:
 
@@ -61,9 +68,14 @@ about-webauthn-current-set-pin-button = PIN を設定
 about-webauthn-current-change-pin-button = PIN を変更
 # List is a verb, as in "Show list of credentials"
 about-webauthn-list-credentials-button = 認証情報一覧を表示
+# List is a verb, as in "Show list of all enrollments"
+about-webauthn-list-bio-enrollments-button = 生体情報一覧を表示
+about-webauthn-add-bio-enrollment-button = 生体情報を追加
 about-webauthn-cancel-button = キャンセル
 about-webauthn-send-pin-button = OK
 about-webauthn-delete-button = 削除
+about-webauthn-start-enrollment-button = 登録開始
+about-webauthn-update-button = 更新
 
 ## Authenticator options fields
 ## Option fields correspond to the CTAP2 option IDs and definitions found in https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-20210615.html#option-id
@@ -127,3 +139,41 @@ about-webauthn-auth-info-true = True
 # Shows when boolean value for an info field is False. False should not be translated.
 about-webauthn-auth-info-false = False
 about-webauthn-auth-info-null = 未対応
+
+## Bio enrollment sample feedbacks
+
+# To register a new enrollment (e.g. fingerprint) usually
+# multiple scans of the same finger have to be sampled.
+# This shows how many the user still has to do.
+# Variables:
+#  $repeatCount (Number): number of tries left
+about-webauthn-samples-still-needed =
+    { $repeatCount ->
+        [one] あと { $repeatCount } 個のサンプルが必要です。
+       *[other] あと { $repeatCount } 個のサンプルが必要です。
+    }
+# Scan (e.g. of fingerprint) was successful.
+about-webauthn-ctap2-enroll-feedback-good = サンプルのスキャンが完了しました。
+
+## Scan (e.g. of fingerprint) was off-center (e.g. too high, too left, etc.).
+
+about-webauthn-ctap2-enroll-feedback-too-high = サンプルの位置が高すぎます。
+about-webauthn-ctap2-enroll-feedback-too-low = サンプルの位置が低すぎます。
+about-webauthn-ctap2-enroll-feedback-too-left = サンプルの位置が左に寄りすぎています。
+about-webauthn-ctap2-enroll-feedback-too-right = サンプルの位置が右に寄りすぎています。
+
+##
+
+about-webauthn-ctap2-enroll-feedback-too-fast = サンプルが速すぎます。
+about-webauthn-ctap2-enroll-feedback-too-slow = サンプルが遅すぎます。
+about-webauthn-ctap2-enroll-feedback-poor-quality = サンプルの品質が十分ではありません。
+# Skewed in the sense of fingerprint/iris scan was too distorted
+about-webauthn-ctap2-enroll-feedback-too-skewed = サンプルが歪んでいます。
+about-webauthn-ctap2-enroll-feedback-too-short = サンプルが短すぎます。
+# Scan (e.g. of fingerprint) couldn't be merged with previous samples.
+about-webauthn-ctap2-enroll-feedback-merge-failure = サンプルの結合に失敗しました。
+# Scan (e.g. of fingerprint) is somehow identical to an existing sample.
+about-webauthn-ctap2-enroll-feedback-exists = サンプルはすでに存在しています。
+about-webauthn-ctap2-enroll-feedback-no-user-activity = ユーザーからの操作がありません。
+about-webauthn-ctap2-enroll-feedback-no-user-presence-transition = サンプルのスキャンが中断されました。
+about-webauthn-ctap2-enroll-feedback-other = サンプルエラー。
