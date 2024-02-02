@@ -226,6 +226,9 @@ shortcuts-no-commands = 次の拡張機能にはショートカットがあり�
 # (^m^) shortcuts-input.placeholder は 15 文字まで
 shortcuts-input =
     .placeholder = ショートカットキーを入力
+# Accessible name for a trashcan icon button that removes an existent shortcut
+shortcuts-remove-button =
+    .aria-label = ショートカットを削除します
 shortcuts-browserAction2 = ツールバーボタンを有効化
 shortcuts-pageAction = ページ操作を有効化
 shortcuts-sidebarAction = サイドバーの表示を切り替え
