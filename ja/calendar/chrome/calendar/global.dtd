@@ -2,18 +2,18 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY month.1.name "1月" >
-<!ENTITY month.2.name "2月" >
-<!ENTITY month.3.name "3月" >
-<!ENTITY month.4.name "4月" >
-<!ENTITY month.5.name "5月" >
-<!ENTITY month.6.name "6月" >
-<!ENTITY month.7.name "7月" >
-<!ENTITY month.8.name "8月" >
-<!ENTITY month.9.name "9月" >
-<!ENTITY month.10.name "10月" >
-<!ENTITY month.11.name "11月" >
-<!ENTITY month.12.name "12月" >
+<!ENTITY month.1.name "1 月" >
+<!ENTITY month.2.name "2 月" >
+<!ENTITY month.3.name "3 月" >
+<!ENTITY month.4.name "4 月" >
+<!ENTITY month.5.name "5 月" >
+<!ENTITY month.6.name "6 月" >
+<!ENTITY month.7.name "7 月" >
+<!ENTITY month.8.name "8 月" >
+<!ENTITY month.9.name "9 月" >
+<!ENTITY month.10.name "10 月" >
+<!ENTITY month.11.name "11 月" >
+<!ENTITY month.12.name "12 月" >
 
 <!ENTITY showToday.tooltip "今日へ移動します">
 <!ENTITY onedayforward.tooltip "次の日へ移動します">
