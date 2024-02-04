@@ -73,6 +73,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = なし
+account-hub-auth-no-authentication-option =
+    .label = 認証なし
 account-hub-auth-label = 認証方式
 account-hub-username-label = ユーザー名
 account-hub-adding-account-title = アカウントの追加

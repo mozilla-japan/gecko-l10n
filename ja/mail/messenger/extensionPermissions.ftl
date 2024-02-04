@@ -6,6 +6,8 @@
 ## Extension permission description keys are derived from permission names.
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
 
 webext-perms-description-accountsFolders = メールアカウントフォルダーの作成または名前変更、削除
 webext-perms-description-accountsIdentities = メールアカウントの差出人情報の作成または編集、削除
@@ -17,6 +19,7 @@ webext-perms-description-compose-save = 下書きまたはテンプレートと�
 webext-perms-description-experiment = { -brand-short-name } とコンピューターへの完全に無制限なアクセス
 webext-perms-description-messagesImport = Thunderbird へのメッセージの@@ImportNoun@@
 webext-perms-description-messagesModify = 表示されたメッセージの読み取りと編集
+webext-perms-description-messagesModifyPermanent = メッセージのソースの恒久的な編集 (ヘッダー、本文、添付を含む)
 webext-perms-description-messagesMove = メッセージのコピーまたは移動 (@@TrashFolder@@への移動を含む)
 webext-perms-description-messagesDelete = メッセージの完全削除
 webext-perms-description-messagesRead = メッセージの読み取りとマーク付け、タグ付け
