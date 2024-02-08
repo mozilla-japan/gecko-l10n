@@ -138,8 +138,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] 公開鍵をクリップボードにコピー
         }
     .accesskey = P
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = 鍵をファイルに@@Export-si@@ます
 openpgp-key-man-ctx-copy =
     .label = コピー
     .accesskey = C
