@@ -563,6 +563,11 @@ urlbar-result-action-search-w-engine = { $engine } で検索
 urlbar-result-action-sponsored = 広告
 urlbar-result-action-switch-tab = タブを表示
 urlbar-result-action-visit = 開く
+# "Switch to tab with container" is used when the target tab is located in a
+# different container.
+# Variables
+# $container (String): the name of the target container
+urlbar-result-action-switch-tab-with-container = タブを表示 · <span>{ $container }</span>
 # Allows the user to visit a URL that was previously copied to the clipboard.
 urlbar-result-action-visit-from-clipboard = クリップボードから開く
 # Directs a user to press the Tab key to perform a search with the specified
@@ -886,6 +891,10 @@ tabs-toolbar-list-all-tabs =
 # <img data-l10n-name="icon"/> will be replaced by the application menu icon
 restore-session-startup-suggestion-message = <strong>前回のタブを開きますか？</strong> { -brand-short-name } アプリケーションメニュー<img data-l10n-name="icon"/>の履歴から前回のセッションを復元できます。
 restore-session-startup-suggestion-button = 方法を確認
+
+## Infobar shown when the user tries to open a file picker and file pickers are blocked by enterprise policy
+
+filepicker-blocked-infobar = 所属組織がこのコンピューター上のローカルファイルへのアクセスをブロックしています
 
 ## Mozilla data reporting notification (Telemetry, Firefox Health Report, etc)
 

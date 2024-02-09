@@ -114,7 +114,7 @@ options-enable-remote-label = リモートデバッガーを有効化
 options-enable-remote-tooltip2 =
     .title = このオプションを有効にすると、このブラウザーインスタンスをリモートでデバッグできるようになります
 # The label for checkbox that enables F12 as a shortcut to open DevTools
-options-enable-f12-label = Use the F12 key to open or close DevTools
+options-enable-f12-label = F12 キーで DevTools を開閉する
 options-enable-f12-tooltip =
     .title = このオプションを有効にすると、F12 キーに DevTools ツールボックスの開閉を割り当てます
 # The label for checkbox that toggles custom formatters for objects

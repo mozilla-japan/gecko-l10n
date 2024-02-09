@@ -96,18 +96,10 @@ migration-passwords-from-file-no-valid-data = このファイルには正しい�
 migration-passwords-from-file-picker-title = パスワードファイルの@@ImportNoun@@
 # A description for the .csv file format that may be shown as the file type
 # filter by the operating system.
-migration-passwords-from-file-csv-filter-title =
-    { PLATFORM() ->
-        [macos] CSV ドキュメント
-       *[other] CSV ファイル
-    }
+migration-passwords-from-file-csv-filter-title = CSV ファイル
 # A description for the .tsv file format that may be shown as the file type
 # filter by the operating system. TSV is short for 'tab separated values'.
-migration-passwords-from-file-tsv-filter-title =
-    { PLATFORM() ->
-        [macos] TSV ドキュメント
-       *[other] TSV ファイル
-    }
+migration-passwords-from-file-tsv-filter-title = TSV ファイル
 # Shown in the migration wizard after importing passwords from a file
 # has completed, if new passwords were added.
 #

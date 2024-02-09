@@ -197,6 +197,9 @@ cfr-cbh-dismiss-button = 後で
     .accesskey = N
 cookie-banner-blocker-cfr-header = { -brand-short-name } が Cookie をブロックしました
 cookie-banner-blocker-cfr-body = ユーザーを追跡するサイトに立ち向かうため、多くの Cookie ポップアップを自動的に拒否しています。
+cookie-banner-blocker-onboarding-header = { -brand-short-name } が Cookie バナーを拒否します
+cookie-banner-blocker-onboarding-body = このサイトに集中でき、Cookie による追跡も減少します。
+cookie-banner-blocker-onboarding-learn-more = 詳細情報
 
 ## These strings are used in the Fox doodle Pin/set default spotlights
 
@@ -226,10 +229,6 @@ fxa-sync-cfr-secondary = 後で通知
 
 ## Device Migration FxA Spotlight
 
-device-migration-fxa-spotlight-header = 古い端末をご使用ですか？
-device-migration-fxa-spotlight-body = データをバックアップ保存して、ブックマークやパスワードなどの重要な情報を失わないようにしましょう。特に新しい端末に切り替えたときは。
-device-migration-fxa-spotlight-primary-button = データをバックアップする方法
-device-migration-fxa-spotlight-link = 後で通知
 device-migration-fxa-spotlight-heavy-user-header = データのバックアップを忘れないでください
 device-migration-fxa-spotlight-heavy-user-body = 重要な情報 (ブックマークやパスワードなど) はご使用のすべての端末で更新して保護しましょう。
 device-migration-fxa-spotlight-heavy-user-primary-button = 開始
@@ -264,3 +263,14 @@ launch-on-login-infobar-reject-button = 後で
 launch-on-login-infobar-final-message = <strong>コンピューターの再起動時に毎回 { -brand-short-name } を開きますか？</strong> 起動時の設定を管理するには、設定で “起動” を検索してください。
 launch-on-login-infobar-final-reject-button = いいえ、結構です
     .accesskey = N
+
+## Tail Fox Set Default Spotlight
+
+# This title is displayed together with the picture of a running fox with a long tail.
+# In English, this is a figure of speech meaning 'stop something from following you'.
+# If the localization of this message is challenging, consider using a simplified
+# alternative as a reference for translation: 'Keep unwanted trackers away'.
+tail-fox-spotlight-title = 迷惑なトラッカーを尻尾で振り払います
+tail-fox-spotlight-subtitle = 迷惑な広告トラッカーに別れを告げて、安全で高速なインターネットを体験しましょう。
+tail-fox-spotlight-primary-button = { -brand-short-name } でリンクを開く
+tail-fox-spotlight-secondary-button = 後で

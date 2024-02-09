@@ -126,6 +126,20 @@ webrtc-allow-share-camera-and-audio-capture = { $origin } にカメラの使用�
 webrtc-allow-share-screen-and-microphone = { $origin } にマイクの使用とあなたの画面の表示を許可しますか？
 webrtc-allow-share-screen-and-audio-capture = { $origin } にこのタブの音声の再生と、あなたの画面の表示を許可しますか？
 
+## Special phrasing for sharing devices when the origin is a file url.
+
+webrtc-allow-share-audio-capture-with-file = このローカルファイルにこのタブの音声の再生を許可しますか？
+webrtc-allow-share-camera-with-file = このローカルファイルにカメラの使用を許可しますか？
+webrtc-allow-share-microphone-with-file = このローカルファイルにマイクの使用を許可しますか？
+webrtc-allow-share-screen-with-file = このローカルファイルにあなたの画面の表示を許可しますか？
+# "Speakers" is used in a general sense that might include headphones or
+# another audio output connection.
+webrtc-allow-share-speaker-with-file = このローカルファイルに他のスピーカーの使用を許可しますか？
+webrtc-allow-share-camera-and-microphone-with-file = このローカルファイルにカメラとマイクの使用を許可しますか？
+webrtc-allow-share-camera-and-audio-capture-with-file = このローカルファイルにカメラの使用と、このタブの音声の再生を許可しますか？
+webrtc-allow-share-screen-and-microphone-with-file = このローカルファイルにマイクの使用とあなたの画面の表示を許可しますか？
+webrtc-allow-share-screen-and-audio-capture-with-file = このローカルファイルにこのタブの音声の再生と、あなたの画面の表示を許可しますか？
+
 ## Variables:
 ##   $origin (String): the first party origin.
 ##   $thirdParty (String): the third party origin.
