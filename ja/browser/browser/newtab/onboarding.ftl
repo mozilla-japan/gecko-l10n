@@ -328,3 +328,19 @@ onboarding-mobile-download-security-and-privacy-subtitle = 同期した端末で
 # Gratitude screen
 onboarding-gratitude-security-and-privacy-title = { -brand-short-name } はあなたの味方です
 onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation による { -brand-short-name } をご使用くださりありがとうございます。あなたのご支援によって、私たちはインターネットをすべての人々のために安全でアクセシブルなものにすることができます。
+
+## New user time and familiarity survey strings
+
+onboarding-new-user-time-based-survey-title = { -brand-short-name } をどのくらい長く使っていますか？
+onboarding-new-user-familiarity-based-survey-title = { -brand-short-name } にどのくらい親しんでいますか？
+onboarding-new-user-survey-subtitle = あなたのフィードバックが { -brand-short-name } をより良くします。
+# When translating "brand new" it means completely new.
+onboarding-new-user-survey-time-based-option-1 = 初めて使う
+onboarding-new-user-survey-time-based-option-2 = 使い始めて 1 か月未満
+onboarding-new-user-survey-time-based-option-3 = 1 か月以上、よく使う
+onboarding-new-user-survey-time-based-option-4 = 1 か月以上、たまに使う
+# When translating "brand new" it means completely new.
+onboarding-new-user-survey-familiarity-based-option-1 = 初めて使う
+onboarding-new-user-survey-familiarity-based-option-2 = 何度か使っている
+onboarding-new-user-survey-familiarity-based-option-3 = よく使っている
+onboarding-new-user-survey-familiarity-based-option-4 = 以前使ったことがあり、久しぶりに使う

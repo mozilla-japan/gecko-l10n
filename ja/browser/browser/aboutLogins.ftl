@@ -242,11 +242,6 @@ about-logins-confirm-remove-all-sync-dialog-message=
         [1] { -fxaccount-brand-name } と同期した全端末の { -brand-short-name } に保存したログイン情報が消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
        *[other] { -fxaccount-brand-name } と同期した全端末の { -brand-short-name } に保存したすべてのログイン情報が消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
     }
-about-logins-confirm-remove-all-sync-dialog-message2=
-    { $count ->
-        [1] アカウントと同期した全端末の { -brand-short-name } に保存されたログイン情報を消去します。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
-       *[other] アカウントと同期した全端末の { -brand-short-name } に保存されたすべてのログイン情報を消去します。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
-    }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
     { $count ->

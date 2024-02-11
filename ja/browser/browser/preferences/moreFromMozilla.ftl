@@ -24,3 +24,10 @@ more-from-moz-learn-more-link = 詳細
 more-from-moz-firefox-relay-title = { -relay-brand-name }
 more-from-moz-firefox-relay-description = 無料のメールマスク機能で受信トレイと個人情報を保護しましょう。
 more-from-moz-firefox-relay-button = { -relay-brand-short-name } を入手
+
+## These strings are for the Mozilla Monitor card in about:preferences moreFromMozilla page
+
+more-from-moz-mozilla-monitor-title = { -mozmonitor-brand-name }
+more-from-moz-mozilla-monitor-us-description = 漏洩したあなたの個人情報を自動的に取り戻します。
+more-from-moz-mozilla-monitor-global-description = 個人情報のデータ侵害があればメールで通知します。
+more-from-moz-mozilla-monitor-button = { -monitor-brand-short-name } を使う

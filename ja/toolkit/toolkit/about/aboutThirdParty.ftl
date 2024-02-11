@@ -49,11 +49,11 @@ third-party-button-to-unblock =
     .aria-label = 現在ブロックされています。クリックするとブロックが解除されます。
 third-party-button-to-unblock-disabled =
     .title =
-        現在ブロック済みマークが付いていますが、実行中の { -brand-short-name } ではブロックリストが無効化されています。
-        クリックするとブロックが解除されます。
+        現在ブロック済みのマークが付いていますが、今回の { -brand-short-name } の実行中はブロックリストが無効化されています。
+        クリックするとブロックを解除します。
     .aria-label =
-        現在ブロック済みマークが付いていますが、実行中の { -brand-short-name } ではブロックリストが無効化されています。
-        クリックするとブロックが解除されます。
+        現在ブロック済みのマークが付いていますが、今回の { -brand-short-name } の実行中はブロックリストが無効化されています。
+        クリックするとブロックを解除します。
 third-party-button-to-block-module = このモジュールをブロック
     .title = このモジュールをブロックします
     .aria-label = このモジュールをブロックします

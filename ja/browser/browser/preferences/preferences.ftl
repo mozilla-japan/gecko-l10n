@@ -191,6 +191,9 @@ containers-remove-alert-title = このコンテナーを削除しますか？
 containers-remove-alert-msg = このコンテナーを削除すると { $count } 個のコンテナータブが閉じられます。このコンテナーを削除してもよろしいですか？
 containers-remove-ok-button = このコンテナーを削除する
 containers-remove-cancel-button = 削除しない
+settings-tabs-show-image-in-preview =
+    .label = タブにカーソルを合わせた時にプレビュー画像を表示する
+    .accessKey = h
 
 ## General Section - Language & Appearance
 
@@ -982,6 +985,7 @@ sitedata-delete-on-close =
     .label = { -brand-short-name } を閉じたときに Cookie とサイトデータを削除する
     .accesskey = c
 sitedata-delete-on-close-private-browsing = 永続プライベートブラウジングモードでは、Cookie とサイトデータは { -brand-short-name } の終了時に必ず消去されます。
+sitedata-delete-on-close-private-browsing2 = ブラウザーを閉じると、履歴の設定に従って { -brand-short-name } がセッションの Cookie とサイトデータを削除します。
 sitedata-allow-cookies-option =
     .label = Cookie とサイトデータを保存する
     .accesskey = A
