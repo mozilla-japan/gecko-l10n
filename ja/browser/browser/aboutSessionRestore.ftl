@@ -8,8 +8,8 @@ restore-page-tab-title = セッションの復元
 restore-page-error-title = ご迷惑をおかけして申し訳ありません。
 restore-page-problem-desc = 前回のブラウジングセッションを正常に復元できませんでした。もう一度試すには @@[@@セッションを復元@@]@@ を選択してください。
 restore-page-try-this = まだセッションを復元できない場合は、いずれかのタブが問題の原因となっています。前回のタブの一覧を見て、復元する必要のないタブのチェックマークを外してから復元してください。
-restore-page-hide-tabs = 前回のタブを表示
-restore-page-show-tabs = 前回のタブを隠す
+restore-page-hide-tabs = 前回のタブを隠す
+restore-page-show-tabs = 前回のタブを表示
 # When tabs are distributed across multiple windows, this message is used as a
 # header above the group of tabs for each window.
 #
