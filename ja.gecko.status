@@ -137,8 +137,6 @@ geck | toolkit                  15272:591982e5d696 (2023-12-28)  mar            
 geck | browser, devtools        15272:591982e5d696 (2023-12-28)  mar            sync browser, devtools
 comm | mail                     16827:37a78184ad9a (2023-12-20)  mar            mail
 
-^---Released!
-
 [l10n-mozilla-123.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
@@ -146,3 +144,9 @@ geck | dom, netwerk, toolkit    15288:688b05cf8ecb (2024-01-31)  mar            
 comm | mail                     17051:e9bc47a0e747 (2024-02-06)  mar            mail
 geck | browser, devtools        15291:b7cddc97b23b (2024-02-05)  mar            sync browser, devtools, toolkit
 
+^---Released!
+
+[l10n-mozilla-124.0]
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
+geck | dom, netwerk, toolkit    15306:fa63c5f570de (2024-02-26)  mar            sync dom, toolkit, netwerk
