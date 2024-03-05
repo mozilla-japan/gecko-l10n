@@ -150,3 +150,5 @@ geck | browser, devtools        15291:b7cddc97b23b (2024-02-05)  mar            
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, netwerk, toolkit    15306:fa63c5f570de (2024-02-26)  mar            sync dom, toolkit, netwerk
+comm | mail                     17224:b2bea485b71c (2024-02-28)  mar            mail
+
