@@ -12,6 +12,18 @@ contentanalysis-slow-agent-dialog-title = コンテンツ解析中
 # Variables:
 #   $content - Description of the content being warned about, such as "clipboard" or "aFile.txt"
 contentanalysis-slow-agent-dialog-body = コンテンツ解析ツールがリソース “{ $content }” を解析しています
+contentanalysis-slow-agent-dialog-header = スキャン中
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+#   $filename - Name of the file being analyzed, such as "aFile.txt"
+contentanalysis-slow-agent-dialog-body-file = { $agent } が所属組織のデータポリシーに従って “{ $filename }” をレビューしています。しばらくお待ちください。
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+contentanalysis-slow-agent-dialog-body-clipboard = { $agent } が所属組織のデータポリシーに従ってユーザーが@@Paste-si@@たものをレビューしています。しばらくお待ちください。
+# Note that this is shown when the user drag and drops text into the browser.
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+contentanalysis-slow-agent-dialog-body-dropped-text = { $agent } が所属組織のデータポリシーに従ってユーザーがドロップしたものをレビューしています。しばらくお待ちください。
 contentanalysis-operationtype-clipboard = クリップボード
 contentanalysis-operationtype-dropped-text = ドロップされたテキスト
 contentanalysis-warndialogtitle = このコンテンツは安全でない可能性があります
