@@ -734,10 +734,6 @@ invalid-email = エラー - 無効なメールアドレスです。
 attachment-pgp-key = 開こうとしている添付ファイル ‘{ $name }’ は OpenPGP 鍵ファイルです。@@[@@@@Import@@@@]@@ をクリックして鍵を@@Import-suru@@か、@@[@@表示@@]@@ をクリックしてファイルの内容を@@Window@@に表示してください。
 dlg-button-view = 表示(&V)
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = 復号されたメッセージ (古い Exchange サーバーによる PGP フォーマットの破損を修復しているため、復号結果を正しく読むことができない可能性があります)。
-
 ## Strings used in encryption.jsm
 
 not-required = エラー - 暗号化は必要ありません。
