@@ -463,7 +463,7 @@ browsing-use-smooth-scrolling =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = 常にスクロールバーを表示する
     .accesskey = o
-browsing-always-underline-links=
+browsing-always-underline-links =
     .label = 常にリンクに下線を付ける
     .accesskey = u
 browsing-use-onscreen-keyboard =
@@ -840,6 +840,7 @@ pane-privacy-logins-and-passwords-header = ログインとパスワード
 forms-ask-to-save-logins =
     .label = ウェブサイトのログイン情報とパスワードを保存する
     .accesskey = r
+
 ## Privacy Section - Passwords
 
 # "Logins" is the former term for "Passwords". Users should find password settings
@@ -932,12 +933,13 @@ autofill-payment-methods-checkbox-submessage = クレジットカードとデビ
     .accesskey = I
 autofill-saved-payment-methods-button = 保存された支払方法
     .accesskey = v
-autofill-reauth-checkbox = { PLATFORM() ->
-            [macos] 支払い方法の入力と編集は macOS の認証が必要です。
-            [windows] 支払い方法の入力と編集は Windows の認証が必要です。
-            [linux] 支払い方法の入力と編集は Linux の認証が必要です。
-           *[other] 支払い方法の入力と編集は OS の認証が必要です。
-        }
+autofill-reauth-checkbox =
+    { PLATFORM() ->
+        [macos] 支払い方法の入力と編集は macOS の認証が必要です。
+        [windows] 支払い方法の入力と編集は Windows の認証が必要です。
+        [linux] 支払い方法の入力と編集は Linux の認証が必要です。
+       *[other] 支払い方法の入力と編集は OS の認証が必要です。
+    }
     .accesskey = o
 
 ## Privacy Section - History
