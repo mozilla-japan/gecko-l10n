@@ -45,6 +45,7 @@ newtab-topsites-add-search-engine-header = 検索エンジンを追加
 newtab-topsites-add-shortcut-header = @@New-CMD@@ショートカット
 newtab-topsites-edit-topsites-header = トップサイトを編集
 newtab-topsites-edit-shortcut-header = ショートカットを編集
+newtab-topsites-add-shortcut-label = ショートカットを追加
 newtab-topsites-title-label = タイトル
 newtab-topsites-title-input =
     .placeholder = タイトルを入力
@@ -196,6 +197,7 @@ newtab-section-header-recent-activity = 最近のアクティビティ
 # Variables:
 #   $provider (string) - Name of the corresponding content provider.
 newtab-section-header-pocket = { $provider } のおすすめ
+newtab-section-header-stories = 示唆に富むストーリー
 
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 
@@ -203,7 +205,9 @@ newtab-empty-section-highlights = ブラウジング中にあなたが最近訪�
 # Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 # Variables:
 #   $provider (string) - Name of the content provider for this section, e.g "Pocket".
-newtab-empty-section-topstories = すべて既読です。また後で戻って { $provider } からのおすすめ記事をチェックしてください。もし待ちきれないなら、人気のトピックを選択すれば、他にもウェブ上の優れた記事を見つけられます。
+newtab-empty-section-topstories = すべて既読です。また後で { $provider } からのおすすめ記事をチェックしてください。待ちきれない場合は、人気のトピックを選択してウェブ上の他の優れた記事を見つけてください。
+# Ex. When there are no more story recommendations, in the space where there would have been stories, this is shown instead.
+newtab-empty-section-topstories-generic = すべて既読です。また後でおすすめ記事をチェックしてください。待ちきれない場合は、人気のトピックを選択してウェブ上の他の優れた記事を見つけてください。
 
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.
 
@@ -255,6 +259,9 @@ newtab-custom-pocket-subtitle = { -brand-product-name } ファミリーを構成
 newtab-custom-pocket-toggle =
     .label = { -pocket-brand-name } のおすすめ
     .description = { -brand-product-name } ファミリーを構成する { -pocket-brand-name } が厳選した注目のコンテンツ
+newtab-custom-stories-toggle =
+    .label = おすすめのストーリー
+    .description = { -brand-product-name } ファミリーに選ばれた優良コンテンツです
 newtab-custom-pocket-sponsored = 広告記事
 newtab-custom-pocket-show-recent-saves = 最近保存したものを表示
 newtab-custom-recent-title = 最近のアクティビティ

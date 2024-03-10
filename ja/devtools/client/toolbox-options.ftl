@@ -43,6 +43,11 @@ options-inspector-draggable-properties-tooltip =
 options-inspector-simplified-highlighters-label = Use simpler highlighters with prefers-reduced-motion
 options-inspector-simplified-highlighters-tooltip =
     .title = prefers-reduced-motion が有効な場合、簡易強調を有効にします。フラッシュ効果を避けるため、強調された要素の周りに塗りつぶされた四角形ではなく直線を描画します。
+# The label for the checkbox option to make the Enter key move the focus to the next input
+# when editing a property name or value in the Inspector rules view
+options-inspector-rules-focus-next-on-enter-label = <kbd>Enter</kbd> キーで次の input にフォーカスする
+options-inspector-rules-focus-next-on-enter-tooltip =
+    .title = この設定が有効な場合、セレクターやプロパティ名、値の編集時に Enter キーを入力すると、次の input 要素へフォーカスを移動します。
 
 ## "Default Color Unit" options for the Inspector
 

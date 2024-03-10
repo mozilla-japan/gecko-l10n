@@ -25,6 +25,7 @@ update-applying = 更新を適用中...
 update-failed = 更新に失敗しました。<label data-l10n-name="failed-link">最新バージョンをダウンロード</label> してください。
 update-failed-main = 更新に失敗しました。<a data-l10n-name="failed-link-main">最新バージョンをダウンロード</a> してください。
 update-adminDisabled = システム管理者により、更新が無効化されています
+update-policy-disabled = 所属組織により、更新が無効化されています
 update-noUpdatesFound = { -brand-short-name } は最新バージョンです
 aboutdialog-update-checking-failed = 更新の確認に失敗しました。
 update-otherInstanceHandlingUpdates = { -brand-short-name } は別のインスタンスにより更新中です
