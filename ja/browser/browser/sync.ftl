@@ -29,3 +29,5 @@ fxa-menu-send-tab-to-device-syncnotready =
 fxa-menu-send-tab-to-device-description = ログインしている他の端末に今すぐタブを送ります。
 fxa-menu-sign-out =
     .label = ログアウト...
+fxa-menu-sync-title = 同期
+fxa-menu-sync-description = どこからでもウェブへアクセス

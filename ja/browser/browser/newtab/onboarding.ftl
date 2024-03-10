@@ -334,6 +334,9 @@ onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation によ�
 onboarding-new-user-time-based-survey-title = { -brand-short-name } をどのくらい長く使っていますか？
 onboarding-new-user-familiarity-based-survey-title = { -brand-short-name } にどのくらい親しんでいますか？
 onboarding-new-user-survey-subtitle = あなたのフィードバックが { -brand-short-name } をより良くします。
+# When translating "next" it means the next screen in onboarding.
+onboarding-new-user-survey-next-button-label = 次へ
+onboarding-new-user-survey-legal-link-label = “{ onboarding-new-user-survey-next-button-label }” を選択すると、{ -brand-product-name } の <a data-l10n-name="privacy_notice">プライバシー通知</a> に同意したものとみなされます。
 # When translating "brand new" it means completely new.
 onboarding-new-user-survey-time-based-option-1 = 初めて使う
 onboarding-new-user-survey-time-based-option-2 = 使い始めて 1 か月未満

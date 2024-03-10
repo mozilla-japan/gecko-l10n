@@ -40,6 +40,7 @@ site-permission-install-first-prompt-midi-message = このアクセスは安全�
 ##
 
 xpinstall-disabled-locked = ソフトウェアのインストールはシステム管理者により無効化されています。
+xpinstall-disabled-by-policy = ソフトウェアのインストールは所属組織により無効化されています。
 xpinstall-disabled = ソフトウェアのインストールは現在無効になっています。@@[@@有効にする@@]@@ をクリックしてから再度試してください。
 xpinstall-disabled-button =
     .label = 有効にする
@@ -51,6 +52,13 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) はシステム管理者によりブロックされています。
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = このサイトによるソフトウェアのインストールの確認は、システム管理者によりブロックされています。
+# This message is shown when the installation of an add-on is blocked by enterprise policy.
+# Variables:
+#   $addonName (String): the name of the add-on.
+#   $addonId (String): the ID of add-on.
+addon-installation-blocked-by-policy = { $addonName } ({ $addonId }) は所属組織によりブロックされています。
+# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
+addon-install-domain-blocked-by-policy = このサイトによるソフトウェアのインストールの確認は、所属組織によりブロックされています。
 addon-install-full-screen-blocked = @@FullScreen@@モード中または@@FullScreen@@モードに入る前は、アドオンのインストールが許可されていません。
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.

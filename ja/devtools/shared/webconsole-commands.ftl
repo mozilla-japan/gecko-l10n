@@ -22,14 +22,3 @@ webconsole-commands-usage-unblock =
   ネットワーク要求のブロックを停止します
 
     1 個の引数を指定します。開始時に :block に渡したものと全く同じ文字列にします。
-
-# Usage string for :trace command
-webconsole-commands-usage-trace =
-  :trace
-
-  JavaScript トレーサーを切り替えます
-
-    このコマンドは次の引数をサポートしています:
-      --logMethod に ‘console’ を指定するとウェブコンソール (@@Default@@) に、‘stdout’ を指定すると標準出力にログを出力します。
-      --prefix はすべてのトレースログの前に追加される任意の文字列を指定します。
-      --help または --usage はこのメッセージを表示します。

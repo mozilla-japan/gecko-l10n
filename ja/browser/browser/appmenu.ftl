@@ -73,6 +73,16 @@ appmenu-remote-tabs-turn-on-sync =
 appmenu-remote-tabs-showmore =
     .label = さらにタブを表示
     .tooltiptext = この端末からのタブをさらに表示します
+# This is shown when there are inactive tabs which are not being shown.
+# Variables
+# $count (Number) - The number of inactive tabs which are not being shown (at least 1)
+appmenu-remote-tabs-showinactive =
+    .label =
+        { $count ->
+            [one] 休止中のタブを表示
+           *[other] 休止中の { $count } 個のタブを表示
+        }
+    .tooltiptext = 休止中のタブをこの端末で表示します
 # This is shown beneath the name of a device when that device has no open tabs
 appmenu-remote-tabs-notabs = タブがありません
 # This is shown when Sync is configured but syncing tabs is disabled.
@@ -161,6 +171,10 @@ profiler-popup-capture-shortcut =
 
 # Presets and their l10n IDs are defined in the file
 # devtools/client/performance-new/shared/background.jsm.js
+# Please take care that the same values are also defined in devtools' perftools.ftl.
+
+# Presets and their l10n IDs are defined in the file
+# devtools/client/performance-new/shared/background.sys.mjs
 # Please take care that the same values are also defined in devtools' perftools.ftl.
 
 profiler-popup-presets-web-developer-description = 一般的なウェブアプリをデバッグするための低負荷な推奨プリセットです。
@@ -252,3 +266,13 @@ appmenu-developer-tools-extensions =
     .label = 開発者用拡張機能
 appmenuitem-report-broken-site =
     .label = 動作しないサイトを報告
+
+## Panel for privacy and security products
+
+appmenuitem-sign-in-account = アカウントにログイン
+appmenuitem-monitor-title = { -monitor-brand-short-name }
+appmenuitem-monitor-description = データ漏洩の警告を受け取ります
+appmenuitem-relay-title = { -relay-brand-short-name }
+appmenuitem-relay-description = 実際のメールアドレスと電話番号を隠します
+appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
+appmenuitem-vpn-description = ユーザーのオンラインプライバシーを保護します
