@@ -62,3 +62,5 @@ text-action-spell-dictionaries =
     .accesskey = L
 text-action-search-text-box-clear =
     .title = 消去
+text-action-highlight-selection =
+    .label = 選択範囲を強調表示
