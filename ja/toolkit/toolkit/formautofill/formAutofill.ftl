@@ -45,6 +45,8 @@ credit-card-capture-save-new-button =
 credit-card-capture-update-button =
     .label = 既存のカード情報を更新
     .accessKey = U
+# Label for the button in the dropdown menu used to clear the populated form.
+autofill-clear-form-label = フォームの自動入力情報を消去
 # Used as a label for the button, displayed at the bottom of the dropdown suggestion, to open Form Autofill browser preferences.
 autofill-manage-addresses-label = 住所の管理
 # Used as a label for the button, displayed at the bottom of the dropdown suggestion, to open Form Autofill browser preferences.
@@ -61,3 +63,19 @@ autofill-card-network-mastercard = MasterCard
 autofill-card-network-mir = MIR
 autofill-card-network-unionpay = Union Pay
 autofill-card-network-visa = Visa
+# The warning text that is displayed for informing users what categories are
+# about to be filled.  The text would be, for example,
+#   Also autofills organization, phone, email.
+# Variables:
+#   $categories - one or more of the categories, see autofill-category-X below
+autofill-phishing-warningmessage-extracategory = { $categories } も自動入力されます
+# Variation when all are in the same category.
+# Variables:
+#   $categories - one or more of the categories
+autofill-phishing-warningmessage = { $categories } を自動入力します
+# Used in autofill drop down suggestion to indicate what other categories Form Autofill will attempt to fill.
+autofill-category-address = 住所
+autofill-category-name = お名前
+autofill-category-organization = 所属組織
+autofill-category-tel = 電話番号
+autofill-category-email = メールアドレス
