@@ -692,6 +692,9 @@ sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10
 
 sync-profile-picture =
     .tooltiptext = プロフィール写真を変更します
+sync-profile-picture-with-alt =
+    .tooltiptext = プロフィール写真を変更します
+    .alt = プロフィール写真を変更します
 sync-sign-out =
     .label = ログアウト...
     .accesskey = g
