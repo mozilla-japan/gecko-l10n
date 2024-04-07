@@ -45,6 +45,18 @@ contentanalysis-block-message = 所属組織で使用されているデータ損
 # Variables:
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
 contentanalysis-error-message = データ損失防止ソフトウェアとの通信時にエラーが発生しました。次のリソースの転送が拒否されました: { $content }
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+#   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
+contentanalysis-unspecified-error-message = { $agent } との通信時にエラーが発生しました。次のリソースの転送が拒否されました: { $content }
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+#   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
+contentanalysis-no-agent-connected-message = { $agent } に接続できませんでした。次のリソースの転送が拒否されました: { $content }
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+#   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
+contentanalysis-invalid-agent-signature-message = { $agent } の署名検証が失敗しました。次のリソースの転送が拒否されました: { $content }
 contentanalysis-inprogress-quit-title = { -brand-shorter-name } を終了しますか？
 contentanalysis-inprogress-quit-message = いくつかの処理が実行中です。{ -brand-shorter-name } を終了するとこれらの処理が完了しません。
 contentanalysis-inprogress-quit-yesbutton = はい、終了します
