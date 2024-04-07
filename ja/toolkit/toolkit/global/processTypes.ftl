@@ -16,6 +16,8 @@ process-type-privilegedmozilla = 特権 Mozilla コンテンツ
 process-type-extension = 拡張機能
 # process used to open file:// URLs
 process-type-file = ローカルファイル
+# process used to instantiate new child processes
+process-type-forkserver = フォークサーバー
 # process used to isolate a webpage from other web pages
 # to improve security
 process-type-webisolated = 隔離されたウェブコンテンツ

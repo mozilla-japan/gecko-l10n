@@ -37,6 +37,11 @@ inactive-css-not-table-cell = この要素はテーブルセルではないた�
 inactive-scroll-padding-when-not-scroll-container = この要素はスクロールしないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-border-image = <strong>{ $property }</strong> は、親テーブル要素の <strong>border-collapse</strong> に <strong>collapse</strong> が設定されていて内部テーブル要素に適用できないため、この要素には効果がありません。
 inactive-css-ruby-element = この要素は ruby 要素のため、<strong>{ $property }</strong> は効果がありません。ルビテキストのフォントサイズから自動的に設定されます。
+
+## In the Rule View when a CSS property cannot be successfully applied we display
+## an icon. When this icon is hovered this message is displayed to explain how
+## the problem can be solved.
+
 inactive-css-highlight-pseudo-elements-not-supported = highlight 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
 inactive-css-cue-pseudo-element-not-supported = ::cue 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
 # Variables:
@@ -49,9 +54,10 @@ inactive-css-text-wrap-balance-fragmented = <strong>{ $property }</strong> は�
 ## the problem can be solved.
 
 inactive-css-not-grid-or-flex-container-fix = <strong>display:grid</strong> または <strong>display:flex</strong> を追加してみてください。{ learn-more }
-inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>, <strong>display:flex</strong>, または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
-inactive-css-not-multicol-container-fix = <strong>column-count</strong> または <strong>column-width</strong> のいずれかを追加してみてください。{ learn-more }
-inactive-css-not-grid-or-flex-item-fix-3 = <strong>display:grid</strong>, <strong>display:flex</strong>, <strong>display:inline-grid</strong>, または <strong>display:inline-flex</strong> を親要素に追加してみてください。{ learn-more }
+inactive-css-not-grid-or-flex-or-block-container-fix = <strong>display:grid</strong> または <strong>display:flex</strong>、<strong>display:block</strong> のいずれかを追加してみてください。{ learn-more }
+inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong> または <strong>display:flex</strong>、<strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
+inactive-css-not-multicol-container-fix = <strong>column-count</strong> または <strong>column-width</strong> を追加してみてください。{ learn-more }
+inactive-css-not-grid-or-flex-item-fix-3 = <strong>display:grid</strong> または <strong>display:flex</strong>、<strong>display:inline-grid</strong>、<strong>display:inline-flex</strong> のいずれかを要素の親に追加してみてください。{ learn-more }
 inactive-css-not-grid-item-fix-2 =<strong>display:grid</strong> または <strong>display:inline-grid</strong> を要素の親に追加してみてください。{ learn-more }
 inactive-css-not-grid-container-fix = <strong>display:grid</strong> または <strong>display:inline-grid</strong> を追加してみてください。{ learn-more }
 inactive-css-not-flex-item-fix-2 = <strong>display:flex</strong> または <strong>display:inline-flex</strong> を要素の親に追加してみてください。{ learn-more }
