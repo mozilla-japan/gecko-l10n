@@ -26,7 +26,7 @@ about-logging-logging-to-profiler = ログを { -profiler-brand-name } に記録
 about-logging-no-log-modules = なし
 about-logging-no-log-file = なし
 about-logging-logging-preset-selector-text = ログプリセット:
-about-logging-with-profiler-stacks-checkbox = ログメッセージのスタックとレースを有効にする
+about-logging-with-profiler-stacks-checkbox = ログメッセージのスタックトレースを有効にする
 
 ## Logging presets
 
