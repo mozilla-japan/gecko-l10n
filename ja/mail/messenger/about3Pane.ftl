@@ -428,11 +428,7 @@ threadpane-cell-delete =
     .aria-label = 削除
 # Variables:
 # $count (Number) - Number of replies in thread.
-threadpane-replies =
-    { $count ->
-        [one] 返信 { $count } 通
-       *[other] 返信 { $count } 通
-    }
+threadpane-replies = 返信 { $count } 通
 
 ## Message state variations
 
@@ -482,5 +478,14 @@ apply-current-columns-to-folder-with-children-message = 現在の列表示を { 
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-message = 現在のフォルダーのビューを { $name } フォルダーに適用しますか？
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count = 未読メッセージ <span>{ $unread }</span> / <span>{ $total }</span> 通
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count = メッセージ <span>{ $total }</span> 通
+# Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = 現在のフォルダーのビューを { $name } フォルダー全体 (サブフォルダーを含む) に適用しますか？
+threadpane-card-menu-button =
+    .title = メッセージメニュー

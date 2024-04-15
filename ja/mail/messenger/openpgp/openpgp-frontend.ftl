@@ -36,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = しばらくお待ちください...
 openpgp-has-nested-encrypted-parts = このメッセージには追加の暗号化された部分が含まれています。
 openpgp-show-encrypted-parts = 復号して表示
+openpgp-has-nested-signed-parts = このメッセージの一部がデジタル署名されています
+openpgp-show-signed-parts = 開いて表示
 openpgp-cannot-decrypt-because-mdc =
     これは、古く脆弱性のあるメカニズムによって暗号化されたメッセージです。
     そのため、メッセージの内容を傍受するために通信途中で書き換えられているおそれがあります。
