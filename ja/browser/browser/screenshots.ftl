@@ -46,3 +46,21 @@ screenshots-generic-error-title = { -screenshots-brand-name } に問題が発生
 screenshots-generic-error-details = 何か問題が発生したようです。再度試すか、別のページのショットを撮ってみてください。
 screenshots-too-large-error-title = サイズが大きすぎるためスクリーンショットの一部が切り落とされました。
 screenshots-too-large-error-details = 長辺が 32,700 ピクセル以下、または合計 124,900,000 ピクセル以内の領域を選択してみてください。
+screenshots-component-retry-button =
+    .title = スクリーンショットを撮り直します
+    .aria-label = スクリーンショットを撮り直します
+screenshots-component-copy-button-label = コピー
+screenshots-component-download-button-label = ダウンロード
+
+## The below strings are used to capture keydown events so the strings should
+## not be changed unless the keyboard layout in the locale requires it.
+
+
+##
+
+# This string represents the selection size area
+# "x" here represents "by" (i.e 123 by 456)
+# Variables:
+#   $width (Number) - The width of the selection region in pixels
+#   $height (Number) - The height of the selection region in pixels
+screenshots-overlay-selection-region-size-2 = { $width } x { $height }
