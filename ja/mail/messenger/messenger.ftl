@@ -162,8 +162,8 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] メッセージの削除を@@Undo@@
-           *[other] 選択したメッセージの削除を@@Undo@@
+            [one] 削除メッセージを@@Undo@@
+           *[other] 選択した削除メッセージを@@Undo@@
         }
     .accesskey = d
 menu-edit-properties =
@@ -193,6 +193,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = 既読にする
+    .tooltiptext = 既読にします
+context-menu-mark-unread =
+    .aria-label = 未読にする
+    .tooltiptext = 未読にします
+context-menu-mark-reply =
+    .aria-label = 返信
+    .tooltiptext = 返信します
+context-menu-archive =
+    .aria-label = アーカイブ
+    .tooltiptext = アーカイブに移動します
+context-menu-mark-junk =
+    .aria-label = 迷惑マークを付ける
+    .tooltiptext = 迷惑マークを付けます
+mail-context-menu-open =
+    .label = 開く
+    .accesskey = O
+mail-context-menu-reply =
+    .label = 返信
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = 転送とリダイレクト
+    .accesskey = F
+mail-context-menu-organize =
+    .label = 整理
+    .accesskey = g
+mail-context-menu-threads =
+    .label = スレッド
+    .accesskey = T
 context-menu-redirect-msg =
     .label = リダイレクト
 # This menu item is for canceling an NNTP message
@@ -211,9 +241,30 @@ mail-context-delete-messages =
 mail-context-undelete-messages =
     .label =
         { $count ->
-            [one] メッセージを削除しない
-           *[other] 選択したメッセージを削除しない
+            [one] 削除メッセージを@@Undo@@
+           *[other] 選択した削除メッセージを@@Undo@@
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] メッセージを削除
+           *[other] 選択したメッセージを削除
+        }
+    .tooltiptext =
+        { mail-context-messages-delete.label }します
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] 削除メッセージを元に戻す
+           *[other] 選択した削除メッセージを元に戻す
+        }
+    .tooltiptext =
+        { mail-context-messages-undelete.label }
+
 context-menu-decrypt-to-folder2 =
     .label = 復号したメッセージのコピーを作成
     .accesskey = y
@@ -230,7 +281,7 @@ message-header-msg-flagged =
 message-header-recipient-avatar =
     .alt = { $address } のプロファイル写真
 
-## Message header cutomize panel
+## Message header customize panel
 
 message-header-customize-panel-title = メッセージヘッダー設定
 message-header-customize-button-style =

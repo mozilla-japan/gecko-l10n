@@ -407,10 +407,10 @@
 <!ENTITY markStarredCmd.label		"スターを付ける">
 <!ENTITY markStarredCmd.accesskey	"S">
 <!ENTITY markStarredCmd.key		"S">
-<!ENTITY markAsJunkCmd.label		"迷惑メールとしてマーク">
+<!ENTITY markAsJunkCmd.label		"迷惑マークを付ける">
 <!ENTITY markAsJunkCmd.accesskey	"J">
 <!ENTITY markAsJunkCmd.key		"j">
-<!ENTITY markAsNotJunkCmd.label		"迷惑メールマークを解除">
+<!ENTITY markAsNotJunkCmd.label		"迷惑マークを解除">
 <!ENTITY markAsNotJunkCmd.accesskey	"N">
 <!ENTITY markAsNotJunkCmd.key		"j">
 <!ENTITY recalculateJunkScoreCmd.label	"迷惑メールフィルターを実行">
@@ -466,7 +466,7 @@
 <!ENTITY filtersApplyToMessage.accesskey	"u">
 <!ENTITY runJunkControls.label		"迷惑メールフィルターを実行"><!-- (^^; "フォルダーに" 削除 -->
 <!ENTITY runJunkControls.accesskey	"C">
-<!ENTITY deleteJunk.label		"迷惑メールとマークされたメールを削除">
+<!ENTITY deleteJunk.label		"迷惑マークの付いたメールを削除">
 <!ENTITY deleteJunk.accesskey		"D">
 <!ENTITY importCmd.label		"設定とデータ@@-ImportCMD@@...">
 <!ENTITY importCmd.accesskey		"m">
