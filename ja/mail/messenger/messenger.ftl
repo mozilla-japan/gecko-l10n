@@ -217,6 +217,9 @@ mail-context-menu-reply =
 mail-context-menu-forward-redirect =
     .label = 転送とリダイレクト
     .accesskey = F
+mail-context-menu-forward-forward =
+    .label = 転送
+    .accesskey = F
 mail-context-menu-organize =
     .label = 整理
     .accesskey = g
@@ -252,8 +255,7 @@ mail-context-messages-delete =
             [one] メッセージを削除
            *[other] 選択したメッセージを削除
         }
-    .tooltiptext =
-        { mail-context-messages-delete.label }します
+    .tooltiptext = { mail-context-messages-delete.label }します
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-undelete =
@@ -262,9 +264,7 @@ mail-context-messages-undelete =
             [one] 削除メッセージを元に戻す
            *[other] 選択した削除メッセージを元に戻す
         }
-    .tooltiptext =
-        { mail-context-messages-undelete.label }
-
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = 復号したメッセージのコピーを作成
     .accesskey = y
@@ -280,6 +280,9 @@ message-header-msg-flagged =
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
     .alt = { $address } のプロファイル写真
+
+## Message header cutomize panel
+
 
 ## Message header customize panel
 
