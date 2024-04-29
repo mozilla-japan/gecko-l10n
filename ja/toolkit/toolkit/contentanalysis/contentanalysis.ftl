@@ -7,25 +7,24 @@ contentanalysis-alert-title = コンテンツ解析
 # Variables:
 #   $content - Description of the content being warned about, such as "clipboard" or "aFile.txt"
 contentanalysis-slow-agent-notification = コンテンツ解析ツールはリソース “{ $content }” への応答に時間がかかっています
-contentanalysis-slow-agent-dialog-title = コンテンツ解析中
-
-# Variables:
-#   $content - Description of the content being warned about, such as "clipboard" or "aFile.txt"
-contentanalysis-slow-agent-dialog-body = コンテンツ解析ツールがリソース “{ $content }” を解析しています
 contentanalysis-slow-agent-dialog-header = スキャン中
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
 #   $filename - Name of the file being analyzed, such as "aFile.txt"
-contentanalysis-slow-agent-dialog-body-file = { $agent } が所属組織のデータポリシーに従って “{ $filename }” をレビューしています。しばらくお待ちください。
+contentanalysis-slow-agent-dialog-body-file = { $agent } が所属組織のデータポリシーに従って、“{ $filename }” をレビューしています。しばらくお待ちください。
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
-contentanalysis-slow-agent-dialog-body-clipboard = { $agent } が所属組織のデータポリシーに従ってユーザーが@@Paste-si@@たものをレビューしています。しばらくお待ちください。
+contentanalysis-slow-agent-dialog-body-clipboard = { $agent } が所属組織のデータポリシーに従って、ユーザーが@@Paste-si@@たものをレビューしています。しばらくお待ちください。
 # Note that this is shown when the user drag and drops text into the browser.
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
-contentanalysis-slow-agent-dialog-body-dropped-text = { $agent } が所属組織のデータポリシーに従ってユーザーがドロップしたものをレビューしています。しばらくお待ちください。
+contentanalysis-slow-agent-dialog-body-dropped-text = { $agent } が所属組織のデータポリシーに従って、ユーザーがドロップしたものをレビューしています。しばらくお待ちください。
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+contentanalysis-slow-agent-dialog-body-print = { $agent } が所属組織のデータポリシーに従って、ユーザーが@@Print@@したものをレビューしています。しばらくお待ちください。
 contentanalysis-operationtype-clipboard = クリップボード
 contentanalysis-operationtype-dropped-text = ドロップされたテキスト
+contentanalysis-operationtype-print = @@Print@@
 #   $filename - The filename associated with the request, such as "aFile.txt"
 contentanalysis-customdisplaystring-description = “{ $filename }” のアップロード
 contentanalysis-warndialogtitle = このコンテンツは安全でない可能性があります
@@ -57,6 +56,16 @@ contentanalysis-no-agent-connected-message = { $agent } に接続できません
 #   $agent - The name of the DLP agent doing the analysis
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
 contentanalysis-invalid-agent-signature-message = { $agent } の署名検証が失敗しました。次のリソースの転送が拒否されました: { $content }
+contentanalysis-block-dialog-title-upload-file = このファイルのアップロードは許可されていません
+# Variables:
+#   $filename - Name of the file that was blocked, such as "aFile.txt"
+contentanalysis-block-dialog-body-upload-file = 所属組織のデータ保護ポリシーの下では、“{ $filename }” ファイルのアップロードが許可されていません。詳細は組織の管理者にお問い合わせください。
+contentanalysis-block-dialog-title-clipboard = このコンテンツの@@Paste@@は許可されていません
+contentanalysis-block-dialog-body-clipboard = 所属組織のデータ保護ポリシーの下では、このコンテンツの@@Paste@@が許可されていません。詳細は組織の管理者にお問い合わせください。
+contentanalysis-block-dialog-title-dropped-text = このコンテンツのドロップは許可されていません
+contentanalysis-block-dialog-body-dropped-text = 所属組織のデータ保護ポリシーの下では、このコンテンツのドラッグ＆ドロップが許可されていません。詳細は組織の管理者にお問い合わせください。
+contentanalysis-block-dialog-title-print = この文書の@@Print@@は許可されていません
+contentanalysis-block-dialog-body-print = 所属組織のデータ保護ポリシーの下では、この文書の@@Print@@が許可されていません。詳細は組織の管理者にお問い合わせください。
 contentanalysis-inprogress-quit-title = { -brand-shorter-name } を終了しますか？
 contentanalysis-inprogress-quit-message = いくつかの処理が実行中です。{ -brand-shorter-name } を終了するとこれらの処理が完了しません。
 contentanalysis-inprogress-quit-yesbutton = はい、終了します

@@ -160,3 +160,10 @@ geck | dom, toolkit             15321:5060ee671f19 (2024-03-20)  mar            
 geck | browser, devtools, ...   15330:2ec2400698da (2024-04-03)  mar            sync browser, devtools, dom, toolkit
 comm | mail, calendar           17522:a4bd4aeca464 (2024-04-04)  mar            sync mail, calendar
 
+^---Released!
+
+[l10n-mozilla-126.0]
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
+geck | dom, toolkit             15345:30c5d508889a (2024-04-25)  mar            sync dom, toolkit
+
