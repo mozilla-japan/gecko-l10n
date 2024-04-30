@@ -126,6 +126,12 @@ translations-manage-description = オフライン翻訳用の言語ファイル�
 translations-manage-all-language = すべての言語
 translations-manage-download-button = ダウンロード
 translations-manage-delete-button = 削除
+translations-manage-language-remove-button =
+    .label = 削除
+translations-manage-language-remove-all-button =
+    .label = すべて削除
+    .accesskey = e
+translations-manage-error-install = 言語ファイルのインストール時に問題が発生しました。もう一度試してください。
 translations-manage-error-download = 言語ファイルのダウンロード時に問題が発生しました。もう一度試してください。
 translations-manage-error-delete = 言語ファイルの削除時にエラーが発生しました。もう一度試してください。
 translations-manage-intro = 翻訳先言語とサイト翻訳の設定、オフライン翻訳用の言語ファイルを管理します。
@@ -135,12 +141,6 @@ translations-manage-language-install-button =
 translations-manage-language-install-all-button =
     .label = すべてインストール
     .accesskey = I
-translations-manage-language-remove-button =
-    .label = 削除
-translations-manage-language-remove-all-button =
-    .label = すべて削除
-    .accesskey = e
-translations-manage-error-install = 言語ファイルのインストール時に問題が発生しました。もう一度試してください。
 translations-manage-error-remove = 言語ファイルの削除時に問題が発生しました。もう一度試してください。
 translations-manage-error-list = 利用可能な翻訳言語リストの取得に失敗しました。ページを更新してもう一度試してください。
 translations-settings-title =
@@ -170,3 +170,22 @@ translations-settings-remove-all-sites-button =
 translations-settings-close-dialog =
     .buttonlabelaccept = 閉じる
     .buttonaccesskeyaccept = C
+select-translations-panel-cancel-button =
+    .label = キャンセル
+select-translations-panel-translate-button =
+    .label = 翻訳
+select-translations-panel-try-again-button =
+    .label = 再度試す
+# Text displayed when the translation fails to complete.
+select-translations-panel-translation-failure-message =
+    .message = 翻訳時に問題が発生しました。もう一度試してください。
+# If your language requires declining the language name, a possible solution
+# is to adapt the structure of the phrase, or use a support noun, e.g.
+# `Sorry, we don't support the language yet: { $language }
+#
+# Variables:
+#   $language (string) - The language of the document.
+select-translations-panel-unsupported-language-message-known =
+    .message = 申し訳ありません。{ $language } にはまだ対応していません。
+select-translations-panel-unsupported-language-message-unknown =
+    .message = 申し訳ありません。この言語にはまだ対応していません。
