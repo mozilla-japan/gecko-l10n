@@ -71,19 +71,19 @@ contentanalysis-invalid-agent-signature-message-content = { $agent } の署名�
 # Variables:
 #   $filename - Name of the file that was blocked, such as "aFile.txt"
 contentanalysis-error-message-upload-file = “{ $filename }” ファイルのアップロードが拒否されました。
-contentanalysis-error-message-dropped-text = ドラッグ＆ドロップが拒否されました。
+contentanalysis-error-message-dropped-text = ドラッグアンドドロップが拒否されました。
 contentanalysis-error-message-clipboard = @@Paste@@が拒否されました。
 contentanalysis-error-message-print = @@Print@@が拒否されました。
 contentanalysis-block-dialog-title-upload-file = このファイルのアップロードは許可されていません
 # Variables:
 #   $filename - Name of the file that was blocked, such as "aFile.txt"
-contentanalysis-block-dialog-body-upload-file = 所属組織のデータ保護ポリシーの下では、“{ $filename }” ファイルのアップロードが許可されていません。詳細は組織の管理者にお問い合わせください。
+contentanalysis-block-dialog-body-upload-file = 所属組織のデータ保護ポリシーの下では、“{ $filename }” ファイルのアップロードが許可されていません。詳細は組織の管理者に問い合わせてください。
 contentanalysis-block-dialog-title-clipboard = このコンテンツの@@Paste@@は許可されていません
-contentanalysis-block-dialog-body-clipboard = 所属組織のデータ保護ポリシーの下では、このコンテンツの@@Paste@@が許可されていません。詳細は組織の管理者にお問い合わせください。
+contentanalysis-block-dialog-body-clipboard = 所属組織のデータ保護ポリシーの下では、このコンテンツの@@Paste@@が許可されていません。詳細は組織の管理者に問い合わせてください。
 contentanalysis-block-dialog-title-dropped-text = このコンテンツのドロップは許可されていません
-contentanalysis-block-dialog-body-dropped-text = 所属組織のデータ保護ポリシーの下では、このコンテンツのドラッグ＆ドロップが許可されていません。詳細は組織の管理者にお問い合わせください。
+contentanalysis-block-dialog-body-dropped-text = 所属組織のデータ保護ポリシーの下では、このコンテンツのドラッグアンドドロップが許可されていません。詳細は組織の管理者に問い合わせてください。
 contentanalysis-block-dialog-title-print = この文書の@@Print@@は許可されていません
-contentanalysis-block-dialog-body-print = 所属組織のデータ保護ポリシーの下では、この文書の@@Print@@が許可されていません。詳細は組織の管理者にお問い合わせください。
+contentanalysis-block-dialog-body-print = 所属組織のデータ保護ポリシーの下では、この文書の@@Print@@が許可されていません。詳細は組織の管理者に問い合わせてください。
 contentanalysis-inprogress-quit-title = { -brand-shorter-name } を終了しますか？
 contentanalysis-inprogress-quit-message = いくつかの処理が実行中です。{ -brand-shorter-name } を終了するとこれらの処理が完了しません。
 contentanalysis-inprogress-quit-yesbutton = はい、終了します

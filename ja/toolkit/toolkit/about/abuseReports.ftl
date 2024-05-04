@@ -16,9 +16,9 @@ abuse-report-subtitle = どのような問題ですか？
 #   $author-name (string) - Name of the add-on author
 abuse-report-addon-authored-by = 作者: <a data-l10n-name="author-name">{ $author-name }</a>
 abuse-report-learnmore =
-    どれを選択すべきか分からない時は、
+    どれを選択すべきか分からないときは、
     <a data-l10n-name="learnmore-link">拡張機能やテーマの報告について学んでください。</a>
-abuse-report-learnmore-intro = どれを選択すべきか分からない時は、
+abuse-report-learnmore-intro = どれを選択すべきか分からないときは、
 abuse-report-learnmore-link = 拡張機能やテーマの報告について学んでください。
 abuse-report-submit-description = 問題の詳細を記入してください (任意)
 abuse-report-textarea =
