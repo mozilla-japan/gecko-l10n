@@ -693,12 +693,12 @@ sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10
 ## Firefox account - Signed in
 
 sync-profile-picture =
-    .tooltiptext = プロフィール写真を変更します
+    .tooltiptext = プロファイル写真を変更します
 sync-profile-picture-with-alt =
-    .tooltiptext = プロフィール写真を変更します
-    .alt = プロフィール写真を変更します
+    .tooltiptext = プロファイル写真を変更します
+    .alt = プロファイル写真を変更します
 sync-profile-picture-account-problem =
-    .alt = アカウントのプロフィール写真
+    .alt = アカウントのプロファイル写真
 fxa-login-rejected-warning =
     .alt = 警告
 sync-sign-out =
@@ -1377,7 +1377,7 @@ preferences-doh-setting-off =
     .accesskey = O
 preferences-doh-off-desc = @@Default-@@ DNS リゾルバーを使用します
 preferences-doh-checkbox-warn =
-    .label = 第三者が安全な DNS を妨げている時に警告する
+    .label = 第三者が安全な DNS を妨げているときに警告する
     .accesskey = W
 preferences-doh-select-resolver = プロバイダーを選択:
 preferences-doh-exceptions-description = { -brand-short-name } はこれらのサイトで安全な DNS を使用しません
