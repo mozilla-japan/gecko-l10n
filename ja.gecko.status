@@ -166,4 +166,5 @@ comm | mail, calendar           17522:a4bd4aeca464 (2024-04-04)  mar            
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit             15349:85e0eaac87ac (2024-04-29)  mar            sync dom, toolkit
+geck | browser                  15349:85e0eaac87ac (2024-04-29)  mar            sync browser
 

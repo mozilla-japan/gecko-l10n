@@ -19,5 +19,22 @@ default-browser-prompt-button-primary-pin = 優先ブラウザーに設定する
 default-browser-prompt-title-alt = { -brand-short-name } を@@DefaultBrowser@@に設定しますか？
 default-browser-prompt-message-alt = いつでも高速、安全、プライベートに。
 default-browser-prompt-button-primary-alt = @@DefaultBrowser@@に設定する
-default-browser-prompt-checkbox-not-again-label = 次からこのメッセージを表示しない
+default-browser-prompt-checkbox-not-again-label = 次回からこのメッセージを表示しない
 default-browser-prompt-button-secondary = 後で
+
+## Strings for a Windows native guidance notification when the user is forced to
+## use Windows Settings to set the default browser. Instructions differ for
+## Windows 10 and 11.
+
+default-browser-guidance-notification-title = { -brand-short-name } を@@DefaultBrowser@@に設定します
+# Quoted text are keywords to look for in the Windows Settings app.
+default-browser-guidance-notification-body-instruction-win10 =
+    ステップ 1: Windows の [設定] > [アプリ] > [@@Default-@@アプリ] を開きます
+    ステップ 2: “Web ブラウザー” まで下へスクロールします
+    ステップ 3: アイコンをクリックし、{ -brand-short-name } を選んでください
+# Quoted text are keywords to look for in the Windows Settings app.
+default-browser-guidance-notification-body-instruction-win11 =
+    ステップ 1: Windows の [設定] > [アプリ] > [@@Default-@@アプリ] を開きます
+    ステップ 2: { -brand-short-name } を選択し、[@@DefaultValue@@に設定] をクリックしてください
+default-browser-guidance-notification-info-page = 詳細表示
+default-browser-guidance-notification-dismiss = 完了

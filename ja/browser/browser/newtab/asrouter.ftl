@@ -55,6 +55,7 @@ cfr-doorhanger-extension-total-users = { $total } ユーザー
 
 cfr-doorhanger-bookmark-fxa-header = どこからでもブックマークを同期します。
 cfr-doorhanger-bookmark-fxa-body = 見つかっちゃった。ブックマークをこの端末だけに残しておかないで同期して。{ -fxaccount-brand-name } を始めましょう。
+cfr-doorhanger-bookmark-fxa-body-2 = 見つかっちゃった。ブックマークをこの端末だけに残しておかないで同期して。アカウントを使い始めましょう。
 cfr-doorhanger-bookmark-fxa-link-text = ブックマークを今すぐ同期...
 cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
     .aria-label = 閉じるボタン

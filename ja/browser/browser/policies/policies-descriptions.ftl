@@ -39,8 +39,11 @@ policy-DisableAppUpdate = ブラウザの更新を抑止します。
 policy-DisableBuiltinPDFViewer = { -brand-short-name } 組み込みの PDF ビューアーの PDF.js を無効にします。
 policy-DisableDefaultBrowserAgent = Default Browser Agent のアクションをすべて抑止します。Windows のみ適用可能です。他のプラットフォームにはこのエージェントがありません。
 policy-DisableDeveloperTools = 開発ツールへのアクセスをブロックします。
+policy-DisableEncryptedClientHello = TLS の Encrypted Client Hello (ECH) 機能の使用を無効にします。
 policy-DisableFeedbackCommands = ヘルプメニューのフィードバックの送信 (フィードバックと詐欺サイトの報告の送信) を無効にします。
 policy-DisableFirefoxAccounts = Sync を含む { -fxaccount-brand-name } を利用したサービスを無効にします。
+# This string is in the process of being deprecated in favor of policy-DisableAccounts.
+policy-DisableFirefoxAccounts1 = Sync を含め、アカウントを利用したサービスを無効にします。
 # Firefox Screenshots is the name of the feature, and should not be translated.
 policy-DisableFirefoxScreenshots = Firefox Screenshots 機能を無効にします。
 policy-DisableFirefoxStudies = { -brand-short-name } による Shield 調査の実行を抑止します。

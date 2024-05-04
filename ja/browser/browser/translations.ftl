@@ -126,6 +126,20 @@ translations-manage-description = オフライン翻訳用の言語ファイル�
 translations-manage-all-language = すべての言語
 translations-manage-download-button = ダウンロード
 translations-manage-delete-button = 削除
+translations-manage-intro = 翻訳先言語とサイト翻訳の設定、オフライン翻訳用の言語ファイルを管理します。
+translations-manage-install-description = オフライン翻訳用の言語ファイルをインストールします
+translations-manage-language-install-button =
+    .label = インストール
+translations-manage-language-install-all-button =
+    .label = すべてインストール
+    .accesskey = I
+translations-manage-intro-2 = 言語とサイト翻訳の設定、オフライン翻訳用にダウンロードした言語を管理します。
+translations-manage-download-description = オフライン翻訳用の言語ファイルをダウンロードします
+translations-manage-language-download-button =
+    .label = ダウンロード
+translations-manage-language-download-all-button =
+    .label = すべてダウンロード
+    .accesskey = D
 translations-manage-language-remove-button =
     .label = 削除
 translations-manage-language-remove-all-button =
@@ -134,13 +148,6 @@ translations-manage-language-remove-all-button =
 translations-manage-error-install = 言語ファイルのインストール時に問題が発生しました。もう一度試してください。
 translations-manage-error-download = 言語ファイルのダウンロード時に問題が発生しました。もう一度試してください。
 translations-manage-error-delete = 言語ファイルの削除時にエラーが発生しました。もう一度試してください。
-translations-manage-intro = 翻訳先言語とサイト翻訳の設定、オフライン翻訳用の言語ファイルを管理します。
-translations-manage-install-description = オフライン翻訳用の言語ファイルをインストールします
-translations-manage-language-install-button =
-    .label = インストール
-translations-manage-language-install-all-button =
-    .label = すべてインストール
-    .accesskey = I
 translations-manage-error-remove = 言語ファイルの削除時に問題が発生しました。もう一度試してください。
 translations-manage-error-list = 利用可能な翻訳言語リストの取得に失敗しました。ページを更新してもう一度試してください。
 translations-settings-title =
@@ -170,12 +177,62 @@ translations-settings-remove-all-sites-button =
 translations-settings-close-dialog =
     .buttonlabelaccept = 閉じる
     .buttonaccesskeyaccept = C
+# Text displayed in the right-click context menu for translating
+# selected text to a yet-to-be-determined language.
+main-context-menu-translate-selection =
+    .label = 翻訳先を選択...
+    .accesskey = n
+# Text displayed in the right-click context menu for translating
+# selected text to a target language.
+#
+# Variables:
+#   $language (string) - The localized display name of the target language
+main-context-menu-translate-selection-to-language =
+    .label = 選択範囲を { $language } に翻訳
+    .accesskey = n
+# Text displayed in the right-click context menu for translating
+# the text of a hyperlink to a yet-to-be-determined language.
+main-context-menu-translate-link-text =
+    .label = リンクテキストを翻訳...
+    .accesskey = n
+# Text displayed in the right-click context menu for translating
+# the text of a hyperlink to a target language.
+#
+# Variables:
+#   $language (string) - The localized display name of the target language
+main-context-menu-translate-link-text-to-language =
+    .label = リンクテキストを { $language } に翻訳
+    .accesskey = n
+# Text displayed in the select translations panel header.
+select-translations-panel-header = 翻訳
+# Text displayed above the from-language dropdown menu.
+select-translations-panel-from-label = 翻訳元
+# Text displayed above the to-language dropdown menu.
+select-translations-panel-to-label = 翻訳先
+# Text displayed above the try-another-source-language dropdown menu.
+select-translations-panel-try-another-language-label = 別の翻訳元言語を試す
 select-translations-panel-cancel-button =
     .label = キャンセル
+# Text displayed on the copy button before it is clicked.
+select-translations-panel-copy-button =
+    .label = コピー
+# Text displayed on the copy button after it is clicked.
+select-translations-panel-copy-button-copied =
+    .label = コピーしました
+select-translations-panel-done-button =
+    .label = 完了
+select-translations-panel-translate-full-page-button =
+    .label = ページ全体を翻訳
 select-translations-panel-translate-button =
     .label = 翻訳
 select-translations-panel-try-again-button =
     .label = 再度試す
+# Text displayed as a placeholder when the panel is idle.
+select-translations-panel-idle-placeholder-text = ここに翻訳後のテキストが表示されます。
+# Text displayed as a placeholder when the panel is actively translating.
+select-translations-panel-translating-placeholder-text = 翻訳中...
+select-translations-panel-init-failure-message =
+    .message = 言語ファイルを読み込めませんでした。インターネット接続を確認してもう一度試してください。
 # Text displayed when the translation fails to complete.
 select-translations-panel-translation-failure-message =
     .message = 翻訳時に問題が発生しました。もう一度試してください。
@@ -189,3 +246,6 @@ select-translations-panel-unsupported-language-message-known =
     .message = 申し訳ありません。{ $language } にはまだ対応していません。
 select-translations-panel-unsupported-language-message-unknown =
     .message = 申し訳ありません。この言語にはまだ対応していません。
+# Text displayed on the menuitem that opens the Translation Settings page.
+select-translations-panel-open-translations-settings-menuitem =
+    .label = 翻訳設定

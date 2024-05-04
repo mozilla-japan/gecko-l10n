@@ -23,6 +23,11 @@ protections-panel-etp-more-info =
     .aria-label = 強化型トラッキング防止機能についての詳細情報
 protections-panel-etp-on-header = 強化型トラッキング防止機能はこのサイトでオンです
 protections-panel-etp-off-header = 強化型トラッキング防止機能はこのサイトでオフです
+# The link to be clicked to open the sub-panel view
+protections-panel-site-not-working = サイトが動作していませんか？
+# The heading/title of the sub-panel view
+protections-panel-site-not-working-view =
+    .title = サイトが動作していませんか？
 
 ## Text for the toggles shown when ETP is enabled/disabled for a given site.
 ## .description is transferred into a separate paragraph by the moz-toggle
@@ -37,11 +42,6 @@ protections-panel-etp-toggle-off =
     .label = 強化型トラッキング防止
     .description = このサイトでオフです
     .aria-label = 強化型トラッキング防止: { $host } で無効です
-# The link to be clicked to open the sub-panel view
-protections-panel-site-not-working = サイトが動作していませんか？
-# The heading/title of the sub-panel view
-protections-panel-site-not-working-view =
-    .title = サイトが動作していませんか？
 
 ## The "Allowed" header also includes a "Why?" link that, when hovered, shows
 ## a tooltip explaining why these items were not blocked in the page.
@@ -107,8 +107,7 @@ protections-panel-content-blocking-manage-settings =
     .accesskey = M
 protections-panel-content-blocking-breakage-report-view =
     .title = 動作しないサイトを報告
-protections-panel-content-blocking-breakage-report-view-description = 特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、{ -brand-short-name } を改善する手助けになります。報告とともに URL とあなたのブラウザーの設定に関する情報が Mozilla に送信されます。 <label data-l10n-name="learn-more">詳細情報</label>
-protections-panel-content-blocking-breakage-report-view-description2 = 特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、{ -brand-short-name } を改善する手助けになります。報告とともに URL とあなたのブラウザーの設定に関する情報が { -vendor-short-name } に送信されます。
+protections-panel-content-blocking-breakage-report-view-description = 特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、{ -brand-short-name } を改善する助けになります。レポートを送信すると、問題の URL とブラウザーの設定についての情報が Mozilla に送信されます。<label data-l10n-name="learn-more">詳細情報</label>
 protections-panel-content-blocking-breakage-report-view-collection-url = URL
 protections-panel-content-blocking-breakage-report-view-collection-url-label =
     .aria-label = URL
@@ -159,4 +158,4 @@ protections-panel-report-broken-site =
 
 cfr-protections-panel-header = 追跡を遮断する
 cfr-protections-panel-body = あなたのデータはあなた自身だけに。{ -brand-short-name } はオンラインでのあなたの行動を追跡するよく知られた数多くのトラッカーからあなたを守ります。
-cfr-protections-panel-link-text = 詳細
+cfr-protections-panel-link-text = 詳細情報
