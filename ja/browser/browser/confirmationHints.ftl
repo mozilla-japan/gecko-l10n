@@ -22,3 +22,6 @@ confirmation-hint-send-to-device = 送信しました！
 confirmation-hint-firefox-relay-mask-created = @@New-CMD@@マスクを作成しました！
 confirmation-hint-firefox-relay-mask-reused = 既存のマスクを再利用しました！
 confirmation-hint-screenshot-copied = スクリーンショットをコピーしました！
+# Variables:
+#   $tabCount (Number): The number of duplicate tabs closed, at least 1.
+confirmation-hint-duplicate-tabs-closed = { $tabCount } 個のタブを閉じました

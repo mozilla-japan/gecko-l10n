@@ -268,3 +268,24 @@ newtab-custom-recent-toggle =
     .description = 最近のサイトとコンテンツの抜粋
 newtab-custom-close-button = 閉じる
 newtab-custom-settings = 他の設定を管理
+
+## New Tab Wallpapers
+
+newtab-wallpaper-title = 壁紙
+newtab-wallpaper-reset = @@DefaultValue@@にリセット
+newtab-wallpaper-light-red-panda = レッサーパンダ
+newtab-wallpaper-light-mountain = 白い雪山
+newtab-wallpaper-light-sky = 紫色の雲と空
+newtab-wallpaper-light-color = 黄色、ピンク色、青色の模様
+newtab-wallpaper-light-landscape = 空色の雲海と山の景色
+newtab-wallpaper-light-beach = ヤシの木のある砂浜
+newtab-wallpaper-dark-aurora = 北極のオーロラ
+newtab-wallpaper-dark-color = 赤色と青色の模様
+newtab-wallpaper-dark-panda = 森に隠れるレッサーパンダ
+newtab-wallpaper-dark-sky = 夜空と街の景色
+newtab-wallpaper-dark-mountain = 山の景色
+newtab-wallpaper-dark-city = 紫色の街の景色
+# Variables
+#   $author_string (String) - The name of the creator of the photo.
+#   $webpage_string (String) - The name of the webpage where the photo is located.
+newtab-wallpaper-attribution = 写真提供: <a data-l10n-name="name-link">{ $author_string }</a> (<a data-l10n-name="webpage-link">{ $webpage_string }</a>)
