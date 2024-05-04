@@ -550,7 +550,7 @@ user-att-photo = ユーザーの特徴 (JPEG 画像)
 
 ## Strings in key.sys.mjs
 
-already-revoked = この鍵は既に失効しています。
+already-revoked = この鍵はすでに失効しています。
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
     鍵 ‘{ $identity }’ を失効させようとしています。
@@ -561,7 +561,7 @@ revoke-key-not-present =
     この失効証明書に適合する鍵 (0x{ $keyId }) を所有していません！
     鍵を持っていない場合、失効証明書よりも前に公開鍵を鍵サーバーなどから@@Import-suru@@必要があります！
 #   $keyId (String) - the id of the key being revoked
-revoke-key-already-revoked = 鍵 0x{ $keyId } は既に失効しています。
+revoke-key-already-revoked = 鍵 0x{ $keyId } はすでに失効しています。
 key-man-button-revoke-key = 鍵を失効(&R)
 openpgp-key-revoke-success = 鍵を失効させました。
 after-revoke-info =

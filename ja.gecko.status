@@ -167,4 +167,5 @@ repo | target dir               hg changeset rev:id (pushdate)   by             
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit             15349:85e0eaac87ac (2024-04-29)  mar            sync dom, toolkit
 geck | browser                  15349:85e0eaac87ac (2024-04-29)  mar            sync browser
+comm | mail, chat               17986:3b0006ed36a8 (2024-05-02)  mar            sync mail, chat
 
