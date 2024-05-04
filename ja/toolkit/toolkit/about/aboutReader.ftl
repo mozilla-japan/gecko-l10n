@@ -26,6 +26,18 @@ about-reader-color-theme-contrast = コントラスト
     .title = コントラストカラーテーマ
 about-reader-color-theme-custom = カスタムカラー
     .title = カスタムカラーテーマ
+about-reader-color-light-theme = ライト
+    .title = ライトテーマ
+about-reader-color-dark-theme = ダーク
+    .title = ダークテーマ
+about-reader-color-sepia-theme = セピア
+    .title = セピアテーマ
+about-reader-color-auto-theme = 自動
+    .title = 自動選択テーマ
+about-reader-color-gray-theme = グレー
+    .title = グレーテーマ
+about-reader-color-contrast-theme = コントラスト
+    .title = コントラストテーマ
 # An estimate for how long it takes to read an article,
 # expressed as a range covering both slow and fast readers.
 # Variables:
@@ -58,6 +70,8 @@ about-reader-font-type-sans-serif = Sans-serif
 about-reader-toolbar-close = リーダービューを閉じる
 about-reader-toolbar-type-controls = 書体コントロール
 about-reader-toolbar-color-controls = @@Colors@@
+about-reader-toolbar-text-layout-controls = テキストとレイアウト
+about-reader-toolbar-theme-controls = テーマ
 about-reader-toolbar-savetopocket = { -pocket-brand-name } に保存
 
 ## Reader View colors menu
@@ -81,3 +95,30 @@ about-reader-custom-colors-visited-links = 訪問済みリンク
 about-reader-custom-colors-selection-highlight = 読み上げ部分の強調
     .title = 読み上げ部分の@@Color@@を変更します
 about-reader-custom-colors-reset-button = @@Default@@に戻す
+
+## Reader View improved text and layout menu
+
+about-reader-layout-header = レイアウト
+about-reader-advanced-layout-header = 詳細設定
+
+about-reader-slider-label-width-narrow = 狭める
+about-reader-slider-label-width-wide = 広げる
+about-reader-slider-label-spacing-narrow = 狭める
+about-reader-slider-label-spacing-standard = 標準
+about-reader-slider-label-spacing-wide = 広げる
+
+about-reader-content-width-label =
+  .label = 本文の幅
+about-reader-line-spacing-label =
+  .label = 行間隔
+about-reader-character-spacing-label =
+  .label = 文字間隔
+about-reader-word-spacing-label =
+  .label = 単語間隔
+about-reader-text-alignment-label = 文字揃え
+about-reader-text-alignment-left =
+    .title = 左揃え
+about-reader-text-alignment-center =
+    .title = 中央揃え
+about-reader-text-alignment-right =
+    .title = 右揃え

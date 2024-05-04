@@ -51,11 +51,29 @@ contentanalysis-unspecified-error-message = { $agent } との通信時にエラ�
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
-contentanalysis-no-agent-connected-message = { $agent } に接続できませんでした。次のリソースの転送が拒否されました: { $content }
+contentanalysis-no-agent-connected-message = { $agent } に接続できません。次のリソースの転送が拒否されました: { $content }
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
-contentanalysis-invalid-agent-signature-message = { $agent } の署名検証が失敗しました。次のリソースの転送が拒否されました: { $content }
+contentanalysis-invalid-agent-signature-message = { $agent } の署名検証に失敗しました。次のリソースの転送が拒否されました: { $content }
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+#   $content - Localized text describing the content being blocked, such as "Paste denied."
+contentanalysis-unspecified-error-message-content = { $agent } との通信時にエラーが発生しました: { $content }
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+#   $content - Localized text describing the content being blocked, such as "Paste denied."
+contentanalysis-no-agent-connected-message-content = { $agent } に接続できません: { $content }
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+#   $content - Localized text describing the content being blocked, such as "Paste denied."
+contentanalysis-invalid-agent-signature-message-content = { $agent } の署名検証に失敗しました: { $content }
+# Variables:
+#   $filename - Name of the file that was blocked, such as "aFile.txt"
+contentanalysis-error-message-upload-file = “{ $filename }” ファイルのアップロードが拒否されました。
+contentanalysis-error-message-dropped-text = ドラッグ＆ドロップが拒否されました。
+contentanalysis-error-message-clipboard = @@Paste@@が拒否されました。
+contentanalysis-error-message-print = @@Print@@が拒否されました。
 contentanalysis-block-dialog-title-upload-file = このファイルのアップロードは許可されていません
 # Variables:
 #   $filename - Name of the file that was blocked, such as "aFile.txt"
