@@ -65,9 +65,19 @@ screenshots-component-copy-button-label = コピー
 # Variables
 #   $shortcut (String) - A keyboard shortcut for saving/downloading the screenshot.
 screenshots-component-download-button =
-  .title = ダウンロード ({ $shortcut })
-  .aria-label = ダウンロード
+    .title = ダウンロード ({ $shortcut })
+    .aria-label = ダウンロード
 screenshots-component-download-button-label = ダウンロード
+# Variables
+#   $shortcut (String) - A keyboard shortcut for copying the screenshot.
+screenshots-component-copy-button-2 = コピー
+    .title = コピー ({ $shortcut })
+    .aria-label = コピー
+# Variables
+#   $shortcut (String) - A keyboard shortcut for saving/downloading the screenshot.
+screenshots-component-download-button-2 = ダウンロード
+    .title = ダウンロード ({ $shortcut })
+    .aria-label = ダウンロード
 
 ## The below strings are used to capture keydown events so the strings should
 ## not be changed unless the keyboard layout in the locale requires it.
