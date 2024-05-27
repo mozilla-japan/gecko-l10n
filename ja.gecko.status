@@ -169,3 +169,10 @@ geck | dom, toolkit             15349:85e0eaac87ac (2024-04-29)  mar            
 geck | browser                  15349:85e0eaac87ac (2024-04-29)  mar            sync browser
 comm | mail, chat               17986:3b0006ed36a8 (2024-05-02)  mar            sync mail, chat
 
+^---Released!
+
+[l10n-mozilla-127.0]
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
+geck | dom, netwerk, toolkit    15362:c79daf95cc72 (2024-05-21)  mar            sync dom, toolkit, netwerk
+
