@@ -4,6 +4,37 @@
 
 e2e-intro-description = 暗号化またはデジタル署名されたメッセージを送信するには、OpenPGP あるいは S/MIME のどちらかの暗号化技術を設定する必要があります。
 e2e-intro-description-more = OpenPGP を有効化するためのあなたの個人鍵か、S/MIME を有効化するためのあなたの個人証明書を選択してください。どちらの場合にも、対応する秘密鍵を所有している必要があります。
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = 個人用の S/MIME 証明書を新たに取得するには、証明書署名要求 (CSR) を生成し、それを認証局 (CA) に送って証明書の発行を請求してください。
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = CSR ファイルが保存されたローカルディレクトリーとファイル名を選択し、アルゴリズムと強度を設定するため、次の質問に回答してください。
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = 証明書署名要求 (CSR) の生成
+# A label for a button that proceeds to the next step
+e2e-csr-continue = @@NextButton@@
+# A label for a button that goes back one step
+e2e-csr-back = 戻る
+# Do not translate: CSR
+e2e-csr-button =
+    .label = CSR を生成してファイルに保存...
+# Do not translate: CSR
+e2e-csr-select-title = CSR アルゴリズム
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = 新しい S/MIME 証明書の暗号アルゴリズムを RSA (推奨) と ECC のどちらかから選んでください。
+# Do not translate: S/MIME
+e2e-csr-select-strength = 新しい S/MIME 証明書の暗号の強度を指定するか、@@Default-@@設定を選んでください (数値が低いほど高速で、高いほど安全です)。
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = 新しい { $type } { $strength } の秘密鍵を { -brand-short-name } の設定内で生成します。この処理には時間がかかるため、一時的に応答がなくなる場合があります。ご不便をおかけしますがしばらくお待ちください。その間に証明書署名要求 (CSR) が { $file } のファイル名で作成されます。
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = メールアドレス ({ $email }) を CSR に含める (推奨)
+# $file A filename
+e2e-csr-success = CSR を { $file } ファイルに保存しました:
+# $file A filename
+e2e-csr-failure = CSR を { $file } ファイルに保存できませんでした
 e2e-signing-description = デジタル署名により、メッセージがあなたにより送信され内容が改変されていないことを受信者が検証できます。暗号化されたメッセージは@@Default@@で常に署名されます。
 e2e-sign-message =
     .label = 暗号化されていないメッセージに署名する
@@ -497,6 +528,7 @@ key-man-button-export-pub-key = 公開鍵のみを@@Export@@(&P)
 key-man-button-refresh-all = すべての鍵を更新(&R)
 key-man-loading-keys = 鍵を読み込み中です。しばらくお待ちください...
 ascii-armor-file = ASCII 形式 (*.asc)
+text-file = テキストファイル (*.txt)
 no-key-selected = 選択した操作を実行するには、少なくとも 1 つの鍵を選択する必要があります。
 export-to-file = ファイルとして公開鍵を@@Export@@
 export-keypair-to-file = ファイルとして秘密鍵と公開鍵を@@Export@@
@@ -611,6 +643,8 @@ no-update-found = オンラインで見つけた鍵はすでに持っていま�
 
 ## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
 
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = エラー - 鍵の展開コマンドに失敗しました
 
 ## Strings used in keyRing.jsm
@@ -628,6 +662,12 @@ no-pgp-block = エラー - 有効な OpenPGP データブロックが見つか�
 confirm-permissive-import = @@ImportNoun@@に失敗しました。@@ImportNoun@@を試みた鍵は、破損しているか未知の属性が使われています。正常な部分のみの@@ImportNoun@@を試みますか？ この場合、@@ImportNoun@@が完了しない、あるいは利用できない鍵となる可能性があります。
 
 ## Strings used in trust.jsm
+
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = @@Import-sare@@た一部の秘密鍵には未サポートの機能が使われています。これらを個人鍵として使用した場合、通信相手がメールや公開鍵を互換性のない形式で送信する可能性があります。これは次のフィンガープリントを持つ@@Import-sare@@た秘密鍵に影響します: {$fingerprints}
+
+help-button = ヘルプ
 
 ## Strings used in trust.sys.mjs
 

@@ -14,8 +14,11 @@ archive-monthly =
     .label = 月別のフォルダー
     .accesskey = M
 keep-folder-structure =
-    .label = アーカイブされたメッセージのフォルダー構造を維持する
+    .label = アーカイブされたメッセージの既存のフォルダー構造を維持する
     .accesskey = K
+recreate-inbox =
+    .label = 受信トレイフォルダーから再作成する
+    .accesskey = R
 archive-example-label = Example
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = 受信トレイ
+child-folder-name =
+    .label = 受信トレイ内のサブフォルダー
+sibling-folder-name =
+    .label = 受信トレイの兄弟フォルダー

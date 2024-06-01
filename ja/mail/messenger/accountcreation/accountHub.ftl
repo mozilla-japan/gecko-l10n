@@ -79,7 +79,6 @@ account-hub-auth-label = 認証方式
 account-hub-username-label = ユーザー名
 account-hub-adding-account-title = アカウントの追加
 account-hub-adding-account-subheader = アカウント設定の再テスト
-account-hub-account-added-title = アカウントを追加しました
 account-hub-lookup-email-configuration-title = 設定の検索中
 account-hub-lookup-email-configuration-subheader = 一般的なサーバー名で探しています...
 account-hub-email-account-added-title = アカウントの追加が完了しました

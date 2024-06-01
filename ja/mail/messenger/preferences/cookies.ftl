@@ -4,9 +4,9 @@
 
 cookies-window-dialog2 =
     .title = Cookie
-cookies-dialog-title = Cookie
 window-close-key =
     .key = w
+cookies-dialog-title = Cookie
 window-focus-search-key =
     .key = f
 window-focus-search-alt-key =

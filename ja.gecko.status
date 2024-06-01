@@ -175,4 +175,5 @@ comm | mail, chat               17986:3b0006ed36a8 (2024-05-02)  mar            
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, netwerk, toolkit    15362:c79daf95cc72 (2024-05-21)  mar            sync dom, toolkit, netwerk
+comm | mail, calendar           19552:422a1d805c49 (2024-05-29)  mar            sync mail, chat
 
