@@ -83,6 +83,10 @@ appmenu-remote-tabs-showinactive =
            *[other] 休止中の { $count } 個のタブを表示
         }
     .tooltiptext = 休止中のタブをこの端末で表示します
+# This is shown as the label for an element to show inactive tabs from this device.
+appmenu-remote-tabs-show-inactive-tabs =
+    .label = 休止中のタブ
+    .tooltiptext = この端末の休止中のタブを表示します
 # This is shown beneath the name of a device when that device has no open tabs
 appmenu-remote-tabs-notabs = タブがありません
 # This is shown when Sync is configured but syncing tabs is disabled.

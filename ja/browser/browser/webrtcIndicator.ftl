@@ -190,6 +190,9 @@ webrtc-action-not-now =
 ##
 
 webrtc-remember-allow-checkbox = 今後も同様に処理する
+webrtc-remember-allow-checkbox-camera = すべてのカメラを記憶する
+webrtc-remember-allow-checkbox-microphone = すべてのマイクを記憶する
+webrtc-remember-allow-checkbox-camera-and-microphone = すべてのカメラとマイクを記憶する
 webrtc-mute-notifications-checkbox = 共有中はウェブサイトからの通知を無効にする
 webrtc-reason-for-no-permanent-allow-screen = { -brand-short-name } はあなたの画面への永続的なアクセスを許可できません。
 webrtc-reason-for-no-permanent-allow-audio = { -brand-short-name } は共有を明示的に許可されない限り、あなたのタブの音声への永続的なアクセスを許可できません。

@@ -587,6 +587,10 @@ home-prefs-recent-activity-description = 最近のサイトとコンテンツの
 home-prefs-snippets-header =
     .label = スニペット
 home-prefs-snippets-description-new = { -vendor-short-name } と { -brand-product-name } に関するヒントと最新情報
+home-prefs-weather-header =
+    .label = 天気予報
+home-prefs-weather-description = 一目でわかる今日の天気
+home-prefs-weather-learn-more-link = 詳細情報
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
@@ -896,6 +900,9 @@ forms-saved-passwords =
 forms-primary-pw-use =
     .label = マスターパスワードを使用する
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = パスワードの入力と管理には端末のログイン情報が必要です
 forms-primary-pw-learn-more-link = 詳細情報
 # This string uses the former name of the Primary Password feature
 # ("Master Password" in English) so that the preferences can be found
@@ -928,6 +935,14 @@ primary-password-os-auth-dialog-message-win = マスターパスワードを作�
 # notes are only valid for English. Please test in your locale.
 primary-password-os-auth-dialog-message-macosx = マスターパスワードを作成
 master-password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS string is preceded by the operating system with "Firefox is trying to ".
+# (^m^) [macos] Firefox が...しようとしています。
+autofill-creditcard-os-dialog-message =
+    { PLATFORM() ->
+        [macos] 支払い方法の設定を変更
+       *[other] { -brand-short-name } が支払い方法の設定を変更しようとしています。許可するには端末のログイン情報を使用してください。
+    }
+autofill-creditcard-os-auth-dialog-caption = { -brand-full-name }
 
 ## Privacy section - Autofill
 
@@ -949,6 +964,9 @@ autofill-reauth-checkbox =
         [linux] 支払い方法の入力と編集は Linux の認証が必要です。
        *[other] 支払い方法の入力と編集は OS の認証が必要です。
     }
+    .accesskey = o
+# This operation requires the user to authenticate with the operating system (device sign-in)
+autofill-reauth-payment-methods-checkbox = 支払い方法の入力と管理には端末のログイン情報が必要です
     .accesskey = o
 
 ## Privacy Section - History

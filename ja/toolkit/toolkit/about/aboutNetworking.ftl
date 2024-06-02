@@ -4,13 +4,14 @@
 
 about-networking-title = ネットワーク通信
 about-networking-http = HTTP
-about-networking-sockets = Sockets
+about-networking-http-clear-cache-button = HTTP キャッシュを消去
+about-networking-sockets = ソケット
 about-networking-dns = DNS
 about-networking-dns-clear-cache-button = DNS キャッシュを消去
 about-networking-dns-trr-url = DoH URL
 about-networking-dns-trr-mode = DoH モード
 about-networking-dns-suffix = DNS サフィックス
-about-networking-websockets = WebSockets
+about-networking-websockets = WebSocket
 about-networking-refresh = 更新
 about-networking-auto-refresh = 3 秒ごとに自動更新する
 about-networking-hostname = ホスト名
@@ -65,4 +66,3 @@ about-networking-networkid-is-up = リンクアップ
 about-networking-networkid-status-known = リンク状態が既知
 
 ##
-

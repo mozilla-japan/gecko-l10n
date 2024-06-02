@@ -167,6 +167,14 @@ about-logins-edit-login-os-auth-dialog-message-win = ログイン情報を編集
 # This message can be seen when attempting to edit a login in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-edit-login-os-auth-dialog-message-macosx = 保存したログイン情報を編集
+# The macOS strings are preceded by the operating system with "Firefox is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+# (^m^) [macos] Firefox が...しようとしています。
+about-logins-os-auth-dialog-message=
+    { PLATFORM() ->
+        [macos] パスワード設定を変更
+       *[other] { -brand-short-name } がパスワード設定を変更しようとしています。許可するには端末のログイン情報を使用してください。
+    }
 # This message can be seen when attempting to edit a login in about:logins on Windows.
 about-logins-edit-login-os-auth-dialog-message2-win = パスワードを編集するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
 # This message can be seen when attempting to edit a login in about:logins
