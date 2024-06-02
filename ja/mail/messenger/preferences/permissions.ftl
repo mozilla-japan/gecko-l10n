@@ -4,9 +4,9 @@
 
 permissions-reminder-window2 =
     .title = 例外サイト
-permissions-dialog-title = 例外サイト
 permission-preferences-close-window =
     .key = w
+permissions-dialog-title = 例外サイト
 website-address-label =
     .value = サイトのアドレス:
     .accesskey = d

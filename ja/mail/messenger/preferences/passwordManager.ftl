@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = 保存されたログイン情報
-saved-logins-title = 保存されたログイン情報
 window-close =
     .key = w
+saved-logins-title = 保存されたログイン情報
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,11 @@ password-os-auth-dialog-message = 保存されたパスワードを開示する�
 password-os-auth-dialog-message-macosx = 保存されたパスワードを開示
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+# (^m^) [macos] Thunderbird が...しようとしています。
+password-os-auth-change-dialog-message=
+    { PLATFORM() ->
+        [macos] パスワード設定を変更
+       *[other] { -brand-short-name } がパスワード設定を変更しようとしています。許可するには端末のログイン情報を使用してください。
+    }

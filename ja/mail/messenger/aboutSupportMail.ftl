@@ -16,6 +16,7 @@ accounts-default = @@Default@@？
 identity-name = 使用アカウント
 send-via-email = メールで送信
 app-basics-telemetry = Telemetry データ
+app-basics-glean = Glean データ
 app-basics-cache-use = キャッシュ使用量
 mail-libs-title = ライブラリー
 libs-table-heading-library = ライブラリー

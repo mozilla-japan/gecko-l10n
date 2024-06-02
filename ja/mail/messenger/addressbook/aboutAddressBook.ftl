@@ -92,38 +92,83 @@ about-addressbook-column-header-generatedname2 = 名前
     .title = 名前で並べ替えます
 about-addressbook-column-label-generatedname2 =
     .label = 名前
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = 名前
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = メールアドレス
     .title = メールアドレスで並べ替えます
 about-addressbook-column-label-emailaddresses2 =
     .label = メールアドレス
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = メールアドレス
+    .title = { $title }
 about-addressbook-column-header-nickname2 = ニックネーム
     .title = ニックネームで並べ替えます
 about-addressbook-column-label-nickname2 =
     .label = ニックネーム
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = ニックネーム
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = 電話番号
     .title = 電話番号で並べ替えます
 about-addressbook-column-label-phonenumbers2 =
     .label = 電話番号
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = 電話番号
+    .title = { $title }
 about-addressbook-column-header-addresses2 = 所在地
     .title = 所在地で並べ替えます
 about-addressbook-column-label-addresses2 =
     .label = 所在地
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = 所在地
+    .title = { $title }
 about-addressbook-column-header-title2 = 役職
     .title = 役職名で並べ替えます
 about-addressbook-column-label-title2 =
     .label = 役職
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = 役職
+    .title = { $title }
 about-addressbook-column-header-department2 = 部署
     .title = 部署名で並べ替えます
 about-addressbook-column-label-department2 =
     .label = 部署
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = 部署
+    .title = { $title }
 about-addressbook-column-header-organization2 = 組織
     .title = 組織名で並べ替えます
 about-addressbook-column-label-organization2 =
     .label = 組織
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = 組織
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = アドレス帳
     .title = 登録先のアドレス帳で並べ替えます
 about-addressbook-column-label-addrbook2 =
     .label = アドレス帳
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = アドレス帳
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = 作成
 about-addressbook-confirm-delete-mixed-title = 連絡先とアドレスリストの削除

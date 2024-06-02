@@ -573,6 +573,9 @@ primary-password-description = マスターパスワードを使用すると、�
 primary-password-label =
     .label = マスターパスワードを使用する
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = パスワードの入力と管理には端末のログイン情報が必要です。
 primary-password-button =
     .label = マスターパスワードを変更...
     .accesskey = C
