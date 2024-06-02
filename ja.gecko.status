@@ -176,4 +176,5 @@ repo | target dir               hg changeset rev:id (pushdate)   by             
 --------------------------------------------------------------------------------------------------------
 geck | dom, netwerk, toolkit    15362:c79daf95cc72 (2024-05-21)  mar            sync dom, toolkit, netwerk
 comm | mail, calendar           19552:422a1d805c49 (2024-05-29)  mar            sync mail, chat
+geck | browser, devtools, ...   15365:aad160c9babb (2024-05-28)  mar            sync browser, devtools, dom, toolkit
 

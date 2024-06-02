@@ -266,6 +266,9 @@ newtab-custom-recent-subtitle = 最近のサイトとコンテンツの抜粋
 newtab-custom-recent-toggle =
     .label = 最近のアクティビティ
     .description = 最近のサイトとコンテンツの抜粋
+newtab-custom-weather-toggle =
+    .label = 天気予報
+    .description = 一目でわかる今日の天気
 newtab-custom-close-button = 閉じる
 newtab-custom-settings = 他の設定を管理
 
@@ -289,3 +292,32 @@ newtab-wallpaper-dark-city = 紫色の街の景色
 #   $author_string (String) - The name of the creator of the photo.
 #   $webpage_string (String) - The name of the webpage where the photo is located.
 newtab-wallpaper-attribution = 写真提供: <a data-l10n-name="name-link">{ $author_string }</a> (<a data-l10n-name="webpage-link">{ $webpage_string }</a>)
+
+## New Tab Weather
+
+# Variables:
+#   $provider (string) - Service provider for weather data
+newtab-weather-see-forecast =
+    .title = { $provider } による天気予報を表示します
+# Variables:
+#   $provider (string) - Service provider for weather data
+newtab-weather-sponsored = 提供: { $provider }
+newtab-weather-menu-change-location = 予報地点を変更
+newtab-weather-change-location-search-input = 場所を検索
+newtab-weather-menu-weather-display = 天気表示
+# Display options are:
+# - Simple: Displays a current weather condition icon and the current temperature
+# - Detailed: Include simple information plus a short text summary: e.g. "Mostly cloudy"
+newtab-weather-menu-weather-display-option-simple = シンプル
+newtab-weather-menu-change-weather-display-simple = シンプル表示に切り替えます
+newtab-weather-menu-weather-display-option-detailed = 詳細
+newtab-weather-menu-change-weather-display-detailed = 詳細表示に切り替えます
+newtab-weather-menu-temperature-units = 温度の単位
+newtab-weather-menu-temperature-option-fahrenheit = 華氏 (℉)
+newtab-weather-menu-temperature-option-celsius = 摂氏 (℃)
+newtab-weather-menu-change-temperature-units-fahrenheit = ファーレンハイト度に切り替えます
+newtab-weather-menu-change-temperature-units-celsius = セルシウス度に切り替えます
+newtab-weather-menu-hide-weather = @@NewTab@@の天気表示を隠す
+newtab-weather-menu-learn-more = 詳細情報
+# This message is shown if user is working offline
+newtab-weather-error-not-available = 現在、天気データが利用できません。

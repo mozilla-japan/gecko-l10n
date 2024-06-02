@@ -117,6 +117,11 @@ tabbrowser-confirm-caretbrowsing-title = キャレットブラウジング
 tabbrowser-confirm-caretbrowsing-message = F7 を押すとキャレットブラウジングのオンオフを切り替えられます。この機能はウェブページに移動可能なカーソルを配置して、キーボードでテキストを選択できるようにします。キャレットブラウジングをオンにしますか？
 tabbrowser-confirm-caretbrowsing-checkbox = 次回からはこのダイアログを表示しない。
 
+## Confirmation dialog for closing all duplicate tabs
+
+tabbrowser-confirm-close-duplicate-tabs-title = お知らせ
+tabbrowser-confirm-close-duplicate-tabs-text = 最後に表示していたタブは閉じずに残します
+
 ##
 
 # Variables:
