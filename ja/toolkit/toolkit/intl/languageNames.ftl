@@ -168,6 +168,7 @@ language-name-se = サミ語
 language-name-sg = サンゴ語
 language-name-si = シンハラ語
 language-name-sk = スロバキア語
+language-name-skr = サライキ語
 language-name-sl = スロベニア語
 language-name-sm = サモア語
 language-name-sn = ショナ語
