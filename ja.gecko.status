@@ -151,16 +151,12 @@ geck | dom, netwerk, toolkit    15306:fa63c5f570de (2024-02-26)  mar            
 comm | mail                     17224:b2bea485b71c (2024-02-28)  mar            sync mail
 geck | browser, devtools, dom   15316:e5b32d17fcc3 (2024-03-08)  mar            sync browser, devtools, dom
 
-^---Released!
-
 [l10n-mozilla-125.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, toolkit             15321:5060ee671f19 (2024-03-20)  mar            sync dom, toolkit
 geck | browser, devtools, ...   15330:2ec2400698da (2024-04-03)  mar            sync browser, devtools, dom, toolkit
 comm | mail, calendar           17522:a4bd4aeca464 (2024-04-04)  mar            sync mail, calendar
-
-^---Released!
 
 [l10n-mozilla-126.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
@@ -169,12 +165,17 @@ geck | dom, toolkit             15349:85e0eaac87ac (2024-04-29)  mar            
 geck | browser                  15349:85e0eaac87ac (2024-04-29)  mar            sync browser
 comm | mail, chat               17986:3b0006ed36a8 (2024-05-02)  mar            sync mail, chat
 
-^---Released!
-
 [l10n-mozilla-127.0]
 repo | target dir               hg changeset rev:id (pushdate)   by             comment
 --------------------------------------------------------------------------------------------------------
 geck | dom, netwerk, toolkit    15362:c79daf95cc72 (2024-05-21)  mar            sync dom, toolkit, netwerk
 comm | mail, calendar           19552:422a1d805c49 (2024-05-29)  mar            sync mail, chat
 geck | browser, devtools, ...   15365:aad160c9babb (2024-05-28)  mar            sync browser, devtools, dom, toolkit
+
+^---Released!
+
+[l10n-mozilla-128.0] ESR
+repo | target dir               hg changeset rev:id (pushdate)   by             comment
+--------------------------------------------------------------------------------------------------------
+geck | dom, toolkit, spellcheck 15376:f87400c39442 (2024-06-11)  mar            sync dom, toolkit, spellcheck
 

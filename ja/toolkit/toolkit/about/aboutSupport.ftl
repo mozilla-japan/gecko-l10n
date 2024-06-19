@@ -390,6 +390,20 @@ support-printing-modified-settings = 変更された@@Print@@設定
 support-printing-prefs-name = 設定名
 support-printing-prefs-value = 値
 
+## Remote Settings sections
+
+support-remote-settings-title = リモート設定
+support-remote-settings-status = 状態
+support-remote-settings-status-ok = OK
+# Status when synchronization is not working.
+support-remote-settings-status-broken = 動作していません
+support-remote-settings-last-check = 最終確認
+support-remote-settings-local-timestamp = ローカルタイムスタンプ
+support-remote-settings-sync-history = 履歴
+support-remote-settings-sync-history-status = 状態
+support-remote-settings-sync-history-datetime = 日時
+support-remote-settings-sync-history-infos = 情報
+
 ## Normandy sections
 
 support-remote-experiments-title = リモート機能の実験
