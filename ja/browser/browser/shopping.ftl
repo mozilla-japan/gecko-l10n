@@ -115,6 +115,7 @@ shopping-settings-sidebar-enabled-state = レビューチェッカーが <strong
 shopping-adjusted-rating-label =
     .label = レートが調整されています
 shopping-adjusted-rating-unreliable-reviews = 信頼できないレビューを削除しました
+shopping-adjusted-rating-based-reliable-reviews = 信頼できるレビューに基づく
 
 ## Strings for the review reliability component
 

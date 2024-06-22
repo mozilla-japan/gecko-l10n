@@ -84,3 +84,11 @@ account-multiple-tabs-arriving-from-single-device = { $tabCount } 個のタブ�
 account-multiple-tabs-arriving-from-multiple-devices = { $tabCount } 個のタブが接続した端末から送られてきました
 # This version is used when we don't know any device names.
 account-multiple-tabs-arriving-from-unknown-device = { $tabCount } 個のタブが送られてきました
+
+## These strings are used in notifications in which the user remotely closed
+## tabs from other devices
+## Variables:
+##   $closedCount (Number): the number of tabs closed
+
+account-view-recently-closed-tabs = 最近閉じたタブを表示
+account-tabs-closed-remotely = { $closedCount } 個の { -brand-short-name } タブを閉じました

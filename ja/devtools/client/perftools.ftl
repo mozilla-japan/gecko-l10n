@@ -132,6 +132,8 @@ perftools-presets-networking-description = { -brand-shorter-name } のネット�
 # "Power" is used in the sense of energy (electricity used by the computer).
 perftools-presets-power-label = 消費電力
 perftools-presets-power-description = { -brand-shorter-name } の消費電力のバグを少ないオーバーヘッドで調査するための推奨プリセットです。
+perftools-presets-debug-label = デバッグ
+perftools-presets-debug-description = { -brand-shorter-name } のデバッグ用プリセットです。オーバーヘッドが高いため、パフォーマンスが求められる作業を避け、ブラウザーの動作を調査する目的で使用してください。
 perftools-presets-custom-label = カスタム
 
 ##

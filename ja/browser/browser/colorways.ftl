@@ -20,4 +20,4 @@ dreamer-colorway-name = Dreamer
 dreamer-colorway-description = 大胆に幸運を引き寄せろ。夢を掲げるあなたの姿は人の勇気を呼び覚ます。
 
 innovator-colorway-name = Innovator
-innovator-colorway-description = あらゆる場所で機会を掴め。あなたがもたらす革新は周囲の人生を震わせる。
+innovator-colorway-description = あらゆる場所で機会をつかめ。あなたがもたらす革新は周囲の人生を震わせる。
