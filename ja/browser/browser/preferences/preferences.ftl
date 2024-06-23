@@ -957,14 +957,6 @@ autofill-payment-methods-checkbox-submessage = クレジットカードとデビ
     .accesskey = I
 autofill-saved-payment-methods-button = 保存された支払方法
     .accesskey = v
-autofill-reauth-checkbox =
-    { PLATFORM() ->
-        [macos] 支払い方法の入力と編集は macOS の認証が必要です。
-        [windows] 支払い方法の入力と編集は Windows の認証が必要です。
-        [linux] 支払い方法の入力と編集は Linux の認証が必要です。
-       *[other] 支払い方法の入力と編集は OS の認証が必要です。
-    }
-    .accesskey = o
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox = 支払い方法の入力と管理には端末のログイン情報が必要です
     .accesskey = o
@@ -1292,6 +1284,14 @@ privacy-segmentation-radio-off =
     .label = { -brand-product-name } のおすすめを利用する
 privacy-segmentation-radio-on =
     .label = 詳細情報を表示する
+
+## Privacy Section - Website Advertising Preferences
+
+website-advertising-header = ウェブサイトの広告設定
+website-advertising-private-attribution =
+    .label = プライバシー保護された広告解析をウェブサイトに許可する
+    .accesskey = a
+website-advertising-private-attribution-description = これはウェブサイトがユーザーのデータを収集せずに広告の効果を解析するのを助けます。
 
 ## Privacy Section - Security
 ##

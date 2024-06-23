@@ -73,16 +73,6 @@ appmenu-remote-tabs-turn-on-sync =
 appmenu-remote-tabs-showmore =
     .label = さらにタブを表示
     .tooltiptext = この端末からのタブをさらに表示します
-# This is shown when there are inactive tabs which are not being shown.
-# Variables
-# $count (Number) - The number of inactive tabs which are not being shown (at least 1)
-appmenu-remote-tabs-showinactive =
-    .label =
-        { $count ->
-            [one] 休止中のタブを表示
-           *[other] 休止中の { $count } 個のタブを表示
-        }
-    .tooltiptext = 休止中のタブをこの端末で表示します
 # This is shown as the label for an element to show inactive tabs from this device.
 appmenu-remote-tabs-show-inactive-tabs =
     .label = 休止中のタブ
@@ -200,6 +190,9 @@ profiler-popup-presets-power-description = { -brand-shorter-name } の消費電�
 # "Power" is used in the sense of energy (electricity used by the computer).
 profiler-popup-presets-power-label =
     .label = 消費電力
+profiler-popup-presets-debug-description = { -brand-shorter-name } のデバッグ用プリセットです。オーバーヘッドが高いため、パフォーマンスが求められる作業を避け、ブラウザーの動作を調査する目的で使用してください。
+profiler-popup-presets-debug-label =
+    .label = デバッグ
 profiler-popup-presets-custom-label =
     .label = カスタム
 
