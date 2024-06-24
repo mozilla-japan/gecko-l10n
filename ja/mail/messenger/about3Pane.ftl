@@ -110,6 +110,8 @@ quick-filter-bar-textbox =
     .placeholder = このフォルダーのメッセージを絞り込む <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
     .label = メッセージの絞り込み:
+quick-filter-bar-search2 =
+    .label = メッセージの絞り込み
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -489,3 +491,17 @@ threadpane-sort-header-count = メッセージ <span>{ $total }</span> 通
 apply-current-view-to-folder-with-children-message = 現在のフォルダーのビューを { $name } フォルダー全体 (サブフォルダーを含む) に適用しますか？
 threadpane-card-menu-button =
     .title = メッセージメニュー
+message-list-placeholder-no-messages = メッセージが見つかりませんでした
+message-list-placeholder-multiple-folders = 複数のフォルダーが選択されています
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] フォルダーを既読にする
+           *[other] 選択したフォルダーを既読にする
+        }
+    .accesskey = k

@@ -16,6 +16,7 @@ connection-error-time-out = 接続がタイムアウトしました
 connection-error-invalid-username = ユーザー名 { $username } は許可されていません
 connection-error-invalid-password = サーバーパスワードが正しくありません
 connection-error-password-required = パスワードが必要です
+connection-error-invalid-user-password = パスワードが正しくありません
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = チャンネル(_C)
@@ -34,7 +35,7 @@ options-alternate-nicks = 別のニックネーム
 # LOCALIZATION NOTE (ctcp-version):
 #   $username is the nickname of the user whose version was requested.
 #   $version is the version response from the client.
-ctcp-version = { $username } さんは "{ $version }" を使用しています。
+ctcp-version = { $username } さんは “{ $version }” を使用しています。
 # LOCALIZATION NOTE (ctcp-time):
 #   $username is the nickname of the user whose time was requested.
 #   $timeResponse is the time response.
@@ -211,7 +212,7 @@ error-send-message-failed = 最後のメッセージの送信中にエラーが�
 error-channel-forward = { $name } チャンネルには参加せず、自動的に { $details } チャンネルへリダイレクトされました。
 #    $mode is the mode that the user tried to set but was not recognized
 #    by the server as a valid mode.
-error-unknown-mode = '{ $mode }' はこのサーバーで正しいユーザーモードではありません。
+error-unknown-mode = ‘{ $mode }’ はこのサーバーで正しいユーザーモードではありません。
 # LOCALIZATION NOTE (tooltip-*):
 #    These are the descriptions given in a tooltip with information received
 #    from a whois response.

@@ -354,6 +354,7 @@ html-task-completed = { $task } (完了)
 # Categories
 add-category = カテゴリーを追加
 multiple-categories = 複数のカテゴリー
+no-categories = なし
 calendar-today = 今日
 calendar-tomorrow = 明日
 yesterday = 昨日

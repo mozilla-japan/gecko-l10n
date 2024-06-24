@@ -230,12 +230,12 @@ conversation-message-muc-shutdown = システムシャットダウンのため�
 #   $user (String): is the name of the user whose version was requested.
 #   $clientName (String): is the client name response from the client.
 #   $clientVersion (String): is the client version response from the client.
-conversation-message-version = { $user } さんは "{ $clientName } { $clientVersion }" を使用しています。
+conversation-message-version = { $user } さんは “{ $clientName } { $clientVersion }” を使用しています。
 #   $user (String): is the name of the user whose version was requested.
 #   $clientName (String): is the client name response from the client.
 #   $clientVersion (String): is the client version response from the client.
 #   $systemResponse (String): is the operating system(OS) response from the client.
-conversation-message-version-with-os = { $user } さんは { $systemResponse } で "{ $clientName } { $clientVersion }" を使用しています。
+conversation-message-version-with-os = { $user } さんは { $systemResponse } で “{ $clientName } { $clientVersion }” を使用しています。
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.

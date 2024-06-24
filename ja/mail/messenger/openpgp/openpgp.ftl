@@ -297,7 +297,7 @@ openpgp-key-details-expiry-label =
     .label = 有効期限
 openpgp-key-details-expiry-header = 有効期限
 openpgp-key-details-usage-label =
-    .label = 利用法
+    .label = 用途
 openpgp-key-details-fingerprint-label = フィンガープリント
 openpgp-key-details-legend-secret-missing = (!) マークが付いた鍵は秘密鍵が利用できません。
 openpgp-key-details-sel-action =
@@ -490,7 +490,7 @@ filter-encrypt-label = 鍵に対して暗号化する (Enigmail)
 
 import-info-title =
     .title = 成功！ 鍵を@@Import-si@@ました
-import-info-dialog-title = 成功！ 鍵をインポートしました
+import-info-dialog-title = 成功！ 鍵を@@Import-si@@ました
 import-info-bits = ビット
 import-info-created = 作成日
 import-info-fpr = フィンガープリント

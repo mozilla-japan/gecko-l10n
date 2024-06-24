@@ -4,7 +4,7 @@
 
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
-cert-error-domain-mismatch = このサーバーの { $hostname } の証明書が正しくありません。誰かがこのサーバーになりすまそうとしている可能性があるため、この先へ進んではいけません。
+cert-error-domain-mismatch = このサーバーの { $hostname } の証明書が正しくありません。誰かがこのサーバーになりすまそうとしている可能性があるため、この先へ進まないでください。
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
 #   $not-after (Date) - Certificate is not valid after this time.
