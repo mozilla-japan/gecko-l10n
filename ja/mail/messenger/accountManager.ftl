@@ -12,3 +12,6 @@ edit-vcard-dialog-accept-button = 保存
     .accesskey = S
 edit-vcard-dialog-cancel-button = キャンセル
     .accesskey = C
+account-manager-server-default-icon =
+    .title = @@Default-@@アカウント
+    .alt = スターアイコン

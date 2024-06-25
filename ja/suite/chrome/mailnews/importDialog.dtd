@@ -26,7 +26,7 @@
 <!ENTITY importDescription2.label "@@ImportNoun@@後は &brandShortName; のメールやアドレス帳からアクセスできるようになります。">
 
 <!ENTITY selectDescription.label  "@@ImportNoun@@元のファイルタイプを選択してください:">
-<!ENTITY selectDescriptionB.label "既存のアカウントを選択するか、新しいアカウントを作成してください:">
+<!ENTITY selectDescriptionB.label "既存のアカウントを選択するか、@@New-CMD@@アカウントを作成してください:">
 <!ENTITY selectDescription.accesskey "P">
 <!ENTITY acctName.label           "アカウント名:">
 <!ENTITY acctName.accesskey       "N">

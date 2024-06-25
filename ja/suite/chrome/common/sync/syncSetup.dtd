@@ -7,7 +7,7 @@
 <!-- First page of the wizard -->
 
 <!ENTITY setup.pickSetupType.description "ようこそ - これまでに &syncBrand.fullName.label; を使用したことがなければ、アカウントを作成してください。">
-<!ENTITY button.createNewAccount.label "新しいアカウントを作成">
+<!ENTITY button.createNewAccount.label "@@New-CMD@@アカウントを作成">
 <!ENTITY setup.haveAccount.label "すでに &syncBrand.fullName.label; アカウントを持っています">
 <!ENTITY button.connect.label    "接続">
 
@@ -48,7 +48,7 @@
 <!ENTITY setup.newRecoveryKeyPage.description.label "あなたのプライバシーを守るため、すべてのデータはアップロード前に暗号化されます。データを復号する際に必要となるリカバリーキーはアップロードされません。">
 <!ENTITY recoveryKeyEntry.label        "リカバリーキー">
 <!ENTITY recoveryKeyEntry.accesskey    "K">
-<!ENTITY recoveryGenerateNewKey.label  "新しいキーを生成する">
+<!ENTITY recoveryGenerateNewKey.label  "@@New-CMD@@キーを生成する">
 <!ENTITY recoveryKeyBackup.description "リカバリーキーは、他のパソコンから &syncBrand.fullName.label; へアクセスする際に必要となります。メモとして残しておくことをお勧めします。リカバリーキーを失くすと取り戻すことはできません。">
 
 <!ENTITY button.syncKeyBackup.print.label     "@@Print@@...">

@@ -28,8 +28,8 @@ options-encryption-cross-signing = クロス署名: { $status }
 options-encryption-status-ok = OK
 options-encryption-status-not-ok = 準備中
 options-encryption-need-backup-passphrase = プロトコルオプションにバックアップ鍵のパスフレーズを入力してください。
-options-encryption-set-up-secret-storage = 秘密ストレージをセットアップするには、別のクライアントを使用した後、生成されたバックアップ鍵のパスフレーズを "一般" タブに入力してください。
-options-encryption-set-up-backup-and-cross-signing = 暗号化鍵のバックアップとクロス署名を有効にするには、バックアップ鍵のパスフレーズを "一般" タブに入力するか、以下のいずれかのセッション ID を検証してください。
+options-encryption-set-up-secret-storage = 秘密ストレージをセットアップするには、別のクライアントを使用した後、生成されたバックアップ鍵のパスフレーズを @@[@@一般@@]@@ タブに入力してください。
+options-encryption-set-up-backup-and-cross-signing = 暗号化鍵のバックアップとクロス署名を有効にするには、バックアップ鍵のパスフレーズを @@[@@一般@@]@@ タブに入力するか、以下のいずれかのセッション ID を検証してください。
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
@@ -158,9 +158,9 @@ command-roomname = { $commandName } &lt;name&gt;: 部屋の名前を設定しま
 # $commandName is the command name
 command-detail = { $commandName }: 部屋の詳細情報を表示します。
 # $commandName is the command name
-command-addalias = { $commandName } &lt;alias&gt;: 部屋の別名を作成します。&lt;alias&gt; に '#localname:domain' の書式で指定してください。別名を追加する権限が必要です。
+command-addalias = { $commandName } &lt;alias&gt;: 部屋の別名を作成します。&lt;alias&gt; に ‘#localname:domain’ の書式で指定してください。別名を追加する権限が必要です。
 # $commandName is the command name
-command-removealias = { $commandName } &lt;alias&gt;: 部屋の別名を削除します。&lt;alias&gt; に '#localname:domain' の書式で指定してください。別名を削除する権限が必要です。
+command-removealias = { $commandName } &lt;alias&gt;: 部屋の別名を削除します。&lt;alias&gt; に ‘#localname:domain’ の書式で指定してください。別名を削除する権限が必要です。
 # $commandName is the command name
 command-upgraderoom = { $commandName } &lt;newVersion&gt;: 部屋を &lt;newVersion&gt; に指定したバージョンにアップグレードします。部屋をアップグレードする権限が必要です。
 # $commandName is the command name
@@ -283,4 +283,4 @@ message-action-cancel = メッセージをキャンセル
 # LOCALIZATION NOTE (error-*)
 #    These are strings shown as system messages when an action the user took fails.
 #    $message is the message.
-error-send-message-failed = メッセージの送信中にエラーが発生しました: "{ $message }"
+error-send-message-failed = メッセージの送信中にエラーが発生しました: “{ $message }”
