@@ -23,71 +23,14 @@ en-US との同期が途中である場合は残りの差分をこのファイ�
 
 ◆各リポジトリへの対応について、何かあれば以下に書き残してください。
 
-58.0 以降の cross-channel 対応
-  ・default ブランチで gecko-strings と同期し、mozilla-central にコミットする。
-    https://hg.mozilla.org/l10n/gecko-strings
-  ・57.0 以降の Release および Beta に影響するため、作業対象のバージョンで obsoleted になっている strings を削除しないこと！
+129.0 以降の firefox-l10n / thunderbird-l10n 対応
+　・それぞれ firefox-l10n-source / thunderbird-l10n-source と gecko-l10n で同期し、ja/ja-JP-mac に convert したものをプルリクエストする。
+    https://github.com/mozilla-l10n/firefox-l10n-source
+      --> https://github.com/mozilla-l10n/firefox-l10n/tree/main/ja (および ja-JP-mac)
+    https://github.com/thunderbird/thunderbird-l10n-source
+      --> https://github.com/thunderbird/thunderbird-l10n/tree/main/ja (および ja-JP-mac)
+　・SeaMonkey のリソースは gecko-l10n # mozilla-l10n-128.0 ブランチの /suite を参照。
 
-
-mozilla-beta/ja は 56.0 で終了。
-mozilla-aurora/ja は 54.0 で終了。
-
-
-
-◆Mercurial コマンドメモ
-
-・ローカルリポジトリの更新
-> hg pull
-> hg update
- または
-> hg pull -u
-
-・現在の作業リビジョンの確認
-> hg parent
-
-・現在の作業状態の確認
-> hg status
-
-・ファイルの追加と削除 (一括)
-> hg addremove
-
-・コミット
-> hg commit -m "[commit log]"
- または
-> hg ci -m "[commit log]"
-
-・サーバに push
-> hg push
-
-・コミットログの表示
-> hg log -l [num]
-
-・コミットログのグラフ表示 (※hgrc に hgext.graphlog= を記述)
-> hg glog -l [num]
-
-
-
-◇ あまり使わないコマンド
-
-・コミットの取り消し (ただしpush前限定)
-> hg rollback
-
-・作業ブランチの切り替え
-> hg update [branch name]
-
-・現在の作業ブランチの確認
-> hg branch
-
-・ブランチの作成
-> hg branch [branch name]
-
-・作成したブランチをGoogle Codeへpush
-> hg ci -m "create l10n-mozilla-XX.X branch"
-> hg push --new-branch
-
-・作業リビジョンの切り替え
-> hg update -r [rev]
-
-・default ブランチからの移植 (※hgrc に transplant= を記述)
-> hg transplant -b default -m [rev] --log
-
+過去の作業ログは以下を参照
+　ver 2.0 - 107.0 : ja.status
+　ver 108.0 - 128.0 : ja.gecko.status 
