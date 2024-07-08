@@ -1,0 +1,46 @@
+        言語リソースのディレクトリー構造
+
+* Repo: fxsrc  https://github.com/mozilla-l10n/firefox-l10n-source
+Dirname             App     Note
+---------------------------------------------------------------------
+browser             Fx      Firefox
+devtools            all     Developer Tools
+dom                 all     DOM parser, neterrors, etc.
+mobile/android      Fe      Mobile Firefox (a part of Fenix)
+netwerk             all     Network
+security/manager    all     PKI, certificates
+toolkit             all     Common toolkit
+  crashreporter     all     Crash Reporter
+extensions
+  spellcheck        all     'en-US' spellcheck dictionary
+
+* Repo: tbsrc  https://github.com/thunderbird/thunderbird-l10n-source
+Dirname             App     Note
+---------------------------------------------------------------------
+calendar            Tb      Calendar
+chat                Tb      Instant Messaging
+mail                Tb      Thunderbird
+
+* Repo: comm  https://hg.mozilla.org/projects/comm-l10n/en-US/suite/
+Dirname             App     Note
+---------------------------------------------------------------------
+suite               Sm      SeaMonkey  19745:e5eb137f7663 (2024-06-08)
+  chatzilla         Sm      ChatZilla
+
+
+        Gecko ver.128 以降の en-US との同期履歴
+
+* 英語版と同期した際には対象リビジョンを末尾の行に追記していってください
+    ディレクトリー単位ですっきり同期していない場合その旨コメントを書いてください
+    リビジョン番号は github のリポジトリーにおける番号を確認して記録します
+* 同期対象のリポジトリが異なる場合は必ずコミットを分けてください！
+* バージョン 107 以前の同期履歴は ja.status を参照してください
+* バージョン 128 以前の同期履歴は ja.gecko.status を参照してください
+
+
+[l10n-mozilla-129.0]
+repo  | target dir               github rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | dom, netwerk, toolkit    018def809b58 (2024-07-05)  mar          sync dom, netwerk, toolkit
+tbsrc | mail, calendar           ...          ( ...      )
+
