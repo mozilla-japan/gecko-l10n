@@ -80,7 +80,6 @@ about-reader-custom-colors-visited-links = 訪問済みリンク
     .title = 訪問済みリンクの@@Color@@を変更します
 about-reader-custom-colors-selection-highlight = 読み上げ部分の強調
     .title = 読み上げ部分の@@Color@@を変更します
-about-reader-custom-colors-reset-button = @@Default@@に戻す
 about-reader-reset-button = @@Default@@に戻す
 
 ## Reader View improved text and layout menu
@@ -100,9 +99,6 @@ about-reader-content-width-label =
 about-reader-line-spacing-label =
   .label = 行間隔
 about-reader-advanced-layout-header = 詳細設定
-about-reader-slider-label-width-narrow = 狭める
-about-reader-slider-label-width-wide = 広げる
-about-reader-slider-label-spacing-narrow = 狭める
 about-reader-character-spacing-label =
   .label = 文字間隔
 about-reader-word-spacing-label =
