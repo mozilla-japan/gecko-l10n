@@ -77,11 +77,11 @@ autofill-address-suburb = 地区
 
 ## address-level-1 names
 
-autofill-address-province = 県
+autofill-address-province = 州/省/県
 autofill-address-state = 州
-autofill-address-county = 国
+autofill-address-county = 郡
 # Used in BB, JM
-autofill-address-parish = 郡
+autofill-address-parish = 教区
 # Used in JP
 autofill-address-prefecture = 都道府県
 # Used in HK
@@ -89,9 +89,9 @@ autofill-address-area = 地区
 # Used in KR
 autofill-address-do-si = 道/市
 # Used in NI, CO
-autofill-address-department = 管区
+autofill-address-department = 県
 # Used in AE
-autofill-address-emirate = 管轄区
+autofill-address-emirate = 首長国
 # Used in RU and UA
 autofill-address-oblast = 州
 
