@@ -39,8 +39,8 @@ suite               Sm      SeaMonkey  19745:e5eb137f7663 (2024-06-08)
 
 
 [l10n-mozilla-129.0]
-repo  | target dir               github rev   (pushdate)    by           comment
+repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
-fxsrc | dom, netwerk, toolkit    018def809b58 (2024-07-05)  mar          sync dom, netwerk, toolkit
-tbsrc | mail, calendar           ...          ( ...      )
+fxsrc | dom, netwerk, toolkit    018def80 (2024-07-05)  mar          sync dom, netwerk, toolkit
+tbsrc | mail, chat               997a3231 (2024-07-10)  mar          sync mail, chat
 
