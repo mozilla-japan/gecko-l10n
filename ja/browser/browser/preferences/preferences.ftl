@@ -905,7 +905,7 @@ forms-primary-pw-use =
     .accesskey = U
 # This operation requires the user to authenticate with the operating system (device sign-in)
 forms-os-reauth =
-    .label = パスワードの入力と管理には端末のログイン情報が必要です
+    .label = パスワードの入力と管理に端末のログイン情報を要求する
 forms-primary-pw-learn-more-link = 詳細情報
 # This string uses the former name of the Primary Password feature
 # ("Master Password" in English) so that the preferences can be found

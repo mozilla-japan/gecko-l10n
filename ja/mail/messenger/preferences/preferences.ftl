@@ -575,7 +575,7 @@ primary-password-label =
     .accesskey = U
 # This operation requires the user to authenticate with the operating system (device sign-in)
 forms-os-reauth =
-    .label = パスワードの入力と管理には端末のログイン情報が必要です。
+    .label = パスワードの入力と管理に端末のログイン情報を要求する
 primary-password-button =
     .label = マスターパスワードを変更...
     .accesskey = C
