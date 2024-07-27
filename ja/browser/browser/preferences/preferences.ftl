@@ -57,6 +57,7 @@ category-experimental =
 pane-experimental-subtitle = 注意して進んでください
 pane-experimental-search-results-header = { -brand-short-name } の実験的な機能: 注意して進んでください
 pane-experimental-description2 = 高度な設定を変更すると、{ -brand-short-name } の性能と安全性に影響を及ぼす可能性があります。
+pane-experimental-description3 = 実験的な機能を試してみてください！ 現在開発中ですが、{ -brand-short-name } の動作にインパクトを与えることでしょう。
 settings-pane-labs-title = { -firefoxlabs-brand-name }
 settings-category-labs =
     .tooltiptext = { -firefoxlabs-brand-name }
@@ -1097,8 +1098,11 @@ addressbar-locbar-quickactions-option =
     .accesskey = Q
 addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
 addressbar-locbar-showrecentsearches-option =
-    .label = 最近の検索を表示
+    .label = 最近の検索を表示する
     .accesskey = r
+addressbar-locbar-showtrendingsuggestions-option =
+    .label = トレンド検索の候補を表示する
+    .accesskey = t
 addressbar-quickactions-learn-more = 詳細情報
 
 ## Privacy Section - Content Blocking
@@ -1339,13 +1343,20 @@ space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行する�
 
 httpsonly-header = HTTPS-Only モード
 httpsonly-description = HTTPS は { -brand-short-name } とあなたが訪れるウェブサイトとの間に、暗号化された安全な接続を提供します。多くのウェブサイトは HTTPS に対応しており、HTTPS-Only モードを有効にすると { -brand-short-name } はすべての接続を HTTPS に切り替えます。
+httpsonly-description2 = あなたが訪れたサイトとの間で { -brand-short-name } が暗号化された安全な接続を確立します。HTTPS-Only モードが有効のときに接続が安全でない場合は { -brand-short-name } が警告します。
 httpsonly-learn-more = 詳細
 httpsonly-radio-enabled =
     .label = すべての@@Window@@で HTTPS-Only モードを有効にする
+httpsonly-radio-enabled2 =
+    .label = すべての@@Window@@で HTTPS のみを使用する
 httpsonly-radio-enabled-pbm =
     .label = プライベート@@Window@@のみ HTTPS-Only モードを有効にする
+httpsonly-radio-enabled-pbm2 =
+    .label = プライベート@@Window@@で HTTPS のみを使用する
 httpsonly-radio-disabled =
     .label = HTTPS-Only モードを有効にしない
+httpsonly-radio-disabled2 =
+    .label = HTTPS を優先するが安全でない接続も許可する
 
 ## DoH Section
 

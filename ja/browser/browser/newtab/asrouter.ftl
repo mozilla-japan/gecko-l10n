@@ -83,7 +83,7 @@ cfr-whatsnew-release-notes-link-text = リリースノートをご確認くだ�
 #   $blockedCount (Number) - The total count of blocked trackers. This number will always be greater than 1.
 #   $date (Datetime) - The date we began recording the count of blocked trackers
 cfr-doorhanger-milestone-heading2 =
-    { $blockedCount ->
+    { NUMBER($blockedCount) ->
        *[other] { DATETIME($date, month: "long", year: "numeric") } 以降、{ -brand-short-name } は <b>{ $blockedCount } 個</b>以上のトラッカーをブロックしました！
     }
 cfr-doorhanger-milestone-ok-button = 確認

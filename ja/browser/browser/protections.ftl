@@ -112,7 +112,7 @@ monitor-breaches-resolved-description = あなたのメールアドレスを新�
 # $numBreachesResolved (Number) - Number of breaches marked as resolved by the user on Monitor.
 # $numBreaches (Number) - Number of breaches in which a user's data was involved, detected by Monitor.
 monitor-partial-breaches-title =
-    { $numBreaches ->
+    { NUMBER($numBreaches) ->
        *[other] { $numBreaches } 件中 { $numBreachesResolved } 件の漏洩データを解決済みとしてマークしました。
     }
 # Variables:

@@ -190,7 +190,7 @@ downloads-details =
 ##   $url (string) - The url of the suspicious site, stripped of http, https and www prefix.
 
 downloads-files-not-downloaded =
-    { $num ->
+    { NUMBER($num) ->
         [one] ファイルのダウンロードを中止しました。
        *[other] { $num } 個のファイルのダウンロードを中止しました。
     }

@@ -43,4 +43,5 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | dom, netwerk, toolkit    018def80 (2024-07-05)  mar          sync dom, netwerk, toolkit
 tbsrc | mail, chat               997a3231 (2024-07-10)  mar          sync mail, chat
+fxsrc | browser, devtools, ...   115b013b (2024-07-24)  mar          sync browser, devtools, toolkit
 
