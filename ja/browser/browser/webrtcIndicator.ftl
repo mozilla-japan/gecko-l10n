@@ -170,7 +170,7 @@ webrtc-share-monitor = 画面 { $monitorIndex }
 # Variables:
 #   $windowCount (Number): the number of windows currently displayed by the application.
 #   $appName (String): the name of the application.
-webrtc-share-application = { $appName } ({ $windowCount } @@Window@@)
+webrtc-share-application = { $appName } (@@Window@@ { $windowCount } 個)
 
 ## These buttons are the possible answers to the various prompts in the "webrtc-allow-share-*" strings.
 

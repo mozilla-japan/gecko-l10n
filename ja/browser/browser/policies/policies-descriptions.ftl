@@ -119,6 +119,7 @@ policy-Permissions2 = カメラ、マイク、位置情報、通知、自動再�
 policy-PictureInPicture = ピクチャーインピクチャーを有効または無効にします。
 policy-PopupBlocking = 特定のウェブサイトのポップアップ表示を@@Default@@で許可します。
 policy-Preferences = 設定のサブセットに対する値を設定してロックします。
+policy-PrivateBrowsingModeAvailability = プライベートブラウジングモードの利用許可を設定します。
 policy-PromptForDownloadLocation = ダウンロード時にファイルの保存先を確認します。
 policy-Proxy = プロキシーの設定を指示します。
 policy-RequestedLocales = アプリケーションに要求される言語リストと優先順位を設定します。

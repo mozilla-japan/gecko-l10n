@@ -14,3 +14,5 @@ all-tabs-menu-manage-user-context =
     .accesskey = O
 all-tabs-menu-close-duplicate-tabs =
     .label = 重複タブを閉じる
+all-tabs-menu-close-all-duplicate-tabs =
+    .label = すべての重複タブを閉じる

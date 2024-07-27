@@ -232,6 +232,19 @@ newtab-pocket-pocket-firefox-family = { -pocket-brand-name } は { -brand-produc
 newtab-pocket-save = 保存
 newtab-pocket-saved = 保存しました
 
+## Thumbs up and down buttons that shows over a newtab stories card thumbnail on hover.
+
+# Clicking the thumbs up button for this story will result in more stories like this one being recommended
+newtab-pocket-thumbs-up-tooltip =
+    .title = お気に入り
+# Clicking the thumbs down button for this story informs us that the user does not feel like the story is interesting for them
+newtab-pocket-thumbs-down-tooltip =
+    .title = 興味なし
+newtab-toast-thumbs-up-or-down = ありがとうございます。あなたのフィードバックがフィードを改善する助けになります。
+newtab-toast-dismiss-button =
+    .title = 閉じる
+    .aria-label = 閉じる
+
 ## Pocket content onboarding experience dialog and modal for new users seeing the Pocket section for the first time, shown as the first item in the Pocket section.
 
 newtab-pocket-onboarding-discover = ウェブのベストコンテンツを見つけましょう

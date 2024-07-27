@@ -5,7 +5,7 @@
 # Variables:
 #  $retriesLeft (Number): number of tries left
 webauthn-pin-invalid-long-prompt =
-    { $retriesLeft ->
+    { NUMBER($retriesLeft) ->
         [one] PIN コードが正しくありません。この端末の資格情報へのアクセスが永久に失われるまでの試行回数は残り { $retriesLeft } 回です。
        *[other] PIN コードが正しくありません。この端末の資格情報へのアクセスが永久に失われるまでの試行回数は残り { $retriesLeft } 回です。
     }
@@ -20,7 +20,7 @@ webauthn-specific-passkey-label = { $domain } 用の Passkey
 # Variables:
 #  $retriesLeft (Number): number of tries left
 webauthn-uv-invalid-long-prompt =
-    { $retriesLeft ->
+    { NUMBER($retriesLeft) ->
         [one] ユーザー確認に失敗しました。残り { $retriesLeft } 回まで試すことができます。もう一度試してください。
        *[other] ユーザー確認に失敗しました。残り { $retriesLeft } 回まで試すことができます。もう一度試してください。
     }

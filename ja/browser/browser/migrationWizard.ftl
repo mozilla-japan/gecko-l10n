@@ -106,7 +106,7 @@ migration-passwords-from-file-tsv-filter-title = TSV ファイル
 # Variables:
 #  $newEntries (Number): the number of new successfully imported passwords
 migration-wizard-progress-success-new-passwords =
-    { $newEntries ->
+    { NUMBER($newEntries) ->
         [one] { $newEntries } 件追加しました
        *[other] { $newEntries } 件追加しました
     }
@@ -116,7 +116,7 @@ migration-wizard-progress-success-new-passwords =
 # Variables:
 #  $updatedEntries (Number): the number of updated passwords
 migration-wizard-progress-success-updated-passwords =
-    { $updatedEntries ->
+    { NUMBER($updatedEntries) ->
         [one] { $updatedEntries } 件更新しました
        *[other] { $updatedEntries } 件更新しました
     }
@@ -140,11 +140,7 @@ migration-bookmarks-from-file-json-filter-title = JSON ファイル
 #
 # Variables:
 #  $newEntries (Number): the number of imported bookmarks.
-migration-wizard-progress-success-new-bookmarks =
-    { $newEntries ->
-        [one] ブックマーク { $newEntries } 件
-       *[other] ブックマーク { $newEntries } 件
-    }
+migration-wizard-progress-success-new-bookmarks = ブックマーク { $newEntries } 件
 migration-import-button-label = @@Import@@
 migration-choose-to-import-from-file-button-label = ファイルから@@Import@@
 migration-import-from-file-button-label = ファイルを選択
@@ -198,11 +194,7 @@ migration-safari-password-import-select-button = ファイルを選択
 #
 # Variables:
 #  $quantity (Number): the number of successfully imported bookmarks
-migration-wizard-progress-success-bookmarks =
-    { $quantity ->
-        [one] { $quantity } 個のブックマーク
-       *[other] { $quantity } 個のブックマーク
-    }
+migration-wizard-progress-success-bookmarks = { $quantity } 個のブックマーク
 # Shown in the migration wizard after importing bookmarks from either
 # Internet Explorer or Edge.
 #
@@ -210,11 +202,7 @@ migration-wizard-progress-success-bookmarks =
 #
 # Variables:
 #  $quantity (Number): the number of successfully imported bookmarks
-migration-wizard-progress-success-favorites =
-    { $quantity ->
-        [one] { $quantity } 個のお気に入り
-       *[other] { $quantity } 個のお気に入り
-    }
+migration-wizard-progress-success-favorites = { $quantity } 個のお気に入り
 
 ## The import process identifies extensions installed in other supported
 ## browsers and installs the corresponding (matching) extensions compatible
@@ -225,11 +213,7 @@ migration-wizard-progress-success-favorites =
 #
 # Variables:
 #   $quantity (Number): the number of successfully imported extensions
-migration-wizard-progress-success-extensions =
-    { $quantity ->
-        [one] { $quantity } 個の拡張機能
-       *[other] { $quantity } 個の拡張機能
-    }
+migration-wizard-progress-success-extensions = { $quantity } 個の拡張機能
 # Shown in the migration wizard after importing a partial amount of
 # matched extensions from supported browsers.
 #
@@ -250,18 +234,14 @@ migration-wizard-progress-extensions-addons-link = { -brand-short-name } 用の�
 #
 # Variables:
 #  $quantity (Number): the number of successfully imported passwords
-migration-wizard-progress-success-passwords =
-    { $quantity ->
-        [one] { $quantity } 件のパスワード
-       *[other] { $quantity } 件のパスワード
-    }
+migration-wizard-progress-success-passwords = { $quantity } 件のパスワード
 # Shown in the migration wizard after importing history from another
 # browser has completed.
 #
 # Variables:
 #  $maxAgeInDays (Number): the maximum number of days of history that might be imported.
 migration-wizard-progress-success-history =
-    { $maxAgeInDays ->
+    { NUMBER($maxAgeInDays) ->
         [one] 最近 1 日分
        *[other] 最近 { $maxAgeInDays } 日分
     }
@@ -271,11 +251,7 @@ migration-wizard-progress-success-formdata = フォームの入力履歴
 #
 # Variables:
 #  $quantity (Number): the number of successfully imported payment methods
-migration-wizard-progress-success-payment-methods =
-    { $quantity ->
-        [one] 支払い方法 { $quantity } 件
-       *[other] 支払い方法 { $quantity } 件
-    }
+migration-wizard-progress-success-payment-methods = 支払い方法 { $quantity } 件
 migration-wizard-safari-permissions-sub-header = Safari のブックマークと閲覧履歴を@@Import-suru@@には:
 migration-wizard-safari-instructions-continue = @@[@@続ける@@]@@ を選択します
 migration-wizard-safari-instructions-folder = リストから Safari フォルダーを選択し、@@[@@開く@@]@@ をクリックします

@@ -19,10 +19,7 @@ about-processes-shutdown-tab =
 #    $duration (Number) The time in seconds during which the profiler will be running.
 #                       The value will be an integer, typically less than 10.
 about-processes-profile-process =
-    .title = { $duration ->
-   [one] このプロセスのすべてのスレッドを { $duration } 秒間プロファイルします
-  *[other] このプロセスのすべてのスレッドを { $duration } 秒間プロファイルします
-}
+    .title = このプロセスのすべてのスレッドを { $duration } 秒間プロファイルします
 
 ## Column headers
 
@@ -50,6 +47,7 @@ about-processes-remote-sandbox-broker-process = リモートサンドボック�
 about-processes-fork-server-process = フォークサーバー ({ $pid })
 about-processes-preallocated-process = 事前割り当て ({ $pid })
 about-processes-utility-process = ユーティリティ ({ $pid })
+about-processes-inference-process = 推論 ({ $pid })
 # Unknown process names
 # Variables:
 #    $pid (String) The process id of this process, assigned by the OS.
@@ -79,20 +77,14 @@ about-processes-with-coop-coep-process-private = { $origin } — プライベー
 #                     greater than $number.
 #    $list (String) Comma separated list of active threads.
 #                   Can be an empty string if the process is idle.
-about-processes-active-threads = { $active ->
-     [one] 実行中のスレッド数 { $active } / { $number }: { $list }
-    *[other] 実行中のスレッド数 { $active } / { $number }: { $list }
-}
+about-processes-active-threads = 実行中のスレッド数 { $active } / { $number }: { $list }
 # Single-line summary of threads (idle process)
 # Variables:
 #    $number (Number) The number of threads in the process. Typically larger
 #                     than 30. We don't expect to ever have processes with less
 #                     than 5 threads.
 #                     The process is idle so all threads are inactive.
-about-processes-inactive-threads = { $number ->
-     [one] 待機中のスレッド数 { $number }
-    *[other] 待機中のスレッド数 { $number }
-}
+about-processes-inactive-threads = 待機中のスレッド数 { $number }
 # Thread details
 # Variables:
 #   $name (String) The name assigned to the thread.
@@ -148,7 +140,6 @@ about-processes-cpu-almost-idle = < 0.1%
 about-processes-cpu-fully-idle = 待機
     .title = 合計 CPU 時間: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
 
-
 ## Displaying Memory (total and delta)
 ## Variables:
 ##    $total (Number) The amount of memory currently used by the process.
@@ -163,7 +154,6 @@ about-processes-cpu-fully-idle = 待機
 # Common case.
 about-processes-total-memory-size-changed = { NUMBER($total, maximumFractionDigits:0) }{ $totalUnit }
    .title = 増減: { $deltaSign }{ NUMBER($delta, maximumFractionDigits:0) }{ $deltaUnit }
-
 # Special case: no change.
 about-processes-total-memory-size-no-change = { NUMBER($total, maximumFractionDigits:0) }{ $totalUnit }
 
