@@ -5,15 +5,9 @@
 printui-title = @@Print@@
 # Dialog title to prompt the user for a filename to save print to PDF.
 printui-save-to-pdf-title = @@SaveAs@@
-
 # Variables
 # $sheetCount (integer) - Number of paper sheets
-printui-sheets-count =
-    { $sheetCount ->
-        [one] { $sheetCount } 枚
-       *[other] { $sheetCount } 枚
-    }
-
+printui-sheets-count = { $sheetCount } 枚
 printui-page-range-all = すべて
 printui-page-range-current = 現在のページのみ
 printui-page-range-odd = 奇数ページ
@@ -21,42 +15,33 @@ printui-page-range-even = 偶数ページ
 printui-page-range-custom = ページ指定
 printui-page-range-label = ページ範囲
 printui-page-range-picker =
-  .aria-label = ページ範囲を選択してください
+    .aria-label = ページ範囲を選択してください
 printui-page-custom-range-input =
-  .aria-label = ページ範囲を入力してください
-  .placeholder = 例: 2-6, 9, 12-16
-
+    .aria-label = ページ範囲を入力してください
+    .placeholder = 例: 2-6, 9, 12-16
 # Section title for the number of copies to print
 printui-copies-label = 部数
-
 printui-orientation = 用紙の向き
 printui-landscape = 横
 printui-portrait = 縦
-
 # Section title for the printer or destination device to target
 printui-destination-label = プリンター
 printui-destination-pdf-label = PDF に保存
-
 printui-more-settings = 詳細設定
 printui-less-settings = 簡易設定
-
 printui-paper-size-label = 用紙サイズ
-
 # Section title (noun) for the print scaling options
 printui-scale = 倍率
 printui-scale-fit-to-page-width = 用紙幅に合わせる
 # Label for input control where user can set the scale percentage
 printui-scale-pcent = 倍率
-
 # Section title (noun) for the two-sided print options
 printui-two-sided-printing = 両面@@Print@@
-
 printui-two-sided-printing-off = オフ
 # Flip the sheet as if it were bound along its long edge.
 printui-two-sided-printing-long-edge = 長辺とじ
 # Flip the sheet as if it were bound along its short edge.
 printui-two-sided-printing-short-edge = 短辺とじ
-
 # Section title for miscellaneous print options
 printui-options = オプション
 printui-headers-footers-checkbox = ヘッダーとフッターを@@Print@@する
@@ -80,7 +65,6 @@ printui-simplify-page-radio = ページを単純化
 printui-color-mode-label = カラーモード
 printui-color-mode-color = カラー
 printui-color-mode-bw = モノクロ
-
 printui-margins = 余白
 printui-margins-default = @@Default@@
 printui-margins-min = 最少
@@ -99,23 +83,17 @@ printui-margins-custom-left-mm = 左 (mm)
 printui-margins-custom-right = 右
 printui-margins-custom-right-inches = 右 (インチ)
 printui-margins-custom-right-mm = 右 (mm)
-
 printui-system-dialog-link = システムダイアログを使用して@@Print@@...
-
 printui-primary-button = @@Print@@
 printui-primary-button-save = 保存
 printui-cancel-button = キャンセル
 printui-close-button = 閉じる
-
 printui-loading = プレビューの準備中です
-
 # Reported by screen readers and other accessibility tools to indicate that
 # the print preview has focus.
 printui-preview-label =
     .aria-label = @@Print@@プレビュー
-
 printui-pages-per-sheet = 1 枚あたりのページ数
-
 # This is shown next to the Print button with an indefinite loading spinner
 # when the user prints a page and it is being sent to the printer.
 printui-print-progress-indicator = @@Print@@中...
@@ -143,7 +121,6 @@ printui-paper-tabloid = タブロイド (11"x17")
 printui-error-invalid-scale = 倍率は 10 から 200 までの間の数字を入力してください。
 printui-error-invalid-margin = 選択した用紙サイズに合う余白を入力してください。
 printui-error-invalid-copies = 部数は 1 から 10000 までの間の数字を入力してください。
-
 # Variables
 # $numPages (integer) - Number of pages
 printui-error-invalid-range = ページ範囲は 1 から { $numPages } までの間の数字を入力してください。

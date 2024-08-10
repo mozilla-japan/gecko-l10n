@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ### Localization for about:webauthn, a security token management page
 
 # Page title
@@ -38,7 +39,7 @@ about-webauthn-results-general-error = エラー
 # Variables:
 #  $retriesLeft (Number): number of tries left
 about-webauthn-results-pin-invalid-error =
-    { $retriesLeft ->
+    { NUMBER($retriesLeft) ->
         [0] エラー: PIN が正しくありません。もう一度試してください。
         [one] エラー: PIN が正しくありません。もう一度試してください。試行回数は残り 1 回です。
        *[other] エラー: PIN が正しくありません。もう一度試してください。試行回数は残り { $retriesLeft } 回です。
@@ -148,7 +149,7 @@ about-webauthn-auth-info-null = 未対応
 # Variables:
 #  $repeatCount (Number): number of tries left
 about-webauthn-samples-still-needed =
-    { $repeatCount ->
+    { NUMBER($repeatCount) ->
         [one] あと { $repeatCount } 個のサンプルが必要です。
        *[other] あと { $repeatCount } 個のサンプルが必要です。
     }

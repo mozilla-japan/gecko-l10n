@@ -88,11 +88,7 @@ places-delete-folder =
 # Variables:
 #   $count (number) - The number of pages selected for removal.
 places-delete-page =
-    .label =
-        { $count ->
-            [1] ページを削除
-           *[other] ページを削除
-        }
+    .label = ページを削除
     .accesskey = D
 # Managed bookmarks are created by enterprise policy and cannot be changed by the user.
 managed-bookmarks =
@@ -114,11 +110,7 @@ places-delete-bookmark =
 # Variables:
 #   $count (number) - The number of bookmarks being added.
 places-create-bookmark =
-    .label =
-        { $count ->
-            [1] ページをブックマークに追加...
-           *[other] ページをブックマークに追加...
-        }
+    .label = ページをブックマークに追加...
     .accesskey = B
 places-untag-bookmark =
     .label = タグを消去
@@ -134,12 +126,12 @@ places-forget-about-this-site-forget = 消去
 places-library3 =
     .title = ブラウジングライブラリー
 places-organize-button =
-    .label = 管理
-    .tooltiptext = 履歴とブックマークを管理します
+    .label = 整理
+    .tooltiptext = 履歴とブックマークを整理します
     .accesskey = O
 places-organize-button-mac =
-    .label = 管理
-    .tooltiptext = 履歴とブックマークを管理します
+    .label = 整理
+    .tooltiptext = 履歴とブックマークを整理します
 places-file-close =
     .label = 閉じる
     .accesskey = C
@@ -239,17 +231,17 @@ places-details-pane-no-items =
 # Variables:
 #   $count (Number): number of items
 places-details-pane-items-count =
-    .value = 項目の数: { $count } 個
+    .value = 項目 { $count } 個
 
 ## Strings used as a placeholder in the Library search field. For example,
 ## "Search History" stands for "Search through the browser's history".
 
 places-search-bookmarks =
-    .placeholder = ブックマークの検索
+    .placeholder = ブックマークを検索
 places-search-history =
-    .placeholder = 履歴の検索
+    .placeholder = 履歴を検索
 places-search-downloads =
-    .placeholder = ダウンロードの検索
+    .placeholder = ダウンロードを検索
 
 ##
 

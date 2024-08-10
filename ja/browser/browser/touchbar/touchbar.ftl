@@ -19,7 +19,6 @@ open-location = URL または検索語句を入力
 share = 共有
 close-window = @@Window@@を閉じる
 open-sidebar = サイドバー
-
 # This string describes shortcuts for search.
 search-popover = 検索ショートカット
 # Describes searches limited to a specific scope

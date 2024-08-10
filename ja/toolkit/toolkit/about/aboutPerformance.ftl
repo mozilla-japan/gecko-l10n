@@ -54,7 +54,6 @@ close-tab =
     .title = タブを閉じます
 show-addon =
     .title = アドオンマネージャーで表示します
-
 # Tooltip when hovering an item of the about:performance table
 # Variables:
 #   $totalDispatches (Number) - how many dispatches occurred for this page since it loaded

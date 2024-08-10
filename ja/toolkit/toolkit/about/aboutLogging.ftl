@@ -53,7 +53,6 @@ about-logging-preset-windows-label = Windows
 about-logging-preset-windows-description = Microsoft Windows 特有の問題を診断するログモジュールです
 about-logging-preset-custom-label = カスタム
 about-logging-preset-custom-description = 手動で選択されたログモジュールです
-
 # Error handling
 about-logging-error = エラー:
 
@@ -67,5 +66,4 @@ about-logging-unknown-profiler-preset = プロファイラープリセット “
 about-logging-unknown-option = about:logging オプション “{ $k }“ は不明です
 about-logging-configuration-url-ignored = 設定 URL が無視されました
 about-logging-file-and-profiler-override = ファイル出力の強制とプロファイラーオプションの上書きは同時にできません
-
 about-logging-configured-via-url = URL により設定されたオプション

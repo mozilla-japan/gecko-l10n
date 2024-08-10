@@ -100,15 +100,17 @@ browser-data-cookies-checkbox =
 browser-data-cookies-label =
     .value = Cookie
 browser-data-history-checkbox =
-    .label = { $browser ->
-        [firefox] 履歴とブックマーク
-       *[other] 表示履歴
-    }
+    .label =
+        { $browser ->
+            [firefox] 表示履歴とブックマーク
+           *[other] 表示履歴
+        }
 browser-data-history-label =
-    .value = { $browser ->
-        [firefox] 履歴とブックマーク
-       *[other] 表示履歴
-    }
+    .value =
+        { $browser ->
+            [firefox] 表示履歴とブックマーク
+           *[other] 表示履歴
+        }
 browser-data-formdata-checkbox =
     .label = 入力フォームの履歴
 browser-data-formdata-label =
@@ -122,17 +124,19 @@ browser-data-passwords-checkbox =
 browser-data-passwords-label =
     .value = 保存されているパスワード
 browser-data-bookmarks-checkbox =
-    .label = { $browser ->
-        [ie] お気に入り
-        [edge] お気に入り
-       *[other] ブックマーク
-    }
+    .label =
+        { $browser ->
+            [ie] お気に入り
+            [edge] お気に入り
+           *[other] ブックマーク
+        }
 browser-data-bookmarks-label =
-    .value = { $browser ->
-        [ie] お気に入り
-        [edge] お気に入り
-       *[other] ブックマーク
-    }
+    .value =
+        { $browser ->
+            [ie] お気に入り
+            [edge] お気に入り
+           *[other] ブックマーク
+        }
 browser-data-otherdata-checkbox =
     .label = その他のデータ
 browser-data-otherdata-label =

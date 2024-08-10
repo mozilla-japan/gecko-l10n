@@ -85,4 +85,8 @@ protections-footer-blocked-tracker-counter = { $trackerCount } 個ブロック
 # this message is used to leave out the tooltip when the date is not available.
 protections-footer-blocked-tracker-counter-no-tooltip = { $trackerCount } 個ブロック
 # In English this looks like "Firefox blocked over 10,000 trackers since October 2019"
-protections-milestone = { DATETIME($date, year: "numeric", month: "long") } 以降、{ -brand-short-name } は { $trackerCount } 個以上のトラッカーをブロックしました
+protections-milestone =
+    { NUMBER($trackerCount) ->
+        [one] { DATETIME($date, year: "numeric", month: "long") } 以降、{ -brand-short-name } は { $trackerCount } 個のトラッカーをブロックしました
+       *[other] { DATETIME($date, year: "numeric", month: "long") } 以降、{ -brand-short-name } は { $trackerCount } 個以上のトラッカーをブロックしました
+    }

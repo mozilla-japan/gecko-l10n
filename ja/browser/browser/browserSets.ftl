@@ -35,18 +35,20 @@ search-find-selection-shortcut =
 # are recommended by the Human Interface Guidelines
 # of each platform for your locale.
 search-focus-shortcut-alt =
-    .key = { PLATFORM() ->
-        [linux] J
-       *[other] E
-    }
+    .key =
+        { PLATFORM() ->
+            [linux] J
+           *[other] E
+        }
 # Verify what shortcut for that operation
 # are recommended by the Human Interface Guidelines
 # of each platform for your locale.
 downloads-shortcut =
-    .key = { PLATFORM() ->
-        [linux] Y
-       *[other] J
-    }
+    .key =
+        { PLATFORM() ->
+            [linux] Y
+           *[other] J
+        }
 addons-shortcut =
     .key = A
 file-open-shortcut =
@@ -95,14 +97,14 @@ picture-in-picture-toggle-shortcut-mac =
 # in your locale keyboards above the
 # `picture-in-picture-toggle-shortcut-mac` key.
 picture-in-picture-toggle-shortcut-mac-alt =
-    .key = {"}"}
+    .key = { "}" }
 picture-in-picture-toggle-shortcut =
     .key = ]
 # Pick the key that is commonly present
 # in your locale keyboards above the
 # `picture-in-picture-toggle-shortcut` key.
 picture-in-picture-toggle-shortcut-alt =
-    .key = {"}"}
+    .key = { "}" }
 bookmark-this-page-shortcut =
     .key = D
 # Verify what shortcut for that operation
@@ -130,7 +132,7 @@ full-zoom-reduce-shortcut =
 full-zoom-reduce-shortcut-alt-a =
     .key = _
 full-zoom-reduce-shortcut-alt-b =
-    .key = {""}
+    .key = { "" }
 full-zoom-enlarge-shortcut =
     .key = +
 full-zoom-enlarge-shortcut-alt =
@@ -141,7 +143,7 @@ full-zoom-enlarge-shortcut-alt2 =
 full-zoom-reset-shortcut =
     .key = 0
 full-zoom-reset-shortcut-alt =
-    .key = {""}
+    .key = { "" }
 
 ##
 

@@ -535,7 +535,7 @@ home-homepage-custom-url =
 # be identical.
 use-current-pages =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
             [1] 現在のページを使用
            *[other] 現在のタブグループを使用
         }

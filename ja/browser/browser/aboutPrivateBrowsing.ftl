@@ -76,5 +76,5 @@ about-private-browsing-cookie-banners-promo-body = 多くの Cookie バナーを
 ## Strings for Felt Privacy v1 experiments in 119
 
 about-private-browsing-felt-privacy-v1-info-header = この端末を追跡させません
-about-private-browsing-felt-privacy-v1-info-body = すべてのプライベート@@Window@@を閉じると、{ -brand-short-name} により Cookie、履歴、サイトデータが削除されます。
+about-private-browsing-felt-privacy-v1-info-body = すべてのプライベート@@Window@@を閉じると、{ -brand-short-name } により Cookie、履歴、サイトデータが削除されます。
 about-private-browsing-felt-privacy-v1-info-link = 私の行動を知ることができるのは誰？

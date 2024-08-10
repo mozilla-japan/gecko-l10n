@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ### Localization for Developer Tools tooltips.
 
 learn-more = <span data-l10n-name="link">詳細</span>
@@ -12,6 +13,7 @@ learn-more = <span data-l10n-name="link">詳細</span>
 ## Variables:
 ##   $property (string) - A CSS property name e.g. "color".
 ##   $display (string) - A CSS display value e.g. "inline-block".
+
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain why
@@ -77,7 +79,7 @@ inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>disp
 inactive-css-not-multicol-container-fix = <strong>column-count</strong> または <strong>column-width</strong> を追加してみてください。{ learn-more }
 inactive-css-column-span-fix = <strong>column-count</strong> または <strong>column-width</strong> をそのいずれかの祖先要素に追加してみてください。{ learn-more }
 inactive-css-not-grid-or-flex-item-fix-3 = <strong>display:grid</strong> または <strong>display:flex</strong>、<strong>display:inline-grid</strong>、<strong>display:inline-flex</strong> のいずれかを要素の親に追加してみてください。{ learn-more }
-inactive-css-not-grid-item-fix-2 =<strong>display:grid</strong> または <strong>display:inline-grid</strong> を要素の親に追加してみてください。{ learn-more }
+inactive-css-not-grid-item-fix-2 = <strong>display:grid</strong> または <strong>display:inline-grid</strong> を要素の親に追加してみてください。{ learn-more }
 inactive-css-not-grid-container-fix = <strong>display:grid</strong> または <strong>display:inline-grid</strong> を追加してみてください。{ learn-more }
 inactive-css-not-flex-item-fix-2 = <strong>display:flex</strong> または <strong>display:inline-flex</strong> を要素の親に追加してみてください。{ learn-more }
 inactive-css-not-flex-container-fix = <strong>display:flex</strong> または <strong>display:inline-flex</strong> を追加してみてください。{ learn-more }
