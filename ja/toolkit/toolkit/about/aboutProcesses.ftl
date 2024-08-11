@@ -152,10 +152,10 @@ about-processes-cpu-fully-idle = 待機
 ##                        of `memory-unit-*`.
 
 # Common case.
-about-processes-total-memory-size-changed = { NUMBER($total, maximumFractionDigits:0) }{ $totalUnit }
-   .title = 増減: { $deltaSign }{ NUMBER($delta, maximumFractionDigits:0) }{ $deltaUnit }
+about-processes-total-memory-size-changed = { NUMBER($total, maximumFractionDigits: 0) }{ $totalUnit }
+   .title = 増減: { $deltaSign }{ NUMBER($delta, maximumFractionDigits: 0) }{ $deltaUnit }
 # Special case: no change.
-about-processes-total-memory-size-no-change = { NUMBER($total, maximumFractionDigits:0) }{ $totalUnit }
+about-processes-total-memory-size-no-change = { NUMBER($total, maximumFractionDigits: 0) }{ $totalUnit }
 
 ## Duration units
 

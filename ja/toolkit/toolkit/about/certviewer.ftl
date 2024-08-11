@@ -81,31 +81,30 @@ certificate-viewer-authority-info-aia = 機関情報アクセス (AIA)
 certificate-viewer-certificate-policies = 証明書ポリシー
 certificate-viewer-embedded-scts = 埋め込み SCT
 certificate-viewer-crl-endpoints = CRL エンドポイント
-
 # This message is used as a row header in the Miscellaneous section.
 # The associated data cell contains links to download the certificate.
 certificate-viewer-download = ダウンロード
 # This message is used to replace boolean values (true/false) in several certificate fields, e.g. Certificate Authority
 # Variables:
 #   $boolean (String) - true/false value for the specific field
-certificate-viewer-boolean = { $boolean ->
-  [true] はい
- *[false] いいえ
-}
+certificate-viewer-boolean =
+    { $boolean ->
+        [true] はい
+       *[false] いいえ
+    }
 
 ## Variables:
 ##   $fileName (String) - The file name to save the PEM data in, derived from the common name from the certificate being displayed.
 
 certificate-viewer-download-pem = PEM (証明書)
-  .download = { $fileName }.pem
+    .download = { $fileName }.pem
 certificate-viewer-download-pem-chain = PEM (チェーン)
-  .download = { $fileName }-chain.pem
-
+    .download = { $fileName }-chain.pem
 # The title attribute for Critical Extension icon
 certificate-viewer-critical-extension =
-  .title = この拡張には危険マークが付けられており、クライアントがこれを理解できない場合は証明書を却下すべきであることを意味します。
+    .title = この拡張には危険マークが付けられており、クライアントがこれを理解できない場合は証明書を却下すべきであることを意味します。
 certificate-viewer-export = @@Export@@
-  .download = { $fileName }.pem
+    .download = { $fileName }.pem
 
 ##
 

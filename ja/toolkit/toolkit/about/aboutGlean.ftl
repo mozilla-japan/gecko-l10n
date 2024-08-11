@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ### "FOG", "Glean", and "Glean SDK" should remain in English.
 
 -fog-brand-name = FOG
 -glean-brand-name = Glean
 glean-sdk-brand-name = { -glean-brand-name } SDK
 glean-debug-ping-viewer-brand-name = { -glean-brand-name } デバッグ Ping ビューアー
-
 about-glean-page-title2 = { -glean-brand-name } について
 about-glean-header = { -glean-brand-name } について
 about-glean-interface-description =
@@ -37,8 +37,7 @@ about-glean-glean-android = <code>MOZ_GLEAN_ANDROID</code>: { $glean-android-def
 # Variables:
 #   $moz-official-define-value (Boolean): the value of the MOZILLA_OFFICIAL define.
 # Do not translate strings between <code> </code> tags.
-about-glean-moz-official =<code>MOZILLA_OFFICIAL</code>: { $moz-official-define-value }
-
+about-glean-moz-official = <code>MOZILLA_OFFICIAL</code>: { $moz-official-define-value }
 about-glean-about-testing-header = テストについて
 # This message is followed by a numbered list.
 about-glean-manual-testing =
@@ -79,6 +78,5 @@ about-glean-adhoc-note =
     開発ツールのコンソールを使用して Glean JS API を操作しているので注意してください。
     これは、メトリクスのカテゴリー名とメトリクス名が Rust や C++ API と異なる <code>camelCase</code> で初期化されることを意味します。
 controls-button-label-verbose = 設定を適用して Ping を送信
-
 about-glean-about-data-header = データについて
 about-glean-about-data-explanation = 収集したデータのリストの閲覧は、<a data-l10n-name="glean-dictionary-link">{ -glean-brand-name } Dictionary</a> で調べてください。

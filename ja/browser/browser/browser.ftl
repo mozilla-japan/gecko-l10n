@@ -320,7 +320,11 @@ bookmark-panel-cancel =
 # Variables:
 #  $count (number): number of bookmarks that will be removed
 bookmark-panel-remove =
-    .label = { $count } 個のブックマークを削除
+    .label =
+        { NUMBER($count) ->
+            [1] ブックマークを削除
+           *[other] { $count } 個のブックマークを削除
+        }
     .accesskey = R
 bookmark-panel-show-editor-checkbox =
     .label = 追加時にエディターを表示する
@@ -1007,11 +1011,18 @@ popup-notification-addon-privatebrowsing-checkbox =
 
 # Variables:
 #   $popupCount (Number): the number of pop-ups blocked.
-popup-warning-message = { -brand-short-name } が { $popupCount } 個のポップアップをブロックしました。
+popup-warning-message =
+    { NUMBER($popupCount) ->
+        [1] { -brand-short-name } がこのサイトでポップアップ@@Window@@をブロックしました。
+       *[other] { -brand-short-name } がこのサイトで { $popupCount } 個のポップアップ@@Window@@をブロックしました。
+    }
 # The singular form is left out for English, since the number of blocked pop-ups is always greater than 1.
 # Variables:
 #   $popupCount (Number): the number of pop-ups blocked.
-popup-warning-exceeded-message = { -brand-short-name } がこのサイトで { $popupCount } 個のポップアップ@@Window@@をブロックしました。
+popup-warning-exceeded-message = 
+    { NUMBER($popupCount) ->
+       *[other] { -brand-short-name } がこのサイトで { $popupCount } 個以上のポップアップ@@Window@@をブロックしました。
+    }
 popup-warning-button =
     .label =
         { PLATFORM() ->

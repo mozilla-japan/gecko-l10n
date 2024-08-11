@@ -176,11 +176,7 @@ firefoxview-search-text-box-opentabs =
 firefoxview-search-results-header = “{ $query }” の検索結果
 # Variables:
 #   $count (Number) - The number of visits matching the search query.
-firefoxview-search-results-count =
-    { $count ->
-        [one] { $count } サイト
-       *[other] { $count } サイト
-    }
+firefoxview-search-results-count = { $count } サイト
 # Message displayed when a search is performed and no matching results were found.
 # Variables:
 #   $query (String) - The search query.

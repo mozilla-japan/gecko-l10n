@@ -198,6 +198,8 @@ newtab-section-header-recent-activity = 最近のアクティビティ
 #   $provider (string) - Name of the corresponding content provider.
 newtab-section-header-pocket = { $provider } のおすすめ
 newtab-section-header-stories = 示唆に富むストーリー
+# "picks" refers to recommended articles
+newtab-section-header-todays-picks = 本日のおすすめ
 
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 
@@ -383,3 +385,43 @@ newtab-weather-menu-hide-weather = @@NewTab@@の天気表示を隠す
 newtab-weather-menu-learn-more = 詳細情報
 # This message is shown if user is working offline
 newtab-weather-error-not-available = 現在、天気データが利用できません。
+
+## Topic Labels
+
+newtab-topic-label-business = 仕事
+newtab-topic-label-career = 経歴
+newtab-topic-label-education = 教育
+newtab-topic-label-arts = 娯楽
+newtab-topic-label-food = 食品
+newtab-topic-label-health = 健康
+newtab-topic-label-hobbies = ゲーム
+# ”Money” = “Personal Finance”, refers to articles and stories that help readers better manage
+# and understand their personal finances – from saving money to buying a home. See the
+# “Curated by our editors“ section at the top of https://getpocket.com/explore/personal-finance for more context
+newtab-topic-label-finance = 金融
+newtab-topic-label-society-parenting = 育児
+newtab-topic-label-government = 政治
+newtab-topic-label-education-science = 科学
+# ”Life Hacks” = “Self Improvement”, refers to articles and stories aimed at helping readers improve various
+# aspects of their lives – from mental health to  productivity. See the “Curated by our editors“ section
+# at the top of https://getpocket.com/explore/self-improvement for more context.
+newtab-topic-label-society = ライフハック
+newtab-topic-label-sports = スポーツ
+newtab-topic-label-tech = 技術
+newtab-topic-label-travel = 旅行
+newtab-topic-label-home = 家庭
+
+## Topic Selection Modal
+
+# “fine-tune” refers to the process of making small adjustments to something to get
+# the best or desired experience or performance.
+newtab-topic-selection-title = あなたのフィードに最適なトピックを選択
+# “tailored” refers to process of (a tailor) making (clothes) to fit individual customers.
+# In other words, “Our expert curators prioritize stories to fit your selected interests”
+newtab-topic-selection-subtitle = 複数のトピックを選んでください。専門のキュレーターがあなたの関心事に合わせてストーリーに優先順位を付けます。いつでも更新できます。
+newtab-topic-selection-save-button = 保存
+newtab-topic-selection-cancel-button = キャンセル
+newtab-topic-selection-button-maybe-later = 後で選ぶ
+newtab-topic-selection-privacy-link = ユーザーデータの保護と管理について
+newtab-topic-selection-button-update-interests = 関心事を更新
+newtab-topic-selection-button-pick-interests = 関心事を選ぶ

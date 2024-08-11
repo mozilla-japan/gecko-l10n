@@ -7,38 +7,18 @@ download-ui-confirm-title = すべてのダウンロードをキャンセルし�
 ## Variables:
 ##   $downloadsCount (Number): The current downloads count.
 
-download-ui-confirm-quit-cancel-downloads =
-    { $downloadsCount ->
-        [1] 今終了すると 1 個のダウンロードがキャンセルされます。終了してもよろしいですか？
-       *[other] 今終了すると { $downloadsCount } 個のダウンロードがキャンセルされます。終了してもよろしいですか？
-    }
-download-ui-confirm-quit-cancel-downloads-mac =
-    { $downloadsCount ->
-        [1] 今終了すると 1 個のダウンロードがキャンセルされます。終了してもよろしいですか？
-       *[other] 今終了すると { $downloadsCount } 個のダウンロードがキャンセルされます。終了してもよろしいですか？
-    }
+download-ui-confirm-quit-cancel-downloads = 今終了すると { $downloadsCount } 個のダウンロードがキャンセルされます。終了してもよろしいですか？
+download-ui-confirm-quit-cancel-downloads-mac = 今終了すると { $downloadsCount } 個のダウンロードがキャンセルされます。終了してもよろしいですか？
 download-ui-dont-quit-button =
     { PLATFORM() ->
         [mac] 終了しない
        *[other] 終了しない
     }
-download-ui-confirm-offline-cancel-downloads =
-    { $downloadsCount ->
-        [1] 今オフラインにすると 1 個のダウンロードがキャンセルされます。オフラインにしてもよろしいですか？
-       *[other] 今オフラインにすると { $downloadsCount } 個のダウンロードがキャンセルされます。オフラインにしてもよろしいですか？
-    }
+download-ui-confirm-offline-cancel-downloads = 今オフラインにすると { $downloadsCount } 個のダウンロードがキャンセルされます。オフラインにしてもよろしいですか？
 download-ui-dont-go-offline-button = オンラインを維持する
-download-ui-confirm-leave-private-browsing-windows-cancel-downloads =
-    { $downloadsCount ->
-        [1] プライベートブラウジング@@Window@@を今すぐ閉じると、1 個のダウンロードがキャンセルされます。プライベートブラウジングモードを終了してもよろしいですか？
-       *[other] プライベートブラウジング@@Window@@を今すぐ閉じると、{ $downloadsCount } 個のダウンロードがキャンセルされます。プライベートブラウジングモードを終了してもよろしいですか？
-    }
+download-ui-confirm-leave-private-browsing-windows-cancel-downloads = プライベートブラウジング@@Window@@を今すぐ閉じると、{ $downloadsCount } 個のダウンロードがキャンセルされます。プライベートブラウジングモードを終了してもよろしいですか？
 download-ui-dont-leave-private-browsing-button = プライベートブラウジングを継続する
-download-ui-cancel-downloads-ok =
-    { $downloadsCount ->
-        [1] 1 個のダウンロードをキャンセル
-       *[other] { $downloadsCount } 個のダウンロードをキャンセル
-    }
+download-ui-cancel-downloads-ok = { $downloadsCount } 個のダウンロードをキャンセル
 
 ##
 

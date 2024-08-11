@@ -21,14 +21,14 @@ calendar            Tb      Calendar
 chat                Tb      Instant Messaging
 mail                Tb      Thunderbird
 
-* Repo: comm  https://hg.mozilla.org/projects/comm-l10n/en-US/suite/
+* Repo: seamk  https://gitlab.com/seamonkey-project/seamonkey-central-l10n
 Dirname             App     Note
 ---------------------------------------------------------------------
-suite               Sm      SeaMonkey  19745:e5eb137f7663 (2024-06-08)
+suite               Sm      SeaMonkey
   chatzilla         Sm      ChatZilla
 
 
-        Gecko ver.128 以降の en-US との同期履歴
+        Gecko ver.129 以降の en-US との同期履歴
 
 * 英語版と同期した際には対象リビジョンを末尾の行に追記していってください
     ディレクトリー単位ですっきり同期していない場合その旨コメントを書いてください
@@ -44,4 +44,11 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 fxsrc | dom, netwerk, toolkit    018def80 (2024-07-05)  mar          sync dom, netwerk, toolkit
 tbsrc | mail, chat               997a3231 (2024-07-10)  mar          sync mail, chat
 fxsrc | browser, devtools, ...   115b013b (2024-07-24)  mar          sync browser, devtools, toolkit
+
+^---Released!
+
+[l10n-mozilla-129.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | browser, dom, toolkit    9f255a91 (2024-08-09)  mar          sync browser, dom, toolkit, devtools
 

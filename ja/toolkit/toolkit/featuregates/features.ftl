@@ -46,9 +46,25 @@ experimental-features-js-warp-description = JavaScript の性能とメモリ効�
 experimental-features-ime-search =
     .label = アドレスバー: IME 変換中に結果を表示
 experimental-features-ime-search-description = IME (Input Method Editor) は、東アジアまたはインド系の言語の複雑な文字 (かな漢字変換など) を標準のキーボードで入力するためのツールです。この実験的な機能を有効にすると、IME を使用した文字入力中に、アドレスバーパネルを開いたまま検索結果や検索候補を表示できます。ただし、IME のパネルがアドレスバーの検索結果を隠してしまうことがあります。この設定は、IME のパネルのこのような挙動を想定していません。
+# Auto Picture-in-Picture
+experimental-features-auto-pip =
+    .label = ピクチャーインピクチャー: タブ切り替えで自動的に開く
+experimental-features-auto-pip-description = タブを切り替えたとき、再生中の動画を自動的にピクチャーインピクチャーで開きます。
+genai-settings-chat-title =
+    .label = AI チャットボット
+# Updated sidebar settings
+sidebar-title =
+    .label = サイドバー
+sidebar-description = 履歴や他の端末からのタブ、サイドバー拡張など、あなたのブラウジングに応じて簡単にアクセスできます。<a data-l10n-name="connect">フィードバックを共有</a>
+vertical-tabs-title =
+    .label = 垂直タブ
+vertical-tabs-description = タブをブラウザー上部から側面へ移動します。サイドバーも試してみてください。<a data-l10n-name="connect">フィードバックを共有</a>
 experimental-features-group-browsing =
     .label = ブラウジング
 experimental-features-group-developer-tools =
     .label = 開発ツール
 experimental-features-group-webpage-display =
     .label = ウェブページの表示
+experimental-features-group-customize-browsing =
+    .label = ブラウジングのカスタマイズ
+experimental-features-group-customize-browsing-description = これらの機能を試したら <a data-l10n-name="connect">Connect に感想をお寄せください</a>。

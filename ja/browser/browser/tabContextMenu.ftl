@@ -87,7 +87,7 @@ tab-context-reopen-closed-tabs =
     .accesskey = o
 tab-context-close-n-tabs =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
             [1] タブを閉じる
            *[other] { $tabCount } 個のタブを閉じる
         }
@@ -97,7 +97,7 @@ tab-context-move-tabs =
     .accesskey = v
 tab-context-send-tabs-to-device =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
             [1] タブを端末へ送信
            *[other] { $tabCount } 個のタブを端末へ送信
         }

@@ -2,7 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ### These strings are used inside the about:debugging UI.
+
 
 ## Page Title strings
 
@@ -109,6 +111,8 @@ about-debugging-setup-usb-status-updating = 更新中...
 about-debugging-setup-usb-step-enable-dev-menu2 = Android 端末の開発者向けオプションを有効にします。
 # USB section step by step guide
 about-debugging-setup-usb-step-enable-debug2 = Android 端末の開発者向けオプションで USB デバッグを有効にします。
+# USB section step by step guide
+about-debugging-setup-usb-step-enable-file-transfer = ファイル転送を有効にして端末が充電専用モードにならないようにします。
 # USB section step by step guide
 about-debugging-setup-usb-step-enable-debug-firefox2 = Android 端末上の Firefox で USB デバッグを有効にします。
 # USB section step by step guide

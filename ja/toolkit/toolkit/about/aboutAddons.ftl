@@ -177,10 +177,6 @@ addon-updates-check-for-updates = 今すぐ更新を確認
     .accesskey = C
 addon-updates-view-updates = 最近更新したアドオンを表示
     .accesskey = V
-
-# This menu item is a checkbox that toggles the default global behavior for
-# add-on update checking.
-
 # This menu item is a checkbox that toggles the default global behavior for
 # add-on update checking.
 # (^m^) en-US: Update Add-ons Automatically
@@ -255,7 +251,7 @@ shortcuts-exists = すでに { $addon } が使用しています
 # Variables:
 #   $numberToShow (number) - Number of other elements available to show
 shortcuts-card-expand-button =
-    { $numberToShow ->
+    { NUMBER($numberToShow) ->
        *[other] さらに { $numberToShow } 個表示
     }
 shortcuts-card-collapse-button = 折りたたむ
