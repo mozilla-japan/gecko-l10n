@@ -1,6 +1,6 @@
 # Gecko 日本語ローカライズ
 
-このリポジトリでは、Firefox, Thunderbird などで使用されている Gecko エンジンおよび製品 (Firefox, Thunderbird, Lightning, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に、[lot](https://github.com/mozilla-japan/lot) で ja (Windows, Linux などの macOS 以外), ja-JP-mac (macOS) それぞれのリソースファイルを生成し、hg.mozilla.org のリポジトリに push することで実際の製品に反映されます。
+このリポジトリでは、Firefox, Thunderbird などで使用されている Gecko エンジンおよび製品 (Firefox, Thunderbird, SeaMonkey) の日本語ローカライズファイルを管理しています。このリポジトリのファイルを元に、[lot-conv.py](https://github.com/marsf/lot-conv) で ja (Windows, Linux などの macOS 以外), ja-JP-mac (macOS) それぞれのリソースファイルを生成し、Github の firefox-l10n / thunderbird-l10n のリポジトリに Pull Request することで実際の製品に反映されます。
 
 ## 表記ガイドラインと作業手順
 
@@ -19,18 +19,18 @@ Mozilla 製品のローカライズに問題を見つけたり気になる点が
   * 日本の Mozilla コミュニティメンバーが集まる Slack に参加してご連絡いただくこともできます。
 * 個人的にコンタクト
   * Issues などに書いたほうが取りこぼしがなくて良いのですが、メールや SNS のメッセージで日本語ローカライズチームのメンバーに直接連絡いただいても問題ありません。メンバーリストは [mozilla wiki の L10n:Teams:ja ページ](https://wiki.mozilla.org/L10n:Teams:ja) を参照してください。
-* ~[Mozilla L10N フォーラム](http://forums.firehacks.org/l10n/)~
-  * L10N フォーラムは 2022年1月に終了しました。
 
 ## ブランチとマージ
 
-Github での master ブランチは、version 57.0 以降、クロスチャンネル対応の [gecko-strings](https://hg.mozilla.org/l10n/gecko-strings) を対象にローカライズしており、Nightly, Beta, Release 共用のリソースになっています。
+Github での master ブランチは、**version 129.0** 以降、クロスチャンネル対応の [firefox-l10n-source](https://github.com/mozilla-l10n/firefox-l10n-source) 等を対象にローカライズしており、Nightly, Beta, Release 共用のリソースになっています。
 
-GitHub での master ブランチ (hg では defaut ブランチ) が Nightly ビルド (mozilla-central, comm-central) およびベータ版用のリソースです。
+この gecko-l10n リポジトリーでの master ブランチが Nightly ビルドおよびベータ版用のリソースです。
 
 リリース版向けのファイルはそれぞれ l10n-mozilla-$VERSION ブランチのファイルになります。ブランチを切るタイミングはそのバージョンの英語リソースに追従完了もしくはリリースされてから、次バージョンへの対応をはじめる前になります。既にブランチを切っているバージョン (リリース版) への反映は行いません。
 
-リポジトリの書き込み権限があれば、次のような手順でファイルの編集からマージまでできます
+ソース側のチャンネルシフト (新バージョンリリース) のタイミングは Firefox Trains の [Beta チャンネルの Milestones](https://whattrainisitnow.com/release/?version=beta) を参照してください。
+
+このリポジトリーの書き込み権限がある方は、次のような手順でファイルの編集からマージまでできます。（通常はフォークして Pull Request してください）
 
 ```
 // リポジトリをクローン (初回のみ)
@@ -82,28 +82,35 @@ git push
   * [Mozilla 用語集](https://github.com/mozilla-japan/translation/wiki/Mozilla-L10N-Glossary)
   * [Firefox OS 用語集](https://github.com/mozilla-japan/translation/wiki/Firefox-OS-Glossary)
 * 一般的な用字用語について
-  * [共同通信社 記者ハンドブック](https://www.kyodo.co.jp/books/isbn/978-4-7641-0687-1/)
+  * [共同通信社 記者ハンドブック](https://www.kyodo.co.jp/books/isbn/978-4-7641-0733-5/)
 
 ## L10n 関連リポジトリー等
 
-* Firefox デスクトップ版
-  * Cross-channel (gecko-strings):
-    * https://hg.mozilla.org/l10n/gecko-strings (L10n の作業対象)
+* Firefox
+  * Cross-channel (firefox-l10n-source):
+    * https://github.com/mozilla-l10n/firefox-l10n-source (L10n の作業対象)
+  * Nightly, Beta:
+    * https://github.com/mozilla-l10n/firefox-l10n/ (ja, ja-JP-mac)
+  * gecko-strings:
+    * https://hg.mozilla.org/l10n/gecko-strings
     * https://hg.mozilla.org/l10n/gecko-strings-quarantine/
-  * Nightly:
-    * https://hg.mozilla.org/l10n-central/ja/
-    * https://hg.mozilla.org/l10n-central/ja-JP-mac/
-  * Release:
-    * https://hg.mozilla.org/releases/l10n/mozilla-release/ja/
-    * https://hg.mozilla.org/releases/l10n/mozilla-release/ja-JP-mac/
 
-* Thunderbird/Lightning, SeaMonkey
-  * Cross-channel (comm-l10n):
-    * https://hg.mozilla.org/projects/comm-l10n/file/tip/en-US (L10n の作業対象)
+* Thunderbird
+  * Cross-channel (thunderbird-l10n-source):
+    * https://github.com/thunderbird/thunderbird-l10n-source (L10n の作業対象)
+  * Daily, Beta:
+    * https://github.com/thunderbird/thunderbird-l10n (ja, ja-JP-mac)
+  * comm-l10n:
+    * https://hg.mozilla.org/projects/comm-l10n/file/tip/en-US
     * https://hg.mozilla.org/projects/comm-strings-quarantine/
-  * Daily:
     * https://hg.mozilla.org/projects/comm-l10n/file/tip/ja
     * https://hg.mozilla.org/projects/comm-l10n/file/tip/ja-JP-mac
+
+* SeaMonkey
+  * GitLab - SeaMonkey Central l10n:
+    * https://gitlab.com/seamonkey-project/seamonkey-central-l10n/-/tree/main/en-US/suite (L10n の作業対象)
+    * https://gitlab.com/seamonkey-project/seamonkey-central-l10n/-/tree/main/ja/suite
+    * https://gitlab.com/seamonkey-project/seamonkey-central-l10n/-/tree/main/ja-JP-mac/suite
 
 * Firefox モバイル版
   * Android (Fenix): https://pontoon.mozilla.org/ja/firefox-for-android/
@@ -116,15 +123,18 @@ git push
   * https://pontoon.mozilla.org/ja/
 
 ## 終了したリポジトリー (End Of Life)
-* ~Android-L10n~ (Reality, Fire TV)
-  * https://pontoon.mozilla.org/ja/android-l10n/
 * Firefox, Thunderbird/Lightning, SeaMonkey
+  * ~Firefox (l10n-central)~ (EOL in 128.0)
+    * https://hg.mozilla.org/l10n-central/ja/
+    * https://hg.mozilla.org/l10n-central/ja-JP-mac/
   * ~Aurora:~  (EOL in 54.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-aurora/ja-JP-mac/
   * ~Beta:~ (Developer Edition since 55.0, EOL in 56.0)
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja/
     * https://hg.mozilla.org/releases/l10n/mozilla-beta/ja-JP-mac/
+* ~Android-L10n~ (Reality, Fire TV)
+  * https://pontoon.mozilla.org/ja/android-l10n/
 * ~Firefox OS (Gaia)~ (EOL)
   * https://github.com/mozilla-japan/gaia-l10n
   * (v2.6) https://hg.mozilla.org/gaia-l10n/ja/
@@ -136,7 +146,7 @@ git push
 * [Mozilla Discourse - Localization トピック](https://discourse.mozilla.org/c/l10n/547)
   * ([mozilla.dev.l10n メーリングリスト](https://groups.google.com/forum/#!forum/mozilla.dev.l10n) 2021 年 4 月に Discourse へ移行)
 * [Mozilla #l10n-community Matrix チャンネル](https://chat.mozilla.org/#/room/#l10n-community:mozilla.org)
+* [Firefox Trains](https://whattrainisitnow.com/) - [APIs, Views](https://whattrainisitnow.com/about/)
 * [Firefox Release Calendar](https://wiki.mozilla.org/Release_Management/Calendar) - MozillaWiki
 * [Project Fluent](https://projectfluent.org/)
 * [Roles within Mozilla l10n communities](https://mozilla-l10n.github.io/localizer-documentation/community/l10n_community_roles.html)
-* [Firefox Trains](https://whattrainisitnow.com/) - [APIs, Views](https://whattrainisitnow.com/about/)
