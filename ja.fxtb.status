@@ -47,8 +47,9 @@ fxsrc | browser, devtools, ...   115b013b (2024-07-24)  mar          sync browse
 
 ^---Released!
 
-[l10n-mozilla-129.0]
+[l10n-mozilla-130.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | browser, dom, toolkit    9f255a91 (2024-08-09)  mar          sync browser, dom, toolkit, devtools
+tbsrc | mail, calendaer          f1872ada (2024-08-10)  mar          sync mail, calendar
 
