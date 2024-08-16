@@ -641,8 +641,6 @@ no-update-found = オンラインで見つけた鍵はすでに持っていま�
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = エラー - 鍵の展開コマンドに失敗しました
