@@ -33,3 +33,13 @@
 <!ENTITY useMyColors.accesskey             "m">
 <!ENTITY automaticColors.label             "高コントラストテーマ使用時のみ、ウェブページで指定された@@Colors@@を無視する">
 <!ENTITY automaticColors.accesskey         "O">
+
+<!-- LOCALIZATION NOTE (prefersColorScheme): This is the start of a sentence and will be followed by the following radio buttons. -->
+<!ENTITY prefersColorScheme                     "ウェブページに自分で選択した@@Colors@@の使用が求められている場合">
+<!ENTITY prefersColorSchemeLight.label          "明るい@@Colors@@を使用する">
+<!ENTITY prefersColorSchemeLight.accesskey      "i">
+<!ENTITY prefersColorSchemeDark.label           "暗い@@Colors@@を使用する">
+<!ENTITY prefersColorSchemeDark.accesskey       "d">
+<!ENTITY prefersColorSchemeDisabled.label       "自分で選択した@@Colors@@を使用しない">
+<!ENTITY prefersColorSchemeDisabled.accesskey   "p">
+<!ENTITY prefersColorSchemeWarning              "警告: 自分で選択した@@Colors@@を使用しない場合、ウェブサイトやサービスが正しく動作しない可能性があります。">
