@@ -8,8 +8,6 @@
 
 #define personal_toolbarfolder Personal Toolbar Folder
 
-#define seamonkey_and_mozilla SeaMonkey and Mozilla
-
 #define seamonkey_and_support SeaMonkey Resources
 
 # LOCALIZATION NOTE (seamonkey):
@@ -19,10 +17,6 @@
 # LOCALIZATION NOTE (seamonkey_long):
 # link title for https://www.seamonkey-project.org/ (in normal bookmarks)
 #define seamonkey_long The SeaMonkey Project
-
-# LOCALIZATION NOTE (mozilla_org_long):
-# link title for https://www.mozilla.org/ (in normal bookmarks)
-#define mozilla_org_long The Mozilla Organization
 
 #define extend_seamonkey Extending SeaMonkey
 
@@ -38,10 +32,6 @@
 # link title for https://addons.thunderbird.net/en-US/seamonkey/dictionaries
 #define seamonkey_dictionaries Spell Checking Dictionaries
 
-# LOCALIZATION NOTE (seamonkey_plugins):
-# link title for https://addons.thunderbird.net/en-US/seamonkey/plugins
-#define seamonkey_plugins Plugins for SeaMonkey
-
 #define community_support Community &amp; Support
 
 # LOCALIZATION NOTE (seamonkey_community):
@@ -49,7 +39,7 @@
 #define seamonkey_community SeaMonkey Community
 
 # LOCALIZATION NOTE (mozillazine):
-# link title for http://www.mozillazine.org/
+# link title for https://www.mozillazine.org/
 #define mozillazine mozillaZine
 
 # LOCALIZATION NOTE (seamonkey_support):
