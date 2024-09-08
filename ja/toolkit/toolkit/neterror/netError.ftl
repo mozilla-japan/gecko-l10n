@@ -64,6 +64,7 @@ neterror-dns-not-found-trr-offline = インターネットに接続されてい�
 neterror-dns-not-found-trr-unknown-host2 = { $trrDomain } でこのウェブサイトが見つかりませんでした。
 neterror-dns-not-found-trr-server-problem = { $trrDomain } のサーバーに問題があります。
 neterror-dns-not-found-bad-trr-url = URL が正しくありません。
+neterror-dns-not-found-system-sleep = システムがスリープモードです。
 neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生しました。
 
 ## Native fallback specific messages

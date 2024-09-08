@@ -11,7 +11,9 @@ about-processes-column-action =
 ## Tooltips
 
 about-processes-shutdown-process =
-    .title = タブを閉じプロセスを終了する
+    .title = タブを閉じてプロセスを強制終了する
+about-processes-kill-process =
+    .title = プロセスを強制終了する
 about-processes-shutdown-tab =
     .title = タブを閉じる
 # Profiler icons
