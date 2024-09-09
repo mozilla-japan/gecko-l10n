@@ -54,3 +54,10 @@ fxsrc | browser, dom, toolkit    9f255a91 (2024-08-09)  mar          sync browse
 tbsrc | mail, calendaer          f1872ada (2024-08-10)  mar          sync mail, calendar
 seamk | suite                    3bd257ba (2024-07-30)  mar          sync suite
 
+^---Released!
+
+[l10n-mozilla-131.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | toolkit, devtools, dom   1edd96cc (2024-09-03)  mar          sync toolkit, devtools, dom
+
