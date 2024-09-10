@@ -19,6 +19,12 @@ sidebar-history-date-prev-month =
     .heading = { DATETIME($date, month: "long", year: "numeric") }
 sidebar-history-delete =
     .title = 履歴から削除します
+sidebar-history-sort-by-date =
+    .label = 日付で並べ替え
+sidebar-history-sort-by-site =
+    .label = サイト名で並べ替え
+sidebar-history-clear =
+    .label = 履歴を消去
 
 ## Labels for sidebar search
 
@@ -59,6 +65,19 @@ sidebar-context-menu-remove-extension =
     .label = 拡張機能を削除
 sidebar-context-menu-report-extension =
     .label = 拡張機能を報告
+sidebar-context-menu-open-in-window =
+    .label = @@NewWindow@@で開く
+sidebar-context-menu-open-in-private-window =
+    .label = @@New-CMD@@プライベート@@Window@@で開く
+sidebar-context-menu-bookmark-tab =
+    .label = タブをブックマーク...
+sidebar-context-menu-copy-link =
+    .label = リンクをコピー
+
+## Labels for sidebar history context menu items
+
+sidebar-history-context-menu-delete-page =
+    .label = 履歴から削除
 
 ## Labels for sidebar menu items.
 

@@ -89,6 +89,9 @@ shopping-show-less-button = 表示を減らす
 
 shopping-settings-label =
     .label = 設定
+shopping-settings-recommendations-toggle2 =
+    .label = おすすめと広告コンテンツを表示する
+shopping-settings-recommendations-learn-more3 = { -brand-product-name } はユーザーの個人データを共有しないため、これらのおすすめコンテンツがインターネット上であなたを追跡することはありません。 <a data-l10n-name="review-quality-url">詳細情報</a>
 shopping-settings-recommendations-toggle =
     .label = レビューチェッカーに広告を表示する
 shopping-settings-recommendations-learn-more2 = 時々、関連製品の広告が表示されます。私たちは信頼できるレビューの付いた製品のみを広告します。<a data-l10n-name="review-quality-url">詳細情報</a>
@@ -162,6 +165,7 @@ shopping-unanalyzed-product-analyze-button = レビュー品質を確認
 
 more-to-consider-ad-label =
     .label = さらに検討する
+shopping-sponsored-label = 広告
 ad-by-fakespot = { -fakespot-brand-name } による広告
 
 ## Shopping survey strings.

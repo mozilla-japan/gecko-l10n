@@ -60,4 +60,5 @@ seamk | suite                    3bd257ba (2024-07-30)  mar          sync suite
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | toolkit, devtools, dom   1edd96cc (2024-09-03)  mar          sync toolkit, devtools, dom
+fxsrc | browser                  1edd96cc (2024-09-03)  mar          sync browser
 
