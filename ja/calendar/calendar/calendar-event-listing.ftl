@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = 過去の予定
 calendar-event-listing-interval-calendar-month =
     .label = 今月の予定
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = 半年後までの予定
 calendar-event-listing-interval-next-12-months =
     .label = 1 年後までの予定
+calendar-event-listing-interval-all =
+    .label = すべての予定
 calendar-event-listing-interval-selected-day =
     .label = 選択した日の予定
 calendar-event-listing-interval-today =

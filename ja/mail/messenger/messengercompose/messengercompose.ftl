@@ -387,3 +387,5 @@ link-preview-yes-replace = 追加する
 spell-add-dictionaries =
     .label = スペルチェック辞書を追加...
     .accesskey = A
+subject-encription-icon =
+    .title = 件名は暗号化されません
