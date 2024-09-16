@@ -6,3 +6,7 @@ account-settings-color-label = @@Color@@:
     .accesskey = C
 account-settings-reset-color-button =
     .title = @@Color@@をリセット
+delete-account-button =
+    .label = 削除
+default-account-button =
+    .label = @@Default@@に設定
