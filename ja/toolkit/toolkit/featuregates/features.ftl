@@ -59,8 +59,6 @@ sidebar-description = 履歴や他の端末からのタブ、サイドバー拡�
 vertical-tabs-title =
     .label = 垂直タブ
 vertical-tabs-description = タブをブラウザー上部から側面へ移動します。サイドバーも試してみてください。<a data-l10n-name="connect">フィードバックを共有</a>
-experimental-features-group-browsing =
-    .label = ブラウジング
 experimental-features-group-developer-tools =
     .label = 開発ツール
 experimental-features-group-webpage-display =

@@ -4,6 +4,8 @@
 
 menu-view-genai-chat =
     .label = AI チャットボット
+menu-view-review-checker =
+    .label = レビューチェッカー
 
 ## Labels for sidebar history panel
 
@@ -50,6 +52,14 @@ sidebar-horizontal-tabs =
     .label = 水平タブ
 sidebar-customize-tabs-header =
     .label = タブ設定
+sidebar-customize-button-header =
+    .label = サイドバーボタン
+sidebar-customize-position-header =
+    .label = サイドバーの配置
+sidebar-visibility-setting-always-show =
+    .label = サイドバーの開閉
+sidebar-visibility-setting-hide-sidebar =
+    .label = サイドバーの表示
 sidebar-customize-settings-header =
     .label = サイドバー設定
 sidebar-visibility-always-show =
@@ -73,6 +83,10 @@ sidebar-context-menu-bookmark-tab =
     .label = タブをブックマーク...
 sidebar-context-menu-copy-link =
     .label = リンクをコピー
+# Variables:
+#   $deviceName (String) - The name of the device the user is closing a tab for
+sidebar-context-menu-close-remote-tab =
+    .label = { $deviceName } 端末上のタブを閉じる
 
 ## Labels for sidebar history context menu items
 
@@ -91,6 +105,8 @@ sidebar-menu-bookmarks-label =
     .label = ブックマーク
 sidebar-menu-customize-label =
     .label = サイドバーをカスタマイズ
+sidebar-menu-review-checker-label =
+    .label = レビューチェッカー
 
 ## Headings for sidebar menu panels.
 
@@ -100,3 +116,31 @@ sidebar-menu-history-header =
     .heading = 履歴
 sidebar-menu-syncedtabs-header =
     .heading = 他の端末からのタブ
+sidebar-panel-header-close-button =
+    .tooltiptext = 閉じる
+
+## Titles for sidebar menu panels.
+
+sidebar-customize-title = サイドバーのカスタマイズ
+sidebar-history-title = 履歴
+sidebar-syncedtabs-title = 他の端末からのタブ
+
+## Context for closing synced tabs when hovering over the items
+
+# Context for hovering over the close tab button that will
+# send a push to the device to close said tab
+# Variables:
+#   $deviceName (String) - the name of the device the user is closing a tab for
+synced-tabs-context-close-tab-title =
+    .title = { $deviceName } 端末上のタブを閉じる
+
+## Tooltips for the sidebar toolbar button.
+
+sidebar-toolbar-expand-sidebar =
+    .tooltiptext = サイドバーを展開します
+sidebar-toolbar-collapse-sidebar =
+    .tooltiptext = サイドバーを折りたたみます
+sidebar-toolbar-show-sidebar =
+    .tooltiptext = サイドバーを表示します
+sidebar-toolbar-hide-sidebar =
+    .tooltiptext = サイドバーを隠します

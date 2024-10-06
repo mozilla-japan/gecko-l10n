@@ -135,7 +135,9 @@ login-item-copy-username-button-text = コピー
 login-item-copied-username-button-text = コピーしました！
 login-item-password-label = パスワード
 login-item-password-reveal-checkbox =
-    .aria-label = パスワードを表示
+    .aria-label = パスワードを開示
+login-item-password-conceal-checkbox =
+    .aria-label = パスワードを隠す
 login-item-copy-password-button-text = コピー
 login-item-copied-password-button-text = コピーしました！
 login-item-save-changes-button = 変更を保存
@@ -184,7 +186,7 @@ about-logins-edit-login-os-auth-dialog-message2-macosx = 保存したパスワ�
 about-logins-reveal-password-os-auth-dialog-message-win = ログイン情報を表示するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
 # This message can be seen when attempting to reveal a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
-about-logins-reveal-password-os-auth-dialog-message-macosx = 保存したパスワードを表示
+about-logins-reveal-password-os-auth-dialog-message-macosx = 保存したパスワードを開示
 # This message can be seen when attempting to copy a password in about:logins on Windows.
 about-logins-copy-password-os-auth-dialog-message-win = ログイン情報をコピーするには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
 # This message can be seen when attempting to copy a password in about:logins

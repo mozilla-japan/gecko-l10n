@@ -273,3 +273,15 @@ tail-fox-spotlight-title = 迷惑なトラッカーを尻尾で振り払いま�
 tail-fox-spotlight-subtitle = 迷惑な広告トラッカーに別れを告げて、安全で高速なインターネットを体験しましょう。
 tail-fox-spotlight-primary-button = { -brand-short-name } でリンクを開く
 tail-fox-spotlight-secondary-button = 後で
+
+## Root Certificate Succession Infobar
+
+root-certificate-succession-infobar-january-message = <strong>{ -brand-short-name } の古いバージョンでは 2025 年 1 月 14 日以降に問題が起こる可能性があります。</strong>
+root-certificate-succession-infobar-march-message = <strong>2025 年 3 月 14 日以降も使い続けるには { -brand-short-name } を更新してください。</strong>
+root-certificate-succession-infobar-link = 更新する必要があるのはなぜですか？
+root-certificate-succession-infobar-primary-button =
+    .label = 今すぐ更新
+    .accesskey = U
+root-certificate-succession-infobar-secondary-button =
+    .label = 後で
+    .accesskey = L

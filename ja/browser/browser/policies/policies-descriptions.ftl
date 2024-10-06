@@ -140,3 +140,5 @@ policy-UseSystemPrintDialog = システムの@@Print@@ダイアログで@@Print@
 # “format” refers to the format used for the value of this policy.
 policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細はドキュメントをご覧ください。
 policy-Windows10SSO = Microsoft アカウント、職場または学校アカウントで Windows のシングルサインオンを許可します。
+# Entra is the name of a Microsoft product.
+policy-MicrosoftEntraSSO = Microsoft Entra アカウントでシングルサインオンを許可します。

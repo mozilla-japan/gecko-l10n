@@ -232,7 +232,7 @@ preferences-web-appearance-override-warning2 =
 # to adapt to your language, but should not be changed.
 preferences-web-appearance-footer = <a data-l10n-name="themes-link">アドオンとテーマ</a> で { -brand-short-name } のテーマを管理する
 preferences-colors-header = @@Colors@@
-preferences-colors-description = ウェブサイトのテキスト、背景、リンクを、{ -brand-short-name } の@@Default-@@@@Colors@@で上書きする。
+preferences-colors-description = ウェブサイトのテキスト、背景、リンクを、{ -brand-short-name } の@@Default-@@@@Colors@@で上書きします。
 preferences-colors-manage-button =
     .label = @@Colors@@の管理...
     .accesskey = C
@@ -253,7 +253,7 @@ preferences-default-zoom = @@Default-@@ズーム
 preferences-default-zoom-value =
     .label = { $percentage }%
 preferences-zoom-text-only =
-    .label = 文字サイズのみ変更
+    .label = 文字サイズのみ変更する
     .accesskey = t
 preferences-text-zoom-override-warning =
     .message = 警告: [文字サイズのみ変更] を選択し、@@Default-@@ズームが 100% でない場合、一部のサイトやコンテンツが正しく表示されない可能性があります。
@@ -281,7 +281,7 @@ translate-exceptions =
 # Variables:
 #    $localeName (string) - Localized name of the locale to be used.
 use-system-locale =
-    .label = 日付、時刻、数値、寸法の書式に、OS の “{ $localeName }” の設定を使う。
+    .label = 日付、時刻、数値、寸法の書式に、OS の “{ $localeName }” の設定を使う
 check-user-spelling =
     .label = 自動スペルチェック機能を使用する
     .accesskey = t
@@ -390,7 +390,7 @@ applications-ask-before-handling =
     .accesskey = A
 drm-content-header = デジタル著作権管理 (DRM) コンテンツ
 play-drm-content =
-    .label = DRM 制御のコンテンツを再生
+    .label = DRM 制御のコンテンツを再生する
     .accesskey = P
 play-drm-content-learn-more = 詳細情報
 update-application-title = { -brand-short-name } の更新
@@ -547,7 +547,7 @@ choose-bookmark =
 ## Home Section - Firefox Home Content Customization
 
 home-prefs-content-header2 = { -firefox-home-brand-name } コンテンツ
-home-prefs-content-description2 = { -firefox-home-brand-name } に表示するコンテンツを選びましょう。
+home-prefs-content-description2 = { -firefox-home-brand-name } に表示するコンテンツを選んでください。
 home-prefs-search-header =
     .label = ウェブ検索
 home-prefs-shortcuts-header =
@@ -1214,7 +1214,7 @@ permissions-location = 位置情報
 permissions-location-settings =
     .label = 設定...
     .accesskey = t
-permissions-xr = バーチャルリアリティ
+permissions-xr = VR デバイス
 permissions-xr-settings =
     .label = 設定...
     .accesskey = t
