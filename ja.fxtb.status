@@ -66,5 +66,5 @@ tbsrc | mail, calendaer          216fd995 (2024-09-05)  mar          sync mail, 
 [l10n-mozilla-132.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
-fxsrc | browser, toolkit, devtools   1edd96cc (2024-10-01)  mar          sync browser, dom, devtools
+fxsrc | browser, devtools, ...   1edd96cc (2024-10-01)  mar          sync browser, devtools, toolkit
 
