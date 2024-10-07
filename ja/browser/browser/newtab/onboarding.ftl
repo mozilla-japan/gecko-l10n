@@ -360,3 +360,43 @@ onboarding-new-user-survey-familiarity-based-option-1 = 初めて使う
 onboarding-new-user-survey-familiarity-based-option-2 = 何度か使っている
 onboarding-new-user-survey-familiarity-based-option-3 = よく使っている
 onboarding-new-user-survey-familiarity-based-option-4 = 以前使ったことがあり、久しぶりに使う
+
+## UI strings for the sidebar and vertical tabs
+
+# Setup screen for vertical tabs
+onboarding-new-tabs-title = タブを配置したい場所を教えてください
+# Setup screen for vertical tabs - "Switch it up" refers to switching between horizontal and vertical tabs.
+onboarding-new-tabs-subtitle = サイドバー設定でいつでも垂直タブに切り替えられます。
+# Text underneath an image used for selecting browser tabs to appear on the side of the browser.
+onboarding-new-vertical-tabs-label = タブサイドバー
+# Text underneath an image used for selecting browser tabs to appear at the top of the browser.
+onboarding-new-horizontal-tabs-label = 最上部のタブバー
+# Setup screen for vertical tabs for existing users
+onboarding-existing-tabs-title = 垂直タブがここに表示されます
+# Setup screen for vertical tabs for existing users
+onboarding-existing-tabs-title2 = 垂直タブの導入
+# Setup screen for vertical tabs for existing users - "Switch it up" refers to switching between horizontal and vertical tabs.
+onboarding-existing-tabs-subtitle = タブをサイドバーに配置してみましょう。サイドバー設定でいつでも切り替えられます。
+# Text underneath an image used for selecting browser tabs to appear on the side of the browser.
+onboarding-existing-vertical-tabs-label = 垂直タブを試す
+onboarding-flair-text = 新機能！
+# Text underneath an image used for selecting browser tabs to appear at the top of the browser.
+onboarding-existing-horizontal-tabs-label = 水平タブのままにする
+# Tooltip displayed on hover for vertical tabs image
+onboarding-vertical-tabs-tooltip =
+    .title = ブラウザー@@Window@@のタブが画面の側面に { -brand-shorter-name } サイドバーの一部として表示されます。
+# Description for vertical tabs image
+onboarding-vertical-tabs-description =
+    .aria-description = ブラウザー@@Window@@のタブが画面の側面に { -brand-shorter-name } サイドバーの一部として表示されます。
+# Tooltip displayed on hover for horizontal tabs image
+onboarding-horizontal-tabs-tooltip =
+    .title = ブラウザー@@Window@@のタブが最上部に表示されます。
+# Description for horizontal tabs image
+onboarding-horizontal-tabs-description =
+    .aria-description = ブラウザー@@Window@@のタブが最上部に表示されます。
+# Additional setup card for setting up aichatbot in the sidebar
+onboarding-genai-sidebar-title = サイドバーで AI チャットボットを試してみよう
+# Setup card for setting up AI chatbot in the sidebar; "Providers" refers to AI chatbot providers (e.g. OpenAI, etc). "Switch anytime" refers to allowing the user to switch to a different chatbot.
+onboarding-genai-sidebar-subtitle = AI によるウェブコンテンツの要約、アイデアのブレーンストーミング、メッセージの下書きなどをブラウジングしながら。複数の AI プロバイダーから選んでください。いつでも切り替えられます。<a data-l10n-name="learn-more">詳細情報</a>
+onboarding-genai-sidebar-primary-button = チャットボットを選ぶ
+onboarding-genai-sidebar-secondary-button = ブラウジングを始める
