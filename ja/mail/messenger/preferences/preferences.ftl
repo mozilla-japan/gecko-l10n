@@ -852,7 +852,7 @@ qr-export-back = 戻る
 qr-export-next = 次へ
 qr-export-done = 完了
 qr-export-summary-description = アカウントが@@Export-sare@@ました。モバイル端末で操作を続けてください。
-qr-export-summary-title = @@Export@@結果:
+qr-export-summary-title = @@ExportNoun@@結果:
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
 qr-export-summary-qr-count = { $count } 個の QR コードが生成されました
