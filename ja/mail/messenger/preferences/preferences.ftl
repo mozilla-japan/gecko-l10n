@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = 同期
 category-sync =
     .tooltiptext = 同期
+pane-qr-export-title = モバイル向けの@@ExportNoun@@
+category-qr-export =
+    .tooltiptext = モバイル向けの@@ExportNoun@@
 general-language-and-appearance-header = 言語と外観
 general-incoming-mail-header = 新着メールの通知
 general-files-and-attachment-header = ファイルと添付
@@ -44,10 +47,10 @@ privacy-junk-header = 迷惑メール
 collection-header = { -brand-short-name } のデータ収集と利用について
 collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
 collection-privacy-notice = 個人情報保護方針
-collection-health-report-telemetry-disabled = { -vendor-short-name } への技術的な対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
+collection-health-report-telemetry-disabled = { -vendor-short-name } への技術データと対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
 collection-health-report-telemetry-disabled-link = 詳細情報
 collection-health-report =
-    .label = { -brand-short-name } が技術的な対話データを { -vendor-short-name } へ送信することを許可する
+    .label = { -brand-short-name } が技術データと対話データを { -vendor-short-name } へ送信することを許可する
     .accesskey = r
 collection-health-report-link = 詳細情報
 # This message is displayed above disabled data sharing options in developer builds
@@ -414,6 +417,16 @@ address-display-name =
 condensed-addresses-label =
     .label = アドレス帳に登録されている人については宛先フィールドで <メールアドレス> 部を表示しない
     .accesskey = S
+table-layout-legend = テーブルビュー
+table-layout-horizontal-scroll-label =
+    .label = 水平スクロールを許可する
+    .accesskey = h
+conversation-view-legend = 会話ビュー
+conversation-view-checkbox-label =
+    .label = 会話ビューを有効にする
+    .accesskey = c
+conversation-view-checkbox-description = Gloda を基にした実験的な機能です。ご自身の責任で使用してください。
+label-experiment = 実験的
 
 ## Compose Tab
 
@@ -802,3 +815,50 @@ synced-acount-item-filters = メッセージフィルター
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = あなたのメールアカウントやアドレス帳、カレンダー、差出人情報をお持ちのすべての端末間で同期します。
 sync-disconnected-turn-on-sync = 同期をオンにする...
+
+## Mobile QR Export Pane
+
+qr-export-pane-header =  モバイル版 { -brand-product-name } にアカウント設定を@@ExportNoun@@
+qr-export-description = QR コードを生成してアカウント設定をデスクトップからモバイル端末へすばやく転送します。転送データに含めるアカウントを選択してください。パスワードも転送するかどうかを決定し、モバイル端末で QR コードをスキャンしてください。速く、安全で簡単に転送できます。
+qr-export-get-app = まだモバイル端末に { -brand-product-name } をインストールしていない場合は、<a data-l10n-name="app-link">Google Play から入手</a> してください。
+qr-export-create = QR コードを生成してアカウントを@@Export-suru@@
+qr-export-select-accounts = @@Export-suru@@アカウントを選択:
+qr-export-no-accounts = アカウントがすべて表示されない場合、Android 版 { -brand-product-name } でサポートされていないものが一部無効になっているかもしれません。<a data-l10n-name="account-support-link">サポート情報</a>
+qr-export-accounts-legend = メールアカウント
+qr-export-select-all-accounts = @@SelectAll@@
+qr-export-security-legend = セキュリティ
+qr-export-include-passwords = すべてのアカウントのパスワードを含める
+qr-export-security-hint = この QR コードをスキャンすると、メッセージとパスワードを含むあなたのアカウント設定が安全に転送されます。これらのデータは端末間で直接転送され、いかなるデータも転送処理中に収集、保存されることはありません。
+qr-export-security-warning = 安全のため、プライベートな場所で信頼できる生成元から QR コードをスキャンしてください。
+qr-export-start-export = @@Export@@
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] QR コード { $step } / { $count } 個
+       *[other] QR コード { $step } / { $count } 個
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description = ご使用のモバイル端末の { -brand-product-name } で QR コードをスキャンしてください
+qr-export-scan-step1 = ご使用のモバイル端末で { -brand-product-name } を開きます
+qr-export-scan-step2 = 設定画面へ移動します
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = <strong>設定を@@Import@@</strong> を選択します
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = スマートフォンでこのコードの <strong>QR コードをスキャン</strong> を長押しします
+qr-export-back = 戻る
+qr-export-next = 次へ
+qr-export-done = 完了
+qr-export-summary-description = アカウントが@@Export-sare@@ました。モバイル端末で操作を続けてください。
+qr-export-summary-title = @@Export@@結果:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count = { $count } 個の QR コードが生成されました
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts = { $count } 件のアカウントが@@Export-sare@@ました
+qr-export-summary-passwords-included = パスワードが含まれています
+qr-export-summary-passwords-excluded = パスワードが除外されています
+qr-export-more-accounts = 他のアカウントを@@Export@@
