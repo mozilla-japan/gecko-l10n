@@ -10,12 +10,6 @@ reminder-title-at-start-event = 予定の開始日時
 reminder-title-at-start-task = ToDo の着手日時
 reminder-title-at-end-event = 予定の終了日時
 reminder-title-at-end-task = ToDo の締め切り日時
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = { $unit }後に再びアラームで通知します
 reminder-custom-origin-begin-before-event = 予定開始まで
 reminder-custom-origin-begin-after-event = 予定開始から
 reminder-custom-origin-end-before-event = 予定終了まで
