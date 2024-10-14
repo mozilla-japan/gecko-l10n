@@ -16,3 +16,5 @@ all-tabs-menu-close-duplicate-tabs =
     .label = 重複タブを閉じる
 all-tabs-menu-close-all-duplicate-tabs =
     .label = すべての重複タブを閉じる
+all-tabs-menu-synced-tabs =
+    .label = 他の端末からのタブ

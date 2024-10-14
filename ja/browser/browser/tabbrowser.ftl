@@ -169,3 +169,17 @@ tabbrowser-manager-unmute-tab =
     .tooltiptext = タブのミュートを解除します
 tabbrowser-manager-close-tab =
     .tooltiptext = タブを閉じます
+
+## Tab Groups
+
+tab-group-editor-title-create = タブグループを作成
+tab-group-editor-title-edit = タブグループの管理
+tab-group-editor-name-label = グループ名
+tab-group-editor-name-field =
+    .placeholder = 例: ショッピング
+tab-group-editor-cancel =
+    .label = キャンセル
+    .accesskey = C
+tab-group-editor-create =
+    .label = 作成
+    .accesskey = r
