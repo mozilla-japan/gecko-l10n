@@ -134,13 +134,17 @@ sidebar-syncedtabs-title = 他の端末からのタブ
 synced-tabs-context-close-tab-title =
     .title = { $deviceName } 端末上のタブを閉じる
 
-## Tooltips for the sidebar toolbar button.
+## Tooltips for the sidebar toolbar widget.
 
-sidebar-toolbar-expand-sidebar =
+sidebar-widget-expand-sidebar =
     .tooltiptext = サイドバーを展開します
-sidebar-toolbar-collapse-sidebar =
+    .label = サイドバー
+sidebar-widget-collapse-sidebar =
     .tooltiptext = サイドバーを折りたたみます
-sidebar-toolbar-show-sidebar =
+    .label = サイドバー
+sidebar-widget-show-sidebar =
     .tooltiptext = サイドバーを表示します
-sidebar-toolbar-hide-sidebar =
+    .label = サイドバー
+sidebar-widget-hide-sidebar =
     .tooltiptext = サイドバーを隠します
+    .label = サイドバー

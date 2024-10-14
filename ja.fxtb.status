@@ -68,4 +68,4 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | browser, devtools, ...   1edd96cc (2024-10-01)  mar          sync browser, devtools, toolkit
 tbsrc | mail, calendar           0c623061 (2024-10-10)  mar          sync mail, calendar
-
+fxsrc | browser, devtools, ...   76150771 (2024-10-07)  mar          sync browser, devtools, toolkit

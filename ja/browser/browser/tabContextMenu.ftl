@@ -91,6 +91,9 @@ tab-context-new-tab-open =
 tab-context-new-tab-open-vertical =
     .label = @@NewTab@@を下隣に開く
     .accesskey = w
+tab-context-new-group =
+    .label = @@New-CMD@@グループ
+    .accesskey = G
 
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.
