@@ -38,7 +38,6 @@ account-hub-sync-button = Sync にログイン...
 
 ## Email page
 
-account-hub-email-title = メールアカウントのセットアップ
 account-hub-add-email-title = アカウントの追加
 account-hub-manually-configure-email-title = アカウント設定のセットアップ
 account-hub-email-cancel-button = キャンセル

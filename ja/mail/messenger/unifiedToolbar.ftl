@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = 検索
-search-bar-item =
-    .label = 検索:
 search-bar-item2 =
     .label = 検索
 search-bar-placeholder = 検索...
@@ -58,8 +56,6 @@ customize-button-style-text-only-option = テキストのみ
 customize-cancel = キャンセル
 customize-save = 保存
 customize-unsaved-changes = 他のスペースの未保存の変更
-customize-search-bar =
-    .label = ツールバーボタンを検索...
 customize-search-bar2 =
     .label = ツールバーボタンを検索
     .placeholder = ツールバーボタンを検索...

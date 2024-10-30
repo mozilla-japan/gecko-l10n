@@ -2,10 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-permissions-reminder-window2 =
-    .title = 例外サイト
-permission-preferences-close-window =
-    .key = w
 permissions-dialog-title = 例外サイト
 website-address-label =
     .value = サイトのアドレス:

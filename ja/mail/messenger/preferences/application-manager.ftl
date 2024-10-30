@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-app-manager-window-dialog2 =
-    .title = @@Application@@の詳細
 app-manager-dialog-title = @@Application@@の詳細
 remove-app-button =
     .label = 削除

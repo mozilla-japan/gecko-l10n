@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = メッセージの要約
-selected-messages-label =
-    .label = 選択したメッセージ
 multi-message-archive-button =
     .label = アーカイブ
     .tooltiptext = アーカイブ
