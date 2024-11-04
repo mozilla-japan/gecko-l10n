@@ -78,5 +78,9 @@ about-glean-adhoc-note =
     開発ツールのコンソールを使用して Glean JS API を操作しているので注意してください。
     これは、メトリクスのカテゴリー名とメトリクス名が Rust や C++ API と異なる <code>camelCase</code> で初期化されることを意味します。
 controls-button-label-verbose = 設定を適用して Ping を送信
+about-glean-feedback-settings-only =
+    .message = 設定を適用しました
+about-glean-feedback-settings-and-ping =
+    .message = 設定を適用して Ping を送信しました
 about-glean-about-data-header = データについて
 about-glean-about-data-explanation = 収集したデータのリストの閲覧は、<a data-l10n-name="glean-dictionary-link">{ -glean-brand-name } Dictionary</a> で調べてください。
