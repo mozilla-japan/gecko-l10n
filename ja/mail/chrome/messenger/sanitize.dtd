@@ -32,5 +32,3 @@ that require it.  -->
      that appears when "Time range to clear" is set to "Everything".  See UI
      mockup at bug 480169 -->
 <!ENTITY sanitizeEverythingUndoWarning	"この操作は取り消せません。">
-
-<!ENTITY dialog.width			"34em"><!-- en-US: 28em -->

@@ -491,13 +491,6 @@ due-in-days = { $count } 日
 # $count count
 due-in-hours = { $count } 時間
 due-in-less-than-one-hour = 1 時間以内
-# LOCALIZATION NOTE (month-in-year):
-# used for display of Month-dates like 'December 2008'
-#    $month will be replaced with name of the month
-#    $year will be replaced with the year
-month-in-year = { $year }年{ $month }
-month-in-year-label =
-    .aria-label = { $year }年{ $month }
 # LOCALIZATION NOTE (month-in-year-month-format):
 # If your language requires a different declension, change this to
 # one of the values specified in dateFormat.properties.

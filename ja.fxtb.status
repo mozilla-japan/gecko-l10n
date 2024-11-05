@@ -61,6 +61,7 @@ fxsrc | toolkit, devtools, dom   1edd96cc (2024-09-03)  mar          sync toolki
 fxsrc | browser                  1edd96cc (2024-09-03)  mar          sync browser
 tbsrc | mail, calendar           216fd995 (2024-09-05)  mar          sync mail, calendar
 
+
 [l10n-mozilla-132.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
@@ -73,5 +74,5 @@ fxsrc | browser, devtools, ...   76150771 (2024-10-07)  mar          sync browse
 [l10n-mozilla-133.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
+tbsrc | mail, calendar, chat     4fa32e5e (2024-10-25)  kazushi      sync mail, calendar, chat
 fxsrc | toolkit, dom, security   def023e9 (2024-10-30)  mar          sync toolkit, dom, devtools, security
-

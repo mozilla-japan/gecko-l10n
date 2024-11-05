@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = パスワード
     .accesskey = P
     .title = 任意です。ユーザー名の検証にのみ使用されます
-account-provisioner-button = @@New-CMD@@メールアドレスを取得
-    .accesskey = G
 account-setup-password-toggle-show =
     .title = パスワードを平文で表示します
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = 認証に失敗しました。入力し�
 account-setup-credentials-wrong = 認証に失敗しました。ユーザー名とパスワードを確認してください。
 account-setup-find-settings-failed = { -brand-short-name } がメールアカウントの設定を見つけられませんでした。
 account-setup-exchange-config-unverifiable = 設定を検証できませんでした。ユーザー名とパスワードが正しい場合は、サーバー管理者があなたの選択した設定を無効化している可能性があります。別のプロトコルを選択してみてください。
-account-setup-provisioner-error = { -brand-short-name } でアカウントのセットアップ中にエラーが発生しました。プロバイダーからのメールアカウントの設定情報を参照して手動で設定してください。
 
 ## Manual configuration area
 

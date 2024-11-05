@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = @@Colors@@
 colors-dialog-title = @@Colors@@
 colors-dialog-legend = テキストと背景の@@Color@@
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = 訪問済リンク:
     .accesskey = V
-underline-link-checkbox =
-    .label = リンクに下線を表示する
-    .accesskey = U
 always-underline-links =
     .label = 常にリンクに下線を付ける
     .accesskey = U

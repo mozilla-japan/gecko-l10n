@@ -22,7 +22,6 @@ webext-perms-description-messagesModify = 表示されたメッセージの読�
 webext-perms-description-messagesModifyPermanent = メッセージのソースの恒久的な編集 (ヘッダー、本文、添付を含む)
 webext-perms-description-messagesMove = メッセージのコピーまたは移動 (@@TrashFolder@@への移動を含む)
 webext-perms-description-messagesDelete = メッセージの完全削除
-webext-perms-description-messagesRead = メッセージの読み取りとマーク付け、タグ付け
 webext-perms-description-messagesRead2 = メッセージの読み取り
 webext-perms-description-messagesUpdate = メッセージのプロパティとタグの変更
 webext-perms-description-messagesTags = メッセージタグの作成と変更、削除
