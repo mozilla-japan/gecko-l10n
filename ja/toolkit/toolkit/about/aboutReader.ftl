@@ -5,13 +5,13 @@
 about-reader-loading = 読み込み中...
 about-reader-load-error = ページから記事を読み込めませんでした
 about-reader-color-scheme-light = ライト
-    .title = ライトの色設定
+    .title = ライトの@@Color@@設定
 about-reader-color-scheme-dark = ダーク
-    .title = ダークの色設定
+    .title = ダークの@@Color@@設定
 about-reader-color-scheme-sepia = セピア
-    .title = セピアの色設定
+    .title = セピアの@@Color@@設定
 about-reader-color-scheme-auto = 自動
-    .title = 自動の色設定
+    .title = 自動の@@Color@@設定
 about-reader-color-light-theme = ライト
     .title = ライトテーマ
 about-reader-color-dark-theme = ダーク

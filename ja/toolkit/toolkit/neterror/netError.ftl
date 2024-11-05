@@ -148,3 +148,4 @@ certerror-mitm-what-can-you-do-about-it-attack-sts = <b>{ $mitm }</b> に心当�
 # Variables:
 # $hostname (String) - Hostname of the website to which the user was trying to connect.
 certerror-what-should-i-do-bad-sts-cert-explanation = <b>{ $hostname }</b> は HTTP Strict Transport Security (HSTS) と呼ばれるセキュリティポリシーが設定されており、{ -brand-short-name } は安全な接続でしか通信できません。そのため、このサイトを例外に追加することはできません。
+cert-error-trust-certificate-transparency-what-can-you-do-about-it = おそらくウェブサイトに問題があるため、あなたにできることはないでしょう。
