@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = デスクトップ通知
 notifications-dialog-title = デスクトップ通知
 customize-alert-description = デスクトップ通知に表示する内容:
 preview-text-checkbox =

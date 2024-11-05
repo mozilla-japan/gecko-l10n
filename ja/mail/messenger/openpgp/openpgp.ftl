@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = 有効期限
 openpgp-key-id-label =
     .label = 鍵 ID
-openpgp-cannot-change-expiry = この鍵は複雑な構造をしているため、有効期限が変更できません。
-openpgp-key-man-title =
-    .title = OpenPGP 鍵マネージャー
 openpgp-key-man-dialog-title = OpenPGP 鍵マネージャー
 openpgp-key-man-generate =
     .label = @@New-CMD@@鍵ペア
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = 失効証明書
     .accesskey = R
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = 失効証明書を生成して保存
 openpgp-key-man-gen-revocation =
     .label = 失効証明書をファイルに保存
     .accesskey = C
@@ -488,8 +483,6 @@ filter-encrypt-label = 鍵に対して暗号化する (Enigmail)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = 成功！ 鍵を@@Import-si@@ました
 import-info-dialog-title = 成功！ 鍵を@@Import-si@@ました
 import-info-bits = ビット
 import-info-created = 作成日
@@ -771,15 +764,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     { $width } 文字で改行する設定になっています。正しい暗号化および署名には、少なくとも 68 文字で改行する必要があります。
     今すぐ 68 文字での改行に変更しますか？
-sending-news =
-    暗号化メッセージの送信を中止しました。
-    ニュースグループの宛先が含まれるため、このメッセージを暗号化できませんでした。メッセージを暗号化せずにもう一度送信してください。
-send-to-news-warning =
-    警告: ニュースグループ宛に暗号化メッセージを送信しようとしています。
-    メッセージが購読者全員の鍵で暗号化されているなど、購読者全員がメッセージを復号できる環境でない限り、ニュースグループ宛に暗号化メッセージを送信することに意味はありません。そのような状況にあると確認できる場合のみ、このメッセージを送信してください。
-    続行しますか？
 save-attachment-header = 復号した添付ファイルを保存
-possibly-pgp-mime = おそらく PGP/MIME 形式で暗号化あるいは署名されたメッセージです。‘復号/検証’ 機能で検証してください
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = このメッセージにデジタル署名できませんでした。<{ $key }> のためのエンドツーエンド暗号化が設定されていません
@@ -828,15 +813,6 @@ debug-log-title = OpenPGP デバッグログ
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = この警告は { $count }
-repeat-suffix-singular = 回繰り返されます。
-repeat-suffix-plural = 回繰り返されます。
-no-repeat = この警告は繰り返されません。
-dlg-keep-setting = 設定を保存し、次回から確認しない
 
 ## Strings used in dialog.sys.mjs
 
@@ -846,8 +822,6 @@ dlg-button-cancel = キャンセル(&C)
 dlg-no-prompt = このダイアログを再度表示しない
 enig-prompt = OpenPGP プロンプト
 enig-confirm = OpenPGP 確認
-enig-alert = OpenPGP 警告
-enig-info = OpenPGP 情報
 
 ## Strings used in persistentCrypto.jsm
 

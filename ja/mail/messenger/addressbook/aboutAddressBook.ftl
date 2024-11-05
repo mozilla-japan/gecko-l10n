@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV アドレス帳を追加
 about-addressbook-toolbar-add-ldap-address-book =
     .label = LDAP アドレス帳を追加
-about-addressbook-toolbar-new-contact =
-    .label = @@New-CMD@@連絡先
-about-addressbook-toolbar-new-list =
-    .label = @@New-CMD@@アドレスリスト
-about-addressbook-toolbar-import =
-    .label = @@Import@@
 books-pane-create-contact-button = @@New-CMD@@連絡先
     .title = @@New-CMD@@連絡先を作成します
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = { $name } を削除してもよ�
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = { $name } を検索
-about-addressbook-search-all =
-    .placeholder = すべてのアドレス帳を検索
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -256,7 +244,6 @@ about-addressbook-selection-lists-header2 = 選択したアドレスリスト { 
 about-addressbook-details-edit-photo =
     .title = 連絡先の顔写真を編集します
 about-addressbook-new-contact-header = @@New-CMD@@連絡先
-about-addressbook-prefer-display-name = メッセージヘッダーでは表示名を優先する
 about-addressbook-write-action-button = 作成
 about-addressbook-event-action-button = 予定
 about-addressbook-search-action-button = 検索

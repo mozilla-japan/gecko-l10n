@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = DNS over HTTPS の解決に使用する URL を入力します
 connection-dns-over-https-custom-label = URL を指定:
-connection-dialog-window2 =
-    .title = インターネット接続
 connection-dialog-title = インターネット接続
 disable-extension-button = 拡張機能を無効化
 # Variables:

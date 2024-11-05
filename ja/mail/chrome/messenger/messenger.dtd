@@ -27,10 +27,6 @@
 <!ENTITY moveToNewWindow.accesskey		"W">
 <!ENTITY newVirtualFolderCmd.label		"検索フォルダー...">
 <!ENTITY newVirtualFolderCmd.accesskey		"S">
-<!ENTITY newCreateEmailAccountCmd.label		"@@New-CMD@@メールアカウントを取得...">
-<!ENTITY newCreateEmailAccountCmd.accesskey	"G">
-<!ENTITY newExistingEmailAccountCmd.label	"既存のメールアカウント...">
-<!ENTITY newExistingEmailAccountCmd.accesskey	"E">
 <!ENTITY newIMAccountCmd.label			"チャットアカウント...">
 <!ENTITY newIMAccountCmd.accesskey		"C">
 <!ENTITY newFeedAccountCmd.label		"フィードアカウント...">
@@ -624,8 +620,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey		"U">
 <!ENTITY folderContextMarkNewsgroupRead.label		"ニュースグループを既読にする">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey	"k">
-<!ENTITY folderContextMarkMailFolderRead.label		"フォルダーを既読にする">
-<!ENTITY folderContextMarkMailFolderRead.accesskey	"k">
 <!ENTITY folderContextSubscribe.label			"購読...">
 <!ENTITY folderContextSubscribe.accesskey		"b">
 <!ENTITY folderContextSearchForMessages.label		"メッセージを検索...">
@@ -731,16 +725,6 @@
 <!ENTITY contextReplyAll.accesskey		"A">
 <!ENTITY contextReplyList.label			"メーリングリストに返信">
 <!ENTITY contextReplyList.accesskey		"L">
-<!ENTITY contextForward.label			"転送">
-<!ENTITY contextForward.accesskey		"F">
-<!ENTITY contextForwardAsMenu.label		"形式を指定して転送">
-<!ENTITY contextForwardAsMenu.accesskey		"o">
-<!ENTITY contextForwardAsInline.label		"メッセージ本文"><!-- en-US: "Inline" -->
-<!ENTITY contextForwardAsInline.accesskey	"I">
-<!ENTITY contextForwardAsAttachmentItem.label	"添付ファイル">
-<!ENTITY contextForwardAsAttachmentItem.accesskey	"A">
-<!ENTITY contextMultiForwardAsAttachment.label	"添付にまとめて転送">
-<!ENTITY contextMultiForwardAsAttachment.accesskey	"o">
 <!ENTITY contextMoveMsgMenu.label		"メッセージを移動">
 <!ENTITY contextMoveMsgMenu.accesskey		"M">
 <!ENTITY contextMoveCopyMsgRecentMenu.label	"使用履歴">

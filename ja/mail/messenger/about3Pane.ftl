@@ -95,19 +95,6 @@ quick-filter-bar-no-results = 該当なし
 # Variables:
 # $count (Number) - The number of messages that match selected filters.
 quick-filter-bar-results = { $count } 件
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = このフォルダーのメッセージを絞り込む <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = メッセージの絞り込み
 quick-filter-bar-searching =
@@ -261,8 +248,6 @@ threadpane-column-header-sender = 差出人
     .title = 差出人で並べ替えます
 threadpane-column-label-sender =
     .label = 差出人
-threadpane-cell-sender =
-    .aria-label = 差出人
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -272,8 +257,6 @@ threadpane-column-header-recipient = 受信者
     .title = 受信者で並べ替えます
 threadpane-column-label-recipient =
     .label = 受信者
-threadpane-cell-recipient =
-    .aria-label = 受信者
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -283,8 +266,6 @@ threadpane-column-header-correspondents = 通信相手
     .title = 通信相手で並べ替えます
 threadpane-column-label-correspondents =
     .label = 通信相手
-threadpane-cell-correspondents =
-    .aria-label = 通信相手
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -294,8 +275,6 @@ threadpane-column-header-subject = 件名
     .title = 件名で並べ替えます
 threadpane-column-label-subject =
     .label = 件名
-threadpane-cell-subject =
-    .aria-label = 件名
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -305,8 +284,6 @@ threadpane-column-header-date = 送信日時
     .title = 送信日時で並べ替えます
 threadpane-column-label-date =
     .label = 送信日時
-threadpane-cell-date =
-    .aria-label = 送信日時
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -316,8 +293,6 @@ threadpane-column-header-received = 受信日時
     .title = 受信日時で並べ替えます
 threadpane-column-label-received =
     .label = 受信日時
-threadpane-cell-received =
-    .aria-label = 受信日時
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -327,8 +302,6 @@ threadpane-column-header-status = 状態
     .title = 状態で並べ替えます
 threadpane-column-label-status =
     .label = 状態
-threadpane-cell-status =
-    .aria-label = 状態
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -338,8 +311,6 @@ threadpane-column-header-size = サイズ
     .title = メッセージサイズで並べ替えます
 threadpane-column-label-size =
     .label = サイズ
-threadpane-cell-size =
-    .aria-label = メッセージサイズ
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -349,8 +320,6 @@ threadpane-column-header-tags = タグ
     .title = タグで並べ替えます
 threadpane-column-label-tags =
     .label = タグ
-threadpane-cell-tags =
-    .aria-label = タグ
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -360,8 +329,6 @@ threadpane-column-header-account = アカウント
     .title = アカウント名で並べ替えます
 threadpane-column-label-account =
     .label = アカウント
-threadpane-cell-account =
-    .aria-label = アカウント名
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -371,8 +338,6 @@ threadpane-column-header-priority = 重要度
     .title = 重要度で並べ替えます
 threadpane-column-label-priority =
     .label = 重要度
-threadpane-cell-priority =
-    .aria-label = 重要度
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -382,8 +347,6 @@ threadpane-column-header-unread = 未読
     .title = スレッドの未読メッセージ数
 threadpane-column-label-unread =
     .label = 未読
-threadpane-cell-unread =
-    .aria-label = 未読メッセージ数
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -393,8 +356,6 @@ threadpane-column-header-total = 合計
     .title = スレッドの合計メッセージ数
 threadpane-column-label-total =
     .label = 合計
-threadpane-cell-total =
-    .aria-label = 合計メッセージ数
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -404,8 +365,6 @@ threadpane-column-header-location = フォルダー
     .title = フォルダー名で並べ替えます
 threadpane-column-label-location =
     .label = フォルダー
-threadpane-cell-location =
-    .aria-label = フォルダー名
 # Variables:
 # $title (String) - Message location for tooltip.
 threadpane-cell-location-title =
@@ -415,8 +374,6 @@ threadpane-column-header-id = 受信順
     .title = 受信順に並べ替えます
 threadpane-column-label-id =
     .label = 受信順
-threadpane-cell-id =
-    .aria-label = 受信順
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =

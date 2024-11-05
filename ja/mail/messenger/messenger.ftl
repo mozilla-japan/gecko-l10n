@@ -208,6 +208,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = 迷惑マークを付ける
     .tooltiptext = 迷惑マークを付けます
+context-menu-mark-not-junk =
+    .aria-label = 迷惑マークを外す
+    .tooltiptext = 迷惑マークを外します
 mail-context-menu-open =
     .label = 開く
     .accesskey = O
@@ -243,22 +246,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = メッセージをキャンセル
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] メッセージを削除
-           *[other] 選択したメッセージを削除
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] 削除メッセージを@@Undo@@
-           *[other] 選択した削除メッセージを@@Undo@@
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
