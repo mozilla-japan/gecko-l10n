@@ -68,7 +68,7 @@
 <!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label			"サイズ">
 <!ENTITY pixels.label			"px">
-<!ENTITY backgroundColor.label		"背景色:">
+<!ENTITY backgroundColor.label		"背景@@Color@@:">
 <!ENTITY backgroundColor.accessKey	"B">
 <!ENTITY AlignLeft.label		"左">
 <!ENTITY AlignCenter.label		"中央">

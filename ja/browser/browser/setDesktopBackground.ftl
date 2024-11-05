@@ -15,7 +15,7 @@ set-background-preview-unavailable = プレビューは利用できません
 # Desktop Background settings page.
 set-background-span =
     .label = スパン
-set-background-color = 背景色:
+set-background-color = 背景@@Color@@:
 set-background-position = 位置:
 set-background-tile =
     .label = 並べて表示

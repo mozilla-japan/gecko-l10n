@@ -746,7 +746,7 @@ preview-label = プレビュー:
 no-preview-label = プレビューできません
 no-preview-description = このテーマは正しくないか現在利用できません (理由: 無効化されたアドオン、セーフモードなど)。
 chat-variant-label =
-    .value = 色調:
+    .value = @@Colors@@:
     .accesskey = V
 # This is used to determine the width of the search field in about:preferences,
 # in order to make the entire placeholder string visible

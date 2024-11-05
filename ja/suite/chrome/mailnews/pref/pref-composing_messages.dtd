@@ -31,7 +31,7 @@
 <!ENTITY size.accesskey                       "S">
 <!ENTITY fontColor.label                      "テキスト:">
 <!ENTITY fontColor.accesskey                  "T">
-<!ENTITY bgColor.label                        "背景色:">
+<!ENTITY bgColor.label                        "背景@@Color@@:">
 <!ENTITY bgColor.accesskey                    "B">
 <!ENTITY defaultCompose.label                 "@@Default@@の作成書式:">
 <!ENTITY defaultBodyText.label                "本文テキスト (エンターキーで改行)">

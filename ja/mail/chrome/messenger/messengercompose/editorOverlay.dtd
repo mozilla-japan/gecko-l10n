@@ -119,9 +119,9 @@
 <!ENTITY styleVar.label "変数">
 <!ENTITY styleVar.accesskey "V">
 
-<!ENTITY formatFontColor.label "文字列の色...">
+<!ENTITY formatFontColor.label "文字列の@@Color@@...">
 <!ENTITY formatFontColor.accesskey "C">
-<!ENTITY tableOrCellColor.label "表またはセルの背景色...">
+<!ENTITY tableOrCellColor.label "表またはセルの背景@@Color@@...">
 <!ENTITY tableOrCellColor.accesskey "B">
 
 <!ENTITY formatRemoveStyles.key "Y">

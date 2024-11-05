@@ -6,7 +6,7 @@
 <!ENTITY lastPickedColor.label		"最後に選んだ@@Color@@">
 <!ENTITY lastPickedColor.accessKey	"L">
 <!ENTITY chooseColor1.label		"@@Color@@を選択してください:">
-<!ENTITY chooseColor2.label		"HTML カラー文字列">
+<!ENTITY chooseColor2.label		"HTML カラーコード">
 <!ENTITY chooseColor2.accessKey		"H">
 <!ENTITY setColorExample.label		"(例: &quot;#0000ff&quot; または &quot;blue&quot;):">
 <!ENTITY default.label			"@@Default@@">
