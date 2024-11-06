@@ -76,3 +76,4 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 tbsrc | mail, calendar, chat     4fa32e5e (2024-10-25)  kazushi      sync mail, calendar, chat
 fxsrc | toolkit, dom, security   def023e9 (2024-10-30)  mar          sync toolkit, dom, devtools, security
+fxsrc | browser                  def023e9 (2024-10-30)  kazushi      sybc browser
