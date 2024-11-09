@@ -4,7 +4,7 @@
 
 profile-window-title = { -brand-short-name } - ユーザープロファイルの選択
 profile-window-heading = { -brand-short-name } のプロファイルを選択してください
-profile-window-body = パスワードやブックマークなどを仕事用と個人的なブラウジングで分割しましょう。または、この端末を使用するすべての人のためのプロファイルを作成しておきましょう。
+profile-window-body = パスワードやブックマークなどのブラウジングデータを、仕事用と個人用で別のプロファイルに分けましょう。または、この端末を使用するすべての人のためのプロファイルを作成しておきましょう。
 # This checkbox appears in the choose profile window that appears when the browser is opened. "Show this" refers to choose profile window being shown when the checkbox is enabled.
 profile-window-checkbox-label =
     .label = この@@Window@@を { -brand-short-name } を開いたときに表示する
@@ -21,14 +21,14 @@ edit-profile-page-avatar-header = アバター
 edit-profile-page-delete-button =
     .label = 削除
 edit-profile-page-no-name = 後で見つけやすいように、プロファイルに名前を付けてください。名前はいつでも変更できます。
-edit-profile-page-duplicate-name = 使用中のプロファイル名です。新しい名前でお試しください。
+edit-profile-page-duplicate-name = このプロファイル名はすでに使用されています。別の名前を試してください。
 edit-profile-page-profile-saved = 保存しました
 new-profile-page-title = @@New-CMD@@プロファイル
 new-profile-page-header = プロファイルをカスタマイズ
 new-profile-page-header-description = それぞれのプロファイルに、他のプロファイルとは独立した閲覧履歴や設定が保持されます。また、{ -brand-short-name } の強力なプライバシー保護が@@Default@@で有効です。
 new-profile-page-learn-more = 詳細情報
 new-profile-page-input-placeholder =
-    .placeholder = 「仕事用」「個人用」のような名前を設定してください
+    .placeholder = @@[@@仕事用@@]@@@@[@@個人用@@]@@のような名前を設定してください
 new-profile-page-done-button =
     .label = 編集を完了
 
@@ -40,7 +40,7 @@ delete-profile-page-title = プロファイル { $profilename } を削除
 # Variables
 #   $profilename (String) - The name of the profile.
 delete-profile-header = プロファイル { $profilename } を削除しますか？
-delete-profile-description = { -brand-short-name } は以下のデータをこの端末から永久に削除します:
+delete-profile-description = { -brand-short-name } は以下のデータをこの端末から完全に削除します:
 # Opened browser windows saved to a profile. This is followed by a column with the number of open windows associated to the profile.
 delete-profile-windows = @@Window@@を開く
 # Opened browser tabs saved to a profile. This is followed by a column with the number of open tabs associated to the profile.

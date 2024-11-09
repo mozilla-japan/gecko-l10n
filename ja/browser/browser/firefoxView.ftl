@@ -229,7 +229,7 @@ firefoxview-choose-browser-button = ブラウザーを選ぶ
 firefoxview-dont-remember-history-empty-header = データがありません
 firefoxview-dont-remember-history-empty-description = 私たちの活動の中心はユーザーのプライバシーを保護することです。あなたはいつでも { -brand-short-name } に記憶させる履歴をコントロールできます。
 firefoxview-dont-remember-history-empty-description-two = 現在の設定に基づいて { -brand-short-name } は閲覧履歴を記憶しません。記憶させるには、<a data-l10n-name="history-settings-url-two">履歴の設定を変更してください</a>。
-firefoxview-dont-remember-history-empty-header-2 = { -brand-short-name } が記憶するものはユーザーに管理しています
+firefoxview-dont-remember-history-empty-header-2 = { -brand-short-name } に記憶させる履歴は、あなたがコントロールできます。
 firefoxview-dont-remember-history-empty-description-one = 現在、{ -brand-short-name } は閲覧履歴を記憶しません。記憶させるには、<a data-l10n-name="history-settings-url-two">履歴の設定を変更してください</a>。
 
 ##

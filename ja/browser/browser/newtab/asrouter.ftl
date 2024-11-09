@@ -293,7 +293,7 @@ root-certificate-succession-infobar-secondary-button =
 
 fxa-menu-message-close-button =
     .title = 閉じる
-    .aria-label = 閉じるボタン
+    .aria-label = 閉じる
 fxa-menu-message-sign-up-button = ログイン
 fxa-menu-message-sync-devices-primary-text = すべての端末を同期しましょう
 fxa-menu-message-sync-devices-secondary-text = { -brand-short-name } を使用しているどこからでもあなたの情報 — ブックマークやパスワードなど — へ即座にアクセスできます。
@@ -304,6 +304,6 @@ fxa-menu-message-backup-data-collapsed-text = ブラウジングデータをバ�
 fxa-menu-message-backup-sync-primary-text = データを安全に同期しましょう
 fxa-menu-message-backup-sync-secondary-text = ほとんどのデータのバックアップを同期して、{ -brand-short-name } を使用しているどこからでもアクセスできるようにしませんか？
 fxa-menu-message-backup-sync-collapsed-text = データの同期とバックアップをしましょう
-fxa-menu-message-mobile-primary-text = 携帯端末にタブを送信しましょう
-fxa-menu-message-mobile-secondary-text = 携帯端末にタブを同期すれば、中断したところからすぐに再開できます。
+fxa-menu-message-mobile-primary-text = タブを携帯端末に送信しましょう
+fxa-menu-message-mobile-secondary-text = タブを携帯端末と同期すれば、中断したところからすぐに再開できます。
 fxa-menu-message-mobile-collapsed-text = 携帯端末と同期しましょう
