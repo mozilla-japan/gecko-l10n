@@ -137,7 +137,7 @@ windows-launch-on-login =
     .label = コンピューターの起動時に { -brand-short-name } を自動的に開く
     .accesskey = O
 windows-launch-on-login-disabled = この設定は Windows で無効化されています。変更するには、システム設定の <a data-l10n-name="startup-link">スタートアップ アプリ</a> から設定してください。
-windows-launch-on-login-profile-disabled = この設定を有効にするには、@@[@@ユーザープロファイルの選択@@]@@@@Window@@で@@[@@{ profile-manager-use-selected.label }@@]@@にチェックを入れてください。
+windows-launch-on-login-profile-disabled = この設定を有効にするには、@@[@@ユーザープロファイルの選択@@]@@ @@Window@@で @@[@@{ profile-manager-use-selected.label }@@]@@ にチェックを入れてください。
 startup-restore-warn-on-quit =
     .label = ブラウザーを終了するときは確認する
 disable-extension =

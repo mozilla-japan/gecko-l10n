@@ -28,7 +28,7 @@ new-profile-page-header = プロファイルをカスタマイズ
 new-profile-page-header-description = それぞれのプロファイルに、他のプロファイルとは独立した閲覧履歴や設定が保持されます。また、{ -brand-short-name } の強力なプライバシー保護が@@Default@@で有効です。
 new-profile-page-learn-more = 詳細情報
 new-profile-page-input-placeholder =
-    .placeholder = @@[@@仕事用@@]@@@@[@@個人用@@]@@のような名前を設定してください
+    .placeholder = @@[@@仕事用@@]@@ @@[@@個人用@@]@@ のような名前を設定してください
 new-profile-page-done-button =
     .label = 編集を完了
 
