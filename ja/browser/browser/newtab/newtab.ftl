@@ -111,6 +111,7 @@ newtab-menu-save-to-pocket = { -pocket-brand-name } に保存
 newtab-menu-delete-pocket = { -pocket-brand-name } から削除
 newtab-menu-archive-pocket = { -pocket-brand-name } にアーカイブ
 newtab-menu-show-privacy-info = 私たちのスポンサーとあなたのプライバシー
+newtab-menu-about-fakespot = { -fakespot-brand-name } について
 
 ## Message displayed in a modal window to explain privacy and provide context for sponsored content.
 
@@ -307,6 +308,8 @@ newtab-wallpaper-dark-panda = 森に隠れるレッサーパンダ
 newtab-wallpaper-dark-sky = 夜空と街の景色
 newtab-wallpaper-dark-mountain = 山の景色
 newtab-wallpaper-dark-city = 紫色の街の景色
+newtab-wallpaper-dark-fox-anniversary = 森林の道路に座るキツネ
+newtab-wallpaper-light-fox-anniversary = 霧がかかった山を背景に草原にたたずむキツネ
 
 ## Solid Colors
 

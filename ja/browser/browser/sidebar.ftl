@@ -6,6 +6,8 @@ menu-view-genai-chat =
     .label = AI チャットボット
 menu-view-review-checker =
     .label = レビューチェッカー
+sidebar-options-menu-button =
+    .title = メニューを開く
 
 ## Labels for sidebar history panel
 
@@ -60,12 +62,6 @@ sidebar-visibility-setting-always-show =
     .label = サイドバーの開閉
 sidebar-visibility-setting-hide-sidebar =
     .label = サイドバーの表示
-sidebar-customize-settings-header =
-    .label = サイドバー設定
-sidebar-visibility-always-show =
-    .label = 常に表示
-sidebar-visibility-hide-sidebar =
-    .label = サイドバーを隠す
 
 ## Labels for sidebar context menu items
 
