@@ -430,6 +430,11 @@ dark-reader-checkbox-label =
     .label = ダークテーマに合わせる
     .accesskey = d
 dark-reader-checkbox-description = メッセージペインにダークテーマを適用する実験的な機能です。
+account-hub-legend = アカウントハブ
+account-hub-checkbox-label =
+    .label = 新しいアカウントハブでアカウントを作成する
+    .accesskey = C
+account-hub-checkbox-description = 実験的な@@New-CMD@@アカウントの作成フローです
 
 ## Compose Tab
 
