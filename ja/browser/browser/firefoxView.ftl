@@ -32,12 +32,17 @@ firefoxview-tabpickup-progress-label = { $percentValue }% 完了
 firefoxview-tabpickup-step-signin-header = 端末間をシームレスに切り替える
 firefoxview-tabpickup-step-signin-description = 携帯端末のタブをここで取り出すには、まずはログインするかアカウントを作成しましょう。
 firefoxview-tabpickup-step-signin-primarybutton = 続行
+firefoxview-syncedtabs-signin-header-2 = すべての端末の { -brand-product-name }
+firefoxview-syncedtabs-signin-description-2 = ログインまたはアカウント登録すると、携帯端末や別の端末で開いたタブを表示できます。アカウントを使用することで、パスワードや履歴なども同期できます。
+firefoxview-syncedtabs-signin-primarybutton-2 = ログイン
 firefoxview-syncedtabs-signin-header = どこからでもタブを取り出す
 firefoxview-syncedtabs-signin-description = どの端末の { -brand-product-name } から開いたタブでもアカウントにログインするだけで表示できます。まだアカウントをお持ちでない場合は、アカウント登録の手順をご案内します。
 firefoxview-syncedtabs-signin-primarybutton = ログインまたはアカウント登録
 firefoxview-tabpickup-adddevice-header = スマートフォンやタブレットの { -brand-product-name } と同期
 firefoxview-tabpickup-adddevice-description = モバイル版 { -brand-product-name } をダウンロードして、ログインしてください。
 firefoxview-tabpickup-adddevice-learn-how = 詳細
+firefoxview-syncedtabs-adddevice-header-2 = どこからでもタブを取り出す
+firefoxview-syncedtabs-adddevice-description-2 = 携帯端末や他のコンピューターの { -brand-product-name } にログインすると、ここでタブを表示できます。<a data-l10n-name="url">追加の端末を接続する方法</a> を確認してください。
 firefoxview-syncedtabs-adddevice-header = 別の端末で { -brand-product-name } にログインする
 firefoxview-syncedtabs-adddevice-description = どの端末からでも { -brand-product-name } で開いたタブを表示できるようにするには、すべての端末でログインしましょう。<a data-l10n-name="url">追加の端末を接続する方法</a> について学んでください。
 firefoxview-syncedtabs-adddevice-primarybutton = モバイル版 { -brand-product-name } を試す
@@ -224,6 +229,8 @@ firefoxview-choose-browser-button = ブラウザーを選ぶ
 firefoxview-dont-remember-history-empty-header = データがありません
 firefoxview-dont-remember-history-empty-description = 私たちの活動の中心はユーザーのプライバシーを保護することです。あなたはいつでも { -brand-short-name } に記憶させる履歴をコントロールできます。
 firefoxview-dont-remember-history-empty-description-two = 現在の設定に基づいて { -brand-short-name } は閲覧履歴を記憶しません。記憶させるには、<a data-l10n-name="history-settings-url-two">履歴の設定を変更してください</a>。
+firefoxview-dont-remember-history-empty-header-2 = { -brand-short-name } に記憶させる履歴は、あなたがコントロールできます。
+firefoxview-dont-remember-history-empty-description-one = 現在、{ -brand-short-name } は閲覧履歴を記憶しません。記憶させるには、<a data-l10n-name="history-settings-url-two">履歴の設定を変更してください</a>。
 
 ##
 

@@ -180,6 +180,3 @@ tab-group-editor-name-field =
 tab-group-editor-cancel =
     .label = キャンセル
     .accesskey = C
-tab-group-editor-create =
-    .label = 作成
-    .accesskey = r

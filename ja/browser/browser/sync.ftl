@@ -31,3 +31,11 @@ fxa-menu-sign-out =
     .label = ログアウト...
 fxa-menu-sync-title = 同期
 fxa-menu-sync-description = どこからでもウェブへアクセス
+sync-setup-verify-continue = 続行
+sync-setup-verify-title = データを統合
+sync-setup-verify-heading = 本当に Sync にログインしますか？
+# The user was previously signed into sync. This dialog confirms to the user
+# that they will be merging the data from the previously signed in into the newly signed in one
+# Variables:
+#   $email - Email address of a user previously signed into sync.
+sync-setup-verify-description = 以前にこのコンピューターで別のユーザーが Sync にログインしていました。ログインすると、このブラウザーのブックマークとパスワード、設定などが { $email } に統合されます。

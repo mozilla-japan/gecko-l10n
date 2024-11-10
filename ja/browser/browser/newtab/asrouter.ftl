@@ -237,6 +237,9 @@ device-migration-fxa-spotlight-older-device-primary-button = アカウントを�
 device-migration-fxa-spotlight-getting-new-device-header-2 = 新しい端末に換えようとしていますか？
 device-migration-fxa-spotlight-getting-new-device-body-2 = いくつかの簡単なステップに従って、ブックマークや履歴、パスワードを新しい端末ですぐに使えるようにしましょう。
 device-migration-fxa-spotlight-getting-new-device-primary-button = データをバックアップする手順
+device-migration-fxa-spotlight-sync-header = シームレスにブラウジング
+device-migration-fxa-spotlight-sync-body = 重要なもの (ブックマークやパスワードなど) は暗号化して同期しましょう。{ -brand-product-name } を使っている場所ならどこからでも、すべてにアクセスできます。
+device-migration-fxa-spotlight-sync-primary-button = 開始
 
 ## Set as Default PDF Reader Infobar
 
@@ -285,3 +288,22 @@ root-certificate-succession-infobar-primary-button =
 root-certificate-succession-infobar-secondary-button =
     .label = 後で
     .accesskey = L
+
+## FxA Menu Message variants
+
+fxa-menu-message-close-button =
+    .title = 閉じる
+    .aria-label = 閉じる
+fxa-menu-message-sign-up-button = ログイン
+fxa-menu-message-sync-devices-primary-text = すべての端末を同期しましょう
+fxa-menu-message-sync-devices-secondary-text = { -brand-short-name } を使用しているどこからでもあなたの情報 — ブックマークやパスワードなど — へ即座にアクセスできます。
+fxa-menu-message-sync-devices-collapsed-text = すべての端末を同期しましょう
+fxa-menu-message-backup-data-primary-text = ブラウジングデータをバックアップしましょう
+fxa-menu-message-backup-data-secondary-text = すべての端末にあるブックマークやパスワードなどの情報を、自動的に保護します。
+fxa-menu-message-backup-data-collapsed-text = ブラウジングデータをバックアップしましょう
+fxa-menu-message-backup-sync-primary-text = データを安全に同期しましょう
+fxa-menu-message-backup-sync-secondary-text = ほとんどのデータのバックアップを同期して、{ -brand-short-name } を使用しているどこからでもアクセスできるようにしませんか？
+fxa-menu-message-backup-sync-collapsed-text = データの同期とバックアップをしましょう
+fxa-menu-message-mobile-primary-text = タブを携帯端末に送信しましょう
+fxa-menu-message-mobile-secondary-text = タブを携帯端末と同期すれば、中断したところからすぐに再開できます。
+fxa-menu-message-mobile-collapsed-text = 携帯端末と同期しましょう
