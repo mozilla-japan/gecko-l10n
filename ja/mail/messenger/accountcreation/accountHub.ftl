@@ -111,3 +111,7 @@ account-hub-result-ews-description = Microsoft Exchange Web サービスを使�
 account-hub-result-ews-text = サーバー
 account-hub-result-recommended-label = 推奨
 account-hub-edit-configuration = 設定を編集
+account-hub-config-success = アカウント設定が Mozilla ISPDB から見つかりました
+account-hub-password-info = あなたの認証情報はローカルのあなたのコンピュータにのみ保存されます
+account-hub-sync-success = Thunderbird が接続されたサービスを見つけました
+account-hub-email-added-success = メールアカウントの接続が完了しました
