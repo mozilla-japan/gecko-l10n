@@ -254,6 +254,15 @@ menu-bookmarks-other =
 menu-bookmarks-mobile =
     .label = モバイルのブックマーク
 
+## Profiles Menu
+
+menu-profiles =
+    .label = プロファイル
+menu-profiles-manage-profiles =
+    .label = プロファイルの管理
+menu-profiles-new-profile =
+    .label = @@New-CMD@@プロファイル
+
 ## Tools Menu
 
 menu-tools =

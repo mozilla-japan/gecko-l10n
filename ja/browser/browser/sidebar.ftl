@@ -104,6 +104,27 @@ sidebar-menu-customize-label =
 sidebar-menu-review-checker-label =
     .label = レビューチェッカー
 
+## Tooltips for sidebar menu items.
+
+# The tooltip to show over the history icon, when history is not currently showing.
+# Variables:
+#   $shortcut (String) - The OS specific keyboard shortcut.
+sidebar-menu-open-history-tooltip = 履歴を開きます ({ $shortcut })
+# The tooltip to show over the history icon, when history is currently showing.
+# Variables:
+#   $shortcut (String) - The OS specific keyboard shortcut.
+sidebar-menu-close-history-tooltip = 履歴を閉じます ({ $shortcut })
+# The tooltip to show over the bookmarks icon, when bookmarks is not currently showing.
+# Variables:
+#   $shortcut (String) - The OS specific keyboard shortcut.
+sidebar-menu-open-bookmarks-tooltip = ブックマークを開きます ({ $shortcut })
+# The tooltip to show over the bookmarks icon, when bookmarks is currently showing.
+# Variables:
+#   $shortcut (String) - The OS specific keyboard shortcut.
+sidebar-menu-close-bookmarks-tooltip = ブックマークを閉じます ({ $shortcut })
+sidebar-menu-open-ai-chatbot-tooltip = AI チャットボットを開きます
+sidebar-menu-close-ai-chatbot-tooltip = AI チャットボットを閉じます
+
 ## Headings for sidebar menu panels.
 
 sidebar-menu-customize-header =

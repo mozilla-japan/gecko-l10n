@@ -170,6 +170,9 @@ firefoxview-search-text-box-history =
 firefoxview-search-text-box-recentlyclosed =
     .placeholder = 最近閉じたタブを検索
 # Placeholder for the input field to search in tabs from other devices ("search" is a verb).
+firefoxview-search-text-box-tabs =
+    .placeholder = タブを検索
+# Placeholder for the input field to search in tabs from other devices ("search" is a verb).
 firefoxview-search-text-box-syncedtabs =
     .placeholder = 同期したタブを検索
 # Placeholder for the input field to search in open tabs ("search" is a verb).

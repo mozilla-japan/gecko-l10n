@@ -79,4 +79,5 @@ fxsrc | toolkit, dom, security   def023e9 (2024-10-30)  mar          sync toolki
 fxsrc | browser                  def023e9 (2024-10-30)  kazushi      sybc browser
 tbsrc | mail                     ef1696b7 (2024-11-04)  kazushi      sync mail
 tbsrc | mail                     9a59c6bc (2024-11-08)  mar          sync mail
+fxsrc | browser, toolkit         eb131f4d (2024-11-13)  kazushi      sync browser, toolkit
 
