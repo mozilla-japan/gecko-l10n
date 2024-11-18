@@ -259,7 +259,7 @@ menu-bookmarks-mobile =
 menu-profiles =
     .label = プロファイル
 menu-profiles-manage-profiles =
-    .label = プロファイルの管理
+    .label = プロファイルを管理
 menu-profiles-new-profile =
     .label = @@New-CMD@@プロファイル
 

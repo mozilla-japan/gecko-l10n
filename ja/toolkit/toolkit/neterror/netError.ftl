@@ -42,7 +42,7 @@ neterror-load-error-try-again = このサイトが一時的に利用できなく
 neterror-load-error-connection = 他のサイトも表示できない場合、コンピューターのネットワーク接続を確認してください。
 neterror-load-error-firewall = ファイアウォールやプロキシーでネットワークが保護されている場合、{ -brand-short-name } によるウェブアクセスが許可されているか確認してください。
 # This warning is only shown on macOS Sequoia and later (see bug 1929377)
-neterror-load-osx-permission = ローカルネットワークのページを読み込もうとしている場合、macOS のプライバシーとセキュリティ設定で { -brand-short-name } にローカルネットワークの権限が許可されているか確認してください。
+neterror-load-osx-permission = ローカルネットワークのページを読み込もうとしている場合、macOS の @@[@@プライバシーとセキュリティ@@]@@ 設定で { -brand-short-name } にローカルネットワークの権限が許可されているか確認してください。
 neterror-captive-portal = インターネットへ接続するには、このネットワークにログインする必要があります。
 # Variables:
 # $hostAndPath (String) - a suggested site (e.g. "www.example.com") that the user may have meant instead.

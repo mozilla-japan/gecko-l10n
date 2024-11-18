@@ -341,10 +341,9 @@ onboarding-mobile-download-security-and-privacy-subtitle = 同期した端末で
 # Gratitude screen
 onboarding-gratitude-security-and-privacy-title = { -brand-short-name } はあなたの味方です
 onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation による { -brand-short-name } をご使用くださりありがとうございます。あなたのご支援によって、私たちはインターネットをすべての人々のために安全でアクセシブルなものにすることができます。
-
 # Sign up or Sign in screen
 onboarding-sign-up-title = 端末間でデータを同期する
-onboarding-sign-up-description = アカウント登録すると、すべての重要な情報 — パスワード、ブックマークなど — を安全に保管し、ログインしたどの端末でも利用できるようになります。
+onboarding-sign-up-description = アカウント登録すると、パスワードやブックマークなど、すべての重要な情報を安全に保管し、ログインしたどの端末でも利用できるようになります。
 onboarding-sign-up-button = 登録またはログイン
 onboarding-sign-up-secondary-button = ブラウジングを開始
 
