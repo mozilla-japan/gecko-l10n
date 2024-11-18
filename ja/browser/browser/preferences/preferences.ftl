@@ -772,6 +772,9 @@ sync-currently-syncing-creditcards = クレジットカード情報
 sync-currently-syncing-payment-methods = 支払い方法
 sync-currently-syncing-addons = アドオン
 sync-currently-syncing-settings = 個人設定
+sync-manage-options =
+    .label = 同期の管理...
+    .accesskey = M
 sync-change-options =
     .label = 変更...
     .accesskey = C
@@ -824,6 +827,13 @@ sync-engine-settings =
     .label = 個人設定
     .tooltiptext = 変更した一般設定、プライバシー設定、セキュリティ設定です
     .accesskey = s
+sync-choose-what-to-sync-dialog4 =
+    .title = 接続したすべての端末で同期するものを管理します
+    .style = min-width: 36em;
+    .buttonlabelaccept = 保存
+    .buttonaccesskeyaccept = S
+    .buttonlabelextra2 = 接続を解除...
+    .buttonaccesskeyextra2 = D
 
 ## The device name controls.
 

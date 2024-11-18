@@ -9,9 +9,22 @@ profile-window-body = パスワードやブックマークなどのブラウジ�
 profile-window-checkbox-label =
     .label = この@@Window@@を { -brand-short-name } を開いたときに表示する
 profile-window-create-profile = プロファイルを作成
+profile-card-edit-button =
+    .title = プロファイルを編集
+    .aria-label = プロファイルを編集
+profile-card-delete-button =
+    .title = プロファイルを削除
+    .aria-label = プロファイルを削除
+# Variables
+#   $profileName (string) - The name of the profile
+profile-card =
+    .title = { $profileName } を開く
+    .aria-label = { $profileName } を開く
 # Variables
 #   $number (number) - The number of the profile
 default-profile-name = プロファイル { $number }
+# The word 'original' is used in the sense that it is the initial or starting profile when you install Firefox.
+original-profile-name = 元のプロファイル
 edit-profile-page-title = プロファイルを編集
 edit-profile-page-header = プロファイルを編集
 edit-profile-page-profile-name-label = プロファイル名
@@ -57,3 +70,26 @@ delete-profile-logins = パスワード
 delete-profile-cancel = キャンセル
 # Button label
 delete-profile-confirm = 削除
+
+## These strings are color themes available to select from the profile selection screen. Theme names should be localized.
+
+# This light theme features sunny colors such as goldenrod and pale yellow. Its name evokes the color of a marigold flower. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
+profiles-marigold-theme = マリーゴールド
+# This light theme features various shades of soft, muted purples. Its name evokes the color of a lavender flower. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
+profiles-lavender-theme = ラベンダー
+# This light theme features very pale green tones. Its name evokes the color of pale green lichen from the forest. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
+profiles-lichen-theme = コケ
+# This light theme features various shades of pink ranging from pale to bold. Its name evokes the color of a pink magnolia flower. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
+profiles-magnolia-theme = モクレン
+# Ocean is a dark theme that features very dark blues and black. Its name evokes the color of the deep ocean water. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
+profiles-ocean-theme = オーシャンブルー
+# This dark theme features warm oranges, dark mahogany browns, and earthy red/brown colors. The name evokes the earthy colors of terracotta tile. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
+profiles-terracotta-theme = テラコッタ
+# This dark theme features forest green, dusky green with a gray undertone, and a muted sage green. Its name evokes the rich color of green moss in the forest. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
+profiles-moss-theme = モスグリーン
+# The default light theme
+profiles-light-theme = ライト
+# The default dark theme
+profiles-dark-theme = ダーク
+# The default system theme
+profiles-system-theme = システム

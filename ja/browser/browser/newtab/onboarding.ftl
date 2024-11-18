@@ -341,6 +341,11 @@ onboarding-mobile-download-security-and-privacy-subtitle = 同期した端末で
 # Gratitude screen
 onboarding-gratitude-security-and-privacy-title = { -brand-short-name } はあなたの味方です
 onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation による { -brand-short-name } をご使用くださりありがとうございます。あなたのご支援によって、私たちはインターネットをすべての人々のために安全でアクセシブルなものにすることができます。
+# Sign up or Sign in screen
+onboarding-sign-up-title = 端末間でデータを同期する
+onboarding-sign-up-description = アカウント登録すると、パスワードやブックマークなど、すべての重要な情報を安全に保管し、ログインしたどの端末でも利用できるようになります。
+onboarding-sign-up-button = 登録またはログイン
+onboarding-sign-up-secondary-button = ブラウジングを開始
 
 ## New user time and familiarity survey strings
 
@@ -400,3 +405,13 @@ onboarding-genai-sidebar-title = サイドバーで AI チャットボットを�
 onboarding-genai-sidebar-subtitle = AI によるウェブコンテンツの要約、アイデアのブレーンストーミング、メッセージの下書きなどをブラウジングしながら。複数の AI プロバイダーから選んでください。いつでも切り替えられます。<a data-l10n-name="learn-more">詳細情報</a>
 onboarding-genai-sidebar-primary-button = チャットボットを選ぶ
 onboarding-genai-sidebar-secondary-button = ブラウジングを始める
+
+## New user onboarding checklist
+
+onboarding-checklist-title = { -brand-short-name } のセットアップを完了してください
+onboarding-checklist-subtitle = これらのステップを完了して、ブラウジングを最大限快適にしましょう。
+onboarding-checklist-set-default = { -brand-short-name } を @@DefaultBrowser@@に設定する
+onboarding-checklist-pin = { -brand-short-name } をタスクバーにピン留めする
+onboarding-checklist-import = 以前のブラウザーから@@Import-suru@@
+onboarding-checklist-extension = 拡張機能を追加する
+onboarding-checklist-sign-up = アカウント登録またはログインする

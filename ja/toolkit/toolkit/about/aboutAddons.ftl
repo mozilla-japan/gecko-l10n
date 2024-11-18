@@ -297,6 +297,14 @@ find-more-themes = 他のテーマを検索
 # used for screen readers.
 addon-options-button =
     .aria-label = 他のオプション
+# Explanatory introduction to the list of recommended add-ons. The action word
+# ("recommends") in the final sentence is a link to external documentation.
+discopane-intro2 =
+    拡張機能やテーマを使用すると { -brand-product-name } をカスタマイズできます。
+    プライバシー保護を強化したり、生産性を向上させたり、メディアを見やすくしたり、
+    { -brand-product-name } の見た目を変更したり、その他さまざまな拡張機能やテーマがあります。
+    これらの小さなソフトウェアプログラムのほとんどは、サードパーティーによって開発されています。
+    セキュリティ、パフォーマンス、生産性を向上させる { -brand-product-name } の<a data-l10n-name="learn-more-trigger">おすすめ</a>はこちらです。
 
 ## Add-on actions
 
