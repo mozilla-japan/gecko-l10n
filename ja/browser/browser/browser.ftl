@@ -975,9 +975,6 @@ content-analysis-panel-title = データ保護
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
 content-analysis-panel-text-styled = データ損失から保護するため所属組織が <b>{ $agentName }</b> を利用しています。<a data-l10n-name="info">詳細情報</a>
-# Variables:
-#   $agentName (String): The name of the DLP agent that is connected
-content-analysis-panel-text = データ損失から保護するため所属組織が { $agentName } を利用しています。<a data-l10n-name="info">詳細情報</a>
 
 ## Unified extensions (toolbar) button
 
