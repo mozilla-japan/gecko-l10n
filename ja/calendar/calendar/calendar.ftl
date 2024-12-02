@@ -105,7 +105,7 @@ timezone-error = 不明で未定義なタイムゾーンが { $filePath } の読
 #    $count will be replaced with number of duplicate items
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
-    { $count ->
+    { NUMBER($count) ->
         [one] { $count } 個の項目が、対象のカレンダーと { $filePath } の両方に存在するため無視されました。
        *[other] { $count } 個の項目が、対象のカレンダーと { $filePath } の両方に存在するため無視されました。
     }
