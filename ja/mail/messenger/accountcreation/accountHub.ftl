@@ -115,3 +115,4 @@ account-hub-config-success = アカウント設定が Mozilla ISPDB から見つ
 account-hub-password-info = あなたの認証情報はローカルのあなたのコンピュータにのみ保存されます
 account-hub-sync-success = Thunderbird が接続されたサービスを見つけました
 account-hub-email-added-success = メールアカウントの接続が完了しました
+account-hub-config-test-success = 正しく設定されています

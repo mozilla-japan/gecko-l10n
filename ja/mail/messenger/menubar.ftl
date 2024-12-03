@@ -105,7 +105,7 @@ menu-view-repair-text-encoding =
 
 menu-view-folders-toggle-header =
     .label = フォルダーペインヘッダー
-    .accesskey = F
+    .accesskey = P
 
 ## View / Layout
 
