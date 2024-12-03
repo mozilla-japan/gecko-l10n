@@ -140,6 +140,5 @@ genai-onboarding-gemini-price = 利用無料、有料のオプション、アカ
 genai-onboarding-huggingchat-generate = テキストおよびコードの生成
 genai-onboarding-huggingchat-switch = 多様なオープンモデルのセットの切り替え
 genai-onboarding-huggingchat-price-2 = 利用無料、一定回数の利用後はアカウントが必要
-genai-onboarding-huggingchat-price = 利用無料、一部のタスクの実行はアカウントが必要
 genai-onboarding-lechat-generate = テキストおよびコードの生成
 genai-onboarding-lechat-price = 利用無料、アカウントが必要
