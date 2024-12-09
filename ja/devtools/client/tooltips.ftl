@@ -47,6 +47,7 @@ inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</s
 inactive-css-position-property-on-unpositioned-box = この要素は配置の指定がないため、<strong>{ $property }</strong> はこの要素に効果がありません。
 inactive-css-only-replaced-elements = <strong>{ $property }</strong> は置き換えられた要素にのみ適用されるため、この要素に効果がありません。
 inactive-text-overflow-when-no-overflow = <strong>overflow:hidden</strong> が設定されてないため、<strong>{ $property }</strong> はこの要素に効果がありません。
+inactive-css-no-size-containment = <strong>{ $property }</strong> はサイズが拘束されていないため、この要素に効果がありません。
 inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> はテーブルを構成する要素に効果がありません。
 inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> はセル以外のテーブルを構成する要素に効果がありません。
 inactive-css-not-table = この要素はテーブルではないため、<strong>{ $property }</strong> はこの要素に効果がありません。
@@ -58,8 +59,13 @@ inactive-css-resize = <strong>{ $property }</strong> は textarea など特定�
 inactive-css-ruby-element = この要素は ruby 要素のため、<strong>{ $property }</strong> は効果がありません。ルビテキストのフォントサイズから自動的に設定されます。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
-## an icon. When this icon is hovered this message is displayed to explain how
-## the problem can be solved.
+## an icon. When this icon is hovered this message is displayed to explain why
+## the property is not applied.
+## The variables are all passed from the same place, in `InactiveCssTooltipHelper#getTemplate`
+## (devtools/client/shared/widgets/tooltip/inactive-css-tooltip-helper.js#95)
+## Variables:
+##   $property (string) - A CSS property name e.g. "color".
+##   $display (string) - A CSS display value e.g. "inline-block".
 
 inactive-css-highlight-pseudo-elements-not-supported = highlight 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
 inactive-css-cue-pseudo-element-not-supported = ::cue 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
@@ -93,6 +99,7 @@ inactive-css-not-floated-fix = <strong>float</strong> プロパティを追加�
 inactive-css-position-property-on-unpositioned-box-fix = <strong>position</strong> プロパティに <strong>static</strong> 以外の値を設定してみてください。{ learn-more }
 inactive-css-only-replaced-elements-fix = このプロパティを置き換えられた要素に追加しているか確認してください。{ learn-more }
 inactive-text-overflow-when-no-overflow-fix = <strong>overflow:hidden</strong> を追加してみてください。 { learn-more }
+inactive-css-no-size-containment-fix = <strong>none</strong>、<strong>contents</strong>、<strong>table</strong> または <strong>inline-table</strong> 以外の要素に <strong>display</strong> を設定し、テーブルや ruby セグメント内ではないことを確認してください。{ learn-more }
 inactive-css-not-for-internal-table-elements-fix = <strong>セル</strong>、<strong>列</strong>、<strong>行</strong>、<strong>列グループ</strong>、<strong>行グループ</strong> または <strong>フッターグループ</strong> 以外の要素に <strong>display</strong> プロパティを設定してみてください。{ learn-more }
 inactive-css-not-for-internal-table-elements-except-table-cells-fix = <strong>列</strong>、<strong>行</strong>、<strong>列グループ</strong>、<strong>行グループ</strong> または <strong>フッターグループ</strong> 以外の要素に <strong>display</strong> プロパティを設定してみてください。{ learn-more }
 inactive-css-not-table-fix = <strong>display:table</strong> または <strong>display:inline-table</strong> を追加してみてください。{ learn-more }

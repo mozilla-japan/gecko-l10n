@@ -349,7 +349,6 @@ pdfjs-ink-canvas =
 
 ## Alt-text dialog
 
-# Alternative text (alt text) helps when people can't see the image.
 pdfjs-editor-alt-text-button-label = 代替テキスト
 pdfjs-editor-alt-text-edit-button =
     .aria-label = 代替テキストを編集
@@ -486,3 +485,23 @@ pdfjs-editor-alt-text-settings-editor-title = 代替テキストエディター
 pdfjs-editor-alt-text-settings-show-dialog-button-label = 画像の追加時に代替テキストエディターを表示する
 pdfjs-editor-alt-text-settings-show-dialog-description = すべての画像に代替テキストを追加する助けになります。
 pdfjs-editor-alt-text-settings-close-button = 閉じる
+
+## "Annotations removed" bar
+
+pdfjs-editor-undo-bar-message-highlight = 強調表示が削除されました
+pdfjs-editor-undo-bar-message-freetext = フリーテキスト注釈が削除されました
+pdfjs-editor-undo-bar-message-ink = インク注釈が削除されました
+pdfjs-editor-undo-bar-message-stamp = 画像が削除されました
+# Variables:
+#   $count (Number) - the number of removed annotations.
+pdfjs-editor-undo-bar-message-multiple =
+    { $count ->
+        [one] { $count } 個のアノテーションが削除されました
+       *[other] { $count } 個のアノテーションが削除されました
+    }
+pdfjs-editor-undo-bar-undo-button =
+    .title = @@Undo@@
+pdfjs-editor-undo-bar-undo-button-label = @@Undo@@
+pdfjs-editor-undo-bar-close-button =
+    .title = 閉じる
+pdfjs-editor-undo-bar-close-button-label = 閉じる

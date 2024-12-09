@@ -106,7 +106,7 @@ migration-passwords-from-file-tsv-filter-title = TSV ファイル
 # Variables:
 #  $newEntries (Number): the number of new successfully imported passwords
 migration-wizard-progress-success-new-passwords =
-    { NUMBER($newEntries) ->
+    { $newEntries ->
         [one] { $newEntries } 件追加しました
        *[other] { $newEntries } 件追加しました
     }
@@ -116,7 +116,7 @@ migration-wizard-progress-success-new-passwords =
 # Variables:
 #  $updatedEntries (Number): the number of updated passwords
 migration-wizard-progress-success-updated-passwords =
-    { NUMBER($updatedEntries) ->
+    { $updatedEntries ->
         [one] { $updatedEntries } 件更新しました
        *[other] { $updatedEntries } 件更新しました
     }

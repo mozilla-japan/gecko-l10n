@@ -39,7 +39,7 @@ about-webauthn-results-general-error = エラー
 # Variables:
 #  $retriesLeft (Number): number of tries left
 about-webauthn-results-pin-invalid-error =
-    { NUMBER($retriesLeft) ->
+    { $retriesLeft ->
         [0] エラー: PIN が正しくありません。もう一度試してください。
         [one] エラー: PIN が正しくありません。もう一度試してください。試行回数は残り 1 回です。
        *[other] エラー: PIN が正しくありません。もう一度試してください。試行回数は残り { $retriesLeft } 回です。
@@ -149,7 +149,7 @@ about-webauthn-auth-info-null = 未対応
 # Variables:
 #  $repeatCount (Number): number of tries left
 about-webauthn-samples-still-needed =
-    { NUMBER($repeatCount) ->
+    { $repeatCount ->
         [one] あと { $repeatCount } 個のサンプルが必要です。
        *[other] あと { $repeatCount } 個のサンプルが必要です。
     }

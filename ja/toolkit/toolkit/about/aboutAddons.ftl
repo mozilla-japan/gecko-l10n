@@ -251,7 +251,7 @@ shortcuts-exists = すでに { $addon } が使用しています
 # Variables:
 #   $numberToShow (number) - Number of other elements available to show
 shortcuts-card-expand-button =
-    { NUMBER($numberToShow) ->
+    { $numberToShow ->
        *[other] さらに { $numberToShow } 個表示
     }
 shortcuts-card-collapse-button = 折りたたむ

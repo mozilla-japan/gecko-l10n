@@ -33,3 +33,11 @@ searchbar-icon =
 removed-search-engine-message = <strong>@@Default-@@検索エンジンが変更されました。</strong>{ -brand-short-name } は { $oldEngine } への対応を終了しました。{ $newEngine } が新しい@@Default-@@検索エンジンになります。設定を開くと他の検索エンジンに変更できます。<label data-l10n-name="remove-search-engine-article">詳細</label>
 removed-search-engine-message2 = <strong>@@Default-@@検索エンジンが変更されました。</strong>{ -brand-short-name } は { $oldEngine } への対応を終了しました。{ $newEngine } が新しい@@Default-@@検索エンジンになります。設定を開くと他の検索エンジンに変更できます。
 remove-search-engine-button = OK
+
+## Infobar shown when user is prompted to install search engine.
+## Variables
+## $engineName (String) - the name of the search engine to install.
+
+install-search-engine = { $engineName } を検索エンジンとして追加しますか？
+install-search-engine-add = 追加する
+install-search-engine-no = しない
