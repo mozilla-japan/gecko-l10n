@@ -30,4 +30,6 @@ webext-perms-description-sessions = 最近閉じたタブへのアクセス
 webext-perms-description-tabs = ブラウザーのタブへのアクセス
 webext-perms-description-tabHide = ブラウザーのタブの表示状態の変更
 webext-perms-description-topSites = 閲覧履歴へのアクセス
+webext-perms-description-trialML = AI モデルの端末でのダウンロードと実行
+webext-perms-description-userScripts = 未検証のサードパーティースクリプトへのデータのアクセス許可
 webext-perms-description-webNavigation = ナビゲーション中のブラウザーアクティビティへのアクセス

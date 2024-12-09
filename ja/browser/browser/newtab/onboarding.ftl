@@ -208,7 +208,9 @@ mr2022-onboarding-set-default-subtitle = 非営利のブラウザーを使いま
 mr2022-onboarding-get-started-primary-subtitle = この最新版はユーザー中心で設計されており、これまで以上に簡単にウェブを巡ることができます。 きっと気に入っていただける新機能が満載です。
 mr2022-onboarding-get-started-primary-button-label = 今すぐ設定する
 
-## MR2022 Import Settings screen strings
+## MR2022 Get Started screen strings.
+## These strings will be used on the welcome page
+## when Firefox is already set to default and pinned.
 
 mr2022-onboarding-import-header = 高速セットアップ
 mr2022-onboarding-import-subtitle = { -brand-short-name } をあなたの好みの設定にしましょう。ブックマーク、パスワード、その他を以前の古いブラウザーから追加します。

@@ -49,14 +49,14 @@ login-list-count = { $count } 件のログイン情報
 #   $count (number) - Number of filtered logins
 #   $total (number) - Total number of logins
 login-list-filtered-count =
-    { NUMBER($total) ->
+    { $total ->
         [one] { $total } 件中 { $count } 件のログイン情報
        *[other] { $total } 件中 { $count } 件のログイン情報
     }
 # Variables
 #   $count (number) - Number of logins
 login-list-count2 =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } 件のパスワード
        *[other] { $count } 件のパスワード
     }
@@ -64,7 +64,7 @@ login-list-count2 =
 #   $count (number) - Number of filtered logins
 #   $total (number) - Total number of logins
 login-list-filtered-count2 =
-    { NUMBER($total) ->
+    { $total ->
         [one] { $total } 件中 { $count } 件のパスワード
        *[other] { $total } 件中 { $count } 件のパスワード
     }
@@ -227,58 +227,58 @@ about-logins-confirm-remove-dialog-confirm-button = 消去
 ##   $count (number) - Number of items
 
 about-logins-confirm-remove-all-dialog-confirm-button-label =
-    { NUMBER($count) ->
+    { $count ->
         [1] 消去
        *[other] すべて消去
     }
 about-logins-confirm-remove-all-dialog-checkbox-label =
-    { NUMBER($count) ->
+    { $count ->
         [1] はい、このログイン情報を消去します
        *[other] はい、これらのログイン情報を消去します
     }
 about-logins-confirm-remove-all-dialog-title =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } 件のログイン情報を消去しますか？
        *[other] { $count } 件のすべてのログイン情報を消去しますか？
     }
 about-logins-confirm-remove-all-dialog-message = { -brand-short-name } に保存したログイン情報と、ここ表示される情報漏洩の警告が消去されます。この操作は取り消すことができません。
 about-logins-confirm-remove-all-sync-dialog-title =
-    { NUMBER($count) ->
+    { $count ->
         [one] すべての端末から { $count } 件のログイン情報を消去しますか？
        *[other] すべての端末から { $count } 件のすべてのログイン情報を消去しますか？
     }
 about-logins-confirm-remove-all-sync-dialog-message=
-    { NUMBER($count) ->
+    { $count ->
         [1] { -fxaccount-brand-name } と同期した全端末の { -brand-short-name } に保存したログイン情報が消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
        *[other] { -fxaccount-brand-name } と同期した全端末の { -brand-short-name } に保存したすべてのログイン情報が消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
     }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
-    { NUMBER($count) ->
+    { $count ->
         [1] はい、このパスワードを消去します
        *[other] はい、これらのパスワードを消去します
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
 about-logins-confirm-remove-all-dialog-title2 =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } 件のパスワードを消去しますか？
        *[other] { $count } 件のすべてのパスワードを消去しますか？
     }
 # Message for modal to confirm the removal of saved passwords when user is NOT synced
 about-logins-confirm-remove-all-dialog-message2 =
-    { NUMBER($count) ->
+    { $count ->
         [1] { -brand-short-name } に保存されたパスワードを消去します。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
        *[other] { -brand-short-name } に保存されたすべてのパスワードを消去します。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
     }
 # Title for modal to confirm the removal of all saved passwords when user IS SYNCED
 about-logins-confirm-remove-all-sync-dialog-title2 =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } 件のパスワードを全端末から消去しますか？
        *[other] { $count } 件のすべてのパスワードを全端末から消去しますか？
     }
 # Message for modal to confirm the removal of saved passwords when user IS synced.
 about-logins-confirm-remove-all-sync-dialog-message3 =
-    { NUMBER($count) ->
+    { $count ->
         [1] アカウントと同期した全端末の { -brand-short-name } に保存されたパスワードを消去します。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
        *[other] アカウントと同期した全端末の { -brand-short-name } に保存されたすべてのパスワードを消去します。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
     }
@@ -364,31 +364,31 @@ about-logins-import-file-picker-tsv-filter-title = TSV ファイル
 
 about-logins-import-dialog-title = @@ImportNoun@@完了
 about-logins-import-dialog-items-added =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <span>@@New-CMD@@ログイン情報の追加:</span> <span data-l10n-name="count">{ $count }</span>
     }
 about-logins-import-dialog-items-modified =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <span>既存のログイン情報の更新:</span> <span data-l10n-name="count">{ $count }</span>
     }
 about-logins-import-dialog-items-no-change =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <span>重複したログイン情報:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(@@Import-sare@@ませんでした)</span>
     }
 about-logins-import-dialog-items-added2 =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <span>@@New-CMD@@パスワードの追加:</span> <span data-l10n-name="count">{ $count }</span>
     }
 about-logins-import-dialog-items-modified2 =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <span>既存のエントリーの更新:</span> <span data-l10n-name="count">{ $count }</span>
     }
 about-logins-import-dialog-items-no-change2 =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <span>重複したエントリー:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(not imported)</span>
     }
 about-logins-import-dialog-items-error =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <span>エラー:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(@@Import-sare@@ませんでした)</span>
     }
 about-logins-import-dialog-done = 完了
@@ -432,31 +432,31 @@ about-logins-import-report-row-description-error-missing-field = エラー: { $f
 ##  $count (number) - The number of affected elements
 
 about-logins-import-report-added =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">@@New-CMD@@ログイン情報を追加しました</div>
     }
 about-logins-import-report-modified =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">既存のログイン情報を更新しました</div>
     }
 about-logins-import-report-no-change =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">ログイン情報が重複</div> <div data-l10n-name="not-imported">(@@Import-sare@@ませんでした)</div>
     }
 about-logins-import-report-added2 =
-    { NUMBER($count) ->
+    { $count ->
         *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">@@New-CMD@@パスワードを追加しました</div>
     }
 about-logins-import-report-modified2 =
-    { NUMBER($count) ->
+    { $count ->
         *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">既存のエントリーを更新しました</div>
     }
 about-logins-import-report-no-change2 =
-    { NUMBER($count) ->
+    { $count ->
         *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">エントリーが重複</div> <div data-l10n-name="not-imported">(@@Import-sare@@ませんでした)</div>
     }
 about-logins-import-report-error =
-    { NUMBER($count) ->
+    { $count ->
        *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">エラー</div> <div data-l10n-name="not-imported">(@@Import-sare@@ませんでした)</div>
     }
 

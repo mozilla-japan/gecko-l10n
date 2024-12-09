@@ -321,7 +321,7 @@ bookmark-panel-cancel =
 #  $count (number): number of bookmarks that will be removed
 bookmark-panel-remove =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [1] ブックマークを削除
            *[other] { $count } 個のブックマークを削除
         }
@@ -432,17 +432,17 @@ browser-tab-audio-pip = ピクチャーインピクチャー
 ##  $count (number): number of affected tabs
 
 browser-tab-mute =
-    { NUMBER($count) ->
+    { $count ->
         [1] タブをミュート
        *[other] { $count } 個のタブをミュート
     }
 browser-tab-unmute =
-    { NUMBER($count) ->
+    { $count ->
         [1] タブのミュートを解除
        *[other] { $count } 個のタブのミュートを解除
     }
 browser-tab-unblock =
-    { NUMBER($count) ->
+    { $count ->
         [1] タブのメディアを再生
        *[other] { $count } 個のタブのメディアを再生
     }
@@ -1000,6 +1000,15 @@ unified-extensions-button-quarantined =
         拡張機能
         一部の拡張機能は許可されていません
 
+## Unified extensions button when some extensions are disabled (e.g. through add-ons blocklist).
+## Note that the new line is intentionally part of the tooltip.
+
+unified-extensions-button-blocklisted =
+    .label = 拡張機能
+    .tooltiptext =
+        拡張機能
+        一部の拡張機能が無効になっています
+
 ## Private browsing reset button
 
 reset-pbm-toolbar-button =
@@ -1050,7 +1059,7 @@ popup-notification-addon-privatebrowsing-checkbox =
 # Variables:
 #   $popupCount (Number): the number of pop-ups blocked.
 popup-warning-message =
-    { NUMBER($popupCount) ->
+    { $popupCount ->
         [1] { -brand-short-name } がこのサイトでポップアップ@@Window@@をブロックしました。
        *[other] { -brand-short-name } がこのサイトで { $popupCount } 個のポップアップ@@Window@@をブロックしました。
     }
@@ -1058,7 +1067,7 @@ popup-warning-message =
 # Variables:
 #   $popupCount (Number): the number of pop-ups blocked.
 popup-warning-exceeded-message = 
-    { NUMBER($popupCount) ->
+    { $popupCount ->
        *[other] { -brand-short-name } がこのサイトで { $popupCount } 個以上のポップアップ@@Window@@をブロックしました。
     }
 popup-warning-button =

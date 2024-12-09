@@ -23,7 +23,7 @@ recently-closed-panel-reopen-all-windows = @@Window@@をすべて開きなおす
 #   $tabCount (Number): Number of other tabs
 #   $winTitle (String): Window title
 recently-closed-undo-close-window-label =
-    { NUMBER($tabCount) ->
+    { $tabCount ->
         [0] { $winTitle }
        *[other] { $winTitle } (その他 { $tabCount } 個のタブ)
     }

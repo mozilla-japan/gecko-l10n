@@ -165,7 +165,7 @@ general-meta-tags =
 # Variables:
 #   $visits (number) - The number of previous visits
 security-visits-number =
-    { NUMBER($visits) ->
+    { $visits ->
         [0] いいえ
        *[other] はい、{ $visits } 回
     }

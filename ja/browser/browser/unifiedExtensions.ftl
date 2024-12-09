@@ -21,6 +21,9 @@ unified-extensions-manage-extensions =
 unified-extensions-item-open-menu =
     .aria-label = { $extensionName } のメニューを開く
 unified-extensions-item-message-manage = 拡張機能を管理
+# Variables:
+#   $extensionName (String) - Name of the user-enabled soft-blocked extension.
+unified-extensions-item-messagebar-softblocked = { $extensionName } は Mozilla のポリシーに違反しています。使用すると危険を伴う可能性があります。
 
 ## Extension's context menu
 
@@ -47,3 +50,34 @@ unified-extensions-mb-quarantined-domain-message-3 =
     .message = ユーザーのデータを保護するため、一部の拡張機能はこのサイトのデータの読み取りと変更ができません。{ -vendor-short-name } により制限されたサイトを許可するには、その拡張機能の設定から変更してください。
 unified-extensions-mb-quarantined-domain-learn-more = 詳細情報
     .aria-label = 詳細情報: 一部の拡張機能は許可されていません
+unified-extensions-mb-about-addons-link = 拡張機能の設定を開く
+# Variables:
+#   $extensionName (String) - Name of the extension disabled through a soft-block.
+unified-extensions-mb-blocklist-warning-single =
+    .heading = { $extensionName } は無効になっています
+    .message =
+        この拡張機能は Mozilla のポリシーに違反しているため無効になっています。
+        設定で有効にできますが、危険を伴う可能性があります。
+# Variables:
+#   $extensionName (String) - Name of the extension disabled through a hard-block.
+unified-extensions-mb-blocklist-error-single =
+    .heading = { $extensionName } は無効になっています
+    .message = この拡張機能は Mozilla のポリシーに違反しているため無効になっています。
+# Variables:
+#   $extensionsCount (Number) - Number of extensions disabled through both soft and hard-blocks (always going to be greater than 1)
+unified-extensions-mb-blocklist-warning-multiple =
+    .heading =
+        { $extensionsCount ->
+           *[other] { $extensionsCount } 個の拡張機能が無効になっています
+        }
+    .message =
+        複数の拡張機能が Mozilla のポリシーに違反しているため無効になっています。
+        設定で有効にできますが、危険を伴う可能性があります。
+# Variables:
+#   $extensionsCount (Number) - Number of extensions disabled through hard-blocks.
+unified-extensions-mb-blocklist-error-multiple =
+    .heading =
+        { $extensionsCount ->
+           *[other] { $extensionsCount } 個の拡張機能が無効になっています
+        }
+    .message = 複数の拡張機能が Mozilla のポリシーに違反しているため無効になっています。

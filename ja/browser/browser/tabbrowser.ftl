@@ -20,7 +20,7 @@ tabbrowser-container-tab-title = { $title } — { $containerName }
 #   $tabCount (Number): The number of tabs that will be closed.
 tabbrowser-close-tabs-button =
     .tooltiptext =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] タブを閉じます
            *[other] { $tabCount } 個のタブを閉じます
         }
@@ -28,7 +28,7 @@ tabbrowser-close-tabs-button =
 #   $tabCount (Number): The number of tabs that will be closed.
 tabbrowser-close-tabs-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] タブを閉じます
            *[other] { $tabCount } 個のタブを閉じます
         }
@@ -41,7 +41,7 @@ tabbrowser-close-tabs-tooltip =
 #   $shortcut (String): The keyboard shortcut for "Mute tab".
 tabbrowser-mute-tab-audio-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] タブをミュートします ({ $shortcut })
            *[other] { $tabCount } 個のタブをミュートします ({ $shortcut })
         }
@@ -49,25 +49,25 @@ tabbrowser-mute-tab-audio-tooltip =
 #   $shortcut (String): The keyboard shortcut for "Unmute tab".
 tabbrowser-unmute-tab-audio-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] タブのミュートを解除します ({ $shortcut })
            *[other] { $tabCount } 個のタブのミュートを解除します ({ $shortcut })
         }
 tabbrowser-mute-tab-audio-background-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] タブをミュートします
            *[other] { $tabCount } 個のタブをミュートします
         }
 tabbrowser-unmute-tab-audio-background-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] タブのミュートを解除します
            *[other] { $tabCount } 個のタブのミュートを解除します
         }
 tabbrowser-unblock-tab-audio-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] タブの音声を再生します
            *[other] { $tabCount } 個のタブの音声を再生します
         }
@@ -80,6 +80,7 @@ tabbrowser-unblock-tab-audio-tooltip =
 #   $tabCount (Number): The number of tabs that will be closed.
 tabbrowser-confirm-close-tabs-title = { $tabCount } 個のタブを閉じますか？
 tabbrowser-confirm-close-tabs-button = タブを閉じる
+tabbrowser-ask-close-tabs-checkbox = 同時にに複数のタブを閉じる前に確認する
 tabbrowser-confirm-close-tabs-checkbox = 同時に複数のタブを閉じる前に確認する
 
 ## Confirmation dialog when quitting using the menu and multiple windows are open.
@@ -102,7 +103,18 @@ tabbrowser-confirm-close-tabs-with-key-title = @@Window@@を閉じて { -brand-s
 tabbrowser-confirm-close-tabs-with-key-button = { -brand-short-name } を終了
 # Variables:
 #   $quitKey (String): the text of the keyboard shortcut for quitting.
+tabbrowser-ask-close-tabs-with-key-checkbox = { $quitKey } キーで終了する前に確認する
+# Variables:
+#   $quitKey (String): the text of the keyboard shortcut for quitting.
 tabbrowser-confirm-close-tabs-with-key-checkbox = { $quitKey } キーで終了する前に確認する
+
+tabbrowser-confirm-close-warn-shortcut-title = { -brand-short-name } を終了または現在のタブを閉じますか？
+tabbrowser-confirm-close-windows-warn-shortcut-button =
+    { PLATFORM() ->
+        [windows] { -brand-short-name } を終了
+       *[other] { -brand-short-name } を終了
+    }
+tabbrowser-confirm-close-tab-only-button = 現在のタブを閉じる
 
 ## Confirmation dialog when opening multiple tabs simultaneously
 
@@ -180,3 +192,47 @@ tab-group-editor-name-field =
 tab-group-editor-cancel =
     .label = キャンセル
     .accesskey = C
+tab-context-unnamed-group =
+    .label = @@New-CMD@@グループ
+
+## Variables:
+##  $tabCount (Number): the number of tabs that are affected by the action.
+
+tab-context-move-tab-to-new-group =
+    .label =
+        { $tabCount ->
+            [1] @@New-CMD@@グループにタブを追加
+           *[other] @@New-CMD@@グループにタブを追加
+        }
+    .accesskey = G
+tab-context-move-tab-to-group =
+    .label =
+        { $tabCount ->
+            [1] グループにタブを追加
+           *[other] グループにタブを追加
+        }
+    .accesskey = G
+tab-group-editor-action-new-tab =
+    .label = グルーブで@@NewTab@@を開く
+tab-group-editor-action-new-window =
+    .label = @@NewWindow@@にグループを移動
+tab-group-editor-action-save =
+    .label = グループを保存して閉じる
+tab-group-editor-action-ungroup =
+    .label = グループ化していないタブ
+tab-group-editor-action-delete =
+    .label = グループを削除
+tab-group-editor-done =
+    .label = 完了
+    .accessKey = D
+tab-context-reopen-tab-group =
+    .label = タブグループを開きなおす
+# Variables:
+#  $groupCount (Number): the number of tab groups that are affected by the action.
+tab-context-ungroup-tab =
+    .label =
+        { $groupCount ->
+            [1] グループから外す
+           *[other] グループから外す
+        }
+    .accesskey = R

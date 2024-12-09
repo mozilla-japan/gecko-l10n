@@ -83,7 +83,7 @@ cfr-whatsnew-release-notes-link-text = リリースノートをご確認くだ�
 #   $blockedCount (Number) - The total count of blocked trackers. This number will always be greater than 1.
 #   $date (Datetime) - The date we began recording the count of blocked trackers
 cfr-doorhanger-milestone-heading2 =
-    { NUMBER($blockedCount) ->
+    { $blockedCount ->
        *[other] { DATETIME($date, month: "long", year: "numeric") } 以降、{ -brand-short-name } は <b>{ $blockedCount } 個</b>以上のトラッカーをブロックしました！
     }
 cfr-doorhanger-milestone-ok-button = 確認
@@ -288,6 +288,13 @@ root-certificate-succession-infobar-primary-button =
 root-certificate-succession-infobar-secondary-button =
     .label = 後で
     .accesskey = L
+
+## Root Certificate Succession Windows Background Notification
+
+root-certificate-windows-background-notification-title = { -brand-short-name } の重要な更新が適用されていません
+root-certificate-windows-background-notification-subtitle = 更新しない場合、ブラウザーの一部がまもなく機能しなくなります。この機会に最新の保護と機能を手に入れませんか？
+root-certificate-windows-background-notification-learn-more-button = 詳細情報
+root-certificate-windows-background-notification-update-button = { -brand-short-name } を更新
 
 ## FxA Menu Message variants
 

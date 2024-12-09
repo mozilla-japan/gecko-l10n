@@ -379,6 +379,9 @@ newtab-weather-see-forecast =
 #   $provider (string) - Service provider for weather data
 newtab-weather-sponsored = 提供: { $provider }
 newtab-weather-menu-change-location = 予報地点を変更
+newtab-weather-change-location-search-input-placeholder =
+    .placeholder = 場所を検索
+    .aria-label = 場所を検索
 newtab-weather-change-location-search-input = 場所を検索
 newtab-weather-menu-weather-display = 天気表示
 # Display options are:

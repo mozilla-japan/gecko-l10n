@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 do-not-track-description = ウェブサイトに “Do Not Track” 信号を送り、追跡されたくないことを知らせます。
+do-not-track-removal = “Do Not Track” 信号のサポートを終了します
 do-not-track-description2 =
     .label = ウェブサイトに “Do Not Track” 要求を送る
     .accesskey = d
@@ -154,6 +155,17 @@ ctrl-tab-recently-used-order =
 open-new-link-as-tabs =
     .label = @@NewWindow@@ではなく@@NewTab@@に開く
     .accesskey = w
+ask-on-close-multiple-tabs =
+    .label = 同時に複数のタブを閉じる前に確認する
+    .accesskey = m
+# This string is used for the confirm before quitting preference.
+# Variables:
+#   $quitKey (string) - the quit keyboard shortcut, and formatted
+#                       in the same manner as it would appear,
+#                       for example, in the File menu.
+ask-on-quit-with-key =
+    .label = { $quitKey } キーで終了する前に確認する
+    .accesskey = b
 confirm-on-close-multiple-tabs =
     .label = 同時に複数のタブを閉じる前に確認する
     .accesskey = m
@@ -536,7 +548,7 @@ home-homepage-custom-url =
 # be identical.
 use-current-pages =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [1] 現在のページを使用
            *[other] 現在のタブグループを使用
         }
@@ -557,8 +569,7 @@ home-prefs-shortcuts-description = 保存または訪問したサイト
 home-prefs-shortcuts-by-option-sponsored =
     .label = 広告ショートカット
 
-## Variables:
-##  $provider (string) - Name of the corresponding content provider, e.g "Pocket".
+## Home Section - Firefox Home Content Customization
 
 home-prefs-recommended-by-header =
     .label = { $provider } のおすすめ
