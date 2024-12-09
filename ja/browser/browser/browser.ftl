@@ -135,7 +135,7 @@ urlbar-search-tips-redirect-2 = アドレスバーで検索を始めると、{ $
 urlbar-search-tips-persist = 検索がシンプルになりました。アドレスバーで具体的な語句を用いて検索してみてください。代わりに URL を表示するには、設定の検索パネルを開いてください。
 # Prompts users to use the Urlbar when they are typing in the domain of a
 # search engine, e.g. google.com or amazon.com.
-urlbar-tabtosearch-onboard = このショートカットを選択すると、より素早く検索できます。
+urlbar-tabtosearch-onboard = このショートカットを選択すると、必要なものを早く見つけられます。
 
 ## Local search mode indicator labels in the urlbar
 
@@ -452,7 +452,7 @@ browser-tab-unblock =
 browser-import-button2 =
     .label = ブックマークを@@Import-suru@@...
     .tooltiptext = ブックマークを他のブラウザーから { -brand-short-name } に@@Import-si@@ます。
-bookmarks-toolbar-empty-message = ブックマークをこのブックマークツールバーに配置すると、素早くアクセスできます。<a data-l10n-name="manage-bookmarks">ブックマークを管理...</a>
+bookmarks-toolbar-empty-message = ブックマークをこのブックマークツールバーに配置すると、すばやくアクセスできます。<a data-l10n-name="manage-bookmarks">ブックマークを管理...</a>
 
 ## WebRTC Pop-up notifications
 
@@ -675,7 +675,7 @@ urlbar-group-recent-searches =
 # Variables:
 #  $engine (String): the name of the search engine providing the trending suggestions
 urlbar-group-trending =
-  .label = { $engine } の検索トレンド
+    .label = { $engine } の検索トレンド
 # The result menu labels shown next to trending results.
 urlbar-result-menu-trending-dont-show =
     .label = 検索トレンドを表示しない

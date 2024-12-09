@@ -107,8 +107,7 @@ tabbrowser-ask-close-tabs-with-key-checkbox = { $quitKey } キーで終了する
 # Variables:
 #   $quitKey (String): the text of the keyboard shortcut for quitting.
 tabbrowser-confirm-close-tabs-with-key-checkbox = { $quitKey } キーで終了する前に確認する
-
-tabbrowser-confirm-close-warn-shortcut-title = { -brand-short-name } を終了または現在のタブを閉じますか？
+tabbrowser-confirm-close-warn-shortcut-title = { -brand-short-name } を終了しますか？ あるいは現在のタブを閉じますか？
 tabbrowser-confirm-close-windows-warn-shortcut-button =
     { PLATFORM() ->
         [windows] { -brand-short-name } を終了
@@ -201,25 +200,25 @@ tab-context-unnamed-group =
 tab-context-move-tab-to-new-group =
     .label =
         { $tabCount ->
-            [1] @@New-CMD@@グループにタブを追加
-           *[other] @@New-CMD@@グループにタブを追加
+            [1] このタブを@@New-CMD@@グループに追加
+           *[other] 選択したタブを@@New-CMD@@グループに追加
         }
     .accesskey = G
 tab-context-move-tab-to-group =
     .label =
         { $tabCount ->
-            [1] グループにタブを追加
-           *[other] グループにタブを追加
+            [1] このタブをグループに追加
+           *[other] 選択したタブをグループに追加
         }
     .accesskey = G
 tab-group-editor-action-new-tab =
-    .label = グルーブで@@NewTab@@を開く
+    .label = グルーブ内に@@NewTab@@を開く
 tab-group-editor-action-new-window =
-    .label = @@NewWindow@@にグループを移動
+    .label = グループを@@NewWindow@@へ移動
 tab-group-editor-action-save =
     .label = グループを保存して閉じる
 tab-group-editor-action-ungroup =
-    .label = グループ化していないタブ
+    .label = グループを解放
 tab-group-editor-action-delete =
     .label = グループを削除
 tab-group-editor-done =
@@ -232,7 +231,7 @@ tab-context-reopen-tab-group =
 tab-context-ungroup-tab =
     .label =
         { $groupCount ->
-            [1] グループから外す
-           *[other] グループから外す
+            [1] グループから除外
+           *[other] 各グループから除外
         }
     .accesskey = R

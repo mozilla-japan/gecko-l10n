@@ -12,7 +12,7 @@ callout-primary-complete-button-label = 完了
 # "Tab pickup" refers to the section in Firefox View that displays open
 # tabs from other devices
 callout-firefox-view-tab-pickup-title = タブをつかんで端末の壁を飛び越える
-callout-firefox-view-tab-pickup-subtitle = 開いているタブを携帯端末から素早く取得して、流れを途切れさせることなくここで開くことができます。
+callout-firefox-view-tab-pickup-subtitle = 携帯端末で開いているタブを取り出して、手間をかけずにここで開くことができます。
 callout-firefox-view-recently-closed-title = 閉じたタブをすぐに取り戻せる
 callout-firefox-view-recently-closed-subtitle = 閉じたタブがすべてここに表示されます。誤操作でサイトを閉じてしまっても大丈夫です。
 callout-firefox-view-colorways-title = 鮮やかな色彩を合わせる
@@ -86,7 +86,7 @@ sidebar-callout-survey-strongly-disagree = 全く同意しない
 sidebar-callout-survey-features-question = 次のサイドバー機能の特徴のうち、どの使い方が { -brand-short-name } におけるあなたの生産性を向上させますか？
 sidebar-callout-survey-split-view = 同時に 2 つのウェブサイトを並べて表示する
 sidebar-callout-survey-keep-website-open = メールやカレンダーなどのウェブサイトをサイドバーに開いたままブラウジングする
-sidebar-callout-survey-saved-websites-2 = ブックマークに素早くアクセスする
+sidebar-callout-survey-saved-websites-2 = ブックマークにすばやくアクセスする
 sidebar-callout-survey-none-of-above = 上記以外
 sidebar-callout-survey-submit = 送信
 sidebar-callout-survey-thank-you = フィードバックありがとうございます！

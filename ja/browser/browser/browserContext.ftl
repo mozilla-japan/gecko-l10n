@@ -163,7 +163,7 @@ main-context-menu-copy-link-simple =
 # copied, like items that identify you for advertising purposes, and other items
 # sites add into URLs to help them deliver a certain browsing experience.
 main-context-menu-copy-clean-link =
-    .label = クリーンリンクをコピー
+    .label = 追跡を除去したリンクをコピー
     .accesskey = u
 # This command copies the link, removing additional
 # query parameters used to track users across sites.

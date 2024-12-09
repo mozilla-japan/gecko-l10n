@@ -81,9 +81,9 @@ protections-panel-smartblock-blocking-toggle =
     .label = { $trackername } を許可する
 #  $trackername (String): the name of the tracker that is currently being blocked.
 smartblock-placeholder-title = { $trackername } のトラッカーとコンテンツをブロックしました
-smartblock-placeholder-desc = { -brand-short-name }  の設定により、このコンテンツを使用したサイトをまたぐ追跡や広告への利用がブロックされました。
+smartblock-placeholder-desc = { -brand-short-name } の設定により、サイトをまたぐ追跡や広告に利用されるコンテンツをブロックしました。
 #  $websitehost (String): host of website with blocked content.
-smartblock-placeholder-button-text = { $websitehost } を許可する
+smartblock-placeholder-button-text = { $websitehost } のコンテンツを許可する
 
 ##
 

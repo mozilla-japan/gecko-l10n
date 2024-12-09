@@ -881,7 +881,7 @@ pane-privacy-logins-and-passwords-header = ログインとパスワード
     .searchkeywords = { -lockwise-brand-short-name }
 # Checkbox to control whether UI is shown to users to save or fill logins/passwords.
 forms-ask-to-save-logins =
-    .label = ウェブサイトのログイン情報とパスワードを保存する
+    .label = ウェブサイトのログイン情報とパスワードを保存するか確認する
     .accesskey = r
 
 ## Privacy Section - Passwords
@@ -892,7 +892,7 @@ pane-privacy-passwords-header = パスワード
     .searchkeywords = ログイン情報
 # Checkbox to control whether UI is shown to users to save or fill logins/passwords.
 forms-ask-to-save-passwords =
-    .label = パスワードの保存を尋ねる
+    .label = パスワードを保存するか確認する
     .accesskey = A
 forms-exceptions =
     .label = 例外サイト...

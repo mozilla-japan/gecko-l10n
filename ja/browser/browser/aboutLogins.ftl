@@ -11,10 +11,10 @@ create-new-login-button =
     .title = @@New-CMD@@ログイン情報を作成
 about-logins-page-title-name = パスワード
 about-logins-login-filter2 =
-  .placeholder = パスワードを検索
-  .key = F
+    .placeholder = パスワードを検索
+    .key = F
 create-login-button =
-  .title = パスワードを追加します
+    .title = パスワードを追加します
 fxaccounts-sign-in-text = 他の端末でもパスワードが使える
 fxaccounts-sign-in-sync-button = ログインして同期
 fxaccounts-avatar-button =
@@ -172,7 +172,7 @@ about-logins-edit-login-os-auth-dialog-message-macosx = 保存したログイン
 # The macOS strings are preceded by the operating system with "Firefox is trying to ".
 # This message can be seen when attempting to disable osauth in about:preferences.
 # (^m^) [macos] Firefox が...しようとしています。
-about-logins-os-auth-dialog-message=
+about-logins-os-auth-dialog-message =
     { PLATFORM() ->
         [macos] パスワード設定を変更
        *[other] { -brand-short-name } がパスワード設定を変更しようとしています。許可するには端末のログイン情報を使用してください。
@@ -247,7 +247,7 @@ about-logins-confirm-remove-all-sync-dialog-title =
         [one] すべての端末から { $count } 件のログイン情報を消去しますか？
        *[other] すべての端末から { $count } 件のすべてのログイン情報を消去しますか？
     }
-about-logins-confirm-remove-all-sync-dialog-message=
+about-logins-confirm-remove-all-sync-dialog-message =
     { $count ->
         [1] { -fxaccount-brand-name } と同期した全端末の { -brand-short-name } に保存したログイン情報が消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
        *[other] { -fxaccount-brand-name } と同期した全端末の { -brand-short-name } に保存したすべてのログイン情報が消去されます。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
@@ -289,7 +289,7 @@ about-logins-confirm-export-dialog-title = ログイン情報とパスワード�
 about-logins-confirm-export-dialog-message = あなたのパスワードは可読テキストとして保存されます。(例: BadP@ssw0rd) @@Export-sare@@たファイルを開ける人なら誰でも内容を読み取ることが可能になります。
 about-logins-confirm-export-dialog-confirm-button = @@Export@@...
 about-logins-confirm-export-dialog-title2 = パスワードの@@Export@@について
-about-logins-confirm-export-dialog-message2 = 
+about-logins-confirm-export-dialog-message2 =
     パスワードを@@Export-suru@@と、人の読めるテキスト形式でファイルに保存されます。
     このファイルを使用した後は必ず削除して、この端末を使用する他者にあなたのパスワードが見られないようにしてください。
 about-logins-confirm-export-dialog-confirm-button2 = @@Export@@を続ける
@@ -445,15 +445,15 @@ about-logins-import-report-no-change =
     }
 about-logins-import-report-added2 =
     { $count ->
-        *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">@@New-CMD@@パスワードを追加しました</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">@@New-CMD@@パスワードを追加しました</div>
     }
 about-logins-import-report-modified2 =
     { $count ->
-        *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">既存のエントリーを更新しました</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">既存のエントリーを更新しました</div>
     }
 about-logins-import-report-no-change2 =
     { $count ->
-        *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">エントリーが重複</div> <div data-l10n-name="not-imported">(@@Import-sare@@ませんでした)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">エントリーが重複</div> <div data-l10n-name="not-imported">(@@Import-sare@@ませんでした)</div>
     }
 about-logins-import-report-error =
     { $count ->

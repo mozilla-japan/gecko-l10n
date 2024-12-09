@@ -5,11 +5,11 @@
 
 ## Subframe crash notification
 
-crashed-subframe-message = <strong>このページの一部がクラッシュしました。</strong> { -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
+crashed-subframe-message = <strong>このページの一部がクラッシュしました。</strong> この問題を { -brand-product-name } に知らせて速やかに修正するため、レポートを送信してください。
 # The string for crashed-subframe-title.title should match crashed-subframe-message,
 # but without any markup.
 crashed-subframe-title =
-    .title = このページの一部がクラッシュしました。{ -brand-product-name } にこの問題を知らせて素早く修正するために、レポートを送信してください。
+    .title = このページの一部がクラッシュしました。この問題を { -brand-product-name } に知らせて速やかに修正するため、レポートを送信してください。
 crashed-subframe-learnmore-link =
     .value = 詳細
 crashed-subframe-submit =

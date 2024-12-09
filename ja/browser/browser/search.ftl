@@ -40,4 +40,4 @@ remove-search-engine-button = OK
 
 install-search-engine = { $engineName } を検索エンジンとして追加しますか？
 install-search-engine-add = 追加する
-install-search-engine-no = しない
+install-search-engine-no = 追加しない
