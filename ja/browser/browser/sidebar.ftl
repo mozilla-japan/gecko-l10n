@@ -150,6 +150,9 @@ sidebar-syncedtabs-title = 他の端末からのタブ
 #   $deviceName (String) - the name of the device the user is closing a tab for
 synced-tabs-context-close-tab-title =
     .title = { $deviceName } 端末上のタブを閉じる
+show-sidebars =
+    .tooltiptext = サイドバーを表示します
+    .label = サイドバー
 
 ## Tooltips for the sidebar toolbar widget.
 
@@ -164,4 +167,24 @@ sidebar-widget-show-sidebar =
     .label = サイドバー
 sidebar-widget-hide-sidebar =
     .tooltiptext = サイドバーを隠します
+    .label = サイドバー
+# Variables:
+#   $shortcut (String) - The OS specific keyboard shortcut.
+sidebar-widget-expand-sidebar2 =
+    .tooltiptext = サイドバーを展開します ({ $shortcut })
+    .label = サイドバー
+# Variables:
+#   $shortcut (String) - The OS specific keyboard shortcut.
+sidebar-widget-collapse-sidebar2 =
+    .tooltiptext = サイドバーを折りたたみます ({ $shortcut })
+    .label = サイドバー
+# Variables:
+#   $shortcut (String) - The OS specific keyboard shortcut.
+sidebar-widget-show-sidebar2 =
+    .tooltiptext = サイドバーを表示します ({ $shortcut })
+    .label = サイドバー
+# Variables:
+#   $shortcut (String) - The OS specific keyboard shortcut.
+sidebar-widget-hide-sidebar2 =
+    .tooltiptext = サイドバーを隠します ({ $shortcut })
     .label = サイドバー

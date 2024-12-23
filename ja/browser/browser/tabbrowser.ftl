@@ -80,7 +80,7 @@ tabbrowser-unblock-tab-audio-tooltip =
 #   $tabCount (Number): The number of tabs that will be closed.
 tabbrowser-confirm-close-tabs-title = { $tabCount } 個のタブを閉じますか？
 tabbrowser-confirm-close-tabs-button = タブを閉じる
-tabbrowser-ask-close-tabs-checkbox = 同時にに複数のタブを閉じる前に確認する
+tabbrowser-ask-close-tabs-checkbox = 同時に複数のタブを閉じる前に確認する
 tabbrowser-confirm-close-tabs-checkbox = 同時に複数のタブを閉じる前に確認する
 
 ## Confirmation dialog when quitting using the menu and multiple windows are open.
@@ -101,12 +101,17 @@ tabbrowser-confirm-close-windows-button =
 
 tabbrowser-confirm-close-tabs-with-key-title = @@Window@@を閉じて { -brand-short-name } を終了しますか？
 tabbrowser-confirm-close-tabs-with-key-button = { -brand-short-name } を終了
+
 # Variables:
 #   $quitKey (String): the text of the keyboard shortcut for quitting.
 tabbrowser-ask-close-tabs-with-key-checkbox = { $quitKey } キーで終了する前に確認する
 # Variables:
 #   $quitKey (String): the text of the keyboard shortcut for quitting.
 tabbrowser-confirm-close-tabs-with-key-checkbox = { $quitKey } キーで終了する前に確認する
+
+## Confirmation dialog when quitting using the keyboard shortcut (Ctrl/Cmd+Q)
+## and browser.warnOnQuitShortcut is true.
+
 tabbrowser-confirm-close-warn-shortcut-title = { -brand-short-name } を終了しますか？ あるいは現在のタブを閉じますか？
 tabbrowser-confirm-close-windows-warn-shortcut-button =
     { PLATFORM() ->
@@ -191,8 +196,10 @@ tab-group-editor-name-field =
 tab-group-editor-cancel =
     .label = キャンセル
     .accesskey = C
+tab-group-menu-header = タブグループ
 tab-context-unnamed-group =
     .label = @@New-CMD@@グループ
+tab-group-name-default = @@New-CMD@@グループ
 
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.

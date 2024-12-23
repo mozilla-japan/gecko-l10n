@@ -7,3 +7,8 @@
 #   $rating (number) - A number between 0 and 5. The translation should show at most one digit after the comma.
 moz-five-star-rating =
     .title = 評価: { NUMBER($rating, maximumFractionDigits: 1) } / 5
+# Appears on hover when a star rating is selectable, rating out of 5 stars.
+# Variables:
+#   $rating (number) - A number between 0 and 5. The translation should show at most one digit after the comma.
+moz-five-star-rating-rate-text =
+    .title = 評価 { NUMBER($rating, maximumFractionDigits: 1) } / 5
