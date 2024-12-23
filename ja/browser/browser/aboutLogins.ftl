@@ -48,26 +48,14 @@ login-list-count = { $count } 件のログイン情報
 # Variables
 #   $count (number) - Number of filtered logins
 #   $total (number) - Total number of logins
-login-list-filtered-count =
-    { $total ->
-        [one] { $total } 件中 { $count } 件のログイン情報
-       *[other] { $total } 件中 { $count } 件のログイン情報
-    }
+login-list-filtered-count = { $total } 件中 { $count } 件のログイン情報
 # Variables
 #   $count (number) - Number of logins
-login-list-count2 =
-    { $count ->
-        [one] { $count } 件のパスワード
-       *[other] { $count } 件のパスワード
-    }
+login-list-count2 = { $count } 件のパスワード
 # Variables
 #   $count (number) - Number of filtered logins
 #   $total (number) - Total number of logins
-login-list-filtered-count2 =
-    { $total ->
-        [one] { $total } 件中 { $count } 件のパスワード
-       *[other] { $total } 件中 { $count } 件のパスワード
-    }
+login-list-filtered-count2 = { $total } 件中 { $count } 件のパスワード
 login-list-sort-label-text = 並べ替え:
 login-list-name-option = 名前 (昇順)
 login-list-name-reverse-option = 名前 (降順)

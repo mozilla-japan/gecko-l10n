@@ -6,6 +6,9 @@ profile-window-title = { -brand-short-name } - ユーザープロファイルの
 profile-window-heading = { -brand-short-name } のプロファイルを選択してください
 profile-window-body = パスワードやブックマークなどのブラウジングデータを、仕事用と個人用で別のプロファイルに分けましょう。または、この端末を使用するすべての人のためのプロファイルを作成しておきましょう。
 # This checkbox appears in the choose profile window that appears when the browser is opened. "Show this" refers to choose profile window being shown when the checkbox is enabled.
+profile-window-checkbox-label-2 =
+    .label = { -brand-short-name } を開いた時にプロファイルを選択する
+# This checkbox appears in the Choose profile window that appears when the browser is opened. "Show this" refers to this window, which is displayed when the checkbox is enabled.
 profile-window-checkbox-label =
     .label = この@@Window@@を { -brand-short-name } を開いたときに表示する
 profile-window-create-profile = プロファイルを作成
@@ -44,6 +47,7 @@ new-profile-page-input-placeholder =
     .placeholder = @@[@@仕事用@@]@@ @@[@@個人用@@]@@ のような名前を設定してください
 new-profile-page-done-button =
     .label = 編集を完了
+profile-window-title-2 = { -brand-short-name } - プロファイルの選択
 
 ## Delete profile dialogue that allows users to review what they will lose if they choose to delete their profile. Each item (open windows, etc.) is displayed in a table, followed by a column with the number of items.
 

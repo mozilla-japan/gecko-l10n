@@ -117,6 +117,12 @@ newtab-menu-delete-pocket = { -pocket-brand-name } から削除
 newtab-menu-archive-pocket = { -pocket-brand-name } にアーカイブ
 newtab-menu-show-privacy-info = 私たちのスポンサーとあなたのプライバシー
 newtab-menu-about-fakespot = { -fakespot-brand-name } について
+# Context menu option to personalize New Tab recommended stories by blocking a section of stories,
+# e.g. "Sports". "Block" is a verb here.
+newtab-menu-section-block = ブロック
+# "Follow", "unfollow", and "following" are social media terms that refer to subscribing to or unsubscribing from a section of stories.
+# e.g. Following the travel section of stories.
+newtab-menu-section-unfollow = トピックのフォローを解除
 
 ## Message displayed in a modal window to explain privacy and provide context for sponsored content.
 
@@ -440,3 +446,18 @@ newtab-topic-selection-button-maybe-later = 後で選ぶ
 newtab-topic-selection-privacy-link = ユーザーデータの保護と管理について
 newtab-topic-selection-button-update-interests = 関心事を更新
 newtab-topic-selection-button-pick-interests = 関心事を選ぶ
+
+## Content Feed Sections
+## "Follow", "unfollow", and "following" are social media terms that refer to subscribing to or unsubscribing from a section of stories.
+## e.g. Following the travel section of stories.
+
+newtab-section-follow-button = フォローする
+newtab-section-following-button = フォロー中
+newtab-section-unfollow-button = フォロー解除
+
+## Confirmation modal for blocking a section
+
+newtab-section-confirm-block-section-p1 = このセクションをブロックしてもよろしいですか？
+newtab-section-confirm-block-section-p2 = ブロックされたセクションは今後フィードに表示されなくなります。
+newtab-section-block-section-button = このセクションをブロック
+newtab-section-cancel-button = 後で

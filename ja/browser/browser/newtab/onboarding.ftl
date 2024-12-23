@@ -374,10 +374,18 @@ onboarding-new-user-survey-familiarity-based-option-4 = 以前使ったことが
 onboarding-new-tabs-title = タブを配置したい場所を教えてください
 # Setup screen for vertical tabs - "Switch it up" refers to switching between horizontal and vertical tabs.
 onboarding-new-tabs-subtitle = サイドバー設定でいつでも垂直タブに切り替えられます。
+# Setup screen for vertical tabs - too many tabs variation
+onboarding-many-tabs-title = あなたのタブをお好みの場所に
+# Setup screen for vertical tabs - subtitle for too many tabs variation
+onboarding-many-tabs-subtitle = 多くのタブを開いておきたいときは、サイドバーに配置して能率的に表示しましょう。または、いつでも従来のように最上部の配置に切り替えられます。
+# Setup screen for vertical tabs - focused variation
+onboarding-focused-tabs-title = タブのレイアウトを選んでください
+# Setup screen for vertical tabs - subtitle for focused variation
+onboarding-focused-tabs-subtitle = タブをサイドバーに配置して能率的な表示にすることで作業に集中できます。または、いつでも従来のように最上部の配置に切り替えられます。
 # Text underneath an image used for selecting browser tabs to appear on the side of the browser.
-onboarding-new-vertical-tabs-label = タブサイドバー
+onboarding-new-vertical-tabs-label = タブをサイドに配置
 # Text underneath an image used for selecting browser tabs to appear at the top of the browser.
-onboarding-new-horizontal-tabs-label = 最上部のタブバー
+onboarding-new-horizontal-tabs-label = タブを最上部に配置
 # Setup screen for vertical tabs for existing users
 onboarding-existing-tabs-title = 垂直タブがここに表示されます
 # Setup screen for vertical tabs for existing users
@@ -417,3 +425,17 @@ onboarding-checklist-pin = { -brand-short-name } をタスクバーにピン留�
 onboarding-checklist-import = 以前のブラウザーから@@Import-suru@@
 onboarding-checklist-extension = 拡張機能を追加する
 onboarding-checklist-sign-up = アカウント登録またはログインする
+
+## Tab Groups feature onboarding strings
+
+tab-groups-onboarding-feature-callout-title = タブをグループ化して整理しましょう
+tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグすると最初のグループが作成できます。
+
+## Multi Profiles feature onboarding messages
+
+multi-profile-spotlight-title = { -brand-product-name } プロファイルにご挨拶
+multi-profile-spotlight-body = 仕事用と趣味用のブラウジングを簡単に切り替えられます。検索履歴やパスワードなど、プロファイルごとにユーザーのブラウジング情報が保存され、完全に別のデータとして整理できます。
+multi-profile-spotlight-cta = プロファイルを作成
+multi-profile-callout-title = 仕事用と趣味用で別のプロファイルを作成
+multi-profile-callout-subtitle = プロファイルには検索履歴やパスワードなどのブラウジング情報が保存され、完全に分かれています。
+multi-profile-callout-cta = プロファイルを作成

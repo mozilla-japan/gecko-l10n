@@ -47,6 +47,10 @@ genai-prompts-quiz =
 genai-prompts-explain =
     .label = これを説明する
     .value = Please explain the key concepts in this selection, using simple words in Japanese. Also, use examples.
+# Prompt purpose: writing tool that helps users with spelling and grammar mistakes and produce a response that identifies errors and rewrites the inputted text correctly
+genai-prompts-proofread =
+    .label = 校正
+    .value = Please proofread the selection for spelling and grammar errors. Identify any mistakes and provide a corrected version of the text. Maintain the meaning and factual accuracy and output the list of proposed corrections first, followed by the final, corrected version of the text.
 # This prompt is added to the beginning of selection prompts sent to a chatbot.
 # $tabTitle (string) - title of the webpage
 # $selection (string) - selected text
@@ -65,6 +69,23 @@ genai-input-ask-generic =
 # $provider (string) - name of the provider
 genai-input-ask-provider =
     .placeholder = { $provider } に尋ねる...
+# $selectionLength (number) - selected text length
+# $maxLength (number) - max length of what can be selected
+genai-shortcuts-selected-warning-generic =
+    .heading = 選択範囲が AI チャットボットの取得できる文字数を超えています
+    .message =
+        { $selectionLength ->
+           *[other] { $selectionLength } 文字選択されています。AI チャットボットに送信できる文字数は最大 { $maxLength } 文字までです。
+        }
+# $provider (string) - name of the provider
+# $selectionLength (number) - selected text length
+# $maxLength (number) - max length of what can be selected
+genai-shortcuts-selected-warning =
+    .heading = 選択範囲が { $provider } の取得できる文字数を超えています
+    .message =
+        { $selectionLength ->
+           *[other] { $selectionLength } 文字選択されています。{ $provider } に送信できる文字数は最大 { $maxLength } 文字までです。
+        }
 genai-shortcuts-hide =
     .label = チャットボットのショートカットを隠す
 

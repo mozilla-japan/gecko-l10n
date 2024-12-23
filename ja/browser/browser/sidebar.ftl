@@ -187,3 +187,4 @@ sidebar-widget-show-sidebar2 =
 #   $shortcut (String) - The OS specific keyboard shortcut.
 sidebar-widget-hide-sidebar2 =
     .tooltiptext = サイドバーを隠します ({ $shortcut })
+    .label = サイドバー

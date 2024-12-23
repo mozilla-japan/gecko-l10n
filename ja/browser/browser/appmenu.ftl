@@ -276,8 +276,11 @@ appmenuitem-monitor-title = { -monitor-brand-short-name }
 appmenuitem-monitor-description = データ漏洩の警告を受け取ります
 appmenuitem-relay-title = { -relay-brand-short-name }
 appmenuitem-relay-description = 実際のメールアドレスと電話番号を隠します
+appmenuitem-services-relay-description = メールマスクダッシュボードを起動します
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description = ユーザーのオンラインプライバシーを保護します
+appmenu-services-header = マイサービス
+appmenu-other-protection-header = { -vendor-short-name } が提供する他の保護ツールをお試しください:
 
 ## Profiles panel
 
