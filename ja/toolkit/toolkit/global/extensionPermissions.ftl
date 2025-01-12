@@ -33,3 +33,10 @@ webext-perms-description-topSites = 閲覧履歴へのアクセス
 webext-perms-description-trialML = ユーザーの端末で AI モデルのダウンロードと実行
 webext-perms-description-userScripts = 未検証のサードパーティースクリプトにユーザーデータへのアクセスを許可
 webext-perms-description-webNavigation = ナビゲーション中のブラウザーアクティビティへのアクセス
+
+## The userScripts permission includes an additional explanation that is
+## displayed prominently near the usual permission description.
+
+webext-perms-extra-warning-userScripts-long = 有害なコードやウェブサイトでの行動を追跡するコードなど、未検証のスクリプトはユーザーの安全とプライバシーに危険を及ぼす可能性があります。拡張機能や信頼できるソースからのスクリプト以外は実行しないでください。
+# A shorter warning is displayed in UI surfaces with little room, such as a permission prompt.
+webext-perms-extra-warning-userScripts-short = 未検証のスクリプトはユーザーの安全とプライバシーに危険を及ぼす可能性があります。拡張機能や信頼できるソースからのスクリプト以外は実行しないでください。
