@@ -198,8 +198,8 @@ tab-group-editor-cancel =
     .accesskey = C
 tab-group-menu-header = タブグループ
 tab-context-unnamed-group =
-    .label = @@New-CMD@@グループ
-tab-group-name-default = @@New-CMD@@グループ
+    .label = 無名のグループ
+tab-group-name-default = 無名のグループ
 
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.
@@ -238,7 +238,7 @@ tab-context-reopen-tab-group =
 tab-context-ungroup-tab =
     .label =
         { $groupCount ->
-            [1] グループから除外
-           *[other] 各グループから除外
+            [1] このタブをグループから除外
+           *[other] 選択したタブを各グループから除外
         }
     .accesskey = R
