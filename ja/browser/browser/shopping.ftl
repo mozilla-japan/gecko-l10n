@@ -185,7 +185,19 @@ shopping-survey-next-button-label = 次へ
 shopping-survey-submit-button-label = 送信
 shopping-survey-terms-link = 利用規約
 shopping-survey-thanks =
-    .heading = フィードバックのご提供ありがとうございます。
+    .heading = ご回答ありがとうございます。
+
+## Shopping opted-out survey strings
+## Opt-out survey options are displayed as checkboxes and the user can select one or many.
+
+shopping-survey-opted-out-multiselect-label = レビューチェッカーをオフにしている理由を教えてください。(複数回答可)
+shopping-survey-thanks-title = ご回答ありがとうございます
+shopping-survey-opted-out-hard-to-understand = 機能が理解できない
+shopping-survey-opted-out-too-slow = 動作が遅い
+shopping-survey-opted-out-not-accurate = 正確でない
+shopping-survey-opted-out-not-helpful = 自分の役には立たない
+shopping-survey-opted-out-check-myself = 自分でレビューをチェックしたい
+shopping-survey-opted-out-other = その他
 
 ## Shopping Feature Callout strings.
 ## "price tag" refers to the price tag icon displayed in the address bar to
