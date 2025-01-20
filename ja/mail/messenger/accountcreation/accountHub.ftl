@@ -114,5 +114,15 @@ account-hub-edit-configuration = 設定を編集
 account-hub-config-success = アカウント設定が Mozilla ISPDB から見つかりました
 account-hub-password-info = あなたの認証情報はローカルのあなたのコンピュータにのみ保存されます
 account-hub-sync-success = Thunderbird が接続されたサービスを見つけました
+account-hub-sync-failure = Thunderbird が接続されたサービスを見つけられませんでした
+account-hub-unable-to-sync-accounts = Thunderbird が選択されたサービスに接続できませんでした
 account-hub-email-added-success = メールアカウントの接続が完了しました
 account-hub-config-test-success = 正しく設定されています
+account-hub-select-all = @@SelectAll@@
+account-hub-deselect-all = すべての選択を解除
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected = アカウントを { $count } 件選択
+account-hub-no-address-books = アドレス帳が見つかりませんでした
+account-hub-no-calendars = カレンダーが見つかりませんでした
+account-hub-email-added-success-links-title = セキュリティと個人向けのオプションをお試しください:
+account-hub-signature-link = メールの署名

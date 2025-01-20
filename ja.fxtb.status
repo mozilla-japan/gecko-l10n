@@ -95,4 +95,5 @@ fxsrc | browser, toolkit, ...    eb131f4d (2024-12-20)  mar          sync browse
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | browser, toolkit, ...    ca8d03de (2025-01-08)  mar          sync browser, toolkit, dom, devtools
+tbsrc | mail                     cfd563ec (2024-12-18)  mar          sync mail
 
