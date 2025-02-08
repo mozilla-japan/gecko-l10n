@@ -81,6 +81,21 @@ about-reader-custom-colors-visited-links = 訪問済みリンク
 about-reader-custom-colors-selection-highlight = 読み上げ部分の強調
     .title = 読み上げ部分の@@Color@@を変更します
 about-reader-reset-button = @@Default@@に戻す
+about-reader-custom-colors-foreground2 =
+    .label = 文字
+    .title = 文字@@Color@@を変更します
+about-reader-custom-colors-background2 =
+    .label = 背景
+    .title = 背景@@Color@@を変更します
+about-reader-custom-colors-unvisited-links2 =
+    .label = 未訪問リンク
+    .title = 未訪問リンクの@@Color@@を変更します
+about-reader-custom-colors-visited-links2 =
+    .label = 訪問済みリンク
+    .title = 訪問済みリンクの@@Color@@を変更します
+about-reader-custom-colors-selection-highlight2 =
+    .label = 読み上げ部分の強調
+    .title = 読み上げ部分の@@Color@@を変更します
 
 ## Reader View text and layout menu
 
