@@ -292,3 +292,5 @@ appmenu-create-profile =
     .label = @@New-CMD@@プロファイル
 appmenu-edit-profile =
     .aria-label = プロファイルを編集
+appmenu-profiles-2 =
+    .label = プロファイル
