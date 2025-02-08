@@ -258,6 +258,9 @@ newtab-pocket-thumbs-up-tooltip =
 # Clicking the thumbs down button for this story informs us that the user does not feel like the story is interesting for them
 newtab-pocket-thumbs-down-tooltip =
     .title = 興味なし
+# Used to show the user a message upon clicking the thumbs up or down buttons
+newtab-toast-thumbs-up-or-down2 =
+    .message = ありがとうございます。あなたのフィードバックがフィードを改善する助けになります。
 newtab-toast-thumbs-up-or-down = ありがとうございます。あなたのフィードバックがフィードを改善する助けになります。
 newtab-toast-dismiss-button =
     .title = 閉じる
@@ -447,6 +450,11 @@ newtab-topic-selection-privacy-link = ユーザーデータの保護と管理に
 newtab-topic-selection-button-update-interests = 関心事を更新
 newtab-topic-selection-button-pick-interests = 関心事を選ぶ
 
+## Button to block/unblock listed topics
+## "Block", "unblocked", and "blocked" are social media terms that refer to hiding a section of stories.
+## e.g. Blocked the politics section of stories.
+
+
 ## Content Feed Sections
 ## "Follow", "unfollow", and "following" are social media terms that refer to subscribing to or unsubscribing from a section of stories.
 ## e.g. Following the travel section of stories.
@@ -461,3 +469,6 @@ newtab-section-confirm-block-section-p1 = このセクションをブロック�
 newtab-section-confirm-block-section-p2 = ブロックされたセクションは今後フィードに表示されなくなります。
 newtab-section-block-section-button = このセクションをブロック
 newtab-section-cancel-button = 後で
+
+## Panel in the Customize menu section to manage followed and blocked topics
+
