@@ -88,23 +88,15 @@ git push
 
 * Firefox
   * Cross-channel (firefox-l10n-source):
-    * https://github.com/mozilla-l10n/firefox-l10n-source (L10n の作業対象)
+    * https://github.com/mozilla-l10n/firefox-l10n-source (en-US ソース)
   * Nightly, Beta:
-    * https://github.com/mozilla-l10n/firefox-l10n/ (ja, ja-JP-mac)
-  * gecko-strings:
-    * https://hg.mozilla.org/l10n/gecko-strings
-    * https://hg.mozilla.org/l10n/gecko-strings-quarantine/
+    * https://github.com/mozilla-l10n/firefox-l10n/ (ja, ja-JP-mac の作業対象)
 
 * Thunderbird
   * Cross-channel (thunderbird-l10n-source):
-    * https://github.com/thunderbird/thunderbird-l10n-source (L10n の作業対象)
+    * https://github.com/thunderbird/thunderbird-l10n-source (en-US ソース)
   * Daily, Beta:
-    * https://github.com/thunderbird/thunderbird-l10n (ja, ja-JP-mac)
-  * comm-l10n:
-    * https://hg.mozilla.org/projects/comm-l10n/file/tip/en-US
-    * https://hg.mozilla.org/projects/comm-strings-quarantine/
-    * https://hg.mozilla.org/projects/comm-l10n/file/tip/ja
-    * https://hg.mozilla.org/projects/comm-l10n/file/tip/ja-JP-mac
+    * https://github.com/thunderbird/thunderbird-l10n (ja, ja-JP-mac の作業対象)
 
 * SeaMonkey
   * GitLab - SeaMonkey Central l10n:
@@ -124,6 +116,14 @@ git push
 
 ## 終了したリポジトリー (End Of Life)
 * Firefox, Thunderbird/Lightning, SeaMonkey
+  * ~gecko-strings:~ (EOL in 133.0)
+    * https://hg.mozilla.org/l10n/gecko-strings
+    * https://hg.mozilla.org/l10n/gecko-strings-quarantine/
+  * ~comm-l10n:~ (EOL in 133.0)
+    * https://hg.mozilla.org/projects/comm-l10n/file/tip/en-US
+    * https://hg.mozilla.org/projects/comm-strings-quarantine/
+    * https://hg.mozilla.org/projects/comm-l10n/file/tip/ja
+    * https://hg.mozilla.org/projects/comm-l10n/file/tip/ja-JP-mac
   * ~Firefox (l10n-central)~ (EOL in 128.0)
     * https://hg.mozilla.org/l10n-central/ja/
     * https://hg.mozilla.org/l10n-central/ja-JP-mac/
