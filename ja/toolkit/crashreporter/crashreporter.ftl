@@ -8,6 +8,7 @@ crashreporter-crashed-and-restore = { -brand-short-name } の動作に問題が�
 crashreporter-plea = 問題の原因特定と解決のためにご協力いただける方は、クラッシュレポートの送信をお願いします。
 crashreporter-information = この@@Application@@は不正終了時に実行され、{ -vendor-short-name } に問題を報告するためのものです。直接単体で起動することはできません。
 crashreporter-error = { -brand-short-name } の動作に問題が発生し、不正終了してしまいました。申し訳ありませんが、このクラッシュについてのレポートは送信できません。
+crashreporter-error-details-header = 詳細:
 # $details (String) - the reason that a crash report cannot be submitted
 crashreporter-error-details = 詳細: { $details }
 crashreporter-no-run-message = このプログラムは不正終了時にプログラムの開発元に問題を知らせるためのものです。直接単体で起動することはできません。

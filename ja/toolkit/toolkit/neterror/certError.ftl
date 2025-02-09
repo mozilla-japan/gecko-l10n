@@ -134,6 +134,7 @@ contentEncodingError-title = 内容符号化 (Content-Encoding) に問題があ�
 unsafeContentType-title = 安全でないファイルタイプ
 netReset-title = 接続がリセットされました
 netTimeout-title = 接続がタイムアウトしました
+httpErrorPage-title = このサイトに問題があるようです
 serverError-title = このサイトに問題があるようです
 unknownProtocolFound-title = アドレスのプロトコルが不明です
 proxyConnectFailure-title = プロキシーサーバーへの接続を拒否されました
