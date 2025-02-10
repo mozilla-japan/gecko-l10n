@@ -64,6 +64,7 @@ split-dismiss-button-manage-settings-option-label = 設定を管理
 
 sidebar-button-callout-title = タブのタイトルをサイドバーに表示する
 sidebar-button-callout-subtitle = サイドバーボタンでサイドバーを展開すると、タブのタイトルを確認できます。
+sidebar-button-callout-vertical-tabs = タブを表示するには、ツールバーのサイドバーボタンを選択します。
 
 ## Sidebar Callout Survey Strings
 
@@ -94,3 +95,19 @@ sidebar-genai-survey-satisfaction-question = サイドバーで AI チャット�
 sidebar-genai-survey-productive-question =
     次の意見にどのくらい同意しますか？<br/>
     「サイドバーに追加した AI チャットボットによって生産性が向上した」
+unified-search-callout-title = 検索エンジン間の切り替え
+unified-search-callout-subtitle = 特定の検索に最も適したものを選んでください。
+unified-search-callout-primary-label = 次へ
+unified-search-callout-secondary-label = 閉じる
+unified-search-engines-callout-title = ショートカットで検索
+unified-search-engines-callout-subtitle = “@” に続けてキーワードを入力すると、履歴やブックマーク、タブを検索します。また別の検索エンジンも利用できます。
+unified-search-engines-callout-primary-label = 了解
+actions-callout-title = 共通のタスクを実行、または基本設定へのアクセス
+# The user can type "print" and "clear" and a button will appear in the
+# search bar (e.g. Print page) the user can click to initiate the action.
+# These example text inputs correlate to the the following strings
+# (either matching the whole string, or the first word of the string).
+# "print" - quickactions-cmd-print
+# "clear" - quickactions-cmd-clearhistory
+# When localizing, ensure the translations match to ensure the action button appears as expected.
+actions-callout-subtitle = “print” と入力するとページを@@Print@@、“clear” と入力すると履歴を消去できます。

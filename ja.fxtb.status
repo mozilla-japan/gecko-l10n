@@ -103,4 +103,5 @@ tbsrc | mail                     cfd563ec (2024-12-18)  mar          sync mail
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | toolkit, dom, devtools   2d8d737e (2025-02-07)  mar          sync toolkit, dom, devtools
+fxsrc | browser                  2d8d737e (2025-02-07)  mar          sync browser
 

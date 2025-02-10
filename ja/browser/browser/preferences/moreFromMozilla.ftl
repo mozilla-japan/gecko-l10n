@@ -10,6 +10,7 @@ more-from-moz-category =
 more-from-moz-subtitle = 健全なインターネットを支える { -vendor-short-name } の他の製品も見てみましょう。
 more-from-moz-firefox-mobile-title = { -brand-product-name } モバイル
 more-from-moz-firefox-mobile-description = プライバシー第一のモバイルブラウザーです。
+more-from-moz-firefox-mobile-title-1 = モバイル版 { -brand-product-name }
 more-from-moz-mozilla-vpn-title = { -mozilla-vpn-brand-name }
 more-from-moz-mozilla-vpn-description = 匿名でのブラウジングとプライバシー保護をさらに強化します。
 more-from-moz-qr-code-box-firefox-mobile-title = ご使用の携帯端末でダウンロードします。カメラを QR コードに合わせ、表示されたリンクをタップしてください。
@@ -31,3 +32,9 @@ more-from-moz-mozilla-monitor-title = { -mozmonitor-brand-name }
 more-from-moz-mozilla-monitor-us-description = 漏洩したあなたの個人情報を自動的に取り戻します。
 more-from-moz-mozilla-monitor-global-description = 個人情報のデータ侵害があればメールで通知します。
 more-from-moz-mozilla-monitor-button = { -monitor-brand-short-name } を使う
+
+## These strings are for the Solo card in about:preferences moreFromMozilla page
+
+more-from-moz-solo-title = { -solo-ai-brand-name } AI
+more-from-moz-solo-description = あなたのウェブサイトを AI が無料で作成します。あなただけのカスタムドメインに接続してください。
+more-from-moz-solo-button = { -solo-ai-brand-name } を試す

@@ -338,7 +338,7 @@ onboarding-easy-setup-security-and-privacy-subtitle = 私たちの非営利組�
 
 # Mobile download screen
 onboarding-mobile-download-security-and-privacy-title = 端末を切り替える時も暗号化されます
-onboarding-mobile-download-security-and-privacy-subtitle = 同期した端末でも { -brand-short-name } があなたのパスワードやブックマークを暗号化して保護します。さらに開いているタブを他の端末から持ち出すことができます。
+onboarding-mobile-download-security-and-privacy-subtitle = 同期した端末でも { -brand-short-name } があなたのパスワードやブックマークを暗号化して保護します。さらに開いているタブを他の端末で持ち歩くことができます。
 
 # Gratitude screen
 onboarding-gratitude-security-and-privacy-title = { -brand-short-name } はあなたの味方です
@@ -430,6 +430,10 @@ onboarding-checklist-sign-up = アカウント登録またはログインする
 
 tab-groups-onboarding-feature-callout-title = タブをグループ化して整理しましょう
 tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグすると最初のグループが作成できます。
+tab-groups-onboarding-create-group-title = タブバー上の開いているグループを見つけるかアドレスバーで検索してください
+tab-groups-onboarding-saved-groups-title = タブグループを閉じても、ここで開き直すことができます。
+tab-groups-onboarding-saved-groups-no-alltabs-button-title = 開いたタブグループも閉じたタブグループもアドレスバーからいつでも検索できます。
+tab-groups-onboarding-dismiss = OK
 
 ## Multi Profiles feature onboarding messages
 
@@ -439,3 +443,12 @@ multi-profile-spotlight-cta = プロファイルを作成
 multi-profile-callout-title = 仕事用と趣味用で別のプロファイルを作成
 multi-profile-callout-subtitle = プロファイルには検索履歴やパスワードなどのブラウジング情報が保存され、完全に分かれています。
 multi-profile-callout-cta = プロファイルを作成
+
+## Desktop to Mobile Adoption feature callout strings
+
+# If translating the headline is challenging, consider using a simplified alternative as a reference: 'Sync your browsing with Firefox for mobile.'
+desktop-to-mobile-headline = ダウンロード、同期、モバイル GO!
+# The phrase, 'on the go', is used to describe when people are very busy and are traveling from place to place.
+desktop-to-mobile-subtitle = QR コードをスキャンしてモバイル版 { -brand-product-name } をダウンロードしてください。インストールが完了したら @@[@@モバイル端末と同期@@]@@ するだけで、パスワードやブックマークなどのデータを持ち歩けます。
+dismiss-button-label = 閉じる
+sync-to-mobile-button-label = モバイル端末と同期
