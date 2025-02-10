@@ -213,6 +213,16 @@ containers-remove-cancel-button = 削除しない
 settings-tabs-show-image-in-preview =
     .label = タブにカーソルを合わせた時にプレビュー画像を表示する
     .accessKey = h
+browser-layout-header = ブラウザーレイアウト
+browser-layout-horizontal-tabs =
+    .label = 水平タブ
+browser-layout-horizontal-tabs-desc = ブラウザー上部に表示します
+browser-layout-vertical-tabs =
+    .label = 垂直タブ
+browser-layout-vertical-tabs-desc = サイドバー内に表示します
+browser-layout-show-sidebar =
+    .label = サイドバーを表示
+browser-layout-show-sidebar-desc = ブックマーク、同期したタブ、AI チャットボットなど、メインビューを切り替えずにすばやくアクセスできます。
 
 ## General Section - Language & Appearance
 
@@ -1290,17 +1300,40 @@ permissions-addon-exceptions =
 collection-header = { -brand-short-name } のデータ収集と利用について
 collection-header2 = { -brand-short-name } のデータ収集と利用について
     .searchkeywords = テレメトリー
+preferences-collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-product-name } の改善に必要な最小限のデータだけを収集するよう努力しています。
+preferences-collection-privacy-notice = プライバシー通知を表示
 collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
 collection-privacy-notice = 個人情報保護方針
 collection-health-report-telemetry-disabled = { -vendor-short-name } への技術データと対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
 collection-health-report-telemetry-disabled-link = 詳細情報
+collection-usage-ping =
+    .label = 毎日の使用頻度を { -vendor-short-name } に送信する
+    .accesskey = u
+collection-usage-ping-description = これは { -vendor-short-name } がアクティブユーザー数を推定するのに役立てられます。
+collection-health-report2 =
+    .label = 技術データと対話データを { -vendor-short-name } に送信する
+    .accesskey = r
 collection-health-report =
     .label = { -brand-short-name } が技術データと対話データを { -vendor-short-name } へ送信することを許可する
     .accesskey = r
 collection-health-report-link = 詳細情報
+collection-health-report-description = これは { -brand-product-name } の機能やパフォーマンス、安定性の向上に役立てられます。
+collection-studies2 =
+    .label = 調査のインストールと実行
+collection-studies-description = 機能やアイデアを一般公開される前に試してみましょう。
 collection-studies =
     .label = { -brand-short-name } に調査のインストールと実行を許可する
 collection-studies-link = { -brand-short-name } 調査を確認する
+addon-recommendations2 =
+    .label = パーソナライズされた拡張機能のおすすめを許可する
+addon-recommendations-description = おすすめの拡張機能を試してブラウジング体験を向上させましょう。
+# This message is displayed above disabled data sharing options in developer builds
+# or builds with no Telemetry support available.
+collection-health-report-disabled2 = このビルド設定ではデータ報告が無効化されています。
+collection-backlogged-crash-reports2 =
+    .label = クラッシュレポートを自動的に送信する
+    .accesskey = c
+collection-backlogged-crash-reports-description = これは { -vendor-short-name } がブラウザーの問題を診断し修正するのに役立てられます。レポートには個人情報や機密性の高い情報が含まれる場合があります。
 addon-recommendations =
     .label = { -brand-short-name } にパーソナライズされた拡張機能のおすすめを許可する
 addon-recommendations-link = 詳細情報
@@ -1368,6 +1401,8 @@ space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行する�
 ## Privacy Section - HTTPS-Only
 
 httpsonly-header = HTTPS-Only モード
+httpsonly-description3 = 安全な接続だけをウェブサイトに許可します。接続が安全でない場合は { -brand-short-name } に確認を求められます。
+httpsonly-learn-more2 = HTTPS-Only モードの動作について
 httpsonly-description = HTTPS は { -brand-short-name } とあなたが訪れるウェブサイトとの間に、暗号化された安全な接続を提供します。多くのウェブサイトは HTTPS に対応しており、HTTPS-Only モードを有効にすると { -brand-short-name } はすべての接続を HTTPS に切り替えます。
 httpsonly-description2 = あなたが訪れたサイトとの間で { -brand-short-name } が暗号化された安全な接続を確立します。HTTPS-Only モードが有効のときに接続が安全でない場合は { -brand-short-name } が警告します。
 httpsonly-learn-more = 詳細
@@ -1377,6 +1412,9 @@ httpsonly-radio-enabled2 =
     .label = すべての@@Window@@で HTTPS のみを使用する
 httpsonly-radio-enabled-pbm =
     .label = プライベート@@Window@@のみ HTTPS-Only モードを有効にする
+httpsonly-radio-disabled3 =
+    .label = HTTPS-Only モードを有効にしない
+    .description = 設定に関わらず { -brand-short-name } は一部の通信を安全な接続にアップグレードすることがあります。
 httpsonly-radio-enabled-pbm2 =
     .label = プライベート@@Window@@で HTTPS のみを使用する
 httpsonly-radio-disabled =

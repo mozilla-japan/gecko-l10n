@@ -50,6 +50,18 @@ sidebar-position-right =
     .label = 右側に表示
 sidebar-vertical-tabs =
     .label = 垂直タブ
+sidebar-settings =
+    .label = サイドバー設定
+sidebar-hide-tabs-and-sidebar =
+    .label = タブとサイドバーを隠す
+sidebar-show-on-the-right =
+    .label = サイドバーを右側へ移動
+sidebar-show-on-the-left =
+    .label = サイドバーを左側へ移動
+# Option to automatically expand the collapsed sidebar when the mouse pointer
+# hovers over it.
+expand-sidebar-on-hover =
+    .label = カーソルを合わせた時にサイドバーを展開する
 sidebar-horizontal-tabs =
     .label = 水平タブ
 sidebar-customize-tabs-header =
@@ -125,6 +137,16 @@ sidebar-menu-close-bookmarks-tooltip = ブックマークを閉じます ({ $sho
 sidebar-menu-open-ai-chatbot-tooltip = AI チャットボットを開きます
 sidebar-menu-close-ai-chatbot-tooltip = AI チャットボットを閉じます
 
+## Tooltips displayed over the AI chatbot icon.
+## Variables:
+##   $shortcut (String) - The OS specific keyboard shortcut.
+##   $provider (String) - The name of the AI chatbot provider (if available).
+
+sidebar-menu-open-ai-chatbot-tooltip-generic = AI チャットボットを開きます ({ $shortcut })
+sidebar-menu-open-ai-chatbot-provider-tooltip = { $provider } を開きます ({ $shortcut })
+sidebar-menu-close-ai-chatbot-tooltip-generic = AI チャットボットを閉じます ({ $shortcut })
+sidebar-menu-close-ai-chatbot-provider-tooltip = { $provider } を閉じます ({ $shortcut })
+
 ## Headings for sidebar menu panels.
 
 sidebar-menu-customize-header =
@@ -133,6 +155,8 @@ sidebar-menu-history-header =
     .heading = 履歴
 sidebar-menu-syncedtabs-header =
     .heading = 他の端末からのタブ
+sidebar-menu-bookmarks-header =
+    .heading = ブックマーク
 sidebar-panel-header-close-button =
     .tooltiptext = 閉じる
 
@@ -156,18 +180,6 @@ show-sidebars =
 
 ## Tooltips for the sidebar toolbar widget.
 
-sidebar-widget-expand-sidebar =
-    .tooltiptext = サイドバーを展開します
-    .label = サイドバー
-sidebar-widget-collapse-sidebar =
-    .tooltiptext = サイドバーを折りたたみます
-    .label = サイドバー
-sidebar-widget-show-sidebar =
-    .tooltiptext = サイドバーを表示します
-    .label = サイドバー
-sidebar-widget-hide-sidebar =
-    .tooltiptext = サイドバーを隠します
-    .label = サイドバー
 # Variables:
 #   $shortcut (String) - The OS specific keyboard shortcut.
 sidebar-widget-expand-sidebar2 =

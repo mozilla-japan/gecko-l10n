@@ -2,15 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-profile-window-title = { -brand-short-name } - ユーザープロファイルの選択
 profile-window-heading = { -brand-short-name } のプロファイルを選択してください
 profile-window-body = パスワードやブックマークなどのブラウジングデータを、仕事用と個人用で別のプロファイルに分けましょう。または、この端末を使用するすべての人のためのプロファイルを作成しておきましょう。
 # This checkbox appears in the choose profile window that appears when the browser is opened. "Show this" refers to choose profile window being shown when the checkbox is enabled.
 profile-window-checkbox-label-2 =
     .label = { -brand-short-name } を開いた時にプロファイルを選択する
-# This checkbox appears in the Choose profile window that appears when the browser is opened. "Show this" refers to this window, which is displayed when the checkbox is enabled.
-profile-window-checkbox-label =
-    .label = この@@Window@@を { -brand-short-name } を開いたときに表示する
 profile-window-create-profile = プロファイルを作成
 profile-card-edit-button =
     .title = プロファイルを編集
@@ -48,6 +44,8 @@ new-profile-page-input-placeholder =
 new-profile-page-done-button =
     .label = 編集を完了
 profile-window-title-2 = { -brand-short-name } - プロファイルの選択
+profile-window-logo =
+    .alt = { -brand-short-name } ロゴ
 
 ## Delete profile dialogue that allows users to review what they will lose if they choose to delete their profile. Each item (open windows, etc.) is displayed in a table, followed by a column with the number of items.
 
@@ -100,3 +98,18 @@ profiles-light-theme = ライト
 profiles-dark-theme = ダーク
 # The default system theme
 profiles-system-theme = システム
+
+## Alternative text for default profile icons
+
+book-avatar-alt =
+    .alt = 本
+briefcase-avatar-alt =
+    .alt = かばん
+flower-avatar-alt =
+    .alt = 花
+heart-avatar-alt =
+    .alt = ハート
+shopping-avatar-alt =
+    .alt = 買い物かご
+star-avatar-alt =
+    .alt = 星
