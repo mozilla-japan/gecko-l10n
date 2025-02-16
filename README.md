@@ -65,8 +65,9 @@ git push
 ```
 
 ## ツール
-* Localization Tools (lot)
-  * https://github.com/mozilla-japan/lot
+* Localization Tools (lot-conv.py)
+  * https://github.com/marsf/lot-conv 
+  * ~https://github.com/mozilla-japan/lot~
 * compare-locales Python script
   * https://github.com/mozilla/compare-locales
 * Pontoon Japanese projects (製品とウェブサイトのローカライズ)
