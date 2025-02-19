@@ -452,3 +452,5 @@ desktop-to-mobile-headline = ダウンロード、同期、モバイル GO!
 desktop-to-mobile-subtitle = QR コードをスキャンしてモバイル版 { -brand-product-name } をダウンロードしてください。インストールが完了したら @@[@@モバイル端末と同期@@]@@ するだけで、パスワードやブックマークなどのデータを持ち歩けます。
 dismiss-button-label = 閉じる
 sync-to-mobile-button-label = モバイル端末と同期
+desktop-to-mobile-qr-code-alt =
+    .aria-label = QR code to download { -brand-product-name } for mobile
