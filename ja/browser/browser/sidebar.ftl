@@ -7,7 +7,7 @@ menu-view-genai-chat =
 menu-view-review-checker =
     .label = レビューチェッカー
 menu-view-contextual-password-manager =
-    .label = Passwords
+    .label = パスワード
 sidebar-options-menu-button =
     .title = メニューを開く
 
@@ -118,7 +118,7 @@ sidebar-menu-customize-label =
 sidebar-menu-review-checker-label =
     .label = レビューチェッカー
 sidebar-menu-contextual-password-manager-label =
-    .label = Passwords
+    .label = パスワード
 
 ## Tooltips for sidebar menu items.
 
@@ -162,7 +162,7 @@ sidebar-menu-syncedtabs-header =
 sidebar-menu-bookmarks-header =
     .heading = ブックマーク
 sidebar-menu-cpm-header =
-    .heading = Passwords
+    .heading = パスワード
 sidebar-panel-header-close-button =
     .tooltiptext = 閉じる
 

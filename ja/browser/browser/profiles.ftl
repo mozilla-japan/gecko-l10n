@@ -28,11 +28,11 @@ edit-profile-page-title = プロファイルを編集
 edit-profile-page-header = プロファイルを編集
 edit-profile-page-profile-name-label = プロファイル名
 edit-profile-page-theme-header-2 =
-    .label = Theme
+    .label = テーマ
 edit-profile-page-theme-header = テーマ
 edit-profile-page-explore-themes = 他のテーマを探す
 edit-profile-page-avatar-header-2 =
-    .label = Avatar
+    .label = アバター
 edit-profile-page-avatar-header = アバター
 edit-profile-page-delete-button =
     .label = 削除
@@ -120,9 +120,9 @@ star-avatar-alt =
 
 ## Labels for default avatar icons
 
-book-avatar = Book
-briefcase-avatar = Briefcase
-flower-avatar = Flower
-heart-avatar = Heart
-shopping-avatar = Shopping cart
-star-avatar = Star
+book-avatar = 本
+briefcase-avatar = かばん
+flower-avatar = 花
+heart-avatar = ハート
+shopping-avatar = 買い物かご
+star-avatar = 星

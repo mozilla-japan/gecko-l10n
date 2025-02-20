@@ -453,4 +453,4 @@ desktop-to-mobile-subtitle = QR コードをスキャンしてモバイル版 { 
 dismiss-button-label = 閉じる
 sync-to-mobile-button-label = モバイル端末と同期
 desktop-to-mobile-qr-code-alt =
-    .aria-label = QR code to download { -brand-product-name } for mobile
+    .aria-label = モバイル版 { -brand-product-name } のダウンロード用 QR コード

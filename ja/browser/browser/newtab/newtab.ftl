@@ -310,12 +310,12 @@ newtab-custom-settings = 他の設定を管理
 
 newtab-wallpaper-title = 壁紙
 newtab-wallpaper-reset = @@DefaultValue@@にリセット
-newtab-wallpaper-upload-image = Upload an image
-newtab-wallpaper-custom-color = Choose a color
+newtab-wallpaper-upload-image = 画像をアップロード
+newtab-wallpaper-custom-color = 色を選択
 # Variables
 #   $file_size (number) - The number of the maximum image file size (in MB) that may be uploaded
-newtab-wallpaper-error-max-file-size = The image exceeded the file size limit of { $file_size }MB. Please try uploading a smaller file.
-newtab-wallpaper-error-file-type = We couldn’t upload your file. Please try again with different file type.
+newtab-wallpaper-error-max-file-size = 画像がファイルサイズの制限 ({ $file_size }MB) を超過しています。もう少しサイズの小さなファイルで試してください。
+newtab-wallpaper-error-file-type = ファイルをアップロードできませんでした。別のファイル形式で再度試してください。
 newtab-wallpaper-light-red-panda = レッサーパンダ
 newtab-wallpaper-light-mountain = 白い雪山
 newtab-wallpaper-light-sky = 紫色の雲と空
@@ -359,11 +359,10 @@ newtab-wallpaper-abstract-purple = 紫色の形状
 newtab-wallpaper-abstract-orange = オレンジ色の形状
 newtab-wallpaper-gradient-orange = オレンジとピンクのグラデーション
 newtab-wallpaper-abstract-blue-purple = 青色と紫色の形状
-newtab-wallpaper-abstract-blue-purple = Blue and purple shapes
-newtab-wallpaper-abstract-white-curves = White with shaded curves
-newtab-wallpaper-abstract-purple-green = Purple and green light gradient
-newtab-wallpaper-abstract-blue-purple-waves = Blue and purple wavy shapes
-newtab-wallpaper-abstract-black-waves = Black wavy shapes
+newtab-wallpaper-abstract-white-curves = 影のついた白色の曲線
+newtab-wallpaper-abstract-purple-green = 紫色と緑色の明るいグラデーション
+newtab-wallpaper-abstract-blue-purple-waves = 青色と紫色の波形の形状
+newtab-wallpaper-abstract-black-waves = 黒色の波形の形状
 
 ## Photographs
 
@@ -374,12 +373,12 @@ newtab-wallpaper-storm-sky = 嵐の空
 newtab-wallpaper-sky-with-pink-clouds = ピンク色に染まる雲
 newtab-wallpaper-red-panda-yawns-in-a-tree = あくびをするレッサーパンダ
 newtab-wallpaper-white-mountains = 白い雪山
-newtab-wallpaper-hot-air-balloons = Assorted color of hot air balloons during daytime
-newtab-wallpaper-starry-canyon = Blue starry night
-newtab-wallpaper-suspension-bridge = Grey full-suspension bridge photography during daytime
-newtab-wallpaper-sand-dunes = White sand dunes
-newtab-wallpaper-palm-trees = Silhouette of coconut palm trees during golden hour
-newtab-wallpaper-forest-trees = Trees covered with fog
+newtab-wallpaper-hot-air-balloons = 昼空に浮かぶさまざまな色の熱気球
+newtab-wallpaper-starry-canyon = 青い星夜
+newtab-wallpaper-suspension-bridge = 昼の灰色の吊橋
+newtab-wallpaper-sand-dunes = 白砂の砂丘
+newtab-wallpaper-palm-trees = 朝焼けに照らされたココヤシの木々のシルエット
+newtab-wallpaper-forest-trees = 霧に覆われた木々
 # Variables
 #   $author_string (String) - The name of the creator of the photo.
 #   $webpage_string (String) - The name of the webpage where the photo is located.
@@ -400,13 +399,13 @@ feature-highlight-wallpaper =
 # “Celestial” referring to astronomy; positioned in or relating to the sky,
 # or outer space as observed in astronomy.
 # Not to be confused with religious definition of the word.
-newtab-wallpaper-category-title-celestial = Celestial
-newtab-wallpaper-celestial-lunar-eclipse = Lunar eclipse
-newtab-wallpaper-celestial-earth-night = Night photo from low Earth orbit
-newtab-wallpaper-celestial-starry-sky = Starry sky
-newtab-wallpaper-celestial-eclipse-time-lapse = Lunar eclipse time lapse
-newtab-wallpaper-celestial-black-hole = Black hole galaxy illustration
-newtab-wallpaper-celestial-river = Satellite image of river
+newtab-wallpaper-category-title-celestial = 宇宙
+newtab-wallpaper-celestial-lunar-eclipse = 月食
+newtab-wallpaper-celestial-earth-night = 地球低軌道からの夜景
+newtab-wallpaper-celestial-starry-sky = 星空
+newtab-wallpaper-celestial-eclipse-time-lapse = 月食のタイムラプス
+newtab-wallpaper-celestial-black-hole = ブラックホール銀河のイラスト
+newtab-wallpaper-celestial-river = 河川の衛星画像
 
 ## New Tab Weather
 
@@ -507,22 +506,22 @@ newtab-section-confirm-block-section-p1 = このセクションをブロック�
 newtab-section-confirm-block-section-p2 = ブロックされたセクションは今後フィードに表示されなくなります。
 newtab-section-block-section-button = このセクションをブロック
 newtab-section-cancel-button = 後で
-newtab-section-confirm-block-topic-p1 = Are you sure you want to block this topic?
-newtab-section-confirm-block-topic-p2 = Blocked topics will no longer appear in your feed.
+newtab-section-confirm-block-topic-p1 = 本当にこのトピックをブロックしますか？
+newtab-section-confirm-block-topic-p2 = ブロックしたトピックはフィードに表示されません。
 # Variables:
 #   $topic (string) - Name of topic that user is blocking
-newtab-section-block-topic-button = Block { $topic }
+newtab-section-block-topic-button = { $topic } をブロック
 
 ## Panel in the Customize menu section to manage followed and blocked topics
 
 newtab-section-mangage-topics-title = トピック
 newtab-section-manage-topics-button-v2 =
-    .label = Manage topics
-newtab-section-mangage-topics-followed-topics = Followed
+    .label = トピックを管理
+newtab-section-mangage-topics-followed-topics = フォロー中
 newtab-section-mangage-topics-button =
     .label = フォロー中およびブロック中のトピック
 newtab-section-mangage-topics-followed-topics-subtitle = フォロー中のトピック
 newtab-section-mangage-topics-followed-topics-empty-state = フォローしているトピックはありません。
-newtab-section-mangage-topics-blocked-topics = Blocked
+newtab-section-mangage-topics-blocked-topics = ブロック中
 newtab-section-mangage-topics-blocked-topics-subtitle = ブロック中のトピック
 newtab-section-mangage-topics-blocked-topics-empty-state = ブロックしているトピックはありません。
