@@ -311,10 +311,10 @@ newtab-custom-settings = 他の設定を管理
 newtab-wallpaper-title = 壁紙
 newtab-wallpaper-reset = @@DefaultValue@@にリセット
 newtab-wallpaper-upload-image = 画像をアップロード
-newtab-wallpaper-custom-color = 色を選択
+newtab-wallpaper-custom-color = @@Color@@を選択
 # Variables
 #   $file_size (number) - The number of the maximum image file size (in MB) that may be uploaded
-newtab-wallpaper-error-max-file-size = 画像がファイルサイズの制限 ({ $file_size }MB) を超過しています。もう少しサイズの小さなファイルで試してください。
+newtab-wallpaper-error-max-file-size = 画像がファイルサイズの上限を超えています。{ $file_size } MB より小さなファイルをアップロードしてください。
 newtab-wallpaper-error-file-type = ファイルをアップロードできませんでした。別のファイル形式で再度試してください。
 newtab-wallpaper-light-red-panda = レッサーパンダ
 newtab-wallpaper-light-mountain = 白い雪山
