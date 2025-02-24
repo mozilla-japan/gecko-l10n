@@ -51,6 +51,8 @@ community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-shor
 community-2 = { -brand-short-name } をデザインしている <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label> は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している <label data-l10n-name="community-creditsLink">グローバルなコミュニティ</label> です。
 helpus = 参加しませんか？ <label data-l10n-name="helpus-donateLink">寄付</label> または <label data-l10n-name="helpus-getInvolvedLink">コミュニティに参加</label> してください！
 bottomLinks-license = ライセンス情報
+bottom-links-terms = 利用規約
+bottom-links-privacy = プライバシー通知
 bottomLinks-rights = あなたの権利について
 bottomLinks-privacy = プライバシーポリシー
 # Example of resulting string: 66.0.1 (64-bit)
