@@ -106,3 +106,8 @@ fxsrc | toolkit, dom, devtools   2d8d737e (2025-02-07)  mar          sync toolki
 fxsrc | browser                  2d8d737e (2025-02-07)  mar          sync browser
 fxsrc | browser, toolkit         b5a57305 (2025-02-18)  kazushi      sync browser, toolkit
 
+[l10n-mozilla-137.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | devtools                 b5a57305 (2025-02-18)  kazushi      sync devtools (途中まで)
+
