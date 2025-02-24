@@ -1155,7 +1155,7 @@ popup-warning-message =
 # The singular form is left out for English, since the number of blocked pop-ups is always greater than 1.
 # Variables:
 #   $popupCount (Number): the number of pop-ups blocked.
-popup-warning-exceeded-message = 
+popup-warning-exceeded-message =
     { $popupCount ->
        *[other] { -brand-short-name } がこのサイトで { $popupCount } 個以上のポップアップ@@Window@@をブロックしました。
     }
@@ -1185,11 +1185,13 @@ file-picker-crashed-open = Windows のファイルダイアログがクラッシ
 #   $path (string): The full path to which the file will be saved (e.g., 'C:\Users\Default User\Downloads\readme.txt').
 file-picker-crashed-save-somewhere = Windows のファイルダイアログがクラッシュしました。ファイルは { $path } に保存されます。
 file-picker-crashed-save-nowhere = Windows のファイルダイアログがクラッシュしました。@@Default-@@フォルダーが見つからないためファイルは保存されません。
+
 # Button used with file-picker-crashed-save-default. Opens the folder in Windows
 # Explorer, with the saved file selected and in focus.
 #
 # The wording here should be consistent with the Windows variant of
 # `downloads-cmd-show-menuitem-2` and similar messages.
+
 file-picker-crashed-show-in-folder =
     .label = フォルダーを開く
     .accessKey = F
