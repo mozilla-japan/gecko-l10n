@@ -109,5 +109,5 @@ fxsrc | browser, toolkit         b5a57305 (2025-02-18)  kazushi      sync browse
 [l10n-mozilla-137.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
-fxsrc | devtools                 b5a57305 (2025-02-18)  kazushi      sync devtools (途中まで)
+fxsrc | devtools                 b5a57305 (2025-02-18)  kazushi      sync devtools
 
