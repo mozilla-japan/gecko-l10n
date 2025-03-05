@@ -1409,23 +1409,16 @@ httpsonly-header = HTTPS-Only モード
 httpsonly-description3 = 安全な接続だけをウェブサイトに許可します。接続が安全でない場合は { -brand-short-name } に確認を求められます。
 httpsonly-learn-more2 = HTTPS-Only モードの動作について
 httpsonly-description = HTTPS は { -brand-short-name } とあなたが訪れるウェブサイトとの間に、暗号化された安全な接続を提供します。多くのウェブサイトは HTTPS に対応しており、HTTPS-Only モードを有効にすると { -brand-short-name } はすべての接続を HTTPS に切り替えます。
-httpsonly-description2 = あなたが訪れたサイトとの間で { -brand-short-name } が暗号化された安全な接続を確立します。HTTPS-Only モードが有効のときに接続が安全でない場合は { -brand-short-name } が警告します。
 httpsonly-learn-more = 詳細
 httpsonly-radio-enabled =
     .label = すべての@@Window@@で HTTPS-Only モードを有効にする
-httpsonly-radio-enabled2 =
-    .label = すべての@@Window@@で HTTPS のみを使用する
 httpsonly-radio-enabled-pbm =
     .label = プライベート@@Window@@のみ HTTPS-Only モードを有効にする
 httpsonly-radio-disabled3 =
     .label = HTTPS-Only モードを有効にしない
     .description = 設定に関わらず { -brand-short-name } は一部の通信を安全な接続にアップグレードすることがあります。
-httpsonly-radio-enabled-pbm2 =
-    .label = プライベート@@Window@@で HTTPS のみを使用する
 httpsonly-radio-disabled =
     .label = HTTPS-Only モードを有効にしない
-httpsonly-radio-disabled2 =
-    .label = HTTPS を優先するが安全でない接続も許可する
 
 ## DoH Section
 
