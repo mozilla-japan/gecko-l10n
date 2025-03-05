@@ -61,13 +61,13 @@ split-dismiss-button-show-fewer-option-label = おすすめの表示を減らす
 split-dismiss-button-manage-settings-option-label = 設定を管理
 # Blocks the message from showing again
 split-dismiss-button-dont-show-option =
-    .label = Don’t show this recommendation again
+    .label = 今後はこのおすすめを表示しない
 # Dismisses message and reduces frequency of message
 split-dismiss-button-show-fewer-option =
-    .label = Show fewer recommendations
+    .label = おすすめの表示を減らす
 # Opens about:preferences#general-cfrfeatures
 split-dismiss-button-manage-settings-option =
-    .label = Manage settings
+    .label = 設定を管理
 
 ## Sidebar Strings
 

@@ -78,11 +78,11 @@ sidebar-context-menu-bookmark-tab =
 sidebar-context-menu-copy-link =
     .label = リンクをコピー
 sidebar-context-menu-hide-sidebar =
-    .label = Hide Sidebar
+    .label = サイドバーを隠す
 sidebar-context-menu-enable-vertical-tabs =
-    .label = Turn on Vertical Tabs
+    .label = 垂直タブをオンにする
 sidebar-context-menu-customize-sidebar =
-    .label = Customize Sidebar
+    .label = サイドバーをカスタマイズ
 # Variables:
 #   $deviceName (String) - The name of the device the user is closing a tab for
 sidebar-context-menu-close-remote-tab =
