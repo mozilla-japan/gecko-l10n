@@ -111,4 +111,5 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | devtools                 b5a57305 (2025-02-18)  kazushi      sync devtools
 fxsrc | browser                  f429f46b (2025-02-25)  kazushi      sync browser
+fxsrc | dom, toolkit             f429f46b (2025-02-25)  kazushi      sync dom, toolkit (途中まで)
 
