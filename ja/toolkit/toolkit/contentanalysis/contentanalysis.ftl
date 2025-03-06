@@ -61,7 +61,7 @@ contentanalysis-error-message-print = @@Print@@が拒否されました。
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
 #   $contentName - Description of the content, such as "clipboard" or "aFile.txt"
-contentanalysis-timeout-block-error-message-content = The connection to { $agent } connection timed out. { $contentName } has been blocked.
+contentanalysis-timeout-block-error-message-content = { $agent } への接続がタイムアウトしました。{ $contentName } はブロックされています。
 contentanalysis-block-dialog-title-upload-file = このファイルのアップロードは許可されていません
 # Variables:
 #   $filename - Name of the file that was blocked, such as "aFile.txt"
