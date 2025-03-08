@@ -50,15 +50,6 @@ experimental-features-ime-search-description = IME (Input Method Editor) は、�
 experimental-features-auto-pip =
     .label = ピクチャーインピクチャー: タブ切り替えで自動的に開く
 experimental-features-auto-pip-description = タブを切り替えたとき、再生中の動画を自動的にピクチャーインピクチャーで開きます。
-genai-settings-chat-title =
-    .label = AI チャットボット
-# Updated sidebar settings
-sidebar-title =
-    .label = サイドバー
-sidebar-description = 履歴や他の端末からのタブ、サイドバー拡張など、あなたのブラウジングに応じて簡単にアクセスできます。<a data-l10n-name="connect">フィードバックを共有</a>
-vertical-tabs-title =
-    .label = 垂直タブ
-vertical-tabs-description = タブをブラウザー上部から側面へ移動します。サイドバーも試してみてください。<a data-l10n-name="connect">フィードバックを共有</a>
 experimental-features-group-developer-tools =
     .label = 開発ツール
 experimental-features-group-webpage-display =

@@ -46,10 +46,6 @@ sidebar-customize-extensions-header = サイドバー拡張
 sidebar-customize-firefox-tools-header =
     .label = { -brand-product-name } ツール
 sidebar-customize-firefox-settings = { -brand-short-name } の設定を管理
-sidebar-position-left =
-    .label = 左側に表示
-sidebar-position-right =
-    .label = 右側に表示
 sidebar-vertical-tabs =
     .label = 垂直タブ
 sidebar-settings =
@@ -64,18 +60,6 @@ sidebar-show-on-the-left =
 # hovers over it.
 expand-sidebar-on-hover =
     .label = カーソルを合わせた時にサイドバーを展開する
-sidebar-horizontal-tabs =
-    .label = 水平タブ
-sidebar-customize-tabs-header =
-    .label = タブ設定
-sidebar-customize-button-header =
-    .label = サイドバーボタン
-sidebar-customize-position-header =
-    .label = サイドバーの配置
-sidebar-visibility-setting-always-show =
-    .label = サイドバーの開閉
-sidebar-visibility-setting-hide-sidebar =
-    .label = サイドバーの表示
 
 ## Labels for sidebar context menu items
 
@@ -93,6 +77,12 @@ sidebar-context-menu-bookmark-tab =
     .label = タブをブックマーク...
 sidebar-context-menu-copy-link =
     .label = リンクをコピー
+sidebar-context-menu-hide-sidebar =
+    .label = サイドバーを隠す
+sidebar-context-menu-enable-vertical-tabs =
+    .label = 垂直タブをオンにする
+sidebar-context-menu-customize-sidebar =
+    .label = サイドバーをカスタマイズ
 # Variables:
 #   $deviceName (String) - The name of the device the user is closing a tab for
 sidebar-context-menu-close-remote-tab =
@@ -138,8 +128,6 @@ sidebar-menu-open-bookmarks-tooltip = ブックマークを開きます ({ $shor
 # Variables:
 #   $shortcut (String) - The OS specific keyboard shortcut.
 sidebar-menu-close-bookmarks-tooltip = ブックマークを閉じます ({ $shortcut })
-sidebar-menu-open-ai-chatbot-tooltip = AI チャットボットを開きます
-sidebar-menu-close-ai-chatbot-tooltip = AI チャットボットを閉じます
 
 ## Tooltips displayed over the AI chatbot icon.
 ## Variables:

@@ -5,11 +5,6 @@
 
 ## Generative AI (GenAI) Settings section
 
-genai-settings-chat-description = あなたの選んだチャットボットをサイドバーに追加して、ブラウジング中に質問できます。<a data-l10n-name="connect">フィードバックを共有</a>
-genai-settings-chat-choose = チャットボットを選んでください
-genai-settings-chat-choose-one-menuitem =
-    .label = どれか一つを選んでください
-genai-settings-chat-links = チャットボットを選ぶと、そのプロバイダーの利用規約およびプライバシーポリシーに同意したものとみなされます。
 genai-settings-chat-chatgpt-links = ChatGPT を選ぶと、OpenAI の <a data-l10n-name="link1">利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
 genai-settings-chat-claude-links = Anthropic Claude を選ぶと、Anthropic の <a data-l10n-name="link1">顧客サービス規約</a> および <a data-l10n-name="link2">利用ポリシー</a>、<a data-l10n-name="link3">プライバシーポリシー</a> に同意したものとみなされます。
 genai-settings-chat-copilot-links = Copilot を選ぶと、<a data-l10n-name="link1">Copilot AI 使用条件</a> および <a data-l10n-name="link2">Microsoft のプライバシーに関する声明</a> に同意したものとみなされます。
@@ -17,9 +12,6 @@ genai-settings-chat-gemini-links = Google Gemini を選ぶと、<a data-l10n-nam
 genai-settings-chat-huggingchat-links = HuggingChat を選ぶと、<a data-l10n-name="link1">HuggingChat プライバシー通知</a> および <a data-l10n-name="link2">Hugging Face プライバシーポリシー</a> に同意したものとみなされます。
 genai-settings-chat-lechat-links = Le Chat Mistral を選ぶと、Mistral AI の <a data-l10n-name="link1">サービス利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
 genai-settings-chat-localhost-links = { -vendor-short-name } の Innovation グループによる <a data-l10n-name="link1">llamafile</a> など独自のプライベートなローカルチャットボットを利用する。
-genai-settings-chat-shortcuts =
-    .description = テキストを選択するとプロンプトへのショートカットが表示されます。{ -brand-short-name } がテキストおよびページタイトル、プロンプトをチャットボットに送信します。
-    .label = 選択テキストにプロンプトを表示する
 
 ## Chatbot prompts
 ## Prompts are plain language ‘instructions’ sent to a chatbot.
