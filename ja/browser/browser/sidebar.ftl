@@ -60,6 +60,9 @@ sidebar-show-on-the-left =
 # hovers over it.
 expand-sidebar-on-hover =
     .label = カーソルを合わせた時にサイドバーを展開する
+expand-on-hover-message =
+    .heading = カーソルを合わせて展開する機能がまもなく実装されます
+    .message = 将来の更新で、カーソルを合わせた時にサイドバーを展開できるようになります。
 
 ## Labels for sidebar context menu items
 

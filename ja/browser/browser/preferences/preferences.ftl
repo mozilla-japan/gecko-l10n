@@ -259,6 +259,17 @@ preferences-web-appearance-override-warning2 =
 # This message contains one link. It can be moved within the sentence as needed
 # to adapt to your language, but should not be changed.
 preferences-web-appearance-footer = <a data-l10n-name="themes-link">アドオンとテーマ</a> で { -brand-short-name } のテーマを管理する
+preferences-contrast-control-header = コントラスト制御
+preferences-contrast-control-description = ウェブサイトは様々な前景@@Color@@と背景@@Color@@を使用しています。読みやすさを向上させるため、ウェブサイトが同じ@@Colors@@を使用するように { -brand-short-name } を設定します。
+preferences-contrast-control-use-platform-settings =
+    .label = 自動 (システム設定を使用)
+    .accesskey = A
+preferences-contrast-control-off =
+    .label = オフ
+    .accesskey = O
+preferences-contrast-control-custom =
+    .label = カスタム
+    .accesskey = C
 preferences-colors-header = @@Colors@@
 preferences-colors-description = ウェブサイトのテキスト、背景、リンクを、{ -brand-short-name } の@@Default-@@@@Colors@@で上書きします。
 preferences-colors-manage-button =
@@ -1111,7 +1122,14 @@ cookie-banner-blocker-checkbox-label =
 ## Privacy Section - Address Bar
 
 addressbar-header = アドレスバー
-addressbar-suggest = アドレスバーの使用時に表示する候補
+addressbar-suggest = アドレスバーの使用時に表示する候補を選択してください。
+# When Firefox Suggest is enabled, this replaces `addressbar-header`.
+addressbar-header-firefox-suggest = アドレスバー — { -firefox-suggest-brand-name }
+# When Firefox Suggest is enabled, this replaces `addressbar-suggest`.
+addressbar-suggest-firefox-suggest = アドレスバーに表示する候補の種類を選択してください。
+# When Firefox Suggest is enabled, a "Learn more" link appears at the end of
+# `addressbar-suggest-firefox-suggest`.
+addressbar-locbar-firefox-suggest-learn-more = 詳細情報
 addressbar-locbar-history-option =
     .label = 閲覧履歴
     .accesskey = h
@@ -1144,7 +1162,18 @@ addressbar-locbar-showrecentsearches-option =
 addressbar-locbar-showtrendingsuggestions-option =
     .label = トレンド検索の候補を表示する
     .accesskey = t
+# Nonsponsored suggestions refers to Firefox Suggest suggestions like Wikipedia.
+addressbar-locbar-suggest-nonsponsored-option =
+    .label = { -brand-short-name } からの検索候補
+addressbar-locbar-suggest-nonsponsored-desc = 検索語句に関連する候補をウェブから取得します
+addressbar-locbar-suggest-sponsored-option =
+    .label = スポンサーからの提案
+addressbar-locbar-suggest-sponsored-desc = スポンサーからの提案を随時表示して { -brand-short-name } を支援します
 addressbar-quickactions-learn-more = 詳細情報
+addressbar-dismissed-suggestions-label = 閉じた提案
+addressbar-restore-dismissed-suggestions-description = スポンサーと { -brand-short-name } からの閉じてしまった提案を復元します。
+addressbar-restore-dismissed-suggestions-button =
+    .label = 復元
 
 ## Privacy Section - Content Blocking
 

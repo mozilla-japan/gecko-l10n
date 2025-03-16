@@ -187,6 +187,15 @@ urlbar-result-menu-remove-from-history =
 urlbar-result-menu-tip-get-help =
     .label = ヘルプを表示
     .accesskey = h
+urlbar-result-menu-dismiss-suggestion =
+    .label = この検索候補を閉じる
+    .accesskey = D
+urlbar-result-menu-learn-more-about-firefox-suggest =
+    .label = { -firefox-suggest-brand-name } についての詳細
+    .accesskey = L
+urlbar-result-menu-manage-firefox-suggest =
+    .label = { -firefox-suggest-brand-name } を管理
+    .accesskey = M
 
 ## Prompts users to use the Urlbar when they open a new tab or visit the
 ## homepage of their default search engine.

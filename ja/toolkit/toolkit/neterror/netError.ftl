@@ -13,6 +13,7 @@ neterror-captive-portal-page-title = ネットワークにログイン
 neterror-dns-not-found-title = サーバーが見つかりませんでした
 neterror-malformed-uri-page-title = 不正な URL
 general-body-title = 注意してください。何かがいつもと違います。
+problem-with-this-site-title = このサイトに問題があるようです
 
 ## Error page actions
 
