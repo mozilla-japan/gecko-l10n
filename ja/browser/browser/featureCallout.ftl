@@ -75,6 +75,30 @@ sidebar-button-callout-title = タブのタイトルをサイドバーに表示�
 sidebar-button-callout-subtitle = サイドバーボタンでサイドバーを展開すると、タブのタイトルを確認できます。
 sidebar-button-callout-vertical-tabs = タブを表示するには、ツールバーのサイドバーボタンを選択します。
 
+## Sidebar Vertical Tabs Strings
+
+vertical-tabs-callout-1-title = 多すぎるタブに目が回る？
+vertical-tabs-callout-1-subtitle = タブのリストからすばやく見つけられる、新しい垂直タブレイアウトをお試しください。早期テスターからは、このレイアウトによって整理された感じがあると報告されています。いつでも切り替えられます。
+vertical-tabs-callout-1-cta-button = 垂直タブを試す
+vertical-tabs-callout-2-cta-button = 今すぐ試す
+vertical-tabs-callout-2-title = タブを多く開いていませんか？ 垂直タブを試してください。
+vertical-tabs-callout-2-subtitle = このレイアウトはタブのリストから簡単にすばやく見つけられます。加えて、タブタイトルの幅を広げることも狭めることもできます。
+
+## Sidebar Vertical Tabs Pinning Strings
+
+sidebar-pins-callout-title = 重要なタブを見失っていませんか？
+sidebar-pins-callout-subtitle = タブのピン留めをお試しください。これはタブをリストの上部にピン留めします。ピン留めしたいタブを右クリックして、@@[@@タブをピン留め@@]@@ を選んでください。
+sidebar-pins-callout-cta-button = タブをピン留め
+
+## Sidebar Onboarding Strings
+
+sidebar-customization-callout-1-title = サイドバー: ツールとタブがスポッと収まります
+sidebar-customization-callout-1-subtitle = { -brand-product-name } のサイドバーは、現在の画面から離れることなく、ブラウジング履歴や他の端末からのタブ、AI チャットボットへのすばやいアクセスを提供します。
+sidebar-customization-callout-callout-button = サイドバーをカスタマイズ
+sidebar-customization-callout-dismiss-button = サイドバーを隠す
+sidebar-customization-callout-2-title = あなただけの { -brand-product-name } サイドバー
+sidebar-customization-callout-2-subtitle = ツールの追加と削除だけでなく、タブをサイドバーに配置したり AI チャットボットを試したり。サイドバーのカスタマイズはあなた次第です。
+
 ## Sidebar Callout Survey Strings
 
 sidebar-callout-survey-title = { -brand-short-name } の改善に協力する
