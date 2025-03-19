@@ -137,12 +137,12 @@ account-hub-email-error-text = 正しいメールアドレスを入力してく�
 account-hub-name-error-text = 氏名を入力してください
 account-hub-hostname-error-text = ホスト名が未入力または正しくありません。英数字と - . のみが使用できます
     .title = ホスト名が未入力または正しくありません。英数字と - . のみが使用できます
-account-hub-port-error-text = ポート番号は 1 から 65535 までの間の数値です
-    .title = ポート番号は 1 から 65535 までの間の数値です
+account-hub-port-error-text = ポート番号は 1 から 65535 までの間の数値を入力してください
+    .title = ポート番号は 1 から 65535 までの間の数値を入力してください
 account-hub-username-error-text = ユーザー名が必要です
     .title = ユーザー名が必要です
 account-hub-oauth-pending = ログインポップアップで認証を待機しています...
 account-hub-addon-install-needed = { -brand-short-name } 本体はこのサーバーに対応していません。Exchange メールにアクセスするには <a data-l10n-name="addon-install">Owl (有料) などサードパーティ製のアドオンをインストールしてください</a>。
 account-hub-addon-error = アドオンのインストールに失敗しました。もう一度試すか、アドオンの作者に問い合わせてください。
-account-hub-security-warning = <span data-l10n-name="security-warning">警告: 安全でないメールサーバーが検知されました。</span> このサーバーとの接続は暗号化されておらず、パスワードとデータが漏洩する危険性があります。安全な接続を行うように端末の管理者に問い合わせるか、危険性を承知の上で進んでください。<a data-l10n-name="faq-link">詳細は FAQ をごらんください。</a>
+account-hub-security-warning = <span data-l10n-name="security-warning">警告: 安全でないメールサーバーが検知されました。</span> このサーバーとの接続は暗号化されておらず、パスワードとデータが漏洩する危険性があります。安全な接続を行うように端末の管理者に伝えるか、危険性を承知の上で進んでください。<a data-l10n-name="faq-link">詳細は FAQ をご覧ください。</a>
 account-hub-addon-needed = { -brand-full-name } 本体はこのサーバーに対応していません。Exchange メールにアクセスするには <a data-l10n-name="addon-install">Owl (有料) などサードパーティ製のアドオンをインストールしてください</a>。
