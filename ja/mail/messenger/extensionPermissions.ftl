@@ -27,3 +27,4 @@ webext-perms-description-messagesUpdate = メッセージのプロパティと�
 webext-perms-description-messagesTags = メッセージタグの作成と変更、削除
 webext-perms-description-messagesTagsList =メッセージタグのリスト表示
 webext-perms-description-sensitiveDataUpload = 個人情報を含むユーザーデータを (アクセスが承認されている場合に) さらに処理を行うためリモートサーバーへ送信
+webext-perms-description-messengerSettings = { -brand-short-name } の設定の読み取り

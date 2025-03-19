@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Header lists
 
 message-header-to-list-name = 宛先
@@ -97,3 +98,12 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = 続き
     .title = すべての受信者を表示します
 message-ids-field-show-all = すべて表示
+
+## Dark Message Mode
+
+dark-message-mode-disable-toggle =
+    .title = ダークメッセージモードは無効です
+dark-message-mode-toggle-enabled =
+    .title = ダークメッセージモードを無効にします
+dark-message-mode-toggle-disabled =
+    .title = ダークメッセージモードを有効にします
