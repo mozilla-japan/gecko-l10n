@@ -16,7 +16,7 @@ messenger-window-close-button =
 # Variables:
 # $count (Number) - Number of unread messages.
 unread-messages-os-tooltip =
-    { $count ->
+    { NUMBER($count) ->
         [one] 1 通の未読メッセージ
        *[other] { $count } 通の未読メッセージ
     }
@@ -33,7 +33,6 @@ content-tab-security-broken-icon =
 
 # Back
 
-# Back
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -47,7 +46,6 @@ content-tab-menu-back-mac =
 
 # Forward
 
-# Forward
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -61,7 +59,6 @@ content-tab-menu-forward-mac =
 
 # Reload
 
-# Reload
 content-tab-menu-reload =
     .tooltiptext = ページを再度読み込みます
     .aria-label = 再読み込み
@@ -74,7 +71,6 @@ content-tab-menu-reload-mac =
 
 # Stop
 
-# Stop
 content-tab-menu-stop =
     .tooltiptext = ページの読み込みを中止します
     .aria-label = 中止
@@ -87,7 +83,6 @@ content-tab-menu-stop-mac =
 
 ## Toolbar
 
-# Toolbar
 addons-and-themes-toolbarbutton =
     .label = アドオンとテーマ
     .tooltiptext = アドオンを管理します
@@ -152,7 +147,7 @@ menu-edit-unsubscribe-newsgroup =
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] メッセージを削除
            *[other] 選択したメッセージを削除
         }
@@ -161,7 +156,7 @@ menu-edit-delete-messages =
 # $count (Number) - Number of selected messages.
 menu-edit-undelete-messages =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] 削除メッセージを@@Undo@@
            *[other] 選択した削除メッセージを@@Undo@@
         }
@@ -230,7 +225,7 @@ mail-context-menu-forward-inline =
 # $count (Number) - Number of selected messages.
 mail-context-menu-forward-as-attachment =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] 添付ファイル
            *[other] 添付ファイル
         }
@@ -250,7 +245,7 @@ context-menu-cancel-msg =
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] メッセージを削除
            *[other] 選択したメッセージを削除
         }
@@ -259,7 +254,7 @@ mail-context-messages-delete =
 # $count (Number) - Number of selected messages.
 mail-context-messages-undelete =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] 削除メッセージを元に戻す
            *[other] 選択した削除メッセージを元に戻す
         }
@@ -275,13 +270,16 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = スター付き
     .aria-label = スター付き
+message-header-delete =
+    .label = 削除
+    .tooltiptext = このメッセージを削除します
+message-header-undelete =
+    .label = 削除を元に戻す
+    .tooltiptext = この削除したメッセージを元に戻します
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
     .alt = { $address } のプロファイル写真
-
-## Message header cutomize panel
-
 
 ## Message header customize panel
 
@@ -314,6 +312,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = すべてのヘッダーを表示する
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = ダークメッセージモードの切り替えを表示する
+    .accesskey = d
 
 ## Action Button Context Menu
 
@@ -354,7 +355,7 @@ no-reply-reply-anyway-button = 強制返信する
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures-multiple =
-    { $failures ->
+    { NUMBER($failures) ->
         [one] { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
        *[other] { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
     }
@@ -421,7 +422,7 @@ spaces-pinned-button-menuitem-show =
 # $count (Number) - Number of unread messages.
 chat-button-unread-messages = { $count }
     .title =
-        { $count ->
+        { NUMBER($count) ->
             [one] 1 件の未読メッセージ
            *[other] { $count } 件の未読メッセージ
         }
@@ -469,3 +470,9 @@ openpgp-forget = 入力した OpenPGP のパスフレーズを時間切れにす
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% 使用
     .title = IMAP クォータ: ディスク領域の割り当て { $limit } 中の { $usage } を使用しています
+
+## Actions for the New Mail Notification
+
+mark-as-read-action = 既読にする
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = 何もしない

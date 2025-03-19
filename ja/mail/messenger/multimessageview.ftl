@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = 削除
     .tooltiptext = 削除
+multi-message-undelete-button =
+    .label = 削除を元に戻す
+    .tooltiptext = 削除を元に戻す
