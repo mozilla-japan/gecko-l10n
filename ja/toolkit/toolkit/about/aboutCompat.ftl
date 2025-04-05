@@ -11,6 +11,7 @@ label-more-information = 詳細情報: Bug { $bug }
 label-overrides = ユーザーエージェントの上書き
 text-disabled-in-about-config =この機能は about:config で無効化されています
 text-no-interventions = 互換性のための介入はありません
+text-page-title = ウェブ互換性
 text-no-overrides = ユーザーエージェントの上書きはありません
 text-title = about:compat
 

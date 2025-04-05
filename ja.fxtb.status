@@ -104,7 +104,6 @@ fxsrc | toolkit, dom, devtools   2d8d737e (2025-02-07)  mar          sync toolki
 fxsrc | browser                  2d8d737e (2025-02-07)  mar          sync browser
 fxsrc | browser, toolkit         b5a57305 (2025-02-18)  kazushi      sync browser, toolkit
 
-^---Released!
 
 [l10n-mozilla-137.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
@@ -113,4 +112,11 @@ fxsrc | devtools                 b5a57305 (2025-02-18)  kazushi      sync devtoo
 fxsrc | browser, dom, toolkit    f429f46b (2025-02-25)  kazushi      sync browser, dom, toolkit
 fxsrc | browser, toolkit, ...    37db7aa7 (2025-03-12)  mar          sync browser, toolkit, dom, devtools
 tbsrc | mail                     a6b1909f (2025-03-18)  mar          sync mail
+
+^---Released!
+
+[l10n-mozilla-138.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | toolkit, dom, security   66517676 (2025-04-03)  mar          sync toolkit, dom, netwerk, security
 

@@ -79,3 +79,6 @@ autofill-category-name = お名前
 autofill-category-organization = 所属組織
 autofill-category-tel = 電話番号
 autofill-category-email = メールアドレス
+# This string is used in drop down suggestion when users try to autofill credit
+# card on an insecure website (without https).
+autofill-insecure-field-warning-description = { -brand-short-name } が安全でないサイトを検出しました。フォーム自動入力が一時的に無効化されています。
