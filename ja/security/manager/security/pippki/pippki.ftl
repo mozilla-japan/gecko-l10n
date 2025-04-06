@@ -86,6 +86,14 @@ client-auth-cert-details-issued-by = 発行者名: { $issuedBy }
 # Variables:
 # $storedOn (String) - The name of the token holding the certificate (for example, "OS Client Cert Token (Modern)")
 client-auth-cert-details-stored-on = 格納先: { $storedOn }
+client-auth-cert-remember-label = 今後も同様に処理する:
+client-auth-cert-remember-never =
+    .label = 今回のみ
+# en-US: Permanently
+client-auth-cert-remember-always =
+    .label = 次回からは確認しない
+client-auth-cert-remember-temporarily =
+    .label = このセッションのみ
 client-auth-cert-remember-box =
     .label = 今後も同様に処理する
 

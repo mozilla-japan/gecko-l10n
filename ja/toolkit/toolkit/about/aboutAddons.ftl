@@ -211,6 +211,10 @@ addon-updates-manual-updates-found = 更新可能なアドオンを表示
 
 addon-install-from-file = ファイルからアドオンをインストール...
     .accesskey = I
+# Like `addon-install-from-file` but used when the `extensions.webextensions.prefer-update-over-install-for-existing-addon`
+# pref is set.
+addon-install-or-update-from-file = ファイルからアドオンをインストールまたは更新...
+    .accesskey = I
 addon-install-from-file-dialog-title = インストールするアドオンを選択してください
 addon-install-from-file-filter-name = アドオン
 addon-open-about-debugging = アドオンをデバッグ

@@ -4,40 +4,9 @@
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
-experimental-features-css-masonry2 =
-    .label = CSS: Masonry レイアウト
-experimental-features-css-masonry-description = 実験的な CSS Masonry レイアウト機能のサポートを有効にします。この機能の解説は <a data-l10n-name="explainer">こちらの説明</a> を参照してください。フィードバックを提供するには、<a data-l10n-name="w3c-issue">GitHub issue</a> または <a data-l10n-name="bug">こちらのバグ</a> にコメントしてください。
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
-experimental-features-web-gpu2 =
-    .label = Web API: WebGPU
-experimental-features-web-gpu-description3 = <a data-l10n-name="wikipedia-webgpu">WebGPU API</a> は、ユーザーの端末やコンピューターに搭載された <a data-l10n-name="wikipedia-gpu">Graphics Processing Unit (GPU)</a> を使用するグラフィックス描画と計算を扱うための低レベルサポートを提供します。この <a data-l10n-name="spec">仕様</a> の最初のバージョンが最終草案に近づいています。詳細は <a data-l10n-name="bugzilla">bug 1602129</a> を参照してください。
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
 experimental-features-media-jxl =
     .label = メディア: JPEG XL
 experimental-features-media-jxl-description = この機能を有効にすると、{ -brand-short-name } が JPEG XL (JXL) 形式をサポートします。これは、従来の JPEG ファイルからロスレスで移行できる改良された画像ファイル形式です。詳細は <a data-l10n-name="bugzilla">bug 1539075</a> を参照してください。
-experimental-features-devtools-compatibility-panel =
-    .label = 開発ツール: 互換性パネル
-experimental-features-devtools-compatibility-panel-description = アプリのブラウザー互換性情報を表示するページインスペクターのサイドパネルです。詳細は <a data-l10n-name="bugzilla">bug 1584464</a> を参照してください。
-# Do not translate 'SameSite', 'Lax' and 'None'.
-experimental-features-cookie-samesite-none-requires-secure2 =
-    .label = Cookie: SameSite=None は secure 属性が必要
-experimental-features-cookie-samesite-none-requires-secure2-description = “SameSite=None” 属性が指定された Cookie は secure 属性を必要とします。この機能は “Cookie: @@Default@@で SameSite=Lax” を必要とします。
-# about:home should be kept in English, as it refers to the the URI for
-# the internal default home page.
-experimental-features-abouthome-startup-cache =
-    .label = about:home 起動時キャッシュ
-experimental-features-abouthome-startup-cache-description = 起動時に@@Default@@で読み込まれる初期 about:home ドキュメントのキャッシュ。このキャッシュの目的は起動時のパフォーマンスを向上させることです。
-# "Service Worker" is an API name and is usually not translated.
-experimental-features-devtools-serviceworker-debugger-support =
-    .label = 開発ツール: Service Worker のデバッグ
-# "Service Worker" is an API name and is usually not translated.
-experimental-features-devtools-serviceworker-debugger-support-description = 開発ツールのデバッガーパネルで Service Worker の実験的なサポートを有効にします。この機能は開発ツールの動作を遅くし、メモリー消費が増加します。
-# WebRTC global mute toggle controls
-experimental-features-webrtc-global-mute-toggles =
-    .label = WebRTC の全ミュート切り替え
-experimental-features-webrtc-global-mute-toggles-description = WebRTC グローバル共有インジケーターで、マイクとカメラの映像のミュートをグローバルに操作できるようになりました。
 # JS JIT Warp project
 experimental-features-js-warp =
     .label = JavaScript JIT: Warp
@@ -56,4 +25,19 @@ experimental-features-group-webpage-display =
     .label = ウェブページの表示
 experimental-features-group-customize-browsing =
     .label = ブラウジングのカスタマイズ
-experimental-features-group-customize-browsing-description = これらの機能を試したら <a data-l10n-name="connect">Connect に感想をお寄せください</a>。
+# Contextual Password Manager in sidebar
+experimental-features-contextual-password-manager =
+    .label = サイドバーでパスワード管理
+experimental-features-contextual-password-manager-description = サイドバーからパスワードにアクセスできます。ログイン時にパスワードを探しまわってリセットせずにすみます。この機能を使うには、サイドバーからパスワードを選択します。一般設定のブラウザーレイアウトから @@[@@サイドバーを表示する@@]@@ を選択し、@@[@@サイドバーをカスタマイズ@@]@@ から @@[@@パスワード@@]@@ を選択してください。ぜひ、<a data-l10n-name="connect">試してみた感想をお聞かせください</a>。
+# New Tab Custom Wallpapers
+experimental-features-custom-wallpaper =
+    .label = @@NewTab@@の壁紙や背景@@Color@@を選べます
+experimental-features-custom-wallpaper-description = @@NewTab@@の背景に自分だけの壁紙をアップロードするか、お好きな@@Color@@を選べます。
+# Link Previews with AI
+experimental-features-link-previews =
+    .label = リンクプレビュー
+experimental-features-link-previews-description =
+    { PLATFORM() ->
+        [macos] クリックする前にウェブページについて知るには、リンクにマウスカーソルを合わせ、Shift (⇧) キーを押しながら Option (⌥) または Alt キーを押します。プレビューにはページタイトルや読了時間などの詳細が含まれます。一部のウェブページでは、AI がページテキストを読んで要点を生成することもできます。この AI は英文テキストの読み込みと生成に最適化されています。ユーザーのプライバシーを優先するため、AI はユーザーのコンピューター上で実行されます。<a data-l10n-name="connect">フィードバックを共有してください</a>。
+       *[other] クリックする前にウェブページについて知るには、リンクにマウスカーソルを合わせ、Shift + Alt キーを押します。プレビューにはページタイトルや読了時間などの詳細が含まれます。一部のウェブページでは、AI がページテキストを読んで要点を生成することもできます。この AI は英文テキストの読み込みと生成に最適化されています。ユーザーのプライバシーを優先するため、AI はユーザーのコンピューター上で実行されます。<a data-l10n-name="connect">フィードバックを共有してください</a>。
+    }

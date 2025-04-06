@@ -56,4 +56,3 @@ experimental-features-group-webpage-display =
     .label = ウェブページの表示
 experimental-features-group-customize-browsing =
     .label = ブラウジングのカスタマイズ
-experimental-features-group-customize-browsing-description = これらの機能を試したら <a data-l10n-name="connect">Connect に感想をお寄せください</a>。
