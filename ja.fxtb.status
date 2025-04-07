@@ -119,4 +119,5 @@ tbsrc | mail                     a6b1909f (2025-03-18)  mar          sync mail
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | toolkit, dom, security   66517676 (2025-04-03)  mar          sync toolkit, dom, netwerk, security
+tbsrc | mail                     c7a3d77d (2025-03-28)  mar          sync mail
 
