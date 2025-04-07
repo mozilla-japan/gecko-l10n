@@ -120,9 +120,6 @@ account-hub-creating-account = アカウントを作成しています...
 account-hub-sync-accounts-found = { -brand-short-name } が接続されたサービスを見つけました
 account-hub-sync-accounts-not-found = { -brand-short-name } が接続されたサービスを見つけられませんでした
 account-hub-sync-accounts-failure = { -brand-short-name } が選択されたサービスに接続できませんでした
-account-hub-sync-success = Thunderbird が接続されたサービスを見つけました
-account-hub-sync-failure = Thunderbird が接続されたサービスを見つけられませんでした
-account-hub-unable-to-sync-accounts = Thunderbird が選択されたサービスに接続できませんでした
 account-hub-email-added-success = メールアカウントの接続が完了しました
 account-hub-config-test-success = 正しく設定されています
 account-hub-select-all = @@SelectAll@@
@@ -145,4 +142,4 @@ account-hub-oauth-pending = ログインポップアップで認証を待機し�
 account-hub-addon-install-needed = { -brand-short-name } 本体はこのサーバーに対応していません。Exchange メールにアクセスするには <a data-l10n-name="addon-install">Owl (有料) などサードパーティ製のアドオンをインストールしてください</a>。
 account-hub-addon-error = アドオンのインストールに失敗しました。もう一度試すか、アドオンの作者に問い合わせてください。
 account-hub-security-warning = <span data-l10n-name="security-warning">警告: 安全でないメールサーバーが検知されました。</span> このサーバーとの接続は暗号化されておらず、パスワードとデータが漏洩する危険性があります。安全な接続を行うように端末の管理者に伝えるか、危険性を承知の上で進んでください。<a data-l10n-name="faq-link">詳細は FAQ をご覧ください。</a>
-account-hub-addon-needed = { -brand-full-name } 本体はこのサーバーに対応していません。Exchange メールにアクセスするには <a data-l10n-name="addon-install">Owl (有料) などサードパーティ製のアドオンをインストールしてください</a>。
+account-hub-account-authentication-error = 認証エラー

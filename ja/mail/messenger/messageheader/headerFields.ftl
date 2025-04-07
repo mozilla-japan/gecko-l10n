@@ -101,8 +101,6 @@ message-ids-field-show-all = すべて表示
 
 ## Dark Message Mode
 
-dark-message-mode-disable-toggle =
-    .title = ダークメッセージモードは無効です
 dark-message-mode-toggle-enabled =
     .title = ダークメッセージモードを無効にします
 dark-message-mode-toggle-disabled =
