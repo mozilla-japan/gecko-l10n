@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-policies-title = エンタープライズポリシー
+aboutpolicies-page-heading =
+    .heading = ポリシーについて
 # 'Active' is used to describe the policies that are currently active
 active-policies-tab = 有効
 errors-tab = エラー

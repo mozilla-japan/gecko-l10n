@@ -54,12 +54,6 @@ fx-view-discoverability-secondary-button-label = 閉じる
 ## Split Dismiss Button Labels
 
 # Blocks the message from showing again
-split-dismiss-button-dont-show-option-label = 今後はこのおすすめを表示しない
-# Dismisses message and reduces frequency of message
-split-dismiss-button-show-fewer-option-label = おすすめの表示を減らす
-# Opens about:preferences#general-cfrfeatures
-split-dismiss-button-manage-settings-option-label = 設定を管理
-# Blocks the message from showing again
 split-dismiss-button-dont-show-option =
     .label = 今後はこのおすすめを表示しない
 # Dismisses message and reduces frequency of message
@@ -141,6 +135,6 @@ actions-callout-title = 共通のタスクを実行、または基本設定へ�
 # These example text inputs correlate to the the following strings
 # (either matching the whole string, or the first word of the string).
 # "print" - quickactions-cmd-print
-# "clear" - quickactions-cmd-clearhistory
+# "clear" - quickactions-cmd-clearrecenthistory
 # When localizing, ensure the translations match to ensure the action button appears as expected.
 actions-callout-subtitle = “print” と入力するとページを@@Print@@、“clear” と入力すると履歴を消去できます。

@@ -4,7 +4,7 @@
 
 
 ## Error messages for failed HTTP web requests.
-## https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses
+## https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status#client_error_responses
 ## Variables:
 ##   $status (Number) - HTTP status code, for example 403
 

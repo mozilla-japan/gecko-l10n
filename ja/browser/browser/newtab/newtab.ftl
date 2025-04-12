@@ -117,6 +117,7 @@ newtab-menu-delete-pocket = { -pocket-brand-name } から削除
 newtab-menu-archive-pocket = { -pocket-brand-name } にアーカイブ
 newtab-menu-show-privacy-info = 私たちのスポンサーとあなたのプライバシー
 newtab-menu-about-fakespot = { -fakespot-brand-name } について
+newtab-menu-report-content = このコンテンツを報告
 # Context menu option to personalize New Tab recommended stories by blocking a section of stories,
 # e.g. "Sports". "Block" is a verb here.
 newtab-menu-section-block = ブロック
@@ -124,10 +125,16 @@ newtab-menu-section-block = ブロック
 # e.g. Following the travel section of stories.
 newtab-menu-section-unfollow = トピックのフォローを解除
 
+## Context menu options for sponsored stories and new ad formats on New Tab.
+
+newtab-menu-manage-sponsored-content = 広告コンテンツを管理
+newtab-menu-our-sponsors-and-your-privacy = 私たちのスポンサーとユーザーのプライバシー
+newtab-menu-report-this-ad = この広告を報告
+
 ## Message displayed in a modal window to explain privacy and provide context for sponsored content.
 
 newtab-privacy-modal-button-done = 完了
-newtab-privacy-modal-button-manage = スポンサーコンテンツの設定を管理
+newtab-privacy-modal-button-manage = 広告コンテンツの設定を管理
 newtab-privacy-modal-header = プライバシーは重要です。
 newtab-privacy-modal-paragraph-2 =
     盛り上がる魅力あるストーリーに加えて、選ばれたスポンサーからあなたの興味を引きそうな厳選コンテンツを提供します。
@@ -377,6 +384,7 @@ newtab-wallpaper-starry-canyon = 青い星夜
 newtab-wallpaper-suspension-bridge = 昼の灰色の吊橋
 newtab-wallpaper-sand-dunes = 白砂の砂丘
 newtab-wallpaper-palm-trees = 朝焼けに照らされたココヤシの木々のシルエット
+newtab-wallpaper-blue-flowers = 咲き誇る青い花のクローズアップ写真
 newtab-wallpaper-forest-trees = 霧に覆われた木々
 # Variables
 #   $author_string (String) - The name of the creator of the photo.
@@ -501,9 +509,6 @@ newtab-section-unblock-button = ブロック解除
 
 ## Confirmation modal for blocking a section
 
-newtab-section-confirm-block-section-p1 = このセクションをブロックしてもよろしいですか？
-newtab-section-confirm-block-section-p2 = ブロックされたセクションは今後フィードに表示されなくなります。
-newtab-section-block-section-button = このセクションをブロック
 newtab-section-cancel-button = 後で
 newtab-section-confirm-block-topic-p1 = 本当にこのトピックをブロックしますか？
 newtab-section-confirm-block-topic-p2 = ブロックしたトピックはフィードに表示されません。
@@ -517,10 +522,10 @@ newtab-section-mangage-topics-title = トピック
 newtab-section-manage-topics-button-v2 =
     .label = トピックを管理
 newtab-section-mangage-topics-followed-topics = フォロー中
-newtab-section-mangage-topics-button =
-    .label = フォロー中およびブロック中のトピック
-newtab-section-mangage-topics-followed-topics-subtitle = フォロー中のトピック
 newtab-section-mangage-topics-followed-topics-empty-state = フォローしているトピックはありません。
 newtab-section-mangage-topics-blocked-topics = ブロック中
-newtab-section-mangage-topics-blocked-topics-subtitle = ブロック中のトピック
 newtab-section-mangage-topics-blocked-topics-empty-state = ブロックしているトピックはありません。
+newtab-custom-wallpaper-title = カスタム壁紙が利用できます
+# 'Make firefox yours" means to customize or personalize
+newtab-custom-wallpaper-subtitle = 壁紙をアップロードするかお好みの@@Color@@を選んで、あなただけの { -brand-product-name } にカスタマイズしましょう。
+newtab-custom-wallpaper-cta = 壁紙を試す
