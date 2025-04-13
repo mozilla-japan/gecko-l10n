@@ -332,6 +332,9 @@ quickactions-cmd-addons2 = add-ons
 quickactions-bookmarks2 = ブックマークを管理
 quickactions-cmd-bookmarks = bookmarks
 # Opens a SUMO article explaining how to clear history
+quickactions-clearrecenthistory = 最近の履歴を消去
+quickactions-cmd-clearrecenthistory = clear recent history, history
+# Opens a SUMO article explaining how to clear history
 quickactions-clearhistory = 履歴を消去
 quickactions-cmd-clearhistory = clear history
 # Opens about:downloads page
@@ -340,8 +343,18 @@ quickactions-cmd-downloads = downloads
 # Opens about:addons page in the extensions section
 quickactions-extensions = 拡張機能を管理
 quickactions-cmd-extensions = extensions
+# Opens Firefox View
+quickactions-firefoxview = { -firefoxview-brand-name } を開く
+# English is using "view" and "open view", since the feature name is
+# "Firefox View". If you have translated the name in your language, you
+# should use a word related to the existing translation.
+quickactions-cmd-firefoxview = open { -firefoxview-brand-name }, { -firefoxview-brand-name }, open view, view
+# Opens SUMO home page
+quickactions-help = { -brand-product-name } ヘルプ
+quickactions-cmd-help = help, support
 # Opens the devtools web inspector
 quickactions-inspector2 = 開発ツールを開く
+quickactions-cmd-inspector2 = inspector, devtools, dev tools
 quickactions-cmd-inspector = inspector, devtools
 # Opens about:logins
 quickactions-logins2 = パスワードを管理
@@ -366,6 +379,7 @@ quickactions-restart = { -brand-short-name } を再起動
 quickactions-cmd-restart = restart
 # Opens the screenshot tool
 quickactions-screenshot3 = スクリーンショットを撮影
+quickactions-cmd-screenshot2 = screenshot, take a screenshot
 quickactions-cmd-screenshot = screenshot
 # Opens about:preferences
 quickactions-settings2 = 設定を管理
@@ -377,7 +391,8 @@ quickactions-cmd-themes = themes
 quickactions-update = { -brand-short-name } を更新
 quickactions-cmd-update = update
 # Opens the view-source UI with current pages source
-quickactions-viewsource2 = ページのソースを表示
+quickactions-viewsource2 = View page source
+quickactions-cmd-viewsource2 = view source, source, page source
 quickactions-cmd-viewsource = view source, source
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
@@ -682,17 +697,23 @@ urlbar-result-action-copy-to-clipboard = コピー
 urlbar-result-action-calculator-result = = { $result }
 # The string returned for an undefined calculator result such as when dividing by 0
 urlbar-result-action-undefined-calculator-result = 未定義
-# Shows the result of a formula expression being calculated, to a maximum of 9 significant
-# digits. The last = sign will be shown as part of the result (e.g. "= 2").
-# Variables
-#  $result (String): the string representation for a formula result
-urlbar-result-action-calculator-result-2 = = { NUMBER($result, maximumSignificantDigits: 9) }
 # Shows the result of a formula expression being calculated, in scientific notation.
 # The last = sign will be shown as part of the result (e.g. "= 1.0e17").
 # Variables
 #  $result (String): the string representation for a result in scientific notation
 #  (e.g. "1.0e17").
 urlbar-result-action-calculator-result-scientific-notation = = { $result }
+# Shows the result of a formula expression being calculated, this is used for numbers >= 1.
+# The last = sign will be shown as part of the result (e.g. "= 2").
+# Variables
+#  $result (String): the string representation for a formula result
+urlbar-result-action-calculator-result-3 = = { NUMBER($result, useGrouping: "false", maximumFractionDigits: 8) }
+# Shows the result of a formula expression being calculated, to a maximum of 9 significant
+# digits. This is used for numbers < 1.
+# The last = sign will be shown as part of the result (e.g. "= 0.333333333").
+# Variables
+#  $result (String): the string representation for a formula result
+urlbar-result-action-calculator-result-decimal = = { NUMBER($result, maximumSignificantDigits: 9) }
 
 ## Strings used for buttons in the urlbar
 
@@ -723,7 +744,6 @@ urlbar-searchmode-exit-button =
 urlbar-searchmode-popup-description = 今回だけ使う検索エンジン:
 urlbar-searchmode-popup-search-settings-menuitem =
     .label = 検索設定
-urlbar-searchmode-popup-search-settings = 検索設定
 # Searchmode Switcher button
 # Variables:
 #   $engine (String): the current default search engine.
@@ -970,6 +990,9 @@ panel-save-update-password = パスワード
 # "More" item in macOS share menu
 menu-share-more =
     .label = その他...
+menu-share-copy-link =
+    .label = リンクをコピー
+    .accesskey = L
 ui-tour-info-panel-close =
     .tooltiptext = 閉じる
 

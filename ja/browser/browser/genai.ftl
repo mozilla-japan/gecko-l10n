@@ -114,8 +114,11 @@ genai-options-about-chatbot =
 ## Chatbot onboarding
 
 genai-onboarding-header = ブラウジングしながらページの要約、ブレーンストーミングなど。
+genai-onboarding-choose-header = { -brand-short-name } サイドバー内で使用する AI チャットボットを選んでください
 # "Switch anytime" refers to allowing the user to switch to a different chatbot.
 genai-onboarding-description = { -brand-short-name } のサイドバーで利用する AI チャットボットを選んでください。選択すると各チャットボットの詳細が表示され、いつでも切り替えられます。<a data-l10n-name="learn-more">詳細情報</a>
+# "Switch anytime" refers to allowing the user to switch to a different chatbot.
+genai-onboarding-choose-description = いつでも切り替えられます。チャットボットの選び方については、<a data-l10n-name="learn-more">各チャットボットの詳細</a> をご覧ください。
 genai-onboarding-primary = 続ける
 genai-onboarding-secondary = 閉じる
 genai-onboarding-claude-tooltip =
@@ -160,3 +163,12 @@ genai-onboarding-huggingchat-switch = 多様なオープンモデルのセット
 genai-onboarding-huggingchat-price-2 = 利用無料、一定回数の利用後はアカウントが必要
 genai-onboarding-lechat-generate = テキストおよびコードの生成
 genai-onboarding-lechat-price = 利用無料、アカウントが必要
+
+## Model Optin Component
+
+genai-model-optin-continue =
+    .label = 続ける
+genai-model-optin-optout =
+    .label = キャンセル
+genai-model-optin-cancel =
+    .label = キャンセル

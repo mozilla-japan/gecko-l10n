@@ -62,6 +62,14 @@ perftools-button-add-directory = ディレクトリーを追加
 perftools-button-remove-directory = 選択したディレクトリーを削除
 perftools-button-edit-settings = 設定を編集...
 
+## More actions menu
+
+perftools-menu-more-actions-button =
+    .title = 他の操作
+perftools-menu-more-actions-restart-with-profiling = 起動時プロファイリングを有効にして { -brand-shorter-name } を再起動
+perftools-menu-more-actions-copy-for-startup = 起動時プロファイリングのための環境変数をコピー
+perftools-menu-more-actions-copy-for-perf-tests = パフォーマンステストのためのパラメーターをコピー
+
 ## These messages are descriptions of the threads that can be enabled for the profiler.
 
 perftools-thread-gecko-main =

@@ -25,6 +25,8 @@ return-to-amo-subtitle = { -brand-short-name } をインストールしました
 return-to-amo-addon-title = <img data-l10n-name="icon"/> <b>{ $addon-name }</b> をインストールしてみましょう。
 return-to-amo-add-extension-label = 拡張機能を追加
 return-to-amo-add-theme-label = テーマを追加
+return-to-amo-theme-install-complete-label = テーマをインストールしました
+return-to-amo-extension-install-complete-label = 拡張機能をインストールしました
 
 ##  Variables: $addon-name (String) - Name of the add-on to be installed
 
@@ -434,8 +436,7 @@ tab-groups-onboarding-create-group-title-2 = タブグループはここで見�
 tab-groups-onboarding-create-group-no-alltabs-button-title = アドレスバーで検索するとグループを見つけられます。
 tab-groups-onboarding-saved-groups-title-2 = タブグループを閉じても、ここで開き直すことができます。
 tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = アドレスバーで検索すると閉じてしまったタブグループを見つけられます。
-tab-groups-onboarding-session-restore-title = タブグループはここで開き直すことができます。
-tab-groups-onboarding-saved-groups-title = タブグループを閉じても、ここで開き直すことができます。
+tab-groups-onboarding-session-restore-title = タブグループはいつでもここで開き直せます。
 tab-groups-onboarding-dismiss = OK
 
 ## Multi Profiles feature onboarding messages

@@ -284,7 +284,6 @@ appmenu-other-protection-header = { -vendor-short-name } が提供する他の�
 
 ## Profiles panel
 
-appmenu-profiles = プロファイル
 appmenu-other-profiles = 他のプロファイル
 appmenu-manage-profiles =
     .label = プロファイルを管理
