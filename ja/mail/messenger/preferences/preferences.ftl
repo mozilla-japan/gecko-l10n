@@ -435,6 +435,7 @@ dark-message-mode-legend = メッセージリーダーのスタイル
 dark-message-mode-checkbox-label =
     .label = ダークメッセージモードを有効にする
     .accesskey = d
+dark-message-mode-description = Force the message body to follow dark themes
 dark-message-mode-checkbox-description = メッセージ本文をダークテーマに合わせる実験的な機能です
 dark-message-mode-toggle-label =
     .label = ダークメッセージモードの切り替えを表示する
