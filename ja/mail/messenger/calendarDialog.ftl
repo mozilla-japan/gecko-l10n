@@ -13,4 +13,4 @@ calendar-dialog-date-row-icon =
 calendar-dialog-date-row-recurring-icon =
     .alt = 繰り返し
 calendar-dialog-location-row-icon =
-    .alt = Location
+    .alt = 場所

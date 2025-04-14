@@ -55,7 +55,7 @@ policy-ExtensionSettings = 拡張機能のインストール全般を管理し�
 policy-ExtensionUpdate = 拡張機能の自動更新を有効または無効にします。
 policy-Handlers = @@Default-@@アプリケーションハンドラーを設定します。
 policy-HardwareAcceleration = false の場合、ハードウェアアクセラレーションをオフにします。
-policy-InAppNotification = Enable or disable notification types.
+policy-InAppNotification = 通知を種類ごとに有効または無効にします。
 policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
 policy-LegacyProfiles = インストールごとにプロファイルが分割されるのを強制的に無効にします。
 
