@@ -433,14 +433,14 @@ newtab-weather-menu-weather-display = 天気表示
 # - Simple: Displays a current weather condition icon and the current temperature
 # - Detailed: Include simple information plus a short text summary: e.g. "Mostly cloudy"
 newtab-weather-menu-weather-display-option-simple = シンプル
-newtab-weather-menu-change-weather-display-simple = シンプル表示に切り替えます
+newtab-weather-menu-change-weather-display-simple = シンプル表示に切り替える
 newtab-weather-menu-weather-display-option-detailed = 詳細
-newtab-weather-menu-change-weather-display-detailed = 詳細表示に切り替えます
+newtab-weather-menu-change-weather-display-detailed = 詳細表示に切り替える
 newtab-weather-menu-temperature-units = 温度の単位
 newtab-weather-menu-temperature-option-fahrenheit = 華氏 (℉)
 newtab-weather-menu-temperature-option-celsius = 摂氏 (℃)
-newtab-weather-menu-change-temperature-units-fahrenheit = ファーレンハイト度に切り替えます
-newtab-weather-menu-change-temperature-units-celsius = セルシウス度に切り替えます
+newtab-weather-menu-change-temperature-units-fahrenheit = ファーレンハイト度に切り替える
+newtab-weather-menu-change-temperature-units-celsius = セルシウス度に切り替える
 newtab-weather-menu-hide-weather = @@NewTab@@の天気表示を隠す
 newtab-weather-menu-learn-more = 詳細情報
 # This message is shown if user is working offline
