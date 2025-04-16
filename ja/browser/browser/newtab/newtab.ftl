@@ -529,3 +529,26 @@ newtab-custom-wallpaper-title = カスタム壁紙が利用できます
 # 'Make firefox yours" means to customize or personalize
 newtab-custom-wallpaper-subtitle = 壁紙をアップロードするかお好みの@@Color@@を選んで、あなただけの { -brand-product-name } にカスタマイズしましょう。
 newtab-custom-wallpaper-cta = 壁紙を試す
+
+## Strings for reporting ads and content
+
+newtab-report-content-why-reporting-this =
+    .label = この広告を報告した理由を教えてください。
+newtab-report-ads-reason-not-interested =
+    .label = 興味がない
+newtab-report-ads-reason-inappropriate =
+    .label = 不適切
+newtab-report-ads-reason-seen-it-too-many-times =
+    .label = 表示回数が多すぎる
+newtab-report-content-wrong-category =
+    .label = カテゴリーが誤っている
+newtab-report-content-outdated =
+    .label = 古くなっている
+newtab-report-content-inappropriate-offensive =
+    .label = 不適切または攻撃的
+newtab-report-content-spam-misleading =
+    .label = スパムまたはミスリード
+newtab-report-cancel = キャンセル
+newtab-report-submit = 送信
+newtab-toast-thanks-for-feedback =
+    .message = フィードバックありがとうございます

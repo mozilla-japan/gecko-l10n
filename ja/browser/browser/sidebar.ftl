@@ -31,6 +31,15 @@ sidebar-history-sort-by-site =
     .label = サイト名で並べ替え
 sidebar-history-clear =
     .label = 履歴を消去
+sidebar-history-sort-by-heading = 並べ替え:
+sidebar-history-sort-option-date =
+    .label = 日付
+sidebar-history-sort-option-site =
+    .label = サイト名
+sidebar-history-sort-option-date-and-site =
+    .label = 日付とサイト名
+sidebar-history-sort-option-last-visited =
+    .label = 最後に表示した日時
 
 ## Labels for sidebar search
 
