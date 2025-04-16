@@ -64,7 +64,7 @@ split-dismiss-button-manage-settings-option =
     .label = 設定を管理
 # Accessibility label for dropdown menu button
 split-dismiss-button-default-label =
-    .title = More options
+    .title = その他のオプション
 
 ## Sidebar Strings
 

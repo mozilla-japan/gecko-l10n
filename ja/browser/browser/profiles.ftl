@@ -8,7 +8,7 @@ profile-window-body = パスワードやブックマークなどのブラウジ�
 profile-window-checkbox-label-2 =
     .label = { -brand-short-name } を開いた時にプロファイルを選択する
 # This subcopy appears below the checkbox when it is unchecked
-profile-window-checkbox-subcopy = { -brand-short-name } will open to your most recently used profile.
+profile-window-checkbox-subcopy = { -brand-short-name } は最近よく使用しているプロファイルを開きます
 profile-window-create-profile = プロファイルを作成
 profile-card-edit-button =
     .title = プロファイルを編集

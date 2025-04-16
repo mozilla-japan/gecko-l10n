@@ -202,17 +202,17 @@ urlbar-result-menu-manage-firefox-suggest =
 # will be a city name, or a city name combined with the name of its parent
 # administrative region (e.g., a province, prefecture, or state).
 urlbar-result-menu-report-inaccurate-location =
-    .label = Report inaccurate location
+    .label = 位置情報の誤りを報告
 urlbar-result-menu-show-less-frequently =
-    .label = Show less frequently
+    .label = 表示頻度を減らす
 urlbar-result-menu-dont-show-weather-suggestions =
-    .label = Don’t show weather suggestions
+    .label = 天気予報の提案を表示しない
 # A message shown in the urlbar when the user submits feedback on a suggestion
 # (e.g., it shows an inaccurate location, it's shown too often, etc.).
-urlbar-feedback-acknowledgment = Thanks for your feedback
+urlbar-feedback-acknowledgment = フィードバックありがとうございます
 # A message shown in the urlbar when the user dismisses weather suggestions.
 # Weather suggestions won't be shown at all anymore.
-urlbar-dismissal-acknowledgment-weather = Thanks for your feedback. You won’t see weather suggestions anymore. 
+urlbar-dismissal-acknowledgment-weather = フィードバックありがとうございます。今後は天気予報の提案が表示されなくなります。
 
 ## Prompts users to use the Urlbar when they open a new tab or visit the
 ## homepage of their default search engine.
