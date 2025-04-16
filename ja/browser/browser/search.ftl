@@ -34,6 +34,14 @@ removed-search-engine-message = <strong>@@Default-@@検索エンジンが変更�
 removed-search-engine-message2 = <strong>@@Default-@@検索エンジンが変更されました。</strong>{ -brand-short-name } は { $oldEngine } への対応を終了しました。{ $newEngine } が新しい@@Default-@@検索エンジンになります。設定を開くと他の検索エンジンに変更できます。
 remove-search-engine-button = OK
 
+## Infobar shown when default search engine is reset due to an issue reading the settings file.
+## Variables
+## $newEngine (String) - the name of the new default search engine.
+
+reset-search-settings-message = Due to a technical issue, your default search engine has been changed back to {
+ $newEngine }. To change the default search engine, go to settings.
+reset-search-settings-button = OK
+
 ## Infobar shown when user is prompted to install search engine.
 ## Variables
 ## $engineName (String) - the name of the search engine to install.
