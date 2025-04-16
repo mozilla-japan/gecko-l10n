@@ -123,3 +123,5 @@ tbsrc | mail                     c7a3d77d (2025-03-28)  mar          sync mail
 fxsrc | browser, devtools        c0dd65dc (2025-04-08)  mar          sync browser, devtools
 tbsrc | mail                     b08d4569 (2025-04-08)  kazushi      sync mail
 fxsrc | browser                  abc61947 (2025-04-15)  kazushi      sync browser
+fxsrc | dom, netwerk, toolkit    abc61947 (2025-04-15)  kazushi      sync dom, netwerk, toolkit (未翻訳)
+
