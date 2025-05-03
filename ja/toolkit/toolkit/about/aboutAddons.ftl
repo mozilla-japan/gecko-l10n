@@ -318,11 +318,11 @@ discopane-intro2 =
 # We hard code "Firefox" because we do not want to imply that a Firefox fork is
 # making this recommendation.
 discopane-intro3 =
-    Extensions and themes let you customize { -brand-product-name }. They can boost privacy,
-    enhance productivity, improve media, change the way { -brand-product-name } looks, and
-    so much more. These small software programs are often developed by a third party. Here’s
-    a selection Firefox <a data-l10n-name="learn-more-trigger">recommends</a> for
-    exceptional security, performance, and functionality.
+    拡張機能やテーマを使用すると { -brand-product-name } をカスタマイズできます。
+    プライバシー保護を強化したり、生産性を向上させたり、メディアを見やすくしたり、
+    { -brand-product-name } の見た目を変更したり、その他さまざまな拡張機能やテーマがあります。
+    これらの小さなソフトウェアプログラムのほとんどは、サードパーティーによって開発されています。
+    セキュリティ、パフォーマンス、生産性を向上させる Firefox の<a data-l10n-name="learn-more-trigger">おすすめ</a>はこちらです。
 
 ## Add-on actions
 
@@ -460,7 +460,7 @@ addon-badge-line4 =
 # security or performance reviews. As such, we avoid personalising language
 # like the words "our" or "we".
 addon-badge-verified4 =
-    .title = This extension has been reviewed to meet standards for security and performance
+    .title = この拡張機能はセキュリティとパフォーマンスの基準に適合するようレビューされています
 addon-badge-verified3 =
     .title = この拡張機能はセキュリティとパフォーマンスの基準に適合するようレビューされています。
 # This string needs to work in the context of other forks that are not Firefox
@@ -469,7 +469,7 @@ addon-badge-verified3 =
 # recommendation. As such, we hard code "Firefox" and avoid personalising
 # language like the words "our" or "we".
 addon-badge-recommended4 =
-    .title = Firefox only recommends extensions that meet standards for security and performance
+    .title = Firefox は安全性とパフォーマンスの基準に適合する拡張機能のみをおすすめします
 
 ##
 
