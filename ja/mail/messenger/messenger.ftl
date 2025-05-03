@@ -474,5 +474,7 @@ quota-panel-percent-used = { $percent }% 使用
 ## Actions for the New Mail Notification
 
 mark-as-read-action = 既読にする
+delete-action = Delete
+mark-as-starred-action = Mark as Starred
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = 何もしない

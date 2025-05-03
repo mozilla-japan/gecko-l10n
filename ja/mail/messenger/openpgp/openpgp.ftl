@@ -144,7 +144,7 @@ openpgp-key-send-key =
 # $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] 鍵 ID をクリップボードにコピー
            *[other] 鍵 ID をクリップボードにコピー
         }
@@ -153,7 +153,7 @@ openpgp-key-man-copy-key-ids =
 # $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] フィンガープリントをクリップボードにコピー
            *[other] フィンガープリントをクリップボードにコピー
         }
@@ -162,7 +162,7 @@ openpgp-key-man-copy-fprs =
 # $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] 公開鍵をクリップボードにコピー
            *[other] 公開鍵をクリップボードにコピー
         }
@@ -174,7 +174,7 @@ openpgp-key-man-ctx-copy =
 # $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] フィンガープリント
            *[other] フィンガープリント
         }
@@ -183,7 +183,7 @@ openpgp-key-man-ctx-copy-fprs =
 # $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] 鍵 ID
            *[other] 鍵 ID
         }
@@ -192,7 +192,7 @@ openpgp-key-man-ctx-copy-key-ids =
 # $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] 公開鍵
            *[other] 公開鍵
         }
@@ -343,7 +343,7 @@ openpgp-description-no-key = <b>{ $identity }</b> の個人 OpenPGP 鍵が { -br
 #   $count (Number) - the number of configured keys associated with the current identity
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-has-keys =
-    { $count ->
+    { NUMBER($count) ->
         [one] <b>{ $identity }</b> に関連付けられた個人 OpenPGP 鍵が { -brand-short-name } 内に { $count } 個見つかりました
        *[other] <b>{ $identity }</b> に関連付けられた個人 OpenPGP 鍵が { -brand-short-name } 内に { $count } 個見つかりました
     }
@@ -421,6 +421,7 @@ window-locked = メッセージ作成@@Window@@がロックされているため
 
 ## Strings in keyserver.jsm
 
+
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = 中止されました
@@ -434,6 +435,7 @@ keyserver-error-unsupported = 鍵サーバーが対応していません。
 
 ## Strings in mimeWkdHandler.jsm
 
+
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -445,6 +447,7 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -455,6 +458,7 @@ converter-decrypt-body-failed =
     別のパスフレーズを試しますか？ それともメッセージをスキップしますか？
 
 ## Strings filters.jsm
+
 
 ## Strings filters.sys.mjs
 
@@ -474,6 +478,7 @@ filter-warn-key-not-secret =
     ‘{ $desc }’ に対する秘密鍵を持っていない場合、メッセージが復号できなくなります。
 
 ## Strings filtersWrapper.jsm
+
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -549,6 +554,7 @@ openpgp-export-secret-fail = <b>選択した秘密鍵の@@ExportNoun@@に失敗�
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -566,12 +572,14 @@ key-ring-enc-sub-keys-expired = 鍵 { $userId } (鍵 ID { $keyId }) のすべて
 
 ## Strings in gnupg-keylist.jsm
 
+
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = 写真
 user-att-photo = ユーザーの特徴 (JPEG 画像)
 
 ## Strings in key.jsm
+
 
 ## Strings in key.sys.mjs
 
@@ -597,6 +605,7 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = @@Import@@(&I)
@@ -608,6 +617,7 @@ delete-key-in-use-description = 処理を進められません！ 削除のた�
 revoke-key-in-use-description = 処理を進められません！ 失効のために選択した鍵はこの差出人で現在利用中です。違う鍵を選択するか、何も選択せずにもう一度試してください。
 
 ## Strings used in errorHandling.jsm
+
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -621,11 +631,13 @@ key-error-not-accepted-as-personal = ID ‘{ $keySpec }’ の鍵があなたの
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = 選択された機能はオフラインモードでは使用できません。オンラインでもう一度試してください。
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
@@ -634,11 +646,13 @@ no-update-found = オンラインで見つけた鍵はすでに持っていま�
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = エラー - 鍵の展開コマンドに失敗しました
 
 ## Strings used in keyRing.jsm
+
 
 ## Strings used in keyRing.sys.mjs
 
@@ -774,6 +788,7 @@ cannot-send-enc-because-no-own-key = このメッセージを暗号化できま�
 
 ## Strings used in decryption.jsm
 
+
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -797,11 +812,13 @@ dlg-button-view = 表示(&V)
 
 ## Strings used in encryption.jsm
 
+
 ## Strings used in encryption.sys.mjs
 
 not-required = エラー - 暗号化は必要ありません。
 
 ## Strings used in windows.jsm
+
 
 ## Strings used in windows.sys.mjs
 
@@ -824,6 +841,7 @@ enig-prompt = OpenPGP プロンプト
 enig-confirm = OpenPGP 確認
 
 ## Strings used in persistentCrypto.jsm
+
 
 ## Strings used in persistentCrypto.sys.mjs
 

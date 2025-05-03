@@ -14,3 +14,16 @@ calendar-dialog-date-row-recurring-icon =
     .alt = 繰り返し
 calendar-dialog-location-row-icon =
     .alt = 場所
+calendar-dialog-description-row-icon =
+    .alt = Description
+calendar-dialog-description-label = Description
+calendar-dialog-description-expand-icon =
+    .alt = Show full description
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { NUMBER($additionalCategories) ->
+       *[other] +{ $additionalCategories } more
+    }
+    .title = { $categories }
