@@ -132,7 +132,6 @@ policy-SecurityDevices2 = PKCS #11 モジュールを追加または削除しま
 policy-ShowHomeButton = ホームボタンをツールバーに表示します。
 # ”You represent that...” means ”You confirm/declare that...”
 policy-SkipTermsOfUse2 = 起動時に利用規約とプライバシー通知を表示しない。この端末のブラウザーにアクセスできるすべてのユーザーに代わって、あなたが利用規約に同意または同意する権限を持っていることを表します。
-policy-SkipTermsOfUse = 起動時に利用規約とプライバシー通知を表示しない。
 policy-SSLVersionMax = SSL の最高バージョンを設定します。
 policy-SSLVersionMin = SSL の最低バージョンを設定します。
 policy-StartDownloadsInTempDirectory = @@Default-@@ダウンロードディレクトリーではなく、ローカルの一時的な場所にダウンロードするよう強制します。

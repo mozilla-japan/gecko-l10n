@@ -58,9 +58,7 @@ about-logging-preset-custom-description = 手動で選択されたログモジ�
 # Error handling
 about-logging-error = エラー:
 
-## Variables:
-##   $k (String) - Variable name
-##   $v (String) - Variable value
+##
 
 about-logging-invalid-output = “{ $k }“ キーの値 “{ $v }“ が不正です
 about-logging-unknown-logging-preset = ログプリセット “{ $v }“ は不明です
@@ -68,4 +66,30 @@ about-logging-unknown-profiler-preset = プロファイラープリセット “
 about-logging-unknown-option = about:logging オプション “{ $k }“ は不明です
 about-logging-configuration-url-ignored = 設定 URL が無視されました
 about-logging-file-and-profiler-override = ファイル出力の強制とプロファイラーオプションの上書きは同時にできません
+# Variables:
+#   $errorText (string) - The received error message, inserted as is.
+about-logging-unknown-error = エラーが発生しました: { $errorText }
 about-logging-configured-via-url = URL により設定されたオプション
+
+## The upload interface is shown only with the preference toolkit.aboutLogging.uploadProfileToCloud
+## set to true. It is false by default, except on Android.
+
+about-logging-upload-question = プロファイルデータを記録しました。保存またはアップロードしますか？
+about-logging-save-button = 保存
+about-logging-upload-button = アップロード
+# Variables:
+#   $path (string) - The path where the profile can be found.
+about-logging-saved = { $path } に保存しました
+# Variables:
+#   $percent (number) - The upload completion progress, to be displayed as a percentage. This is a value between 0 and 1.
+about-logging-uploading-progress = プロファイルデータをアップロード中: { NUMBER($percent, maximumSignificantDigits: 2, style: "percent") }
+# Variables:
+#   $url (string) - The URL where the profile can be found
+about-logging-uploaded = <a data-l10n-name="uploaded-message-url">{ $url }</a> にアップロードしました
+about-logging-share-uploaded-url = <img data-l10n-name="share-image"/> URL を共有
+# Variables:
+#   $errorText (string) - The received error message, inserted as is.
+about-logging-upload-error = プロファイルの保存中にエラーが発生しました: { $errorText }
+# Variables:
+#   $errorText (string) - The received error message, inserted as is.
+about-logging-save-error = ファイルの保存中にエラーが発生しました: { $errorText }
