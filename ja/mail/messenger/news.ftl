@@ -7,20 +7,20 @@
 # $newsgroup (String) - The name of the newsgroup.
 new-newsgroup-headers =
     { NUMBER($count) ->
-        [one] Downloading { $count } header for { $newsgroup }…
-       *[other] Downloading { $count } headers for { $newsgroup }…
+        [one] { $newsgroup } のヘッダー { $count } 件をダウンロードしています...
+       *[other] { $newsgroup } のヘッダー { $count } 件をダウンロードしています...
     }
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
-no-new-messages = There are no new messages in { $newsgroup }.
+no-new-messages = { $newsgroup } には新着メッセージはありませんでした。
 # Variables:
 # $count (Number) - Number of articles.
 # $newsgroup (String) - The name of the newsgroup.
 downloading-articles-for-offline =
     { NUMBER($count) ->
-        [one] Downloading { $count } article for { $newsgroup }…
-       *[other] Downloading { $count } articles for { $newsgroup }…
+        [one] { $newsgroup } の記事 { $count } 件をダウンロードしています...
+       *[other] { $newsgroup } の記事 { $count } 件をダウンロードしています...
     }
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
-no-articles-to-download = There are no articles to download for { $newsgroup }.
+no-articles-to-download = { $newsgroup } にはダウンロードできる記事はありませんでした。

@@ -15,15 +15,15 @@ calendar-dialog-date-row-recurring-icon =
 calendar-dialog-location-row-icon =
     .alt = 場所
 calendar-dialog-description-row-icon =
-    .alt = Description
-calendar-dialog-description-label = Description
+    .alt = 詳細
+calendar-dialog-description-label = 詳細
 calendar-dialog-description-expand-icon =
-    .alt = Show full description
+    .alt = 詳細をすべて表示します
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
 calendar-dialog-more-categories =
     { NUMBER($additionalCategories) ->
-       *[other] +{ $additionalCategories } more
+       *[other] とその他 { $additionalCategories } 個
     }
     .title = { $categories }
