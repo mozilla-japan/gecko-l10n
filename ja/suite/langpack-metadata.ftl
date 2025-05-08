@@ -9,4 +9,4 @@ langpack-creator = "SeaMonkey e.V."
 
 # To credit multiple contributors, use a comma-delimited list.
 # Example: Jane Doe, John Doe
-langpack-contributors = { "" }
+langpack-contributors = Mozilla Japanese L10N Community, Makoto Arai, Tomoya Asai, Hideyuki EMURA, Shaw Hosaka, Joji Ikeda, Masahiko Imanaka, Kosuke Kaizuka, Hidehiro Kozawa, Teiji Matsuba, Shigeki Narisawa, Takeshi Nishimura, Toshiyuki Oka, Atsushi Sakai, Hiroshi Sekiya, Youhei Tooyama, Satoru Yamaguchi, Norah Marinkovic, casbeah, nivoside, masaka
