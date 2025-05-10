@@ -12,7 +12,7 @@ new-newsgroup-headers =
     }
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
-no-new-messages = { $newsgroup } には新着メッセージはありませんでした。
+no-new-messages = { $newsgroup } に新着メッセージはありません。
 # Variables:
 # $count (Number) - Number of articles.
 # $newsgroup (String) - The name of the newsgroup.
