@@ -5,7 +5,7 @@
 <!ENTITY output.connnets.label "接続中ネット">
 <!ENTITY output.url.label "URL">
 <!ENTITY output.notconn.label "接続なし">
-<!ENTITY output.lag.label "ラグ">
+<!ENTITY output.lag.label "遅延">
 <!ENTITY output.mode.label "モード">
 <!ENTITY output.users.label "ユーザー">
 <!ENTITY output.topic.label "トピック">
