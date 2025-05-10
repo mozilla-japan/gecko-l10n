@@ -35,7 +35,7 @@
 <!ENTITY custom-away.accesskey "A">
 <!-- Edit menu -->
 <!ENTITY findBarCmd.label "検索...">
-<!ENTITY toggleTextDir.label "テキストの記述方向を切り換える">
+<!ENTITY toggleTextDir.label "テキストの記述方向を切り替える">
 <!ENTITY toggleTextDir.accesskey "x">
 <!ENTITY toggleTextDir.commandkey "X">
 <!ENTITY chatZillaPrefs.label "ChatZilla の設定...">
