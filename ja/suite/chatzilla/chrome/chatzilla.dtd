@@ -2,6 +2,119 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- ChatZilla menu -->
+<!ENTITY menuChatZilla.label "ChatZilla">
+<!ENTITY menuChatZilla.accesskey "C">
+<!ENTITY joinChannel.label "チャンネルに参加...">
+<!ENTITY joinChannel.accesskey "J">
+<!ENTITY joinChannel.commandkey "O">
+<!ENTITY openStartupURLs.label "自動接続 URL を開く">
+<!ENTITY openStartupURLs.accesskey "U">
+<!ENTITY closeCZTab.label "タブを閉じる">
+<!ENTITY closeCZTab.accesskey "C">
+<!ENTITY closeCZTab.commandkey "W">
+<!ENTITY disconnectAll.label "すべてのネットワークとの接続を切断">
+<!ENTITY disconnectAll.accesskey "N">
+<!ENTITY disconnectAll.commandkey "D">
+<!ENTITY reconnectAll.label "すべてのネットワークに再接続">
+<!ENTITY reconnectAll.accesskey "N">
+<!ENTITY statusMenu.label "状態">
+<!ENTITY statusMenu.accesskey "S">
+<!ENTITY saveViewAs.label "@@Save-AsCMD@@ビューを保存...">
+<!ENTITY saveViewAs.accesskey "A">
+<!ENTITY saveViewAs.commandkey "S">
+<!ENTITY closeChatZilla.label "ChatZilla を終了">
+<!ENTITY closeChatZilla.accesskey "Z">
+
+<!-- Status menu / nick button -->
+<!ENTITY nick-change.label "ニックネームを変更...">
+<!ENTITY nick-change.accesskey "C">
+<!ENTITY nick-back.label "復帰">
+<!ENTITY nick-back.accesskey "B">
+<!ENTITY custom-away.label "離席 (ユーザー設定)...">
+<!ENTITY custom-away.accesskey "A">
+<!-- Edit menu -->
+<!ENTITY findBarCmd.label "検索...">
+<!ENTITY toggleTextDir.label "テキストの記述方向を切り替える">
+<!ENTITY toggleTextDir.accesskey "x">
+<!ENTITY toggleTextDir.commandkey "X">
+<!ENTITY chatZillaPrefs.label "ChatZilla の設定...">
+<!ENTITY chatZillaPrefs.accesskey "Z">
+
+<!-- View menu -->
+<!ENTITY views.label "ビュー">
+<!ENTITY views.accesskey "V">
+<!ENTITY tabstrip.label "タブバー">
+<!ENTITY tabstrip.accesskey "T">
+<!ENTITY tabstrip.commandkey "S">
+<!ENTITY header.label "ヘッダー">
+<!ENTITY header.accesskey "H">
+<!ENTITY header.commandkey "H">
+<!ENTITY userlist.label "ユーザーリスト">
+<!ENTITY userlist.accesskey "U">
+<!ENTITY userlist.commandkey "L">
+<!ENTITY statusbar.label "ステータスバー">
+<!ENTITY statusbar.accesskey "S">
+<!ENTITY statusbar.commandkey "B">
+<!ENTITY clearView.label "タブを消去">
+<!ENTITY clearView.accesskey "b">
+<!ENTITY clearView.commandkey "L">
+<!ENTITY hideView.label "タブを非表示">
+<!ENTITY hideView.accesskey "H">
+<!ENTITY popupMotifs.label "ページの@@Colors@@">
+<!ENTITY popupMotifs.accesskey "o">
+<!ENTITY motifDark.label "暗いモチーフ">
+<!ENTITY motifDark.accesskey "k">
+<!ENTITY motifLight.label "明るいモチーフ">
+<!ENTITY motifLight.accesskey "L">
+<!ENTITY popupFontFamily.label "フォントファミリー">
+<!ENTITY popupFontFamily.accesskey "m">
+<!ENTITY fontDefault.label "@@Default-@@フォント">
+<!ENTITY fontDefault.accesskey "D">
+<!ENTITY fontSerif.label "明朝体 (Serif)">
+<!ENTITY fontSerif.accesskey "S">
+<!ENTITY fontSansSerif.label "ゴシック体 (Sans-serif)">
+<!ENTITY fontSansSerif.accesskey "a">
+<!ENTITY fontMonospace.label "等幅 (Monospace)">
+<!ENTITY fontMonospace.accesskey "M">
+<!ENTITY fontFamilyOther.label "その他...">
+<!ENTITY fontFamilyOther.accesskey "O">
+<!ENTITY popupFontSize.label "フォントサイズ">
+<!ENTITY popupFontSize.accesskey "F">
+<!ENTITY fontSmaller.label "文字を小さく">
+<!ENTITY fontSmaller.accesskey "r">
+<!ENTITY fontSmaller.commandkey "-">
+<!ENTITY fontBigger.label "文字を大きく">
+<!ENTITY fontBigger.accesskey "g">
+<!ENTITY fontBigger.commandkey "+">
+<!-- + is above this key on many keyboards -->
+<!ENTITY fontBigger.commandkey2 "=">
+<!ENTITY fontSizeDefault.label "@@Default-@@サイズ">
+<!ENTITY fontSizeDefault.accesskey "D">
+<!ENTITY fontSizeSmall.label "小さめ">
+<!ENTITY fontSizeSmall.accesskey "S">
+<!ENTITY fontSizeMedium.label "@@DefaultValue@@">
+<!ENTITY fontSizeMedium.accesskey "M">
+<!ENTITY fontSizeLarge.label "大きめ">
+<!ENTITY fontSizeLarge.accesskey "L">
+<!ENTITY fontSizeOther.label "その他...">
+<!ENTITY fontSizeOther.accesskey "O">
+<!ENTITY toggleCCM.label "連続したメッセージを折りたたむ">
+<!ENTITY toggleCCM.accesskey "n">
+<!ENTITY toggleCopy.label "重要なメッセージをコピー">
+<!ENTITY toggleCopy.accesskey "I">
+<!ENTITY showTimestamps.label "タイムスタンプを表示">
+<!ENTITY showTimestamps.accesskey "T">
+
+<!-- Tools menu -->
+<!ENTITY installPlugin.label "プラグインをインストール...">
+<!ENTITY installPlugin.accesskey "I">
+<!ENTITY editNetworks.label "ネットワークの編集...">
+<!ENTITY editNetworks.accesskey "E">
+
+<!ENTITY focusInput.keycode "VK_ESCAPE">
+<!ENTITY reloadUI.commandkey "r">
+
 <!ENTITY Menubar.tooltip		"メインメニュー">
 <!ENTITY Toolbar.tooltip		"メインツールバー">
 

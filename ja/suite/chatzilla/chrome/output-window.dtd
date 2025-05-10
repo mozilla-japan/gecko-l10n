@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY output.knownnets.label "利用可ネット">
+<!ENTITY output.connnets.label "接続中ネット">
+<!ENTITY output.url.label "URL">
+<!ENTITY output.notconn.label "接続なし">
+<!ENTITY output.lag.label "遅延">
+<!ENTITY output.mode.label "モード">
+<!ENTITY output.users.label "ユーザー">
+<!ENTITY output.topic.label "トピック">
+<!ENTITY output.cancel.label "キャンセル">
+<!ENTITY output.via.label "経由:">
+<!ENTITY output.to.label "接続先:">
+<!ENTITY output.file.label "ファイル">
+<!ENTITY output.progress.label "進行状況">

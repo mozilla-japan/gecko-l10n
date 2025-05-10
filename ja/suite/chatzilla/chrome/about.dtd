@@ -5,11 +5,8 @@
 <!ENTITY window.title  "ChatZilla について">
 
 <!ENTITY chatzilla.label       "ChatZilla">
-<!ENTITY version.unknown.label "バージョン (不明)">
-<!ENTITY version.known.label   "バージョン &#37;S">
 <!ENTITY description.label     "すっきりとして使いやすく、拡張性の高いインターネットリレーチャット (IRC) クライアントです。">
 
-<!ENTITY homepage.label    "ホームページを表示">
 <!ENTITY copyversion.label "バージョンの詳細をコピー">
 
 <!ENTITY section.core.label    "コア開発チーム:">

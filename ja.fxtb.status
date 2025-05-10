@@ -130,4 +130,4 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 fxsrc | browser                  abc61947 (2025-04-15)  kazushi      sync browser
 fxsrc | dom, netwerk, toolkit    abc61947 (2025-04-15)  kazushi      sync dom, netwerk, toolkit
 tbsrc | mail                     869298b8 (2025-05-02)  kazushi      sync mail
-
+seamk | suite                    a40d5fa1 (2025-04-19)  kazushi      sync suite

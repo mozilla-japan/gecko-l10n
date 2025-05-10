@@ -82,7 +82,10 @@
 <!ENTITY col.dateadded.label     "追加日時">
 <!ENTITY col.lastmodified.label  "変更日時">
 
-<!ENTITY search.placeholder  "検索">
+<!-- LOCALIZATION NOTE (searchBookmarks.placeholder): Should match searchBookmarks in places.properties" -->
+<!ENTITY searchBookmarks.placeholder  "ブックマークを検索">
+<!-- LOCALIZATION NOTE (searchHistory.placeholder): Should match searchHistory in places.properties" -->
+<!ENTITY searchHistory.placeholder  "履歴を検索">
 
 <!ENTITY cmd.find.key  "f">
 

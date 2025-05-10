@@ -134,9 +134,9 @@ items are mutually exclusive. -->
 <!ENTITY videoHideStats.label		"統計情報を隠す">
 <!ENTITY videoHideStats.accesskey	"t">
 <!ENTITY search.accesskey		"W">
-<!ENTITY bidiSwitchPageDirectionItem.label	"ページの記述方向を切り換える">
+<!ENTITY bidiSwitchPageDirectionItem.label	"ページの記述方向を切り替える">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey	"g">
-<!ENTITY bidiSwitchTextDirectionItem.label	"テキストの記述方向を切り換える">
+<!ENTITY bidiSwitchTextDirectionItem.label	"テキストの記述方向を切り替える">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey	"x">
 <!ENTITY spellAddToDictionary.label	"辞書に追加">
 <!ENTITY spellAddToDictionary.accesskey	"n">
