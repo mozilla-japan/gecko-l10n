@@ -97,8 +97,6 @@ genai-header-close-button =
     .title = 閉じる
 genai-provider-view-details =
     .label = チャットボットの詳細を表示
-genai-provider-about-chatbots =
-    .label = これらのチャットボットについて
 genai-options-reload-generic =
     .label = AI チャットボットを再読み込み
 # $provider (string) - name of the provider
@@ -142,6 +140,9 @@ genai-onboarding-lechat-learn = Le Chat についての詳細
 genai-onboarding-select-header = プロンプトに入力するテキストを選択してください
 genai-onboarding-select-description = テキストを選択すると、チャットボットに送信されるプロンプトが提案されます。ご自分でプロンプトを入力することもできます。
 genai-onboarding-select-primary = チャットを始める
+genai-chatbot-contextual-title = タブを切り替えずに AI チャットボットを使用する
+genai-chatbot-contextual-subtitle = { -brand-short-name } のサイドバーに AI チャットボットを追加すると、チャットとブラウザーを並べて表示できます。
+genai-chatbot-contextual-button = チャットボットを選ぶ
 
 ## Chatbot onboarding choices
 ## These describe features/capabilities of chatbot providers. These are not buttons/actions.
@@ -172,3 +173,14 @@ genai-model-optin-optout =
     .label = キャンセル
 genai-model-optin-cancel =
     .label = キャンセル
+
+## Link previews
+
+# ‘min’ is short for “minute”
+# ‘mins’ is short for “minutes”
+# An estimate for how long it takes to read an article,
+# expressed as a range covering both slow and fast readers.
+# Variables:
+#   $rangePlural (String): The plural category of the range, using the same set as for numbers.
+#   $range (String): The range of minutes as a localised string. Examples: "3-7", "~1".
+link-preview-reading-time = 読了時間 { $range } 分

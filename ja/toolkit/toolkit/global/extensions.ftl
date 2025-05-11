@@ -15,7 +15,17 @@ webext-perms-header-with-perms = { $extension } を追加しますか？ この�
 webext-perms-header-unsigned = { $extension } を追加しますか？ この拡張機能は検証されていません。悪意のある拡張機能はユーザーの個人情報を盗んだりコンピューターを危険にさらすことがあります。提供元を信頼できる場合のみ、追加するようにしてください。
 webext-perms-header-unsigned-with-perms = { $extension } を追加しますか？ この拡張機能は検証されていません。悪意のある拡張機能はユーザーの個人情報を盗んだりコンピューターを危険にさらすことがあります。提供元を信頼できる場合のみ、追加するようにしてください。この拡張機能は以下の権限が必要です:
 webext-perms-sideload-header = { $extension } が追加されました
+webext-perms-optional-perms-header2 = { $extension } が追加の権限を要求しています。
 webext-perms-optional-perms-header = { $extension } が追加の許可を必要としています。
+webext-perms-header2 = { $extension } を追加
+webext-perms-list-intro-unsigned = この未検証の拡張機能はユーザーのプライバシーやご使用の端末を危険にさらすことがあります。提供元を信頼できる場合のみ、追加するようにしてください。
+
+## Headers used in the webextension permissions dialog, inside the content.
+
+webext-perms-header-required-perms = 必要な権限:
+webext-perms-header-optional-settings = 任意の設定:
+webext-perms-header-update-required-perms = 新たに必要な権限:
+webext-perms-header-optional-required-perms = 追加の許可設定:
 
 ##
 
@@ -33,6 +43,9 @@ webext-perms-sideload-enable =
 webext-perms-sideload-cancel =
     .label = キャンセル
     .accesskey = C
+# Variables:
+#   $extension (String): replaced with the localized name of the extension.
+webext-perms-update-text2 = { $extension } が更新されています。更新バージョンがインストールされる前に新たな権限を承認してください。@@[@@キャンセル@@]@@ を選ぶと、現在のバージョンの拡張機能が維持されます。
 # Variables:
 #   $extension (String): replaced with the localized name of the extension.
 webext-perms-update-text = { $extension } が更新されています。新しいバージョンがインストールされる前に新たな権限を承認してください。@@[@@キャンセル@@]@@ を選ぶと拡張機能は現在のバージョンが維持されます。この拡張機能は以下の権限が必要です:
@@ -109,3 +122,8 @@ webext-site-perms-header-unsigned-with-perms = { $extension } を追加します
 
 webext-site-perms-midi = MIDI デバイスへのアクセス
 webext-site-perms-midi-sysex = SysEx 対応 MIDI デバイスへのアクセス
+
+## Colorway theme migration
+
+webext-colorway-theme-migration-notification-message = <b>Colorway テーマが削除されました。</b> { -brand-shorter-name } の Colorway コレクションが更新されました。最新バージョンはアドオンサイトで見つけられます。
+webext-colorway-theme-migration-notification-button = 更新された Colorway テーマを入手

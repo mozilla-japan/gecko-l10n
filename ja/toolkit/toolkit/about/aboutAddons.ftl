@@ -285,6 +285,16 @@ discopane-notice-recommendations2 =
         これらのおすすめの一部はパーソナライズされています。
         この情報は、インストールされている他の拡張機能やプロファイル設定、使用統計データに基づきます。
 discopane-notice-learn-more = 詳細情報
+# Notice for the colorway theme removal
+colorway-removal-notice-message =
+    .heading = Colorway テーマが削除されました。
+    .message =
+        { -brand-product-name } にインストールされた Colorway コレクションの更新により、
+        保存されたテーマのリストから古いバージョンのものが削除されました。
+        アドオンサイトで新しいバージョンを入手してください。
+colorway-removal-notice-learn-more = 詳細情報
+colorway-removal-notice-button = 更新された Colorway テーマを入手
+
 privacy-policy = プライバシーポリシー
 # Refers to the author of an add-on, shown below the name of the add-on.
 # Variables:

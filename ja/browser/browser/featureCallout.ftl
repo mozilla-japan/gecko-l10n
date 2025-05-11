@@ -66,6 +66,44 @@ split-dismiss-button-manage-settings-option =
 split-dismiss-button-default-label =
     .title = その他のオプション
 
+## Login Status Advisory Callout (points to the account icon)
+
+# The 'account icon' is the toolbar button with a 'profile' icon of a human
+# head/shoulders. It's for dealing with your Mozilla account. When hovering the
+# icon, the tooltip says 'Account'.
+login-status-advisory-title = ログアウトしました。アカウントアイコンをクリックしてログインしてください。
+
+## Bookmarks toolbar callout strings
+
+bookmarks-toolbar-callout-1-title = このサイトをブックマークツールバーに追加しますか？
+bookmarks-toolbar-callout-1-subtitle = ブックマークがアドレスバーのすぐ下に保存され、すばやくアクセスできます。
+bookmarks-toolbar-callout-1-primary-button-label = ブックマークを追加する
+bookmarks-toolbar-callout-1-secondary-button-label = 追加しない
+# Visible if user adds a bookmark in callout 1, bookmarks toolbar is set to always show when this message renders
+bookmarks-toolbar-callout-2a-title = いくつものブックマークを簡単に追加
+bookmarks-toolbar-callout-2a-subtitle = タブをここにドラッグアンドドロップして、お気に入りのサイトを手の届くところに置きましょう。
+bookmarks-toolbar-callout-2a-primary-button-label = 了解
+# Reverts the bookmarks toolbar to the default setting
+bookmarks-toolbar-callout-2a-secondary-button-label = ツールバーを隠す
+# Visible if user declines to add a bookmark in callout 1, bookmarks toolbar is set to always show when this message renders
+bookmarks-toolbar-callout-2b-title = ブックマークツールバーを表示したままにしますか？
+bookmarks-toolbar-callout-2b-subtitle = よく訪れる他のサイトを追加できます。タブをここにドラッグアンドドロップするだけでお気に入りのウェブサイトを手の届くところに置けます。
+bookmarks-toolbar-callout-2b-primary-button-label = 表示しておく
+# Reverts the bookmarks toolbar to the default setting
+bookmarks-toolbar-callout-2b-secondary-button-label = 隠す
+
+## Perplexity callout strings
+
+perplexity-callout-theme-1-title = 正しい答えが今すぐ必要？
+perplexity-callout-theme-2-title = 新しい検索方法の Perplexity を試す
+perplexity-callout-theme-1-subtitle-1 = Perplexity をお試しください。完全な答えとその根拠がほしいときは検索ボタンからこれを選んでください。
+perplexity-callout-theme-1-subtitle-2 = 質問すると、引用数の多い完全な答えを得られます。Perplexity を試すには、検索ボタンから選んでください。
+perplexity-callout-theme-2-subtitle-1 = Perplexity に尋ねると、その根拠を含む完全な答えを得られます。
+perplexity-callout-theme-2-subtitle-2 = 質問すると、引用数の多い完全な答えを得られます。
+perplexity-callout-primary-label = Perplexity に尋ねる
+perplexity-callout-secondary-label-1 = 閉じる
+perplexity-callout-secondary-label-2 = 了解
+
 ## Sidebar Strings
 
 sidebar-button-callout-title = タブのタイトルをサイドバーに表示する
@@ -90,7 +128,7 @@ sidebar-pins-callout-cta-button = タブをピン留め
 ## Sidebar Onboarding Strings
 
 sidebar-customization-callout-1-title = サイドバー: ツールとタブがスポッと収まります
-sidebar-customization-callout-1-subtitle = { -brand-product-name } のサイドバーは、現在の画面から離れることなく、ブラウジング履歴や他の端末からのタブ、AI チャットボットへのすばやいアクセスを提供します。
+sidebar-customization-callout-1-subtitle = { -brand-product-name } のサイドバーは、現在の画面から離れることなく、閲覧履歴や他の端末からのタブ、AI チャットボットへのすばやいアクセスを提供します。
 sidebar-customization-callout-callout-button = サイドバーをカスタマイズ
 sidebar-customization-callout-dismiss-button = サイドバーを隠す
 sidebar-customization-callout-2-title = あなただけの { -brand-product-name } サイドバー
