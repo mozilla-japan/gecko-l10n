@@ -69,9 +69,6 @@ sidebar-show-on-the-left =
 # hovers over it.
 expand-sidebar-on-hover =
     .label = カーソルを合わせた時にサイドバーを展開する
-expand-on-hover-message =
-    .heading = カーソルを合わせて展開する機能がまもなく実装されます
-    .message = 将来の更新で、カーソルを合わせた時にサイドバーを展開できるようになります。
 
 ## Labels for sidebar context menu items
 
@@ -81,12 +78,18 @@ sidebar-context-menu-remove-extension =
     .label = 拡張機能を削除
 sidebar-context-menu-report-extension =
     .label = 拡張機能を報告
+sidebar-context-menu-open-in-tab =
+    .label = @@NewTab@@で開く
+sidebar-context-menu-open-in-container-tab =
+    .label = @@New-CMD@@コンテナータブで開く
 sidebar-context-menu-open-in-window =
     .label = @@NewWindow@@で開く
 sidebar-context-menu-open-in-private-window =
     .label = @@New-CMD@@プライベート@@Window@@で開く
+sidebar-context-menu-forget-site =
+    .label = ウェブサイトのデータをすべて消去...
 sidebar-context-menu-bookmark-tab =
-    .label = タブをブックマーク...
+    .label = タブをブックマークに追加...
 sidebar-context-menu-copy-link =
     .label = リンクをコピー
 sidebar-context-menu-hide-sidebar =
@@ -104,6 +107,10 @@ sidebar-context-menu-close-remote-tab =
 
 sidebar-history-context-menu-delete-page =
     .label = 履歴から削除
+sidebar-history-context-menu-delete-page-2 =
+    .label = ページを履歴から削除
+sidebar-history-context-menu-bookmark-page =
+    .label = ページをブックマークに追加...
 
 ## Labels for sidebar menu items.
 

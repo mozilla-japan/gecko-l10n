@@ -54,6 +54,10 @@ neterror-dns-not-found-hint-header = <strong>アドレスが正しい場合は�
 neterror-dns-not-found-hint-try-again = 後でもう一度試してください。
 neterror-dns-not-found-hint-check-network = ネットワーク接続を確認してください。
 neterror-dns-not-found-hint-firewall = ファイアウォール越しに接続している場合は、{ -brand-short-name } がウェブへの接続を許可されているか確認してください。
+neterror-dns-not-found-offline-hint-header = <strong>この問題に対処するには？</strong>
+neterror-dns-not-found-offline-hint-different-device = 別の端末で接続してみてください。
+neterror-dns-not-found-offline-hint-modem = モデムやルーター機器を確認してください。
+neterror-dns-not-found-offline-hint-reconnect = Wi-Fi を一旦切断し、接続し直してください。
 
 ## TRR-only specific messages
 ## Variables:

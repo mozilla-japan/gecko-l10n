@@ -239,14 +239,14 @@ menu-bookmarks-menu =
 menu-bookmarks-manage =
     .label = ブックマークを管理
 menu-bookmark-tab =
-    .label = 現在のタブをブックマーク...
+    .label = 現在のタブをブックマークに追加...
 menu-edit-bookmark =
     .label = このブックマークを編集...
 # "Search" is a verb, as in "Search in bookmarks"
 menu-bookmarks-search =
     .label = ブックマークを検索
 menu-bookmarks-all-tabs =
-    .label = すべてのタブをブックマーク...
+    .label = すべてのタブをブックマークに追加...
 menu-bookmarks-toolbar =
     .label = ブックマークツールバー
 menu-bookmarks-other =
