@@ -187,6 +187,14 @@ migration-safari-password-import-step1 = Safari で @@[@@Safari@@]@@ メニュ�
 migration-safari-password-import-step2 = <img data-l10n-name="safari-icon-3dots"/> ボタンを選択し、@@[@@パスワードを@@Export@@@@]@@ を選択します
 migration-safari-password-import-step3 = パスワードファイルを保存します
 migration-safari-password-import-step4 = 下の @@[@@ファイルを選択@@]@@ をクリックし、保存したパスワードファイルを選んでください。
+migration-chrome-windows-password-import-header = How to import passwords from Chrome
+migration-chrome-windows-password-import-steps-header = In Chrome:
+migration-chrome-windows-password-import-step1 = Open the main menu <img data-l10n-name="chrome-icon-3dots"/> and go to Passwords and Autofill > Google Password Manager.
+migration-chrome-windows-password-import-step2 = Select “Settings” from the menu.
+migration-chrome-windows-password-import-step3 = Choose “Download file” and save it to your device.
+migration-chrome-windows-password-import-step4 = Return here and “Select File” to finish import.
+migration-manual-password-import-skip-button = Skip
+migration-manual-password-import-select-button = Select File
 migration-safari-password-import-skip-button = スキップ
 migration-safari-password-import-select-button = ファイルを選択
 # Shown in the migration wizard after importing bookmarks from another

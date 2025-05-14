@@ -44,6 +44,9 @@ appmenu-addon-private-browsing-installed2 =
     .buttonlabel = OK
     .buttonaccesskey = O
 appmenu-addon-post-install-message3 = アプリケーションメニューからアドオンとテーマを管理できます。
+# This string is used in the confirmation popup displayed after an extension
+# has been installed, when the data collection feature is enabled.
+appmenu-addon-post-install-message-with-data-collection = Update permissions and data preferences any time in the <a data-l10n-name="settings-link">extension settings</a>.
 appmenu-addon-post-install-incognito-checkbox =
     .label = この拡張機能のプライベート@@Window@@での実行を許可する
     .accesskey = A
