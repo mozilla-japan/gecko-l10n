@@ -125,7 +125,7 @@ tab-context-send-tabs-to-device =
 tab-context-unload-n-tabs =
     .label =
         { $tabCount ->
-            [1] Unload Tab
-           *[other] Unload { $tabCount } Tabs
+            [1] タブを解放
+           *[other] { $tabCount } 個のタブを解放
         }
     .accesskey = U

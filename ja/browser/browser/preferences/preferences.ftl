@@ -709,9 +709,9 @@ search-keyword-warning-title = キーワードが重複しています
 #   $name (string) - Name of a search engine.
 search-keyword-warning-engine = "{ $name }" で使用されているキーワードを指定しました。他のものを指定してください。
 search-keyword-warning-bookmark = ブックマークで使用されているキーワードを指定しました。他のものを指定してください。
-remove-engine-confirmation = Are you sure you want to remove this search engine?
-remove-engine-remove = Remove
-remove-addon-engine-alert = To remove this search engine, remove the associated add-on.
+remove-engine-confirmation = 本当にこの検索エンジンを削除しますか？
+remove-engine-remove = 削除
+remove-addon-engine-alert = 関連づけられている拡張機能を削除すると、この検索エンジンを削除できます。
 
 ## Containers Section
 
