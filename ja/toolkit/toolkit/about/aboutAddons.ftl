@@ -576,7 +576,7 @@ plugins-widevine-description = このプラグインは、Encrypted Media Extens
 ## Headings for the Permissions tab in `about:addons` when the data collection
 ## feature is enabled.
 
-addon-permissions-required-data-collection = Required data collection:
-addon-permissions-optional-data-collection = Optional data collection:
+addon-permissions-required-data-collection = 必須のデータ収集:
+addon-permissions-optional-data-collection = 任意のデータ収集:
 # Name of the Permissions tab in `about:addons` when the data collection feature is enabled.
-permissions-data-addon-button = Permissions and data
+permissions-data-addon-button = 権限とデータ
