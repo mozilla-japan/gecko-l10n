@@ -637,6 +637,8 @@ home-prefs-weather-header =
     .label = 天気予報
 home-prefs-weather-description = 一目でわかる今日の天気
 home-prefs-weather-learn-more-link = 詳細情報
+home-prefs-mission-message = Our sponsors support our mission to build a better web
+home-prefs-mission-message-learn-more-link = Find out how
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
