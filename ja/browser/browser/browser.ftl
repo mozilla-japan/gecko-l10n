@@ -347,23 +347,23 @@ quickactions-addons = アドオンを表示
 # In English we provide multiple spellings for "add-ons". If that's not
 # applicable to your language, only use the correct spelling (don't repeat the
 # same word).
-quickactions-cmd-addons3 = extensions, themes, addons, add-ons
+quickactions-cmd-addons3 = extensions, themes, addons, add-ons, 拡張機能, テーマ, アドオン
 quickactions-cmd-addons2 = add-ons
 # Opens the bookmarks library window
 quickactions-bookmarks2 = ブックマークを管理
-quickactions-cmd-bookmarks = bookmarks
+quickactions-cmd-bookmarks = bookmarks, ブックマーク
 # Opens a SUMO article explaining how to clear history
 quickactions-clearrecenthistory = 最近の履歴を消去
-quickactions-cmd-clearrecenthistory = clear recent history, history
+quickactions-cmd-clearrecenthistory = clear recent history, history, 履歴
 # Opens a SUMO article explaining how to clear history
 quickactions-clearhistory = 履歴を消去
 quickactions-cmd-clearhistory = clear history
 # Opens about:downloads page
 quickactions-downloads2 = ダウンロードを表示
-quickactions-cmd-downloads = downloads
+quickactions-cmd-downloads = downloads, ダウンロード
 # Opens about:addons page in the extensions section
 quickactions-extensions = 拡張機能を管理
-quickactions-cmd-extensions = extensions
+quickactions-cmd-extensions = extensions, 拡張機能
 # Opens Firefox View
 quickactions-firefoxview = { -firefoxview-brand-name } を開く
 # English is using "view" and "open view", since the feature name is
@@ -372,51 +372,51 @@ quickactions-firefoxview = { -firefoxview-brand-name } を開く
 quickactions-cmd-firefoxview = open { -firefoxview-brand-name }, { -firefoxview-brand-name }, open view, view
 # Opens SUMO home page
 quickactions-help = { -brand-product-name } ヘルプ
-quickactions-cmd-help = help, support
+quickactions-cmd-help = help, support, ヘルプ, サポート
 # Opens the devtools web inspector
 quickactions-inspector2 = 開発ツールを開く
-quickactions-cmd-inspector2 = inspector, devtools, dev tools
+quickactions-cmd-inspector2 = inspector, devtools, dev tools, 開発ツール
 quickactions-cmd-inspector = inspector, devtools
 # Opens about:logins
 quickactions-logins2 = パスワードを管理
-quickactions-cmd-logins = logins, passwords
+quickactions-cmd-logins = logins, passwords, ログイン, パスワード
 # Opens about:addons page in the plugins section
 quickactions-plugins = プラグインを管理
-quickactions-cmd-plugins = plugins
+quickactions-cmd-plugins = plugins, プラグイン
 # Opens the print dialog
 quickactions-print2 = ページを@@Print@@
-quickactions-cmd-print = print
+quickactions-cmd-print = print, 印刷, プリント
 # Opens the print dialog at the save to PDF option
 quickactions-savepdf = ページを PDF 形式で保存
-quickactions-cmd-savepdf2 = pdf, save page
+quickactions-cmd-savepdf2 = pdf, save page, 保存
 quickactions-cmd-savepdf = pdf
 # Opens a new private browsing window
 quickactions-private2 = プライベート@@Window@@を開く
-quickactions-cmd-private = private browsing
+quickactions-cmd-private = private browsing, プライベート
 # Opens a SUMO article explaining how to refresh
 quickactions-refresh = { -brand-short-name } をリフレッシュ
-quickactions-cmd-refresh = refresh
+quickactions-cmd-refresh = refresh, リフレッシュ
 # Restarts the browser
 quickactions-restart = { -brand-short-name } を再起動
-quickactions-cmd-restart = restart
+quickactions-cmd-restart = restart, 再起動
 # Opens the screenshot tool
 quickactions-screenshot3 = スクリーンショットを撮影
-quickactions-cmd-screenshot2 = screenshot, take a screenshot
+quickactions-cmd-screenshot2 = screenshot, take a screenshot, スクリーンショット
 quickactions-cmd-screenshot = screenshot
 # Opens about:preferences
 quickactions-settings2 = 設定を管理
 # "manage" should match the corresponding command, which is “Manage settings” in English.
-quickactions-cmd-settings2 = settings, preferences, options, manage
+quickactions-cmd-settings2 = settings, preferences, options, manage, 設定
 quickactions-cmd-settings = settings, preferences, options
 # Opens about:addons page in the themes section
 quickactions-themes = テーマを管理
-quickactions-cmd-themes = themes
+quickactions-cmd-themes = themes, テーマ
 # Opens a SUMO article explaining how to update the browser
 quickactions-update = { -brand-short-name } を更新
-quickactions-cmd-update = update
+quickactions-cmd-update = update, 更新, アップデート
 # Opens the view-source UI with current pages source
-quickactions-viewsource2 = View page source
-quickactions-cmd-viewsource2 = view source, source, page source
+quickactions-viewsource2 = ページのソースを表示
+quickactions-cmd-viewsource2 = view source, source, page source, ソース, ページのソース
 quickactions-cmd-viewsource = view source, source
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
