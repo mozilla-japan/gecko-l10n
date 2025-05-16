@@ -132,4 +132,5 @@ fxsrc | dom, netwerk, toolkit    abc61947 (2025-04-15)  kazushi      sync dom, n
 tbsrc | mail                     869298b8 (2025-05-02)  kazushi      sync mail
 seamk | suite                    a40d5fa1 (2025-04-19)  kazushi      sync suite
 fxsrc | browser, dom, toolkit    797196ef (2025-05-07)  mar          sync browser, dom, toolkit, devtools
+fxsrc | browser, dom, toolkit    fa8be37a (2025-05-15)  kazushi      sync browser, dom, toolkit
 
