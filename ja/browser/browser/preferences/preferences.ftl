@@ -713,7 +713,7 @@ search-keyword-warning-engine = "{ $name }" で使用されているキーワー
 search-keyword-warning-bookmark = ブックマークで使用されているキーワードを指定しました。他のものを指定してください。
 remove-engine-confirmation = 本当にこの検索エンジンを削除しますか？
 remove-engine-remove = 削除
-remove-addon-engine-alert = 関連づけられている拡張機能を削除すると、この検索エンジンを削除できます。
+remove-addon-engine-alert = この検索エンジンを削除するには、関連付けられたアドオンを削除してください。
 
 ## Containers Section
 

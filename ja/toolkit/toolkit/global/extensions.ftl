@@ -99,7 +99,7 @@ webext-perms-host-description-multiple-domains =
 
 ## Strings for data collection permissions in the permission prompt.
 
-webext-perms-description-data-none = 開発者によると、この拡張機能ではデータ収集は必須ではありません。
+webext-perms-description-data-none = 開発者によると、この拡張機能はデータ収集を必要としません。
 # Variables:
 #    $permissions (String): a list of data collection permissions formatted with `Intl.ListFormat` using the "narrow" style.
 webext-perms-description-data-some = 開発者によると、この拡張機能は次のデータを収集します: { $permissions }
@@ -111,7 +111,7 @@ webext-perms-description-data-some-update = 開発者によると、拡張機能
 webext-perms-description-data-some-optional = 開発者によると、拡張機能は次のデータの収集を求めます: { $permissions }
 # Variables:
 #   $extension (String): replaced with the localized name of the extension.
-webext-perms-update-text-with-data-collection = { $extension } を更新すると新たな設定が必要になります
+webext-perms-update-text-with-data-collection = { $extension } を新しい設定に更新する必要があります
 webext-perms-update-list-intro-with-data-collection = 現在のバージョンと設定を引き続き使用したい場合はキャンセル、新しいバージョンを入手して変更を承認する場合は更新してください。
 # Variables:
 #   $extension (String): replaced with the localized name of the extension.
