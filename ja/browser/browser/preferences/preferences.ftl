@@ -637,6 +637,8 @@ home-prefs-weather-header =
     .label = 天気予報
 home-prefs-weather-description = 一目でわかる今日の天気
 home-prefs-weather-learn-more-link = 詳細情報
+home-prefs-mission-message = スポンサーは、より良いウェブを構築するという私たちのミッションを支援しています
+home-prefs-mission-message-learn-more-link = 支援の詳細情報
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
@@ -709,6 +711,9 @@ search-keyword-warning-title = キーワードが重複しています
 #   $name (string) - Name of a search engine.
 search-keyword-warning-engine = "{ $name }" で使用されているキーワードを指定しました。他のものを指定してください。
 search-keyword-warning-bookmark = ブックマークで使用されているキーワードを指定しました。他のものを指定してください。
+remove-engine-confirmation = 本当にこの検索エンジンを削除しますか？
+remove-engine-remove = 削除
+remove-addon-engine-alert = この検索エンジンを削除するには、関連付けられたアドオンを削除してください。
 
 ## Containers Section
 

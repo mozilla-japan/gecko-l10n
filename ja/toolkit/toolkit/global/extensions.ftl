@@ -25,7 +25,15 @@ webext-perms-list-intro-unsigned = この未検証の拡張機能はユーザー
 webext-perms-header-required-perms = 必要な権限:
 webext-perms-header-optional-settings = 任意の設定:
 webext-perms-header-update-required-perms = 新たに必要な権限:
-webext-perms-header-optional-required-perms = 追加の許可設定:
+webext-perms-header-optional-required-perms = 新たに追加の許可設定:
+webext-perms-header-data-collection-perms = 必要なデータ収集:
+webext-perms-header-data-collection-is-none = 任意のデータ収集:
+# This is a header used in the add-ons "update" prompt, shown when the new
+# version requires new data collection permissions.
+webext-perms-header-update-data-collection-perms = 新たに必要なデータ収集:
+# This is a header used in the add-ons "optional" prompt, shown when the
+# extension requests new data collection permissions programmatically.
+webext-perms-header-optional-data-collection-perms = 新たに追加のデータ収集:
 
 ##
 
@@ -88,6 +96,29 @@ webext-perms-host-description-multiple-domains =
     { $domainCount ->
        *[other] { $domainCount } 個のドメイン下のサイトデータへのアクセス
     }
+
+## Strings for data collection permissions in the permission prompt.
+
+webext-perms-description-data-none = 開発者によると、この拡張機能はデータ収集を必要としません。
+# Variables:
+#    $permissions (String): a list of data collection permissions formatted with `Intl.ListFormat` using the "narrow" style.
+webext-perms-description-data-some = 開発者によると、この拡張機能は次のデータを収集します: { $permissions }
+# Variables:
+#    $permissions (String): a list of data collection permissions formatted with `Intl.ListFormat` using the "narrow" style.
+webext-perms-description-data-some-update = 開発者によると、拡張機能は次のデータを収集します: { $permissions }
+# Variables:
+#    $permissions (String): a list of data collection permissions formatted with `Intl.ListFormat` using the "narrow" style.
+webext-perms-description-data-some-optional = 開発者によると、拡張機能は次のデータの収集を求めます: { $permissions }
+# Variables:
+#   $extension (String): replaced with the localized name of the extension.
+webext-perms-update-text-with-data-collection = { $extension } を新しい設定に更新する必要があります
+webext-perms-update-list-intro-with-data-collection = 現在のバージョンと設定を引き続き使用したい場合はキャンセル、新しいバージョンを入手して変更を承認する場合は更新してください。
+# Variables:
+#   $extension (String): replaced with the localized name of the extension.
+webext-perms-optional-text-with-data-collection = { $extension } が追加の設定を要求しています
+# Variables:
+#   $extension (String): replaced with the localized name of the extension.
+webext-perms-optional-text-with-data-collection-only = { $extension } が追加のデータ収集を要求しています
 
 ## Headers used in the webextension permissions dialog for synthetic add-ons.
 ## The part of the string describing what privileges the extension gives should be consistent

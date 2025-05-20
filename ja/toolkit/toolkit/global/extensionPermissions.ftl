@@ -40,3 +40,36 @@ webext-perms-description-webNavigation = ナビゲーション中のブラウザ
 webext-perms-extra-warning-userScripts-long = 有害なコードやウェブサイトでの行動を追跡するコードなど、未検証のスクリプトはユーザーの安全とプライバシーに危険を及ぼす可能性があります。拡張機能や信頼できるソースからのスクリプト以外は実行しないでください。
 # A shorter warning is displayed in UI surfaces with little room, such as a permission prompt.
 webext-perms-extra-warning-userScripts-short = 未検証のスクリプトはユーザーの安全とプライバシーに危険を及ぼす可能性があります。拡張機能や信頼できるソースからのスクリプト以外は実行しないでください。
+
+## Short form to be used in lists or in a string (`webext-perms-description-data-some`)
+## that formats some of the data collection permissions below using `Intl.ListFormat`.
+##
+## This is used when the data collection permissions are required.
+
+webext-perms-description-data-short-authenticationInfo = 認証情報
+webext-perms-description-data-short-bookmarksInfo = ブックマーク
+webext-perms-description-data-short-browsingActivity = ブラウジングアクティビティ
+webext-perms-description-data-short-financialAndPaymentInfo = 金融と支払いの情報
+webext-perms-description-data-short-healthInfo = 健康情報
+webext-perms-description-data-short-locationInfo = 位置情報
+webext-perms-description-data-short-personalCommunications = 個人的な通信情報
+webext-perms-description-data-short-personallyIdentifyingInfo = 個人を特定可能な情報
+webext-perms-description-data-short-searchTerms = 検索語句
+webext-perms-description-data-short-technicalAndInteraction = 技術データと対話データ
+webext-perms-description-data-short-websiteActivity = ウェブサイトアクティビティ
+webext-perms-description-data-short-websiteContent = ウェブサイトの内容
+
+## Long form to be used in `about:addons` when these data collection permissions are optional.
+
+webext-perms-description-data-long-authenticationInfo = 認証情報を拡張機能の開発者と共有する
+webext-perms-description-data-long-bookmarksInfo = ブックマーク情報を拡張機能の開発者と共有する
+webext-perms-description-data-long-browsingActivity = ブラウジングアクティビティを拡張機能の開発者と共有する
+webext-perms-description-data-long-financialAndPaymentInfo = 金融と支払いの情報を拡張機能の開発者と共有する
+webext-perms-description-data-long-healthInfo = 健康情報を拡張機能の開発者と共有する
+webext-perms-description-data-long-locationInfo = 位置情報を拡張機能の開発者と共有する
+webext-perms-description-data-long-personalCommunications = 個人的な通信情報を拡張機能の開発者と共有する
+webext-perms-description-data-long-personallyIdentifyingInfo = 個人を特定可能な情報を拡張機能の開発者と共有する
+webext-perms-description-data-long-searchTerms = 検索語句を拡張機能の開発者と共有する
+webext-perms-description-data-long-technicalAndInteraction = 技術データと対話データを拡張機能の開発者と共有する
+webext-perms-description-data-long-websiteActivity = ウェブサイトアクティビティを拡張機能の開発者と共有する
+webext-perms-description-data-long-websiteContent = ウェブサイトの内容を拡張機能の開発者と共有する

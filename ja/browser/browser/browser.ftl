@@ -415,7 +415,7 @@ quickactions-cmd-themes = themes
 quickactions-update = { -brand-short-name } を更新
 quickactions-cmd-update = update
 # Opens the view-source UI with current pages source
-quickactions-viewsource2 = View page source
+quickactions-viewsource2 = ページのソースを表示
 quickactions-cmd-viewsource2 = view source, source, page source
 quickactions-cmd-viewsource = view source, source
 # Tooltip text for the help button shown in the result.
@@ -1198,6 +1198,11 @@ popup-notification-xpinstall-prompt-block-url = 詳細を見る
 popup-notification-addon-privatebrowsing-checkbox2 =
     .label = プライベート@@Window@@で拡張機能の実行を許可する
     .accesskey = p
+# This string is similar to `webext-perms-description-data-long-technicalAndInteraction`
+# but it is used in the install prompt, and it needs an access key.
+popup-notification-addon-technical-and-interaction-checkbox =
+    .label = 技術データと対話データを拡張機能の開発者に共有する
+    .accesskey = S
 # Note: Access key is set to P to match "Private" in the corresponding localized label.
 popup-notification-addon-privatebrowsing-checkbox =
     .label = プライベート@@Window@@で実行する
