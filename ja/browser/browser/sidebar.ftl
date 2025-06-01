@@ -25,10 +25,6 @@ sidebar-history-date-prev-month =
     .heading = { DATETIME($date, month: "long", year: "numeric") }
 sidebar-history-delete =
     .title = 履歴から削除します
-sidebar-history-sort-by-date =
-    .label = 日付で並べ替え
-sidebar-history-sort-by-site =
-    .label = サイト名で並べ替え
 sidebar-history-clear =
     .label = 履歴を消去
 sidebar-history-sort-by-heading = 並べ替え:
@@ -105,8 +101,6 @@ sidebar-context-menu-close-remote-tab =
 
 ## Labels for sidebar history context menu items
 
-sidebar-history-context-menu-delete-page =
-    .label = 履歴から削除
 sidebar-history-context-menu-delete-page-2 =
     .label = ページを履歴から削除
 sidebar-history-context-menu-bookmark-page =
@@ -166,8 +160,6 @@ sidebar-menu-history-header =
     .heading = 履歴
 sidebar-menu-syncedtabs-header =
     .heading = 他の端末からのタブ
-sidebar-menu-bookmarks-header =
-    .heading = ブックマーク
 sidebar-menu-cpm-header =
     .heading = パスワード
 sidebar-panel-header-close-button =

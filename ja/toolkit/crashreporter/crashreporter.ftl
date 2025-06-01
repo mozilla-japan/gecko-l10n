@@ -51,3 +51,4 @@ crashreporter-error-no-home-dir = ホームディレクトリーが設定され�
 # $to (String) - the destination path
 crashreporter-error-moving-path = { $from } から { $to } への移動に失敗しました
 crashreporter-error-version-eol = サポート終了: ご使用のバージョンのクラッシュレポートは受付終了しました。
+crashreporter-error-failed-to-generate-minidump = @@Application@@がクラッシュ情報の生成に失敗しました。

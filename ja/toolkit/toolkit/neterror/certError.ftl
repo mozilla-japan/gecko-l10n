@@ -31,11 +31,11 @@ cert-error-domain-mismatch = ウェブサイトは証明書で同一性を証明
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
 #   $alt-name (string) - Alternate domain name for which the cert is valid.
-cert-error-domain-mismatch-single = ウェブサイトは証明書で同一性を証明します。{ $hostname } は無効な証明書を使用しているため、{ -brand-short-name } はこのサイトを信頼しません。 この証明書は <a data-l10n-name="domain-mismatch-link">{ $alt-name }</a> にだけ有効なものです。
+cert-error-domain-mismatch-single = ウェブサイトは証明書で同一性を証明します。{ $hostname } は無効な証明書を使用しているため、{ -brand-short-name } はこのサイトを信頼しません。この証明書は <a data-l10n-name="domain-mismatch-link">{ $alt-name }</a> にだけ有効なものです。
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
 #   $alt-name (string) - Alternate domain name for which the cert is valid.
-cert-error-domain-mismatch-single-nolink = ウェブサイトは証明書で同一性を証明します。{ $hostname } は無効な証明書を使用しているため、{ -brand-short-name } はこのサイトを信頼しません。 この証明書は { $alt-name } にだけ有効なものです。
+cert-error-domain-mismatch-single-nolink = ウェブサイトは証明書で同一性を証明します。{ $hostname } は無効な証明書を使用しているため、{ -brand-short-name } はこのサイトを信頼しません。この証明書は { $alt-name } にだけ有効なものです。
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
 #   $subject-alt-names (string) - Alternate domain names for which the cert is valid.
@@ -113,6 +113,26 @@ fp-datetime = { DATETIME($datetime, month: "short", year: "numeric", day: "numer
 fp-learn-more-about-secure-connection-failures = 安全な接続の失敗についての詳細情報
 fp-learn-more-about-cert-issues = このような証明書の問題についての詳細情報
 fp-learn-more-about-time-related-errors = 時刻関連エラーのトラブルシューティングについての詳細情報
+
+## Variables:
+##   $hostname (string) - Hostname of the website with cert error.
+
+cert-error-revoked-certificate = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書が破棄されているため信頼できません。
+cert-error-bad-signature = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書の署名が正しくありません。
+cert-error-key-pinning-failure = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書が指定されたものとは異なる公開鍵を使用しています。
+cert-error-bad-der = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書が正しくエンコードされていません。
+cert-error-cert-not-in-name-space = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書が証明書発行時の名前制約に従っていません。
+cert-error-inadequate-cert-type = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書がウェブサーバーでの使用を許可されていません。
+cert-error-path-len-constraint-invalid = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書のルート証明書へのパス内に中間証明書が多すぎます。
+cert-error-invalid-key = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書に不正な鍵が使用されています。多くの場合、鍵が短すぎて安全でないかもしれません。
+cert-error-unknown-critical-extension = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書にサポートされていない致命的な拡張が含まれています。
+cert-error-extension-value-invalid = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書に不正な拡張が含まれています。
+cert-error-untrusted-issuer = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書は信頼されていない認証局により発行されたものです。
+cert-error-untrusted-cert = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書は信頼されていないマークが付けられています。
+cert-error-invalid-integer-encoding = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書に整数型の不正なエンコーディングが含まれています。よくある原因として負のシリアル番号、負の RSA モジュール、必要以上に長いエンコーディングなどが考えられます。
+cert-error-unsupported-keyalg = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書にサポートされていない形式の鍵が使用されています。
+cert-error-issuer-no-longer-trusted = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書を発行した認証局が信頼されていません。
+cert-error-signature-algorithm-mismatch = { -brand-short-name } がこのサイトへの訪問をブロックしました。{ $hostname } の証明書の署名アルゴリズムが署名アルゴリズムフィールドに記載されたものと一致しません。
 
 ## Messages used for certificate error titles
 

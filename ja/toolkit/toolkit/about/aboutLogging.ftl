@@ -15,6 +15,8 @@ about-logging-set-log-file = ログファイルを設定
 about-logging-set-log-modules = ログモジュールを設定
 about-logging-start-logging = 記録開始
 about-logging-stop-logging = 記録終了
+about-logging-copy-as-url = 現在の設定を URL 形式でコピー
+about-logging-url-copied = ログ設定をプリセット URL 形式でクリップボードにコピーしました
 about-logging-buttons-disabled = 記録先が環境変数により指定されているため、動的な設定変更はできません。
 about-logging-some-elements-disabled = 記録先が URL により指定されているため、一部の設定は変更できません。
 about-logging-info = 情報:
@@ -27,6 +29,8 @@ about-logging-no-log-modules = なし
 about-logging-no-log-file = なし
 about-logging-logging-preset-selector-text = ログプリセット:
 about-logging-with-profiler-stacks-checkbox = ログメッセージのスタックトレースを有効にする
+about-logging-menu =
+    .title = 詳細オプション
 
 ## Logging presets
 

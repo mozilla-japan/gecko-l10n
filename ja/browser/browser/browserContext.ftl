@@ -146,9 +146,7 @@ main-context-menu-save-link-to-pocket =
     .label = リンクを { -pocket-brand-name } に保存
     .accesskey = o
 
-## The access keys for "Copy Link" and "Copy Email Address"
-## should be the same if possible; the two context menu items
-## are mutually exclusive.
+##
 
 main-context-menu-copy-email =
     .label = メールアドレスをコピー
@@ -159,6 +157,9 @@ main-context-menu-copy-phone =
 main-context-menu-copy-link-simple =
     .label = リンクをコピー
     .accesskey = L
+main-context-menu-preview-link =
+    .label = リンク先をプレビュー
+    .accesskey = r
 # "Copy Clean Link" means that Firefox will remove things from the link you
 # copied, like items that identify you for advertising purposes, and other items
 # sites add into URLs to help them deliver a certain browsing experience.

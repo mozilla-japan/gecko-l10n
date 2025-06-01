@@ -47,6 +47,9 @@ appmenu-addon-post-install-message3 = アプリケーションメニューから
 # This string is used in the confirmation popup displayed after an extension
 # has been installed, when the data collection feature is enabled.
 appmenu-addon-post-install-message-with-data-collection = 権限とデータの設定は<a data-l10n-name="settings-link">拡張機能の設定</a>でいつでも変更できます。
+appmenu-addon-post-install-pin-toolbarbutton-checkbox =
+    .label = 拡張機能をツールバーにピン留めする
+    .accesskey = P
 appmenu-addon-post-install-incognito-checkbox =
     .label = この拡張機能のプライベート@@Window@@での実行を許可する
     .accesskey = A

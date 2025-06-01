@@ -25,3 +25,5 @@ confirmation-hint-screenshot-copied = スクリーンショットをコピーし
 # Variables:
 #   $tabCount (Number): The number of duplicate tabs closed, at least 1.
 confirmation-hint-duplicate-tabs-closed = { $tabCount } 個のタブを閉じました
+# Subtle notification shown when Extensions button moves into the application menu.
+confirmation-hint-extensions-button-hidden = メニューに移動しました

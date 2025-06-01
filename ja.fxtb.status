@@ -122,7 +122,6 @@ tbsrc | mail                     c7a3d77d (2025-03-28)  mar          sync mail
 fxsrc | browser, devtools        c0dd65dc (2025-04-08)  mar          sync browser, devtools
 tbsrc | mail                     b08d4569 (2025-04-08)  kazushi      sync mail
 
-^---Released!
 
 [l10n-mozilla-139.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
@@ -133,4 +132,11 @@ tbsrc | mail                     869298b8 (2025-05-02)  kazushi      sync mail
 seamk | suite                    a40d5fa1 (2025-04-19)  kazushi      sync suite
 fxsrc | browser, dom, toolkit    797196ef (2025-05-07)  mar          sync browser, dom, toolkit, devtools
 fxsrc | browser, dom, toolkit    fa8be37a (2025-05-15)  kazushi      sync browser, dom, toolkit
+
+^---Released!
+
+[l10n-mozilla-140.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | browser, toolkit         51800b81 (2025-05-27)  mar          sync browser, toolkit
 

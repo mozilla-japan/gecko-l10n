@@ -317,14 +317,6 @@ addon-options-button =
     .aria-label = 他のオプション
 # Explanatory introduction to the list of recommended add-ons. The action word
 # ("recommends") in the final sentence is a link to external documentation.
-discopane-intro2 =
-    拡張機能やテーマを使用すると { -brand-product-name } をカスタマイズできます。
-    プライバシー保護を強化したり、生産性を向上させたり、メディアを見やすくしたり、
-    { -brand-product-name } の見た目を変更したり、その他さまざまな拡張機能やテーマがあります。
-    これらの小さなソフトウェアプログラムのほとんどは、サードパーティーによって開発されています。
-    セキュリティ、パフォーマンス、生産性を向上させる { -brand-product-name } の<a data-l10n-name="learn-more-trigger">おすすめ</a>はこちらです。
-# Explanatory introduction to the list of recommended add-ons. The action word
-# ("recommends") in the final sentence is a link to external documentation.
 # We hard code "Firefox" because we do not want to imply that a Firefox fork is
 # making this recommendation.
 discopane-intro3 =
@@ -458,8 +450,6 @@ addon-badge-line3 =
 addon-badge-verified2 =
     .title = この拡張機能はセキュリティとパフォーマンスの基準に適合するようレビューされています。
     .aria-label = { addon-badge-verified2.title }
-addon-badge-recommended3 =
-    .title = { -brand-product-name } は Mozilla が定めた安全性とパフォーマンスの基準に適合する拡張機能のみをおすすめします
 # We hard code "Mozilla" in the string below because the extensions are built
 # by Mozilla and we don't want forks to display "by Fork".
 addon-badge-line4 =
@@ -471,8 +461,6 @@ addon-badge-line4 =
 # like the words "our" or "we".
 addon-badge-verified4 =
     .title = この拡張機能はセキュリティとパフォーマンスの基準に適合するようレビューされています
-addon-badge-verified3 =
-    .title = この拡張機能はセキュリティとパフォーマンスの基準に適合するようレビューされています。
 # This string needs to work in the context of other forks that are not Firefox
 # or built by Mozilla. In particular, we do not want to imply that an
 # organisation other than Mozilla or the Firefox team are making the
@@ -580,3 +568,33 @@ addon-permissions-required-data-collection = 必須のデータ収集:
 addon-permissions-optional-data-collection = 任意のデータ収集:
 # Name of the Permissions tab in `about:addons` when the data collection feature is enabled.
 permissions-data-addon-button = 権限とデータ
+# This is a description for extension that use this AI model
+# Variables:
+#   $extensionName (String) - Name of the extension
+mlmodel-extension-label = 拡張機能 { $extensionName } に利用されています
+
+## Mapping Engine IDs from AI models to how that feature represented by the engine Id is described in the used by section in local model management
+
+mlmodel-about-inference = これは { -brand-short-name } が about:inference で利用しています
+mlmodel-link-preview = これは { -brand-short-name } がリンク先プレビュー時の要点の生成に利用しています
+mlmodel-pdfjs = これは { -brand-short-name } が PDF に追加した画像の代替テキストを作成するのに利用しています
+mlmodel-smart-tab-topic-engine = これは { -brand-short-name } がタブグループ名を提案するのに利用しています
+mlmodel-smart-tab-embedding-engine = これは { -brand-short-name } タブグループのタブを提案するのに利用しています
+# AI Model will be downloaded on the users device and used locally
+addon-category-mlmodel = 端末上の AI
+addon-category-mlmodel-title =
+    .title = 端末上の AI
+mlmodel-heading = 端末上の AI モデルを管理
+mlmodel-description = { -brand-short-name } の一部の機能や拡張機能は端末上のローカルで動作する AI モデルによって機能しています。このアプローチはユーザーのプライバシーを保護し、動作速度のパフォーマンスが向上します。<a data-l10n-name="learn-more">詳細情報</a>
+# Label for button that when clicked removed local model
+mlmodel-remove-addon-button =
+    .aria-label = 削除
+# Label for the aggregated value of all files for a model
+mlmodel-addon-detail-totalsize-label = ファイルサイズ
+mlmodel-addon-detail-last-used-label = 最終使用日時
+# This is a section label to describe what extensions or features use a specific local AI model
+mlmodel-addon-detail-used-by-label = 利用者
+# This is a section label to describe the link to the model card on the Hugging Face website
+mlmodel-addon-detail-model-card = モデルカード
+# This is a label for the Model Card link to Hugging face
+mlmodel-addon-detail-model-card-link-label = Hugging Face で表示

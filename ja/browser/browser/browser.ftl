@@ -818,6 +818,9 @@ urlbar-group-recent-searches =
 #  $engine (String): the name of the search engine providing the trending suggestions
 urlbar-group-trending =
     .label = { $engine } の検索トレンド
+# Label shown above sponsored suggestions in the urlbar results.
+urlbar-group-sponsored =
+    .label = 広告
 # The result menu labels shown next to trending results.
 urlbar-result-menu-trending-dont-show =
     .label = 検索トレンドを表示しない
@@ -1203,10 +1206,6 @@ popup-notification-addon-privatebrowsing-checkbox2 =
 popup-notification-addon-technical-and-interaction-checkbox =
     .label = 技術データと対話データを拡張機能の開発者に共有する
     .accesskey = S
-# Note: Access key is set to P to match "Private" in the corresponding localized label.
-popup-notification-addon-privatebrowsing-checkbox =
-    .label = プライベート@@Window@@で実行する
-    .accesskey = P
 
 ## Pop-up warning
 
