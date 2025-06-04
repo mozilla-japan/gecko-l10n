@@ -47,3 +47,7 @@ experimental-features-link-previews-description-no-ai =
         [macos] クリックする前にウェブページについて知るには、リンクにマウスカーソルを合わせ、Shift (⇧) キーを押しながら Option (⌥) または Alt キーを押します。プレビューにはページタイトルや読了時間などの詳細が含まれます。<a data-l10n-name="connect">フィードバックを共有してください</a>。
        *[other] クリックする前にウェブページについて知るには、リンクにマウスカーソルを合わせ、Shift + Alt キーを押します。プレビューにはページタイトルや読了時間などの詳細が含まれます。<a data-l10n-name="connect">フィードバックを共有してください</a>。
     }
+# New Tab Sections with follow and block
+experimental-features-newtab-sections-follow-block =
+    .label = @@NewTab@@ストーリーのトピックセクションとフォロー/ブロック
+experimental-features-newtab-sections-follow-block-description = @@NewTab@@ページのストーリーを簡単に見つけられるように、分類された各トピック (スポーツ、食べ物、娯楽など) のセクションに整理しましょう。新しいフォロー/ブロックのコントロールで、表示されるコンテンツをカスタマイズできます。<a data-l10n-name="connect">フィードバックを共有してください</a>。

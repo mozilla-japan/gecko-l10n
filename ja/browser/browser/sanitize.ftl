@@ -60,7 +60,6 @@ item-history-and-downloads =
     .label = 表示したページとダウンロードの履歴
     .accesskey = B
 item-history-and-downloads-description2 = 表示したページとダウンロードの履歴を消去します
-item-history-and-downloads-description = 検索履歴、表示したページとダウンロードの履歴を消去します
 item-history-form-data-downloads =
     .label = 履歴
     .accesskey = H
