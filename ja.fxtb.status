@@ -138,5 +138,5 @@ fxsrc | browser, dom, toolkit    fa8be37a (2025-05-15)  kazushi      sync browse
 [l10n-mozilla-140.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
-fxsrc | browser, toolkit         51800b81 (2025-05-27)  mar          sync browser, toolkit
+fxsrc | browser, toolkit         bd294c3f (2025-06-02)  mar          sync browser, toolkit
 
