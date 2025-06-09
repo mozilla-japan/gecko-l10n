@@ -144,5 +144,7 @@ tbsrc | mail                     b81201d8 (2025-05-14)  kazushi      sync mail
 [l10n-mozilla-140.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
+tbsrc | mail                     b81201d8 (2025-05-14)  kazushi      sync mail
 fxsrc | browser, toolkit         bd294c3f (2025-06-02)  mar          sync browser, toolkit
+tbsrc | mail                     bc092104 (2025-06-03)  mar          sync mail
 

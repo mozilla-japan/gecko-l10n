@@ -441,20 +441,19 @@ dark-message-mode-checkbox-label =
     .label = ダークメッセージモードを有効にする
     .accesskey = d
 dark-message-mode-description = メッセージ本文を強制的にダークテーマにします
-dark-message-mode-checkbox-description = メッセージ本文をダークテーマに合わせる実験的な機能です
 dark-message-mode-toggle-label =
     .label = ダークメッセージモードの切り替えを表示する
     .accesskey = t
 dark-message-mode-toggle-description = メッセージヘッダーにダークメッセージモードをすばやく無効化できるスイッチを表示します
 account-hub-legend = アカウントハブ
 account-hub-checkbox-label =
-    .label = 新しいアカウントハブでアカウントを作成する
+    .label = 新アカウントハブでアカウントを作成する
     .accesskey = C
-account-hub-checkbox-description = 実験的な@@New-CMD@@アカウントの作成フローです
+account-hub-checkbox-description = @@New-CMD@@メールアカウントの実験的な作成フローです
 account-hub-ab-checkbox-label =
-    .label = 新しいアカウントハブでアドレス帳を作成する
+    .label = 新アカウントハブでアドレス帳を作成する
     .accesskey = A
-account-hub-ab-checkbox-description = 実験的な@@New-CMD@@アドレス帳の作成フローです
+account-hub-ab-checkbox-description = @@New-CMD@@アドレス帳の実験的な作成フローです
 
 ## Compose Tab
 
@@ -792,6 +791,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = 設定内を検索
+managed-notice = { -brand-short-name } はあなたの所属組織により管理されています。
 
 ## Settings UI Search Results
 
@@ -967,7 +967,6 @@ default-sort-descending =
     .label = 降順
 default-sort-descending-description = 新着メッセージから順に並びます
 apply-thread-sort-label = スレッド表示と並べ替えの設定の適用先:
-apply-sort-label = 設定の適用先:
 apply-sort-to-all-button =
     .label = 既存のすべてのフォルダー
     .accesskey = A

@@ -143,3 +143,42 @@ account-hub-addon-install-needed = { -brand-short-name } 本体はこのサー�
 account-hub-addon-error = アドオンのインストールに失敗しました。もう一度試すか、アドオンの作者に問い合わせてください。
 account-hub-security-warning = <span data-l10n-name="security-warning">警告: 安全でないメールサーバーが検知されました。</span> このサーバーとの接続は暗号化されておらず、パスワードとデータが漏洩する危険性があります。安全な接続を行うように端末の管理者に伝えるか、危険性を承知の上で進んでください。<a data-l10n-name="faq-link">詳細は FAQ をご覧ください。</a>
 account-hub-account-authentication-error = 認証エラー
+account-hub-add-address-book = アドレス帳を追加
+address-book-sync-existing-icon =
+    .alt = 既存のアカウントからのアドレス帳を同期
+address-book-sync-existing = 既存のアカウントから同期
+address-book-add-remote-icon =
+    .alt = @@New-CMD@@リモートアドレス帳を追加
+address-book-add-remote = リモートアドレス帳を追加
+address-book-add-remote-description = リモートの CardDav アドレス帳に接続します
+address-book-add-local-icon =
+    .alt = @@New-CMD@@ローカルアドレス帳を作成
+address-book-add-local = @@New-CMD@@ローカルアドレス帳
+address-book-add-local-description = 端末上に@@New-CMD@@ローカルアドレス帳を作成します
+address-book-add-ldap-icon =
+    .alt = リモート LDAP アドレス帳に接続
+address-book-add-ldap = @@New-CMD@@ LDAP アドレス帳
+address-book-add-ldap-description = リモートの LDAP アドレス帳に接続します
+account-hub-fetching-sync-accounts = アドレス帳とカレンダーを探索します
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { NUMBER($addressBooks) ->
+        [one]
+            { NUMBER($accounts) ->
+                [one] 1 件のアカウントから 1 冊のアドレス帳が利用できます
+               *[other] { $accounts } 件のアカウントから 1 冊のアドレス帳が利用できます
+            }
+       *[other]
+            { NUMBER($accounts) ->
+                [one] 1 件のアカウントから { $addressBooks } 冊のアドレス帳が利用できます
+               *[other] { $accounts } 件のアカウントから { $addressBooks } 冊のアドレス帳が利用できます
+            }
+    }
+address-book-sync-existing-description = 既存のアカウントを取得しています...
+account-hub-select-address-book-account = アドレス帳を持つアカウントを選択してください
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } / { $total } 同期
+    .title = アドレス帳を { $available } 冊中 { $synced } 冊同期しました
