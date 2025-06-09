@@ -476,5 +476,6 @@ quota-panel-percent-used = { $percent }% 使用
 mark-as-read-action = 既読にする
 delete-action = 削除
 mark-as-starred-action = スターを付ける
+mark-as-spam-action = 迷惑マークを付ける
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = 何もしない
