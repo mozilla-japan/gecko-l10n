@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = 代替アドオンを見つける
 atn-addons-heading-search-input =
     .placeholder = addons.thunderbird.net を検索
+atn-addons-heading-search-button =
+    .title = Search addons.thunderbird.net
+    .aria-label = Search addons.thunderbird.net
