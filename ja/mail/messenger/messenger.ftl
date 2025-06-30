@@ -477,3 +477,4 @@ mark-as-read-action = 既読にする
 delete-action = 削除
 mark-as-starred-action = スターを付ける
 mark-as-spam-action = 迷惑マークを付ける
+archive-action = アーカイブ

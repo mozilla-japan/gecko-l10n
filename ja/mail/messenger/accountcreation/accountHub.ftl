@@ -182,3 +182,7 @@ account-hub-select-address-book-account = アドレス帳を持つアカウン�
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } / { $total } 同期
     .title = アドレス帳を { $available } 冊中 { $synced } 冊同期しました
+account-hub-add-local-address-book = ローカルアドレス帳の作成
+account-hub-local-address-book-label = アドレス帳の名前
+account-hub-local-error-text = アドレス帳の名前を入力してください
+account-hub-sync-address-books = 既存のアドレス帳を同期
