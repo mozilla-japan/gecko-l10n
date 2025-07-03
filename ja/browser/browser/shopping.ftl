@@ -89,9 +89,6 @@ shopping-show-less-button = 表示を減らす
 
 shopping-settings-label =
     .label = 設定
-shopping-settings-recommendations-toggle2 =
-    .label = おすすめと広告コンテンツを表示する
-shopping-settings-recommendations-learn-more3 = { -brand-product-name } はユーザーの個人データを共有しないため、これらのおすすめコンテンツがインターネット上であなたを追跡することはありません。 <a data-l10n-name="review-quality-url">詳細情報</a>
 shopping-settings-recommendations-toggle =
     .label = レビューチェッカーに広告を表示する
 shopping-settings-recommendations-learn-more2 = 時々、関連製品の広告が表示されます。私たちは信頼できるレビューの付いた製品のみを広告します。<a data-l10n-name="review-quality-url">詳細情報</a>
@@ -118,7 +115,6 @@ shopping-settings-sidebar-enabled-state = レビューチェッカーが <strong
 shopping-adjusted-rating-label =
     .label = レートが調整されています
 shopping-adjusted-rating-unreliable-reviews = 信頼できないレビューを削除しました
-shopping-adjusted-rating-based-reliable-reviews = 信頼できるレビューに基づく
 
 ## Strings for the review reliability component
 
@@ -137,8 +133,6 @@ shopping-analysis-explainer-learn-more2 = 詳細は、<a data-l10n-name="review-
 # websites, which will be inserted without being translated.
 #  $retailer (String) - capitalized name of the shopping website, for example, "Amazon".
 shopping-analysis-explainer-highlights-description = <strong>注目レビュー</strong> は最近 80 日以内の { $retailer } からのレビューで私たちが信頼するに足ると評価したものです。
-# Fallback for analysis highlights explainer if the retailer is ever unknown
-shopping-analysis-explainer-highlights-description-unknown-retailer =<strong>注目レビュー</strong> は最近 80 日以内の私たちが信頼するに足ると評価したレビューです。
 shopping-analysis-explainer-review-grading-scale-reliable = 信頼できるレビューです。これは正直で偏見を持たない本物の顧客によるレビューであると思われます。
 shopping-analysis-explainer-review-grading-scale-mixed = 信頼できるレビューと信頼できないレビューが混在していると思われます。
 shopping-analysis-explainer-review-grading-scale-unreliable = 信頼できないレビューです。これは偽物または偏見を持ったレビュアーによるレビューであると思われます。
@@ -165,7 +159,6 @@ shopping-unanalyzed-product-analyze-button = レビュー品質を確認
 
 more-to-consider-ad-label =
     .label = さらに検討する
-shopping-sponsored-label = 広告
 ad-by-fakespot = { -fakespot-brand-name } による広告
 
 ## Shopping survey strings.
@@ -186,18 +179,6 @@ shopping-survey-submit-button-label = 送信
 shopping-survey-terms-link = 利用規約
 shopping-survey-thanks =
     .heading = ご回答ありがとうございます。
-
-## Shopping opted-out survey strings
-## Opt-out survey options are displayed as checkboxes and the user can select one or many.
-
-shopping-survey-opted-out-multiselect-label = レビューチェッカーをオフにしている理由を教えてください。(複数回答可)
-shopping-survey-thanks-title = ご回答ありがとうございます
-shopping-survey-opted-out-hard-to-understand = 機能が理解できない
-shopping-survey-opted-out-too-slow = 動作が遅い
-shopping-survey-opted-out-not-accurate = 正確でない
-shopping-survey-opted-out-not-helpful = 自分の役には立たない
-shopping-survey-opted-out-check-myself = 自分でレビューをチェックしたい
-shopping-survey-opted-out-other = その他
 
 ## Shopping Feature Callout strings.
 ## "price tag" refers to the price tag icon displayed in the address bar to
@@ -251,76 +232,3 @@ shopping-onboarding-dialog-close-button =
 #   $total (Int) - Total number of pages
 shopping-onboarding-welcome-steps-indicator-label =
     .aria-label = 進捗: ステップ { $current } / { $total }
-
-## Review Checker in Integrated sidebar
-
-# Opt-in message strings for Review Checker when it is integrated into the global sidebar.
-shopping-opt-in-integrated-headline = 信頼された店
-# Description text for regions where we support three sites. Sites are limited to Amazon, Walmart and Best Buy.
-# Variables:
-#   $firstSite (String) - The first shopping page name
-#   $secondSite (String) - The second shopping page name
-#   $thirdSite (String) - The third shopping page name
-shopping-opt-in-integrated-subtitle = { -brand-product-name } のレビューチェッカーをオンに切り替えて、購入しようとしている製品のレビューがどれだけ信頼できるか確認してください。これは AI 技術を用いてレビューを解析し、{ $firstSite } および { $secondSite }、{ $thirdSite } でのショッピングに利用できます。<a data-l10n-name="learn_more">詳細情報</a>
-# Description text for regions where we support three sites. Sites are limited to Amazon, Walmart and Best Buy.
-# Variables:
-#   $firstSite (String) - The first shopping page name
-#   $secondSite (String) - The second shopping page name
-#   $thirdSite (String) - The third shopping page name
-shopping-opt-in-integrated-subtitle-unsupported-site = { -brand-product-name } のレビューチェッカーは、購入しようとしている製品のレビューが信頼できるかどうかを知るのに役立ちます。これは AI 技術を用いてレビューを解析し、{ $firstSite } および { $secondSite }、{ $thirdSite } でのショッピングに利用できます。<a data-l10n-name="learn_more">詳細情報</a>
-
-## Messages for callout for users not opted into the sidebar integrated version of Review Checker.
-
-shopping-callout-opt-in-integrated-headline = これらのレビューを信用できますか？
-# Appears underneath shopping-opt-in-integrated-headline to answer the question 'Can you trust these reviews?'
-shopping-callout-not-opted-in-integrated-paragraph1 = { -brand-product-name } のレビューチェッカーをオンにしてみましょう。これは { -fakespot-brand-full-name } による AI 技術を用いてレビューを解析します。
-shopping-callout-not-opted-in-integrated-paragraph2 = @@[@@{ shopping-opt-in-integrated-button }@@]@@ を選択することにより、{ -brand-product-name } の <a data-l10n-name="privacy_policy">プライバシー通知</a> および { -fakespot-brand-full-name } の <a data-l10n-name="terms_of_use">利用規約</a> に同意したものとみなされます。
-shopping-callout-not-opted-in-integrated-reminder-dismiss-button = 閉じる
-shopping-callout-not-opted-in-integrated-reminder-accept-button = レビューチェッカーをオンにする
-shopping-opt-in-integrated-privacy-policy-and-terms-of-use = レビューチェッカーは { -fakespot-brand-full-name } よる提供です。@@[@@{ shopping-opt-in-integrated-button }@@]@@ を選択することにより、{ -brand-product-name } の <a data-l10n-name="privacy_policy">プライバシー通知</a> および { -fakespot-brand-name } の <a data-l10n-name="terms_of_use">利用規約</a> に同意したものとみなされます。
-shopping-opt-in-integrated-button = レビューチェッカーを試す
-
-## Message strings for Review Checker's empty states.
-
-shopping-empty-state-header = レビューのチェックが可能です
-shopping-empty-state-supported-site = 製品ページを表示すると、そのレビューが信頼できるかどうかを { -brand-product-name } が調べます。
-# We show a list of sites supported by Review Checker whenever a user opens the feature in an unsupported site.
-# This string will be displayed above the list of sites. The list will be hardcoded and does not require localization.
-shopping-empty-state-non-supported-site = レビューチェッカーは次のショッピングサイトで動作します
-
-## Confirm disabling Review Checker for newly opted out users
-
-shopping-integrated-callout-opted-out-title = レビューチェッカーはオフです
-shopping-integrated-callout-opted-out-subtitle = オンに戻すには、サイドバー内の価格タグを選択してレビューチェッカーをオンに切り替えてください。
-
-## Callout for where to find Review Checker when the sidebar closes
-
-shopping-integrated-callout-sidebar-closed-title = レビューチェッカーにおまかせ
-shopping-integrated-callout-sidebar-closed-subtitle = サイドバー内の価格タグを選択して、製品のレビューが信頼できるかどうかを調べましょう。
-shopping-integrated-callout-no-logo-sidebar-closed-subtitle = サイドバーボタンを選択して、製品のレビューが信頼できるかどうかを調べましょう。
-
-## Strings for a notification card about Review Checker's new position in the sidebar.
-## The card will only appear for users that have the default sidebar position, which is on the left side for non RTL locales.
-## Review Checker in the sidebar is only available to US users at this time, so we can assume that the default position is on the left side.
-
-shopping-integrated-new-position-notification-title = 同じレビューチェッカー、新たなスポット
-shopping-integrated-new-position-notification-move-right-subtitle = レビューチェッカーと { -brand-product-name } サイドバーをここに配置、または右側へ移動してみましょう。<a data-l10n-name="sidebar_settings">サイドバー設定</a> で配置をいつでも切り替えられます。
-shopping-integrated-new-position-notification-move-left-subtitle = レビューチェッカーと { -brand-product-name } サイドバーをここに配置、または左側へ移動してみましょう。<a data-l10n-name="sidebar_settings">サイドバー設定</a> で配置をいつでも切り替えられます。
-shopping-integrated-new-position-notification-move-right-button = 右側へ移動
-shopping-integrated-new-position-notification-move-left-button = 左側へ移動
-shopping-integrated-new-position-notification-dismiss-button = 了解
-
-## Combined setting for auto-open and auto-close.
-
-shopping-settings-auto-open-and-close-toggle =
-    .label = レビューチェッカーを自動的に開閉する
-# Description text for regions where we support three sites. Sites are limited to Amazon, Walmart and Best Buy.
-# Variables:
-#   $firstSite (String) - The first shopping page name
-#   $secondSite (String) - The second shopping page name
-#   $thirdSite (String) - The third shopping page name
-shopping-settings-auto-open-and-close-description-three-sites = { $firstSite } または { $secondSite }、{ $thirdSite } で製品ページを表示すると開き、ページを移動すると閉じます。
-# Description text for regions where we support only one site (e.g. currently used in FR/DE with Amazon).
-# Variables:
-#   $currentSite (String) - The current shopping page name
-shopping-settings-auto-open-and-close-description-single-site = { $currentSite } で製品ページを表示すると開き、ページを移動すると閉じます。

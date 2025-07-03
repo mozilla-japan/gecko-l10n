@@ -183,6 +183,18 @@ downloads-history =
 downloads-details =
     .title = ダウンロードの詳細
 
+## These strings are displayed in the private browsing view of the downloads panel
+
+downloads-private-browsing-details =
+    .title = ファイルは端末に残ります
+downloads-private-browsing-message = すべてのプライベート@@Window@@を閉じても、この端末を使用する人はダウンロードの履歴を表示できます。
+downloads-private-browsing-delete-button =
+    .label = ファイルを自動的に削除
+    .accesskey = D
+downloads-private-browsing-accept-button =
+    .label = 了解
+    .accesskey = G
+
 ## Displayed when a site attempts to automatically download many files.
 ## Variables:
 ##   $num (number) - Number of blocked downloads.
