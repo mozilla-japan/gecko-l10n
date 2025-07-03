@@ -165,7 +165,7 @@ genai-chatbot-summarize-button = ページを要約
 # “Summarize Page” should be consistent with the translation for the string genai-menu-summarize-page
 genai-chatbot-summarize-sidebar-provider-subtitle = サイドバーで AI チャットボットを右クリックし、@@[@@{ genai-menu-summarize-page }@@]@@ を選択します。
 # “Summarize Page” should be consistent with the translation for the string genai-menu-summarize-page
-genai-chatbot-summarize-sidebar-generic-subtitle = サイドバーでキラ星を右クリックし、@@[@@{ genai-menu-summarize-page }@@]@@ を選択します。初めて利用する時は AI チャットボットを選んでください。
+genai-chatbot-summarize-sidebar-generic-subtitle = サイドバーでキラ星を右クリックし、@@[@@{ genai-menu-summarize-page }@@]@@ を選択します。初回利用時は AI チャットボットを選んでください。
 # “Summarize page” should be consistent with the translation for the string genai-page-button-summarize
 genai-chatbot-summarize-footer-provider-subtitle = サイドバーで AI チャットボットを開き、下部の @@[@@{ genai-menu-summarize-page }@@]@@ を選択します。
 genai-chatbot-summarize-footer-generic-subtitle = { -brand-short-name } のサイドバーに AI チャットボットを追加して、すばやくページを要約しましょう。
