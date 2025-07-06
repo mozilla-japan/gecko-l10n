@@ -135,6 +135,8 @@ contextual-manager-passwords-password-already-exists-error-button = パスワー
 contextual-manager-passwords-update-password-success-heading =
     .heading = パスワードを保存しました
 contextual-manager-passwords-update-password-success-button = 完了
+contextual-manager-passwords-update-username-success-heading =
+    .heading = ユーザー名を保存しました
 # Message to confirm successful removal of a password/passwords.
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-delete-password-success-heading =
@@ -176,6 +178,7 @@ contextual-manager-passwords-no-username-heading-and-message =
     .heading = ユーザー名を追加してください
     .message = すばやくログインするためにユーザー名を追加しましょう。
 contextual-manager-passwords-add-username-button = ユーザー名を追加
+contextual-manager-passwords-title = パスワード
 
 ## Login Form
 
@@ -237,6 +240,14 @@ contextual-manager-edit-login-button = 編集
 contextual-manager-view-alert-heading =
     .heading = 通知を表示
 contextual-manager-view-alert-button =
+    .tooltiptext = 通知をレビュー
+# Variables
+#   $count (number) - The number of active alerts associated with the login
+contextual-manager-view-alert-heading-2 =
+    .heading = 通知を表示
+# Variables
+#   $count (number) - The number of active alerts associated with the login
+contextual-manager-view-alert-button-2 =
     .tooltiptext = 通知をレビュー
 contextual-manager-show-password-button =
     .aria-label = パスワードを表示

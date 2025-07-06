@@ -64,13 +64,6 @@ add-engine-keyword2 = キーワード (任意)
 # POST and GET refer to the HTTP methods.
 add-engine-post-data = POST データ。%s は検索語句に置き換わります (GET の場合は何も入力しないでください)
 add-engine-suggest-url = 検索候補の URL。%s は検索語句に置き換わります (任意)
-add-engine-keyword = キーワード
-add-engine-url = 検索エンジンの URL を入力します。%s は検索語句に置き換わります
-add-engine-dialog =
-    .buttonlabelaccept = 検索エンジンを追加
-    .buttonaccesskeyaccept = A
-engine-name-exists = その名前の検索エンジンはすでに存在します
-engine-keyword-exists = そのキーワードの検索エンジンはすでに存在します
 
 ## The following placeholders are shown in the inputs when adding a new engine.
 

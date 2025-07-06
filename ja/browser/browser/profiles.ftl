@@ -39,6 +39,12 @@ edit-profile-page-delete-button =
 edit-profile-page-avatar-selector-opener-link = 編集
 avatar-selector-icon-tab = アイコン
 avatar-selector-custom-tab = カスタム
+avatar-selector-cancel-button =
+    .label = キャンセル
+avatar-selector-save-button =
+    .label = 保存
+avatar-selector-upload-file = ファイルをアップロード
+avatar-selector-drag-file = またはファイルをここにドラッグ
 edit-profile-page-no-name = 後で見つけやすいように、プロファイルに名前を付けてください。名前はいつでも変更できます。
 edit-profile-page-duplicate-name = このプロファイル名はすでに使用されています。別の名前を試してください。
 edit-profile-page-profile-saved = 保存しました
@@ -120,6 +126,8 @@ shopping-avatar-alt =
     .alt = 買い物かご
 star-avatar-alt =
     .alt = 星
+custom-avatar-alt =
+    .alt = カスタムアバター
 
 ## Labels for default avatar icons
 

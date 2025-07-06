@@ -275,6 +275,8 @@ tab-context-move-tab-to-group =
            *[other] 選択したタブをグループに追加
         }
     .accesskey = G
+tab-context-move-tab-to-group-saved-groups =
+    .label = 閉じたグループ
 tab-group-editor-action-new-tab =
     .label = グルーブ内に@@NewTab@@を開く
 tab-group-editor-action-new-window =

@@ -262,6 +262,10 @@ menu-profiles-manage-profiles =
     .label = プロファイルを管理
 menu-profiles-new-profile =
     .label = @@New-CMD@@プロファイル
+# Variables:
+#  $profileName (String): the name of the users profile
+menu-profiles-current =
+    .label = { $profileName } (使用中)
 
 ## Tools Menu
 
