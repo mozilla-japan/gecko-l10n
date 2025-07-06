@@ -30,6 +30,10 @@ contentanalysis-operationtype-clipboard = クリップボード
 contentanalysis-operationtype-dropped-text = ドロップされたテキスト
 contentanalysis-operationtype-print = @@Print@@
 #   $filename - The filename associated with the request, such as "aFile.txt"
+contentanalysis-upload-description = “{ $filename }” のアップロード
+#   $filename - The filename associated with the request, such as "aFile.txt"
+contentanalysis-download-description = “{ $filename }” のダウンロード
+#   $filename - The filename associated with the request, such as "aFile.txt"
 contentanalysis-customdisplaystring-description = “{ $filename }” のアップロード
 contentanalysis-warndialogtitle = このコンテンツは安全でない可能性があります
 # Variables:
@@ -71,6 +75,10 @@ contentanalysis-block-dialog-title-upload-file = このファイルのアップ�
 # Variables:
 #   $filename - Name of the file that was blocked, such as "aFile.txt"
 contentanalysis-block-dialog-body-upload-file = 所属組織のデータ保護ポリシーの下では、“{ $filename }” ファイルのアップロードが許可されていません。詳細は組織の管理者に問い合わせてください。
+contentanalysis-block-dialog-title-download-file = このファイルのダウンロードは許可されていません
+# Variables:
+#   $filename - Name of the file that was blocked, such as "aFile.txt"
+contentanalysis-block-dialog-body-download-file = 所属組織のデータ保護ポリシーの下では、“{ $filename }” ファイルのダウンロードが許可されていません。詳細は組織の管理者に問い合わせてください。
 contentanalysis-block-dialog-title-clipboard = このコンテンツの@@Paste@@は許可されていません
 contentanalysis-block-dialog-body-clipboard = 所属組織のデータ保護ポリシーの下では、このコンテンツの@@Paste@@が許可されていません。詳細は組織の管理者に問い合わせてください。
 contentanalysis-block-dialog-title-dropped-text = このコンテンツのドロップは許可されていません
