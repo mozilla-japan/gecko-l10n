@@ -503,6 +503,9 @@ shortcuts-heading = 拡張機能のショートカットキーの管理
 default-heading-search-label = アドオンを探す
 addons-heading-search-input =
     .placeholder = addons.mozilla.org を検索
+addons-heading-search-button =
+    .title = addons.mozilla.org を検索
+    .aria-label = addons.mozilla.org を検索
 addon-page-options-button =
     .title = アドオンツール
 

@@ -183,6 +183,8 @@ media-capabilities-enumerate = データベースを列挙
 
 media-codec-support-sw-decoding = ソフトウェアデコーディング
 media-codec-support-hw-decoding = ハードウェアデコーディング
+media-codec-support-sw-encoding = ソフトウェアエンコーディング
+media-codec-support-hw-encoding = ハードウェアエンコーディング
 media-codec-support-codec-name = コーデック名
 media-codec-support-supported = 対応
 media-codec-support-unsupported = 未対応
