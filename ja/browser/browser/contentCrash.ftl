@@ -29,6 +29,9 @@ pending-crash-reports-always-send =
     .label = 自動的に送信
 # Variables:
 #   $reportCount (Number): the number of pending crash reports
+requested-crash-reports-message-new = 調査中のクラッシュと関連する未送信のクラッシュレポートが { $reportCount } 件あります。レポートを送信すると { -brand-product-name } の改善に役立てられます。この通知を閉じると、このレポートが無視されます。
+# Variables:
+#   $reportCount (Number): the number of pending crash reports
 requested-crash-reports-message = 調査中のものと一致する未送信のクラッシュレポートが { $reportCount } 件あります。レポートを送信すると { -brand-product-name } の改善に役立てられます。この通知を閉じると、このレポートが無視されます。
 requested-crash-reports-dont-show-again =
     .label = 今後は表示しない

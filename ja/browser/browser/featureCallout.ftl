@@ -104,6 +104,14 @@ perplexity-callout-primary-label = Perplexity に尋ねる
 perplexity-callout-secondary-label-1 = 閉じる
 perplexity-callout-secondary-label-2 = 了解
 
+## Account Adoption Passwords callout strings
+
+# Suggestion to backup passwords by signing up for Mozilla account and using sync
+fxa-adoption-passwords-title = パスワードを保存しました。バックアップしておきましょう。
+fxa-adoption-passwords-subtitle = 端末上の暗号化されたパスワードを同期して保護しましょう。
+# Opens Mozilla accounts sign-up page
+fxa-adoption-passwords-primary-button-label = アカウント登録
+
 ## Sidebar Strings
 
 sidebar-button-callout-title = タブのタイトルをサイドバーに表示する
@@ -124,6 +132,17 @@ vertical-tabs-callout-2-subtitle = このレイアウトはタブのリストか
 sidebar-pins-callout-title = 重要なタブを見失っていませんか？
 sidebar-pins-callout-subtitle = タブのピン留めをお試しください。これはタブをリストの上部にピン留めします。ピン留めしたいタブを右クリックして、@@[@@タブをピン留め@@]@@ を選んでください。
 sidebar-pins-callout-cta-button = タブをピン留め
+
+## Pinning Tabs Strings
+
+pin-tabs-callout-1-title = 大切なタブを手の届くところに
+pin-tabs-callout-1-subtitle = タブをタブバー左端にドラッグしてピン留めします。またはタブを右クリックして @@[@@タブをピン留め@@]@@ を選択します。
+pin-tabs-callout-cta-1-button = このタブをピン留め
+pin-tabs-callout-2-title = よく訪れるタブをピン留め
+pin-tabs-callout-2-subtitle = タブをピン留めするには、タブバー左端にドラッグします。またはタブを右クリックして @@[@@タブをピン留め@@]@@ を選択します。
+pin-tabs-callout-cta-2-button = このタブをピン留め
+pin-tabs-callout-3-title = 大切なウェブサイトを手の届くところに
+pin-tabs-callout-4-title = よく訪れるウェブサイトをピン留め
 
 ## Sidebar Onboarding Strings
 

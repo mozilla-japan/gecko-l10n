@@ -56,11 +56,20 @@ genai-menu-ask-generic =
 # $provider (string) - name of the provider
 genai-menu-ask-provider =
     .label = { $provider } に尋ねる
+genai-menu-open-generic =
+    .label = AI チャットボットを開く
+# $provider (string) - name of the provider
+genai-menu-open-provider =
+    .label = { $provider } を開く
 genai-menu-remove-generic =
     .label = AI チャットボットを削除
 # $provider (string) - name of the provider
 genai-menu-remove-provider =
     .label = { $provider } を削除
+genai-menu-remove-sidebar =
+    .label = サイドバーから削除
+genai-menu-new-badge = 新機能
+genai-menu-summarize-page = ページを要約
 genai-input-ask-generic =
     .placeholder = AI チャットボットに尋ねる...
 # $provider (string) - name of the provider
@@ -85,6 +94,10 @@ genai-shortcuts-selected-warning =
         }
 genai-shortcuts-hide =
     .label = チャットボットのショートカットを隠す
+genai-menu-no-provider =
+    .label = AI チャットボットに尋ねる
+genai-menu-choose-chatbot =
+    .label = AI チャットボットを選ぶ
 
 ## Chatbot header
 
@@ -108,6 +121,10 @@ genai-options-hide-shortcut =
     .label = テキスト選択時のショートカットを隠す
 genai-options-about-chatbot =
     .label = { -brand-short-name } の AI チャットボットについて
+
+## Chatbot footer
+
+genai-page-button-summarize = ページを要約
 
 ## Chatbot onboarding
 
@@ -143,6 +160,15 @@ genai-onboarding-select-primary = チャットを始める
 genai-chatbot-contextual-title = タブを切り替えずに AI チャットボットを使用する
 genai-chatbot-contextual-subtitle = { -brand-short-name } のサイドバーに AI チャットボットを追加すると、チャットとブラウザーを並べて表示できます。
 genai-chatbot-contextual-button = チャットボットを選ぶ
+genai-chatbot-summarize-title = 新機能！ ワンクリックでページを要約
+genai-chatbot-summarize-button = ページを要約
+# “Summarize Page” should be consistent with the translation for the string genai-menu-summarize-page
+genai-chatbot-summarize-sidebar-provider-subtitle = サイドバーで AI チャットボットを右クリックし、@@[@@{ genai-menu-summarize-page }@@]@@ を選択します。
+# “Summarize Page” should be consistent with the translation for the string genai-menu-summarize-page
+genai-chatbot-summarize-sidebar-generic-subtitle = サイドバーでキラ星を右クリックし、@@[@@{ genai-menu-summarize-page }@@]@@ を選択します。初めて利用するときは AI チャットボットを選んでください。
+# “Summarize page” should be consistent with the translation for the string genai-page-button-summarize
+genai-chatbot-summarize-footer-provider-subtitle = サイドバーで AI チャットボットを開き、下部の @@[@@{ genai-menu-summarize-page }@@]@@ を選択します。
+genai-chatbot-summarize-footer-generic-subtitle = { -brand-short-name } のサイドバーに AI チャットボットを追加して、すばやくページを要約しましょう。
 
 ## Chatbot onboarding choices
 ## These describe features/capabilities of chatbot providers. These are not buttons/actions.
