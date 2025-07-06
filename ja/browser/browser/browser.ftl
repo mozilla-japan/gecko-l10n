@@ -410,6 +410,10 @@ quickactions-cmd-settings2 = settings, preferences, options, manage
 quickactions-cmd-settings = settings, preferences, options
 # Opens about:addons page in the themes section
 quickactions-themes = テーマを管理
+# In English we provide multiple spellings for "add-ons". If that's not
+# applicable to your language, only use the correct spelling (don't repeat the
+# same word).
+quickactions-cmd-themes2 = themes, add-ons, addons
 quickactions-cmd-themes = themes
 # Opens a SUMO article explaining how to update the browser
 quickactions-update = { -brand-short-name } を更新
@@ -811,6 +815,8 @@ urlbar-searchmode-actions =
     .label = アクション
 urlbar-searchmode-exit-button =
     .tooltiptext = 閉じる
+urlbar-searchmode-default =
+    .tooltiptext = @@Default-@@検索エンジン
 urlbar-searchmode-popup-description = 今回だけ使う検索エンジン:
 urlbar-searchmode-popup-search-settings-menuitem =
     .label = 検索設定

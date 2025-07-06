@@ -81,7 +81,7 @@ firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain =
 
 firefox-relay-and-fxa-popup-notification-header-with-domain-and-value-prop = メールマスクで迷惑メールから保護します
 firefox-relay-and-fxa-popup-notification-first-sentence-with-domain-and-value-prop = <label data-l10n-name="firefox-relay-learn-more-url">メールマスク</label> で本当のアドレスを隠すことによって迷惑メールから保護します。<label data-l10n-name="firefox-fxa-and-relay-offer-domain">このサイト</label> からのメールは通常の受信トレイに届きますが、メールアドレスはマスクされます。
-firefox-relay-and-fxa-popup-notification-second-sentence-with-domain-and-value-prop = メールマスクを使用するには、まずアカウント登録するかアカウントにログインしてください
+firefox-relay-and-fxa-popup-notification-second-sentence-with-domain-and-value-prop = メールマスクを使用するには、まずアカウント登録するかアカウントにログインしてください。
 firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain-and-value-prop =
     .label = 次へ
     .accesskey = N

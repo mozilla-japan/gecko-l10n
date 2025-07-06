@@ -581,3 +581,5 @@ newtab-trending-searches-hide-trending =
     .title = トレンド検索を隠します
 newtab-trending-searches-learn-more = 詳細情報
 newtab-trending-searches-dismiss = トレンド検索を隠す
+# "Trending searches refers to popular searches from search engines
+newtab-trending-searches-title = トレンド検索
