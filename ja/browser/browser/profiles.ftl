@@ -45,6 +45,8 @@ avatar-selector-save-button =
     .label = 保存
 avatar-selector-upload-file = ファイルをアップロード
 avatar-selector-drag-file = またはファイルをここにドラッグ
+avatar-selector-add-image = 画像を追加
+avatar-selector-crop = 切り抜き
 edit-profile-page-no-name = 後で見つけやすいように、プロファイルに名前を付けてください。名前はいつでも変更できます。
 edit-profile-page-duplicate-name = このプロファイル名はすでに使用されています。別の名前を試してください。
 edit-profile-page-profile-saved = 保存しました
@@ -118,22 +120,101 @@ book-avatar-alt =
     .alt = 本
 briefcase-avatar-alt =
     .alt = かばん
+# Canvas refers to an artist's painting canvas, not the general material
+canvas-avatar-alt =
+    .alt = キャンバス
+# Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
+craft-avatar-alt =
+    .alt = クラフト
 flower-avatar-alt =
     .alt = 花
+folder-avatar-alt =
+    .alt = フォルダー
+hammer-avatar-alt =
+    .alt = ハンマー
 heart-avatar-alt =
     .alt = ハート
+heart-rate-avatar-alt =
+    .alt = 心拍数
+history-avatar-alt =
+    .alt = 歴史
+leaf-avatar-alt =
+    .alt = 葉っぱ
+lightbulb-avatar-alt =
+    .alt = 電球
+makeup-avatar-alt =
+    .alt = 化粧
+# Message refers to a text message, not a traditional letter/envelope message
+message-avatar-alt =
+    .alt = メッセージ
+musical-note-avatar-alt =
+    .alt = 音符
+palette-avatar-alt =
+    .alt = パレット
+paw-print-avatar-alt =
+    .alt = 足跡
+plane-avatar-alt =
+    .alt = 飛行機
+# Present refers to a gift box, not the current time period
+present-avatar-alt =
+    .alt = プレゼント
 shopping-avatar-alt =
     .alt = 買い物かご
+soccer-avatar-alt =
+    .alt = サッカー
+sparkle-single-avatar-alt =
+    .alt = きらめき
 star-avatar-alt =
     .alt = 星
+video-game-controller-avatar-alt =
+    .alt = ゲームのコントローラー
 custom-avatar-alt =
     .alt = カスタムアバター
+# Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
+default-favicon-avatar-alt =
+    .alt = @@Default-@@ファビコン
+# Diamond refers to the precious stone, not the geometric shape
+diamond-avatar-alt =
+    .alt = ダイヤモンド
+barbell-avatar-alt =
+    .alt = バーベル
+bike-avatar-alt =
+    .alt = バイク
 
 ## Labels for default avatar icons
 
 book-avatar = 本
 briefcase-avatar = かばん
+# Canvas refers to an artist's painting canvas, not the general material
+canvas-avatar = キャンバス
+# Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
+craft-avatar = クラフト
+custom-avatar = カスタムアバター
+# Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
+default-favicon-avatar = @@Default-@@ファビコン
+# Diamond refers to the precious stone, not the geometric shape
+diamond-avatar = ダイヤモンド
 flower-avatar = 花
+folder-avatar = フォルダー
+hammer-avatar = ハンマー
 heart-avatar = ハート
+heart-rate-avatar = 心拍数
+history-avatar = 歴史
+leaf-avatar = 葉っぱ
+lightbulb-avatar = 電球
+makeup-avatar = 化粧
+# Message refers to a text message, not a traditional letter/envelope message
+message-avatar = メッセージ
+musical-note-avatar = 音符
+palette-avatar = パレット
+paw-print-avatar = 足跡
+plane-avatar = 飛行機
+# Present refers to a gift box, not the current time period
+present-avatar = プレゼント
 shopping-avatar = 買い物かご
+soccer-avatar = サッカー
+sparkle-single-avatar = きらめき
 star-avatar = 星
+video-game-controller-avatar = ゲームのコントローラー
+barbell-avatar = バーベル
+bike-avatar = バイク

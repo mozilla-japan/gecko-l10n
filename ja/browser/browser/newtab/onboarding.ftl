@@ -432,10 +432,16 @@ onboarding-checklist-sign-up = アカウント登録またはログインする
 
 tab-groups-onboarding-feature-callout-title = タブをグループ化して整理しましょう
 tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグすると最初のグループが作成できます。
+# The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
+tab-groups-onboarding-create-group-title-3 = いつでも @@[@@タブを一覧表示@@]@@ メニューからタブグループを見つけられます。
 tab-groups-onboarding-create-group-title-2 = タブグループはここで見つけられます。
 tab-groups-onboarding-create-group-no-alltabs-button-title = アドレスバーで検索するとグループを見つけられます。
+# The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
+tab-groups-onboarding-saved-groups-title-3 = タブグループを閉じても、@@[@@タブを一覧表示@@]@@ メニューからいつでも再び開けます。
 tab-groups-onboarding-saved-groups-title-2 = タブグループを閉じても、ここで開き直すことができます。
 tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = アドレスバーで検索すると閉じてしまったタブグループを見つけられます。
+# The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
+tab-groups-onboarding-session-restore-title-2 = タブグループは @@[@@タブを一覧表示@@]@@ メニューからいつでも再び開けます。
 tab-groups-onboarding-session-restore-title = タブグループはいつでもここで開き直せます。
 tab-groups-onboarding-dismiss = OK
 
