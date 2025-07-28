@@ -350,6 +350,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = 鍵 ID <b>{ $key }</b> を利用するよう設定されています。
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Your current configuration uses the key <b>{ $key }</b>, which will expire { $when }. To keep the key valid, please consider extending the key expiry date now.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = 鍵 ID <b>{ $key }</b> を利用するよう設定されていますが、この鍵は失効しています。
 openpgp-add-key-button =
     .label = 鍵を追加...
