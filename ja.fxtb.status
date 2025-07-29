@@ -154,5 +154,5 @@ fxsrc | dom, netwerk, toolkit    6255d92a (2025-07-03)  mar          sync dom, n
 [l10n-mozilla-142.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
-tbsrc | mail                     bf1ff52f (2025-07-09)  kazushi      sync mail (途中まで)
+tbsrc | mail                     bf1ff52f (2025-07-09)  kazushi      sync mail
 
