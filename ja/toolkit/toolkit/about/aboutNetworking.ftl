@@ -39,6 +39,7 @@ about-networking-dns-lookup = DNS 照会
 about-networking-dns-lookup-button = 解決
 about-networking-dns-domain = ドメイン:
 about-networking-dns-lookup-table-column = IP アドレス
+about-networking-dns-https-rrs-lookup-table-column = HTTPS RR
 about-networking-dns-https-rr-lookup-table-column = HTTP RR
 about-networking-rcwn = RCWN 統計
 about-networking-rcwn-status = RCWN 状態
