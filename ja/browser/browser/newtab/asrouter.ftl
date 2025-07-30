@@ -334,3 +334,16 @@ multi-cta-fox-doodle-privacy-focused-subtitle =
        *[other] クリック 1 回でプライバシーを重視するお気に入りのブラウザーを使い続けましょう。{ -brand-short-name } をリンクを開く@@DefaultBrowser@@に設定したり、タスクバーにピン留めしたりしませんか。
     }
 multi-cta-fox-doodle-msix-privacy-focused-subtitle = クリック 1 回でプライバシーを重視するお気に入りのブラウザーを使い続けましょう。{ -brand-short-name } をリンクを開く@@DefaultBrowser@@に設定したり、タスクバーやスタートメニューにピン留めしたりしませんか。
+
+## Windows 10 EoS Sync messages group 1 spotlight
+
+windows-10-eos-sync-spotlight-title = Windows 10 からアップグレードしますか？
+windows-10-eos-sync-spotlight-subtitle = パスワードとブックマークをバックアップしておけば、どの端末にもすぐに移行できます。
+windows-10-eos-sync-spotlight-primary-label = { -brand-short-name } のデータをバックアップ
+
+## Windows 10 EoS Sync messages group 1 toast notification
+
+windows-10-eos-sync-toast-title = Windows 11 にアップグレードしますか？ ブックマークとパスワードが失われないようにしましょう。
+windows-10-eos-sync-toast-subtitle = { -brand-short-name } のデータをバックアップしておけば、この PC でも次の新しい端末でも、いつでも移行できます。
+windows-10-eos-sync-toast-primary-label = はじめる
+windows-10-eos-sync-toast-secondary-label = 後で通知する

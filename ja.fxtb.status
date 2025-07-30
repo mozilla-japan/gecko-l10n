@@ -155,4 +155,4 @@ fxsrc | dom, netwerk, toolkit    6255d92a (2025-07-03)  mar          sync dom, n
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | dom, toolkit             ffcb71fc (2025-07-23)  mar          sync dom, toolkit
-
+fxsrc | browser, devtools        ffcb71fc (2025-07-23)  mar          sync browser, devtools
