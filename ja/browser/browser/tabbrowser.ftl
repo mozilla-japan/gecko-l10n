@@ -220,7 +220,9 @@ tabbrowser-manager-current-window-tab-group =
     .label = { $tabGroupName }
     .tooltiptext = { $tabGroupName } — 現在の@@Window@@
 
-## Tab Groups
+## Variables:
+##  $tabGroupName (String): The name of the tab group. Defaults to the value
+##                          of tab-group-name-default.
 
 tab-group-editor-title-create = タブグループを作成
 tab-group-editor-title-edit = タブグループの管理
@@ -250,16 +252,14 @@ tab-group-editor-color-selector2-gray = グレー
     .title = グレー
 tab-group-editor-color-selector2-red = 赤
     .title = 赤
-# Variables:
-#  $tabGroupName (String): The name of the tab group. Defaults to the value
-#                          of tab-group-name-default.
 tab-group-description = { $tabGroupName } — タブグループ
+tab-group-label-tooltip-collapsed = { $tabGroupName } — 折りたたみ
+tab-group-label-tooltip-expanded = { $tabGroupName } — 展開
 tab-context-unnamed-group =
     .label = 無名のグループ
 tab-group-name-default = 無名のグループ
 
-## Variables:
-##  $tabCount (Number): the number of tabs that are affected by the action.
+##
 
 tab-context-move-tab-to-new-group =
     .label =
@@ -301,6 +301,12 @@ tab-context-ungroup-tab =
            *[other] 選択したタブを各グループから除外
         }
     .accesskey = R
+# When a tab group containing the active tab is collapsed, the active tab
+# remains visible. An indicator appears at the end of the group showing the
+# number of remaining tabs that are hidden by the collapsed group,
+# e.g. "+2" for a group with 3 total tabs.
+tab-group-overflow-count = +{ $tabCount }
+tab-group-overflow-count-tooltip = 他 { $tabCount } 個のタブ
 
 ## Open/saved tab group context menu
 

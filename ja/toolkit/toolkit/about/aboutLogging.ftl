@@ -29,6 +29,7 @@ about-logging-no-log-modules = なし
 about-logging-no-log-file = なし
 about-logging-logging-preset-selector-text = ログプリセット:
 about-logging-with-profiler-stacks-checkbox = ログメッセージのスタックトレースを有効にする
+about-logging-with-javascript-tracing-checkbox = JavaScript トレースを有効にする
 about-logging-menu =
     .title = 詳細オプション
 
@@ -52,6 +53,8 @@ about-logging-preset-webcodecs-label = WebCodecs
 about-logging-preset-webcodecs-description = WebCodecs 音声/動画デコーダーとエンコーダー、画像デコーダーの問題を診断するログモジュールです
 about-logging-preset-ml-label = 機械学習
 about-logging-preset-ml-description = 機械学習の問題を診断するログモジュールです
+about-logging-preset-web-compat-label = ウェブ互換性
+about-logging-preset-web-compat-description = ウェブ互換性の問題を診断するログモジュールです
 about-logging-preset-webgpu-label = WebGPU
 about-logging-preset-webgpu-description = WebGPU の問題を診断するログモジュールです
 about-logging-preset-gfx-label = グラフィック

@@ -207,6 +207,9 @@ urlbar-result-menu-show-less-frequently =
     .label = 表示頻度を減らす
 urlbar-result-menu-dont-show-weather-suggestions =
     .label = 天気予報の提案を表示しない
+# Used for Split Button.
+urlbar-splitbutton-dropmarker =
+    .title = メニューを開く
 # A message shown in the urlbar when the user submits feedback on a suggestion
 # (e.g., it shows an inaccurate location, it's shown too often, etc.).
 urlbar-feedback-acknowledgment = フィードバックありがとうございます
@@ -363,6 +366,7 @@ quickactions-downloads2 = ダウンロードを表示
 quickactions-cmd-downloads = downloads
 # Opens about:addons page in the extensions section
 quickactions-extensions = 拡張機能を管理
+quickactions-cmd-extensions2 = extensions, addons, add-ons
 quickactions-cmd-extensions = extensions
 # Opens Firefox View
 quickactions-firefoxview = { -firefoxview-brand-name } を開く
@@ -820,6 +824,8 @@ urlbar-searchmode-default =
 urlbar-searchmode-popup-description = 今回だけ使う検索エンジン:
 urlbar-searchmode-popup-search-settings-menuitem =
     .label = 検索設定
+# Label shown next to a new search engine in the Searchmode Switcher popup to promote it.
+urlbar-searchmode-new = 新機能
 # Searchmode Switcher button
 # Variables:
 #   $engine (String): the current default search engine.
@@ -1144,8 +1150,12 @@ tabs-toolbar =
 tabs-toolbar-new-tab =
     .label = @@NewTab@@
 tabs-toolbar-list-all-tabs =
-    .label = タブを一覧表示する
+    .label = タブを一覧表示
     .tooltiptext = タブを一覧表示します
+
+## Drop indicator text for pinned tabs when no tabs are pinned.
+
+pinned-tabs-drop-indicator = タブをここにドロップしてピン留めします
 
 ## Infobar shown at startup to suggest session-restore
 
@@ -1258,7 +1268,7 @@ popup-notification-addon-privatebrowsing-checkbox2 =
 # This string is similar to `webext-perms-description-data-long-technicalAndInteraction`
 # but it is used in the install prompt, and it needs an access key.
 popup-notification-addon-technical-and-interaction-checkbox =
-    .label = 技術データと対話データを拡張機能の開発者に共有する
+    .label = 技術データと対話データを拡張機能の開発者と共有する
     .accesskey = S
 
 ## Pop-up warning
@@ -1320,3 +1330,76 @@ onboarding-checklist-button-label = セットアップを完了
 onboarding-aw-finish-setup-button =
     .label = セットアップ完了
     .tooltiptext = { -brand-short-name } のセットアップを完了します
+
+## The urlbar trust panel
+
+trustpanel-etp-label-enabled = 強化型トラッキング防止はオンです
+trustpanel-etp-label-disabled = 強化型トラッキング防止はオフです
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-etp-toggle-on =
+    .aria-label = 強化型トラッキング防止: { $host } でオン
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-etp-toggle-off =
+    .aria-label = 強化型トラッキング防止: { $host } でオフ
+trustpanel-etp-description-enabled = このサイトでの動作に問題があるときはトラッキング防止をオフにしてみてください。
+trustpanel-etp-description-disabled = { -brand-product-name } は企業によるユーザー追跡を減らします。トラッキング防止をオンにすると、できるだけ多くのトラッカーをブロックします。
+trustpanel-connection-label-secure = 接続は安全です
+trustpanel-connection-label-insecure = 接続は安全ではありません
+trustpanel-header-enabled = { -brand-product-name } が保護しています
+trustpanel-description-enabled = あなたは追跡から保護されています。何か見つけたらお知らせします。
+trustpanel-header-disabled = 保護がオフになっています
+trustpanel-description-disabled = { -brand-product-name } によるトラッキング防止が動作していません。オンに戻すことをおすすめします。
+trustpanel-clear-cookies-button = Cookie とサイトデータを消去
+trustpanel-privacy-link = プライバシー設定
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-clear-cookies-header =
+    .title = { $host } の Cookie とサイトデータを消去します
+trustpanel-clear-cookies-description = Cookie とサイトデータを消去するとウェブサイトからログアウトし、買い物カゴが空になります。
+trustpanel-clear-cookies-subview-button-clear = 消去
+trustpanel-clear-cookies-subview-button-cancel = キャンセル
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-site-information-header =
+    .title = { $host } への接続の保護
+trustpanel-connection-secure = このサイトとの接続は安全です。
+trustpanel-connection-not-secure = このサイトとの接続は安全ではありません。
+trustpanel-siteinformation-morelink = サイトの詳細情報
+trustpanel-blocker-see-all = すべて表示
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-blocker-header =
+    .title = { $host } におけるトラッキング防止
+
+## Variables
+##  $count (String): the number of trackers blocked.
+
+trustpanel-blocker-section-header = このサイトでは <span>{ $count }</span> 個のトラッカーがブロックされました
+trustpanel-blocker-description = { -brand-product-name } は企業によるユーザー追跡を減らします。トラッキング防止をオンにすると、できるだけ多くのトラッカーをブロックします。
+trustpanel-blocked-header = { -brand-product-name } が以下のトラッカーをブロックしています:
+trustpanel-tracking-header = { -brand-product-name } はサイトが動作するように以下のトラッカーを許可しています:
+trustpanel-tracking-description = トラッカーがブロックされると、一部のボタンやフォーム、ログインフィールドがうまく動作しない場合があります。
+trustpanel-insecure-section-header = 接続が安全ではありません
+trustpanel-insecure-description = このサイトに送信するデータは暗号化されません。第三者によるデータの盗聴や窃取、改竄のおそれがあります。
+trustpanel-list-label-tracking-cookies = { $count } 個のクロスサイトトラッキング Cookie
+trustpanel-list-label-tracking-content = トラッキングコンテンツ
+trustpanel-list-label-fingerprinter = { $count } 個のフィンガープリント採取
+trustpanel-list-label-social-tracking = { $count } 個のソーシャルメディアトラッカー
+trustpanel-list-label-cryptominer = { $count } 個の暗号通貨マイニング
+trustpanel-social-tracking-blocking-tab-header = { -brand-product-name } が { $count } 個のソーシャルメディアトラッカーをブロックしました
+trustpanel-social-tracking-not-blocking-tab-header = { -brand-product-name } が { $count } 個のソーシャルメディアトラッカーを許可しました
+trustpanel-social-tracking-tab-list-header = 以下のサイトがあなたを追跡しようとしています:
+trustpanel-tracking-cookies-blocking-tab-header = { -brand-product-name } が { $count } 個のクロスサイトトラッキング Cookie をブロックしました
+trustpanel-tracking-cookies-not-blocking-tab-header = { -brand-product-name } が { $count } 個のクロスサイトトラッキング Cookie を許可しました
+trustpanel-tracking-cookies-tab-list-header = 以下のサイトがあなたを追跡しようとしています:
+trustpanel-tracking-content-blocking-tab-header = { -brand-product-name } が { $count } 個のトラッカーをブロックしました
+trustpanel-tracking-content-not-blocking-tab-header = { -brand-product-name } が { $count } 個のトラッカーを許可しました
+trustpanel-tracking-content-tab-list-header = 以下のサイトがあなたを追跡しようとしています:
+trustpanel-fingerprinter-blocking-tab-header = { -brand-product-name } が { $count } 個のフィンガープリント採取をブロックしました
+trustpanel-fingerprinter-not-blocking-tab-header = { -brand-product-name } が { $count } 個のフィンガープリント採取を許可しました
+trustpanel-fingerprinter-list-header = 以下のサイトがあなたのフィンガープリントを採取しようとしています:
+trustpanel-cryptominer-blocking-tab-header = { -brand-product-name } が { $count } 個の暗号通貨マイニングをブロックしました
+trustpanel-cryptominer-not-blocking-tab-header = { -brand-product-name } が { $count } 個の暗号通貨マイニングを許可しました
+trustpanel-cryptominer-tab-list-header = 以下のサイトがあなたのコンピューターを暗号通貨マイニングに利用しようとしています:
