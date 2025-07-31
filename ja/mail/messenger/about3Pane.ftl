@@ -16,7 +16,7 @@ thread-pane-folder-message-count = メッセージ { $count } 通
 # Variables:
 # $count (Number) - The number of messages currently selected.
 thread-pane-folder-selected-count =
-    { $count ->
+    { NUMBER($count) ->
        *[other] { $count } 件選択
     }
 thread-pane-header-context-table-view =
@@ -457,8 +457,13 @@ message-list-placeholder-multiple-folders = 複数のフォルダーが選択さ
 # $count (Number) - Number of selected folders.
 folder-pane-context-mark-folder-read =
     .label =
-        { $count ->
+        { NUMBER($count) ->
             [one] フォルダーを既読にする
            *[other] 選択したフォルダーを既読にする
         }
     .accesskey = k
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = フォルダーの並び順をリセット
+    .accesskey = R

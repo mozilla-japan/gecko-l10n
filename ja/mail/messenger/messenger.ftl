@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = リダイレクト
+other-action-copy-message-link =
+    .label = メッセージリンクをコピー
+other-action-copy-news-link =
+    .label = ニュースリンクをコピー
 message-header-msg-flagged =
     .title = スター付き
     .aria-label = スター付き
