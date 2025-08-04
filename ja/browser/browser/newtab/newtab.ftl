@@ -93,7 +93,7 @@ newtab-topsite-sponsored = 広告
 # Variables:
 #   $title (string) - The label or hostname of the site.
 topsite-label-pinned =
-    .aria-label = { $title } (pinned)
+    .aria-label = { $title } (ピン留めタブ)
     .title = { $title }
 
 ## Context Menu - Action Tooltips.

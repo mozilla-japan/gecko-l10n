@@ -171,22 +171,22 @@ permissions-site-camera-disable-desc = 上記以外のウェブサイトは、�
 ## Site Permissions - Local host
 
 permissions-site-localhost-window =
-    .title = Settings - Device apps and services
+    .title = 設定 - 端末のアプリとサービス
     .style = { permissions-window2.style }
-permissions-site-localhost-desc = These websites have requested access to apps and services on this device. You can choose to allow or block sites from doing this.
+permissions-site-localhost-desc = 次のウェブサイトがこの端末上のアプリとサービスへのアクセスを要求しています。これ以降の要求をブロックすることもできます。
 permissions-site-localhost-disable-label =
-    .label = Block new requests to access to apps and services on this device
-permissions-site-localhost-disable-desc = This will stop any website not listed above from requesting access to apps and services on this device. Doing this may break some website features.
+    .label = この端末上のアプリとサービスへのアクセスの要求をブロックする
+permissions-site-localhost-disable-desc = 上記以外のウェブサイトは、この端末上のアプリとサービスへのアクセスを要求させないようにします。一部のウェブサイトの機能が正しく動作しなくなる可能性があります。
 
 ## Site Permissions - Local network
 
 permissions-site-local-network-window =
-    .title = Settings - Local Network Devices
+    .title = 設定 - ローカルネットワークの端末
     .style = { permissions-window2.style }
-permissions-site-local-network-desc = These websites have requested access to apps and services on devices connected to your Wi-Fi or local network. You can choose to allow or block sites from doing this.
+permissions-site-local-network-desc = 次のウェブサイトが、Wi-Fi やローカルネットワークに接続されている端末上のアプリとサービスへのアクセスを要求しています。これ移行の要求をブロックすることもできます。
 permissions-site-local-network-disable-label =
-    .label = Block new requests to access apps and services on devices connected to your Wi-Fi or local network.
-permissions-site-local-network-disable-desc = This will stop any website not listed above from requesting access to apps and services on devices connected to your Wi-Fi or local network devices. Doing this may break some website features.
+    .label = Wi-Fi やローカルネットワークで接続されている端末上のアプリとサービスへのアクセスの要求をブロックする
+permissions-site-local-network-disable-desc = 上記以外のウェブサイトは、Wi-Fi やローカルネットワークに接続されている端末上のアプリとサービスへのアクセスを要求させないようにします。一部のウェブサイトの機能が正しく動作しなくなる可能性があります。
 
 ## Site Permissions - Microphone
 
