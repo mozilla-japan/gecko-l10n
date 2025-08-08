@@ -168,6 +168,26 @@ permissions-site-camera-disable-label =
     .label = カメラへのアクセスの要求をブロックする
 permissions-site-camera-disable-desc = 上記以外のウェブサイトは、カメラへのアクセスを要求させないようにします。カメラへのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
 
+## Site Permissions - Local host
+
+permissions-site-localhost-window =
+    .title = 設定 - 端末のアプリとサービス
+    .style = { permissions-window2.style }
+permissions-site-localhost-desc = 次のウェブサイトがこの端末上のアプリとサービスへのアクセスを要求しています。サイトのアクセスを許可またはブロックしてください。
+permissions-site-localhost-disable-label =
+    .label = この端末上のアプリとサービスへの新たなアクセス要求をブロックする
+permissions-site-localhost-disable-desc = 上記以外のウェブサイトには、この端末上のアプリとサービスへのアクセスを要求させません。一部のウェブサイトの機能が正しく動作しなくなる可能性があります。
+
+## Site Permissions - Local network
+
+permissions-site-local-network-window =
+    .title = 設定 - ローカルネットワークの端末
+    .style = { permissions-window2.style }
+permissions-site-local-network-desc = 次のウェブサイトが Wi-Fi やローカルネットワークに接続された端末上のアプリとサービスへのアクセスを要求しています。サイトのアクセスを許可またはブロックしてください。
+permissions-site-local-network-disable-label =
+    .label = Wi-Fi やローカルネットワークに接続された端末上のアプリとサービスへの新たなアクセスの要求をブロックする
+permissions-site-local-network-disable-desc = 上記以外のウェブサイトには、Wi-Fi やローカルネットワークに接続されている端末上のアプリとサービスへのアクセスを要求させません。一部のウェブサイトの機能が正しく動作しなくなる可能性があります。
+
 ## Site Permissions - Microphone
 
 permissions-site-microphone-window2 =
