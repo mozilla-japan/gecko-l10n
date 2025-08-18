@@ -11,3 +11,9 @@ existing-user-tou-message = <strong>ユーザーの皆様へ</strong> 私たち�
 existing-user-tou-learn-more = 詳細情報
 # Text for primary button
 existing-user-tou-accept = 承諾
+
+## Existing User Terms of Use Spotlight
+
+# Full Spotlight body message, with inline links to the Terms of Use, Privacy Notice, and Learn More FAQ that will be added at runtime.
+tou-existing-user-spotlight-body = <a data-l10n-name="terms-of-use">利用規約</a> を導入し、<a data-l10n-name="privacy-notice">プライバシー通知</a> を更新しました。<br><br> 内容を確認の上、ご承諾ください。<a data-l10n-name="learn-more">詳細情報</a>。
+tou-existing-user-spotlight-remind-me-later = 後で通知

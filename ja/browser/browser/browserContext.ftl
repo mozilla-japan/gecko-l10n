@@ -272,6 +272,10 @@ main-context-menu-image-info =
 main-context-menu-image-desc =
     .label = 画像の詳細情報を表示
     .accesskey = D
+# Variables
+#   $engine (String) - Name of the search engine that will perform the search.
+main-context-menu-visual-search =
+    .label = { $engine } で画像を検索
 main-context-menu-video-save-as =
     .label = @@Save-AsCMD@@動画を保存...
     .accesskey = v
@@ -394,3 +398,5 @@ main-context-menu-open-link-in-container-tab =
 main-context-menu-reveal-password =
     .label = パスワードを開示
     .accesskey = v
+# The label of a badge shown in menu items to call out new features.
+main-context-menu-new-feature-badge = 新機能

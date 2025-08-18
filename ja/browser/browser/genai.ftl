@@ -94,8 +94,6 @@ genai-shortcuts-selected-warning =
         }
 genai-shortcuts-hide =
     .label = チャットボットのショートカットを隠す
-genai-menu-no-provider =
-    .label = AI チャットボットに尋ねる
 genai-menu-choose-chatbot =
     .label = AI チャットボットを選ぶ
 genai-menu-ask-generic-2 =
