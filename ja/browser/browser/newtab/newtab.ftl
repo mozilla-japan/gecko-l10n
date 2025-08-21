@@ -317,9 +317,6 @@ newtab-custom-pocket-sponsored = 広告記事
 newtab-custom-pocket-show-recent-saves = 最近保存したものを表示
 newtab-custom-recent-title = 最近のアクティビティ
 newtab-custom-recent-subtitle = 最近のサイトとコンテンツの抜粋
-newtab-custom-recent-toggle =
-    .label = 最近のアクティビティ
-    .description = 最近のサイトとコンテンツの抜粋
 newtab-custom-weather-toggle =
     .label = 天気予報
     .description = 一目でわかる今日の天気
@@ -456,7 +453,6 @@ newtab-weather-menu-change-location = 予報地点を変更
 newtab-weather-change-location-search-input-placeholder =
     .placeholder = 場所を検索
     .aria-label = 場所を検索
-newtab-weather-change-location-search-input = 場所を検索
 newtab-weather-menu-weather-display = 天気表示
 # Display options are:
 # - Simple: Displays a current weather condition icon and the current temperature
@@ -635,7 +631,8 @@ newtab-widget-lists-menu-delete = このリストを削除
 newtab-widget-lists-menu-copy = リストをクリップボードにコピー
 newtab-widget-lists-menu-hide = すべてのリストを隠す
 newtab-widget-lists-menu-learn-more = 詳細情報
-newtab-widget-lists-input-placeholder = アイテムを追加してください
+newtab-widget-lists-input-add-an-item =
+    .placeholder = アイテムを追加してください
 newtab-widget-lists-input-error = 追加するアイテムにテキストを含めてください
 newtab-widget-lists-input-menu-open-link = リンクを開く
 newtab-widget-lists-input-menu-move-up = 上へ移動
@@ -664,7 +661,8 @@ newtab-widget-timer-menu-notifications = 通知をオフにする
 newtab-widget-timer-menu-notifications-on = 通知をオンにする
 newtab-widget-timer-menu-hide = タイマーを隠す
 newtab-widget-timer-menu-learn-more = 詳細情報
-newtab-widget-keep-scrolling = さらにスクロールしてください
+# Message that appears when widgets are full-height. This reminds users that there is more New Tab content to see if they scroll
+newtab-widget-keep-scrolling = 続きはスクロールしてください
 newtab-promo-card-title = { -brand-product-name } を支援
 newtab-promo-card-body = 私たちのスポンサーはより良いウェブを作り上げるという私たちの使命を支援します
 newtab-promo-card-cta = 詳細情報

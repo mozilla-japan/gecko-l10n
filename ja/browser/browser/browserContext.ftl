@@ -166,11 +166,6 @@ main-context-menu-preview-link =
 main-context-menu-copy-clean-link =
     .label = 追跡を除去したリンクをコピー
     .accesskey = u
-# This command copies the link, removing additional
-# query parameters used to track users across sites.
-main-context-menu-strip-on-share-link =
-    .label = サイト追跡を除いたリンクをコピー
-    .accesskey = u
 
 ## Media (video/audio) controls
 ##

@@ -55,8 +55,8 @@ tabbrowser-close-tabs-tooltip =
 tabbrowser-mute-tab-audio-tooltip =
     .label =
         { $tabCount ->
-            [one] タブをミュートします ({ $shortcut })
-           *[other] { $tabCount } 個のタブをミュートします ({ $shortcut })
+            [one] タブをミュートにします ({ $shortcut })
+           *[other] { $tabCount } 個のタブをミュートにします ({ $shortcut })
         }
 # Variables:
 #   $shortcut (String): The keyboard shortcut for "Unmute tab".
@@ -69,8 +69,8 @@ tabbrowser-unmute-tab-audio-tooltip =
 tabbrowser-mute-tab-audio-background-tooltip =
     .label =
         { $tabCount ->
-            [one] タブをミュートします
-           *[other] { $tabCount } 個のタブをミュートします
+            [one] タブをミュートにします
+           *[other] { $tabCount } 個のタブをミュートにします
         }
 tabbrowser-unmute-tab-audio-background-tooltip =
     .label =
@@ -160,8 +160,6 @@ tabbrowser-confirm-caretbrowsing-checkbox = 次回からはこのダイアログ
 
 ## Confirmation dialog for closing all duplicate tabs
 
-tabbrowser-confirm-close-duplicate-tabs-title = お知らせ
-tabbrowser-confirm-close-duplicate-tabs-text = 最後に表示していたタブは閉じずに残します
 tabbrowser-confirm-close-all-duplicate-tabs-title = 重複タブを閉じますか？
 tabbrowser-confirm-close-all-duplicate-tabs-text = この@@Window@@内の重複タブを閉じます。最後に表示していたタブは閉じずに残します。
 tabbrowser-confirm-close-all-duplicate-tabs-button-closetabs = タブを閉じる

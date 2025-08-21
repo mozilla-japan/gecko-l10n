@@ -53,9 +53,6 @@ mr1-onboarding-import-primary-button-label-attribution = { $previous } から@@I
 mr1-onboarding-theme-header = 自分らしく
 mr1-onboarding-theme-subtitle = テーマで { -brand-short-name } をパーソナライズできます。
 mr1-onboarding-theme-secondary-button-label = 後で
-newtab-wallpaper-onboarding-title = カラフルな壁紙を試しましょう
-newtab-wallpaper-onboarding-subtitle = 壁紙を選んで@@NewTab@@をカラフルに彩りましょう。
-newtab-wallpaper-onboarding-primary-button-label = 壁紙を設定
 # System theme uses operating system color settings
 mr1-onboarding-theme-label-system = システムテーマ
 mr1-onboarding-theme-label-light = Light

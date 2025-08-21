@@ -401,7 +401,6 @@ quickactions-cmd-print = print
 # Opens the print dialog at the save to PDF option
 quickactions-savepdf = ページを PDF 形式で保存
 quickactions-cmd-savepdf2 = pdf, save page
-quickactions-cmd-savepdf = pdf
 # Opens a new private browsing window
 quickactions-private2 = プライベート@@Window@@を開く
 quickactions-cmd-private = private browsing
