@@ -94,8 +94,6 @@ genai-shortcuts-selected-warning =
         }
 genai-shortcuts-hide =
     .label = チャットボットのショートカットを隠す
-genai-menu-no-provider =
-    .label = AI チャットボットに尋ねる
 genai-menu-choose-chatbot =
     .label = AI チャットボットを選ぶ
 genai-menu-ask-generic-2 =
@@ -131,6 +129,11 @@ genai-options-hide-shortcut =
     .label = テキスト選択時のショートカットを隠す
 genai-options-about-chatbot =
     .label = { -brand-short-name } の AI チャットボットについて
+
+## Chatbot message
+
+genai-page-warning =
+    .message = ページ内容が多いため、部分的な要約が表示されています。
 
 ## Chatbot footer
 
@@ -220,3 +223,44 @@ genai-model-optin-cancel =
 #   $rangePlural (String): The plural category of the range, using the same set as for numbers.
 #   $range (String): The range of minutes as a localised string. Examples: "3-7", "~1".
 link-preview-reading-time = 読了時間 { $range } 分
+# Error message displayed when a link preview cannot be generated
+link-preview-error-message = このリンクはプレビューできません
+# Text for the link to visit the original URL when in error state
+link-preview-visit-link = リンク先を開く
+# Error message when we can't generate key points (summary highlights or main ideas of page content) for a page
+link-preview-generation-error-missing-data = このウェブページの要点を生成できません。
+# Error message when something went wrong during key point generation
+link-preview-generation-error-unexpected = 問題が発生しました。
+# Text for the retry link when generation fails
+link-preview-generation-retry = 再度試す
+# Button that opens the Link Preview settings
+link-preview-settings-button =
+    .title = リンクプレビュー設定
+link-preview-settings-enable =
+    .label = リンクプレビューを有効にする
+    .description = See the page title, description, and more when you use the shortcut or right-click on a link.
+link-preview-settings-key-points =
+    .label = AI にページの冒頭を読み込んで要点を生成することを許可する
+link-preview-settings-long-press =
+    .label = ショートカット: リンクを 1 秒以上長押しします
+# Title that appears when user is shown the opt-in flow for link previews
+link-preview-optin-title = AI でさらに表示しますか？
+# Message that appears when user is shown the opt-in flow for link previews
+link-preview-optin-message = { -brand-short-name } が AI を利用してページの冒頭を読み込み、要点を生成します。この処理はプライバシーを優先するため端末上で行われます。
+# Onboarding card title for long press
+link-preview-onboarding-title-long-press = 新機能: リンクを長押ししてプレビュー
+# Onboarding card description for long press
+link-preview-onboarding-description-long-press = リンク先の短い説明、読了時間などを表示して、リンク先を開くかどうかを判断できます。右クリックメニューからもプレビューできます。
+# Header for the key points section
+link-preview-key-points-header = 要点
+# Disclaimer for AI-generated key points
+link-preview-key-points-disclaimer = 要点は AI が生成するため誤りを含む可能性があります。
+# Progress message for the first-time setup
+# $progress (number) - The percentage value 1-100 indicating the progress of the setup.
+link-preview-setup = 初回セットアップ • <strong>{ $progress }%</strong>
+# Message indicating faster performance after initial setup
+link-preview-setup-faster-next-time = 次回以降はさらに早く要点が表示されます。
+# Onboarding card See a preview button
+link-preview-onboarding-button = プレビューを表示
+# Onboarding card Close button
+link-preview-onboarding-close = 閉じる

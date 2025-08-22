@@ -74,6 +74,7 @@ inactive-css-cue-pseudo-element-not-supported = ::cue 疑似要素上で <strong
 inactive-css-text-wrap-balance-lines-exceeded = <strong>{ $property }</strong> は行数が { $lineCount } 行より多い要素に効果がありません。
 inactive-css-text-wrap-balance-fragmented = <strong>{ $property }</strong> は断片化された要素に効果がありません。例: 段組みページやページをまたがるコンテンツなど。
 inactive-css-no-width-height = <strong>{ $property }</strong> は width と height を設定できない要素に効果がありません。
+inactive-css-no-principal-box = <strong>{ $property }</strong> は主ボックスを作成しないため、この要素には効果がありません。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
@@ -111,6 +112,7 @@ inactive-css-resize-fix = <strong>overflow</strong> を <strong>visible</strong>
 inactive-css-ruby-element-fix = ルビテキストの <strong>font-size</strong> を変更してみてください。{ learn-more }
 inactive-css-text-wrap-balance-lines-exceeded-fix = 行数を減らしてみてください。{ learn-more }
 inactive-css-text-wrap-balance-fragmented-fix = 要素のコンテンツの分断を避けてください。段組みを止めるか <strong>page-break-inside:avoid</strong> の使用を検討してください。{ learn-more }
+inactive-css-no-principal-box-fix = <strong>display</strong> に主ボックスを作成する値 <strong>block</strong> または <strong>inline-block</strong>、<strong>flex</strong>、<strong>grid</strong> のいずれかを追加してみてください。{ learn-more }
 
 ## In the Rule View when a CSS property may have compatibility issues with other browsers
 ## we display an icon. When this icon is hovered this message is displayed to explain why

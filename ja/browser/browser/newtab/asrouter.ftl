@@ -51,7 +51,7 @@ cfr-doorhanger-extension-rating =
 #   $total (Number) - The total number of users using the add-on
 cfr-doorhanger-extension-total-users = { $total } ユーザー
 
-## Firefox Accounts Message
+## Mozilla Account messages
 
 cfr-doorhanger-bookmark-fxa-header = どこからでもブックマークを同期します。
 cfr-doorhanger-bookmark-fxa-body = 見つかっちゃった。ブックマークをこの端末だけに残しておかないで同期して。{ -fxaccount-brand-name } を始めましょう。
@@ -60,6 +60,11 @@ cfr-doorhanger-bookmark-fxa-link-text = ブックマークを今すぐ同期...
 cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
     .aria-label = 閉じるボタン
     .title = 閉じる
+fxa-adoption-addresses-backup-title = 保存したアドレスをバックアップしましょう
+fxa-adoption-addresses-backup-subtitle = 保存したアドレスをご使用の端末と同期して暗号化することにより保護します。
+fxa-adoption-credit-cards-backup-title = 支払い方法をバックアップしましょう
+fxa-adoption-credit-cards-backup-subtitle = 支払い方法をご使用の端末と同期して暗号化することにより保護します。
+fxa-adoption-primary-button-label = アカウント登録
 
 ## Protections panel
 
@@ -301,9 +306,12 @@ root-certificate-windows-background-notification-update-button = { -brand-short-
 fxa-menu-message-close-button =
     .title = 閉じる
     .aria-label = 閉じる
-fxa-menu-message-sign-up-button = ログイン
+fxa-menu-message-sign-up-button = アカウント登録
+fxa-menu-message-sign-in-button = ログイン
+fxa-menu-message-sync-button = 同期を開始
 fxa-menu-message-sync-devices-primary-text = すべての端末を同期しましょう
 fxa-menu-message-sync-devices-secondary-text = { -brand-short-name } を使用しているどこからでもあなたの情報 — ブックマークやパスワードなど — へ即座にアクセスできます。
+fxa-menu-message-sync-devices-secondary-text2 = { -brand-short-name } にログインしているどこからでも、ブックマークやパスワード、その他のデータに即座にアクセスできます。
 fxa-menu-message-sync-devices-collapsed-text = すべての端末を同期しましょう
 fxa-menu-message-backup-data-primary-text = ブラウジングデータをバックアップしましょう
 fxa-menu-message-backup-data-secondary-text = すべての端末にあるブックマークやパスワードなどの情報を、自動的に保護します。
@@ -347,3 +355,31 @@ windows-10-eos-sync-toast-title = Windows 11 にアップグレードします�
 windows-10-eos-sync-toast-subtitle = { -brand-short-name } のデータをバックアップしておけば、この PC でも次の新しい端末でも、いつでも移行できます。
 windows-10-eos-sync-toast-primary-label = はじめる
 windows-10-eos-sync-toast-secondary-label = 後で通知する
+
+## Windows 10 EoS sync messages group 2 feature callouts
+
+windows-10-eos-challenger-callout-title = 他のビッグテック企業のブラウザーのように { -brand-product-name } はプリロードされません。そこがポイントです。
+windows-10-eos-challenger-sync-callout-subtitle = { -brand-product-name } のブックマークとパスワードをバックアップしておけば、次の新しい端末へ簡単に移行できます。
+windows-10-eos-challenger-pin-callout-subtitle = { -brand-shorter-name } をタスクバーにピン留めしましょう。あなたの選んだブラウザーがいつでも、必要な時にそこにあります。
+windows-10-eos-challenger-sync-primary-button = { -brand-shorter-name } のデータをバックアップ
+windows-10-eos-challenger-pin-primary-button = { -brand-shorter-name } をピン留め
+windows-10-eos-sync-callout-privacy-screen-1-title = { -brand-product-name } は暗号通貨マイニングやソーシャルメディアトラッカー、フィンガープリント採取をブロックします。
+windows-10-eos-sync-callout-privacy-screen-1-subtitle = 追跡者はあなたの端末を識別したりウェブ上の行動を追跡したりできません。私たちのブラウザーが防いでいます。
+windows-10-eos-sync-callout-privacy-screen-2-title = パスワードとブックマークを次の新しい端末のために保護します。
+windows-10-eos-sync-callout-privacy-screen-2-subtitle = { -brand-shorter-name } のデータをバックアップしておけば、簡単にデータとプライバシー設定を持ち歩けます。
+windows-10-eos-sync-callout-privacy-info-button = ブロックされたものを見る
+windows-10-eos-callout-addons-title = アドオンを試しましょう: シンプルなアップグレード、大きなインパクト
+windows-10-eos-callout-addons-subtitle = これらの拡張機能は、生産性を向上し、ユーザーを保護し、整理整頓に役立つものが選ばれています。
+windows-10-eos-callout-addons-primary-button = おすすめのアドオンを見る
+windows-10-eos-sync-callout-addons-title = Windows 10 からアップグレードしてもアドオンを失わないために
+windows-10-eos-sync-callout-addons-subtitle = { -brand-product-name } のアドオンを同期して、端末を変更した後でも常に使えるようにしましょう。
+windows-10-eos-sync-callout-next-button = 次へ
+windows-10-eos-sync-callout-get-started-button = はじめる
+
+## Windows 10 EoS Sync messages group 2 toast notification
+
+windows-10-eos-feature-toast-title = 垂直タブとタブグループ機能が搭載されました。
+# In English, "dropped" is a colloquial form for released.
+windows-10-eos-feature-toast-subtitle = ご要望にお応えして { -brand-product-name } に新しい機能が追加され、ブラウジングに集中できるようになりました。
+windows-10-eos-feature-toast-whats-new-button = 新機能を見る
+windows-10-eos-feature-toast-dismiss-button = 閉じる

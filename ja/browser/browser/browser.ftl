@@ -401,7 +401,6 @@ quickactions-cmd-print = print
 # Opens the print dialog at the save to PDF option
 quickactions-savepdf = ページを PDF 形式で保存
 quickactions-cmd-savepdf2 = pdf, save page
-quickactions-cmd-savepdf = pdf
 # Opens a new private browsing window
 quickactions-private2 = プライベート@@Window@@を開く
 quickactions-cmd-private = private browsing
@@ -800,6 +799,60 @@ urlbar-result-weather-title-city-only = <strong>{ $temperature }°{ $unit }</str
 #   $provider (String) - The name of the weather-data provider. It will be the
 #       name of a company, organization, or service.
 urlbar-result-weather-provider-sponsored = { $provider } · 広告
+
+## These strings are used for Realtime suggestions in the urlbar.
+## Market refers to stocks, indexes, and funds.
+
+# This string is shown as title when Market suggestion are disabled.
+urlbar-result-market-opt-in-title = 株式市場のデータを検索バーで取得
+# This string is shown as description when Market suggestion are disabled.
+urlbar-result-market-opt-in-description = 検索クエリーデータを { -vendor-short-name } と共有すると、市場の更新情報にパートナー企業からの情報を加えて表示します。<a data-l10n-name="learn-more-link">詳細情報</a>
+# This string is shown as button to activate online when realtime suggestion are disabled.
+urlbar-result-realtime-opt-in-allow = 検索候補を表示する
+# This string is shown in split button to dismiss activation the Realtime suggestion.
+urlbar-result-realtime-opt-in-not-now = 後で
+urlbar-result-realtime-opt-in-dismiss = 閉じる
+urlbar-result-realtime-opt-in-dismiss-all =
+    .label = これらの候補を表示しない
+# This string is shown in the result menu.
+urlbar-result-menu-dont-show-market =
+    .label = 市場データの候補を表示しない
+# A message that replaces a result when the user dismisses Market suggestions.
+urlbar-result-dismissal-acknowledgment-market = フィードバックありがとうございます。今後は市場データの検索候補を表示しません。
+# A message that replaces a result when the user dismisses all suggestions of a
+# particular type.
+urlbar-result-dismissal-acknowledgment-all = フィードバックありがとうございます。今後はこれらの検索候補を表示しません。
+
+## These strings are used for suggestions of important dates in the urlbar.
+
+# The name of an event and the number of days until it starts separated by a
+# middot.
+# Variables:
+#   $name (string) - The name of the event.
+#   $daysUntilStart (integer) - The number of days until the event starts.
+urlbar-result-dates-countdown = { $name } · あと { $daysUntilStart } 日
+# The name of a multiple day long event and the number of days until it starts
+# separated by a middot.
+# Variables:
+#   $name (string) - The name of the event.
+#   $daysUntilStart (integer) - The number of days until the event starts.
+urlbar-result-dates-countdown-range = { $name } · 開始まであと { $daysUntilStart } 日
+# The name of a multiple day long event and the number of days until it ends
+# separated by a middot.
+# Variables:
+#   $name (string) - The name of the event.
+#   $daysUntilEnd (integer) - The number of days until the event ends.
+urlbar-result-dates-ongoing = あと { $daysUntilEnd } 日で終了
+# The name of an event and a note that it is happening today separated by a
+# middot.
+# Variables:
+#   $name (string) - The name of the event.
+urlbar-result-dates-today = { $name } · 今日
+# The name of multiple day long event and a note that it is ends today
+# separated by a middot.
+# Variables:
+#   $name (string) - The name of the event.
+urlbar-result-dates-ends-today = { $name } · 今日まで
 
 ## Strings used for buttons in the urlbar
 

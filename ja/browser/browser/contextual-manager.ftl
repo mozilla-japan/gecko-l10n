@@ -18,6 +18,7 @@ contextual-manager-passwords-command-import-from-browser = 他のブラウザー
 contextual-manager-passwords-command-import = ファイルから@@Import@@...
 contextual-manager-passwords-command-export = パスワードを@@Export@@
 contextual-manager-passwords-command-remove-all = すべてのパスワードを削除
+contextual-manager-passwords-command-options = オプション
 contextual-manager-passwords-command-settings = 設定
 contextual-manager-passwords-command-help = ヘルプ
 contextual-manager-passwords-os-auth-dialog-caption = { -brand-full-name }
@@ -141,6 +142,10 @@ contextual-manager-passwords-password-already-exists-error-button = パスワー
 contextual-manager-passwords-update-password-success-heading =
     .heading = パスワードを保存しました
 contextual-manager-passwords-update-password-success-button = 完了
+contextual-manager-passwords-update-username-success-heading-3 =
+    .heading = ユーザー名を保存しました
+contextual-manager-passwords-update-username-success-heading-2 =
+    .heading = ユーザー名を追加しました
 contextual-manager-passwords-update-username-success-heading =
     .heading = ユーザー名を保存しました
 # Message to confirm successful removal of a password/passwords.
@@ -190,12 +195,15 @@ contextual-manager-passwords-title = パスワード
 
 contextual-manager-passwords-create-label =
     .label = パスワードを追加
+contextual-manager-passwords-update-label =
+    .label = パスワードを更新
 contextual-manager-passwords-edit-label =
     .label = パスワードを編集
 contextual-manager-passwords-remove-label =
     .title = パスワードを削除
 contextual-manager-passwords-origin-tooltip = このサイトにログインするための正確なアドレスを入力してください。
 contextual-manager-passwords-username-tooltip = ログインに使用するユーザー名またはメールアドレス、アカウント番号などを入力してください。
+contextual-manager-passwords-password-tooltip-2 = このアカウントにログインするためのパスワードを入力してください。
 contextual-manager-passwords-password-tooltip = このアカウントにログインするためのパスワードを入力してください。
 
 ## Password Card
@@ -264,6 +272,7 @@ contextual-manager-hide-password-button =
 # The message displayed when the search text does not match any of the user's saved logins.
 contextual-manager-passwords-no-passwords-found-header =
     .heading = パスワードが見つかりませんでした
+contextual-manager-passwords-no-passwords-found-message-2 = 別の単語でもう一度検索してみてください。
 contextual-manager-passwords-no-passwords-found-message = パスワードが見つかりませんでした。別の単語でもう一度検索してみてください。
 
 ## When the user has no saved passwords, we display the following messages to inform the user they can save
@@ -278,6 +287,8 @@ contextual-manager-passwords-no-passwords-message = すべてのパスワード�
 contextual-manager-passwords-no-passwords-get-started-message = まずはじめに、ここに追加しましょう。
 # This string is displayed in a button. If the user clicks it, they will be taken to a form to create a new password.
 contextual-manager-passwords-add-manually = 手動で追加
+# This string encourages the user to save their passwords in Firefox (the "safe spot").
+contextual-manager-passwords-no-passwords-header-2 = パスワードを安全な場所に保管します
 
 ## When the user cancels a login that's currently being edited, we display a message to confirm whether
 ## or not the user wants to discard their current edits to the login.
@@ -289,3 +300,8 @@ contextual-manager-passwords-discard-changes-close-button = 閉じる
 contextual-manager-passwords-discard-changes-go-back-button = 戻る
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-passwords-checkbox = はい、パスワードを削除します
+# This string informs the user they need to provide their primary password for FireFox to access their saved passwords in Firefox.
+contextual-manager-primary-password-reauth-header = 保存されたパスワードを表示するには、マスターパスワードを入力してください。
+# This string informs the user their primary password is used to authenticate and access their passwords
+contextual-manager-primary-password-reauth-button = マスターパスワードを入力
+contextual-manager-primary-password-learn-more-link = 詳細情報
