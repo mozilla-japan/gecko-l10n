@@ -842,7 +842,7 @@ urlbar-result-dates-countdown-range = { $name } · 開始まであと { $daysUnt
 # Variables:
 #   $name (string) - The name of the event.
 #   $daysUntilEnd (integer) - The number of days until the event ends.
-urlbar-result-dates-ongoing = あと { $daysUntilEnd } 日で終了
+urlbar-result-dates-ongoing = { $name } · あと { $daysUntilEnd } 日で終了
 # The name of an event and a note that it is happening today separated by a
 # middot.
 # Variables:
