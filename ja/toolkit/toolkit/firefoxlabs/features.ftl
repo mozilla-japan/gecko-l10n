@@ -25,6 +25,8 @@ experimental-features-group-webpage-display =
     .label = ウェブページの表示
 experimental-features-group-customize-browsing =
     .label = ブラウジングのカスタマイズ
+experimental-features-group-productivity =
+    .label = 生産性
 # Contextual Password Manager in sidebar
 experimental-features-contextual-password-manager =
     .label = サイドバーでパスワード管理
@@ -51,3 +53,23 @@ experimental-features-link-previews-description-no-ai =
 experimental-features-newtab-sections-follow-block =
     .label = @@NewTab@@ストーリーのトピックセクションとフォロー/ブロック
 experimental-features-newtab-sections-follow-block-description = @@NewTab@@ページのストーリーを簡単に見つけられるように、分類された各トピック (スポーツ、食べ物、娯楽など) のセクションに整理しましょう。新しいフォロー/ブロックのコントロールで、表示されるコンテンツをカスタマイズできます。<a data-l10n-name="connect">フィードバックを共有してください</a>。
+# Firefox Web Apps
+experimental-features-fx-web-apps =
+    .label = タスクバーにサイトを追加
+# “Add tab to taskbar” is found in the tooltip text of `-taskbar-tab-urlbar-button-open`.
+experimental-features-fx-web-apps-description = よく訪れるサイトをウェブアプリとしてタスクバーから開きます。アドレスバー右端の @@[@@タブをタスクバーに追加@@]@@ アイコンをクリックして、そのサイトを { -brand-product-name } の保護機能下にある@@Window@@として起動できます。<a data-l10n-name="connect">フィードバックを共有してください</a>。
+
+## New Tab Productivity Widgets
+
+# Lists Widget
+experimental-features-newtab-widget-lists =
+    .label = { -firefox-home-brand-name } 上の ToDo リスト
+experimental-features-newtab-widget-lists-description = @@NewTab@@を開いたら ToDo リストを見て思い出しましょう。旅行の荷造りから買い物リストまで、{ -brand-product-name } で計画を立てられます。<a data-l10n-name="connect">フィードバックを共有してください</a>。
+# Timer Widget
+experimental-features-newtab-widget-timer =
+    .label = { -firefox-home-brand-name } 上のタイマー
+experimental-features-newtab-widget-timer-description = タイマーをセットしたら、よそ見をしないで作業に集中。休憩も忘れずに。<a data-l10n-name="connect">フィードバックを共有してください</a>。
+# Lists and Timer Widget (Combined)
+experimental-features-newtab-widget-lists-and-timer =
+    .label = { -firefox-home-brand-name } 上の ToDo リストとタイマー
+experimental-features-newtab-widget-lists-and-timer-description = @@NewTab@@を開いたら ToDo リストを見て思い出しましょう。旅行の荷造りから買い物リストまで、{ -brand-product-name } で計画を立てられます。タイマーをセットしたら、よそ見をしないで作業に集中。休憩も忘れずに。<a data-l10n-name="connect">フィードバックを共有してください</a>。

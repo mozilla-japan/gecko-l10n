@@ -164,4 +164,5 @@ fxsrc | browser                  7825b65e (2025-07-29)  kazushi      sync browse
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | browser, devtools        e57491dc (2025-08-20)  mar          sync browser, devtools
+fxsrc | dom, security, toolkit   8ee26afb (2025-08-23)  mar          sync dom, security, toolkit
 

@@ -49,9 +49,6 @@ download-cert-view-cert =
     .label = 証明書を表示
 download-cert-view-text = 認証局の証明書を審査してください
 
-## Client Authorization Ask dialog
-
-
 ## Client Authentication Ask dialog
 
 client-auth-window =
@@ -94,8 +91,6 @@ client-auth-cert-remember-always =
     .label = 次回からは確認しない
 client-auth-cert-remember-temporarily =
     .label = このセッションのみ
-client-auth-cert-remember-box =
-    .label = 今後も同様に処理する
 
 ## Set password (p12) dialog
 

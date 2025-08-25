@@ -9,8 +9,6 @@ crashreporter-plea = 問題の原因特定と解決のためにご協力いた�
 crashreporter-information = この@@Application@@は不正終了時に実行され、{ -vendor-short-name } に問題を報告するためのものです。直接単体で起動することはできません。
 crashreporter-error = { -brand-short-name } の動作に問題が発生し、不正終了してしまいました。申し訳ありませんが、このクラッシュについてのレポートは送信できません。
 crashreporter-error-details-header = 詳細:
-# $details (String) - the reason that a crash report cannot be submitted
-crashreporter-error-details = 詳細: { $details }
 crashreporter-no-run-message = このプログラムは不正終了時にプログラムの開発元に問題を知らせるためのものです。直接単体で起動することはできません。
 crashreporter-button-details = 詳細...
 crashreporter-loading-details = 読み込み中...
@@ -20,8 +18,6 @@ crashreporter-report-info = 上記の他にプログラム不正終了時の状�
 crashreporter-checkbox-test-hardware = 端末のハードウェアと設定の問題を確認する
 crashreporter-checkbox-send-report = 問題解決に役立てるため、このクラッシュを { -vendor-short-name } に報告する
 crashreporter-checkbox-include-url = 表示していたページのアドレスをレポートに含める
-crashreporter-send-report = 問題を解決できるよう { -vendor-short-name } にレポートを送信する
-crashreporter-include-url = 表示していたページのアドレスをレポートに含める
 crashreporter-submit-status = 終了または再起動時にクラッシュレポートが送信されます。
 crashreporter-submit-waiting-hardware-tests = ハードウェアと設定を確認しています...
 crashreporter-submit-in-progress = レポートを送信しています...
@@ -39,7 +35,6 @@ crashreporter-crash-details = クラッシュレポートの詳細は次の URL 
 
 # Error strings
 
-crashreporter-error-minidump-analyzer = minidump-analyzer を実行できませんでした
 # $path (String) - the file path
 crashreporter-error-opening-file = ファイルを開けませんでした ({ $path })
 # $path (String) - the file path

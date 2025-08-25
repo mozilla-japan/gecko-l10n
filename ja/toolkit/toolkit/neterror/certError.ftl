@@ -164,6 +164,7 @@ redirectLoop-title = ページの自動転送設定が正しくありません
 unknownSocketType-title = サーバーの応答が不正です
 nssFailure2-title = 安全な接続ができませんでした
 csp-xfo-error-title = { -brand-short-name } はこのページを開けません
+corruptedContentErrorv2-title = コンテンツデータ破損エラー
 corruptedContentError-title = コンテンツデータ破損エラー
 sslv3Used-title = 安全な接続を確保できません
 inadequateSecurityError-title = 接続が安全ではありません
