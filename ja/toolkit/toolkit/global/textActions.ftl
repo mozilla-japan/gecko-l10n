@@ -28,11 +28,6 @@ text-action-copy-shortcut =
 text-action-copy-clean-link =
     .label = 追跡を除去したリンクをコピー
     .accesskey = n
-# This command copies the link, removing additional
-# query parameters used to track users across sites.
-text-action-strip-on-share =
-    .label = サイト追跡を除いてコピー
-    .accesskey = n
 text-action-paste =
     .label = @@Paste@@
     .accesskey = P
@@ -73,6 +68,9 @@ text-action-search-text-box-clear =
     .title = 消去
 text-action-highlight-selection =
     .label = 選択範囲を強調表示
+# Comment is a verb. This adds a comment to selected text within the PDF viewer.
+text-action-comment-selection =
+    .label = 選択範囲にコメントを追加
 # "Copy Link to Highlight" creates a permanent 'Text Fragment' link
 # to the current selection, and copies it into the user's clipboard.
 text-action-copy-link-to-highlight =
