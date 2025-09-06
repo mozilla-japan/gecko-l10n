@@ -12,11 +12,7 @@ openpgp-pubkey-import-id = ID: { $kid }
 openpgp-pubkey-import-fpr = フィンガープリント: { $fpr }
 # Variables:
 # $num (Number) - Number of public keys contained in the key file.
-openpgp-pubkey-import-intro =
-    { $num ->
-        [one] ファイルに以下の公開鍵が 1 個含まれています:
-       *[other] ファイルに以下の公開鍵が { $num } 個含まれています:
-    }
+openpgp-pubkey-import-intro = ファイルに以下の公開鍵が { $num } 個含まれています:
 # Variables:
 # $num (Number) - Number of keys to accept.
 openpgp-pubkey-import-accept =

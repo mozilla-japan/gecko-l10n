@@ -16,7 +16,7 @@ messenger-window-close-button =
 # Variables:
 # $count (Number) - Number of unread messages.
 unread-messages-os-tooltip =
-    { NUMBER($count) ->
+    { $count ->
         [one] 1 通の未読メッセージ
        *[other] { $count } 通の未読メッセージ
     }
@@ -147,7 +147,7 @@ menu-edit-unsubscribe-newsgroup =
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] メッセージを削除
            *[other] 選択したメッセージを削除
         }
@@ -156,7 +156,7 @@ menu-edit-delete-messages =
 # $count (Number) - Number of selected messages.
 menu-edit-undelete-messages =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] 削除メッセージを@@Undo@@
            *[other] 選択した削除メッセージを@@Undo@@
         }
@@ -225,7 +225,7 @@ mail-context-menu-forward-inline =
 # $count (Number) - Number of selected messages.
 mail-context-menu-forward-as-attachment =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] 添付ファイル
            *[other] 添付ファイル
         }
@@ -245,7 +245,7 @@ context-menu-cancel-msg =
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] メッセージを削除
            *[other] 選択したメッセージを削除
         }
@@ -254,7 +254,7 @@ mail-context-messages-delete =
 # $count (Number) - Number of selected messages.
 mail-context-messages-undelete =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] 削除メッセージを元に戻す
            *[other] 選択した削除メッセージを元に戻す
         }
@@ -359,7 +359,7 @@ no-reply-reply-anyway-button = 強制返信する
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures-multiple =
-    { NUMBER($failures) ->
+    { $failures ->
         [one] { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
        *[other] { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
     }
@@ -425,11 +425,7 @@ spaces-pinned-button-menuitem-show =
 # Variables:
 # $count (Number) - Number of unread messages.
 chat-button-unread-messages = { $count }
-    .title =
-        { NUMBER($count) ->
-            [one] 1 件の未読メッセージ
-           *[other] { $count } 件の未読メッセージ
-        }
+    .title = { $count } 件の未読メッセージ
 
 ## Spaces toolbar customize panel
 

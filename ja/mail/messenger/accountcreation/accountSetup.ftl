@@ -118,7 +118,7 @@ account-setup-getting-started = はじめにお読みください
 account-setup-results-area-title =
     { $count ->
         [one] 利用可能な設定
-        *[other] 利用可能な設定
+       *[other] 利用可能な設定
     }
 account-setup-result-imap-description = フォルダーとメールがサーバー上で同期されます
 account-setup-result-pop-description = フォルダーとメールがあなたのコンピュータに保存されます
@@ -177,7 +177,6 @@ account-setup-advanced-setup-button = 詳細設定
 account-setup-insecure-title = 警告！
 account-setup-insecure-incoming-title = 受信設定:
 account-setup-insecure-outgoing-title = 送信設定:
-
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b> への接続は暗号化されません。
@@ -234,20 +233,19 @@ account-setup-calendar-button = リモートカレンダーに接続
 account-setup-linked-services-title = リンクしたサービスへの接続
 account-setup-linked-services-description = { -brand-short-name } があなたのメールアカウントにリンクされた別のサービスを検出しました。
 account-setup-no-linked-description = 別のサービスをセットアップして { -brand-short-name } を最大限に活用しましょう。
-
 # Variables:
 # $count (Number) - The number of address books found during autoconfig.
 account-setup-found-address-books-description =
     { $count ->
         [one] { -brand-short-name } がメールアカウントにリンクされたアドレス帳を見つけました。
-        *[other] { -brand-short-name } がメールアカウントにリンクされたアドレス帳を { $count } 冊見つけました。
+       *[other] { -brand-short-name } がメールアカウントにリンクされたアドレス帳を { $count } 冊見つけました。
     }
 # Variables:
 # $count (Number) - The number of calendars found during autoconfig.
 account-setup-found-calendars-description =
     { $count ->
         [one] { -brand-short-name } がメールアカウントにリンクされたカレンダーを見つけました。
-        *[other] { -brand-short-name } がメールアカウントにリンクされたカレンダーを { $count } 個見つけました。
+       *[other] { -brand-short-name } がメールアカウントにリンクされたカレンダーを { $count } 個見つけました。
     }
 account-setup-button-finish = 完了
     .accesskey = F

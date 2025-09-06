@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = アドレス帳
 items-pane-checkbox-calendars = カレンダー
 items-pane-checkbox-mail-messages = メールメッセージ
 items-pane-override = 既存のデータや同一のデータは上書きされません。
+items-pane-nothing-to-import = 選択したソースからは何も@@Import-deki@@ませんでした。
 
 ## Import from address book file steps
 

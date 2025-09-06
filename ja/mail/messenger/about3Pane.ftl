@@ -15,10 +15,7 @@ thread-pane-header-display-button =
 thread-pane-folder-message-count = メッセージ { $count } 通
 # Variables:
 # $count (Number) - The number of messages currently selected.
-thread-pane-folder-selected-count =
-    { NUMBER($count) ->
-       *[other] { $count } 件選択
-    }
+thread-pane-folder-selected-count = { $count } 件選択
 thread-pane-header-context-table-view =
     .label = テーブルビュー
 thread-pane-header-context-cards-view =
@@ -457,7 +454,7 @@ message-list-placeholder-multiple-folders = 複数のフォルダーが選択さ
 # $count (Number) - Number of selected folders.
 folder-pane-context-mark-folder-read =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] フォルダーを既読にする
            *[other] 選択したフォルダーを既読にする
         }

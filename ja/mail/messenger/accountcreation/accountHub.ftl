@@ -114,6 +114,8 @@ address-book-finding-remote-address-books = アドレス帳を探しています
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = { $url } は { -brand-short-name } と互換性がありません。
 address-book-carddav-connection-error = 接続に失敗しました。
+address-book-ldap-duplicate-error = すでに存在している LDAP ディレクトリー名です。別の名前を入力してください。
+address-book-ldap-creation-error = LDAP ディレクトリーを作成できませんでした。
 account-hub-result-username-label = ユーザー名
     .title = ユーザー名
 account-hub-name-label = 氏名
@@ -193,14 +195,14 @@ account-hub-fetching-sync-accounts = アドレス帳とカレンダーを探索�
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
 account-hub-address-book-sync-option-data =
-    { NUMBER($addressBooks) ->
+    { $addressBooks ->
         [one]
-            { NUMBER($accounts) ->
+            { $accounts ->
                 [one] 1 件のアカウントから 1 冊のアドレス帳が利用できます
                *[other] { $accounts } 件のアカウントから 1 冊のアドレス帳が利用できます
             }
        *[other]
-            { NUMBER($accounts) ->
+            { $accounts ->
                 [one] 1 件のアカウントから { $addressBooks } 冊のアドレス帳が利用できます
                *[other] { $accounts } 件のアカウントから { $addressBooks } 冊のアドレス帳が利用できます
             }

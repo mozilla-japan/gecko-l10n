@@ -105,7 +105,7 @@ timezone-error = 不明で未定義なタイムゾーンが { $filePath } の読
 #    $count will be replaced with number of duplicate items
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } 個の項目が、対象のカレンダーと { $filePath } の両方に存在するため無視されました。
        *[other] { $count } 個の項目が、対象のカレンダーと { $filePath } の両方に存在するため無視されました。
     }
@@ -113,9 +113,9 @@ duplicate-error =
 unable-to-create-provider = { $location } に保存されたカレンダーの準備中にエラーが発生しました。カレンダーが利用できません。
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
-unknown-timezone-in-item = 不明なタイムゾーン "{ $timezone }" が "{ $title }" に指定されています。代わりに「流動的な」ローカルタイムゾーンとして扱います: { $datetime }
+unknown-timezone-in-item = 不明なタイムゾーン “{ $timezone }” が “{ $title }” に指定されています。代わりに「浮動」のローカルタイムゾーンとして扱います: { $datetime }
 timezone-errors-alert-title = タイムゾーンエラー
-timezone-errors-see-console = エラーコンソール参照: 不明なタイムゾーンが「流動的な」タイムゾーンとして扱われています。
+timezone-errors-see-console = エラーコンソール参照: 不明なタイムゾーンが「浮動」のローカルタイムゾーンとして扱われています。
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = カレンダーの削除
 remove-calendar-button-delete = カレンダーを消去
@@ -123,17 +123,18 @@ remove-calendar-button-unsubscribe = 購読解除
 # LOCALIZATION NOTE (remove-calendar-message-delete-or-unsubscribe): Shown for
 # calendar where both deleting and unsubscribing is possible.
 # $name:  The name of a calendar
-remove-calendar-message-delete-or-unsubscribe = カレンダー "{ $name }" を削除しますか？ 購読解除はカレンダーをリストから削除します。消去はカレンダーのデータを完全に消去します。
+remove-calendar-message-delete-or-unsubscribe = カレンダー “{ $name }” を削除しますか？ 購読解除はカレンダーをリストから削除します。消去はカレンダーのデータを完全に消去します。
 # LOCALIZATION NOTE (remove-calendar-message-delete): Shown for calendar where
 # deleting is the only option.
 # $name:  The name of a calendar
-remove-calendar-message-delete = カレンダー "{ $name }" を完全に消去しますか？
+remove-calendar-message-delete = カレンダー “{ $name }” を完全に消去しますか？
 # LOCALIZATION NOTE (remove-calendar-message-unsubscribe): Shown for calendar
 # where unsubscribing is the only option.
 # $name:  The name of a calendar
-remove-calendar-message-unsubscribe = カレンダー "{ $name }" を購読解除しますか？
+remove-calendar-message-unsubscribe = カレンダー “{ $name }” を購読解除しますか？
 # $title title
 week-title = 第{ $title }週
+# $title title
 week-title-label =
     .aria-label = 第{ $title }週
 calendar-none =
@@ -144,7 +145,7 @@ calendar-none =
 # LOCALIZATION NOTE (too-new-schema-error-text):
 #    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
 #    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
-too-new-schema-error-text = カレンダーデータがこのバージョンの { $hostApplication } と互換性がありません。プロファイル内のカレンダーデータは { $hostApplication } の新しいバージョンにより更新され、古いデータファイルのバックアップは "{ $fileName }" という名前で作成されています。今後は新たに作成されたデータファイルを使用します。
+too-new-schema-error-text = カレンダーデータがこのバージョンの { $hostApplication } と互換性がありません。プロファイル内のカレンダーデータは { $hostApplication } の新しいバージョンにより更新され、古いデータファイルのバックアップは “{ $fileName }” という名前で作成されています。今後は新たに作成されたデータファイルを使用します。
 # List of events or todos (unifinder)
 event-untitled = 件名なし
 # Tooltips of events or todos
@@ -191,9 +192,7 @@ other-put-error =
 # LOCALIZATION NOTE (read-only-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
-read-only-mode =
-    カレンダー { $name } の読み込み中にエラーが発生しました。
-    このカレンダーへ書き込みを行うとデータを破損する可能性があるため、読み込み専用に切り替えました。右クリックの @@[@@@@PropertyCMD@@@@]@@ メニューからこの設定を変更できます。
+read-only-mode = カレンダー { $name } の読み込み中にエラーが発生しました。このカレンダーへ書き込みを行うとデータを破損する可能性があるため、読み込み専用に切り替えました。右クリックの @@[@@@@PropertyCMD@@@@]@@ メニューからこの設定を変更できます。
 # LOCALIZATION NOTE (disabled-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
@@ -293,8 +292,8 @@ likely-timezone = Asia/Tokyo, Pacific/Palau
 # $timezone OS timezone id
 # $zoneInfoTimezoneId ZoneInfo timezone id
 warning-os-tz-no-match =
-    警告: オペレーティングシステムのタイムゾーン "{ $timezone }" が
-    アプリケーション内部の ZoneInfo タイムゾーン "{ $zoneInfoTimezoneId }" と一致していません。
+    警告: オペレーティングシステムのタイムゾーン “{ $timezone }“ が
+    アプリケーション内部の ZoneInfo タイムゾーン “{ $zoneInfoTimezoneId }“ と一致していません。
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -310,7 +309,7 @@ skipping-locale-timezone = ロケールのタイムゾーン '{ $timezone }' を
 # Brazil timezones may be "No match" (change every year, so often out of date,
 # and changes are often more than a week different).
 warning-using-floating-tz-no-match =
-    警告: "floating" タイムゾーンを使用します。
+    警告: 「浮動」のタイムゾーンを使用します。
     オペレーティングシステムのタイムゾーンと一致する ZoneInfo タイムゾーンのデータがありません。
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
@@ -332,7 +331,7 @@ tz-seems-to-matchos = 今年は、この ZoneInfo タイムゾーンがオペレ
 # LOCALIZATION NOTE (tz-fromos):
 # used for a display of a chosen timezone
 #    $timezone will be replaced with the name of a timezone
-tz-fromos = この ZoneInfo タイムゾーンは、オペレーティングシステムのタイムゾーン ID "{ $timezone }" を基に選ばれました。
+tz-fromos = この ZoneInfo タイムゾーンは、オペレーティングシステムのタイムゾーン ID “{ $timezone }” を基に選ばれました。
 # Localization note (tz-from-locale): Substitute name of your locale language.
 tz-from-locale = この ZoneInfo タイムゾーンは、日本語ロケールのインターネットユーザーのオペレーティングシステムと一致するタイムゾーンを基に選ばれました。
 tz-from-known-timezones = この ZoneInfo タイムゾーンは、既知のアルファベット順のタイムゾーン ID より、オペレーティングシステムと一致するタイムゾーンを基に選ばれました。
@@ -607,8 +606,10 @@ event-duration-label-weeks =
 show-calendar = { $name } を表示
 # $name calendar name
 hide-calendar = { $name } を隠す
+# $name calendar name
 hide-calendar-title =
     .title = { $name } を表示
+# $name calendar name
 show-calendar-title =
     .title = { $name } を隠す
 # Variables:
