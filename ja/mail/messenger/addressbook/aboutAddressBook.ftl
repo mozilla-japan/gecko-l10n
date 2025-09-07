@@ -183,11 +183,7 @@ about-addressbook-confirm-delete-mixed-title = 連絡先とアドレスリスト
 about-addressbook-confirm-delete-mixed = 選択された { $count } 件の連絡先とアドレスリストを削除してもよろしいですか？
 # Variables:
 # $count (Number) - The number of lists to be deleted.
-about-addressbook-confirm-delete-lists-title =
-    { $count ->
-        [one] アドレスリストの削除
-       *[other] アドレスリストの削除
-    }
+about-addressbook-confirm-delete-lists-title = アドレスリストの削除
 # Variables:
 # $count (Number) - The number of lists to be deleted.
 # $name (String) - The name of the list to be deleted, if $count is 1.
@@ -198,11 +194,7 @@ about-addressbook-confirm-delete-lists =
     }
 # Variables:
 # $count (Number) - The number of contacts to be removed.
-about-addressbook-confirm-remove-contacts-title =
-    { $count ->
-        [one] 連絡先の除外
-       *[other] 連絡先の除外
-    }
+about-addressbook-confirm-remove-contacts-title = 連絡先の除外
 # Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.

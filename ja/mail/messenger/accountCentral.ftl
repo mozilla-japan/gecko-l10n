@@ -7,8 +7,8 @@ account-settings = アカウント設定
 #   $accounts (Number) - the number of configured accounts
 setup-title =
     { $accounts ->
-        [0]      セットアップするアカウントを選んでください
-        *[other] 別のアカウントをセットアップ
+        [0] セットアップするアカウントを選んでください
+       *[other] 別のアカウントをセットアップ
     }
 about-title = { -brand-full-name } について
 resources-title = 製品情報

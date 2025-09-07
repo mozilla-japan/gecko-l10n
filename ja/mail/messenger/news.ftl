@@ -6,7 +6,7 @@
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
 new-newsgroup-headers =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $newsgroup } のヘッダー { $count } 件をダウンロードしています...
        *[other] { $newsgroup } のヘッダー { $count } 件をダウンロードしています...
     }
@@ -17,7 +17,7 @@ no-new-messages = { $newsgroup } に新着メッセージはありません。
 # $count (Number) - Number of articles.
 # $newsgroup (String) - The name of the newsgroup.
 downloading-articles-for-offline =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $newsgroup } の記事 { $count } 件をダウンロードしています...
        *[other] { $newsgroup } の記事 { $count } 件をダウンロードしています...
     }

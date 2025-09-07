@@ -23,7 +23,7 @@ calendar-dialog-description-expand-icon =
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
 calendar-dialog-more-categories =
-    { NUMBER($additionalCategories) ->
+    { $additionalCategories ->
        *[other] とその他 { $additionalCategories } 個
     }
     .title = { $categories }
