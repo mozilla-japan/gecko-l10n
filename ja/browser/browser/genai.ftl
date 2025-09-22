@@ -98,14 +98,14 @@ genai-menu-choose-chatbot =
     .label = AI チャットボットを選ぶ
 genai-menu-ask-generic-2 =
     .label = AI チャットボットに尋ねる
-    .accesskey = h
+    .accesskey = z
 # $provider (string) - name of the provider
 genai-menu-ask-provider-2 =
     .label = { $provider } に尋ねる
-    .accesskey = h
+    .accesskey = z
 genai-menu-no-provider-2 =
     .label = AI チャットボットに尋ねる
-    .accesskey = h
+    .accesskey = z
 
 ## Chatbot header
 

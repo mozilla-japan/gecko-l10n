@@ -79,6 +79,7 @@ policy-ExtensionSettings = 拡張機能のインストール全般を管理し�
 policy-ExtensionUpdate = 拡張機能の自動更新を有効または無効にします。
 policy-FirefoxHome2 = { -firefox-home-brand-name } を設定します。
 policy-FirefoxSuggest = { -firefox-suggest-brand-name } を設定します。
+policy-GenerativeAI = 生成 AI 機能を設定します。
 policy-GoToIntranetSiteForSingleWordEntryInAddressBar = アドレスバーに単語を入力すると、検索の代わりにイントラネットサイトへの案内を強制します。
 policy-Handlers = @@Default-@@アプリケーションハンドラーを設定します。
 policy-HardwareAcceleration = false にすると、ハードウェアアクセラレーションをオフにします。
@@ -97,6 +98,7 @@ policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトで�
 ##
 
 policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
+policy-LocalNetworkAccess = ローカルネットワークへのアクセス確認を有効または無効にします。
 policy-ManagedBookmarks = システム管理者により管理されたブックマークのリストを設定します。ユーザーはこのブックマークを変更できません。
 policy-ManualAppUpdateOnly = 更新を手動のみにし、更新についてユーザーに通知しないようにします。
 policy-PrimaryPassword = マスターパスワードの使用を要求または抑止します。
@@ -117,6 +119,7 @@ policy-PostQuantumKeyAgreementEnabled = TLS のポスト量子鍵合意を有効
 policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー PDF.js を無効化または設定します。
 policy-Permissions2 = カメラ、マイク、位置情報、通知、自動再生の許可と拒否を設定します。
 policy-PictureInPicture = ピクチャーインピクチャーを有効または無効にします。
+policy-PopupBlocking2 = 特定のウェブサイトにポップアップ表示とサードパーティフレームによるリダイレクトを許可します。
 policy-PopupBlocking = 特定のウェブサイトのポップアップ表示を@@Default@@で許可します。
 policy-Preferences = 設定のサブセットに対する値を設定してロックします。
 policy-PrivateBrowsingModeAvailability = プライベートブラウジングモードの利用許可を設定します。
@@ -139,6 +142,7 @@ policy-SupportMenu = ヘルプメニューにカスタムサポートメニュ�
 policy-TranslateEnabled = ウェブページ翻訳を有効または無効にします。
 policy-UserMessaging = 特定のメッセージをユーザーに表示させないようにします。
 policy-UseSystemPrintDialog = システムの@@Print@@ダイアログで@@Print@@します。
+policy-VisualSearchEnabled = ビジュアル検索を有効または無効にします。
 # “format” refers to the format used for the value of this policy.
 policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細はドキュメントをご覧ください。
 policy-Windows10SSO = Microsoft アカウント、職場または学校アカウントで Windows のシングルサインオンを許可します。

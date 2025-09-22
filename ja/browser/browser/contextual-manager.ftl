@@ -146,8 +146,6 @@ contextual-manager-passwords-update-username-success-heading-3 =
     .heading = ユーザー名を保存しました
 contextual-manager-passwords-update-username-success-heading-2 =
     .heading = ユーザー名を追加しました
-contextual-manager-passwords-update-username-success-heading =
-    .heading = ユーザー名を保存しました
 # Message to confirm successful removal of a password/passwords.
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-delete-password-success-heading =

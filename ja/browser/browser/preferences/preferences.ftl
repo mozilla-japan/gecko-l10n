@@ -13,6 +13,8 @@ global-privacy-control-description =
     .label = ウェブサイトにユーザーデータの販売や共有の拒否を通知する
     .accesskey = s
 non-technical-privacy-header = ウェブサイトのプライバシー設定
+non-technical-privacy-label =
+    .aria-label = { non-technical-privacy-header }
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
@@ -68,6 +70,8 @@ focus-search =
     .key = f
 close-button =
     .aria-label = 閉じる
+do-not-track-removal2 =
+    .label = “Do Not Track” 信号のサポートは終了しました
 
 ## Browser Restart Dialog
 
@@ -1106,6 +1110,8 @@ sitedata-option-block-cross-site-trackers =
     .label = クロスサイトトラッカー
 sitedata-option-block-cross-site-tracking-cookies =
     .label = クロスサイトトラッキング Cookie
+sitedata-option-block-cross-site-cookies2 =
+    .label = クロスサイト Cookie の隔離
 sitedata-option-block-cross-site-cookies =
     .label = クロスサイトトラッキング Cookie と、他のクロスサイト Cookie の隔離
 sitedata-option-block-unvisited =
@@ -1230,6 +1236,7 @@ content-blocking-private-windows = プライベート@@Window@@のトラッキ�
 content-blocking-cross-site-cookies-in-all-windows2 = すべての@@Window@@のクロスサイト Cookie
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
 content-blocking-all-cross-site-cookies-private-windows = プライベート@@Window@@のクロスサイト Cookie
+content-blocking-isolate-cross-site-cookies = クロスサイト Cookie の隔離
 content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残存 Cookie の隔離
 content-blocking-social-media-trackers = ソーシャルメディアトラッカー
 content-blocking-all-cookies = すべての Cookie
@@ -1249,12 +1256,35 @@ content-blocking-etp-standard-tcp-rollout-learn-more = 詳細情報
 content-blocking-etp-standard-tcp-title = 包括的 Cookie 保護機能が含まれます。これまでで最も強力なプライバシー保護機能です
 content-blocking-warning-title = 注意！
 content-blocking-and-isolating-etp-warning-description-3 = この設定では、一部のウェブサイトでコンテンツが表示されないか正しく機能しない可能性があります。この設定の影響を受けることが知られているウェブサイトでは任意の例外を提供しています。ウェブサイトでの問題発生を軽減するため、これらのトラッカーを例外として許可してください。サイトが動作しない場合は、そのサイトでトラッキング防止をオフにし、すべてのコンテンツを読み込んでみてください。また、問題を報告していただければ、解決に役立てることができます。
-content-blocking-and-isolating-etp-warning-description-2 = この設定では、一部のウェブサイトが表示されないか正しく動作しない可能性があります。サイトが動作しない場合は、トラッキング防止機能をオフにして再読み込みするとよいでしょう。
+content-blocking-warning-title-2 = 厳格なトラッキング防止で一部のウェブサイトが動作しない可能性があります
+content-blocking-warning-title-custom = カスタム設定のトラッキング防止で一部のウェブサイトが動作しない可能性があります
+# “Fix site issues” references the string content-blocking-exceptions-subheader
+content-blocking-and-isolating-etp-warning-description-4 = { -brand-short-name } の “サイトの問題を修正” 設定でサイトの機能やコンテンツが正しく表示されない問題を軽減することをおすすめします。サイトが動作しないときは、このサイトでトラッキング防止をオフにしてすべてのコンテンツを読み込んでみてください。
+content-blocking-and-isolating-etp-warning-description-2 = この設定では、一部のウェブサイトが表示されないか正しく動作しない可能性があります。サイトが動作しない場合は、トラッキング防止機能をオフにして再度読み込むとよいでしょう。
 content-blocking-warning-learn-how = 詳細情報
+content-blocking-baseline-exceptions-3 =
+    .label = サイトの主要な問題を修正 (推奨)
+    .description = トラッカーを含む主要な要素だけブロックを解除してサイトの読み込みと機能の動作を助けます。数多くの問題をカバーしています。
+# This option to fix minor site issues must be used with the option to fix major site issues (string content-blocking-baseline-exceptions-3)
+content-blocking-convenience-exceptions-3 =
+    .label = サイトの軽微な問題を修正
+    .description = トラッカーを含む要素のブロックを解除して記事内の動画やコメントセクションなどのコンテンツを復元します。これはサイトの問題を軽減しますが、提供される保護が少なくなります。必ず、主要な問題を修正する設定と併用してください。
 content-blocking-baseline-exceptions =
     .label = ウェブサイトの動作不具合を避けるため { -brand-short-name } が自動的に必要な例外を追加することを許可する
+content-blocking-baseline-exceptions-2 =
+    .label = トラッカーを含む主要な要素だけブロックを解除してサイトの読み込みと機能の動作を助けます。数多くの問題をカバーしています。
 content-blocking-convenience-exceptions =
     .label = また、小さな問題を解決するのに必要な例外だけを自動的に適用して便利な機能が利用できるようにする
+# This option to fix minor site issues must be used with the option to fix major site issues (string content-blocking-baseline-exceptions-2)
+content-blocking-convenience-exceptions-2 =
+    .label = トラッカーを含む要素のブロックを解除して記事内の動画やコメントセクションなどのコンテンツを復元します。これはサイトの問題を軽減しますが、提供される保護が少なくなります。必ず、主要な問題を修正する設定と併用してください。
+content-blocking-baseline-label = サイトの主要な問題を修正 (推奨)
+content-blocking-convenience-label = サイトの軽微な問題を修正
+content-blocking-exceptions-subheader = サイトの問題を修正
+content-blocking-baseline-uncheck-warning-dialog-title = 修正をオフにしてもよろしいですか？
+content-blocking-baseline-uncheck-warning-dialog-body = この設定は数多くのサイトの問題の修正を助けます。オフにすると、一部のサイトが動作しない可能性があり、これらの問題を { -brand-short-name } が解決できなくなります。
+content-blocking-baseline-uncheck-warning-dialog-ok-button = 修正をオフにする
+content-blocking-baseline-uncheck-warning-dialog-cancel-button = 修正を維持する
 content-blocking-reload-description = これらの変更を適用するには、タブを再読み込みする必要があります。
 content-blocking-reload-tabs-button =
     .label = すべてのタブを再読み込み
@@ -1346,6 +1376,9 @@ permissions-autoplay = 自動再生
 permissions-autoplay-settings =
     .label = 設定...
     .accesskey = t
+permissions-block-popups2 =
+    .label = ポップアップとサードパーティによるリダイレクトをブロックする
+    .accesskey = B
 permissions-block-popups =
     .label = ポップアップ@@Window@@をブロックする
     .accesskey = B
