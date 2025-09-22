@@ -158,7 +158,6 @@ fxsrc | browser, devtools        ffcb71fc (2025-07-23)  mar          sync browse
 tbsrc | mail                     e3cea01f (2025-07-25)  kazushi      sync mail
 fxsrc | browser                  7825b65e (2025-07-29)  kazushi      sync browser
 
-^---Released!
 
 [l10n-mozilla-143.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
