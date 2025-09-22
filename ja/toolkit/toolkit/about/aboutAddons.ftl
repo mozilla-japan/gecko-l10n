@@ -475,7 +475,10 @@ available-updates-heading = 更新可能
 recent-updates-heading = 最近の更新
 release-notes-loading = 読み込み中...
 release-notes-error = リリースノートの読み込み中にエラーが発生しました。
+addon-permissions-heading = 権限
 addon-permissions-empty2 = この拡張機能は権限を必要としません。
+addon-permissions-required-label = 必須:
+addon-permissions-optional-label = 任意:
 addon-permissions-empty = この拡張機能は権限を必要としません。
 addon-permissions-required = 中核機能に必要な権限:
 addon-permissions-optional = 追加機能の任意の権限:
@@ -571,6 +574,10 @@ permissions-data-addon-button = 権限とデータ
 # Variables:
 #   $extensionName (String) - Name of the extension
 mlmodel-extension-label = 拡張機能 { $extensionName } に利用されています
+addon-permissions-data-collection-heading = データ収集
+addon-permissions-data-collection-empty = 開発者によると、この拡張機能はデータ収集を必要としません。
+addon-data-collection-provided = 拡張機能の開発者から提供された情報
+addon-data-collection-learnmore = データ収集についての詳細情報
 
 ## Mapping Engine IDs from AI models to how that feature represented by the engine Id is described in the used by section in local model management
 

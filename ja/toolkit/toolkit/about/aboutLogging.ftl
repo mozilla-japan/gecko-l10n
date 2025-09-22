@@ -101,4 +101,27 @@ about-logging-share-uploaded-url = <img data-l10n-name="share-image"/> URL を�
 about-logging-upload-error = プロファイルの保存中にエラーが発生しました: { $errorText }
 # Variables:
 #   $errorText (string) - The received error message, inserted as is.
+about-logging-profile-storage-error = アップロードしたプロファイルの格納中にエラーが発生しました: { $errorText }
+# Variables:
+#   $errorText (string) - The received error message, inserted as is.
 about-logging-save-error = ファイルの保存中にエラーが発生しました: { $errorText }
+
+## Uploaded Profiles section
+
+# This string is used as the default name for performance profiles when they are
+# uploaded from about:logging and saved to the local database. The generated
+# name will appear in the "Uploaded Profiles" section list, allowing users to
+# identify when each profile was captured.
+# Variables:
+#   $date (date) - The date and time when the profile was uploaded
+about-logging-uploaded-profile-name = プロファイル { DATETIME($date, dateStyle: "short", timeStyle: "medium") }
+about-logging-uploaded-profiles-title = アップロードしたプロファイル
+about-logging-no-uploaded-profiles = プロファイルがまだアップロードされていません。
+about-logging-delete-uploaded-profile = 削除
+about-logging-view-uploaded-profile = プロファイルを表示
+about-logging-delete-profile-confirm-title = プロファイルの削除
+# Confirmation message shown when deleting an uploaded profile.
+# Variables:
+#   $profileName (string) - The name of the profile being deleted.
+about-logging-delete-profile-confirm = “{ $profileName }” プロファイルを本当に削除してもよろしいですか？ この操作は元に戻せません。
+about-logging-deleting-profile = 削除中...
