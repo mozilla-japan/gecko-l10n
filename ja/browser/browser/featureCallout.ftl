@@ -112,6 +112,19 @@ fxa-adoption-passwords-subtitle = 端末上の暗号化されたパスワード�
 # Opens Mozilla accounts sign-up page
 fxa-adoption-passwords-primary-button-label = アカウント登録
 
+## Taskbar Tabs callout strings
+
+taskbar-tabs-social-callout-title = お気に入りのフィードをタスクバーから
+taskbar-tabs-social-callout-subtitle = ソーシャルサイトをアプリのように、{ -brand-short-name } で保護された@@Window@@で起動します。
+taskbar-tabs-chat-callout-title = タスクバーからチャット
+taskbar-tabs-chat-callout-subtitle = チャットサイトをアプリのように、{ -brand-short-name } で保護された@@Window@@で起動します。
+taskbar-tabs-email-callout-title = ウェブメールをタスクバーから
+taskbar-tabs-email-callout-subtitle = ウェブメールをアプリのように、{ -brand-short-name } で保護された@@Window@@で起動します。
+taskbar-tabs-media-callout-title = タスクバーからストリーミングに接続
+taskbar-tabs-media-callout-subtitle = ストリーミングサイトをアプリのように、{ -brand-short-name } で保護された@@Window@@で起動します。
+taskbar-tabs-value-prop-callout-title = このサイトをタスクバーに追加
+taskbar-tabs-value-prop-callout-subtitle = クリック一つでウェブサイトを簡易インターフェイスの@@Window@@に開きます。
+
 ## Windows 10 EoS Sync messages group 1 callouts
 
 windows-10-eos-sync-urgency-title-1 = Windows 11 への移行時に保存していたものを何も失わないようにします。
@@ -131,6 +144,10 @@ windows-10-eos-sync-tour-title-1 = あなたのタブ、多すぎませんか？
 windows-10-eos-sync-tour-subtitle-1 = タブを別のタブの上にドラッグしてグループ化し、散らかったタブを整理しましょう。
 windows-10-eos-sync-tour-title-2 = Windows 11 への移行前に整理整頓。
 windows-10-eos-sync-tour-subtitle-2 = 切り替え前に、ブックマーク、パスワード、設定を同期してバックアップしましょう。
+windows-10-eos-sync-split-dismiss-button-show-fewer-option =
+    .label = おすすめ表示を少なくする
+windows-10-eos-sync-dismiss-button-label = 閉じる
+windows-10-eos-sync-callout-primary-advance-button-label = 次へ
 
 ## Sidebar Strings
 

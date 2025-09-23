@@ -461,3 +461,22 @@ dismiss-button-label = 閉じる
 sync-to-mobile-button-label = モバイル端末と同期
 desktop-to-mobile-qr-code-alt =
     .aria-label = モバイル版 { -brand-product-name } のダウンロード用 QR コード
+
+## Restore from Backup Flow about:welcome screens
+
+restore-from-backup-secondary-top-button = バックアップから復元
+restore-from-backup-title = あなた好みの { -brand-short-name } に戻しましょう
+restore-from-backup-subtitle = ブラウジングに必要なすべてのブックマーク、履歴および他のデータをバックアップデータから復元します。
+restore-from-backup-secondary-button = 復元しない
+
+## Restored from Backup spotlight
+
+restored-from-backup-success-title = お帰りなさい！ { -brand-short-name } が復元されました。
+restored-from-backup-success-with-checklist-subtitle = クリック一つでお気に入りのプライバシー優先ブラウザーを使い続けましょう。
+restored-from-backup-success-no-checklist-subtitle = <a data-l10n-name="settings">設定</a> でこの端末のバックアップをオンにしてください。
+restored-from-backup-success-with-checklist-primary-button = 保存して続ける
+restored-from-backup-success-with-checklist-secondary-button = この手順をスキップ
+restored-from-backup-success-no-checklist-primary-button = 続ける
+restored-from-backup-error-title = 申し訳ありません。バックアップファイルに問題があるようです。
+restored-from-backup-error-subtitle = 別の { -brand-short-name } バックアップファイルがあれば、それで復元を試してください。<a data-l10n-name="restore-problems">まだ問題がある場合はこちら</a>。
+restored-from-backup-error-primary-button = 閉じる

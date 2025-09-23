@@ -99,6 +99,8 @@ profiles-light-theme = ライト
 profiles-dark-theme = ダーク
 # The default system theme
 profiles-system-theme = システム
+profiles-system-theme-title =
+    .title = システムテーマを適用します
 # This light theme features sunny colors such as goldenrod and pale yellow. Its name evokes the color of a marigold flower. This name can be translated directly if it's easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
 profiles-marigold-theme-2 = マリーゴールドイエロー
 # This light theme features various shades of soft, muted purples. Its name evokes the color of a lavender flower. This name can be translated directly if it's easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
@@ -113,6 +115,47 @@ profiles-ocean-theme-2 = オーシャンブルー
 profiles-terracotta-theme-2 = テラコッタ
 # This dark theme features forest green, dusky green with a gray undertone, and a muted sage green. Its name evokes the rich color of green moss in the forest. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
 profiles-moss-theme-2 = モスグリーン
+profiles-gray-theme = グレー
+profiles-gray-theme-title =
+    .title = グレーテーマを適用します
+profiles-yellow-theme = 黄
+profiles-yellow-theme-title =
+    .title = 黄色のテーマを適用します
+profiles-orange-theme = オレンジ
+profiles-orange-theme-title =
+    .title = オレンジ色のテーマを適用します
+profiles-red-theme = 赤
+profiles-red-theme-title =
+    .title = 赤色のテーマを適用します
+profiles-pink-theme = ピンク
+profiles-pink-theme-title =
+    .title = ピンク色のテーマを適用します
+profiles-purple-theme = 紫
+profiles-purple-theme-title =
+    .title = 紫色のテーマを適用します
+profiles-violet-theme = バイオレット
+profiles-violet-theme-title =
+    .title = バイオレットのテーマを適用します
+profiles-blue-theme = 青
+profiles-blue-theme-title =
+    .title = 青色のテーマを適用します
+profiles-green-theme = 緑
+profiles-green-theme-title =
+    .title = 緑色のテーマを適用します
+profiles-cyan-theme = シアン
+profiles-cyan-theme-title =
+    .title = シアンのテーマを適用します
+profiles-custom-theme-title =
+    .title = カスタムテーマを適用します
+
+## Data collection settings changed (multi-profile)
+
+# Full infobar message with inline bold title followed by body text
+multiprofile-data-collection-message = <strong>データ収集設定が変更されました。</strong> 別のプロファイルで変更した設定がこの端末のすべてのプロファイルに適用されます。
+# Primary button label to open the Data collection section in Settings
+multiprofile-data-collection-view-settings = 設定を表示
+# Secondary button label to dismiss the infobar without action
+multiprofile-data-collection-dismiss = 閉じる
 
 ## Alternative text for default profile icons
 
@@ -120,6 +163,8 @@ book-avatar-alt =
     .alt = 本
 briefcase-avatar-alt =
     .alt = かばん
+picture-avatar-alt =
+    .alt = 写真
 # Canvas refers to an artist's painting canvas, not the general material
 canvas-avatar-alt =
     .alt = キャンバス
@@ -136,6 +181,8 @@ heart-avatar-alt =
     .alt = ハート
 heart-rate-avatar-alt =
     .alt = 心拍数
+clock-avatar-alt =
+    .alt = 時計
 history-avatar-alt =
     .alt = 歴史
 leaf-avatar-alt =
@@ -160,6 +207,8 @@ present-avatar-alt =
     .alt = プレゼント
 shopping-avatar-alt =
     .alt = 買い物かご
+soccer-ball-avatar-alt =
+    .alt = サッカーボール
 soccer-avatar-alt =
     .alt = サッカー
 sparkle-single-avatar-alt =
@@ -170,6 +219,9 @@ video-game-controller-avatar-alt =
     .alt = ゲームのコントローラー
 custom-avatar-alt =
     .alt = カスタムアバター
+# Globe refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
+globe-avatar-alt =
+    .alt = 地球
 # Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
 default-favicon-avatar-alt =
     .alt = @@Default-@@ファビコン
@@ -181,10 +233,11 @@ barbell-avatar-alt =
 bike-avatar-alt =
     .alt = バイク
 
-## Labels for default avatar icons
+## Tooltips for default avatar icons
 
 book-avatar = 本
 briefcase-avatar = かばん
+clock-avatar = 時計
 # Canvas refers to an artist's painting canvas, not the general material
 canvas-avatar = キャンバス
 # Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
@@ -196,6 +249,8 @@ default-favicon-avatar = @@Default-@@ファビコン
 diamond-avatar = ダイヤモンド
 flower-avatar = 花
 folder-avatar = フォルダー
+# Globe refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
+globe-avatar = 地球
 hammer-avatar = ハンマー
 heart-avatar = ハート
 heart-rate-avatar = 心拍数
@@ -208,10 +263,12 @@ message-avatar = メッセージ
 musical-note-avatar = 音符
 palette-avatar = パレット
 paw-print-avatar = 足跡
+picture-avatar = 写真
 plane-avatar = 飛行機
 # Present refers to a gift box, not the current time period
 present-avatar = プレゼント
 shopping-avatar = 買い物かご
+soccer-ball-avatar = サッカーボール
 soccer-avatar = サッカー
 sparkle-single-avatar = きらめき
 star-avatar = 星
@@ -226,3 +283,66 @@ custom-avatar-drag-handle =
     .aria-label = 切り抜きサイズを変更
 barbell-avatar = バーベル
 bike-avatar = バイク
+
+## Tooltips for default avatar icons
+
+barbell-avatar-tooltip =
+    .tooltiptext = バーベルアバターを適用します
+bike-avatar-tooltip =
+    .tooltiptext = バイクアバターを適用します
+book-avatar-tooltip =
+    .tooltiptext = 本アバターを適用します
+briefcase-avatar-tooltip =
+    .tooltiptext = かばんアバターを適用します
+picture-avatar-tooltip =
+    .tooltiptext = 写真アバターを適用します
+# Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
+craft-avatar-tooltip =
+    .tooltiptext = クラフトアバターを適用します
+# Globe refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
+globe-avatar-tooltip =
+    .tooltiptext = 地球アバターを適用します
+diamond-avatar-tooltip =
+    .tooltiptext = ダイヤモンドアバターを適用します
+flower-avatar-tooltip =
+    .tooltiptext = 花アバターを適用します
+folder-avatar-tooltip =
+    .tooltiptext = フォルダーアバターを適用します
+hammer-avatar-tooltip =
+    .tooltiptext = ハンマーアバターを適用します
+heart-avatar-tooltip =
+    .tooltiptext = ハートアバターを適用します
+heart-rate-avatar-tooltip =
+    .tooltiptext = 心拍数アバターを適用します
+clock-avatar-tooltip =
+    .tooltiptext = 時計アバターを適用します
+leaf-avatar-tooltip =
+    .tooltiptext = 葉っぱアバターを適用します
+lightbulb-avatar-tooltip =
+    .tooltiptext = 電球アバターを適用します
+makeup-avatar-tooltip =
+    .tooltiptext = 化粧アバターを適用します
+# Message refers to a text message, not a traditional letter/envelope message
+message-avatar-tooltip =
+    .tooltiptext = メッセージアバターを適用します
+musical-note-avatar-tooltip =
+    .tooltiptext = 音符アバターを適用します
+palette-avatar-tooltip =
+    .tooltiptext = パレットアバターを適用します
+paw-print-avatar-tooltip =
+    .tooltiptext = 足跡アバターを適用します
+plane-avatar-tooltip =
+    .tooltiptext = 飛行機アバターを適用します
+# Present refers to a gift box, not the current time period
+present-avatar-tooltip =
+    .tooltiptext = プレゼントアバターを適用します
+shopping-avatar-tooltip =
+    .tooltiptext = 買い物かごアバターを適用します
+soccer-ball-avatar-tooltip =
+    .tooltiptext = サッカーボールアバターを適用します
+sparkle-single-avatar-tooltip =
+    .tooltiptext = きらめきアバターを適用します
+star-avatar-tooltip =
+    .tooltiptext = 星アバターを適用します
+video-game-controller-avatar-tooltip =
+    .tooltiptext = ゲームのコントローラーアバターを適用します

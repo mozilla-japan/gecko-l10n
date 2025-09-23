@@ -137,6 +137,7 @@ about-glean-button-dictionary-link = ドキュメント
 about-glean-button-watch = 監視
 # Meaning "to stop watching"
 about-glean-button-unwatch = 監視を解除
+about-glean-no-data-to-display = 表示するデータがありません。
 # Do not translate strings between <code> </code> tags.
 about-glean-labeled-metric-warning = <code>about:glean</code> ビューではラベル付けされたメトリクスがまだサポートされていません。
 about-glean-unknown-metric-type-warning = メトリクスの型が不明です。

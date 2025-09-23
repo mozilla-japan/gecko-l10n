@@ -107,10 +107,8 @@ browser-main-window-titles-mac =
     .data-content-title-private = { $content-title } — プライベートブラウジング
     .data-content-title-default-with-profile = { $content-title } — { $profile-name }
     .data-content-title-private-with-profile = { $content-title } — { $profile-name } — プライベートブラウジング
-# This gets set as the initial title, and is overridden as soon as we start
-# updating the titlebar based on loaded tabs or private browsing state.
-# This should match the `data-title-default` attribute in both
-# `browser-main-window` and `browser-main-window-mac`.
+# This is the initial default title for the browser window.
+# It gets updated based on loaded tabs or private browsing state.
 browser-main-window-default-title = { -brand-full-name }
 # Note: only on macOS do we use a `-` separator between the brand name and the
 # "Private Browsing" suffix.
@@ -119,6 +117,15 @@ browser-main-private-window-title =
         [macos] { -brand-full-name } — プライベートブラウジング
        *[other] { -brand-full-name } プライベートブラウジング
     }
+# This is only used on macOS; on other OSes we use the full private window
+# title (so including the brand name) as a suffix
+browser-main-private-suffix-for-content = プライベートブラウジング
+popups-infobar-dont-show-message2 =
+    .label = ポップアップまたはサードパーティによるリダイレクトがブロックされた場合は、このメッセージを表示しない
+    .accesskey = D
+edit-popup-settings2 =
+    .label = ポップアップおよびサードパーティによるリダイレクトの設定...
+    .accesskey = M
 
 ##
 
@@ -265,6 +272,8 @@ urlbar-screen-blocked =
     .tooltiptext = このウェブサイトでの画面の共有をブロックしました。
 urlbar-persistent-storage-blocked =
     .tooltiptext = このウェブサイトの永続ストレージの使用をブロックしました。
+urlbar-popup-blocked2 =
+    .tooltiptext = このウェブサイトのポップアップとサードパーティによるリダイレクトをブロックしました。
 urlbar-popup-blocked =
     .tooltiptext = このウェブサイトのポップアップをブロックしました。
 urlbar-autoplay-media-blocked =
@@ -1155,6 +1164,9 @@ popups-infobar-allow =
 popups-infobar-block =
     .label = このサイト ({ $uriHost }) によるポップアップを禁止する
     .accesskey = p
+popups-infobar-allow2 =
+    .label = このサイト ({ $uriHost }) によるポップアップおよびサードパーティによるリダイレクトを許可する
+    .accesskey = p
 
 ##
 
@@ -1319,6 +1331,7 @@ firefox-relay-offer-why-to-use-relay = 安全で簡単に使えるメールマ�
 #  $useremail (String): user email that will receive messages
 firefox-relay-offer-what-relay-provides = メールマスクに送信されたすべてのメールは (これらをブロックしない限り) <strong>{ $useremail }</strong> に転送されます。
 firefox-relay-offer-legal-notice = @@[@@メールマスクを使用@@]@@ をクリックすることにより、<label data-l10n-name="tos-url">サービス利用規約</label> および <label data-l10n-name="privacy-url">プライバシー通知</label> に同意したものとみなされます。
+firefox-relay-offer-legal-notice-1 = アカウント登録してメールマスクを作成することにより、<label data-l10n-name="tos-url">サービス利用規約</label> および <label data-l10n-name="privacy-url">プライバシー通知</label> に同意したものとみなされます。
 
 ## Add-on Pop-up Notifications
 
@@ -1345,12 +1358,26 @@ popup-warning-message =
         [1] { -brand-short-name } がこのサイトでポップアップ@@Window@@をブロックしました。
        *[other] { -brand-short-name } がこのサイトで { $popupCount } 個のポップアップ@@Window@@をブロックしました。
     }
+# Variables:
+#   $popupCount (Number): the number of pop-ups blocked.
+redirect-warning-with-popup-message =
+    { $popupCount ->
+        [0] { -brand-short-name } がこのサイトでリダイレクトをブロックしました。
+        [1] { -brand-short-name } がこのサイトでポップアップ@@Window@@とリダイレクトをブロックしました。
+       *[other] { -brand-short-name } がこのサイトで { $popupCount } 個のポップアップ@@Window@@とリダイレクトをブロックしました。
+    }
 # The singular form is left out for English, since the number of blocked pop-ups is always greater than 1.
 # Variables:
 #   $popupCount (Number): the number of pop-ups blocked.
 popup-warning-exceeded-message =
     { $popupCount ->
        *[other] { -brand-short-name } がこのサイトで { $popupCount } 個以上のポップアップ@@Window@@をブロックしました。
+    }
+# Variables:
+#   $popupCount (Number): the number of pop-ups blocked.
+popup-warning-exceeded-with-redirect-message =
+    { $popupCount ->
+       *[other] { -brand-short-name } がこのサイトで { $popupCount } 個以上のポップアップ@@Window@@とリダイレクトをブロックしました。
     }
 popup-warning-button =
     .label =
@@ -1367,6 +1394,10 @@ popup-warning-button =
 #   $popupURI (String): the URI for the pop-up window
 popup-show-popup-menuitem =
     .label = “{ $popupURI }” を表示
+# Variables:
+#   $redirectURI (String): the URI for the redirect
+popup-trigger-redirect-menuitem =
+    .label = “{ $redirectURI }” を表示
 
 ## File-picker crash notification ("FilePickerCrashed.sys.mjs")
 
@@ -1455,10 +1486,8 @@ trustpanel-list-label-social-tracking = { $count } 個のソーシャルメデ�
 trustpanel-list-label-cryptominer = { $count } 個の暗号通貨マイニング
 trustpanel-social-tracking-blocking-tab-header = { -brand-product-name } が { $count } 個のソーシャルメディアトラッカーをブロックしました
 trustpanel-social-tracking-not-blocking-tab-header = { -brand-product-name } が { $count } 個のソーシャルメディアトラッカーを許可しました
-trustpanel-social-tracking-tab-list-header = 以下のサイトがあなたを追跡しようとしています:
 trustpanel-tracking-cookies-blocking-tab-header = { -brand-product-name } が { $count } 個のクロスサイトトラッキング Cookie をブロックしました
 trustpanel-tracking-cookies-not-blocking-tab-header = { -brand-product-name } が { $count } 個のクロスサイトトラッキング Cookie を許可しました
-trustpanel-tracking-cookies-tab-list-header = 以下のサイトがあなたを追跡しようとしています:
 trustpanel-tracking-content-blocking-tab-header = { -brand-product-name } が { $count } 個のトラッカーをブロックしました
 trustpanel-tracking-content-not-blocking-tab-header = { -brand-product-name } が { $count } 個のトラッカーを許可しました
 trustpanel-tracking-content-tab-list-header = 以下のサイトがあなたを追跡しようとしています:
