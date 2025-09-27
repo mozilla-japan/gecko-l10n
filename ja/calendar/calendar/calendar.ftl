@@ -896,3 +896,19 @@ calendar-properties-unsubscribe =
     .accesskey = U
     .buttonlabelextra1 = 登録解除
     .buttonaccesskeyextra1 = U
+calendar-alarm-dialog-title = カレンダーアラーム
+calendar-alarm-details =
+    .value = 詳細...
+calendar-alarm-dismiss =
+    .label = 停止する
+calendar-alarm-dismiss-all =
+    .label = すべて停止する
+calendar-alarm-snooze-for =
+    .label = 再通知する
+calendar-alarm-snooze-all-for =
+    .label = すべて再通知する
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = 再通知をキャンセルします
