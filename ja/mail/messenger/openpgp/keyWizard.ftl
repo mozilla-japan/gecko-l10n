@@ -131,5 +131,10 @@ openpgp-external-key-info = また、対応する公開鍵を鍵マネージャ�
 openpgp-external-key-warning = <b>外部の GnuPG 鍵は 1 個しか設定できません</b>。以前に設定した鍵は置換されます。
 openpgp-save-external-button = 鍵 ID を保存
 openpgp-external-key-label = 秘密鍵 ID:
+openpgp-import-own-key-title = Import your public key
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } couldn’t find the public key with ID { $keyId }. Please import it to continue.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Could not import public key { $keyId } from that file.
 openpgp-external-key-input =
     .placeholder = 123456789341298340
