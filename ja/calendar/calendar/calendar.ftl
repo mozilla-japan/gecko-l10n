@@ -910,27 +910,15 @@ calendar-alarm-snooze-all-for =
 # Variables:
 # $count (Number) - The number of minutes to snooze.
 calendar-alarm-snooze-preset-minutes =
-    .label =
-        { $count ->
-            [one] { $count } Minute
-           *[other] { $count } Minutes
-        }
+    .label = { $count } 分
 # Variables:
 # $count (Number) - The number of hours to snooze.
 calendar-alarm-snooze-preset-hours =
-    .label =
-        { $count ->
-            [one] { $count } Hour
-           *[other] { $count } Hours
-        }
+    .label =  { $count } 時間
 # Variables:
 # $count (Number) - The number of days to snooze.
 calendar-alarm-snooze-preset-days =
-    .label =
-        { $count ->
-            [one] { $count } Day
-           *[other] { $count } Days
-        }
+    .label = { $count } 日
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.

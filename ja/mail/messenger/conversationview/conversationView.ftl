@@ -6,20 +6,20 @@
 # $count (Number) - The number of messages in the conversation.
 total-message-count =
     { $count ->
-        [one] One message
-       *[other] { $count } messages
+        [one] メッセージ 1 通
+       *[other] メッセージ { $count } 通
     }
 # Variables:
 # $count (Number) - The number of new messages in the conversation.
 new-message-count =
     { $count ->
-        [one] one new
-       *[other] { $count } new
+        [one] 新着 1 通
+       *[other] 新着 { $count } 通
     }
 # Variables:
 # $count (Number) - The number of unread messages in the conversation.
 unread-message-count =
     { $count ->
-        [one] one unread
-       *[other] { $count } unread
+        [one] 未読 1 通
+       *[other] 未読 { $count } 通
     }
