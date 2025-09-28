@@ -133,7 +133,7 @@ openpgp-save-external-button = 鍵 ID を保存
 openpgp-external-key-label = 秘密鍵 ID:
 openpgp-import-own-key-title = 公開鍵を@@Import@@
 #   $keyId (String) - The Key ID.
-openpgp-import-own-key-description = { -brand-short-name } は鍵 ID { $keyId } の公開鍵を見つけられませんでした。続けるには、鍵を@@Import-site@@ください。
+openpgp-import-own-key-description = 鍵 ID { $keyId } の公開鍵を見つけられませんでした。続けるには、鍵を@@Import-site@@ください。
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = 公開鍵 { $keyId } をファイルから@@Import-deki@@ませんでした。
 openpgp-external-key-input =
