@@ -174,4 +174,5 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 fxsrc | browser, devtools        9f9b4be2 (2025-09-18)  mar          sync browser, devtools
 fxsrc | toolkit                  9f9b4be2 (2025-09-18)  mar          sync toolkit
 tbsrc | calendar, mail           46d8a40c (2025-09-26)  kazushi      sync calendar, mail
+fxsrc | browser, dom, toolkit    2663247c (2025-09-26)  kazushi      sync browser, dom, toolkit
 
