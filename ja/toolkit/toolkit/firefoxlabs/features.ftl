@@ -75,5 +75,5 @@ experimental-features-newtab-widget-lists-and-timer =
 experimental-features-newtab-widget-lists-and-timer-description = @@NewTab@@を開いたら ToDo リストを見て思い出しましょう。旅行の荷造りから買い物リストまで、{ -brand-product-name } で計画を立てられます。タイマーをセットしたら、よそ見をしないで作業に集中。休憩も忘れずに。<a data-l10n-name="connect">フィードバックを共有してください</a>。
 # Semantic History Search
 experimental-features-semantic-history-search =
-    .label = Semantic History Search
-experimental-features-semantic-history-search-description = Use a local Machine Learning model to suggest entries from history that are related to your searches based on natural language understanding in the { -brand-product-name } address bar. <a data-l10n-name="connect">Share feedback</a>
+    .label = セマンティック履歴検索
+experimental-features-semantic-history-search-description = ローカルの機械学習モデルを使用して、{ -brand-product-name } のアドレスバーで履歴から検索に関連するエントリーを自然言語理解に基づいて提案します。<a data-l10n-name="connect">フィードバックを共有してください</a>。

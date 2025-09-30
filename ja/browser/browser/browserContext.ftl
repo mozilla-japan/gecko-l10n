@@ -270,7 +270,7 @@ main-context-menu-image-desc =
 # Variables
 #   $engine (String) - Name of the search engine that will perform the search.
 main-context-menu-visual-search-2 =
-    .label = Search Image with { $engine }
+    .label = { $engine } で画像を検索
     .accesskey = e
 # Variables
 #   $engine (String) - Name of the search engine that will perform the search.
