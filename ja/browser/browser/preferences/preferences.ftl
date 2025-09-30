@@ -244,6 +244,8 @@ preferences-web-appearance-choice-light2 =
 preferences-web-appearance-choice-dark2 =
     .label = Dark
     .title = 暗い外観をウェブサイトの背景と内容に使用する。
+web-appearance-group =
+    .aria-label = Website appearance
 preferences-web-appearance-choice-auto = 自動
 preferences-web-appearance-choice-light = Light
 preferences-web-appearance-choice-dark = Dark
@@ -1056,6 +1058,28 @@ autofill-saved-payment-methods-button = 保存された支払方法
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox = 支払い方法の入力と管理には端末のログイン情報が必要です
     .accesskey = o
+autofill-payment-methods-title = Payment methods
+autofill-payment-methods-header =
+    .aria-label = Payment methods
+autofill-payment-methods-checkbox-message-2 =
+    .label = Save and autofill payment info
+    .accesskey = p
+autofill-payment-methods-manage-payments-button =
+    .label = Manage payment methods
+    .accesskey = m
+# This operation requires the user to authenticate with the operating system (device sign-in)
+autofill-reauth-payment-methods-checkbox-2 =
+    .label = Require device sign in to autofill and manage payments methods
+    .accesskey = o
+autofill-addresses-title = Addresses and more
+autofill-addresses-header =
+    .aria-label = Addresses and more
+autofill-addresses-checkbox-message =
+    .label = Save and autofill addresses
+    .accesskey = S
+autofill-addresses-manage-addresses-button =
+    .label = Manage addresses and more
+    .accesskey = M
 
 ## Privacy Section - History
 
@@ -1498,6 +1522,7 @@ security-block-uncommon-software =
 ## Privacy Section - Certificates
 
 certs-header = 証明書
+certs-description = Configure the certificates that { -brand-short-name } uses for authentication.
 certs-enable-ocsp =
     .label = OCSP レスポンダーサーバーに問い合わせて証明書の現在の正当性を確認する
     .accesskey = Q

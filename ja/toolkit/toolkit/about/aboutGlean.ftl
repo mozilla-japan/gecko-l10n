@@ -141,4 +141,9 @@ about-glean-no-data-to-display = 表示するデータがありません。
 # Do not translate strings between <code> </code> tags.
 about-glean-labeled-metric-warning = <code>about:glean</code> ビューではラベル付けされたメトリクスがまだサポートされていません。
 about-glean-unknown-metric-type-warning = メトリクスの型が不明です。
+about-glean-enable-new-features-promo =
+    .message = We’re working on adding new features! They are still in active development, but click the action button here if you would like to enable them.
+    .heading = New features are on the way!
+about-glean-enable-new-features-button = Enable new features
+about-glean-disable-new-features-button = Disable new features
 about-glean-about-data-explanation = 収集したデータのリストの閲覧は、<a data-l10n-name="glean-dictionary-link">{ -glean-brand-name } Dictionary</a> で調べてください。

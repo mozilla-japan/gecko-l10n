@@ -17,3 +17,4 @@ sandbox-unprivileged-namespaces-dismiss-button =
     .label = 今後は表示しない
     .accesskey = D
 sandbox-unprivileged-namespaces-howtofix = この問題を解決するには
+sandbox-content-disabled-warning = The security sandbox is disabled. Your configuration is unsupported and less secure.

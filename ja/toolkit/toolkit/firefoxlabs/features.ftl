@@ -73,3 +73,7 @@ experimental-features-newtab-widget-timer-description = タイマーをセット
 experimental-features-newtab-widget-lists-and-timer =
     .label = { -firefox-home-brand-name } 上の ToDo リストとタイマー
 experimental-features-newtab-widget-lists-and-timer-description = @@NewTab@@を開いたら ToDo リストを見て思い出しましょう。旅行の荷造りから買い物リストまで、{ -brand-product-name } で計画を立てられます。タイマーをセットしたら、よそ見をしないで作業に集中。休憩も忘れずに。<a data-l10n-name="connect">フィードバックを共有してください</a>。
+# Semantic History Search
+experimental-features-semantic-history-search =
+    .label = Semantic History Search
+experimental-features-semantic-history-search-description = Use a local Machine Learning model to suggest entries from history that are related to your searches based on natural language understanding in the { -brand-product-name } address bar. <a data-l10n-name="connect">Share feedback</a>
