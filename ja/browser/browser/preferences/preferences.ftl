@@ -1051,12 +1051,12 @@ autofill-saved-addresses-button = 保存された住所
     .accesskey = S
 autofill-payment-methods-checkbox-message = 支払い方法を保存して入力する
     .accesskey = m
-autofill-payment-methods-checkbox-submessage = クレジットカードとデビットカードを含める
+autofill-payment-methods-checkbox-submessage = クレジットカードとデビットカードを含みます
     .accesskey = I
 autofill-saved-payment-methods-button = 保存された支払方法
     .accesskey = v
 # This operation requires the user to authenticate with the operating system (device sign-in)
-autofill-reauth-payment-methods-checkbox = 支払い方法の入力と管理には端末のログイン情報が必要です
+autofill-reauth-payment-methods-checkbox = 支払い方法の入力と管理に端末のログイン情報を要求する
     .accesskey = o
 autofill-payment-methods-title = 支払い方法
 autofill-payment-methods-header =
@@ -1069,7 +1069,7 @@ autofill-payment-methods-manage-payments-button =
     .accesskey = m
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox-2 =
-    .label = 支払い方法の入力と管理には端末のログイン情報を要求する
+    .label = 支払い方法の入力と管理に端末のログイン情報を要求する
     .accesskey = o
 autofill-addresses-title = 住所など
 autofill-addresses-header =
