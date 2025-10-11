@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = コンパクトビュー
     .accesskey = C
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -471,6 +474,25 @@ openpgp-forget = 入力した OpenPGP のパスフレーズを時間切れにす
 quota-panel-percent-used = { $percent }% 使用
     .title = IMAP クォータ: ディスク領域の割り当て { $limit } 中の { $usage } を使用しています
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = 既読にする
@@ -478,3 +500,12 @@ delete-action = 削除
 mark-as-starred-action = スターを付ける
 mark-as-spam-action = 迷惑マークを付ける
 archive-action = アーカイブ
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+
