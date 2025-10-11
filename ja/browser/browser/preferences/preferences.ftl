@@ -1305,7 +1305,6 @@ content-blocking-etp-standard-tcp-rollout-description = 包括的 Cookie 保護�
 content-blocking-etp-standard-tcp-rollout-learn-more = 詳細情報
 content-blocking-etp-standard-tcp-title = 包括的 Cookie 保護機能が含まれます。これまでで最も強力なプライバシー保護機能です
 content-blocking-warning-title = 注意！
-content-blocking-and-isolating-etp-warning-description-3 = この設定では、一部のウェブサイトでコンテンツが表示されないか正しく機能しない可能性があります。この設定の影響を受けることが知られているウェブサイトでは任意の例外を提供しています。ウェブサイトでの問題発生を軽減するため、これらのトラッカーを例外として許可してください。サイトが動作しない場合は、そのサイトでトラッキング防止をオフにし、すべてのコンテンツを読み込んでみてください。また、問題を報告していただければ、解決に役立てることができます。
 content-blocking-warning-title-2 = 厳格なトラッキング防止で一部のウェブサイトが動作しない可能性があります
 content-blocking-warning-title-custom = カスタム設定のトラッキング防止で一部のウェブサイトが動作しない可能性があります
 # “Fix site issues” references the string content-blocking-exceptions-subheader
@@ -1530,12 +1529,16 @@ certs-devices =
 certs-thirdparty-toggle =
     .label = ユーザーがインストールしたサードパーティのルート証明書を自動的に信頼することを { -brand-short-name } に許可する
     .accesskey = t
+certs-devices-enable-fips = FIPS を有効にする
 space-alert-over-5gb-settings-button =
     .label = 設定を開く
     .accesskey = O
 space-alert-over-5gb-message2 = <strong>{ -brand-short-name } を実行するためのディスク領域が足りません。</strong>ウェブサイトが正しく表示されない可能性があります。@@[@@設定@@]@@ > @@[@@プライバシーとセキュリティ@@]@@ > @@[@@Cookie とサイトデータ@@]@@ から、保存されたデータを削除してください。
 space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行するためのディスク領域が足りません。</strong>ウェブサイトが正しく表示されない可能性があります。快適なブラウジングのために、@@[@@詳細情報@@]@@ のリンク先を読み、ディスク使用量を最適化してください。
 certs-description = { -brand-short-name } が認証に使用する証明書を設定します。
+certs-description2 =
+    .label = 証明書
+    .description = { -brand-short-name } が認証に使用する証明書を設定します。
 
 ## Privacy Section - HTTPS-Only
 
