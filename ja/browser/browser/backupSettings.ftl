@@ -7,7 +7,7 @@
 # when following backup restoration steps. Please only include characters that
 # can be used for folders. Invalid characters will be automatically stripped out
 # or replaced with underscores.
-backup-folder-name = Restore { -brand-product-name }
+backup-folder-name = { -brand-product-name } の復元
 # This string is used for the generated file that will be stored within the
 # backup-folder-name folder. It will have the profile name and an encoding of
 # the backup date appended to it, followed by `.html`. Please only include
@@ -18,97 +18,97 @@ backup-folder-name = Restore { -brand-product-name }
 # profile name and backup date are appended to it:
 #
 # FirefoxBackup_default_20240606-1830.html
-backup-file-name = { -brand-product-name }Backup
-settings-data-backup-header = Backup
-settings-data-backup-toggle = Manage backup
-settings-data-backup-trigger-button = Backup now
-settings-data-backup-in-progress-button = Backup in progress…
-settings-data-backup-scheduled-backups-on = Backup: ON
-settings-data-backup-scheduled-backups-off = Backup: OFF
-settings-data-backup-scheduled-backups-description = Automatically protect your bookmarks, history, and other data. <a data-l10n-name="support-link">Learn more</a>
-settings-data-backup-last-backup-date = Last backup: { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }
+backup-file-name = { -brand-product-name } のバックアップ
+settings-data-backup-header = バックアップ
+settings-data-backup-toggle = バックアップを管理
+settings-data-backup-trigger-button = 今すぐバックアップ
+settings-data-backup-in-progress-button = バックアップ中...
+settings-data-backup-scheduled-backups-on = バックアップ: 有効
+settings-data-backup-scheduled-backups-off = バックアップ: 無効
+settings-data-backup-scheduled-backups-description = ブックマークや履歴などのデータを自動的に保護します。<a data-l10n-name="support-link">詳細情報</a>
+settings-data-backup-last-backup-date = 最終バックアップ: { DATETIME($date, dateStyle: "short") } { DATETIME($date, timeStyle: "short") }
 # "Location" refers to the folder where backups are being written to.
-settings-data-backup-last-backup-location = Location
-settings-data-backup-last-backup-location-show-in-folder = Show in folder
-settings-data-backup-last-backup-location-edit = Edit…
-settings-data-create-backup-error = There was an error creating your backup on { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }
+settings-data-backup-last-backup-location = バックアップ先
+settings-data-backup-last-backup-location-show-in-folder = フォルダーを開く
+settings-data-backup-last-backup-location-edit = 編集...
+settings-data-create-backup-error = { DATETIME($date, dateStyle: "short") } { DATETIME($date, timeStyle: "short") } のバックアップ作成中にエラーが発生しました。
 # Variables:
 #   $fileName (String) - The file name of the last backup that was created.
-settings-data-backup-last-backup-filename = Filename: { $fileName }
-settings-data-backup-restore-header = Restore your data
+settings-data-backup-last-backup-filename = ファイル名: { $fileName }
+settings-data-backup-restore-header = データの復元
 
 ## These strings are shown under the header if scheduled backups are disabled.
 
-settings-data-backup-scheduled-backups-off-restore-description = Use a { -brand-product-name } backup from another device to restore your data.
-settings-data-backup-scheduled-backups-off-restore-choose = Choose backup file…
+settings-data-backup-scheduled-backups-off-restore-description = 他の端末での { -brand-product-name } のバックアップを使用してデータを復元します。
+settings-data-backup-scheduled-backups-off-restore-choose = バックアップファイルを選択...
 
 ## These strings are shown under the header if scheduled backups are enabled.
 
-settings-data-backup-scheduled-backups-on-restore-description = Recover your { -brand-product-name } data back from the last time it was backed up.
-settings-data-backup-scheduled-backups-on-restore-choose = Restore…
-settings-data-toggle-encryption-label = Back up your sensitive data
-settings-data-toggle-encryption-description = Back up your passwords, payment methods, and cookies with encryption.
-settings-data-toggle-encryption-support-link = Learn more
-settings-data-change-password = Change password…
+settings-data-backup-scheduled-backups-on-restore-description = 最新のバックアップから { -brand-product-name } のデータを戻して回復します。
+settings-data-backup-scheduled-backups-on-restore-choose = 復元...
+settings-data-toggle-encryption-label = 機密性の高い情報をバックアップする
+settings-data-toggle-encryption-description = パスワード、支払い方法、Cookie を暗号化してバックアップします。
+settings-data-toggle-encryption-support-link = 詳細情報
+settings-data-change-password = パスワードを変更...
 
 ## These strings are displayed in a modal when users want to turn on scheduled backups.
 
-turn-on-scheduled-backups-header = Turn on backup
-turn-on-scheduled-backups-description = { -brand-short-name } will create a snapshot of your data every 24 hours. You can restore it if there’s a problem or you get a new device.
-turn-on-scheduled-backups-support-link = What will be backed up?
+turn-on-scheduled-backups-header = バックアップの有効化
+turn-on-scheduled-backups-description = { -brand-short-name } は 24 時間ごとにスナップショットを作成します。問題が発生した場合や新しい端末を使用する場合に復元できます。
+turn-on-scheduled-backups-support-link = 何がバックアップされますか？
 # "Location" refers to the save location or a folder where users want backups stored.
-turn-on-scheduled-backups-location-label = Location
+turn-on-scheduled-backups-location-label = バックアップ先
 # Variables:
 #   $recommendedFolder (String) - Name of the recommended folder for saving backups
 turn-on-scheduled-backups-location-default-folder =
-    .value = { $recommendedFolder } (recommended)
+    .value = { $recommendedFolder } (推奨)
 turn-on-scheduled-backups-location-choose-button =
     { PLATFORM() ->
-        [macos] Choose…
-       *[other] Browse…
+        [macos] 選択...
+       *[other] 参照...
     }
-turn-on-scheduled-backups-encryption-label = Back up your sensitive data
-turn-on-scheduled-backups-encryption-description = Back up your passwords, payment methods, and cookies with encryption.
-turn-on-scheduled-backups-encryption-create-password-label = Password
+turn-on-scheduled-backups-encryption-label = 機密性の高い情報をバックアップする
+turn-on-scheduled-backups-encryption-description = パスワード、支払い方法、Cookie を暗号化してバックアップします。
+turn-on-scheduled-backups-encryption-create-password-label = パスワード
 # Users will be prompted to re-type a password, to ensure that the password is entered correctly.
-turn-on-scheduled-backups-encryption-repeat-password-label = Repeat password
-turn-on-scheduled-backups-cancel-button = Cancel
-turn-on-scheduled-backups-confirm-button = Turn on backup
+turn-on-scheduled-backups-encryption-repeat-password-label = パスワードを再入力してください
+turn-on-scheduled-backups-cancel-button = キャンセル
+turn-on-scheduled-backups-confirm-button = バックアップを有効にする
 # Tell the user there was an error accessing the user's selected backup
 # folder. The folder may be invalid or inaccessible.
-turn-on-scheduled-backups-error-file-system = There was a problem with your selected backup folder. Choose a different folder and try again.
-backup-error-file-system = There was a problem with your selected backup folder while backing up { -brand-short-name }.
+turn-on-scheduled-backups-error-file-system = 選択したバックアップフォルダーで問題が発生しました。別のフォルダーを選択して再度試してください。
+backup-error-file-system = { -brand-short-name } のバックアップ中に選択したフォルダーで問題が発生しました。
 
 ## These strings are displayed in a modal when users want to turn off scheduled backups.
 
-turn-off-scheduled-backups-header = Turn off backup?
-turn-off-scheduled-backups-description = This also deletes all of your backup data. It can’t be undone.
-turn-off-scheduled-backups-support-link = Learn more
-turn-off-scheduled-backups-cancel-button = Cancel
-turn-off-scheduled-backups-confirm-button = Turn off and delete backup
+turn-off-scheduled-backups-header = バックアップを無効にしますか？
+turn-off-scheduled-backups-description = 無効にすると、バックアップしたデータをすべて削除します。削除は取り消せません。
+turn-off-scheduled-backups-support-link = 詳細情報
+turn-off-scheduled-backups-cancel-button = キャンセル
+turn-off-scheduled-backups-confirm-button = 無効にしてバックアップを削除
 
 ## These strings are displayed in a modal when users want restore from a backup.
 
-restore-from-backup-header = Restore your data
+restore-from-backup-header = データの復元
 # Variables:
 #   $date (string) - Date to be formatted based on locale
 restore-from-backup-description-with-metadata =
-    .message = This will replace all your current { -brand-short-name } data with your backup from { DATETIME($date, timeStyle: "short", dateStyle: "short") }.
+    .message = この操作を実行すると、現在の { -brand-short-name } のデータを { DATETIME($date, timeStyle: "short", dateStyle: "short") } のバックアップで置き換えます。
 restore-from-backup-support-link =
-    .message = What will be restored?
-restore-from-backup-no-backup-file-link = Having problems finding your backup?
-restore-from-backup-filepicker-label = Backup file
-restore-from-backup-filepicker-title = Choose Backup File:
+    .message = 何が復元されますか？
+restore-from-backup-no-backup-file-link = バックアップが見つかりませんか？
+restore-from-backup-filepicker-label = バックアップファイル
+restore-from-backup-filepicker-title = バックアップファイルを選択:
 restore-from-backup-file-choose-button =
     { PLATFORM() ->
-        [macos] Choose…
-       *[other] Browse…
+        [macos] 選択...
+       *[other] 参照...
     }
-restore-from-backup-password-label = Password
-restore-from-backup-password-description = This unlocks your encrypted backup.
-restore-from-backup-cancel-button = Cancel
-restore-from-backup-confirm-button = Restore and restart
-restore-from-backup-restoring-button = Restoring…
+restore-from-backup-password-label = パスワード
+restore-from-backup-password-description = 暗号化したバックアップをロック解除します。
+restore-from-backup-cancel-button = キャンセル
+restore-from-backup-confirm-button = 復元して再起動
+restore-from-backup-restoring-button = 復元中...
 
 ## These strings are displayed in a small error message bar in the settings
 ## menu if there was an error when trying to restore a backed up profile
@@ -116,108 +116,108 @@ restore-from-backup-restoring-button = Restoring…
 # User is not authorized to restore a particular backup file, usually because
 # the backup file is encrypted and the user provided a recovery password that
 # was different than the password the user configured for their backup file
-backup-service-error-incorrect-password = Incorrect password. <a data-l10n-name="incorrect-password-support-link">Still having problems?</a>
+backup-service-error-incorrect-password = パスワードが正しくありません。<a data-l10n-name="incorrect-password-support-link">問題が繰り返される場合</a>
 # The backup file (or specific data files within the backup file) could not be
 # loaded and parsed correctly, most likely due to data corruption of the
 # backup file itself
 backup-service-error-corrupt-file =
-    .heading = This file isn’t working
-    .message = There was a problem with your backup file. Choose a different file and try again.
+    .heading = このファイルは正しく動作しません
+    .message = バックアップファイルに問題があります。別のファイルを選択して再度試してください。
 # The backup file cannot be restored. The currently running application may
 # be too old and may not support features in the backed up profile.
 # Alternatively, the backup file may be too old and some of the feature in
 # the backed up profile may no longer be supported.
 backup-service-error-unsupported-version =
-    .heading = This file isn’t working
-    .message = The file you chose isn’t compatible with this version of { -brand-short-name }. Choose a different file and try again.
+    .heading = このファイルは正しく動作しません
+    .message = 選択中のファイルはこのバージョンの { -brand-short-name } と互換性がありません。別のファイルを選択して再度お試しください。
 # The backup file cannot be restored. The currently running application is not
 # the same application that created the backup file (e.g. Firefox cannot
 # restore a Thunderbird profile backup).
 backup-service-error-unsupported-application =
-    .heading = This file isn’t working
-    .message = The file you chose was not created by { -brand-short-name }. Choose a different file and try again.
+    .heading = このファイルは正しく動作しません
+    .message = 選択中のファイルは { -brand-short-name } によって作成されたものではありません。別のファイルを選択して再度お試しください。
 # Recovery from backup did not succeed. Potential causes could be file system
 # errors, internal code errors, decryption errors, etc.
 backup-service-error-recovery-failed =
-    .heading = { -brand-short-name } couldn’t restore
-    .message = Restart { -brand-short-name } and try restoring your backup again.
+    .heading = 復元できませんでした
+    .message = { -brand-short-name } を再起動してバックアップの復元を再度お試しください。
 
 ## These strings are displayed in a modal when users want to enable encryption or change the password for an existing backup.
 
-enable-backup-encryption-header = Back up your sensitive data
-enable-backup-encryption-description = Back up your passwords, payment methods, and cookies, plus keep all your data safe with encryption.
-enable-backup-encryption-support-link = Learn more
-enable-backup-encryption-create-password-label = Password
+enable-backup-encryption-header = 機密性の高い情報のバックアップ
+enable-backup-encryption-description = パスワード、支払い方法、Cookie をバックアップし、すべてのデータを暗号化して安全を保ちます。
+enable-backup-encryption-support-link = 詳細情報
+enable-backup-encryption-create-password-label = パスワード
 # Users will be prompted to re-type a password, to ensure that the password is entered correctly.
-enable-backup-encryption-repeat-password-label = Repeat password
-enable-backup-encryption-cancel-button = Cancel
-enable-backup-encryption-confirm-button = Save
-change-backup-encryption-header = Change backup password
+enable-backup-encryption-repeat-password-label = パスワードを再入力してください
+enable-backup-encryption-cancel-button = キャンセル
+enable-backup-encryption-confirm-button = 保存
+change-backup-encryption-header = バックアップパスワードの変更
 
 ## These strings are displayed in a tooltip showing what requirements are met while creating a password.
 
-password-rules-header = Password requirements
-password-rules-length-description = At least 8 characters
-password-rules-email-description = Not your email address
-password-rules-disclaimer = Stay safe — don’t reuse passwords. See more tips to <a data-l10n-name="password-support-link">create strong passwords</a>.
-password-validity-has-email = Can’t be an email address
-password-validity-do-not-match = Passwords don’t match
+password-rules-header = パスワードの要件
+password-rules-length-description = 8 文字以上
+password-rules-email-description = メールアドレスと一致しない
+password-rules-disclaimer = 安全のため、パスワードを再利用してはいけません。<a data-l10n-name="password-support-link">強力なパスワードを作成する</a>ためのヒントをご覧ください。
+password-validity-has-email = メールアドレスは設定できません
+password-validity-do-not-match = パスワードが一致しません
 
 ## These strings are only used for assistive technologies, like screen readers, in the password requirements tooltip.
 
 password-rules-a11y-success =
-    .alt = Success
+    .alt = 完了
 password-rules-a11y-warning =
-    .alt = Warning
+    .alt = 警告
 
 ## These strings are displayed in a modal when users want to disable encryption for an existing backup.
 
-disable-backup-encryption-header = Remove password protection
-disable-backup-encryption-description = Your saved passwords, payment methods, and cookies will no longer be backed up.
-disable-backup-encryption-support-link = What will be backed up?
-disable-backup-encryption-cancel-button = Cancel
-disable-backup-encryption-confirm-button = Remove password
+disable-backup-encryption-header = パスワード保護の解除
+disable-backup-encryption-description = 保存しているパスワード、支払い方法、Cookie をバックアップしなくなります。
+disable-backup-encryption-support-link = 何がバックアップされますか？
+disable-backup-encryption-cancel-button = キャンセル
+disable-backup-encryption-confirm-button = パスワードを削除
 
 ## These strings are used to tell users when errors occur when using
 ## the backup system
 
-backup-error-password-requirements = Your password doesn’t meet the requirements. Please try another password.
+backup-error-password-requirements = パスワードが要件を満たしていません。別のパスワードをお試しください。
 # This error message will be shown to the user when something went wrong with
 # the backup system but we do not have any more specific idea of what went
 # wrong. This message invites the user to try an action again because there
 # is a chance that the action will succeed if retried.
-backup-error-retry = Something went wrong. Please try again.
+backup-error-retry = 問題が発生しました。再度お試しください。
 
 ## These strings are inserted into the generated single-file backup archive.
 ## The single-file backup archive is a specially-crafted, static HTML file
 ## that is placed within a user specified directory (the Documents folder by
 ## default) within a folder labelled with the "backup-folder-name" string.
 
-backup-file-header = { -brand-short-name } is ready to be restored
-backup-file-title = Restore { -brand-short-name }
-backup-file-intro = Get back to browsing and recover all your bookmarks, history, and other data. <a data-l10n-name="backup-file-support-link">Learn more</a>
-backup-file-path-label = Backup file:
-backup-file-encryption-state-label = Encrypted:
-backup-file-encryption-state-value-encrypted = Yes
-backup-file-encryption-state-value-not-encrypted = No
-backup-file-creation-device-label = Device:
-backup-file-creation-date-label = Created:
+backup-file-header = { -brand-short-name } を復元する準備が整っています
+backup-file-title = { -brand-short-name } の復元
+backup-file-intro = ブックマーク、履歴などのデータを復元してブラウジングを再開しましょう。<a data-l10n-name="backup-file-support-link">詳細情報</a>
+backup-file-path-label = バックアップファイル:
+backup-file-encryption-state-label = 暗号化:
+backup-file-encryption-state-value-encrypted = 有効
+backup-file-encryption-state-value-not-encrypted = 無効
+backup-file-creation-device-label = 端末:
+backup-file-creation-date-label = 作成:
 # Variables:
 #   $date (Datetime) - The date the backup was created
-backup-file-creation-date-value = { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }
-backup-file-how-to-restore-header = How to restore:
+backup-file-creation-date-value = { DATETIME($date, dateStyle: "short") } { DATETIME($date, timeStyle: "short") }
+backup-file-how-to-restore-header = 復元方法:
 # The ☰ character is intended as a visual icon representing the Firefox
 # application menu.
-backup-file-moz-browser-restore-step-1 = Open the application menu ☰ and go to Settings > Sync
-backup-file-moz-browser-restore-step-2 = Click “Choose backup file” and select this file
-backup-file-moz-browser-restore-step-3 = Restart { -brand-short-name } when asked
-backup-file-other-browser-restore-step-1 = Download and install { -brand-short-name }
-backup-file-download-moz-browser-button = Download
+backup-file-moz-browser-restore-step-1 = アプリケーションメニュー ☰ を開いて、設定 > 同期に移動
+backup-file-moz-browser-restore-step-2 = @@[@@バックアップファイルを選択@@]@@ をクリックして、このファイルを選択
+backup-file-moz-browser-restore-step-3 = 表示に従って { -brand-short-name } を再起動
+backup-file-other-browser-restore-step-1 = { -brand-short-name } をダウンロードしてインストール
+backup-file-download-moz-browser-button = ダウンロード
 # The ☰ character is intended as a visual icon representing the Firefox
 # application menu.
-backup-file-other-browser-restore-step-2 = Start { -brand-short-name }, open the application menu ☰ and go to Settings > Sync
-backup-file-other-browser-restore-step-3 = Click “Choose backup file” and select this file
-backup-file-other-browser-restore-step-4 = Restart { -brand-short-name } when asked
+backup-file-other-browser-restore-step-2 = { -brand-short-name } を起動してアプリケーションメニュー ☰ を開き、設定 > 同期に移動
+backup-file-other-browser-restore-step-3 = @@[@@バックアップファイルを選択@@]@@ をクリックして、このファイルを選択
+backup-file-other-browser-restore-step-4 = 表示に従って { -brand-short-name } を再起動
 
 ## These strings are used in the about:restore and about:welcome pages
 ## These pages guide the user on browser startup to help them restore a backup
@@ -225,12 +225,8 @@ backup-file-other-browser-restore-step-4 = Restart { -brand-short-name } when as
 
 # Variables:
 # $numberOfOtherBackupsFound (number) - The number of backups found other than the displayed default backup
-other-backup-files-founds =
-    { $numberOfOtherBackupsFound ->
-        [one] <b>Note:</b> { $numberOfOtherBackupsFound } other backup file found
-       *[other] <b>Note:</b> { $numberOfOtherBackupsFound } other backup files found
-    }
+other-backup-files-founds = <b>注意:</b> 他に { $numberOfOtherBackupsFound } 個のバックアップファイルがあります
 # Variables:
 #   $date (Datetime) - The date the backup was created
 #   $machineName (String) - Name of the machine that the backup was created on.
-backup-file-creation-date-and-device = Created on { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } on { $machineName }
+backup-file-creation-date-and-device = { $machineName } 上で { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } に作成
