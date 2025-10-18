@@ -462,6 +462,66 @@ sync-to-mobile-button-label = モバイル端末と同期
 desktop-to-mobile-qr-code-alt =
     .aria-label = モバイル版 { -brand-product-name } のダウンロード用 QR コード
 
+## Fx Backup onboarding: Create Backup spotlight
+
+create-backup-screen-1-title =
+    Upgrading to Windows 11?
+    Let’s back up your { -brand-product-name } data.(^^k
+create-backup-screen-1-subtitle = Automatically protect your passwords, bookmarks, and more in 1–2 minutes.(^^k
+create-backup-screen-1-flair = Recommended(^^k
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">Learn more</a>(^^k
+create-backup-screen-1-sync-label = Sync with { -brand-product-name }(^^k
+create-backup-screen-1-sync-body = Backs up all signed in devices(^^k
+create-backup-screen-1-backup-label = Back up to PC(^^k
+create-backup-screen-1-backup-body = Saves to your device or OneDrive(^^k
+create-backup-select-tile-button-label = Select(^^k
+create-backup-back-button-label = Back(^^k
+create-backup-show-fewer =
+    .label = Show fewer like this(^^k
+create-backup-screen-2-title = Choose { -brand-product-name } data to back up(^^k
+create-backup-screen-2-subtitle = Only takes a minute. Your data is backed up once a day.(^^k
+# Label for the "Easy setup" backup option
+create-backup-screen-2-easy-label = Easy setup(^^k
+# Preceded by a green check mark indicating that these are included in "Easy setup" backup
+create-backup-screen-2-easy-list-1 = Bookmarks, history, settings, and more(^^k
+# Preceded by a red X indicating that these are not included in the "Easy setup" backup
+create-backup-screen-2-easy-list-2 = Doesn’t include passwords and payments(^^k
+# Preceded by a red X indicating that "Easy setup" backups are not encrypted
+create-backup-screen-2-easy-list-3 = Not encrypted(^^k
+# Label for the "All data" backup option
+create-backup-screen-2-all-label = All data(^^k
+# Preceded by a green check mark indicating that these are included in the "All data" backup
+create-backup-screen-2-all-list-2 = Includes passwords and payments(^^k
+# Preceded by a green check mark and shield indicating "All data" backups are encrypted
+create-backup-screen-2-all-list-3 = Encrypted with a password(^^k
+# Title for a screen asking users to choose a file location
+create-backup-screen-3-location = Where do you want your backup saved?(^^k
+# Title for a screen asking users to create a password that will encrypt the backup
+create-backup-screen-3-title = Create a backup file password(^^k
+create-backup-screen-3-subtitle = Required to encrypt your data. Store it in a place you’ll remember.(^^k
+fx-backup-opt-in-header = Choose file location(^^k
+fx-backup-opt-in-filepath-label = Pick a place you plan to transfer to a new device, like OneDrive.(^^k
+fx-backup-opt-in-create-password-label = Enter password(^^k
+fx-backup-opt-in-confirm-btn-label = Continue(^^k
+fx-backup-opt-in-cancel-btn-label = Back(^^k
+
+## Fx Backup confirmation screen strings
+
+fx-backup-confirmation-screen-title = Your backup is scheduled(^^k
+fx-backup-confirmation-screen-close-button = Close(^^k
+
+## These strings appear as a confirmation of which items will or won't be included as part of the selected backup method.
+
+fx-backup-confirmation-screen-all-data-item-text-1 = All browsing data included(^^k
+fx-backup-confirmation-screen-all-data-item-text-2 = Saved to your device(^^k
+fx-backup-confirmation-screen-all-data-item-text-3 = Encrypted and password protected(^^k
+fx-backup-confirmation-screen-easy-setup-item-text-1 = Bookmarks, history, settings, and other data included(^^k
+fx-backup-confirmation-screen-easy-setup-item-text-2 = Saved to your device(^^k
+fx-backup-confirmation-screen-easy-setup-item-text-3 = Passwords and payments not included(^^k
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = Go to <a data-l10n-name="settings">Settings</a> to include sensitive data.(^^k
+fx-backup-confirmation-screen-item-subtext-1 = Your backup will start in a few minutes and will run once a day. You can check progress in <a data-l10n-name="settings">Settings</a>.(^^k
+fx-backup-confirmation-screen-item-subtext-2 = { -brand-short-name } will look for your backup if you need to reinstall.(^^k
+
 ## Restore from Backup Flow about:welcome screens
 
 restore-from-backup-secondary-top-button = バックアップから復元
@@ -480,3 +540,17 @@ restored-from-backup-success-no-checklist-primary-button = 続ける
 restored-from-backup-error-title = 申し訳ありません。バックアップファイルに問題があるようです。
 restored-from-backup-error-subtitle = 別の { -brand-short-name } バックアップファイルがあれば、それで復元を試してください。<a data-l10n-name="restore-problems">まだ問題がある場合はこちら</a>。
 restored-from-backup-error-primary-button = 閉じる
+
+## Onboarding Personalization Screen
+## A screen shown to users during the onboarding process that asks them two qualifying questions about their use of the browser
+
+onboarding-personalization-title = Customize your { -brand-short-name } experience(^^k
+onboarding-personalization-subtitle = Answer a few questions and we’ll recommend features and extensions to enhance your use of { -brand-short-name }.(^^k
+onboarding-personalization-use-case-title = What will you use { -brand-short-name } for?(^^k
+onboarding-personalization-use-case-personal-option = Personal(^^k
+onboarding-personalization-use-case-school-option = School(^^k
+onboarding-personalization-use-case-work-option = Work(^^k
+onboarding-personalization-motivation-title = Which features of { -brand-short-name } are the most important to you?(^^k
+onboarding-personalization-motivation-privacy-option = Privacy and Security(^^k
+onboarding-personalization-motivation-productivity-option = Productivity(^^k
+onboarding-personalization-motivation-other-option = Other(^^k

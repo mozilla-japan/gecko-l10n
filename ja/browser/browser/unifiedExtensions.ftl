@@ -11,6 +11,15 @@
 unified-extensions-header-title = 拡張機能
 unified-extensions-manage-extensions =
     .label = 拡張機能を管理
+unified-extensions-discover-extensions =
+    .label = Discover extensions(^^k
+unified-extensions-empty-reason-private-browsing-not-allowed = You have extensions installed, but not enabled in private windows(^^k
+unified-extensions-empty-reason-extension-not-enabled = You have extensions installed, but not enabled(^^k
+# In this headline, “Level up” means to enhance your browsing experience.
+unified-extensions-empty-reason-zero-extensions-onboarding = Level up your browsing with extensions(^^k
+unified-extensions-empty-content-explain-enable = Select “{ unified-extensions-item-message-manage }” to enable them in settings.(^^k
+unified-extensions-empty-content-explain-manage = Select “{ unified-extensions-item-message-manage }” to manage them in settings.(^^k
+unified-extensions-empty-content-explain-extensions-onboarding = Personalize { -brand-short-name } by changing how it looks and performs or boosting privacy and safety.(^^k
 
 ## An extension in the main list
 

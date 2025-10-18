@@ -1463,8 +1463,6 @@ trustpanel-clear-cookies-subview-button-cancel = キャンセル
 #  $host (String): the hostname of the site that is being displayed.
 trustpanel-site-information-header =
     .title = { $host } への接続の保護
-trustpanel-connection-secure = このサイトとの接続は安全です。
-trustpanel-connection-not-secure = このサイトとの接続は安全ではありません。
 trustpanel-siteinformation-morelink = サイトの詳細情報
 trustpanel-blocker-see-all = すべて表示
 # Variables
