@@ -165,9 +165,6 @@ briefcase-avatar-alt =
     .alt = かばん
 picture-avatar-alt =
     .alt = 写真
-# Canvas refers to an artist's painting canvas, not the general material
-canvas-avatar-alt =
-    .alt = キャンバス
 # Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
 craft-avatar-alt =
     .alt = クラフト
@@ -183,8 +180,6 @@ heart-rate-avatar-alt =
     .alt = 心拍数
 clock-avatar-alt =
     .alt = 時計
-history-avatar-alt =
-    .alt = 歴史
 leaf-avatar-alt =
     .alt = 葉っぱ
 lightbulb-avatar-alt =
@@ -209,8 +204,6 @@ shopping-avatar-alt =
     .alt = 買い物かご
 soccer-ball-avatar-alt =
     .alt = サッカーボール
-soccer-avatar-alt =
-    .alt = サッカー
 sparkle-single-avatar-alt =
     .alt = きらめき
 star-avatar-alt =
@@ -222,9 +215,6 @@ custom-avatar-alt =
 # Globe refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
 globe-avatar-alt =
     .alt = 地球
-# Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
-default-favicon-avatar-alt =
-    .alt = @@Default-@@ファビコン
 # Diamond refers to the precious stone, not the geometric shape
 diamond-avatar-alt =
     .alt = ダイヤモンド
@@ -238,13 +228,9 @@ bike-avatar-alt =
 book-avatar = 本
 briefcase-avatar = かばん
 clock-avatar = 時計
-# Canvas refers to an artist's painting canvas, not the general material
-canvas-avatar = キャンバス
 # Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
 craft-avatar = クラフト
 custom-avatar = カスタムアバター
-# Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
-default-favicon-avatar = @@Default-@@ファビコン
 # Diamond refers to the precious stone, not the geometric shape
 diamond-avatar = ダイヤモンド
 flower-avatar = 花
@@ -254,7 +240,6 @@ globe-avatar = 地球
 hammer-avatar = ハンマー
 heart-avatar = ハート
 heart-rate-avatar = 心拍数
-history-avatar = 歴史
 leaf-avatar = 葉っぱ
 lightbulb-avatar = 電球
 makeup-avatar = 化粧
@@ -269,7 +254,6 @@ plane-avatar = 飛行機
 present-avatar = プレゼント
 shopping-avatar = 買い物かご
 soccer-ball-avatar = サッカーボール
-soccer-avatar = サッカー
 sparkle-single-avatar = きらめき
 star-avatar = 星
 video-game-controller-avatar = ゲームのコントローラー
@@ -281,6 +265,10 @@ custom-avatar-crop-area =
     .aria-label = 切り抜き位置を調整
 custom-avatar-drag-handle =
     .aria-label = 切り抜きサイズを変更
+profiles-appmenu-callout-tour-title = @@New-CMD@@プロファイルの準備ができています
+# "Spin up another" means creating another profile, “Hop between your digital lives" is referring to switching between different profiles such as work, personal, etc.
+profiles-appmenu-callout-tour-subtitle = メニュー ☰ からプロファイル名をクリックすると、@@New-CMD@@プロファイルを作成したり、このプロファイルを編集したり、別のプロファイルに移動したりできます。
+profiles-appmenu-callout-tour-primary-button = 方法を確認
 barbell-avatar = バーベル
 bike-avatar = バイク
 

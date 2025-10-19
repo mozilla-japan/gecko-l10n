@@ -11,6 +11,15 @@
 unified-extensions-header-title = 拡張機能
 unified-extensions-manage-extensions =
     .label = 拡張機能を管理
+unified-extensions-discover-extensions =
+    .label = 拡張機能を探す
+unified-extensions-empty-reason-private-browsing-not-allowed = 拡張機能がインストールされていますが、プライベート@@Window@@では無効になっています。
+unified-extensions-empty-reason-extension-not-enabled = 拡張機能はインストールされていますが、無効になっています。
+# In this headline, “Level up” means to enhance your browsing experience.
+unified-extensions-empty-reason-zero-extensions-onboarding = 拡張機能でブラウザーをレベルアップ
+unified-extensions-empty-content-explain-enable = @@[@@{ unified-extensions-item-message-manage }@@]@@ から拡張機能を有効にできます
+unified-extensions-empty-content-explain-manage = @@[@@{ unified-extensions-item-message-manage }@@]@@ から拡張機能を管理できます
+unified-extensions-empty-content-explain-extensions-onboarding = 見た目や動作を変更したり、プライバシーやセキュリティを強化したりして、{ -brand-short-name } をパーソナライズしませんか？
 
 ## An extension in the main list
 

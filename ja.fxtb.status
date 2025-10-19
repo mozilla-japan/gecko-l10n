@@ -180,5 +180,5 @@ fxsrc | browser, dom, toolkit    2663247c (2025-09-26)  kazushi      sync browse
 [l10n-mozilla-145.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
-fxsrc | browser                  4e01a75a (2025-10-15)  kazushi      browser/browser/backupSettings.ftl のみ
+fxsrc | browser                  dc82a74e (2025-10-16)  kazushi      sync browser
 

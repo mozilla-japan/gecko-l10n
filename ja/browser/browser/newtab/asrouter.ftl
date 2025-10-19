@@ -222,6 +222,22 @@ fox-doodle-pin-secondary = 後で
 set-default-pdf-handler-headline = <strong>PDF ファイルを { -brand-short-name } で開くように関連付けられます。</strong> ブラウザー内で編集または署名ができます。動作を変更するには、設定で “PDF” を検索してください。
 set-default-pdf-handler-primary = 了解
 
+## PDF Annotations strings
+
+# “Sign on the dotted line” is an idiomatic English expression about
+# where to place your signature.
+# If this expression doesn’t have a direct translation, please
+# translate this alternative string: "Add your signature anywhere!"
+annotations-default-pdf-handler-headline = 好きなところに署名しましょう！
+# “Go-to” is an idiomatic English expression referring to something that is used often.
+annotations-default-pdf-handler-body = 手書き、タイプ、署名の画像を任意の場所に配置できます。次のステップでいつもの署名を保存してください。
+annotations-make-default-pdf-handler-title = { -brand-short-name } を@@Default@@の PDF エディターにしませんか？
+annotations-make-default-pdf-handler-subtitle = PDF を開くと常に、{ -brand-short-name } のツールを使用できるようになります。
+annotations-make-default-pdf-primary-cta =
+    .label = @@Default@@に設定
+annotations-make-default-pdf-next =
+    .label = 次へ
+
 ## FxA sync CFR
 
 fxa-sync-cfr-header = 未来の新しい端末？

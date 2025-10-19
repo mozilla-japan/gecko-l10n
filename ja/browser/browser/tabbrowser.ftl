@@ -218,9 +218,7 @@ tabbrowser-manager-current-window-tab-group =
     .label = { $tabGroupName }
     .tooltiptext = { $tabGroupName } — 現在の@@Window@@
 
-## Variables:
-##  $tabGroupName (String): The name of the tab group. Defaults to the value
-##                          of tab-group-name-default.
+##
 
 tab-group-editor-title-create = タブグループを作成
 tab-group-editor-title-edit = タブグループの管理
@@ -253,9 +251,17 @@ tab-group-editor-color-selector2-red = 赤
 tab-group-description = { $tabGroupName } — タブグループ
 tab-group-label-tooltip-collapsed = { $tabGroupName } — 折りたたみ
 tab-group-label-tooltip-expanded = { $tabGroupName } — 展開
+tab-group-preview-name =
+    .aria-label = グループ内のタブ
 tab-context-unnamed-group =
     .label = 無名のグループ
 tab-group-name-default = 無名のグループ
+
+## When collapsed, the tab group label's aria-description will indicate
+## whether the hover menu is open or closed.
+
+tab-group-preview-open-description = タブ一覧が開いています
+tab-group-preview-closed-description = タブ一覧が閉じています
 
 ##
 
@@ -330,3 +336,22 @@ tab-group-context-open-saved-group-in-this-window =
 # open the tab group in that window.
 tab-group-context-open-saved-group-in-new-window =
     .label = グループを@@NewWindow@@で開く
+
+## Split View
+
+# Split view tabs display their respective contents side by side
+# Displayed within the tooltip on tabs inside of a tab split view
+tabbrowser-tab-label-tab-split-view = 分割ビュー
+# Open a new tab next to the current tab and display their contents side by side
+tab-context-add-split-view =
+    .label = 分割ビューを追加
+    .accesskey = t
+# Display the two selected tabs' contents side by side
+tab-context-open-in-split-view =
+    .label = 分割ビューで開く
+    .accesskey = t
+# Separate the two split view tabs and display the tabs and their contents as normal
+tab-context-separate-split-view =
+    .label = 分割ビューを終了
+    .accesskey = t
+tab-context-badge-new = 新機能

@@ -149,6 +149,11 @@ windows-10-eos-sync-split-dismiss-button-show-fewer-option =
 windows-10-eos-sync-dismiss-button-label = 閉じる
 windows-10-eos-sync-callout-primary-advance-button-label = 次へ
 
+## Link Preview Onboarding message callout strings
+
+link-preview-onboarding-callout-title = 新機能: リンクを長押ししてプレビュー
+link-preview-onboarding-callout-description = 概要や読了時間などを確認して、リンクにクリックする価値があるか確認できます。右クリックからも選択できます。
+
 ## Sidebar Strings
 
 sidebar-button-callout-title = タブのタイトルをサイドバーに表示する
