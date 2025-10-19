@@ -8,5 +8,5 @@
 # There was some error in the backup service but we don't have a more specific
 # idea of what went wrong
 backup-service-error-went-wrong =
-    .heading = Something went wrong(^^k
-    .message = There was a problem with the backup process for { -brand-short-name }. Please try again or restart { -brand-short-name }.(^^k
+    .heading = 問題が発生しました
+    .message = { -brand-short-name }のバックアップ中に問題が発生しました。再度試すか、{ -brand-short-name } を再起動してください。

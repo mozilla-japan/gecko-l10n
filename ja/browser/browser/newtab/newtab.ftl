@@ -433,7 +433,7 @@ feature-highlight-wallpaper =
 
 ## Firefox
 
-newtab-wallpaper-category-title-firefox = { -brand-product-name }(^^k
+newtab-wallpaper-category-title-firefox = { -brand-product-name }
 
 ## Celestial
 
@@ -476,16 +476,16 @@ newtab-weather-menu-change-temperature-units-fahrenheit = ファーレンハイ�
 newtab-weather-menu-change-temperature-units-celsius = セルシウス度に切り替える
 newtab-weather-menu-hide-weather = @@NewTab@@の天気表示を隠す
 newtab-weather-menu-learn-more = 詳細情報
-newtab-weather-menu-detect-my-location = Detect my location(^^k
+newtab-weather-menu-detect-my-location = 現在地を検出
 # This message is shown if user is working offline
 newtab-weather-error-not-available = 現在、天気データが利用できません。
-newtab-weather-opt-in-see-weather = Do you want to see the weather for your location?(^^k
+newtab-weather-opt-in-see-weather = 現在地の天気を表示しますか？
 newtab-weather-opt-in-not-now =
-    .label = Not now(^^k
+    .label = 後で
 newtab-weather-opt-in-yes =
-    .label = Yes(^^k
+    .label = はい
 # We'll be showing static (fake) weather data if the user has not opted in to using their location
-newtab-weather-static-city = New York City(^^k
+newtab-weather-static-city = ニューヨーク
 
 ## Topic Labels
 
@@ -674,9 +674,8 @@ newtab-widget-timer-mode-focus =
     .label = 集中
 newtab-widget-timer-mode-break =
     .label = 休憩
-# タイマーなので開始の方がよい？(^^k
 newtab-widget-timer-label-play =
-    .label = 再生
+    .label = 開始
 newtab-widget-timer-label-pause =
     .label = 一時停止
 newtab-widget-timer-reset =

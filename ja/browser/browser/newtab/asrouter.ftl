@@ -228,15 +228,15 @@ set-default-pdf-handler-primary = 了解
 # where to place your signature.
 # If this expression doesn’t have a direct translation, please
 # translate this alternative string: "Add your signature anywhere!"
-annotations-default-pdf-handler-headline = Sign on the dotted line — or anywhere!(^^k
+annotations-default-pdf-handler-headline = 好きなところに署名しましょう！
 # “Go-to” is an idiomatic English expression referring to something that is used often.
-annotations-default-pdf-handler-body = Draw, type, or upload your signature, then place it exactly where you want. Save your go-to signatures for next time.(^^k
-annotations-make-default-pdf-handler-title = Make { -brand-short-name } your default PDF editor?(^^k
-annotations-make-default-pdf-handler-subtitle = You’ll have access to our tools every time you open a PDF.(^^k
+annotations-default-pdf-handler-body = 手書き、タイプ、署名の画像を任意の場所に配置できます。次のステップでいつもの署名を保存してください。
+annotations-make-default-pdf-handler-title = { -brand-short-name } を@@Default@@の PDF エディターにしませんか？
+annotations-make-default-pdf-handler-subtitle = PDF を開くと常に、{ -brand-short-name } のツールを使用できるようになります。
 annotations-make-default-pdf-primary-cta =
-    .label = Set as default(^^k
+    .label = @@Default@@に設定
 annotations-make-default-pdf-next =
-    .label = Next(^^k
+    .label = 次へ
 
 ## FxA sync CFR
 

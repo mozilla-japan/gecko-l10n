@@ -265,10 +265,10 @@ custom-avatar-crop-area =
     .aria-label = 切り抜き位置を調整
 custom-avatar-drag-handle =
     .aria-label = 切り抜きサイズを変更
-profiles-appmenu-callout-tour-title = Your new profile is good to go(^^k
+profiles-appmenu-callout-tour-title = @@New-CMD@@プロファイルの準備ができています
 # "Spin up another" means creating another profile, “Hop between your digital lives" is referring to switching between different profiles such as work, personal, etc.
-profiles-appmenu-callout-tour-subtitle = In the ☰ menu, tap your profile name to spin up another, edit this one, or hop between your digital lives.(^^k
-profiles-appmenu-callout-tour-primary-button = Show me how(^^k
+profiles-appmenu-callout-tour-subtitle = メニュー ☰ からプロファイル名をクリックすると、@@New-CMD@@プロファイルを作成したり、このプロファイルを編集したり、別のプロファイルに移動したりできます。
+profiles-appmenu-callout-tour-primary-button = 方法を確認
 barbell-avatar = バーベル
 bike-avatar = バイク
 

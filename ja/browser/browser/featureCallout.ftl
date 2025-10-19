@@ -151,8 +151,8 @@ windows-10-eos-sync-callout-primary-advance-button-label = 次へ
 
 ## Link Preview Onboarding message callout strings
 
-link-preview-onboarding-callout-title = New: Click and hold to preview links(^^k
-link-preview-onboarding-callout-description = See a short description, reading time, and more to decide if a link is worth the click. Also available on right-click.(^^k
+link-preview-onboarding-callout-title = 新機能: リンクを長押ししてプレビュー
+link-preview-onboarding-callout-description = 概要や読了時間などを確認して、リンクにクリックする価値があるか確認できます。右クリックからも選択できます。
 
 ## Sidebar Strings
 
