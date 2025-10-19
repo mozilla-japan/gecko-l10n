@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = ダークメッセージモードを無効にします
 dark-message-mode-toggle-disabled =
     .title = ダークメッセージモードを有効にします
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } thinks this message is spam.(^^k
+message-bar-not-spam-button =
+    .label = Not Spam(^^k
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = Learn more…(^^k
+    .accesskey = L

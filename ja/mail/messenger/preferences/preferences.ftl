@@ -47,6 +47,7 @@ compose-html-style-title = HTML スタイル
 composition-addressing-header = アドレス入力
 privacy-main-header = プライバシー
 privacy-passwords-header = パスワード
+privacy-spam-header = Spam(^^k
 privacy-junk-header = 迷惑メール
 collection-header = { -brand-short-name } のデータ収集と利用について
 collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
@@ -629,6 +630,32 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = 現在 FIPS モードです。FIPS は空でないマスターパスワードを必要とします。
 forms-master-pw-fips-desc = パスワードを変更できませんでした
+spam-description = Set your default spam settings. Account-specific spam settings can be configured in Account Settings.(^^k
+spam-marked-label =
+    .label = When messages are marked as spam:(^^k
+    .accesskey = W
+spam-move-label =
+    .label = Move them to the account’s “Spam” folder(^^k
+    .accesskey = o
+spam-delete-label =
+    .label = Delete them(^^k
+    .accesskey = D
+spam-read-description = Mark messages as read(^^k
+spam-read-manual-label =
+    .label = When manually marked as spam(^^k
+    .accesskey = M
+spam-read-auto-label =
+    .label = When { -brand-short-name } determines that they are spam(^^k
+    .accesskey = T
+spam-log-label =
+    .label = Enable adaptive spam filter logging(^^k
+    .accesskey = E
+spam-log-button =
+    .label = Show log(^^k
+    .accesskey = S
+reset-spam-button =
+    .label = Reset Training Data(^^k
+    .accesskey = R
 junk-description = @@Default-@@迷惑メールフィルターの動作を設定します。アカウントごとの迷惑メールフィルターの設定は @@[@@アカウント設定@@]@@ で行います。
 junk-marked-label =
     .label = 迷惑マークが付いたときに次の処理を実行する:
@@ -695,6 +722,66 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     自動的な決定は、メッセージの作成中に暗号を手動で有効または無効にすることで上書きされます。
     注記: 暗号化されたメッセージに返信する場合、暗号が常に自動的に有効になります。
+
+## DoH Section
+
+preferences-doh-header = DNS over HTTPS(^^k
+preferences-doh-description = Domain Name System (DNS) over HTTPS sends your request for a domain name through an encrypted connection, providing a secure DNS and making it harder for others to see which website you’re about to access.(^^k
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }(^^k
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Provider: { $name }(^^k
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Invalid URL(^^k
+preferences-doh-steering-status = Using local provider(^^k
+preferences-doh-status-active = Active(^^k
+preferences-doh-status-disabled = Off(^^k
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Not active ({ $reason })(^^k
+preferences-doh-group-message = Enable DNS over HTTPS using:(^^k
+preferences-doh-expand-section =
+    .tooltiptext = More information(^^k
+preferences-doh-setting-default =
+    .label = Default Protection(^^k
+    .accesskey = D
+preferences-doh-default-desc = { -brand-short-name } decides when to use secure DNS to protect your privacy.(^^k
+preferences-doh-default-detailed-desc-1 = Use secure DNS in regions where it’s available(^^k
+preferences-doh-default-detailed-desc-2 = Use your default DNS resolver if there is a problem with the secure DNS provider(^^k
+preferences-doh-default-detailed-desc-3 = Use a local provider, if possible(^^k
+preferences-doh-default-detailed-desc-4 = Turn off when VPN, parental control, or enterprise policies are active(^^k
+preferences-doh-default-detailed-desc-5 = Turn off when a network tells { -brand-short-name } it shouldn’t use secure DNS(^^k
+preferences-doh-setting-enabled =
+    .label = Increased Protection(^^k
+    .accesskey = I
+preferences-doh-enabled-desc = You control when to use secure DNS and choose your provider.(^^k
+preferences-doh-enabled-detailed-desc-1 = Use the provider you select(^^k
+preferences-doh-enabled-detailed-desc-2 = Only use your default DNS resolver if there is a problem with secure DNS(^^k
+preferences-doh-setting-strict =
+    .label = Max Protection(^^k
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } will always use secure DNS. You’ll see a security risk warning before we use your system DNS.(^^k
+preferences-doh-strict-detailed-desc-1 = Only use the provider you select(^^k
+preferences-doh-strict-detailed-desc-2 = Always warn if secure DNS isn’t available(^^k
+preferences-doh-strict-detailed-desc-3 = If secure DNS is not available sites will not load or function properly(^^k
+preferences-doh-setting-off =
+    .label = Off(^^k
+    .accesskey = O
+preferences-doh-off-desc = Use your default DNS resolver(^^k
+preferences-doh-checkbox-warn =
+    .label = Warn if a third party actively prevents secure DNS(^^k
+    .accesskey = W
+preferences-doh-select-resolver = Choose provider:(^^k
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Default)(^^k
+preferences-doh-url-custom =
+    .label = Custom(^^k
+    .accesskey = C
 
 ## Chat Tab
 

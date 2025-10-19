@@ -33,3 +33,7 @@ outgoing-server-section-name = 送信サーバー
 outgoing-server-settings-title = 送信サーバー設定
 outgoing-server-settings-description = 複数の差出人情報を管理している場合、使用する送信サーバーをこのリストから選択できます。@@[@@@@Default-@@サーバーを使用する@@]@@ を選択すると、このリストの@@Default-@@サーバーを使用します。
 outgoing-server-type = サーバーの種類:
+panel-settings-spam = Spam Settings(^^k
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Problem detected with the spam settings for { $account }. Would you like to review them before saving the changes?(^^k

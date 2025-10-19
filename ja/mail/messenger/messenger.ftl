@@ -131,6 +131,7 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Folder names
 
+folder-name-spam = Spam(^^k
 
 ## File Menu
 
@@ -203,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = アーカイブ
     .tooltiptext = アーカイブに移動します
+context-menu-mark-spam =
+    .aria-label = Mark as Spam(^^k
+    .tooltiptext = Mark as Spam(^^k
+context-menu-mark-not-spam =
+    .aria-label = Mark as not Spam(^^k
+    .tooltiptext = Mark as not Spam(^^k
 context-menu-mark-junk =
     .aria-label = 迷惑マークを付ける
     .tooltiptext = 迷惑マークを付けます
@@ -476,22 +483,49 @@ quota-panel-percent-used = { $percent }% 使用
 
 ## Sort menu.
 
+sort-by-spam-status =
+    .label = Spam Status(^^k
+    .accesskey = S
 
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = As Spam(^^k
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = As Not Spam(^^k
+    .accesskey = N
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Run Spam Controls(^^k
+    .accesskey = C
+menu-run-spam-on-folder =
+    .label = Run Spam Controls on Folder(^^k
+    .accesskey = C
+menu-delete-spam =
+    .label = Delete Mail Marked as Spam in Folder(^^k
+    .accesskey = D
 
 ## Folder pane context.
 
+folder-context-empty-spam =
+    .label = Empty Spam(^^k
+    .accesskey = S
 
 ## Thread pane.
 
+column-status-spam =
+    .label = Spam Status(^^k
+    .tooltiptext = Sort by spam status(^^k
 
 ## Message header.
 
+header-spam-button =
+    .label = Spam(^^k
+    .tooltiptext = Mark this message as spam(^^k
 
 ## Actions for the New Mail Notification
 
@@ -503,9 +537,29 @@ archive-action = アーカイブ
 
 ## Message list.
 
+message-flag-spam = Spam(^^k
+menuitem-label-spam =
+    .label = Spam(^^k
+menuitem-label-spam-score-origin =
+    .label = Spam Score Origin(^^k
+menuitem-label-spam-percentage =
+    .label = Spam Percent(^^k
+menuitem-label-spam-status =
+    .label = Spam Status(^^k
 
 ## Prompts
 
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Empty { $folder }?(^^k
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Delete all messages and subfolders in the { $folder } folder?(^^k
+prompt-dont-ask-again = Do not ask again.(^^k
 
 ## Spam commands
 
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Spam analysis { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } completed(^^k
+spam-processing-message = Processing spam messages(^^k
