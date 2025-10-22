@@ -131,7 +131,7 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Folder names
 
-folder-name-spam = Spam(^^k
+folder-name-spam = 迷惑メール
 
 ## File Menu
 
@@ -205,11 +205,11 @@ context-menu-archive =
     .aria-label = アーカイブ
     .tooltiptext = アーカイブに移動します
 context-menu-mark-spam =
-    .aria-label = Mark as Spam(^^k
-    .tooltiptext = Mark as Spam(^^k
+    .aria-label = 迷惑マークを付ける
+    .tooltiptext = 迷惑マークを付けます
 context-menu-mark-not-spam =
-    .aria-label = Mark as not Spam(^^k
-    .tooltiptext = Mark as not Spam(^^k
+    .aria-label = 迷惑マークを外す
+    .tooltiptext = 迷惑マークを外します
 context-menu-mark-junk =
     .aria-label = 迷惑マークを付ける
     .tooltiptext = 迷惑マークを付けます
@@ -484,48 +484,48 @@ quota-panel-percent-used = { $percent }% 使用
 ## Sort menu.
 
 sort-by-spam-status =
-    .label = Spam Status(^^k
+    .label = 迷惑マーク
     .accesskey = S
 
 ## Message menu.
 
 menu-mark-as-spam =
-    .label = As Spam(^^k
+    .label = 迷惑マークを付ける
     .accesskey = S
 mark-as-junk-key =
     .key = j
 menu-mark-not-spam =
-    .label = As Not Spam(^^k
+    .label = 迷惑マークを外す
     .accesskey = N
 mark-not-junk-key =
     .key = j
 menu-recalculate-spam-score =
-    .label = Run Spam Controls(^^k
+    .label = 迷惑メールフィルターを実行
     .accesskey = C
 menu-run-spam-on-folder =
-    .label = Run Spam Controls on Folder(^^k
+    .label = フォルダーに迷惑メールフィルターを実行
     .accesskey = C
 menu-delete-spam =
-    .label = Delete Mail Marked as Spam in Folder(^^k
+    .label = フォルダーの迷惑マークの付いたメールを削除
     .accesskey = D
 
 ## Folder pane context.
 
 folder-context-empty-spam =
-    .label = Empty Spam(^^k
+    .label = 迷惑メールフォルダーを空にする
     .accesskey = S
 
 ## Thread pane.
 
 column-status-spam =
-    .label = Spam Status(^^k
-    .tooltiptext = Sort by spam status(^^k
+    .label = 迷惑マーク
+    .tooltiptext = 迷惑マークの有無で並べ替えます
 
 ## Message header.
 
 header-spam-button =
-    .label = Spam(^^k
-    .tooltiptext = Mark this message as spam(^^k
+    .label = 迷惑マークを付ける
+    .tooltiptext = このメッセージに迷惑マークを付けます
 
 ## Actions for the New Mail Notification
 
@@ -537,29 +537,29 @@ archive-action = アーカイブ
 
 ## Message list.
 
-message-flag-spam = Spam(^^k
+message-flag-spam = 迷惑メール
 menuitem-label-spam =
-    .label = Spam(^^k
+    .label = 迷惑メール
 menuitem-label-spam-score-origin =
-    .label = Spam Score Origin(^^k
+    .label = 迷惑メールの判別元
 menuitem-label-spam-percentage =
-    .label = Spam Percent(^^k
+    .label = 迷惑メール確率
 menuitem-label-spam-status =
-    .label = Spam Status(^^k
+    .label = 迷惑マークの有無
 
 ## Prompts
 
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-title = Empty { $folder }?(^^k
+prompt-empty-folder-title = { $folder } を空にしますか？
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-message = Delete all messages and subfolders in the { $folder } folder?(^^k
-prompt-dont-ask-again = Do not ask again.(^^k
+prompt-empty-folder-message = { $folder } フォルダー内のすべてのメッセージとサブフォルダーを削除しますか？
+prompt-dont-ask-again = 今後は確認しない。
 
 ## Spam commands
 
 # Variables:
 # $percentage (Number) - The percentage of completion of the spam analysis.
-spam-analysis-percentage = Spam analysis { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } completed(^^k
-spam-processing-message = Processing spam messages(^^k
+spam-analysis-percentage = 迷惑メールの分析を { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 完了しました
+spam-processing-message = 迷惑メールを処理しています

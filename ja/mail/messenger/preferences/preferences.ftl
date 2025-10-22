@@ -47,7 +47,7 @@ compose-html-style-title = HTML スタイル
 composition-addressing-header = アドレス入力
 privacy-main-header = プライバシー
 privacy-passwords-header = パスワード
-privacy-spam-header = Spam(^^k
+privacy-spam-header = 迷惑メール
 privacy-junk-header = 迷惑メール
 collection-header = { -brand-short-name } のデータ収集と利用について
 collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
@@ -630,31 +630,31 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = 現在 FIPS モードです。FIPS は空でないマスターパスワードを必要とします。
 forms-master-pw-fips-desc = パスワードを変更できませんでした
-spam-description = Set your default spam settings. Account-specific spam settings can be configured in Account Settings.(^^k
+spam-description = @@Default-@@迷惑メールフィルターの動作を設定します。アカウントごとの迷惑メールフィルターの設定は @@[@@アカウント設定@@]@@ で行います。
 spam-marked-label =
-    .label = When messages are marked as spam:(^^k
+    .label = 迷惑マークが付いたときに次の処理を実行する:
     .accesskey = W
 spam-move-label =
-    .label = Move them to the account’s “Spam” folder(^^k
+    .label = “迷惑メール” フォルダーへ移動する
     .accesskey = o
 spam-delete-label =
-    .label = Delete them(^^k
+    .label = メッセージを削除する
     .accesskey = D
-spam-read-description = Mark messages as read(^^k
+spam-read-description = 次の時にメッセージを既読にします:
 spam-read-manual-label =
-    .label = When manually marked as spam(^^k
+    .label = 手動で迷惑マークを付けたとき
     .accesskey = M
 spam-read-auto-label =
-    .label = When { -brand-short-name } determines that they are spam(^^k
+    .label = { -brand-short-name } が迷惑メールと判断したとき
     .accesskey = T
 spam-log-label =
-    .label = Enable adaptive spam filter logging(^^k
+    .label = 迷惑メール適応フィルターのログを有効にする
     .accesskey = E
 spam-log-button =
-    .label = Show log(^^k
+    .label = ログを表示
     .accesskey = S
 reset-spam-button =
-    .label = Reset Training Data(^^k
+    .label = 判別基準データのリセット
     .accesskey = R
 junk-description = @@Default-@@迷惑メールフィルターの動作を設定します。アカウントごとの迷惑メールフィルターの設定は @@[@@アカウント設定@@]@@ で行います。
 junk-marked-label =
@@ -725,62 +725,62 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
-preferences-doh-header = DNS over HTTPS(^^k
-preferences-doh-description = Domain Name System (DNS) over HTTPS sends your request for a domain name through an encrypted connection, providing a secure DNS and making it harder for others to see which website you’re about to access.(^^k
+preferences-doh-header = DNS over HTTPS
+preferences-doh-description = Domain Name System (DNS) over HTTPS は暗号化された接続を通してドメイン名の要求を送信します。この安全な DNS によって、あなたがアクセスしようとしているウェブサイトを他者に知られないようにします。
 # Variables:
 #   $status (string) - The status of the DoH connection
-preferences-doh-status = Status: { $status }(^^k
+preferences-doh-status = 状態: { $status }
 # Variables:
 #   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
-preferences-doh-resolver = Provider: { $name }(^^k
+preferences-doh-resolver = プロバイダー: { $name }
 # This is displayed instead of $name in preferences-doh-resolver
 # when the DoH URL is not a valid URL
-preferences-doh-bad-url = Invalid URL(^^k
-preferences-doh-steering-status = Using local provider(^^k
-preferences-doh-status-active = Active(^^k
-preferences-doh-status-disabled = Off(^^k
+preferences-doh-bad-url = 不正な URL
+preferences-doh-steering-status = ローカルプロバイダーを使用中
+preferences-doh-status-active = 使用中
+preferences-doh-status-disabled = オフ
 # Variables:
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
-preferences-doh-status-not-active = Not active ({ $reason })(^^k
-preferences-doh-group-message = Enable DNS over HTTPS using:(^^k
+preferences-doh-status-not-active = 未使用 ({ $reason })
+preferences-doh-group-message = 次のレベルで安全な DNS を使用します:
 preferences-doh-expand-section =
-    .tooltiptext = More information(^^k
+    .tooltiptext = 詳細情報
 preferences-doh-setting-default =
-    .label = Default Protection(^^k
+    .label = @@Default@@の保護
     .accesskey = D
-preferences-doh-default-desc = { -brand-short-name } decides when to use secure DNS to protect your privacy.(^^k
-preferences-doh-default-detailed-desc-1 = Use secure DNS in regions where it’s available(^^k
-preferences-doh-default-detailed-desc-2 = Use your default DNS resolver if there is a problem with the secure DNS provider(^^k
-preferences-doh-default-detailed-desc-3 = Use a local provider, if possible(^^k
-preferences-doh-default-detailed-desc-4 = Turn off when VPN, parental control, or enterprise policies are active(^^k
-preferences-doh-default-detailed-desc-5 = Turn off when a network tells { -brand-short-name } it shouldn’t use secure DNS(^^k
+preferences-doh-default-desc = いつ安全な DNS を使用してユーザーのプライバシーを保護するかを { -brand-short-name } が決定します。
+preferences-doh-default-detailed-desc-1 = 利用可能な地域で安全な DNS を使用します
+preferences-doh-default-detailed-desc-2 = 安全な DNS プロバイダーで問題がある場合、@@Default-@@ DNS リゾルバーを使用します
+preferences-doh-default-detailed-desc-3 = 可能であればローカルプロバイダーを使用します
+preferences-doh-default-detailed-desc-4 = VPN やペアレンタルコントロール、エンタープライズポリシーが有効な場合はオフにします
+preferences-doh-default-detailed-desc-5 = ネットワークが { -brand-short-name } に安全な DNS を使用させない場合はオフにします
 preferences-doh-setting-enabled =
-    .label = Increased Protection(^^k
+    .label = 強力な保護
     .accesskey = I
-preferences-doh-enabled-desc = You control when to use secure DNS and choose your provider.(^^k
-preferences-doh-enabled-detailed-desc-1 = Use the provider you select(^^k
-preferences-doh-enabled-detailed-desc-2 = Only use your default DNS resolver if there is a problem with secure DNS(^^k
+preferences-doh-enabled-desc = いつ安全な DNS を使用するかをユーザーが制御し、DNS プロバイダーを指定できます
+preferences-doh-enabled-detailed-desc-1 = 選択された DNS プロバイダーを使用します
+preferences-doh-enabled-detailed-desc-2 = 安全な DNS で問題がある場合のみ、@@Default-@@ DNS リゾルバーを使用します
 preferences-doh-setting-strict =
-    .label = Max Protection(^^k
+    .label = 最大限の保護
     .accesskey = M
-preferences-doh-strict-desc = { -brand-short-name } will always use secure DNS. You’ll see a security risk warning before we use your system DNS.(^^k
-preferences-doh-strict-detailed-desc-1 = Only use the provider you select(^^k
-preferences-doh-strict-detailed-desc-2 = Always warn if secure DNS isn’t available(^^k
-preferences-doh-strict-detailed-desc-3 = If secure DNS is not available sites will not load or function properly(^^k
+preferences-doh-strict-desc = { -brand-short-name } は常に安全な DNS を使用します。ご使用のシステムの DNS が使用される前にセキュリティの危険性があることが警告されます。
+preferences-doh-strict-detailed-desc-1 = 選択された DNS プロバイダーのみを使用します
+preferences-doh-strict-detailed-desc-2 = 安全な DNS が利用できない場合、常に警告されます
+preferences-doh-strict-detailed-desc-3 = 安全な DNS が利用できない場合、サイトが読み込まれず正しく機能しません
 preferences-doh-setting-off =
-    .label = Off(^^k
+    .label = オフ
     .accesskey = O
-preferences-doh-off-desc = Use your default DNS resolver(^^k
+preferences-doh-off-desc = @@Default-@@ DNS リゾルバーを使用します
 preferences-doh-checkbox-warn =
-    .label = Warn if a third party actively prevents secure DNS(^^k
+    .label = 第三者が安全な DNS を妨げているときに警告する
     .accesskey = W
-preferences-doh-select-resolver = Choose provider:(^^k
+preferences-doh-select-resolver = プロバイダーを選択:
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
 preferences-doh-url-default =
-    .label = { $name } (Default)(^^k
+    .label = { $name } (@@Default@@)
 preferences-doh-url-custom =
-    .label = Custom(^^k
+    .label = カスタム
     .accesskey = C
 
 ## Chat Tab

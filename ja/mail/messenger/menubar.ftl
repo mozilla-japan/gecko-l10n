@@ -95,11 +95,11 @@ toolbar-undelete-button =
     .label = 削除を@@Undo@@
     .tooltiptext = 選択したメッセージの削除を@@Undo-si@@ます
 toolbar-spam-button =
-    .label = Spam(^^k
-    .tooltiptext = Mark the selected messages as spam(^^k
+    .label = 迷惑メール
+    .tooltiptext = 選択したメッセージに迷惑マークを付けます
 toolbar-not-spam-button =
-    .label = Not Spam(^^k
-    .tooltiptext = Mark the selected messages as not spam(^^k
+    .label = 非迷惑メール
+    .tooltiptext = 選択したメッセージの迷惑マークを外します
 
 ## View
 

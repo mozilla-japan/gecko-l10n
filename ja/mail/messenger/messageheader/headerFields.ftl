@@ -108,10 +108,10 @@ dark-message-mode-toggle-disabled =
 
 ## Spam filter
 
-message-bar-spam = { -brand-short-name } thinks this message is spam.(^^k
+message-bar-spam = このメッセージは迷惑メールであると思われます。
 message-bar-not-spam-button =
-    .label = Not Spam(^^k
+    .label = 非迷惑メール
     .accesskey = N
 message-bar-learn-more-button =
-    .label = Learn more…(^^k
+    .label = 詳細...
     .accesskey = L

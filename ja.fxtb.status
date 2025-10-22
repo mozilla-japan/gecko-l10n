@@ -181,4 +181,4 @@ fxsrc | browser, dom, toolkit    2663247c (2025-09-26)  kazushi      sync browse
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | browser                  dc82a74e (2025-10-16)  kazushi      sync browser
-tbsrc | mail                     88292615 (2025-10-09)  kazushi      sync mail 未翻訳(^^k
+tbsrc | mail                     88292615 (2025-10-09)  kazushi      sync mail
