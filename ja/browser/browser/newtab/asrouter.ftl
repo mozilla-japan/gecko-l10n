@@ -230,9 +230,9 @@ set-default-pdf-handler-primary = 了解
 # translate this alternative string: "Add your signature anywhere!"
 annotations-default-pdf-handler-headline = 好きなところに署名しましょう！
 # “Go-to” is an idiomatic English expression referring to something that is used often.
-annotations-default-pdf-handler-body = 手書き、タイプ、署名の画像を任意の場所に配置できます。次のステップでいつもの署名を保存してください。
-annotations-make-default-pdf-handler-title = { -brand-short-name } を@@Default@@の PDF エディターにしませんか？
-annotations-make-default-pdf-handler-subtitle = PDF を開くと常に、{ -brand-short-name } のツールを使用できるようになります。
+annotations-default-pdf-handler-body = ご自分の署名を手書き、入力またはアップロードしたら、任意の場所に配置してください。次回のために、よく使う署名を保存しておきましょう。
+annotations-make-default-pdf-handler-title = { -brand-short-name } を@@Default-@@ PDF エディターにしませんか？
+annotations-make-default-pdf-handler-subtitle = PDF を開くと毎回 { -brand-short-name } のツールが使用できるようになります。
 annotations-make-default-pdf-primary-cta =
     .label = @@Default@@に設定
 annotations-make-default-pdf-next =

@@ -471,15 +471,15 @@ create-backup-screen-1-subtitle = 1-2 分でパスワードやブックマーク
 create-backup-screen-1-flair = 推奨
 create-backup-learn-more-link = <a data-l10n-name="learn-more-label">詳細情報</a>
 create-backup-screen-1-sync-label = { -brand-product-name } と同期
-create-backup-screen-1-sync-body = ログインしているすべての端末をバックアップします
+create-backup-screen-1-sync-body = ログインしているすべての端末のデータをバックアップします
 create-backup-screen-1-backup-label = PC にバックアップ
-create-backup-screen-1-backup-body = 端末や OneDrive に保存します
+create-backup-screen-1-backup-body = 自分の端末または OneDrive に保存します
 create-backup-select-tile-button-label = 選択
 create-backup-back-button-label = 戻る
 create-backup-show-fewer =
     .label = このような表示を少なくする
 create-backup-screen-2-title = バックアップする { -brand-product-name } のデータを選択してください
-create-backup-screen-2-subtitle = 時間はかかりません。データは毎日 1 回バックアップされます
+create-backup-screen-2-subtitle = 時間はかかりません。データは 1 日 1 回バックアップされます
 # Label for the "Easy setup" backup option
 create-backup-screen-2-easy-label = 簡単セットアップ
 # Preceded by a green check mark indicating that these are included in "Easy setup" backup
@@ -512,14 +512,14 @@ fx-backup-confirmation-screen-close-button = 閉じる
 
 ## These strings appear as a confirmation of which items will or won't be included as part of the selected backup method.
 
-fx-backup-confirmation-screen-all-data-item-text-1 = すべての閲覧データが含みます
+fx-backup-confirmation-screen-all-data-item-text-1 = すべての閲覧データを含みます
 fx-backup-confirmation-screen-all-data-item-text-2 = 端末に保存します
 fx-backup-confirmation-screen-all-data-item-text-3 = 暗号化されパスワードで保護されます
-fx-backup-confirmation-screen-easy-setup-item-text-1 = ブックマーク、履歴、設定などのデータが含みます
+fx-backup-confirmation-screen-easy-setup-item-text-1 = ブックマーク、履歴、設定などのデータを含みます
 fx-backup-confirmation-screen-easy-setup-item-text-2 = 端末に保存します
 fx-backup-confirmation-screen-easy-setup-item-text-3 = パスワードと支払い方法は含みません
-fx-backup-confirmation-screen-easy-setup-item-subtext-3 = 機密性の高い情報は <a data-l10n-name="settings">設定</a> に移動して追加できます。
-fx-backup-confirmation-screen-item-subtext-1 = バックアップはあと数分で開始され、毎日 1 回実行されます。進捗状況は <a data-l10n-name="settings">設定</a> で確認できます。
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = 機密性の高い情報を含むには <a data-l10n-name="settings">設定</a> を開いてください。
+fx-backup-confirmation-screen-item-subtext-1 = バックアップはあと数分で開始され、1 日 1 回実行されます。進捗状況は <a data-l10n-name="settings">設定</a> で確認できます。
 fx-backup-confirmation-screen-item-subtext-2 = 再インストールが必要になった場合には、{ -brand-short-name } がバックアップを探します
 
 ## Restore from Backup Flow about:welcome screens
@@ -545,12 +545,12 @@ restored-from-backup-error-primary-button = 閉じる
 ## A screen shown to users during the onboarding process that asks them two qualifying questions about their use of the browser
 
 onboarding-personalization-title = { -brand-short-name } をカスタマイズしましょう
-onboarding-personalization-subtitle = 簡単な質問に回答すると、{ -brand-short-name } の使用体験を向上する機能や拡張機能をおすすめします。
-onboarding-personalization-use-case-title = { -brand-short-name } の用途は何ですか？
+onboarding-personalization-subtitle = いくつかの質問にご回答ください。 { -brand-short-name } を使いこなす、おすすめの機能と拡張機能を紹介します。
+onboarding-personalization-use-case-title = { -brand-short-name } を何のために使いますか？
 onboarding-personalization-use-case-personal-option = 個人
 onboarding-personalization-use-case-school-option = 学校
 onboarding-personalization-use-case-work-option = 仕事
 onboarding-personalization-motivation-title = { -brand-short-name } のどの機能を重視しますか？
 onboarding-personalization-motivation-privacy-option = プライバシーとセキュリティ
-onboarding-personalization-motivation-productivity-option = 効率
+onboarding-personalization-motivation-productivity-option = 生産性
 onboarding-personalization-motivation-other-option = その他

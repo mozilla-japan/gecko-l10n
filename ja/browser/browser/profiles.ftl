@@ -267,7 +267,7 @@ custom-avatar-drag-handle =
     .aria-label = 切り抜きサイズを変更
 profiles-appmenu-callout-tour-title = @@New-CMD@@プロファイルの準備ができています
 # "Spin up another" means creating another profile, “Hop between your digital lives" is referring to switching between different profiles such as work, personal, etc.
-profiles-appmenu-callout-tour-subtitle = メニュー ☰ からプロファイル名をクリックすると、@@New-CMD@@プロファイルを作成したり、このプロファイルを編集したり、別のプロファイルに移動したりできます。
+profiles-appmenu-callout-tour-subtitle = メニュー ☰ でプロファイル名をクリックすると、@@New-CMD@@プロファイルの作成やプロファイルの編集、別のプロファイルへの切り替えができます。
 profiles-appmenu-callout-tour-primary-button = 方法を確認
 barbell-avatar = バーベル
 bike-avatar = バイク
