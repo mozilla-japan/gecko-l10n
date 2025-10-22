@@ -167,6 +167,8 @@ ctrl-tab-recently-used-order =
 open-new-link-as-tabs =
     .label = @@NewWindow@@ではなく@@NewTab@@に開く
     .accesskey = w
+open-external-link-next-to-active-tab =
+    .label = アプリからのリンクを使用中のタブの隣に開く
 ask-on-close-multiple-tabs =
     .label = 同時に複数のタブを閉じる前に確認する
     .accesskey = m
@@ -1131,7 +1133,13 @@ history-clear-button =
 ## Privacy Section - Site Data
 
 sitedata-header = Cookie とサイトデータ
+sitedata-label =
+    .aria-label = { sitedata-header }
 sitedata-total-size-calculating = サイトデータとキャッシュのサイズを計算しています...
+# Variables:
+#   $value (number) - Value of the unit (for example: 4.6, 500)
+#   $unit (string) - Name of the unit (for example: "bytes", "KB")
+sitedata-total-size2 = 保存された Cookie、履歴、サイトデータ、キャッシュのディスク使用量は現在 <strong>{ $value } { $unit }</strong> です。
 # Variables:
 #   $value (number) - Value of the unit (for example: 4.6, 500)
 #   $unit (string) - Name of the unit (for example: "bytes", "KB")
@@ -1168,6 +1176,12 @@ sitedata-option-block-all-cross-site-cookies =
     .label = すべてのクロスサイト Cookie (ウェブサイトが動作しない可能性があります)
 sitedata-option-block-all =
     .label = すべての Cookie (ウェブサイトが動作しなくなります)
+sitedata-clear2 =
+    .label = ブラウジングデータを消去
+    .accesskey = l
+sitedata-settings2 =
+    .label = ブラウジングデータを管理
+    .accesskey = M
 sitedata-clear =
     .label = データを消去...
     .accesskey = l
@@ -1177,6 +1191,10 @@ sitedata-settings =
 sitedata-cookies-exceptions =
     .label = 例外を管理...
     .accesskey = x
+sitedata-cookies-exceptions2 =
+    .label = 例外を管理
+    .accesskey = x
+    .description = Cookie とサイトデータの使用を常に許可するウェブサイトと今後許可しないウェブサイトを指定できます。
 
 ## Privacy Section - Cookie Banner Handling
 
@@ -1535,7 +1553,6 @@ space-alert-over-5gb-settings-button =
     .accesskey = O
 space-alert-over-5gb-message2 = <strong>{ -brand-short-name } を実行するためのディスク領域が足りません。</strong>ウェブサイトが正しく表示されない可能性があります。@@[@@設定@@]@@ > @@[@@プライバシーとセキュリティ@@]@@ > @@[@@Cookie とサイトデータ@@]@@ から、保存されたデータを削除してください。
 space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行するためのディスク領域が足りません。</strong>ウェブサイトが正しく表示されない可能性があります。快適なブラウジングのために、@@[@@詳細情報@@]@@ のリンク先を読み、ディスク使用量を最適化してください。
-certs-description = { -brand-short-name } が認証に使用する証明書を設定します。
 certs-description2 =
     .label = 証明書
     .description = { -brand-short-name } が認証に使用する証明書を設定します。

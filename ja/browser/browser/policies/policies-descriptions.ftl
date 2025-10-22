@@ -21,6 +21,7 @@ policy-AutofillAddressEnabled = アドレスの自動入力を有効にします
 policy-AutofillCreditCardEnabled = 支払い方法の自動入力を有効にします。
 policy-AutoLaunchProtocolsFromOrigins = ユーザーに確認せずに、列挙された生成元から利用できる外部プロトコルのリストを定義します。
 policy-BackgroundAppUpdate2 = バックグラウンド更新を有効または無効にします。
+policy-Backup = プロファイルデータのバックアップと復元を無効にします。
 policy-BlockAboutAddons = アドオンマネージャー (about:addons) へのアクセスをブロックします。
 policy-BlockAboutConfig = about:config ページへのアクセスをブロックします。
 policy-BlockAboutProfiles = about:profiles ページへのアクセスをブロックします。
