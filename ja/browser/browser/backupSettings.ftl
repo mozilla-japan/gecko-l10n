@@ -26,7 +26,7 @@ settings-data-backup-in-progress-button = バックアップ中...
 settings-data-backup-scheduled-backups-on = バックアップ: 有効
 settings-data-backup-scheduled-backups-off = バックアップ: 無効
 settings-data-backup-scheduled-backups-description = ブックマークや履歴などのデータを自動的に保護します。<a data-l10n-name="support-link">詳細情報</a>
-settings-data-backup-last-backup-date =  最終バックアップ日時: { DATETIME($date, dateStyle: "short") } { DATETIME($date, timeStyle: "short") }
+settings-data-backup-last-backup-date = 最終バックアップ日時: { DATETIME($date, dateStyle: "short") } { DATETIME($date, timeStyle: "short") }
 # "Location" refers to the folder where backups are being written to.
 settings-data-backup-last-backup-location = バックアップ先
 settings-data-backup-last-backup-location-show-in-folder = フォルダーを開く
