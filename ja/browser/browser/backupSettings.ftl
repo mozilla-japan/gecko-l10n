@@ -164,7 +164,7 @@ change-backup-encryption-header = バックアップパスワードの変更
 password-rules-header = パスワードの要件
 password-rules-length-description = 8 文字以上
 password-rules-email-description = メールアドレスと一致しない
-password-rules-disclaimer = 安全のため、パスワードを再利用してはいけません。<a data-l10n-name="password-support-link">強力なパスワードを作成する</a>ためのヒントをご覧ください。
+password-rules-disclaimer = 安全のため、パスワードを再利用しないでください。<a data-l10n-name="password-support-link">強力なパスワードを作成する</a> ためのヒントをご覧ください。
 password-validity-has-email = メールアドレスは設定できません
 password-validity-do-not-match = パスワードが一致しません
 
