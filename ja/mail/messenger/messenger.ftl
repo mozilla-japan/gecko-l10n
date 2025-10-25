@@ -503,10 +503,10 @@ menu-recalculate-spam-score =
     .label = 迷惑メールフィルターを実行
     .accesskey = C
 menu-run-spam-on-folder =
-    .label = フォルダーに迷惑メールフィルターを実行
+    .label = 迷惑メールフィルターを実行
     .accesskey = C
 menu-delete-spam =
-    .label = フォルダーの迷惑マークの付いたメールを削除
+    .label = 迷惑マークの付いたメールを削除
     .accesskey = D
 
 ## Folder pane context.
@@ -555,7 +555,7 @@ prompt-empty-folder-title = { $folder } を空にしますか？
 # Variables:
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = { $folder } フォルダー内のすべてのメッセージとサブフォルダーを削除しますか？
-prompt-dont-ask-again = 今後は確認しない。
+prompt-dont-ask-again = 今後は確認しない
 
 ## Spam commands
 

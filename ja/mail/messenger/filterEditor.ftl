@@ -11,12 +11,12 @@ run-filter-before-spam =
 run-filter-after-spam =
     .label = 迷惑メール分類後に実行
 rule-action-set-spam-status =
-    .label = 迷惑メールかどうか設定する
+    .label = 迷惑マークの状態を設定する
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.
 # $date (String) - The date of the message.
-spam-message-detection-log = 迷惑メールを検出しました。差出人: { $author } 題名: { $subject } 日時: { $date }
+spam-message-detection-log = 迷惑メールを検出しました。差出人: { $author } 件名: { $subject } 日時: { $date }
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
