@@ -58,6 +58,8 @@ account-hub-protocol-label = プロトコル
 account-hub-hostname-label = ホスト名
 account-hub-result-hostname-label = ホスト名
     .title = ホスト名
+account-hub-result-socket-type-label = 接続の保護
+account-hub-on-port-label = ポート番号
 account-hub-result-authentication-label = 認証
     .title = 認証
 account-hub-port-label = ポート番号
@@ -65,7 +67,7 @@ account-hub-port-label = ポート番号
 account-hub-auto-description = 空欄は { -brand-short-name } が自動検出を試みます。
 account-hub-ssl-label = 接続の保護
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = 自動検出
@@ -76,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = 暗号化されたパスワード認証
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = なし
@@ -176,6 +178,7 @@ account-hub-port-error-text = ポート番号は 1 から 65535 までの間の�
 account-hub-username-error-text = ユーザー名が必要です
     .title = ユーザー名が必要です
 account-hub-oauth-pending = ログインポップアップで認証を待機しています...
+account-hub-addon-install-button = インストール
 account-hub-addon-install-needed = { -brand-short-name } 本体はこのサーバーに対応していません。Exchange メールにアクセスするには <a data-l10n-name="addon-install">Owl (有料) などサードパーティ製のアドオンをインストールしてください</a>。
 account-hub-addon-error = アドオンのインストールに失敗しました。もう一度試すか、アドオンの作者に問い合わせてください。
 account-hub-security-warning = <span data-l10n-name="security-warning">警告: 安全でないメールサーバーが検知されました。</span> このサーバーとの接続は暗号化されておらず、パスワードとデータが漏洩する危険性があります。安全な接続を行うように端末の管理者に伝えるか、危険性を承知の上で進んでください。<a data-l10n-name="faq-link">詳細は FAQ をご覧ください。</a>

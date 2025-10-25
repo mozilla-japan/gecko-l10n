@@ -131,6 +131,7 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Folder names
 
+folder-name-spam = 迷惑メール
 
 ## File Menu
 
@@ -203,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = アーカイブ
     .tooltiptext = アーカイブに移動します
+context-menu-mark-spam =
+    .aria-label = 迷惑マークを付ける
+    .tooltiptext = 迷惑マークを付けます
+context-menu-mark-not-spam =
+    .aria-label = 迷惑マークを外す
+    .tooltiptext = 迷惑マークを外します
 context-menu-mark-junk =
     .aria-label = 迷惑マークを付ける
     .tooltiptext = 迷惑マークを付けます
@@ -476,22 +483,49 @@ quota-panel-percent-used = { $percent }% 使用
 
 ## Sort menu.
 
+sort-by-spam-status =
+    .label = 迷惑マーク
+    .accesskey = S
 
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = 迷惑マークを付ける
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = 迷惑マークを外す
+    .accesskey = N
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = 迷惑メールフィルターを実行
+    .accesskey = C
+menu-run-spam-on-folder =
+    .label = 迷惑メールフィルターを実行
+    .accesskey = C
+menu-delete-spam =
+    .label = 迷惑マークの付いたメールを削除
+    .accesskey = D
 
 ## Folder pane context.
 
+folder-context-empty-spam =
+    .label = 迷惑メールフォルダーを空にする
+    .accesskey = S
 
 ## Thread pane.
 
+column-status-spam =
+    .label = 迷惑マーク
+    .tooltiptext = 迷惑マークの有無で並べ替えます
 
 ## Message header.
 
+header-spam-button =
+    .label = 迷惑マークを付ける
+    .tooltiptext = このメッセージに迷惑マークを付けます
 
 ## Actions for the New Mail Notification
 
@@ -503,9 +537,29 @@ archive-action = アーカイブ
 
 ## Message list.
 
+message-flag-spam = 迷惑メール
+menuitem-label-spam =
+    .label = 迷惑メール
+menuitem-label-spam-score-origin =
+    .label = 迷惑メールの判別元
+menuitem-label-spam-percentage =
+    .label = 迷惑メール確率
+menuitem-label-spam-status =
+    .label = 迷惑マークの有無
 
 ## Prompts
 
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } を空にしますか？
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = { $folder } フォルダー内のすべてのメッセージとサブフォルダーを削除しますか？
+prompt-dont-ask-again = 今後は確認しない
 
 ## Spam commands
 
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = 迷惑メールの分析を { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 完了しました
+spam-processing-message = 迷惑メールを処理しています
