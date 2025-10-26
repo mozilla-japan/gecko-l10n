@@ -290,6 +290,10 @@ appmenuitem-services-relay-description = メールマスクダッシュボード
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description = ユーザーのオンラインプライバシーを保護します
 appmenu-services-header = マイサービス
+# "Mozilla" is intentionally hardcoded to prevent forks from replacing it
+# with their own vendor name, since these tools are created and maintained by
+# Mozilla.
+appmenu-other-protection-header2 = Mozilla が提供する他の保護ツールをお試しください:
 appmenu-other-protection-header = { -vendor-short-name } が提供する他の保護ツールをお試しください:
 
 ## Profiles panel
