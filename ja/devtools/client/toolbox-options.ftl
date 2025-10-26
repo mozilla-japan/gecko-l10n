@@ -30,6 +30,10 @@ options-context-inspector = 調査
 options-show-user-agent-styles-label = ブラウザー CSS を表示
 options-show-user-agent-styles-tooltip =
     .title = このオプションを有効にすると、ブラウザーが読み込んだ@@Default-@@スタイルを表示します。
+# The label for the checkbox option to show all anonymous content
+options-show-user-agent-shadow-dom-label = ブラウザーの Shadow DOM を表示
+options-show-user-agent-shadow-dom-tooltip =
+    .title = このオプションを有効にすると、ブラウザーが保持している Shadow DOM 要素が表示されます
 # The label for the checkbox option to enable collapse attributes
 options-collapse-attrs-label = DOM 属性値を省略
 options-collapse-attrs-tooltip =
@@ -143,5 +147,7 @@ options-enable-service-workers-http-tooltip =
 options-source-maps-label = ソースマップを有効化
 options-source-maps-tooltip =
     .title = このオプションを有効にすると、ソースがツールにマッピングされます
-# The message shown for settings that trigger page reload
+# The message shown for settings that trigger page reload and will only apply to the current session
 options-context-triggers-page-refresh = * 現在のセッションのみ有効、ページを再読み込みします
+# The message shown for settings that trigger page reload
+options-context-triggers-page-refresh-persists = (このページを再読み込み)

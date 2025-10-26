@@ -36,6 +36,9 @@ certificate-viewer-key-size = 鍵サイズ
 certificate-viewer-inc-locality = 在籍地
 certificate-viewer-locality = 場所
 certificate-viewer-location = URL
+# Log is a noun meaning a record of events.
+certificate-viewer-log-name = ログ名
+# Log is a noun meaning a record of events.
 certificate-viewer-logid = ログ ID
 certificate-viewer-method = 方式
 certificate-viewer-modulus = 母数
