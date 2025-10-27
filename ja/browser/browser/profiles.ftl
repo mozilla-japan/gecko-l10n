@@ -26,12 +26,14 @@ profile-card =
 default-profile-name = プロファイル { $number }
 # The word 'original' is used in the sense that it is the initial or starting profile when you install Firefox.
 original-profile-name = 元のプロファイル
+default-desktop-shortcut-name = { -brand-short-name }
 edit-profile-page-title = プロファイルを編集
 edit-profile-page-header = プロファイルを編集
 edit-profile-page-profile-name-label = プロファイル名
 edit-profile-page-theme-header-2 =
     .label = テーマ
 edit-profile-page-explore-themes = 他のテーマを探す
+edit-profile-page-desktop-shortcut-header = デスクトップショートカットを作成
 edit-profile-page-avatar-header-2 =
     .label = アバター
 edit-profile-page-delete-button =
@@ -58,6 +60,10 @@ new-profile-page-input-placeholder =
     .placeholder = @@[@@仕事用@@]@@ @@[@@個人用@@]@@ のような名前を設定してください
 new-profile-page-done-button =
     .label = 編集を完了
+# Variables
+#   $profilename (String) - The name of the copied profile.
+copied-profile-page-header = { $profilename } のコピーのカスタマイズが準備できました
+copied-profile-page-header-description = 既存のデータと設定を@@New-CMD@@プロファイルにコピーしました。プロファイルに名前を付け、お好みのテーマを選んで設定してください。
 profile-window-title-2 = { -brand-short-name } - プロファイルの選択
 profile-window-logo =
     .alt = { -brand-short-name } ロゴ

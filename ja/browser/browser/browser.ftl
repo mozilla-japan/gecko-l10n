@@ -1427,7 +1427,7 @@ onboarding-aw-finish-setup-button =
     .label = セットアップ完了
     .tooltiptext = { -brand-short-name } のセットアップを完了します
 
-## The urlbar trust panel
+## The urlbar trust icon & panel
 
 trustpanel-etp-label-enabled = 強化型トラッキング防止はオンです
 trustpanel-etp-label-disabled = 強化型トラッキング防止はオフです
@@ -1469,6 +1469,13 @@ trustpanel-blocker-see-all = すべて表示
 #  $host (String): the hostname of the site that is being displayed.
 trustpanel-blocker-header =
     .title = { $host } におけるトラッキング防止
+
+## The urlbar trust icon & panel
+
+# LOCALIZATION NOTE (trustpanel-urlbar-notsecure-label):
+# Keep this string as short as possible, this is displayed in the URL bar
+# use a synonym for "safe" or "private" if "secure" is too long.
+urlbar-trust-icon-notsecure-label = 安全でない
 
 ## Variables
 ##  $count (String): the number of trackers blocked.

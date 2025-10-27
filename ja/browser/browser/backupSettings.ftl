@@ -21,8 +21,12 @@ backup-folder-name = { -brand-product-name } の復元
 backup-file-name = { -brand-product-name }Backup
 settings-data-backup-header = バックアップ
 settings-data-backup-toggle = バックアップを管理
+settings-data-backup-toggle-on = バックアップを有効にする
+settings-data-backup-toggle-off = バックアップを無効にする
 settings-data-backup-trigger-button = 今すぐバックアップ
 settings-data-backup-in-progress-button = バックアップ中...
+settings-data-backup-in-progress-message =
+    .message = バックアップ中...
 settings-data-backup-scheduled-backups-on = バックアップ: 有効
 settings-data-backup-scheduled-backups-off = バックアップ: 無効
 settings-data-backup-scheduled-backups-description = ブックマークや履歴などのデータを自動的に保護します。<a data-l10n-name="support-link">詳細情報</a>
@@ -143,9 +147,14 @@ backup-service-error-recovery-failed =
     .message = { -brand-short-name } を再起動してバックアップの復元を再度お試しください。
 # There was some error in the backup service but we don't have a more specific
 # idea of what went wrong
+backup-service-error-went-wrong2 =
+    .heading = バックアップ中に問題が発生しました。
+    .message = 数分後に再度試してください。
+# There was some error in the backup service but we don't have a more specific
+# idea of what went wrong
 backup-service-error-went-wrong =
     .heading = 問題が発生しました
-    .message = { -brand-short-name }のバックアップ中に問題が発生しました。再度試すか、{ -brand-short-name } を再起動してください。
+    .message = { -brand-short-name } のバックアップ中に問題が発生しました。再度試すか、{ -brand-short-name } を再起動してください。
 
 ## These strings are displayed in a modal when users want to enable encryption or change the password for an existing backup.
 

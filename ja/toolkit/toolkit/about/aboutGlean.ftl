@@ -121,6 +121,31 @@ about-glean-metrics-table-header-type = 型
 about-glean-metrics-table-header-value = 値
 # This message refers to the UI action buttons for a given metric.
 about-glean-metrics-table-header-actions = 操作
+about-glean-metrics-table-settings-button = 設定
+# Settings for the metrics table and its visualizations in about:glean
+about-glean-metrics-table-settings-title = メトリクス表の設定
+about-glean-metrics-table-settings-category-general = 一般
+about-glean-metrics-table-settings-hide-empty-value-rows = 値が空の列を隠す
+about-glean-metrics-table-settings-category-visualizations = 視覚的表示
+# This is a heading that is immediately followed by an example data visualization
+about-glean-metrics-table-settings-visualization-example = 表示例
+about-glean-metrics-table-settings-category-visualizations-histogram = ヒストグラム
+about-glean-metrics-table-settings-histograms-chart-max = チャートの最大高さ
+# The maximum height after to which the y-values on the chart will be scaled
+about-glean-metrics-table-settings-histograms-scaled-max = 拡大時の最大高さ
+about-glean-metrics-table-settings-histograms-box-padding = 柱の間隔
+about-glean-metrics-table-settings-histograms-chart-padding = チャート内の余白
+about-glean-metrics-table-settings-histograms-left-padding = 追加の左側余白
+about-glean-metrics-table-settings-category-visualizations-timeline = タイムライン
+about-glean-metrics-table-settings-timelines-height = 高さ
+about-glean-metrics-table-settings-timelines-width = 幅
+about-glean-metrics-table-settings-timelines-chart-padding = チャート内の余白
+# The radius of each circle denoting individual events recorded for an event metric
+about-glean-metrics-table-settings-timelines-circle-radius = 円の半径
+# The offset on the x-axis from the end of the horizontal line for the y-axis line
+about-glean-metrics-table-settings-timelines-vertical-line-x-offset = Y 軸の X オフセット値
+# The offset on the y-axis from the x-axis for the y-axis line
+about-glean-metrics-table-settings-timelines-vertical-line-y-offset = Y 軸の Y オフセット値
 # Label displayed near an input field that can be used to filter metrics
 about-glean-label-for-filter-metrics = 絞り込み
 # This message sits alongside an input field, further describing its purpose.
@@ -147,3 +172,10 @@ about-glean-enable-new-features-promo =
 about-glean-enable-new-features-button = 新機能を有効にする
 about-glean-disable-new-features-button = 新機能を無効にする
 about-glean-about-data-explanation = 収集したデータのリストの閲覧は、<a data-l10n-name="glean-dictionary-link">{ -glean-brand-name } Dictionary</a> で調べてください。
+
+## These labels are displayed to organize the different ping types within the dropdown.
+
+about-glean-ping-list-optgroup-built-in =
+    .label = 組み込み Ping
+about-glean-ping-list-optgroup-custom =
+    .label = カスタム Ping

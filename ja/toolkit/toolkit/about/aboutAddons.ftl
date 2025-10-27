@@ -170,6 +170,8 @@ extensions-warning-update-security-button = 有効化
 extensions-warning-imported-addons2 =
     .message = { -brand-short-name } に@@Import-sare@@た拡張機能のインストールを完了してください。
 extensions-warning-imported-addons-button = 拡張機能をインストール
+extensions-warning-safe-mode3 =
+    .message = トラブルシューティングモードによりすべてのアドオンが無効化されています。
 
 ## Strings connected to add-on updates
 

@@ -113,6 +113,9 @@ extension-controlling-proxy-config = <img data-l10n-name ="icon"/> <strong>{ $na
 # <img data-l10n-name="addons-icon"/> will be replaced with Add-ons icon
 # <img data-l10n-name="menu-icon"/> will be replaced with Menu icon
 extension-controlled-enable = 拡張機能を有効にするには、<img data-l10n-name="menu-icon"/> メニューから <img data-l10n-name="addons-icon"/> アドオンを開きます。
+# This string is shown to notify the user that their home page or new tab preferences
+# are being controlled by an extension.
+extension-controlling-homepage = { $name } がホームページ設定の一部を制御しています。
 
 ## Preferences UI Search Results
 
@@ -585,9 +588,10 @@ network-proxy-connection-settings =
 home-new-windows-tabs-header = @@NewWindow@@とタブ
 home-new-windows-tabs-description2 = ホームページ、@@NewWindow@@、@@NewTab@@を開くときに表示するものを選択してください。
 
-## Home Section - Home Page Customization
+## Custom Homepage subpage
 
 home-homepage-mode-label = ホームページと@@NewWindow@@
+home-homepage-mode-label2 = @@NewWindow@@
 home-newtabs-mode-label = @@NewTab@@
 home-restore-defaults =
     .label = @@DefaultValue@@に戻す
@@ -600,6 +604,11 @@ home-mode-choice-blank =
     .label = 空白ページ
 home-homepage-custom-url =
     .placeholder = URL を@@Paste@@...
+# This button is shown when the homepage is managed by an extension and is placed below extension-controlling-homepage.
+home-homepage-manage-extension-button =
+    .label = 拡張機能を管理
+# This option leads to the "Custom Homepage" subpage
+home-homepage-custom-homepage-url = 特定のサイトを選択
 # This string has a special case for '1' and [other] (default). If necessary for
 # your language, you can add {$tabCount} to your translations and use the
 # standard CLDR forms, or only use the form for [other] if both strings should
@@ -614,13 +623,38 @@ use-current-pages =
 choose-bookmark =
     .label = ブックマークを使う...
     .accesskey = B
+home-homepage-header = ホームページ
+
+## Custom Homepage subpage
+
+home-custom-homepage-header = カスタムホームページ
+# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
+home-custom-homepage-subheader = ウェブサイトのアドレス
+home-custom-homepage-address =
+    .placeholder = アドレスを入力してください
+home-custom-homepage-address-button =
+    .label = アドレスを追加
+# Shown when no custom websites/URLs to use as a homepage have been added yet
+home-custom-homepage-no-websites-yet = ウェブサイトがまだ追加されていません。
+# Further options to use when setting the home page. Two action buttons are placed in line with this prompt
+# to replace the current home page with a currently open page or bookmark.
+home-custom-homepage-replace-with = 置き換え: 
+# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with)
+home-custom-homepage-current-pages-button =
+    .label = 現在開いているページ
+# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with)
+home-custom-homepage-bookmarks-button =
+    .label = ブックマーク...
 
 ## Home Section - Firefox Home Content Customization
 
 home-prefs-content-header2 = { -firefox-home-brand-name } コンテンツ
+home-prefs-content-header3 = { -firefox-home-brand-name }
 home-prefs-content-description2 = { -firefox-home-brand-name } に表示するコンテンツを選んでください。
 home-prefs-search-header =
     .label = ウェブ検索
+home-prefs-search-header2 =
+    .label = 検索
 home-prefs-shortcuts-header =
     .label = ショートカット
 home-prefs-shortcuts-description = 保存または訪問したサイト
@@ -635,6 +669,9 @@ home-prefs-recommended-by-description-new = { -brand-product-name } ファミリ
 home-prefs-recommended-by-header-generic =
     .label = おすすめのストーリー
 home-prefs-recommended-by-description-generic = { -brand-product-name } ファミリーに選ばれた優良コンテンツ
+home-prefs-stories-header =
+    .label = ストーリー
+home-prefs-stories-description = ユーザーの行動に基いてパーソナライズされたストーリー
 
 ##
 
@@ -673,6 +710,8 @@ home-prefs-support-firefox-header =
     .label = { -brand-product-name } を支援
 home-prefs-mission-message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています
 home-prefs-mission-message-learn-more-link = 支援の詳細情報
+home-prefs-manage-topics-link = トピックを管理
+home-prefs-choose-wallpaper-link = 壁紙を選択
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
@@ -1214,6 +1253,11 @@ cookie-banner-blocker-checkbox-label =
 ## Privacy Section - Address Bar
 
 addressbar-header = アドレスバー
+addressbar-suggest-1 = アドレスバーに表示する候補を選択してください。
+# When Firefox Suggest is enabled, this replaces `addressbar-header`.
+addressbar-header-firefox-suggest-1 = { -firefox-suggest-brand-name }
+# When Firefox Suggest is enabled, this replaces `addressbar-suggest`.
+addressbar-suggest-firefox-suggest-1 = { -brand-short-name } とパートナー企業からの候補をアドレスバーに表示します。
 addressbar-suggest = アドレスバーの使用時に表示する候補を選択してください。
 # When Firefox Suggest is enabled, this replaces `addressbar-header`.
 addressbar-header-firefox-suggest = アドレスバー — { -firefox-suggest-brand-name }
@@ -1241,6 +1285,9 @@ addressbar-locbar-shortcuts-option =
 addressbar-locbar-topsites-option =
     .label = トップサイト
     .accesskey = T
+addressbar-locbar-engines-option-1 =
+    .label = 使用する検索エンジンの候補
+    .accesskey = a
 addressbar-locbar-engines-option =
     .label = 検索エンジン
     .accesskey = a
@@ -1261,6 +1308,14 @@ addressbar-locbar-suggest-nonsponsored-desc = 検索語句に関連する候補�
 addressbar-locbar-suggest-sponsored-option =
     .label = スポンサーからの提案
 addressbar-locbar-suggest-sponsored-desc = スポンサーからの提案を随時表示して { -brand-short-name } を支援します
+# This string is used for a checkbox in the settings UI that opts the
+# user into "online" Firefox Suggest, allowing them to receive suggestions from
+# Mozilla's Merino server.
+# "Mozilla" is intentionally hardcoded to prevent forks from replacing it
+# with their own vendor name, since the online suggest is created and maintained
+# by Mozilla.
+addressbar-firefox-suggest-online =
+    .label = 入力に応じて Mozilla からの候補を取得する
 addressbar-quickactions-learn-more = 詳細情報
 addressbar-dismissed-suggestions-label = 閉じた提案
 addressbar-restore-dismissed-suggestions-description = スポンサーと { -brand-short-name } からの閉じてしまった提案を復元します。

@@ -68,6 +68,9 @@ text-action-search-text-box-clear =
     .title = 消去
 text-action-highlight-selection =
     .label = 選択範囲を強調表示
+# This adds a comment to selected text within the PDF viewer.
+text-action-comment-selection-1 =
+    .label = 選択範囲にコメントを追加
 # Comment is a verb. This adds a comment to selected text within the PDF viewer.
 text-action-comment-selection =
     .label = 選択範囲にコメントを追加
