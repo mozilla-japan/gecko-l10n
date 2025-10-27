@@ -12,6 +12,10 @@ allday-event = 終日の予定
 recurrent-event =
     .value = 繰り返す予定
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = 場所: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = 場所: { $locationProperty }
 # $organizerProperty is the organizer of the event
