@@ -546,6 +546,36 @@ menuitem-label-spam-percentage =
     .label = 迷惑メール確率
 menuitem-label-spam-status =
     .label = 迷惑マークの有無
+message-priority-lowest = 最低
+message-priority-low = 低
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = 標準
+message-priority-high = 高
+message-priority-highest = 最高
+message-flag-replied = 返信済み
+message-flag-forwarded = 転送済み
+message-flag-redirected = リダイレクト済み
+message-flag-new = 新着
+message-flag-read = 既読
+message-flag-starred = スター付き
+# Grouped By Date thread pane titles
+message-group-today = 今日
+message-group-yesterday = 昨日
+message-group-last-seven-days = 7 日以内
+message-group-last-fourteen-days = 14 日以内
+message-group-older = それ以前
+message-group-future-date = 未来
+# Different Grouped By Sort thread pane titles
+message-group-untagged = タグなし
+message-group-no-status = 状態なし
+message-group-no-priority = 重要度指定なし
+message-group-no-attachments = 添付ファイルなし
+message-group-attachments = 添付ファイルあり
+message-group-not-starred = スターなし
+message-group-starred = スター付き
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = 他
 
 ## Prompts
 
