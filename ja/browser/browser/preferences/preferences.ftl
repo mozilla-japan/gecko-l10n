@@ -638,7 +638,7 @@ home-custom-homepage-address-button =
 home-custom-homepage-no-websites-yet = ウェブサイトがまだ追加されていません。
 # Further options to use when setting the home page. Two action buttons are placed in line with this prompt
 # to replace the current home page with a currently open page or bookmark.
-home-custom-homepage-replace-with = 置き換え: 
+home-custom-homepage-replace-with = 置き換え:
 # Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with)
 home-custom-homepage-current-pages-button =
     .label = 現在開いているページ
@@ -800,6 +800,8 @@ remove-addon-engine-alert = この検索エンジンを削除するには、関�
 containers-back-button2 =
     .aria-label = 設定に戻る
 containers-header = コンテナータブ
+containers-section-header =
+    .heading = コンテナータブ
 containers-add-button =
     .label = @@New-CMD@@コンテナーを追加
     .accesskey = A
@@ -964,6 +966,16 @@ sync-choose-what-to-sync-dialog4 =
 ## The device name controls.
 
 sync-device-name-header = 端末名
+# Variables:
+#   $placeholder (string) - The placeholder text of the input
+sync-device-name-input =
+    .aria-label = 端末名
+    .placeholder = { $placeholder }
+# Variables:
+#   $placeholder (string) - The placeholder text of the input
+sync-device-name-change-2 =
+    .label = 端末名を変更
+    .accesskey = h
 sync-device-name-change =
     .label = 端末名を変更...
     .accesskey = h
@@ -1301,6 +1313,10 @@ addressbar-locbar-showrecentsearches-option =
 addressbar-locbar-showtrendingsuggestions-option =
     .label = トレンド検索の候補を表示する
     .accesskey = t
+# Toggles whether suggestions are obtained from Firefox Suggest or not (local or online).
+addressbar-locbar-suggest-all-option =
+    .label = { -brand-short-name } からの検索候補
+addressbar-locbar-suggest-all-option-desc = 検索語句に関連する候補をウェブから取得します
 # Nonsponsored suggestions refers to Firefox Suggest suggestions like Wikipedia.
 addressbar-locbar-suggest-nonsponsored-option =
     .label = { -brand-short-name } からの検索候補
