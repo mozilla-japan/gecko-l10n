@@ -107,6 +107,12 @@ fp-cert-error-code = エラーコード: { $error }
 # Variables:
 #   $datetime (Date) - Current datetime.
 fp-datetime = { DATETIME($datetime, month: "short", year: "numeric", day: "numeric") } { DATETIME($datetime, timeStyle: "long") }
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+fp-certerror-transparency-why-dangerous-body = { -brand-short-name } は { $hostname } を信頼しません。このサイトが証明書の透明性の要件を満たしていることを立証できません。
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+fp-certerror-transparency-what-can-you-do-body = おそらくサイト側に問題があるため、あなたにできることはないでしょう。
 fp-learn-more-about-secure-connection-failures = 安全な接続の失敗についての詳細情報
 fp-learn-more-about-cert-issues = このような証明書の問題についての詳細情報
 fp-learn-more-about-time-related-errors = 時刻関連エラーのトラブルシューティングについての詳細情報
@@ -191,3 +197,4 @@ fp-certerror-hide-advanced-button = 上級者向けの情報を隠す
 fp-certerror-override-exception-button = { $hostname } へ進む (危険)
 fp-certerror-intro = { -brand-short-name } が <strong>{ $hostname }</strong> に潜在的に深刻なセキュリティの問題があることを検知しました。悪意のある者がサイトを偽装してクレジットカード情報やパスワード、メールアドレスなどの個人情報を盗めるようにしています。
 fp-certerror-expired-into = { -brand-short-name } が <strong>{ $hostname }</strong> にセキュリティの問題があることを検知しました。サイトが正しく設定されていないか、ユーザーの端末の時計が誤った日時に設定されています。
+fp-certerror-transparency-intro = 何者かが偽の <strong>{ $hostname }</strong> サイトを装ってあなたのクレジットカード情報やパスワード、メールアドレスを盗み出そうとする可能性があります。
