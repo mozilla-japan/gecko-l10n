@@ -191,5 +191,5 @@ tbsrc | calendar, mail           655a81c7 (2025-10-21)  kazushi      sync calend
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | dom, netwerk, toolkit    1046c2ff (2025-11-12)  mar          sync dom, netwerk, toolkit
-tbsrc | mail                     1f7d7bb2 (2025-11-10)  kazushi      sync mail 未翻訳
+tbsrc | mail                     1f7d7bb2 (2025-11-10)  kazushi      sync mail
 

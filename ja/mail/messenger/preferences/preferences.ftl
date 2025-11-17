@@ -708,7 +708,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = メールのエンドツーエンド暗号
 account-settings = アカウント設定
-email-e2ee-enable-accounts-info = Set up email accounts and identities for End-To-End Encryption in the <a data-l10n-name="account-settings-url">Account Settings</a>.
+email-e2ee-enable-accounts-info = <a data-l10n-name="account-settings-url">アカウント設定</a>で、エンドツーエンド暗号化するメールアカウントと差出人情報をセットアップしてください。
 email-e2ee-enable-info = アカウント設定内のエンドツーエンド暗号のためにメールアカウントと差出人情報をセットアップします。
 email-e2ee-automatism = 暗号の自動使用
 email-e2ee-automatism-pre =
@@ -786,17 +786,17 @@ preferences-doh-url-custom =
 
 ## Keyservers
 
-email-e2ee-key-servers-legend = OpenPGP Keyservers
+email-e2ee-key-servers-legend = OpenPGP 鍵サーバー
 email-e2ee-key-servers-intro =
-    A keyserver receives and then serves existing public keys to users.
-    It allows you to publish your public key and find and refresh keys of others.
-email-e2ee-key-servers-use-following = Use the following keyservers:
-email-e2ee-key-servers-add = Add…
-email-e2ee-key-servers-reset = Reset Server List
-email-e2ee-key-servers-add-title = Add Keyserver
-email-e2ee-key-servers-add-text = Enter the URL of the keyserver to add.
-email-e2ee-key-servers-add-failed-title = Adding Keyserver Failed
-email-e2ee-key-servers-add-failed-text = Could not connect to a keyserver at the provided URL.
+    鍵サーバーは既存の公開鍵を受け取り、ユーザーに提供します。
+    使用すると、あなたの公開鍵を配布したり、他のユーザーの公開鍵を検索、更新したりできます。
+email-e2ee-key-servers-use-following = 使用したい鍵サーバー:
+email-e2ee-key-servers-add = 追加...
+email-e2ee-key-servers-reset = サーバー一覧をリセット
+email-e2ee-key-servers-add-title = 鍵サーバーの追加
+email-e2ee-key-servers-add-text = 追加したい鍵サーバーの URL を入力してください。
+email-e2ee-key-servers-add-failed-title = 鍵サーバーを追加できませんでした
+email-e2ee-key-servers-add-failed-text = 入力された URL の鍵サーバーに接続できませんでした。
 
 ## Chat Tab
 
