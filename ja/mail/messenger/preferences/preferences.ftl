@@ -708,6 +708,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = メールのエンドツーエンド暗号
 account-settings = アカウント設定
+email-e2ee-enable-accounts-info = Set up email accounts and identities for End-To-End Encryption in the <a data-l10n-name="account-settings-url">Account Settings</a>.
 email-e2ee-enable-info = アカウント設定内のエンドツーエンド暗号のためにメールアカウントと差出人情報をセットアップします。
 email-e2ee-automatism = 暗号の自動使用
 email-e2ee-automatism-pre =
@@ -782,6 +783,20 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = カスタム
     .accesskey = C
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP Keyservers
+email-e2ee-key-servers-intro =
+    A keyserver receives and then serves existing public keys to users.
+    It allows you to publish your public key and find and refresh keys of others.
+email-e2ee-key-servers-use-following = Use the following keyservers:
+email-e2ee-key-servers-add = Add…
+email-e2ee-key-servers-reset = Reset Server List
+email-e2ee-key-servers-add-title = Add Keyserver
+email-e2ee-key-servers-add-text = Enter the URL of the keyserver to add.
+email-e2ee-key-servers-add-failed-title = Adding Keyserver Failed
+email-e2ee-key-servers-add-failed-text = Could not connect to a keyserver at the provided URL.
 
 ## Chat Tab
 

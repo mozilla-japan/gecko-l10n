@@ -34,10 +34,20 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = 接続エラー。{ $hostname } の証明書は信頼されたソースからのものではありません。クリックするとサーバーのセキュリティ設定を開きます。
+certificate-check-test-button = Test connection to server
 certificate-check-fetch-button = 証明書を取得
 certificate-check-view-button = 証明書を表示
 certificate-check-add-exception-button = 例外を追加
 certificate-check-remove-exception-button = 例外を削除
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Testing connection to server { $hostname }…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Successfully established a secure connection to { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Connection to server { $hostname } failed.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = { $hostname } の証明書を取得しています。
