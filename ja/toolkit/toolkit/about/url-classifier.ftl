@@ -14,6 +14,7 @@ url-classifier-search-result-list = テーブルのリスト: { $list }
 url-classifier-search-input = URL
 url-classifier-search-error-invalid-url = 不正な URL
 url-classifier-search-error-no-features = 機能が選択されていません
+url-classifier-search-error-no-results = URL のエントリーが見つかりませんでした
 url-classifier-search-btn = 検索開始
 url-classifier-search-features = 機能
 url-classifier-search-listType = リストの種類

@@ -296,7 +296,10 @@ colorway-removal-notice-message =
         アドオンサイトで新しいバージョンを入手してください。
 colorway-removal-notice-learn-more = 詳細情報
 colorway-removal-notice-button = 更新された Colorway テーマを入手
-
+# Notice to make user aware that themes are not applied in forced colors mode.
+# This notice is only visible on Windows.
+forced-colors-theme-notice =
+    .message = Windows のコントラスト設定が { -brand-short-name } のテーマを上書きしています。{ -brand-short-name } でテーマを使用するには、これらの設定をオフに切り替えてください。
 privacy-policy = プライバシーポリシー
 # Refers to the author of an add-on, shown below the name of the add-on.
 # Variables:
@@ -540,6 +543,14 @@ details-notification-hard-blocked-other =
 details-notification-unsigned-link = 詳細情報
 details-notification-blocked = { $name } はセキュリティまたは安定性に問題があるため無効化されています。
 details-notification-blocked-link2 = 詳細を表示
+details-notification-soft-blocked-extension-disabled2 =
+    .message = この拡張機能は制限され、無効化されています。有効にすると危険を伴う可能性があります。
+details-notification-soft-blocked-extension-enabled2 =
+    .message = この拡張機能は制限されています。使用すると危険を伴う可能性があります。
+details-notification-soft-blocked-other-disabled2 =
+    .message = このアドオンは制限され、無効化されています。有効にすると危険を伴う可能性があります。
+details-notification-soft-blocked-other-enabled2 =
+    .message = このアドオンは制限されています。使用すると危険を伴う可能性があります。
 details-notification-soft-blocked-extension-disabled =
     .message = この拡張機能は Mozilla のポリシーに違反しているため制限され、無効化されています。有効にすると危険を伴う可能性があります。
 details-notification-soft-blocked-extension-enabled =
