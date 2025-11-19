@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = 参加者: { $attendeeProperty }
 calendar-invitations-none = なし
+# Invitations dialog
+calendar-invitations-title = 参加依頼
+calendar-invitations-status-updating = 参加依頼リストを更新しています。
+calendar-invitations-status-none = 確認していない参加依頼は見つかりませんでした。
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = 承諾
+calendar-invitations-decline =
+    .label = 辞退
