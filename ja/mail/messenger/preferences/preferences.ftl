@@ -708,6 +708,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = メールのエンドツーエンド暗号
 account-settings = アカウント設定
+email-e2ee-enable-accounts-info = メールアカウントと差出人情報のエンドツーエンド暗号化は <a data-l10n-name="account-settings-url">アカウント設定</a> でセットアップしてください。
 email-e2ee-enable-info = アカウント設定内のエンドツーエンド暗号のためにメールアカウントと差出人情報をセットアップします。
 email-e2ee-automatism = 暗号の自動使用
 email-e2ee-automatism-pre =
@@ -782,6 +783,20 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = カスタム
     .accesskey = C
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP 鍵サーバー
+email-e2ee-key-servers-intro =
+    鍵サーバーは既存の公開鍵を受け取り、ユーザーに提供します。
+    鍵サーバーでは、あなたの公開鍵の配布や他のユーザーの公開鍵の検索、更新ができます。
+email-e2ee-key-servers-use-following = 次の鍵サーバーを使用する:
+email-e2ee-key-servers-add = 追加...
+email-e2ee-key-servers-reset = サーバー一覧をリセット
+email-e2ee-key-servers-add-title = 鍵サーバーの追加
+email-e2ee-key-servers-add-text = 追加する鍵サーバーの URL を入力してください。
+email-e2ee-key-servers-add-failed-title = 鍵サーバーの追加に失敗しました
+email-e2ee-key-servers-add-failed-text = 入力された URL の鍵サーバーに接続できませんでした。
 
 ## Chat Tab
 
