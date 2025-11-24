@@ -159,7 +159,7 @@ main-context-menu-copy-link-simple =
     .accesskey = L
 main-context-menu-preview-link =
     .label = リンク先をプレビュー
-    .accesskey = r
+    .accesskey = J
 # "Copy Clean Link" means that Firefox will remove things from the link you
 # copied, like items that identify you for advertising purposes, and other items
 # sites add into URLs to help them deliver a certain browsing experience.
@@ -272,10 +272,6 @@ main-context-menu-image-desc =
 main-context-menu-visual-search-2 =
     .label = { $engine } で画像を検索
     .accesskey = e
-# Variables
-#   $engine (String) - Name of the search engine that will perform the search.
-main-context-menu-visual-search =
-    .label = { $engine } で画像を検索
 main-context-menu-video-save-as =
     .label = @@Save-AsCMD@@動画を保存...
     .accesskey = v
@@ -291,6 +287,9 @@ main-context-menu-video-email =
 main-context-menu-audio-email =
     .label = 音声の URL をメールで送信...
     .accesskey = a
+main-context-menu-send-to-device-2 =
+    .label = 端末へ送信
+    .accesskey = n
 main-context-menu-save-to-pocket =
     .label = ページを { -pocket-brand-name } に保存
     .accesskey = k

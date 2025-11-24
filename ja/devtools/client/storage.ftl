@@ -71,6 +71,7 @@ storage-table-headers-cookies-expires = 有効期限
 storage-table-headers-cookies-size = サイズ
 storage-table-headers-cookies-last-accessed = アクセス日時
 storage-table-headers-cookies-creation-time = 作成日時
+storage-table-headers-cookies-update-time = 更新日時
 storage-table-headers-cache-status = 状態
 storage-table-headers-extension-storage-area = ストレージ領域
 

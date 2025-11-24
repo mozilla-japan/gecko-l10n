@@ -79,6 +79,10 @@ move-to-end =
 move-to-new-window =
     .label = @@NewWindow@@へ移動
     .accesskey = W
+# Variables
+#  $profileName (string): The name of the profile to move tab to
+move-to-new-profile =
+    .label = { $profileName } へ移動
 tab-context-close-multiple-tabs =
     .label = 複数のタブを閉じる
     .accesskey = M
@@ -115,6 +119,14 @@ tab-context-close-n-tabs =
 tab-context-move-tabs =
     .label = タブを移動
     .accesskey = v
+# The following string intentionally omits the word "Tab" from the singular and includes it in the plural.
+tab-context-send-to-device =
+    .label =
+        { $tabCount ->
+            [1] 端末へ送信
+           *[other] { $tabCount } 個のタブを端末へ送信
+        }
+    .accesskey = n
 tab-context-send-tabs-to-device =
     .label =
         { $tabCount ->

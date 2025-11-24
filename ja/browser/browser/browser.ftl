@@ -1447,7 +1447,6 @@ trustpanel-header-enabled = { -brand-product-name } が保護しています
 trustpanel-description-enabled2 = あなたは追跡から保護されています。何か見つけたらお知らせします。
 trustpanel-header-enabled-insecure = このサイトでは注意してください
 trustpanel-description-enabled-insecure = { -brand-product-name } が不審な動作を検出しました。
-trustpanel-description-enabled = あなたは追跡から保護されています。何か見つけたらお知らせします。
 trustpanel-header-disabled = 保護がオフになっています
 trustpanel-description-disabled = { -brand-product-name } によるトラッキング防止が動作していません。オンに戻すことをおすすめします。
 trustpanel-clear-cookies-button = Cookie とサイトデータを消去
