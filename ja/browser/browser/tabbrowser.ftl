@@ -279,6 +279,12 @@ tab-context-move-tab-to-group =
            *[other] 選択したタブをグループに追加
         }
     .accesskey = G
+tab-context-move-split-view-to-new-group =
+    .label = 分割ビューを@@New-CMD@@グループに追加
+    .accesskey = G
+tab-context-move-split-view-to-group =
+    .label = 分割ビューをグループに追加
+    .accesskey = G
 tab-context-move-tab-to-group-saved-groups =
     .label = 閉じたグループ
 tab-group-editor-action-new-tab =
@@ -337,6 +343,25 @@ tab-group-context-open-saved-group-in-this-window =
 tab-group-context-open-saved-group-in-new-window =
     .label = グループを@@NewWindow@@で開く
 
+## Tab Notes
+
+tab-context-add-note =
+    .label = ノートを追加
+    .accesskey = A
+tab-context-edit-note =
+    .label = ノートを編集
+    .accesskey = E
+tab-note-editor-title-create = ノートを追加
+tab-note-editor-title-edit = ノートを編集
+tab-note-editor-text-field =
+    .placeholder = このタブについてのメモを記録します。
+tab-note-editor-button-cancel =
+    .label = キャンセル
+    .accesskey = C
+tab-note-editor-button-save =
+    .label = 保存
+    .accesskey = S
+
 ## Split View
 
 # Split view tabs display their respective contents side by side
@@ -355,3 +380,14 @@ tab-context-separate-split-view =
     .label = 分割ビューを終了
     .accesskey = t
 tab-context-badge-new = 新機能
+
+## Manage Split View (icon in the address bar & three-dot menu in the footer)
+
+# "Separate" is a verb, as in "separate the split view tabs and display them normally".
+split-view-menuitem-separate-tabs =
+    .label = タブを分割表示
+# "Reverse" is a verb, as in "reverse the order of split view tabs".
+split-view-menuitem-reverse-tabs =
+    .label = タブ順を反転
+split-view-menuitem-close-both-tabs =
+    .label = 両方のタブを閉じる

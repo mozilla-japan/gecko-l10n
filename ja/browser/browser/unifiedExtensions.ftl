@@ -32,6 +32,9 @@ unified-extensions-item-open-menu =
 unified-extensions-item-message-manage = 拡張機能を管理
 # Variables:
 #   $extensionName (String) - Name of the user-enabled soft-blocked extension.
+unified-extensions-item-messagebar-softblocked2 = { $extensionName } は制限されています。使用すると危険を伴う可能性があります。
+# Variables:
+#   $extensionName (String) - Name of the user-enabled soft-blocked extension.
 unified-extensions-item-messagebar-softblocked = { $extensionName } は Mozilla のポリシーに違反しています。使用すると危険を伴う可能性があります。
 
 ## Extension's context menu
@@ -62,6 +65,13 @@ unified-extensions-mb-quarantined-domain-learn-more = 詳細情報
 unified-extensions-mb-about-addons-link = 拡張機能の設定を開く
 # Variables:
 #   $extensionName (String) - Name of the extension disabled through a soft-block.
+unified-extensions-mb-blocklist-warning-single2 =
+    .heading = { $extensionName } は無効です
+    .message =
+        この拡張機能は制限されているため無効になっています。
+        設定で有効にできますが、危険を伴う可能性があります。
+# Variables:
+#   $extensionName (String) - Name of the extension disabled through a soft-block.
 unified-extensions-mb-blocklist-warning-single =
     .heading = { $extensionName } は無効です
     .message =
@@ -72,6 +82,16 @@ unified-extensions-mb-blocklist-warning-single =
 unified-extensions-mb-blocklist-error-single =
     .heading = { $extensionName } は無効です
     .message = この拡張機能は Mozilla のポリシーに違反しているため無効になっています。
+# Variables:
+#   $extensionsCount (Number) - Number of extensions disabled through both soft and hard-blocks (always going to be greater than 1)
+unified-extensions-mb-blocklist-warning-multiple2 =
+    .heading =
+        { $extensionsCount ->
+           *[other] { $extensionsCount } 個の拡張機能が無効です
+        }
+    .message =
+        複数の拡張機能が制限されているため無効になっています。
+        設定で有効にできますが、危険を伴う可能性があります。
 # Variables:
 #   $extensionsCount (Number) - Number of extensions disabled through both soft and hard-blocks (always going to be greater than 1)
 unified-extensions-mb-blocklist-warning-multiple =

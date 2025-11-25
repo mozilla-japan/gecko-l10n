@@ -36,6 +36,7 @@ settings-data-backup-last-backup-location = バックアップ先
 settings-data-backup-last-backup-location-show-in-folder = フォルダーを開く
 settings-data-backup-last-backup-location-edit = 編集...
 settings-data-create-backup-error = { DATETIME($date, dateStyle: "short") } { DATETIME($date, timeStyle: "short") } のバックアップ作成中にエラーが発生しました。
+settings-sensitive-data-encryption-description = パスワードや支払い方法をバックアップし、すべてのユーザーデータを暗号化して安全に保管します。
 # Variables:
 #   $fileName (String) - The file name of the last backup that was created.
 settings-data-backup-last-backup-filename = ファイル名: { $fileName }
@@ -51,7 +52,6 @@ settings-data-backup-scheduled-backups-off-restore-choose = バックアップ�
 settings-data-backup-scheduled-backups-on-restore-description = 最新のバックアップから { -brand-product-name } のデータを復元します。
 settings-data-backup-scheduled-backups-on-restore-choose = 復元...
 settings-data-toggle-encryption-label = 機密性の高い情報をバックアップする
-settings-data-toggle-encryption-description = パスワード、支払い方法、Cookie を暗号化してバックアップします。
 settings-data-toggle-encryption-support-link = 詳細情報
 settings-data-change-password = パスワードを変更...
 
@@ -72,7 +72,6 @@ turn-on-scheduled-backups-location-choose-button =
        *[other] 参照...
     }
 turn-on-scheduled-backups-encryption-label = 機密性の高い情報をバックアップする
-turn-on-scheduled-backups-encryption-description = パスワード、支払い方法、Cookie を暗号化してバックアップします。
 turn-on-scheduled-backups-encryption-create-password-label = パスワード
 # Users will be prompted to re-type a password, to ensure that the password is entered correctly.
 turn-on-scheduled-backups-encryption-repeat-password-label = パスワード (再入力)
@@ -120,7 +119,7 @@ restore-from-backup-restoring-button = 復元中...
 # User is not authorized to restore a particular backup file, usually because
 # the backup file is encrypted and the user provided a recovery password that
 # was different than the password the user configured for their backup file
-backup-service-error-incorrect-password = パスワードが正しくありません。<a data-l10n-name="incorrect-password-support-link">問題が繰り返される場合</a>
+backup-service-error-incorrect-password = パスワードが正しくありません。<a data-l10n-name="incorrect-password-support-link">まだ問題がある場合はこちら</a>。
 # The backup file (or specific data files within the backup file) could not be
 # loaded and parsed correctly, most likely due to data corruption of the
 # backup file itself
@@ -143,7 +142,7 @@ backup-service-error-unsupported-application =
 # Recovery from backup did not succeed. Potential causes could be file system
 # errors, internal code errors, decryption errors, etc.
 backup-service-error-recovery-failed =
-    .heading = 復元できませんでした
+    .heading = { -brand-short-name } に復元できませんでした
     .message = { -brand-short-name } を再起動してバックアップの復元を再度お試しください。
 # There was some error in the backup service but we don't have a more specific
 # idea of what went wrong
@@ -159,7 +158,6 @@ backup-service-error-went-wrong =
 ## These strings are displayed in a modal when users want to enable encryption or change the password for an existing backup.
 
 enable-backup-encryption-header = 機密性の高い情報のバックアップ
-enable-backup-encryption-description = パスワード、支払い方法、Cookie をバックアップし、すべてのデータを暗号化して安全を保ちます。
 enable-backup-encryption-support-link = 詳細情報
 enable-backup-encryption-create-password-label = パスワード
 # Users will be prompted to re-type a password, to ensure that the password is entered correctly.
@@ -187,7 +185,7 @@ password-rules-a11y-warning =
 ## These strings are displayed in a modal when users want to disable encryption for an existing backup.
 
 disable-backup-encryption-header = パスワード保護の解除
-disable-backup-encryption-description = 保存しているパスワード、支払い方法、Cookie をバックアップしなくなります。
+disable-backup-encryption-description2 = 保存しているパスワードと支払い方法がバックアップされなくなります。
 disable-backup-encryption-support-link = 何がバックアップされますか？
 disable-backup-encryption-cancel-button = キャンセル
 disable-backup-encryption-confirm-button = パスワードを削除
@@ -244,3 +242,6 @@ other-backup-files-founds = <b>注意:</b> 他に { $numberOfOtherBackupsFound }
 #   $date (Datetime) - The date the backup was created
 #   $machineName (String) - Name of the machine that the backup was created on.
 backup-file-creation-date-and-device = { $machineName } 上で { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } に作成
+backup-file-restore-file-validation-error = このファイルは使えません。別のファイルを選択してください。<a data-l10n-name="restore-problems">まだ問題がある場合はこちら</a>。
+restore-from-backup-filepicker-input =
+    .placeholder = No file selected

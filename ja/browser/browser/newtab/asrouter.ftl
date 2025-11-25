@@ -64,6 +64,8 @@ fxa-adoption-addresses-backup-title = 保存したアドレスをバックアッ
 fxa-adoption-addresses-backup-subtitle = 保存したアドレスをご使用の端末と同期して暗号化することにより保護します。
 fxa-adoption-credit-cards-backup-title = 支払い方法をバックアップしましょう
 fxa-adoption-credit-cards-backup-subtitle = 支払い方法をご使用の端末と同期して暗号化することにより保護します。
+fxa-adoption-bookmarks-treatment-backup-title = ブックマークをバックアップしましょう
+fxa-adoption-bookmarks-treatment-backup-subtitle = ブックマークをご使用の端末と同期して暗号化することにより保護します。
 fxa-adoption-primary-button-label = アカウント登録
 
 ## Protections panel

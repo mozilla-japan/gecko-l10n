@@ -60,6 +60,7 @@ pane-experimental-description2 = 高度な設定を変更すると、{ -brand-sh
 settings-pane-labs-title = { -firefoxlabs-brand-name }
 settings-category-labs =
     .tooltiptext = { -firefoxlabs-brand-name }
+pane-experimental-description4 = 実験的な機能を試してみてください！ 現在開発中ですが、{ -brand-short-name } の動作にインパクトを与えることでしょう。<a data-l10n-name="data-collection">技術データと対話データの送信</a> をオンにしている場合、私たちはこれらの機能の使用データしか受け取りません。
 pane-experimental-description3 = 実験的な機能を試してみてください！ 現在開発中ですが、{ -brand-short-name } の動作にインパクトを与えることでしょう。
 pane-experimental-reset =
     .label = @@DefaultValue@@に戻す
@@ -112,7 +113,8 @@ extension-controlling-proxy-config = <img data-l10n-name ="icon"/> <strong>{ $na
 #
 # <img data-l10n-name="addons-icon"/> will be replaced with Add-ons icon
 # <img data-l10n-name="menu-icon"/> will be replaced with Menu icon
-extension-controlled-enable = 拡張機能を有効にするには、<img data-l10n-name="menu-icon"/> メニューから <img data-l10n-name="addons-icon"/> アドオンを開きます。
+extension-controlled-enable = 拡張機能を有効にするには、<img data-l10n-name="menu-icon"/> メニューから <img data-l10n-name="addons-icon"/> アドオンを開いてください。
+extension-controlled-enable-2 = 拡張機能を再び有効にするには、<a data-l10n-name="addons-link">拡張機能とテーマ</a> を開いてください。
 # This string is shown to notify the user that their home page or new tab preferences
 # are being controlled by an extension.
 extension-controlling-homepage = { $name } がホームページ設定の一部を制御しています。
@@ -660,6 +662,8 @@ home-prefs-shortcuts-header =
 home-prefs-shortcuts-description = 保存または訪問したサイト
 home-prefs-shortcuts-by-option-sponsored =
     .label = 広告ショートカット
+home-prefs-content-header =
+    .label = { -firefox-home-brand-name }
 
 ## Home Section - Firefox Home Content Customization
 
@@ -705,14 +709,24 @@ home-prefs-weather-header =
     .label = 天気予報
 home-prefs-weather-description = 一目でわかる今日の天気
 home-prefs-weather-learn-more-link = 詳細情報
+home-prefs-widgets-header =
+    .label = ウィジェット
 home-prefs-trending-search-header =
     .label = トレンド検索
 home-prefs-trending-search-description = 人気があり頻繁に検索されているトピックです
+# Lists is a widget on New Tab, similar to a to-do widget
+home-prefs-lists-header =
+    .label = ToDo リスト
+# Timer is a widget on New Tab, similar to the Pomodoro timer.
+home-prefs-timer-header =
+    .label = タイマー
 # "Support" here means to help sustain or contribute to something, especially through funding or sponsorship.
 home-prefs-support-firefox-header =
     .label = { -brand-product-name } を支援
 home-prefs-mission-message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています
 home-prefs-mission-message-learn-more-link = 支援の詳細情報
+home-prefs-mission-message2 =
+    .message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています。
 home-prefs-manage-topics-link = トピックを管理
 home-prefs-choose-wallpaper-link = 壁紙を選択
 # Variables:
@@ -1020,10 +1034,16 @@ forms-ask-to-save-logins =
 # by searching for the former term "logins". It's not displayed in the UI.
 pane-privacy-passwords-header = パスワード
     .searchkeywords = ログイン情報
+forms-passwords-header =
+    .label = パスワード
+    .aria-label = パスワード
 # Checkbox to control whether UI is shown to users to save or fill logins/passwords.
 forms-ask-to-save-passwords =
     .label = パスワードを保存するか確認する
     .accesskey = A
+forms-manage-password-exceptions =
+    .label = パスワードの例外サイトを管理
+    .accesskey = M
 forms-exceptions =
     .label = 例外サイト...
     .accesskey = x
@@ -1052,14 +1072,33 @@ forms-saved-logins =
     .accesskey = L
 # Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
 forms-fill-usernames-and-passwords =
-    .label = 自動的にユーザー名とパスワードを入力する
+    .label = ユーザー名とパスワードを自動的に入力する
     .accesskey = F
+forms-fill-usernames-and-passwords-2 =
+    .label = ユーザー名とパスワードを自動的に保存して入力する
+    .accesskey = f
 forms-saved-passwords =
     .label = 保存されたパスワード
     .accesskey = d
+forms-saved-passwords-2 =
+    .label = 保存されたパスワードを管理
+    .accesskey = d
+forms-saved-passwords-searchkeywords = 以下のサイトのログイン情報がコンピューターに保存されています。
+# Header for additional protections when managing password settings.
+forms-additional-protections-header =
+    .label = 追加の保護
 forms-primary-pw-use =
     .label = マスターパスワードを使用する
     .accesskey = U
+forms-primary-pw-set =
+    .label = マスターパスワードを設定
+forms-primary-pw-on =
+    .label = マスターパスワードはオンです
+forms-primary-pw-change-2 =
+    .label = マスターパスワードを変更
+# Label for button to disable primary password.
+forms-primary-pw-turn-off =
+    .label = オフにする
 # This operation requires the user to authenticate with the operating system (device sign-in)
 forms-os-reauth =
     .label = パスワードの入力と管理に端末のログイン情報を要求する
@@ -1126,6 +1165,8 @@ autofill-payment-methods-header =
 autofill-payment-methods-checkbox-message-2 =
     .label = 支払い情報を保存して自動入力する
     .accesskey = p
+autofill-payment-methods-manage-payments-title =
+    .heading = 支払い方法の管理
 autofill-payment-methods-manage-payments-button =
     .label = 支払い方法を管理
     .accesskey = m
@@ -1133,6 +1174,13 @@ autofill-payment-methods-manage-payments-button =
 autofill-reauth-payment-methods-checkbox-2 =
     .label = 支払い方法の入力と管理に端末のログイン情報を要求する
     .accesskey = o
+autofill-payment-methods-add-button = @@New-CMD@@支払い方法を追加
+payments-list-header =
+    .label = 支払い方法
+payments-list-item-label = <strong>支払い方法</strong>
+payments-remove-payment-prompt-title = この支払い方法を削除しますか？
+payments-remove-payment-prompt-confirm-button = 削除
+payments-remove-payment-prompt-cancel-button = キャンセル
 autofill-addresses-title = 住所など
 autofill-addresses-header =
     .aria-label = 住所など
@@ -1142,6 +1190,14 @@ autofill-addresses-checkbox-message =
 autofill-addresses-manage-addresses-button =
     .label = 住所などを管理する
     .accesskey = M
+# These values are displayed for each credit card record listed on the Manage Payment methods
+# settings page.
+# Variables:
+#   $cardNumber (string) - The obscured credit card number (for example: 2423 *********)
+#   $expDate (string) - The obscured expiry date of the credit card (for example: XX/2027)
+payment-moz-box-item =
+    .label = { $cardNumber }
+    .description = { $expDate }
 
 ## Privacy Section - History
 
@@ -1167,6 +1223,8 @@ history-remember-description2 =
     .description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
 history-dontremember-description2 =
     .description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
+history-custom-description =
+    .description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴をカスタム設定で保存します。
 history-remember-description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
 history-dontremember-description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
 history-private-browsing-permanent =
@@ -1514,6 +1572,18 @@ permissions-autoplay-settings =
 permissions-block-popups2 =
     .label = ポップアップとサードパーティによるリダイレクトをブロックする
     .accesskey = B
+# "popup" is a misspelling that is more popular than the correct spelling of
+# "pop-up" so it's included as a search keyword, not displayed in the UI.
+permissions-block-popups-exceptions-button2 =
+    .label = ポップアップとサードパーティによるリダイレクトの例外サイトを管理
+    .accesskey = E
+    .searchkeywords = ポップアップ
+permissions-addon-install-warning2 =
+    .label = ウェブサイトが拡張機能をインストールしようとした時に警告する
+    .accesskey = W
+permissions-addon-exceptions2 =
+    .label = 拡張機能をインストールできるウェブサイトを指定してください
+    .accesskey = E
 permissions-block-popups =
     .label = ポップアップ@@Window@@をブロックする
     .accesskey = B
@@ -1529,6 +1599,9 @@ permissions-addon-install-warning =
 permissions-addon-exceptions =
     .label = 許可サイト...
     .accesskey = E
+permissions-header2 =
+    .label = 許可設定
+    .description = 閲覧しているウェブサイトに与える許可設定。
 permissions-location2 =
     .label = 位置情報
 permissions-localhost2 =
@@ -1541,6 +1614,9 @@ permissions-camera2 =
     .label = カメラ
 permissions-microphone2 =
     .label = マイク
+# Privacy permission for sound output devices.
+permissions-speaker2 =
+    .label = スピーカー
 permissions-notification2 =
     .label = 通知
 
