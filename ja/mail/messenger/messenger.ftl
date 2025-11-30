@@ -132,6 +132,8 @@ folder-toolbar-toggle-folder-compact-view =
 ## Folder names
 
 folder-name-spam = 迷惑メール
+# Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
+folder-name-all-mail = すべてのメール
 
 ## File Menu
 
