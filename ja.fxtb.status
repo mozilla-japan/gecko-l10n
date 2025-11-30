@@ -193,4 +193,5 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 fxsrc | dom, netwerk, toolkit    1046c2ff (2025-11-12)  mar          sync dom, netwerk, toolkit
 tbsrc | mail                     1f7d7bb2 (2025-11-10)  kazushi      sync mail
 fxsrc | browser, devtools, dom   7c9ee016 (2025-11-20)  mar          sync browser, devtools, dom
+tbsrc | mail                     7e2c88ee (2025-11-19)  kazushi      sync mail
 
