@@ -176,6 +176,9 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = フォルダーサイズを表示
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = フルパスを表示
 folder-pane-header-hide-local-folders =
     .label = ローカルフォルダーを隠す
 folder-pane-mode-context-button =
