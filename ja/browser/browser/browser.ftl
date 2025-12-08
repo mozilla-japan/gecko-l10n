@@ -426,6 +426,9 @@ quickactions-cmd-restart = restart
 # Opens the screenshot tool
 quickactions-screenshot3 = スクリーンショットを撮影
 quickactions-cmd-screenshot2 = screenshot, take a screenshot
+# Opens about:translations
+quickactions-translate = 翻訳
+quickactions-cmd-translate = translate
 quickactions-cmd-screenshot = screenshot
 # Opens about:preferences
 quickactions-settings2 = 設定を管理
