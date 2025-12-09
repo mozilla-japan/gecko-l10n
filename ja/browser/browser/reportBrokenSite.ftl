@@ -54,3 +54,7 @@ report-broken-site-panel-missing-reason-label = 不具合の対象を選んで�
 report-broken-site-panel-blocked-trackers-label =
     .label = トラッキング防止機能がブロックした URL を送信する
 report-broken-site-panel-blocked-trackers-description = 強化型トラッキング防止機能により、ウェブサイトが正しく動作するために必要なトラッカーやスクリプトがブロックされている可能性があります。
+report-broken-site-panel-preview-button =
+    .label = レポートをプレビュー
+report-broken-site-panel-preview-header =
+    .label = レポートのプレビュー

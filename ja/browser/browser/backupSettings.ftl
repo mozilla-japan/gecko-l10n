@@ -149,11 +149,6 @@ backup-service-error-recovery-failed =
 backup-service-error-went-wrong2 =
     .heading = バックアップ中に問題が発生しました。
     .message = 数分後に再度試してください。
-# There was some error in the backup service but we don't have a more specific
-# idea of what went wrong
-backup-service-error-went-wrong =
-    .heading = 問題が発生しました
-    .message = { -brand-short-name } のバックアップ中に問題が発生しました。再度試すか、{ -brand-short-name } を再起動してください。
 
 ## These strings are displayed in a modal when users want to enable encryption or change the password for an existing backup.
 
