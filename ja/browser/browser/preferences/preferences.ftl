@@ -547,6 +547,9 @@ update-in-progress-ok-button = 破棄(&D)
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = 続行(&C)
 
+## Firefox support
+
+
 ## General Section - Performance
 
 performance-title = パフォーマンス
@@ -850,6 +853,10 @@ edit-engine-name-warning-duplicate = “{ $name }” という名前の検索エ
 remove-engine-confirmation = 本当にこの検索エンジンを削除しますか？
 remove-engine-remove = 削除
 remove-addon-engine-alert = この検索エンジンを削除するには、関連付けられたアドオンを削除してください。
+search-engine-group =
+    .label = @@Default-@@検索エンジン
+search-default-engine =
+    .aria-label = @@Default-@@検索エンジン
 
 ## Containers Section
 
