@@ -776,7 +776,11 @@ home-prefs-mission-message-learn-more-link = 支援の詳細情報
 home-prefs-mission-message2 =
     .message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています。
 home-prefs-manage-topics-link = トピックを管理
+home-prefs-manage-topics-link2 =
+    .label = トピックを管理
 home-prefs-choose-wallpaper-link = 壁紙を選択
+home-prefs-choose-wallpaper-link2 =
+    .label = 壁紙を選択
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
