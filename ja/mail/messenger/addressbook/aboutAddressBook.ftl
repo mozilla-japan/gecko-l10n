@@ -285,3 +285,33 @@ about-addressbook-photo-save = 保存
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = 検索
+    .accesskey = S
+ab-search-dialog-reset-button =
+    .label = リセット
+    .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value = { $count } 件の連絡先が見つかりました
+ab-search-dialog-no-matches-found =
+    .value = 検索条件に一致する連絡先はありませんでした
+ab-search-dialog-search-heading =
+    .label = 次の中からカードを検索:
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = 情報を見る
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = @@New-CMD@@メッセージ
+    .accesskey = W
+ab-search-dialog-delete-button =
+    .label = 削除
+    .accesskey = D
+ab-search-dialog-title = アドレスを検索
+ab-search-dialog-close-cmd =
+    .key = W
