@@ -937,7 +937,13 @@ fxa-login-rejected-warning =
 sync-sign-out =
     .label = ログアウト...
     .accesskey = g
+sync-sign-out2 =
+    .label = ログアウト
+    .accesskey = g
 sync-manage-account = アカウントの管理
+    .accesskey = o
+sync-manage-account2 =
+    .label = アカウントの管理
     .accesskey = o
 
 ## Variables
