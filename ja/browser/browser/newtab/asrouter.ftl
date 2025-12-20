@@ -235,6 +235,8 @@ annotations-default-pdf-handler-headline = 好きなところに署名しまし�
 annotations-default-pdf-handler-body = ご自分の署名を手書き、入力またはアップロードしたら、任意の場所に配置してください。次回のために、よく使う署名を保存しておきましょう。
 annotations-make-default-pdf-handler-title = { -brand-short-name } を@@Default-@@ PDF エディターにしませんか？
 annotations-make-default-pdf-handler-subtitle = PDF を開くと毎回 { -brand-short-name } のツールが使用できるようになります。
+annotations-make-default-pdf-primary-cta-label = @@Default@@に設定
+annotations-make-default-pdf-next-label = 次へ
 annotations-make-default-pdf-primary-cta =
     .label = @@Default@@に設定
 annotations-make-default-pdf-next =
@@ -415,3 +417,5 @@ etp-strict-exceptions-infobar-button = 修正を適用
     .accesskey = A
 etp-strict-exceptions-infobar-not-now = 後で
     .accesskey = N
+
+## 'Set to default' messaging displayed within the App menu
