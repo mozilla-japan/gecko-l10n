@@ -1057,6 +1057,8 @@ sync-device-name-save =
     .label = 保存
     .accesskey = v
 sync-connect-another-device = 別の端末を接続
+sync-connect-another-device-2 =
+    .label = 別の端末を接続
 
 ## These strings are shown in a desktop notification after the
 ## user requests we resend a verification email.
