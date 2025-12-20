@@ -888,6 +888,11 @@ containers-settings-button =
 containers-remove-button =
     .label = 削除
 
+## Account and sync
+
+sync-group-label =
+    .label = 同期
+
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
@@ -951,6 +956,9 @@ prefs-syncing-off = 同期: オフ
 prefs-sync-turn-on-syncing =
     .label = 同期をオンにしています...
     .accesskey = s
+prefs-sync-turn-on-syncing-2 =
+    .label = 同期をオンにしています
+    .accesskey = s
 prefs-sync-offer-setup-label2 = ブックマーク、履歴、タブ、パスワード、アドオン、設定をあなたのすべての端末に対して同期させます。
 prefs-sync-now =
     .labelnotsyncing = 今すぐ同期
@@ -959,8 +967,14 @@ prefs-sync-now =
 prefs-sync-now-button =
     .label = 今すぐ同期
     .accesskey = N
+prefs-sync-now-button-2 =
+    .label = 今すぐ同期
+    .accesskey = N
 prefs-syncing-button =
     .label = 同期中...
+prefs-syncing-button-2 =
+    .label = 同期中...
+    .title = 今すぐ同期
 
 ## The list of things currently syncing.
 
@@ -1041,6 +1055,8 @@ sync-choose-what-to-sync-dialog4 =
 ## The device name controls.
 
 sync-device-name-header = 端末名
+sync-device-name-header-2 =
+    .label = 端末名
 # Variables:
 #   $placeholder (string) - The placeholder text of the input
 sync-device-name-input =
