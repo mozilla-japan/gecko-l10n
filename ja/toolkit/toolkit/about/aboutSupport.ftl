@@ -129,8 +129,12 @@ place-database-stats-size-kib = サイズ (KiB)
 place-database-stats-size-perc = サイズ (%)
 place-database-stats-efficiency-perc = 効率 (%)
 place-database-stats-sequentiality-perc = 連続性 (%)
-place-database-integrity = 完全性
-place-database-verify-integrity = 完全性を検証
+place-database-integrity = 整合性
+place-database-verify-integrity = 整合性を検証
+place-database-last-idle-maintenance-data = 最終アイドルメンテナンス実行日時
+# Vacuum refers to a type of database maintenance process
+place-database-last-vacuum-date = 最終バキューム実行日時
+place-database-last-integrity-corruption-date = 最終整合性破損日時
 a11y-title = アクセシビリティ
 a11y-activated = 有効
 a11y-force-disabled = アクセシビリティの無効化
