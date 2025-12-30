@@ -177,8 +177,17 @@ fp-neterror-offline-body-title = インターネット接続に問題がある�
 
 fp-neterror-connection-intro = { -brand-short-name } が { $hostname } のサーバーへの安全な接続を確立できません。
 fp-neterror-offline-intro = { -brand-short-name } が <strong>{ $hostname }</strong> のサーバーに接続できません
+fp-neterror-coop-coep-intro = { -brand-short-name } がこのページを読み込みを中止しました。セキュリティ設定が前のページと一致していないようです。
+fp-neterror-http-auth-disabled-intro = 悪意のある何者かがサイトにあなたのユーザー名やパスワード、メールアドレスなどの個人情報を盗ませようとしています。
+fp-neterror-http-auth-disabled-secure-connection = このサイトには安全な接続が必要です。訪問するために例外を追加することはできません。
+fp-neterror-why-did-this-happen = なぜこのようなことが起こったのか？
 # This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
 fp-neterror-cypher-overlap-why-dangerous-body = このサイトは既知のセキュリティの問題が修正されていない古いソフトウェアを使用しているようです。
+fp-neterror-http-auth-disabled-why-dangerous-body = 接続が安全でないため、{ -brand-short-name } は { $hostname } を信頼しません。
 # This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
 fp-neterror-cypher-overlap-what-can-you-do-body = メニューから @@[@@ヘルプ@@]@@ > @@[@@{ -brand-short-name } について@@]@@ を開き、最新バージョンの { -brand-short-name } を使用していることを確認してください。最新の { -brand-short-name } を使用している場合、おそらくサイト自体に問題があります。
 fp-neterror-offline-what-can-you-do-body = 別の端末で接続してみてください。モデムやルーターを確認してください。Wi-Fi の接続を一旦解除し、再接続してみてください。
+fp-neterror-http-auth-disabled-what-can-you-do-body = URL を HTTPS に変更してみてください。ただし、サイト側に問題が残っている可能性があります。
+# This string appears after the following string: "Why did this happen?" (fp-neterror-why-did-this-happen)
+fp-neterror-coop-coep-why-did-this-happen-body = 時々、ウェブサイト側で他のサイトとの望まない通信を防止するよう設定されていることがあります。
+fp-learn-more-about-https-connections = HTTPS 接続についての詳細情報
