@@ -824,6 +824,13 @@ search-show-suggestions-url-bar-option =
     .accesskey = l
 search-suggestions-cant-show-2 =
     .message = { -brand-short-name } に履歴を保存しないよう設定されているため、ロケーションバーに検索候補が表示されません。
+addressbar-header-1 =
+    .label = アドレスバー
+    .description = アドレスバーに表示する候補を選択してください。
+# When Firefox Suggest is enabled, this replaces `addressbar-header-1`.
+addressbar-header-firefox-suggest-2 =
+    .label = { -firefox-suggest-brand-name }
+    .description = { -brand-short-name } とパートナー企業からの候補をアドレスバーに表示します。
 # With this option enabled, on the search results page
 # the URL will be replaced by the search terms in the address bar.
 search-show-search-term-option-2 =
@@ -1440,7 +1447,7 @@ forms-handle-cookie-banners =
 cookie-banner-blocker-checkbox-label =
     .label = 自動的に Cookie バナーを拒否する
 
-## Privacy Section - Address Bar
+## Search Section
 
 addressbar-header = アドレスバー
 addressbar-suggest-1 = アドレスバーに表示する候補を選択してください。
@@ -1484,6 +1491,13 @@ addressbar-locbar-engines-option =
 addressbar-locbar-quickactions-option =
     .label = クイックアクション
     .accesskey = Q
+# Toggles whether suggestions are obtained from Firefox Suggest or not (local or online).
+addressbar-locbar-suggest-all-option-2 =
+    .label = { -brand-short-name } からの検索候補
+    .description = 検索語句に関連する候補をウェブから取得します
+addressbar-locbar-suggest-sponsored-option-2 =
+    .label = スポンサーからの提案
+    .description = スポンサーからの提案を随時表示して { -brand-short-name } を支援します
 addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
 addressbar-locbar-showrecentsearches-option =
     .label = 最近の検索を表示する
@@ -1510,6 +1524,9 @@ addressbar-locbar-suggest-sponsored-desc = スポンサーからの提案を随�
 # by Mozilla.
 addressbar-firefox-suggest-online =
     .label = 入力に応じて Mozilla からの候補を取得する
+addressbar-dismissed-suggestions-label-2 =
+    .label = 閉じた提案
+    .description = スポンサーと { -brand-short-name } からの閉じてしまった提案を復元します。
 addressbar-quickactions-learn-more = 詳細情報
 addressbar-dismissed-suggestions-label = 閉じた提案
 addressbar-restore-dismissed-suggestions-description = スポンサーと { -brand-short-name } からの閉じてしまった提案を復元します。
