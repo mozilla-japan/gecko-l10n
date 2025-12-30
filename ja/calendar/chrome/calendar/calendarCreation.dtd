@@ -34,6 +34,5 @@
 <!ENTITY network.loading.description "カレンダーが見つかるまでしばらくお待ちください。">
 <!ENTITY network.notfound.description "この場所にカレンダーが見つかりませんでした。設定を確認してください。">
 <!ENTITY network.authfail.description "入力した認証情報が拒否されました。設定を確認してください。">
-<!ENTITY network.certerror.description "この場所にカレンダーが見つかりませんでした。証明書に問題があります。">
 <!ENTITY network.subscribe.single.description "購読するカレンダーを選択してください。">
 <!ENTITY network.subscribe.multiple.description "この場所では複数のカレンダー形式が利用できます。カレンダーの形式を選択し、購読するカレンダーにチェックを入れてください。">
