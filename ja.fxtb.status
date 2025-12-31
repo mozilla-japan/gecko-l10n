@@ -202,4 +202,5 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 fxsrc | browser, toolkit         1ec47e0b (2025-11-25)  kazushi      sync browser, toolkit
 fxsrc | browser, dom, toolkit    31b7652d (2025-12-02)  mar          sync browser, dom, toolkit
 fxsrc | dom, toolkit             3f78b702 (2025-12-19)  mar          sync dom, toolkit
+tbsrc | calendar, mail           ed5fe498 (2025-12-15)  kazushi      sync calendar, mail
 

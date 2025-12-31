@@ -14,7 +14,9 @@
 <!ENTITY month.10.name "10月" >
 <!ENTITY month.11.name "11月" >
 <!ENTITY month.12.name "12月" >
-
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY showToday.tooltip "今日へ移動します">
 <!ENTITY onedayforward.tooltip "次の日へ移動します">
 <!ENTITY onedaybackward.tooltip "前の日へ移動します">
