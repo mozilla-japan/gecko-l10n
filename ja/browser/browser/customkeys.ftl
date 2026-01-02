@@ -35,3 +35,5 @@ customkeys-nav-reload = 再読み込み
 customkeys-nav-reload-skip-cache = 再読み込み (キャッシュ上書き)
 customkeys-nav-stop = 停止
 customkeys-caution-message = この機能は実験段階のため、期待通りに動作しない可能性があります。
+# Displayed in the new key field when the key that was pressed isn't valid.
+customkeys-key-invalid = 無効

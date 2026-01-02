@@ -22,20 +22,34 @@ about-translations-input-placeholder =
     .placeholder = 翻訳するテキストを追加してください
 # Text displayed on the source-language selector when no explicit option is selected
 # and no language has been identified from the content of the source-language text area.
-about-translations-detect-default = 言語を検知
+about-translations-detect-default-label =
+    .label = 言語を検知
 # Text displayed on the source-language selector when no explicit option is selected
 # and a valid language has been identified from the content of the source-language text area.
 # Variables:
 #   $language (string) - The localized display name of the detected language
-about-translations-detect-language = { $language } (検知)
+about-translations-detect-language-label =
+    .label = { $language } (検知)
 # Placeholder text shown in the target-language output area when no translation has occurred.
 about-translations-output-placeholder =
     .placeholder = 翻訳先
+# Button label for copying the translated output to the clipboard.
+about-translations-copy-button-default =
+    .label = コピー
+    .title = 翻訳をコピーします
+# Button label shown after the translated output has been copied to the clipboard.
+about-translations-copy-button-copied =
+    .label = コピーしました
+    .title = 翻訳をコピーしました
 # Text displayed on target-language selector when no language option is selected.
-about-translations-select = 言語を選択
+about-translations-select-label =
+    .label = 言語を選択
 # A message displayed in the target-language output area while waiting for the translation to complete.
 about-translations-translating-message = 翻訳中...
 # The title attribute for the swap languages button, which swaps the selected
 # source and target languages, reversing the direction of translation.
 about-translations-swap-languages =
     .title = 翻訳元と翻訳先の言語を入れ替えます
+# The title attribute for the button that clears the source text area.
+about-translations-clear-button =
+    .title = 翻訳元のテキストを消去します

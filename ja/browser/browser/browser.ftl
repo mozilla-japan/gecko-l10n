@@ -292,6 +292,9 @@ urlbar-star-edit-bookmark =
 #   $shortcut (String) - A keyboard shortcut for the add bookmark command.
 urlbar-star-add-bookmark =
     .tooltiptext = このページをブックマークに追加します ({ $shortcut })
+urlbar-split-view-button =
+    .tooltiptext = 分割ビュー
+    .aria-label = 分割ビュー
 
 ## Page Action Context Menu
 
@@ -529,6 +532,8 @@ identity-clear-site-data =
 identity-connection-not-secure-security-view = このサイトとの接続は安全ではありません。
 identity-connection-verified = このサイトとの接続は安全です。
 identity-ev-owner-label = 証明書の発行先:
+# "qualified" here refers to the qualified website authentication certificate presented by the site.
+identity-etsi = Regulation (EU) 2024/1183 に規定された要件を満たしています。
 identity-description-custom-root2 = Mozilla はこの証明書の発行者を承認していません。OS またはシステム管理者により追加された可能性があります。
 identity-remove-cert-exception =
     .label = 例外から削除
@@ -835,6 +840,9 @@ urlbar-result-menu-dont-show-market =
     .label = 市場データの候補を表示しない
 # A message that replaces a result when the user dismisses Market suggestions.
 urlbar-result-dismissal-acknowledgment-market = フィードバックありがとうございます。今後は市場データの検索候補を表示しません。
+# This a11y label is read by screen readers when an item in the row is selected.
+urlbar-result-aria-group-market =
+    .aria-label = 株式市場の候補
 # A message that replaces a result when the user dismisses all suggestions of a
 # particular type.
 urlbar-result-dismissal-acknowledgment-all = フィードバックありがとうございます。今後はこれらの検索候補を表示しません。
@@ -1511,3 +1519,4 @@ trustpanel-fingerprinter-list-header = 以下のサイトがあなたのフィ�
 trustpanel-cryptominer-blocking-tab-header = { -brand-product-name } が { $count } 個の暗号通貨マイニングをブロックしました
 trustpanel-cryptominer-not-blocking-tab-header = { -brand-product-name } が { $count } 個の暗号通貨マイニングを許可しました
 trustpanel-cryptominer-tab-list-header = 以下のサイトがあなたのコンピューターを暗号通貨マイニングに利用しようとしています:
+trustpanel-blocker-section-header2 = このサイトで <span data-l10n-name="count">{ $count }</span> 個のトラッカーをブロックしました
