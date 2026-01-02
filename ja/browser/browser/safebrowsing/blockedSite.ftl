@@ -6,10 +6,12 @@ safeb-blocked-phishing-page-title = この先は詐欺サイトです
 safeb-blocked-malware-page-title = このウェブサイトを訪れるとあなたのコンピューターを損なう恐れがあります
 safeb-blocked-unwanted-page-title = この先のサイトには有害なプログラムが含まれている可能性があります
 safeb-blocked-harmful-page-title = マルウェアを含むサイトの可能性があります
+safeb-blocked-addon-page-title = 安全のためサイトをブロックしました
 safeb-blocked-phishing-page-short-desc = このページは、危険なソフトウェアをインストールさせたりパスワードやクレジットカード番号などの個人情報を盗み取られるなどの危険性があるため、{ -brand-short-name } によりブロックされました。
 safeb-blocked-malware-page-short-desc = このページは、コンピューター上のあなた個人情報を盗んだり削除したりする悪意のあるソフトウェアをインストールしようとしているため、{ -brand-short-name } によりブロックされました。
 safeb-blocked-unwanted-page-short-desc = このページは、ユーザーのブラウザー設定を変更する (例えば、ホームページ設定を変更したり訪れたサイトの公告を表示させたりする) 有害なプログラムをインストールさせる恐れがあるため、{ -brand-short-name } によりブロックされました。
-safeb-blocked-harmful-page-short-desc = このページは、あなたの情報 (例えば、写真、パスワード、メッセージやクレジットカード番号) を盗んだり消去したりする危険なアプリをインストールしようとする可能性があるため、{ -brand-short-name } によってブロックされました。
+safeb-blocked-harmful-page-short-desc = このページは、あなたの情報 (例えば、写真、パスワード、メッセージやクレジットカード番号) を盗んだり消去したりする危険なアプリをインストールしようとする可能性があるため、{ -brand-short-name } によりブロックされました。
+safeb-blocked-addon-page-short-desc = このページは、インストールしたアドオンが開こうとしており、{ -brand-short-name } によりブロックされました。このサイトはパスワードやクレジットカード番号などの個人情報を盗み取ろうとする危険性があります。
 # Variables:
 #   $advisoryname (string) - Name of the advisory entity
 safeb-palm-advisory-desc = 勧告の提供者: <a data-l10n-name='advisory_provider'>{ $advisoryname }</a>。
@@ -62,3 +64,13 @@ safeb-blocked-harmful-page-learn-more = { -brand-short-name } のフィッシン
 safeb-palm-notdeceptive =
     .label = 詐欺サイトの誤報告を指摘...
     .accesskey = d
+
+## Variables:
+##  $addonName (string) - the name of the harmful add-on
+##  $sitename (string) - Domain name for the blocked page
+
+safeb-blocked-addon-page-error-desc-override = <strong>このサイトがブロックされた理由</strong>
+safeb-blocked-addon-page-error-desc2-override = <strong>{ $sitename }</strong> は詐欺サイトや有害サイトへのリンクが含まれている危険性があります。
+safeb-blocked-addon-page-error-desc3-override = <strong>これに対処するには？</strong>
+safeb-blocked-addon-page-error-desc4-override = このようなことが再び起こらないようにするには、about:addons から <strong>{ $addonName }</strong> を削除するか無効化してください。
+safeb-blocked-addon-page-learn-more = <a data-l10n-name='firefox_support'>{ -brand-short-name } のフィッシング詐欺とマルウェアからの保護機能についての詳細情報</a>。

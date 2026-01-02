@@ -21,6 +21,9 @@ permissions-session =
 permissions-allow =
     .label = 許可
     .accesskey = A
+permissions-add =
+    .label = 追加
+    .accesskey = A
 permissions-button-off =
     .label = オフにする
     .accesskey = O
@@ -68,8 +71,8 @@ permissions-capabilities-listitem-off-temporarily =
 
 ## Invalid Hostname Dialog
 
-permissions-invalid-uri-title = 無効なホスト名が入力されました
-permissions-invalid-uri-label = 有効なホスト名を入力してください
+permissions-invalid-uri-title = 不正なホスト名が入力されました
+permissions-invalid-uri-label = 正しいホスト名を入力してください
 
 ## Exceptions - Tracking Protection
 

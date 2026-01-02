@@ -159,6 +159,9 @@ link-preview-onboarding-callout-description = 概要や読了時間などを確�
 sidebar-button-callout-title = タブのタイトルをサイドバーに表示する
 sidebar-button-callout-subtitle = サイドバーボタンでサイドバーを展開すると、タブのタイトルを確認できます。
 sidebar-button-callout-vertical-tabs = タブを表示するには、ツールバーのサイドバーボタンを選択します。
+sidebar-deprecation-callout-title = 新しくなったサイドバーが間もなく登場
+sidebar-deprecation-callout-subtitle = 現在ご使用のバージョンのサイドバーは段階的に廃止されます。新しいサイドバーをお試しください。より速く、多くのツールにアクセスできます。
+sidebar-deprecation-cta-button = 今すぐ試す
 
 ## Sidebar Vertical Tabs Strings
 
