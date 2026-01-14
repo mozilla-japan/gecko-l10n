@@ -323,18 +323,16 @@ newtab-custom-recent-subtitle = 最近のサイトとコンテンツの抜粋
 newtab-custom-weather-toggle =
     .label = 天気予報
     .description = 一目でわかる今日の天気
-newtab-custom-trending-search-toggle =
-    .label = トレンド検索
-    .description = 人気があり頻繁に検索されているトピックです
 newtab-custom-widget-weather-toggle =
     .label = 天気予報
-newtab-custom-widget-trending-search-toggle =
-    .label = トレンド検索
 newtab-custom-widget-lists-toggle =
     .label = ToDo リスト
 newtab-custom-widget-timer-toggle =
     .label = タイマー
 newtab-custom-widget-section-title = ウィジェット
+newtab-custom-widget-section-toggle =
+    .label = ウィジェット
+newtab-widget-manage-title = ウィジェット
 # Tooltip for close button
 newtab-custom-close-menu-button =
     .title = 閉じる
@@ -615,17 +613,6 @@ newtab-report-cancel = キャンセル
 newtab-report-submit = 送信
 newtab-toast-thanks-for-reporting =
     .message = ご報告ありがとうございます。
-
-## Strings for trending searches
-
-newtab-trending-searches-show-trending =
-    .title = トレンド検索を表示します
-newtab-trending-searches-hide-trending =
-    .title = トレンド検索を隠します
-newtab-trending-searches-learn-more = 詳細情報
-newtab-trending-searches-dismiss = トレンド検索を隠す
-# "Trending searches refers to popular searches from search engines
-newtab-trending-searches-title = トレンド検索
 
 ## Strings for task / to-do list productivity widget
 
