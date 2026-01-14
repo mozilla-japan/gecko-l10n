@@ -140,6 +140,16 @@ folder-name-all-mail = すべてのメール
 menu-file-save-as-file =
     .label = ファイル...
     .accesskey = F
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label = フォルダーを最適化
+    .accesskey = F
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = すべてのフォルダーを最適化
+    .accesskey = F
 
 ## Edit Menu
 
@@ -515,7 +525,7 @@ menu-delete-spam =
 
 folder-context-empty-spam =
     .label = 迷惑メールフォルダーを空にする
-    .accesskey = S
+    .accesskey = E
 
 ## Thread pane.
 
@@ -539,7 +549,6 @@ archive-action = アーカイブ
 
 ## Message list.
 
-message-flag-spam = 迷惑メール
 menuitem-label-spam =
     .label = 迷惑メール
 menuitem-label-spam-score-origin =

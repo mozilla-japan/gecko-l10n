@@ -68,6 +68,9 @@ genai-menu-remove-provider =
     .label = { $provider } を削除
 genai-menu-remove-sidebar =
     .label = サイドバーから削除
+# $provider (string) - name of the AI chat provider
+genai-shortcut-button =
+    .aria-label = { $provider } に尋ねる
 genai-menu-new-badge = 新機能
 genai-menu-summarize-page = ページを要約
 genai-input-ask-generic =
@@ -226,9 +229,13 @@ genai-model-optin-cancel =
 #   $range (String): The range of minutes as a localised string. Examples: "3-7", "~1".
 link-preview-reading-time = 読了時間 { $range } 分
 # Error message displayed when a link preview cannot be generated
+link-preview-error-message-v2 = { -brand-short-name } はこのリンクをプレビューできません
+# Error message displayed when a link preview cannot be generated
 link-preview-error-message = このリンクはプレビューできません
 # Text for the link to visit the original URL when in error state
 link-preview-visit-link = リンク先を開く
+# Error message when key points generation (summary highlights or main ideas of page content) fails for a page
+link-preview-generation-error-missing-data-v2 = { -brand-short-name } はこのウェブページの要点を生成できません。
 # Error message when we can't generate key points (summary highlights or main ideas of page content) for a page
 link-preview-generation-error-missing-data = このウェブページの要点を生成できません。
 # Error message when something went wrong during key point generation

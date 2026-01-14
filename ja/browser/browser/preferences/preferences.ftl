@@ -316,6 +316,11 @@ preferences-web-appearance-override-warning3 =
     .message = コントラスト制御の設定でウェブサイトの外観を上書きします。
 preferences-web-appearance-link =
     .label = アドオンとテーマで { -brand-short-name } のテーマを管理する
+preferences-contrast-control-group =
+    .label = ウェブサイトのコントラスト
+    .description = ウェブサイトは様々な前景@@Color@@と背景@@Color@@を使用しています。コントラストを均一にするため、ウェブサイトが同じ@@Colors@@を使用するように設定します。
+preferences-contrast-control-radio-group =
+    .label = @@Colors@@を上書き
 # This can appear when using windows HCM or "Override colors: always" without
 # system colors.
 preferences-web-appearance-override-warning = 選択した@@Colors@@でウェブサイトの外観を上書きします。<a data-l10n-name="colors-link">@@Colors@@の管理</a>
@@ -386,6 +391,68 @@ translate-attribution = 翻訳:  <img data-l10n-name="logo"/>
 translate-exceptions =
     .label = 例外...
     .accesskey = x
+settings-translations-header =
+    .label = 翻訳
+    .aria-label = 翻訳
+    .description = ページまたは選択したテキストを翻訳します。ユーザーのプライバシーを保護するため、翻訳は端末上で処理されます。
+settings-translations-offer-to-translate-label =
+    .label = ページ全体の翻訳を使用する
+settings-translations-more-settings-button =
+    .label = 他の翻訳設定
+    .description = 言語、ウェブサイト、オフライン翻訳の設定。
+settings-translations-subpage-header =
+    .heading = 他の翻訳設定
+settings-translations-subpage-speed-up-translation-header =
+    .label = 翻訳速度を向上
+    .description = 高速な翻訳とオフライン翻訳のために言語ファイルをダウンロードします。
+settings-translations-subpage-automatic-translation-header =
+    .label = 自動翻訳
+settings-translations-subpage-always-translate-header =
+    .label = 以下のページは常に翻訳します
+settings-translations-subpage-never-translate-header =
+    .label = 以下の言語は翻訳しません
+settings-translations-subpage-never-translate-sites-header =
+    .label = 以下のサイトは翻訳しません
+# The icon placeholders show the translations button and the settings gear in the urlbar panel.
+settings-translations-subpage-never-translate-sites-description = サイトを追加するには <img data-l10n-name="translations-icon"/> 翻訳パネルを開いて <img data-l10n-name="settings-icon"/> 翻訳設定を選択し、@@[@@このサイトを翻訳しない@@]@@ を選択してください。
+settings-translations-subpage-language-select-option =
+    .label = 言語を追加
+settings-translations-subpage-language-add-button =
+    .aria-label = 言語を追加
+    .title = 言語を追加します
+settings-translations-subpage-download-languages-header =
+    .label = 言語ファイルをダウンロード
+settings-translations-subpage-download-languages-select-option =
+    .label = 言語を選択
+settings-translations-subpage-download-languages-button =
+    .aria-label = 言語ファイルをダウンロード
+    .title = 言語ファイルをダウンロードします
+# Variables:
+#   $language (string) - Localized name of the language to download.
+#   $size (string) - Download size in megabytes, formatted for the locale.
+settings-translations-subpage-download-language-option = { $language } ({ $size } MB)
+    .label = { $language } ({ $size } MB)
+settings-translations-subpage-no-languages-downloaded =
+    .label = ダウンロードした言語ファイルはありません
+settings-translations-subpage-no-languages-added =
+    .label = 追加した言語はありません
+settings-translations-subpage-download-progress = ダウンロードしています...
+# Variables:
+#   $language (string) - The localized display name of the language.
+#   $size (string) - The download size of the language in megabytes.
+settings-translations-subpage-download-error = { $language } ({ $size } MB) をダウンロードできませんでした
+settings-translations-subpage-download-retry-button =
+    .label = 再試行
+# Variables:
+#   $language (string) - The localized display name of the language.
+#   $size (string) - The download size of the language in megabytes.
+settings-translations-subpage-download-delete-confirm = { $language } ({ $size } MB) を削除しますか？
+settings-translations-subpage-download-delete-button =
+    .label = 削除
+settings-translations-subpage-download-cancel-button =
+    .label = キャンセル
+settings-translations-subpage-no-sites-added =
+    .label = 追加したサイトはありません
 # Variables:
 #    $localeName (string) - Localized name of the locale to be used.
 use-system-locale =
@@ -555,6 +622,13 @@ update-in-progress-cancel-button = 続行(&C)
 
 ## Firefox support
 
+support-application-heading =
+    .label = { -brand-short-name } サポート
+    .description = Troubleshoot issues or share ideas with the community.
+support-get-help =
+    .label = ヘルプを表示
+support-share-ideas =
+    .label = アイデアとフィードバックを共有
 
 ## General Section - Performance
 
@@ -822,6 +896,15 @@ search-show-suggestions-option =
 search-show-suggestions-url-bar-option =
     .label = アドレスバーに検索候補を表示する
     .accesskey = l
+# This string describes what the user will observe when the system
+# prioritizes search suggestions over browsing history in the results
+# that extend down from the address bar. In the original English string,
+# "before" refers to location (appearing most proximate to), not time
+# (appearing before).
+search-show-suggestions-above-history-option-2 =
+    .label = アドレスバーの検索結果で閲覧履歴の前に検索候補を表示する
+search-show-suggestions-private-windows-2 =
+    .label = プライベート@@Window@@で検索候補を表示する
 search-suggestions-cant-show-2 =
     .message = { -brand-short-name } に履歴を保存しないよう設定されているため、ロケーションバーに検索候補が表示されません。
 addressbar-header-1 =
@@ -831,10 +914,17 @@ addressbar-header-1 =
 addressbar-header-firefox-suggest-2 =
     .label = { -firefox-suggest-brand-name }
     .description = { -brand-short-name } とパートナー企業からの候補をアドレスバーに表示します。
-# With this option enabled, on the search results page
-# the URL will be replaced by the search terms in the address bar.
+# With this option enabled, while on a SERP, the URL normally displayed in the
+# address bar will be replaced with the search term used to generate that SERP.
 search-show-search-term-option-2 =
-    .label = 検索結果ページのアドレスバーに検索語句を表示する
+    .label = 検索結果ページでアドレスバーに検索語句を表示する
+search-separate-default-engine-2 =
+    .label = プライベート@@Window@@では別の@@Default-@@検索エンジンを使用する
+    .accesskey = U
+search-separate-default-engine-dropdown =
+    .aria-label = プライベート@@Window@@の@@Default-@@検索エンジン
+search-suggestions-header-2 =
+    .label = 検索エンジンの候補
 # With this option enabled, on the search results page
 # the URL will be replaced by the search terms in the address bar
 # when using the current default search engine.
@@ -911,6 +1001,11 @@ containers-remove-button =
 
 sync-group-label =
     .label = 同期
+account-group-label =
+    .label = { -vendor-short-name } アカウント
+account-placeholder =
+    .label = ログインしていません
+    .description = ユーザーデータをプライベートで暗号化し、端末間で同期するにはログインしてください。
 
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
@@ -920,6 +1015,13 @@ sync-signedout-description2 = ブックマークやページの表示履歴、�
 sync-signedout-account-signin3 =
     .label = ログインして同期...
     .accesskey = i
+sync-signedout-account-signin-4 =
+    .label = アカウントにログインして同期を開始
+    .accesskey = i
+sync-signedout-account-short =
+    .label = ログイン
+    .accesskey = i
+
 # This message contains two links and two icon images.
 #   `<img data-l10n-name="android-icon"/>` - Android logo icon
 #   `<a data-l10n-name="android-link">` - Link to Android Download
@@ -958,12 +1060,23 @@ sync-manage-account2 =
 ## $name (string) - Name used for Firefox account
 
 sync-signedin-unverified = { $email } は認証されていません。
+sync-signedin-unverified2 =
+    .label = { $email } はまだ認証を確認していません
+    .description = 登録したメールアドレスの受信トレイを確認してアカウントを有効にしてください。
 sync-signedin-login-failure = { $email } に再接続するにはログインしてください。
+sync-signedin-login-failure2 =
+    .label = { $email } からログアウトしました
+    .description = ログインして再接続し、ユーザーデータの同期を開始してください。
 
 ## Variables
 ## $email (string) - Email used for Firefox account
 ## $name (string) - Name used for Firefox account
 
+sync-account-signed-in =
+    .label = { $email }
+sync-account-signed-in-display-name =
+    .label = { $name }
+    .description = { $email }
 
 ##
 
@@ -983,7 +1096,12 @@ sync-sign-in =
 ## Sync section - enabling or disabling sync.
 
 prefs-syncing-on = 同期: オン
+prefs-syncing-on-2 =
+    .label = 同期はオンです
 prefs-syncing-off = 同期: オフ
+prefs-syncing-off-2 =
+    .label = 同期はオフです
+    .description = 同期をオンにするとブックマーク、パスワード、履歴、他のデータを同期した端末上で使用できます。
 prefs-sync-turn-on-syncing =
     .label = 同期をオンにしています...
     .accesskey = s
@@ -1010,6 +1128,10 @@ prefs-syncing-button-2 =
 ## The list of things currently syncing.
 
 sync-syncing-across-devices-heading = アカウントに接続されたすべての端末でこれらの項目を同期しています:
+sync-syncing-across-devices-heading-2 = 端末間で同期したデータ
+sync-syncing-across-devices-empty-state =
+    .label = まだ何も同期していません。
+    .description = 同期を開始してすべての端末上でユーザーデータを使用できるようにしましょう。
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
 sync-currently-syncing-tabs = 開いているタブ
@@ -1022,6 +1144,9 @@ sync-currently-syncing-addons = アドオン
 sync-currently-syncing-settings = 個人設定
 sync-manage-options =
     .label = 同期の管理...
+    .accesskey = M
+sync-manage-options-2 =
+    .label = 同期データの管理
     .accesskey = M
 sync-change-options =
     .label = 変更...
@@ -1285,6 +1410,12 @@ autofill-payment-methods-add-button = @@New-CMD@@支払い方法を追加
 payments-list-header =
     .label = 支払い方法
 payments-list-item-label = <strong>支払い方法</strong>
+payments-delete-payment-prompt-title = この支払い方法を削除しますか？
+payments-delete-payment-prompt-confirm-button = 削除
+payments-delete-payment-prompt-cancel-button = キャンセル
+# This message is displayed when no payment methods such as credit card are stored in Firefox
+payments-no-payments-stored-message =
+    .label = 追加した支払い方法はありません
 payments-remove-payment-prompt-title = この支払い方法を削除しますか？
 payments-remove-payment-prompt-confirm-button = 削除
 payments-remove-payment-prompt-cancel-button = キャンセル
@@ -1297,10 +1428,32 @@ autofill-addresses-checkbox-message =
 autofill-addresses-manage-addresses-button =
     .label = 住所などを管理する
     .accesskey = M
+addresses-list-header =
+    .label = 住所
+addreses-delete-address-button-label =
+    .aria-label = 削除
+addreses-edit-address-button-label =
+    .aria-label = 編集
+addresses-delete-address-prompt-title = この住所を削除しますか？
+addresses-delete-address-prompt-confirm-button = 削除
+addresses-delete-address-prompt-cancel-button = キャンセル
+autofill-addresses-add-button = Add new address
+autofill-addresses-manage-addresses-title =
+    .heading = 住所などの管理
+# This message is displayed when no addresses are stored in Firefox
+addresses-no-addresses-stored-message =
+    .label = 追加した住所はありません
+# These values are displayed for each address record listed on the "Manage addresses and more" subpage.
+# Variables:
+#   $name (string) - The name associated with the address
+#   $address (string) - The address
+address-moz-box-item =
+    .label = { $name }
+    .description = { $address }
 # These values are displayed for each credit card record listed on the Manage Payment methods
 # settings page.
 # Variables:
-#   $cardNumber (string) - The obscured credit card number (for example: 2423 *********)
+#   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
 #   $expDate (string) - The obscured expiry date of the credit card (for example: XX/2027)
 payment-moz-box-item =
     .label = { $cardNumber }
@@ -1491,6 +1644,12 @@ addressbar-locbar-engines-option =
 addressbar-locbar-quickactions-option =
     .label = クイックアクション
     .accesskey = Q
+addressbar-locbar-showrecentsearches-option-2 =
+    .label = 最近の検索
+    .accesskey = r
+addressbar-locbar-showtrendingsuggestions-option-2 =
+    .label = トレンド検索候補
+    .accesskey = t
 # Toggles whether suggestions are obtained from Firefox Suggest or not (local or online).
 addressbar-locbar-suggest-all-option-2 =
     .label = { -brand-short-name } からの検索候補
@@ -1523,10 +1682,12 @@ addressbar-locbar-suggest-sponsored-desc = スポンサーからの提案を随�
 # with their own vendor name, since the online suggest is created and maintained
 # by Mozilla.
 addressbar-firefox-suggest-online =
-    .label = 入力に応じて Mozilla からの候補を取得する
+    .label = 入力に応じて Mozilla からの提案を取得する
 addressbar-dismissed-suggestions-label-2 =
     .label = 閉じた提案
     .description = スポンサーと { -brand-short-name } からの閉じてしまった提案を復元します。
+addressbar-restore-dismissed-suggestions-button-2 =
+    .label = 提案を復元
 addressbar-quickactions-learn-more = 詳細情報
 addressbar-dismissed-suggestions-label = 閉じた提案
 addressbar-restore-dismissed-suggestions-description = スポンサーと { -brand-short-name } からの閉じてしまった提案を復元します。
