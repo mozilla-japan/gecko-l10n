@@ -764,8 +764,13 @@ home-homepage-title =
 ## Custom Homepage subpage
 
 home-custom-homepage-header = カスタムホームページ
+home-custom-homepage-subpage =
+    .heading = カスタムホームページ
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
 home-custom-homepage-subheader = ウェブサイトのアドレス
+# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
+home-custom-homepage-card =
+    .heading = ウェブサイトのアドレス
 home-custom-homepage-address =
     .placeholder = アドレスを入力してください
 home-custom-homepage-address-button =
@@ -785,7 +790,6 @@ home-custom-homepage-bookmarks-button =
 ## Home Section - Firefox Home Content Customization
 
 home-prefs-content-header2 = { -firefox-home-brand-name } コンテンツ
-home-prefs-content-header3 = { -firefox-home-brand-name }
 home-prefs-content-description2 = { -firefox-home-brand-name } に表示するコンテンツを選んでください。
 home-prefs-search-header =
     .label = ウェブ検索
@@ -845,9 +849,6 @@ home-prefs-weather-description = 一目でわかる今日の天気
 home-prefs-weather-learn-more-link = 詳細情報
 home-prefs-widgets-header =
     .label = ウィジェット
-home-prefs-trending-search-header =
-    .label = トレンド検索
-home-prefs-trending-search-description = 人気があり頻繁に検索されているトピックです
 # Lists is a widget on New Tab, similar to a to-do widget
 home-prefs-lists-header =
     .label = ToDo リスト
@@ -1021,7 +1022,6 @@ sync-signedout-account-signin-4 =
 sync-signedout-account-short =
     .label = ログイン
     .accesskey = i
-
 # This message contains two links and two icon images.
 #   `<img data-l10n-name="android-icon"/>` - Android logo icon
 #   `<a data-l10n-name="android-link">` - Link to Android Download
@@ -1819,14 +1819,6 @@ tracking-manage-exceptions =
 permissions-header = 許可設定
 permissions-location = 位置情報
 permissions-location-settings =
-    .label = 設定...
-    .accesskey = t
-permissions-localhost = 端末のアプリとサービス
-permissions-localhost-settings =
-    .label = 設定...
-    .accesskey = t
-permissions-local-network = ローカルネットワークの端末
-permissions-local-network-settings =
     .label = 設定...
     .accesskey = t
 permissions-xr = VR デバイス
