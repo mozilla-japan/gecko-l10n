@@ -237,14 +237,14 @@ link-preview-generation-error-unexpected = 問題が発生しました。
 link-preview-generation-retry = 再度試す
 # Button that opens the Link Preview settings
 link-preview-settings-button =
-    .title = リンクプレビュー設定
+    .title = リンク先プレビュー設定
 link-preview-settings-enable =
-    .label = リンクプレビューを有効にする
-    .description = See the page title, description, and more when you use the shortcut or right-click on a link.
+    .label = リンク先プレビューを有効にする
+    .description = リンクをショートカット操作または右クリックし、リンク先ページのタイトルや説明をプレビュー表示します。
 link-preview-settings-key-points =
     .label = AI にページの冒頭を読み込んで要点を生成することを許可する
 link-preview-settings-long-press =
-    .label = ショートカット: リンクを 1 秒以上長押しします
+    .label = リンク先プレビューのショートカットを有効にする (リンクを 1 秒以上長押し)
 # Title that appears when user is shown the opt-in flow for link previews
 link-preview-optin-title = AI でさらに表示しますか？
 # Message that appears when user is shown the opt-in flow for link previews
@@ -269,4 +269,4 @@ link-preview-onboarding-close = 閉じる
 # Title for the first-time setup modal
 link-preview-first-time-setup-title = 初回セットアップ
 # Message for the first-time setup modal
-link-preview-first-time-setup-message = しばらくお待ちください。次回からはキーポイントがすばやく表示されます。
+link-preview-first-time-setup-message = しばらくお待ちください。次回からは要点がすばやく表示されます。
