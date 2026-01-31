@@ -272,6 +272,11 @@ containers-remove-cancel-button = 削除しない
 settings-tabs-show-image-in-preview =
     .label = タブにカーソルを合わせた時にプレビュー画像を表示する
     .accessKey = h
+browser-layout-header2 =
+    .label = ブラウザーレイアウト
+browser-layout-show-sidebar2 =
+    .label = サイドバーを表示
+    .description = ブックマーク、同期したタブ、AI チャットボットなど、メインビューを切り替えずにすばやくアクセスできます。
 browser-layout-header = ブラウザーレイアウト
 browser-layout-horizontal-tabs =
     .label = 水平タブ
@@ -2140,3 +2145,6 @@ preferences-doh-manage-exceptions =
 desktop-folder-name = デスクトップ
 downloads-folder-name = ダウンロード
 choose-download-folder-title = ダウンロードフォルダーを選択:
+
+## AI controls page
+
