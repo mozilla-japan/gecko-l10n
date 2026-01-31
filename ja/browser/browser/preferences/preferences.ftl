@@ -12,6 +12,8 @@ do-not-track-option-always =
 global-privacy-control-description =
     .label = ウェブサイトにユーザーデータの販売や共有の拒否を通知する
     .accesskey = s
+non-technical-privacy-group =
+    .label = ウェブサイトのプライバシー設定
 non-technical-privacy-header = ウェブサイトのプライバシー設定
 non-technical-privacy-label =
     .aria-label = { non-technical-privacy-header }
@@ -249,6 +251,8 @@ browser-containers-settings =
     .label = 設定...
     .accesskey = i
 containers-disable-alert-title = すべてのコンテナータブを閉じますか？
+startup-group =
+    .label = 起動
 
 ## Variables:
 ##   $tabCount (number) - Number of tabs
@@ -282,6 +286,9 @@ browser-layout-show-sidebar-desc = ブックマーク、同期したタブ、AI 
 ## General Section - Language & Appearance
 
 language-and-appearance-header = 言語と外観
+appearance-group =
+    .label = ウェブサイトの外観
+    .description = 一部のウェブサイトはあなたの設定をもとにカラースキームを適用します。これらのサイトでどのカラースキームを使用するか選択してください。
 preferences-web-appearance-header = ウェブサイトの外観
 preferences-web-appearance-description = 一部のウェブサイトはあなたの設定をもとにカラースキームを適用します。これらのサイトでどのカラースキームを使用するか選択してください。
 preferences-web-appearance-choice-auto2 =
@@ -571,6 +578,8 @@ applications-save-for-new-types =
 applications-ask-before-handling =
     .label = ファイルを開くか保存するかを確認する
     .accesskey = A
+drm-group =
+    .label = デジタル著作権管理 (DRM) コンテンツ
 drm-content-header = デジタル著作権管理 (DRM) コンテンツ
 play-drm-content =
     .label = DRM 制御のコンテンツを再生する
@@ -649,6 +658,8 @@ performance-limit-content-process-blocked-desc = コンテンツプロセスの�
 #   $num (number) - Default value of the `dom.ipc.processCount` pref.
 performance-default-content-process-count =
     .label = { $num } (@@Default@@)
+performance-group =
+    .label = パフォーマンス
 
 ## General Section - Browsing
 
@@ -697,6 +708,8 @@ browsing-cfr-features =
     .label = おすすめの機能を紹介する
     .accesskey = f
 browsing-cfr-recommendations-learn-more = 詳細情報
+browsing-group =
+    .label = ブラウジング
 
 ## General Section - Proxy
 
@@ -706,6 +719,9 @@ network-proxy-connection-learn-more = 詳細情報
 network-proxy-connection-settings =
     .label = 接続設定...
     .accesskey = e
+network-proxy-group =
+    .label = ネットワーク設定
+    .description = { -brand-short-name } のインターネットへの接続方法を設定します。
 
 ## Home Section
 
@@ -1464,6 +1480,10 @@ address-moz-box-item =
 payment-moz-box-item =
     .label = { $cardNumber }
     .description = { $expDate }
+addresses-group =
+    .label = 住所など
+payments-group =
+    .label = 支払い方法
 
 ## Privacy Section - History
 
@@ -1495,6 +1515,15 @@ history-remember-option-never =
     .label = 履歴を一切記憶させない
 history-remember-option-custom =
     .label = 記憶させる履歴を詳細設定する
+history-remember-description4 =
+    .aria-label = { history-group.label }
+    .description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
+history-dontremember-description4 =
+    .aria-label = { history-group.label }
+    .description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
+history-custom-description4 =
+    .aria-label = { history-group.label }
+    .description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴をカスタム設定で保存します。
 history-remember-description3 =
     .aria-label = { history-remember-label2 }
     .description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
@@ -1524,6 +1553,8 @@ history-clear-on-close-settings =
 history-clear-button =
     .label = 履歴を消去...
     .accesskey = s
+history-group =
+    .label = 履歴
 
 ## Privacy Section - Site Data
 
@@ -1590,6 +1621,8 @@ sitedata-cookies-exceptions2 =
     .label = 例外を管理
     .accesskey = x
     .description = Cookie とサイトデータの使用を常に許可するウェブサイトと今後許可しないウェブサイトを指定できます。
+cookies-site-data-group =
+    .label = Cookie とサイトデータ
 
 ## Privacy Section - Cookie Banner Handling
 
@@ -1979,6 +2012,8 @@ website-advertising-private-attribution-description = これはウェブサイ�
 ## https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
 
 security-header = セキュリティ
+browsing-protection-group =
+    .label = 詐欺コンテンツと危険なソフトウェアからの防護
 security-browsing-protection = 詐欺コンテンツと危険なソフトウェアからの防護
 security-enable-safe-browsing =
     .label = 危険な詐欺コンテンツをブロックする
@@ -2035,10 +2070,15 @@ httpsonly-radio-disabled3 =
     .description = 設定に関わらず { -brand-short-name } は一部の通信を安全な接続にアップグレードすることがあります。
 httpsonly-radio-disabled =
     .label = HTTPS-Only モードを有効にしない
+httpsonly-group =
+    .label = HTTPS-Only モード
+    .description = 安全な接続だけをウェブサイトに許可します。接続が安全でない場合は { -brand-short-name } に確認を求められます。
 
 ## DoH Section
 
 preferences-doh-header = DNS over HTTPS
+dns-over-https-group =
+    .label = DNS over HTTPS
 preferences-doh-description = Domain Name System (DNS) over HTTPS は暗号化された接続を通してドメイン名の要求を送信します。この安全な DNS によって、あなたがアクセスしようとしているウェブサイトを他者に知られないようにします。
 preferences-doh-description2 = Domain Name System (DNS) over HTTPS は暗号化された接続を通してドメイン名の要求を送信します。この安全な DNS によって、あなたがアクセスしようとしているウェブサイトを他者に知られないようにします。
 # Variables:
