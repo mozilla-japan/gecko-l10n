@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = ホスト名が入力されていないか無効な文字が含まれています。半角英数字と "-" (ハイフン)、"." (ピリオド) のみが使用可能です。
+alphanumdash-error = 未サポートの文字が含まれています。半角英数字と "-" (ハイフン)、"_" (アンダースコア) のみが使用可能です。
+allowed-value-error = 入力された値が許可リストにありません
+url-scheme-error = この URL スキームは許可されていません
+url-parsing-error = URL が正しくありません
+string-empty-error = この文字列に値を入力してください
+boolean-error = 真偽値ではありません
+no-number-error = 数値ではありません
+number-too-large-error = 数値が大きすぎます
+number-too-small-error = 数値が小さすぎます
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = サーバーに接続できませんでした
+bad-response-content-error = サーバーからの受信データが正しくありません
 
 ## readFromXML.sys.mjs
 
