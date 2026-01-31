@@ -46,6 +46,10 @@ neterror-load-error-firewall = ファイアウォールやプロキシーでネ�
 # This warning is only shown on macOS Sequoia and later (see bug 1929377)
 neterror-load-osx-permission = ローカルネットワークのページを読み込もうとしている場合、macOS の @@[@@プライバシーとセキュリティ@@]@@ 設定で { -brand-short-name } にローカルネットワークの権限が許可されているか確認してください。
 neterror-http-error-page = ウェブサイトのアドレスが正しく入力されているか確認してください。
+neterror-http-empty-response = ウェブサイトのアドレスが正しく入力されていることを確認し、しばらくしてからもう一度試してください。
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+neterror-http-empty-response-description = { $hostname } が空白ページを返しました。
 neterror-captive-portal = インターネットへ接続するには、このネットワークにログインする必要があります。
 # Variables:
 # $hostAndPath (String) - a suggested site (e.g. "www.example.com") that the user may have meant instead.
@@ -91,6 +95,7 @@ neterror-file-not-found-moved = ファイルの名前が変更、削除、また
 neterror-access-denied = ファイルが削除または移動されているかファイルの許可属性によりアクセスが拒否された可能性があります。
 neterror-unknown-protocol = このプロトコルを使用するアドレスを開くには、別のソフトウェアをインストールする必要があるかもしれません。
 neterror-redirect-loop = Cookie を無効化したり拒否していることにより、この問題が発生している可能性もあります。
+neterror-unknown-socket-type-client-config = クライアント側の設定エラーが原因となっている可能性があります。
 neterror-unknown-socket-type-psm-installed = コンピューターにパーソナルセキュリティマネージャーがインストールされているか確認してください。
 neterror-unknown-socket-type-server-config = サーバーの設定が間違っていることにより、この問題が発生している可能性もあります。
 neterror-not-cached-intro = リクエストされた { -brand-short-name } のキャッシュ内のドキュメントは、利用できません。

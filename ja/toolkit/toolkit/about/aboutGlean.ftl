@@ -156,6 +156,8 @@ about-glean-label-for-filter-metrics = 絞り込み
 # "Simple type" refers to a value type that does not have deeply-nested data, such as a boolean, number, string, or list of strings.
 about-glean-description-for-filter-metrics = 以下の表のカテゴリー、名前、型、値 からデータを絞り込みます (入れ子でない単純な値を持つ型である場合)。
 about-glean-button-load-all = すべての値を読み込む
+# A button that, when pressed, exports the data currently shown in the metrics table
+about-glean-button-export-data = データを@@Export@@
 about-glean-button-load-value = 読み込む
 # "Docs" is shorthand for "documentation"
 about-glean-button-dictionary-link = ドキュメント
@@ -165,8 +167,6 @@ about-glean-button-unwatch = 監視を解除
 about-glean-no-data-to-display = 表示するデータがありません。
 # Do not translate strings between <code> </code> tags.
 about-glean-dual-labeled-metric-warning = <code>about:glean</code> ビューでは <code>DualLabeledCounter</code> メトリクスがまだサポートされていません。
-# Do not translate strings between <code> </code> tags.
-about-glean-labeled-metric-warning = <code>about:glean</code> ビューではラベル付けされたメトリクスがまだサポートされていません。
 about-glean-unknown-metric-type-warning = メトリクスの型が不明です。
 about-glean-enable-new-features-promo =
     .message = 新機能の追加に向けて作業中です！アクションボタンをクリックすると、開発中の新機能を有効にします。

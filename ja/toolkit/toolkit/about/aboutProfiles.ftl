@@ -27,6 +27,7 @@ profiles-rootdir = ルートディレクトリー
 profiles-localdir = ローカルディレクトリー
 profiles-current-profile = これは使用中のプロファイルです。削除できません。
 profiles-in-use-profile = このプロファイルは別のアプリケーションが使用中です。削除できません。
+profiles-cannot-delete-profile = 他のプロファイルとリンクしているプロファイルは削除できません。
 profiles-rename = 名前を変更
 profiles-remove = 削除
 profiles-set-as-default = @@Default-@@プロファイルに設定
