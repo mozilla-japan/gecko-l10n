@@ -136,6 +136,10 @@ fp-certerror-pkix-not-yet-valid-why-dangerous-body = このサイトの証明書
 # Variables:
 #   $date (Date) - Device's clock date.
 fp-certerror-pkix-not-yet-valid-what-can-you-do-body = ご使用の端末の時計が { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") } { DATETIME($date, timeStyle: "short") } に設定されています。この時刻が正しい場合、おそらくサイト側にセキュリティ上の問題があります。時刻が誤っている場合は、端末のシステム設定で時刻を補正してください。
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+fp-certerror-invalid-cert-why-dangerous = { $hostname } の所有者がサーバーを正しくセットアップしていないため、安全な接続が確立できません。
 
 ## Variables:
 ##   $hostname (string) - Hostname of the website with cert error.
