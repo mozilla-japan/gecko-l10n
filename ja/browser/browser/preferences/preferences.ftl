@@ -712,6 +712,12 @@ network-proxy-connection-settings =
 home-new-windows-tabs-header = @@NewWindow@@とタブ
 home-new-windows-tabs-description2 = ホームページ、@@NewWindow@@、@@NewTab@@を開くときに表示するものを選択してください。
 
+## Home Section - Default Browser
+
+set-as-my-default-browser-2 =
+    .label = @@DefaultBrowser@@にする
+    .accesskey = D
+
 ## Custom Homepage subpage
 
 home-homepage-mode-label = ホームページと@@NewWindow@@
