@@ -20,7 +20,7 @@ cert-error-trust-self-signed = 自己署名をしているためこの証明書�
 cert-error-trust-symantec = GeoTrust および RapidSSL、Symantec、Thawte、VeriSign により発行された証明書はもはや安全とはみなされません。これらの証明書認証局は過去にセキュリティ規則に従いませんでした。
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
-cert-error-trust-certificate-transparency = { -brand-short-name } は { $hostname } が公的証明書の透明性に必須の要件を満たしているかどうかを検証できないため信頼しません。
+cert-error-trust-certificate-transparency = { $hostname } が証明書の透明性に必須の要件を満たしていることを証明できなかったため、{ -brand-short-name } はこのサイトを信頼しません。
 cert-error-untrusted-default = この証明書は信頼されている提供元から得られたものではありません。
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
@@ -122,7 +122,7 @@ fp-datetime = { DATETIME($datetime, month: "short", year: "numeric", day: "numer
 # This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
 # Variables:
 #   $hostname (String) - Hostname of the website to which the user was trying to connect.
-fp-certerror-transparency-why-dangerous-body = { -brand-short-name } は { $hostname } を信頼しません。このサイトが証明書の透明性の要件を満たしていることを立証できません。
+fp-certerror-transparency-why-dangerous-body = { $hostname } が証明書の透明性に必須の要件を満たしていることを証明できなかったため、{ -brand-short-name } はこのサイトを信頼しません。
 # This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
 fp-certerror-transparency-what-can-you-do-body = おそらくサイト側に問題があるため、あなたにできることはないでしょう。
 fp-learn-more-about-secure-connection-failures = 安全な接続の失敗についての詳細情報
@@ -136,6 +136,10 @@ fp-certerror-pkix-not-yet-valid-why-dangerous-body = このサイトの証明書
 # Variables:
 #   $date (Date) - Device's clock date.
 fp-certerror-pkix-not-yet-valid-what-can-you-do-body = ご使用の端末の時計が { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") } { DATETIME($date, timeStyle: "short") } に設定されています。この時刻が正しい場合、おそらくサイト側にセキュリティ上の問題があります。時刻が誤っている場合は、端末のシステム設定で時刻を補正してください。
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+fp-certerror-invalid-cert-why-dangerous = { $hostname } の所有者がサーバーを正しくセットアップしていないため、安全な接続が確立できません。
 
 ## Variables:
 ##   $hostname (string) - Hostname of the website with cert error.
