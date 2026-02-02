@@ -333,6 +333,8 @@ newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
 newtab-widget-manage-title = ウィジェット
+newtab-widget-manage-widget-button =
+    .label = ウィジェットを管理
 # Tooltip for close button
 newtab-custom-close-menu-button =
     .title = 閉じる
@@ -460,6 +462,8 @@ newtab-weather-change-location-search-input-placeholder =
     .placeholder = 場所を検索
     .aria-label = 場所を検索
 newtab-weather-menu-weather-display = 天気表示
+newtab-weather-todays-forecast = 今日の天気予報
+newtab-weather-see-full-forecast = 天気予報の詳細を表示
 # Display options are:
 # - Simple: Displays a current weather condition icon and the current temperature
 # - Detailed: Include simple information plus a short text summary: e.g. "Mostly cloudy"
@@ -472,6 +476,7 @@ newtab-weather-menu-temperature-option-fahrenheit = 華氏 (℉)
 newtab-weather-menu-temperature-option-celsius = 摂氏 (℃)
 newtab-weather-menu-change-temperature-units-fahrenheit = ファーレンハイト度に切り替える
 newtab-weather-menu-change-temperature-units-celsius = セルシウス度に切り替える
+newtab-weather-menu-hide-weather-v2 = 天気表示を隠す
 newtab-weather-menu-hide-weather = @@NewTab@@の天気表示を隠す
 newtab-weather-menu-learn-more = 詳細情報
 newtab-weather-menu-detect-my-location = 現在地を検出
@@ -690,6 +695,12 @@ newtab-widget-timer-menu-notifications = 通知をオフにする
 newtab-widget-timer-menu-notifications-on = 通知をオンにする
 newtab-widget-timer-menu-hide = タイマーを隠す
 newtab-widget-timer-menu-learn-more = 詳細情報
+# The title displays above a set of top news headlines.
+newtab-daily-briefing-card-title = トップニュース
+newtab-daily-briefing-card-menu-dismiss = 閉じる
+# Variables:
+#   $minutes (number) - Time since the feed has been refreshed
+newtab-daily-briefing-card-timestamp = { $minutes } 分前に更新
 newtab-widget-message-title = リストへの集中と組み込みタイマー
 # to-dos stands for "things to do".
 newtab-widget-message-copy = クイック通知から毎日の ToDo リストまで、時間内によく集中して休憩を取れるように、あなたの作業を支援します。
