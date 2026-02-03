@@ -210,4 +210,5 @@ fxsrc | browser, devtools        0b3b73db (2025-12-29)  mar          sync browse
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | dom, toolkit             29011ba4 (2026-01-29)  mar          sync dom, toolkit
+fxsrc | browser                  29011ba4 (2026-01-29)  mar          sync browser
 

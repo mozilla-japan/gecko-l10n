@@ -53,6 +53,9 @@ category-privacy =
 pane-sync-title3 = 同期
 category-sync3 =
     .tooltiptext = { pane-sync-title3 }
+pane-ai-controls-title = AI 制御
+category-ai-controls =
+    .tooltiptext = { pane-ai-controls-title }
 pane-experimental-title = 実験的な機能
 category-experimental =
     .tooltiptext = { -brand-short-name } の実験的な機能
@@ -274,6 +277,14 @@ settings-tabs-show-image-in-preview =
     .accessKey = h
 browser-layout-header2 =
     .label = ブラウザーレイアウト
+browser-layout-horizontal-tabs2 =
+    .label = 水平タブ
+    .title = タブを上部に配置します
+    .description = タブを上部に配置します
+browser-layout-vertical-tabs2 =
+    .label = 垂直タブ
+    .title = タブをサイドバー内に配置します
+    .description = タブをサイドバー内に配置します
 browser-layout-show-sidebar2 =
     .label = サイドバーを表示
     .description = ブックマーク、同期したタブ、AI チャットボットなど、メインビューを切り替えずにすばやくアクセスできます。
@@ -384,6 +395,28 @@ preferences-text-zoom-override-warning =
     .message = 警告: [文字サイズのみ変更] を選択し、@@Default-@@ズームが 100% でない場合、一部のサイトやコンテンツが正しく表示されない可能性があります。
 language-header = 言語
 choose-language-description = ウェブページの表示に使用する言語の優先順位を設定できます。
+website-language-heading =
+    .label = ウェブサイトの言語
+    .description = 一部のウェブサイトは複数の言語で表示されています。優先的に表示する言語の順序を指定してください。
+website-preferred-language =
+    .label = 優先言語
+website-add-language =
+    .label = 言語を追加
+website-add-language-button =
+    .aria-label = 選択した言語を追加します
+    .title = 選択した言語を追加します
+# The pattern used to generate strings presented to the user in the
+# website languages selection list.
+#
+# Example:
+#   Icelandic
+#   Spanish (Chile)
+#
+# Variables:
+#   $locale (String) - A name of the locale (for example: "Icelandic", "Spanish (Chile)")
+website-remove-language-button =
+    .aria-label = { $locale } を削除
+    .title = { $locale } を削除します
 choose-button =
     .label = 言語設定...
     .accesskey = o
@@ -735,6 +768,12 @@ home-new-windows-tabs-description2 = ホームページ、@@NewWindow@@、@@NewT
 
 ## Home Section - Default Browser
 
+home-default-browser-title =
+    .label = @@DefaultBrowser@@
+is-default-browser-2 =
+    .message = { -brand-short-name } が@@DefaultBrowser@@に設定されています。😊
+is-not-default-browser-2 =
+    .message = { -brand-short-name } が@@Default@@に設定されていないようです。
 set-as-my-default-browser-2 =
     .label = @@DefaultBrowser@@にする
     .accesskey = D
@@ -971,6 +1010,9 @@ suggestions-addressbar-settings-generic2 = アドレスバーの入力候補の�
 search-suggestions-cant-show = { -brand-short-name } に履歴を保存しないよう設定されているため、ロケーションバーに検索候補が表示されません。
 search-one-click-header2 = 検索ショートカット
 search-one-click-desc = キーワードの入力開始時にアドレスバーや検索バーの下に現れる代替検索エンジンを選んでください。
+search-one-click-header-3 =
+    .label = 追加の検索エンジン
+    .description = アドレスバーに表示する検索エンジンまたはショートカットを選んでください。
 search-choose-engine-column =
     .label = 検索エンジン
 search-choose-keyword-column =
@@ -983,6 +1025,9 @@ search-remove-engine =
     .accesskey = R
 search-add-engine =
     .label = 追加
+    .accesskey = A
+search-add-engine-2 =
+    .label = 検索エンジンを追加
     .accesskey = A
 search-edit-engine =
     .label = 編集
@@ -1349,6 +1394,10 @@ forms-additional-protections-header =
 forms-primary-pw-use =
     .label = マスターパスワードを使用する
     .accesskey = U
+forms-primary-pw-use-2 =
+    .label = マスターパスワードを使用する
+    .description = 保存されたパスワードを保護するセキュリティのレイヤーを追加します。
+    .accesskey = U
 forms-primary-pw-set =
     .label = マスターパスワードを設定
 forms-primary-pw-on =
@@ -1361,6 +1410,8 @@ forms-primary-pw-turn-off =
 # This operation requires the user to authenticate with the operating system (device sign-in)
 forms-os-reauth =
     .label = パスワードの入力と管理に端末のログイン情報を要求する
+forms-os-reauth-2 =
+    .label = パスワードの管理に端末のログイン情報を要求する
 forms-primary-pw-learn-more-link = 詳細情報
 # This string uses the former name of the Primary Password feature
 # ("Master Password" in English) so that the preferences can be found
@@ -1431,7 +1482,7 @@ autofill-payment-methods-manage-payments-button =
     .accesskey = m
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox-2 =
-    .label = 支払い方法の入力と管理に端末のログイン情報を要求する
+    .label = 支払い方法の自動入力と管理に端末のログイン情報を要求する
     .accesskey = o
 autofill-payment-methods-add-button = @@New-CMD@@支払い方法を追加
 payments-list-header =
@@ -1446,6 +1497,10 @@ payments-no-payments-stored-message =
 payments-remove-payment-prompt-title = この支払い方法を削除しますか？
 payments-remove-payment-prompt-confirm-button = 削除
 payments-remove-payment-prompt-cancel-button = キャンセル
+payments-delete-payment-button-label =
+    .aria-label = 削除
+payments-edit-payment-button-label =
+    .aria-label = 編集
 autofill-addresses-title = 住所など
 autofill-addresses-header =
     .aria-label = 住所など
@@ -1978,6 +2033,9 @@ collection-studies-description = 機能やアイデアを一般公開される�
 collection-studies =
     .label = { -brand-short-name } に調査のインストールと実行を許可する
 collection-studies-link = { -brand-short-name } 調査を確認する
+nimbus-rollouts-enabled =
+    .label = 更新間で { -brand-short-name } の機能、パフォーマンス、安定性の向上を許可する
+nimbus-rollouts-enabled-description = 変更はリモートで適用されます。
 addon-recommendations2 =
     .label = パーソナライズされた拡張機能のおすすめを許可する
 addon-recommendations-description = おすすめの拡張機能を試してブラウジング体験を向上させましょう。
@@ -2078,6 +2136,8 @@ httpsonly-radio-disabled =
 httpsonly-group =
     .label = HTTPS-Only モード
     .description = 安全な接続だけをウェブサイトに許可します。接続が安全でない場合は { -brand-short-name } に確認を求められます。
+httpsonly-label2 =
+    .aria-label = { httpsonly-group.label }
 
 ## DoH Section
 
@@ -2148,3 +2208,59 @@ choose-download-folder-title = ダウンロードフォルダーを選択:
 
 ## AI controls page
 
+preferences-ai-controls-header =
+    .heading = { pane-ai-controls-title }
+preferences-ai-controls-description = AI 支援の機能を含め、{ -brand-short-name } の機能はいつでも変更できます。さらに多くの制御が間もなく追加されます。
+preferences-ai-controls-block-ai-label = AI 支援をブロックする
+preferences-ai-controls-block-ai =
+    .label = { preferences-ai-controls-block-ai-label }
+preferences-ai-controls-block-ai-description = ブロックすると { -brand-short-name } の今後の AI 支援が無効になり、AI のポップアップも表示されなくなります。この制御に含まれるものや、従来の検索候補とおすすめなど機械学習機能の制御ついては <a data-l10n-name="link">こちらをご覧ください</a>。
+preferences-ai-controls-blocked-message =
+    .message = 今後の AI 支援が@@Default@@でブロックされます。特定の機能のブロック解除は、以下から設定してください。
+preferences-ai-controls-on-device-group =
+    .label = 端末上の AI
+    .description = AI 支援を利用する場合、これらの機能は端末にダウンロードされる小さな AI モデルを使用します。このアプローチはユーザーのプライバシー保護に役立ちます。
+preferences-ai-controls-translations-control =
+    .label = 翻訳
+    .description = あなたの優先言語でシームレスにウェブブラウジングができます。
+preferences-ai-controls-translations-more-link = 他の翻訳設定
+preferences-ai-controls-pdfjs-control =
+    .label = { -brand-short-name } PDF ビューアの画像の代替テキスト生成
+    .description = PDF に画像を追加する際、画像をアクセシブルにする説明を追加します。
+preferences-ai-controls-tab-group-suggestions-control =
+    .label = タブグループの提案
+    .description = グループ名を提案してタブを整理します。
+preferences-ai-controls-key-points-control =
+    .label = リンクプレビュー時の要点生成
+    .description = リンクを開く前にリンク先の簡易な要約を表示します。
+preferences-ai-controls-sidebar-chatbot-group =
+    .label = サイドバーの AI チャットボットプロバイダー
+    .description = ブラウジング中にチャットボットを利用できます。Anthropic Claude, ChatGPT, Copilot, Google Gemini, Le Chat Mistral のいずれかを選んでください。
+preferences-ai-controls-sidebar-chatbot-control =
+    .label = サイドバーのチャットボット
+# This option means that a user will see the feature and can use it.
+preferences-ai-controls-state-available =
+    .label = 利用可能
+# This option means a user has opted in to use the feature.
+preferences-ai-controls-state-enabled =
+    .label = 有効
+# This option means the user won't see and can't use the feature. For on-device AI, any models already downloaded are removed.
+preferences-ai-controls-state-blocked =
+    .label = ブロック
+preferences-ai-controls-state-description-before = 選択肢の説明:
+preferences-ai-controls-state-description-available = <strong>利用可能:</strong> 機能が表示され使用できます。
+preferences-ai-controls-state-description-enabled = <strong>有効:</strong> 機能の使用を許可しています。
+preferences-ai-controls-state-description-blocked = <strong>ブロック:</strong> 機能が表示されず使用できません。ダウンロードされた端末上の AI のモデルは削除されます。
+preferences-ai-controls-block-confirmation-heading = AI 支援をブロックしますか？
+preferences-ai-controls-block-confirmation-description = { -brand-short-name } の今後の AI 支援や AI についてのポップアップが表示されなくなります。引き続き使用したい機能はブロックを解除してください。
+preferences-ai-controls-block-confirmation-features-start = ブロックされる機能:
+preferences-ai-controls-block-confirmation-translations = 翻訳
+preferences-ai-controls-block-confirmation-pdfjs = { -brand-short-name } PDF ビューアの画像の代替テキスト生成
+preferences-ai-controls-block-confirmation-tab-group-suggestions = タブグループの提案
+preferences-ai-controls-block-confirmation-key-points = リンクプレビュー時の要点生成
+preferences-ai-controls-block-confirmation-sidebar-chatbot = サイドバーのチャットボット
+preferences-ai-controls-block-confirmation-features-after = 機能のブロックは { -brand-short-name } により提供された AI を利用する拡張機能にも影響します。
+preferences-ai-controls-block-confirmation-cancel =
+    .label = キャンセル
+preferences-ai-controls-block-confirmation-confirm =
+    .label = ブロック

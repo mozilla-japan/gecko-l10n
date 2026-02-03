@@ -724,6 +724,7 @@ urlbar-result-action-search-in-private = プライベート@@Window@@で検索
 urlbar-result-action-search-w-engine = { $engine } で検索
 urlbar-result-action-sponsored = 広告
 urlbar-result-action-switch-tab = タブを表示
+urlbar-result-action-move-tab-to-split-view = タブを分割ビューへ移動
 urlbar-result-action-visit = 開く
 # "Switch to tab with container" is used when the target tab is located in a
 # different container.
@@ -763,6 +764,8 @@ urlbar-result-action-copy-to-clipboard = コピー
 urlbar-result-action-calculator-result = = { $result }
 # The string returned for an undefined calculator result such as when dividing by 0
 urlbar-result-action-undefined-calculator-result = 未定義
+# The sub title of an add-on suggestion in the urlbar.
+urlbar-result-addons-subtitle = { -brand-product-name } 拡張
 # Shows the result of a formula expression being calculated, in scientific notation.
 # The last = sign will be shown as part of the result (e.g. "= 1.0e17").
 # Variables
@@ -907,6 +910,9 @@ urlbar-searchmode-exit-button =
 urlbar-searchmode-default =
     .tooltiptext = @@Default-@@検索エンジン
 urlbar-searchmode-popup-description = 今回だけ使う検索エンジン:
+# Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
+# reset after submitting.
+urlbar-searchmode-popup-sticky-description = 検索エンジン:
 urlbar-searchmode-popup-search-settings-menuitem =
     .label = 検索設定
 # Label shown next to a new search engine in the Searchmode Switcher popup to promote it.

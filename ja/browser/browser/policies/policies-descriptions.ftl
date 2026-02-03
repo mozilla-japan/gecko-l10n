@@ -56,6 +56,7 @@ policy-DisablePocket2 = ウェブページを { -pocket-brand-name } に保存�
 policy-DisablePrivateBrowsing = プライベートブラウジングを無効にします。
 policy-DisableProfileImport = メニューコマンド @@[@@他のブラウザーからデータを@@Import@@@@]@@ を無効にします。
 policy-DisableProfileRefresh = about:support ページの @@[@@{ -brand-short-name } をリフレッシュ@@]@@ ボタンを無効にします。
+policy-DisableRemoteImprovements = 更新間のパフォーマンス、安定性、機能変更を { -brand-short-name } に適用しない。
 policy-DisableSafeMode = セーフモードで再起動する機能を無効にします。注意: Shift キーでセーフモードを起動する機能は、Windows でグループポリシーを利用する場合のみ無効にできます。
 policy-DisableSecurityBypass = 特定のセキュリティ警告をユーザーが回避できないようにします。
 policy-DisableSetAsDesktopBackground = メニューコマンド @@[@@デスクトップの背景に設定@@]@@ を無効にします。
