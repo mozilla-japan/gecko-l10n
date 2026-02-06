@@ -833,14 +833,17 @@ home-custom-homepage-header = カスタムホームページ
 home-custom-homepage-subpage =
     .heading = カスタムホームページ
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
-home-custom-homepage-subheader = ウェブサイトのアドレス
+home-custom-homepage-card-header =
+    .label = ウェブサイトのアドレス
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
-home-custom-homepage-card =
-    .heading = ウェブサイトのアドレス
+home-custom-homepage-subheader = ウェブサイトのアドレス
 home-custom-homepage-address =
     .placeholder = アドレスを入力してください
 home-custom-homepage-address-button =
     .label = アドレスを追加
+# Shown when no custom websites/URLs to use as a homepage have been added yet
+home-custom-homepage-no-results =
+    .label = ウェブサイトがまだ追加されていません。
 # Shown when no custom websites/URLs to use as a homepage have been added yet
 home-custom-homepage-no-websites-yet = ウェブサイトがまだ追加されていません。
 # Further options to use when setting the home page. Two action buttons are placed in line with this prompt
@@ -1491,16 +1494,16 @@ payments-list-item-label = <strong>支払い方法</strong>
 payments-delete-payment-prompt-title = この支払い方法を削除しますか？
 payments-delete-payment-prompt-confirm-button = 削除
 payments-delete-payment-prompt-cancel-button = キャンセル
+payments-delete-payment-button-label =
+    .aria-label = 削除
+payments-edit-payment-button-label =
+    .aria-label = 編集
 # This message is displayed when no payment methods such as credit card are stored in Firefox
 payments-no-payments-stored-message =
     .label = 追加した支払い方法はありません
 payments-remove-payment-prompt-title = この支払い方法を削除しますか？
 payments-remove-payment-prompt-confirm-button = 削除
 payments-remove-payment-prompt-cancel-button = キャンセル
-payments-delete-payment-button-label =
-    .aria-label = 削除
-payments-edit-payment-button-label =
-    .aria-label = 編集
 autofill-addresses-title = 住所など
 autofill-addresses-header =
     .aria-label = 住所など
