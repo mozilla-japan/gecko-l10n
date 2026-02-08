@@ -45,6 +45,8 @@ tabbrowser-close-tabs-tooltip =
             [one] タブを閉じます
            *[other] { $tabCount } 個のタブを閉じます
         }
+tab-splitview-splitter =
+    .aria-label = タブの分割ビューのサイズを変更します
 
 ## Tooltips for tab audio control
 ## Variables:

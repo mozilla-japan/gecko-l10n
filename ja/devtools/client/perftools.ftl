@@ -26,6 +26,7 @@ perftools-heading-local-build = ローカルビルド
 
 perftools-description-intro = 記録したデータは@@NewTab@@の <a>profiler.firefox.com</a> で開きます。データはすべてローカルに保存されますが、アップロードして共有することもできます。
 perftools-description-local-build = この端末で自身でコンパイルしたビルドをプロファイリングする場合は、ビルドの objdir を以下のリストに追加して、シンボル情報の検索に利用できるようにしてください。
+perftools-pick-local-build-directory = ビルドディレクトリーを選択
 
 ## The controls for the interval at which the profiler samples the code.
 
