@@ -844,6 +844,9 @@ home-custom-homepage-address-button =
 # Shown when no custom websites/URLs to use as a homepage have been added yet
 home-custom-homepage-no-results =
     .label = ウェブサイトがまだ追加されていません。
+home-custom-homepage-delete-address-button =
+    .aria-label = アドレスを削除
+    .title = アドレスを削除します
 # Shown when no custom websites/URLs to use as a homepage have been added yet
 home-custom-homepage-no-websites-yet = ウェブサイトがまだ追加されていません。
 # Further options to use when setting the home page. Two action buttons are placed in line with this prompt

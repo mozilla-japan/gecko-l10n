@@ -710,3 +710,25 @@ newtab-promo-card-cta = 詳細情報
 newtab-promo-card-dismiss-button =
     .title = 閉じる
     .aria-label = 閉じる
+
+## Strings for activation window message variants. In certain experiment configurations,
+## the strings from these variants may be displayed in a message below the search input
+## for the first 48 hours of a new profile's lifetime. Some messages include buttons with
+## labels, but not all.
+
+newtab-activation-window-message-dismiss-button =
+    .title = 閉じる
+    .aria-label = 閉じる
+# "This space" refers to about:newtab. The call to action here ("make it your own")
+# is to customize newtab with a background image or colour, or by tweaking the
+# existing widgetry that appears on it.
+newtab-activation-window-message-customization-focus-header = あなただけのスペースにカスタマイズ
+newtab-activation-window-message-customization-focus-message = 新しい壁紙を選び、お気に入りのサイトのショートカットを追加し、興味のある最新のストーリーを追いかけましょう。
+newtab-activation-window-message-customization-focus-primary-button =
+    .label = カスタマイズを開始
+# "This space" refers to about:newtab. The sentiment of "plays by your rules" is
+# meant to evoke the idea that newtab is malleable and customizable. The call to
+# action is to customize newtab with a background image or colour, or by tweaking
+# the existing widgetry that appears on it.
+newtab-activation-window-message-values-focus-header = ここはあなただけのスペースです
+newtab-activation-window-message-values-focus-message = { -brand-product-name } でブラウジングすると、お好みの方法でオンラインの一日を始められます。あなただけの { -brand-product-name } にしましょう。

@@ -227,6 +227,12 @@ sidebar-genai-survey-satisfaction-question = サイドバーで AI チャット�
 sidebar-genai-survey-productive-question =
     次の意見にどのくらい同意しますか？<br/>
     「サイドバーに追加した AI チャットボットによって生産性が向上した」
+splitview-onboarding-callout-title-1 = 分割ビュー: 最適なマルチタスク
+splitview-onboarding-callout-subtitle-1 = このタブを右クリックして @@[@@分割ビューを追加@@]@@ を選択すると、一つの画面に 2 個のタブが表示されます。
+splitview-onboarding-callout-cta-1 = 今すぐ試す
+splitview-onboarding-callout-title-2 = 分割ビューで一度に 2 個のタブを表示します
+splitview-onboarding-callout-subtitle-2 = 追加の@@Window@@もタブを切り替える必要もありません。このタブを右クリックして @@[@@分割ビューを追加@@]@@ を選んでください。
+splitview-onboarding-callout-cta-2 = 分割ビューを試す
 unified-search-callout-title = 検索エンジン間の切り替え
 unified-search-callout-subtitle = 特定の検索に最も適したものを選んでください。
 unified-search-callout-primary-label = 次へ

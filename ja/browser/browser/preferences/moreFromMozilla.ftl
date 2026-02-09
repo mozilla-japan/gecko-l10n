@@ -45,3 +45,4 @@ more-from-moz-solo-title-2 = { -solo-ai-brand-name } AI ウェブサイトクリ
 more-from-moz-mdn-title = MDN Web Docs
 more-from-moz-mdn-description = 無料の総合的なガイドとリファレンスでウェブ開発を学べます。
 more-from-moz-mdn-button = ウェブ開発について学ぶ
+more-from-moz-mdn-title2 = { -mdn-brand-name }

@@ -211,4 +211,5 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | dom, toolkit             29011ba4 (2026-01-29)  mar          sync dom, toolkit
 fxsrc | browser                  29011ba4 (2026-01-29)  mar          sync browser
+fxsrc | browser, devtools, ...   f9fede13 (2026-02-05)  mar          sync browser, devtools, toolkit
 
