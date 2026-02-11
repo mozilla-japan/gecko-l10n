@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = POP3 サーバーから本文を取得しまし�
 filter-action-log-tagged = タグを付けました
 filter-action-log-ignore-subthread = 無視するサブスレッドに設定しました
 filter-action-log-unread = 未読にしました
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = フィルターからのメッセージ "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = フォルダーを選択してください。
 filter-editor-enter-valid-email-forward = 正しい転送先メールアドレスを入力してください。
 filter-editor-pick-template-reply = 適用するテンプレートを選択してください。
