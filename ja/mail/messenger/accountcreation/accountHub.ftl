@@ -119,6 +119,7 @@ address-book-carddav-connection-error = 接続に失敗しました。
 address-book-ldap-duplicate-error = すでに存在している LDAP ディレクトリー名です。別の名前を入力してください。
 address-book-ldap-creation-error = LDAP ディレクトリーを作成できませんでした。
 account-hub-email-setup-ews = サーバー設定
+account-hub-result-exchange-url-label = Exchange エンドポイント URL
 account-hub-result-host-url-label = EWS エンドポイント URL
 account-hub-email-credentials-confirmation = アカウント設定
 account-hub-result-unknown-hostname = ホスト名が不明です

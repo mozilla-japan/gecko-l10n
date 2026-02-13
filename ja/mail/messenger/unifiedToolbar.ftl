@@ -12,6 +12,17 @@ search-bar-button =
     .alt = 検索
 search-bar-item2 =
     .label = 検索
+# Keyboard shortcut for the quick filter search box.
+# This should match the key from quickSearchCmd.key in messenger.dtd.
+search-bar-placeholder-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd>+<kbd>K</kbd>
+    }
+# This is the empty text for the quick filter text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+search-bar-placeholder-with-key = 検索... { search-bar-placeholder-search-shortcut }
 search-bar-placeholder = 検索...
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key

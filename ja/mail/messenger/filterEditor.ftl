@@ -68,3 +68,8 @@ filter-log-message = フィルターからのメッセージ "{ $filterName }": 
 filter-editor-must-select-target-folder = フォルダーを選択してください。
 filter-editor-enter-valid-email-forward = 正しい転送先メールアドレスを入力してください。
 filter-editor-pick-template-reply = 適用するテンプレートを選択してください。
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = { $filterName } のフィルター適用に失敗しました。以降のフィルターの適用を続けますか？
+filter-list-backup-message = msgFilterRules.dat ファイルに読み込めないフィルターが含まれていることが原因でフィルターが動作しません。新しい msgFilterRules.dat ファイルを作成します。古いファイルは同じディレクトリーの rulesbackup.dat にバックアップとして保存されます。
+filter-invalid-custom-header = いずれかのフィルターが ':'、@@Print@@不可能な文字、非 ASCII 文字、8 ビット ASCII 文字などの不正な文字を含むカスタムヘッダーを使用しています。対象のフィルターが含まれている msgFilterRules.dat ファイルを編集して不正な文字をカスタムヘッダーから削除してください。

@@ -42,8 +42,7 @@ openpgp-cannot-decrypt-because-mdc =
     これは、古く脆弱性のあるメカニズムによって暗号化されたメッセージです。
     そのため、メッセージの内容を傍受するために通信途中で書き換えられているおそれがあります。
     この危険性を回避するため、メッセージの内容は表示されません。
-openpgp-cannot-decrypt-because-missing-key =
-    このメッセージの復号のために必要な鍵は利用できません。
+openpgp-cannot-decrypt-because-missing-key = このメッセージの復号のために必要な鍵は利用できません。
 openpgp-partially-signed =
     このメッセージの一部のみが OpenPGP によってデジタル署名されています。
     検証ボタンをクリックすると、保護されていない部分が隠され、デジタル署名の状態が表示されます。

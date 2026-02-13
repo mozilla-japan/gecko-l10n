@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = 場所
 calendar-dialog-description-row-icon =
     .alt = 詳細
+calendar-dialog-reminders-row-icon =
+    .alt = アラーム
 calendar-dialog-description-label = 詳細
 calendar-dialog-description-expand-icon =
     .alt = 詳細をすべて表示します
@@ -27,3 +29,14 @@ calendar-dialog-more-categories =
        *[other] とその他 { $additionalCategories } 個
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = アラームを削除
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count = アラーム { $count } 件
+calendar-dialog-accept = 参加
+    .title = 参加
+calendar-dialog-accept-tentative = 未確定
+    .title = 未確定
+calendar-dialog-decline = 不参加
+    .title = 不参加
