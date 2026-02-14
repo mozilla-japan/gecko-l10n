@@ -382,6 +382,12 @@ key-does-not-expire = 鍵の有効期限は無期限です
 key-expired-date = 鍵の有効期限が { $keyExpiry } に切れています
 key-expired-simple = 鍵が有効期限切れです
 key-revoked-simple = 鍵が失効しています
+key-revoked-revocation-code-superseded = 鍵が置き換えられているため失効しました。
+key-revoked-revocation-code-compromised = 鍵そのものが漏洩しているため失効しました。
+key-revoked-revocation-code-retired = 鍵が使われなくなったので失効しました。
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = 鍵の所有者による失効事由: { $reason }
 key-do-you-accept = この鍵をデジタル署名の検証とメッセージの暗号化のために受け入れますか？
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.

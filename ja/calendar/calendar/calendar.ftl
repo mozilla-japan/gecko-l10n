@@ -31,7 +31,7 @@ todo-status-cancelled = キャンセル
 status-needs-action = 行動が必要
 status-in-process = 進行中
 status-completed = 完了
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = 高
 normal-priority = 標準
 low-priority = 低
@@ -790,6 +790,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = ToDo...
     .accesskey = T
+calendar-task-filter-title2 = ToDo の絞り込み
 calendar-task-filter-title = 表示
 calendar-task-filter-all =
     .label = すべて

@@ -101,7 +101,7 @@ quick-filter-bar-searching =
 quick-filter-bar-search-shortcut =
     { PLATFORM() ->
         [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
-       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd>
     }
 # This is the empty text for the text search box.
 # The goal is to convey to the user that typing in the box will filter the
@@ -122,6 +122,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = すべて含む
     .title = 選択したすべてのタグが付いたメッセージが一致します
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = タグ無しのみ
+    .title = タグが付いていないメッセージのみ
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
