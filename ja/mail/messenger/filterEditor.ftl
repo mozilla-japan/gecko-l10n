@@ -78,3 +78,10 @@ filter-editor-pick-template-reply = 適用するテンプレートを選択し�
 filter-continue-execution = { $filterName } のフィルター適用に失敗しました。以降のフィルターの適用を続けますか？
 filter-list-backup-message = msgFilterRules.dat ファイルに読み込めないフィルターが含まれていることが原因でフィルターが動作しません。新しい msgFilterRules.dat ファイルを作成します。古いファイルは同じディレクトリーの rulesbackup.dat にバックアップとして保存されます。
 filter-invalid-custom-header = いずれかのフィルターが ':'、@@Print@@不可能な文字、非 ASCII 文字、8 ビット ASCII 文字などの不正な文字を含むカスタムヘッダーを使用しています。対象のフィルターが含まれている msgFilterRules.dat ファイルを編集して不正な文字をカスタムヘッダーから削除してください。
+# Variables:
+#   $count - the number items
+filter-count-items = { $count } 項目
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } / { $total }
