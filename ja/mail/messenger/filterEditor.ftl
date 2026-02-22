@@ -10,6 +10,11 @@ run-filter-before-spam =
     .label = 迷惑メール分類前に実行
 run-filter-after-spam =
     .label = 迷惑メール分類後に実行
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label = 定期的、{ $minutes } 分ごと
+    .accesskey = e
 rule-action-set-spam-status =
     .label = 迷惑マークの状態を設定する
 # Variables:
