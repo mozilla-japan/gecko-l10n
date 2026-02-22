@@ -32,8 +32,14 @@ chat-buddy-identity-status-unverified = 未検証
 #   $conversation (String) - Name of the conversation the user is invited to.
 chat-conv-invite-label = { $conversation } のチャットに招待されています
 chat-conv-invite-accept =
-  .label = 承諾
-  .accesskey = A
+    .label = 承諾
+    .accesskey = A
 chat-conv-invite-deny =
-  .label = 拒否
-  .accesskey = R
+    .label = 拒否
+    .accesskey = R
+# Used when multiple incoming messages from the same sender are bundled
+# into a single notification.
+# Variables:
+#   $count - the number of incoming messages the user is being notified about
+#   $preview - the message preview to be shown in the notification, i.e. the first incoming message.
+bundled-message-preview = { $preview } 件... (他 { $count } 件のメッセージ)
