@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Send Format
 
 compose-send-format-menu =
@@ -29,15 +30,15 @@ remove-address-row-button =
 #   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label =
     { $count ->
-        [0]     { $type }
-        [one]   { $type } のアドレス 1 件、フォーカスするには左矢印キーを押してください。
+        [0] { $type }
+        [one] { $type } のアドレス 1 件、フォーカスするには左矢印キーを押してください。
        *[other] { $type } のアドレス { $count } 件、フォーカスするには左矢印キーを押してください。
     }
 #   $email (String) - the email address
 #   $count (Number) - the number of address pills currently present in the addressing row
 pill-aria-label =
     { $count ->
-        [one]   { $email }: 編集は Enter キー、削除は Delete キーを押してください。
+        [one] { $email }: 編集は Enter キー、削除は Delete キーを押してください。
        *[other] { $email }, 1 / { $count }: 編集は Enter キー、削除は Delete キーを押してください。
     }
 #   $email (String) - the email address
@@ -71,7 +72,7 @@ pill-action-expand-list =
 
 ctrl-cmd-shift-pretty-prefix =
     { PLATFORM() ->
-        [macos] ⇧ ⌘{" "}
+        [macos] ⇧ ⌘{ " " }
        *[other] Ctrl+Shift+
     }
 trigger-attachment-picker-key = A
@@ -112,8 +113,8 @@ attachment-area-show =
     .title = 添付ペインを表示 ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
     .title = 添付ペインを隠す ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
+# Variables:
+# $count (Number) - Number of files being dropped onto the composer.
 drop-file-label-attachment = 添付に追加する
 drop-file-label-inline = インラインに挿入する
 
@@ -130,6 +131,14 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = 開封確認
     .tooltiptext = このメッセージの開封確認の返送を求めます
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = 添付ファイルを削除
+    .accesskey = M
+default-delete-cmd =
+    .label = 削除
+    .accesskey = D
 
 ## Encryption
 
@@ -146,8 +155,8 @@ encryption-options-smime =
     .label = S/MIME
     .tooltiptext = S/MIME 暗号設定を表示または変更します
 signing-toggle =
-  .label = デジタル署名
-  .tooltiptext = このメッセージにデジタル署名を付与します
+    .label = デジタル署名
+    .tooltiptext = このメッセージにデジタル署名を付与します
 menu-openpgp =
     .label = OpenPGP
     .accesskey = O
@@ -254,19 +263,19 @@ extra-address-rows-menu-button =
 public-recipients-notice-single = あなたのメッセージの受信者は開示されています。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
-public-recipients-notice-multi = 宛先および Cc フィールドの {$count} 件の受信者アドレスは開示されており、受信者が互いにこれらのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
+public-recipients-notice-multi = 宛先および Cc フィールドの { $count } 件の受信者アドレスは開示されており、受信者が互いにこれらのアドレスを見られます。代わりに Bcc フィールドを使用すると受信者アドレスの開示を避けられます。
 many-public-recipients-bcc =
     .label = 代わりに Bcc を使用する
     .accesskey = U
 many-public-recipients-ignore =
     .label = 受信者を開示したままにする
-    .accesskey  = K
+    .accesskey = K
 many-public-recipients-prompt-title = 開示された受信者が多すぎます
 #   $count (Number) - the count of addresses in the public recipients fields.
 many-public-recipients-prompt-msg =
     { $count ->
         [one] あなたのメッセージの受信者は開示されており、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
-       *[other] あなたのメッセージは {$count} 件の受信者が開示されており、受信者が互いにこれらのアドレスを見られるため、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
+       *[other] あなたのメッセージは { $count } 件の受信者が開示されており、受信者が互いにこれらのアドレスを見られるため、プライバシー上の懸念が生じる可能性があります。受信者を宛先または Cc フィールドから Bcc フィールドへ移動することで受信者アドレスの開示を避けられます。
     }
 many-public-recipients-prompt-cancel = 送信をキャンセル
 many-public-recipients-prompt-send = 強制送信
@@ -279,8 +288,15 @@ compose-missing-identity-warning = 差出人アドレスと一致する一意の
 encrypted-bcc-warning = 暗号化したメッセージの送信する場合、Bcc の受信者は完全に秘匿されません。すべての受信者が Bcc の受信者を認識できます。
 encrypted-bcc-ignore-button = 了解
 auto-disable-e2ee-warning = このメッセージのエンドツーエンド暗号化が自動的に無効化されました。
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name } がこのメッセージへ読み込まれるファイルをブロックしました。ブロックを解除すると、このファイルが送信メッセージに含まれます。
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg = { $count } 個の添付キーワードが見つかりました:
 
 ## Editing
+
 
 # Tools
 
@@ -373,6 +389,13 @@ cloud-file-account-error-title = Filelink アカウントエラー
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink 添付の { $filename } の更新に失敗しました。この Filelink アカウントは削除されています。
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label = サイズの大きなファイルの添付には Filelink 機能の使用をお勧めします。
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = 添付ファイルをリンクにしています。アップロードが完了するとメッセージ本文にリンクが追加されます。
 
 ## Link Preview
 
