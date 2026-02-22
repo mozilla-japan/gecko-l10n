@@ -10,6 +10,10 @@ new-event-dialog = 予定作成
 edit-event-dialog = 予定編集
 new-task-dialog = ToDo 作成
 edit-task-dialog = ToDo 編集
+# Remove attachments prompt.
+prompt-remove-attachments-title = 添付を削除
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text = 本当に { $count } 個の添付を削除しますか？
 # Do you want to save changes?
 ask-save-title-event = 予定を保存
 ask-save-title-task = ToDoを保存
