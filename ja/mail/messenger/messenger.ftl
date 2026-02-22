@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = ページの読み込みを中止します
     .label = 中止
     .accesskey = S
+open-windows-warning-confirmation-title = 確認
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation = { $count } 件のメッセージを開くには時間がかかります。本当に開きますか？
+open-tabs-warning-confirmation-title = 確認
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation = { $count } 件のメッセージを開くには時間がかかります。本当に開きますか？
 
 ## Toolbar
 
@@ -633,3 +641,6 @@ prompt-dont-ask-again = 今後は確認しない
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = 迷惑メールの分析を { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 完了しました
 spam-processing-message = 迷惑メールを処理しています
+
+## Ignore threads
+
