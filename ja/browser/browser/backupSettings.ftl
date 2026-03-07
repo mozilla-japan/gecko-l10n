@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+## These strings are shown under the header if scheduled backups are enabled.
+
 # This string is used to name the folder that users will save backups to.
 # "Restore" is an action and intended for prompting users to select this folder
 # when following backup restoration steps. Please only include characters that
@@ -21,6 +23,10 @@ backup-folder-name = { -brand-product-name } の復元
 backup-file-name = { -brand-product-name }Backup
 settings-data-backup-header = バックアップ
 settings-data-backup-toggle = バックアップを管理
+settings-data-backup-toggle-on2 =
+    .label = バックアップを有効にする
+settings-data-backup-toggle-off2 =
+    .label = バックアップを無効にする
 settings-data-backup-toggle-on = バックアップを有効にする
 settings-data-backup-toggle-off = バックアップを無効にする
 settings-data-backup-trigger-button = 今すぐバックアップ
