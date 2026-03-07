@@ -91,6 +91,64 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 ## Filter List Dialog
 
+filter-window-title = メッセージフィルター
+filter-name-column =
+    .label = フィルター名
+filter-active-column =
+    .label = 有効
+filter-new-button =
+    .label = 新規...
+    .accesskey = N
+filter-new-copy-button =
+    .label = コピー...
+    .accesskey = C
+filter-edit-button =
+    .label = 編集...
+    .accesskey = E
+filter-delete-button =
+    .label = 削除
+    .accesskey = t
+filter-reorder-top-button =
+    .label = 先頭へ移動
+    .accesskey = o
+    .tooltiptext = フィルターを並べ替えて最初に実行されるようにします
+filter-reorder-up-button =
+    .label = 上へ移動
+    .accesskey = U
+filter-reorder-down-button =
+    .label = 下へ移動
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = 末尾へ移動
+    .accesskey = B
+    .tooltiptext = フィルターを並べ替えて最後に実行されるようにします
+filter-header-label =
+    .value = 自動的にこれらのフィルターが上から順に評価されます。
+filter-filters-for-prefix =
+    .value = 対象アカウント:
+    .accesskey = F
+filter-view-log-button =
+    .label = フィルターログ
+    .accesskey = L
+filter-run-filters-button =
+    .label = 今すぐ実行
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = フィルターを使用するフォルダー:
+    .accesskey = c
+filter-search-box =
+    .placeholder = フィルター名を検索...
+filter-close-key =
+    .key = W
+filter-delete-confirmation = 本当に選択したフィルターを削除してもよろしいですか？
+filter-dont-warn-delete-checkbox = 次回からは確認しない
+filter-cannot-enable-incompatible = このフィルターはご使用のバージョンの { -brand-product-name } でサポートされていないため、有効にすることができません。
+filter-running-title = フィルター処理の実行中
+filter-running-message =
+    メッセージのフィルター処理を実行中です。
+    フィルターの評価を続けますか？
+filter-stop-button = 停止
+filter-continue-button = 継続
 
 ## Filter Editor
 
