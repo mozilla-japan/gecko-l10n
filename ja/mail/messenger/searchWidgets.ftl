@@ -111,9 +111,20 @@ search-add-rule-button =
     .label = +
     .tooltiptext = @@New-CMD@@ルールを追加します
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = このルールを削除します
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = このルールを削除します
+rule-add-action-button =
+    .label = +
+    .tooltiptext = @@New-CMD@@動作を追加します
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = この動作を削除します
 
 ## Search Term List
 
@@ -126,3 +137,57 @@ search-match-any =
 search-match-all-msgs =
     .label = 条件なし
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = メッセージを移動する
+rule-action-copy =
+    .label = メッセージをコピーする
+rule-action-forward =
+    .label = メッセージを転送する
+rule-action-reply =
+    .label = テンプレートを使用して返信する
+rule-action-read =
+    .label = メッセージを既読にする
+rule-action-unread =
+    .label = メッセージを未読にする
+rule-action-star =
+    .label = メッセージにスターを付ける
+rule-action-priority =
+    .label = 重要度を設定する
+rule-action-tag =
+    .label = メッセージにタグを付ける
+rule-action-set-spam-status =
+    .label = 迷惑マークの状態を設定する
+rule-action-delete =
+    .label = メッセージを削除する
+rule-action-delete-pop =
+    .label = メッセージを POP サーバーから削除する
+rule-action-fetch-pop =
+    .label = POP サーバーから本文を取得する
+rule-action-ignore-thread =
+    .label = スレッドを無視する
+rule-action-ignore-subthread =
+    .label = サブスレッドを無視する
+rule-action-watch-thread =
+    .label = 注目スレッドに設定する
+rule-action-stop =
+    .label = フィルターの実行を中止する
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = 迷惑メール
+rule-menuitem-not-spam =
+    .label = 非迷惑メール
+rule-priority-highest =
+    .label = 最高
+rule-priority-high =
+    .label = 高
+rule-priority-normal =
+    .label = 標準
+rule-priority-low =
+    .label = 低
+rule-priority-lowest =
+    .label = 最低

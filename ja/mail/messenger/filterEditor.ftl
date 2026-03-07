@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = 迷惑メール
 rule-menuitem-not-spam =
@@ -85,3 +88,58 @@ filter-count-items = { $count } 項目
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = フィルターの設定
+filter-editor-name =
+    .value = フィルター名:
+    .accesskey = i
+filter-editor-context-desc = フィルターを適用するタイミング:
+filter-editor-context-incoming =
+    .label = 新着メール受信時:
+    .accesskey = G
+filter-editor-context-manual =
+    .label = 手動で実行する
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = メール送信後
+    .accesskey = S
+filter-editor-context-archive =
+    .label = アーカイブ時
+    .accesskey = A
+filter-editor-action-desc =
+    .value = 以下の動作を実行する:
+    .accesskey = P
+filter-editor-action-order-warning =
+    .value = 補足: フィルター動作は異なる順で実行されます。
+filter-editor-action-order-link =
+    .value = 実行順を見る
+filter-editor-duplicate-title = フィルター名の重複
+filter-editor-duplicate-msg = 入力した名前のフィルターがすでに存在します。別のフィルター名を入力してください。
+filter-editor-no-event-title = フィルターイベントが選択されていません
+filter-editor-no-event-msg = このフィルターを適用するには少なくとも 1 個のイベントを選択しなければなりません。一時的にどのイベントでもフィルターを実行したくないときは、メッセージフィルターダイアログで有効のチェックを外してください。
+filter-editor-match-all-name = すべてのメッセージ
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } のコピー
+filter-editor-invalid-search-title = 無効な検索条件
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = 無効な検索条件 "{ $attribute } { $operator }" が含まれているためフィルターを保存できません。
+filter-editor-action-order-explanation = メッセージがこのフィルターと一致した時、この順序でフィルターが実行されます:
+filter-editor-action-order-title = 実際の動作順
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
