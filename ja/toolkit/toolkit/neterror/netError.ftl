@@ -196,3 +196,5 @@ fp-neterror-http-auth-disabled-what-can-you-do-body = URL を HTTPS に変更し
 # This string appears after the following string: "Why did this happen?" (fp-neterror-why-did-this-happen)
 fp-neterror-coop-coep-why-did-this-happen-body = 時々、ウェブサイト側で他のサイトとの望まない通信を防止するよう設定されていることがあります。
 fp-learn-more-about-https-connections = HTTPS 接続についての詳細情報
+fp-neterror-vpn-error-title = VPN に接続できませんでした
+fp-neterror-vpn-error-description = 数分後にもう一度試してください。
