@@ -110,6 +110,13 @@ sidebar-item-manifest = Manifest
 sidebar-item-service-workers = Service Workers
     .alt = Service Worker アイコン
     .title = Service Worker
+# Sidebar navigation item for Session History sidebar item section
+sidebar-item-session-history = セッション履歴
+    .alt = セッション履歴アイコン
+    .title = セッション履歴
+# Entry in the Session History diagram
+session-history-entry-info-button-title =
+    .title = セッション履歴データを表示します
 # Text for the ALT and TITLE attributes of the warning icon
 icon-warning =
     .alt = 警告アイコン

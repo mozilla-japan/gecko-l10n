@@ -567,6 +567,9 @@ browser-window-restore-down-button =
     .tooltiptext = 元に戻す (縮小)
 browser-window-close-button =
     .tooltiptext = @@CloseCMD@@
+# Clicking this button closes the window and returns to the tab where it was opened from
+browser-window-return-to-opener =
+    .tooltiptext = 戻る
 
 ## Tab actions
 
@@ -925,6 +928,8 @@ urlbar-searchmode-popup-description-menucaption =
 # reset after submitting.
 urlbar-searchmode-popup-sticky-description-menucaption =
     .label = 検索エンジン:
+# Label shown on the top of Searchmode Switcher popup. After this label, the
+# available search engines will be listed.
 urlbar-searchmode-popup-description = 今回だけ使う検索エンジン:
 # Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
 # reset after submitting.
@@ -1167,6 +1172,9 @@ toolbar-button-synced-tabs =
 toolbar-button-new-private-window =
     .label = @@New-CMD@@プライベート@@Window@@
     .tooltiptext = @@New-CMD@@プライベートブラウジング@@Window@@を開きます ({ $shortcut })
+toolbar-button-share-tab =
+    .label = 共有
+    .tooltiptext = このページを共有します
 
 ## EME notification panel
 
