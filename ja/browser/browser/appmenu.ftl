@@ -291,6 +291,7 @@ appmenuitem-relay-title = { -relay-brand-short-name }
 appmenuitem-relay-description = 実際のメールアドレスと電話番号を隠します
 appmenuitem-services-relay-description = メールマスクダッシュボードを起動します
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
+appmenuitem-vpn-description-2 = 端末全体を保護しましょう
 appmenuitem-vpn-description = ユーザーのオンラインプライバシーを保護します
 appmenu-services-header = マイサービス
 # "Mozilla" is intentionally hardcoded to prevent forks from replacing it

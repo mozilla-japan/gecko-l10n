@@ -383,9 +383,6 @@ tab-note-editor-character-limit =
 
 ## Split View
 
-# Split view tabs display their respective contents side by side
-# Displayed within the tooltip on tabs inside of a tab split view
-tabbrowser-tab-label-tab-split-view = 分割ビュー
 # Open a new tab next to the current tab and display their contents side by side
 tab-context-add-split-view =
     .label = 分割ビューを追加
@@ -398,6 +395,10 @@ tab-context-open-in-split-view =
 tab-context-separate-split-view =
     .label = 分割ビューを終了
     .accesskey = t
+# Reverse the order of the two tabs in the split view
+tab-context-reverse-split-view =
+    .label = 左右のタブを入れ替える
+    .accesskey = r
 tab-context-badge-new = 新機能
 # Split view tabs display their respective contents side by side
 # Displayed within the tooltip on the left tab inside of a tab split view

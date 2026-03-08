@@ -27,3 +27,13 @@ recently-closed-undo-close-window-label =
         [0] { $winTitle }
        *[other] { $winTitle } (その他 { $tabCount } 個のタブ)
     }
+# Variables:
+#   $tabCount (Number): Number of tabs that were open in the closed window
+#   $winTitle (String): Window title
+#   $closedAt (Number): Milliseconds since epoch when the window was closed
+recently-closed-window-panel-tooltip =
+    { $tabCount ->
+        [0] { $winTitle }
+        [one] { $winTitle } ({ $tabCount } 個のタブ、{ DATETIME($closedAt, dateStyle: "short", timeStyle: "short") } に閉じた)
+       *[other] { $winTitle } ({ $tabCount } 個のタブ、{ DATETIME($closedAt, dateStyle: "short", timeStyle: "short") } に閉じた)
+    }

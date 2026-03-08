@@ -528,6 +528,7 @@ restore-from-backup-secondary-top-button = バックアップから復元
 restore-from-backup-title = あなた好みの { -brand-short-name } に戻しましょう
 restore-from-backup-subtitle = ブラウジングに必要なすべてのブックマーク、履歴および他のデータをバックアップデータから復元します。
 restore-from-backup-secondary-button = 復元しない
+multiple-backups-info-tile = <strong>複数のバックアップファイルが見つかりました。</strong> 最近のファイルが選択されています。他のプロファイルは <a data-l10n-name="settings-label">設定</a> で復元してください。
 
 ## Restored from Backup spotlight
 
@@ -554,3 +555,20 @@ onboarding-personalization-motivation-title = { -brand-short-name } のどの機
 onboarding-personalization-motivation-privacy-option = プライバシーとセキュリティ
 onboarding-personalization-motivation-productivity-option = 生産性
 onboarding-personalization-motivation-other-option = その他
+
+## Onboarding 2026 brand refresh
+
+onboarding-refresh-pin-set-default-subtitle = 私たちはユーザーデータを保護し、クリックを盗み取る企業を自動的にブロックします。
+# "safe paws" is a play on "safe hands", meaning you're being well taken care of or protected
+# If it doesn’t translate well, you can use the alternative: “You’re safe with Firefox.”
+onboarding-refresh-pin-set-default-title = あなたは Firefox に守られています
+onboarding-refresh-import-subtitle = パスワードブックマーク、履歴などのデータを持ち歩けます。
+onboarding-refresh-import-title = { -brand-short-name } をアットホームな環境にします
+onboarding-refresh-onboarding-addons-subtitle = 拡張機能は { -brand-short-name } をカスタマイズできる小さなアプリです。ユーザーのプライバシーをさらに保護したり、生産性を向上したり、{ -brand-short-name } の外観を変えたり、さらに多くのことができます。
+# "Give your browsing a boost" means to enhance or improve the browsing experience
+onboarding-refresh-onboarding-addons-title = ブラウジングを加速します
+onboarding-refresh-sync-subtitle = { -brand-short-name } にログインすれば、どこでもブックマークやパスワードを持ち歩けます。さらにデータは暗号化され、あなただけしか見られません。
+onboarding-refresh-sync-title = どこへでも、すべてのデータを同期して。
+onboarding-refresh-gratitude-subtitle = { -brand-short-name } をご使用いただきありがとうございます。非営利で支持された唯一のメジャーブラウザーです。あなたのご支援により、私たちはインターネットを安全ですべての人々がアクセスできるようにすることができます。
+# "has your back" is an idiom suggesting support and protection
+onboarding-refresh-gratitude-title = { -brand-short-name } へのご支援
