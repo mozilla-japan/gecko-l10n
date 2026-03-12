@@ -392,6 +392,9 @@ big-file-notification =
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = 添付ファイルをリンクにしています。アップロードが完了するとメッセージ本文にリンクが追加されます。
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text = サイズの大きなファイルの添付には Filelink 機能の使用をお勧めします。
 
 ## Link Preview
 
