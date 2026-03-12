@@ -12,6 +12,7 @@ new-task-dialog = ToDo 作成
 edit-task-dialog = ToDo 編集
 # Remove attachments prompt.
 prompt-remove-attachments-title = 添付を削除
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text = 本当に { $count } 個の添付を削除しますか？
 # Do you want to save changes?
