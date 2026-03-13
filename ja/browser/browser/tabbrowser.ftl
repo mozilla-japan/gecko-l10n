@@ -126,7 +126,6 @@ tabbrowser-confirm-close-windows-button =
 
 tabbrowser-confirm-close-tabs-with-key-title = @@Window@@を閉じて { -brand-short-name } を終了しますか？
 tabbrowser-confirm-close-tabs-with-key-button = { -brand-short-name } を終了
-
 # Variables:
 #   $quitKey (String): the text of the keyboard shortcut for quitting.
 tabbrowser-ask-close-tabs-with-key-checkbox = { $quitKey } キーで終了する前に確認する
@@ -371,6 +370,8 @@ tab-note-editor-button-save =
     .accesskey = S
 # Link to show the full tab note in case it was truncated.
 tab-note-preview-expand = 続きを読む
+tab-note-panel-add-note-new-badge =
+    .label = 新機能
 # Displayed within the tab note edit dialog box when the user has entered more
 # characters than are allowed.
 # Variables:
