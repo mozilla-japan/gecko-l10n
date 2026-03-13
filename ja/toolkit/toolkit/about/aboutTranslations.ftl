@@ -8,6 +8,10 @@ about-translations-title = { -brand-short-name } 翻訳
 about-translations-description = ユーザーのプライバシーを尊重するお手軽翻訳。
 about-translations-learn-more-link = 詳細情報
 # An info message displayed if the device's hardware is not compatible with the Translations feature requirements.
+about-translations-unsupported-info-message-2 =
+    .heading = この端末では翻訳機能が利用できません
+    .message = 別の端末に切り替えてお試しください。
+# An info message displayed if the device's hardware is not compatible with the Translations feature requirements.
 about-translations-unsupported-info-message =
     .heading = この端末では翻訳機能が利用できません。
     .message = 別の端末に切り替えてお試しください。
