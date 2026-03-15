@@ -15,6 +15,10 @@ about-translations-unsupported-info-message-2 =
 about-translations-unsupported-info-message =
     .heading = この端末では翻訳機能が利用できません。
     .message = 別の端末に切り替えてお試しください。
+# An error message displayed when the language list fails to load.
+about-translations-language-load-error-message-2 =
+    .heading = 言語を読み込めませんでした
+    .message = インターネット接続を確認してもう一度お試しください。
 about-translations-unsupported-info-button = 詳細情報
 # An error message displayed when the language list fails to load.
 about-translations-language-load-error-message =
