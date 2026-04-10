@@ -296,6 +296,12 @@ urlbar-split-view-button =
     .tooltiptext = 分割ビュー
     .aria-label = 分割ビュー
 
+## Searchbar context menu
+
+clear-search-history =
+    .label = 検索履歴を消去
+    .accesskey = C
+
 ## Page Action Context Menu
 
 page-action-manage-extension2 =
@@ -931,9 +937,6 @@ urlbar-searchmode-popup-sticky-description-menucaption =
 # Label shown on the top of Searchmode Switcher popup. After this label, the
 # available search engines will be listed.
 urlbar-searchmode-popup-description = 今回だけ使う検索エンジン:
-# Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
-# reset after submitting.
-urlbar-searchmode-popup-sticky-description = 検索エンジン:
 urlbar-searchmode-popup-search-settings-menuitem =
     .label = 検索設定
 # Label shown next to a new search engine in the Searchmode Switcher popup to promote it.
