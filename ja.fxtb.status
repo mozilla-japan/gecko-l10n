@@ -213,7 +213,6 @@ fxsrc | browser                  29011ba4 (2026-01-29)  mar          sync browse
 fxsrc | browser, devtools, ...   f9fede13 (2026-02-05)  mar          sync browser, devtools, toolkit
 tbsrc | calendar, mail           278ec21b (2026-02-09)  mar          sync calendar, mail
 
-^---Released!
 
 [l10n-mozilla-149.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
@@ -221,4 +220,11 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 fxsrc | browser, devtools        a20d9b76 (2026-03-04)  mar          sync browser, devtools
 fxsrc | dom, toolkit             a20d9b76 (2026-03-04)  mar          sync dom, toolkit
 tbsrc | calendar, mail           fa09e076 (2026-03-02)  mar          sync calendar, mail
+
+^---Released!
+
+[l10n-mozilla-150.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | dom, toolkit             5930724b (2026-04-09)  mar          sync dom, toolkit
 
