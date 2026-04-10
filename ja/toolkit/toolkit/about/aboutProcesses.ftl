@@ -56,6 +56,20 @@ about-processes-inference-process = 推論 ({ $pid })
 #    $type (String) The raw type for this process.
 about-processes-unknown-process = その他: { $type } ({ $pid })
 
+## Properties of isolated web processes
+
+about-processes-web-isolated-property-private = プライベート
+about-processes-web-isolated-property-serviceworker = ServiceWorker
+about-processes-web-isolated-property-jit-disabled = JIT 無効
+about-processes-web-isolated-property-with-coop-coep = クロスオリジン隔離
+
+## Isolated process names
+## Variables:
+##    $origin (String) The domain name for this process.
+##    $properties (String) A formatted list of properties from the above strings.
+
+about-processes-web-isolated-process2 = { $origin } ({ $properties })
+
 ## Isolated process names
 ## Variables:
 ##    $pid (String) The process id of this process, assigned by the OS.

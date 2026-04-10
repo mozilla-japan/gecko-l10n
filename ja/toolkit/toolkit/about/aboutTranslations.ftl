@@ -15,9 +15,18 @@ about-translations-unsupported-info-message-2 =
 about-translations-unsupported-info-message =
     .heading = この端末では翻訳機能が利用できません。
     .message = 別の端末に切り替えてお試しください。
+# An info message displayed when translations are disabled and locked by enterprise policy.
+about-translations-policy-disabled-info-message =
+    .heading = 所属組織では翻訳機能を利用できません
+    .message = システム管理者によりポリシーが設定されています。
+# An info message displayed when translations are disabled but can still be unblocked.
+about-translations-feature-blocked-info-message =
+    .heading = テキストを翻訳するにはこの機能のブロックを解除してください
+    .message = AI 制御の設定により、この機能がブロックされているようです。機能を利用するときはブロックを解除してください。
+about-translations-feature-blocked-unblock-button = ブロック解除
 # An error message displayed when the language list fails to load.
 about-translations-language-load-error-message-2 =
-    .heading = 言語を読み込めませんでした
+    .heading = 言語を読み込めませんでした。
     .message = インターネット接続を確認してもう一度お試しください。
 about-translations-unsupported-info-button = 詳細情報
 # An error message displayed when the language list fails to load.
@@ -25,6 +34,16 @@ about-translations-language-load-error-message =
     .heading = 言語を読み込めませんでした。
     .message = インターネット接続を確認してもう一度お試しください。
 about-translations-language-load-error-button = 再試行
+# An error message displayed when a translation request fails.
+about-translations-translation-error-heading = 翻訳中に問題が発生しました
+about-translations-translation-error-subtext = もう一度お試しください。
+about-translations-translation-error-button = 再試行
+# An informational message displayed when the detected language is not supported.
+# Variables:
+#   $language (String) - The display name of the detected language.
+about-translations-detected-language-unsupported-heading-2 = 残念ながら { $language } からの翻訳にはまだ対応していません
+about-translations-detected-language-unsupported-heading-unknown-2 = 申し訳ありません。この言語からの翻訳にはまだ対応していません。
+about-translations-detected-language-unsupported-subtext = 別の言語を選んでください。
 # Placeholder text shown in the source-language text area when the user has not typed any text.
 about-translations-input-placeholder =
     .placeholder = 翻訳するテキストを追加してください
