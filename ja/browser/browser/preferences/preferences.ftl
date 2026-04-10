@@ -22,8 +22,6 @@ preferences-privacy-relay-available =
     .label = { -relay-brand-name } メールマスクのご提案
     .description = 受信トレイをスパムから守るため、本当のメールアドレスを隠します。
 non-technical-privacy-header = ウェブサイトのプライバシー設定
-non-technical-privacy-label =
-    .aria-label = { non-technical-privacy-header }
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
@@ -146,10 +144,6 @@ startup-header = 起動
 always-check-default =
     .label = { -brand-short-name } が@@DefaultBrowser@@か確認する
     .accesskey = y
-is-default-browser =
-    .message = { -brand-short-name } は@@DefaultBrowser@@に設定されています
-is-not-default-browser =
-    .message = { -brand-short-name } は@@DefaultBrowser@@に設定されていません
 is-default = { -brand-short-name } は@@DefaultBrowser@@に設定されています
 is-not-default = { -brand-short-name } は@@DefaultBrowser@@に設定されていません
 set-as-my-default-browser =
@@ -866,8 +860,6 @@ home-custom-homepage-subpage =
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
 home-custom-homepage-card-header =
     .label = ウェブサイトのアドレス
-# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
-home-custom-homepage-subheader = ウェブサイトのアドレス
 home-custom-homepage-address =
     .placeholder = アドレスを入力してください
 home-custom-homepage-address-button =
@@ -882,11 +874,6 @@ home-custom-homepage-delete-address-button =
 # to replace the current home page with a currently open page or bookmark.
 home-custom-homepage-replace-with-prompt =
     .label = 置き換え:
-# Shown when no custom websites/URLs to use as a homepage have been added yet
-home-custom-homepage-no-websites-yet = ウェブサイトがまだ追加されていません。
-# Further options to use when setting the home page. Two action buttons are placed in line with this prompt
-# to replace the current home page with a currently open page or bookmark.
-home-custom-homepage-replace-with = 置き換え:
 # Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with)
 home-custom-homepage-current-pages-button =
     .label = 現在開いているページ
@@ -1520,7 +1507,6 @@ autofill-saved-payment-methods-button = 保存された支払方法
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox = 支払い方法の入力と管理に端末のログイン情報を要求する
     .accesskey = o
-autofill-payment-methods-title = 支払い方法
 autofill-payment-methods-header =
     .aria-label = 支払い方法
 autofill-payment-methods-checkbox-message-2 =
@@ -1548,9 +1534,6 @@ payments-edit-payment-button-label =
 # This message is displayed when no payment methods such as credit card are stored in Firefox
 payments-no-payments-stored-message =
     .label = 追加した支払い方法はありません
-autofill-addresses-title = 住所など
-autofill-addresses-header =
-    .aria-label = 住所など
 autofill-addresses-checkbox-message =
     .label = 住所を保存して自動入力する
     .accesskey = S
@@ -1604,16 +1587,6 @@ history-header = 履歴
 #   - Simply as "Firefox", moving the verb into each option.
 #     This will result in "Firefox" + "Will remember history", etc.
 #   - As a stand-alone message, for example "Firefox history settings:".
-history-remember-label2 = { -brand-short-name } に
-# This label is followed, on the same line, by a dropdown list of options
-# (Remember history, etc.).
-# In English it visually creates a full sentence, e.g.
-# "Firefox will" + "Remember history".
-#
-# If this doesn't work for your language, you can translate this message:
-#   - Simply as "Firefox", moving the verb into each option.
-#     This will result in "Firefox" + "Will remember history", etc.
-#   - As a stand-alone message, for example "Firefox history settings:".
 history-remember-label = { -brand-short-name } に
     .accesskey = w
 history-remember-option-all =
@@ -1635,15 +1608,6 @@ history-dontremember-description4 =
     .description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
 history-custom-description4 =
     .aria-label = { history-group.label }
-    .description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴をカスタム設定で保存します。
-history-remember-description3 =
-    .aria-label = { history-remember-label2 }
-    .description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
-history-dontremember-description3 =
-    .aria-label = { history-remember-label2 }
-    .description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
-history-custom-description3 =
-    .aria-label = { history-remember-label2 }
     .description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴をカスタム設定で保存します。
 history-remember-description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
 history-dontremember-description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
@@ -1683,17 +1647,11 @@ history-remember-option-all2 =
 ## Privacy Section - Site Data
 
 sitedata-header = Cookie とサイトデータ
-sitedata-label =
-    .aria-label = { sitedata-header }
 sitedata-total-size-calculating = サイトデータとキャッシュのサイズを計算しています...
 # Variables:
 #   $value (number) - Value of the unit (for example: 4.6, 500)
 #   $unit (string) - Name of the unit (for example: "bytes", "KB")
 sitedata-total-size3 = ウェブサイトのディスク使用量は現在 <strong>{ $value } { $unit }</strong> です。
-# Variables:
-#   $value (number) - Value of the unit (for example: 4.6, 500)
-#   $unit (string) - Name of the unit (for example: "bytes", "KB")
-sitedata-total-size2 = 保存された Cookie、履歴、サイトデータ、キャッシュのディスク使用量は現在 <strong>{ $value } { $unit }</strong> です。
 # Variables:
 #   $value (number) - Value of the unit (for example: 4.6, 500)
 #   $unit (string) - Name of the unit (for example: "bytes", "KB")
@@ -2029,12 +1987,6 @@ permissions-autoplay-settings =
 permissions-block-popups2 =
     .label = ポップアップとサードパーティによるリダイレクトをブロックする
     .accesskey = B
-# "popup" is a misspelling that is more popular than the correct spelling of
-# "pop-up" so it's included as a search keyword, not displayed in the UI.
-permissions-block-popups-exceptions-button3 =
-    .label = リダイレクトを管理
-    .accesskey = E
-    .searchkeywords = ポップアップ
 permissions-addon-install-warning3 =
     .label = ウェブサイトが拡張機能をインストールしようとした時に警告する
     .accesskey = W
@@ -2044,9 +1996,6 @@ permissions-block-popups-exceptions-button2 =
     .label = ポップアップとサードパーティによるリダイレクトの例外サイトを管理
     .accesskey = E
     .searchkeywords = ポップアップ
-permissions-addon-install-warning2 =
-    .label = ウェブサイトが拡張機能をインストールしようとした時に警告する
-    .accesskey = W
 permissions-addon-exceptions2 =
     .label = 拡張機能のインストールを許可するウェブサイトを指定
     .accesskey = E
@@ -2065,9 +2014,6 @@ permissions-addon-install-warning =
 permissions-addon-exceptions =
     .label = 許可サイト...
     .accesskey = E
-permissions-header2 =
-    .label = 許可設定
-    .description = 閲覧しているウェブサイトに与える許可設定。
 permissions-location2 =
     .label = 位置情報
 permissions-localhost2 =
@@ -2202,9 +2148,6 @@ space-alert-over-5gb-settings-button =
     .accesskey = O
 space-alert-over-5gb-message2 = <strong>{ -brand-short-name } を実行するためのディスク領域が足りません。</strong>ウェブサイトが正しく表示されない可能性があります。@@[@@設定@@]@@ > @@[@@プライバシーとセキュリティ@@]@@ > @@[@@Cookie とサイトデータ@@]@@ から、保存されたデータを削除してください。
 space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行するためのディスク領域が足りません。</strong>ウェブサイトが正しく表示されない可能性があります。快適なブラウジングのために、@@[@@詳細情報@@]@@ のリンク先を読み、ディスク使用量を最適化してください。
-certs-description2 =
-    .label = 証明書
-    .description = { -brand-short-name } が認証に使用する証明書を設定します。
 certs-description3 =
     .label = 証明書
     .description = { -brand-short-name } が安全な接続の検証に使用する証明書を設定します。
@@ -2218,9 +2161,6 @@ certs-devices2 =
 ## Privacy Section - HTTPS-Only
 
 httpsonly-header = HTTPS-Only モード
-httpsonly-label =
-    .aria-label = { httpsonly-header }
-    .description = 安全な接続だけをウェブサイトに許可します。接続が安全でない場合は { -brand-short-name } に確認を求められます。
 httpsonly-description3 = 安全な接続だけをウェブサイトに許可します。接続が安全でない場合は { -brand-short-name } に確認を求められます。
 httpsonly-learn-more2 = HTTPS-Only モードの動作について
 httpsonly-description = HTTPS は { -brand-short-name } とあなたが訪れるウェブサイトとの間に、暗号化された安全な接続を提供します。多くのウェブサイトは HTTPS に対応しており、HTTPS-Only モードを有効にすると { -brand-short-name } はすべての接続を HTTPS に切り替えます。
