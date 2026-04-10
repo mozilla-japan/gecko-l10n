@@ -312,6 +312,13 @@ newtab-custom-shortcuts-subtitle = 保存または訪問したサイト
 newtab-custom-shortcuts-toggle =
     .label = ショートカット
     .description = 保存または訪問したサイト
+newtab-custom-shortcuts-nova =
+    .label = ショートカット
+# Variables
+#   $num (number) - Number of rows to display
+#  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. We won't be using "row"/"rows" anymore for the dropdown
+newtab-custom-row-selector2 =
+    .label = { $num } 行
 # Variables
 #   $num (number) - Number of rows to display
 newtab-custom-row-selector = { $num } 行
@@ -321,6 +328,8 @@ newtab-custom-pocket-subtitle = { -brand-product-name } ファミリーを構成
 newtab-custom-stories-toggle =
     .label = おすすめのストーリー
     .description = { -brand-product-name } ファミリーに選ばれた優良コンテンツです
+newtab-recommended-stories-toggle =
+    .label = おすすめのストーリー
 newtab-custom-stories-personalized-toggle =
     .label = ストーリー
 newtab-custom-stories-personalized-checkbox-label = ユーザーのアクティビティに基づいて選ばれたストーリー
@@ -356,6 +365,8 @@ newtab-wallpaper-title = 壁紙
 newtab-wallpaper-reset = @@DefaultValue@@にリセット
 newtab-wallpaper-upload-image = 画像をアップロード
 newtab-wallpaper-custom-color = @@Color@@を選択
+newtab-wallpaper-toggle-title =
+    .label = 壁紙
 # Variables
 #   $file_size (number) - The number of the maximum image file size (in MB) that may be uploaded
 newtab-wallpaper-error-max-file-size = 画像がファイルサイズの上限を超えています。{ $file_size } MB より小さなファイルをアップロードしてください。
