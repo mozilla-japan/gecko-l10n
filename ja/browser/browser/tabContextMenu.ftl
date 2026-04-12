@@ -127,6 +127,21 @@ tab-context-send-to-device =
            *[other] { $tabCount } 個のタブを端末へ送信
         }
     .accesskey = n
+# The following string intentionally omits the word "Tab" from the singular and includes it in the plural.
+tab-context-send-to-mobile =
+    .label =
+        { $tabCount ->
+            [1] モバイル端末へ送信
+           *[other] { $tabCount } 個のタブをモバイル端末へ送信
+        }
+    .accesskey = n
+# The following strings are for displaying elements in the tab context send tab submenu to prompt users to sign in, enable sync, or pair a device
+tab-context-send-to-mobile-enable-sync =
+    .label = 同期を有効にしてタブを送信
+tab-context-send-to-mobile-connect-phone =
+    .label = スマートフォンに接続
+tab-context-send-to-mobile-device-missing =
+    .label = 端末が見つかりませんか？
 tab-context-send-tabs-to-device =
     .label =
         { $tabCount ->

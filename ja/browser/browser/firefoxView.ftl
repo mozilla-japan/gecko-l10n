@@ -113,6 +113,8 @@ firefoxview-history-nav = 履歴
 firefoxview-history-header = 履歴
 firefoxview-history-context-delete = 履歴から削除
     .accesskey = D
+firefoxview-history-context-forget-site = このサイトの履歴を消去...
+    .accesskey = F
 
 ## Open Tabs in this context refers to all open tabs in the browser
 
@@ -155,6 +157,9 @@ firefoxview-search-text-box-recentbrowsing =
 # Placeholder for the input field to search in history ("search" is a verb).
 firefoxview-search-text-box-history =
     .placeholder = 履歴を検索
+# Placeholder for the input field to search in bookmarks ("search" is a verb).
+firefoxview-search-text-box-bookmarks =
+    .placeholder = ブックマークを検索
 # Placeholder for the input field to search in recently closed tabs ("search" is a verb).
 firefoxview-search-text-box-recentlyclosed =
     .placeholder = 最近閉じたタブを検索

@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## These strings are shown under the header if scheduled backups are enabled.
-
 # This string is used to name the folder that users will save backups to.
 # "Restore" is an action and intended for prompting users to select this folder
 # when following backup restoration steps. Please only include characters that
@@ -73,7 +70,7 @@ settings-data-backup-restore-header = データの復元
 settings-data-backup-scheduled-backups-off-restore-description = 別の端末の { -brand-product-name } バックアップからデータを復元します。
 settings-data-backup-scheduled-backups-off-restore-choose = バックアップファイルを選択...
 
-## These strings are shown under the header if scheduled backups are enabled.
+##
 
 settings-data-backup-scheduled-backups-on-restore-description = 最新のバックアップから { -brand-product-name } のデータを復元します。
 settings-data-backup-scheduled-backups-on-restore-choose = 復元...
@@ -277,7 +274,7 @@ other-backup-files-founds = <b>注意:</b> 他に { $numberOfOtherBackupsFound }
 #   $profileName (String) - The name of the profile that was backed up.
 #   $date (Datetime) - The date the backup was created.
 #   $machineName (String) - Name of the machine that the backup was created on.
-backup-file-creation-metadata = { $profileName } プロファイルを { $machineName } 上で { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } に作成
+backup-file-creation-metadata2 = <b>{ $profileName }</b> プロファイルを { $machineName } 上で { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } に作成
 # Variables:
 #   $deviceName (String) - The name of the device from which the backup was created.
 #   $date (Number) - The epoch timestamp of the restore.

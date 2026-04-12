@@ -24,6 +24,10 @@ ipprotection-title = VPN
 ## Feature introduction callout
 
 ipprotection-feature-introduction-title = ブラウザーに内蔵された VPN をご紹介します
+ipprotection-feature-introduction-link-text-2 = 新たな <a data-l10n-name="learn-more-vpn">組み込み VPN</a> を利用すると、あなたの現在位置を隠してユーザーデータを保護します。
+ipprotection-feature-introduction-link-text-private-browsing-2 = 新たな <a data-l10n-name="learn-more-vpn">組み込み VPN</a> を利用すると、プライベート@@Window@@であっても、あなたの現在位置を隠してユーザーデータを保護します。
+ipprotection-feature-introduction-description-private-browsing = プライベート@@Window@@であっても、ユーザーの現在位置を隠して追加の保護でブラウジングします。
+ipprotection-feature-introduction-description-captive-portal = 公衆 Wi-Fi であっても、ユーザーの現在位置を隠して追加の保護でブラウジングします。
 ipprotection-feature-introduction-button-primary = 次へ
 ipprotection-feature-introduction-button-secondary-not-now = 後で
 ipprotection-feature-introduction-button-secondary-no-thanks = いいえ、結構です
@@ -37,6 +41,8 @@ ipprotection-site-settings-callout-button = 了解
 ## Panel
 
 unauthenticated-vpn-title = { -brand-product-name } の組み込み VPN をお試しください
+unauthenticated-hide-location-message-3 = { -brand-product-name } でのブラウジング中、<a data-l10n-name="learn-more-vpn">あなたの現在位置を隠します</a>。
+unauthenticated-hide-location-message-2 = { -brand-product-name } でのブラウジング中、あなたの現在位置を隠します。
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 unauthenticated-bandwidth-limit-message = 無料の VPN データを毎月 { $maxUsage } GB 入手しましょう。
@@ -85,8 +91,11 @@ upgrade-vpn-button = { -mozilla-vpn-brand-name } を試す
 
 ipprotection-connection-status-generic-error-title = VPN に接続できませんでした
 ipprotection-connection-status-generic-error-description = 数分後にもう一度試してください。
+ipprotection-connection-status-generic-error-try-again = 後でもう一度試してください。
 ipprotection-connection-status-network-error-title = インターネット接続を確認してください
 ipprotection-connection-status-network-error-description = インターネットに接続してから、VPN をオンにしてみてください。
+ipprotection-connection-status-blocked-error-title = VPN の利用不可
+ipprotection-connection-status-blocked-error-description = この地域では VPN サービスの提供が法律により規制されています。<a data-l10n-name="learn-more-link">詳細情報</a>
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in GB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
@@ -117,6 +126,9 @@ ip-protection-bandwidth-warning-infobar-message-75 = <strong>VPN データの使
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in GB)
 ip-protection-bandwidth-warning-infobar-message-90 = <strong>VPN データがほぼ上限まで使用されています。</strong> 残り { $usageLeft } GB です。すべて使い果たすと、来月初めに使用量がリセットされるまで VPN が利用できなくなります。
+# Variables
+#   $usageLeft (number) - The amount of data a user has left in a month (in MB)
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>VPN データがほぼ上限まで使用されています。</strong> 残り { $usageLeft } MB です。すべて使い果たすと、来月初めに使用量がリセットされるまで VPN が利用できなくなります。
 
 ## IP Protection Settings
 
@@ -126,6 +138,11 @@ ip-protection-description =
 ip-protection-learn-more = 詳細情報
 ip-protection-site-exceptions =
     .label = サイト固有の設定
+# Variables:
+#   $maxUsage (number) - The bandwidth limit of free VPN, in GB
+ip-protection-not-opted-in-2 =
+    .heading = { -brand-short-name } の組み込み VPN を試す
+    .message = { -brand-short-name } のブラウジングでユーザーの現在位置を隠します。毎月 { $maxUsage } GB の無料 VPN データが取得できます。
 ip-protection-not-opted-in-button = はじめる
 # Variables:
 #   $count (number) - The number of sites saved as VPN exclusions.
@@ -173,6 +190,7 @@ ip-protection-bandwidth-hit-for-the-month = VPN データが上限の { $maxUsag
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 ip-protection-bandwidth-help-text = 毎月初めに残り { $maxUsage } GB にリセットされます。
+ip-protection-bandwidth-header-1 = 毎月のデータ使用上限
 
 ## IP Protection bandwidth reset callout
 
@@ -184,6 +202,8 @@ ipprotection-bandwidth-reset-button = 了解
 
 ## IP Protection add-on breakage warnings
 
+ipp-activator-breakage-sign-in-warning = <strong>このウェブサイトは VPN で動作しない可能性があります。</strong> このウェブサイトの利用中はサイトにログインするか、VPN をオフにしてください。
+ipp-activator-breakage-turn-off-warning = <strong>このウェブサイトは VPN で動作しない可能性があります。</strong> このウェブサイトの利用中は VPN をオフにしてください。
 
 ## IP Protection alerts
 

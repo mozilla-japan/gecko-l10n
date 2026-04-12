@@ -3,9 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fxa-toolbar-sync-syncing2 = 同期中...
-sync-disconnect-dialog-title2 = 切断しますか？
+sync-disconnect-dialog-title2 = 接続を解除しますか？
 sync-disconnect-dialog-body = { -brand-product-name } はあなたのアカウントの同期を停止しますが、この端末の閲覧データは一切削除されません。
-sync-disconnect-dialog-button = 切断
+sync-disconnect-dialog-button = 接続を解除
 fxa-signout-dialog2-title = { -fxaccount-brand-name }からログアウトしますか？
 fxa-signout-dialog-title2 = アカウントからログアウトしますか？
 fxa-signout-dialog-body = 同期済みデータはあなたのアカウントに残ります。
@@ -27,6 +27,22 @@ fxa-menu-send-to-device =
             [1] 端末へ送信
            *[other] { $tabCount } 個のタブを端末へ送信
         }
+# Variables:
+#   $tabCount (Number): The number of tabs sent to the device.
+# The following string intentionally omits the word "tab" from the singular and includes it in the plural.
+fxa-menu-send-to-mobile =
+    .label =
+        { $tabCount ->
+            [1] モバイル端末へ送信
+           *[other] { $tabCount } 個のタブをモバイル端末へ送信
+        }
+# The following strings are for displaying elements in the FxA send tab submenu to prompt users to sign in, enable sync, or pair a device
+fxa-menu-send-to-mobile-enable-sync =
+    .label = 同期を有効にしてタブを送信
+fxa-menu-send-to-mobile-connect-phone =
+    .label = スマートフォンに接続
+fxa-menu-send-to-mobile-device-missing =
+    .label = 端末が見つかりませんか？
 # Variables:
 #   $tabCount (Number): The number of tabs sent to the device.
 fxa-menu-send-tab-to-device =
