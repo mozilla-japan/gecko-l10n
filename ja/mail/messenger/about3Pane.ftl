@@ -203,8 +203,6 @@ folder-pane-total-aria-label = 合計 { $count } 通
 
 ## Message thread pane
 
-threadpane-column-header-a11y-select =
-    .aria-label = メッセージ選択
 threadpane-column-header-select =
     .title = すべてのメッセージを選択または解除します
 threadpane-column-header-select-all =
@@ -436,6 +434,8 @@ threadpane-cell-delete =
 # Variables:
 # $count (Number) - Number of replies in thread.
 threadpane-replies = 返信 { $count } 通
+threadpane-column-header-a11y-select =
+    .aria-label = メッセージ選択
 
 ## Message state variations
 

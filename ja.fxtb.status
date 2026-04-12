@@ -227,4 +227,5 @@ tbsrc | calendar, mail           fa09e076 (2026-03-02)  mar          sync calend
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | dom, toolkit             5930724b (2026-04-09)  mar          sync dom, toolkit
+tbsrc | mail                     bdf2d349 (2026-03-17)  kazushi      sync mail 未翻訳(^^k
 
