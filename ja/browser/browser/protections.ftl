@@ -147,3 +147,24 @@ bar-tooltip-fingerprinter =
 bar-tooltip-cryptominer =
     .title = 暗号通貨マイニング
     .aria-label = { $count } 個の暗号通貨マイニング ({ $percentage }%)
+# Privacy Metrics Card
+privacy-metrics-title = プライバシー保護
+# Variables:
+#   $count (Number) - Total number of trackers blocked this week
+privacy-metrics-blocked-this-week = 今週は { $count } 個ブロックしました
+# Variables:
+#   $count (Number) - Number of trackers blocked
+privacy-metrics-trackers = トラッカー { $count } 個
+# Variables:
+#   $count (Number) - Number of fingerprinters blocked
+privacy-metrics-fingerprinters = フィンガープリント採取 { $count } 個
+# Variables:
+#   $count (Number) - Number of tracking cookies blocked
+privacy-metrics-cookies = トラッキング Cookie { $count } 個
+# Variables:
+#   $count (Number) - Number of social trackers blocked
+privacy-metrics-social = ソーシャルトラッカー { $count } 個
+privacy-metrics-empty = 今週ブロックしたトラッカーはありません。{ -brand-short-name } はブラウジング中の以下の脅威からユーザーを保護します。
+privacy-metrics-loading = 保護状況を読み込んでいます...
+privacy-metrics-error = 保護状況を読み込めませんでした。
+privacy-metrics-private-window = { -brand-short-name } はプライベート@@Window@@でも引き続きトラッカーをブロックしますが、ブロックしたものを記録しません。

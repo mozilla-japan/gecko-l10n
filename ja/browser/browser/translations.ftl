@@ -85,6 +85,14 @@ translations-panel-error-change-button =
     .label = 元の言語を変更
 # If your language requires declining the language name, a possible solution
 # is to adapt the structure of the phrase, or use a support noun, e.g.
+# `Sorry, we don't support translations from this language yet: { $language }
+#
+# Variables:
+#   $language (string) - The language of the document.
+translations-panel-error-unsupported-hint-known-2 = 申し訳ありません。{ $language } からの翻訳にはまだ対応していません。
+translations-panel-error-unsupported-hint-unknown-2 = 申し訳ありません。この言語からの翻訳にはまだ対応していません。
+# If your language requires declining the language name, a possible solution
+# is to adapt the structure of the phrase, or use a support noun, e.g.
 # `Sorry, we don't support the language yet: { $language }
 #
 # Variables:
@@ -228,6 +236,16 @@ select-translations-panel-init-failure-message =
 # Text displayed when the translation fails to complete.
 select-translations-panel-translation-failure-message =
     .message = 翻訳時に問題が発生しました。もう一度試してください。
+# If your language requires declining the language name, a possible solution
+# is to adapt the structure of the phrase, or use a support noun, e.g.
+# `Sorry, we don't support translations from { $language } yet.
+#
+# Variables:
+#   $language (string) - The language of the document.
+select-translations-panel-unsupported-language-message-known-2 =
+    .message = 申し訳ありません。{ $language } からの翻訳にはまだ対応していません。
+select-translations-panel-unsupported-language-message-unknown-2 =
+    .message = 申し訳ありません。この言語からの翻訳にはまだ対応していません。
 # If your language requires declining the language name, a possible solution
 # is to adapt the structure of the phrase, or use a support noun, e.g.
 # `Sorry, we don't support the language yet: { $language }

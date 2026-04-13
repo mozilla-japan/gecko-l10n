@@ -178,7 +178,7 @@ permissions-site-camera-disable-label =
     .label = カメラへのアクセスの要求をブロックする
 permissions-site-camera-disable-desc = 上記以外のウェブサイトは、カメラへのアクセスを要求させないようにします。カメラへのアクセスをブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
 
-## Site Permissions - Local host
+## Site Permissions - Loopback network
 
 permissions-site-localhost-window =
     .title = 設定 - 端末のアプリとサービス
