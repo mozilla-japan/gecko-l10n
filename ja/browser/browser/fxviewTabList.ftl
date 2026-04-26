@@ -24,6 +24,10 @@ fxviewtabrow-dismiss-tab-button =
     .title = { $tabTitle } を閉じます
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
 fxviewtabrow-just-now-timestamp = 直前
+
+# Strings below are used for context menu options within panel-list.
+# For developers, this duplicates command because the label attribute is required.
+
 # Strings below are used for context menu options within panel-list.
 # For developers, this duplicates command because the label attribute is required.
 fxviewtabrow-delete = 削除
@@ -77,9 +81,6 @@ fxviewtabrow-mute-tab-button-no-context =
 fxviewtabrow-unmute-tab-button-no-context =
     .title = タブのミュートを解除します
 # The following strings are for displaying elements in Firefox View to prompt users to sign in, enable sync, or pair a device
-fxviewtabrow-send-to-mobile-enable-sync =
-    .label = 同期を有効にしてタブを送信
-fxviewtabrow-send-to-mobile-connect-phone =
-    .label = スマートフォンに接続
-fxviewtabrow-send-to-mobile-device-missing =
-    .label = 端末が見つかりませんか？
+fxviewtabrow-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
+fxviewtabrow-send-to-mobile-connect-phone2 = スマートフォンに接続
+fxviewtabrow-send-to-mobile-device-missing2 = 端末が見つかりませんか？

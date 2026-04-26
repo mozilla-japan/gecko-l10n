@@ -646,6 +646,9 @@ sharing-warning-proceed-to-tab =
 sharing-warning-disable-for-session =
     .label = このセッションでは共有保護を無効にする。
 
+## WebSerial "select a port" popup
+
+
 ## DevTools F12 popup
 
 enable-devtools-popup-description2 = F12 ショートカットを使うには、最初にメニューのブラウザーツールから開発ツールを開いてください。
@@ -711,6 +714,8 @@ urlbar-switch-to-tab =
 # Used to indicate that a selected autocomplete entry is provided by an extension.
 urlbar-extension =
     .value = 拡張機能:
+urlbar-go-button2 =
+    .title = アドレスバーに入力された URL へ移動します
 urlbar-go-button =
     .tooltiptext = アドレスバーに入力された URL へ移動します
 urlbar-page-action-button =
@@ -931,14 +936,6 @@ urlbar-searchmode-default =
     .tooltiptext = @@Default-@@検索エンジン
 # Label shown on the top of Searchmode Switcher popup. After this label, the
 # available search engines will be listed.
-urlbar-searchmode-popup-one-off-description-menucaption =
-    .label = 今回だけ使う検索エンジン:
-# Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
-# reset after submitting.
-urlbar-searchmode-popup-header-menucaption =
-    .label = 検索エンジン:
-# Label shown on the top of Searchmode Switcher popup. After this label, the
-# available search engines will be listed.
 urlbar-searchmode-popup-description-menucaption =
     .label = 今回だけ使う検索エンジン:
 # Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
@@ -965,6 +962,38 @@ urlbar-searchmode-button-no-engine =
 urlbar-searchmode-no-keyword =
     .label = キーワード検索が無効
     .tooltiptext = キーワード検索が無効です
+# Searchmode Switcher button
+# Variables:
+#   $engine (String): the current default search engine.
+urlbar-searchmode-button3 =
+    .title = 検索エンジン: { $engine }、別の検索エンジンを選択します
+urlbar-searchmode-button-no-engine2 =
+    .title = ショートカットが選択されていません。ショートカットを選択します
+# Refers to the ability to search using keywords in the address bar
+urlbar-searchmode-no-keyword2 =
+    .title = キーワード検索が無効です
+urlbar-searchmode-dropmarker2 =
+    .title = 検索エンジンを選択します
+urlbar-searchmode-bookmarks2 = ブックマーク
+urlbar-searchmode-tabs2 = タブ
+urlbar-searchmode-history2 = 履歴
+urlbar-searchmode-actions2 = アクション
+urlbar-searchmode-exit-button2 =
+    .title = 閉じる
+urlbar-searchmode-default2 =
+    .title = @@Default-@@検索エンジン
+# Shown when adding new search engines from the search mode switcher.
+# Variables:
+#  $engineName (String): The name of the search engine.
+urlbar-searchmode-popup-add-engine = “{ $engineName }” を追加
+    .title = 検索エンジン “{ $engineName }” を追加します
+# Label shown on the top of Searchmode Switcher popup. After this label, the
+# available search engines will be listed.
+urlbar-searchmode-popup-one-off-header = 今回だけ使う検索エンジン:
+# Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
+# reset after submitting.
+urlbar-searchmode-popup-header = 検索エンジン:
+urlbar-searchmode-popup-search-settings-panelitem = 検索設定
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
