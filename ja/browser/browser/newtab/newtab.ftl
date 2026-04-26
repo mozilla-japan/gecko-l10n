@@ -11,6 +11,8 @@ newtab-settings-button =
 newtab-customize-panel-icon-button =
     .title = このページをカスタマイズ
 newtab-customize-panel-icon-button-label = カスタマイズ
+newtab-customize-panel-label =
+    .label = カスタマイズ
 newtab-personalize-settings-icon-label =
     .title = @@NewTab@@をパーソナライズ
     .aria-label = 設定
@@ -502,7 +504,6 @@ newtab-weather-menu-temperature-option-fahrenheit = 華氏 (℉)
 newtab-weather-menu-temperature-option-celsius = 摂氏 (℃)
 newtab-weather-menu-change-temperature-units-fahrenheit = ファーレンハイト度に切り替える
 newtab-weather-menu-change-temperature-units-celsius = セルシウス度に切り替える
-newtab-weather-menu-hide-weather-v2 = 天気表示を隠す
 newtab-weather-menu-hide-weather = @@NewTab@@の天気表示を隠す
 newtab-weather-menu-learn-more = 詳細情報
 newtab-weather-menu-detect-my-location = 現在地を検出
@@ -521,7 +522,6 @@ newtab-weather-high =
 # "Lowest" here refers to the lowest temperature of the day
 newtab-weather-low =
     .aria-label = 最低気温
-
 # Variables:
 #   $provider (string) - Service provider for weather data
 newtab-weather-see-forecast-description =
@@ -617,6 +617,9 @@ newtab-new-user-custom-wallpaper-title = 壁紙を選んであなただけの { 
 newtab-new-user-custom-wallpaper-subtitle = お好みの壁紙と@@Colors@@ですべての@@NewTab@@を自宅のようにカスタマイズできます。
 newtab-new-user-custom-wallpaper-cta = 今すぐ試す
 
+## Strings for Nova wallpaper feature highlight
+
+
 ## Strings for download mobile highlight
 
 newtab-download-mobile-highlight-title = モバイル版 { -brand-product-name } をダウンロード
@@ -690,7 +693,6 @@ newtab-widget-lists-menu-edit = リスト名を編集
 newtab-widget-lists-menu-create = @@New-CMD@@リストを作成
 newtab-widget-lists-menu-delete = このリストを削除
 newtab-widget-lists-menu-copy = リストをクリップボードにコピー
-newtab-widget-lists-menu-hide = すべてのリストを隠す
 newtab-widget-lists-menu-learn-more = 詳細情報
 newtab-widget-lists-input-add-an-item =
     .placeholder = アイテムを追加します
@@ -747,7 +749,6 @@ newtab-widget-timer-reset =
     .title = リセット
 newtab-widget-timer-menu-notifications = 通知をオフにする
 newtab-widget-timer-menu-notifications-on = 通知をオンにする
-newtab-widget-timer-menu-hide = タイマーを隠す
 newtab-widget-timer-menu-learn-more = 詳細情報
 # The title displays above a set of top news headlines.
 newtab-daily-briefing-card-title = トップニュース
