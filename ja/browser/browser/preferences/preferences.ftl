@@ -56,6 +56,9 @@ category-home =
 pane-search-title = 検索
 category-search =
     .tooltiptext = { pane-search-title }
+pane-privacy-title2 = プライバシーとセキュリティ
+pane-privacy-section =
+    .heading = プライバシーとセキュリティ
 pane-privacy-title = プライバシーとセキュリティ
 category-privacy =
     .tooltiptext = { pane-privacy-title }
@@ -728,7 +731,7 @@ performance-default-content-process-count =
 performance-group =
     .label = パフォーマンス
 
-## General Section - Browsing
+## Accessibility page
 
 browsing-title = ブラウジング
 browsing-group-label =
@@ -777,6 +780,9 @@ browsing-cfr-features =
 browsing-cfr-recommendations-learn-more = 詳細情報
 browsing-group =
     .label = ブラウジング
+
+## Accessibility page
+
 
 ## General Section - Proxy
 
@@ -2015,12 +2021,6 @@ permissions-block-popups-exceptions-button4 =
 permissions-addon-install-warning3 =
     .label = ウェブサイトが拡張機能をインストールしようとした時に警告する
     .accesskey = W
-# "popup" is a misspelling that is more popular than the correct spelling of
-# "pop-up" so it's included as a search keyword, not displayed in the UI.
-permissions-block-popups-exceptions-button2 =
-    .label = ポップアップとサードパーティによるリダイレクトの例外サイトを管理
-    .accesskey = E
-    .searchkeywords = ポップアップ
 permissions-addon-exceptions2 =
     .label = 拡張機能のインストールを許可するウェブサイトを指定
     .accesskey = E
@@ -2367,6 +2367,9 @@ preferences-doh-custom-provider-label =
     .aria-label = カスタムプロバイダーの URL を入力してください
 preferences-doh-header2 =
     .heading = DNS over HTTPS
+
+## Connection and software security section
+
 
 ## The following strings are used in the Download section of settings
 
