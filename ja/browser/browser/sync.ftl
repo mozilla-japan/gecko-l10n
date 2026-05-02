@@ -37,6 +37,10 @@ fxa-menu-send-to-mobile =
            *[other] { $tabCount } 個のタブをモバイル端末へ送信
         }
 # The following strings are for displaying elements in the FxA send tab submenu to prompt users to sign in, enable sync, or pair a device
+fxa-menu-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
+fxa-menu-send-to-mobile-connect-phone2 = スマートフォンに接続
+fxa-menu-send-to-mobile-device-missing2 = 端末が見つかりませんか？
+# The following strings are for displaying elements in the FxA send tab submenu to prompt users to sign in, enable sync, or pair a device
 fxa-menu-send-to-mobile-enable-sync =
     .label = 同期を有効にしてタブを送信
 fxa-menu-send-to-mobile-connect-phone =
