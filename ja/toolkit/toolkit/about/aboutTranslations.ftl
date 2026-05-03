@@ -11,10 +11,6 @@ about-translations-learn-more-link = 詳細情報
 about-translations-unsupported-info-message-2 =
     .heading = この端末では翻訳機能が利用できません
     .message = 別の端末に切り替えてお試しください。
-# An info message displayed if the device's hardware is not compatible with the Translations feature requirements.
-about-translations-unsupported-info-message =
-    .heading = この端末では翻訳機能が利用できません。
-    .message = 別の端末に切り替えてお試しください。
 # An info message displayed when translations are disabled and locked by enterprise policy.
 about-translations-policy-disabled-info-message =
     .heading = 所属組織では翻訳機能を利用できません
@@ -26,11 +22,6 @@ about-translations-feature-blocked-info-message =
 about-translations-feature-blocked-unblock-button = ブロック解除
 # An error message displayed when the language list fails to load.
 about-translations-language-load-error-message-2 =
-    .heading = 言語を読み込めませんでした。
-    .message = インターネット接続を確認してもう一度お試しください。
-about-translations-unsupported-info-button = 詳細情報
-# An error message displayed when the language list fails to load.
-about-translations-language-load-error-message =
     .heading = 言語を読み込めませんでした。
     .message = インターネット接続を確認してもう一度お試しください。
 about-translations-language-load-error-button = 再試行
