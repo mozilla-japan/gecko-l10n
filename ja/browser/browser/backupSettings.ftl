@@ -7,7 +7,7 @@
 # when following backup restoration steps. Please only include characters that
 # can be used for folders. Invalid characters will be automatically stripped out
 # or replaced with underscores.
-backup-folder-name = { -brand-product-name } の復元
+backup-folder-name = Restore { -brand-product-name }
 # This string is used for the generated file that will be stored within the
 # backup-folder-name folder. It will have the profile name and an encoding of
 # the backup date appended to it, followed by `.html`. Please only include
