@@ -37,6 +37,7 @@ policy-Containers = コンテナーに関連するポリシーを設定します
 policy-DisableAccounts = 同期を含め、アカウントに基づくサービスを無効にします。
 policy-DisabledCiphers = 暗号を無効にします。
 policy-DefaultDownloadDirectory = @@Default-@@ダウンロードディレクトリーを設定します。
+policy-DefaultSerialGuardSetting = Serial API の使用を制御します。
 policy-DisableAppUpdate = ブラウザの更新を抑止します。
 policy-DisableBuiltinPDFViewer = { -brand-short-name } 組み込みの PDF ビューアーの PDF.js を無効にします。
 policy-DisableDefaultBrowserAgent = Default Browser Agent のアクションをすべて抑止します。Windows のみ適用可能です。他のプラットフォームにはこのエージェントがありません。

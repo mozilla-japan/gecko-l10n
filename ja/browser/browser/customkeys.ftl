@@ -13,6 +13,7 @@ customkeys-reset-all = すべてのショートカットを初期設定にリセ
 # $conflict (string) - The title of the conflicting shortcut.
 customkeys-conflict-confirm = このキーはすでに { $conflict } に割り当てられています。別のキーに置き換えますか？
 customkeys-reset-all-confirm = 本当にすべてのキーボードショートカットを初期設定にリセットしてもよろしいですか？
+customkeys-file-duplicate-tab = タブを複製
 customkeys-history-reopen-tab = 最後に閉じたタブを開き直す
 customkeys-history-reopen-window = 最後に閉じた@@Window@@を開き直す
 customkeys-sidebar-toggle = サイドバーを切り替える

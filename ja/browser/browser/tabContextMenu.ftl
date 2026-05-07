@@ -88,7 +88,7 @@ tab-context-close-multiple-tabs =
     .accesskey = M
 tab-context-close-duplicate-tabs =
     .label = 重複タブを閉じる
-    .accesskey = u
+    .accesskey = x
 tab-context-share-url =
     .label = 共有
     .accesskey = h
@@ -107,7 +107,7 @@ tab-context-new-group =
 ##  $tabCount (Number): the number of tabs that are affected by the action.
 
 tab-context-reopen-closed-tabs =
-    .label = 閉じたタブを開きなおす
+    .label = 閉じたタブを開き直す
     .accesskey = o
 tab-context-close-n-tabs =
     .label =
@@ -142,6 +142,10 @@ tab-context-send-to-mobile-connect-phone =
     .label = スマートフォンに接続
 tab-context-send-to-mobile-device-missing =
     .label = 端末が見つかりませんか？
+# Verb: share a collection of selected tabs as a link
+tab-context-share-selected-tabs =
+    .label = 共有可能なリンクを作成
+    .accesskey = a
 tab-context-send-tabs-to-device =
     .label =
         { $tabCount ->

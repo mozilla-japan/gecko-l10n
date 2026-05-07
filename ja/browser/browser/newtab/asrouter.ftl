@@ -406,6 +406,14 @@ windows-10-eos-feature-toast-subtitle = ご要望にお応えして { -brand-pro
 windows-10-eos-feature-toast-whats-new-button = 新機能を見る
 windows-10-eos-feature-toast-dismiss-button = 閉じる
 
+## Windows 10 EoS Global Infobar
+
+windows-10-eos-global-infobar-title = <strong>Microsoft は Windows 10 のサポートを終了しました。</strong> { -brand-product-name } のプロファイルデータをバックアップして Windows 11 への準備をしましょう。
+windows-10-eos-global-infobar-primary-button = バックアップを有効化
+    .accesskey = T
+windows-10-eos-global-infobar-learn-more-link = 詳細情報
+    .accessKey = L
+
 ## ETP (Enhanced Tracking Protection) Strict exceptions infobar
 ##
 ## These strings are displayed in an infobar notification that appears when
@@ -434,3 +442,13 @@ set-default-menu-message-row-layout-subtitle-variant =
     }
 set-default-menu-message-primary-button = @@Default@@に設定
 set-default-menu-message-primary-button-variant = 優先ブラウザーに設定
+
+## Firefox Relay 50 Masks Announcement
+
+# "on us" in this context means "for free" or "at no cost"
+relay-50-masks-announcement-title = メールマスクが 50 個に増量
+relay-50-masks-announcement-subtitle = 無料のメールマスクが (5 個から) 50 個に増えました。すべてのアカウントで実際のメールアドレスをプライベートにできます。
+relay-50-masks-announcement-primary-button = { -relay-brand-name } へ移動
+    .accesskey = G
+relay-50-masks-announcement-secondary-button = 閉じる
+    .accesskey = D

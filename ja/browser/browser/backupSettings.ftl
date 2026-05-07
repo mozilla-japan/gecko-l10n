@@ -22,21 +22,15 @@ backup-file-name = { -brand-product-name }Backup
 settings-data-backup-header2 =
     .label = バックアップ
     .description = ブックマーク、履歴、他のデータを自動的に保護します。
-settings-data-backup-header = バックアップ
 settings-data-backup-toggle = バックアップを管理
 settings-data-backup-toggle-on2 =
     .label = バックアップを有効にする
 settings-data-backup-toggle-off2 =
     .label = バックアップを無効にする
-settings-data-backup-toggle-on = バックアップを有効にする
-settings-data-backup-toggle-off = バックアップを無効にする
 settings-data-backup-trigger-button = 今すぐバックアップ
 settings-data-backup-in-progress-button = バックアップ中...
 settings-data-backup-in-progress-message =
     .message = バックアップ中...
-settings-data-backup-scheduled-backups-on = バックアップ: 有効
-settings-data-backup-scheduled-backups-off = バックアップ: 無効
-settings-data-backup-scheduled-backups-description = ブックマークや履歴などのデータを自動的に保護します。<a data-l10n-name="support-link">詳細情報</a>
 settings-data-backup-last-backup-date = 最終バックアップ日時: { DATETIME($date, dateStyle: "short") } { DATETIME($date, timeStyle: "short") }
 settings-data-backup-scheduled-backups-on2 =
     .label = バックアップ: 有効
@@ -45,8 +39,6 @@ settings-data-backup-scheduled-backups-off2 =
 # "Location" refers to the folder where backups are being written to.
 settings-data-backup-last-backup-location2 =
     .label = バックアップ先
-# "Location" refers to the folder where backups are being written to.
-settings-data-backup-last-backup-location = バックアップ先
 settings-data-backup-last-backup-location-show-in-folder = フォルダーを開く
 settings-data-backup-last-backup-location-edit = 編集...
 settings-data-create-backup-error = { DATETIME($date, dateStyle: "short") } { DATETIME($date, timeStyle: "short") } のバックアップ作成中にエラーが発生しました。
@@ -63,24 +55,14 @@ settings-data-backup-restore-scheduled-on =
 settings-data-backup-restore-scheduled-off =
     .label = データの復元
     .description = 別の端末の { -brand-product-name } バックアップからデータを復元します。
-settings-data-backup-restore-header = データの復元
-
-## These strings are shown under the header if scheduled backups are disabled.
-
-settings-data-backup-scheduled-backups-off-restore-description = 別の端末の { -brand-product-name } バックアップからデータを復元します。
-settings-data-backup-scheduled-backups-off-restore-choose = バックアップファイルを選択...
 
 ##
 
-settings-data-backup-scheduled-backups-on-restore-description = 最新のバックアップから { -brand-product-name } のデータを復元します。
-settings-data-backup-scheduled-backups-on-restore-choose = 復元...
 settings-sensitive-data =
     .label = 機密性の高い情報
-settings-data-toggle-encryption-label = 機密性の高い情報をバックアップする
 settings-data-toggle-encryption-support-link = 詳細情報
 settings-data-change-password2 =
     .label = パスワードを変更
-settings-data-change-password = パスワードを変更...
 
 ## These strings are displayed in a modal when users want to turn on scheduled backups.
 
@@ -123,13 +105,6 @@ restore-from-backup-header = データの復元
 # Variables:
 #   $date (string) - Date to be formatted based on locale
 restore-from-backup-support-link1 = 何が復元されますか？
-# Variables:
-#   $date (string) - Date to be formatted based on locale
-restore-from-backup-description-with-metadata =
-    .message = この操作を実行すると、現在の { -brand-short-name } のデータを { DATETIME($date, timeStyle: "short", dateStyle: "short") } のバックアップで置き換えます。
-restore-from-backup-support-link =
-    .message = 何が復元されますか？
-restore-from-backup-no-backup-file-link = バックアップが見つかりませんか？
 restore-from-backup-filepicker-label = バックアップファイル
 restore-from-backup-filepicker-title = バックアップファイルを選択:
 restore-from-backup-file-choose-button =
@@ -279,10 +254,6 @@ backup-file-creation-metadata2 = <b>{ $profileName }</b> プロファイルを {
 #   $deviceName (String) - The name of the device from which the backup was created.
 #   $date (Number) - The epoch timestamp of the restore.
 backup-restored-profile-name = { $deviceName } から { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } { DATETIME($date, hour: "2-digit", minute: "2-digit") } に復元
-# Variables:
-#   $date (Datetime) - The date the backup was created
-#   $machineName (String) - Name of the machine that the backup was created on.
-backup-file-creation-date-and-device = { $machineName } 上で { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } に作成
 backup-file-restore-file-validation-error = このファイルは使えません。別のファイルを選択してください。<a data-l10n-name="restore-problems">まだ問題がある場合はこちら</a>。
 restore-from-backup-filepicker-input =
     .placeholder = ファイルが選択されていません
