@@ -7,15 +7,15 @@
 ## and should follow the same capitalization (title case for English).
 ## Check menubar.ftl for reference.
 
-recently-closed-menu-reopen-all-tabs = タブをすべて開きなおす
-recently-closed-menu-reopen-all-windows = @@Window@@をすべて開きなおす
+recently-closed-menu-reopen-all-tabs = タブをすべて開き直す
+recently-closed-menu-reopen-all-windows = @@Window@@をすべて開き直す
 
 ## These strings are used in the app menu,
 ## and should follow the same capitalization (sentence case for English).
 ## Check appmenu.ftl for reference.
 
-recently-closed-panel-reopen-all-tabs = タブをすべて開きなおす
-recently-closed-panel-reopen-all-windows = @@Window@@をすべて開きなおす
+recently-closed-panel-reopen-all-tabs = タブをすべて開き直す
+recently-closed-panel-reopen-all-windows = @@Window@@をすべて開き直す
 
 ##
 

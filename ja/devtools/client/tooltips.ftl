@@ -151,3 +151,11 @@ css-compatibility-learn-more-message = <strong>{ $rootProperty }</strong> につ
 css-selector-warning-unconstrained-has = このセレクターは制約のない <strong>:has()</strong> を使用しているため動作が遅くなります
 # :scope should not be translated
 css-selector-warning-sibling-combinator-after-scope = <strong>:scope</strong> の後の兄弟セレクターはどの要素にも一致しません。
+
+## In the Rule View we display a tooltip when a @container condition is hovered.
+## We want to show a specific message if the condition doesn't match a container for the
+## currently selected element
+## Variables:
+##   $name (string) - The condition name.
+
+css-selector-container-query-condition-no-container = ‘{ $name }’ と一致するコンテナーが見つかりませんでした。

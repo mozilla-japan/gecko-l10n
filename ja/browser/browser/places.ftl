@@ -246,3 +246,6 @@ places-search-downloads =
 ##
 
 places-locked-prompt = { -brand-short-name } のファイルを他のアプリケーションが使用しているため、ブックマークと履歴のシステムが無効化されます。この問題はセキュリティソフトが原因で生じることがあります。
+# Share is a verb here. Meaning to "Share" the bookmark "Folder"
+places-share-folder =
+    .label = フォルダーを共有

@@ -34,8 +34,10 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
-site-permission-install-first-prompt-midi-header = このサイトは MIDI (Musical Instrument Digital Interface) デバイスへのアクセスを要求しています。デバイスへのアクセスはアドオンをインストールすることにより有効化されます。
+site-permission-install-first-prompt-midi-header = このサイトは MIDI (Musical Instrument Digital Interface) デバイスへのアクセスを要求しています。デバイスへのアクセスはアドオンをインストールすることにより有効になります。
 site-permission-install-first-prompt-midi-message = このアクセスは安全性が保証されません。このサイトが信頼できる場合のみ続行してください。
+site-permission-install-first-prompt-serial-header = このサイトは端末のシリアルデバイスへのアクセスを要求しています。デバイスへのアクセスはアドオンをインストールすることにより有効になります。
+site-permission-install-first-prompt-serial-message = このアクセスは安全性が保証されません。このサイトが信頼できる場合のみ続行してください。
 
 ##
 
