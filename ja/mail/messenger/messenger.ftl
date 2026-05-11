@@ -234,6 +234,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = お気に入り
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (対象なし)
+menu-move-copy-no-favorites =
+    .label = (お気に入りなし)
 
 ## AppMenu
 
@@ -680,3 +684,8 @@ allow-remote-content-resource =
 #    $count - the number of origins to allow
 remote-content-option-allow-all =
     .label = 上記リストの { $count } か所からのリモートコンテンツをすべて許可する
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = この@@Window@@を閉じてください。
+oauth2-loopback-failure = OAuth のリダイレクトに失敗しました。

@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = 迷惑メール
-rule-menuitem-not-spam =
-    .label = 非迷惑メール
 run-filter-before-spam =
     .label = 迷惑メール分類前に実行
 run-filter-after-spam =
@@ -18,8 +14,6 @@ run-filter-after-spam =
 run-periodically =
     .label = 定期的、{ $minutes } 分ごと
     .accesskey = e
-rule-action-set-spam-status =
-    .label = 迷惑マークの状態を設定する
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

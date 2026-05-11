@@ -20,6 +20,10 @@ ask-save-title-event = 予定を保存
 ask-save-title-task = ToDoを保存
 ask-save-message-event = 予定はまだ保存されていません。予定を保存しますか？
 ask-save-message-task = ToDo はまだ保存されていません。ToDo を保存しますか？
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = 終日
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = 終了日時を開始日時より前に設定することはできません。
 warning-until-date-before-start = 繰り返す期間を開始日時より前に設定することはできません。

@@ -386,10 +386,6 @@ cloud-file-account-error-title = Filelink アカウントエラー
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink 添付の { $filename } の更新に失敗しました。この Filelink アカウントは削除されています。
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label = サイズの大きなファイルの添付には Filelink 機能の使用をお勧めします。
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = 添付ファイルをリンクにしています。アップロードが完了するとメッセージ本文にリンクが追加されます。
 # Variables:

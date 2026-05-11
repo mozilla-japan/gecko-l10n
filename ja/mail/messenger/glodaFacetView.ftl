@@ -13,3 +13,7 @@ facets-mode-to-list-all-label = 全 { $count } 件を一覧表示
 # Variables:
 #   $count - the number items
 facet-view-and-others = 他 { $count } 件
+# Variables:
+#   $m - the number M in "M of N" items
+#   $n - the number N in "M of N" items
+item-count-m-of-n = { $m } / { $n }
