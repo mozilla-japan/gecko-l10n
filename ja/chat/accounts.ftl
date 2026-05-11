@@ -5,6 +5,9 @@
 new-account-label = @@New-CMD@@アカウント
 # Instant messaging account status window for Thunderbird
 accounts-window-title = インスタントメッセージの状態
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = A
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = N
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = アカウントが設定されていません
+account-manager-no-accounts-description = @@[@@{ add-account-label }@@]@@ ボタンをクリックし、{ -brand-short-name } に従ってアカウントを設定してください。
 account-manager-no-account-description = @@[@@{ new-account-label }@@]@@ ボタンをクリックし、{ -brand-short-name } に従ってアカウントを設定してください。
 account-auto-sign-on =
     .label = 起動時に自動ログインする
@@ -40,3 +44,4 @@ account-disconnecting =
     .value = 切断中...
 account-disconnected =
     .value = 未接続
+add-account-label = アカウントを追加

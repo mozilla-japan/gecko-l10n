@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = ログアウト...
     .accesskey = O
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = @@New-CMD@@アカウント
@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = ニュースグループ
     .accesskey = N
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = アカウントの追加
+appmenu-add-account-panel =
+    .label = アカウントを追加
+    .accesskey = N
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP アドレス帳
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = アドレス帳の追加
+appmenu-add-address-book =
+    .label = アドレス帳を追加
+    .accesskey = A
 
 ## Create
 

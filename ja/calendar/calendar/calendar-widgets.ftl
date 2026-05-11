@@ -20,6 +20,8 @@ calendar-enable-button = 有効化
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = { $calendarName } カレンダーのオプション
+calendar-add-calendar = カレンダーを追加...
+    .title = カレンダーを作成または購読します
 calendar-import-new-calendar = @@New-CMD@@カレンダー...
     .title = @@New-CMD@@カレンダーを作成または登録します
 calendar-refresh-calendars =

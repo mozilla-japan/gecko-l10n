@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = LDAP アドレス帳を追加
 books-pane-create-contact-button = @@New-CMD@@連絡先
     .title = @@New-CMD@@連絡先を作成します
+books-pane-add-book-button =
+    .title = アドレス帳を追加します
 books-pane-create-book-button =
     .title = @@New-CMD@@アドレス帳を作成します
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = アドレス帳の削除
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = { $name } を削除してもよろしいですか？
+address-book-list =
+    .aria-label = アドレス帳のリスト
 
 ## Cards
 

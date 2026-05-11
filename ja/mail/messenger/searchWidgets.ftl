@@ -115,10 +115,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = このルールを削除します
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = このルールを削除します
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = @@New-CMD@@動作を追加します
