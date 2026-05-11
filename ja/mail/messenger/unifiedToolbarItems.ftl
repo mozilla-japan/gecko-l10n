@@ -154,7 +154,6 @@ toolbar-create-contact =
 toolbar-add-address-book-label = アドレス帳を追加
 toolbar-add-address-book =
     .title = アドレス帳を追加します
-
 toolbar-create-address-book-label = @@New-CMD@@アドレス帳
 toolbar-create-address-book =
     .title = @@New-CMD@@アドレス帳を作成します
