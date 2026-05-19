@@ -76,8 +76,8 @@ add-engine-keyword-placeholder =
 
 ## The following strings are used as error messages.
 
-add-engine-keyword-exists = That keyword is already being used. Try a different one.
-add-engine-name-exists = その名前はすでに使用されています。別の名前を選んでください。
+add-engine-keyword-exists = そのキーワードはすでに使用されています。別のものを選んでください。
+add-engine-name-exists = その名前はすでに使用されています。別のものを選んでください。
 add-engine-no-name = 検索エンジン名を入力してください
 add-engine-no-url = URL を入力してください。
 add-engine-invalid-url = URL が正しくないようです。もう一度よく確認してください。

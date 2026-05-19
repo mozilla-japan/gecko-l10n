@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-clear-data-for-site-title = Clear all data for this website?
+clear-data-for-site-title = このウェブサイトのデータをすべて消去しますか？
 # Variables:
 #   $site (string) - Website name
 clear-data-for-site-list = これは { $site } の以下のデータをすべて消去します:
