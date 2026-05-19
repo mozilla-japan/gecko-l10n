@@ -89,6 +89,9 @@ toolbar-button-account =
 main-context-menu-page-save =
     .label = @@Save-AsCMD@@ページを保存...
     .accesskey = P
+
+## Simple menu items
+
 main-context-menu-bookmark-page =
     .aria-label = ページをブックマーク...
     .accesskey = m
@@ -296,6 +299,9 @@ main-context-menu-send-to-device-2 =
 main-context-menu-send-to-mobile-2 =
     .label = モバイル端末へ送信
     .accesskey = n
+main-context-menu-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
+main-context-menu-send-to-mobile-connect-phone2 = スマートフォンに接続
+main-context-menu-send-to-mobile-device-missing2 = 端末が見つかりませんか？
 # Displayed within the send tab submenu to prompt users to sign in, enable sync, or pair a device
 main-context-menu-send-to-mobile-enable-sync =
     .label = 同期を有効にしてタブを送信
