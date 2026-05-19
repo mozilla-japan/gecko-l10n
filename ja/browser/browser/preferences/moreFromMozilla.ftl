@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## These strings are used in the about:preferences moreFromMozilla page
 
 more-from-moz-title = { -vendor-short-name } からのご案内
@@ -24,6 +25,8 @@ more-from-moz-qr-code-firefox-mobile-img =
     .alt = { -brand-product-name } モバイルのダウンロード QR コード
 more-from-moz-button-mozilla-vpn-2 = VPN を入手
 more-from-moz-learn-more-link = 詳細
+more-from-moz-title2 = { -vendor-short-name } からのご案内
+    .title = { -vendor-short-name } からのご案内
 
 ## These strings are for the Firefox Relay card in about:preferences moreFromMozilla page
 
@@ -88,12 +91,6 @@ more-from-moz-mdn-card =
 more-from-moz-thunderbird-card =
     .label = { -thunderbird-brand-name }
     .description = メール、カレンダー、アドレス帳に一つのアプリですばやくアクセス。
-more-from-moz-solo-card =
-    .label = { -solo-ai-brand-name }
-    .description = 最新のアイデアと実験的な技術を探索します。
-more-from-moz-new-products-card =
-    .label = { -vendor-short-name } の新製品
-    .description = { -vendor-short-name } から最新の製品をお届けします。
 more-from-moz-mozilla-monitor-box-link =
     .label = { -monitor-brand-short-name } を利用する
 more-from-moz-mozilla-vpn-box-link =

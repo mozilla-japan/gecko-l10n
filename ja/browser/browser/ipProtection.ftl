@@ -39,6 +39,8 @@ ipprotection-feature-introduction-button-primary = 次へ
 ipprotection-feature-introduction-button-secondary-not-now = 後で
 ipprotection-feature-introduction-button-secondary-no-thanks = いいえ、結構です
 ipprotection-feature-introduction-button-secondary-remove = ツールバーから VPN を削除
+ipprotection-feature-introduction-button-secondary-remove-1 =
+    .label = ツールバーから VPN を削除
 
 ## Site settings callout
 
