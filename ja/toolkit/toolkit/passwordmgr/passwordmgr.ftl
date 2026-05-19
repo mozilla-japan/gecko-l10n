@@ -30,6 +30,7 @@ password-manager-password-password-button-allow =
 password-manager-update-password-button-deny =
     .label = 更新しない
     .accesskey = D
+primary-password-prompt-message = マスターパスワードを入力してください。
 # This is displayed in place of the username when it is missing.
 password-manager-no-username-placeholder = ユーザー名なし
 password-manager-confirm-password-change = パスワード変更の確認
