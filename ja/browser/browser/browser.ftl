@@ -377,7 +377,7 @@ search-one-offs-actions =
 
 ## QuickActions are shown in the urlbar as the user types a matching string
 ## The -cmd- strings are comma separated list of keywords that will match
-## the action.
+## the action. English commas should be used, i.e. ,
 
 # Opens the about:addons page in the home / recommendations section
 quickactions-addons = アドオンを表示
@@ -946,23 +946,11 @@ urlbar-searchmode-actions =
     .label = アクション
 urlbar-searchmode-exit-button =
     .tooltiptext = 閉じる
-urlbar-searchmode-default =
-    .tooltiptext = @@Default-@@検索エンジン
-# Label shown on the top of Searchmode Switcher popup. After this label, the
-# available search engines will be listed.
-urlbar-searchmode-popup-description-menucaption =
-    .label = 今回だけ使う検索エンジン:
-# Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
-# reset after submitting.
-urlbar-searchmode-popup-sticky-description-menucaption =
-    .label = 検索エンジン:
 # Label shown on the top of Searchmode Switcher popup. After this label, the
 # available search engines will be listed.
 urlbar-searchmode-popup-description = 今回だけ使う検索エンジン:
 urlbar-searchmode-popup-search-settings-menuitem =
     .label = 検索設定
-# Label shown next to a new search engine in the Searchmode Switcher popup to promote it.
-urlbar-searchmode-new = 新機能
 # Searchmode Switcher button
 # Variables:
 #   $engine (String): the current default search engine.
@@ -972,10 +960,6 @@ urlbar-searchmode-button2 =
 urlbar-searchmode-button-no-engine =
     .label = ショートカットが選択されていません。ショートカットを選択
     .tooltiptext = ショートカットが選択されていません。ショートカットを選択します
-# Refers to the ability to search using keywords in the address bar
-urlbar-searchmode-no-keyword =
-    .label = キーワード検索が無効
-    .tooltiptext = キーワード検索が無効です
 # Searchmode Switcher button
 # Variables:
 #   $engine (String): the current default search engine.
@@ -1210,7 +1194,7 @@ repair-text-encoding-button =
     .label = テキストエンコーディングを修復
     .tooltiptext = ページの内容から正しいテキストエンコーディングを推測します
 
-## Customize Toolbar Buttons
+##
 
 # Variables:
 #  $shortcut (String): keyboard shortcut to open settings (only on macOS)
@@ -1277,6 +1261,11 @@ toolbar-button-share-tab =
 toolbar-button-tab-groups =
     .label = タブグループ
     .tooltiptext = タブグループを表示します
+
+## Default filenames used when saving a QR code. The file extension (.png)
+## is added automatically.
+
+qrcode-save-filename-base = qrcode
 
 ## EME notification panel
 
