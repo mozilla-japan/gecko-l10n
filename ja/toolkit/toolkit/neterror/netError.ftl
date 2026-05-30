@@ -190,10 +190,8 @@ fp-neterror-illustration-alt =
 
 fp-neterror-connection-intro = { -brand-short-name } が { $hostname } のサーバーへの安全な接続を確立できません。
 fp-neterror-offline-intro = { -brand-short-name } が <strong>{ $hostname }</strong> のサーバーに接続できません
+fp-neterror-offline-intro-2 = { -brand-short-name } が <strong>{ $hostname }</strong> のサーバーに接続できません。
 fp-neterror-net-timeout-intro = <strong>{ $hostname }</strong> のサーバーからの応答が一定時間以内に返ってきませんでした。
-# Variables:
-#   $hostname (String) - Hostname of the website to which the user was trying to connect.
-fp-neterror-http-error-page-intro = <strong>{ $hostname }</strong> がエラーを返しました。
 # Variables:
 #   $hostname (String) - Hostname of the website to which the user was trying to connect.
 #   $responsestatus (Number) - HTTP response status code (e.g., 404).
