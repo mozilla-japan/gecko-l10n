@@ -30,12 +30,6 @@ calendar-dialog-attendees-row-icon =
 # Variables:
 #   $count (Number): Number of guests.
 calendar-dialog-attendee-count = ゲスト { $count } 名
-# Variables:
-#   $going (Number): Number of guests that responded "attending".
-#   $maybe (Number): Number of guests that responded "maybe".
-#   $declined (Number): Number of guests that responded "declined".
-#   $pending (Number): Number of guests that response "pending".
-calendar-dialog-attendee-summary = 参加承諾 { $going } 名、仮承諾 { $maybe } 名、辞退 { $declined } 名、留保 { $pending } 名
 calendar-dialog-attendee-organizer = 主催者
 calendar-dialog-attendee-optional = 任意
 calendar-dialog-icon-attending =

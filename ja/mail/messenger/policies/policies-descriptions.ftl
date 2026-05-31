@@ -85,6 +85,7 @@ policy-RequestedLocales = アプリケーションに要求される言語リス
 policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去します。
 policy-SearchEngines = 検索エンジンの設定を指示します。このポリシーは延長サポート版 (ESR) のみ有効です。
 policy-SearchSuggestEnabled = 検索候補の表示機能を有効または無効にします。
+policy-SecurityDevices2 = PKCS #11 モジュールを追加または削除します。
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = PKCS #11 モジュールをインストールします。
 policy-SSLVersionMax = SSL の最高バージョンを設定します。
