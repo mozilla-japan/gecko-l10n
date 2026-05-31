@@ -120,6 +120,8 @@ private-browsing-description2 =
     拡張機能の設定で有効にしない限り、プライベートブラウジング中は拡張機能が動作せず、ユーザーのオンライン行動にもアクセスできません。
     この変更は、ユーザーのプライベートブラウジングの秘密を守るために行われました。
     <label data-l10n-name="private-browsing-learn-more">拡張機能の設定を管理する方法について学ぶ</label>
+aboutaddons-sidebar =
+    .heading = アドオン
 addon-category-discover = おすすめ
 addon-category-discover-title =
     .title = おすすめ
@@ -488,6 +490,10 @@ addon-permissions-empty = この拡張機能は権限を必要としません。
 addon-permissions-required = 中核機能に必要な権限:
 addon-permissions-optional = 追加機能の任意の権限:
 addon-permissions-learnmore = 権限についての詳細情報
+# Shown above the permissions list when one or more permissions for this
+# extension are controlled by an enterprise policy and cannot be changed by
+# the user.
+addon-permissions-managed-by-policy = 一部の権限はあなたの所属組織に管理されています。
 recommended-extensions-heading = おすすめの拡張機能
 recommended-themes-heading = おすすめのテーマ
 # Variables:
@@ -596,9 +602,10 @@ addon-data-collection-learnmore = データ収集についての詳細情報
 
 mlmodel-about-inference = これは { -brand-short-name } が about:inference で利用しています
 mlmodel-link-preview = これは { -brand-short-name } がリンク先プレビュー時の要点の生成に利用しています
-mlmodel-pdfjs = これは { -brand-short-name } が PDF に追加した画像の代替テキストを作成するのに利用しています
+mlmodel-pdfjs = これは { -brand-short-name } が PDF に追加した画像の代替テキストの作成に利用しています
 mlmodel-smart-tab-topic-engine = これは { -brand-short-name } がタブグループ名を提案するのに利用しています
-mlmodel-smart-tab-embedding-engine = これは { -brand-short-name } タブグループのタブを提案するのに利用しています
+mlmodel-smart-tab-embedding-engine = これは { -brand-short-name } がタブグループのタブを提案するのに利用しています
+mlmodel-formfill-engine = これは { -brand-short-name } がアドレスフォームの入力の補助に利用しています。
 # AI Model will be downloaded on the users device and used locally
 addon-category-mlmodel = 端末上の AI
 addon-category-mlmodel-title =

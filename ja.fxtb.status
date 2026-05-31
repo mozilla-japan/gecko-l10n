@@ -229,7 +229,6 @@ fxsrc | dom, toolkit             5930724b (2026-04-09)  mar          sync dom, t
 tbsrc | mail                     bdf2d349 (2026-03-17)  kazushi      sync mail
 fxsrc | browser, devtools        5930724b (2026-04-09)  mar          sync browser, devtools
 
-^---Released!
 
 [l10n-mozilla-151.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
@@ -237,4 +236,11 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 fxsrc | toolkit                  4b7faee9 (2026-05-01)  mar          sync toolkit
 fxsrc | browser, devtools        7791247c (2026-05-04)  mar          sync browser, devtools
 tbsrc | calendar, chat, mail     aa7cd434 (2026-05-04)  mar          sync calendar, chat, mail
+
+^---Released!
+
+[l10n-mozilla-152.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | dom, security, toolkit   613fd186 (2026-05-26)  mar          sync dom, security, toolkit
 
