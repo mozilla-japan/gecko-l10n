@@ -242,5 +242,5 @@ tbsrc | calendar, chat, mail     aa7cd434 (2026-05-04)  mar          sync calend
 [l10n-mozilla-152.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
-fxsrc | dom, security, toolkit   613fd186 (2026-05-26)  mar          sync dom, security, toolkit
+fxsrc | dom, security, toolkit   f6b06c12 (2026-05-31)  mar          sync dom, security, toolkit
 

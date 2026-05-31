@@ -88,3 +88,6 @@ text-action-remove-highlight =
 # visibly highlighted, this removes any highlighted sections on the page.
 text-action-remove-all-highlights =
     .label = すべての選択部分を解除
+profile-window-menu-edit =
+    .label = 編集
+    .accesskey = E
