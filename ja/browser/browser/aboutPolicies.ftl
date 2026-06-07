@@ -9,6 +9,14 @@ aboutpolicies-page-heading =
 active-policies-tab = 有効
 errors-tab = エラー
 documentation-tab = ドキュメント
+# These title attributes label the navigation buttons when the moz-page-nav
+# sidebar is collapsed and the visible button text is hidden.
+active-policies-tab-title =
+    .title = 有効
+errors-tab-title =
+    .title = エラー
+documentation-tab-title =
+    .title = ドキュメント
 no-specified-policies-message = エンタープライズポリシーサービスは有効ですが、有効なポリシーがありません。
 inactive-message = エンタープライズポリシーサービスが無効です。
 policy-name = ポリシー名
