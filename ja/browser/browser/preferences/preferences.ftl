@@ -987,6 +987,8 @@ home-prefs-search-header2 =
 home-prefs-shortcuts-header =
     .label = ショートカット
 home-prefs-shortcuts-description = 保存または訪問したサイト
+home-prefs-shortcuts-select =
+    .aria-label = ショートカット
 home-prefs-shortcuts-by-option-sponsored =
     .label = 広告ショートカット
 home-prefs-content-header =
@@ -1025,6 +1027,8 @@ home-prefs-highlights-option-saved-to-pocket =
 home-prefs-recent-activity-header =
     .label = 最近のアクティビティ
 home-prefs-recent-activity-description = 最近のサイトとコンテンツの抜粋
+home-prefs-recent-activity-select =
+    .aria-label = 最近のアクティビティ
 # For the "Snippets" feature traditionally on about:home.
 # Alternative translation options: "Small Note" or something that
 # expresses the idea of "a small message, shortened from something else,
