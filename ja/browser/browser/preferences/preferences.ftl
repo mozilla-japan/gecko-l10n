@@ -980,6 +980,8 @@ home-custom-homepage-bookmarks-button =
 
 home-prefs-content-header2 = { -firefox-home-brand-name } コンテンツ
 home-prefs-content-description2 = { -firefox-home-brand-name } に表示するコンテンツを選んでください。
+home-prefs-firefox-logo-header =
+    .label = { -brand-short-name } ロゴ
 home-prefs-search-header =
     .label = ウェブ検索
 home-prefs-search-header2 =
