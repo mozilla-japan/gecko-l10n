@@ -453,7 +453,7 @@ tabbrowser-tab-label-tab-split-view-right = { $label }、分割ビュー右側
 
 # "Separate" is a verb, as in "separate the split view tabs and display them normally".
 split-view-menuitem-separate-tabs =
-    .label = タブを分割表示
+    .label = 分割ビューを終了
 # "Reverse" is a verb, as in "reverse the order of split view tabs".
 split-view-menuitem-reverse-tabs =
     .label = タブ順を反転
