@@ -82,12 +82,12 @@ fxviewtabrow-unmute-tab-button-no-context =
     .title = タブのミュートを解除します
 fxviewtabrow-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
 fxviewtabrow-send-to-mobile-connect-phone2 = スマートフォンに接続
-fxviewtabrow-send-to-mobile-connect-device = Connect a Device to Send Tabs(^^k
+fxviewtabrow-send-to-mobile-connect-device = 端末を接続してタブを送信
 fxviewtabrow-send-to-mobile-device-missing2 = 端末が見つかりませんか？
-fxviewtabrow-send-to-mobile-not-verified = Account Not Verified(^^k
-fxviewtabrow-send-to-mobile-verify-account = Verify Your Account(^^k
+fxviewtabrow-send-to-mobile-not-verified = アカウントが認証されていません
+fxviewtabrow-send-to-mobile-verify-account = アカウントを認証
 
 ## The following strings are for displaying elements in Firefox View to prompt users to sign in, enable sync, pair a device, or troubleshoot device issues.
 
-fxviewtabrow-send-to-mobile-sign-in = Sign in to Send Tabs(^^k
-fxviewtabrow-send-to-mobile-turn-on-sync = Turn on Sync to Send Tabs(^^k
+fxviewtabrow-send-to-mobile-sign-in = ログインしてタブを送信
+fxviewtabrow-send-to-mobile-turn-on-sync = 同期をオンにしてタブを送信

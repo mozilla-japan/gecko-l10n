@@ -391,7 +391,7 @@ quickactions-bookmarks2 = ブックマークを管理
 quickactions-cmd-bookmarks = bookmarks
 # Opens a SUMO article explaining how to clear history
 quickactions-clearrecenthistory = 最近の履歴を消去
-quickactions-cmd-clearrecenthistory2 = cookies, clear cookies, cache, clear cache, browsing data, clear browsing data, history, clear recent history(^^k
+quickactions-cmd-clearrecenthistory2 = cookies, clear cookies, cache, clear cache, browsing data, clear browsing data, history, clear recent history
 quickactions-cmd-clearrecenthistory = clear recent history, history
 # Opens a SUMO article explaining how to clear history
 quickactions-clearhistory = 履歴を消去
@@ -416,8 +416,8 @@ quickactions-cmd-help = help, support
 quickactions-inspector2 = 開発ツールを開く
 quickactions-cmd-inspector2 = inspector, devtools, dev tools
 # Opens the devtools eyedropper to pick a color from the page
-quickactions-colorpicker = Pick a color(^^k
-quickactions-cmd-colorpicker = color picker, eyedropper, pick color(^^k
+quickactions-colorpicker = 色を採取
+quickactions-cmd-colorpicker = color picker, eyedropper, pick color
 quickactions-cmd-inspector = inspector, devtools
 # Opens Firefox Library
 quickactions-library = ライブラリーを開く
@@ -475,8 +475,8 @@ quickactions-cmd-update = update
 quickactions-viewsource2 = ページのソースを表示
 quickactions-cmd-viewsource2 = view source, source, page source
 # Opens about:preferences:experimental (Firefox Labs)
-quickactions-labs = Open { -firefoxlabs-brand-name }(^^k
-quickactions-cmd-labs = labs, experiment(^^k
+quickactions-labs = { -firefoxlabs-brand-name } を開く
+quickactions-cmd-labs = labs, experiment
 quickactions-cmd-viewsource = view source, source
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
@@ -1258,8 +1258,8 @@ toolbar-button-synced-tabs =
     .label = 同期タブ
     .tooltiptext = 他の端末のタブを表示します
 toolbar-button-send-tab =
-    .label = Send tab
-    .tooltiptext = Send current tab to another device(^^k
+    .label = タブを送信
+    .tooltiptext = 現在のタブを他の端末に送信します
 # Variables
 # $shortcut (string) - Keyboard shortcut to open a new private browsing window
 toolbar-button-new-private-window =
@@ -1278,7 +1278,7 @@ toolbar-button-tab-groups =
 qrcode-save-filename-base = qrcode
 # Variables:
 #  $domain (String): The current page's domain used in the suggested filename.
-qrcode-save-filename-with-domain-base = qrcode-{ $domain }(^^k
+qrcode-save-filename-with-domain-base = qrcode-{ $domain }
 
 ## EME notification panel
 
@@ -1299,7 +1299,7 @@ panel-save-update-password = パスワード
 menu-share-more =
     .label = その他...
 menu-share-windows =
-    .label = More Options(^^k
+    .label = その他のオプション
 # Variables:
 #   $count (Number) - The number of links that will be copied.
 menu-share-copy-links =
@@ -1479,10 +1479,10 @@ reset-pbm-panel-confirm-button2 =
 reset-pbm-panel-confirm-button =
     .label = セッションデータを削除
     .accesskey = D
-reset-pbm-panel-complete = プライベートセッションのデータを削除しました(^^k
+reset-pbm-panel-complete = プライベートセッションのデータを削除しました
 reset-pbm-toolbar-button2 =
-    .label = Clear Private Session
-    .tooltiptext = Clear Private Session(^^k
+    .label = プライベートセッションを消去
+    .tooltiptext = プライベートセッションを消去
 
 ## Autorefresh blocker
 
