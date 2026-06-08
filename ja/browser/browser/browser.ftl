@@ -391,6 +391,7 @@ quickactions-bookmarks2 = ブックマークを管理
 quickactions-cmd-bookmarks = bookmarks
 # Opens a SUMO article explaining how to clear history
 quickactions-clearrecenthistory = 最近の履歴を消去
+quickactions-cmd-clearrecenthistory2 = cookies, clear cookies, cache, clear cache, browsing data, clear browsing data, history, clear recent history(^^k
 quickactions-cmd-clearrecenthistory = clear recent history, history
 # Opens a SUMO article explaining how to clear history
 quickactions-clearhistory = 履歴を消去
@@ -414,6 +415,9 @@ quickactions-cmd-help = help, support
 # Opens the devtools web inspector
 quickactions-inspector2 = 開発ツールを開く
 quickactions-cmd-inspector2 = inspector, devtools, dev tools
+# Opens the devtools eyedropper to pick a color from the page
+quickactions-colorpicker = Pick a color(^^k
+quickactions-cmd-colorpicker = color picker, eyedropper, pick color(^^k
 quickactions-cmd-inspector = inspector, devtools
 # Opens Firefox Library
 quickactions-library = ライブラリーを開く
@@ -470,6 +474,9 @@ quickactions-cmd-update = update
 # Opens the view-source UI with current pages source
 quickactions-viewsource2 = ページのソースを表示
 quickactions-cmd-viewsource2 = view source, source, page source
+# Opens about:preferences:experimental (Firefox Labs)
+quickactions-labs = Open { -firefoxlabs-brand-name }(^^k
+quickactions-cmd-labs = labs, experiment(^^k
 quickactions-cmd-viewsource = view source, source
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
@@ -1250,6 +1257,9 @@ toolbar-button-open-file =
 toolbar-button-synced-tabs =
     .label = 同期タブ
     .tooltiptext = 他の端末のタブを表示します
+toolbar-button-send-tab =
+    .label = Send tab
+    .tooltiptext = Send current tab to another device(^^k
 # Variables
 # $shortcut (string) - Keyboard shortcut to open a new private browsing window
 toolbar-button-new-private-window =
@@ -1266,6 +1276,9 @@ toolbar-button-tab-groups =
 ## is added automatically.
 
 qrcode-save-filename-base = qrcode
+# Variables:
+#  $domain (String): The current page's domain used in the suggested filename.
+qrcode-save-filename-with-domain-base = qrcode-{ $domain }(^^k
 
 ## EME notification panel
 
@@ -1285,6 +1298,8 @@ panel-save-update-password = パスワード
 # "More" item in macOS share menu
 menu-share-more =
     .label = その他...
+menu-share-windows =
+    .label = More Options(^^k
 # Variables:
 #   $count (Number) - The number of links that will be copied.
 menu-share-copy-links =
@@ -1464,7 +1479,10 @@ reset-pbm-panel-confirm-button2 =
 reset-pbm-panel-confirm-button =
     .label = セッションデータを削除
     .accesskey = D
-reset-pbm-panel-complete = プライベートセッションのデータを削除しました
+reset-pbm-panel-complete = プライベートセッションのデータを削除しました(^^k
+reset-pbm-toolbar-button2 =
+    .label = Clear Private Session
+    .tooltiptext = Clear Private Session(^^k
 
 ## Autorefresh blocker
 

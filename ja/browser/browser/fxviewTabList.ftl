@@ -74,13 +74,20 @@ fxviewtabrow-unmute-tab = タブのミュートを解除
 fxviewtabrow-options-menu-button =
     .title = { $tabTitle } タブのオプション
 
-## Strings below are to be used without context (tab title/URL) on mute/unmute buttons
+## The following strings are for displaying elements in Firefox View to prompt users to sign in, enable sync, pair a device, or troubleshoot device issues.
 
 fxviewtabrow-mute-tab-button-no-context =
     .title = タブをミュートにします
 fxviewtabrow-unmute-tab-button-no-context =
     .title = タブのミュートを解除します
-# The following strings are for displaying elements in Firefox View to prompt users to sign in, enable sync, or pair a device
 fxviewtabrow-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
 fxviewtabrow-send-to-mobile-connect-phone2 = スマートフォンに接続
+fxviewtabrow-send-to-mobile-connect-device = Connect a Device to Send Tabs(^^k
 fxviewtabrow-send-to-mobile-device-missing2 = 端末が見つかりませんか？
+fxviewtabrow-send-to-mobile-not-verified = Account Not Verified(^^k
+fxviewtabrow-send-to-mobile-verify-account = Verify Your Account(^^k
+
+## The following strings are for displaying elements in Firefox View to prompt users to sign in, enable sync, pair a device, or troubleshoot device issues.
+
+fxviewtabrow-send-to-mobile-sign-in = Sign in to Send Tabs(^^k
+fxviewtabrow-send-to-mobile-turn-on-sync = Turn on Sync to Send Tabs(^^k

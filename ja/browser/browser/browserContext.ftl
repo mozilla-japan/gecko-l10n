@@ -221,7 +221,7 @@ main-context-menu-media-hide-controls =
     .label = コントロールを隠す
     .accesskey = C
 
-##
+## Displayed within the send tab submenu to prompt users to sign in, enable sync, pair a device, or troubleshoot device issues.
 
 main-context-menu-media-video-fullscreen =
     .label = @@FullScreen@@
@@ -299,9 +299,18 @@ main-context-menu-send-to-device-2 =
 main-context-menu-send-to-mobile-2 =
     .label = モバイル端末へ送信
     .accesskey = n
+main-context-menu-send-to-mobile-sign-in = Sign in to Send Tabs(^^k
 main-context-menu-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
 main-context-menu-send-to-mobile-connect-phone2 = スマートフォンに接続
 main-context-menu-send-to-mobile-device-missing2 = 端末が見つかりませんか？
+main-context-menu-send-to-mobile-sign-in-from-link = Sign in to Send a Link(^^k
+main-context-menu-send-to-mobile-sign-in-from-page = Sign in to Send a Page(^^k
+main-context-menu-send-to-mobile-enable-sync3 = Turn on Sync to Send Tabs(^^k
+main-context-menu-send-to-mobile-enable-sync-from-link = Turn on Sync to Send a Link(^^k
+main-context-menu-send-to-mobile-enable-sync-from-page = Turn on Sync to Send a Page(^^k
+main-context-menu-send-to-mobile-connect-phone3 = Connect a Device to Send Tabs(^^k
+main-context-menu-send-to-mobile-connect-phone-from-link = Connect a Device to Send a Link(^^k
+main-context-menu-send-to-mobile-connect-phone-from-page = Connect a Device to Send a Page(^^k
 # Displayed within the send tab submenu to prompt users to sign in, enable sync, or pair a device
 main-context-menu-send-to-mobile-enable-sync =
     .label = 同期を有効にしてタブを送信
