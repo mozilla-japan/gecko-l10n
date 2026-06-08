@@ -60,3 +60,13 @@ webauthn-allow = 許可
     .accesskey = A
 webauthn-block = ブロック
     .accesskey = B
+webauthn-continue = 続ける
+    .accesskey = n
+# Variables:
+#   $origin (String): the domain of the site making the request
+#   $rpId (String): the related domain the passkey is associated with
+webauthn-related-origin-create-header = { $origin } が { $rpId } 用のパスキーの作ろうとしています。
+# Variables:
+#   $origin (String): the domain of the site making the request
+#   $rpId (String): the related domain the passkey is associated with
+webauthn-related-origin-use-header = { $origin } が { $rpId } 用のパスキーを使おうとしています。

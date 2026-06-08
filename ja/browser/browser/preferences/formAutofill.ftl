@@ -56,8 +56,8 @@ autofill-address-additional-name = ミドルネーム
 autofill-address-family-name = 氏
 autofill-address-name = 氏名
 autofill-address-organization = 組織名
-autofill-address-street-address = 番地・通り名
-autofill-address-street = 番地・通り名
+autofill-address-street-address = 通り番地
+autofill-address-street = 通り番地
 
 ## Labels for address fields (e.g. for a mailing address) used as part of the form
 ## autofill feature. For more information on the address structure (e.g. levels),
