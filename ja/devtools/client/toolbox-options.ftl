@@ -33,11 +33,15 @@ options-show-user-agent-styles-tooltip =
 # The label for the checkbox option to show all anonymous content
 options-show-user-agent-shadow-dom-label = ブラウザーの Shadow DOM を表示
 options-show-user-agent-shadow-dom-tooltip =
-    .title = このオプションを有効にすると、ブラウザーが保持している Shadow DOM 要素が表示されます
+    .title = このオプションを有効にすると、ブラウザーが保持している Shadow DOM 要素が表示されます。
 # The label for the checkbox option to enable collapse attributes
 options-collapse-attrs-label = DOM 属性値を省略
 options-collapse-attrs-tooltip =
-    .title = 値の長い属性を省略します
+    .title = 値の長い属性を省略します。
+# The label for the checkbox option to enable the display of comments in the Inspector
+options-show-comments-label = コメントを表示する
+options-show-comments-tooltip =
+    .title = インスペクターでコメントノードを表示します。
 # The label for the checkbox option to enable the "drag to update" feature
 options-inspector-draggable-properties-label = ドラッグでサイズの値を編集
 options-inspector-draggable-properties-tooltip =
@@ -166,4 +170,4 @@ options-tool-not-supported-marker = { $toolLabel } *
 options-auto-theme-label = 自動
 # This is the text that appears in the settings panel for panel that will be removed in future releases.
 # This entire text is treated as a link to an MDN page.
-options-deprecation-notice = 非推奨です。詳細...
+options-deprecation-notice = 非推奨です。詳細情報...

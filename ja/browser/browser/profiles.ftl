@@ -64,10 +64,7 @@ new-profile-page-done-button =
     .label = 編集を完了
 # Variables
 #   $profilename (String) - The name of the copied profile.
-copied-profile-page-header-2 = “{ $profilename }” のコピーのカスタマイズが準備できました
-# Variables
-#   $profilename (String) - The name of the copied profile.
-copied-profile-page-header = { $profilename } のコピーのカスタマイズが準備できました
+copied-profile-page-header-2 = “{ $profilename }” のコピーをカスタマイズする準備できました
 copied-profile-page-header-description = 既存のデータと設定を@@New-CMD@@プロファイルにコピーしました。プロファイルに名前を付け、お好みのテーマを選んで設定してください。
 restored-profile-page-header = 復元したプロファイルのカスタマイズ
 restored-profile-page-header-description = 各プロファイルは他のプロファイルと分けて保存されたユニークな閲覧履歴と設定を保持しています。さらに、{ -brand-short-name } の強力なプライバシー保護は@@Default@@でオンになっています。

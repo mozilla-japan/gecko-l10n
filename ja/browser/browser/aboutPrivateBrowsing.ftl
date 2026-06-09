@@ -73,7 +73,7 @@ about-private-browsing-cookie-banners-promo-message = 目障りな Cookie ポッ
 about-private-browsing-cookie-banners-promo-heading = { -brand-short-name } が Cookie バナーに対処します
 about-private-browsing-cookie-banners-promo-body = 多くの Cookie バナーを自動的に拒否できるようになったため、目障りなバナーが減り、快適なブラウジングができるようになりました。
 
-## Strings for Felt Privacy v1 experiments in 119
+## Strings for the info section of about:privatebrowsing
 
 about-private-browsing-felt-privacy-v1-info-header = この端末を追跡させません
 about-private-browsing-felt-privacy-v1-info-body = すべてのプライベート@@Window@@を閉じると、{ -brand-short-name } により Cookie、履歴、サイトデータが削除されます。

@@ -117,6 +117,10 @@ sidebar-item-session-history = セッション履歴
 # Entry in the Session History diagram
 session-history-entry-info-button-title =
     .title = セッション履歴データを表示します
+# Header for the Session History page when session history diagrams are unavailable
+session-history-unavailable = セッション履歴ダイアグラムが利用できません
+# Text displayed for when the target does not support showing session history diagrams
+session-history-target-unsupported = 対象がセッション履歴ダイアグラムの表示をサポートしていません
 # Text for the ALT and TITLE attributes of the warning icon
 icon-warning =
     .alt = 警告アイコン

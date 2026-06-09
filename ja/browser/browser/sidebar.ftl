@@ -6,6 +6,11 @@ menu-view-genai-chat =
     .label = AI チャットボット
 menu-view-contextual-password-manager =
     .label = パスワード
+# Label for the Open Tabs entry in the View > Sidebars menu bar menu.
+# "Open Tabs" is a noun phrase referring to the tabs currently open in
+# the browser, not an instruction to open tabs.
+menu-view-open-tabs =
+    .label = タブを開く
 sidebar-options-menu-button =
     .title = メニューを開く
 
@@ -58,6 +63,8 @@ sidebar-customize-firefox-tools-header =
 sidebar-customize-firefox-settings = { -brand-short-name } の設定を管理
 sidebar-vertical-tabs =
     .label = 垂直タブ
+sidebar-settings2 =
+    .label = 設定
 sidebar-settings =
     .label = サイドバー設定
 sidebar-hide-tabs-and-sidebar =
@@ -70,7 +77,11 @@ sidebar-show-on-the-left =
 # hovers over it.
 expand-sidebar-on-hover =
     .label = カーソルを合わせた時にサイドバーを展開する
+sidebar-manage-extensions2 = すべての拡張機能を管理
 sidebar-manage-extensions = 拡張機能を管理
+sidebar-customize-extensions-header2 = 拡張機能
+sidebar-customize-firefox-tools-header2 =
+    .label = ツール
 
 ## Labels for sidebar context menu items
 
@@ -135,6 +146,11 @@ sidebar-menu-history-label =
     .label = 履歴
 sidebar-menu-synced-tabs-label =
     .label = 他の端末からのタブ
+# Label for the Open Tabs panel in the sidebar tools list and customize
+# menu. "Open tabs" is a noun phrase referring to the tabs currently open
+# in the browser, not an instruction to open tabs.
+sidebar-menu-open-tabs-label =
+    .label = タブを開く
 sidebar-menu-bookmarks-label =
     .label = ブックマーク
 sidebar-menu-customize-label =
@@ -181,6 +197,10 @@ sidebar-menu-history-header =
     .heading = 履歴
 sidebar-menu-syncedtabs-header =
     .heading = 他の端末からのタブ
+# Heading shown at the top of the Open Tabs sidebar panel. "Open tabs"
+# refers to the tabs currently open in the browser.
+sidebar-menu-open-tabs-header =
+    .heading = タブを開く
 sidebar-menu-cpm-header =
     .heading = パスワード
 sidebar-menu-bookmarks-header =
@@ -200,6 +220,13 @@ sidebar-bookmarks-folder-mobile = モバイルのブックマーク
 sidebar-customize-title = サイドバーのカスタマイズ
 sidebar-history-title = 履歴
 sidebar-syncedtabs-title = 他の端末からのタブ
+# Title of the Open Tabs sidebar panel. "Open tabs" refers to the tabs
+# currently open in the browser.
+sidebar-opentabs-title = タブを開く
+# Title attribute for the pinned tabs section in the Open Tabs sidebar
+# panel.
+sidebar-opentabs-pinned-tabs =
+    .title = ピン留めしたタブ
 
 ## Context for closing synced tabs when hovering over the items
 

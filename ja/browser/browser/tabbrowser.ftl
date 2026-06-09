@@ -341,6 +341,16 @@ tab-context-ungroup-tab =
 tab-group-overflow-count = +{ $tabCount }
 tab-group-overflow-count-tooltip = 他 { $tabCount } 個のタブ
 
+## The tab groups list provides a list of all open tab groups and saved tab
+## groups in one place. When the user has no tab groups, the list instead
+## recommends that the user create a tab group.
+
+tab-groups-list-empty-header = タブを整理しましょう
+tab-groups-list-empty-description = タブを別のタブへドラッグするか右クリックして整理を始めましょう。ここにグループが保存されるので、後で簡単に見つけられます。
+tab-groups-list-empty-button = タブグループを作成
+# Text for a button that, when clicked, creates a new tab group
+tab-groups-list-create-group-button = @@New-CMD@@グループ
+
 ## Open/saved tab group context menu
 
 # For a tab group open in any window, clicking this will create a new
@@ -371,9 +381,6 @@ tab-group-context-open-saved-group-in-new-window =
 tab-context-add-note =
     .label = ノートを追加
     .accesskey = A
-tab-context-update-note =
-    .label = ノートを更新
-    .accesskey = U
 tab-context-edit-note =
     .label = ノートを編集
     .accesskey = E
@@ -446,7 +453,7 @@ tabbrowser-tab-label-tab-split-view-right = { $label }、分割ビュー右側
 
 # "Separate" is a verb, as in "separate the split view tabs and display them normally".
 split-view-menuitem-separate-tabs =
-    .label = タブを分割表示
+    .label = 分割ビューを終了
 # "Reverse" is a verb, as in "reverse the order of split view tabs".
 split-view-menuitem-reverse-tabs =
     .label = タブ順を反転

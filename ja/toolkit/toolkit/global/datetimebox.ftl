@@ -32,7 +32,7 @@ datetime-millisecond =
 datetime-dayperiod =
     .aria-label = 午前/午後
 
-## Calendar button for input type=date
+## Date/time picker buttons
 
 
 # This label is used by screenreaders and other assistive technology
@@ -40,3 +40,5 @@ datetime-dayperiod =
 # field that opens/closes a date picker calendar dialog
 datetime-calendar =
     .aria-label = カレンダー
+datetime-time =
+    .aria-label = 時刻

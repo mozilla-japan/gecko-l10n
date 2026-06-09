@@ -50,10 +50,10 @@ settings-data-toggle-encryption-label2 =
 #   $fileName (String) - The file name of the last backup that was created.
 settings-data-backup-last-backup-filename = ファイル名: { $fileName }
 settings-data-backup-restore-scheduled-on =
-    .label = データの復元
+    .label = データを復元
     .description = 最後にバックアップされた日時の { -brand-product-name } データを復元します。
 settings-data-backup-restore-scheduled-off =
-    .label = データの復元
+    .label = データを復元
     .description = 別の端末の { -brand-product-name } バックアップからデータを復元します。
 
 ##
@@ -228,6 +228,7 @@ backup-file-how-to-restore-header = 復元方法:
 # The ☰ character is intended as a visual icon representing the Firefox
 # application menu.
 backup-file-moz-browser-restore-step-1 = アプリケーションメニュー ☰ を開き、@@[@@設定@@]@@ > @@[@@同期@@]@@ に移動します
+backup-file-moz-browser-restore-step-2-1 = @@[@@データを復元@@]@@ をクリックして、このファイルを選択してください
 backup-file-moz-browser-restore-step-2 = @@[@@バックアップファイルを選択@@]@@ をクリックして、このファイルを選択してください
 backup-file-moz-browser-restore-step-3 = 画面の指示に従って { -brand-short-name } を再起動してください
 backup-file-other-browser-restore-step-1 = { -brand-short-name } をダウンロードしてインストール
@@ -235,6 +236,7 @@ backup-file-download-moz-browser-button = ダウンロード
 # The ☰ character is intended as a visual icon representing the Firefox
 # application menu.
 backup-file-other-browser-restore-step-2 = { -brand-short-name } を起動してアプリケーションメニュー ☰ を開き、@@[@@設定@@]@@ > @@[@@同期@@]@@ に移動します
+backup-file-other-browser-restore-step-3-1 = @@[@@データを復元@@]@@ をクリックして、このファイルを選択してください
 backup-file-other-browser-restore-step-3 = @@[@@バックアップファイルを選択@@]@@ をクリックして、このファイルを選択してください
 backup-file-other-browser-restore-step-4 = 画面の指示に従って { -brand-short-name } を再起動してください
 
