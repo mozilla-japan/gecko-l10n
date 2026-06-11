@@ -685,6 +685,33 @@ allow-remote-content-resource =
 remote-content-option-allow-all =
     .label = 上記リストの { $count } か所からのリモートコンテンツをすべて許可する
 
+## Tags
+
+tags-label-1 = 重要
+tags-label-2 = 仕事
+tags-label-3 = プライベート
+tags-label-4 = ToDo
+tags-label-5 = 後で
+tags-add-new =
+    .label = @@New-CMD@@タグ...
+    .accesskey = N
+tags-manage =
+    .label = タグを管理...
+    .accesskey = M
+tags-remove-all =
+    .label = すべてのタグを削除
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = この@@Window@@を閉じてください。

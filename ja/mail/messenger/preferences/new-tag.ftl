@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = @@New-CMD@@タグ
+tag-edit-dialog-title = タグの編集
 tag-name-label =
     .value = タグ名:
     .accesskey = T
 tag-color-label =
     .value = @@Color@@:
     .accesskey = C
+tag-already-exists = この名前のタグはすでに存在します。
