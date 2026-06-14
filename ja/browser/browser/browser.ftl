@@ -1292,6 +1292,10 @@ eme-notifications-drm-content-playing-dismiss-accesskey = D
 
 panel-save-update-username = ユーザー名
 panel-save-update-password = パスワード
+panel-save-update-username-2 =
+    .label = ユーザー名
+panel-save-update-password-2 =
+    .label = パスワード
 
 ##
 

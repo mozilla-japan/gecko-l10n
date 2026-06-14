@@ -31,6 +31,123 @@ newtab-card-dismiss-button =
     .title = 閉じる
     .aria-label = 閉じる
 
+## Strings for "Homepage" and "Firefox Home" sections of about:settings#home.
+## Homepage panel
+
+home-homepage-title =
+    .label = ホームページ
+home-homepage-new-windows =
+    .label = @@NewWindow@@
+home-homepage-new-tabs =
+    .label = @@NewTab@@
+# This option leads to the "Custom Homepage" subpage
+home-homepage-custom-homepage-button =
+    .label = 特定のサイトを選択
+
+## Custom URLs subpage
+
+# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
+home-custom-homepage-card-header =
+    .label = ウェブサイトのアドレス
+home-custom-homepage-address =
+    .placeholder = アドレスを入力してください
+home-custom-homepage-address-button =
+    .label = アドレスを追加
+# Shown when no custom websites/URLs to use as a homepage have been added yet
+home-custom-homepage-no-results =
+    .label = ウェブサイトがまだ追加されていません。
+home-custom-homepage-delete-address-button =
+    .aria-label = アドレスを削除
+    .title = アドレスを削除します
+# Further options to use when setting the home page. Two action buttons are placed in line with this prompt
+# to replace the current home page with a currently open page or bookmark.
+home-custom-homepage-replace-with-prompt =
+    .label = 置き換え:
+# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
+home-custom-homepage-current-pages-button =
+    .label = 現在開いているページ
+# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
+home-custom-homepage-bookmarks-button =
+    .label = ブックマーク...
+
+## Firefox Home content
+
+home-prefs-content-header =
+    .label = { -firefox-home-brand-name }
+home-prefs-search-header2 =
+    .label = 検索
+home-prefs-stories-header2 =
+    .label = ストーリー
+    .description = { -brand-product-name } ファミリーに選ばれた優良コンテンツ
+home-prefs-widgets-header =
+    .label = ウィジェット
+# Lists is a widget on New Tab, similar to a to-do widget
+home-prefs-lists-header =
+    .label = ToDo リスト
+# Timer is a widget on New Tab, similar to the Pomodoro timer.
+home-prefs-timer-header =
+    .label = タイマー
+# Sports is a widget on New Tab showing sports scores and schedules.
+home-prefs-sports-widget-header =
+    .label = スポーツ
+# Clock is a widget on New Tab that displays time zones around the world.
+home-prefs-clocks-header =
+    .label = 時計
+home-prefs-mission-message2 =
+    .message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています。
+home-prefs-manage-topics-link2 =
+    .label = トピックを管理
+home-prefs-choose-wallpaper-link2 =
+    .label = 壁紙を選択
+home-prefs-firefox-logo-header =
+    .label = { -brand-short-name } ロゴ
+# Informational message bar that appears in the Firefox Home section when the options are disabled.
+# The user must select Firefox Home as their homepage for either new tabs or new windows to enable
+# the features in settings.
+home-prefs-firefox-home-disabled-notice =
+    .message = これらの機能を使用するには、@@NewTab@@または@@NewWindow@@を { -firefox-home-brand-name } に設定してください。
+# Variables:
+#   $num (number) - Number of rows displayed
+home-prefs-sections-rows-option-srd =
+    .label = { $num } 行
+# Dropdown option shown when an extension replaces the contents of new windows or tabs.
+# Variables:
+#   $extension (string) - Name of the extension
+home-prefs-homepage-extension-option =
+    .label = 拡張機能 ({ $extension })
+home-restore-defaults-srd =
+    .label = @@Default@@に戻す
+    .accesskey = R
+home-mode-choice-default-fx-srd =
+    .label = { -firefox-home-brand-name } (@@Default@@)
+home-mode-choice-custom-srd =
+    .label = カスタム URL...
+home-mode-choice-blank-srd =
+    .label = 空白ページ
+home-prefs-shortcuts-header-srd =
+    .label = ショートカット
+home-prefs-shortcuts-select =
+    .aria-label = ショートカット
+home-prefs-shortcuts-by-option-sponsored-srd =
+    .label = 広告ショートカット
+home-prefs-recommended-by-option-sponsored-stories-srd =
+    .label = 広告記事
+home-prefs-highlights-option-visited-pages-srd =
+    .label = 訪れたページ
+home-prefs-highlights-options-bookmarks-srd =
+    .label = ブックマーク
+home-prefs-highlights-option-most-recent-download-srd =
+    .label = 最近のダウンロード
+home-prefs-recent-activity-header-srd =
+    .label = 最近のアクティビティ
+home-prefs-recent-activity-select =
+    .aria-label = 最近のアクティビティ
+home-prefs-weather-header-srd =
+    .label = 天気予報
+home-prefs-support-firefox-header-srd =
+    .label = { -brand-product-name } を支援
+home-prefs-mission-message-learn-more-link-srd = 支援の詳細情報
+
 ## Search box component.
 
 # "Search" is a verb/action
@@ -151,6 +268,8 @@ newtab-menu-section-block = ブロック
 # "Follow", "unfollow", and "following" are social media terms that refer to subscribing to or unsubscribing from a section of stories.
 # e.g. Following the travel section of stories.
 newtab-menu-section-unfollow-topic = フォローを解除
+# Context menu option to open a support page explaining the New Tab personalization features and privacy controls.
+newtab-menu-section-learn-more = 詳細情報
 # "Follow", "unfollow", and "following" are social media terms that refer to subscribing to or unsubscribing from a section of stories.
 # e.g. Following the travel section of stories.
 newtab-menu-section-unfollow = トピックのフォローを解除
@@ -748,8 +867,6 @@ newtab-widget-lists-button-add-item = アイテムを追加
 newtab-widget-lists-input-add-an-item2 =
     .placeholder = アイテムを追加します
     .aria-label = アイテムを追加
-newtab-widget-lists-input-add-an-item =
-    .placeholder = アイテムを追加します
 newtab-widget-lists-input-error = 追加するアイテムにテキストを含めてください
 newtab-widget-lists-input-menu-open-link = リンクを開く
 newtab-widget-lists-input-menu-move-up = 上へ移動
@@ -777,11 +894,6 @@ newtab-widget-lists-name-placeholder-checklist2 =
 newtab-widget-lists-name-placeholder-new2 =
     .placeholder = @@New-CMD@@リスト
     .aria-label = リスト名を編集
-newtab-widget-lists-name-placeholder-checklist =
-    .placeholder = チェックリスト
-# The placeholder value of the name field for a newly created list
-newtab-widget-lists-name-placeholder-new =
-    .placeholder = @@New-CMD@@リスト
 newtab-widget-section-title = ウィジェット
 newtab-widget-menu-hide = ウィジェットを隠す
 newtab-widget-menu-change-size = サイズを変更
