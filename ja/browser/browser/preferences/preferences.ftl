@@ -238,7 +238,7 @@ preferences-copy-profile-select = プロファイルを選択
 preferences-copy-profile-button = コピー
 tabs-browsing-section =
     .heading = タブとブラウジング
-pane-tabs-browsing-title2 = Tabs and browsing
+pane-tabs-browsing-title2 = タブとブラウジング
     .title = タブとブラウジング
 tabs-group-header2 =
     .label = タブグループ
@@ -1298,7 +1298,7 @@ account-placeholder2 =
     .description = ログインしてユーザーデータをプライベートで暗号化し、{ -brand-short-name } を使用しているどの端末からでもすぐにアクセスできるようにしましょう。
 account-sync-section =
     .heading = アカウントと同期
-pane-account-sync-title2 = Account and sync
+pane-account-sync-title2 = アカウントと同期
     .title = アカウントと同期
 
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
@@ -1758,7 +1758,7 @@ addresses-no-addresses-stored-message =
 address-moz-box-item =
     .label = { $name }
     .description = { $address }
-pane-passwords-autofill-title2 = Passwords and autofill
+pane-passwords-autofill-title2 = パスワードと自動入力
     .title = パスワードと自動入力
 preferences-passwords-autofill-header =
     .heading = パスワードと自動入力
@@ -2237,7 +2237,7 @@ permissions-header3 =
     .description = ウェブサイトからのアクセス、制御、トリガーを管理します。
 permissions-data-section =
     .heading = 許可設定とデータ
-pane-permissions-data-title2 = Permissions and data
+pane-permissions-data-title2 = 許可設定とデータ
     .title = 許可設定とデータ
 
 ## Privacy Section - Data Collection
@@ -2573,7 +2573,7 @@ preferences-appearance-header =
     .heading = 外観
 browser-theme-group =
     .label = ブラウザーのテーマ
-    .description = Style { -brand-short-name } your way. Theme colors apply to toolbars, menus, and messages.
+    .description = { -brand-short-name } をあなたのスタイルに。テーマ@@Colors@@は、ツールバー、メニュー、メッセージに適用されます。
 browser-theme-manage-link =
     .label = { -brand-short-name } テーマを管理
 related-settings-group =
