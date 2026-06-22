@@ -24,6 +24,7 @@ ipprotection-title = VPN
 ## Buttons used for all feature introduction callouts
 
 ipprotection-feature-introduction-title = ブラウザーに内蔵された VPN をご紹介します
+ipprotection-feature-introduction-title-1 = { -brand-product-name } の組み込み VPN をお試しください
 ipprotection-feature-introduction-link-text-2 = 新たな <a data-l10n-name="learn-more-vpn">組み込み VPN</a> を利用すると、あなたの現在位置を隠してユーザーデータを保護します。
 # Used for callout for users who expressed interest in privacy in onboarding
 ipprotection-feature-introduction-title-privacy = プライバシーの別のレイヤーを追加
@@ -32,8 +33,6 @@ ipprotection-feature-introduction-link-text-private-browsing-2 = 新たな <a da
 ipprotection-feature-introduction-description-private-browsing = プライベート@@Window@@であっても、ユーザーの現在位置を隠して追加の保護でブラウジングします。
 # Used for callout shown on login to public wi-fi through a captive portal
 ipprotection-feature-introduction-title-captive-portal = 公衆 Wi-Fi なら { -brand-product-name } の組み込み VPN を試してください。
-# Used for discovery callouts for both captive portal login and private browsing
-ipprotection-feature-introduction-link-text-captive-portal = 5 か所から選んで現在位置を隠し、<a data-l10n-name="learn-more-vpn">プライバシーを強化</a> しましょう。
 ipprotection-feature-introduction-description-captive-portal = 公衆 Wi-Fi であっても、ユーザーの現在位置を隠して追加の保護でブラウジングします。
 # Used for discovery callouts for both captive portal login and private browsing
 ipprotection-feature-introduction-link-text-captive-portal-1 = いくつかの場所から選んで現在位置を隠して <a data-l10n-name="learn-more-vpn">プライバシーを強化</a> しましょう。
@@ -47,10 +46,7 @@ ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
 ipprotection-feature-introduction-button-secondary-remove = ツールバーから VPN を削除
 ipprotection-feature-introduction-button-secondary-remove-1 =
     .label = ツールバーから VPN を削除
-
-## Feature introduction callout
-
-ipprotection-feature-introduction-link-text-privacy = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } の組み込み VPN</a> はユーザーのブラウジング保護に役立ちます。5 か所から選んで接続元のプライバシーを維持しましょう。
+ipprotection-feature-introduction-button-get-started = はじめる
 
 ## Site settings callout
 
@@ -61,7 +57,6 @@ ipprotection-site-settings-callout-button = 了解
 ## Location selection callout
 
 ipprotection-location-selection-callout-title = 新機能: ブラウジング場所を変えましょう
-ipprotection-location-selection-callout-description = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } の組み込み VPN</a> はブラウジング場所を 5 か所から選んでいただくか、接続速度が最も速い場所を代わりにピックアップします。
 ipprotection-location-selection-callout-description-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } の組み込み VPN</a> は、いくつかの選択肢からブラウジング場所を選ぶか、接続速度が最も速い場所を代わりにピックアップして利用します。
 ipprotection-location-selection-callout-primary-button = 試してみる
 ipprotection-location-selection-callout-secondary-button = 閉じる
@@ -72,10 +67,6 @@ ipprotection-location-selection-callout-secondary-button = 閉じる
 unauthenticated-vpn-title = { -brand-product-name } の組み込み VPN をお試しください
 unauthenticated-hide-location-message-3 = { -brand-product-name } でのブラウジング中、<a data-l10n-name="learn-more-vpn">あなたの現在位置を隠します</a>。
 unauthenticated-private-location-message = { -brand-product-name } で <a data-l10n-name="learn-more-vpn">あなたの現在位置を隠す</a> ことができます。
-unauthenticated-choose-location-message = ブラウジング場所を 5 か所から選んでいただくか、接続速度が最も速い場所を { -brand-product-name } が代わりにピックアップします。
-# Variables
-#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
-unauthenticated-bandwidth-limit-message = 無料の VPN データを毎月 { $maxUsage } GB 入手しましょう。
 unauthenticated-choose-location-message-1 = いくつかの場所から選ぶか、最速の場所を { -brand-product-name } にピックアップさせます。
 unauthenticated-get-started = はじめる
 unauthenticated-terms-of-service-privacy-notice = 続行すると、<a data-l10n-name="vpn-terms-of-service">サービス利用規約</a> および <a data-l10n-name="vpn-privacy-notice">プライバシー通知</a> に同意したものとみなされます。
@@ -91,10 +82,6 @@ ipprotection-settings-link =
 
 ## Status card
 
-ipprotection-connection-status-connected = VPN オン
-ipprotection-connection-status-disconnected = VPN オフ
-ipprotection-connection-status-excluded = このサイトでは VPN オフ
-ipprotection-connection-status-connecting = VPN に接続しています...
 # Button to turn off the VPN
 ipprotection-button-turn-vpn-off = VPN をオフにする
 # Button to turn off the VPN when the VPN panel is open while viewing
@@ -140,7 +127,6 @@ ipprotection-locations-subview-promo-button = { -mozilla-vpn-brand-name } を入
 upgrade-vpn-title = ブラウザーを越えて追加の保護を入手
 upgrade-vpn-description = VPN の利用場所を選ぶだけで、5 台までの端末のすべてのアプリの通信に、どのネットワークでも安全な VPN を利用できます。自宅でも公衆 Wi-Fi でも。
 upgrade-vpn-button = { -mozilla-vpn-brand-name } を試す
-ipprotection-connection-status-paused-title-1 = VPN は停止しています
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 ipprotection-connection-status-paused-description-1 = VPN データが上限の { $maxUsage } GB まで使用されました。アクセスは来月初めにリセットされます。
@@ -149,16 +135,13 @@ ipprotection-connection-status-paused-title-2 = VPN は停止しています
 
 ## Messages and errors
 
-ipprotection-connection-status-generic-error-title = VPN に接続できませんでした
 ipprotection-connection-status-generic-error-description = 数分後にもう一度試してください。
 ipprotection-connection-status-generic-error-try-again = 後でもう一度試してください。
 ipprotection-connection-status-network-error-title-1 = インターネット接続を確認してください
     .aria-label = インターネット接続を確認してください
-ipprotection-connection-status-network-error-title = インターネット接続を確認してください
 ipprotection-connection-status-network-error-description = インターネットに接続してから、VPN をオンにしてみてください。
 ipprotection-connection-status-blocked-error-title-1 = VPN の利用不可
     .aria-label = VPN の利用不可
-ipprotection-connection-status-blocked-error-title = VPN の利用不可
 ipprotection-connection-status-blocked-error-description = この地域では VPN サービスの提供が法律により規制されています。<a data-l10n-name="learn-more-link">詳細情報</a>
 # Variables
 #   $usageLeft (string) - The amount of data a user has left in a month (in GB)
@@ -205,16 +188,6 @@ ip-protection-description-1 =
     .label = 組み込み VPN
     .description = ブラウジング中の場所を隠してプライバシー保護を強化しましょう。
 ip-protection-learn-more = 詳細情報
-# Variables:
-#   $maxUsage (number) - The bandwidth limit of free VPN, in GB
-ip-protection-not-opted-in-2 =
-    .heading = { -brand-short-name } の組み込み VPN を試す
-    .message = { -brand-short-name } のブラウジングでユーザーの現在位置を隠します。毎月 { $maxUsage } GB の無料 VPN データが取得できます。
-# Variables
-#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
-ip-protection-not-opted-in-3 =
-    .heading = { -brand-short-name } の組み込み VPN をお試しください
-    .message = 現在位置を隠してブラウジングのプライバシー保護を強化しましょう。毎月 { $maxUsage } GB の無料 VPN データが取得できます。
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 ip-protection-not-opted-in-4 =
