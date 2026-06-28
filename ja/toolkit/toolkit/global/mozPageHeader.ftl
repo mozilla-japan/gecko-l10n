@@ -4,3 +4,6 @@
 
 back-nav-button-title =
     .title = 前へ戻る
+back-nav-button-title2 =
+    .title = 前へ戻る
+    .aria-label = 前へ戻る
