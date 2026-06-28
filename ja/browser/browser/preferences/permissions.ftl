@@ -40,6 +40,9 @@ permissions-remove =
 permissions-remove-all =
     .label = すべてのウェブサイトを削除
     .accesskey = e
+permissions-save-changes-2 =
+    .buttonlabelaccept = 変更を保存
+    .buttonaccesskeyaccept = S
 permission-dialog =
     .buttonlabelaccept = 変更を保存
     .buttonaccesskeyaccept = S
@@ -88,7 +91,11 @@ permissions-exceptions-cookie-window2 =
     .style = { permissions-window2.style }
 permissions-exceptions-cookie-desc = Cookie とサイトデータの使用を許可するかどうかウェブサイトごとに指定できます。個別に設定するサイトの正確なアドレスを入力して @@[@@不許可@@]@@、@@[@@現在のセッションのみ@@]@@、@@[@@許可@@]@@ のいずれかをクリックしてください。
 
+## Exceptions - Clear on Shutdown
+
+
 ## Exceptions - HTTPS-Only Mode
+
 
 permissions-exceptions-https-only-window2 =
     .title = 例外 - HTTPS-Only モード
