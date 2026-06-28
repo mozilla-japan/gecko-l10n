@@ -440,6 +440,9 @@ quickactions-cmd-print = print
 # Opens the print dialog at the save to PDF option
 quickactions-savepdf = ページを PDF 形式で保存
 quickactions-cmd-savepdf2 = pdf, save page
+# Opens about:pdf, the PDF editor landing page
+quickactions-editpdf = PDF エディターを開く
+quickactions-cmd-editpdf = pdf
 # Opens a new private browsing window
 quickactions-private2 = プライベート@@Window@@を開く
 quickactions-cmd-private = private browsing
@@ -744,8 +747,9 @@ urlbar-page-action-button =
 urlbar-revert-button =
     .tooltiptext = ロケーションバーにアドレスを表示します
 
-## Action text shown in urlbar results, usually appended after the search
-## string or the url, like "result value - action text".
+## "Last visited" and "bookmarked" explanation strings. For bookmarks and urlbar
+## results with last-visited dates like history and top sites, these strings
+## explain why the result is shown.
 
 # Used when the private browsing engine differs from the default engine.
 # The "with" format was chosen because the search engine name can end with
@@ -869,6 +873,41 @@ urlbar-result-weather-title-city-only = <strong>{ $temperature }°{ $unit }</str
 urlbar-result-weather-provider-sponsored = { $provider } · 広告
 # Used for asking AI assistant chat.
 urlbar-result-action-ai-chat = 尋ねる
+
+## "Last visited" and "bookmarked" explanation strings. For bookmarks and urlbar
+## results with last-visited dates like history and top sites, these strings
+## explain why the result is shown.
+
+# This explanation is used when the last-visited date is formatted as one of the
+# following relative dates: "yesterday", "today"
+# Variables:
+#   $date (string) - A localized relative date string
+urlbar-result-explanation-last-visited-relative = 最後に訪れたのは { $date } です
+# This explanation is used when the last-visited date is a small number of days
+# in the past.
+# Variables:
+#   $daysAgo (number) - The number of days ago
+urlbar-result-explanation-last-visited-days = 最後に訪れたのは { $daysAgo } 日前です
+# This explanation is used when the last-visited date is a small number of weeks
+# in the past.
+# Variables:
+#   $weeksAgo (number) - The number of weeks ago
+urlbar-result-explanation-last-visited-weeks = 最後に訪れたのは { $daysAgo } 週間前です
+# This explanation is used when the last-visited date is a small number of
+# months in the past.
+# Variables:
+#   $monthsAgo (number) - The number of months ago
+urlbar-result-explanation-last-visited-months = 最後に訪れたのは { $daysAgo } か月前です
+# This explanation is used when the last-visited date is further in the past.
+# The date will be formatted as an absolute date like: "11 May", "11 May 2026"
+# Variables:
+#   $date (string) - A localized absolute date string
+urlbar-result-explanation-last-visited-absolute = 最後に訪れたのは { $date } です
+# This explanation is used when the result is bookmarked. The date will be
+# formatted as an absolute date like: "11 May", "11 May 2026"
+# Variables:
+#   $date (string) - A localized absolute date string
+urlbar-result-explanation-bookmarked = { $date } にブックマーク済み
 
 ## These strings are used for Realtime suggestions in the urlbar.
 ## Market refers to stocks, indexes, and funds.

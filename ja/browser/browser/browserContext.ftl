@@ -312,12 +312,6 @@ main-context-menu-send-to-mobile-connect-phone3 = 端末を接続してタブを
 main-context-menu-send-to-mobile-connect-phone-from-link = 端末を接続してリンクを送信
 main-context-menu-send-to-mobile-connect-phone-from-page = 端末を接続してページを送信
 # Displayed within the send tab submenu to prompt users to sign in, enable sync, or pair a device
-main-context-menu-send-to-mobile-enable-sync =
-    .label = 同期を有効にしてタブを送信
-main-context-menu-send-to-mobile-connect-phone =
-    .label = スマートフォンを接続
-main-context-menu-send-to-mobile-device-missing =
-    .label = 端末が見つかりませんか？
 main-context-menu-save-to-pocket =
     .label = ページを { -pocket-brand-name } に保存
     .accesskey = k

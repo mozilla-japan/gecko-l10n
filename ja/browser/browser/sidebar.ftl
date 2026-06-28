@@ -78,7 +78,6 @@ sidebar-show-on-the-left =
 expand-sidebar-on-hover =
     .label = カーソルを合わせた時にサイドバーを展開する
 sidebar-manage-extensions2 = すべての拡張機能を管理
-sidebar-manage-extensions = 拡張機能を管理
 sidebar-customize-extensions-header2 = 拡張機能
 sidebar-customize-firefox-tools-header2 =
     .label = ツール
@@ -227,6 +226,18 @@ sidebar-opentabs-title = タブを開く
 # panel.
 sidebar-opentabs-pinned-tabs =
     .title = ピン留めしたタブ
+# Heading shown above the tab list for the currently focused window
+# in the Open Tabs sidebar panel.
+# Variables:
+#   $winID (Number) - The position of the window in the open windows list.
+sidebar-opentabs-current-window-header =
+    .heading = @@Window@@ { $winID } (現在)
+# Heading shown above the tab list for a non-focused window in the
+# Open Tabs sidebar panel.
+# Variables:
+#   $winID (Number) - The position of the window in the open windows list.
+sidebar-opentabs-window-header =
+    .heading = @@Window@@ { $winID }
 
 ## Context for closing synced tabs when hovering over the items
 

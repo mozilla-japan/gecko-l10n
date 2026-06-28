@@ -93,9 +93,12 @@ permissions-exceptions-cookie-desc = Cookie とサイトデータの使用を許
 
 ## Exceptions - Clear on Shutdown
 
+permissions-exceptions-shutdown-clearing-window =
+    .title = 例外 - シャットダウン時に履歴を消去
+    .style = { permissions-window2.style }
+permissions-exceptions-shutdown-clearing-desc = { -brand-short-name } を閉じて履歴を消去する際にデータを保存しておくウェブサイトを指定してください。管理したいサイトのアドレスを正確に入力し、@@[@@許可@@]@@ をクリックしてください。
 
 ## Exceptions - HTTPS-Only Mode
-
 
 permissions-exceptions-https-only-window2 =
     .title = 例外 - HTTPS-Only モード
