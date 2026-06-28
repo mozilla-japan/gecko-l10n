@@ -251,4 +251,5 @@ fxsrc | browser, devtools        58e807a3 (2026-06-04)  mar          sync browse
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | browser, devtools        466c89c1 (2026-06-25)  mar          sync browser, devtools
+fxsrc | dom, toolkit             466c89c1 (2026-06-25)  mar          sync dom, toolkit
 

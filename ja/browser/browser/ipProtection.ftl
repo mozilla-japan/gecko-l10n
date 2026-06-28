@@ -192,7 +192,7 @@ ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>VPN データが
 
 ip-protection-description =
     .label = VPN
-    .description = 組み込み VPN で { -brand-short-name } のブラジング中のプライバシー保護を強化します。
+    .description = 組み込み VPN で { -brand-short-name } のブラウジング中のプライバシー保護を強化します。
 ip-protection-description-1 =
     .label = 組み込み VPN
     .description = ブラウジング中の場所を隠してプライバシー保護を強化しましょう。
