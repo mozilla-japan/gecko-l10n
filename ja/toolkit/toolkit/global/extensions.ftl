@@ -147,12 +147,6 @@ webext-site-perms-description-gated-perms-webserial =
     ウェブサイトからのアクセスを許可する機器を選べます。
     
     ウェブサイトは通常、シリアルデバイスへのアクセスが許可されていません。誤った使い方をすると、破損の原因となったりセキュリティの低下を招いたりする恐れがあります。
-webext-site-perms-description-gated-perms-serial =
-    これらは USB またはシリアルポート経由で接続するマイクロコントローラーや 3D プリンターなどの機器です。
-    
-    ウェブサイトからのアクセスを許可する機器を選べます。
-    
-    ウェブサイトは通常、シリアルデバイスへのアクセスが許可されていません。誤った使い方をすると、破損の原因となったりセキュリティの低下を招いたりする恐れがあります。
 
 ## Headers used in the webextension permissions dialog.
 ## Note: This string will be used as raw markup. Avoid characters like <, >, &

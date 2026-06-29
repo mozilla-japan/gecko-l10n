@@ -20,6 +20,9 @@ customkeys-history-reopen-window = 最後に閉じた@@Window@@を開き直す
 customkeys-sidebar-toggle = サイドバーを切り替える
 customkeys-view-bookmarks-toolbar = ブックマークツールバーの表示を切り替える
 customkeys-view-picture-in-picture = ピクチャーインピクチャー
+customkeys-view-add-split-view = 分割ビューを追加
+# Separate is a verb
+customkeys-view-separate-split-view = 分割ビューを終了
 customkeys-dev-tools = ウェブ開発ツール
 customkeys-dev-inspector = DOM およびスタイルインスペクター
 customkeys-dev-webconsole = ウェブコンソール

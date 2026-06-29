@@ -178,8 +178,14 @@ tabbrowser-customizemode-tab-title = { -brand-short-name } をカスタマイズ
 tabbrowser-context-mute-tab =
     .label = タブをミュート
     .accesskey = M
+tabbrowser-context-mute-tab2 =
+    .label = ミュート
+    .accesskey = M
 tabbrowser-context-unmute-tab =
     .label = タブのミュートを解除
+    .accesskey = m
+tabbrowser-context-unmute-tab2 =
+    .label = ミュート解除
     .accesskey = m
 # The accesskey should match the accesskey for tabbrowser-context-mute-tab
 tabbrowser-context-mute-selected-tabs =

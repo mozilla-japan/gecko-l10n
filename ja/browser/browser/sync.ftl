@@ -36,8 +36,6 @@ fxa-menu-send-to-mobile =
             [1] モバイル端末へ送信
            *[other] { $tabCount } 個のタブをモバイル端末へ送信
         }
-fxa-menu-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
-fxa-menu-send-to-mobile-connect-phone2 = スマートフォンに接続
 fxa-menu-send-to-mobile-device-missing2 = 端末が見つかりませんか？
 fxviewtabrow-send-to-mobile-not-verified = アカウントが認証されていません
 fxviewtabrow-send-to-mobile-verify-account = アカウントを認証
