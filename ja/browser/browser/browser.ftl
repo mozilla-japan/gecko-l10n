@@ -892,12 +892,12 @@ urlbar-result-explanation-last-visited-days = 最後に訪れたのは { $daysAg
 # in the past.
 # Variables:
 #   $weeksAgo (number) - The number of weeks ago
-urlbar-result-explanation-last-visited-weeks = 最後に訪れたのは { $daysAgo } 週間前です
+urlbar-result-explanation-last-visited-weeks = 最後に訪れたのは { $weeksAgo } 週間前です
 # This explanation is used when the last-visited date is a small number of
 # months in the past.
 # Variables:
 #   $monthsAgo (number) - The number of months ago
-urlbar-result-explanation-last-visited-months = 最後に訪れたのは { $daysAgo } か月前です
+urlbar-result-explanation-last-visited-months = 最後に訪れたのは { $monthsAgo } か月前です
 # This explanation is used when the last-visited date is further in the past.
 # The date will be formatted as an absolute date like: "11 May", "11 May 2026"
 # Variables:
