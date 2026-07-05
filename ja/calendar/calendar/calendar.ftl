@@ -700,10 +700,6 @@ calendar-context-attendance-occurrence-label =
     .value = この予定のみ
 calendar-context-attendance-all-series-label =
     .value = すべて完了にする
-calendar-context-attendance-occurrence =
-    .label = この予定のみ
-calendar-context-attendance-all-series =
-    .label = すべて完了にする
 calendar-context-attendance-send =
     .label = 通知を今すぐ送信
     .accesskey = S
@@ -996,3 +992,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = ToDo に追加
     .tooltiptext = メッセージからカレンダー情報を抽出し、カレンダーの ToDo に追加します
+new-event-input =
+    .placeholder = @@New-CMD@@予定
+new-task-input =
+    .placeholder = @@New-CMD@@ ToDo
+item-menu-label-event =
+    .label = 予定
+    .accesskey = T
+item-menu-label-task =
+    .label = ToDo
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = 添付する URL を指定してください
+enter-link-location = ウェブページや文書ファイルの場所を入力してください。
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = { $providerName } にファイルを保存
+select-a-file = 添付ファイル
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } さんは招待を承諾しましたが対案を提案しています:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } さんは招待を仮承諾しましたが対案を提案しています:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } さんは招待を辞退しましたが対案を提案しています:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } さんは招待を委任しましたが対案を提案しています:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } さんはまだ参加表明をしていませんが対案を提案しています:
+counter-on-previous-version-notification = これは、この予定の以前のバージョンへの対案です。
+counter-on-counter-disallowed-notification = 対案を許可しない招待メールを送信しています。
+sendandclose-button =
+    .label = 送信して閉じる
+    .tooltiptext = 参加者に通知して閉じます
+saveandsend-button =
+    .label = 保存して送信
+    .tooltiptext = 保存して参加者に通知します
+saveandsend-menu =
+    .label = 保存して送信
+sendandclose-menu =
+    .label = 送信して閉じる
+event-recurrence-forever =
+    .label = 永久
+# $count - the number of attendees
+attendees-tab-label = 参加者 ({ $count } 名):
+# $count - the number of attachments
+attachments-tab-label = 添付 ({ $count } 個):
