@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Added shortcuts:
+
 customkeys-title = キーボードショートカット
 customkeys-search = 検索:
 customkeys-change = 変更
@@ -54,6 +57,22 @@ customkeys-nav-select-last-tab = 最後のタブを開く
 customkeys-nav-toggle-mute = 音声をミュート/ミュート解除
 customkeys-edit-find-previous = 前を検索
 customkeys-tools-screenshot = スクリーンショットを撮る
+customkeys-category-navigation-2 =
+    .heading = ナビゲーション
 customkeys-caution-message = この機能は実験段階のため、期待通りに動作しない可能性があります。
 # Displayed in the new key field when the key that was pressed isn't valid.
 customkeys-key-invalid = 無効
+customkeys-key-clear =
+    .aria-label = 消去
+    .tooltiptext = 消去
+
+## Shortcut actions
+
+customkeys-key-new =
+    .label = @@New-CMD@@キーを入力:
+
+## Confirmation dialogs
+
+
+## Sidebar
+
