@@ -62,9 +62,20 @@ customkeys-category-navigation-2 =
 customkeys-caution-message = この機能は実験段階のため、期待通りに動作しない可能性があります。
 # Displayed in the new key field when the key that was pressed isn't valid.
 customkeys-key-invalid = 無効
+customkeys-shortcut-unassigned =
+    .placeholder = ショートカットを追加します
+# Variables:
+# $keyLabel (string) - The name of the shortcut, e.g. “New Tab”.
+customkeys-shortcut-input = Shortcut for: { $keyLabel }
+customkeys-key-edit =
+    .aria-label = 編集
+    .tooltiptext = 編集
 customkeys-key-clear =
     .aria-label = 消去
     .tooltiptext = 消去
+customkeys-key-reset =
+    .aria-label = 復元
+    .tooltiptext = 復元
 
 ## Shortcut actions
 
@@ -73,6 +84,27 @@ customkeys-key-new =
 
 ## Confirmation dialogs
 
+customkeys-conflict-confirm-title = Remove another shortcut?
+# Variables
+# $conflict (string) - The title of the conflicting shortcut.
+customkeys-conflict-confirm-body = このキーは “{ $conflict }” ですでに使用されています。
+customkeys-conflict-confirm-button-confirm = 設定する
+customkeys-conflict-confirm-button-cancel = キャンセル
+customkeys-reset-all-confirm-title = 初期設定に戻しますか？
+customkeys-reset-all-confirm-body = 作成したカスタムキーボードショートカットが削除されます。
+customkeys-reset-all-confirm-button-confirm = 初期設定に戻す
+customkeys-reset-all-confirm-button-cancel = キャンセル
 
 ## Sidebar
 
+customkeys-sidebar =
+    .aria-label = サイドバー
+customkeys-title-heading =
+    .heading = キーボードショートカット
+# Search is a verb, as in "search through shortcuts".
+customkeys-search-input =
+    .aria-label = ショートカットを検索
+    .placeholder = ショートカットを検索します
+customkeys-description = { -brand-short-name } を操作するキーを制御します。
+customkeys-support-link-text = 詳細情報
+customkeys-reset-all-button = 初期設定に戻す

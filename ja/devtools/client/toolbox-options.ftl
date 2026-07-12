@@ -72,9 +72,26 @@ options-default-color-unit-name = @@Color@@の名前
 # The heading
 options-webconsole-label = ウェブコンソール
 # The label for the checkbox that toggle whether the Split console is enabled
-options-webconsole-split-console-label = コンソールペインを有効化
+options-webconsole-split-console-label = 分割コンソールを有効化
 options-webconsole-split-console-tooltip =
-    .title = ESC キーでコンソールペインを開きます
+    .title = ESC キーで分割コンソールを開きます
+
+## Network Monitor section
+
+# The heading
+options-netmonitor-label = ネットワークモニター
+# The label for the input defining the limit of stored request and response body size
+options-netmonitor-body-limit-label = 要求ボディと応答ボディの最大サイズ (0 に設定で制限なし):
+options-netmonitor-body-limit-tooltip =
+    .title = 要求ボディや応答ボディが指定のサイズに達すると、ネットワークモニター内に表示またはダウンロードされた内容が省略されます。値を 0 に設定することで制限なしになります。
+# Text shown in the input when there is no limitation (instead of showing "0")
+options-netmonitor-body-limit-unlimited-label = 制限なし
+options-netmonitor-body-limit-button =
+    .title = 要求/応答ボディの最大サイズを編集します。
+options-netmonitor-body-limit-restore-default =
+    .title = 要求/応答ボディの最大サイズを@@DefaultValue@@にリセットします。
+options-netmonitor-body-limit-set =
+    .title = 現在の入力値を要求/応答ボディの最大サイズに設定します。
 
 ## Style Editor section
 

@@ -288,6 +288,8 @@ appmenu-customizetoolbar =
     .label = ツールバーをカスタマイズ...
 appmenu-abouttranslations =
     .label = 翻訳...
+appmenu-edit-pdf =
+    .label = PDF を編集...
 appmenu-developer-tools-subheader = ブラウザーツール
 appmenu-developer-tools-extensions =
     .label = 開発者用拡張機能
@@ -297,15 +299,25 @@ appmenuitem-report-broken-site =
 ## Panel for privacy and security products
 
 appmenuitem-sign-in-account = アカウントにログイン
+appmenuitem-monitor-title2 = 個人情報の盗難に備えましょう
+appmenuitem-monitor-description2 = データ漏洩についての警告を受け取ります
 appmenuitem-monitor-title = { -monitor-brand-short-name }
 appmenuitem-monitor-description = データ漏洩の警告を受け取ります
 appmenuitem-relay-title = { -relay-brand-short-name }
+appmenuitem-relay-title2 = メールアドレスをプライベートに
+appmenuitem-relay-description2 = 受信トレイをスパムから守ります
 appmenuitem-relay-description = 実際のメールアドレスと電話番号を隠します
 appmenuitem-services-relay-description = メールマスクダッシュボードを起動します
+appmenuitem-vpn-title2 = { -mozilla-vpn-brand-name } で位置情報を隠す
+appmenuitem-vpn-description3 = ウェブブラウジングが追跡できないようにします
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description-2 = 端末全体を保護しましょう
 appmenuitem-vpn-description = ユーザーのオンラインプライバシーを保護します
 appmenu-services-header = マイサービス
+# "Mozilla" is intentionally hardcoded to prevent forks from replacing it
+# with their own vendor name, since these tools are created and maintained by
+# Mozilla.
+appmenu-other-protection-header3 = プライバシーツール
 # "Mozilla" is intentionally hardcoded to prevent forks from replacing it
 # with their own vendor name, since these tools are created and maintained by
 # Mozilla.
@@ -319,9 +331,18 @@ appmenu-manage-profiles =
     .label = プロファイルを管理
 appmenu-copy-profile =
     .label = このプロファイルをコピー
+appmenu-create-profile2 =
+    .label = @@New-CMD@@プロファイルを作成
 appmenu-create-profile =
     .label = @@New-CMD@@プロファイル
 appmenu-edit-profile =
     .aria-label = プロファイルを編集
+appmenu-edit-this-profile =
+    .label = このプロファイルを編集
+appmenu-profile-current-in-use = 使用中の現在のプロファイル
 appmenu-profiles-2 =
     .label = プロファイル
+appmenu-profiles-header = プロファイル
+appmenu-all-profiles =
+    .label = すべてのプロファイル
+appmenu-secure-sync-header = 安全に同期

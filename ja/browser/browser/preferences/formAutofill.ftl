@@ -152,10 +152,14 @@ autofill-card-number-2 =
 autofill-card-number = カード番号
 autofill-card-invalid-number = 正しいカード番号を入力してください
 autofill-card-name-on-card-2 =
-    .label = お名前
+    .label = カード名義
+autofill-card-expires-month-2 =
+    .label = 有効期限 (月)
+autofill-card-expires-year-2 =
+    .label = 有効期限 (年)
 autofill-card-billing-address-2 =
     .label = 請求先住所
-autofill-card-name-on-card = お名前
+autofill-card-name-on-card = カード名義
 autofill-card-expires-month = 有効期限 (月)
 autofill-card-expires-year = 有効期限 (年)
 autofill-card-billing-address = 請求先住所
@@ -165,7 +169,7 @@ autofill-card-network = カードの種類
 # simply a comma separated list of additional search keywords for the payment
 # methods section. Localizers should choose terms that make sense for payment
 # methods in their region.
-autofill-card-search-term-credit-cards = クレジットカード, 現金, デビットカード, 財布, 支払い, チェックアウト
+autofill-card-search-term-credit-cards = クレジットカード, 現金, デビットカード, 財布, 支払い, 小切手
 
 ## These are brand names and should only be translated when a locale-specific name for that brand is in common use
 
