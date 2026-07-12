@@ -211,6 +211,9 @@ profiler-popup-presets-ml-label =
 profiler-popup-presets-networking-description = { -brand-shorter-name } のネットワークバグを調査するための推奨プリセットです。
 profiler-popup-presets-networking-label =
     .label = ネットワーク
+profiler-popup-presets-networking-with-logs-description = { -brand-shorter-name } のネットワークバグをログを記録しながら調査するためのプリセットです。これらのログには訪れたサイトの URL などの機密情報が含まれる可能性があります。
+profiler-popup-presets-networking-with-logs-label =
+    .label = ネットワーク (ログ記録あり)
 profiler-popup-presets-power-description = { -brand-shorter-name } の消費電力のバグを少ないオーバーヘッドで調査するための推奨プリセットです。
 # "Power" is used in the sense of energy (electricity used by the computer).
 profiler-popup-presets-power-label =

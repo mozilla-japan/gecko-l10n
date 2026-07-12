@@ -93,6 +93,18 @@ options-netmonitor-body-limit-restore-default =
 options-netmonitor-body-limit-set =
     .title = 現在の入力値を要求/応答ボディの最大サイズに設定します。
 
+## Experimental section
+
+# The heading
+options-experimental-label = 実験的な機能
+# The label for the checkbox that toggles showing stylesheets in the debugger
+options-stylesheets-in-the-debugger-label = デバッガーにスタイルシートを表示する
+options-stylesheets-in-the-debugger-tooltip =
+    .title = デバッガー内にスタイルシートをリスト表示します
+# The message shown for settings that indicates that the attached setting requires the
+# toolbox to be reopened to take effect.
+options-reopen-toolbox-message = (ツールボックスを開き直す必要があります)
+
 ## Style Editor section
 
 # The heading

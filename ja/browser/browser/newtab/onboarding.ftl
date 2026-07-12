@@ -585,3 +585,35 @@ onboarding-refresh-sync-title = どこへでも、すべてのデータを同期
 onboarding-refresh-gratitude-subtitle = { -brand-short-name } をご使用いただきありがとうございます。非営利で支持された唯一のメジャーブラウザーです。あなたのご支援により、私たちはインターネットを安全ですべての人々がアクセスできるようにすることができます。
 # "has your back" is an idiom suggesting support and protection
 onboarding-refresh-gratitude-title = { -brand-short-name } へのご支援
+
+## Smart window switcher callout
+
+smartwindow-switcher-callout = いつでもスマート@@Window@@とクラシック@@Window@@を切り替えられます。
+
+## Smart Window ToU modal
+
+# Existing users
+smartwindow-existing-user-fx-tou-title = { -brand-product-name } 利用規約
+smartwindow-existing-user-fx-tou-body = { -smart-window-brand-name }を使用するには、<a data-l10n-name="terms_of_use">利用規約</a> および更新された <a data-l10n-name="privacy_notice">プライバシー通知</a> に承諾していただく必要があります。
+smartwindow-existing-user-fx-tou-accept = 承諾
+smartwindow-existing-user-fx-tou-go-back = 戻る
+
+## Smart Window about:welcome screen
+
+smartwindow-onboarding-title = { -smart-window-brand-name }を@@Default-@@設定にしましょう
+smartwindow-onboarding-subtitle = いつもの画面で要約、比較、質問を尋ねることができます。
+smartwindow-onboarding-primary-button = 続ける
+# Kit is referring to the Firefox mascot
+smartwindow-onboarding-image-alt =
+    .aria-label = 星のアイテムを付けた { -brand-product-name } のマスコット (Kit)
+
+## Smart Window Sidebar Auto-Open Pref
+
+smartwindow-sidebar-auto-open-callout-title = アシスタントを閉じておきますか？
+smartwindow-sidebar-auto-open-callout-body = 必要であればいつでも開けます。
+smartwindow-sidebar-auto-open-callout-accept = はい、閉じます
+smartwindow-sidebar-auto-open-callout-dismiss = いいえ
+smartwindow-sidebar-auto-open-callout-accepted-title = アシスタントは閉じたままです
+smartwindow-sidebar-auto-open-callout-accepted-subtitle = どのページでも尋ねることで開けます。いつでも <a data-l10n-name="settings">設定</a> から変更できます。
+smartwindow-sidebar-auto-open-callout-rejected-title = 了解
+smartwindow-sidebar-auto-open-callout-rejected-subtitle = 気が変わったら、いつでも <a data-l10n-name="settings">設定</a> から@@Default@@に設定してください。

@@ -162,6 +162,8 @@ perftools-presets-ml-label = 機械学習
 perftools-presets-ml-description2 = { -brand-shorter-name } の機械学習のバグを調査するための推奨プリセットです。
 perftools-presets-networking-label = ネットワーク
 perftools-presets-networking-description = { -brand-shorter-name } のネットワークバグを調査するための推奨プリセットです。
+perftools-presets-networking-with-logs-label = ネットワーク (ログ記録あり)
+perftools-presets-networking-with-logs-description = { -brand-shorter-name } のネットワークバグをログを記録しながら調査するためのプリセットです。これらのログには訪れたサイトの URL などの機密情報が含まれる可能性があります。
 # "Power" is used in the sense of energy (electricity used by the computer).
 perftools-presets-power-label = 消費電力
 perftools-presets-power-description = { -brand-shorter-name } の消費電力のバグを少ないオーバーヘッドで調査するための推奨プリセットです。

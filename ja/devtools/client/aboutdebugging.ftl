@@ -20,6 +20,14 @@ about-debugging-page-title-runtime-page = デバッガー - ランタイム / { 
 # Display name of the runtime for the currently running instance of Firefox. Used in the
 # Sidebar and in the Setup page.
 about-debugging-this-firefox-runtime-name = この { -brand-shorter-name }
+# Sidebar heading and title for selecting the currently running instance of Firefox
+about-debugging-sidebar-this-firefox2 = この { -brand-shorter-name }
+about-debugging-sidebar-this-firefox-title =
+    .title = この { -brand-shorter-name }
+# Sidebar heading and title for connecting to some remote source
+about-debugging-sidebar-setup2 = セットアップ
+about-debugging-sidebar-setup-title =
+    .title = セットアップ
 # Sidebar heading for selecting the currently running instance of Firefox
 # .name is processed by fluent-react / SidebarFixedItem
 about-debugging-sidebar-this-firefox =
@@ -346,3 +354,5 @@ about-debugging-message-details-label-error = エラーの詳細
 about-debugging-message-details-label-warning = 警告の詳細
 # Label text used for default state of details of message component.
 about-debugging-message-details-label = 詳細
+about-debugging-sidebar =
+    .heading = デバッグ
