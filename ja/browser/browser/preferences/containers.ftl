@@ -97,3 +97,11 @@ containers-window-new3 =
 containers-window-update-settings3 =
     .title = { $name } コンテナーの設定
     .style = min-width: 32em
+
+## Container creation panel, anchored to the URL bar.
+
+containers-panel-title = @@New-CMD@@コンテナーを追加
+containers-panel-create-button =
+    .label = 完了
+containers-panel-cancel-button =
+    .label = キャンセル

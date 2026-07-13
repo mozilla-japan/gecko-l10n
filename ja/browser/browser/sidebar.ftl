@@ -13,6 +13,9 @@ menu-view-open-tabs =
     .label = タブを開く
 sidebar-options-menu-button =
     .title = メニューを開く
+# Accessible label for the splitter used to resize the sidebar.
+sidebar-resize-splitter =
+    .aria-label = サイドバーのサイズを変更
 
 ## Labels for sidebar history panel
 
@@ -238,6 +241,7 @@ sidebar-opentabs-current-window-header =
 #   $winID (Number) - The position of the window in the open windows list.
 sidebar-opentabs-window-header =
     .heading = @@Window@@ { $winID }
+sidebar-bookmarks-title = ブックマーク
 
 ## Context for closing synced tabs when hovering over the items
 
