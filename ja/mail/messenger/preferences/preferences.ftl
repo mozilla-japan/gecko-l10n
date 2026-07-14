@@ -139,6 +139,12 @@ adding-opensearch-provider-failed-title = OpenSearch プロバイダーの追加
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = { $url } の OpenSearch プロバイダーを追加できませんでした。
+close-to-tray-label =
+    .label = { -brand-short-name } を閉じたらタスクトレイにしまう
+    .accesskey = c
+start-in-tray-label =
+    .label = { -brand-short-name } をタスクトレイ内で起動する
+    .accesskey = S
 minimize-to-tray-label =
     .label = 最小化した { -brand-short-name } をタスクトレイにしまう
     .accesskey = m
