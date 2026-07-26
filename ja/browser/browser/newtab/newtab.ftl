@@ -398,6 +398,7 @@ newtab-topsites-url-input =
     .placeholder = URL を入力するか@@Paste@@
 newtab-topsites-url-validation = 正しい URL を入力してください
 newtab-topsites-image-url-label = カスタム画像 URL
+newtab-topsites-use-custom-image-link = カスタム画像を使用
 newtab-topsites-use-image-link = カスタム画像を使用...
 newtab-topsites-image-validation = 画像を読み込めませんでした。別の URL を試してください。
 
@@ -685,8 +686,6 @@ newtab-custom-widget-lists-toggle =
     .label = ToDo リスト
 newtab-custom-widget-timer-toggle =
     .label = タイマー
-newtab-custom-widget-sports-toggle =
-    .label = ワールドカップ
 newtab-custom-widget-clock-toggle =
     .label = 時計
 newtab-custom-widget-sports-toggle2 =
@@ -697,7 +696,6 @@ newtab-custom-widget-stocks-toggle =
     .label = 株価情報
 newtab-custom-widget-picture-toggle =
     .label = 今日の一枚
-
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -1250,8 +1248,6 @@ newtab-sports-widget-menu-learn-more = 詳細情報
 # “Keep tabs on” is an informal expression meaning to stay updated on, stay informed on, or regularly follow something (in this case, World Cup matches and updates).
 newtab-sports-widget-keep-tabs = ワールドカップのタブを保持
 newtab-sports-widget-get-updates = 試合の最新情報などをリアルタイムでお届けします。
-newtab-sports-widget-view-schedule =
-    .label = スケジュールを見る
 newtab-sports-widget-follow-teams =
     .label = チームをフォロー
 newtab-sports-widget-view-matches =
@@ -1368,7 +1364,6 @@ newtab-sports-widget-world-cup-champions = 2026 ワールドカップ優勝者
 # Compact champions label for the medium-size widget result card; the larger
 # card uses newtab-sports-widget-world-cup-champions.
 newtab-sports-widget-world-cup-champions-short = 2026 優勝者
-
 # Variables:
 #   $date (Date) - The match start time
 newtab-sports-widget-match-time = { DATETIME($date, hour: "2-digit", minute: "2-digit") }
