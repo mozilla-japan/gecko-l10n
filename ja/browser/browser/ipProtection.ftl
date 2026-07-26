@@ -54,6 +54,13 @@ ipprotection-feature-introduction-button-secondary-remove-1 =
 ipprotection-feature-introduction-button-open-vpn = VPN を開く
 ipprotection-feature-introduction-button-get-started = はじめる
 
+## Unlimited bandwidth summer promotion offramp callouts
+
+# Summer promo offramp callout buttons
+ipprotection-summer-promo-offramp-open-vpn-primary-button = VPN を開く
+ipprotection-summer-promo-offramp-get-subscription-button = { -mozilla-vpn-brand-name } を入手
+ipprotection-summer-promo-offramp-dismiss-secondary-button = 閉じる
+
 ## Site settings callout
 
 ipprotection-site-settings-callout-title = VPN の利用場所を選んでください

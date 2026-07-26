@@ -40,6 +40,11 @@ mr1-return-to-amo-add-extension-label = { $addon-name } を追加
 # Variables:
 #   $current (Int) - Number of the current page
 #   $total (Int) - Total number of pages
+
+# Aria-label to make the "steps" of multistage onboarding visible to screen readers.
+# Variables:
+#   $current (Int) - Number of the current page
+#   $total (Int) - Total number of pages
 onboarding-welcome-steps-indicator-label =
     .aria-label = 完了まで: { $current } / { $total }
 # This button will open system settings to turn on prefers-reduced-motion
@@ -343,11 +348,9 @@ amo-picker-collection-link = 他のアドオンを探す
 # Easy setup screen
 onboarding-easy-setup-security-and-privacy-title = あなたの安全を守ります
 onboarding-easy-setup-security-and-privacy-subtitle = 私たちの非営利組織によるブラウザーがウェブ上であなたを秘密裏に付け回す企業を阻止します。
-
 # Mobile download screen
 onboarding-mobile-download-security-and-privacy-title = 端末を切り替える時も暗号化されます
 onboarding-mobile-download-security-and-privacy-subtitle = 同期した端末でも { -brand-short-name } があなたのパスワードやブックマークを暗号化して保護します。さらに開いているタブを他の端末で持ち歩くことができます。
-
 # Gratitude screen
 onboarding-gratitude-security-and-privacy-title = { -brand-short-name } はあなたの味方です
 onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation による { -brand-short-name } をご使用くださりありがとうございます。あなたのご支援によって、私たちはインターネットをすべての人々のために安全でアクセシブルなものにすることができます。
@@ -437,6 +440,7 @@ onboarding-checklist-minimize =
     .label = 最小化
 onboarding-checklist-remove =
     .label = チェックリストを削除
+onboarding-checklist-remove-2 = チェックリストを削除
 
 ## Tab Groups feature onboarding strings
 
