@@ -13,7 +13,7 @@ change-device-password-window =
 change-password-token = セキュリティデバイス: { $tokenName }
 change-password-old = 現在のパスワード:
 change-password-new = 新しいパスワード:
-change-password-reenter = 新しいパスワード(再入力):
+change-password-reenter = 新しいパスワード (再入力):
 pippki-failed-pw-change = パスワードを変更できません。
 pippki-incorrect-pw = 現在のパスワードが正しく入力されませんでした。入力し直してください。
 pippki-pw-change-ok = パスワードの変更が完了しました。
@@ -32,7 +32,7 @@ reset-password-button-label =
 # (^m^) en-US: "Primary Password"
 reset-primary-password-text = マスターパスワードをリセットすると、保存されているすべてのウェブやメールのパスワード、個人証明書、秘密鍵が失われます。本当にマスターパスワードをリセットしてもよろしいですか？
 pippki-reset-password-confirmation-title = マスターパスワードのリセット
-pippki-reset-password-confirmation-message = マスターパスワードがリセットされます。
+pippki-reset-password-confirmation-message = マスターパスワードをリセットしました。
 
 ## Downloading cert dialog
 
@@ -100,7 +100,7 @@ set-password-message = ここで設定するバックアップ用パスワード
 set-password-backup-pw =
     .value = 証明書のバックアップ用パスワード:
 set-password-repeat-backup-pw =
-    .value = 証明書のバックアップ用パスワード(再入力):
+    .value = 証明書のバックアップ用パスワード (再入力):
 set-password-reminder = 重要: 証明書のバックアップ用パスワードを忘れてしまうと、バックアップした証明書を復元できなくなります。安全な場所に記録しておいてください。
 
 ## Protected authentication dialog

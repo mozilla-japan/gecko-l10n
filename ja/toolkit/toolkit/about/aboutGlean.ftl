@@ -125,7 +125,7 @@ about-glean-metrics-table-settings-button = 設定
 # Settings for the metrics table and its visualizations in about:glean
 about-glean-metrics-table-settings-title = メトリクス表の設定
 about-glean-metrics-table-settings-category-general = 一般
-about-glean-metrics-table-settings-hide-empty-value-rows = 値が空の列を隠す
+about-glean-metrics-table-settings-hide-empty-value-rows = 値が空の行を隠す
 about-glean-metrics-table-settings-category-visualizations = 視覚的表示
 # This is a heading that is immediately followed by an example data visualization
 about-glean-metrics-table-settings-visualization-example = 表示例
@@ -154,7 +154,7 @@ about-glean-label-for-filter-metrics = 絞り込み
 # Type refers to a given metric's metric type.
 # Value refers to the underlying value of a given metric.
 # "Simple type" refers to a value type that does not have deeply-nested data, such as a boolean, number, string, or list of strings.
-about-glean-description-for-filter-metrics = 以下の表のカテゴリー、名前、型、値 からデータを絞り込みます (入れ子でない単純な値を持つ型である場合)。
+about-glean-description-for-filter-metrics = 以下の表のカテゴリー、名前、型、値からデータを絞り込みます (入れ子でない単純な値を持つ型である場合)。
 about-glean-button-load-all = すべての値を読み込む
 # A button that, when pressed, exports the data currently shown in the metrics table
 about-glean-button-export-data = データを@@Export@@

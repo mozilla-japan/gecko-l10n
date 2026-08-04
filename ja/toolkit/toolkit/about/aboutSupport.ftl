@@ -334,7 +334,7 @@ has-user-namespaces = ユーザー名前空間
 has-privileged-user-namespaces = 特権プロセス用のユーザー名前空間
 # Variables
 # $status (string) - Boolean value of hasUserNamespaces (should only be false when support-user-namespaces-unavailable is used)
-support-user-namespaces-unavailable = { $status } — この機能はご使用のシステムにより許可されていません。これは { -brand-short-name } のセキュリティ機能を制限できます。
+support-user-namespaces-unavailable = { $status } — この機能はご使用のシステムにより許可されていません。これは { -brand-short-name } のセキュリティ機能を制限する可能性があります。
 can-sandbox-content = コンテンツプロセスのサンドボックス化
 can-sandbox-media = メディアプラグインのサンドボックス化
 content-sandbox-level = コンテンツプロセスのサンドボックスレベル
@@ -443,5 +443,5 @@ content-analysis-title = コンテンツ解析 (DLP)
 content-analysis-active = 有効
 content-analysis-connected-to-agent = エージェントへの接続
 content-analysis-agent-path = エージェントのパス
-content-analysis-agent-failed-signature-verification = エージェントによる署名検証の失敗
+content-analysis-agent-failed-signature-verification = エージェントの署名検証に失敗
 content-analysis-request-count = 要求回数

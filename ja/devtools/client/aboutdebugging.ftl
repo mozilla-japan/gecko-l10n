@@ -198,7 +198,7 @@ about-debugging-runtime-service-workers-not-compatible = このブラウザー�
 # "Troubleshooting" link points to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/
 # { $runtimeVersion } is the version of the remote browser (for instance "67.0a1")
 # { $minVersion } is the minimum version that is compatible with the current Firefox instance (same format)
-about-debugging-browser-version-too-old = 接続したブラウザーのバージョン ({ $runtimeVersion }) が古いです。サポートされている最低バージョンは ({ $minVersion }) です。この組み合わせはサポートされてないため、開発ツールでエラーが発生する可能性があります。接続ブラウザーを更新してください。<a>トラブルシューティング</a>
+about-debugging-browser-version-too-old = 接続したブラウザーのバージョン ({ $runtimeVersion }) が古いです。サポートされている最低バージョンは ({ $minVersion }) です。この組み合わせはサポートされていないため、開発ツールでエラーが発生する可能性があります。接続ブラウザーを更新してください。<a>トラブルシューティング</a>
 # Dedicated message for a backward compatibility issue that occurs when connecting:
 # from Fx 70+ to the old Firefox for Android (aka Fennec) which uses Fx 68.
 about-debugging-browser-version-too-old-fennec = このバージョンの Firefox は Android 版 Firefox (68) をデバッグできません。携帯端末でのテストには Android 版 Firefox Nightly のインストールをお勧めします。<a>詳細</a>
@@ -208,7 +208,7 @@ about-debugging-browser-version-too-old-fennec = このバージョンの Firefo
 # { $localID } is the build ID of the current Firefox instance (same format)
 # { $runtimeVersion } is the version of the remote browser (for instance "67.0a1")
 # { $localVersion } is the version of your current browser (same format)
-about-debugging-browser-version-too-recent = 接続したブラウザー ({ $runtimeVersion }, ビルド ID { $runtimeID }) が、実行中の { -brand-shorter-name } ({ $localVersion }, ビルド ID { $localID }) よりも新しいです。この組み合わせはサポートされてないため、開発ツールでエラーが発生する可能性があります。Firefox を更新してください。<a>トラブルシューティング</a>
+about-debugging-browser-version-too-recent = 接続したブラウザー ({ $runtimeVersion }, ビルド ID { $runtimeID }) が、実行中の { -brand-shorter-name } ({ $localVersion }, ビルド ID { $localID }) よりも新しいです。この組み合わせはサポートされていないため、開発ツールでエラーが発生する可能性があります。Firefox を更新してください。<a>トラブルシューティング</a>
 # Displayed for runtime info in runtime pages.
 # { $name } is brand name such as "Firefox Nightly"
 # { $version } is version such as "64.0a1"
@@ -291,8 +291,8 @@ about-debugging-extension-backgroundscript-status-stopped = 停止中
 # Note this relates to the "Push" API, which is normally not localized so it is
 # probably better to not localize it.
 # .disabledTitle is processed by the fluent-react / ActionButton code.
-about-debugging-worker-action-push2 = プッシュ通知
-    .disabledTitle = Service Worker プッシュ通知は、現在のマルチプロセス { -brand-shorter-name } では無効化されています。
+about-debugging-worker-action-push2 = Push 通知
+    .disabledTitle = Service Worker Push 通知は、現在のマルチプロセス { -brand-shorter-name } では無効化されています。
 # This string is displayed as a label of the button that starts a service worker.
 # .disabledTitle is processed by the fluent-react / ActionButton code.
 about-debugging-worker-action-start2 = 開始
@@ -311,7 +311,7 @@ about-debugging-worker-fetch-not-listening =
 # worker instance is active).
 about-debugging-worker-status-running = 実行中
 # Displayed for service workers in runtime pages that are registered but stopped.
-about-debugging-worker-status-stopped = 停止
+about-debugging-worker-status-stopped = 停止中
 # Displayed for service workers in runtime pages that are registering.
 about-debugging-worker-status-registering = 登録中
 # Displayed for service workers in runtime pages, to label the scope of a worker

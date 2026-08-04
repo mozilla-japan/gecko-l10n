@@ -83,11 +83,11 @@ text-action-copy-clean-link-to-highlight =
 # If the page has been loaded with a text fragment and text is
 # visibly highlighted, this removes any highlighted sections on the page.
 text-action-remove-highlight =
-    .label = 選択部分を解除
+    .label = 強調表示を解除
 # If the page has been loaded with a text fragment and text is
 # visibly highlighted, this removes any highlighted sections on the page.
 text-action-remove-all-highlights =
-    .label = すべての選択部分を解除
+    .label = すべての強調表示を解除
 profile-window-menu-edit =
     .label = 編集
     .accesskey = E

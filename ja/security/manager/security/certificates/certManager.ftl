@@ -143,7 +143,7 @@ delete-email-cert-impact = メール証明書を削除すると、その人た�
 cert-with-serial =
     .value = シリアル番号付きの証明書: { $serialNumber }
 # Used to indicate that the user chose not to send a client authentication certificate to a server that requested one in a TLS handshake.
-send-no-client-certificate = 送信するクライアント証明書がありません。
+send-no-client-certificate = クライアント証明書を送信しない
 # Used when no cert is stored for an override
 no-cert-stored-for-override = (保存されていません)
 # When a certificate is unavailable (for example, it has been deleted or the token it exists on has been removed).
@@ -159,11 +159,11 @@ temporary-override = 一時的
 add-exception-branded-warning = { -brand-short-name } が例外的に信頼する証明書としてこのサイトの証明書を登録しようとしています。
 add-exception-invalid-header = このサイトでは不正な証明書が使用されており、サイトの識別情報を確認できません。
 add-exception-domain-mismatch-short = 他のサイトの証明書です
-add-exception-domain-mismatch-long = 他のサイト用の証明書が使われています。誰かがこのサイトを偽装しようとしています。
+add-exception-domain-mismatch-long = 他のサイト用の証明書が使われています。誰かがこのサイトを偽装しようとする可能性があります。
 add-exception-expired-short = 証明書の有効期限を過ぎています
 add-exception-expired-long = このサイトの証明書は現在有効ではありません。この証明書は盗難または紛失した可能性があり、誰かがこのサイトを偽装するために使用している可能性があります。
 add-exception-unverified-or-bad-signature-short = 不明な証明書です
-add-exception-unverified-or-bad-signature-long = 安全な署名を使っている信頼できる認証局が発行されたものとして検証されていないため、このサイトの証明書は信頼されません。
+add-exception-unverified-or-bad-signature-long = 安全な署名を使っている信頼できる認証局により発行されたものとして検証されていないため、このサイトの証明書は信頼されません。
 add-exception-valid-short = 有効な証明書です
 add-exception-valid-long = このサイトでは正しく検証された有効な証明書を使用しています。このサイトの証明書を例外として追加する必要はありません。
 add-exception-checking-short = 証明書を確認中

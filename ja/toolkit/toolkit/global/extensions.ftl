@@ -142,7 +142,7 @@ webext-site-perms-description-gated-perms-midi =
     
     ウェブサイトは通常、MIDI デバイスへのアクセスが許可されていません。誤った使い方をすると、破損の原因となったりセキュリティの低下を招いたりする恐れがあります。
 webext-site-perms-description-gated-perms-webserial =
-    これらは USB または シリアルポート、Bluetooth 経由で接続するマイクロコントローラーや 3D プリンターなどの機器です。
+    これらは USB またはシリアルポート、Bluetooth 経由で接続するマイクロコントローラーや 3D プリンターなどの機器です。
     
     ウェブサイトからのアクセスを許可する機器を選べます。
     

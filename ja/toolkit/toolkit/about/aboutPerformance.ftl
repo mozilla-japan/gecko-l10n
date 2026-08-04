@@ -63,4 +63,4 @@ show-addon =
 item =
     .title =
         読み込み後のディスパッチ数: { $totalDispatches } ({ $totalDuration }ms)
-        最新 1 秒以内のディスパッチ数: { $dispatchesSincePrevious } ({ $durationSincePrevious }ms)
+        直近数秒間のディスパッチ数: { $dispatchesSincePrevious } ({ $durationSincePrevious }ms)

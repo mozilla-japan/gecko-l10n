@@ -55,8 +55,8 @@ certificate-viewer-policy = ポリシー
 certificate-viewer-protocol = プロトコル
 certificate-viewer-public-value = パブリック値
 certificate-viewer-purposes = 使用目的
-certificate-viewer-qualifier = 運用規程
-certificate-viewer-qualifiers = 修飾子
+certificate-viewer-qualifier = 追加情報
+certificate-viewer-qualifiers = 追加情報
 certificate-viewer-required = 必須
 certificate-viewer-unsupported = &lt;未対応&gt;
 # Inc. means Incorporated, e.g GitHub is incorporated in Delaware
@@ -122,8 +122,8 @@ certificate-viewer-unknown-file-name = 証明書
 
 ## Labels for tabs displayed in stand-alone about:certificate page
 
-certificate-viewer-tab-mine = 独自の証明書
-certificate-viewer-tab-people = 人々
-certificate-viewer-tab-servers = サーバー
-certificate-viewer-tab-ca = 認証局
+certificate-viewer-tab-mine = あなたの証明書
+certificate-viewer-tab-people = 個人証明書
+certificate-viewer-tab-servers = サーバー証明書
+certificate-viewer-tab-ca = 認証局証明書
 certificate-viewer-tab-unkonwn = 不明
