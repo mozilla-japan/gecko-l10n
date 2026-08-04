@@ -4,7 +4,7 @@
 
 # Variables:
 #   $directive (String): the name of a CSP directive, such as "script-src".
-csp-error-missing-directive = ‘{ $directive }’ ディレクティブを必要とするポリシーがありません
+csp-error-missing-directive = ポリシーに必要な ‘{ $directive }’ ディレクティブがありません
 # Variables:
 #   $directive (String): the name of a CSP directive, such as "script-src".
 #   $keyword (String): the name of a CSP keyword, usually 'unsafe-inline'.

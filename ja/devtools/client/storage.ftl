@@ -54,7 +54,7 @@ storage-context-menu-copy =
 # Variables:
 #   $itemName (String) - Name of the storage item that will be deleted
 storage-context-menu-delete =
-    .label = "{ $itemName }" を削除
+    .label = “{ $itemName }” を削除
 # Context menu action to add an item
 storage-context-menu-add-item =
     .label = アイテムを追加
@@ -62,7 +62,7 @@ storage-context-menu-add-item =
 # Variables:
 #   $host (String) - Host for which we want to delete the items
 storage-context-menu-delete-all-from =
-    .label = "{ $host }" のすべてのアイテムを削除
+    .label = “{ $host }” のすべてのアイテムを削除
 
 ## Header names of the columns in the Storage Table for each type of storage available
 ## through the Storage Tree to the side.
@@ -105,16 +105,16 @@ storage-parsed-value = パース済みの値
 # Warning notification when IndexedDB database could not be deleted immediately.
 # Variables:
 #   $dbName (String) - Name of the database
-storage-idb-delete-blocked = データベース "{ $dbName }" はすべての接続が切断されてから削除されます。
+storage-idb-delete-blocked = データベース “{ $dbName }” はすべての接続が切断されてから削除されます。
 # Error notification when IndexedDB database could not be deleted.
 # Variables:
 #   $dbName (String) - Name of the database
-storage-idb-delete-error = データベース "{ $dbName }" を削除できませんでした。
+storage-idb-delete-error = データベース “{ $dbName }” を削除できませんでした。
 # Error notification when cookie could not be created (e.g. because it's invalid).
 # Variables:
 #   $errorString (String) - Platform error message
-storage-cookie-create-error = Cookie を作成できませんでした: “{ $errorString }”.
+storage-cookie-create-error = Cookie を作成できませんでした: “{ $errorString }”
 # Error notification when cookie could not be edited (e.g. because it's invalid).
 # Variables:
 #   $errorString (String) - Platform error message
-storage-cookie-edit-error = Cookie を更新できませんでした: “{ $errorString }”.
+storage-cookie-edit-error = Cookie を更新できませんでした: “{ $errorString }”

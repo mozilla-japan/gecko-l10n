@@ -39,6 +39,14 @@ neterror-disable-native-feedback-warning = 常に続行する
 neterror-pref-reset = ネットワークセキュリティの設定がこの問題の原因になっている可能性があります。@@DefaultValue@@に戻しますか？
 neterror-error-reporting-automatic = エラーを報告すると、{ -vendor-short-name } が悪意のあるサイトを特定してブロックするのに役立てられます
 
+## Shown on about:neterror and about:certerror when the SSLKEYLOGFILE
+## environment variable is set, which causes { -brand-short-name } to log TLS
+## session keys that can be used to decrypt encrypted network traffic.
+
+neterror-sslkeylogging-warning =
+    .heading = 現在の接続はプライベートになりません
+    .message = アプリまたはサービスがこのサイトからユーザーの暗号化された通信を見られる可能性があります。
+
 ## Specific error messages
 
 neterror-generic-error = 何らかの理由により { -brand-short-name } はこのページを正常に読み込めませんでした。
@@ -94,7 +102,7 @@ neterror-dns-not-found-native-fallback-not-confirmed2 = { -brand-short-name } �
 
 ##
 
-neterror-file-not-found-filename = アドレスに大文字/小文字の違い、その他の間違いがないか確認してください。
+neterror-file-not-found-filename = ファイル名に大文字/小文字の違い、その他の間違いがないか確認してください。
 neterror-file-not-found-moved = ファイルの名前が変更、削除、または移動している可能性があります。
 # Variables:
 #   $path (String) - Path of the local file that could not be found.
@@ -106,10 +114,10 @@ neterror-redirect-loop = Cookie を無効化したり拒否していることに
 neterror-unknown-socket-type-client-config = クライアント側の設定エラーが原因となっている可能性があります。
 neterror-unknown-socket-type-psm-installed = コンピューターにパーソナルセキュリティマネージャーがインストールされているか確認してください。
 neterror-unknown-socket-type-server-config = サーバーの設定が間違っていることにより、この問題が発生している可能性もあります。
-neterror-not-cached-intro = リクエストされた { -brand-short-name } のキャッシュ内のドキュメントは、利用できません。
+neterror-not-cached-intro = リクエストされたドキュメントは { -brand-short-name } のキャッシュ内にありません。
 neterror-not-cached-sensitive = 安全対策のため、{ -brand-short-name } は注意を要するドキュメントを自動的に再リクエストしません。
-neterror-not-cached-try-again = "再試行" ボタンをクリックしてドキュメントをウェブサイトから読み込んでください。
-neterror-net-offline = "再試行” ボタンを押してブラウザーをオンラインモードに切り替え、ページを再読み込みしてください。
+neterror-not-cached-try-again = @@[@@再試行@@]@@ ボタンをクリックしてドキュメントをウェブサイトから読み込んでください。
+neterror-net-offline = @@[@@再試行@@]@@ ボタンを押してブラウザーをオンラインモードに切り替え、ページを再読み込みしてください。
 neterror-proxy-resolve-failure-settings = プロキシー設定が正しいか確認してください。
 neterror-proxy-resolve-failure-connection = コンピューターが有効なネットワークに接続されているか確認してください。
 neterror-proxy-resolve-failure-firewall = ファイアウォールやプロキシーでネットワークが保護されている場合、{ -brand-short-name } によるウェブアクセスが許可されているか確認してください。
@@ -147,7 +155,7 @@ neterror-inadequate-security-code = エラーコード: NS_ERROR_NET_INADEQUATE_
 # Variables:
 # $hostname (String) - Hostname of the website to which the user was trying to connect.
 # $now (Date) - The current datetime, to be formatted as a date
-neterror-clock-skew-error = あなたのコンピューターは現在の日時を { DATETIME($now, dateStyle: "medium") } だと誤解しており、{ -brand-short-name } の安全な接続を妨げる原因になります。<b>{ $hostname }</b> にアクセスして、コンピュータの現在の日付と時刻、タイムゾーンを正しいものに更新して、<b>{ $hostname }</b> を再読み込みしてください。
+neterror-clock-skew-error = あなたのコンピューターは現在の日時を { DATETIME($now, dateStyle: "medium") } だと誤解しており、{ -brand-short-name } の安全な接続を妨げる原因になります。<b>{ $hostname }</b> にアクセスするには、コンピューターの現在の日付と時刻、タイムゾーンを正しいものに更新して、<b>{ $hostname }</b> を再読み込みしてください。
 neterror-network-protocol-error-intro = 表示しようとしているページは、ネットワークプロトコルにエラーが検出されたため表示できません。
 neterror-network-protocol-error-contact-website = ウェブサイトの所有者に連絡を取り、この問題を報告してください。
 certerror-expired-cert-second-para = ウェブサイトの証明書が有効期限切れの可能性があるため、{ -brand-short-name } の安全な接続が妨げられています。このサイトを訪問すると、パスワードやメールアドレス、クレジットカードの詳細情報を攻撃者に盗み取られる恐れがあります。
@@ -201,9 +209,9 @@ fp-neterror-http-error-intro = <strong>{ $hostname }</strong> のサーバーが
 #   $hostname (String) - Hostname of the website to which the user was trying to connect.
 fp-neterror-invalid-header-value-intro = <strong>{ $hostname }</strong> がウェブセキュリティ標準で許可されていない空文字を含むヘッダーを返しました。
 fp-neterror-content-encoding-intro = 不正または不明な形式で圧縮されているため、ページを表示できません。
-fp-neterror-coop-coep-intro = { -brand-short-name } がこのページを読み込みを中止しました。セキュリティ設定が前のページと一致していないようです。
+fp-neterror-coop-coep-intro = { -brand-short-name } がこのページの読み込みを中止しました。セキュリティ設定が前のページと一致していないようです。
 fp-neterror-blocked-by-policy-intro = あなたの所属組織が、このページまたはウェブサイトへのアクセスをブロックしました。
-fp-neterror-http-auth-disabled-intro = 悪意のある何者かがサイトにあなたのユーザー名やパスワード、メールアドレスなどの個人情報を盗ませようとしています。
+fp-neterror-http-auth-disabled-intro = このサイトに偽装した何者かがユーザー名やパスワード、メールアドレスなどの個人情報を盗もうとする可能性があります。
 fp-neterror-http-auth-disabled-secure-connection = このサイトには安全な接続が必要です。訪問するために例外を追加することはできません。
 fp-neterror-why-did-this-happen = なぜこのようなことが起こったのか？
 # This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)

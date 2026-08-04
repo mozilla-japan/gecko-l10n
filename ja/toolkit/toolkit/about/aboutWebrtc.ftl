@@ -10,7 +10,7 @@
 about-webrtc-document-title = WebRTC 内部情報
 # "about:webrtc" is a internal browser URL and should not be
 # translated. This string is used as a title for a file save dialog box.
-about-webrtc-save-page-dialog-title = about:webrtc を@@SaveAs@@
+about-webrtc-save-page-dialog-title = about:webrtc に@@SaveAs@@
 
 ## These labels are for a disclosure which contains the information for closed PeerConnection sections
 
@@ -274,11 +274,11 @@ about-webrtc-trickle-caption-msg = Trickled 通信情報 (アンサー後の着�
 # This is used as a header for local SDP.
 # Variables:
 #  $timestamp (Number) - The Unix Epoch time at which the SDP was set.
-about-webrtc-sdp-set-at-timestamp-local = 時刻 { NUMBER($timestamp, useGrouping: "false") } に ローカル SDP を設定
+about-webrtc-sdp-set-at-timestamp-local = 時刻 { NUMBER($timestamp, useGrouping: "false") } にローカル SDP を設定
 # This is used as a header for remote SDP.
 # Variables:
 #  $timestamp (Number) - The Unix Epoch time at which the SDP was set.
-about-webrtc-sdp-set-at-timestamp-remote = 時刻 { NUMBER($timestamp, useGrouping: "false") } に リモート SDP を設定
+about-webrtc-sdp-set-at-timestamp-remote = 時刻 { NUMBER($timestamp, useGrouping: "false") } にリモート SDP を設定
 # This is used as a header for an SDP section contained in two columns allowing for side-by-side comparisons.
 # Variables:
 #  $timestamp (Number) - The Unix Epoch time at which the SDP was set.

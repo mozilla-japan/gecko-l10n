@@ -105,7 +105,7 @@ perftools-thread-renderer =
 perftools-thread-render-backend =
     .title = WebRender の RenderBackend スレッドです
 perftools-thread-timer =
-    .title = スレッド制御タイマー (setTimeout, setInterval, nsITimer) です
+    .title = タイマー (setTimeout, setInterval, nsITimer) を扱うスレッドです
 perftools-thread-style-thread =
     .title = 複数に分割されるスタイル計算のスレッドです
 pref-thread-stream-trans =
@@ -117,7 +117,7 @@ perftools-thread-img-decoder =
 perftools-thread-dns-resolver =
     .title = DNS の名前解決が行われるスレッドです
 perftools-thread-task-controller =
-    .title = タスクコントローラのスレッドプールにあるスレッドです
+    .title = TaskController のスレッドプールにあるスレッドです
 perftools-thread-jvm-gecko =
     .title = メイン Gecko JVM スレッドです
 perftools-thread-jvm-nimbus =
@@ -133,7 +133,7 @@ perftools-thread-jvm-pool =
 
 ##
 
-perftools-record-all-registered-threads = 上記で選択したスレッドを優先しつつ、登録済みスレッドをすべて記録する
+perftools-record-all-registered-threads = 上記で選択したスレッドを無視して、登録済みスレッドをすべて記録する
 perftools-tools-threads-input-label =
     .title = プロファイリングを有効にするスレッド名をカンマ区切りのリストで入力します。名前はスレッド名が含まれる部分一致である必要があります。空白を区別します。
 
