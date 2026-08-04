@@ -39,6 +39,14 @@ neterror-disable-native-feedback-warning = 常に続行する
 neterror-pref-reset = ネットワークセキュリティの設定がこの問題の原因になっている可能性があります。@@DefaultValue@@に戻しますか？
 neterror-error-reporting-automatic = エラーを報告すると、{ -vendor-short-name } が悪意のあるサイトを特定してブロックするのに役立てられます
 
+## Shown on about:neterror and about:certerror when the SSLKEYLOGFILE
+## environment variable is set, which causes { -brand-short-name } to log TLS
+## session keys that can be used to decrypt encrypted network traffic.
+
+neterror-sslkeylogging-warning =
+    .heading = 現在の接続はプライベートになりません
+    .message = アプリまたはサービスがこのサイトからユーザーの暗号化された通信を見られる可能性があります。
+
 ## Specific error messages
 
 neterror-generic-error = 何らかの理由により { -brand-short-name } はこのページを正常に読み込めませんでした。
