@@ -47,3 +47,6 @@ calendar-creation-network-authfail = 入力した認証情報が拒否されま�
 calendar-creation-network-certerror = この場所にカレンダーが見つかりませんでした。証明書に問題があります。
 calendar-creation-network-subscribe-single = 購読するカレンダーを選択してください。
 calendar-creation-network-subscribe-multiple = この場所では複数のカレンダー形式が利用できます。カレンダーの形式を選択し、購読するカレンダーにチェックを入れてください。
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = { $location } のパスワードを入力してください:
