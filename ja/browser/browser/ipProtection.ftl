@@ -29,7 +29,7 @@ ipprotection-feature-introduction-link-text-2 = 新たな <a data-l10n-name="lea
 # Used for callout for users who expressed interest in privacy in onboarding
 ipprotection-feature-introduction-title-privacy = プライバシーの別のレイヤーを追加
 ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } の組み込み VPN</a> はブラウジングの保護に役立ちます。いくつかの場所から選んで接続元のプライバシーを維持しましょう。
-ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name }’の組み込み VPN</a> はブラウジングの保護に役立ちます。複数の場所から選んで接続元のプライバシーを維持しましょう。
+ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } の組み込み VPN</a> はブラウジングの保護に役立ちます。複数の場所から選んで接続元のプライバシーを維持しましょう。
 ipprotection-feature-introduction-link-text-privacy-3 = ブラウジングの接続元を隠す場所を複数から選んで <a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> しましょう。
 ipprotection-feature-introduction-text-summer-promo-1 = 有効にしてブラウジングのプライバシー保護を維持しましょう。今から 8 月末まで、<a data-l10n-name="summer-promo-link">帯域制限なし</a> でさらに多くの接続場所を選べます。
 ipprotection-feature-introduction-title-summer-promo = 旅行の予定を立てるときはプライバシー保護も一緒に。
@@ -56,8 +56,32 @@ ipprotection-feature-introduction-button-get-started = はじめる
 
 ## Unlimited bandwidth summer promotion offramp callouts
 
+# Generic summer promo offramp message
+ipprotection-summer-promo-offramp-generic-title = 組み込み VPN の制限は 9 月 1 日にリセットされます
+# Variables
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+ipprotection-summer-promo-offramp-generic-description = プライバシー強化のため、最大 { $maxUsage } GB と 6 か所の接続先をご利用ください。ユーザーのブラウジングを追跡困難にします。
+# Generic summer promo offramp message for users who cannot upgrade to Mozilla VPN due to locale and already have Firefox as their default browser
+# Variables
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+ipprotection-summer-promo-offramp-generic-description-default-browser-users-no-upgrade = プライバシー強化のため、最大 { $maxUsage } GB と 20 か所以上の接続先をご利用ください。ユーザーのブラウジングを追跡困難にします。
+# Mozilla VPN subscriber summer promo offramp message
+# Message shown to current subscribers of Mozilla VPN
+# Refers to subscribers now receiving unlimited bandwidth and more locations in the Firefox built-in VPN
+ipprotection-summer-promo-offramp-subscriber-title = 組み込み VPN が改善されました
+ipprotection-summer-promo-offramp-subscriber-description = { -mozilla-vpn-brand-name } の購読者は無制限の帯域とさらに多くの接続先が利用できます。
+# Default browser incentive summer promo offramp message
+# "Make Firefox your go-to browser" refers to setting Firefox to default.
+# This appears in a promo message with a button labeled "Set to default"
+ipprotection-summer-promo-offramp-default-browser-incentive-title = 組み込み VPN の接続先が追加されます
+ipprotection-summer-promo-offramp-default-browser-incentive-description = { -brand-product-name } を普段使いのブラウザーにすると、8 月 31 日以降、20 か所以上の接続先が追加されます。
+# Mozilla VPN upsell summer promo offramp message
+# "Level up" refers to enhancing VPN functionality from the Firefox built-in VPN
+ipprotection-summer-promo-offramp-subscription-upsell-title = { -mozilla-vpn-brand-name } でレベルアップ
+ipprotection-summer-promo-offramp-subscription-upsell-description = 8 月 31 日以降、5 台までの端末でユーザーのブラウジングを追跡困難にする無制限の帯域と 300 か所以上の接続先が利用できます。
 # Summer promo offramp callout buttons
 ipprotection-summer-promo-offramp-open-vpn-primary-button = VPN を開く
+ipprotection-summer-promo-offramp-set-to-default-primary-button = @@Default@@に設定
 ipprotection-summer-promo-offramp-get-subscription-button = { -mozilla-vpn-brand-name } を入手
 ipprotection-summer-promo-offramp-dismiss-secondary-button = 閉じる
 
@@ -160,19 +184,21 @@ ipprotection-connection-status-network-error-title-1 = インターネット接�
 ipprotection-connection-status-network-error-description = インターネットに接続してから、VPN をオンにしてみてください。
 ipprotection-connection-status-blocked-error-title-1 = VPN の利用不可
     .aria-label = VPN の利用不可
-ipprotection-connection-status-blocked-error-description = この地域では VPN サービスの提供が法律により規制されています。<a data-l10n-name="learn-more-link">詳細情報</a>
+# "Where" refers to the user's location. It does not refer to apps or devices because the built-in VPN only protects a user's browsing in Firefox
+ipprotection-connection-status-blocked-error-description-1 = この地域では VPN サービスの提供が法律により規制されています。<a data-l10n-name="learn-more-link">詳細情報</a>
+ipprotection-connection-status-blocked-error-description = この地域では VPN サービスの提供が法律により妨げられています。<a data-l10n-name="learn-more-link">詳細情報</a>
 # Variables
 #   $usageLeft (string) - The amount of data a user has left in a month (in GB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 ipprotection-message-bandwidth-warning =
     .heading = VPN データの使用量が上限に近づいています
-    .message = 今月は { $maxUsage } GB 中、残り { $usageLeft } GB です。
+    .message = 今月は残り { $maxUsage } GB 中 { $usageLeft } GB です。
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in MB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 ipprotection-message-bandwidth-warning-mb =
     .heading = VPN データの使用量が上限に近づいています
-    .message = 今月は { $maxUsage } GB 中、残り { $usageLeft } MB です。
+    .message = 今月は残り { $maxUsage } GB 中 { $usageLeft } MB です。
 ipprotection-message-continuous-onboarding-intro = VPN をオンにしてあなたの現在位置を隠し、ブラウジングを暗号化します。
 ipprotection-message-continuous-onboarding-autostart = <a data-l10n-name="setting-link">VPN をオンに設定</a> すると、{ -brand-short-name } の起動時に追加の保護レイヤーが適用されます。
 ipprotection-message-continuous-onboarding-site-settings = VPN を利用するウェブサイトを { -brand-short-name } に記憶させましょう。これらはいつでも <a data-l10n-name="setting-link">設定</a> で変更できます。
@@ -227,7 +253,7 @@ ip-protection-autostart-checkbox =
 ip-protection-autostart-private-checkbox =
     .label = プライベート@@Window@@
 ip-protection-vpn-upgrade-link =
-    .label = { -mozilla-vpn-brand-name } で { -brand-short-name } 以外のアプリでも保護を得られます。
+    .label = { -mozilla-vpn-brand-name } で { -brand-short-name } 以外のアプリでも保護を得られます
     .description = カスタムの VPN 利用場所を選ぶだけで、自宅でも公衆 Wi-Fi でも、5 台までの端末のすべてのアプリの通信を保護します。
 ip-protection-vpn-upgrade-link-1 =
     .label = { -mozilla-vpn-brand-name } で先進の保護を入手
@@ -249,7 +275,7 @@ ip-protection-bandwidth-left-this-month-gb = 今月の残り { $maxUsage } GB �
 # Variables
 #   $usageLeft (string) - The amount of data a user has left in a month (in GB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
-ip-protection-bandwidth-left-gb-1 = 残り <span data-l10n-name="usage">{ $usageLeft } GB</span> / { $maxUsage } GB
+ip-protection-bandwidth-left-gb-1 = 残り { $maxUsage } GB 中 <span data-l10n-name="usage">{ $usageLeft } GB</span>
 # Variables
 #   $usageLeft (string) - The amount of data a user has left in a month (in GB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
@@ -262,7 +288,7 @@ ip-protection-bandwidth-left-this-month-mb = 今月の残り { $maxUsage } GB �
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in MB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
-ip-protection-bandwidth-left-mb-1 = 残り <span data-l10n-name="usage">{ $usageLeft } MB</span> / { $maxUsage } GB
+ip-protection-bandwidth-left-mb-1 = 残り { $maxUsage } GB 中 <span data-l10n-name="usage">{ $usageLeft } MB</span>
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in MB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
@@ -302,5 +328,5 @@ vpn-error-page-keep-browsing = このセッションのブラウジングを維�
 vpn-error-page-new-session = @@New-CMD@@セッションを開始する
 vpn-paused-alert-close-tabs-button = すべてのタブを閉じる
 vpn-paused-alert-continue-wo-vpn-button = VPN 無しで続ける
-vpn-error-alert-title = VPN は今すぐ動作しません。
+vpn-error-alert-title = VPN は現在動作していません。
 vpn-error-alert-body = 後でもう一度試してください。

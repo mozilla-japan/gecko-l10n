@@ -261,4 +261,5 @@ tbsrc | calendar, chat, mail     246e12e7 (2026-07-01)  mar          sync calend
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | devtools, dom, toolkit   2a93c407 (2026-07-30)  mar          sync devtools, dom, toolkit
+fxsrc | browser, devtools, ...   0d2a05c9 (2026-08-07)  mar          sync browser, devtools, toolkit
 

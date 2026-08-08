@@ -15,10 +15,13 @@ unified-extensions-discover-extensions =
     .label = 拡張機能を探す
 unified-extensions-empty-reason-private-browsing-not-allowed = 拡張機能はインストールされていますが、プライベート@@Window@@では無効になっています
 unified-extensions-empty-reason-extension-not-enabled = 拡張機能はインストールされていますが、無効になっています
+# In this headline, "go a long way", means that even a small number of extensions can have a big impact.
+unified-extensions-empty-reason-zero-extensions-onboarding2 = いくつかの拡張機能で大きな変化
 # In this headline, “Level up” means to enhance your browsing experience.
 unified-extensions-empty-reason-zero-extensions-onboarding = 拡張機能でブラウザーをレベルアップ
 unified-extensions-empty-content-explain-enable2 = @@[@@{ unified-extensions-manage-extensions.label }@@]@@ を選択し、設定で拡張機能を有効にしてください。
 unified-extensions-empty-content-explain-manage2 = @@[@@{ unified-extensions-manage-extensions.label }@@]@@ を選択し、設定で拡張機能を管理してください。
+unified-extensions-empty-content-explain-extensions-onboarding2 = 作業への集中やプライバシー向上に役立つおすすめの拡張機能をご用意しています。
 unified-extensions-empty-content-explain-extensions-onboarding = 見た目や動作を変更したり、プライバシーやセキュリティを強化したりして、{ -brand-short-name } をパーソナライズしませんか？
 
 ## An extension in the main list

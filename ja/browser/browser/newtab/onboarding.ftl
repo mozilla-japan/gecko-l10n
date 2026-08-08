@@ -127,7 +127,7 @@ mr2022-onboarding-live-language-text = { -brand-short-name } はあなたの言�
 mr2022-language-mismatch-subtitle = コミュニティのおかげで、{ -brand-short-name } は 90 を超える言語に翻訳されています。あなたのシステムは { $systemLanguage } を使っているようです。{ -brand-short-name } は { $appLanguage } を使っています。
 onboarding-live-language-button-label-downloading = { $negotiatedLanguage } の言語パックをダウンロード中...
 onboarding-live-language-waiting-button = 利用可能な言語を取得中...
-onboarding-live-language-installing = { $negotiatedLanguage } の言語パックをインストール...
+onboarding-live-language-installing = { $negotiatedLanguage } の言語パックをインストール中...
 mr2022-onboarding-live-language-switch-to = { $negotiatedLanguage } に切り替える
 mr2022-onboarding-live-language-continue-in = { $appLanguage } のままにする
 onboarding-live-language-secondary-cancel-download = キャンセル
@@ -155,7 +155,7 @@ fx100-thank-you-pin-primary-button-label =
 fx100-upgrade-thanks-header = 100 Thank You
 # Message shown with a start-browsing button. Emphasis <em> should be for "you"
 # but "Thank" can be used instead if there's no "you" in the translation.
-fx100-upgrade-thank-you-body = { -brand-short-name } の 100 番目のリリースです。より良い健全なインターネットの構築へのご協力に感謝します。
+fx100-upgrade-thank-you-body = { -brand-short-name } の 100 番目のリリースです。より良い健全なインターネットの構築へのご協力に<em>感謝</em>します。
 # Message shown with either a pin-to-taskbar or set-default button.
 fx100-upgrade-thanks-keep-body = 100 番目のリリースです！ 私たちのコミュニティへの参加に感謝します。次の 100 番目まで { -brand-short-name } を 1 クリックで使えるようにしましょう。
 mr2022-onboarding-secondary-skip-button-label = この手順をスキップ
@@ -165,7 +165,7 @@ mr2022-onboarding-secondary-skip-button-label = この手順をスキップ
 # Primary button string used on new user onboarding first screen showing multiple actions such as Set Default, Import from previous browser.
 mr2022-onboarding-easy-setup-primary-button-label = 保存して続ける
 # Set Default action checkbox label used on new user onboarding first screen
-mr2022-onboarding-easy-setup-set-default-checkbox-label = { -brand-short-name } を @@DefaultBrowser@@に設定する
+mr2022-onboarding-easy-setup-set-default-checkbox-label = { -brand-short-name } を@@DefaultBrowser@@に設定する
 # Import action checkbox label used on new user onboarding first screen
 mr2022-onboarding-easy-setup-import-checkbox-label = 以前のブラウザーから@@Import-suru@@
 
@@ -218,7 +218,7 @@ mr2022-onboarding-set-default-subtitle = 非営利のブラウザーを使いま
 
 # When translating "zip", please feel free to pick a verb that signifies movement and/or exploration
 # and makes sense in the context of navigating the web.
-mr2022-onboarding-get-started-primary-subtitle = この最新版はユーザー中心で設計されており、これまで以上に簡単にウェブを巡ることができます。 きっと気に入っていただける新機能が満載です。
+mr2022-onboarding-get-started-primary-subtitle = この最新版はユーザー中心で設計されており、これまで以上に簡単にウェブを巡ることができます。きっと気に入っていただける新機能が満載です。
 mr2022-onboarding-get-started-primary-button-label = 今すぐ設定する
 
 ## MR2022 Get Started screen strings.
@@ -352,7 +352,7 @@ onboarding-easy-setup-security-and-privacy-subtitle = 私たちの非営利組�
 onboarding-mobile-download-security-and-privacy-title = 端末を切り替える時も暗号化されます
 onboarding-mobile-download-security-and-privacy-subtitle = 同期した端末でも { -brand-short-name } があなたのパスワードやブックマークを暗号化して保護します。さらに開いているタブを他の端末で持ち歩くことができます。
 # Gratitude screen
-onboarding-gratitude-security-and-privacy-title = { -brand-short-name } はあなたの味方です
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } があなたを守ります
 onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation による { -brand-short-name } をご使用くださりありがとうございます。あなたのご支援によって、私たちはインターネットをすべての人々のために安全でアクセシブルなものにすることができます。
 # Sign up or Sign in screen
 onboarding-sign-up-title = 端末間でデータを同期する
@@ -431,7 +431,7 @@ onboarding-genai-sidebar-secondary-button = ブラウジングを始める
 
 onboarding-checklist-title = { -brand-short-name } のセットアップを完了してください
 onboarding-checklist-subtitle = これらのステップを完了して、ブラウジングを最大限快適にしましょう。
-onboarding-checklist-set-default = { -brand-short-name } を @@DefaultBrowser@@に設定する
+onboarding-checklist-set-default = { -brand-short-name } を@@DefaultBrowser@@に設定する
 onboarding-checklist-pin = { -brand-short-name } をタスクバーにピン留めする
 onboarding-checklist-import = 以前のブラウザーから@@Import-suru@@
 onboarding-checklist-extension = 拡張機能を追加する
@@ -563,7 +563,7 @@ restored-from-backup-error-primary-button = 閉じる
 ## A screen shown to users during the onboarding process that asks them two qualifying questions about their use of the browser
 
 onboarding-personalization-title = { -brand-short-name } をカスタマイズしましょう
-onboarding-personalization-subtitle = いくつかの質問にご回答ください。 { -brand-short-name } を使いこなす、おすすめの機能と拡張機能を紹介します。
+onboarding-personalization-subtitle = いくつかの質問にご回答ください。{ -brand-short-name } を使いこなす、おすすめの機能と拡張機能を紹介します。
 onboarding-personalization-use-case-title = { -brand-short-name } を何のために使いますか？
 onboarding-personalization-use-case-personal-option = 個人
 onboarding-personalization-use-case-school-option = 学校
@@ -578,8 +578,8 @@ onboarding-personalization-motivation-other-option = その他
 onboarding-refresh-pin-set-default-subtitle = 私たちはユーザーデータを保護し、クリックを盗み取る企業を自動的にブロックします。
 # "safe paws" is a play on "safe hands", meaning you're being well taken care of or protected
 # If it doesn’t translate well, you can use the alternative: “You’re safe with Firefox.”
-onboarding-refresh-pin-set-default-title = あなたは Firefox に守られています
-onboarding-refresh-import-subtitle = パスワードブックマーク、履歴などのデータを持ち歩けます。
+onboarding-refresh-pin-set-default-title = あなたは { -brand-short-name } に守られています
+onboarding-refresh-import-subtitle = パスワード、ブックマーク、履歴などのデータを持ち歩けます。
 onboarding-refresh-import-title = { -brand-short-name } をアットホームな環境にします
 onboarding-refresh-onboarding-addons-subtitle = 拡張機能は { -brand-short-name } をカスタマイズできる小さなアプリです。ユーザーのプライバシーをさらに保護したり、生産性を向上したり、{ -brand-short-name } の外観を変えたり、さらに多くのことができます。
 # "Give your browsing a boost" means to enhance or improve the browsing experience
@@ -588,7 +588,7 @@ onboarding-refresh-sync-subtitle = { -brand-short-name } にログインすれ�
 onboarding-refresh-sync-title = どこへでも、すべてのデータを同期して。
 onboarding-refresh-gratitude-subtitle = { -brand-short-name } をご使用いただきありがとうございます。非営利で支持された唯一のメジャーブラウザーです。あなたのご支援により、私たちはインターネットを安全ですべての人々がアクセスできるようにすることができます。
 # "has your back" is an idiom suggesting support and protection
-onboarding-refresh-gratitude-title = { -brand-short-name } へのご支援
+onboarding-refresh-gratitude-title = { -brand-short-name } があなたを守ります
 
 ## Smart window switcher callout
 
@@ -621,3 +621,9 @@ smartwindow-sidebar-auto-open-callout-accepted-title = アシスタントは閉�
 smartwindow-sidebar-auto-open-callout-accepted-subtitle = どのページでも尋ねることで開けます。いつでも <a data-l10n-name="settings">設定</a> から変更できます。
 smartwindow-sidebar-auto-open-callout-rejected-title = 了解
 smartwindow-sidebar-auto-open-callout-rejected-subtitle = 気が変わったら、いつでも <a data-l10n-name="settings">設定</a> から@@Default@@に設定してください。
+
+## Theme Picker screen strings
+
+onboarding-theme-picker-title = テーマを選択
+onboarding-theme-picker-subtitle = { -brand-short-name } にちょっとした彩りを加えます。
+onboarding-theme-picker-button-label = 保存して続ける

@@ -79,7 +79,7 @@ perftools-button-start-recording = 記録を開始
 perftools-button-capture-recording = 記録をキャプチャ
 perftools-button-cancel-recording = 記録をキャンセル
 perftools-button-save-settings = 設定を保存して戻る
-perftools-button-restart = 再開
+perftools-button-restart = 再起動
 perftools-button-add-directory = ディレクトリーを追加
 perftools-button-remove-directory = 選択したディレクトリーを削除
 perftools-button-edit-settings = 設定を編集...
@@ -105,7 +105,7 @@ perftools-thread-renderer =
 perftools-thread-render-backend =
     .title = WebRender の RenderBackend スレッドです
 perftools-thread-timer =
-    .title = タイマー (setTimeout, setInterval, nsITimer) を扱うスレッドです
+    .title = タイマー (setTimeout、setInterval、nsITimer) を扱うスレッドです
 perftools-thread-style-thread =
     .title = 複数に分割されるスタイル計算のスレッドです
 pref-thread-stream-trans =
@@ -133,7 +133,7 @@ perftools-thread-jvm-pool =
 
 ##
 
-perftools-record-all-registered-threads = 上記で選択したスレッドを無視して、登録済みスレッドをすべて記録する
+perftools-record-all-registered-threads = 上記の選択を無視して、登録済みスレッドをすべて記録する
 perftools-tools-threads-input-label =
     .title = プロファイリングを有効にするスレッド名をカンマ区切りのリストで入力します。名前はスレッド名が含まれる部分一致である必要があります。空白を区別します。
 
@@ -155,18 +155,18 @@ perftools-presets-web-developer-description = 一般的なウェブアプリを�
 perftools-presets-firefox-label = { -brand-shorter-name }
 perftools-presets-firefox-description = { -brand-shorter-name } のプロファイリングのための推奨プリセットです。
 perftools-presets-graphics-label = グラフィック
-perftools-presets-graphics-description = { -brand-shorter-name } のグラフィックバグを調査するための推奨プリセットです。
+perftools-presets-graphics-description = { -brand-shorter-name } のグラフィックバグを調査するためのプリセットです。
 perftools-presets-media-label = メディア
-perftools-presets-media-description2 = { -brand-shorter-name } の音声と動画のバグを調査するための推奨プリセットです。
+perftools-presets-media-description2 = { -brand-shorter-name } の音声と動画のバグを調査するためのプリセットです。
 perftools-presets-ml-label = 機械学習
-perftools-presets-ml-description2 = { -brand-shorter-name } の機械学習のバグを調査するための推奨プリセットです。
+perftools-presets-ml-description2 = { -brand-shorter-name } の機械学習のバグを調査するためのプリセットです。
 perftools-presets-networking-label = ネットワーク
-perftools-presets-networking-description = { -brand-shorter-name } のネットワークバグを調査するための推奨プリセットです。
+perftools-presets-networking-description = { -brand-shorter-name } のネットワークバグを調査するためのプリセットです。
 perftools-presets-networking-with-logs-label = ネットワーク (ログ記録あり)
 perftools-presets-networking-with-logs-description = { -brand-shorter-name } のネットワークバグをログを記録しながら調査するためのプリセットです。これらのログには訪れたサイトの URL などの機密情報が含まれる可能性があります。
 # "Power" is used in the sense of energy (electricity used by the computer).
 perftools-presets-power-label = 消費電力
-perftools-presets-power-description = { -brand-shorter-name } の消費電力のバグを少ないオーバーヘッドで調査するための推奨プリセットです。
+perftools-presets-power-description = { -brand-shorter-name } の消費電力のバグを少ないオーバーヘッドで調査するためのプリセットです。
 perftools-presets-debug-label = デバッグ
 perftools-presets-debug-description = { -brand-shorter-name } のデバッグ用プリセットです。オーバーヘッドが高いため、パフォーマンスが求められる作業を避け、ブラウザーの動作を調査する目的で使用してください。
 perftools-presets-web-compat-label = ウェブ互換性

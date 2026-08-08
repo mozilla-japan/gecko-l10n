@@ -180,7 +180,7 @@ translations-settings-close-dialog =
 # Text displayed in the right-click context menu for translating
 # selected text to a yet-to-be-determined language.
 main-context-menu-translate-selection =
-    .label = 翻訳先を選択...
+    .label = 選択範囲を翻訳...
     .accesskey = n
 # Text displayed in the right-click context menu for translating
 # selected text to a target language.

@@ -155,7 +155,7 @@ protections-panel-cookie-banner-blocker-view-title =
 # Variables
 #  $host (String): the hostname of the site that is being displayed.
 protections-panel-cookie-banner-blocker-view-turn-off-for-site = { $host } サイトの Cookie バナーブロッカーをオフにしますか？
-protections-panel-cookie-banner-blocker-view-turn-on-for-site = このサイトの Cookie バナーブロッカーをオフにしますか？
+protections-panel-cookie-banner-blocker-view-turn-on-for-site = このサイトの Cookie バナーブロッカーをオンにしますか？
 protections-panel-cookie-banner-view-cookie-clear-warning = { -brand-short-name } がこのサイトの Cookie を消去してページを更新します。すべての Cookie を消去するとサイトからログアウトしたり買い物カゴが空になったりする可能性があります。
 protections-panel-cookie-banner-view-turn-on-description = サポートされたサイトのすべての Cookie 同意確認に対して、{ -brand-short-name } が自動的に拒否を試みます。
 protections-panel-cookie-banner-view-cancel = キャンセル

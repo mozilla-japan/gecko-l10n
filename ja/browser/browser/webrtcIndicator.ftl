@@ -30,7 +30,7 @@ webrtc-sharing-menuitem-unknown-host = 出自不明
 webrtc-sharing-menuitem =
     .label = { $origin } ({ $itemList })
 webrtc-sharing-menu =
-    .label = 共有デバイスタブ
+    .label = デバイスを共有しているタブ
     .accesskey = d
 webrtc-sharing-window = 他の@@Application@@の@@Window@@を共有しています。
 webrtc-sharing-browser-window = { -brand-short-name } を共有しています。
@@ -84,29 +84,29 @@ webrtc-indicator-sharing-browser =
 webrtc-indicator-menuitem-control-sharing =
     .label = 共有の設定
 webrtc-indicator-menuitem-control-sharing-on =
-    .label = "{ $streamTitle }" の共有の設定
+    .label = “{ $streamTitle }” の共有の設定
 webrtc-indicator-menuitem-sharing-camera-with =
-    .label = "{ $streamTitle }" でカメラを共有中
+    .label = “{ $streamTitle }” でカメラを共有中
 webrtc-indicator-menuitem-sharing-camera-with-n-tabs =
     .label = { $tabCount } 個のタブでカメラを共有中
 webrtc-indicator-menuitem-sharing-microphone-with =
-    .label = "{ $streamTitle }" でマイクを共有中
+    .label = “{ $streamTitle }” でマイクを共有中
 webrtc-indicator-menuitem-sharing-microphone-with-n-tabs =
     .label = { $tabCount } 個のタブでマイクを共有中
 webrtc-indicator-menuitem-sharing-application-with =
-    .label = "{ $streamTitle }" でアプリケーションを共有中
+    .label = “{ $streamTitle }” でアプリケーションを共有中
 webrtc-indicator-menuitem-sharing-application-with-n-tabs =
     .label = { $tabCount } 個のタブでアプリケーションを共有中
 webrtc-indicator-menuitem-sharing-screen-with =
-    .label = "{ $streamTitle }" で画面を共有中
+    .label = “{ $streamTitle }” で画面を共有中
 webrtc-indicator-menuitem-sharing-screen-with-n-tabs =
     .label = { $tabCount } 個のタブで画面を共有中
 webrtc-indicator-menuitem-sharing-window-with =
-    .label = "{ $streamTitle }" で@@Window@@を共有中
+    .label = “{ $streamTitle }” で@@Window@@を共有中
 webrtc-indicator-menuitem-sharing-window-with-n-tabs =
     .label = { $tabCount } 個のタブで@@Window@@を共有中
 webrtc-indicator-menuitem-sharing-browser-with =
-    .label = "{ $streamTitle }" でタブを共有中
+    .label = “{ $streamTitle }” でタブを共有中
 # This message is shown when the contents of a tab is shared during a WebRTC
 # session, which currently is only possible with Loop/Hello.
 webrtc-indicator-menuitem-sharing-browser-with-n-tabs =
@@ -115,7 +115,7 @@ webrtc-indicator-menuitem-sharing-browser-with-n-tabs =
 ## Variables:
 ##   $origin (String): the website origin (e.g. www.mozilla.org).
 
-webrtc-allow-share-audio-capture = { $origin } にこのタブの音声の再生を許可しますか？
+webrtc-allow-share-audio-capture = { $origin } にこのタブの音声の取得を許可しますか？
 webrtc-allow-share-camera = { $origin } にカメラの使用を許可しますか？
 webrtc-allow-share-microphone = { $origin } にマイクの使用を許可しますか？
 webrtc-allow-share-screen = { $origin } にあなたの画面の表示を許可しますか？
@@ -123,13 +123,13 @@ webrtc-allow-share-screen = { $origin } にあなたの画面の表示を許可�
 # another audio output connection.
 webrtc-allow-share-speaker = { $origin } に他のスピーカーの使用を許可しますか？
 webrtc-allow-share-camera-and-microphone = { $origin } にカメラとマイクの使用を許可しますか？
-webrtc-allow-share-camera-and-audio-capture = { $origin } にカメラの使用と、このタブの音声の再生を許可しますか？
+webrtc-allow-share-camera-and-audio-capture = { $origin } にカメラの使用と、このタブの音声の取得を許可しますか？
 webrtc-allow-share-screen-and-microphone = { $origin } にマイクの使用とあなたの画面の表示を許可しますか？
-webrtc-allow-share-screen-and-audio-capture = { $origin } にこのタブの音声の再生と、あなたの画面の表示を許可しますか？
+webrtc-allow-share-screen-and-audio-capture = { $origin } にこのタブの音声の取得と、あなたの画面の表示を許可しますか？
 
 ## Special phrasing for sharing devices when the origin is a file url.
 
-webrtc-allow-share-audio-capture-with-file = このローカルファイルにこのタブの音声の再生を許可しますか？
+webrtc-allow-share-audio-capture-with-file = このローカルファイルにこのタブの音声の取得を許可しますか？
 webrtc-allow-share-camera-with-file = このローカルファイルにカメラの使用を許可しますか？
 webrtc-allow-share-microphone-with-file = このローカルファイルにマイクの使用を許可しますか？
 webrtc-allow-share-screen-with-file = このローカルファイルにあなたの画面の表示を許可しますか？
@@ -137,15 +137,15 @@ webrtc-allow-share-screen-with-file = このローカルファイルにあなた
 # another audio output connection.
 webrtc-allow-share-speaker-with-file = このローカルファイルに他のスピーカーの使用を許可しますか？
 webrtc-allow-share-camera-and-microphone-with-file = このローカルファイルにカメラとマイクの使用を許可しますか？
-webrtc-allow-share-camera-and-audio-capture-with-file = このローカルファイルにカメラの使用と、このタブの音声の再生を許可しますか？
+webrtc-allow-share-camera-and-audio-capture-with-file = このローカルファイルにカメラの使用と、このタブの音声の取得を許可しますか？
 webrtc-allow-share-screen-and-microphone-with-file = このローカルファイルにマイクの使用とあなたの画面の表示を許可しますか？
-webrtc-allow-share-screen-and-audio-capture-with-file = このローカルファイルにこのタブの音声の再生と、あなたの画面の表示を許可しますか？
+webrtc-allow-share-screen-and-audio-capture-with-file = このローカルファイルにこのタブの音声の取得と、あなたの画面の表示を許可しますか？
 
 ## Variables:
 ##   $origin (String): the first party origin.
 ##   $thirdParty (String): the third party origin.
 
-webrtc-allow-share-audio-capture-unsafe-delegation = { $origin } から { $thirdParty } にもこのタブの音声の再生を許可しますか？
+webrtc-allow-share-audio-capture-unsafe-delegation = { $origin } から { $thirdParty } にもこのタブの音声の取得を許可しますか？
 webrtc-allow-share-camera-unsafe-delegation = { $origin } から { $thirdParty } にもカメラの使用を許可しますか？
 webrtc-allow-share-microphone-unsafe-delegation = { $origin } から { $thirdParty } にもマイクの使用を許可しますか？
 webrtc-allow-share-screen-unsafe-delegation = { $origin } から { $thirdParty } にもあなたの画面の表示を許可しますか？
@@ -153,9 +153,9 @@ webrtc-allow-share-screen-unsafe-delegation = { $origin } から { $thirdParty }
 # another audio output connection.
 webrtc-allow-share-speaker-unsafe-delegation = { $origin } から { $thirdParty } にも他のスピーカーの使用を許可しますか？
 webrtc-allow-share-camera-and-microphone-unsafe-delegation = { $origin } から { $thirdParty } にもカメラとマイクの使用を許可しますか？
-webrtc-allow-share-camera-and-audio-capture-unsafe-delegation = { $origin } から { $thirdParty } にもカメラの使用と、このタブの音声の再生を許可しますか？
+webrtc-allow-share-camera-and-audio-capture-unsafe-delegation = { $origin } から { $thirdParty } にもカメラの使用と、このタブの音声の取得を許可しますか？
 webrtc-allow-share-screen-and-microphone-unsafe-delegation = { $origin } から { $thirdParty } にもマイクの使用とあなたの画面の表示を許可しますか？
-webrtc-allow-share-screen-and-audio-capture-unsafe-delegation = { $origin } から { $thirdParty } にもこのタブの音声の再生と、あなたの画面の表示を許可しますか？
+webrtc-allow-share-screen-and-audio-capture-unsafe-delegation = { $origin } から { $thirdParty } にもこのタブの音声の取得と、あなたの画面の表示を許可しますか？
 
 ##
 
@@ -196,5 +196,5 @@ webrtc-remember-allow-checkbox-microphone = すべてのマイクを記憶する
 webrtc-remember-allow-checkbox-camera-and-microphone = すべてのカメラとマイクを記憶する
 webrtc-mute-notifications-checkbox = 共有中はウェブサイトからの通知を無効にする
 webrtc-reason-for-no-permanent-allow-screen = { -brand-short-name } はあなたの画面への永続的なアクセスを許可できません。
-webrtc-reason-for-no-permanent-allow-audio = { -brand-short-name } は共有を明示的に許可されない限り、あなたのタブの音声への永続的なアクセスを許可できません。
+webrtc-reason-for-no-permanent-allow-audio = { -brand-short-name } は共有するタブを確認せずに、あなたのタブの音声への永続的なアクセスを許可できません。
 webrtc-reason-for-no-permanent-allow-insecure = このサイトへの接続は安全ではありません。ユーザー保護のため、{ -brand-short-name } は現在のセッションのみアクセスを許可します。

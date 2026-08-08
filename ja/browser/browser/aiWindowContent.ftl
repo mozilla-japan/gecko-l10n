@@ -18,7 +18,7 @@ smartwindow-assistant-error-account-header = { -smart-window-brand-name }を利�
 smartwindow-assistant-error-capacity-header = 現在、{ -smart-window-brand-name }の処理量の上限に達しています。後でもう一度試してください。
 smartwindow-assistant-error-budget-body = この@@Window@@で閲覧を続けることはできます。一日のチャット数制限がリセットされると、再びチャットが利用可能になります。
 smartwindow-assistant-error-many-requests-header = しばらくお待ちください。短時間に多くのメッセージが送信されたため、後でもう一度試してください。
-smartwindow-assistant-error-max-length-header = 一度に入力可能な文字数の上限達しています。チャットを新たに始めてください。
+smartwindow-assistant-error-max-length-header = 一度に入力可能な文字数の上限に達しています。チャットを新たに始めてください。
 smartwindow-assistant-error-request-blocked-header = { -smart-window-brand-name }がサーバーに到達できませんでした。別のネットワークで試すか VPN を無効にしてください。
 # Variables:
 #   $status (Number) - HTTP status code returned by the inference back-end
@@ -29,8 +29,8 @@ smartwindow-signin-btn = ログイン
 
 ## Assistant Message footer
 
-aiwindow-memories-used = AI メモリー使用中
-aiwindow-memories-callout-description = AI メモリーはこの応答のパーソナライズに役立ちます。
+aiwindow-memories-used = AI メモリーを使用
+aiwindow-memories-callout-description = この応答のパーソナライズに AI メモリーが使用されました。
 aiwindow-memories-learn-more = 詳細情報
 aiwindow-manage-memories =
     .label = AI メモリー設定
@@ -71,11 +71,11 @@ aiwindow-jump-to-bottom =
 
 smartwindow-nl-retry-tool-button =
     .label = 再試行
-smartwindow-nl-retry-message = タブを閉じたいときは、<strong>再試行</strong> をクリックし、開いているカードで選択してください。
-smartwindow-nl-retry-group-tabs-message = タブをグループ化したいときは、<strong>再試行</strong> をクリックし、開いているタブから選択してください。
+smartwindow-nl-retry-message = タブを閉じたいときは、<strong>再試行</strong> をクリックし、開いたカードから選択してください。
+smartwindow-nl-retry-group-tabs-message = タブをグループ化したいときは、<strong>再試行</strong> をクリックし、開いたカードから選択してください。
 smartwindow-nl-thinking = 一致するタブを探しています...
 smartwindow-loading-assistant-response =
-    .aria-label = アシスタントの応答を読みこんでいます
+    .aria-label = アシスタントの応答を読み込んでいます
 smartwindow-nl-undo-button =
     .label = @@Undo@@
 
@@ -93,17 +93,41 @@ smart-window-cancelled-label = 要求をキャンセルしました。
 smart-window-confirm-group-tab = グループ化
 # Button label - "Group" is a verb (action to group tabs)
 smart-window-confirm-group-tabs = { $count } 個のタブをグループ化
+# Button label - "Open" is a verb (action to open, then group, tabs)
+smart-window-confirm-open-tab = 開く
+# Button label - "Open" is a verb (action to open, then group, tabs)
+smart-window-confirm-open-tabs = { $count } 個のタブを開く
 # Action result labels for grouped tabs
 # Variables
 #   $count (number) - Number of tabs grouped
 smart-window-grouped-tabs-label = { $count } 個のタブをグループ化しました
+# Fallback name used in place of $label above when the model didn't provide
+# one for the tab group.
+smart-window-default-tab-group-label = タブグループ
 # Variables
 #   $count (number) - Number of tabs grouped
 #   $label (string) - The label of the tab group
 smart-window-grouped-tabs-summary = “{ $label }” タブグループを作成し、{ $count } 個のタブを追加しました。
 smart-window-grouped-tabs-row-label = グループ化したタブ
+# Action result labels for opened (and grouped) tabs
+# Variables
+#   $count (number) - Number of tabs opened
+smart-window-opened-tabs-label = { $count } 個のタブを開きました
+# Variables
+#   $count (number) - Number of tabs opened
+smart-window-opened-tabs-summary-single = { $count } 個のタブを開きました
+# Variables
+#   $count (number) - Number of tabs opened
+#   $label (string) - The label of the tab group
+smart-window-opened-tabs-summary-group = タブグループ “{ $label }” を作成して { $count } 個のタブを開きました
+smart-window-opened-tabs-row-label = 開いたタブ
+# Action result labels for switching to a single already-open tab
+smart-window-switched-tab-label = タブを切り替えました
+# Variables
+#   $title (String) - Title of the tab switched to
+smart-window-switched-tab-summary = “{ $title }” に切り替えました
 # Action result labels for ungrouped tabs
-smart-window-grouped-and-ungrouped-label = タブのグループを解除
+smart-window-grouped-and-ungrouped-label = タブのグループを解除しました
 # Variables
 #   $count (number) - Number of tabs ungrouped
 smart-window-ungroup-success-summary = { $count } 個のタブをグループ化し、グループを解除しました。
@@ -120,9 +144,14 @@ action-log-reading-page = ページを読んでいます
 action-log-read-page = ページのコンテンツを読みました
 action-log-searching-web = ウェブを検索しています
 action-log-searched-web = ウェブを検索しました
-# Exa is the name of a third-party web search API
-# It is a brand name and should not be translated
-action-log-searched-web-exa = Exa でウェブを検索しました
+# Exa is the name of a third-party web search API and a brand name that
+# should not be translated. The <a> wraps "Exa" as a link to a support
+# article explaining the third-party web search integration.
+action-log-searching-web-with-exa = <a data-l10n-name="exa-link">Exa</a> でウェブを検索しています
+# Exa is the name of a third-party web search API and a brand name that
+# should not be translated. The <a> wraps "Exa" as a link to a support
+# article explaining the third-party web search integration.
+action-log-searched-web-with-exa = <a data-l10n-name="exa-link">Exa</a> でウェブを検索しました
 action-log-checking-memories = AI メモリーを確認しています
 action-log-checked-memories = AI メモリーを確認しました
 action-log-searching-settings = 設定を検索しています
@@ -141,3 +170,10 @@ action-log-completed-steps = { $count } ステップ完了しました
 # current tab on the user’s behalf. Communicates both that the tab’s content
 # changed and that the assistant is reviewing the results before responding.
 smartwindow-search-loader-text = 検索結果をこのタブに読み込みました。解析しています...
+
+## Citations
+
+# Label for the button that reveals overflowing citation sources.
+# Variables:
+#   $count (Number) - Number of the additional hidden sources
+smartwindow-assistant-citations-more-label = +{ $count } 件

@@ -128,6 +128,15 @@ popups-infobar-dont-show-message2 =
 edit-popup-settings2 =
     .label = ポップアップおよびサードパーティによるリダイレクトの設定...
     .accesskey = M
+# Variables
+#   $count (number) - The number of blocked trackers on this page. Please leave the mention of blocked trackers out when there are none.
+urlbar-identity-button2 =
+    .aria-label =
+        { $count ->
+            [0] サイトの情報を表示
+            [1] サイトの情報を表示 (トラッカーを 1 個ブロック)
+           *[other] サイトの情報を表示 (トラッカーを { $count } 個ブロック)
+        }
 
 ##
 
@@ -215,6 +224,16 @@ urlbar-result-menu-manage-firefox-suggest2 = { -firefox-suggest-brand-name } を
 urlbar-result-menu-report-inaccurate-location2 = 位置情報の誤りを報告
 urlbar-result-menu-show-less-frequently2 = 表示頻度を減らす
 urlbar-result-menu-dont-show-weather-suggestions2 = 天気予報の提案を表示しない
+# Shown in the urlbar input field context menu to dismiss an adaptive autofill
+# suggestion.
+urlbar-input-dismiss-autofill =
+    .label = この提案を閉じる
+    .accesskey = i
+# Shown in the urlbar input field context menu to remove an adaptive autofill
+# URL from history.
+urlbar-input-remove-from-history =
+    .label = 履歴から削除
+    .accesskey = e
 urlbar-result-menu-learn-more =
     .label = 詳細情報
     .accesskey = L
@@ -583,6 +602,8 @@ identity-clear-site-data =
     .label = Cookie とサイトデータを消去...
 identity-connection-not-secure-security-view = このサイトとの接続は安全ではありません。
 identity-connection-verified = このサイトとの接続は安全です。
+identity-ev-owner-label2 = 証明書の発行先
+identity-verifier-label2 = 認証局
 identity-ev-owner-label = 証明書の発行先:
 identity-verifier-label = 認証局:
 # "qualified" here refers to the qualified website authentication certificate presented by the site.
@@ -602,6 +623,8 @@ identity-description-passive-loaded-insecure2 = このウェブサイトには�
 identity-description-passive-loaded-mixed2 = { -brand-short-name } が一部のコンテンツをブロックしていますが、ページ上には安全でないコンテンツ (画像など) が含まれています。
 identity-description-active-loaded = このウェブサイトには安全でないコンテンツ (スクリプトなど) が含まれており、サイトとの接続は秘密が保たれません。
 identity-description-active-loaded-insecure = このサイトと共有したあなたの情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。
+identity-description-tls-key-logging-heading = 現在の接続はプライベートになりません
+identity-description-tls-key-logging-message = アプリまたはサービスがこのサイトから暗号化された通信を読み取ることができます。
 identity-disable-mixed-content-blocking =
     .label = このセッションのみ保護を無効にする
     .accesskey = D
@@ -684,12 +707,12 @@ popup-all-windows-shared = 画面に表示されているすべての@@Window@@�
 
 ## WebRTC window or screen share tab switch warning
 
-sharing-warning-window = { -brand-short-name } を共有しています。@@NewTab@@ に切り替えると、他の人にも見えます。
-sharing-warning-screen = 全画面を共有しています。@@NewTab@@ に切り替えると、他の人にも見えます。
+sharing-warning-window = { -brand-short-name } を共有しています。@@NewTab@@に切り替えると、他の人にも見えます。
+sharing-warning-screen = 全画面を共有しています。@@NewTab@@に切り替えると、他の人にも見えます。
 sharing-warning-proceed-to-tab =
     .label = タブに移動
 sharing-warning-disable-for-session =
-    .label = このセッションでは共有保護を無効にする。
+    .label = このセッションでは共有保護を無効にする
 
 ## WebSerial "select a port" popup
 
@@ -878,7 +901,7 @@ urlbar-result-weather-title = <strong>{ $temperature }°{ $unit }</strong> { $re
 #   $region (String) - The name or abbreviation of one of the city's
 #       administrative divisions like a province or state.
 #   $country (String) - The name of the city's country.
-urlbar-result-weather-title-with-country = <strong>{ $temperature }°{ $unit }</strong> { $region } { $city }, { $country }
+urlbar-result-weather-title-with-country = <strong>{ $temperature }°{ $unit }</strong> { $region } { $city }、{ $country }
 # The title of a weather suggestion in the urlbar only including the city. The
 # temperature and unit substring should be inside a <strong> tag. If the
 # temperature and unit are not adjacent in the localization, it's OK to include
@@ -936,6 +959,13 @@ urlbar-result-explanation-bookmarked = { $date } にブックマーク済み
 # Variables:
 #   $date (string) - A localized relative date string
 urlbar-result-explanation-last-visited-relative-2 = 最終訪問日: { $date }
+# This explanation is used when the last-visited date is a small number of days,
+# weeks, or months in the past.
+# Variables:
+#   $date (string) - A localized relative date string like one of the following:
+#                    "6 days ago", "1 week ago", "4 weeks ago", "1 month ago",
+#                    "11 months ago"
+urlbar-result-explanation-last-visited-days-weeks-months-ago = 最終訪問日: { $date }
 # This explanation is used when the last-visited date is a small number of days
 # in the past.
 # Variables:
@@ -1069,6 +1099,14 @@ urlbar-searchmode-no-keyword2 =
     .title = キーワード検索が無効です
 urlbar-searchmode-dropmarker2 =
     .title = 検索エンジンを選択します
+urlbar-searchmode-bookmarks3 = ブックマーク
+    .accesskey = B
+urlbar-searchmode-tabs3 = タブ
+    .accesskey = T
+urlbar-searchmode-history3 = 履歴
+    .accesskey = H
+urlbar-searchmode-actions3 = アクション
+    .accesskey = A
 urlbar-searchmode-bookmarks2 = ブックマーク
 urlbar-searchmode-tabs2 = タブ
 urlbar-searchmode-history2 = 履歴
@@ -1088,6 +1126,10 @@ urlbar-searchmode-popup-one-off-header = 今回だけ使う検索エンジン:
 # Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
 # reset after submitting.
 urlbar-searchmode-popup-header = 検索エンジン:
+urlbar-searchmode-popup-search-settings = 検索設定
+    .accesskey = S
+urlbar-searchmode-popup-settings = 設定
+    .accesskey = S
 urlbar-searchmode-popup-search-settings-panelitem = 検索設定
 urlbar-searchmode-popup-settings-panelitem = 設定
 
@@ -1505,6 +1547,14 @@ private-browsing-indicator-label = プライベートブラウジング
 # Tooltip for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-tooltip =
     .tooltiptext = プライベートブラウジング
+# Tooltip for the private browsing indicator button that opens the info panel.
+private-browsing-indicator-button =
+    .tooltiptext = プライベートブラウジング情報
+# Title shown in the private browsing info panel.
+private-browsing-info-panel-title = 現在プライベート@@Window@@です
+# Body copy shown in the private browsing info panel. The learn-more link text
+# is embedded in the sentence.
+private-browsing-info-panel-description = これは、この端末の他のユーザーからブラウジングを隠すのに役立ちますが、オンラインの行動を隠すものではありません。<a data-l10n-name="learn-more">プライベートブラウジングによくある誤解</a> をお読みください。
 # Tooltip for the indicator shown in the window titlebar when content analysis is active.
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
@@ -1733,6 +1783,10 @@ trustpanel-blocker-header =
 # Keep this string as short as possible, this is displayed in the URL bar
 # use a synonym for "safe" or "private" if "secure" is too long.
 urlbar-trust-icon-notsecure-label = 安全でない
+# Keep this string as short as possible, this is displayed in the URL bar
+# Variables
+#  $count (number): the number of trackers blocked.
+urlbar-trust-icon-trackers-blocked-longform-label = { $count } 個のトラッカーをブロックしました
 
 ## Variables
 ##  $count (String): the number of trackers blocked.

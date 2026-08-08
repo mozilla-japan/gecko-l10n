@@ -97,9 +97,9 @@ bookmarks-toolbar-callout-2b-secondary-button-label = 隠す
 perplexity-callout-theme-1-title = 正しい答えが今すぐ必要？
 perplexity-callout-theme-2-title = 新しい検索方法の Perplexity を試す
 perplexity-callout-theme-1-subtitle-1 = Perplexity をお試しください。完全な答えとその根拠がほしいときは検索ボタンからこれを選んでください。
-perplexity-callout-theme-1-subtitle-2 = 質問すると、引用数の多い完全な答えを得られます。Perplexity を試すには、検索ボタンから選んでください。
+perplexity-callout-theme-1-subtitle-2 = 質問すると、出典が明示された完全な答えを得られます。Perplexity を試すには、検索ボタンから選んでください。
 perplexity-callout-theme-2-subtitle-1 = Perplexity に尋ねると、その根拠を含む完全な答えを得られます。
-perplexity-callout-theme-2-subtitle-2 = 質問すると、引用数の多い完全な答えを得られます。
+perplexity-callout-theme-2-subtitle-2 = 質問すると、出典が明示された完全な答えを得られます。
 perplexity-callout-primary-label = Perplexity に尋ねる
 perplexity-callout-secondary-label-1 = 閉じる
 perplexity-callout-secondary-label-2 = 了解
@@ -108,8 +108,8 @@ perplexity-callout-secondary-label-2 = 了解
 ## brand name and should not be translated or transliterated.
 
 start-page-callout-title = プライバシー優先の検索を試しませんか？
-start-page-callout-subtitle = スタートページをお試しください。これは最初からユーザーの検索をプライベートに維持するよう設計されています。
-start-page-callout-primary-label = スタートページを試す
+start-page-callout-subtitle = Startpage をお試しください。これは最初からユーザーの検索をプライベートに維持するよう設計されています。
+start-page-callout-primary-label = Startpage を試す
 start-page-callout-secondary-label = 閉じる
 
 ## Account Adoption Passwords callout strings
@@ -141,7 +141,7 @@ windows-10-eos-sync-urgency-title-2 = Windows 10 にさようなら？ 切り替
 windows-10-eos-sync-urgency-subtitle-2 = 普段 { -brand-short-name } を使用していなくても、同期することでブックマークとパスワードを安全に保管してアクセスできます。
 windows-10-eos-sync-new-device-title-1 = 次に使う端末でも、設定しなおす必要はありません。
 windows-10-eos-sync-new-device-subtitle-1 = 同期して { -brand-short-name } のブックマーク、パスワード、お気に入りの設定を持ち歩きましょう。
-windows-10-eos-sync-new-device-title-2 = 新しい端末に移行しますか？ 大切なものは何も失われません。
+windows-10-eos-sync-new-device-title-2 = 新しい端末に移行しますか？ 大切なものを失わないようにしましょう。
 windows-10-eos-sync-new-device-subtitle-2 = { -brand-short-name } をどの程度使用しているかに関わらず、ブックマークとパスワード、設定を同期して保護しましょう。
 windows-10-eos-sync-new-device-primary-label = 今すぐ同期
 windows-10-eos-sync-general-title-1 = あなたの { -brand-short-name } を保護します。

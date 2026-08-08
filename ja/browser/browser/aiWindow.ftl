@@ -26,9 +26,6 @@ smartwindow-document-title = @@NewTab@@
 
 ## Smart Window Toggle Button
 
-toolbar-button-ai-window-toggle =
-    .label = @@Window@@の形式
-    .tooltiptext = スマート@@Window@@とクラシック@@Window@@を切り替えます。
 ai-window-toggleview-switch-classic =
     .label = クラシック@@Window@@
     .value = クラシック@@Window@@
@@ -39,14 +36,17 @@ ai-window-toggleview-switch-ai =
     .label = { -smart-window-brand-name }
     .value = { -smart-window-brand-name }
 ai-window-toggleview-switch-ai-description =
-    .label = 閲覧内容を尋ねます
-    .value = 閲覧内容を尋ねます
+    .label = 閲覧しながら質問できます
+    .value = 閲覧しながら質問できます
 ai-window-toggleview-switch-private =
     .label = プライベート@@Window@@
 ai-window-toggleview-open-private =
     .label = @@New-CMD@@プライベート@@Window@@を開く
 ai-window-toggleview-status-label-active = { -smart-window-brand-name }
 ai-window-toggleview-status-label-inactive = クラシック@@Window@@
+toolbar-switcher-customizable-label =
+    .label = { -smart-window-brand-name }切り替え
+    .tooltiptext = スマート@@Window@@とクラシック@@Window@@を切り替えます。
 
 ## Input CTA
 
@@ -98,16 +98,30 @@ aiwindow-website-chip-remove-button =
 
 aiwindow-firstrun-title = { -smart-window-brand-name }へようこそ
 aiwindow-firstrun-model-title = どれを重視しますか？
+aiwindow-firstrun-model-title-v2 = 始めに AI モデルを選んでください
 aiwindow-firstrun-model-subtitle = AI モデルを選んで{ -smart-window-brand-name }を強化。いつでも切り替えられます。
+aiwindow-firstrun-model-subtitle-v2 = 各モデルは開いているタブの要約、比較、探索に役立ちます。いつでも切り替えられます。
 aiwindow-firstrun-model-fast-label = 高速
 aiwindow-firstrun-model-fast-body = すばやく答えます
+# $shortName (string) - The short name of the model version
+aiwindow-firstrun-model-fast-label-v2 = 高速: { $shortName }
+aiwindow-firstrun-model-fast-body-v2 = 移動中などすばやく回答が欲しい場合に最適です
 # $model (string) - The name of the AI model
 # $ownerName (string) - The name of the model owner/provider
+# $shortName (string) - The short name of the model version
 aiwindow-firstrun-model-chip-subtitle = { $ownerName } による AI モデル { $model }
 aiwindow-firstrun-model-allpurpose-label = 柔軟
 aiwindow-firstrun-model-allpurpose-body = 多くのニーズに適応します
+# $shortName (string) - The short name of the model version
+aiwindow-firstrun-model-flexible-label = 柔軟: { $shortName }
+aiwindow-firstrun-model-flexible-body = 様々なタスクに適応します
+# Recommended represents the chat brand and model we recommend for users. Only affects European users.
+aiwindow-firstrun-model-recommended = おすすめ
 aiwindow-firstrun-model-personal-label = 私的
 aiwindow-firstrun-model-personal-body = 最も適した回答を返します
+# $shortName (string) - The short name of the model version
+aiwindow-firstrun-model-personal-label-v2 = 私的: { $shortName }
+aiwindow-firstrun-model-personal-body-v2 = 言語を越えて私的な用途に役立ちます
 aiwindow-firstrun-button = はじめましょう
 aiwindow-firstrun-back-button = 戻る
 aiwindow-firstrun-next-button = 次へ
@@ -118,6 +132,7 @@ aiwindow-input-model-select-button-label-fast = 高速
 aiwindow-input-model-select-button-label-allpurpose = 柔軟
 aiwindow-input-model-select-button-label-personal = 私的
 aiwindow-input-model-select-button-label-custom = カスタム
+aiwindow-input-model-select-button-description-custom = 使用する LLM を指定します
 # Variables:
 # $ownerName (string) - The name of the model owner/provider
 # $model (string) - The model name
@@ -130,8 +145,8 @@ aiwindow-input-model-select-settings-link = AI モデルの設定
 
 ## Firstrun memories onboarding
 
-aiwindow-firstrun-memories-title = あなたの言葉を学習して回答に役立てます
-aiwindow-firstrun-memories-subtitle = { -smart-window-brand-name }はチャットから学習し、AI メモリーを作成するので、使い続けるほど役立つ回答が得られます。
+aiwindow-firstrun-memories-title = あなたの指示に適応して回答します
+aiwindow-firstrun-memories-subtitle = { -smart-window-brand-name }はチャット、ブラウジングまたはその両方から学習して AI メモリーを作成するので、使い続けるほど役立つ回答が得られます。
 aiwindow-firstrun-memories-conversation-title = 会話を続けましょう
 aiwindow-firstrun-memories-conversation-body = チャットから学習することによって、同じ質問を繰り返すことが減ります。
 aiwindow-firstrun-memories-relevance-title = 相応しい回答を得られます
@@ -156,6 +171,12 @@ aiwindow-firstrun-default-checkbox-description = いつでも設定で切り替�
 smartwindow-ask-button =
     .label = 尋ねる
 
+## Group My Tabs Toolbar Button
+
+smartwindow-group-tabs-button =
+    .label = タブをグループ化
+    .tooltiptext = タブをグループ化します
+
 ## Memories toggle button
 
 aiwindow-memories-on =
@@ -176,6 +197,35 @@ aiwindow-new-chat =
 aiwindow-close-sidebar =
     .tooltiptext = 閉じる
     .aria-label = 閉じる
+
+## Chat History Menu
+## The menu opened from the "..." button next to the new chat button. Its main
+## view links to the chat history subview and Smart Window settings; the chat
+## history subview lists recent chats and a shortcut to all chats.
+
+aiwindow-history-menu =
+    .tooltiptext = 他のオプション
+    .aria-label = 他のオプション
+aiwindow-history-menu-chat-history = チャット履歴
+aiwindow-history-menu-back =
+    .tooltiptext = 戻る
+    .aria-label = 戻る
+aiwindow-history-menu-view-all-chats = すべてのチャットを表示
+aiwindow-history-menu-settings = { -smart-window-brand-name }の設定
+
+## Fullpage top actions
+## Labeled buttons shown at the top of the fullpage Smart Window.
+
+aiwindow-fullpage-new-chat =
+    .label = @@New-CMD@@チャット
+aiwindow-fullpage-chat-history =
+    .label = チャット履歴
+# "More" is the label for a button that opens a menu of additional Smart Window
+# options (currently Smart Window settings) — i.e. "more actions/options", not
+# more content or more chat history.
+aiwindow-fullpage-more =
+    .label = その他のオプション
+    .title = その他のオプション
 
 ## Sign out dialog
 
@@ -255,7 +305,7 @@ smart-window-close-confirm =
 smart-window-confirm-close-tab = 閉じる
 # Variables
 #   $count (number) - Number of tabs to close
-smart-window-confirm-close-tabs = { $count } 個のタブを閉じます
+smart-window-confirm-close-tabs = { $count } 個のタブを閉じる
 
 ## Natural Language action callouts
 
@@ -300,3 +350,19 @@ aiwindow-ai-chat-grid-list-view =
 aiwindow-ai-chat-grid-grid-view =
     .aria-label = モード切り替え: グリッドビュー
     .tooltiptext = グリッドビュー
+
+## Smart Window new-tab conversation starters
+## These are short suggested user queries used to prompt the AI assistant when clicked on.
+## They then become the first message in the conversation.
+## When localizing, please write them as short instructions a user would give to an assistant.
+## They should also be concise and direct, but not at the expense of losing meaning.
+
+aiwindow-starter-writing-first-draft = Write a first draft in Japanese language
+aiwindow-starter-writing-improve = Improve writing in right context
+aiwindow-starter-writing-proofread = Proofread a message
+aiwindow-starter-planning-simplify = Simplify a topic in Japanese language
+aiwindow-starter-planning-brainstorm = Brainstorm ideas
+aiwindow-starter-planning-plan = Help make a plan
+aiwindow-starter-browsing-history = Find tabs in history
+aiwindow-starter-browsing-summarize = Summarize tabs
+aiwindow-starter-browsing-compare = Compare tabs

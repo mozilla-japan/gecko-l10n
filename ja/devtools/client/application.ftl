@@ -63,7 +63,7 @@ manifest-empty-intro-link = マニフェストに追加する方法
 # Header for the Errors and Warnings section of Manifest inspection displayed in the application panel.
 manifest-item-warnings = エラーと警告
 # Header for the Identity section of Manifest inspection displayed in the application panel.
-manifest-item-identity = 識別子
+manifest-item-identity = 識別情報
 # Header for the Presentation section of Manifest inspection displayed in the application panel.
 manifest-item-presentation = 表示
 # Header for the Icon section of Manifest inspection displayed in the application panel.

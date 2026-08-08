@@ -8,9 +8,9 @@ menu-view-contextual-password-manager =
     .label = パスワード
 # Label for the Open Tabs entry in the View > Sidebars menu bar menu.
 # "Open Tabs" is a noun phrase referring to the tabs currently open in
-# the browser, not an instruction to open tabs.
+# the browser, not an instruction to open tabs.sidebar-menu-open-tabs-label
 menu-view-open-tabs =
-    .label = タブを開く
+    .label = 開いているタブ
 sidebar-options-menu-button =
     .title = メニューを開く
 # Accessible label for the splitter used to resize the sidebar.
@@ -72,6 +72,8 @@ sidebar-settings =
     .label = サイドバー設定
 sidebar-hide-tabs-and-sidebar =
     .label = タブとサイドバーを隠す
+sidebar-open-tools-from-sidebar =
+    .label = サイドバーからツールを開く
 sidebar-show-on-the-right =
     .label = サイドバーを右側へ移動
 sidebar-show-on-the-left =
@@ -140,6 +142,26 @@ sidebar-bookmarks-context-menu-delete-bookmark =
 sidebar-bookmarks-context-menu-delete-separator =
     .label = 削除
 
+## Labels for sidebar open tabs context menu items
+
+# Label for the context menu item that closes the tab the user
+# right-clicked in the Open Tabs sidebar panel.
+sidebar-opentabs-context-close-tab =
+    .label = タブを閉じる
+
+## Labels for the open tabs panel options menu
+
+# Heading in the Open Tabs panel options menu for the group of
+# tab sorting options, which appear directly beneath this heading.
+sidebar-opentabs-sort-by-heading =
+    .label = 並べ替え
+# Sort option that lists tabs in the order they appear on the tab strip.
+sidebar-opentabs-sort-option-order =
+    .label = タブの並び順
+# Sort option that lists tabs by most recent activity, newest first.
+sidebar-opentabs-sort-option-recency =
+    .label = 最近アクティブ
+
 ## Labels for sidebar menu items.
 
 sidebar-menu-genai-chat-label =
@@ -152,7 +174,7 @@ sidebar-menu-synced-tabs-label =
 # menu. "Open tabs" is a noun phrase referring to the tabs currently open
 # in the browser, not an instruction to open tabs.
 sidebar-menu-open-tabs-label =
-    .label = タブを開く
+    .label = 開いているタブ
 sidebar-menu-bookmarks-label =
     .label = ブックマーク
 sidebar-menu-customize-label =
@@ -202,7 +224,7 @@ sidebar-menu-syncedtabs-header =
 # Heading shown at the top of the Open Tabs sidebar panel. "Open tabs"
 # refers to the tabs currently open in the browser.
 sidebar-menu-open-tabs-header =
-    .heading = タブを開く
+    .heading = 開いているタブ
 sidebar-menu-cpm-header =
     .heading = パスワード
 sidebar-menu-bookmarks-header =
@@ -224,7 +246,7 @@ sidebar-history-title = 履歴
 sidebar-syncedtabs-title = 他の端末からのタブ
 # Title of the Open Tabs sidebar panel. "Open tabs" refers to the tabs
 # currently open in the browser.
-sidebar-opentabs-title = タブを開く
+sidebar-opentabs-title = 開いているタブ
 # Title attribute for the pinned tabs section in the Open Tabs sidebar
 # panel.
 sidebar-opentabs-pinned-tabs =

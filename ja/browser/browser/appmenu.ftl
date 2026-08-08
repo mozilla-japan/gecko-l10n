@@ -15,10 +15,8 @@ appmenuitem-banner-update-unsupported =
     .label = 更新不可 — システムの互換性なし
 appmenuitem-banner-update-restart =
     .label = 更新可能 — 今すぐ再起動
-# Fresh Firefox refers to the new updated UI
-appmenu-nova-update-promo =
-    .message = すべてのタブはそのままで { -brand-short-name } をリフレッシュ。
-appmenu-nova-update-link = 再起動して更新
+appmenu-nova-update-title = 再起動して { -brand-short-name } を更新
+appmenu-nova-update-description = 現在のタブは再び開きます。
 appmenu-nova-fxa-sign-in = ログイン
 appmenu-nova-switch-device-promo =
     .message = 新しい端末を入手予定ですか？ { -brand-short-name } もご一緒に。
@@ -51,8 +49,15 @@ appmenuitem-translate =
     .label = ページを翻訳...
 appmenuitem-zoom =
     .value = ズーム
+# This menu item opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+appmenuitem-referrals =
+    .label = { -brand-product-name } を宣伝
 appmenuitem-more-tools =
     .label = その他のツール
+# Menu combining the previous "Help" menu and report broken site
+appmenuitem-help-and-report =
+    .label = ヘルプと報告
 appmenuitem-help =
     .label = ヘルプ
 appmenuitem-exit2 =
@@ -102,11 +107,45 @@ appmenu-remote-tabs-opensettings =
 appmenu-remote-tabs-noclients = 他の端末のタブを表示しますか？
 appmenu-remote-tabs-connectdevice =
     .label = 他の端末を接続
-appmenu-remote-tabs-welcome = 他の端末のタブ一覧を表示する。
-appmenu-remote-tabs-unverified = あなたのアカウントは検証する必要があります。
+appmenu-remote-tabs-welcome = 他の端末のタブ一覧を表示します。
+appmenu-remote-tabs-unverified = あなたのアカウントを検証する必要があります。
 appmenuitem-fxa-toolbar-sync-now2 = 今すぐ同期
 appmenuitem-fxa-sign-in = { -brand-product-name } にログイン
 appmenuitem-fxa-manage-account = アカウントを管理
+fxa-menu-sync-status-on = 同期はオンです
+fxa-menu-sync-status-off = 同期はオフです
+# Shown as a secondary label under "Sync is Off" when the user is signed in but
+# sync is turned off.
+fxa-menu-sync-off-data-description = データを同期していません
+# Button shown next to "Sync is Off" when the user is signed in but sync is
+# turned off. Turns syncing on by opening sync preferences.
+fxa-menu-sync-status-turn-on-button =
+    .label = オンにする
+# Shown as a secondary label under "Sync is Off" when the user needs to sign in
+# (again) for sync to work.
+fxa-menu-sync-off-signin-description = ログインして同期してください
+# Sync is a verb, short for synchronize.
+# Variables:
+#   $deviceName (String): The name of the local device.
+fxa-menu-sync-device-now = 今すぐ { $deviceName } と同期
+fxa-menu-manage-sync-settings =
+    .label = 同期設定を管理
+fxa-menu-add-device =
+    .label = 端末を追加
+fxa-menu-manage-devices =
+    .label = 端末を管理
+fxa-menu-device-missing =
+    .label = 端末が表示されませんか？
+# Mozilla account menu item when selected opens a panel with all devices synced to the user's account
+fxa-menu-all-devices =
+    .label = すべての端末
+# Mozilla account panel title which shows all devices synced to a user's account
+fxa-menu-all-devices-panel =
+    .title = すべての端末
+fxa-menu-get-firefox-mobile =
+    .label = Android 版または iOS 版 { -brand-product-name } を入手
+fxa-menu-secure-sync-subpanel =
+    .title = 安全に同期
 appmenu-fxa-header2 = { -fxaccount-brand-name }
 appmenu-account-header = アカウント
 # Variables
@@ -116,6 +155,12 @@ appmenu-fxa-last-sync = 最終同期: { $time }
     .label = 最終同期: { $time }
 appmenu-fxa-sync-and-save-data2 = 同期してデータを保存
 appmenu-fxa-signed-in-label = ログイン
+# Sign-in promo shown in the app menu when signed out and no menu message or
+# update banner is present, prompting the user to sign in and sync.
+appmenu-fxa-sign-in-promo-heading = ログインして同期
+appmenu-fxa-sign-in-promo-message = データを持ち歩けます
+appmenu-fxa-sign-in-promo-button =
+    .label = ログイン
 appmenu-fxa-setup-sync =
     .label = 同期をオンにする...
 appmenu-fxa-setup-sync-new = オンにする
@@ -227,7 +272,7 @@ profiler-popup-presets-web-compat-label =
 profiler-popup-presets-custom-label =
     .label = カスタム
 
-## History panel
+##
 
 appmenu-manage-history =
     .label = 履歴を管理
@@ -244,6 +289,27 @@ appmenu-recently-closed-windows =
 appmenu-search-history =
     .label = 履歴を検索
 
+## Sync promo shown at the bottom of the History and Bookmarks panels. Its
+## variant depends on the user's account and Sync state. The sign-in heading and
+## all three call-to-action labels are shared by both panels; the remaining
+## headings are specific to the panel they appear in.
+
+appmenu-sync-promo-signin =
+    .heading = 端末間でデータを同期できます
+appmenu-sync-promo-signin-cta = ログイン
+appmenu-sync-promo-turnonsync =
+    .heading = タブと履歴を同期します
+appmenu-sync-promo-turnonsync-cta = 同期をオンにする
+# This refers to getting tabs from your mobile device via sync
+appmenu-sync-promo-connectdevice =
+    .heading = モバイル端末のタブを取り出せます
+appmenu-sync-promo-connectdevice-cta = 端末を接続
+appmenu-bookmarks-sync-promo-turnonsync =
+    .heading = ブックマークを持ち歩けます
+# This refers to having your bookmarks available on your mobile device via sync
+appmenu-bookmarks-sync-promo-connectdevice =
+    .heading = ブックマークを持って出かけましょう
+
 ## Help panel
 
 appmenu-help-header =
@@ -251,6 +317,11 @@ appmenu-help-header =
 appmenu-about =
     .label = { -brand-shorter-name } について
     .accesskey = A
+# This menu item opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+appmenu-referrals =
+    .label = { -brand-shorter-name } を宣伝
+    .accesskey = r
 appmenu-get-help =
     .label = ヘルプを表示
     .accesskey = h
@@ -264,6 +335,9 @@ appmenu-help-share-ideas =
     .accesskey = S
 appmenu-help-switch-device =
     .label = @@New-CMD@@端末に切り替え
+# Menu header for combination of "Help" menu and report broken site
+appmenu-help-and-report-header =
+    .title = ヘルプと報告
 
 ## appmenu-help-enter-troubleshoot-mode and appmenu-help-exit-troubleshoot-mode
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
@@ -304,15 +378,22 @@ appmenuitem-report-broken-site =
 appmenuitem-sign-in-account = アカウントにログイン
 appmenuitem-monitor-title2 = 個人情報の盗難に備えましょう
 appmenuitem-monitor-description2 = データ漏洩についての警告を受け取ります
+# Shown in place of appmenuitem-monitor-title2 when the user has signed up for Monitor.
+appmenuitem-monitor-title-signed-in = { -monitor-brand-short-name } データ漏洩警告
 appmenuitem-monitor-title = { -monitor-brand-short-name }
 appmenuitem-monitor-description = データ漏洩の警告を受け取ります
 appmenuitem-relay-title = { -relay-brand-short-name }
 appmenuitem-relay-title2 = メールアドレスをプライベートに
 appmenuitem-relay-description2 = 受信トレイをスパムから守ります
+# Shown in place of appmenuitem-relay-title2 when the user has signed up for Relay.
+appmenuitem-relay-title-signed-in = メールマスクを表示
 appmenuitem-relay-description = 実際のメールアドレスと電話番号を隠します
 appmenuitem-services-relay-description = メールマスクダッシュボードを起動します
 appmenuitem-vpn-title2 = { -mozilla-vpn-brand-name } で位置情報を隠す
-appmenuitem-vpn-description3 = ウェブブラウジングが追跡できないようにします
+appmenuitem-vpn-description4 = アプリと端末の追加の保護を入手
+# Shown in place of appmenuitem-vpn-title2 when the user has signed up for VPN.
+appmenuitem-vpn-title-signed-in = { -mozilla-vpn-brand-name } を開く
+appmenuitem-vpn-description3 = ウェブブラウジングが追跡されにくくなります
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description-2 = 端末全体を保護しましょう
 appmenuitem-vpn-description = ユーザーのオンラインプライバシーを保護します
@@ -343,9 +424,36 @@ appmenu-edit-profile =
 appmenu-edit-this-profile =
     .label = このプロファイルを編集
 appmenu-profile-current-in-use = 使用中の現在のプロファイル
+fxa-menu-create-profile-subpanel =
+    .title = @@New-CMD@@プロファイルを作成
+fxa-menu-create-profile-heading = @@New-CMD@@プロファイルでブラウジングをレベルアップ
+fxa-menu-create-profile-description = ブックマーク、パスワード、履歴を仕事用と個人用のブラウジングで分けられます。
+fxa-menu-create-profile-confirm =
+    .label = @@New-CMD@@プロファイルの作成
+fxa-menu-create-profile-learn-more =
+    .label = プロファイルとは何ですか？
+# Button in the account menu that links to the Referrals page
+appmenuitem-share-firefox-title = { -brand-short-name } を宣伝
+appmenuitem-share-firefox-description = プライバシー優先のブラウザーを選んでもらえるように宣伝してください
 appmenu-profiles-2 =
     .label = プロファイル
 appmenu-profiles-header = プロファイル
 appmenu-all-profiles =
     .label = すべてのプロファイル
 appmenu-secure-sync-header = 安全に同期
+# Panel shown when clicking a synced device in the Mozilla account menu.
+# The .title attribute sets the panel header text.
+fxa-menu-device-recent-tabs-panel =
+    .title = 最近使用したタブ
+# Button at the bottom of the per-device recent tabs subpanel.
+# Variables:
+#   $tabCount (Number): Total number of synced tabs on the device.
+fxa-menu-device-view-all-synced-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } 個の同期したタブを表示
+           *[other] 全 { $tabCount } 個の同期したタブを表示
+        }
+# Button in the recent tabs sub-panel that sends the current page to the synced device.
+fxa-menu-device-send-current-page =
+    .label = 現在のページをこの端末に送信する

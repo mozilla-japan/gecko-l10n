@@ -4,7 +4,7 @@
 
 preferences-ai-controls-block-confirmation-smart-window = { -smart-window-brand-name }
 smart-window-block-title = { -smart-window-brand-name } をブロックしますか？
-smart-window-block-description-both = これは { -smart-window-brand-name } のチャットとを削除します。
+smart-window-block-description-both = これは { -smart-window-brand-name } のチャットと AI メモリーを削除します。
 smart-window-block-description-chats = これは { -smart-window-brand-name } のチャットを削除します。
 smart-window-block-description-memories = これは { -smart-window-brand-name } の AI メモリーを削除します。
 ai-window-features-group =
@@ -34,12 +34,13 @@ smart-window-model-section =
     .description = 利用に際して重点を置きたいことをベースにしたモデルを選んでください。
 smart-window-model-learn-link = モデルについての詳細情報
 
-## Variables:
+## Full name indicates the full version name of the model currently listed along with its publisher
+##   $shortName (string) - The display name of the model collection
 ##   $model (string) - The name of the AI model
 ##   $ownerName (String) - The name of owner of the AI model
 
 smart-window-model-fast =
-    .label = 高速: 素早く回答します
+    .label = 高速: すばやく回答します
     .description = { $model } ({ $ownerName } によるモデル)
 smart-window-model-flexible =
     .label = 柔軟: 多くのニーズに合致します
@@ -94,3 +95,18 @@ ai-window-delete-all-memories-cancel = キャンセル
 ai-window-memory-delete-button =
     .title = AI メモリーを削除
     .aria-label = 「{ $label }」を削除
+
+## Full name indicates the full version name of the model currently listed along with its publisher
+##   $shortName (string) - The display name of the model collection
+##   $model (string) - The name of the AI model
+##   $ownerName (String) - The name of owner of the AI model
+
+smart-window-model-fast-v2 =
+    .label = { $shortName }: 高速
+    .description = すばやく回答を求めたいときに最適です。モデル名称: { $model } by { $ownerName }
+smart-window-model-flexible-v2 =
+    .label = { $shortName }: 柔軟
+    .description = 様々なタスクに適応します。モデル名称: { $model } by { $ownerName }
+smart-window-model-personal-v2 =
+    .label = { $shortName }: 私的
+    .description = 言語を越えて私的な用途に役立ちます。モデル名称: { $model } by { $ownerName }

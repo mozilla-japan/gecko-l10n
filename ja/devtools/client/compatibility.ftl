@@ -6,7 +6,7 @@
 ## Messages used as headers in the main pane
 
 compatibility-selected-element-header = 選択した要素
-compatibility-all-elements-header = すべての要素
+compatibility-all-elements-header = すべての問題
 
 ## Message used as labels for the type of issue
 
@@ -34,7 +34,7 @@ compatibility-target-browsers-header = 対象ブラウザー
 # Text used as the label for the number of nodes where the issue occurred
 # Variables:
 #   $number (Number) - The number of nodes where the issue occurred
-compatibility-issue-occurrences = { $number } 件の非互換
+compatibility-issue-occurrences = 非互換 { $number } か所
 compatibility-no-issues-found = 互換性に問題はありません。
 compatibility-close-settings-button =
     .title = 設定を閉じる

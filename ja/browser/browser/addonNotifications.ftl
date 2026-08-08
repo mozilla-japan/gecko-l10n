@@ -8,12 +8,12 @@ xpinstall-prompt = このサイトからは { -brand-short-name } にソフト�
 ##   $host (String): The hostname of the site the add-on is being installed from.
 
 xpinstall-prompt-header = { $host } にアドオンのインストールを許可しますか？
-xpinstall-prompt-message = { $host } からアドオンをインストールしようとしています。続行するには、このサイトを許可サイトに設定する必要があります。
+xpinstall-prompt-message = { $host } からアドオンをインストールしようとしています。続行する前に、このサイトが信頼できることを確認してください。
 
 ##
 
 xpinstall-prompt-header-unknown = 不明なサイトにアドオンのインストールを許可しますか？
-xpinstall-prompt-message-unknown = 不明なサイトからアドオンをインストールしようとしています。続行するには、このサイトを許可サイトに設定する必要があります。
+xpinstall-prompt-message-unknown = 不明なサイトからアドオンをインストールしようとしています。続行する前に、このサイトが信頼できることを確認してください。
 xpinstall-prompt-dont-allow =
     .label = 許可しない
     .accesskey = D
@@ -71,7 +71,7 @@ webext-perms-update-menu-item = { $addonName } が新たな権限を必要とし
 # This message is shown when one or more extensions have been imported from a
 # different browser into Firefox, and the user needs to complete the import to
 # start these extensions. This message is shown in the appmenu.
-webext-imported-addons = { -brand-short-name } に@@Import-sare@@た拡張機能のインストールを完了しています
+webext-imported-addons = { -brand-short-name } に@@Import-sare@@た拡張機能のインストールを完了してください
 
 ## Add-on removal warning
 

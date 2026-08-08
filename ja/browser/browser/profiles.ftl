@@ -42,6 +42,8 @@ edit-profile-page-avatar-header-2 =
     .label = アバター
 edit-profile-page-delete-button =
     .label = 削除
+edit-profile-page-avatar-selector-opener-button =
+    .title = アバターを編集
 edit-profile-page-avatar-selector-opener-link = 編集
 avatar-selector-icon-tab = アイコン
 avatar-selector-custom-tab = カスタム
@@ -58,18 +60,18 @@ edit-profile-page-duplicate-name = このプロファイル名はすでに使用
 edit-profile-page-profile-saved = 保存しました
 new-profile-page-title = @@New-CMD@@プロファイル
 new-profile-page-header = プロファイルをカスタマイズ
-new-profile-page-header-description = それぞれのプロファイルに、他のプロファイルとは独立した閲覧履歴や設定が保持されます。また、{ -brand-short-name } の強力なプライバシー保護が@@Default@@で有効です。
+new-profile-page-header-description = 各プロファイルには、それぞれ独立した閲覧履歴と設定が保持されています。さらに、{ -brand-short-name } の強力なプライバシー保護が@@Default@@で有効です。
 new-profile-page-learn-more = 詳細情報
 new-profile-page-input-placeholder =
-    .placeholder = @@[@@仕事用@@]@@ @@[@@個人用@@]@@ のような名前を設定してください
+    .placeholder = “仕事用” や “個人用” のような名前を設定してください
 new-profile-page-done-button =
     .label = 編集を完了
 # Variables
 #   $profilename (String) - The name of the copied profile.
-copied-profile-page-header-2 = “{ $profilename }” のコピーをカスタマイズする準備できました
+copied-profile-page-header-2 = “{ $profilename }” のコピーをカスタマイズする準備ができました
 copied-profile-page-header-description = 既存のデータと設定を@@New-CMD@@プロファイルにコピーしました。プロファイルに名前を付け、お好みのテーマを選んで設定してください。
 restored-profile-page-header = 復元したプロファイルのカスタマイズ
-restored-profile-page-header-description = 各プロファイルは他のプロファイルと分けて保存されたユニークな閲覧履歴と設定を保持しています。さらに、{ -brand-short-name } の強力なプライバシー保護は@@Default@@でオンになっています。
+restored-profile-page-header-description = 各プロファイルには、それぞれ独立した閲覧履歴や設定が保持されています。さらに、{ -brand-short-name } の強力なプライバシー保護機能が@@Default@@で有効です。
 restored-profile-page-learn-more = 詳細情報
 profile-window-title-2 = { -brand-short-name } - プロファイルの選択
 profile-window-logo =
@@ -85,9 +87,9 @@ delete-profile-page-title = プロファイル { $profilename } を削除
 delete-profile-header = プロファイル { $profilename } を削除しますか？
 delete-profile-description = { -brand-short-name } は以下のデータをこの端末から完全に削除します:
 # Opened browser windows saved to a profile. This is followed by a column with the number of open windows associated to the profile.
-delete-profile-windows = @@Window@@を開く
+delete-profile-windows = 開いている@@Window@@
 # Opened browser tabs saved to a profile. This is followed by a column with the number of open tabs associated to the profile.
-delete-profile-tabs = タブを開く
+delete-profile-tabs = 開いているタブ
 # Bookmarks saved to a profile. This is followed by a column with the number of bookmarks associated to the profile.
 delete-profile-bookmarks = ブックマーク
 # History saved to a profile. This is followed by a column with the number of visited pages / cookies / site data associated to the profile.
@@ -99,6 +101,9 @@ delete-profile-logins = パスワード
 # Variables
 #   $profilename (String) - The name of the profile.
 delete-profile-page-title-2 = “{ $profilename }” プロファイルを削除
+# Variables
+#   $profilename (String) - The name of the profile.
+delete-profile-header-2 = “{ $profilename }” プロファイルを削除しますか？
 
 ##
 
