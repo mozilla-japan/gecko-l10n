@@ -78,7 +78,7 @@ add-engine-keyword-placeholder =
 
 add-engine-keyword-exists = そのキーワードはすでに使用されています。別のものを選んでください。
 add-engine-name-exists = その名前はすでに使用されています。別のものを選んでください。
-add-engine-no-name = 検索エンジン名を入力してください
+add-engine-no-name = 検索エンジン名を入力してください。
 add-engine-no-url = URL を入力してください。
 add-engine-invalid-url = URL が正しくないようです。もう一度よく確認してください。
 add-engine-invalid-protocol = URL が正しくないようです。http または https で始まる URL を指定してください。

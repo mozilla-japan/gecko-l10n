@@ -11,7 +11,7 @@ cfr-doorhanger-feature-heading = おすすめの機能
 ##
 
 cfr-doorhanger-extension-sumo-link =
-    .tooltiptext = サポート記事を表示します
+    .tooltiptext = このおすすめが表示される理由
 cfr-doorhanger-extension-cancel-button = 後で
     .accesskey = N
 cfr-doorhanger-extension-ok-button = 追加
@@ -131,9 +131,9 @@ spotlight-public-wifi-vpn-link = 後で
 ## Emotive Continuous Onboarding
 
 spotlight-better-internet-header = より良いインターネットはあなたとともに始まります
-spotlight-better-internet-body = { -brand-short-name } を使うことで、すべての人にとってオープンでアクセシブルな、すべての人にとってのより良いインターネットに一票を投じることになります。
+spotlight-better-internet-body = { -brand-short-name } を使うことで、すべての人にとってオープンでアクセシブルな、より良いインターネットに一票を投じることになります。
 spotlight-peace-mind-header = 私たちがあなたを保護します
-spotlight-peace-mind-body = { -brand-short-name } は毎月、ユーザーあたり平均 3,000 以上のトラッカーをブロックしています。特にトラッカーのようなプライバシーを脅かすものは、あなたと良いインターネットの間にあるべきではないからです。
+spotlight-peace-mind-body = { -brand-short-name } は毎月、ユーザーあたり平均 3,000 件以上のトラッカーをブロックしています。特にトラッカーのようなプライバシーを脅かすものは、あなたと良いインターネットの間にあるべきではないからです。
 spotlight-pin-primary-button =
     { PLATFORM() ->
         [macos] Dock に追加
@@ -203,7 +203,7 @@ cfr-cbh-confirm-button = Cookie バナーを拒否
     .accesskey = R
 cfr-cbh-dismiss-button = 後で
     .accesskey = N
-cookie-banner-blocker-onboarding-header = { -brand-short-name } が Cookie バナーを拒否します
+cookie-banner-blocker-onboarding-header = { -brand-short-name } が Cookie バナーを拒否しました
 cookie-banner-blocker-onboarding-body = このサイトに集中でき、Cookie による追跡も減少します。
 cookie-banner-blocker-onboarding-learn-more = 詳細情報
 
@@ -287,6 +287,20 @@ launch-on-login-infobar-final-message = <strong>コンピューターの再起�
 launch-on-login-infobar-final-reject-button = いいえ、結構です
     .accesskey = N
 
+## Launch on login "show and tell" infobar notification
+##
+## Shown after Firefox has automatically launched at Windows sign-in (an
+## experiment enabled launch-on-login for the user), informing them that this
+## happened and letting them keep it on or turn it off.
+
+# "settings" refers to the Firefox settings (about:preferences), where
+# launch-on-login can be toggled, not the Windows system settings.
+launch-on-login-autostart-infobar-message = Windows へのログインと同時に { -brand-short-name } が起動するようになりました。この設定は後からいつでも変更できます。
+launch-on-login-autostart-infobar-keep-button = 維持する
+    .accesskey = K
+launch-on-login-autostart-infobar-turn-off-button = オフにする
+    .accesskey = T
+
 ## Launch on login spotlight
 ##
 ## Shown as a spotlight message when the user closes the browser, offering to set
@@ -315,7 +329,7 @@ tail-fox-spotlight-secondary-button = 後で
 ## Welcome Back Spotlight and Import
 
 welcome-back-spotlight-title = 組み込みプライバシーへの回帰
-welcome-back-spotlight-subtitle = 非営利で運営された唯一のメジャーブラウザーがあなたの帰りを待っています。どこでブラウジングしても、いくつかのステップでユーザーデータを保護します。
+welcome-back-spotlight-subtitle = 非営利で運営された唯一のメジャーブラウザーがあなたの帰りを待っています。どこでブラウジングしても、特別な対策によってユーザーデータを保護します。
 welcome-back-embedded-import-title = あなたの個人データを@@Import-site@@ { -brand-short-name } を自分だけのブラウザーにしてください。
 
 ## Root Certificate Succession Infobar
@@ -485,3 +499,21 @@ nova-early-access-share-feedback-link = フィードバックを共有する
     .accesskey = S
 nova-early-access-infobar-primary-button = 了解
     .accesskey = G
+
+## Firefox launch options spotlight
+##
+## Shown as a spotlight prompt on browser close or launch, offering
+## launch-on-login, taskbar pinning, and session restore.
+
+launch-options-spotlight-title-launch-on-login = Windows へのログイン時に毎回 { -brand-short-name } を起動しますか？
+launch-options-spotlight-title-session-restore = { -brand-short-name } の再起動時にセッションを再開しますか？
+launch-options-spotlight-checkbox-launch-on-login = 起動時に { -brand-short-name } を開く
+launch-options-spotlight-checkbox-pin-to-taskbar = タスクバーにピン留めする
+# Shown on the browser-close prompt only
+launch-options-spotlight-checkbox-restore-current = 現在の@@Window@@とタブを再び開く
+# Shown on the browser-launch prompt only
+launch-options-spotlight-checkbox-restore-previous = 以前の@@Window@@とタブを再び開く
+# Primary button on the browser-close prompt
+launch-options-spotlight-primary-button-close = 保存して { -brand-short-name } を閉じる
+# Primary button on the browser-launch prompt
+launch-options-spotlight-primary-button-launch = 保存して続ける

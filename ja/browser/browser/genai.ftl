@@ -10,6 +10,7 @@ genai-settings-chat-claude-links = Anthropic Claude を選ぶと、Anthropic の
 genai-settings-chat-copilot-links = Copilot を選ぶと、<a data-l10n-name="link1">Copilot AI 使用条件</a> および <a data-l10n-name="link2">Microsoft のプライバシーに関する声明</a> に同意したものとみなされます。
 genai-settings-chat-gemini-links = Google Gemini を選ぶと、<a data-l10n-name="link1">Google サービス利用規約</a> および <a data-l10n-name="link2">生成 AI の使用禁止に関するポリシー</a>、<a data-l10n-name="link3">Gemini アプリプライバシー通知</a> に同意したものとみなされます。
 genai-settings-chat-huggingchat-links = HuggingChat を選ぶと、<a data-l10n-name="link1">HuggingChat プライバシー通知</a> および <a data-l10n-name="link2">Hugging Face プライバシーポリシー</a> に同意したものとみなされます。
+genai-settings-chat-lechat-links-2 = Mistral Vibe を選ぶと、Mistral AI の <a data-l10n-name="link1">サービス利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
 genai-settings-chat-lechat-links = Le Chat Mistral を選ぶと、Mistral AI の <a data-l10n-name="link1">サービス利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
 genai-settings-chat-localhost-links = { -vendor-short-name } の Innovation グループによる <a data-l10n-name="link1">llamafile</a> など独自のプライベートなローカルチャットボットを利用する。
 
@@ -173,6 +174,8 @@ genai-onboarding-gemini-tooltip =
 genai-onboarding-gemini-learn = Gemini についての詳細
 genai-onboarding-huggingchat-tooltip =
     .title = HuggingChat
+genai-onboarding-lechat-tooltip-2 =
+    .title = Mistral Vibe
 genai-onboarding-huggingchat-learn = HuggingChat についての詳細
 genai-onboarding-lechat-tooltip =
     .title = Le Chat Mistral
@@ -206,7 +209,7 @@ genai-onboarding-copilot-generate = テキストおよび画像、コードの�
 genai-onboarding-copilot-analyze = 画像の解析
 genai-onboarding-copilot-price = 利用無料、有料のオプション、一部のタスクの実行はアカウントが必要
 genai-onboarding-gemini-generate = テキストおよび画像、コードの生成
-genai-onboarding-gemini-analyze = 画像の解析 (無料) 、文書の解析 (有料)
+genai-onboarding-gemini-analyze = 画像の解析 (無料)、文書の解析 (有料)
 genai-onboarding-gemini-price = 利用無料、有料のオプション、アカウントが必要
 genai-onboarding-huggingchat-generate = テキストおよびコードの生成
 genai-onboarding-huggingchat-switch = 多様なオープンモデルのセットの切り替え

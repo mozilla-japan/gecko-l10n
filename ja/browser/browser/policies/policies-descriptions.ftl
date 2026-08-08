@@ -30,15 +30,20 @@ policy-BlockAboutSupport = about:support ページへのアクセスをブロッ
 policy-Bookmarks = ブックマークツールバー、ブックマークメニュー、または指定のフォルダーの中にブックマークを作成します。
 policy-CaptivePortal = キャプティブポータルサポートを有効または無効にします。
 policy-CertificatesDescription = 証明書を追加、または組み込みの証明書を利用します。
+# CNSA 2.0 is the United States National Security Agency's Commercial National
+# Security Algorithm Suite 2.0. ML-KEM-1024 is a post-quantum key agreement
+# algorithm. Neither should be translated.
+policy-CNSA2KeyAgreementEnabled = TLS の CNSA 2.0 ML-KEM-1024 鍵共有を有効にします。
 policy-ContentAnalysis = データ損失防止エージェントへの接続を有効または無効にします。
 policy-Cookies = ウェブサイトの Cookie の保存を許可するか拒否するか設定します。
 # Containers in this context is referring to container tabs in Firefox.
 policy-Containers = コンテナーに関連するポリシーを設定します。
 policy-DisableAccounts = 同期を含め、アカウントに基づくサービスを無効にします。
 policy-DisabledCiphers = 暗号を無効にします。
+policy-DefaultBrowserSettingEnabled = ユーザーが { -brand-short-name } を@@DefaultBrowser@@に設定できるかどうかを制御します。
 policy-DefaultDownloadDirectory = @@Default-@@ダウンロードディレクトリーを設定します。
 policy-DefaultSerialGuardSetting = Serial API の使用を制御します。
-policy-DisableAppUpdate = ブラウザの更新を抑止します。
+policy-DisableAppUpdate = ブラウザーの更新を抑止します。
 policy-DisableBuiltinPDFViewer = { -brand-short-name } 組み込みの PDF ビューアーの PDF.js を無効にします。
 policy-DisableDefaultBrowserAgent = Default Browser Agent のアクションをすべて抑止します。Windows のみ適用可能です。他のプラットフォームにはこのエージェントがありません。
 policy-DisableDeveloperTools = 開発ツールへのアクセスをブロックします。
@@ -52,6 +57,7 @@ policy-DisableFirefoxScreenshots = Firefox Screenshots 機能を無効にしま�
 policy-DisableFirefoxStudies = { -brand-short-name } による Shield 調査の実行を抑止します。
 policy-DisableForgetButton = @@[@@忘れる@@]@@ ボタンへのアクセスを抑止します。
 policy-DisableFormHistory = 検索とフォームの履歴を記憶しないようにします。
+policy-DisableLaunchOnLogin = ユーザーログイン時の { -brand-short-name } の自動起動を抑止します。
 policy-DisablePrimaryPasswordCreation = true の場合、マスターパスワードを作成できないようにします。
 policy-DisablePasswordReveal = 保存されたパスワードの開示を許可しないようにします。
 policy-DisablePocket2 = ウェブページを { -pocket-brand-name } に保存する機能を無効にします。
@@ -65,7 +71,7 @@ policy-DisableSecurityBypass = 特定のセキュリティ警告をユーザー�
 policy-DisableSetAsDesktopBackground = メニューコマンド @@[@@デスクトップの背景に設定@@]@@ を無効にします。
 policy-DisableSystemAddonUpdate = ブラウザーへのシステムアドオンのインストールと更新を抑止します。
 policy-DisableTelemetry = Telemetry をオフにします。
-policy-DisableThirdPartyModuleBlocking = { -brand-short-name } プロセスに読み込まれるのサードパーティモジュールのユーザーによるブロックを抑止します。
+policy-DisableThirdPartyModuleBlocking = { -brand-short-name } プロセスに読み込まれるサードパーティモジュールのユーザーによるブロックを抑止します。
 policy-DisplayBookmarksToolbar = ブックマークツールバーを@@Default@@で表示します。
 policy-DisplayMenuBar = メニューバーを@@Default@@で表示します。
 policy-DNSOverHTTPS = DNS over HTTPS を設定します。
@@ -131,7 +137,7 @@ policy-Preferences = 設定のサブセットに対する値を設定してロ�
 policy-PrivateBrowsingModeAvailability = プライベートブラウジングモードの利用許可を設定します。
 policy-PromptForDownloadLocation = ダウンロード時にファイルの保存先を確認します。
 policy-Proxy = プロキシーの設定を指示します。
-policy-RelaunchRequired = { -brand-short-name } が所定期間内にリニューアルされることを必須にし、今後のリニューアルをユーザーに通知します。
+policy-RelaunchRequired = { -brand-short-name } を所定期間内に再起動することを必須にし、今後の再起動をユーザーに通知します。
 policy-RequestedLocales = アプリケーションに要求される言語リストと優先順位を設定します。
 policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去します。
 policy-SearchBar = 検索バーの@@Default@@の位置を設定します。ユーザーによる設定の変更は許可されます。
@@ -152,7 +158,7 @@ policy-UserMessaging = 特定のメッセージをユーザーに表示させな
 policy-UseSystemPrintDialog = システムの@@Print@@ダイアログで@@Print@@します。
 policy-VisualSearchEnabled = ビジュアル検索を有効または無効にします。
 # “format” refers to the format used for the value of this policy.
-policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細はドキュメントをご覧ください。
+policy-WebsiteFilter = ウェブサイトへの訪問をブロックします。書式の詳細はドキュメントをご覧ください。
 policy-Windows10SSO = Microsoft アカウント、職場または学校アカウントで Windows のシングルサインオンを許可します。
 # Entra is the name of a Microsoft product.
 policy-MicrosoftEntraSSO = Microsoft Entra アカウントでシングルサインオンを許可します。

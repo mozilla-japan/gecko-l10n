@@ -38,7 +38,7 @@ address-capture-update-button =
     .label = 更新
     .accessKey = U
 address-capture-manage-address-button =
-    .label = アドレス設定
+    .label = 住所設定
 address-capture-learn-more-button =
     .label = 詳細情報
 address-capture-open-menu-button =
@@ -53,7 +53,7 @@ autofill-add-address-title = 住所の追加
 autofill-edit-address-title = 住所の編集
 autofill-address-given-name = 名
 autofill-address-additional-name = ミドルネーム
-autofill-address-family-name = 氏
+autofill-address-family-name = 姓
 autofill-address-name = 氏名
 autofill-address-organization = 組織名
 autofill-address-street-address = 通り番地
@@ -170,6 +170,59 @@ autofill-card-network = カードの種類
 # methods section. Localizers should choose terms that make sense for payment
 # methods in their region.
 autofill-card-search-term-credit-cards = クレジットカード, 現金, デビットカード, 財布, 支払い, 小切手
+
+## The passport autofill management dialog in browser preferences
+
+# The dialog title for creating a passport in browser preferences.
+autofill-add-passport-title = パスポートを追加
+# The dialog title for editing a passport in browser preferences.
+autofill-edit-passport-title = パスポートを編集
+
+## Passport field labels shared by the passport capture doorhanger and the
+## passport management dialog. The labels are exposed as a .label attribute so
+## they can be assigned directly to moz-input-text and moz-select fields.
+
+autofill-passport-name =
+    .label = 姓名
+autofill-passport-country =
+    .label = 国籍
+autofill-passport-number =
+    .label = 旅券番号
+# Heading shown above the passport issue date fields.
+autofill-passport-issue-date = 発行年月日
+# Heading shown above the passport expiration date fields.
+autofill-passport-expiry-date = 有効期間満了日
+# Month dropdown label for passport dates.
+autofill-passport-date-month =
+    .label = MM
+# Day dropdown label for passport dates.
+autofill-passport-date-day =
+    .label = DD
+# Year dropdown label for passport dates.
+autofill-passport-date-year =
+    .label = YYYY
+
+## The passport capture doorhanger
+
+# Header of the doorhanger shown when Firefox offers to save a passport.
+passport-capture-save-doorhanger-header = パスポートを保存しますか？
+passport-capture-save-doorhanger-description = { -brand-short-name } に情報を保存しておくと、フォームにすばやく入力できます。
+# Accessible label for a passport date part input in the capture doorhanger.
+# The date parts (month/day/year) show their format hint (MM/DD/YYYY) as
+# placeholder text rather than a visible label, so the accessible name combines
+# the date group heading with the part hint. $heading is the group heading
+# (e.g. "Issue date") and $part is the part hint (e.g. "MM"); translators can
+# reorder them to match their locale.
+passport-capture-date-part-aria-label = { $heading } { $part }
+passport-capture-save-button =
+    .label = 保存
+    .accessKey = S
+passport-capture-not-now-button =
+    .label = 後で
+    .accessKey = w
+passport-capture-never-save-button =
+    .label = パスポートを保存しない
+    .accessKey = N
 
 ## These are brand names and should only be translated when a locale-specific name for that brand is in common use
 

@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-default-browser-agent-task-description = Default Browser Agent のタスクは@@DefaultBrowser@@が { -brand-short-name } から、その他のブラウザーに変更されてないか確認します。不審な状況下で変更が行われたときは、2 回まで { -brand-short-name } に戻すかユーザーに確認します。このタスクは { -brand-short-name } が自動的にインストールします。{ -brand-short-name } の更新時にも再インストールします。このタスクを無効にするには、about:config ページで “default-browser-agent.enabled” または { -brand-short-name } エンタープライズポリシーの “DisableDefaultBrowserAgent” の設定を変更してください。
+default-browser-agent-task-description = Default Browser Agent のタスクは@@DefaultBrowser@@が { -brand-short-name } から、その他のブラウザーに変更されていないか確認します。不審な状況下で変更が行われたときは、2 回まで { -brand-short-name } に戻すかユーザーに確認します。このタスクは { -brand-short-name } が自動的にインストールします。{ -brand-short-name } の更新時にも再インストールします。このタスクを無効にするには、about:config ページで “default-browser-agent.enabled” または { -brand-short-name } エンタープライズポリシーの “DisableDefaultBrowserAgent” の設定を変更してください。
 default-browser-notification-privacy-header-text = { -brand-short-name } を使い続けますか？
 default-browser-notification-privacy-body-text = @@DefaultBrowser@@が変更されました。プライバシー保護機能が搭載された { -brand-short-name } に戻すことをおすすめします。
 default-browser-notification-header-text = { -brand-short-name } を使い続けますか？

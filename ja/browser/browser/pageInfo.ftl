@@ -184,7 +184,7 @@ properties-general-size =
 #   $type (string) - The type of a animated image
 #   $frames (number) - The number of frames in an animated image
 media-animated-image-type =
-    .value = { $type } 画像 (アニメーション, { $frames } フレーム)
+    .value = { $type } 画像 (アニメーション、{ $frames } フレーム)
 # This string is used to display the type of
 # an image
 # Variables:

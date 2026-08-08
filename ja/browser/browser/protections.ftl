@@ -97,7 +97,7 @@ info-exposed-passwords-found = { $count } 件のパスワードが全漏洩デ�
 # This string is displayed after a large numeral that indicates the total number
 # of exposed passwords that are marked as resolved by the user. Don’t add $count
 # to your localization, because it would result in the number showing twice.
-info-exposed-passwords-resolved = 未解決の漏洩パスワードがあります
+info-exposed-passwords-resolved = 未解決の漏洩で露出したパスワードがあります
 monitor-no-breaches-title = お知らせ
 monitor-no-breaches-description = データ漏洩はありませんでした。状況が変わりましたら改めてお知らせします。
 monitor-view-report-link = 報告を確認
@@ -118,9 +118,9 @@ monitor-partial-breaches-title =
 # Variables:
 # $percentageResolved (Number) - Percentage of breaches marked as resolved by a user on Monitor.
 monitor-partial-breaches-percentage = { $percentageResolved }% 完了
-monitor-partial-breaches-motivation-title-start = 開始しました。
-monitor-partial-breaches-motivation-title-middle = しばらくお待ちください。
-monitor-partial-breaches-motivation-title-end = ほぼ完了しました。もう少しお待ちください。
+monitor-partial-breaches-motivation-title-start = 良いスタートです！
+monitor-partial-breaches-motivation-title-middle = その調子です！
+monitor-partial-breaches-motivation-title-end = あと少しです！ その調子で続けましょう。
 monitor-partial-breaches-motivation-description = { -monitor-brand-short-name } で残りの漏洩データを解決しましょう。
 monitor-resolve-breaches-link = 漏洩データを解決
     .title = { -monitor-brand-short-name } で漏洩データを解決

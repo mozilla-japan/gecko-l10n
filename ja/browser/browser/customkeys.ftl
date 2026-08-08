@@ -14,7 +14,7 @@ customkeys-new-key = @@New-CMD@@キーを入力:
 customkeys-reset-all = すべてのショートカットを初期設定にリセット
 # Variables
 # $conflict (string) - The title of the conflicting shortcut.
-customkeys-conflict-confirm = このキーはすでに { $conflict } に割り当てられています。別のキーに置き換えますか？
+customkeys-conflict-confirm = このキーはすでに { $conflict } に割り当てられています。別のキーに割り当て直しますか？
 customkeys-reset-all-confirm = 本当にすべてのキーボードショートカットを初期設定にリセットしてもよろしいですか？
 customkeys-file-duplicate-tab = タブを複製
 customkeys-file-focus-search = 検索バーを選択
@@ -37,7 +37,7 @@ customkeys-dev-storage = ストレージインスペクター
 customkeys-dev-dom = DOM
 customkeys-dev-accessibility = アクセシビリティ
 customkeys-dev-profiler-toggle = パフォーマンスプロファイラーの開始/停止
-customkeys-dev-profiler-capture = パフォーマンスプロファイルプロファイルのキャプチャ
+customkeys-dev-profiler-capture = パフォーマンスプロファイルのキャプチャ
 customkeys-category-navigation = ナビゲーション
 customkeys-nav-back = 戻る
 customkeys-nav-forward = 進む
@@ -81,15 +81,21 @@ customkeys-key-reset =
 
 customkeys-key-new =
     .label = @@New-CMD@@キーを入力:
+# Displayed below the action label (e.g. "Undo") when the shortcut cannot be changed.
+customkeys-key-unchangeable = (変更不可)
 
 ## Confirmation dialogs
 
-customkeys-conflict-confirm-title = Remove another shortcut?
+customkeys-conflict-confirm-title = もう一つのショートカットを削除しますか？
 # Variables
 # $conflict (string) - The title of the conflicting shortcut.
 customkeys-conflict-confirm-body = このキーは “{ $conflict }” ですでに使用されています。
 customkeys-conflict-confirm-button-confirm = 設定する
 customkeys-conflict-confirm-button-cancel = キャンセル
+customkeys-conflict-unusable-title = 使用できないキー
+# Variables
+# $conflict (string) - The title of the conflicting shortcut.
+customkeys-conflict-unusable-body = このキーはすでに “{ $conflict }” に設定されているため使用できません。
 customkeys-reset-all-confirm-title = 初期設定に戻しますか？
 customkeys-reset-all-confirm-body = 作成したカスタムキーボードショートカットが削除されます。
 customkeys-reset-all-confirm-button-confirm = 初期設定に戻す

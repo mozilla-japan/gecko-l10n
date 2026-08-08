@@ -24,6 +24,10 @@ menu-application-settings =
     .label = 設定...
 menu-application-set-as-default =
     .label = { -brand-shorter-name } を@@DefaultBrowser@@に設定する
+# This menu item opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+menu-application-referrals =
+    .label = { -brand-shorter-name } を宣伝
 menu-application-services =
     .label = サービス
 menu-application-hide-this =
@@ -225,9 +229,11 @@ menu-history =
 menu-history-show-all-history =
     .label = すべての履歴を表示
 menu-history-clear-recent-history =
-    .label = 最近の履歴を消去
+    .label = 最近の履歴を消去...
+menu-history-remote-tabs-promo =
+    .label = 他の端末からのタブ
 menu-history-synced-tabs =
-    .label = 同期タブ
+    .label = 同期したタブ
 menu-history-restore-last-session =
     .label = 以前のセッションを復元
 menu-history-hidden-tabs =
@@ -247,6 +253,8 @@ menu-bookmarks-menu =
     .accesskey = B
 menu-bookmarks-manage =
     .label = ブックマークを管理
+menu-bookmarks-remote-tabs-promo =
+    .label = ブックマークをモバイル端末と同期
 menu-bookmark-tab =
     .label = 現在のタブをブックマークに追加...
 menu-edit-bookmark =
@@ -382,3 +390,7 @@ menu-help-not-deceptive =
     .accesskey = d
 menu-report-broken-site =
     .label = 動作しないサイトを報告
+# This menu item opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+menu-referrals =
+    .label = { -brand-shorter-name } を宣伝

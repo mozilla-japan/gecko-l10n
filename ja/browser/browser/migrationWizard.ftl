@@ -78,8 +78,8 @@ migration-bookmarks-option-label = ブックマーク
 # Favorites is used for Bookmarks when importing from Internet Explorer or
 # Edge, as this is the terminology for bookmarks on those browsers.
 migration-favorites-option-label = お気に入り
-migration-logins-and-passwords-option-label = 保存したログイン情報とパスワード
-migration-passwords-option-label = 保存したパスワード
+migration-logins-and-passwords-option-label = 保存されているログイン情報とパスワード
+migration-passwords-option-label = 保存されているパスワード
 migration-history-option-label = 閲覧履歴
 migration-extensions-option-label = 拡張機能
 migration-form-autofill-option-label = フォームの自動入力データ
@@ -182,6 +182,10 @@ migration-wizard-progress-icon-in-progress =
 migration-wizard-progress-icon-completed =
     .aria-label = 完了
 migration-safari-password-import-header = Safari からパスワードを@@Import@@
+migration-safari-password-import-post-sequoia-step1 = Mac で <a data-l10n-name="macos-passwords-app">パスワードアプリ</a> を開きます
+migration-safari-password-import-post-sequoia-step2 = 画面上部のメニューバーから @@[@@ファイル@@]@@ > @@[@@すべてのパスワードをファイルに@@Export@@@@]@@ を選択します
+migration-safari-password-import-post-sequoia-step3 = ファイルを保存します
+migration-safari-password-import-post-sequoia-step4 = 保存したファイルを選択してください
 migration-safari-password-import-steps-header = Safari からパスワードを@@Import-suru@@には:
 migration-safari-password-import-step1 = Safari で @@[@@Safari@@]@@ メニューを開いて環境設定を選択し、パスワードをクリックします
 migration-safari-password-import-step2 = <img data-l10n-name="safari-icon-3dots"/> ボタンを選択し、@@[@@パスワードを@@Export@@@@]@@ を選択します
@@ -194,6 +198,7 @@ migration-chrome-windows-password-import-step2 = メニューから @@[@@設定@
 migration-chrome-windows-password-import-step3 = @@[@@ファイルをダウンロード@@]@@ を選択して、端末に保存してください。
 migration-chrome-windows-password-import-step4 = この画面に戻り、@@[@@ファイルを選択@@]@@ から@@ImportNoun@@を完了してください。
 migration-manual-password-import-skip-button = スキップ
+migration-manual-password-import-cancel-button = キャンセル
 migration-manual-password-import-select-button = ファイルを選択
 migration-safari-password-import-skip-button = スキップ
 migration-safari-password-import-select-button = ファイルを選択

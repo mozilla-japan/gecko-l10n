@@ -14,7 +14,7 @@ pocket-panel-saved-add-tags =
 
 pocket-panel-saved-error-generic = { -pocket-brand-name } への保存中にエラーがありました。
 pocket-panel-saved-error-tag-length = タグは 25 文字までです
-pocket-panel-saved-error-only-links = リンクのみ保存しました
+pocket-panel-saved-error-only-links = リンクのみ保存できます
 pocket-panel-saved-error-not-saved = ページを保存しませんでした
 pocket-panel-saved-error-no-internet = { -pocket-brand-name } に保存するにはインターネット接続が必要です。インターネットに接続してから試してください。
 pocket-panel-saved-error-remove = このページの削除中にエラーがありました。

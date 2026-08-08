@@ -96,6 +96,9 @@ home-prefs-clocks-header =
 # Privacy is a widget on New Tab that shows tracking protection activity.
 home-prefs-privacy-header =
     .label = プライバシー
+# Crossword is a widget on New Tab that shows a daily crossword puzzle.
+home-prefs-crossword-widget-header =
+    .label = クロスワードパズル
 # Stocks is a widget on New Tab that shows stock ticker prices.
 home-prefs-stocks-header =
     .label = 株価情報
@@ -183,7 +186,7 @@ newtab-privacy-across-sites = { $count } サイトでブロックしました
 ## Privacy widget — empty state
 
 # Shown when no trackers have been blocked yet today.
-newtab-privacy-empty = { -brand-short-name } が閲覧中にブロックしたトラッカーここで確かめられます。
+newtab-privacy-empty = { -brand-short-name } が閲覧中にブロックしたトラッカーをここで確かめられます。
 
 ## Privacy widget — informational messages
 ##
@@ -263,7 +266,7 @@ newtab-privacy-message-milestone-year = 今年は { $count } 個のトラッカ�
 newtab-privacy-message-milestone-year-cta = 保護を表示
 # Variables:
 #   $count (number) - Trackers blocked all-time
-newtab-privacy-message-milestone-total = { $count } 個のトラッカーをブロックしました。特定の期間における大きな進捗です。
+newtab-privacy-message-milestone-total = { $count } 個のトラッカーをブロックしました。あなたの望むかたちのプライバシーにおける大きな進捗です。
 newtab-privacy-message-milestone-total-cta = 保護を表示
 # Shown when today's blocked-tracker count reaches the display cap ("100+").
 newtab-privacy-message-daily-cap = (今日は 100 個以上のトラッカーをブロックしました。) トラッカーを減らすほどプライバシーが保護されています。
@@ -282,6 +285,8 @@ newtab-privacy-message-first-protection-cta = 保護を表示
 newtab-stocks-menu-search = ティッカーシンボルを検索
 # Context menu item linking to more information about the Stocks widget.
 newtab-stocks-menu-learn-more = 詳細情報
+# Shown in the Stocks widget when its data could not be loaded.
+newtab-stocks-error-not-available = 株価データが利用できません。
 # "Stocks widget options" is an icon-only button in the widget toolbar — the
 # attributes are consumed as tooltip/screen-reader label only. The button
 # never renders visible text.
@@ -433,6 +438,23 @@ topsite-label-pinned =
     .aria-label = { $title } (ピン留め)
     .title = { $title }
 
+## Top Sites - Web notifications hover card
+
+# Variables:
+#   $site (string) - The label or hostname of the site the notifications are from.
+newtab-topsites-hover-card-header = { $site } からの通知
+# Relative time shown for a notification posted less than a minute ago.
+newtab-topsites-hover-card-just-now = 直前
+newtab-topsites-hover-card-mark-all-read =
+    .title = すべて既読にします
+    .aria-label = すべて既読にする
+newtab-topsites-hover-card-settings =
+    .title = 通知設定
+    .aria-label = 通知設定
+newtab-topsites-hover-card-dismiss =
+    .title = 閉じる
+    .aria-label = 閉じる
+
 ## Context Menu - Action Tooltips.
 
 # General tooltip for context menus.
@@ -457,6 +479,7 @@ newtab-menu-topsites-placeholder-tooltip =
 ## Context Menu: These strings are displayed in a context menu and are meant as a call to action for a given page.
 
 newtab-menu-edit-topsites = 編集
+newtab-menu-add-topsite = @@New-CMD@@ショートカットを追加
 newtab-menu-open-new-window = @@NewWindow@@で開く
 newtab-menu-open-new-private-window = @@New-CMD@@プライベート@@Window@@で開く
 newtab-menu-dismiss = 閉じる
@@ -636,10 +659,10 @@ newtab-pocket-onboarding-cta = { -pocket-brand-name } は、さまざまな出�
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.
 
-newtab-error-fallback-info = このコンテンツの読み込み中に何か問題が発生しました。
-newtab-error-fallback-refresh-link = ページを再読み込みしてもう一度試してください。
+newtab-error-fallback-info = このコンテンツの読み込み中に問題が発生しました。
+newtab-error-fallback-refresh-link = ページを再度読み込んでもう一度試してください。
 
-## Customization Menu
+## New Tab Appearance (browser theme picker)
 
 newtab-custom-shortcuts-title = ショートカット
 newtab-custom-shortcuts-subtitle = 保存または訪問したサイト
@@ -649,6 +672,9 @@ newtab-custom-shortcuts-toggle =
     .description = 保存または訪問したサイト
 newtab-custom-shortcuts-nova =
     .label = ショートカット
+newtab-custom-web-notifications-toggle =
+    .label = ウェブ通知
+    .description = ショートカット上にサイトからの通知を表示します
 newtab-custom-row-description =
     .description = 行数
 # Variables
@@ -709,9 +735,34 @@ newtab-custom-close-menu-button =
 newtab-custom-close-button = 閉じる
 newtab-custom-settings = 他の設定を管理
 
+## New Tab Appearance (browser theme picker)
+
+# Title of the browser theme ("Appearance") section in the customize panel.
+newtab-custom-appearance-section-title = 外観
+# Button that opens the full browser theme selection view.
+newtab-appearance-more-themes-button =
+    .label = 他のテーマを表示
+# Title of the full theme selection sub-panel, also used as its back button label.
+newtab-appearance-manage-title = { -brand-product-name } テーマ
+# Header for the list of the user's already-installed themes in the full theme panel.
+newtab-appearance-your-themes-header = あなたのテーマ
+# Button that enables an already-installed theme.
+newtab-appearance-enable-theme-button =
+    .label = 有効化
+# Button that disables the active theme and reverts to the default.
+newtab-appearance-disable-theme-button =
+    .label = 無効化
+# Button that installs a theme.
+newtab-appearance-install-theme-button =
+    .label = テーマをインストール
+# Button/link on the full theme panel that opens the complete list of available themes.
+newtab-appearance-explore-more-themes-button = 他のテーマを探す
+
 ## New Tab Wallpapers
 
+#  (developer note): @nova-cleanup(remove-string): Remove old "Wallpapers" heading string once Nova lands. The newtab-wallpaper-toggle-title string will take over
 newtab-wallpaper-title = 壁紙
+#  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. Nova has no reset button; the wallpapers toggle handles reset
 newtab-wallpaper-reset = @@DefaultValue@@にリセット
 #  (developer note): @nova-cleanup(remove-string): Remove old "Upload an image" string once Nova lands. The new "Add an image"  string will take over
 newtab-wallpaper-upload-image = 画像をアップロード
@@ -883,7 +934,7 @@ newtab-weather-see-forecast-description =
 ## Topic Labels
 
 newtab-topic-label-business = 仕事
-newtab-topic-label-career = 経歴
+newtab-topic-label-career = キャリア
 newtab-topic-label-education = 教育
 newtab-topic-label-arts = 娯楽
 newtab-topic-label-food = 食品
@@ -1005,7 +1056,7 @@ newtab-download-mobile-highlight-title = モバイル版 { -brand-product-name }
 # "Scan the code" refers to scanning the QR code that appears above the body text that leads to Firefox for mobile download.
 newtab-download-mobile-highlight-body-variant-a = QR コードをスキャンして安全にダウンロード。
 newtab-download-mobile-highlight-body-variant-b = タブやパスワード、他のデータを同期しておけば、中断したところからピックアップできます。
-newtab-download-mobile-highlight-body-variant-c = 同じ { -brand-product-name } ブラウザーをポケットに入れてを持ち出せることをご存じですか？
+newtab-download-mobile-highlight-body-variant-c = 同じ { -brand-product-name } ブラウザーをポケットに入れて持ち出せることをご存じですか？
 newtab-download-mobile-highlight-image =
     .aria-label = モバイル版 { -brand-product-name } をダウンロードするための QR コード
 
@@ -1068,7 +1119,7 @@ newtab-widget-lists-label-beta =
 #   $number (number) - Amount of list items marked complete
 newtab-widget-lists-completed-list = 完了 ({ $number })
 newtab-widget-lists-celebration-headline = よくできました
-newtab-widget-lists-celebration-subhead = すべて消去
+newtab-widget-lists-celebration-subhead = すべて完了
 newtab-widget-task-list-menu-copy = コピー
 newtab-widget-lists-menu-edit = リスト名を編集
 newtab-widget-lists-menu-edit2 =
@@ -1092,6 +1143,9 @@ newtab-widget-lists-input-menu-edit2 =
 newtab-widget-lists-edit-clear =
     .aria-label = キャンセル
     .title = キャンセル
+# Lists is a noun, as in "options for the lists"
+newtab-widget-lists-menu-button =
+    .aria-label = リストのオプション
 # the + symbol emphasises the functionality of adding a new list
 newtab-widget-lists-dropdown-create =
     .label = + @@New-CMD@@リストを作成
@@ -1184,7 +1238,7 @@ newtab-widget-message-title = リストへの集中と組み込みタイマー
 # to-dos stands for "things to do".
 newtab-widget-message-copy = クイック通知から毎日の ToDo リストまで、時間内によく集中して休憩を取れるように、あなたの作業を支援します。
 # One spot refers to a dedicated section on new tab to manage and use widgets
-newtab-widget-message-focus-forecasts-title = 注目、天気、その他のワンスポット
+newtab-widget-message-focus-forecasts-title = 集中、天気、その他のワンスポット
 newtab-widget-message-focus-forecasts-body = { -brand-product-name } ウィジェットを日常に活かしましょう。その日の天気や作業リスト、世界の時刻を確認できます。
 # "Make Firefox yours" refers to about:newtab. The call to action here ("Try it now")
 # is to customize the new tab page with a background image or color from
@@ -1246,7 +1300,7 @@ newtab-sports-widget-menu-view-results = 結果を見る
 newtab-sports-widget-menu-key-dates = 重要な日
 newtab-sports-widget-menu-learn-more = 詳細情報
 # “Keep tabs on” is an informal expression meaning to stay updated on, stay informed on, or regularly follow something (in this case, World Cup matches and updates).
-newtab-sports-widget-keep-tabs = ワールドカップのタブを保持
+newtab-sports-widget-keep-tabs = ワールドカップの最新情報をチェック
 newtab-sports-widget-get-updates = 試合の最新情報などをリアルタイムでお届けします。
 newtab-sports-widget-follow-teams =
     .label = チームをフォロー
@@ -1334,7 +1388,7 @@ newtab-custom-widget-live-refresh =
     .aria-label = スコアを更新
 # Milestone dates (e.g. group stage, semifinals, etc.). Refers to calendar dates.
 newtab-sports-widget-key-dates = 重要な日
-newtab-sports-widget-upcoming = 最新情報
+newtab-sports-widget-upcoming = 今後の試合
 # Used for a match currently ongoing
 newtab-sports-widget-now = 試合中
 newtab-sports-widget-results = 結果
@@ -1562,6 +1616,26 @@ newtab-clock-widget-edit-clock-form =
 # It means "results of the search", not "search within the results".
 newtab-clock-widget-search-results =
     .aria-label = 検索結果
+# Fallback row in the search results that lets the user add a city that is
+# not in the list. $city (String) is the text the user has typed.
+newtab-clock-widget-add-custom = カスタム時計に “{ $city }” を追加
+# Text field for the display name of a user-added custom clock.
+newtab-clock-widget-custom-city-input =
+    .label = 都市名
+    .placeholder = この時計にラベルを付けてください
+    .aria-label = 都市名
+# Searchable time-zone field shown when adding a custom clock. The user
+# types a city they know and picks it to set the clock's time zone.
+newtab-clock-widget-custom-timezone-input =
+    .label = タイムゾーン
+    .placeholder = 都市名、タイムゾーンまたは UTC の時差で検索します
+    .aria-label = タイムゾーン
+newtab-clock-widget-custom-zone-results =
+    .aria-label = タイムゾーンの検索結果
+# Shown in the time-zone picker when the search matches no time zones.
+newtab-clock-widget-custom-zone-no-results = 一致するタイムゾーンがありません
+# Returns from the custom clock form back to the city search.
+newtab-clock-widget-custom-back = 戻る
 # Shown in place of the search results when the user's query does not match any
 # supported city — e.g. typing a misspelled name or a place not in the IANA
 # time zone list.
@@ -1574,6 +1648,8 @@ newtab-clock-widget-menu-button =
     .aria-label = 時計のメニューを開く
 # $nickname (String) - The user-defined nickname for a saved clock location (e.g., "Home", "Office").
 newtab-clock-widget-label-nickname-with-value = ラベル: { $nickname }
+# Curated World Clock city names. The value is the city name shown on the
+# clock; translate to your locale's usual spelling for the city.
 newtab-clock-city-us-new-york = ニューヨーク
 newtab-clock-city-us-los-angeles = ロサンゼルス
 newtab-clock-city-us-chicago = シカゴ

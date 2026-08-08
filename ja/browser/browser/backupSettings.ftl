@@ -232,7 +232,6 @@ backup-file-how-to-restore-header = 復元方法:
 # application menu.
 backup-file-moz-browser-restore-step-1 = アプリケーションメニュー ☰ を開き、@@[@@設定@@]@@ > @@[@@同期@@]@@ に移動します
 backup-file-moz-browser-restore-step-2-1 = @@[@@データを復元@@]@@ をクリックして、このファイルを選択してください
-backup-file-moz-browser-restore-step-2 = @@[@@バックアップファイルを選択@@]@@ をクリックして、このファイルを選択してください
 backup-file-moz-browser-restore-step-3 = 画面の指示に従って { -brand-short-name } を再起動してください
 backup-file-other-browser-restore-step-1 = { -brand-short-name } をダウンロードしてインストール
 backup-file-download-moz-browser-button = ダウンロード
@@ -240,7 +239,6 @@ backup-file-download-moz-browser-button = ダウンロード
 # application menu.
 backup-file-other-browser-restore-step-2 = { -brand-short-name } を起動してアプリケーションメニュー ☰ を開き、@@[@@設定@@]@@ > @@[@@同期@@]@@ に移動します
 backup-file-other-browser-restore-step-3-1 = @@[@@データを復元@@]@@ をクリックして、このファイルを選択してください
-backup-file-other-browser-restore-step-3 = @@[@@バックアップファイルを選択@@]@@ をクリックして、このファイルを選択してください
 backup-file-other-browser-restore-step-4 = 画面の指示に従って { -brand-short-name } を再起動してください
 
 ## These strings are used in the about:restore and about:welcome pages

@@ -41,5 +41,5 @@ default-browser-guidance-notification-body-instruction-win11 =
 default-browser-guidance-notification-info-page = 詳細表示
 default-browser-guidance-notification-dismiss = 完了
 default-browser-guidance-notification-v2-title = { -brand-short-name } を@@DefaultBrowser@@にしましょう
-default-browser-guidance-notification-v2-body = 設定で、{ -brand-short-name } を "@@Default@@に設定" してください。
+default-browser-guidance-notification-v2-body = 設定で { -brand-short-name } を “@@Default@@に設定” してください。
 default-browser-guidance-notification-v2-title-only = 設定で { -brand-short-name } を@@DefaultBrowser@@にしましょう
