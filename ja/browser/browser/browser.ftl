@@ -48,6 +48,8 @@ browser-main-window-title = { -brand-full-name }
 # The non-variable portion of this MUST match the translation of
 # "PRIVATE_BROWSING_SHORTCUT_TITLE" in custom.properties
 private-browsing-shortcut-text-2 = { -brand-shortcut-name } プライベートブラウジング
+# This MUST match the translation of "BRIEF_APP_DESC" in custom.properties
+browser-shortcut-description = 高速でプライベートなウェブブラウジング
 # These are the default window titles everywhere except macOS.
 # .data-title-default and .data-title-private are used when the web content
 # opened has no title:
@@ -1322,13 +1324,6 @@ qrcode-copy-error =
     .message = QR コードのコピーに失敗しました。
 qrcode-save-button =
     .label = 保存
-qrcode-save-success =
-    .message = QR コードを保存しました。
-qrcode-save-error =
-    .message = QR コードの保存に失敗しました。
-qrcode-save-title = QR コードを保存
-qrcode-save-filter-png = PNG 画像
-qrcode-save-filename = qrcode.png
 qrcode-window-title = QR コード
 qrcode-dialog-title = QR コード
 qrcode-image =
