@@ -54,6 +54,13 @@ extension-send-activity-progress = { $count } 通のメッセージを送信し�
 #   $extensionName (String) - the extension's name
 #   $count (Number) - number of messages sent in this batch
 extension-send-activity-event = 拡張機能 “{ $extensionName }” が未処理のメッセージを送信しました。
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status = { $count } 通のメッセージ (経過時間: { $time })
 # Status line shown under extension-send-activity-event. Reports how many
 # messages were sent and the wall-clock time between the first and last send in
 # the batch (rounded to whole seconds, at least one).

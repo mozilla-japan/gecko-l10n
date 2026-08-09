@@ -12,6 +12,15 @@ configured-cert-ok-sig = 証明書がテストに合格しました。メール�
 configured-cert-failure-detail = 次のエラーにより証明書の検証に失敗しました: { $errorMsg } (エラーコード: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = 証明書の検証に失敗しました。エラーコード { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = 署名アルゴリズム:
+smime-crypto-digest-algorithm = 署名のダイジェストアルゴリズム:
+smime-crypto-cipher = アルゴリズム:
+smime-crypto-key-encryption = 鍵暗号アルゴリズム:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize } ビット)
+smime-crypto-details-summary = アルゴリズム
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.

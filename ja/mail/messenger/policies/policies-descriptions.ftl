@@ -35,6 +35,7 @@ policy-DisableFormHistory = 検索とフォームの入力履歴を記憶しな�
 policy-DisableMasterPasswordCreation = true の場合、マスターパスワードを作成できません。
 policy-DisablePasswordReveal = 保存されたパスワードの開示を許可しないようにします。
 policy-DisableProfileImport = メニューコマンド @@[@@他の@@Application@@からデータを@@Import@@@@]@@ を無効にします。
+policy-DisableQRExport = アカウント設定と認証情報を@@Export-suru@@ QR コードの生成を無効にします。
 policy-DisableSafeMode = セーフモードで再起動する機能を無効にします。注意: Shift キーでセーフモードを起動する機能は、Windows でグループポリシーを利用する場合のみ無効にできます。
 policy-DisableSecurityBypass = ユーザーが特定のセキュリティ警告を回避できないようにします。
 policy-DisableSystemAddonUpdate = { -brand-short-name } のシステムアドオンのインストールと更新を禁止します。

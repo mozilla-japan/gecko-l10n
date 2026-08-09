@@ -121,7 +121,7 @@ account-setup-results-area-title =
        *[other] 利用可能な設定
     }
 account-setup-result-imap-description = フォルダーとメールがサーバー上で同期されます
-account-setup-result-pop-description = フォルダーとメールがあなたのコンピュータに保存されます
+account-setup-result-pop-description = フォルダーとメールがあなたのコンピューターに保存されます
 # Note: Exchange, Office365 are the name of products.
 account-setup-result-exchange2-description = Microsoft Exchange サーバーまたは Office365 クラウドサービスを使用します
 account-setup-incoming-title = 受信
