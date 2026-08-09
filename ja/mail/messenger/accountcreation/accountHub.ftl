@@ -49,7 +49,10 @@ account-hub-email-retest-button = 再テスト
 account-hub-email-finish-button = 完了
 account-hub-email-manually-configure-button = 手動設定
 account-hub-email-continue-button = 続ける
+account-hub-email-set-up-account-button = アカウントをセットアップ
 account-hub-email-confirm-button = 確認
+account-hub-email-find-settings-button = 設定を検索
+account-hub-email-connect-button = 接続
 account-hub-result-incoming-legend = 受信
 account-hub-result-outgoing-legend = 送信
 account-hub-all-servers-legend = 全サーバー
@@ -116,7 +119,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = 暗号化されたパスワード認証
 
-## Incoming/Outgoing connection security options
+## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-ssl-noencryption-option =
     .label = なし
@@ -158,6 +161,7 @@ address-book-ldap-duplicate-error = すでに存在している LDAP ディレ�
 address-book-ldap-creation-error = LDAP ディレクトリーを作成できませんでした。
 account-hub-email-setup-ews = サーバー設定
 account-hub-result-exchange-url-label = Exchange エンドポイント URL
+account-hub-exchange-service-url-label = サービスの URL を入力してください
 account-hub-email-credentials-confirmation = アカウント設定
 account-hub-result-unknown-hostname = ホスト名が不明です
 account-hub-result-unknown-cert = 証明書が未検証です
@@ -168,7 +172,7 @@ account-hub-minimize-button =
 account-hub-maximize-button =
     .title = アカウントハブを最大化
 account-hub-email-manual-configuration = 手動設定
-account-hub-notification-unknown-host = サードパーティーのドメインでセットアップ情報が見つかりました
+account-hub-notification-unknown-host = サードパーティのドメインでセットアップ情報が見つかりました
 account-hub-ssl-noencryption = なし
 account-hub-email-skip-button = スキップ
 account-hub-finding-sync-accounts = アカウントを作成しました。アドレス帳とカレンダーを探索中です...
@@ -235,14 +239,42 @@ account-hub-calendars-button = カレンダー
 account-hub-thundermail-button = Thundermail でログイン
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = または
+account-hub-manual-config-imap-title = IMAP 設定
+account-hub-manual-config-pop3-title = POP3 設定
+account-hub-manual-config-review-settings-title = 更新した設定の確認
 account-hub-manual-config-incoming-legend = 受信サーバー
 account-hub-manual-config-outgoing-legend = 送信サーバー
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = 受信サーバーと同じユーザー名
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = { $oldValue } は見つかりませんでしたが、{ $newValue } が利用可能です。
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = ポート番号 { $oldValue } には到達できませんでしたが、ポート番号 { $newValue } が利用可能です。
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = { $oldValue } は使用できませんでしたが、{ $newValue } が利用可能です。
+account-hub-protocol-imap = 端末間で同期 (IMAP)
+account-hub-protocol-microsoft = Exchange または Microsoft 365
+account-hub-protocol-pop3 = 端末にダウンロード (POP)
+account-hub-oauth-unsupported-title = 追加の設定が必要です
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } はこのホスト名の OAuth2 を自動的に設定できません。@@[@@詳細設定@@]@@ を選択してアカウントを作成し、アカウント設定からセットアップを完了してください。<a data-l10n-name="oauth-support-link">OAuth2 のセットアップ方法について</a> を参照してください。
 account-hub-notification-show-more = 表示を増やす
 account-hub-notification-show-less = 表示を減らす
 account-hub-email-setup-header = メールアドレスの追加
 account-hub-email-setup-incoming = 受信サーバー設定
 account-hub-email-setup-outgoing = 送信サーバー設定
+account-hub-email-exchange-settings = Exchange 設定
 account-hub-email-connect-settings = メール設定と接続します
+account-hub-email-protocol-select-header = メールアカウントの種類を選んでください
+account-hub-email-protocol-select-additional-info = このアカウントをセットアップするには追加の情報が必要です。
+account-hub-email-protocol-select-notification = このアカウントをセットアップするには追加の情報が必要です
 account-hub-email-config-found = メールアカウントの種類を選んでください
 account-hub-email-enter-password = メールアカウントのパスワードを入力してください
 account-hub-email-sync-accounts = カレンダーとアドレス帳を同期する
@@ -252,6 +284,8 @@ account-hub-result-imap-description = フォルダーとメールがサーバー
 account-hub-result-pop-description = フォルダーとメールがあなたのコンピューターに保存されます
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Microsoft Exchange Web サービスを使用してフォルダーとメールを同期します
+account-hub-result-graph-api-shortname = Microsoft Graph API
+account-hub-result-graph-api-description = Microsoft Graph API を使用して Microsoft 365 でフォルダーとメールを同期します
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Microsoft Graph API を使用してフォルダーとメールを同期します
 account-hub-result-exchange-description = Exchange または Office 365 でフォルダーとメールを同期します
@@ -269,18 +303,13 @@ account-hub-config-success-description-disk = アカウント設定が { -brand-
 account-hub-config-success-description-isp = アカウント設定がメールプロバイダーから見つかりました。
 account-hub-config-success-description-read-more = <a data-l10n-name="automated-setup-link">メールアカウントのセットアップの自動化についての記事</a> をお読みください。
 account-hub-config-success = アカウント設定が Mozilla ISPDB から見つかりました
-account-hub-config-success-exchange = アカウント設定が Microsoft Exchange サーバーから見つかりました
-account-hub-config-success-guess = アカウント設定が、一般的なサーバー名で検索したことにより見つかりました
-account-hub-config-success-disk = アカウント設定が { -brand-short-name } のインストールフォルダーから見つかりました
-account-hub-config-success-isp = アカウント設定がメールプロバイダーから見つかりました
-account-hub-config-success-unknown = 設定が見つかりました
-account-hub-password-info = あなたの認証情報はローカルのあなたのコンピュータにのみ保存されます
+account-hub-password-info = あなたの認証情報はローカルのあなたのコンピューターにのみ保存されます
 account-hub-creating-account = アカウントを作成しています...
 account-hub-sync-accounts-found = { -brand-short-name } が接続されたサービスを見つけました
 account-hub-sync-accounts-not-found = { -brand-short-name } が接続されたサービスを見つけられませんでした
 account-hub-sync-accounts-failure = { -brand-short-name } が選択されたサービスに接続できませんでした
 account-hub-email-added-success = メールアカウントの接続が完了しました
-account-hub-config-test-success = 正しく設定されています
+account-hub-config-test-success = { -brand-short-name } が正しい設定を見つけて更新しました。
 account-hub-select-all = @@SelectAll@@
 account-hub-deselect-all = すべての選択を解除
 # $count (Number) - The number of sync accounts selected.
@@ -297,7 +326,8 @@ account-hub-port-error-text = ポート番号は 1 から 65535 までの間の�
     .title = ポート番号は 1 から 65535 までの間の数値を入力してください
 account-hub-username-error-text = ユーザー名が必要です
     .title = ユーザー名が必要です
-account-hub-oauth-pending = ログインポップアップで認証を待機しています...
+account-hub-manual-config-error-summary = 以下のエラーを解決してください:
+account-hub-oauth-pending = ログインのポップアップ画面で認証を待機しています...
 account-hub-addon-install-button = インストール
 account-hub-addon-install-needed = { -brand-short-name } 本体はこのサーバーに対応していません。Exchange メールにアクセスするには <a data-l10n-name="addon-install">Owl (有料) などサードパーティ製のアドオンをインストールしてください</a>。
 account-hub-addon-error = アドオンのインストールに失敗しました。もう一度試すか、アドオンの作者に問い合わせてください。
@@ -308,14 +338,20 @@ account-hub-add-address-book = アドレス帳を追加
 address-book-sync-existing-icon =
     .alt = 既存のアカウントからのアドレス帳を同期
 address-book-sync-existing = 既存のアカウントから同期
+address-book-add-remote-icon2 =
+    .alt = リモートアドレス帳を追加
 address-book-add-remote-icon =
     .alt = @@New-CMD@@リモートアドレス帳を追加
 address-book-add-remote = リモートアドレス帳を追加
+address-book-add-remote-carddav-description = CardDav アドレス帳に接続します
 address-book-add-remote-description = リモートの CardDav アドレス帳に接続します
 address-book-add-local-icon =
     .alt = @@New-CMD@@ローカルアドレス帳を作成
 address-book-add-local = @@New-CMD@@ローカルアドレス帳
 address-book-add-local-description = 端末上に@@New-CMD@@ローカルアドレス帳を作成します
+address-book-add-ldap-icon2 =
+    .alt = LDAP アドレス帳を追加
+address-book-add-ldap-button = LDAP アドレス帳を追加
 address-book-add-ldap-icon =
     .alt = リモート LDAP アドレス帳に接続
 address-book-add-ldap = @@New-CMD@@ LDAP アドレス帳
@@ -335,3 +371,23 @@ account-hub-local-address-book-label = アドレス帳の名前
 account-hub-local-error-text = アドレス帳の名前を入力してください
 account-hub-sync-address-books = 既存のアドレス帳を同期
 account-hub-new-remote-address-book = @@New-CMD@@リモートアドレス帳
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = アカウントの種類
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph は Microsoft 365 のモダンな接続方式です
+account-hub-card-ews-title = Exchange Web Services
+account-hub-card-ews-tag = 旧式
+account-hub-card-ews-description = Exchange Web Services (EWS) が Microsoft Exchange に接続してメールを同期します。
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = これはサービス URL と一致するため推奨されます。
+account-hub-exchange-type-username = ユーザー名
+account-hub-exchange-type-username-hint = 通常、メールアドレスまたは Active Directory UPN です。
+account-hub-exchange-type-authentication = 認証方式
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = @@Default@@の Microsoft 365 Copilot 認証設定を使用する
+account-hub-exchange-type-oauth-tenant = テナント ID
+account-hub-exchange-type-oauth-app = アプリ ID
+account-hub-exchange-type-advanced-config = 詳細設定
+account-hub-exchange-type-title = アカウントの種類を選択

@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = 削除を元に戻す
     .tooltiptext = 削除を元に戻す
+multi-message-flagged-button =
+    .title = スター付き
+    .aria-label = スター付き
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations = スレッド数: { $count }

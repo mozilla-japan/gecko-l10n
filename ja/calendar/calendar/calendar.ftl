@@ -154,6 +154,9 @@ week-title-label =
     .aria-label = 第{ $title }週
 calendar-none =
     .label = なし
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = カレンダーデータがこのバージョンの { -brand-short-name } と互換性がありません。現在のプロファイル内のカレンダーデータは { -brand-short-name } の新しいバージョンにより更新され、古いデータファイルのバックアップは “{ $fileName }” という名前で作成されています。今後は新たに作成されたデータファイルを使用します。
 imip-bar-unsupported-text = このメッセージにこのバージョンの { -brand-short-name } では処理できない予定が含まれています。
 # Error strings
 # @name UID_NOT_FOUND
@@ -1046,3 +1049,14 @@ event-recurrence-forever =
 attendees-tab-label = 参加者 ({ $count } 名):
 # $count - the number of attachments
 attachments-tab-label = 添付 ({ $count } 個):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = { $location } の { $username } のパスワードを入力してください
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } がユーザー名とパスワードを要求しています。

@@ -51,9 +51,6 @@ certificate-checking = { $hostname } のサーバーへの接続をテストし�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = { $hostname } への安全な接続を確立できました。
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = { $hostname } のサーバーへの接続に失敗しました。
 certificate-check-exception-added = 証明書の例外を追加しました。
 certificate-check-exception-removed = 証明書の例外を削除しました。
 # Variables:
