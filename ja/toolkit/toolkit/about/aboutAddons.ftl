@@ -624,3 +624,44 @@ mlmodel-addon-detail-used-by-label = 利用者
 mlmodel-addon-detail-model-card = モデルカード
 # This is a label for the Model Card link to Hugging face
 mlmodel-addon-detail-model-card-link-label = Hugging Face で表示
+
+## Promo footer shown in the about:addons recommendations view when
+## Project Nova styles are enabled.
+## The heading refers to the user choosing a Firefox theme or extension to
+## install. In the message, "tools" refers to Firefox extensions and
+## "styles" refers to Firefox themes.
+
+
+## Promo footer shown in the about:addons extensions list view when
+## Project Nova styles are enabled.
+## In the message, "tools" refers to Firefox extensions.
+
+
+## Promo footer shown in the about:addons themes list view when
+## Project Nova styles are enabled.
+## "Find more fresh looks" refers to the user looking for more Firefox themes.
+
+
+## Promo shown in about:addons extensions list view when no extension is yet installed
+## and Project Nova is enabled.
+
+
+## Themes Mode segmented control shown at the top of the about:addons themes list view
+## when Project Nova is enabled.
+
+themes-mode-light =
+    .label = ライト
+themes-mode-dark =
+    .label = ダーク
+# "Device" refers to the mode that makes the Firefox active theme's selected color scheme
+# update based on the color scheme mode currently chosen by the operating system.
+themes-mode-device =
+    .label = 端末の設定
+
+## Enable/disable/install buttons on each theme card inside the theme picker.
+
+# Checkbox shown inside the enabled default theme's addon-card, on Linux
+# only, to opt-in/opt-out matching the GTK/system theme colors instead of
+# the built-in default theme colors.
+aboutaddons-linux-theme-colors-checkbox-label =
+    .label = Linux のシステムテーマを使用
