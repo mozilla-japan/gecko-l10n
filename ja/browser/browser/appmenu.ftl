@@ -114,6 +114,9 @@ appmenuitem-fxa-sign-in = { -brand-product-name } にログイン
 appmenuitem-fxa-manage-account = アカウントを管理
 fxa-menu-sync-status-on = 同期はオンです
 fxa-menu-sync-status-off = 同期はオフです
+# Shown in place of "Sync is Off" on the sync status button when the user has
+# never signed in. Sync is a verb, short for synchronize.
+fxa-menu-sync-your-data = データを同期する
 # Shown as a secondary label under "Sync is Off" when the user is signed in but
 # sync is turned off.
 fxa-menu-sync-off-data-description = データを同期していません
@@ -390,9 +393,9 @@ appmenuitem-relay-title-signed-in = メールマスクを表示
 appmenuitem-relay-description = 実際のメールアドレスと電話番号を隠します
 appmenuitem-services-relay-description = メールマスクダッシュボードを起動します
 appmenuitem-vpn-title2 = { -mozilla-vpn-brand-name } で位置情報を隠す
-appmenuitem-vpn-description4 = アプリと端末の追加の保護を入手
+appmenuitem-vpn-description5 = 端末の追加の保護を入手
 # Shown in place of appmenuitem-vpn-title2 when the user has signed up for VPN.
-appmenuitem-vpn-title-signed-in = { -mozilla-vpn-brand-name } を開く
+appmenuitem-vpn-title-signed-in1 = { -mozilla-vpn-brand-name } をダウンロード
 appmenuitem-vpn-description3 = ウェブブラウジングが追跡されにくくなります
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description-2 = 端末全体を保護しましょう

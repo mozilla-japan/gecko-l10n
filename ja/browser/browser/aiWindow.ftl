@@ -171,12 +171,6 @@ aiwindow-firstrun-default-checkbox-description = いつでも設定で切り替�
 smartwindow-ask-button =
     .label = 尋ねる
 
-## Group My Tabs Toolbar Button
-
-smartwindow-group-tabs-button =
-    .label = タブをグループ化
-    .tooltiptext = タブをグループ化します
-
 ## Memories toggle button
 
 aiwindow-memories-on =

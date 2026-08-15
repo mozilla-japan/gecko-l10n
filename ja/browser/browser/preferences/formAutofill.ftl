@@ -26,11 +26,14 @@ address-capture-save-doorhanger-description = 情報を { -brand-short-name } �
 address-capture-update-doorhanger-header = 住所を更新しますか？
 address-capture-edit-doorhanger-header = 住所の編集
 address-capture-save-button =
-    .label = 保存
+    .label = 保存する
     .accessKey = S
 address-capture-not-now-button =
     .label = 後で
     .accessKey = N
+address-capture-never-save-button =
+    .label = 保存しない
+    .accessKey = v
 address-capture-cancel-button =
     .label = キャンセル
     .accessKey = C
@@ -129,7 +132,8 @@ autofill-address-tel = 電話番号
 autofill-address-email = メールアドレス
 autofill-cancel-button = キャンセル
 autofill-save-button = 保存
-autofill-country-warning-message = 現在、フォーム自動入力機能は特定の国の住所のみ利用可能です。
+autofill-country-warning-message-2 = 現在、フォーム自動入力機能は特定の国の住所にのみ対応しています。
+autofill-country-warning-message = 現在、フォーム自動入力機能は特定の国の住所にのみ対応しています。
 # The dialog title for creating credit cards in browser preferences.
 autofill-add-new-card-title = @@New-CMD@@クレジットカード情報の追加
 # The dialog title for editing credit cards in browser preferences.
