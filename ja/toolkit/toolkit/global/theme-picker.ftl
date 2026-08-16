@@ -4,6 +4,8 @@
 
 theme-picker-mode-light = ライト
 theme-picker-mode-dark = ダーク
+# "Device" refers to the mode that makes the Firefox active theme's selected color scheme
+# update based on the color scheme mode currently chosen by the operating system.
 theme-picker-mode-device = 端末の設定
 theme-picker-use-linux-theme =
     .label = Linux のシステムテーマを使用
@@ -21,7 +23,7 @@ theme-picker-default =
     .label = @@Default@@
 # Name for a warm yellow-gold theme. Refers to the color of sunlight.
 theme-picker-sun =
-    .label = 太陽
+    .label = 日光
 # Name for a warm orange theme. Refers to a small burst of fire.
 theme-picker-spark =
     .label = 火花
@@ -36,13 +38,13 @@ theme-picker-lavender =
     .label = ラベンダー
 # Name for a medium purple theme. Refers to the sky just after sunset.
 theme-picker-dusk =
-    .label = 夕暮れ
+    .label = 夕闇
 # Name for a medium blue theme. Refers to a sheltered body of water.
 theme-picker-lagoon =
     .label = ラグーン
 # Name for a green theme. Refers to pine trees.
 theme-picker-pine =
-    .label = パイン
+    .label = 松の木
 # Name for a soft teal theme. Refers to ocean tides.
 theme-picker-tide =
     .label = 潮汐
@@ -51,7 +53,7 @@ theme-picker-ash =
     .label = 灰
 # Name for a warm gray-beige theme. Refers to the hazy color of smoke.
 theme-picker-smoke =
-    .label = スモーク
+    .label = 霞
 
 ## Theme aria-labels (for when labels are hidden)
 ## These are short, evocative names for color themes in Firefox. Each name
@@ -66,7 +68,7 @@ theme-picker-default-aria-label =
     .aria-label = @@Default@@
 # Name for a warm yellow-gold theme. Refers to the color of sunlight.
 theme-picker-sun-aria-label =
-    .aria-label = 太陽
+    .aria-label = 日光
 # Name for a warm orange theme. Refers to a small burst of fire.
 theme-picker-spark-aria-label =
     .aria-label = 火花
@@ -81,13 +83,13 @@ theme-picker-lavender-aria-label =
     .aria-label = ラベンダー
 # Name for a medium purple theme. Refers to the sky just after sunset.
 theme-picker-dusk-aria-label =
-    .aria-label = 夕暮れ
+    .aria-label = 夕闇
 # Name for a medium blue theme. Refers to a sheltered body of water.
 theme-picker-lagoon-aria-label =
     .aria-label = ラグーン
 # Name for a green theme. Refers to pine trees.
 theme-picker-pine-aria-label =
-    .aria-label = パイン
+    .aria-label = 松の木
 # Name for a soft teal theme. Refers to ocean tides.
 theme-picker-tide-aria-label =
     .aria-label = 潮汐
@@ -96,4 +98,4 @@ theme-picker-ash-aria-label =
     .aria-label = 灰
 # Name for a warm gray-beige theme. Refers to the hazy color of smoke.
 theme-picker-smoke-aria-label =
-    .aria-label = スモーク
+    .aria-label = 霞

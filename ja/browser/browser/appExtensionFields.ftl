@@ -18,6 +18,7 @@ extension-firefox-alpenglow-description = カラフルな外観のボタン、�
 ## Theme names shown in the Firefox Themes picker in about:addons and theme add-on card,
 ## and new default-theme description for the theme add-on card.
 
+extension-default-theme-description2 = バランスの取れた親しみやすい紫煙のような { -brand-product-name } のクラシックな外観
 
 ## Theme labels
 ## These are short, evocative names for color themes in Firefox. Each name
@@ -30,7 +31,7 @@ extension-firefox-alpenglow-description = カラフルな外観のボタン、�
 # color word; translate the sense of "standard."
 extension-default-theme-name2 = @@Default@@
 # Name for a warm yellow-gold theme. Refers to the color of sunlight.
-extension-nova-sun-name = 太陽
+extension-nova-sun-name = 日光
 # Name for a warm orange theme. Refers to a small burst of fire.
 extension-nova-spark-name = 火花
 # Name for a red-orange theme. Refers to the color of fire.
@@ -40,17 +41,17 @@ extension-nova-flare-name = フレア
 # Name for a soft purple theme. Refers to the lavender flower.
 extension-nova-lavender-name = ラベンダー
 # Name for a medium purple theme. Refers to the sky just after sunset.
-extension-nova-dusk-name = 夕暮れ
+extension-nova-dusk-name = 夕闇
 # Name for a medium blue theme. Refers to a sheltered body of water.
 extension-nova-lagoon-name = ラグーン
 # Name for a green theme. Refers to pine trees.
-extension-nova-pine-name = パイン
+extension-nova-pine-name = 松の木
 # Name for a soft teal theme. Refers to ocean tides.
 extension-nova-tide-name = 潮汐
 # Name for a medium-dark gray theme. Refers to the gray residue left by fire.
 extension-nova-ash-name = 灰
 # Name for a warm gray-beige theme. Refers to the hazy color of smoke.
-extension-nova-smoke-name = スモーク
+extension-nova-smoke-name = 霞
 
 ## Colorway Themes
 ## These themes are variants of a colorway. The colorway is specified in the

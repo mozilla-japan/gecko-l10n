@@ -34,6 +34,43 @@ neterror-view-certificate-link = 証明書を確認
 neterror-trr-continue-this-time = 今回は続行する
 neterror-disable-native-feedback-warning = 常に続行する
 
+## Search call-to-action shown on the online dnsNotFound error page when
+## browser.netError.searchCTA.enabled is true. Offers a one-click web search
+## derived from the address that failed to resolve.
+
+neterror-search-cta-title = このサイトに到達できません
+# $domain (String) - The host of the address that failed to load, including any
+# subdomains, for example "docs.example.com".
+neterror-search-cta-intro = { $domain } のサーバーに接続できませんでした
+# Heading above the list of recovery hints on the search CTA error page.
+neterror-search-cta-things-to-try = 以下の手順を試してください:
+neterror-search-cta-hint-check-address = ウェブサイトのアドレスに間違いがないか確認してください
+# Shown when no Search button is offered, so no specific query can be named.
+neterror-search-cta-hint-search = ウェブ検索でサイトを見つけてください
+# Shown when the Search button is offered, naming the exact query it will run.
+# $query (String) - The search query derived from the address that failed to
+# load, for example "best hiking boots reviews". The query and the quotation
+# marks around it are emphasized.
+neterror-search-cta-hint-search-query = <strong>“{ $query }”</strong> をウェブ検索
+# .tooltiptext doubles as the button's accessible description, so it explains
+# that results open in a new tab.
+neterror-search-cta-search-button =
+    .label = 検索
+    .accesskey = S
+    .tooltiptext = 検索結果を@@NewTab@@に開きます
+neterror-search-cta-reload-button =
+    .label = 再読み込み
+    .accesskey = R
+# Shown in place of the Search button while the search option is being prepared.
+neterror-search-cta-loading = 読み込み中
+# Shown in place of the Search button when the user clicks it but connectivity
+# has dropped since the page loaded, so the search cannot be performed.
+neterror-search-cta-offline = 現在オフラインです。再接続してもう一度試してください。
+# $error (String) - The error code, for example "dnsNotFound".
+neterror-search-cta-error-code = エラーコード: { $error }
+# The search CTA's own "Learn more" link text (no trailing ellipsis).
+neterror-search-cta-learn-more = 詳細情報
+
 ##
 
 neterror-pref-reset = ネットワークセキュリティの設定がこの問題の原因になっている可能性があります。@@DefaultValue@@に戻しますか？

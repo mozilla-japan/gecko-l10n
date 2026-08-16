@@ -974,7 +974,6 @@ use-current-pages =
 choose-bookmark =
     .label = ブックマークを使用...
     .accesskey = B
-
 home-homepage-title =
     .label = ホームページ
 home-homepage-new-windows =
