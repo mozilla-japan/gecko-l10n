@@ -612,6 +612,7 @@ remote-content-label =
 exceptions-button =
     .label = 例外...
     .accesskey = E
+remote-content-privacy-info = リモートコンテンツのプライバシーに係わる問題について
 remote-content-info =
     .value = リモートコンテンツのプライバシーに係わる問題について
 web-content = ウェブコンテンツ
@@ -983,7 +984,7 @@ sync-disconnected-turn-on-sync = 同期をオンにする...
 
 ## Mobile QR Export Pane
 
-qr-export-pane-header =  モバイル版 { -brand-product-name } にアカウント設定を@@ExportNoun@@
+qr-export-pane-header = モバイル版 { -brand-product-name } にアカウント設定を@@ExportNoun@@
 qr-export-description = QR コードを生成してアカウント設定をデスクトップからモバイル端末へすばやく転送します。転送データに含めるアカウントを選択してください。パスワードも転送するかどうかを決定し、モバイル端末で QR コードをスキャンしてください。速く、安全で簡単に転送できます。
 qr-export-get-app = まだモバイル端末に { -brand-product-name } をインストールしていない場合は、<a data-l10n-name="app-link">Google Play から入手</a> してください。
 qr-export-create = QR コードを生成してアカウントを@@Export-suru@@
