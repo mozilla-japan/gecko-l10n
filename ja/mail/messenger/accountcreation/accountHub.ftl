@@ -126,6 +126,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = 認証なし
 account-hub-auth-label = 認証方式
+account-hub-select-option =
+    .label = オプションを選択してください
 account-hub-username-label = ユーザー名
 account-hub-username-warning-icon = ユーザー名が必要です
 account-hub-address-book-username-error-text = ユーザー名を入力してください
@@ -265,6 +267,7 @@ account-hub-oauth-unsupported-title = 追加の設定が必要です
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } はこのホスト名の OAuth2 を自動的に設定できません。@@[@@詳細設定@@]@@ を選択してアカウントを作成し、アカウント設定からセットアップを完了してください。<a data-l10n-name="oauth-support-link">OAuth2 のセットアップ方法について</a> を参照してください。
+account-hub-username-help-text = 通常はあなたのメールアドレスが使用されます
 account-hub-notification-show-more = 表示を増やす
 account-hub-notification-show-less = 表示を減らす
 account-hub-email-setup-header = メールアドレスの追加

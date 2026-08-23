@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-saved-logins-title = 保存されたログイン情報
+saved-logins-title = 保存したログイン情報
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -49,7 +49,7 @@ password-close-button =
     .label = 閉じる
     .accesskey = C
 show-passwords =
-    .label = パスワードを表示する
+    .label = パスワードを開示
     .accesskey = P
 hide-passwords =
     .label = パスワードを隠す
@@ -64,7 +64,7 @@ remove-all-shown =
     .accesskey = A
 remove-all-passwords-prompt = 本当にすべてのパスワードを消去しますか？
 remove-all-passwords-title = すべてのパスワードを消去
-no-master-password-prompt = パスワードを表示しますか？
+no-master-password-prompt = パスワードを開示しますか？
 
 ## OS Authentication dialog
 

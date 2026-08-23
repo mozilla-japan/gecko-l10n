@@ -15,6 +15,30 @@ outgoing-server-name = 送信サーバー:
 outgoing-server-edit =
     .label = 送信サーバーを編集...
     .accesskey = o
+oauth2-use-custom-details =
+    .label = カスタム OAuth2 設定を使用する
+    .accesskey = c
+oauth2-client-id-label =
+    .value = クライアント ID:
+    .accesskey = l
+oauth2-authorization-endpoint-label =
+    .value = 認証エンドポイント:
+    .accesskey = h
+oauth2-token-endpoint-label =
+    .value = トークンのエンドポイント:
+    .accesskey = t
+oauth2-scopes-label =
+    .value = スコープ:
+    .accesskey = s
+oauth2-redirection-endpoint-label =
+    .value = リダイレクト URI:
+    .accesskey = r
+oauth2-use-pkce =
+    .label = PKCE を使用する
+    .accesskey = k
+oauth2-use-system-browser =
+    .label = システムのウェブブラウザーを使用する
+    .accesskey = b
 ews-url-label =
     .value = ホスト URL:
     .accesskey = h
@@ -32,7 +56,13 @@ ews-redirecturi-label =
     .accesskey = r
 ews-endpointhost-label =
     .value = エンドポイントのホスト:
-    .accesskey = h
+    .accesskey = e
 ews-oauthscopes-label =
     .value = OAuth スコープ:
     .accesskey = s
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = 拡張機能より提供された OAuth2 設定: <a data-l10n-name="extension">{ $extensionName }</a>
