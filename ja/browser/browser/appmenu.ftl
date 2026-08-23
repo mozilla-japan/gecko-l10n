@@ -322,6 +322,11 @@ appmenu-about =
     .accesskey = A
 # This menu item opens the referral page, where the user can invite others to
 # use the browser. "Share" here means recommending or referring the browser
+appmenu-referrals2 =
+    .label = { -brand-product-name } を宣伝
+    .accesskey = r
+# This menu item opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
 appmenu-referrals =
     .label = { -brand-shorter-name } を宣伝
     .accesskey = r
@@ -435,6 +440,8 @@ fxa-menu-create-profile-confirm =
     .label = @@New-CMD@@プロファイルの作成
 fxa-menu-create-profile-learn-more =
     .label = プロファイルとは何ですか？
+# Button in the account menu that links to the Referrals page
+appmenuitem-share-firefox-title2 = { -brand-product-name } を宣伝
 # Button in the account menu that links to the Referrals page
 appmenuitem-share-firefox-title = { -brand-short-name } を宣伝
 appmenuitem-share-firefox-description = プライバシー優先のブラウザーを選んでもらえるように宣伝してください

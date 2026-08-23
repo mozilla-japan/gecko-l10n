@@ -2814,3 +2814,12 @@ referrals-section-header =
 # use the browser. "Share" here means recommending or referring the browser
 referrals-link =
     .label = { -brand-short-name } を宣伝
+# The header in settings with link to the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+referrals-section-header2 =
+    .label = { -brand-product-name } を宣伝
+    .description = プライバシー優先のブラウザーを選んでもらえるように宣伝してください。
+# Link that opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+referrals-link2 =
+    .label = { -brand-product-name } を宣伝
