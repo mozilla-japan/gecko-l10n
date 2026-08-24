@@ -1236,6 +1236,12 @@ containers-add-button2 =
 containers-new-tab-check3 =
     .label = @@NewTab@@を開くコンテナーを毎回選択する
     .accesskey = S
+# Checkbox in the Containers settings. By default, when a link is opened from
+# another application, Firefox tries to pick a matching container for it. When
+# this checkbox is checked, such links always open outside of any container.
+containers-external-links-check =
+    .label = 外部アプリから開いたリンクにはコンテナーを使用しない
+    .accesskey = D
 containers-new-tab-check2 =
     .label = @@NewTab@@を開くコンテナーを毎回選択する
     .accesskey = S
@@ -1243,6 +1249,18 @@ containers-new-tab-check2 =
 containers-settings-button2 =
     .title = 設定
 containers-remove-button3 =
+    .title = 削除
+containers-sites-card-header =
+    .label = サイト専用のコンテナー
+    .description = 専用コンテナーを選ぶと、{ -brand-short-name } でこのサイトを開く時に毎回このコンテナーが使用されます。
+containers-sites-add-button =
+    .label = ウェブサイトを追加
+    .accesskey = w
+# The dropdown that picks which container a site opens in.
+# Variables:
+#   $site (string) - Domain of the website, for example “example.com”.
+containers-site-container-select = { $site } 用のコンテナー
+containers-site-remove-button =
     .title = 削除
 containers-remove-button2 =
     .title = 削除
