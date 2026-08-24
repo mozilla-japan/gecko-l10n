@@ -262,6 +262,7 @@ threadpane-column-label-unread-button =
     .label = 既読状態
 threadpane-cell-read-status =
     .aria-label = 既読の状態
+threadpane-new-cell-label = 新着
 threadpane-read-cell-label = 既読
 threadpane-unread-cell-label = 未読
 threadpane-column-header-a11y-sender =
