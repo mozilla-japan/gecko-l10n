@@ -82,6 +82,10 @@ sidebar-show-on-the-left =
 # hovers over it.
 expand-sidebar-on-hover =
     .label = カーソルを合わせた時にサイドバーを展開する
+# Option to show a preview of the most recently active tabs when the mouse
+# pointer hovers over the Open Tabs button in the sidebar.
+sidebar-show-preview-on-hover =
+    .label = カーソルを合わせた時にプレビューを表示する
 sidebar-manage-extensions2 = すべての拡張機能を管理
 sidebar-customize-extensions-header2 = 拡張機能
 sidebar-customize-firefox-tools-header2 =

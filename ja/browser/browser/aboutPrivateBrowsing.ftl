@@ -61,6 +61,12 @@ about-private-browsing-pin-promo-link-text =
     }
 about-private-browsing-pin-promo-title = Cookie や履歴を保存せず、デスクトップからすぐ使えます。誰からも監視されずブラウジングできます。
 
+## Strings used in a promotion message for Firefox Relay
+
+about-private-browsing-relay-promo-header = メールマスクで受信トレイへのスパムを防ぎます
+about-private-browsing-relay-promo-title = ログインやお買い物、オンライン共有時に使用する実際のメールアドレスをメールマスクで隠します。
+about-private-browsing-relay-promo-link-text = メールマスクを試す
+
 ## Strings used in a promotion message for cookie banner reduction
 
 # Simplified version of the headline if the original text doesn't work

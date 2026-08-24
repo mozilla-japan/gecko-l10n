@@ -13,6 +13,8 @@ about-pdf-dropzone-invalid-file = このファイルはサポートされてい�
 about-pdf-dropzone-error-generic = アップロードに失敗しました。後でもう一度試してください。
 about-pdf-browse-files =
     .label = ファイルを@@Browse@@
+# Title of the system file picker opened by the “Browse files” button.
+about-pdf-file-picker-title = PDF を開く
 about-pdf-promo =
     .heading = { -brand-short-name } をいつもの PDF エディターにします
     .message = PDF を { -brand-short-name } で開くと、テキストの強調表示や署名、ファイルの結合からコメントまで、基本機能が一か所で使えます。

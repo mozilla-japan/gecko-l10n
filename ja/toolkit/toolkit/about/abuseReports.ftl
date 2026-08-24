@@ -83,7 +83,7 @@ abuse-report-broken-suggestions-sitepermission =
 abuse-report-broken-suggestions-theme =
     テーマのバグを見つけたのかもしれません。ここに報告するのもよいですが、動作の問題を解決する最善の方法は、テーマの作者に問い合わせることです。
     作者の情報を得るには、<a data-l10n-name="support-link">そのテーマのウェブサイトを訪れてください</a>。
-abuse-report-policy-reason-v2 = 不愉快または暴力的、違法なコンテンツを含む
+abuse-report-policy-reason-v2 = 差別的または暴力的、違法なコンテンツを含む
 abuse-report-policy-suggestions =
     注意: 著作権や商標の問題は別のプロセスで報告してください。
     <a data-l10n-name="report-infringement-link">こちらの説明に従って問題を報告してください</a>。
