@@ -446,6 +446,10 @@ newtab-recent-searches-widget-menu-button =
 # Context menu item linking to more information about the widget.
 newtab-recent-searches-menu-learn-more = 詳細情報
 
+## Strings for the navigable panels that new tab content area can be
+## split into.
+
+
 ## Search box component.
 
 # "Search" is a verb/action
@@ -709,6 +713,15 @@ newtab-discovery-empty-section-topstories-try-again-button = 再試行
 newtab-discovery-empty-section-topstories-loading = 読み込み中...
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = おおっと、このセクションはほぼ読み込みましたが、完全ではありません。
+
+## Strings for the story cards carousel
+
+# Button that goes to the previous carousel slide.
+newtab-carousel-previous =
+    .aria-label = 前へ
+# Button that goes to the next carousel slide.
+newtab-carousel-next =
+    .aria-label = 次へ
 
 ## Pocket Content Section.
 
