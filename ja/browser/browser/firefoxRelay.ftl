@@ -78,7 +78,7 @@ firefox-relay-offer-legal-notice-control = アカウント登録してメール�
 ## The "basic-info" variation of the Relay offer popup
 
 firefox-relay-and-fxa-popup-notification-header-basic-info = 無料のメールマスクで迷惑メールを防ぎましょう
-firefox-relay-and-fxa-popup-notification-first-sentence-basic-info =  無料の <label data-l10n-name="firefox-relay-learn-more-url">メールマスク</label> で本当のメールアドレスを隠して迷惑メールを防ぎましょう。<label data-l10n-name="firefox-fxa-and-relay-offer-domain">このサイト</label> からのメールは受信トレイに届きますが、あなたのメールアドレスは隠されます。
+firefox-relay-and-fxa-popup-notification-first-sentence-basic-info = 無料の <label data-l10n-name="firefox-relay-learn-more-url">メールマスク</label> で本当のメールアドレスを隠して迷惑メールを防ぎましょう。<label data-l10n-name="firefox-fxa-and-relay-offer-domain">このサイト</label> からのメールは受信トレイに届きますが、あなたのメールアドレスは隠されます。
 firefox-relay-and-fxa-popup-notification-second-sentence-basic-info = メールマスクを使用するには、まずアカウント登録するかアカウントにログインしてください
 firefox-relay-and-fxa-opt-in-confirmation-enable-button-basic-info =
     .label = アカウント登録

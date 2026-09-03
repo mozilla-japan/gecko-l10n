@@ -195,6 +195,9 @@ newtab-privacy-across-sites = { $count } サイトでブロックしました
 # Shown when no trackers have been blocked yet today.
 newtab-privacy-empty = { -brand-short-name } が閲覧中にブロックしたトラッカーをここで確かめられます。
 
+## Privacy widget — Enhanced Tracking Protection off state
+
+
 ## Privacy widget — informational messages
 ##
 ## Rotating "info" secondary messages. Each message has a body plus a matched
@@ -1091,6 +1094,12 @@ newtab-section-unfollow-button-label =
 # A modal may appear next to the Follow button, directing users to try out the feature
 newtab-section-follow-highlight-title = フィードを微調整
 newtab-section-follow-highlight-subtitle = 興味のあることをフォローして、お好みのコンテンツを多く表示します
+
+## Topic navigation
+## A row of buttons above the stories, each scrolling the page to that topic's section.
+
+newtab-topic-navigation-label =
+    .aria-label = トピック
 
 ## Button to block/unblock listed topics
 ## "Block", "unblocked", and "blocked" are social media terms that refer to hiding a section of stories.

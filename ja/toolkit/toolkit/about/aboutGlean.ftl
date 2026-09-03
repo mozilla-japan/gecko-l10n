@@ -58,7 +58,7 @@ about-glean-no-ping-label = (Ping を送信しない)
 # An in-line text input field precedes this string.
 about-glean-label-for-tag-pings = 左のフィールドに覚えやすいデバッグタグを設定して、後であなたの Ping が区別できるようにしてください。
 # An in-line text input field precedes this string.
-about-glean-label-for-tag-pings-with-requirements =  覚えやすいデバッグタグ <span>(20 文字以下の英数字とハイフンのみ)</span> を設定して、後であなたの Ping が区別できるようにしてください。
+about-glean-label-for-tag-pings-with-requirements = 覚えやすいデバッグタグ <span>(20 文字以下の英数字とハイフンのみ)</span> を設定して、後であなたの Ping が区別できるようにしてください。
 # An in-line drop down list precedes this string.
 # Do not translate strings between <code> </code> tags.
 about-glean-label-for-ping-names =

@@ -32,6 +32,8 @@ ai-window-smart-cursor-in-smart-window =
 smart-window-model-section =
     .label = アシスタントのモデル
     .description = 利用に際して重点を置きたいことをベースにしたモデルを選んでください。
+smart-window-model-radio-group =
+    .aria-label = アシスタントのモデル
 smart-window-model-learn-link = モデルについての詳細情報
 
 ## Full name indicates the full version name of the model currently listed along with its publisher
@@ -65,7 +67,7 @@ smart-window-model-custom-save =
     .label = 保存
 smart-window-model-custom-save-confirmation = モデルの詳細を保存しました。新しいチャットを開始してテストしてください。
 ai-window-memories-section =
-    .label =  AI メモリー
+    .label = AI メモリー
     .description = { -brand-short-name } はユーザーの活動を学習して AI メモリーを作成できます。これらは応答のパーソナライズに役立てられ、この端末にのみ保存されます。
 ai-window-learn-from-chat-activity =
     .label = { -smart-window-brand-name } のチャットから学習する
