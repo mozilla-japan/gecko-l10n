@@ -22,3 +22,6 @@ inactive-message = エンタープライズポリシーサービスが無効で�
 policy-name = ポリシー名
 policy-value = 値
 policy-errors = ポリシーエラー
+# Shown under the name of a policy in the Active list when at least one of the
+# operations of that policy failed to apply. The Errors tab has the details.
+policy-not-fully-applied = 適用されていないポリシーがあります

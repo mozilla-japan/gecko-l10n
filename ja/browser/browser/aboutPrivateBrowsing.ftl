@@ -94,4 +94,3 @@ about-private-browsing-nova-info-link = それでも私の行動を知ること�
 # fall back to "Your browsing will be deleted"
 about-private-browsing-nova-info-header = あなたの行動は記録されません
 about-private-browsing-nova-info-subheader2 = すべてのプライベート@@Window@@を閉じると、検索履歴とログイン状態がリセットされます。トラッカーのブロックなど { -brand-short-name } に組み込まれた防護機能はここでも有効です。
-about-private-browsing-nova-info-subheader = この@@Window@@を閉じると、検索履歴とログイン状態がリセットされます。トラッカーのブロックなど { -brand-short-name } に組み込まれた防護機能はここでも有効です。

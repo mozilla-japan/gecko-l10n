@@ -605,7 +605,8 @@ mlmodel-link-preview = これは { -brand-short-name } がリンク先プレビ�
 mlmodel-pdfjs = これは { -brand-short-name } が PDF に追加した画像の代替テキストの作成に利用しています
 mlmodel-smart-tab-topic-engine = これは { -brand-short-name } がタブグループ名を提案するのに利用しています
 mlmodel-smart-tab-embedding-engine = これは { -brand-short-name } がタブグループのタブを提案するのに利用しています
-mlmodel-formfill-engine = これは { -brand-short-name } がアドレスフォームの入力の補助に利用しています。
+mlmodel-formfill-engine = これは { -brand-short-name } がアドレスフォームの入力の補助に利用しています
+mlmodel-speech-recognition = これは { -brand-short-name } が端末の音声認識に利用しています
 # AI Model will be downloaded on the users device and used locally
 addon-category-mlmodel = 端末上の AI
 addon-category-mlmodel-title =

@@ -360,3 +360,19 @@ aiwindow-starter-planning-plan = Help make a plan
 aiwindow-starter-browsing-history = Find tabs in history
 aiwindow-starter-browsing-summarize = Summarize tabs
 aiwindow-starter-browsing-compare = Compare tabs
+
+## Conversation Starter Scroll Buttons
+## Scrolls the conversation-starter pill row toward its start/end.
+
+aiwindow-starter-scroll-start =
+    .tooltiptext = 後方へスクロールします
+    .aria-label = 後方へスクロール
+aiwindow-starter-scroll-end =
+    .tooltiptext = 前方へスクロールします
+    .aria-label = 前方へスクロール
+# Dismisses a "pick up where you left off" resume-activity suggestion pill.
+# Variables:
+#   $text (String) - The suggestion headline being dismissed
+aiwindow-starter-dismiss =
+    .title = { $text } を閉じます
+    .aria-label = { $text } を閉じる

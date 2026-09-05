@@ -166,6 +166,10 @@ autofill-card-expires-year-2 =
     .label = 有効期限 (年)
 autofill-card-billing-address-2 =
     .label = 請求先住所
+# "CVV" is a common abbreviation for the security code printed on a payment
+# card. Use whichever abbreviation is most familiar in your locale.
+autofill-card-security-code =
+    .label = セキュリティコード (CVV)
 autofill-card-name-on-card = カード名義
 autofill-card-expires-month = 有効期限 (月)
 autofill-card-expires-year = 有効期限 (年)
