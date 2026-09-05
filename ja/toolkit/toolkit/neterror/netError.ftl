@@ -56,7 +56,7 @@ neterror-search-cta-hint-search-query = <strong>“{ $query }”</strong> をウ
 # that results open in a new tab.
 neterror-search-cta-search-button =
     .label = 検索
-    .accesskey = S
+    .accesskey = c
     .tooltiptext = 検索結果を@@NewTab@@に開きます
 neterror-search-cta-reload-button =
     .label = 再読み込み

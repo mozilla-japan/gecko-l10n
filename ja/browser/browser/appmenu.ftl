@@ -124,6 +124,7 @@ fxa-menu-sync-off-data-description = データを同期していません
 # turned off. Turns syncing on by opening sync preferences.
 fxa-menu-sync-status-turn-on-button =
     .label = オンにする
+fxa-menu-sync-status-turn-on-button-aria-label = オンにする
 # Shown as a secondary label under "Sync is Off" when the user needs to sign in
 # (again) for sync to work.
 fxa-menu-sync-off-signin-description = ログインして同期してください
@@ -401,7 +402,6 @@ appmenuitem-vpn-title2 = { -mozilla-vpn-brand-name } で位置情報を隠す
 appmenuitem-vpn-description5 = 端末の追加の保護を入手
 # Shown in place of appmenuitem-vpn-title2 when the user has signed up for VPN.
 appmenuitem-vpn-title-signed-in1 = { -mozilla-vpn-brand-name } をダウンロード
-appmenuitem-vpn-description3 = ウェブブラウジングが追跡されにくくなります
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description-2 = 端末全体を保護しましょう
 appmenuitem-vpn-description = ユーザーのオンラインプライバシーを保護します

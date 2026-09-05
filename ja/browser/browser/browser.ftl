@@ -966,21 +966,6 @@ urlbar-result-explanation-last-visited-relative-2 = 最終訪問日: { $date }
 #                    "6 days ago", "1 week ago", "4 weeks ago", "1 month ago",
 #                    "11 months ago"
 urlbar-result-explanation-last-visited-days-weeks-months-ago = 最終訪問日: { $date }
-# This explanation is used when the last-visited date is a small number of days
-# in the past.
-# Variables:
-#   $daysAgo (number) - The number of days ago
-urlbar-result-explanation-last-visited-days-2 = 最後の訪問は { $daysAgo } 日前です
-# This explanation is used when the last-visited date is a small number of weeks
-# in the past.
-# Variables:
-#   $weeksAgo (number) - The number of weeks ago
-urlbar-result-explanation-last-visited-weeks-2 = 最後の訪問は { $weeksAgo } 週間前です
-# This explanation is used when the last-visited date is a small number of
-# months in the past.
-# Variables:
-#   $monthsAgo (number) - The number of months ago
-urlbar-result-explanation-last-visited-months-2 = 最後の訪問は { $monthsAgo } か月前です
 # This explanation is used when the last-visited date is further in the past.
 # The date will be formatted as an absolute date like: "11 May", "11 May 2026"
 # Variables:
@@ -1107,10 +1092,6 @@ urlbar-searchmode-history3 = 履歴
     .accesskey = H
 urlbar-searchmode-actions3 = アクション
     .accesskey = A
-urlbar-searchmode-bookmarks2 = ブックマーク
-urlbar-searchmode-tabs2 = タブ
-urlbar-searchmode-history2 = 履歴
-urlbar-searchmode-actions2 = アクション
 urlbar-searchmode-exit-button2 =
     .title = 閉じる
 urlbar-searchmode-default2 =
@@ -1130,8 +1111,6 @@ urlbar-searchmode-popup-search-settings = 検索設定
     .accesskey = S
 urlbar-searchmode-popup-settings = 設定
     .accesskey = S
-urlbar-searchmode-popup-search-settings-panelitem = 検索設定
-urlbar-searchmode-popup-settings-panelitem = 設定
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".

@@ -194,9 +194,18 @@ newtab-privacy-across-sites = { $count } サイトでブロックしました
 
 # Shown when no trackers have been blocked yet today.
 newtab-privacy-empty = { -brand-short-name } が閲覧中にブロックしたトラッカーをここで確かめられます。
+# Shown when no trackers have been blocked yet today.
+newtab-privacy-empty-state = { -brand-short-name } が自動的にトラッカーをブロックし、ユーザーの行動のプライバシーを守ります。
+# "A running tally" is an informal way to say a total that keeps updating as it goes.
+# Here we are referring to the number of trackers blocked, which increases as the user browses.
+# An alternative can be "See a running total here"
+newtab-privacy-empty-state-tally = ここでブロックしたトラッカーの数を確認できます。
 
 ## Privacy widget — Enhanced Tracking Protection off state
 
+# Shown when the user has turned off the Enhanced Tracking Protection setting.
+newtab-privacy-etp-off-faster-browsing = ブラウジングを高速化。トラッカーを最少化。
+newtab-privacy-etp-off-turn-on-tracking = 設定でトラッキング防止をオンにしてブロックを開始してください。
 
 ## Privacy widget — informational messages
 ##
@@ -452,6 +461,9 @@ newtab-recent-searches-menu-learn-more = 詳細情報
 ## Strings for the navigable panels that new tab content area can be
 ## split into.
 
+newtab-spaces-tab-stories = ストーリー
+newtab-spaces-tab-widgets = ウィジェット
+newtab-spaces-tab-activity = アクティビティ
 
 ## Search box component.
 
@@ -719,12 +731,24 @@ newtab-discovery-empty-section-topstories-timed-out = おおっと、このセ�
 
 ## Strings for the story cards carousel
 
+# Identifies the current carousel slide to screen reader users.
+# Variables:
+#   $index - the position of this slide
+#   $total - how many slides there are
+newtab-carousel-slide =
+    .aria-label = { $index } / { $total }
 # Button that goes to the previous carousel slide.
 newtab-carousel-previous =
     .aria-label = 前へ
 # Button that goes to the next carousel slide.
 newtab-carousel-next =
     .aria-label = 次へ
+# Button that pauses autoplay on the carousel.
+newtab-carousel-pause =
+    .aria-label = 自動再生を一時停止
+# Button that resumes autoplay on the carousel.
+newtab-carousel-play =
+    .aria-label = 自動再生を再開
 
 ## Pocket Content Section.
 
@@ -894,6 +918,52 @@ newtab-wallpaper-dark-mountain = 山の景色
 newtab-wallpaper-dark-city = 紫色の街の景色
 newtab-wallpaper-dark-fox-anniversary = 森林の道路に座るキツネ
 newtab-wallpaper-light-fox-anniversary = 霧がかかった山を背景に草原にたたずむキツネ
+# Goes back from a wallpaper category to the Customize panel. Shown as an
+# arrow with no text, so this is read by screen readers only.
+newtab-wallpaper-category-back =
+    .aria-label = カスタマイズへ戻る
+
+## "Your images" is the folder of wallpapers someone has saved. A saved wallpaper
+## can be a file they uploaded, a Picture of the Day they chose to keep, or a
+## Firefox wallpaper kept for them when it was retired.
+
+newtab-wallpaper-your-images = 保存された画像
+# Accessible name for the tile that opens the "Your images" folder in the
+# wallpaper picker. The tile shows one of the saved images and has no text of
+# its own, so this is all a screen reader has to go on.
+newtab-wallpaper-your-images-folder =
+    .aria-label = 保存された画像と壁紙
+# Read by screen readers for a saved image that has a name of its own: a kept
+# Picture of the Day, or a Firefox wallpaper kept when it was retired. An image
+# someone added themselves is numbered instead, see the string below.
+# Variables:
+#   $name (string) - The picture's own title, or the Firefox wallpaper's name
+newtab-wallpaper-your-images-item = { $name }
+# Read by screen readers for an image someone added themselves. Firefox counts
+# these as they are saved rather than keeping the name of their file.
+# Variables:
+#   $number (number) - Which saved image this is, counting from one
+newtab-wallpaper-your-images-item-numbered = 画像 { $number }
+# Each saved image has its own remove button. The tooltip stays short because
+# a name can be long and some locales put it before the verb, which would push
+# "remove" out of view. The full name is on the label a screen reader reads.
+# Variables:
+#   $name (string) - The picture's own title, or the Firefox wallpaper's name
+newtab-wallpaper-remove-image =
+    .title = 画像を削除します
+    .aria-label = { $name } を削除
+# The remove button for an image someone added themselves. .title is the
+# tooltip and .aria-label is what a screen reader reads.
+# Variables:
+#   $number (number) - Which saved image this is, counting from one
+newtab-wallpaper-remove-image-numbered =
+    .title = 画像 { $number } を削除します
+    .aria-label = 画像 { $number } を削除
+newtab-wallpaper-remove-image-title = 画像を削除しますか？
+# "This action" refers to removing a saved wallpaper image.
+newtab-wallpaper-remove-image-body = この操作は元に戻せません。
+newtab-wallpaper-remove-image-confirm = 削除
+newtab-wallpaper-remove-image-cancel = キャンセル
 
 ## Solid Colors
 
@@ -990,6 +1060,9 @@ newtab-weather-menu-change-location = 予報地点を変更
 newtab-weather-change-location-search-input-placeholder =
     .placeholder = 場所を検索します
     .aria-label = 場所を検索
+newtab-weather-cancel-input =
+    .title = キャンセルします
+    .aria-label = キャンセル
 # "Current" refers to the user's physical/geographic location detected via geolocation.
 newtab-weather-change-location-search-use-current =
     .label = 現在地を使用する
@@ -1100,6 +1173,8 @@ newtab-section-follow-highlight-subtitle = 興味のあることをフォロー�
 
 newtab-topic-navigation-label =
     .aria-label = トピック
+# Opens a menu listing the topics that did not fit in the row.
+newtab-topic-navigation-more-button = さらに表示
 
 ## Button to block/unblock listed topics
 ## "Block", "unblocked", and "blocked" are social media terms that refer to hiding a section of stories.
@@ -1239,6 +1314,10 @@ newtab-widget-lists-menu-create = @@New-CMD@@リストを作成
 newtab-widget-lists-menu-delete = このリストを削除
 newtab-widget-lists-menu-copy = リストをクリップボードにコピー
 newtab-widget-lists-menu-learn-more = 詳細情報
+# "Change" is a verb here: the button switches which list is shown
+newtab-widget-lists-change-list =
+    .title = リストを変更します
+    .aria-label = リストを変更
 newtab-widget-lists-button-add-item = アイテムを追加
 newtab-widget-lists-input-add-an-item2 =
     .placeholder = アイテムを追加します
@@ -1298,6 +1377,11 @@ newtab-widget-section-maximize =
 newtab-widget-section-minimize =
     .title = ウィジェットを最小化します
     .aria-label = すべてのウィジェットをコンパクトサイズに折りたたむ
+# Shown on the widgets section header button while the section is
+# auto-minimized to its title row, to open the section back up.
+newtab-widget-section-show-widgets =
+    .title = ウィジェットを表示します
+    .aria-label = ウィジェットセクションを表示
 newtab-widget-section-menu-button =
     .title = ウィジェットメニューを開きます
     .aria-label = ウィジェットメニューを開く
