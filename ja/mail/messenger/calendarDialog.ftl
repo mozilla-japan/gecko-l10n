@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = 閉じる
     .title = 閉じる
+calendar-event-create-edit-dialog =
+    .aria-label = 予定
 calendar-dialog-menu-button =
     .aria-label = メニューを開く
     .title = メニューを開く
@@ -63,6 +65,21 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = アラームを削除
+calendar-dialog-add-reminder-button = アラームを追加
+calendar-dialog-reminder-select =
+    .aria-label = @@New-CMD@@アラームの通知時間を選択してください
+calendar-dialog-save-reminder-button = 保存
+calendar-dialog-reminder-event-start = 0 分前
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before = { $count } 分前
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before = { $count } 時間前
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before = { $count } 日前
+calendar-dialog-reminder-week-before = 1 週間前
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count = アラーム { $count } 件

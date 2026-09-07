@@ -296,6 +296,8 @@ about-addressbook-entry-name-custom3 = 追加情報 3
 about-addressbook-entry-name-custom4 = 追加情報 4
 about-addressbook-unsaved-changes-prompt-title = 変更が保存されていません
 about-addressbook-unsaved-changes-prompt = 編集ビューを閉じる前に変更を保存しますか？
+about-addressbook-photo-dialog-title =
+    .aria-label = この連絡先の顔写真を管理
 
 # Photo dialog
 
