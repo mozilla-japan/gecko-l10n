@@ -39,6 +39,9 @@ neterror-disable-native-feedback-warning = 常に続行する
 ## derived from the address that failed to resolve.
 
 neterror-search-cta-title = このサイトに到達できません
+# $hostname (String) - The host of the address that failed to load, including
+# any subdomains, for example "docs.example.com". The host is emphasized.
+neterror-search-cta-intro2 = <strong>{ $hostname }</strong> のサーバーに接続できませんでした
 # $domain (String) - The host of the address that failed to load, including any
 # subdomains, for example "docs.example.com".
 neterror-search-cta-intro = { $domain } のサーバーに接続できませんでした
