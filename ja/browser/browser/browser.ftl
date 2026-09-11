@@ -1141,6 +1141,14 @@ urlbar-view-context-menu-open-in-window =
 urlbar-view-context-menu-open-in-private-window =
     .label = @@New-CMD@@プライベート@@Window@@で開く
     .accesskey = P
+urlbar-view-context-menu-open-in-tab2 = @@NewTab@@で開く
+    .accesskey = w
+urlbar-view-context-menu-open-in-container-tab2 = @@New-CMD@@コンテナータブで開く
+    .accesskey = i
+urlbar-view-context-menu-open-in-window2 = @@NewWindow@@で開く
+    .accesskey = N
+urlbar-view-context-menu-open-in-private-window2 = @@New-CMD@@プライベート@@Window@@で開く
+    .accesskey = P
 
 ## Labels shown above groups of urlbar results
 
