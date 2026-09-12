@@ -19,7 +19,6 @@ contextual-manager-passwords-command-import = ファイルから@@Import@@...
 contextual-manager-passwords-command-export = パスワードを@@Export@@
 contextual-manager-passwords-command-remove-all = すべてのパスワードを削除
 contextual-manager-passwords-command-options = オプション
-contextual-manager-passwords-command-settings = 設定
 contextual-manager-passwords-command-help = ヘルプ
 contextual-manager-passwords-os-auth-dialog-caption = { -brand-full-name }
 # This message can be seen when attempting to export a password in about:logins on Windows.
@@ -54,10 +53,6 @@ contextual-manager-passwords-import-file-picker-csv-filter-title = CSV ファイ
 contextual-manager-passwords-import-file-picker-tsv-filter-title = TSV ファイル
 contextual-manager-passwords-import-success-heading =
     .heading = パスワードを@@Import-si@@ました
-# Variables
-#   $added (number) - Number of added passwords
-#   $modified (number) - Number of modified passwords
-contextual-manager-passwords-import-success-message = 新規: { $added }、更新: { $modified }
 # Variables
 #   $added (number) - Number of added passwords
 #   $modified (number) - Number of modified passwords
@@ -193,8 +188,6 @@ contextual-manager-passwords-create-label =
     .label = パスワードを追加
 contextual-manager-passwords-update-label =
     .label = パスワードを更新
-contextual-manager-passwords-edit-label =
-    .label = パスワードを編集
 contextual-manager-passwords-remove-label =
     .title = パスワードを削除
 contextual-manager-passwords-origin-field =
@@ -209,8 +202,7 @@ contextual-manager-passwords-password-field =
 contextual-manager-passwords-password-field-description = このアカウントにログインするためのパスワードを入力してください。
 contextual-manager-passwords-origin-tooltip = このサイトにログインするための正確なアドレスを入力してください。
 contextual-manager-passwords-username-tooltip = ログインに使用するユーザー名またはメールアドレス、アカウント番号などを入力してください。
-contextual-manager-passwords-password-tooltip-2 = このアカウントにログインするためのパスワードを入力してください。
-contextual-manager-passwords-password-tooltip = このアカウントにログインするためのパスワードを入力してください。
+contextual-manager-passwords-password-tooltip-2 = このアカウントでログインするためのパスワードを入力してください。
 
 ## Password Card
 
@@ -257,10 +249,6 @@ contextual-manager-password-login-line-with-alert =
     .title = パスワードをコピー (通知あり)
 contextual-manager-edit-login-button = 編集
     .tooltiptext = パスワードを編集します
-contextual-manager-view-alert-heading =
-    .heading = 通知を表示
-contextual-manager-view-alert-button =
-    .tooltiptext = 通知をレビュー
 # Variables
 #   $count (number) - The number of active alerts associated with the login
 contextual-manager-view-alert-heading-2 =
@@ -279,13 +267,10 @@ contextual-manager-hide-password-button =
 contextual-manager-passwords-no-passwords-found-header =
     .heading = パスワードが見つかりませんでした
 contextual-manager-passwords-no-passwords-found-message-2 = 別の単語でもう一度検索してみてください。
-contextual-manager-passwords-no-passwords-found-message = パスワードが見つかりませんでした。別の単語でもう一度検索してみてください。
 
 ## When the user has no saved passwords, we display the following messages to inform the user they can save
 ## their passwords safely and securely in Firefox:
 
-# This string encourages the user to save their passwords in Firefox (the "safe spot").
-contextual-manager-passwords-no-passwords-header = パスワードを安全な場所に保存しましょう。
 # This string informs that we (Firefox) store all passwords securely and will notify them of any breaches and alerts their
 # passwords may be involved in.
 contextual-manager-passwords-no-passwords-message = すべてのパスワードは暗号化されます。私たちはそれらの漏洩を監視し、ユーザーに影響がある場合は通知されます。

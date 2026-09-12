@@ -7,8 +7,6 @@
 ## enumerate/look for window titles. It is not normally visible anywhere.
 
 webrtc-indicator-title = { -brand-short-name } — 共有インジケーター
-webrtc-indicator-window =
-    .title = { -brand-short-name } — 共有インジケーター
 
 ## Used as list items in sharing menu
 
@@ -57,23 +55,6 @@ webrtc-microphone-system-menu =
     .label = マイクを共有しています。クリックすると共有を制御します。
 webrtc-screen-system-menu =
     .label = @@Window@@または画面を共有しています。クリックすると共有を制御します。
-
-## Tooltips used by the legacy global sharing indicator
-
-webrtc-indicator-sharing-camera-and-microphone =
-    .tooltiptext = カメラとマイクが共有されています。クリックすると共有設定を変更できます。
-webrtc-indicator-sharing-camera =
-    .tooltiptext = カメラが共有されています。クリックすると共有設定を変更できます。
-webrtc-indicator-sharing-microphone =
-    .tooltiptext = マイクが共有されています。クリックすると共有設定を変更できます。
-webrtc-indicator-sharing-application =
-    .tooltiptext = アプリケーションが共有されています。クリックすると共有設定を変更できます。
-webrtc-indicator-sharing-screen =
-    .tooltiptext = 画面が共有されています。クリックすると共有設定を変更できます。
-webrtc-indicator-sharing-window =
-    .tooltiptext = @@Window@@が共有されています。クリックすると共有設定を変更できます。
-webrtc-indicator-sharing-browser =
-    .tooltiptext = タブが共有されています。クリックすると共有設定を変更できます。
 
 ## These strings are only used on Mac for menus attached to icons
 ## near the clock on the mac menubar.
@@ -161,7 +142,6 @@ webrtc-allow-share-screen-and-audio-capture-unsafe-delegation = { $origin } か�
 
 webrtc-share-screen-warning = 画面の共有は、信頼できるサイトのみと行うようにしてください。不審なサイトと共有すると、あなたの個人情報を盗まれる危険があります。
 webrtc-share-browser-warning = { -brand-short-name } の共有は、信頼できるサイトのみと行うようにしてください。不審なサイトと共有すると、あなたの個人情報を盗まれる危険があります。
-webrtc-share-screen-learn-more = 詳細
 webrtc-pick-window-or-screen = @@Window@@または画面を選択してください
 webrtc-share-entire-screen = 全画面
 webrtc-share-pipe-wire-portal = オペレーティングシステムの設定を使用する

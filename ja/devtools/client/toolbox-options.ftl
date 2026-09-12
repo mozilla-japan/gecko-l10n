@@ -188,8 +188,6 @@ options-disable-http-cache-tooltip =
     .title = このオプションを有効にすると、ツールボックスを開いているときはすべてのタブの HTTP キャッシュを無効にします。ただし、Service Worker はこのオプションに影響されません
 # The label for checkbox that toggles JavaScript on or off
 options-disable-javascript-label-2 = JavaScript を無効化
-# The label for checkbox that toggles JavaScript on or off
-options-disable-javascript-label = JavaScript を無効化 *
 options-disable-javascript-tooltip =
     .title = このオプションを有効にすると、現在のタブの JavaScript を無効にします。タブまたはツールボックスを閉じると、この設定は@@Undo-sare@@ます
 # The label for checkbox that toggles chrome debugging, i.e. the devtools.chrome.enabled preference
@@ -219,8 +217,6 @@ options-source-maps-tooltip =
 # The message shown for settings that trigger page reload and will only apply to the current session
 # This appears underneath the applicable options (e.g. options-disable-javascript-label-2).
 options-context-triggers-page-refresh-temporary = (現在のセッションのみ有効、ページを再読み込みします)
-# The message shown for settings that trigger page reload and will only apply to the current session
-options-context-triggers-page-refresh = * 現在のセッションのみ有効、ページを再読み込みします
 # The message shown for settings that trigger page reload
 # This appears underneath the applicable options (e.g. options-show-user-agent-shadow-dom-label).
 options-context-triggers-page-refresh-persists = (このページを再読み込み)

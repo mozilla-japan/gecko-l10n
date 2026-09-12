@@ -49,7 +49,6 @@ policy-DisableDefaultBrowserAgent = Default Browser Agent のアクションを�
 policy-DisableDeveloperTools = 開発ツールへのアクセスをブロックします。
 policy-DisableEncryptedClientHello = TLS の Encrypted Client Hello (ECH) 機能の使用を無効にします。
 policy-DisableFeedbackCommands = ヘルプメニューのフィードバックの送信 (フィードバックと詐欺サイトの報告の送信) を無効にします。
-policy-DisableFirefoxAccounts = Sync を含む { -fxaccount-brand-name } を利用したサービスを無効にします。
 # This string is in the process of being deprecated in favor of policy-DisableAccounts.
 policy-DisableFirefoxAccounts1 = Sync を含め、アカウントを利用したサービスを無効にします。
 # Firefox Screenshots is the name of the feature, and should not be translated.
@@ -60,7 +59,6 @@ policy-DisableFormHistory = 検索とフォームの履歴を記憶しないよ�
 policy-DisableLaunchOnLogin = ユーザーログイン時の { -brand-short-name } の自動起動を抑止します。
 policy-DisablePrimaryPasswordCreation = true の場合、マスターパスワードを作成できないようにします。
 policy-DisablePasswordReveal = 保存されたパスワードの開示を許可しないようにします。
-policy-DisablePocket2 = ウェブページを { -pocket-brand-name } に保存する機能を無効にします。
 policy-DisablePrivateBrowsing = プライベートブラウジングを無効にします。
 policy-DisableProfileImport = メニューコマンド @@[@@他のブラウザーからデータを@@Import@@@@]@@ を無効にします。
 policy-DisableProfileRefresh = about:support ページの @@[@@{ -brand-short-name } をリフレッシュ@@]@@ ボタンを無効にします。
@@ -132,7 +130,6 @@ policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー PDF.js 
 policy-Permissions2 = カメラ、マイク、位置情報、通知、自動再生の許可と拒否を設定します。
 policy-PictureInPicture = ピクチャーインピクチャーを有効または無効にします。
 policy-PopupBlocking2 = 特定のウェブサイトにポップアップ表示とサードパーティフレームによるリダイレクトを許可します。
-policy-PopupBlocking = 特定のウェブサイトのポップアップ表示を@@Default@@で許可します。
 policy-Preferences = 設定のサブセットに対する値を設定してロックします。
 policy-PrivateBrowsingModeAvailability = プライベートブラウジングモードの利用許可を設定します。
 policy-PromptForDownloadLocation = ダウンロード時にファイルの保存先を確認します。

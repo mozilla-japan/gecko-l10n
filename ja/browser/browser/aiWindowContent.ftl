@@ -156,10 +156,6 @@ action-log-checking-memories = AI メモリーを確認しています
 action-log-checked-memories = AI メモリーを確認しました
 action-log-searching-settings = 設定を検索しています
 action-log-searched-settings = 設定を検索しました
-action-log-searching-world-cup-matches = ワールドカップの試合を検索しています
-action-log-searched-world-cup-matches = ワールドカップの試合を検索しました
-action-log-checking-world-cup-live = ワールドカップのライブ試合を確認しています
-action-log-checked-world-cup-live = ワールドカップのライブ試合を確認しました
 # Variables
 #   $count (Number) - how many tool steps completed in the turn
 action-log-completed-steps = { $count } ステップ完了しました

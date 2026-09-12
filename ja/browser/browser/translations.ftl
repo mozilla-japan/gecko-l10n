@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# The button for "Firefox Translations" in the url bar.
-urlbar-translations-button =
-    .tooltiptext = このページを翻訳します
 # The button for "Firefox Translations" in the url bar. Note that here "Beta" should
 # not be translated, as it is a reflection of the un-localized BETA icon that is in the
 # panel.
@@ -26,18 +23,12 @@ urlbar-translations-button-translated =
 urlbar-translations-button-loading =
     .tooltiptext = 翻訳中です
 translations-panel-settings-button =
-    .aria-label = 翻訳の設定を管理します
-# Text displayed on a language dropdown when the language is in beta
-# Variables:
-#   $language (string) - The localized display name of the detected language
-translations-panel-displayname-beta =
-    .label = { $language } BETA
+    .aria-label = 翻訳設定を管理
 
 ## Options in the Firefox Translations settings.
 
 translations-panel-settings-manage-languages =
     .label = 言語の管理
-translations-panel-settings-about = { -brand-shorter-name } の翻訳機能について
 translations-panel-settings-about2 =
     .label = { -brand-shorter-name } の翻訳機能について
 # Text displayed for the option to always translate a given language
@@ -91,14 +82,6 @@ translations-panel-error-change-button =
 #   $language (string) - The language of the document.
 translations-panel-error-unsupported-hint-known-2 = 申し訳ありません。{ $language } からの翻訳にはまだ対応していません。
 translations-panel-error-unsupported-hint-unknown-2 = 申し訳ありません。この言語からの翻訳にはまだ対応していません。
-# If your language requires declining the language name, a possible solution
-# is to adapt the structure of the phrase, or use a support noun, e.g.
-# `Sorry, we don't support the language yet: { $language }
-#
-# Variables:
-#   $language (string) - The language of the document.
-translations-panel-error-unsupported-hint-known = 申し訳ありません。{ $language } にはまだ対応していません。
-translations-panel-error-unsupported-hint-unknown = 申し訳ありません。この言語にはまだ対応していません。
 
 ## Each label is followed, on a new line, by a dropdown list of language names.
 ## If this structure is problematic for your locale, an alternative way is to
@@ -130,10 +113,6 @@ translations-manage-header = 翻訳
 translations-manage-settings-button =
     .label = 設定...
     .accesskey = t
-translations-manage-description = オフライン翻訳用の言語ファイルをダウンロードします
-translations-manage-all-language = すべての言語
-translations-manage-download-button = ダウンロード
-translations-manage-delete-button = 削除
 translations-manage-intro-2 = 言語とサイト翻訳の設定、オフライン翻訳用にダウンロードした言語を管理します。
 translations-manage-download-description = オフライン翻訳用の言語ファイルをダウンロードします
 translations-manage-language-download-button =
@@ -147,8 +126,7 @@ translations-manage-language-remove-all-button =
     .label = すべて削除
     .accesskey = e
 translations-manage-error-download = 言語ファイルのダウンロード時に問題が発生しました。もう一度試してください。
-translations-manage-error-delete = 言語ファイルの削除時にエラーが発生しました。もう一度試してください。
-translations-manage-error-remove = 言語ファイルの削除時に問題が発生しました。もう一度試してください。
+translations-manage-error-remove = 言語ファイルの削除時にエラーが発生しました。もう一度試してください。
 translations-manage-error-list = 利用可能な翻訳言語リストの取得に失敗しました。ページを更新してもう一度試してください。
 translations-settings-title =
     .title = 翻訳設定
@@ -246,16 +224,6 @@ select-translations-panel-unsupported-language-message-known-2 =
     .message = 申し訳ありません。{ $language } からの翻訳にはまだ対応していません。
 select-translations-panel-unsupported-language-message-unknown-2 =
     .message = 申し訳ありません。この言語からの翻訳にはまだ対応していません。
-# If your language requires declining the language name, a possible solution
-# is to adapt the structure of the phrase, or use a support noun, e.g.
-# `Sorry, we don't support the language yet: { $language }
-#
-# Variables:
-#   $language (string) - The language of the document.
-select-translations-panel-unsupported-language-message-known =
-    .message = 申し訳ありません。{ $language } にはまだ対応していません。
-select-translations-panel-unsupported-language-message-unknown =
-    .message = 申し訳ありません。この言語にはまだ対応していません。
 # Text displayed on the menuitem that opens the Translation Settings page.
 select-translations-panel-open-translations-settings-menuitem =
     .label = 翻訳設定

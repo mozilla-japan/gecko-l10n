@@ -2,113 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# These are the default window titles everywhere except macOS.
-# .data-title-default and .data-title-private are used when the web content
-# opened has no title:
-#
-# default - "Mozilla Firefox"
-# private - "Mozilla Firefox (Private Browsing)"
-#
-# .data-content-title-default and .data-content-title-private are for use when
-# there *is* a content title.
-# Variables:
-#  $content-title (String): the title of the web content.
-browser-main-window-window-titles =
-    .data-title-default = { -brand-full-name }
-    .data-title-private = { -brand-full-name } プライベートブラウジング
-    .data-content-title-default = { $content-title } — { -brand-full-name }
-    .data-content-title-private = { $content-title } — { -brand-full-name } プライベートブラウジング
-# These are the default window titles on macOS.
-# .data-title-default and .data-title-private are used when the web content
-# opened has no title:
-#
-#
-# "default" - "Mozilla Firefox"
-# "private" - "Mozilla Firefox — (Private Browsing)"
-#
-# .data-content-title-default and .data-content-title-private are for use when
-# there *is* a content title.
-# Do not use the brand name in these, as we do on non-macOS.
-#
-# Also note the other subtle difference here: we use a `-` to separate the
-# brand name from `(Private Browsing)`, which does not happen on other OSes.
-#
-# Variables:
-#  $content-title (String): the title of the web content.
-browser-main-window-mac-window-titles =
-    .data-title-default = { -brand-full-name }
-    .data-title-private = { -brand-full-name } — プライベートブラウジング
-    .data-content-title-default = { $content-title }
-    .data-content-title-private = { $content-title } — プライベートブラウジング
-# This gets set as the initial title, and is overridden as soon as we start
-# updating the titlebar based on loaded tabs or private browsing state.
-# This should match the `data-title-default` attribute in both
-# `browser-main-window` and `browser-main-window-mac`.
-browser-main-window-title = { -brand-full-name }
 # The non-variable portion of this MUST match the translation of
 # "PRIVATE_BROWSING_SHORTCUT_TITLE" in custom.properties
 private-browsing-shortcut-text-2 = { -brand-shortcut-name } プライベートブラウジング
 # This MUST match the translation of "BRIEF_APP_DESC" in custom.properties
 browser-shortcut-description = 高速でプライベートなウェブブラウジング
-# These are the default window titles everywhere except macOS.
-# .data-title-default and .data-title-private are used when the web content
-# opened has no title:
-#
-# default - "Mozilla Firefox"
-# private - "Mozilla Firefox (Private Browsing)"
-#
-# .data-content-title-default and .data-content-title-private are for use when
-# there *is* a content title.
-#
-# .data-title-default-with-profile, .data-title-private-with-profile,
-# .data-content-title-default-with-profile,
-# .data-content-title-private-with-profile are used when there a
-# SelectableProfileService.current profile exists.
-#
-# Variables:
-#  $content-title (String): the title of the web content.
-#  $profile-name (String): the name of the current profile.
-browser-main-window-titles =
-    .data-title-default = { -brand-full-name }
-    .data-title-private = { -brand-full-name } プライベートブラウジング
-    .data-title-default-with-profile = { $profile-name } — { -brand-full-name }
-    .data-title-private-with-profile = { $profile-name } — { -brand-full-name } プライベートブラウジング
-    .data-content-title-default = { $content-title } — { -brand-full-name }
-    .data-content-title-private = { $content-title } — { -brand-full-name } プライベートブラウジング
-    .data-content-title-default-with-profile = { $content-title } — { $profile-name } — { -brand-full-name }
-    .data-content-title-private-with-profile = { $content-title } — { $profile-name } — { -brand-full-name } プライベートブラウジング
-# These are the default window titles on macOS.
-# .data-title-default and .data-title-private are used when the web content
-# opened has no title:
-#
-#
-# "default" - "Mozilla Firefox"
-# "private" - "Mozilla Firefox — (Private Browsing)"
-#
-# .data-content-title-default and .data-content-title-private are for use when
-# there *is* a content title.
-# Do not use the brand name in these, as we do on non-macOS.
-#
-# .data-title-default-with-profile, .data-title-private-with-profile,
-# .data-content-title-default-with-profile,
-# .data-content-title-private-with-profile are used when there a
-# SelectableProfileService.current profile exists.
-#
-# Also note the other subtle difference here: we use a `-` to separate the
-# brand name from `(Private Browsing)`, which does not happen on other OSes.
-#
-# Variables:
-#  $content-title (String): the title of the web content.
-#  $profile-name (String): the name of the current profile.
-browser-main-window-titles-mac =
-    .data-title-default = { -brand-full-name }
-    .data-title-private = { -brand-full-name } — プライベートブラウジング
-    .data-title-default-with-profile = { $profile-name } — { -brand-full-name }
-    .data-title-private-with-profile = { $profile-name } — { -brand-full-name } プライベートブラウジング
-    .data-content-title-default = { $content-title }
-    .data-content-title-private = { $content-title } — プライベートブラウジング
-    .data-content-title-default-with-profile = { $content-title } — { $profile-name }
-    .data-content-title-private-with-profile = { $content-title } — { $profile-name } — プライベートブラウジング
 # This is the initial default title for the browser window.
 # It gets updated based on loaded tabs or private browsing state.
 browser-main-window-default-title = { -brand-full-name }
@@ -179,8 +77,6 @@ urlbar-indexed-db-notification-anchor =
     .tooltiptext = オフラインストレージのメッセージパネルを開きます
 urlbar-password-notification-anchor =
     .tooltiptext = パスワードの保存メッセージパネルを開きます
-urlbar-plugins-notification-anchor =
-    .tooltiptext = 使用するプラグインを管理します
 urlbar-web-rtc-share-devices-notification-anchor =
     .tooltiptext = カメラとマイクの共有を管理します
 # "Speakers" is used in a general sense that might include headphones or
@@ -193,15 +89,8 @@ urlbar-persistent-storage-notification-anchor =
     .tooltiptext = データを永続ストレージに格納します
 urlbar-addons-notification-anchor =
     .tooltiptext = アドオンのインストールのメッセージパネルを開きます
-urlbar-tip-help-icon =
-    .title = ヘルプを表示
 urlbar-search-tips-confirm = 了解しました
 urlbar-search-tips-confirm-short = 了解
-# Read out before Urlbar Tip text content so screenreader users know the
-# subsequent text is a tip offered by the browser. It should end in a colon or
-# localized equivalent.
-urlbar-tip-icon-description =
-    .alt = ヒント:
 urlbar-result-menu-button =
     .title = メニューを開く
 urlbar-result-menu-button-feedback = フィードバック
@@ -246,9 +135,6 @@ urlbar-result-menu-tip-get-help =
 urlbar-result-menu-dismiss-suggestion =
     .label = この検索候補を閉じる
     .accesskey = D
-urlbar-result-menu-learn-more-about-firefox-suggest =
-    .label = { -firefox-suggest-brand-name } についての詳細
-    .accesskey = L
 urlbar-result-menu-manage-firefox-suggest =
     .label = { -firefox-suggest-brand-name } を管理
     .accesskey = M
@@ -280,8 +166,6 @@ urlbar-dismissal-acknowledgment-weather = フィードバックありがとう�
 
 urlbar-search-tips-onboard = 少ない入力でたくさん見つかる: アドレスバーから { $engineName } ですぐ検索します。
 urlbar-search-tips-redirect-2 = アドレスバーで検索を始めると、{ $engineName } からの検索候補と閲覧履歴が表示されます。
-# Make sure to match the name of the Search panel in settings.
-urlbar-search-tips-persist = 検索がシンプルになりました。アドレスバーで具体的な語句を用いて検索してみてください。代わりに URL を表示するには、設定の検索パネルを開いてください。
 # Prompts users to use the Urlbar when they are typing in the domain of a
 # search engine, e.g. google.com or amazon.com.
 urlbar-tabtosearch-onboard = このショートカットを選択すると、必要なものを早く見つけられます。
@@ -315,8 +199,6 @@ urlbar-persistent-storage-blocked =
     .tooltiptext = このウェブサイトの永続ストレージの使用をブロックしました。
 urlbar-popup-blocked2 =
     .tooltiptext = このウェブサイトのポップアップとサードパーティによるリダイレクトをブロックしました。
-urlbar-popup-blocked =
-    .tooltiptext = このウェブサイトのポップアップをブロックしました。
 urlbar-autoplay-media-blocked =
     .tooltiptext = このウェブサイトの音声付きメディアの自動再生をブロックしました。
 urlbar-canvas-blocked =
@@ -427,24 +309,18 @@ quickactions-cmd-addons3 = extensions, themes, addons, add-ons
 # Opens preferences page at AI controls
 quickactions-manageai = AI 制御の管理
 quickactions-cmd-manageai = disable ai, off ai, manage ai
-quickactions-cmd-addons2 = add-ons
 # Opens the bookmarks library window
 quickactions-bookmarks2 = ブックマークを管理
 quickactions-cmd-bookmarks = bookmarks
 # Opens a SUMO article explaining how to clear history
 quickactions-clearrecenthistory = 最近の履歴を消去
 quickactions-cmd-clearrecenthistory2 = cookies, clear cookies, cache, clear cache, browsing data, clear browsing data, history, clear recent history
-quickactions-cmd-clearrecenthistory = clear recent history, history
-# Opens a SUMO article explaining how to clear history
-quickactions-clearhistory = 履歴を消去
-quickactions-cmd-clearhistory = clear history
 # Opens about:downloads page
 quickactions-downloads2 = ダウンロードを表示
 quickactions-cmd-downloads = downloads
 # Opens about:addons page in the extensions section
 quickactions-extensions = 拡張機能を管理
 quickactions-cmd-extensions2 = extensions, addons, add-ons
-quickactions-cmd-extensions = extensions
 # Opens Firefox View
 quickactions-firefoxview = { -firefoxview-brand-name } を開く
 # English is using "view" and "open view", since the feature name is
@@ -457,7 +333,6 @@ quickactions-cmd-help = help, support
 # Opens the devtools web inspector
 quickactions-inspector2 = 開発ツールを開く
 quickactions-cmd-inspector2 = inspector, devtools, dev tools
-quickactions-cmd-inspector = inspector, devtools
 # Opens the devtools eyedropper to pick a color from the page
 quickactions-colorpicker = Pick a color
 quickactions-cmd-colorpicker = color picker, eyedropper, pick color
@@ -473,9 +348,6 @@ quickactions-mute = 音声再生中のタブをミュート
 # Replace with idiomatic expressions in your language to silence something or
 # someone.
 quickactions-cmd-mute = mute, shush, sssssh
-# Opens about:addons page in the plugins section
-quickactions-plugins = プラグインを管理
-quickactions-cmd-plugins = plugins
 # Opens the print dialog
 quickactions-print2 = ページを@@Print@@
 quickactions-cmd-print = print
@@ -500,26 +372,22 @@ quickactions-cmd-screenshot2 = screenshot, take a screenshot
 # Opens about:translations
 quickactions-translate = 翻訳
 quickactions-cmd-translate = translate
-quickactions-cmd-screenshot = screenshot
 # Opens about:preferences
 quickactions-settings2 = 設定を管理
 # "manage" should match the corresponding command, which is “Manage settings” in English.
 quickactions-cmd-settings2 = settings, preferences, options, manage
-quickactions-cmd-settings = settings, preferences, options
 # Opens about:addons page in the themes section
 quickactions-themes = テーマを管理
 # In English we provide multiple spellings for "add-ons". If that's not
 # applicable to your language, only use the correct spelling (don't repeat the
 # same word).
 quickactions-cmd-themes2 = themes, add-ons, addons
-quickactions-cmd-themes = themes
 # Opens a SUMO article explaining how to update the browser
 quickactions-update = { -brand-short-name } を更新
 quickactions-cmd-update = update
 # Opens the view-source UI with current pages source
 quickactions-viewsource2 = ページのソースを表示
 quickactions-cmd-viewsource2 = view source, source, page source
-quickactions-cmd-viewsource = view source, source
 # Opens about:preferences:experimental (Firefox Labs)
 quickactions-labs = { -firefoxlabs-brand-name } を開く
 quickactions-cmd-labs = labs, experiment
@@ -579,9 +447,7 @@ identity-custom-root = Mozilla が承認していない発行者の証明書で�
 identity-passive-loaded = このページの一部 (画像など) は安全ではありません。
 identity-active-loaded = このページでの保護は無効に設定されています。
 identity-weak-encryption = このページは脆弱な暗号を使用しています。
-identity-insecure-login-forms = このページのログインフォームは安全ではありません。
 identity-https-only-connection-upgraded = (安全な HTTPS で接続中)
-identity-https-only-label = HTTPS-Only モード
 identity-https-only-label2 = このサイトを自動的に安全な接続にアップグレードします
 identity-https-only-dropdown-on =
     .label = オン
@@ -589,8 +455,6 @@ identity-https-only-dropdown-off =
     .label = オフ
 identity-https-only-dropdown-off-temporarily =
     .label = 一時的にオフ
-identity-https-only-info-turn-on2 = このサイトで { -brand-short-name } に可能な限り接続をアップグレードさせたい場合は、HTTPS-Only モードをオンにしてください。
-identity-https-only-info-turn-off2 = ページが動作しない場合は HTTPS-Only モードをオフにして、安全でない HTTP 接続でこのサイトを再読み込みするとよいでしょう。
 identity-https-only-info-turn-on3 = このサイトで { -brand-short-name } に可能な限り接続をアップグレードさせたい場合は、HTTPS アップグレードをオンにしてください。
 identity-https-only-info-turn-off3 = ページが動作しない場合は HTTPS アップグレードをオフにして、安全でない HTTP 接続でこのサイトを再読み込みするとよいでしょう。
 identity-https-only-info-no-upgrade = 接続を HTTP からアップグレードできません。
@@ -614,7 +478,6 @@ identity-remove-cert-exception =
     .label = 例外から削除
     .accesskey = R
 identity-description-insecure = このサイトへの接続は秘密が保たれません。このサイトに送信した情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。
-identity-description-insecure-login-forms = このページに入力したログイン情報は安全に送信されません。第三者に盗み見られる可能性があります。
 identity-description-weak-cipher-intro = このウェブサイトとの接続には脆弱な暗号が使用されており、秘密が保たれません。
 identity-description-weak-cipher-risk = 第三者にあなたの情報を盗み見られたりウェブサイトの動作を不正に改変される可能性があります。
 identity-description-active-blocked2 = { -brand-short-name } がこのページ上の安全でないコンテンツをブロックしました。
@@ -625,12 +488,6 @@ identity-description-active-loaded = このウェブサイトには安全でな�
 identity-description-active-loaded-insecure = このサイトと共有したあなたの情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。
 identity-description-tls-key-logging-heading = 現在の接続はプライベートになりません
 identity-description-tls-key-logging-message = アプリまたはサービスがこのサイトから暗号化された通信を読み取ることができます。
-identity-disable-mixed-content-blocking =
-    .label = このセッションのみ保護を無効にする
-    .accesskey = D
-identity-enable-mixed-content-blocking =
-    .label = 保護を有効にする
-    .accesskey = E
 identity-more-info-link-text =
     .label = 詳細を表示
 
@@ -647,37 +504,6 @@ browser-window-close-button =
 # Clicking this button closes the window and returns to the tab where it was opened from
 browser-window-return-to-opener =
     .tooltiptext = 戻る
-
-## Tab actions
-
-# This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-playing2 = 再生中
-# This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-muted2 = ミュート中
-# This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-blocked = 自動再生をブロック
-# This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-pip = ピクチャーインピクチャー
-
-## These labels should be written in all capital letters if your locale supports them.
-## Variables:
-##  $count (number): number of affected tabs
-
-browser-tab-mute =
-    { $count ->
-        [1] タブをミュート
-       *[other] { $count } 個のタブをミュート
-    }
-browser-tab-unmute =
-    { $count ->
-        [1] タブのミュートを解除
-       *[other] { $count } 個のタブのミュートを解除
-    }
-browser-tab-unblock =
-    { $count ->
-        [1] タブのメディアを再生
-       *[other] { $count } 個のタブのメディアを再生
-    }
 
 ## Bookmarks toolbar items
 
@@ -718,10 +544,6 @@ sharing-warning-disable-for-session =
 
 webserial-select-port-label = シリアルポートを選択:
 webserial-no-ports-available = 利用可能なシリアルポートがありません
-
-## DevTools F12 popup
-
-enable-devtools-popup-description2 = F12 ショートカットを使うには、最初にメニューのブラウザーツールから開発ツールを開いてください。
 
 ## URL Bar
 
@@ -786,8 +608,6 @@ urlbar-extension =
     .value = 拡張機能:
 urlbar-go-button2 =
     .title = アドレスバーに入力された URL へ移動します
-urlbar-go-button =
-    .tooltiptext = アドレスバーに入力された URL へ移動します
 urlbar-page-action-button =
     .tooltiptext = ページ操作
 urlbar-revert-button =
@@ -845,11 +665,6 @@ urlbar-result-action-tabtosearch-web = アドレスバーから直接 { $engine 
 urlbar-result-action-tabtosearch-other-engine = アドレスバーから直接 { $engine } を検索
 # Action text for copying to clipboard.
 urlbar-result-action-copy-to-clipboard = コピー
-# Shows the result of a formula expression being calculated, the last = sign will be shown
-# as part of the result (e.g. "= 2").
-# Variables
-#  $result (String): the string representation for a formula result
-urlbar-result-action-calculator-result = = { $result }
 # The string returned for an undefined calculator result such as when dividing by 0
 urlbar-result-action-undefined-calculator-result = 未定義
 # The sub title of an add-on suggestion in the urlbar.
@@ -860,23 +675,6 @@ urlbar-result-mdn-subtitle = { -mdn-brand-name }
 urlbar-result-yelp-subtitle = { -yelp-brand-name }
 # This string explaining that the suggestion is a recommendation.
 urlbar-result-suggestion-recommended = おすすめ
-# Shows the result of a formula expression being calculated, in scientific notation.
-# The last = sign will be shown as part of the result (e.g. "= 1.0e17").
-# Variables
-#  $result (String): the string representation for a result in scientific notation
-#  (e.g. "1.0e17").
-urlbar-result-action-calculator-result-scientific-notation = = { $result }
-# Shows the result of a formula expression being calculated, this is used for numbers >= 1.
-# The last = sign will be shown as part of the result (e.g. "= 2").
-# Variables
-#  $result (String): the string representation for a formula result
-urlbar-result-action-calculator-result-3 = = { NUMBER($result, useGrouping: "false", maximumFractionDigits: 8) }
-# Shows the result of a formula expression being calculated, to a maximum of 9 significant
-# digits. This is used for numbers < 1.
-# The last = sign will be shown as part of the result (e.g. "= 0.333333333").
-# Variables
-#  $result (String): the string representation for a formula result
-urlbar-result-action-calculator-result-decimal = = { NUMBER($result, maximumSignificantDigits: 9) }
 # The title of a weather suggestion in the urlbar. The temperature and unit
 # substring should be inside a <strong> tag. If the temperature and unit are not
 # adjacent in the localization, it's OK to include only the temperature in the
@@ -1046,32 +844,6 @@ urlbar-result-search-with-local-search-mode = { $keywords } - { $localSearchMode
 #  $keywords (String): the default keyword and user's set keyword if available
 #  $engine (String): the name of a search engine
 urlbar-result-search-with-engine-keywords = { $keywords } - { $engine } で検索
-urlbar-searchmode-dropmarker =
-    .tooltiptext = 検索エンジンを選択します
-urlbar-searchmode-bookmarks =
-    .label = ブックマーク
-urlbar-searchmode-tabs =
-    .label = タブ
-urlbar-searchmode-history =
-    .label = 履歴
-urlbar-searchmode-actions =
-    .label = アクション
-urlbar-searchmode-exit-button =
-    .tooltiptext = 閉じる
-# Label shown on the top of Searchmode Switcher popup. After this label, the
-# available search engines will be listed.
-urlbar-searchmode-popup-description = 今回だけ使う検索エンジン:
-urlbar-searchmode-popup-search-settings-menuitem =
-    .label = 検索設定
-# Searchmode Switcher button
-# Variables:
-#   $engine (String): the current default search engine.
-urlbar-searchmode-button2 =
-    .label = 検索エンジン: { $engine }、別の検索エンジンを選択
-    .tooltiptext = 検索エンジン: { $engine }、別の検索エンジンを選択します
-urlbar-searchmode-button-no-engine =
-    .label = ショートカットが選択されていません。ショートカットを選択
-    .tooltiptext = ショートカットが選択されていません。ショートカットを選択します
 # Searchmode Switcher button
 # Variables:
 #   $engine (String): the current default search engine.
@@ -1127,7 +899,7 @@ urlbar-result-action-switch-to-tabgroup = { $group } に切り替え
 #  $group (String): the name of the tab group to re-open
 urlbar-result-action-open-saved-tabgroup = { $group } を開く
 
-## Used in the context menu in urlbar view.
+## Used in the menu of a urlbar result.
 
 urlbar-view-context-menu-open-in-tab =
     .label = @@NewTab@@で開く
@@ -1178,16 +950,10 @@ urlbar-group-trending =
 # The result menu labels shown next to trending results.
 urlbar-result-menu-trending-dont-show2 = 検索トレンドを表示しない
     .accesskey = D
-# Label shown above sponsored suggestions in the urlbar results.
-urlbar-group-sponsored =
-    .label = 広告
 # The result menu labels shown next to trending results.
 urlbar-result-menu-trending-dont-show =
     .label = 検索トレンドを表示しない
     .accesskey = D
-urlbar-result-menu-trending-why =
-    .label = これが表示されるのはなぜ？
-    .accesskey = W
 # A message that replaces a result when the user dismisses all suggestions of a
 # particular type.
 urlbar-trending-dismissal-acknowledgment = フィードバックありがとうございます。今後は検索トレンドが表示されなくなります。
@@ -1272,12 +1038,6 @@ bookmarks-tools-toolbar-visibility-panel =
             [true] ブックマークツールバーを隠す
            *[other] ブックマークツールバーを表示
         }
-bookmarks-tools-menu-button-visibility =
-    .label =
-        { $isVisible ->
-            [true] ブックマークメニューをツールバーから削除
-           *[other] ブックマークメニューをツールバーに追加
-        }
 
 ##
 
@@ -1308,14 +1068,6 @@ bookmarks-subview-bookmark-tab =
 
 library-bookmarks-menu =
     .label = ブックマーク
-library-recent-activity-title =
-    .value = 最近のアクティビティ
-
-## Pocket toolbar button
-
-save-to-pocket-button =
-    .label = { -pocket-brand-name } に保存
-    .tooltiptext = { -pocket-brand-name } に保存します
 
 ## Repair text encoding toolbar button
 
@@ -1405,8 +1157,6 @@ eme-notifications-drm-content-playing-dismiss-accesskey = D
 
 ## Password save/update panel
 
-panel-save-update-username = ユーザー名
-panel-save-update-password = パスワード
 panel-save-update-username-2 =
     .label = ユーザー名
 panel-save-update-password-2 =
@@ -1428,33 +1178,18 @@ menu-share-copy-links =
            *[other] { $count } 個のリンクをコピー
         }
     .accesskey = L
-menu-share-copy-link =
-    .label = リンクをコピー
-    .accesskey = L
 ui-tour-info-panel-close =
     .tooltiptext = 閉じる
 
 ## Variables:
 ##  $uriHost (String): URI host for which the popup was allowed or blocked.
 
-popups-infobar-allow =
-    .label = このサイト ({ $uriHost }) によるポップアップを許可する
-    .accesskey = p
-popups-infobar-block =
-    .label = このサイト ({ $uriHost }) によるポップアップを禁止する
-    .accesskey = p
 popups-infobar-allow2 =
     .label = このサイト ({ $uriHost }) によるポップアップおよびサードパーティによるリダイレクトを許可する
     .accesskey = p
 
 ##
 
-popups-infobar-dont-show-message =
-    .label = ポップアップをブロックするとき、このメッセージを表示しない
-    .accesskey = D
-edit-popup-settings =
-    .label = ポップアップの設定を管理...
-    .accesskey = M
 picture-in-picture-hide-toggle =
     .label = ピクチャーインピクチャーの切り替えボタンを隠す
     .accesskey = H
@@ -1483,8 +1218,6 @@ navbar-downloads =
     .label = ダウンロード
 navbar-overflow-2 =
     .tooltiptext = その他のツール
-navbar-overflow =
-    .tooltiptext = その他のツール...
 # Variables:
 #   $shortcut (String): keyboard shortcut to print the page
 navbar-print =
@@ -1587,13 +1320,8 @@ unified-extensions-button-blocklisted =
 
 ## Private browsing reset button
 
-reset-pbm-toolbar-button =
-    .label = プライベートセッションを終了
-    .tooltiptext = プライベートセッションを終了します
 reset-pbm-panel-heading2 = データを消去して新しいプライベートセッションを開始しますか？
 reset-pbm-panel-description2 = これはプライベート@@Window@@を閉じずに、履歴、Cookie、その他すべてのサイトデータを削除します。
-reset-pbm-panel-heading = プライベートセッションを終了しますか？
-reset-pbm-panel-description = すべてのプライベートタブを閉じ、履歴、Cookie、その他すべてのサイトデータを削除します。
 reset-pbm-panel-always-ask-checkbox =
     .label = 常に確認する
     .accesskey = A
@@ -1603,9 +1331,6 @@ reset-pbm-panel-cancel-button =
 reset-pbm-panel-confirm-button2 =
     .label = プライベートセッションを消去
     .accesskey = l
-reset-pbm-panel-confirm-button =
-    .label = セッションデータを削除
-    .accesskey = D
 reset-pbm-panel-complete = プライベートセッションのデータを削除しました
 reset-pbm-toolbar-button2 =
     .label = プライベートセッションを消去

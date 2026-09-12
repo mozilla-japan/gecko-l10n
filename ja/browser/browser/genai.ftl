@@ -52,11 +52,6 @@ genai-prompt-prefix-selection = I’m on page “{ $tabTitle }” with “{ $sel
 
 ## Chatbot menu shortcuts
 
-genai-menu-ask-generic =
-    .label = AI チャットボットに尋ねる
-# $provider (string) - name of the provider
-genai-menu-ask-provider =
-    .label = { $provider } に尋ねる
 genai-menu-open-generic =
     .label = AI チャットボットを開く
 # $provider (string) - name of the provider
@@ -123,8 +118,6 @@ genai-header-provider-menu =
     .title = チャットボットを選んでください
 genai-header-settings-button =
     .title = AI チャット設定
-genai-header-options-button =
-    .title = メニューを開く
 genai-header-close-button =
     .title = 閉じる
 genai-provider-view-details =
@@ -152,37 +145,25 @@ genai-page-button-summarize = ページを要約
 
 ## Chatbot onboarding
 
-genai-onboarding-header = ブラウジングしながらページの要約、ブレーンストーミングなど。
 genai-onboarding-choose-header = { -brand-short-name } サイドバー内で使用する AI チャットボットを選んでください
-# "Switch anytime" refers to allowing the user to switch to a different chatbot.
-genai-onboarding-description = { -brand-short-name } のサイドバーで利用する AI チャットボットを選んでください。選択すると各チャットボットの詳細が表示され、いつでも切り替えられます。<a data-l10n-name="learn-more">詳細情報</a>
 # "Switch anytime" refers to allowing the user to switch to a different chatbot.
 genai-onboarding-choose-description = いつでも切り替えられます。チャットボットの選び方については、<a data-l10n-name="learn-more">各チャットボットの詳細</a> をご覧ください。
 genai-onboarding-primary = 続ける
 genai-onboarding-secondary = 閉じる
 genai-onboarding-claude-tooltip =
     .title = Anthropic Claude
-genai-onboarding-claude-learn = Claude についての詳細
 genai-onboarding-chatgpt-tooltip =
     .title = ChatGPT
-genai-onboarding-chatgpt-learn = ChatGPT についての詳細
 genai-onboarding-copilot-tooltip =
     .title = Copilot
-genai-onboarding-copilot-learn = Copilot について
 genai-onboarding-gemini-tooltip =
     .title = Google Gemini
-genai-onboarding-gemini-learn = Gemini についての詳細
 genai-onboarding-huggingchat-tooltip =
     .title = HuggingChat
 genai-onboarding-lechat-tooltip-2 =
     .title = Mistral Vibe
-genai-onboarding-huggingchat-learn = HuggingChat についての詳細
 genai-onboarding-lechat-tooltip =
     .title = Le Chat Mistral
-genai-onboarding-lechat-learn = Le Chat についての詳細
-genai-onboarding-select-header = プロンプトに入力するテキストを選択してください
-genai-onboarding-select-description = テキストを選択すると、チャットボットに送信されるプロンプトが提案されます。ご自分でプロンプトを入力することもできます。
-genai-onboarding-select-primary = チャットを始める
 genai-chatbot-contextual-title = タブを切り替えずに AI チャットボットを使用する
 genai-chatbot-contextual-subtitle = { -brand-short-name } のサイドバーに AI チャットボットを追加すると、チャットとブラウザーを並べて表示できます。
 genai-chatbot-contextual-button = チャットボットを選ぶ
@@ -195,27 +176,6 @@ genai-chatbot-summarize-sidebar-generic-subtitle = サイドバーでキラ星�
 # “Summarize page” should be consistent with the translation for the string genai-page-button-summarize
 genai-chatbot-summarize-footer-provider-subtitle = サイドバーで AI チャットボットを開き、下部の @@[@@{ genai-menu-summarize-page }@@]@@ を選択します。
 genai-chatbot-summarize-footer-generic-subtitle = { -brand-short-name } のサイドバーに AI チャットボットを追加して、すばやくページを要約しましょう。
-
-## Chatbot onboarding choices
-## These describe features/capabilities of chatbot providers. These are not buttons/actions.
-
-genai-onboarding-claude-generate = テキストおよびコードの生成
-genai-onboarding-claude-analyze = 文書や画像の解析
-genai-onboarding-claude-price = 利用無料、有料のオプション、アカウントが必要
-genai-onboarding-chatgpt-generate = テキストおよび画像、コードの生成
-genai-onboarding-chatgpt-analyze = 文書や画像の解析
-genai-onboarding-chatgpt-price = 利用無料、有料のオプション、特定の国や一部のタスクの実行はアカウントが必要
-genai-onboarding-copilot-generate = テキストおよび画像、コードの生成
-genai-onboarding-copilot-analyze = 画像の解析
-genai-onboarding-copilot-price = 利用無料、有料のオプション、一部のタスクの実行はアカウントが必要
-genai-onboarding-gemini-generate = テキストおよび画像、コードの生成
-genai-onboarding-gemini-analyze = 画像の解析 (無料)、文書の解析 (有料)
-genai-onboarding-gemini-price = 利用無料、有料のオプション、アカウントが必要
-genai-onboarding-huggingchat-generate = テキストおよびコードの生成
-genai-onboarding-huggingchat-switch = 多様なオープンモデルのセットの切り替え
-genai-onboarding-huggingchat-price-2 = 利用無料、一定回数の利用後はアカウントが必要
-genai-onboarding-lechat-generate = テキストおよびコードの生成
-genai-onboarding-lechat-price = 利用無料、アカウントが必要
 
 ## Model Optin Component
 

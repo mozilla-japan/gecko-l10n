@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-protections-panel-sendreportview-error = レポートの送信でエラーがありました。後でもう一度試してください。
-# A link shown when ETP is disabled for a site. Opens the breakage report subview when clicked.
-protections-panel-sitefixedsendreport-label = サイトが修正されたことを報告
 
 ## These strings are used to define the different levels of
 ## Enhanced Tracking Protection.
@@ -23,11 +20,6 @@ protections-panel-etp-more-info =
     .aria-label = 強化型トラッキング防止機能についての詳細情報
 protections-panel-etp-on-header = 強化型トラッキング防止機能はこのサイトでオンです
 protections-panel-etp-off-header = 強化型トラッキング防止機能はこのサイトでオフです
-# The link to be clicked to open the sub-panel view
-protections-panel-site-not-working = サイトが動作していませんか？
-# The heading/title of the sub-panel view
-protections-panel-site-not-working-view =
-    .title = サイトが動作していませんか？
 
 ## Text for the toggles shown when ETP is enabled/disabled for a given site.
 ## .description is transferred into a separate paragraph by the moz-toggle
@@ -47,8 +39,6 @@ protections-panel-etp-toggle-off =
 ## a tooltip explaining why these items were not blocked in the page.
 
 protections-panel-not-blocking-why-label = 状態について
-protections-panel-not-blocking-why-etp-on-tooltip = これらをブロックすると、一部のウェブサイトの一部のボタン、フォーム、ログインフォームといった要素が動作しなくなる可能性があります。
-protections-panel-not-blocking-why-etp-off-tooltip = 保護がオフになっているため、このサイトのトラッカーがすべて読み込まれました。
 protections-panel-not-blocking-why-etp-on-tooltip-label =
     .label = これらをブロックすると、一部のウェブサイトの一部のボタン、フォーム、ログインフォームといった要素が動作しなくなる可能性があります。
 protections-panel-not-blocking-why-etp-off-tooltip-label =
@@ -95,20 +85,6 @@ smartblock-placeholder-content-header = ブロックされた embed からのコ
 protections-panel-settings-label = 保護設定
 protections-panel-protectionsdashboard-label = プライバシー保護ダッシュボード
 
-## In the Site Not Working? view, we suggest turning off protections if
-## the user is experiencing issues with any of a variety of functionality.
-
-# The header of the list
-protections-panel-site-not-working-view-header = 問題がある場合は、保護をオフにしてみてください:
-# The list items, shown in a <ul>
-protections-panel-site-not-working-view-issue-list-login-fields = ログインフォーム
-protections-panel-site-not-working-view-issue-list-forms = フォーム
-protections-panel-site-not-working-view-issue-list-payments = 支払い情報
-protections-panel-site-not-working-view-issue-list-comments = コメント
-protections-panel-site-not-working-view-issue-list-videos = 動画
-protections-panel-site-not-working-view-issue-list-fonts = フォント
-protections-panel-site-not-working-view-send-report = 報告を送信
-
 ##
 
 protections-panel-cross-site-tracking-cookies = これらの Cookie はオンラインでのあなたの行動に関するデータを集めるために、サイトからサイトへと追跡します。これは広告会社や調査会社といったサードパーティにより設置されています。
@@ -123,33 +99,13 @@ protections-panel-shim-allowed-indicator =
 protections-panel-content-blocking-manage-settings =
     .label = 保護設定を管理
     .accesskey = M
-protections-panel-content-blocking-breakage-report-view =
-    .title = 動作しないサイトを報告
-protections-panel-content-blocking-breakage-report-view-description = 特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、{ -brand-short-name } を改善する助けになります。レポートを送信すると、問題の URL とブラウザーの設定についての情報が Mozilla に送信されます。<label data-l10n-name="learn-more">詳細情報</label>
-protections-panel-content-blocking-breakage-report-view-collection-url = URL
-protections-panel-content-blocking-breakage-report-view-collection-url-label =
-    .aria-label = URL
-protections-panel-content-blocking-breakage-report-view-collection-comments = 任意: 問題を記述してください
-protections-panel-content-blocking-breakage-report-view-collection-comments-label =
-    .aria-label = 任意: 問題を記述してください
-protections-panel-content-blocking-breakage-report-view-cancel =
-    .label = キャンセル
-protections-panel-content-blocking-breakage-report-view-send-report =
-    .label = レポートを送信
 
 # Cookie Banner Handling
 
-protections-panel-cookie-banner-handling-header = Cookie バナー削減
 protections-panel-cookie-banner-blocker-header = Cookie バナーブロッカー
 protections-panel-cookie-banner-handling-enabled = このサイトでオン
 protections-panel-cookie-banner-handling-disabled = このサイトでオフ
 protections-panel-cookie-banner-handling-undetected = 現在サポートされていないサイトです
-protections-panel-cookie-banner-view-title =
-    .title = Cookie バナー削減
-# Variables
-#  $host (String): the hostname of the site that is being displayed.
-protections-panel-cookie-banner-view-turn-off-for-site = { $host } サイトの Cookie バナー削減をオフにしますか？
-protections-panel-cookie-banner-view-turn-on-for-site = このサイトの Cookie バナー削減をオンにしますか？
 protections-panel-cookie-banner-blocker-view-title =
     .title = Cookie バナーブロッカー
 # Variables
@@ -157,10 +113,6 @@ protections-panel-cookie-banner-blocker-view-title =
 protections-panel-cookie-banner-blocker-view-turn-off-for-site = { $host } サイトの Cookie バナーブロッカーをオフにしますか？
 protections-panel-cookie-banner-blocker-view-turn-on-for-site = このサイトの Cookie バナーブロッカーをオンにしますか？
 protections-panel-cookie-banner-view-cookie-clear-warning = { -brand-short-name } がこのサイトの Cookie を消去してページを更新します。すべての Cookie を消去するとサイトからログアウトしたり買い物カゴが空になったりする可能性があります。
-protections-panel-cookie-banner-view-turn-on-description = サポートされたサイトのすべての Cookie 同意確認に対して、{ -brand-short-name } が自動的に拒否を試みます。
-protections-panel-cookie-banner-view-cancel = キャンセル
-protections-panel-cookie-banner-view-turn-off = オフにする
-protections-panel-cookie-banner-view-turn-on = オンにする
 protections-panel-cookie-banner-blocker-view-turn-on-description = オンにすると、このサイトの Cookie バナーに対して { -brand-short-name } が自動的に拒否を試みます。
 protections-panel-cookie-banner-view-cancel-label =
     .label = キャンセル

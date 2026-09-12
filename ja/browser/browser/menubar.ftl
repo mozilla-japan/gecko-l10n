@@ -28,10 +28,6 @@ menu-application-set-as-default =
 # use the browser. "Share" here means recommending or referring the browser
 menu-application-referrals2 =
     .label = { -brand-product-name } を宣伝
-# This menu item opens the referral page, where the user can invite others to
-# use the browser. "Share" here means recommending or referring the browser
-menu-application-referrals =
-    .label = { -brand-shorter-name } を宣伝
 menu-application-services =
     .label = サービス
 menu-application-hide-this =
@@ -277,8 +273,6 @@ menu-bookmarks-mobile =
 
 ## Profiles Menu
 
-menu-profiles =
-    .label = プロファイル
 menu-profiles-manage-profiles =
     .label = プロファイルを管理
 menu-profiles-new-profile =
@@ -302,9 +296,6 @@ menu-tools-downloads =
 menu-tools-extensions-and-themes =
     .label = 拡張機能とテーマ
     .accesskey = E
-menu-tools-addons-and-themes =
-    .label = アドオンとテーマ
-    .accesskey = A
 menu-tools-fxa-sign-in2 =
     .label = ログイン
     .accesskey = g
@@ -370,8 +361,6 @@ menu-get-help =
 menu-help-more-troubleshooting-info =
     .label = 他のトラブルシューティング情報
     .accesskey = T
-menu-help-report-site-issue =
-    .label = サイトの問題を報告...
 menu-help-share-ideas =
     .label = 意見とフィードバックを共有...
     .accesskey = S
@@ -398,7 +387,3 @@ menu-report-broken-site =
 # use the browser. "Share" here means recommending or referring the browser
 menu-referrals2 =
     .label = { -brand-product-name } を宣伝
-# This menu item opens the referral page, where the user can invite others to
-# use the browser. "Share" here means recommending or referring the browser
-menu-referrals =
-    .label = { -brand-shorter-name } を宣伝

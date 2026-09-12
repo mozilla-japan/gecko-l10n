@@ -42,7 +42,6 @@ sidebar-history-clear =
     .label = 履歴を消去
 sidebar-history-sort-by-heading-menucaption =
     .label = 並べ替え:
-sidebar-history-sort-by-heading = 並べ替え:
 sidebar-history-sort-option-date =
     .label = 日付
 sidebar-history-sort-option-site =
@@ -62,16 +61,11 @@ sidebar-search-results-header =
 
 ## Labels for sidebar customize panel
 
-sidebar-customize-extensions-header = サイドバー拡張
-sidebar-customize-firefox-tools-header =
-    .label = { -brand-product-name } ツール
 sidebar-customize-firefox-settings = { -brand-short-name } の設定を管理
 sidebar-vertical-tabs =
     .label = 垂直タブ
 sidebar-settings2 =
     .label = 設定
-sidebar-settings =
-    .label = サイドバー設定
 sidebar-hide-tabs-and-sidebar =
     .label = タブとサイドバーを隠す
 sidebar-open-tools-from-sidebar =
@@ -97,8 +91,6 @@ sidebar-customize-firefox-tools-header2 =
 
 sidebar-context-menu-manage-extension =
     .label = 拡張機能を管理
-sidebar-context-menu-remove-extension =
-    .label = 拡張機能を削除
 sidebar-context-menu-report-extension =
     .label = 拡張機能を報告
 sidebar-context-menu-open-in-tab =

@@ -54,7 +54,6 @@ cfr-doorhanger-extension-total-users = { $total } ユーザー
 ## Mozilla Account messages
 
 cfr-doorhanger-bookmark-fxa-header = どこからでもブックマークを同期します。
-cfr-doorhanger-bookmark-fxa-body = 見つかっちゃった。ブックマークをこの端末だけに残しておかないで同期して。{ -fxaccount-brand-name } を始めましょう。
 cfr-doorhanger-bookmark-fxa-body-2 = 見つかっちゃった。ブックマークをこの端末だけに残しておかないで同期して。アカウントを使い始めましょう。
 cfr-doorhanger-bookmark-fxa-link-text = ブックマークを今すぐ同期...
 cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
@@ -67,12 +66,6 @@ fxa-adoption-credit-cards-backup-subtitle = 支払い方法をご使用の端末
 fxa-adoption-bookmarks-treatment-backup-title = ブックマークをバックアップしましょう
 fxa-adoption-bookmarks-treatment-backup-subtitle = ブックマークをご使用の端末と同期して暗号化することにより保護します。
 fxa-adoption-primary-button-label = アカウント登録
-
-## Protections panel
-
-cfr-protections-panel-header = 追跡を遮断する
-cfr-protections-panel-body = あなたのデータはあなた自身だけに。{ -brand-short-name } はオンラインでのあなたの行動を追跡するよく知られた数多くのトラッカーからあなたを守ります。
-cfr-protections-panel-link-text = 詳細
 
 ## What's New toolbar button and panel
 
@@ -167,42 +160,8 @@ mr2022-background-update-toast-primary-button-label = 今すぐ { -brand-shorter
 # exceeding characters will be truncated.
 mr2022-background-update-toast-secondary-button-label = 後で通知
 
-## Firefox View CFR
-
-firefoxview-cfr-primarybutton = 試してみる
-    .accesskey = T
-firefoxview-cfr-secondarybutton = 後で
-    .accesskey = N
-firefoxview-cfr-header-v2 = 前回のタブをすばやくピックアップ
-firefoxview-cfr-body-v2 = { -firefoxview-brand-name } で最近閉じたタブを取り戻すだけでなく、端末の壁をシームレスに飛び越えられます。
-
-## Firefox View Spotlight
-
-firefoxview-spotlight-promo-title = { -firefoxview-brand-name } のご紹介
-# “Poof” refers to the expression to convey when something or someone suddenly disappears, or in this case, reappears. For example, “Poof, it’s gone.”
-firefoxview-spotlight-promo-subtitle = 携帯端末で開いているタブを開きたい？ 開けます。今閉じたサイトが必要でしたか？ ご安心ください。{ -firefoxview-brand-name } で戻せます。
-firefoxview-spotlight-promo-primarybutton = 使い方について
-firefoxview-spotlight-promo-secondarybutton = スキップ
-
-## Colorways expiry reminder CFR
-
-colorways-cfr-primarybutton = Colorway を選択
-    .accesskey = C
-# "shades" refers to the different color options available to users in colorways.
-colorways-cfr-body = カルチャーを変えてきた人々の声から生まれた { -brand-short-name } だけの色の表象でブラウザーを染めましょう。
-colorways-cfr-header-28days = 揺るぎない声 Colorway は 1 月 16 日まで
-colorways-cfr-header-14days = 揺るぎない声 Colorway は残り 2 週間
-colorways-cfr-header-7days = 揺るぎない声 Colorway は今週まで
-colorways-cfr-header-today = 揺るぎない声 Colorway は今日まで
-
 ## Cookie Banner Handling CFR
 
-cfr-cbh-header = { -brand-short-name } に Cookie バナーを拒否できるようにしますか？
-cfr-cbh-body = { -brand-short-name } が多くの Cookie バナーの同意確認を自動的に拒否します。
-cfr-cbh-confirm-button = Cookie バナーを拒否
-    .accesskey = R
-cfr-cbh-dismiss-button = 後で
-    .accesskey = N
 cookie-banner-blocker-onboarding-header = { -brand-short-name } が Cookie バナーを拒否しました
 cookie-banner-blocker-onboarding-body = このサイトに集中でき、Cookie による追跡も減少します。
 cookie-banner-blocker-onboarding-learn-more = 詳細情報
@@ -517,3 +476,32 @@ launch-options-spotlight-checkbox-restore-previous = 以前の@@Window@@とタ�
 launch-options-spotlight-primary-button-close = 保存して { -brand-short-name } を閉じる
 # Primary button on the browser-launch prompt
 launch-options-spotlight-primary-button-launch = 保存して続ける
+
+## Lapsed-user Windows toast notification for the Nova Fall 2026 campaign
+##
+## These strings will be displayed by the Windows operating system in a
+## native toast shown by the background task to users who have Firefox
+## installed but haven't opened it recently. The message itself is hosted
+## off-train on Remote Settings via Nimbus; the strings are landed here so
+## localization can begin.
+##
+## The button labels are fitted into narrow fixed-width buttons by
+## Windows and therefore must be as narrow as possible.
+
+# "has your back" is an idiom meaning support and protection; adapt freely
+# rather than translating literally.
+lapsed-user-toast-title = { -brand-product-name } が支援しています
+lapsed-user-toast-subtitle = ブラウジングにさらに多くの選択肢、プライバシー保護と制御をもたらす新機能を確認しましょう。
+lapsed-user-toast-whats-new-button = 新機能を見る
+lapsed-user-toast-dismiss-button = 閉じる
+
+## Refresh Firefox infobar
+##
+## Shown at startup when the profile has not been used in over 60 days, or when
+## Firefox has just been reinstalled over an existing profile.
+## Both offer to reset the profile to a fresh state.
+
+refresh-unused-profile-infobar-message = { -brand-short-name } をしばらく使っていないようです。新品のように磨いてリフレッシュしてもよろしいですか？ またご使用いただければ光栄です！
+refresh-reinstalled-profile-infobar-message = { -brand-short-name } を再インストールされたようです。新品のように磨いてリフレッシュしてもよろしいですか？
+refresh-profile-infobar-button = { -brand-short-name } をリフレッシュ...
+    .accesskey = e

@@ -85,8 +85,6 @@ downloads-cmd-show-description-2 =
             [macos] Finder に表示
            *[other] 保存フォルダーを開く
         }
-downloads-cmd-show-downloads =
-    .label = ダウンロードフォルダーを表示
 downloads-cmd-retry =
     .tooltiptext = 再試行
 downloads-cmd-retry-panel =

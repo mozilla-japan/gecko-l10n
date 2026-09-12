@@ -39,8 +39,6 @@ appmenuitem-extensions-and-themes =
     .label = 拡張機能とテーマ
 appmenuitem-extensions =
     .label = 拡張機能
-appmenuitem-addons-and-themes =
-    .label = アドオンとテーマ
 appmenuitem-print =
     .label = @@Print@@...
 appmenuitem-find-in-page =
@@ -150,7 +148,6 @@ fxa-menu-get-firefox-mobile =
     .label = Android 版または iOS 版 { -brand-product-name } を入手
 fxa-menu-secure-sync-subpanel =
     .title = 安全に同期
-appmenu-fxa-header2 = { -fxaccount-brand-name }
 appmenu-account-header = アカウント
 # Variables
 # $time (string) - Localized relative time since last sync (e.g. 1 second ago,
@@ -172,15 +169,6 @@ appmenuitem-save-page =
     .label = @@Save-AsCMD@@ページを保存...
 appmenuitem-fxa-sync-off-title = 同期はオフです
 appmenuitem-fxa-sync-off-description = ブックマークやパスワードなどを保護し、どこからでもアクセスできるようにしましょう。
-
-## What's New panel in App menu.
-
-whatsnew-panel-header = 新着情報
-# Checkbox displayed at the bottom of the What's New panel, allowing users to
-# enable/disable What's New notifications.
-whatsnew-panel-footer-checkbox =
-    .label = 新機能を通知する
-    .accesskey = f
 
 ## The Firefox Profiler – The popup is the UI to turn on the profiler, and record
 ## performance profiles. To enable it go to profiler.firefox.com and click
@@ -326,19 +314,12 @@ appmenu-about =
 appmenu-referrals2 =
     .label = { -brand-product-name } を宣伝
     .accesskey = r
-# This menu item opens the referral page, where the user can invite others to
-# use the browser. "Share" here means recommending or referring the browser
-appmenu-referrals =
-    .label = { -brand-shorter-name } を宣伝
-    .accesskey = r
 appmenu-get-help =
     .label = ヘルプを表示
     .accesskey = h
 appmenu-help-more-troubleshooting-info =
     .label = 他のトラブルシューティング情報
     .accesskey = t
-appmenu-help-report-site-issue =
-    .label = サイトの問題を報告...
 appmenu-help-share-ideas =
     .label = 意見とフィードバックを共有...
     .accesskey = S
@@ -404,7 +385,6 @@ appmenuitem-vpn-description5 = 端末の追加の保護を入手
 appmenuitem-vpn-title-signed-in1 = { -mozilla-vpn-brand-name } をダウンロード
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description-2 = 端末全体を保護しましょう
-appmenuitem-vpn-description = ユーザーのオンラインプライバシーを保護します
 appmenu-services-header = マイサービス
 # "Mozilla" is intentionally hardcoded to prevent forks from replacing it
 # with their own vendor name, since these tools are created and maintained by
@@ -414,7 +394,6 @@ appmenu-other-protection-header3 = プライバシーツール
 # with their own vendor name, since these tools are created and maintained by
 # Mozilla.
 appmenu-other-protection-header2 = Mozilla が提供する他の保護ツールをお試しください:
-appmenu-other-protection-header = { -vendor-short-name } が提供する他の保護ツールをお試しください:
 
 ## Profiles panel
 
@@ -442,8 +421,6 @@ fxa-menu-create-profile-learn-more =
     .label = プロファイルとは何ですか？
 # Button in the account menu that links to the Referrals page
 appmenuitem-share-firefox-title2 = { -brand-product-name } を宣伝
-# Button in the account menu that links to the Referrals page
-appmenuitem-share-firefox-title = { -brand-short-name } を宣伝
 appmenuitem-share-firefox-description = プライバシー優先のブラウザーを選んでもらえるように宣伝してください
 appmenu-profiles-2 =
     .label = プロファイル

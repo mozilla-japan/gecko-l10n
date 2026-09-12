@@ -5,7 +5,6 @@
 
 ## These strings are used in the about:preferences moreFromMozilla page
 
-more-from-moz-title = { -vendor-short-name } からのご案内
 more-from-moz-page-header =
     .heading = { -vendor-short-name } からのご案内
 more-from-moz-category =
@@ -37,13 +36,11 @@ more-from-moz-firefox-relay-button = { -relay-brand-short-name } を入手
 ## These strings are for the Mozilla Monitor card in about:preferences moreFromMozilla page
 
 more-from-moz-mozilla-monitor-title = { -mozmonitor-brand-name }
-more-from-moz-mozilla-monitor-us-description = 漏洩したあなたの個人情報を自動的に取り戻します。
 more-from-moz-mozilla-monitor-global-description = 個人情報のデータ侵害があればメールで通知します。
 more-from-moz-mozilla-monitor-button = { -monitor-brand-short-name } を使う
 
 ## These strings are for the Solo card in about:preferences moreFromMozilla page
 
-more-from-moz-solo-title = { -solo-ai-brand-name } AI
 more-from-moz-solo-description = あなたのウェブサイトを AI が無料で作成します。あなただけのカスタムドメインに接続してください。
 more-from-moz-solo-button = { -solo-ai-brand-name } を試す
 more-from-moz-solo-title-2 = { -solo-ai-brand-name } AI ウェブサイトクリエーター

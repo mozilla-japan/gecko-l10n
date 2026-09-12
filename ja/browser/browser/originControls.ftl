@@ -10,8 +10,6 @@
 
 origin-controls-no-access =
     .label = データの取得と変更はできません
-origin-controls-quarantined =
-    .label = データの取得と変更は許可されていません
 origin-controls-quarantined-status =
     .label = 制限されたサイトでの実行が許可されていません
 origin-controls-quarantined-allow =

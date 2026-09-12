@@ -111,6 +111,7 @@ unauthenticated-vpn-title = { -brand-product-name } の組み込み VPN をお�
 unauthenticated-hide-location-message-3 = { -brand-product-name } でのブラウジング中、<a data-l10n-name="learn-more-vpn">あなたの現在位置を隠します</a>。
 unauthenticated-private-location-message = { -brand-product-name } で <a data-l10n-name="learn-more-vpn">あなたの現在位置を隠す</a> ことができます。
 unauthenticated-choose-location-message-1 = いくつかの場所から選ぶか、最速の場所を { -brand-product-name } にピックアップさせます。
+unauthenticated-site-rules-message = VPN を使用するサイトと使用しないサイトを指定します。
 unauthenticated-get-started = はじめる
 unauthenticated-terms-of-service-privacy-notice = 続行すると、<a data-l10n-name="vpn-terms-of-service">サービス利用規約</a> および <a data-l10n-name="vpn-privacy-notice">プライバシー通知</a> に同意したものとみなされます。
 site-exclusion-toggle-enabled-1 =
@@ -120,6 +121,14 @@ site-exclusion-toggle-disabled-1 =
     .label = このサイトで VPN を利用する
     .aria-label = このサイトでは VPN がオフです
 site-exclusion-toggle-description = サイトが動作しない場合は、VPN をオフにしてみてください。
+# Manages rules for VPN to turn on or off automatically for certain websites
+site-rules-manage-rules-link-text = VPN のルールを管理
+# Heading for user defined rules on VPN usage for particular websites
+site-rules-status-heading = あなたのルール
+# Used in the panel when a user navigates to a site where the VPN is off due to a site exclusion
+site-rules-description-exclusion = このサイトでは VPN をオフにします
+# Used in the panel when a user navigates to a site where the VPN is on due to a site inclusion
+site-rules-description-inclusion = このサイトでは VPN をオンにします
 ipprotection-settings-link =
     .label = 設定
 
@@ -252,6 +261,11 @@ ip-protection-not-opted-in-button = はじめる
 ip-protection-site-exceptions-all-sites-button =
     .label = ウェブサイトの設定を管理
     .description = { $count } サイト
+ip-protection-site-rules-header =
+    .heading = ウェブサイトのルールを管理
+ip-protection-site-rules-button =
+    .label = ウェブサイトのルールを管理
+    .description = このサイトで追加のプライバシー強化を使用するか VPN をオフにするルールを設定します。
 ip-protection-autostart =
     .label = VPN を自動的にオンにする
 ip-protection-autostart-checkbox =
