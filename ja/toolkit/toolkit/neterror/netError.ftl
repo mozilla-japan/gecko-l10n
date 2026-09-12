@@ -27,12 +27,9 @@ neterror-return-to-previous-page-button = 戻る
 neterror-return-to-previous-page-recommended-button = 戻る (推奨)
 neterror-try-again-button-2 = 再試行
     .accesskey = T
-neterror-try-again-button = 再試行
 neterror-add-exception-button = このサイトは常に続行する
 neterror-settings-button = DNS 設定を変更
 neterror-view-certificate-link = 証明書を確認
-neterror-trr-continue-this-time = 今回は続行する
-neterror-disable-native-feedback-warning = 常に続行する
 
 ## Search call-to-action shown on the online dnsNotFound error page when
 ## browser.netError.searchCTA.enabled is true. Offers a one-click web search
@@ -47,13 +44,13 @@ neterror-search-cta-intro2 = <strong>{ $hostname }</strong> のサーバーに�
 neterror-search-cta-intro = { $domain } のサーバーに接続できませんでした
 # Heading above the list of recovery hints on the search CTA error page.
 neterror-search-cta-things-to-try = 以下の手順を試してください:
-neterror-search-cta-hint-check-address = ウェブサイトのアドレスに間違いがないか確認してください
+neterror-search-cta-hint-check-address = ウェブサイトのアドレスに誤りがないか確認してください
 # Shown when no Search button is offered, so no specific query can be named.
 neterror-search-cta-hint-search = ウェブ検索でサイトを見つけてください
 # Shown when the Search button is offered, naming the exact query it will run.
 # $query (String) - The search query derived from the address that failed to
-# load, for example "best hiking boots reviews". The query and the quotation
-# marks around it are emphasized.
+# load, beginning with the site's name, for example "example best hiking
+# boots". The query and the quotation marks around it are emphasized.
 neterror-search-cta-hint-search-query = <strong>“{ $query }”</strong> をウェブ検索
 # .tooltiptext doubles as the button's accessible description, so it explains
 # that results open in a new tab.
@@ -77,7 +74,6 @@ neterror-search-cta-learn-more = 詳細情報
 ##
 
 neterror-pref-reset = ネットワークセキュリティの設定がこの問題の原因になっている可能性があります。@@DefaultValue@@に戻しますか？
-neterror-error-reporting-automatic = エラーを報告すると、{ -vendor-short-name } が悪意のあるサイトを特定してブロックするのに役立てられます
 
 ## Shown on about:neterror and about:certerror when the SSLKEYLOGFILE
 ## environment variable is set, which causes { -brand-short-name } to log TLS
@@ -120,40 +116,28 @@ neterror-dns-not-found-offline-hint-reconnect = Wi-Fi を一旦切断し、接�
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.
 ##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
 
-neterror-dns-not-found-trr-only-reason = { -brand-short-name } は信頼された DNS リゾルバーを通じてこのサイトのアドレスに対する要求を保護することができません。理由:
 neterror-dns-not-found-trr-only-reason2 = { -brand-short-name } は安全な DNS リゾルバーを通じてこのサイトのアドレスに対する要求を保護することができません。理由:
 neterror-dns-not-found-trr-third-party-warning2 = @@Default-@@ DNS リゾルバーの利用を続けることができますが、第三者にあなたの訪れたウェブサイトを知られる可能性があります。
 neterror-dns-not-found-trr-only-could-not-connect = { -brand-short-name } が { $trrDomain } と接続できませんでした。
 neterror-dns-not-found-trr-only-timeout = { $trrDomain } への接続に時間がかかっています。
-neterror-dns-not-found-trr-offline = インターネットに接続されていません。
 neterror-dns-not-found-trr-unknown-host2 = { $trrDomain } でこのウェブサイトが見つかりませんでした。
 neterror-dns-not-found-trr-server-problem = { $trrDomain } のサーバーに問題があります。
 neterror-dns-not-found-bad-trr-url = URL が正しくありません。
 neterror-dns-not-found-system-sleep = システムがスリープモードです。
 neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生しました。
 
-## Native fallback specific messages
-## Variables:
-##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
-
-neterror-dns-not-found-native-fallback-reason = { -brand-short-name } は信頼された DNS リゾルバーを通じてこのサイトのアドレスに対する要求を保護することができません。理由:
-neterror-dns-not-found-native-fallback-heuristic = ご利用のネットワークでは DNS over HTTPS が無効化されています。
-neterror-dns-not-found-native-fallback-not-confirmed2 = { -brand-short-name } が { $trrDomain } に接続できませんでした。
-
 ##
 
-neterror-file-not-found-filename = ファイル名に大文字/小文字の違い、その他の間違いがないか確認してください。
+neterror-file-not-found-filename = ファイル名に大文字/小文字の違い、その他の誤りがないか確認してください。
 neterror-file-not-found-moved = ファイルの名前が変更、削除、または移動している可能性があります。
 # Variables:
 #   $path (String) - Path of the local file that could not be found.
 neterror-file-not-found-intro = { -brand-short-name } が <strong>{ $path }</strong> にファイルを見つけられませんでした。ファイルが存在しないかパスに誤りがあります。
-neterror-file-not-found-what-can-you-do = アドレスを手入力した場合は、大文字/小文字の誤りやファイル名とそのパスに間違いがないか確認してください。保存したブックマークやリンクから開いた場合は、ファイルの保存後に移動されたか名前変更、または削除されている可能性があります。ファイルマネージャーで場所を特定するか検索してみてください。
+neterror-file-not-found-what-can-you-do = アドレスを手入力した場合は、大文字/小文字の誤りやファイル名とそのパスに誤りがないか確認してください。保存したブックマークやリンクから開いた場合は、ファイルの保存後に移動されたか名前変更、または削除されている可能性があります。ファイルマネージャーで場所を特定するか検索してみてください。
 neterror-access-denied = ファイルが削除または移動されているかファイルの許可属性によりアクセスが拒否された可能性があります。
 neterror-unknown-protocol = このプロトコルを使用するアドレスを開くには、別のソフトウェアをインストールする必要があるかもしれません。
 neterror-redirect-loop = Cookie を無効化したり拒否していることにより、この問題が発生している可能性もあります。
 neterror-unknown-socket-type-client-config = クライアント側の設定エラーが原因となっている可能性があります。
-neterror-unknown-socket-type-psm-installed = コンピューターにパーソナルセキュリティマネージャーがインストールされているか確認してください。
-neterror-unknown-socket-type-server-config = サーバーの設定が間違っていることにより、この問題が発生している可能性もあります。
 neterror-not-cached-intro = リクエストされたドキュメントは { -brand-short-name } のキャッシュ内にありません。
 neterror-not-cached-sensitive = 安全対策のため、{ -brand-short-name } は注意を要するドキュメントを自動的に再リクエストしません。
 neterror-not-cached-try-again = @@[@@再試行@@]@@ ボタンをクリックしてドキュメントをウェブサイトから読み込んでください。

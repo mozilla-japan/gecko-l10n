@@ -41,19 +41,6 @@ third-party-button-reload = システム情報を更新
     .title = システム情報を再度読み込みます
 third-party-button-open =
     .title = ファイルの場所を開きます...
-third-party-button-to-block =
-    .title = このモジュールをブロック
-    .aria-label = このモジュールをブロック
-third-party-button-to-unblock =
-    .title = 現在ブロックされています。クリックするとブロックが解除されます。
-    .aria-label = 現在ブロックされています。クリックするとブロックが解除されます。
-third-party-button-to-unblock-disabled =
-    .title =
-        現在ブロック済みのマークが付いていますが、今回の { -brand-short-name } の実行中はブロックリストが無効化されています。
-        クリックするとブロックを解除します。
-    .aria-label =
-        現在ブロック済みのマークが付いていますが、今回の { -brand-short-name } の実行中はブロックリストが無効化されています。
-        クリックするとブロックを解除します。
 third-party-button-to-block-module = このモジュールをブロック
     .title = このモジュールをブロックします
     .aria-label = このモジュールをブロックします

@@ -29,10 +29,6 @@ security-software-name = 製品名
 security-software-antivirus = アンチウイルス
 security-software-antispyware = アンチスパイウェア
 security-software-firewall = ファイアウォール
-features-title = { -brand-short-name } の機能
-features-name = 機能名
-features-version = バージョン
-features-id = ID
 processes-title = リモートプロセス
 processes-type = 種類
 processes-count = プロセス数
@@ -56,7 +52,6 @@ app-basics-profile-dir =
         [linux] プロファイルディレクトリー
        *[other] プロファイルフォルダー
     }
-app-basics-enabled-plugins = 有効なプラグイン
 app-basics-build-config = ビルド設定
 app-basics-user-agent = ユーザーエージェント
 app-basics-os = OS
@@ -94,9 +89,6 @@ show-dir-label =
 environment-variables-title = 環境変数
 environment-variables-name = 変数名
 environment-variables-value = 値
-experimental-features-title = 実験的な機能
-experimental-features-name = 機能名
-experimental-features-value = 値
 modified-key-prefs-title = 変更された重要な設定
 modified-prefs-name = 設定名
 modified-prefs-value = 値
@@ -140,6 +132,16 @@ a11y-activated = 有効
 a11y-force-disabled = アクセシビリティの無効化
 a11y-handler-used = アクセシブルハンドラーの使用
 a11y-instantiator = アクセシビリティのインスタンス生成
+pdfjs-title = PDF ビューアー
+# PDF.js is the name of the project, leave it unchanged.
+pdfjs-version = PDF.js バージョン
+pdfjs-enabled = 有効
+# The annotation editor is the set of PDF editing tools (draw, add image, add
+# text, signature).
+pdfjs-enabled-annotation-editor = 注釈エディター有効
+# XFA (XML Form Architecture) refers to Adobe’s technology for forms.
+pdfjs-enabled-xfa = XFA フォーム有効
+pdfjs-open-attachments-inline = PDF の添付をインラインで開く
 library-version-title = ライブラリーのバージョン
 copy-text-to-clipboard-label = テキストをクリップボードにコピー
 copy-raw-data-to-clipboard-label = 生データをクリップボードにコピー
@@ -208,9 +210,6 @@ media-cdm-capabilities = 機能
 # are not encrypted. It allows playback to start without having to wait for
 # license response, improving video start time and user experience.
 media-cdm-clear-lead = 平文リード
-# We choose 2.2 as this is the version which the video provider usually want to have in order to stream 4K video securely
-# HDCP version https://w3c.github.io/encrypted-media/#idl-def-hdcpversion
-media-hdcp-22-compatible = HDCP 2.2 互換
 
 ##
 
@@ -362,8 +361,6 @@ multi-process-windows = { $remoteWindows }/{ $totalWindows }
 # $fissionWindows (integer) - Number of remote windows
 # $totalWindows (integer) - Number of total windows
 fission-windows = { $fissionWindows }/{ $totalWindows }
-fission-status-experiment-control = 実験のため無効
-fission-status-experiment-treatment = 実験のため有効
 fission-status-disabled-by-e10s-env = 動作環境により無効
 fission-status-enabled-by-env = 動作環境により有効
 fission-status-disabled-by-env = 動作環境により無効
@@ -372,7 +369,6 @@ fission-status-disabled-by-default = @@Default@@で無効
 fission-status-enabled-by-user-pref = ユーザーにより有効
 fission-status-disabled-by-user-pref = ユーザーにより無効
 fission-status-disabled-by-e10s-other = E10s 無効
-fission-status-enabled-by-rollout = 段階的ロールアウトにより有効
 async-pan-zoom = 非同期パン / ズーム
 apz-none = なし
 wheel-enabled = ホイール入力有効

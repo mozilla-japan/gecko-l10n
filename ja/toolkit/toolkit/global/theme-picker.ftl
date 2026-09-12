@@ -7,6 +7,9 @@ theme-picker-mode-dark = ダーク
 # "Device" refers to the mode that makes the Firefox active theme's selected color scheme
 # update based on the color scheme mode currently chosen by the operating system.
 theme-picker-mode-device = 端末の設定
+# Accessible name for the group of light/dark/device buttons.
+theme-picker-mode =
+    .aria-label = 外観
 theme-picker-use-linux-theme =
     .label = Linux のシステムテーマを使用
 

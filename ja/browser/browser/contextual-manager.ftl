@@ -22,24 +22,24 @@ contextual-manager-passwords-command-options = オプション
 contextual-manager-passwords-command-help = ヘルプ
 contextual-manager-passwords-os-auth-dialog-caption = { -brand-full-name }
 # This message can be seen when attempting to export a password in about:logins on Windows.
-contextual-manager-passwords-export-os-auth-dialog-message-win = パスワードを@@Export-suru@@には、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+contextual-manager-passwords-export-os-auth-dialog-message-win = パスワードを@@Export-suru@@には、Windows でのあなたの資格情報を入力してください。これはあなたのアカウントのセキュリティを保護します。
 # This message can be seen when attempting to export a password in about:logins
 # The macOS strings are preceded by the operating system with "Firefox is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. only provide the reason that account verification is needed. Do not put a complete sentence here.
 contextual-manager-passwords-export-os-auth-dialog-message-macosx = 保存したパスワードを@@Export@@
 # This message can be seen when attempting to reveal a password in contextual password manager on Windows
-contextual-manager-passwords-reveal-password-os-auth-dialog-message-win = パスワードを表示するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+contextual-manager-passwords-reveal-password-os-auth-dialog-message-win = パスワードを表示するには、Windows のログイン資格情報を入力してください。これはあなたのアカウントのセキュリティを保護します。
 # The MacOS string is preceded by the operating system with "Firefox is trying to ".
 # Only provide the reason that account verification is needed. Do not put a complete sentence here.
 contextual-manager-passwords-reveal-password-os-auth-dialog-message-macosx = 保存したパスワードを開示
 # This message can be seen when attempting to edit a login in contextual password manager on Windows.
-contextual-manager-passwords-edit-password-os-auth-dialog-message-win = パスワードを編集するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+contextual-manager-passwords-edit-password-os-auth-dialog-message-win = パスワードを編集するには、Windows のログイン資格情報を入力してください。これはあなたのアカウントのセキュリティを保護します。
 # The MacOS string is preceded by the operating system with "Firefox is trying to ".
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 contextual-manager-passwords-edit-password-os-auth-dialog-message-macosx = 保存したパスワードを編集
 # This message can be seen when attempting to copy a password in contextual password manager on Windows.
-contextual-manager-passwords-copy-password-os-auth-dialog-message-win = パスワードをコピーするには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+contextual-manager-passwords-copy-password-os-auth-dialog-message-win = パスワードをコピーするには、Windows のログイン資格情報を入力してください。これはあなたのアカウントのセキュリティを保護します。
 # The MacOS string is preceded by the operating system with "Firefox is trying to ".
 # Only provide the reason that account verification is needed. Do not put a complete sentence here.
 contextual-manager-passwords-copy-password-os-auth-dialog-message-macosx = 保存したパスワードをコピー

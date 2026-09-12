@@ -10,13 +10,8 @@
 ## Variables:
 ##   $extension (String): replaced with the localized name of the extension.
 
-webext-perms-header = { $extension } を追加しますか？
-webext-perms-header-with-perms = { $extension } を追加しますか？ この拡張機能は以下の権限が必要です:
-webext-perms-header-unsigned = { $extension } を追加しますか？ この拡張機能は検証されていません。悪意のある拡張機能はユーザーの個人情報を盗んだりコンピューターを危険にさらすことがあります。提供元を信頼できる場合のみ、追加するようにしてください。
-webext-perms-header-unsigned-with-perms = { $extension } を追加しますか？ この拡張機能は検証されていません。悪意のある拡張機能はユーザーの個人情報を盗んだりコンピューターを危険にさらすことがあります。提供元を信頼できる場合のみ、追加するようにしてください。この拡張機能は以下の権限が必要です:
 webext-perms-sideload-header = { $extension } が追加されました
 webext-perms-optional-perms-header2 = { $extension } が追加の権限を要求しています。
-webext-perms-optional-perms-header = { $extension } が追加の許可を必要としています。
 webext-perms-header2 = { $extension } を追加
 webext-perms-list-intro-unsigned = この未検証の拡張機能はユーザーのプライバシーやご使用の端末を危険にさらすことがあります。提供元を信頼できる場合のみ、追加するようにしてください。
 
@@ -53,10 +48,7 @@ webext-perms-sideload-cancel =
     .accesskey = C
 # Variables:
 #   $extension (String): replaced with the localized name of the extension.
-webext-perms-update-text2 = { $extension } が更新されています。更新バージョンがインストールされる前に新たな権限を承認してください。@@[@@キャンセル@@]@@ を選ぶと、現在のバージョンの拡張機能が維持されます。
-# Variables:
-#   $extension (String): replaced with the localized name of the extension.
-webext-perms-update-text = { $extension } が更新されています。新しいバージョンがインストールされる前に新たな権限を承認してください。@@[@@キャンセル@@]@@ を選ぶと拡張機能は現在のバージョンが維持されます。この拡張機能は以下の権限が必要です:
+webext-perms-update-text2 = { $extension } が更新されています。更新バージョンがインストールされる前に新たな権限を承認してください。@@[@@キャンセル@@]@@ を選ぶと現在のバージョンの拡張機能が維持されます。
 webext-perms-update-accept =
     .label = 更新
     .accesskey = U
@@ -73,16 +65,8 @@ webext-perms-host-description-file-urls = ユーザーのコンピューター�
 #   $domain (String): will be replaced by the DNS domain for which a webextension is requesting access (e.g., mozilla.org)
 webext-perms-host-description-wildcard = { $domain } ドメイン内のサイトの保存されたデータへのアクセス
 # Variables:
-#   $domainCount (Number): Integer indicating the number of additional
-#     hosts for which this webextension is requesting permission.
-webext-perms-host-description-too-many-wildcards = 他の { $domainCount } 個のドメイン内の保存されたデータへのアクセス
-# Variables:
 #   $domain (String): will be replaced by the DNS host name for which a webextension is requesting access (e.g., www.mozilla.org)
 webext-perms-host-description-one-site = { $domain } の保存されたデータへのアクセス
-# Variables:
-#   $domainCount (Number): Integer indicating the number of additional
-#     hosts for which this webextension is requesting permission.
-webext-perms-host-description-too-many-sites = 他の { $domainCount } 個のサイトの保存されたデータへのアクセス
 # Variables:
 #   $domain (String): will be replaced by the DNS host name for which a webextension is requesting access (e.g., mozilla.org),
 #     $domain should be treated as plural (because it may also include all subdomains, e.g www.mozilla.org, ftp.mozilla.org).

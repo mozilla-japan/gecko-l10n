@@ -17,7 +17,6 @@ cert-error-trust-untrusted-issuer = 発行者の証明書が信頼されてい�
 cert-error-trust-signature-algorithm-disabled = 安全ではない署名アルゴリズムによって署名されているためこの証明書は信頼されません。
 cert-error-trust-expired-issuer = 発行者の証明書が有効期限切れになっているためこの証明書は信頼されません。
 cert-error-trust-self-signed = 自己署名をしているためこの証明書は信頼されません。
-cert-error-trust-symantec = GeoTrust および RapidSSL、Symantec、Thawte、VeriSign により発行された証明書はもはや安全とはみなされません。これらの証明書認証局は過去にセキュリティ規則に従いませんでした。
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
 cert-error-trust-certificate-transparency = { $hostname } が証明書の透明性に必須の要件を満たしていることを証明できなかったため、{ -brand-short-name } はこのサイトを信頼しません。
@@ -55,10 +54,6 @@ cert-error-code-prefix-link = エラーコード: <a data-l10n-name="error-code-
 #   $hostname (string) - Hostname of the website with SSL error.
 #   $errorMessage (string) - Error message corresponding to the type of error we are experiencing.
 cert-error-ssl-connection-error = { $hostname } への接続中にエラーが発生しました。{ $errorMessage }
-# Variables:
-#   $hostname (string) - Hostname of the website with cert error.
-cert-error-symantec-distrust-description = ウェブサイトは認証局から発行された証明書で同一性を証明します。多くのブラウザーはもはや GeoTrust および RapidSSL、Symantec、Thawte、VeriSign により発行された証明書を信頼しません。{ $hostname } はこれらのうちいずれかの認証局からの証明書を使用しているため、ウェブサイトの同一性を証明できません。
-cert-error-symantec-distrust-admin = この問題をウェブサイトの管理者に知らせることもできます。
 cert-error-old-tls-version = このウェブサイトは TLS 1.2 プロトコルをサポートしていない可能性があります。これは { -brand-short-name } によりサポートされる最低バージョンです。
 # Variables:
 #   $hasHSTS (Boolean) - Indicates whether HSTS header is present.
@@ -67,14 +62,12 @@ cert-error-details-hsts-label = HTTP Strict Transport Security: { $hasHSTS }
 #   $hasHPKP (Boolean) - Indicates whether HPKP header is present.
 cert-error-details-key-pinning-label = HTTP 公開鍵ピンニング: { $hasHPKP }
 cert-error-details-cert-chain-label = 証明書チェーン:
-open-in-new-window-for-csp-or-xfo-error = @@NewWindow@@でサイトを開く
 # Variables:
 #   $hostname (string) - Hostname of the website blocked by csp or xfo error.
 csp-xfo-blocked-long-desc = 安全のため、{ -brand-short-name } は他のサイトに埋め込まれた { $hostname } のページの表示を許可できません。このページを表示するには、@@NewWindow@@で開く必要があります。
 fp-certerror-view-certificate-link = サイトの証明書を表示する
 fp-certerror-return-to-previous-page-recommended-button-2 = 戻る (推奨)
     .accesskey = G
-fp-certerror-return-to-previous-page-recommended-button = 戻る (推奨)
 # This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
 # Variables:
 #   $hostname (String) - Hostname of the website to which the user was trying to connect.
@@ -179,8 +172,6 @@ deniedPortAccess-title = このアドレスへの接続は制限されていま�
 # You don't have to include it in your translation if your language does not have a written word like this.
 dnsNotFound-title = アクセスしようとしているサイトを見つけられません
 internet-connection-offline-title = インターネット接続に問題があるようです
-dns-not-found-trr-only-title2 = このドメインの検索にはセキュリティ上の危険性があります
-dns-not-found-native-fallback-title2 = このドメインの検索にはセキュリティ上の危険性があります
 fileNotFound-title = ファイルが見つかりませんでした
 fileAccessDenied-title = ファイルへのアクセスが拒否されました
 generic-title = リクエストを正常に完了できませんでした
@@ -205,11 +196,10 @@ unknownSocketType-title = サーバーの応答が不正です
 nssFailure2-title = 安全な接続ができませんでした
 csp-xfo-error-title = { -brand-short-name } はこのページを開けません
 corruptedContentErrorv2-title = コンテンツデータ破損エラー
-corruptedContentError-title = コンテンツデータ破損エラー
 sslv3Used-title = 安全な接続を確保できません
 inadequateSecurityError-title = 接続が安全ではありません
 blockedByPolicy-title = ブロックしたページ
-clockSkewError-title = コンピューターの時刻が間違っています
+clockSkewError-title = コンピューターの時刻が正しくありません
 networkProtocolError-title = ネットワークプロトコルエラー
 nssBadCert-title = 警告: 潜在的なセキュリティリスクあり
 nssBadCert-sts-title = 接続中止: 潜在的なセキュリティ問題
@@ -228,7 +218,6 @@ fp-certerror-hide-advanced-button = 上級者向けの情報を隠す
 ## Variables:
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.
 
-fp-certerror-override-exception-button = { $hostname } へ進む (危険)
 fp-certerror-intro = { -brand-short-name } が <strong>{ $hostname }</strong> に潜在的に深刻なセキュリティの問題があることを検知しました。このサイトに偽装した何者かがクレジットカード情報やパスワード、メールアドレスなどの個人情報を盗もうとする可能性があります。
 fp-certerror-expired-into = { -brand-short-name } が <strong>{ $hostname }</strong> にセキュリティの問題があることを検知しました。サイトが正しく設定されていないか、ユーザーの端末の時計が誤った日時に設定されています。
 fp-certerror-transparency-intro = 何者かが偽の <strong>{ $hostname }</strong> サイトを装ってあなたのクレジットカード情報やパスワード、メールアドレスを盗み出そうとする可能性があります。

@@ -133,22 +133,22 @@ about-logins-os-auth-dialog-message =
        *[other] { -brand-short-name } がパスワード設定を変更しようとしています。許可するには端末のログイン情報を使用してください。
     }
 # This message can be seen when attempting to edit a login in about:logins on Windows.
-about-logins-edit-login-os-auth-dialog-message2-win = パスワードを編集するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+about-logins-edit-login-os-auth-dialog-message2-win = パスワードを編集するには、Windows のログイン資格情報を入力してください。これはあなたのアカウントのセキュリティを保護します。
 # This message can be seen when attempting to edit a login in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-edit-login-os-auth-dialog-message2-macosx = 保存したパスワードを編集
 # This message can be seen when attempting to reveal a password in about:logins on Windows.
-about-logins-reveal-password-os-auth-dialog-message-win = ログイン情報を表示するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+about-logins-reveal-password-os-auth-dialog-message-win = ログイン情報を表示するには、Windows のログイン資格情報を入力してください。これはあなたのアカウントのセキュリティを保護します。
 # This message can be seen when attempting to reveal a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-reveal-password-os-auth-dialog-message-macosx = 保存したパスワードを開示
 # This message can be seen when attempting to copy a password in about:logins on Windows.
-about-logins-copy-password-os-auth-dialog-message-win = ログイン情報をコピーするには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+about-logins-copy-password-os-auth-dialog-message-win = ログイン情報をコピーするには、Windows のログイン資格情報を入力してください。これはあなたのアカウントのセキュリティを保護します。
 # This message can be seen when attempting to copy a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-copy-password-os-auth-dialog-message-macosx = 保存したパスワードをコピー
 # This message can be seen when attempting to export a password in about:logins on Windows.
-about-logins-export-password-os-auth-dialog-message2-win = パスワードを@@Export-suru@@には、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+about-logins-export-password-os-auth-dialog-message2-win = パスワードを@@Export-suru@@には、Windows のログイン資格情報を入力してください。これはあなたのアカウントのセキュリティを保護します。
 # This message can be seen when attempting to export a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-export-password-os-auth-dialog-message2-macosx = 保存したパスワードを@@Export@@
