@@ -5,7 +5,6 @@
 privatebrowsingpage-open-private-window-label = プライベート@@Window@@を開く
     .accesskey = P
 about-private-browsing-search-placeholder = ウェブ検索
-about-private-browsing-info-title = プライベート@@Window@@です
 about-private-browsing-search-btn =
     .title = ウェブ検索
 # Variables
@@ -19,9 +18,6 @@ about-private-browsing-handoff-no-engine =
 about-private-browsing-handoff-text = { $engine } で検索、または URL を入力します
 about-private-browsing-handoff-text-no-engine = 検索語句、または URL を入力します
 about-private-browsing-not-private = これはプライベート@@Window@@ではありません。
-about-private-browsing-info-description-private-window = プライベート@@Window@@: プライベート@@Window@@をすべて閉じると、{ -brand-short-name } が検索履歴と閲覧履歴を消去しますが、匿名化はされません。
-about-private-browsing-info-description-simplified = { -brand-short-name } のプライベート@@Window@@をすべて閉じると、検索履歴と閲覧履歴が消去されますが、匿名化はされません。
-about-private-browsing-learn-more-link = 詳細情報
 about-private-browsing-hide-activity = あなたの行動と位置情報のすべてを秘匿します
 about-private-browsing-get-privacy = どこでもプライバシーを確保
 about-private-browsing-hide-activity-1 = { -mozilla-vpn-brand-name } であなたの行動と位置情報を秘匿できます。公共 Wi-Fi でもクリックひとつで安全な接続を確保できます。
@@ -32,9 +28,7 @@ about-private-browsing-focus-promo-text = 私たちのプライベートブラ�
 
 ##
 
-about-private-browsing-focus-promo-header-b = あなたの携帯端末にプライベートブラウジングを
-about-private-browsing-focus-promo-text-b = いつも使っているモバイルブラウザーでは見たくないプライベートな検索には { -focus-brand-name } をお使いください。
-about-private-browsing-focus-promo-header-c = モバイルでの次レベルのプライバシー
+about-private-browsing-focus-promo-header-c = モバイルで先進のプライバシー保護
 about-private-browsing-focus-promo-text-c = { -focus-brand-name } は広告とトラッカーをブロックしながら、毎回履歴を消去します。
 # This string is the title for the banner for search engine selection
 # in a private window.
@@ -69,11 +63,6 @@ about-private-browsing-relay-promo-link-text = メールマスクを試す
 
 ## Strings used in a promotion message for cookie banner reduction
 
-# Simplified version of the headline if the original text doesn't work
-# in your language: `See fewer cookie requests`.
-about-private-browsing-cookie-banners-promo-header = Cookie バナーよ去れ！
-about-private-browsing-cookie-banners-promo-button = Cookie バナーを減らす
-about-private-browsing-cookie-banners-promo-message = 目障りな Cookie ポップアップに { -brand-short-name } が自動的に応答します。可能な場合は { -brand-short-name } がすべて拒否します。
 # Simplified version of the headline if the original text doesn't work
 # in your language: `{ -brand-short-name } will show fewer cookie requests`
 about-private-browsing-cookie-banners-promo-heading = { -brand-short-name } が Cookie バナーに対処します

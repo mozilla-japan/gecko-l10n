@@ -47,7 +47,6 @@ about-glean-moz-official = <code>MOZILLA_OFFICIAL</code>: { $moz-official-define
 about-glean-additional-links =
     データの記録と確認を行う別の手段の説明は、
     <strong>データについて</strong> タブを参照してください。
-about-glean-about-testing-header = テストについて
 # This message is followed by a numbered list.
 about-glean-manual-testing =
     完全な手順は <a data-l10n-name="fog-instrumentation-test-doc-link">{ -fog-brand-name } instrumentation testing docs</a>
@@ -55,8 +54,6 @@ about-glean-manual-testing =
     要するに、あなたの計測器の動作を手動でテストするには、以下を行ってください。
 # This message is an option in a dropdown filled with untranslated names of pings.
 about-glean-no-ping-label = (Ping を送信しない)
-# An in-line text input field precedes this string.
-about-glean-label-for-tag-pings = 左のフィールドに覚えやすいデバッグタグを設定して、後であなたの Ping が区別できるようにしてください。
 # An in-line text input field precedes this string.
 about-glean-label-for-tag-pings-with-requirements = 覚えやすいデバッグタグ <span>(20 文字以下の英数字とハイフンのみ)</span> を設定して、後であなたの Ping が区別できるようにしてください。
 # An in-line drop down list precedes this string.
@@ -78,8 +75,6 @@ about-glean-label-for-controls-submit =
 about-glean-li-for-visit-gdpv =
     あなたのタグが付いた Ping については <a data-l10n-name="gdpv-tagged-pings-link">{ glean-debug-ping-viewer-brand-name } ページを訪れてください</a>。
     ボタンを押してから Ping が到着するまで数秒もかかりませんが、時々、数分かかることもあります。
-# Do not translate strings between <code> </code> tags.
-about-glean-adhoc-explanation = さらに <i>アドホック</i> なテストを行うために、この <code>about:glean</code> ページで開発ツールのコンソールを開き、<code>Glean.metricCategory.metricName.testGetValue()</code> などの <code>testGetValue()</code> API を使用して、計測器の特定のピースの現在値を特定することもできます。
 # Do not translate strings between <code> </code> tags.
 about-glean-adhoc-explanation2 = さらに <i>アドホック</i> なテストを行うために、この <code>about:glean</code> ページで開発ツールのコンソールを開き、<code>metric.category.metric_name</code> の <code>Glean.metricCategory.metricName.testGetValue()</code> など、計測器の <code>testGetValue()</code> API を使用して、計測器の特定のピースの現在値を特定することもできます。
 # Do not translate strings between <code> </code> tags.
@@ -168,7 +163,6 @@ about-glean-no-data-to-display = 表示するデータがありません。
 # Do not translate strings between <code> </code> tags.
 about-glean-dual-labeled-metric-warning = <code>about:glean</code> ビューでは <code>DualLabeledCounter</code> メトリクスがまだサポートされていません。
 about-glean-unknown-metric-type-warning = メトリクスの型が不明です。
-about-glean-about-data-explanation = 収集したデータのリストの閲覧は、<a data-l10n-name="glean-dictionary-link">{ -glean-brand-name } Dictionary</a> で調べてください。
 
 ## These labels are displayed to organize the different ping types within the dropdown.
 

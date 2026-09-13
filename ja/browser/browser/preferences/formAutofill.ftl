@@ -7,8 +7,6 @@
 
 autofill-manage-addresses-title = 保存された住所
 autofill-manage-addresses-list-header = 住所
-autofill-manage-credit-cards-title = 保存されたクレジットカード情報
-autofill-manage-credit-cards-list-header = クレジットカード情報
 autofill-manage-payment-methods-title = 保存された支払い方法
 autofill-manage-cards-list-header = カード
 autofill-manage-dialog =
@@ -34,9 +32,6 @@ address-capture-not-now-button =
 address-capture-never-save-addresses-button =
     .label = 今後は住所を保存しない
     .accessKey = v
-address-capture-never-save-button =
-    .label = 今後は保存しない
-    .accessKey = v
 address-capture-cancel-button =
     .label = キャンセル
     .accessKey = C
@@ -51,15 +46,10 @@ address-capture-open-menu-button =
     .aria-label = メニューを開きます
 address-capture-edit-address-link = 住所を編集する
     .aria-label = 住所を編集します
-address-capture-edit-address-button =
-    .aria-label = 住所を編集します
 # The dialog title for creating addresses in browser preferences.
 autofill-add-address-title = 住所の追加
 # The dialog title for editing addresses in browser preferences.
 autofill-edit-address-title = 住所の編集
-autofill-address-given-name = 名
-autofill-address-additional-name = ミドルネーム
-autofill-address-family-name = 姓
 autofill-address-name = 氏名
 autofill-address-organization = 組織名
 autofill-address-street-address = 通り番地
@@ -81,7 +71,7 @@ autofill-address-townland = タウンランド
 ## autofill feature. For more information on the address structure (e.g. levels),
 ## see also https://developers.google.com/maps/documentation/javascript/geocoding
 
-autofill-address-city = 市
+autofill-address-city = 市区町村
 # Used in Hong Kong (HK), Sudan (SD), Syria (SY), Türkiye (TR) as as secondary address information (2 levels below the country level).
 # Used in Korea as sublocality (civil entity below a locality, e.g. within a city).
 autofill-address-district = 区
@@ -127,8 +117,6 @@ autofill-address-eircode = Eircode
 
 ##
 
-# The dialog title for creating addresses in browser preferences.
-autofill-add-new-address-title = @@New-CMD@@住所の追加
 autofill-address-country = 国または地域
 autofill-address-country-only = 国
 autofill-address-tel = 電話番号
@@ -137,18 +125,6 @@ autofill-cancel-button = キャンセル
 autofill-save-button = 保存
 autofill-country-warning-message-2 = 現在、フォーム自動入力機能は特定の国の住所にのみ対応しています。
 autofill-country-warning-message = 現在、フォーム自動入力機能は特定の国の住所にのみ対応しています。
-# The dialog title for creating credit cards in browser preferences.
-autofill-add-new-card-title = @@New-CMD@@クレジットカード情報の追加
-# The dialog title for editing credit cards in browser preferences.
-autofill-edit-card-title = クレジットカード情報の編集
-# In macOS, this string is preceded by the operating system with "Firefox is trying to ",
-# and has a period added to its end. Make sure to test in your locale.
-autofill-edit-card-password-prompt =
-    { PLATFORM() ->
-        [macos] クレジットカード情報を表示
-        [windows] { -brand-short-name } がクレジットカード情報を表示しようとしています。以下の Windows アカウントへのアクセスを確認してください。
-       *[other] { -brand-short-name } がクレジットカード情報を表示しようとしています。
-    }
 autofill-message-tooltip = 自動入力についてのメッセージを表示します
 # The dialog title for creating credit cards in browser preferences.
 autofill-add-card-title = カード情報の追加
@@ -234,15 +210,3 @@ passport-capture-not-now-button =
 passport-capture-never-save-button =
     .label = パスポートを保存しない
     .accessKey = N
-
-## These are brand names and should only be translated when a locale-specific name for that brand is in common use
-
-autofill-card-network-amex = American Express
-autofill-card-network-cartebancaire = Carte Bancaire
-autofill-card-network-diners = Diners Club
-autofill-card-network-discover = Discover
-autofill-card-network-jcb = JCB
-autofill-card-network-mastercard = MasterCard
-autofill-card-network-mir = MIR
-autofill-card-network-unionpay = Union Pay
-autofill-card-network-visa = Visa

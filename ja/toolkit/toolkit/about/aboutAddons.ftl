@@ -156,19 +156,14 @@ addon-sitepermission-host = { $host } サイトの権限
 
 ## These are global warnings
 
-extensions-warning-safe-mode = セーフモードによりすべてのアドオンが無効化されています。
-extensions-warning-check-compatibility = アドオンの互換性確認は無効化されています。互換性のないアドオンがインストールされています。
-extensions-warning-safe-mode2 =
-    .message = セーフモードによりすべてのアドオンが無効化されています。
 extensions-warning-check-compatibility2 =
     .message = アドオンの互換性確認は無効化されています。互換性のないアドオンがインストールされています。
 extensions-warning-check-compatibility-button = 有効化
     .title = アドオンの互換性の確認を有効化します
-extensions-warning-update-security = 更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。
 extensions-warning-update-security2 =
-    .message = 更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。
+    .message = アドオン更新のセキュリティ確認が無効化されています。更新により危険にさらされる可能性があります。
 extensions-warning-update-security-button = 有効化
-    .title = アドオンの更新のセキュリティ確認を有効化します
+    .title = アドオン更新のセキュリティ確認を有効にします
 extensions-warning-imported-addons2 =
     .message = { -brand-short-name } に@@Import-sare@@た拡張機能のインストールを完了してください。
 extensions-warning-imported-addons-button = 拡張機能をインストール
@@ -250,10 +245,6 @@ shortcuts-duplicate = ショートカットが重複しています
 # String displayed when a keyboard shortcut is already assigned to more than one add-on
 # Variables:
 #   $shortcut (string) - Shortcut string for the add-on
-shortcuts-duplicate-warning-message = { $shortcut } が他の場所でも使用されています。ショートカットキーが重複していると予期しない動作の原因となることがあります。
-# String displayed when a keyboard shortcut is already assigned to more than one add-on
-# Variables:
-#   $shortcut (string) - Shortcut string for the add-on
 shortcuts-duplicate-warning-message2 =
     .message = { $shortcut } が他の場所でも使用されています。ショートカットキーが重複していると予期しない動作の原因となることがあります。
 # String displayed when a keyboard shortcut is already used by another add-on
@@ -272,17 +263,6 @@ header-back-button =
 
 ## Recommended add-ons page
 
-# Explanatory introduction to the list of recommended add-ons. The action word
-# ("recommends") in the final sentence is a link to external documentation.
-discopane-intro =
-    拡張機能とテーマは、ブラウザー用のアプリのようなものです。
-    パスワードの保護や動画のダウンロード、商品の検索、迷惑な広告のブロック、ブラウザーの外観の変更など、様々な機能を追加できます。
-    これらの小さなソフトウェアプログラムの多くは、Mozilla 以外の第三者により開発されています。
-    ここでは、{ -brand-product-name } が選ぶセキュリティ、パフォーマンス、機能性に優れた <a data-l10n-name="learn-more-trigger">おすすめのアドオン</a> を紹介します。
-# Notice to make user aware that the recommendations are personalized.
-discopane-notice-recommendations =
-    これらのおすすめの一部はパーソナライズされています。
-    この情報は、インストールされている他の拡張機能やプロファイル設定、使用統計データに基づきます。
 # Notice to make user aware that the recommendations are personalized.
 discopane-notice-recommendations2 =
     .message =
@@ -373,16 +353,9 @@ addon-detail-last-updated-label = 最終更新日
 addon-detail-homepage-label = ホームページ
 addon-detail-rating-label = 評価
 # Message for add-ons with a staged pending update.
-install-postponed-message = この拡張機能は { -brand-short-name } の再起動時に更新されます。
-# Message for add-ons with a staged pending update.
 install-postponed-message2 =
     .message = この拡張機能は { -brand-short-name } の再起動時に更新されます。
 install-postponed-button = 今すぐ更新
-# The average rating that the add-on has received.
-# Variables:
-#   $rating (number) - A number between 0 and 5. The translation should show at most one digit after the comma.
-five-star-rating =
-    .title = 評価: { NUMBER($rating, maximumFractionDigits: 1) } / 5
 # This string is used to show that an add-on is disabled.
 # Variables:
 #   $name (string) - The name of the add-on
@@ -394,9 +367,6 @@ addon-detail-reviews-link = { $numberOfReviews } 件のレビュー
 
 ## Pending uninstall message bar
 
-# Variables:
-#   $addon (string) - Name of the add-on
-pending-uninstall-description = <span data-l10n-name="addon-name">{ $addon }</span> は削除されます。
 # Variables:
 #   $addon (string) - Name of the add-on
 pending-uninstall-description2 =
@@ -416,11 +386,6 @@ addon-detail-group-label-updates =
 # badge is the private browsing icon included next to the extension's name.
 addon-badge-private-browsing-allowed3 =
     .title = プライベート@@Window@@での実行
-# This is the tooltip text for the private browsing badge in about:addons. The
-# badge is the private browsing icon included next to the extension's name.
-addon-badge-private-browsing-allowed2 =
-    .title = プライベート@@Window@@での実行
-    .aria-label = { addon-badge-private-browsing-allowed2.title }
 addon-detail-private-browsing-help = 許可した場合、この拡張機能はプライベートブラウジング中であってもユーザーのオンライン行動にアクセスできます。<a data-l10n-name="learn-more">詳細情報</a>
 addon-detail-private-browsing-allow = 許可する
 addon-detail-private-browsing-disallow = 許可しない
@@ -446,17 +411,6 @@ addon-detail-group-label-quarantined-domains =
 ## This is the tooltip text for the recommended badges for an extension in about:addons. The
 ## badge is a small icon displayed next to an extension when it is recommended on AMO.
 
-addon-badge-recommended2 =
-    .title = { -brand-product-name } は Mozilla が定めた安全性とパフォーマンスの基準に適合する拡張機能のみをおすすめします
-    .aria-label = { addon-badge-recommended2.title }
-# We hard code "Mozilla" in the string below because the extensions are built
-# by Mozilla and we don't want forks to display "by Fork".
-addon-badge-line3 =
-    .title = Mozilla により作成された公式の拡張機能です。安全性とパフォーマンスの基準に適合します
-    .aria-label = { addon-badge-line3.title }
-addon-badge-verified2 =
-    .title = この拡張機能はセキュリティとパフォーマンスの基準に適合するようレビューされています。
-    .aria-label = { addon-badge-verified2.title }
 # We hard code "Mozilla" in the string below because the extensions are built
 # by Mozilla and we don't want forks to display "by Fork".
 addon-badge-line4 =
@@ -486,9 +440,6 @@ addon-permissions-heading = 権限
 addon-permissions-empty2 = この拡張機能は権限を必要としません。
 addon-permissions-required-label = 必須:
 addon-permissions-optional-label = 任意:
-addon-permissions-empty = この拡張機能は権限を必要としません。
-addon-permissions-required = 中核機能に必要な権限:
-addon-permissions-optional = 追加機能の任意の権限:
 addon-permissions-learnmore = 権限についての詳細情報
 # Shown above the permissions list when one or more permissions for this
 # extension are controlled by an enterprise policy and cannot be changed by
@@ -529,25 +480,16 @@ addon-page-options-button =
 
 # Variables:
 #   $version (string) - Application version.
-details-notification-incompatible = { $name } は { -brand-short-name } { $version } と互換性がありません。
-# Variables:
-#   $version (string) - Application version.
 details-notification-incompatible2 =
     .message = { $name } は { -brand-short-name } { $version } と互換性がありません。
-details-notification-incompatible-link = 詳細情報
-details-notification-unsigned-and-disabled = { $name } は { -brand-short-name } での使用が検証できないため無効化されています。
 details-notification-unsigned-and-disabled2 =
     .message = { $name } は { -brand-short-name } での使用が検証できないため無効化されています。
-details-notification-unsigned-and-disabled-link = 詳細情報
-details-notification-unsigned = { $name } は { -brand-short-name } での使用が検証できません。配布元を確認して慎重に使用してください。
 details-notification-unsigned2 =
     .message = { $name } は { -brand-short-name } での使用が検証できません。配布元を確認して慎重に使用してください。
 details-notification-hard-blocked-extension =
     .message = この拡張機能は Mozilla のポリシーに違反しているためブロックされ、無効化されています。
 details-notification-hard-blocked-other =
     .message = このアドオンは Mozilla のポリシーに違反しているためブロックされ、無効化されています。
-details-notification-unsigned-link = 詳細情報
-details-notification-blocked = { $name } はセキュリティまたは安定性に問題があるため無効化されています。
 details-notification-blocked-link2 = 詳細を表示
 details-notification-soft-blocked-extension-disabled2 =
     .message = この拡張機能は制限され、無効化されています。有効にすると危険を伴う可能性があります。
@@ -557,19 +499,7 @@ details-notification-soft-blocked-other-disabled2 =
     .message = このアドオンは制限され、無効化されています。有効にすると危険を伴う可能性があります。
 details-notification-soft-blocked-other-enabled2 =
     .message = このアドオンは制限されています。使用すると危険を伴う可能性があります。
-details-notification-soft-blocked-extension-disabled =
-    .message = この拡張機能は Mozilla のポリシーに違反しているため制限され、無効化されています。有効にすると危険を伴う可能性があります。
-details-notification-soft-blocked-extension-enabled =
-    .message = この拡張機能は Mozilla のポリシーに違反しています。使用すると危険を伴う可能性があります。
-details-notification-soft-blocked-other-disabled =
-    .message = このアドオンは Mozilla のポリシーに違反しているため制限され、無効化されています。有効にすると危険を伴う可能性があります。
-details-notification-soft-blocked-other-enabled =
-    .message = このアドオンは Mozilla のポリシーに違反しています。使用すると危険を伴う可能性があります。
 details-notification-softblocked-link2 = 詳細を表示
-details-notification-blocked-link = 詳細情報
-details-notification-softblocked = { $name } はセキュリティまたは安定性の問題を引き起こすことが知られています。
-details-notification-softblocked-link = 詳細情報
-details-notification-gmp-pending = { $name } はすぐにインストールされます。
 details-notification-gmp-pending2 =
     .message = { $name } はすぐにインストールされます。
 
@@ -585,8 +515,6 @@ plugins-widevine-description = このプラグインは、Encrypted Media Extens
 ## Headings for the Permissions tab in `about:addons` when the data collection
 ## feature is enabled.
 
-addon-permissions-required-data-collection = 必須のデータ収集:
-addon-permissions-optional-data-collection = 任意のデータ収集:
 # Name of the Permissions tab in `about:addons` when the data collection feature is enabled.
 permissions-data-addon-button = 権限とデータ
 # This is a description for extension that use this AI model
@@ -674,6 +602,9 @@ themes-mode-dark =
 # update based on the color scheme mode currently chosen by the operating system.
 themes-mode-device =
     .label = 端末の設定
+# Accessible name for the group of light/dark/device buttons.
+themes-mode =
+    .aria-label = 外観
 # Heading for the in-product themes picker section in about:addons
 aboutaddons-themes-picker-heading =
     .heading = { -brand-product-name } のテーマ

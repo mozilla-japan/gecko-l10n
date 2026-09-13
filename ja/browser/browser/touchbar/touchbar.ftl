@@ -31,6 +31,3 @@ search-bookmarks = ブックマーク
 search-history = 履歴
 search-opentabs = 開いているタブ
 search-tags = タグ
-search-titles = タイトル
-
-##

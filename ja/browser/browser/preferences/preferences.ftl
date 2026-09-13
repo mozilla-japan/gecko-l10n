@@ -2,13 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-do-not-track-description = ウェブサイトに “Do Not Track” 信号を送り、追跡されたくないことを知らせます。
-do-not-track-removal = “Do Not Track” 信号のサポートを終了します
-do-not-track-learn-more = 詳細情報
-do-not-track-option-default-content-blocking-known =
-    .label = 既知のトラッカーをブロックする設定時のみ
-do-not-track-option-always =
-    .label = 常に送る
 global-privacy-control-description =
     .label = ウェブサイトにユーザーデータの販売や共有の拒否を通知する
     .accesskey = s
@@ -21,7 +14,6 @@ non-technical-privacy-heading =
 preferences-privacy-relay-available =
     .label = { -relay-brand-name } メールマスクのご提案
     .description = 受信トレイをスパムから守るため、本当のメールアドレスを隠します。
-non-technical-privacy-header = ウェブサイトのプライバシー設定
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
@@ -50,8 +42,6 @@ tls-key-logging-notice-nav =
 category-list =
     .aria-label = カテゴリー
 pane-general-title = 一般
-category-general =
-    .tooltiptext = { pane-general-title }
 pane-home-title = ホーム
 pane-home-startup-title2 = ホームと起動
     .title = ホームと起動
@@ -59,21 +49,11 @@ pane-search-title2 = 検索
     .title = 検索
 pane-privacy-title3 = プライバシーとセキュリティ
     .title = プライバシーとセキュリティ
-category-home =
-    .tooltiptext = { pane-home-title }
-pane-search-title = 検索
-category-search =
-    .tooltiptext = { pane-search-title }
 pane-privacy-section =
     .heading = プライバシーとセキュリティ
-pane-privacy-title = プライバシーとセキュリティ
-category-privacy =
-    .tooltiptext = { pane-privacy-title }
 pane-sync-title3 = 同期
 pane-ai-controls-title2 = AI 制御
     .title = AI 制御
-category-sync3 =
-    .tooltiptext = { pane-sync-title3 }
 pane-about-firefox-title = { -brand-short-name } について
     .title = { pane-about-firefox-title }
 pane-appearance-title = 外観
@@ -90,19 +70,9 @@ preferences-languages-header3 =
     .heading = 言語
 settings-pane-labs-title2 = { -firefoxlabs-brand-name }
     .title = { -firefoxlabs-brand-name }
-pane-experimental-title = 実験的な機能
-category-experimental =
-    .tooltiptext = { -brand-short-name } の実験的な機能
-pane-experimental-subtitle = 注意して進んでください
-pane-experimental-search-results-header = { -brand-short-name } の実験的な機能: 注意して進んでください
-pane-experimental-description2 = 高度な設定を変更すると、{ -brand-short-name } の性能と安全性に影響を及ぼす可能性があります。
-settings-pane-labs-title = { -firefoxlabs-brand-name }
 settings-pane-labs-header =
     .heading = { -firefoxlabs-brand-name }
-settings-category-labs =
-    .tooltiptext = { -firefoxlabs-brand-name }
-pane-experimental-description4 = 実験的な機能を試してみてください！ 現在開発中ですが、{ -brand-short-name } の動作にインパクトを与えることでしょう。私たちは <a data-l10n-name="data-collection">技術データと対話データの送信</a> をオンにしている場合のみ、これらの機能の使用データを受け取ります。
-pane-experimental-description3 = 実験的な機能を試してみてください！ 現在開発中ですが、{ -brand-short-name } の動作にインパクトを与えることでしょう。
+pane-experimental-description4 = 実験的な機能をお試しください！ 現在開発中ですが、{ -brand-short-name } の動作にインパクトを与えることでしょう。私たちは <a data-l10n-name="data-collection">技術データと対話データの送信</a> をオンにしている場合のみ、これらの機能の使用データを受け取ります。
 pane-experimental-reset =
     .label = @@DefaultValue@@に戻す
     .accesskey = R
@@ -110,8 +80,6 @@ help-button-label2 = { -brand-short-name } サポート
     .title = { -brand-short-name } サポート
 addons-button-label2 = 拡張機能とテーマ
     .title = 拡張機能とテーマ
-help-button-label = { -brand-short-name } サポート
-addons-button-label = 拡張機能とテーマ
 focus-search =
     .key = f
 close-button =
@@ -175,15 +143,9 @@ search-results-help-link = ヘルプが必要な方は、<a data-l10n-name="url"
 
 ## General Section
 
-startup-header = 起動
 always-check-default =
     .label = { -brand-short-name } が@@DefaultBrowser@@か確認する
     .accesskey = y
-is-default = { -brand-short-name } は@@DefaultBrowser@@に設定されています
-is-not-default = { -brand-short-name } は@@DefaultBrowser@@に設定されていません
-set-as-my-default-browser =
-    .label = @@DefaultBrowser@@にする...
-    .accesskey = D
 startup-restore-windows-and-tabs =
     .label = 前回の@@Window@@とタブを開く
     .accesskey = s
@@ -197,16 +159,11 @@ windows-launch-on-login-disabled = この設定は Windows で無効化されて
 windows-launch-on-login-open-new-tab =
     .label = @@NewTab@@も開く
     .accesskey = n
-windows-launch-on-login-profile-disabled = この設定を有効にするには、@@[@@ユーザープロファイルの選択@@]@@ @@Window@@で @@[@@{ profile-manager-use-selected.label }@@]@@ にチェックを入れてください。
-startup-restore-warn-on-quit =
-    .label = ブラウザーを終了するときは確認する
 disable-extension =
     .label = 拡張機能を無効化
 preferences-data-migration-group =
     .label = ブラウザーデータの@@ImportNoun@@
     .description = 別のブラウザーからブックマークやパスワード、履歴、拡張機能、自動入力データを移行します。
-preferences-data-migration-header = ブラウザーデータの@@ImportNoun@@
-preferences-data-migration-description = ブックマークやパスワード、履歴、自動入力データを { -brand-short-name } に@@Import-si@@ます。
 preferences-data-migration-button =
     .label = データを@@Import@@
     .accesskey = m
@@ -217,9 +174,6 @@ preferences-profiles-subpane-description =
 preferences-profiles-section-header =
     .label = プロファイル
     .description = 各プロファイルには、閲覧履歴やパスワードなど個別の閲覧データと設定が保持されています。
-preferences-profiles-header = プロファイル
-preferences-manage-profiles-description = 各プロファイルには、閲覧履歴やパスワードなど個別の閲覧データと設定が保持されています。
-preferences-manage-profiles-learn-more = 詳細情報
 preferences-manage-profiles-button =
     .label = プロファイルを管理
 preferences-profiles-settings-button =
@@ -252,7 +206,6 @@ tabs-containers-heading =
     .label = コンテナー
 tabs-closing-heading =
     .label = 閉じ方
-tabs-group-header = タブ
 ctrl-tab-recently-used-order =
     .label = Ctrl+Tab で最近使用した順にタブを切り替える
     .accesskey = T
@@ -272,25 +225,11 @@ ask-on-close-multiple-tabs =
 ask-on-quit-with-key =
     .label = { $quitKey } キーで終了する前に確認する
     .accesskey = b
-confirm-on-close-multiple-tabs =
-    .label = 同時に複数のタブを閉じる前に確認する
-    .accesskey = m
-# This string is used for the confirm before quitting preference.
-# Variables:
-#   $quitKey (string) - the quit keyboard shortcut, and formatted
-#                       in the same manner as it would appear,
-#                       for example, in the File menu.
-confirm-on-quit-with-key =
-    .label = { $quitKey } キーで終了する前に確認する
-    .accesskey = b
 warn-on-open-many-tabs =
     .label = 同時に複数のタブを開いて { -brand-short-name } の動作が遅くなるときは確認する
     .accesskey = d
 switch-to-new-tabs-2 =
     .label = @@NewTab@@でリンクやメディアを開いた時、すぐにそのタブに切り替える
-    .accesskey = h
-switch-to-new-tabs =
-    .label = リンク、画像、メディアを@@NewTab@@で開いたとき、すぐにそのタブに切り替える
     .accesskey = h
 show-tabs-in-taskbar =
     .label = タスクバーにタブのプレビューを表示する
@@ -298,15 +237,9 @@ show-tabs-in-taskbar =
 browser-containers-enabled-2 =
     .label = コンテナータブを使用する
     .accesskey = n
-browser-containers-enabled =
-    .label = コンテナータブを有効にする
-    .accesskey = n
 browser-containers-learn-more = 詳細情報
 browser-containers-settings-2 =
     .label = 設定を管理
-    .accesskey = i
-browser-containers-settings =
-    .label = 設定...
     .accesskey = i
 containers-disable-alert-title = すべてのコンテナータブを閉じますか？
 startup-group =
@@ -347,16 +280,6 @@ browser-layout-show-sidebar2 =
     .description = ブックマーク、同期したタブ、AI チャットボットなど、メインビューを切り替えずにすばやくアクセスできます。
 page-navigation-group =
     .label = ページナビゲーション
-browser-layout-header = ブラウザーレイアウト
-browser-layout-horizontal-tabs =
-    .label = 水平タブ
-browser-layout-horizontal-tabs-desc = ブラウザー上部に表示します
-browser-layout-vertical-tabs =
-    .label = 垂直タブ
-browser-layout-vertical-tabs-desc = サイドバー内に表示します
-browser-layout-show-sidebar =
-    .label = サイドバーを表示
-browser-layout-show-sidebar-desc = ブックマーク、同期したタブ、AI チャットボットなど、メインビューを切り替えずにすばやくアクセスできます。
 
 ## General Section - Language & Appearance
 
@@ -367,31 +290,14 @@ appearance-group2 =
 preferences-web-appearance-choice-auto3 =
     .label = システム
     .title = システムの設定と { -brand-short-name } のテーマをもとに、ウェブサイトの背景と内容を自動的に設定する。
-preferences-web-appearance-header = ウェブサイトの外観
-preferences-web-appearance-description = 一部のウェブサイトはあなたの設定をもとにカラースキームを適用します。これらのサイトでどのカラースキームを使用するか選択してください。
 preferences-web-appearance-choice-light2 =
-    .label = Light
+    .label = ライト
     .title = 明るい外観をウェブサイトの背景と内容に使用します。
 preferences-web-appearance-choice-dark2 =
-    .label = Dark
+    .label = ダーク
     .title = 暗い外観をウェブサイトの背景と内容に使用します。
 web-appearance-group =
     .aria-label = ウェブサイトの外観
-preferences-web-appearance-choice-auto = 自動
-preferences-web-appearance-choice-light = Light
-preferences-web-appearance-choice-dark = Dark
-preferences-web-appearance-choice-tooltip-auto =
-    .title = システムの設定と { -brand-short-name } のテーマをもとに、ウェブサイトの背景と内容を自動的に設定する。
-preferences-web-appearance-choice-tooltip-light =
-    .title = 明るい外観をウェブサイトの背景と内容に使用する。
-preferences-web-appearance-choice-tooltip-dark =
-    .title = 暗い外観をウェブサイトの背景と内容に使用する。
-preferences-web-appearance-choice-input-auto =
-    .aria-description = { preferences-web-appearance-choice-tooltip-auto.title }
-preferences-web-appearance-choice-input-light =
-    .aria-description = { preferences-web-appearance-choice-tooltip-light.title }
-preferences-web-appearance-choice-input-dark =
-    .aria-description = { preferences-web-appearance-choice-tooltip-dark.title }
 # This can appear when using windows HCM or "Override colors: always" without
 # system colors.
 preferences-web-appearance-override-warning3 =
@@ -403,14 +309,6 @@ preferences-contrast-control-group =
     .description = ウェブサイトは様々な前景@@Color@@と背景@@Color@@を使用しています。コントラストを均一にするため、ウェブサイトが同じ@@Colors@@を使用するように設定します。
 preferences-contrast-control-radio-group =
     .label = @@Colors@@を上書き
-# This can appear when using windows HCM or "Override colors: always" without
-# system colors.
-preferences-web-appearance-override-warning = 選択した@@Colors@@でウェブサイトの外観を上書きします。<a data-l10n-name="colors-link">@@Colors@@の管理</a>
-# This message contains one link. It can be moved within the sentence as needed
-# to adapt to your language, but should not be changed.
-preferences-web-appearance-footer = <a data-l10n-name="themes-link">拡張機能とテーマ</a> で { -brand-short-name } のテーマを管理する
-preferences-contrast-control-header = コントラスト制御
-preferences-contrast-control-description = ウェブサイトは様々な前景@@Color@@と背景@@Color@@を使用しています。読みやすさを向上させるため、ウェブサイトが同じ@@Colors@@を使用するように { -brand-short-name } を設定します。
 preferences-contrast-control-use-platform-settings =
     .label = 自動 (システム設定を使用)
     .accesskey = A
@@ -423,27 +321,13 @@ preferences-contrast-control-custom =
 preferences-colors-manage-button2 =
     .label = @@Colors@@の管理
     .accesskey = C
-preferences-colors-header = @@Colors@@
-preferences-colors-description = ウェブサイトのテキスト、背景、リンクについて { -brand-short-name } の@@Default-@@@@Colors@@を上書きします。
 preferences-colors-manage-button =
     .label = @@Colors@@の管理...
     .accesskey = C
 preferences-fonts-header2 =
     .label = フォント
-preferences-fonts-header = フォント
-default-font = @@Default-@@フォント
-    .accesskey = D
-default-font-size = サイズ
-    .accesskey = S
-advanced-fonts =
-    .label = 詳細設定...
-    .accesskey = A
 preferences-default-zoom-label =
     .label = @@Default-@@ズーム
-    .accesskey = z
-# Zoom is a noun, and the message is used as header for a group of options
-preferences-zoom-header = ズーム
-preferences-default-zoom = @@Default-@@ズーム
     .accesskey = z
 # Variables:
 #   $percentage (number) - Zoom percentage value
@@ -454,8 +338,6 @@ preferences-zoom-text-only =
     .accesskey = t
 preferences-text-zoom-override-warning2 =
     .message = @@[@@文字サイズのみ変更@@]@@ がオンで@@Default-@@ズームが 100% でない場合、一部のサイトがコンテンツを正しく表示できない可能性があります。
-preferences-text-zoom-override-warning =
-    .message = 警告: @@[@@文字サイズのみ変更@@]@@ を選択し、@@Default-@@ズームが 100% でない場合、一部のサイトやコンテンツが正しく表示されない可能性があります。
 language-header = 言語
 choose-language-description = ウェブページの表示に使用する言語の優先順位を設定できます。
 website-language-heading =
@@ -499,13 +381,7 @@ browser-language-fallback-label =
     .description = 優先言語のローカライズが不完全な場合に使用されます。
 browser-language-install-error =
     .message = { -brand-short-name } は現在、言語を更新できません。インターネット接続を確認して、もう一度試してください。
-translate-web-pages =
-    .label = ウェブページを翻訳
-    .accesskey = T
 fx-translate-web-pages = { -translations-brand-name }
-# The <img> element is replaced by the logo of the provider
-# used to provide machine translations for web pages.
-translate-attribution = 翻訳: <img data-l10n-name="logo"/>
 translate-exceptions =
     .label = 例外...
     .accesskey = x
@@ -599,23 +475,6 @@ download-always-ask-where2 =
 download-private-browsing-delete2 =
     .label = プライベート@@Window@@を閉じるとき、ダウンロードしたファイルを削除する
     .accesskey = D
-download-header = ダウンロード
-download-save-where = 次のフォルダーに保存する
-    .accesskey = v
-download-choose-folder =
-    .label =
-        { PLATFORM() ->
-            [macos] 選択...
-           *[other] 参照...
-        }
-    .accesskey =
-        { PLATFORM() ->
-            [macos] e
-           *[other] o
-        }
-download-always-ask-where =
-    .label = ファイルごとに保存先を指定する
-    .accesskey = A
 applications-header = @@Application@@
 applications-description = ウェブからダウンロードしたファイルを { -brand-short-name } が取り扱う方法と閲覧中に使用する@@Application@@を選んでください。
 applications-setting2 =
@@ -666,10 +525,6 @@ applications-type-description-with-type = { $type-description } ({ $type })
 #   $extension (string) - File extension (e.g .TXT)
 #   $type (string) - The MIME type (e.g application/binary)
 applications-file-ending-with-type = { applications-file-ending } ({ $type })
-# Variables:
-#   $plugin-name (string) - Name of a plugin (e.g Adobe Flash)
-applications-use-plugin-in =
-    .label = { $plugin-name } を使用 ({ -brand-short-name } 内で表示)
 applications-open-inapp =
     .label = { -brand-short-name } で開く
 
@@ -677,8 +532,6 @@ applications-open-inapp =
 ## selected label element based on the string from
 ## the selected menu item.
 
-applications-use-plugin-in-label =
-    .value = { applications-use-plugin-in.label }
 applications-action-save-label =
     .value = { applications-action-save.label }
 applications-use-app-label =
@@ -711,13 +564,10 @@ applications-ask-before-handling2 =
     .accesskey = A
 drm-group =
     .label = デジタル著作権管理 (DRM) コンテンツ
-drm-content-header = デジタル著作権管理 (DRM) コンテンツ
 play-drm-content =
     .label = DRM 制御のコンテンツを再生する
     .accesskey = P
 play-drm-content-learn-more = 詳細情報
-update-application-title = { -brand-short-name } の更新
-update-application-description = 最高のパフォーマンスと安定性、セキュリティを提供するため { -brand-short-name } を最新の状態に保ちます。
 # Variables:
 # $version (string) - Firefox version
 update-application-version = バージョン { $version } <a data-l10n-name="learn-more">更新情報</a>
@@ -731,22 +581,9 @@ update-application-radio-group =
 update-application-auto-2 =
     .label = 更新を自動的にインストールする (推奨)
     .accesskey = A
-update-history =
-    .label = 更新履歴を表示...
-    .accesskey = p
-update-application-allow-description = { -brand-short-name } の更新動作
-update-application-auto =
-    .label = 更新を自動的にインストールする (推奨)
-    .accesskey = A
 update-application-check-choose-2 =
     .label = 更新を確認するが、いつインストールするか選択する
     .accesskey = C
-update-application-check-choose =
-    .label = 更新を確認するが、インストールするかを選択する
-    .accesskey = C
-update-application-manual =
-    .label = 更新を確認しない (非推奨)
-    .accesskey = N
 update-application-background-enabled =
     .label = { -brand-short-name } を実行していない時に更新する
     .accesskey = W
@@ -754,13 +591,6 @@ update-application-warning-cross-user-setting-2 =
     .message = この設定はこの端末のすべての Windows アカウントと、この { -brand-short-name } のインストール先を使用するすべての { -brand-short-name } プロファイルに適用されます。
 update-application-suppress-prompts-2 =
     .label = 更新の通知を減らす
-    .accesskey = n
-update-application-warning-cross-user-setting = この設定はこの端末のすべての Windows アカウントと、この { -brand-short-name } のインストール先を使用するすべての { -brand-short-name } プロファイルに適用されます。
-update-application-use-service =
-    .label = 更新のインストールにバックグラウンドサービスを使用する
-    .accesskey = b
-update-application-suppress-prompts =
-    .label = 更新確認の通知頻度を少なくする
     .accesskey = n
 update-setting-write-failure-title2 = 設定変更の保存エラー
 # Variables:
@@ -805,11 +635,6 @@ support-share-ideas =
 
 ## General Section - Performance
 
-performance-title = パフォーマンス
-performance-use-recommended-settings-checkbox =
-    .label = 推奨のパフォーマンス設定を使用する
-    .accesskey = U
-performance-use-recommended-settings-desc = これらの設定はコンピューターのハードウェアとオペレーティングシステムに合わせて調整されます。
 performance-settings-learn-more = 詳細情報
 performance-allow-hw-accel =
     .label = ハードウェアアクセラレーション機能を使用する (可能な場合)
@@ -831,9 +656,6 @@ performance-use-recommended-settings-checkbox-2 =
 
 ## Accessibility page
 
-browsing-title = ブラウジング
-browsing-group-label =
-    .aria-label = ブラウジング
 browsing-use-autoscroll =
     .label = 自動スクロール機能を使用する
     .accesskey = a
@@ -872,17 +694,12 @@ settings-media-group =
 browsing-picture-in-picture-toggle-enabled-2 =
     .label = ピクチャーインピクチャーモードを使用する
     .accesskey = e
-browsing-picture-in-picture-toggle-enabled =
-    .label = ピクチャーインピクチャーの動画の操作を有効にする
-    .accesskey = E
 browsing-picture-in-picture-enable-when-switching-tabs =
     .label = タブを切り替えた時、再生中の動画をピクチャーインピクチャーモードにする
     .accesskey = s
-browsing-picture-in-picture-learn-more = 詳細情報
 browsing-media-control =
     .label = メディアをキーボード、ヘッドセット、仮想インターフェイスで操作する
     .accesskey = v
-browsing-media-control-learn-more = 詳細情報
 recommendations-group =
     .label = おすすめ
 browsing-cfr-recommendations =
@@ -891,7 +708,6 @@ browsing-cfr-recommendations =
 browsing-cfr-features =
     .label = おすすめの機能を紹介する
     .accesskey = f
-browsing-cfr-recommendations-learn-more = 詳細情報
 browsing-group =
     .label = ブラウジング
 
@@ -913,12 +729,6 @@ preferences-fonts-advanced-settings =
 
 ## General Section - Proxy
 
-network-settings-title = ネットワーク設定
-network-proxy-connection-description = { -brand-short-name } のインターネットへの接続方法を設定します。
-network-proxy-connection-learn-more = 詳細情報
-network-proxy-connection-settings =
-    .label = 接続設定...
-    .accesskey = e
 network-proxy-group2 =
     .label = プロキシー設定
     .description = { -brand-short-name } のインターネットへの接続方法を設定します。
@@ -1036,9 +846,6 @@ home-prefs-shortcuts-by-option-sponsored =
 
 ## Home Section - Firefox Home Content Customization
 
-home-prefs-recommended-by-header =
-    .label = { $provider } のおすすめ
-home-prefs-recommended-by-description-new = { -brand-product-name } ファミリーを構成する { $provider } が厳選した注目のコンテンツ
 home-prefs-recommended-by-header-generic =
     .label = おすすめのストーリー
 home-prefs-recommended-by-description-generic = { -brand-product-name } ファミリーに選ばれた優良コンテンツ
@@ -1051,26 +858,15 @@ home-prefs-stories-description = ユーザーの行動に基づいてパーソ�
 home-prefs-recommended-by-learn-more = 使い方
 home-prefs-recommended-by-option-sponsored-stories =
     .label = 広告記事
-home-prefs-recommended-by-option-recent-saves =
-    .label = 最近保存したものを表示
 home-prefs-highlights-option-visited-pages =
     .label = 訪れたページ
 home-prefs-highlights-options-bookmarks =
     .label = ブックマーク
 home-prefs-highlights-option-most-recent-download =
     .label = 最近のダウンロード
-home-prefs-highlights-option-saved-to-pocket =
-    .label = { -pocket-brand-name } に保存されたページ
 home-prefs-recent-activity-header =
     .label = 最近のアクティビティ
 home-prefs-recent-activity-description = 最近のサイトとコンテンツの抜粋
-# For the "Snippets" feature traditionally on about:home.
-# Alternative translation options: "Small Note" or something that
-# expresses the idea of "a small message, shortened from something else,
-# and non-essential but also not entirely trivial and useless.
-home-prefs-snippets-header =
-    .label = スニペット
-home-prefs-snippets-description-new = { -vendor-short-name } と { -brand-product-name } に関するヒントと最新情報
 home-prefs-weather-header =
     .label = 天気予報
 home-prefs-weather-description = 一目でわかる今日の天気
@@ -1089,22 +885,6 @@ home-prefs-sections-rows-option =
 
 ## Search Section
 
-search-bar-header = 検索バー
-search-bar-hidden =
-    .label = 検索とナビゲーションにアドレスバーを使用する
-search-bar-shown =
-    .label = 検索バーをツールバーに追加する
-search-engine-default-header = @@Default-@@検索エンジン
-search-engine-default-desc-2 = アドレスバーと検索バーの@@Default-@@検索エンジンです。いつでも切り替えられます。
-search-engine-default-private-desc-2 = プライベート@@Window@@での@@Default-@@検索エンジンを選択してください
-search-separate-default-engine =
-    .label = この検索エンジンをプライベート@@Window@@で使用する
-    .accesskey = U
-search-suggestions-header = 検索候補
-search-suggestions-desc = 検索エンジンからの検索候補の表示方法を選択してください。
-search-suggestions-option =
-    .label = 検索候補を使用する
-    .accesskey = s
 search-show-suggestions-option =
     .label = 検索候補を表示する
     .accesskey = S
@@ -1140,22 +920,6 @@ search-separate-default-engine-dropdown =
     .aria-label = プライベート@@Window@@の@@Default-@@検索エンジン
 search-suggestions-header-2 =
     .label = 検索エンジンの候補
-# With this option enabled, on the search results page
-# the URL will be replaced by the search terms in the address bar
-# when using the current default search engine.
-search-show-search-term-option =
-    .label = @@Default-@@検索エンジンの結果ページで URL の代わりに検索語句を表示する
-# This string describes what the user will observe when the system
-# prioritizes search suggestions over browsing history in the results
-# that extend down from the address bar. In the original English string,
-# "ahead" refers to location (appearing most proximate to), not time
-# (appearing before).
-search-show-suggestions-above-history-option =
-    .label = アドレスバーの入力候補は、検索候補を閲覧履歴より先に表示する
-search-show-suggestions-private-windows =
-    .label = プライベート@@Window@@で検索候補を表示する
-suggestions-addressbar-settings-generic2 = アドレスバーの入力候補のその他の設定を変更
-search-suggestions-cant-show = { -brand-short-name } に履歴を保存しないよう設定されているため、ロケーションバーに検索候補が表示されません。
 search-one-click-header2 = 検索ショートカット
 search-one-click-desc = キーワードの入力開始時にアドレスバーや検索バーの下に現れる代替検索エンジンを選んでください。
 search-one-click-header-3 =
@@ -1216,19 +980,6 @@ search-section =
 
 ## Containers Section
 
-containers-back-button2 =
-    .aria-label = 設定に戻る
-containers-header = コンテナータブ
-containers-add-button =
-    .label = @@New-CMD@@コンテナーを追加
-    .accesskey = A
-containers-new-tab-check =
-    .label = @@NewTab@@を開くコンテナーを毎回選択する
-    .accesskey = S
-containers-settings-button =
-    .label = 設定
-containers-remove-button =
-    .label = 削除
 containers-section-header2 =
     .heading = コンテナーの設定
 containers-card-header2 =
@@ -1312,8 +1063,6 @@ sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10
 
 ## Firefox account - Signed in
 
-sync-profile-picture =
-    .tooltiptext = プロファイル写真を変更します
 sync-profile-picture-with-alt =
     .tooltiptext = プロファイル写真を変更します
     .alt = プロファイル写真を変更します
@@ -1358,9 +1107,6 @@ sync-account-signed-in-display-name =
 
 ##
 
-sync-resend-verification =
-    .label = 認証メールを再送信
-    .accesskey = d
 sync-verify-account =
     .label = アカウントを認証
     .accesskey = V
@@ -1387,10 +1133,6 @@ prefs-sync-turn-on-syncing-2 =
     .label = 同期をオンにする
     .accesskey = s
 prefs-sync-offer-setup-label2 = ブックマーク、履歴、タブ、パスワード、アドオン、設定をあなたのすべての端末に対して同期させます。
-prefs-sync-now =
-    .labelnotsyncing = 今すぐ同期
-    .accesskeynotsyncing = N
-    .labelsyncing = 同期中...
 prefs-sync-now-button =
     .label = 今すぐ同期
     .accesskey = N
@@ -1413,10 +1155,8 @@ sync-syncing-across-devices-empty-state2 =
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
 sync-currently-syncing-tabs = 開いているタブ
-sync-currently-syncing-logins-passwords = ログイン情報とパスワード
 sync-currently-syncing-passwords = パスワード
 sync-currently-syncing-addresses = 住所フォーム
-sync-currently-syncing-creditcards = クレジットカード情報
 sync-currently-syncing-payment-methods = 支払い方法
 sync-currently-syncing-addons = アドオン
 sync-currently-syncing-settings = 個人設定
@@ -1428,20 +1168,9 @@ sync-manage-options-2 =
     .accesskey = M
 settings-sync-disconnect-button =
     .label = 接続を解除
-sync-change-options =
-    .label = 変更...
-    .accesskey = C
 
 ## The "Choose what to sync" dialog.
 
-sync-choose-what-to-sync-dialog3 =
-    .title = 同期する項目を選択
-    .style = min-width: 36em;
-    .buttonlabelaccept = 変更を保存
-    .buttonaccesskeyaccept = S
-    .buttonlabelextra2 = 切断...
-    .buttonaccesskeyextra2 = D
-sync-choose-dialog-subtitle = 項目のリストを変更すると、アカウントに接続されたすべての端末に反映されます。
 sync-engine-bookmarks =
     .label = ブックマーク
     .accesskey = m
@@ -1452,10 +1181,6 @@ sync-engine-tabs =
     .label = 開いているタブ
     .tooltiptext = 同期した端末で開いているすべてのタブの一覧です
     .accesskey = t
-sync-engine-logins-passwords =
-    .label = ログイン情報とパスワード
-    .tooltiptext = 保存したユーザー名とパスワードです
-    .accesskey = L
 sync-engine-passwords =
     .label = パスワード
     .tooltiptext = 保存したパスワードです
@@ -1464,10 +1189,6 @@ sync-engine-addresses =
     .label = 住所フォーム
     .tooltiptext = 保存した住所です (デスクトップのみ)
     .accesskey = e
-sync-engine-creditcards =
-    .label = クレジットカード
-    .tooltiptext = クレジットカードの名義と番号と有効期限です (デスクトップのみ)
-    .accesskey = C
 sync-engine-payment-methods2 =
     .label = 支払い方法
     .tooltiptext = 氏名とカード番号、有効期限
@@ -1516,29 +1237,9 @@ sync-connect-another-device = 別の端末を接続
 sync-connect-another-device-2 =
     .label = 別の端末を接続
 
-## These strings are shown in a desktop notification after the
-## user requests we resend a verification email.
-
-sync-verification-sent-title = 認証情報を送信しました
-# Variables:
-#   $email (String): Email address of user's Firefox account.
-sync-verification-sent-body = 認証情報を { $email } に送信しました。
-sync-verification-not-sent-title = 認証情報を送信できません
-sync-verification-not-sent-body = 認証情報メールを送信できませんでした。後で再度試してください。
-
 ## Privacy Section
 
 privacy-header = ブラウザープライバシー
-
-## Privacy Section - Logins and Passwords
-
-# The search keyword isn't shown to users but is used to find relevant settings in about:preferences.
-pane-privacy-logins-and-passwords-header = ログインとパスワード
-    .searchkeywords = { -lockwise-brand-short-name }
-# Checkbox to control whether UI is shown to users to save or fill logins/passwords.
-forms-ask-to-save-logins =
-    .label = ウェブサイトのログイン情報とパスワードを保存するか確認する
-    .accesskey = r
 
 ## Privacy Panel Settings
 
@@ -1559,9 +1260,6 @@ forms-manage-password-exceptions =
 forms-exceptions =
     .label = 例外サイト...
     .accesskey = x
-forms-generate-passwords =
-    .label = 強固なパスワードを生成、提案する
-    .accesskey = u
 forms-suggest-passwords =
     .label = 強固なパスワードを提案する
     .accesskey = S
@@ -1569,19 +1267,10 @@ forms-breach-alerts =
     .label = 漏洩したウェブサイトのパスワードの警告を表示する
     .accesskey = b
 forms-breach-alerts-learn-more-link = 詳細情報
-preferences-relay-integration-checkbox =
-    .label = { -relay-brand-name } メールマスクによるメールアドレスの保護を提案する
 preferences-relay-integration-checkbox2 =
     .label = { -relay-brand-name } メールマスクによるメールアドレスの保護を提案する
     .accesskey = r
 relay-integration-learn-more-link = 詳細情報
-# Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
-forms-fill-logins-and-passwords =
-    .label = ログイン情報とパスワードを自動入力する
-    .accesskey = i
-forms-saved-logins =
-    .label = 保存されているログイン情報...
-    .accesskey = L
 # Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
 forms-fill-usernames-and-passwords =
     .label = ユーザー名とパスワードを自動的に入力する
@@ -1657,7 +1346,7 @@ privacy-panel-breach-alerts =
 ## OS Authentication dialog
 
 # This message can be seen by trying to add a Primary Password.
-primary-password-os-auth-dialog-message-win = マスターパスワードを作成するには、Windows でのあなたの資格情報を入力してください。これはアカウントのセキュリティ保護に役立ちます。
+primary-password-os-auth-dialog-message-win = マスターパスワードを作成するには、Windows のログイン資格情報を入力してください。これはあなたのアカウントのセキュリティを保護します。
 # This message can be seen by trying to add a Primary Password.
 # The macOS strings are preceded by the operating system with "Firefox is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
@@ -1675,20 +1364,6 @@ autofill-creditcard-os-auth-dialog-caption = { -brand-full-name }
 
 ## Privacy section - Autofill
 
-pane-privacy-autofill-header = 自動入力
-autofill-addresses-checkbox = 住所を保存して入力する
-    .accesskey = a
-autofill-saved-addresses-button = 保存された住所
-    .accesskey = S
-autofill-payment-methods-checkbox-message = 支払い方法を保存して入力する
-    .accesskey = m
-autofill-payment-methods-checkbox-submessage = クレジットカードとデビットカードを含みます
-    .accesskey = I
-autofill-saved-payment-methods-button = 保存された支払い方法
-    .accesskey = v
-# This operation requires the user to authenticate with the operating system (device sign-in)
-autofill-reauth-payment-methods-checkbox = 支払い方法の入力と管理に端末のログイン情報を要求する
-    .accesskey = o
 autofill-payment-methods-header =
     .aria-label = 支払い方法
 autofill-payment-methods-checkbox-message-2 =
@@ -1777,28 +1452,10 @@ payments-group =
 
 ## Privacy Section - History
 
-history-header = 履歴
-# This label is followed, on the same line, by a dropdown list of options
-# (Remember history, etc.).
-# In English it visually creates a full sentence, e.g.
-# "Firefox will" + "Remember history".
-#
-# If this doesn't work for your language, you can translate this message:
-#   - Simply as "Firefox", moving the verb into each option.
-#     This will result in "Firefox" + "Will remember history", etc.
-#   - As a stand-alone message, for example "Firefox history settings:".
-history-remember-label = { -brand-short-name } に
-    .accesskey = w
-history-remember-option-all =
-    .label = 履歴を記憶させる
 history-remember-option-never2 =
     .label = 履歴を一切記憶させない
     .description = すべての@@Window@@がプライベート@@Window@@のようになります。オンにした場合は必要な拡張機能を許可してください。
 history-remember-option-custom2 =
-    .label = 記憶させる履歴を詳細設定する
-history-remember-option-never =
-    .label = 履歴を一切記憶させない
-history-remember-option-custom =
     .label = 記憶させる履歴を詳細設定する
 history-remember-description4 =
     .aria-label = { history-group.label }
@@ -1809,8 +1466,6 @@ history-dontremember-description4 =
 history-custom-description4 =
     .aria-label = { history-group.label }
     .description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴をカスタム設定で保存します。
-history-remember-description = { -brand-short-name } は表示したページの履歴、ファイルのダウンロード履歴、検索やフォームの入力履歴を保存します。
-history-dontremember-description = { -brand-short-name } はプライベートブラウジング中と同様に、表示したページの履歴などのプライバシーデータを一切保存しません。
 history-private-browsing-permanent =
     .label = 常にプライベートブラウジングモード
     .accesskey = p
@@ -1851,48 +1506,26 @@ history-remember-option-all2 =
 
 ## Privacy Section - Site Data
 
-sitedata-header = Cookie とサイトデータ
 sitedata-total-size-calculating = サイトデータとキャッシュのサイズを計算しています...
 # Variables:
 #   $value (number) - Value of the unit (for example: 4.6, 500)
 #   $unit (string) - Name of the unit (for example: "bytes", "KB")
 sitedata-total-size3 = ウェブサイトのディスク使用量は現在 <strong>{ $value } { $unit }</strong> です。
-# Variables:
-#   $value (number) - Value of the unit (for example: 4.6, 500)
-#   $unit (string) - Name of the unit (for example: "bytes", "KB")
-sitedata-total-size = 保存された Cookie とサイトデータとキャッシュのディスク使用量は現在 { $value } { $unit } です。
 sitedata-learn-more = 詳細情報
 sitedata-delete-on-close2 =
     .label = { -brand-short-name } を閉じる度に Cookie とサイトデータを削除する
-    .accesskey = c
-sitedata-delete-on-close =
-    .label = { -brand-short-name } を閉じたときに Cookie とサイトデータを削除する
     .accesskey = c
 sitedata-delete-on-close-private-browsing3 =
     .message = ブラウザーを閉じると、履歴の設定に従って { -brand-short-name } がセッションの Cookie とサイトデータを削除します。
 sitedata-delete-on-close-private-browsing4 =
     .heading = 履歴は保存されません。
     .message = ブラウザーを閉じるときに { -brand-short-name } が Cookie とサイトデータをセッションから消去します。
-sitedata-delete-on-close-private-browsing = 永続プライベートブラウジングモードでは、Cookie とサイトデータは { -brand-short-name } の終了時に必ず消去されます。
-sitedata-delete-on-close-private-browsing2 = ブラウザーを閉じると、履歴の設定に従って { -brand-short-name } がセッションの Cookie とサイトデータを削除します。
-sitedata-allow-cookies-option =
-    .label = Cookie とサイトデータを保存する
-    .accesskey = A
-sitedata-disallow-cookies-option =
-    .label = Cookie とサイトデータをブロック
-    .accesskey = B
-# This label means 'type of content that is blocked', and is followed by a drop-down list with content types below.
-# The list items are the strings named sitedata-block-*-option*.
-sitedata-block-desc = ブロックの種類
-    .accesskey = T
 sitedata-option-block-cross-site-trackers =
     .label = クロスサイトトラッカー
 sitedata-option-block-cross-site-tracking-cookies =
     .label = クロスサイトトラッキング Cookie
 sitedata-option-block-cross-site-cookies2 =
     .label = クロスサイト Cookie の隔離
-sitedata-option-block-cross-site-cookies =
-    .label = クロスサイトトラッキング Cookie と、他のクロスサイト Cookie の隔離
 sitedata-option-block-unvisited =
     .label = 未訪問のウェブサイトの Cookie
 sitedata-option-block-all-cross-site-cookies =
@@ -1904,12 +1537,6 @@ sitedata-clear2 =
     .accesskey = l
 sitedata-settings2 =
     .label = ブラウジングデータを管理
-    .accesskey = M
-sitedata-clear =
-    .label = データを消去...
-    .accesskey = l
-sitedata-settings =
-    .label = データを管理...
     .accesskey = M
 sitedata-cookies-exceptions =
     .label = 例外を管理...
@@ -1931,32 +1558,16 @@ sitedata-cookies-exceptions3 =
 cookies-site-data-group =
     .label = Cookie とサイトデータ
 
-## Privacy Section - Cookie Banner Handling
-
-cookie-banner-handling-header = Cookie バナー削減
-cookie-banner-handling-description = サポートされたサイトの Cookie バナーの同意確認に対し、可能な場合は { -brand-short-name } が自動的に拒否します。
-
 ## Privacy Section - Cookie Banner Blocking
 
 cookie-banner-blocker-header = Cookie バナーブロッカー
 cookie-banner-blocker-description = プライベートブラウジングモードでウェブサイトが Cookie の使用を求めてきた場合、{ -brand-short-name } が自動的に拒否します。これはサポートされたサイトのみ有効です。
 cookie-banner-learn-more = 詳細情報
-forms-handle-cookie-banners =
-    .label = Cookie バナーの削減
 cookie-banner-blocker-checkbox-label =
     .label = 自動的に Cookie バナーを拒否する
 
 ## Search Section
 
-addressbar-header = アドレスバー
-addressbar-suggest = アドレスバーの使用時に表示する候補を選択してください。
-# When Firefox Suggest is enabled, this replaces `addressbar-header`.
-addressbar-header-firefox-suggest = アドレスバー — { -firefox-suggest-brand-name }
-# When Firefox Suggest is enabled, this replaces `addressbar-suggest`.
-addressbar-suggest-firefox-suggest = アドレスバーに表示する候補の種類を選択してください。
-# When Firefox Suggest is enabled, a "Learn more" link appears at the end of
-# `addressbar-suggest-firefox-suggest`.
-addressbar-locbar-firefox-suggest-learn-more = 詳細情報
 addressbar-locbar-history-option =
     .label = 閲覧履歴
     .accesskey = h
@@ -1979,9 +1590,6 @@ addressbar-locbar-topsites-option =
 addressbar-locbar-engines-option-1 =
     .label = 使用する検索エンジンの候補
     .accesskey = a
-addressbar-locbar-engines-option =
-    .label = 検索エンジン
-    .accesskey = a
 addressbar-locbar-quickactions-option =
     .label = クイックアクション
     .accesskey = Q
@@ -1998,20 +1606,6 @@ addressbar-locbar-suggest-all-option-2 =
 addressbar-locbar-suggest-sponsored-option-2 =
     .label = スポンサーからの提案
     .description = スポンサーからの提案を随時表示して { -brand-short-name } を支援します
-addressbar-suggestions-settings = 検索エンジンの検索候補の設定を変更
-addressbar-locbar-showrecentsearches-option =
-    .label = 最近の検索を表示する
-    .accesskey = r
-addressbar-locbar-showtrendingsuggestions-option =
-    .label = トレンド検索の候補を表示する
-    .accesskey = t
-# Nonsponsored suggestions refers to Firefox Suggest suggestions like Wikipedia.
-addressbar-locbar-suggest-nonsponsored-option =
-    .label = { -brand-short-name } からの検索候補
-addressbar-locbar-suggest-nonsponsored-desc = 検索語句に関連する候補をウェブから取得します
-addressbar-locbar-suggest-sponsored-option =
-    .label = スポンサーからの提案
-addressbar-locbar-suggest-sponsored-desc = スポンサーからの提案を随時表示して { -brand-short-name } を支援します
 # This string is used for a checkbox in the settings UI that opts the
 # user into "online" Firefox Suggest, allowing them to receive suggestions from
 # Mozilla's Merino server.
@@ -2025,11 +1619,6 @@ addressbar-dismissed-suggestions-label-2 =
     .description = スポンサーと { -brand-short-name } からの閉じてしまった提案を復元します。
 addressbar-restore-dismissed-suggestions-button-2 =
     .label = 提案を復元
-addressbar-quickactions-learn-more = 詳細情報
-addressbar-dismissed-suggestions-label = 閉じた提案
-addressbar-restore-dismissed-suggestions-description = スポンサーと { -brand-short-name } からの閉じてしまった提案を復元します。
-addressbar-restore-dismissed-suggestions-button =
-    .label = 復元
 
 ## Privacy Section - Content Blocking
 
@@ -2067,7 +1656,6 @@ content-blocking-cross-site-cookies-in-all-windows2 = すべての@@Window@@の�
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
 content-blocking-all-cross-site-cookies-private-windows = プライベート@@Window@@のクロスサイト Cookie
 content-blocking-isolate-cross-site-cookies = クロスサイト Cookie の隔離
-content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残存 Cookie の隔離
 content-blocking-social-media-trackers = ソーシャルメディアトラッカー
 content-blocking-all-cookies = すべての Cookie
 content-blocking-unvisited-cookies = 未訪問のサイトの Cookie
@@ -2086,12 +1674,10 @@ content-blocking-known-and-suspected-fingerprinters = 既知および疑わし�
 content-blocking-etp-standard-tcp-rollout-description = 包括的 Cookie 保護機能により現在のサイトへの Cookie が制限されているため、トラッカーはサイトを横断してあなたを追跡する Cookie を利用できません。
 content-blocking-etp-standard-tcp-rollout-learn-more = 詳細情報
 content-blocking-etp-standard-tcp-title = 包括的 Cookie 保護機能が含まれます。これまでで最も強力なプライバシー保護機能です
-content-blocking-warning-title = 注意！
 content-blocking-warning-title-2 = 厳格なトラッキング防止で一部のウェブサイトが動作しない可能性があります
 content-blocking-warning-title-custom = カスタム設定のトラッキング防止で一部のウェブサイトが動作しない可能性があります
 # “Fix site issues” references the string content-blocking-exceptions-subheader
 content-blocking-and-isolating-etp-warning-description-4 = { -brand-short-name } の “サイトの問題を修正” 設定でサイトの機能やコンテンツが正しく表示されない問題を軽減することをおすすめします。サイトが動作しないときは、このサイトでトラッキング防止をオフにしてすべてのコンテンツを読み込んでみてください。
-content-blocking-and-isolating-etp-warning-description-2 = この設定では、一部のウェブサイトが表示されないか正しく動作しない可能性があります。サイトが動作しない場合は、トラッキング防止機能をオフにして再度読み込むとよいでしょう。
 content-blocking-warning-learn-how = 詳細情報
 content-blocking-baseline-exceptions-3 =
     .label = サイトの主要な問題を修正 (推奨)
@@ -2117,7 +1703,6 @@ content-blocking-tracking-protection-option-all-windows =
 content-blocking-option-private =
     .label = プライベート@@Window@@のみ
     .accesskey = p
-content-blocking-tracking-protection-change-block-list = ブロックリストを変更
 content-blocking-cookies-label =
     .label = Cookie
     .accesskey = C
@@ -2127,11 +1712,6 @@ content-blocking-expand-section =
 content-blocking-cryptominers-label =
     .label = 暗号通貨マイニング
     .accesskey = y
-# Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
-# that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
-content-blocking-fingerprinters-label =
-    .label = フィンガープリント採取
-    .accesskey = F
 # Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
 # that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
 #
@@ -2153,42 +1733,11 @@ tracking-manage-exceptions =
 
 ## Privacy Section - Permissions
 
-permissions-header = 許可設定
-permissions-location = 位置情報
-permissions-location-settings =
-    .label = 設定...
-    .accesskey = t
-permissions-xr = VR デバイス
-permissions-xr-settings =
-    .label = 設定...
-    .accesskey = t
-permissions-camera = カメラ
-permissions-camera-settings =
-    .label = 設定...
-    .accesskey = t
-permissions-microphone = マイク
-permissions-microphone-settings =
-    .label = 設定...
-    .accesskey = t
-# Short form for "the act of choosing sound output devices and redirecting audio to the chosen devices".
-permissions-speaker = スピーカー選択
-permissions-speaker-settings =
-    .label = 設定...
-    .accesskey = t
-permissions-notification = 通知
-permissions-notification-settings =
-    .label = 設定...
-    .accesskey = t
-permissions-notification-link = 詳細情報
 permissions-notification-pause =
     .label = { -brand-short-name } を再起動するまで通知を一時停止
     .accesskey = n
 permissions-autoplay2 =
     .label = 自動再生
-permissions-autoplay = 自動再生
-permissions-autoplay-settings =
-    .label = 設定...
-    .accesskey = t
 permissions-block-popups2 =
     .label = ポップアップとサードパーティによるリダイレクトをブロックする
     .accesskey = B
@@ -2204,21 +1753,6 @@ permissions-addon-install-warning3 =
     .accesskey = W
 permissions-addon-exceptions2 =
     .label = 拡張機能のインストールを許可するウェブサイトを指定
-    .accesskey = E
-permissions-block-popups =
-    .label = ポップアップ@@Window@@をブロックする
-    .accesskey = B
-# "popup" is a misspelling that is more popular than the correct spelling of
-# "pop-up" so it's included as a search keyword, not displayed in the UI.
-permissions-block-popups-exceptions-button =
-    .label = 例外サイト...
-    .accesskey = E
-    .searchkeywords = popups
-permissions-addon-install-warning =
-    .label = アドオンのインストールを求められたときに警告する
-    .accesskey = W
-permissions-addon-exceptions =
-    .label = 許可サイト...
     .accesskey = E
 permissions-location2 =
     .label = 位置情報
@@ -2247,17 +1781,6 @@ pane-permissions-data-title2 = 許可設定とデータ
 
 ## Privacy Section - Data Collection
 
-collection-header = { -brand-short-name } のデータ収集と利用について
-collection-header2 = { -brand-short-name } のデータ収集と利用について
-    .searchkeywords = テレメトリー
-preferences-collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-product-name } の改善に必要な最小限のデータだけを収集するよう努力しています。
-preferences-collection-privacy-notice = プライバシー通知を表示
-preferences-across-profiles = これらの設定は、この端末上のすべての { -brand-product-name } プロファイルに適用されます。
-preferences-view-profiles = すべてのプロファイルを表示
-collection-description = 私たちはユーザーに選択肢を提供し、{ -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。私たちは、個人情報を受け取る前に、常にユーザーの許可を求めます。
-collection-privacy-notice = プライバシー通知
-collection-health-report-telemetry-disabled = { -vendor-short-name } への技術データと対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
-collection-health-report-telemetry-disabled-link = 詳細情報
 backup-multi-profile-warning-message =
     .message = この変更をバックアップに含めるには、各プロファイルを開き、設定で @@[@@今すぐバックアップ@@]@@ を選んでください。
 nimbus-rollouts =
@@ -2266,27 +1789,6 @@ nimbus-rollouts =
 addon-recommendations3 =
     .label = パーソナライズされた拡張機能のおすすめを許可する
     .description = おすすめの拡張機能を試してブラウジング体験を向上させましょう。
-collection-usage-ping =
-    .label = 毎日の使用頻度を { -vendor-short-name } に送信する
-    .accesskey = u
-collection-usage-ping-description = これは { -vendor-short-name } がアクティブユーザー数を推定するのに役立てられます。
-collection-health-report2 =
-    .label = 技術データと対話データを { -vendor-short-name } に送信する
-    .accesskey = r
-collection-health-report =
-    .label = { -brand-short-name } が技術データと対話データを { -vendor-short-name } へ送信することを許可する
-    .accesskey = r
-collection-health-report-link = 詳細情報
-collection-health-report-description = これは { -brand-product-name } の機能やパフォーマンス、安定性の向上に役立てられます。
-collection-studies2 =
-    .label = 調査のインストールと実行
-collection-studies-description = 機能やアイデアを一般公開される前に試してみましょう。
-collection-studies =
-    .label = { -brand-short-name } に調査のインストールと実行を許可する
-collection-studies-link = { -brand-short-name } 調査を確認する
-addon-recommendations2 =
-    .label = パーソナライズされた拡張機能のおすすめを許可する
-addon-recommendations-description = おすすめの拡張機能を試してブラウジング体験を向上させましょう。
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
 collection-health-report-disabled2 = このビルド設定ではデータ報告が無効化されています。
@@ -2300,14 +1802,6 @@ settings-redesign-promo =
     .message = 私たちはこのページを整理して簡単に設定が見つけられるようにしました。ユーザーの個人設定はすべて元のまま変更していません。ヒント: 検索すると目当ての設定へまっすぐジャンプできます。
 settings-redesign-promo-dismiss-button =
     .label = 了解
-addon-recommendations =
-    .label = { -brand-short-name } にパーソナライズされた拡張機能のおすすめを許可する
-addon-recommendations-link = 詳細情報
-# This message is displayed above disabled data sharing options in developer builds
-# or builds with no Telemetry support available.
-collection-health-report-disabled = このビルド設定ではヘルスレポートが無効化されています
-collection-backlogged-crash-reports-with-link = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信することを許可する <a data-l10n-name="crash-reports-link">詳細情報</a>
-    .accesskey = c
 privacy-segmentation-section-header = ブラウジング体験を向上させる新機能
 privacy-segmentation-section-description = より良いユーザー体験のために、あなたのデータを使用する機能を提案されたとき:
 privacy-segmentation-radio-off =
@@ -2347,14 +1841,6 @@ data-collection-usage-ping =
     .description = これは { -vendor-short-name } がアクティブユーザー数を推定するのに役立てられます。
     .accesskey = u
 
-## Privacy Section - Website Advertising Preferences
-
-website-advertising-header = ウェブサイトの広告設定
-website-advertising-private-attribution =
-    .label = プライバシー保護された広告解析をウェブサイトに許可する
-    .accesskey = a
-website-advertising-private-attribution-description = これはウェブサイトがユーザーのデータを収集せずに広告の効果を解析するのを助けます。
-
 ## Privacy Section - Security
 ##
 ## It is important that wording follows the guidelines outlined on this page:
@@ -2364,7 +1850,6 @@ security-header = セキュリティ
 browsing-protection-group2 =
     .label = 詐欺コンテンツと危険なソフトウェアからの保護
     .description = 危険なサイトとダウンロードはユーザーのデータと端末を危険に晒すおそれがあります。{ -brand-short-name } は自動的にこれらをブロックし、危険性や望ましくないソフトウェアについて警告します。
-security-browsing-protection = 詐欺コンテンツと危険なソフトウェアからの保護
 security-enable-safe-browsing =
     .label = 危険なコンテンツと詐欺コンテンツをブロックする
     .accesskey = B
@@ -2380,16 +1865,6 @@ security-block-uncommon-software =
 
 ## Privacy Section - Certificates
 
-certs-header = 証明書
-certs-enable-ocsp =
-    .label = OCSP レスポンダーサーバーに問い合わせて証明書の現在の正当性を確認する
-    .accesskey = Q
-certs-view =
-    .label = 証明書を表示...
-    .accesskey = C
-certs-devices =
-    .label = セキュリティデバイス...
-    .accesskey = D
 certs-thirdparty-toggle =
     .label = ユーザーがインストールしたサードパーティのルート証明書を自動的に信頼することを { -brand-short-name } に許可する
     .accesskey = t
@@ -2411,11 +1886,7 @@ certs-devices2 =
 
 ## Privacy Section - HTTPS-Only
 
-httpsonly-header = HTTPS-Only モード
-httpsonly-description3 = 安全な接続だけをウェブサイトに許可します。接続が安全でない場合は { -brand-short-name } に確認を求められます。
 httpsonly-learn-more2 = HTTPS-Only モードの動作について
-httpsonly-description = HTTPS は { -brand-short-name } とあなたが訪れるウェブサイトとの間に、暗号化された安全な接続を提供します。多くのウェブサイトは HTTPS に対応しており、HTTPS-Only モードを有効にすると { -brand-short-name } はすべての接続を HTTPS に切り替えます。
-httpsonly-learn-more = 詳細
 httpsonly-radio-enabled =
     .label = すべての@@Window@@で HTTPS-Only モードを有効にする
 httpsonly-radio-enabled-pbm =
@@ -2423,8 +1894,6 @@ httpsonly-radio-enabled-pbm =
 httpsonly-radio-disabled3 =
     .label = HTTPS-Only モードを有効にしない
     .description = 設定に関わらず { -brand-short-name } は一部の通信を安全な接続にアップグレードすることがあります。
-httpsonly-radio-disabled =
-    .label = HTTPS-Only モードを有効にしない
 httpsonly-group =
     .label = HTTPS-Only モード
     .description = 安全な接続だけをウェブサイトに許可します。接続が安全でない場合は { -brand-short-name } に確認を求められます。
@@ -2437,7 +1906,6 @@ preferences-doh-header = DNS over HTTPS
 dns-over-https-group2 =
     .label = DNS over HTTPS
     .description = Domain Name System over HTTPS (DoH) はサイト検索を暗号化して、あなたがアクセスしようとしているウェブサイトをインターネットプロバイダーや他者に知られないようにします。
-preferences-doh-description = Domain Name System (DNS) over HTTPS は暗号化された接続を通してドメイン名の要求を送信します。この安全な DNS によって、あなたがアクセスしようとしているウェブサイトを他者に知られないようにします。
 preferences-doh-description2 = Domain Name System (DNS) over HTTPS は暗号化された接続を通してドメイン名の要求を送信します。この安全な DNS によって、あなたがアクセスしようとしているウェブサイトを他者に知られないようにします。
 # Variables:
 #   $status (string) - The status of the DoH connection
@@ -2454,7 +1922,6 @@ preferences-doh-status-disabled = オフ
 # Variables:
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-not-active = 未使用 ({ $reason })
-preferences-doh-group-message = 次のレベルで安全な DNS を使用します:
 preferences-doh-group-message2 = DNS over HTTPS を次のレベルで有効にします:
 preferences-doh-radio-group =
     .aria-label = DNS over HTTPS を次のレベルで有効にします
@@ -2486,11 +1953,7 @@ preferences-doh-setting-off =
     .label = オフ
     .accesskey = O
 preferences-doh-off-desc = @@Default-@@ DNS リゾルバーを使用します
-preferences-doh-checkbox-warn =
-    .label = 第三者が安全な DNS を妨げているときに警告する
-    .accesskey = W
 preferences-doh-select-resolver = プロバイダーを選択:
-preferences-doh-exceptions-description = { -brand-short-name } はこれらのサイトで安全な DNS を使用しません
 preferences-doh-manage-exceptions =
     .label = 例外を管理...
     .accesskey = x
@@ -2572,7 +2035,6 @@ preferences-connection-link-button =
 
 desktop-folder-name = デスクトップ
 downloads-folder-name = ダウンロード
-choose-download-folder-title = ダウンロードフォルダーを選択:
 
 ## Appearance page
 
@@ -2842,15 +2304,6 @@ security-privacy-issue-warning-proxy-autodetection =
 
 ## Referrals Section
 
-# The header in settings with link to the referral page, where the user can invite others to
-# use the browser. "Share" here means recommending or referring the browser
-referrals-section-header =
-    .label = { -brand-short-name } を宣伝
-    .description = プライバシー優先のブラウザーを選んでもらえるように宣伝してください。
-# Link that opens the referral page, where the user can invite others to
-# use the browser. "Share" here means recommending or referring the browser
-referrals-link =
-    .label = { -brand-short-name } を宣伝
 # The header in settings with link to the referral page, where the user can invite others to
 # use the browser. "Share" here means recommending or referring the browser
 referrals-section-header2 =

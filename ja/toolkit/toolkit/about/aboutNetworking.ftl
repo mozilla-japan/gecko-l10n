@@ -88,22 +88,6 @@ about-networking-dns-lookup-button = 解決
 about-networking-dns-domain = ドメイン:
 about-networking-dns-lookup-table-column = IP アドレス
 about-networking-dns-https-rrs-lookup-table-column = HTTPS RR
-about-networking-dns-https-rr-lookup-table-column = HTTP RR
-about-networking-rcwn = RCWN 統計
-about-networking-rcwn-status = RCWN 状態
-about-networking-rcwn-cache-won-count = キャッシュ使用カウント
-about-networking-rcwn-net-won-count = ネットワーク使用カウント
-about-networking-total-network-requests = ネットワーク要求カウント合計
-about-networking-rcwn-operation = キャッシュ操作
-about-networking-rcwn-perf-open = 開く
-about-networking-rcwn-perf-read = 読む
-about-networking-rcwn-perf-write = 書く
-about-networking-rcwn-perf-entry-open = エントリーを開く
-about-networking-rcwn-avg-short = 短期平均
-about-networking-rcwn-avg-long = 長期平均
-about-networking-rcwn-std-dev-long = 長期標準偏差
-about-networking-rcwn-cache-slow = キャッシュ遅滞カウント
-about-networking-rcwn-cache-not-slow = キャッシュ非遅滞カウント
 about-networking-networkid = ネットワーク ID
 about-networking-networkid-id = ネットワーク ID
 # Note: do not translate about:logging, as it is a URL.
@@ -113,5 +97,3 @@ about-networking-moved-about-logging = このページは <a data-l10n-name="abo
 
 about-networking-networkid-is-up = リンクアップ
 about-networking-networkid-status-known = リンク状態が既知
-
-##

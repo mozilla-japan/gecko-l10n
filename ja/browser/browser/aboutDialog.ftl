@@ -18,7 +18,6 @@ settings-update-checking-for-updates =
 ## Variables:
 ##   $transfer (string) - Transfer progress.
 
-settings-update-downloading = <img data-l10n-name="icon"/>更新をダウンロード中 — <label data-l10n-name="download-status">{ $transfer }</label>
 aboutdialog-update-downloading = 更新をダウンロード中 — <label data-l10n-name="download-status">{ $transfer }</label>
 settings-update-downloading-2 =
     .label = 更新をダウンロード中 — { $transfer }
@@ -30,7 +29,6 @@ settings-update-applying =
     .label = 更新を適用中...
 update-failed = 更新に失敗しました。<label data-l10n-name="failed-link">最新バージョンをダウンロード</label> してください。
 update-failed-main = 更新に失敗しました。<a data-l10n-name="failed-link-main">最新バージョンをダウンロード</a> してください。
-update-adminDisabled = システム管理者により、更新が無効化されています
 update-policy-disabled = 所属組織により、更新が無効化されています
 settings-update-policy-disabled =
     .label = 所属組織により、更新が無効化されています
@@ -69,12 +67,9 @@ community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-shor
 community-2 = { -brand-short-name } をデザインしている <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label> は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している <label data-l10n-name="community-creditsLink">グローバルなコミュニティ</label> です。
 helpus = 参加しませんか？ <label data-l10n-name="helpus-donateLink">寄付</label> または <label data-l10n-name="helpus-getInvolvedLink">コミュニティに参加</label> してください！
 helpus-referrals2 = 参加しませんか？ <label data-l10n-name="helpus-donateLink">寄付</label> または <label data-l10n-name="helpus-shareFirefoxLink">{ -brand-product-name } を宣伝</label>、<label data-l10n-name="helpus-getInvolvedLink">コミュニティに参加</label> してください！
-helpus-referrals = 参加しませんか？ <label data-l10n-name="helpus-donateLink">寄付</label> または <label data-l10n-name="helpus-shareFirefoxLink">{ -brand-short-name } を宣伝</label>、<label data-l10n-name="helpus-getInvolvedLink">コミュニティに参加</label> してください！
 bottomLinks-license = ライセンス情報
 bottom-links-terms = 利用規約
 bottom-links-privacy = プライバシー通知
-bottomLinks-rights = あなたの権利について
-bottomLinks-privacy = プライバシーポリシー
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Firefox, e.g. 66.0.1

@@ -103,7 +103,6 @@ permissions-exceptions-shutdown-clearing-desc = { -brand-short-name } を閉じ�
 permissions-exceptions-https-only-window2 =
     .title = 例外 - HTTPS-Only モード
     .style = { permissions-window2.style }
-permissions-exceptions-https-only-desc = HTTPS-Only モードをオフにするウェブサイトを指定できます。{ -brand-short-name } はこれらのサイトでは安全な接続にアップグレードしません。プライベート@@Window@@ではこの例外は適用されません。
 permissions-exceptions-https-only-desc2 = HTTPS-Only モードをオフにするウェブサイトを指定できます。{ -brand-short-name } はこれらのサイトでは安全な接続にアップグレードしません。
 
 ## Exceptions - Pop-ups And Third-Party Redirects
@@ -112,20 +111,6 @@ permissions-exceptions-popup-window3 =
     .title = 許可されたウェブサイト - ポップアップとサードパーティによるリダイレクト
     .style = { permissions-window2.style }
 permissions-exceptions-popup-desc2 = ポップアップ@@Window@@の表示とサードパーティフレームによるリダイレクトを許可するウェブサイトを指定できます。
-
-## Exceptions - Pop-ups
-
-permissions-exceptions-popup-window2 =
-    .title = 許可サイト - ポップアップ
-    .style = { permissions-window2.style }
-permissions-exceptions-popup-desc = ポップアップ@@Window@@を開くことを許可するウェブサイトを指定できます。許可するサイトの正確なアドレスを入力して @@[@@許可@@]@@ をクリックしてください。
-
-## Exceptions - Saved Logins
-
-permissions-exceptions-saved-logins-window2 =
-    .title = 例外 - ログイン情報の保存
-    .style = { permissions-window2.style }
-permissions-exceptions-saved-logins-desc = 次のウェブサイトのログイン情報は保存されません。
 
 ## Exceptions - Saved Passwords
 

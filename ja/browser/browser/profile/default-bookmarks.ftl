@@ -9,18 +9,14 @@
 
 default-bookmarks-title = ブックマーク
 default-bookmarks-heading = ブックマーク
-default-bookmarks-toolbarfolder = ブックマークツールバーフォルダー
-default-bookmarks-toolbarfolder-description = このフォルダーの中身がブックマークツールバーに表示されます
-# link title for https://www.mozilla.org/firefox/central/
-default-bookmarks-getting-started = Firefox を使いこなそう
 # Firefox links folder name
 default-bookmarks-firefox-heading = Mozilla Firefox
 # link title for https://www.mozilla.org/firefox/help/
-default-bookmarks-firefox-get-help = ヘルプを表示
+default-bookmarks-firefox-get-help = Mozilla サポート
 # link title for https://www.mozilla.org/firefox/customize/
-default-bookmarks-firefox-customize = Firefox をカスタマイズしてみよう
+default-bookmarks-firefox-customize = Firefox をカスタマイズ
 # link title for https://www.mozilla.org/contribute/
-default-bookmarks-firefox-community = Mozilla のコミュニティ
+default-bookmarks-firefox-community = コミュニティに参加
 # link title for https://www.mozilla.org/about/
 default-bookmarks-firefox-about = Mozilla について
 # Firefox Nightly links folder name
@@ -34,6 +30,6 @@ default-bookmarks-mdn = Mozilla Developer Network
 # Nightly builds only, link title for https://addons.mozilla.org/firefox/addon/nightly-tester-tools/
 default-bookmarks-nightly-tester-tools = Nightly Tester Tools
 # Nightly builds only, link title for about:crashes
-default-bookmarks-crashes = All your crashes
+default-bookmarks-crashes = クラッシュデータ
 # Nightly builds only, link title for https://planet.mozilla.org/
 default-bookmarks-planet = Planet Mozilla

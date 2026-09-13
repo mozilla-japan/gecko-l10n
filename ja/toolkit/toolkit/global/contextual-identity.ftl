@@ -21,9 +21,6 @@ user-context-shopping =
 
 ##
 
-user-context-none =
-    .label = コンテナーなし
-    .accesskey = N
 user-context-manage-containers =
     .label = コンテナーを管理
     .accesskey = O

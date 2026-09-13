@@ -41,19 +41,11 @@ site-permission-install-first-prompt-serial-message = このアクセスは安�
 
 ##
 
-xpinstall-disabled-locked = ソフトウェアのインストールはシステム管理者により無効化されています。
 xpinstall-disabled-by-policy = ソフトウェアのインストールは所属組織により無効化されています。
 xpinstall-disabled = ソフトウェアのインストールは現在無効になっています。@@[@@有効にする@@]@@ をクリックしてから再度試してください。
 xpinstall-disabled-button =
     .label = 有効にする
     .accesskey = n
-# This message is shown when the installation of an add-on is blocked by enterprise policy.
-# Variables:
-#   $addonName (String): the name of the add-on.
-#   $addonId (String): the ID of add-on.
-addon-install-blocked-by-policy = { $addonName } ({ $addonId }) はシステム管理者によりブロックされています。
-# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
-addon-domain-blocked-by-policy = このサイトによるソフトウェアのインストールの確認は、システム管理者によりブロックされています。
 # This message is shown when the installation of an add-on is blocked by enterprise policy.
 # Variables:
 #   $addonName (String): the name of the add-on.
@@ -78,9 +70,6 @@ webext-imported-addons = { -brand-short-name } に@@Import-sare@@た拡張機能
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = { $name } を削除しますか？
-# Variables:
-#   $name (String): the name of the extension which is about to be removed.
-addon-removal-message = { -brand-shorter-name } から { $name } を削除しますか？
 addon-removal-button = 削除
 addon-removal-abuse-report-checkbox = この拡張機能を { -vendor-short-name } に報告する
 # "it" refers to the local AI model that is paired to the AI feature
@@ -142,7 +131,5 @@ addon-local-install-no-addon-name-error-file-access = 必要なファイルを {
 addon-install-error-incompatible = { -brand-short-name } { $appVersion } と互換性がないため、{ $addonName } をインストールできませんでした。
 addon-install-error-hard-blocked = { $addonName } は Mozilla のポリシーに違反しているため { -brand-short-name } にインストールできません。
 addon-install-error-soft-blocked2 = { $addonName } は制限されており、{ -brand-short-name } にインストールできません。
-addon-install-error-blocklisted = 安定性を大きく損なうかセキュリティに問題があるため、{ $addonName } をインストールできませんでした。
-addon-install-error-soft-blocked = { $addonName } アドオンが Mozilla のポリシーに違反しているため { -brand-short-name } にインストールできません。
 # Enterprise policies is a feature aimed at system administrators who want to deploy custom settings for Firefox.
 addon-install-error-admin-install-only = { $addonName } アドオンをエンドユーザー権限でインストールすることはできません。これはエンタープライズポリシーを使用する組織によりインストール可能です。

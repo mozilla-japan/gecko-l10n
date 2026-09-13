@@ -15,12 +15,6 @@ callout-firefox-view-tab-pickup-title = タブをつかんで端末の壁を飛�
 callout-firefox-view-tab-pickup-subtitle = 携帯端末で開いているタブを取り出して、手間をかけずにここで開くことができます。
 callout-firefox-view-recently-closed-title = 閉じたタブをすぐに取り戻せる
 callout-firefox-view-recently-closed-subtitle = 閉じたタブがすべてここに表示されます。誤操作でサイトを閉じてしまっても大丈夫です。
-callout-firefox-view-colorways-title = 鮮やかな色彩を合わせる
-# "Shade" refer to different color options in each colorway.
-callout-firefox-view-colorways-subtitle = { -brand-product-name } だけの Colorway であなたに響く色を選びましょう。
-callout-firefox-view-colorways-reminder-title = Colorway の最新作を見てみよう
-# “Shades” refers to the different color options in each colorways
-callout-firefox-view-colorways-reminder-subtitle = 揺るぎない意思を持つ人々の声から生まれた、{ -brand-product-name } だけの色の表象でブラウザーを染めましょう。
 
 ## Continuous Onboarding - Firefox View: Tab pick up
 

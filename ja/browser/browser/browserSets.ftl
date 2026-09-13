@@ -163,8 +163,6 @@ private-browsing-shortcut =
 
 quit-app-shortcut =
     .key = Q
-help-shortcut =
-    .key = ?
 preferences-shortcut =
     .key = ,
 hide-app-shortcut =

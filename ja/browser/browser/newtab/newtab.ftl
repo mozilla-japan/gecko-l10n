@@ -6,8 +6,6 @@
 ### Firefox Home / New Tab strings for about:home / about:newtab.
 
 newtab-page-title = @@NewTab@@
-newtab-settings-button =
-    .title = @@NewTab@@ページをカスタマイズ
 #  (developer note): @nova-cleanup(remove-string): Remove newtab-customize-panel-icon-button once Nova lands, will be using newtab-customize-panel-label instead
 newtab-customize-panel-icon-button =
     .title = このページをカスタマイズ
@@ -15,16 +13,8 @@ newtab-customize-panel-icon-button =
 newtab-customize-panel-icon-button-label = カスタマイズ
 newtab-customize-panel-label =
     .label = カスタマイズ
-newtab-personalize-settings-icon-label =
-    .title = @@NewTab@@をパーソナライズ
-    .aria-label = 設定
 newtab-settings-dialog-label =
     .aria-label = 設定
-newtab-personalize-icon-label =
-    .title = @@NewTab@@をパーソナライズ
-    .aria-label = @@NewTab@@をパーソナライズ
-newtab-personalize-dialog-label =
-    .aria-label = パーソナライズ
 newtab-logo-and-wordmark =
     .aria-label = { -brand-full-name }
 newtab-card-dismiss-button =
@@ -300,8 +290,6 @@ newtab-privacy-message-first-protection-cta = 保護を表示
 
 ## Strings for the Stocks widget
 
-# Context menu item for searching stock ticker symbols.
-newtab-stocks-menu-search = 銘柄コードを検索
 # Context menu item linking to more information about the Stocks widget.
 newtab-stocks-menu-learn-more = 詳細情報
 # Shown in the Stocks widget when its data could not be loaded.
@@ -457,6 +445,28 @@ newtab-recent-searches-widget-menu-button =
     .aria-label = 最近の検索のオプション
 # Context menu item linking to more information about the widget.
 newtab-recent-searches-menu-learn-more = 詳細情報
+# Tab listing the searches the user has made recently.
+newtab-recent-searches-tab-recent = 最近の検索
+# Tab listing what is trending with the user's search engine.
+newtab-recent-searches-tab-trending = 検索トレンド
+# Informs the user which engine the trending results come from.
+# Variables:
+#   $engine (string) - Name of the default search engine, e.g. "Google".
+newtab-recent-searches-trending-attribution = { $engine } 経由
+# Relative time shown for a search made less than a minute ago.
+newtab-recent-searches-just-now = 直前
+# Screen reader label for the button that forgets one listed search.
+# Variables:
+#   $search (string) - The search the row shows, e.g. "puffin colonies".
+newtab-recent-searches-row-remove =
+    .aria-label = 最近の検索から “{ $search }” を削除
+
+## Recent searches widget — empty states
+
+# Shown in place of the list when the user has made no searches recently.
+newtab-recent-searches-empty-recent = ここに表示される最近の検索から選んでいつでも再検索できます。
+# Shown in place of the list when there are no trending search results.
+newtab-recent-searches-empty-trending = トレンド検索は現在利用できません。
 
 ## Strings for the navigable panels that new tab content area can be
 ## split into.
@@ -494,7 +504,6 @@ newtab-search-box-input =
 
 newtab-topsites-add-search-engine-header = 検索エンジンを追加
 newtab-topsites-add-shortcut-header = @@New-CMD@@ショートカット
-newtab-topsites-edit-topsites-header = トップサイトを編集
 newtab-topsites-edit-shortcut-header = ショートカットを編集
 newtab-topsites-add-shortcut-label = ショートカットを追加
 newtab-topsites-add-shortcut-title =
@@ -567,20 +576,12 @@ newtab-topsites-hover-card-dismiss =
 newtab-menu-section-tooltip =
     .title = メニューを開きます
     .aria-label = メニューを開く
-# Tooltip for dismiss button
-newtab-dismiss-button-tooltip =
-    .title = 削除
-    .aria-label = 削除
 # This tooltip is for the context menu of Pocket cards or Topsites
 # Variables:
 #   $title (string) - The label or hostname of the site. This is for screen readers when the context menu button is focused/active.
 newtab-menu-content-tooltip =
     .title = メニューを開きます
     .aria-label = { $title } のコンテキストメニューを開く
-# Tooltip on an empty topsite box to open the New Top Site dialog.
-newtab-menu-topsites-placeholder-tooltip =
-    .title = このサイトを編集します
-    .aria-label = このサイトを編集
 
 ## Context Menu: These strings are displayed in a context menu and are meant as a call to action for a given page.
 
@@ -592,11 +593,7 @@ newtab-menu-dismiss = 閉じる
 newtab-menu-pin = ピン留め
 newtab-menu-unpin = ピン留めを外す
 newtab-menu-delete-history = 履歴から削除
-newtab-menu-save-to-pocket = { -pocket-brand-name } に保存
-newtab-menu-delete-pocket = { -pocket-brand-name } から削除
-newtab-menu-archive-pocket = { -pocket-brand-name } にアーカイブ
 newtab-menu-show-privacy-info = 私たちのスポンサーとあなたのプライバシー
-newtab-menu-about-fakespot = { -fakespot-brand-name } について
 # Report is a verb (i.e. report issue with the content).
 newtab-menu-report = 報告
 # Context menu option to personalize New Tab recommended stories by blocking a section of stories,
@@ -607,25 +604,12 @@ newtab-menu-section-block = ブロック
 newtab-menu-section-unfollow-topic = フォローを解除
 # Context menu option to open a support page explaining the New Tab personalization features and privacy controls.
 newtab-menu-section-learn-more = 詳細情報
-# "Follow", "unfollow", and "following" are social media terms that refer to subscribing to or unsubscribing from a section of stories.
-# e.g. Following the travel section of stories.
-newtab-menu-section-unfollow = トピックのフォローを解除
 
 ## Context menu options for sponsored stories and new ad formats on New Tab.
 
 newtab-menu-manage-sponsored-content = 広告コンテンツを管理
 newtab-menu-our-sponsors-and-your-privacy = 私たちのスポンサーとユーザーのプライバシー
 newtab-menu-report-this-ad = この広告を報告
-
-## Message displayed in a modal window to explain privacy and provide context for sponsored content.
-
-newtab-privacy-modal-button-done = 完了
-newtab-privacy-modal-button-manage = 広告コンテンツの設定を管理
-newtab-privacy-modal-header = プライバシーは重要です。
-newtab-privacy-modal-paragraph-2 =
-    盛り上がる魅力あるストーリーに加えて、選ばれたスポンサーからあなたの興味を引きそうな厳選コンテンツを提供します。
-    <strong>閲覧データに { -brand-product-name } の個人情報のコピーが残ることはありません。</strong>私たちとスポンサーのどちらもその情報を見ることはありませんので、ご安心ください。
-newtab-privacy-modal-link = @@NewTab@@ページでのプライバシーの仕組みついて
 
 ##
 
@@ -681,31 +665,12 @@ newtab-label-sponsored-fixed = 広告
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.
 
-newtab-section-menu-remove-section = セクションを削除
-newtab-section-menu-collapse-section = セクションを折りたたむ
-newtab-section-menu-expand-section = セクションを広げる
-newtab-section-menu-manage-section = セクションを管理
-newtab-section-menu-manage-webext = 拡張機能を管理
-newtab-section-menu-add-topsite = トップサイトを追加
-newtab-section-menu-add-search-engine = 検索エンジンを追加
-newtab-section-menu-move-up = 上へ移動
-newtab-section-menu-move-down = 下へ移動
 newtab-section-menu-privacy-notice = プライバシー通知
-
-## Section aria-labels
-
-newtab-section-collapse-section-label =
-    .aria-label = セクションを折りたたむ
-newtab-section-expand-section-label =
-    .aria-label = セクションを広げる
 
 ## Section Headers.
 
 newtab-section-header-topsites = トップサイト
 newtab-section-header-recent-activity = 最近のアクティビティ
-# Variables:
-#   $provider (string) - Name of the corresponding content provider.
-newtab-section-header-pocket = { $provider } のおすすめ
 newtab-section-header-stories = 示唆に富むストーリー
 # "picks" refers to recommended articles
 newtab-section-header-todays-picks = 本日のおすすめ
@@ -713,10 +678,6 @@ newtab-section-header-todays-picks = 本日のおすすめ
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 
 newtab-empty-section-highlights = ブラウジング中にあなたが最近訪れたりブックマークしたりした、優れた記事、動画、その他ページの一部をここに表示します。
-# Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
-# Variables:
-#   $provider (string) - Name of the content provider for this section, e.g "Pocket".
-newtab-empty-section-topstories = すべて既読です。また後で { $provider } からのおすすめ記事をチェックしてください。待ちきれない場合は、人気のトピックを選択してウェブ上の他の優れた記事を見つけてください。
 # Ex. When there are no more story recommendations, in the space where there would have been stories, this is shown instead.
 newtab-empty-section-topstories-generic = すべて既読です。また後でおすすめ記事をチェックしてください。待ちきれない場合は、人気のトピックを選択してウェブ上の他の優れた記事を見つけてください。
 
@@ -750,39 +711,6 @@ newtab-carousel-pause =
 newtab-carousel-play =
     .aria-label = 自動再生を再開
 
-## Pocket Content Section.
-
-# This is shown at the bottom of the trending stories section and precedes a list of links to popular topics.
-newtab-pocket-read-more = 人気のトピック:
-newtab-pocket-new-topics-title = 他の記事も読みたいですか？ { -pocket-brand-name } からの人気記事も見てみましょう
-newtab-pocket-more-recommendations = 他のおすすめ
-newtab-pocket-learn-more = 詳細
-newtab-pocket-cta-button = { -pocket-brand-name } を入手
-newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に保存して、魅力的な読み物を思う存分楽しみましょう。
-newtab-pocket-pocket-firefox-family = { -pocket-brand-name } は { -brand-product-name } ファミリーの一員です
-newtab-pocket-save = 保存
-newtab-pocket-saved = 保存しました
-
-## Thumbs up and down buttons that shows over a newtab stories card thumbnail on hover.
-
-# Clicking the thumbs up button for this story will result in more stories like this one being recommended
-newtab-pocket-thumbs-up-tooltip =
-    .title = お気に入り
-# Clicking the thumbs down button for this story informs us that the user does not feel like the story is interesting for them
-newtab-pocket-thumbs-down-tooltip =
-    .title = 興味なし
-# Used to show the user a message upon clicking the thumbs up or down buttons
-newtab-toast-thumbs-up-or-down2 =
-    .message = ありがとうございます。あなたのフィードバックがフィードを改善する助けになります。
-newtab-toast-dismiss-button =
-    .title = 閉じる
-    .aria-label = 閉じる
-
-## Pocket content onboarding experience dialog and modal for new users seeing the Pocket section for the first time, shown as the first item in the Pocket section.
-
-newtab-pocket-onboarding-discover = ウェブのベストコンテンツを見つけましょう
-newtab-pocket-onboarding-cta = { -pocket-brand-name } は、さまざまな出版物の中から最も有益で、感動的な、信頼できるコンテンツをあなたの { -brand-product-name } ブラウザーにもたらします。
-
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.
 
@@ -791,8 +719,6 @@ newtab-error-fallback-refresh-link = ページを再度読み込んでもう一�
 
 ## New Tab Appearance (browser theme picker)
 
-newtab-custom-shortcuts-title = ショートカット
-newtab-custom-shortcuts-subtitle = 保存または訪問したサイト
 #  (developer note): @nova-cleanup(remove-string): Remove old string once Nova lands. The newtab-custom-shortcuts-nova string will take over
 newtab-custom-shortcuts-toggle =
     .label = ショートカット
@@ -809,12 +735,6 @@ newtab-custom-row-description =
 #  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. We won't be using "row"/"rows" anymore for the dropdown
 newtab-custom-row-selector2 =
     .label = { $num } 行
-# Variables
-#   $num (number) - Number of rows to display
-newtab-custom-row-selector = { $num } 行
-newtab-custom-sponsored-sites = 広告ショートカット
-newtab-custom-pocket-title = { -pocket-brand-name } のおすすめ
-newtab-custom-pocket-subtitle = { -brand-product-name } ファミリーを構成する { -pocket-brand-name } が厳選した注目のコンテンツ
 #  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. We won't be having a description under "Recommended stories" anymore
 newtab-custom-stories-toggle =
     .label = おすすめのストーリー
@@ -826,10 +746,6 @@ newtab-custom-stories-personalized-toggle =
 newtab-custom-stories-personalized-checkbox =
     .label = ユーザーのアクティビティに基づいて選ばれたストーリー
 newtab-custom-stories-personalized-checkbox-label = ユーザーのアクティビティに基づいて選ばれたストーリー
-newtab-custom-pocket-sponsored = 広告記事
-newtab-custom-pocket-show-recent-saves = 最近保存したものを表示
-newtab-custom-recent-title = 最近のアクティビティ
-newtab-custom-recent-subtitle = 最近のサイトとコンテンツの抜粋
 newtab-custom-weather-toggle =
     .label = 天気予報
     .description = 一目でわかる今日の天気
@@ -861,8 +777,14 @@ newtab-widget-manage-widget-button =
 newtab-custom-close-menu-button =
     .title = 閉じる
     .aria-label = メニューを閉じる
-newtab-custom-close-button = 閉じる
 newtab-custom-settings = 他の設定を管理
+
+## Customization Menu
+
+# An arrow button that goes back from a sub-panel in the customize panel, such as a wallpaper category, to the main Customize panel.
+newtab-customize-panel-back-button =
+    .aria-label = カスタマイズへ戻る
+    .title = カスタマイズへ戻ります
 
 ## New Tab Appearance (browser theme picker)
 
@@ -903,7 +825,6 @@ newtab-wallpaper-toggle-title =
 #   $file_size (number) - The number of the maximum image file size (in MB) that may be uploaded
 newtab-wallpaper-error-max-file-size = 画像がファイルサイズの上限を超えています。{ $file_size } MB より小さなファイルをアップロードしてください。
 newtab-wallpaper-error-upload-file-type = ファイルをアップロードできませんでした。画像ファイルで再度試してください。
-newtab-wallpaper-error-file-type = ファイルをアップロードできませんでした。別のファイル形式で再度試してください。
 newtab-wallpaper-light-red-panda = レッサーパンダ
 newtab-wallpaper-light-mountain = 白い雪山
 newtab-wallpaper-light-sky = 紫色の雲と空
@@ -918,10 +839,6 @@ newtab-wallpaper-dark-mountain = 山の景色
 newtab-wallpaper-dark-city = 紫色の街の景色
 newtab-wallpaper-dark-fox-anniversary = 森林の道路に座るキツネ
 newtab-wallpaper-light-fox-anniversary = 霧がかかった山を背景に草原にたたずむキツネ
-# Goes back from a wallpaper category to the Customize panel. Shown as an
-# arrow with no text, so this is read by screen readers only.
-newtab-wallpaper-category-back =
-    .aria-label = カスタマイズへ戻る
 
 ## "Your images" is the folder of wallpapers someone has saved. A saved wallpaper
 ## can be a file they uploaded, a Picture of the Day they chose to keep, or a
@@ -1000,7 +917,7 @@ newtab-wallpaper-abstract-purple-green = 紫色と緑色の明るいグラデー
 newtab-wallpaper-abstract-blue-purple-waves = 青色と紫色の波形の形状
 newtab-wallpaper-abstract-black-waves = 黒色の波形の形状
 
-## Firefox
+## Firefox wallpaper descriptions used for screen readers
 
 newtab-wallpaper-category-title-photographs = 写真
 newtab-wallpaper-beach-at-sunrise = 早朝の砂浜
@@ -1030,6 +947,25 @@ feature-highlight-wallpaper =
     .title = { -newtab-wallpaper-feature-highlight-header }
     .aria-label = { -newtab-wallpaper-feature-highlight-content }
 
+## Firefox wallpaper descriptions used for screen readers
+
+newtab-wallpaper-firefox-orange = オレンジ色の背景の右端からこちらを見つめるキツネ
+newtab-wallpaper-firefox-colorful-sky = 紫色の夜空を横切るオレンジ色の波打つしっぽ
+newtab-wallpaper-firefox-desert-dark = 暗い紫色の砂漠に座って夜空を見上げるキツネ
+newtab-wallpaper-firefox-desert-light = 明るい砂漠を走って横切るキツネ
+newtab-wallpaper-firefox-hills-dark = 暗い丘の向こうを走るキツネ
+newtab-wallpaper-firefox-hills-light = 明るい丘の向こうを走るキツネ
+newtab-wallpaper-firefox-tail-dark = 暗い背景にキツネのしっぽ
+newtab-wallpaper-firefox-tail-light = 明るい背景にキツネのしっぽ
+newtab-wallpaper-firefox-side-kit-dark = 暗い背景の左端にキツネ
+newtab-wallpaper-firefox-side-kit-light = 明るい背景の左端にキツネ
+newtab-wallpaper-firefox-sitting-hill-dark = 暗い紫色の丘に座るキツネ
+newtab-wallpaper-firefox-sitting-hill-light = 明るい丘に座るキツネ
+newtab-wallpaper-firefox-peak-dark = 暗い背景の左端から顔を出しているキツネ
+newtab-wallpaper-firefox-peak-light = 明るい背景の左端から顔を出しているキツネ
+newtab-wallpaper-firefox-sky-dark = 夜空の下の暗い紫色の丘
+newtab-wallpaper-firefox-sky-light = おだやかな空の下の明るい丘
+
 ## Firefox
 
 newtab-wallpaper-category-title-firefox = { -brand-product-name }
@@ -1049,10 +985,6 @@ newtab-wallpaper-celestial-river = 河川の衛星画像
 
 ## New Tab Weather
 
-# Variables:
-#   $provider (string) - Service provider for weather data
-newtab-weather-see-forecast =
-    .title = { $provider } による天気予報を表示します
 # Variables:
 #   $provider (string) - Service provider for weather data
 newtab-weather-sponsored = 提供: { $provider }
@@ -1081,7 +1013,6 @@ newtab-weather-menu-temperature-option-fahrenheit = 華氏 (℉)
 newtab-weather-menu-temperature-option-celsius = 摂氏 (℃)
 newtab-weather-menu-change-temperature-units-fahrenheit = ファーレンハイト度に切り替える
 newtab-weather-menu-change-temperature-units-celsius = セルシウス度に切り替える
-newtab-weather-menu-hide-weather = @@NewTab@@の天気表示を隠す
 newtab-weather-menu-learn-more = 詳細情報
 newtab-weather-menu-detect-my-location = 現在地を検出
 # This message is shown if user is working offline
@@ -1202,7 +1133,6 @@ newtab-section-unblock-topic =
 
 ## Confirmation modal for blocking a section
 
-newtab-section-cancel-button = 後で
 newtab-section-confirm-block-topic-p1 = 本当にこのトピックをブロックしますか？
 newtab-section-confirm-block-topic-p2 = ブロックしたトピックはフィードに表示されません。
 # Variables:

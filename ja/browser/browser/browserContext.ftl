@@ -72,12 +72,6 @@ toolbar-button-stop =
 toolbar-button-stop-reload =
     .title = { main-context-menu-reload.aria-label }
 
-## Firefox Account Button
-
-toolbar-button-fxaccount =
-    .label = { -fxaccount-brand-name }
-    .tooltiptext = { -fxaccount-brand-name }
-
 ## Account toolbar Button
 
 toolbar-button-account =
@@ -148,9 +142,6 @@ main-context-menu-bookmark-link-2 =
 main-context-menu-save-link =
     .label = @@Save-AsCMD@@リンク先を保存...
     .accesskey = k
-main-context-menu-save-link-to-pocket =
-    .label = リンクを { -pocket-brand-name } に保存
-    .accesskey = o
 
 ##
 
@@ -312,18 +303,9 @@ main-context-menu-send-to-mobile-connect-phone3 = 端末を接続してタブを
 main-context-menu-send-to-mobile-connect-phone-from-link = 端末を接続してリンクを送信
 main-context-menu-send-to-mobile-connect-phone-from-page = 端末を接続してページを送信
 # Displayed within the send tab submenu to prompt users to sign in, enable sync, or pair a device
-main-context-menu-save-to-pocket =
-    .label = ページを { -pocket-brand-name } に保存
-    .accesskey = k
-main-context-menu-send-to-device =
-    .label = ページを端末へ送信
-    .accesskey = n
 
 ##
 
-main-context-menu-use-saved-login =
-    .label = 保存したログイン情報を使用
-    .accesskey = o
 # Displayed when there are saved passwords and the user clicks inside a username or password field
 main-context-menu-use-saved-password =
     .label = 保存したパスワードを使用
@@ -337,15 +319,9 @@ main-context-menu-use-relay-mask =
 main-context-menu-suggest-strong-password =
     .label = 安全なパスワードを生成...
     .accesskey = S
-main-context-menu-manage-logins2 =
-    .label = ログイン情報を管理
-    .accesskey = M
 main-context-menu-manage-passwords =
     .label = パスワードを管理
     .accesskey = M
-main-context-menu-keyword =
-    .label = この検索にキーワードを設定...
-    .accesskey = K
 main-context-menu-add-engine =
     .label = 検索エンジンを追加
     .accesskey = S
@@ -394,9 +370,6 @@ main-context-menu-view-selection-source =
 main-context-menu-take-screenshot =
     .label = スクリーンショットを撮影
     .accesskey = T
-main-context-menu-take-frame-screenshot =
-    .label = スクリーンショットを撮影
-    .accesskey = o
 main-context-menu-view-page-source =
     .label = ページのソースを表示
     .accesskey = V

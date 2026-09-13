@@ -53,8 +53,6 @@ download-cert-view-text = 認証局の証明書を審査してください
 
 client-auth-window =
     .title = 個人証明書の要求
-client-auth-site-description = このサイトはあなたの個人証明書を求めています:
-client-auth-choose-cert = 個人認証を行うために送信する証明書を選択してください:
 client-auth-send-no-certificate =
     .label = 証明書を送信しない
 # Variables:
@@ -110,9 +108,3 @@ protected-auth-window =
 # Variables:
 # $tokenName (String) - The name of the token to authenticate to (for example, “OS Client Cert Token (Modern)”)
 protected-auth-prompt = セキュリティデバイスの認証を行ってください ({ $tokenName })。認証方法はデバイスによって異なります (例えば、指紋認証リーダーの使用やキーパッドでのコード入力など)。
-
-## Protected authentication alert
-
-# Variables:
-# $tokenName (String) - The name of the token to authenticate to (for example, "OS Client Cert Token (Modern)")
-protected-auth-alert = トークン “{ $tokenName }” の認証を行ってください。認証方法は使用するトークンの種類によって異なります (例えば、指紋認証リーダーの使用やキーパッドでのコード入力など)。

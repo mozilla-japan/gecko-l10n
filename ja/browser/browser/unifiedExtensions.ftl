@@ -36,9 +36,6 @@ unified-extensions-item-message-manage = 拡張機能を管理
 # Variables:
 #   $extensionName (String) - Name of the user-enabled soft-blocked extension.
 unified-extensions-item-messagebar-softblocked2 = { $extensionName } は制限されています。使用すると危険を伴う可能性があります。
-# Variables:
-#   $extensionName (String) - Name of the user-enabled soft-blocked extension.
-unified-extensions-item-messagebar-softblocked = { $extensionName } は Mozilla のポリシーに違反しています。使用すると危険を伴う可能性があります。
 
 ## Extension's context menu
 
@@ -57,8 +54,6 @@ unified-extensions-context-menu-move-widget-down =
 
 ## Notifications
 
-unified-extensions-mb-quarantined-domain-title = 一部の拡張機能は許可されていません
-unified-extensions-mb-quarantined-domain-message = { -vendor-short-name } が監視している一部の拡張機能は、ユーザーのデータを保護するため、このサイトでの動作が許可されていません。
 # .heading is processed by moz-message-bar to be used as a heading attribute
 unified-extensions-mb-quarantined-domain-message-3 =
     .heading = 一部の拡張機能は許可されていません
@@ -74,13 +69,6 @@ unified-extensions-mb-blocklist-warning-single2 =
         この拡張機能は制限されているため無効になっています。
         設定で有効にできますが、危険を伴う可能性があります。
 # Variables:
-#   $extensionName (String) - Name of the extension disabled through a soft-block.
-unified-extensions-mb-blocklist-warning-single =
-    .heading = { $extensionName } は無効です
-    .message =
-        この拡張機能は Mozilla のポリシーに違反しているため無効になっています。
-        設定で有効にできますが、危険を伴う可能性があります。
-# Variables:
 #   $extensionName (String) - Name of the extension disabled through a hard-block.
 unified-extensions-mb-blocklist-error-single =
     .heading = { $extensionName } は無効です
@@ -94,16 +82,6 @@ unified-extensions-mb-blocklist-warning-multiple2 =
         }
     .message =
         複数の拡張機能が制限されているため無効になっています。
-        設定で有効にできますが、危険を伴う可能性があります。
-# Variables:
-#   $extensionsCount (Number) - Number of extensions disabled through both soft and hard-blocks (always going to be greater than 1)
-unified-extensions-mb-blocklist-warning-multiple =
-    .heading =
-        { $extensionsCount ->
-           *[other] { $extensionsCount } 個の拡張機能が無効です
-        }
-    .message =
-        複数の拡張機能が Mozilla のポリシーに違反しているため無効になっています。
         設定で有効にできますが、危険を伴う可能性があります。
 # Variables:
 #   $extensionsCount (Number) - Number of extensions disabled through hard-blocks.

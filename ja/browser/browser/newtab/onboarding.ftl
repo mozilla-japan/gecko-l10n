@@ -186,11 +186,6 @@ mr2022-onboarding-pin-primary-button-label =
     }
 # Primary button string used on welcome page for when Firefox is not pinned on MSIX
 mr2022-onboarding-pin-primary-button-label-msix = { -brand-short-name } をタスクバーとスタートメニューにピン留め
-# Subtitle will be used when user already has Firefox pinned, but
-# has not set it as their default browser.
-# When translating "zip", please feel free to pick a verb that signifies movement and/or exploration
-# and makes sense in the context of navigating the web.
-mr2022-onboarding-set-default-only-subtitle = 非営利のブラウザーで始めましょう。ウェブを巡るあなたのプライバシーを守ります。
 
 ## MR2022 Existing User Pin Firefox Screen Strings
 
@@ -225,52 +220,10 @@ mr2022-onboarding-get-started-primary-button-label = 今すぐ設定する
 ## These strings will be used on the welcome page
 ## when Firefox is already set to default and pinned.
 
-mr2022-onboarding-import-header = 高速セットアップ
-mr2022-onboarding-import-subtitle = { -brand-short-name } をあなたの好みの設定にしましょう。ブックマーク、パスワード、その他を以前の古いブラウザーから追加します。
 mr2022-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーから@@Import@@
-
-## If your language uses grammatical genders, in the description for the
-## colorway feel free to switch from "You are a X. You…" (e.g. "You are a
-## Playmaker. You create…") to "X: you…" ("Playmaker: You create…"). This might
-## help creating a more inclusive translation.
-
-mr2022-onboarding-colorway-title = あなたを励ますカラーを選びましょう
-mr2022-onboarding-colorway-subtitle = 揺るぎない声はカルチャーを変えられる。
-mr2022-onboarding-colorway-primary-button-label-continue = 設定して次へ
-mr2022-onboarding-existing-colorway-checkbox-label = { -firefox-home-brand-name } をホームページにしてカラーを合わせる
-mr2022-onboarding-colorway-label-default = @@Default@@
-mr2022-onboarding-colorway-tooltip-default2 =
-    .title = 現在の { -brand-short-name } のカラー
-mr2022-onboarding-colorway-description-default = <b>現在の { -brand-short-name } カラーを使用する。</b>
-mr2022-onboarding-colorway-label-playmaker = Playmaker
-mr2022-onboarding-colorway-tooltip-playmaker2 =
-    .title = Playmaker (赤)
-mr2022-onboarding-colorway-description-playmaker = <b>Playmaker</b>: 勝利への道を切り開け。あなたのプレーは周囲を巻き込みゲームを盛り上げる。
-mr2022-onboarding-colorway-label-expressionist = Expressionist
-mr2022-onboarding-colorway-tooltip-expressionist2 =
-    .title = Expressionist (黄)
-mr2022-onboarding-colorway-description-expressionist = <b>Expressionist</b>: 内なる感情を世界に刻め。あなたの表現に映る歪みが人の心をかき乱す。
-mr2022-onboarding-colorway-label-visionary = Visionary
-mr2022-onboarding-colorway-tooltip-visionary2 =
-    .title = Visionary (緑)
-mr2022-onboarding-colorway-description-visionary = <b>Visionary</b>: 現状に疑問を投げかけろ。より良い未来に人を動かすのはあなたのビジョンだ。
-mr2022-onboarding-colorway-label-activist = Activist
-mr2022-onboarding-colorway-tooltip-activist2 =
-    .title = Activist (青)
-mr2022-onboarding-colorway-description-activist = <b>Activist</b>: 今いる世界をより良い場所に変えていけ。あなたの活動が人を導き同志へ変える。
-mr2022-onboarding-colorway-label-dreamer = Dreamer
-mr2022-onboarding-colorway-tooltip-dreamer2 =
-    .title = Dreamer (紫)
-mr2022-onboarding-colorway-description-dreamer = <b>Dreamer</b>: 大胆に幸運を引き寄せろ。夢を掲げるあなたの姿は人の勇気を呼び覚ます。
-mr2022-onboarding-colorway-label-innovator = Innovator
-mr2022-onboarding-colorway-tooltip-innovator2 =
-    .title = Innovator (オレンジ)
-mr2022-onboarding-colorway-description-innovator = <b>Innovator</b>: あらゆる場所で機会をつかめ。あなたがもたらす革新は周囲の人生を震わせる。
 
 ## MR2022 Multistage Mobile Download screen strings
 
-mr2022-onboarding-mobile-download-title = ノート PC と携帯端末を自由に行き来する
-mr2022-onboarding-mobile-download-subtitle = ある端末からタブを取り出して、別の端末で中断したところから再開できます。さらに、どこで { -brand-product-name } を使っていてもブックマークとパスワードを同期できます。
 mr2022-onboarding-mobile-download-cta-text = QR をスキャンしてモバイル版 { -brand-product-name } を入手するか、<a data-l10n-name="download-label">ダウンロードリンクをあなたの携帯端末に送信しましょう。</a>
 mr2022-onboarding-no-mobile-download-cta-text = QR をスキャンしてモバイル版 { -brand-product-name } を入手しましょう。
 
@@ -323,15 +276,12 @@ mr2022-onboarding-privacy-segmentation-image-alt =
     .aria-label = ハイタッチしている色白の手と色黒の手
 mr2022-onboarding-gratitude-image-alt =
     .aria-label = キツネのいる窓から眺める夕日と窓台に置かれた鉢植え
-mr2022-onboarding-colorways-image-alt =
-    .aria-label = 緑色の目、オレンジ色の靴、赤色のバスケットボール、紫色のヘッドフォン、青色のハート、黄色の王冠のカラフルなコラージュを描くハンドスプレー
 
 ## Device migration onboarding
 
 onboarding-device-migration-image-alt =
     .aria-label = ラップトップコンピューターの画面上のキツネがウェーブしています。ラップトップにマウスが接続されています。
 onboarding-device-migration-title = おかえりなさい！
-onboarding-device-migration-subtitle = { -fxaccount-brand-name(capitalization: "sentence") } にログインして、ブックマークやパスワード、履歴を新しい端末とともに持ち歩きましょう。
 onboarding-device-migration-subtitle2 = アカウントにログインして、ブックマークやパスワード、履歴を新しい端末とともに持ち歩きましょう。
 onboarding-device-migration-primary-button-label = ログイン
 
@@ -448,15 +398,12 @@ tab-groups-onboarding-feature-callout-title = タブをグループ化して整�
 tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグすると最初のグループが作成できます。
 # The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
 tab-groups-onboarding-create-group-title-3 = いつでも @@[@@タブを一覧表示@@]@@ メニューからタブグループを見つけられます。
-tab-groups-onboarding-create-group-title-2 = タブグループはここで見つけられます。
 tab-groups-onboarding-create-group-no-alltabs-button-title = アドレスバーで検索するとグループを見つけられます。
 # The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
 tab-groups-onboarding-saved-groups-title-3 = タブグループを閉じても、@@[@@タブを一覧表示@@]@@ メニューからいつでも再び開けます。
-tab-groups-onboarding-saved-groups-title-2 = タブグループを閉じても、ここで開き直すことができます。
 tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = アドレスバーで検索すると閉じてしまったタブグループを見つけられます。
 # The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
 tab-groups-onboarding-session-restore-title-2 = タブグループは @@[@@タブを一覧表示@@]@@ メニューからいつでも再び開けます。
-tab-groups-onboarding-session-restore-title = タブグループはいつでもここで開き直せます。
 tab-groups-onboarding-dismiss = OK
 
 ## Multi Profiles feature onboarding messages
@@ -589,6 +536,37 @@ onboarding-refresh-sync-title = どこへでも、すべてのデータを同期
 onboarding-refresh-gratitude-subtitle = { -brand-short-name } をご使用いただきありがとうございます。非営利で支持された唯一のメジャーブラウザーです。あなたのご支援により、私たちはインターネットを安全ですべての人々がアクセスできるようにすることができます。
 # "has your back" is an idiom suggesting support and protection
 onboarding-refresh-gratitude-title = { -brand-short-name } があなたを守ります
+
+## First Run Onboarding refresh strings
+
+# "has your back" is an idiom suggesting support and protection
+onboarding-refresh-splash-screen-title = { -brand-product-name } が支援します。今すぐ始めましょう。
+onboarding-refresh-hero-text = ユーザーを追跡するのではなく、保護するために作られたブラウザー
+onboarding-refresh-tou-default = すべてのリンクを { -brand-short-name } で開く
+onboarding-refresh-tou-pin =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } をドックに保持
+       *[other] { -brand-short-name } をタスクバーに追加
+    }
+onboarding-refresh-tou-default-unchecked = 組み込みの保護機能でユーザーのブラウジングを保護する
+onboarding-refresh-tou-pin-unchecked = クリック一つで唯一の独立系ブラウザーを使い続ける
+onboarding-refresh-terms-of-use-with-links = 続けることにより、<a data-l10n-name="terms_of_use">{ -brand-product-name } 利用規約</a> および私たちの <a data-l10n-name="privacy_notice">プライバシー通知</a> に同意したものとみなされます。ブラウザーの改善に役立てるため、{ -brand-product-name } は診断データと対話データを { -vendor-short-name } に送信します。
+onboarding-refresh-data-collection-link = データ収集設定を管理
+onboarding-refresh-primary-button = 続行
+onboarding-refresh-fro-import-header = 個人データを守ります
+onboarding-refresh-fro-import-body = あなたの個人情報はあなただけのものです。{ -brand-product-name } はこれを決して売りません。
+onboarding-refresh-fro-skip-button = スキップ
+onboarding-refresh-fro-theme-header = お好みのレイアウトで楽しもう
+onboarding-refresh-tab-layout-header = 別のタブレイアウトをお試しください
+onboarding-refresh-tab-layout-top = 上部
+onboarding-refresh-tab-layout-side = 側面
+onboarding-refresh-tab-layout-minimal = 最小
+# Tooltip displayed on hover for minimal tabs image
+onboarding-minimal-tabs-tooltip =
+    .title = ブラウザー@@Window@@の側面に沿って、タブを最小化されたサイドバー内に小さなアイコンのように表示します。
+# Description for minimal tabs image
+onboarding-minimal-tabs-description =
+    .aria-description = ブラウザー@@Window@@の側面に沿って、タブを最小化されたサイドバー内に小さなアイコンのように表示します。
 
 ## Smart window switcher callout
 

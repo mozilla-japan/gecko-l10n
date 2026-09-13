@@ -15,9 +15,14 @@ autofill-use-payment-method-os-prompt-other = 保存した支払い方法情報�
 autofill-edit-payment-method-os-prompt-macos = 保存した支払い方法情報を表示しようとしています
 autofill-edit-payment-method-os-prompt-windows = 保存した支払い方法情報を { -brand-short-name } が表示しようとしています。以下の Windows アカウントへのアクセスを確認してください。
 autofill-edit-payment-method-os-prompt-other = 保存した支払い方法情報を { -brand-short-name } が表示しようとしています。
+# In macOS, this string is preceded by the operating system with "Firefox is trying to ",
+# and has a period added to its end. Make sure to test in your locale.
+autofill-delete-payment-method-os-prompt-macos = 保存した支払い時方法情報を削除しようとしています
+autofill-delete-payment-method-os-prompt-windows = 保存した支払い方法情報を { -brand-short-name } が削除しようとしています。以下の Windows アカウントへのアクセスを確認してください。
+autofill-delete-payment-method-os-prompt-other = 保存した支払い方法情報を { -brand-short-name } が削除しようとしています。
+
 # The link leads users to Form Autofill browser preferences.
 autofill-options-link = フォーム自動入力のオプション
-autofill-options-link-osx = フォーム自動入力の設定
 
 ## The credit card capture doorhanger
 
@@ -68,16 +73,6 @@ autofill-card-network-mastercard = MasterCard
 autofill-card-network-mir = MIR
 autofill-card-network-unionpay = Union Pay
 autofill-card-network-visa = Visa
-# The warning text that is displayed for informing users what categories are
-# about to be filled.  The text would be, for example,
-#   Also autofills organization, phone, email.
-# Variables:
-#   $categories - one or more of the categories, see autofill-category-X below
-autofill-phishing-warningmessage-extracategory = { $categories } も自動入力されます
-# Variation when all are in the same category.
-# Variables:
-#   $categories - one or more of the categories
-autofill-phishing-warningmessage = { $categories } を自動入力します
 # Used in autofill drop down suggestion to indicate what other categories Form Autofill will attempt to fill.
 autofill-category-address = 住所
 autofill-category-name = お名前

@@ -278,3 +278,10 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 fxsrc | browser, devtools, ...   25d218fd (2026-09-04)  mar          sync browser, devtools, dom, toolkit
 tbsrc | mail                     e5e81ba2 (2026-08-27)  mar          sync mail
 
+
+[l10n-mozilla-157.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | browser, devtools, ...   8ffd279d (2026-09-11)  mar          sync browser, devtools, dom, mobile
+fxsrc | toolkit, security, ...   8ffd279d (2026-09-11)  mar          sync toolkit, security, netwerk
+

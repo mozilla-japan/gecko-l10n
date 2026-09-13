@@ -11,14 +11,6 @@ devtools-tooltip-learn-more = 詳細情報
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain why
 ## the property is not applied.
-## Variables:
-##   $property (string) - A CSS property name e.g. "color".
-##   $display (string) - A CSS display value e.g. "inline-block".
-
-
-## In the Rule View when a CSS property cannot be successfully applied we display
-## an icon. When this icon is hovered this message is displayed to explain why
-## the property is not applied.
 ## The variables are all passed from the same place, in `InactiveCssTooltipHelper#getTemplate`
 ## (devtools/client/shared/widgets/tooltip/inactive-css-tooltip-helper.js#95)
 ## Variables:
@@ -43,7 +35,6 @@ inactive-css-first-line-pseudo-element-not-supported = ::first-line 疑似要素
 inactive-css-first-letter-pseudo-element-not-supported = ::first-letter 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
 inactive-css-placeholder-pseudo-element-not-supported = ::placeholder 疑似要素上で <strong>{ $property }</strong> はサポートされていません。
 inactive-css-property-because-of-display = この要素は <strong>{ $display }</strong> の display プロパティを持つため、<strong>{ $property }</strong> はこの要素に効果がありません。
-inactive-css-not-display-block-on-floated = この要素は <strong>floated</strong> であるため、<strong>display</strong> の値はエンジンによって <strong>block</strong> に変更されました。
 inactive-css-not-display-block-on-floated-2 = この要素は <strong>floated</strong> であるため、<strong>display</strong> の値がエンジンによって <strong>{ $display }</strong> に変更されました。
 inactive-css-only-non-grid-or-flex-item = これは grid または flex アイテム上で使用できないため、<strong>{ $property }</strong> は効果がありません。
 inactive-css-not-block = これは block レベル要素にしか適用されないため、<strong>{ $property }</strong> はこの要素に効果がありません。

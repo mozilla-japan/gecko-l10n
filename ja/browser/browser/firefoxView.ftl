@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-toolbar-button-firefox-view =
-    .label = { -firefoxview-brand-name }
-    .tooltiptext = { -firefoxview-brand-name }
 toolbar-button-firefox-view-2 =
     .label = { -firefoxview-brand-name }
     .tooltiptext = 最近ブラウジングしたページをすべての@@Window@@と他の端末から表示します
@@ -16,39 +13,20 @@ firefoxview-page-heading =
     .heading = { -firefoxview-brand-name }
 firefoxview-page-label =
     .label = { -firefoxview-brand-name }
-firefoxview-close-button =
-    .title = 閉じる
-    .aria-label = 閉じる
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
 firefoxview-just-now-timestamp = 直前
-# This is a headline for an area in the product where users can resume and re-open tabs they have previously viewed on other devices.
-firefoxview-tabpickup-header = 他端末のタブ
-firefoxview-tabpickup-description = 他の端末からページを開きます。
-# Variables:
-#  $percentValue (Number): the percentage value for setup completion
-firefoxview-tabpickup-progress-label = { $percentValue }% 完了
-firefoxview-tabpickup-step-signin-header = 端末間をシームレスに切り替える
-firefoxview-tabpickup-step-signin-description = 携帯端末のタブをここで取り出すには、まずはログインするかアカウントを作成しましょう。
-firefoxview-tabpickup-step-signin-primarybutton = 続行
 firefoxview-syncedtabs-signin-header-2 = すべての端末の { -brand-product-name }
 firefoxview-syncedtabs-signin-description-2 = ログインまたはアカウント登録すると、携帯端末や別の端末で開いたタブを表示できます。アカウントを使用することで、パスワードや履歴なども同期できます。
 # The verb “Go” is implied but omitted from the headline: “[Go] from laptop to phone, seamlessly”
 firefoxview-syncedtabs-signin-header-3 = ラップトップからスマートフォンへ、シームレスに
 firefoxview-syncedtabs-signin-description-3 = 端末間でブラウジングをつなげます。タブやパスワード、履歴、すべて同期。
 firefoxview-syncedtabs-signin-primarybutton-2 = ログイン
-firefoxview-tabpickup-adddevice-header = スマートフォンやタブレットの { -brand-product-name } と同期
-firefoxview-tabpickup-adddevice-description = モバイル版 { -brand-product-name } をダウンロードして、ログインしてください。
-firefoxview-tabpickup-adddevice-learn-how = 詳細情報
-firefoxview-tabpickup-adddevice-primarybutton = モバイル版 { -brand-product-name } を入手
 firefoxview-syncedtabs-adddevice-header-2 = どこからでもタブを取り出す
 firefoxview-syncedtabs-adddevice-description-2 = 携帯端末や他のコンピューターの { -brand-product-name } にログインすると、ここでタブを表示できます。<a data-l10n-name="url">追加の端末を接続する方法</a> を確認してください。
 firefoxview-syncedtabs-adddevice-primarybutton = モバイル版 { -brand-product-name } を試す
 # "Your tabs called" - this is playful messaging indicating that a user can find their synced tabs on their phone.
 firefoxview-syncedtabs-adddevice-header-3 = 呼び寄せたタブをスマートフォンで見られます。
 firefoxview-syncedtabs-adddevice-description-3 = QR コードをスキャンしてモバイル版 { -brand-product-name } を入手したら、開いているタブなどの同期を開始しましょう。<a data-l10n-name="url">追加の端末を接続する</a> 方法を学んでください。
-firefoxview-tabpickup-synctabs-header = タブの同期を有効にする
-firefoxview-tabpickup-synctabs-description = { -brand-short-name } に端末間のタブ共有を許可してください。
-firefoxview-tabpickup-synctabs-learn-how = 詳細情報
 firefoxview-tabpickup-synctabs-primarybutton = 開いているタブを同期
 firefoxview-tabpickup-synctabs-primarybutton-2 = タブの同期をオンにする
 firefoxview-syncedtabs-synctabs-header = 同期設定を更新する
@@ -60,7 +38,6 @@ firefoxview-syncedtabs-loading-description = 同期が完了すると他の端�
 firefoxview-syncedtabs-loading-header-2 = タブを取得しています...
 firefoxview-syncedtabs-loading-description-2 = 同期中です。まもなくタブがここに表示されます。
 firefoxview-tabpickup-fxa-admin-disabled-header = あなたの所属組織が同期を無効化しています
-firefoxview-tabpickup-fxa-admin-disabled-description = { -brand-short-name } が端末間のタブ共有を利用できません。システム管理者が同期を無効にしています。
 firefoxview-tabpickup-fxa-disabled-by-policy-description = { -brand-short-name } が端末間のタブ共有を利用できません。所属組織が同期を無効にしています。
 firefoxview-tabpickup-fxa-admin-disabled-header-2 = タブの同期がオフです
 firefoxview-tabpickup-fxa-disabled-by-policy-description-2 = 所属組織によりこの機能がブロックされています。
@@ -86,39 +63,18 @@ firefoxview-syncedtab-password-locked-link = <a data-l10n-name="syncedtab-passwo
 firefoxview-tabpickup-password-locked-header-2 = マスターパスワードでタブのロックを解除
 firefoxview-tabpickup-password-locked-description-2 = ユーザーのプライバシーのため、同期したタブが保護されています。別の端末からのタブを見られるようにするには、{ -brand-short-name } のマスターパスワードを入力してください。
 firefoxview-tabpickup-signed-out-header = ログインして再接続
-firefoxview-tabpickup-signed-out-description = 再接続してタブを取り出すには、{ -fxaccount-brand-name } にログインしてください。
 firefoxview-tabpickup-signed-out-description2 = 再接続してタブを取り出すには、アカウントにログインしてください。
 firefoxview-tabpickup-signed-out-primarybutton = ログイン
 firefoxview-tabpickup-signed-out-header-2 = ログインしてタブを見る
 firefoxview-tabpickup-signed-out-description-2 = 別の端末からのタブを表示するには再接続してください。
-firefoxview-tabpickup-syncing = タブを同期しています。しばらくお待ちください。
-firefoxview-mobile-promo-header = スマートフォンやタブレットからタブを取り出す
-firefoxview-mobile-promo-description = 携帯端末の直近のタブを表示するには、iOS または Android の { -brand-product-name } にログインしてください。
-firefoxview-mobile-promo-primarybutton = モバイル版 { -brand-product-name } を入手
-firefoxview-mobile-confirmation-header = 🎉 準備万端です！
-firefoxview-mobile-confirmation-description = スマートフォンやタブレットから { -brand-product-name } のタブを取り出せるようになりました。
-firefoxview-closed-tabs-title = 最近閉じたタブ
-firefoxview-closed-tabs-description2 = この@@Window@@で閉じたページを開き直します。
-firefoxview-closed-tabs-placeholder-header = 最近閉じたタブはありません
-firefoxview-closed-tabs-placeholder-body = この@@Window@@でタブを閉じたときは、ここから復旧できます。
 # Variables:
 #   $tabTitle (string) - Title of tab being dismissed
 firefoxview-closed-tabs-dismiss-tab =
   .title = { $tabTitle } を閉じる
-# refers to the last tab that was used
-firefoxview-pickup-tabs-badge = 最終アクティブ
 # Variables:
 #   $targetURI (string) - URL that will be opened in the new tab
 firefoxview-tabs-list-tab-button =
     .title = { $targetURI } を@@NewTab@@で開く
-firefoxview-try-colorways-button = Colorway を試す
-firefoxview-change-colorway-button = Colorway を変更
-# Variables:
-#  $intensity (String): Colorway intensity
-#  $collection (String): Colorway Collection name
-firefoxview-colorway-description = { $intensity } · { $collection }
-firefoxview-synced-tabs-placeholder-header = 表示できるものはまだありません
-firefoxview-synced-tabs-placeholder-body = 他の端末の { -brand-product-name } でページを開くと、ここから取り出せます。
 firefoxview-collapse-button-show =
     .title = 一覧を表示
 firefoxview-collapse-button-hide =

@@ -22,7 +22,6 @@ about-webrtc-closed-peerconnection-disclosure-hide-msg = 閉じた PeerConnectio
 about-webrtc-aec-logging-msg-label = AEC ログ記録
 about-webrtc-aec-logging-off-state-label = AEC ログ記録を開始
 about-webrtc-aec-logging-on-state-label = AEC ログ記録を停止
-about-webrtc-aec-logging-on-state-msg = AEC ログ記録が有効です (数分間、通話相手と会話してから停止してください)
 about-webrtc-aec-logging-toggled-on-state-msg = AEC ログ記録が有効です (数分間、通話相手と会話してから停止してください)
 about-webrtc-aec-logging-unavailable-sandbox = AEC ログを@@Export-suru@@には環境変数 MOZ_DISABLE_CONTENT_SANDBOX=1 が必要です。この環境変数は潜在的な危険性を理解している場合のみ設定してください。
 # Variables:
@@ -93,10 +92,6 @@ about-webrtc-nominated = ノミネート
 # This represents an attribute of an ICE candidate.
 about-webrtc-selected = 選択
 about-webrtc-save-page-label = ページを保存
-about-webrtc-debug-mode-msg-label = デバッグモード
-about-webrtc-debug-mode-off-state-label = デバッグモードを開始
-about-webrtc-debug-mode-on-state-label = デバッグモードを停止
-about-webrtc-stats-heading = セッション統計
 about-webrtc-enable-logging-label = WebRTC ログのプリセットを有効化
 about-webrtc-peerconnections-section-heading = RTCPeerConnection 統計
 about-webrtc-peerconnections-section-show-msg = RTCPeerConnection 統計を表示
@@ -104,10 +99,6 @@ about-webrtc-peerconnections-section-hide-msg = RTCPeerConnection 統計を隠�
 about-webrtc-stats-clear = 履歴を消去
 about-webrtc-log-heading = 接続ログ
 about-webrtc-log-clear = ログを消去
-about-webrtc-log-show-msg = ログを表示
-    .title = クリックしてセクションを展開します
-about-webrtc-log-hide-msg = ログを隠す
-    .title = クリックしてセクションを折りたたみます
 about-webrtc-log-section-show-msg = ログを表示
     .title = クリックしてセクションを展開します
 about-webrtc-log-section-hide-msg = ログを隠す
@@ -140,19 +131,11 @@ about-webrtc-remote-candidate = リモート通信情報
 about-webrtc-raw-candidates-heading = すべての生通信情報
 about-webrtc-raw-local-candidate = ローカルの生通信情報
 about-webrtc-raw-remote-candidate = リモートの生通信情報
-about-webrtc-raw-cand-show-msg = 生通信情報を表示
-    .title = クリックしてセクションを展開します
-about-webrtc-raw-cand-hide-msg = 生通信情報を隠す
-    .title = クリックしてセクションを折りたたみます
 about-webrtc-raw-cand-section-show-msg = 生通信情報を表示
     .title = クリックしてセクションを展開します
 about-webrtc-raw-cand-section-hide-msg = 生通信情報を隠す
     .title = クリックしてセクションを折りたたみます
 about-webrtc-priority = 優先度
-about-webrtc-fold-show-msg = 詳細を表示
-    .title = クリックしてセクションを展開します
-about-webrtc-fold-hide-msg = 詳細を隠す
-    .title = クリックしてセクションを折りたたみます
 about-webrtc-fold-default-show-msg = 詳細を表示
     .title = クリックしてセクションを展開します
 about-webrtc-fold-default-hide-msg = 詳細を隠す
@@ -194,8 +177,6 @@ about-webrtc-configuration-element-provided = 提供済み
 # been provided
 about-webrtc-configuration-element-not-provided = 未提供
 # The options set by the user in about:config that could impact a WebRTC call
-about-webrtc-custom-webrtc-configuration-heading = ユーザー設定の WebRTC オプション
-# The options set by the user in about:config that could impact a WebRTC call
 about-webrtc-user-modified-configuration-heading = 変更された WebRTC 設定
 
 ## These are displayed on the button that shows or hides the
@@ -229,10 +210,6 @@ about-webrtc-frame-stats-heading = 動画フレーム統計 - MediaStreamTrack I
 
 ##
 
-about-webrtc-save-page-msg = ページを保存しました: { $path }
-about-webrtc-debug-mode-off-state-msg = トレースログの保存場所: { $path }
-about-webrtc-debug-mode-on-state-msg = デバッグモードが有効です。トレースログの保存場所: { $path }
-about-webrtc-aec-logging-off-state-msg = 記録したログファイルの保存場所: { $path }
 # This path is used for saving the about:webrtc page so it can be attached to
 # bug reports.
 # Variables:
@@ -297,5 +274,3 @@ about-webrtc-hide-msg-sdp = SDP を隠す
 about-webrtc-media-context-show-msg = メディアコンテキストを表示
 about-webrtc-media-context-hide-msg = メディアコンテキストを隠す
 about-webrtc-media-context-heading = メディアコンテキスト
-
-##

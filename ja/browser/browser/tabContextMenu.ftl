@@ -6,9 +6,6 @@
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.
 
-tab-context-new-tab =
-    .label = @@NewTab@@
-    .accesskey = w
 reload-tab =
     .label = タブを再読み込み
     .accesskey = R
@@ -190,13 +187,6 @@ tab-context-send-to-mobile =
 tab-context-share-selected-tabs =
     .label = 共有可能なリンクを作成
     .accesskey = a
-tab-context-send-tabs-to-device =
-    .label =
-        { $tabCount ->
-            [1] タブを端末へ送信
-           *[other] { $tabCount } 個のタブを端末へ送信
-        }
-    .accesskey = n
 tab-context-unload-n-tabs =
     .label =
         { $tabCount ->

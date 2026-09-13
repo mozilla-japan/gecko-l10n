@@ -40,9 +40,6 @@ appmenu-update-other-instance =
     .secondarybuttonlabel = 後で
     .secondarybuttonaccesskey = N
 appmenu-update-other-instance-message = { -brand-shorter-name } の更新がありますが、他のプロファイルの { -brand-shorter-name } が実行中のため、インストールできません。そちらを閉じて更新するか、とにかく更新するか選択してください。(他のプロファイルのものは、再起動するまで正常に動作しません)
-appmenu-addon-private-browsing-installed2 =
-    .buttonlabel = OK
-    .buttonaccesskey = O
 appmenu-addon-post-install-message3 = アプリケーションメニューからアドオンとテーマを管理できます。
 # This string is used in the confirmation popup displayed after an extension
 # has been installed, when the data collection feature is enabled.
@@ -50,9 +47,6 @@ appmenu-addon-post-install-message-with-data-collection = 権限とデータの�
 appmenu-addon-post-install-pin-toolbarbutton-checkbox =
     .label = 拡張機能をツールバーにピン留めする
     .accesskey = P
-appmenu-addon-post-install-incognito-checkbox =
-    .label = この拡張機能のプライベート@@Window@@での実行を許可する
-    .accesskey = A
 appmenu-new-tab-controlled-changes =
     .label = @@NewTab@@設定が変更されました。
     .buttonlabel = 変更を維持

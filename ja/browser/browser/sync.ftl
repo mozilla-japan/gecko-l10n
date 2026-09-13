@@ -6,7 +6,6 @@ fxa-toolbar-sync-syncing2 = 同期中...
 sync-disconnect-dialog-title2 = 接続を解除しますか？
 sync-disconnect-dialog-body = { -brand-product-name } はあなたのアカウントの同期を停止しますが、この端末の閲覧データは一切削除されません。
 sync-disconnect-dialog-button = 接続を解除
-fxa-signout-dialog2-title = { -fxaccount-brand-name } からログアウトしますか？
 fxa-signout-dialog-title2 = アカウントからログアウトしますか？
 fxa-signout-dialog-body = 同期済みデータはあなたのアカウントに残ります。
 fxa-signout-dialog2-button = ログアウト
@@ -41,10 +40,6 @@ fxviewtabrow-send-to-mobile-not-verified = アカウントが認証されてい�
 fxviewtabrow-send-to-mobile-verify-account = アカウントを認証
 fxa-menu-send-to-mobile-turn-on-sync = 同期を有効にしてタブを送信
 fxa-menu-send-to-mobile-connect-device = 端末を接続してタブを送信
-# Variables:
-#   $tabCount (Number): The number of tabs sent to the device.
-fxa-menu-send-tab-to-device =
-    .label = { $tabCount } 個のタブを端末へ送信
 # This is shown dynamically within "Send tab to device" in fxa menu.
 fxa-menu-send-tab-to-device-syncnotready =
     .label = 端末を同期しています...
@@ -71,6 +66,11 @@ fxa-menu-signed-out-sign-in-button =
 fxa-menu-signed-out-message-login-failed = ログアウトしました
 # Reason shown when the remembered account still needs to verify their email.
 fxa-menu-signed-out-message-unverified = セットアップを完了してください
+# Shown by the same card, and by the app menu's sign-in row, once the user has
+# signed out - the account they signed out of can no longer be identified, so
+# this copy stands in for the email.
+fxa-menu-signed-out-title = ログインして同期
+fxa-menu-signed-out-description = ログアウト状態です
 fxa-avatar-sign-in = ログイン
 fxa-avatar-sign-up = アカウント登録
 fxa-avatar-tooltip =

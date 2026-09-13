@@ -21,8 +21,6 @@ styleeditor-save-button = 保存
 styleeditor-options-button =
     .tooltiptext = スタイルエディターのオプション
 styleeditor-at-rules = @ 規則
-styleeditor-editor-textbox =
-    .data-placeholder = ここに CSS を入力します。
 styleeditor-no-stylesheet = このページにはスタイルシートがありません。
 styleeditor-no-stylesheet-tip = それとも、<a data-l10n-name="append-new-stylesheet">@@New-CMD@@スタイルシートを追加</a>しますか？
 styleeditor-open-link-new-tab =
