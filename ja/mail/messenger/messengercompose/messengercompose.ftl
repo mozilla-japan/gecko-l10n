@@ -573,3 +573,23 @@ spell-add-dictionaries =
     .accesskey = A
 subject-encription-icon =
     .title = 件名は暗号化されません
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = 送信
+    .tooltiptext = このメッセージを今すぐ送信します
+compose-button-send-later =
+    .label = 後で送信
+    .tooltiptext = このメッセージを後で送信します
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = 送信
+    .tooltiptext = このメッセージを今すぐ送信します
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = 後で送信
+    .tooltiptext = このメッセージを後で送信します
+    .accesskey = L
