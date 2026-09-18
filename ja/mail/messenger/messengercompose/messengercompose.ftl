@@ -10,6 +10,98 @@ compose-message-attachment-name = 添付メッセージ
 
 ## Compose window
 
+compose-initialization-error-title = メッセージ作成
+compose-initialization-error = メッセージ作成@@Window@@の初期化中にエラーが発生しました。
+compose-default-subject = (件名なし)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = 作成: { $subject } - { $brand }
+compose-save-message-title = メッセージ保存
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = このメッセージを下書きフォルダー ({ $folder }) に保存して作成@@Window@@を閉じますか？
+compose-discard-changes-button = 変更を破棄(&D)
+compose-send-confirm-title = メッセージ送信
+compose-send-confirm-prompt = 本当にこのメッセージを送信してもよろしいですか？
+compose-send-confirm-button = 送信
+compose-do-not-show-again = 今後はこのダイアログボックスを表示しない
+compose-empty-subject-title = 件名忘れ通知
+compose-empty-subject-prompt = メッセージの件名が入力されていません。
+compose-empty-subject-send-button = 件名なしで送信(&S)
+compose-empty-subject-cancel-button = 送信キャンセル(&C)
+compose-attachment-reminder-title = 添付忘れ通知
+compose-attachment-reminder-prompt = 添付がありません。このまま送信してもよろしいですか？
+compose-attachment-reminder-send-button = はい、送信します
+compose-attachment-reminder-add-button = いいえ、忘れるところでした！
+compose-newsgroups-not-supported-title = ニュースグループへの投稿不可
+compose-newsgroups-not-supported = このアカウントで受信者に指定できるのはメールアドレスだけです。ニュースグループへは投稿されません。
+compose-invalid-address-title = 無効なアドレス形式
+compose-no-recipients = 受信者が指定されていません。アドレス入力欄に宛先のアドレスや投稿先のニュースグループを入力してください。
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } は user@host 形式になっておらず、有効なメールアドレスではありません。メールを送信する前に修正してください。
+compose-quit-sending-title = メッセージ送信中
+compose-quit-saving-title = メッセージ保存中
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    メッセージを送信しています。
+    メッセージの送信が完了するまで待ちますか？
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    メッセージを保存しています。
+    メッセージの保存が完了するまで待ちますか？
+compose-quit-button = 今すぐ終了(&Q)
+compose-wait-button = 待機(&W)
+compose-attach-file-picker-title = 添付ファイル
+compose-attach-page-title = 添付するページの URL を指定してください
+compose-attach-page-prompt = ウェブページ URL:
+compose-message-part-attachment-name = 添付メッセージ部
+compose-attachment-bucket-attach-files-tooltip = ファイルを添付
+compose-attachment-bucket-clear-selection-tooltip = 選択を解除
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = { $filename } ファイルが存在しないためメッセージに添付できませんでした。
+compose-file-attachment-error-title = ファイル添付
+compose-message-file-error-title = メッセージファイル
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = { $filename } ファイルが存在しないためメッセージ本文として使用できませんでした。
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = { $filename } ファイルをメッセージ本文として読み込めませんでした。
+compose-save-success-title = メッセージ保存
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = メッセージを { $server } の { $folder } フォルダーに保存しました。
+compose-rename-attachment-title = 添付ファイルの名前変更
+compose-rename-attachment-prompt = 添付ファイルの新しい名前:
+remind-later-button =
+    .label = 後で通知
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = 現在のメッセージの添付忘れ通知を無効にする
+find-replace-button =
+    .label = 置換...
+    .accesskey = x
+    .tooltiptext = 検索と置換ダイアログを表示します
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = { $identity } の代わりに使用する差出人アドレスを入力してください
+compose-custom-from-address-title = 差出人アドレスのカスタマイズ
+compose-custom-from-address-warning = ご利用のメールプロバイダーがサポートしていれば、アカウント設定で新たに差出人情報を作成せずに、このメールの差出人アドレスを変更できます。例えば、差出人アドレスが <john@example.com> である場合、John Doe <john+doe@example.com> または <john@example.com> に変更することができます。
+compose-custom-from-address-ignore = 今後はこの通知を表示しない
+compose-blocked-content-options-button = オプション
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = 設定
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } のブロックを解除
 
 ## Send Format
 
@@ -75,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = リストを展開
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field } アドレスの削除
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = { $field } フィールドからすべてのアドレスを削除してもよろしいですか？
+compose-remove-address-row-button = 削除
 
 ## Attachment widget
 
@@ -397,12 +496,67 @@ cloud-file-account-error-title = Filelink アカウントエラー
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink 添付の { $filename } の更新に失敗しました。この Filelink アカウントは削除されています。
+cloud-file-authentication-error-title = 認証エラー
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = { $provider } の認証ができません。
+cloud-file-upload-error-title = アップロードエラー
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } ファイルを { $provider } にアップロードできません。
+cloud-file-quota-error-title = クォータエラー
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } ファイルをアップロードすると { $provider } の容量上限を超えます。
+cloud-file-size-error-title = ファイルサイズエラー
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } ファイルのサイズが { $provider } の最大サイズを超えています。
+cloud-file-unknown-error-title = 原因不明のエラー
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = { $provider } との通信中に不明なエラーが発生しました。
+cloud-file-deletion-error-title = 削除エラー
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = { $provider } からの { $filename } ファイル削除時にエラーが発生しました。
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = 添付ファイルをリンクにしています。アップロードが完了するとメッセージ本文にリンクが追加されます。
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = サイズの大きなファイルの添付には Filelink 機能の使用をお勧めします。
+big-file-learn-more-button =
+    .label = 機能紹介...
+    .accesskey = m
+big-file-link-button =
+    .label = リンク共有
+    .accesskey = l
+big-file-ignore-button =
+    .label = 無視
+    .accesskey = i
+big-file-choose-account-title = アカウント選択
+big-file-choose-account-prompt = 添付ファイルをアップロードするクラウドのアカウントを選択してください。
+big-file-hide-notification-title = 私のファイルをアップロードしないでください
+big-file-hide-notification-prompt = さらに大きなサイズのファイルをこのメッセージに添付しても通知されません。
+big-file-hide-notification-checkbox = 今後はこの通知を表示しない
+cloudfile-uploading-stop-button =
+    .label = 今後は表示しない
+    .accesskey = N
+cloud-file-privacy-warning = リンクが完了しました。リンクされた添付ファイルは、このリンクを知る誰からでもアクセスできるので注意してください。
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = { $provider } にアップロード中です...
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = { $provider } にアップロードしました
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = { $provider } 経由でファイルを添付
 
 ## Link Preview
 
