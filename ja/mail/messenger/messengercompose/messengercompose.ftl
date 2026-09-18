@@ -3,6 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = キャンセルしています...
+compose-message-attachment-name = 添付メッセージ
+
+## Compose window
+
+
 ## Send Format
 
 compose-send-format-menu =
@@ -113,6 +121,10 @@ attachment-area-show =
     .title = 添付ペインを表示 ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
     .title = 添付ペインを隠す ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
 # Variables:
 # $count (Number) - Number of files being dropped onto the composer.
 drop-file-label-attachment = 添付に追加する
