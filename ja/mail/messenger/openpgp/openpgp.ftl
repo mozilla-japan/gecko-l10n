@@ -259,6 +259,8 @@ openpgp-key-details-upgrade-unsafe =
 openpgp-key-details-upgrade-ok = 鍵のアップグレードが完了しました。アップグレードした公開鍵を通信相手と共有してください。
 openpgp-key-details-algorithm-label =
     .label = アルゴリズム
+openpgp-key-details-version-label =
+    .label = バージョン
 openpgp-key-details-size-label =
     .label = 鍵長
 openpgp-key-details-created-label =
@@ -787,6 +789,9 @@ key-in-message-body = メッセージに鍵が含まれています。@@[@@鍵@@
 sig-mismatch = エラー - 署名が一致しません。
 invalid-email = エラー - 無効なメールアドレスです。
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = 添付ファイル ‘{ $name }’ は OpenPGP 鍵ファイルです。このファイルに含まれる鍵を@@Import-si@@ますか？
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key = 開こうとしている添付ファイル ‘{ $name }’ は OpenPGP 鍵ファイルです。@@[@@@@Import@@@@]@@ をクリックして鍵を@@Import-suru@@か、@@[@@表示@@]@@ をクリックしてファイルの内容を@@Window@@に表示してください。
 dlg-button-view = 表示(&V)
@@ -817,6 +822,8 @@ debug-log-title = OpenPGP デバッグログ
 dlg-button-ok = &OK
 dlg-button-close = 閉じる(&C)
 dlg-button-cancel = キャンセル(&C)
+dlg-button-open = 開く(&O)...
+dlg-button-save = 保存(&S)
 dlg-no-prompt = このダイアログを再度表示しない
 enig-prompt = OpenPGP プロンプト
 enig-confirm = OpenPGP 確認

@@ -175,6 +175,7 @@
 <!ENTITY windowMenu.label "@@Window@@">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "送信">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "引用">
 <!ENTITY addressButton.label "アドレス"><!-- (^^; Contacts -->
 <!ENTITY spellingButton.label "スペル">
@@ -183,6 +184,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "このメッセージを今すぐ送信します">
 <!ENTITY sendlaterButton.tooltip "このメッセージを後で送信します">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "前のメッセージを引用します">
 <!ENTITY addressButton.tooltip "アドレス帳から宛先を選択します">
 <!ENTITY spellingButton.tooltip "選択したテキストまたはメッセージ全体のスペルチェックをします">

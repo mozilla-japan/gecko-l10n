@@ -38,3 +38,4 @@ panel-settings-spam = 迷惑メール
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = { $account } の迷惑メール設定で問題を検出しました。変更を保存する前に確認しますか？
+open-settings-sidebar-button = 設定

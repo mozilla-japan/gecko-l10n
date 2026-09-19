@@ -105,7 +105,7 @@ account-hub-result-authentication-label = 認証
     .title = 認証
 account-hub-port-label = ポート番号
     .title = 自動検出するにはポート番号を 0 に設定してください
-account-hub-auto-description = 空欄は { -brand-short-name } が自動検出を試みます。
+account-hub-auto-description = 空欄にすると { -brand-short-name } が自動検出を試みます。
 account-hub-ssl-label = 接続の保護
 
 ## Incoming/Outgoing authentication method options
@@ -268,6 +268,7 @@ account-hub-oauth-unsupported-title = 追加の設定が必要です
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } はこのホスト名の OAuth2 を自動的に設定できません。@@[@@詳細設定@@]@@ を選択してアカウントを作成し、アカウント設定からセットアップを完了してください。<a data-l10n-name="oauth-support-link">OAuth2 のセットアップ方法について</a> を参照してください。
 account-hub-username-help-text = 通常はあなたのメールアドレスが使用されます
+account-hub-port-help-text = 空欄にすると { -brand-short-name } がポート番号の検出を試みます。
 account-hub-notification-show-more = 表示を増やす
 account-hub-notification-show-less = 表示を減らす
 account-hub-email-setup-header = メールアドレスの追加

@@ -75,6 +75,7 @@ send-undisclosed-recipients = undisclosed-recipients
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = 受信者アドレス { $recipient } のローカル部分に非 ASCII 文字が含まれています。ご利用のサーバーは SMTPUTF8 をサポートしていません。非 ASCII 文字を含まないアドレスに変更してください。
+smtp-error-no-recipients = SMTP 送信先の受信者が指定されていません。
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = 送信 (SMTP) サーバー { $hostname } が暗号化されたパスワードをサポートしていないようです。アカウントの設定直後の場合は、“アカウント設定” の “送信 (SMTP) サーバー” で “認証方式” を “平文のパスワード認証 (安全でない)” に変更し、再度試してください。認証が突然失敗するようになった場合は、誰かがパスワードを盗もうとしている可能性があります。

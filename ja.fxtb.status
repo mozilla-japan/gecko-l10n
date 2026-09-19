@@ -284,4 +284,5 @@ repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | browser, devtools, ...   8ffd279d (2026-09-11)  mar          sync browser, devtools, dom, mobile
 fxsrc | toolkit, security, ...   8ffd279d (2026-09-11)  mar          sync toolkit, security, netwerk
+tbsrc | mail, calendar           ec1b1c45 (2026-09-16)  mar          sync mail, calendar
 
