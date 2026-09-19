@@ -5,8 +5,8 @@
 <!-- (^^; en-US の UI 画面自体がイマイチな気がするし、訳しにくすぎ...(>_<) -->
 <!ENTITY doNotDownloadPop3Movemail.label	"次のメッセージはダウンロードしない:">
 <!ENTITY doNotDownloadNntp.label		"次のメッセージはオフライン表示用にダウンロードしない:">
-<!ENTITY doNotDownloadImap.label		"指定したサイズまたは期間のメッセージをオフライン表示用にダウンロードしてローカルにコピーを保存します。">
-<!ENTITY allFoldersOffline2.label		"このコンピューターのこのアカウントのすべてのフォルダーを保存する">
+<!ENTITY doNotDownloadImap.label		"指定したサイズまたは期間のメッセージをオフライン表示用にダウンロードしてローカルにコピーを保持します。">
+<!ENTITY allFoldersOffline2.label		"このアカウントのすべてのフォルダーをこのコンピューターに保持する">
 <!ENTITY allFoldersOffline2.accesskey		"o">
 <!ENTITY allFoldersOfflineNote.label		"注意: この設定の変更は、このアカウントのすべてのフォルダーに影響します。フォルダーごとに設定するには @@[@@詳細...@@]@@ ボタンをクリックしてください。">
 <!ENTITY offlineNotDownload.label		"メッセージのサイズが"><!-- (^^; ... kb.label -->
@@ -38,8 +38,8 @@
 <!ENTITY offlineSelectNntp.accesskey		"S">
 <!ENTITY offlineImapAdvancedOffline.label	"詳細...">
 <!ENTITY offlineImapAdvancedOffline.accesskey	"v">
-<!ENTITY syncGroupTitle.label			"メッセージの同期">
-<!ENTITY diskspaceGroupTitle.label		"ディスク領域">
+<!ENTITY syncGroupTitle.label			"同期するフォルダー"><!-- en-US: "Message Synchronizing" -->
+<!ENTITY diskspaceGroupTitle.label		"同期する期間とディスク領域"><!-- en-US: "Disk Space" -->
 
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
@@ -47,7 +47,7 @@
 
   &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
 -->
-<!ENTITY allAutosync.label		"すべてのメッセージをローカルに同期する"><!-- en-US: Synchronize all messages locally regardless of age -->
+<!ENTITY allAutosync.label		"すべての期間のメッセージ"><!-- en-US: Synchronize all messages locally regardless of age -->
 <!ENTITY allAutosync.accesskey		"c">
 <!ENTITY ageAutosyncBefore.label	"最近"><!-- en-US: Synchronize the most recent -->
 <!ENTITY ageAutosync.accesskey		"z">
@@ -56,4 +56,4 @@
 <!ENTITY weekAgeInterval.label		"週">
 <!ENTITY monthAgeInterval.label		"か月">
 <!ENTITY yearAgeInterval.label		"か年">
-<!ENTITY ageAutosyncAfter.label		"分のメッセージをローカルに同期する">
+<!ENTITY ageAutosyncAfter.label		"分のメッセージ">
