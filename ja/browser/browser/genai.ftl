@@ -65,6 +65,10 @@ genai-menu-remove-provider =
 genai-menu-remove-sidebar =
     .label = サイドバーから削除
 # $provider (string) - name of the AI chat provider
+genai-shortcut-button-2 =
+    .tooltiptext = { $provider } に尋ねます
+    .aria-label = { $provider } に尋ねる
+# $provider (string) - name of the AI chat provider
 genai-shortcut-button =
     .aria-label = { $provider } に尋ねる
 genai-menu-new-badge = 新機能
