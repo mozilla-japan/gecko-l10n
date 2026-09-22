@@ -9,12 +9,19 @@ fonts-label-default =
     .label = @@Default@@ ({ $name })
 fonts-label-default-unnamed =
     .label = @@Default@@
+fonts-character-set-legend =
+    .value = 文字セット:
+    .accesskey = t
+font-main-style-label =
+    .value = メインのフォントスタイル:
+    .accesskey = f
 fonts-language-legend =
     .value = 対象言語:
     .accesskey = t
 fonts-proportional-label =
     .value = プロポーショナル:
     .accesskey = P
+text-font-options-dialog-title = テキストとフォントのオプション
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = 明朝体 (Serif):
     .accesskey = S
+sans-serif-font-label =
+    .value = ゴシック体 (Sans-serif):
+    .accesskey = n
 font-sans-serif-label =
     .value = ゴシック体 (Sans-serif):
     .accesskey = n
@@ -113,6 +123,13 @@ use-document-fonts-checkbox =
     .accesskey = o
 use-fixed-width-plain-checkbox =
     .label = プレーンテキストメッセージに等幅フォントを使用する
+    .accesskey = x
+message-font-permissions-legend = Message font permissions
+allow-incoming-fonts-checkbox =
+    .label = 受信メッセージに指定されたフォントの使用を許可する
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = プレーンテキストメッセージを等幅フォントで表示する
     .accesskey = x
 
 ## Language settings

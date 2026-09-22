@@ -518,7 +518,7 @@ cloud-file-size-error = { $filename } ファイルのサイズが { $provider } 
 cloud-file-unknown-error-title = 原因不明のエラー
 # Variables:
 # $provider - name of the online storage service
-cloud-file-unknown-error = { $provider } との通信中に不明なエラーが発生しました。
+cloud-file-unknown-error = { $provider } との通信中に原因不明のエラーが発生しました。
 cloud-file-deletion-error-title = 削除エラー
 # Variables:
 # $provider - name of the online storage service

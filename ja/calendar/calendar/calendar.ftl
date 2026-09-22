@@ -128,9 +128,9 @@ duplicate-error =
 unable-to-create-provider = { $location } に保存されたカレンダーの準備中にエラーが発生しました。カレンダーが利用できません。
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
-unknown-timezone-in-item = 不明なタイムゾーン “{ $timezone }” が “{ $title }” に指定されています。代わりに「浮動」のローカルタイムゾーンとして扱います: { $datetime }
+unknown-timezone-in-item = 未知のタイムゾーン “{ $timezone }” が “{ $title }” に指定されています。代わりに「浮動」のローカルタイムゾーンとして扱います: { $datetime }
 timezone-errors-alert-title = タイムゾーンエラー
-timezone-errors-see-console = エラーコンソール参照: 不明なタイムゾーンが「浮動」のローカルタイムゾーンとして扱われています。
+timezone-errors-see-console = エラーコンソール参照: 未知のタイムゾーンが「浮動」のローカルタイムゾーンとして扱われています。
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = カレンダーの削除
 remove-calendar-button-delete = カレンダーを消去
@@ -1057,6 +1057,10 @@ attachments-tab-label = 添付 ({ $count } 個):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $calendarName (String) - Calendar name as given by the user.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for-calendar = “{ $calendarName }” ({ $location }) がユーザー名とパスワードを要求しています。
 # Variables:
 #   $username (String) - The account username.
 #   $location (String) - The calendar server location.

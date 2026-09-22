@@ -13,7 +13,7 @@
 <!ENTITY maximumConnectionsNumber.label	"サーバーへの最大同時接続数">
 <!ENTITY maximumConnectionsNumber.accesskey "M">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
-<!ENTITY namespaceDesc.label		"IMAP サーバーの名前空間を設定してください:">
+<!ENTITY namespaceDesc.label		"IMAP サーバーの名前空間を設定します:">
 <!ENTITY personalNamespace.label	"個人名前空間:">
 <!ENTITY personalNamespace.accesskey	"P">
 <!ENTITY publicNamespace.label		"公開(共有)名前空間:">

@@ -41,7 +41,7 @@ search-attrib-attachment-status = 添付ファイルの有無
 search-attrib-spam-status = 迷惑マークの有無
 search-attrib-label = ラベル
 search-attrib-customize = カスタムヘッダー...
-search-attrib-missing-custom-term = 不明なカスタム検索項目
+search-attrib-missing-custom-term = カスタム検索項目なし
 
 ## Search Operators
 
