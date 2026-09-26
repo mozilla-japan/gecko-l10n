@@ -183,8 +183,6 @@ newtab-privacy-across-sites = { $count } サイトでブロックしました
 ## Privacy widget — empty state
 
 # Shown when no trackers have been blocked yet today.
-newtab-privacy-empty = { -brand-short-name } が閲覧中にブロックしたトラッカーをここで確かめられます。
-# Shown when no trackers have been blocked yet today.
 newtab-privacy-empty-state = { -brand-short-name } が自動的にトラッカーをブロックし、ユーザーの行動のプライバシーを守ります。
 # "A running tally" is an informal way to say a total that keeps updating as it goes.
 # Here we are referring to the number of trackers blocked, which increases as the user browses.
@@ -300,6 +298,20 @@ newtab-stocks-error-not-available = 株価データが利用できません。
 newtab-stocks-widget-menu-button =
     .title = 株価情報ウィジェットのオプション
     .aria-label = 株価情報ウィジェットのオプション
+# Toolbar button that opens the stock search. It shows only the icon until it is
+# hovered or focused, then the .label as well; "Search" is a verb. .title and
+# .aria-label name it for tooltips and screen readers.
+newtab-stocks-search-button =
+    .label = 検索
+    .title = 企業名または銘柄コードで検索します
+    .aria-label = 企業名または銘柄コードで検索
+# Button under the empty-watchlist message that opens the stock search. Shown
+# with a magnifying-glass icon and the .label, where "Search" is a verb; .title
+# and .aria-label name it the same way as the toolbar search button.
+newtab-stocks-watchlist-empty-search =
+    .label = 検索
+    .title = 企業名または銘柄コードで検索します
+    .aria-label = 企業名または銘柄コードで検索
 # Accessible name for the Stocks widget; hidden because the list dropdown is
 # shown in place of the title.
 newtab-stocks-widget-title = 株価情報
@@ -436,7 +448,7 @@ newtab-picture-check-back = 明日の新しい写真をお楽しみに
 # provides no localized description.
 newtab-picture-image-alt = Wikimedia Commons からの今日の写真
 
-## Strings for the Recent Searches widget
+## Strings for the Search widget
 
 # Widget heading; also the widget's accessible name.
 newtab-recent-searches-widget-title = 最近の検索
@@ -460,6 +472,9 @@ newtab-recent-searches-just-now = 直前
 #   $search (string) - The search the row shows, e.g. "puffin colonies".
 newtab-recent-searches-row-remove =
     .aria-label = 最近の検索から “{ $search }” を削除
+
+## Strings for the Search widget
+
 
 ## Recent searches widget — empty states
 
@@ -761,6 +776,9 @@ newtab-custom-widget-sports-toggle2 =
     .label = スポーツ
 newtab-custom-widget-privacy-toggle =
     .label = プライバシー
+# Crossword is a widget on New Tab that shows a daily crossword puzzle.
+newtab-custom-widget-crossword-toggle =
+    .label = クロスワードパズル
 newtab-custom-widget-stocks-toggle =
     .label = 株価情報
 newtab-custom-widget-picture-toggle =
@@ -1680,6 +1698,9 @@ newtab-activation-window-message-customization-focus-primary-button =
 # the existing widgetry that appears on it.
 newtab-activation-window-message-values-focus-header = ここはあなただけのスペースです
 newtab-activation-window-message-values-focus-message = { -brand-product-name } でブラウジングすると、お好みの方法でオンラインの一日を始められます。あなただけの { -brand-product-name } にしましょう。
+
+## Strings for the New Tab customization callout shown at the Nova launch.
+
 
 ## Strings for the Clock widget
 

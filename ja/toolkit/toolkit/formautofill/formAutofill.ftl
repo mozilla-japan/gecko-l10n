@@ -20,11 +20,13 @@ autofill-edit-payment-method-os-prompt-other = 保存した支払い方法情報
 autofill-delete-payment-method-os-prompt-macos = 保存した支払い時方法情報を削除しようとしています
 autofill-delete-payment-method-os-prompt-windows = 保存した支払い方法情報を { -brand-short-name } が削除しようとしています。以下の Windows アカウントへのアクセスを確認してください。
 autofill-delete-payment-method-os-prompt-other = 保存した支払い方法情報を { -brand-short-name } が削除しようとしています。
-
+# The button leads users to Form Autofill browser preferences.
+credit-card-doorhanger-options-button =
+    .title = フォーム自動入力のオプション
 # The link leads users to Form Autofill browser preferences.
 autofill-options-link = フォーム自動入力のオプション
 
-## The credit card capture doorhanger
+##
 
 # If Sync is enabled and credit card sync is available,
 # this checkbox is displayed on the doorhanger shown when saving credit card.
@@ -41,6 +43,9 @@ credit-card-capture-cancel-button =
 credit-card-capture-never-save-button =
     .label = カード情報を保存しない
     .accessKey = N
+
+# Used on the doorhanger when an credit card change is detected.
+
 # Used on the doorhanger when an credit card change is detected.
 credit-card-update-doorhanger-header = クレジットカード情報を更新しますか？
 credit-card-update-doorhanger-description = 更新するクレジットカード:
@@ -61,6 +66,15 @@ autofill-manage-payment-methods-label = 支払い方法の管理
 # it as the secondary label. "CVC" is a common abbreviation for the code printed
 # on a payment card; use whichever abbreviation is most familiar in your locale.
 autofill-card-security-code-label = セキュリティコード (CVC)
+
+## Details of the card shown on the credit card capture doorhanger, below the
+## masked card number. Each message is used for a different combination of the
+## available details.
+## Variables:
+##   $name (String): The cardholder name
+##   $month (String): Two-digit month the card expires
+##   $year (String): Two-digit year the card expires
+
 
 ## These are brand names and should only be translated when a locale-specific name for that brand is in common use
 

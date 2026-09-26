@@ -54,7 +54,10 @@ ipprotection-feature-introduction-button-secondary-remove-1 =
 ipprotection-feature-introduction-button-open-vpn = VPN を開く
 ipprotection-feature-introduction-button-get-started = はじめる
 
-## Unlimited bandwidth summer promotion offramp callouts
+## Callout shown when the user opens a private browsing window
+
+
+## Summer promo offramp callout buttons
 
 # Generic summer promo offramp message
 ipprotection-summer-promo-offramp-generic-title = 組み込み VPN の制限は 9 月 1 日にリセットされます
@@ -103,6 +106,11 @@ ipprotection-location-selection-callout-secondary-button = 閉じる
 ipprotection-android-promo-callout-title = 組み込み VPN をあなたの Android へ
 ipprotection-android-promo-callout-description = QR コードをスキャンして Android 版 { -brand-product-name } を入手して、プライバシー保護されたブラウジングのために組み込み VPN を有効にしましょう。まもなく iOS 版も登場します。
 ipprotection-android-promo-callout-primary-button = 了解
+
+## Feature discovery callout message advertising a feature where the user can turn on the VPN for specific sites only
+
+ipprotection-site-inclusions-callout-secondary-button-existing-users = 後で
+ipprotection-site-inclusions-callout-secondary-button-lapsed-users = 閉じる
 
 ## Panel
 
