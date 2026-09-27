@@ -286,3 +286,9 @@ fxsrc | browser, devtools, ...   8ffd279d (2026-09-11)  mar          sync browse
 fxsrc | toolkit, security, ...   8ffd279d (2026-09-11)  mar          sync toolkit, security, netwerk
 tbsrc | mail, calendar           ec1b1c45 (2026-09-16)  mar          sync mail, calendar
 
+
+[l10n-mozilla-158.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | devtools, dom, toolkit   816ea3e8 (2026-09-25)  mar          sync devtools, dom, toolkit
+

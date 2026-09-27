@@ -31,9 +31,11 @@ autofill-options-link = フォーム自動入力のオプション
 # If Sync is enabled and credit card sync is available,
 # this checkbox is displayed on the doorhanger shown when saving credit card.
 credit-card-doorhanger-credit-cards-sync-checkbox = 保存したクレジットカード情報を端末間で同期する
-# Used on the doorhanger when users submit payment with credit card.
 credit-card-save-doorhanger-header = このクレジットカード情報を安全に保存しますか？
 credit-card-save-doorhanger-description = { -brand-short-name } がカード番号を暗号化します。セキュリティコードは保存しません。
+credit-card-save-doorhanger-description-security-code = { -brand-short-name } がカード番号とセキュリティコードを暗号化するので、これらを支払いフォームに入力できるのはあなただけです。
+credit-card-doorhanger-save-security-codes-checkbox =
+    .label = 常にセキュリティコードを支払い方法に保存する
 credit-card-capture-save-button =
     .label = 保存する
     .accessKey = S
@@ -75,6 +77,13 @@ autofill-card-security-code-label = セキュリティコード (CVC)
 ##   $month (String): Two-digit month the card expires
 ##   $year (String): Two-digit year the card expires
 
+credit-card-doorhanger-details-name = { $name }
+credit-card-doorhanger-details-expiration = { $month }/{ $year }
+credit-card-doorhanger-details-cvv = CVV を保存しました
+credit-card-doorhanger-details-name-expiration = { $name }、{ $month }/{ $year }
+credit-card-doorhanger-details-name-cvv = { $name } | CVV を保存しました
+credit-card-doorhanger-details-expiration-cvv = { $month }/{ $year } | CVV を保存しました
+credit-card-doorhanger-details-name-expiration-cvv = { $name }、{ $month }/{ $year } | CVV を保存しました
 
 ## These are brand names and should only be translated when a locale-specific name for that brand is in common use
 

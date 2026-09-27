@@ -32,6 +32,13 @@ about-networking-ssl-tokens-summary-compression = { $decompressedLength } → { 
 # $capacity (Number) - Total cache capacity, in kilobytes
 # $percent (Number) - Percentage of the cache capacity currently in use
 about-networking-ssl-tokens-summary-capacity = { $used } / { $capacity } KB ({ $percent }%)
+# Certificates are stored inside every cached token, so the same certificate is
+# held many times over.
+# $references (Number) - Total number of stored certificate copies
+# $totalBytes (Number) - Uncompressed size of all stored copies, in bytes
+# $distinct (Number) - Number of unique certificates across all tokens
+# $distinctBytes (Number) - Uncompressed size of the unique certificates, in bytes
+about-networking-ssl-tokens-summary-certs = 格納された証明書: { $references } 枚 ({ $totalBytes } バイト)、差異: { $distinct } 枚 ({ $distinctBytes } バイト)
 about-networking-ssl-tokens-partition-key = パーティションキー
 about-networking-ssl-tokens-tokens-column = トークン
 about-networking-ssl-tokens-expires = 期限切れ
@@ -59,7 +66,7 @@ about-networking-ssl-tokens-built-in-root = 組み込みルート証明書
 # $count (Number) - Number of certs in the succeeded cert chain
 about-networking-ssl-tokens-cert-chain = 証明書チェーン ({ $count })
 # $count (Number) - Number of certs seen during the TLS handshake
-about-networking-ssl-tokens-handshake-certs = ハンドシェーク証明書 ({ $count })
+about-networking-ssl-tokens-handshake-certs = ハンドシェーク証明書 ({ $count } 枚)
 about-networking-refresh = 更新
 about-networking-auto-refresh = 3 秒ごとに自動更新する
 about-networking-hostname = ホスト名
