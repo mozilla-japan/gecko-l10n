@@ -49,7 +49,11 @@ autocomplete-remove-password-title = パスワードを削除しますか？
 autocomplete-remove-address-title = 住所を削除しますか？
 autocomplete-remove-payment-method-title = 支払い方法を削除しますか？
 autocomplete-remove-record-message = この操作は元に戻せません。
+autocomplete-delete-record-button = 削除
 autocomplete-remove-record-button = 削除
+autocomplete-delete-password-title = パスワードを削除しますか？
+autocomplete-delete-address-title = 住所を削除しますか？
+autocomplete-delete-payment-method-title = 支払い方法を削除しますか？
 
 ## Device sign-in prompt shown before a password is removed from the autocomplete
 ## dropdown. The -win and -macosx variants are selected at runtime; other platforms
