@@ -52,4 +52,6 @@ browser-languages-select-language =
     .placeholder = 追加する言語を選択...
 browser-languages-installed-label = インストールした言語
 browser-languages-available-label = 利用可能な言語
-browser-languages-error = { -brand-short-name } は現在、言語を更新できません。インターネット接続を確認して、もう一回試してください。
+browser-languages-error = 現在、{ -brand-short-name } が言語を更新できません。インターネットに接続されていることを確認してもう一度試してください。
+browser-languages-update-error =
+    .message = 現在、{ -brand-short-name } が言語を更新できません。インターネットに接続されていることを確認してもう一度試してください。

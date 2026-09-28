@@ -26,17 +26,19 @@ ipprotection-title = VPN
 ipprotection-feature-introduction-title = ブラウザーに内蔵された VPN をご紹介します
 ipprotection-feature-introduction-title-1 = { -brand-product-name } の組み込み VPN をお試しください
 ipprotection-feature-introduction-link-text-2 = 新たな <a data-l10n-name="learn-more-vpn">組み込み VPN</a> を利用すると、あなたの現在位置を隠してユーザーデータを保護します。
-# Used for callout for users who expressed interest in privacy in onboarding
 ipprotection-feature-introduction-title-privacy = プライバシーの別のレイヤーを追加
 ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } の組み込み VPN</a> はブラウジングの保護に役立ちます。いくつかの場所から選んで接続元のプライバシーを維持しましょう。
 ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } の組み込み VPN</a> はブラウジングの保護に役立ちます。複数の場所から選んで接続元のプライバシーを維持しましょう。
 ipprotection-feature-introduction-link-text-privacy-3 = ブラウジングの接続元を隠す場所を複数から選んで <a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> しましょう。
+# Used for multiple discovery callouts after release of the site inclusions feature
+ipprotection-feature-introduction-description-inclusions = 現在位置を隠してブラウジングの <a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> しましょう。特定のサイトで VPN をオンまたはオフに設定できます。
 ipprotection-feature-introduction-text-summer-promo-1 = 有効にしてブラウジングのプライバシー保護を維持しましょう。今から 8 月末まで、<a data-l10n-name="summer-promo-link">帯域制限なし</a> でさらに多くの接続場所を選べます。
 ipprotection-feature-introduction-title-summer-promo = 旅行の予定を立てるときはプライバシー保護も一緒に。
 ipprotection-feature-introduction-description-summer-promo = { -brand-product-name } の組み込み VPN でその先へ。8 月末まで、帯域制限なしでさらに多くの接続場所を選択可能です。
 ipprotection-feature-introduction-link-text-private-browsing-2 = 新たな <a data-l10n-name="learn-more-vpn">組み込み VPN</a> を利用すると、プライベート@@Window@@であっても、あなたの現在位置を隠してユーザーデータを保護します。
 ipprotection-feature-introduction-description-private-browsing = プライベート@@Window@@であっても、ユーザーの現在位置を隠してブラウジングのプライバシー保護を強化します。
-# Used for callout shown on login to public wi-fi through a captive portal
+# Alternate version of the feature discovery callout copy used after we've released site inclusions for the VPN. Users have the option to turn the VPN on for specific sites only
+ipprotection-feature-introduction-description-private-browsing-1 = 現在位置を隠してブラウジングの <a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> しましょう。プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにするルールを設定し、そうでないサイトではオフに設定できます。
 ipprotection-feature-introduction-title-captive-portal = 公衆 Wi-Fi なら { -brand-product-name } の組み込み VPN を試してください。
 ipprotection-feature-introduction-description-captive-portal = 公衆 Wi-Fi であっても、ユーザーの現在位置を隠してプライバシー保護を強化します。
 # Used for discovery callouts for both captive portal login and private browsing
@@ -56,6 +58,7 @@ ipprotection-feature-introduction-button-get-started = はじめる
 
 ## Callout shown when the user opens a private browsing window
 
+ipprotection-feature-introduction-title-private-browsing = { -brand-product-name } の組み込み VPN でプライバシー保護を最大化
 
 ## Summer promo offramp callout buttons
 
@@ -82,7 +85,6 @@ ipprotection-summer-promo-offramp-default-browser-incentive-description = { -bra
 # "Level up" refers to enhancing VPN functionality from the Firefox built-in VPN
 ipprotection-summer-promo-offramp-subscription-upsell-title = { -mozilla-vpn-brand-name } でレベルアップ
 ipprotection-summer-promo-offramp-subscription-upsell-description = 8 月 31 日以降、5 台までの端末でユーザーのブラウジングを追跡困難にする無制限の帯域と 300 か所以上の接続先が利用できます。
-# Summer promo offramp callout buttons
 ipprotection-summer-promo-offramp-open-vpn-primary-button = VPN を開く
 ipprotection-summer-promo-offramp-set-to-default-primary-button = @@Default@@に設定
 ipprotection-summer-promo-offramp-get-subscription-button = { -mozilla-vpn-brand-name } を入手
@@ -109,6 +111,11 @@ ipprotection-android-promo-callout-primary-button = 了解
 
 ## Feature discovery callout message advertising a feature where the user can turn on the VPN for specific sites only
 
+# Here 'browse on' means continue browsing
+ipprotection-site-inclusions-callout-title-existing-users = 組み込み VPN のルールを設定してブラウジング
+ipprotection-site-inclusions-callout-title-lapsed-users = 組み込み VPN をサイトごとに試せます
+ipprotection-site-inclusions-callout-description = プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにして、そうでないサイトではオフに設定できます。
+ipprotection-site-inclusions-callout-primary-button = ルールを設定
 ipprotection-site-inclusions-callout-secondary-button-existing-users = 後で
 ipprotection-site-inclusions-callout-secondary-button-lapsed-users = 閉じる
 

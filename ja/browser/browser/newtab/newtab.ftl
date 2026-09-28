@@ -95,6 +95,10 @@ home-prefs-stocks-header =
 # Picture of the day is a widget on New Tab that shows a daily Wikimedia Commons image.
 home-prefs-picture-header =
     .label = 今日の一枚
+# Search is a widget on New Tab that shows the user's recent and trending
+# searches.
+home-prefs-search-widget-header =
+    .label = 検索
 # Recent searches is a widget on New Tab that shows the user's recent searches.
 home-prefs-recent-searches-header =
     .label = 最近の検索
@@ -157,6 +161,12 @@ home-prefs-mission-message-learn-more-link-srd = 支援の詳細情報
 
 # Context menu item linking to more information about the Privacy widget.
 newtab-privacy-menu-learn-more = 詳細情報
+# "Privacy options" is an icon-only button in the widget toolbar — the
+# attributes are consumed as tooltip/screen-reader label only. The button
+# never renders visible text.
+newtab-privacy-widget-menu-button =
+    .title = プライバシーオプション
+    .aria-label = プライバシーオプション
 # Accessible name for the Privacy widget container. The widget shows no visible
 # title, so screen readers rely on this label to identify it.
 newtab-privacy-widget-label =
@@ -305,6 +315,9 @@ newtab-stocks-search-button =
     .label = 検索
     .title = 企業名または銘柄コードで検索します
     .aria-label = 企業名または銘柄コードで検索
+# Shown on the Watchlist while the user has no stocks in it, above a button that
+# opens the stock search.
+newtab-stocks-watchlist-empty = 関心のある銘柄を監視してください
 # Button under the empty-watchlist message that opens the stock search. Shown
 # with a magnifying-glass icon and the .label, where "Search" is a verb; .title
 # and .aria-label name it the same way as the toolbar search button.
@@ -379,6 +392,9 @@ newtab-stocks-search-input =
 # search. It means "results of the search", not "search within the results".
 newtab-stocks-search-results =
     .aria-label = 検索結果
+# Shown in the search panel, where the results will appear, until the user
+# has searched.
+newtab-stocks-search-hint = 企業名または銘柄コードで検索して監視銘柄に追加しましょう
 # "Back" is an icon-only button in the search panel header that returns to the
 # widget — the attributes are consumed as tooltip/screen-reader label only. The
 # button never renders visible text.
@@ -475,6 +491,11 @@ newtab-recent-searches-row-remove =
 
 ## Strings for the Search widget
 
+# Widget heading; also the widget's accessible name.
+newtab-search-widget-title = 検索
+# Screen reader label for the widget's icon-only menu button.
+newtab-search-widget-menu-button =
+    .aria-label = 検索オプション
 
 ## Recent searches widget — empty states
 
@@ -783,6 +804,8 @@ newtab-custom-widget-stocks-toggle =
     .label = 株価情報
 newtab-custom-widget-picture-toggle =
     .label = 今日の一枚
+newtab-custom-widget-search-toggle =
+    .label = 検索
 newtab-custom-widget-recent-searches-toggle =
     .label = 最近の検索
 newtab-custom-widget-section-title = ウィジェット
@@ -839,6 +862,9 @@ newtab-wallpaper-add-an-image = 画像を追加
 newtab-wallpaper-custom-color = @@Color@@を選択
 newtab-wallpaper-toggle-title =
     .label = 壁紙
+# Label for the grid of wallpaper categories in the customize panel
+newtab-wallpaper-category-list =
+    .aria-label = 壁紙のカテゴリー
 # Variables
 #   $file_size (number) - The number of the maximum image file size (in MB) that may be uploaded
 newtab-wallpaper-error-max-file-size = 画像がファイルサイズの上限を超えています。{ $file_size } MB より小さなファイルをアップロードしてください。
@@ -1701,6 +1727,13 @@ newtab-activation-window-message-values-focus-message = { -brand-product-name } 
 
 ## Strings for the New Tab customization callout shown at the Nova launch.
 
+# "Put your finishing touch on" means to add the last, personal detail that
+# makes something yours. The call to action is to open the New Tab
+# customization panel and pick a theme or wallpaper.
+newtab-nova-customization-callout-header = { -brand-product-name } をあなた好みに仕上げましょう
+newtab-nova-customization-callout-message = { -brand-product-name } を新たな装いにする壁紙やライトテーマ、ダークテーマを探索してください。
+newtab-nova-customization-callout-primary-button =
+    .label = 外観を選ぶ
 
 ## Strings for the Clock widget
 
@@ -1782,6 +1815,12 @@ newtab-clock-widget-custom-zone-results =
 newtab-clock-widget-custom-zone-no-results = 一致するタイムゾーンがありません
 # Returns from the custom clock form back to the city search.
 newtab-clock-widget-custom-back = 戻る
+# "Clock options" is an icon-only button in the widget toolbar — the
+# attributes are consumed as tooltip/screen-reader label only. The button
+# never renders visible text.
+newtab-clock-widget-menu-button2 =
+    .title = 時計のオプション
+    .aria-label = 時計のオプション
 # Shown in place of the search results when the user's query does not match any
 # supported city — e.g. typing a misspelled name or a place not in the IANA
 # time zone list.
