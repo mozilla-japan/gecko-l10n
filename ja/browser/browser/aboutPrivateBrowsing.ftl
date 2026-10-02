@@ -78,8 +78,31 @@ about-private-browsing-felt-privacy-v1-info-link = 私の行動を知ること�
 
 about-private-browsing-nova-info-body = すべてのプライベート@@Window@@を閉じると、Cookie、履歴、サイトデータが削除されます。
 about-private-browsing-nova-info-link = それでも私の行動を知ることができるのは誰？
+about-private-browsing-private-window-basics-link = プライベート@@Window@@の基本
+about-private-browsing-private-window-redesign-subheader = { -brand-short-name } でのブラウジングは、組み込みのトラッキング防止機能によりユーザーのプライバシーを保護するよう設計されています。この@@Window@@を閉じると、閲覧履歴、Cookie、サイトデータが消去され、この端末を使う他者からあなたのプライバシーを守ります。
 # "You're off the record" is an English idiom meant to communicate that you
 # are not being recorded. If there is not a comparable phrase in the locale,
 # fall back to "Your browsing will be deleted"
 about-private-browsing-nova-info-header = あなたの行動は記録されません
 about-private-browsing-nova-info-subheader2 = すべてのプライベート@@Window@@を閉じると、検索履歴とログイン状態がリセットされます。トラッカーのブロックなど { -brand-short-name } に組み込まれた防護機能はここでも有効です。
+
+## Strings for the Private Window basics spotlight
+
+about-private-browsing-spotlight-basics-title = プライベート@@Window@@の基本
+about-private-browsing-spotlight-basics-subtitle = プライベート@@Window@@は、この端末を使用する他者からあなたのブラウジングのプライバシーを保護します。この機能は匿名化したりデータをすべて消去したりするものではありません。
+# This is a section header in the Private Window basics spotlight dialog,
+# introducing information about what users should know about Private Windows.
+about-private-browsing-spotlight-basics-what-to-know = 注意事項
+about-private-browsing-spotlight-basics-activity-seen = 一部のアクティビティはウェブサイトや検索エンジン、インターネットプロバイダーあるいはあなたの雇用者が見ることができます。
+about-private-browsing-spotlight-basics-bookmarks-downloads = ブックマークとダウンロード履歴は端末に残るため、アドレスバーにも表示されることがあります。
+# This is a section header in the Private Window basics spotlight dialog,
+# introducing additional privacy protection features available in { -brand-short-name }.
+about-private-browsing-spotlight-basics-more-privacy = その他のプライバシー保護機能
+about-private-browsing-spotlight-basics-malware-alerts = { -brand-short-name } はマルウェアや詐欺サイトを自動的に警告します。
+# "Participating sites" refers to websites that honor Global Privacy Control (GPC) signals, either voluntarily or where legally required.
+about-private-browsing-spotlight-basics-no-sell-data = { -brand-short-name } はサイトへの関与を自動的に確認し、あなたの個人データを販売または共有しません。
+about-private-browsing-spotlight-basics-vpn = 組み込み VPN を使用すると、あなたの現在位置の捕捉を困難にします。
+# "Strict" refers to the Strict level of Enhanced Tracking Protection settings.
+# Translations should be consistent with the existing "Strict" string in about:preferences.
+about-private-browsing-spotlight-basics-strict-tracking = より強力なトラッキング防止で保護するには、設定で厳格モードに切り替えてください。
+about-private-browsing-spotlight-basics-learn-more = 詳細情報

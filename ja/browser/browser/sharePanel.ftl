@@ -24,16 +24,12 @@ share-panel-os-share-2 =
             [macos] Mac で共有...
            *[other] 共有先...
         }
-share-panel-os-share =
-    .label = 共有先...
 share-panel-mail =
     .label = メール送信
 share-panel-screenshot =
     .label = スクリーンショット撮影
 share-panel-qr-code-2 =
     .label = QR コードを生成
-share-panel-qr-code =
-    .label = QR コードを共有
 # This string is shown when the user has more than 1 device signed in to their account.
 # Clicking this will bring them to a subview where all of their devices are listed.
 share-panel-send-to-device =
@@ -49,12 +45,6 @@ share-panel-device-subview =
 share-panel-connect-device-2 =
     .label = 端末を追加
 # Shown below the device list in the share panel's device subview. Clicking it
-# opens the flow to connect another device to the user's account.
-share-panel-connect-device =
-    .label = 別の端末を接続する
-# Shown below the device list in the share panel's device subview. Clicking it
 # opens a support article about devices missing from the list.
 share-panel-missing-device =
     .label = 端末が見つかりませんか？
-share-panel-os-share-subview =
-    .title = 共有先...

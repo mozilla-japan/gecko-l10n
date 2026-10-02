@@ -291,4 +291,5 @@ tbsrc | mail, calendar           ec1b1c45 (2026-09-16)  mar          sync mail, 
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | devtools, dom, toolkit   816ea3e8 (2026-09-25)  mar          sync devtools, dom, toolkit
+fxsrc | browser                  816ea3e8 (2026-09-25)  mar          sync browser
 

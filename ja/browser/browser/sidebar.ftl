@@ -43,13 +43,15 @@ sidebar-history-clear =
 sidebar-history-sort-by-heading-menucaption =
     .label = 並べ替え:
 sidebar-history-sort-option-date =
-    .label = 日付
+    .label = 日付順
 sidebar-history-sort-option-site =
-    .label = サイト名
+    .label = サイト名順
 sidebar-history-sort-option-date-and-site =
-    .label = 日付とサイト名
+    .label = 日付とサイト名順
 sidebar-history-sort-option-last-visited =
-    .label = 最後に表示した日時
+    .label = 最終訪問日時順
+sidebar-history-sort-option-most-visited =
+    .label = 表示回数の多い順
 
 ## Labels for sidebar search
 

@@ -1378,6 +1378,10 @@ autofill-payment-methods-manage-payments-button =
 autofill-reauth-payment-methods-checkbox-2 =
     .label = 支払い方法の自動入力と管理に端末のログイン情報を要求する
     .accesskey = o
+# Security codes are the CVV/CVC card codes
+autofill-payment-methods-save-security-codes-checkbox =
+    .label = セキュリティコードを保存する
+    .accesskey = c
 autofill-payment-methods-add-button = @@New-CMD@@支払い方法を追加
 payments-list-header =
     .label = 支払い方法
@@ -1445,6 +1449,23 @@ preferences-passwords-autofill-header =
 payment-moz-box-item =
     .label = { $cardNumber }
     .description = { $expDate }
+# Used in place of payment-moz-box-item when a security code is saved alongside
+# the card. Only the presence of a saved security code is ever shown, never the
+# code itself. "CVV" is a common abbreviation for the security code printed on a
+# payment card; use whichever abbreviation is most familiar in your locale.
+# Variables:
+#   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
+#   $expDate (string) - The obscured expiry date of the credit card (for example: XX/2027)
+payment-moz-box-item-with-security-code =
+    .label = { $cardNumber }
+    .description = { $expDate } | CVV を保存しました
+# Used in place of payment-moz-box-item-with-security-code for a card that has a
+# saved security code but no expiry date to show alongside it.
+# Variables:
+#   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
+payment-moz-box-item-security-code-only =
+    .label = { $cardNumber }
+    .description = CVV を保存しました
 addresses-group =
     .label = 住所など
 payments-group =
@@ -2107,9 +2128,6 @@ preferences-ai-controls-speech-recognition-control =
 preferences-ai-controls-sidebar-chatbot-group-3 =
     .label = サイドバーの AI チャットボットプロバイダー
     .description = ブラウジング中にチャットボットを利用できます。複数のプロバイダーから選んで、いつでも切り替えられます。
-preferences-ai-controls-sidebar-chatbot-group-2 =
-    .label = サイドバーの AI チャットボットプロバイダー
-    .description = ブラウジング中にチャットボットを利用できます。Anthropic Claude、ChatGPT、Copilot、Google Gemini、Mistral Vibe のいずれかを選んでください。
 preferences-ai-controls-sidebar-chatbot-group =
     .label = サイドバーの AI チャットボットプロバイダー
     .description = ブラウジング中にチャットボットを利用できます。Anthropic Claude、ChatGPT、Copilot、Google Gemini、Le Chat Mistral のいずれかを選んでください。

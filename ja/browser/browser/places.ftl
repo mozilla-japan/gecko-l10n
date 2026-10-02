@@ -22,12 +22,12 @@ places-open-in-window =
     .accesskey = N
 places-open-in-private-window =
     .label = @@New-CMD@@プライベート@@Window@@で開く
-    .accesskey = P
+    .accesskey = v
 places-empty-bookmarks-folder =
     .label = (なし)
 places-add-bookmark =
     .label = ブックマークを追加...
-    .accesskey = B
+    .accesskey = k
 places-add-folder-contextmenu =
     .label = フォルダーを追加...
     .accesskey = F
@@ -229,6 +229,12 @@ places-search-downloads =
 ##
 
 places-locked-prompt = { -brand-short-name } のファイルを他のアプリケーションが使用しているため、ブックマークと履歴のシステムが無効化されます。この問題はセキュリティソフトが原因で生じることがあります。
+# Share is a verb here. Meaning to "Share" the bookmark "Folder"
+# .badge used to promote the sharing menu item; keep it as short as possible.
+places-share-folder3 =
+    .label = フォルダーを共有
+    .accesskey = a
+    .badge = 新機能
 # Share is a verb here. Meaning to "Share" the bookmark "Folder"
 # .badge used to promote the sharing menu item; keep it as short as possible.
 places-share-folder2 =
