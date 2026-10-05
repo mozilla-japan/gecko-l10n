@@ -184,6 +184,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = オンラインで更新
     .accesskey = R
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = PQC 暗号化副鍵を生成
+    .accesskey = G
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = ポスト量子暗号 (PQC) を使用して暗号化副鍵を生成しますか？ 生成には数分かかります。
+openpgp-pqc-generate-failed = PQC 暗号化副鍵を生成できませんでした。
 openpgp-key-man-ignored-ids =
     .label = メールアドレス
 openpgp-key-man-del-key =
@@ -305,6 +312,7 @@ openpgp-passphrase-instruction-primary-password = または、別のパスフレ
 openpgp-passphrase-instruction-user-passphrase = この鍵の保護を変更するにはロックを解除してください。
 openpgp-passphrase-unlock = ロック解除
 openpgp-passphrase-unlocked = 鍵のロックが解除されました。
+openpgp-passphrase-unlock-failed = この鍵または鍵を構成する部分のロックを解除できませんでした。
 openpgp-remove-protection = パスフレーズによる保護を削除
 openpgp-use-primary-password = パスフレーズとマスターパスワードによる保護を削除
 openpgp-passphrase-new = @@New-CMD@@パスフレーズ

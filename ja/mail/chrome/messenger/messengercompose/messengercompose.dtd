@@ -2,7 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- create by matsuba -->
 <!-- LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
 <!ENTITY msgComposeWindow.title "作成: (件名なし)">
 <!-- File menu items -->
@@ -114,7 +113,7 @@
 <!ENTITY showTaskbarCmd.accesskey "S">
 <!ENTITY customizeToolbar.label "カスタマイズ...">
 <!ENTITY customizeToolbar.accesskey "C">
-<!ENTITY addressSidebar.label "アドレスサイドバー"><!-- (^^; Contacts Sidebar -->
+<!ENTITY addressSidebar.label "連絡先サイドバー">
 <!ENTITY addressSidebar.accesskey "o">
 <!-- Format Menu -->
 <!ENTITY formatMenu.label "書式">
@@ -177,7 +176,7 @@
 <!ENTITY sendButton.label "送信">
 <!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "引用">
-<!ENTITY addressButton.label "アドレス"><!-- (^^; Contacts -->
+<!ENTITY addressButton.label "連絡先">
 <!ENTITY spellingButton.label "スペル">
 <!ENTITY saveButton.label "保存">
 <!ENTITY printButton.label "@@Print@@">
@@ -196,10 +195,11 @@
 <!-- Headers
      LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
     Subject: rows. It should be larger than the largest Header label -->
-<!ENTITY headersSpace2.style "width: 8em;"><!-- (^m^) 以下の項目名が判別できればよい en-US: "width:8em" -->
+<!ENTITY headersSpace2.style "width: 8em;">
+<!-- Headers -->
 <!ENTITY fromAddr2.label "差出人">
 <!ENTITY fromAddr.accesskey "r">
-<!ENTITY replyAddr2.label "返信先">
+<!ENTITY replyAddr2.label "Reply-To">
 <!ENTITY newsgroupsAddr2.label "Newsgroup">
 <!ENTITY followupAddr2.label "Followup-To">
 <!ENTITY subject2.label "件名">
@@ -226,6 +226,7 @@
 <!ENTITY smiley17Cmd.label "怒り">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "候補が見つかりません">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "単語を無視">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "辞書に追加">
@@ -275,7 +276,7 @@
 <!ENTITY spellAddDictionaries.label "辞書を追加...">
 <!ENTITY spellAddDictionaries.accesskey "A">
 <!-- Title for the address picker panel -->
-<!ENTITY addressesSidebarTitle.label "アドレス"><!-- (^^; Contacts -->
+<!ENTITY addressesSidebarTitle.label "連絡先">
 <!-- Identity popup customize menuitem -->
 <!ENTITY customizeFromAddress.label "差出人アドレスをカスタマイズ...">
 <!ENTITY customizeFromAddress.accesskey "A">

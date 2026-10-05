@@ -102,6 +102,14 @@ calendar-dialog-attachments-expand-icon =
 # Variables:
 #   $count (Number): Number of attachments.
 calendar-dialog-attachments-summary-label = 添付 { $count } 個
+calendar-event-prompt-delete-title = 予定の削除
+calendar-event-prompt-delete-header = 次の予定を完全に削除しますか？
+calendar-single-event-prompt-delete-header = この予定を完全に削除しますか？
+calendar-prompt-this-event =
+    .label = この予定
+calendar-prompt-all-events =
+    .label = すべての予定
+calendar-prompt-delete-button = 削除
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

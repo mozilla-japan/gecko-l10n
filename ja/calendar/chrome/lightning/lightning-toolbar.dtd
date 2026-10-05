@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label	"カレンダー">
-<!ENTITY lightning.toolbar.calendar.tooltip	"カレンダータブに切り替えます">
-<!ENTITY lightning.toolbar.calendar.accesskey	"C">
-<!ENTITY lightning.toolbar.task.label		"ToDo">
-<!ENTITY lightning.toolbar.task.tooltip		"ToDo タブに切り替えます">
-<!ENTITY lightning.toolbar.task.accesskey	"T">
-
+<!ENTITY lightning.toolbar.calendar.label "カレンダー">
+<!ENTITY lightning.toolbar.calendar.tooltip "カレンダータブに切り替えます">
+<!ENTITY lightning.toolbar.calendar.accesskey "C">
+<!ENTITY lightning.toolbar.task.label "ToDo">
+<!ENTITY lightning.toolbar.task.tooltip "ToDo タブに切り替えます">
+<!ENTITY lightning.toolbar.task.accesskey "T">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label		"日表示">
-<!ENTITY lightning.toolbar.day.accesskey	"D">
-<!ENTITY lightning.toolbar.week.label		"週表示">
-<!ENTITY lightning.toolbar.week.accesskey	"W">
-<!ENTITY lightning.toolbar.multiweek.label	"多週表示">
-<!ENTITY lightning.toolbar.multiweek.accesskey	"u">
-<!ENTITY lightning.toolbar.month.label		"月表示">
-<!ENTITY lightning.toolbar.month.accesskey	"M">
-<!ENTITY lightning.toolbar.calendarmenu.label	"カレンダーペイン">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey	"P">
-<!ENTITY lightning.toolbar.calendarpane.label	"カレンダーペインを表示します">
-<!ENTITY lightning.toolbar.calendarpane.accesskey	"P">
+<!ENTITY lightning.toolbar.day.label "日表示">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "週表示">
+<!ENTITY lightning.toolbar.week.accesskey "W">
+<!ENTITY lightning.toolbar.multiweek.label "多週表示">
+<!ENTITY lightning.toolbar.multiweek.accesskey "u">
+<!ENTITY lightning.toolbar.month.label "月表示">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "カレンダーペイン">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "P">
+<!ENTITY lightning.toolbar.calendarpane.label "カレンダーペインを表示します">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "P">
