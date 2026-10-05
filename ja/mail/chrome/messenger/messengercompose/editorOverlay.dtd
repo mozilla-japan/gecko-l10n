@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "引用文として@@Paste@@">
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "挿入">
 <!ENTITY insertMenu.accesskey "I">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "C">
 <!ENTITY insertBreakAllCmd.label "画像の下側に改行">
 <!ENTITY insertBreakAllCmd.accesskey "k">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "リンクを作成...">
 <!ENTITY createLinkCmd.accesskey "k">
 <!ENTITY editLinkCmd.label "リンクを新しい Composer で編集">
 <!ENTITY editLinkCmd.accesskey "i">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "フォントを選択">
 <!ENTITY fontfaceMenu.label "フォント">
@@ -55,18 +52,19 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "フォントサイズを選択してください">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "小さくする">
 <!ENTITY decreaseFontSize.accesskey "r">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "大きくする">
 <!ENTITY increaseFontSize.accesskey "g">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "サイズ">
 <!ENTITY fontSizeMenu.accesskey "z">
 <!ENTITY size-tinyCmd.label "極小">
@@ -81,7 +79,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "x">
 <!ENTITY size-hugeCmd.label "極大">
 <!ENTITY size-hugeCmd.accesskey "H">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "テキストのスタイル">
 <!ENTITY fontStyleMenu.accesskey "S">
@@ -118,18 +115,15 @@
 <!ENTITY styleSamp.accesskey "m">
 <!ENTITY styleVar.label "変数">
 <!ENTITY styleVar.accesskey "V">
-
 <!ENTITY formatFontColor.label "文字列の@@Color@@...">
 <!ENTITY formatFontColor.accesskey "C">
 <!ENTITY tableOrCellColor.label "表またはセルの背景@@Color@@...">
 <!ENTITY tableOrCellColor.accesskey "B">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "名前付きアンカーを削除">
 <!ENTITY formatRemoveNamedAnchors.accesskey "R">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "段落">
 <!ENTITY paragraphMenu.accesskey "P">
 <!ENTITY paragraphParagraphCmd.label "段落 &lt;p&gt;">
@@ -150,7 +144,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "A">
 <!ENTITY paragraphPreformatCmd.label "整形済み &lt;pre&gt;">
 <!ENTITY paragraphPreformatCmd.accesskey "f">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "リスト">
 <!ENTITY formatlistMenu.accesskey "L">
@@ -166,12 +159,10 @@
 <!ENTITY listDefinitionCmd.accesskey "D">
 <!ENTITY listPropsCmd.label "リストの@@PropertyCMD@@...">
 <!ENTITY listPropsCmd.accesskey "L">
-
 <!ENTITY ParagraphSelect.tooltip "段落の形式を選択">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "本文のテキスト">
 <!ENTITY bodyTextCmd.accesskey "T">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "配置">
 <!ENTITY alignMenu.accesskey "A">
@@ -187,32 +178,26 @@
 <!ENTITY alignJustify.label "両端そろえ">
 <!ENTITY alignJustify.accesskey "J">
 <!ENTITY alignJustify.tooltip "両端そろえ">
-
 <!ENTITY increaseIndent.label "インデントを挿入">
 <!ENTITY increaseIndent.accesskey "I">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "インデントを削除">
 <!ENTITY decreaseIndent.accesskey "D">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "ページの@@Colors@@と背景...">
 <!ENTITY colorsAndBackground.accesskey "u">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "表">
 <!ENTITY tableMenu.accesskey "b">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "選択">
 <!ENTITY tableSelectMenu.accesskey "S">
-
 <!ENTITY tableSelectMenu2.label "表の選択">
 <!ENTITY tableSelectMenu2.accesskey "S">
 <!ENTITY tableInsertMenu2.label "表の挿入">
 <!ENTITY tableInsertMenu2.accesskey "I">
 <!ENTITY tableDeleteMenu2.label "表の削除">
 <!ENTITY tableDeleteMenu2.accesskey "D">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "挿入">
 <!ENTITY tableInsertMenu.accesskey "I">
@@ -246,12 +231,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "削除">
 <!ENTITY tableDeleteMenu.accesskey "D">
-
 <!-- text for "Join Cells" is in editor.properties 
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
 <!ENTITY tableSplitCell.label "セルの分割">
@@ -260,7 +243,6 @@
 <!ENTITY convertToTable.accesskey "r">
 <!ENTITY tableProperties.label "表の@@PropertyCMD@@...">
 <!ENTITY tableProperties.accesskey "o">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "画像">
 <!ENTITY imageToolbarCmd.tooltip "新しい画像を挿入するか、選択した画像の@@Property@@を編集します">
@@ -274,7 +256,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "新しい名前付きアンカーを挿入するか、選択したアンカーの@@Property@@を編集します">
 <!ENTITY TextColorButton.tooltip "テキストの@@Color@@を選択します">
 <!ENTITY BackgroundColorButton.tooltip "背景の@@Color@@を選択します">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "フォントサイズを設定します">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "フォントサイズを縮小します">
@@ -292,13 +273,12 @@
 <!ENTITY alignCenterButton.tooltip "テキストを中央にそろえます">
 <!ENTITY alignRightButton.tooltip "テキストを右にそろえます">
 <!ENTITY alignJustifyButton.tooltip "2 行以上あるテキストの両端をそろえます">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "挿入">
-<!ENTITY insertTOC.accesskey      "i">
-<!ENTITY updateTOC.label          "更新">
-<!ENTITY updateTOC.accesskey      "u">
-<!ENTITY removeTOC.label          "削除">
-<!ENTITY removeTOC.accesskey      "r">
-<!ENTITY tocMenu.label            "目次...">
-<!ENTITY tocMenu.accesskey        "b">
+<!ENTITY insertTOC.label "挿入">
+<!ENTITY insertTOC.accesskey "i">
+<!ENTITY updateTOC.label "更新">
+<!ENTITY updateTOC.accesskey "u">
+<!ENTITY removeTOC.label "削除">
+<!ENTITY removeTOC.accesskey "r">
+<!ENTITY tocMenu.label "目次...">
+<!ENTITY tocMenu.accesskey "b">

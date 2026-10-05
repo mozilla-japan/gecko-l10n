@@ -3,8 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!--LOCALIZATION NOTE msgCompSMIMEOverlay.dtd UI for s/mime hooks in message composition -->
-
-<!ENTITY menu_techPGP.label			"OpenPGP">
-<!ENTITY menu_techPGP.accesskey			"O">
-<!ENTITY menu_techSMIME.label			"S/MIME">
-<!ENTITY menu_techSMIME.accesskey		"S">
+<!ENTITY menu_techPGP.label "OpenPGP">
+<!ENTITY menu_techPGP.accesskey "O">
+<!ENTITY menu_techSMIME.label "S/MIME">
+<!ENTITY menu_techSMIME.accesskey "S">

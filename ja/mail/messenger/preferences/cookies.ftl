@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = 検索:
     .accesskey = S
+cookies-stored-label = このコンピューターに保存されている Cookie:
 cookies-on-system-label = 以下の Cookie が保存されています:
 treecol-site-header =
     .label = サイト
