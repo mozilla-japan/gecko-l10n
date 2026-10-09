@@ -21,10 +21,21 @@ main-context-menu-back-2 =
 main-context-menu-back-mac =
     .label = 戻る
     .accesskey = B
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+navbar-tooltip-back-3 =
+    .value = 前のページへ戻ります ({ $shortcut })
+toolbar-button-back-3 =
+    .label = 戻る
 navbar-tooltip-back-2 =
     .value = { main-context-menu-back-2.tooltiptext }
 toolbar-button-back-2 =
     .label = { main-context-menu-back-2.aria-label }
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+main-context-menu-back-3 =
+    .tooltiptext = 前のページへ戻ります ({ $shortcut })
+    .aria-label = 戻る
 
 ## Forward
 
@@ -38,10 +49,21 @@ main-context-menu-forward-2 =
 main-context-menu-forward-mac =
     .label = 進む
     .accesskey = F
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+navbar-tooltip-forward-3 =
+    .value = 次のページへ進みます ({ $shortcut })
+toolbar-button-forward-3 =
+    .label = 進む
 navbar-tooltip-forward-2 =
     .value = { main-context-menu-forward-2.tooltiptext }
 toolbar-button-forward-2 =
     .label = { main-context-menu-forward-2.aria-label }
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+main-context-menu-forward-3 =
+    .tooltiptext = 次のページへ進みます ({ $shortcut })
+    .aria-label = 進む
 
 ## Reload
 
@@ -52,8 +74,12 @@ main-context-menu-reload =
 main-context-menu-reload-mac =
     .label = 更新
     .accesskey = R
+toolbar-button-reload-2 =
+    .label = 更新
 toolbar-button-reload =
     .label = { main-context-menu-reload.aria-label }
+main-context-menu-reload-2 =
+    .aria-label = 更新
 
 ## Stop
 
@@ -64,13 +90,19 @@ main-context-menu-stop =
 main-context-menu-stop-mac =
     .label = 中止
     .accesskey = S
+toolbar-button-stop-2 =
+    .label = 中止
 toolbar-button-stop =
     .label = { main-context-menu-stop.aria-label }
+main-context-menu-stop-2 =
+    .aria-label = 中止
 
 ## Stop-Reload Button
 
 toolbar-button-stop-reload =
     .title = { main-context-menu-reload.aria-label }
+toolbar-button-stop-reload-2 =
+    .title = 更新
 
 ## Account toolbar Button
 
@@ -102,6 +134,19 @@ main-context-menu-bookmark-page-mac =
 main-context-menu-edit-bookmark-mac =
     .label = ブックマークを編集...
     .accesskey = m
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the add bookmark command.
+main-context-menu-bookmark-page-with-shortcut-2 =
+    .aria-label = ページをブックマーク...
+    .tooltiptext = ページをブックマークに追加します ({ $shortcut })
+main-context-menu-edit-bookmark-2 =
+    .aria-label = ブックマークを編集...
+    .tooltiptext = ブックマークを編集します
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the edit bookmark command.
+main-context-menu-edit-bookmark-with-shortcut-2 =
+    .aria-label = ブックマークを編集...
+    .tooltiptext = ブックマークを編集します ({ $shortcut })
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the add bookmark command.
 main-context-menu-bookmark-page-with-shortcut =
@@ -142,6 +187,9 @@ main-context-menu-bookmark-link-2 =
 main-context-menu-save-link =
     .label = @@Save-AsCMD@@リンク先を保存...
     .accesskey = k
+main-context-menu-bookmark-page-2 =
+    .aria-label = ページをブックマーク...
+    .tooltiptext = ページをブックマークに追加します
 
 ##
 
@@ -302,7 +350,6 @@ main-context-menu-send-to-mobile-enable-sync-from-page = 同期を有効にし�
 main-context-menu-send-to-mobile-connect-phone3 = 端末を接続してタブを送信
 main-context-menu-send-to-mobile-connect-phone-from-link = 端末を接続してリンクを送信
 main-context-menu-send-to-mobile-connect-phone-from-page = 端末を接続してページを送信
-# Displayed within the send tab submenu to prompt users to sign in, enable sync, or pair a device
 
 ##
 

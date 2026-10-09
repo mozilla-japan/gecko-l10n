@@ -41,8 +41,8 @@ pictureinpicture-fullscreen-btn2 =
     .aria-label = @@FullScreen@@
     .tooltip = @@FullScreen@@モードを開始 (ダブルクリックまたは { $shortcut })
 pictureinpicture-exit-fullscreen-btn2 =
-  .aria-label = @@FullScreen@@を終了
-  .tooltip = @@FullScreen@@モードを終了 (ダブルクリックまたは { $shortcut })
+    .aria-label = @@FullScreen@@を終了
+    .tooltip = @@FullScreen@@モードを終了 (ダブルクリックまたは { $shortcut })
 
 ##
 
@@ -71,6 +71,8 @@ pictureinpicture-playback-rate-btn =
 # a screen reader whenever a user opens the subtitles settings panel
 # after selecting the subtitles button.
 pictureinpicture-subtitles-panel-accessible = 字幕設定
+pictureinpicture-subtitles-toggle =
+    .label = 字幕
 pictureinpicture-subtitles-label = 字幕
 # This string is never displayed on the window. Is intended to be announced by
 # a screen reader whenever a user opens the playback speed settings panel
@@ -90,6 +92,14 @@ pictureinpicture-playback-rate-value = { NUMBER($rate) }×
 # Variables:
 #   $rate (number) - The preset's playback rate, e.g. 1.5.
 pictureinpicture-playback-rate-preset = { NUMBER($rate, minimumFractionDigits: 1) }×
+pictureinpicture-font-size-group =
+    .label = フォントサイズ
+pictureinpicture-font-size-small-radio =
+    .label = 小
+pictureinpicture-font-size-medium-radio =
+    .label = 中
+pictureinpicture-font-size-large-radio =
+    .label = 大
 pictureinpicture-font-size-label = フォントサイズ
 pictureinpicture-font-size-small = 小
 pictureinpicture-font-size-medium = 中
