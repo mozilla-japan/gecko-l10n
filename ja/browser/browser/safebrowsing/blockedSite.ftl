@@ -71,3 +71,8 @@ safeb-blocked-addon-page-error-desc2-override = <strong>{ $sitename }</strong> �
 safeb-blocked-addon-page-error-desc3-override = <strong>これに対処するには？</strong>
 safeb-blocked-addon-page-error-desc4-override = このようなことが再び起こらないようにするには、about:addons から <strong>{ $addonName }</strong> を削除するか無効化してください。
 safeb-blocked-addon-page-learn-more3 = <a data-l10n-name='firefox_support_harmful_addons'>{ -brand-short-name } の有害なアドオンからの保護機能についての詳細情報</a>。
+
+## Alert shown when reporting a site as not deceptive fails
+
+safeb-report-false-deceptive-error-title = これは詐欺サイトではありません
+safeb-report-false-deceptive-error-message = 現在、このエラーを報告することはできません。

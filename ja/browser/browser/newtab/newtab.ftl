@@ -99,13 +99,12 @@ home-prefs-picture-header =
 # searches.
 home-prefs-search-widget-header =
     .label = 検索
-# Recent searches is a widget on New Tab that shows the user's recent searches.
-home-prefs-recent-searches-header =
-    .label = 最近の検索
 home-prefs-mission-message2 =
     .message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています。
 home-prefs-manage-topics-link2 =
     .label = トピックを管理
+home-prefs-manage-widgets-link =
+    .label = ウィジェットを管理
 home-prefs-choose-wallpaper-link2 =
     .label = 壁紙を選択
 home-prefs-firefox-logo-header =
@@ -296,7 +295,7 @@ newtab-privacy-message-streak-cta = 保護を表示
 newtab-privacy-message-first-protection = いくら閲覧しても { -brand-short-name } が保護し続けます。
 newtab-privacy-message-first-protection-cta = 保護を表示
 
-## Strings for the Stocks widget
+## Strings for the Finance widget
 
 # Context menu item linking to more information about the Stocks widget.
 newtab-stocks-menu-learn-more = 詳細情報
@@ -339,6 +338,9 @@ newtab-stocks-list-watchlist = 監視銘柄
 # Context menu item that opens the stock search (by company name or ticker symbol).
 newtab-stocks-menu-search-stocks = 企業名または銘柄コードで検索
 
+## Strings for the Finance widget
+
+
 ## Screen-reader summary of a stock ticker.
 ## Variables:
 ##   $name (String) - the full fund/ETF name, e.g. "SPDR S&P 500 ETF Trust".
@@ -352,7 +354,7 @@ newtab-stocks-ticker-status-down = { $name }、{ $change } 下降、{ $price }
 # Stock didn't change during the day
 newtab-stocks-ticker-status-flat = { $name }、値動きなし、{ $change }、{ $price }
 
-## Stocks widget watchlist add and remove controls
+## Finance widget watchlist add and remove controls
 
 # Tooltip and screen-reader label for the button that adds a stock to the watchlist.
 # The button shows only an icon and never renders visible text.
@@ -382,7 +384,7 @@ newtab-stocks-added-to-watchlist = { $name } を監視銘柄に追加しまし�
 #   $name (String) - the fund/ETF name.
 newtab-stocks-removed-from-watchlist = { $name } を監視銘柄から削除しました
 
-## Stocks widget ticker search
+## Finance widget ticker search
 
 # Placeholder and screen-reader label for the ticker search input.
 newtab-stocks-search-input =
@@ -466,11 +468,6 @@ newtab-picture-image-alt = Wikimedia Commons からの今日の写真
 
 ## Strings for the Search widget
 
-# Widget heading; also the widget's accessible name.
-newtab-recent-searches-widget-title = 最近の検索
-# Screen reader label for the widget's icon-only menu button.
-newtab-recent-searches-widget-menu-button =
-    .aria-label = 最近の検索のオプション
 # Context menu item linking to more information about the widget.
 newtab-recent-searches-menu-learn-more = 詳細情報
 # Tab listing the searches the user has made recently.
@@ -503,6 +500,9 @@ newtab-search-widget-menu-button =
 newtab-recent-searches-empty-recent = ここに表示される最近の検索から選んでいつでも再検索できます。
 # Shown in place of the list when there are no trending search results.
 newtab-recent-searches-empty-trending = トレンド検索は現在利用できません。
+
+## Strings for the Horoscopes widget
+
 
 ## Strings for the navigable panels that new tab content area can be
 ## split into.
@@ -806,8 +806,6 @@ newtab-custom-widget-picture-toggle =
     .label = 今日の一枚
 newtab-custom-widget-search-toggle =
     .label = 検索
-newtab-custom-widget-recent-searches-toggle =
-    .label = 最近の検索
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -1422,6 +1420,9 @@ newtab-promo-card-dismiss-button =
     .title = 閉じる
     .aria-label = 閉じる
 
+## Crossword widget
+
+
 ## Strings introduced by the Nova redesign of the Timer widget
 
 # Variables:
@@ -1679,8 +1680,8 @@ newtab-sports-widget-team-name-label-sco =
 # Placeholder used in a match row's aria-label for an undecided team (shown visually as "--").
 newtab-sports-widget-team-tbd = 未定
 
-## Sports widget OMC messages
-## Shown as on-screen messages promoting the Sports widget and World Cup wallpapers.
+## World Cup wallpaper OMC messages
+## Shown as on-screen messages promoting the World Cup wallpapers.
 
 newtab-sports-widget-message-wallpapers-title = 新しい壁紙でワールドカップをキックオフ
 newtab-sports-widget-message-wallpapers-body = トーナメント試合の日に備えてブラウザーにエネルギー注入

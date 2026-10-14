@@ -52,3 +52,9 @@ site-data-removing-desc = Cookie とサイトデータを削除すると、ウ�
 #   $baseDomain (String) - The single domain for which data is being removed
 site-data-removing-single-desc = Cookie とサイトデータを削除すると、ウェブサイトからログアウトされます。本当に <strong>{ $baseDomain }</strong> の Cookie とサイトデータを削除してもよろしいですか？
 site-data-removing-table = 次のウェブサイトの Cookie とサイトデータが削除されます
+
+## Clear all site data prompt
+
+site-data-clear-all-prompt-title = Cookie とサイトデータをすべて消去
+site-data-clear-all-prompt-text = @@[@@今すぐ消去@@]@@ を選択すると、{ -brand-short-name } に保存された Cookie とサイトデータがすべて消去されます。これにより、ウェブサイトからログアウトされ、オフラインのウェブコンテンツが削除されます。
+site-data-clear-all-prompt-button = 今すぐ消去

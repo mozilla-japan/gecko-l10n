@@ -4,6 +4,13 @@
 
 protocolhandler-mailto-os-handler-yes-button = @@Default@@に設定
 protocolhandler-mailto-os-handler-no-button = 後で
+# Variables:
+#  $host (String): The domain of the web application registering as a protocol handler.
+#  $protocol (String): The type of protocol (e.g. "web+example").
+protocolhandler-add-handler-message = “{ $host }” を { $protocol } プロトコル用の@@Application@@として追加しますか？
+protocolhandler-add-handler-button =
+    .label = @@Application@@を追加
+    .accesskey = A
 
 ## Variables:
 ##  $url (String): The url of a webmailer, but only its full domain name.
@@ -12,3 +19,4 @@ protocolhandler-mailto-handler-set = メールを開くリンクをクリック�
 protocolhandler-mailto-handler-confirm = メールを送信するリンクをクリックした時、毎回 <strong>{ -brand-short-name } で { $url }</strong> を開くように設定されました。
 
 ##
+
