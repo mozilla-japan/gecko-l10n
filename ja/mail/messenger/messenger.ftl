@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = メールファイル
+messenger-open-eml-file-title = メッセージを開く
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = @@Save-AsCMD@@メッセージを保存
+messenger-choose-folder = フォルダーの選択
+messenger-save-message-failed = メッセージを保存できませんでした。ファイル名を確認してから再度試してください。
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } はすでに存在します。置き換えますか？
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -88,6 +101,9 @@ open-tabs-warning-confirmation-title = 確認
 # Variables:
 #   $count - number of messages to open
 open-tabs-warning-confirmation = { $count } 件のメッセージを開くには時間がかかります。本当に開きますか？
+
+## Sign-in window
+
 
 ## Toolbar
 
