@@ -504,6 +504,11 @@ newtab-recent-searches-empty-trending = トレンド検索は現在利用でき�
 ## Strings for the Horoscopes widget
 
 
+## Strings for the Travel widget
+
+# Context menu item linking to more information about the widget.
+newtab-travel-menu-learn-more = 詳細情報
+
 ## Strings for the navigable panels that new tab content area can be
 ## split into.
 

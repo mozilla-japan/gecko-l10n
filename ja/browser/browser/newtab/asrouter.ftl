@@ -505,3 +505,9 @@ refresh-unused-profile-infobar-message = お久しぶりです！ { -brand-short
 refresh-reinstalled-profile-infobar-message = { -brand-short-name } が再インストールされ前回のプロファイルが残っています。新品の状態にリフレッシュしますか？
 refresh-profile-infobar-button = { -brand-short-name } をリフレッシュ...
     .accesskey = e
+
+## Infobar shown at startup to suggest session-restore
+
+# <img data-l10n-name="icon"/> will be replaced by the application menu icon
+restore-session-startup-suggestion-message = <strong>前回のタブを開きますか？</strong> { -brand-short-name } アプリケーションメニュー<img data-l10n-name="icon"/>の履歴から前回のセッションを復元できます。
+restore-session-startup-suggestion-button = 方法を確認
