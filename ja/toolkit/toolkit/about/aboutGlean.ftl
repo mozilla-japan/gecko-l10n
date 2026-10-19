@@ -163,6 +163,16 @@ about-glean-no-data-to-display = 表示するデータがありません。
 # Do not translate strings between <code> </code> tags.
 about-glean-dual-labeled-metric-warning = <code>about:glean</code> ビューでは <code>DualLabeledCounter</code> メトリクスがまだサポートされていません。
 about-glean-unknown-metric-type-warning = メトリクスの型が不明です。
+# Label for selection drop-down list containing Pings for selection
+about-glean-store-submitted-pings-select-label = Ping:
+# Toggle label to enable the storage of Pings that are submitted
+about-glean-store-submitted-pings =
+    .label = 送信した Ping を格納
+    .description = 送信した Ping のメモリー内への格納を有効にします
+# Header for a section that shows client information
+about-glean-submitted-ping-client-info-title = クライアント情報
+# Header for a section that shows Ping information
+about-glean-submitted-ping-ping-info-title = Ping 情報
 
 ## These labels are displayed to organize the different ping types within the dropdown.
 

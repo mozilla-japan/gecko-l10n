@@ -689,6 +689,10 @@ settings-keyboard-shortcuts-group =
     .description = { -brand-short-name } を操作するキーを制御します。
 settings-keyboard-shortcuts-customkeys-link =
     .label = キーボードショートカットをカスタマイズ
+# Link that takes the user to the Search category of settings, where the
+# address bar options live.
+settings-keyboard-shortcuts-addressbar-link =
+    .label = 検索時のアドレスバーの設定をカスタマイズ
 settings-media-group =
     .label = メディア
 browsing-picture-in-picture-toggle-enabled-2 =
@@ -918,6 +922,14 @@ search-separate-default-engine-2 =
     .accesskey = U
 search-separate-default-engine-dropdown =
     .aria-label = プライベート@@Window@@の@@Default-@@検索エンジン
+# "Navigation" here means moving around within the address bar and its results
+# list, not navigation to the address bar.
+addressbar-navigation-group =
+    .label = アドレスバー内の移動
+# "Results menu" refers to the menu available on each row of the address bar
+# results list, which offers actions such as dismissing the result.
+addressbar-skip-result-menu-on-tab =
+    .label = Tab キーでフォーカスを移動する場合に検索結果メニューをスキップする
 search-suggestions-header-2 =
     .label = 検索エンジンの候補
 search-one-click-header2 = 検索ショートカット
@@ -1126,6 +1138,10 @@ prefs-syncing-off = 同期: オフ
 prefs-syncing-off-2 =
     .label = 同期はオフです
     .description = 同期をオンにするとブックマーク、パスワード、履歴、他のデータを同期した端末上で使用できます。
+# This string is shown when the user's device has per-device syncing enabled but sync is disabled on the device.
+prefs-syncing-off-3 =
+    .label = 同期はオフです
+    .description = 同期をオンにするとこの端末上のブックマーク、パスワード、履歴、他のデータを使用できます。
 prefs-sync-turn-on-syncing =
     .label = 同期をオンにする...
     .accesskey = s
@@ -1149,9 +1165,13 @@ prefs-syncing-button-2 =
 
 sync-syncing-across-devices-heading = アカウントに接続されたすべての端末でこれらの項目を同期しています:
 sync-syncing-across-devices-heading-2 = 端末間で同期したデータ
+sync-syncing-across-devices-heading-3 = この端末の同期したデータ
 sync-syncing-across-devices-empty-state2 =
     .label = 同期したデータの管理
     .description = まだ何も同期していません。同期を開始してすべての端末上でユーザーデータを使用できるようにしましょう。
+sync-syncing-across-devices-empty-state3 =
+    .label = 同期したデータを管理
+    .description = まだ何も同期していません。この端末上の同期するデータを選んでください。
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
 sync-currently-syncing-tabs = 開いているタブ
@@ -1203,6 +1223,13 @@ sync-engine-settings =
     .accesskey = s
 sync-choose-what-to-sync-dialog4 =
     .title = 接続したすべての端末で同期するものを管理します
+    .style = min-width: 36em;
+    .buttonlabelaccept = 保存
+    .buttonaccesskeyaccept = S
+    .buttonlabelextra2 = 接続を解除...
+    .buttonaccesskeyextra2 = D
+sync-choose-what-to-sync-dialog5 =
+    .title = この端末上の同期するデータを管理します
     .style = min-width: 36em;
     .buttonlabelaccept = 保存
     .buttonaccesskeyaccept = S
@@ -1775,6 +1802,15 @@ permissions-addon-install-warning3 =
 permissions-addon-exceptions2 =
     .label = 拡張機能のインストールを許可するウェブサイトを指定
     .accesskey = E
+# App links are links that a website can ask to open for you, like email
+# (mailto:) links.
+permissions-allow-app-links =
+    .label = アプリを開くリンクを許可するサイト。
+    .accesskey = A
+# Opens the list of sites that are blocked from asking to open app links.
+permissions-app-links-manage-button =
+    .label = ブロックしたサイトを管理
+    .accesskey = M
 permissions-location2 =
     .label = 位置情報
 permissions-localhost2 =

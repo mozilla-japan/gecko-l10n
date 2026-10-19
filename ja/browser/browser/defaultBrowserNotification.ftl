@@ -42,3 +42,5 @@ default-browser-guidance-notification-dismiss = 完了
 default-browser-guidance-notification-v2-title = { -brand-short-name } を@@DefaultBrowser@@にしましょう
 default-browser-guidance-notification-v2-body = 設定で { -brand-short-name } を “@@Default@@に設定” してください。
 default-browser-guidance-notification-v2-title-only = 設定で { -brand-short-name } を@@DefaultBrowser@@にしましょう
+default-browser-guidance-notification-auto-trigger-title = リンクを { -brand-short-name } で開けます
+default-browser-guidance-notification-auto-trigger-body = 設定で { -brand-short-name } を@@DefaultBrowser@@にしてください。

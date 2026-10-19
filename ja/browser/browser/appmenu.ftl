@@ -164,12 +164,6 @@ appmenu-fxa-sign-in-promo-link = ログイン
 appmenu-fxa-sign-in-promo-dismiss-button =
     .title = 閉じる
     .aria-label = ログインの宣伝を閉じる
-# Sign-in promo shown in the app menu when signed out and no menu message or
-# update banner is present, prompting the user to sign in and sync.
-appmenu-fxa-sign-in-promo-heading = ログインして同期
-appmenu-fxa-sign-in-promo-message = データを持ち歩けます
-appmenu-fxa-sign-in-promo-button =
-    .label = ログイン
 appmenu-fxa-setup-sync =
     .label = 同期をオンにする...
 appmenu-fxa-setup-sync-new = オンにする

@@ -494,6 +494,13 @@ lapsed-user-toast-title = { -brand-product-name } が支援しています
 lapsed-user-toast-subtitle = ブラウジングにさらに多くの選択肢、プライバシー保護と制御をもたらす新機能を確認しましょう。
 lapsed-user-toast-whats-new-button = 新機能を見る
 lapsed-user-toast-dismiss-button = 閉じる
+# Title of the second toast in the series. "New look" refers to the refreshed
+# design of the browser; "No starting over" means users don't have to set up
+# the browser again from scratch.
+lapsed-user-toast-import-title = 新しい外観。いつもの設定。
+# "The browser you use today" refers to another browser the user currently
+# uses instead of this one, such as Chrome or Edge.
+lapsed-user-toast-import-subtitle = いつも使っているブラウザーからブックマークやパスワード、履歴を取り込めます。
 
 ## Refresh Firefox infobar
 ##

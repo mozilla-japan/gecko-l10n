@@ -35,6 +35,29 @@ urlbar-identity-button2 =
             [1] サイトの情報を表示 (トラッカーを 1 個ブロック)
            *[other] サイトの情報を表示 (トラッカーを { $count } 個ブロック)
         }
+# Caption shown in the native macOS share picker for the items being shared.
+# Variables:
+#   $count (Number) - The number of links being shared.
+menu-share-links =
+    .label = { $count } 個のリンク
+# macOS-only item that opens the system share picker, used when a single link
+# is shared. "AirDrop" and "Messages" are names of macOS apps, so they should
+# match the macOS translation of those names where possible.
+menu-share-mac-picker-single =
+    .label = AirDrop、メッセージ、他...
+    .accesskey = M
+# macOS-only item that opens the system share picker, used when more than one
+# link is shared. AirDrop is not mentioned here because it can only share a
+# single URL. "Messages" and "Mail" are names of macOS apps, so they should
+# match the macOS translation of those names where possible.
+menu-share-mac-picker-multiple =
+    .label = メッセージ、Mail、他...
+    .accesskey = M
+# Share entry in the addressbar context menu. Opens the macOS share picker
+# directly, hence the ellipsis.
+urlbar-share-url =
+    .label = 共有...
+    .accesskey = h
 
 ##
 
@@ -103,6 +126,8 @@ urlbar-result-menu-tip-get-help2 = ヘルプを表示
     .accesskey = h
 urlbar-result-menu-dismiss-suggestion2 = この検索候補を閉じる
     .accesskey = D
+urlbar-result-menu-remove-top-site = このトップサイトを削除
+    .accesskey = T
 urlbar-result-menu-manage-firefox-suggest2 = { -firefox-suggest-brand-name } を管理
     .accesskey = M
 # Some urlbar suggestions show the user's approximate location as automatically
@@ -418,6 +443,9 @@ bookmark-panel-remove =
 bookmark-panel-show-editor-checkbox =
     .label = 追加時にエディターを表示する
     .accesskey = S
+bookmark-panel-save-button2 =
+    .label = 保存
+    .accesskey = a
 bookmark-panel-save-button =
     .label = 保存
 # Width of the bookmark panel.
@@ -927,6 +955,12 @@ urlbar-view-context-menu-open-in-window2 = @@NewWindow@@で開く
     .accesskey = N
 urlbar-view-context-menu-open-in-private-window2 = @@New-CMD@@プライベート@@Window@@で開く
     .accesskey = P
+# A checkable menu item that controls whether pressing the Tab key while
+# navigating the address bar results stops on each result's menu button. When
+# checked, the Tab key moves straight from one result to the next, skipping the
+# menu button that opens this menu.
+urlbar-view-context-menu-skip-menu-with-tab = Tab キーでこのメニューをスキップする
+    .accesskey = S
 
 ## Labels shown above groups of urlbar results
 
@@ -1244,6 +1278,9 @@ tabs-toolbar =
     .aria-label = ブラウザータブ
 tabs-toolbar-new-tab =
     .label = @@NewTab@@
+tabs-toolbar-list-all-tabs-2 =
+    .label = タブの検索と管理
+    .tooltiptext = タブを検索および管理します
 tabs-toolbar-list-all-tabs =
     .label = タブを一覧表示
     .tooltiptext = タブを一覧表示します
@@ -1261,6 +1298,17 @@ restore-session-startup-suggestion-button = 方法を確認
 ## Infobar shown when the user tries to open a file picker and file pickers are blocked by enterprise policy
 
 filepicker-blocked-infobar = 所属組織がこのコンピューター上のローカルファイルへのアクセスをブロックしています
+
+## Address bar result shown when someone who used the Extensions and Themes
+## keyboard shortcut presses that shortcut after it moved to Search Tabs.
+## Variables:
+##   $searchTabsShortcut (String) - The Search Tabs keyboard shortcut, e.g. "Ctrl+Shift+A".
+##   $addonsShortcut (String) - The Extensions and Themes keyboard shortcut, e.g. "Ctrl+Shift+F".
+
+urlbar-addons-shortcut-moved-title = { $searchTabsShortcut } はタブ検索になりました
+urlbar-addons-shortcut-moved-description = 拡張機能とテーマを開くには { $addonsShortcut } を押します。
+urlbar-addons-shortcut-moved-change-shortcuts = ショートカットを管理
+urlbar-addons-shortcut-moved-dismiss = 了解
 
 ## Mozilla data reporting notification (Telemetry, Firefox Health Report, etc)
 
@@ -1286,6 +1334,10 @@ private-browsing-info-panel-description = これは、この端末の他のユ�
 #   $agentName (String): The name of the DLP agent that is connected
 content-analysis-indicator-tooltip =
     .tooltiptext = { $agentName } によるデータ損失防止 (DLP)。詳細情報はクリックしてください。
+content-analysis-panel-title2 = Data loss prevention
+# Variables:
+#   $agentName (String): The name of the DLP agent that is connected
+content-analysis-panel-text-styled2 = 取り扱いに注意が必要な情報の共有を制御するため所属組織が <b>{ $agentName }</b> を利用しています。<a data-l10n-name="info">詳細情報</a>
 content-analysis-panel-title = データ保護
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
@@ -1341,6 +1393,27 @@ reset-pbm-panel-complete = プライベートセッションのデータを削�
 reset-pbm-toolbar-button2 =
     .label = プライベートセッションを消去
     .tooltiptext = プライベートセッションを消去します
+
+## Fire button. Clears the whole browsing session, then closes every window and
+## opens a new one.
+
+fire-button-toolbar-button =
+    .label = ブラウジングデータの一部またはすべてを削除
+    .tooltiptext = ブラウジングデータの一部またはすべてを削除します
+fire-button-panel-heading = すべてのブラウジングデータを削除しますか？
+fire-button-panel-description = この操作は履歴、Cookie、サイトデータを削除し、ウェブサイトからログアウトします。この@@Window@@が閉じられ、{ -brand-short-name } が@@NewWindow@@を開きます。
+fire-button-panel-choose-description = 削除したくないデータがある場合は、そのデータの種類を選んでください。
+# Opens the "Delete browsing data" dialog, where the user picks
+# which kinds of data to delete. The trailing ellipsis marks that a dialog
+# follows rather than the action happening immediately.
+fire-button-panel-choose-link = 選択...
+fire-button-panel-cancel-button =
+    .label = キャンセル
+    .accesskey = C
+fire-button-panel-confirm-button =
+    .label = すべて削除
+    .accesskey = D
+fire-button-panel-complete = ブラウジングデータを削除しました
 
 ## Autorefresh blocker
 

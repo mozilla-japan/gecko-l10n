@@ -29,11 +29,25 @@ autocomplete-import-learn-more = 詳細情報
 
 autocomplete-edit-password = このパスワードを編集
 autocomplete-delete-password = このパスワードを削除
-autocomplete-edit-address = このアドレスを編集
-autocomplete-delete-address = このアドレスを削除
+autocomplete-edit-address = この住所を編集
+# Tooltip for the trash button on an address row.
+autocomplete-delete-address = この住所を削除
+# Accessible name for the button. Names the address so screen reader
+# users know which entry the button deletes.
+# Variables:
+#   $entry (String) - The saved address the button would delete.
+autocomplete-delete-address-entry = 住所 { $entry } を削除
 autocomplete-edit-payment-method = この支払い方法を編集
+# Tooltip for the trash button on a payment method row.
 autocomplete-delete-payment-method = この支払い方法を削除
-# aria-label and tooltip for the trash button on a form history entry.
+# Accessible name for the button. Names the payment method so screen reader
+# users know which entry the button deletes.
+# Variables:
+#   $entry (String) - The saved payment method the button would delete.
+autocomplete-delete-payment-method-entry = 支払い方法 { $entry } を削除
+# Tooltip for the trash button on a form history entry.
+autocomplete-delete-entry = 削除
+# aria-label for the trash button on a form history entry.
 # Variables:
 #   $entry (String) - The text of the saved form history entry that would be deleted.
 autocomplete-delete-form-history-entry2 = フォーム履歴から { $entry } を削除
@@ -41,16 +55,19 @@ autocomplete-delete-form-history-entry2 = フォーム履歴から { $entry } �
 # Variables:
 #   $entry (String) - The dropdown row the actions apply to, such as a username, an address, or a payment method.
 autocomplete-more-actions2 = { $entry } の他の操作
+# Tooltip for the button that opens the edit/delete menu.
+autocomplete-more-options = 他のオプション
+# Accessible name for the button that opens the edit/delete menu. It names the
+# row so screen reader users know which entry the menu belongs to.
+# Variables:
+#   $entry (String) - The dropdown row the actions apply to, such as a username, an address, or a payment method.
+autocomplete-more-options-for-entry = { $entry } の他のオプション
 
 ## Confirmation shown before a record is removed from the autocomplete dropdown.
 ## Gated by the browser.autocomplete.removeRecords.enabled pref.
 
-autocomplete-remove-password-title = パスワードを削除しますか？
-autocomplete-remove-address-title = 住所を削除しますか？
-autocomplete-remove-payment-method-title = 支払い方法を削除しますか？
 autocomplete-remove-record-message = この操作は元に戻せません。
 autocomplete-delete-record-button = 削除
-autocomplete-remove-record-button = 削除
 autocomplete-delete-password-title = パスワードを削除しますか？
 autocomplete-delete-address-title = 住所を削除しますか？
 autocomplete-delete-payment-method-title = 支払い方法を削除しますか？

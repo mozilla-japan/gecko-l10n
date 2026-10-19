@@ -89,6 +89,9 @@ home-prefs-privacy-header =
 # Crossword is a widget on New Tab that shows a daily crossword puzzle.
 home-prefs-crossword-widget-header =
     .label = クロスワードパズル
+# Finance is a widget on New Tab that shows stock ticker prices.
+home-prefs-stocks-header2 =
+    .label = 金融情報
 # Stocks is a widget on New Tab that shows stock ticker prices.
 home-prefs-stocks-header =
     .label = 株価情報
@@ -99,6 +102,9 @@ home-prefs-picture-header =
 # searches.
 home-prefs-search-widget-header =
     .label = 検索
+# Horoscopes is a widget on New Tab that shows daily horoscopes.
+home-prefs-horoscopes-header =
+    .label = 星座占い
 home-prefs-mission-message2 =
     .message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています。
 home-prefs-manage-topics-link2 =
@@ -166,6 +172,11 @@ newtab-privacy-menu-learn-more = 詳細情報
 newtab-privacy-widget-menu-button =
     .title = プライバシーオプション
     .aria-label = プライバシーオプション
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-privacy-widget-open-menu-button =
+    .title = プライバシーメニューを開く
+    .aria-label = プライバシーメニューを開く
 # Accessible name for the Privacy widget container. The widget shows no visible
 # title, so screen readers rely on this label to identify it.
 newtab-privacy-widget-label =
@@ -297,10 +308,15 @@ newtab-privacy-message-first-protection-cta = 保護を表示
 
 ## Strings for the Finance widget
 
-# Context menu item linking to more information about the Stocks widget.
+# Context menu item linking to more information about the Finance widget.
 newtab-stocks-menu-learn-more = 詳細情報
-# Shown in the Stocks widget when its data could not be loaded.
+# Shown in the Finance widget when its data could not be loaded.
 newtab-stocks-error-not-available = 株価データが利用できません。
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-stocks-widget-open-menu-button2 =
+    .title = 金融情報メニューを開く
+    .aria-label = 金融情報メニューを開く
 # "Stocks widget options" is an icon-only button in the widget toolbar — the
 # attributes are consumed as tooltip/screen-reader label only. The button
 # never renders visible text.
@@ -340,6 +356,9 @@ newtab-stocks-menu-search-stocks = 企業名または銘柄コードで検索
 
 ## Strings for the Finance widget
 
+# Accessible name for the Finance widget. It is usually not shown, since the
+# list dropdown or the chosen ticker symbol takes the title's place.
+newtab-stocks-widget-title2 = 金融情報
 
 ## Screen-reader summary of a stock ticker.
 ## Variables:
@@ -423,6 +442,10 @@ newtab-stocks-watchlist-full = 追加できるのは { $limit } 銘柄までで�
 newtab-picture-header = 今日の一枚 · Wikimedia Commons
 # Shorter title shown at the top of the widget, without the source name.
 newtab-picture-header-main = 今日の一枚
+# Title shown at the top of the widget, with the date of the picture shown.
+# $date (Date) - the day Wikimedia Commons featured the picture as its picture
+# of the day, shown in numbers (for example 10/8/2026).
+newtab-picture-header-date = 今日の一枚: { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") }
 # Attribution line shown under the title once a picture loads: an author
 # credit, a link to the picture's source page, and a link to its license.
 # "©" is the copyright symbol.
@@ -441,6 +464,18 @@ newtab-picture-attribution-license =
 newtab-picture-widget-menu-button =
     .title = 今日の一枚のオプション
     .aria-label = 今日の一枚のオプション
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-picture-widget-open-menu-button =
+    .title = 今日の一枚のメニューを開きます
+    .aria-label = 今日の一枚のメニューを開く
+# Button that sets the picture shown in the widget, which may be today’s or the
+# previous day’s, as the New Tab background wallpaper. The button collapses to an
+# icon when not hovered/focused, so .title is its tooltip.
+newtab-picture-set-wallpaper2 =
+    .label = 壁紙に設定
+    .title = 壁紙に設定します
+    .aria-label = この写真を壁紙に設定する
 # Button that sets the current picture as the New Tab background wallpaper. The
 # button collapses to an icon when not hovered/focused, so .title is its tooltip.
 newtab-picture-set-wallpaper =
@@ -449,6 +484,10 @@ newtab-picture-set-wallpaper =
     .aria-label = 今日の一枚を壁紙に設定する
 # Context menu item that opens the New Tab customization panel.
 newtab-picture-menu-manage-wallpaper = 壁紙を管理
+# Context menu item that hides the picture shown in the widget.
+newtab-picture-menu-hide-photo2 = この写真を隠す
+# Context menu item that restores the picture after it has been hidden.
+newtab-picture-menu-show-photo2 = この写真を表示
 # Context menu item that hides today’s picture, replacing it with an existing
 # wallpaper.
 newtab-picture-menu-hide-photo = 今日の一枚を隠す
@@ -456,6 +495,10 @@ newtab-picture-menu-hide-photo = 今日の一枚を隠す
 newtab-picture-menu-show-photo = 今日の一枚を表示
 # Context menu item linking to more information about the widget.
 newtab-picture-menu-learn-more = 詳細情報
+# Icon button shown on the widget once the picture is hidden; restores it.
+newtab-picture-show-button2 =
+    .title = 写真を表示します
+    .aria-label = 写真を表示
 # Icon button shown on the widget once the picture is hidden; restores it.
 newtab-picture-show-button =
     .title = 今日の写真を表示します
@@ -493,6 +536,11 @@ newtab-search-widget-title = 検索
 # Screen reader label for the widget's icon-only menu button.
 newtab-search-widget-menu-button =
     .aria-label = 検索オプション
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-search-widget-open-menu-button =
+    .title = 検索メニューを開きます
+    .aria-label = 検索メニューを開く
 
 ## Recent searches widget — empty states
 
@@ -503,9 +551,29 @@ newtab-recent-searches-empty-trending = トレンド検索は現在利用でき�
 
 ## Strings for the Horoscopes widget
 
+# Widget heading; also the widget's accessible name.
+newtab-horoscopes-widget-title = 星座占い
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-horoscopes-widget-open-menu-button =
+    .title = 星座占いのメニューを開きます
+    .aria-label = 星座占いのメニューを開く
+# Screen reader label for the widget's icon-only menu button.
+newtab-horoscopes-widget-menu-button =
+    .aria-label = 星座占いのオプション
+# Context menu item linking to more information about the widget.
+newtab-horoscopes-menu-learn-more = 詳細情報
 
 ## Strings for the Travel widget
 
+# Widget heading; also the widget's accessible name. Travel (noun) is a
+# widget on New Tab for searching hotels, flights and car rentals.
+newtab-travel-widget-title = 旅行
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-travel-widget-open-menu-button =
+    .title = 旅行のメニューを開きます
+    .aria-label = 旅行のメニューを開く
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = 詳細情報
 
@@ -805,12 +873,21 @@ newtab-custom-widget-privacy-toggle =
 # Crossword is a widget on New Tab that shows a daily crossword puzzle.
 newtab-custom-widget-crossword-toggle =
     .label = クロスワードパズル
+# Finance is a widget on New Tab that shows stock ticker prices.
+newtab-custom-widget-stocks-toggle2 =
+    .label = 金融情報
 newtab-custom-widget-stocks-toggle =
     .label = 株価情報
 newtab-custom-widget-picture-toggle =
     .label = 今日の一枚
 newtab-custom-widget-search-toggle =
     .label = 検索
+newtab-custom-widget-horoscopes-toggle =
+    .label = 星座占い
+# Travel (noun) is a widget on New Tab for searching hotels, flights
+# and car rentals.
+newtab-custom-widget-travel-toggle =
+    .label = 旅行
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -1035,6 +1112,11 @@ newtab-wallpaper-celestial-river = 河川の衛星画像
 # Variables:
 #   $provider (string) - Service provider for weather data
 newtab-weather-sponsored = 提供: { $provider }
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-weather-widget-open-menu-button =
+    .title = 天気予報のメニューを開きます
+    .aria-label = 天気予報のメニューを開く
 newtab-weather-menu-change-location = 予報地点を変更
 newtab-weather-change-location-search-input-placeholder =
     .placeholder = 場所を検索します
@@ -1313,6 +1395,12 @@ newtab-widget-lists-edit-clear =
 # Lists is a noun, as in "options for the lists"
 newtab-widget-lists-menu-button =
     .aria-label = リストのオプション
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+# Lists is a noun, as in "the menu for your lists".
+newtab-widget-lists-open-menu-button =
+    .title = リストのメニューを開きます
+    .aria-label = リストのメニューを開く
 # the + symbol emphasises the functionality of adding a new list
 newtab-widget-lists-dropdown-create =
     .label = + @@New-CMD@@リストを作成
@@ -1400,6 +1488,11 @@ newtab-widget-timer-menu-notifications-on = 通知をオンにする
 newtab-widget-timer-menu-learn-more = 詳細情報
 newtab-widget-timer-menu-button =
     .aria-label = タイマーのオプション
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-widget-timer-open-menu-button =
+    .title = タイマーのメニューを開きます
+    .aria-label = タイマーのメニューを開く
 # The title displays above a set of top news headlines.
 newtab-daily-briefing-card-title = トップニュース
 newtab-daily-briefing-card-menu-dismiss = 閉じる
@@ -1427,6 +1520,11 @@ newtab-promo-card-dismiss-button =
 
 ## Crossword widget
 
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-crossword-widget-open-menu-button =
+    .title = クロスワードのメニューを開きます
+    .aria-label = クロスワードのメニューを開く
 
 ## Strings introduced by the Nova redesign of the Timer widget
 
@@ -1827,6 +1925,11 @@ newtab-clock-widget-custom-back = 戻る
 newtab-clock-widget-menu-button2 =
     .title = 時計のオプション
     .aria-label = 時計のオプション
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-clock-widget-open-menu-button =
+    .title = 時計のメニューを開きます
+    .aria-label = 時計のメニューを開く
 # Shown in place of the search results when the user's query does not match any
 # supported city — e.g. typing a misspelled name or a place not in the IANA
 # time zone list.
