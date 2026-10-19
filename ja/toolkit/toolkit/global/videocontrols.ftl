@@ -45,6 +45,8 @@ videocontrols-error-src-not-supported = この動画のファイル形式また�
 videocontrols-error-no-source = サポートされたファイル形式および MIME タイプの動画が見つかりませんでした。
 videocontrols-error-generic = 原因不明のエラーが発生したため動画の再生を中止しました。
 videocontrols-status-picture-in-picture = この動画はピクチャーインピクチャーモードで再生されています。
+# Android counterpart of videocontrols-status-picture-in-picture.
+videocontrols-status-picture-in-picture-android = 動画がピクチャーインピクチャーで再生されています
 # This message shows the current position and total video duration
 #
 # Variables:

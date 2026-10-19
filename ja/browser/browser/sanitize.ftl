@@ -18,6 +18,13 @@ sanitize-dialog-title =
 sanitize-dialog-title-everything =
     .title = すべての履歴を消去
     .style = min-width: 34em
+# Title used whenever this dialog is opened to delete data, whichever entry
+# point it was opened from. sanitize-dialog-title2 is still used for the clear
+# on shutdown context, which saves preferences rather than deleting anything.
+# Keep the .style in sync with it.
+sanitize-dialog-delete-title =
+    .title = ブラウジングデータを削除
+    .style = min-width: 34em
 clear-data-settings-label = { -brand-short-name } の終了時には次のデータを自動消去する
 sanitize-on-shutdown-description = { -brand-short-name } の終了時にチェックを入れたすべてのアイテムを自動消去します。
 
@@ -116,6 +123,14 @@ sanitize-button-ok2 =
     .label = 消去
 sanitize-button-ok-on-shutdown =
     .label = 変更を保存
+# Confirm button used whenever this dialog is opened to delete data, whichever
+# entry point it was opened from.
+sanitize-button-delete =
+    .label = 削除
+# Icon-only button in the dialog's top right corner. Dismisses the dialog
+# without deleting anything, the same as the Cancel button.
+sanitize-dialog-close-button =
+    .title = 閉じる
 # The label for the default button between the user clicking it and the window
 # closing.  Indicates the items are being cleared.
 sanitize-button-clearing =

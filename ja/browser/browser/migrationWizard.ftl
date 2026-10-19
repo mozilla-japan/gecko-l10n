@@ -54,11 +54,22 @@ migration-imported-edge-reading-list = リーディングリスト (Edge から)
 
 ## These strings are shown if the selected browser data directory is unreadable.
 ## In practice, this tends to only occur on Linux when Firefox
-## is installed as a Snap.
+## is installed as a Snap, and on macOS 27 and later.
 
 migration-no-permissions-message = { -brand-short-name } には、この端末にインストールされた他のブラウザーのプロファイルへのアクセス権がありません。
 migration-no-permissions-instructions = 別のブラウザーからのデータの@@ImportNoun@@を続けるには、{ -brand-short-name } にそのブラウザーのプロファイルフォルダーへのアクセス権を与えてください。
 migration-no-permissions-instructions-step1 = “続行” を選択します
+# The second step in getting permissions to read data for the selected
+# browser type. On macOS, the file picker already opens in the folder that
+# needs to be selected.
+#
+# Variables:
+#  $permissionsPath (String): the file system path that the user will need to grant read permission to.
+migration-no-permissions-instructions-step2-2 =
+    { PLATFORM() ->
+        [macos] ファイル選択で “開く” を選んでください
+       *[other] ファイル選択で <code>{ $permissionsPath }</code> へ移動し、“選択” をクリックしてください
+    }
 # The second step in getting permissions to read data for the selected
 # browser type.
 #

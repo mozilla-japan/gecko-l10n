@@ -47,6 +47,9 @@ ai-window-toggleview-status-label-inactive = クラシック@@Window@@
 toolbar-switcher-customizable-label =
     .label = { -smart-window-brand-name }切り替え
     .tooltiptext = スマート@@Window@@とクラシック@@Window@@を切り替えます。
+toolbar-switcher-customizable-label-v2 =
+    .label = { -smart-window-brand-name }切り替え
+    .tooltiptext = スマート@@Window@@とクラシック@@Window@@を切り替えます
 
 ## Input CTA
 
@@ -79,6 +82,7 @@ smartbar-placeholder-hint-4 = ウェブを検索してください...
 
 smartbar-mention-typing-placeholder = タブまたはサイトにタグを付けます
 smartbar-mentions-list-no-results-label = 結果が見つかりませんでした
+smartbar-mentions-list-tab-groups-label = 最近使用したタブグループ
 smartbar-mentions-list-recent-tabs-label = 最近開いたタブ
 
 ## Context mentions menu toggle button

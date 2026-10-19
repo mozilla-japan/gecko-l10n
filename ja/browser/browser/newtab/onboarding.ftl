@@ -396,12 +396,18 @@ onboarding-checklist-remove-2 = チェックリストを削除
 
 tab-groups-onboarding-feature-callout-title = タブをグループ化して整理しましょう
 tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグすると最初のグループが作成できます。
+# The text "Search and Manage Tabs" refers to the string tabs-toolbar-list-all-tabs-2
+tab-groups-onboarding-create-group-title-4 = いつでも @@[@@タブの検索と管理@@]@@ メニューからタブグループを見つけられます。
 # The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
 tab-groups-onboarding-create-group-title-3 = いつでも @@[@@タブを一覧表示@@]@@ メニューからタブグループを見つけられます。
+# The text "Search and manage tabs" refers to the string tabs-toolbar-list-all-tabs-2
+tab-groups-onboarding-saved-groups-title-4 = タブグループを閉じても、いつでも @@[@@タブの検索と管理@@]@@ メニューから再び開けます。
 tab-groups-onboarding-create-group-no-alltabs-button-title = アドレスバーで検索するとグループを見つけられます。
 # The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
 tab-groups-onboarding-saved-groups-title-3 = タブグループを閉じても、@@[@@タブを一覧表示@@]@@ メニューからいつでも再び開けます。
 tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = アドレスバーで検索すると閉じてしまったタブグループを見つけられます。
+# The text "Search and manage tabs" refers to the string tabs-toolbar-list-all-tabs-2
+tab-groups-onboarding-session-restore-title-3 = タブグループはいつでも @@[@@タブの検索と管理@@]@@ メニューから再び開けます。
 # The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
 tab-groups-onboarding-session-restore-title-2 = タブグループは @@[@@タブを一覧表示@@]@@ メニューからいつでも再び開けます。
 tab-groups-onboarding-dismiss = OK
@@ -605,3 +611,24 @@ smartwindow-sidebar-auto-open-callout-rejected-subtitle = 気が変わったら�
 onboarding-theme-picker-title = テーマを選択
 onboarding-theme-picker-subtitle = { -brand-short-name } にちょっとした彩りを加えます。
 onboarding-theme-picker-button-label = 保存して続ける
+
+## Carousel navigation
+
+# Default accessible name for the row of pills used to move between carousel
+# cards. String means `Highlights of a feature` (feature is a noun).
+onboarding-carousel-nav =
+    .aria-label = 注目の機能
+
+## Welcome Back Onboarding
+
+welcome-back-onboarding-title = さらに多くの役立つ新機能が追加されました
+welcome-back-onboarding-primary-button-label = ブラウジングを始める
+welcome-back-onboarding-secondary-button-label = その他の新機能を見る
+# Pill label for features that allow you to tidy up your tabs
+welcome-back-onboarding-pill-label-tabs = タブの整理
+welcome-back-onboarding-pill-label-vpn = 組み込み VPN
+welcome-back-onboarding-pill-label-pdf = PDF ツール
+welcome-back-onboarding-card-label-tabs = 垂直タブとグループ化でタブを整理
+welcome-back-onboarding-card-label-vpn = 組み込み VPN で接続元を隠す
+welcome-back-onboarding-card-label-pdf = PDF 文書への注釈、署名など
+welcome-back-onboarding-card-tilebutton-label = 試してみる

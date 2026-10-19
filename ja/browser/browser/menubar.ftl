@@ -94,6 +94,11 @@ menu-file-close-tab =
            *[other] { $tabCount } 個のタブを閉じる
         }
     .accesskey = C
+# Replaces menu-file-close-tab in a window that can only ever hold one tab,
+# such as a popup, where closing the tab closes the window.
+menu-file-close =
+    .label = 閉じる
+    .accesskey = C
 menu-file-close-window =
     .label = @@Window@@を閉じる
     .accesskey = d
@@ -106,6 +111,9 @@ menu-file-email-link =
 menu-file-share-url =
     .label = 共有
     .accesskey = h
+menu-file-share-qrcode3 =
+    .label = QR コードを作成
+    .accesskey = Q
 menu-file-share-qrcode =
     .label = QR コードを生成...
     .accesskey = Q
@@ -245,6 +253,9 @@ menu-history-undo-window-menu =
 # "Search" is a verb, as in "Search in History"
 menu-history-search =
     .label = 履歴を検索
+# "Search" is a verb, as in "Search in Tabs"
+menu-history-search-tabs =
+    .label = タブを検索
 
 ## Bookmarks Menu
 

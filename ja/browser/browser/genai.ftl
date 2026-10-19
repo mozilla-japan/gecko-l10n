@@ -13,6 +13,7 @@ genai-settings-chat-huggingchat-links = HuggingChat を選ぶと、<a data-l10n-
 genai-settings-chat-lechat-links-2 = Mistral Vibe を選ぶと、Mistral AI の <a data-l10n-name="link1">サービス利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
 genai-settings-chat-lechat-links = Le Chat Mistral を選ぶと、Mistral AI の <a data-l10n-name="link1">サービス利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
 genai-settings-chat-localhost-links = { -vendor-short-name } の Innovation グループによる <a data-l10n-name="link1">llamafile</a> など独自のプライベートなローカルチャットボットを利用する。
+genai-settings-chat-scout-links = Yahoo Scout を選ぶと、Yahoo の <a data-l10n-name="link1">サービス利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
 
 ## Chatbot prompts
 ## Prompts are plain language ‘instructions’ sent to a chatbot.
@@ -25,6 +26,9 @@ genai-settings-chat-localhost-links = { -vendor-short-name } の Innovation グ�
 genai-prompts-summarize =
     .label = 要約する
     .value = Please summarize the selection using precise and concise language in Japanese. Use headers and bulleted lists in the summary, to make it scannable. Maintain the meaning and factual accuracy.
+# Prompt purpose: help users understand what a webpage covers at a glance
+# $url (string) - address of the webpage to summarize
+genai-prompts-summarize-page = Please summarize the webpage at { $url } using precise and concise language in Japanese. Use headers and bulleted lists in the summary, to make it scannable. Maintain the meaning and factual accuracy.
 # Prompt purpose: make a selection easier to read
 # ja: .value = 選択テキストを (日本語の) 短く簡単な単語を用いて書き換えてください。その意味と事実の正確さが損なわれないようにしてください。
 genai-prompts-simplify =
@@ -180,6 +184,8 @@ genai-onboarding-huggingchat-tooltip =
     .title = HuggingChat
 genai-onboarding-lechat-tooltip-2 =
     .title = Mistral Vibe
+genai-onboarding-scout-tooltip =
+    .title = Yahoo Scout
 genai-onboarding-lechat-tooltip =
     .title = Le Chat Mistral
 genai-chatbot-contextual-title = タブを切り替えずに AI チャットボットを使用する
@@ -234,6 +240,19 @@ link-preview-settings-key-points =
     .label = AI にページの冒頭を読み込んで要点を生成することを許可する
 link-preview-settings-long-press =
     .label = リンク先プレビューのショートカットを有効にする (リンクを 1 秒以上長押し)
+highlight-to-search-settings-enable =
+    .label = テキスト選択時にアクションメニューを表示する
+    .description = Get quick access to helpful actions when you select content.
+# $provider (string) - name of the AI chatbot provider
+highlight-to-search-settings-ask-provider =
+    .label = { $provider } に尋ねる
+highlight-to-search-settings-ask-generic =
+    .label = AI に尋ねる
+# Checkbox label for one of the actions in the menu that appears when selecting
+# text on a page. "Search" is a verb: the action searches the selected text
+# with the default search engine.
+highlight-to-search-settings-search =
+    .label = 検索
 # Title that appears when user is shown the opt-in flow for link previews
 link-preview-optin-title = AI でさらに表示しますか？
 # Message that appears when user is shown the opt-in flow for link previews

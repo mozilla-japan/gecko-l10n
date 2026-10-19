@@ -83,6 +83,9 @@ firefoxview-overview-nav = 最近のブラウジング
     .title = 最近のブラウジング
 firefoxview-overview-header = 最近のブラウジング
     .title = 最近のブラウジング
+toolbar-button-firefox-view-3 =
+    .label = { -firefoxview-brand-name }
+    .tooltiptext = 同期した端末のタブと閲覧履歴
 
 ## History in this context refers to browser history
 
