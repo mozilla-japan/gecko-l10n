@@ -246,6 +246,12 @@ urlbar-split-view-button =
     .tooltiptext = 分割ビュー
     .aria-label = 分割ビュー
 
+## URLbar context menu
+
+urlbar-menuitem-paste-and-go =
+    .label = @@Paste-si@@て移動
+    .accesskey = G
+
 ## Searchbar context menu
 
 clear-search-history =
