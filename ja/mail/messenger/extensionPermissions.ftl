@@ -17,7 +17,6 @@ webext-perms-description-compose = 編集および送信するメッセージの
 webext-perms-description-compose-send = 編集したメッセージの代理送信
 webext-perms-description-compose-save = 下書きまたはテンプレートとして編集したメッセージの保存
 webext-perms-description-experiment-access = このアドオンは { -brand-short-name } とコンピューターに完全かつ無制限なアクセスができます。
-webext-perms-description-experiment = { -brand-short-name } とコンピューターへの完全に無制限なアクセス
 webext-perms-description-messagesImport = Thunderbird へのメッセージの@@ImportNoun@@
 webext-perms-description-messagesModify = 表示されたメッセージの読み取りと編集
 webext-perms-description-messagesModifyPermanent = メッセージのソースの恒久的な編集 (ヘッダー、本文、添付を含む)

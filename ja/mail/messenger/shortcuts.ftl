@@ -111,9 +111,3 @@ toolbar-button-shortcut-string =
     .shortcut = { $shortcut }
     .aria-keyshortcuts = { $shortcut }
     .tooltiptext = { $tooltiptext } ({ $shortcut })
-# Variables:
-#  $label (String): The text label coming from the original element.
-#  $shortcut (String): The shortcut generated from the keystroke combination.
-menuitem-shortcut-string =
-    .label = { $label }
-    .acceltext = { $shortcut }

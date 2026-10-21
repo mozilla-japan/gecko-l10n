@@ -408,7 +408,6 @@ key-verification = メール以外の安全な通信手段で鍵のフィンガ�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = あなたの個人鍵に問題があるためメッセージを送信できませんでした。{ $problem }
-window-locked = メッセージ作成@@Window@@がロックされているため、送信がキャンセルされました。
 
 ## Strings in keyserver.jsm
 
@@ -424,9 +423,6 @@ keyserver-error-security-error = 鍵サーバーが暗号化したアクセス�
 keyserver-error-certificate-error = 鍵サーバーの証明書が不正です。
 keyserver-error-unsupported = 鍵サーバーが対応していません。
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -435,9 +431,6 @@ wkd-message-body-req =
 wkd-message-body-process =
     これは、あなたの公開鍵を OpenPGP Web Key Directory へアップロードする自動的な処理に関連したメールです。
     現時点では何も行う必要はありません。
-
-## Strings in persistentCrypto.jsm
-
 
 ## Strings in persistentCrypto.sys.mjs
 
@@ -448,15 +441,9 @@ converter-decrypt-body-failed =
     { $subject }
     別のパスフレーズを試しますか？ それともメッセージをスキップしますか？
 
-## Strings filters.jsm
-
-
 ## Strings filters.sys.mjs
 
 filter-folder-required = 対象のフォルダーを指定してください。
-filter-decrypt-move-warn-experimental =
-    警告 - @@[@@メッセージを恒久的に復号する@@]@@ フィルターは、メッセージを破損する可能性があります。
-    はじめに @@[@@復号したメッセージのコピーを作成する@@]@@ フィルターを試験的に利用し、その結果に問題がないことを確認したうえで @@[@@メッセージを恒久的に復号する@@]@@ フィルターを使用することを強く推奨します。
 filter-term-pgpencrypted-label = OpenPGP 暗号化
 filter-key-required = 受信者の鍵を選択してください。
 # Variables:
@@ -467,9 +454,6 @@ filter-key-not-found = ‘{ $desc }’ に対する暗号化の鍵を見つけ�
 filter-warn-key-not-secret =
     警告 - @@[@@鍵に対して暗号化する@@]@@ フィルターは、受信者を上書きします。
     ‘{ $desc }’ に対する秘密鍵を持っていない場合、メッセージが復号できなくなります。
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -540,12 +524,6 @@ openpgp-export-public-fail = <b>選択した公開鍵の@@ExportNoun@@に失敗�
 openpgp-export-secret-success = <b>秘密鍵の@@ExportNoun@@に成功しました！</b>
 openpgp-export-secret-fail = <b>選択した秘密鍵の@@ExportNoun@@に失敗しました！</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -561,16 +539,10 @@ key-ring-sign-sub-keys-expired = 鍵 { $userId } (鍵 ID { $keyId }) のすべ�
 key-ring-enc-sub-keys-revoked = 鍵 { $userId } (鍵 ID { $keyId }) のすべての暗号化用の副鍵は失効しています。
 key-ring-enc-sub-keys-expired = 鍵 { $userId } (鍵 ID { $keyId }) のすべての暗号化用の副鍵は有効期限切れです。
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = 写真
 user-att-photo = ユーザーの特徴 (JPEG 画像)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -594,9 +566,6 @@ after-revoke-info =
     ソフトウェアが失効証明書を認識すると、あなたの古い鍵の利用を停止するでしょう。
     同じメールアドレスに対する新しい鍵を利用しているのであれば、新しい公開鍵を添付してメッセージを送信することで、失効した古い鍵についての情報も周知されます。
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = @@Import@@(&I)
@@ -606,9 +575,6 @@ delete-external-key-description = この外部 GnuPG 鍵 ID を除去します�
 key-in-use-title = 利用中の OpenPGP 鍵です
 delete-key-in-use-description = 処理を進められません！ 削除のために選択した鍵はこの差出人で現在利用中です。違う鍵を選択するか、何も選択せずにもう一度試してください。
 revoke-key-in-use-description = 処理を進められません！ 失効のために選択した鍵はこの差出人で現在利用中です。違う鍵を選択するか、何も選択せずにもう一度試してください。
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -620,30 +586,18 @@ key-error-key-id-not-found = 指定された鍵 ID ‘{ $keySpec }’ が鍵束�
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = ID ‘{ $keySpec }’ の鍵があなたの個人鍵であると確認していません。
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = 選択された機能はオフラインモードでは使用できません。オンラインでもう一度試してください。
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = 指定された検索条件に適合する利用可能な鍵を見つけられませんでした。
 no-update-found = オンラインで見つけた鍵はすでに持っています。
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = エラー - 鍵の展開コマンドに失敗しました
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -655,7 +609,6 @@ fail-key-import = エラー - 鍵の@@ImportNoun@@に失敗しました。
 # $output (String) - File that writing was attempted to.
 file-write-failed = ファイル { $output } への@@ExportNoun@@に失敗しました。
 no-pgp-block = エラー - 有効な OpenPGP データブロックが見つかりません。
-confirm-permissive-import = @@ImportNoun@@に失敗しました。@@ImportNoun@@を試みた鍵は、破損しているか未知の属性が使われています。正常な部分のみの@@ImportNoun@@を試みますか？ この場合、@@ImportNoun@@が完了しない、あるいは利用できない鍵となる可能性があります。
 
 ## Strings used in keyRing.sys.mjs
 
@@ -719,9 +672,6 @@ key-man-button-generate-key-continue = 鍵の生成を継続(&C)
 failed-decrypt = エラー - 復号に失敗しました
 fix-broken-exchange-msg-failed = このメッセージを修復できませんでした。
 # Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = 署名ファイル ‘{ $attachment }’ は添付ファイルに適合しませんでした
-# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = 添付ファイル ‘{ $attachment }’ は署名ファイルに適合しませんでした
 # Variables:
@@ -777,9 +727,6 @@ cannot-send-sig-because-no-own-key = このメッセージにデジタル署名�
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = このメッセージを暗号化できませんでした。<{ $key }> のためのエンドツーエンド暗号化が設定されていません
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -804,15 +751,9 @@ attachment-pgp-key-import = 添付ファイル ‘{ $name }’ は OpenPGP 鍵�
 attachment-pgp-key = 開こうとしている添付ファイル ‘{ $name }’ は OpenPGP 鍵ファイルです。@@[@@@@Import@@@@]@@ をクリックして鍵を@@Import-suru@@か、@@[@@表示@@]@@ をクリックしてファイルの内容を@@Window@@に表示してください。
 dlg-button-view = 表示(&V)
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = エラー - 暗号化は必要ありません。
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -821,9 +762,6 @@ no-photo-available = 写真が利用できません
 # $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = 写真へのパス ‘{ $photo }’ が読み込めません。
 debug-log-title = OpenPGP デバッグログ
-
-## Strings used in dialog.jsm
-
 
 ## Strings used in dialog.sys.mjs
 
@@ -836,15 +774,7 @@ dlg-no-prompt = このダイアログを再度表示しない
 enig-prompt = OpenPGP プロンプト
 enig-confirm = OpenPGP 確認
 
-## Strings used in persistentCrypto.jsm
-
-
 ## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = 再試行(&R)
 dlg-button-skip = スキップ(&S)
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP 警告

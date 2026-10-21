@@ -4,29 +4,26 @@
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
 
-<!ENTITY fileMenu.label			"ファイル">
-<!ENTITY fileMenu.accesskey		"F">
-<!ENTITY newMenu.label			"新規作成">
-<!ENTITY newMenu.accesskey		"N">
-
-<!ENTITY editMenu.label			"編集">
-<!ENTITY editMenu.accesskey		"E">
-<!ENTITY undoCmd.label			"@@Undo@@">
-<!ENTITY undoCmd.accesskey		"U">
-<!ENTITY redoCmd.label			"@@Redo@@">
-<!ENTITY redoCmd.accesskey		"R">
-<!ENTITY deleteCmd.label		"削除">
-<!ENTITY deleteCmd.accesskey		"D">
-<!ENTITY customizeCmd.label		"カスタマイズ">
-<!ENTITY customizeCmd.accesskey		"t">
-
-<!ENTITY viewMenu.label			"表示">
-<!ENTITY viewMenu.accesskey		"V">
-<!ENTITY viewToolbarsMenu.label		"ツールバー">
-<!ENTITY viewToolbarsMenu.accesskey	"T">
-<!ENTITY showTaskbarCmd.label		"ステータスバー">
-<!ENTITY showTaskbarCmd.accesskey	"u">
-
-<!ENTITY closeCmd.label			"閉じる">
-<!ENTITY closeCmd.key			"W">
-<!ENTITY closeCmd.accesskey		"C">
+<!ENTITY fileMenu.label "ファイル">
+<!ENTITY fileMenu.accesskey "F">
+<!ENTITY newMenu.label "新規作成">
+<!ENTITY newMenu.accesskey "N">
+<!ENTITY editMenu.label "編集">
+<!ENTITY editMenu.accesskey "E">
+<!ENTITY undoCmd.label "@@Undo@@">
+<!ENTITY undoCmd.accesskey "U">
+<!ENTITY redoCmd.label "@@Redo@@">
+<!ENTITY redoCmd.accesskey "R">
+<!ENTITY deleteCmd.label "削除">
+<!ENTITY deleteCmd.accesskey "D">
+<!ENTITY customizeCmd.label "カスタマイズ">
+<!ENTITY customizeCmd.accesskey "t">
+<!ENTITY viewMenu.label "表示">
+<!ENTITY viewMenu.accesskey "V">
+<!ENTITY viewToolbarsMenu.label "ツールバー">
+<!ENTITY viewToolbarsMenu.accesskey "T">
+<!ENTITY showTaskbarCmd.label "ステータスバー">
+<!ENTITY showTaskbarCmd.accesskey "u">
+<!ENTITY closeCmd.label "閉じる">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "C">

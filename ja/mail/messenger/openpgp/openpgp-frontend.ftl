@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     そのため、メッセージの内容を傍受するために通信途中で書き換えられているおそれがあります。
     この危険性を回避するため、メッセージの内容は表示されません。
 openpgp-cannot-decrypt-because-missing-key = このメッセージの復号のために必要な鍵は利用できません。
-openpgp-partially-signed =
-    このメッセージの一部のみが OpenPGP によってデジタル署名されています。
-    検証ボタンをクリックすると、保護されていない部分が隠され、デジタル署名の状態が表示されます。
 openpgp-partially-encrypted =
     このメッセージの一部のみが OpenPGP によって暗号化されています。
     すでに表示されているメッセージの可読部分は暗号化されていません。
     復号ボタンをクリックすると、暗号化された部分の内容が表示されます。
-openpgp-reminder-partial-display = 注意: 以下に表示されているメッセージは元のメッセージの一部のみです。
-openpgp-partial-verify-button = 検証
 openpgp-partial-decrypt-button = 復号
 openpgp-unexpected-key-for-you = 警告: このメッセージにあなたのメールアドレスを参照する未知の OpenPGP 鍵が含まれています。これがあなた自身の鍵でない場合は、他の通信相手を騙そうとしている可能性があります。

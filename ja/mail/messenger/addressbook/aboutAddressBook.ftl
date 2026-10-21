@@ -6,8 +6,6 @@ about-addressbook-title = アドレス帳
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = @@New-CMD@@アドレス帳
 about-addressbook-toolbar-add-address-book =
     .label = ローカルアドレス帳を追加
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = @@New-CMD@@連絡先
     .title = @@New-CMD@@連絡先を作成します
 books-pane-add-book-button =
     .title = アドレス帳を追加します
-books-pane-create-book-button =
-    .title = @@New-CMD@@アドレス帳を作成します
 books-pane-create-list-button =
     .title = @@New-CMD@@アドレスリストを作成します
 books-pane-import-button = @@ImportNoun@@

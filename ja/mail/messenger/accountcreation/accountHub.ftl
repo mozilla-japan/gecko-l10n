@@ -56,14 +56,7 @@ account-hub-email-connect-button = 接続
 account-hub-result-incoming-legend = 受信
 account-hub-result-outgoing-legend = 送信
 account-hub-all-servers-legend = 全サーバー
-account-hub-incoming-server-legend = 受信サーバー
-account-hub-outgoing-server-legend = 送信サーバー
-account-hub-result-incoming-server-legend = 受信サーバー
-    .title = 受信サーバー
-account-hub-result-outgoing-server-legend = 送信サーバー
-    .title = 送信サーバー
 account-hub-protocol-label = プロトコル
-account-hub-hostname-label = ホスト名
 account-hub-result-hostname-label = ホスト名
     .title = ホスト名
 account-hub-result-socket-type-label = 接続の保護
@@ -101,10 +94,6 @@ account-hub-result-auth-external = External
 account-hub-result-auth-oauth2 = OAuth2
     .title = OAuth2
 account-hub-on-port-label = ポート番号
-account-hub-result-authentication-label = 認証
-    .title = 認証
-account-hub-port-label = ポート番号
-    .title = 自動検出するにはポート番号を 0 に設定してください
 account-hub-auto-description = 空欄にすると { -brand-short-name } が自動検出を試みます。
 account-hub-ssl-label = 接続の保護
 
@@ -112,8 +101,6 @@ account-hub-ssl-label = 接続の保護
 
 account-hub-ssl-autodetect-option =
     .label = 自動検出
-account-hub-ssl-no-authentication-option =
-    .label = 認証なし
 account-hub-ssl-cleartext-password-option =
     .label = 通常のパスワード認証
 account-hub-ssl-encrypted-password-option =
@@ -278,7 +265,6 @@ account-hub-email-exchange-settings = Exchange 設定
 account-hub-email-connect-settings = メール設定と接続します
 account-hub-email-protocol-select-header = メールアカウントの種類を選んでください
 account-hub-email-protocol-select-additional-info = このアカウントをセットアップするには追加の情報が必要です。
-account-hub-email-config-found = メールアカウントの種類を選んでください
 account-hub-email-enter-password = メールアカウントのパスワードを入力してください
 account-hub-email-sync-accounts = カレンダーとアドレス帳を同期する
 account-hub-test-configuration = テスト
@@ -305,7 +291,6 @@ account-hub-config-success-description-guess = アカウント設定が、一般
 account-hub-config-success-description-disk = アカウント設定が { -brand-short-name } のインストールフォルダーから見つかりました。
 account-hub-config-success-description-isp = アカウント設定がメールプロバイダーから見つかりました。
 account-hub-config-success-description-read-more = <a data-l10n-name="automated-setup-link">メールアカウントのセットアップの自動化についての記事</a> をお読みください。
-account-hub-config-success = アカウント設定が Mozilla ISPDB から見つかりました
 account-hub-password-info = あなたの認証情報はローカルのあなたのコンピューターにのみ保存されます
 account-hub-creating-account = アカウントを作成しています...
 account-hub-sync-accounts-found = { -brand-short-name } が接続されたサービスを見つけました
@@ -332,10 +317,8 @@ account-hub-username-error-text = ユーザー名が必要です
 account-hub-manual-config-error-summary = 以下のエラーを解決してください:
 account-hub-oauth-pending = ログインのポップアップ画面で認証を待機しています...
 account-hub-addon-install-button = インストール
-account-hub-addon-install-needed = { -brand-short-name } 本体はこのサーバーに対応していません。Exchange メールにアクセスするには <a data-l10n-name="addon-install">Owl (有料) などサードパーティ製のアドオンをインストールしてください</a>。
 account-hub-addon-error = アドオンのインストールに失敗しました。もう一度試すか、アドオンの作者に問い合わせてください。
 account-hub-select-security-warning = <span data-l10n-name="error-text">警告: 安全でないメールサーバーが検知されました。</span> このサーバーとの接続は暗号化されておらず、パスワードとデータが漏洩する危険性があります。安全な接続を行うように端末の管理者に伝えるか、危険性を承知の上で進んでください。<a data-l10n-name="error-link">詳細は FAQ をご覧ください。</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">警告: 安全でないメールサーバーが検知されました。</span> このサーバーとの接続は暗号化されておらず、パスワードとデータが漏洩する危険性があります。安全な接続を行うように端末の管理者に伝えるか、危険性を承知の上で進んでください。<a data-l10n-name="faq-link">詳細は FAQ をご覧ください。</a>
 account-hub-account-authentication-error = 認証エラー
 account-hub-add-address-book = アドレス帳を追加
 address-book-sync-existing-icon =
@@ -361,7 +344,6 @@ address-book-add-ldap = @@New-CMD@@ LDAP アドレス帳
 address-book-add-ldap-description = リモートの LDAP アドレス帳に接続します
 # $addressBooks (Number) - The number of address books that can be synced from existing accounts.
 account-hub-address-book-sync-books-data = { $addressBooks } 冊のアドレス帳が利用できます
-account-hub-fetching-sync-accounts = アドレス帳とカレンダーを探索します
 address-book-sync-existing-description = 既存のアカウントを取得しています...
 account-hub-select-address-book-account = アドレス帳を持つアカウントを選択してください
 # $synced (Number) - The number of address books that are synced.
