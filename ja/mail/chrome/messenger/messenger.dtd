@@ -50,8 +50,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "A">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "現在のアカウント">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd2.label "次のニュース記事を受信">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "未送信メッセージを送信">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "購読...">
@@ -61,8 +59,6 @@
 <!ENTITY renameFolder.label "フォルダー名を変更...">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "フォルダーを最適化">
-<!ENTITY compactFolders.accesskey "F">
 <!ENTITY emptyTrashCmd.label "@@TrashFolder@@を空にする">
 <!ENTITY emptyTrashCmd.accesskey "y">
 <!ENTITY offlineMenu.label "オフライン">
@@ -131,10 +127,6 @@
 <!ENTITY allFolders.accesskey "A">
 <!ENTITY unreadFolders.label "未読フォルダー">
 <!ENTITY unreadFolders.accesskey "U">
-<!ENTITY favoriteFolders.label "お気に入りフォルダー">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "最近使用したフォルダー">
-<!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "コンパクトビュー">
 <!ENTITY compactVersion.accesskey "C">
 <!-- Sort Menu -->
@@ -156,8 +148,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "タグ">
 <!ENTITY sortByTagsCmd.accesskey "g">
-<!ENTITY sortByJunkStatusCmd.label "迷惑マーク">
-<!ENTITY sortByJunkStatusCmd.accesskey "J">
 <!ENTITY sortBySubjectCmd.label "件名">
 <!ENTITY sortBySubjectCmd.accesskey "b">
 <!ENTITY sortByFromCmd.label "差出人">
@@ -245,7 +235,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "メッセージを検索...">
 <!ENTITY searchMailCmd.accesskey "M">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "グローバル検索...">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "アドレスを検索...">
@@ -336,17 +325,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "メッセージからフィルターを作成...">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "別のフォルダーに移動"><!-- contextMoveMsgMenu.label と同じ動作 -->
-<!ENTITY moveMsgToMenu.accesskey "M">
-<!ENTITY moveCopyMsgRecentMenu.label "使用履歴">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY copyMessageLocation.label "メッセージの場所をコピー">
-<!ENTITY copyMessageLocation.accesskey "M">
-<!ENTITY copyMsgToMenu.label "別のフォルダーにコピー"><!-- contextCopyMsgMenu.label と同じ動作 -->
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "前回と同じフォルダーに移動"><!-- messenger.properties/moveToFolderAgain.label に置き換わる -->
-<!ENTITY moveToFolderAgain.accesskey "i">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "スレッドを無視">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -358,16 +336,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "タグ">
 <!ENTITY tagMenu.accesskey "g">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "マーク">
 <!ENTITY markMenu.accesskey "k">
 <!ENTITY toggleReadCmd.key "m">
@@ -387,14 +355,6 @@
 <!ENTITY markStarredCmd.label "スターを付ける">
 <!ENTITY markStarredCmd.accesskey "S">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "迷惑マークを付ける">
-<!ENTITY markAsJunkCmd.accesskey "J">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "迷惑マークを解除">
-<!ENTITY markAsNotJunkCmd.accesskey "N">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "迷惑メールフィルターを実行">
-<!ENTITY recalculateJunkScoreCmd.accesskey "C">
 <!ENTITY openMessageWindowCmd.label "メッセージを開く">
 <!ENTITY openMessageWindowCmd.accesskey "O">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -443,10 +403,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "u">
 <!ENTITY filtersApplyToMessage.label "メッセージにフィルターを適用">
 <!ENTITY filtersApplyToMessage.accesskey "u">
-<!ENTITY runJunkControls.label "迷惑メールフィルターを実行"><!-- (^^; "フォルダーに" 削除 -->
-<!ENTITY runJunkControls.accesskey "C">
-<!ENTITY deleteJunk.label "迷惑マークの付いたメールを削除">
-<!ENTITY deleteJunk.accesskey "D">
 <!ENTITY importCmd.label "設定とデータ@@-ImportCMD@@...">
 <!ENTITY importCmd.accesskey "m">
 <!ENTITY exportCmd.label "@@Export@@...">
@@ -493,7 +449,6 @@
 <!ENTITY printButton.label "@@Print@@">
 <!ENTITY stopButton.label "停止">
 <!ENTITY throbberItem.title "アクティブインジケーター">
-<!ENTITY junkItem.title "迷惑メール">
 <!ENTITY addressBookButton.label "アドレス帳">
 <!ENTITY chatButton.label "チャット">
 <!ENTITY glodaSearch.title "グローバル検索">
@@ -555,11 +510,6 @@
 <!ENTITY appmenuNewContactCmd.label "アドレス帳の連絡先...">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "ツールバーのカスタマイズ...">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "@@New-CMD@@タグ...">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "タグを管理...">
-<!ENTITY manageTags.accesskey "M">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "名前">
 <!ENTITY folderUnreadColumn.label "未読数">
@@ -582,12 +532,8 @@
 <!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "削除">
 <!ENTITY folderContextRemove.accesskey "D">
-<!ENTITY folderContextCompact.label "最適化">
-<!ENTITY folderContextCompact.accesskey "C">
 <!ENTITY folderContextEmptyTrash.label "@@TrashFolder@@を空にする">
 <!ENTITY folderContextEmptyTrash.accesskey "y">
-<!ENTITY folderContextEmptyJunk.label "迷惑メールフォルダーを空にする">
-<!ENTITY folderContextEmptyJunk.accesskey "J">
 <!ENTITY folderContextSendUnsentMessages.label "未送信メッセージを送信">
 <!ENTITY folderContextSendUnsentMessages.accesskey "d">
 <!ENTITY folderContextUnsubscribe.label "購読を解除">
@@ -630,7 +576,6 @@
 <!ENTITY accountColumn.label "アカウント">
 <!ENTITY statusColumn.label "状態">
 <!ENTITY sizeColumn.label "サイズ">
-<!ENTITY junkStatusColumn.label "迷惑マーク">
 <!ENTITY unreadColumn.label "未読">
 <!ENTITY totalColumn.label "合計">
 <!ENTITY readColumn.label "既読">
@@ -654,7 +599,6 @@
 <!ENTITY accountColumn2.tooltip "アカウントで並べ替えます">
 <!ENTITY statusColumn2.tooltip "状態で並べ替えます">
 <!ENTITY sizeColumn2.tooltip "サイズで並べ替えます">
-<!ENTITY junkStatusColumn2.tooltip "迷惑マークの有無で並べ替えます">
 <!ENTITY unreadColumn2.tooltip "スレッドの未読メッセージ数">
 <!ENTITY totalColumn2.tooltip "スレッドの合計メッセージ数">
 <!ENTITY readColumn2.tooltip "既読かどうかで並べ替えます">
@@ -693,16 +637,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "メーリングリストに返信">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextMoveMsgMenu.label "メッセージを移動">
-<!ENTITY contextMoveMsgMenu.accesskey "M">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "最近使用">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "使用履歴">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "お気に入り">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "メッセージをコピー">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "スレッドを無視">
 <!ENTITY contextKillThreadMenu.accesskey "I">
 <!ENTITY contextKillSubthreadMenu.label "サブスレッドを無視">

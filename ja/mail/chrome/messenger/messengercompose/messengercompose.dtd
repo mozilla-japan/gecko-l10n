@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "迷った">
 <!ENTITY smiley8Cmd.label "びっくり">
 <!ENTITY smiley9Cmd.label "キス">
-<!ENTITY smiley10Cmd.label "エール">
 <!ENTITY smiley11Cmd.label "クール">
 <!ENTITY smiley12Cmd.label "きもち悪い">
 <!ENTITY smiley13Cmd.label "しまった">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "A">
 <!ENTITY attachPage.label "ウェブページを添付...">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "添付ペインを初めから表示する">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "辞書を追加...">
 <!ENTITY spellAddDictionaries.accesskey "A">

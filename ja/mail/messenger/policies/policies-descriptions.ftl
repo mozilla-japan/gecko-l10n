@@ -94,10 +94,8 @@ policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去
 policy-SearchEngines = 検索エンジンの設定を指示します。このポリシーは延長サポート版 (ESR) のみ有効です。
 policy-SearchSuggestEnabled = 検索候補の表示機能を有効または無効にします。
 policy-SecurityDevices2 = PKCS #11 モジュールを追加または削除します。
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = PKCS #11 モジュールをインストールします。
-policy-SSLVersionMax = SSL の最高バージョンを設定します。
-policy-SSLVersionMin = SSL の最低バージョンを設定します。
+policy-SSLVersionMax = SSL の最大バージョンを設定します。
+policy-SSLVersionMin = SSL の最小バージョンを設定します。
 policy-SupportMenu = ヘルプメニューにカスタムサポートメニューを追加します。
 policy-UserMessaging = 特定のメッセージをユーザーに表示しません。
 # “format” refers to the format used for the value of this policy.

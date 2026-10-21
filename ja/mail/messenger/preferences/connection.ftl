@@ -2,19 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = 使用するプロバイダー
-    .accesskey = r
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (@@Default@@)
-    .tooltiptext = DNS over HTTPS の解決に@@Default-@@ URL を使用します
-connection-dns-over-https-url-custom =
-    .label = URL を指定
-    .accesskey = C
-    .tooltiptext = DNS over HTTPS の解決に使用する URL を入力します
-connection-dns-over-https-custom-label = URL を指定:
-connection-dialog-title = インターネット接続
+connection-dialog-title = 接続設定
 disable-extension-button = 拡張機能を無効化
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
@@ -106,6 +94,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = SOCKS v5 を使用するときは DNS もプロキシーを使用する
     .accesskey = d
-proxy-enable-doh =
-    .label = DNS over HTTPS を有効にする
-    .accesskey = b

@@ -23,15 +23,6 @@ search-bar-placeholder-search-shortcut =
 # The goal is to convey to the user that typing in the box will filter the
 # messages and that there is a hotkey they can press to get to the box faster.
 search-bar-placeholder-with-key = 検索... { search-bar-placeholder-search-shortcut }
-search-bar-placeholder = 検索...
-# Search bar placeholder with formatted key shortcut hint (platform dependent).
-# The key after the control modifier should match the key from quickSearchCmd.key
-# in messenger.dtd.
-search-bar-placeholder-with-key2 =
-    { PLATFORM() ->
-        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
-       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
-    }
 
 ## Unified toolbar context menu
 
