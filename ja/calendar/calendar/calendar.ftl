@@ -651,14 +651,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = { $name } のみを表示
     .accesskey = O
-show-calendar-label =
-    .label = { $name } を表示
-hide-calendar-label =
-    .label = { $name } を隠す
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = { $name } のみを表示
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = 項目変更の競合
