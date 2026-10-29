@@ -92,9 +92,6 @@ home-prefs-crossword-widget-header =
 # Finance is a widget on New Tab that shows stock ticker prices.
 home-prefs-stocks-header2 =
     .label = 金融情報
-# Stocks is a widget on New Tab that shows stock ticker prices.
-home-prefs-stocks-header =
-    .label = 株価情報
 # Picture of the day is a widget on New Tab that shows a daily Wikimedia Commons image.
 home-prefs-picture-header =
     .label = 今日の一枚
@@ -166,12 +163,6 @@ home-prefs-mission-message-learn-more-link-srd = 支援の詳細情報
 
 # Context menu item linking to more information about the Privacy widget.
 newtab-privacy-menu-learn-more = 詳細情報
-# "Privacy options" is an icon-only button in the widget toolbar — the
-# attributes are consumed as tooltip/screen-reader label only. The button
-# never renders visible text.
-newtab-privacy-widget-menu-button =
-    .title = プライバシーオプション
-    .aria-label = プライバシーオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-privacy-widget-open-menu-button =
@@ -317,12 +308,6 @@ newtab-stocks-error-not-available = 株価データが利用できません。
 newtab-stocks-widget-open-menu-button2 =
     .title = 金融情報メニューを開く
     .aria-label = 金融情報メニューを開く
-# "Stocks widget options" is an icon-only button in the widget toolbar — the
-# attributes are consumed as tooltip/screen-reader label only. The button
-# never renders visible text.
-newtab-stocks-widget-menu-button =
-    .title = 株価情報ウィジェットのオプション
-    .aria-label = 株価情報ウィジェットのオプション
 # Toolbar button that opens the stock search. It shows only the icon until it is
 # hovered or focused, then the .label as well; "Search" is a verb. .title and
 # .aria-label name it for tooltips and screen readers.
@@ -340,9 +325,6 @@ newtab-stocks-watchlist-empty-search =
     .label = 検索
     .title = 企業名または銘柄コードで検索します
     .aria-label = 企業名または銘柄コードで検索
-# Accessible name for the Stocks widget; hidden because the list dropdown is
-# shown in place of the title.
-newtab-stocks-widget-title = 株価情報
 # "Markets" is the default list of market ETFs. The value is shown in the menu,
 # and .label is shown on the button that opens it.
 newtab-stocks-list-markets = 株式市場
@@ -459,11 +441,6 @@ newtab-picture-attribution-source-link = Wikimedia Commons
 # $license (string) - the name of the license.
 newtab-picture-attribution-license =
     .aria-label = { $license } ライセンスを表示
-# Tooltip and screen-reader label for the icon-only button that opens the
-# widget's context menu. The button never renders visible text.
-newtab-picture-widget-menu-button =
-    .title = 今日の一枚のオプション
-    .aria-label = 今日の一枚のオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-picture-widget-open-menu-button =
@@ -576,6 +553,11 @@ newtab-travel-widget-open-menu-button =
     .aria-label = 旅行のメニューを開く
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = 詳細情報
+
+## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
+## can play solitaire, a card game for one player, also known as patience.
+## Game displays within an iframe with name “Yahoo Solitaire”
+
 
 ## Strings for the navigable panels that new tab content area can be
 ## split into.
@@ -876,8 +858,6 @@ newtab-custom-widget-crossword-toggle =
 # Finance is a widget on New Tab that shows stock ticker prices.
 newtab-custom-widget-stocks-toggle2 =
     .label = 金融情報
-newtab-custom-widget-stocks-toggle =
-    .label = 株価情報
 newtab-custom-widget-picture-toggle =
     .label = 今日の一枚
 newtab-custom-widget-search-toggle =
@@ -1392,9 +1372,6 @@ newtab-widget-lists-input-menu-edit2 =
 newtab-widget-lists-edit-clear =
     .aria-label = キャンセル
     .title = キャンセル
-# Lists is a noun, as in "options for the lists"
-newtab-widget-lists-menu-button =
-    .aria-label = リストのオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 # Lists is a noun, as in "the menu for your lists".
@@ -1486,8 +1463,6 @@ newtab-widget-timer-reset =
 newtab-widget-timer-menu-notifications = 通知をオフにする
 newtab-widget-timer-menu-notifications-on = 通知をオンにする
 newtab-widget-timer-menu-learn-more = 詳細情報
-newtab-widget-timer-menu-button =
-    .aria-label = タイマーのオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-widget-timer-open-menu-button =
@@ -1607,8 +1582,6 @@ newtab-sports-widget-show-less =
 # Toggle that filters the list of teams the user follows
 newtab-sports-widget-followed-only-toggle =
     .label = フォローしたチームのみ
-# Status shown when more matches are being fetched.
-newtab-sports-widget-loading-more = 試合をさらに読み込んでいます...
 # Watch is a verb (as in watch matches online).
 newtab-sports-widget-watch =
     .label = 観戦
@@ -1688,9 +1661,6 @@ newtab-sports-widget-third-place = 3 位
 newtab-sports-widget-runner-up = 準優勝
 newtab-sports-widget-champions = 優勝
 newtab-sports-widget-world-cup-champions = 2026 ワールドカップ優勝者
-# Compact champions label for the medium-size widget result card; the larger
-# card uses newtab-sports-widget-world-cup-champions.
-newtab-sports-widget-world-cup-champions-short = 2026 優勝者
 # Variables:
 #   $date (Date) - The match start time
 newtab-sports-widget-match-time = { DATETIME($date, hour: "2-digit", minute: "2-digit") }
@@ -1798,15 +1768,6 @@ newtab-sports-widget-message-day-in-play-body = ワールドカップをフォ�
 newtab-sports-widget-message-explore-widgets-cta =
     .label = ウィジェットを探す
 
-## Survey prompts shown after the World Cup to gather feedback on the widgets experience.
-
-newtab-sports-widget-message-survey-title = ウィジェットの改善にご協力ください
-newtab-sports-widget-message-survey-body = ワールドカップウィジェットのまとめです。使用した感想を共有してください。
-newtab-sports-widget-message-survey-widget-title = ワールドカップウィジェットはどうでしたか？
-newtab-sports-widget-message-survey-widget-body = お寄せいただいたフィードバックは将来のウィジェットの改善に役立てられます。新しいウィジェットが追加されるかもしれません。
-newtab-sports-widget-message-survey-cta =
-    .label = アンケートに答える
-
 ## Strings for activation window message variants. In certain experiment configurations,
 ## the strings from these variants may be displayed in a message below the search input
 ## for the first 48 hours of a new profile's lifetime. Some messages include buttons with
@@ -1848,6 +1809,9 @@ newtab-clock-widget-menu-edit = 時計を編集
 newtab-clock-widget-menu-switch-to-12h = 12 時間形式に切り替え
 newtab-clock-widget-menu-switch-to-24h = 24 時間形式に切り替え
 newtab-clock-widget-label-your-clocks = あなたの時計
+newtab-clock-widget-search-location-input2 =
+    .placeholder = 都市を検索します
+    .aria-label = 都市を検索します
 newtab-clock-widget-search-location-input =
     .label = 場所
     .placeholder = 都市を検索します
@@ -1919,12 +1883,6 @@ newtab-clock-widget-custom-zone-results =
 newtab-clock-widget-custom-zone-no-results = 一致するタイムゾーンがありません
 # Returns from the custom clock form back to the city search.
 newtab-clock-widget-custom-back = 戻る
-# "Clock options" is an icon-only button in the widget toolbar — the
-# attributes are consumed as tooltip/screen-reader label only. The button
-# never renders visible text.
-newtab-clock-widget-menu-button2 =
-    .title = 時計のオプション
-    .aria-label = 時計のオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-clock-widget-open-menu-button =
