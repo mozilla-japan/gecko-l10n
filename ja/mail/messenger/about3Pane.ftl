@@ -532,3 +532,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = すべてのフォルダーを最適化
     .accesskey = F
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = フォルダーの削除
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = フォルダーを削除(&D)
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = 本当にこのフォルダーを削除してもよろしいですか: '{ $name }'
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = この { $name } フォルダーを削除すると、その中のすべてのメッセージとサブフォルダーが削除され、取り消すことはできません。本当にこのフォルダーを削除してもよろしいですか？
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = { $name } フォルダーを削除すると関連付けられたフィルターが無効になります。本当にこのフォルダーを削除しますか？
