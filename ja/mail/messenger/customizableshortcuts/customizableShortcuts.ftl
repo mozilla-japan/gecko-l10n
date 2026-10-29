@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = 閉じる
+shortcuts-close-button =
+    .title = 閉じる
+    .aria-label = 閉じる
