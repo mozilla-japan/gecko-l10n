@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = 例外サイト
+remote-content-permissions-title = 例外設定 - リモートコンテンツ
+remote-content-permissions-description = 画像や他のリモートコンテンツの読み込みを許可するウェブサイトを指定してください。送信者のメールアドレスを基準にすべてのリモートコンテンツの読み込みを許可することもできます。例外設定するウェブサイトアドレスまたはメールアドレスを入力し、@@[@@不許可@@]@@ または @@[@@許可@@]@@ ボタンをクリックしてください。
+cookie-permissions-title = Cookie フィルター
+cookie-permissions-description = Cookie の使用をサイトごとに許可できます。個別に設定するサイトの正確なアドレスを入力して @@[@@不許可@@]@@、@@[@@現在のセッションのみ@@]@@、@@[@@許可@@]@@ のいずれかをクリックしてください。
 website-address-label =
     .value = サイトのアドレス:
     .accesskey = d

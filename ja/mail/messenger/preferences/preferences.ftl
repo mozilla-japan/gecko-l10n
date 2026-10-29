@@ -230,6 +230,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = 音声を選択...
     .accesskey = A
+sound-file-picker-title = 通知音ファイルを選択してください
 enable-global-search-label =
     .label = 全メールアカウント対象のグローバル検索をオンにする
     .accesskey = e
@@ -245,10 +246,17 @@ mail-browse-sound-button =
 enable-gloda-search-label =
     .label = グローバル検索と索引データベースを有効にする
     .accesskey = G
-gloda-show-results-as-list-label =
-    .label = @@Default@@でグローバル検索の結果をリスト表示する
-    .accesskey = L
 datetime-formatting-legend = 日付と時刻の書式
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = @@Application@@の言語: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = 地域設定の言語: { $localeName }
+    .accesskey = e
 display-language-legend = 表示言語
 allow-graphics-accel =
     .label = グラフィックアクセラレーションを使用する (滑らかなスクロールとパフォーマンス向上)
@@ -382,6 +390,13 @@ offline-settings-button =
     .label = オフライン設定...
     .accesskey = O
 temporary-storage-legend = 一時ストレージ
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = キャッシュはディスク領域の { $size } { $unit } を使用しています
+actual-disk-cache-size-calculating =
+    .value = キャッシュサイズを計算しています...
 offline-compact-remove-deleted =
     .label = すでに削除されているデータをフォルダーから除去してストレージ領域を解放します
     .accesskey = a
@@ -474,6 +489,47 @@ search-handler-table =
     .placeholder = ファイルの種類と動作設定の絞り込み
 type-column-header = ファイルの種類
 action-column-header = 動作設定
+download-folder-desktop = デスクトップ
+download-folder-system = ダウンロード
+download-choose-folder-title = 添付ファイルの保存先を選択:
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } ファイル
+applications-save-file = ファイルを保存する
+    .label = ファイルを保存する
+    .tooltiptext = ファイルを保存する
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } で開く
+    .label = { $appName } で開く
+    .tooltiptext = { $appName } で開く
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } で開く (標準設定)
+    .label = { $appName } で開く (標準設定)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = 他の@@Application@@を選択...
+    .tooltiptext = 他の@@Application@@を選択...
+applications-choose-app-title = @@Application@@の選択
+applications-manage-app =
+    .label = @@Application@@の管理...
+applications-always-ask = 毎回確認する
+    .label = 毎回確認する
+    .tooltiptext = 毎回確認する
+applications-delete-action =
+    .label = 動作設定を削除する
+applications-delete-action-title = 動作設定の削除
+applications-delete-action-confirm = 本当にこの動作設定を削除してもよろしいですか？
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = { -brand-short-name } でプレビュー
+    .label = { -brand-short-name } でプレビュー
+    .tooltiptext = { -brand-short-name } でプレビュー
 save-to-label =
     .label = 次のフォルダーに保存する:
     .accesskey = S
@@ -764,11 +820,6 @@ edit-directories-label =
 email-picker-label =
     .label = メール送信時に受信者を次のアドレス帳に自動で追加する:
     .accesskey = A
-email-picker-description = 送信したメールからの@@New-CMD@@連絡先の保存場所
-default-add-address-book-label =
-    .value = 手動で追加した連絡先の@@Default-@@アドレス帳:
-    .accesskey = D
-default-add-address-book-description = 受信したメールからの@@New-CMD@@連絡先の保存場所
 default-directory-label =
     .value = アドレス帳の初期表示ディレクトリー:
     .accesskey = S
@@ -799,6 +850,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = 他のプロバイダーを検索...
 cloud-account-description = @@New-CMD@@ Filelink ストレージサービスを追加してください。
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } を追加
+    .tooltiptext = { $providerName } を追加
+filelink-account-not-configured =
+    .title = このアカウントはまだ設定されていません
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = 本当に "{ $accountName }" アカウントを削除してもよろしいですか？
 
 ## Privacy Tab
 
@@ -810,7 +871,6 @@ exceptions-button =
     .label = 例外...
     .accesskey = E
 remote-content-privacy-link = リモートコンテンツがプライバシーに及ぼす影響について
-remote-content-privacy-info = リモートコンテンツのプライバシーに係わる問題について
 remote-content-info =
     .value = リモートコンテンツのプライバシーに係わる問題について
 web-content = ウェブコンテンツ
@@ -897,7 +957,6 @@ spam-detected-auto-label =
 spam-log-keep-label =
     .label = 迷惑メール自動検出の記録を保存する
     .accesskey = E
-
 spam-read-manual-label =
     .label = 手動で迷惑マークを付けたとき
     .accesskey = M
@@ -913,6 +972,8 @@ spam-log-button =
 reset-spam-button =
     .label = 判別基準データをリセット
     .accesskey = R
+confirm-reset-junk-training-title = 判別基準データ消去の確認
+confirm-reset-junk-training-message = 本当に学習フィルターの判別基準データをリセットしますか？
 scam-detection-description = { -brand-short-name } がメッセージに詐欺リンクやよくあるメール詐欺のサインが含まれていないか確認します。
 scam-detection-label =
     .label = 詐欺メールのように見えるメールを読むときに警告する
@@ -1092,7 +1153,7 @@ idle-label =
     .accesskey = I
 idle-time-label = 分間続いたらそれを相手に知らせる
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = さらに次のステータスメッセージを送信して離席状態にする:
@@ -1168,6 +1229,18 @@ search-preferences-input2 =
     .placeholder = 設定内を検索します
 managed-by-organization-notice = { -brand-short-name } は所属組織により管理されています。
 managed-notice = { -brand-short-name } はあなたの所属組織により管理されています。
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = @@Default@@
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hi! :-)
+chat-theme-preview-message-2 = What’s up?
+chat-theme-preview-message-3 = I’m trying { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
