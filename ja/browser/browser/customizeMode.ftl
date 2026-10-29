@@ -38,3 +38,13 @@ customize-mode-touchbar-cmd =
     .label = タッチバーをカスタマイズ...
 customize-mode-downloads-button-autohide =
     .label = 履歴がないときはボタンを隠す
+
+
+## Labels for the special items that can be added to toolbars in customize mode
+
+customize-mode-toolbarspring =
+    .title = 伸縮自在のスペース
+customize-mode-toolbarseparator =
+    .title = 区切り
+customize-mode-toolbarspacer =
+    .title = スペース

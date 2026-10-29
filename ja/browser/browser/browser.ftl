@@ -1121,7 +1121,8 @@ repair-text-encoding-button =
     .label = テキストエンコーディングを修復
     .tooltiptext = ページの内容から正しいテキストエンコーディングを推測します
 
-##
+## Variables:
+##  $shortcut (String): keyboard shortcut to perform the action
 
 # Variables:
 #  $shortcut (String): keyboard shortcut to open settings (only on macOS)
@@ -1184,6 +1185,40 @@ toolbar-button-share-tab =
 toolbar-button-tab-groups =
     .label = タブグループ
     .tooltiptext = タブグループを表示します
+toolbar-button-history =
+    .label = 履歴
+    .tooltiptext = 履歴を表示します ({ $shortcut })
+toolbar-button-find =
+    .label = 検索
+    .tooltiptext = このページを検索します ({ $shortcut })
+toolbar-button-developer =
+    .label = 開発ツール
+    .tooltiptext = ウェブ開発ツールを開きます ({ $shortcut })
+toolbar-button-forget =
+    .label = 忘れる
+    .tooltiptext = 直前の閲覧履歴を消去します
+toolbar-zoom-controls =
+    .label = @@Zoom@@
+    .title = @@Zoom@@
+toolbar-button-zoom-out =
+    .label = 縮小
+    .tooltiptext = 縮小 ({ $shortcut })
+toolbar-button-zoom-reset-tooltip = 拡大／縮小をリセット ({ $shortcut })
+toolbar-button-zoom-in =
+    .label = 拡大
+    .tooltiptext = 拡大 ({ $shortcut })
+toolbar-edit-controls =
+    .label = 編集メニュー
+    .title = 編集メニュー
+toolbar-button-cut =
+    .label = @@Cut@@
+    .tooltiptext = @@Cut@@ ({ $shortcut })
+toolbar-button-copy =
+    .label = コピー
+    .tooltiptext = コピー ({ $shortcut })
+toolbar-button-paste =
+    .label = @@Paste@@
+    .tooltiptext = @@Paste@@ ({ $shortcut })
 
 ## Default filenames used when saving a QR code. The file extension (.png)
 ## is added automatically.
@@ -1200,6 +1235,33 @@ eme-notifications-drm-content-playing-manage = 設定を管理
 eme-notifications-drm-content-playing-manage-accesskey = M
 eme-notifications-drm-content-playing-dismiss = 閉じる
 eme-notifications-drm-content-playing-dismiss-accesskey = D
+
+## Notification bars for media playback issues
+
+eme-notifications-drm-content-disabled-message = このページの音声や動画を再生するには DRM を有効にする必要があります。
+eme-notifications-drm-content-disabled-button =
+    .label = DRM を有効にする
+    .accesskey = E
+eme-notifications-drm-content-cdm-installing-message = このページの音声や映像の再生に必要なコンポーネントをインストールしています。後で試してください。
+decoder-doctor-no-codecs-linux-message = 動画を再生するには、対応する動画コーデックをインストールしてください。
+decoder-doctor-no-hw-acceleration-message = Microsoft Media Feature Pack をインストールすると、動画の再生品質が向上します。
+decoder-doctor-no-pulse-audio-message = 音声を再生するには、PulseAudio をインストールしてください。
+decoder-doctor-unsupported-libavcodec-message = libavcodec に脆弱性があるかサポートされていません。動画を再生するには libavcodec を更新してください。
+decoder-doctor-decode-error-message = メディアリソースのデコード中にエラーが発生しました。
+decoder-doctor-decode-warning-message = メディアリソースのデコード中に復旧可能なエラーが発生しました。
+decoder-doctor-learn-how-link = 利用方法
+decoder-doctor-report-issue-button =
+    .label = サイトの問題を報告
+    .accesskey = R
+# Variables:
+#   $pluginName (String) - The name of the media plugin that crashed (for example, “Widevine Content Decryption Module”).
+plugin-crashed-notification-message = { $pluginName } プラグインがクラッシュしました。
+plugin-crashed-notification-reload-button =
+    .label = ページを再読み込み
+    .accesskey = R
+plugin-crashed-notification-submit-button =
+    .label = クラッシュレポートを送信
+    .accesskey = S
 
 ## Password save/update panel
 
