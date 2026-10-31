@@ -35,6 +35,19 @@ downloads-cmd-show-menuitem-2 =
            *[other] 保存フォルダーを開く
         }
     .accesskey = F
+# Displayed when a complete download which is not at the original folder.
+downloads-file-moved-or-missing = ファイルが移動したか見つかりません
+# Displayed when a downloaded file has been deleted by the browser,
+# e.g. by the "Delete" context menu item.
+downloads-file-deleted = ファイルを削除しました
+# Displayed when a download was blocked for safety reasons and the blocked file
+# data was subsequently deleted at the user's request.
+downloads-file-blocked-and-deleted = ファイルを破棄しました (ブロック)
+# Variables:
+#   $size (String) - The size number, for example "1.5".
+#   $unit (String) - The measurement unit, for example "MB".
+downloads-size-with-units = { $size } { $unit }
+downloads-size-unknown = サイズ不明
 
 ## Displayed in the downloads context menu for files that can be opened.
 ## Variables:
@@ -237,3 +250,78 @@ downloads-error-generic =
     原因不明のエラーが発生したためダウンロードファイルを保存できませんでした。
     
     再度試してください。
+
+## Download states, displayed in the status line of each download in the
+## Downloads Panel and the Downloads View.
+
+downloads-state-starting = 開始しました...
+downloads-state-failed = 失敗しました
+downloads-state-paused = 中断しています
+downloads-state-canceled = キャンセルされました
+downloads-state-completed = 完了しました
+# Indicates that the download was blocked by the Parental Controls feature of
+# Windows. "Parental Controls" should be consistently named and capitalized
+# with the display of this feature in Windows.
+downloads-state-blocked-parental-controls = 保護者による制限によりブロックされました
+
+## These strings are shown in the status line and in the details sub-panel
+## for some types of blocked downloads.
+
+downloads-blocked-malware = このファイルはウイルスやマルウェアが含まれています。
+downloads-blocked-potentially-unwanted = このファイルはあなたのコンピューターに害を及ぼします。
+downloads-blocked-potentially-insecure = 潜在的なセキュリティ問題により、このファイルはダウンロードされませんでした。
+downloads-blocked-uncommon = このファイルを開くのは危険です。
+downloads-blocked-by-content-analysis = このファイルは所属組織によりブロックされました。
+downloads-warned-by-content-analysis = このダウンロードは安全でない可能性があるため確認が必要です。
+
+## Displayed when a download is blocked because of an error with the
+## data-loss prevention (DLP) software used by the organization.
+## Variables:
+##   $agent (String) - The name of the DLP agent.
+
+downloads-content-analysis-no-agent-error = { $agent } が到達できなかったため、このファイルはブロックされました。
+downloads-content-analysis-invalid-agent-signature-error = { $agent } が署名の検証に失敗したため、このファイルはブロックされました。
+downloads-content-analysis-unspecified-error = { $agent } との通信でエラーが発生したため、このファイルはブロックされました。
+downloads-content-analysis-timeout-error = { $agent } がタイムアウトしたため、このファイルはブロックされました。
+
+## These strings are displayed in the dialog shown when the user asks a blocked
+## download to be unblocked, and in the details sub-panel of the Downloads
+## Panel. The severity of the threat is expressed in descending order by the
+## downloads-unblock-type-* strings, it is higher for files detected as malware
+## and lower for uncommon downloads.
+
+downloads-unblock-header-unblock = このファイルのダウンロードを許可しますか？
+downloads-unblock-header-open = このファイルを開きますか？
+downloads-unblock-type-malware = このファイルにはウイルスやマルウェアが含まれており、あなたのコンピューターに害を及ぼします。
+downloads-unblock-type-potentially-unwanted = このファイルは有用に見えるよう偽装しており、あなたのプログラムや設定を予期せず変更することがあります。
+downloads-unblock-type-content-analysis-warn = 所属組織が使用しているデータ損失防止ソフトウェアにより、このコンテンツに安全でないフラグが付けられています
+downloads-unblock-type-uncommon = このファイルは、一般的にはダウンロードされることがないファイルです。ウイルスが含まれていたり、プログラムや設定が予期せず変更される可能性があります。
+downloads-unblock-insecure = 現在のドキュメントには安全な HTTPS 接続が使用されましたが、ダウンロードが HTTP 接続で提供されています。続行すると、ダウンロードデータが破損するかダウンロード処理中に改竄される恐れがあります。
+downloads-unblock-tip = 代わりのダウンロード元を検索するか、後で試してください。
+downloads-unblock-content-analysis-warn-tip = それでもダウンロードすることができます。
+downloads-unblock-content-analysis-blocked = 所属組織が使用しているデータ損失防止ソフトウェアにより、このダウンロードがブロックされています。
+downloads-unblock-content-analysis-override = この判定は所属組織にしか上書きできません。
+downloads-unblock-content-analysis-tip = ダウンロードを続けるかキャンセルしてください。
+downloads-unblock-button-open =
+    .label = 開く
+downloads-unblock-button-unblock =
+    .label = ダウンロードを許可
+downloads-unblock-button-confirm-block =
+    .label = ファイルを削除
+
+## These strings define templates for the separation of different elements in
+## the status line of a download item. As a separator, by default we use the
+## Unicode character U+2014 'EM DASH' (long dash). Examples of status lines
+## include "Canceled — 222.net", "1.1 MB — website2.com", or "Paused —  1.1 MB".
+## Note that we use a wider space after the separator when it is followed by a
+## number, just to avoid visually confusing it with a minus sign with some
+## fonts. If you use a different separator, this might not be necessary.
+## However, there is usually no need to change the separator or the order of
+## the substitutions, even for right-to-left languages, unless the defaults are
+## not suitable.
+## Variables:
+##   $start (String) - The text before the separator.
+##   $end (String) - The text after the separator.
+
+downloads-status-separator = { $start } — { $end }
+downloads-status-separator-before-number = { $start } — { $end }

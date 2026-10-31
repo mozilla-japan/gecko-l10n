@@ -335,6 +335,8 @@ release-notes-addon-button = リリースノート
 permissions-addon-button = 権限
 extension-enabled-heading = 有効
 extension-disabled-heading = 無効
+theme-disabled-heading3 =
+    .heading = 保存されたテーマ
 theme-enabled-heading = 有効
 theme-disabled-heading2 = 保存されたテーマ
 plugin-enabled-heading = 有効
@@ -446,6 +448,8 @@ addon-permissions-learnmore = 権限についての詳細情報
 # the user.
 addon-permissions-managed-by-policy = 一部の権限はあなたの所属組織に管理されています。
 recommended-extensions-heading = おすすめの拡張機能
+recommended-themes-card-heading =
+    .heading = おすすめのテーマ
 recommended-themes-heading = おすすめのテーマ
 # Variables:
 #   $hostname (string) - Host where the permissions are granted
