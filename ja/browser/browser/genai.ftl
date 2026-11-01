@@ -260,7 +260,7 @@ link-preview-settings-long-press =
     .label = リンク先プレビューのショートカットを有効にする (リンクを 1 秒以上長押し)
 highlight-to-search-settings-enable =
     .label = テキスト選択時にアクションメニューを表示する
-    .description = Get quick access to helpful actions when you select content.
+    .description = コンテンツ選択時に役立つアクションへのクイックアクセスを提供します。
 # $provider (string) - name of the AI chatbot provider
 highlight-to-search-settings-ask-provider =
     .label = { $provider } に尋ねる
