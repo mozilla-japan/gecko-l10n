@@ -293,10 +293,16 @@ fxsrc | devtools, dom, toolkit   816ea3e8 (2026-09-25)  mar          sync devtoo
 fxsrc | browser                  816ea3e8 (2026-09-25)  mar          sync browser
 tbsrc | mail, calendar           ed4e5dd4 (2026-10-01)  mar          sync mail, calendar
 
-^---Released!
 
 [l10n-mozilla-159.0]
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | browser, dom, toolkit    2d5e7eb1 (2026-10-16)  mar          sync browser, dom, toolkit
+
+^---Released!
+
+[l10n-mozilla-160.0]
+repo  | target dir               gh-rev   (pushdate)    by           comment
+-------------------------------------------------------------------------------------
+fxsrc | browser, dom, toolkit    0e1a4ee7 (2026-10-30)  mar          sync browser, dom, toolkit
 

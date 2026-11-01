@@ -23,6 +23,9 @@ narrate-skip-next =
 
 # Header for the read aloud menu.
 narrate-header = 読み上げ
+narrate-rate-input =
+    .title = 速度
+    .aria-label = ナレーションの速さを -100 から 100 の間で選んでください。0 が@@Default@@の速さです。
 narrate-rate-slow =
     .title = ナレーションを遅くする
 narrate-rate-fast =

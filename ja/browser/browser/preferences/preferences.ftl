@@ -345,6 +345,8 @@ website-language-heading =
     .description = 一部のウェブサイトは複数の言語で表示されています。優先的に表示する言語の順序を指定してください。
 website-preferred-language =
     .label = 優先言語
+website-language-list =
+    .aria-label = 優先言語
 website-add-language =
     .label = 言語を追加
 website-add-language-button =
@@ -804,6 +806,8 @@ home-homepage-custom-homepage-button =
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
 home-custom-homepage-card-header =
     .label = ウェブサイトのアドレス
+home-custom-homepage-list =
+    .aria-label = ウェブサイトのアドレス
 home-custom-homepage-address =
     .placeholder = アドレスを入力してください
 home-custom-homepage-address-button =
@@ -937,6 +941,8 @@ search-one-click-desc = キーワードの入力開始時にアドレスバー�
 search-one-click-header-3 =
     .label = 追加の検索エンジン
     .description = アドレスバーに表示する検索エンジンまたはショートカットを選んでください。
+search-engine-list =
+    .aria-label = 検索エンジンとショートカット
 update-search-engine-success =
     .message = 検索エンジンの更新が完了しました
 search-edit-engine-2 =
@@ -1000,6 +1006,8 @@ containers-card-header2 =
 containers-add-button2 =
     .label = @@New-CMD@@コンテナーを追加
     .accesskey = A
+containers-list =
+    .aria-label = コンテナー
 containers-new-tab-check3 =
     .label = @@NewTab@@を開くコンテナーを毎回選択する
     .accesskey = S
@@ -1402,6 +1410,10 @@ autofill-payment-methods-manage-payments-button =
     .label = 支払い方法を管理
     .accesskey = m
 # This operation requires the user to authenticate with the operating system (device sign-in)
+autofill-payment-methods-require-device-sign-in-checkbox =
+    .label = 自動入力時に端末のログイン情報を要求する
+    .accesskey = o
+# This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox-2 =
     .label = 支払い方法の自動入力と管理に端末のログイン情報を要求する
     .accesskey = o
@@ -1476,6 +1488,28 @@ preferences-passwords-autofill-header =
 payment-moz-box-item =
     .label = { $cardNumber }
     .description = { $expDate }
+# Used in place of payment-moz-box-item when a security code is saved alongside
+# the card. Only the presence of a saved security code is ever shown, never the
+# code itself: "•••" stands for the hidden code, so keep it as is rather than
+# translating it into words.
+# Variables:
+#   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
+#   $expDate (string) - The obscured expiry date of the credit card (for example: XX/2027)
+#   $securityCode (string) - The name of the card's security code, which depends
+#     on the card network (for example: CVV)
+payment-moz-box-item-with-security-code-2 =
+    .label = { $cardNumber }
+    .description = { $expDate } | { $securityCode } •••
+# Used in place of payment-moz-box-item-with-security-code-2 for a card that has
+# a saved security code but no expiry date to show alongside it. "•••" stands for
+# the hidden code.
+# Variables:
+#   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
+#   $securityCode (string) - The name of the card's security code, which depends
+#     on the card network (for example: CVV)
+payment-moz-box-item-security-code-only-2 =
+    .label = { $cardNumber }
+    .description = { $securityCode } •••
 # Used in place of payment-moz-box-item when a security code is saved alongside
 # the card. Only the presence of a saved security code is ever shown, never the
 # code itself. "CVV" is a common abbreviation for the security code printed on a
@@ -1581,10 +1615,10 @@ sitedata-option-block-all-cross-site-cookies =
 sitedata-option-block-all =
     .label = すべての Cookie (ウェブサイトが動作しなくなります)
 sitedata-clear2 =
-    .label = ブラウジングデータを消去
+    .label = 閲覧データを消去
     .accesskey = l
 sitedata-settings2 =
-    .label = ブラウジングデータを管理
+    .label = 閲覧データを管理
     .accesskey = M
 sitedata-cookies-exceptions =
     .label = 例外を管理...
@@ -1594,7 +1628,7 @@ sitedata-cookies-exceptions2 =
     .accesskey = x
     .description = Cookie とサイトデータの使用を常に許可するウェブサイトと今後許可しないウェブサイトを指定できます。
 sitedata-heading =
-    .label = ブラウジングデータ
+    .label = 閲覧データ
     .description = Cookie および履歴、キャッシュ、ウェブサイトデータ、その他の情報を管理します。
 sitedata-settings3 =
     .label = 特定のサイトのデータを消去
@@ -1835,6 +1869,58 @@ permissions-data-section =
     .heading = 許可設定とデータ
 pane-permissions-data-title2 = 許可設定とデータ
     .title = 許可設定とデータ
+notifications-section-header =
+    .heading = 通知
+notifications-entry-card-header =
+    .label = 通知
+    .description = 通知を送信できるウェブサイトを選択し、その通知をどのように表示するかを選んでください。
+# Variables:
+#   $count (number) - Number of websites with a stored notification decision,
+#                     always one or more. The zero case is a separate message,
+#                     notifications-entry-manage-button-empty.
+notifications-entry-manage-button =
+    .label = 通知の設定を管理
+    .description = { $count } サイト
+# Replaces notifications-entry-manage-button when no website has a stored
+# notification decision. It deliberately carries no description: the empty
+# state is stated on the Notifications page rather than on this row.
+notifications-entry-manage-button-empty =
+    .label = ウェブサイト通知の設定を管理
+notifications-website-card-header =
+    .label = ウェブサイト通知
+    .description = ウェブサイトが通知をどのように送信できるか選んでください。
+notifications-filter =
+    .placeholder = ウェブサイトを検索します
+# Heading of the website column in the list of websites and their notification
+# state, shown when the list has rows.
+notifications-list-header =
+    .label = ウェブサイト
+# Heading of the state column in the list of websites and their notification
+# state, shown when the list has rows.
+notifications-list-header-state = 通知を許可
+# Heading of the list of websites when it has no rows, because no website has a
+# stored notification decision or a search matches no website.
+notifications-list-header-empty =
+    .label = ウェブサイト
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications". "Always" is used where notifications can
+# also be delivered while Firefox is closed.
+notifications-state-always = 常に許可する
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications". "Allow" is used where notifications
+# cannot be delivered while Firefox is closed.
+notifications-state-allow = 許可する
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications", for websites blocked from sending
+# notifications.
+notifications-state-never = 許可しない
+# Shown as a row under the list header when no website has a stored
+# notification decision.
+notifications-empty-message =
+    .label = ウェブサイト通知が追加されていません。
+# Shown as a row under the list header when a search matches no website.
+notifications-no-results-message =
+    .label = 検索と一致するウェブサイト通知はありません。
 
 ## Privacy Section - Data Collection
 

@@ -12,7 +12,8 @@ set-desktop-background-downloading =
     .label = 写真を保存しています...
 set-background-preview-unavailable = プレビューは利用できません
 # Name of the file that will be used as the desktop background. The
-# extension ".bmp" is added by the system.
+# extension ".png" is added by the browser.
+# (^m^) 英語のまま
 set-desktop-background-filename = Desktop Background
 # This refers to the wallpaper "spanning" multiple monitors when the
 # user has more than one. Only some of the entire image will be on

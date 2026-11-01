@@ -8,7 +8,7 @@ sanitize-prefs2 =
 sanitize-prefs-style =
     .style = width: 17em
 sanitize-dialog-title2 =
-    .title = ブラウジングデータと Cookie を消去
+    .title = 閲覧データと Cookie を消去
     .style = min-width: 34em
 sanitize-dialog-title =
     .title = 最近の履歴を消去
@@ -23,7 +23,7 @@ sanitize-dialog-title-everything =
 # on shutdown context, which saves preferences rather than deleting anything.
 # Keep the .style in sync with it.
 sanitize-dialog-delete-title =
-    .title = ブラウジングデータを削除
+    .title = 閲覧データを削除
     .style = min-width: 34em
 clear-data-settings-label = { -brand-short-name } の終了時には次のデータを自動消去する
 sanitize-on-shutdown-description = { -brand-short-name } の終了時にチェックを入れたすべてのアイテムを自動消去します。
@@ -54,6 +54,8 @@ clear-time-duration-value-since-midnight =
     .label = { $midnightTime } 以降の履歴
 clear-time-duration-value-today =
     .label = 今日の履歴
+clear-time-duration-value-all-time =
+    .label = すべての履歴
 clear-time-duration-value-everything =
     .label = すべての履歴
 clear-time-duration-suffix =
@@ -63,6 +65,11 @@ clear-time-duration-suffix =
 ## to select the items to remove
 
 history-section-label = 履歴
+item-history-and-downloads2 =
+    .label = 表示したページとダウンロードの履歴
+    .accesskey = B
+# Description for the "Browsing and downloads history" item, which can be selected for deletion
+item-history-and-downloads-description3 = 訪れたページとダウンロードの一覧
 item-history-and-downloads =
     .label = 表示したページとダウンロードの履歴
     .accesskey = B
@@ -79,6 +86,8 @@ item-cookies-site-data-with-size =
 item-cookies-site-data =
     .label = Cookie とサイトデータ
     .accesskey = e
+# Description for the "Cookies and site data" item, which can be selected for deletion
+item-cookies-site-data-description2 = サイトからログアウトし、買い物かごが空になることがあります
 item-cookies-site-data-description = サイトからログアウトしたり買い物かごが空になることがあります
 item-active-logins =
     .label = 現在のログイン情報
@@ -86,6 +95,17 @@ item-active-logins =
 item-cache =
     .label = キャッシュ
     .accesskey = a
+# Variables:
+#   $amount (Number) - Amount of cached data
+#   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
+item-cached-content-with-size2 =
+    .label = 一時ファイル ({ $amount } { $unit })
+    .accesskey = f
+item-cached-content2 =
+    .label = 一時ファイル
+    .accesskey = f
+# Description for the "Temporary files" item, which can be selected for deletion
+item-cached-content-description2 = サイトの読み込みが速くなります
 # Variables:
 #   $amount (Number) - Amount of cached data
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
@@ -105,6 +125,10 @@ item-site-prefs =
 item-formdata-prefs =
     .label = 保存されたフォームの入力履歴
     .accesskey = o
+# Description for the "Saved form info" item, which can be selected for deletion
+item-formdata-description2 = 氏名、メールアドレス、フォームのエントリー
+# Description for the "Site settings" item, which can be selected for deletion
+item-site-prefs-description2 = ウェブサイトの許可設定とサイト設定
 item-formdata-description = フォームに入力した名前やメールアドレス、その他の項目の履歴を消去します
 item-site-prefs-description = 変更した許可設定とサイト設定を元の設定にリセットします
 data-section-label = データ
@@ -114,6 +138,7 @@ item-site-settings =
 item-offline-apps =
     .label = ウェブサイトのオフライン作業用データ
     .accesskey = O
+sanitize-everything-undo-warning2 = これは元に戻せません。
 sanitize-everything-undo-warning = この操作は取り消せません。
 window-close =
     .key = w

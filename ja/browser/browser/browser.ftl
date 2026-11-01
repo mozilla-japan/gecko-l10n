@@ -251,6 +251,9 @@ urlbar-split-view-button =
 urlbar-menuitem-paste-and-go =
     .label = @@Paste-si@@て移動
     .accesskey = G
+urlbar-menuitem-paste-and-search =
+    .label =  @@Paste-si@@て検索
+    .accesskey = S
 
 ## Searchbar context menu
 
@@ -1158,13 +1161,9 @@ qrcode-image =
     .aria-label = QR コード
 qrcode-close-button =
     .aria-label = 閉じる
-# Variables:
-#  $shortcut (String): keyboard shortcut to save a copy of the page
 toolbar-button-save-page =
     .label = ページを保存
     .tooltiptext = このページを保存します ({ $shortcut })
-# Variables:
-#  $shortcut (String): keyboard shortcut to open a local file
 toolbar-button-open-file =
     .label = ファイルを開く
     .tooltiptext = ファイルを開きます ({ $shortcut })
@@ -1174,8 +1173,6 @@ toolbar-button-synced-tabs =
 toolbar-button-send-tab =
     .label = タブを送信
     .tooltiptext = 現在のタブを別の端末へ送信します
-# Variables
-# $shortcut (string) - Keyboard shortcut to open a new private browsing window
 toolbar-button-new-private-window =
     .label = @@New-CMD@@プライベート@@Window@@
     .tooltiptext = @@New-CMD@@プライベートブラウジング@@Window@@を開きます ({ $shortcut })
@@ -1202,11 +1199,11 @@ toolbar-zoom-controls =
     .title = @@Zoom@@
 toolbar-button-zoom-out =
     .label = 縮小
-    .tooltiptext = 縮小 ({ $shortcut })
-toolbar-button-zoom-reset-tooltip = 拡大／縮小をリセット ({ $shortcut })
+    .tooltiptext = 表示を縮小します ({ $shortcut })
+toolbar-button-zoom-reset-tooltip = @@Zoom@@をリセットします ({ $shortcut })
 toolbar-button-zoom-in =
     .label = 拡大
-    .tooltiptext = 拡大 ({ $shortcut })
+    .tooltiptext = 表示を拡大します ({ $shortcut })
 toolbar-edit-controls =
     .label = 編集メニュー
     .title = 編集メニュー
@@ -1447,6 +1444,7 @@ unified-extensions-button-blocklisted =
 ## Private browsing reset button
 
 reset-pbm-panel-heading2 = データを消去して新しいプライベートセッションを開始しますか？
+reset-pbm-panel-description3 = これは履歴と Cookie を消去し、ウェブサイトからログアウトします。プライベート@@Window@@を一旦閉じて開き直します。
 reset-pbm-panel-description2 = これはプライベート@@Window@@を閉じずに、履歴、Cookie、その他すべてのサイトデータを削除します。
 reset-pbm-panel-always-ask-checkbox =
     .label = 常に確認する
@@ -1466,9 +1464,9 @@ reset-pbm-toolbar-button2 =
 ## opens a new one.
 
 fire-button-toolbar-button =
-    .label = ブラウジングデータの一部またはすべてを削除
-    .tooltiptext = ブラウジングデータの一部またはすべてを削除します
-fire-button-panel-heading = すべてのブラウジングデータを削除しますか？
+    .label = 閲覧データの一部またはすべてを削除
+    .tooltiptext = 閲覧データの一部またはすべてを削除します
+fire-button-panel-heading = すべての閲覧データを削除しますか？
 fire-button-panel-description = この操作は履歴、Cookie、サイトデータを削除し、ウェブサイトからログアウトします。この@@Window@@が閉じられ、{ -brand-short-name } が@@NewWindow@@を開きます。
 fire-button-panel-choose-description = 削除したくないデータがある場合は、そのデータの種類を選んでください。
 # Opens the "Delete browsing data" dialog, where the user picks
@@ -1481,7 +1479,10 @@ fire-button-panel-cancel-button =
 fire-button-panel-confirm-button =
     .label = すべて削除
     .accesskey = D
-fire-button-panel-complete = ブラウジングデータを削除しました
+fire-button-panel-complete = 閲覧データを削除しました
+fire-button-toolbar-button2 =
+    .label = 閲覧データの一部またはすべてを削除
+    .tooltiptext = 閲覧データの一部またはすべてを削除します
 
 ## Autorefresh blocker
 

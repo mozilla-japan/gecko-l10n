@@ -17,6 +17,7 @@ customkeys-reset-all = すべてのショートカットを初期設定にリセ
 customkeys-conflict-confirm = このキーはすでに { $conflict } に割り当てられています。別のキーに割り当て直しますか？
 customkeys-reset-all-confirm = 本当にすべてのキーボードショートカットを初期設定にリセットしてもよろしいですか？
 customkeys-file-duplicate-tab = タブを複製
+customkeys-file-copy-tab-url = タブの URL をコピー
 customkeys-file-focus-search = 検索バーを選択
 customkeys-history-reopen-tab = 最後に閉じたタブを開き直す
 customkeys-history-reopen-window = 最後に閉じた@@Window@@を開き直す
@@ -83,6 +84,16 @@ customkeys-key-new =
     .label = @@New-CMD@@キーを入力:
 # Displayed below the action label (e.g. "Undo") when the shortcut cannot be changed.
 customkeys-key-unchangeable = (変更不可)
+# Displayed below the action label (e.g. "Undo") when the user has assigned the
+# shortcut in the operating system's keyboard settings (System Settings on
+# macOS). That shortcut is used instead of any shortcut set here, and it can't
+# be changed here. Translate "keyboard settings" the way the operating system
+# names these settings in your language. "set" here means "assigned".
+customkeys-key-system-assigned =
+    { PLATFORM() ->
+        [macos] (macOS のキーボード設定で割り当て)
+       *[other] (システムのキーボード設定で割り当て)
+    }
 
 ## Confirmation dialogs
 

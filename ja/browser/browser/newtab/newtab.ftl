@@ -510,9 +510,6 @@ newtab-recent-searches-row-remove =
 
 # Widget heading; also the widget's accessible name.
 newtab-search-widget-title = 検索
-# Screen reader label for the widget's icon-only menu button.
-newtab-search-widget-menu-button =
-    .aria-label = 検索オプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-search-widget-open-menu-button =
@@ -540,6 +537,9 @@ newtab-horoscopes-widget-menu-button =
     .aria-label = 星座占いのオプション
 # Context menu item linking to more information about the widget.
 newtab-horoscopes-menu-learn-more = 詳細情報
+# Context menu item linking to the Yahoo website, the provider of the
+# horoscopes. “Yahoo” is a brand name and should not be translated.
+newtab-horoscopes-menu-powered-by-yahoo = Powered by Yahoo
 
 ## Strings for the Travel widget
 
@@ -553,11 +553,23 @@ newtab-travel-widget-open-menu-button =
     .aria-label = 旅行のメニューを開く
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = 詳細情報
+# Context menu item linking to the Kayak website, the provider of the
+# travel search. “Kayak” is a brand name and should not be translated.
+newtab-travel-menu-powered-by-kayak = Powered by Kayak
 
 ## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
 ## can play solitaire, a card game for one player, also known as patience.
 ## Game displays within an iframe with name “Yahoo Solitaire”
 
+# Widget heading; also the widget's accessible name.
+newtab-solitaire-widget-title = ソリティア
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-solitaire-widget-open-menu-button =
+    .title = ソリティアのメニューを開きます
+    .aria-label = ソリティアのメニューを開く
+# Context menu item linking to more information about the widget.
+newtab-solitaire-menu-learn-more = 詳細情報
 
 ## Strings for the navigable panels that new tab content area can be
 ## split into.
@@ -778,6 +790,9 @@ newtab-discovery-empty-section-topstories-header = すべて既読です！
 newtab-discovery-empty-section-topstories-content = また後で戻っておすすめ記事をチェックしてください。
 newtab-discovery-empty-section-topstories-try-again-button = 再試行
 newtab-discovery-empty-section-topstories-loading = 読み込み中...
+# Headline and body shown when stories fail to load, for example when offline or the server can’t be reached.
+newtab-discovery-empty-section-topstories-unavailable-header = 現在ストーリーが利用できません
+newtab-discovery-empty-section-topstories-unavailable-body = 接続を確認するか、後でもう一度試してください。
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = おおっと、このセクションはほぼ読み込みましたが、完全ではありません。
 
@@ -868,6 +883,11 @@ newtab-custom-widget-horoscopes-toggle =
 # and car rentals.
 newtab-custom-widget-travel-toggle =
     .label = 旅行
+# Solitaire is a widget on New Tab where you can play solitaire, a card game
+# for one player, also known as patience.
+# Game displays within an iframe with name “Yahoo Solitaire”
+newtab-custom-widget-solitaire-toggle =
+    .label = ソリティア
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -1069,6 +1089,9 @@ newtab-wallpaper-firefox-peak-dark = 暗い背景の左端から顔を出して�
 newtab-wallpaper-firefox-peak-light = 明るい背景の左端から顔を出しているキツネ
 newtab-wallpaper-firefox-sky-dark = 夜空の下の暗い紫色の丘
 newtab-wallpaper-firefox-sky-light = おだやかな空の下の明るい丘
+# “Wrexham AFC” is the name of a football club and should not be translated.
+# "crest" refers to the football club's logo (team badge).
+newtab-wallpaper-firefox-wrexham = 赤色の背景に Wrexham AFC のチームクレスト
 
 ## Firefox
 
@@ -1101,6 +1124,14 @@ newtab-weather-menu-change-location = 予報地点を変更
 newtab-weather-change-location-search-input-placeholder =
     .placeholder = 場所を検索します
     .aria-label = 場所を検索
+# "Back" is an icon-only button next to the location search field that returns to the widget.
+newtab-weather-search-back-button =
+    .title = 戻ります
+    .aria-label = 戻る
+# Screen reader label for the dropdown below the location search field that
+# lists matching locations as the user types.
+newtab-weather-location-search-results =
+    .aria-label = 場所の提案
 newtab-weather-cancel-input =
     .title = キャンセルします
     .aria-label = キャンセル
@@ -1371,7 +1402,7 @@ newtab-widget-lists-input-menu-edit2 =
     .aria-label = アイテムを編集
 newtab-widget-lists-edit-clear =
     .aria-label = キャンセル
-    .title = キャンセル
+    .title = キャンセルします
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 # Lists is a noun, as in "the menu for your lists".
@@ -1500,6 +1531,9 @@ newtab-promo-card-dismiss-button =
 newtab-crossword-widget-open-menu-button =
     .title = クロスワードのメニューを開きます
     .aria-label = クロスワードのメニューを開く
+# Context menu item linking to the Particle website, the provider of the
+# crossword. “Particle” is a brand name and should not be translated.
+newtab-crossword-menu-powered-by-particle = Powered by Particle
 
 ## Strings introduced by the Nova redesign of the Timer widget
 
@@ -1809,6 +1843,10 @@ newtab-clock-widget-menu-edit = 時計を編集
 newtab-clock-widget-menu-switch-to-12h = 12 時間形式に切り替え
 newtab-clock-widget-menu-switch-to-24h = 24 時間形式に切り替え
 newtab-clock-widget-label-your-clocks = あなたの時計
+# "Back" is an icon-only button next to the city search field form that returns to the list of clocks.
+newtab-clock-widget-search-back-button =
+    .title = 戻ります
+    .aria-label = 戻る
 newtab-clock-widget-search-location-input2 =
     .placeholder = 都市を検索します
     .aria-label = 都市を検索します
