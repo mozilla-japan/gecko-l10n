@@ -19,15 +19,15 @@ downloads-panel =
 downloads-panel-items =
     .style = width: 35em
 downloads-cmd-pause =
-    .label = 中断
+    .label = 一時停止
     .accesskey = P
 downloads-cmd-resume =
     .label = 再開
     .accesskey = R
 downloads-cmd-cancel =
-    .tooltiptext = キャンセル
+    .tooltiptext = 中断
 downloads-cmd-cancel-panel =
-    .aria-label = キャンセル
+    .aria-label = 中断
 downloads-cmd-show-menuitem-2 =
     .label =
         { PLATFORM() ->
@@ -182,7 +182,7 @@ downloads-retry-download =
 # Displayed when hovering a download which is able to be cancelled by users,
 # indicates that it's possible to cancel and stop the download.
 downloads-cancel-download =
-    .value = ダウンロードをキャンセル
+    .value = ダウンロードを中断
 # This string is shown at the bottom of the Downloads Panel when all the
 # downloads fit in the available space, or when there are no downloads in
 # the panel at all.
@@ -223,7 +223,7 @@ downloads-blocked-download-detailed-info = { $url } は複数のファイルを�
 
 downloads-clear-downloads-button =
     .label = ダウンロード履歴を消去
-    .tooltiptext = 完了、キャンセル、失敗したすべてのダウンロード履歴を消去します
+    .tooltiptext = 完了、中断、失敗したすべてのダウンロード履歴を消去します
 # This string is shown when there are no items in the Downloads view, when it
 # is displayed inside a browser tab.
 downloads-list-empty =
@@ -256,8 +256,8 @@ downloads-error-generic =
 
 downloads-state-starting = 開始しました...
 downloads-state-failed = 失敗しました
-downloads-state-paused = 中断しています
-downloads-state-canceled = キャンセルされました
+downloads-state-paused = 一時停止しています
+downloads-state-canceled = 中断しました
 downloads-state-completed = 完了しました
 # Indicates that the download was blocked by the Parental Controls feature of
 # Windows. "Parental Controls" should be consistently named and capitalized
@@ -301,7 +301,7 @@ downloads-unblock-tip = 代わりのダウンロード元を検索するか、�
 downloads-unblock-content-analysis-warn-tip = それでもダウンロードすることができます。
 downloads-unblock-content-analysis-blocked = 所属組織が使用しているデータ損失防止ソフトウェアにより、このダウンロードがブロックされています。
 downloads-unblock-content-analysis-override = この判定は所属組織にしか上書きできません。
-downloads-unblock-content-analysis-tip = ダウンロードを続けるかキャンセルしてください。
+downloads-unblock-content-analysis-tip = ダウンロードを続けるか中断してください。
 downloads-unblock-button-open =
     .label = 開く
 downloads-unblock-button-unblock =

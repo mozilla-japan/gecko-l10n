@@ -29,7 +29,6 @@ ipprotection-feature-introduction-link-text-2 = 新たな <a data-l10n-name="lea
 ipprotection-feature-introduction-title-privacy = プライバシーの別のレイヤーを追加
 ipprotection-feature-introduction-title-privacy-1 = 組み込み VPN でプライバシーの別のレイヤーを追加
 ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } の組み込み VPN</a> はブラウジングの保護に役立ちます。いくつかの場所から選んで接続元のプライバシーを維持しましょう。
-ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } の組み込み VPN</a> はブラウジングの保護に役立ちます。複数の場所から選んで接続元のプライバシーを維持しましょう。
 ipprotection-feature-introduction-link-text-privacy-3 = ブラウジングの接続元を隠す場所を複数から選んで <a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> しましょう。
 # Used for multiple discovery callouts after release of the site inclusions feature
 ipprotection-feature-introduction-description-inclusions = 現在位置を隠してブラウジングの <a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> しましょう。特定のサイトで VPN をオンまたはオフに設定できます。
@@ -38,6 +37,8 @@ ipprotection-feature-introduction-title-summer-promo = 旅行の予定を立て�
 ipprotection-feature-introduction-description-summer-promo = { -brand-product-name } の組み込み VPN でその先へ。8 月末まで、帯域制限なしでさらに多くの接続場所を選択可能です。
 ipprotection-feature-introduction-link-text-private-browsing-2 = 新たな <a data-l10n-name="learn-more-vpn">組み込み VPN</a> を利用すると、プライベート@@Window@@であっても、あなたの現在位置を隠してユーザーデータを保護します。
 ipprotection-feature-introduction-description-private-browsing = プライベート@@Window@@であっても、ユーザーの現在位置を隠してブラウジングのプライバシー保護を強化します。
+# Alternate version of the feature discovery callout copy used after we've released site inclusions for the VPN. Users have the option to turn the VPN on for specific sites only
+ipprotection-feature-introduction-description-private-browsing-3 = 閲覧時の現在位置を隠します。プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにするルールを設定し、そうでないサイトではオフに設定してください。
 # Alternate version of the feature discovery callout copy used after we've released site inclusions for the VPN. Users have the option to turn the VPN on for specific sites only
 ipprotection-feature-introduction-description-private-browsing-1 = 現在位置を隠してブラウジングの <a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> しましょう。プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにするルールを設定し、そうでないサイトではオフに設定できます。
 ipprotection-feature-introduction-title-captive-portal = 公衆 Wi-Fi なら { -brand-product-name } の組み込み VPN を試してください。
@@ -116,6 +117,7 @@ ipprotection-android-promo-callout-primary-button = 了解
 ipprotection-site-inclusions-callout-title-existing-users = 組み込み VPN のルールを設定してブラウジング
 ipprotection-site-inclusions-callout-title-lapsed-users = 組み込み VPN をサイトごとに試せます
 ipprotection-site-inclusions-callout-description-1 = プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにして、そうでないサイトではオフに設定できます。
+ipprotection-site-inclusions-callout-description-lapsed-users = プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにするルールを設定し、そうでないサイトではオフに設定してください。
 ipprotection-site-inclusions-callout-description = プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにして、そうでないサイトではオフに設定できます。
 ipprotection-site-inclusions-callout-primary-button = ルールを設定
 ipprotection-site-inclusions-callout-secondary-button-existing-users = 後で
@@ -123,8 +125,10 @@ ipprotection-site-inclusions-callout-secondary-button-lapsed-users = 閉じる
 
 ## Holiday Promotion Callout
 
+ipprotection-holiday-promo-description = 組み込み VPN でブラウジングのプライバシーを保護して追跡を困難にします。
 ipprotection-holiday-promo-primary-button = VPN を開く
 ipprotection-holiday-promo-secondary-button = 閉じる
+ipprotection-holiday-promo-title-1 = 1 月 31 日まで無制限の VPN を入手
 
 ## Panel
 
@@ -168,6 +172,8 @@ ipprotection-button-turn-vpn-off = VPN をオフにする
 # a page from an excluded site.
 ipprotection-button-turn-vpn-off-excluded-site = すべてのサイトで VPN をオフにする
 # Button to turn on the VPN
+ipprotection-button-turn-vpn-on-1 = オンにする
+# Button to turn on the VPN
 ipprotection-button-turn-vpn-on = VPN をオンにする
 # Button while VPN is connecting
 ipprotection-button-connecting = オンにしています...
@@ -179,6 +185,8 @@ ipprotection-connection-status-excluded-1 = このサイトでは VPN オフ
     .aria-label = このサイトでは VPN オフ
 ipprotection-connection-status-connecting-1 = VPN に接続しています...
     .aria-label = VPN に接続しています...
+# Button to turn off the VPN
+ipprotection-button-turn-vpn-off-1 = オフにする
 
 ## Location controls
 
@@ -246,6 +254,7 @@ ipprotection-message-continuous-onboarding-intro = VPN をオンにしてあな�
 ipprotection-message-continuous-onboarding-autostart = <a data-l10n-name="setting-link">VPN をオンに設定</a> すると、{ -brand-short-name } の起動時に追加の保護レイヤーが適用されます。
 ipprotection-message-continuous-onboarding-site-settings = VPN を利用するウェブサイトを { -brand-short-name } に記憶させましょう。これらはいつでも <a data-l10n-name="setting-link">設定</a> で変更できます。
 confirmation-hint-ipprotection-navigated-to-excluded-site = このサイトでは VPN がオフです
+confirmation-hint-ipprotection-navigated-to-included-site = このサイトでは VPN がオンです
 ipprotection-open-button = { -brand-product-name } を開く
 ipprotection-come-back-title = もう一度、組み込み VPN を試しませんか？
 ipprotection-message-body-hide-location = { -brand-product-name } の接続元を隠してプライバシー保護とコントロールを強化します。
@@ -452,5 +461,7 @@ vpn-error-page-keep-browsing = このセッションのブラウジングを維�
 vpn-error-page-new-session = @@New-CMD@@セッションを開始する
 vpn-paused-alert-close-tabs-button = すべてのタブを閉じる
 vpn-paused-alert-continue-wo-vpn-button = VPN 無しで続ける
+vpn-error-alert-title-1 = VPN とルールは現在動作していません。
+vpn-error-alert-body-1 = VPN のオンとオフを切り替えると問題を解決できるかもしれません。
 vpn-error-alert-title = VPN は現在動作していません。
 vpn-error-alert-body = 後でもう一度試してください。

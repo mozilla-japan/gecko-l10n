@@ -142,6 +142,12 @@ permissions-site-notification-desc = 次のウェブサイトがユーザーへ�
 permissions-site-notification-disable-label =
     .label = 通知の許可の要求をブロックする
 permissions-site-notification-disable-desc = 上記以外のウェブサイトは、通知の許可を要求させないようにします。通知をブロックすると、一部のウェブサイトが機能しなくなる可能性があります。
+# Shown only where notifications can be delivered while the browser is closed.
+permissions-site-notification-closed-delivery-label =
+    .label = { -brand-short-name } が閉じているときにウェブサイトの通知を許可する
+# Notes that the operating system's own notification settings can still block
+# notifications delivered while the browser is closed.
+permissions-site-notification-closed-delivery-desc = ご使用の OS の通知設定も適用されます。
 
 ## Site Permissions - Location
 

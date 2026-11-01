@@ -33,7 +33,7 @@ policy-BlockAboutSupport = about:support ページへのアクセスをブロッ
 policy-Bookmarks = ブックマークツールバー、ブックマークメニュー、または指定のフォルダーの中にブックマークを作成します。
 policy-CaptivePortal = キャプティブポータルサポートを有効または無効にします。
 policy-CertificatesDescription = 証明書を追加、または組み込みの証明書を利用します。
-policy-ClearOnShutdown = { -brand-short-name } の終了時にブラウジングデータを消去します。
+policy-ClearOnShutdown = { -brand-short-name } の終了時に閲覧データを消去します。
 # CNSA 2.0 is the United States National Security Agency's Commercial National
 # Security Algorithm Suite 2.0. ML-KEM-1024 is a post-quantum key agreement
 # algorithm. Neither should be translated.
@@ -62,9 +62,9 @@ policy-DisableFirefoxStudies = { -brand-short-name } による Shield 調査の�
 policy-DisableForgetButton = @@[@@忘れる@@]@@ ボタンへのアクセスを抑止します。
 policy-DisableFormHistory = 検索とフォームの履歴を記憶しないようにします。
 policy-DisableLaunchOnLogin = ユーザーログイン時の { -brand-short-name } の自動起動を抑止します。
+policy-DisableMacOSUserPolicies = macOS 上のユーザー設定およびユーザースコープ設定のプロファイルからのポリシーを無視します。
 policy-DisablePrimaryPasswordCreation = true の場合、マスターパスワードを作成できないようにします。
-policy-DisablePasswordReveal2 = 保存されたパスワードまたはパスワードフィールドの開示を許可しないようにします。
-policy-DisablePasswordReveal = 保存されたパスワードの開示を許可しないようにします。
+policy-DisablePasswordReveal2 = 保存されたパスワードまたはパスワードフィールドで開示を許可しないようにします。
 policy-DisablePrivateBrowsing = プライベートブラウジングを無効にします。
 policy-DisableProfileImport = メニューコマンド @@[@@他のブラウザーからデータを@@Import@@@@]@@ を無効にします。
 policy-DisableProfileRefresh2 = トラブルシューティング情報 (about:support) ページ、support.mozilla.org サイト上、およびしばらく使っていなかった時に表示される通知の @@[@@{ -brand-short-name } をリフレッシュ@@]@@ ボタンを無効にします。

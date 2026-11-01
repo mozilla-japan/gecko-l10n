@@ -23,6 +23,7 @@ about-logins-menu-menuitem-import-from-another-browser = 他のブラウザー�
 about-logins-menu-menuitem-import-from-a-file = ファイルから@@Import@@...
 about-logins-menu-menuitem-export-logins2 = パスワードを@@Export@@...
 about-logins-menu-menuitem-remove-all-logins2 = すべてのパスワードを消去...
+about-logins-menu-menuitem-delete-all-logins = すべてのパスワードを削除...
 menu-menuitem-preferences =
     { PLATFORM() ->
         [windows] オプション
@@ -81,7 +82,8 @@ about-logins-intro-import3 = 上のプラス記号のボタンをクリックし
 about-logins-login-item-new-login-title = パスワードを追加
 login-item-edit-button = 編集
 about-logins-login-item-remove-button = 消去
-login-item-origin-label = ウェブサイトの URL
+about-logins-login-item-delete-button = 削除
+login-item-origin-label = ウェブサイトのアドレス
 about-logins-origin-tooltip2 = ログインするウェブサイトのページと一致する完全なアドレスを入力してください。
 # Variables
 #   $webTitle (String) - Website title of the password being changed.
@@ -167,9 +169,15 @@ confirmation-dialog-dismiss-button =
     .title = キャンセル
 # Title for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-title = パスワードを消去しますか？
+# Title for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-title2 = パスワードを削除しますか？
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = この操作は取り消すことができません。
+# Message for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-message2 = すべての同期した端末上の { -brand-short-name } からパスワードを削除します。この操作は取り消すことができません。
 about-logins-confirm-remove-dialog-confirm-button = 消去
+# Confirm button for the modal to delete one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-confirm-button = 削除
 
 ## Variables
 ##   $count (number) - Number of items
@@ -179,11 +187,23 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
         [1] 消去
        *[other] すべて消去
     }
+# Confirm button for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-confirm-button-label =
+    { $count ->
+        [1] 削除
+       *[other] すべて削除
+    }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
     { $count ->
         [1] はい、このパスワードを消去します
        *[other] はい、これらのパスワードを消去します
+    }
+# Checkbox for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-checkbox-label =
+    { $count ->
+        [1] はい、このパスワードを削除します
+       *[other] はい、これらのパスワードを削除します
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
 about-logins-confirm-remove-all-dialog-title2 =
@@ -203,12 +223,16 @@ about-logins-confirm-remove-all-sync-dialog-title2 =
         [one] { $count } 件のパスワードを全端末から消去しますか？
        *[other] { $count } 件のすべてのパスワードを全端末から消去しますか？
     }
+# Title for modal to confirm the deletion of all saved passwords when user IS SYNCED with per-device sync
+about-logins-confirm-delete-all-sync-dialog-title = { $count } 件のパスワードを削除しますか？
 # Message for modal to confirm the removal of saved passwords when user IS synced.
 about-logins-confirm-remove-all-sync-dialog-message3 =
     { $count ->
-        [1] アカウントと同期した全端末の { -brand-short-name } に保存されたパスワードを消去します。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
-       *[other] アカウントと同期した全端末の { -brand-short-name } に保存されたすべてのパスワードを消去します。ここ表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
+        [1] アカウントと同期した全端末の { -brand-short-name } に保存されたパスワードを消去します。ここに表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
+       *[other] アカウントと同期した全端末の { -brand-short-name } に保存されたすべてのパスワードを消去します。ここに表示される情報漏洩の警告も消去されます。この操作は取り消すことができません。
     }
+# Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
+about-logins-confirm-delete-all-sync-dialog-message = パスワードを同期した全端末の { -brand-short-name } に保存されたパスワードを削除します。この操作は取り消すことができません。
 
 ##
 

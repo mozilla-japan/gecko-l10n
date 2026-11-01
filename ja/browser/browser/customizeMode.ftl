@@ -39,7 +39,6 @@ customize-mode-touchbar-cmd =
 customize-mode-downloads-button-autohide =
     .label = 履歴がないときはボタンを隠す
 
-
 ## Labels for the special items that can be added to toolbars in customize mode
 
 customize-mode-toolbarspring =

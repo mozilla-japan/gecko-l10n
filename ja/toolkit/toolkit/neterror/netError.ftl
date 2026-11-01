@@ -106,6 +106,19 @@ neterror-dns-not-found-offline-hint-different-device = 別の端末で接続し�
 neterror-dns-not-found-offline-hint-modem = モデムやルーター機器を確認してください。
 neterror-dns-not-found-offline-hint-reconnect = Wi-Fi を一旦切断し、接続し直してください。
 
+## Hints shown, as one list of steps, when a connection to this computer
+## (localhost) is refused.
+## Variables:
+##   $port (String) - The port number the connection was refused on.
+
+neterror-loopback-refused-not-running = { $port } 番ポートへの接続はできません。ローカルサーバーが実行中か確認してください。
+# "it" is the local server that the user is trying to reach.
+neterror-loopback-refused-wrong-port = ローカルサーバーが実行中の場合、{ $port } 番ポートを使用しているか確認してください。
+# "this address" is the IP address of the page that failed to load, for example
+# 127.0.0.1 or [::1]. Do not translate or reformat the literal addresses [::1]
+# and 127.0.0.1 in the text.
+neterror-loopback-refused-address = このアドレスのサーバーが接続を受け入れているか確認してください。一部のサーバーは [::1] または 127.0.0.1 しか待ち受けていません。
+
 ## TRR-only specific messages
 ## Variables:
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.

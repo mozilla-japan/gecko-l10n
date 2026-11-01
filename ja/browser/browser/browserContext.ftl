@@ -372,6 +372,10 @@ main-context-menu-manage-passwords =
 main-context-menu-add-engine =
     .label = 検索エンジンを追加
     .accesskey = S
+# Actions menu that appears when selecting text with actions like Ask AI, Search, or Copy.
+main-context-menu-turn-on-actions-menu =
+    .label = アクションメニューをオンにする
+    .accesskey = A
 main-context-menu-link-send-to-device =
     .label = リンクを端末へ送信
     .accesskey = n
@@ -449,6 +453,8 @@ main-context-menu-reveal-password =
     .accesskey = v
 # The label of a badge shown in menu items to call out new features.
 main-context-menu-new-feature-badge = 新機能
+# The label of a badge shown in menu items to call out features that are in beta.
+main-context-menu-beta-feature-badge = Beta
 main-context-menu-pdfjs-copy-page =
     .label = ページをコピー
 main-context-menu-pdfjs-cut-page =

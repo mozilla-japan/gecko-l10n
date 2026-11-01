@@ -560,10 +560,14 @@ onboarding-refresh-terms-of-use-with-links = 続けることにより、<a data-
 onboarding-refresh-data-collection-link = データ収集設定を管理
 onboarding-refresh-primary-button = 続行
 onboarding-refresh-fro-import-header = 個人データを守ります
+# "It" in "It stays yours" means the browsing data the user is importing (bookmarks, passwords, history).
+# Refers to personal data, indicating that ownership of imported data remains with the user.
+onboarding-refresh-fro-import-subtitle = ユーザーデータはここにしか残りません。{ -brand-product-name } は決して個人情報を売りません。
 onboarding-refresh-fro-import-body = あなたの個人情報はあなただけのものです。{ -brand-product-name } はこれを決して売りません。
 onboarding-refresh-fro-skip-button = スキップ
 onboarding-refresh-fro-theme-header = お好みのレイアウトで楽しもう
 onboarding-refresh-tab-layout-header = 別のタブレイアウトをお試しください
+onboarding-refresh-fro-tab-layout-title = タブの新しいレイアウトを選んでください
 onboarding-refresh-tab-layout-top = 上部
 onboarding-refresh-tab-layout-side = 側面
 onboarding-refresh-tab-layout-minimal = 最小

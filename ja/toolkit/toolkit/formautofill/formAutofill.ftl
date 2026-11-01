@@ -42,6 +42,9 @@ credit-card-capture-save-button =
 credit-card-capture-cancel-button =
     .label = 後で
     .accessKey = W
+credit-card-capture-never-save-payment-methods-button =
+    .label = 支払い方法を保存しない
+    .accessKey = N
 credit-card-capture-never-save-button =
     .label = カード情報を保存しない
     .accessKey = N
@@ -72,6 +75,14 @@ autofill-card-security-code-label = セキュリティコード (CVC)
 ## The name of the security code printed on a payment card, as each card
 ## network calls it.
 
+# Visa calls it "CVV".
+credit-card-security-code-name-visa = CVV
+# Mastercard calls it "CVC".
+credit-card-security-code-name-mastercard = CVC
+# American Express calls it "CID".
+credit-card-security-code-name-amex = CID
+# Used for any other card network, or when the network isn't known.
+credit-card-security-code-name-other = セキュリティコード
 
 ## Details of the card shown on the credit card capture doorhanger, below the
 ## masked card number. Each message is used for a different combination of the
@@ -82,26 +93,51 @@ autofill-card-security-code-label = セキュリティコード (CVC)
 ##   $year (String): Two-digit year the card expires
 ##   $securityCode (String): The name of the card's security code, from one of
 ##     the credit-card-security-code-name-* strings (for example "CVV")
-## "•••" stands for the hidden security code; keep it as is rather than
-## translating it into words.
 
 credit-card-doorhanger-card-details-name = { $name }
 credit-card-doorhanger-card-details-expiration = { $month }/{ $year }
+credit-card-doorhanger-card-details-security-code = { $securityCode }
+credit-card-doorhanger-card-details-name-expiration = { $name } | { $month }/{ $year }
+credit-card-doorhanger-card-details-name-security-code = { $name } | { $securityCode }
+credit-card-doorhanger-card-details-expiration-security-code = { $month }/{ $year } | { $securityCode }
+credit-card-doorhanger-card-details-name-expiration-security-code = { $name } | { $month }/{ $year } | { $securityCode }
 
 ## Used on the doorhanger when a saved card is submitted with changed details
 ## and security codes can be saved.
 
+credit-card-capture-update-payment-method-button =
+    .label = 更新
+    .accessKey = U
+credit-card-update-saved-payment-method-doorhanger-header = 保存された支払方法を更新しますか？
+# Saves the submitted details as a new payment method instead of updating
+# the saved one.
+credit-card-capture-save-as-new-payment-method-button =
+    .label = 新規保存
+    .accessKey = S
 
 ## Used on the doorhanger when a saved card is submitted with a new or changed
 ## security code.
 
+credit-card-save-security-code-doorhanger-header = セキュリティコードを保存しますか？
 
 ## Used on the doorhanger when users submit a new card and security codes can be saved.
 
+credit-card-save-payment-method-doorhanger-header = この支払方法を保存しますか？
+# Also used on the doorhanger when a saved card is submitted with a new or
+# changed security code.
+# “Checkout” refers to the payment stage on websites.
+credit-card-save-payment-method-doorhanger-description = すばやく支払いができるように、{ -brand-short-name } が暗号化して支払い方法の詳細を自動入力します。
+credit-card-capture-dismiss-button =
+    .label = 閉じる
+    .accessKey = D
 
 ## The toggle turns saving security codes on and off. Its label describes the
 ## current state: whether security codes are saved or not.
 
+credit-card-doorhanger-always-save-security-codes-toggle =
+    .label = 常にセキュリティコードを保存する
+credit-card-doorhanger-dont-save-security-codes-toggle =
+    .label = セキュリティコードを保存しない
 
 ## Details of the card shown on the credit card capture doorhanger, below the
 ## masked card number. Each message is used for a different combination of the
