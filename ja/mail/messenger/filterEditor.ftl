@@ -143,6 +143,10 @@ filter-running-message =
     フィルターの評価を続けますか？
 filter-stop-button = 停止
 filter-continue-button = 継続
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = 一部のフィルターが適用できませんでした。詳細はフィルターログを確認してください。
+filter-run-failed-open-log-button = フィルターログを開く
 
 ## Filter Editor
 
@@ -183,6 +187,11 @@ filter-editor-invalid-search-title = 無効な検索条件
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = 無効な検索条件 "{ $attribute } { $operator }" が含まれているためフィルターを保存できません。
+filter-editor-missing-value-title = 検索値がありません
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = 検索条件 "{ $attribute } { $operator }" に値が入力されなかったため、このフィルターは保存できません。
 filter-editor-action-order-explanation = メッセージがこのフィルターと一致した時、この順序でフィルターが実行されます:
 filter-editor-action-order-title = 実際の動作順
 # Variables:

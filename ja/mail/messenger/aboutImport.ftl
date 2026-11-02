@@ -103,6 +103,27 @@ addr-book-summary-description = "{ $addressBookName }" という名前の@@New-C
 import-from-calendar-file-desc = @@Import-suru@@ iCalendar (.ics) ファイルを選択してください。
 calendar-items-title = @@Import-suru@@項目を選択してください。
 calendar-items-loading = 項目の読み込み中...
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count = ファイルに { $count } 項目が含まれています。
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = 件名
+calendar-items-column-title = 件名
+    .title = 件名で並べ替えます
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = 開始日時
+calendar-items-column-start = 開始日時
+    .title = 開始日時で並べ替えます
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = 終了日時
+calendar-items-column-end = 終了日時
+    .title = 終了日時で並べ替えます
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = @@Import@@
+calendar-items-column-import = @@Import@@
 calendar-items-filter-input2 =
     .label = 項目の絞り込み
     .placeholder = 項目を絞り込み...

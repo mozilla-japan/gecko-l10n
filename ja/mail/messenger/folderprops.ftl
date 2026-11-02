@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = このフォルダーに新着メッセージがないか確認する
     .accesskey = c
 folder-props-rebuild-summary-explanation = フォルダーの索引ファイル (.msf) が損傷し、削除したはずのメッセージが表示されてしまうことがあります。このような問題が起こったときはフォルダーを修復してください。
+folder-props-rebuild-summary-confirm-title = フォルダーの修復
+folder-props-rebuild-summary-confirm-message = このフォルダーを修復するとローカルのメッセージが削除され、サーバーから新しいコピーがダウンロードされます。サーバーに残されたメッセージは変更されません。この処理には時間がかかるかもしれませんが続けますか？
 
 ## Retention tab (see retention.ftl)
 ##
