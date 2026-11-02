@@ -104,6 +104,14 @@ open-tabs-warning-confirmation = { $count } 件のメッセージを開くには
 
 ## Sign-in window
 
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Cookie がブロックされているためログインできません。
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = サイトからの Cookie を受け入れる
+    .accesskey = A
 
 ## Toolbar
 
@@ -445,6 +453,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
        *[other] { $failures } / { $total } 通のメッセージが復号できなかったためコピーされませんでした。
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = フィルターの実行が完了しませんでした。詳細はフィルターログを確認してください。
+apply-filters-failed-open-log-button = フィルターログを開く
 
 ## Spaces toolbar
 

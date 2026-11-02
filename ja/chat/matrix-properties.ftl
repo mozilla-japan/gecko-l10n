@@ -267,6 +267,7 @@ message-verification-request2 = { $user } が { $userReceiving } の検証を求
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } が次の理由により検証をキャンセルしました: { $reason }
 message-verification-done = 検証が完了しました。
+message-decryption-error2 = このメッセージのコンテンツを復号できませんでした。暗号鍵は自動的に再要求されます。
 message-decryption-error = このメッセージのコンテンツを復号できませんでした。他の端末から暗号鍵を要求するには、このメッセージを右クリックしてください。
 message-decrypting = 復号しています...
 message-redacted = メッセージが編集されました。
@@ -276,6 +277,7 @@ message-redacted = メッセージが編集されました。
 message-reaction = { $userThatReacted } が { $userThatSentMessage } に { $reaction } のリアクションをしました。
 #    Label in the message context menu
 message-action-request-key = 鍵を再要求
+#    Label in the message context menu
 message-action-redact = 編集
 message-action-report = メッセージを報告
 message-action-retry = 送信を再試行

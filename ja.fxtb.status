@@ -305,4 +305,5 @@ fxsrc | browser, dom, toolkit    2d5e7eb1 (2026-10-16)  mar          sync browse
 repo  | target dir               gh-rev   (pushdate)    by           comment
 -------------------------------------------------------------------------------------
 fxsrc | browser, dom, toolkit    0e1a4ee7 (2026-10-30)  mar          sync browser, dom, toolkit
+tbsrc | mail, calendar, chat     8c4f30e3 (2026-10-27)  mar          sync mail, calendar, chat
 

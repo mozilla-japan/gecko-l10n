@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = 連絡先を編集します
 message-header-field-show-more = 続き
     .title = すべての受信者を表示します
+message-ids-field-show-more = 続きを表示
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .title = さらに { $count } 件を表示します
+    .aria-label = さらに { $count } 件表示
 message-ids-field-show-all = すべて表示
 
 ## Dark Message Mode

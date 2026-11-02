@@ -132,6 +132,6 @@ openpgp-external-key-warning = <b>外部の GnuPG 鍵は 1 個しか設定でき
 openpgp-external-key-label = 秘密鍵 ID:
 openpgp-import-own-key-title = 公開鍵を@@Import@@
 #   $keyId (String) - The Key ID.
-openpgp-import-own-key-description = 鍵 ID { $keyId } の公開鍵を見つけられませんでした。続けるには、鍵を@@Import-site@@ください。
+openpgp-import-own-key-description = { -brand-short-name } が鍵 ID { $keyId } の公開鍵を見つけられませんでした。続けるには、鍵を@@Import-site@@ください。
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = 公開鍵 { $keyId } をファイルから@@Import-deki@@ませんでした。

@@ -14,8 +14,6 @@
 <!ENTITY undoCmd.accesskey "U">
 <!ENTITY redoCmd.label "@@Redo@@">
 <!ENTITY redoCmd.accesskey "R">
-<!ENTITY deleteCmd.label "削除">
-<!ENTITY deleteCmd.accesskey "D">
 <!ENTITY customizeCmd.label "カスタマイズ">
 <!ENTITY customizeCmd.accesskey "t">
 <!ENTITY viewMenu.label "表示">
