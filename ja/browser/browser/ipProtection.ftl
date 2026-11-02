@@ -38,7 +38,7 @@ ipprotection-feature-introduction-description-summer-promo = { -brand-product-na
 ipprotection-feature-introduction-link-text-private-browsing-2 = 新たな <a data-l10n-name="learn-more-vpn">組み込み VPN</a> を利用すると、プライベート@@Window@@であっても、あなたの現在位置を隠してユーザーデータを保護します。
 ipprotection-feature-introduction-description-private-browsing = プライベート@@Window@@であっても、ユーザーの現在位置を隠してブラウジングのプライバシー保護を強化します。
 # Alternate version of the feature discovery callout copy used after we've released site inclusions for the VPN. Users have the option to turn the VPN on for specific sites only
-ipprotection-feature-introduction-description-private-browsing-3 = 閲覧時の現在位置を隠します。プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにするルールを設定し、そうでないサイトではオフに設定してください。
+ipprotection-feature-introduction-description-private-browsing-3 = 閲覧時の現在位置を隠します。<a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> したいサイトや位置ベースのブラウジングでは VPN をオンにするルールを設定し、そうでないサイトではオフに設定してください。
 # Alternate version of the feature discovery callout copy used after we've released site inclusions for the VPN. Users have the option to turn the VPN on for specific sites only
 ipprotection-feature-introduction-description-private-browsing-1 = 現在位置を隠してブラウジングの <a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> しましょう。プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにするルールを設定し、そうでないサイトではオフに設定できます。
 ipprotection-feature-introduction-title-captive-portal = 公衆 Wi-Fi なら { -brand-product-name } の組み込み VPN を試してください。
