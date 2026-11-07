@@ -111,6 +111,16 @@ security-view-technical =
     .value = 技術情報
 help-button =
     .label = ヘルプ
+# Variables:
+#   $website (string) - The hostname of the website
+security-technical-no-encryption-website = ウェブサイト { $website } は表示中のページの暗号化をサポートしていません。
+security-technical-no-encryption-transit = 暗号化せずにインターネットに送信された情報は他者に傍受される可能性があります。
+security-technical-no-encryption-page = 表示中のページは転送される前から暗号化されていません。
+security-technical-encrypted-page = 表示中のページはインターネットに送信される前に暗号化されています。
+security-technical-encrypted-description = 暗号化によってコンピューター間の通信の傍受が困難になり、このページのネットワーク転送中に誰かにその内容をのぞき見られる可能性が低くなります。
+security-technical-mixed-content-description = 表示しているページの一部はインターネットに転送される前に暗号化されていません。
+security-technical-weak-cipher = このウェブサイトへの接続に使用されている暗号は強度が弱く、プライバシーが保護されません。他者にあなたの情報をのぞき見られたりウェブサイトの動作を変更されたりする可能性があります。
+security-technical-ct-compliant = このウェブサイトは証明書の透明性ポリシーに準拠しています。
 
 ## These strings are used to tell the user if the website is storing cookies
 ## and data on the users computer in the security tab of pageInfo
@@ -122,6 +132,23 @@ security-site-data-cookies = はい、Cookie と { $value } { $unit } のサイ�
 security-site-data-only = はい、{ $value } { $unit } のサイトデータ
 security-site-data-cookies-only = はい、Cookie のみ
 security-site-data-no = いいえ
+
+## These strings are used in the Technical Details section of the security tab
+
+security-technical-no-encryption =
+    .value = 接続が暗号化されていません
+security-technical-mixed-content =
+    .value = 接続が部分的に暗号化されています
+
+## Variables:
+##   $algorithm (string) - The encryption algorithm (e.g. "TLS_AES_128_GCM_SHA256")
+##   $keySize (number) - The size of the encryption key in bits
+##   $protocol (string) - The protocol version (e.g. "TLS 1.3")
+
+security-technical-encrypted =
+    .value = 接続が暗号化されています ({ $algorithm }、鍵長 { $keySize } bit、{ $protocol })
+security-technical-broken-encryption =
+    .value = 脆弱な暗号化 ({ $algorithm }、鍵長 { $keySize } bit、{ $protocol })
 
 ##
 

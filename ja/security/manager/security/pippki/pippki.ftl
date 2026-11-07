@@ -14,6 +14,8 @@ change-password-token = セキュリティデバイス: { $tokenName }
 change-password-old = 現在のパスワード:
 change-password-new = 新しいパスワード:
 change-password-reenter = 新しいパスワード (再入力):
+change-password-not-set =
+    .value = (設定なし)
 pippki-failed-pw-change = パスワードを変更できません。
 pippki-incorrect-pw = 現在のパスワードが正しく入力されませんでした。入力し直してください。
 pippki-pw-change-ok = パスワードの変更が完了しました。
@@ -40,6 +42,11 @@ download-cert-window2 =
     .title = 証明書の@@ImportNoun@@
     .style = min-width: 46em
 download-cert-message = 新しい認証局 (CA) を信頼するよう求められています。本当にこの認証局を信頼しますか？
+# Variables:
+#   $caName (string) - The name of the Certificate Authority
+download-cert-trust-header = “{ $caName }” が行う認証のうち、信頼するものを選択してください。
+# Used as $caName in download-cert-trust-header when the Certificate Authority has no name
+download-cert-unnamed-ca = 名前のない認証局
 download-cert-trust-ssl =
     .label = この認証局によるウェブサイトの識別を信頼する
 download-cert-trust-email =
@@ -100,6 +107,10 @@ set-password-backup-pw =
 set-password-repeat-backup-pw =
     .value = 証明書のバックアップ用パスワード (再入力):
 set-password-reminder = 重要: 証明書のバックアップ用パスワードを忘れてしまうと、バックアップした証明書を復元できなくなります。安全な場所に記録しておいてください。
+
+## Certificate backup import prompt
+
+pippki-get-pkcs12-password-message = この証明書のバックアップの暗号化に用いたパスワードを入力してください:
 
 ## Protected authentication dialog
 

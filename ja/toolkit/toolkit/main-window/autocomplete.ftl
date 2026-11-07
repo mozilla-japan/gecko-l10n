@@ -23,6 +23,8 @@ autocomplete-import-logins-chromium-edge =
 
 # (^m^) リンク先: https://support.mozilla.org/kb/import-data-another-browser
 autocomplete-import-learn-more = 詳細情報
+# Shown in the dropdown of a login field on a page that is not secure (HTTP).
+autocomplete-insecure-login-warning = この接続は安全ではありません。ここに入力したログイン情報は漏洩する可能性があります。
 
 ## Secondary actions shown on form autocomplete dropdown rows.
 ## Gated by the browser.autocomplete.removeRecords.enabled pref.
