@@ -11,7 +11,7 @@
 ## Welcome page strings
 
 onboarding-welcome-header = { -brand-short-name } にようこそ
-onboarding-start-browsing-button-label = ブラウジングを開始
+onboarding-start-browsing-button-label = ブラウジングを始める
 onboarding-not-now-button-label = 後で
 mr1-onboarding-get-started-primary-button-label = はじめましょう
 
@@ -111,7 +111,7 @@ mr2-onboarding-default-theme-label = @@Default-@@テーマを見てみます。
 
 mr2-onboarding-thank-you-header = ありがとうございます
 mr2-onboarding-thank-you-text = { -brand-short-name } は非営利を背景とする独立したブラウザーです。私たちはユーザーとともにウェブをより安全、健全にし、個人情報を保護していきます。
-mr2-onboarding-start-browsing-button-label = ブラウジングを開始
+mr2-onboarding-start-browsing-button-label = ブラウジングを始める
 
 ## Multistage live language reloading onboarding strings (about:welcome pages)
 ##
@@ -251,7 +251,7 @@ mr2022-onboarding-privacy-segmentation-button-secondary-label = 詳細情報を�
 mr2022-onboarding-gratitude-title = より良いウェブ構築の助けになります
 mr2022-onboarding-gratitude-subtitle = Mozilla Foundation が提供する { -brand-short-name } のご利用ありがとうございます。あなたのご協力とともに、よりオープンでアクセシブルな、すべての人にとってのより良いインターネットの構築に努めます。
 mr2022-onboarding-gratitude-primary-button-label = 新機能を確認する
-mr2022-onboarding-gratitude-secondary-button-label = ブラウジングを開始する
+mr2022-onboarding-gratitude-secondary-button-label = ブラウジングを始める
 
 ## Onboarding spotlight for infrequent users
 
@@ -308,7 +308,7 @@ onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation によ�
 onboarding-sign-up-title = 端末間でデータを同期する
 onboarding-sign-up-description = アカウント登録すると、パスワードやブックマークなど、すべての重要な情報を安全に保管し、ログインしたどの端末でも利用できるようになります。
 onboarding-sign-up-button = 登録またはログイン
-onboarding-sign-up-secondary-button = ブラウジングを開始
+onboarding-sign-up-secondary-button = ブラウジングを始める
 
 ## New user time and familiarity survey strings
 
@@ -411,6 +411,8 @@ tab-groups-onboarding-session-restore-title-3 = タブグループはいつで�
 # The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
 tab-groups-onboarding-session-restore-title-2 = タブグループは @@[@@タブを一覧表示@@]@@ メニューからいつでも再び開けます。
 tab-groups-onboarding-dismiss = OK
+# "here" refers to the application menu button
+tab-groups-onboarding-auto-saved-title = タブグループは自動保存されます。ここで検索してください。
 
 ## Multi Profiles feature onboarding messages
 
@@ -489,7 +491,7 @@ fx-backup-confirmation-screen-easy-setup-item-text-1 = ブックマーク、履�
 fx-backup-confirmation-screen-easy-setup-item-text-2 = 端末に保存します
 fx-backup-confirmation-screen-easy-setup-item-text-3 = パスワードと支払い方法は含みません
 fx-backup-confirmation-screen-easy-setup-item-subtext-3 = 機密性の高い情報を含むには <a data-l10n-name="settings">設定</a> を開いてください。
-fx-backup-confirmation-screen-item-subtext-1 = バックアップはあと数分で開始され、1 日 1 回実行されます。進捗状況は <a data-l10n-name="settings">設定</a> で確認できます。
+fx-backup-confirmation-screen-item-subtext-1 = 1 日 1 回実行されるバックアップがあと数分で開始します。進捗状況は <a data-l10n-name="settings">設定</a> で確認できます。
 fx-backup-confirmation-screen-item-subtext-2 = 再インストールが必要になった場合には、{ -brand-short-name } がバックアップを探します
 
 ## Restore from Backup Flow about:welcome screens
@@ -636,3 +638,33 @@ welcome-back-onboarding-card-label-tabs = 垂直タブとグループ化でタ�
 welcome-back-onboarding-card-label-vpn = 組み込み VPN で接続元を隠す
 welcome-back-onboarding-card-label-pdf = PDF 文書への注釈、署名など
 welcome-back-onboarding-card-tilebutton-label = 試してみる
+
+## New Tab Onboarding cards
+
+hnt-card-import-header = { -brand-short-name } をすぐにセットアップします
+hnt-card-import-body = 別のブラウザーからブックマークやパスワードなどのデータを移行します。
+hnt-card-import-primary-button = データを@@Import@@
+hnt-card-default-body = { -brand-product-name } はユーザーを保護して追跡しないように作られた唯一の主要ブラウザーです。
+hnt-card-default-primary-button = { -brand-short-name } でリンクを開く
+hnt-card-pin-header = クリック一つで { -brand-short-name } を起動
+hnt-card-pin-body =
+    { PLATFORM() ->
+        [macos] Dock から保護されたブラウジングに戻ります。
+       *[other] タスクバーから保護されたブラウジングに戻ります。
+    }
+hnt-card-mobile-header = スマートフォンでユーザー保護が組み込まれたブラウザーを使いましょう
+hnt-card-mobile-body = モバイル版 { -brand-product-name } をダウンロードすると、プライバシー保護がさらに追加されます。
+hnt-card-mobile-primary-button = モバイル版 { -brand-product-name } を入手
+hnt-card-wallpaper-header = 新しい壁紙を選びましょう
+hnt-card-wallpaper-body = この画面をお好みの背景で彩ります。
+hnt-card-wallpaper-primary-button = カスタマイズを始める
+hnt-card-taskbar-tabs-header = お気に入りのサイトを Windows のタスクバーに追加します
+hnt-card-taskbar-tabs-body = よく訪れるウェブサイトを { -brand-product-name } で保護されたアプリのように開けます。
+hnt-card-taskbar-tabs-primary-button = サイトをタスクバーに追加
+hnt-card-extensions-header = 拡張機能で { -brand-short-name } を強化
+hnt-card-extensions-body = 最も使われている拡張機能でブラウジングをカスタマイズしましょう。
+hnt-card-extensions-primary-button = 拡張機能を探す
+# "Do your thing" is an idiom meaning to do what you are interested in or skilled at,
+# rather than simply doing what everyone else does.
+hnt-card-last-card-header-start = 思いのままに設定できます。
+hnt-card-last-card-header-end = トラッキング防止がオンです。

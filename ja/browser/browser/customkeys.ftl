@@ -21,6 +21,7 @@ customkeys-file-copy-tab-url = タブの URL をコピー
 customkeys-file-focus-search = 検索バーを選択
 customkeys-history-reopen-tab = 最後に閉じたタブを開き直す
 customkeys-history-reopen-window = 最後に閉じた@@Window@@を開き直す
+customkeys-history-reopen-tab-current-window = 現在の@@Window@@の最後に閉じたタブを開き直す
 customkeys-sidebar-toggle = サイドバーを切り替える
 customkeys-view-bookmarks-toolbar = ブックマークツールバーの表示を切り替える
 customkeys-view-picture-in-picture = ピクチャーインピクチャー

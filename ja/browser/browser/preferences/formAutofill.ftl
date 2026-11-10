@@ -152,10 +152,6 @@ autofill-card-security-code-optional-2 =
 # card. Use whichever abbreviation is most familiar in your locale.
 autofill-card-security-code-optional =
     .label = セキュリティコード (任意)
-# "CVV" is a common abbreviation for the security code printed on a payment
-# card. Use whichever abbreviation is most familiar in your locale.
-autofill-card-security-code =
-    .label = セキュリティコード (CVV)
 autofill-card-name-on-card = カード名義
 autofill-card-expires-month = 有効期限 (月)
 autofill-card-expires-year = 有効期限 (年)

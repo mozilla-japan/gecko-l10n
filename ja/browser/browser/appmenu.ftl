@@ -421,9 +421,6 @@ fxa-menu-create-profile-confirm =
     .label = @@New-CMD@@プロファイルの作成
 fxa-menu-create-profile-learn-more =
     .label = プロファイルとは何ですか？
-# Button in the account menu that links to the Referrals page
-appmenuitem-share-firefox-title2 = { -brand-product-name } を宣伝
-appmenuitem-share-firefox-description = プライバシー優先のブラウザーを選んでもらえるように宣伝してください
 appmenu-profiles-2 =
     .label = プロファイル
 appmenu-profiles-header = プロファイル

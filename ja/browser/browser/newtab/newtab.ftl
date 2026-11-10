@@ -83,25 +83,6 @@ home-prefs-sports-widget-header =
 # Clock is a widget on New Tab that displays time zones around the world.
 home-prefs-clocks-header =
     .label = 時計
-# Privacy is a widget on New Tab that shows tracking protection activity.
-home-prefs-privacy-header =
-    .label = プライバシー
-# Crossword is a widget on New Tab that shows a daily crossword puzzle.
-home-prefs-crossword-widget-header =
-    .label = クロスワードパズル
-# Finance is a widget on New Tab that shows stock ticker prices.
-home-prefs-stocks-header2 =
-    .label = 金融情報
-# Picture of the day is a widget on New Tab that shows a daily Wikimedia Commons image.
-home-prefs-picture-header =
-    .label = 今日の一枚
-# Search is a widget on New Tab that shows the user's recent and trending
-# searches.
-home-prefs-search-widget-header =
-    .label = 検索
-# Horoscopes is a widget on New Tab that shows daily horoscopes.
-home-prefs-horoscopes-header =
-    .label = 星座占い
 home-prefs-mission-message2 =
     .message = スポンサーは、より良いウェブを構築するという私たちの使命を支援しています。
 home-prefs-manage-topics-link2 =
@@ -199,6 +180,9 @@ newtab-privacy-empty-state = { -brand-short-name } が自動的にトラッカ�
 # Here we are referring to the number of trackers blocked, which increases as the user browses.
 # An alternative can be "See a running total here"
 newtab-privacy-empty-state-tally = ここでブロックしたトラッカーの数を確認できます。
+# Shorter empty-state copy for the small card, shown as two separate lines.
+newtab-privacy-empty-state-small-title = トラッカーを減らしてブラウジングを高速化。
+newtab-privacy-empty-state-small-message = ブロック開始。
 
 ## Privacy widget — Enhanced Tracking Protection off state
 
@@ -453,33 +437,18 @@ newtab-picture-set-wallpaper2 =
     .label = 壁紙に設定
     .title = 壁紙に設定します
     .aria-label = この写真を壁紙に設定する
-# Button that sets the current picture as the New Tab background wallpaper. The
-# button collapses to an icon when not hovered/focused, so .title is its tooltip.
-newtab-picture-set-wallpaper =
-    .label = 壁紙に設定
-    .title = 壁紙に設定します
-    .aria-label = 今日の一枚を壁紙に設定する
 # Context menu item that opens the New Tab customization panel.
 newtab-picture-menu-manage-wallpaper = 壁紙を管理
 # Context menu item that hides the picture shown in the widget.
 newtab-picture-menu-hide-photo2 = この写真を隠す
 # Context menu item that restores the picture after it has been hidden.
 newtab-picture-menu-show-photo2 = この写真を表示
-# Context menu item that hides today’s picture, replacing it with an existing
-# wallpaper.
-newtab-picture-menu-hide-photo = 今日の一枚を隠す
-# Context menu item that restores today’s picture after it has been hidden.
-newtab-picture-menu-show-photo = 今日の一枚を表示
 # Context menu item linking to more information about the widget.
 newtab-picture-menu-learn-more = 詳細情報
 # Icon button shown on the widget once the picture is hidden; restores it.
 newtab-picture-show-button2 =
     .title = 写真を表示します
     .aria-label = 写真を表示
-# Icon button shown on the widget once the picture is hidden; restores it.
-newtab-picture-show-button =
-    .title = 今日の写真を表示します
-    .aria-label = 今日の写真を表示する
 # Shown when there is no new picture to display yet.
 newtab-picture-check-back = 明日の新しい写真をお楽しみに
 # Screen-reader text alternative for the picture; fallback used when the source
@@ -532,9 +501,6 @@ newtab-horoscopes-widget-title = 星座占い
 newtab-horoscopes-widget-open-menu-button =
     .title = 星座占いのメニューを開きます
     .aria-label = 星座占いのメニューを開く
-# Screen reader label for the widget's icon-only menu button.
-newtab-horoscopes-widget-menu-button =
-    .aria-label = 星座占いのオプション
 # Context menu item linking to more information about the widget.
 newtab-horoscopes-menu-learn-more = 詳細情報
 # Context menu item linking to the Yahoo website, the provider of the
@@ -570,6 +536,34 @@ newtab-solitaire-widget-open-menu-button =
     .aria-label = ソリティアのメニューを開く
 # Context menu item linking to more information about the widget.
 newtab-solitaire-menu-learn-more = 詳細情報
+
+## Strings for the Wrexham AFC widget. Wrexham AFC is a football club from
+## Wrexham, Wales. For now, the widget is only expected to be shown in Welsh
+## and British English. “Wrexham AFC” is the club’s name. Use the name the
+## club is known by in your language, if it has one: in Welsh, “CPD Wrecsam”.
+
+# The widget's name. .title is its heading and accessible name, .label its
+# Customize panel toggle, and .menu-label the screen reader label of the
+# button that opens its menu.
+newtab-custom-widget-wrexhamafc =
+    .title = Wrexham AFC
+    .label = Wrexham AFC
+    .menu-label = Wrexham AFC のメニューを開く
+# Menu item opening a submenu that switches what the widget shows. “View” is a
+# noun here, as in “the view the widget shows”.
+newtab-widget-wrexhamafc-menu-view = View
+
+## Options in the View submenu, each switching the widget to a different view.
+## These are football terms: “Matches” shows the club’s latest or next match,
+## with its score once it has started; “Table” shows the league table, the
+## standings of the teams in the club’s league; and “Fixtures” lists the club’s
+## upcoming scheduled matches.
+
+newtab-widget-wrexhamafc-view-matches = 試合
+newtab-widget-wrexhamafc-view-table = 対戦表
+newtab-widget-wrexhamafc-view-fixtures = 試合日程
+# Menu item opening the New Tab customize panel, where wallpapers are chosen.
+newtab-widget-wrexhamafc-menu-wallpapers = 壁紙
 
 ## Strings for the navigable panels that new tab content area can be
 ## split into.
@@ -1089,7 +1083,8 @@ newtab-wallpaper-firefox-peak-dark = 暗い背景の左端から顔を出して�
 newtab-wallpaper-firefox-peak-light = 明るい背景の左端から顔を出しているキツネ
 newtab-wallpaper-firefox-sky-dark = 夜空の下の暗い紫色の丘
 newtab-wallpaper-firefox-sky-light = おだやかな空の下の明るい丘
-# “Wrexham AFC” is the name of a football club and should not be translated.
+# “Wrexham AFC” is the name of a football club. Use the name the club is known
+# by in your language, if it has one: in Welsh, “CPD Wrecsam”.
 # "crest" refers to the football club's logo (team badge).
 newtab-wallpaper-firefox-wrexham = 赤色の背景に Wrexham AFC のチームクレスト
 
@@ -1322,6 +1317,7 @@ newtab-shortcuts-highlight-title = 指先一つでお気に入りに追加
 newtab-shortcuts-highlight-subtitle = ショートカットを追加してお気に入りのサイトに 1 クリックでアクセスできます。
 
 ## Strings for reporting issues with ads and content
+## Preceded by "Why are you reporting this?"
 
 newtab-report-content-why-reporting-this =
     .label = この広告を報告した理由を教えてください。
@@ -1331,6 +1327,12 @@ newtab-report-ads-reason-inappropriate =
     .label = 不適切
 newtab-report-ads-reason-seen-it-too-many-times =
     .label = 表示回数が多すぎる
+newtab-report-ads-reason-scam =
+    .label = 詐欺または偽装
+newtab-report-ads-reason-misleading =
+    .label = 実際と異なる虚偽の主張
+newtab-report-ads-reason-offensive =
+    .label = 攻撃的または不適切
 newtab-report-content-wrong-category =
     .label = カテゴリーが誤っている
 newtab-report-content-outdated =
@@ -1437,6 +1439,12 @@ newtab-widget-menu-move-left = 左側
 # Submenu item under "Move"; moves the widget one position to the right.
 # RTL locales should translate this as "Left".
 newtab-widget-menu-move-right = 右側
+# Submenu item under "Move"; pins the widget to Home, the New Tab space the
+# page opens on.
+newtab-widget-menu-move-to-home = ホーム
+# Submenu item under "Move"; moves the widget from Home back to the Widgets
+# space, the New Tab space that holds every widget not pinned to Home.
+newtab-widget-menu-move-to-widgets = ウィジェット
 newtab-widget-size-small = 小
 newtab-widget-size-medium = 中
 newtab-widget-size-large = 大
@@ -1473,6 +1481,10 @@ newtab-widget-section-show-more =
 # allowing users to collapse it back to one row.
 newtab-widget-section-show-less =
     .label = ウィジェットの表示を減らす
+# Shown in place of a widget's content when the widget could not be loaded.
+# The widget's name is shown and read out separately, just before this message,
+# so this message names no widget.
+newtab-widget-error-not-available = ウィジェットが利用できません。後でもう一度確認してください。
 newtab-widget-lists-name-default = チェックリスト
 
 ## Strings introduced by the Nova redesign of the Timer widget
@@ -1850,6 +1862,17 @@ newtab-clock-widget-search-back-button =
 newtab-clock-widget-search-location-input2 =
     .placeholder = 都市を検索します
     .aria-label = 都市を検索します
+# "Nickname (optional)" refers to a custom, user-defined label for a saved location
+# (e.g., "Home", "Office", or "School") to make it easier to recognize.
+# Not to be translated as a legal name, username, or alias used for identity verification.
+# The description counts down as the user types.
+# Variables:
+#   $count (number) - How many more characters the nickname can have.
+newtab-clock-widget-input-nickname2 =
+    .label = ニックネーム (任意)
+    .placeholder = ニックネームを付けます
+    .aria-label = ニックネーム (任意)
+    .description = 残り { $count } 文字
 newtab-clock-widget-search-location-input =
     .label = 場所
     .placeholder = 都市を検索します

@@ -39,8 +39,6 @@ ipprotection-feature-introduction-link-text-private-browsing-2 = 新たな <a da
 ipprotection-feature-introduction-description-private-browsing = プライベート@@Window@@であっても、ユーザーの現在位置を隠してブラウジングのプライバシー保護を強化します。
 # Alternate version of the feature discovery callout copy used after we've released site inclusions for the VPN. Users have the option to turn the VPN on for specific sites only
 ipprotection-feature-introduction-description-private-browsing-3 = 閲覧時の現在位置を隠します。<a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> したいサイトや位置ベースのブラウジングでは VPN をオンにするルールを設定し、そうでないサイトではオフに設定してください。
-# Alternate version of the feature discovery callout copy used after we've released site inclusions for the VPN. Users have the option to turn the VPN on for specific sites only
-ipprotection-feature-introduction-description-private-browsing-1 = 現在位置を隠してブラウジングの <a data-l10n-name="learn-more-vpn">プライバシー保護を強化</a> しましょう。プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにするルールを設定し、そうでないサイトではオフに設定できます。
 ipprotection-feature-introduction-title-captive-portal = 公衆 Wi-Fi なら { -brand-product-name } の組み込み VPN を試してください。
 ipprotection-feature-introduction-description-captive-portal = 公衆 Wi-Fi であっても、ユーザーの現在位置を隠してプライバシー保護を強化します。
 # Used for discovery callouts for both captive portal login and private browsing
@@ -118,7 +116,6 @@ ipprotection-site-inclusions-callout-title-existing-users = 組み込み VPN の
 ipprotection-site-inclusions-callout-title-lapsed-users = 組み込み VPN をサイトごとに試せます
 ipprotection-site-inclusions-callout-description-1 = プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにして、そうでないサイトではオフに設定できます。
 ipprotection-site-inclusions-callout-description-lapsed-users = プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにするルールを設定し、そうでないサイトではオフに設定してください。
-ipprotection-site-inclusions-callout-description = プライバシー保護を強化したいサイトや位置ベースのブラウジングでは VPN をオンにして、そうでないサイトではオフに設定できます。
 ipprotection-site-inclusions-callout-primary-button = ルールを設定
 ipprotection-site-inclusions-callout-secondary-button-existing-users = 後で
 ipprotection-site-inclusions-callout-secondary-button-lapsed-users = 閉じる
@@ -328,11 +325,6 @@ ip-protection-site-rules-edit-button =
 ip-protection-site-rules-delete-button =
     .title = 削除
     .aria-label = { $website } のルールを削除
-ip-protection-site-rules-header =
-    .heading = ウェブサイトのルールを管理
-ip-protection-site-rules-button =
-    .label = ウェブサイトのルールを管理
-    .description = このサイトで追加のプライバシー強化を使用するか VPN をオフにするルールを設定します。
 ip-protection-autostart =
     .label = VPN を自動的にオンにする
 ip-protection-autostart-checkbox =

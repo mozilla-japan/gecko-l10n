@@ -19,6 +19,24 @@ download-ui-dont-go-offline-button = オンラインを維持する
 download-ui-confirm-leave-private-browsing-windows-cancel-downloads = プライベートブラウジング@@Window@@を今すぐ閉じると、{ $downloadsCount } 個のダウンロードがキャンセルされます。プライベートブラウジングモードを終了してもよろしいですか？
 download-ui-dont-leave-private-browsing-button = プライベートブラウジングを継続する
 download-ui-cancel-downloads-ok = { $downloadsCount } 個のダウンロードをキャンセル
+download-ui-confirm-cancel-button = キャンセル
+download-ui-confirm-quit-title =
+    { PLATFORM() ->
+        [windows] { $downloadsCount } 個のダウンロードを中止して { -brand-short-name } を終了しますか？
+       *[other] { $downloadsCount } 個のダウンロードを中止して { -brand-short-name } を終了しますか？
+    }
+download-ui-confirm-quit-message = { -brand-short-name } の再起動時にダウンロードの再開を試みますが、進捗は失われます。
+download-ui-confirm-quit-button =
+    { PLATFORM() ->
+        [windows] { -brand-short-name } を終了
+       *[other] { -brand-short-name } を終了
+    }
+download-ui-confirm-offline-title = { $downloadsCount } 個のダウンロードを中止してオフラインにしますか？
+download-ui-confirm-offline-message = { -brand-short-name } をオンラインに戻した時にダウンロードの再開を試みますが、進捗は失われます。
+download-ui-confirm-offline-button = オフラインモードにする
+download-ui-confirm-private-browsing-title = { $downloadsCount } 個のダウンロードを中止してこのプライベート@@Window@@を閉じますか？
+download-ui-confirm-private-browsing-message = このダウンロードは再開できません。
+download-ui-confirm-private-browsing-button = @@Window@@を閉じる
 
 ##
 

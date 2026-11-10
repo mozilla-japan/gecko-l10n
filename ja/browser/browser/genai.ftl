@@ -109,10 +109,13 @@ genai-shortcut-button =
     .aria-label = { $provider } に尋ねる
 genai-menu-new-badge = 新機能
 genai-menu-summarize-page = ページを要約
+genai-menu-summarize-with-ai = AI で要約
 genai-input-ask-smart-window =
     .placeholder = 尋ねる...
 genai-input-ask-generic =
     .placeholder = AI チャットボットに尋ねる...
+genai-input-ask-ai =
+    .placeholder = AI に尋ねる...
 # $provider (string) - name of the provider
 genai-input-ask-provider =
     .placeholder = { $provider } に尋ねる...

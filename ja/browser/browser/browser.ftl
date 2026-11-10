@@ -964,6 +964,14 @@ urlbar-view-context-menu-open-in-window2 = @@NewWindow@@で開く
     .accesskey = N
 urlbar-view-context-menu-open-in-private-window2 = @@New-CMD@@プライベート@@Window@@で開く
     .accesskey = P
+urlbar-view-context-menu-search-in-tab = @@NewTab@@で検索
+    .accesskey = w
+urlbar-view-context-menu-search-in-container-tab = @@New-CMD@@コンテナータブで検索
+    .accesskey = i
+urlbar-view-context-menu-search-in-window = @@NewWindow@@で検索
+    .accesskey = N
+urlbar-view-context-menu-search-in-private-window = @@New-CMD@@プライベート@@Window@@で検索
+    .accesskey = P
 # A checkable menu item that controls whether pressing the Tab key while
 # navigating the address bar results stops on each result's menu button. When
 # checked, the Tab key moves straight from one result to the next, skipping the
@@ -1239,7 +1247,7 @@ eme-notifications-drm-content-disabled-message = このページの音声や動�
 eme-notifications-drm-content-disabled-button =
     .label = DRM を有効にする
     .accesskey = E
-eme-notifications-drm-content-cdm-installing-message = このページの音声や映像の再生に必要なコンポーネントをインストールしています。後で試してください。
+eme-notifications-drm-content-cdm-installing-message = { -brand-short-name } がこのページの音声や映像の再生に必要なコンポーネントをインストールしています。後でもう一度試してください。
 decoder-doctor-no-codecs-linux-message = 動画を再生するには、対応する動画コーデックをインストールしてください。
 decoder-doctor-no-hw-acceleration-message = Microsoft Media Feature Pack をインストールすると、動画の再生品質が向上します。
 decoder-doctor-no-pulse-audio-message = 音声を再生するには、PulseAudio をインストールしてください。
