@@ -138,6 +138,9 @@ sidebar-history-context-menu-bookmark-page =
     .label = ページをブックマークに追加...
 sidebar-history-context-menu-delete-pages =
     .label = 選択したページを履歴から削除
+# Deletes every page listed under a date or site heading in the history sidebar.
+sidebar-history-context-menu-delete =
+    .label = 削除
 
 ## Labels for sidebar bookmarks context menu items
 

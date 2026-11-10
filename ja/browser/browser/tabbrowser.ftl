@@ -36,6 +36,11 @@ tab-splitview-splitter =
     .aria-label = タブの分割ビューのサイズを変更
 tab-devtools-splitter =
     .aria-label = 開発ツールパネルのサイズを変更
+# Used for the "Add to Group" submenu when opened on a split view.
+# The split view's two tabs are added to the group together.
+tab-context-add-split-view-to-group =
+    .label = 分割タブをグループに追加
+    .accesskey = G
 
 ## Tooltips for tab audio control
 ## Variables:
@@ -275,6 +280,13 @@ tab-context-move-tab-to-new-group =
            *[other] 選択したタブを@@New-CMD@@グループに追加
         }
     .accesskey = G
+tab-context-add-tab-to-group =
+    .label =
+        { $tabCount ->
+            [1] グループに追加
+           *[other] { $tabCount } 個のタブをグループに追加
+        }
+    .accesskey = G
 tab-context-move-tab-to-group =
     .label =
         { $tabCount ->
@@ -430,6 +442,10 @@ tab-context-open-in-split-view =
 # Separate the two split view tabs and display the tabs and their contents as normal
 tab-context-separate-split-view =
     .label = 分割ビューを終了
+    .accesskey = t
+# Separate the two split view tabs and display the tabs and their contents as normal
+tab-context-separate-split-view-alt =
+    .label = タブを分割
     .accesskey = t
 # Reverse the order of the two tabs in the split view
 tab-context-reverse-split-view =

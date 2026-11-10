@@ -18,6 +18,7 @@ contextual-manager-passwords-command-import-from-browser = 他のブラウザー
 contextual-manager-passwords-command-import = ファイルから@@Import@@...
 contextual-manager-passwords-command-export = パスワードを@@Export@@
 contextual-manager-passwords-command-remove-all = すべてのパスワードを削除
+contextual-manager-passwords-command-delete-all = すべてのパスワードを削除
 contextual-manager-passwords-command-options = オプション
 contextual-manager-passwords-command-help = ヘルプ
 contextual-manager-passwords-os-auth-dialog-caption = { -brand-full-name }
@@ -91,6 +92,9 @@ contextual-manager-passwords-remove-all-title =
         [1] パスワードを削除しますか？
        *[other] { $total } 個のすべてのパスワードを削除しますか？
     }
+# Confirm the deletion of all saved passwords when per-device sync is enabled
+#   $total (number) - Total number of passwords
+contextual-manager-passwords-delete-all-title = { $total } 個のパスワードを削除しますか？
 # Checkbox label to confirm the removal of saved passwords
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-confirm =
@@ -105,6 +109,13 @@ contextual-manager-passwords-remove-all-confirm-button =
         [1] 削除
        *[other] すべて削除
     }
+# Button label to confirm deletion of saved passwords when per-device sync is enabled
+#   $total (number) - Total number of passwords
+contextual-manager-passwords-delete-all-confirm-button =
+    { $total ->
+        [1] 削除
+       *[other] すべて削除
+    }
 # Message to confirm the removal of all saved passwords when user DOES NOT HAVE SYNC
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-message = これは { -brand-short-name } に保存されたパスワードと漏洩通知を削除します。この操作は取り消せません。
@@ -115,6 +126,9 @@ contextual-manager-passwords-remove-all-message-sync =
         [1] これは、同期されたすべての端末上の { -brand-short-name } に保存されたパスワードと漏洩通知を削除します。この操作は取り消せません。
        *[other] これは、同期されたすべての端末上の { -brand-short-name } に保存されたすべてのパスワードと漏洩通知を削除します。この操作は取り消せません。
     }
+# Message for modal to confirm the deletion of all saved passwords when user HAS SYNC with per-device sync
+#   $total (number) - Total number of passwords
+contextual-manager-passwords-delete-all-message-sync = これはパスワードを同期したすべての端末上の { -brand-short-name } からパスワードを削除します。この操作は取り消せません。
 contextual-manager-passwords-origin-label = ウェブサイト
 # The attribute .data-after describes the text that should be displayed for the ::after pseudo-selector
 contextual-manager-passwords-username-label = ユーザー名
@@ -153,12 +167,16 @@ contextual-manager-passwords-radiobutton-all = すべて ({ $total })
 contextual-manager-passwords-radiobutton-alerts = 通知 ({ $total })
 # This message is displayed to make sure that a user wants to delete an existing login.
 contextual-manager-passwords-remove-login-card-title = パスワードを削除しますか？
+# This message is displayed to make sure that a user wants to delete an existing login when per-device sync is enabled.
+contextual-manager-passwords-delete-login-card-title = パスワードを削除しますか？
 # This message warns the user that deleting a login is permanent.
 contextual-manager-passwords-remove-login-card-message = この操作は取り消せません。
 # This message gives the user an option to go back to the edit login form.
 contextual-manager-passwords-remove-login-card-back-message = 戻る
 # This message confirms that the user wants to remove an existing login.
 contextual-manager-passwords-remove-login-card-remove-button = 削除
+# This message confirms that the user wants to delete an existing login when per-device sync is enabled.
+contextual-manager-passwords-delete-login-card-delete-button = 削除
 # This message gives the user the option to cancel their attempt to remove a login.
 contextual-manager-passwords-remove-login-card-cancel-button = キャンセル
 contextual-manager-passwords-alert-card =
@@ -189,6 +207,9 @@ contextual-manager-passwords-create-label =
 contextual-manager-passwords-update-label =
     .label = パスワードを更新
 contextual-manager-passwords-remove-label =
+    .title = パスワードを削除
+# Tooltip for the delete button in the edit password form when per-device sync is enabled
+contextual-manager-passwords-delete-label =
     .title = パスワードを削除
 contextual-manager-passwords-origin-field =
     .label = ウェブサイトの URL
@@ -291,6 +312,9 @@ contextual-manager-passwords-discard-changes-close-button = 閉じる
 contextual-manager-passwords-discard-changes-go-back-button = 戻る
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-passwords-checkbox = はい、パスワードを削除します
+# Checkbox label to confirm the deletion of saved passwords when per-device sync is enabled
+#   $total (number) - Total number of passwords
+contextual-manager-passwords-delete-all-passwords-checkbox = はい、パスワードを削除します
 # This string informs the user they need to provide their primary password for FireFox to access their saved passwords in Firefox.
 contextual-manager-primary-password-reauth-header = 保存されたパスワードを表示するには、マスターパスワードを入力してください。
 # This string informs the user their primary password is used to authenticate and access their passwords

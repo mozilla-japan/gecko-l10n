@@ -1168,6 +1168,9 @@ prefs-syncing-button =
 prefs-syncing-button-2 =
     .label = 同期中...
     .title = 今すぐ同期
+# "Your sync choices" refers to the choices a user makes on what types of data they want to sync
+sync-cwts-migration-notification =
+    .message = 選択した同期項目は現在、この端末にのみ適用されています。
 
 ## The list of things currently syncing.
 
@@ -1205,6 +1208,11 @@ sync-engine-bookmarks =
 sync-engine-history =
     .label = 履歴
     .accesskey = r
+# This string is a modified noun (i.e. tabs that are open)
+sync-engine-tabs2 =
+    .label = 開いているタブ
+    .tooltiptext = 同期した他の端末で開いているタブです
+    .accesskey = t
 sync-engine-tabs =
     .label = 開いているタブ
     .tooltiptext = 同期した端末で開いているすべてのタブの一覧です
@@ -1213,6 +1221,22 @@ sync-engine-passwords =
     .label = パスワード
     .tooltiptext = 保存したパスワードです
     .accesskey = P
+sync-engine-addresses2 =
+    .label = 住所フォーム
+    .tooltiptext = { -brand-short-name } に保存した住所です
+    .accesskey = e
+sync-engine-payment-methods3 =
+    .label = 支払い方法
+    .tooltiptext = 保存した支払い方法です
+    .accesskey = n
+sync-engine-addons2 =
+    .label = アドオン
+    .tooltiptext = デスクトップ版 { -brand-short-name } に追加した拡張機能とテーマです
+    .accesskey = A
+sync-engine-settings2 =
+    .label = 設定
+    .tooltiptext = 適用可能な { -brand-short-name } の設定です
+    .accesskey = s
 sync-engine-addresses =
     .label = 住所フォーム
     .tooltiptext = 保存した住所です (デスクトップのみ)
@@ -1727,7 +1751,7 @@ enhanced-tracking-protection-setting-custom =
     .label = カスタム
     .accesskey = C
 
-##
+## Privacy Section - Content Blocking
 
 content-blocking-etp-standard-desc = 保護と性能をバランスよく。ページが正しく機能するように読み込みます。
 content-blocking-etp-strict-desc = より強固な保護ですが、一部のサイトやコンテンツが機能しなくなる可能性があります。
