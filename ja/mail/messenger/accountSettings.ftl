@@ -154,3 +154,42 @@ account-settings-rss-wizard-title = フィードアカウントアシスタン�
 account-settings-rss-default-account-name = ブログとニュース
 
 ## Advanced server settings
+
+account-settings-advanced-server-title = アカウントの詳細設定
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP サーバーディレクトリー:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = 購読しているフォルダーのみ表示する
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = サブフォルダーとメッセージの両方を含むフォルダーをサーバーがサポートしている
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = サーバーへの最大同時接続数
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = IMAP サーバーの名前空間を設定します:
+account-settings-imap-personal-namespace =
+    .value = 個人名前空間:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = 公開 (共有) 名前空間:
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = 他のユーザーの名前空間:
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = サーバーによる名前空間の上書きを許可する
+    .accesskey = A
+account-settings-pop-inbox-description = このアカウントのサーバーからメールをダウンロードするとき、新着メッセージを次のフォルダーに保存する:
+account-settings-pop-inbox-current-account =
+    .label = このアカウントの受信トレイ
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = 別のアカウントの受信トレイ
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = 新着メールの取得時にこのサーバーも同時に受信
+    .accesskey = I
