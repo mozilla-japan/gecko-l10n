@@ -137,9 +137,109 @@ oauth-provider-extension-info = 拡張機能より提供された OAuth2 設定:
 
 ## Incoming server settings
 
+account-settings-server-document-title = サーバー設定
+account-settings-server-type =
+    .value = サーバーの種類:
+account-settings-server-name =
+    .value = サーバー名:
+    .accesskey = S
+account-settings-user-name =
+    .value = ユーザー名:
+    .accesskey = N
+account-settings-port =
+    .value = ポート:
+    .accesskey = P
+account-settings-default-port =
+    .value = @@Default@@:
+account-settings-connection-security =
+    .value = 接続の保護:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = なし
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = 新着メッセージがないか
+    .accesskey = y
+account-settings-minutes =
+    .value = 分ごとに確認する
+account-settings-automatically-download-new-messages =
+    .label = 新着メッセージを自動的にダウンロードする
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = ヘッダーのみ取得する
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = ダウンロード後もサーバーにメッセージを残す
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = ダウンロードしてから
+    .accesskey = o
+account-settings-days =
+    .value = 日以上経過したメッセージは削除する
+account-settings-leave-messages-until-deleted =
+    .label = ダウンロードしたメッセージを削除したらサーバーからも削除する
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = 次のフォルダーに移動する:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = ダウンロードするメッセージ数が
+    .accesskey = m
+account-settings-messages =
+    .value = 以上になる場合は確認する
+account-settings-always-authenticate =
+    .label = サーバーへ接続するときは必ず認証を要求する
+    .accesskey = w
+account-settings-message-storage = メッセージの保存
+account-settings-empty-trash-on-exit =
+    .label = 終了時にゴミ箱を空にする
+    .accesskey = x
+account-settings-message-store-type =
+    .value = メッセージの格納形式:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = フォルダー単位 (mbox 形式)
+account-settings-message-store-maildir =
+    .label = メッセージ単位 (maildir 形式)
+account-settings-newsrc-file =
+    .value = News.rc ファイル:
+account-settings-browse-newsrc =
+    .label = @@Browse@@...
+    .accesskey = e
+    .filepickertitle = News.rc ファイルを選択してください
+account-settings-local-directory =
+    .value = メッセージの保存先:
+account-settings-browse-local-directory =
+    .label = @@Browse@@...
+    .accesskey = B
+    .filepickertitle = メッセージデータの保存先を選択してください
+account-settings-default-text-encoding =
+    .value = @@Default-@@テキストエンコーディング:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = アカウント設定
+account-settings-title =
+    .value = アカウント設定
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = これは特殊なアカウントであり、特定の差出人情報はありません。
+account-settings-account-name =
+    .value = アカウント名:
+    .accesskey = N
+account-settings-rss-server-settings = サーバー設定
 account-settings-rss-enable-updates =
     .label = すべてのフィードの更新を有効にする
     .accesskey = E
