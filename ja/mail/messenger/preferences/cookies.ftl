@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = このコンピューターに保存されている Cookie:
 cookies-filtered-label =
     .value = 以下の Cookie が検索にマッチしました:
-cookies-stored-label = このコンピューターに保存されている Cookie:
 cookies-on-system-label = 以下の Cookie が保存されています:
 treecol-site-header =
     .label = サイト

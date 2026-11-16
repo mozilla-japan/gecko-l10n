@@ -10,6 +10,9 @@ category-list =
 pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = 通知
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = 外観
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = モバイル向けの@@ExportNoun@@
 category-qr-export =
     .tooltiptext = モバイル向けの@@ExportNoun@@
+pane-beta-features-title = Beta 機能
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = 実験的な機能
 general-language-and-fonts-header = 言語とフォント
 general-email-notifications-header = メール通知
 general-incoming-mail-header = 新着メールの通知
@@ -116,6 +123,7 @@ update-in-progress-ok-button = 破棄(&D)
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = 続行(&C)
+accounts-button = アカウント
 account-button = アカウント設定
 open-addons-sidebar-button = アドオンとテーマ
 manual-storage-limit-label =
@@ -631,6 +639,7 @@ show-conversation-view-label =
     .label = 会話ビューを表示する
     .accesskey = c
 conversation-view-preview-description = これは開発中の早期プレビュー機能のため期待通りに動作しない可能性があります。この機能は関連メッセージをグループにまとめます。
+conversation-view-settings-link = Beta 機能で会話ビューを設定する
 conversation-view-checkbox-label =
     .label = 会話ビューを有効にする
     .accesskey = c
@@ -678,6 +687,7 @@ new-calendar-legend = カレンダーの@@New-CMD@@予定ダイアログ
 new-calendar-checkbox-label =
     .label = 新しいダイアログでカレンダーの予定を表示する
 new-calendar-checkbox-description = 予定を表示するための実験的な新しいカレンダーダイアログです。
+new-calendar-dialog-settings-link = Beta 機能で@@New-CMD@@カレンダーの予定ダイアログを設定する
 
 ## Compose Tab
 

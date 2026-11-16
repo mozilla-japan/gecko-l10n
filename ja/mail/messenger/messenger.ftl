@@ -15,6 +15,19 @@ messenger-save-message-failed = メッセージを保存できませんでした
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } はすでに存在します。置き換えますか？
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = { $server } 上に “{ $folder }” フォルダーのファイルが見つかりませんでした。ファイルを修復するか別のフォルダーを指定してから再度試してください。
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = { $server } 上の “{ $folder }” にアクセスできません。このフォルダーのファイルアクセス権を確認してから再度試してください。
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = { $server } 上の “{ $folder }” にアクセスできません。このフォルダーのファイルが利用可能で書き込み可能か確認してから再度試してください。エラー: { $errorCode }
 
 ## Window controls
 
@@ -273,6 +286,8 @@ appmenu-save-as-file =
     .label = ファイル...
 appmenu-settings =
     .label = 設定
+appmenu-accounts =
+    .label = アカウント
 appmenu-addons-and-themes =
     .label = アドオンとテーマ
 
@@ -493,6 +508,8 @@ spaces-context-switch-tab-item =
     .label = { $tabName }に切り替える
 settings-context-open-settings-item2 =
     .label = 設定
+settings-context-open-accounts-item =
+    .label = アカウント
 settings-context-open-account-settings-item2 =
     .label = アカウント設定
 settings-context-open-addons-item2 =

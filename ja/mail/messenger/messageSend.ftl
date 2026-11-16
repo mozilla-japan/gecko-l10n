@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = 送信 (SMTP) サーバー { $hostname } が�
 smtp-auth-failure = 送信 (SMTP) サーバー { $hostname } の認証に失敗しました。パスワードを確認し、“アカウント設定” の “送信 (SMTP) サーバー” で “認証方式” が正しいことを確認してください。
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = OAuth2 を利用した送信 (SMTP) サーバー { $hostname } の認証に失敗しました。サーバーからの応答: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = OAuth2 を利用した送信 (SMTP) サーバー { $hostname } の認証に失敗しました。
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Kerberos/GSSAPI チケットが送信 (SMTP) サーバー { $hostname } に受け入れられませんでした。Kerberos/GSSAPI レルムにログインしているか確認してください。
 # Variables:
 # $hostname - outgoing server hostname

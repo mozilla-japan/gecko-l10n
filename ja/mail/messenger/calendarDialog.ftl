@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = 閉じる
 calendar-event-create-edit-dialog =
     .aria-label = 予定
+calendar-event-title-input-new =
+    .aria-label = 予定の件名
+    .placeholder = @@New-CMD@@予定
+calendar-event-title-input-untitled =
+    .aria-label = 予定の件名
+    .placeholder = 件名なし
+calendar-event-title-required = 必須
+calendar-event-title-too-long = 件名は 180 文字までです
 calendar-dialog-menu-button =
     .aria-label = メニューを開く
     .title = メニューを開く
 calendar-dialog-back-button =
     .aria-label = 戻る
     .title = 戻る
+calendar-event-create-edit-dialog-back-button = 戻る
 calendar-dialog-date-row-icon =
     .alt = 日付と時刻
 calendar-dialog-date-row-recurring-icon =
@@ -110,6 +119,22 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = すべての予定
 calendar-prompt-delete-button = 削除
+calendar-dialog-edit-button = 編集
+calendar-event-create-edit-save-button = 保存
+calendar-event-calendar-selector =
+    .aria-label = カレンダー
+calendar-event-save = 保存
+calendar-event-saving = 保存しています...
+calendar-event-save-failed = 予定を保存できませんでした。もう一度試してください。
+calendar-event-calendar-unavailable = このカレンダーは新しい予定を追加できません。別のカレンダーを選択してもう一度試してください。
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = 空き状況
+calendar-event-availability-default = @@Default@@
+calendar-event-availability-busy = 他の予定あり
+calendar-event-availability-free = 予定なし
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
