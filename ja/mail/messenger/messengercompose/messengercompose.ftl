@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = { $url } のブロックを解除
+menuitem-resize-header-area =
+    .label = ヘッダー領域のサイズを変更
+    .accesskey = R
+compose-header-area-splitter =
+    .aria-label = ヘッダー領域
+    .aria-description = カーソルキーの↑および↓でサイズを変更します。Shift キーを同時に押すと大きなステップで変更できます。Tab キーで編集ペインへ移動し、Shift+Tab キーで件名へ移動します。
 
 ## Send Format
 
